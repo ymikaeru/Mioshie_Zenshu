@@ -1,9 +1,46 @@
 # Mioshie_Teachings - Part 5
 
+# A Purificação Sistêmica do Veneno dos Remédios
+
+**Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年12月28日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
+
+## A Purificação Sistêmica do Veneno dos Remédios
+
+**Orientação de Meishu-Sama, 28 de dezembro de 1951**
+
+**Consulta:**
+
+Gostaria de solicitar uma orientação. Em fevereiro deste ano, recebi uma purificação sob a forma de um resfriado e, após me restabelecer em casa em meados de março, senti-me um pouco melhor e pude me dedicar às atividades de difusão. Contudo, desde o início de setembro, passei a sentir calafrios intensos, acompanhados de tosse severa, grande quantidade de catarro e ausência de evacuações. A partir de outubro, voltei a me resguardar em casa, condição em que permaneço até o presente momento.
+
+Atualmente, encontro-me bastante debilitado. Embora minha aparência externa seja a de alguém saudável, minhas pernas emagreceram consideravelmente. Consigo utilizar o banheiro sem auxílio. Meu apetite oscila; mesmo nos momentos em que não o tenho, consigo me esforçar para comer cerca de metade de uma tigela de arroz. Quando recebo Johrei nos ombros, nas costas e na região posterior ao estômago, por vezes manifesto febre e delírios, embora tais episódios tenham se tornado mais raros. A sensação de frio intenso, presente até novembro, diminuiu, mas a região lombar permanece constantemente dormente. Sinto também falta de ar, o que me impede de manter conversas prolongadas. Nos momentos de maior dificuldade respiratória, sinto como se um nódulo na boca do estômago pressionasse meu peito.
+
+Desde a infância, meu estômago é frágil, e fiz uso de medicamentos como Wakamoto, antiácidos e outros remédios em pó. Ademais, a cada resfriado, recorria a xaropes para a tosse. Aos 24 anos, fui submetido a um tratamento médico de aproximadamente 75 dias devido a um quadro de beribéri com dormência.
+
+No presente, sinto calor na cabeça (no topo e na nuca), no bulbo, nos ombros, nas costas, na área posterior ao estômago e no rim esquerdo. Estamos concentrando o Johrei nesses pontos. Estaria correto este procedimento? Ou tratar-se-ia de uma questão de ordem espiritual?
+
+Acrescento que toda a minha família ingressou na fé, e temos entronizados em nosso lar o Gohonzon e a imagem de Kannon (観音) em pergaminho.
+
+**Resposta de Meishu-Sama:**
+
+Isto não possui natureza espiritual. Trata-se do veneno dos remédios, o yakudoku. A causa é medicamentosa. O organismo deste homem está impregnado de toxinas medicamentosas. Portanto, é necessário proceder com paciência e perseverança.
+
+Antigamente, como essas toxinas se encontravam solidificadas, a purificação ocorria de forma gradual e localizada, o que mascarava a real dimensão do problema. Agora, contudo, o processo tornou-se sistêmico. A purificação não está restrita a um único ponto; ela se manifesta por todo o corpo. A febre suprime o apetite; a falta de apetite, por sua vez, resulta em constipação; e daí decorrem a tosse e o catarro.
+
+Como ele tem 53 anos, uma purificação intensa não sobrevém de uma só vez. Se ocorresse uma purificação que trouxesse grande sofrimento de imediato, a cura seria rápida. Todavia, como não há força purificadora para tanto, o processo se estenderá por mais tempo. É simplesmente isso.
+
+Ao ministrar Johrei, o mais importante é identificar o ponto vital. Ao examinar o corpo, encontrará o local de maior calor; este é o ponto nevrálgico. Concentre o Johrei ali. Mesmo quando ele próprio aplicar Johrei em si, é fundamental que o faça sem tensionar o corpo.
+
+Agindo dessa forma, a cura virá. Não há nenhuma dificuldade nisso. É apenas isso.
+
+---
+
 # A Providência Divina e o Segundo Início
 
 **Categoria:** situmon | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S29年4月1日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Providência Divina e o Segundo Início
 
@@ -289,6 +326,7 @@ A propósito, na nossa atual exposição Momoyama, está em exibição uma caixa
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S27年11月1日） | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1952-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Esclarecimentos de Meishu-Sama
 
@@ -412,6 +450,7 @@ A propósito, na nossa atual exposição Momoyama, está em exibição uma caixa
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年6月2日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Hierarquia Espiritual e o Poder da Palavra
 
@@ -471,6 +510,7 @@ O Japão é um país onde o espírito é principal e o corpo é secundário. O O
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年3月17日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Causa Espiritual das Enfermidades
 
@@ -570,6 +610,7 @@ A toxina que se liquefez acumulou-se nesse ponto.
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月30日 | **Fonte:** -
 **Título Original:** 超人間的の業 | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1949-07-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Esclarecimentos sobre Questões da Fé e do Espírito
 
@@ -669,6 +710,7 @@ Este é o segundo artigo da série de perguntas e respostas com o Grande Mestre 
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年3月8日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos de Meishu-Sama
 
@@ -704,6 +746,7 @@ Contudo, é preciso considerar o fator do hábito. Em casos onde o problema se t
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年9月8日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Harmonia Divina na Fé e na Vida Cotidiana
 
@@ -1121,6 +1164,7 @@ Isso não. A Imagem Divina só pode ser outorgada após a conclusão do curso. O
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年5月10日 | **Fonte:** 実生分会ニュース
 **Título Original:** 妙智の鍵 実生分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-05-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 実生分会ニュース
 
 ## Esclarecimentos sobre a Fé e o Cotidiano
 
@@ -1166,6 +1210,7 @@ R: É uma forma de superstição. Mesmo que algo desfavorável ocorra em um dess
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年10月5日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Elucidações Divinas sobre as Causas da Purificação
 
@@ -1267,6 +1312,7 @@ Existe uma solidificação nesta região do pescoço que causa os tremores. O ma
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年3月8日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre Diversos Assuntos
 
@@ -1408,6 +1454,7 @@ O aborto e o controle de natalidade são, obviamente, distintos. O pecado do con
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年1月18日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## A Nova Metodologia de Divulgação
 
@@ -1427,6 +1474,7 @@ O abdômen dilatado indica uma disfunção renal. Já a meningite, por sua vez, 
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年11月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 54号 | **Data ISO:** 1953-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 *Do Ensinamento de Luz, 『Paraíso Terrestre』, nº 54, publicado em 25 de novembro de 1953*
 
@@ -1520,6 +1568,7 @@ A explicação referente à paralisia encontra-se nos Escritos Divinos. Ao consu
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S27年3月1日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Diálogo sobre Arte, Fé e Purificação
 
@@ -2027,6 +2076,7 @@ As marcas são temporárias.
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年8月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 51号 | **Data ISO:** 1953-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Orientações sobre a Fé e a Prática
 
@@ -2092,6 +2142,7 @@ Submeto, respeitosamente, duas questões.
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年5月5日 | **Fonte:** 会報
 **Título Original:** 妙智の鍵 光明分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Elucidações sobre o Mundo Espiritual e a Vida Cotidiana
 
@@ -2255,6 +2306,7 @@ O coração absorve o elemento fogo; os pulmões, o elemento água; e o estômag
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** Chijo Tengoku
 **Título Original:** 妙智之光 | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1949-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos sobre a Fé e o Cotidiano
 
@@ -2374,6 +2426,7 @@ Anos atrás, uma pesquisa estatística sobre pacientes com tuberculose em Tóqui
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年9月8日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Diálogos sobre a Fé, o Mundo Espiritual e a Vida Cotidiana
 
@@ -2479,6 +2532,7 @@ Não se pode dizer que o conflito seja inteiramente mau, nem que seja sempre ace
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月10日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年5月23日） | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1949-07-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre Diversos Assuntos
 
@@ -2610,6 +2664,7 @@ Não, para os olhos não é eficaz. O tratamento para os olhos deve ser feito na
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年5月8日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos sobre Deuses, Espíritos e a Nova Era
 
@@ -2671,6 +2726,7 @@ Ademais, a raposa é um animal. Se uma pessoa se habitua a utilizar tais entidad
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年3月16日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Orientações sobre as Purificações
 
@@ -2832,6 +2888,7 @@ Que insensatez! Usar um hemostático... Uma pequena hemorragia é um sinal magn�
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年2月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1951-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Direcionamentos Divinos sobre Diversos Assuntos
 
@@ -2917,6 +2974,7 @@ Procedendo dessa maneira, Deus certamente cuidará para que tudo se resolva conf
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年2月8日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年1月8日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1949-02-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Orientações sobre Diversas Questões
 
@@ -3033,6 +3091,7 @@ Isso é inadmissível. É preferível que o Pergaminho de Komyo Nyorai não seja
 
 **Categoria:** situmon | **Ano:** 昭和23(1948)年12月8日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S23年11月18日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1948-12-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Vida e a Fé
 
@@ -3130,6 +3189,7 @@ As verrugas também podem ser removidas ou não, e da mesma forma, representam u
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年8月8日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Esclarecimentos sobre Diversos Aspectos da Fé
 
@@ -3407,6 +3467,7 @@ Esses fatores influenciam diretamente a relação com a arte. Doravante, o Japã
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年1月17日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre as Causas das Doenças
 
@@ -3478,6 +3539,7 @@ Não há problema. Vocês consagraram o Komyō Nyorai, certo? Se sim, mesmo que 
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S28年6月1日） | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1953-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Orientações Divinas de 1º de junho de 1953
 
@@ -3641,6 +3703,7 @@ Dobre-a e guarde-a.
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 46号 | **Data ISO:** 1953-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Consultas e Orientações
 
@@ -3734,6 +3797,7 @@ Trata-se de uma ocorrência de natureza espiritual. Existe uma massa de toxinas 
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年10月28日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Elucidações sobre a Causa das Doenças e a Ação do Johrei
 
@@ -3811,6 +3875,7 @@ Com a ministração do Johrei, a quantidade de toxinas diminuirá gradualmente, 
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年12月3日 | **Fonte:** -
 **Título Original:** 夜中首がのびる | **Status:** Published | **Edição/Página:** 38号 | **Data ISO:** 1949-12-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Fenômeno do Pescoço que se Alonga
 
@@ -3840,6 +3905,7 @@ Cumpre, pois, que se tente.
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年10月8日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre Diversas Purificações
 
@@ -3900,120 +3966,6 @@ A miopia já indicava um acúmulo de toxinas na região occipital. Não parece h
 Depende da cirurgia. A remoção do pus por trás do olho não causa grandes problemas, mas o pus volta a se acumular rapidamente. A medicina é, de fato, bastante simplista. Os médicos acreditam que basta remover o pus daquele local, pois ignoram as "tropas de reforço" de toxinas que vêm em seguida. Esse modo de pensar é de uma simplicidade que beira o absurdo. Por essa razão, há pessoas que, mesmo após a remoção do apêndice, voltam a sentir dor no mesmo local. Isso ocorre porque se forma um hábito de acúmulo de pus na região do apêndice.
 
 É por isso que, na medicina, às vezes aconselham o paciente com glaucoma a esperar até que a visão piore ainda mais antes de operar, mesmo que ele já enxergue pouco. Conheço um caso assim. Um senhor, aos sessenta anos, foi a uma consulta e o médico lhe disse que seria melhor esperar o acúmulo de pus atingir o ápice para então realizar a cirurgia, pois a probabilidade de um novo acúmulo seria menor. Cerca de dez anos depois, ele retornou ao médico, que então lhe disse: "O senhor está velho demais, a cirurgia agora é arriscada". É, na verdade, uma tragicomédia.
-
----
-
-# Ensinamentos em Diálogo
-
-**Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
-**Título Original:** 御光話 （S24年3月13日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1949
-
-## Ensinamentos em Diálogo
-
-**P: Haveria alguma relação entre a linhagem espiritual e o tipo sanguíneo?**
-
-Não, não há qualquer relação. A linhagem espiritual é una e imutável; já a linhagem sanguínea, em contrapartida, torna-se confusa e desordenada através da miscigenação. A Verdade, por analogia, é um princípio constante e invariável. Por exemplo, o fato de o Sol nascer no Leste e se pôr no Oeste é uma verdade que jamais se alterou desde os tempos mais remotos. A moral, todavia, está em perpétua transformação. A ideologia de lealdade ao imperador, tão presente durante a guerra, hoje desapareceu por completo. Ocorre o mesmo com as linhagens: a espiritual é perene, enquanto a sanguínea se modifica.
-
-**P: Por que o calor solar é mais intenso em baixas altitudes e mais perceptível próximo ao solo?**
-
-Na realidade, o que ocorre é o inverso. O calor solar é, na verdade, mais fraco em baixas altitudes. A ideia de que o solo é aquecido por absorver o calor do Sol é um equívoco; o calor provém do interior da Terra. O calor geotérmico é consideravelmente mais intenso que o solar. Prova disso é que, quanto maior a altitude de uma montanha, mais fria ela se torna, pois se distancia da fonte de calor terrestre. Isso demonstra que o calor do Sol é relativamente brando. É também por essa razão que a neve acumulada começa a derreter pela camada inferior. Contudo, quando o calor solar e o geotérmico se unem, sua força se intensifica.
-
-É por isso que, ao cavarmos um pouco abaixo da superfície, o local se torna fresco, pois nos afastamos da incidência solar. Mas isso ocorre apenas até certa profundidade; a partir daí, a temperatura aumenta progressivamente, a ponto de derreter até mesmo o ferro. Se pudéssemos cavar tão fundo, não precisaríamos de navios para ir à América; bastaria construir um túnel e usar elevadores. (Risos) O centro da Terra é uma massa incandescente.
-
-É esse o princípio por trás das fontes termais. A água subterrânea que flui por fissuras nas rochas é aquecida pelo calor da Terra e emerge à superfície. As águas de Hakone, por exemplo, são de montanha, mas as de Atami são subterrâneas, correndo como um rio a cerca de trezentos metros de profundidade. Pode-se estimar que esse rio de águas termais tenha entre vinte e quarenta metros de largura. Se o leito rochoso por onde passa contém minerais, elementos como ferro e enxofre se dissolvem na água. Eis a origem das chamadas fontes minerais, ricas em ferro ou compostos sulfurosos.
-
-Pretendo, em breve, perfurar em busca de uma fonte termal em nossa propriedade agrícola. Tenho bastante confiança de que a encontraremos. Há maneiras de identificar onde as águas termais brotam. Primeiramente, observa-se a vegetação local: as árvores parecem sem vigor e têm uma tonalidade acastanhada, efeito do enxofre. O solo também é completamente diferente, e a própria água da região revela sua natureza. Ao perfurar, a partir de certa profundidade, encontramos rochas impregnadas de ferro e enxofre. Mais abaixo, as rochas se assemelham a blocos de ferro puro. Alguém já tentou perfurar naquela área, mas o fez em um afluente do rio termal e não obteve sucesso. A corrente principal, mais robusta, localiza-se mais ao fundo. Desta vez, pretendo perfurar diretamente no veio principal.
-
-**P: As profundezas do oceano são quentes?**
-
-Não, são igualmente frias. O espírito da água tem a propriedade de resfriar e, à medida que se adentra as camadas mais profundas, sua concentração aumenta, tornando o ambiente mais frio. Além disso, os gases geotérmicos possuem uma força considerável. No futuro, eles se tornarão a principal fonte de energia motriz.
-
-**P: Gostaria de saber qual a diferença entre o Elemento Fogo que emana de Deus Supremo e o que emana do Sol.**
-
-São a mesma coisa. O Elemento Fogo é a energia espiritual do Sol. A fonte primordial do calor é o Sol, e o Sol é o corpo divino de Deus Supremo; portanto, a atuação do calor de Deus se manifesta como o Sol. Numa analogia matrimonial, o Sol seria o masculino e a Lua, o feminino. A humanidade vive pela irradiação da energia espiritual de ambos. Com o advento do Mundo do Dia, o Elemento Fogo se tornará ainda mais intenso. Contudo, embora o fogo seja espírito, o Elemento Fogo é o espírito do espírito; por essa razão, sua manifestação física no Mundo Material não é tão evidente. Ainda assim, é possível percebê-lo em certa medida. De fato, quando ministro Johrei, algumas pessoas exclamam: “Que calor, que calor!”, e todos comentam que o ambiente onde me encontro é sempre aquecido.
-
-**P: A Lua é um corpo sólido ou líquido? Se for sólida, estaria congelada?**
-
-Exatamente. A Lua é um bloco de gelo. E dela também emana uma energia espiritual, uma poderosíssima essência de Água. Sem ela, os seres humanos simplesmente se desintegrariam pelo calor.
-
-**P: Uma mulher de trinta e nove anos, após um resfriado, foi perdendo a voz gradualmente. Depois de receber Johrei por duas semanas, ela retornou ao mesmo estado do início da doença, com febre e dor. Qual a sua orientação?**
-
-Isso é excelente. Significa que as toxinas que estavam solidificadas começaram a se dissolver. Ela será curada. A voz é produzida pela vibração de pregas vocais; uma vibração sutil gera um som agudo, enquanto uma vibração mais branda produz uma voz grave e baixa. No caso dela, formou-se um acúmulo de toxinas na base dessas pregas, impedindo a fala. Ao dissolvermos essa massa, a voz retornará.
-
-**P: O avô dessa pessoa estrangulou um gato no passado, e a tia dela sofre do mesmo problema. Suspeitamos de uma causa espiritual...**
-
-Certamente. O apego do gato ainda não se dissipou por completo. Por isso, é preciso ministrar Johrei intensamente na fronte e na garganta dela.
-
-**P: A paciente apresenta febre alta na testa e na região das glândulas parótidas. Ontem, seu maxilar inferior inchou a ponto de ela não conseguir baixar a cabeça.**
-
-Isso é um ótimo sinal. Costuma-se falar em doenças espirituais, mas o corpo espiritual e o corpo físico são unos e indivisíveis. Um espírito só consegue se manifestar onde há máculas. Portanto, ao ministrarmos Johrei, as máculas são purificadas, e o espírito não consegue mais se fixar ali.
-
-**P: Ao entronizarmos uma Caligrafia Sagrada emoldurada, qual a ordem e a posição corretas?**
-
-Ela não deve ser colocada exatamente acima da alcova ornamental (tokonoma). Escolha o melhor lugar disponível, com exceção desse ponto central. Um local ideal seria sobre as prateleiras assimétricas (chigai-dana). Uma regra importante: onde houver uma caligrafia minha, não se deve pendurar fotografias de outras pessoas ou obras caligráficas de outros autores.
-
-**P: E em um espaço pequeno, sem essas prateleiras?**
-
-Se não houver um local realmente adequado, pode-se pendurá-la em uma das extremidades da alcova principal.
-
-**P: Qual a ordem correta para caligrafias como “Sol e Lua” e “Paraíso Terrestre”?**
-
-A disposição não pode ser aleatória. As palavras que escrevo estão vivas; são organismos. É preciso, portanto, considerar a hierarquia. “Sol e Lua” deve ficar no topo. “Mundo de Luz” viria logo abaixo. “Paraíso Terrestre” pode vir depois de “Mundo de Luz”. “Dragão Divino” pode ficar bem mais abaixo. As caligrafias com dragões devem ficar em posição inferior, pois os dragões estão abaixo dos seres humanos. “Luz de Kannon” — Kannon (観音) é um buda, e a luz de um buda não precisa estar em uma posição tão elevada; pode vir depois de “Paraíso Terrestre”. Já “Mundo Divino” deve estar bem no alto, pois se refere ao mundo de Deus. “Terra Pura e Luminosa” pode ficar mais abaixo. “Vento Divino”, por ser vento, pode ser colocado em qualquer lugar.
-
-**P: Sobre os corvos: (1) Dizem que seu grasnido pode prever boa ou má sorte. Isso é verdade? (2) Afirmam que os corvos têm uma espiritualidade elevada. Por que, então, sua voz e aparência não são tão belas?**
-
-(1) Sim, é possível compreender seus chamados. Há pessoas com grande sensibilidade para isso, capazes de dizer: “Agora o corvo está chamando seus companheiros”, e geralmente acertam. Na verdade, isso se aplica a qualquer pássaro, mas é especialmente notável nos corvos. A crença de que o grasnido de um corvo anuncia a morte de alguém também é verdadeira.
-
-(2) Os corvos possuem uma espiritualidade elevada e uma intuição aguçada. Desde a antiguidade, são considerados mensageiros de Amaterasu Oomikami, pois têm uma profunda conexão com o Sol. No Mundo Espiritual, os corvos se tornam *karasu-tengu* e, entre as aves, ocupam a mais alta hierarquia, encarregando-se de todas as tarefas divinas. Meu espírito guardião secundário, aliás, é um corvo.
-
-**P: Mas muitas pessoas detestam o som que os corvos emitem...**
-
-Sim, a maioria das pessoas não gosta. Isso se deve ao fato de eles se alimentarem de carcaças e também por anunciarem a morte de alguém com seu grasnido.
-
-**P: Se possuem uma espiritualidade tão elevada, por que são tão malquistos?**
-
-É o ser humano que os rejeita. Os seres humanos, em geral, não compreendem nada. Observe uma gueixa, por exemplo. Ela parece esplêndida, bela e refinada, ao menos na aparência. Na prática, contudo, elas são a origem de inúmeros conflitos familiares. (Risos) Na verdade, aquilo que o homem considera bom costuma ser mau, e o oposto também ocorre com frequência.
-
-**P: Qual o nível de educação superior que uma mulher deveria almejar?**
-
-É preferível que recebam a melhor educação possível, ao menos até o nível de uma universidade feminina. Um baixo nível de instrução resulta em falta de capacidade de compreensão, o que é um problema. Na prática, é muito raro encontrar uma mulher com quem se possa ter uma conversa substancial. O nível dos homens já é baixo, mas o das mulheres é ainda mais. A maioria das pessoas deveria, no mínimo, cursar uma universidade. O problema é que o sistema educacional atual é ineficiente e leva o dobro do tempo necessário. Se fosse bem estruturado, o período de estudos poderia ser reduzido à metade. Uma duração tão longa acarreta diversos inconvenientes. Os homens também precisam ser intelectuais. Aqueles que não o são carecem de discernimento, e conversar com eles não tem o menor interesse.
-
-**P: Parece que, entre os filhos, o mais novo costuma ser mais brilhante que o mais velho. Qual a razão para isso?**
-
-Os filhos refletem os pais. Na época em que nasce o primogênito, os pais ainda são menos experientes. Quando nasce o caçula, eles já acumularam mais vivência e sabedoria, e isso se reflete na criança, que se torna mais inteligente. Há outro fator: o primeiro filho, por não ter grandes estímulos, tende a ser mais apático. É por isso que no Japão existe o ditado sobre “o primogênito simplório”. Embora não tenhamos estatísticas sobre isso no Japão, no Ocidente há dados que mostram que famílias com muitos filhos produzem mais indivíduos notáveis. Isso ocorre porque, em lares numerosos, o tratamento dispensado às crianças pode ser menos favorável, o que acaba por lapidá-las.
-
-**P: Qual o significado do gesto de unir as mãos em oração?**
-
-É um gesto natural. Embora se criem diversas teorias, trata-se de algo que ocorre espontaneamente, assim como inclinar a cabeça em sinal de cumprimento.
-
-**P: Qual é o fundamento teórico dos ateus?**
-
-É a visão materialista, a ideia de que “o que não se vê não existe”. Por isso, escrevi certa vez em um livro: “É mais difícil fazer um homem civilizado de hoje acreditar na existência do espírito do que explicar a um selvagem a existência do ar”. Há ainda outro fator: a negação por parte do espírito guardião secundário. Existem pessoas que, mesmo compreendendo perfeitamente e se maravilhando com as curas operadas pelo Johrei, simplesmente não conseguem aceitar a fé. Nesses casos, a causa é invariavelmente a interferência do guardião secundário, que lhes sussurra: “Como algo tão absurdo poderia ser verdade?”, obstruindo o caminho. Com o avanço para o Mundo do Dia, o poder do espírito guardião secundário diminuirá, e todos, sem exceção, passarão a crer no espírito. É por essa mesma razão que a Obra Divina se expande em certos lugares e em outros não. Onde há expansão, a luz já chegou; onde não há, a escuridão ainda prevalece.
-
-**P: Uma mulher de trinta e dois anos sofreu uma queimadura aos quatro, ao cair em uma lareira de chão. Desde então, seu abdômen começou a crescer. Há alguns anos, foi diagnosticada com um cisto ovariano purulento e passou por uma cirurgia. Ela pode ser curada pelo Johrei?**
-
-Não creio que a causa seja a queimadura. Não se trata de uma peritonite? Observe com atenção. Se fosse peritonite, o abdômen estaria inchado de forma uniforme. Sendo um cisto, o inchaço é mais abrupto. [Meishu-Sama demonstra os formatos com as mãos]. Se ela não tivesse sido operada, a cura seria completa. Como houve uma intervenção cirúrgica, talvez não seja possível restaurar seu estado original, mas ela alcançará uma recuperação considerável.
-
-**P: Poderia nos instruir sobre o Espírito Divino Primordial e as Quatro Almas?**
-
-Esta é uma pergunta frequente. As Quatro Almas são: *Aramitama* (alma rude), *Kushimitama* (alma prodigiosa), *Sakimitama* (alma abençoadora) e *Nigimitama* (alma harmoniosa). *Aramitama* representa a coragem. No seu aspecto positivo, é bravura; no negativo, manifesta-se em um assaltante, por exemplo. *Kushimitama* é a sabedoria, que também possui um lado bom e um lado mau. Naturalmente, deve ser a sabedoria elevada, e não a astúcia ou a sagacidade. *Sakimitama* é a compaixão, o desejo de fazer os outros felizes. E *Nigimitama* é a harmonia, a capacidade de se relacionar bem com os outros, de não se irar. O ideal é que essas quatro almas atuem de forma equilibrada no ser humano. Alguém que as possua em sua plenitude é um ser extraordinário. Mas pessoas assim são praticamente inexistentes. A maioria possui, no máximo, três ou duas almas. A grande parte das pessoas possui apenas uma.
-
-**P: Minha filha estuda em uma escola missionária...**
-
-Sim, não há problema algum.
-
-**P: Na escola, ela reverencia Cristo, e em casa, Kannon (観音). Isso me parece um tanto...**
-
-Cristo e Kannon (観音) são o mesmo. Cristo é o Kannon (観音) do Ocidente, e Kannon (観音) é o Cristo do Oriente. Pense nisso da mesma forma que sua filha veste roupas ocidentais ou trajes japoneses. (Risos) Há um poema que compus sobre isso:
-
-*Kannon, Miroku, Messias ou Cristo,*
-*São todos Deus em forma humana manifesto.*
-
-Como vê, são a mesma coisa.
-
-**P: Nesse caso, qual a relação entre Cristo e Jesus?**
-
-Sobre isso, ainda não posso falar com clareza. Quando chegar o momento certo, tudo será compreendido.
 
 ---
 

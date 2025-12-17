@@ -1,9 +1,1598 @@
 # Mioshie_Teachings - Part 74
 
+# Registro de Ensinamentos (Suplemento)
+
+**Categoria:** sasshi | **Ano:** 昭和29(1954)年8月15日 | **Fonte:** Hikariは大地に
+**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1954-08-15
+**Coletânea:** - | **Fonte (JP):** -
+
+## Registro de Ensinamentos (Suplemento)
+
+Coletânea de Teses de Jikanshi Okada
+
+Data de publicação do “Registro de Ensinamentos” desconhecida, estimada por volta de 1951. Cópia manuscrita em papel-carbono com encadernação japonesa, 138 páginas. Contém registros de encontros de 1 de janeiro a 18 de outubro de 1948. Por volta de 1955, foi publicado em formato A5 com capa dura, incluindo os volumes 1 e 2 já divulgados anteriormente. Comumente conhecido como “Registro de Ensinamentos (Suplemento)”, compila os registros de encontros ocorridos durante o ano de 1948.
+
+**1 de janeiro de 1948**
+
+(Poemas de Ano-Novo de Meishu-Sama)
+
+A alegria de saudar o início de um novo ano, com a saúde enfim restabelecida.
+
+Ao receber o novo ano, meu corpo e alma transbordam de vigor, pois sou uno a Deus.
+
+Sinto como se a senda de trevas profundas tivesse chegado ao fim, e meus pés trilhassem pela primeira vez o caminho da Luz.
+
+O Deus Miroku, que se manifesta plenamente com o poder da Trindade do Sol, da Lua e da Terra.
+
+(Os poemas acima foram cantados pelo compositor Haseo Sugiyama, acompanhado ao piano por Shusuke Fukui.)
+
+Está muito bem-feita, em estilo de música de corte. É muito superior à música budista, que carece de vivacidade; é como se nos arrastasse para o Mundo Astral. Talvez isso se deva ao fato de ser executada por monges. Na música ocidental, o *Messias* de Händel é sublime. Mesmo nesse nível, já é algo notável. Havia também as composições de Mendelssohn, não é mesmo?
+
+— As de Haydn também são notáveis.
+
+Ah, é verdade. Sua composição *A Partida do Navio* é frequentemente interpretada por Yoshie Fujiwara.
+
+— Foi o senhor Fujiwara quem praticamente a tornou conhecida.
+
+A vida de compositor é gratificante.
+
+— Contudo, a pobreza é um grande empecilho.
+
+Ora, é difícil conciliar as duas coisas.
+
+— Quem deixou um legado foi Shinpei Nakayama.
+
+Ultimamente, ele não tem composto muito.
+
+— Parece estar recluso.
+
+No campo da música, os próprios japoneses deveriam reconhecer os méritos de sua cultura. Na música japonesa, o koto é o instrumento supremo; não há nada tão esplêndido no Ocidente. A arte japonesa é estática, enquanto a ocidental é dinâmica. Aí reside a diferença. Ademais, embora o Ocidente possua muitas canções de ninar, nenhuma atende tão perfeitamente ao seu propósito quanto as japonesas. Ao ouvi-las, o sono vem naturalmente, ao passo que as ocidentais acabam por nos despertar quando já estávamos a adormecer. Seria maravilhoso se o Japão produzisse uma música de excelência universal.
+
+A música é algo admirável, mas... na verdade, só consigo apreciar uma fração do que Beethoven oferece. A totalidade de sua obra me escapa. Compreendo bem Chopin, Schubert e Mozart, mas, na música ocidental, as composições mais antigas são melhores. As recentes são excessivamente teóricas. Mesmo no *nagauta*, as melhores peças são as clássicas. As que surgiram após a Era Taisho não têm o mesmo valor.
+
+— *Echigo Jishi* e *Kappore* são verdadeiras obras-primas.
+
+Ainda que eu aprecie as artes, considero que as obras do passado possuem uma novidade mais autêntica. As criações recentes carecem de uma verdadeira originalidade. Imagino que esse mesmo fenômeno ocorra na música. É algo verdadeiramente misterioso. O jazz, para mim, é incompreensível. Suponho que seja feito para dançar. Não consigo apreciá-lo como música em si.
+
+— É a música do álcool e das mulheres.
+
+Imagino que sim.
+
+Os americanos possuem tanto um notável lado humanitário quanto inclinações bárbaras. Talvez isso se deva ao fato de que, ao chegarem da Inglaterra, casaram-se com os nativos. Essas inclinações nativas se manifestam na forma do jazz. É algo que reflete a natureza selvagem dos americanos, semelhante aos filmes de faroeste: vibrante, mas sem profundidade.
+
+— A melodia do jazz tem traços negros. O *baka-bayashi* japonês, ao contrário do que o nome sugere, não é tolo; é excelente. Seu ritmo é extraordinário.
+
+É o jazz japonês. Em breve, os japoneses redescobrirão o Japão. É como na história do Pássaro Azul. O Japão possui coisas maravilhosas. Na pintura, por exemplo, a verdadeira arte é a japonesa. A pintura a óleo não é verdadeiramente pintura; é um mero esfregar de tintas. A arte japonesa é simples e, ao mesmo tempo, profunda. A pintura a óleo, desde o surgimento do Impressionismo, tornou-se ainda mais estapafúrdia.
+
+Até hoje, uma força feudal reprimia os talentos dos japoneses. Chegou o tempo de o gênio japonês se manifestar plenamente.
+
+Na arquitetura, por exemplo, são os japoneses que se atentam aos veios da madeira. Ocidentais e chineses simplesmente cobrem tudo com tinta.
+
+— Certa vez, um americano visitou a casa de Fumio Asakura e ficou maravilhado com o projeto. O senhor Asakura é um nacionalista convicto e, por considerar as escolas excessivamente ocidentalizadas, educa ele mesmo seus filhos.
+
+Não é preciso ser tão extremista. Contudo, entre os arquitetos americanos, apenas Frank Lloyd Wright é esplêndido. Foi ele quem projetou o Hotel Imperial. Ouvi dizer que discos antigos de boa música japonesa estão sendo exportados para que estrangeiros os estudem. A ópera *Madame Butterfly*, por exemplo, incorpora melodias japonesas.
+
+A pintura ocidental só se libertou do realismo puro após a exportação das obras de Korin Ogata. A arte e a escultura de todo o mundo receberam sua influência. Foi Korin quem rompeu com o estilo renascentista. Creio que, em breve, um novo Korin surgirá também na música. A religião e a medicina, evidentemente, serão nossa incumbência. A maioria dos intelectuais de hoje acredita que tudo o que é bom deve ser ocidental. O "estilo japonês" da era militarista também era problemático, pois exaltava apenas os aspectos convenientes para a guerra. O resultado foi algo equivalente a lutar com lanças de bambu. O que há de melhor no Japão reside na paz. Os estrangeiros ainda descobrirão os verdadeiros valores do Japão. Quando isso acontecer, os japoneses ficarão surpresos. Será como ir à Itália, comprar macarrão como lembrança e, ao voltar para casa, descobrir que era fabricado no Japão.
+
+**18 de janeiro de 1948**
+
+(O reverendo Inoue lê em voz alta o texto *O Milagre de Avak, o Filho de Deus*, de autoria do senhor Shusuke Fukui.)
+
+Possui um estilo moderno e agradável. Para os tempos atuais, essa forma de expor as ideias é a mais adequada. Está muito bem escrito. Se o distribuísse em palestras, certamente haveria uma grande repercussão. A abordagem sutil, que não revela tudo de imediato, é excelente. É um novo método. Um tom de possessão divina ou de sermão não funciona; as pessoas logo pensam: “Lá vem mais um...”.
+
+— Pretendo enviar o texto à Universidade de Michigan, nos Estados Unidos, juntamente com uma fotografia de Meishu-Sama aplicando Johrei... (disse o senhor Fukui).
+
+Não, isso não é adequado. Envie apenas o texto. Detesto propaganda ostensiva.
+
+O abdômen dilatado é sinal de problemas renais. A meningite tem uma excelente recuperação.
+
+**28 de janeiro de 1948 (quarta-feira)**
+
+No tratamento da peritonite, os rins são cruciais. Além disso, deve-se aplicar Johrei intensamente no centro das costas. Se a peritonite for acompanhada de icterícia, o paciente raramente sobrevive. No caso da epilepsia, as crises se intensificam temporariamente com o tratamento.
+
+— Uma pessoa que recebeu cerca de cem injeções de hormônio desenvolveu erupções arroxeadas por todo o corpo, com coceira intensa e uma descamação esbranquiçada...
+
+É toxina medicamentosa. Com um bom Johrei, a recuperação será rápida. Aplique com afinco... Após o parto, por cerca de setenta dias, é benéfico que a mulher receba Johrei, mas ela mesma não deve aplicá-lo a outros. Isso se deve à presença de resíduos do sangue do parto, que, com o uso das mãos, tendem a se concentrar nelas e solidificar, causando dor ao se dissolverem posteriormente. É preferível que ela espere o máximo de tempo possível para aplicar Johrei. O mesmo princípio se aplica ao fato de que, se uma mulher fizer trabalhos de costura no pós-parto, sua visão pode ser prejudicada. Portanto, as atividades devem ser determinadas pela forma como o sangue residual é expelido.
+
+O lábio leporino certamente tem origem espiritual. É um resquício de animalidade de uma vida anterior.
+
+— Tenho um caso de um paraquedista do exército americano que, recentemente, desenvolveu pavor de aviões. Em particular, ele teme o número sete, que é o de seu paraquedas, e chega a ter crises ao ver o algarismo.
+
+É a possessão pelo espírito de alguém que morreu em um acidente aéreo.
+
+— Um médico militar americano o curou em dois meses.
+
+Nesse caso, a cura foi natural. Com nosso tratamento, bastaria aplicar Johrei intensamente na região frontal. Em casos de envenenamento por substâncias como cianeto de potássio, o foco deve ser no estômago e nos intestinos. Se a toxina já se espalhou por todo o corpo, nada mais pode ser feito.
+
+— Estou pensando em ir para a região do Monte Ashibetsu, em Hokkaido.
+
+O Monte Ashibetsu é de suma importância. Por ser o centro de Hokkaido, se aquela região for desenvolvida, toda a província se abrirá com facilidade. Dedique-se com afinco a essa missão.
+
+Quando a peritonite é acompanhada de icterícia, a bile amarelada se mistura ao líquido ascítico, dificultando sua dissolução. Por isso, a coexistência das duas condições é um mau prognóstico. Na peritonite purulenta, a urina se acumula e, com o tempo, transforma-se em pus. Para evitar o acúmulo de líquido, deve-se aplicar Johrei intensamente nos rins, com foco principal no direito. Em casos graves, aplique cinco ou seis vezes ao dia, ou mais. Ao ministrar Johrei nos rins, mentalize como se estivesse mirando o futon ou o tatami; assim, a energia espiritual se concentrará nos rins.
+
+**8 de fevereiro de 1948 (domingo)**
+
+— Uma mulher, cerca de quarenta dias após o parto, passou por um incêndio e, desde então, enlouqueceu, agindo como se estivesse possuída por um espírito de raposa.
+
+Se ela conseguir dormir, ficará bem. Ela se recuperará. As doenças mentais pós-parto, em particular, têm uma recuperação excelente. Isso ocorre porque, após o parto, a mulher tem menos sangue, o que facilita a possessão espiritual. Com o sangue em volume adequado, a possessão não acontece.
+
+Estou elaborando um formato para o casamento xintoísta. As cerimônias realizadas até hoje, sejam xintoístas ou budistas, não me agradam muito.
+
+— Na cerimônia que realizamos recentemente, incluímos os nomes de Kannon-Sama e de Meishu-Sama na oração e nos votos.
+
+A Oração Amatsu Norito não é necessária em cerimônias de casamento. Recitem-na apenas durante os cultos.
+
+— Ao recitar tanto a Oração Zenguen Sandji quanto a Amatsu Norito, a frase “*Nikkajichi Oomikami mamori tamae sakihae tamae*” se repete...
+
+Não há problema na repetição... Diante do oratório budista, batem-se três palmas. No xintoísmo, não se emite som ao bater palmas até o quinquagésimo dia de luto, mas em nossa fé, pode-se fazê-lo. Como os budas não pertencem ao Mundo Material, talvez duas palmas fossem o correto, mas o formal são três. Sol, Lua e Terra, portanto, três é o número adequado. Até agora, a Terra estava ausente... Tenho a intenção de criar também formatos para casamentos e funerais. Quando minha saúde estiver plenamente restabelecida, pretendo me dedicar a isso... Os deuses de Izumo são hábeis nos negócios. Não há qualquer relação entre Ookuninushi-no-Mikoto e Daikokuten.
+
+— Quatro filhos contraíram meningite, um após o outro. Agora, o quarto deles, de dois anos, faleceu...
+
+Há alguma razão para isso. Pode ser uma maldição ou um carma profundo que impede a salvação. Em situações como essa, não se deve pensar demais; entregue-se ao fluxo natural. O fato de ter recebido o curso não garante que todos serão salvos. Atualmente, a Grande Purificação já teve início. Ser salvo por Kannon (観音) não significa escapar ileso da morte, mas sim atenuar um destino de perecimento. Por exemplo, de cinco pessoas que estariam fadadas a morrer, apenas duas ou três falecerão. É impossível que todos se salvem sem exceção. Vivemos uma época de extrema gravidade. É algo complexo, que alguns compreendem e outros não... Ocorre com frequência que, quando os vivos hesitam, os espíritos atuam intensamente para que compreendam a situação.
+
+— Muitas pessoas só compreendem após a morte, no outro mundo. Tive um caso em que a pessoa não compreendeu a importância do Ohikari em vida, mas, ao chegar ao Mundo Espiritual, entendeu e agradeceu imensamente, dizendo: “Graças a ele, estou em um lugar de luz”.
+
+Para ser salvo por meio desta fé, é imprescindível trilhar o caminho da retidão como ser humano.
+
+Toda nova família deve, obrigatoriamente, ter um oratório para os antepassados.
+
+Não se pode aceitar cegamente tudo o que um médium diz, mesmo que Kannon (観音) se manifeste através dele.
+
+Recitar a Oração Zenguen Sandji diante de imagens comuns de Kannon (観音) ou de oratórios budistas não surte efeito. Em casos inevitáveis... por exemplo, quando se pretende entronizar uma imagem de Komyo Nyorai, mas a moldura ainda não está pronta, é uma exceção.
+
+— Em Ota, na província de Ibaraki, durante um treinamento ascético que reuniu quarenta ou cinquenta praticantes da seita Nitiren, o líder do grupo viu uma luz dourada. Ao investigar, descobriu que um dos participantes portava um Ohikari.
+
+Ao entronizar uma imagem de Komyo Nyorai, os divórcios também cessam. Há um caso interessante: uma esposa, cujo marido era um pouco simplório, entronizou a imagem. Gradualmente, a inteligência do marido melhorou a ponto de ela concluir que poderia viver com ele para o resto da vida, e o casal se harmonizou. As brigas conjugais também acabam. A luz faz com que os espíritos de animais se retraiam. As brigas são manifestações de espíritos de animais.
+
+Na China, os seguidores do taoismo parecem ter um nível espiritual elevado. Diz-se que, se um novo fiel quebra as regras e consome carne, por exemplo, é descoberto pelo guardião do portão e espancado ao retornar.
+
+— A casa do Incidente do Banco Teigin pertencia a uma família de agiotas que acumulou muitos ressentimentos ao longo de gerações. O casal que morou lá antes também teve uma morte misteriosa, e a casa estava vaga quando o banco a alugou.
+
+Antigamente, eu gostava de especular na bolsa de valores. Embora quase sempre perdesse, percebi que na região de Kabutocho há muitos espíritos ressentidos, e eles se apegam às cédulas de dinheiro que vêm de lá. O ditado “dinheiro sujo não para na mão” é verdadeiro. Por isso, eu só tinha prejuízos. Ao compreender isso, abandonei a bolsa e comecei a investir em mineração. Agora, o dinheiro que recebo dos fiéis é todo purificado. Os espíritos se apegam a tudo e exercem sua influência. Quando um espírito ressentido entra em uma casa, a aura do lar se obscurece. Na casa de Matsushita, por exemplo, apareceu o espírito do carpinteiro que a construiu... e ele ainda está vivo. É um idoso de barbas brancas. Isso acontece porque ele tem apego à casa que construiu. Portanto, não se deve fazer os outros sofrerem.
+
+Eu costumo dizer: não se deve almejar ser uma pessoa “grande”, mas sim uma pessoa “benfazeja”. Pessoas grandes atraem o ressentimento de seus inimigos. É por isso que o fim dos heróis costuma ser trágico. Quando o Imperador Meiji faleceu, todos rezaram por sua recuperação diante da Ponte Niju. Dezenas de milhares de pessoas em todo o país devem ter orado. Mesmo assim, ele se foi. Isso porque o Imperador Meiji travou as guerras Sino-Japonesa e Russo-Japonesa, atraindo o ressentimento dos chineses e russos. Esse ressentimento se concentra no Imperador, o centro do Japão. E o problema é que os seres humanos remoem seus rancores de tempos em tempos.
+
+Mesmo que pareça tolice, é melhor ceder aos desejos da outra parte. Desgraças e má sorte são, em sua maioria, resultado disso. O acaso simplesmente não existe. Se compreendermos isso, nos momentos de sofrimento, poderemos pensar: “Ah, fui eu quem semeou esta semente”.
+
+Atualmente, o mundo está imerso em ressentimentos. O amor praticamente não existe. Todos querem parecer bons aos próprios olhos. Com essa perspectiva, a política se torna inviável. E o povo, por não compreender essa realidade, acaba sofrendo.
+
+**18 de fevereiro (quarta-feira)**
+
+(Poemas para o dia do Risshun - início da primavera)
+
+Neste dia de hoje, que marca o início da primavera, sinto, por alguma razão, que o caminho à frente se ilumina.
+
+Neste auspicioso dia em que celebramos a chegada da primavera a cada ano, renderei preces especiais diante de Deus.
+
+Hoje é o dia auspicioso que marca o início da primavera deste ano. Considero-o o começo da expansão de minha Obra.
+
+De agora em diante, no culto da manhã, recitaremos a Oração Amatsu Norito, e no da noite, a Zenguen Sandji. Os deuses regem o dia, e os budas, a noite. Antigamente, o local onde o Imperador residia era chamado de “corte matinal”, pois as reuniões políticas ocorriam pela manhã. A política de hoje não é uma corte matinal, mas uma “corte noturna”.
+
+Diante do oratório budista, a Oração Amatsu Norito não é necessária. Bastam as duas frases: “*Kakuriyo-no-Oomikami mamori tamae sakihae tamae*” e “*Kan nagara tamachi haemase*”. Em cultos especiais, pode-se recitar ambas.
+
+— Na região de Tanba, algumas pessoas, incluindo intelectuais, acreditavam que em 2 de março o ar desapareceria por três minutos e a humanidade seria extinta. Elas me perguntaram com seriedade, e eu respondi que tal coisa não aconteceria.
+
+Que disparate. Há também um grande alvoroço sobre a previsão de um terremoto. Eu tenho afirmado que não haverá terremoto. Isso contraria a opinião dos estudiosos, que dizem que haverá um porque o solo está afundando. Eu, no entanto, digo que é precisamente porque o solo está afundando que não haverá um grande terremoto. Terremotos são causados pela contração da crosta terrestre; uma contração súbita gera um grande sismo. Portanto, se a contração ocorrer de forma gradual e fragmentada, não haverá um grande terremoto.
+
+Previsões existem no mundo todo. Há alguns anos, na Rússia, se não me engano, dezenas de milhares de pessoas subiram a uma montanha para esperar o fim do mundo. Na Rússia antiga, havia uma cidade chamada Sodoma, que afundou e desapareceu devido a um terremoto. Talvez o medo tenha surgido da associação com esse evento.
+
+Previsões geralmente não se concretizam. O cristianismo também fala sobre isso. Certa vez, perguntei a um pastor famoso sobre o fim do mundo, e ele, com uma expressão séria, disse que todas as pessoas na Terra morreriam e, após cerca de mil anos, ressuscitariam uma a uma. Essa seria a ressurreição. Na Bíblia, está escrito que, no fim do mundo, as montanhas entrarão em erupção, os rios se tornarão água fervente, grandes pedras de granizo cairão, matando quem for atingido, e aqueles que, ao fugir, olharem para trás com cobiça por seus bens, também morrerão. O "fim do mundo" (*yo no owari*) é, na verdade, o "fim da noite" (*yoru no owari*).
+
+— Houve várias previsões, mas nenhuma foi tão clara quanto a de Meishu-Sama.
+
+De fato.
+
+— Uma menina de doze anos na vila de Toyosumi, em Chiba, aprendeu com seu professor a brincar de *kokkuri-san* (uma espécie de tabuleiro ouija). O espírito que se manifesta diz coisas como: “Se você fizer aquele curso, sua doença se curará mais rápido” e, referindo-se a mim, “Aquele mestre é uma boa pessoa”.
+
+Esse espírito de raposa é mais evoluído que muitos humanos.
+
+— Em Ibaraki, uma jovem de dezenove anos está possuída por um espírito de raposa chamado Kinpei Inari e se torna violenta à noite. Ela diz: “Durante o dia, a luz é tão forte que não suporto, mas à noite sinto um bem-estar indescritível...”.
+
+É verdade. Antigamente, participei de um grupo de estudos psíquicos e, quando um espírito se manifestava, mesmo uma luz elétrica o impedia. Os espíritos que apareciam faziam voar brinquedos pintados com tinta fosforescente, tocavam trombetas e levantavam mesas. No Ocidente, essas práticas são muito comuns.
+
+Existem também bons espíritos de raposa. Esse, por exemplo, tem mais poder de divulgação do que um ser humano. É mais confiável do que ser elogiado por pessoas. Esse espírito de raposa deseja praticar o bem para poder reencarnar como ser humano o mais rápido possível. Até mesmo entre bois e cavalos, há almas que decaíram da condição humana. Quanto mais sofrem e trabalham, mais rápido podem retornar a ser humanos. Por isso, poupá-los do sofrimento por compaixão nem sempre é o melhor. Às vezes, o sofrimento é preferível. Bois e cavalos se alegram quanto mais duramente são tratados. Há alguns anos, fui a Kinugawa e andei de carroça. Quando o cocheiro chicoteava o boi, ele se movia com mais vigor. Não é que ele se movesse por causa da dor.
+
+— Como devemos proceder com a cerimônia de purificação do terreno (*jichinsai*)?
+
+A oração para o *jichinsai* já está pronta. É melhor realizá-la. Ao fazê-lo, obtém-se a permissão divina no Mundo Espiritual, o terreno é purificado e os obstáculos desaparecem. A cerimônia deve ser realizada com vestes rituais. É preciso aprender a conduzi-la.
+
+A oração durante o Johrei pode ser a Amatsu Norito (recitando “*Kakuriyo-no-Oomikami...*” três vezes). Se a pessoa que recebe puder manter as mãos em prece, é melhor. O incenso e o sino no oratório budista podem continuar a ser usados como de costume.
+
+O xintoísmo prega que, se os deuses são cultuados, os budas podem ser ignorados, mas isso é um erro. O cristianismo, em particular, é infeliz por não cultuar os antepassados. Por isso, há mais doentes e mortos entre seus seguidores. Gunpei Yamamuro era uma boa pessoa, mas teve uma vida infeliz. É verdadeiramente lamentável. Os antepassados se zangam por não serem cultuados. No Ocidente, o Mundo Espiritual é diferente do oriental, e as pessoas são educadas dessa forma desde o nascimento, então não há problema. Mas o Mundo Espiritual oriental é vertical, formado por camadas. O ocidental é horizontal.
+
+— Recentemente, o sistema familiar mudou. O Mundo Espiritual também mudará?
+
+A mudança no sistema familiar não terá grande impacto. Antigamente, o chefe da família era o único que mandava. Isso estava errado.
+
+— Ultimamente, essa tendência de imitar o estrangeiro é preocupante.
+
+Se imitássemos tudo o que há de bom no estrangeiro, seria ótimo. Mas acabamos imitando apenas o que há de ruim. Os líderes atuais também são perigosos, por isso não se pode confiar neles cegamente.
+
+As riquezas também serão distribuídas de forma mais justa de agora em diante. Se os budas se zangarem com isso, a culpa é deles. A situação anterior era excessivamente injusta.
+
+O liberalismo de hoje é apenas um liberalismo egoísta. O verdadeiro liberalismo deve respeitar também a liberdade dos outros. Não é verdade? Portanto, a própria liberdade tem limites. É um erro os jovens não respeitarem a liberdade de seus pais e irmãos. O liberalismo é, em certo grau, confortável, mas, em outro, restritivo. Por isso, um pensamento superficial é problemático. No fim das contas, o que está errado é querer o bem apenas para si mesmo. Essa é a raiz de todos os conflitos. A recente guerra de agressão, para o Japão, foi um ato de liberalismo. Contudo, para os que sofreram com ela, como a Coreia e a Manchúria, foi uma desgraça. Portanto, o verdadeiro caminho é o altruísmo. A humanidade ainda não chegou a esse ponto.
+
+O mundo político atual é um antro de egoístas vorazes. O Partido Socialista, na esperança de uma oportunidade, tenta novamente tomar o poder. Desta vez, deveriam ceder ao Partido Liberal. Inventam todo tipo de desculpas e pretextos. É a prova de que ainda não atingiram um estágio cultural elevado. Perdi a paciência com Ashida também. Afinal, *yoshida* (Yoshida = bom) e *ashida* (Ashida = mau) já dizem tudo.
+
+**28 de fevereiro de 1948 (sábado)**
+
+— Um bebê de um ano tem a perna esquerda cerca de cinco *bu* (aprox. 1,5 cm) mais curta, parecendo uma luxação...
+
+Se não está solta, não é luxação. Vai se curar.
+
+— Um jovem de doze anos teve pleurisia no passado e se recuperou completamente. Recentemente, começou a sentir dores na lombar, e o médico diagnosticou como mal de Pott, abrindo um orifício para drenar o pus. Eu acredito que não seja mal de Pott, mas sim a eliminação das toxinas remanescentes da pleurisia...
+
+Seu diagnóstico está mais correto que o do médico. É uma purificação da pleurisia. A falta de apetite é um mau sinal.
+
+— Uma moça de dezesseis anos não conseguia levantar a cabeça. Após um tempo indo ao médico, ela piorou. Começamos o Johrei no dia 2 deste mês e, a cada sessão, ela melhora. Ela mesma diz que isso aconteceu porque se esqueceu da graça de Deus.
+
+Se continuasse com os médicos, ela teria morrido. É uma pessoa de espírito fraco. Algum espírito a está possuindo.
+
+— Desde que nos tornamos uma religião, os fiéis têm muita curiosidade sobre a atuação de Kannon-Sama e do Deus do Sol, da Lua e da Terra.
+
+Kannon-Sama é Kannon Bodhisattva. No budismo, dizem que *kan* (観) significa "ver" — ver objetivamente, de fora — e *on* (音) se refere aos "sons do mundo", ou seja, "aquele que vê os sons do mundo". É uma explicação um tanto estranha. Parece que os ouvidos estão dentro dos olhos. É uma interpretação forçada. Antigamente, Kannon-Sama foi à Índia e habitou o Monte Fudaraku. Em Nikko, há o Odake Kannon. O Monte Futara é o mesmo que o Monte Fudaraku, e há uma ligação kármica. O Monte Fudaraku fica próximo à costa, com o mar ao sul. No topo da montanha, construiu-se algo semelhante a um templo e, em seu jardim, um assento de diamante para pregar. Nos sutras, está escrito que, acompanhado pelos Vinte e Oito Protetores, como o Grande Mestre de南海 (Nankai), ele pregou a Zenzai Doji e outros. Naquela época, a Índia era governada por Daijizaiten. Kanjizai Bosatsu significa "aquele que vê o mundo de Daijizaiten". Daí o nome Kanzeon. Bodhisattva é o posto mais baixo, semelhante a um venerável. Na Índia, os *ten* (devas) talvez estivessem acima dos *nyorai* ( tathagatas). O sufixo "-ten" indica uma posição hierárquica indiana.
+
+No Sutra Kegon, está escrito: "No Monte Fudaraku reside Kanzeon Bosatsu. Zenzai Doji e outros o ouviram pregar os ensinamentos da grande compaixão. Entre seus muitos discípulos, havia os Vinte e Oito Protetores como assistentes, incluindo Daibenzaiten, Daibontenno, Taishakutenno, o Pavão Dourado, Bishamonten, Ashura-o, além dos irmãos Narayana Kongo e Waderabani Kongo (conhecidos como os Ni-o), entre outros devas". Isso deixa claro que o Buda Shakyamuni recebeu ensinamentos de Kannon-Sama. (Extraído da segunda aula do "Curso sobre Kannon").
+
+No mandala de Nitiren, também encontramos Daijizaiten. Amaterasu Oomikami está escrita em letras pequenas, mais abaixo. Isso também tem vários significados. A Deusa Izunome, bem, quando estava no Japão, foi perseguida e teve de fugir. Para se esconder, cobriu a cabeça com um capuz e envolveu o corpo, e essa é a imagem retratada nas pinturas. No *Kojiki*, ela aparece como uma divindade que purifica o mundo. Ela deixou o Japão, passou pela China e chegou à Índia, onde construiu uma ermida e se tornou Kanjizaiten. Kannon-Sama é japonesa. É por isso que Shakyamuni e Amida têm cabelos crespos, mas Kannon-Sama não. Ela fugiu porque Susanoo-no-Mikoto tentou matá-la. A esposa de Susanoo-no-Mikoto é Otohime, também conhecida como Otoyohime. Susanoo-no-Mikoto desceu ao Monte Soshimori, na Coreia — como consta no *Kojiki* [e no *Nihon Shoki*] —, veio ao Japão e tomou o poder. Esse foi o início da dinastia de Izumo.
+
+A Deusa Izunome é uma divindade da época de Amaterasu Oomikami ou anterior. Susanoo-no-Mikoto viajou pelo mundo, foi para a Judeia e se tornou o ancestral dos judeus. Quem o substituiu foi Otohime. "Kannon" significa "aquele que observa Otohime" (Princesa do Som). Ela esperava o momento certo para retornar ao Japão e retomar o poder de Susanoo-no-Mikoto. Senju Kannon representa isso. Até então, Otohime detinha os tesouros. As histórias dos deuses são uma mistura de verdade e ficção, mas não são meras invenções. Otohime, apegada aos bens materiais, transformou-se em um dragão e submergiu no mar de Ryugu, em Tango. Quando a hora chegasse, ela sofreria os tormentos de três invernos e três verões e, finalmente, pediria perdão a Kunitokotachi-no-Mikoto. Kunitokotachi-no-Mikoto é a divindade que outrora detinha o poder sobre o mundo, mas, na noite do Setsubun, foi confinada na direção do portão demoníaco e se tornou Konjin do Nordeste. Kunitokotachi-no-Mikoto se torna a Deusa Izunome. No Mundo Espiritual, Kunitokotachi-no-Mikoto se tornou o Rei Enma, o juiz, mas seu julgamento era tão severo que, por compaixão, metade de seu ser se tornou Kannon. Os deuses são rigorosos, mas os budas são compassivos. Assim, a Deusa Izunome, no mundo búdico, tornou-se Kannon-Sama. Ou seja, a compaixão que não distingue entre o bem e o mal. A teoria *honji suijaku* até agora estava errada; seu verdadeiro significado é o retorno ao Japão para salvar todos os seres. Os deuses podem se dividir espiritualmente. Não é esquizofrenia. A teoria de Freud explica a possessão espiritual, e casos como "O Médico e o Monstro" podem ser explicados por ela.
+
+A Deusa Izunome tornou-se um deus-dragão; seu espírito reside no cume do Monte Fuji (no Santuário Kusushi, guardião de sua irmã Konohanasakuya-hime), e seu corpo, no Lago Biwa, aguardando o momento certo. Os deuses-dragão são muito poderosos. Assim, a Deusa também se tornou um deus-dragão para resistir às interferências dos demônios. A atuação da Deusa Izunome é: *Izu* — fogo, *Mizu* — água. Diz-se *Miizu*, que é o inverso. Fogo e água se tornam luz. Durante a noite, não há fogo verdadeiro. Apenas a luz da lua. Diz-se que o sol tem sessenta vezes mais luz que a lua, e é por isso que, até agora, cultuar Kannon-Sama trazia poucos benefícios. *Izu* (fogo) é cinco, *Mizu* (água) é três. Mesmo assim, não era suficiente. Com a adição do poder da terra, surge o poder do Sol, da Lua e da Terra. Até agora, era *niroku* — poder dual. Durante a noite, os três mundos (celestial, intermediário e terrestre) eram quase inteiramente água. Era seis, seis, seis. Agora, torna-se cinco, seis, sete, e o seis do céu desce à terra, adicionando o poder do solo. É o poder indestrutível do diamante. Torna-se um poder absoluto. Tudo se torna possível. A joia de *mani* no xintoísmo é a joia perfeita. Daqui em diante, entraremos no domínio do mistério, que explicarei quando for a hora.
+
+Eu comecei esta Obra em 1928, e por seis anos, até 1934, pratiquei a cura. Por mais seis anos, até 1940, atuei em Kaminoge, e por mais seis anos, até 1946, foi a fase de construção da base. Meu treinamento terminou. Desde o ano passado, entramos na era de Miroku. O poder do Deus do Sol, da Lua e da Terra, vindo do Mundo Espiritual, atua nas pessoas através do meu corpo. Os próximos três anos serão para a construção da base no Mundo Material. Depois disso, a Obra se tornará mundial. O Ohikari com o ponto na palavra "luz" simboliza a descida do céu à terra. Está na oração, não é? Komyo Nyorai (fogo e água) se manifesta no corpo do Sol, da Lua e da Terra. Isso significa que a atuação se adapta ao interlocutor; em termos mais amplos, adapta-se ao mundo. A arrogância não funciona. É preciso agir de acordo com a sociedade. Caso contrário, seremos tratados como loucos, como aconteceu com Jiko-son. O poder do Sol, da Lua e da Terra também tem três níveis: para o Mundo Material, ainda é Komyo Nyorai; assim, temos Sol-Lua-Terra, Komyo Nyorai e Kannon, em três estágios. Preciso explicar isso a fundo, mas ainda não é o momento.
+
+— O que é *Amatsu Kanagi*?
+
+Isso também só posso explicar pela metade. Antes do Imperador Jinmu, o imperador da época o reverenciava no Ano-Novo para saber a sorte do ano. É uma espécie de oráculo. Foi transmitido de geração em geração e chegou a Hieda-no-Are. Os japoneses, conquistados pelo Imperador Jinmu, transmitiram-no oralmente por gerações, até chegar a Are, que era um camponês em Tanba. O-no-Yasumaro registrou isso, e o resultado foi o *Kojiki*. *Amatsu Kanagi* é uma profecia sobre o Paraíso Terrestre. Falarei mais sobre isso no futuro. Depois que todas as religiões desaparecerem, ele será reverenciado.
+
+**8 de março (segunda-feira)**
+
+(Algumas pessoas relatam ter recebido purificações.)
+
+O sangue tóxico na parte de trás da cabeça geralmente é eliminado através de hemorroidas. A purificação tornou-se bem mais intensa, não é?
+
+— Para mudar de terreno, preciso transferir um túmulo de aproximadamente trezentos anos. Como devo proceder com o ritual?
+
+Não se deve fazer isso de qualquer maneira. É preciso obter o consentimento dos espíritos. Os ossos enterrados também serão exumados, certo? A transferência deve ser feita com todo o cuidado. Ofereça saquê e alimentos, recite a Oração Zenguen Sandji e diga: "Devido a tais e tais circunstâncias, transferiremos o túmulo. Pedimos a todos os espíritos que aqui repousam que se mudem para o novo local". O saquê é oferecido porque entre os antepassados pode haver quem gostasse de beber.
+
+— Pode-se oferecer alimentos com carne ou peixe no oratório budista?
+
+Não há problema. Saquê também é permitido. Além disso, no dia a dia, o ideal seria recitar a Oração Zenguen Sandji por completo, mas como leva tempo, as duas últimas frases são suficientes.
+
+— Aconteceu o seguinte: uma mulher em Beppu, que recebeu a Luz recentemente, passou a cultuar seus antepassados com sinceridade. Cerca de um mês depois, enquanto recitava um sutra, um espírito se manifestou. Nesse momento, seu marido subiu do andar de baixo e, ao perguntar ao espírito, descobriu que era sua mãe. Ela disse: "Até agora, não éramos devidamente cultuados e vivíamos como mendigos no Mundo Espiritual, sofrendo muito. Agora que recebemos este precioso Ohikari e vocês nos cultuam com devoção, estamos imensamente felizes. Por favor, continuem neste caminho e nos cultuem sempre". Depois disso, o espírito se foi.
+
+O espírito ancestral encontrou o que tanto buscava. Deve ter se alegrado imensamente. Não há alegria maior que essa.
+
+— No oratório budista de uma certa casa, havia sempre uma cobra de cerca de trinta centímetros. Por acaso, ela entrou na roupa de uma criança e foi transportada em uma bagagem de evacuação, morrendo lá dentro. Depois, a criança ficou gravemente doente, mas agora está completamente recuperada. Então, a cobra apareceu no sonho da mãe, dizendo: "Devolva-me ao meu estado original", e se enrolou em seu pescoço...
+
+É um espírito ancestral. Vocês cultuam Kannon-Sama?
+
+— Ainda não.
+
+Se o fizerem, será bom. A cobra também será salva.
+
+— Gostaria que me ensinasse sobre a origem de Daikoku-Sama.
+
+Existem várias lendas sobre ele. Mas a mais crível é que, no tempo em que Amaterasu Oomikami vivia no Japão, um homem notável veio da Índia e pediu para se tornar seu servo. A Deusa disse que o aceitaria se ele tivesse um rosto mais amável. Ele então sorriu e passou a servi-la, encarregando-se do que hoje chamaríamos de finanças. Essa é a melhor das lendas.
+
+Comecei a cultuar Daikoku-Sama na época em que morava em Omori, um período de recessão, e todos os meses fechava no vermelho. Eu estava com os bolsos vazios e desesperado. Um dia, um bancário me trouxe uma imagem de Daikoku-Sama e perguntou se eu não a queria. Gostei dela e comecei a cultuá-la. No verso da estátua, estava escrito "Bunkyu, tal ano". A partir daquele mês, o déficit desapareceu. Achei ótimo e comecei a colecionar vários tipos de imagens de Daikoku-Sama. A grande estátua de Kaminoge tem um mistério. Ela tem quatrocentos ou quinhentos anos e a consegui em um antiquário em Azabu. Quando pedi para comprá-la, o dono recusou, dizendo que ele mesmo a venerava. Mais tarde, ele sonhou que Daikoku-Sama partia em uma nuvem púrpura e, na véspera do Ano-Novo daquele ano, trouxe-a de carro até minha casa. Ao se despedir, o dono abraçou a estátua e chorou. Se não me engano, dei-lhe trezentos ienes. A partir de então, o dinheiro começou a entrar abundantemente. É bom cultuar Daikoku-Sama. Quanto maior a imagem, melhor. Outro dia, Shibui fez uma estátua enorme, pediu que eu a consagrasse e a trouxe de caminhão. Eram necessários quatro homens para carregá-la. Talvez por isso, a casa de Shibui esteja recebendo uma quantidade absurda de dinheiro. Em janeiro e fevereiro, foi algo tão impressionante que as pessoas não acreditariam se eu contasse. Talvez haja alguma relação. Um homem chamado Makino, do Banco Fudo, coleciona muitas dessas imagens. Por um aviso em sonho de Daikoku-Sama, pouco antes do Grande Terremoto de Kanto, ele depositou dez milhões de ienes em títulos do Banco do Japão no Banco Fudo. Os funcionários acharam estranho, mas logo após o terremoto, enquanto outros bancos não conseguiam pagar seus clientes, o Fudo pagou, ganhando credibilidade instantaneamente. Daikoku-Sama é realmente bom. Há muitos mistérios. Os Johrei Centers também deveriam cultuá-lo, pois seria bom se muitos pacientes viessem e muito dinheiro entrasse. Com Daikoku-Sama, o que importa não é a origem, mas os benefícios.
+
+Pode ser um par de Daikoku e Ebisu, mas só Daikoku já é suficiente. O martelo de madeira simboliza a riqueza da terra, e o de Ebisu, os tesouros do mar.
+
+— Uma americana de trinta e cinco ou trinta e seis anos sofre de enxaqueca há dez anos...
+
+A causa é a toxina medicamentosa. O tratamento deve ser focado na área afetada.
+
+(Lendo em voz alta o artigo "Medicina Moderna e Marxismo" da revista *Shiun*.)
+
+É interessante. A forma de expor o assunto é interessante. Fazer a humanidade compreender os erros da medicina é algo muito bom.
+
+— Yukikazu Sakurazawa, da macrobiótica, também diz que um grande homem surgirá no Oriente.
+
+Bem, algumas pessoas compreendem parcialmente. O marxismo também contém uma parte da verdade. Na pintura, usam-se várias cores para criar uma boa obra. Mas se, por gostar do vermelho, pintarmos tudo de vermelho, o resultado será incompreensível. Marx e Engels sofreram muito com a pobreza. As pessoas de hoje veem isso e os reverenciam. O comunismo está agora em seu auge. Em breve, desaparecerá como fumaça. É impressionante como algo tão tolo engana o mundo inteiro. Nesse ponto, eu os admiro muito. Hideyo Noguchi, por exemplo, morreu no meio de sua pesquisa sobre a febre amarela, e o mundo o elogia como um homem notável. Ele mesmo deve ter se sentido satisfeito. É incrível como tantas tolices se espalham pelo mundo e como as pessoas se deixam enganar. Isso é, de fato, o grande mistério do mundo.
+
+**28 de março (domingo)**
+
+— Tenho dobrado papel japonês, oferecido diante do altar e recitado a oração, deixando-o por três dias para depois usá-lo como um canal de Luz. Isso é correto?
+
+Está correto. Você também pode dar a água oferecida para beber. Mas não faça isso sempre, apenas ocasionalmente. O *ohineri* (papel dobrado) também é bom, mas faça-o sem que as autoridades saibam. Elas são muito rigorosas com coisas que vão à boca, falando de germes, higiene e tudo mais.
+
+— Uma aluna do curso de青森 (Aomori), de repente, foi possuída por Kannon-Sama, que disse que no futuro todas as religiões se unificarão sob o símbolo do círculo com uma cruz. Em outra ocasião, Amaterasu Sume Oomikami, Susanoo-no-Mikoto e Tsukuyomi-no-Mikoto apareceram simultaneamente. Susanoo-no-Mikoto pediu perdão a Amaterasu Sume Oomikami, que, emocionada, chorou e o aconselhou, e as três divindades se reconciliaram. Houve também outras revelações, incluindo mistérios que não posso mencionar aqui. A pessoa teme que seja um espírito de raposa a enganando. Naquela ocasião, a Deusa também disse que, por desígnio kármico, desceu ao norte.
+
+Essa pessoa não conhece nada sobre os deuses?
+
+— Não muito. É uma ex-diretora de escola feminina chamada I.S. É comum que grandes deuses se manifestem em pessoas comuns?
+
+Sim, acontece. Muitas vezes, eles não se manifestam em pessoas famosas, mas sim naquelas que não o são.
+
+— Há dois anos, enquanto eu estava em concentração diante do altar recitando a oração, a casa tremeu violentamente e um deus desceu. Ao perguntar quem era, ele se identificou como Susanoo-no-Mikoto. Ele também disse que aquilo era um evento notável e que um dia deveria ser divulgado ao mundo.
+
+Parece que não é algo trivial.
+
+— Gostaria que me explicasse a diferença entre Komyo Nyorai e Nikkajichi Oomikami.
+
+No fim das contas, são o mesmo. "Nikkajichi" é o nome que assume ao atingir a posição mais elevada. "Nikkajichi" é um Oomikami, o posto de um grande deus. Com isso, torna-se cinco, seis, sete, e sua atuação se completa. Komyo Nyorai é fogo e água. Kannon-Sama é fogo, água e terra, mas a terra é em pequena quantidade. A razão pela qual a terra é pouca é que ela foi adicionada após a minha manifestação. A atuação de Kannon-Sama é a da compaixão, salvando todos os seres sem distinção entre o bem e o mal. Aquele que diz "fulano é mau" ou "ciclano é assim" não é Kannon-Sama. A entidade original de Kannon-Sama é Kunitokotachi-no-Mikoto, que, após ser confinado no Monte Ashibetsu em Hokkaido, tornou-se o Rei Enma no Mundo Espiritual, exercendo a função de juiz. Consequentemente, ele é extremamente rigoroso. No entanto, como só com rigor os seres humanos não conseguiriam suportar, ele se manifestou como um deus de compaixão, Kannon-Sama, e desceu ao posto de Bodhisattva porque, nas posições de deus ou *nyorai*, ele estaria elevado demais para salvar todos os seres. Um degrau acima disso está Komyo Nyorai. Até agora, venerar Kannon-Sama trazia benefícios, mas eram fracos. Havia benefícios, como na história de Sawaichi de Tsubosaka. Quando a terra é adicionada, o poder se fortalece. Terra é o corpo humano. Quando se torna Komyo Nyorai, o fogo e a água — a luz — se fortalecem. O fato de agora aplicarmos Johrei à distância é a atuação de Komyo Nyorai; quando o fazíamos com contato, era a atuação de Kannon-Sama. E quando o poder da terra se fortalece completamente, torna-se "Nikkajichi".
+
+De 1928 a 1934, por seis anos, eu fui um Bodhisattva; de 1934 a 1940, um Nyorai; e de 1941 a 1946, atuei como "Nikkajichi". Isso no Mundo Espiritual. No Mundo Material, tornei-me "Nikkajichi" no ano passado. Até o ano retrasado, eu mesmo aplicava Johrei, mas desde o ano passado, não posso mais fazê-lo. É porque minha posição se elevou e me distanciei das massas.
+
+As pessoas que entram nesta fé, mesmo que não a compreendam completamente, serão salvas ao irem para o Mundo Espiritual. Nonoyama-san, você falou sobre isso outro dia. O Mundo Espiritual está mais ativo. No entanto, há pessoas que são salvas imediatamente e outras que não. Mesmo entre os grupos de espíritos, há os que ouvem esta mensagem e a aceitam prontamente e os que não. Aqueles que morrem enquanto recebem Johrei são salvos mais rapidamente.
+
+— Lembro-me que, por volta de 1930, Meishu-Sama usava o cabelo curto. Quando perguntei por que não o deixava crescer, ele respondeu: "Estou passando por um treinamento de monge".
+
+Foi mesmo? Eu mesmo já esqueci as coisas do passado.
+
+— Recentemente, o reverendo Fukui, através de um médium, chamou o falecido reverendo Inagawa. Ele apareceu com as mãos em prece e disse: "Embora eu tenha tido a graça de entrar na fé, por ter tido dúvidas, fui expulso do Mundo Material e vim para o Mundo Espiritual. A dúvida é uma mácula no espírito, portanto, nunca duvidem. Agora, estou no Mundo Espiritual tratando dos mancos e aleijados".
+
+— O que é Kakuriyo-no-Oomikami?
+
+Kakuriyo-no-Oomikami é o Rei Enma. No entanto, recentemente, outro deus assumiu essa função. O Rei Enma governa o Mundo Material, e o Mundo Espiritual é governado por Ookuninushi-no-Mikoto. Mas, como ele retorna ao Mundo Espiritual de vez em quando, ele acumula as duas funções.
+
+— Quando um aluno do curso falece, o que devemos fazer com o Ohikari?
+
+Podem cremá-lo com o Ohikari.
+
+— Como se deve cultuar uma pessoa que desapareceu há muito tempo?
+
+Se a data do desaparecimento for conhecida, o culto deve ser feito nesse dia. Se não for, pode-se fazê-lo no dia do falecimento de um parente próximo, como a esposa ou os pais.
+
+Em caso de doença grave, é melhor recitar a oração mencionando Kakuriyo-no-Oomikami.
+
+O fato de uma pessoa se olhar no espelho de mão ou de seu nariz tremer não significa necessariamente que ela vai morrer. Muitas pessoas se salvam. Quando eu estava à beira da morte por uma doença pulmonar, olhava-me no espelho de mão todos os dias, e aqui estou, vivo.
+
+— Acredito que chegará o tempo em que Kunitokotachi-no-Mikoto presidirá e a Grande Purificação ocorrerá, e essa ideia me aflige.
+
+Não pense demais. Não é você quem está fazendo isso. É Deus. Portanto, entregue-se a Ele.
+
+— Preocupo-me se o que estou fazendo não é contrário à vontade de Deus.
+
+Basta agir de modo a não contrariá-la. É difícil para um ser humano saber se está ou não agindo contra a vontade de Deus.
+
+— Se tudo o que possuo pertence a Deus, sinto receio de usar para mim mesmo.
+
+Isso é uma visão limitada.
+
+— Então, qual seria o limite?
+
+É o bom senso. Faça as coisas com moderação. O importante é ajudar o maior número possível de pessoas.
+
+**8 de abril (quinta-feira)**
+
+— Uma moça que fez o curso se casou, mas se divorciou após dois meses. Na época do noivado, ela recebeu uma espada da família do noivo. Agora, ao tentar devolvê-la, eles se recusam a aceitá-la. A mãe está preocupada que, sem resolver o destino da espada, a filha não consiga se casar novamente. O que devemos fazer com a espada?
+
+Depois, eu lhe direi em particular.
+
+Pode-se ter quantas imagens de Daikoku-Sama quiser. Antigamente, eu tinha cerca de cinquenta. Não era por ganância, mas depois as distribuí. Quanto maior a imagem de Daikoku-Sama, melhor. Uma grande é melhor do que várias pequenas.
+
+— Como se deve cultuar Daikoku-Sama?
+
+Basta colocá-lo diante de Kannon-Sama; não é necessário um culto separado. Pode-se cultuá-lo junto com Kannon-Sama.
+
+— No passado, ouvi falar muito de uma terapia por energia espiritual...
+
+A energia espiritual humana tem algum poder de cura. A terapia por energia espiritual se baseia nisso.
+
+— Há algo no mundo chamado energia espiritual da água.
+
+As terapias até agora consistiam em assumir a doença do paciente. Tokuiti Miki começou o *Hito-no-Miti* por causa de Tokumitu Kaneda, da Tokumitu-kyo. Esse homem era bastante notável e realizou vários milagres, curando a asma de Miki. No entanto, enquanto Miki se curou completamente, Kaneda sofreu por cerca de um mês. A partir disso, Miki criou o *Hito-no-Miti*, que é um sistema em que se assume a doença de outra pessoa e se sofre em seu lugar. Então, no dia vinte e cinco de cada mês, eles pedem a Deus que lhes tire esse sofrimento. Em suma, eles transferem seu sofrimento para Deus. Era assim que funcionava, mas com o aumento do número de doentes, ele não conseguiu mais carregar todo o sofrimento sozinho e criou cerca de dez "vice-líderes". Todos os métodos antigos assumiam a doença. Isso porque eram da linhagem da lua e curavam com água. É como uma lavagem de roupa. A água fica suja. O meu método, no entanto, queima com fogo, então eu não me sujo. Em vez de assumir a doença, quanto mais eu pratico, mais forte me torno. Vocês que praticam devem saber disso. O uso do fogo é algo inédito. É a prova de que o Mundo Espiritual se tornou dia.
+
+Cristo também é da linhagem da lua. Seus milagres provavelmente foram exagerados pelas gerações posteriores. Fizeram isso para valorizar o fundador. No Japão, também temos as batatas de pedra de Kobo Daishi. Kobo Daishi não tinha o poder de curar doenças. Por isso, ele usava a moxabustão. Shakyamuni também não tinha esse poder. Por isso, há o capítulo sobre as ervas medicinais. Kannon-Sama é Yakushi Nyorai e prega o uso de medicamentos. Isso porque, no mundo da noite, era mais rápido parar a purificação do que deixá-la seguir seu curso. Kannon-Sama é uma manifestação de um deus, a Deusa Izunome, mas acima dela há o Deus Supremo. No xintoísmo, é Ame-no-Minakanushi-no-Oomikami; no cristianismo, o Pai Celestial; no judaísmo, Jeová; também Messias; na China, o Imperador Celestial; e na Índia, Daijizaiten. Cristo diz que se manifestou como filho do Pai por ordem do Pai, e ele surgiu porque era necessário para aquela época. No meu caso, o poder do Deus Supremo passa pela Deusa Izunome e, através do meu corpo, chega a todos vocês. Eu sou a companhia de eletricidade; Kannon-Sama é a hidrelétrica; e o Deus Supremo é a fonte que fornece a água. O Ohikari é um retransmissor da linha espiritual, como uma lâmpada. A matriz dessa lâmpada é a mesma, mas, dependendo da pessoa, pode ser de cem velas ou de dez velas, conforme sua atuação. É completamente diferente do poder espiritual de uma pessoa comum. Uma pessoa sem Ohikari praticando a cura é como tatear no escuro. Mesmo com treinamento, chegará no máximo a uma lanterna.
+
+— A linhagem espiritual da água também pertence ao princípio da solidificação?
+
+Sim, pertence. Curar com o próprio poder é solidificar. O método de cura Usui também é de solidificação. Eles internavam os doentes graves, mas no fim, o próprio fundador foi internado e morreu. Era bastante popular entre os oficiais da marinha.
+
+— Gostaria de perguntar sobre o cultivo sem fertilizantes.
+
+O método é o mesmo de sempre. O problema é que os campos atuais têm fertilizantes. As sementes também contêm toxinas, então levará uns três anos para dar certo. Por isso, é preciso renovar a terra do campo. Dizia-se que, com o cultivo prolongado, os nutrientes do solo se esgotavam, mas não é assim; quanto mais se usa a terra, mais nutrientes ela produz. Queimar areia e adicioná-la também não é natural e, portanto, não é bom. Com o cultivo sem fertilizantes, dependendo da cultura, pode-se ter uma boa colheita desde o início, mas geralmente a produção aumenta após dois ou três, ou até quatro anos. O composto orgânico pode ser usado. O segredo está no ponto de decomposição. As nervuras das folhas das árvores não devem permanecer. O composto é bom não porque tenha nutrientes, mas porque gera calor. Os componentes dos fertilizantes... mesmo o nitrogênio, existe em abundância no ar. É o espírito da terra. Mas aí se adiciona o manufaturado, e acaba sendo demais. O ácido fosfórico e o potássio também servem para gerar calor, mas acabam adicionando toxinas. O solo se torna ácido pelo excesso de fertilizantes. Em primeiro lugar, é preciso manter o solo vivo. Por isso, a rotação de culturas é necessária. Em Hakone, estamos cultivando berinjela e milho em rotação, e a produção é boa. E isso em um solo rochoso e ruim. O principal é que não há pragas. Os insetos surgem dos fertilizantes. Portanto, usar desinfetantes e pesticidas é um erro. Se pulverizarmos esses venenos, os insetos morrem, mas o solo se degrada. O milho, por exemplo, já está sendo cultivado há cinco ou seis anos. Uma senhora de Nomoto, perto de Kamiyama, ficou surpresa e me pediu sementes. Eu disse que não era a semente que era boa e dei a ela. Não tenho experiência com árvores frutíferas, mas a poda, como se faz hoje, deve ser necessária. A soja verde é muito suscetível a pragas, mas a de Hakone não tem nenhuma.
+
+— Há cerca de seis meses, li um artigo sobre uma região produtora de maçãs em Aomori que obteve sucesso no controle de pragas usando pássaros, abelhas e sapos, sem o uso de produtos químicos.
+
+Sim, Deus mantém os pássaros vivos para esse fim. As culturas devem ser plantadas de forma que as raízes possam se estender facilmente. Ao usar o composto, as folhas devem ser decompostas para que as raízes não se enrosquem nas nervuras duras. Com a grama, como não é tão dura, não há tanto problema. O composto evita que o solo se compacte. Os especialistas dizem que é bom que o ar chegue bem às raízes; nesse caso, bastaria deixá-las expostas ao ar. A aração também serve para não compactar o solo. Em Hakone, quando vejo árvores velhas, pequenas e raquíticas, noto que há muitas pedras embaixo delas. Elas impedem o crescimento. As raízes chegam a quebrar pedras, tamanha a sua força. Portanto, ao arar, é preciso não compactar o solo. A pisa do trigo é por causa da geada, já que ele passa o inverno. A geada não vem de cima, mas levanta a terra de baixo. Por isso, o solo fica fofo. A pisa do trigo evita isso, então é uma boa prática. Entre os vegetais, aqueles dos quais comemos a raiz produzem mais se a raiz receber sol. A batata-doce, por exemplo, deve ser plantada com espaço entre as fileiras, e a direção das fileiras deve ser ajustada para que recebam o máximo de sol. Assim, elas ficam enormes. Em Kaminoge, também colhemos batatas enormes. O melhor exemplo são as ervas daninhas. Elas não são comidas por insetos, certo? É porque não recebem fertilizantes. Em primeiro lugar, sem fertilizantes, o sabor é melhor. A berinjela tem um aroma delicioso, e a batata fica branquinha e também tem um bom aroma. Por isso, quem se acostuma a comer alimentos sem fertilizantes não consegue comer os que são cultivados com esterco. O nabo que range ao ser comido é por causa dos fertilizantes. Sem fertilizantes, ele tem uma textura fina e macia. Geralmente, usa-se muito fertilizante no nabo. É praticamente um banho de esterco. A batata-doce das variedades Norin e Oiran não tem fibras. A Kintoki tem fibras mesmo sem fertilizantes.
+
+— O que devo fazer quando há muitas tabuletas ancestrais no oratório?
+
+Como princípio, os antepassados que você não conheceu podem ser incluídos na tabuleta "Espíritos de todas as gerações". Para as pessoas que conheceu, faça uma tabuleta individual. Mas se forem muitas, pode-se organizar, começando pelas mais antigas. Claro, um ritual deve ser realizado na ocasião. A tabuleta pode ser pequena, não há problema. É diferente de Daikoku-Sama. No entanto, é preciso haver uma hierarquia. Por exemplo, a tabuleta dos pais deve ser maior que a dos filhos.
+
+O toque do sino é um sinal de que a refeição está sendo servida. Quando se oferece comida, no Mundo Espiritual há um encarregado que a transporta. Mesmo no culto da manhã, os espíritos ancestrais vêm. Centenas deles vêm. E mesmo tantos, cabem em um espaço minúsculo. Afinal, os espíritos podem se expandir e contrair livremente.
+
+— Eu e meu marido temos um altar xintoísta e um oratório budista separados.
+
+Isso é inevitável. Se for para juntá-los, o altar xintoísta fica em cima. Se forem apenas os nichos, podem ficar lado a lado. Nesse caso, o altar xintoísta à esquerda e o oratório budista à direita. No Mundo Espiritual, eles também são separados. Mesmo casais neste mundo, no Mundo Espiritual, geralmente vão para lugares diferentes. Não é fácil se encontrarem quando querem. Com o treinamento espiritual, pode-se obter a permissão de Deus para visitar. Em um certo nível, a vida conjugal é possível. Portanto, se você se dedicar a ajudar as pessoas e a treinar neste mundo, isso será possível. Dizem que se juntarão após a morte, mas se cometerem suicídio duplo, seus corpos ficarão presos e não conseguirão se separar. Mesmo que, com o tempo, sejam perdoados e se separem, irão para lugares diferentes. O treinamento consiste em se livrar do apego. Mesmo que se obtenha a permissão de Deus para se encontrar, não se pode dar nem um beijo. Se tentarem, o corpo ficará rígido. Isso é por causa do apego.
+
+— É possível casar-se novamente no Mundo Espiritual?
+
+Isso é impossível. No entanto, é possível se aproximar de quem tem pensamentos afins. Acima do Terceiro Paraíso, adquire-se um status divino e a vida conjugal se torna possível.
+
+O Mundo Espiritual é extremamente organizado. Mesmo pais e filhos deste mundo, no Mundo Espiritual, habitam lugares diferentes. Há casos em que o filho está em um nível superior ao do pai.
+
+**18 de abril (domingo)**
+
+— Se a imagem sagrada ficar suja por causa da fumaça da lenha...
+
+Deixe como está. Não é nada grave. Se cair fuligem, basta espanar.
+
+(O reverendo Inoue lê uma carta de um morador de Quioto, cujo conteúdo é...)
+
+— (1) Por que existem oito filiais separadas? (2) A filial Tengoku-kai está propagando a previsão de que em 1950 haverá uma grande purificação, e que apenas seus membros sobreviverão, enquanto os membros de outras filiais morrerão. Qual é a verdade? (3) A taxa de inscrição e o donativo pelo Ohikari são caros. Uma verdadeira religião não deveria salvar apenas os que dão muito dinheiro. O que pensa sobre isso? (4) Muitos camponeses, assustados com o que a Tengoku-kai diz, estão se filiando sem entender o verdadeiro significado. Acredito que isso não faz sentido. Qual sua opinião?
+
+É Deus quem está conduzindo a Obra, então, se alguém fizer algo errado, essa pessoa é que estará errada. Ela receberá uma punição de Deus. Os outros não precisam se preocupar. Bem, deixemos isso de lado. Entre tantas pessoas, há também as de cabeça estranha. Se nos ocuparmos com cada uma delas, não daremos conta. Acabaríamos tendo que criar um "Departamento de Polícia da Kannon-kai".
+
+Nos escritos sagrados da Oomoto, está dito: "A população do mundo será reduzida a três décimos". Não se sabe se são três de dez ou três de cem. O fato de o grupo de Nakajima dizer que apenas vinte por cento sobreviverão à grande purificação é porque ele está obcecado com a Oomoto. Ele reduziu os trinta por cento para vinte. Nós interpretamos como noventa e sete por cento, mas não sabemos ao certo. Mesmo que Deus saiba, Ele não revela aos humanos.
+
+Também nos escritos da Oomoto está dito: "O arrependimento por medo não é genuíno". Arrepender-se por medo não é arrependimento verdadeiro. A Tenrikyo também costuma amedrontar as pessoas, mas a coerção não é autêntica. Ou seja, o arrependimento deve vir do amor. Se for como os delinquentes e a yakuza, não é a obra de Deus.
+
+— Em Fukui, também parece que estão dizendo que oitenta por cento das pessoas morrerão em 1950. Além disso, ouvi dizer que pregam que só a Tengoku-kai serve, e que no ano que vem Meishu-Sama irá para o paraíso e não poderemos mais vê-lo, então devemos ir agora.
+
+Que absurdo! Eu ainda não vou para o paraíso.
+
+— É exatamente dessa forma que ouço coisas que são como um "excesso de zelo que prejudica" em relação a Meishu-Sama. A questão da separação das filiais também está causando muita aflição aos membros.
+
+Ora, todos são muito mesquinhos. Desse jeito, o mundo não será salvo. O objetivo desta fé é eliminar os conflitos, mas se nós mesmos os criamos, não adianta. A separação em oito filiais foi uma exigência do Ministério da Educação no ano passado. Eu não queria, mas fiz. Primeiro, precisamos salvar a própria Kannon-kai.
+
+— Um sacerdote xintoísta de Shimokitazawa disse que, no futuro, as religiões se unificarão em uma só; que os remédios são prejudiciais, mas até agora foram usados por necessidade; e que existem formigas vermelhas, brancas e pretas, que em breve serão conquistadas por formigas de ouro e prata.
+
+Até as formigas têm seu partido comunista.
+
+Falam tanto em profecias, mas não há religião sem elas. Cristo, Shakyamuni, todos foram profetas. "O Reino dos Céus está próximo" também é uma profecia. A Tenrikyo também. O "Mundo de Gino" de Nitiren também é uma profecia. Mas essas são vagas, e por isso são boas. Previsões com data e hora marcadas estão fadadas a falhar. Mesmo que se profetize, Deus pode mudar as coisas. É porque o povo em geral não deve saber. São todas expectativas. Expectativas são ideais. Podem ter certeza de que previsões com datas são falsas.
+
+— Ontem fui a uma reunião da Sociedade Teosófica (Miroku Lodge). Disseram que sete raças humanas surgirão sucessivamente no mundo. Quando a primeira desapareceu, houve grandes guerras e desastres naturais, e então a segunda raça apareceu. A quarta raça foram os atlantes, que submergiram no Oceano Pacífico. Na época deles, os aviões eram muito mais avançados que os de hoje. O sangue atlante está misturado no dos japoneses. Agora estamos na era da quinta raça, e a sexta está surgindo. A sexta terá um rosto com traços indianos e compreenderá as coisas espirituais. Falei com o presidente, o senhor Miura, que a atuação de "Miroku" é a nossa atuação, e ele ficou muito feliz.
+
+Isso é, sem dúvida, conhecimento divino. Diz-se que o conhecimento adquirido pelo estudo é humano, e o adquirido sem estudo é divino. A hora está chegando e isso está começando a se manifestar em vários lugares.
+
+Este método de cura com as mãos também existia em tempos muito antigos, há milhares de anos.
+
+— Dizem que aparece em antigos documentos japoneses.
+
+Quando a revista ficará pronta?
+
+— Acredito que por volta de junho.
+
+Vou escrever um artigo também. E peça a Nonoyama-san que escreva algo para que possamos divulgá-la. Nonoyama-san tem uma ótima escrita. Se ficar bom, podemos torná-la o órgão oficial da Igreja Kannon.
+
+**28 de abril (quarta-feira)**
+
+De agora em diante, para assuntos difíceis de expressar diretamente ou embaraçosos, escrevam os pontos principais junto com seu endereço e nome e entreguem ao reverendo Inoue. Eu responderei em formato de perguntas e respostas na próxima vez. Assim, outras pessoas também poderão se esclarecer.
+
+— Certo dia, fui a uma médium e o espírito do meu marido, que morreu na guerra, se manifestou. Ele descreveu a chamada das 22h do dia 23 de junho de 1945. No momento em que disse "sim", ele caiu. Tocou três vezes no Ohikari que guardava no bolso direito do peito e, dizendo "entendi bem" três vezes, faleceu. Agradeço imensamente pela proteção. Ele também me disse: "Vá para os Estados Unidos e salve as pessoas através desta fé".
+
+Outro dia, o espírito de um soldado morto na guerra possuiu sua irmã. Ele contou que foi executado em tal dia, tal mês, tal ano, a tal hora e minuto. Na ocasião, quinze homens foram deitados lado a lado, e um rolo compressor passou por cima deles, matando-os. Ele disse que foi o único perdoado e que pôde retornar ao Japão. Ele também informou o nome e a idade do homem que estava ao seu lado e do que estava ao lado deste. Normalmente, quem morre dessa forma se torna um espírito preso ao local, mas como sua irmã recebeu o Ohikari no outono do ano passado, ele foi salvo por esse mérito.
+
+Recentemente, uma doença semelhante à cólera está se espalhando na região de Niigata. Na região de Gunma, também há uma doença chamada "doença de seis dias", pois a morte ocorre em seis dias. O rádio diz que a cura leva três dias, mas é mentira. As estatísticas médicas também contêm muitas mentiras. Quando a esposa de Onoda contraiu essa doença, ela teve diarreia e vômitos contínuos, não conseguia beber água e enfraqueceu rapidamente. Em cerca de uma hora, sua fisionomia mudou. Ela se preparava para ir à minha casa na manhã seguinte para pedir ajuda quando, cerca de trinta minutos depois, começou a melhorar gradualmente e já se sentia bem. Dizem que essa doença é terrível, que o Johrei não surte efeito e até piora o quadro, e que injeções levam à morte certa. Se isso se espalhar pelo país, será uma era de terror. A era do terror está realmente chegando. De agora em diante, em casos de doenças como essa, virem-se na direção de Atami, curvem a cabeça e digam: "Meishu-Sama, peço sua proteção". A partir de agora, esse método também é permitido.
+
+— Não seria de origem espiritual?
+
+Não, não é. Quando uma pessoa enfraquece, os espíritos invariavelmente a possuem. Por isso, parece uma doença espiritual. Nesses casos, consultar um médium e acreditar em tudo o que ele diz é arriscado. Raposas e outros espíritos podem se manifestar e falar todo tipo de coisa. Mesmo na tuberculose, quando o paciente enfraquece e os sintomas parecem espirituais, é porque os espíritos o possuem.
+
+(O reverendo Inoue lê o manuscrito "A Era do Terror", omitido de *O Evangelho do Paraíso*.)
+
+A humanidade tem usado medicamentos até hoje, mas, com a transição do Mundo Espiritual para o dia, o elemento fogo aumentará, e os medicamentos ingeridos até agora serão expelidos do corpo. Naquele momento, se continuarem com as terapias de solidificação existentes, a morte será inevitável. O homem moderno, cheio de toxinas medicamentosas, quando chegar a hora, sofrerá uma purificação drástica e morrerá em massa. "A humanidade pode ser reduzida a uma fração, um décimo ou até menos". E essa era terrível "se manifestará nos anos seguintes a 1947".
+
+Todos estão cheios de toxinas. Provavelmente há mais toxinas do que carne e pele. E não é exagero, é realmente muito. Naquela época, quem teve sarna terá uma purificação mais branda. Por isso, a sarna é uma bênção.
+
+— Seriam três partes de pus para sete de carne?
+
+Isso seria um caso leve. É uma parte de carne para nove de toxinas. Antigamente, eu fazia versos cômicos com o título "Homem-Massa-de-Pus". Quando surgirem doenças tão intensas e purificações de formas desconhecidas como as de agora, o significado deste Johrei será finalmente compreendido. Se eu disser isso, pode se tornar material para propaganda negativa, e surgirão pessoas dizendo que quem não entrar na Kannon-kai morrerá. Se repetissem exatamente o que eu disse, tudo bem, mas acabam acrescentando coisas. A história de que o ar desaparecerá por três minutos, ao que parece, foi dita por Onisaburo Deguchi. E eles fizeram parecer que fui eu quem disse, para me prejudicar. Certamente, um espírito maligno está os possuindo. Outras religiões também dizem coisas assim. Certa vez, encontrei um pastor cristão, presidente da "Sociedade Evangelho do Paraíso", e ele me disse: "O fim do mundo é quando toda a humanidade morrer e, depois de mil anos, os mortos começarão a reviver aos poucos. Essa é a ressurreição". Naquela época, eu não entendia muito de religião e achei aquilo ridículo. Também visitei o estudioso do Tibete, Ekai Kawaguchi, e perguntei o que acontece quando uma pessoa morre. Ele disse que nos dissolvemos no grande espírito do universo e nos tornamos zero. Esse tipo de pensamento leva ao niilismo e à prática do mal. Porque se, fazendo o bem ou o mal, nos tornamos zero após a morte, as pessoas pensarão em fazer o mal para ter uma vida mais fácil neste mundo.
+
+Previsões com data e hora marcadas estão fadadas a falhar. O terremoto de Kansai também é um exemplo. Os seres humanos não devem saber dessas coisas. É como a expectativa de vida; se soubéssemos de antemão, as pessoas parariam de trabalhar muito antes, dizendo: "Vou morrer em tal data, de qualquer maneira", e ficariam ociosas. Se os terremotos pudessem ser previstos com certeza, ninguém mais construiria casas. Portanto, quem anuncia tais coisas é um espírito maligno. O deus verdadeiro apenas informa que algo assim acontecerá no futuro. Quando visitei Wasaburo Asano na Oomoto, ele disse que a "Reconstrução do Mundo" ocorreria em 1936. Perguntei o que ele faria se não acontecesse, e ele respondeu que, como militar, cometeria suicídio. Como nada aconteceu em 1936, ele deixou a organização. A segunda vinda de Cristo também é assim... está escrito "o Messias virá como um ladrão na noite" e "descerá sobre uma nuvem de glória". Isso é feito para que possa ser interpretado de várias maneiras.
+
+— Quando o budismo desaparecer, o que acontecerá com o carma?
+
+Ficará mais claro. O do budismo é ambíguo. A lei de causa e efeito se tornará mais rápida. Havia pessoas que prosperavam fazendo o mal e pareciam não sofrer as consequências até a morte. As pessoas frequentemente pensavam: "É estranho que fulano, que faz tanto mal, não sofra nada". Isso acontecia porque a retribuição era lenta. Mas é como os medicamentos ingeridos, que um dia terão de ser expelidos. A hora está chegando e a retribuição se tornará cada vez mais rápida, até que finalmente se torne instantânea, e as consequências se manifestem imediatamente. Recentemente, essa tendência tem sido muito evidente. O mesmo acontece com os mortos na guerra.
+
+— Qual é o julgamento pelo crime de blasfêmia do homem contra Deus?
+
+Doença ou sofrimento extremo.
+
+— Nesse caso, pode-se saber pelos sintomas da doença?
+
+Sim. A família inteira se extingue, não se limita a uma pessoa. Cortar uma grande árvore de um santuário sem permissão é terrível. Geralmente, a família inteira perece. Eu mesmo experimentei muitas vezes o quão terrível é a blasfêmia contra Deus. Dentre os crimes, o mais grave é o de ter aprisionado o Deus Dragão no passado, e o de ter ficado do lado de quem o aprisionou. Agora é a hora do julgamento. As classes privilegiadas de até então são um exemplo. De agora em diante, será cada vez mais severo, mas não posso falar muito claramente. No fim, torna-se o pecado dos espíritos ancestrais.
+
+— A toxina da ira, uma das três toxinas, está incluída nisso?
+
+Não, não está. Quando se é atingido por esse julgamento, a pessoa morre sem entender o porquê. O presidente da associação de moradores daqui, quando minha esposa o encontrou anteontem, estava bem, mas morreu subitamente naquela noite. Casos como esse são um exemplo.
+
+— E os materialistas?
+
+É um pecado considerável. Observe e você verá. Eles são governados por Satã... o dragão vermelho.
+
+— Outro dia, um religioso e um materialista debateram no rádio.
+
+Sim, eu perdi. Eu venho lutando contra o dragão vermelho do Partido Comunista há muito tempo, e ainda estamos em guerra. Acredito que venceremos até o fim deste ano. Vinte anos atrás, um membro do Partido Comunista veio para me matar, armado com um punhal, e o cravou no tatami para me ameaçar. Ele era um dragão vermelho, e seu rosto e pescoço estavam completamente vermelhos. A exigência dele não era financeira, mas algo que, se eu aceitasse, me impediria de realizar meu trabalho. Ele veio para interferir na minha Obra.
+
+**8 de maio (sábado)**
+
+Se um paciente com câncer de estômago não tem apetite, não há esperança. Salve-o no Mundo Espiritual.
+
+— Sobre a relação entre Amaterasu Sume Oomikami, a Deusa Izunome e Kunitokotachi-no-Mikoto...
+
+Amaterasu Sume Oomikami e a Deusa Izunome têm uma relação, mas Kunitokotachi-no-Mikoto é de uma era muito mais antiga. Portanto, não há uma relação direta. O "Ocultamento na Caverna de Pedra" foi um conflito com Susanoo-no-Mikoto, e Amaterasu Sume Oomikami fugiu. Esse é o "Ocultamento na Caverna", que ocorreu no Monte Mizukami, em Shinshu, onde ela parece ter passado o resto de sua vida. Depois, ela parece ter ido para Togakushi, e daí surgiu a palavra "Iwato" (Caverna de Pedra). Mais tarde, por reverência a Amaterasu Sume Oomikami, santuários foram erguidos em vários lugares. Os que conhecemos hoje são o Ise original em Tanba, o de Ayabe em Tanba, o Santuário Manai em Tango, e Uji-Yamada, entre outros.
+
+— O que é o Mundo da Noite?
+
+É a era posterior ao "Ocultamento na Caverna de Pedra" de Amaterasu Sume Oomikami. Segundo a lenda, Kunitokotachi-no-Mikoto era um deus extremamente rigoroso, e os oitocentos milhões de deuses, não suportando seu governo, pediram unanimemente sua abdicação. No fim, ele não pôde resistir à opinião pública e abdicou. Este ponto é baseado nas narrativas de Kunitokotachi-no-Mikoto, que se manifestou através da fundadora da Oomoto, Nao Deguchi. Ele se retirou para o nordeste e foi confinado no Monte Ashibetsu, em Hokkaido. Isso parece ser verdade. Foi no dia do Setsubun, e a partir de então, as pessoas comuns passaram a atirar grãos de soja torrados nele. Os deuses disseram que ele poderia sair quando os grãos torrados florescessem, e assim se estabeleceu o ritual do Setsubun. Naquela época, Kunitokotachi-no-Mikoto também estava em Ayabe. Talvez por isso, na região de Ayabe, eles digam o contrário: "Demônios para dentro, sorte para fora". Portanto, isso parece ser um fato. Kunitokotachi-no-Mikoto tornou-se o Rei Enma no Mundo Espiritual. É um papel de julgamento do bem e do mal extremamente severo. No entanto, como um método puramente rigoroso seria lamentável, ele se manifestou no Mundo Material como Kannon-Sama. Esta é a minha interpretação. Por isso, Kannon-Sama salva com compaixão, sem discriminar entre o bem e o mal. É a compaixão absoluta. Acredito que essa interpretação não está longe da verdade. Amaterasu Sume Oomikami e Kannon-Sama são completamente diferentes. Amaterasu Sume Oomikami representa o sol. No céu, há o sol, a lua e as estrelas, e eles se refletem na terra. O "espelho de mochi" do Ano-Novo simboliza o reflexo do céu na terra. Da mesma forma, o sol, a lua e as estrelas se refletem nos seres humanos, e desde a antiguidade, pessoas notáveis são chamadas de estrelas. Como no céu há as estrelas de madeira, fogo, terra, metal e água, certamente haverá cinco pessoas notáveis entre os humanos. Amaterasu Sume Oomikami é a deusa do sol e, no mundo búdico, é Dainichi Nyorai. Os budas são todos manifestações de deuses. Aqui residem vários mistérios. Kunitokotachi-no-Mikoto era o líder dos deuses e, com sua abdicação, seus deuses subordinados também se retiraram. Depois disso, os deuses malignos passaram a governar, com Amanowakahiko-no-Mikoto como seu general. "Amanojaku" vem daí, significando o demônio do céu. Como a humanidade era atormentada pelos deuses malignos, para se proteger, chegou a hora de Kunitokotachi-no-Mikoto e os deuses do mundo divino correto se manifestarem — embora alguns deuses corretos também tenham se aliado aos malignos. Os que se manifestaram como budas eram todos deuses notáveis. Mas, mais tarde, muitos budas também se aliaram aos deuses malignos ou foram derrotados. A deusa consorte de Konjin do Nordeste, Toyokumono-no-Mikoto, é a "Konjin de Hitsujisaru" (sudoeste). Em tempos antigos, houve vários planos divinos em todo o mundo. Japão, Coreia — que antes era ligada por terra — e China tinham um intercâmbio considerável. Diz-se que Kunitokotachi-no-Mikoto renasceu e realizou várias obras, o que parece ser verdade. O fato de o Japão ter sido ligado por terra é evidenciado pela descoberta de ossos de elefante. O elefante deve ter vindo do continente. E quando os deuses corretos se tornaram budas, uma parte deles não se tornou buda, mas sim deuses-dragão, e esperou o momento certo nos mares próximos ao Japão. Estes são os Oito Grandes Reis Dragões, selados por Shakyamuni. Eles esperaram no fundo do mar, no estreito de Kyushu, em Akashi, entre Echigo e Sado, e na baía de Tóquio. Além disso, havia um no Lago Towada. Quando o deus-dragão do Lago Towada ascendeu aos céus, ocorreram terremotos e tempestades, a água formou um redemoinho, e logo um dragão dourado subiu aos céus. Vinte ou trinta pessoas viram isso, e eu ouvi de uma delas. Os Oito Grandes Reis Dragões estão todos trabalhando como seres humanos. Claro, eles mesmos não sabem disso. Há mais histórias interessantes, mas falarei sobre elas gradualmente.
+
+— Sobre os espíritos de raposa...
+
+Existem muitos espíritos de raposa. Provavelmente centenas de milhões. Não apenas no Japão, mas também na China e na Rússia. Na Europa e na América, são poucos. Parece que não se dão bem com os brancos, mas são numerosos entre os orientais, especialmente no Japão. Há dois tipos: os que são guardiões desde o início e os que possuem repentinamente. Essa distinção é clara. Uma pessoa pode ter cinquenta ou sessenta deles. Eles se agrupam como grãos de feijão, por isso são fáceis de identificar.
+
+— Ser enganado por um espírito de raposa também é carma?
+
+Sim, é carma. Certa vez, tratei uma senhora chamada Koyama. Ela havia sido dona de um bordel. Uma mulher que trabalha como prostituta por muito tempo se torna uma raposa no Mundo Espiritual. E, por vingança, ela possuiu a senhora. A raposa gritava "Vou matar Meishu-Sama!", ou ameaçava: "Hoje vou parar seu coração" ou "Hoje vou derreter seu cérebro". A senhora vivia se olhando no espelho. Mas, no dia a dia, ela não tinha nada. Por isso, eu ria e dizia: "Koyama-san, você é uma louca sã". Eu a mantive perto de mim por cerca de seis meses, tratando-a e estudando o caso.
+
+— Esta fé nega toda a ciência moderna?
+
+Não nega tudo. A medicina até agora contribuiu com o conhecimento da estrutura do corpo, o funcionamento dos órgãos internos, e isso é um mérito. Os germes também são muito úteis. Mas o erro fundamental é que, até agora, o mundo era noite, e era mais rápido solidificar as doenças, pois o poder de dissolvê-las era fraco. Por isso, Shakyamuni disse para tomar remédios, e há um sutra chamado "Capítulo das Ervas Medicinais". E Yakushi Nyorai era uma manifestação de Kannon-Sama. Até mesmo Kannon-Sama adotou o método da solidificação. Quando o mundo se torna dia, não se pode mais solidificar, e o método de dissolução se torna melhor. Eu descobri isso cedo. Eventualmente, todos saberão, mas eu descobri que dissolver é melhor do que solidificar com remédios. Os médicos não perceberam isso e ainda hoje tentam solidificar. A medicina ocidental tem seus méritos e foi boa até agora. É como usar um casaco de algodão no inverno, mas não usá-lo quando esquenta. A medicina de hoje é como se, mesmo no verão, continuassem a engrossar o algodão do casaco.
+
+— Sobre o estudo dos espíritos...
+
+Se Deus julgar necessário, Ele dará a essa pessoa a oportunidade de estudar os espíritos. Religião e espíritos estão profundamente relacionados, então, até certo ponto, todos terão algum conhecimento. Mesmo sem a intenção de estudar, se houver interesse, Deus fará com que a pessoa compreenda. Mas se quiser apenas ter uma noção, há livros que podem ser lidos. Se alguém se aprofunda demais no estudo dos espíritos e tenta invocar espíritos em si mesmo, corre perigo. Tentar invocar espíritos em outros ou fazer o próprio espírito flutuar pode levar à doença mental. Eu conheço pessoas que enlouqueceram e cometeram suicídio. Na seita Nitiren, quando um espírito flutua e a pessoa começa a "falar em línguas", eles se alegram, mas isso também é perigoso e pode levar à doença mental. E como a raposa é um animal, se a usarmos com frequência, nós mesmos cairemos no caminho dos animais. Por isso, entre os ascetas, há surpreendentemente muitas pessoas infelizes.
+
+**18 de maio**
+
+— Qual o significado das três toxinas e das cinco impurezas?
+
+São termos budistas. As três toxinas são a ganância, a ira e a ignorância, como as palavras indicam. As cinco impurezas são, bem, vários tipos de pecados e máculas. Não têm um significado muito profundo. Eu esqueço o que não é necessário. Lembrar-se de tudo com muita clareza também é um fardo. Quem tinha uma memória excelente era Shigenobu Okuma; ele dizia invejar as pessoas esquecidas. Ele se lembrava até do que preferiria esquecer. Por exemplo, o salário do jardineiro que trabalhava em seu jardim, quanto era agora e quanto era anos atrás, ou como plantar certo tipo de árvore. Balfour, ex-primeiro-ministro britânico, não conseguia memorizar números de jeito nenhum, e quando precisava lê-los em discursos no parlamento, seu secretário o fazia. Yoshida, do Partido Liberal Democrata, também não é muito inteligente; seus discursos são ruins. Embora não se possa dizer que ser burro ou inteligente não tenha relação com a memória, não há uma correlação tão grande. Na escola, quem tem boa memória tem boas notas. Mas isso não significa que se tornará alguém importante. Dizem que Einstein era um mau aluno e foi reprovado. Ser reprovado não é motivo para tanto pessimismo.
+
+— Sobre o culto a Inari, a relação entre o cavalo e a raposa...
+
+Deve-se realizar o culto no dia do cavalo de cada mês, geralmente no início. Há algum motivo para o culto ser no dia do cavalo. Como não é algo essencial, não me lembro. Certamente já ouvi a explicação. O primeiro dia do cavalo do ano, no entanto, deve ser celebrado da forma mais grandiosa possível.
+
+— Como devemos proceder com os deuses que cultuávamos até agora?
+
+Recite a oração e diga: "Agradecemos por toda a proteção até hoje. Agora, passamos a cultuar Kannon-Sama. Pedimos que, a partir de hoje, retornem aos seus lugares de origem". Depois, pode-se queimar o santuário. Se disser isso, os deuses retornarão e o santuário ficará vazio.
+
+— Devido à falta de espaço, posso colocar o oratório budista no *tokonoma* (alcova)?
+
+Sim, pode. Os antepassados receberão a luz de Komyo Nyorai, e sua elevação no Mundo Espiritual será mais rápida.
+
+— No culto da noite, recitamos a Oração Zenguen Sandji para a imagem sagrada. Acredito que também deveríamos recitá-la para o oratório budista...
+
+Em cerimônias memoriais e cultos especiais, recita-se a Zenguen Sandji para o oratório budista, mas no dia a dia, é melhor não o fazer. Apenas as duas últimas frases são suficientes. Se for recitá-la, recite a Amatsu Norito e a Zenguen Sandji para a imagem de Kannon-Sama, e apenas a Zenguen Sandji para o oratório budista. Caso contrário, a imagem e o oratório ficarão no mesmo nível.
+
+— A nova imagem de Daikomyo Nyorai...
+
+Foi escrita especialmente. Pode ser concedida aos ministros, mas há uma hierarquia. Os membros em geral não devem recebê-la. Nas questões divinas, há aspectos não democráticos.
+
+Certa vez, fui a uma casa e havia um altar xintoísta. Senti algo estranho e perguntei à família. Disseram que era um deus da Konkokyo, mas que não o cultuavam muito. Perguntei ao deus, e ele disse que queria voltar, mas não podia porque não haviam realizado o procedimento. Ele não podia retornar sem que as palavras sagradas fossem proferidas. É assim que funciona. Se o santuário for queimado sem que as palavras sejam ditas, o deus perde sua morada e fica à deriva. Portanto, as palavras sagradas são importantes. Além disso, como a hierarquia é rigorosa, se Kannon-Sama for cultuada em um lugar baixo, ela não virá.
+
+Se você não sentir mais vontade de cultuar um deus, isso também é um sinal. É melhor cultuá-lo devidamente e pedir que ele retorne.
+
+— Sobre o plano divino de Amaterasu Sume Oomikami e da Deusa Izunome... A Deusa Izunome não aparece no *Kojiki*...
+
+Antigamente, não se podia falar sobre a Deusa Izunome. O assunto era tratado de forma vaga. Amaterasu Sume Oomikami é a deusa do sol; sua posição é elevada, mas sua atuação é limitada. A Deusa Izunome é fogo e água e, no mundo búdico, torna-se Kannon-Sama. Com a adição da atuação da terra, ela se torna Miroku. Amaterasu Sume Oomikami é um poder; a Deusa Izunome são dois; e o Deus Miroku são três, formando a trindade e se tornando completo.
+
+— Acredito que o Deus Miroku se manifestará com o poder da terra, ou seja, com um corpo físico...
+
+Sim, exatamente.
+
+— Se não for possível realizar o culto a Kannon-Sama no dia 18 de cada mês...
+
+Faça no dia 17. Para cultos a deuses e budas e cerimônias memoriais, é bom adiantar, mas não se deve atrasar.
+
+— Qual a diferença entre o confinamento de Kunitokotachi-no-Mikoto e o de Amaterasu Sume Oomikami?
+
+O de Amaterasu Sume Oomikami é relativamente recente. Recente, mas ainda assim há muito tempo. O de Kunitokotachi-no-Mikoto é muito anterior e um evento separado. Kunitokotachi-no-Mikoto foi confinado no nordeste por Amanowakahiko-no-Mikoto e outros, enquanto Amaterasu Sume Oomikami, atacada por Susanoo-no-Mikoto e temendo por sua vida, fugiu para o Monte Mizukami em Shinshu, onde faleceu. Ela cortou seu cabelo, que se tornou um objeto sagrado, e foi cultuada em vários lugares. O Santuário Hie é um exemplo disso.
+
+— Atualmente, estamos reservando parte da contribuição dos membros como um fundo para o futuro bem-estar deles, como a construção de pousadas, igrejas, fazendas, escolas, centros de Johrei, etc. As filiais maiores têm várias obras sociais, mas a nossa ainda é pequena e, consequentemente, não temos nada para mostrar, o que deixa os membros com um sentimento de desamparo e tristeza. Gostaríamos de pedir a orientação de Meishu-Sama sobre este ponto.
+
+Essas questões devem ser tratadas pelo presidente. Consulte o senhor Shibui. A administração é toda de responsabilidade do presidente da sede. Como há também presidentes de filiais, vocês deveriam se reunir e decidir.
+
+— Recentemente, conversei com o presidente, e ele me disse que é presidente apenas no nome e que, na prática, é o presidente da Goroku-shichi-kai e está cuidando dos assuntos dela.
+
+Até agora, eu vinha fazendo tudo, e esse costume permaneceu. Uma vez que a forma religiosa foi estabelecida, o presidente deveria assumir tudo. Mas ainda não chegamos a esse ponto. Se deixarmos que as coisas sigam seu curso natural por mais um tempo, o que tiver que se assentar, se assentará. É Deus quem está conduzindo. Mesmo que eu pense que algo deva ser feito de uma certa maneira, muitas vezes a vontade de Deus é diferente. Esta casa é pequena, e no ano passado decidimos comprar uma maior, mas depois as coisas não correram bem. Achei estranho e, ao investigar, descobri que Hakone deveria vir primeiro. Porque Hakone é cinco, Atami é seis e Odawara é sete. O alojamento de Hakone precisa ser concluído e usado antes que possamos prosseguir. Assim, os planos humanos e os planos divinos frequentemente divergem. Devemos nos entregar a Deus e esperar o momento certo. Outro dia, a receita federal exigiu que Nakajima pagasse dois milhões de ienes em impostos. Ele ficou chocado e disse: "Não tenho esse dinheiro". O fiscal respondeu: "De quem é esta casa?". "Minha". "Então venda esta casa e pague. Você tem uma renda enorme, não é? As pessoas descem na estação e vêm todas para cá". Nakajima ficou pálido e atônito. Então eu lhe disse: "Afinal, em que você acredita? Você não acredita em nada. Preocupar-se e se afligir é sinal de que não confia em Deus. Se você se comporta assim, Deus também não fica satisfeito. Por que se preocupar tanto?". Ele entendeu e percebeu que sua fé era apenas superficial. E a questão dos impostos se resolveu bem; alguém apareceu para interceder, e ele acabou pagando apenas um décimo do valor. Quando as coisas não saem como eu quero, eu as entrego a Deus. Isso acontece o tempo todo. Meus impostos também eram de cinco milhões de ienes, mas alguém intercedeu e pagarei apenas uma fração. Em termos espirituais, quando nos preocupamos e nos afligimos, nosso espírito cai no inferno. O espírito deve estar sempre no paraíso. Se, aconteça o que acontecer, não nos preocuparmos, o espírito irá para o paraíso, e lá Deus resolverá tudo da melhor forma. As filiais também foram divididas em oito por ordem do Ministério da Educação. Quando se divide algo, é natural que no início não funcione bem. Eu esperava que não fosse tranquilo. Mas como Deus está no comando, com o tempo, tudo se harmonizará. Portanto, devemos esperar pacientemente. Antigamente, eu criei os "Três Preceitos do Johrei" e os afixei nos Johrei Centers: "Não seja arrogante, não se irrite, não se apresse". Quem infringisse um desses três não tinha qualificação para ser ministro. No fim, é através dessas coisas que nos aprimoramos. A parte mais importante do treinamento de Deus é nos fazer sentir raiva. Antigamente, Deus me dizia muitas coisas. Eu não entendia bem as coisas de Deus, e houve momentos em que senti meu sangue ferver, e fiquei tão irritado que minha cabeça ficou vazia. Por vinte anos, sofri com dívidas, tive meus bens penhorados sete ou oito vezes e fui à falência. Quando os bens eram penhorados, eles lacravam as gavetas dos armários, e eu já cheguei a remover o selo sorrateiramente para abrir uma gaveta. Remover aquilo é um crime, então é assustador. Na casa de Kaminoge, há uma placa de madeira dizendo que a casa está sob sequestro judicial. Coloquei-a em um lugar não muito visível, mas realmente sofri com as dívidas. E Keita Goto também me causou muitos problemas. Quando eu estava para construir um anexo, com as fundações prontas e tudo preparado, ele me notificou com uma ordem de embargo. Naquela época, também fiquei furioso. Mas o interessante é que, quando construí o Kanzan-tei em Hakone, usei exatamente os mesmos materiais do anexo, e assim o Kanzan-tei foi concluído. Pensando agora, eu deveria até agradecê-lo. Quando você faz um plano e ele não dá certo, deve pensar que Deus tem algum outro propósito. No caso da casa de Atami, agora ambos estamos em apuros. Quem vendeu também está. A receita federal avalia pelo valor de mercado, então seria cerca de vinte milhões de ienes. Subtraindo o imposto de um milhão e seiscentos mil ienes, sobram dezoito milhões e quatrocentos mil. Se dividirmos isso entre as duas partes, a outra parte teria que pagar nove milhões e duzentos mil ienes além de ter vendido a casa. Legalmente, eu poderia, mas humanamente, é impossível. Por isso, deixei como está. E penso que Deus deve ter algum plano. Em algum momento, tudo ficará claro. O terreno vizinho também pertence a Yamashita, e outro dia ele veio me oferecer: "Não quer comprar?". Eu disse "não quero", mas minha esposa disse: "Se construírem algo estranho aí, será um problema, então por que não compra?". Decidi comprar, mas já havia sido vendido. Quando ele me ofereceu, era cerca de trezentos mil ienes, mas depois ouvi dizer que foi vendido em leilão por um preço bem mais alto. E o comprador é um empreiteiro de Atami com quem Shibui trabalha, e ele disse: "Se Meishu-Sama precisar, pode usar quando quiser". Afinal, era necessário. O que é necessário vem de lugares inesperados. O fato de nos tornarmos uma religião também não foi algo que eu planejei. Um pastor, tenente-coronel das forças de ocupação, compreendeu até certo ponto esta fé e disse que, se ela se desenvolvesse, inevitavelmente entraria em conflito com os médicos e seria proibida, a menos que se tornasse uma religião. E assim nos tornamos uma. E foi muito bom. Com isso, todos os problemas que tínhamos com as associações médicas de todo o país desapareceram.
+
+**28 de maio (sexta-feira)**
+
+— Nos dias de hoje, em que se clama pelo respeito aos direitos da mulher, o que pensa sobre o divórcio?
+
+Estou publicando um livro chamado *Conversas sobre a Fé* e escrevi um pequeno artigo sobre "O Caminho do Casal". As crenças até hoje seguiram por muitos caminhos errados. Eu quis revelar a verdade e escrevi "O Caminho do Casal". Se as pessoas o compreenderem, o divórcio deixará de ser um problema.
+
+(O reverendo Inoue lê "O Caminho do Casal".)
+
+**Resumo**
+
+Recentemente, tem-se discutido muito se o casamento arranjado é melhor que o por amor. No entanto, do ponto de vista espiritual, em nosso país, cada região cultua seu deus protetor local. Assim como uma prefeitura no mundo material, esse deus rege casamentos, funerais e nascimentos. É por isso que, quando uma criança nasce, faz-se uma visita ao santuário local para agradecer. O casamento também é uma união de um homem e uma mulher realizada pelo deus protetor. Por não compreenderem isso, as pessoas tendem a pensar que o homem e a mulher se unem por vontade própria. Um casal, unido pela vontade de Deus, separar-se por conta própria é uma blasfêmia. É um erro tentar interferir em uma união que se deu por desígnio do destino; ao contrário, deveríamos ser gratos. E se, ao compreender isso, passarmos a ter um sentimento de gratidão, nos tornaremos boas esposas e bons maridos.
+
+Além disso, a morte de uma criança é, em muitos casos, causada pela má conduta dos pais. Por exemplo, ter relações com uma mulher que não seja a esposa. Tal pecado é verdadeiramente digno de morte. Os espíritos ancestrais abominam essa má conduta e se enfurecem. Quando o pecado é grave, pode até levar à extinção da família. Claro, a punição por esse pecado deveria recair sobre o marido, mas como ele é o pilar da família, um pilar importante, seu filho é sacrificado em seu lugar. Há muitos exemplos disso no mundo, e os leitores certamente encontrarão casos semelhantes ao seu redor. As causas da desarmonia conjugal são, em sua maioria, o ciúme da esposa e problemas financeiros. Mas se o casal souber que foi unido pela vontade de Deus e que ter relações com outra mulher é pecado, naturalmente se tornará harmonioso. Isso não é uma invenção, mas um fato inegável.
+
+Portanto, o divórcio não deveria existir. Mesmo que se queira ter uma esposa melhor, isso não é possível. Os espíritos ancestrais são os que mais abominam a infidelidade. Os filhos de um casal infiel não se beneficiam do Johrei. Isso fica evidente imediatamente.
+
+— Como se dá o julgamento de Deus?
+
+Não é nada complicado. Quando se acumula muita impureza no corpo humano e isso começa a interferir nas atividades da sociedade, Deus faz uma limpeza. É como limpar uma casa suja. E a limpeza do corpo humano deveria, na verdade, ser feita pelo próprio homem, mas como ele não percebe, Deus a faz por ele. Portanto, se ajudarmos as pessoas e fizermos o bem pelo mundo, a sujeira desaparecerá e, consequentemente, não haverá necessidade de uma grande purificação.
+
+— O novo casamento ou a infidelidade passada de um marido ou esposa podem ser perdoados?
+
+Sim. Mesmo que a esposa seja infiel, do ponto de vista espiritual, muitas vezes o marido também é. Se o marido tem uma conduta irrepreensível e ainda assim a esposa é infiel, a separação se torna inevitável. E se houver arrependimento, os pecados do passado são atenuados. O que Deus faz é semelhante ao espírito da lei; o verdadeiro objetivo não é criar pecadores, e Deus age dessa forma.
+
+— Por que o Deus Supremo se esforça na batalha contra o mal?
+
+Não é o Deus Supremo que se esforça. Porque foi Ele quem criou tanto o bem quanto o mal. E Ele criou o ser humano para que, em seu estado primitivo, gostasse de conflitos. Ainda hoje há pessoas que lutam, mas isso é porque ainda são primitivas. Lutar e derramar sangue é um estado ainda animalesco, como ter um rabo ou pelos. Só quando esses conflitos desaparecerem é que a cultura terá se desenvolvido. Eu disse antes que a medicina ocidental é coisa de criança. Os médicos podem se zangar com isso, mas, aos olhos de Deus, é realmente assim. As pessoas de hoje dizem que a cultura progrediu, mas ainda não chegamos nem ao começo. Por não saberem como será o progresso cultural daqui a milhares, dezenas de milhares de anos, pensam que a cultura de hoje está avançada. O Deus Supremo, que promove a cultura através da batalha entre o bem e o mal, observa tudo de cima. E, embora falemos de bem e mal, não há bem absoluto nem mal absoluto. O budismo diz que o bem e o mal são um, e é verdade. O Japão travou uma guerra terrível e foi derrotado, mas foi por causa da derrota que nos tornamos democráticos e podemos viver em paz. Antigamente, não podíamos nos reunir assim; diziam para não vir mais de dez pessoas. Se muitas pessoas se reunissem, a polícia incomodava e podíamos ser presos. Naquela época, a sensação era desagradável. A religião era vista como comunismo ou como algo de bandidos. E nós estávamos fazendo o que acreditávamos ser o bem para o mundo. Assim, o mal se torna bem, e o bem se torna mal. É o destino. Por isso, quando as coisas estão indo bem, se tivermos bastante cuidado, não acontecerá nada de muito ruim e a situação continuará. Se nos deixarmos levar pela euforia, a queda é grande. E mesmo quando as coisas vão mal, não devemos nos desesperar, pois um dia as coisas boas virão.
+
+As duas forças, yin e yang, dia e noite, atuam uma sobre a outra, e assim o mundo progride. Certa vez, alguém me perguntou: "Se Deus julga, por que não criou desde o início seres humanos que não fizessem o mal? Criar seres que fazem o mal e ainda puni-los com sofrimento, qual o sentido?". É uma pergunta muito pertinente. Pensando apenas nisso, Deus parece impiedoso. Portanto, é preciso entender que o mal também é necessário para o progresso da sociedade. Mas eu também fui criado, então não sei a resposta exata. Apenas imagino. É bom que o homem pense sobre o domínio do Deus Supremo, mas não há necessidade de estudá-lo tão profundamente. Em vez disso, deveríamos pensar no que nós, que fomos criados pelo Deus Supremo, devemos fazer.
+
+— Gostaria que meu filho, que morreu há cinco anos, fizesse o curso.
+
+Nesse caso, seria melhor que você mesma fizesse o curso. Você ainda não entendeu de verdade. Pensar constantemente na pessoa que morreu é muito ruim para o espírito. O espírito se alegra quando é esquecido mais rapidamente. O espírito de um bebê que morreu não pode passar pelo treinamento no *yachimata* (encruzilhada do Mundo Espiritual), então, se a mãe praticar o máximo de boas ações no mundo material, ele irá para o paraíso mais rápido. Em geral, as crianças podem ir para o paraíso relativamente rápido, porque têm poucos pecados. É por isso que as pinturas de anjos costumam retratar crianças. Portanto, a mãe deve ajudar o maior número possível de pessoas e servir a Deus. Se ficar pensando nele o tempo todo, estará prendendo o espírito da criança, e ela não poderá se elevar. É natural lamentar a morte de um filho, e isso não é ruim. No budismo, dizem que o espírito permanece na casa por quarenta e nove dias após a morte. Os extremamente bons e os extremamente maus vão para seus devidos lugares imediatamente, mas a maioria vai para o Mundo Espiritual no quinquagésimo dia. Uma vez que o espírito tenha ido para o Mundo Espiritual, é melhor esquecê-lo o mais rápido possível. Não se pode esquecer tão rápido, mas já é bom saber que é melhor esquecer. Não há problema em se lembrar em datas como o aniversário de falecimento. A foto do falecido pode ser exibida após dez anos, mas não logo após a morte. Há uma história sobre isso. Na época do Buda Shakyamuni, seu discípulo Mokuren viu sua mãe sofrendo no inferno. Ele tentou de tudo para salvá-la, mas ela não conseguia sair. Então, ele perguntou a Shakyamuni como poderia salvá-la, e o Buda respondeu que bastava esquecê-la. Mokuren se esforçou para esquecê-la e, após cerca de um ano, sua mãe foi salva do inferno. Naquele momento, Mokuren percebeu que tentar salvar sua mãe com suas próprias forças era um erro. Sua missão era salvar todos os seres. Shakyamuni disse para esquecer, significando que ele deveria esquecer até mesmo a salvação de sua mãe e se dedicar a salvar todos os seres. Foi então que ele finalmente compreendeu.
+
+À noite, é melhor fechar as portas do oratório budista. Para que os ratos não entrem.
+
+A foto do falecido pode ser colocada em qualquer lugar do cômodo do oratório. Onde minha foto está pendurada, não pode. Mas se for inevitável, pode-se pendurá-la o mais longe possível.
+
+Os antigos biombos tinham o nome do templo, mas isso era apenas para satisfazer as autoridades, que eram rigorosas. Se quiser entronizar um novo, pode fazê-lo. E o antigo pode ser dado a alguém.
+
+— Posso entronizar um biombo sagrado em um navio?
+
+Não se deve entronizar em um navio. Se o capitão do navio receber a Luz, todo o navio será protegido. O mesmo vale para os campos de arroz; se o dono (a pessoa com direito de domínio) receber a Luz, a luz se estenderá aos campos e a colheita será maior.
+
+— O poder da Luz difere dependendo do ministro que a transmite?
+
+Sim, difere. O poder varia de acordo com o nível espiritual da pessoa. Também depende do grau de fé, da natureza inata e da experiência. Quem tem mais poder é quem serve a Deus. Isso é o mais importante. É o principal. Mas não se pode simplesmente dizer "fulano é assim". É como na escola; mesmo saindo da mesma instituição, há pessoas notáveis e outras que não são.
+
+O curso da época da terapia é diferente do de agora, após nos tornarmos uma religião, então pode-se fazer o curso novamente. Se houver uma razão clara e lógica, não há problema em refazer o curso.
+
+Não se deve forçar a obediência absoluta aos discípulos. Isso seria o mesmo que o militarismo de antigamente.
+
+— Quando um aluno do curso não compreende...
+
+É melhor esperar. Não é o homem quem faz o outro compreender. Um homem tentar fazer outro se iluminar, ou julgá-lo, é presunção. Deve-se dizer apenas o que precisa ser dito para que a pessoa compreenda e, depois, deixá-la livre. Quem não entende, deve-se deixar em paz e esperar. E orar a Deus para que essa pessoa compreenda o mais rápido possível. Em primeiro lugar, quem tenta fazer os outros entenderem, ele mesmo não entende. Eu tenho muitos discípulos agora, mas não há um sequer que compreenda verdadeiramente. Há muitas coisas que eu gostaria de lhes fazer entender, mas ainda não é a hora, então me calo.
+
+**8 de junho (terça-feira)**
+
+— Fomos ensinados que "a mácula do corpo espiritual se torna toxina em uma área localizada". Quando pensamentos e atos imorais se tornam tais toxinas, elas são diferentes das três toxinas?
+
+As toxinas são todas diferentes, mas não há uma grande diferença. Pode-se considerá-las o mesmo. Pensamentos e atos imorais se tornam pecado e impureza, e podem ser incluídos nas três toxinas. Se se praticar atos que anulem esse pecado e impureza, tudo bem, mas caso contrário, as toxinas só aumentarão.
+
+— Quando uma pessoa morre e retorna ao Mundo Espiritual, seu espírito secundário se separa ou não? Se se separar, a alma se tornaria puramente boa e, consequentemente, o Mundo Espiritual também não teria mal, apenas o bem.
+
+Normalmente, o espírito secundário acompanha a alma ao Mundo Espiritual. Se a alma se arrepender no Mundo Espiritual, ele permanecerá por um período considerável, mas se não se arrepender, acabará se separando. O espírito secundário é uma possessão, então um dia ele deve se separar. No entanto, há casos em que, no Mundo Espiritual, o espírito secundário é possuído por outro espírito secundário. E o espírito humano e o secundário, juntos, podem possuir uma pessoa viva. Certa vez, tratei uma mulher possuída por uma raposa e o espírito se manifestou. Perguntei: "Quem é você?". Ele respondeu: "Sou A.S.". Mas logo depois, a raposa apareceu. Eu repreendi: "Não tenho nada a ver com você", e A.S. voltou a se manifestar. Escrevi sobre isso em um livro. O espírito apegado é metade dragão, metade humano. Há alguns que desenvolvem um rabo. Existem vários tipos, então não se pode generalizar. Certa vez, uma pessoa um tanto famosa disse em uma palestra: "As pessoas de hoje cortam árvores antigas sem pensar, mas eu sinto muita pena. Deveriam sempre realizar um ritual". O rosto dessa pessoa se parecia com o de um macaco. Por ser um macaco, ele sente pena quando grandes árvores são cortadas.
+
+— (1) Os utensílios sagrados para os deuses podem ser laqueados? (2) Até qual cerimônia memorial é apropriado pedir a um monge que a realize? (3) Pode-se casar novamente?
+
+(1) Para os deuses, a madeira natural é o correto. Os deuses se manifestaram em forma humana em tempos muito antigos, foram para o Mundo Espiritual e, sem renascerem como humanos, continuaram a trabalhar lá. Portanto, eles vivem da maneira daquela época antiga. Consequentemente, é melhor usar utensílios da era dos deuses. E, para os humanos, isso também traz um sentimento melhor. Para os budas, os laqueados são apropriados. Utensílios laqueados são bons para Daikoku-Sama.
+
+(2) Quanto mais tempo, melhor. Na pergunta de ontem, havia: "Se cultuarmos um espírito e ele já tiver renascido neste mundo, o que acontece?". Nesse caso, quando o espírito está ausente do Mundo Espiritual, o culto retorna ao mundo material e ajuda a elevar o espírito da pessoa que o realizou, até certo ponto. Para os budas antigos, bem, deve-se agir de acordo com as circunstâncias. Para os mais antigos, não é estritamente necessário pedir a um monge. Geralmente, até a décima sétima cerimônia memorial.
+
+(3) Diz-se que se pode casar novamente até duas vezes. Depois de mais de um ano, tudo bem. Se se casar novamente dentro de um ano, o espírito do falecido se zangará e haverá consequências. Após mais de um ano, o prazo de prescrição no Mundo Espiritual se aplica e não há consequências.
+
+— E o novo casamento após um divórcio?
+
+É preciso ter cuidado, mas depende da situação.
+
+— É melhor ser prudente?
+
+Essa prudência é apenas formal. O divórcio nunca deve acontecer. É complicado quando um dos cônjuges tem fé e o outro se opõe, mas é preciso esperar. Se a fé verdadeira for muito obstruída, Deus não permitirá e enviará a pessoa para o outro mundo.
+
+— Se o marido for um libertino e a esposa se divorciar, o novo casamento dela é permitido?
+
+Nesse caso, não há problema em se casar novamente.
+
+— Ichiro Nakamura e Misao Nakamura planejam se casar. Como deve ser a cerimônia?
+
+O método usual está bom. Apenas ofereçam algo a Komyo Nyorai-Sama e peçam sua permissão. Digam: "Por desígnio do destino, desejamos casar Fulano e Fulana e pedimos sua permissão. Pedimos também sua proteção contínua". Claro, a oração também deve ser recitada. Isso é suficiente.
+
+— Por que há casos em que pessoas que parecem boas não são salvas pelo Johrei, enquanto pessoas que só podem ser consideradas más são salvas?
+
+É o homem quem julga quem é bom e quem é mau. Aos olhos de Deus, é diferente. Há muitas pessoas que são boas em uma visão limitada, mas más em uma visão ampla. Porque os verdadeiros bons são poucos. O "bom" comum é geralmente alguém sem coragem. Aqueles que trabalham muito pelo mundo e por Deus tendem a ser vistos como maus. O grande bem é acompanhado por um pequeno mal, e o grande mal é acompanhado por um pequeno bem. Nesse caso, ao olhar para o lado do pequeno mal, a pessoa parece má. Por exemplo, se esta minha fé se desenvolver, os médicos me chamarão de mau. Mas isso é inevitável. Aos olhos dos maus, todos os bons do mundo são maus. Porque eles atrapalham o que os maus fazem. Mesmo entre os "bons", há vários tipos. Há os bons sem coragem e os bons que agem por interesse, para ganhar a confiança dos outros. Esses bons não têm indignação contra o mal. Essa indignação contra o mal é necessária. Mas quem a tem tende a ser visto como mau... O bem e o mal mudam com o tempo. Visto de hoje, a lealdade ao soberano e o amor à pátria se tornam um grande mal. É um erro tremendo. Se o Japão praticasse a lealdade e o patriotismo, e os chineses e coreanos fizessem o mesmo por seus países, seria um desastre. O "caminho imperial" de que tanto se falava é inferior ao comunismo. Porque se formos para a Rússia e pregarmos o caminho imperial, ele não se espalhará, mas o comunismo se espalhou no Japão. A lealdade, o patriotismo e o caminho imperial são um bem limitado e, vistos globalmente, são um mal. Se apenas um país ou um povo se beneficia, é mal. A verdade é o que beneficia todas as pessoas do mundo, e se não for para a felicidade de toda a humanidade, não serve. O fato de uma vida ser salva ou não pelo Johrei tem várias causas.
+
+— Compreendi que a alma está dentro do coração, mas em que parte do corpo ela se localiza?
+
+No corpo humano, o centro do abdômen e a parte interna da testa formam o céu e a terra e se comunicam. Portanto, o "Campo do Alto Céu" no corpo humano é o ponto entre as sobrancelhas. Quando um espírito maligno possui alguém, ele quer desesperadamente ir para lá. Se ocupar o ponto entre as sobrancelhas, pode controlar a pessoa livremente. Quando não consegue chegar lá, ele a irrita. Quando a pessoa se irrita, as células espirituais da cabeça se afinam e o espírito maligno consegue chegar. Quando a pessoa se acalma e as células espirituais se adensam, o espírito maligno desce. A histeria é isso. E quando um espírito de raposa possui alguém, a pessoa fala muito. Mulheres que falam muito são raposas. E quem se torna arrogante e não deixa o outro falar também.
+
+— Uma mulher de quarenta e sete anos, que estou tratando desde o final do mês passado, está possuída por uma raposa há cerca de um mês e meio. A raposa fala várias coisas em sua cabeça. Especialmente à noite, diz: "Agora vou começar a te atormentar", e fala sem parar, impedindo-a de dormir, o que a aflige muito. Na noite em que recebeu Johrei pela primeira vez, ela dormiu bem e, no dia seguinte, recebeu imediatamente o Ohikari. Parece que no início havia um casal de raposas, mas no terceiro dia, a fêmea enfraqueceu e parece ter morrido. Quando ela fez o curso, a raposa disse: "Eu me descuidei e a coisa ficou feia". Enquanto eu aplicava Johrei, a raposa comentava sobre minhas mãos: "São mãos como as de Katiuska", e se queixava: "Ah, que dor, que dor". Durante o Johrei, eu disse à paciente: "Se ouvir alguma voz em sua cabeça, diga imediatamente", e ela começou a relatar essas coisas. O macho também, anteontem, estava do tamanho de uma minhoca, e ontem, do tamanho de um piolho.
+
+Quando uma raposa possui alguém, pode parecer que a pessoa se curou, mas depois ela volta a interferir. Com paciência, a cura virá.
+
+— Existem pessoas com o coração do lado direito?
+
+Sim, existem. Há também casos em que o coração, inicialmente à esquerda, se move para o lado direito.
+
+— O pecado de aprisionar um deus é individual ou da humanidade como um todo?
+
+É em um sentido amplo. O deus foi aprisionado pela opinião pública.
+
+O Deus Supremo, Ame-no-Minakanushi-no-Oomikami, existe, e depois dele, Takamimusubi-no-Kami e Kamimusubi-no-Kami se manifestaram. Com isso, surgiram o yin e o yang, o bem e o mal. Certa vez, alguém me perguntou: "Por que Deus cria seres humanos que fazem o mal e ainda lhes dá sofrimento como punição?". Eu respondi: "Eu também fui criado e só posso imaginar. Pela lei de causa e efeito, quem faz o mal sofre o mal, e quem faz os outros felizes, também se torna feliz. Então, por que não ajudar as pessoas?". Pode parecer um pouco calculista. Mas a verdade mais profunda é incompreensível para os humanos. De qualquer forma, o objetivo do homem é ser feliz. Portanto, devemos dar muita felicidade às pessoas.
+
+— No lago perto da minha casa, todo ano, no dia do boi, uma pessoa morre. Durante minha sarna, sonhei que me tornava um boi e era criado na casa de um aluno do curso. Investiguei e descobri que um boi parece ter morrido naquele lago no passado.
+
+Uma vez por mês, ofereça algo que o boi gostaria e realize um culto. Seria bom cultuar Jizo-Sama também.
+
+**18 de junho (sexta-feira)**
+
+— Existe alguma relação entre o Deus do Sol, da Lua e da Terra e o Bodhisattva Miroku do sutra?
+
+Miroku Bodhisattva era um discípulo de Shakyamuni e não tem muita relação conosco. Bem, talvez haja algum carma. Ele era um dos dez grandes discípulos, como Mokuren e Ananda.
+
+— Pescar por hobby ou matar insetos nocivos como mosquitos e moscas é permitido?
+
+Sim, é permitido. Pescar, desde que não se torne uma obsessão, tudo bem. Eu também pesquei quando jovem, mas meus dedos ficavam roxos e doíam ao colocar a isca no anzol, então parei. Fazer isso de vez em quando é bom. O pecado aqui é menos o de matar e mais o da preguiça. O ser humano deve trabalhar. É melhor usar bem o corpo, especialmente a cabeça. Quem usa bem a cabeça vive mais. É por isso que, desde a antiguidade, monges e estudiosos vivem muito. Cães, gatos e bárbaros morrem cedo.
+
+— Ouvi dizer que Nitiren e Shinran estão no inferno. Qual é a verdade sobre isso?
+
+Um discípulo meu, que era seguidor de Nitiren, foi a Minobu e, enquanto rezava no prédio onde Nitiren viveu, Nitiren lhe apareceu com um rosto pálido e triste. Eu já sabia disso antes... O ponto crucial dele foi a propagação do Sutra de Lótus, que é a flor da lei. Antes de Nitiren, era "Namu Amida Butsu", que é o ensinamento da lua, yin. Ao cometer suicídio se jogando em um rio, por exemplo, diz-se "Namu Amida Butsu", o que é algo sombrio. Em contraste, Nitiren descobriu que o Sutra de Lótus era o verdadeiro ensinamento, pregado por Shakyamuni aos setenta e dois anos, quando atingiu a iluminação. O Sutra de Lótus é o florescimento do budismo, e o capítulo vinte e cinco, Fumon-bon, é a essência. E como a flor floresce e logo murcha, desde a antiguidade se diz que a fé no Sutra de Lótus é boa por uma geração. Nitiren transformou o yin do budismo em yang. É por isso que a seita Nitiren é tão vigorosa. E com seus "quatro lemas", ele rejeitou todas as outras seitas, mas essa exclusividade não é boa. Essa atitude não é agradável. Diz-se que, quando a flor da lei murchar, seu fruto crescerá e se tornará a realidade da verdadeira natureza. Mas isso está invertido; a verdadeira ordem é a verdadeira natureza da realidade. A verdadeira natureza é a lua. Shakyamuni disse que, em uma palavra, a lei budista é a verdadeira natureza, mas isso se refere ao mundo da noite. O mundo do dia é o mundo da realidade. E dizer que tudo retorna ao vazio ou que tudo é transitório também se refere ao mundo da noite. O trabalho da essência é o que eu faço. Portanto, sou eu quem cria o mundo da realidade. Ouvi do meu mestre, Onisaburo Deguchi, que Shinran está no inferno. Ele era uma pessoa com considerável percepção espiritual e, certa vez, Shinran lhe apareceu na forma de um monge mendigo. Dizem que Kobo Daishi e Honen Shonin estão no paraíso. Shakyamuni, claro, está em um nível ainda mais alto, onde normalmente não se pode ir.
+
+— A exclusividade de Nitiren foi o problema?
+
+Sim.
+
+— O fato de ele ter se declarado Jogyo Bosatsu...
+
+Antes de morrer, ele percebeu seu erro e disse que, seiscentos e cinquenta anos depois, o verdadeiro Jogyo Bosatsu apareceria no mundo. O ponto positivo de Nitiren foi sua grande autoconfiança e o fato de ter salvado o budismo de se tornar sombrio e recluso.
+
+— Qual foi o pecado de Shinran?
+
+O pecado de Shinran foi seu pensamento, que para a época era uma espécie de comunismo. Não havia mestre nem discípulo; todos se chamavam de "companheiros", o que é um erro. Para ser gentil, era democrático... A democracia japonesa e a americana deveriam ser diferentes. Porque o Mundo Espiritual japonês é vertical, e o ocidental é horizontal. O Japão até agora foi excessivamente vertical. Isso significa falta de amor ao próximo. Se houvesse amor ao próximo, não teriam invadido a China. A ideia de que o Japão é um país divino e que os outros países não importam é má e acabou levando ao resultado oposto.
+
+— A atuação do Deus do Sol, da Lua e da Terra é a atuação conjunta de Kunitokotachi-no-Mikoto e Kanzeon Bosatsu?
+
+Tanto Kunitokotachi-no-Mikoto quanto Kannon-Sama estão auxiliando na manifestação do mundo do Sol, da Lua e da Terra. Mas pregar sobre isso claramente ainda é cedo.
+
+— Existe alguma relação entre Amaterasu Sume Oomikami e a Deusa Izunome?
+
+Há uma relação de grande importância, mas ainda não posso falar sobre isso.
+
+— Deus nos salva dando-nos a purificação, mas também nos dá dor. Isso é o perdão do carma ou seu castigo?
+
+A dor também é purificação... Mesmo que se recomende a fé a alguém, se a pessoa não entra, se não se agarra a esta rede de salvação, é porque ainda há uma distância até a rede e ela não consegue chegar imediatamente. Nesses casos, se a pessoa sofre por suas próprias forças, o pecado diminui um pouco, a distância encurta e ela consegue chegar à rede. Por mais que se pregue um bom ensinamento, há muitas pessoas que não conseguem alcançá-lo. Não há outra opção senão esperar. Toda dor é purificação. É purificação por esforço próprio. A purificação pelo Johrei, no entanto, é por força alheia, por isso é mais fácil. Mas mesmo com a força alheia, sofre-se de acordo com o pecado. E há também os que morrem. Mas os que morrem, na maioria dos casos, são pessoas que não se apegam a Deus de coração. Se se apegarem a Deus com toda a sua vida, serão salvas. Mesmo que morram uma vez, serão salvas. Quando as pessoas ao redor, com ar de conselho, dizem para ir ao médico, quem não tem fé logo se confunde, e no momento em que se confunde, a conexão com Deus é cortada. Claro, quando as pessoas ao redor não entendem, se insistirmos demais, pode virar um caso de polícia, então há casos em que não se pode ser muito enfático. É inevitável. Há muitas pessoas em situações lamentáveis. Um certo senhor teve sarna nesta primavera. Ninguém morre disso, mas ele veio me consultar, dizendo que as pessoas ao redor estavam insistindo para que ele fosse ao médico. Eu disse para ele ir. Quem não tem fé acaba sendo prejudicado pela interferência — muitos espíritos malignos vêm — das pessoas ao redor. Ele também foi internado e morreu. E uma outra pessoa que teve sarna exatamente como ele está agora completamente curada com o Johrei. O interessante é que o que morreu não tinha instrução, e o que se curou era formado pela universidade.
+
+Quando uma pessoa entra na fé, Deus quer lhe dar suas bênçãos, mas se houver impurezas, Ele as purifica. Ele nos dá a qualificação para sermos felizes. Entrar na fé não significa necessariamente que a felicidade virá de imediato. Primeiro, é preciso remover as impurezas. O fato de os ministros, ao começarem a se dedicar ao Johrei, contraírem sarna, segue essa lógica. É porque a alma é purificada primeiro e, consequentemente, o corpo também. ... Aqueles que acumularam pecados e impurezas em vidas passadas, foram para o Mundo Espiritual e, com a purificação incompleta, retornam ao mundo material, precisam continuar essa purificação. Pessoas boas que são infelizes geralmente se enquadram nisso.
+
+Recitar a Oração Zenguen Sandji e a Amatsu Norito em funerais e cerimônias memoriais é excelente. Em casamentos, recitam-se ambas. A palavra "namu" pode ser usada. Há pessoas que, por algum motivo estranho, dizem coisas desnecessárias. A maçã é um exemplo. Eu apenas digo que gosto de frutas com muita água, não que a maçã seja ruim.
+
+— Agradeço imensamente pelas diversas purificações espirituais que tenho recebido.
+
+É doloroso, mas aguente mais um pouco. Por outro lado, Kannon-Sama concede milagres. No fim, é um sofrimento para o bem. Assim, o sofrimento se torna um prazer. Quanto maior a missão da pessoa, maior o sofrimento. Minha purificação também foi bastante dolorosa, mas minha vida se prolongou por cerca de vinte anos. Antigamente, mesmo quando estava saudável, não me sentia bem. Não havia uma sensação de leveza. Mas ultimamente, sinto-me revigorado.
+
+Quando se casa com um estrangeiro, o espírito pertence ao lado do marido.
+
+— Minha casa é um restaurante de enguias, e matamos enguias e dojôs. Como devo cultuá-los?
+
+A enguia é uma forma transformada do deus-dragão e é diferente de um peixe comum. Especialmente a enguia com orelhas, chamada "hánryo", se for morta e comida, certamente trará uma maldição. Mesmo matando aos poucos, com o tempo, um ressentimento considerável se acumula, então é bom cultuá-los. Em algo que seja fácil para o espírito da enguia se apegar, como uma tabuleta, escreva "Deus Dragão" e o seu nome. Orihara? Então "Orihara Myojin". Coloque em um lugar alto e ofereça saquê, arroz, água, peixe... peixe seria canibalismo, então é melhor não. Ofereça algo assim e recite a oração. Não "você", mas talvez "senhora enguia"... Diga com suas palavras algo como: "Agradeço por poder fazer negócios graças a vocês. Agora vou realizar um culto em sua memória, por favor, estejam cientes disso", e então recite a oração. Defina um dia do mês e realize o culto. Como é um deus-dragão, sempre ofereça água em um recipiente grande. Pode-se cultuá-lo no *tokonoma* onde a imagem sagrada está entronizada. Talvez a enguia sofra um pouco.
+
+**28 de junho**
+
+— Os seres humanos foram criados por Deus inicialmente em uma única região da Terra e depois se dispersaram, ou foram criados em uma vasta área do globo?
+
+No início, um casal foi criado, e a partir daí, a população aumentou gradualmente. Portanto, no início, houve casamento consanguíneo. A palavra antiga "imose" significa tomar a irmã como esposa, e "wagimoko" se refere a isso.
+
+No entanto, quando os seres humanos foram criados, várias raças foram criadas. E no início, foram feitos de barro. Os nativos de pele escura foram feitos de barro preto, e depois de barro vermelho, barro branco... O fato de o homem, ao morrer, retornar ao barro é a prova disso. Claro, não apenas os humanos, mas toda a matéria foi feita de barro. Como os humanos foram criados exatamente...
+
+— O japonês original (a raça celestial) foi criado em que parte do Japão, ou foi criado em algum lugar do mundo e migrou para o Japão?
+
+A raça celestial é, na verdade, a raça Han. É a linhagem de Ninigi-no-Mikoto, e ele era um herói chinês. Acredita-se que sejam judeus. Diz-se que os judeus antigamente tinham doze tribos, e uma delas foi para o leste. Eles vieram para a China e tentaram fazer algo, mas a China na época era próspera e não conseguiram. Além disso, os judeus eram nômades e não se estabeleciam. Uma parte deles veio para Takachiho, em Kyushu, e se tornaram Ugayafukiaezu-no-Mikoto e o Imperador Jinmu. Eles são chamados de "descendentes do céu" simplesmente porque desceram de uma montanha, não são puros. Há uma teoria de que viviam no Monte Fuji, mas provavelmente não é verdade.
+
+— Antes da criação do japonês original (a raça celestial), Deus criou outros seres humanos, ou a raça celestial foi a primeira criada por Deus?
+
+A raça celestial não é antiga. Tem cerca de dois mil e poucos anos. Desde os primeiros humanos, não se sabe se passaram dezenas de milhares ou milhões de anos.
+
+— A raça celestial e a raça Yamato são a mesma coisa?
+
+A raça Yamato é bem mais antiga. É um povo que absolutamente detesta a guerra e ama a paz. No entanto, Susanoo-no-Mikoto veio da Coreia e conquistou o Japão imediatamente, mas foi novamente conquistado pelo Imperador Jinmu. A raça Yamato ficou subjugada por esses dois povos e desapareceu. Quem governou o Japão foram os povos coreano e chinês; a raça japonesa foi sempre dominada. A linhagem coreana, a partir de Susanoo-no-Mikoto, após três gerações, tornou-se Ookuninushi-no-Mikoto. A história do Japão até agora foi uma disputa de poder entre as linhagens coreana e chinesa; as ações do povo japonês não aparecem. A história até agora não foi a do povo, mas a da classe privilegiada. É por isso. De agora em diante, a verdadeira história do povo será criada. Isso não se refere apenas ao aspecto físico, mas também ao espiritual, que se estende continuamente. Tokugawa Ieyasu é da linhagem de Ookuninushi-no-Mikoto, e o Imperador era da linhagem de Jinmu. A imperatriz do sucessor de Jinmu, Suizei, era filha de Ookuninushi-no-Mikoto. Na era das Cortes do Norte e do Sul, a Corte do Sul era a de Susanoo-no-Mikoto, e a do Norte era a disputa entre Ninigi-no-Mikoto e o Imperador Jinmu.
+
+— Isso é algo que só Meishu-Sama sabe?
+
+Não, está na história. O fato de a dinastia de Izumo ter governado o Japão é claro, e também está registrado que eles se tornaram imperadores. Na Tenrikyo, está escrito: "O verdadeiro pilar do Japão são os chineses". E no *Reikai Monogatari* da Oomoto, diz-se que o Rei Banko da China — que corresponde a Amaterasu Oomikami no Japão — veio ao Japão e se tornou imperador. Portanto, não é apenas a minha opinião. Eu já sabia por outros meios. Pude saber em detalhes através de "possessão divina" no passado. Entre Ninigi-no-Mikoto e o Imperador Jinmu, há muitos mistérios. A raça Yamato produziu grandes homens, mas muitos se destacaram como artistas. A Imperatriz Komyo, o Imperador Ojin e Yoshitsune são da raça Yamato. Yoshitsune tem vários mistérios. O Príncipe Shotoku é um representante típico da raça Yamato.
+
+— Sobre a distinção entre linhagem de sangue e linhagem espiritual, e sua relação...
+
+Na verdade, são diferentes. A linhagem espiritual é também a linhagem. A de sangue está misturada. Os japoneses são quase todos mestiços, mas a linhagem espiritual continua. Ela inevitavelmente continua. É melhor que o sangue se misture. Os nazistas, no passado, pregaram a pureza da raça e expulsaram os judeus, mas isso não funciona. De agora em diante, também é melhor que haja miscigenação. Por que é bom? Porque ao incorporar a força de outras raças, a própria força aumenta. A cultura também é assim, não é? Quanto mais o transporte se desenvolve e as culturas das nações se interligam, mais a cultura se desenvolve.
+
+— A raça Yamato é antiga?
+
+Não, a raça Yamato é nova. O próprio Japão é novo. Esta é a minha opinião, mas diamantes e platina, por exemplo, são abundantes na África, mas não no Japão. Os minerais, quanto mais antigos, mais duros se tornam. Portanto, diamantes e platina são muito antigos. O fato de não existirem no Japão significa que o Japão é novo.
+
+A América é o país mais novo do mundo.
+
+Casar com estrangeiros é bom.
+
+— Antigamente, na Oração Amatsu Norito, apenas o oficiante principal a recitava, e todos se juntavam a partir dos nomes dos deuses. Agora não fazemos mais isso. Por quê?
+
+A oração de agora não sou eu quem a conduz, por isso está bom assim.
+
+— Em relação à imagem sagrada, há pessoas que juntam as mãos em prece e depois se curvam, e outras que se curvam sem juntar as mãos. Qual é o correto?
+
+Juntar as mãos e depois se curvar é melhor. As oferendas devem ser voltadas para as pessoas, de modo que sejam fáceis de ver. Para que tanto Deus quanto as pessoas fiquem satisfeitos. O filósofo alemão Eucken defendia que "cultuamos a Deus para satisfazer a nós mesmos". O importante é oferecer o sentimento a Deus. Para as oferendas aos deuses, não são necessários pauzinhos. Para os antepassados, os pauzinhos são colocados do outro lado (o lado do Buda). Para as oferendas à imagem de Kannon-Sama, os pauzinhos devem ser colocados voltados para Kannon-Sama. Deus não come as oferendas, mas infunde nelas seu espírito. Os espíritos ancestrais comem. O tempo de oferenda não deve ser muito longo, nem devem ser retiradas imediatamente. Após oferecer, recitar a oração e terminá-la, pode-se retirar.
+
+— E quando os membros fazem oferendas?
+
+Deixe por trinta minutos ou uma hora. Se deixar por muito tempo, pode acumular poeira ou o alimento pode estragar.
+
+— Kakuriyo-no-Oomikami é o Rei Enma?
+
+Sim, é o Rei Enma. Kakuriyo-no-Oomikami também é um subordinado de Kannon-Sama, mas como ele está encarregado do Mundo Espiritual, nós o invocamos. É como no mundo material; o trabalho da prefeitura está sob a jurisdição do Ministério do Interior, mas não se vai diretamente ao ministro. Da mesma forma, cada um tem sua função.
+
+— Pode-se cultuar os espíritos dos antepassados do marido e da esposa no mesmo oratório?
+
+Sim. Deve-se cultuá-los em um nível abaixo dos antepassados diretos da casa. O espírito do casal não deve ser cultuado separadamente, mas sempre juntos. A esposa deve cultuar seus próprios antepassados, e o marido, além de seus antepassados, também os irmãos falecidos. A posição de honra é a esquerda.
+
+Em um casamento com genro adotivo, a casa da mulher é a principal. Aquele que adota um genro se torna a mulher. Nomes com o caractere "três" geralmente indicam um genro adotivo. "Três" representa a atuação feminina.
+
+Daikoku-Sama deve ser cultuado em frente à imagem sagrada, mas se não for possível, pode ser à esquerda de Kannon-Sama, ou seja, à direita de quem olha.
+
+Acima do *tokonoma* (alcova), o correto é não pendurar nada.
+
+— Sobre os deuses Kamurogi e Kamuromi na Oração Amatsu Norito...
+
+São Takamimusubi e Kamimusubi. No topo está Ame-no-Minakanushi-no-Oomikami, depois Kamurogi e Kamuromi, depois Takamimusubi e Kamimusubi, e depois Izanagi.
+
+— "Meishu-Sama está realizando vários modelos". Gostaria de um conhecimento básico sobre isso...
+
+É Deus quem está fazendo isso. Eu, pessoalmente, não faço nada... Não posso falar sobre isso agora. Falarei quando for a hora.
+
+— Em Misumi, Nagato, na província de Yamaguchi (a cerca de uma hora de Hagi, um antigo campo de batalha), e em Goto, na província de Nagasaki (onde os túmulos tendem a ser negligenciados), há um número extremamente alto de pacientes com possessão espiritual...
+
+Ah, é mesmo? São espíritos de animais. É porque o Mundo Espiritual local está obscurecido, então os espíritos de animais atuam. E também porque os deuses daquela terra têm um posto baixo e um poder fraco.
+
+— Seria bom entronizar imagens sagradas e quadros caligráficos?
+
+Ah, claro, seria excelente. Antigamente, quando eram chamados de "centros de terapia", os lugares que penduravam muitos quadros prosperaram. Quem pendurou mais desde o início foi Shibui. Eu mesmo fiquei surpreso com seu desenvolvimento.
+
+O quadro caligráfico não adianta dobrado e colocado em um suporte. Precisa ser devidamente desenrolado e pendurado.
+
+— E se, por circunstâncias familiares, como falta de dinheiro, não for possível emoldurá-lo?
+
+Isso não acontece. Se levar a uma loja de molduras, o dinheiro certamente aparecerá. Pode até fazer uma dívida, mas leve à loja.
+
+— Uma cobra que vivia há muito tempo na casa morreu. O que devo fazer?
+
+Enterre-a onde as pessoas não pisem e recite a oração. Pode-se esculpir uma pedra e colocá-la. Temporariamente... pode-se escrever "Myojin" em um pedaço de madeira e fincá-lo. "Nagamura Myojin" seria um bom nome para uma cobra. Recite a Oração Amatsu Norito, e no final, invoque "Kakuriyo-no-Oomikami" e diga: "Pedimos sua proteção para que na próxima vida possa nascer como um ser humano". Cobras que vivem há muito tempo em uma casa geralmente são espíritos ancestrais.
+
+— Imprimi suas palavras sem permissão e distribuí aos discípulos...
+
+Não há problema. Apenas tome cuidado para que pessoas que não entendem não interpretem mal. Eu mesmo, quando falo assim, tento falar coisas que estejam de acordo com o bom senso para evitar mal-entendidos.
+
+**8 de julho (quinta-feira)**
+
+— Ouvi dizer que os números escondem mistérios. Qual o significado de números como um, dois... dez, onze, dezoito, vinte e três, cem, mil?
+
+Um é o começo, e dois é a divisão. Dez é a união, ou seja, a conclusão. Onze é o começo do que foi unido, a unificação. Dezoito é unir e abrir; Kannon-Sama ser dezoito significa unir na vertical e na horizontal e abrir. Vinte e três é a atuação do corpo de manifestação. Porque o caractere de "manifestação" se escreve com vinte, e "três" é o corpo. Cem é dez vezes dez e tem um bom significado. Também significa uma braça, mas falarei sobre isso mais tarde. Mil é espírito. Nomes como "Chiyo" não são bons. "Chiyo" se torna espírito, e para uma mulher, significa solidão. Falarei mais sobre cem e mil mais tarde.
+
+— Qual a diferença na atuação do Ohikari "Daikomyo" e do Ohikari comum?
+
+É como a palavra indica; "dai" significa grande. As palavras são misteriosas; quando eu escrevo assim, o espírito de Deus entra através do pincel. Por isso, a luz emana das palavras.
+
+— Como o nome e o sobrenome influenciam o destino?
+
+Sobre a atuação das palavras, escreverei em detalhes no próximo livro, mas as palavras, os caracteres e os pensamentos do nome e do sobrenome têm uma grande influência sobre o destino. Mesmo quando alguém chama pelo nome, o espírito da palavra atua, e mesmo quando se pensa, ele atua. Isso influencia o destino. Assim, no nome e no sobrenome, tanto os caracteres quanto o espírito da palavra atuam, com o espírito da palavra sendo o espírito e os caracteres, o corpo. Por isso, é preciso dar um bom nome. Mas o nome e o sobrenome são dados de acordo com o destino desde o nascimento. O deus protetor local os dá através das mãos humanas. As pessoas comuns pensam que os nomes são dados arbitrariamente, mas na verdade é assim. Portanto, são dados de acordo com a alma da pessoa. Meu nome, quando nasci, foi escolhido da seguinte forma: escreveram vários nomes, fizeram um pedido a Deus e me fizeram, o bebê, escolher um. Dizem que eu escolhi "Mokiti".
+
+— E pedir a um especialista em nomes para fazer isso?
+
+Há bons e maus nisso, e mudar o nome pode piorar as coisas. E mesmo que se queira melhorar o que é ruim, se Deus não permitir, não adianta. Certa vez, Sakai me pediu um nome, mas levei cinco ou seis anos para fazê-lo. Porque, quando eu tentava escrever, sentia uma aversão. Há um tempo certo para isso, não se pode dar nomes de qualquer maneira. Parece que isso também acontece com os especialistas em nomes; um grande mestre de Osaka me disse isso uma vez. Ele disse: "Vendo o nome de uma pessoa, sei até com que idade ela mudará de nome". Olhando para o meu nome, ele disse que meu nome e sobrenome não deveriam estar na frente, ou seja, se eu ficasse nos bastidores e usasse as pessoas, tudo daria certo. Eu mesmo penso nisso constantemente; mesmo em negociações financeiras, se eu for, não dá certo. Parece que tenho esse destino. Eu ouço muito "Meishu-Sama, se o senhor fosse para a frente...", mas não adianta.
+
+— Que tipo de nome devemos dar às crianças que nascerem de agora em diante?
+
+Bem, eu ensinarei os fundamentos com antecedência.
+
+— Qual a razão da influência das marés na vida e na morte humana?
+
+As marés são causadas pela atração da lua, que se deve à sua respiração. Tudo no universo respira. A Terra também respira uma vez por ano. Quando ela expira, é da primavera ao verão, e quando inspira, é do outono ao inverno. Por isso, a partir da primavera, as coisas sobem, e a partir do outono, descem e declinam. A Terra é uma bola de fogo, e como ela expira, é quente. A lua faz isso mais rápido, uma vez por dia. O corpo humano é a essência da lua, e o espírito humano é a essência do sol. O fato de os caracteres relacionados ao corpo, como braço, abdômen, cérebro, terem o radical da lua, é por causa disso. Mas o coração não tem o radical da lua. É porque o "fogo" se transformou no "coração". Tudo isso foi feito por Deus. Assim, a linha espiritual da lua está conectada ao corpo. Por isso, as fases da lua afetam o corpo. A morte também.
+
+— Há religiões que cultuam o deus guardião. É melhor cultuá-lo?
+
+É bom cultuar o deus guardião, mas não é obrigatório. Não é algo tão essencial. O deus guardião prefere que a pessoa faça o bem a ser cultuado. Os espíritos dos antepassados que foram salvos se tornam deuses guardiões, acompanham a pessoa constantemente, dão instruções e intercedem junto a Deus. Em alguns casos, deuses-dragão e raposas também acompanham. Quando uma raposa possui alguém e fala, às vezes é a pedido do deus guardião... porque o espírito de raposa é mais conveniente em certas situações... Não se deve subestimar uma raposa.
+
+— Como devo proceder para mudar um santuário de Inari de dentro de casa para o jardim?
+
+Não se deve mudá-lo de qualquer maneira, ele se zangará. Há os grandes antepassados e os intermediários. Se for um Inari dos grandes antepassados, pode ficar dentro de casa. Se for um Inari local... como Oji, Fushimi ou Anamori, ofereça algo, agradeça, recite a Oração Amatsu Norito e peça que ele retorne. Se você cultua Komyo Nyorai-Sama, não há necessidade de cultuá-lo no jardim.
+
+— A raça japonesa é da linhagem de Amaterasu Sume Oomikami? E quanto a Ninigi-no-Mikoto?
+
+A raça Yamato é da linhagem de Amaterasu Sume Oomikami. Sobre Ninigi-no-Mikoto, não posso falar agora. É um mistério dos mistérios. Mesmo que a linhagem de sangue seja diferente, a espiritual continua, como o destino e a sina. A raça Yamato é um povo que absolutamente não guerreia, mas raças belicosas vieram para o Japão de outros lugares e, com o tempo, criaram a história japonesa. No fim, a história até agora foi uma disputa de poder. Mas apenas com o povo japonês, a cultura atual não teria sido criada. A cultura se desenvolveu porque coreanos, chineses, indianos, etc., entraram no país. Foi bom que tenham vindo. Em números, o Japão é cinco, a Coreia é seis e a China é sete, e os três juntos formam "Miroku".
+
+— Um discípulo pode aplicar Johrei em seu mestre, ou uma pessoa com o Ohikari comum em alguém com o "Daikomyo"?
+
+Sim, pode. A pessoa que recebe é que muda espiritualmente. O aplicador do Johrei recebe uma proteção superior. E, em nenhuma circunstância, deve-se tirar o Ohikari.
+
+— Quando um doente grave está se aproximando do fim, mas os sinais da morte não são claros, qual o critério para julgar?
+
+Há vários sinais. Os sinais da morte são as bordas dos olhos escurecerem e as narinas caírem. O mais claro é o rosto se tornar como o de um morto. Se o peito do pé inchar, já é quase impossível. Oito ou nove em cada dez casos são fatais. Se o inchaço vier de cima para baixo na perna, tudo bem, mas se for apenas no peito do pé, não é bom. Além disso, a saliva não sai, os lábios ficam secos e os olhos perdem o brilho. Quando a pessoa começa a dizer coisas sem sentido, é o fim. O espírito já se foi. Apenas o espírito secundário permanece.
+
+— Quando o marido é ministro e aplica Johrei, como a esposa deve proceder para que ambos recebam a purificação?
+
+Não se pode fazer nada artificialmente. Não há outra opção senão deixar as coisas seguirem seu curso natural... Há casos em que o casal está em harmonia, sem oposição, e casos em que a oposição é boa. A oposição é boa porque, através dela, a fé avança. Porque, mesmo se tornando ministro, a maioria ainda tem pecados. E Deus quer removê-los o mais rápido possível. Para remover os pecados, a pessoa deve sofrer ou acumular boas ações, mas quanto mais a pessoa sofre, mais impurezas saem. No entanto, remover as impurezas pela fé é mais fácil. Se a esposa se opõe, o marido também sofre de várias maneiras, e com isso as impurezas são removidas. Então, a esposa também começa a entender. À medida que o marido se eleva, a esposa o acompanha ou, se a distância se tornar muito grande, ela irá para o Mundo Espiritual e recomeçará. Entregar-se a Deus é o melhor.
+
+— Poderia explicar sobre o destino e a sina? E quando um doente, mesmo com Johrei intenso, morre, qual o critério para julgar se foi pelo fim da vida ou não?
+
+A sina está determinada. É como um molde do qual não se pode sair. O destino está dentro desse molde, mas há um certo grau de liberdade. Portanto, se se subir para a parte superior desse molde, a liberdade e a felicidade serão maiores. Mas só se pode ir até o topo da sina com a qual se nasceu, não mais que isso. E as pessoas com uma sina maior têm um molde correspondentemente maior.
+
+A expectativa de vida é determinada, mas pode ser alterada. Certa vez, ouvi uma história. Um homem estava voltando para casa tarde da noite por uma estrada rural e decidiu passar a noite no santuário local. Então, um homem veio à frente do santuário e disse: "Tenho um relatório". Do fundo do santuário, uma voz respondeu: "Pode dizer". "Hoje, a tal hora, em tal lugar, nasceu Fulano". "Sua expectativa de vida é de vinte e cinco anos, e a causa da morte será picada de abelha". E esse Fulano era vizinho do homem que pernoitou no santuário. Vinte e cinco anos depois, essa pessoa morreu exatamente como previsto. A causa da morte foi picada de abelha. Coisas assim acontecem.
+
+Muitas pessoas que entram na minha fé são salvas de perigos, e nesse caso, a vida que se segue é um acréscimo à expectativa de vida original. A vida que foi acrescentada não deve ser usada de forma egoísta, apenas para ganhar dinheiro. Deus pode mudar o destino. Dependendo de como a pessoa vive, ela pode viver muito.
+
+— A cidade de Ito é majoritariamente de pescadores, e eles têm várias crenças, mas não acreditam facilmente nesta fé. O que devo fazer?
+
+Entregue a Deus. Quando chegar a hora, as coisas se abrirão.
+
+— Como os pescadores devem cultuar os peixes?
+
+É bom realizar um culto cerca de uma vez por ano. Nas vilas de pescadores, há muitas pessoas com problemas de visão, e isso é o ressentimento dos peixes. Dizem que a visão piora porque olham muito para as ondas, mas não é por isso. O método do culto é que, se for feito com a intenção de cultuar, se tornará um culto. Escreva "Espíritos dos Peixes" no altar de Kannon-Sama, coloque-o diante dela e recite a oração.
+
+— Ouvi dizer que, embora a linhagem de sangue se misture, o espírito não se mistura. No caso dos pais, qual deles é o principal?
+
+Normalmente, a linhagem espiritual do pai é a principal. O genro adotivo também segue essa linhagem. Os espíritos ancestrais são os que unem os casais. Os antepassados, se fossem monogâmicos, tudo bem, mas a maioria espalhou sementes por aí. Seus descendentes se unem. E há famílias em que os meninos não sobrevivem, apenas as meninas. Essa é a linhagem materna, e a mulher detém todo o poder. É a linhagem do palácio do dragão ou da princesa dragão, e é algo especial.
+
+**18 de julho (domingo)**
+
+— Ao recitar a "Oração Zenguen Sandji" para o oratório, por que nos referimos ao Kannon do biombo como "Kakuriyo-no-Oomikami"?
+
+Kannon-Sama possui todas as atuações, inclusive a de Kakuriyo-no-Oomikami. Kakuriyo-no-Oomikami é o Rei Enma, então Kannon-Sama, indiretamente, também se torna o Rei Enma... Kannon-Sama governa os três mundos: o visível, o invisível e o divino.
+
+— Então Ele também julga?
+
+Kannon-Sama não tem a função de julgar. Apenas a de salvar. Ele salva tudo e todos, sem discriminação... Kannon-Sama e o Rei Enma são as duas faces da mesma moeda. Os deuses têm várias funções, e um único deus pode acumular vários papéis. O Rei Enma agora governa o mundo visível. Antes, ele deixava outros budas fazerem isso, assim como no mundo humano, quem foi Ministro dos Transportes pode se tornar Ministro da Educação se o gabinete mudar. Pode-se entender que Kakuriyo-no-Oomikami é uma atuação de Kannon-Sama. Através de Kannon-Sama, chega-se a Kakuriyo-no-Oomikami.
+
+— Ao aplicar Johrei, por que balançamos a mão? Se não balançarmos, a Luz é menor? E a direção do movimento, vertical ou horizontal, importa?
+
+Balançar a mão fortalece a Luz. Havia uma criança de doze anos que via a Luz e dizia que, ao balançar a mão, a Luz se intensificava. De fato, ao balançar, a Luz penetra mais profundamente e atinge o alvo. Eu já não balanço mais, fico parado, mas vocês devem balançar. Os mais experientes não precisam balançar tanto, mas os iniciantes devem ser ensinados a fazê-lo. E o movimento deve ser sutil. Vertical não é bom, é difícil de balançar, não é?... Horizontal é melhor.
+
+— Quando oferecemos uma refeição a Kannon-Sama todas as manhãs, devemos também oferecer a Daikoku-Sama?
+
+Sim, devem oferecer a Daikoku-Sama também. Mas deve ser mais simples do que a oferenda a Kannon-Sama.
+
+— Ultimamente, só consigo oferecer arroz, sopa de missô e picles...
+
+Pela manhã, está ótimo. Nesse caso, para Daikoku-Sama, ofereça apenas arroz e picles, para manter um nível hierárquico inferior. Se a oferenda for igual à de Kannon-Sama, Daikoku-Sama não pode comer. As oferendas no oratório budista também devem ter menos pratos ou serem em menor quantidade que as de Kannon-Sama. Usar recipientes menores é uma boa ideia. Para o oratório budista, recipientes pequenos, como os de casinha de boneca, são suficientes. Se a oferenda for feita com a intenção de ser para o Kannon do biombo, os espíritos ancestrais receberão as sobras.
+
+— E oferecer as sobras de Kannon-Sama no oratório budista?
+
+As sobras de Kannon-Sama devem ser consumidas pelos humanos.
+
+— Quando recebo frutas de fora e não posso oferecer a ambos...
+
+Nesse caso, corte-as e ofereça a parte maior a Kannon-Sama e a menor ao oratório budista.
+
+— Por que o Japão parece ter um número particularmente alto de desastres naturais?
+
+Não há tantos desastres assim. O grande número de terremotos se deve ao fato de que, antigamente, as terras que circundavam a atual ilha principal afundaram, e o que resta é cerca de um terço do original. Esse movimento ainda continua, especialmente no lado do Mar do Japão, e é por isso que há tantos terremotos. O fato de o lado do Mar do Japão estar afundando alguns pés por ano também se deve a isso; dizem que Niigata estará submersa em cem anos. A crosta terrestre ainda está se contraindo, e o fundo do Oceano Pacífico está afundando gradualmente. Portanto, estudando as correntes marítimas, seria possível prever terremotos com alguma precisão. A causa está no mar, mas os estudiosos só pesquisam em terra, por isso não entendem. Durante um terremoto, muitas vezes ocorrem tsunamis. Isso acontece porque o fundo do mar afunda, as correntes fluem para lá e, quando transbordam, retornam em todas as direções, o que é o tsunami. O fato de ocorrer logo após um grande terremoto se deve a isso. Honjo, em Tóquio, também afundou no Grande Terremoto de Kanto. Mas como a baía de Tóquio também afundou, não ficou inundada.
+
+— Ouvi dizer que os mitos e contos populares têm vários significados. Poderia falar sobre: (1) O mito dos pêssegos da encosta de Yomotsu Hirasaka, (2) A conquista dos demônios por Momotaro, (3) A subjugação da serpente de oito cabeças por Susanoo-no-Mikoto?
+
+(1) Isso realmente aconteceu. "Yomotsu" significa "o que detém o mundo", ou seja, o imperador da época, e "Hirasaka" é uma encosta plana, como o caminho para o Santuário Meiji. Naquela rua lateral, morava o visconde Ryuji Kuki. Eu fui lá duas ou três vezes. Houve uma guerra lá, e quando convidei o visconde e sua esposa para minha casa, eles trouxeram um cálice com o crisântema imperial, um presente da corte. E a guerra acabou. Mais tarde, na época da Hozan-so, um certo Goto... que também atuava como um deus maligno, lutou comigo. Quando eu estava prestes a perder, consegui sessenta mil ienes, joguei-os na mesa e venci. A lenda da batalha de Yomotsu Hirasaka diz que Izanagi-no-Mikoto recebeu pêssegos e derrotou o inimigo. "Momo" (pêssego) significa "cem", ou seja, notas de cem ienes.
+
+(2) Isso é o que eu estou fazendo. Em 5 de maio de 1933... geralmente acontece algo neste dia... Fui convidado para ir a um lugar. O primeiro era o deputado Kanzo Koyama, o segundo era um conselheiro imperial chamado Shinzan. Koyama e Shinzan formaram "oni" (demônio). O terceiro era um certo Higashiyama; o "hi" desapareceu, e formou-se "onigashima" (ilha dos demônios). A conquista da ilha dos demônios ainda está em andamento. Os tesouros maravilhosos que Otohime possuía até agora, em breve, estarão em minhas mãos, mas não posso anunciar isso agora.
+
+(3) Acredito que isso seja um fato. Havia três Susanoo-no-Mikoto, e este deve ser o primeiro... embora seja estranho dizer "primeiro". Ele matou a grande serpente e tomou como esposa Kushinadahime, que estava prestes a ser sacrificada. Ele construiu uma casa e, ao ver a casa magnificamente construída, disse: "Ah, que purificante!". Daí o nome "Sugamiya". E o poema que ele compôs na ocasião foi o início da poesia japonesa. Kushinadahime, pela etimologia, significa Japão. Em um sentido mais amplo, significa que ele subjugou os bandidos, a grande serpente, e tomou posse do Japão.
+
+— Meu tio, há três anos, desenvolveu muitas manchas marrom-arroxeadas, do tamanho de uma moeda de um centavo, chamadas de "selo do inferno"...
+
+Pode ser sangue tóxico se misturando e saindo, ou o espírito de um ressentimento. Se for da cintura para baixo, é espiritual.
+
+— Este ano, as manchas solares estão no auge, com muitas explosões, o que, dizem, causa desastres naturais e também uma colheita abundante. Qual a relação disso com a transição do dia e da noite?
+
+Os raios cósmicos são as linhas espirituais das estrelas e não têm relação direta com a transição do dia e da noite. A luz do sol que vemos é a luz da matéria; em níveis mais elevados, torna-se espírito e é invisível. Em termos de calor, o calor do sol é espírito, e o calor da terra é corpo. Portanto, o calor da terra é fogo comum... O céu e a terra são espírito e corpo, respectivamente. O céu também tem espírito e corpo, e há mais além, em três níveis.
+
+— O calor do verão se deve também ao calor da terra?
+
+O calor da terra é muito mais quente que o do sol. As montanhas altas são frias porque, embora estejam mais perto do sol, estão mais longe do calor da terra. Dizem que o topo do Monte Fuji está agora a cerca de dois graus... Os estudiosos, quando não entendem algo, culpam as manchas solares, o que é cômico... Sobre a bomba atômica, dizem que o núcleo atômico é destruído, mas o princípio é outro. Escreverei sobre isso no próximo livro. As manchas solares são o centro e não têm relação com a transição do dia e da noite.
+
+— Sobre o método de "inversão espiritual" e o significado do espírito da palavra...
+
+"Inversão espiritual" é condensar muitas palavras em uma. "Ozawa" se torna "a", e "Shoichi" se torna "shi". "Ozawa Shoichi", condensado, se torna "i". No espírito da palavra, "a" é o céu, "o" é a terra, "i" está perto do céu, "u" está no meio e "e" está perto da terra. A fileira do "a" é a base, e as fileiras do "ka", "sa", etc., são os ramos. A fileira do "a" tem uma atuação mais espiritual e também uma atuação oculta. Meu nome, Okada, se torna "a", então eu fico nos bastidores e uso as pessoas... Pessoas com sons de "ka, ki, ku, ke, ko" são metódicas e precisas. Com "ma, mi, mu, me, mo", se for homem, é afeminado. Com "sa, shi, su, se, so", é teimoso. O espírito da palavra é um pouco difícil de entender no início, mas com o hábito, torna-se simples. Escreverei em detalhes no livro.
+
+Ao aplicar Johrei, é muito ruim se concentrar e balançar a mão. Não é o homem quem o faz, então quanto mais se esforça, mais o poder é obstruído. Faça com um sentimento leve. E, ao balançar a mão, como se está olhando ao mesmo tempo, a Luz também sai da testa...
+
+**28 de julho (quarta-feira)**
+
+— Há pessoas que aplicam Johrei em um paciente em grupo. O que pensa sobre isso?
+
+Aplicar em grupo não há problema. Mas se o paciente estiver muito grave, não surtirá efeito. Para uma "purificação" que apenas limpa o corpo, tudo bem. Para doenças mentais, por exemplo, não se deve fazer em grupo. A regra é uma pessoa para uma pessoa, mas, dependendo do caso, pode-se agir de forma flexível.
+
+— E a pessoa que recebe o Johrei manter as mãos em prece?
+
+É excelente. Expressa uma atitude de reverência, o que é bom. Mas basta manter as mãos em prece no início. Se for por muito tempo, a pessoa se cansa.
+
+— Para doentes com problemas espirituais, além da oração, pode-se recitar o "Canto dos Números Celestiais"?
+
+Sim, pode-se. Normalmente, a oração é suficiente, mas em casos especialmente graves, como doenças mentais, epilepsia, etc., pode-se recitá-lo. (Canto dos Números Celestiais — um, dois, três, quatro, cinco, seis, sete, oito, nove, dez, cem, mil, dez mil).
+
+— E fazer uma investigação espiritual para identificar a possessão?
+
+Se agirmos naturalmente, quando necessário, Deus nos informará. Há casos em que é melhor saber desde o início, e outros em que não... E se uma raposa ou algo do tipo aparecer e tentar enganar, é melhor se deixar enganar. Assim, a própria raposa se revelará. É até melhor reverenciar a raposa.
+
+— O filho de uma certa família, de repente, não conseguia mais comer e passou dez dias bebendo apenas água. Ao investigarmos, descobrimos que o santuário havia sido colocado em um armário e objetos sujos foram postos em cima. Assim que pediram perdão, o apetite voltou e ele se recuperou. É melhor que os doentes com problemas espirituais recebam o curso depois de estarem completamente curados?
+
+Sim, depois de curados é o ideal. Mas pessoas com esgotamento nervoso, por exemplo, que não têm energia, devem receber.
+
+— E incentivar as pessoas a entrar na fé, dizendo que é algo bom?
+
+Não se deve ser rígido e tentar forçar as pessoas a entrar. A porta de entrada deve ser pequena e fácil de entrar. E os dias de permanência no centro para o curso devem ser adaptados às circunstâncias. Não se deve ser rigoroso desde o início... O motivo pelo qual é melhor receber o curso depois de curado é que, se por acaso algo acontecer, pode-se dizer "fulano fez o curso e mesmo assim não deu certo". E, depois de curado, a pessoa recebe com um sentimento de verdadeira gratidão, e isso é o ideal.
+
+Mesmo antes da cura completa, se o paciente desejar, pode-se ministrar o curso. Deve-se ser flexível de acordo com as circunstâncias.
+
+— Ouço muito sobre os *kappa*, mas seu espírito existe?
+
+Sim, o espírito do *kappa* existe. Eles adoram lutar sumô e, por mais que sejam derrubados, levantam-se e voltam a lutar. Em troca, se cuidarmos bem deles, eles se afeiçoam e nos ajudam de várias maneiras.
+
+— Há um método de amaldiçoar pessoas pregando um boneco de palha. Isso realmente funciona?
+
+Funciona até certo ponto, mas para quem está na fé, esse tipo de ressentimento não atinge.
+
+— Quando se muda de mestre, é preciso receber novamente o Ohikari?
+
+Dependendo das circunstâncias, o Ohikari pode ser trocado. Mas o que está sendo distribuído agora não deve ser trocado. O anterior foi escrito como terapia, mas o atual foi escrito de forma religiosa. O anterior deve ser guardado ou emoldurado.
+
+— Quando um ministro morre, outro ministro pode receber sua imagem sagrada e outros objetos?
+
+Sim, pode.
+
+— Qual a relação entre vermes parasitas, como a lombriga, e as toxinas?
+
+Os vermes surgem porque há toxinas no corpo, e eles se alimentam dessas toxinas para viver. Não se preocupe com a presença de vermes; com o Johrei, eles saem mais rápido.
+
+— Se os vermes comem as toxinas do corpo, as toxinas diminuem, não?
+
+A lombriga, no entanto, não come tantas toxinas, então não adianta. Normalmente, há duas lombrigas. Se houver cinco ou seis, é tratado como doença. E essas duas geralmente são um casal. Por isso, quando uma sai, outra invariavelmente sai em seguida.
+
+— Qual a relação espiritual entre os sonhos, o falar dormindo e o dormir com as pálpebras abertas?
+
+As pálpebras abertas não são um problema. Espiritualmente... bem, não sei, acho que não há nada. Há pessoas como Hideyoshi, que dormia com um olho aberto e outro fechado.
+
+— Ouvi dizer que Susanoo-no-Mikoto teve três gerações. Como elas são chamadas e quais foram suas atuações?
+
+A primeira é Kamu-Susanoo-no-Mikoto, a segunda é Haya-Susanoo-no-Mikoto, e a terceira é Takehaya-Susanoo-no-Mikoto. Esta é a minha interpretação. A primeira veio da Coreia e governou... ou melhor, ocupou o Japão. Quem matou a grande serpente foi a segunda. A esposa deste era Kushinadahime, e a da primeira era Otohime. A terceira é Ookuninushi-no-Mikoto. Essas três gerações têm uma relação de pai e filho. Quem foi para o Ocidente foi a primeira. E esse mesmo Susanoo-no-Mikoto se tornou Dainichi [Amida] Nyorai. Portanto, não é algo tão antigo. O Rei Demônio do Sexto Céu é um pouco diferente. É Daijizaiten, um deus indiano. Daijizaiten está no mandala de Nitiren.
+
+— As jovens discípulas que entraram na fé parecem, em geral, se casar mais tarde. E há algumas que quase nunca assistem a filmes. É permitido que dediquem um pouco de tempo a isso?
+
+O casamento tardio é inevitável. Porque muitas dessas pessoas são deuses-dragão. Quando um deus-dragão renasce como humano, é melhor que não se case por uma geração. Por isso, quando surge uma proposta de casamento, a pessoa adoece ou sente aversão, e o noivado não se concretiza. O deus-dragão era originalmente um pecado de apego; com o passar do tempo, o pecado desaparece e o perdão é concedido. Então, pode-se casar.
+
+Não assistir a filmes... qual o sentido disso?
+
+— Por serem tão dedicadas à fé, sentem que é um desperdício de tempo gastá-lo com filmes...
+
+Eu assisto, então eu permito. Eu não faria a crueldade de assistir e não permitir aos outros. É bom, sim. Claro, os filmes de hoje têm muito erotismo e violência, mas isso é tolerável.
+
+— Poderia me ensinar sobre o "juramento celestial" (*ukei*)?
+
+Acredito que foi uma promessa feita na margem do rio em Yasu, perto do Lago Biwa. Amaterasu Sume Oomikami governava o Japão quando Susanoo-no-Mikoto chegou e, com força bruta, exigiu territórios. Então, eles concordaram que Susanoo-no-Mikoto governaria o oeste e Amaterasu Sume Oomikami, o leste. Mas, pouco depois, Susanoo-no-Mikoto exigiu tudo e a ameaçou, então a Deusa fugiu para Shinshu... A questão de Kunitokotachi-no-Mikoto é muito anterior e também há várias versões, antigas e novas, como Kunitakehiko-no-Mikoto. Escreverei sobre isso no livro *A Porta do Mistério*, que será publicado.
+
+— Não entendo bem o processo do nascimento dos Oito Grandes Reis Dragões através do juramento, nem o nascimento dos deuses quando Izanagi-no-Mikoto realizou o ritual de purificação (*misogi*)...
+
+A criação do país e das ilhas se refere ao grande dilúvio... provavelmente o dilúvio de Noé... Quando o Japão foi inundado, realizou-se a "técnica de secar a maré", e as ilhas e o país reapareceram. Diz-se que ele mexeu tudo com a "lança celestial de joias", mas é tolice criar um país assim. O juramento deve ser uma alegoria para outra coisa.
+
+— Sobre a relação espiritual entre a Reforma Taika e a Guerra Jinshin...
+
+Todas as guerras do Japão foram disputas entre a linhagem de Jinmu e a de Ookuninushi-no-Mikoto. A linhagem do imperador é a de Jinmu e, de outro ponto de vista, foi uma disputa de poder entre as linhagens coreana e chinesa.
+
+— Pode-se saber pelos nomes?
+
+Pelos nomes, pode-se saber muitas coisas. Mas isso não nos diz respeito. Nós fomos os conquistados... As pessoas que entram na Kannon-kai são diferentes. Geralmente são da raça Yamato. Claro, muitas outras linhagens também entraram, e elas também estão atuando bastante. O "Sutra da Extinção da Lei" e o "Sutra da Realização do Advento de Miroku" foram os últimos pregados por Shakyamuni. Eles ainda existem, não é?
+
+— Sobre a arte de ler a sorte dos túmulos...
+
+Embora se chame "arte de ler a sorte dos túmulos", é estranho chamá-la de uma disciplina acadêmica. Mas acerta até certo ponto. Usar pedras naturais como lápides é considerado ruim. E com razão, pois pedras naturais são para jardins. O túmulo deve ter a forma de um túmulo; alguns espíritos não gostam de pedras naturais. O buda também se importa com a forma do túmulo, e quando o espírito vem ao túmulo, é melhor que a lápide esteja de acordo com a lei.
+
+Gravar o nome póstumo na lápide em vida é um pouco de precipitação.
+
+Fazer uma tabuleta coletiva é falso. A tabuleta de quem se conheceu deve ser individual, e a de quem não se conheceu pode ser incluída na tabuleta das gerações passadas.
+
+Se se casar novamente, a ex-esposa ou o ex-marido deve ser cultuado adequadamente. Se for com muito esmero, pode causar ciúmes.
+
+— E pagar dinheiro a um templo para obter um posto mais alto no nome póstumo?
+
+Elevar o status é bom. Pode-se comprar com dinheiro. No fim, é a prova de que se é rico.
+
+— Se o deus protetor local for um Inari, pode-se visitá-lo?
+
+Sim. Como ele protege os moradores, deve-se agradecer.
+
+— Por estarmos cultuando o Deus Supremo, não seria necessário cultuá-lo?
+
+Não, não. Ele cuida dos moradores no dia a dia.
+
+Quando se visita o deus protetor local, é bom recitar a oração, mas no final, deve-se dizer: "Ubusuna-no-Oomikami mamori tamae sakihae tamae".
+
+**8 de agosto (domingo)**
+
+Primeiro encontro no novo centro de treinamento, Soun-ryo.
+
+— Parabenizo-o pela magnífica conclusão do novo centro de treinamento.
+
+Sim... Esta madeira foi comprada logo após o fim da guerra, por isso saiu relativamente barata. Hoje em dia, seria caríssima... Hakone é a porta de entrada entre o leste e o oeste. Leste e oeste são também yin e yang, e Kannon-Sama está no meio do yin e do yang, ou seja, entre o leste e o oeste. Portanto, Gora é o centro. Na verdade, o Monte Kami é o centro, mas não se pode construir algo assim no topo dele... A antiga Hozan-so ficava perto do rio Tama, e o rio Tama também era a divisa entre o leste e o oeste. Cruzando o rio, já é Kanagawa. O "go" de Gora significa fogo, e "ra" significa girar, em espiral. Significa que o fogo, como centro, forma um redemoinho que se expande. Já em Atami, "a" é o céu, e "ta" é o centro, representado por um círculo e uma cruz. O ponto no centro do círculo representa a mancha solar; quando a mancha é grande, o sol está ativo, expirando. Quando ele expira, o elemento fogo se fortalece. As pessoas se preocupam se a mancha solar é grande ou pequena, mas na verdade é assim que funciona. Todos os seres vivos respiram, e a Terra também é um ser vivo e respira... E o "mi" de Atami significa água, o país da lua no centro do céu. Este edifício em Hakone precisava ser em estilo japonês, mas o de Atami precisa ser em estilo ocidental. O que construiremos agora tem cerca de 36.000 tsubo (aprox. 120.000 m²) e, por ser "água", o edifício precisa ser grande. E depois, Odawara. Hakone, Atami e Odawara formam cinco, seis e sete, ou seja, fogo, água e terra. Com isso, a trindade se completa e o "Sol, Lua e Terra" se realizam. Em termos de países, seriam Japão, Ocidente e China. Por isso, em Odawara, pretendo construir uma casa em estilo coreano. O "o" de Odawara significa pequeno modelo, "da" significa centro e "wara" significa vasto. Quando isso estiver pronto, esta fé se espalhará pelo exterior, bem, pelo Oriente. A América se abrirá relativamente rápido, porque a América é horizontal. O fato de se pregar tanto a democracia agora é como inserir uma barra horizontal na relação vertical da tradicional lealdade e patriotismo japoneses.
+
+— Sobre os princípios básicos a serem observados ao nomear uma criança...
+
+Nomes? Bem, pretendo escrever sobre isso em um livro. O mais importante é que o sobrenome e o nome formem o céu e a terra, o yin e o yang. O sobrenome é o céu, e o nome deve ser a terra ou a água. O céu é a fileira do "a", e "Okada" se torna "a". E "Mokiti" se torna "mi". "Onuma" é da fileira do "a", então o nome deve ser da fileira do "o". Não é bom que tanto o sobrenome quanto o nome sejam da fileira do "a". Se não for da fileira do "o", a do "ma" é boa. O número de traços, par ou ímpar, também tem alguma influência. É melhor que a soma dos traços do sobrenome e do nome seja par. Para que mãe e filho cresçam bem, os nomes precisam combinar. E não se deve colocar dois sons da fileira do "sa" no nome e sobrenome. Se houver dois, a pessoa se torna teimosa. Os caracteres também têm vários significados, mas não é algo que se possa explicar facilmente... Hoje em dia, acho que sou o único que entende do espírito da palavra. Antigamente, Onisaburo Deguchi entendia, e seu mestre era um homem de Nagoya chamado Nagasawa, e antes dele, Motoori Norinaga. No quarto de Norinaga, havia setenta e cinco sinos pendurados, e era chamado de "Casa dos Sinos". Isso se deve ao fato de que o espírito da palavra tem vinte e cinco vogais e cinquenta consoantes, totalizando setenta e cinco sons.
+
+— Qual a relação espiritual entre os sonhos e o falar dormindo?
+
+Bem, durante o sono, o espírito sai e vai para o Mundo Espiritual, permanecendo conectado ao corpo apenas por um fio espiritual. Ou seja, o corpo fica vazio. Então, a pessoa fala sobre coisas que pensa durante o dia, mas que são reprimidas. Portanto, o falar dormindo não é algo bom nem verdadeiro. Geralmente é a atuação do espírito secundário. Desde a antiguidade, diz-se "não dê ouvidos a quem fala dormindo" por esse motivo. Claro, quanto mais toxinas a pessoa tem, mais forte é a atuação do espírito secundário.
+
+— Qual a causa da encefalite japonesa, que está tão em voga ultimamente?
+
+A encefalite japonesa não é nada demais. Dizer que é transmitida por mosquitos é um disparate. É porque as pessoas expõem a cabeça ao sol forte do verão. Bem, isso dura só até o fim deste mês. Dizem que é um vírus filtrável, mas não há vírus. "Filtrável" significa que não há germes. Basicamente, as toxinas se acumulam na parte de trás da cabeça e entram no cerebelo, causando sonolência. Se não entrarem no cerebelo, é encefalite espinhal, que é mais difícil de curar. No caso da encefalite japonesa, deve-se aplicar Johrei a cada trinta minutos, dez ou quinze vezes ao dia. Em pouco tempo, pus sanguinolento sairá dos olhos e do nariz. A cura leva de três a, no máximo, quatro ou cinco dias. Se, mesmo com um pouco de Johrei, sair remela ou secreção nasal, já é o início da recuperação.
+
+— Quando um jovem casal, por causa de sua juventude, comete um erro, mesmo que não consigam se entender mentalmente, eles devem se casar?
+
+É melhor pensar bem antes de cometer o erro. Pense se pretendem se casar no futuro ou se é apenas um passatempo. Se cometeram o erro sem pensar, a culpa é do homem. É estranho falar de mim mesmo, mas antes de entrar na religião, eu tinha um medo terrível de manchar a honra de uma mulher. Mesmo no caso de uma mulher casada, ao pensar em como o marido se lamentaria e sofreria se soubesse, eu achava que isso era um pecado terrível... Portanto, o primeiro passo é pensar bem: "Serei capaz de fazer esta pessoa feliz ou não?".
+
+— E quando há uma afinidade momentânea?
+
+É melhor se separarem e cada um seguir seu caminho. Não deve haver apego. É preciso se livrar do apego. Quando as coisas são difíceis, é melhor entregar a Deus.
+
+— E se houver uma gravidez?
+
+Mesmo com uma gravidez, é melhor entregar a Deus. Mas, ao entregar, não se deve fazer apenas o que é conveniente para si. Primeiro, é preciso se arrepender de coração e pedir. Deus não pune pelo passado. Apenas a limpeza pela mácula é necessária.
+
+— Entre um casal, se um deles, por doença ou deficiência, não consegue obter satisfação sexual, o que se deve fazer? E o divórcio nesse caso é permitido?
+
+A culpa é do marido. Ele deve ser prudente e esperar até que seu pecado desapareça. É como ir para a prisão. Na prisão, não se pode fazer essas coisas, não é?... Mas não se deve esperar muito pelo perdão. Posso falar sobre isso a fundo, mas aqui não é o lugar... Assim como no parlamento há sessões secretas, falarei sobre isso em um grupo pequeno algum dia.
+
+— Há uma distinção de tempo para recitar a Oração Amatsu Norito e a Zenguen Sandji?
+
+Não há uma distinção de tempo específica. Os deuses são da manhã, e os budas são da noite. O Japão é o país da manhã. "Corte matinal" é uma palavra que surgiu do fato de as reuniões políticas serem realizadas pela manhã. Na pintura, os japoneses retratam o sol nascente, enquanto os ocidentais, o poente.
+
+— Se chegarmos de uma viagem longa durante o dia, qual devemos recitar?
+
+Nesse caso, não precisa ser tão formal.
+
+— Como devemos recitar o "Canto dos Números Celestiais"?
+
+Deve-se recitá-lo após a oração. Nesse caso, o doente deve manter as mãos em prece. Normalmente, a oração é suficiente, mas recitar o Canto dos Números Celestiais fortalece ainda mais e aumenta o efeito... E os espíritos se alegram muito com os hinos. Em casos de doentes graves ou com problemas espirituais, também é bom recitar os hinos. Para a imagem sagrada, os hinos de manhã e à noite são suficientes. Para os doentes, escolha um hino apropriado e recite quando necessário.
+
+— Podemos julgar que uma pessoa com grande poder de Johrei alcançou a fé? E uma pessoa que forma muitos membros, também pode ser considerada assim?
+
+Sim, exatamente. Por mais que se esforce, se não houver resultados, não adianta. A vontade de Deus é salvar o maior número possível de pessoas, então é melhor salvar o maior número possível. Ao salvar, recebe-se uma recompensa, ou seja, virtude.
+
+— Muitos pacientes com tuberculose pulmonar que eu trato não se curam. Devo julgar que meu "poder" ainda é fraco e minha fé é superficial enquanto não os curo?
+
+Os pacientes com tuberculose, de qualquer forma, têm muitas toxinas medicamentosas. A medicina usa o método de solidificação, enquanto nós usamos o de dissolução, e há uma grande diferença. Consequentemente, mesmo que a medicina cure, após um tempo, ocorre uma purificação e a doença recidiva. O Johrei dissolve e expele, então, durante o tratamento, a tosse e o catarro aumentam. E o enfraquecimento se agrava. Isso é muito difícil. O melhor método é proceder muito gradualmente. Uma ou duas vezes por semana é o ideal. Mas se, na ânsia de curar rápido, se aplicar mais, a dissolução será muito rápida e, como resultado, o apetite diminuirá e, mesmo que a doença melhore, o corpo se esgotará. E não se deve aceitar pacientes muito enfraquecidos. Se o paciente não estiver tão fraco, não se deve aplicar muito Johrei, mas focar na fé e incentivá-lo a entrar na fé. Mas isso se aplica apenas à tuberculose; outras doenças são diferentes. Para outras doenças, quanto mais Johrei, melhor.
+
+— Há ministros que sentem dor no mesmo local da parte doente do paciente que estão tratando. Qual a razão disso? E por que, ao tratar a área afetada, a mão do ministro sente uma vibração?
+
+Existem duas linhagens de pessoas: a do sol e a da lua. E os da linhagem da lua assumem a doença do outro. Assim como a água fica suja ao lavar a roupa, eles assumem a sujeira da água. Isso é inevitável. Tokuiti Miki, o fundador do *Hito-no-Miti*, era da linhagem da água, e ele assumia o sofrimento do doente, mas gradualmente ele mesmo começou a sofrer, então todo dia 25 do mês, ele realizava um culto e pedia a Deus que assumisse o fardo. No fim, ele criou cerca de dez "vice-líderes". Mesmo recebendo o Ohikari de Kannon-Sama, os da linhagem da lua frequentemente assumem a doença, mas o efeito é o mesmo. Mesmo os da linhagem do sol, se tratarem muitas pessoas, podem assumir também. E há várias formas de sentir, mas não há relação com o efeito. E as várias terapias de fé que existiram até agora são da linhagem da água.
+
+— Quais os dez ramos celestiais e os doze ramos terrestres?
+
+Bem, escreverei em detalhes sobre isso no próximo livro, então leia-o.
+
+— Posso pendurar os quadros "Vento Divino" e "Dragão Divino"?
+
+Sim, pode.
+
+— Na região de Goto, em Nagasaki, cultua-se um deus chamado "Vigésima Terceira Noite", muito parecido com Senju Kannon. Que deus é esse?
+
+É Tsukuyomi-no-Mikoto. Existe também uma religião chamada Tsukuyomi-kyo. Claro, se se cultua Komyo Nyorai-Sama, não há mais necessidade de cultuá-lo. A vigésima terceira noite se refere à lua. Quando a lua está brilhando, é a atuação de Tsukuyomi-no-Mikoto; na escuridão total, é a de Susanoo-no-Mikoto. "Tsukuyomi" significa "a lua que vê a noite", e é a atuação do lado bom da lua. Susanoo-no-Mikoto é a atuação da escuridão.
+
+— Qual a atuação de Fudo Myo-o?
+
+É o papel do superintendente geral da polícia do Mundo Espiritual, já que ele tem uma corda e uma espada. Mas mesmo Fudo, se seu poder não for suficiente e ele for derrotado por um deus maligno, não poderá cumprir sua missão e passará a conceder benefícios como dinheiro e outras coisas. Esse é um Fudo falso, da laia das raposas e tanukis. O Fudo de Narita é o mesmo.
+
+— Posso colocar uma cortina de bambu em frente à imagem sagrada, levantando-a de manhã e baixando-a à noite?
+
+Sim, pode, mas nos cultos noturnos e mensais, a cortina deve ser levantada.
+
+— Que tipo de deus é Jizo-Sama?
+
+Jizo é um bodhisattva, um buda da linhagem de Amida.
+
+Quanto aos traços dos nomes, é melhor que o casal tenha um número par e outro ímpar. Nesse caso, não importa qual é par ou ímpar.
+
+**18 de agosto (quarta-feira)**
+
+Cerimônia de inauguração provisória do novo centro de treinamento, Soun-ryo.
+
+A razão para esta cerimônia de inauguração provisória é que, normalmente, a cerimônia ocorre após a conclusão da obra, mas fazê-la deliberadamente durante a construção se deve ao fato de que Deus valoriza muito a ordem. Com a conclusão deste local, o de Atami também se tornará mais fácil de construir. Se Hakone não estivesse pronto, não poderíamos começar em Atami. Por isso, realizamos a cerimônia de inauguração provisória para significar que Hakone está concluído. É uma etapa para a nova construção em Atami. Tentamos começar por Atami no ano passado, mas não deu certo. Houve vários obstáculos. Então, percebemos que Hakone deveria vir primeiro. Por isso, apressamos a cerimônia provisória. A inauguração oficial será no próximo ano.
+
+Kannon-Sama é um buda, e Komyo Nyorai também, mas usar vestes de sacerdote xintoísta e recitar orações pode parecer um pouco estranho. No entanto, Kannon-Sama não está ascendendo de bodhisattva, mas sim retornando ao seu posto original, tendo descido temporariamente ao posto de bodhisattva para salvar todos os seres. Um nível acima está Komyo Nyorai, e depois, Goroku-shichi Oomikami. Agora, estamos em um estágio intermediário entre o budismo e o xintoísmo. A Oração Zenguen Sandji é uma versão condensada do Sutra de Kannon. Este sutra foi originalmente escrito em sânscrito, a língua da Índia, e se adequava à vida dos indianos de dois mil e tantos anos atrás. Mas se os japoneses de hoje recitassem um sutra tão longo, chegariam atrasados ao trabalho e seriam demitidos. A era atual exige métodos adaptados a ela. Por isso, criei a Oração Zenguen Sandji. E as cerimônias japonesas, desde a antiguidade, adotaram a forma xintoísta. O budismo chegou há mil e trezentos anos, mas antes disso, tudo era no formato xintoísta, e a oração era a forma original. A Oração Zenguen Sandji é a incorporação dos pontos positivos do budismo no estilo xintoísta.
+
+Esta imagem sagrada foi pendurada hoje pela primeira vez. Pintei-a em 1932, há dezesseis anos, e a mantive guardada desde então. É a única imagem de Kannon-Sama com cabelos brancos. As figuras acima e abaixo são os Quatro Reis Celestiais, e a tinta sumi ao redor representa o mundo da noite. Eu não imaginava que penduraria esta imagem aqui hoje. As obras de Deus são profundas. A madeira deste edifício também foi comprada por volta do fim da guerra; era a madeira sagrada de um santuário em Akita. Com o frete, custou um pouco mais de trezentos ienes... não chegou a quatrocentos. Hoje em dia, seria caríssima... Agora, construirei um edifício em estilo ocidental em Atami, com capacidade para duas ou três mil pessoas. Hakone é japonês, Atami é água e terá um estilo estrangeiro e grande. Odawara será uma síntese dos estilos japonês e ocidental, e assim se formará o cinco, seis, sete. Este terreno também tem seiscentos tsubo (aprox. 2.000 m²). Antigamente, negociei e pedi que me vendessem, mas eles se recusaram. Com o novo imposto sobre a propriedade, eles tiveram que se desfazer e me procuraram. De agora em diante, ao procurar casas para filiais e sub-filiais, é melhor não forçar e esperar o momento certo. "A sorte vem para quem sabe esperar" é um bom ditado. Há quem diga que se deve "amassar" a sorte, mas não é isso. Esperar dormindo significa esquecer, livrar-se do apego. O "esperarei até que o cuco cante" de Tokugawa Ieyasu é excelente. Quem tem fé se entrega a Deus e fica tranquilo. Semear e esperar o momento certo é o correto. Mesmo que se ensine sobre Deus a alguém e a pessoa não acredite no início, com o tempo ela pode vir a procurar. É a semente semeada crescendo na alma. Não existe "falar com fulano é inútil". Deve-se semear e esperar. Todos os seres humanos, até agora, não deram importância ao "tempo". Não há nada com um poder mais absoluto que o tempo. É por ir contra ele que se falha e se sofre. Primeiro, siga o tempo; depois, livre-se do ego e do apego. Se seguir esses três, tudo sempre dará certo.
+
+Diz-se "o grande caminho do céu e da terra, somente Deus", e céu e terra são a grande natureza, e "somente Deus" significa "à vontade de Deus". Quando eu praticava a cura, se me perguntavam "de quem o senhor aprendeu isso?", eu respondia "aprendi com a grande natureza". A luz desta mão também é fogo e água se tornando luz, e também fogo, água e terra. A purificação na grande natureza também ocorre com fogo, água e terra. Meu primeiro mestre foi a grande natureza, mas o segundo foram os doentes. Na prática, aprendi muito curando os doentes... O grande caminho de Deus é o caminho da natureza. Por isso, quando eu morava em Omori e acontecia algo para o qual eu não tinha uma boa solução, eu costumava dizer "deixe nas mãos de Deus". Quem não entende isso tenta fazer tudo com suas próprias forças e sofre, mas não adianta. É crucial conhecer a fraqueza do poder humano. Napoleão disse "no meu dicionário não existe a palavra impossível", mas ele não conhecia a fraqueza humana. Por isso, acabou exilado na ilha de Santa Helena. Hitler e Tojo também eram assim. E costumam dizer "conquistar a natureza", mas não há erro maior. O correto é seguir a natureza e se harmonizar com ela. Se alguém disser "vou conquistar a montanha", os tengus da montanha se zangarão e a pessoa sofrerá um acidente. Antigamente, dizia-se "purificação dos seis sentidos" e pedia-se a proteção do deus da montanha, por isso havia poucos acidentes. A montanha tem seu deus, o mar tem seu deus; tudo é governado e protegido por deuses. Mas se dissermos isso hoje em dia, seremos chamados de primitivos e incultos. Mas quem diz isso é mais primitivo que os primitivos e incultos.
+
+Chove muito, não é? Quando venho para Hakone, sempre chove, e isso, como escrevi no livro, tem o significado de que "o fogo queima com a água, e a água flui com o fogo". O sol queima com a umidade da lua, e a lua brilha com a luz do sol. Também escrevi no próximo livro que as manchas solares são a respiração do sol e se tornam maiores a cada onze anos. O sol também é masculino, e a lua é feminina. Isso fica claro com vários exemplos, mas vamos deixar de lado em um ambiente público. O Ocidente tem o trigo como alimento principal, e o Oriente, o arroz. Isso também é yin e yang. O fato de a lua crescer e minguar também é respiração. Quando as manchas solares aumentam, o sol está expirando vigorosamente, então tudo cresce, e a energia vital do sol se fortalece, então a purificação também se intensifica e várias coisas acontecem.
+
+No próximo mês, publicarei *Conversas sobre a Fé*, que está escrito de forma que mesmo quem não tem fé possa entender. As religiões existentes se limitavam a pregar sobre religião e não falavam de outras coisas, mas a minha é como o Senju Kannon, que se estende a vários assuntos. O próximo livro também critica a academia, a política, a cultura e a ciência através da religião. Acredito que quem não entender isso é alguém que não pode ser salvo. Este é, digamos, o livro de leitura do ensino fundamental. O próximo é *Coletânea do Mundo Espiritual*, que trata da relação entre o mundo material e o espiritual, a existência de deuses e budas, e corresponde ao livro de leitura do ensino médio. O seguinte, *A Porta do Mistério*, é de nível universitário.
+
+O fato de haver muitos jovens nesta organização se deve ao fato de que a Igreja Kannon se adequa à era moderna e é uma religião que a orienta. As religiões estabelecidas tentam acompanhar a era moderna com métodos de milhares de anos atrás, por isso os intelectuais não as entendem. E se os intelectuais não entendem, não se pode orientar a era moderna. É como dizer a quem vai de carro "uma carroça de boi tem seu charme" ou "um palanquim também é elegante". Ninguém levará a sério. O meu método é mais rápido que um carro... digamos, um avião que não cai.
+
+**28 de agosto**
+
+— Para que a purificação seja mais branda, ao recitar a oração para a imagem sagrada, devemos dizer "Goroku-shichi Oomikami" ou "Kakuriyo-no-Oomikami"?
+
+Para a imagem sagrada, "Goroku-shichi Oomikami" é o correto. Apenas no caso de doentes com possessão espiritual é que se diz "Kakuriyo-no-Oomikami".
+
+Para a imagem sagrada, é sempre "Goroku-shichi Oomikami". Kakuriyo-no-Oomikami agora é função de outro deus.
+
+— Entre "Kakuriyo-no-Oomikami" e "Kakuriyo-no-Oogami", qual é o correto?
+
+"Oomikami" é um título honorífico, então "Oogami" e "Oomikami" são o mesmo, mas "Kakuriyo-no-Oogami" está bom. No caso de "Goroku-shichi", é melhor incluir o "O" e dizer "Oomikami". O "O" honorífico deve ser usado apenas para "Goroku-shichi Oomikami" e "Amaterasu Oomikami".
+
+— Quando o ministro recita o nome, endereço e estado de um doente grave para Kannon-Sama em um horário fixo todas as manhãs, pedindo sua proteção, isso é permitido?
+
+Claro, tem um certo significado de cura à distância. Nesse caso, é melhor ser conciso e não se alongar muito. Tudo até três vezes é bom. Em geral, Deus não gosta de coisas prolixas; quem gosta é o deus maligno. Por isso, a oração também, três vezes é suficiente. Se for recitá-la mais de três vezes, é melhor fazer uma pausa.
+
+— Ouvi dizer que as mulheres da linhagem do dragão não devem se casar. Como podemos saber se alguém é dessa linhagem ou não?
+
+Se uma proposta de casamento surge e tudo corre bem, não é da linhagem do dragão. Se for, um dos dois adoece ou o homem morre. E mesmo que se casem, a mulher passa a detestar o homem. Não se pode saber apenas olhando. Se surgirem problemas, não se deve forçar. O resultado não será bom. As mulheres da linhagem do dragão tendem a ser bonitas. Portanto, se não for muito bonita, pode ficar tranquila. As mulheres-dragão geralmente têm dificuldade para engravidar.
+
+— O deus-dragão que possui alguém pode se elevar?
+
+É raro. Muito raro. Quem costuma se manifestar e falar é a raposa. Pode-se saber se um homem é da linhagem do dragão ou não. Olhando para todos aqui, eu sei. E eles têm uma vontade enorme de beber água.
+
+— Existem pessoas da linhagem do sol que se tornaram deuses-dragão?
+
+Acho que não.
+
+— A teimosia na fé é característica da linhagem do dragão?
+
+Sim, deuses-dragão e tengus são teimosos. Também escrevi sobre isso no livro; o sofrimento existe porque há ego e apego, e isso não é a verdade. O ego é o subjetivismo, é achar que o que se pensa está correto. Portanto, é importante abandonar o subjetivismo e, objetivamente, se afastar de si mesmo e se observar. Argumentar é ego... Não perceber os próprios erros é falta de sabedoria. Por isso, é preciso aprimorar a sabedoria... O padrão da fé é a sabedoria e a sinceridade. É preciso saber se o que se está fazendo é bom ou ruim. No budismo, diz-se "iluminação pela sabedoria", e no cristianismo, "fruto da sabedoria". Quem não tem sabedoria faz coisas inúteis e fracassa.
+
+— A sabedoria é algo que recebemos de Deus?
+
+Sim. Mas se houver ego, ele a bloqueia e não a recebemos. Portanto, é preciso ser dócil. No mundo, há muitas pessoas que ouvem bem as palavras de quem é superior, mas não as de quem é inferior. Isso é ego. Ouvir o que os inferiores dizem é magnanimidade. Eu mesmo faço o que meus subordinados dizem. Quem vê de fora pode pensar "por que Meishu-Sama ouve uma coisa dessas?", mas é por isso que as pessoas trabalham com alegria. Quando me perguntam "o que o senhor acha?" sobre algo que certamente vai dar errado, eu respondo "é bom". E a pessoa fracassa. Mas é ao fracassar que ela finalmente se ilumina. A sabedoria, a sinceridade e, depois, o bom senso. O que é verdadeiro está de acordo com o bom senso e é racional.
+
+— Recebemos a preciosa palavra de que "a sorte vem para quem sabe esperar". Quando nos deparamos com uma dificuldade, como devemos pensar? (a) Não nos esforçamos o suficiente? (b) Deus nos parou? (c) Um deus maligno está atrapalhando? (d) Ainda não é a hora?
+
+"A sorte vem para quem sabe esperar" significa ter a tranquilidade de quem espera dormindo. Não se deve correr atrás da sorte, mas esperar que ela venha. Todas as opções, de (a) a (d), estão corretas, mas não se sabe qual é o grau do "esforço máximo". Isso é sabedoria. Portanto, muitas vezes é a falta de sabedoria.
+
+— Por exemplo, quando o centro de um discípulo está em declínio...
+
+Eu também já passei por isso. Por mais que esperasse, os clientes não vinham. Pensei em várias coisas, mas a principal era que a hora não havia chegado, e também a falta de sinceridade e sabedoria, entre outras coisas. É algo que se deve iluminar por si mesmo. Eu não digo muito às pessoas e as deixo em paz. Assim, elas se iluminam de verdade... A interferência de deuses malignos é constante. É porque há uma brecha que o deus maligno ataca. Além disso, pode haver alguma causa... um pecado. Costuma-se dizer que foi enganado, mas isso significa que a pessoa tinha a qualificação para ser enganada. Portanto, não se deve culpar os outros, mas pensar bem em si mesmo e refletir. Hoje em dia, há muitos ladrões e delinquentes, mas é porque todo o povo está corrompido. É como quando algo apodrece e surgem larvas. Se todos tiverem um coração correto, os maus sentimentos não surgirão. Tudo é pela lei da correspondência; tudo corresponde. Até agora, as pessoas criticavam olhando apenas para um lado. Os comunistas, por serem preguiçosos e não conseguirem se sustentar, dizem que a culpa é da sociedade. Quem se esforça não passa fome nem dificuldades. Em qualquer época, há pessoas que, quando os outros têm sucesso, só pensam em derrubá-los.
+
+— Por que, por causa de um mundo corrupto, até as pessoas corretas sofrem?
+
+Não, elas não são corretas. As pessoas verdadeiramente corretas não sofrem. Como escrevi no livro, quando um malfeitor se arrepende e morre, por pensar "nunca mais farei o mal", ele renasce como alguém que não faz o mal. Muitas das pessoas corretas do mundo são assim. Se alguém for verdadeiramente sincero, com a proteção divina, não sofrerá tanto. Eu sou um exemplo, mas as pessoas que estão nesta fé há muito tempo têm bens materiais de sobra.
+
+— É permitido que uma pessoa ame duas pessoas diferentes ao mesmo tempo? Sem manifestar em atos...
+
+O pensamento é inevitável. E é melhor pensar em muitas pessoas, é a prova de que se tem muito amor. Eu mesmo tenho umas cem. Apenas pensar, pode-se pensar. Se não se manifestar em atos, não é pecado. Eu mesmo, quando vejo uma mulher bonita, sinto algo estranho.
+
+— A atuação do pensamento não é pecado?
+
+"Pensar" aqui significa "orar". É diferente de "pensar" em uma mulher bonita. "Pensar" e "sentir" são diferentes. "Pensar" é quando um ser humano se dirige a Deus e faz um pedido, uma oração. Não há "pedido" ou "oração" de um ser humano para outro. É melhor pensar bem...
+
+— Um casal que não se ama continuar vivendo junto é um grande sofrimento. Podemos receber a permissão de Deus para remover esse sofrimento?
+
+É um grande sofrimento, mas como resolver isso não é algo que os humanos possam fazer. É melhor entregar a Deus. Nesses casos, Deus é muito perspicaz. Mas, bem, os casais são unidos pelo deus protetor local, não por um ato artificial. É preciso acreditar nisso. As uniões feitas à força pelos humanos são desfeitas. Há casos em que um dos cônjuges se opõe, mas é por essa oposição que a alma é aprimorada. E quanto mais um fortalece sua fé e se eleva espiritualmente, o outro acaba o seguindo ou se afastando. No caso de se afastar, quem tem fé acaba se unindo a alguém de nível espiritual semelhante. O mesmo vale para os países; se houver inimigos ao redor, o país se desenvolve. A razão pela qual a cultura europeia se desenvolveu é essa. No Oriente, não havia isso, estavam distantes uns dos outros, então viviam tranquilamente. Consequentemente, o desenvolvimento cultural foi mais lento.
+
+— Na era dos deuses, a expressão do amor entre homens e mulheres era livre, e era possível amar várias pessoas ao mesmo tempo. Na democracia de hoje, isso não seria permitido?
+
+Isso é um pouco de egoísmo. O amor humano não é tão simples. É lamentável para quem não consegue se amar, mas eles também foram unidos por Deus... Entregar tudo a Deus e se elevar espiritualmente é a causa da felicidade.
+
+— A partir de quantos meses se deve cultuar um feto abortado? E sabonete e escova de dentes, podem ser usados de manhã e à noite, como de costume?
+
+O feto entra na categoria de ser humano a partir dos cinco meses. Portanto, deve ser cultuuado, mas não é necessário um funeral como o de um adulto. É comum conservar o feto em álcool, mas o espírito odeia isso. Muitas vezes, o espírito de um bebê morto vem e pousa no ombro da mãe, e de repente o ombro fica pesado. Sabonete, pode usar à vontade. A escova de dentes, basta de manhã. E os dentes não se estragam por causa da escova. É tudo por causa dos remédios. Ao escovar os dentes, é melhor escovar mais a gengiva do que os dentes. Se a gengiva sangrar, os dentes ficam mais firmes. A dor de dente intensa é porque o pus perfura o osso, e o pus nesse caso é quase todo remédio. Em outros casos também, a dor intensa pode ser considerada toxina medicamentosa. Meus filhos, como não tomam remédios desde que nasceram, quase não sentem dor. Os dentes tortos são porque há um nódulo de pus... um coágulo de toxina, e o dente cresce torto. Tem cura. O creme dental com muitos medicamentos também não é bom. O que Sakai fazia antigamente era bom.
+
+— Qual a causa da cavidade na tuberculose pulmonar? E o processo de tratamento da tuberculose por possessão de espírito de morto?
+
+Dizem que é uma cavidade, mas eu não concordo. Não sou médico e não quero dissecar, então não posso dizer com certeza, mas vejo como um aglomerado de toxinas. Quando se disseca o corpo de alguém que morreu de tuberculose, as toxinas se contraem e se solidificam, formando uma cavidade... Na tuberculose, o catarro e a tosse podem vir de qualquer parte do corpo. Especialmente da cabeça e da virilha. Certa vez, curei uma tuberculose tratando apenas a virilha. É porque as toxinas de todas as partes do corpo, ao se dissolverem, entram primeiro nos pulmões, se tornam catarro e são expelidas. Os pulmões são como um depósito de lixo. Os médicos não entendem isso. A tuberculose é toda fabricada pelos médicos. Por isso, a taxa de mortalidade perto de grandes hospitais é alta. Qualquer coisa que fique estagnada, com umidade e temperatura, cria germes. Portanto, a tuberculose é totalmente de geração espontânea. Se a possessão pelo espírito de um morto for recente, ele sai logo. Certa vez, minha esposa foi possuída pelo espírito de um tuberculoso e, de repente, apresentou sintomas de tuberculose em estágio avançado. Investiguei e descobri que era um certo Suzuki, que havia morrido um ano antes. Eu disse: "Vou cultuá-lo, então saia", e ela se curou instantaneamente. Quando a tuberculose se agrava e a pessoa enfraquece, o espírito possui. O espírito de um irmão também pode possuir facilmente. É porque, com a doença grave, o sangue se afina, o espírito também se enfraquece, e os espíritos de mortos conseguem possuir mais facilmente. Se se souber que é um espírito de morto, diga: "Vou perguntar agora, responda com a cabeça". E pergunte: "Você é uma pessoa morta?", "É homem?", "É jovem (ou velho)?", "Morreu de tuberculose?". Faça a pessoa se sentar em seiza. Antes, peça a Kannon-Sama: "Vou investigar agora, peço sua proteção", recite a oração para o paciente e então investigue. E ao cultuar, não basta apenas cultuar o buda; se a empregada oferecer comida no oratório, o buda não pode comer. É preciso que a pessoa responsável o faça com o coração.
+
+— O reumatismo é espiritual? E o reumatismo crônico solidificado de onze anos?
+
+Há ambos, mas o espiritual é relativamente comum. O espiritual é uma cobra que morde. É a "boca do dragão". Se estiver doendo, a cura é boa, mas os médicos colocam uma tala e solidificam, então fica como uma vara. E ainda fazem massagem. Operam, cortam tendões, drenam pus, mas se não tiver sido operado, mesmo casos graves podem ser curados. Os que estão bastante solidificados levam muito tempo, então é preciso ter paciência.
+
+**8 de setembro (quarta-feira)**
+
+— No dia 28 do mês passado, ao aplicar Johrei em Fulana, três espíritos ancestrais apareceram e disseram: "A fé de vocês é insuficiente". "Quem tem menos fé?". "Quase todos. Chamem todos". E continuaram: "Vocês não acreditam em Deus. Curvam a cabeça, mas no coração não acreditam", criticando a falta de fé da família. Parecia que estavam usando um espírito de raposa para falar, e davam a impressão de quererem ser salvos por esta fé.
+
+Sim, é exatamente isso. Eles querem ser salvos.
+
+— No dia seguinte, a mesma pessoa veio ao meu centro e, ao aplicar Johrei, ela começou a chorar, mas logo se acalmou. Juntos, recitamos a Oração Zenguen Sandji para a imagem sagrada e, ao chegarmos na parte "Yasha Ryujin mo...", a voz se tornou masculina. Na parte "Kuni to kuni to no... jinji no mimune ni idakaren", a voz ficou extremamente alta. E na parte "Daikomyo Nyorai mamori tamae...", também ficou alta. Ela se sentiu bem e disse que ia ao banheiro. Deu dois ou três passos, caiu e o espírito se manifestou, dizendo: "Sou Fulano, venho sempre a esta casa. O senhor deve me conhecer bem". E continuou: "Preciso levar esta pessoa, senão meu trabalho será prejudicado. Eu sempre gostei dela". Eu disse: "Isso é errado, pare com isso". Ele respondeu: "Sei muito bem que é errado". E ameaçou: "Então vou morrer com ela". Eu disse: "Isso não pode". Ele perguntou: "Eu perdi?", e saiu pelos pés. Pensei se esse Fulano estava vivo ou morto e, discretamente, investiguei seu pensionato. Ele estava bem e frequentando a escola.
+
+Ah, um espírito vivo a possuiu... Entrar na linha da fé é se entregar a Deus. O pensamento humano é bom, mas até certo ponto. Em geral, poucas pessoas conseguem se entregar a Deus. Quando há preocupações, eu digo "entregue a Deus". Se a pessoa conseguir se entregar, é a prova de que entrou no portão da fé, e assim alcançará a paz de espírito. E, ao se entregar, tudo dá certo. Deus também deve pensar: "Se ele confia tanto em mim, vou cuidar bem dele". Desde a antiguidade, diz-se "o coração do Buda é o coração do homem comum, e o coração do homem comum é o coração do Buda". Deus também, até certo ponto, é como os humanos. A fé superficial não adianta. Ou seja, o importante é salvar o maior número possível de pessoas. Estamos chegando ao momento final. É preciso salvar o máximo de pessoas possível.
+
+— Ao aplicar Johrei, sinto uma vontade natural de mentalizar algo. O que devo mentalizar?
+
+Em casos de possessão espiritual, é "Kakuriyo-no-Oomikami mamori tamae sakihae tamae". Em outros casos, se sentir vontade de mentalizar, é melhor se conter. Se o espírito do outro for muito forte, mentalize "Kunitokotachi-no-Oomikami mamori tamae sakihae tamae". E em situações de vida ou morte, diga: "Meishu-Sama, peço sua proteção". Nesses momentos, eu me torno o representante de Deus. Em casos de várias preocupações, "Daikomyo Nyorai mamori tamae sakihae tamae" é suficiente. Em casos de possessão, se for espírito humano, "Kakuriyo-no-Oomikami"; se for animal, como os animais temem a luz, "Daikomyo Nyorai".
+
+— Como devemos proceder com o cultivo sem fertilizantes no sopé do Monte Fuji?
+
+Bem, não é preciso mudar o método de forma especial. Quase toda a região de Kanto é de cinzas vulcânicas do Fuji. O enxofre nas cinzas é ruim para as culturas, mas com o tempo ele desaparece, então não há problema. Com as cinzas, o solo não se compacta, o que é ainda melhor. A rocha formada pela compactação dessas cinzas é o tufo. O segredo do cultivo sem fertilizantes é não deixar o solo se compactar. Se cultivado sem fertilizantes, a produção é muito boa. Aumenta. Certa vez, uma pessoa cultivou sem fertilizantes e seu pai ficou furioso, e os aldeões riram. Mas ela orou com afinco, e enquanto as colheitas dos outros apodreceram ou foram atacadas por pragas, apenas a dela foi salva. Ela veio me agradecer.
+
+— Na região montanhosa de Yamagata, cultivar pepino e berinjela traz desgraça...
+
+Isso não é verdade. Bem, não é um disparate total, mas de agora em diante, não haverá problema. Com a transição do Mundo Espiritual para o dia, as coisas mudam... O fato de as culturas se estragarem com fertilizantes também se deve a isso. Como não percebem, continuam usando fertilizantes.
+
+— A produção diminuirá no início?
+
+As sementes e o solo também estão acostumados com os fertilizantes, então levará dois ou três anos. No primeiro ano, a colheita será de dois terços; no segundo, um terço; no seguinte, também um terço; e a partir daí, melhora. Com o cultivo sem fertilizantes, o arroz, por exemplo, fica mais pesado. Um saco pesa duas ou três medidas a mais e brilha. E ao cozinhar, parece arroz glutinoso... O pior é que os fertilizantes químicos, como o sulfato de amônio e o nitrogênio, entram no arroz e, consequentemente, no corpo humano, e não se sabe o quanto isso prejudica a saúde. O mesmo vale para os vegetais. Em hortas caseiras, os amadores usam esterco, mas o resultado é pior. Com fertilizantes, as flores caem e não dão frutos, e as pragas aparecem com mais facilidade. A soja verde da minha casa não tem um grão sequer com praga. É macia, aromática e deliciosa. A produção é o dobro. Um parente meu em Kamakura cultivou pepino sem fertilizantes e colheu mais de cem de uma única planta, a ponto de não saber o que fazer com tanto.
+
+— Na região de Yamagata, às vezes, ao cozinhar o arroz da maneira usual, ele fica vermelho, e dizem que quando isso acontece, algo ruim ocorre. Qual a razão?
+
+Essa é uma questão difícil. A desgraça deve ser superstição. De qualquer forma, as pessoas de até agora sempre tiveram coisas ruins acontecendo. O arroz ficar vermelho provavelmente tem a ver com os fertilizantes.
+
+— No Santuário do Palácio Imperial, dizem que no verso de algo antigo está escrito em hebraico "Eu sou o que sou". Há alguma grande história secreta por trás disso?
+
+Ah, que interessante, é a primeira vez que ouço isso. Não diria "grande", mas deve haver algo secreto. Em geral, os ancestrais da família imperial têm alguma relação com os judeus, mas é melhor não falar muito claramente. O brasão da família imperial é um crisântema de dezesseis pétalas, e acima do "portão que não se abre", um dos quatro portões da capital de Judá, também há um crisântema de dezesseis pétalas esculpido. Diz a lenda que esse portão não deve ser aberto até a segunda vinda de Cristo.
+
+— No *Reikai Monogatari* da Oomoto, está escrito: "Kunitokotachi-no-Mikoto é João".
+
+Não que Kunitokotachi-no-Mikoto seja João, mas que ele tem a atuação de João. "Não sou digno de desatar as sandálias dele", disseram tanto Cristo quanto João, sendo humildes um com o outro. Espiritualmente, João é fogo e Cristo é água.
+
+— Por que João realizou o batismo com água?
+
+Tanto João quanto Cristo são água, mas espiritualmente são fogo. No espírito da palavra, "yo" é horizontal, água; "ha" é fogo; "ne" é a base. Basicamente é água, fogo dentro da água... A Bíblia, tanto o Antigo quanto o Novo Testamento, não conta a verdade. Até certo ponto é verdade, mas o que vem depois, ainda não é hora de revelar.
+
+O budismo também é assim; se criticarmos o budismo sem rodeios, não há o que discutir. Moisés, do Antigo Testamento, foi grande, mas a história de que ele secou o mar para atravessar é mentira.
+
+— Há uma teoria de que Cristo, na verdade, fugiu para o Japão.
+
+Sim, dizem que ele fugiu para a região de Aomori, mas foi apenas a teoria de um estudioso.
+
+— Qual a relação entre tempo, lugar e posição?
+
+O ideal é que esses três se ajustem perfeitamente ao valor da pessoa, mas até agora estava errado. Nos escritos da Oomoto, está dito: "O mundo está de cabeça para baixo...". Recentemente, a classe privilegiada caiu, e foi ao cair que finalmente encontrou seu lugar. De agora em diante, tudo será de acordo com a alma. E até agora, as pessoas que deveriam ser respeitadas estavam embaixo, e as que deveriam ser desprezadas, em cima. Isso porque, espiritualmente, não tinham tempo, lugar e posição. Pessoas de baixo nível espiritual não podem entrar nesta fé. Quem não entende, mesmo que se explique, é porque é assim, e é melhor desistir.
+
+— Se parte do terreno de uma casa era um cemitério antigo, como se deve cultuar?
+
+Se for antigo, não há problema, mas se for um cemitério recente, pode haver espíritos perdidos. Mas se se cultuar Komyo Nyorai-Sama, tudo bem. Antigamente, os locais de cemitérios costumavam se tornar áreas de entretenimento.
+
+— Em Yokohama, o local de um santuário local que foi queimado na guerra se tornou uma área de entretenimento, e há muitos incêndios.
+
+No caso de um santuário, não se deve.
+
+— Costuma-se dizer "a maldição de Konjin". Que tipo de deus é Konjin?
+
+É um espírito animal, e o "Konjin do Nordeste" é o mais elevado. Ouro é fogo, e prata é água.
+
+— Na região de Chiba, há um "Roku-san-sama".
+
+Isso tem alguma lógica, mas não é um problema. Se se cultuar Komyo Nyorai-Sama, isso não é nada. Se for afetado, visite o deus protetor local.
+
+— Por que a tribo Ainu está em estado de extinção? Qual é sua linhagem espiritual? Gostaria de lhes apresentar a fé. O que acha?
+
+Apresentar a fé é excelente. Os Ainu são caucasianos e entraram no Japão pelo norte. Além disso, pelo sul (região de Izumo, Echizen, Echigo) entraram os coreanos, e por Kyushu, a raça celestial, ou seja, os chineses. Pressionados por esses coreanos e chineses, os Ainu estão desaparecendo. Portanto, quem foi conquistado no Japão não era japonês. De agora em diante, o tempo, o lugar e a posição mudarão, e os japoneses se levantarão. A raça japonesa é um povo que absolutamente detesta a guerra.
+
+— Eu ganho a vida matando peixes de rio, coelhos e galinhas. Como devo cultuá-los?
+
+Uma vez por ano, durante o Obon, por exemplo, faça uma placa retangular de madeira e escreva "Espíritos de todos os peixes e pássaros". Coloque-a em um altar (se for um santuário, melhor ainda) e ofereça a "comida" deles. Diga com suas palavras: "Vocês fizeram o bem para os humanos", agradeça e diga: "Hoje vou realizar um culto para confortá-los". Então, recite a oração (Kakuriyo-no-Oomikami). O Obon é o dia para confortar os espíritos do inferno, então é uma boa data. Especialmente no último dia do Obon, seria bom cultuá-los.
+
+— Uma criança (seis meses de idade) nasceu com a pele do polegar contraída, e o dedo não se estica completamente. O que pode ser?
+
+É um espírito que caiu no caminho dos animais. Não sei se o Johrei pode curar. Se o espírito se humanizar, deve se curar. O lábio leporino, se for na infância, tem cura.
+
+— Qual a relação da linha espiritual com o aluno do curso que se formou através de mim?
+
+Ela se torna mais grossa ou mais fina. Mesmo as mãos e os pés, às vezes não podemos controlar. ... Às vezes, o discípulo tem uma alma superior, e é melhor que ele se separe do mestre. Em termos de relação pai-filho, é como dar à luz a um discípulo. Portanto, se ficar sempre com os pais, não crescerá. Shibui era discípulo de Nakajima, e quando ele se tornou independente, algumas pessoas se preocuparam, mas eu disse: "Não há necessidade de se preocupar. Há algum significado nisso". E hoje ele se tornou o que é. Claro, eles foram unidos uma vez pelo carma de mestre e discípulo. Certa vez, em Osaka, um mestre e seu discípulo se desentenderam e acabaram se separando e se tornando independentes. Na ocasião, o discípulo me disse: "Acho que errei ao me voltar contra meu mestre". Eu respondi: "Bem, uma filial a mais surgiu, então no fim foi bom". E ao se despedirem, eu disse: "De agora em diante, não briguem mais, sejam amigos". Mas ele continuou a brigar mesmo depois de se separar. Mais tarde, quando o mestre veio me ver, ele me disse que o discípulo havia dito: "Meishu-Sama disse que podíamos brigar". Mas eu não disse para brigar... Não posso dizer que brigar é ruim, nem que se pode brigar sempre. Como eles já se separaram, de agora em diante o mestre deve elogiar o discípulo, e o discípulo deve elogiar o mestre, e eles devem se elogiar mutuamente... Wasabi e mostarda são bons, mas não se pode comer só isso. Essas coisas devem ser usadas com moderação, dependendo da situação. Brigar também é a mesma coisa.
+
+**18 de setembro (sábado)**
+
+— Os coreanos e chineses comem muito alho. Minha experiência mostra que o efeito do Johrei neles é menor. Seria por causa do alho?
+
+Claro, mas na verdade, como seu nível espiritual é mais baixo que o dos japoneses, deveria ser mais eficaz.
+
+— O alho também solidifica?
+
+Sim, solidifica.
+
+— Por qual pecado Sarutahiko-no-Mikoto se tornou um tengu?
+
+Tengus são pessoas arrogantes e presunçosas no mundo material que vão para o mundo dos tengus. Profissionalmente, são advogados, acadêmicos, sacerdotes xintoístas, monges, etc. Tornar-se um tengu não é bom nem ruim. O mundo dos tengus é um lugar um pouco melhor que o mundo intermediário, abaixo do terceiro paraíso, e eles têm a função de proteger as montanhas. Portanto, é diferente do inferno e do paraíso, é um mundo à parte. No mundo material também há muitas pessoas-tengu, e lidar com elas é um pouco complicado. Sarutahiko-no-Mikoto não se tornou um tengu por pecado, mas por necessidade. Diz-se que ele guiou Amaterasu Oomikami, mas ele também se torna Tajikarao-no-Mikoto. Há tengus com corpo físico, e às vezes eles vivem nas montanhas, vivendo centenas de anos, um pouco como eremitas.
+
+— Sobre a relação entre o plano noturno de Susanoo-no-Mikoto, a medicina ocidental, a maçonaria e o comunismo...
+
+Há uma grande relação... Significa que Susanoo-no-Mikoto foi possuído pelo espírito de um deus maligno. Escrevi um pouco sobre isso em *Ashita no Ijutsu*. Mas Susanoo-no-Mikoto já entendeu e fez o que fez...
+
+— No hino, lemos: "O que aos olhos do homem comum parece bom, pode não ser do agrado de Deus". Como membros da fé, a que pontos devemos prestar atenção?
+
+Aos olhos humanos é diferente. O comunismo, por exemplo, pode parecer correto aos humanos, mas Deus não pensa assim... Mas também há vários tipos de deuses. Um deus de primeira classe diria que o comunismo é necessário, enquanto um de segunda classe diria que é ruim. Mesmo em coisas comuns, há muitas coisas que parecem boas aos humanos, mas não aos olhos de Deus. As pessoas que estão sendo julgadas como criminosos de guerra, durante a guerra, todas pensavam "estou fazendo a coisa certa". Por isso, quando perguntados sobre sua culpa, todos alegaram "inocência". Eles não pensavam "eu cometi um crime"... A linha divisória entre Deus e o homem é a visão ampla e a limitada. Por exemplo, a ideia de que apenas o Japão deve prosperar e os outros países não importam é uma visão limitada e má. Se não for para a felicidade de toda a humanidade, é mal. Durante a guerra, eu nunca disse "lealdade ao soberano e amor à pátria". Porque se os japoneses fossem leais e patriotas, e seus oponentes, os coreanos e chineses, também fossem, seria um desastre. Felizmente, eles não eram tão leais e patriotas, então ainda foi bom... Claro, dependendo da hora e do lugar, a visão limitada pode ser mais necessária que a ampla. Mas mesmo nesses momentos, deve-se ter a visão ampla como base e pensar na limitada, e julgar com base no bom senso. Aí se consegue a união da visão ampla e da limitada. A limitada é vertical, e a ampla é horizontal, então a união da vertical e da horizontal se completa. Recentemente, em uma carta do General MacArthur no aniversário da assinatura da rendição no Missouri, ele disse: "O Japão é o lugar onde as culturas do leste e do oeste se fundem", e é verdade. O vermelho no centro do distintivo que todos usam representa o Japão, e a forma representa a união do vertical e do horizontal... Hakone é a divisa entre o leste e o oeste, e o centro de Hakone é o Monte Kami. Por isso, este Soun-ryo também deveria ser construído no topo do Monte Kami, mas como não é possível, foi construído aqui. E isso também tem o significado de união vertical e horizontal. E a antiga Tamagawa Kaminoge também ficava no meio de Tóquio (vertical) e Yokohama (que se abre horizontalmente)... Agora, construirei uma casa em Atami, depois em Odawara, e depois em Beppu. A partir daí, será o exterior. E também, construirei uma mansão em estilo ocidental dentro da Higashiyama-so e viverei um estilo de vida ocidental lá.
+
+— Qual o significado de Sapporo em Hokkaido no espírito da palavra?
+
+Sapporo é uma palavra ainu. Por ser ainu, é diferente do japonês. Os caracteres também são apenas fonéticos. Não há necessidade de interpretar o ainu, certo?... Nas línguas estrangeiras também há o espírito da palavra. América, Washington, Lincoln, etc., também têm. Mas isso se torna outra disciplina. Basta saber o japonês. O espírito da palavra se manifesta bem no japonês. O japonês tem setenta e cinco sons, enquanto o inglês tem menos de cinquenta e muitas semivogais. Mesmo do ponto de vista do espírito da palavra, o Japão é superior, mas vamos nos abster de nos gabar.
+
+— Seria bom escolher lugares com nomes propícios para a difusão da fé?
+
+Pelo contrário. É melhor escolher os de nomes ruins. O correto é levar a fé a lugares ruins e sujos e purificá-los.
+
+— Mas acredito que os lugares de nomes ruins dão mais trabalho...
+
+Nem sempre. Pelo contrário, os deuses malignos podem até negligenciar os lugares ruins. Tóquio, em espírito da palavra, é bom, mas é o lugar mais impuro e o covil dos deuses malignos. E mesmo que se escolha um nome de lugar, a escolha é feita por Deus, que faz os humanos agirem, não é algo que os humanos façam por conta própria. E quando chega a hora de abrir um certo lugar, surge a necessidade de que essa pessoa vá para lá. Deus cria alguma necessidade e faz com que essa pessoa vá para aquele lugar.
+
+— Ouvi dizer que a região de Izumo é difícil de abrir...
+
+Izumo é a base de Susanoo-no-Mikoto, o deus da lua, então ele detesta o dia. As pessoas de lá também são do clã de Izumo, da linhagem de Susanoo-no-Mikoto, de ascendência coreana.
+
+— Recentemente, muitos estudantes da Ichiko se abriram.
+
+Sim, a hora chegou no ano passado. A Oomoto abriu Izumo. Onisaburo Deguchi é a manifestação de Susanoo-no-Mikoto.
+
+— As terapias espirituais de até agora solidificam ou lavam?
+
+São as duas forças. Ou seja, as pessoas da linhagem da água assumem a doença do outro. A minha queima com fogo. A Tokumitu-kyo de Tokuiti Miki era totalmente de assumir. Por isso, uma vez por mês, eles pediam a Deus que assumisse o fardo.
+
+No fim, o método da linhagem da água, em vez de dissolver de verdade, transfere. Remove a mácula. Mas como a toxina é uma mácula, em certo sentido, pode-se dizer que dissolve a toxina.
+
+— E o de Cristo?
+
+Ele removeu os espíritos malignos que estavam possuindo com seu espírito. Por isso, a paralisia, por exemplo, se curava muito rápido. Tokumitu Kaneda, o mestre de Tokuiti Miki, era uma pessoa muito notável, mas sofreu uma terrível opressão das autoridades da época. Ainda hoje, parece que a Tokumitu-kyo tem uma presença considerável em Osaka. As terapias de fé que assumem a doença de outros foram muitas e variadas, mas à medida que o Mundo Espiritual se torna dia, elas se tornam impossíveis. A Tenrikyo também é assim. O maior expoente do método de assumir a doença de outros é Cristo; afinal, ele redimiu os pecados de toda a humanidade.
+
+— Podemos considerar que Meishu-Sama perdoa os pecados?
+
+Na verdade, sim. Mas se isso fosse sabido pelas autoridades no passado, teria sido um grande problema.
+
+— Na região de Yamagata, os membros da Reiyukai estão dizendo: "Kannon-Sama se manifestará em 1950, então vamos fazer membros até lá".
+
+1950 é o ano da grande purificação...
+
+— Há casos em que pessoas que receberam a Luz, mas se afastaram da fé, parecem ter seus problemas de saúde resolvidos. Qual a razão?
+
+Isso, em uma palavra, é inércia. Pode funcionar por um tempo, mas eventualmente não dará certo. Claro, os deuses malignos estão atuando.
+
+— O poder de Kannon-Sama, vindo do Ohikari, passa pelo cordão, entra no corpo e sai pela mão. Podemos pensar assim?
+
+Não é assim. A luz, através da linha espiritual, vai para o próprio Ohikari, entra nele e então sai pela mão. O cordão pode ser de metal, não há problema. O importante é usá-lo no pescoço. Durante a guerra, no exército, como o Ohikari era confiscado quando se ficava nu, as pessoas o colocavam na faixa da barriga, mas isso era por circunstâncias inevitáveis. Se não houver tais circunstâncias, não se deve fazer isso por conta própria. No verão, como se anda com menos roupa, pode-se usá-lo na diagonal, sob a axila.
+
+— Do ponto de vista do "elemento", como devemos pensar a eletricidade e o magnetismo?
+
+Elétrons e magnetismo não são claros. No século XVIII, na França, surgiu a terapia magnética, que postulava que o corpo humano emite magnetismo. Ela se espalhou para a Alemanha e teve um grande desenvolvimento por um tempo. Nesta fé também, na época da terapia, havia quem dissesse que o magnetismo saía das mãos. Há também quem fale em eletricidade humana. O magnetismo pode ser visto como uma forma de eletricidade. Os estudiosos chamam de magnetismo o que não entendem. A tempestade magnética é um exemplo. No próximo livro, explicarei sobre elétrons, átomos e partículas espirituais.
+
+— O jornal de outro dia noticiou que para ter uma audiência com o abade da seita Nitiren no Monte Minobu, custa três mil ienes por minuto.
+
+Estabelecer um preço por tempo de audiência não é atitude de um religioso, mas de um artista. O budismo hoje está em apuros por falta de receita. Há alguns dias, ouvi dizer que o número de monges no templo Soji-ji em Tsurumi diminuiu em dois terços. O motivo é que eles não conseguem se sustentar e estão se "auto-expulsando"... ou seja, abandonando o sacerdócio.
+
+— Comparado a isso, ter a oportunidade de ter esta audiência com Meishu-Sama é uma grande honra.
+
+Sim, talvez esteja um pouco barato demais. Mas tudo bem. Ainda estamos em fase de divulgação.
+
+**28 de setembro (terça-feira)**
+
+— Se o espírito tem individualidade, por que, ao reencarnar, não se lembra da vida passada?
+
+É melhor não saber. Não se deve saber. Se se soubesse "eu fui tal pessoa", seria um obstáculo. É como não saber a própria expectativa de vida. Porque se pensa que se vai viver para sempre é que se consegue trabalhar. Se se soubesse que a vida termina em tal ano, tal mês, não se conseguiria trabalhar. A própria alma não sabe sobre a vida passada. Se soubesse, acabaria dizendo "aquele ali foi meu servo na vida passada". Mas com uma certa percepção espiritual, pode-se saber. Eu mesmo tenho várias figuras históricas que acredito ter sido. Já fui até imperador. Foi o Imperador Ojin. Quando abri o centro de terapia em Kojimachi, chamei-o de "Ojindo". Korin Ogata e Yoshitsune também. Nasci muitas vezes. Korin, por exemplo, eu amava tanto que, quando me dedicava à arte, chamei meu ateliê de "Korindo" sem pensar. "Ogata" e "Okada" têm uma ligação.
+
+— Sobre a relação entre a individualidade humana e a do espírito...
+
+Há uma continuidade. A individualidade humana é a manifestação da individualidade do espírito. Mas, à primeira vista, parece diferente. Isso se deve aos pais e ao espírito animal da pessoa. A dupla personalidade é isso.
+
+— Há pessoas que, mesmo durante uma conversa, mostram uma faceta diferente...
+
+É o espírito guardião principal e o secundário se alternando. A dúvida é isso. As pessoas de hoje têm a alma quase toda obscurecida, então o espírito secundário vem para a frente. E aí cometem erros. E fracassam e se arrependem. Por isso eu digo "a vida é uma sucessão de arrependimentos". À medida que a mácula é removida, a alma brilha e o julgamento se torna preciso. O ser humano é bem feito; ao fracassar e sofrer, a mácula vai sendo removida gradualmente.
+
+— Poderia me falar sobre o espírito da palavra "Messias"?
+
+"Messias" é uma palavra hebraica, então é um pouco difícil de entender em japonês. Significa salvador. Os cristãos acreditam que Cristo é o salvador, mas na verdade ele é o redentor, o que é muito diferente de salvador. É aquele que redimiu os pecados de todos, que se tornou o representante do pecado e, ao sacrificar sua vida, foi perdoado. O salvador, por outro lado, não é perdoado, mas perdoa. Bem, falarei sobre isso à medida que o tempo avançar.
+
+— Ouvi dizer que o Mundo Invisível é governado por Ookuninushi-no-Mikoto, e o Mundo Visível por Kunitokotachi-no-Mikoto. Quem governa o Mundo Divino?
+
+Kunitokotachi-no-Mikoto não está governando. Ele está realizando a grande purificação, mas o que vem depois, ainda não posso dizer. O Mundo Invisível é de Ookuninushi-no-Mikoto. O deus que governará o Mundo Divino ainda será decidido.
+
+— O Deus Supremo engloba tudo isso?
+
+Sim, é Ame-no-Minakanushi-no-Oomikami. Ele não muda. Mas o governo do deus com individualidade ainda não foi estabelecido. Por isso, nenhuma religião até agora governou o mundo.
+
+— Diz-se que o bem e o mal são inseparáveis. Podemos pensar que o bem é o principal e o mal, o secundário?
+
+Sim, por enquanto, pensem assim.
+
+— Para buscar o caminho, acredito que o inferior só pode se elevar através do superior...
+
+Sim, em geral é assim.
+
+— Para me iluminar, mesmo que eu tente várias coisas por conta própria, sinto-me inseguro...
+
+Isso é porque é subjetivo, não se pode saber. Nesse caso, Deus observa objetivamente. Então, o melhor é fazer o seu melhor e esperar. É bom almejar a elevação, mas se tentar fazê-lo em pouco tempo, vira ansiedade, e com a ansiedade, em vez de se elevar, aproxima-se do inferno, do caminho da guerra.
+
+— Acredito que, se não houver quem me guie, não serei salvo.
+
+A orientação é força alheia, e o esforço próprio pela elevação é força própria. Deve-se seguir com ambos. Apenas com a força alheia se pode ser salvo, mas a força própria também é necessária. A seita Nitiren é apenas força própria, e isso leva a uma espécie de inferno da fé. Por isso, fazer o seu melhor e esperar é o ideal.
+
+— Toyokumono-no-Mikoto é da linhagem da água?
+
+Sim. Junto com Kunitokotachi-no-Mikoto, eles se tornam o sol e a lua. Kunitokotachi-no-Mikoto é o vertical, e Toyokumono-no-Mikoto é o horizontal. Toyokumono-no-Mikoto se manifestou em Susanoo-no-Mikoto... bem, é um descendente.
+
+— Sobre a linhagem espiritual do islamismo e seu Deus único, Alá...
+
+Islamismo é o maometismo. Na Índia, chama-se islamismo. É Israel, e a raiz é a mesma do cristianismo. Alá é o Deus supremo; no cristianismo seria Jeová, e no Japão, Ame-no-Minakanushi-no-Oomikami... Deus pode rebaixar seu status dependendo do lugar. Alá é o nome invocado na região da Arábia, mas como a cultura lá é baixa, pode-se dizer que ele salvou com um status divino mais baixo.
+
+— O fato de terem uma mão no Alcorão e outra na espada...
+
+Até agora, como não era a hora, Deus não podia manifestar seu poder plenamente. No mundo da noite, havia apenas a luz da lua, então, por necessidade, eles pegaram a espada e conquistaram as quatro direções em nome de Deus.
+
+— Podemos pensar que, por Deus ter rebaixado seu status, os deuses malignos se aproveitaram?
+
+Sim, podemos pensar assim.
+
+— A interpretação espiritual do cretinismo (nanismo)...
+
+Isso não é espiritual, mas uma deficiência na função necessária para o crescimento humano. Mas a partir daí, torna-se espiritual. Alguém que morreu por uma pancada na cabeça na vida passada e reencarnou com a purificação incompleta no Mundo Espiritual terá a função de crescimento da cabeça prejudicada. E as causas do não desenvolvimento de uma criança são: quando o espírito de um bebê que morreu a possui, quando um deus-dragão a possui... neste caso, principalmente os pés não se desenvolvem... e quando se recebe muitas injeções após o nascimento. São basicamente essas três.
+
+— Poderia me instruir sobre o significado das palavras do "Canto dos Números Celestiais"?
+
+Esta é a ordem da criação do céu e da terra. Basicamente, sete é a conclusão; sete é "se tornar". Oito é o crescimento e o desenvolvimento. Um é o Deus único, que se divide em yin e yang (dois), daí nasce um filho (três), e se expande para as quatro direções (quatro), o fogo queima (cinco), a água se forma (seis), e com isso a conclusão (sete). O cristianismo, por ter sido criado em sete, tem o domingo como dia de descanso. Nove é o "ápice", o ponto extremo, e agora estamos no mundo do nove. Dez é a união, e onze é o começo. O "Canto dos Números Celestiais" representa a ordem da criação do céu e da terra com números. Ao recitá-lo, no Mundo Espiritual, a ordem... se torna força de atividade. Ou seja, o poder e a virtude de Deus manifestam sua força através do espírito da palavra da ordem. Recite-o de forma agradável e lenta.
+
+— Qual o significado do *Antigo Testamento*?
+
+Basicamente, as religiões têm duas partes: a nova e a antiga. O Novo Testamento é horizontal, e o Antigo é vertical. O *Antigo Testamento* é um livro de profecias, escrito de forma alegórica. Por isso, não pode ser interpretado literalmente. Para a época do Antigo Testamento, ele era bom. Hoje, não tem tanto valor. É difícil ser salvo por ele... As religiões estabelecidas estão cada vez mais distantes da era atual. Estão muito separadas da vida e do pensamento modernos. Eu acredito que a única que progrediu a ponto de orientar a era moderna é esta organização. Por isso, muitos jovens estão entrando.
+
+— Dizem que Kannon-Sama é Maria...
+
+Chamam de Maria Kannon, comparando Maria a Kannon, mas isso não é totalmente um disparate, nem totalmente verdade... Mas, bem, pode-se chamar de Maria Kannon.
+
+— Mesmo quem não entrar na Igreja Kannon poderá sobreviver à grande purificação?
+
+Sim, muitos. As pessoas sinceras serão todas salvas. Mesmo quem está na organização, se estiver errado, não será salvo. Há várias religiões, mas não depende da forma da religião, e sim da alma. Deus é justo... Nesta organização, entende-se muitas coisas, e a possibilidade de se tornar uma pessoa correta é maior. Pensem nesse sentido.
+
+— E quando uma pessoa sincera se depara com a grande purificação?
+
+Há pessoas notáveis entre os cristãos e budistas, e elas serão salvas. Bem, os membros desta organização, talvez oitenta por cento; de outras religiões, talvez sessenta por cento.
+
+— Para o corpo humano, o arroz integral ou o branco é melhor?
+
+O arroz semipolido é o melhor. O integral é ruim e os humanos não estão acostumados, e o estômago e os intestinos não estão preparados. O branco tem seus componentes removidos em excesso, então o semipolido é o ideal. Claro, o branco também não há problema, mas é mais fácil de causar beribéri... Mais importante que isso é o dano dos fertilizantes químicos. A nutrição também é muito diferente.
+
+— Diz-se "arte de ler os selos". A forma do carimbo afeta o destino?
+
+Sim, afeta. Assim como a forma dos túmulos, o carimbo também tem uma relação considerável. O selo representa a confiança, os acordos comerciais, partes ativas da vida humana, então é natural que seus caracteres e forma influenciem o destino. O lado espiritual da atuação humana é muito sutil... Mas, em relação à sorte, quando se entra na fé, as coisas mudam. O interessante é que, mesmo consultando um leitor da sorte, ao entrar na fé, o resultado se inverte. Eu também já consultei "Akaryushi", e ao fazer o contrário, deu tudo certo. É porque a "sorte" até agora foi estudada apenas do ponto de vista físico. A adivinhação pelo nome também é assim. Ao entrar na fé, o domínio não é mais físico, mas espiritual, por isso o resultado se inverte. Há pessoas que se preocupam com a direção da mudança, mas isso não existe. Há dias auspiciosos para o casamento. Os números são muito misteriosos. O casamento é a união do yin e do yang, então os dias de união, sete, dez, onze, são muito bons. Vinte e um, com o significado de "dois se unem e começam", é excelente. Para começar, oito é bom, e cinco é "sair", o que é bom. Izu é "sair", e a península de Izu é importante.
+
+— Pode haver uma maldição ao matar uma cobra?
+
+Claro. Ela se vinga... Se eu encontrar uma cobra, mando matá-la e enterrá-la onde as pessoas não pisem. Recito a oração e digo "que na próxima vida você possa nascer como um ser humano". Ela se alegra ao ser morta. Por isso, depois de cultuá-la, eu mesmo me sinto bem. Isso porque a cobra se considera feia e quer que sua vida termine logo. Muitos se tornaram cobras por apego humano, e matar esses traz maldição. A cobra-rateira que vive em casas antigas não deve ser morta, é um espírito ancestral... Além da cobra-rateira, vocês podem matar e cultuar. E os sapos-cururus também costumam ser possuídos por espíritos.
+
+**8 de outubro (sexta-feira)**
+
+No anexo de Atami.
+
+— Este é o arroz colhido no segundo ano de cultivo sem fertilizantes (mostra o produto). Pesa vinte *monme* (aprox. 75g) a mais por medida, e um saco, duas ou três medidas a mais.
+
+A partir do quarto ano, a produção aumenta. Com o cultivo sem fertilizantes, em primeiro lugar, as flores não caem. A altura é um pouco menor, mas o caule é mais grosso. Com fertilizantes, a planta enfraquece e o caule se quebra com o vento. A aparência é imponente, mas... Gradualmente, se não passarmos para o cultivo sem fertilizantes, não dará certo. O grande número de pragas recentemente também se deve aos fertilizantes. Sem fertilizantes, na verdade, não dá trabalho. Se usarmos pesticidas, os insetos morrem, mas o solo também morre junto. Não se pode usar o veneno sem que ele atinja o solo...
+
+— E as frutas?
+
+São ótimas, tudo... De qualquer forma, usar remédios enfraquece. Os humanos também, ao tomar remédios, ficam muito fracos. E se usarmos fertilizantes químicos, o arroz os absorve, e os humanos o comem, então o corpo fica muito fraco... As frutas também são o mesmo, mas o solo ao redor das raízes não deve ser compactado. É bom cavar ao redor das raízes durante o inverno e afofar o solo. Na primavera, as raízes finas absorvem os nutrientes e a planta cresce... O composto orgânico pode ser usado. Coloque-o no local cavado. Folhas de grama são melhores para o composto. As folhas de árvore têm fibras duras, então, em um campo, coloque uma camada de cerca de trinta centímetros de folhas de grama sob o solo, e mais uma camada de trinta centímetros de folhas de árvore abaixo disso. O composto é bom porque gera calor e aquece. Peixe podre e fezes de galinha também são muito ruins. Folhas e grama são naturais, certo? Existem por aí, e essa naturalidade é que é boa. As ervas daninhas crescem bem, não é? É porque não têm fertilizantes... Aquecer a água para os campos de arroz é excelente. Deixar a água em um lago não é bom. Ela esfria. É melhor deixar a água correr bastante ao sol antes de levá-la ao campo. Cinzas de madeira e palha também é melhor não usar. Cinzas não caem do céu, certo? O calcário usado como fertilizante também é cinza, a diferença é só entre madeira e pedra... Claro, mesmo cultivando sem fertilizantes, a melhoria é necessária. O arroz, por exemplo, quando Deus o criou, uma espiga tinha cerca de cinco grãos. Hoje, tem cerca de trezentos. À medida que a população aumenta, o número de grãos de arroz também aumenta. Hoje, o Japão não produz arroz suficiente para se alimentar, mas na verdade deveria produzir. O fato de não produzir significa que se está fazendo algo que impede a produção, algo errado.
+
+— Se for proporcional à população, com a grande purificação e a diminuição da população, a produção de arroz também diminuirá?
+
+Bem... o arroz não diminuirá. As terras serão usadas para outros fins, ou o arroz será usado de outras formas, como exportado para países com pouca produção. Como diz a oração, "os cinco grãos amadurecerão e encherão os celeiros...".
+
+— Poderia me falar sobre a origem e o significado do culto conjunto do Santuário Interior e Exterior de Ise?
+
+O Santuário Interior cultua Amaterasu Oomikami, e o Exterior, Toyouke-no-Myojin. Amaterasu Oomikami se interessava muito pela alimentação e ordenou a Toyouke-no-Myojin que distribuísse arroz por todo o país. Naquela época, a divindade usou raposas para a distribuição. "Inari" vem de "carregar arroz", e ela foi cultuada por esse mérito. Por isso, Inari deveria ser cultuado pelos camponeses. O fato de hoje ser cultuado por gueixas e prostitutas é porque a raposa se degenerou. Claro, os santuários de Inari comuns também cultuam uma parte do espírito de Toyouke-no-Myojin, mas a raposa se tornou mais forte e o poder do espírito divino enfraqueceu, perdendo o controle. E como, no mundo da noite, Amaterasu Oomikami estava retirada, a raposa se tornou ainda mais forte. O Inari de Toyokawa, por exemplo, passou a cultuar Dakiniten, que é a raposa de nove caudas de pelo dourado.
+
+— O "eu" que pensa pertence ao espírito principal, ao secundário ou ao guardião?
+
+A base do pensamento é o espírito principal, mas o secundário também mistura seus pensamentos. Nesse caso, se o principal for forte, a pessoa faz o bem; se o secundário for forte, faz o mal. Hirasawa, por exemplo, na hora do crime, se tornou apenas o espírito secundário... O inspetor Horisaki recebeu o Ohikari em março deste ano, e quando aplicou Johrei na cabeça de Hirasawa, ele derramou lágrimas e logo confessou. É porque o espírito secundário diminuiu um pouco, e ele se tornou mais humano, ou seja, o coração de Buda aflorou. A consciência brilhou. Portanto, fui eu quem resolveu o caso do Banco Teigin. Em breve, o inspetor Horisaki e o chefe Fujita virão me agradecer... O ser humano está sempre em dúvida, e isso é a atuação de ambos os espíritos. Portanto, o meio-termo entre os dois se torna o pensamento humano. Claro, o espírito principal deve sempre prevalecer... Quando se vê uma esposa bonita, pensa-se "que sorte de quem se casou com uma mulher tão bonita", e quando se vê uma moça bonita, quer-se casar. "Pensar" não é problema, e todos "pensam". É a atuação do espírito secundário. Mas reprimir isso e não deixar que se transforme em ação é o papel do espírito principal. Pensar, o pensamento, é livre e bom. O cristianismo diz que "pensar" assim é pecado, mas isso é muito rígido. Mas se se pensar constantemente, o sentimento se transfere, e isso se torna apego, o que não é bom.
+
+— Sobre o carma da redenção de Jesus e Amida...
+
+Tanto Jesus quanto Amida são da linhagem da lua, mas Amida não redimiu. Amida é Tsukuyomi-no-Mikoto, e Jesus é Susanoo-no-Mikoto. Quando a lua brilha, é a atuação de Amida; Susanoo-no-Mikoto é o mundo da escuridão. Susanoo-no-Mikoto é um deus notável, mas foi derrotado por um deus maligno e cometeu o mal. Ele agiu com violência no Japão e foi exilado por Izanagi-no-Mikoto, indo para o exterior. Esse lugar era a Judeia, e lá ele teve doze filhos, e de um deles nasceu Cristo, que redimiu o pecado de seu ancestral cometido no Japão.
+
+— Quando um fiel de outra religião entra na fé, sua crença anterior se torna um obstáculo. O que se deve fazer?
+
+Deve-se deixar como está. É como um tingimento; se for bem tingido, leva tempo para descolorir. A religião é uma questão de pensamento, de alma, então leva um tempo considerável para mudar. Bem, em vez de se preocupar com a descoloração dos outros, é preciso se preocupar com a sua própria... com a auto-reflexão.
+
+— Atualmente, os pinheiros de todo o país estão morrendo. Qual o significado disso?
+
+A morte dos pinheiros tem um significado. Seis ou sete anos atrás, eu estava dirigindo pela costa de Oiso e Fujisawa e vi muitos pinheiros mortos. E disse: "Isso é um mau presságio para o Japão, um sinal de que algo acontecerá ao imperador". O caractere de "pinheiro" é "árvore" e "público", significando "rei das árvores", e tem relação com a família imperial. Como o imperador agora caiu para uma posição inferior, os pinheiros estão morrendo até certo ponto. O primeiro foi o pinheiro de Karasaki, perto do Lago Biwa, que morreu. Percebi então que "algo está acontecendo". Mesmo em casa, se uma árvore morre, algo acontece. Se for um pinheiro, tem a ver com o dono da casa; se for outra árvore, com seus parentes.
+
+Se o banheiro estiver na direção do portão demoníaco, deve ser reconstruído, mas morar em um lugar assim é porque o espírito da pessoa é baixo. Se não for possível reconstruir, deve-se esforçar para elevar o próprio espírito. Se o espírito se elevar, naturalmente se mudará para um lugar melhor. Pode parecer incerto, mas este é o método absoluto.
+
+— E quando há um relacionamento amoroso entre ministros?
+
+Se forem solteiros, podem se casar. Se os pais se opuserem, devem fazer um acordo e esperar o momento certo. Deus cuidará de tudo.
+
+— E quando os filhos desejam se casar com alguém da fé e os pais se opõem, ou quando o amor é tão intenso que se cogita até o suicídio duplo?
+
+Ah, aí está. Mesmo que se unam à força, se houver o ressentimento dos pais, será difícil. Por isso, é preciso esperar. Deus fará os pais entenderem... O amor é uma relação entre os espíritos secundários. E, embora seja feliz durante, torna-se a causa do sofrimento mais tarde. Por isso, é preciso sempre se auto-analisar para saber se esse amor é legítimo ou não. Se continuar essa relação sem essa análise, acabará se tornando pecado. Se, mesmo após a auto-análise, parecer legítimo, deve-se casar. Mas se os pais se opuserem, deve-se ter paciência e esperar.
+
+— Quando não se pode entronizar a imagem sagrada no segundo andar, pode-se fazê-lo no térreo?
+
+Se o *tokonoma* do térreo e o do segundo andar estiverem um sobre o outro, tudo bem, mas se o segundo andar for usado por pessoas, seria desrespeitoso. Isso também, como o banheiro no portão demoníaco, é porque o espírito da pessoa que mora lá é baixo.
+
+A imagem de "Komyo Nyorai" é um objeto sagrado, mas a que eu escrevi antes, "Komyo", é apenas a luz, não um objeto sagrado, então não precisa ser reverenciada.
+
+**18 de outubro (segunda-feira)**
+
+— No *Evangelho do Paraíso*, li que o espírito de uma moça que morreu de tuberculose se tornou um anjo e veio aconselhar seu irmão. Um espírito que morreu de doença também pode se tornar um anjo? E foi porque Meishu-Sama o cultuou?
+
+Espíritos que morreram de doença, se forem crianças ou virgens, se tornam anjos com muita facilidade, porque têm pouca impureza. Especialmente se eu os cultuar, são salvos imediatamente no paraíso. Para uma pessoa comum, não é tão fácil, mas se um fiel desta fé cultuar, a salvação será muito mais rápida do que se um fiel de outra religião o fizesse. E mesmo que morram de doença, no Mundo Espiritual a cura é muito mais fácil.
+
+— E as pessoas que fizeram o mal nesta vida?
+
+São salvas pelo Johrei. Mas se o pecado for grave, vão para o inferno; se for leve, ficam no *yachimata*. Há alguns que, mesmo indo para o inferno, não se arrependem. Esses vão para o inferno mais profundo. Hirasawa irá para o inferno do frio extremo.
+
+— Entre os espíritos do inferno e os do paraíso, quais reencarnam mais rápido?
+
+Os que têm mais apego a este mundo nascem mais rápido... Há pessoas que se alegram com o outro mundo
+
+---
+
 # Coleção de Teses do Mestre Jikan Okada – Salvar a América (Publicado em 1º de janeiro de 1953)
 
 **Categoria:** sasshi | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** -
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1953-01-01
+**Coletânea:** - | **Fonte (JP):** -
 
 ## Coleção de Teses do Mestre Jikan Okada – Salvar a América (Publicado em 1º de janeiro de 1953)
 
@@ -1361,1014 +2950,6 @@ Mas eu fui salvo, compreendi o grande erro em que vivia e recebi o ensinamento d
 Com todo o respeito, agradeço. Peço desculpas pelo atraso no relatório. Poder trabalhar com saúde hoje parece um sonho. Lembro-me de que, há dois ou três anos, eu tinha problemas nos rins. Se me cansava um pouco, meu rosto inchava, minhas pernas ficavam pesadas, e eu me sentia muito mal.
 
 No final do ano retrasado, meu rim direito começou a doer de repente. Eu não conseguia ficar de
-
----
-
-# — Coleção de Teses do Mestre Okada Jikanshi —
-
-**Categoria:** sasshi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu 第一編
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1943-02-05
-
-## — Coleção de Teses do Mestre Okada Jikanshi —
-## Ashita no Ijutsu, Primeiro Volume (Reimpressão)
-Publicado em 5 de fevereiro de 1943
-
-### Introdução
-
-Aos que se debruçam sobre esta obra, desejo de antemão fazer uma advertência: dentre todos os livros que porventura tenham lido – e ouso dizer, dentre todos os volumes já publicados no mundo inteiro até os dias de hoje –, creio que não encontrarão tese tão espantosa e inimaginável quanto a que apresento nestas páginas. Poderá haver quem a considere uma heresia ou uma doutrina maligna.
-
-Talvez isso nos remeta ao início do século XVI, quando o polonês Copérnico, pai da teoria heliocêntrica, tentou publicar sua obra que revolucionaria a astronomia. Ciente de que em sua pátria a permissão seria sumariamente negada, confiou o manuscrito a um jovem discípulo alemão. Mesmo na Alemanha, o risco era iminente, e a única forma de viabilizar a publicação foi acrescentar no prefácio a ressalva de que se tratava de uma “obra de ficção”. Da mesma forma, seu sucessor, o titã das ciências naturais, Galileu Galilei, foi convocado pelo Tribunal da Santa Inquisição e, submetido a torturas, viu-se forçado a abjurar de suas convicções sobre a rotação da Terra – um fardo insuportável para um ancião de setenta anos. Naquela época, o telescópio que Galileu construíra era chamado de “instrumento do diabo”, e as pessoas, temerosas, sequer se aproximavam dele. Vistos de hoje, tais episódios soam quase cômicos, difíceis de acreditar. Assim, a história nos mostra que novas teorias que subvertem o conhecimento estabelecido e descobertas que desafiam as expectativas humanas são frequentemente recebidas com incompreensão, e seus autores, tratados como insanos.
-
-Em minha jornada, ao longo de mais de duas décadas dedicadas a um método de tratamento de doenças alheio à medicina convencional, deparei-me com um fato de tal magnitude que me deixou estarrecido. Trata-se de uma verdade crucial e lamentável, da qual não tenho notícia de que alguém, em qualquer parte do mundo, já tenha se apercebido.
-
-Contudo, refleti: a descoberta de uma verdade de tamanha envergadura não poderia ocorrer sem uma razão maior. E que razão seria essa, senão a Vontade Divina, indicando que chegamos a um “tempo de crise” e que este conhecimento deve ser universalmente revelado à humanidade?
-
-Permitam-me, neste ponto, relatar minha modesta trajetória. Minha formação acadêmica é bastante limitada. Aspirei ser pintor e ingressei no curso preparatório de uma escola de belas-artes, mas fui obrigado a abandonar os estudos prematuramente devido a uma enfermidade ocular. Decidi, então, tornar-me um homem de negócios e, por um tempo, obtive algum sucesso, mas acabei por sofrer um grande fracasso. Em meio ao desespero e à angústia, e impulsionado pelo desejo de solucionar minha constituição naturalmente frágil, voltei-me para o caminho da religião. Desenvolvi um profundo interesse pelo estudo do espírito e a ele me dediquei de corpo e alma. Foi então que compreendi a relação entre as doenças e o Mundo Espiritual. Aprofundando minhas pesquisas, acabei por criar um método de tratamento singular. Mais importante, porém, foi descobrir que a doença e suas causas residem em um lugar absolutamente inesperado.
-
-Quanto mais clara se tornava essa compreensão, mais evidente se mostrava sua oposição às teorias da medicina moderna. Por divergir por completo das políticas governamentais, que se baseiam na medicina ocidental, decidi abandonar a prática de tratamentos.
-
-Todavia, na época em que me dedicava a essa atividade, a taxa de cura que alcançava era verdadeiramente assombrosa: posso afirmar, com segurança, que atingia os noventa por cento. A demanda era tamanha que uma multidão se formava diariamente à minha porta, e o esgotamento físico tornou-se um dos motivos que me levaram a cessar o trabalho. Ao mencionar uma taxa de cura de noventa por cento, sei que poucos acreditarão, especialmente os especialistas da área, que certamente acharão o número inverossímil. Contudo, se eu fizesse tal afirmação enquanto ainda estivesse em atividade, poderiam pensar que se tratava de mera propaganda. Agora, afastado de tudo, desfruto de dias tranquilos e não tenho qualquer necessidade de promover-me. Sendo assim, qual a razão para eu ter alcançado uma taxa de cura provavelmente sem precedentes no mundo? A resposta é simples: porque conheci a verdadeira causa das doenças e atuei diretamente sobre ela. E isso sem utilizar medicamentos ou instrumentos, apenas com a técnica de meus dedos e palmas das mãos. Reitero que não há o menor exagero no efeito que descrevo.
-
-Hoje, afirma-se que a medicina progride de forma notável. Todos os povos civilizados acreditam nisso sem a menor hesitação, e tanto governos quanto cidadãos baseiam-se nela para estabelecer suas políticas de saúde pública. A perspectiva futura é de que todas as causas de doenças serão elucidadas uma a uma, os tratamentos se consolidarão, a longevidade humana aumentará e a constituição física melhorará. O fato de que, nos países civilizados mais avançados, as doenças infecciosas e a tuberculose diminuem gradualmente é visto como resultado do progresso da higiene social. No entanto, se as doenças infecciosas e a tuberculose estão de fato diminuindo como se espera, se a expectativa de vida aumenta, ainda que lentamente, e se a taxa de mortalidade também decresce, a população deveria, por lógica, aumentar. A realidade, porém, é o oposto: diversas nações lutam desesperadamente para conter o declínio populacional, o que constitui uma contradição gritante.
-
-Em nosso Japão, o aumento da tuberculose, o crescente número de crianças de constituição frágil e o declínio geral da condição física são fatos de conhecimento público. Ademais, na terceira década da Era Meiji, a incidência de doenças torácicas entre os jovens convocados para o serviço militar era de dois em cada cem; no décimo segundo ano da Era Showa, esse número saltou para vinte em cada cem – um aumento de dez vezes. Por que tantos fatos como este se movem em proporção inversa ao progresso da medicina? Isso não indicaria a existência de uma causa fundamental ainda não descoberta? Seria como se, ao notar que as folhas de uma árvore perdem a cor e os novos brotos surgem em menor número a cada ano, os pesquisadores se concentrassem em buscar a causa nas folhas, nos galhos ou no tronco. Mal sabem eles que o problema reside na raiz, oculta sob a terra. O que descobri foi precisamente a causa da doença que se encontra nessa raiz.
-
-Sei que não será fácil que minha teoria seja aceita como verdade e colocada em prática, pois a realidade atual é que todos os sistemas e instituições foram erigidos ao longo de séculos com base na medicina ocidental. Contudo, se as coisas permanecerem como estão, as estatísticas apontarão para um rumo cada vez mais pessimista. Por mais que se implementem medidas paliativas, elas poderão ter algum efeito temporário, mas, enquanto a causa fundamental não for abordada, a tendência geral não poderá ser revertida. Esta é uma questão de suma importância, que diz respeito à prosperidade da nação e à sobrevivência de nosso povo. No caso da teoria heliocêntrica, um atraso de cem anos em sua aceitação não representaria uma crise iminente. Este problema, no entanto, é de uma urgência premente. Com esta obra, pretendo, antes de tudo, soar o alarme.
-
-É indiscutível que a civilização moderna foi construída sobre o avanço da ciência. O aumento do bem-estar humano proporcionado por suas conquistas é, de fato, incomensurável. Por conseguinte, é natural que o homem contemporâneo acredite que não há nada que a ciência não possa, eventualmente, solucionar. Naturalmente, supõe-se também que as doenças e a própria vida humana serão gradualmente desvendadas pelo poder da ciência.
-
-Todavia, é preciso compreender que existe uma distinção intrínseca entre o que pode ser resolvido pela ciência e o que está além de seu alcance. Poderíamos ainda argumentar que o progresso da ciência moderna é um conceito relativo, visto em comparação com a história desde os tempos primitivos. Daqui a algumas centenas ou milhares de anos, quando a humanidade do futuro analisar a ciência do século XX, certamente rirá de sua ingenuidade, da mesma forma que hoje rimos da cultura da era primitiva. A teoria geocêntrica, defendida na Idade Média por Aristóteles e por uma facção do cristianismo, era tida como a verdade suprema pelas pessoas daquela época. A astrologia era venerada como a ciência de hoje, e um médico que não a dominasse não era considerado um mestre em sua arte. Vistos do presente, tais fatos históricos parecem absurdos. Por essa razão, afirmo que a vida humana não pode ser solucionada pelo nível atual da ciência. Imagino, contudo, que no futuro, com seu avanço incessante, a ciência chegará a uma era em que poderá desvendar até mesmo a vida. Portanto, minha tese é que, apenas no que tange à vida humana, a solução está fora do alcance dos conceitos da ciência moderna. E, no entanto, insiste-se que essa solução é possível. É aí que reside a origem de um erro fundamental, e a descoberta desse erro é a razão de ser desta obra.
-
-Na verdade, considero que esta minha tese é a ciência do futuro. Por isso, peço ao leitor habituado à ciência moderna que se dispa de preconceitos e aborde estas páginas com a mente completamente aberta.
-
-Os especialistas dirão: “O que pode saber um leigo que nunca estudou medicina? Que pretensão desmedida!”. A isso, respondo: foi precisamente por não conhecer a medicina que pude fazer esta grande descoberta. Não são poucos os casos de invenções grandiosas realizadas por pessoas anônimas, sem especialização, ou de grandes minas descobertas por quem não possuía conhecimento de mineralogia. São fatos conhecidos por todos.
-
-Gostaria de expor minha perspectiva sobre invenções e descobertas. A maioria das grandes invenções e descobertas da história não foi obra de acadêmicos ou especialistas. Isso fica claro ao observarmos figuras como Watt com a máquina a vapor, Marconi com o telégrafo sem fio, Edison com a eletricidade, os irmãos Wright com o avião, entre outros. O princípio fundamental é descoberto por um leigo, e os acadêmicos se encarregam de seu aprimoramento e desenvolvimento. Essa tem sido a trajetória de evolução de toda a cultura.
-
-Ademais, grandes figuras que movem o mundo hoje, como Hitler, Mussolini e Stalin, possuem uma formação acadêmica bastante limitada. Qual a razão para esse curioso fenômeno? A erudição, em sua essência, é a história dos fatos e leis criados por nossos predecessores; é o conhecimento do passado. É um conhecimento que serve mais como alicerce do que como uma ferramenta para desbravar o futuro. Em outras palavras, é um saber já estabelecido e formalizado. Consequentemente, ao se tentar transformar um sonho futuro em realidade, o conhecimento acadêmico pode, por vezes, tornar-se um obstáculo. A rigidez de suas ideias já formalizadas tende a negar esse sonho.
-
-Os grandes homens, por sua vez, são todos, sem exceção, inovadores em seus planos e ações. É da negação dos moldes estabelecidos e do conhecimento do passado que o novo pode nascer. Aí reside o salto evolutivo. A cultura de ontem não é a cultura de amanhã. Evidentemente, nenhuma nova descoberta ou invenção é um passe de mágica que cria algo do nada. Ela se ergue, invariavelmente, sobre os alicerces históricos construídos por gerações anteriores. O academicismo, no entanto, ao venerar os modelos estabelecidos como verdades absolutas, frequentemente obstrui e nega descobertas e invenções úteis. O curioso é que, por vezes, são os próprios intelectuais da época que desempenham esse papel, fazendo com que algo valioso para a humanidade seja temporariamente suprimido.
-
-Afinal, qual é o propósito da medicina? Não é, obviamente, a medicina pela medicina. Deve ser uma medicina que visa solucionar as doenças, elucidar todas as suas causas, curar todas as enfermidades e promover a saúde. O objetivo é criar seres humanos sem doenças e lares sem enfermos. É tornar uma nação tão próspera em seu crescimento populacional que as políticas governamentais para esse fim se tornem desnecessárias. É ver sanatórios para tuberculosos e hospitais psiquiátricos diminuírem gradualmente, e a gestão da condição física e os exames de saúde se tornarem supérfluos. Um progresso que nos aproxime, passo a passo, dessa direção – isso, em minha opinião, é o avanço da medicina. E a força que nos impulsiona nesse sentido é a verdadeira medicina.
-
-Contudo, observemos a situação atual. Não estamos caminhando na direção diametralmente oposta ao que acabo de descrever? Qual a razão para isso? Diante dessa realidade, nem os especialistas, nem o governo, nem o povo levantam qualquer questionamento. Considero isso algo de uma estranheza sem par. E o enigma deste século, tão incompreensível, será desvendado por esta obra.
-
-Ao refletirmos, porém, percebemos que há uma razão para tal. A aparência da medicina moderna é esplendorosa! O avanço do microscópio levou à descoberta das bactérias; a anatomia e os raios X elucidaram cada vez mais o interior do corpo humano; análises minuciosas em diversas áreas resultaram em inúmeras descobertas; os tipos de tratamentos com medicamentos, raios e outros métodos se multiplicam; a técnica cirúrgica atinge o ápice da sofisticação; e os equipamentos, instalações e métodos de desinfecção parecem ter chegado à perfeição. Diante de tudo isso, não é de se estranhar que se pense que a medicina está progredindo maravilhosamente.
-
-O destino dos povos civilizados será decidido pela aceitação ou rejeição desta minha teoria. Se hesitarem em aceitá-la ou se a negarem, apenas acelerarão sua marcha rumo à extinção. Se, ao contrário, a aceitarem, trilharão o caminho da luz e da prosperidade eternas. Portanto, desejo que ao menos um especialista em medicina atente para a “criação de uma nova medicina” baseada em minha tese. Ela será, certamente, a reforma da medicina, o ponto de partida para Ashita no Ijutsu e o primeiro passo para a fundação da ciência do futuro.
-
-Creio também que, até hoje, não existiu uma arte médica japonesa em seu verdadeiro sentido. O que temos são adaptações de artes médicas originadas no Ocidente, na China, na Índia, etc., e não uma arte médica genuinamente japonesa. Contudo, esta que proponho, acredito ser uma verdadeira arte médica japonesa, da qual poderemos nos orgulhar eternamente.
-
-Ademais, reflito constantemente sobre o seguinte: o Japão envia atualmente equipes de pacificação para as áreas ocupadas na China e nos Mares do Sul. O ponto central dessas missões é, sem dúvida, a assistência médica, por meio da qual se demonstra o desenvolvimento da cultura japonesa e se faz conhecer seus benefícios. No entanto, ao aprofundarmos a reflexão, não chegaríamos a um resultado diferente? Se a assistência médica for eficaz, é provável que, em vez de acreditarem na superioridade do povo japonês, eles sintam, antes de mais nada, a superioridade dos ocidentais, os criadores daquela medicina. A grandeza do povo japonês não passaria, então, de um louvor à sua habilidade em imitar as criações ocidentais. Nesse sentido, se salvarmos essas populações com esta minha arte médica, e se seus efeitos forem superiores aos da medicina ocidental, é evidente que elas se submeterão de coração ao povo japonês. E como não são necessários equipamentos nem medicamentos, sua prática é viável até mesmo nas regiões mais remotas.
-
-Na sociedade de hoje, qual é a maior causa de toda a infelicidade? Pode-se dizer que é, em primeiro lugar, a própria doença. Suponhamos que uma pessoa adoeça. Se for tuberculose ou alguma outra enfermidade diagnosticada, o senso comum dita que se procure imediatamente um médico ou um hospital para receber tratamento. No tratamento médico, porém, para doenças um pouco mais graves, o repouso absoluto é a primeira recomendação. Em seguida, vêm terapias complexas e variadas, como medicamentos, injeções, compressas de gelo, emplastros, etc. No entanto, a cura não vem facilmente. O paciente, sem alternativa, muda de médico ou de hospital. E ainda assim não se cura. Nesses casos, as pessoas com mais recursos, no anseio de se recuperarem, trocam de hospital várias vezes, sem se importar com os custos ou o tempo. Tornam-se peregrinos de hospitais. Mas, por mais que se desesperem, não há como se curar. Afinal, não importa quantos hospitais percorram, os tratamentos, por se basearem na mesma teoria fundamental da medicina ocidental, são, em toda parte, muito semelhantes. Portanto, se o primeiro médico não obteve resultados, não se pode esperar que o próximo, com formação similar, seja muito diferente. Existem, é claro, médicos de talento excepcional que, combinando diagnóstico, técnica e abordagem psicológica, alcançam bons resultados, mas esses são casos isolados.
-
-Assim, por mais que frequente hospitais ou se interne, o paciente não melhora. Ele se angustia e se atormenta. A essa altura, a maioria já esgotou suas economias. E se for o chefe da família, por ter abandonado o trabalho por um longo período, sua renda diminui ou cessa, as dívidas se acumulam, é demitido do emprego e chega a uma situação de desespero. Cenas trágicas como essa são vistas por toda parte hoje em dia. Se a paciente for a esposa ou um filho, e a doença se arrastar por anos, um patrimônio considerável pode ser dilapidado. E quando o resultado final é a perda da vida, todo o dinheiro gasto até então é praticamente jogado fora. Em troca dessa imensa despesa, o que se obteve foi um longo período de sofrimento e a própria morte. Ah, que lástima! Tenho vontade de dizer: “Teu nome é homem moderno!”. Tenho visto e ouvido inúmeros exemplos de pessoas desafortunadas que, após repetirem essa trajetória de doença e morte com dois ou três filhos, dilapidaram grandes fortunas, perderam a esperança e a alegria na velhice e caíram em uma vida de desespero, como verdadeiros derrotados. O que nos diz o fato de que um sacrifício tão caro tem como recompensa um resultado tão infeliz? A razão é simples: a medicina moderna é impotente demais para solucionar as doenças.
-
-O foco principal desta obra é a questão populacional. O declínio na taxa de crescimento dos povos civilizados sugere, como consequência final, um destino de extinção. Segundo estimativas do Dr. Burgdörfer, renomado demógrafo alemão, por volta do ano 2050, daqui a aproximadamente 110 anos, a população da Alemanha terá se reduzido a 25 milhões. Em comparação com os atuais 67 milhões, isso representa uma queda drástica para quase dois quintos. Um estudo da Sra. Enid Charles, no Reino Unido, indica que se as taxas de natalidade e mortalidade continuarem a cair juntas como até agora, a população britânica, hoje com cerca de 46 milhões, será reduzida para 4,4 milhões em cem anos – menos de um décimo. E qual é a estatística para o nosso Japão? De acordo com os cálculos do Dr. Tomonaga Nakagawa, uma autoridade em estatística em nosso país, a população de 73.939.278, em 1940, se continuar na mesma proporção, atingirá um pico de 122.741.777 em 60 anos, no ano de 1995, e então começará a diminuir, chegando a 115.465.386 vinte anos depois, em 2015. Com base nesses cálculos, a Alemanha terá apenas 1,6 milhão de habitantes em 550 anos, o Reino Unido terá 440 mil em 200 anos, e o Japão chegará a zero em 400 ou 500 anos.
-
-Sendo esta uma previsão baseada em estatísticas, podemos lhe conferir um grau considerável de credibilidade. De fato, ao nos depararmos com essa questão, é impossível não ser tomado pelo pavor e pelo espanto. Acredito que este grande problema é muitas vezes, senão dezenas de vezes, maior que a questão da Esfera de Coprosperidade da Grande Ásia Oriental ou a da Nova Ordem Mundial, e exige uma solução absoluta. Por que esse fenômeno aterrador do declínio populacional surgiu entre os séculos XIX e XX? Creio que esse estranho fenômeno não existia antes do século XVIII. Pois, se tivesse começado em alguma época anterior, os povos civilizados já estariam extintos ou à beira da extinção hoje.
-
-E qual é a verdadeira natureza deste enigma do século XX, o declínio populacional? Leitor, não se espante: é o próprio progresso da medicina. Ah, desde o início da história, terá havido um problema tão espantosamente inesperado?
-
-Apresentei estatísticas que indicam que os povos civilizados serão extintos em trezentos, quatrocentos ou quinhentos anos. Na verdade, a meu ver, o processo será mais rápido; creio que será difícil ultrapassar duzentos ou trezentos anos. A razão é que, se a causa é o efeito reverso do progresso da medicina, e se a medicina continuar a progredir, é lógico que o resultado será ainda pior do que as previsões baseadas no nível atual da medicina.
-
-Sendo assim, qual o significado desse efeito reverso? A grande aspiração que deu origem a esta obra é expor e elucidar completamente essa questão, fundar a verdadeira arte médica japonesa e salvar as centenas de milhões de espíritos da humanidade que caminham para a extinção.
-(Outubro de 1941)
-
-### A Questão Populacional
-
-Nos países civilizados de hoje, a questão que atrai maior interesse como o problema mais importante é, sem dúvida, a questão populacional, pois ela constitui a base da ascensão e queda dos povos. As palavras de Adam Smith, de que a riqueza e o poder de uma nação “dependem de sua capacidade de crescimento populacional”, são uma verdade absoluta. O brado de Mussolini ao povo italiano, “Alcancem a maior taxa de natalidade e a menor taxa de mortalidade!”, não tem outro significado. A questão populacional começou a assumir um significado tão premente a partir do século XIX. Evidentemente, antes do século XVIII, nenhum país possuía estatísticas completas, portanto não há como saber os números exatos. No entanto, embora uma nação ou um povo possa ter sofrido um declínio populacional temporário devido a guerras ou desastres naturais, um fenômeno como o de hoje, em que todos os povos civilizados, sem exceção, apresentam uma queda na taxa de crescimento populacional, é algo sem precedentes. Se uma tendência de declínio populacional como a atual tivesse começado séculos atrás, a prosperidade dos povos civilizados de hoje provavelmente não existiria. Pelo contrário, eles estariam extintos ou, como os Ainu, restariam apenas em número reduzido. Consequentemente, o esplêndido desenvolvimento cultural que vemos hoje não teria sido possível.
-
-A primeira questão que devemos levantar a esse respeito é: se a queda na taxa de crescimento populacional começou no início do século XIX, devemos considerar que algum método especial, que não existia absolutamente antes do século XVIII, foi aplicado a toda a população de cada nação civilizada, não muito antes dessa época. Portanto, é necessário investigar qual seria esse método e descobrir sua verdadeira natureza. Naturalmente, o fato de ter sido aplicado a toda a população de nações civilizadas significa que foi considerado, sem sombra de dúvida, benéfico. No entanto, mesmo algo considerado benéfico pode, após alguns anos ou décadas de resultados positivos, tornar-se prejudicial a longo prazo. Além disso, a fraqueza humana é tal que, uma vez que se acredita em algo como benéfico, mesmo que surjam fenômenos negativos, eles podem ser ignorados por um forte preconceito. Isso seria semelhante ao fato de que, mesmo depois que a verdadeira natureza de um culto maligno é exposta, seus seguidores, iludidos por preconceitos, continuam a acreditar cegamente, criando justificativas.
-
-Descobrir esse “certo método” é a chave para resolver este grande problema. Então, o que seria esse método enigmático? Antes de revelar esse enigma, no entanto, apresentarei a tendência da dinâmica populacional em nosso Japão e em outros países do mundo.
-
-O Boletim Semanal do Gabinete, de 8 de dezembro de 1940, diz o seguinte:
-(A taxa de natalidade de nosso país, que atingiu o pico de 36 por mil habitantes em 1920, tem mostrado uma tendência de queda gradual. Em 1936, caiu abaixo de 30; em 1937, registrou 31; e em 1938, sob a influência do Incidente, caiu para 27. No entanto, em comparação com os 23 da Itália, 19 da Alemanha, 17 dos Estados Unidos e 15 da Inglaterra e França, ainda é uma taxa consideravelmente alta. Mas isso não é motivo para otimismo em relação à queda da taxa de natalidade em nosso país. As causas da diminuição da natalidade ainda não são totalmente claras e constituem um importante tema de pesquisa na questão populacional. A experiência dos países civilizados da Europa nos ensina que, embora a guerra não seja a causa da diminuição da natalidade, ela é um terrível fator de aceleração. Além disso, uma vez iniciada, a queda da natalidade acelera-se de forma surpreendente, levando a um declínio abrupto. A história também demonstra vividamente como é difícil recuperar uma taxa de natalidade que já caiu. Ademais, diz-se que a diminuição da natalidade leva a uma queda no crescimento da população de melhor qualidade, enquanto a capacidade de crescimento da população de qualidade inferior permanece alta. Isso promove a chamada seleção reversa, ou seja, a tendência de que os de melhor qualidade diminuam e os de pior qualidade aumentem. Deste ponto de vista, para melhorar a qualidade da população, é preciso que a natalidade seja alta.)
-
-A seguir, vejamos um exemplo da relação entre a questão populacional e a guerra. (Segundo o mesmo boletim)
-Se tomarmos como exemplo a Alemanha na última Guerra Mundial, a guerra moderna mais típica dos últimos tempos, a Alemanha mobilizou mais de treze milhões de jovens ao longo de quatro anos, e diz-se que o número de mortos em combate atingiu a cifra de 1,85 milhão. 1,85 milhão de mortos em combate não é pouco, mas, como resultado da diminuição dos nascimentos e do aumento da mortalidade geral, a população perdida pela Alemanha chegou a 4,2 milhões, um número surpreendente, duas vezes e meia o número de mortos em combate. Se somarmos essas duas perdas populacionais, fica claro o quanto uma guerra moderna afeta o crescimento populacional e a importância de repor rapidamente essa perda.
-
-As flutuações de nascimentos e mortes, ou seja, a dinâmica populacional de nosso país sob o Incidente, também mostram um efeito semelhante, embora em grau diferente. Em 1938, em comparação com o ano anterior, houve uma diminuição de mais de 250.000 nascimentos e um aumento de mais de 50.000 mortes, excluindo as mortes por combate, doença ou ferimento. Como resultado, houve uma redução de mais de 300.000 no crescimento natural. É verdadeiramente inevitável perder parte do crescimento natural devido à guerra, mas perder parte do crescimento natural hoje significa perder futuros pais e mães, e devemos pensar profundamente no impacto duradouro que isso terá no futuro do crescimento populacional.
-
-Um ponto ainda mais importante é que o impacto da guerra difere muito dependendo do estágio de crescimento populacional em que ela ocorre. Com base nas flutuações de nascimentos e mortes, podemos dividir a era de crescimento populacional dos países civilizados em quatro períodos. O primeiro período é quando a taxa de mortalidade atinge seu pico e começa a cair, enquanto a taxa de natalidade aumenta, levando a um aumento do crescimento natural. O segundo período é quando a taxa de natalidade começa a cair, mas a taxa de mortalidade diminui a um ritmo ainda mais rápido, resultando em um aumento ainda maior da taxa de crescimento natural. No terceiro período, a velocidade da queda da taxa de mortalidade diminui gradualmente, chegando a um estado de estagnação, enquanto a queda da taxa de natalidade se torna notável, chegando a um estado de queda livre. Com o avanço dessa situação, a taxa de natalidade cruza com a taxa de mortalidade e cai abaixo dela. Por outro lado, a taxa de mortalidade aumenta lentamente. A população não apenas para de crescer, como começa a diminuir. Este é o quarto período. O impacto de uma guerra ocorrida no primeiro período tende a ser compensado com relativa facilidade, mas o impacto de uma guerra ocorrida após o final do segundo período não é tão facilmente recuperado. Pelo contrário, acelera ainda mais a queda da natalidade. A Alemanha enfrentou a Guerra Mundial no final do segundo período, o que causou uma queda surpreendente na natalidade, e a grande política de aumento populacional dos nazistas demonstra vividamente como é difícil recuperar uma taxa de natalidade que já caiu. A França, que participou da Grande Guerra no terceiro período, já entrou no quarto período. A forma como eles se preocuparam com a alocação de pessoal e temeram as perdas humanas nesta guerra é claramente demonstrada pelo curso das batalhas desde a operação alemã na Escandinávia até a entrada sem sangue do exército alemão em Paris.
-
-Diz-se que Napoleão, que percorreu a Europa durante o auge da França, ao contemplar as consideráveis perdas de suas tropas na noite da Batalha de Eylau em fevereiro de 1807, gabou-se: “Uma noite em Paris compensará tudo”. Em contraste, há uma história de que um general francês, durante a Guerra Mundial, lamentou na frente de batalha de Marne que, se houvesse um pouco mais de jovens, o exército francês poderia ter perseguido o exército alemão para o outro lado do Reno por conta própria. A queda da natalidade e a estagnação do crescimento populacional da França tornaram-se finalmente decisivas com a última Guerra Mundial. A França hoje se curvou à Alemanha. A julgar pela tendência da população francesa após a Grande Guerra, esse era provavelmente o destino inevitável da França.
-
-Quando a mão demoníaca do imperialismo do Império Russo se aproximou de nosso país, o Japão lutou resolutamente a Guerra Russo-Japonesa, derrotando um império branco e fazendo com que os povos de cor levantassem suas vozes em aclamação. Naquela época, a população de nosso país estava exatamente no meio do primeiro período. No entanto, a situação populacional de nosso país hoje, como será mencionado mais tarde, já está se aproximando do final do segundo período. Não é preciso dizer que há uma grande diferença de escala entre o atual Incidente e a Guerra Russo-Japonesa, mas também não devemos esquecer que os períodos populacionais são diferentes. Uma das razões pelas quais devemos estar muito vigilantes hoje, sob o Incidente, em relação ao futuro do crescimento populacional de nosso país, reside precisamente neste ponto.
-
-A seguir, devemos comparar a taxa de natalidade dos vários povos que cercam nosso país, especialmente aqueles dentro da Esfera de Coprosperidade da Grande Ásia Oriental. A taxa de natalidade do povo chinês, que representa um quinto da população mundial, é desconhecida, mas há razões para estimar que seja de pelo menos 40 por mil habitantes. A taxa de natalidade da União Soviética, com uma população que se aproxima de 200 milhões, pode ser estimada em cerca de 40. A Índia, com uma população de 350 milhões, tem 35; as Filipinas, 37; e as Colônias do Estreito, 38, mostrando taxas notavelmente altas. Em comparação com estes, a taxa de natalidade de nosso país é a mais baixa. É verdade que, nesses povos, a taxa de mortalidade também é extremamente alta, e a taxa de crescimento natural não é tão notável quanto a alta taxa de natalidade. No entanto, as taxas de natalidade acima são suficientes para mostrar o quão notável é seu potencial de crescimento. Não é difícil supor que, uma vez que a paz e a ordem sejam estabelecidas e a estabilidade e o progresso da vida econômica sejam garantidos, eles garantirão uma capacidade de crescimento surpreendente.
-
-A seguir, o Boletim Semanal da Agência de Informação, de 12 de fevereiro de 1941, diz o seguinte:
-O fato de a população do Japão ter continuado a aumentar em quase um milhão de pessoas por ano até o início do Incidente da China parece, à primeira vista, prometer um desenvolvimento infinito para o povo japonês. No entanto, isso é, na verdade, uma grande ilusão. É um fato inegável que a população do Japão continuou a aumentar em quase um milhão por ano, mas não podemos pensar otimisticamente que isso prometa o desenvolvimento e o aumento perpétuos da população japonesa. O aumento da população ocorre quando há mais nascimentos do que mortes. Quando calculamos a taxa de natalidade dividindo o número de nascimentos de cada ano pela população daquele ano, a taxa de natalidade no Japão continuou a subir por cerca de cinquenta anos, desde o início da Era Meiji até 1920. No entanto, a partir desse ponto, ela subitamente entrou em um declínio acentuado. Ou seja, a taxa de natalidade em 1899 era de 31,33 por mil habitantes, e em 1900 era de 31,69. Em 1920, era de 36,19 por mil habitantes, o que significa que, nesse período, a taxa de natalidade de nosso país aumentou 4,86 por mil habitantes. A partir daí, a taxa de natalidade diminuiu ano a ano, e em 1937 era de 30,61. Isso significa que, no curto período de apenas dezesseis anos desde 1920, a taxa de natalidade de nosso país diminuiu 6,5 por mil habitantes. Isso significa que a capacidade dos japoneses de ter filhos diminuiu nesse curto período. Apesar de a capacidade dos japoneses de ter filhos ter começado a declinar subitamente a partir de 1920, por que sua capacidade de crescimento não diminuiu tanto e continuou a aumentar em quase um milhão por ano? A única razão é que a taxa de mortalidade diminuiu junto com a queda da natalidade. Assim como a taxa de natalidade, a taxa de mortalidade do Japão aumentou ano a ano desde o início da Era Meiji até por volta de 1920, mas a partir desse ponto, ela entrou em um declínio acentuado. Ou seja, a taxa de mortalidade em 1899 era de 21,05 por mil habitantes, e em 1900 era de 20,31. Em 1920, era de 25,41, o que significa que, nesse período de cerca de cinquenta anos, a taxa de mortalidade aumentou 5,1 por mil. A partir daí, assim como a taxa de natalidade, ela entrou em um declínio acentuado, e em 1937 era de 16,95. E nesse curto período de apenas dezesseis anos, a taxa de mortalidade de nosso país diminuiu 8,46 por mil habitantes. Isso é realmente surpreendente.
-
-A razão pela qual o aumento da população do Japão não diminuiu tanto e continuou a aumentar em quase um milhão de pessoas por ano, apesar de a taxa de natalidade ter mostrado um declínio súbito e acentuado a partir da última Guerra Mundial, é inteiramente o resultado dessa diminuição na taxa de mortalidade.
-
-Quando a taxa de natalidade e a taxa de mortalidade diminuem juntas, qual será o futuro da população? Isso já foi experimentado pelos países europeus. Como resultado da inversão da tendência de queda da taxa de natalidade e da taxa de mortalidade, o que aconteceu com a população dos países europeus? O primeiro resultado foi que, nesses países, a própria população começou a diminuir gradualmente, e eles tiveram que se preocupar com a autoextinção do próprio povo.
-
-Por que a população segue um destino de autoextinção no futuro quando a taxa de natalidade e a taxa de mortalidade começam a diminuir juntas? A razão é que não há limite para a queda da taxa de natalidade. Em casos extremos, pode-se até imaginar que não haja um único nascimento. No entanto, há um limite para a queda da taxa de mortalidade, e ela não diminui indefinidamente. Seria uma história diferente se um elixir da imortalidade ou um método milagroso, como o imaginado pelos antigos, fosse descoberto.
-
-Pela experiência da humanidade até hoje, é muito difícil reduzir a taxa de mortalidade para menos de 10 por mil habitantes. No mundo, os países com a menor taxa de mortalidade hoje são a Austrália e a Nova Zelândia. Lá, a taxa de mortalidade está abaixo de 10 por mil habitantes há vinte anos, o que é a taxa mais baixa do mundo. Mesmo entre os países civilizados da Europa, o Reino Unido, que tem a mais baixa, tem uma taxa de mortalidade de 11,6 por mil (em 1938), e a Alemanha, 11,7 (no mesmo ano). Devemos considerar que estes representam a menor taxa de mortalidade que a humanidade pode alcançar.
-
-Portanto, se a taxa de natalidade e a taxa de mortalidade no Japão continuarem a diminuir acentuadamente até se tornarem as mesmas dos países europeus, qual será o resultado? Não há dúvida de que chegará um momento em que nosso país terá que se preocupar com a autoextinção, assim como esses países europeus. De acordo com as previsões do Instituto de Pesquisa Populacional, se as coisas continuarem como estão, a população do Japão aumentará de qualquer maneira até 1995, chegando a 123 milhões, mas esse será o número máximo que a população japonesa poderá alcançar. A partir daí, ela entrará gradualmente em um declínio e seguirá o caminho da autoextinção. Isso foi calculado com base em cálculos demográficos precisos, com base nos movimentos da população de nosso país até 1937. No entanto, para nós que agora estamos dedicando todos os nossos esforços para a construção da Esfera de Coprosperidade da Grande Ásia Oriental, esta é uma previsão verdadeiramente desanimadora.
-
-O segundo problema preocupante que surge no fenômeno populacional de um país como resultado da queda da taxa de natalidade e da taxa de mortalidade é que a proporção de jovens diminui gradualmente e a proporção de idosos aumenta.
-Isso ocorre porque, à medida que a taxa de mortalidade diminui e a taxa de natalidade também diminui, a proporção de pessoas que vivem uma vida longa aumenta gradualmente, enquanto a proporção de nascimentos anuais diminui, resultando em uma diminuição na proporção de jovens. Nos países civilizados da Europa, como resultado de uma tendência contínua de queda da taxa de mortalidade e da taxa de natalidade por um período consideravelmente longo, a proporção de jovens já é extremamente pequena, tornando-os “povos sem juventude”. Em nosso país também, ao comparar a população atual com a de mais de uma década atrás, a proporção de idosos já aumentou consideravelmente. Se deixarmos as coisas como estão, essa tendência se tornará cada vez mais pronunciada, e não há dúvida de que acabaremos na mesma situação que a Europa. Isso é algo extremamente preocupante.
-
-Um povo sem juventude não terá desenvolvimento nem, provavelmente, será capaz de sonhar com um futuro brilhante. Imagine um país habitado apenas por idosos desfrutando tranquilamente do resto de suas vidas. Lá, não se encontrará progresso nem desenvolvimento. O destino da França nesta guerra mostra mais claramente o quão trágico é o destino de um povo sem juventude.
-
-A seguir, o mesmo boletim, de 19 de fevereiro de 1941, diz o seguinte:
-(IV) Objetivos e Métodos da Política Populacional
-Por trás do aparente desenvolvimento e aumento brilhante da população japonesa até agora, essa toxina terrível já estava sendo produzida. Primeiro, devemos remover essa toxina terrível e evitar repetir o fracasso dos países europeus. Se a população do Japão se tornar cada vez mais composta por idosos e seu impulso de crescimento enfraquecer gradualmente, levando finalmente ao caminho do declínio, como poderemos cumprir a importante missão de liderar a Esfera de Coprosperidade da Grande Ásia Oriental? No futuro, o Japão precisará cada vez mais de um grande número de jovens saudáveis, fortes e sábios. Para atender a essa necessidade, a política populacional do Japão deve ser estabelecida com o objetivo de alcançar os quatro objetivos a seguir.
-1. Garantir o desenvolvimento eterno da população, prevenindo o envelhecimento da população e o declínio futuro.
-2. Superar outros países em sua capacidade de crescimento e qualidade.
-3. Garantir a necessidade de força militar em um estado de alta defesa nacional.
-4. Fazer uma alocação adequada para garantir a liderança sobre os povos da Ásia Oriental.
-O fato de o governo ter estabelecido como meta provisória atingir uma população de 100 milhões de japoneses no Japão continental em 1960, no esboço da política populacional anunciado recentemente, é uma expressão clara e concreta da população necessária para atingir esses objetivos. E se essa meta de 100 milhões em 1960 for alcançada, o aumento da população no Japão a partir de então se tornará ainda mais exponencial, e o povo japonês poderá, pela primeira vez, estabelecer as bases para um desenvolvimento exponencial perpétuo e duradouro.
-
-No entanto, alcançar essa meta de 100 milhões de habitantes no Japão continental em 1960 é, na verdade, uma tarefa muito difícil.
-Mas agora devemos superar essa dificuldade extraordinária e atingir essa meta o mais rápido possível. Então, como podemos atingir essa meta difícil? Geralmente, podemos pensar em dois métodos: aumentar a taxa de natalidade e diminuir a taxa de mortalidade. E entre esses dois métodos, algumas pessoas enfatizam a redução da taxa de mortalidade e a defendem com particular veemência. E, segundo a opinião dessas pessoas, “a taxa de mortalidade de nosso país tem seguido uma tendência de queda acentuada nos últimos tempos, mas, em comparação com o Reino Unido, Alemanha, Austrália, Nova Zelândia, etc., ainda é uma taxa consideravelmente alta. Isso prova fortemente que ainda há um espaço considerável para reduzir a taxa de mortalidade do Japão. Além disso, em vez de se concentrar em aumentar a taxa de natalidade, cuidar bem das crianças que nascem e reduzir ao mínimo suas mortes é o método mais eficiente e racional para atingir o objetivo de aumento populacional.” À primeira vista, essa parece ser uma opinião muito razoável.
-
-Reduzir a taxa de mortalidade é algo particularmente necessário em nosso país. No entanto, se a opinião acima defende a redução da taxa de mortalidade na futura política populacional do Japão, não se pode dizer que seja necessariamente uma opinião correta. A razão é que, mesmo que nos esforcemos apenas para reduzir a taxa de mortalidade, não só não conseguiremos atingir a meta de 100 milhões de habitantes no Japão continental em 1960 em termos de cálculo, mas também, apenas com a redução da taxa de mortalidade, certamente chegará um momento em que a população do Japão começará a diminuir em algumas décadas.
-
-A previsão do Instituto de Pesquisa Populacional mencionada anteriormente foi calculada com base na suposição de que a taxa de natalidade e a taxa de mortalidade do Japão continuariam a tendência de queda do período até 1937. De acordo com ela, mesmo que a taxa de mortalidade de nosso país continue a diminuir a um ritmo consideravelmente rápido como até agora, a população começará a diminuir a partir de 1995. Portanto, para atingir a meta desejada, não podemos contar apenas com a redução da taxa de mortalidade. Devemos nos concentrar em aumentar a taxa de natalidade.
-
-(V) Declínio da Natalidade e Medidas para seu Aumento
-Como mencionado acima, para aumentar a população, o aumento dos nascimentos deve ser a base. Então, como podemos aumentar esses nascimentos?
-O fato de a taxa de natalidade de nosso país ter mostrado um declínio acentuado desde o período logo após a última Guerra Mundial se baseia em duas causas: a idade do casamento tornou-se mais tardia e os casais casados passaram a ter menos filhos. Por exemplo, nos dez anos de 1925 a 1935, a taxa de natalidade caiu de 34,92 para 31,63 por mil habitantes, e o número de nascimentos perdidos devido a isso chega a aproximadamente 400.000. Isso foi calculado estimando-se quantos nascimentos teriam ocorrido em 1935 se a taxa de casados na época de 1925 e a taxa de natalidade dos casados tivessem permanecido as mesmas, e comparando esse número com o número real de nascimentos em 1935. Dentre esses, o número que se reconhece ter diminuído porque a idade do casamento se tornou mais tardia e a taxa de casados entre os jovens diminuiu é de aproximadamente 230.000, e o número que se reconhece ter diminuído porque a taxa de natalidade dos casados diminuiu é de aproximadamente 170.000. Algumas pessoas dizem que o declínio da taxa de natalidade em nosso país é inteiramente resultado do controle de natalidade, mas o fato acima prova que, além do controle de natalidade, o fato de a idade do casamento ter se tornado gradualmente mais tardia, resultando em uma menor taxa de casados entre os jovens, é a causa de mais da metade do declínio da taxa de natalidade. Além disso, ver a diminuição na taxa de natalidade dos casados inteiramente como resultado do controle de natalidade é precipitado. A diminuição na taxa de natalidade dos casados certamente tem o controle de natalidade como uma de suas causas, mas também se pode imaginar que a própria fertilidade das mulheres tenha diminuído por várias outras razões. Portanto, para aumentar os nascimentos, é claro que é necessário erradicar a tendência de controle de natalidade, mas apenas isso não nos permitirá atingir a meta desejada. Para isso, é necessário adiantar a idade do casamento e aumentar a taxa de casados entre os jovens. Além disso, devemos nos esforçar para aumentar a taxa de natalidade dos casados.
-
-No entanto, atingir esses objetivos de aumento de nascimentos não é, na verdade, uma tarefa fácil. Para isso, como pré-requisito básico, devemos rejeitar ao máximo a tendência de controle de natalidade e de individualismo e nos esforçar para manter e fortalecer um sistema familiar saudável. Um sistema familiar saudável é a força motriz do aumento populacional. Além disso, para adiantar a idade do casamento e aumentar a taxa de casados entre os jovens, é necessário que organizações e agências públicas promovam ativamente a apresentação, mediação e orientação para o casamento. É necessário reduzir drasticamente os custos do casamento e criar um sistema de empréstimo para o dote. Além disso, no que diz respeito à reforma do sistema escolar, é especialmente necessário considerar a relação com a política populacional e melhorar urgentemente coisas como o adiamento do casamento devido à necessidade de frequentar a escola por um longo tempo.
-
-(VI) Declínio Populacional e Medidas para o Aumento da Qualidade
-Para fortalecer a população, é necessário, em primeiro lugar, se esforçar para aumentar os nascimentos. No entanto, é desnecessário dizer que, ao mesmo tempo, é necessário se esforçar para reduzir as mortes. E, no esboço da política populacional desta vez, para atingir o objetivo de aumento populacional, espera-se reduzir a taxa de mortalidade geral em aproximadamente 35% nos próximos vinte anos, mas isso também, como no caso do aumento de nascimentos, é uma tarefa muito difícil.
-
-Mencionei anteriormente que a taxa de mortalidade de nosso país ainda é consideravelmente alta em comparação com países europeus como a Alemanha e o Reino Unido. No entanto, se investigarmos um pouco mais detalhadamente, a taxa de mortalidade de bebês e crianças pequenas e a taxa de mortalidade por tuberculose, que afeta principalmente jovens em torno dos vinte anos, são excepcionalmente altas.
-
-No entanto, a taxa de mortalidade de bebês e crianças pequenas em nosso país tem diminuído a um ritmo notável nos últimos tempos, desde a época da última Guerra Mundial. Ou seja, a taxa de mortalidade infantil em nosso país em 1918 era de 188,6 por mil nascidos vivos; em 1919, 170,5; e em 1920, 165,7. Naquela época, quase 20% das crianças que nasciam morriam antes de completar seu primeiro aniversário. No entanto, a partir daí, ela diminuiu ano a ano, e em 1936, a taxa de mortalidade infantil de nosso país era de 116,7 por mil nascidos vivos, e em 1937, 105,8. No entanto, a taxa de mortalidade infantil de nosso país ainda é consideravelmente alta em comparação com os países europeus. Em 1936, a taxa de mortalidade infantil no Reino Unido era de apenas 61,9 por mil nascidos vivos; na Alemanha, 65,8; e na França, 67,0. Além disso, de acordo com a sexta tabela de vida de nosso país, de 100.000 nascidos vivos, apenas 81.788 meninos e 83.229 meninas sobrevivem até os cinco anos.
-
-Isso mostra o fato surpreendente de que quase 20% deles morrem antes de completar cinco anos. Para reduzir a taxa de mortalidade de nosso país, é essencial, antes de tudo, reduzir a taxa de mortalidade de bebês e crianças pequenas.
-
-Quanto à taxa de mortalidade por tuberculose, até agora algumas pessoas pensavam que era algo inevitável que acompanhava o progresso da civilização, algo que poderia ser chamado de doença da civilização. No entanto, isso é um grande erro. A taxa de mortalidade por tuberculose em nosso país quase não mostra tendência de queda. Pelo contrário, nos últimos tempos, tem mostrado uma tendência de aumento. Ou seja, a taxa de mortalidade por tuberculose em nosso país em 1920 era de 22,4 por 10.000 habitantes. Por um tempo, ela diminuiu um pouco, chegando a 18,0 em 1932, mas a partir daí voltou a subir, chegando a 20,7 em 1938. Isso parece apoiar a opinião de que o aumento da taxa de mortalidade por tuberculose é inevitável com o progresso da civilização. No entanto, ao comparar com os países europeus, por exemplo, na Alemanha é de 5,5, na Austrália é de 3,8, e na Nova Zelândia é de 3,6. Isso prova que reduzir a taxa de mortalidade por tuberculose não é necessariamente impossível, dependendo dos esforços, independentemente do progresso da civilização.
-
-Portanto, no esboço da política populacional desta vez, o foco principal para reduzir a taxa de mortalidade é melhorar a taxa de mortalidade de bebês e crianças pequenas e reduzir a taxa de mortalidade por tuberculose.
-
-### Dinâmica Populacional nos Diversos Países
-
-Vejamos, a título de exemplo, a dinâmica populacional da França. Mesmo neste país, no início do século XIX, a taxa de natalidade era consideravelmente alta. De 1801 a 1810, era de 32,4; de 1811 a 1820, 31,8; e de 1821 a 1830, 31,0. Contudo, entre 1831 e 1840, caiu abaixo da casa dos 30,0, chegando a 29,0. Desde então, seguiu uma trajetória de declínio contínuo, caindo drasticamente para 25,0 na época da Guerra Franco-Prussiana, em 1870. Antes da Primeira Guerra Mundial, a taxa de natalidade era de aproximadamente 19, mas entre 1914 e 1919, caiu vertiginosamente para 12,4. É verdade que a taxa de natalidade se recuperou um pouco após a guerra, registrando 21,4 em 1920 e 19,4 entre 1921 e 1925, mas depois continuou a cair, chegando à trágica situação de 14,6 em 1938. Diante disso, o sociólogo Laveleye, em sua teoria da seleção social, aponta diversas causas, mas afirma que a principal é a infertilidade fisiológica.
-
-É preciso atentar para o fato de que o declínio populacional na França começou por volta de 1834.
-
-Nas estatísticas desse país, o número de nascimentos no início do século XIX, em 1801, era de 900.000; em 1926, 750.000; e em 1931, 730.000. A diferença pode não parecer tão grande, mas é preciso analisar em proporção ao crescimento populacional do período. Em 1801, foram 900.000 nascimentos para uma população de 27 milhões; em 1926, 750.000 nascimentos para uma população de 40 milhões; e em 1931, 730.000 nascimentos para uma população de 41,8 milhões. Isso permite perceber a gravidade do declínio da taxa de natalidade. A título de ilustração, apresentamos a evolução da taxa de natalidade:
-
-| Período | Média de Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| 1801-1810 | 329 |
-| 1811-1820 | 318 |
-| 1821-1830 | 306 |
-| 1831-1840 | 288 |
-| 1841-1850 | 273 |
-| 1851-1860 | 261 |
-| 1861-1870 | 262 |
-| 1871-1880 | 254 |
-| 1881-1890 | 239 |
-| 1891-1900 | 221 |
-| 1901-1910 | 206 |
-| 1911-1920 | 153 |
-| 1921-1925 | 193 |
-| 1926 | 188 |
-| 1931 | 174 |
-
-O declínio da taxa de natalidade nos países civilizados não se restringe à França; hoje, pode ser visto como uma lei universal. A razão pela qual o declínio da taxa de natalidade na França se tornou um problema foi porque a diminuição já se manifestou no início do século XIX. Os países que viam o declínio da taxa de natalidade francesa como um problema distante agora enfrentam uma situação semelhante. A seguir, apresentamos a situação dos países europeus.
-
-No Reino Unido, a taxa de natalidade é a seguinte:
-
-| Período | Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| 1841-1850 | 326 |
-| 1851-1860 | 342 |
-| 1861-1870 | 352 |
-| 1871-1880 | 355 |
-| 1881-1890 | 325 |
-| 1891-1900 | 299 |
-| 1901-1910 | 272 |
-| 1911-1915 | 241 |
-| 1916-1920 | 201 |
-| 1921-1925 | 199 |
-| 1926 | 178 |
-| 1930 | 168 |
-*Fonte: Tese do Professor Shiras*
-
-Até 1871-1880, a taxa de natalidade seguia uma trajetória de aumento, mas desde então inverteu sua direção e está diminuindo de forma acelerada. De 355, caiu para 241 antes da guerra, chegando a 178 em 1926 e 168 em 1930. No meio século entre 1871-1880 e 1926, continuou a cair, diminuindo para quase menos da metade. Comparando com o declínio da França, a velocidade é cerca de duas vezes e meia mais rápida, pois a França, em 125 anos (1801-1926), caiu pouco mais de 40%. Esse fato chocou profundamente o Reino Unido, e o jornal The Times declarou: “O declínio da taxa de natalidade, que tem sido uma característica marcante das estatísticas populacionais do Reino Unido desde o início deste século, continua, e a taxa de declínio parece estar se acelerando cada vez mais”. As estatísticas recentes do Reino Unido são tão pessimistas quanto as seguintes:
-
-| Ano | Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| 1921 | 224 |
-| 1922 | 204 |
-| 1923 | 197 |
-| 1924 | 188 |
-| 1925 | 183 |
-| 1926 | 178 |
-
-Como se vê, em 1926, a taxa já era inferior à da França (188).
-
-Vejamos agora a Alemanha.
-
-| Período | Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| 1841-1850 | 361 |
-| 1851-1860 | 353 |
-| 1861-1870 | 372 |
-| 1871-1880 | 391 |
-| 1881-1890 | 368 |
-| 1891-1900 | 361 |
-| 1901-1910 | 330 |
-| 1911-1915 | 285 |
-| 1916-1920 | 179 |
-| 1921-1925 | 219 |
-
-Até 1871-1880, a taxa de natalidade vinha aumentando gradualmente, mas desde então começou a diminuir de forma bastante acentuada. De 391, caiu para 330 no início do século XX. No entanto, na Alemanha, onde a taxa de natalidade era geralmente muito alta, não se acreditou nesse declínio súbito. O Sr. Dietzel o viu com ceticismo, o Sr. Wagner, em 1907, atribuiu-o a uma maré baixa temporária na taxa de natalidade, e o Sr. Fielks atribuiu-o a um erro no cálculo estatístico. Assim, os estudiosos alemães não acreditaram no declínio da taxa de natalidade. No entanto, a realidade continuou a ser de declínio, e em 1913, caiu para 276. Isso significa que a Alemanha perdeu um terço de sua taxa de natalidade em quarenta anos.
-
-A situação após a guerra é a seguinte:
-
-| Ano | Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| 1921 | 253 |
-| 1922 | 230 |
-| 1923 | 208 |
-| 1924 | 202 |
-| 1925 | 204 |
-
-No período de 1871 a 1925, a taxa de natalidade caiu de 391 para 204. Ou seja, em meio século, perdeu metade de sua taxa de natalidade (48%). E o declínio continua de forma regular. A velocidade da queda é duas vezes e meia a da França.
-
-Vejamos agora a Itália.
-
-| Ano | Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| 1861-1870 | 371 |
-| 1871-1880 | 370 |
-| 1881-1890 | 376 |
-| 1891-1900 | 349 |
-| 1901-1910 | 327 |
-| 1911-1915 | 328 |
-| 1916-1920 | 229 |
-| 1921-1925 | 291 |
-
-A Itália também apresenta um fenômeno de declínio da taxa de natalidade, embora não tão acentuado quanto no Reino Unido ou na Alemanha. No entanto, o declínio recente da taxa de natalidade é bastante notável.
-
-| Ano | Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| 1921 | 303 |
-| 1922 | 302 |
-| 1923 | 293 |
-| 1924 | 282 |
-| 1925 | 275 |
-
-E o declínio continua, chegando a 251 em 1929. Diante disso, o governo italiano emitiu um grande alerta à nação, afirmando que, se a taxa de natalidade continuasse a diminuir, o país enfrentaria uma grande crise no final do século XX, e incentivou fortemente o aumento da população. De qualquer forma, a Itália perdeu um quarto de sua taxa de natalidade em cerca de quarenta anos, até 1925.
-
-Além disso, o Sr. Rabinowicz apresenta estatísticas sobre a Bélgica, Suécia e Noruega, mostrando o declínio da taxa de natalidade. A taxa de natalidade da Bélgica perdeu 40% em cerca de oitenta anos. A Suécia, por vezes, seguiu o mesmo caminho da França, com a taxa de natalidade caindo pela metade em um século. Na Noruega, o declínio da taxa de natalidade começou mais tarde do que na Suécia, mas perdeu 40% em dez anos. A Suíça perdeu 40% de sua taxa de natalidade em meio século (1875-1926).
-
-Voltemos agora os olhos para outros continentes. E a Austrália e a Nova Zelândia?
-
-| Ano | Austrália | Nova Zelândia |
-| :--- | :--- | :--- |
-| 1913 | 282 | 261 |
-| 1914 | 279 | 260 |
-| 1915 | 271 | 252 |
-| 1916 | 266 | 259 |
-| 1921 | 250 | 233 |
-| 1922 | 247 | 232 |
-| 1923 | 238 | 219 |
-| 1924 | 232 | 216 |
-| 1925 | 229 | 212 |
-| 1926 | 220 | 211 |
-| 1927 | 217 | 203 |
-| 1928 | 213 | 196 |
-| 1929 | 203 | 190 |
-
-Ambos perderam mais de 30% de sua taxa de natalidade em apenas dezesseis anos. Os países de população branca do hemisfério sul, com circunstâncias sociais completamente diferentes da Europa, também não são exceção ao declínio da taxa de natalidade.
-
-Com base nas estatísticas desses países, Rabinowicz conclui que se observa um declínio da taxa de natalidade em todos os países e povos do mundo.
-
-E os Estados Unidos? Como não há registro de nascimentos em todo o país, não há dados para mostrar diretamente o declínio da taxa de natalidade em todo o país. No entanto, subtraindo-se o número de imigrantes líquidos da população total em cada ano de censo e comparando-o com a população do ano de censo anterior, pode-se calcular a taxa de crescimento da população e, assim, ter uma ideia geral da tendência da taxa de natalidade. De acordo com isso, a taxa de natalidade vem diminuindo desde 1880. Além disso, a taxa de natalidade nas áreas de registro recentes também mostra um declínio anual, como na tabela a seguir.
-
-| Ano | Nascimentos por 1.000 Habitantes |
-| :--- | :--- |
-| 1920-21 | 24,0 |
-| 1922-23 | 22,5 |
-| 1924-25 | 22,0 |
-| 1926 | 20,6 |
-| 1927 | 20,6 |
-| 1928 | 19,8 |
-| 1929 | 18,9 |
-| 1930 | 18,9 |
-*Fonte: Shirras, "The Population Problem in India", Economic Journal, mar., 1933, p. 63.*
-
-Na América do Sul, por enquanto, só se sabe da Argentina. Em 1910-14, a taxa de natalidade média anual era de 38,9 por mil, e a taxa de crescimento natural era de 20,8, uma proporção esplêndida. No entanto, em 1934-38, a taxa de natalidade caiu para 25,0 e a taxa de crescimento natural para 12,5.
-
-Então, e o nosso Japão?
-
-| Ano | Nascimentos por 1.000 Habitantes |
-| :--- | :--- |
-| 1911-15 | 33,5 |
-| 1916-20 | 33,0 |
-| 1921-25 | 34,6 |
-| 1926 | 34,6 |
-| 1927 | 33,6 |
-| 1928 | 34,4 |
-| 1929 | 33,0 |
-| 1930 | 32,4 |
-| 1931 | 32,1 |
-
-Em 1916-20, devido à influência da Guerra Mundial, a taxa caiu para um mínimo de 31,6 em 1919 (Taisho 9), e no ano seguinte, talvez por uma reação, subiu para 36,2, estabelecendo um recorde para nosso país. A flutuação da taxa de natalidade durante este período é observada em todos os países do mundo. Portanto, se excluirmos este período e olharmos para o quadro geral, a taxa de natalidade de nosso país mostrou um aumento até o final da Era Taisho e entrou em declínio na Era Showa. Como já mencionado, enquanto todos os países chamados civilizados do mundo estão em uma tendência de declínio da taxa de natalidade há cem anos, ou no mínimo quarenta a cinquenta anos, o fato de nosso país ter mostrado um aumento na taxa de natalidade é algo que tem chamado a atenção dos estudiosos.
-
-Diante disso, hoje o declínio da taxa de natalidade tornou-se uma lei de ferro populacional nos países civilizados. A tabela a seguir mostra o quanto os países civilizados do mundo diminuíram sua taxa de natalidade.
-
-| País | Anos | Percentual de Declínio da Taxa de Natalidade |
-| :--- | :--- | :--- |
-| França | 120 anos | 45% |
-| Reino Unido | 50 anos | 50% |
-| Alemanha | 50 anos | 50% |
-| Itália | 40 anos | 25% |
-| Bélgica | 90 anos | 40% |
-| Suécia | 100 anos | 50% |
-| Noruega | 70 anos | 40% |
-| Suíça | 50 anos | 40% |
-
-Em suma, a França foi apenas a primeira a iniciar o declínio da taxa de natalidade. Todos os outros países, com maior ou menor atraso, seguiram o mesmo caminho, e hoje alguns a alcançaram, enquanto outros a ultrapassaram.
-
-A época em que a taxa de natalidade da França era excepcionalmente baixa já passou. Hoje, os tempos mudaram completamente, e a situação atual dos países europeus é a seguinte (1929):
-
-| País | Nascimentos por 10.000 Habitantes |
-| :--- | :--- |
-| França | 177 |
-| Suíça | 171 |
-| Reino Unido | 167 |
-| Noruega | 173 |
-| Áustria | 167 |
-| Suécia | 152 |
-
-O fato de o declínio da taxa de natalidade ser acompanhado pelo declínio da taxa de mortalidade é geralmente o mesmo em todos os países, mas como o declínio da taxa de natalidade é, sem exceção, maior que o declínio da taxa de mortalidade, a taxa de crescimento diminui. Como exemplo, apresentamos as estatísticas da França:
-
-| Ano | Mortes por 10.000 Habitantes | Excedente de Nascimentos |
-| :--- | :--- | :--- |
-| 1801-10 | 286 | 73 |
-| 1811-20 | 260 | 53 |
-| 1821-30 | 248 | 58 |
-| 1831-40 | 247 | 42 |
-| 1841-50 | 232 | 41 |
-| 1851-60 | 237 | 24 |
-| 1861-70 | 235 | 27 |
-| 1871-80 | 237 | 17 |
-| 1881-90 | 221 | 18 |
-| 1891-1900 | 215 | 16 |
-| 1901-10 | 194 | 12 |
-| 1913 | 176 | 15 |
-
-A taxa de mortalidade caiu consideravelmente até 1913, ou seja, 39%, mas como a taxa de natalidade caiu ainda mais, o excedente de nascimentos foi afetado. Do final do século XIX ao início do século XX, o excedente foi muito fraco, e até apareceram anos com excedente de mortes. Não é de se estranhar que os intelectuais franceses tenham clamado pela extinção de seu país. Finalmente, em 1938, o país registrou um déficit de cerca de 130.000 pessoas.
-
-Finalmente, apresentemos novamente as estatísticas de nosso país.
-Atingindo um pico de 36,19 por mil habitantes em 1920, a taxa de natalidade mostrou uma tendência de queda desde então, e a taxa de mortalidade também mostrou uma tendência semelhante.
-
-| Ano | Taxa de Natalidade | Taxa de Mortalidade |
-| :--- | :--- | :--- |
-| Taisho 9 (1920) | 36,19 | 25,41 |
-| Taisho 10 | 35,06 | 23,69 |
-| Taisho 11 | 34,16 | 23,32 |
-| Taisho 12 | 34,94 | 23,78 |
-| Taisho 13 | 33,79 | 21,13 |
-| Taisho 14 | 34,92 | 20,27 |
-| Showa 1 (1926) | 34,77 | 19,18 |
-| Showa 2 | 33,61 | 19,80 |
-| Showa 3 | 34,38 | 19,91 |
-| Showa 4 | 33,00 | 20,04 |
-| Showa 5 | 32,35 | 18,17 |
-| Showa 6 | 32,17 | 18,98 |
-| Showa 7 | 32,91 | 17,73 |
-| Showa 8 | 31,55 | 17,76 |
-| Showa 9 | 29,97 | 18,11 |
-| Showa 10 | 31,63 | 16,78 |
-| Showa 11 | 29,92 | 17,51 |
-| Showa 12 | 30,61 | 16,95 |
-| Showa 13 | 26,70 | 17,44 |
-
-Como se vê na tabela acima, embora haja algumas flutuações de ano para ano, pode-se ver claramente que tanto a taxa de natalidade quanto a de mortalidade estão diminuindo gradualmente. Ou seja, a taxa de natalidade, que era de 36,19 em 1920, caiu drasticamente para 26,70 em 1938, dezoito anos depois. No entanto, a taxa de mortalidade também caiu drasticamente de 25,41 em 1920 para 16,78 em 1935, mas aumentou para 17,44 dois anos depois, em 1938. Pode-se imaginar que o ano de 1938 também tenha sido influenciado pelo Incidente da China. O fato de tanto a taxa de natalidade quanto a de mortalidade estarem diminuindo é algo a ser observado. A opinião pública interpreta a diminuição gradual da taxa de mortalidade como resultado do progresso da medicina, mas isso é um erro, e explicarei a causa em detalhes mais adiante.
-
-Supondo que tanto a taxa de natalidade quanto a de mortalidade mantenham essa tendência, a previsão futura calculada pelo Dr. Tomonaga Nakagawa é a seguinte:
-
-| Ano | Taxa de Natalidade | Taxa de Mortalidade | Taxa de Crescimento Natural |
-| :--- | :--- | :--- | :--- |
-| Showa 10 (1935) | 31,63 | 16,78 | 14,85 |
-| Showa 15 | 28,78 | 15,30 | 13,48 |
-| Showa 20 | 27,47 | 14,06 | 13,41 |
-| Showa 25 | 26,52 | 12,99 | 13,53 |
-| Showa 30 | 25,27 | 12,10 | 13,17 |
-| Showa 35 | 23,57 | 11,32 | 12,25 |
-| Showa 40 | 21,85 | 10,90 | 10,95 |
-| Showa 45 | 20,30 | 11,04 | 9,26 |
-| Showa 50 | 19,13 | 11,44 | 7,69 |
-| Showa 55 | 18,25 | 11,88 | 6,37 |
-| Showa 60 | 17,33 | 12,57 | 4,76 |
-| Showa 65 | 16,28 | 13,09 | 3,19 |
-| Showa 70 | 15,21 | 13,70 | 1,51 |
-| Showa 75 | 14,21 | 14,27 | (-)0,06 |
-| Showa 80 | 13,35 | 15,08 | (-)1,73 |
-| Showa 85 | 12,60 | 15,69 | (-)3,09 |
-| Showa 90 | 11,90 | 16,06 | (-)4,16 |
-| Showa 95 | 11,20 | 17,35 | (-)6,15 |
-
-Observando a tabela acima, a taxa de natalidade diminui gradualmente. Em 1960, aproxima-se da recente taxa de natalidade da Itália, 23,6. Em 1975, da recente taxa de natalidade da Alemanha, 19,7. Em 1990, da recente taxa de natalidade do Reino Unido, 15,1. Em 1995, da recente taxa de natalidade da França, 14,6. A tendência de queda da taxa de natalidade continua, e calcula-se que em 2015 ela cairá para 11,20. Essa taxa de natalidade é aproximadamente equivalente à da França durante a Primeira Guerra Mundial. Em seguida, observando a queda da taxa de mortalidade, em 1940, ela se aproxima da recente taxa de mortalidade da França, 15,4. Em 1945, da recente taxa de mortalidade da Itália, 13,9. Em 1960, da recente taxa de mortalidade do Reino Unido, 11,6, e da Alemanha, 11,7. Em 1965, da recente taxa de mortalidade dos Estados Unidos, 10,7. No entanto, a taxa de mortalidade de nosso país não tem perspectiva de cair além disso. A partir de 1965, ela volta a subir e, em 2015, calcula-se que será ainda maior que a taxa de mortalidade de 1935. A razão pela qual a taxa de mortalidade diminui gradualmente de 1935 a 1965 é que, com a queda da taxa de natalidade, a proporção de bebês e crianças pequenas com alto risco de mortalidade diminui, enquanto a proporção de jovens e adultos com risco de mortalidade relativamente baixo aumenta. No entanto, a partir de 1965, embora a proporção de bebês e crianças pequenas com alto risco de mortalidade continue a diminuir, por outro lado, a proporção de idosos com alto risco de mortalidade aumenta gradualmente.
-
-Em seguida, observando a evolução da taxa de crescimento natural, como a queda da taxa de natalidade é maior que a queda da taxa de mortalidade, a taxa de crescimento natural diminui gradualmente. No entanto, até 1955, ainda é possível manter uma taxa de crescimento natural acima de 13. Mas, a partir de 1965, enquanto a taxa de natalidade continua a diminuir, a taxa de mortalidade mostra uma tendência de aumento gradual, de modo que a taxa de crescimento natural diminui acentuadamente. Em 1965, é um pouco menor que a recente taxa de crescimento natural da Itália, 9,7. Em 1975, um pouco menor que a recente taxa de crescimento natural da Alemanha, 8,0. Em 1985, é quase a mesma que a recente taxa de crescimento natural do Reino Unido, 3,5. E em 1995, a taxa de mortalidade supera a taxa de natalidade, e a taxa de crescimento natural se torna negativa – ou seja, o número absoluto da população começa a diminuir. Mesmo com base em tais cálculos estatísticos, ninguém pode permanecer indiferente ao futuro desenvolvimento de nosso povo. Não há necessidade de discutir que, diante dessa crise que se manifesta na realidade, devemos estabelecer uma política fundamental e abrangente. É natural que o governo tenha estabelecido recentemente o Bureau de População e esteja tomando medidas urgentes.
-
-A seguir, supondo que a taxa de natalidade e a taxa de mortalidade futuras mantenham a tendência de queda dos últimos anos, a população futura de nosso país, calculada pelo Dr. Nakagawa, é mostrada na tabela a seguir. No entanto, é preciso observar que a influência do Incidente da China não foi considerada.
-
-| Ano | População Total |
-| :--- | :--- |
-| Showa 10 (1935) | 69.254.148 |
-| Showa 15 | 73.939.278 |
-| Showa 20 | 78.985.589 |
-| Showa 25 | 84.336.487 |
-| Showa 30 | 90.107.431 |
-| Showa 35 | 95.955.701 |
-| Showa 40 | 101.608.567 |
-| Showa 45 | 106.857.962 |
-| Showa 50 | 111.453.360 |
-| Showa 55 | 115.379.596 |
-| Showa 60 | 118.554.200 |
-| Showa 65 | 120.914.010 |
-| Showa 70 | 122.328.494 |
-| Showa 75 | 122.741.777 |
-| Showa 80 | 122.186.682 |
-| Showa 85 | 120.737.750 |
-| Showa 90 | 118.492.685 |
-| Showa 95 | 115.465.385 |
-| Showa 100 | 111.776.766 |
-
-Observando a tabela acima, embora a taxa de crescimento natural esteja diminuindo gradualmente, ela é positiva até 1995, de modo que a população total nesse ano é a mais alta, atingindo mais de 122,74 milhões. A partir de então, a população total começa a diminuir, mas em 2020, ainda terá uma população muito maior que os 73,93 milhões de 1940. O fato de que, mesmo em 2020, excluindo a influência do Incidente da China, haverá uma população de mais de 100 milhões dá uma sensação de força à primeira vista, mas o que deve ser observado aqui é que, a partir de 1995, o número absoluto da população de nosso país diminuirá gradualmente. Ou seja, dará um passo em direção ao declínio do povo. Portanto, 1995 é a encruzilhada do declínio do povo. O fato de que um dos objetivos do esboço da política populacional do governo seja “garantir o desenvolvimento eterno da população” provavelmente levou em consideração este ponto.
-
-Como vimos acima, ao examinar a dinâmica populacional em nosso Japão e em outros países, o fato da queda na taxa de crescimento já se tornou uma grande lei de ferro, sem exceção, em todos os países. Como contramedida, as políticas que estão sendo implementadas em vários países até hoje, como se sabe, têm como principais medidas para aumentar a taxa de natalidade a redução da idade do casamento e a prevenção da contracepção e do aborto, e, especialmente em nosso país, a melhoria da alta taxa de mortalidade por tuberculose e da mortalidade infantil. Outras medidas seriam a prevenção da concentração da população nas cidades, ou seja, a redistribuição da população, a exaltação da consciência nacional, a reconfirmação do sistema familiar, etc.
-
-No entanto, afirmo que todas as medidas acima são paliativas, não de raiz, e, embora possam ter algum efeito, não conseguirão de forma alguma impedir a tendência geral. Não é preciso dizer que todas as coisas têm uma causa e um resultado. Naturalmente, a queda na taxa de crescimento populacional não está fora dessa lei. Portanto, não pode haver uma contramedida fundamental além de descobrir sua causa e removê-la. No entanto, o fato de que essa causa não foi descoberta por ninguém até hoje foi, por sua vez, uma segunda causa.
-
-No entanto, essa causa – ou seja, o enigma mencionado no início – será explicada na próxima seção.
-
-### O Problema da Queda na Taxa de Crescimento Populacional
-
-Pelas estatísticas dos vários países apresentadas até agora, a tendência do problema populacional do Japão e do mundo atual deve ter sido compreendida. Em resumo, pode-se reduzir a dois pontos:
-1.  Na Europa, a queda na taxa de crescimento começou após meados do século XIX; no Japão, após 1921.
-2.  A causa da diminuição da taxa de mortalidade e da taxa de crescimento ocorrerem em paralelo.
-
-Vamos analisar profundamente esses dois pontos.
-Como causa do ponto 1, afirmo categoricamente que é a própria vacinação antivariólica, que a humanidade mundial considera como um salvador.
-A vacinação antivariólica, como se sabe, foi descoberta por Edward Jenner, que nasceu em Berkeley, Inglaterra, em 1749 e faleceu em 1823. Ele era filho de um clérigo e, em 1792, obteve o título de médico em Londres. Por volta de 1770, as moças gregas inseriam uma agulha nas pústulas de pacientes com varíola e, ao introduzir o pus na pele, contraíam uma forma leve da doença e escapavam das cicatrizes graves. Posteriormente, soube-se que a varíola bovina poderia substituir a varíola humana. Em 14 de maio de 1796, ele inoculou a varíola bovina no braço de seu próprio filho e confirmou seu sucesso, e em 1798, anunciou finalmente o método de vacinação.
-
-Em nosso país, a primeira vacina chegou no segundo ano da Era Kaei (1849). Em seguida, no quinto ano da Era Ansei (1858), o Instituto de Vacinação foi inaugurado em Otamagaike, Kanda, e o Instituto de Medicina Ocidental foi estabelecido, posteriormente renomeado para Instituto de Medicina, que é a atual Faculdade de Medicina da Universidade Imperial. Depois disso, no início da Era Meiji, Nagayo Sensai retornou da Europa e transmitiu o método de vacinação usando vacas para a produção da vacina. Em junho do sétimo ano da Era Meiji, o Posto de Transmissão de Varíola Bovina foi estabelecido em Bakurocho, Tóquio, e, em seguida, o Instituto de Doenças Infecciosas passou a produzir a vacina, e a varíola bovina passou a ser usada para inocular a população em geral e obter imunidade à varíola.
-
-Aqui, gostaria de esclarecer que, na medicina, imunidade parece significar não desenvolver a doença. No entanto, se avançarmos um passo no raciocínio, a seguinte teoria se estabelece. Não desenvolver a doença pode significar que a toxina da varíola foi eliminada e desapareceu, ou que, mesmo com a presença da toxina, a doença não se manifesta por alguma razão. A razão é a seguinte: os seres humanos nascem com toxinas hereditárias congênitas, como as da varíola, sarampo, coqueluche, etc. A toxina da varíola, em particular, é temida por sua natureza maligna. A manifestação da varíola ocorre quando, através da ação purificadora natural do corpo, a toxina da varíola tenta ser expelida para o exterior e se acumula sob a pele em todo o corpo. Ela é pressionada de dentro para fora. Isso se manifesta como erupções na pele, e cada pústula se rompe e o pus é expelido – esse processo é chamado de doença da varíola. A febre nesse momento é uma ação de dissolução natural para facilitar a expulsão da toxina. Portanto, ao observar a própria varíola, qualquer pessoa pode concordar com essa razão.
-
-A vacinação antivariólica, no entanto, suprime essa ação de eliminação da toxina da varíola (doravante abreviada como toxina natural). Ela enfraquece a força purificadora. Em outras palavras, transforma o positivo em negativo. Essa toxina natural negativada, ou seja, a toxina natural negativada, perde sua força de eliminação e permanece no corpo. E que ação essa toxina natural negativada que permaneceu no corpo exerce? Ela se torna a causa da tuberculose, miopia, doenças renais, amigdalite, doenças da cabeça e todas as outras enfermidades. Além disso, a permanência da toxina natural negativada enfraquece as funções de todo o corpo, promovendo, naturalmente, o declínio da condição física geral e a queda na taxa de fertilidade feminina. Esta é a verdadeira causa do surgimento do problema populacional.
-
-Isso se manifesta claramente nas estatísticas populacionais. Na Europa, foi após a descoberta da vacinação. Como mostram as estatísticas, a França foi a primeira, mostrando sinais de diminuição na taxa de crescimento trinta ou quarenta anos após a descoberta da vacinação. A Inglaterra e a Alemanha, cerca de setenta ou oitenta anos depois. Em nosso país também, seguindo quase o mesmo caminho da Europa, os sinais começaram a aparecer cerca de cinquenta ou sessenta anos após a vacinação em geral se tornar comum.
-
-Vejamos outro exemplo. A taxa de natalidade de 40 por mil dos chineses, cuja medicina e higiene social são imperfeitas, deve-se inteiramente ao fato de não praticarem a vacinação, não é preciso dizer. Outros exemplos: o fato de o vencedor da maratona na décima primeira Olimpíada, Son Kitei, ser coreano; o fato de os vencedores do primeiro e segundo lugares no levantamento de peso no Campeonato de Educação Física do Japão do ano passado serem ambos coreanos; o fato de a equipe coreana ter vencido a corrida de revezamento de Fukuoka a Osaka no mesmo ano; a surpreendente força e resistência dos coolies da Manchúria, com sua dieta extremamente desnutrida e condições anti-higiênicas – todos esses são fatos incontestáveis de quão robustos e resistentes são os povos não vacinados. Ao comparar povos vacinados e não vacinados, espero uma investigação mais aprofundada sobre a enorme diferença existente. Portanto, se a situação atual continuar, o que acontecerá? A disparidade na força dos povos aumentará cada vez mais, e quem pode negar que virá uma era terrível em que os povos civilizados se extinguirão e os povos não civilizados prosperarão? Diante dessa realidade inegável, não podemos fechar os olhos.
-
-Vamos agora explicar como a toxina natural negativada se torna a causa de todas as doenças. Com isso, será impossível não reconhecer como a medicina até hoje errou em sua raiz.
-Primeiro, o que é a doença? “O que é a doença?” talvez seja a questão que mais atormentou a mente humana ao longo dos tempos. Quantos milhares, dezenas de milhares de intelectuais em todo o mundo dedicaram suas vidas para resolver esse enigma? E que até hoje não conseguiram resolvê-lo, todos sabem bem. O que foi resolvido até agora é, na medicina chinesa, o desequilíbrio dos cinco órgãos e seis vísceras; na medicina ocidental, a teoria da degeneração celular de Virchow, a descoberta das bactérias por Koch na Alemanha e Pasteur na França, etc., que constituíram a medicina de hoje. Portanto, qualquer teoria até hoje considera a doença como algo que destrói a saúde e, em última instância, ameaça a vida. A religião a considera uma advertência de Deus ou um castigo pelos pecados e impurezas. Consequentemente, a doença tornou-se algo a ser lamentado, temido e amaldiçoado. Minha teoria, no entanto, é completamente oposta: “A doença é a maior graça que Deus concedeu ao homem, e por sua causa a saúde humana é mantida e a longevidade é estendida”. Portanto, o homem deve oferecer a maior gratidão pela doença. Ao lerem tal teoria, provavelmente não deixarão de se surpreender com sua estranheza. Então, em que razão ela se baseia? Explicarei em detalhes a seguir.
-
-### A Verdadeira Causa da Doença
-
-Quando um ser humano nasce neste mundo, ele possui toxinas hereditárias, principalmente a toxina da varíola mencionada no início, além de várias outras, como já expliquei. Como a saúde não pode ser perfeitamente mantida devido ao obstáculo dessas toxinas, o corpo humano é feito de forma que uma ação purificadora natural ocorre constantemente para que elas sejam expelidas para fora do corpo. Quando essa ação purificadora ocorre, ela é acompanhada de um certo grau de sofrimento, e esse sofrimento foi chamado de “doença”. Para explicar este exemplo, tomemos a doença mais comum – ou seja, o resfriado. Pois não há ninguém que não tenha experimentado um resfriado. E embora essa doença ainda seja considerada de causa desconhecida pela medicina, segundo minha descoberta, ela é uma das formas mais simples de ação purificadora. Quando se contrai um resfriado, surgem febre, dor de cabeça, tosse, coriza, catarro, falta de apetite, cansaço geral, dores nos membros, etc. Qual a razão disso? Pela primeira ação purificadora, que ocorre constantemente, as toxinas acumuladas em várias partes do corpo iniciaram uma atividade para serem eliminadas pela segunda ação purificadora.
-
-Aqui, é necessário explicar o que é a ação purificadora. A ação purificadora é o processo pelo qual substâncias impuras do corpo, como a toxina natural, a toxina úrica, as toxinas medicamentosas, etc., através de uma ação purificadora constante, acumulam-se e se solidificam gradualmente em um determinado local. E onde é o local de acúmulo? É especialmente nos lugares onde se usam os nervos, e explicarei esses lugares em detalhes mais adiante. De qualquer forma, a ação de eliminação desse acúmulo de toxinas ocorre – e esse é o início da doença. Portanto, a ação purificadora pode ser dividida em dois tipos: um é a ação de acumular e solidificar toxinas em um determinado local do corpo; o outro é a ação de eliminar do corpo as toxinas uma vez solidificadas. No primeiro caso, como ainda não há grande sofrimento, não se considera uma doença. No entanto, o enrijecimento dos ombros ou do pescoço é isso. Em seguida, no segundo caso, ocorre a ação de dissolução desse enrijecimento, que são os sintomas do resfriado. Ou seja, esse sofrimento é a doença. O ditado popular de que “quando os ombros enrijecem, pega-se um resfriado” se baseia nesse princípio.
-
-Como expliquei acima, a febre é uma ação de dissolução para facilitar a eliminação do acúmulo de toxinas, e as toxinas dissolvidas e liquefeitas são a coriza e o catarro. Elas também podem se tornar suor, urina, diarreia, etc. No entanto, mesmo as toxinas líquidas, quando ainda são concentradas, são difíceis de eliminar, e para isso ocorre uma ação de sucção. Isso é o espirro e a tosse. O espirro é para sugar a coriza, e a tosse é uma ação de bombeamento para sugar o catarro. Isso fica claro pelo fato de que após o espirro sai coriza e após a tosse se expectora. A falta de apetite se deve à febre, à expectoração e aos medicamentos. A dor ocorre porque as toxinas acumuladas no local se dissolvem, tornam-se toxinas líquidas e, ao se moverem para serem eliminadas, irritam os nervos. A dor de garganta ocorre porque as toxinas contidas no catarro entram em contato com a mucosa, irritando-a e causando catarro. A rouquidão ocorre porque, pelo mesmo princípio, as cordas vocais e as válvulas sofrem de catarro, o que dificulta o funcionamento das válvulas de fonação. A dor de cabeça é a irritação da ação de eliminação das toxinas líquidas dissolvidas pela febre nas toxinas do pescoço ou da cabeça.
-
-O resfriado é isso. Portanto, se deixado em paz, sem nenhum tratamento ou medicamento, a ação purificadora ocorrerá sem problemas e a cura completa virá em pouco tempo. Portanto, o fato de a ação purificadora ocorrer tão facilmente com um resfriado é uma verdadeira bênção celestial. Por esse princípio, cada vez que se contrai um resfriado, as toxinas diminuem. Se um resfriado for curado naturalmente, o próximo será invariavelmente mais leve, e o intervalo entre os resfriados também se prolongará gradualmente, até que finalmente não se contraia mais resfriados. Isso porque, ao se tornar livre de toxinas, a necessidade do resfriado desaparece. Ao atingir este estágio, mesmo que se contraia um resfriado raramente, como a toxina é mínima, quase não há febre, apenas um pouco de coriza e catarro, e pode-se dizer que não há outros sofrimentos. Pode-se continuar com as atividades diárias e a cura ocorre quase sem que se perceba.
-
-No entanto, todas as teorias médicas até hoje são o oposto disso. O resfriado é temido como um prelúdio de uma doença grave. Desde os tempos antigos, diz-se que “o resfriado é a base de todas as doenças”, e hoje é temido como a porta de entrada para a tuberculose. Mas, por esse princípio, o resfriado é “a causa de se evitar todas as doenças”, um método para não contrair tuberculose. Portanto, contrair um resfriado é algo a se alegrar, e “fazer com que se contraia um resfriado” é a primeira condição para promover a saúde.
-
-Por desconhecerem esse princípio, todas as terapias até hoje temem o resfriado, consideram o sofrimento causado por ele como uma ação de agravamento e o suprimem. O primeiro método para isso é o uso de medicamentos. Todos os medicamentos são toxinas. Um grande mestre da medicina chinesa antiga disse: “Todos os remédios são venenos. Portanto, curar doenças com remédios é combater veneno com veneno”. É uma verdade absoluta.
-Ou seja, como se usa uma substância venenosa chamada remédio, as funções do corpo enfraquecem. Como as funções enfraquecem, a ação purificadora é interrompida. O método de compressas de gelo também interrompe a ação purificadora, aliviando a febre e a dor. Os emplastros são semelhantes. O corpo humano respira não apenas pelas narinas, mas também pelos capilares da pele. O emplastro interrompe essa respiração, enfraquecendo a ação purificadora naquela parte e aliviando a dor. Todos esses vários métodos suprimem e interrompem a ação purificadora. Portanto, a dor diminui, os sintomas da doença desaparecem e, por um tempo, apresenta-se um estado de cura. No entanto, essa não é a verdadeira cura em que as toxinas foram eliminadas. É apenas a solidificação novamente das toxinas que haviam iniciado a ação purificadora. Em outras palavras, é simplesmente um retorno ao estado anterior ao início da ação purificadora. Consequentemente, com o tempo, a ação purificadora ocorrerá novamente, e se pegará um resfriado novamente, o interromperá novamente, e pegará um resfriado novamente, e assim por diante. De fato, há muitas pessoas assim no mundo, como todos sabem. E o problema é que as toxinas medicamentosas são adicionadas a cada vez, de modo que as toxinas a serem purificadas aumentam cada vez mais. Consequentemente, é natural que o resfriado se torne gradualmente mais maligno. Como resultado, a pneumonia, etc., ocorre.
-
-Originalmente, a doença chamada pneumonia é uma forma intensa de ação purificadora. Pode-se dizer que é uma forma grave de resfriado. Como mencionado anteriormente, como a pequena ação purificadora do resfriado é suprimida, as toxinas se acumulam e aumentam a cada vez, e isso se manifesta de uma vez como uma grande ação purificadora reativa.
-
-Como a medicina atual partiu de um erro fundamental, é natural que, quanto mais a medicina progride, mais doentes surjam e mais a condição física decline. Portanto, o progresso da medicina não é um progresso que cura doenças, mas sim “um progresso que não cura doenças”. A diminuição na taxa de crescimento populacional também tem como principal causa a queda na taxa de fertilidade feminina, como os estudiosos reconhecem. A morte de bebês e crianças pequenas e o aumento da tuberculose também se devem, naturalmente, ao erro da medicina atual.
-
-Em segundo lugar, a razão pela qual a queda na taxa de crescimento populacional e a diminuição da taxa de mortalidade ocorrem em paralelo é a seguinte. O fato de que, nos países civilizados da Europa, as doenças infecciosas e a tuberculose pulmonar diminuíram nos últimos anos é atribuído ao progresso da higiene social, mas essa é apenas uma parte da razão, não a razão geral. Naturalmente, a perfeição das instalações sanitárias teve algum efeito, mas a causa fundamental é o declínio da força física. Dizer que as doenças infecciosas diminuem porque a força física diminuiu pode parecer muito estranho, mas a realidade é esta. Originalmente, doenças infecciosas e tuberculose, etc., devem-se à intensidade da ação purificadora devido à força física vigorosa. Portanto, é natural que, em um povo cuja força física diminuiu, a ação purificadora não possa ocorrer intensamente. O fato de haver muitas doenças infecciosas entre o povo chinês se deve mais à sua força física vigorosa do que à sua indiferença à higiene.
-
-Se levarmos essa teoria adiante, chegaremos ao seguinte. Para facilitar a compreensão, vamos dividir os seres humanos em três tipos. O primeiro tipo é o de corpo perfeitamente saudável, sem toxinas, portanto, a doença não pode ocorrer. O segundo tipo é o de pessoas com toxinas e força física vigorosa, portanto, a ação purificadora ocorre facilmente (a maioria das pessoas pertence a este tipo). O terceiro tipo é o de pessoas com toxinas, mas cuja força física é fraca, portanto, a ação purificadora não pode ocorrer ou, se ocorrer, é fraca. Apenas quando pessoas desse tipo fortalecem um pouco sua força física através de exercícios, etc., ela ocorre. Portanto, essas pessoas, se usarem imediatamente medicamentos e repousarem, retornarão ao estado anterior e se recuperarão temporariamente. Essas pessoas se esforçam para evitar o excesso de trabalho.
-
-No entanto, como a medicina de hoje desconhece esse princípio, ela tenta transformar as pessoas do segundo tipo no terceiro tipo. Como exemplo disso, o fato de que as crianças da cidade e os filhos de médicos, ou seja, aqueles que têm mais oportunidades de entrar em contato com médicos, são mais fracos, e o fato de haver muitos intelectuais pálidos que seguem fielmente as teorias da medicina e higiene de hoje, são a prova mais contundente. É claro que, mesmo que se tente melhorar as pessoas do segundo tipo para o primeiro, o método é impossível com a medicina moderna.
-
-E qual é a razão da morte? Desde os tempos antigos, diz-se que se morre de doença, mas, na verdade, morrer de doença é extremamente raro. A maioria morre porque “a doença é suprimida”. Como expliquei repetidamente, como se aplicam métodos de supressão à ação purificadora, as toxinas não são eliminadas e retornam, e as toxinas medicamentosas são adicionadas. Isso se repete em conflito com a ação purificadora. Isso aumenta o enfraquecimento e, finalmente, leva à perda da vida.
-
-Outra razão é que, nos povos civilizados, como as instalações médicas são completas, o tratamento médico é aplicado imediatamente em caso de doença. Isso, como expliquei acima, leva à interrupção da purificação e ao acréscimo de toxinas medicamentosas, enfraquecendo a condição física. Nos povos não civilizados, em caso de doença, eles a deixam em paz e confiam na cura natural, de modo que a ação purificadora ocorre completamente. Isso se torna a causa da força física vigorosa.
-
-Portanto, como resultado, a força física dos povos civilizados diminui. Como diminui, a ação purificadora se torna fraca e a oportunidade de adoecer diminui. Como diminui, a taxa de mortalidade é baixa. Pelo contrário, na época em que os povos civilizados de hoje ainda tinham uma ação purificadora vigorosa, a oportunidade de adoecer era grande. Como era grande, eles recebiam tratamento médico. Como o tratamento médico era contraproducente, a taxa de mortalidade era alta. Esta é a verdadeira causa de haver uma alta taxa de mortalidade na época em que a força física era vigorosa e a taxa de natalidade era alta.
-
-No entanto, não se pode negar que há méritos consideráveis na medicina moderna, mas o problema é que há erros muitas vezes maiores que seus méritos, e isso se tornou a causa do problema populacional e de outros problemas. Vamos agora examinar de todos os ângulos como esses erros são surpreendentes e terríveis.
-
-E quanto à solução do problema populacional, não é preciso dizer que a solução está na abolição da “vacinação antivariólica”, sua causa fundamental, e na solução da toxina da varíola por ela causada. No entanto, deixarei isso para outra seção e, em seguida, discutirei o problema da tuberculose pulmonar e da mortalidade infantil.
-
-### O Problema da Tuberculose e sua Tendência
-
-Em relação ao problema populacional, o mais importante é o problema da tuberculose. Qual é a situação da tuberculose? Vamos mostrar com base em vários materiais de pesquisa (devido à situação de guerra, não houve anúncios de pesquisa nos últimos anos, e os materiais a seguir, lamentavelmente, param por volta de 1936).
-Nos principais países civilizados do mundo, a tuberculose tem diminuído ano a ano nos últimos quarenta ou cinquenta anos, mas apenas em nosso país tem aumentado. O número de mortes por tuberculose mostra um aumento de cerca de 30% em comparação com trinta anos atrás, e em 1933, atingiu mais de 126.700, superando em quatro ou cinco vezes o número total de mortes por doenças infecciosas como disenteria, febre tifoide e cólera. ……………… Além disso, estima-se que o número de pacientes com tuberculose seja dez vezes o número de mortes, ou seja, não menos de 1,2 milhão, o que, dividido pela população, significa uma pessoa a cada cinquenta. E como esses números se baseiam nas declarações de óbito, é claro que há muitas mortes ocultas sob outros nomes de doenças. Recentemente, a Polícia Metropolitana, a Prefeitura de Tóquio e a Associação de Prevenção da Tuberculose do Japão investigaram e descobriram que o número de mortes por tuberculose na cidade de Tóquio em 1935 foi de 15.475, cerca de três vezes o número de mortes por doenças infecciosas de notificação compulsória aguda, e que a província de Tóquio responde por mais de 10% das mortes por tuberculose em todo o país. Consequentemente, estima-se que o número de pacientes com tuberculose na cidade seja de cerca de 150.000, o que, com uma população total de seis milhões, significa uma pessoa a cada quarenta. A taxa de morbidade desta doença é mais alta entre os jovens adultos. De acordo com as estatísticas de mortes de 1935 investigadas pelo Departamento de Saúde da Cidade de Tóquio, o maior número é de 2.196 pessoas de 20 a 24 anos, 18,5%; em seguida, 1.930 pessoas de 15 a 19 anos, 16,6%; e depois 1.789 pessoas de 25 a 29 anos, 15,4%.
-
-De acordo com o anúncio do Departamento de Higiene do Ministério do Interior de 1933, o número de mortes por tuberculose do sistema respiratório foi de 13,9 por 10.000 habitantes; por outras formas de tuberculose, 4,9; e por bronquite, pneumonia e pleurisia, 22,2. Com base no censo de 1º de novembro de 1935, com uma população no Japão continental de 34.731.860 homens e 34.519.405 mulheres, totalizando 69.251.265 pessoas, o número de mortes por tuberculose respiratória de 13,9 significa 96.259 pessoas, e por outras formas de tuberculose, 4,9, significa 34.033 pessoas, totalizando 130.292 pessoas.
-
-No entanto, no caso de mortes por tuberculose, muitas vezes a causa da morte é registrada como uma complicação, por um desejo de negar a tuberculose, especialmente em casos de pneumonia, pleurisia, bronquite, etc., de modo que se pode supor que o número real seja mais do que o dobro. Por exemplo, de acordo com o anúncio do Departamento de Higiene, o número de mortes por pneumonia por 10.000 habitantes é de 15,8; por bronquite, 3,8; e por pleurisia, 2,6, totalizando 22,2. Se calcularmos com base nisso, de 153.737 mortes por essas doenças na população continental, uma certa porcentagem pode ser considerada como mortes por tuberculose. Especialmente do ponto de vista dos jovens que constituem o núcleo da nação, se compilarmos os anúncios do Ministério do Exército, por volta de 1922 a 1926, 25% dos jovens eram de constituição física de classe C e D, mas na média de 1927 a 1932, saltou para 36%, e na pesquisa de 1935, atingiu 40%, uma situação verdadeiramente lamentável.
-
-Além disso, o número de pessoas dispensadas do serviço militar por tuberculose após o alistamento, que era de apenas 2% por volta de 1904-05, atingiu 20% em 1935, dez vezes mais, o que é surpreendente. Especialmente se compilarmos o fato de que 90% dos soldados doentes enviados de volta da Manchúria, onde as mudanças climáticas têm grande influência, são na verdade doentes de tuberculose, isso mostra vividamente o quanto a constituição física dos jovens diminuiu.
-
-Além disso, ao observar a constituição física das crianças do ensino fundamental com base na pesquisa do Ministério da Educação, observa-se um aumento anual de crianças com constituição linfática e fraca. Por exemplo, de acordo com o anúncio do Departamento de Educação da Cidade de Tóquio, 22% do total de crianças do ensino fundamental na cidade de Tóquio, 154.000, são crianças de constituição fraca e linfática. Dentre elas, 42.000 estão em estado de risco e 3.500 já estão infectadas com tuberculose, o que surpreendeu as autoridades. As autoridades e as organizações sociais perceberam que a situação não podia ser ignorada e, em 1936, o país inteiro dedicou todos os seus esforços para a prevenção e erradicação da tuberculose. O Ministério do Exército destinou cinco milhões de ienes, o Ministério da Educação quatro milhões, a cidade de Tóquio quinze milhões, a Polícia Metropolitana um milhão, etc., e todos os seus conhecimentos e habilidades foram dedicados ao resgate de crianças do ensino fundamental, ao socorro de jovens ou soldados, e à prevenção e resgate das classes mais baixas.
-
-Em seguida, o Departamento de Higiene da Cidade de Tóquio realizou uma pesquisa sequencial em 12.796 alunos do ensino fundamental de sete distritos da cidade ao longo de dois anos, a partir de 1934. O resultado foi que mais de 38% dos pesquisados estavam infectados com tuberculose, e mais de mil pessoas precisavam ser isoladas em hospitais ou eram suspeitas de estarem no estágio inicial. Se extrapolarmos isso para os 720.000 alunos do ensino fundamental da cidade, mais de 270.000 estão infectados com tuberculose, e 50.000 a 60.000 são suspeitos ou estão em estado grave, um número aterrorizante. Esta pesquisa foi realizada principalmente em centros de saúde nos distritos de Koishikawa, Shibuya, Shitaya, Honjo, Nakano, Omori e Arakawa, em 12.796 meninos e meninas do sexto ano. Foi uma pesquisa em grande escala que usou a injeção da reação de Mantoux e raios-X. O resultado foi que 4.879 crianças, ou 38,13% dos pesquisados, reagiram positivamente à reação de Mantoux, ou seja, estavam infectadas com tuberculose. Dentre elas, 69 tinham tuberculose aberta e precisavam ser imediatamente isoladas em hospitais; 205 tinham os gânglios linfáticos do hilo pulmonar inchados e estavam no estágio inicial de infecção; e 825 tinham sombras no hilo pulmonar nos raios-X e eram suspeitas, um número inesperadamente grande. Em particular, as 205 crianças com gânglios linfáticos inchados precisavam se recuperar em casa, e havia um grande risco de infectar outras crianças se deixadas como estavam, o que é aterrorizante. O Departamento de Higiene, juntamente com o Departamento de Educação, decidiu, com base nesses números, garantir a higiene escolar completa.
-
-A seguir, apresentamos a situação atual do ensino médio. De acordo com os resultados da pesquisa do Departamento de Educação Física do Ministério da Educação sobre as estatísticas de mortes durante a matrícula, abandono por doença e ausência por doença de alunos de escolas secundárias, escolas profissionais e escolas femininas em todo o país no ano fiscal de 1933:
--   **Alunos:** 736.500
--   **Mortes:** 2.092
--   **Abandono por doença:** 3.766
--   **Licença por doença:** 9.734
--   **Ausência por doença de uma semana ou mais:** 47.884
-
-Dentre eles, cerca de 5.800 abandonaram no meio do caminho por doença, e descobriu-se que a maioria se devia a doenças tuberculosas. No entanto, como mencionado anteriormente, há um exemplo de que mais de 10% dos alunos do ensino médio eram pacientes com tuberculose, e a causa não reside apenas no excesso de trabalho para os exames de admissão – o que levanta uma questão importante e preocupante.
-
-A seguir, a opinião das autoridades sobre isso:
-“Acredita-se que haja espaço para pesquisa e melhoria em relação à constituição física dos alunos, à situação familiar, ao tempo de estudo e de exercício, etc. No entanto, em última análise, o fato de se contrair tuberculose se resume ao fato de que o corpo do aluno não possui força suficiente para repelir a invasão do bacilo da tuberculose, e fortalecer essa resistência é, desnecessário dizer, o cerne da solução deste problema.
-Originalmente, o bacilo da tuberculose, em maior ou menor grau, invade nosso corpo desde o nascimento até a idade adulta. Se autópsias forem realizadas em pessoas saudáveis após a morte, a maioria delas mostrará traços de ter tido tuberculose no passado. A taxa de infecção é de 30% em crianças de três ou quatro anos, cerca de metade em crianças de cinco ou seis anos, 86% em crianças de dez anos e 100% em crianças de quatorze ou quinze anos ou mais. No entanto, apesar dessa alta taxa de infecção, o fato de não haver tantas pessoas com sintomas de tuberculose se deve à resistência que impede a atividade dos germes que invadiram nosso corpo. Nesse sentido, a tuberculose é uma doença muito difícil de se desenvolver.
-No entanto, a época do ensino médio e do ensino médio feminino é um momento em que ocorrem mudanças na constituição física, o metabolismo é intenso, a força física é consumida e, no caso das alunas, a resistência diminui muito devido a relações fisiológicas como a primeira menstruação. O excesso de trabalho nos exames e nos exercícios também contribui para um estado de resistência ainda mais reduzido, e o bacilo da tuberculose aproveita essa oportunidade para exercer seu poder. Portanto, os alunos que estão nesse período de risco devem sempre se nutrir bem, recuperar sua força física e se esforçar para melhorar sua resistência.”
-
-A seguir, descreverei em linhas gerais o método de tratamento mais recente para a tuberculose na medicina (de um artigo de um doutor em medicina).
-“Os métodos de tratamento atuais para a tuberculose incluem, na medicina interna, a terapia natural de repouso, nutrição e ar puro, além da chamada terapia de tranquilidade, que mantém a paz de espírito. Na cirurgia, vários métodos e meios são empregados, como a terapia de pneumotórax, a terapia de oleotórax, a excisão ou avulsão do nervo frênico, ou a chamada cirurgia de toracoplastia. Embora alguns deles sejam eficazes, em muitos outros casos não há o menor efeito. Então, por que o bacilo da tuberculose é tão difícil de erradicar? A especificidade do bacilo da tuberculose é que, uma vez que se contrai a doença, o bacilo cria um ninho profundo no foco da doença e é envolvido por uma substância cerosa chamada membrana lipoide, que impede a penetração de medicamentos bactericidas. Por isso, até hoje não se descobriu um medicamento que possa alcançá-lo diretamente. É claro que existem bactericidas químicos anunciados, mas se o poder bactericida for grande, ele é acompanhado de efeitos colaterais. Os medicamentos têm um benefício e um malefício, e até hoje não foi anunciado um medicamento de efeito imediato. É motivo de grande alegria que, neste momento de urgência, um medicamento adaptado baseado em compostos de fosfolipídios tenha sido descoberto em nosso país. Este composto de fosfolipídios é um produto sintético de lecitina, um elemento indispensável para a existência humana, e compostos de terpeno, que têm um forte poder bactericida e não são acompanhados de efeitos colaterais. Diz-se que, pela manifestação de sua ação sinérgica, ele penetra profundamente no foco da doença, destrói a membrana lipoide, que era considerada a mais difícil, e age diretamente no corpo do bacilo, sendo chamado de composto especial.”
-
-A causa e a interpretação da tuberculose na medicina são as seguintes:
-“A tuberculose inicial tem aproximadamente seis formas: tipo resfriado, tipo gastrointestinal, tipo febril, tipo neurastênico, etc. Há inúmeros exemplos reais em que o que se pensava ser um resfriado ou uma doença gastrointestinal era na verdade o início da tuberculose, o que agravou a doença.
-Antigamente, a tuberculose era considerada hereditária, mas desde que Robert Koch descobriu o bacilo da tuberculose, descobriu-se que é uma doença infecciosa. No entanto, aos quatorze ou quinze anos, nove em cada dez pessoas são expostas ao bacilo da tuberculose, mas apenas um número muito pequeno desenvolve a doença. Assim, uma nova teoria da constituição foi proposta, e passou-se a pensar que existe uma constituição suscetível à tuberculose, e que, quando uma pessoa com essa constituição é exposta ao bacilo da tuberculose, ela desenvolve a doença. No entanto, neste caso, a palavra ‘constituição’ não se refere apenas a algo especial e congênito. Também se aplica a um estado em que há uma fraqueza em algum lugar da função dos órgãos internos. Ou seja, mesmo uma pessoa que nasceu forte, se levar uma vida irregular e se sobrecarregar, naturalmente desenvolverá uma fraqueza na função de seus órgãos internos e se tornará uma constituição tuberculosa. Por exemplo, se continuar a beber e comer em excesso, o estômago e os intestinos não suportarão a carga e inevitavelmente terão um distúrbio e enfraquecerão. Então, a nutrição não poderá ser absorvida, a resistência diminuirá e o bacilo da tuberculose no corpo começará a se ativar.
-Além disso, se uma pessoa que costuma pegar resfriados os negligencia e não os trata, suas funções enfraquecerão gradualmente, tornando-se um local para o bacilo da tuberculose se instalar.
-Assim, quando uma doença é seguida por um distúrbio nutricional, a resistência diminui e o bacilo da tuberculose no corpo, que estava suprimido, se espalha e começa a se ativar. Esse estado é chamado de desenvolvimento da tuberculose. E, dependendo da doença primária, ela é classificada em tipo gastrointestinal, tipo resfriado, tipo cardíaco, tipo neurastênico, tipo anêmico, tipo febril, etc.
-Pegar um resfriado por dormir descoberto. Pensar que vai sarar logo, como sempre, e ficar tranquilo, mas o cansaço do corpo não passa facilmente. Ou a tosse não para. Ou exagerar na comida e estragar o estômago e os intestinos. Mas como é a época em que a comida fica mais gostosa, é difícil controlar a dieta, a diarreia continua e, na estação em que os cavalos engordam, a pessoa vai emagrecendo. Nesses casos, mesmo que se pense que é um resfriado ou um problema gastrointestinal, na verdade, a tuberculose já rompeu sua casca e está ativa. Portanto, se não se abandonar rapidamente os meios paliativos e não se realizar um tratamento completo, há muitos exemplos em que a doença se agrava.”
-
-A seguir, as medidas que as autoridades estão tomando como “movimento prático de prevenção da tuberculose”:
-A Polícia Metropolitana decidiu enviar “equipes de prevenção itinerantes da tuberculose” para vários lugares sob sua jurisdição. Elas são divididas em quatro equipes, e cada equipe tem um carro equipado com raios-X e outros instrumentos de tratamento simples. Médicos, enfermeiras, secretários, etc., viajam nele. Metade do mês eles atendem a consultas de saúde em locais fixos, e a outra metade eles visitam cada casa, ensinando conhecimentos de tratamento aos pacientes e conhecimentos de prevenção às famílias.
-Quanto às instalações de tratamento, a situação é lamentável, com apenas 3.690 leitos de tuberculose, somando as instalações da província, da cidade, de organizações privadas e de hospitais públicos e privados. O que é ainda mais preocupante é que, embora devam ser isolados e tratados o mais rápido possível, no Sanatório da Cidade de Tóquio, por exemplo, 64% morrem dentro de seis meses após a internação, o que mostra até que ponto eles permanecem em casa até o último momento.
-Atualmente, na cidade de Tóquio, há casos como uma família de doze pessoas vivendo em uma casa de dois cômodos de seis e quatro tatames, com três pacientes graves e três crianças do ensino fundamental. Ou uma família de oito pessoas vivendo em uma casa de dois cômodos, totalizando onze tatames, com dois pacientes que precisam de internação urgente dormindo amontoados com quatro crianças, a mais velha com dezesseis anos. Exemplos tão trágicos e extremamente perigosos não devem ser poucos em todo o país.
-
-A seguir, descreverei em linhas gerais as terapias desde os tempos antigos até o presente em vários países.
-A tuberculose apareceu pela primeira vez na história da medicina em tempos muito antigos. Em 400 a.C., o santo médico grego Hipócrates descreveu a tísica pulmonar. Por volta da era cristã, Celso propôs o clima marinho como tratamento, Plínio a residência na floresta, e Galeno defendeu a terapia de montanha e leite. No entanto, foi há cerca de 180 anos que o alemão Hermann Brehmer estabeleceu uma regra de tratamento fixa e fundou um sanatório, estabelecendo as bases para a terapia de sanatório de hoje.
-Nesse ínterim, em nosso país, em 992 d.C., Tanba no Yasuyori escreveu o “Ishinho” e discutiu a tuberculose pulmonar como uma doença contagiosa. Em 1805, Tachibana Nankei explicou que a tuberculose pulmonar tinha contágio e hereditariedade, e Honma Gencho demonstrou exclusivamente que esse veneno da doença era um veneno contagioso.
-Em 1882 (Meiji 15), quando Robert Koch descobriu o bacilo da tuberculose, a verdadeira natureza da doença foi finalmente esclarecida, e em 1890, Koch criou a famosa tuberculina. No entanto, embora se reconhecesse que essa terapia estimulava o foco da doença e aumentava a resistência, como foi aplicada independentemente da condição da doença, houve uma sucessão de casos graves que pioraram. Em nosso país, o Ministério do Interior chegou a emitir um aviso restringindo seu uso, e, infelizmente, não obteve sucesso.
-Estimulados por essa terapia de tuberculina, pesquisas sinceras em ambos os campos, imunológico e químico, continuaram, mas nenhum método com efeito clínico confiável foi descoberto. Nesse ponto, a terapia natural de Brehmer foi novamente reconhecida como o caminho principal para o tratamento da tuberculose.
-Os famosos Sanatório Trudeau nos Estados Unidos, Sanatório Leysin e Sanatório Davos na Suíça, mundialmente famosos hoje, foram todos estabelecidos sob a influência dessa terapia natural de Brehmer. Essa terapia natural, juntamente com a terapia nutricional, tornou-se indispensável no tratamento da tuberculose.
-
-A seguir, a interpretação da medicina.
-Para explicar o que é resistência de forma fácil, nosso corpo humano está equipado com uma ação de defesa natural contra todas as substâncias nocivas que o invadem. A mais importante delas é a existência de substâncias antibacterianas que dissolvem e matam os germes que entraram no corpo e neutralizam suas toxinas. Além disso, há a conhecida ação fagocitária dos glóbulos brancos (a função dos glóbulos brancos de envolver os germes em seu próprio corpo e matá-los). A soma dessas forças é chamada de resistência.
-A razão pela qual a terapia natural de Brehmer e a terapia nutricional são defendidas hoje como indispensáveis no tratamento é, em última análise, com o objetivo de fortalecer a resistência, enriquecendo a nutrição no corpo e buscando a cura natural. É uma concretização da crença de que “o que cura a própria doença não é senão a própria força”.
-
-A seguir, apresento exemplos reais de como pessoas e famílias trágicas estão nascendo por causa da tuberculose. (De um artigo de jornal)
-A Polícia Metropolitana, em sua luta para prevenir e erradicar a doença fatal da tuberculose pulmonar, realizou recentemente um comitê especial para discutir medidas de prevenção. A partir do novo ano fiscal, eles realizarão exames gratuitos itinerantes para pacientes com essa doença e, em colaboração com conselheiros de área, associações médicas e conselhos de bairro, se esforçarão para erradicar esse terrível germe. Como primeiro passo, eles realizaram uma pesquisa sobre pacientes com tuberculose da classe mais baixa, que precisavam de atenção mais urgente. No final de fevereiro, o número total de pacientes era de 1.352, liderado pelo distrito de Arakawa com mais de 150. As autoridades ficaram surpresas com suas condições trágicas, além da imaginação. A imagem de um cadáver vivo de um perdedor conquistado pelo germe da doença —
-“Distrito de Kanda” Midori Imamura (50 anos), uma trabalhadora braçal em Mitoshiro-cho — nomes fictícios a seguir —, vive com sua mãe Yoshi (81), sua terceira filha Kyoko (21), seu terceiro filho Yoshio (18) e sua quarta filha Yoshiko (16), em uma família de cinco pessoas. A casa tem apenas dois cômodos, um de seis e outro de três tatames. A filha mais velha e a segunda filha morreram recentemente de tuberculose, e o segundo filho, Atsushi (24), está internado no Sanatório Nakano com a mesma doença. A família vive com os quatorze ienes que o terceiro filho, Yoshio, ganha como mensageiro em um escritório do governo. Além disso, a terceira filha, Kyoko, também adoeceu recentemente com a mesma doença.
-“Distrito de Honjo” Fumi Yoshimura (23 anos), de Tatekawa-cho, adoeceu de tuberculose pulmonar no ano passado. Todas as economias que ela havia acumulado trabalhando como enfermeira por vários anos foram gastas em despesas médicas, mas a doença só piorou, e ela mal consegue sobreviver com a ajuda de outras pessoas. Ela ainda tem sua licença de enfermeira, mas a polícia decidiu revogar sua licença devido à sua doença. Seus dois irmãos mais velhos também estão doentes com a mesma doença em sua cidade natal.
-“Distrito de Fukagawa” Sakae Tanaka (50 anos), de Etchujima, adoeceu com a mesma doença há dois anos. Ele parou de trabalhar como negociante de antiguidades, e sua família de cinco pessoas mal consegue sobreviver com o salário diário de quarenta sen que seu filho mais velho, Susumu (16), ganha como jovem operário.
-A Polícia Metropolitana ordenou que ele fosse internado em um sanatório público de tuberculose, preocupada com o contágio da doença para sua família, mas devido à falta de leitos, ele não pôde ser internado. Naturalmente, ele também não pode receber tratamento médico e geme em sua cama.
-“Distrito de Kamata” A família de Shoji Arai (51 anos), um agricultor de Kojiya-cho, é uma grande família de doze pessoas. Seus irmãos mais novos, Harukichi (43), Katsukichi (29) e Yoshikichi (21), estão todos doentes com a mesma doença. Seu filho mais velho, Isamu (19), e sua filha mais velha, Harue (17), trabalham em uma fábrica próxima e a família vive com uma renda de trinta ienes. Como são agricultores pobres, não têm renda agrícola e sua situação é lamentável.
-“Distrito de Arakawa” Na família de Heikichi Ono, um vendedor de peixe de Ogu-cho, o filho mais velho e o segundo filho estão doentes e não conseguem nem cuidar de suas próprias necessidades fisiológicas. A família de oito pessoas vive com a renda de Heikichi e o salário diário de sua filha mais velha, Michi (15), que trabalha em uma fábrica, totalizando trinta ienes por mês, em uma situação em que não conseguem nem chorar.
-“Distrito de Adachi” Na casa de Tsunajiro Kusano, um cocheiro de Senju-cho, sua esposa Hide (35) está doente, mas não tem dinheiro para despesas médicas e recebe ajuda de um conselheiro de área. Naturalmente, ela não consegue cuidar da casa, então seu filho mais velho, Yoshikichi (13), largou a escola primária para cuidar de seus irmãos mais novos. Além disso, a família de seis pessoas vive em um cômodo de seis tatames, e as crianças pequenas dormem abraçadas à mãe doente.
-“Distrito de Koishikawa” Yukichi Shimoda (60 anos), um adivinho, geme com a mesma doença, deitado lado a lado com sua esposa Tome (45) e sua filha mais velha Mine (19). A família de três pessoas vive uma vida trágica com os seis ienes que recebem de um conselheiro de área como despesas de subsistência.
-Além disso, todos os pacientes da classe mais baixa estão em uma situação extremamente trágica, então decidiu-se estender a mão da salvação em consulta com as autoridades da cidade.
-
-Como um exemplo trágico da tuberculose, havia o seguinte em uma coluna de conselhos de um certo jornal.
-“Pergunta: Uma mulher casada de trinta e três anos. Ela se casou uma vez e seu marido morreu logo em seguida. Neste verão, ela se casou novamente por meio da apresentação de veteranos que a ajudaram, mas recentemente descobriu um erro grave. No ano passado, eu tive pleurisia e finalmente me recuperei, mas o médico me disse que eu não deveria me casar por cerca de dois anos. No entanto, meu marido é um assalariado de cinquenta e um anos com três filhos. Sua primeira esposa e, em menos de dois anos, sete membros da família morreram de tuberculose pulmonar. Eu fugi de casa duas vezes, mas fui trazida de volta imediatamente. O médico diz que toda a família é portadora da bactéria e que todos os cantos da casa estão cheios de germes. Em uma casa assim, até uma pessoa normal seria infectada. Ele diz que eu certamente adoecerei. Eu deveria ter investigado, mas cometi um erro ao acreditar nas palavras do intermediário. Meu marido não concorda com o divórcio de forma alguma. Se eu ficar assim, minha vida estará em perigo. Se eu me separar à força e causar problemas, isso prejudicará a honra dos meus veteranos, o que também é um problema, mas não sinto que estou viva. O que devo fazer? (T-ko)”
-
-A seguir, como referência, apresentamos uma visão geral dos sanatórios de tuberculose.
-A província e a cidade de Tóquio abrigam pacientes no Hospital Kiyose da Província de Tóquio, no Seiwaien, no Kurume Gakuen, no Sanatório da Cidade de Tóquio em Egota, Nakano-ku, etc. O procedimento é ser examinado (gratuitamente) em uma clínica de saúde provincial ou municipal e se inscrever através de um conselheiro de área, prefeito de distrito, etc., junto ao governador da província ou ao diretor do Sanatório da Cidade de Tóquio. Como são sanatórios estabelecidos para os pobres, pessoas com uma renda mensal normal de cem ienes ou mais não são permitidas. Atualmente, há muitas inscrições de pacientes, e geralmente leva de seis a dez meses para ser internado. Além disso, a cidade também atende pacientes pagantes. A taxa de internação é de um iene e cinquenta sen por dia, mas mesmo para esses pacientes pagantes, geralmente leva cerca de três meses para ser internado. Na iniciativa privada, o Exército de Salvação, a Saiseikai, etc., oferecem tratamento gratuito, mas como também há muitos inscritos, não é possível ser internado em pouco tempo. Além disso, nos principais hospitais privados pagantes, a taxa de internação varia de oitenta sen a dois ienes e cinquenta sen por dia.
-
-A seguir, qual é a situação da tuberculose do ponto de vista da economia nacional?
-De acordo com o Ministério do Interior, em relação à tuberculose, o número de mortes em um ano é de 120.000, e o número de pacientes é de cerca de dez vezes, 1,2 milhão. Se considerarmos as despesas de tratamento como um iene por dia, são 36 milhões de ienes por mês e 432 milhões de ienes por ano. Este valor é uma estimativa mínima das despesas de tratamento, e na realidade custa duas ou três vezes mais. Se assumirmos que custa dois ienes por dia, são 864 milhões de ienes por ano, o que corresponde a um terço das finanças de nosso país (este é um cálculo anterior ao Incidente), um enorme gasto não produtivo que constitui um obstáculo que ameaça a economia nacional. Por outro lado, as preocupações da vida que acompanham isso, tanto espiritual quanto materialmente, são indescritíveis.
-Se o chefe da família, em quem todos confiam, adoece, ele perde sua fortuna e, finalmente, leva sua esposa e filhos a uma situação trágica. A perda de jovens promissores que têm seu período de formação selado pelo sofrimento da doença também é enorme. Quando os trabalhadores sem bens permanentes adoecem, eles choram de fome. Além disso, torna-se um incentivo para suicidas e criminosos, causando grandes perdas ao país e também se tornando um motivo para a terrível deterioração do pensamento.
-O número de mortos no Grande Terremoto de Tóquio foi de cerca de 80.000. O número de mortos em combate na Guerra Russo-Japonesa também foi de cerca de 80.000. O número de pessoas que morrem de tuberculose todos os anos é de 120.000. Isso significa que, em um ano e meio, o Grande Terremoto de Tóquio e a Guerra Russo-Japonesa estão se repetindo, e é lamentável que isso continue para sempre, sem fim à vista.
-Isso se deve, em última análise, à falta de compreensão do povo sobre a tuberculose. Os 1,2 milhão de pacientes com tuberculose são uma estimativa do Ministério do Interior, mas se adicionarmos os pacientes com sintomas leves que não se reconhecem como tuberculosos, o número se torna enorme.
-No entanto, hoje o número de mortes é superior a 150.000, o que significa um aumento de 25% em relação aos números acima.
-
-### Tuberculose Pulmonar
-
-A tendência atual desta doença no Japão é como descrita acima, e mostra como a situação é urgente.
-Leitor, por que a tuberculose pulmonar está aumentando tanto? Segundo minha descoberta, a causa reside inteiramente no erro da medicina moderna. As próprias medidas de prevenção da tuberculose da medicina moderna estão tendo o efeito reverso de aumentar a tuberculose. Para ser franco, a medicina moderna está produzindo em massa pacientes com tuberculose. Ah, será que o homem moderno pode acreditar em tal teoria? – penso eu. No entanto, como os fatos são fatos, não há como negá-los. Explicarei em detalhes, passo a passo.
-Os pacientes que os médicos hoje diagnosticam como tendo tuberculose pulmonar, especialmente os pacientes em estágio inicial, não têm a doença nos pulmões. Afirmo categoricamente que a maioria são diagnósticos errados.
-Existem vários métodos de diagnóstico na medicina hoje, como a presença ou ausência de estertores (sons de bolhas), a reação de Mantoux, a velocidade de hemossedimentação, o exame microscópico do bacilo da tuberculose, as radiografias, etc. E os sintomas são febre persistente, tosse, catarro, escarro com sangue, hemoptise, emagrecimento, suores noturnos, distúrbios gastrointestinais, sensação de fadiga, etc. Vamos falar sobre eles.
-
-Como expliquei em detalhes na seção sobre a verdadeira causa da doença, como resultado da supressão do resfriado, a toxina natural, a toxina úrica e as toxinas medicamentosas se acumulam e se solidificam gradualmente em várias partes do corpo. E onde são esses locais? Em primeiro lugar, é em todo o corpo, mas geralmente é fixo. São ao redor do pescoço, especialmente perto do bulbo raquidiano esquerdo e direito, perto dos gânglios linfáticos do pescoço, nos ombros esquerdo e direito (especialmente no lado esquerdo), nas axilas esquerda e direita, ou seja, na base dos braços, em toda ou parte das costelas e suas proximidades, na borda inferior do diafragma esquerdo e direito, do estômago ao peritônio, nos gânglios linfáticos da virilha (especialmente no lado direito), na borda inferior das omoplatas esquerda e direita (especialmente no lado esquerdo) e em ambos os lados da medula espinhal e na região dos rins nas costas. De acordo com minha experiência no tratamento de muitos pacientes com tuberculose, a maioria tem acúmulo de toxinas na região dos rins nas costas e no peritônio, especialmente ao redor do umbigo. Isso é a causa da febre, tosse, falta de apetite, sensação de cansaço, etc., e ao tratar esses locais, os sintomas semelhantes aos da tuberculose pulmonar diminuem muito. Com base nisso, entende-se que os pacientes que os médicos diagnosticam como tendo tuberculose pulmonar são, na verdade, na maioria dos casos, pacientes com nefrite crônica e peritonite purulenta crônica. Parece que o diagnóstico dos médicos não consegue detectar esse acúmulo de toxinas na região dos rins e no peritônio.
-
-Além disso, quando as toxinas solidificadas desta peritonite purulenta crônica se dissolvem devido à febre e causam diarreia persistente, os médicos a chamam de tuberculose intestinal.
-Assim, as toxinas acumuladas em vários locais, em casos leves, são em dois ou três lugares, mas em casos graves, podem se estender a todos os locais. Naturalmente, a febre causada pela segunda ação purificadora é o precursor, e por ela as toxinas acumuladas se dissolvem e se tornam catarro, que é expelido pela tosse. Nesse momento, o catarro passa necessariamente pelos pulmões e é expelido em direção à traqueia e à garganta. Portanto, se deixado em paz, a toxina líquida, ou seja, o catarro, passa pelos pulmões sem problemas e é expelido. No entanto, quando o catarro passa pelos pulmões, ele para temporariamente nos alvéolos. É como se estivesse esperando a ação de sucção da tosse. E o som alveolar que se ouve nesse momento é o que se chama de estertor. Naturalmente, neste caso, não há nada de anormal nos próprios pulmões. No entanto, os médicos, com base nesses sintomas, suspeitam de uma doença pulmonar e a confirmam com vários exames mecânicos. Mas o problema é a terapia subsequente. Como expliquei repetidamente, o tratamento médico é inteiramente a supressão da ação purificadora. Portanto, o catarro que estava prestes a ser expelido passando pelos pulmões tem seu impulso frustrado e acaba estagnando nos pulmões.
-
-O tratamento médico, em primeiro lugar, recomenda repouso absoluto. Não há nada que enfraqueça mais o estômago e os intestinos do que o repouso absoluto. Pense bem, mesmo um corpo saudável, se continuar em repouso absoluto por um mês, em primeiro lugar, o estômago e os intestinos adormecerão e todo o corpo enfraquecerá, o que é óbvio. Em seguida, administram-se medicamentos por via oral ou por injeção. Como também são toxinas, eles aceleram o enfraquecimento. Além disso, sob o nome de nutrição, faz-se com que consumam muita carne de peixe, aves e animais e alimentos completos. Isso também enfraquece a função dos órgãos internos (explicarei em detalhes a teoria da nutrição dos alimentos separadamente). Além disso, recomenda-se a terapia de ar puro, que tem algum efeito, mas é anulada por outros métodos errôneos. A terapia de banho de sol em sanatórios também tem sido recomendada recentemente, mas tem um benefício e um malefício. Originalmente, os seres humanos fazem exercícios leves em ambientes fechados, onde a luz do sol não entra, e exercícios intensos ao ar livre, sob a luz direta do sol. Isso é natural. Quando se está sob a luz do sol, é natural fazer exercícios intensos, como caminhar ou trabalhar, a ponto de suar. No entanto, quando se está sob a luz do sol em um estado ainda mais imóvel do que em um ambiente fechado, isso não é natural e, portanto, não pode ser bom.
-
-Como se aplicam vários métodos que, em geral, aumentam o enfraquecimento, a ação purificadora é suprimida, de modo que os sintomas da doença diminuem, e não é de se estranhar que se pense equivocadamente que se está caminhando para a cura. No entanto, como não é a cura real, o seguinte acontece.
-Ou seja, o catarro que estava prestes a ser expelido passando pelos pulmões, devido ao enfraquecimento geral do corpo, a tosse, que é a ação de sucção, diminui ou se torna ineficaz, de modo que o catarro acaba estagnando nos pulmões. Além disso, embora em pequena quantidade, o catarro subsequente se infiltra nos pulmões e as toxinas estagnadas aumentam gradualmente em quantidade. Como resultado, forma-se uma solidificação de catarro nos pulmões. Isso é a causa da dificuldade respiratória.
-
-Originalmente, os pulmões são a função que absorve a quantidade necessária de ar no corpo humano através do movimento respiratório. Portanto, se uma solidificação se formar nos pulmões, a quantidade de ar absorvida será reduzida na mesma proporção. Consequentemente, a menos que a respiração seja feita com frequência, a absorção de uma quantidade fixa de ar não pode ser alcançada. Por exemplo, se uma quantidade necessária de dez for impedida por um obstáculo de dois, de modo que apenas oito possam ser absorvidos, para absorver cem de ar, o que deveria ser feito em dez respirações, deve ser feito em doze respirações e meia.
-
-E quando os médicos diagnosticam a solidificação de catarro acima, eles dão nomes de doenças como tuberculose, gangrena pulmonar, câncer de pulmão, etc. O acima é o curso comum que um paciente com tuberculose geralmente segue. Com base nisso, pode-se ver que o que no início não era nada de anormal nos pulmões, como resultado de uma terapia errada, torna-se um paciente com tuberculose verdadeira e, finalmente, sua vida é exposta ao perigo. Portanto, para ser franco, a teoria é que a medicina moderna está aumentando o número de pacientes com tuberculose.
-Devo continuar a escrever sobre coisas tão tristes. Quando um paciente com tuberculose fica sem febre devido ao repouso absoluto, se ele fizer um pouco de exercício, a febre volta imediatamente. Nesse momento, o médico se assusta e o adverte contra o exercício, mas isso também é uma teoria oposta baseada em um erro. Ou seja, como a ausência de febre se deve ao enfraquecimento causado pelo repouso e à interrupção da purificação, é natural que a febre surja quando se faz exercício, pois a ação purificadora ocorre.
-
-Consequentemente, os médicos não dizem que curam a tuberculose, mas que a solidificam. Isso é algo que todos sabem. No entanto, a verdadeira cura de qualquer doença deve ser a dissolução da toxina solidificada, que é a causa da doença, e a eliminação completa dela, de modo que não restem toxinas. Quando se cura assim, não importa que tipo de trabalho se faça após a recuperação, nunca haverá uma recaída. No entanto, na medicina moderna, como é uma terapia de solidificação, mesmo após a cura da tuberculose, teme-se uma recaída, e é impossível até mesmo trabalhar por um período de meses ou anos. Há muitos exemplos trágicos de pacientes com tuberculose que, após seguirem cuidadosamente as instruções do médico por um longo período e realizarem a terapia de solidificação, e finalmente se recuperarem com alegria, de repente têm uma recaída e precisam começar tudo de novo. Isso é inteiramente o resultado da terapia de solidificação.
-
-Aqui, explicarei a infiltração pulmonar. Esta é uma doença em que as toxinas acumuladas nas costelas e em suas proximidades se dissolvem com o calor, se infiltram na membrana pulmonar e nos pulmões, e tentam ser expelidas como catarro. Portanto, se deixada em paz, as toxinas são eliminadas sem problemas e a cura ocorre. No entanto, tanto os médicos quanto os pacientes temem que seja o início da tuberculose e aplicam vários tratamentos, ou seja, suprimem a ação purificadora, de modo que finalmente se torna uma doença difícil de tratar.
-Em seguida, ao examinar os pacientes diagnosticados pelos médicos como tendo catarro apical pulmonar e linfadenite do hilo pulmonar, a causa é quase sempre o enrijecimento dos ombros. O enrijecimento dos ombros, que é a primeira ação purificadora, causa febre pela segunda ação purificadora e apresenta sintomas semelhantes aos de uma doença pulmonar. Nesses casos também, não há nada de anormal nos pulmões. Se deixado em paz, as toxinas se dissolverão, se infiltrarão nos pulmões a partir do ápice e serão expelidas como catarro, resultando na cura. No entanto, quando se fala em enrijecimento dos ombros, pode-se pensar que se limita aos idosos, mas nos últimos tempos é muito comum em jovens e até em crianças.
-
-Há mais uma coisa importante. Na teoria médica atual, o excesso de trabalho é considerado uma das principais causas da tuberculose. E diz-se que, como resultado do excesso de trabalho, a resistência enfraquece. No entanto, essa interpretação é completamente oposta. A razão é a seguinte: se você se exercita a ponto de se cansar, a ação purificadora ocorre. Aqui, é necessário explicar o que é a fadiga. Ou seja, a fadiga se deve à febre da ação purificadora que ocorre naturalmente como resultado do exercício, portanto, a fadiga é boa para a saúde. É, por assim dizer, um método para promover a ação purificadora. A medicina também não recomenda exercícios para promover a saúde? No entanto, a medicina fala em exercícios moderados, o que provavelmente significa um nível em que a ação purificadora não ocorre. Mas isso tem pouco efeito. Na verdade, o nível em que a ação purificadora ocorre é bom. Naturalmente, o fato de ter febre significa que há toxinas em algum lugar, e por isso as toxinas diminuem, o que é bom. Portanto, quanto mais toxinas uma pessoa tem, mais facilmente ela tem febre e se cansa. Por esse princípio, ao repetir a sensação de fadiga com o exercício, as toxinas diminuem gradualmente e a saúde melhora. O que é cômico é a teoria acadêmica de que a causa da fadiga é a geração de um tipo de toxina pelo exercício excessivo.
-
-Por esse princípio, uma pessoa com ação purificadora vigorosa, ou seja, uma pessoa que tem febre facilmente e se cansa, tem uma forte resistência. Portanto, se, como na teoria médica, as pessoas com resistência fraca são mais suscetíveis à tuberculose, os idosos, que se cansam mais facilmente, deveriam contrair mais tuberculose. No entanto, a realidade é que a juventude, que é o período de maior vigor, é a mais suscetível, o que significa que a juventude é o período de maior ação purificadora.
-
-Além disso, podemos aplicar esse princípio à situação atual da Europa. O fato de a tuberculose ser particularmente comum entre os japoneses se deve ao fato de que sua força física ainda é mais vigorosa que a dos brancos e a ação purificadora ocorre mais facilmente. Como expliquei repetidamente, os sintomas iniciais da tuberculose ocorrem devido à ação purificadora, e é por isso que é comum na juventude. Sendo assim, os brancos, devido ao declínio de sua força física, têm uma ação purificadora fraca, de modo que a tuberculose não pode ocorrer.
-A causa disso é que a implementação da vacinação antivariólica ocorreu várias décadas antes do que no Japão. Para ser mais claro, os brancos, mesmo na juventude, tornaram-se como idosos, e a tuberculose não pode ocorrer. O exemplo mais extremo disso são os franceses. Como estão os franceses hoje, que eram tão vigorosos na época de Napoleão? A energia e a vitalidade juvenis se esgotaram, e eles se tornaram como idosos, apenas buscando uma vida de conforto e prazer. É de conhecimento geral que essa foi a causa da derrota nesta guerra. O Japão, por ter adotado a vacinação antivariólica mais tarde que a Europa, felizmente ainda tem uma força purificadora considerável, e essa é a verdadeira causa da alta incidência de tuberculose no Japão. No entanto, as autoridades, interpretando a diminuição da tuberculose entre os brancos como resultado do sucesso das medidas de prevenção, estão implementando as mesmas medidas que na Europa. Portanto, se o Japão continuar como está, eventualmente chegará a um estado de declínio drástico de pacientes com tuberculose, como os brancos de hoje. No entanto, quando isso acontecer, acredito que eles louvarão a medicina e a higiene pelo sucesso na prevenção da tuberculose.
-
-A seguir, falarei sobre o diagnóstico da medicina.
-Sobre os estertores, já falei. Sobre a reação de Mantoux, ou seja, a injeção da solução de tuberculina, segundo a interpretação da medicina, quando a parte injetada fica vermelha, incha, forma bolhas ou úlceras, é um caso positivo, e considera-se que a pessoa já foi infectada com tuberculose. Quando não há tais sinais, é negativo. E quando se injeta tuberculina mais concentrada em pessoas negativas, algumas se tornam positivas. E mesmo entre os positivos, há os que se curaram e os que ainda não se curaram. E os negativos não foram infectados com tuberculose, mas podem ser infectados em alguma oportunidade e se tornar positivos. É algo extremamente ambíguo. No entanto, em minha interpretação, como uma substância estranha é injetada no sangue, uma ação purificadora para dissolver essa substância estranha ocorre imediatamente, e isso causa as mudanças de inchaço e vermelhidão naquela parte. É o mesmo princípio de ser picado por um inseto venenoso ou uma abelha. Portanto, as pessoas positivas têm uma ação purificadora vigorosa, e as negativas são fracas e a ação purificadora não pode ocorrer. E quando o líquido da injeção, ou seja, a toxina medicamentosa, é mais concentrado, a ação purificadora finalmente ocorre. E a velocidade de hemossedimentação significa que, se houver toxinas no sangue, ele estará turvo, e quanto mais toxinas, mais pesado ele será e mais rápida será a velocidade de sedimentação. Portanto, quanto mais turvo o sangue de uma pessoa, mais facilmente ocorrerá a ação purificadora, ou seja, a doença.
-
-Em seguida, o bacilo da tuberculose não é absolutamente contagioso, e explicarei isso em detalhes na próxima seção.
-Em seguida, explicarei sobre as radiografias. Os médicos, apenas por verem uma sombra na radiografia, diagnosticam como tuberculose pulmonar, mas isso é muito precipitado. A razão é que a radiografia mostra uma imagem plana, de modo que não se pode distinguir se a toxina está dentro dos pulmões ou fora dos pulmões – ou seja, nas costelas ou em suas proximidades. De acordo com minha experiência, em pacientes com tuberculose inicial, a toxina, que é a causa da doença, na maioria dos casos não está dentro dos pulmões, mas fora dos pulmões, ou seja, no peito ou nas costas, sob a pele, perto das costelas. E embora haja uma diferença entre a toxina natural, a toxina úrica e as toxinas medicamentosas, isso não pode ser determinado por uma radiografia. No entanto, com o método de diagnóstico pela ponta dos dedos que criei, isso também pode ser determinado com precisão.
-
-Em seguida, a hemoptise é muito boa. Isso porque o sangue tóxico é expelido pela ação purificadora. A medicina também afirma que a tuberculose com hemoptise é fácil de curar. E o local da hemoptise não é fixo. Na maioria dos casos, o sangue tóxico se solidifica em um local fora dos pulmões pela ação purificadora, ou se infiltra nos pulmões e se solidifica, e então se dissolve com a febre e é expelido como hemoptise. O que deve ser observado aqui é que, no caso de um derrame cerebral, o sangramento pode não ocorrer no cérebro, mas se transformar em hemoptise. Muitos médicos diagnosticam erroneamente isso como hemoptise dos pulmões, mas mal sabem eles que, por causa disso, o derrame cerebral foi evitado.
-
-Em seguida, os suores noturnos são a melhor ação purificadora. As toxinas dissolvidas pelo calor intenso e transformadas em um líquido diluído são expelidas pelos capilares da pele, o que promove muito a cura. Em minha experiência, os pacientes que têm suores noturnos ou em quem a ação de suores noturnos ocorre com o tratamento, sem exceção, têm bons resultados. É o mesmo princípio de um resfriado, em que a febre baixa e a cura ocorre com a transpiração.
-No entanto, a medicina considera os suores noturnos como resultado da fadiga e tenta detê-los, mas isso é um erro. Não é por causa da fadiga, mas sim por causa da ação purificadora vigorosa.
-
-### A Tuberculose Não é Absolutamente Contagiosa
-
-Hoje, a tuberculose é muito temida como uma doença contagiosa. Por isso, várias medidas são tomadas, e a complexidade e o enorme fardo para o estado e para os indivíduos são realmente surpreendentes. Portanto, todos temem o contágio, e até mesmo pais, filhos, maridos e esposas são proibidos pelos médicos de se aproximarem e conversarem. Quando um paciente com tuberculose surge em uma família, toda a família vive em um estado de apreensão, temendo a todo momento quando o contágio ocorrerá – uma situação sombria e insuportável. É claro que, se fosse realmente contagiosa, não haveria escolha a não ser tomar todas as medidas possíveis, pois a vida é mais importante. No entanto, segundo minha descoberta, não há absolutamente nenhum risco de contágio. O que a medicina chama de bacilo da tuberculose não é contagioso, mas de geração espontânea. Qual a razão disso? O líquido tóxico, ou seja, o catarro, como expliquei em detalhes anteriormente, se for expelido rapidamente, nenhum microrganismo se desenvolverá. No entanto, devido à terapia errada, o catarro estagna nos pulmões e se solidifica. Esse catarro solidificado, com o passar do tempo, se decompõe. É um princípio que, uma vez que algo se decompõe, pequenos insetos ou microrganismos se desenvolvem. Por exemplo, quando a madeira apodrece, as térmitas aparecem. Por mais refinado que seja o arroz branco, quando envelhece, as larvas invariavelmente aparecem, como todos sabem. Assim, onde há decomposição, organismos surgem de matéria inorgânica. O fato de as larvas surgirem no arroz branco não se deve, obviamente, à entrada de ovos de larvas de fora. Portanto, o bacilo da tuberculose também é de geração espontânea e não é absolutamente contagioso. Acredito que, com o avanço e o desenvolvimento da ciência no futuro, se chegará à descoberta de que não é contagioso.
-
-Além disso, como expliquei anteriormente sobre o resfriado, o bacilo da tuberculose também se desenvolve espontaneamente nas toxinas que retornaram e se solidificaram novamente porque a purificação das toxinas solidificadas em vários locais foi interrompida. Doenças como escrófula, tuberculose renal e outras doenças chamadas de “tuberculosas” se devem a esse princípio.
-Para provar essa teoria, contarei minha experiência. Minha família consistia em mim e minha esposa, seis filhos e vários assistentes e outros empregados, totalizando mais de uma dúzia de pessoas. E ao longo de mais de dez anos, sempre tive um ou dois pacientes diagnosticados com tuberculose pulmonar grave vivendo conosco e os tratei. Houve pelo menos vinte e tantos. Naturalmente, eu os tratava como parte da família, comendo na mesma mesa e sem desinfetar os utensílios. Isso foi tanto para o tratamento quanto para experimentar minha teoria. Alguns deles até morreram em minha casa, então todos eram casos graves. Eram todos pacientes que haviam sido diagnosticados como tuberculosos em grandes hospitais e considerados sem esperança de cura. No entanto, até hoje, ninguém foi infectado. Todos são a própria imagem da saúde. Mesmo com base nesta experiência, não há espaço para dúvidas de que não é contagioso.
-Além disso, estou sempre disposto a ter o contágio do bacilo da tuberculose testado. Desejo que experimentem o contágio em mim mesmo ou em qualquer membro da minha família. Eu me ofereceria de bom grado como cobaia.
-
-Os cientistas modernos provavelmente rirão dessa teoria da geração espontânea de bactérias. A razão é que, com a descoberta das bactérias por Pasteur, o titã da bacteriologia francesa, que se equipara ao famoso Dr. Koch da Alemanha, a teoria da geração espontânea, que era apoiada pela maioria dos estudiosos até então, foi derrubada. Pasteur experimentou com a teoria de que os microrganismos não são de geração espontânea, mas se propagam pelo ar. Ele colocou caldo de carne de carneiro em dois frascos de vidro. Um tinha a boca curva e o outro, a boca reta. E o fato foi que, no de boca curva, os microrganismos não se desenvolveram, enquanto no de boca reta, eles se desenvolveram. Desde então, a teoria da geração espontânea desapareceu, e a teoria da geração pelo ar tem sido acreditada até hoje. No entanto, sobre este princípio, pretendo explicar em detalhes mais tarde sobre o espírito e a matéria, então aqui explicarei brevemente.
-A constituição de toda a criação é o elemento fogo, o elemento água e o elemento terra. O ar é principalmente o elemento água, e a energia espiritual é principalmente o elemento fogo. No entanto, a ciência até hoje não descobriu a energia espiritual, ou seja, o elemento fogo. E o ar flui horizontalmente, enquanto a energia espiritual (energia do fogo) sobe e desce verticalmente. E quando organismos, que são matéria orgânica, se desenvolvem espontaneamente, eles precisam do elemento fogo, ou seja, do calor. No entanto, esse calor é bloqueado até certo ponto por substâncias duras como vidro ou metal. Portanto, quando Pasteur realizou seu experimento, o frasco de vidro de boca curva bloqueou o calor do elemento fogo.
-
-Além disso, diz-se que a medicina moderna entrou em uma nova era quando o Dr. Virchow, considerado o santo médico do século XIX, propôs a patologia celular. De acordo com ela, o corpo humano – pele, mucosas, músculos, esqueleto, cabelo, etc. – é composto de inúmeras células, e cada uma dessas células tem vida e existência, e a vida e a existência de cada célula se reúnem para constituir um corpo humano. A doença é, em suma, um estado em que essas células se degeneram e sua vida enfraquece. Essa é a essência da patologia celular.
-Por exemplo, na tuberculose pulmonar, o bacilo da tuberculose invade o tecido pulmonar, se prolifera e libera toxinas, fazendo com que as células naquela parte se degenerem ou sejam destruídas. As células destruídas são absorvidas pelo sangue, causando distúrbios nas funções de todo o corpo e sintomas como febre, suores noturnos, etc.
-Ou seja, a febre de um paciente com tuberculose ocorre porque o bacilo da tuberculose invade os pulmões e cria um foco de doença, e esse foco de doença e as toxinas liberadas pelo próprio bacilo estimulam o centro da febre, causando a febre.
-
-Essa teoria patológica é fundamentalmente errônea. Não é preciso dizer que, se o enfraquecimento da vida celular é a causa da doença, a doença não deveria ocorrer da infância à juventude, quando o metabolismo é mais vigoroso, mas deveria ocorrer mais à medida que se envelhece. Acho estranho que uma teoria tão contrária aos fatos tenha sido acreditada.
-Além disso, na tuberculose pulmonar, a febre é atribuída à ação do bacilo da tuberculose. Se aceitarmos isso, diz-se que as toxinas liberadas pelo próprio bacilo estimulam o centro da febre. Mas o que é, afinal, o centro da febre? A medicina diz que está no cérebro, mas provavelmente nenhum médico no mundo pode prová-lo.
-A razão é que uma função como o centro da febre não existe absolutamente em nenhuma parte do corpo humano, muito menos no cérebro.
-É natural que, por mais que se pesquise com base em uma patologia tão infantil, não se possa chegar a uma solução. E, em linhas gerais, apresento dois pontos como método para solucionar a tuberculose pulmonar.
-1.  Como método para reduzir apenas a tuberculose pulmonar, é diminuir a condição física de toda a nação. Ou seja, fazer com que os jovens tenham uma constituição como a dos idosos, que é o caso dos brancos modernos.
-2.  Criar seres humanos que não desenvolvam febre, que é a característica da tuberculose – ou seja, seres humanos sem toxinas –, ou seja, seres humanos perfeitamente saudáveis no verdadeiro sentido.
-
-Qual dos dois devemos escolher? Naturalmente, é criar os seres humanos do segundo tipo – essa é a verdadeira solução, e só é possível com a arte médica que criei. No entanto, deve-se saber que o método da medicina ocidental que está sendo praticado atualmente é o método do primeiro tipo.
-
-### O Problema da Taxa de Mortalidade Infantil
-
-Depois da tuberculose pulmonar, a taxa de mortalidade infantil é um setor importante do problema populacional. Então, qual é a tendência atual? Vamos mostrar a seguir.
-O número total de mortes em nosso país em 1937 foi de 1.207.899, das quais 397.870 foram de bebês e crianças pequenas (antes da idade escolar). O número de mortes de bebês e crianças pequenas representa um terço do número total de mortes. E, ao observar a mortalidade infantil por idade, os bebês são 230.711; um ano, 72.991; dois anos, 38.955; três anos, 26.005; quatro anos, 17.854; e cinco anos, 11.364. As crianças morrem mais quanto mais jovens são. Pelo contrário, à medida que a idade avança, o número de mortes diminui acentuadamente.
-
-A seguir, ao comparar a mortalidade infantil de nosso país com a da Alemanha, Reino Unido e Estados Unidos, em termos da taxa de mortalidade recente por 10.000 habitantes em cada idade, para bebês, o Japão é 130,00; a Alemanha, 84,99; o Reino Unido, 79,78; e os Estados Unidos, 64,50. Para um ano, o Japão é 39,90; a Alemanha, 9,33; o Reino Unido, 17,03; e os Estados Unidos, 8,90. Para dois anos, o Japão é 21,20; a Alemanha, 4,45; o Reino Unido, 7,02; e os Estados Unidos, 5,03. Para três anos, o Japão é 14,00; a Alemanha, 3,40; o Reino Unido, 4,65; e os Estados Unidos, 3,64. Para quatro anos, o Japão é 9,21; a Alemanha, 2,76; o Reino Unido, 3,65; e os Estados Unidos, 3,25.
-Na comparação entre os quatro países, o Japão é cerca de três vezes maior que os outros três países para bebês. De um a quatro anos, é de três a cinco vezes maior que os países estrangeiros. A taxa de mortalidade infantil de nosso país é de três a cinco vezes maior que a dos outros três países em todas as idades. Então, qual é a causa da mortalidade infantil? Ao examinar as causas da mortalidade infantil, dividindo-as em congênitas e adquiridas, as causas congênitas são responsáveis por quase todas as mortes no primeiro mês de vida. A vida no primeiro mês de vida é vivida respirando neste mundo de forma plena, mas aqueles com anomalias ou doenças congênitas têm sua força vital incapaz de sustentar a vida e morrem, ou, como ainda não há contato com o mundo exterior, a influência do ambiente é fraca e é raro contrair uma doença fatal. A partir do segundo mês de vida, um pequeno número de remanescentes de causas congênitas morre, e a maioria morre de doenças adquiridas.
-
-Agora, ao observar as causas da mortalidade infantil (0-4 anos) de acordo com a tabela estatística de 1938, as causas de morte que podem ser consideradas congênitas são (1) “fraqueza congênita”, (2) “malformação congênita”, (3) “lesão do recém-nascido durante o parto”, (4) “prematuridade”, (5) “sífilis congênita” e (6) “outras doenças específicas de bebês frágeis”.
-O número de “fraqueza congênita” é 60.569; “malformação congênita”, 3.614; “lesão do recém-nascido durante o parto”, 381; “prematuridade”, 5.410; “sífilis congênita”, 2.270; e “outras doenças específicas de bebês frágeis”, 8.971, totalizando 81.215. Do total de mortes de bebês e crianças pequenas no mesmo ano, 365.852, as causas de morte congênitas representam pouco mais de um quarto.
-
-Em seguida, à medida que a idade avança para um e dois anos, a causa da morte se torna uma doença adquirida. As doenças importantes como causas de morte adquiridas durante a primeira infância são as doenças respiratórias, como a pneumonia, e a diarreia e a enterite (incluindo a indigestão), que são as duas principais doenças de morte adquirida na primeira infância.
-O número de mortes por pneumonia é de 69.816, mas como o diagnóstico entre pneumonia e bronquite nem sempre é claro e ambas são doenças respiratórias agudas, se somarmos as duas, o total é de 80.162. Este número de mortes é aproximadamente o mesmo que o número de mortes por causas congênitas e representa pouco mais de um quarto do total de mortes.
-O número de mortes por diarreia e enterite é de 70.691, o que representa pouco menos de um quarto do total de mortes. As três principais causas de mortalidade infantil, (1) causas congênitas, (2) pneumonia e bronquite, e (3) diarreia e enterite (incluindo indigestão), respondem por 237.468 mortes, o que corresponde a pouco mais de 64% do total de mortes infantis. Os 25% restantes são mortes por outras doenças adquiridas. Em seguida, as doenças que aumentam com a idade da criança são as doenças infecciosas agudas da infância, como disenteria e disenteria tóxica (14.641), coqueluche (8.653), sarampo (4.643), difteria (2.873), etc. A incidência dessas doenças infecciosas agudas aumenta com a idade.
-
-O acima é um estudo das causas da mortalidade infantil com base em estatísticas. No entanto, ao avançar com um plano de implementação de contramedidas, deve-se notar que os nomes das doenças registrados em tais estatísticas são uma compilação dos nomes das doenças nos atestados de óbito dos médicos. O atestado de óbito registra o nome da doença final da criança doente. Há casos em que um bebê que se pensava ter apenas bronquite e não ser grave, na verdade tinha fraqueza congênita e morreu fragilmente. Além disso, se uma criança contrai indigestão, sua condição nutricional é ruim e, em seguida, desenvolve pneumonia e morre, o atestado de óbito geralmente registra pneumonia. Se um bebê prematuro com desenvolvimento insuficiente desenvolve indigestão, o atestado de óbito registra indigestão.
-Além disso, quando um bebê morre de indigestão, a causa da morte é claramente indigestão. No entanto, o que causou essa doença e finalmente levou à morte do bebê pode ter sido um erro no método de alimentação artificial, porque a mãe não tinha leite, ou, mesmo que o método de nutrição fosse bem compreendido, não havia recursos para comprar leite ou produtos lácteos de boa qualidade, ou havia deficiências no sistema de distribuição de leite e produtos lácteos, o que finalmente levou à morte do bebê. Mesmo que o nome da doença no atestado de óbito seja o mesmo, indigestão, por trás da causa da indigestão estão várias causas médicas e sociais complexas.
-Quase todos os bebês e crianças pequenas contraem sarampo e coqueluche, mas é raro que morram apenas por causa dessas doenças. No entanto, se a pneumonia se complica com sarampo e coqueluche, a taxa de mortalidade aumenta drasticamente. Observando assim, quando um bebê ou criança morre, deve-se saber que várias causas congênitas e adquiridas, que não podem ser registradas no atestado de óbito, estão atuando de perto ou de longe.
-Ou seja, sabemos que as causas da mortalidade infantil incluem causas diretas ou finais de morte e causas indiretas ou primárias. No entanto, as causas primárias podem ser congênitas, adquiridas ou uma mistura de ambas.
-
-A seguir, uma parte dos resultados do exame nacional de bebês e crianças pequenas realizado pelo Departamento de Força Física do Ministério da Saúde e Bem-Estar de maio a setembro de 1940. Em geral, os examinados tinham de dois meses a um ano e dois meses de idade, e seu número era de aproximadamente 1,51 milhão. Dentre eles, 27%, ou cerca de 410.000, precisavam de atenção, com cerca de 180.000 doentes e cerca de 200.000 com desnutrição. A tabela abaixo é uma parte, mostrando os tipos de doenças investigadas em Fukushima, Ibaraki, Nara, Kagawa, etc. Com ela, pode-se ter uma ideia geral da tendência.
-
-| **Distúrbios Nutricionais e Doenças do Sistema Digestivo** | |
-| :--- | :--- |
-| Indigestão | 2.941 |
-| Gastrenterite | 1.510 |
-| Hérnia | 1.411 |
-| Distúrbio Nutricional (incluindo distúrbio nutricional por farinha) | 704 |
-| Outros | 131 |
-| **Total** | **6.697** |
-
-| **Doenças do Sistema Respiratório** | |
-| :--- | :--- |
-| Bronquite | 1.541 |
-| Resfriado | 367 |
-| Amigdalite e Hipertrofia | 116 |
-| Pneumonia | 116 |
-| Asma | 52 |
-| Tuberculose Pulmonar | 34 |
-| Catarro da Garganta e Outros | 56 |
-| **Total** | **2.282** |
-
-| **Deficiência de Vitaminas** | |
-| :--- | :--- |
-| Beribéri Infantil | 390 |
-| Deficiência de Vitaminas | 12 |
-| Outros | 15 |
-| **Total** | **417** |
-
-| **Doenças do Sangue e do Sistema Circulatório** | |
-| :--- | :--- |
-| Doença Cardíaca (incluindo distúrbio valvular) | 27 |
-| Anemia e Outros | 73 |
-| **Total** | **100** |
-
-| **Doenças Linfáticas e da Pele** | |
-| :--- | :--- |
-| Eczema | 1.936 |
-| Linfadenite e Hipertrofia | 314 |
-| Outros | 895 |
-| **Total** | **3.145** |
-
-| **Doenças do Sistema Nervoso** | |
-| :--- | :--- |
-| Hidrocefalia | 19 |
-| Paralisia Infantil | 16 |
-| Outros | 14 |
-| **Total** | **49** |
-
-| **Doenças do Sistema Urinário e Genital** | |
-| :--- | :--- |
-| Hidrocele | 74 |
-| Outros | 1 |
-| **Total** | **75** |
-
-| **Doenças Oculares** | |
-| :--- | :--- |
-| Conjuntivite | 290 |
-| Tracoma | 170 |
-| Outros | 74 |
-| **Total** | **534** |
-
-| **Doenças de Ouvido e Nariz** | |
-| :--- | :--- |
-| Otite Média e Otorreia e Outros | 494 |
-| Rinite | 16 |
-| **Total** | **510** |
-
-| **Doenças Infecciosas** | |
-| :--- | :--- |
-| Sarampo | 779 |
-| Coqueluche | 206 |
-| Varicela | 204 |
-| Sífilis | 64 |
-| Outros | 22 |
-| **Total** | **1.275** |
-
-| **Outras Doenças** | 1.176 |
-| :--- | :--- |
-*(Publicado no Boletim Fotográfico Semanal do Gabinete, 23 de abril de 1941)*
-
-Mesmo com base nas estatísticas acima, a taxa de mortalidade infantil é verdadeiramente preocupante. Então, qual é a verdadeira causa? Explicarei a seguir.
-A causa fundamental disso também é, desnecessário dizer, a vacinação antivariólica. Ou seja, a condição física da mãe diminuiu gradualmente devido à vacinação, e é um princípio comum a todas as coisas que os bebês nascidos de mães fracas sejam igualmente fracos. E, para ser mais detalhado, à condição física diminuída pela toxina natural negativada, a toxina medicamentosa é adicionada como um acelerador, e a condição física diminui ainda mais. Portanto, como são bebês nascidos dessas mães, logo após o nascimento, a ação purificadora dessas várias toxinas ocorre. Essa ação purificadora se manifesta como enterite, diarreia, indigestão, e também resfriado, pneumonia, bronquite, asma, sarampo, coqueluche, eczema, etc. (A paralisia infantil é de causa espiritual e será explicada em sua seção).
-
-Como as várias doenças acima são ações purificadoras, a maioria delas se curaria completamente se deixada em paz. No entanto, como a ação purificadora é suprimida pelo tratamento médico, a estagnação dessas toxinas leva ao enfraquecimento. Além disso, como as toxinas medicamentosas são adicionadas, o enfraquecimento aumenta e a morte é acelerada, o que é natural. No entanto, no caso de adultos, como eles têm força física suficiente, eles podem suportar o enfraquecimento causado pela supressão da ação purificadora e pelas toxinas medicamentosas, e não chegam facilmente à morte.
-Em particular, o aumento de mães com falta de leite materno nos últimos tempos e o erro de algumas mães de criar seus filhos com leite artificial ao estilo ocidental tornaram-se uma das principais causas. Isso é especialmente comum entre as mulheres da cidade.
-E ao examinar as mães com falta de leite materno, a causa é geralmente a fraqueza do estômago. As três toxinas se solidificaram na região do estômago, o que comprime o estômago e o encolhe. Por isso, a quantidade de comida é pequena e mal dá para nutrir o corpo da mãe, não entrando o suficiente para produzir leite materno. Ao dissolver e remover a solidificação na região do estômago desses pacientes, a quantidade de comida aumenta e, com isso, a quantidade de leite materno também aumenta gradualmente. Além disso, quando há uma solidificação de toxinas ao redor do mamilo, ela comprime as glândulas mamárias e diminui a quantidade de leite, mas isso pode ser curado facilmente.
-
-Além disso, a taxa de mortalidade infantil no Japão é muito mais alta que na Alemanha, Reino Unido e Estados Unidos, e há uma razão para isso. Enquanto os povos brancos têm sido criados com leite artificial por gerações, em nosso país, o leite materno tem sido a norma por gerações. Portanto, enquanto as funções de desenvolvimento deles se acostumaram a isso, para nós, que estamos acostumados com o leite materno, o leite artificial não é adequado, o que é naturalmente possível.
-O Criador criou a humanidade nesta terra para que ela se multiplicasse eternamente. Portanto, como o fato de os seres humanos darem à luz é a providência de Deus, o leite materno suficiente para que o bebê nascido cresça sem problemas deve ser naturalmente fornecido. No entanto, o fato de a quantidade de leite ser insuficiente significa que deve haver alguma razão que viole a providência de Deus. Portanto, não há solução fundamental além de descobrir e refletir sobre esse ponto de violação da providência. Então, o que é essa violação da providência? É o próprio erro da medicina moderna, como mencionei no início.
-
-### O Problema do Declínio da Condição Física Nacional
-
-Em conexão com o problema populacional, há uma questão importante que não pode ser separada: o problema do declínio da condição física nacional. Vamos mostrar a tendência a seguir.
-Em junho de 1936, o então Ministro do Exército, General Terauchi, recomendou o estabelecimento de uma política nacional de saúde e higiene em resposta ao problema do declínio da condição física nacional. Como resultado, o Ministério da Saúde e Bem-Estar foi finalmente estabelecido. Na época, as razões e contramedidas anunciadas pelo Departamento Médico do Ministério do Exército eram as seguintes:
-“Razões”
-1.  Nos países europeus, a constituição física da população diminuiu notavelmente após a Grande Guerra. Como contramedida, todos estabeleceram Ministérios da Saúde ou Higiene e se esforçaram para melhorar a saúde da população. Como resultado, a constituição física da população melhorou notavelmente e recuperou sua condição anterior.
-2.  De acordo com os resultados do exame de alistamento do Exército, o número de reprovados (classes C e D) entre 1922 e 1926 era de cerca de 250 por mil. No entanto, de 1927 a 1932, essa proporção aumentou para 350, e em 1935, aumentou drasticamente para 400, mostrando claramente o declínio da constituição física da população.
-3.  A altura média da população aumentou nove分 em comparação com os cinco尺 dois寸 de 1912, chegando a cinco尺 dois寸 nove分 em 1935. No entanto, o peso não acompanhou esse aumento. Em comparação com os treze貫 oitocentos匁 de 1912, em 1935 era de apenas quatorze貫 cem匁. De acordo com as estatísticas, o aumento médio de peso nos últimos vinte e cinco anos foi de apenas duzentos e setenta匁.
-4.  As doenças torácicas de natureza tuberculosa aumentaram notavelmente. Ou seja, por volta de 1891-92, dois em cada cem jovens tinham tuberculose, enquanto hoje são vinte e quatro.
-5.  O avanço da arte médica e a disseminação dos cuidados médicos mostraram algum efeito na redução da taxa de mortalidade por tuberculose, mas provaram ser totalmente ineficazes na prevenção da ocorrência de tuberculose.
-6.  As doenças infecciosas de notificação compulsória, como tifoide e disenteria, estão em um caminho de aumento anual.
-7.  A causa do declínio da constituição física e da constituição física não é a falta de educação física, nutrição ou cuidados médicos, mas o fato de estar enraizada na fraqueza fundamental do corpo materno.
-8.  A administração sanitária atual se limita ao controle de medicamentos, alimentos e bebidas, ao tratamento de resíduos e poeira, ao sistema de saúde e outros, e é, em geral, um controle ineficaz.
-9.  Falta uma integração orgânica entre os Ministérios da Educação, do Interior, das Comunicações e do Comércio e Indústria, que atualmente administram a saúde e a higiene. O mesmo se aplica às regiões.
-10. Com base nas razões acima, o governo deve romper com a antiga prática de divisão entre os ministérios e estabelecer um novo ministério para administrar a saúde e a higiene, integrando os atuais departamentos e seções ministeriais relacionados. Ele deve controlar os assuntos de seguro de trabalho, prevenção de epidemias, cuidados médicos, educação física, etc., e cumprir a missão original da administração sanitária.
-
-“Assuntos sob Jurisdição”
-1.  Ajuste da distribuição do problema populacional e alimentar e dos recursos vitais.
-2.  Assuntos humanos relacionados à imigração.
-3.  Aumento da eficiência e resistência no trabalho da população.
-4.  Assuntos relacionados às condições essenciais da vida da população.
-5.  Racionalização e controle de vestuário e moradia.
-6.  Assuntos relacionados à adaptação ao ambiente.
-7.  Treinamento da mente e do corpo, aumento da eficiência, prevenção de epidemias e envenenamentos, educação sanitária sobre prevenção de epidemias.
-8.  Orientação e supervisão de empreendimentos de saúde social.
-9.  Controle e operação de recursos humanos, como hospitais e médicos.
-10. Orientação e supervisão de instituições de pesquisa em ciências da vida (abolir e fundir o Instituto de Higiene do Ministério do Interior, o Instituto de Nutrição, o Instituto de Educação Física do Ministério da Educação, etc., e adicionar instituições de pesquisa sobre saúde e higiene para criar uma instituição de pesquisa em ciências da vida).
-
-Agora, os principais reprovados são os de constituição muscular e óssea fraca, e o número desses indivíduos de constituição fraca estava aumentando a uma taxa de 0,1% ao ano: 31,7% dos jovens em 1932, 32,7% em 1933 e 33,7% em 1934.
-A seguir, os reprovados que se seguem a essa constituição fraca são os com doenças tuberculosas, deficiência visual, deficiência por trauma, baixa estatura, etc. As doenças venéreas são mais comuns nas cidades do que no campo, e são especialmente comuns entre os trabalhadores de classe baixa, operários, motoristas, etc. E a maioria dos jovens do campo que contraem essa doença são aqueles que saíram para trabalhar na cidade.
-Em seguida, ao observar a relação entre altura e peso, nos últimos vinte e cinco anos, a altura aumentou cerca de um寸 e o peso, duzentos e sessenta匁. No entanto, como o peso por um寸 de altura em 1912 era de duzentos e sessenta匁, é como se a altura tivesse aumentado com a constituição física de 1912, e a relação entre altura e peso – a densidade – diminuiu. Um fenômeno semelhante é observado na circunferência do peito, que quase não mudou nos últimos vinte anos. Além disso, o tórax dos japoneses tem a característica de ser longo no diâmetro esquerdo-direito e curto no diâmetro anteroposterior. Em comparação com o dos europeus, americanos e chineses, que é curto no diâmetro esquerdo-direito e longo no diâmetro anteroposterior, mesmo com a mesma circunferência do peito, deve-se reconhecer que o conteúdo é inferior.
-
-O que deve ser notado aqui é que o aumento ou diminuição do peso pode ocorrer de duas maneiras: uma em que o peso aumenta ou diminui uniformemente em todo o corpo, e outra em que uma parte do corpo engorda enquanto outra parte emagrece. O fenômeno de que este último tipo é comum entre os jovens de nosso país é algo a ser observado.
-Isso prova que há grandes deficiências em vários estilos de vida e instalações de vida em nosso país. A população inteira deve ter a consciência de superar espontaneamente essas deficiências dentro desses estilos de vida e instalações, e começar pela reforma dessas deficiências erradicará a verdadeira causa do declínio da condição física nacional. O fenômeno de que o corpo dos jovens que se desenvolveram com a vida militar retorna ao corpo de antes do alistamento após um ou dois anos de vida de licença – especialmente quando se vê que isso é notável entre os agricultores e trabalhadores industriais –, faz com que se sinta isso ainda mais profundamente.
-
-Agora, vejamos a influência da vida urbana e rural nos jovens. Ao investigar mais de 600.000 jovens que fizeram o exame em 1936, descobriu-se que, entre os que nasceram e cresceram na cidade, o número de reprovados era de 410 por mil jovens. Em comparação, entre os que nasceram e cresceram no campo, o número de reprovados era de pouco mais de 310 por mil jovens, cerca de 100 a menos. No entanto, entre os que nasceram no campo e se mudaram para a cidade após se formarem na escola primária, o número de reprovados era de pouco mais de 380 por mil, mostrando vividamente o quão ruim é a influência da vida urbana na condição física da população.
-No entanto, entre os que nasceram na cidade e se formaram na escola primária da cidade, mesmo que se mudem para o campo depois, ainda contam com pouco mais de 450 reprovados por mil. Isso mostra o quão decisiva é a vida urbana na infância e na adolescência como causa da má constituição física das pessoas.
-Assim, entende-se que o campo é melhor que a cidade, mas a vida rural também não deve ser deixada como está. Há pouco mais de dez anos, o número de reprovados no campo era de pouco mais de 200 por mil, mas hoje já ultrapassou 300, o que é um sentimento doloroso.
-
-A seguir, qual é a condição física dos estudantes?
-A situação da saúde e da condição física da população, como revelado no exame de alistamento de nosso país, e a comparação entre a cidade e o campo são como descritas acima. Vejamos agora por profissão.
-Ao observar os reprovados por profissão, os primeiros são os estudantes, e sua taxa de reprovação é de mais de 500 por mil, um resultado ruim que excede a metade. Especialmente em Tóquio e Osaka, é surpreendente que se aproxime de 600. Como prova da baixa taxa de condição física e saúde dos estudantes de Tóquio e Osaka, pode-se citar o seguinte exemplo. De 98 alunos do quinto ano de uma certa escola secundária na cidade de Tóquio que, como os chamados estudantes saudáveis, ficaram alojados no quartel da Divisão da Guarda Imperial, quando um exame de saúde foi realizado, 39 dos 98, ou seja, 40%, tinham doenças torácicas crônicas.
-Este exemplo surpreendeu as autoridades escolares e militares, mas tanto a família quanto o estado e a escola devem refletir profundamente sobre isso. Hoje, quando os esportes estudantis se popularizaram e se desenvolveram, isso é certamente algo muito estranho, mas não se pode deixar de suspeitar que a popularização e o desenvolvimento dos esportes estão ocorrendo em uma direção e política equivocadas. Suspeita-se que os esportes possam ter se desviado da linha de melhoria da condição física nacional. No entanto, o declínio da condição física dos estudantes não pode ser resolvido apenas com a questão dos esportes. Naturalmente, deve ser resolvido pela família, pela sociedade, pelo estado e pelo sistema educacional em geral. Mas há uma questão importante que gostaria de acrescentar sobre a condição física e a saúde dos estudantes: à medida que o nível de educação desses estudantes avança, a taxa de reprovação no exame de alistamento aumenta progressivamente, e o grau das doenças que são a causa também está piorando. Ou seja, os reprovados da classe C são mais comuns entre os graduados universitários, seguidos pelos graduados de escolas secundárias superiores e escolas profissionais, e depois pelos graduados de escolas secundárias e escolas primárias, nessa ordem. No entanto, mesmo entre os graduados da escola primária, os que se formaram no ensino fundamental comum têm mais reprovados da classe C do que os que se formaram no ensino superior, e aqui também reside um grande problema social e educacional.
-
-A seguir, sobre a influência da vida urbana na saúde das crianças do ensino fundamental, o Departamento de Educação da cidade, que está avançando na pesquisa, realizou um exame físico em 106.085 de 120.878 crianças do ensino fundamental este ano (1936). O resultado foi que os pacientes de otorrinolaringologia, liderados por 9.564 meninos e 8.595 meninas, totalizando 18.159, e os portadores de várias doenças representaram 43.677, quase metade das crianças examinadas, um número elevado. Dentre eles, 273 tiveram sua matrícula adiada, uma situação lamentável. Fica-se surpreso novamente com a realidade da cidade insalubre.
-A discriminação das crianças doentes é △Oftalmologia: 4.152 meninos, 9.223 meninas; △Dermatologia: 2.468 meninos, 1.492 meninas; △Hérnia, sopro cardíaco, catarro brônquico: 2.535 meninos, 1.909 meninas; △Problemas ósseos, articulares e musculares: 847 meninos, 560 meninas.
-
-A seguir, o fato de que há muitos míopes entre nosso povo é mundialmente famoso, mas a pesquisa realizada pelo Departamento de Educação Física do Ministério da Educação em estudantes, alunos e crianças do ensino fundamental em todo o país mostrou resultados verdadeiramente aterrorizantes.
-Ou seja, no ano fiscal de 1922, nas escolas primárias, era de 12,93% para os meninos e 15,27% para as meninas. Em 1930, aumentou progressivamente para 16,24% para os meninos e 19,69% para as meninas. As outras escolas mostraram as seguintes porcentagens nos anos fiscais de 1920 e 1930.
-
-| | (1920) | (1930) |
-| :--- | :--- | :--- |
-| Escolas Secundárias Femininas | 16,63 | 34,07 |
-| Escolas Secundárias | 21,75 | 36,33 |
-| Escolas Profissionais | 21,72 | 34,38 |
-| Escolas Normais (Masculinas) | 26,65 | 43,65 |
-| | 19,23 | 40,25 |
-| Escolas Profissionais Superiores (Masculinas) | 41,53 | 42,71 |
-| | 20,55 | 53,98 |
-
-Para dizer de forma muito geral, a miopia, que era de 15% ao entrar na escola primária, aumenta para 20% ao entrar na escola secundária e para 50% ao chegar à escola profissional superior. Se adicionarmos a isso a presbiopia, o astigmatismo, o estrabismo, etc., de pessoas com mais de cinquenta anos, 60 a 70% das pessoas ativas na sociedade sentem inconveniência ou desperdiçam seus nervos desnecessariamente, diminuindo a eficiência de suas atividades.
-
-A seguir, apresentamos as principais doenças com alta taxa de mortalidade em nosso país (pesquisa de 1936).
-De acordo com a pesquisa do Bureau de Estatísticas do Gabinete, do total de 1.234.000 mortes em nosso país em 1934, mais de 131.500 foram por tuberculose respiratória e outras, com uma proporção de 106,5 por mil mortes. Em seguida, vêm mais de 127.000 por diarreia e enterite, com uma proporção de 103,6; mais de 124.000 por pneumonia, com uma proporção de 100,5; e mais de 114.000 por hemorragia cerebral, embolia cerebral, etc., com uma proporção de 92,7. Portanto, é claro que a tuberculose é a mais temível. Do ponto de vista da idade, a maioria das mortes por diarreia, enterite e pneumonia ocorre em bebês com menos de um ano, e as de hemorragia cerebral e embolia cerebral são muito comuns entre os cinquenta e cinco e os setenta e nove anos. Em contraste, na tuberculose, o fato de a maioria das mortes ocorrer entre os quinze e os vinte e nove anos exige grande atenção.
-
-A seguir, o Tokyo Nichinichi Shimbun de 3 de junho de 1936 escreveu o seguinte:
-(Preâmbulo omitido)
-“A altura e o peso aumentaram, o que parece um bom resultado à primeira vista, mas a taxa de aumento do peso não acompanha a da altura, as doenças tuberculosas também aumentaram notavelmente, e a miopia, as cáries, etc., também estão se tornando cada vez mais numerosas. Isso é algo a ser muito preocupado como um problema nacional. Nos últimos tempos, vários esportes se popularizaram entre a população com grande vigor. Portanto, a constituição física e a saúde da população deveriam estar gradualmente melhorando. É o que qualquer um deduziria. No entanto, por que a constituição física de nossa juventude está nesta situação pessimista? Naturalmente, não deve haver muitos elementos de acaso em tal coisa. É necessário descobrir completamente a causa hoje, não apenas para remover essa preocupação, mas também para fazer com que a constituição física de nossa população se volte para o caminho da melhoria. Isso deve ser um setor importante da chamada renovação.
-A causa do declínio da constituição física dos jovens deve, naturalmente, aguardar a investigação de especialistas, e os resultados acabarão por indicar o conteúdo da melhoria de nosso método de criação de crianças e jovens. No entanto, em geral, acredita-se que os quatro tipos de fatores que têm uma relação importante com o desenvolvimento de crianças e jovens são o ambiente, a alimentação, o estudo e o exercício. Não é preciso dizer que o ambiente tem uma influência muito grande no corpo. No entanto, nos últimos tempos, a proporção de habitantes urbanos em nossa população aumenta ano a ano, e o barulho e a agitação das cidades se tornam cada vez mais intensos. Por outro lado, as instalações sanitárias também estão sendo gradualmente melhoradas, então não se acredita que haja uma grande mudança na influência ambiental. Quanto à correlação entre alimentação e corpo, não é preciso nem dizer, mas a alimentação da população muda gradualmente com o tempo. O aumento das cáries, etc., é considerado relacionado a essa mudança na alimentação, então a higiene alimentar é um grande problema de saúde da população, uma área a ser pesquisada por especialistas e práticos. No entanto, como a vida da população em geral melhorou recentemente, não se acredita que a alimentação esteja tendo uma influência muito ruim na constituição física dos jovens. Sendo assim, o que resta são as áreas de estudo e educação física.”
-A carga de aprendizado dos educandos em nossa educação primária, secundária e outras é um grande problema. Especialmente, os males da educação preparatória para o ingresso são gritados em toda parte. A experiência mostra que o estudo adequado traz bons resultados para o corpo, mas é claro que o estudo excessivo ou desequilibrado é prejudicial à saúde, e especialmente o entupimento passivo e desinteressante causa grande fadiga mental e física. Por outro lado, na área da educação física, nos últimos tempos, a ginástica escolar de nosso país está sendo gradualmente melhorada, o treinamento militar também foi adicionado e os esportes também estão sendo incentivados. No entanto, o fato de a constituição física dos jovens estar se tornando tão inferior indica que há alguma deficiência aí.
-
-A seguir, um artigo do Yomiuri Shimbun de 30 de julho de 1940 dizia o seguinte:
-“A ênfase excessiva na educação física é a causa? A tuberculose entre os novos alunos. O novo sistema de admissão lança um sinal vermelho.
-Quando a atenção de vários setores está voltada para o tipo de influência que o exame de admissão ao ensino médio deste ano, que aboliu as disciplinas acadêmicas e enfatizou a educação física, teve sobre os alunos, em uma certa escola secundária de uma cidade de Kansai, o número de alunos que abandonaram a escola por tuberculose entre os que ingressaram este ano aumentou, e os males da ênfase excessiva na educação física estão sendo gritados. Isso levanta uma questão para as autoridades da escola primária e para as famílias em geral, às vésperas do período de preparação para o avanço no próximo ano.
-Sobre isso, perguntamos ao Dr. Masayasu Kusumoto, da Divisão de Tuberculose do Ministério da Saúde e Bem-Estar.
-O fato de alunos do ensino médio infectados com tuberculose abandonarem a escola no primeiro ano logo após a admissão é um problema importante. Geralmente, a idade de infecção por tuberculose é de quinze a vinte anos, mas nas áreas urbanas há muitas crianças que se infectam na escola primária. Uma pesquisa com crianças da escola primária da cidade de Osaka mostrou uma taxa de infecção surpreendente de 70% do primeiro ao sexto ano. As crianças da cidade de Tóquio têm uma taxa um pouco menor que a de Osaka, mas ainda assim metade de todas as crianças está infectada. O bacilo da tuberculose é mais perigoso no primeiro ano após se fixar nos pulmões. Se o corpo se cansar com ginástica ou exercícios excessivos nesse período e a resistência à doença diminuir, a doença se manifestará. No entanto, se este período perigoso de um ano passar sem anormalidades, o germe se solidifica e, ao contrário, desenvolve-se uma imunidade à tuberculose, e a doença não se manifesta. No entanto, nas escolas primárias, o exame de saúde é feito apenas com um simples estetoscópio, de modo que o estado de perigo das crianças infectadas com tuberculose não pode ser determinado claramente. Portanto, o exercício físico das autoridades escolares é realizado de forma uniforme. Os alunos que de alguma forma superam essa dificuldade e passam nos exames de educação física, como a barra fixa, e entram no ensino médio, o exercício se torna ainda mais intenso. Por isso, os alunos que estão no período perigoso de um ano após a infecção são forçados a abandonar a escola devido ao progresso da doença. Os sintomas iniciais do desenvolvimento da tuberculose, como febre leve, cansaço e perda de apetite, são percebidos por aqueles com corpo fraco, mas quanto mais forte o corpo, menos os sintomas são percebidos, então eles continuam a se exercitar e, quando o corpo finalmente não aguenta mais, eles entram em pânico. A atenção das autoridades escolares é necessária, mas para se precaver contra este período perigoso, a família deve prestar muita atenção e, por meio de um exame de saúde, verificar cientificamente o momento e o grau da infecção. Aqueles que têm o início do desenvolvimento da doença devem parar com os exercícios excessivos e se esforçar para se recuperar.”
-
-Sobre o problema da saúde da população, vejamos a situação recente no Reino Unido.
-No último ano, foram gastos duzentos milhões de libras em despesas de saúde, mas a constituição física da população continua a diminuir. Além disso, as despesas apenas com cuidados médicos chegam a trezentos milhões de libras por ano, totalizando quinhentos milhões de libras (cinco bilhões de ienes em conversão de paridade), um gasto enorme. O aumento desses gastos tornou-se um problema no parlamento, e o imperador britânico também mencionou o problema em seu discurso recente.
-O professor Ryle, da Universidade de Edimburgo, advertiu: “Se nos esforçarmos na educação física nacional por dois anos, há uma grande perspectiva de que a constituição física de nossa população melhore. Se formos negligentes, levará duas gerações para recuperar a constituição física fraca.” E acrescentou: “Vejam o fracasso do Reino Unido nos Jogos Olímpicos. Não se pode acreditar que estes sejam os britânicos que têm o histórico campo de esportes de Eton.”
-
-### A Verdadeira Causa do Declínio da Condição Física
-
-Pelas estatísticas de vários campos, acredito que se compreendeu o quão preocupante é a tendência de declínio da condição física nacional em nosso país. E, como expliquei em detalhes na primeira parte, a causa fundamental é, naturalmente, a vacinação antivariólica e as toxinas medicamentosas. E se o objetivo original da vacinação antivariólica é prevenir a doença da varíola, então qual é a causa da toxina da varíola, que é a causa da ocorrência da doença da varíola? A descoberta disso deve ser a raiz de tudo.
-Segundo minha descoberta, é a toxina medicamentosa. Então, qual é a razão e o caminho pelo qual a toxina medicamentosa se torna a toxina natural? É que a toxina medicamentosa, ao passar por várias gerações no corpo humano, se transforma em um tipo de toxina, que é a toxina da varíola. Ou seja, ela é formada pela hereditariedade. O que na medicina é chamado de sífilis hereditária é, na verdade, um erro. Portanto, pode-se entender isso pelo fato de que o estado das erupções de um paciente com varíola é muito semelhante às erupções sifilíticas.
-Além disso, é comum que pacientes diagnosticados pelos médicos como tendo sífilis hereditária fiquem indignados com o fato de que seus pais, avós e bisavós não têm histórico dessas doenças. Nesse momento, o médico diz que o contágio pode ocorrer acidentalmente em outras situações, além da má conduta, e o paciente leigo acaba tendo que aceitar. Embora o contágio fora da má conduta possa ser extremamente raro, pode-se dizer que quase não existe. Esses fatos são inteiramente o resultado de se confundir a toxina natural com a sífilis hereditária.
-Como outro exemplo, em nosso país, a ocorrência de varíola data de cerca de 1.300 anos atrás, após a era do Imperador Kimmei. Após a introdução do budismo no décimo terceiro ano do Imperador Kimmei, epidemias começaram a ocorrer em vários lugares. O governante da época, acreditando que os deuses do Japão estavam zangados com a introdução do budismo, proibiu o budismo. No entanto, apesar disso, as epidemias não diminuíram, e, concluindo que não havia relação com o budismo, ele foi novamente permitido. Isso é um fato histórico. Qual a razão disso? Imagina-se que, antes da introdução do budismo, os medicamentos chineses já haviam sido introduzidos, e eles se tornaram a causa das epidemias. Naturalmente, as epidemias eram a varíola.
-
-E a intenção de nossos antepassados de curar doenças com medicamentos teve um efeito completamente reverso. Não só isso, mas o método de tratamento de doenças se tornou “a causa da ocorrência de doenças”, e isso se repetiu, levando finalmente ao resultado do declínio da condição física de hoje. É semelhante à famosa história da Bíblia, em que Adão e Eva, no Jardim do Éden, comeram o fruto proibido, e a partir daí o pecado da humanidade surgiu.
-Como outro exemplo, a longevidade dos japoneses diminuiu notavelmente. Com todo o respeito, é claro na história que os imperadores, do Imperador Jimmu ao Imperador Keiko, tiveram uma vida muito longa, a maioria com mais de cem anos. Isso se deve, com certeza, ao fato de que não havia medicamentos em nosso país na antiguidade.
-Além disso, o imperador Qin Shi Huang da China, acreditando que “no mar do leste há a ilha de Horai, e os habitantes dessa ilha são muito longevos”, ordenou a seu vassalo Xu Fu que procurasse que tipo de elixir havia lá. Ele imediatamente viajou para a ilha de Horai. Naturalmente, a ilha de Horai é nosso Japão. Xu Fu viajou para lá e, por mais que procurasse, não havia elixir algum. A razão é que, naquela época, não havia medicamentos no Japão, e é por isso que as pessoas eram longevas. Diante disso, até mesmo Xu Fu não pôde retornar ao seu país e, sem escolha, terminou sua vida no Japão. Diz-se que o túmulo de Xu Fu ainda existe hoje em um certo lugar em Shikoku [Wakayama].
-
-### Toxinas Medicamentosas
-
-Até hoje, na medicina ocidental, desde a arte médica fundada por Hipócrates há 2.500 anos, e na arte médica fundada por Fuxi, o ancestral da medicina chinesa, há 5.000 anos, e em todas as dezenas de milhões de outros métodos de tratamento de doenças, todos não passaram de métodos de interrupção da ação purificadora ou de alívio temporário do sofrimento, como expliquei repetidamente. E o que foi considerado mais eficaz foi a terapia medicamentosa.
-E as toxinas medicamentosas não apenas interrompem a ação purificadora, mas sua má influência na saúde humana é verdadeiramente inimaginável. De acordo com minha longa experiência, todo o sofrimento é inteiramente resultado de toxinas medicamentosas. A dor, a febre, o desconforto, a fadiga, a neurastenia – a causa é essa. O declínio do metabolismo de todo o corpo, o relaxamento das funções – tudo é resultado de toxinas medicamentosas. Portanto, não é exagero dizer que a boa ou má saúde de uma pessoa, a gravidade ou a leveza de uma doença, “dependem da quantidade de toxinas medicamentosas”.
-Até hoje, quando uma pessoa adoece, a ação purificadora é interrompida por toxinas medicamentosas. Além disso, uma nova toxina, a toxina medicamentosa, é adicionada. Como exemplo disso, o fato mais conhecido é que, enquanto um médico está tratando, outras doenças ocorrem. Embora o objetivo seja curar a primeira doença, o fato de uma segunda ou terceira doença ocorrer não é muito irracional? Ou seja, se o tratamento for adequado, a primeira doença deveria diminuir e outras doenças não deveriam ocorrer. Ou seja, se assumirmos uma doença de dez, com o passar do tempo, ela deveria diminuir gradualmente para nove, oito, sete. No entanto, o que é isso? Apesar de o tratamento estar sendo aplicado, ela aumenta para onze, doze, treze. É uma história verdadeiramente incompreensível. Diante disso, nem o paciente nem o médico levantam qualquer dúvida, mas acredito que isso se deve ao fato de a medicina ter se tornado uma espécie de superstição.
-Portanto, imagino o seguinte. Se os japoneses parassem completamente de usar medicamentos, em dez anos o número de doentes provavelmente diminuiria pela metade. Consequentemente, a longevidade dos japoneses aumentaria, e em algumas décadas, uma expectativa de vida média de oitenta anos seria fácil. A razão é que a vida curta se deve à morte por doença. É a chamada morte não natural. Se as doenças diminuírem, as mortes naturais aumentarão. Se falamos de morte natural, ela deveria ocorrer pelo menos aos noventa anos ou mais. Além disso, o fato de haver sofrimento na hora da morte se deve ao fato de não ser a expectativa de vida natural. No caso de morrer após completar a expectativa de vida natural, como uma árvore que cai naturalmente quando sua vida útil termina, é natural que não haja o menor sofrimento. E qual é a causa do sofrimento da morte? Não é preciso dizer que é porque a ação purificadora é interrompida por medicamentos e outros métodos. Ou seja, a ação purificadora, que é natural, é suprimida de forma não natural – esse atrito se torna sofrimento. E, como é um corpo completamente enfraquecido, o sofrimento é duplicado.
-
-Desde os tempos antigos, há um ditado que diz que “o homem é um receptáculo de doenças”, mas isso está muito errado. Na verdade, “o homem é um receptáculo de saúde”, e a saúde deve ser o princípio. Acredito que Deus fez o homem nascer para manifestar os ideais de Deus nesta terra. Portanto, ao cumprir essa missão, ele não deve ser insalubre. Portanto, a falta de saúde se deve ao fato de o homem estar cometendo algum erro, ou seja, indo contra a providência de Deus, e o maior desses erros é o “uso de medicamentos”.
-A seguir, permitam-me falar novamente sobre mim. Originalmente, eu era uma pessoa extremamente fraca desde o nascimento. Portanto, até os quarenta anos, eu era um adorador de medicamentos acima da média, quase viciado em remédios. Até então, eu passava mais tempo doente do que saudável. No entanto, por acaso, por algum motivo, eu descobri o quão terríveis eram as toxinas medicamentosas e as abandonei decididamente. A partir de então, minha saúde melhorou ano a ano, e hoje, mais de vinte anos depois, sou tão saudável que supero os jovens. Minha família de mais de uma dúzia de pessoas também é composta apenas por pessoas de saúde raramente vista hoje. Além disso, as pessoas que acreditam em minha teoria e a praticam, sem exceção, estão se tornando mais saudáveis a cada ano, e famílias saudáveis estão sendo criadas. Vendo isso, não há espaço para dúvidas.
-
-Aqui, devo mencionar mais uma coisa importante. É que os portadores de toxinas medicamentosas sofrem as seguintes más influências, e quanto maior a quantidade, mais grave é. No entanto, as pessoas não percebem isso de forma alguma.
-1.  Sensação constante de desconforto.
-2.  A atividade do cérebro se torna lenta.
-3.  Os movimentos do corpo se tornam relaxados.
-
-Explicarei em detalhes esses três itens.
-1.  O desconforto ocorre porque há um calor leve nos locais de acúmulo de toxinas medicamentosas, causando um calafrio local ou geral. Portanto, a pessoa sempre sente mais frio que o normal. Além disso, ela se sente preguiçosa para fazer qualquer coisa, gosta de dormir, se cansa facilmente das coisas e não consegue se dedicar a uma única coisa por muito tempo. E a interpretação das coisas se torna toda pessimista, falta-lhe bom senso, ela prefere a melancolia e, consequentemente, prefere os dias chuvosos aos dias ensolarados. Além disso, ela se irrita facilmente e, em casos graves, torna-se autodestrutiva. Ou fica constantemente se preocupando, e a menor coisa a incomoda, tornando-se histérica. E, embora saiba que está errada, não consegue fazer nada a respeito, o que a leva a se angustiar. Em casos mais graves, ela se torna pessimista e até mesmo uma pessoa inútil.
-Quando uma pessoa assim surge em uma família, os outros também são afetados, o lar se torna sombrio e as brigas são constantes, de modo que é impossível esperar alcançar a felicidade na vida.
-
-2.  O cérebro das pessoas modernas tornou-se muito lento. Consequentemente, a memória ruim também é abundante. Portanto, os discursos de pessoas em posições importantes hoje em dia quase não podem ser feitos sem um manuscrito. Ouvi dizer que antigamente era considerado uma vergonha ter um manuscrito.
-No final do período Edo, quando pessoas como Genpaku Sugita e Choei Takano traduziram os estudos holandeses, mesmo sem ter muitos livros de referência, eles conseguiram terminar o trabalho. Acredito que seus cérebros deviam ser muito bons. Pessoas assim quase não existem entre os modernos. Além disso, o fato de Benkei, no posto de Ataka, ter recitado o Kanjincho de uma folha em branco, e de Hieda no Are ter memorizado todo o Kojiki, que é tão volumoso, mostra que o cérebro dos japoneses é incomparável no mundo.
-Além disso, as pessoas modernas parecem não conseguir entender completamente as teorias simples e claras. A menos que se explique de forma prolixa, entrando em detalhes e citando vários exemplos, parece que elas não conseguem compreender. Originalmente, uma pessoa com um bom cérebro pode entender o significado com uma única palavra. Há um velho ditado que diz “ouvir um e saber dez”, mas as pessoas modernas, no máximo, “ouvem dez e sabem um”. Além disso, há uma tendência de valorizar a teoria mais do que a prática, e por isso, mesmo a medicina tende a se inclinar para a teoria e a ignorar a prática.
-Além disso, quando o governo implementa novas instalações ou políticas, mesmo que se esforce para anunciar à população pela rádio, jornais, cartazes, etc., o fato de a população não entender e executar rapidamente se deve, acredito, ao fato de que o cérebro de toda a população de hoje se tornou lento.
-
-3.  A lentidão dos movimentos das pessoas modernas também é notável. Como a maior parte da população é assim, eles não percebem. Em particular, a lentidão da caminhada dos habitantes da cidade é surpreendente. Isso porque o corpo é pesado.
-Os samurais e artistas marciais de antigamente, em um instante, podiam desviar do corpo como um pássaro em voo, ou os mensageiros podiam facilmente percorrer vinte ri por dia e voltar. As pessoas modernas provavelmente não conseguiriam fazer tais proezas.
-Originalmente, os japoneses são muito leves e seus movimentos são ágeis em comparação com os estrangeiros. O fato de os aviadores japoneses serem particularmente excelentes é a melhor prova disso.
-Consequentemente, não é exagero dizer que a infelicidade e as brigas humanas têm sua raiz nas toxinas medicamentosas. Portanto, imagino o quão brilhante seria se uma sociedade de seres humanos sem toxinas medicamentosas surgisse. Um ser humano que se livrou completamente das toxinas medicamentosas tem um cérebro claro, está cheio de uma sensação de frescor e é vibrante.
-
-### O Que Fazer com a Vacinação Antivariólica?
-
-Expliquei que o declínio da condição física nacional e todas as doenças têm a vacinação antivariólica como principal causa. Então, a vacinação antivariólica deve ser abolida imediatamente? Naturalmente, isso é difícil. A razão é que, para o ser humano atual, que felizmente conseguiu escapar da doença da varíola, contrair novamente a varíola seria um sofrimento insuportável. Nesse sentido, acredito que seria bom adotar um método de redução gradual. Primeiro, é abolir os medicamentos e diminuir gradualmente as toxinas medicamentosas do ser humano. Naturalmente, se este tratamento for implementado, será rápido, mas mesmo sem ele, não é preciso dizer que elas diminuirão naturalmente. E a vacinação antivariólica é reduzida em proporção à melhoria da condição física humana. Isso porque fica claro pela presença ou ausência de toxinas, então seria bom se houvesse um método para saber com certeza a presença ou ausência dessas toxinas. No entanto, como método para saber isso, se se aprender esta arte médica, qualquer pessoa poderá descobri-lo facilmente. E, como expliquei em detalhes na seção sobre a arte médica dos rins, ao tornar a atividade dos rins perfeita, qualquer toxina pode ser expelida. Portanto, é natural que a toxina da varíola também seja eliminada.
-Observando assim, entender-se-á que o problema da abolição da vacinação antivariólica não é tão difícil.
-
-### Medicina Não Científica
-
-Hoje, não há ninguém que não acredite que a medicina ocidental seja científica. No entanto, eu não considero a medicina ocidental científica.
-Originalmente, a ciência natural é aprofundar a realidade da natureza como ela é e conhecer suas leis. E com isso, servir ao progresso e à melhoria da cultura. Portanto, se se apreender verdadeiramente as leis da natureza, um padrão fixo deveria surgir. No entanto, isso é para coisas além do ser humano. Por exemplo, ao cientificar não apenas animais e plantas, mas também todos os tipos de minerais, pode-se apreender sua essência e conhecer suas leis e padrões.
-Assim, a ciência pode expor os mistérios de tudo além do ser humano e aumentar o bem-estar. Iludidos por esse mérito, pensou-se que o ser humano era o mesmo e continuou-se a cientificá-lo. No entanto, descobri que isso em si é um grande erro.
-O ponto que quero dizer é esse: o ser humano é uma existência separada de tudo o mais e não se enquadra na categoria de tudo o mais. Ou seja, o primeiro passo da lei de cientificar o ser humano é primeiro saber que o ser humano não pode ser absolutamente resolvido pela ciência moderna. E o método de cientificar tudo além do ser humano depende inteiramente de máquinas. A ciência e as máquinas são fatos inseparáveis. Consequentemente, a ideia fundamental da medicina ocidental foi a tentativa de resolver a vida humana também com máquinas.
-Para dizer isso de forma sucinta, em relação ao ser humano, que é originalmente espiritual, tenta-se resolvê-lo materialmente – esse é o erro fundamental. A razão é que, em relação ao ser humano, que é espiritual, ele deve ser resolvido espiritualmente, e essa é a verdadeira lei científica. Naturalmente, o ser humano tem um corpo, mas mesmo esse corpo, no ser humano, pode ser resolvido espiritualmente, e esse é o princípio fundamental. E o espiritual é o espírito, e o material é o corpo, mas pretendo explicar a relação entre eles em detalhes separadamente.
-Com isso, será possível conhecer a ciência humana no verdadeiro sentido. Naturalmente, também se poderá saber o quão grande é a distância entre a ciência não humana e a ciência humana. Ao reconhecer isso, quando se aborda o ser humano com a ciência materialista atual, ela se torna não científica.
-Nesse sentido, por mais que se pesquise cobaias e ratos e se tente aplicá-los aos seres humanos, isso não tem sentido. E, em primeiro lugar, compare o ser humano com outros animais. Seus pensamentos e sentimentos, sua forma e movimentos, sua constituição física, sua alimentação, sua vida – a diferença com os seres humanos em todos os aspectos é muito grande. Eles têm quatro pernas e uma cauda e não conseguem andar eretos. A pele grossa de todo o corpo, os pelos duros, é claro, mas a linguagem, o olfato, a audição – não há necessidade de escrever mais sobre todas as diferenças. Por mais que se estude um animal tão diferente, não se pode aplicá-lo ao ser humano. Portanto, para dizer em uma palavra, a medicina até agora tem tentado resolver problemas metafísicos com teorias e métodos metafísicos.
-Nesse sentido, todos os métodos que se pensa terem progredido na medicina e que se alegra em ter descoberto não são, na verdade, a solução real, mas apenas uma solução temporária e não científica. E não se percebe que essa solução temporária e seu método, ao contrário, trazem resultados piores do que antes da implementação do método – essa é a miopia. Portanto, apesar de se dizer que a medicina progrediu, na realidade, as doenças não são curadas. O número de doentes aumenta, a condição física diminui. A disseminação da tuberculose, a diminuição da população, etc. – é inevitável que os efeitos reversos sejam notáveis.
-O acima não é senão o efeito reverso do progresso da medicina não científica que eu digo.
-E, entre as pessoas modernas, aqueles que, diante da impotência da medicina ocidental, se voltam para a medicina chinesa, a acupuntura e a moxabustão, e as terapias populares, estão aumentando dia a dia, o que é um fato conhecido. Além disso, ouve-se frequentemente que, entre os especialistas em medicina, alguns estão estudando a medicina chinesa ou aplicando a moxabustão. No entanto, para o público em geral, embora duvidem da impotência e da irracionalidade da medicina ocidental, como não conseguem perceber nem mesmo uma parte do erro, não há outra escolha a não ser confiar suas vidas a ela. Essa é a situação social atual.
-O resumo da famosa obra “O Homem, Esse Desconhecido”, de Alexis Carrel, o erudito do Instituto Rockefeller que recebeu o Prêmio Nobel, pode ser resumido em uma frase: a ciência moderna “não sabe nada sobre o ser humano”.
-A seguir, apresento vários exemplos.
-Suponha que o filho de um médico adoeça. No entanto, o que é estranho é que, na maioria das vezes, o pai, que é médico, não o trata, mas pede a outro médico, como um amigo. Pensando com bom senso, o fato de não colocar as mãos na doença de seu precioso filho e confiá-la às mãos de outra pessoa provavelmente se deve ao fato de que ele não pode confiar em sua própria arte médica. Experimentalmente, o resultado é melhor quando se confia a outra pessoa do que quando se trata a si mesmo. Então, qual é a razão para isso? Mesmo um médico provavelmente não conseguiria explicar isso. Eu penso o seguinte. A medicina é a interrupção da purificação. Portanto, quanto mais tratamento se aplica, pior a doença fica. Sendo seu próprio filho, ele se dedica com entusiasmo e aplica todos os tratamentos possíveis. Naturalmente, ele escolherá medicamentos de alta qualidade (quanto mais alta a qualidade, mais forte a toxina medicamentosa), então o resultado está fadado a ser ruim. No entanto, outra pessoa aplica o tratamento comum, então o grau de piora é menor. Por isso, a taxa de cura é melhor. Além disso, ouvi dizer que, entre os médicos, essa experiência é comum. É que os pacientes que eles realmente querem curar são mais difíceis de curar, enquanto os pacientes com os quais eles não se preocupam tanto, ao contrário, se curam melhor. Naturalmente, isso se deve ao mesmo princípio que o anterior.
-
-Além disso, quando se trata de uma doença um pouco difícil, os diagnósticos dos médicos são diferentes. Se cinco médicos diagnosticarem um paciente, provavelmente todos os cinco terão diagnósticos diferentes. Isso porque não há um padrão científico. Portanto, digo que a medicina é mecânica, mas não científica.
-E, para mostrar o quão impotente é o diagnóstico e a terapia da medicina ocidental, apresento um exemplo recente. É o Dr. Mataro Nagayo, professor emérito da Universidade Imperial, que faleceu recentemente. O Dr. Nagayo era considerado uma autoridade mundial na pesquisa do câncer. E diz-se que ele costumava dizer “eu morrerei de câncer”, e, de fato, a causa da morte foi o câncer. Quando a doença se manifestou, todos os grandes médicos, assim como o próprio doutor, diagnosticaram a doença como câncer de pulmão. No entanto, como resultado da autópsia após a morte, a origem do câncer estava no intestino e havia se movido para os pulmões. Portanto, esse câncer de intestino não foi descoberto enquanto ele estava vivo. Com base nesse fato, quando analiso com calma, chego à seguinte conclusão.
-1.  O fato de um grande mestre como o Dr. Nagayo não ter conseguido prevenir o desenvolvimento de seu próprio câncer.
-2.  O fato de ele não ter conseguido saber claramente a existência de seu próprio câncer de intestino.
-3.  O fato de que, mesmo com o exame de todos os grandes médicos, o câncer de intestino não pôde ser descoberto.
-4.  O fato de que, por mais que o próprio doutor e todos os grandes médicos cooperassem, ele não pôde ser curado.
-
-Sobre isso, não acho que precise dizer muito. Apenas acho que os fatos provaram o valor da medicina moderna.
-Em seguida, a causa da morte do famoso Dr. Tatsukichi Irisawa, que faleceu há alguns anos, foi apendicite. Naquela época, diz-se que os doutores que se reuniram de vários lugares ao ouvir sobre o estado grave de seu professor eram mais de 120. Acredito que tantos doutores espremeram seus cérebros, e o próprio grande mestre também deve ter se esforçado. No entanto, o fato de que uma doença como a apendicite, que é fácil de curar, não pôde ser curada é, na minha opinião, lamentável. Naquela época, diz-se que o doutor compôs o seguinte poema waka.
-“Embora eu pense que não funciona, isso também é uma obrigação,
-o remédio que fiz as pessoas tomarem, eu tomo.”
-
-E quando um médico faz um diagnóstico, ele pergunta em detalhes sobre assuntos relacionados ao passado, como a causa da morte dos pais e irmãos, a presença ou ausência de doenças, o histórico médico do próprio paciente, etc., e faz o diagnóstico com base nessas referências. Naturalmente, pode ser por uma questão de cautela, mas, na verdade, como não é possível fazer um diagnóstico preciso apenas examinando o corpo do paciente, ele não tem escolha a não ser recorrer a tais meios. Portanto, eu penso o seguinte. Se fosse uma medicina verdadeiramente avançada, a causa da doença deveria ser claramente compreendida apenas examinando o corpo atual do paciente. No entanto, pode-se dizer que um diagnóstico tão simples e rápido é possível? Eu afirmo que é possível. A razão é que, quando eu estava envolvido no tratamento, era assim.
-
-Além disso, a verdadeira arte médica é aquela cujo tratamento não causa o menor sofrimento ao paciente. Pelo contrário, acredito que o tratamento deve ser acompanhado de uma sensação de prazer. E a condição é que o período até a cura seja rápido, e que se possa garantir que não haverá absolutamente nenhuma recaída, não importa quantos anos passem após a cura. E não é só isso. Deve-se ensinar o método de saúde pós-cura, e com isso o paciente deve se tornar mais saudável do que antes de adoecer e não precisar mais da ajuda de um médico. Qualquer um levantaria a dúvida de se uma arte médica tão ideal, ou mesmo fantasiosa, poderia nascer. Mas ela já nasceu.
-
-No entanto, olhe para a medicina ocidental atual. Não é muito incivilizada? No entanto, a ilusão e a ignorância do homem moderno, que considera que quanto mais incivilizada, mais civilizada é, são dignas de pena. Veja, mesmo para uma doença trivial, corta-se a carne, consome-se o sangue, causa-se dor, atormenta-se com desconforto, e, em troca disso, sob o nome de taxa cirúrgica, gasta-se uma quantia surpreendentemente alta, e leva-se muito tempo para se curar. E para eliminar a preocupação de uma recaída, uma parte do corpo deve ser danificada. Diante dessa realidade, diz-se que a medicina progrediu, mas isso é inteiramente porque não se conhece a verdadeira arte médica.
-Agora, chegou o momento de eliminar as doenças desta terra. Não estou falando por falar. A menos que se seja um verdadeiro louco, como se poderia proferir tais palavras sem ter um argumento sólido e uma prova real?
-Para usar uma analogia, a medicina estabelecida é um ovo de galinha. O pintinho que já está dentro, quando chega a hora, está prestes a quebrar a casca com seu pequeno bico. Agora, o pintinho vivo que será verdadeiramente útil para a humanidade está prestes a dar seu primeiro pio. Quero que meus compatriotas saibam disso o mais rápido possível.
-
-### Recursos Humanos e a Medicina Moderna
-
-Na grave situação atual, o maior objetivo de nosso Japão é, desnecessário dizer, a conclusão da Esfera de Coprosperidade da Grande Ásia Oriental. E o maior elemento para alcançar isso é, sem dúvida, a questão dos recursos humanos. O fato de as autoridades estarem implementando todas as medidas para incentivar o nascimento e o aumento da população também se deve a isso. No entanto, se dermos um passo atrás e pensarmos, a situação se torna a seguinte.
-Ou seja, um bebê que nasce agora não será útil na prática por pelo menos vinte anos. Nesse sentido, os recursos humanos urgentemente necessários agora devem ser aqueles que já estão servindo em seus locais de trabalho na juventude e na idade adulta. O fato de o governo ter recentemente realizado o registro nacional de homens de dezesseis a quarenta anos e mulheres de dezenove a vinte e cinco anos é natural.
-Nesse sentido, o método mais eficaz para aumentar rapidamente os recursos humanos é, sem dúvida, eliminar os doentes. Não há outro método com efeito tão absoluto. No entanto, olhe para as várias camadas da sociedade hoje. O fato de haver tantos doentes é provavelmente sem precedentes. Quantos corpos verdadeiramente saudáveis existem entre os japoneses? Apenas imaginar isso é extremamente preocupante. Pelas várias estatísticas apresentadas anteriormente, os leitores devem ter concordado plenamente.
-
-A medicina de hoje é uma medicina que cria doentes, e o tratamento médico transforma os doentes leves em graves, levando-os finalmente à morte, como expliquei suficientemente. Além disso, o tratamento médico recomenda repouso absoluto para os pacientes com tuberculose, que estão aumentando mais. Se eles fossem completamente curados por esses métodos, o abandono do trabalho por um certo período seria inevitável. No entanto, como a maioria deles, como resultado de um longo período de repouso, finalmente perde a vida, a perda para a nação não deve ser pequena. Além disso, se calcularmos em detalhes o pessoal necessário para cuidar dos pacientes em repouso por um longo período e o pessoal e os materiais para fabricar os medicamentos e instrumentos usados para isso, o número chegaria a uma cifra inimaginavelmente enorme.
-
-Há mais uma coisa problemática. É o diagnóstico precoce. Como expliquei anteriormente, a maioria dos pacientes com tuberculose em estágio inicial se curaria naturalmente se deixada em paz. No entanto, quando os sintomas iniciais são descobertos pelo diagnóstico precoce, eles devem receber tratamento médico à força e também ser isolados. Além disso, como a tuberculose é sugerida ou declarada, o paciente, em primeiro lugar, sofre um grande golpe mental pela ideia de desespero incurável. Isso o faz perder o ânimo e o apetite, de modo que ele enfraquece rapidamente. Além disso, ao aplicar toxinas medicamentosas e outros métodos que promovem a doença, é óbvio que ele se encaminha para um estado grave, tanto espiritual quanto fisicamente.
-Fatos como os acima são algo que não apenas as partes interessadas, mas qualquer pessoa, vê e ouve constantemente hoje. Eu me esforcei para descrever a realidade sem o menor exagero. Portanto, acredito que não apenas os médicos, mas também os pacientes, ao lerem este texto, pensarão que é mais do que a metade da verdade.
-
-Com base nos fatos acima, afirmo que a maior causa que impede os recursos humanos é a própria medicina. A menos que se desperte para isso, o número de doentes aumentará cada vez mais. E por mais que o governo se esforce para tomar medidas, lamento dizer que a falta de recursos humanos não poderá ser resolvida. Além disso, como se depende da medicina, quanto mais se apressa, mais grave se torna o efeito reverso, de modo que o futuro é verdadeiramente preocupante.
-Ah! Como posso fazer com que nosso povo saiba dessa questão importante o mais rápido possível? – é o que me aflige dia e noite.
-E o governo, para suprir a falta de recursos humanos, está reorganizando e consolidando as pequenas e médias empresas comerciais e industriais, liberando recursos humanos e os direcionando para indústrias importantes. No entanto, por outro lado, por meio da gestão da condição física e do diagnóstico precoce, eles estão descobrindo principalmente o estágio inicial da tuberculose e tomando o método de repouso ou isolamento. Então, qual será o resultado disso? Por um lado, eles liberam recursos humanos e, por outro, os eliminam. É como encher uma peneira com água.
-Além disso, como aqueles que antes faziam trabalho leve são transferidos para trabalhos pesados, como operários de fábrica, é inevitável que uma ação purificadora violenta ocorra. Portanto, sintomas semelhantes aos da tuberculose, como febre leve, tosse, sensação de fadiga, etc., se manifestarão, e é natural que os recursos humanos se tornem ainda mais insuficientes. No entanto, como os recursos que podem ser liberados pela reorganização e consolidação são limitados, quem pode negar que chegará um momento em que se sofrerá de uma grande falta de recursos humanos?
-
-E se o governo adotar esta arte médica que criei e a implementar em todo o país, qual será o resultado? Eu imagino e escrevo. Em primeiro lugar, o número de doentes diminuirá dia a dia. A maioria dos doentes se curará enquanto trabalha. Especialmente a tuberculose pulmonar diminuirá drasticamente, e seremos libertados do medo do contágio. As doenças infecciosas também diminuirão, é claro, e o número de pessoas que morrem de doenças infecciosas será extremamente pequeno. Consequentemente, seremos libertados do medo do germe da doença infecciosa. A razão é que nos tornaremos corpos saudáveis que não adoecem mesmo que o germe da doença entre. E a maioria das doenças se curará em uma semana. Portanto, o ser humano será completamente libertado da ansiedade da doença. A necessidade de alimentos nutritivos desaparecerá, e a necessidade de métodos de saúde fúteis também desaparecerá. A longevidade humana aumentará ano a ano. E se for verdade que uma mente sã habita em um corpo são, é natural que o pensamento da população se torne são em proporção à saúde do corpo. E se a maior causa da infelicidade é a doença, não é preciso dizer que a infelicidade, a pobreza e as brigas diminuirão notavelmente.
-
-### Crise de Recursos Humanos
-
-Recentemente, um representante da fábrica XX da cidade XX veio ao meu encontro, buscando esta terapia por considerar a medicina ocidental muito ineficaz para o problema de saúde dos operários. Enviei quatro dos meus discípulos que estavam em atividade para que se dedicassem ao tratamento. Perguntei a esses discípulos qual era a doença mais comum entre os operários, e a resposta foi que a referida fábrica tem sete mil operários, e o problema é que eles se cansam facilmente durante o trabalho, faltando-lhes, portanto, resistência. Não é preciso dizer que isso se deve a uma febre leve, um passo antes da tuberculose, e que, de qualquer forma, a tuberculose será inevitável.
-
-Recentemente, ouvi outro fato surpreendente. Trata-se de uma das maiores fábricas do Japão, com dezenas de milhares de operários. A taxa de absenteísmo tem aumentado cada vez mais nos últimos tempos. No ano retrasado, era de 10%; no ano passado, 15%; e neste ano, piorou muito, chegando a 25% recentemente. Diante disso, a empresa, sem alternativa, considera todos os que faltam por mais de duas semanas como demitidos, deduzindo-os da taxa de absenteísmo para, com dificuldade, apresentar um número próximo de 10%. Os executivos da empresa estão extremamente preocupados com a situação. Naturalmente, a maioria dos ausentes apresenta sintomas semelhantes aos da tuberculose.
-Portanto, se observarmos essa situação, em 1940 a taxa era de 10%; em 1941, aumentou 5 pontos percentuais, chegando a 15%; e em 1942, aumentou 10 pontos percentuais em relação ao ano anterior, chegando a 25%. Se continuar nessa proporção, em 1943 aumentará pelo menos 10 pontos percentuais, chegando a mais de 35%, e em 1944, deverá ser em torno de 50%. Outro fato recente é que na fábrica XX de XXXX de XX, como resultado de um rigoroso exame de saúde, descobriu-se que 32% dos operários, embora com gravidade variada, precisavam ser tratados como pacientes com tuberculose. É um grande problema. Além disso, mesmo os trabalhadores, com o declínio da condição física, não podem escapar da fadiga, e a consequente queda na produtividade é algo que causa arrepios só de imaginar.
-
-Recentemente, ouvi dizer que em algumas fábricas há uma tendência de queda na eficiência do trabalho. Por isso, os supervisores suspeitam de sabotagem, mas, nesta grave situação, pensando que não pode haver tais pessoas entre os japoneses, investigaram e descobriram que a causa era a fadiga. Um operário veterano de uma grande fábrica disse: "Uma máquina que antes era movida por cerca de três pessoas hoje precisa das mãos de cinco ou seis para se mover. Não há dúvida de que a força física dos operários diminuiu."
-
-O acima não é uma questão de imaginação ou de conceito. São fatos vívidos que estão se manifestando agora. Diante disso, é natural que o governo tenha iniciado recentemente o movimento de fortalecimento do povo e esteja se esforçando para melhorar a condição física e erradicar a tuberculose.
-De acordo com um anúncio recente das autoridades, o plano do inimigo americano é realizar um grande ataque aéreo em nosso território. Para isso, eles estão, naturalmente, dedicando todos os seus esforços para aumentar a produção de porta-aviões e aviões. Já sabemos, desde antes do Incidente, o quão vasta é a capacidade de produção industrial dos Estados Unidos, como se pode ver pelo fato de que Roosevelt estabeleceu um plano com números astronômicos. Isso também não pode ser menosprezado. Portanto, nosso país também, superando qualquer sacrifício ou dificuldade, deve forçar um grande aumento na produção de material de guerra, não é preciso dizer. No entanto, se os recursos humanos, que são a espinha dorsal disso, estão na situação descrita acima, não há como ficar tranquilo.
-Acredito que não há outro método além desta arte médica para solucionar tanto a tuberculose quanto a fadiga, e reitero aqui meu alerta.
-
-### Germes e Doenças Infecciosas
-
-A patologia da medicina ocidental praticada hoje é quase toda baseada na teoria dos germes. Quase todas as doenças são interpretadas como sendo transmitidas por germes. Até mesmo o resfriado é considerado uma ação dos germes. E diz-se que o germe do resfriado é tão pequeno que não pode ser visto nem mesmo com um microscópio, sendo chamado de germe filtrável.
-E a interpretação na medicina é que doenças como resfriado, difteria, coqueluche, sarampo, caxumba epidêmica, etc., são transmitidas por gotículas. Isso significa que, em um quarto fechado ou em um veículo, quando um paciente espirra ou ri, os germes são expelidos como uma névoa junto com a saliva, flutuam no ar e são inalados, causando o contágio. E diz-se que os idosos são relativamente imunes, e os jovens, especialmente as crianças, são mais suscetíveis, e que não se deve chegar a menos de um metro de um paciente.
-Assim, como quase todas as doenças são contagiosas, se acreditarmos nisso, viver para o homem moderno é o cúmulo do terror.
-Em seguida, além do ar, o ninho de germes mais direto é, sem dúvida, o dinheiro. Sobre isso,
-“O Sr. Sanshi Abe, do Departamento de Higiene da Faculdade de Medicina da Universidade de Hokkaido, coletou 345 moedas e notas, incluindo notas de dez ienes, moedas de cinquenta sen, moedas de dez sen de cuproníquel, moedas de dez sen de níquel, moedas de um sen de cobre, etc., de locais muito utilizados como correios, bancos, mercados, lojas de departamento, restaurantes, lojas de alimentos, indivíduos, etc. Como resultado de sua pesquisa sobre os germes aderidos a essas moedas e notas, ele descobriu que inúmeros germes, como coliformes, paratifoides, estafilococos, cólera, bactérias, etc., estavam aderidos. Todos eles são prejudiciais ao corpo humano, e deve-se ter muito cuidado, especialmente com crianças pequenas que, inocentemente, lambem moedas de cobre e prata. Por outro lado, muitas pessoas podem pensar que o bacilo da tuberculose adere a moedas de prata e cobre, mas a pesquisa do Sr. Abe mostrou que o número de bacilos da tuberculose é surpreendentemente pequeno e não tem poder suficiente para afetar o corpo humano.
-‘Número de germes em vários tipos de moedas’ (pesquisa de junho de 1936)
-Primeiro, quantos germes estão aderidos a uma nota de dez ienes, uma moeda de cinquenta sen, uma de dez sen e uma de um sen?
-△Em uma nota de dez ienes, o número máximo de germes comuns é de 169.105, com uma média de 52.491.
-△Em uma moeda de cinquenta sen de prata, a média é de 1.559.
-△Em uma moeda de dez sen de cuproníquel, 2.470.
-△Em uma moeda de dez sen de níquel, 2.203.
-△Em uma moeda de um sen de cobre, 1.032.
-‘Tipos e número de germes patogênicos’
-Além disso, quantos coliformes, tifoides, paratifoides, etc., estão aderidos?
-△Em uma nota de dez ienes, 54.
-△Em uma moeda de cinquenta sen de prata, 4.
-△Em uma moeda de dez sen de cuproníquel, 3.
-△Em uma moeda de dez sen de níquel, 1.
-△Em uma moeda de um sen de cobre, 4.
-O fato de a moeda de dez sen de níquel ter menos que as outras moedas se deve ao fato de ter sido emitida há pouco tempo. Além disso, o fato de a moeda de um sen de cobre ter um número relativamente pequeno de germes aderidos se deve à propriedade bactericida do próprio cobre.
-‘Local e número de germes’
-Então, em que tipo de moeda usada em que lugar há mais germes? O maior número é no mercado, seguido pelo correio, loja de artigos diversos, loja de departamentos, restaurante, confeitaria, loja de alimentos, propriedade pessoal, etc., em ordem decrescente. A propriedade pessoal tem o menor número, o que se deve ao fato de serem guardadas em carteiras, onde o ar não circula como no exterior, de modo que os germes aderidos não se cultivam.”
-Mesmo com base no exposto, pode-se saber quantos e que tipos de germes patogênicos estão aderidos ao dinheiro. No entanto, é impossível para qualquer pessoa desinfetar o dinheiro toda vez que o manuseia. Além disso, por mais que se tema o contágio pelo ar, não se pode evitar de andar de trem ou de bonde. Portanto, para escapar completamente dos germes patogênicos, não há método ideal além de viver no mar, longe da costa, em uma ilha deserta, ou construir uma casa isolada nas montanhas, completamente isolada da sociedade. No entanto, tal coisa não é possível para ninguém. Portanto, não há método de segurança absoluta além de se tornar um corpo saudável que não adoece mesmo que os germes patogênicos entrem no corpo. Então, é possível tal saúde? Eu afirmo, sem hesitação, que é possível. Sobre isso, apresento um exemplo real convincente.
-De acordo com um artigo do Yomiuri Shimbun de 3 de setembro de 1935, há cerca de 12.000 catadores de lixo em Tóquio. O Departamento Social da cidade realizou uma pesquisa detalhada em meados de dezembro do ano passado sobre os catadores pertencentes a locais de compra de lixo autorizados, centrados no distrito de Adachi, e anunciou os resultados no dia 2. De acordo com eles, apesar de se dedicarem a um trabalho tão anti-higiênico, é surpreendente que haja poucos doentes com doenças infecciosas e outras doenças entre eles. Das 2.415 pessoas pesquisadas, as mulheres eram apenas uma minoria de 60. A idade das pessoas pesquisadas variava de trinta e um a cinquenta anos, com 1.299 pessoas, representando mais da metade do total. Quanto ao estado de saúde, os pacientes com doenças gastrointestinais crônicas eram os mais numerosos, seguidos pelos alcoólatras. E as doenças infecciosas, a tuberculose pulmonar e as doenças venéreas eram relativamente poucas. Ou seja, das 2.415 pessoas, 2.123 eram saudáveis, 85 eram fracas, 58 eram senis, 35 eram deficientes, 85 eram inválidas e 32 tinham outras doenças.
-Mesmo com base neste exemplo, fica claro que quase não há doenças infecciosas causadas por germes. Portanto, pode-se saber que, por mais que uma pessoa entre em contato com germes patogênicos, se for saudável, não será facilmente contagiada.
-Em seguida, os germes patogênicos, até hoje, foram considerados prejudiciais à humanidade e temidos, mas não se pode dizer que seja necessariamente assim. Talvez sejam benéficos. A razão é que, por mais que exista neste mundo, não deve haver nada que seja desnecessário para o ser humano. Se se tornar desnecessário, a seleção natural é a verdade. Apenas decidir arbitrariamente que algo é inútil ou prejudicial, no nível da cultura de hoje, se deve ao fato de que a razão da existência dessa coisa é desconhecida. Sobre isso, explicarei os resultados de minha pesquisa sobre germes patogênicos e doenças infecciosas. Com isso, espero que não apenas os especialistas, mas também os leitores, possam julgar.
-Em suma, as doenças infecciosas, assim como outras doenças, são uma ação purificadora. Como são extremamente intensas e agudas, os seres humanos as temem. E pela atividade dos germes patogênicos, é uma ação providencial para dissolver um certo tipo de toxina existente no sangue. Naturalmente, as pessoas com sangue impuro não são saudáveis e isso prejudica as atividades da vida. Então, qual é o caminho e a razão do contágio por germes patogênicos?
-Primeiro, quando os germes patogênicos entram no corpo humano através da pele, mucosas, alimentos, etc., eles avançam rapidamente para o sangue. No entanto, as toxinas no sangue, na verdade, tornam-se alimento para os germes. Os germes se multiplicam comendo esse alimento. Portanto, é natural que, quanto mais alimento houver, mais eles se multipliquem. E enquanto os germes comem o alimento, eles se multiplicam com grande vigor e, após gerarem um certo número de descendentes, eles morrem sucessivamente. Seus corpos são expelidos misturados com o sangue, as fezes, a urina, o catarro, a saliva, etc. Com isso, a ação de purificação do sangue ocorre completamente. Portanto, após a disenteria, o tifo, o sarampo, a varíola, a disenteria tóxica, a coqueluche, etc., todas as doenças infecciosas, a pessoa se torna mais saudável do que antes de adoecer, e com base nisso, o princípio acima é claro. No entanto, há aqueles cuja saúde não melhora muito após a recuperação de uma doença infecciosa. Isso ocorre porque, como a ação purificadora é suprimida pelo tratamento médico, as toxinas permanecem. Além disso, na medicina, há o que se chama de portador. Isso significa que, mesmo com a presença do germe, a doença não se manifesta. Qual a razão disso? É porque há pouco alimento para os germes. Ou seja, há alimento suficiente para não morrerem, mas não o suficiente para se multiplicarem. Consequentemente, uma pessoa com sangue puro, sem toxinas, mesmo que os germes entrem, morrerá de fome imediatamente porque não há alimento, e não haverá contágio. Portanto, quero dizer o seguinte. O termo “contágio” não é apropriado. O termo “indução” é mais adequado.
-Com base nesse princípio, acredito que a razão da existência dos germes patogênicos foi compreendida. Ou seja, eles realizam uma ação purificadora nos seres humanos – são como “faxineiros de toxinas”. Portanto, é melhor para a saúde ser, na verdade, contagiado – não, induzido. Portanto, mesmo do ponto de vista prático, quando se pensa no fato de que os países altamente civilizados, embora se orgulhem da notável redução de doenças infecciosas, estão sofrendo com o declínio da condição física e o problema da diminuição da população, enquanto os povos não civilizados, com muitas doenças infecciosas, estão na situação oposta, saber-se-á que a teoria acima não está errada.
-Ou seja, os povos altamente civilizados, embora tenham sangue impuro, como resultado da prevenção extrema de germes patogênicos, as doenças infecciosas diminuíram notavelmente. Como mencionado anteriormente, tornar-se apenas pessoas de sangue puro e, com isso, as doenças infecciosas diminuírem ou desaparecerem é o que deveria ser um povo saudável ideal. E, naturalmente, não é preciso dizer que as toxinas no sangue são, na maioria, toxinas medicamentosas.
-Aqui, preciso explicar novamente sobre a tuberculose e outras doenças. No tratamento médico, sob o nome de esterilização, tenta-se matar os germes, e eles se concentram apenas nisso. Eles interpretam que, se os germes forem mortos, a doença será curada, mas não há erro maior do que este. Tentar matar apenas os germes da tuberculose pulmonar é absolutamente impossível. A razão é que, até que os medicamentos orais, as injeções, etc., através do sangue e de outros meios, cheguem ao foco da doença da tuberculose, o poder bactericida do medicamento provavelmente se tornará quase ineficaz. E se fosse um medicamento tão forte que seu poder bactericida não desaparecesse até chegar ao foco da doença, é óbvio que tal medicamento colocaria a vida em perigo imediatamente após o uso. Portanto, por mais que se pesquise a ação bactericida dos medicamentos, acredito que seja apenas um esforço inútil.
-Então, qual é o método apropriado para atingir o objetivo dessa esterilização? É tornar impossível a proliferação dos germes. Ou seja, é remover a causa da proliferação dos germes. Ou seja, é cortar o alimento dos germes e fazê-los morrer de fome. Não deve haver outro método além desse. E não ter alimento significa tornar-se uma pessoa de sangue puro. Para se tornar uma pessoa de sangue puro, não se deve usar medicamentos. No entanto, o tratamento médico de hoje, enquanto fornece a matéria-prima para o alimento dos germes, se esforça para impedir sua proliferação, então é natural que não haja efeito. Por isso, sem escolha, eles se esforçam em métodos de prevenção passivos.
-Aqui, há algo que quero observar. De acordo com minha pesquisa, os germes da tuberculose e os germes como os da cólera, disenteria, tifo, etc., são de natureza completamente diferente. É minha teoria que os últimos são contagiosos, mas os primeiros não são. Portanto, nesse sentido, os últimos precisam de prevenção de epidemias, mas os primeiros não precisam de nenhuma desinfecção.
-
-### Ashita no Ijutsu, Primeiro Volume
-
-#### Ensaio
-
-Publicado em 5 de fevereiro de 1943 (Reimpressão, não comercializável)
-
-Autor: Mokiti Okada
-Editor: Takeshi Shiozawa
-Impressor: Seisaku Hara
 
 ---
 

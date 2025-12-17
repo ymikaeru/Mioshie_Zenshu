@@ -4,6 +4,7 @@
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年11月1日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Esclarecimentos sobre a Fé, a Sabedoria e a Prática
 
@@ -389,6 +390,7 @@ Como sempre digo, é fundamental que a toxina do fertilizante seja eliminada do 
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年5月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 36号 | **Data ISO:** 1952-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Coletânea de Orientações
 
@@ -467,6 +469,7 @@ Respeitosamente, solicito sua orientação.
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年2月18日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## A Verdade sobre as Profecias e a Conduta na Fé
 
@@ -526,6 +529,7 @@ O cenário político atual é um conglomerado de indivíduos movidos por um ego�
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年9月10日 | **Fonte:** 天国之友
 **Título Original:** 御開示集 天国会会報 | **Status:** Published | **Edição/Página:** １号 | **Data ISO:** 1949-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国之友
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -587,6 +591,7 @@ O cenário político atual é um conglomerado de indivíduos movidos por um ego�
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年4月23日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年2月**日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1950-04-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Diálogos sobre a Fé e o Mundo
 
@@ -928,6 +933,7 @@ E há também outra situação. A igreja precisa de dinheiro, e de vez em quando
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年9月5日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Orientações sobre Diversos Assuntos Espirituais
 
@@ -1081,6 +1087,7 @@ Esses apegos podem gerar maldições por centenas de anos. Trezentos anos, certa
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年11月28日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Causa Espiritual das Enfermidades e a Salvação pelo Johrei
 
@@ -1114,6 +1121,7 @@ Esses apegos podem gerar maldições por centenas de anos. Trezentos anos, certa
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S27年12月1日） | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1952-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Elevação no Mundo Espiritual e a Profundidade da Purificação
 
@@ -1179,6 +1187,7 @@ Este Ensinamento se baseia no princípio de *Oshin*, ou seja, da adaptação ao 
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年12月1日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Elucidações sobre o Sofrimento e a Influência Espiritual
 
@@ -1238,6 +1247,7 @@ O espírito de dragão costuma se alojar na região frontal da cabeça; o Johrei
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年1月1日 | **Fonte:** 実生分会ニュース
 **Título Original:** ご存じですか 実生分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 実生分会ニュース
 
 ## Esclarecimentos sobre a Fé e o Cotidiano
 
@@ -1299,6 +1309,7 @@ Plantio — Recomenda-se o uso de arbustos perenes que não atinjam grande altur
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年10月18日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Perguntas e Respostas sobre a Verdade Espiritual
 
@@ -1397,6 +1408,7 @@ A linha “wa”: A função da harmonia, do círculo, de suavizar.
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年8月8日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos sobre a Obra Divina
 
@@ -1494,6 +1506,7 @@ Quanto ao número de traços dos nomes, é preferível que, entre os cônjuges, 
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年10月15日 | **Fonte:** Chijo Tengoku
 **Título Original:** 叡智の光 | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1950-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos Divinos: Perguntas e Respostas com Meishu-Sama
 
@@ -1587,6 +1600,7 @@ Esta seção, anteriormente intitulada "A Luz da Sabedoria", publicava transcri�
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S28年7月1日） | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1953-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Purificação do Mundo e o Discernimento da Fé
 
@@ -1890,6 +1904,7 @@ Fazer essa distinção também depende do aprimoramento do discernimento espirit
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年3月23日 | **Fonte:** 会報
 **Título Original:** 妙智の鍵 光明分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-03-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Esclarecimentos sobre Questões da Fé e do Espírito
 
@@ -1951,6 +1966,7 @@ A causa física reside no centro do diafragma, e o tratamento consiste em minist
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年8月1日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Esclarecimentos sobre a Ordem Divina e a Prática da Fé
 
@@ -2008,6 +2024,7 @@ Pode-se utilizar uma seda branca, como um habutae. Uma boa solução seria enrol
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年4月8日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos Divinos sobre a Vida, a Agricultura e o Mundo Espiritual
 
@@ -2073,6 +2090,7 @@ O Mundo Espiritual é um lugar de ordem impecável. Pais e filhos desta vida pod
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年12月28日A） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos sobre a Fé e a Vida
 
@@ -2234,6 +2252,7 @@ Do ponto de vista espiritual, um espírito vivo pode se ligar à gestante. Um es
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年4月23日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos Divinos
 
@@ -2289,6 +2308,7 @@ Do ponto de vista espiritual, um espírito vivo pode se ligar à gestante. Um es
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年4月23日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Grande Purificação e Outras Questões
 
@@ -2444,6 +2464,7 @@ Quanto às bonecas do Festival das Meninas, antigamente elas eram feitas de pape
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年11月20日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年8月23日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1949-11-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Perguntas e Respostas com Meishu-Sama
 
@@ -2661,6 +2682,7 @@ Eu já vi um anel semelhante, como um arco-íris, ao redor do Sol. Foi por volta
 
 **Categoria:** he | **Ano:** 昭和10(1935)年10月21日 | **Fonte:** Toho no Hikari
 **Título Original:** 屁の玉宗 阿呆文学 | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1935-10-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## A Seita do Vento e a Literatura da Estultícia
 
@@ -2690,6 +2712,7 @@ Contudo, não há motivo para tamanha apreensão. Desde o princípio, essa seita
 
 **Categoria:** he | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 扁桃腺炎及び盲腸炎の手術 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Sobre as Cirurgias de Amigdalite e Apendicite
 
@@ -2717,6 +2740,7 @@ Sinto-me imensamente encorajado pela existência de médicos capazes de professa
 
 **Categoria:** he | **Ano:** 昭和25(1950)年4月22日 | **Fonte:** Kyusei
 **Título Original:** 平均浄化に就て | **Status:** Published | **Edição/Página:** 59号 | **Data ISO:** 1950-04-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Purificação Equilibradora
 
@@ -2734,6 +2758,7 @@ O princípio da purificação equilibradora é uma particularidade intrínseca a
 
 **Categoria:** he | **Ano:** 昭和11(1936)年 | **Fonte:** 箆棒療法
 **Título Original:** 箆棒療法 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Terapias Insensatas
 
@@ -2780,6 +2805,7 @@ Existem muitos outros exemplos, mas o ponto central é este: é surpreendente a 
 
 **Categoria:** he | **Ano:** 昭和27(1952)年9月24日 | **Fonte:** Eikou
 **Título Original:** 米国に於ける驚くべき病者の氾監 | **Status:** Published | **Edição/Página:** 175号 | **Data ISO:** 1952-09-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Estarrecedora Proliferação de Doentes nos Estados Unidos
 
@@ -2852,6 +2878,7 @@ Ainda assim, a América, país da resplandecente civilização mecânica e do cr
 
 **Categoria:** he | **Ano:** 昭和27(1952)年5月14日 | **Fonte:** Eikou
 **Título Original:** 便秘の誤解 医学断片集（９） | **Status:** Published | **Edição/Página:** 156号 | **Data ISO:** 1952-05-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Equívoco Acerca da Constipação Intestinal
 
@@ -2867,6 +2894,7 @@ Em virtude desse equívoco, muitos recorrem ao uso de laxantes e enemas para for
 
 **Categoria:** he | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 扁桃腺炎、盲腸炎、手術 ・病患と医学の誤謬一 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## As Enfermidades e os Equívocos da Ciência Médica
 
@@ -2930,6 +2958,7 @@ Por isso, afirmo: o avanço da cirurgia é a prova de que a medicina não está 
 
 **Categoria:** he | **Ano:** 昭和24(1949)年11月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 変な話 ・医学談片集 | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1949-11-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Relatos Insólitos
 
@@ -2954,6 +2983,7 @@ Ouve-se com frequência o dito popular de que, quando os filhos de médicos adoe
 
 **Categoria:** he | **Ano:** 昭和26(1951)年1月31日 | **Fonte:** Eikou
 **Título Original:** ヘンドンナモンジャイ 阿呆文学 | **Status:** Published | **Edição/Página:** 89号 | **Data ISO:** 1951-01-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Que Negócio é Esse, Afinal?
 
@@ -2989,6 +3019,7 @@ O único caminho é vir, agora mesmo, à Igreja Messiânica. Feito isso, eu mesm
 
 **Categoria:** he | **Ano:** 昭和24(1949)年10月8日 | **Fonte:** -
 **Título Original:** 米ソ融和の霊感 | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1949-10-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Reconciliação Americano-Soviética
 
@@ -3010,6 +3041,7 @@ A proposição de uma tese de tão audaciosa envergadura, partindo de um pequeno
 
 **Categoria:** he | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 扁桃腺炎、盲腸炎、手術 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Os Equívocos da Medicina: Amigdalite e Apendicite
 
@@ -3063,6 +3095,7 @@ Por isso, afirmo: o progresso da cirurgia significa, na verdade, o não progress
 
 **Categoria:** he | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 変質狂 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Um Singular Caso de Perturbação Espiritual
 
@@ -3090,6 +3123,7 @@ Recentemente, este homem se recuperou por completo e veio à minha casa para exp
 
 **Categoria:** he | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 扁桃腺炎、盲腸炎、手術 ・病患と医学の誤謬 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Patologias e os Equívocos da Medicina
 
@@ -3141,6 +3175,7 @@ Por isso, eu penso: o avanço da cirurgia é a prova de que a medicina não avan
 
 **Categoria:** he | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
 **Título Original:** 平和の英雄 | **Status:** Published | **Edição/Página:** 199号 | **Data ISO:** 1953-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Herói da Paz
 
@@ -3168,6 +3203,7 @@ Em suma, considero-me um herói da paz.
 
 **Categoria:** he | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 変態狂 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## Um Caso Singular de Transtorno Espiritual
 
@@ -3205,6 +3241,7 @@ Segundo minha análise, tal condição é, imagino, uma forma de vingança igual
 
 **Categoria:** he | **Ano:** 昭和28(1953)年6月24日 | **Fonte:** Eikou
 **Título Original:** べートーヴェン | **Status:** Published | **Edição/Página:** 214号 | **Data ISO:** 1953-06-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Beethoven
 
@@ -3222,6 +3259,7 @@ Certamente, no futuro, ainda ocorrerá que grandes vultos e personalidades mundi
 
 **Categoria:** mo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 元看護婦の体験 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Verdadeira Origem das Doenças
 

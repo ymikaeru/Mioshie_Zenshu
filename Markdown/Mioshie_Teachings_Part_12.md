@@ -1,9 +1,32 @@
 # Mioshie_Teachings - Part 12
 
+# A Religião Viva e as Graças Imediatas
+
+**Categoria:** ke | **Ano:** - | **Fonte:** Kyusei
+**Título Original:** 現当利益と生きた宗教 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
+
+## A Religião Viva e as Graças Imediatas
+
+O propósito da religião, embora seja desnecessário reiterar, consiste na salvação do ser humano, e salvar significa converter o infortúnio em felicidade; a rigor, nada mais que isso. Contudo, é curioso que existam aqueles que defendem a tese de que uma religião que concede benefícios concretos e imediatos é de categoria inferior, ou até mesmo que não se trata de uma verdadeira religião. Dificilmente poderia haver argumento mais descabido. Se admitirmos, por hipótese, a inexistência de tais benefícios, qual seria, então, a razão de ser da religião? Certamente, não seriam capazes de oferecer uma resposta satisfatória a essa questão.
+
+Depreende-se, portanto, que tais indivíduos creem ser possível salvar o próximo por meio de pregações antiquadas e bolorentas ou de raciocínios já desgastados pelo tempo. A própria concepção de que se pode salvar alguém por meios tão simplórios é, em si, um equívoco. Afinal, se a salvação fosse alcançável com tamanha facilidade, não haveria, neste mundo de sofrimentos, uma superabundância de doentes, criminosos e pessoas imorais. Um simples olhar sobre a sociedade atual revela, de forma inequívoca, a ineficácia das religiões que nos precederam.
+
+Imaginemos um enfermo a gemer de dor. De que valeriam sermões ou argumentos lógicos para aliviar seu padecimento? Serviriam, no máximo, como um consolo parcial. Em casos de doença súbita ou ferimentos graves, quando a vida corre perigo, não há tempo a perder com discursos. A hesitação pode ser fatal, e isso é um fato incontestável. Nesses momentos, a verdadeira religião não é aquela que fala, mas a que age, curando prontamente e em silêncio. Eis o que é um benefício concreto e imediato. Frequentemente, ouvimos relatos de religiosos que, à beira do leito de um doente, proferem sermões prolixos e acabam por despertar sua antipatia, o que apenas expõe a ineficácia de sua fé.
+
+É bem verdade que, etimologicamente, a palavra religião (宗教) significa “o ensinamento (教) do fundador (宗)”, o que poderia levar a crer que a pregação é seu pilar. Contudo, é evidente que isso não constitui a verdadeira salvação.
+
+Assim, a conclusão mais honesta é que as religiões, como as conhecemos, já não são capazes de salvar o ser humano. O que se faz necessário, portanto, é uma força de salvação que transcenda a própria religião. Em outras palavras, somente uma super-religião, dotada do poder de manifestar benefícios concretos e imediatos em um nível que desafia toda a experiência humana, possui verdadeiro valor.
+
+Nesse sentido, nossa Sekai Kyusei Kyo tem como alicerce a manifestação de graças imediatas. As pessoas denominam tais ocorrências de milagres e, sob a ótica das concepções vigentes até hoje, não há dúvida de que o são. Qual será, então, o papel que esta super-religião desempenhará no mundo vindouro? A resposta a essa indagação, nós a confiamos ao julgamento da própria humanidade.
+
+---
+
 # Sobre os Novos Fármacos para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年8月6日 | **Fonte:** Eikou
 **Título Original:** 結核新薬 | **Status:** Published | **Edição/Página:** 168号 | **Data ISO:** 1952-08-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Sobre os Novos Fármacos para a Tuberculose
 
@@ -49,6 +72,7 @@ Muito obrigado por tudo, Meishu-Sama. Muito obrigado, Daikoomyoo Nyorai-Sama.
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## Conclusão sobre o Problema da Tuberculose e sua Solução
 
@@ -76,6 +100,7 @@ Contudo, apresentei neste trabalho a medida capaz de solucionar por completo a q
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 結核と憑霊 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Tuberculose e a Possessão por Espíritos
 
@@ -97,6 +122,7 @@ Acedi prontamente ao seu pedido e expliquei-lhe: "Como já é tarde, realizarei 
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1952-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核信仰療法
 
 ## Considerações Finais sobre a Terapia da Fé para a Tuberculose
 
@@ -126,6 +152,7 @@ Ao longo da história, testemunhamos inúmeras descobertas, novas teorias e revo
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
 **Título Original:** 結核なんか屁でもない 阿呆文学（八） | **Status:** Published | **Edição/Página:** 97号 | **Data ISO:** 1951-03-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Tuberculose é uma Insignificância
 Ensaios de um Ignaro (VIII)
@@ -146,6 +173,7 @@ Seria um desperdício guardar para mim tão sublime tarefa. Por isso, com fervor
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 結核と薬毒 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## A Tuberculose e a Toxina Medicamentosa
 
@@ -173,6 +201,7 @@ Outro ponto que merece especial atenção é o fato de a febre ser quase sempre 
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 血沈 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## O Equívoco da Hemossedimentação e a Verdadeira Natureza da Tuberculose
 
@@ -200,6 +229,7 @@ A medicina também sustenta que as toxinas dos remédios, uma vez no organismo, 
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策（再版）
 
 ## A Verdadeira Natureza da Tuberculose e sua Solução Definitiva
 
@@ -225,6 +255,7 @@ Ao compreendermos a verdade dos fatos, percebemos tratar-se de uma questão de s
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 顕幽不離 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Inseparabilidade entre os Mundos Espiritual e Material
 
@@ -246,6 +277,7 @@ Este relato demonstra que, por maiores que sejam os tormentos enfrentados, o ser
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Conclusão sobre a Medicina
 
@@ -315,6 +347,7 @@ Por fim, determinei que esta obra não fosse comercializada. A razão é que con
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年1月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 結核ナンセンス | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1950-01-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Equívoco da Tuberculose
 
@@ -360,6 +393,7 @@ Ofereço este artigo às autoridades e aos especialistas, rogando para que despe
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 下痢 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Diarreia
 
@@ -375,6 +409,7 @@ Passando à diarreia crônica, observamos casos que podem se estender por meses 
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年8月27日 | **Fonte:** -
 **Título Original:** 結核新薬に就て 寸評（光24号） 白光生 | **Status:** Published | **Edição/Página:** 24号, 24号 | **Data ISO:** 1949-08-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Acerca dos Novos Medicamentos para a Tuberculose
 
@@ -390,6 +425,7 @@ Inicia-se, então, um ciclo vicioso: desenvolve-se um novo fármaco com o poder 
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 結核は絶対に感染しない | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Tuberculose Jamais é Contagiosa
 
@@ -429,6 +465,7 @@ Qual dos caminhos devemos escolher? Evidentemente, o segundo: a formação de se
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 健康の自由主義 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Liberalismo da Saúde e a Falácia da Medicina Moderna
 
@@ -468,6 +505,7 @@ Por fim, gostaria de tecer um comentário sobre a religião. Sua missão primord
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核感染の誤謬 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Falácia da Infecção por Tuberculose
 
@@ -485,6 +523,7 @@ Diante dessa realidade, tenho empregado todos os meios ao meu alcance e me dedic
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 現代医学で病気は治るか | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Ilusão da Cura pela Medicina Moderna
 
@@ -516,6 +555,7 @@ Para concluir, o verdadeiro valor da Terapia Divina reside em sua abordagem diam
 
 **Categoria:** ke | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 見神に就て | **Status:** Published | **Edição/Página:** P.70 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## Acerca da Vidência Divina
 
@@ -570,6 +610,7 @@ A partir de então, não foram poucas as vezes em que essa divindade me revelou 
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結論 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Advento da Revolução Médica
 
@@ -591,6 +632,7 @@ Nesse contexto, sinto o dever de salvar também aqueles que se dedicam à medici
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年2月14日 | **Fonte:** Eikou
 **Título Original:** 結核亡国論 | **Status:** Published | **Edição/Página:** 91号 | **Data ISO:** 1951-02-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Tuberculose como Ameaça à Nação
 
@@ -626,6 +668,7 @@ Para concluir, gostaríamos de fazer um alerta. As atuais políticas de combate 
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Raiz da Guerra e da Pobreza
 
@@ -653,6 +696,7 @@ Eis a razão pela qual intitulei esta obra de "O Evangelho do Paraíso".
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
 **Título Original:** 現代人の短命 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1936-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術・新日本医術としての岡田式療病法
 
 ## A Breve Vida do Homem Moderno
 
@@ -670,6 +714,7 @@ Esta Arte de cura é, em essência, a obra de purificação da humanidade, que s
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 結核の現状 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## A Verdadeira Natureza da Tuberculose
 
@@ -689,6 +734,7 @@ Todavia, é aqui que reside o cerne da questão. Pois, segundo o que descobri, a
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年3月6日 | **Fonte:** 新日本医術書
 **Título Original:** 健康協会会員の天寿は九拾歳を越えん | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-03-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Longevidade dos Membros Superará os Noventa Anos
 
@@ -714,6 +760,7 @@ Nesse sentido, ainda que os membros de nossa Associação carreguem em seus corp
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
 **Título Original:** 結核と精神面 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の革命的療法
 
 ## A Tuberculose e o Fator Espiritual
 
@@ -747,6 +794,7 @@ Lembro-me de um episódio curioso, ocorrido em um vilarejo. Havia ali uma jovem 
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
 **Título Original:** 結核と精神作用 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策（再版）
 
 ## A Influência do Espírito sobre a Tuberculose
 
@@ -774,6 +822,7 @@ Diante do exposto, se a minha tese de que a tuberculose não é contagiosa e é 
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年5月23日 | **Fonte:** Eikou
 **Título Original:** 現代医学論 | **Status:** Published | **Edição/Página:** 105号 | **Data ISO:** 1951-05-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Ensaio sobre a Medicina Moderna
 
@@ -819,6 +868,7 @@ Convido o leitor, portanto, a ler os testemunhos de graças alcançadas à luz d
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
 **Título Original:** 結核問題とその趨勢 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第一編
 
 ## A Problemática da Tuberculose e sua Trajetória
 
@@ -953,6 +1003,7 @@ Hoje, com o número de mortes ultrapassando 150 mil anualmente, os dados aqui ap
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
 **Título Original:** 結核は感染しない | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1952-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核信仰療法
 
 ## A Não Contagiosidade da Tuberculose
 
@@ -986,6 +1037,7 @@ Eu, porém, que vim a conhecer esta verdade por Revelação Divina, sinto o deve
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教奇蹟集
 
 ## A Natureza dos Milagres e a Identidade do Messias
 
@@ -1007,6 +1059,7 @@ Nesse sentido, não considero surpreendente que me vejam como o Messias, o Crist
 
 **Categoria:** ke | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 現当利益 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## A Verdadeira Natureza dos Benefícios na Fé
 
@@ -1030,6 +1083,7 @@ Ademais, figuras como Shakyamuni, Cristo e Nichiren revelaram com clareza a verd
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
 **Título Original:** 結核と神霊科学 ・結核は治る 自観叢書第1篇 | **Status:** Published | **Edição/Página:** P.24 | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核と神霊療法
 
 ## A Cura da Tuberculose sob a Ótica da Ciência Espiritual
 
@@ -1075,6 +1129,7 @@ Por fim, para comprovar minha teoria com fatos, apresento a seguir, para vossa r
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年10月22日 | **Fonte:** Eikou
 **Título Original:** 結石も浄霊で排泄さる | **Status:** Published | **Edição/Página:** 179号 | **Data ISO:** 1952-10-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Expulsão de Cálculos por meio do Johrei
 
@@ -1120,6 +1175,7 @@ Meishu-Sama, muito, muito obrigado. Expresso minha mais profunda e sincera grati
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年12月23日 | **Fonte:** Eikou
 **Título Original:** 結核は医学が作る実例 | **Status:** Published | **Edição/Página:** 240号 | **Data ISO:** 1953-12-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Comprovação de que a Medicina Gera a Tuberculose
 
@@ -1172,6 +1228,7 @@ Meishu-Sama, muito obrigado. Agradeço-Lhe profunda e reiteradamente.
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年11月8日 | **Fonte:** Eikou
 **Título Original:** 現当利益 | **Status:** Published | **Edição/Página:** 77号 | **Data ISO:** 1950-11-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Essência dos Benefícios Imediatos
 
@@ -1203,6 +1260,7 @@ Na verdade, quem se dispuser a analisar nossa Igreja com seriedade, perceberá q
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年6月6日 | **Fonte:** Eikou
 **Título Original:** 芸術宗教 | **Status:** Published | **Edição/Página:** 107号 | **Data ISO:** 1951-06-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Arte como Alicerce do Paraíso Terrestre
 
@@ -1218,6 +1276,7 @@ Por conseguinte, devoto o mais profundo interesse à arte e tenciono incentivá-
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-10-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 法難手記
 
 ## Análise de uma Perseguição Religiosa
 
@@ -1285,6 +1344,7 @@ Com esta advertência de que, chegada a hora, o arrependimento será tardio, enc
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年11月19日 | **Fonte:** -
 **Título Original:** 現世利益と未来利益 | **Status:** Published | **Edição/Página:** 36号 | **Data ISO:** 1949-11-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Os Benefícios Presentes e os Benefícios Futuros
 
@@ -1304,6 +1364,7 @@ As palavras acima podem ter sido excessivamente diretas, e talvez causem desconf
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 結核と精神作用 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Influência do Espírito na Tuberculose
 
@@ -1331,6 +1392,7 @@ Por essa mesma razão, se a minha tese — a de que a tuberculose não é contag
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
 **Título Original:** 現代医学は何処へ行く | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## Para Onde Caminha a Medicina Moderna?
 
@@ -1354,6 +1416,7 @@ Não consigo imaginar maior infortúnio do que o daquelas pessoas que, por desco
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年1月21日 | **Fonte:** -
 **Título Original:** 結核予防は不可能か 神医学を信ぜよ | **Status:** Published | **Edição/Página:** 46号 | **Data ISO:** 1950-01-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Seria Impossível Prevenir a Tuberculose?
 
@@ -1379,6 +1442,7 @@ Este artigo é dedicado às autoridades e aos especialistas da área.
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年10月29日 | **Fonte:** Eikou
 **Título Original:** 結核 ・アメリカを救う | **Status:** Published | **Edição/Página:** 180号 | **Data ISO:** 1952-10-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Origem Espiritual da Tuberculose
 
@@ -1428,6 +1492,7 @@ A explanação acima versou sobre o bacilo da tuberculose e temas correlatos. A 
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 軽視出来ない事実 自観叢書10編 | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## Um Fato que Não Pode Ser Ignorado
 
@@ -1453,6 +1518,7 @@ Esses inúmeros fatos demonstram quão benéfica é a dieta vegetariana para a s
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 結核と精神面 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Dimensão Espiritual da Tuberculose
 
@@ -1482,6 +1548,7 @@ Recentemente, tem sido noticiado com frequência o surgimento de surtos de tuber
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
 **Título Original:** 結核は絶対に感染しない | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第一編
 
 ## A Verdade sobre o Contágio da Tuberculose
 
@@ -1527,6 +1594,7 @@ Qual dos dois caminhos devemos escolher? Evidentemente, a resposta reside em for
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核の病原 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Gênese da Tuberculose
 
@@ -1560,6 +1628,7 @@ Diante do exposto, mesmo que a medicina obtenha o sucesso esperado no extermíni
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## O Verdadeiro Perigo da Medicina Ocidental
 
@@ -1599,6 +1668,7 @@ Nesse sentido, dirijo-me não apenas ao governo, mas também aos especialistas e
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年 | **Fonte:** 現代医療の大誤謬
 **Título Original:** 現代医療の大誤謬 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Grande Equívoco da Medicina Moderna
 
@@ -1634,6 +1704,7 @@ Cumpre ressaltar que os medicamentos são, em sua maioria, compostos por toxinas
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 現実無視の悲劇 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Tragédia de Ignorar a Realidade
 
@@ -1673,6 +1744,7 @@ Em contrapartida, aqueles que recebem os cuidados desta Arte de cura experimenta
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月8日 | **Fonte:** Kyusei
 **Título Original:** 献金に就て | **Status:** Published | **Edição/Página:** 57号 | **Data ISO:** 1950-04-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Gratidão que Transborda em Donativo
 
@@ -1709,6 +1781,7 @@ Desde então, continuo a caminhar com perseverança, auxiliando, com minha humil
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 結核と其発見法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## Uma Análise Crítica do Diagnóstico da Tuberculose
 
@@ -1730,6 +1803,7 @@ Mas o que significa, afinal, “requerer atenção especial”? A medicina preco
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** P.146 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Ilusão da Medicina Moderna
 
@@ -1753,6 +1827,7 @@ Sendo assim, quando esta verdade se difundir pelo mundo, é natural que os profi
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年1月15日 | **Fonte:** Shizen Noho Kaisetsu
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自然農法解説
 
 ## A Superioridade da Agricultura Natural
 
@@ -1781,6 +1856,7 @@ A fim de comprovar os resultados deste surpreendente método agrícola, os mais 
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 結核と精神作用 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Tuberculose e a Influência da Mente
 
@@ -1806,6 +1882,7 @@ Sabe-se também que, entre os animais, o gado é particularmente suscetível à 
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
 **Título Original:** 結論 ・結核は治る 自観叢書第1篇 | **Status:** Published | **Edição/Página:** P.21 | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核と神霊療法
 
 ## A Tuberculose é Curável
 
@@ -1831,6 +1908,7 @@ Analisando a questão sob uma perspectiva acadêmica, pode-se ainda tecer outra 
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
 **Título Original:** 結核の原因 ・結核は治る 自観叢書第1篇 | **Status:** Published | **Edição/Página:** P.16 | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核と神霊療法
 
 ## A Verdade sobre a Tuberculose
 
@@ -1870,6 +1948,7 @@ Contrariando todas as expectativas, nosso método para debelar essa febre de cau
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年4月23日 | **Fonte:** Eikou
 **Título Original:** 原爆恐るるに足らず | **Status:** Published | **Edição/Página:** 153号 | **Data ISO:** 1952-04-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Bomba Atômica Não é de se Temer
 
@@ -2062,6 +2141,7 @@ Este foi um breve relato de minha experiência com a bomba atômica. Muito obrig
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 下痢 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Verdadeira Causa da Diarreia
 
@@ -2077,6 +2157,7 @@ Existe, ainda, a diarreia crônica, que pode se estender por meses ou até mesmo
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 結核と神経作用 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Influência do Fator Mental na Tuberculose
 
@@ -2100,6 +2181,7 @@ Entre os animais, diz-se que o gado, em particular, pode contrair tuberculose. T
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 鶏群の一鶴 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Verdadeira Salvação e a Incredulidade dos Intelectuais
 
@@ -2117,6 +2199,7 @@ Aqueles que, diante desta realidade, despertarem e abraçarem a fé são, de fat
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年10月21日 | **Fonte:** Eikou
 **Título Original:** 結核の霊的原因 | **Status:** Published | **Edição/Página:** 231号 | **Data ISO:** 1953-10-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Causa Espiritual da Tuberculose
 
@@ -2166,6 +2249,7 @@ Meishu-Sama, muito, muito obrigada.
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
 **Título Original:** 芸術の使命 | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1949-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Missão da Arte
 
@@ -2189,6 +2273,7 @@ Sob essa ótica, não é exagero afirmar que parte considerável da responsabili
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核全快者の感想 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Testemunho da Cura e a Vontade Divina
 
@@ -2206,6 +2291,7 @@ Foi com o intuito de salvar essas almas aflitas que, nesta primavera, publiquei 
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 健康と寿命 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Saúde e a Longevidade Concedidas por Deus
 
@@ -2233,6 +2319,7 @@ Conforme exposto, Deus concedeu ao ser humano uma longevidade superior a cento e
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
 **Título Original:** 現代医学を嗤う | **Status:** Published | **Edição/Página:** 191号 | **Data ISO:** 1953-01-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Escárnio à Medicina Moderna
 
@@ -2260,6 +2347,7 @@ Pelo exposto, creio que se tornou evidente que o princípio de cura que estabele
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年9月17日 | **Fonte:** -
 **Título Original:** 軽視出来ない事実 | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1949-09-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Um Fato que Não Pode Ser Subestimado
 
@@ -2287,6 +2375,7 @@ Por meio desses inúmeros exemplos, torna-se evidente o quão benéfica é uma d
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
 **Título Original:** 結核は絶対に感染しない | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第一編
 
 ## A Tuberculose Jamais é Transmitida por Contágio
 *Ashita no Ijutsu (Reedição), Volume I — Publicado em 5 de fevereiro de 1943*
@@ -2329,6 +2418,7 @@ Qual dos dois caminhos devemos escolher? Evidentemente, o segundo: a criação d
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 結核 | **Status:** Published | **Edição/Página:** P.34 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Origem Espiritual da Tuberculose
 
@@ -2374,6 +2464,7 @@ A explanação acima se deteve no bacilo da tuberculose e em questões correlata
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核医学の恐怖 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Equívoco da Medicina Frente à Tuberculose
 
@@ -2395,6 +2486,7 @@ Ah, como anseio por salvar, o mais breve possível, esta humanidade atormentada.
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 現代医学論 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Falácia da Medicina Moderna
 

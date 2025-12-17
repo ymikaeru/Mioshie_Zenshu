@@ -1,9 +1,291 @@
 # Mioshie_Teachings - Part 34
 
+# Sobre os Espíritos Guardiões e a Dualidade Humana
+
+**Categoria:** shi | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 守護神 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
+
+## Sobre os Espíritos Guardiões e a Dualidade Humana
+
+Ao abordarmos a questão do bem e do mal no ser humano sob uma perspectiva espiritual, torna-se imperativo discorrer sobre a existência dos espíritos guardiões. Estes, como a própria denominação sugere, são entidades que protegem o ser humano de maneira constante.
+
+Conforme já elucidei em outra oportunidade, o nascimento de um ser humano neste mundo ocorre por determinação Divina. A alma que recebe de Deus essa missão é denominada Espírito Guardião Primordial. Além dele, por volta dos dois ou três anos de idade, um outro espírito se acopla à pessoa. Trata-se de um espírito animal, não humano. Segundo minha vasta experiência, os mais comuns são os de animais como raposa, cão-guaxinim, cachorro, gato, cavalo, boi e doninha, bem como diversas divindades-dragão, *tengu* e toda sorte de aves. Geralmente, cada pessoa recebe um único tipo, embora, em raras ocasiões, possa abrigar dois ou três. A este, damos o nome de Espírito Guardião Secundário. Embora possa parecer inverossímil ao homem moderno, trata-se de um fato irrefutável.
+
+O Espírito Guardião Primordial é de natureza absolutamente benevolente, sendo aquilo que denominamos consciência. O Espírito Guardião Secundário, por sua vez, é seu oposto, de índole absolutamente maligna, e corresponde ao que chamamos de pensamentos impuros. No budismo, a consciência é chamada de *bodaishin* (菩提心), ou mente búdica, enquanto os pensamentos impuros são conhecidos como *bonnō* (煩悩), as paixões mundanas. É desnecessário dizer que esses dois impulsos antagônicos estão em perpétuo conflito em nosso interior. A razão para tal é que, para a sobrevivência humana, a ação não floresceria se fôssemos guiados unicamente pela benevolência. Afinal, o desejo material, e com ele o anseio por competição, superioridade e prazer, jamais se manifestaria. Nesse sentido, a presença do Espírito Guardião Secundário, cuja essência é o apetite material, torna-se uma necessidade existencial.
+
+Portanto, em suma, o ser humano é uma criatura intermediária entre Deus e o animal. Por essa razão, mesmo no mais virtuoso dos homens, reside alguma maldade; e até no mais perverso, há sempre um resquício de bondade. Essa dualidade — o bem e o mal — trava uma batalha incessante em nosso interior. Naturalmente, quando o bem prevalece, alcançamos a paz, a felicidade e a prosperidade. Contudo, se o mal se torna vitorioso, gera-se a aflição e a desdita, conduzindo-nos ao caminho da ruína. É nesse sentido que podemos afirmar que o perverso é o fraco, e o virtuoso, o forte. Afinal, o homem de bem possui a força para subjugar o mal, ao passo que o homem perverso revela sua fraqueza ao ser por ele subjugado. Apesar disso, a sociedade frequentemente incorre no equívoco de considerar o virtuoso como fraco e o perverso como forte, uma percepção fundamentalmente errônea.
+
+Ademais dos Espíritos Guardiões Primordial e Secundário, existe uma terceira entidade que nos protege constantemente: o Espírito Guardião Assistente. Trata-se, em geral, do espírito de um antepassado. Quando uma criança nasce, um dos espíritos ancestrais é designado pelo líder do clã no Mundo Espiritual para assumir essa missão protetora. Ocorre também que certos espíritos, por vontade própria, se tornem Guardiões Assistentes; estes, na maioria das vezes, são espíritos de animais. Nesses casos, tais espíritos animais foram, em sua origem, almas humanas que se transformaram em divindades-dragão ou espíritos de raposa. Os espíritos de raposa, ao serem reverenciados nos santuários de Inari, assumem a função de guardiões. Já as divindades-dragão costumam manifestar-se sob a forma de uma serpente-azul ou de uma serpente-branca para exercer sua proteção.
+
+Não é raro, por exemplo, que em residências antigas habite por longos anos uma serpente-azul de índole dócil, que jamais causa dano a pessoas ou animais. Entretanto, pessoas que desconhecem essa realidade espiritual podem confundi-la com uma serpente comum e matá-la. Ainda que sob a forma de réptil, por se tratar de um espírito ancestral, sua ira é imensa. Como resultado, é frequente que maldições recaiam sobre os responsáveis, o que exige grande cautela. Com efeito, são numerosos os relatos, especialmente em áreas rurais, de famílias que, após matarem uma dessas serpentes, foram acometidas por uma sucessão de infortúnios e desgraças que as levaram à ruína.
+
+O dragão-branco, por sua vez, é reverenciado como a deidade Benzaiten, manifestando notáveis milagres, pois alcançou o nível de divindade.
+
+No exercício de sua proteção, o Espírito Guardião Assistente constantemente nos envia intuições. Frequentemente, ele se comunica por meio de sonhos, suscita pressentimentos ou nos livra de perigos iminentes. Qualquer pessoa que se mantenha atenta a esses sinais poderá, sem dúvida, reconhecer sua veracidade.
+
+---
+
+# O Grande Milagre da Ressurreição por Meio do Johrei
+
+**Categoria:** shi | **Ano:** 昭和27(1952)年8月27日 | **Fonte:** Eikou
+**Título Original:** 死後浄霊十分にして蘇生させた此大奇蹟 | **Status:** Published | **Edição/Página:** 171号 | **Data ISO:** 1952-08-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## O Grande Milagre da Ressurreição por Meio do Johrei
+
+A grandiosidade dos milagres manifestados pelos membros de nossa Igreja é algo que dispensa maiores comentários. Contudo, o relato de fé que se segue narra um prodígio singular: a ressurreição de uma pessoa cujo coração havia parado, reanimada por apenas dez minutos de Johrei. Um feito de tal magnitude, capaz de reverter a própria morte, certamente não possui precedentes na história mundial.
+
+Se tal proeza fosse um feito da medicina, indubitavelmente se tornaria uma questão de enorme relevância para a comunidade científica mundial, e os jornais japoneses a noticiariam em manchetes garrafais. Todavia, por se tratar de um acontecimento ocorrido no Japão, protagonizado por japoneses e, sobretudo, originado no seio religioso, depara-se com a inexplicável indiferença da sociedade. Afirmar que um milagre desta envergadura supera os de Cristo não seria, de modo algum, um exagero. Sendo assim, ao analisar este fato com imparcialidade, que outra avaliação seria possível? Certamente, além de constituir um acontecimento de impacto mundial, não se pode defini-lo senão como uma obra puramente divina.
+
+Entretanto, mesmo que pessoas de grande renome leiam sobre tal milagre nas páginas do jornal *Eikou*, a maioria ficará perplexa, limitando-se a menear a cabeça em sinal de confusão, para, ao final, simplesmente ignorar o ocorrido. Essa atitude sempre foi, para nós, motivo de grande indignação. Recentemente, porém, já nos habituamos a tal descaso, a ponto de nos tornarmos insensíveis a ele. Ainda assim, julgo importante deixar estas palavras registradas para a posteridade, pois tenho a mais absoluta certeza de que, quando o tempo certo chegar, o mundo despertará para a grandiosidade de nossa Igreja e virá, reverentemente, curvar-se diante dela. Naturalmente, haverá também pessoas de grande sabedoria, as quais, ao vislumbrarem a oportunidade, não hesitarão em ingressar em nossa fé.
+
+**Relato da Ressurreição**
+*O coração, após parar, voltou a bater com dez minutos de Johrei*
+
+*Shintoku Shosuke (47 anos)*
+*Igreja Nanko Naka, Província de Oita*
+
+Minha esposa vinha ganhando peso consideravelmente, e eu nutria a esperança de que ela não precisasse passar por uma purificação. Passaram-se um ou dois meses, e, por volta dos dias 25 e 26 de fevereiro, ela começou a se queixar de um mal-estar no abdômen. Em cada ocasião, eu lhe ministrava Johrei, o que lhe trazia alívio. No dia 29 de fevereiro, contudo, ela finalmente acamou.
+
+Tratava-se de uma purificação generalizada: a cabeça latejava como se fosse se partir; o peito, sensível ao mais leve toque, a fazia saltar de dor; as costas doíam intensamente; e o abdômen, rígido, sugeria um quadro de peritonite. Seus braços e pernas pareciam desprovidos de força. A dor era incessante, dia e noite, e ela já não conseguia ingerir alimento algum, encontrando-se em um estado em que nada parecia surtir efeito.
+
+Embora fôssemos uma família de quatro pessoas, recaía sobre mim a responsabilidade de ministrar-lhe Johrei várias vezes ao dia, além de cozinhar, limpar a casa, cuidar dos preparativos escolares e zelar por nosso filho de quatro anos. Mal conseguia dormir à noite. Foi nesse período que a gratidão por minha esposa se aprofundou em meu ser, e eu orava a Meishu-Sama para que sua purificação terminasse o mais breve possível.
+
+A purificação, no entanto, se intensificava a cada dia. Por volta de 3 de março, ela começou a sentir náuseas, sua mente perdeu a clareza e seu corpo enfraquecia progressivamente. Ah, como eu desejava que o ministro estivesse presente em um momento como aquele, pois sua presença me traria grande alento. Ele, porém, estava em peregrinação à Sede Geral em Atami e só retornaria no dia 7. Aguardei essa data com a ansiedade de quem espera por mil outonos. No dia 6, seu estado tornou-se crítico; a partir daquele dia, sua pele adquiriu uma tonalidade amarelada, e a cor de suas unhas também se alterou.
+
+Às três horas da tarde do dia 7, o ministro retornou de Atami. Fui encontrá-lo na estação e o acompanhei até a igreja anexa, onde lhe relatei detalhadamente a situação e supliquei que fosse ministrar Johrei. Ao voltar para casa, encontrei minha esposa completamente inconsciente, proferindo apenas palavras delirantes. Por volta das sete da noite, o ministro e sua esposa vieram nos visitar. Ele imediatamente começou a ministrar Johrei, mas a consciência dela não retornava. Apesar disso, um pensamento vigoroso tomou conta de mim: “Eu, que superei inúmeras provações para poder me dedicar a esta grandiosa Obra Divina, sempre contei com o apoio inestimável de minha esposa. É inconcebível que ela sucumba a uma purificação como esta! Deus certamente a protegerá. O fato de estarmos recebendo o Johrei do ministro neste momento já é, em si, a materialização da proteção divina”.
+
+O ministro permaneceu conosco por mais de três horas. No momento de sua partida, minha esposa recobrou um pouco a consciência e conseguiu apenas dizer: “Obrigada”. Senti um imenso alívio. Contudo, ela não me permitiu dormir um só instante naquela noite. Na manhã do dia 8, após enviar minha filha mais velha para a escola, por volta das dez horas, enquanto eu limpava a casa com cuidado, ouvi sua voz me chamar: “Pai, pai!”. Corri até ela e percebi que sua aparência estava diferente. Com os olhos bem abertos, ela me fitava intensamente e disse: “Aproxime-se, por favor, deixe-me ver bem o seu rosto. Meus olhos já não enxergam com nitidez. A doença desapareceu por completo, mas eu não vou resistir. Chegou a minha hora de morrer, e eu sei disso com clareza. Agradeço por todos os longos anos de dedicação. Perdoe-me por ter sido egoísta e por não tê-lo feito mais feliz. Deixar nossos filhos é o que mais me dói no coração, mas peço que cuide deles. Recebi Johrei em abundância e pude servir, ainda que modestamente, no caminho da salvação. Por isso, creio que irei para um lugar um pouco melhor que o da maioria das pessoas. Parto com essa esperança. Adeus.” Ditas estas palavras, ela fechou os olhos.
+
+“Oh, não! Este é o fim!”, pensei. Imediatamente, comecei a ministrar-lhe Johrei com uma das mãos, enquanto com a outra verificava seu pulso, que se tornava cada vez mais fraco. Apressei-me a entoar a Oração Amatsu-Norito três vezes, suplicando: “Dai Komyo Nyorai-sama, Meishu-Sama, por favor, salvai-nos desta provação!”. Enquanto orava e ministrava Johrei, o pulso foi desaparecendo até se extinguir por completo. Minha sogra e minha sobrinha, que haviam vindo ajudar, apenas choravam, paralisadas pelo desespero. Assim que terminei a oração, pedi à minha sobrinha que corresse até a casa de um vizinho para telefonar à igreja, solicitando que fizessem um pedido de proteção especial à Sede Geral. Pedi-lhe também que avisasse minha irmã sobre a gravidade da situação e que viesse imediatamente. Continuei concentrado no Johrei e na mão que buscava o pulso.
+
+Cerca de cinco minutos depois, minha sobrinha retornou. A essa altura, as mãos de minha esposa começavam a esfriar; seu corpo jazia sereno, de olhos fechados e sem respirar, como uma boneca inanimada. Tudo estava acabado. A morte. A morte... Foi então que me dei conta de que precisaria de um médico para obter o atestado de óbito. Enviei novamente minha sobrinha, desta vez ao hospital vizinho, enquanto eu continuava a ministrar Johrei, orando a Deus e a Meishu-Sama.
+
+Minha mente foi invadida por um turbilhão de memórias, que passavam como as imagens de uma lanterna mágica: a época anterior à minha conversão, as inúmeras tentativas de minha esposa para me conduzir à fé, as discussões acaloradas, minha teimosia ao ponto de desafiá-la, dizendo: “Entrarei para a Igreja se você conseguir derrubar um B-29 com seu poder espiritual”. Recordei-me de como, finalmente, fui convencido pelo Sr. Shibui e, após o fim da guerra, de nossa primeira peregrinação juntos a Atami e Hakone, em meio a todas as dificuldades de transporte daquele tempo. A ideia de que minha esposa partiria sem presenciar a construção do Paraíso Terrestre me encheu de um sentimento indescritível. Eu sequer conseguia chorar. Apenas implorava por mais um milagre, pela dádiva de sua vida de volta.
+
+Passados cerca de dez minutos – que para mim pareceram dez horas –, senti um pulso fraco começar a bater.
+
+Era um milagre! Ajuda Divina! Deus não nos havia abandonado! “Obrigado, Meishu-Sama!”, pensei, e, subitamente, as lágrimas transbordaram de meus olhos, um choro de pura felicidade. Nesse exato momento, minha irmã chegou. O pulso tornava-se cada vez mais forte. Dirigindo-me à minha sogra, que estava imersa em dor, eu disse: “Vovó, ela está salva!”. Suas lágrimas de tristeza se transformaram em lágrimas de alegria. “Ela se salvou, ela se salvou! Que graça! Que graça! Foi a ajuda de Deus! Meishu-Sama a salvou!”, exclamava ela, sem conseguir erguer o rosto envelhecido, de tão feliz que estava. A cor voltou às feições de minha esposa e, quando finalmente pude respirar aliviado, pensando “Agora ela está fora de perigo”, o médico do hospital vizinho chegou e prontamente iniciou um exame minucioso.
+
+(Segue o diálogo entre o médico, minha esposa e eu)
+
+**Médico:** Ela está com icterícia. O estado é bastante grave.
+**Eu:** É mesmo? Tão grave assim? (dissimulei, pois ela acabara de ser salva).
+**Médico:** Sua família segue uma religião, então imagino que considerem medicamentos e injeções desnecessários. Contudo, em casos de doença, é preciso consultar um médico e receber injeções para se curar. Se a deixarmos assim, a bile não irá para o estômago, mas sim para o duodeno, de onde será absorvida pelo intestino e se espalhará pelo corpo, causando o tom amarelado. Consequentemente, ela sofrerá de má digestão e desnutrição, o que levará a um quadro irreversível. Vamos aplicar uma injeção de penicilina agora mesmo (disse, enquanto preparava a seringa).
+**Eu:** Doutor, com todo o respeito, mas minha esposa sempre disse que, mesmo que estivesse para morrer, jamais aceitaria uma injeção. O senhor poderia, por favor, não aplicá-la? Se houver algum medicamento oral que seja eficaz, nós aceitaremos.
+**Médico:** Não, não há bons medicamentos orais para icterícia. Uma única injeção de penicilina e ela se sentirá bem imediatamente. (Nesse momento, pensei: “Ela acabou de ser salva... uma injeção e ela descansará em paz para sempre...”).
+
+Foi quando minha esposa, que parecia dormir tranquilamente, abriu os olhos e perguntou:
+
+**Esposa:** É o Sr. Ozaki? (Sua consciência e sua visão ainda não pareciam nítidas).
+**Eu:** Não, não é o ministro. É o médico do hospital vizinho.
+**Esposa:** O ministro Ozaki ainda não voltou?
+**Eu:** Ele retornou de Atami ontem, mas hoje cedo foi à cerimônia da Igreja de Tsukumini e só estará de volta à noite.
+**Médico:** Senhora, uma injeção e a senhora se sentirá melhor na mesma hora. Vamos aplicar.
+**Eu:** Doutor, é um desejo que ela nutre há muito tempo, o de não receber injeções.
+(Nesse instante, de forma súbita, minha esposa interveio):
+**Esposa:** Doutor, se o senhor me aplicar essa injeção, eu morrerei na mesma hora. Eu lhe imploro, por favor, não a aplique.
+**Médico:** Senhora, a senhora não vai morrer. Vai melhorar imediatamente.
+(Após uma pausa, ela insistiu):
+**Esposa:** Doutor, em nome de nossa amizade como vizinhos, peço-lhe que não me aplique a injeção. Por favor. Se eu morrer, aí sim o senhor poderá aplicá-la.
+**Médico:** Meu dever como médico não é apenas diagnosticar, mas também tratar. Por isso, recomendo a injeção. No estado em que a senhora se encontra, é impossível que se recupere.
+**Eu:** Somos imensamente gratos por sua gentileza, mas, como ela insiste tanto e o senhor mora tão perto, peço que me permita conversar melhor com ela mais tarde. Se decidirmos pela injeção, iremos procurá-lo. Nesse caso, contamos com sua ajuda.
+**Médico:** Entendo. Sendo assim, não há o que fazer. Mas saiba que a injeção seria o melhor. Por favor, conversem e me procurem depois.
+**Eu:** Sim, muito obrigado. Nós o procuraremos.
+
+Toda essa conversa com o médico durou cerca de uma hora. Após a partida dele, minha esposa, já mais disposta, contou-me: “Há pouco, eu estava caminhando por um lugar muito bonito, quando ouvi alguém me chamar. Ao me virar, vi que era o ministro Ozaki. Foi nesse exato instante que abri os olhos e o confundi com o médico”. A partir desse momento, seu estado mudou drasticamente para melhor.
+
+Pouco depois, a esposa do ministro, preocupada, veio nos visitar. Minha esposa recordaria mais tarde que, naquele momento, o rosto dela lhe pareceu o de uma Kannon (観音) transbordando de amor e misericórdia. Ela já conseguia conversar com energia. “A senhora passou por um momento muito difícil. Que bom que se salvou! Ontem, estava sofrendo tanto”, disse a esposa do ministro. “A senhora esteve aqui ontem? Não me lembro de nada”, respondeu minha esposa.
+
+Naquela noite, o ministro fez a gentileza de passar em nossa casa ao retornar da cerimônia em Tsukumini para ministrar-lhe Johrei. No dia 9, recebemos também o Johrei do ministro Onishi, que acabara de voltar de Atami. Posteriormente, ambos os ministros nos visitaram diversas vezes, e sua recuperação progrediu de forma muito tranquila. Um mês depois, em 8 de abril, ela já pôde deixar o leito e, hoje, cinquenta dias após o ocorrido, está praticamente restabelecida e trabalhando. Por meio desta grande purificação, minha esposa, que uma vez esteve morta, teve seu corpo devolvido ao Mundo Material e sua vida prolongada. Não encontro palavras para expressar minha gratidão a Meishu-Sama.
+
+Em meus oito anos de fé, acumulei inúmeras graças e experiências, mas ter presenciado a salvação de um ente tão querido em uma purificação de tamanha magnitude me fez sentir, mais uma vez, a força grandiosa da obra do Johrei. Compreendi profundamente que devo seguir em frente, com fé inabalável, na dedicação a esta grandiosa Obra Divina de salvação da humanidade. Por fim, gostaria de expressar minha sincera gratidão aos ministros e membros da Nanko-kai, da Kiitsu-kai e da Seisei-kai, por suas visitas e por toda a preocupação que demonstraram. Tenho certeza de que tudo isso é uma manifestação da sinceridade que brota por meio deste sagrado Caminho.
+
+Meishu-Sama, muito obrigado.
+
+---
+
+# A Piorreia, a Paralisia Facial e a Nevralgia Correlata
+
+**Categoria:** shi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 歯槽膿漏及び顔面麻痺と同神経痛 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
+
+## A Piorreia, a Paralisia Facial e a Nevralgia Correlata
+
+Embora a medicina considere a piorreia uma doença de causa desconhecida, conforme já expliquei, sua origem reside no excesso de urina decorrente da atrofia renal. Essa urina excedente acumula-se, partindo das costas em direção aos ombros e às glândulas linfáticas, e, por um processo de purificação, acaba sendo expelida através das gengivas. A presença de sangue nesse pus deve-se à contaminação da corrente sanguínea pelas toxinas da urina. Ademais, o amolecimento dos dentes, por vezes observado, é resultado direto do acúmulo dessas toxinas no tecido gengival.
+
+Por meio de nossa arte, a cura completa é alcançada com simplicidade. No entanto, a odontologia, por desconhecer um método terapêutico eficaz, frequentemente recorre à extração dentária, o que é verdadeiramente lamentável. A medicina supõe que a causa do problema esteja nos próprios dentes; contudo, ao compreender o princípio que acabo de expor, torna-se evidente que a realidade é precisamente o inverso.
+
+Para tratar a piorreia, é recomendável que, durante a escovação matinal, a atenção seja voltada mais para as gengivas do que para os dentes. Inicialmente, haverá a expulsão de pus e sangue, mas, com o tempo, essa secreção cessará. O tecido gengival se fortalecerá, e os dentes readquirirão sua firmeza.
+
+A paralisia facial manifesta-se pela contração de um dos lados dos lábios e dos olhos. Pode ser acompanhada por espasmos e, nos casos mais severos, chega a provocar a protrusão de um dos globos oculares, resultando em uma aparência tão disforme que se torna difícil de encarar. Contudo, se não for tratada, a condição geralmente se resolve por si mesma em um ou dois meses, ou, em casos mais longos, em até dois ou três anos. Todavia, ao se recorrer a tratamentos médicos que utilizam eletricidade e outros meios para solidificar a área afetada, a paralisia tende a se tornar crônica ou até mesmo incurável. A causa desse mal reside no acúmulo de toxinas em um ou mais pontos do rosto, o que obstrui o movimento muscular.
+
+A nevralgia facial, por sua vez, caracteriza-se por uma dor que geralmente afeta um dos lados do rosto. Essa dor é, na verdade, o reflexo do processo de dissolução dos nódulos de toxinas, ocorrido durante a segunda purificação.
+
+---
+
+# O Poder do Espírito Divino e o Poder da Ciência
+
+**Categoria:** shi | **Ano:** 昭和27(1952)年4月23日 | **Fonte:** Eikou
+**Título Original:** 神霊と科学との力 | **Status:** Published | **Edição/Página:** 153号 | **Data ISO:** 1952-04-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## O Poder do Espírito Divino e o Poder da Ciência
+
+Qual é a real dimensão da diferença entre o poder do Espírito Divino e o poder da ciência? A comprovação de tal disparidade tornar-se-á manifesta a quem quer que leia o relato de graça a seguir. Afinal, nossa Igreja tem por magno objetivo a transmutação do atual mundo infernal em um Paraíso Terrestre. Portanto, a partir de um único e singelo caso como este, será possível vislumbrar a magnificência do poder que possuímos.
+
+Vede este milagre! A cura de um câncer retal em estado terminal
+*(Reumatismo articular também foi curado, e um paciente com câncer de reto, à beira da morte, se recupera)*
+
+Relato de Fé de Tatsuo Kimura (26), Igreja Ohara Naka, Província de Yamaguchi
+
+Embora eu seja um membro de pouca fé, recém-ingresso nesta Obra Divina, e me sinta indigno de tal tarefa, tomo a liberdade de empunhar esta humilde pena movido por uma razão sublime: os milagres que recebi são de uma magnitude tão sagrada e digna de gratidão que seria um desperdício guardá-los apenas em meu coração. Se, por meio da descrição de minha experiência — que pode ser considerada uma sucessão de prodígios —, eu puder de alguma forma contribuir para a fé e a dedicação dos senhores, sentirei imensa felicidade.
+
+Ademais, nutro o profundo anseio de que, através deste relato, os jornalistas afeitos ao cientificismo e os materialistas defensores do ateísmo possam compreender a essência da fé e a superioridade do Johrei sobre a ciência. Desejo ardentemente que reconheçam, ainda que minimamente, a verdadeira natureza da religião e a realidade de sua existência.
+
+Tomei conhecimento da existência de nossa Igreja quando me encontrava acamado há mais de um ano, sofrendo de nevralgia intercostal e ciática, além de reumatismo articular. Esgotei todos os recursos terapêuticos disponíveis: médicos, eletroterapia, acupuntura, moxabustão, shiatsu. Contudo, meu estado não apresentava melhora. Mãos e pés, paralisados, adquiriram uma coloração arroxeada. Minha memória se esvaía, a visão turvava-se, e o tormento diário de dores lancinantes e febre alta aniquilou meus sonhos e esperanças de juventude. Fui lançado em um mundo de trevas, desprovido de qualquer vontade de viver, mergulhado em um estado de prostração. Minha rotina se resumia a suportar o sofrimento e a febre, repetindo como um autômato as sessões de injeções, shiatsu e eletroterapia. Isso ocorreu em meados de fevereiro do ano passado.
+
+Foi então que o ministro Takamoto, tendo ouvido sobre minha condição por intermédio da mãe de minha cunhada, veio me visitar. Ele me falou sobre a sublime prática do Johrei e me aconselhou: "Suspenda temporariamente todos os tratamentos por uma semana e experimente receber Johrei. Com toda a certeza, o senhor ficará curado".
+
+Originalmente, eu era um simpatizante de Marx e um ateu que abominava até mesmo a menção da palavra "fé". Refletindo agora, sinto-me temeroso pela minha antiga audácia. Como poderia uma doença, considerada incurável pela mais avançada tecnologia médica, ser sanada com o simples gesto de erguer a mão? Isso me parecia o cúmulo da superstição e do charlatanismo religioso. Não conseguia acreditar de forma alguma. Contudo, movido pela ideia de que não haveria mal em experimentar, aceitei receber Johrei.
+
+Ao terceiro dia, chegou o momento em que a mim, um ateu, seria mostrada de forma inequívoca a existência de Deus e a realidade dos milagres. Eu não podia simplesmente dispensar o médico que, por mais de um ano, havia me visitado diariamente, enfrentando sol e chuva. Sendo assim, tentei delicadamente recusar sua visita: "Ultimamente, a dor diminuiu e sinto-me um pouco melhor. O que o senhor acha de suspendermos as injeções e os remédios por um tempo? Será que o excesso de medicamentos não poderia estar provocando reações adversas, como a paralisia e o enrijecimento de meus membros?". Ele, porém, rechaçou minha sugestão, afirmando: "Isso é o pensamento leviano de um leigo. Não há erro no que um médico faz. Deixe a doença aos meus cuidados, pois não farei nada que o prejudique".
+
+Ele continuou a me visitar e a aplicar as injeções. Todavia, talvez pela sinceridade do ministro Takamoto ter alcançado Deus, ou talvez porque meu corpo, agora preenchido pela Luz Divina, possuísse algo inviolável até mesmo para um cientista, algo extraordinário aconteceu. Ao tentar inserir a agulha da injeção, esta se curvava ou quebrava, tornando a aplicação extremamente difícil. Após seis ou sete tentativas, quando finalmente conseguiu perfurar a pele, o líquido da injeção começou a vazar, anulando seu efeito.
+
+Tanto o médico quanto a enfermeira olhavam, perplexos, para um ponto fixo, visivelmente intrigados. Naquele ponto, encontrava-se o prego que o ministro Takamoto havia fixado para pendurar o Pergaminho Sagrado. Naquele dia, ele se retirou. No dia seguinte, porém, ele retornou para sua visita em meio à chuva. Pediu que a enfermeira preparasse a injeção e, com a seringa em mãos, ficou a meditar por um instante. De repente, declarou: "Você disse que seu quadro estava melhorando, não é? Hum... hoje não aplicarei a injeção", e apressou-se em arrumar suas coisas para partir.
+
+A enfermeira e todos os presentes ficaram atônitos. Suas palavras de despedida foram ainda mais surpreendentes. Inicialmente, disse de forma protocolar: "Cuide-se bem. Se piorar, avise-me imediatamente que virei vê-lo". No entanto, assim que seus olhos pousaram novamente no prego destinado ao Pergaminho Sagrado, sua expressão mudou: "Não, não... não haverá necessidade de me chamar. O senhor ficará bem e virá caminhando até o hospital. Aliás... não, não! O senhor jamais precisará de cuidados médicos novamente! Fique tranquilo!". E, dizendo isso, retirou-se apressadamente, como se estivesse a fugir.
+
+Ah, se isto não é um milagre, o que poderia ser? A grandiosidade da proteção Divina é imensurável! Naquele instante, ao testemunharmos de forma tão nítida a existência de Deus e a realidade dos milagres, toda a família chorou de emoção e gratidão pela imensa graça recebida.
+
+A partir daquele dia, daquele exato momento, meu coração obstinado se transformou por completo. Passei a entoar as palavras de louvor a Deus, que antes meus ouvidos ignoravam, e a me dedicar à leitura atenta dos Ensinamentos. Com isso, pude experimentar uma serenidade jamais sentida e saborear a verdadeira essência da fé, recuperando os sonhos e as esperanças da juventude e inaugurando dias felizes e plenos.
+
+Através do Johrei, a coloração arroxeada de meus membros, a visão turva e a perda de memória melhoraram dia após dia. Em uma semana, meu corpo estava tão saudável que era difícil crer que eu estivera acamado por mais de um ano. A flexão das articulações, antes impossível, tornou-se livre, e passei a ser capaz de permanecer sentado por uma hora ou caminhar por longas distâncias sem sentir dor significativa. Compreendi, então, que a paralisia, a descoloração dos membros, a visão embaçada e a perda de memória eram, todas, consequências do veneno dos remédios, o yakudoku (薬毒). Ao tomar consciência do quão terrível é esse veneno, estremeci ao pensar que, até então, eu o recebia como se fosse uma bênção.
+
+No Culto do dia 20 daquele mesmo mês, minha mãe e eu fomos ao ofício, e tive a permissão de ingressar na fé imediatamente. Desde então, tenho cooperado diariamente, com minhas parcas forças, nesta grandiosa Obra Divina para a salvação da humanidade. Ao ministrar Johrei, os milagres se manifestam sucessivamente, um gerando o outro, o que me faz reconhecer a magnitude da Obra de Deus e aprofunda ainda mais meu sentimento de gratidão.
+
+Para encerrar este meu despretensioso relato, permitam-me citar um desses exemplos.
+
+Uma senhora idosa, diagnosticada com câncer de reto, estava acamada havia um ano e meio. Sem apetite, seu rosto pálido não demonstrava qualquer sinal de vitalidade. Apesar de médicos renomados lhe prescreverem os mais nobres e raros medicamentos, seu estado apenas se agravava, e sua condição era tão lastimável que a morte parecia ser apenas uma questão de tempo. Contudo, após o ministro Takamoto a visitar e lhe ministrar Johrei por dois dias, ela já conseguia se alimentar e caminhar até o banheiro. Uma semana depois, já havia se levantado do leito e retomado suas atividades na cozinha.
+
+Quando a visitei, passada mais uma semana, deparei-me com uma cena inusitada: o médico, juntando as mãos em súplica diante da paciente, dizia: "Isto é um mistério! O tumor em seu abdômen desapareceu! Então não era câncer... Que coisa extraordinária! Em toda a minha carreira, tratei muitos pacientes com câncer, mas jamais vi um caso apresentar tal estado, tal transformação. Por favor, permita-me ao menos examiná-la, para fins de estudo". Diante daquela cena, do fundo de meu coração, proferi palavras de gratidão: "Muito obrigado, Meishu-Sama!".
+
+A verdadeira medicina é a Medicina de Deus.
+
+Meishu-Sama, muito, muito obrigado.
+
+(1º de abril de 1952)
+
+---
+
+# A Relação entre a Disfunção Renal e as Demais Enfermidades
+
+**Categoria:** shi | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 腎臓病とその他の病 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
+
+## A Relação entre a Disfunção Renal e as Demais Enfermidades
+
+Após ter discorrido, em linhas gerais, sobre as três funções precípuas do organismo humano, passarei a elucidar as principais enfermidades.
+
+Dentre as funções do corpo, a renal ocupa uma posição de suma importância, vindo imediatamente após as três já mencionadas. Conforme apregoa a própria medicina, o rim tem o papel de extrair hormônios valiosos do líquido que ali se concentra, ao mesmo tempo em que encaminha o resíduo líquido, a urina, para a bexiga.
+
+O grande empecilho, todavia, reside no fato de que o processo descrito ocorreria apenas se os rins funcionassem em sua plenitude. Na realidade, é comum que sua atividade diminua paulatinamente com o avançar da idade, desde a infância até a vida adulta, em virtude de um processo de atrofia. A causa dessa atrofia reside na presença de uma substância estranha que se imiscui no momento em que os rins separam os elementos úteis dos inúteis. Essa substância é, indubitavelmente, o yakudoku (薬毒), ou toxina medicamentosa. E qual o seu destino? Por não se converter nem em hormônio, nem em urina, ela atravessa a superfície do rim e se infiltra na região posterior do órgão, acumulando-se gradualmente. Com o tempo, essa substância se solidifica e passa a comprimir o rim, que, por conseguinte, atrofia-se de modo progressivo. Em decorrência disso, a produção de hormônios diminui (causa frequente da frigidez), e o processamento da urina torna-se mais lento. Uma parte da própria urina também se infiltra externamente, somando-se ao yakudoku (薬毒). A união dessas duas toxinas intensifica a formação de nódulos tóxicos, que se avolumam em ambos os lados da coluna vertebral, estendendo-se para cima até finalmente alcançarem os ombros e o pescoço.
+
+É este o motivo do enrijecimento dos ombros e do pescoço. E, curiosamente, é possível distinguir a natureza desses dois nódulos tóxicos. Ao pressionar a área afetada, percebe-se que o acúmulo de yakudoku (薬毒) é duro, dolorido e persistente, enquanto a toxina úrica apresenta uma consistência mais maleável e quase indolor. Com o tempo, essas toxinas acabam por penetrar no cérebro, e o processo de purificação que se desencadeia dá origem a sintomas como cefaleia e dores de cabeça, bem como a todas as doenças cerebrais, incluindo meningite, encefalite japonesa, meningoencefalite e hemorragia cerebral. Aferir a presença dessas toxinas no cérebro é um procedimento bastante simples: basta tocar a cabeça. A menor sensação de calor já é um indício de sua existência, e quanto mais elevada a temperatura, maior a concentração tóxica. É provável que, nos dias de hoje, não exista um único indivíduo cuja cabeça não apresente algum grau de calor.
+
+A meningite, por exemplo, consiste em uma purificação súbita e intensa das toxinas solidificadas na região frontal do cérebro. Sua alta incidência em crianças deve-se à força purificadora vigorosa, característica da idade. As particularidades dessa enfermidade são a febre alta, a dor aguda na fronte e a incapacidade de abrir os olhos, causada por fotofobia e vertigem. Contudo, se a doença seguir seu curso natural, os nódulos tóxicos se dissolverão e serão expelidos sob a forma de lágrimas e secreção nasal, resultando em uma cura completa. Ademais, após a recuperação, o indivíduo torna-se mentalmente mais lúcido; no caso das crianças, o desempenho escolar melhora de forma notável, o que costuma surpreender tanto os médicos quanto o público em geral. O tratamento médico, por outro lado, ao recorrer a compressas de gelo e outros métodos, solidifica ainda mais as toxinas. Embora a febre possa ceder e dar a impressão de cura, esse nódulo endurecido obstrui as funções cerebrais, podendo acarretar demência ou diversas outras sequelas incapacitantes.
+
+Prossigamos com a encefalite japonesa. As estatísticas indicam que ela acomete com maior frequência crianças entre cinco e dez anos de idade. Isso se explica pelo fato de que, ao brincarem sob o sol forte do verão sem chapéu, o cérebro recebe a luz solar diretamente. Esse estímulo faz com que as toxinas alojadas nas costas e nos ombros iniciem um movimento de concentração em direção à cabeça. Elas se acumulam primeiramente nas proximidades do bulbo raquidiano, onde é possível sentir, ao toque, um endurecimento em formato de bastão. A febre alta dissolve essa massa, que então penetra na parte posterior do cérebro, provocando uma sonolência extrema. A medicina, todavia, utiliza o resfriamento com gelo para solidificá-la, o que, tal como na meningite, deixa diversas sequelas incapacitantes. Se, por outro lado, a doença puder evoluir livremente, as toxinas que adentraram o cérebro o atravessarão e serão vigorosamente expelidas pelos olhos, nariz e boca sob a forma de pus sanguinolento. Uma vez concluída a eliminação, a cura é completa, o que geralmente ocorre no prazo de uma semana. Assim como na meningite, o prognóstico é excelente: as crianças não só apresentam uma melhora notável no rendimento escolar, como em momento algum correm risco de vida. Os óbitos ocorrem unicamente em decorrência de terapias equivocadas e contraproducentes, como o uso de gelo.
+
+Já a meningoencefalite é a versão invernal dessa doença. Nela, as toxinas também se solidificam em formato de bastão perto do bulbo, mas, por não haver a exposição ao sol, o processo se detém a meio caminho. O sintoma característico é a rigidez do pescoço, que perde a mobilidade para frente e para trás, assemelhando-se a um tronco de madeira. O seu curso é análogo ao da encefalite japonesa, motivo pelo qual omitirei maiores detalhes.
+
+Analisemos agora diversas outras manifestações patológicas, para além das cerebrais. Conforme mencionei, as toxinas que se solidificam nas proximidades do bulbo, em sua trajetória ascendente, comprimem os vasos sanguíneos que irrigam os globos oculares, gerando uma espécie de anemia ocular. Trata-se, em essência, de uma deficiência nutricional dos olhos que enfraquece a visão e impede o indivíduo de enxergar a longas distâncias. Eis a causa da miopia. A prova disso é que, à medida que dissolvemos esses nódulos, a miopia é completamente sanada. O astigmatismo possui a mesma origem; a diferença reside no fato de que, devido ao processo de purificação, o estado dos nódulos varia constantemente em cada pessoa, comprimindo os vasos de forma irregular e, por conseguinte, causando oscilações na visão. O glaucoma, por sua vez, ocorre quando toxinas se acumulam no fundo do olho, obstruindo o nervo óptico. Já a catarata, branca ou verde, é a solidificação de toxinas no próprio globo ocular. Também nesse caso, se a condição evoluir naturalmente, as toxinas se dissolverão e a cura será alcançada. Contudo, os tratamentos médicos, como colírios e injeções, solidificam essas toxinas, tornando incurável uma doença que poderia ser sanada. Em suma, todas as doenças oculares surgem quando as toxinas acumuladas no cérebro buscam uma via de saída, concentrando-se temporariamente nos olhos para depois se liquefazerem e serem expelidas como pus, remela e lágrimas. Se permitirmos que o processo siga seu curso, a cura é certa, embora possa levar algum tempo. O tracoma, por fim, ocorre quando as toxinas cerebrais tentam ser eliminadas através da mucosa interna das pálpebras, manifestando-se como erupções que expelem pus, sendo também uma condição de fácil resolução natural.
+
+No que tange às doenças nasais, como pólipos, rinite hipertrófica e catarro nasal, todas resultam do acúmulo de toxinas cerebrais nas laterais, no fundo ou na entrada do nariz, com o propósito de serem expelidas. Elas também se curariam naturalmente, mas a medicina, ao aplicar diversos tratamentos contraproducentes, impede a recuperação. A otite média, por sua vez, ocorre quando nódulos tóxicos nas glândulas parótidas e linfáticas se dissolvem sob febre alta, perfuram o osso, adentram o ouvido médio e rompem o tímpano para serem eliminados. A dor é parte desse processo. Se deixada em paz por dois ou três dias, a cura ocorre sem percalços.
+
+Passemos à amigdalite. Trata-se de um processo de purificação simples e benéfico, no qual as toxinas próximas aos gânglios linfáticos se acumulam gradualmente nas amígdalas e, por meio de febre alta, dissolvem-se e são expelidas através da ruptura da mucosa. A medicina, entretanto, utiliza soluções como a de Lugol, que obstruem a purificação, agravando o quadro e, por fim, levando a um aumento tão grande das amígdalas que a cirurgia se torna inevitável. Faço, portanto, um convite aos leitores: na próxima vez que tiverem amigdalite, experimentem não fazer absolutamente nada. Perceberão que não apenas a cura virá de forma rápida e tranquila, mas que a cada nova ocorrência, a intensidade diminuirá, até a recuperação completa. Afirmo isso com a certeza de quem curou a própria amigdalite crônica e ensinou o método a inúmeras pessoas, que, sem exceção, alcançaram a cura definitiva.
+
+Há aqui um ponto interessante a ser mencionado. Embora não seja uma doença tão comum, a piorreia é bastante incômoda. Ela também consiste em um tipo de purificação, no qual as toxinas próximas aos gânglios linfáticos se concentram nas gengivas para serem expelidas como pus sanguinolento. Em minha opinião, não há nada mais impuro, pois, em sua essência, trata-se de urina envelhecida sendo eliminada pela boca. Curá-la, no entanto, é muito simples: basta friccionar as gengivas com uma escova de cerdas duras. Todo o pus sanguinolento sairá, e a doença estará sanada.
+
+Como se pode depreender do exposto, as toxinas que se solidificam da altura dos ombros para cima – e que, como afirmei no início, são a causa dos resfriados – têm todas a sua origem nos rins. Fica evidente, portanto, que não apenas os resfriados, mas também a tuberculose, a pneumonia e a maioria das enfermidades são causadas pela atrofia renal. E a lista não para por aí. Pleurisia, peritonite, artrite reumatoide, nevralgia e as doenças femininas também se incluem, assim como cáries, hepatopatias, icterícia, diabetes, cálculos na vesícula, nos rins e na bexiga, asma, derrame, paralisia infantil e doenças mentais. Sendo assim, evitar a atrofia dos rins constitui, de fato, a condição primordial para a saúde. Abordarei cada uma dessas doenças sequencialmente em futuros escritos, e sua leitura trará uma compreensão ainda mais aprofundada.
+
+Por essa lógica, é primordial que os rins funcionem em sua plena capacidade. Para tanto, é necessário não apenas dissolver e remover os nódulos que causam a atrofia, mas também impedir que novos se formem. Todavia, nenhuma terapia existente é capaz de realizar tal feito. Somente o Johrei de nossa Igreja o torna possível. Apenas este fato já é suficiente para que possamos vislumbrar, sem margem para erro, a chegada de um mundo isento de doenças.
+
+---
+
+# A Missão de Apontar a Causa Primordial
+
+**Categoria:** shi | **Ano:** 昭和11(1936)年1月25日 | **Fonte:** Hikari明世界
+**Título Original:** 箴言 | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1936-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
+
+## A Missão de Apontar a Causa Primordial
+
+Diante de um enfermo, é imperativo que se aponte a origem de seu mal. Sobre este ato se constitui o próprio fundamento da cura.
+
+Ora, ao lançarmos o olhar sobre a totalidade da sociedade, constatamos que todos os seus âmbitos agonizam sob o jugo de profundas enfermidades. Quer seja na religião, na política ou na economia, absolutamente tudo padece de um mal.
+
+Portanto, nossa incumbência é precisamente a de apontar a causa primordial dessas aflições.
+
+Nisto reside, pois, a sagrada missão de nossa Kannon-kai (観音会).
+
+---
+
+# De uma Vida de Inferno a uma Vida de Paraíso
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 地獄生活から天国生活へ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
+
+## De uma Vida de Inferno a uma Vida de Paraíso
+
+Ao ler o relato da evolução deste paciente, sou tomado por uma sensação aterradora. Afinal, apesar de ter seguido com fervor as orientações médicas e se submetido aos mais modernos tratamentos — que incluíram duas mil injeções e uma quantidade incontável de remédios, aderindo a todas as terapias disponíveis —, seu estado apenas se agravou. O sofrimento diário que experimentou é de uma magnitude que nós, como observadores, somos incapazes de sequer conceber.
+
+Felizmente, essa pessoa teve a oportunidade de receber Johrei e, embora o tenha feito com certa desconfiança no início, sua recuperação foi notável e contínua. Todavia, mesmo diante de tal evidência, não despertou da superstição na qual se converteu a medicina. No entanto, foi-lhe impossível resistir à Verdade e, por fim, rendeu-se.
+
+Casos como este são, por certo, numerosos em nossa sociedade. Na verdade, a situação atual revela que eles estão em constante crescimento, o que representa um problema de graves proporções. Portanto, desejo sinceramente que os profissionais da medicina leiam este relato.
+
+Ao fazê-lo, compreenderão os pontos cegos da medicina e a natureza sublime do Johrei, e não terão outra alternativa senão refletir a respeito.
+
+---
+
+# A Verdade é Simples
+
+**Categoria:** shi | **Ano:** 昭和26(1951)年1月17日 | **Fonte:** Eikou
+**Título Original:** 真理は簡単だ 阿呆文学 | **Status:** Published | **Edição/Página:** 87号 | **Data ISO:** 1951-01-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A Verdade é Simples
+
+Quando se fala em Verdade, muitos imaginam algo terrivelmente complexo, que exige franzir a testa e adotar uma expressão de quem engoliu algo amargo para poder compreendê-la. Contudo, isso é um grande engano. A Verdade se torna complexa porque a concebemos assim; se a pensarmos com simplicidade, ela se revela com a maior facilidade.
+
+O ser humano come, bebe chá, respira o ar, queixa-se de uma coisa e de outra, evacua e, de alguma forma, continua vivo. Eis aí a Verdade. Um sujeito mais exaltado poderia se ofender: “Ora, há limites para o deboche! Chamar um argumento tão fútil de Verdade é um insulto!”. Mas não me deixo abater. Veremos quem de fato está a zombar. Pois bem, abram bem os ouvidos e escutem com atenção o que este humilde servo tem a dizer. Vocês se afogam em sofrimento porque insistem em complicar absolutamente tudo. Visto que me compadeço de vossa situação, decidi revelar o meu mais valioso pergaminho. Tratem de não desmaiar.
+
+O maior tormento que aflige a humanidade é, sem dúvida, a doença. Ao primeiro sinal de enfermidade, os homens logo se apressam em recorrer a remédios, injeções e cirurgias. Nos casos mais graves, chegam a deitar o ápice da criação sobre uma mesa, como se fosse um peixe, e, bisturi em punho, perfuram-lhe o corpo, cortam-lhe ossos e carnes e, em meio a um banho de sangue, não para extrair a enfermidade, mas para arrancar órgãos preciosos, concedidos pelos Céus. Que história mais cruel! Se ao menos a vida fosse garantida, o sacrifício seria tolerável, mas raramente as coisas saem como o esperado. Existe uma razão profunda para isso, mas se eu a expusesse abertamente, seria odiado e hostilizado por proferir tamanha afronta, o que me enche de receio. Contudo, se eu não o fizer, o sofrimento humano persistirá. Sendo assim, abordarei o tema com prudência, revelando apenas uma pequena parte.
+
+Afinal de contas, quem criou o ser humano? Façamos essa pergunta a uma multidão. A maioria certamente hesitará em responder. Para resolver o impasse, poderíamos recorrer ao método em voga: a votação. O resultado provável seria: oitenta por cento diriam não saber, e vinte por cento afirmariam saber. E se questionássemos esses últimos, sem dúvida diriam que fomos criados por um Deus, o Criador. Ninguém ousaria afirmar que o homem foi fabricado cientificamente por máquinas. Como pode ser razoável, então, tentar consertar com a ciência algo que não foi por ela criado? Não se trata de um automóvel quebrado, que possa ser reparado com peças e óleo. Ora, se a criação é obra de Deus, que outro caminho haveria para a cura senão rogar ao próprio Criador? É de se espantar que a mente humana não consiga perceber algo tão evidente.
+
+Por essa razão, quando nós nos dedicamos a curar as enfermidades, os resultados são extraordinariamente eficazes. As pessoas ficam atônitas, com os olhos a girar nas órbitas. Pacientes desenganados pela ciência mais moderna recuperam a saúde, um após o outro, e todos exclamam que é um milagre. Contudo, que ninguém se engane: não há milagre ou mistério algum nisso. É natural que sejamos curados por Aquele que nos criou; o verdadeiro mistério seria o contrário.
+
+Passemos a outro assunto: a Agricultura Natural que praticamos. Quanto menos adubo se utiliza, mais se colhe, seja arroz, trigo ou hortaliças. Os agricultores, perplexos, arregalam os olhos de espanto, mas relutam em compreender. Dizem eles: “Ora, isso é um disparate! Tal coisa não pode existir neste mundo! Assim como o ser humano não vive sem comer, o mesmo ocorre com as plantas. O adubo é o alimento das plantações; sem ele, elas certamente morreriam. Nós não podemos nos dar ao luxo de cometer tamanha loucura”.
+
+O argumento parece, à primeira vista, bastante sensato. No entanto, proponho aqui uma breve reflexão. Para que finalidade o solo foi criado, e por quem? Assim como o homem, ele também é uma obra do Criador. O solo foi concebido para que dele brote o sustento necessário a todos os seres humanos, não importa quantos sejamos. Esta também é a Verdade, e nada pode alterá-la. Portanto, se o deixássemos atuar livremente, jamais haveria escassez. Que sistema perfeito! O verdadeiro alimento das plantas não são excrementos, venenos ou resíduos de urina. O próprio solo é o mais sublime dos banquetes; ele é, em si, a essência do fertilizante. Mas a insensatez humana é tamanha que, em vez de oferecer o solo puro e nutritivo, insiste em alimentar as plantas com substâncias impuras, desagradáveis e de toda sorte. Diante disso, o solo e as culturas perdem o interesse e se entregam à inércia. É natural, pois, que as colheitas sejam insuficientes. Como consequência, vemo-nos na condição de depender de alimentos importados de outras nações para sobreviver. Que triste destino para a nação outrora conhecida como a “Terra das Planícies de Juncos Exuberantes e das Espigas de Arroz Viçosas”! Certamente não há no mundo tolo maior do que aquele que tanto se esforça para colher apenas cansaço. Era de se esperar que percebessem o erro, mas, vendo que as mentes humanas se tornaram ocas, o próprio Deus, não podendo mais tolerar tal situação, conferiu-me a missão de despertá-las. Por isso, de todas as formas possíveis, empenho-me incansavelmente nesta tarefa. É lamentável que façamos Deus ter tanto trabalho por nós, que Dele recebemos um corpo tão sagrado.
+
+Para não me estender em demasia, concluo por aqui. É penoso observar os seres humanos que, tanto na saúde quanto na agricultura, insistem em trilhar caminhos trabalhosos e desnecessários que resultam na perda da vida e do alimento, passando os dias a murmurar queixas. Tudo isso decorre do afastamento da Verdade, sendo, portanto, um infortúnio autoinfligido. Mas como seria cruel dizer apenas isso, decidi escrever sobre a Verdade. Leiam estas palavras, assimilem-nas profundamente em seu ser e ponham-nas em prática o mais rápido possível. Se o fizerem, suas vidas melhorarão a ponto de verterem lágrimas de gratidão.
+
+Então? Compreenderam, ó seres humanos? Não sois meros insetos.
+
+---
+
 # A Alvorada de uma Nova Medicina
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 序論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Alvorada de uma Nova Medicina
 
@@ -73,6 +355,7 @@ O que significa, então, esse "efeito reverso"? Este livro nasceu de um grande v
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 腎臓炎乃至腎臓病 | **Status:** Published | **Edição/Página:** P.129 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## Sobre a Nefrite e as Enfermidades Renais
 
@@ -92,6 +375,7 @@ Neste ponto, é crucial elucidar um equívoco da medicina. Diante de uma enfermi
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
 **Título Original:** 人口増加率低減の問題 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策（再版）
 
 ## A Causa Oculta da Redução Populacional
 
@@ -133,6 +417,7 @@ Minha doutrina, no entanto, é diametralmente oposta. “A doença é a maior gr
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年1月14日 | **Fonte:** -
 **Título Original:** 自殺者の無責任 | **Status:** Published | **Edição/Página:** 45号 | **Data ISO:** 1950-01-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Irresponsabilidade do Suicida
 
@@ -152,6 +437,7 @@ Pelo exposto, reitero que o ato do suicídio é o cúmulo da irresponsabilidade 
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年4月8日 | **Fonte:** 新日本医術書
 **Título Original:** 宗教的治病に於る誤謬 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-04-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Falácia na Cura pela Fé
 
@@ -177,6 +463,7 @@ Todavia, é inevitável que tais religiões fraudulentas desmoronem subitamente 
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 小児麻痺 | **Status:** Published | **Edição/Página:** P.90 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Paralisia Infantil sob a Ótica Espiritual e Material
 
@@ -190,6 +477,7 @@ Abordemos agora a causa espiritual, sintomatologia mais frequente no Japão e re
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 人口増加率低減の問題 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Verdadeira Causa da Redução Populacional
 
@@ -230,6 +518,7 @@ Contudo, a minha explanação é diametralmente oposta: "A doença é a maior d�
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年2月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 時局と霊界 | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1951-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Conjuntura Mundial e o Mundo Espiritual
 
@@ -257,6 +546,7 @@ O que expus até aqui representa apenas uma ínfima parcela da realidade do Mund
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 小児病 ・病患と医学の誤謬二十一 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## As Doenças Infantis e os Equívocos da Medicina
 
@@ -312,6 +602,7 @@ Já tratei de várias crianças cujo abdômen se encontrava distendido como se t
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 耳鼻疾患 ・病患と医学の誤謬一○ | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## As Moléstias do Ouvido, do Nariz e da Garganta
 
@@ -345,6 +636,7 @@ Se, no entanto, por maior que seja o inchaço, permitirmos que a natureza atue, 
 
 **Categoria:** shi | **Ano:** - | **Fonte:** 親切な悪魔
 **Título Original:** 親切な悪魔 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Demônio Gentil
 
@@ -362,6 +654,7 @@ Dessa forma, ainda que motivada pela ignorância, essa gentileza se converte em 
 
 **Categoria:** shi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 序文 (天国の福音） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Alvorada da Verdadeira Saúde
 
@@ -402,6 +695,7 @@ O Autor
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年4月4日 | **Fonte:** Eikou
 **Título Original:** 春季大祭に際して | **Status:** Published | **Edição/Página:** 98号 | **Data ISO:** 1951-04-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Edificação do Paraíso e a Grande Transição Mundial
 
@@ -429,6 +723,7 @@ Tais acontecimentos, como sempre elucido, são manifestações do grande process
 
 **Categoria:** shi | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 宗教と科学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## A União entre Religião e Ciência
 
@@ -446,6 +741,7 @@ O Espírito Divino é luz e calor. Portanto, a comprovação científica dessa L
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** Chijo Tengoku
 **Título Original:** 神秘の扉は開かれたり | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1949-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## As Portas do Mistério Foram Abertas
 
@@ -469,6 +765,7 @@ Conforme o título deste artigo, as portas do mistério já foram abertas.
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 神霊と科学 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Transgressão da Ciência e a Missão Divina
 
@@ -486,6 +783,7 @@ Portanto, se Deus de fato existe, é inconcebível que Ele permitisse a perpetua
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 人的資源の危機 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Crise dos Recursos Humanos
 
@@ -511,6 +809,7 @@ Creio firmemente que, para solucionar tanto o problema da tuberculose quanto o d
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
 **Título Original:** 序論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第一編
 
 ## O Alvorecer de uma Nova Medicina
 
@@ -579,6 +878,7 @@ Mas o que significa esse “efeito reverso”? O grande anseio que deu origem a 
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年 | **Fonte:** 私物語
 **Título Original:** 序文 （私物語） 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 私物語
 
 ## Um Retrato Fiel de Mim Mesmo
 
@@ -596,6 +896,7 @@ Eu, em contrapartida, sou inteiramente diferente, pois desejo expor a totalidade
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 真の健康と擬健康 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Saúde Verdadeira e a Saúde Aparente
 
@@ -617,6 +918,7 @@ Diante do exposto, a verdadeira saúde só pode ser atributo de um ser humano in
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年7月16日 | **Fonte:** Eikou
 **Título Original:** 事故の原因 | **Status:** Published | **Edição/Página:** 165号 | **Data ISO:** 1952-07-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Causa Oculta dos Acidentes
 
@@ -640,6 +942,7 @@ Ah, quão temível é a ação dos medicamentos
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
 **Título Original:** 種痘は如何にすべきや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第一編
 
 ## A Questão da Vacinação Antivariólica
 
@@ -659,6 +962,7 @@ Diante do exposto, compreende-se que a questão da abolição da vacinação nã
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
 **Título Original:** 借金談義 | **Status:** Published | **Edição/Página:** 51号 | **Data ISO:** 1950-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Reflexões sobre o Endividamento
 
@@ -676,6 +980,7 @@ Há ainda outro ponto que desejo abordar: a dívida encurta a vida do ser humano
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
 **Título Original:** 序文 （結核と神霊療法） 自観叢書第1篇 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核と神霊療法
 
 ## A Causa Fundamental da Tuberculose
 
@@ -695,6 +1000,7 @@ O Autor
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
 **Título Original:** 浄霊の原理 神示の医学 | **Status:** Published | **Edição/Página:** 号外 | **Data ISO:** 1949-05-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Princípio do Johrei: A Medicina Revelada por Deus
 
@@ -760,6 +1066,7 @@ Outro exemplo é o meu próprio corpo. Como possuo uma massa do elemento Fogo em
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 死人に鞭つ 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.57 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## A Lição de Não Açoitar os Mortos
 
@@ -777,6 +1084,7 @@ Apresentei-lhe minhas desculpas e prometi solenemente que não mais tocaria no a
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年12月24日 | **Fonte:** -
 **Título Original:** 真の救いとは何ぞや | **Status:** Published | **Edição/Página:** 41号 | **Data ISO:** 1949-12-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Significado da Verdadeira Salvação
 
@@ -792,6 +1100,7 @@ Sendo assim, o fundamento da salvação que engloba corpo e espírito reside, pr
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年11月11日 | **Fonte:** Eikou
 **Título Original:** 寿命が延びた理由 | **Status:** Published | **Edição/Página:** 234号 | **Data ISO:** 1953-11-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdadeira Razão para o Prolongamento da Vida
 
@@ -809,6 +1118,7 @@ Acima de tudo, é um fato incontestável o expressivo aumento do número de pess
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 痔疾患 ・病患と医学の誤謬一五 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## As Afecções Anais e os Equívocos da Medicina
 
@@ -830,6 +1140,7 @@ Ademais, as pessoas costumam temer o sangramento hemorroidário, mas ele não de
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊治病 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Origem Espiritual das Doenças e o Equívoco da Medicina
 
@@ -851,6 +1162,7 @@ A seguir, passarei a explanar sobre o princípio do Johrei.
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年6月19日 | **Fonte:** 自然死と不自然死
 **Título Original:** 自然死と不自然死 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-06-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Morte Natural e a Morte Não Natural
 
@@ -872,6 +1184,7 @@ Diante de tais fatos, devemos despertar para a verdade de que o Mundo de Luz, al
 
 **Categoria:** shi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 心臓及び高血圧 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Verdade sobre as Moléstias Cardíacas e a Pressão Arterial
 
@@ -893,6 +1206,7 @@ Para corroborar esta explicação, há um caso exemplar. Certa vez, recebi um se
 
 **Categoria:** shi | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 常識 | **Status:** Published | **Edição/Página:** P.5 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## Sobre a Verdadeira Fé
 
@@ -912,6 +1226,7 @@ Como costumo sempre dizer, o caminho para a própria felicidade passa, antes de 
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 痔 | **Status:** Published | **Edição/Página:** P.141 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Purificação Através das Hemorroidas e Tumefações
 
@@ -931,6 +1246,7 @@ Contudo, a intervenção cirúrgica é evidentemente perniciosa, mas mesmo a per
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年2月13日 | **Fonte:** Eikou
 **Título Original:** 手術は野蛮？ | **Status:** Published | **Edição/Página:** 143号 | **Data ISO:** 1952-02-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Natureza Bárbara do Tratamento Cirúrgico
 
@@ -952,6 +1268,7 @@ O Johrei, ministrado em nossa Igreja, age de modo diametralmente oposto. Ele atu
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
 **Título Original:** 小乗信仰 | **Status:** Published | **Edição/Página:** 53号 | **Data ISO:** 1950-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Equívoco da Fé do Pequeno Veículo
 
@@ -979,6 +1296,7 @@ O exposto acima é uma explanação sobre a fé do pequeno veículo e a fé do g
 
 **Categoria:** shi | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
 **Título Original:** 十七、信仰の治病力 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 日本医術講義録
 
 ## O Poder Curativo da Fé
 
@@ -996,6 +1314,7 @@ Todavia, nem todos os casos seguem essa mesma lógica. De fato, existe um númer
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊で豚の病気まで治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Abrangência do Poder do Johrei
 
@@ -1013,6 +1332,7 @@ Isto nos leva a ponderar sobre a própria estrutura da medicina. A segmentação
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年11月5日 | **Fonte:** Eikou
 **Título Original:** 宗教と病院 | **Status:** Published | **Edição/Página:** 181号 | **Data ISO:** 1952-11-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Religião e os Hospitais
 
@@ -1042,6 +1362,7 @@ Contudo, a purificação se intensificará a tal ponto que, finalmente, nenhum r
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年9月12日 | **Fonte:** Eikou
 **Título Original:** 信仰の自由 | **Status:** Published | **Edição/Página:** 121号 | **Data ISO:** 1951-09-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Liberdade na Fé
 
@@ -1104,6 +1425,7 @@ Meishu-Sama, rogo-lhe que, por Vossa infinita misericórdia, salve a alma de min
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年11月5日 | **Fonte:** -
 **Título Original:** 真の宗教 | **Status:** Published | **Edição/Página:** 34号 | **Data ISO:** 1949-11-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Verdadeira Religião
 
@@ -1119,6 +1441,7 @@ Pelo que foi exposto, constata-se que a religião de via maior é, precisamente,
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
 **Título Original:** 宗教以上のもの | **Status:** Published | **Edição/Página:** 194号 | **Data ISO:** 1953-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Algo Superior à Religião
 
@@ -1142,6 +1465,7 @@ Isso é apenas um breve resumo. Como não se sabe que grandiosos projetos de alc
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 序論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Questão da Tuberculose e sua Solução Definitiva
 
@@ -1179,6 +1503,7 @@ De que valem as descobertas de micro-organismos, o desenvolvimento de equipament
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年12月27日 | **Fonte:** Eikou
 **Título Original:** 浄霊法変る | **Status:** Published | **Edição/Página:** 84号 | **Data ISO:** 1950-12-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Alteração no Método de Johrei
 
@@ -1200,6 +1525,7 @@ Maiores detalhes são de difícil compreensão apenas por meio da escrita; porta
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 宗教と信仰 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Natureza desta Arte Médica
 
@@ -1221,6 +1547,7 @@ Costumo sempre dizer: “Na guerra, o que importa é a vitória. Na doença, o q
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
 **Título Original:** 人的資源と現代医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第一編
 
 ## Recursos Humanos e a Medicina Moderna
 
@@ -1252,6 +1579,7 @@ Agora, permitam-me descrever o que imagino que aconteceria se a arte de curar po
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊は手術以上 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Superioridade do Johrei sobre a Cirurgia
 
@@ -1269,6 +1597,7 @@ Portanto, se juntamente com a doença também o órgão é removido, não estamo
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 小児結核此通り治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Inequívoca Diferença entre a Medicina e o Johrei
 
@@ -1282,6 +1611,7 @@ Uma vez mais, a distinção entre a medicina moderna e o Johrei manifesta-se de 
 
 **Categoria:** shi | **Ano:** - | **Fonte:** Kyusei
 **Título Original:** 地獄と天国 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Do Inferno ao Paraíso
 
@@ -1305,6 +1635,7 @@ Ademais, embora a religião devesse ser a instituição responsável por ensinar
 
 **Categoria:** shi | **Ano:** 昭和10(1935)年7月25日 | **Fonte:** Hikari明世界
 **Título Original:** 浄財と不浄財 | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1935-07-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## Sobre as Oferendas Puras e Impuras
 
@@ -1328,6 +1659,7 @@ Trata-se de um gravíssimo equívoco. A fé em Kannon (観音), todavia, é isen
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年7月2日 | **Fonte:** Eikou
 **Título Original:** 自然農法の驚異 | **Status:** Published | **Edição/Página:** 163号 | **Data ISO:** 1952-07-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Prodigioso Sucesso da Agricultura Natural
 
@@ -1401,6 +1733,7 @@ Antes de ingressar na fé, sempre havia alguém doente em casa, e vivíamos em c
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** 世界Kyusei教教義（Chijo Tengokuと自然栽培の巻）
 **Título Original:** 序文 （地上天国と自然栽培の巻） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教教義（地上天国と自然栽培の巻）
 
 ## Prefácio: O Paraíso Terrestre e a Agricultura Natural
 
@@ -1420,6 +1753,7 @@ Por essa razão, considero esta obra a mais adequada para persuadir o povo japon
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
 **Título Original:** 序論 人類救済の根本 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1936-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術・新日本医術としての岡田式療病法
 
 ## A Erradicação da Doença como Fundamento da Salvação
 
@@ -1455,6 +1789,7 @@ Sendo assim, quando a veracidade destes fatos assombrosos se tornar de conhecime
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 心臓病及高血圧 ・病患と医学の誤謬六 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## As Cardiopatias e a Hipertensão Arterial
 
@@ -1476,6 +1811,7 @@ Para corroborar o que afirmo, permitam-me relatar um caso exemplar. Há alguns a
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年5月25日 | **Fonte:** -
 **Título Original:** 社会悪は環境か否か | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1949-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Mal Social: Uma Questão Ambiental ou Espiritual?
 
@@ -1497,6 +1833,7 @@ A noção de uma “culpa passiva”, atribuída a fatores externos, é um ideal
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
 **Título Original:** 真理と非真理 (再録) 自観叢書12編 | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1950-01-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観説話集
 
 ## Sobre a Verdade e a Inverdade
 
@@ -1518,6 +1855,7 @@ Portanto, enquanto uma religião possuir um valor análogo ao da própria Verdad
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 信徒諸氏に告ぐ | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1949-03-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Diretriz sobre o Tratamento Médico
 
@@ -1531,6 +1869,7 @@ Sem dúvida, tal conduta desvirtua os princípios fundamentais de nossa Fé, ger
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 助産婦の告白 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Depoimento de uma Parteira
 
@@ -1550,6 +1889,7 @@ Diante do exposto, as autoridades e os profissionais da área médica que tivere
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 腎臓医術と若返り法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Terapêutica Renal e o Rejuvenescimento
 
@@ -1581,6 +1921,7 @@ Também sob este aspecto, a eficácia de nossa terapêutica renal deve ser consi
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年5月6日 | **Fonte:** Eikou
 **Título Original:** 神技の美術館 | **Status:** Published | **Edição/Página:** 207号 | **Data ISO:** 1953-05-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Obra Divina do Museu de Arte de Hakone
 
@@ -1600,6 +1941,7 @@ Diante de todos esses fatos, torna-se evidente que, do princípio ao fim, a Prov
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年5月25日 | **Fonte:** -
 **Título Original:** 新聞記事と嘘 | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1949-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Dever da Imprensa e a Praga da Falsidade
 
@@ -1621,6 +1963,7 @@ O que ardentemente desejamos, e certamente não somos os únicos a nutrir essa e
 
 **Categoria:** shi | **Ano:** 昭和10(1935)年2月4日 | **Fonte:** Hikari明世界
 **Título Original:** 枝葉末節文化 阿呆文学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## A Falácia da Cultura do Supérfluo
 
@@ -1668,6 +2011,7 @@ A única nota triste seria o desemprego dos policiais. Mas até para isso este t
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
 **Título Original:** 進歩的宗教 (再録) 自観叢書12編 | **Status:** Published | **Edição/Página:** 34号 | **Data ISO:** 1950-01-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観説話集
 
 ## A Religião Progressista
 
@@ -1687,6 +2031,7 @@ Portanto, a verdadeira missão da religião deve ser a de aprimorar concretament
 
 **Categoria:** shi | **Ano:** 昭和29(1954)年1月20日 | **Fonte:** Eikou
 **Título Original:** 新宗教と世界の年齢 | **Status:** Published | **Edição/Página:** 244号 | **Data ISO:** 1954-01-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Era do Mundo e a Religião Verdadeiramente Nova
 
@@ -1710,6 +2055,7 @@ Em suma, a civilização moderna sofrerá uma conversão de cento e oitenta grau
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年12月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 真文明とは何ぞや | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1951-12-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O que é a Verdadeira Civilização?
 
@@ -1737,6 +2083,7 @@ Portanto, a minha pessoa desempenha o papel de parteira, destinada a trazer ao m
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年4月8日 | **Fonte:** Eikou
 **Título Original:** 新宗教とは何か | **Status:** Published | **Edição/Página:** 203号 | **Data ISO:** 1953-04-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Essência de uma Verdadeira Religião Nova
 
@@ -1768,6 +2115,7 @@ Contudo, há um ponto crucial a ser compreendido. Com a chegada da Era do Dia, D
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 神経痛とリョウマチス 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Nevralgia e o Reumatismo
 
@@ -1787,6 +2135,7 @@ Por meio do nosso Johrei, em contrapartida, é possível alcançar a cura comple
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年2月28日 | **Fonte:** Eikou
 **Título Original:** 浄化作用 | **Status:** Published | **Edição/Página:** 93号 | **Data ISO:** 1951-02-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Cura pela Eliminação das Impurezas
 
@@ -1825,6 +2174,7 @@ Desejando compartilhar essa alegria e emoção com o maior número de pessoas, e
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年7月16日 | **Fonte:** -
 **Título Original:** 真理の具現 | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1949-07-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Concretização da Verdade
 
@@ -1850,6 +2200,7 @@ Se assim é, a concretização desse mundo paradisíaco constitui o objetivo pri
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 心臓病及高血圧 ・病患と医学の誤謬六 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Verdadeira Natureza das Cardiopatias e da Hipertensão Arterial
 
@@ -1873,6 +2224,7 @@ Para fornecer uma prova contundente do que afirmo, apresentarei um caso bastante
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 序文 （神示の健康法） 自観叢書10編 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## O Método Divino para a Saúde
 
@@ -1897,6 +2249,7 @@ O Autor
 
 **Categoria:** shi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 人口問題 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Problemática do Declínio Populacional
 
@@ -2173,6 +2526,7 @@ Imagino que qualquer leitor, ao se deparar com essa afirmação, não poderá de
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊は輸血なり 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Johrei como Transfusão Sanguínea
 
@@ -2188,6 +2542,7 @@ Costumo afirmar que a medicina moderna não passa de um artifício pueril, mas c
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 人口問題と本療法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Causa da Infertilidade e o Declínio Populacional
 
@@ -2209,6 +2564,7 @@ Sou compelido a fazer uma afirmação que poderá soar como autoelogio, mas a ve
 
 **Categoria:** shi | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
 **Título Original:** 序論 人類救済の大本願 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 日本医術講義録
 
 ## O Grande Voto para a Salvação da Humanidade
 
@@ -2226,6 +2582,7 @@ Eis que o tempo determinado por Deus chegou, e a concretização das inúmeras p
 
 **Categoria:** shi | **Ano:** 昭和29(1954)年2月10日 | **Fonte:** Eikou
 **Título Original:** 浄霊は科学療法なり（２） | **Status:** Published | **Edição/Página:** 247号 | **Data ISO:** 1954-02-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Alvorada da Era do Dia
 
@@ -2259,6 +2616,7 @@ Se considerarmos que este é o “Juízo Final” anunciado por Cristo, torna-se
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年4月8日 | **Fonte:** Eikou
 **Título Original:** 地獄の娑婆 | **Status:** Published | **Edição/Página:** 203号 | **Data ISO:** 1953-04-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Inferno Neste Mundo
 
@@ -2323,6 +2681,7 @@ Meishu-Sama, muito obrigada.
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年5月6日 | **Fonte:** Kenko
 **Título Original:** 新日本医術に依る健康法 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-05-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## O Verdadeiro Fundamento da Saúde
 
@@ -2340,6 +2699,7 @@ Bastaria que se discernisse este ponto fundamental. A causa primordial para a cr
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年1月14日 | **Fonte:** -
 **Título Original:** 宗教と自由 | **Status:** Published | **Edição/Página:** 45号 | **Data ISO:** 1950-01-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Religião e Liberdade
 
@@ -2361,6 +2721,7 @@ Pelas razões supracitadas, sentimos profundamente a necessidade de salvar não 
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 腎臓医術と若返り法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Terapia Renal como Fonte de Rejuvenescimento
 
@@ -2392,6 +2753,7 @@ Também sob este prisma, a eficácia de nossa arte terapêutica renal se revela 
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 死線を越えた話 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.67 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## Uma Experiência na Fronteira entre a Vida e a Morte
 
@@ -2415,6 +2777,7 @@ O que se narrou, sem qualquer dúvida, foi um fenômeno no qual seu espírito se
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年4月16日 | **Fonte:** Eikou
 **Título Original:** 信用のある医師 医学断片集（７） | **Status:** Published | **Edição/Página:** 152号 | **Data ISO:** 1952-04-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Questão do Médico de Confiança
 
@@ -2432,6 +2795,7 @@ Por fim, há outro ponto crucial. As pessoas que formulam tais perguntas geralme
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年1月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 社会悪は解決出来るか | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1951-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Solução para os Males Sociais
 
@@ -2455,6 +2819,7 @@ Reflitam. Por mais magnífico que algo seja, não é possível vê-lo sem se apr
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 緒論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## A Verdadeira Natureza da Tuberculose
 
@@ -2469,909 +2834,6 @@ Com efeito, há um tempo considerável que governo e povo vêm empreendendo as m
 A esse respeito, a conclusão a que cheguei, como fruto de mais de duas décadas de pesquisa, é assombrosa: as atuais medidas de prevenção contra a tuberculose são, em realidade, um método que promove o seu alastramento. Cumpre-me, ao mesmo tempo, anunciar que, por meio do método por mim descoberto, o objetivo de erradicar essa doença pode ser plenamente alcançado.
 
 Portanto, anseio que esta verdade seja divulgada ao maior número possível de pessoas, a começar pelas autoridades governamentais, pelos especialistas e por todos os nossos compatriotas. Sentir-me-ei sumamente afortunado se, por meio desta exposição, puder oferecer ainda que uma modesta contribuição para o magno objetivo nacional de fortalecimento de nossa capacidade de combate.
-
----
-
-# A Situação Mundial e o Mundo Espiritual
-
-**Categoria:** shi | **Ano:** 昭和29(1954)年3月25日 | **Fonte:** Chijo Tengoku
-**Título Original:** 時局と霊界 | **Status:** Published | **Edição/Página:** 58号 | **Data ISO:** 1954-03-25
-
-## A Situação Mundial e o Mundo Espiritual
-
-Embora o momento não seja propício a tecer críticas sobre a presente contribuição, optamos por aguardar uma ocasião mais oportuna. Todavia, reconhecendo o seu inegável interesse, que a torna digna de nota, decidimos publicá-la neste espaço.
-
-**Comunicação do Mundo Espiritual para a Salvação por Meishu-Sama**
-*Presidente da Igreja Oshin-Naka, Terunosuke Maki*
-
-**15 de fevereiro, 23h**
-**O espírito de Malenkov**
-
-**Meishu-Sama:** Espírito de Malenkov, incorpora no corpo de Shigeru. Incorporaste? Desde o outro dia, tens atuado através de fulano e obstruído sobremaneira a Obra do Deus Supremo. O espírito de sicrano não é um ser de índole tão insolente. Fingindo ser ele, ousaste desafiar a autoridade de Deus. Quando o Sol se manifesta, nada permanece oculto. Foste desmascarado pelo som alto dos passos de um servidor no corredor. O fato de Nobuko estar adormecida era uma estratégia para que, baixando a guarda, as grandes entidades se aproximassem. Hoje, com Momotaro também a repousar, um breve descuido teu permitiu que fosses descoberto. Quão bem te ocultaste até agora. Desafiar a autoridade de Deus certamente te trará sofrimento. Deus detém a vida de tudo o que existe e respira. A vida de todos Me pertence. Conceder a vida ou a morte é do Meu livre-arbítrio. Desejas precipitar-te no inferno por desafiar a autoridade de Deus? Almejas o mesmo abismo que Stálin? Ele permanecerá nesse abismo por incontáveis anos, em grande tormento. É esse o destino que buscas para ti? Certamente que não. Se te arrependeres, perdoarei até mesmo os teus grandes pecados. Contudo, mesmo as pequenas faltas não serão perdoadas sem arrependimento. Se teu remorso for sincero, serás perdoado. Preferes ficar aprisionado no gelo, na escuridão do abismo? Ou anseias pelo Paraíso? Aquele que é forte no mal, uma vez arrependido, torna-se igualmente forte no bem. Se não te emendares perante Deus, serás consumido pelas rodas de fogo do Sol. Se te corrigires, permitir-te-ei servir. Se eu te consumir pelo fogo, todo o povo soviético será igualmente aniquilado. Consentirias que o povo fosse queimado? Desejas que inocentes sofram as chamas? Preferes que eu te submeta agora à roda de fogo? Ou que, mediante teu arrependimento, teus pecados sejam extintos? Todos são filhos de Deus. Uma simples mudança de disposição pode vos transformar em bons filhos. És capaz de agir conforme a Minha Vontade? Servir-me-ás com total liberdade? De fato, é através do bem e do mal que a mácula do mundo é purificada. Para purificar a mácula do mundo, até mesmo a guerra se faz necessária. Servir-me-ás? Eu te perdoo; portanto, dedica-te. Por mais árduo que seja, opor-te-ás ao mal? A tarefa é penosa, mas a cumprirás? Não deves mais obstruir. Serás um instrumento da Vontade Divina. Serve sem desafiar Minha autoridade. Se compreendeste, manifesta-te em palavras.
-
-**Malenkov:** Recebo com imensa gratidão Vossas palavras e, doravante, emendarei minha conduta.
-
-**Meishu-Sama:** Teus pecados passados estão perdoados. Serve conforme a Minha Vontade. Desse modo, o povo soviético de coração sincero será salvo. Se te empenhares, tua nação se tornará um lugar cálido e feliz. Por que persistir em atormentar o Sol? Com tuas próprias mãos, salva o povo soviético. Se compreendeste, retorna de imediato e põe-no em prática. Assim, o gelo se derreterá e tua pátria se tornará uma terra amena. Este é um dia auspicioso para ti.
-
-**16 de fevereiro, 15h30**
-**O espírito de Molotov**
-
-**Meishu-Sama:** Espírito de Molotov, incorpora no corpo de Shigeru. Incorporaste? Quem és tu? Negro ou vermelho?
-
-**Molotov:** Sim, sou um Dragão Vermelho.
-
-**Meishu-Sama:** Enfrentaste grandes provações. Após a partida de Stálin, teus fardos foram muitos. Dize-me, tens sofrido ultimamente? A Era da Noite finalmente chegou ao fim. No céu do Oriente, o Sol principiou sua ascensão. O Mundo de Cristal está prestes a se manifestar. E tu, como te sentes? Desejas permanecer como estás? Rebelar-se contra Deus é, sem dúvida, um caminho de sofrimento. Quando o Mundo de Cristal se concretizar, nem a mais ínfima mácula será tolerada. Foi por isso que teu sofrimento se intensificou, não? Todos os seres que habitam este universo são Meus filhos. Tu também és Meu filho. Compreendo profundamente o sofrimento de um filho. Dize-me, pretendes rebelar-te contra teu pai para sempre?
-
-**Molotov:** Sim, compreendi perfeitamente.
-
-**Meishu-Sama:** Se não desejas mais te rebelar, pedirás perdão por teus pecados passados e te dedicarás a Deus?
-
-**Molotov:** Sim, dedicar-me-ei.
-
-**Meishu-Sama:** Tornar-te-ás um instrumento dócil nas mãos de Deus?
-
-**Molotov:** Sim, tornar-me-ei.
-
-**Meishu-Sama:** São palavras que brotam de um coração sincero?
-
-**Molotov:** Sim. Ontem, ao ouvir o que foi dito a Malenkov, compreendi tudo com clareza.
-
-**Meishu-Sama:** Aceitas a tarefa de purificar o mundo?
-
-**Molotov:** Sim, com alegria a aceitarei. Hoje, permiti-me apresentar um sinal.
-
-**Meishu-Sama:** Que sinal apresentaste?
-
-**Molotov:** Sim. No Ofício Religioso de hoje, providenciei que Vós fôsseis conduzido por um carro vermelho, como forma de colaboração.
-
-**Meishu-Sama:** De agora em diante, age conforme Minhas comunicações. Stálin, no Mundo Espiritual, em meio ao seu tormento no abismo, também começa a se arrepender. Basta que ele sozinho experimente tal sofrimento. Aflige-Me a ideia de que muitos outros passem por essa mesma agonia. Se te corrigires, uma primavera amena visitará também a União Soviética. Suportaste com grande paciência por um longo tempo. Faze com que os Dragões Vermelhos do mundo se emendem.
-
-**Molotov:** Sim. Certamente farei com que se emendem. Rogo, pois, por Vossa proteção.
-
-**Meishu-Sama:** Aqueles que estão em posições elevadas despertam rapidamente, mas os que estão abaixo são obstinados e indolentes, e tardam a despertar. Mesmo no Japão, há quem obstrua o caminho. Quantos espíritos da linhagem justa foram sacrificados? Fazer com que os indolentes se corrijam não é tarefa fácil. Eu te protegerei; portanto, a partir de hoje, emprega teus maiores esforços. Aquele que é forte no mal é também forte no bem. Refiro-me a ti. Eu te protegerei e te salvarei. Torna-te um instrumento em Minhas mãos.
-
-**Molotov:** Sim. Peço perdão por toda a minha insolência até o dia de hoje.
-
-**Meishu-Sama:** A urgência do Plano Divino é tamanha que se faz necessário utilizar o Sol e a Lua nesta intensa purificação. Quando chegar o momento de vossa própria purificação, Eu certamente vos auxiliarei. Arrisca tua vida e cumpre tua missão. Tua vida está sob Minha guarda. De agora em diante, mostra-me ocasionalmente sinais de tua cooperação. Agora, podes retornar. Agradeço teu esforço.
-
-**17 de fevereiro**
-**Mao Zedong (China Comunista), Dragão Vermelho**
-
-**Meishu-Sama:** Espírito que aguarda à entrada, incorpora em Shigeru. Incorporaste? Quem és tu?
-
-**Mao:** Sou o tão esperado Mao Zedong. Eu também sou um servo do Dragão Vermelho.
-
-**Meishu-Sama:** Trabalhas com afinco. Sabes quem Eu sou?
-
-**Mao:** Sim, tenho conhecimento.
-
-**Meishu-Sama:** Como vão as coisas? Parecem ir muito bem, não é mesmo? Expulsaste Chiang Kai-shek e prossegues com grande vigor. Estás contente?
-
-**Mao:** No momento, estou a refletir.
-
-**Meishu-Sama:** Teu grande chefe, Stálin, sofre no gelo do abismo. Aos poucos, ele também começou a se arrepender. Aprecias o abismo?
-
-**Mao:** Detesto-o. A princípio, eu colaborava com Stálin, mas após ouvir o que foi dito a Molotov, estou a reconsiderar.
-
-**Meishu-Sama:** Sabes o que és para Meishu-Sama? Queres que Eu te diga?
-
-**Mao:** Por favor, dai-me uma pista.
-
-**Meishu-Sama:** Pois bem, a darei. *Tarachine no*, é apenas isso.
-
-**Mao:** *Tarachine* refere-se aos pais?
-
-**Meishu-Sama:** *Tarachine* não se refere apenas à mãe, mas a ambos, pai e mãe. Compreendeste?
-
-**Mao:** Sim.
-
-**Meishu-Sama:** Compreendes bem o japonês. Em verdade, todos os seres que habitam a Terra, quiçá o universo, são filhos gerados por Meishu-Sama. Não o sabias? Foste trazido a este mundo por uma necessidade. Nasceste para cumprir uma missão. Compreendes qual é essa missão?
-
-**Mao:** Seria aquela missão que ouvi ontem?
-
-**Meishu-Sama:** Não te parece que a China se encontra profundamente maculada? Em uma casa, quando há sujeira, o que se faz?
-
-**Mao:** Faz-se a limpeza.
-
-**Meishu-Sama:** Sem uma purificação, quando a China for exposta à luz, sua imundície será tamanha que ela se tornará pó. Que deves fazer? Meishu-Sama desceu ao Japão, berço do Sol, com a intenção de salvar o mundo. Contudo, em lugares tão impuros, não posso intervir. O que se deve fazer?
-
-**Mao:** Sim, eu realizarei a purificação.
-
-**Meishu-Sama:** Exato. Sem essa purificação, a primavera jamais chegará à China. Para salvar o povo chinês, encarregar-te-ás de purificar o país? Se o fizeres, o povo de coração sincero será salvo. O povo sincero será salvo pela Luz Divina. És capaz de cumprir essa grande missão?
-
-**Mao:** Sim, sou capaz.
-
-**Meishu-Sama:** Uma primavera radiante se anunciará.
-
-**Mao:** Diremos adeus a esta terra impura.
-
-**Meishu-Sama:** Assim espero. Purifica-a. Prepara o caminho para que Deus possa adentrar.
-
-**Mao:** Então, providenciarei para que tudo se desenrole dessa maneira.
-
-**Meishu-Sama:** Sozinho, não conseguirás. Utiliza muitas pessoas para te auxiliar. Age com teu espírito de justiça, sem te importares com as críticas alheias. O bem e o mal são julgados por Deus. Faze-o. Certamente te concederei a primavera. Une-te às outras nações e aos teus subordinados. Se mudares de ideia, Eu te consumirei nas rodas de fogo. Jura e retorna.
-
-**Mao:** Com a clareza de Vosso olhar espiritual, compreendo perfeitamente e prometo que cumprirei a missão. Com Vossa licença, retorno.
-
-*Mao Zedong parte.*
-
-**18 de fevereiro, 11h40**
-**A seguir, manifestaram-se os seguintes espíritos:**
-
-**Truman (Estados Unidos), Dragão Vermelho**
-
-**Truman:** Meus parabéns por esta auspiciosa ocasião.
-
-**Meishu-Sama:** Compreendes o motivo de ser uma ocasião auspiciosa? Como foi tua postura em relação a Deus até hoje?
-
-**Truman:** Sim. Não tive conhecimento até que o assunto foi amplamente divulgado na imprensa americana.
-
-**Meishu-Sama:** Compreendeste que Deus desceu à Terra? E agora, qual é a tua intenção? O que farás doravante?
-
-**Truman:** A esse respeito, tenho recebido comunicações de diversas nações e estou a deliberar sobre o assunto.
-
-**Meishu-Sama:** Recebeste uma comunicação de Molotov?
-
-**Truman:** Sim, tive notícia.
-
-**Meishu-Sama:** E, diante disso, desejas cooperar? Desejas emendar-te?
-
-**Truman:** Sim, desejo emendar-me.
-
-**Meishu-Sama:** Cooperarás na batalha decisiva que definirá o futuro do mundo? Deus pretendia iniciar a purificação um pouco antes, mas a adiou consideravelmente. Em virtude desse adiamento, muitos mais serão salvos. Foi um grande esforço. Não foste tu que obstruíste a expansão da Obra de Deus na América?
-
-**Truman:** No início, sim, obstruí. Eu o fazia por julgar que o Judaísmo seria prejudicado. De agora em diante, cooperarei com a Obra de Deus.
-
-**Meishu-Sama:** Tuas palavras parecem carecer de força espiritual.
-
-**Truman:** É que a Luz Divina tem penetrado fisicamente na América, e por isso estou a receber purificação.
-
-**Meishu-Sama:** Desejas tornar-te um membro da Sekaikyuseikyou, ou recusas?
-
-**Truman:** Tenho me aproximado gradualmente, e gostaria de ser contado como um de vossos membros. Por trás da destruição, a criação se manifesta.
-
-**Meishu-Sama:** Qual dos dois preferes?
-
-**Truman:** A criação.
-
-**Meishu-Sama:** Que seja. Colabora com aquilo que preferes. Expressa-o em palavras.
-
-**Truman:** Sim. Com o envio do Reverendo Higuchi à América, a primavera também chegará ao nosso país.
-
-**Meishu-Sama:** Tu compreendes mais rápido que os homens de bem.
-
-**Truman:** Sim, pois a Luz Divina tem penetrado em meu corpo físico.
-
-**Meishu-Sama:** De agora em diante, serve à América discretamente, por trás dos panos. Não precisas de destaque. Servirás?
-
-**Truman:** Sim, servirei.
-
-**Meishu-Sama:** Se assim o fizeres, concederei a primavera também ao povo judeu. Pensei no que fazer, pois seus pecados são profundos, mas se se arrependerem, a primavera lhes será concedida.
-
-**Truman:** Ah, muito obrigado. Neste momento, passo por uma breve purificação.
-
-**Meishu-Sama:** Eu te ministrarei Johrei. Onde sentes a purificação?
-
-**Truman:** Sim, na coluna vertebral.
-
-**Meishu-Sama:** É uma ligação ancestral com espíritos-dragão. Se colaborares, teu corpo impuro também será purificado. Jura que servirás.
-
-**Truman:** Sim. Recebendo Vossas gratas palavras, juro que servirei.
-
-**Meishu-Sama:** Agradeço por teres vindo de tão longe.
-
-**Truman:** Ah, peço que envieis uma forte Linha Espiritual para a América.
-
-**Meishu-Sama:** Enviarei uma Linha Espiritual ainda mais forte.
-
-**Truman:** Sim, muito obrigado.
-
-**18 de fevereiro, 8h30**
-**Eisenhower (Estados Unidos), Dragão Negro**
-
-**Meishu-Sama:** Espírito de Eisenhower, incorporado em Nobuko, passa para o corpo de Shigeru.
-
-**Eisenhower:** Sou Eisenhower.
-
-**Meishu-Sama:** Ontem estiveste em Atami para um encontro, não? Na companhia de quem retornaste? Aguardaste com grande ansiedade por esta avaliação espiritual. Ouviste as diversas conversas?
-
-**Eisenhower:** Sim, ouvi. Rogo que me permitais servir.
-
-**Meishu-Sama:** Tu és um Dragão Negro, correto?
-
-**Eisenhower:** Sim. Rogo que me utilizeis em Vossa Obra.
-
-**Meishu-Sama:** Contribui para que a salvação através de nossa fé se expanda rapidamente na América. Regozijaste-te com o avanço da Obra no país, não foi? Quando te perguntei se foste tu que fizeste o presidente Maki quase perder o trem ao vir para a capital, respondeste: "Não me ocupo de assuntos tão mesquinhos." Eu te concederei uma poderosa força espiritual do bem; portanto, proclama a Verdade com a força de um leão. Dentre todos que vieram até agora, és o que melhor compreende. Conto contigo. Conto firmemente contigo.
-
-**Eisenhower:** Compreendido. Tornar-me-ei um dos grandes protagonistas do cenário mundial. Rogo por Vossa contínua proteção. Com licença, senhor presidente.
-
-*Retorna com grande ímpeto.*
-
-**MacArthur (Estados Unidos), Linhagem Divina Justa**
-
-**MacArthur:** Sou MacArthur. Parabenizo-o por esta ocasião gloriosa.
-
-**Meishu-Sama:** Há quanto tempo. Sinto saudades. Esperaste longamente por este dia, não foi?
-
-**MacArthur:** (Chora, comovido de alegria) Sim, esperei.
-
-**Meishu-Sama:** Tu és um espírito justo. Tuas ações foram grandemente obstruídas, não é mesmo? Tudo tem seu tempo e sua hora. Esperaste com grande paciência. Suportaste com bravura.
-
-**MacArthur:** Minha perseverança não é digna de tal menção.
-
-**Meishu-Sama:** Finalmente chegou o dia de subires ao grande palco do mundo.
-
-*MacArthur soluça.*
-
-**MacArthur:** Ah, que felicidade! Perdoai-me o descontrole, tamanho é meu júbilo.
-
-**Meishu-Sama:** Deus pretende realizar a grande purificação do mundo. Eisenhower compreendeu bem e prometeu cooperar. Truman também partiu prometendo sua total colaboração.
-
-**MacArthur:** Ah, com isto, a trindade da América está completa.
-
-**Meishu-Sama:** Uni vossas forças e atuai.
-
-**MacArthur:** Sim, compreendi perfeitamente.
-
-**Meishu-Sama:** Prepara teu coração e avança. Esta é a batalha final do mundo. Enviar-te-ei uma poderosa Linha Espiritual. Conto firmemente contigo. Além disso, estamos a expandir nossa base a partir do Havaí; colabora para que essa expansão prossiga com vigor. Do contrário, o povo americano sucumbirá ao veneno dos remédios. Compreende isto. Deixo essa tarefa sob teus cuidados.
-
-**MacArthur:** Que imensa felicidade. MacArthur certamente cumprirá sua missão. Muito obrigado.
-
-**Meishu-Sama:** Vem em peregrinação todos os meses. Vem para ouvir as diversas instruções.
-
-**MacArthur:** Sim. Virei para uma audiência em glória.
-
-**Meishu-Sama:** Vem. Vinde juntos, os três.
-
-**MacArthur:** Sim. Muito obrigado. Agradeço ao Sol, à Lua e à Terra.
-
-*Parte em meio a lágrimas de alegria.*
-
-**19 de fevereiro, 11h**
-**Nehru (Índia, Primeiro-Ministro e Ministro das Relações Exteriores), Dragão Negro**
-
-**Meishu-Sama:** Bem-vindo, senhor Nehru, que tanto aguardava.
-
-**Nehru:** Ha, ha! Sou o servo Nehru. Agradeço imensamente por este chamado. Ah, que felicidade.
-
-**Meishu-Sama:** Como está a situação por aí? O momento tão esperado finalmente chegou?
-
-**Nehru:** Ah, as nuvens no horizonte começam a se adensar. Rogo que confieis a este servo Nehru uma grande missão.
-
-**Meishu-Sama:** Conto firmemente contigo. Guarda-a em teu coração e cumpre-a com firmeza.
-
-**Nehru:** Agirei com prudência. Como há outros aguardando, despeço-me por agora. Rogo por Vossa proteção.
-
-**Meishu-Sama:** Retorna em peregrinação novamente, acompanhado de tua comitiva. Agradeço teu esforço.
-
-**Panikkar (Índia, ex-embaixador na China), Dragão Negro**
-
-**Meishu-Sama:** E tu, quem és?
-
-**Panikkar:** Sou um servo do Dragão Negro.
-
-**Meishu-Sama:** Conheces teu nome físico? És Panikkar, não?
-
-**Panikkar:** Ah, sim. Rogo que me permitais servir ao lado do senhor Nehru.
-
-**Meishu-Sama:** Apoia Nehru com firmeza. És seu braço direito. É preciso ter grande coragem para tal tarefa.
-
-**Panikkar:** Sim, compreendi perfeitamente. Como há outros aguardando, despeço-me. Rogo por Vossa contínua proteção.
-
-**Meishu-Sama:** Sim, Eu te protegerei. Retorna para uma nova audiência.
-
-**Birla (Índia, um dos cinco grandes magnatas), Dragão Negro**
-
-**Birla:** Agradeço profunda e sinceramente por ter sido incluído neste convite.
-
-**Meishu-Sama:** Tu também és um Dragão Negro, correto?
-
-**Birla:** Sim. Pertenço à mesma linhagem dos que me precederam.
-
-**Meishu-Sama:** A ti, confio a cooperação com os tesouros. Cumprirás o papel de Daikoku. Conto firmemente contigo. Enviar-te-ei também um grande auxílio espiritual. Conto firmemente contigo.
-
-**Birla:** Sim, cumprirei minha missão. Rogo por Vossa proteção.
-
-**Sra. Pandit (Índia, ex-embaixadora nos EUA, filha de Motilal Nehru), Dragão Negro**
-
-**Pandit:** Sou Pandit. Rogo por vossa benevolência.
-
-**Meishu-Sama:** A ti, confio a tarefa de auxiliar teu pai, Nehru, como sua secretária. Confiei a ele uma grande missão. Sem um cuidado excepcional, ele não a poderá cumprir.
-
-**Pandit:** Compreendi perfeitamente. Rogo por Vossa proteção.
-
-**Meishu-Sama:** Mantém a discrição e a suavidade em tuas atitudes. Com isso, teu pai brilhará intensamente. Conto firmemente contigo.
-
-**Pandit:** Sim, cumprirei minha missão. Rogo por Vossa proteção. Com vossa licença.
-
-**Rajagopalachari (ex-Governador-Geral da Índia), Dragão Vermelho**
-
-**Meishu-Sama:** Chegaste. Agradeço teu esforço. Ajuda Nehru e cumpre com firmeza teu papel nos bastidores. O papel dos bastidores é crucial. A fundação é mais importante que a fachada da casa.
-
-**Rajagopalachari:** Sim, compreendi perfeitamente. Rogo por vossa benevolência.
-
-**Meishu-Sama:** Conto firmemente contigo para o papel de alicerce.
-
-**Rajagopalachari:** Sim. Rogo por Vossa proteção. Como estou com pressa, despeço-me por agora.
-
-**Prasad (primeiro Presidente da República da Índia), Dragão Vermelho**
-
-**Prasad:** Agradeço profunda e sinceramente por Vossa imensa proteção. Chegou o momento em que, gloriosamente, poderei servir a Meishu-Sama.
-
-**Meishu-Sama:** Recebeste comunicação da União Soviética? Conto firmemente contigo. Esta é a batalha decisiva do mundo.
-
-**Prasad:** Ah, sim! Cumprirei com firmeza a primeira ordem que me foi dada. Rogo por Vossa proteção. Despeço-me por hoje.
-
-**Rau (ex-representante da Índia na ONU), Dragão Vermelho**
-
-**Rau:** Agradeço por Vossa proteção diária.
-
-**Meishu-Sama:** As chamas da batalha estão prestes a se erguer.
-
-**Rau:** Sim. Rogo que me permitais cumprir magnificamente esta grande missão. Se eu a cumprir com firmeza, peço Vossa imensa proteção.
-
-**Meishu-Sama:** Deves agir com mais vigor. Com passividade, não serás útil.
-
-**Rau:** Sim, agirei com firmeza. Como estou com pressa, despeço-me.
-
-**Meishu-Sama:** Agradeço teu esforço.
-
-**Kripalani (um dos líderes supremos do Partido do Congresso Nacional), Dragão Vermelho**
-
-**Kripalani:** Meishu-Sama, hoje é um dia de imensa felicidade.
-
-**Meishu-Sama:** És muito querido pelo povo. És um homem afortunado. Nesta grande missão, tua tarefa é liderar as massas. Unificar o povo. Apenas alguém com teu carisma pode cumprir tal papel. Guia-os com afeto. O amor é fundamental.
-
-**Kripalani:** Sim. Avançarei com o grande amor de Meishu-Sama. Agradeço por esta grandiosa missão. Rogo por Vossa proteção.
-
-**Patel (Vice-Primeiro-Ministro da República da Índia), Dragão Vermelho**
-
-**Patel:** Hoje é um dia auspicioso. Agradeço por Vossa constante e imensa proteção. Desta vez, confiaste-me uma grande missão, e eu cooperarei.
-
-**Meishu-Sama:** Vossa terra está muito encoberta por nuvens; peço que a purifiques com afinco. Com tamanha nebulosidade, o Paraíso Terrestre não poderá se manifestar. Conto com tua firmeza na purificação. Pelo bem da felicidade do povo, suporta as provações temporárias.
-
-**Patel:** Sim, compreendido. Rogo por Vossa proteção.
-
-**Rao (ex-Secretário-Geral do Partido Comunista da Índia), Dragão Vermelho**
-
-**Meishu-Sama:** Agradeço teu esforço diário na tarefa de purificação.
-
-**Rao:** Agradeço por esta grande missão. Eu a cumprirei.
-
-**Meishu-Sama:** A ti, cabe o papel da destruição.
-
-**Rao:** Sim. Por trás da destruição, a construção. Certamente cumprirei.
-
-**Narayan (líder do Partido Socialista da Índia), Espírito Feminino Justo**
-
-**Narayan:** Agradeço por Vossa permissão neste dia auspicioso.
-
-**Meishu-Sama:** Com uma alma feminina, enfrentas provações diárias.
-
-**Narayan:** Sim. Agradeço por confiar uma missão tão grandiosa a alguém como eu.
-
-**Meishu-Sama:** De agora em diante, conto firmemente contigo.
-
-**Narayan:** Sim, cumprirei minha missão.
-
-**Meishu-Sama:** Há coisas que apenas uma mulher pode fazer, e que os homens não podem. Conto firmemente contigo para essa tarefa.
-
-**Narayan:** Guardarei em meu coração e a cumprirei.
-
-**Meishu-Sama:** Age com suavidade.
-
-**Narayan:** Sim. Por hoje, despeço-me.
-
-**Ali Khan (Primeiro-Ministro do Paquistão, assassinado), Linhagem Divina Justa**
-
-**Ali Khan:** Agradeço por Vossa permissão neste dia auspicioso.
-
-**Meishu-Sama:** Vieste do Mundo Espiritual?
-
-**Ali Khan:** Sim. Anseio por este momento, aguardando com grande expectativa por receber esta grandiosa missão.
-
-**Meishu-Sama:** Conto firmemente contigo para a missão no Mundo Espiritual. Foi um destino trágico, mas recorri a ti por haver uma missão a ser cumprida no plano espiritual. Tu és um espírito justo. Um espírito justo não pode manter um corpo em um lugar tão encoberto por nuvens. Foi um grande sacrifício. Do Mundo Espiritual, salva com firmeza o povo da Índia. Isso repousa sobre teus ombros. Conto contigo. Retorna em peregrinação. Teu sofrimento se abrandará gradualmente. Vem. Vem receber Johrei novamente.
-
-**Ali Khan:** Rogo por Vossa benevolência.
-
-**Jinnah (primeiro Presidente do Paquistão), Espírito Justo**
-
-**Jinnah:** Agradeço imensamente por esta grandiosa missão.
-
-**Meishu-Sama:** Os espíritos da linhagem justa são muito pacíficos. Não sejas tão contido; age com mais vigor. Desse modo, não serás útil.
-
-**Jinnah:** Sim. Eu estava intimidado.
-
-**Meishu-Sama:** De agora em diante, coopera com Ali Khan no Mundo Espiritual. Age com a força de mil, de dez mil homens. Age com um espírito vigoroso. Não demonstres a mesma fraqueza de antes.
-
-**Jinnah:** Sim. Peço desculpas.
-
-**Meishu-Sama:** O Partido Comunista e todos os outros são papéis que Eu mesmo distribuí. Como é a mesma missão, não te sintas intimidado. Salva-os com palavras de grande força espiritual.
-
-**Jinnah:** Sim, cumprirei. Em data posterior, virei em peregrinação a Vós, Meishu-Sama, para expressar minha gratidão. Por hoje, despeço-me.
-
-**Bao Dai (ex-chefe de Estado do Vietnã), Espírito Justo**
-
-**Bao Dai:** Meus parabéns por esta ocasião. Chegou o momento em que, gloriosamente, poderei servir à Vossa Obra. Agradeço profunda e sinceramente.
-
-**Meishu-Sama:** Enganaste com grande habilidade os espíritos malignos. Foi um grande esforço. Outros não conseguiriam imitar tal feito. Desempenhaste o papel de Oishi Kuranosuke do Japão.
-
-**Bao Dai:** Sim. Graças à Vossa forte Linha Espiritual, este momento feliz chegou.
-
-**Meishu-Sama:** Finalmente, a primavera chegará também a essa terra encoberta.
-
-**Bao Dai:** Sim. Esperei, esperei por este momento. Certamente cumprirei. O tempo chegou e, em breve, poderei gloriosamente ter uma audiência física convosco. Com licença.
-
-**Vo Nguyen Giap (Comandante-em-Chefe da República Democrática do Vietnã), Espírito Justo**
-
-**Vo:** Agradeço imensamente por Vossa permissão. Meus parabéns por este dia.
-
-**Meishu-Sama:** Suportaste um longo sofrimento.
-
-**Vo:** Sim. Que imensa felicidade. Agradeço pela grandiosa proteção de Meishu-Sama. O momento finalmente chegou.
-
-**Meishu-Sama:** Até agora, estiveste a construir as fundações. De agora em diante, conto contigo para a construção. Agradeço teu esforço.
-
-**Vo:** De agora em diante, cumprirei com firmeza. Rogo por uma proteção ainda maior.
-
-**De Lattre de Tassigny (ex-Alto Comissário da França na Indochina)**
-
-**Tassigny:** Meishu-Sama, receber Vossa gloriosa permissão é uma verdadeira felicidade. Meus parabéns por este dia.
-
-**Meishu-Sama:** Suportaste um longo sofrimento. Conto com um esforço ainda maior de tua parte.
-
-**Tassigny:** Ah! Recebendo Vossas gratas palavras, certamente cumprirei a missão da construção da salvação. Rogo por Vossa benevolência e proteção.
-
-**Pham Van Dong (Vice-Primeiro-Ministro e Ministro do Interior da República Democrática do Vietnã)**
-
-**Pham:** Meus parabéns por este dia. Sinto-me feliz por poder contemplar gloriosamente o semblante de Meishu-Sama.
-
-**Meishu-Sama:** Sofreste por um longo tempo. Não viste a luz do dia por muito tempo.
-
-**Pham:** Não, tal sofrimento é insignificante comparado ao de Meishu-Sama. Através dele, pude polir meu espírito.
-
-**Meishu-Sama:** O sol finalmente começou a brilhar sobre o mundo. Dedica-te à tua missão com tranquilidade. Guarda-a em teu coração e cumpre-a.
-
-**Pham:** Certamente, arriscarei minha vida para cumpri-la. Rogo por Vossa proteção.
-
-**Nguyen Van Xuan (primeiro chefe do governo central provisório do Vietnã), Alma Feminina**
-
-**Nguyen:** Agradeço por Vossa permissão. É uma imensa felicidade.
-
-**Meishu-Sama:** Com um corpo de mulher, enfrentas provações diárias. Suportaste e serviste bem. O momento finalmente chegou. Conto firmemente contigo. Desempenha teu papel com tua grande coragem.
-
-**Nguyen:** Sim, cumprirei com firmeza. Mesmo sendo mulher, esforçar-me-ei. Rogo por Vossa imensa proteção futura.
-
-**Sukarno (Presidente da República da Indonésia, chamado de "Sol das Índias Orientais", popular, pró-americano)**
-
-**Sukarno:** Hoje é um dia de imensa felicidade.
-
-**Meishu-Sama:** Tens um nome muito bom, "Sol das Índias Orientais". O Sol da Índia. Derrete bem o mal.
-
-**Sukarno:** Sim, derreterei bem. Rogo que derrameis sobre mim a mesma proteção do Sol do Japão. Ah, esperei, esperei! O momento chegou. Cumprirei, certamente cumprirei esta grande missão. Derreterei e salvarei com um grande amor. Sol do Japão, por favor, guiai-me pela mão. Rogo por Vossa proteção futura. Com licença.
-
-**Hatta (Vice-Presidente da República da Indonésia)**
-
-**Hatta:** Chegamos a um momento verdadeiramente magnífico. É o dia pelo qual tanto esperei. Meus parabéns.
-
-**Meishu-Sama:** Tu, cumpre o papel da água na Índia. Une teu coração ao de Sukarno e atua.
-
-**Hatta:** Sim. Por favor, transmiti minhas saudações ao espírito da água do Japão. Para não atrapalhar a Obra Divina, despeço-me. Rogo por Vossa benevolência de agora em diante.
-
-*Cumprimenta Meishu-Sama e o espírito da água, Shoichi, antes de partir.*
-
-**Alimin (Secretário-Geral do Partido Comunista da Indonésia, dado como executado), Alma Feminina**
-
-**Alimin:** Meus parabéns por este dia. Agradeço por Vossa constante e imensa proteção.
-
-**Meishu-Sama:** És mulher? Tua missão é a da terra da Índia. O papel de alicerce. Tua missão também é grandiosa. Conto firmemente contigo. És diferente dos rumores. Dizem que foste executada, mas és muito hábil em despistar. Eu te protegerei. Age com firmeza.
-
-**Alimin:** Ah, muito obrigada. Cumprirei com firmeza. Por favor, transmiti minhas saudações também ao espírito da terra do Japão.
-
-**Musso (Membro do Comitê Central do Partido Comunista da Indonésia, dado como executado), Alma Feminina**
-
-**Musso:** Agradeço pela permissão concedida neste dia auspicioso.
-
-**Meishu-Sama:** Não foste executada? Tu também despistaste? As mulheres são muito hábeis em se disfarçar e escapar. Conto firmemente contigo para o papel de apoio a Alimin. Esconde-te bem e age. Mantém-te discreta e oculta. Quando o momento chegar, o palco será vosso. Foi um grande esforço.
-
-**Musso:** Sim. Rogo por Vossa benevolência. (Virando-se para Kimiko) Vossa missão é a mesma que a minha na administração. Rogo por vossa cooperação.
-
-**Soekiman (atual Primeiro-Ministro da República da Indonésia)**
-
-**Soekiman:** Meus sinceros parabéns por este dia. Agradeço por Vossa imensa proteção.
-
-**Meishu-Sama:** Estás aposentado devido à idade?
-
-**Soekiman:** Sim, estou aposentado, mas com boa saúde. Eu esperava pela chegada deste dia.
-
-**Meishu-Sama:** Tu também és um ator habilidoso. És o mentor de todos. Sê um pai para todos. Fornece-lhes força. Os jovens têm vigor, mas podem fraquejar diante de pequenos obstáculos. Conto firmemente contigo.
-
-**Soekiman:** Sim. Rogo por Vossa proteção.
-
-*Faz uma reverência a Meishu-Sama e depois cumprimenta Maki antes de partir. Aparentemente, seu papel é semelhante ao de Maki.*
-
-**Sjahrir (líder do Partido Socialista da Indonésia, ex-Primeiro-Ministro)**
-
-**Sjahrir:** Meus parabéns por esta ocasião. Agradeço pela permissão concedida hoje e rogo por Vossa contínua benevolência.
-
-**Meishu-Sama:** Sofreste por um longo tempo. Conto contigo para o papel de apoio a Soekiman. Orienta os mais jovens. Chegou o momento de colheres os frutos de teus longos anos de esforço.
-
-**Sjahrir:** Sim, cumprirei.
-
-*Aparentemente, seu papel é semelhante ao da Sra. Maki, e ele pede que transmitam suas saudações a ela antes de partir.*
-
-*(Fim da sessão das 12h do dia 19 de fevereiro)*
-
-**19 de fevereiro, início às 14h**
-**Aung San (organizou o movimento antijaponês, assassinado em 1947), Birmânia**
-
-**Aung San:** Agradeço pela permissão concedida. Meus gloriosos parabéns. O momento finalmente chegou, e graças a Vós, a primavera se aproxima.
-
-**Meishu-Sama:** Sofreste por um longo tempo. És um espírito justo, não? O palco glorioso finalmente se abriu para ti. Meishu-Sama sabia disso. De agora em diante, age com determinação. Haverá muitas dificuldades, mas guarda este sentimento de Meishu-Sama em teu coração e prossegue. Eu protegerei teus assuntos com especial atenção. Consta que foste assassinado, mas teu corpo existe. Conseguiste te ocultar com maestria. De agora em diante, conto firmemente contigo.
-
-**Aung San:** Servirei gloriosamente à Vossa Obra. Rogo por Vossa benevolência.
-
-**Thakin Than Tun (líder do Partido Comunista)**
-
-**Than Tun:** Meus parabéns por este dia.
-
-**Meishu-Sama:** Tentaram atentar contra tua vida. Fingias ser comunista, mas os espíritos da linhagem justa são muito visados. Agiste bravamente. Eu te protegerei, portanto, age com firmeza. Sê cuidadoso.
-
-**Than Tun:** Certamente cooperarei. Rogo por Vossa benevolência.
-
-**U Nu (atual Primeiro-Ministro da Birmânia)**
-
-**U Nu:** Meus parabéns por este dia.
-
-**Meishu-Sama:** Tu também atuaste com grande habilidade por muito tempo. Ocultaste-te bem como comunista. Agir contra os próprios sentimentos exige grande autocontrole. De agora em diante, Eu te protegerei. Dedica-te com afinco.
-
-**U Nu:** Sim. Certamente, certamente cumprirei a grande missão. Rogo por Vossa contínua proteção.
-
-**Thakin Soe (líder do Partido Comunista da Birmânia), Dragão Negro**
-
-**Thakin Soe:** Meus parabéns por este dia. Que imensa felicidade. Vim correndo ao Vosso encontro.
-
-**Meishu-Sama:** És um Dragão Negro?
-
-**Thakin Soe:** Sim, sou. Recebendo Vossa imensa proteção, certamente cumprirei o papel da destruição.
-
-**Meishu-Sama:** Se purificares o país, a primavera chegará à Birmânia. Em público, lutai, mas em privado, une as mãos com Aung San.
-
-**Thakin Soe:** Sim, cumprirei. Rogo por Vossa proteção.
-
-**Osmeña (ancião do Partido Nacionalista das Filipinas), Atuação da Água**
-
-**Osmeña:** Agradeço por esta grata notícia.
-
-**Meishu-Sama:** Foi um grande esforço. Passaste por muitas provações. As cortinas da grande peça teatral de Meishu-Sama para os três mil mundos estão prestes a se abrir. Conto firmemente com a cooperação da América. Embora sejas idoso, Eu te darei a força. Orienta os mais jovens.
-
-**Osmeña:** Sim. Rogo por Vossa contínua benevolência. Por favor, vede o interior do meu coração. Certamente, certamente orientarei os jovens.
-
-**Meishu-Sama:** Retorna novamente.
-
-**Osmeña:** Sim, muito obrigado.
-
-**Quirino (ex-Presidente das Filipinas), Atuação do Fogo**
-
-**Quirino:** Meishu-Sama, meus parabéns. Agradeço profunda e sinceramente por Vossa proteção diária.
-
-**Meishu-Sama:** Protegeste grandemente os japoneses durante a Segunda Guerra Mundial. Foi um grande esforço. Eu me regozijei.
-
-**Quirino:** Vossas palavras me são uma honra imerecida.
-
-**Meishu-Sama:** Protegeste bem os japoneses em prol da construção. De agora em diante, conto contigo. Coopera firmemente com a América.
-
-**Taruc (líder da força central da independência nacional antiamericana nas Filipinas), Atuação da Terra**
-
-**Taruc:** Muito obrigado por este dia.
-
-**Meishu-Sama:** Enfrentas provações diárias. Confiei uma grande missão à América. A trindade das Filipinas deve trabalhar com afinco. Teu papel é o da terra, não?
-
-**Taruc:** Sim. Rogo pela proteção da trindade do Japão. Meishu-Sama, rogo por Vossa contínua benevolência.
-
-**Roxas (terceiro Presidente das Filipinas, falecido em 1948)**
-
-**Roxas:** Meus parabéns por este dia.
-
-**Meishu-Sama:** Vieste do Mundo Espiritual? Conto firmemente contigo para a missão no plano espiritual. Protege com firmeza a trindade das Filipinas. Será uma tarefa árdua. Conto firmemente contigo.
-
-**Roxas:** Sim. Certamente cumprirei. Rogo que me concedais Vossa proteção.
-
-**Balgos (Secretário-Geral do Partido Comunista das Filipinas), Alma Feminina**
-
-**Balgos:** Muito obrigado por este dia.
-
-**Meishu-Sama:** És um espírito justo, não? Uma alma feminina. Disfarçaste-te de Dragão Vermelho comunista. De agora em diante, não precisas mais te disfarçar. Teu papel é administrativo, correto? Age com firmeza.
-
-**Balgos:** Sim. Rogo por Vossa contínua benevolência.
-
-**Ganapathy (Presidente da Federação Geral do Trabalho da Malásia, executado em 1949)**
-
-**Ganapathy:** Agradeço por ter sido convidado.
-
-**Meishu-Sama:** Consta que foste executado, mas como está, tens um corpo?
-
-**Ganapathy:** Sim, tenho.
-
-**Meishu-Sama:** Tu também te disfarçaste? Conseguiste te ocultar com maestria. Suportaste o sofrimento e te escondeste bem. Sem ti, a primavera não chegará à Malásia. Conto firmemente contigo.
-
-**Ganapathy:** Ah, de agora em diante, cumprirei com firmeza esta missão. Com licença.
-
-**Tan Kah Kee (grande comerciante chinês do Sudeste Asiático, revolucionário chinês no exterior)**
-
-**Tan:** Muito obrigado por este dia. Meus sinceros parabéns.
-
-**Meishu-Sama:** Enfrentas provações diárias. És um espírito justo, mas te disfarçaste de Dragão Vermelho? Uma alma feminina, não? Foi um grande esforço.
-
-**Tan:** Sim. A partir de agora, poderei servir gloriosamente à Vossa Obra.
-
-**Meishu-Sama:** Abandona as vestes do Dragão Vermelho. Do contrário, não poderás cumprir tua missão. Retorna à tua essência de espírito justo e trabalha!
-
-**Tan:** Sim. A partir de hoje, as despojei. Rogo por Vossa contínua benevolência.
-
-**Pibun (atual Primeiro-Ministro da Tailândia)**
-
-**Pibun:** Sou Pibun. Meishu-Sama, meus gloriosos parabéns. Como esperei pela chegada deste dia! Certamente agirei em prol da Tailândia.
-
-**Meishu-Sama:** Sofreste por um longo tempo. Concede logo a primavera à Tailândia, para que cessem os conflitos. O povo sofreu muito.
-
-**Pibun:** Ah, certamente, certamente servirei à Vossa Obra. Rogo por Vossa contínua benevolência.
-
-**Pridi (foi Ministro das Relações Exteriores e do Tesouro antes da guerra; durante a guerra, liderou o "Movimento Tailândia Livre")**
-
-**Pridi:** Agradeço por este convite auspicioso.
-
-**Meishu-Sama:** É um sofrimento ter uma missão em um lugar tão encoberto por nuvens. Ajuda Pibun e age com firmeza. Confio-te o papel de Ministro do Tesouro, o papel dos tesouros.
-
-**Pridi:** Ah, recebendo Vossas gratas palavras, certamente cumprirei. Rogo que me concedais Vossa proteção.
-
-**Abdullah (Rei da Jordânia, assassinado)**
-
-**Abdullah:** Agradeço por ter sido convidado.
-
-**Meishu-Sama:** És um rei. A região árabe também sofre muito.
-
-**Abdullah:** Sim. Foi por causa da Era da Noite.
-
-**Meishu-Sama:** A luz finalmente surgiu no Oriente. Dedica-te à tua missão com tranquilidade. Conto firmemente contigo. Cumpre com firmeza o papel de salvar a nação árabe no Mundo Espiritual.
-
-**Abdullah:** Sim, cumprirei. Rogo por Vossa imensa proteção.
-
-**Ibn Saud (Rei da Arábia Saudita), pró-americano**
-
-**Meishu-Sama:** És o Rei da Arábia?
-
-**Ibn Saud:** Sim. Meus parabéns. Chegou o momento em que poderei servir gloriosamente à Vossa Obra. Rogo por uma proteção ainda mais intensa de agora em diante.
-
-**Meishu-Sama:** Sofreste por um longo tempo. De agora em diante, age com firmeza.
-
-**Nahas Pasha (ex-Primeiro-Ministro do Egito, político veterano)**
-
-**Nahas:** Agradeço por ter sido convidado. Meus parabéns. Gloriosamente, poderei servir.
-
-**Meishu-Sama:** Sofreste muito. Estás bastante idoso, mas como está teu corpo?
-
-**Nahas:** Sim, sou idoso, mas meu espírito está firme. Rogo que me utilizeis em Vossa Obra.
-
-**Meishu-Sama:** O "s" de Nahas se conecta com o "s" de Shushin (Deus Supremo). Sê o centro e age. Age com firmeza.
-
-**Nahas:** Muito obrigado. Rogo por Vossa proteção.
-
-**Farouk (ex-Rei do Egito)**
-
-**Farouk:** Meus parabéns por esta ocasião.
-
-**Meishu-Sama:** Dissimulaste tua indolência para despistar. Entregue às mulheres, enganaste bem os olhares alheios. Conto firmemente contigo. Cumpre esta grande missão com presteza. De agora em diante, não precisas mais fingir indolência. Não há necessidade de te esconderes.
-
-**Farouk:** Sim, compreendi. Na Era da Noite, era preciso agir assim para não ser assassinado. Reformarei minha conduta passada e avançarei. Por hoje, despeço-me. Rogo por Vossa benevolência.
-
-**Husseini (Grande Mufti de Jerusalém, xenófobo)**
-
-**Husseini:** Agradeço pelo convite. Sou um espírito justo, mas tenho cumprido a missão da destruição.
-
-**Meishu-Sama:** Tua verdadeira missão é a construção. Como o dia raiou, deves mudar teu rumo. Tens um sonho, e esse é o teu verdadeiro propósito. Coopera com a América.
-
-**Husseini:** É mesmo? Então, de agora em diante, passarei a servir à construção. Certamente reformarei minha conduta e cooperarei. Rogo por Vossa benevolência.
-
-**Naguib (atual Primeiro-Ministro do Egito, militar)**
-
-**Naguib:** Agradeço por Vossa constante e imensa proteção.
-
-**Meishu-Sama:** Conto firmemente contigo para esta missão.
-
-**Naguib:** Que imensa felicidade. Certamente agiremos em cooperação e união. Cooperaremos com a América. Rogo por Vossa contínua proteção.
-
-**Spaak (ex-Primeiro-Ministro da Bélgica)**
-
-**Spaak:** Agradeço profunda e sinceramente por este convite auspicioso.
-
-**Meishu-Sama:** A ti também confiarei uma grande missão na batalha decisiva do mundo. O "s" de Spaak é o "s" de Shushin. É o papel do "s" da Bélgica. Chegou o momento de colheres os frutos de teus sofrimentos passados. Conto firmemente contigo.
-
-**Spaak:** Muito obrigado (chora comovido). Rogo por Vossa contínua proteção.
-
-**Aranha (político brasileiro)**
-
-**Aranha:** Agradeço por ter sido convidado. Agradeço por ter confiado uma grande missão à América.
-
-**Meishu-Sama:** És do Brasil? Enfrentas provações diárias. Para que a primavera chegue também ao Brasil, desejo expandir a linha de nossa fé. Que dizes, cooperarás? O tio do Sol, Otohira Kusakabe, também está no Brasil. Sua missão é transmitir o evangelho da Sekaikyuseikyou. Até lá, encarrega-te da purificação.
-
-**Aranha:** Sim, aceito. Certamente cooperarei. Rogo por Vossa contínua proteção.
-
-**Evatt (político australiano)**
-
-**Evatt:** Agradeço profunda e sinceramente por este convite auspicioso. Chegou o momento em que poderei servir gloriosamente à Vossa Obra. Sinto-me imensamente feliz.
-
-**Meishu-Sama:** Tu também enfrentas provações diárias. Cumpre a missão de salvar a Austrália.
-
-**Evatt:** Recebendo Vossas gratas palavras, tomo coragem e certamente cumprirei a grande missão. Rogo por Vossa imensa proteção.
-
-**Meishu-Sama:** Eu te protegerei. Avança com determinação.
-
-**Evatt:** Ah, com licença.
-
-**Romulo (ex-Ministro das Relações Exteriores das Filipinas)**
-
-**Romulo:** Muito obrigado por este dia. Meus gloriosos parabéns. O momento pelo qual tanto esperei chegou, e cumprirei com firmeza.
-
-**Meishu-Sama:** Enfrentas provações diárias. Ajuda Quirino.
-
-**Romulo:** Ah, rogo por Vossa contínua proteção. Como estou com pressa, despeço-me.
-
-**Nervo (representante permanente do México na ONU)**
-
-**Nervo:** Meishu-Sama, meus gloriosos parabéns. Agradeço por me confiar esta grande missão.
-
-**Meishu-Sama:** Enfrentas provações diárias. A ONU é bastante complexa. Teu papel é o de proclamar a Verdade com a força de um leão. Com tua grande coragem, conto firmemente contigo.
-
-**Nervo:** Agradeço por terdes percebido esta minha coragem. Agirei com a determinação de engolir o mundo. Rogo por uma proteção ainda maior. Com licença.
-
-**Entezam (político iraniano)**
-
-**Entezam:** Agradeço profunda e sinceramente por este convite auspicioso.
-
-**Meishu-Sama:** Enfrentas provações diárias. Lidas bem com um país tão complexo.
-
-**Entezam:** Ah, recebendo Vossas gratas palavras, sinto-me feliz. Chegou o momento de servir gloriosamente à Vossa Obra. Rogo por Vossa proteção para que eu possa cumprir esta grande missão.
-
-**Lie (Secretário-Geral das Nações Unidas)**
-
-**Lie:** Meus gloriosos parabéns por este dia.
-
-**Meishu-Sama:** Enfrentas provações diárias. Teu papel também é muito difícil. De agora em diante, conto firmemente contigo. Conto firmemente com teu papel de apoio. Cooperaste com o movimento pela paz na Coreia, mas isso não é mais necessário. De agora em diante, trabalha conforme a Vontade de Deus!
-
-**Lie:** Sim. Certamente cumprirei esta grande missão. Usai-me conforme a Vossa Vontade. Como estou com pressa, despeço-me.
-
-**Oppenheimer (físico atômico americano)**
-
-**Oppenheimer:** Vim em resposta ao Vosso convite. Meus parabéns.
-
-**Meishu-Sama:** Como vai a produção?
-
-**Oppenheimer:** Tem avançado bastante. Com os preparativos concluídos, a capacidade de produção aumentou consideravelmente.
-
-**Meishu-Sama:** Há muitos espiões, não? Isso também é necessário. Seria ideal se a purificação pudesse ser realizada sem o uso da energia atômica.
-
-**Oppenheimer:** Não, isto também foi criado por Deus.
-
-**Meishu-Sama:** Sim, é verdade. De agora em diante, trabalha conforme Minhas comunicações.
-
-**Oppenheimer:** Sim, compreendido.
-
-**Baruch (ex-representante dos EUA na Comissão de Energia Atômica da ONU)**
-
-**Baruch:** Vim em resposta ao Vosso convite.
-
-**Meishu-Sama:** Dedicas grande esforço à energia atômica.
-
-**Baruch:** Isto é um pano para limpar a sujeira. Estamos a fabricar as ferramentas para a grande purificação.
-
-**Meishu-Sama:** Não deve ser usado além do necessário. Conto contigo para a sua gestão.
-
-**Baruch:** Sim, compreendido. Rogo por Vossa contínua benevolência. Com licença.
-
-**Lilienthal (ex-presidente da Comissão de Controle de Energia Atômica dos EUA)**
-
-**Meishu-Sama:** Sofreste por um longo tempo. O momento finalmente chegou. Tu também te apresentarás? Esperaste com grande paciência até a hora certa. Agradeço por essa missão. Não é mais necessário esperar. Conto contigo. Não uses além do necessário. Esta não é uma arma para aniquilar a humanidade. É apenas para a purificação. Conto contigo.
-
-**Lilienthal:** Sim, compreendi. Certamente me apresentarei. Rogo por Vossa contínua proteção.
-
-**Fuchs (físico atômico britânico)**
-
-**Fuchs:** Agradeço pelo convite e vim ao Vosso encontro.
-
-**Meishu-Sama:** Estás a cumprir pena atualmente? Tua missão foi muito árdua. Este papel também foi necessário. Sofreste muito. Suportaste com bravura. Não te rebeles e preserva tua vida. Quando o momento chegar, haverá uma missão para ti. Está se aproximando. Não te mostres indolente nem provoques a ira dos outros. Tua vida corre perigo. Sê paciente e obedece às ordens.
-
-**Fuchs:** Recebo com gratidão Vossas palavras. Esta é a imensa proteção que me foi concedida. Rogo por Vossa contínua benevolência.
-
-**Blackett (físico britânico)**
-
-**Meishu-Sama:** Tu também agiste com prudência até a chegada do momento. Enfrentaste oposição e sofrimento.
-
-**Blackett:** Recebendo Vossas gratas palavras, sinto-me feliz.
-
-**Meishu-Sama:** Chegou o momento em que talvez seja necessário usar a energia atômica. Não gostaria de usá-la, mas sem ela, a purificação não ocorrerá rapidamente.
-
-**Blackett:** Sim. Compreendo Vossos sentimentos.
-
-**Meishu-Sama:** Para salvar o todo, por vezes é preciso sacrificar a parte. Cumpre com firmeza tua missão futura.
-
-**Blackett:** Recebendo Vossas muitas e gratas palavras, dedicarei-me ainda mais de agora em diante.
-
-Este é o relatório que apresento. Havia partes referentes a Israel e Coreia, mas peço sinceras desculpas pelo atraso, pois não foi possível transcrevê-las a tempo. Apresentá-las-ei no próximo relatório. Agradecendo profundamente por Vossa proteção diária, encerro este relatório.
-
-*Saniwa: Nobuko Kusakabe*
-*Médium: Shigeru Mima*
-
----
-
-# Os Recursos Humanos e a Medicina Moderna
-
-**Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
-**Título Original:** 人的資源と現代医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
-
-## Os Recursos Humanos e a Medicina Moderna
-
-Indiscutivelmente, o objetivo primordial do Japão neste momento histórico de suma importância é a plena consecução da Esfera de Coprosperidade da Grande Ásia Oriental. Para alcançar tal desígnio, o elemento mais crucial é, sem dúvida, a questão dos recursos humanos. É precisamente por essa razão que as autoridades governamentais têm implementado diversas políticas de incentivo à natalidade. Todavia, ao analisarmos a situação com maior profundidade, deparamo-nos com outra realidade.
-
-Um recém-nascido só se tornará efetivamente produtivo após o transcurso de, no mínimo, duas décadas. Nesse sentido, os recursos humanos de que necessitamos com urgência são, impreterivelmente, os jovens e adultos que já se encontram em plena atividade em seus respectivos campos de trabalho. A recente decisão do governo de estabelecer o registro nacional para homens entre dezesseis e quarenta anos e para mulheres entre dezenove e vinte e cinco anos demonstra, portanto, o acerto dessa visão.
-
-Diante disso, o método mais célere e eficaz para fortalecer nossos recursos humanos seria, sem sombra de dúvida, erradicar as enfermidades. Contudo, basta observar os diversos estratos da sociedade atual para constatar um fato alarmante: o número de doentes atingiu um patamar talvez sem precedentes. Quantos indivíduos, em toda a nação japonesa, desfrutam de uma saúde verdadeiramente plena? A simples reflexão sobre essa pergunta já nos enche de profunda apreensão. As diversas estatísticas que apresentei anteriormente devem ter sido suficientes para que o leitor compreenda a gravidade deste cenário.
-
-Conforme já expliquei detalhadamente, a medicina contemporânea é, em sua essência, uma medicina que produz doentes; por meio de seus tratamentos, transforma enfermidades leves em quadros graves, conduzindo o paciente, por fim, à morte. No que tange à tuberculose, cuja incidência se encontra em franca ascensão, a medicina preconiza o repouso absoluto. Conquanto a renúncia temporária ao trabalho fosse justificável se tal método levasse à cura completa, a realidade é que a vasta maioria dos pacientes, após longos períodos de inatividade, acaba por perder a vida. O prejuízo para a nação é, de fato, incalculável. Ademais, se calcularmos minuciosamente os recursos envolvidos no cuidado desses pacientes — o pessoal de enfermagem, os medicamentos e equipamentos, bem como a mão de obra e os materiais para produzi-los —, chegaremos a cifras que superam a mais vasta imaginação.
-
-Há ainda outro fator nefasto a ser considerado: o diagnóstico precoce. Como explanei anteriormente, a maioria dos casos de tuberculose em estágio inicial se curaria de forma natural se não houvesse intervenção. No entanto, uma vez que o diagnóstico precoce revela os sintomas iniciais, o paciente é compulsoriamente submetido a tratamentos e ao isolamento. Ao receber a notícia ou mesmo a sugestão de que sofre de tuberculose, o paciente sofre um abalo espiritual devastador, pois mergulha em um sentimento de desesperança diante do que considera uma doença incurável. Isso lhe suprime o ânimo e reduz o apetite, provocando um rápido enfraquecimento. Somando-se a isso a intoxicação medicamentosa e outros métodos que agravam a enfermidade, o declínio do corpo e do espírito torna-se uma conclusão inevitável.
-
-Os fatos supracitados são de conhecimento comum e podem ser observados e ouvidos por qualquer pessoa em nosso cotidiano. Não se trata, de minha parte, de qualquer exagero; busco apenas descrever a realidade tal como ela se apresenta. Por isso, creio que tanto médicos quanto pacientes, ao lerem estas linhas, hão de reconhecer a veracidade contida nestas palavras.
-
-Diante do exposto, declaro, sem hesitação, que a maior barreira ao desenvolvimento dos recursos humanos é a própria medicina. Enquanto não despertarmos para essa verdade, o número de doentes continuará a crescer e, por mais que o governo se esforce em elaborar contramedidas, será lamentavelmente impossível solucionar a carência de pessoal. Pior ainda, quanto maior a dependência da medicina, mais nefastos serão os resultados. O futuro que se descortina é, pois, desolador.
-
-É com o coração angustiado que, dia e noite, me pergunto como poderei fazer nosso povo despertar para esta gravíssima realidade o mais rápido possível.
-
-Atualmente, com o intuito de suprir a carência de mão de obra, o governo promove a reestruturação e fusão de pequenos e médios empreendimentos comerciais e industriais, remanejando-os para setores prioritários. Contudo, observa-se uma prática paradoxal: por meio de programas de controle de saúde e diagnóstico precoce, identificam-se principalmente os casos iniciais de tuberculose, submetendo esses indivíduos ao repouso ou ao isolamento. Qual o resultado de tais ações? Por um lado, liberam-se recursos humanos; por outro, eles são eliminados. Esta abordagem assemelha-se a tentar encher de água uma peneira.
-
-Ademais, quando um indivíduo habituado a trabalhos leves é transferido para uma atividade laboral extenuante, como a de operário fabril, é natural que ocorra uma intensa purificação em seu organismo. Consequentemente, surgem sintomas como febre baixa, tosse e fadiga, que são prontamente diagnosticados como tuberculose, o que agrava ainda mais a escassez de mão de obra. Como a quantidade de trabalhadores que podem ser obtidos por meio da reestruturação industrial é finita, quem poderá negar que se aproxima o dia em que seremos assolados por uma drástica escassez de recursos humanos?
-
-Imaginemos, por um momento, o que aconteceria se o governo adotasse a arte médica por mim concebida e a implementasse em toda a nação. Os doentes diminuiriam dia após dia. A maioria dos enfermos se curaria enquanto continuava a trabalhar. A tuberculose, em particular, seria drasticamente reduzida, e o temor do contágio seria erradicado. As enfermidades contagiosas, por sua vez, também diminuiriam, e o número de óbitos por essas causas se tornaria insignificante. Assim, o pavor dos germes patogênicos deixaria de existir, pois as pessoas se tornariam tão saudáveis que a invasão de um micro-organismo não seria capaz de desencadear uma doença. A maior parte das moléstias seria curada em menos de uma semana, e o ser humano estaria, enfim, livre da ansiedade causada pelas doenças. Dietas especiais e métodos de saúde artificiais se tornariam obsoletos. A longevidade humana aumentaria ano após ano. E, se é verdade que em um corpo sadio habita um espírito sadio, é certo que o pensamento do povo se tornaria igualmente saudável, em proporção à saúde de seus corpos. E se a maior causa da infelicidade é a doença, torna-se evidente que a própria infelicidade, a pobreza e os conflitos também seriam drasticamente reduzidos.
-
----
-
-# A Verdadeira Arte Médica
-
-**Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-**Título Original:** 浄霊で何でも治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
-
-## A Verdadeira Arte Médica
-
-O caso deste paciente, a nosso ver, tratava-se de uma enfermidade ocular extremamente simples. Contudo, a medicina, alegando causa desconhecida, mostrava-se incapaz de curá-la, o que evidencia sua completa impotência.
-
-Entretanto, ao ministrarmos Johrei, não apenas a enfermidade ocular foi sanada, como também todas as demais doenças de que padecia. Por conseguinte, o Johrei constitui a autêntica arte médica, não havendo outra designação para a medicina moderna senão a de “não medicina”.
-
-A razão fundamental para tal disparidade reside no fato de a medicina ser material, ao passo que nosso método é espiritual — são, portanto, opostos. Em outras palavras, em toda a Criação, o espírito é o principal e a matéria, o secundário. Esta é a Verdade.
-
-Os próprios fatos atestam essa realidade, não deixando, assim, margem para qualquer dúvida.
-
----
-
-# Cardiopatias e Hipertensão Arterial
-
-**Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
-**Título Original:** 心臓病及び高血圧 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
-
-## Cardiopatias e Hipertensão Arterial
-
-Na medicina, as cardiopatias são classificadas, em linhas gerais, em angina pectoris, valvulopatia e hipertrofia cardíaca, entre outras.
-
-A angina pectoris manifesta-se de forma súbita e paroxística, com uma dor lancinante e uma sensação de compressão em toda a região torácica, acompanhadas de dificuldade respiratória aguda. O sofrimento que ela impõe é verdadeiramente indescritível, o que a torna uma doença deveras temível. Em casos graves, um único episódio de angina pode ceifar a vida do enfermo, embora, na maioria das vezes, o paciente se recupere temporariamente. A causa subjacente reside nas toxinas estagnadas ao redor do coração, as quais, em virtude do primeiro processo de purificação, são pressionadas centripetamente contra o órgão. A cura natural para tal condição é difícil, e os tratamentos médicos, como as injeções, proporcionam apenas um alívio momentâneo. Contudo, por meio de nosso método terapêutico, a enfermidade pode ser erradicada com facilidade.
-
-Quanto à valvulopatia, em seus quadros mais graves, a causa é idêntica à da angina pectoris. A diferença reside no fato de o primeiro processo de purificação ser mais lento, o que evita dores tão intensas. Assim, os sintomas predominantes são palpitações, pulso irregular e uma leve dificuldade respiratória. Já nos casos leves, o problema se origina em toxinas solidificadas nas regiões das costelas, tanto na parte anterior quanto posterior próximas ao coração, ou ao redor do diafragma. A febre baixa, decorrente do processo de purificação dessas toxinas, acaba por superestimular o coração.
-
-Ademais, a hipertrofia cardíaca, embora possa ocorrer em raras ocasiões, é, na vasta maioria dos casos, um diagnóstico equivocado por parte dos médicos. O que provavelmente ocorre é que eles confundem uma massa de toxinas solidificadas nas proximidades do coração com um aumento do próprio órgão. A verdadeira hipertrofia cardíaca acomete apenas pessoas que consomem álcool em excesso ou atletas, sendo praticamente inexistente em indivíduos comuns. Esse acúmulo de toxinas é naturalmente purificado, transformando-se em escarro que, ao ser expelido, resulta na cura.
-
-Passando à hipertensão arterial, observamos que, recentemente, seus sintomas se tornaram frequentes em pessoas após a meia-idade. Acredita-se que os hipertensos sejam mais propensos à hemorragia cerebral, mas essa correlação não é tão direta quanto a medicina afirma. Não se trata de uma certeza absoluta, embora seja um fato estatístico que a incidência é maior entre os hipertensos do que entre aqueles com pressão baixa.
-
-Nesse sentido, a causa da hemorragia cerebral, conforme expliquei anteriormente, reside na solidificação de toxinas nas regiões cervicais (próximo às glândulas parótidas) e nas proximidades do bulbo raquidiano. Todavia, a origem da hipertensão arterial é distinta e se localiza em outro ponto. Ela decorre da solidificação de toxinas em uma área um pouco mais à frente no pescoço, imediatamente abaixo das amígdalas. Essa massa comprime a artéria, e como tal artéria se conecta ao braço, registra-se uma leitura elevada no esfigmomanômetro.
-
-Para comprovar esta tese, apresentarei um caso bastante elucidativo. Anos atrás, um senhor de aproximadamente sessenta anos, com pressão arterial de trezentos, veio procurar-me. Ele relatou: "Minha pressão talvez seja superior a trezentos. Digo isso porque o aparelho medidor chega ao seu limite máximo de trezentos, e toda vez que a meço, o ponteiro atinge esse valor imediatamente". Apesar de um quadro de hipertensão tão acentuado, ele continuava a trabalhar diariamente em sua empresa há cinco ou seis anos, desde a descoberta da condição, sem apresentar qualquer anormalidade. Este fato demonstra vividamente que os focos causadores da hemorragia cerebral e da hipertensão arterial são distintos. Vale notar que aquele homem havia sido copista por trinta anos, o que levou a uma notável espessura da referida artéria; a causa era, indubitavelmente, o enrijecimento muscular decorrente de sua profissão.
 
 ---
 

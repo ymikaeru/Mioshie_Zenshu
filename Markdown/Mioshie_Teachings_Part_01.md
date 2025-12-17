@@ -4,6 +4,7 @@
 
 **Categoria:** se | **Ano:** - | **Fonte:** 政治は正義
 **Título Original:** 政治は正義 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Justiça como Alicerce da Política
 
@@ -25,6 +26,7 @@ A este respeito, afirmo, categoricamente, que o único meio de cultivar tal sens
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 西洋医学の野蛮性 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Barbárie da Medicina Ocidental
 
@@ -58,6 +60,7 @@ Ao analisar este fato, a inferioridade e a índole bárbara dos diagnósticos m�
 
 **Categoria:** se | **Ano:** 昭和27(1952)年6月4日 | **Fonte:** Eikou
 **Título Original:** 世界的迷信としての現代医学 | **Status:** Published | **Edição/Página:** 159号 | **Data ISO:** 1952-06-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Superstição Mundial da Medicina Moderna
 
@@ -81,6 +84,7 @@ Contudo, estamos a tratar de uma questão de suma importância, que diz respeito
 
 **Categoria:** se | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 精神病 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Verdadeira Causa das Enfermidades Mentais
 
@@ -120,6 +124,7 @@ Aqueles que promovem toda sorte de "ismos" e se comportam de maneira excêntrica
 
 **Categoria:** se | **Ano:** 昭和10(1935)年2月4日 | **Fonte:** Hikari明世界
 **Título Original:** 千手観音の霊写真に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## Sobre a Fotografia Espiritual da Kannon de Mil Braços
 
@@ -145,6 +150,7 @@ Por fim, ao refletirmos sobre o nome do fotógrafo, Higashi Mitsuo — cujo nome
 
 **Categoria:** se | **Ano:** 昭和25(1950)年4月15日 | **Fonte:** Kyusei
 **Título Original:** 絶対的健康診断 | **Status:** Published | **Edição/Página:** 58号 | **Data ISO:** 1950-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Diagnóstico Absoluto da Saúde
 
@@ -164,6 +170,7 @@ Não é algo verdadeiramente maravilhoso?
 
 **Categoria:** se | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 精神病も此通り治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura da Doença Mental
 
@@ -185,6 +192,7 @@ Isso nos leva a crer que a jornada para concretizar meu ideal de um Japão isent
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 喘息 ・病患と医学の誤謬五 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## O Equívoco Médico sobre a Asma
 
@@ -230,6 +238,7 @@ Existe também a asma infantil, que será abordada em detalhes no capítulo sobr
 
 **Categoria:** se | **Ano:** 昭和11(1936)年 | **Fonte:** 西洋医学の大革命
 **Título Original:** 西洋医学の大革命 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Cura da Apendicite sem Cirurgia
 
@@ -247,6 +256,7 @@ Diante da comparação com essa realidade, sob nossa ótica, é impossível não
 
 **Categoria:** se | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
 **Título Original:** 専門家よこの事実を何と見るか | **Status:** Published | **Edição/Página:** 195号 | **Data ISO:** 1953-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Especialistas, que dizeis diante deste fato?
 
@@ -285,6 +295,7 @@ Meishu-Sama, muito, muito obrigada. Em breve, receberei os sagrados ensinamentos
 
 **Categoria:** se | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 精神病でも此通り治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura das Enfermidades Mentais
 
@@ -304,6 +315,7 @@ Os instigadores da guerra, assim como todos os criminosos, independentemente da 
 
 **Categoria:** se | **Ano:** 昭和20(1945)年 | **Fonte:** 世界の予言書
 **Título Original:** 世界の予言書 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1945
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Razão do Advento desta Arte Médica
 
@@ -321,6 +333,7 @@ Desde os tempos mais remotos, tudo se move segundo um propósito. Há uma causa 
 
 **Categoria:** se | **Ano:** 昭和28(1953)年10月7日 | **Fonte:** Eikou
 **Título Original:** 戦争よりも恐ろしい結核 | **Status:** Published | **Edição/Página:** 229号 | **Data ISO:** 1953-10-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Tuberculose, Mais Terrível que a Guerra
 
@@ -371,6 +384,7 @@ Muito obrigada, Meishu-Sama. Com estas palavras, encerro meu relato de agradecim
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 世界の大転換 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Grande Transição do Mundo
 
@@ -396,6 +410,7 @@ Nesse contexto, considero que o primeiro passo dessa alvorada foi o Incidente da
 
 **Categoria:** se | **Ano:** 昭和26(1951)年4月25日 | **Fonte:** Eikou
 **Título Original:** 戦争製造業者の頭脳 | **Status:** Published | **Edição/Página:** 101号 | **Data ISO:** 1951-04-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Mente dos Promotores da Guerra
 
@@ -417,6 +432,7 @@ Nesse sentido, as atividades de diversos grupos pacifistas e organizações reli
 
 **Categoria:** se | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 精神病及び癲癇 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## As Enfermidades Mentais e a Epilepsia
 
@@ -430,6 +446,7 @@ Contudo, observa-se na atualidade a tentativa de alguns médicos de curar a epil
 
 **Categoria:** se | **Ano:** 昭和10(1935)年2月23日 | **Fonte:** Toho no Hikari
 **Título Original:** 善言讃詞 | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1935-02-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## Louvor em Belas Palavras
 
@@ -453,6 +470,7 @@ Envolvidos pelo Coração de Kannon
 
 **Categoria:** se | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
 **Título Original:** 世界救世教の誕生に就て 開教の辞 | **Status:** Published | **Edição/Página:** 48号 | **Data ISO:** 1950-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Advento da Igreja Messiânica Mundial
 
@@ -480,6 +498,7 @@ Ah, que tempos venturosos se iniciam
 
 **Categoria:** se | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 善を楽しむ | **Status:** Published | **Edição/Página:** P.13 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## O Prazer de Praticar o Bem
 
@@ -507,6 +526,7 @@ Esbocei, nas linhas acima, os dois caminhos que se apresentam ao homem: o do pra
 
 **Categoria:** se | **Ano:** 昭和11(1936)年1月25日 | **Fonte:** Hikari明世界
 **Título Original:** 西洋医学の大誤謬（一） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1936-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## O Grande Equívoco da Medicina Ocidental (I)
 
@@ -562,6 +582,7 @@ Apesar do que exponho, tenho conhecimento de que, entre os profissionais da medi
 
 **Categoria:** se | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 喘息 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Verdadeira Natureza da Asma
 
@@ -581,6 +602,7 @@ Já a asma brônquica é causada pela aspiração de um escarro denso, provocada
 
 **Categoria:** se | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 精神病の原因 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Causa da Doença Mental
 
@@ -596,6 +618,7 @@ O fato de determinado paciente [detalhes omitidos] ter apresentado uma diarreia 
 
 **Categoria:** se | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 精神病 | **Status:** Published | **Edição/Página:** P.55 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Anemia Cerebral e a Possessão Espiritual
 
@@ -623,6 +646,7 @@ A crescente incidência de doenças mentais nos Estados Unidos em tempos recente
 
 **Categoria:** se | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
 **Título Original:** 世界的名所としての瑞雲郷 | **Status:** Published | **Edição/Página:** 49号 | **Data ISO:** 1950-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Zuiun-kyo, um Ponto de Referência Mundial
 
@@ -650,6 +674,7 @@ Foi nesse lugar que, sucessivamente, adquiri mais de sessenta e seis mil metros 
 
 **Categoria:** se | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 西洋医学の野蛮性 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Barbárie da Medicina Ocidental
 
@@ -685,6 +710,7 @@ Ao analisar este fato, a inferioridade e a barbárie dos diagnósticos médicos 
 
 **Categoria:** se | **Ano:** 昭和28(1953)年12月23日 | **Fonte:** Eikou
 **Título Original:** 正義感 | **Status:** Published | **Edição/Página:** 240号 | **Data ISO:** 1953-12-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Essência do Senso de Justiça
 
@@ -718,6 +744,7 @@ No que tange à nossa Sekaikyuseikyou, como bem sabem os membros, nosso lema é 
 
 **Categoria:** se | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 喘息 | **Status:** Published | **Edição/Página:** P.117 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Verdadeira Natureza dos Ataques de Asma
 
@@ -733,6 +760,7 @@ Os ataques de asma são, em verdade, extremamente aflitivos, e o paciente sente-
 
 **Categoria:** se | **Ano:** 昭和27(1952)年8月6日 | **Fonte:** Eikou
 **Título Original:** 赤痢菌 医学断片集（18） | **Status:** Published | **Edição/Página:** 168号 | **Data ISO:** 1952-08-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ilusão do Contágio na Disenteria
 
@@ -748,6 +776,7 @@ Passo, então, a revelar a verdade sobre esta questão. É fato que a bactéria 
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 正邪の戦 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Batalha entre o Bem e o Mal
 
@@ -779,6 +808,7 @@ Estes três exemplos bastam para que se compreenda quão temível pode ser a int
 
 **Categoria:** se | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
 **Título Original:** 五、西洋医学の誤謬と日本医学の建設 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 日本医術講義録
 
 ## A Essência da Cura e o Equívoco da Medicina Ocidental
 
@@ -802,6 +832,7 @@ Eu, que pude compreender esta verdade por meio das revelações espirituais de K
 
 **Categoria:** se | **Ano:** 昭和28(1953)年10月30日 | **Fonte:** 世界Kyusei教奇蹟集
 **Título Original:** - | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-10-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教奇蹟集
 
 ## A Superação da Ciência pelo Milagre
 
@@ -827,6 +858,7 @@ Com base no exposto, compreende-se que os preparativos de Deus para a chegada do
 
 **Categoria:** se | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
 **Título Original:** 世界救世教教義 | **Status:** Published | **Edição/Página:** 53号 | **Data ISO:** 1950-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Plano Divino para a Salvação da Humanidade
 
@@ -840,6 +872,7 @@ Nos dias atuais, a conjuntura mundial revela-se caótica e de rumo incerto. Dian
 
 **Categoria:** se | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 精神病 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.65 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## As Raízes Espirituais dos Distúrbios Psíquicos
 
@@ -861,6 +894,7 @@ Intrigado, perguntei: "Isso é impossível. Diga-me, quando ouviu essa ordem, vo
 
 **Categoria:** se | **Ano:** 昭和10(1935)年2月23日 | **Fonte:** Toho no Hikari
 **Título Original:** 全人類待望の炬光 大聖観音力の顕現 併而（あわせて）仏説の開扉 | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1935-02-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## A Manifestação do Poder de Kannon e a Alvorada do Mundo de Luz
 
@@ -890,6 +924,7 @@ Se todas essas profecias não se concretizassem, que crédito poderíamos dar à
 
 **Categoria:** se | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 生産増加の根本条件 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## As Condições Fundamentais para o Aumento da Produção
 
@@ -917,6 +952,7 @@ O grau em que essas diversas políticas médicas equivocadas obstruem o potencia
 
 **Categoria:** se | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 精神病及び癲癇 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Natureza Espiritual da Doença Mental e da Epilepsia
 
@@ -932,6 +968,7 @@ Portanto, embora eu venha a detalhar esta questão no capítulo referente às do
 
 **Categoria:** se | **Ano:** 昭和25(1950)年3月18日 | **Fonte:** Kyusei
 **Título Original:** 善悪の戦い | **Status:** Published | **Edição/Página:** 54号 | **Data ISO:** 1950-03-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Batalha entre o Bem e o Mal
 
@@ -957,6 +994,7 @@ Todavia, o imenso Amor de Deus anseia por salvar o maior número possível de se
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 生気説 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## Uma Análise Histórica da Energia Vital
 
@@ -1032,6 +1070,7 @@ O espantoso progresso das ciências naturais no século XIX levou à construçã
 
 **Categoria:** se | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
 **Título Original:** 精神変質症 自観叢書第3編 | **Status:** Published | **Edição/Página:** P.49 | **Data ISO:** 1949-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 霊界叢談
 
 ## Um Singular Caso de Perturbação Espiritual
 
@@ -1061,6 +1100,7 @@ Recentemente, este homem se recuperou por completo e veio à minha casa para exp
 
 **Categoria:** se | **Ano:** 昭和25(1950)年3月18日 | **Fonte:** Kyusei
 **Título Original:** 善人の成功者 | **Status:** Published | **Edição/Página:** 54号 | **Data ISO:** 1950-03-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Sucesso das Pessoas de Bem
 
@@ -1084,6 +1124,7 @@ O que expus até aqui revela a verdadeira razão pela qual nossa Igreja é alvo 
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 生産増加の根本条件 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Condição Fundamental para o Aumento da Produção
 
@@ -1107,6 +1148,7 @@ Há ainda outra questão de suma importância. A medicina atribui ao esgotamento
 
 **Categoria:** se | **Ano:** 昭和25(1950)年8月30日 | **Fonte:** Eikou
 **Título Original:** 世界はどうなる | **Status:** Published | **Edição/Página:** 67号 | **Data ISO:** 1950-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Conflito Mundial e o Batismo de Fogo
 
@@ -1126,6 +1168,7 @@ Dessa forma, todas as impurezas existentes sobre a Terra serão erradicadas. E o
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 精神病 ・病気と霊二 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Verdadeira Causa das Doenças Mentais
 
@@ -1163,6 +1206,7 @@ Diante do exposto, é preciso compreender que todos os erros, atos de injustiça
 
 **Categoria:** se | **Ano:** 昭和28(1953)年10月7日 | **Fonte:** Eikou
 **Título Original:** 戦争よりも恐ろしい結核 | **Status:** Published | **Edição/Página:** 229号 | **Data ISO:** 1953-10-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Tuberculose, Mais Terrível que a Guerra
 
@@ -1211,6 +1255,7 @@ Meishu-Sama, muito obrigada. Encerro aqui este relato de gratidão.
 
 **Categoria:** se | **Ano:** 昭和24(1949)年9月17日 | **Fonte:** -
 **Título Original:** 生活を娯しむ | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1949-09-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Desfrutar da Vida
 
@@ -1228,6 +1273,7 @@ Todavia, meus caros, esse sonho está prestes a se concretizar. Refiro-me ao adv
 
 **Categoria:** se | **Ano:** 昭和25(1950)年5月27日 | **Fonte:** Kyusei
 **Título Original:** 全部療病者たれ | **Status:** Published | **Edição/Página:** 64号 | **Data ISO:** 1950-05-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Que Todos se Tornem Terapeutas
 
@@ -1287,6 +1333,7 @@ Agradecemos profunda e reiteradamente por este grandioso milagre. Perdoem-me, po
 
 **Categoria:** se | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 生と死 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Verdade sobre a Vida e a Morte
 
@@ -1338,6 +1385,7 @@ Finalmente, ao estudarmos a História, é comum sentirmos simpatia ou um estranh
 
 **Categoria:** se | **Ano:** 昭和27(1952)年6月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 善の英雄と悪の英雄 | **Status:** Published | **Edição/Página:** 37号 | **Data ISO:** 1952-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Sobre os Heróis do Bem e os Heróis do Mal
 
@@ -1357,6 +1405,7 @@ No que me diz respeito, creio poder afirmar que sou alguém que não pende para 
 
 **Categoria:** se | **Ano:** 昭和27(1952)年6月25日 | **Fonte:** Eikou
 **Título Original:** 赤痢流行に就て | **Status:** Published | **Edição/Página:** 162号 | **Data ISO:** 1952-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Epidemia de Disenteria sob a Ótica Divina
 
@@ -1384,6 +1433,7 @@ Portanto, aqueles que prezam por suas vidas devem ingressar em nossa fé o quant
 
 **Categoria:** se | **Ano:** 昭和11(1936)年1月27日 | **Fonte:** 選挙粛正と犯罪防止に就て
 **Título Original:** 選挙粛正と犯罪防止に就て | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-01-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Sobre a Moralização Eleitoral e a Prevenção da Criminalidade
 
@@ -1411,6 +1461,7 @@ Sendo assim, o que se espera é que as autoridades investiguem e examinem todas 
 
 **Categoria:** se | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 喘息 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Verdadeira Causa da Asma
 
@@ -1430,6 +1481,7 @@ Ao ponderar sobre essa realidade, sinto uma profunda compaixão tanto pelos doen
 
 **Categoria:** se | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 生殖神経衰弱の全治 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Sobre a Cura da Neurastenia Sexual
 
@@ -1451,6 +1503,7 @@ Nesse sentido, a alegria por ele expressa, conforme relatado, testemunha que a a
 
 **Categoria:** se | **Ano:** 昭和11(1936)年4月11日 | **Fonte:** 観音のHikari
 **Título Original:** 西洋医学の大革正と観音力療病の大偉勲 | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1936-04-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 観音の光
 
 ## A Verdadeira Causa da Hipertrofia das Amígdalas e a Grandeza da Terapia pelo Poder de Kannon
 
@@ -1480,6 +1533,7 @@ Nesse sentido, nosso método de cura pelo Poder de Kannon (観音) representa a 
 
 **Categoria:** se | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 世界夢物語（二） | **Status:** Published | **Edição/Página:** 45号 | **Data ISO:** 1953-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Apatia Europeia e o Espectro da Guerra
 
@@ -1511,6 +1565,7 @@ Será o prelúdio da Terceira Guerra Mundial, uma trágica contenda entre titãs
 
 **Categoria:** se | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 善と悪 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Sobre o Bem e o Mal
 
@@ -1532,6 +1587,7 @@ Há, ainda, outra situação a ser considerada. Existem indivíduos que, movidos
 
 **Categoria:** se | **Ano:** 昭和11(1936)年5月3日 | **Fonte:** Kenko
 **Título Original:** 生活改善と医療 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-05-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## O Alicerce da Melhoria de Vida
 
@@ -1549,6 +1605,7 @@ Em suma, afirmo com toda a convicção que a verdadeira melhoria de vida é uma 
 
 **Categoria:** se | **Ano:** 昭和25(1950)年10月25日 | **Fonte:** Eikou
 **Título Original:** 世界画の完成 | **Status:** Published | **Edição/Página:** 75号 | **Data ISO:** 1950-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Consumação da Grande Pintura Mundial
 
@@ -1568,6 +1625,7 @@ O que foi exposto até aqui refere-se ao âmbito religioso. Contudo, em unísson
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 生と死 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## Sobre a Vida e a Morte
 
@@ -1607,6 +1665,7 @@ Finalmente, ao folhearmos os livros de história, por vezes sentimos uma inexpli
 
 **Categoria:** se | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 選挙費用金一万円也 | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1949-03-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Custo de Campanha: Dez Mil Ienes
 
@@ -1643,6 +1702,7 @@ Em suma, é a isso que se refere o título deste artigo: "Custo de Campanha: Dez
 
 **Categoria:** se | **Ano:** 昭和10(1935)年 | **Fonte:** 此文を以て谷口氏に質す
 **Título Original:** 「生長の家」の主張には根本的誤謬あり | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Falácia Fundamental nos Ensinamentos da Seicho-no-Ie
 
@@ -1670,6 +1730,7 @@ Em última análise, se a Seicho-no-Ie hoje alcançou tamanha notoriedade, isso 
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 善主悪従 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Supremacia do Bem sobre o Mal
 
@@ -1693,6 +1754,7 @@ Em suma, para dizê-lo em uma só palavra, todo o mal, o sigilo e o egoísmo est
 
 **Categoria:** se | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 善と悪 | **Status:** Published | **Edição/Página:** P.90 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## O Bem e o Mal
 
@@ -1724,6 +1786,7 @@ Até hoje, com o intuito de prevenir o crime, a sociedade tem se esforçado para
 
 **Categoria:** se | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 善悪発生とキリスト教 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Gênese do Bem e do Mal e o Cristianismo
 
@@ -1763,6 +1826,7 @@ O mundo onde a depuração entre pessoas boas e más for concluída, e onde a gr
 
 **Categoria:** se | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 喘息 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Sobre a Asma
 
@@ -1800,6 +1864,7 @@ Existe também a asma infantil, que, no entanto, abordarei em detalhes no capít
 
 **Categoria:** se | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
 **Título Original:** 善人よ強くなれ 社会悪排除法 | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1949-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Homens de Bem, Fortalecei-vos
 
@@ -1823,6 +1888,7 @@ Assumindo a validade dessa tese, torna-se evidente que, por mais que um indivíd
 
 **Categoria:** se | **Ano:** 昭和25(1950)年10月18日 | **Fonte:** Eikou
 **Título Original:** 正愛と邪愛 | **Status:** Published | **Edição/Página:** 74号 | **Data ISO:** 1950-10-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Amor Verdadeiro e o Amor Desvirtuado
 
@@ -1852,6 +1918,7 @@ O único princípio verdadeiro é, pois, o universalismo. Até mesmo uma religi�
 
 **Categoria:** se | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策
 **Título Original:** 生産増加の根本条件 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策
 
 ## A Condição Fundamental para o Aumento da Produção
 
@@ -1879,6 +1946,7 @@ Ademais, como já elucidei, embora a tuberculose não seja contagiosa, ela é tr
 
 **Categoria:** se | **Ano:** - | **Fonte:** 精神医学と神霊医学
 **Título Original:** 精神医学と神霊医学 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Medicina Espiritual e a Abordagem Psicológica
 
@@ -1898,6 +1966,7 @@ Diante desta realidade, gostaria de inquirir: como os intelectuais interpretarã
 
 **Categoria:** se | **Ano:** 昭和10(1935)年2月5日 | **Fonte:** Toho no Hikari
 **Título Original:** 政民連繋 阿呆文学 | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1935-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## A Comédia da Aliança Partidária
 
@@ -1917,6 +1986,7 @@ Todavia, por outro lado, talvez haja um benefício em tal conduta. Ao agirem des
 
 **Categoria:** se | **Ano:** 昭和28(1953)年4月1日 | **Fonte:** Eikou
 **Título Original:** 先駆者の悩み | **Status:** Published | **Edição/Página:** 202号 | **Data ISO:** 1953-04-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## As Aflições de um Pioneiro
 
@@ -1944,6 +2014,7 @@ Acima de tudo, minha tese é a Verdade, e sua aplicação traria benefícios ime
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 生産増加の根本条件 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Condição Fundamental para o Aumento da Produção
 
@@ -1975,6 +2046,7 @@ O prejuízo que tais diretrizes médicas, em suas diversas formas, causam à cap
 
 **Categoria:** se | **Ano:** 昭和28(1953)年7月22日 | **Fonte:** Eikou
 **Título Original:** 正守護神の活動 | **Status:** Published | **Edição/Página:** 218号 | **Data ISO:** 1953-07-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Atuação do Espírito Guardião Primordial
 
@@ -2010,6 +2082,7 @@ Meishu-Sama, muito obrigado.
 
 **Categoria:** se | **Ano:** 昭和22(1947)年5月 | **Fonte:** 未定稿、昭和
 **Título Original:** 世界共和会主旨及宣言 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1947-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 未定稿、昭和
 
 ## Proposta e Declaração para a Sociedade da Harmonia Mundial (Versão Preliminar)
 
@@ -2051,6 +2124,7 @@ Dessa forma, uma vez que se confirmou a descoberta de que é possível soluciona
 
 **Categoria:** se | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
 **Título Original:** 善人よ強くなれ (再録) 自観叢書12編 | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1950-01-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観説話集
 
 ## Pessoas de Bem, Tornai-vos Fortes
 
@@ -2078,6 +2152,7 @@ Admitindo a validade desta teoria, alguém poderia objetar que, individualmente,
 
 **Categoria:** se | **Ano:** 昭和27(1952)年12月17日 | **Fonte:** Eikou
 **Título Original:** 善意の罪悪 | **Status:** Published | **Edição/Página:** 187号 | **Data ISO:** 1952-12-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Crime da Boa Vontade
 
@@ -2103,6 +2178,7 @@ Em vista do exposto, a medicina moderna se afigura como o grande enigma do nosso
 
 **Categoria:** se | **Ano:** 昭和25(1950)年5月13日 | **Fonte:** Kyusei
 **Título Original:** 羨望は恐ろしい | **Status:** Published | **Edição/Página:** 62号 | **Data ISO:** 1950-05-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Terrível Poder da Inveja
 
@@ -2116,6 +2192,7 @@ Este é um problema que transcende o âmbito puramente religioso. Com efeito, a 
 
 **Categoria:** se | **Ano:** 昭和11(1936)年4月11日 | **Fonte:** 観音のHikari
 **Título Original:** 西洋医学に由る健康診断の疑問 | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1936-04-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 観音の光
 
 ## A Falibilidade dos Diagnósticos da Medicina Ocidental
 
@@ -2139,6 +2216,7 @@ Frequentemente, deparamo-nos com notícias em jornais sobre a indignação de fa
 
 **Categoria:** se | **Ano:** 昭和27(1952)年4月2日 | **Fonte:** Eikou
 **Título Original:** 赤痢 医学断片集（５） | **Status:** Published | **Edição/Página:** 150号 | **Data ISO:** 1952-04-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Princípio da Purificação na Disenteria
 
@@ -2156,6 +2234,7 @@ Todavia, por desconhecerem esse princípio fundamental, as pessoas recorrem a an
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 精神病及び癲癇 ・病患と医学の誤謬十八 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Natureza Espiritual da Doença Mental e da Epilepsia
 
@@ -2169,6 +2248,7 @@ Aprofundarei este tema no capítulo dedicado às enfermidades de origem espiritu
 
 **Categoria:** se | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 精神病など何でもない 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Verdadeira Causa das Enfermidades Psíquicas
 
@@ -2186,6 +2266,7 @@ Consta que a incidência dessa enfermidade tem aumentado vertiginosamente, tanto
 
 **Categoria:** se | **Ano:** 昭和26(1951)年11月21日 | **Fonte:** Eikou
 **Título Original:** 全村メシヤ教信者 | **Status:** Published | **Edição/Página:** 131号 | **Data ISO:** 1951-11-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma aldeia inteiramente messiânica
 
@@ -2228,6 +2309,7 @@ Rogo por Vossa contínua proteção e ofereço este relato como minha mais since
 
 **Categoria:** se | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** Eikou
 **Título Original:** 世界夢物語 | **Status:** Published | **Edição/Página:** 189号 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Conto Onírico sobre o Mundo
 
@@ -2265,6 +2347,7 @@ Há, no entanto, algo que já posso afirmar. No fim, o mundo será arrastado par
 
 **Categoria:** se | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 正邪の戦 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Batalha entre o Bem e o Mal
 
@@ -2282,6 +2365,7 @@ Passemos a um terceiro caso, o de uma senhora de elevada posição social, que e
 
 **Categoria:** se | **Ano:** 昭和10(1935)年7月25日 | **Fonte:** Hikari明世界
 **Título Original:** 世界統一の中心 | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1935-07-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## O Centro da Unificação Mundial
 
@@ -2301,6 +2385,7 @@ Em suma, o eixo horizontal do mundo estava ajustado, mas o eixo vertical encontr
 
 **Categoria:** se | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
 **Título Original:** 世界的丁髷時代 | **Status:** Published | **Edição/Página:** 155号 | **Data ISO:** 1952-05-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Paradoxo da Civilização Moderna
 
@@ -2328,6 +2413,7 @@ A raiz de todos esses males reside em uma verdadeira intoxicação pela cultura 
 
 **Categoria:** se | **Ano:** 昭和11(1936)年2月4日 | **Fonte:** 戦争準備の世界
 **Título Original:** 戦争準備の世界 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Um Mundo em Preparativos para a Guerra
 
@@ -2353,6 +2439,7 @@ Ao considerarmos tal realidade e observarmos nossa sociedade, notamos uma frouxi
 
 **Categoria:** se | **Ano:** 昭和11(1936)年5月10日 | **Fonte:** 西洋医学の野蛮性
 **Título Original:** 西洋医学の野蛮性 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-05-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Barbárie da Medicina Ocidental
 
@@ -2378,6 +2465,7 @@ Ao analisarmos a questão com justeza, percebemos que os resultados obtidos pela
 
 **Categoria:** se | **Ano:** 昭和11(1936)年1月25日 | **Fonte:** Hikari明世界
 **Título Original:** 聖王母 | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1936-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## A Profecia do Pêssego de Três Mil Anos
 
@@ -2422,6 +2510,7 @@ Desde a antiguidade, os Cinco Festivais Sazonais, os contos de fadas, o teatro N
 
 **Categoria:** se | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
 **Título Original:** 善を鼓吹する新聞 | **Status:** Published | **Edição/Página:** 50号 | **Data ISO:** 1950-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Imprensa e a Exortação ao Bem
 
@@ -2441,6 +2530,7 @@ Em vista de tudo o que foi exposto, é provável que, na atualidade, não se enc
 
 **Categoria:** se | **Ano:** - | **Fonte:** 天津祝詞・善言讃詞
 **Título Original:** 善言讃詞 ・ 救世（メシヤ）教版 折本 | **Status:** Published | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天津祝詞・善言讃詞
 
 ## Zengen Sanshi
 
@@ -2484,6 +2574,7 @@ Duas palmas, uma vênia e uma reverência
 
 **Categoria:** se | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 西洋医学の野蛮性 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Natureza Bárbara da Medicina Ocidental
 
@@ -2517,6 +2608,7 @@ Ao ponderarmos sobre este episódio, torna-se inegável a inferioridade e a natu
 
 **Categoria:** se | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 喘息 ・病患と医学の誤謬五 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Asma e os Equívocos da Medicina
 
@@ -2560,6 +2652,7 @@ Existe também a asma infantil, mas tratarei dela em detalhes no capítulo dedic
 
 **Categoria:** se | **Ano:** 昭和11(1936)年6月18日 | **Fonte:** Kenko
 **Título Original:** 世界的宗教は治病宗教なり | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-06-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## A Vocação Mundial da Religião é a Cura das Doenças
 
@@ -2597,6 +2690,7 @@ Diante do exposto, a lógica nos leva a uma conclusão irrefutável: para que um
 
 **Categoria:** se | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 戦力増強に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## Sobre o Fortalecimento Bélico
 
@@ -2630,6 +2724,7 @@ E é para a consecução de tal objetivo que desejo proclamar: esta arte médica
 
 **Categoria:** se | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 世界統一 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## A Missão do Movimento de Kannon: Edificar um Mundo sem Doença, Pobreza e Conflito
 
@@ -2656,21 +2751,6 @@ O Soberano, digno e inviolável, resplandece acima das nuvens, tal como o sol e 
 Tal feito se consumará por meio do profundo desígnio da Deusa-Mãe e da atuação abnegada de um povo fiel.
 
 Por se tratar de uma empreitada sem precedentes na história — a unificação do mundo —, por mais que seja conduzida com amor e misericórdia, não se pode garantir que não haverá, pontualmente, nações ou povos insatisfeitos. Por tais eventuais percalços, o povo deverá assumir inteira responsabilidade.
-
----
-
-# A Origem Espiritual da Doença Mental e da Epilepsia
-
-**Categoria:** se | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
-**Título Original:** 精神病及び癲癇 ・病患と医学の誤謬一八 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
-
-## A Origem Espiritual da Doença Mental e da Epilepsia
-
-A doença mental e a epilepsia, embora guardem notável semelhança e apresentem diversos traços comuns, possuem também particularidades que as distinguem.
-
-O ponto crucial, todavia, é que a manifestação de ambas decorre de uma gênese puramente espiritual. Por conseguinte, quaisquer terapias de cunho físico ou materialista, por mais que se apliquem, revelam-se de todo ineficazes.
-
-Conforme detalharei no capítulo dedicado às enfermidades espirituais, ao se compreender que sua causa é de natureza exclusivamente espiritual, perceber-se-á quão vãs e infrutíferas têm sido as investigações materialistas a esse respeito.
 
 ---
 

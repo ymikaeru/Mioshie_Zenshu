@@ -1,9 +1,116 @@
 # Mioshie_Teachings - Part 28
 
+# O Acerto de Contas com os Insensatos
+
+**Categoria:** a | **Ano:** 昭和8(1933)年 | **Fonte:** 阿呆陀羅経
+**Título Original:** 阿呆陀羅経 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1933
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
+
+## O Acerto de Contas com os Insensatos
+
+Em meio ao coro dos seres celestiais, de espírito cristalino, no Paraíso mais sublime, experimentamos a sensação de submergir em água fervente, rangendo os dentes em agonia. Suportamos o insuportável com resignação, cientes de que nada se podia fazer ante os desígnios da época. Inspirados no exemplo do Grande Deus Primordial, que perseverou por três milênios, passamos por uma reclusão de três anos — uma milésima parte daquele tempo —, enxugando as lágrimas com os punhos cerrados. Recolhidos em humildade, aguardamos a primavera em que a flor de Udumbara desabrocha, e essa espera valeu imensamente a pena.
+
+Chegou a hora do acerto de contas para as criaturas infelizes. Elas se aproximarão no ano do Cão, com o rabo entre as pernas e a cabeça baixa, suplicando como animais amestrados. Provavelmente, até os gatos se juntarão a eles. Que cena deliciosa não há de ser? A boa sorte, como diz o ditado, vem para quem sabe esperar. Adentramos, de fato, uma época surpreendente.
+
+Finalmente, aproxima-se a sublime primavera, o florescer de uma nova era. É como a Rainha Mãe do Oeste, que sorri ao ver amadurecer o pêssego que leva três milênios para frutificar. O Plano Divino se manifesta abertamente no mundo, e Deus procederá à separação entre o bem e o mal. Será uma cena de júbilo indescritível, e se alguém, do alto de sua vã sabedoria, aplaude ou não este momento, é de total irrelevância. É o fim para as almas daqueles que se tornaram refugo, a imensa maioria de 99,9%.
+
+Sua sorte se esgotará, e virão a confusão e o desastre. Cairão sentados, apoiarão ambas as mãos no chão e curvarão suas cabeças obtusas repetidamente, como gafanhotos em reverência forçada. Virão suplicar perdão, derramando lágrimas. Contudo, a situação mundial é premente e Deus está muito ocupado; não pode lhes dar atenção. O desfecho será ouvir: “Releiam as revelações divinas! Tudo está claramente registrado ali”. Apesar de tudo, Deus é amor e bondade. Quem sabe Ele não dirá, num gesto de misericórdia: “Pois bem, que remédio... Farei com que se ocupem da limpeza dos jardins ou das latrinas, não apenas por toda a sua vida, mas até a geração de seus netos”. Se Ele realmente o dirá, não posso afirmar.
+
+Aqueles que, sem alternativa, caírem em desgraça, terão como destino o primeiro círculo do inferno. Ali, às margens do Rio Sanzu, a velha demônia lhes arrancará todas as vestes, deixando-os completamente nus. Tentar gracejar, dizendo “Como poderei prosseguir a jornada desprovido de tudo?”, de nada adiantará. Em desespero, resignados ao pior, arrastarão sua vergonha pelos caminhos da fome, da guerra e da luxúria, até a montanha de agulhas — uma visão insuportável.
+
+Contudo, a essência de Deus é, como se espera, o amor. Ele considera que, ainda que tenham agido por arrogância ou equívoco, a sinceridade com que um dia serviram a Deus não pode ser ignorada, pois seria demasiado lastimável. Portanto, com Sua imensa misericórdia, não há dúvida de que salvará e amparará todos aqueles que se renderem. E talvez, em nome desses que se tornaram refugo, eu mesmo interceda e apresente um pedido de desculpas em seu favor.
+
+Todavia, o mundo é feito de pessoas diversas. Os mais apressados ou, talvez, os mais prudentes, antes que a situação chegasse a tal extremo, por si mesmos já se retiraram e se afastaram. Quer o tenham feito de modo consciente ou não, a verdade é que a maioria já tomou seu rumo. Ainda que a depuração não esteja completa, é inegável que o cenário mudou consideravelmente. Recentemente, nosso trabalho tornou-se mais fácil.
+
+É verdade que um punhado de indivíduos desagradáveis e obstinados ainda permanece, o que se afigura como um estorvo. Mas também eles são fragmentos da humanidade. Quando estiverem se debatendo na água lamacenta, sufocando em seu sofrimento, talvez a compaixão nos mova a estender-lhes a mão para salvá-los.
+
+---
+
+# A Malignidade como Enfermidade Espiritual
+
+**Categoria:** a | **Ano:** 昭和26(1951)年11月21日 | **Fonte:** Eikou
+**Título Original:** 悪人は病人なり | **Status:** Published | **Edição/Página:** 131号 | **Data ISO:** 1951-11-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A Malignidade como Enfermidade Espiritual
+
+Ao se depararem com o título deste artigo, muitos certamente franzirão o cenho. Afinal, não são poucos os indivíduos de índole maligna que aparentam gozar de perfeita saúde; quiçá, entre eles, a presença de tais pessoas seja até mais comum. Contudo, essa é uma percepção meramente superficial. Em sua essência, ou seja, em seu espírito, eles são verdadeiros enfermos.
+
+Conforme venho ensinando, a razão para tal reside no fato de que o homem maligno é aquele cujo espírito se encontra sob o domínio de um espírito do mal. Este, por sua vez, subjugou o Espírito Guardião Primordial e repeliu o Espírito Guardião Protetor, apossando-se da maior parte do ser espiritual da pessoa e agindo como seu novo senhor, com total liberdade.
+
+Esses espíritos malignos são, inquestionavelmente, espíritos de raposas, texugos, dragões e outros animais. Por conseguinte, seus atos não diferem muito dos de uma criatura irracional. Isso explica por que são capazes de cometer, com total indiferença, atos de uma crueldade e selvageria que um ser humano jamais conseguiria praticar. Mais do que isso, chegam a deleitar-se com tais práticas, o que demonstra o quão desumanizados se tornaram e o quão distantes estão de qualquer parâmetro da razão.
+
+É preciso esclarecer, todavia, que todo ser humano, desde o nascimento, traz consigo um Espírito Guardião Auxiliar, que é, em sua natureza, um espírito animal, conforme meus ensinamentos. Sua presença é permitida por Deus, por ser um elemento indispensável à sobrevivência, ligado aos apetites do corpo. A transição para a malignidade ocorre de duas maneiras: ou um novo espírito animal se apossa da pessoa, ou o Espírito Guardião Auxiliar já existente manifesta sua índole bestial.
+
+E por que isso acontece? Ocorre porque o espírito da pessoa se macula, e à medida que essa mácula se adensa, atrai um espírito animal de natureza correspondente. Uma vez instalado, como já mencionado, o espírito humano primordial é subjugado, e o espírito animal passa a agir livremente, concretizando seus desígnios. Portanto, a causa da malignidade é a mácula espiritual, a qual, por sua vez, turva o sangue. Inevitavelmente, chegará o dia em que um intenso processo de purificação se manifestará. Nesse momento, um sofrimento proporcional ao grau da mácula emergirá, materializando-se em desastres súbitos, doenças ou outras formas de infortúnio. É curioso notar o fenômeno, frequentemente relatado, de grandes malfeitores que, ao experimentarem o menor lampejo de reflexão ou sentimento de bondade, têm seus crimes revelados e são capturados. Isso nada mais é do que o início de sua purificação. Há, inclusive, um antigo provérbio que elucida esse princípio: "Quando o mal prospera, vence o Céu; quando o Céu se estabelece, vence o homem". Tal dito expressa a lei Divina segundo a qual, quando o ser humano acumula máculas em seu coração, ele é purificado através do sofrimento.
+
+Analisando sob essa ótica, percebemos que a causa da malignidade é a mácula espiritual, o que nos leva à conclusão de que os malignos são, de fato, enfermos. Naturalmente, quanto maior a perversidade de um indivíduo, mais severa será sua purificação e, consequentemente, mais agudo o seu sofrimento e mais grave a sua enfermidade. A origem das máculas espirituais, por sua vez, reside na insuficiência de força — ou seja, de Luz — no Espírito Guardião Primordial. Para remediar essa deficiência, não há outro caminho senão o da religião.
+
+Nesse sentido, ao ingressar na fé e volver-se constantemente a Deus, a Luz Divina é infundida na alma através do elo espiritual. Com o aumento da Luz, as máculas se dissipam. Em decorrência disso, o espírito animal invasor, sentindo-se atormentado, prontamente se retira, enquanto o Espírito Guardião Auxiliar original se retrai, incapacitado para a prática do mal. Este princípio nos revela um grande perigo: aquele que não une as mãos em oração a Deus corre o risco de, a qualquer momento e por qualquer motivo, tornar-se um ser maligno.
+
+Poderíamos, portanto, afirmar que os incrédulos são pessoas potencialmente perigosas, e a abundância de indivíduos com essa característica na sociedade moderna explica por que o mal social persiste irredutível. Logo, por mais que alguém seja uma pessoa de bem no presente, enquanto não possuir fé, não poderá ser considerado verdadeiramente bom. Não passa de um indivíduo virtuoso que carrega em si a semente da maldade. Por essa razão, jamais se pode baixar a guarda diante de quem não tem fé. O antigo ditado "Ao ver alguém, considere-o um ladrão" provavelmente se referia àqueles desprovidos de crença.
+
+O mais lamentável é que nem mesmo as grandes personalidades de hoje ou as autoridades governamentais compreendem uma lógica tão elementar. Como resultado, negam a importância da religião e tentam erradicar o mal recorrendo unicamente à força da lei, o que evidencia o quão equivocados estão.
+
+---
+
+# O Renascimento Através do Johrei
+
+**Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼此悲劇 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
+
+## O Renascimento Através do Johrei
+
+Ao ler o sincero relato [abreviado] desta senhora, quem haveria de não sentir o coração pungir? Afinal, até os quarenta anos de idade, ela não apenas foi privada de um tratamento digno de um ser humano, como também sua alegria por finalmente conseguir se casar foi efêmera, pois, pouco tempo depois, acabou repudiada. Em virtude dessas e de outras desventuras, sua vida tornou-se uma sucessão de tragédias, e por um longo período ela subsistiu em meio às trevas.
+
+Contudo, ao receber Johrei, foi-lhe concedida a graça da plena recuperação. Recentemente, ela já consegue conviver em paridade com as demais pessoas, a ponto de poder auxiliar nas atividades da fé. Portanto, sua alegria é algo que podemos supor em toda a sua magnitude.
+
+Essa enfermidade, considerada um caso intratável pela medicina atual, foi, por meio do Johrei, magnificamente superada. Cumpre ressaltar, por fim, que a anômala coloração escura de sua pele era consequência das toxinas medicamentosas.
+
+---
+
+# O Sussurro do Demônio
+
+**Categoria:** a | **Ano:** 昭和11(1936)年4月19日 | **Fonte:** 悪魔の囁き
+**Título Original:** 悪魔の囁き | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-04-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
+
+## O Sussurro do Demônio
+
+Embora “O Sussurro do Demônio” se assemelhe ao título de um filme, trata-se de uma experiência universal. A maioria das pessoas, ao abraçar a fé em Kannon (観音) pela primeira vez, sente-se transbordar de uma emoção jamais vivenciada. Isto ocorre porque, após se desiludirem com diversas crenças, não obterem graças ou não conseguirem apreender a Verdade, encontram, em meio ao seu desalento, a joia preciosa que por tanto tempo buscaram incessantemente. É natural, portanto, que mergulhem em júbilo.
+
+Contudo, é nesse ponto que reside um perigo terrível: o demônio, à espreita de uma brecha, ardilosamente procura desviar essa pessoa de sua fé.
+
+Fundamentalmente, neste mundo, embora invisível aos olhos, desenrola-se desde tempos imemoriais uma batalha incessante entre Deus e o demônio. Em grande escala, esse confronto manifesta-se entre nações; em seguida, entre partidos e facções, entre classes sociais; em menor escala, entre indivíduos; e, na sua forma mais íntima, no coração de cada ser humano, como a luta entre o bem e o mal. Assim, sua maior expressão é o conflito entre Estados, e sua mínima expressão, o embate na alma de uma pessoa.
+
+Até hoje, contudo, o coração humano tem sido, em sua maior parte, propenso ao mal. Poder-se-ia dizer que os servos do demônio sempre foram numerosos. Evidentemente, a maioria não tem consciência de sua servidão, pois, no momento em que a adquirissem, já estariam se libertando do demônio.
+
+No entanto, as pessoas que finalmente são salvas por Deus, em geral, pertencem a esse grupo que serve ao mal inconscientemente. Isto se dá porque nelas existe a possibilidade de que seus olhos, até então cegos, se abram. E em que consiste essa inconsciência? Consiste em crer que o bem é mal, em reverenciar como Deus verdadeiro um espírito maligno, ou em tomar por Verdade aquilo que é falsidade. É por meio da Luz da Salvação que a verdadeira natureza de tais equívocos é finalmente exposta.
+
+O que descrevi acima se aplica aos que podem ser salvos. Há, todavia, aqueles que jamais o serão. Embora constituam uma minoria, são os que praticam o mal com plena consciência ou os que nele se comprazem. Esses malfeitores conscientes raramente alcançam a salvação e são indivíduos dignos de pena, destinados a perecer na depuração final.
+
+Retornemos, agora, ao ponto inicial. No momento em que alguém compreende a verdadeira fé, desperta para seus erros passados e se entrega à alegria da gratidão, o demônio se corrói de ressentimento pela perda de um de seus servos. Determinado a trazê-lo de volta, passa a espreitar a oportunidade perfeita. O ser humano que não percebe essa manobra acaba, em alguma ocasião, por ser assaltado pela dúvida.
+
+Frequentemente, o demônio tenta perturbar-lhe a mente por meio de conselhos bem-intencionados ou críticas verossímeis de parentes e conhecidos. Ele se utiliza da máscara da cordialidade, mas, na verdade, dispara um projétil para derrubar aquela pessoa. Seu primeiro passo é o esforço para criar uma fissura em seu coração. Nesse instante, a menos que se possua uma convicção absolutamente inabalável, a pessoa pensa: “Será que isso não faz sentido?”. Esse pensamento momentâneo é, precisamente, a brecha causada pelo projétil do demônio, uma ruína parcial na fé. Tal ruptura é como uma fresta aberta na muralha de uma fortaleza durante a guerra: por ela, o inimigo invade em massa até que toda a cidadela caia sob o domínio das hostes demoníacas.
+
+O estado de uma mente invadida pelas hostes demoníacas é o seguinte: ela passa a criar, invariavelmente, os mais engenhosos pretextos para se afastar da fé. Começa, assim, a procurar defeitos na crença, e a isso chamamos de sussurro do demônio. Nesses momentos, por meio de uma crítica que se apoia no senso comum, o demônio faz com que coisas triviais pareçam falhas graves. Ele arquiteta raciocínios para provar, a todo custo, que aquela fé é equivocada, e o faz com tamanha astúcia que uma pessoa comum seria incapaz de desmascará-lo. Ademais, em tais situações, o demônio fará de tudo para que a pessoa não se aproxime da Sede Central. Quando ela tenta visitá-la, ele usa o menor dos obstáculos como justificativa para impedi-la. A razão é que o demônio teme enormemente a Luz intensa, pois não há nada mais aterrador para ele. Ao se deparar com a Luz, seu poder maligno enfraquece.
+
+Imaginemos que um doente em estado terminal, sem a menor esperança de recuperação, seja salvo pelo poder de Kannon-Sama. Naquele instante, surge em seu coração um sentimento de fé tão fervoroso que ele não hesitaria em ofertar a própria vida, por entender que esta lhe foi concedida pela Divindade. Não são poucos os que chegam a verbalizar tal devoção.
+
+Entretanto, com o passar dos dias e dos meses, alguns acabam, de modo surpreendente, por se esquecer de tudo. É espantosa tamanha inconstância. São justamente essas pessoas inconstantes as que mais facilmente sucumbem às engenhosas artimanhas do demônio. Embora tenham se tornado, por um momento, servas de Kannon-Sama, tornam-se novamente, para nossa lástima, prisioneiras do mal.
+
+É um fato que as pessoas que abandonam a fé caem, eu diria que quase sem exceção, na infelicidade. Somos testemunhas constantes e numerosas de tais casos. Felizes são aqueles que, percebendo o erro a tempo, voltam a buscar a salvação. Contudo, há os que perdem a oportunidade. Vemos com frequência pessoas assim atingirem o cúmulo do infortúnio e caminharem para uma destruição lastimável. É como se, depois de haver embarcado na Arca de Noé, caíssem ao mar e se afogassem.
+
+Aqueles que foram verdadeiramente salvos devem atentar-se muito bem a este ponto.
+
+---
+
 # Uma Ascensão aos Alpes Japoneses
 
 **Categoria:** a | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
 **Título Original:** アルプス紀行 自観叢書第5編 | **Status:** Published | **Edição/Página:** P.37 | **Data ISO:** 1949-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観隨談
 
 ## Uma Ascensão aos Alpes Japoneses
 
@@ -39,6 +146,7 @@ Finalmente, cheguei à pousada Shimizu-ya, também conhecida como Gosenjaku Onse
 
 **Categoria:** a | **Ano:** 昭和24(1949)年7月9日 | **Fonte:** -
 **Título Original:** 悪人を見別ける法 | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1949-07-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Método para Discernir os Maus
 
@@ -54,6 +162,7 @@ Passemos agora aos homens de bem. Em minha longa experiência, observei que, ent
 
 **Categoria:** a | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 或記事 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Realidade da Medicina Ocidental
 
@@ -77,6 +186,7 @@ Ainda assim, não se deve, nem em sonho, pensar em ter pena das pessoas que sofr
 
 **Categoria:** a | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 悪の発生と病 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Gênese do Mal e a Doença
 
@@ -104,6 +214,7 @@ Pelo exposto, o propósito fundamental da medicina era criar o mal e debilitar a
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 嗚呼医学の迷蒙 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Desvario da Ciência Médica
 
@@ -125,6 +236,7 @@ Diante de tais fatos, maiores comentários se tornam desnecessários. A causa fu
 
 **Categoria:** a | **Ano:** 昭和27(1952)年2月20日 | **Fonte:** Eikou
 **Título Original:** 悪人をひねる | **Status:** Published | **Edição/Página:** 144号 | **Data ISO:** 1952-02-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Corrigindo os Malfeitores
 
@@ -140,6 +252,7 @@ Ao escrever estas palavras, é possível que alguns pensem que Meishu-Sama, de u
 
 **Categoria:** a | **Ano:** 昭和26(1951)年6月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 或る神秘 読後のお言葉 | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1951-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos sobre um Acontecimento Místico
 
@@ -201,6 +314,7 @@ Diante disso, percebemos quão profundo e longínquo é o Plano Divino, muito al
 
 **Categoria:** a | **Ano:** 昭和25(1950)年4月29日 | **Fonte:** Kyusei
 **Título Original:** 悪人と善人 | **Status:** Published | **Edição/Página:** 60号 | **Data ISO:** 1950-04-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Os Perversos e os Virtuosos
 
@@ -216,6 +330,7 @@ Não se trata de ressentimento, mas, embora existam aqueles que nos difamam e cr
 
 **Categoria:** a | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
 **Título Original:** 熱海の天国化 | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Transformação de Atami em Paraíso Terrestre
 
@@ -247,6 +362,7 @@ Historicamente, os visitantes estrangeiros não demonstram o mesmo interesse dos
 
 **Categoria:** a | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** ある婦人の話 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.38 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## O Relato de Certa Senhora
 
@@ -272,6 +388,7 @@ Atualmente, aquela senhora vive como viúva, criando seus dois filhos e desfruta
 
 **Categoria:** a | **Ano:** 昭和26(1951)年2月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 悪に対する憤激 | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1951-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Indignação contra o Mal
 
@@ -295,6 +412,7 @@ Por tais razões, o ideal é que uma pessoa seja capaz de se indignar perante a 
 
 **Categoria:** a | **Ano:** 昭和25(1950)年1月7日 | **Fonte:** -
 **Título Original:** 憐むべき現代人 | **Status:** Published | **Edição/Página:** 44号 | **Data ISO:** 1950-01-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Lamentável Homem Moderno
 
@@ -312,6 +430,7 @@ Esse mesmo raciocínio se aplica à recomendação médica de se comerem espinha
 
 **Categoria:** a | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
 **Título Original:** 噫〔々〕医学よ | **Status:** Published | **Edição/Página:** 191号 | **Data ISO:** 1953-01-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ilusória Prática da Medicina
 
@@ -377,6 +496,7 @@ Eu, que tive minha vida, já sem esperança, salva por Vós, desejo dedicar-me �
 
 **Categoria:** a | **Ano:** 昭和8(1933)年9月16日 | **Fonte:** 穴かしこ
 **Título Original:** 穴かしこ | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1933-09-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Retratos da Degradação Humana
 
@@ -398,6 +518,7 @@ Contudo, no momento em que Deus Se manifestar, todos esses infelizes serão toma
 
 **Categoria:** a | **Ano:** 昭和26(1951)年12月26日 | **Fonte:** Eikou
 **Título Original:** 悪は何故暴露するか | **Status:** Published | **Edição/Página:** 136号 | **Data ISO:** 1951-12-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Motivo Pelo Qual o Mal é Sempre Exposto
 
@@ -421,6 +542,7 @@ Sendo esta a verdade absoluta, não existe outra solução fundamental senão cr
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 嗚呼医学の犠牲者 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Equívoco Fundamental da Medicina e Suas Vítimas
 
@@ -438,6 +560,7 @@ Ademais, como as vítimas dessa prática médica são hoje criadas em número in
 
 **Categoria:** a | **Ano:** 昭和27(1952)年9月17日 | **Fonte:** Eikou
 **Título Original:** 悪の世の中 | **Status:** Published | **Edição/Página:** 174号 | **Data ISO:** 1952-09-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Mundo Dominado pelo Mal
 
@@ -471,6 +594,7 @@ Dentre todas as angústias, a maior é, sem dúvida, a doença. É possível pre
 
 **Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 第四編
 **Título Original:** 阿呆陀羅経 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1934
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 第四編
 
 ## A Proclamação do Insensato Divino
 
@@ -504,6 +628,7 @@ E aqui estou eu, a proclamar com tanto fervor todas estas coisas... Que grande i
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 嗚呼偉大なり浄霊の業 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Abismo entre o Johrei e a Medicina
 
@@ -525,6 +650,7 @@ O obstáculo, todavia, reside no fato de que tal revelação soa tão fantástic
 
 **Categoria:** a | **Ano:** 昭和27(1952)年12月3日 | **Fonte:** Eikou
 **Título Original:** 新しい愛国心 | **Status:** Published | **Edição/Página:** 185号 | **Data ISO:** 1952-12-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Novo Sentido do Patriotismo
 
@@ -552,6 +678,7 @@ Esta única sentença deveria ser suficiente para o entendimento.
 
 **Categoria:** a | **Ano:** - | **Fonte:** 天津祝詞・善言讃詞
 **Título Original:** 天津祝詞 ・ 救世（メシヤ）教版 折本 | **Status:** Published | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天津祝詞・善言讃詞
 
 ## Oração Amatsu Norito
 (Versão da Igreja Messiânica Mundial)
@@ -581,6 +708,7 @@ Três palmas, duas vênias, uma reverência
 
 **Categoria:** a | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
 **Título Original:** 天照大神は幾柱あるか | **Status:** Published | **Edição/Página:** 29号 | **Data ISO:** 1949-10-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Quantas Amaterasu Omikami Existem?
 
@@ -598,6 +726,7 @@ Ademais, desde aquele episódio, encontrei diversas outras mulheres que se autop
 
 **Categoria:** a | **Ano:** 昭和27(1952)年7月23日 | **Fonte:** Eikou
 **Título Original:** アレヨアレヨ | **Status:** Published | **Edição/Página:** 166号 | **Data ISO:** 1952-07-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Assombro dos Descrentes
 
@@ -617,6 +746,7 @@ Por essa razão, em breve, os poderosos de todo o mundo — e em especial os do 
 
 **Categoria:** a | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 悪の追放 | **Status:** Published | **Edição/Página:** P.12 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## O Expurgo do Mal
 
@@ -638,6 +768,7 @@ Qual seria, então, esse caminho? É, sem dúvida, a prática da fé verdadeira.
 
 **Categoria:** a | **Ano:** 昭和22(1947)年8月 | **Fonte:** Chijo Tengoku
 **Título Original:** 愛和会趣意書 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1947-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Edificação do Paraíso Terrestre
 
@@ -671,6 +802,7 @@ Nossa associação avançará apoiada em três pilares: o Departamento Religioso
 
 **Categoria:** a | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
 **Título Original:** 哀れむべき現代人 | **Status:** Published | **Edição/Página:** 199号 | **Data ISO:** 1953-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Deplorável Condição do Homem Moderno
 
@@ -737,6 +869,7 @@ Muito obrigada, Meishu-Sama. Rogo para que Vossa orientação e proteção imut�
 
 **Categoria:** a | **Ano:** - | **Fonte:** 哀れなるものよ汝の名は文化人なり
 **Título Original:** 哀れなるものよ汝の名は文化人なり | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Infortúnio, teu nome é intelectual
 
@@ -762,6 +895,7 @@ Nesse sentido, nosso objetivo é insuflar vida nesta cultura imperfeita, ensinar
 
 **Categoria:** a | **Ano:** 昭和24(1949)年11月5日 | **Fonte:** -
 **Título Original:** ある眼科医の話 医学談片集 | **Status:** Published | **Edição/Página:** 34号 | **Data ISO:** 1949-11-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Relato de um Oftalmologista
 
@@ -781,6 +915,7 @@ Diante de tal declaração, restou-me apenas um profundo espanto.
 
 **Categoria:** a | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 暗中模索 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## A Ambiguidade das Antigas Escrituras
 
@@ -810,6 +945,7 @@ A essência dos sutras budistas e a verdade da Bíblia, apesar dos esforços de 
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 嗚呼医学なるもの 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Falácia da Medicina
 
@@ -829,6 +965,7 @@ Ao observar essa situação, vejo uma notável semelhança com o infortúnio daq
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 嗚呼医学というもの 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Ilusão da Medicina Contemporânea
 
@@ -850,6 +987,7 @@ Esta é, pois, a situação atual. Posso, contudo, afiançar que essa esperança
 
 **Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 第三編
 **Título Original:** 阿呆陀羅経 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1934
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 第三編
 
 ## O Sutra dos Insensatos
 
@@ -873,6 +1011,7 @@ Tantaracá poc poc poc.
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 噫々医療というもの 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Desconhecimento da Prática Médica
 
@@ -890,6 +1029,7 @@ Ademais, quando, em vez da cirurgia, opta-se por tratamentos como a radioterapia
 
 **Categoria:** a | **Ano:** 昭和24(1949)年8月6日 | **Fonte:** -
 **Título Original:** 明るい村と暗い村 寸評（光21号） 白光生 | **Status:** Published | **Edição/Página:** 21号, 21号 | **Data ISO:** 1949-08-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Aldeia Iluminada e a Aldeia Sombria
 
@@ -901,6 +1041,7 @@ Relataram-me, há pouco, um fato notável: as comunidades onde um número expres
 
 **Categoria:** a | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
 **Título Original:** 誤れる毒素療法 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## O Equívoco das Terapias com Toxinas
 
@@ -924,6 +1065,7 @@ Por fim, no caso da hemoptise na tuberculose pulmonar, administram-se injeções
 
 **Categoria:** a | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
 **Título Original:** 安心立命 | **Status:** Published | **Edição/Página:** 186号 | **Data ISO:** 1952-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdadeira Paz de Espírito
 
@@ -945,6 +1087,7 @@ Pois bem, essa conquista é plenamente possível, e nisto reside sua extraordin�
 
 **Categoria:** a | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
 **Título Original:** 嗚呼この奇蹟 | **Status:** Published | **Edição/Página:** 169号 | **Data ISO:** 1952-08-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Oh, este Milagre!
 
@@ -1002,6 +1145,7 @@ Meishu-Sama, muito obrigada.
 
 **Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** Kenko
 **Título Original:** 阿呆陀羅経 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1934
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## A Exortação para Comer Fezes, Lamber Traseiros e Cheirar Flatulências
 
@@ -1021,6 +1165,7 @@ E com esse ímpeto, com grande fervor e determinação, prosseguem em sua marcha
 
 **Categoria:** a | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 悪と守護霊 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## O Mal e o Espírito Guardião
 
@@ -1076,6 +1221,7 @@ Dessa forma, o Deus Supremo permitiu que deuses benévolos e espíritos malignos
 
 **Categoria:** ro | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 肋膜及び腹膜炎 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Pleurisia e Peritonite
 
@@ -1095,6 +1241,7 @@ A peritonite, de modo semelhante à pleurisia, apresenta-se nas formas úmida e 
 
 **Categoria:** a | **Ano:** 昭和28(1953)年1月24日 | **Fonte:** アメリカを救う
 **Título Original:** - | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-01-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## O Propósito da Obra "Salvar a América"
 
@@ -1112,6 +1259,7 @@ A causa, por certo, reside nos equívocos da medicina. O propósito deste livro 
 
 **Categoria:** a | **Ano:** 昭和27(1952)年1月7日 | **Fonte:** Dougi
 **Título Original:** 頭を新しくせよ | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952-01-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 道義
 
 ## A Urgência de Renovar a Mente
 
@@ -1131,6 +1279,7 @@ Nesse sentido, a nova ideologia que proponho chega a ser o oposto do pensamento 
 
 **Categoria:** a | **Ano:** 昭和26(1951)年8月10日 | **Fonte:** 或る日の公判スケッチ
 **Título Original:** 或る日の公判スケッチ | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-08-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 或る日の公判スケッチ
 
 ## Esboço de uma Audiência Judicial
 
@@ -1205,6 +1354,7 @@ Portanto, embora eu lamente pelos senhores promotores, se este incidente servir 
 
 **Categoria:** a | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** アッツの英霊 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Proteção Divina dos Espíritos Heroicos de Attu
 
@@ -1260,6 +1410,7 @@ Tratava-se, provavelmente, da unidade que realizara a operação de desembarque 
 
 **Categoria:** ro | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 肋膜炎及び腹膜炎 ・病患と医学の誤謬四 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Pleurisia e a Peritonite
 
@@ -1291,6 +1442,7 @@ Ouso afirmar que praticamente todas as pessoas possuem, em maior ou menor grau, 
 
 **Categoria:** ro | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 肋膜炎と腹膜炎 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## Pleurisia e Peritonite
 
@@ -1310,6 +1462,7 @@ Já na peritonite purulenta, as toxinas medicamentosas se convertem em pus e se 
 
 **Categoria:** ro | **Ano:** 昭和24(1949)年12月17日 | **Fonte:** -
 **Título Original:** 労働問題実験記 | **Status:** Published | **Edição/Página:** 40号 | **Data ISO:** 1949-12-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Um Relato Experimental sobre a Questão Trabalhista
 
@@ -1333,6 +1486,7 @@ O que descrevi representa o modelo das relações entre capital e trabalho no Mu
 
 **Categoria:** ro | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 肋膜炎及び腹膜炎 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## Esclarecimentos sobre a Pleurisia e a Peritonite
 
@@ -1374,6 +1528,7 @@ Pessoas com nódulos purulentos no peritônio invariavelmente apresentam uma má
 
 **Categoria:** a | **Ano:** 昭和26(1951)年4月18日 | **Fonte:** Eikou
 **Título Original:** 悪に勝つ | **Status:** Published | **Edição/Página:** 100号 | **Data ISO:** 1951-04-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Triunfo sobre o Mal
 
@@ -1407,6 +1562,7 @@ Embora tenha me alongado, a conclusão é a seguinte: o objetivo primordial da r
 
 **Categoria:** ro | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
 **Título Original:** 肋膜炎及び腹膜炎 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策（再版）
 
 ## Sobre a Pleurisia e a Peritonite
 
@@ -1446,6 +1602,7 @@ Aqueles que possuem pus solidificado no peritônio invariavelmente apresentam um
 
 **Categoria:** ro | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 肋膜炎及び腹膜炎 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Pleurisia e Peritonite
 
@@ -1475,6 +1632,7 @@ Na realidade, posso afirmar que a peritonite purulenta é uma condição que, em
 
 **Categoria:** o | **Ano:** 昭和27(1952)年5月21日 | **Fonte:** Eikou
 **Título Original:** 恐るべき医学迷信 | **Status:** Published | **Edição/Página:** 157号 | **Data ISO:** 1952-05-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Temível Superstição Médica
 
@@ -1521,6 +1679,7 @@ Meishu-Sama, receba a minha mais profunda e sincera gratidão.
 
 **Categoria:** ro | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 肋膜炎及び腹膜炎 ・病患と医学の誤謬四 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Pleurisia e a Peritonite
 
@@ -1560,6 +1719,7 @@ Ademais, quem possui pus solidificado no peritônio invariavelmente apresenta um
 
 **Categoria:** o | **Ano:** 昭和26(1951)年1月17日 | **Fonte:** Eikou
 **Título Original:** 御守の偉力 | **Status:** Published | **Edição/Página:** 87号 | **Data ISO:** 1951-01-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Imenso Poder do Ohikari
 
@@ -1601,6 +1761,7 @@ Ao ouvir aquele testemunho, inconscientemente, minha mão apertou com firmeza o 
 
 **Categoria:** o | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
 **Título Original:** 恐しき新聞の自由 | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1949-10-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Temível Liberdade de Imprensa
 
@@ -1620,6 +1781,7 @@ Como religiosos, relutamos profundamente em recorrer às vias legais. Entretanto
 
 **Categoria:** o | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
 **Título Original:** 岡田道一先生に物申す ――そこひと神霊療法に就て | **Status:** Published | **Edição/Página:** 61号 | **Data ISO:** 1950-05-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Um Esclarecimento sobre a Terapia Espiritual Divina
 
@@ -1639,6 +1801,7 @@ O exposto acima é um retrato fiel da realidade. Sendo assim, a tese do mestre O
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
 **Título Original:** 岡田先生療病術講義録 上巻 （四） | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 岡田先生療病術講義録
 
 ## A Postura Mental do Terapeuta
 
@@ -1744,6 +1907,7 @@ Em suma, narrei estes fatos como referência para que saibam que os espíritos d
 
 **Categoria:** o | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
 **Título Original:** おかげばなし批判 | **Status:** Published | **Edição/Página:** 61号 | **Data ISO:** 1950-05-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Verdadeira Salvação em Contraste com a Medicina
 
@@ -1801,6 +1965,7 @@ Em uma só frase, poderíamos dizer: "Ó infelizes, vosso sofrimento advém de i
 
 **Categoria:** o | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
 **Título Original:** 恐るべき農村結核 | **Status:** Published | **Edição/Página:** 199号 | **Data ISO:** 1953-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Terrível Tuberculose nos Vilarejos Rurais
 
@@ -1843,6 +2008,7 @@ Atualmente, o vilarejo de Iinoya empenha todos os seus esforços para se livrar 
 
 **Categoria:** o | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
 **Título Original:** おかげばなし批判 科学に先行の浄霊 | **Status:** Published | **Edição/Página:** 50号 | **Data ISO:** 1950-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Grandeza do Johrei Ante as Limitações da Ciência
 
@@ -1917,6 +2083,7 @@ A medicina é um método solidificante, e este paciente é um exemplo claro do q
 
 **Categoria:** o | **Ano:** 昭和27(1952)年5月14日 | **Fonte:** Eikou
 **Título Original:** 大いに注意すべき事 | **Status:** Published | **Edição/Página:** 156号 | **Data ISO:** 1952-05-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Pontos de Máxima Atenção
 
@@ -1960,6 +2127,7 @@ A esposa do presidente me esclareceu que, muito provavelmente, os espíritos de 
 
 **Categoria:** o | **Ano:** 昭和28(1953)年8月26日 | **Fonte:** Eikou
 **Título Original:** 御守から出る光波 | **Status:** Published | **Edição/Página:** 223号 | **Data ISO:** 1953-08-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Mistério da Luz Divina no Omamori
 
@@ -2035,6 +2203,7 @@ Muito obrigado. Rogo para que continue a nos proteger sempre.
 
 **Categoria:** o | **Ano:** 昭和8(1933)年7月16日 | **Fonte:** お筆先
 **Título Original:** お筆先 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1933-07-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Alerta aos Descrentes
 
@@ -2050,6 +2219,7 @@ Portanto, se houver o anseio pelo arrependimento, que ele se manifeste agora. Es
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
 **Título Original:** 岡田先生療病術講義録 下巻 （三） | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 岡田先生療病術講義録
 
 ## O Diagnóstico pelo Pulso e as Afecções Cardíacas
 
@@ -2193,6 +2363,7 @@ Por fim, a icterícia é causada por uma massa na região do fígado; basta trat
 
 **Categoria:** o | **Ano:** 昭和25(1950)年3月18日 | **Fonte:** Kyusei
 **Título Original:** おかげばなし批判 事実が示す浄霊の優越性 | **Status:** Published | **Edição/Página:** 54号 | **Data ISO:** 1950-03-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Superioridade do Jyorei Demonstrada pelos Fatos
 
@@ -2265,6 +2436,7 @@ A explicação para o histórico desta paciente é a seguinte: a doença ocular 
 
 **Categoria:** o | **Ano:** 昭和25(1950)年3月25日 | **Fonte:** Kyusei
 **Título Original:** おかげばなし批判 卓越せる神療法 | **Status:** Published | **Edição/Página:** 55号 | **Data ISO:** 1950-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Sobrescelente Terapia Divina
 
@@ -2364,6 +2536,7 @@ Ademais, durante todo esse processo, a dor é inteiramente suprimida, eliminando
 
 **Categoria:** o | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
 **Título Original:** 奥日光から塩原へ 自観叢書第5編 | **Status:** Published | **Edição/Página:** P.14 | **Data ISO:** 1949-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観隨談
 
 ## Recordações de uma Travessia de Okunikko a Shiobara
 
@@ -2395,6 +2568,7 @@ Nessa viagem, enfrentei duas situações de grande perigo. A primeira foi a qued
 
 **Categoria:** o | **Ano:** 昭和30(1955)年1月1日 | **Fonte:** Eikou
 **Título Original:** 御取次 執事 阿部晴三 | **Status:** Published | **Edição/Página:** 289号 | **Data ISO:** 1955-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Palavras de Meishu-Sama sobre o Palácio de Cristal e a Estrutura da Igreja
 
@@ -2420,6 +2594,7 @@ Estas são as palavras que me coube transmitir.
 
 **Categoria:** o | **Ano:** 昭和24(1949)年11月19日 | **Fonte:** -
 **Título Original:** おかげ話から何を掴んだか | **Status:** Published | **Edição/Página:** 36号 | **Data ISO:** 1949-11-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Uma Análise sobre os Méritos e Deméritos da Prática Médica
 
@@ -2453,6 +2628,7 @@ Por tudo o que foi exposto, o Grande Amor de Deus, na iminência do Fim da Era, 
 
 **Categoria:** o | **Ano:** 昭和25(1950)年5月27日 | **Fonte:** Kyusei
 **Título Original:** おかげばなし批判 | **Status:** Published | **Edição/Página:** 64号 | **Data ISO:** 1950-05-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Restauração Miraculosa de um Dedo Amputado
 
@@ -2529,281 +2705,6 @@ Contudo, a situação era crítica, não havia alternativa. Em meu coração, or
 *Comentário de Meishu-Sama*
 
 Este relato contém dois significados de grande importância. O primeiro é o fato de uma fiel sem experiência e sem autoconfiança ter ministrado Johrei, ainda que receosa, a uma paciente em estado de risco iminente e ter conseguido sua recuperação imediata. O segundo é a evidência do efeito reverso das injeções. Apenas estes fatos já demonstram, com clareza cristalina, a notável diferença entre a medicina moderna e o Johrei de nossa Igreja. Cada vez que nos conscientizamos de exemplos como este, uma sensação indescritível emerge em nosso ser.
-
----
-
-# Tratamento de Enfermidades da Cabeça, Pescoço e Tórax
-
-**Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
-**Título Original:** 岡田先生療病術講義録 下巻 （二） | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-07
-
-## Tratamento de Enfermidades da Cabeça, Pescoço e Tórax
-
-### Afecções Dentárias
-
-A dor de dente origina-se de duas causas principais: a primeira é a periodontite, caracterizada pelo acúmulo de pus na raiz do dente; a segunda é a dor no nervo dentário. Ambas as condições respondem excepcionalmente bem à nossa Terapia.
-
-Ao tratar uma dor de dente, o primeiro passo é indagar se a dor se manifesta na arcada superior ou na inferior, para então proceder ao tratamento externamente sobre a área afetada. O mecanismo subjacente consiste no acúmulo de pus aquoso na raiz do dente. Na sua tentativa de ser expelido, esse pus perfura o periósteo, o que ocasiona a dor lancinante. Portanto, uma vez que a perfuração ocorre, a dor diminui, mas o extravasamento do pus para o exterior provoca o inchaço da bochecha.
-
-Com a aplicação desta Terapia, a cura é não apenas rápida, mas também definitiva. Mesmo nos casos em que o toque é doloroso, a cura é possível sem contato direto. Basta friccionar a área suavemente, quase sem tocar, e assoprar. O resultado é notavelmente eficaz.
-
-A outra modalidade de dor, a do nervo dentário, ocorre quando a corrosão do dente expõe o nervo, que se torna sensível ao contato com líquidos frios ou quentes. Nesses casos, a solução mais célere é procurar um dentista para que o nervo seja desvitalizado.
-
-É comum encontrar pessoas com dentes moles, indecisas entre extraí-los ou não. Tal instabilidade se deve ao acúmulo de pus na raiz. Com a purificação, a raiz se firma e o problema é sanado.
-
-A piorreia alveolar, por sua vez, caracteriza-se pela secreção de sangue e pus a partir da raiz do dente. Em sua forma branda, é uma condição que praticamente todos possuem em algum grau, manifestando-se com mais intensidade em um dos lados da boca. Embora seja considerada uma doença temível, chegando alguns a associá-la à sífilis, tal concepção é infundada.
-
-Ao pressionar externamente a região do maxilar ou da mandíbula, é possível localizar pontos dolorosos onde há acúmulo de pus aquoso e sangue impuro. A purificação desses pontos, em conjunto com o tratamento de áreas doloridas nos gânglios cervicais ou em outras partes do rosto, especialmente nas bochechas, promove a dissolução das toxinas purulentas e a consequente cura.
-
-O tratamento geralmente requer de duas a três semanas, podendo estender-se por um a dois meses nos casos mais severos.
-
-### Enfermidades da Língua
-
-A gagueira pode ser congênita ou resultar de condições como um acidente vascular cerebral, que dificulta a articulação das palavras. Em ambas as situações, a língua não se move conforme a vontade do indivíduo.
-
-Nos casos de origem adquirida, observa-se um nódulo sob o maxilar, doloroso à pressão. A causa reside aí; ao dissolvermos esse nódulo, a condição é sanada.
-
-Já nos indivíduos com gagueira congênita, frequentemente se encontram nódulos endurecidos na região occipital. Essa é a causa mais comum, e geralmente há um único nódulo nessa localização. O tratamento consiste em dissolvê-lo. Contudo, mesmo após a cura da doença, o hábito persiste, exigindo um tempo considerável para a recuperação completa.
-
-O mesmo princípio se aplica quando o pus decorrente da Doença de Basedow-Graves se desloca para a garganta, comprometendo a mobilidade da língua.
-
-O câncer de língua tem início com o acúmulo de toxinas purulentas nas glândulas submandibulares, que gradualmente se aprofundam até atingir a raiz da língua. Esta enfermidade é bastante dolorosa, pois a dor se manifesta ao mover a língua, e os alimentos provocam ardência ao contato.
-
-Os resultados cirúrgicos para esta doença parecem ser insatisfatórios. A sutura necessária após a cirurgia tende a repuxar excessivamente a língua. A radioterapia também é um recurso comum, mas, por enrijecer os tecidos, embora o câncer diminua, a língua parece ficar ainda mais contraída.
-
-Contudo, por meio de nossa Terapia, pacientes que não se submeteram à cirurgia alcançam a cura infalivelmente.
-
-### Moléstias da Garganta
-
-A adenoide consiste em uma tumefação localizada entre o nariz e a garganta. O tratamento é realizado externamente, direcionado a essa região, e promove a cura. É uma doença predominantemente infantil que, mesmo sem tratamento, tende a desaparecer com o avanço da idade.
-
-Na amigdalite, o inchaço das amígdalas é facilmente perceptível pela palpação externa, o que torna o diagnóstico extremamente simples. É comum o uso de medicamentos como o de Lugol para cauterizar a área, mas essa abordagem não apresenta bons resultados. Eu mesmo fui submetido a esse tratamento inúmeras vezes no passado, mas ele apenas prolongava o problema, tornando-o crônico. A cauterização prolongava a recuperação por uma ou duas semanas. Depois que abandonei esse método, passei a me curar em dois ou três dias.
-
-A hipertrofia das amígdalas ocorre quando se recorre a métodos antipiréticos durante um episódio de amigdalite, o que leva à solidificação do pus. Este assunto já foi detalhadamente explicado em um capítulo anterior e, portanto, será omitido aqui. O mesmo se aplica à parotidite e à linfadenite, cujo mecanismo é idêntico.
-
-Quando há acúmulo de toxinas purulentas na região do pescoço, o uso de antitérmicos ou a aplicação de eletricidade podem causar o seu endurecimento. Isso, por sua vez, pode levar ao surgimento de novos focos nas áreas adjacentes, multiplicando o problema. Se, no surgimento do primeiro inchaço, nada for feito, o pus se concentrará nesse único ponto. O local inchará completamente, a ponto de pender, até que um pequeno orifício se abra, permitindo a drenagem do pus e a consequente cura completa.
-
-Certo paciente que tratei no passado apresentou um caso ilustrativo. Inicialmente, surgiu um inchaço perto da glândula parótida, que ele tratou aplicando gelo incessantemente. A região, em vez de supurar, endureceu, e ele foi internado em um hospital. Em seguida, um novo inchaço apareceu do lado oposto. Ele repetiu o processo com gelo, e assim sucessivamente, solidificando cada tumefação que surgia. Como resultado, o pus não conseguia mais se acumular externamente e começou a descer, a ponto de quase causar um enfisema pulmonar.
-
-Os médicos, alarmados com o risco de morte, realizaram uma incisão para drenar o pus. Isso proporcionou apenas um alívio temporário. Impedido de se acumular externamente, o pus buscou uma via interna, acumulando-se na cavidade oral e na faringe. Por fim, a garganta ficou obstruída, e o paciente morreu por insuficiência respiratória.
-
-Ele me procurou cerca de um mês antes de falecer, mas, por mais que eu tentasse dissolver as toxinas, a força purificadora não se manifestava, pois os nódulos estavam enrijecidos pelo gelo e o paciente já se encontrava extremamente debilitado. Nada pude fazer.
-
-Se, desde o princípio, esse paciente tivesse sido deixado em paz, sem qualquer intervenção, sua cura teria transcorrido naturalmente, e ele teria completado seus dias. Pensar nisso me causa um profundo e inescapável pesar.
-
-A tuberculose laríngea é comum em pessoas que usam muito a voz. O processo se inicia com o acúmulo de pus na região das glândulas submandibulares e amígdalas, que se expande gradualmente para as áreas mais profundas, atingindo a laringe e alterando a voz. Com o avanço da doença, a deglutição de alimentos torna-se difícil, até que nem mesmo a água pode ser ingerida, levando o paciente à debilidade e ao óbito. A sensação é a de ter um furúnculo na garganta, que dói ao mais leve toque, como o de um alimento.
-
-Por meio desta Terapia, a cura ocorre de forma natural e progressiva. Embora os casos de debilidade extrema sejam difíceis, pacientes que ainda conseguem caminhar certamente serão curados. A cura completa leva cerca de um mês para casos leves e até três meses para os mais graves.
-
-A rouquidão, quando não associada à tuberculose laríngea, pode ser considerada um estágio anterior a essa doença. Ocorre porque as toxinas acumuladas na região das glândulas parótidas e linfáticas se dissolvem e infiltram-se continuamente, irritando o aparelho fonador. Isso causa um inchaço que impede o seu funcionamento normal. Ao dissolver essas toxinas, a condição é facilmente sanada. Casos leves requerem cerca de duas semanas; os mais graves, aproximadamente um mês.
-
-O câncer de laringe consiste em um acúmulo persistente e endurecido de toxinas purulentas. É claramente identificável ao toque externo, de forma semelhante às amígdalas, e responde favoravelmente ao tratamento, alcançando a cura. O tratamento dura de duas a três semanas para casos leves e de um a dois meses para os graves. A distinção entre o câncer e a tuberculose laríngea reside no fato de que a tuberculose afeta a garganta de maneira difusa, enquanto o câncer se manifesta como um nódulo localizado.
-
-Na Doença de Basedow-Graves, há um acúmulo de toxinas purulentas na glândula tireoide, localizada na parte inferior do pescoço. Isso resulta em uma protuberância visível no centro da garganta. De modo geral, as pessoas com esta doença têm o pescoço mais grosso. Embora se diga comumente que a tireoide incha, minha observação indica que o acúmulo de toxinas ocorre na parte externa da glândula.
-
-Descoberta por Basedow, esta doença tem como característica, em estágio avançado, a proeminência dos globos oculares, sendo aparentemente mais comum em pessoas de olhos grandes. Quando se agrava, afeta gravemente o coração, resultando em arritmia ou pulso intermitente.
-
-Normalmente, é uma doença de fácil tratamento. Costuma-se dizer que a gravidez representa um risco, levando à prática do aborto induzido. Contudo, com base em minha experiência, acredito que tal preocupação seja infundada.
-
-O cancro de água é uma doença terrível, embora rara. Começa com o surgimento de uma mancha escura perto da boca, que se agrava rapidamente, abrindo um orifício na bochecha. Em casos extremos, a perda de tecido pode atingir o tamanho de um ovo de galinha, expondo totalmente o interior da boca, de modo que dentes e língua ficam completamente visíveis. É uma visão tão chocante que mal se consegue encará-la. De perfil, a aparência é como a ilustrada na figura.
-
-O furúnculo facial é uma tumefação que surge em alguma parte do rosto. Diz-se que aqueles que aparecem na linha central vertical do rosto são mais perigosos, assim como os que não apresentam um ponto de drenagem. No entanto, isso não é verdade. É normal que, no início, não haja um orifício; ele se forma apenas quando o furúnculo amadurece completamente.
-
-O furúnculo facial é sempre curável. É surpreendente que pessoas morram por causa dele. Pela via da cura natural, a área incha progressivamente, um orifício se forma, o pus é expelido e a cura se completa. Todavia, a prática moderna de resfriar o local interrompe o processo de purificação, fazendo com que o pus se solidifique. Consequentemente, ele se acumula em outras áreas, o que pode gerar situações de risco. Outro fator que leva a maus resultados é a incisão precoce. Médicos experientes aguardam o amadurecimento do furúnculo antes de fazer a incisão, obtendo resultados muito melhores.
-
-Com nossa Terapia, a cura completa ocorre em uma a três sessões. Não há absolutamente nenhum risco de vida.
-
-A erisipela é uma doença comum, atribuída à contaminação por bactérias através de cortes de navalha em barbearias. Embora isso possa ocorrer em alguns casos, em outros, a causa é diferente. Trata-se, na verdade, de um processo de purificação em que toxinas específicas são estimuladas por tal oportunidade e expelidas do corpo.
-
-A doença começa com o inchaço do rosto. Em casos graves, o inchaço pode se estender ao corpo e, em estágios mais avançados, até mesmo aos testículos. A febre alta também causa debilidade. Se a Terapia for aplicada antes que o paciente se enfraqueça, a cura é alcançada sem dificuldade. Se o inchaço já atingiu metade do corpo, serão necessárias cinco ou seis sessões. Se estiver restrito ao rosto, duas ou três sessões são suficientes.
-
-O herpes labial é facilmente curado com a purificação da área afetada e da cavidade oral. Casos leves se resolvem em menos de uma semana, mas os mais graves podem levar de dois a três meses.
-
-A estomatite aftosa se manifesta como erupções na mucosa oral que são extremamente dolorosas. Quando se estendem até a garganta, impedem a deglutição de alimentos. É uma doença comum em crianças, que podem chegar a não conseguir beber nem mesmo água. Com o tratamento, a cura é imediata, geralmente em duas ou três sessões.
-
-### Epilepsia
-
-A epilepsia se manifesta em duas categorias: uma de origem física e outra de origem espiritual. Comecemos pela causa física.
-
-Ela ocorre devido ao acúmulo de toxinas purulentas na região do bulbo raquidiano, o que obstrui o fluxo de sangue para o cérebro. Quando essa obstrução é severa, o fluxo sanguíneo pode ser interrompido, e nesse instante, o sintoma epiléptico se manifesta. Esta condição é facilmente curada pela dissolução dos nódulos de pus.
-
-A outra causa, de natureza espiritual, é de longe a mais frequente e maligna. A causa espiritual reside na possessão por espíritos de mortos, e a manifestação da crise reproduz fielmente o estado de agonia do momento da morte do espírito possessor. Na maioria das vezes, trata-se de mortes violentas ou súbitas. Espíritos de pessoas que morreram de hemorragia cerebral são particularmente comuns. Quando a crise ocorre, o paciente reproduz exatamente os gestos de alguém sofrendo um derrame. Isso acontece porque espíritos que tiveram uma morte súbita, como por hemorragia cerebral, não tiveram preparação para a morte e permanecem com a consciência de que ainda pertencem a este mundo. Por essa razão, ao encontrarem um corpo vivo, eles o possuem.
-
-A crise em que o indivíduo cai e espuma pela boca é a "epilepsia da água", causada pela possessão do espírito de um afogado. Há também casos em que a crise é desencadeada pela visão da água; estes são causados por espíritos que se afogaram ao cair na água. No momento da morte, a ideia de que "a água é apavorante" fica impregnada em sua consciência, fazendo com que temam a água.
-
-Similarmente, na "epilepsia do fogo", a pessoa teme o fogo. Certa vez, tratei um caso de epilepsia em que as crises ocorriam invariavelmente durante a noite, enquanto o paciente dormia; nunca durante o dia. Ele via chamas se iniciando e, à medida que se aproximavam, perdia a consciência. Como isso ocorreu logo após o Grande Terremoto de Kanto, presumi que se tratava do espírito de alguém que havia morrido queimado no desastre.
-
-Houve também outro caso interessante, o de um gerente de uma corretora de valores que sofria de breves perdas de consciência, de um a dois minutos. Inicialmente, as crises ocorriam uma vez por ano, mas foram se tornando mais frequentes, chegando a uma ou duas vezes por mês. O medo extremo das crises acabou por lhe causar uma espécie de esgotamento nervoso.
-
-Ao investigar, descobri que ele estava possuído pelo espírito de um homem assassinado em uma emboscada na antiga localidade de Kozukappara, em Senju. Por não ter descendentes, seu desejo era ser devidamente cultuado. A primeira crise do paciente ocorrera exatamente na data do aniversário de morte desse espírito. Por isso, ele era constantemente assombrado pelo pavor de ser atacado em uma emboscada, a ponto de não conseguir andar sozinho. Após cerca de seis meses de tratamento, ele começou a melhorar gradualmente. Depois que providenciamos o culto ao espírito do morto, a doença desapareceu por completo.
-
-Quando se inicia o tratamento da epilepsia, é comum que as crises se tornem temporariamente mais frequentes. Após um certo período, no entanto, a melhora se inicia e a cura é alcançada. Em geral, embora o tratamento seja longo, a cura é certa.
-
-### Parte Superior e Média do Tronco
-
-As enfermidades da parte superior e média do tronco estão interligadas, motivo pelo qual as explicarei em conjunto.
-
-#### Tuberculose Pulmonar e Asma
-
-O principal órgão da porção média do tronco é, sem dúvida, o pulmão. O pulmão direito é maior que o esquerdo, devido à posição do coração, que se localiza à esquerda. Como já mencionei, o coração corresponde ao Sol, e os pulmões, à Lua.
-
-Os sintomas incluem febre baixa ou alta, tosse, expectoração, escarro com sangue, hemoptise, falta de apetite, diarreia, suores noturnos, falta de ar, fadiga, dor no peito e rigidez no pescoço e ombros.
-
-A febre pode ter diversas origens, e seus focos podem ser os gânglios linfáticos e parótidas, as glândulas cervicais, a base do pescoço, os ombros, as costas, o tórax, o abdômen e a região lombar. Durante o exame, ao impor as mãos, é possível identificar claramente as áreas febris. Ao examinar esses pontos com os dedos, os locais especialmente dolorosos indicam acúmulo de toxinas purulentas, onde um "trabalho febril" está em andamento para dissolvê-las. A febre no peito é sinal de acúmulo de toxinas no esterno e, ao pressionar o local, a dor será inevitavelmente sentida.
-
-Diante desses sintomas, o diagnóstico inicial costuma ser de "catarro no ápice do pulmão" ou "linfadenite hilar". De nossa perspectiva, porém, nesse estágio ainda não há anormalidade nos pulmões.
-
-Vejamos a sequência que leva à doença pulmonar. Primeiramente, as toxinas purulentas e o sangue impuro resultantes do processo de purificação se acumulam ao redor do pescoço. A purificação desse acúmulo se manifesta como um resfriado. Com a repetição desses episódios, o acúmulo de toxinas chega ao tórax. A progressão detalhada já foi descrita no capítulo sobre a "Origem das Doenças" e será aqui omitida. Em seguida, o acúmulo se estende para ambos os lados do plexo solar e a região umbilical. Esta é a causa da asma, que naturalmente provoca tosse, falta de ar e expectoração.
-
-Em estágios mais avançados, o acúmulo de toxinas atinge o peritônio, pressionando os intestinos ou, pela ação de eliminação dessas toxinas, causando diarreia. A tosse nos casos de doença pulmonar é, em sua maioria, devida a essa condição asmática.
-
-Naturalmente, existe também a tosse originada da própria doença pulmonar, mas esta ocorre em decorrência de uma pneumonia, devido ao escarro residual nos pulmões, ou em casos de gangrena pulmonar, câncer de pulmão ou tuberculose miliar. A tosse causada pela febre no pescoço, ombros e peito também existe, mas é de menor intensidade.
-
-Gostaria de falar sobre a asma. Nesta doença, como todos tossem, pensa-se que o problema está na traqueia. A causa reside, surpreendentemente, não na traqueia, mas nas regiões mencionadas anteriormente. Portanto, ao examinar essas áreas com os dedos, o acúmulo de toxinas purulentas é claramente perceptível e bastante doloroso. À medida que esse acúmulo é dissolvido, a tosse diminui gradualmente. Quando a pressão no local não mais causa dor, a tosse terá desaparecido. Assim, a asma, tradicionalmente considerada incurável, pode ser completamente sanada por meio desta Terapia.
-
-Embora esta doença seja tida como uma das mais difíceis de curar, nossa experiência mostra que cerca de setenta por cento dos casos são curados. Desde que o paciente não esteja excessivamente debilitado, a cura transcorre de forma progressiva, mas requer um tempo considerável, geralmente de dois a três meses, podendo chegar a seis.
-
-Gangrena pulmonar, câncer de pulmão e tuberculose miliar são doenças raras, porém malignas. Se tratadas no estágio inicial, a cura completa é possível, mas a partir do segundo estágio, devem ser consideradas incuráveis.
-
-Uma explicação exaustiva sobre essas doenças implicaria, inevitavelmente, uma crítica à medicina moderna. Por uma questão de ética, prefiro abster-me. Não há outra forma senão conhecer a verdade por meio da experiência prática.
-
-#### Pleurisia e Nevralgia Intercostal
-
-A pleurisia é uma doença na qual ocorre um acúmulo de líquido ou febre alta no espaço entre as duas membranas que envolvem os pulmões. Existem três tipos de pleurisia: exsudativa, seca e purulenta. A mais comum é a exsudativa.
-
-Na pleurisia exsudativa, acumula-se "água". Essa "água" é, na verdade, urina. Por isso, quando a doença se manifesta e o líquido começa a se acumular, o volume de urina diminui drasticamente por um tempo. A febre geralmente se mantém em torno de trinta e nove graus, raramente ultrapassando os quarenta. No início, a dor é intensa, pois o acúmulo de líquido cria um espaço entre as membranas. Quando o espaço está completamente preenchido, a dor diminui, mas em seu lugar surge a dificuldade para respirar.
-
-Os sintomas característicos são tontura, suores noturnos e sonolência excessiva, além de uma acentuada dificuldade respiratória. Isso ocorre porque o acúmulo de líquido comprime os pulmões. Portanto, a dificuldade para respirar na pleurisia se manifesta com uma inspiração longa e uma expiração curta.
-
-Os especialistas costumam prescrever diuréticos no início, o que aumenta o volume de urina e proporciona uma melhora temporária. No entanto, com o passar dos dias, ocorre um "efeito reverso": o volume de urina volta a diminuir, o líquido se acumula novamente e, como último recurso, é feita uma punção com agulha para drená-lo. Normalmente, retira-se de duzentos a seiscentos mililitros. Às vezes, após a drenagem, a cura ocorre, mas em outras, o líquido volta a se acumular.
-
-A causa frequentemente está relacionada ao uso dos braços, como realizar um esforço físico intenso, levantar os braços a uma grande altura ou sofrer um golpe no peito. Exercícios de ginástica que envolvem agarrar-se a barras e usar a força, por exemplo, são um gatilho comum. A doença também pode surgir espontaneamente.
-
-O líquido da pleurisia pode se infiltrar nos pulmões, causando tosse e expectoração. Isso não ocorre no início, mas pode acontecer se a doença se prolongar.
-
-A pleurisia purulenta ocorre quando, em vez de água, há um acúmulo de pus no mesmo local da pleurisia exsudativa. Pode manifestar-se como purulenta desde o início ou ser uma evolução de uma pleurisia exsudativa crônica. Embora seja considerada uma condição maligna, para nós, é de fácil tratamento, e mesmo casos muito graves são curados.
-
-O pus da pleurisia purulenta, seja ela primária ou uma evolução da exsudativa, pode infiltrar-se nos pulmões e ser expelido como escarro. Nesses casos, a condição é frequentemente diagnosticada como tuberculose pulmonar.
-
-Certa vez, uma senhora de cerca de trinta anos estava internada em um grande hospital. Quando a visitei, vi que haviam feito um orifício em suas costas para drenar o pus diariamente. A secreção era contínua; bastava uma tosse leve ou uma respiração um pouco mais profunda para que um pus semelhante a leite escorresse. Ela foi ficando cada vez mais fraca e acabou recebendo alta para vir se tratar comigo. O orifício estava preenchido com um fino pedaço de gaze. Para evitar que se fechasse, estava previsto que em breve fariam uma incisão maior em outro local.
-
-O orifício era do tamanho de um furo de agulha. Como ela não colocou mais a gaze após vir ao meu encontro, no dia seguinte o buraco se fechou. Quando fui tratá-la naquele dia, encontrei-a chorando na frente do marido. Perguntei por que chorava, e ela explicou: "Disseram-me que, se o ferimento se fechar, o pus subirá para a minha cabeça, causará uma encefalopatia e não terei salvação. Agora que o buraco se fechou, estou condenada." Estava em completo desespero. O marido sugeria que ela voltasse ao hospital para fazerem outro corte, mas ela se recusava, dizendo que não queria mais voltar para lá. Eu a consolei, dizendo: "Não se preocupe, vamos dissolver o pus externamente." Embora cética, ela concordou em esperar.
-
-Com o tempo, ela foi melhorando, recuperou o apetite e já conseguia ir ao banheiro caminhando. Cerca de uma semana depois, era Ano Novo, e ela comeu três tigelas de sopa de mochi. Em pouco mais de um mês, estava completamente curada. Este foi um caso gravíssimo de pleurisia purulenta, e até hoje ela está gozando de plena saúde.
-
-Na pleurisia seca, não há acúmulo de líquido. No entanto, assim como na forma exsudativa, cria-se um vácuo entre as membranas, o que a torna extremamente dolorosa. A dor se deve tanto ao afastamento quanto ao atrito entre as membranas. A cura completa leva cerca de uma semana.
-
-Contudo, a pleurisia seca é uma doença muito rara. Na maioria das vezes, quando examino pacientes que chegam com esse diagnóstico, constato que não se trata disso. O que ocorre é dor devido a nódulos de pus solidificado nas costelas, ou seja, nevralgia intercostal, que é frequentemente confundida com pleurisia seca. Essa dor é errática, como um relâmpago. O tratamento é progressivo e leva cerca de um mês para casos comuns e até três meses para os mais graves.
-
-O tratamento da chamada pleurisia seca, que na verdade é nevralgia intercostal, consiste em dissolver, um a um, os pontos dolorosos nos ossos, o que demanda um tempo considerável. Já tratei casos graves, como o de um paciente com dor que se estendia por ambos os braços e por toda a região das costas. Foi uma nevralgia de vasta extensão que levou cerca de três meses para ser curada.
-
-Houve também um caso de origem espiritual. Um funcionário de uma loja queixava-se de dor no peito. Quando eu tratava um ponto, a dor se movia para outro lugar, percorrendo o tórax. Tratava-se do espírito de uma serpente. A primeira pessoa daquela casa a adoecer foi a filha, com pleurisia, que curei. Em seguida, a empregada apresentou um quadro semelhante e também foi curada. Por fim, o aprendiz veio com os mesmos sintomas.
-
-Pedi que o espírito da serpente se manifestasse em mim e descobri que se tratava de um ancestral da família que desejava ser cultuado. Assim que o entronizamos como Ryujin (龍神), nenhuma pessoa daquela família voltou a sofrer de tal enfermidade. Mesmo casos dessa natureza podem ser curados com esta Terapia, sem a necessidade de cultuar o espírito.
-
-Ao tratar a pleurisia, basta tocar o peito para encontrar os pontos de calor. O tratamento deve ser feito nesses locais, enquanto se pergunta ao paciente sobre a dor. Peça-lhe para respirar fundo; os pontos que doerem devem ser tratados. Quando ele conseguir respirar profundamente sem dor, estará curado. As áreas afetadas geralmente se localizam da região mamária aos flancos e às costas.
-
-O diagnóstico visual também pode ser útil. Observe as costas do paciente enquanto ele respira fundo. O pulmão que se expande mais está saudável; o que não se expande está com acúmulo de líquido.
-
-Para saber qual lado está afetado, observe a posição em que o paciente dorme. Ele tende a deitar-se sobre o lado doente. Isso porque, se deitar com o lado doente para cima, a pressão causa desconforto.
-
-Quanto à alimentação, pode-se comer arroz normalmente. Não é necessário repouso absoluto; desde que não haja dor, o paciente pode continuar trabalhando. Tanto na tuberculose quanto na pleurisia, o repouso absoluto retarda a cura. É preferível mover o corpo o máximo possível.
-
-Uma pleurisia em estágio inicial pode ser curada em duas ou três sessões. É quase mais fácil de curar do que um resfriado. Mesmo os casos mais graves não levam mais do que uma semana.
-
-Dois ou três anos após a cura da pleurisia, pode surgir um furúnculo nas costas ou no peito. Isso é um sinal de que os pulmões se fortaleceram e, por meio da ação purificadora, estão expelindo o pus residual. Longe de ser um motivo de preocupação, é um acontecimento extremamente positivo. Se deixado em paz, o pus sairá naturalmente e o local cicatrizará.
-
-#### Pneumonia
-
-Esta é uma doença comum e de diagnóstico muito simples. Ocorre um acúmulo de pus, ou seja, de escarro, na parte inferior dos pulmões, precisamente na altura abaixo dos mamilos. Ao impor as mãos, percebe-se imediatamente que apenas essa região está quente como fogo.
-
-Os sintomas são chiado na garganta, tosse intensa e grande produção de escarro. A febre fica em torno de quarenta graus.
-
-A causa é a forma mais rápida e completa do processo de purificação; em suma, pode ser entendida como um "resfriado forte". Por isso, a pneumonia ocorre com mais frequência em pessoas saudáveis. Ou seja, ela ocorre justamente por serem saudáveis.
-
-O que acontece é um grande processo de purificação. O pus do pescoço e dos ombros, dissolvido pela febre do resfriado, espalha-se por toda a região torácica. Pelo seu peso, ele se acumula temporariamente na base dos pulmões. Ali, continua a ser dissolvido pelo calor e é expelido na forma de escarro, passando pelos alvéolos pulmonares. O chiado se deve ao escarro acumulado nos pulmões. Se o som vem do lado direito, há escarro no pulmão direito; se vem do esquerdo, no pulmão esquerdo.
-
-No tratamento, a purificação da área abaixo dos mamilos leva a uma cura muito simples e rápida. A febre logo cede. Para baixar a febre da pneumonia, uma única sessão de tratamento de cerca de uma hora pode ser suficiente. Já curei um paciente de pneumonia em uma semana, enquanto ele continuava trabalhando.
-
-É comum que a pneumonia evolua para asma. Isso acontece quando se usam antitérmicos durante a pneumonia, fazendo com que o escarro que não foi completamente dissolvido desça e se acumule na região que causa a asma.
-
-As complicações da pneumonia são causadas pelos métodos antipiréticos. O escarro não consegue ser completamente dissolvido, perde a força para ser expelido e fica estagnado no meio do pulmão. Pessoas nessa condição apresentam um forte estertor crepitante, o que muitas vezes leva a um diagnóstico equivocado de tuberculose avançada. Como esse escarro já passou por um processo de purificação, ele é muito fácil de dissolver.
-
-Há pessoas que, mesmo após a pneumonia ser considerada curada, não se sentem completamente bem. Nesses casos, a área abaixo dos mamilos ainda está quente, indicando a presença de resíduos.
-
-Existe também a broncopneumonia, que ocorre quando o pus acumulado na parte inferior transborda e se infiltra parcialmente na pleura. Sua cura também é muito rápida. É uma doença comum em crianças, conhecida como pneumonia infantil.
-
----
-
-# A Superioridade do Johrei em Relação à Medicina
-
-**Categoria:** o | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
-**Título Original:** おかげ批判 浄霊と医療の優劣現る | **Status:** Published | **Edição/Página:** 49号 | **Data ISO:** 1950-02-11
-
-## A Superioridade do Johrei em Relação à Medicina
-
-### Paralisia Facial Sanada pelo Johrei Após Agravamento por Tratamentos Médicos
-
-**Hiroshima, Templo TENGOKU, Igreja Yoko**
-**Takahira Takeo, 44 anos**
-
-O fato que passo a relatar ocorreu em julho de 1948. Ao despertar certa manhã, notei uma estranha alteração em meu rosto. Ao me examinarem, constataram que o lado esquerdo estava repuxado. Dirigi-me imediatamente ao hospital da fábrica, onde fui diagnosticado com paralisia do nervo facial, com a promessa de que a recuperação levaria cerca de um mês. Naquela ocasião, o senhor Anpo me procurou e recomendou o Johrei, afirmando que aceleraria a cura. Contudo, não dei crédito às suas palavras e, opondo-me à ideia, prossegui com o tratamento médico.
-
-Apesar das injeções e da eletroterapia diárias, meu estado se agravava progressivamente. Decorridos quarenta dias, tornara-se difícil até mesmo fumar, e eu já não conseguia alimentar-me adequadamente. Meu semblante tornou-se aterrador, pois meus olhos permaneciam abertos mesmo durante o sono. Após aproximadamente cinquenta dias, a situação deteriorou-se ainda mais: a eletroterapia provocava mal-estar, e as injeções desencadeavam febre. Cheguei a um ponto em que não havia mais recursos.
-
-Não me restava outra alternativa senão suplicar a Deus. Arrependido, pedi perdão por minha oposição inicial e roguei que me ministrassem Johrei. Após apenas três sessões, meu lado esquerdo, antes enrijecido, já conseguia piscar. A partir de então, recebi Johrei diariamente por trinta minutos após o jantar, e meu rosto foi restaurado à sua condição original. Desde então, minha esposa e eu recebemos o Ohikari e vivemos dias de profunda gratidão, renascidos sob a Divina Proteção.
-
-Apresento este breve relato como forma de agradecimento.
-
-**Comentário**
-
-Diante da paralisia facial deste paciente, o médico previu a cura em um mês. Todavia, apesar das injeções e da eletroterapia diárias, o quadro se agravou acentuadamente. Após trinta ou quarenta dias, atos simples como fumar ou alimentar-se tornaram-se impraticáveis, e ele dormia de olhos abertos. Os tratamentos médicos passaram a causar reações adversas, como mal-estar e febre, levando-o a uma situação desesperadora. Somente quando se arrependeu de sua oposição inicial e aceitou o Johrei, a melhora se manifestou: em três sessões, voltou a piscar e, em pouco tempo, obteve a cura completa. Este caso demonstra com clareza que as injeções e a eletroterapia, na verdade, agravaram a enfermidade.
-
-***
-
-### O Poder do Johrei Manifestado na Cura da Alopecia
-
-**Gifu, Templo GOROKUSHICHI, Igreja Ko**
-**Murai Kuni, 37 anos**
-
-A partir do final de junho de 1947, a cada vez que me penteava, meus cabelos caíam em grande quantidade. A princípio, não dei muita importância, mas a queda se intensificava dia após dia. A cada olhar no espelho, minha cabeça parecia mais exposta, e a angústia sobre o que me aconteceria me impedia de ter paz.
-
-Embora tivesse ingressado na fé em outubro de 1945 por recomendação de minha irmã, minha convicção ainda era frágil, e a intranquilidade me dominava. Percorri inúmeros médicos e hospitais, submetendo-me a medicamentos e injeções, mas sem obter qualquer resultado. Em meados de setembro, eu havia perdido completamente os cabelos, ficando com a cabeça totalmente calva.
-
-Chegando a esse ponto, restava-me apenas aceitar a situação, mas o desejo de ter meus cabelos de volta era desesperador. Nesse ínterim, por volta de dezembro, desenvolvi o que se poderia chamar de esgotamento nervoso, resultando em uma insônia severa. A dor de cabeça era lancinante, como se uma estaca perfurasse meu crânio, e eu me debatia em agonia, sem conseguir dormir mais de duas horas por noite. Minha família, sentindo-se impotente, levou-me a Tóquio, onde tentamos toda sorte de terapias, todavia, sem o menor vislumbre de melhora. Entregue ao desespero e convicta de que não havia outro caminho senão me apegar a Deus, retornei para casa em julho.
-
-Passei, então, a receber Johrei conforme me orientavam. Gradualmente, meu sono começou a melhorar e, simultaneamente, os primeiros fios de cabelo ressurgiram. O milagre ocorreu por volta de setembro do ano passado, exatamente um ano após o início da queda. Hoje, embora ainda curtos, meus cabelos cresceram o suficiente para que eu não precise mais de artifícios. Sinto do fundo do coração uma imensa gratidão pela graça divina de Deus.
-
-**Comentário**
-
-É possível imaginar o sofrimento de uma jovem que se vê completamente calva. A angústia é imensurável. O fato de que todas as terapias médicas tentadas para reverter essa condição se mostraram ineficazes revela a patente impotência da medicina. Em contrapartida, por meio do Johrei, seus cabelos voltaram a crescer após cerca de um ano, restaurando sua aparência original. A comparação entre a medicina e o Johrei, neste caso, é bastante elucidativa.
-
-***
-
-### O Poder Divino se Revela a um Cético e a Ineficácia das Terapias de Solidificação
-
-**Miyazaki, Templo HOHO, Igreja Miyazaki**
-**Estudante, Iwakawa Kiyomichi, 19 anos**
-
-Meu vizinho, o senhor Nakazono Sakichi, é uma pessoa que não professa fé em Deus, embora sua esposa já tenha recebido inúmeras graças. Houve até uma ocasião em que, ao seguir a esposa que trazia a filha ao Johrei Center, ele as interpelou aos gritos, dizendo: “Como algo assim pode curar alguém?”, agredindo a menina e arrastando-a à força para fora.
-
-No dia 3 de setembro, por volta das nove horas da manhã, sua esposa me procurou com um pedido: “Meu marido está com uma febre que não cede há uma semana e estamos aflitos. O senhor poderia nos ajudar?”. Atendi prontamente ao chamado. Segundo ela, fora o próprio senhor Sakichi quem a instruíra a me procurar. Cerca de vinte dias antes, ela sofrera com um inchaço severo em ambos os olhos; após eu lhe ministrar Johrei, o inchaço regrediu e a dor cessou. Tendo testemunhado esse fato, ele, em meio ao seu sofrimento, resolveu recorrer ao mesmo auxílio.
-
-O senhor Sakichi parecia constrangido em receber Johrei, mas, ao término da ministração, a dor desaparecera como por encanto, e seu alívio era evidente. “Perdoe-me por minha oposição, que nasceu da ignorância”, disse ele, com um pedido de desculpas sincero e desprovido de qualquer ressentimento. Ao me lembrar de sua atitude anterior, senti uma alegria imensa, comovido pela grandiosidade do poder de Kannon (観音).
-
-Ao entardecer, ele procurou novamente o Johrei Center, solicitando que o ministro Sakai fosse atendê-lo. “Sinto uma leve dor de cabeça ao tossir”, explicou. A causa remonta a um antigo ferimento, quando fora mordido na cabeça por um cavalo. Na época, para conter a supuração, ele recebeu injeções de penicilina e compressas de gelo, o que provavelmente solidificou as toxinas no local. O ministro Sakai explicou que, para essas toxinas se dissolverem e a cura completa ser alcançada, seria natural que ocorresse novamente alguma febre. Afirmou, contudo, que não havia risco de morte e que poderiam chamá-lo a qualquer momento caso a dor se intensificasse.
-
-Contudo, na manhã seguinte, um médico foi chamado e aplicou-lhe uma injeção para tratar a febre. Imediatamente após a injeção, um nódulo do tamanho de um punho formou-se na base de seu ombro direito. Este, juntamente com a testa, passou a doer de forma excruciante, uma sensação que ele descreveu como se estivesse em chamas. Em meio a grande sofrimento, por volta das oito horas da noite, ele nos procurou novamente.
-
-Com a ministração de Johrei, em cerca de cinco minutos o nódulo desapareceu visivelmente, a dor na fronte cessou e todo o sofrimento se dissipou. Até então, eu apenas ouvira relatos semelhantes, mas naquela ocasião testemunhei de forma inequívoca os efeitos deletérios das injeções e conheci a força grandiosa do Johrei. Tanto o senhor Nakazono quanto eu apenas pudemos agradecer, do fundo de nossos corações, à infinita e ilimitada virtude Divina.
-
-A esposa do senhor Nakazono, já no dia seguinte, iniciou seu aprimoramento espiritual, tornando-se membro de fato e de direito. É de se esperar que o senhor Nakazono em breve siga o mesmo caminho.
-
-**Comentário**
-
-Este é um excelente exemplo de como até mesmo os mais céticos são forçados a se curvar diante da evidência dos fatos. A dor que ressurgiu no local de uma antiga mordida de cavalo, tratada com penicilina e gelo para conter a supuração, demonstra o quão temporárias são as terapias de solidificação.
-
-Ademais, desconhecendo a causa, ele recorreu a uma injeção para uma dor e febre leves, o que resultou na formação de um nódulo do tamanho de um punho e em dores e febre lancinantes. Isso se deveu inteiramente à injeção. Com o Johrei, entretanto, o nódulo desapareceu em cerca de cinco minutos, a dor foi eliminada e a cura completa foi alcançada. Através desses fatos, a superioridade do Johrei em relação à medicina torna-se manifesta.
 
 ---
 

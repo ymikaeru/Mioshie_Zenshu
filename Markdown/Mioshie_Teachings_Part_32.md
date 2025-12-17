@@ -1,9 +1,254 @@
 # Mioshie_Teachings - Part 32
 
+# Noventa e Nove por Cento versus Um por Cento
+
+**Categoria:** English | **Ano:** - | **Fonte:** PERCENT VERSUS ONE PERCENT Eikoh , No.
+**Título Original:** NINETY-NINE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** PERCENT VERSUS ONE PERCENT Eikoh , No.
+
+## Noventa e Nove por Cento versus Um por Cento
+
+Conforme elucidei no capítulo anterior, a causa da guerra reside no próprio mal que habita o ser humano. A essência desse mal, como já escrevi, é a manifestação dos anseios dos espíritos animais, o que se torna evidente pela natureza brutal de seus atos. Quando me refiro a "animais", aludo primordialmente às feras e, em seguida, às aves; em casos mais raros, a insetos e peixes. Todos eles são indispensáveis para a administração dos desejos físicos do homem, tendo Deus assim criado os seres humanos. Constituem, portanto, o que se poderia chamar de um mal necessário.
+
+Contudo, esses espíritos animais estão conectados, por liames espirituais, ao líder do Mundo dos Espíritos Malignos, sendo, por conseguinte, perfeitamente manipulados segundo a sua vontade. Além disso, o Mundo dos Espíritos Malignos também possui uma hierarquia, e cada espírito maligno se apossa de um indivíduo cujo nível espiritual corresponde ao seu. Essa hierarquia abrange desde os mais altos até os mais baixos escalões, e sua organização é análoga à do Mundo dos Espíritos Divinos.
+
+Nesse contexto, desde os tempos primevos até os dias atuais, a humanidade tem atravessado dezenas ou centenas de milhares de anos em um confronto constante entre o bem e o mal. Naturalmente, ao longo desse período, a força dos espíritos malignos prevaleceu, de modo que os espíritos divinos foram frequentemente oprimidos. Todavia, que o mal tenha sido finalmente derrotado e o bem, vitorioso, é um fato que a própria História comprova. Com efeito, se os espíritos malignos houvessem prevalecido, o mundo teria sido destruído, e a realidade que hoje conhecemos jamais existiria. A razão para essa longa predominância do mal é que, até o presente momento, o tempo, em certa medida, o favorecia. Em outras palavras, vivíamos na Era da Noite. A Noite, por sua própria natureza, é escuridão, e o poder da Luz para subjugar o mal era insuficiente; era, portanto, uma situação inevitável.
+
+Em virtude do que foi exposto, o mundo, até então, era um lugar onde até mesmo o mal podia alcançar seus objetivos e mantê-los por um tempo considerável. As pessoas, ao testemunharem tal estado de coisas, iludiram-se, acreditando que o caminho do mal era um atalho para o sucesso, o que, por sua vez, gerou novos seguidores. Como resultado, a sociedade foi gradualmente infectada pelo mal, a ponto de essa ilusão se transformar em um preceito de senso comum para a vida.
+
+A História nos revela que, embora pareçam triunfar temporariamente por meios malignos, aqueles que assim procedem estão fadados ao fracasso inevitável. Contudo, a maioria das pessoas permaneceu insensível a essa realidade. Pode-se afirmar, portanto, que a história da humanidade não passa de um registro da contínua alternância entre o sucesso e o fracasso, ambos gerados pelo mal.
+
+Como o poder do mal era avassalador durante a Era da Noite, não foram poucos os justos que se tornaram suas vítimas. Entre eles, destacam-se muitos religiosos, sendo a maior de todas as vítimas Jesus Cristo. Até mesmo eu, se tivesse nascido naquela época, poderia ter enfrentado sofrimentos inimagináveis. Entretanto, como sempre lhes digo, a Noite chegou ao fim. Agora que adentramos a alvorada da Era do Dia, é-nos permitido avançar com menor padecimento, e nosso progresso segue o curso programado.
+
+Neste ponto, cumpre ressaltar que os planos e as atividades das divindades malignas não se limitam à guerra e à violência. Eles têm avançado em todas as áreas, seguindo um programa meticuloso e de longo alcance. Sua conquista mais bem-sucedida é a ciência materialista. Esta ciência materialista é, precisamente, a sua maior arma. Por meio dela, concederam benefícios assombrosos a toda a humanidade e, ao mesmo tempo, valendo-se dessa arma para conquistar a confiança das pessoas, pretendem, em última instância, apoderar-se do poder absoluto sobre a raça humana. O objetivo primordial desse programa maligno é, inequivocamente, governar a vida do ser humano.
+
+O instrumento que desenvolveram com essa finalidade é a medicina moderna. Por meio dela, buscam curar as doenças por métodos puramente materiais. Aparentemente, a cura parece de fato possível; contudo, em sua essência, a verdade é completamente diversa. Não obstante, sua inteligência é astuta o suficiente para se empenhar por todos os meios possíveis. Recorrem, evidentemente, a máquinas, raios de luz, novos medicamentos, cirurgias, entre outros recursos. Sua patologia é, ademais, teorizada exaustivamente, com detalhes microscópicos, mas ninguém até hoje foi capaz de enxergar a verdadeira situação.
+
+À luz disso, se alguém contrai uma enfermidade e pergunta sobre sua origem, a resposta é meramente protocolar. Os médicos são incapazes de oferecer uma explicação precisa, limitando-se a respostas extremamente vagas. Da mesma forma, ao serem questionados sobre o prognóstico, suas afirmações são sempre condicionais, como "é provável que...", sem jamais chegarem a uma conclusão definitiva. E, mesmo quando ousam fazer uma, o prognóstico se mostra equivocado em nove de cada dez casos — uma realidade que os próprios médicos devem vivenciar com frequência.
+
+O tema seguinte é o problema alimentar. Este se resume ao fertilizante químico, produzido, assim como os medicamentos, com base em preceitos majoritariamente científicos. Suponho que, por também apresentar um efeito temporário em seu início, as pessoas foram ludibriadas, e seu uso se disseminou por todas as nações, como vemos hoje — assunto que explico em detalhes em outro capítulo.
+
+A próxima questão é a guerra. Esta, como já descrevi, é o resultado das conspirações de indivíduos ambiciosos e competentes de cada época, que sacrificaram inúmeras vidas humanas em sua cobiça para se tornarem os governantes supremos. Contudo, também eles realizam seu sonho de sucesso apenas de forma passageira, culminando, sem exceção, no fracasso, e sobrevivem apenas como meros episódios nos anais da História.
+
+Até aqui, examinei em linhas gerais a natureza do mal. Diante do exposto, torna-se igualmente claro que chegou o momento em que Deus irá liquidar a cultura materialista. Agora que o propósito da divindade maligna se aproxima de sua concretização, Deus revela a verdade por meu intermédio. Se refletirem profundamente sobre isso, perceberão quão profundo e sutil é o grandioso desígnio de Deus, algo que verdadeiramente desafia a nossa capacidade de conjectura.
+
+Observando sob outra perspectiva, podemos entender que, se o poder de Deus é de cem por cento e o da divindade maligna, de noventa e nove por cento, Deus a supera em um por cento. É com esse um por cento que Ele reverte a situação. Esse poder é, de fato, a Nyoi Houshu (如意宝珠). Sendo assim, como sempre afirmo, a cultura contemporânea será transformada em seu ápice de noventa e nove por cento, momento que corresponde ao "fim do mundo" anunciado por Jesus Cristo. Portanto, é inevitável que, neste exato instante, ocorra no Mundo Espiritual um cataclismo extraordinário, capaz de abalar céus e terra. Aqueles que conseguirem crer nisso serão pessoas eternamente felizes.
+
+E, como o pilar desse plano maligno é a ciência moderna, a revolução da medicina ocorrerá como uma consequência natural. O que substituirá a ciência médica é o nosso método, o Johrei. Não é preciso me estender sobre o fato de uma pessoa comum, sem conhecimento algum de medicina, receber, após alguns dias de treinamento, o poder de curar enfermos à beira da morte, desenganados por inúmeros médicos. Consequentemente, com esse poder, não será tarefa difícil dissolver os erros que a cultura moderna cometeu e acumulou ao longo de várias dezenas de séculos.
+
+Neste momento, o manto da Noite é rasgado, e o Sol radiante desponta no horizonte. Agora é, pois, o alvorecer do Dia. Se é verdade o que disse Jesus Cristo — "felizes os que creem" —, será inevitável que os incrédulos estejam destinados à ruína.
+
+---
+
+# Acerca da Digestão
+
+**Categoria:** English | **Ano:** - | **Fonte:** DIGESTI Salvation of the World, No.
+**Título Original:** ON | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** DIGESTI Salvation of the World, No.
+
+## Acerca da Digestão
+
+A medicina frequentemente recomenda o consumo de certos alimentos por serem de fácil digestão, mas nisto reside um equívoco colossal. Na verdade, alimentos demasiadamente digeríveis dispensam a atividade estomacal, o que gradualmente leva ao seu enfraquecimento. Consequentemente, o hábito de ingerir tais alimentos, somado ao uso de digestivos, faz com que o estômago se torne cada vez mais lento e flácido. O agravamento desse quadro culmina naquilo que se conhece como gastroptose. Portanto, a gastroptose é uma enfermidade originada pela própria medicina equivocada. Ademais, a recomendação médica de mastigar exaustivamente os alimentos é igualmente errônea, constituindo-se apenas em outro método para debilitar o estômago.
+
+Por essa razão, Deus criou os alimentos para que fossem consumidos em uma sábia combinação entre os de fácil e os de difícil digestão. Sendo assim, afirmo com absoluta certeza: se a pessoa se alimentar daquilo que lhe apetece e considera saboroso, sem se preocupar se é ou não digerível, e mastigando apenas parcialmente, jamais sofrerá de qualquer mal estomacal.
+
+---
+
+# A Extinção da Tragédia
+
+**Categoria:** English | **Ano:** - | **Fonte:** EXTERMINATE THE ILLS OF TRAGEDY Hikari , No.
+**Título Original:** TO | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** EXTERMINATE THE ILLS OF TRAGEDY Hikari , No.
+
+## A Extinção da Tragédia
+
+Neste mundo, talvez não haja nada mais detestável para o ser humano do que a tragédia. Embora seja impossível erradicá-la por completo, mitigá-la em certa medida não é uma tarefa árdua. Nesse sentido, examinemos primeiramente a verdadeira natureza da tragédia.
+
+Com efeito, é um fato inegável que a causa de quase todas as tragédias reside na doença. Certamente, poder-se-ia argumentar que existem outras fontes de aflição, como os infortúnios amorosos ou as injustiças oriundas da cobiça material. Contudo, ao analisá-las mais a fundo, percebemos que também estas derivam de uma enfermidade de ordem espiritual. O adágio "mente sã em corpo são" revela-se, assim, uma verdade absoluta. O resultado de meus longos anos de pesquisa demonstra que desvios como a imoralidade, os conflitos passionais, a desonestidade, o temperamento irascível, o vício da bebida, a indolência e a delinquência juvenil estão, invariavelmente, associados a deficiências patológicas no corpo físico.
+
+Todavia, até o presente momento, nem a medicina moderna nem quaisquer outros métodos foram capazes de apresentar uma forma segura de curar por completo as enfermidades e de forjar um ser humano integralmente saudável, em espírito e matéria. Mesmo quando se lograva identificar a origem de uma doença, não havia um meio para solucioná-la de forma definitiva. Ainda que tenham surgido, ao longo da história, aqueles que se vangloriavam de haver descoberto a causa das doenças e estabelecido curas definitivas, suas conquistas, com demasiada frequência, não passavam de efeitos temporários que se desvaneciam com o tempo. Não posso deixar de sentir que, embora o dia decline, a jornada ainda é longa.
+
+Os inúmeros relatos de graças alcançadas, publicados em nosso periódico, ilustram essa realidade. As narrativas sobre a superação de moléstias graves e complexas, transbordando de alegria e gratidão, são de tal modo comoventes que é impossível lê-las sem derramar lágrimas.
+
+Tal solução para as doenças e a infelicidade provém do que chamamos de manifestação do poder invisível. Apenas aqueles que a vivenciam podem compreender a magnitude do poder Divino.
+
+O homem moderno não se convence sem fatos e evidências tangíveis. Sendo assim, por mais habilmente que se exponham teorias ou se recomendem doutrinas, enquanto não forem demonstrados efeitos concretos, tudo não passará de preces vazias. Nessas condições, salvar a humanidade e promover o bem-estar social não passaria de um sonho.
+
+A força pela qual o invisível move o visível constitui a verdadeira essência da fé. É precisamente isto que a nossa Igreja realiza na prática. Por essa razão, acredito que a designação mais fidedigna para ela seria "a religião do poder". A maioria das religiões tradicionais, como o próprio termo japonês para religião — *shukyo*, "ensinamentos da doutrina" — sugere, fundamenta-se em preceitos e busca despertar a alma a partir do exterior. O Johrei, método praticado por nossa Igreja, opera de modo distinto: ele irradia a Luz espiritual diretamente no âmago da alma, provocando seu despertar imediato. Trata-se, por assim dizer, de uma transformação que ocorre sem esforço aparente, o que relega os sermões e as preleções a uma importância secundária.
+
+Shakyamuni afirmou: "O ser, em sua essência, é Buda", e também: "Aquele que atinge a iluminação é um Bodhisattva". Suas palavras são a mais pura verdade. Aquele que se torna membro de nossa Igreja alcança, em um período notavelmente breve, um elevado nível de despertar espiritual e atinge a genuína iluminação. Com isso, não apenas deixa de se preocupar com suas próprias tragédias, como também se torna qualificado para, por sua vez, extinguir as tragédias de seus semelhantes.
+
+---
+
+# O Salvador e o Redentor
+
+**Categoria:** English | **Ano:** - | **Fonte:** MESSIAH AND  REDEEMER Unpublished " Creation of Civilization ", written in
+**Título Original:** THE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** MESSIAH AND  REDEEMER Unpublished " Creation of Civilization ", written in
+
+## O Salvador e o Redentor
+
+Até o presente momento, dediquei-me a expor, como teoria fundamental, a necessidade do mal e como, por meio dele, a civilização pôde progredir e desenvolver-se até o estado atual. Cumpre-me, agora, discorrer sobre outra questão de suma importância. Refiro-me ao fato de que, desde os primórdios da história, inúmeras religiões surgiram e, sem exceção, todas exortaram à prática do bem e repudiaram veementemente o mal.
+
+Naturalmente, tal postura é compreensível, uma vez que a premissa de qualquer religião é a erradicação do mal. Contudo, essa mesma premissa suscitava em mim um questionamento recorrente: “Como pode ser? Sendo Deus ou Buda a encarnação do amor e da compaixão, por que criaria pessoas más, permitiria que cometessem atos perversos para, em seguida, puni-las? Não reside aí uma profunda contradição? Porventura, se Deus não houvesse criado o mal desde o princípio, a necessidade de punição seria extinta, e não consistiria nisto o verdadeiro amor Divino?”.
+
+De fato, a pergunta é de uma lógica irrefutável, e confesso que eu mesmo compartilhava desse mesmo modo de pensar. Por essa razão, minha resposta era sempre a seguinte: “Sua observação é correta, todavia, não fui eu quem criou o mal e, portanto, não me cabe explicá-lo. Fundamentalmente, se Deus o permitiu, é porque existe uma razão para tal, e estou certo de que, no devido tempo, Ele nos revelará o motivo primordial. Sendo assim, não nos resta outra alternativa senão aguardar”.
+
+Eis que, finalmente, o tempo profetizado chegou, e Deus revelou-me detalhadamente esse grande mistério, o que me enche de inexprimível alegria. Estou convicto de que muitos outros, que albergavam a mesma dúvida, ao lerem estas palavras, sentirão seus olhos espirituais se abrirem subitamente, como se uma luz resplandecesse em meio à escuridão da noite.
+
+Por que, então, todos os fundadores de religiões do passado denunciaram o mal? Conforme detalhei anteriormente, o mal foi necessário por um determinado período, e por essa razão, o Deus Supremo não deu a conhecer seu profundo significado. Consequentemente, nem mesmo as divindades justas podiam compreendê-lo e, assim, persistiam na intenção de criar um paraíso unicamente por meios justos. Em contrapartida, os espíritos malignos, para os quais os fins justificam os meios, tentavam realizar suas ambições através de toda sorte de artifícios.
+
+Todavia, o prazo para a atuação do mal finalmente expirou, e o poder direto do Deus Supremo começou a se manifestar. Foi nesse contexto que Ele me escolheu para desvelar o significado fundamental do bem e do mal. A verdade é que os fundadores de religiões do passado não possuíam poder suficiente. O exemplo mais notável é o de Jesus Cristo. Ele próprio se declarou o Redentor, mas não o Salvador. Redentor, como a própria palavra indica, é aquele que redime o pecado. Sua missão era, portanto, tomar sobre si os pecados de toda a humanidade, apresentar-se em estado de contrição perante o Deus Supremo e rogar por Seu perdão. Em suma, ele atuou como um representante de todos os homens; era uma divindade do lado dos que são perdoados, e não do lado de Deus, que perdoa. Foi por essa razão, como compensação pelo pecado, que ele se deixou crucificar.
+
+Este mesmo princípio se aplica ao budismo. Shakyamuni, em seus primórdios, devotou-se a pregar inúmeros sutras com o objetivo de criar um Mundo Paradisíaco, mas seus esforços não evoluíram como antecipara. Foi então que, conforme consta nas escrituras budistas, ele afirmou: “Aos setenta e dois anos, alcancei o Kenshinjitsu (見真実)”, que significa “ver através da verdade”. Nesse momento, ele compreendeu verdadeiramente seu destino e sua missão. Reconheceu seus erros passados e percebeu que o advento do Mundo Paradisíaco ocorreria em um futuro muito distante. Confessou, então, que havia não poucos equívocos nos ensinamentos que pregara até ali, e que a verdade residia unicamente no que passaria a ensinar. Foi a partir dessa revelação que ele pregou o Sutra Hou-metsujin, sobre a extinção total da Lei de Buda; o Sutra Miroku-shutsugen-joju, sobre o cumprimento da profecia da vinda de Maitreya; e os Vinte e Oito Capítulos do Sutra de Lótus. Em uma palavra, Shakyamuni compreendeu o Butsu-metsu (仏滅), ou seja, que a Lei de Buda inevitavelmente pereceria, e anunciou que, após esse evento, adviria o Mundo de Miroku, o Paraíso na Terra — um relato amplamente conhecido.
+
+Há, contudo, um ponto que exige nossa atenção no que tange ao tempo. Shakyamuni disse que o Mundo de Miroku chegaria após cinco bilhões, seiscentos e setenta milhões de anos. Se refletirmos, porém, nem mesmo um ser como Shakyamuni profetizaria sobre um futuro tão inconcebivelmente distante. Afinal, que sentido haveria em tal profecia? É-nos impossível sequer imaginar qual seria o estado da Terra ou da humanidade em uma era tão remota. Segundo o que me foi revelado por Deus, a real intenção era apresentar os numerais 5, 6 e 7, pois neles se ocultava um profundo significado. O número 5 representa o Sol (Fogo); o 6, a Lua (Água); e o 7, a Terra (Solo). Esta é a ordem correta — 5-6-7 —, mas até hoje, o mundo esteve sob a ordem incorreta de 6-7-5. Embora eu venha a escrever sobre isso com mais detalhes posteriormente, o fato é que nem mesmo esses dois grandes santos, Jesus Cristo e Shakyamuni, puderam pregar a verdade em sua totalidade.
+
+A prova disso reside na própria falta de clareza das escrituras budistas e da Bíblia, que impossibilitaram a qualquer pessoa, até hoje, a apreensão da verdade. Naturalmente, tal fato foi inevitável, pois a época não o permitia.
+
+Agora, entretanto, chegou o momento em que o Deus Supremo finalmente revelará a mais profunda verdade. O que está descrito nesta obra é límpido e não admite qualquer dúvida, permitindo que todos possam facilmente compreendê-la. Ocorre que o tremendo poder do mal logrou, até o presente, dominar noventa e nove por cento de todas as coisas. E, no exato instante em que se prepara para subjugar o um por cento restante, surgirá, de forma surpreendente, o poder desse um por cento, que derrubará de um só golpe a conspiração dos espíritos malignos. Em outras palavras, o mundo em que o mal prevalecia sobre o bem se transformará em um mundo onde o bem prevalecerá sobre o mal.
+
+Para expressá-lo de forma concreta, os noventa e nove por cento de mal representam a medicina moderna. Conforme já escrevi, ela foi um mal necessário e, por isso, cumpriu seu papel até agora. Como resultado, porém, ela passou a dominar completamente a vida, o bem mais precioso do ser humano. Se a medicina estiver equivocada, o perigo que isso representa para a vida humana é indescritível. Corrigir algo em que a humanidade deposita uma fé tão inabalável é, desnecessário dizer, uma tarefa de enorme dificuldade.
+
+---
+
+# A Natureza Misteriosa do Mundo Espiritual
+
+**Categoria:** English | **Ano:** - | **Fonte:** OF THE SPIRITUAL WORLD Heaven on Earth,No.
+**Título Original:** MYSTERY | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** OF THE SPIRITUAL WORLD Heaven on Earth,No.
+
+## A Natureza Misteriosa do Mundo Espiritual
+
+O Mundo Espiritual é, em verdade, uma existência de natureza mística e prodigiosa, cuja compreensão transcende por completo o mero bom senso dos homens do mundo físico. A este respeito, discorrerei sobre como os pensamentos e as intenções humanas se refletem nesse plano.
+
+Uma vez que o Mundo Espiritual é um universo constituído unicamente pelo pensamento, nele, do nada, o ser se manifesta, e o ser, por sua vez, retorna ao nada, em um processo de infinitas metamorfoses. Tomemos como exemplo a criação de uma imagem sagrada de uma divindade ou de um Buda, seja por meio da pintura, da escultura ou de outra arte. Acontece que, de acordo com a índole de seu criador, o espírito divino ou búdico que nela se assenta manifestará, naturalmente, uma hierarquia distinta. Em outras palavras, é o caráter do artista que determina a natureza do espírito que ali se estabelece. Se o criador possuir um caráter da mais elevada estirpe, um espírito divino de alta hierarquia, correspondente a essa nobreza, descerá sobre o objeto. Inversamente, ainda que a forma visível seja idêntica, se o caráter do autor for de baixo nível, um espírito divino substituto ou uma emanação de um espírito divino, compatível com essa condição, ali se instalará.
+
+Há ainda outro aspecto a considerar. Quando os fiéis oram com sinceridade e de todo o coração diante de um Objeto Sagrado, o poder do espírito divino nele presente – ou seja, sua Luz – manifesta-se com grande intensidade. Em contrapartida, se os pensamentos do devoto não passam de mero formalismo, desprovidos de um sentimento genuíno de reverência, o poder desse espírito divino é atenuado na mesma proporção. Ademais, quanto maior o número de pessoas a reverenciar o Objeto Sagrado, mais resplandecente se torna a Luz emanada de seu poder divino.
+
+Desde a antiguidade, há um ditado popular que afirma: “Até a cabeça de uma sardinha pode se tornar sagrada pela fé”. O que isso significa? Se uma pessoa de índole inferior e sem qualquer qualificação cria um objeto de veneração e, por meio de propaganda ardilosa, atrai por algum tempo um número considerável de seguidores, os pensamentos e as intenções coletivas desses devotos acabam por plasmar a forma de uma divindade ou de um Buda no Mundo Espiritual. Consequentemente, esse objeto manifesta um poder considerável e concede certos benefícios, fenômeno que resulta inteiramente da criação da mente humana e que só pode ser descrito como verdadeiramente misterioso. Todavia, embora tais cultos possam prosperar por um período, eles não são autênticos. Por serem criações temporárias e ilusórias, estão fadados a desaparecer com o tempo. Como todos sabem, não são poucos os exemplos desse tipo de ocorrência. As chamadas “divindades da moda” pertencem a essa categoria.
+
+O que foi exposto até aqui refere-se aos espíritos divinos. Passemos agora a uma análise do seu oposto: os espíritos malignos.
+
+É notória a abundância, em nosso mundo, de indivíduos imorais que, para satisfazer os próprios desejos, causam transtornos ao próximo, infligindo-lhe sofrimento e desgraça. Evidentemente, como sempre ressaltamos, tais atitudes são fruto do pensamento materialista, que nega a existência do invisível. Contudo, sob uma perspectiva espiritual, esse fenômeno se revela assombroso e verdadeiramente aterrador.
+
+Quando uma pessoa faz outra sofrer, a vítima inevitavelmente nutre rancor, ódio e um desejo de vingança. Seus pensamentos e intenções, viajando através de cordões espirituais, colidem diretamente com o agressor. Do ponto de vista espiritual, as formas geradas por essa fúria e esse ressentimento são pavorosas. Se pudessem ser vistas a olho nu, até o mais vil dos malfeitores sucumbiria instantaneamente ao pavor.
+
+Quando o número de vítimas não se limita a uma ou duas, mas atinge a casa dos milhares ou das dezenas de milhares, essa multidão de pensamentos converge e se aglutina, dando origem a monstruosidades ainda mais aterradoras e de uma estranheza sem par. Tais entidades assumem as mais diversas formas, cercando o malfeitor com o intuito de aniquilá-lo, tornando sua situação insustentável. Assim, não importa quão heroico ou audaz seja o indivíduo, ele não terá outra escolha senão perecer sob um destino trágico. Uma análise das grandes figuras da História, tanto do passado como do presente, revela que, sem exceção, todas elas trilharam um caminho semelhante. Isso se torna evidente ao observarmos outros casos, como as tragédias que se abateram sobre políticos corruptos, a ruína de novos-ricos e, de modo especial, o fim que tiveram aqueles que iludiram e fizeram de joguete inúmeras mulheres, bem como os agiotas de natureza perversa.
+
+Em total contraste, aquele que realiza inúmeras boas ações e recebe de muitas pessoas pensamentos de gratidão e profunda emoção, verá esses pensamentos se converterem em uma Luz que o envolve. Por essa razão, sua virtude se engrandece cada vez mais. Os espíritos malignos, temendo essa Luz, tornam-se incapazes de se aproximar, e a pessoa alcança uma felicidade grandiosa. As auréolas que frequentemente vemos representadas nas imagens de deuses e budas são um símbolo justamente dessa Luz.
+
+Pelo que foi exposto, pode-se compreender a imensa importância que devemos atribuir aos pensamentos e às intenções do ser humano.
+
+---
+
+# A Concretização da Verdade
+
+**Categoria:** English | **Ano:** - | **Fonte:** OF THE TRUTH
+**Título Original:** ACTUALIZATION | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
+
+## A Concretização da Verdade
+
+Qual é, em primeiro lugar, o verdadeiro propósito da religião? A resposta, evidentemente, é a concretização da verdade. Pois bem, o que é a verdade? É, naturalmente, a natureza em sua forma primordial. O Sol nascer no leste e se pôr no oeste; o ser humano, uma vez que nasce, ter de morrer inevitavelmente — o que o budismo denomina "tudo que vive deve perecer" e "aqueles que se encontram devem se separar" —; o fato de respirarmos o ar e nos mantermos vivos pelo alimento: tudo isso, inquestionavelmente, constitui a verdade. O fato de ser preciso enunciar realidades tão manifestas revela o quão desnorteada se encontra a humanidade em seu estado atual.
+
+Por essa razão, ao observarmos os eventos nefastos que permeiam a sociedade contemporânea — a desordem, os conflitos, o caos, a criminalidade —, torna-se inegável que as condições que conduzem a humanidade à infelicidade superam em muito as que a levariam à felicidade. Sendo assim, cumpre-nos refletir sobre a origem de tal quadro. Do meu ponto de vista, a causa reside precisamente no fato de que o alicerce de todas as coisas se distanciou em demasia da verdade. A questão resume-se ao simples fato de que, embora as pessoas tenham se afastado da verdade, elas não possuem a menor consciência dessa condição.
+
+Todavia, por qual motivo isso ocorre? Permitam-me ponderar e expor a realidade: o homem contemporâneo tornou-se incapaz de sequer vislumbrar a própria verdade. Uma das razões é, possivelmente, a impossibilidade de dirigir seus pensamentos à natureza da verdade, por estarem excessivamente ocupados com os problemas prementes da vida cotidiana. Contudo, há outro motivo: até mesmo a religião, instrumento crucial para a solução, careceu até hoje de luz suficiente para enxergar a verdade com clareza e, com frequência, ensinou a inverdade, acreditando ser a verdade. Se a religião tivesse possuído a capacidade de ensinar a verdade de maneira fidedigna, a sociedade humana estaria, sem dúvida, em uma condição muito superior à atual. Ouso dizer que o Paraíso na Terra já poderia ter sido concretizado em certa medida.
+
+Entretanto, o tempo celestial chegou, e a Vontade Divina manifesta-se agora, fazendo com que Deus, por meu intermédio, anuncie a verdade e, utilizando-me como Seu instrumento, execute a sua concretização. Portanto, uma vez que todos os discursos que exponho revelam a própria verdade da maneira mais simples e acessível a todos, se meus leitores, livres de quaisquer preconceitos e de mente aberta, lerem meus escritos com atenção e discernimento, a verdade emergirá vividamente em suas consciências.
+
+A esse respeito, principiarei explicando as questões mais triviais: o ser humano adoece precisamente por haver se desviado da verdade em algum aspecto, e a razão pela qual a medicina não consegue curar a doença reside no fato de que ela também se encontra apartada da verdade. A má condução da política, a insalubridade do pensamento, o aumento da criminalidade, o sofrimento causado pela escassez de dinheiro, pela deflação ou pela inflação — tudo isso ocorre porque, em algum ponto, há um desvio da verdade. Se não houvesse desvio algum da verdade por parte dos homens, tudo o que é correto transcorreria conforme seus desejos, pois foi dessa maneira que Deus criou a sociedade humana. Logo, não é tão difícil concretizar uma sociedade ideal, plena de virtude e beleza, nem que o homem viva uma vida de alegria e felicidade. Em outras palavras, é nisto que reside a possibilidade da vinda do Paraíso na Terra, que tanto preconizo.
+
+Diante do exposto, minhas palavras podem parecer, em certos pontos, bastante singulares. Na realidade, porém, não há nelas singularidade alguma; são a mais pura expressão do que é natural. As pessoas percebem essa suposta singularidade porque observam o mundo com olhos que não enxergam a verdade. Quanto mais consideram herética a minha visão, mais evidente se torna que a própria realidade deste mundo é herética.
+
+Deus concedeu ao homem liberdade ilimitada. Esta é a verdade. Aos animais e plantas, seres distintos do homem, foi outorgada apenas uma liberdade restrita. É nisso que consiste a nobreza da condição humana. Sendo assim, o que é a liberdade intrínseca ao homem? Afirmo que o homem possui liberdade por existir em um ponto intermediário entre dois extremos opostos: se elevado, torna-se um deus; se degradado, torna-se uma besta.
+
+Ao levarmos esse raciocínio adiante, chegamos à seguinte conclusão: depende unicamente da conduta humana que este mundo se torne um paraíso pleno de alegria ou, ao contrário, um inferno de miséria. Esta é a verdade. Diante disso, qual dos dois caminhos devemos escolher? Não é preciso sequer ponderar; à exceção de um demônio inato, é perfeitamente natural que se prefira o primeiro.
+
+Segue-se, pois, que a primeira opção — a realização de um mundo paradisíaco — é precisamente o propósito último da humanidade, e a consecução desse propósito nada mais é que a concretização da verdade. E sendo esta a missão primordial da religião, ensino continuamente a verdade, tanto pela palavra escrita quanto pela falada. Ademais, na qualidade de concretizador da verdade, atuo dia e noite com o máximo de meus esforços.
+
+---
+
+# Sobre a Enfermidade do Câncer
+
+**Categoria:** English | **Ano:** - | **Fonte:** CANCER Eikoh, No.
+**Título Original:** ON | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** CANCER Eikoh, No.
+
+## Sobre a Enfermidade do Câncer
+
+Na edição anterior, o senhor Bunji Tatematsu, nosso correligionário residente nos Estados Unidos, relatou em sua correspondência que a enfermidade mais temida pelo povo norte-americano é o câncer. Diante disso, dissertarei sobre a origem desse mal. A causa primordial do câncer é bastante simples: consiste no acúmulo de toxinas provenientes do consumo de carne. Podemos compreender essa realidade ao observar que tal doença acomete, com maior frequência, pessoas de meia-idade e idosos, e não os jovens.
+
+Portanto, para se imunizar contra o câncer, é necessário ingerir uma grande quantidade de vegetais. Conforme já escrevi anteriormente, o ideal para o ser humano é manter um equilíbrio, consumindo carne e vegetais em porções iguais. A razão para tal reside no fato de a carne ser um alimento de natureza Yang, enquanto os vegetais são de natureza Yin. O consumo desproporcional e excessivo de um em detrimento do outro contraria, assim, as leis da Natureza.
+
+Nesse sentido, caso alguém venha a contrair câncer, a mudança imediata para uma dieta vegetariana garantirá a cura, ainda que o processo seja prolongado.
+
+Contudo, faço aqui uma advertência: se, ao contrair a enfermidade, a pessoa recorrer a medicamentos ou a tratamentos como a radioterapia, o efeito será reverso, tornando a cura improvável. Em tais circunstâncias, não me é possível assegurar a recuperação. Logo, se nenhum tratamento de ordem médica for empregado, a cura é certa, não havendo motivo para preocupação.
+
+Aproveito a oportunidade para discorrer sobre outras doenças prevalentes nos Estados Unidos. Além do câncer, a poliomielite tem sido, há tempos, motivo de grande aflição. Trata-se, no entanto, de uma pseudopoliomielite, cuja verdadeira causa é o enrijecimento de toxinas de injeções e de outros medicamentos nas pernas. A cura para essa condição reside unicamente no Johrei. Visto que, no momento, sua prática é inviável naquele país, a melhor alternativa é entregar o processo à Natureza. Por meio da purificação natural, a melhora ocorrerá gradualmente, sendo este o único caminho a seguir. Todavia, por desconhecerem esse princípio, as pessoas agravam o quadro com tratamentos médicos, transformando-o em uma doença incurável para toda a vida.
+
+Por fim, mencionarei a tuberculose. A esse respeito, publicarei em breve o livro “A Cura da Tuberculose pela Fé”, que será distribuído também nos Estados Unidos. Todos que o lerem serão salvos. Felizmente, a mentalidade do povo norte-americano é progressista e pouco afeita a se apegar a teorias convencionais. Sendo assim, creio que meus esclarecimentos serão reconhecidos mais rapidamente do que se imagina.
+
+---
+
+# A Realidade do Mundo Pós-Morte
+
+**Categoria:** English | **Ano:** - | **Fonte:** THE SPIRIT AFTER DEATH REAL? Tidings of Great Joy from Heaven , February
+**Título Original:** IS | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** THE SPIRIT AFTER DEATH REAL? Tidings of Great Joy from Heaven , February
+
+## A Realidade do Mundo Pós-Morte
+
+A questão sobre a existência do espírito após a morte tem sido, desde tempos imemoriais, palco de inúmeras controvérsias que permanecem sem uma conclusão definitiva. Eu, contudo, afirmo categoricamente que os espíritos existem, pois sua existência é um fato. Ninguém pode negar aquilo que é real. As descrições do Inferno e do Paraíso legadas pelo Buda Shakyamuni, assim como o Céu, o Inferno e o Purgatório na Divina Comédia de Dante, não são, em minha convicção, hipóteses absurdas e desprovidas de fundamento.
+
+Mas, afinal, como é o Mundo Espiritual? Em uma única expressão, é um mundo regido pelo pensamento e pela intenção. Nele, desfruta-se de uma liberdade de movimento extraordinária, dada a ausência de barreiras materiais como o corpo físico. Um espírito, por meio de sua vontade, pode deslocar-se a qualquer lugar com uma velocidade superior à de um avião. No Xintoísmo, durante os rituais de invocação, entoa-se: "Percorrei os céus, atravessai a terra e vinde repousar neste santuário". De fato, distâncias de milhares de quilômetros podem ser vencidas em minutos, ou até mesmo em segundos.
+
+Todavia, a celeridade com que um espírito se move depende de seu nível hierárquico. Espíritos de elevada graduação, ou seja, aqueles que alcançaram a divindade, deslocam-se com grande rapidez. Quanto mais alta a sua posição, mais velozes se tornam. Um espírito divino supremo pode atingir qualquer destino, por mais distante que seja, em um instante mais breve que um décimo de milésimo de segundo. Em contrapartida, um espírito de graduação inferior pode levar dezenas de minutos para percorrer a mesma distância. Isso ocorre porque, quanto menor sua graduação, mais denso e maculado é o espírito.
+
+Ademais, os espíritos possuem a capacidade de se expandir e contrair livremente, conforme seu próprio pensamento. Em um altar budista familiar de aproximadamente trinta centímetros de largura, centenas de espíritos ancestrais podem se enfileirar. Nesses momentos, a ordem, a hierarquia e as vestimentas são mantidas com extremo rigor, preservando uma organização que corresponde à posição de cada um. Naturalmente, os espíritos se rejubilam imensamente com rituais realizados com sinceridade, mas não se agradam de cerimônias meramente protocolares. Nessas ocasiões, eles se fixam nos nomes póstumos budistas ou, no Xintoísmo, em espelhos sagrados, pedras, inscrições ou árvores sagradas, como o himorogi (神籬). Portanto, os rituais devem ser conduzidos com a máxima sinceridade e magnificência, de acordo com as possibilidades de cada um.
+
+Desde a antiguidade, há relatos de pessoas que avistaram espíritos, geralmente de indivíduos recém-falecidos. O espírito de alguém que morreu há pouco tempo é visível aos olhos humanos porque suas células espirituais são mais densas. O fato de que muitas pessoas testemunharam a ascensão de Cristo após sua ressurreição não é um milagre inexplicável, mas um evento perfeitamente plausível. Sua elevação aos céus, entretanto, deveu-se à sua condição de espírito de altíssima graduação. Com o passar dos anos, os espíritos purificam-se e tornam-se mais rarefeitos, o que os torna difíceis de serem percebidos pela visão humana. Além disso, um espírito pode entrar e sair livremente até mesmo por um orifício minúsculo, como o de um alfinete, pois não possui o obstáculo do corpo físico.
+
+Observado apenas por este prisma, o Mundo Espiritual poderia parecer uma utopia para os defensores do livre-arbítrio, mas a realidade é outra. Ocorre que o Mundo Espiritual é governado por leis absolutamente imperativas, que restringem essa liberdade.
+
+Gostaria de acrescentar uma palavra sobre a fisionomia dos espíritos. Logo após a morte, eles mantêm a exata aparência que tinham no momento do passamento, tal como se vê em ilustrações. Isso se deve ao pouco tempo transcorrido. Com o passar dos dias, sua aparência se molda fielmente ao seu pensamento e à sua intenção. Por exemplo, uma pessoa negativa, pessimista e solitária adquirirá uma figura desolada, emagrecida e desalentada. Alguém com pensamentos brutais assumirá a aparência de uma fera; uma pessoa de índole demoníaca terá a fisionomia de um demônio; e quem nutre pensamentos ignóbeis terá um semblante repulsivo. Por outro lado, aqueles de coração nobre e belo manifestarão essa virtude em sua aparência. No mundo terreno, o corpo físico funciona como um invólucro que permite dissimular a verdadeira natureza, mas no Mundo Espiritual, tudo se revela de forma nua e crua, um processo que se consolida em aproximadamente um ano.
+
+Em uma obra de um famoso líder religioso, encontrei a seguinte passagem: "O espírito humano se extingue após a morte; portanto, nem ele nem o Mundo Espiritual continuam a existir. A razão é simples: se assim fosse, com os incontáveis bilhões de pessoas que morreram desde a antiguidade, o Mundo Espiritual já deveria estar superlotado".
+
+Este autor, embora seja uma grande figura do mundo budista, desconhecia a capacidade que os espíritos possuem de se expandir e contrair livremente.
+
+---
+
+# A Onipotência da Ciência
+
+**Categoria:** English | **Ano:** - | **Fonte:** SCIENCE ALMIGHTY? Miscellaneous Topics Related to Religious Faith, p.
+**Título Original:** IS | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** SCIENCE ALMIGHTY? Miscellaneous Topics Related to Religious Faith, p.
+
+## A Onipotência da Ciência
+
+Na atualidade, as pessoas falam como se não houvesse problema que a ciência não pudesse resolver, tratando-a como se fosse uma panaceia. A respeito dessa crença, gostaria de lhes fazer uma pergunta: seria a ciência capaz de solucionar as questões da moral, da arte ou do amor?
+
+Se a ciência de fato pudesse dirimir as questões morais, então os indivíduos que receberam a mais esmerada formação científica, os egressos das mais altas instituições de ensino, deveriam ser moralmente superiores. Todavia, o fato de não serem raros os casos de prevaricação, crimes infames e outros delitos entre essas mesmas pessoas revela claramente a parca influência da ciência no campo da moralidade.
+
+Passemos agora à arte, um campo que nos reserva outra surpresa. Quando observo as obras dos artistas contemporâneos, imersos em uma era de grande progresso científico, e as comparo com as criações de mestres de séculos passados — que desconheciam a ciência —, constato um fato que nunca deixa de me assombrar: as obras antigas são, em muitos aspectos, imensamente superiores.
+
+O que considero mais fascinante, no entanto, é o amor entre homens e mulheres. Como seria possível interpretar esse sentimento cientificamente?
+
+Estas três questões são, indubitavelmente, alguns dos maiores e mais cruciais dilemas da existência humana, cuja solução se faz premente.
+
+É verdade que, no plano material, a ciência tem oferecido contribuições notáveis à humanidade, e anseio sinceramente por seu contínuo progresso. Contudo, como mencionei, há um número considerável de problemas que a ciência é incapaz de solucionar. Não seria justamente essa a esfera que cabe à religião?
+
+Nesse sentido, chego a uma conclusão: o progresso harmônico de ambas — ciência e religião — constitui o verdadeiro avanço da civilização humana.
+
+---
+
 # A Análise do Elemento Tóxico
 
 **Categoria:** English | **Ano:** - | **Fonte:** OF TOXIC ELEMENT " Faith Cure for Tuberculosis, " December
 **Título Original:** ANALYSIS | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** OF TOXIC ELEMENT " Faith Cure for Tuberculosis, " December
 
 ## A Análise do Elemento Tóxico
 
@@ -43,6 +288,7 @@ Se assim é, torna-se evidente que o ser humano não deve ingerir nenhuma subst�
 
 **Categoria:** English | **Ano:** - | **Fonte:** AND RELIGION The Light from the East , first issue, January
 **Título Original:** CRISIS | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** AND RELIGION The Light from the East , first issue, January
 
 ## A Religião em Tempos de Crise
 
@@ -62,6 +308,7 @@ Por conseguinte, os líderes religiosos devem, doravante, empenhar-se arduamente
 
 **Categoria:** English | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** ARE WHAT  THINK a brief comment Hikari , No.
 **Título Original:** YOU | **Status:** Published | **Edição/Página:** 25号, 25号 | **Data ISO:** 1949-09-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Ser Humano é Conforme seu Pensamento
 
@@ -77,6 +324,7 @@ A esse respeito, os escritos da religião Oomoto-kyou contêm um aforismo de pro
 
 **Categoria:** English | **Ano:** - | **Fonte:** IS ALL AND EVERYTHING Eikoh , No.
 **Título Original:** HEALTH | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** IS ALL AND EVERYTHING Eikoh , No.
 
 ## A Saúde é Tudo
 
@@ -100,6 +348,7 @@ Pelo exposto, depreende-se que, seja por meio da religião, da ciência, da filo
 
 **Categoria:** English | **Ano:** - | **Fonte:** OF BACTERIA "Faith Cure for Tuberculosis," December
 **Título Original:** ORIGINATION | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** OF BACTERIA "Faith Cure for Tuberculosis," December
 
 ## A Gênese das Bactérias
 
@@ -143,6 +392,7 @@ Ainda haveria muito mais a dizer, mas, para não nos afastarmos gradualmente da 
 
 **Categoria:** English | **Ano:** - | **Fonte:** IS DISEASE? " To Help American People Suffering from Disease, " p.
 **Título Original:** WHAT | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** IS DISEASE? " To Help American People Suffering from Disease, " p.
 
 ## A Verdade Sobre a Doença e a Cura
 
@@ -182,6 +432,7 @@ Ademais, o mais eficaz de todos os métodos de solidificação é o medicamento,
 
 **Categoria:** English | **Ano:** - | **Fonte:** BETWEEN GOD AND MAN Eikoh , No.
 **Título Original:** ONENESS | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** BETWEEN GOD AND MAN Eikoh , No.
 
 ## A Unidade entre Deus e o Homem
 
@@ -205,6 +456,7 @@ Nesse sentido, de agora em diante, levarei a cabo inúmeros e surpreendentes pro
 
 **Categoria:** English | **Ano:** - | **Fonte:** ROOT OF SOCIAL EVILS Hikari, No.
 **Título Original:** THE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** ROOT OF SOCIAL EVILS Hikari, No.
 
 ## A Raiz dos Males Sociais
 
@@ -228,6 +480,7 @@ Todavia, por mais que se advoguem com fervor teorias religiosas, que se preguem 
 
 **Categoria:** English | **Ano:** - | **Fonte:** ATHEISM Eikoh, No.
 **Título Original:** ON | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** ATHEISM Eikoh, No.
 
 ## Acerca do Ateísmo
 
@@ -261,6 +514,7 @@ Há uma prova cabal disso: os criminosos que cometeram seus delitos em razão de
 
 **Categoria:** English | **Ano:** - | **Fonte:** IS A MIRACLE Hikari , No.
 **Título Original:** RELIGION | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** IS A MIRACLE Hikari , No.
 
 ## A Religião é o Milagre
 
@@ -284,6 +538,7 @@ O Deus Onipotente, por intermédio de Kanzeon Bosatsu (観世音菩薩) — tamb
 
 **Categoria:** English | **Ano:** - | **Fonte:** HIERARCHY OF  SPIRITUAL WORLD Tidings of Great Joy from Heaven , February
 **Título Original:** THE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** HIERARCHY OF  SPIRITUAL WORLD Tidings of Great Joy from Heaven , February
 
 ## A Hierarquia do Mundo Espiritual
 
@@ -309,6 +564,7 @@ Aqueles que recebem os ensinamentos do Johrei relatam, de forma unânime, transf
 
 **Categoria:** English | **Ano:** - | **Fonte:** Shinko Zatsuwa
 **Título Original:** MAKOTO | **Status:** Unknown | **Edição/Página:** P.1 | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## A Sinceridade
 
@@ -326,6 +582,7 @@ Ah, a Sinceridade! Quão fundamental é a Sinceridade! Ó humanidade, a única c
 
 **Categoria:** English | **Ano:** - | **Fonte:** CLASSES OF INTELLIGENCE (
 **Título Original:** FIVE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** CLASSES OF INTELLIGENCE (
 
 ## Uma Análise sobre as Cinco Classes da Inteligência
 
@@ -357,6 +614,7 @@ Haveria, então, um meio de erradicar essa inteligência ardilosa? A resposta é
 
 **Categoria:** English | **Ano:** - | **Fonte:** GODS AND BUDDHAS EXIST? Tidings of Great Joy from Heaven , February
 **Título Original:** DO | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** GODS AND BUDDHAS EXIST? Tidings of Great Joy from Heaven , February
 
 ## Deus e os Budas Existem?
 
@@ -388,6 +646,7 @@ Nesse sentido, caros leitores, almejo que abram os olhos com discernimento para 
 
 **Categoria:** su | **Ano:** 昭和26(1951)年7月4日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光111号) 白光生 | **Status:** Published | **Edição/Página:** 111号, 111号 | **Data ISO:** 1951-07-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Fragmentos de Sabedoria
 
@@ -407,6 +666,7 @@ A nação vitoriosa na guerra clama incessantemente por um tratado de paz, enqua
 
 **Categoria:** su | **Ano:** 昭和24(1949)年4月8日 | **Fonte:** -
 **Título Original:** 寸鉄 (光４号) 白光生 | **Status:** Published | **Edição/Página:** ４号, 4号 | **Data ISO:** 1949-04-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos
 
@@ -440,6 +700,7 @@ O mundo é, de fato, um lugar curioso. Dizem-se mentiras, e elas se tornam verda
 
 **Categoria:** su | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世53号) 白光生 | **Status:** Published | **Edição/Página:** 53号, 53号 | **Data ISO:** 1950-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Breves Reflexões
 
@@ -465,6 +726,7 @@ Em decorrência de um artigo que afirmava que o Kyoshu Okada e toda a sua famíl
 
 **Categoria:** su | **Ano:** 昭和27(1952)年3月5日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光146号) | **Status:** Published | **Edição/Página:** 146号, 146号 | **Data ISO:** 1952-03-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Agudeza que Vivifica
 
@@ -482,6 +744,7 @@ Cada pessoa que se torna nosso fiel o faz por ter chegado ao fundo do poço do s
 
 **Categoria:** English | **Ano:** - | **Fonte:** I GOD OR MAN? From " A Story on Me ", unpublished, written in
 **Título Original:** AM | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** I GOD OR MAN? From " A Story on Me ", unpublished, written in
 
 ## Seria eu Deus, ou homem?
 
@@ -511,6 +774,7 @@ Ademais, os milagres continuavam a se manifestar um após o outro, despertando e
 
 **Categoria:** su | **Ano:** 昭和27(1952)年4月2日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光150号) | **Status:** Published | **Edição/Página:** 150号, 150号 | **Data ISO:** 1952-04-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Máscara da Falsa Solicitude
 
@@ -526,6 +790,7 @@ Eu, por meio da Agricultura Natural, promoverei um extraordinário aumento na pr
 
 **Categoria:** su | **Ano:** 昭和25(1950)年1月14日 | **Fonte:** -
 **Título Original:** 寸鉄 (光45号) 白光生 | **Status:** Published | **Edição/Página:** 45号, 45号 | **Data ISO:** 1950-01-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Apontamentos da Verdade
 
@@ -555,6 +820,7 @@ Nosso movimento de erradicação da superstição consiste em fazer com que os s
 
 **Categoria:** su | **Ano:** 昭和24(1949)年6月11日 | **Fonte:** -
 **Título Original:** 寸鉄 (光12号) 白光生 | **Status:** Published | **Edição/Página:** 12号, 12号 | **Data ISO:** 1949-06-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Observações Pungentes
 
@@ -580,6 +846,7 @@ Sendo assim, nas próximas eleições gerais, se um judoca se candidatar, sua vi
 
 **Categoria:** su | **Ano:** 昭和26(1951)年1月10日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光86号) 白光生 | **Status:** Published | **Edição/Página:** 86号, 86号 | **Data ISO:** 1951-01-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Bomba de Luz
 
@@ -593,6 +860,7 @@ Surpreender-se-ão ao saber que existe um poder capaz de repelir o clarão ofusc
 
 **Categoria:** su | **Ano:** 昭和25(1950)年9月13日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光69号) 白光生 | **Status:** Published | **Edição/Página:** 69号, 69号 | **Data ISO:** 1950-09-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos da Luz
 
@@ -612,6 +880,7 @@ Disse eu aos jornalistas que, por tantas pautas que nossa Igreja lhes forneceu, 
 
 **Categoria:** su | **Ano:** 昭和6(1931)年9月1日 | **Fonte:** 瑞Hikari
 **Título Original:** 杉浦翠子女史へ | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1931-09-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 瑞光
 
 ## Uma Resposta à Senhora Suguiura Midoriko
 
@@ -633,6 +902,7 @@ Não ouso exigir uma réplica, e seu silêncio será igualmente compreendido. Co
 
 **Categoria:** su | **Ano:** 昭和24(1949)年4月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 寸鉄 (地上天国３号) 白光生 | **Status:** Published | **Edição/Página:** ３号, 3号 | **Data ISO:** 1949-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Breves Apontamentos sobre a Realidade
 
@@ -676,6 +946,7 @@ Já a postura intelectualizada e a imagem cativante de renovação do senhor Inu
 
 **Categoria:** English | **Ano:** - | **Fonte:** ACTIVITIES OF THE EVIL DEITIES Heaven on Earth, No.
 **Título Original:** INTENSE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** ACTIVITIES OF THE EVIL DEITIES Heaven on Earth, No.
 
 ## A Intensa Atuação dos Espíritos Malignos
 
@@ -707,6 +978,7 @@ Em suma, tudo se desenrola segundo a Providência do Deus Supremo. No processo d
 
 **Categoria:** sa | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 酒飲みの霊 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Manifestações Espirituais e o Vício da Bebida
 
@@ -746,6 +1018,7 @@ Naquela oportunidade, perguntei-lhe: "Mas em sua casa, no Mundo Espiritual, cert
 
 **Categoria:** su | **Ano:** 昭和24(1949)年5月8日 | **Fonte:** -
 **Título Original:** 寸鉄 (光８号) 白光生 | **Status:** Published | **Edição/Página:** ８号, 8号 | **Data ISO:** 1949-05-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Fragmentos sobre a Verdade e o Mundo
 
@@ -771,6 +1044,7 @@ Os materialistas são o epicentro dos males sociais. O socialismo e o comunismo,
 
 **Categoria:** su | **Ano:** 昭和26(1951)年6月6日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光107号) 白光生 | **Status:** Published | **Edição/Página:** 107号, 107号 | **Data ISO:** 1951-06-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos que Vivificam
 
@@ -796,6 +1070,7 @@ Saibam que, quando o momento decisivo chegar, recorrerei ao meu trunfo supremo e
 
 **Categoria:** su | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世49号) 白光生 | **Status:** Published | **Edição/Página:** 49号, 49号 | **Data ISO:** 1950-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Aforismos
 
@@ -819,6 +1094,7 @@ Eis os requisitos indispensáveis a um político: saber fingir ignorância sobre
 
 **Categoria:** su | **Ano:** 昭和24(1949)年9月24日 | **Fonte:** -
 **Título Original:** 寸鉄 (光28号) 白光生 | **Status:** Published | **Edição/Página:** 28号, 28号 | **Data ISO:** 1949-09-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos
 
@@ -858,6 +1134,7 @@ Vivemos a era das fobias epidêmicas: fobia de impostos, fobia do comunismo, fob
 
 **Categoria:** su | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 頭脳の重要性 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Importância do Cérebro
 
@@ -883,6 +1160,7 @@ Da mesma forma, casos de asma e de doenças febris de causa desconhecida frequen
 
 **Categoria:** su | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
 **Título Original:** 寸鉄 (光32号) 白光生 | **Status:** Published | **Edição/Página:** 32号, 32号 | **Data ISO:** 1949-10-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos Pungentes
 
@@ -916,6 +1194,7 @@ Ao senhor Baba, presidente do jornal Yomiuri, faço um apelo: que a primeira sí
 
 **Categoria:** su | **Ano:** 昭和25(1950)年6月3日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世65号) 白光生 | **Status:** Published | **Edição/Página:** 65号, 65号 | **Data ISO:** 1950-06-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Observações Pungentes
 
@@ -943,6 +1222,7 @@ Perigo, perigo! O estatismo parece novamente erguer a sua cabeça. Kuwabara, kuw
 
 **Categoria:** su | **Ano:** 昭和27(1952)年8月20日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光170号) | **Status:** Published | **Edição/Página:** 170号, 170号 | **Data ISO:** 1952-08-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Pureza da Arte e a Insensatez Materialista
 
@@ -960,6 +1240,7 @@ Verdadeiramente, é de se admirar o quanto a ciência moderna progrediu, não é
 
 **Categoria:** su | **Ano:** 昭和26(1951)年11月21日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光131号) | **Status:** Published | **Edição/Página:** 131号, 131号 | **Data ISO:** 1951-11-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Observações Pungentes
 
@@ -989,6 +1270,7 @@ Dizem que a produção de arroz decresce continuamente, ao passo que a populaç�
 
 **Categoria:** su | **Ano:** 昭和25(1950)年10月11日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光73号) 白光生 | **Status:** Published | **Edição/Página:** 73号, 73号 | **Data ISO:** 1950-10-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos
 
@@ -1014,6 +1296,7 @@ Na recente declaração do General MacArthur sobre a devolução de Seul à Core
 
 **Categoria:** su | **Ano:** 昭和26(1951)年11月14日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光130号) | **Status:** Published | **Edição/Página:** 130号, 130号 | **Data ISO:** 1951-11-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Epidemia da Insensatez
 
@@ -1033,6 +1316,7 @@ Ah, mas se continuo a dissertar sobre tantas tolices, nós, os ingênuos e hones
 
 **Categoria:** su | **Ano:** 昭和26(1951)年10月17日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光126号) | **Status:** Published | **Edição/Página:** 126号, 126号 | **Data ISO:** 1951-10-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Sátiras do Mundo Atual
 
@@ -1050,6 +1334,7 @@ Contemplando o mundo atual, vejo dois bilhões de seres humanos em meio à escur
 
 **Categoria:** su | **Ano:** 昭和24(1949)年10月29日 | **Fonte:** -
 **Título Original:** 寸鉄 (光33号) 白光生 | **Status:** Published | **Edição/Página:** 33号, 33号 | **Data ISO:** 1949-10-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Considerações sobre Nossos Detratores
 
@@ -1083,6 +1368,7 @@ e, por fim, os vermes que pululam no fosso de dejetos.
 
 **Categoria:** su | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** スポーツ医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Os Perigos Latentes da Prática Esportiva
 
@@ -1106,6 +1392,7 @@ Além desses casos, é fato notório que maratonistas desenvolvem hipertrofia ca
 
 **Categoria:** su | **Ano:** 昭和26(1951)年2月14日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光91号) 白光生 | **Status:** Published | **Edição/Página:** 91号, 91号 | **Data ISO:** 1951-02-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas Divinos
 
@@ -1121,6 +1408,7 @@ O grandioso planeta Terra encontra-se à beira da destruição. Quem poderia evi
 
 **Categoria:** su | **Ano:** 昭和24(1949)年5月14日 | **Fonte:** -
 **Título Original:** 寸鉄 (光９号) 白光生 | **Status:** Published | **Edição/Página:** ９号, 9号 | **Data ISO:** 1949-05-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Comentários sobre a Sociedade
 
@@ -1148,6 +1436,7 @@ Nesse sentido, a nossa missão de transformar este Japão do mal em um Japão do
 
 **Categoria:** su | **Ano:** 昭和25(1950)年9月6日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光68号) 白光生 | **Status:** Published | **Edição/Página:** 68号, 68号 | **Data ISO:** 1950-09-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões Incisivas
 
@@ -1165,6 +1454,7 @@ Insiste ainda o referido jornal em sua retórica sobre "milagres que não podem 
 
 **Categoria:** su | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世48号) 白光生 | **Status:** Published | **Edição/Página:** 48号, 48号 | **Data ISO:** 1950-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Aforismos
 
@@ -1192,6 +1482,7 @@ O senhor Nosaka e seus pares: japoneses vivendo de favor em seu próprio país.
 
 **Categoria:** su | **Ano:** 昭和25(1950)年5月27日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世64号) 白光生 | **Status:** Published | **Edição/Página:** 64号, 64号 | **Data ISO:** 1950-05-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Breves Reflexões
 
@@ -1221,6 +1512,7 @@ Quando o ser humano transcende a ira, atinge a indignação profunda. Quando tra
 
 **Categoria:** su | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 救い主と贖罪主 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## O Messias e o Redentor
 
@@ -1256,6 +1548,7 @@ Para sermos mais específicos, os noventa e nove por cento do mal representam a 
 
 **Categoria:** su | **Ano:** 昭和24(1949)年6月18日 | **Fonte:** -
 **Título Original:** 寸言 (光13号) 白光生 | **Status:** Published | **Edição/Página:** 13号, 13号 | **Data ISO:** 1949-06-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Diagnósticos da Época
 
@@ -1271,6 +1564,7 @@ O Japão se assemelha a um paciente em estado grave. A estagnação financeira, 
 
 **Categoria:** su | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
 **Título Original:** 寸鉄 (光29号) 白光生 | **Status:** Published | **Edição/Página:** 29号, 29号 | **Data ISO:** 1949-10-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Reflexões
 
@@ -1304,6 +1598,7 @@ A mãe, de face pálida; a filha, de face ruborizada. Eis a educação sexual.
 
 **Categoria:** su | **Ano:** 昭和26(1951)年1月17日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光87号) 白光生 | **Status:** Published | **Edição/Página:** 87号, 87号 | **Data ISO:** 1951-01-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Comentários
 
@@ -1321,6 +1616,7 @@ A propósito das emissoras de rádio, parece que o episódio de Shizuoka lhes se
 
 **Categoria:** su | **Ano:** 昭和28(1953)年2月24日 | **Fonte:** 東京日々新聞
 **Título Original:** すべてこの世は毒 ・法話（一） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-02-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東京日々新聞
 
 ## A Arte, a Fé e a Causa do Sofrimento
 
@@ -1348,6 +1644,7 @@ Os medicamentos são, por definição, substâncias estranhas ao corpo. Por essa
 
 **Categoria:** su | **Ano:** 昭和25(1950)年1月7日 | **Fonte:** -
 **Título Original:** 寸鉄 (光44号) 白光生 | **Status:** Published | **Edição/Página:** 44号, 44号 | **Data ISO:** 1950-01-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Fragmentos Afiados de Jikan
 
@@ -1398,6 +1695,7 @@ O clã Daiba, a legião de Satã e os jornais fariseus avançaram contra nossa O
 
 **Categoria:** su | **Ano:** 昭和26(1951)年5月30日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光106号) 白光生 | **Status:** Published | **Edição/Página:** 106号, 106号 | **Data ISO:** 1951-05-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Reflexões
 
@@ -1415,6 +1713,7 @@ Doravante, antes de embarcar em um trem, o mais prudente é contratar um seguro 
 
 **Categoria:** su | **Ano:** 昭和27(1952)年4月9日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光151号) | **Status:** Published | **Edição/Página:** 151号, 151号 | **Data ISO:** 1952-04-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ambição Divina e a Luz da Salvação
 
@@ -1432,6 +1731,7 @@ E o que seria tudo isto, senão as palavras de Deus proferidas em sonho? E quem 
 
 **Categoria:** su | **Ano:** 昭和27(1952)年9月10日 | **Fonte:** Eikou
 **Título Original:** ○ヽ（す）の文化 | **Status:** Published | **Edição/Página:** 173号 | **Data ISO:** 1952-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Cultura do Ponto Central
 
@@ -1457,6 +1757,7 @@ Transportando essa imagem para uma escala mundial, significa infundir substânci
 
 **Categoria:** su | **Ano:** 昭和24(1949)年4月18日 | **Fonte:** -
 **Título Original:** 寸鉄 (光５号) 白光生 | **Status:** Published | **Edição/Página:** ５号, 5号 | **Data ISO:** 1949-04-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos Incisivos
 
@@ -1490,6 +1791,7 @@ Uma religião que cura as doenças que a medicina não foi capaz de curar é, se
 
 **Categoria:** su | **Ano:** 昭和7(1932)年7月 | **Fonte:** 瑞Hikari
 **Título Original:** 瑞光の更生 ・巻頭言 | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1932-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 瑞光
 
 ## O Renascimento da Revista Zuiko
 
@@ -1505,6 +1807,7 @@ Que este ensejo sirva, portanto, de inspiração para que todos os senhores e se
 
 **Categoria:** su | **Ano:** 昭和24(1949)年5月31日 | **Fonte:** -
 **Título Original:** 瑞泉郷の梗概 （こうがい） | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1949-05-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Esboço de Zuisenkyo
 
@@ -1526,6 +1829,7 @@ Pode-se afirmar, portanto, que esta concepção paradisíaca em grande escala co
 
 **Categoria:** su | **Ano:** 昭和27(1952)年3月12日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光147号) | **Status:** Published | **Edição/Página:** 147号, 147号 | **Data ISO:** 1952-03-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos Pungentes
 
@@ -1543,6 +1847,7 @@ Refletindo a fundo, constatamos que a Igreja Messiânica prospera enormemente po
 
 **Categoria:** su | **Ano:** 昭和25(1950)年3月4日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世52号) 白光生 | **Status:** Published | **Edição/Página:** 52号, 52号 | **Data ISO:** 1950-03-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Farpas Afiadas
 
@@ -1566,6 +1871,7 @@ Contudo, vejo o editor do Yomiuri a coçar a cabeça, perplexo, e a ponderar: �
 
 **Categoria:** su | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 寸鉄 (地上天国2号) 白光生 | **Status:** Published | **Edição/Página:** 2号, 2号 | **Data ISO:** 1949-03-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Breves Comentários sobre a Sociedade
 
@@ -1623,6 +1929,7 @@ Antigamente, o opressor era o militar; hoje, é o fiscal de impostos.
 
 **Categoria:** su | **Ano:** 昭和26(1951)年6月27日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光110号) 白光生 | **Status:** Published | **Edição/Página:** 110号, 110号 | **Data ISO:** 1951-06-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões Incisivas
 
@@ -1642,6 +1949,7 @@ Há uma lógica perversa neste mundo. As jovens da geração do pós-guerra, as 
 
 **Categoria:** su | **Ano:** 昭和25(1950)年4月22日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世59号) 白光生 | **Status:** Published | **Edição/Página:** 59号, 59号 | **Data ISO:** 1950-04-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Reflexões sobre o Batismo de Fogo
 
@@ -1662,6 +1970,7 @@ Oh, quão sublime
 
 **Categoria:** su | **Ano:** 昭和27(1952)年6月11日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光160号) | **Status:** Published | **Edição/Página:** 160号, 160号 | **Data ISO:** 1952-06-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Riso Antecipado
 
@@ -1677,6 +1986,7 @@ A hidrazida, que outrora causou tamanho alvoroço, teve sua eficácia posta em d
 
 **Categoria:** su | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
 **Título Original:** スターリンの肚 | **Status:** Published | **Edição/Página:** 195号 | **Data ISO:** 1953-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Os Desígnios de Stalin
 
@@ -1696,6 +2006,7 @@ Diante de tais afirmações, alguns poderão indagar, com desconfiança, se porv
 
 **Categoria:** su | **Ano:** 昭和24(1949)年11月5日 | **Fonte:** -
 **Título Original:** 寸鉄 (光34号) 白光生 | **Status:** Published | **Edição/Página:** 34号, 34号 | **Data ISO:** 1949-11-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Praga dos Oportunistas
 
@@ -1727,6 +2038,7 @@ Como ousam alvejar uma religião de reputação imaculada, que nada tem a escond
 
 **Categoria:** su | **Ano:** 昭和25(1950)年10月25日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光75号) 白光生 | **Status:** Published | **Edição/Página:** 75号, 75号 | **Data ISO:** 1950-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Reflexões sobre a Sociedade
 
@@ -1744,6 +2056,7 @@ Os jornais referem-se aos comunistas acrescentando o honorífico *shi* a seus no
 
 **Categoria:** su | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光117号) | **Status:** Published | **Edição/Página:** 117号, 117号 | **Data ISO:** 1951-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Sentenças que Vivificam
 
@@ -1767,6 +2080,7 @@ Assim, não é de se espantar que os homens-verme se multipliquem, pois se alime
 
 **Categoria:** su | **Ano:** 昭和24(1949)年3月20日 | **Fonte:** -
 **Título Original:** 寸鉄 (光２号) 白光生 | **Status:** Published | **Edição/Página:** ２号, 2号 | **Data ISO:** 1949-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos da Luz
 
@@ -1790,6 +2104,7 @@ A força misteriosa de nossa Igreja, que lhe permite expandir-se mesmo sob o pes
 
 **Categoria:** su | **Ano:** 昭和26(1951)年9月12日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光121号) | **Status:** Published | **Edição/Página:** 121号, 121号 | **Data ISO:** 1951-09-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Palavra que Vivifica
 
@@ -1807,6 +2122,7 @@ Uns proferem mentiras à vontade e se comportam com arrogância, enquanto outros
 
 **Categoria:** su | **Ano:** 昭和27(1952)年5月14日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光156号) | **Status:** Published | **Edição/Página:** 156号, 156号 | **Data ISO:** 1952-05-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Palavras que Vivificam
 
@@ -1820,6 +2136,7 @@ Em suma, o mundo assemelha-se à querela de dois tintureiros. Um se empenha em t
 
 **Categoria:** su | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
 **Título Original:** 寸言 (光14号) 白光生 | **Status:** Published | **Edição/Página:** 14号, 14号 | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos sobre a Verdade Divina
 
@@ -1837,6 +2154,7 @@ Em nome da paz, promove-se a guerra. Na tentativa de edificar o Paraíso, cria-s
 
 **Categoria:** su | **Ano:** 昭和26(1951)年4月25日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光101号) 白光生 | **Status:** Published | **Edição/Página:** 101号, 101号 | **Data ISO:** 1951-04-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Reflexões
 
@@ -1858,6 +2176,7 @@ Dizem que Deus, a partir de agora, irá selecionar os justos e os iníquos, sepa
 
 **Categoria:** su | **Ano:** 昭和25(1950)年11月15日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光78号) 白光生 | **Status:** Published | **Edição/Página:** 78号, 78号 | **Data ISO:** 1950-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Aforismos
 
@@ -1879,6 +2198,7 @@ O Partido Comunista ateia incêndios por toda parte no mundo, e a América se ap
 
 **Categoria:** su | **Ano:** 昭和26(1951)年3月21日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光96号) 白光生 | **Status:** Published | **Edição/Página:** 96号, 96号 | **Data ISO:** 1951-03-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas da Salvação
 
@@ -1907,6 +2227,7 @@ A questão resume-se a isto.
 
 **Categoria:** su | **Ano:** 昭和24(1949)年6月30日 | **Fonte:** -
 **Título Original:** 寸言 (光15号) 白光生 | **Status:** Published | **Edição/Página:** 15号, 15号 | **Data ISO:** 1949-06-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Lei do Inverso
 
@@ -1922,6 +2243,7 @@ Isto nada mais é que a lógica que transcende a lógica comum. É o princípio 
 
 **Categoria:** su | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光97号) 白光生 | **Status:** Published | **Edição/Página:** 97号, 97号 | **Data ISO:** 1951-03-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves e Incisivas Reflexões
 
@@ -1943,6 +2265,7 @@ A contenda entre o bacilo da tuberculose e a humanidade prossegue, e a cada dia 
 
 **Categoria:** su | **Ano:** 昭和24(1949)年12月3日 | **Fonte:** -
 **Título Original:** 寸鉄 (光38号) 白光生 | **Status:** Published | **Edição/Página:** 38号, 38号 | **Data ISO:** 1949-12-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves e Pungentes Comentários
 
@@ -1972,6 +2295,7 @@ Se denominamos “grande jornal” aquele com maior número de páginas, então 
 
 **Categoria:** su | **Ano:** 昭和25(1950)年12月6日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光81号) 白光生 | **Status:** Published | **Edição/Página:** 81号, 81号 | **Data ISO:** 1950-12-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdadeira Dimensão do Mal
 
@@ -1985,6 +2309,7 @@ Se esta é, de fato, a era em que a nudez está em voga, eu gostaria que as pess
 
 **Categoria:** su | **Ano:** 昭和24(1949)年12月10日 | **Fonte:** -
 **Título Original:** 寸鉄 (光39号) 白光生 | **Status:** Published | **Edição/Página:** 39号, 39号 | **Data ISO:** 1949-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Epigramas de Luz
 
@@ -2016,6 +2341,7 @@ Em breve, advirá uma era de inflação do Prêmio Nobel, assim que as realizaç
 
 **Categoria:** su | **Ano:** 昭和26(1951)年4月18日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光100号) 白光生 | **Status:** Published | **Edição/Página:** 100号, 100号 | **Data ISO:** 1951-04-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas da Atualidade
 
@@ -2033,6 +2359,7 @@ Quadrilhas de assaltantes com dezenas de membros são desarticuladas, com preju�
 
 **Categoria:** su | **Ano:** 昭和26(1951)年8月8日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光116号) | **Status:** Published | **Edição/Página:** 116号, 116号 | **Data ISO:** 1951-08-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Sábio Ingênuo e o Tolo Astuto
 
@@ -2050,6 +2377,7 @@ Vejam só, não é uma perspectiva esplêndida?
 
 **Categoria:** su | **Ano:** 昭和24(1949)年12月31日 | **Fonte:** -
 **Título Original:** 寸鉄 (光42号) 白光生 | **Status:** Published | **Edição/Página:** 42号, 42号 | **Data ISO:** 1949-12-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Notas Incisivas
 
@@ -2079,6 +2407,7 @@ Os Espíritos Malignos lutam em desespero, enquanto nós contemplamos a cena do 
 
 **Categoria:** su | **Ano:** 昭和27(1952)年5月21日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光157号) | **Status:** Published | **Edição/Página:** 157号, 157号 | **Data ISO:** 1952-05-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões Pungentes
 
@@ -2096,6 +2425,7 @@ Para comemorar o Tratado de Paz, os esquadrões do Dia do Trabalho — que data 
 
 **Categoria:** su | **Ano:** 昭和25(1950)年3月18日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世54号) 白光生 | **Status:** Published | **Edição/Página:** 54号, 54号 | **Data ISO:** 1950-03-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Aforismos
 
@@ -2117,6 +2447,7 @@ Senhor Tokkyu, o senhor se desdobra em desculpas e se cobre de suor para justifi
 
 **Categoria:** su | **Ano:** 昭和26(1951)年12月26日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光136号) | **Status:** Published | **Edição/Página:** 136号, 136号 | **Data ISO:** 1951-12-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Palavras que Vivificam
 
@@ -2136,6 +2467,7 @@ Somente quando tudo, absolutamente tudo, for devidamente purificado, é que sobr
 
 **Categoria:** su | **Ano:** 昭和27(1952)年6月18日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光161号) | **Status:** Published | **Edição/Página:** 161号, 161号 | **Data ISO:** 1952-06-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Observações Pontuais
 
@@ -2149,6 +2481,7 @@ Atualmente, todos temem os "vermelhos", todavia, erradicá-los é uma tarefa sim
 
 **Categoria:** su | **Ano:** 昭和24(1949)年3月30日 | **Fonte:** -
 **Título Original:** 寸鉄 (光３号) 白光生 | **Status:** Published | **Edição/Página:** ３号, 3号 | **Data ISO:** 1949-03-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos
 
@@ -2172,6 +2505,7 @@ Como em nosso meio não há capitalistas ou latifundiários, até mesmo nas entr
 
 **Categoria:** su | **Ano:** 昭和25(1950)年5月13日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世62号) 白光生 | **Status:** Published | **Edição/Página:** 62号, 62号 | **Data ISO:** 1950-05-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Breves Reflexões sobre o Comunismo
 
@@ -2187,6 +2521,7 @@ Aniquilar trezentas mil almas de uma só vez, reduzindo-as a fumaça... Tal feit
 
 **Categoria:** su | **Ano:** 昭和26(1951)年9月5日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光120号) | **Status:** Published | **Edição/Página:** 120号, 120号 | **Data ISO:** 1951-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Palavras que Vivificam
 
@@ -2200,6 +2535,7 @@ Aniquilar trezentas mil almas de uma só vez, reduzindo-as a fumaça... Tal feit
 
 **Categoria:** su | **Ano:** 昭和26(1951)年4月4日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光98号) 白光生 | **Status:** Published | **Edição/Página:** 98号, 98号 | **Data ISO:** 1951-04-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos sobre o Destino do Mundo
 
@@ -2215,6 +2551,7 @@ As donzelas celestiais do Paraíso executam suas danças desnudas. As do Inferno
 
 **Categoria:** su | **Ano:** 昭和25(1950)年11月8日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光77号) 白光生 | **Status:** Published | **Edição/Página:** 77号, 77号 | **Data ISO:** 1950-11-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Era da Evasiva
 
@@ -2228,6 +2565,7 @@ Nesse ínterim, a bomba atômica já se tornou obsoleta. Na Inglaterra, um cient
 
 **Categoria:** su | **Ano:** 昭和26(1951)年12月19日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光135号) | **Status:** Published | **Edição/Página:** 135号, 135号 | **Data ISO:** 1951-12-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Era dos Insetos e a Purificação pelo Fogo
 
@@ -2241,6 +2579,7 @@ Que imenso depósito de lixo se tornou o Japão! Por toda parte, fervilham larva
 
 **Categoria:** su | **Ano:** 昭和24(1949)年11月12日 | **Fonte:** -
 **Título Original:** 寸鉄 (光35号) 白光生 | **Status:** Published | **Edição/Página:** 35号, 35号 | **Data ISO:** 1949-11-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Farpas de Luz
 
@@ -2276,6 +2615,7 @@ Ah, como gostaríamos de abandonar a terapia pela fé e nos tornarmos médicos, 
 
 **Categoria:** su | **Ano:** 昭和27(1952)年6月25日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光162号) | **Status:** Published | **Edição/Página:** 162号, 162号 | **Data ISO:** 1952-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Palavras que Revitalizam
 
@@ -2291,6 +2631,7 @@ Vivemos na era das greves, um terreno fértil para os agitadores comunistas. Com
 
 **Categoria:** su | **Ano:** 昭和26(1951)年9月26日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光123号) | **Status:** Published | **Edição/Página:** 123号, 123号 | **Data ISO:** 1951-09-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Extermínio da Superstição
 
@@ -2304,6 +2645,7 @@ Enumeremos as tendências da atualidade: a construção de edifícios, as intoxi
 
 **Categoria:** su | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** スポーツ医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Os Perigos Ocultos na Prática Desportiva
 
@@ -2327,6 +2669,7 @@ Ademais, é fato notório que maratonistas desenvolvem hipertrofia cardíaca, en
 
 **Categoria:** su | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 身体をこわす・寝冷・疫痢 寸評（光20号） 自観叢書10編 | **Status:** Published | **Edição/Página:** 20号, 20号 | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## A Verdadeira Natureza da Doença
 
@@ -2342,6 +2685,7 @@ Entre as enfermidades infantis, a disenteria é considerada uma das mais temíve
 
 **Categoria:** su | **Ano:** 昭和25(1950)年4月15日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世58号) 白光生 | **Status:** Published | **Edição/Página:** 58号, 58号, 54号 | **Data ISO:** 1950-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Aforismos da Salvação
 
@@ -2371,6 +2715,7 @@ O mundo está repleto de semblantes carregados, de feições contraídas como as
 
 **Categoria:** su | **Ano:** 昭和24(1949)年7月2日 | **Fonte:** -
 **Título Original:** 寸言 (光16号) 白光生 | **Status:** Published | **Edição/Página:** 16号, 16号 | **Data ISO:** 1949-07-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Lógica do Espírito
 
@@ -2386,6 +2731,7 @@ O corpo humano é purificado por meio das bactérias; contrair um resfriado cons
 
 **Categoria:** su | **Ano:** 昭和26(1951)年8月29日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光119号) | **Status:** Published | **Edição/Página:** 119号, 119号 | **Data ISO:** 1951-08-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas Vivificantes
 
@@ -2403,6 +2749,7 @@ Esta réplica espiritual, proferida em tom desafiador, dará origem à nova civi
 
 **Categoria:** su | **Ano:** 昭和24(1949)年11月19日 | **Fonte:** -
 **Título Original:** 寸鉄 (光36号) 白光生 | **Status:** Published | **Edição/Página:** 36号, 36号 | **Data ISO:** 1949-11-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Reflexões
 
@@ -2430,6 +2777,7 @@ Por acaso sabem qual é a grande força que manipula livremente tanto o governo 
 
 **Categoria:** su | **Ano:** 昭和27(1952)年5月28日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光158号) | **Status:** Published | **Edição/Página:** 158号, 158号 | **Data ISO:** 1952-05-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Verdades Incisivas
 
@@ -2445,6 +2793,7 @@ A tuberculose, absolutamente incurável pela medicina, é alvo de incessantes te
 
 **Categoria:** su | **Ano:** 昭和26(1951)年3月7日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光94号) 白光生 | **Status:** Published | **Edição/Página:** 94号, 94号 | **Data ISO:** 1951-03-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões Incisivas
 
@@ -2464,6 +2813,7 @@ Quando o vento vermelho sopra, o mundo empalidece.
 
 **Categoria:** su | **Ano:** 昭和27(1952)年1月16日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光139号) | **Status:** Published | **Edição/Página:** 139号, 139号 | **Data ISO:** 1952-01-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ambição Desvirtuada
 
@@ -2493,6 +2843,7 @@ Pois bem, serei explícito, ouça com atenção. Trata-se... sim, daquilo... daq
 
 **Categoria:** su | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** スポーツ医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## Os Perigos Ocultos na Prática Desportiva
 
@@ -2516,6 +2867,7 @@ Outros exemplos, como o fato de maratonistas desenvolverem hipertrofia cardíaca
 
 **Categoria:** su | **Ano:** 昭和25(1950)年12月13日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光82号) 白光生 | **Status:** Published | **Edição/Página:** 82号, 82号 | **Data ISO:** 1950-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Comentários Incisivos
 
@@ -2533,6 +2885,7 @@ A divindade Stálin, entronizada no Santuário do Kremlin, é reverenciada por c
 
 **Categoria:** su | **Ano:** 昭和26(1951)年5月9日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光103号) 白光生 | **Status:** Published | **Edição/Página:** 103号, 103号 | **Data ISO:** 1951-05-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Pensamentos Penetrantes
 
@@ -2546,6 +2899,7 @@ Existe um criminoso que, diariamente, ceifa a vida de dezenas de milhares de pes
 
 **Categoria:** su | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光142号) | **Status:** Published | **Edição/Página:** 142号, 142号 | **Data ISO:** 1952-02-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Observações Pungentes sobre a Vida
 
@@ -2561,6 +2915,7 @@ Contudo, em meio a essa decadência, somente os mais perspicazes conseguem encon
 
 **Categoria:** su | **Ano:** 昭和27(1952)年4月30日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光154号) | **Status:** Published | **Edição/Página:** 154号, 154号 | **Data ISO:** 1952-04-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Fragmentos da Atualidade
 
@@ -2580,6 +2935,7 @@ A qualquer pretexto, recorrem à ameaça da greve, revelando-se verdadeiros man�
 
 **Categoria:** su | **Ano:** 昭和24(1949)年12月24日 | **Fonte:** -
 **Título Original:** 寸鉄 (光41号) 白光生 | **Status:** Published | **Edição/Página:** 41号, 41号 | **Data ISO:** 1949-12-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Epigramas
 
@@ -2607,6 +2963,7 @@ Compreende-se agora. Vivemos na era das drogas entorpecentes, afinal, até jorna
 
 **Categoria:** su | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
 **Título Original:** 寸言 (光号外) 白光生 | **Status:** Published | **Edição/Página:** 号外, 号外 | **Data ISO:** 1949-05-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Ordem no Tratamento das Doenças
 
@@ -2622,6 +2979,7 @@ Analisemos a trajetória usual daqueles que buscam a cura para uma enfermidade. 
 
 **Categoria:** su | **Ano:** 昭和26(1951)年5月2日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光102号) 白光生 | **Status:** Published | **Edição/Página:** 102号, 102号 | **Data ISO:** 1951-05-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Insanidade do Homem Contemporâneo
 
@@ -2651,6 +3009,7 @@ E então? Compreendem agora, ó multidão de enfermos mentais?
 
 **Categoria:** su | **Ano:** 昭和26(1951)年7月25日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光114号) 白光生 | **Status:** Published | **Edição/Página:** 114号, 114号 | **Data ISO:** 1951-07-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Comentários Incisivos
 
@@ -2666,6 +3025,7 @@ A questão envolvendo a companhia Anglo-Iranian agrava-se a cada dia. Diante dis
 
 **Categoria:** su | **Ano:** 昭和27(1952)年2月13日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光143号) | **Status:** Published | **Edição/Página:** 143号, 143号 | **Data ISO:** 1952-02-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Lógica do Arrependimento e da Doença
 
@@ -2683,6 +3043,7 @@ A compreensão deste princípio equivale a obter o título de Doutor em Medicina
 
 **Categoria:** su | **Ano:** 昭和26(1951)年8月1日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光115号) | **Status:** Published | **Edição/Página:** 115号, 115号 | **Data ISO:** 1951-08-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões Sobre o Mundo Atual
 
@@ -2700,6 +3061,7 @@ A sociedade atual vive amedrontada por tudo que leva o nome de "micróbio": baci
 
 **Categoria:** su | **Ano:** 昭和24(1949)年3月8日 | **Fonte:** -
 **Título Original:** 寸評 (光１号) 白光生 | **Status:** Published | **Edição/Página:** １号, 1号 | **Data ISO:** 1949-03-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Comentários
 
@@ -2729,6 +3091,7 @@ Dizem por aí que, em matéria de religião, devemos nos ater às mais antigas e
 
 **Categoria:** su | **Ano:** 昭和24(1949)年12月17日 | **Fonte:** -
 **Título Original:** 寸鉄 (光40号) 白光生 | **Status:** Published | **Edição/Página:** 40号, 40号 | **Data ISO:** 1949-12-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves e Pungentes Observações
 
@@ -2760,6 +3123,7 @@ Ocasionalmente, o Yomiuri nos concede espaço em suas páginas, o que serve para
 
 **Categoria:** su | **Ano:** 昭和25(1950)年12月20日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光83号) 白光生 | **Status:** Published | **Edição/Página:** 83号, 83号 | **Data ISO:** 1950-12-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Apontamentos Críticos
 
@@ -2785,6 +3149,7 @@ Neste exato momento, um ladrão adentra o "armazém ocidental" da China. Em cons
 
 **Categoria:** su | **Ano:** 昭和27(1952)年6月4日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光159号) | **Status:** Published | **Edição/Página:** 159号, 159号 | **Data ISO:** 1952-06-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Palavras que Vivificam
 
@@ -2798,6 +3163,7 @@ Ao que parece, a educação universitária contemporânea não passa de uma form
 
 **Categoria:** su | **Ano:** 昭和26(1951)年8月22日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光118号) | **Status:** Published | **Edição/Página:** 118号, 118号 | **Data ISO:** 1951-08-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Verdades em Poucas Palavras
 
@@ -2829,6 +3195,7 @@ O Partido Socialista é, de fato, muito honesto. Provavelmente, esquivaram-se de
 
 **Categoria:** su | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光155号) | **Status:** Published | **Edição/Página:** 155号, 155号 | **Data ISO:** 1952-05-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos que Vivificam
 
@@ -2848,6 +3215,7 @@ Vivemos, de fato, na era dos insetos. Há a elite cultural, que suga a todos com
 
 **Categoria:** su | **Ano:** 昭和27(1952)年1月9日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光138号) | **Status:** Published | **Edição/Página:** 138号, 138号 | **Data ISO:** 1952-01-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Retratos da Insensatez Humana
 
@@ -2867,6 +3235,7 @@ Conhecem os ágeis ninjas do século XX, os modernos Sarutobi Sasuke? Pois olhem
 
 **Categoria:** su | **Ano:** 昭和26(1951)年3月14日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光95号) 白光生 | **Status:** Published | **Edição/Página:** 95号, 95号 | **Data ISO:** 1951-03-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Pensamentos Incisivos
 
@@ -2889,6 +3258,7 @@ Um aluno responde:
 
 **Categoria:** su | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 睡眠不足 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## O Equívoco sobre a Privação de Sono como Causa da Tuberculose
 
@@ -2906,6 +3276,7 @@ De modo geral, observa-se que pela manhã o paciente apresenta febre baixa ou in
 
 **Categoria:** su | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光134号) | **Status:** Published | **Edição/Página:** 134号, 134号 | **Data ISO:** 1951-12-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Palavras que Vivificam
 
@@ -2927,6 +3298,7 @@ Soube que me chamaram de autoritário, de ser um “homem só”. E não se enga
 
 **Categoria:** su | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
 **Título Original:** 寸鉄 (光37号) 白光生 | **Status:** Published | **Edição/Página:** 37号, 37号 | **Data ISO:** 1949-11-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Fragmentos de Sabedoria
 
@@ -2956,6 +3328,7 @@ Aquele que se julga esperto é, na verdade, um tolo, e quem aceita ser tolo demo
 
 **Categoria:** su | **Ano:** 昭和26(1951)年4月11日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光99号) 白光生 | **Status:** Published | **Edição/Página:** 99号, 99号 | **Data ISO:** 1951-04-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Reflexões sobre a Verdade
 
@@ -2975,6 +3348,7 @@ Anunciam que os casos de disenteria triplicaram em relação ao ano anterior e l
 
 **Categoria:** su | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** スポーツ医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## O Paradoxo da Saúde nos Atletas e Artistas
 
@@ -2996,6 +3370,7 @@ Aqueles que se dedicam ao piano, por concentrarem a força em ambos os braços, 
 
 **Categoria:** su | **Ano:** 昭和28(1953)年5月13日 | **Fonte:** Eikou
 **Título Original:** 救いの力 | **Status:** Published | **Edição/Página:** 208号 | **Data ISO:** 1953-05-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Desafio da Fé Diante do Milagre
 
@@ -3054,6 +3429,7 @@ Agora que pude assimilar a verdade de que "a doença é um processo de purifica�
 
 **Categoria:** su | **Ano:** 昭和26(1951)年2月21日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光92号) 白光生 | **Status:** Published | **Edição/Página:** 92号, 92号 | **Data ISO:** 1951-02-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Perspectiva Divina sobre os Conflitos Humanos
 
@@ -3071,6 +3447,7 @@ O grande embate entre materialistas e espiritualistas, quando projetado em escal
 
 **Categoria:** su | **Ano:** 昭和25(1950)年12月27日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光84号) 白光生 | **Status:** Published | **Edição/Página:** 84号, 84号 | **Data ISO:** 1950-12-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos
 
@@ -3084,6 +3461,7 @@ Existem diversas espécies de bárbaros, mas a mais intratável é, sem dúvida,
 
 **Categoria:** su | **Ano:** 昭和26(1951)年9月19日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光122号) | **Status:** Published | **Edição/Página:** 122号, 122号 | **Data ISO:** 1951-09-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Lâminas que Vivificam
 
@@ -3103,6 +3481,7 @@ As coisas temíveis de hoje são a disenteria, a encefalite japonesa, os ônibus
 
 **Categoria:** su | **Ano:** 昭和25(1950)年11月1日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光76号) 白光生 | **Status:** Published | **Edição/Página:** 76号, 76号 | **Data ISO:** 1950-11-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Observações Pungentes
 
@@ -3124,6 +3503,7 @@ Com o advento de Meishu-Sama, os Espíritos Malignos, tomados de assombro, cair�
 
 **Categoria:** su | **Ano:** 昭和24(1949)年4月25日 | **Fonte:** -
 **Título Original:** 寸鉄 (光６号) 白光生 | **Status:** Published | **Edição/Página:** ６号, 6号 | **Data ISO:** 1949-04-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Fragmentos da Verdade
 
@@ -3153,6 +3533,7 @@ Sendo assim, o que seriam as pessoas salvas pela luz de tal monstro? Se recebem 
 
 **Categoria:** su | **Ano:** 昭和24(1949)年5月25日 | **Fonte:** -
 **Título Original:** 寸鉄 (光10号) 白光生 | **Status:** Published | **Edição/Página:** 10号, 10号 | **Data ISO:** 1949-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Reflexões sobre a Decadência Humana
 
@@ -3182,6 +3563,7 @@ E quantos não são os indivíduos que, com seus olhos miúdos e insistentes, zu
 
 **Categoria:** su | **Ano:** 昭和25(1950)年1月28日 | **Fonte:** -
 **Título Original:** 寸鉄 (光47号) 白光生 | **Status:** Published | **Edição/Página:** 47号, 47号 | **Data ISO:** 1950-01-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Críticas Pungentes à Classe Política
 
@@ -3209,6 +3591,7 @@ E o Partido Socialista, por sua vez, prepara-se para caminhar da seguinte maneir
 
 **Categoria:** su | **Ano:** 昭和27(1952)年4月16日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光152号) | **Status:** Published | **Edição/Página:** 152号, 152号 | **Data ISO:** 1952-04-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Fragmentos de Sagacidade
 
@@ -3228,6 +3611,7 @@ Há quem me peça para portar-me com maior solenidade, de modo mais condizente c
 
 **Categoria:** su | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世51号) 白光生 | **Status:** Published | **Edição/Página:** 51号, 51号 | **Data ISO:** 1950-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Aforismos Políticos
 
@@ -3251,6 +3635,7 @@ Correm boatos de que a estirpe de Satanás sofre de um esgotamento nervoso, pois
 
 **Categoria:** su | **Ano:** 昭和27(1952)年7月9日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光164号) | **Status:** Published | **Edição/Página:** 164号, 164号 | **Data ISO:** 1952-07-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas Vivificantes
 
@@ -3266,6 +3651,7 @@ Estais cientes de que, adentrando a segunda metade do século XX, surgiu uma nov
 
 **Categoria:** su | **Ano:** 昭和26(1951)年5月23日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光105号) 白光生 | **Status:** Published | **Edição/Página:** 105号, 105号 | **Data ISO:** 1951-05-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos para Despertar
 
@@ -3288,6 +3674,7 @@ Atualmente, o setor têxtil atravessa um período de retração, ao passo que a 
 
 **Categoria:** su | **Ano:** 昭和27(1952)年2月20日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光144号) | **Status:** Published | **Edição/Página:** 144号, 144号 | **Data ISO:** 1952-02-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Palavras que Vivificam
 
@@ -3303,6 +3690,7 @@ Construir o Paraíso Terrestre é, em princípio, uma tarefa simples. Como os se
 
 **Categoria:** su | **Ano:** 昭和25(1950)年9月27日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光71号) 白光生 | **Status:** Published | **Edição/Página:** 71号, 71号 | **Data ISO:** 1950-09-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Comentários Incisivos
 
@@ -3318,6 +3706,7 @@ Se eu anunciasse o surgimento de um grande mago de renome mundial, todos por cer
 
 **Categoria:** su | **Ano:** 昭和24(1949)年10月8日 | **Fonte:** -
 **Título Original:** 寸鉄 (光30号) 白光生 | **Status:** Published | **Edição/Página:** 30号, 30号 | **Data ISO:** 1949-10-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Reflexões Incisivas
 
@@ -3367,6 +3756,7 @@ Não sou o poeta Issa, mas declamo: ó homens de bem, não se deixem vencer! Deu
 
 **Categoria:** su | **Ano:** 昭和26(1951)年7月18日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光113号) 白光生 | **Status:** Published | **Edição/Página:** 113号, 113号 | **Data ISO:** 1951-07-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Os Prazeres de um Homem Divino
 
@@ -3386,6 +3776,7 @@ Há ainda um último prazer: o de desferir um potente golpe na cabeça dos homen
 
 **Categoria:** su | **Ano:** 昭和23(1948)年12月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 寸鉄 (地上天国1号) 白光生 | **Status:** Published | **Edição/Página:** 1号, 1号 | **Data ISO:** 1948-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Aforismos e Reflexões Críticas
 
@@ -3443,6 +3834,7 @@ Jornais de rufiões, yakuzas culturais, feudalismo democrático... Que cenário 
 
 **Categoria:** su | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 救主と贖罪主 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## Sobre o Salvador e o Redentor
 
@@ -3458,6 +3850,7 @@ Em contrapartida, enquanto o Redentor é aquele que implora o perdão, o Salvado
 
 **Categoria:** su | **Ano:** 昭和24(1949)年9月10日 | **Fonte:** -
 **Título Original:** 寸鉄 (光26号) 白光生 | **Status:** Published | **Edição/Página:** 26号, 26号 | **Data ISO:** 1949-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Reflexões
 
@@ -3495,6 +3888,7 @@ O silêncio ascético dos repatriados que estiveram detidos. Ao que parece, até
 
 **Categoria:** su | **Ano:** 昭和26(1951)年12月5日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光133号) | **Status:** Published | **Edição/Página:** 133号, 133号 | **Data ISO:** 1951-12-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos que Vivificam
 
@@ -3516,6 +3910,7 @@ Como é triste a condição a que o Japão foi reduzido. Ante a insuficiência d
 
 **Categoria:** su | **Ano:** 昭和26(1951)年1月24日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光88号) 白光生 | **Status:** Published | **Edição/Página:** 88号, 88号 | **Data ISO:** 1951-01-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas da Luz
 
@@ -3531,6 +3926,7 @@ Ao que tudo indica, a Grande Purificação da Terra está prestes a começar. Pa
 
 **Categoria:** su | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光125号) | **Status:** Published | **Edição/Página:** 125号, 125号 | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Pandemônio do Mundo Atual
 
@@ -3544,6 +3940,7 @@ Ao observarmos o mundo de hoje, percebemos que tudo, absolutamente tudo, está e
 
 **Categoria:** su | **Ano:** 昭和27(1952)年3月19日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光148号) | **Status:** Published | **Edição/Página:** 148号, 148号 | **Data ISO:** 1952-03-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Máximas que Vivificam
 
@@ -3557,6 +3954,7 @@ A Agricultura Natural, por sua vez, é o empreendimento de purificar todo o solo
 
 **Categoria:** su | **Ano:** 昭和26(1951)年6月20日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光109号) 白光生 | **Status:** Published | **Edição/Página:** 109号, 109号 | **Data ISO:** 1951-06-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas que Vivificam
 
@@ -3576,6 +3974,7 @@ Diante do impasse petrolífero, vive-se o clássico dilema: se agradamos a um, d
 
 **Categoria:** su | **Ano:** 昭和28(1953)年1月28日 | **Fonte:** Eikou
 **Título Original:** スポーツマン早死の理由 | **Status:** Published | **Edição/Página:** 193号 | **Data ISO:** 1953-01-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Causa da Morte Prematura dos Desportistas
 
@@ -3593,6 +3992,7 @@ Diante do exposto, arde em nós o fervoroso anseio de, o quanto antes, dissipar 
 
 **Categoria:** su | **Ano:** 昭和27(1952)年3月26日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光149号) | **Status:** Published | **Edição/Página:** 149号, 149号 | **Data ISO:** 1952-03-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos que Vivificam
 
@@ -3608,6 +4008,7 @@ Creio não haver animal mais saudável que o ser humano. Muitos, ao ouvirem isso
 
 **Categoria:** su | **Ano:** 昭和26(1951)年1月31日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光89号) 白光生 | **Status:** Published | **Edição/Página:** 89号, 89号 | **Data ISO:** 1951-01-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Epigramas da Salvação
 
@@ -3627,6 +4028,7 @@ Existem no mundo as mais diversas crenças: a crença na ciência, a crença nos
 
 **Categoria:** su | **Ano:** 昭和26(1951)年6月13日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光108号) 白光生 | **Status:** Published | **Edição/Página:** 108号, 108号 | **Data ISO:** 1951-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Lâmina que Desnuda o Mundo
 
@@ -3656,6 +4058,7 @@ Então? Compreenderam?
 
 **Categoria:** su | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
 **Título Original:** スポーツの奇蹟 | **Status:** Published | **Edição/Página:** 186号 | **Data ISO:** 1952-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Milagre no Esporte
 
@@ -3709,6 +4112,7 @@ Muito obrigado, Meishu-Sama. Com a mais profunda reverência, expresso minha sin
 
 **Categoria:** su | **Ano:** 昭和25(1950)年9月20日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光70号) 白光生 | **Status:** Published | **Edição/Página:** 70号, 70号 | **Data ISO:** 1950-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Banalização da Arte
 
@@ -3724,6 +4128,7 @@ Todavia, a falta de público nas exposições leva os organizadores a recorrer a
 
 **Categoria:** su | **Ano:** 昭和26(1951)年11月28日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光132号) | **Status:** Published | **Edição/Página:** 132号, 132号 | **Data ISO:** 1951-11-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Breves Palavras que Vivificam
 
@@ -3739,6 +4144,7 @@ Dizem que os notáveis do Partido Comunista, sem exceção, se ocultaram no subs
 
 **Categoria:** su | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
 **Título Original:** 寸鉄 (光31号) 白光生 | **Status:** Published | **Edição/Página:** 31号, 31号 | **Data ISO:** 1949-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos Pungentes
 
@@ -3770,6 +4176,7 @@ Ah, senhores extorsionários, podem se encher de arrogância! Os grandes jornais
 
 **Categoria:** su | **Ano:** 昭和26(1951)年10月3日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光124号) | **Status:** Published | **Edição/Página:** 124号, 124号 | **Data ISO:** 1951-10-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Verbo do Mal
 
@@ -3795,6 +4202,7 @@ Trata-se do mal do próprio eu.
 
 **Categoria:** su | **Ano:** 昭和24(1949)年4月30日 | **Fonte:** -
 **Título Original:** 寸鉄 (光７号) 白光生 | **Status:** Published | **Edição/Página:** ７号, 7号 | **Data ISO:** 1949-04-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Pensamentos Incisivos
 
@@ -3822,6 +4230,7 @@ E o Demônio declara: “Disseram-me que aquilo que mais temo havia surgido. Ao 
 
 **Categoria:** su | **Ano:** 昭和26(1951)年7月11日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光112号) 白光生 | **Status:** Published | **Edição/Página:** 112号, 112号 | **Data ISO:** 1951-07-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos que Vivificam
 
@@ -3841,6 +4250,7 @@ Todavia, é notável que exista um estabelecimento que comercializa o divino rem
 
 **Categoria:** su | **Ano:** 昭和24(1949)年9月17日 | **Fonte:** -
 **Título Original:** 寸鉄 (光27号) 白光生 | **Status:** Published | **Edição/Página:** 27号, 27号 | **Data ISO:** 1949-09-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Aforismos
 
@@ -3878,6 +4288,7 @@ Esta epidemia de disenteria que assola a nação... Seria leviano atribuí-la ao
 
 **Categoria:** su | **Ano:** 昭和26(1951)年1月1日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光85号) 白光生 | **Status:** Published | **Edição/Página:** 85号, 85号 | **Data ISO:** 1951-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Religião que Nega a Religião
 
@@ -3893,6 +4304,7 @@ Ao que tudo indica, o mestre de obras da destruição, o senhor Stalin, juntamen
 
 **Categoria:** su | **Ano:** 昭和25(1950)年1月21日 | **Fonte:** -
 **Título Original:** 寸鉄 (光46号) 白光生 | **Status:** Published | **Edição/Página:** 46号, 46号 | **Data ISO:** 1950-01-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Retratos de um Mundo em Inversão
 
@@ -3920,6 +4332,7 @@ Impasse financeiro, impasse digestivo, impasse nos rumos da vida. Se tudo no mun
 
 **Categoria:** su | **Ano:** 昭和27(1952)年2月27日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光145号) | **Status:** Published | **Edição/Página:** 145号, 145号 | **Data ISO:** 1952-02-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos que Vivificam
 
@@ -3937,6 +4350,7 @@ Decidimos publicar um livro sobre a terapêutica da tuberculose pela fé. Garant
 
 **Categoria:** su | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光169号) | **Status:** Published | **Edição/Página:** 169号, 169号 | **Data ISO:** 1952-08-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Aforismos que Vivificam
 
@@ -3950,6 +4364,7 @@ A rotina do povo não é a de um simples prato que se repete dia após dia. Em v
 
 **Categoria:** su | **Ano:** 昭和27(1952)年4月23日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光153号) | **Status:** Published | **Edição/Página:** 153号, 153号 | **Data ISO:** 1952-04-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Humanidade e o Paraíso Terrestre
 
@@ -3965,6 +4380,7 @@ Contudo, existe também a possibilidade de que sejamos nós a bater em retirada,
 
 **Categoria:** su | **Ano:** 昭和26(1951)年2月28日 | **Fonte:** Eikou
 **Título Original:** 寸鉄 (栄光93号) 白光生 | **Status:** Published | **Edição/Página:** 93号, 93号 | **Data ISO:** 1951-02-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Bomba de Deus e a do Demônio
 
@@ -3978,6 +4394,7 @@ Contudo, existem duas espécies de bombas: uma que aniquila o ser humano e outra
 
 **Categoria:** su | **Ano:** 昭和26(1951)年5月16日 | **Fonte:** Eikou
 **Título Original:** 寸鉄活人 (栄光104号) 白光生 | **Status:** Published | **Edição/Página:** 104号, 104号 | **Data ISO:** 1951-05-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Contrastes da Era Atual
 
@@ -3995,6 +4412,7 @@ Deus afirma que os seres humanos de hoje são, em sua totalidade, enfermos menta
 
 **Categoria:** su | **Ano:** 昭和24(1949)年5月31日 | **Fonte:** -
 **Título Original:** 寸鉄 (光11号) 白光生 | **Status:** Published | **Edição/Página:** 11号, 11号 | **Data ISO:** 1949-05-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Breves Aforismos da Luz
 
@@ -4020,6 +4438,7 @@ Até mesmo aqueles que bradam “Deus não existe!” foram, eles próprios, cri
 
 **Categoria:** su | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
 **Título Original:** 寸鉄 (救世50号) 白光生 | **Status:** Published | **Edição/Página:** 50号, 50号 | **Data ISO:** 1950-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Aforismos
 
@@ -4047,6 +4466,7 @@ Se partirmos do princípio de que a existência dos maus serve para fazer sobres
 
 **Categoria:** yu | **Ano:** - | **Fonte:** 有限力と無限力
 **Título Original:** 有限力と無限力 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Poder Finito e o Poder Infinito
 
@@ -4068,6 +4488,7 @@ Isso é natural, pois, embora conheçam o poder finito, desconhecem o infinito. 
 
 **Categoria:** yu | **Ano:** 昭和24(1949)年12月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 唯物主義と唯心主義の戦 | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1949-12-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Embate entre o Materialismo e a Visão Espiritualista
 
@@ -4085,6 +4506,7 @@ Nesse sentido, o materialismo se assemelha a Sun Wukong, que, na lenda, correu m
 
 **Categoria:** yu | **Ano:** 昭和24(1949)年4月8日 | **Fonte:** -
 **Título Original:** 唯物主義と唯心主義 | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1949-04-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Materialismo e o Espiritualismo
 
@@ -4110,6 +4532,7 @@ Por fim, gostaria de dirigir uma palavra aos jornalistas. A maioria deles é com
 
 **Categoria:** yu | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
 **Título Original:** 輸血 | **Status:** Published | **Edição/Página:** 49号 | **Data ISO:** 1950-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Johrei e a Transfusão de Sangue
 
@@ -4127,6 +4550,7 @@ A explicação para tal fenômeno é bastante simples. O sangue é, em sua essê
 
 **Categoria:** yu | **Ano:** 昭和26(1951)年6月27日 | **Fonte:** Eikou
 **Título Original:** 唯物療法との比較 | **Status:** Published | **Edição/Página:** 110号 | **Data ISO:** 1951-06-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Limite da Terapia Materialista
 
@@ -4167,6 +4591,7 @@ Meishu-Sama, minha mais profunda e sincera gratidão.
 
 **Categoria:** yu | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 憂欝感及び麻痺と痙攣 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Melancolia, a Paralisia e a Convulsão
 
@@ -4186,6 +4611,7 @@ A segunda causa, por sua vez, é de natureza espiritual e, como tal, será abord
 
 **Categoria:** yu | **Ano:** 昭和24(1949)年10月29日 | **Fonte:** -
 **Título Original:** 輪血 ・医薬断片集 | **Status:** Published | **Edição/Página:** 33号 | **Data ISO:** 1949-10-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Essência Espiritual do Sangue
 
@@ -4197,6 +4623,7 @@ Sempre afirmamos que o sangue é a materialização do espírito. Por conseguint
 
 **Categoria:** yu | **Ano:** 昭和28(1953)年8月5日 | **Fonte:** Eikou
 **Título Original:** 油断ならぬ結核の現状 | **Status:** Published | **Edição/Página:** 220号 | **Data ISO:** 1953-08-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Alarmante Cenário da Tuberculose
 
@@ -4223,6 +4650,7 @@ Estes resultados são oriundos de uma fonte fidedigna e indicam que mais de trez
 
 **Categoria:** yu | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 憂欝感及び麻痺と痙攣 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Melancolia, a Paralisia e as Convulsões
 
@@ -4242,6 +4670,7 @@ A segunda causa, por fim, é de natureza espiritual e, como tal, será explicada
 
 **Categoria:** yu | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
 **Título Original:** 唯物主義が悪人を作る | **Status:** Published | **Edição/Página:** 155号 | **Data ISO:** 1952-05-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Materialismo Gera os Malfeitores
 
@@ -4259,6 +4688,7 @@ Pelo exposto, conclui-se que, para purificar a sociedade, não há alternativa s
 
 **Categoria:** yu | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
 **Título Original:** 夢と邪霊 自観叢書第3編 | **Status:** Published | **Edição/Página:** P.52 | **Data ISO:** 1949-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 霊界叢談
 
 ## A Realidade das Agressões Espirituais em Sonhos
 
@@ -4284,6 +4714,7 @@ Examinei-a, mas não encontrei qualquer anormalidade. Imediatamente, realizei um
 
 **Categoria:** yu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 憂欝症及び麻痺 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Melancolia e Paralisia
 
@@ -4297,6 +4728,7 @@ Existem diversas formas de paralisia, sendo a mais comum o beribéri, cujo detal
 
 **Categoria:** yu | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 憂欝感及び麻痺と痙攣 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Melancolia, a Paralisia e a Convulsão
 
@@ -4309,307 +4741,6 @@ Passemos agora à paralisia, que também se apresenta com uma diversidade de cau
 As convulsões, por sua vez, originam-se de duas causas distintas. A primeira é um processo de purificação extremamente agudo, que ocorre em quadros de febre alta e repentina, sendo particularmente comum em enfermidades cerebrais. Os espasmos estomacais e intestinais também se enquadram nesta categoria de purificações intensas. No caso das convulsões infantis, a intensidade do sofrimento pode aparentar grande perigo; contudo, pode-se afirmar que raramente resultam em fatalidade, pois a recuperação geralmente ocorre com o decurso do tempo.
 
 A segunda causa, de natureza espiritual, será devidamente elucidada no capítulo correspondente a esse tema.
-
----
-
-# Uma Mensagem aos Materialistas
-
-**Categoria:** yu | **Ano:** 昭和25(1950)年5月13日 | **Fonte:** Kyusei
-**Título Original:** 唯物主義者に与う | **Status:** Published | **Edição/Página:** 62号 | **Data ISO:** 1950-05-13
-
-## Uma Mensagem aos Materialistas
-
-O testemunho a seguir, recentemente submetido por um fiel, demonstra com clareza não apenas que espíritos humanos podem decair à condição de deuses-dragão (espíritos de serpente), mas também que estes, por sua vez, reencarnam como seres humanos. Se, mesmo diante de tal relato, uma pessoa não conseguir se libertar da fortaleza do materialismo, é porque se empenha em defender suas convicções subjetivas a ponto de negar os fatos. Em suma, estaríamos diante de um indivíduo de mentalidade anacrônica.
-
-***
-
-No final de outubro do ano passado, eu vinha sentindo dores na região do estômago. No dia 8 de dezembro, contudo, essa dor se converteu em uma cólica extremamente aguda. Por volta das dez horas da noite, enquanto minha filha, Sato Fumiko, orava a Komyō Nyorai, um espírito de serpente se manifestou por seu intermédio, dizendo: “Há dez anos, fui morto por esta pessoa e meu desejo é renascer neste mundo como ser humano.”
-
-O espírito declarou, ainda, que se manifestara por considerá-lo uma felicidade, uma vez que sou membro da Sekaikyuseikyou. Explicou que sua cabeça se encontrava em meu estômago e o corpo, em meu intestino. Para me infligir sofrimento, ele feria o estômago com a língua e, nesses momentos, a dor lancinante irradiava pelo peito e pelas costas.
-
-Indaguei, então, sobre o que deveria ser feito para que a dor cessasse. Ele respondeu com as seguintes instruções: pela manhã, eu deveria desenhar sua imagem em uma folha de papel e oferecê-la à divindade protetora de nossa localidade, Sumiyoshi. Um segundo desenho deveria ser feito em um papel de quatro *shaku* de largura por seis de comprimento, no qual seu corpo teria uma medida de um *shaku* e quatro curvas, e seus olhos deveriam ser coloridos. Acrescentou que se sentiria imensamente feliz se Meishu-Sama dignasse a lançar um único olhar sobre o desenho.
-
-Perguntei novamente quando a dor desapareceria, e o espírito me assegurou que ela cessaria em vinte minutos. E, de fato, transcorridos os vinte minutos, a dor havia desaparecido por completo, não tendo retornado uma única vez desde então.
-
----
-
-# O Preconceito dos que Não Experimentam
-
-**Categoria:** ku | **Ano:** 昭和24(1949)年11月5日 | **Fonte:** -
-**Título Original:** 食わず嫌い | **Status:** Published | **Edição/Página:** 34号 | **Data ISO:** 1949-11-05
-
-## O Preconceito dos que Não Experimentam
-
-Por mais que se afirme o progresso da medicina, não se pode considerá-lo genuíno enquanto não se construírem lares isentos de doenças e enquanto essa realidade não se expandir gradualmente. Existe, desde tempos remotos, a expressão “médico da família”, a qual, em si mesma, evidencia a ineficácia da ciência médica. Se a medicina fosse verdadeiramente capaz de curar as enfermidades, tal expressão jamais teria surgido, pois, à medida que pessoas saudáveis e lares sem doentes se multiplicassem, os médicos se tornariam desnecessários. O termo “médico da família” denota, portanto, uma dependência contínua, alguém a quem se recorre constantemente por se estar sempre enfermo. O mesmo se aplica à ideia de ser um “cliente” do médico. Se o tratamento médico conduzisse à cura definitiva, sua necessidade seria apenas temporária, durante a doença. Nesse caso, a expressão “médico provisório” soaria estranha, e o simples título de “médico” seria mais que suficiente.
-
-Na verdade, quando em um lar há pessoas de constituição frágil ou crianças enfermiças, o que se deveria ensinar é um método para que alcancem a saúde plena. A isso poderíamos chamar de a função do “médico da saúde”. Talvez os profissionais da medicina pudessem adotar essa prática como uma atividade secundária, mas, infelizmente, algo assim parece pertencer apenas ao mundo dos sonhos.
-
-Nesse sentido, discorrerei sobre a Medicina Ideal, que constitui o campo de atuação de nossa Igreja. Por prescindir do uso de medicamentos, ela não acarreta nenhum ônus financeiro. Ademais, por ser isenta dos malefícios das vacinas e injeções que têm surgido em toda parte, proporciona uma tranquilidade absoluta. Acima de tudo, os resultados concretos que demonstram a cura das doenças em sua raiz vêm se manifestando de forma literal e evidente. Contudo, muitas pessoas insistem em ignorar esses fatos e lançar críticas sobre nossos Ensinamentos, o que se revela uma autêntica aversão sem conhecimento, fruto de nunca terem tido contato com a Igreja.
-
-Essa postura, todavia, não é de todo incompreensível, pois existe um preconceito ainda maior que alimenta essa rejeição inicial: o dos jornalistas que, de forma veemente, se empenham em afastar as pessoas de nossa Igreja, rotulando-a de superstição e heresia. Por essa razão, é fundamental que primeiramente os próprios jornalistas conheçam a verdade. Eles, no entanto, mostram grande relutância em experimentá-la. Sua vigilância é constante, e sua cautela, inabalável. Conforme sempre afirmo, a causa reside no fato de que, desde a infância e ao longo de décadas, foram impregnados até a medula pela ideologia materialista. Sendo assim, a chave para a solução deste problema está precisamente em remover essa tintura do materialismo.
-
-Aqueles que ingressam em nossa Igreja e perseveram por alguns anos, constroem lares livres de doenças. Para concluir, basta que se faça a seguinte pergunta: em que outro lugar do mundo se poderia encontrar um método de saúde tão sublime quanto este?
-
----
-
-# A Medicina Materialista e a Medicina Espiritual
-
-**Categoria:** yu | **Ano:** 昭和27(1952)年6月18日 | **Fonte:** Eikou
-**Título Original:** 唯物医学と心霊医学 | **Status:** Published | **Edição/Página:** 161号 | **Data ISO:** 1952-06-18
-
-## A Medicina Materialista e a Medicina Espiritual
-
-A impotência da medicina materialista contemporânea torna-se manifestamente clara ao lermos o relato de fé a seguir. Se, mesmo diante deste fato, ainda houver quem duvide, lamento dizer, mas não seria incorreto afirmar que sua capacidade de raciocínio se encontra paralisada. Portanto, é imperativo que a medicina moderna passe por uma revolução o quanto antes; do contrário, a quantidade de pessoas que sucumbirão à infelicidade dispensa maiores comentários. Ademais, ao lerem este relato, os especialistas da área deveriam se horrorizar com os tratamentos que praticam. Se isso não ocorrer, não haveria exagero em dizer que suas mentes se encontram deturpadas. Nesse sentido, compreendo com veemência que, além de salvar inúmeros doentes, temos o dever de, de alguma forma, transformar essas mentes empedernidas, semelhantes a madeira e pedra. Contudo, como tudo está nas mãos da Vontade Divina, não nos resta outra alternativa senão orar e aguardar o tempo de Deus.
-
-**O memorial dos entes queridos também é parte da família**
-*Relato de Fé de Miyuki Muraguchi (23 anos), da Igreja Meirin-Naka, província de Kumamoto*
-
-Agradeço imensamente a Vossa constante proteção, Meishu-Sama. Peço sinceras desculpas pela demora em apresentar este relato, que já deveria ter sido enviado há muito.
-
-Desde a infância, perdi vários irmãos, um após o outro. Pouco depois do fim da guerra, despedi-me para sempre de meu pai, que era meu único esteio e amparo. A partir de então, passei a viver em um lar solitário, apenas com minha mãe. No anseio de me tornar útil ao mundo e às pessoas, acabei escolhendo o que hoje compreendo ter sido o pior dos caminhos: tornei-me enfermeira. Ao vestir o uniforme branco e trabalhar no hospital, eu tentava, de alguma forma, consolar a mim mesma.
-
-Foi então que, por uma feliz ocasião, tive contato com os Ensinamentos. No entanto, para minha mente, há muito impregnada pela superstição da medicina, era extremamente difícil assimilar a ideia de que a doença é um processo de purificação. Contudo, à medida que ouvia as explanações repetidas vezes, comecei a compreender pouco a pouco. Com essa compreensão, veio um sentimento de pavor em relação ao que eu fazia, e um desejo crescente de abandonar aquela profissão o mais rápido possível para ingressar neste caminho que verdadeiramente serve ao mundo e à humanidade.
-
-Oportunamente, casei-me e, após me juntar à família Muraguchi, sofri com uma grave hemorragia e um aborto espontâneo. Os dias em que permanecia acamada se tornaram cada vez mais frequentes, e pouco pude desfrutar da minha juventude cheia de sonhos. Seguindo essa trajetória, em novembro do ano passado, finalmente recebi a permissão para ingressar na fé. O momento em que o ministro me outorgou a Medalha Sagrada foi de uma emoção indescritível, que transbordou meu coração.
-
-Felizmente, eu estava em minha segunda gestação e aproveitei a oportunidade para deixar o hospital. Desde então, ao lado de meu esposo e de minha mãe, dedico-me humildemente a servir na Obra Divina. No dia 5 de dezembro do ano passado, fui acometida por uma súbita dor abdominal. Era um sofrimento atroz, que me fazia contorcer de dor. Enquanto meu marido me ministrava Johrei, ele subitamente se recordou de uma orientação do ministro: “Pode ser o espírito da criança que foi abortada. Mesmo um feto de quatro meses pode se manifestar, desejando ser venerado”.
-
-Imediatamente, acendemos as velas no altar dos antepassados, pedimos perdão por nossa negligência até aquele dia e nos comprometemos a providenciar um memorial para a criança. Enquanto entoávamos a oração, a dor lancinante, que antes parecia insuportável, desapareceu como se nunca tivesse existido, e senti um alívio completo.
-
-A felicidade e a gratidão que senti naquele momento são impossíveis de descrever. Instintivamente, voltei-me para o Leste, na direção de onde Meishu-Sama se encontra, e O reverenciei em prece. Ao pensar no que teria acontecido se eu continuasse minha vida no hospital, estremeço e meu corpo se encolhe de pavor. Certamente, eu teria sido submetida a dezenas de injeções e a todos os tipos de tratamentos modernos e, a partir daí, seria inevitavelmente aprisionada por terríveis tormentos da doença.
-
-A partir de então, comecei a ganhar mais confiança e a ministrar Johrei nas pessoas da vizinhança. Certo dia, ouvi dizer que a esposa de um vizinho sofria com um problema nos seios. Fui imediatamente ministrar-lhe Johrei, mas ela sentia uma dor violentíssima, que não apresentava melhora alguma, mesmo após uma ou duas sessões. De repente, lembrei-me de minha própria experiência com o filho que perdi e compartilhei a história com ela. Foi quando ela se deu conta de que não possuía um memorial para uma criança que nascera morta. Ao lhe perguntar: “Não será por isso?”, ela imediatamente providenciou o memorial e passou a realizar as cerimônias religiosas. Com isso, aquela dor excruciante cessou por completo.
-
-No dia seguinte, ela já estava de pé, realizando as tarefas domésticas. Ver essa cena fez-me, mais uma vez, curvar a cabeça em profunda admiração pelo imensurável Poder Divino de Meishu-Sama. Fico pensando que, no hospital, para qualquer problema, a resposta é sempre “cirurgia, cirurgia”, e eles cortam as pessoas com a mesma facilidade com que preparam um peixe. Ser salva sem ter de passar por aquele sofrimento terrível é, de fato, uma bênção imerecida.
-
-Em outra ocasião, uma mãe me procurou trazendo seu filho, um menino do primeiro ano escolar, pedindo-me que o salvasse, pois ele estava com metade do rosto inchado e não podia ir à escola. Ela também comentou, aflita, que sua filha mais nova, de três anos, urinava todos os dias um líquido de cor amarelo-intenso. Conversei longamente sobre os Ensinamentos e relatei minhas experiências. Durante a conversa, ela mencionou que tivera dois filhos prematuros, que nasceram aos seis meses e faleceram. Sugeri que ela adquirisse memoriais e os venerasse. No dia seguinte, o inchaço no rosto do menino havia desaparecido completamente, e a urina da irmã mais nova voltara ao normal.
-
-Diante desses milagres recorrentes, que demonstram de forma tão clara a existência do Mundo Espiritual para nós, de fé ainda tão pequena, meu coração transborda de gratidão. Ao mesmo tempo, lembro-me das inúmeras vezes em que presenciei cenas semelhantes no hospital e sinto uma profunda vergonha. Lembro-me de segurar à força crianças que choravam e se debatiam para aplicar-lhes injeções. É uma lembrança que me causa arrepios.
-
-O bebê que recebi como uma segunda bênção nasceu saudável no dia 20 de março, um bebê grande, pesando 3,8 quilos. Já celebramos sua primeira visita ao templo e, hoje, ele é o centro das alegrias de nossa família, fazendo com que passemos nossos dias em um estado de profunda gratidão. Recentemente, ele foi até mesmo premiado em um concurso de bebês, o que consideramos ser, inteiramente, um presente do Poder Divino, pelo qual expressamos nosso mais profundo agradecimento.
-
-De agora em diante, meu esposo, minha mãe e eu uniremos nossas forças e nos empenharemos com ainda mais afinco para servir, ainda que em uma pequena parcela, na sagrada Obra de construção do Paraíso Terrestre.
-
-Muito obrigada, Meishu-Sama.
-
----
-
-# Considerações sobre os Sonhos
-
-**Categoria:** yu | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
-**Título Original:** 夢に就て | **Status:** Published | **Edição/Página:** P.83 | **Data ISO:** 1948-09-05
-
-## Considerações sobre os Sonhos
-
-Frequentemente me indagam a respeito dos sonhos, motivo pelo qual decidi discorrer sobre o assunto. Creio não existir ser humano que jamais tenha sonhado. Todavia, embora os designemos por um único nome, eles se manifestam de diversas naturezas. Em uma classificação geral, podemos citar o Sonho Divino, o Sonho Espiritual, o Sonho Comum, o Sonho Premonitório e o Sonho Invertido. O Sonho Divino é uma revelação de Deus; o Sonho Espiritual, uma advertência do espírito protetor; já o Sonho Comum é aquele de caráter trivial, que todos experimentam constantemente. Por sua vez, o Sonho Premonitório, como a própria designação sugere, é aquele cujo conteúdo se manifesta na realidade, ao passo que no Sonho Invertido ocorre exatamente o oposto.
-
-A natureza dos sonhos reside no fato de que, durante o sono, o espírito da pessoa se desprende do corpo e transita pelo Mundo Oculto. Nesse estado, o subconsciente e os anseios constantes da pessoa assumem as mais variadas formas, manifestando-se como imagens contínuas e desconexas, sendo estas uma criação puramente humana. O Sonho Divino, por sua vez, restringe-se às pessoas de fé, pois é o meio pelo qual a divindade a que devotam sua crença lhes transmite revelações, conforme alguma necessidade. Já os Sonhos Espirituais são comunicações do espírito protetor. Geralmente, são criações de natureza alegórica ou metafórica e, por essa razão, muitos deles exigem uma interpretação cuidadosa.
-
-Conforme já ensinei, o Mundo Material é um reflexo do Mundo Espiritual. Como os diversos acontecimentos se originam primeiramente no Mundo Espiritual, o espírito protetor, que lá se encontra, toma conhecimento deles com antecedência e, por isso, utiliza-se do recurso dos sonhos para nos alertar. A conhecida expressão “ter um pressentimento” refere-se, na verdade, a uma comunicação do espírito protetor.
-
-Quando o espírito se desloca para o Mundo Oculto, ele permanece conectado ao corpo físico por meio de um cordão espiritual e, no momento do despertar, retorna instantaneamente.
-
-Nesse ponto, há uma questão que merece atenção. Refiro-me à teoria de que não sonhamos quando dormimos profundamente, o que constitui um equívoco. É verdade que, em momentos de extrema exaustão, podemos não sonhar, mas o sono leve é, sim, acompanhado de sonhos. Não há, contudo, motivo algum para preocupação. O fato de sonhar, mesmo em sono leve, é a prova de que o descanso está de fato ocorrendo.
-
-Eu mesmo, por vezes, sinto um leve torpor enquanto converso e chego a sonhar por um ou dois minutos. Também me ocorre sonhar enquanto seguro nas alças de um trem, sem que isso represente qualquer problema. Algumas pessoas se afligem, supondo que sonhar muito seja um sinal de debilidade mental, mas isso não corresponde à verdade. Em minha juventude, eu raramente sonhava, e considero que, naquela época, minha mente era, na verdade, menos perspicaz.
-
----
-
-# A Respeito da Medicina Militar
-
-**Categoria:** ku | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
-**Título Original:** 軍陣医学に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
-
-## A Respeito da Medicina Militar
-
-Recentemente, a imprensa tem alardeado que os avanços da medicina militar ocasionaram uma redução expressiva das doenças infecciosas nas regiões tropicais do sul. O público em geral, ao ler tais notícias, certamente se comove, interpretando o fato como um genuíno progresso da medicina. É natural que pensem assim, pois desconhecem o seu real significado. A verdade, porém, é que tal fenômeno não representa avanço algum; pelo contrário, suas consequências são, na verdade, temíveis.
-
-Conforme expliquei reiteradamente, as doenças infecciosas nas regiões tropicais representam o mais vigoroso processo de purificação. No entanto, as diversas injeções aplicadas compulsoriamente nos soldados antes de partirem para o front introduzem em seus corpos o yakudoku (薬毒). Este, por sua vez, debilita a força purificadora, impedindo que o processo de purificação se manifeste. É por essa razão que os soldados não contraem as doenças.
-
-Todavia, dado que o yakudoku (薬毒) é tão potente a ponto de suprimir um processo purificador tão intenso, ele inevitavelmente se acumula e se solidifica no organismo. Consequentemente, quando a purificação finalmente irromper, será, como é natural, de natureza ainda mais maligna que as próprias doenças tropicais. Acredito que o surgimento de tais enfermidades coincida justamente com o retorno dos soldados à pátria. Prova disso é o grande número de valentes que, desde o Incidente da China, ao regressarem ao Japão, manifestam malária, afecções cerebrais e outras moléstias. Tal fenômeno, cumpre notar, não ocorria na época da Guerra Sino-Japonesa ou da Guerra Russo-Japonesa.
-
-Para ilustrar com uma analogia, imaginemos um indivíduo que, munido de uma nota promissória, esbanja seu dinheiro. Em vez de saldar a dívida com dinheiro vivo, ele entrega o título de crédito para remediar a situação momentaneamente. Contudo, com o passar do tempo, a cobrança certamente chegará. Nessa altura, os juros terão aumentado o valor da dívida, tornando a quitação uma tarefa muito mais árdua.
-
-Ademais, recordo-me que, à época da Guerra Russo-Japonesa, o Japão se orgulhava de que, enquanto a incidência de enfermidades mentais entre os soldados estrangeiros não era pequena, não havia um único caso sequer entre suas tropas. No presente conflito, entretanto, consta que um número considerável de soldados tem desenvolvido transtornos mentais. A meu ver, a causa para tal fenômeno reside unicamente nas injeções.
-
----
-
-# A Realidade da Existência dos Espíritos
-
-**Categoria:** yu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
-**Título Original:** 幽霊はあるか | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
-
-## A Realidade da Existência dos Espíritos
-
-A controvérsia sobre a existência dos espíritos é antiga e permanece sem um veredito conclusivo para muitos. Eu, todavia, assevero que eles existem. A razão é simples: eles de fato existem, e ninguém pode negar a realidade de algo que é. Acredito firmemente que os relatos do inferno e do paraíso legados pelo venerável Shakyamuni, assim como o céu, o inferno e o purgatório da Divina Comédia de Dante, não são, de modo algum, meras conjecturas fantasiosas.
-
-Mas como é, afinal, o Mundo Espiritual? Para defini-lo em uma única expressão, é o mundo da vontade e do pensamento. Lá, desfruta-se de uma liberdade extraordinária, pois não há o obstáculo material do corpo físico. Pela força de sua vontade, um espírito pode deslocar-se a qualquer lugar com uma rapidez superior à de um avião. No Xintoísmo, por exemplo, ao se evocar um espírito, entoa-se: "Voe pelos céus, percorra a terra e venha repousar neste santuário". Com efeito, distâncias de milhares de quilômetros podem ser vencidas em minutos, ou melhor, em meros segundos.
-
-Contudo, a celeridade do deslocamento espiritual varia conforme a hierarquia do espírito. Espíritos de nível elevado, ou seja, aqueles que alcançaram a divindade, são extremamente rápidos. Os de classe suprema podem atingir qualquer distância, por maior que seja, em um instante mais breve que um décimo de milésimo de segundo. Em contrapartida, os de classe mais baixa podem levar dezenas de minutos para percorrer a mesma distância. Isso ocorre porque, quanto mais inferior a sua classe, mais impurificado e, consequentemente, mais denso é o espírito.
-
-Ademais, os espíritos possuem a capacidade de se expandir e contrair livremente, de acordo com seu próprio pensamento. É por essa razão que centenas de espíritos de antepassados podem se enfileirar dentro de um pequeno oratório budista, com cerca de trinta centímetros de largura. Nessas ocasiões, a disposição, a hierarquia e as vestimentas são observadas com extremo rigor, mantendo-se uma ordem perfeitamente adequada à posição de cada um. Naturalmente, os espíritos se alegram imensamente com cerimônias realizadas de coração, mas não apreciam aquelas que são meras formalidades. Nesses rituais, eles se ligam aos nomes póstumos, no Budismo, ou aos espelhos sagrados, pedras, caracteres ou às árvores sagradas, himorogi (神籬), no Xintoísmo. Portanto, as cerimônias devem ser executadas com a máxima sinceridade e dignidade possíveis, de acordo com a condição de cada um.
-
-Desde a antiguidade, há relatos de pessoas que ocasionalmente avistam espíritos. Em sua maioria, são almas que faleceram há pouco tempo. O espírito de um recém-falecido possui células espirituais de alta densidade, o que o torna visível aos olhos humanos. Nesse sentido, o fato de várias pessoas terem testemunhado a imagem de Cristo ascendendo aos céus após sua ressurreição não é algo extraordinário, mas perfeitamente plausível. Sua ascensão, contudo, deve-se à sua condição de espírito de elevada estirpe. Com o passar dos anos, o espírito do falecido vai se purificando e se tornando mais rarefeito, o que o torna cada vez mais difícil de ser percebido pela visão humana.
-
-Adicionalmente, um espírito pode entrar e sair livremente até mesmo por um orifício do tamanho da cabeça de um alfinete, o que é possível pela ausência do corpo físico, que representa um empecilho. Observando apenas este aspecto, o Mundo Espiritual poderia parecer um paraíso para os adeptos do livre-arbítrio, mas a realidade é outra. A verdade é que existem leis rigorosas e invioláveis que restringem essa liberdade.
-
-Gostaria de dizer ainda uma palavra sobre a fisionomia dos espíritos. Conforme se vê em representações artísticas, o espírito recém-falecido ostenta a mesma expressão do instante da morte. Isso ocorre por ter transcorrido pouco tempo desde seu passamento. Com o decorrer dos meses, sua aparência se altera gradualmente para refletir fielmente seus pensamentos. Por exemplo: uma pessoa negativa, pessimista e solitária adquire uma aparência triste, emaciada e desolada. Uma alma com pensamentos animalescos assume feições bestiais; uma pessoa de índole diabólica, uma fisionomia demoníaca. Pensamentos vis resultam em um semblante repulsivo, ao passo que um coração nobre e belo se manifesta em uma aparência igualmente virtuosa. No mundo material, o corpo físico funciona como um invólucro que permite dissimular o verdadeiro eu. No Mundo Espiritual, contudo, tudo se revela de forma nua e crua. Estima-se que essa revelação completa da essência interior ocorra no período de aproximadamente um ano.
-
-Em um livro de um renomado religioso, deparei-me com a seguinte afirmação: "Os espíritos humanos se extinguem após a morte; portanto, sua continuidade e a existência do Mundo Espiritual são uma falácia. Se assim fosse, com os incontáveis bilhões de pessoas que já morreram desde o início dos tempos, o Mundo Espiritual já deveria estar superlotado".
-
-Ora, embora este homem seja uma figura proeminente no meio budista, ele desconhece a capacidade que os espíritos têm de se expandir e se contrair à vontade.
-
----
-
-# A Lição da Vila de Yunishigawa
-
-**Categoria:** yu | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
-**Título Original:** 湯西川温泉 自観叢書第5編 | **Status:** Published | **Edição/Página:** P.50 | **Data ISO:** 1949-08-30
-
-## A Lição da Vila de Yunishigawa
-
-No verão de um determinado ano, resolvi visitar as fontes termais de Yunishigawa, situadas entre Oku-Nikko e Shiobara, um destino que eu não pudera conhecer em ocasião anterior. A caminho, almocei em Kawaji, na província de Joshu. A partir dali, adentramos uma légua e meia montanha adentro, atravessamos uma ponte suspensa sobre um riacho e embarcamos em uma carroça de bois, previamente arranjada. Em um ritmo fiel ao passo dos animais, o percurso de quatro léguas levou seis longas horas, e somente ao entardecer chegamos a Yunishigawa.
-
-As fontes termais, que acompanham o curso de um riacho, são em si bastante simples, não havendo muito a relatar. Contudo, a própria razão de ser da vila de Yunishigawa é um tema sobre o qual me sinto compelido a discorrer.
-
-Trata-se, em sua origem, de uma vila do clã Heike, organizada sob um regime de grande família, composta por sessenta domicílios e uma população de pouco mais de novecentas pessoas. Na ocasião, conversei com a filha do dono da hospedaria onde me alojei, que me servia, e ela me esclareceu diversos pontos. A estalagem pertence à linhagem fundadora da vila, e o chefe desta família é quem se encarrega de toda a sua administração.
-
-Dentre os relatos da jovem, descreverei os mais significativos. Segundo ela, a vila se originou na época das Guerras Genpei, quando o clã Heike, derrotado, dispersou-se. Um grupo de cerca de trinta sobreviventes refugiou-se nas profundezas destas montanhas. A perseguição imposta pelos exércitos do clã Genji era implacável, e por isso eles atravessaram inúmeras serras em busca de um lugar onde seus perseguidores jamais os alcançariam. Este foi o local escolhido. Ao longo de centenas de anos, aquele pequeno grupo deu origem à vila atual, um lugar de fato tão remoto que, conforme me disse, raramente recebe visitantes da capital. Quando os primeiros ancestrais aqui chegaram, não dispunham de alimentos e, para sobreviver, alimentavam-se unicamente de raízes de araruta, com as quais sustentavam suas vidas a duras penas.
-
-O mais surpreendente, todavia, é a completa ausência de doentes na vila. Atualmente, o único caso de enfermidade é o de um ancião que sofreu um derrame em consequência do consumo excessivo de álcool. Naturalmente, não há um único caso de tuberculose. A jovem explicou que os habitantes locais jamais se casam com pessoas de fora da região, traçando o limite a partir da cidade de Nikko. Ademais, são raríssimos os que viajam para lugares como Tóquio. O motivo para tal isolamento é a crença de que ir à capital causa tuberculose.
-
-O mais fascinante, porém, é que esta é uma vila sem médicos e estritamente vegetariana. Embora os rios da vizinhança abundem em trutas e peixes-doce, os moradores jamais os pescam. A razão, segundo me disseram, é que seus antepassados jamais comeram peixe, e por isso eles próprios não sentem o menor desejo de fazê-lo. Tal costume revela o quão profundamente arraigado é o vegetarianismo naquela comunidade. Esses fatos confirmam de maneira irrefutável os meus ensinamentos sobre os benefícios da ausência de medicamentos e de uma dieta vegetariana para a saúde, o que considerei de extremo interesse.
-
-A esse respeito, há ainda outro episódio digno de nota. Periodicamente, agentes da província visitam a vila para aplicar vacinas preventivas contra a febre tifoide e outras doenças. Contudo, todos os moradores se escondem. A razão é que, ao receberem a injeção, eles sofrem com febre alta por cerca de três dias. Ao investigar mais a fundo, descobri que não há um único caso de febre tifoide na vila há muitos anos. Apesar disso, as visitas para vacinação ocorrem simplesmente para cumprir as normas sanitárias da província. Refleti profundamente sobre a natureza peculiar da burocracia, que envia agentes para impor vacinas em uma vila onde não há doenças transmissíveis, desperdiçando recursos em uma ação inútil e sendo rechaçada pelos habitantes, tudo em nome do mero cumprimento de um regulamento.
-
----
-
-# Relato sobre a Extorsão
-
-**Categoria:** yu | **Ano:** 昭和24(1949)年7月23日 | **Fonte:** -
-**Título Original:** ユスリ物語 | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1949-07-23
-
-## Relato sobre a Extorsão
-
-Sempre soube que as organizações religiosas são alvo frequente de extorsão. Contudo, foi verdadeiramente assombroso constatar a torrente de oportunistas e chantagistas que surgiu de toda parte, assim que nossa Igreja ganhou notoriedade na sociedade por questões tributárias. Um dos grandes jornais da época chegou a noticiar que nosso patrimônio seria de dois a três bilhões de ienes, o que atraiu toda sorte de indivíduos, muitos dos quais completamente desconhecidos, que passaram a nos procurar em um fluxo incessante, munidos de cartas e supostas apresentações.
-
-Os pretextos eram os mais variados: solicitavam fundos para empreendimentos, propunham investimentos em negócios supostamente lucrativos, ou insistiam para que adquiríssemos estátuas de Buda. Houve até mesmo um caso extremo, em que uma pessoa, cujo único vínculo com a Igreja fora um pedido de Johrei para um filho em seu leito de morte, veio posteriormente exigir uma vultosa quantia a título de consolo. Por um tempo, vi-me assoberbado com o trabalho de responder e receber todas essas pessoas. Permitam-me, pois, expor brevemente os bastidores da extorsão.
-
-A prática da extorsão, ao que parece, demanda notável engenhosidade. Alguns chegam a urdir tramas de grande astúcia e premeditação. Ao observar tais indivíduos, ocorre-me com frequência o quão lamentável é o desperdício de tanto talento. Imagino o êxito que alcançariam se canalizassem essa mesma inteligência para fins nobres. Contudo, parece que encontram um perverso fascínio em obter recursos financeiros através do estelionato.
-
-É curioso notar que os chantagistas se dividem em duas categorias: os de abordagem sutil e os de táticas agressivas. Comecemos pelos primeiros. Estes agem com extrema delicadeza, simulando uma lealdade inabalável à nossa Igreja. Engendram roteiros sofisticados, alegando, por exemplo, que "certa organização conspira para colocar a Igreja em perigo" ou que "grupos rivais estão a semear a discórdia entre os fiéis". Com base nessas invenções, solicitam verbas para suas supostas "atividades de proteção". São dotados de uma oratória tão convincente que, se não estivermos atentos, facilmente nos tornamos suas vítimas.
-
-O modelo mais prevalente, todavia, é o da intimidação explícita. O estratagema habitual consiste em ameaças como: "O Comando Supremo das Forças Aliadas e o Ministério da Justiça estão preparando uma repressão em larga escala". Em casos mais audaciosos, chegam a proferir que "prenderão o Grande Mestre, farão uma busca e apreensão em sua residência e aniquilarão a Igreja" ou que "realizarão uma investida simultânea contra todas as nossas filiais". Recentemente, alguns chegaram a valer-se de parlamentares e até mesmo do Partido Comunista para conferir peso às suas ameaças. A tática é sempre a mesma: apresentam um cenário de perigo iminente e, em seguida, exigem dezenas de milhares de ienes para "custos operacionais" que supostamente evitarão o desastre. Há também aqueles que se valem de assédio contínuo ou que apresentam cartões de visita com títulos pomposos de associações desconhecidas, como "Presidente da Sociedade Tal", para solicitar "auxílio". Outros, que se dizem repórteres de jornais e revistas inexpressivos, adotam uma postura cômica, elevando a voz propositalmente durante as reuniões para intimidar ou apegando-se com obstinação na esperança de extrair alguma quantia. Duas características os definem: a notável habilidade com as palavras e o cuidado meticuloso para atuar sempre no limite da legalidade, sem jamais transgredi-la.
-
-Há ainda táticas mais elaboradas, como propor debates públicos ou vazar "informações privilegiadas" sobre seus próprios planos, numa tentativa de conferir-lhes veracidade. Contudo, o que mais impressiona é sua capacidade criativa. São mestres na arte da fabricação de boatos e exímios em semear a desconfiança entre autoridades governamentais e figuras influentes. Em decorrência disso, não raro somos interpelados sobre assuntos que sequer imaginávamos, o que nos deixa perplexos. Portanto, a semente da dúvida que germina nas autoridades, na imprensa e na sociedade em geral é, em grande parte, plantada por esses indivíduos. Sob essa ótica, pode-se dizer que tais senhores são, a seu modo, verdadeiros artífices.
-
-Outro ardil a que recorrem é o do sacrifício calculado. Produzem dezenas de cartas anônimas, cada uma com um remetente fictício, e as enviam de diferentes localidades. As autoridades, por sua vez, podem interpretar essa correspondência orquestrada como uma genuína manifestação da opinião pública e, com base nisso, iniciar investigações contra nossa Igreja, o que é assombroso. Nesse sentido, faço um apelo às autoridades para que exerçam máxima cautela a fim de não serem manipuladas por tais esquemas. É verdade que denúncias anônimas podem, por vezes, servir como ponto de partida para a elucidação de crimes e, portanto, não devem ser inteiramente desconsideradas. Todavia, dado que podem também submeter cidadãos de bem a suspeitas infundadas e a grandes transtornos, é imperativo que haja um discernimento rigoroso em sua avaliação.
-
-Afinal, uma religião cujo objetivo é o aprimoramento da sociedade jamais poderia abrigar intentos malignos. É digno de nota, e de admiração, que os jornalistas de veículos de comunicação verdadeiramente sérios e influentes jamais se deixam seduzir por subornos ou agrados materiais. Nisso, demonstram sua real grandeza.
-
----
-
-# O Equívoco da Medicina Materialista e a Verdadeira Medicina
-
-**Categoria:** yu | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
-**Título Original:** 唯物医学と宗教医学 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
-
-## O Equívoco da Medicina Materialista e a Verdadeira Medicina
-
-Até o presente momento, tenho discorrido sobre os equívocos da medicina moderna — a medicina materialista — e sobre os princípios translúcidos da medicina religiosa. Qualquer pessoa que leia estas palavras, contanto que não esteja aprisionada aos dogmas da medicina convencional, será capaz de compreendê-los. Ademais, se o propósito fundamental da medicina consiste em curar por completo as enfermidades humanas e forjar corpos verdadeiramente sadios, é imperativo que tal propósito se manifeste na realidade.
-
-Desnecessário dizer que um corpo verdadeiramente sadio é aquele que permite ao indivíduo viver liberto da preocupação com doenças por toda a sua existência. Se o número de pessoas nessas condições aumentar, concretizar-se-á o ideal da humanidade: um mundo isento de doenças. Portanto, a medicina que nos permite avançar, passo a passo, em direção a esse ideal é, inquestionavelmente, a verdadeira medicina. Nesse sentido, ao ponderar com atenção a teoria que venho expondo, fundamentada em fatos concretos, ninguém poderá deixar de anuir. Sendo assim, o que mais poderia ser a medicina religiosa, senão a autêntica medicina? Diante dessa constatação, não seria nosso dever primordial difundir este conhecimento o mais brevemente possível à humanidade, para que todos possam banhar-se em suas graças?
-
-Ademais, esta medicina religiosa não se limita a restaurar a saúde do corpo físico; ela também promove a sanidade do espírito. Consequentemente, tem o poder de solucionar a pobreza, que tanto aflige a humanidade, e a guerra, seu maior pavor. Trata-se, portanto, de um Evangelho de magnitude indescritível. Contudo, enfrentamos um desafio monumental: a medicina materialista, arraigada há séculos de forma tão profunda na consciência coletiva. A humanidade, em sua totalidade, encontra-se iludida por ela, crendo em seus preceitos de modo acrítico, a ponto de se assemelhar a uma verdadeira fé. Visto que tanto os especialistas quanto o público em geral compartilham dessa mentalidade, métodos simplórios serão de todo ineficazes para despertá-los. Esta é a grande e árdua missão que nos foi confiada, uma empreitada que, em circunstâncias normais, beiraria o impossível.
-
-Todavia, se permanecermos inertes, o sofrimento humano apenas se aprofundará, podendo culminar no declínio de nações civilizadas. Impõe-se, pois, a necessidade de alertar o mundo com a máxima urgência. Quando o público em geral compreender a verdade, uma imensa comoção se espalhará pelo globo, dando origem a uma grande revolução na medicina materialista. Decerto, em toda a história, jamais houve uma revolução de tamanha magnitude. A relevância desta questão supera, de forma incomparável, a de qualquer guerra.
-
-A razão é simples: ainda que ecloda uma Terceira Guerra Mundial, seus efeitos estarão restritos a um tempo e a um espaço geográfico determinados. A questão da medicina, entretanto, é um problema eterno que diz respeito à totalidade da espécie humana.
-
-Diante do exposto, se um mundo sem doenças — algo que ninguém jamais ousou sonhar — se tornar realidade, o que ocorrerá com a longevidade humana? Indiscutivelmente, viver além dos cem anos tornar-se-á possível, e assim se concretizará o ideal da humanidade. Embora nada possamos afirmar sobre a pré-história, nos anais da história registrada não há evidências de que a população em geral tenha alcançado tal longevidade. Isso se deve ao fato de que, à exceção das calamidades, a maioria sucumbe às enfermidades. Morrer em decorrência de uma doença não é, de forma alguma, o estado natural do ser humano; é uma anomalia. Evidentemente, a morte por doença constitui uma morte antinatural. Se os seres humanos se libertarem das moléstias, todos terão uma morte natural, e, nesse caso, viver mais de um século não terá nada de extraordinário.
-
-Resta, porém, um ponto a ser esclarecido. Conforme mencionei, a causa fundamental das doenças reside na mácula espiritual, cuja origem, por sua vez, está no pecado e nos venenos medicamentosos. Contudo, além desses dois fatores, existe uma terceira causa de suma importância: os fertilizantes aplicados às culturas agrícolas. Embora desconheçamos as práticas dos tempos primitivos, é lícito supor que seu uso remonta a épocas bastante antigas. No Japão, utilizam-se dejetos humanos e, mais recentemente, fertilizantes químicos. No exterior, além dos fertilizantes químicos, certamente empregaram outros tipos em períodos anteriores.
-
-A verdade é que, até hoje, a dimensão dos malefícios causados pelos adubos artificiais ao corpo humano permaneceu completamente ignorada. Prevalecia a crença de que, uma vez absorvido pela planta, o fertilizante agia de forma inteiramente benéfica, sem deixar quaisquer efeitos colaterais. Tal pensamento é análogo ao equívoco sobre os medicamentos, que se supunha possuírem apenas efeitos curativos, sem deixarem resíduos tóxicos no organismo.
-
-No entanto, por meio de Revelação Divina, foi-me dado descobrir que, embora a toxicidade dos fertilizantes diminua consideravelmente até o amadurecimento do fruto, ela não desaparece por completo. A esse respeito, o Sr. Rodale, presidente de uma importante companhia de laticínios dos Estados Unidos, publicou recentemente os resultados de sua longa experiência. Ele demonstrou que o gado alimentado com pasto cultivado com fertilizantes químicos apresenta saúde debilitada e produz leite de qualidade inferior. Em contrapartida, os animais alimentados com pasto cultivado exclusivamente com composto orgânico são extremamente saudáveis e seu leite é de qualidade superior. Em virtude da sua entusiástica divulgação, essa descoberta vem ganhando reconhecimento em diversos setores, tendo recebido inclusive o apoio do governo norte-americano. Ademais, pesquisas acadêmicas e experimentos práticos corroboraram seus achados, transformando o assunto em pauta da opinião pública, conforme noticiado em uma recente revista especializada dos Estados Unidos. O mesmo senhor também defende que, desde a introdução dos fármacos químicos, houve um aumento no número de doenças de natureza maligna.
-
-Venho afirmando ambas as coisas há mais de vinte anos. O Japão, todavia, ao contrário dos Estados Unidos, possui uma tendência em que os intelectuais ignoram novas teorias. Pelo fato de eu ser um religioso, minhas palavras foram completamente desconsideradas e vistas como mera superstição. É notório o quanto essa mentalidade obstrui o progresso da civilização.
-
-Como se pode depreender do que foi exposto, se o pecado, os medicamentos e os fertilizantes artificiais constituem a tríade que origina as doenças, a primeira e mais essencial medida para a salvação da humanidade deve ser a erradicação desses três males. Embora possamos abolir o uso de medicamentos e fertilizantes a partir de hoje, o problema mais complexo é, sem dúvida, a questão do pecado. Esta, evidentemente, só pode ser solucionada por meio da religião.
-
-Entretanto, seria justo afirmar que, na atualidade, não se vislumbra uma religião com o potencial para realizar tal feito. Ora, se a religião que preenche todos esses requisitos é a nossa, a Igreja Messiânica, então a minha responsabilidade é imensa e de grande peso. É nesse sentido que, por meio desta obra, faço soar um alarme para os intelectuais de todo o mundo. Antes de prosseguir, porém, devo informar-lhes sobre um assunto de suma importância, o qual passarei a expor a seguir.
-
----
-
-# Sobre a Insignificância das Cavidades Pulmonares
-
-**Categoria:** ku | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-**Título Original:** 空洞など何でもない 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
-
-## Sobre a Insignificância das Cavidades Pulmonares
-
-É de conhecimento geral o grande temor que os médicos nutrem pelas cavidades tuberculosas. Todavia, do meu ponto de vista, tal apreensão não passa de um completo disparate.
-
-Certo paciente, diagnosticado com duas cavidades, recebera a recomendação para uma cirurgia. Contudo, enquanto aguardava por um leito vago, uma vez que os quartos do hospital estavam todos ocupados, ele teve a oportunidade de ouvir sobre o Johrei. Tendo obtido permissão para receber alta, iniciou imediatamente o tratamento e, transcorridos sessenta dias, uma nova radiografia foi realizada. O exame atestou a completa remissão das cavidades, selando sua cura definitiva.
-
-Diante de tal fato, torna-se evidente a incomparável superioridade do Johrei. A medicina, por sua vez, ao empregar o bisturi, não apenas submete o paciente a sofrimento e ao risco de sequelas permanentes, como também impõe um fardo financeiro considerável, para, na maioria das vezes, sequer alcançar a cura.
-
-Ademais, o fato de se orgulharem de tais métodos, proclamando-os como um avanço, configura uma autêntica tragicomédia. Isso ocorre, fundamentalmente, porque desconhecem o surgimento de uma arte de cura tão sublime quanto o Johrei.
-
----
-
-# Todo Medicamento é, em Essência, um Narcótico
-
-**Categoria:** ku | **Ano:** 昭和27(1952)年9月17日 | **Fonte:** Eikou
-**Título Original:** 薬と名の付くものは全部麻薬なり 医学断片集（21） | **Status:** Published | **Edição/Página:** 174号 | **Data ISO:** 1952-09-17
-
-## Todo Medicamento é, em Essência, um Narcótico
-
-Atualmente, a palavra "narcótico" evoca um temor generalizado. Contudo, desejo elucidar aqui o porquê de todos os produtos designados como "remédios" serem, em sua essência, narcóticos. É de conhecimento geral que, ao se utilizar um narcótico pela primeira vez, a mente se torna mais clara e sobrevém uma sensação de euforia. Gradualmente, isso se transforma em um hábito, o que configura a dependência.
-
-Na realidade, o mesmo ocorre com todos os medicamentos. A única distinção reside na velocidade de sua ação: enquanto os narcóticos produzem um efeito imediato, os demais medicamentos agem de forma mais paulatina. A diferença é apenas essa.
-
-Este princípio se aplica a qualquer enfermidade, seja uma gripe, tuberculose, afecções gástricas ou cardíacas. Portanto, seria justo afirmar que a maioria das pessoas na era moderna sofre de uma leve dependência medicamentosa, razão pela qual se tornaram tão suscetíveis ao adoecimento.
-
-Nesse sentido, é curioso observar um relato que se tornou frequente nos últimos tempos: "Aquele remédio, que antes era tão eficaz, parece ter perdido seu efeito, e não sei o que fazer". A verdade é que tal fenômeno ocorre porque o número de pessoas com dependência química aumentou, mas elas simplesmente não se dão conta disso. Afinal, não seria razoável supor que o organismo humano tenha se alterado em tão pouco tempo. Este fato, portanto, expõe de maneira inequívoca um dos pontos cegos da medicina.
-
----
-
-# O Declínio da Eficácia dos Medicamentos
-
-**Categoria:** ku | **Ano:** 昭和28(1953)年2月18日 | **Fonte:** Eikou
-**Título Original:** 薬が効かなくなった | **Status:** Published | **Edição/Página:** 196号 | **Data ISO:** 1953-02-18
-
-## O Declínio da Eficácia dos Medicamentos
-
-Revista *Eikou*, nº 196, publicada em 18 de fevereiro de 1953
-
-No dia 3 de fevereiro do corrente ano, o jornal *Tounichi* publicou o artigo que se segue.
-
-**A penicilina, que perdeu sua eficácia**
-
-A penicilina, que surgiu como um cometa no universo da medicina do pós-guerra, a ponto de parecer ter provocado uma pequena revolução, perdeu drasticamente sua potência nos últimos tempos. Em particular, sua falta de resultados notáveis contra a gripe que atualmente se alastra por todo o país tem feito com que seja gradativamente evitada por profissionais da saúde e pacientes. Diante disso, investigamos junto ao Instituto de Doenças Infecciosas da Universidade de Tóquio e ao Departamento de Saúde Metropolitano as verdadeiras razões do declínio da penicilina.
-
-**Bactérias cada vez mais resistentes**
-
-*A culpa recai também sobre doces e alimentos*
-
-◇ A reputação da penicilina como um medicamento de “pouca eficácia geral” começou a se consolidar por volta de 1950, após a epidemia global da chamada gripe italiana. O motivo reside no fato de que a penicilina é completamente ineficaz contra o vírus, o agente causador da gripe. Tecnicamente falando, os vírus são partículas microscópicas, visíveis apenas com um microscópio eletrônico, com tamanho inferior a cem milimícrons (um mícron equivale a um milésimo de milímetro). A faixa de eficácia da penicilina, contudo, abrange apenas microrganismos de quatro a cinco vezes maiores, na casa dos quatrocentos a quinhentos milimícrons. Portanto, embora seja útil contra a bactéria da pneumonia, que pode surgir como uma infecção secundária, a penicilina é totalmente impotente diante do vírus em si, e essa é a principal causa de seu descrédito.
-
-◇ O segundo fator que contribui para a ineficácia da penicilina está relacionado a certos alimentos industrializados, tanto importados quanto nacionais de alta qualidade. Isso se deve ao fato de que, não apenas nos Estados Unidos, mas em diversos países, a maioria dos alimentos e doces de categoria superior contém ínfimas quantidades de penicilina. Observa-se até mesmo a comercialização de doces infantis anunciados como enriquecidos com o antibiótico. Sob essa perspectiva, estima-se que mais de oitenta por cento da população japonesa, sem o saber, já tenha ingerido penicilina de alguma forma. Dessa forma, mesmo indivíduos que nunca receberam uma injeção de penicilina acabam por desenvolver resistência em seu organismo, o que pode gerar certas incongruências no momento de uma prescrição. Embora o impacto clínico seja considerado mínimo, esta é mais uma das razões pelas quais se afirma que o medicamento “não funciona”.
-
-◇ No campo das doenças venéreas, a penicilina parecia reinar absoluta no combate ao gonococo. Recentemente, todavia, o próprio gonococo desenvolveu uma resistência notável ao antibiótico, tornando a cura mais difícil do que há dois ou três anos. Em outras palavras, na época em que a penicilina surgiu, por volta de 1947, uma injeção de apenas cem a duzentas mil unidades era suficiente para a cura completa. Atualmente, são necessárias doses quase vinte vezes maiores, acima de um milhão e oitocentas mil unidades, para se obter o mesmo resultado. Em suma, o aumento de várias vezes na resistência do gonococo é o que dificulta o tratamento da doença.
-
-◇ Por fim, o fenômeno da indústria farmacêutica conhecido como “corrida da penicilina” também tem sua parcela de responsabilidade. No Japão, durante o auge em 1950, cerca de cem empresas farmacêuticas produziam penicilina em plena capacidade. Naquele ano, um número astronômico de 7,5 trilhões de unidades do antibiótico circulou no mercado interno, e os consumidores o utilizaram em larga escala. Como resultado, a maior parte dos cidadãos das classes média e alta tornou-se usuária de penicilina, o que gerou as reações de resistência já mencionadas. Diante desse cenário, surge a questão sobre os futuros métodos de tratamento. A solução mais sensata, que se apresenta como pré-requisito para uma cura completa, parece residir na terapia combinada de múltiplos medicamentos, como penicilina, aureomicina, estreptomicina, hidrazida, terramicina, PAS e cloranfenicol.
-
-***
-
-O exposto acima confirma que, de fato, os medicamentos têm perdido sua eficácia nos últimos tempos. Contudo, por desconhecerem a verdadeira causa, os especialistas apresentam explicações que soam mais como desculpas esfarrapadas e argumentos forçados. De nosso ponto de vista, tal situação é digna de pena.
-
-Como os membros bem sabem, a razão é claríssima e reside naquilo que sempre exponho: a intensificação do Processo de Purificação. Por ora, trata-se apenas da penicilina, mas é notório que, com o tempo, todos os medicamentos, sem exceção, se tornarão ineficazes. Quando isso ocorrer, um grande problema se abaterá sobre a humanidade.
-
-É com o intuito de preparar a todos para esse momento que tenho, hoje, incessantemente, feito advertências por meio da palavra escrita e falada. Consequentemente, torna-se mais claro que o sol que a medicina moderna deverá, como previsto, passar por uma revolução.
 
 ---
 

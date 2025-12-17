@@ -1,9 +1,102 @@
 # Mioshie_Teachings - Part 4
 
+# Esclarecimentos sobre a Fé e a Obra Divina
+
+**Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年9月18日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
+
+## Esclarecimentos sobre a Fé e a Obra Divina
+
+**P: Mestre, os coreanos e os chineses consomem muito alho em sua alimentação. Pela minha experiência, o efeito do Johrei neles parece ser menor. Isso se deve ao alho?**
+
+R: Certamente que sim. Na verdade, por possuírem um nível espiritual inferior ao dos japoneses, o Johrei deveria atuar com mais eficácia neles.
+
+**P: O alho também tem a propriedade de solidificar?**
+
+R: Sim, de fato, ele solidifica.
+
+**P: Por qual pecado a divindade Sarutahiko-no-Mikoto se tornou um Tengu?**
+
+R: Os Tengu são a manifestação da soberba e da presunção; no Mundo Físico, pessoas com tais características, ao morrerem, seguem para o Mundo dos Tengu. Profissionalmente, incluem-se advogados, acadêmicos, sacerdotes xintoístas e monges budistas. Tornar-se um Tengu não é bom nem mau. O Mundo dos Tengu é uma dimensão ligeiramente superior ao Mundo Intermediário, situando-se abaixo do Terceiro Céu, e a eles incumbe a missão de proteger as montanhas. Portanto, é um mundo à parte, distinto tanto do Inferno quanto do Paraíso. No Mundo Físico também encontramos muitas pessoas com índole de Tengu, e lidar com elas é um tanto complicado. A divindade Sarutahiko-no-Mikoto não se tornou um Tengu em decorrência de algum pecado, mas por uma necessidade. Consta que ele guiou Amaterasu-Omikami, mas, nesse papel, ele também se manifesta como a divindade Tajikarao-no-Mikoto. Existem Tengu que possuem corpo físico e, por vezes, habitam as montanhas, vivendo por centenas de anos, de forma semelhante aos eremitas.
+
+**P: Qual a relação entre o Plano Noturno da divindade Susanoo-no-Mikoto, a medicina ocidental, a maçonaria e o comunismo?**
+
+R: Existe uma profunda relação. O sentido é que a divindade Susanoo-no-Mikoto se deixou instrumentalizar pelo espírito de um deus maligno. Abordei brevemente este assunto no livro *A Arte da Cura*. Contudo, a divindade Susanoo-no-Mikoto agiu com plena consciência dos fatos.
+
+**P: Em um de seus hinos, lemos: “Aquilo que aos olhos do homem comum parece bom, pode não se adequar à Vontade de Deus”. Como membros de nossa Igreja, a que pontos devemos atentar?**
+
+R: A perspectiva humana é, de fato, distinta da Divina. O comunismo, por exemplo, pode parecer justo para os homens, mas Deus não o considera assim. Todavia, existem diferentes hierarquias de deuses. Uma divindade de primeira ordem reconhece a necessidade do comunismo, enquanto uma de segunda ordem o rejeitaria. Há inúmeras ações que, embora consideradas boas pelos homens, são inaceitáveis sob a ótica de Deus. Os indivíduos hoje julgados como criminosos de guerra, por exemplo, estavam convictos, durante o conflito, de que praticavam o bem. Por essa razão, quando questionados sobre sua culpa, todos, sem exceção, declararam-se “inocentes”. Nenhum deles se considerava um transgressor.
+
+O ponto de divergência entre o divino e o humano reside na distinção entre Mahayana e Hinayana. Desejar o bem-estar apenas do Japão, em detrimento de outras nações, é uma visão Hinayana e, portanto, um mal. Uma ação só é verdadeiramente boa se almejar a felicidade de toda a humanidade. Durante a guerra, jamais proferi palavras como “lealdade e patriotismo”. A razão é simples: se os japoneses agissem por “lealdade e patriotismo” e seus adversários, coreanos e chineses, fizessem o mesmo, o resultado seria catastrófico. Felizmente, o patriotismo deles não era tão fervoroso, o que atenuou a situação.
+
+Evidentemente, há momentos e circunstâncias em que o Hinayana se torna mais necessário que o Mahayana. Mesmo nessas ocasiões, porém, deve-se agir com base no Mahayana, utilizando o bom senso como critério. É nesse ponto que se realiza a fusão entre o Mahayana e o Hinayana. O Hinayana representa o eixo vertical, e o Mahayana, o horizontal. Assim, concretiza-se a união do vertical e do horizontal.
+
+Recentemente, em uma carta do General MacArthur no aniversário da assinatura da rendição no navio Missouri, li que “o Japão é o ponto onde as culturas do Oriente e do Ocidente se fundem”. E isso é a mais pura verdade. O emblema que todos usam representa precisamente isso: o ponto vermelho central simboliza o Japão, o local onde o vertical e o horizontal se unem. Hakone é a divisa entre o leste e o oeste do Japão, e seu centro é o Monte Kamiyama. Idealmente, este retiro de Soun-ryo deveria ter sido construído sobre o Monte Kamiyama, mas como não foi possível, edificamo-lo aqui, mantendo o mesmo significado de união do vertical e do horizontal. De modo análogo, a antiga sede em Kaminoge, Tamagawa, situava-se entre Tóquio (vertical) e Yokohama (que se abre horizontalmente para o mundo). Agora, construirei uma residência em Atami, depois em Odawara e, em seguida, pretendo estabelecer-me em Beppu. A partir dali, já se trata do exterior. Além disso, planejo edificar uma casa em estilo ocidental dentro do complexo de Tozan-so, onde adotarei um modo de vida ocidental.
+
+**P: Qual o significado, segundo o kotodama, de lugares como Sapporo, em Hokkaido?**
+
+R: Sapporo é uma palavra da língua ainu, portanto, difere do japonês. Os ideogramas utilizados são apenas fonéticos, não havendo necessidade de interpretar palavras ainu. As línguas estrangeiras também possuem kotodama; nomes como América, Washington e Lincoln o contêm. Contudo, isso constitui outro campo de estudo. É suficiente conhecer o do idioma japonês, no qual o kotodama se manifesta com maior clareza. O japonês possui setenta e cinco sons, enquanto o inglês, por exemplo, tem menos de cinquenta e muitos semitons. Sob a perspectiva do kotodama, o Japão é superior, mas abstenhamo-nos de ufanismo.
+
+**P: Seria recomendável escolher locais com nomes auspiciosos para a difusão, baseando-se no nome da localidade?**
+
+R: Sou contra essa ideia. Na verdade, é preferível escolher lugares com nomes desfavoráveis. A verdadeira missão consiste em levar a fé a esses locais impuros e purificá-los.
+
+**P: Mas imagino que o trabalho seja mais árduo em locais de nome ruim...**
+
+R: Não necessariamente. Por vezes, os espíritos malignos acabam por negligenciar justamente esses lugares. Tóquio, por exemplo, embora tenha um bom kotodama, é a cidade mais impurificada, um verdadeiro reduto de espíritos malignos. Ademais, a escolha de um local não é uma decisão humana; é Deus quem escolhe e designa uma pessoa para a tarefa. Quando chega o momento de iniciar a Obra em determinada região, Deus cria uma necessidade que levará essa pessoa até lá.
+
+**P: Ouvi dizer que a região de Izumo é de difícil difusão...**
+
+R: Izumo é o reduto da divindade Susanoo-no-Mikoto, um deus da Lua, e por isso rejeita o dia. Muitas pessoas de lá pertencem ao clã de Izumo, da linhagem de Susanoo, com ascendência coreana.
+
+**P: Recentemente, um número considerável de estudantes da Escola Superior de Ichiko aderiu à nossa fé.**
+
+R: Sim, o tempo propício chegou por volta do ano passado. A Oomoto, por sua vez, conseguiu difundir-se em Izumo porque seu líder, Onisaburo Deguchi, era a manifestação da divindade Susanoo-no-Mikoto.
+
+**P: Os métodos de cura espiritual do passado utilizavam o princípio da solidificação ou o da purificação?**
+
+R: Ambas as forças estão em jogo. Aqueles da linhagem da água assumem a doença do próximo. Eu, por minha vez, queimo-a com o fogo. A Tokuhon-kyo, de Tokuichi Miki, por exemplo, era um método de assumir a doença. Por isso, uma vez por mês, realizavam um ritual chamado *ofurikae*, no qual transferiam o fardo para Deus. Em suma, os métodos da linhagem da água se baseiam mais na transferência do que na dissolução real da causa. Eles removem as máculas. Contudo, como as toxinas são máculas, pode-se dizer, em certo sentido, que eles as dissolvem.
+
+**P: E o método de Cristo, qual era?**
+
+R: Ele utilizava o espírito para remover os espíritos malignos que obsediavam as pessoas. Por isso, curava a paralisia tão rapidamente. O mestre de Tokuichi Miki, um homem chamado Tokumitsu Kaneda, foi uma pessoa notável, mas sofreu uma terrível perseguição das autoridades da época. Ao que parece, a Tokuhon-kyo ainda possui um número considerável de seguidores na região de Osaka. Houve muitas modalidades de cura pela fé em que o curador assumia a doença do outro, mas à medida que o Mundo Espiritual adentra a Era do Dia, tais métodos se tornarão inviáveis. A Igreja Tenrikyo segue o mesmo princípio. O maior expoente desse método de assumir o sofrimento alheio foi Cristo, que se propôs a redimir os pecados de toda a humanidade.
+
+**P: Podemos, então, considerar que o Senhor, Mestre, também perdoa os pecados?**
+
+R: Na verdade, sim. Contudo, até hoje, se as autoridades tomassem conhecimento de tal fato, teríamos enfrentado sérios problemas.
+
+**P: Na província de Yamagata, membros da Reiyukai estão dizendo: "A deusa Kannon (観音) se manifestará no ano 25 da Era Showa, portanto, devemos angariar o máximo de membros até lá".**
+
+R: O ano 25 da Era Showa será o ano da Grande Purificação...
+
+**P: Por que algumas pessoas que receberam a Luz Divina, mas se desviaram do caminho da fé, aparentam ainda ter o poder de curar?**
+
+R: Isso, em uma palavra, é o efeito da inércia espiritual. Pode funcionar por um tempo, mas inevitavelmente falhará. E, naturalmente, há a atuação de espíritos malignos.
+
+**P: Podemos entender que o poder de Kannon (観音) emana do Omamori, percorre o cordão, entra no corpo e sai pela mão?**
+
+R: Não é assim. A Luz Divina, através do Elo Espiritual, chega ao próprio Omamori, penetra-o e, então, irradia-se pela mão. O cordão poderia ser até mesmo de metal. O importante é o ato de usá-lo ao redor do pescoço. Durante a guerra, os soldados o guardavam no *haramaki* para que não fosse confiscado quando estavam nus; tratava-se, porém, de uma circunstância inevitável. Sem uma razão válida, não se deve proceder dessa forma. No verão, quando se usa menos roupa, pode-se usá-lo na diagonal, passando por baixo da axila.
+
+**P: Do ponto de vista do elemento primordial, como devemos compreender a eletricidade e o magnetismo?**
+
+R: A distinção entre elétron e magnetismo ainda não é clara. No século XVIII, surgiu na França uma terapia magnética que, ao se expandir para a Alemanha, teve grande desenvolvimento. No início de nossa Obra, na fase de cura, alguns diziam que o magnetismo emanava das mãos. Outros falavam em eletricidade humana. Pode-se considerar o magnetismo como uma forma de eletricidade. Os cientistas costumam chamar de “magnetismo” aquilo que não compreendem, como no caso das tempestades magnéticas. Explicarei sobre elétrons, átomos e partículas espirituais em meu próximo livro.
+
+**P: Li no jornal que uma audiência com o líder da seita Nichiren, no Monte Minobu, custa três mil ienes por minuto.**
+
+R: Estabelecer um preço por tempo de audiência não é atitude de um religioso; é de um artista. O budismo hoje enfrenta graves dificuldades financeiras. Dias atrás, soube que cerca de dois terços dos monges do templo Sojiji, em Tsurumi, o abandonaram. A razão? Não conseguiam se sustentar, e muitos estão renunciando à vida monástica.
+
+**P: Em comparação, sentimo-nos imensamente gratos por podermos ter uma audiência com o Senhor, Mestre.**
+
+R: Sim, talvez meu preço esteja baixo demais. Mas não há problema. Por enquanto, ainda estamos em fase de divulgação.
+
+---
+
 # Esclarecimentos sobre Enfermidades e o Processo de Purificação
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年8月28日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre Enfermidades e o Processo de Purificação
 
@@ -117,6 +210,7 @@ Não tinham? Isso é um grave erro. É você a pessoa em questão?
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年12月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 神智の光 | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-12-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Orientações sobre a Fé e a Vida
 
@@ -184,6 +278,7 @@ Existe, aliás, um método simples para identificá-las. As indianas apresentam 
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年1月31日 | **Fonte:** 会報
 **Título Original:** 大先生様御教え 高天分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-01-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## A Relação entre Religião, Ciência e a Origem do Sofrimento
 
@@ -225,6 +320,7 @@ Dessa forma, o corpo humano mantém uma relação intrínseca com a Lua. A linha
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年8月21日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年8月） 大成会以外の御面会日の御光話の中から適宜選択、載録 | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1949-08-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre os Ensinamentos Divinos
 
@@ -620,6 +716,7 @@ A cirurgia não adiantará; na verdade, pode piorar a situação. Além disso, m
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年2月8日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年1月18日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1949-02-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Fé e o Cotidiano
 
@@ -739,6 +836,7 @@ Sim, há um significado. Pode ser o ressentimento de alguém que foi ferido entr
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年12月15日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre as Causas Espirituais dos Sofrimentos
 
@@ -780,6 +878,7 @@ Seu corpo está, por assim dizer, avariado. Ele deve se levantar aos poucos, aco
 
 **Categoria:** situmon | **Ano:** 昭和23(1948)年12月8日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S23年11月8日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1948-12-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Fé e o Universo
 
@@ -857,6 +956,7 @@ Eu mesmo, no passado, fui alvo de inúmeras calúnias. Na época da Oomoto, eu e
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年3月8日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -920,6 +1020,7 @@ Tanto Marx quanto Engels sofreram com a mais extrema pobreza. As pessoas hoje, a
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年3月23日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## A Universalidade da Arte Japonesa
 
@@ -941,6 +1042,7 @@ Sem dúvida, é recomendável que o conheçam. Com o advento do Paraíso Terrest
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年3月28日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## A Fé no Lar e a Paciência na Purificação
 
@@ -982,6 +1084,7 @@ Nesse caso, basta levá-lo a um restaurador de pergaminhos para que ele realize 
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1951-12-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Perguntas e Respostas sobre a Verdade Divina
 
@@ -1042,6 +1145,7 @@ Após minhas palavras, ministrei Johrei, e a pessoa retornou à sua calma habitu
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年2月25日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Sofrimento Causado por um Antepassado
 
@@ -1089,6 +1193,7 @@ Isso não representa problema algum. Apenas desloque-a. É tudo o que precisa se
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年3月23日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Nova Era
 
@@ -1170,6 +1275,7 @@ Estou planejando iniciar o cultivo de flores ornamentais, com o objetivo de reun
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年10月25日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos Divinos sobre a Purificação
 
@@ -1293,6 +1399,7 @@ Este é um sinal auspicioso. Tenha certeza de que esse espírito será salvo.
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年6月10日 | **Fonte:** 実生分会ニュース
 **Título Original:** 妙智の鍵 実生分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-06-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 実生分会ニュース
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -1350,6 +1457,7 @@ Não é necessário ir ao cemitério. No dia designado, basta voltar-se na dire�
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年12月8日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre Johrei e a Causa das Doenças
 
@@ -1431,6 +1539,7 @@ Não é necessário ir ao cemitério. No dia designado, basta voltar-se na dire�
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年5月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1951-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos Divinos
 
@@ -1488,6 +1597,7 @@ Não é necessário ir ao cemitério. No dia designado, basta voltar-se na dire�
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年11月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 妙智之光 | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1949-11-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos sobre a Vida Cotidiana e o Mundo Espiritual
 
@@ -1569,6 +1679,7 @@ Não é necessário ir ao cemitério. No dia designado, basta voltar-se na dire�
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年4月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 妙智之光 | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1949-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos sobre a Fé e a Vida
 
@@ -1712,6 +1823,7 @@ O ginkgo é uma árvore mística, um pouco diferente das árvores comuns. É mui
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年5月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 48号 | **Data ISO:** 1953-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos sobre Provações e Dúvidas Espirituais
 
@@ -1783,6 +1895,7 @@ Os pontos vitais são os rins e a bexiga. Trata-se de uma purificação de simpl
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年7月28日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Diretrizes sobre a Prática da Fé e o Mundo Espiritual
 
@@ -1896,6 +2009,7 @@ De modo algum. O deus guardião local cuida constantemente dos seus protegidos, 
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年10月8日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Diretrizes para a Vida de Fé
 
@@ -2214,6 +2328,7 @@ Pode manter como está. Se é o Konjin do portão do demônio, não há problema
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年10月21日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年7月3日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1949-10-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## A Linhagem Espiritual e os Mistérios do Universo
 
@@ -2327,6 +2442,7 @@ Sim, existem incessantemente. Em todas as épocas, há cinco. A estrela se manif
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1951-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos Divinos
 
@@ -2380,6 +2496,7 @@ Quando questionado sobre a situação mundial, o espírito respondeu: "Sou um es
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年1月16日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Causa Espiritual das Doenças e os Conflitos Familiares
 
@@ -2447,6 +2564,7 @@ Ela não parece alheia, então é um caso leve. Falta apenas mais um passo para 
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年10月21日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年7月23日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1949-10-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Respostas aos Questionamentos da Fé
 
@@ -2590,6 +2708,7 @@ O mikoshi representa a inspeção anual que a divindade protetora da localidade 
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年7月8日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## A Mística dos Números, o Poder dos Nomes e o Destino
 
@@ -2679,6 +2798,7 @@ Existem também famílias em que os filhos homens não sobrevivem, apenas as mul
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年9月11日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Causas Espirituais e Toxinas Medicinais
 
@@ -2710,6 +2830,7 @@ Eu escrevo incessantemente sobre os malefícios dos medicamentos, mas percebo qu
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年12月18日A） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos de Meishu-Sama sobre a Fé e o Mundo Espiritual
 
@@ -2839,6 +2960,7 @@ R: O clima está se tornando gradualmente mais uniforme. Recentemente, até mesm
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年1月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1951-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos Divinos
 
@@ -2949,6 +3071,7 @@ A resposta está detalhada no capítulo “O Caminho do Casal”, do livro “Cr
 
 **Categoria:** situmon | **Ano:** 昭和23(1948)年12月10日 | **Fonte:** 実生分会ニュース
 **Título Original:** ご存じですか 実生分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1948-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 実生分会ニュース
 
 ## Orientações sobre o Culto aos Antepassados e a Postura na Fé
 
@@ -2976,6 +3099,7 @@ Por fim, aquele que se dirige à Unidade Religiosa para receber Johrei não deve
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S28年4月1日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Sublimidade do Espírito e a Prática da Salvação
 
@@ -3191,6 +3315,7 @@ O mesmo vale para as sementes. Variedades como "Asahi nº X" ou "Norin nº Y" s�
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年11月1日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Elucidações sobre Enfermidades e a Influência Espiritual
 
@@ -3217,41 +3342,6 @@ A respeito do método de “perseguir” a dor com o Johrei e ordenar que ela se
 **Pergunta:** Desde a reincidência de minha tuberculose, em setembro do ano passado, submeti-me a repouso absoluto, recorrendo principalmente à moxabustão e utilizando poucos remédios. Como não obtive melhora, no início deste ano utilizei dois tipos de antibióticos e fiz uso de PAS por trinta dias, o que me deixou ainda mais debilitado. Houve um período em que mal conseguia me alimentar. No final de março, comecei a receber o Johrei de nossa religião e, em meados de maio, já me sentia muito mais forte. Em 23 de junho, tive a permissão de consagrar a Imagem de Kannon (観音) em Tela de Seda. Minha esposa, embora fosse membro desde o final de 1949, havia se afastado temporariamente do caminho da fé devido à minha incompreensão, mas com o meu ingresso, renovou sua dedicação. No dia seguinte à consagração da Imagem, recebi uma nova purificação, com grande expectoração de catarro. Graças a Deus, fui melhorando gradualmente, a quantidade de catarro diminuiu e, a partir de meados de julho, comecei a me levantar. Contudo, sinto falta de ar ao me movimentar, o que me impede de caminhar ao ar livre, limitando-me a pequenos deslocamentos dentro de casa. No início de setembro, minha garganta começou a doer e minha voz ficou rouca, mas a dor cedeu com o Johrei. Atualmente, quando tusso por alguns dias seguidos, a garganta dói; quando a tosse diminui, a dor passa. Permaneço acamado a maior parte do tempo, e tossir me causa dificuldade para respirar. Em cada refeição, consigo comer uma tigela cheia de arroz, mas sem muito apetite. Recebo Johrei de minha esposa diariamente, mas quando o recebo de um ministro, sinto uma melhora significativa que perdura pelo dia e pelo dia seguinte. Sobre meu histórico familiar: quando eu sofria de pleurisia e meu estado não melhorava, meu irmão mais velho retornou da guerra sofrendo de uma doença não diagnosticada, semelhante a cálculos biliares. Minha doença se curou, mas a de meu irmão tornou-se crônica. Após a partilha dos bens, ele se mudou da casa onde resido atualmente e, gradualmente, seu mal se curou. Contudo, foi então que minha enfermidade se manifestou. Meu pai faleceu de peritonite há vinte e seis anos, e meu irmão mais novo, de pleurisia, há doze anos. As tabuletas memoriais de meus antepassados estão consagradas conforme o ensinamento. Imagino que minha purificação possa ter alguma relação com a casa. Rogo por vossa orientação. Os pontos em que tenho recebido mais Johrei são a nuca, o pescoço, o bulbo, os ombros, o coração (frente e costas), os rins e a região inguinal.
 
 **Orientação de Meishu-Sama:** Neste caso, o Johrei está sendo ministrado em pontos equivocados, e por isso a recuperação é lenta. Não se trata de um caso particularmente difícil; se os pontos vitais corretos forem focalizados, a recuperação poderá ser bastante acelerada. A falta de ar é um sintoma comum. Não se trata de neuralgia intercostal, mas sim de toxinas solidificadas na região entre as costelas. É preciso apalpar a área para encontrar o ponto de maior dor — geralmente na parte lateral do tronco — e ministrar Johrei ali. Isso aliviará enormemente a dificuldade respiratória. Outro ponto-chave está aqui, nos gânglios linfáticos do pescoço. Eles costumam ser a causa de febre, falta de ar e tosse. Verifique se um dos lados está mais quente ou se há nódulos. Neste caso, o senhor deve se concentrar nesse ponto e verá uma grande melhora. Há, de fato, alguma influência de ordem espiritual. O irmão que faleceu de pleurisia há doze anos está se manifestando em busca de salvação, não por malícia. À medida que o senhor se dedica, ele também será salvo gradualmente. O caso do pai, ocorrido há vinte e seis anos, não tem relação. O senhor tem recebido Johrei em muitos locais, mas sintomas como palpitações e falta de ar não indicam um problema cardíaco; a causa reside em outro lugar. Há casos em que problemas na garganta causam palpitações. Procedendo da maneira que indiquei, ele certamente se recuperará.
-
----
-
-# A Purificação Sistêmica do Veneno dos Remédios
-
-**Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
-**Título Original:** 御教え （S26年12月28日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
-
-## A Purificação Sistêmica do Veneno dos Remédios
-
-**Orientação de Meishu-Sama, 28 de dezembro de 1951**
-
-**Consulta:**
-
-Gostaria de solicitar uma orientação. Em fevereiro deste ano, recebi uma purificação sob a forma de um resfriado e, após me restabelecer em casa em meados de março, senti-me um pouco melhor e pude me dedicar às atividades de difusão. Contudo, desde o início de setembro, passei a sentir calafrios intensos, acompanhados de tosse severa, grande quantidade de catarro e ausência de evacuações. A partir de outubro, voltei a me resguardar em casa, condição em que permaneço até o presente momento.
-
-Atualmente, encontro-me bastante debilitado. Embora minha aparência externa seja a de alguém saudável, minhas pernas emagreceram consideravelmente. Consigo utilizar o banheiro sem auxílio. Meu apetite oscila; mesmo nos momentos em que não o tenho, consigo me esforçar para comer cerca de metade de uma tigela de arroz. Quando recebo Johrei nos ombros, nas costas e na região posterior ao estômago, por vezes manifesto febre e delírios, embora tais episódios tenham se tornado mais raros. A sensação de frio intenso, presente até novembro, diminuiu, mas a região lombar permanece constantemente dormente. Sinto também falta de ar, o que me impede de manter conversas prolongadas. Nos momentos de maior dificuldade respiratória, sinto como se um nódulo na boca do estômago pressionasse meu peito.
-
-Desde a infância, meu estômago é frágil, e fiz uso de medicamentos como Wakamoto, antiácidos e outros remédios em pó. Ademais, a cada resfriado, recorria a xaropes para a tosse. Aos 24 anos, fui submetido a um tratamento médico de aproximadamente 75 dias devido a um quadro de beribéri com dormência.
-
-No presente, sinto calor na cabeça (no topo e na nuca), no bulbo, nos ombros, nas costas, na área posterior ao estômago e no rim esquerdo. Estamos concentrando o Johrei nesses pontos. Estaria correto este procedimento? Ou tratar-se-ia de uma questão de ordem espiritual?
-
-Acrescento que toda a minha família ingressou na fé, e temos entronizados em nosso lar o Gohonzon e a imagem de Kannon (観音) em pergaminho.
-
-**Resposta de Meishu-Sama:**
-
-Isto não possui natureza espiritual. Trata-se do veneno dos remédios, o yakudoku. A causa é medicamentosa. O organismo deste homem está impregnado de toxinas medicamentosas. Portanto, é necessário proceder com paciência e perseverança.
-
-Antigamente, como essas toxinas se encontravam solidificadas, a purificação ocorria de forma gradual e localizada, o que mascarava a real dimensão do problema. Agora, contudo, o processo tornou-se sistêmico. A purificação não está restrita a um único ponto; ela se manifesta por todo o corpo. A febre suprime o apetite; a falta de apetite, por sua vez, resulta em constipação; e daí decorrem a tosse e o catarro.
-
-Como ele tem 53 anos, uma purificação intensa não sobrevém de uma só vez. Se ocorresse uma purificação que trouxesse grande sofrimento de imediato, a cura seria rápida. Todavia, como não há força purificadora para tanto, o processo se estenderá por mais tempo. É simplesmente isso.
-
-Ao ministrar Johrei, o mais importante é identificar o ponto vital. Ao examinar o corpo, encontrará o local de maior calor; este é o ponto nevrálgico. Concentre o Johrei ali. Mesmo quando ele próprio aplicar Johrei em si, é fundamental que o faça sem tensionar o corpo.
-
-Agindo dessa forma, a cura virá. Não há nenhuma dificuldade nisso. É apenas isso.
 
 ---
 

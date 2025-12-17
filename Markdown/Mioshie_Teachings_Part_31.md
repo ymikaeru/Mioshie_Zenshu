@@ -1,9 +1,348 @@
 # Mioshie_Teachings - Part 31
 
+# Um Diálogo com Meishu-Sama
+
+**Categoria:** taidan | **Ano:** 昭和29(1954)年7月21日 | **Fonte:** Eikou
+**Título Original:** 明主様と御対談 (一) | **Status:** Published | **Edição/Página:** 266号 | **Data ISO:** 1954-07-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Um Diálogo com Meishu-Sama
+
+Em 15 de abril passado, recebemos a visita do Sr. Dick Nakamura, correspondente em Tóquio da revista em língua inglesa *Asia Scene*, que, a pedido de seus leitores, desejava obter esclarecimentos sobre os escritos de Meishu-Sama, “A Salvação da América” e “A Bomba Atômica Não É de Se Temer”. Acompanhavam-no representantes da Rádio Tóquio: o locutor Terumasa Mayama e o produtor Akiyoshi Inoue.
+
+A audiência foi concedida no salão de recepções da Vila Hekiun-sō (碧雲荘). Aguardávamos todos quando, às duas horas da tarde, tivemos a honra de ser recebidos por Meishu-Sama, que se mostrava de excelente humor. A conversação estendeu-se por aproximadamente duas horas.
+
+A seguir, apresentamos o conteúdo desse diálogo.
+
+Ademais, cumpre registrar que parte desta entrevista foi publicada na edição de maio da *Asia Scene*, sob o título “O Deus Vivo de Atami”, e um trecho foi transmitido em 20 de abril no programa “Radio Sketch”, da Rádio Tóquio.
+
+**Sr. Nakamura:** Vim para ouvi-lo, Mestre, a respeito de seu livro “A Salvação da América”. Leitores norte-americanos nos contataram, solicitando informações sobre seu conteúdo. Os representantes da Rádio Tóquio que me acompanham trabalham em colaboração conosco.
+
+**Meishu-Sama:** Compreendo. No entanto, minhas palavras são por demais singulares e talvez não se adequem a um meio como o rádio.
+
+**Sr. Inoue:** Nosso programa, contudo, intitula-se “Radio Sketch” e tem por premissa apresentar os mais diversos assuntos sob as mais variadas perspectivas. Nesse sentido, nosso objetivo é expor uma ideia ao público, mesmo que, a princípio, ela pareça incompreensível. Portanto, nossa postura é isenta de críticas.
+
+**Meishu-Sama:** Essa é a atitude correta.
+
+**Sr. Inoue:** Sendo assim, peço-lhe licença para fazer perguntas que talvez pareçam insistentes.
+
+**Sr. Nakamura:** De minha parte, também me permitirei indagar com total franqueza.
+
+**Meishu-Sama:** É o melhor a fazer. Na verdade, sinto-me mais à vontade para conversar dessa maneira.
+
+**Sr. Nakamura:** Não vim aqui com o pressuposto de que se tratava de apenas mais uma nova religião. Se assim fosse, eu me contentaria em conversar com um de seus diretores para elaborar meu artigo. Todavia, por sentir que esta obra não se enquadrava nessa categoria, compreendi que seria imprescindível encontrar-me com a fonte original para entender a verdade.
+
+**Meishu-Sama:** Exato. Fundamentalmente, as religiões não são capazes de proporcionar a verdadeira salvação. Se pudessem, o mundo já teria sido salvo pelo Cristianismo ou pelo Budismo e se transformado em um paraíso. Contudo, a persistência da doença, da pobreza e do conflito demonstra a ineficácia de seus métodos. Não obstante, é inegável o mérito que tiveram; sem sua presença, a humanidade estaria imersa em uma barbárie ainda mais profunda. Mas sua capacidade de atuação tem um limite. É nesse ponto que atuo, com um poder que transcende a religião.
+
+### A Fonte da Vitalidade
+
+**Sr. Mayama:** Soube que o senhor viajou de carro a Quioto até um ou dois dias atrás. Não se sentiu cansado?
+
+**Meishu-Sama:** A viagem de carro foi apenas na ida, mas não me sinto particularmente fatigado.
+
+**Sr. Mayama:** De onde provém essa fonte de vitalidade, essa energia?
+
+**Meishu-Sama:** Provém da vida em conformidade com a Natureza. Meu método para a saúde é um pouco diferente do convencional.
+
+**Sr. Mayama:** Poderia nos dar um exemplo?
+
+**Meishu-Sama:** Sustento que quanto mais se exige do corpo, melhor. Por isso, eu me esforço ao máximo, dentro do possível. Assim, o corpo se fortalece naturalmente.
+
+**Sr. Mayama:** Mas o que costumamos ouvir é que o excesso de esforço abrevia a vida.
+
+**Meishu-Sama:** Essa é a tese da medicina moderna. A verdade, porém, é que quanto mais o ser humano utiliza seu corpo, melhor. Os atletas se submetem a esforços consideráveis e, ao contrário do que se pensa, o esforço torna o homem mais saudável. Eu sigo esse princípio e mantenho-me fiel a essa diretriz. Além disso, procuro dormir pouco. Chego a incentivar a redução do sono. Quanto à alimentação, adoto o princípio de comer o que desejo, na quantidade que desejo. Conceitos como vitaminas e calorias, portanto, tornam-se irrelevantes.
+
+**Sr. Mayama:** Seus seguidores também aparentam ter uma ótima compleição.
+
+**Meishu-Sama:** Sim. Este é o verdadeiro método para a saúde. É por desconhecê-lo que as pessoas cometem equívocos e se debilitam. O caso mais grave é o dos Estados Unidos; por essa razão, escrevi “A Salvação da América”, com o intuito de esclarecer os americanos.
+
+**Sr. Mayama:** Qual foi o estopim, por assim dizer, para essa descoberta?
+
+**Meishu-Sama:** A primeira revelação ocorreu quando curei a mim mesmo da tuberculose. Naquela época, eu seguia à risca as recomendações médicas, ingerindo grande quantidade de alimentos nutritivos e fortificantes. Após muita reflexão, decidi mudar de rumo. Como eu praticava pintura, consultando livros sobre a farmacopeia chinesa, observei que diversas raízes e cascas de árvores eram consideradas medicinais. Pensei que, se tais substâncias eram úteis, elas deveriam ser necessárias ao organismo. Foi então que resolvi experimentar os vegetais — eu, que até então os evitara em favor de uma dieta baseada em produtos de origem animal. O resultado foi surpreendentemente positivo, e em cerca de três meses recuperei por completo a saúde. A partir desse momento, comecei a nutrir dúvidas sobre a medicina ocidental.
+
+**Sr. Mayama:** Então essa foi a origem de seu princípio de não contrariar a Natureza?
+
+**Meishu-Sama:** Exatamente. Posteriormente, ao ingressar na Oomoto-kyo (大本教), tomei conhecimento da existência de Deus e do espírito. Compreendi que o espírito, embora invisível, é uma realidade concreta, distinta da matéria, e constitui a causa de todas as coisas.
+
+Assim, entendi que a doença também tem sua origem no espírito. Ou seja, quando o espírito se macula, o sangue se impurifica. Essa impureza sanguínea se transforma em toxinas, e a doença nada mais é que o processo de sua eliminação. Portanto, ao se purificar a mácula espiritual, que é a causa primordial, a doença consequentemente se cura. O método para eliminar essa mácula espiritual, mais do que fruto de uma pesquisa, foi-me ensinado por Deus.
+
+**Sr. Mayama:** Isso é algo que nos parece um pouco difícil de compreender.
+
+**Meishu-Sama:** Naturalmente. Por isso, o que tenho a dizer — ou melhor, a verdade que exponho — é tão singular que pode parecer desconcertante. Por exemplo, se os senhores sentem uma dor, como a de apendicite, à medida que eu procedo desta forma (eleva Suas mãos), a dor gradualmente desaparece, e a cura se estabelece. Em nosso método, um caso de apendicite costuma ser completamente curado em vinte ou trinta minutos. Como a causa é a toxina, uma vez que ela se dissolve e é eliminada através de uma diarreia, a cura se completa.
+
+**Sr. Mayama:** E não há nenhuma fundamentação científica para isso?
+
+**Meishu-Sama:** Trata-se de uma ciência de nível superior. A ciência atual é, portanto, uma ciência de baixo nível. Tomemos como exemplo os micróbios. Hoje, a ciência se limita a tentar exterminá-los. É verdade que os micróbios são um agente patogênico, mas a questão crucial é: de onde eles vêm? Atualmente, fala-se em contágio: A foi contagiado por B, que por sua vez foi contagiado por C, e assim por diante. Mas, no fim, qual é a origem primeira? Não é como se o primeiro indivíduo tivesse simplesmente surgido do nada. Contudo, sem investigar essa origem, criam um alvoroço em torno do resultado, que é o micróbio, e se empenham em matá-lo. É preciso, portanto, atuar na causa, para que o “filho” — o micróbio — sequer venha a nascer. Foi disso que me dei conta. A causa fundamental, por sua vez, é a mácula espiritual. Essa mácula, sob a influência do calor corporal e de outras condições, vai se condensando até se solidificar. É um princípio da matéria que tudo, ao se condensar, se solidifica. Atingido certo grau de solidificação, uma forma de bactéria surge por geração espontânea. Essa bactéria, de natureza vegetal e inorgânica, evolui progressivamente, passando de inorgânica a orgânica. Ela é o precursor do micróbio. Portanto, matar o micróbio é tratar o efeito; a abordagem fundamental consiste em eliminar a mácula. É por isso que conseguimos curar a tuberculose, por exemplo, pois somos capazes de tratar a origem da doença.
+
+**Sr. Mayama:** Em nossa concepção, o processo envolve cirurgia, dor, altos custos... e se a cura vier, ótimo, mas mesmo que não venha...
+
+**Meishu-Sama:** Mas a cura não vem. Porque essa abordagem não tem nada de científica. Como acabo de explicar, o método verdadeiramente científico é aquele que elimina a mácula espiritual, a causa primordial.
+
+**Sr. Mayama:** Sendo assim, é um tratamento extremamente simples.
+
+**Meishu-Sama:** Sim, e perfeitamente lógico. Por essa razão, não temo minimamente a disenteria. Pelo contrário, até anseio por contraí-la. Não há nada mais benéfico.
+
+**Sr. Mayama:** Quando o senhor eleva as mãos, há contato físico?
+
+**Meishu-Sama:** Não, a distância é irrelevante. A luz que emano é extremamente poderosa. É mais potente que a da bomba atômica.
+
+**Sr. Mayama:** Nesse caso, a radioatividade, que é um tema tão debatido atualmente, não seria prejudicial?
+
+**Meishu-Sama:** Sim, ela é prejudicial. Aqueles que têm de morrer, morrerão. Mas os que sobreviveriam, se deixados em paz, se curarão.
+
+**Sr. Mayama:** Mas isso requer a sua intervenção, não é? Outras pessoas não conseguiriam...
+
+**Meishu-Sama:** Não, elas se curam naturalmente. O corpo humano possui a capacidade de se regenerar dessa forma. Veja o exemplo das vitaminas, sobre cujo excesso ou carência tanto se fala. A medicina acredita que os nutrientes se encontram apenas nos alimentos, ignorando os órgãos responsáveis por produzi-los. Para nós, qualquer alimento serve. Pode ser apenas verdura ou mesmo só canja de arroz. Há uma história sobre Ogyu Sorai (荻生徂徠), que, enquanto se hospedava na casa de um fabricante de tofu, alimentou-se exclusivamente de *okara* por dois anos para se dedicar aos estudos. Um fato como esse seria inexplicável para os nutricionistas de hoje. A medicina desconhece a capacidade produtiva das funções internas do organismo.
+
+### Existe Remédio no Mundo?
+
+**Sr. Mayama:** Mas costuma-se dizer que os remédios podem ou não ser compatíveis com o organismo de cada um.
+
+**Meishu-Sama:** Na verdade, não existe no mundo uma única substância que se possa chamar de remédio. Aquilo que designam por esse nome é, invariavelmente, veneno. Digo isso porque defino a doença como uma ação purificadora. É o processo pelo qual o corpo elimina substâncias que não deveriam estar nele. A dor e a febre são manifestações desse processo; a febre, por exemplo, é a ação que dissolve as impurezas. É esse sofrimento que chamamos de doença. Portanto, a doença é uma forma de limpeza do corpo, algo extremamente benéfico. Por isso, afirmo que devemos ser gratos à doença.
+
+**Sr. Mayama:** Então o senhor recomenda que fiquemos doentes? De vez em quando?
+
+**Meishu-Sama:** Não de vez em quando. Quanto mais, melhor. Por isso digo às pessoas para pegarem o máximo de resfriados possível. É comum um de meus seguidores dizer: “Graças a Deus, finalmente consegui pegar um resfriado”. Se a pessoa se permite gripar, a tuberculose jamais se desenvolverá. A tuberculose surge porque as pessoas reprimem o resfriado. É lógico, não? O resfriado é uma limpeza das toxinas. Quando essa limpeza se inicia, o ideal é intensificá-la para eliminar ainda mais impurezas. O que se faz hoje é interromper essa limpeza, solidificando as toxinas. É por isso que os médicos não falam em curar, mas em solidificar.
+
+**Sr. Nakamura:** Retomando um ponto anterior, e quanto às pessoas que foram expostas à radiação da bomba atômica?
+
+**Meishu-Sama:** Elas se curam se forem simplesmente deixadas em paz, sem qualquer intervenção.
+
+**Sr. Mayama:** Curam-se?
+
+**Meishu-Sama:** Curam-se. São as diversas intervenções da medicina que as levam à morte. A medicina é, portanto, uma existência prejudicial e desprovida de benefícios.
+
+**Sr. Mayama:** Isso significa que a Sekaikyuseikyou é contra a medicina?
+
+**Meishu-Sama:** Não, defendo algo mais contundente: sua abolição absoluta. A humanidade nem imagina o quão feliz seria se a medicina deixasse de existir.
+
+**Sr. Nakamura:** Isso se aplica às doenças de órgãos internos. E no caso de enfermidades cirúrgicas?
+
+**Meishu-Sama:** A lógica é a mesma, pois a causa reside na mácula espiritual da pessoa. Mesmo um ferimento externo se cura rapidamente. Isso pode ser comprovado lendo os jornais que publicamos. Explicar tudo isso é uma tarefa árdua, não porque seja complexo, mas porque suas mentes, ao contrário do que seria ideal, estão solidificadas pela superstição científica e médica.
+
+**Sr. Mayama:** Bem... mas...
+
+**Meishu-Sama:** Se assim não fosse, o senhor aceitaria imediatamente minha tese? Certamente que não. E mesmo que a aceitasse, surgiriam dúvidas, e o senhor não deixaria de achá-la estranha e misteriosa.
+
+### Eu Formo os “Homens” que Salvam
+
+**Sr. Mayama:** Como o senhor descobriu que bastava proceder desta forma (elevando as mãos)? Foi através de uma revelação divina ou de uma inspiração?
+
+**Meishu-Sama:** Sem dúvida. A princípio, eu tinha uma ideia vaga de que Deus me concedia uma espécie de energia espiritual que eu emitia a partir daqui. Com o tempo, essa percepção se tornou mais clara, pois Deus foi me instruindo através de diversos acontecimentos. Atualmente — e digo isso ciente do risco de ser mal interpretado —, já não sei se sou um deus ou um ser humano. Milagres, eventos extraordinários, ocorrem todos os dias.
+
+**Sr. Mayama:** Então, em seu cotidiano, o senhor é uma pessoa comum e, ao se deparar com um doente, uma força mística flui em seu corpo? Ou o senhor permanece em seu estado habitual?
+
+**Meishu-Sama:** No início, era algo parecido com isso. Contudo, há alguns anos, tomei consciência da existência de uma esfera de luz em meu ventre. Há pessoas que conseguem vê-la. Quando procedo desta forma, a luz sai dessa esfera e atravessa minhas mãos. Isso ocorre quando sou eu a ministrar. Quando meus discípulos ministram, eles procedem da mesma forma, e muitas pessoas relatam ver uma luz emanando de suas palmas.
+
+**Sr. Mayama:** E como é essa luz?
+
+**Meishu-Sama:** Pode ser branca, amarela ou dourada. Geralmente, são as crianças que a veem.
+
+**Sr. Nakamura:** Por terem um coração puro, imagino.
+
+**Meishu-Sama:** Exatamente. Por serem despidas de artifícios, por não terem uma consciência latente, elas acreditam com mais facilidade. Há uma criança de doze anos que continua a vê-la.
+
+**Sr. Mayama:** Então, nós não seríamos capazes de fazer o mesmo?
+
+**Meishu-Sama:** Qualquer um pode. Se não fosse assim, não seria possível ter seguidores.
+
+**Sr. Mayama:** Quer dizer que todos eles já atingiram esse patamar?
+
+**Meishu-Sama:** Não se trata de um patamar a ser atingido; basta receber a Medalha Sagrada para que se tornem capazes. É por isso que a história parece boa demais para ser verdade.
+
+**Sr. Mayama:** De fato. Para mim, é um pouco difícil de acreditar. Considerando o que acabou de nos dizer, o senhor não pensaria em ir pessoalmente ao Hospital da Universidade de Tóquio, onde pacientes da bomba atômica estão internados a um custo altíssimo e sob a preocupação de toda a nação, para tentar curá-los?
+
+**Meishu-Sama:** Eu tenho uma missão mais importante. Seria um desperdício de meu tempo dedicar-me a salvar indivíduos pessoalmente. Minha tarefa, agora, é formar os milhares de pessoas que salvarão a humanidade.
+
+**Sr. Mayama:** Mas há pessoas em grande sofrimento. O senhor não tem o desejo de...
+
+**Meishu-Sama:** Tenho. Desejo ardentemente ajudá-las. No entanto, se as circunstâncias não o permitem, nada posso fazer. Meu trabalho é formar as “pessoas” que salvarão esses indivíduos.
+
+---
+
+# Um Encontro com Meishu-Sama: Diálogos sobre a Fé, a Arte e a Salvação
+
+**Categoria:** taidan | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
+**Título Original:** 明主様をお訪ねして語る 文芸春秋誌顧問 日置昌一氏 同 編集局次長 近藤利弥氏 ××木原記者 | **Status:** Published | **Edição/Página:** 186号 | **Data ISO:** 1952-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Um Encontro com Meishu-Sama: Diálogos sobre a Fé, a Arte e a Salvação
+
+Em 25 de outubro de 1952, recebemos a visita do Sr. Shoichi Hioki, conselheiro da Bungeishunju, a mais prestigiosa revista literária de nosso país, e do Sr. Toshiya Kondo, vice-diretor de redação da mesma editora. O propósito do encontro era uma entrevista com Meishu-Sama, a ser publicada nas páginas da conceituada revista.
+
+A figura do Sr. Hioki dispensa maiores apresentações; trata-se de um erudito de vasto saber, carinhosamente apelidado de “Tio Sabe-Tudo” pelas crianças que o ouvem no rádio. Sua aparência correspondia ao tipo que Meishu-Sama costuma descrever como “o doutor forjado pelas adversidades da vida”.
+
+A conversa ocorreu na sala de recepção da residência Hekiun-so e contou também com a presença do Sr. Seikun Matsui, conselheiro de nossa Igreja. O diálogo entre Meishu-Sama e o “Doutor Sabe-Tudo” prolongou-se por duas horas, em meio a risos incessantes.
+
+Trazemos a seguir, para o apreço dos leitores, um trecho da memorável conversa travada naquele dia.
+
+**Milagres como os de Cristo são realizados por meus discípulos**
+
+**Sr. Hioki:** Hoje, gostaria de lhe fazer algumas perguntas sobre diversos pontos do Messianismo que há muito me intrigam. Para começar, qual a razão que o levou a alterar o nome de Kannon-kyo (観音教) para Messianismo?
+
+**Meishu-Sama:** Meu objetivo é a salvação de toda a humanidade; portanto, sempre considerei que o nome da religião também deveria ter um alcance mundial. O nome Kannon-kyo (観音教), por sua natureza, restringe-se ao Oriente. Ademais, tenho grande apreço pelo nome “Messias”. Contudo, para evitar equívocos que a grafia fonética pudesse gerar, associei-a aos ideogramas que significam “Salvação do Mundo”. A mudança ocorreu porque senti que o tempo oportuno havia chegado.
+
+**Sr. Hioki:** Ouvi dizer que o senhor também se dedica a atividades como o aumento da produção de alimentos nas zonas rurais... O que é bastante apropriado para a Religião *Meshiya*! (risos gerais).
+
+**Meishu-Sama:** De fato. Sem utilizar absolutamente nenhum fertilizante, é perfeitamente possível obter um aumento de 50% na produção de arroz. Ademais, os grãos colhidos são maiores e mais saborosos. O princípio fundamental é extrair o potencial inerente ao solo, em vez de depender de adubos.
+
+**Sr. Kondo:** Isso se aplica mesmo em terras áridas?
+
+**Meishu-Sama:** Na verdade, é o uso de fertilizantes que torna a terra árida. A acidez do solo também é consequência deles. Os fertilizantes são como narcóticos. O uso de um entorpecente proporciona um bem-estar momentâneo, não é mesmo? O mesmo ocorre com os adubos: os resultados podem parecer bons por três ou cinco anos, mas o efeito é temporário e prejudicial.
+
+**Sr. Kondo:** Então, o senhor rejeita por completo tanto os fertilizantes quanto os narcóticos.
+
+**Meishu-Sama:** Exatamente.
+
+**Sr. Kondo:** Os seguidores do Messianismo curam suas doenças sem recorrer a nenhum tipo de medicamento?
+
+**Meishu-Sama:** Sim, pois o remédio é, em sua totalidade, veneno. Ele suprime os sintomas da doença por meio da toxina. Portanto, quanto mais medicamentos uma pessoa ingere, mais difícil se torna a sua cura. No caso da tuberculose, por exemplo, curamos noventa e três em cada cem pacientes. Os sete restantes, que não obtêm a cura, são invariavelmente aqueles que mais se intoxicaram com remédios.
+
+**Sr. Hioki:** A sociedade costuma alardear quando um ou dois casos em milhares dão errado convosco, mas os médicos ceifam um número muito maior de vidas.
+
+**Meishu-Sama:** Nesse sentido, notícias como o sucesso de uma cirurgia cardíaca ou o transplante de um globo ocular de um cadáver, para nós, assemelham-se a truques de ilusionismo. São expedientes costumeiros para fazer o povo crer na chamada ciência médica. Recentemente, o pintor Yoshii teve um problema ocular que o afligia há quatro anos curado em apenas cinco minutos. Portanto, milagres da magnitude dos de Cristo são realizados diariamente por meus discípulos.
+
+**Sr. Kondo:** Sendo assim, os farmacêuticos e os médicos devem ver o Messianismo como um rival comercial. Isso certamente lhes causará grandes dificuldades.
+
+**Meishu-Sama:** Por essa razão, tenho refletido sobre qual será o destino dos médicos. Inevitavelmente, farmácias e médicos desaparecerão do mundo inteiro, e encontrar uma solução para ampará-los será um grande desafio.
+
+**Sr. Kondo:** E sobre sua família?
+
+**Meishu-Sama:** Tenho seis filhos. Alguns já se casaram, e tenho também vários netos.
+
+**Sr. Kondo:** Eles têm alguma relação com a sua religião?
+
+**Meishu-Sama:** Alguns têm, outros não. Eu deixo essa decisão ao critério de cada um.
+
+**Sr. Kondo:** E nos lares de seus filhos, quando alguém adoece, não se recorre a um médico?
+
+**Meishu-Sama:** Jamais recorremos a um médico. Se algum deles tomasse um remédio, eu provavelmente cortaria nossos laços familiares.
+
+**Construirei o maior museu de arte da América**
+
+**Sr. Hioki:** Mudando de assunto, é bastante incomum que um líder religioso se dedique a construir um museu de arte. Qual foi a motivação por trás desse projeto?
+
+**Meishu-Sama:** Talvez não se possa chamar de motivação, mas o ser humano reencarna perpetuamente, e eu mesmo já nasci como o Príncipe Shotoku. Foi ele quem disseminou o budismo no Japão, e o fez por meio da arte. Naquela ocasião, contudo, sua obra se limitou ao Japão. Desta vez, afirmo que realizarei a mesma missão em escala mundial. O museu de Hakone é o primeiro passo.
+
+Há poucos dias, um japonês que reside há muitos anos nos Estados Unidos esteve aqui e sugeriu que eu levasse meu acervo para uma exposição itinerante em seu país. Eu lhe respondi: “Em breve, construirei um museu na própria América”. Já investiguei bastante os museus existentes por lá e, a meu ver, são instituições que ostentam apenas o nome. Pretendo edificar o maior e melhor museu dos Estados Unidos.
+
+**Sr. Hioki:** A sociedade questiona como o senhor acumulou uma fortuna tão vasta em tão pouco tempo. Qual seria, por assim dizer, o segredo para tal prosperidade?
+
+**Meishu-Sama:** A base de tudo é a cura das doenças. Pessoas que, após passarem por grandes hospitais e médicos renomados, se encontram à beira da morte, são salvas por meus discípulos. A gratidão que sentem é incomensurável. Isso as leva a sentir que devem contribuir financeiramente com todas as iniciativas da Igreja. Sempre oriento a não praticar nada que tenha caráter de exploração. Aqueles que recebem graças divinas chegam a aguardar ansiosamente uma oportunidade para ofertar seu donativo. O museu, por exemplo, custou cerca de cinquenta milhões de ienes. A ideia surgiu em novembro do ano passado e a construção foi concluída em junho deste ano, financiada integralmente por essas contribuições.
+
+**Sr. Hioki:** Parece que a Casa da Moeda foi criada especialmente para o Messianismo! (risos gerais).
+
+**Sr. Kondo:** Antes das eleições, nenhum político o procurou pedindo empréstimos? Ouve-se muito que Yoshida e Hatoyama, do Partido Liberal, estavam com grandes dificuldades financeiras para formar suas facções.
+
+**Meishu-Sama:** Não, não vieram.
+
+**Sr. Hioki:** Se eu fosse um parlamentar, talvez viesse procurá-lo!
+
+**Meishu-Sama:** De todo modo, como temos a grandiosa missão de salvar o mundo, nossas finanças estão sempre apertadas; vivemos em constante dificuldade. Ademais, daqui a dois anos, construiremos em Atami um museu ainda maior que o de Hakone, o que exige a aquisição de muitas obras. A pressão financeira é enorme. Contudo, não se trata da aflição causada por credores. Outro fator é o seguinte: recentemente, os americanos têm demonstrado um imenso desejo por antiguidades japonesas. Somos frequentemente abordados com o ultimato: “Se o senhor não adquirir esta peça, ela será vendida para a América”. Vemo-nos, assim, na obrigação de resguardar esse patrimônio. Neste mês mesmo, tivemos um caso assim com uma estátua de Buda absolutamente esplêndida.
+
+**Sr. Matsui:** O Sr. Tokujiro Kanamori (Diretor da Biblioteca Nacional da Dieta) manifestou imensa gratidão por isso.
+
+**Meishu-Sama:** A aquisição dessas obras de arte exige grandes somas de dinheiro. E, além disso, temos diversos outros empreendimentos que administramos.
+
+**Servo Abe:** O dinheiro necessário sempre acaba surgindo, misteriosamente.
+
+**Sr. Matsui:** Temos três parlamentares que são membros do Messianismo, e a nenhum deles foi dado dinheiro. Eles receberam Johrei de Meishu-Sama e sentiram: “Com isto, a eleição está garantida!” (risos gerais).
+
+**Meishu-Sama:** É por isso que todos que vêm a mim têm seu destino aprimorado.
+
+**Sr. Hioki:** Kondo, talvez devêssemos vir também, o que acha?
+
+**Meishu-Sama:** O Sr. Musei Tokugawa também parece ter prosperado ainda mais depois que começou a frequentar nossos cultos. Por esses motivos, o dinheiro aflui, mas as despesas também são vultosas.
+
+**Sr. Kondo:** A Receita Federal deve estar de olhos bem abertos, imagino.
+
+**Meishu-Sama:** Sendo uma corporação religiosa, temos vantagens nesse aspecto. No início de nossas atividades religiosas, por falta de compreensão, fomos bastante visados pela fiscalização tributária. Contudo, após a construção do museu, eles devem ter entendido nosso propósito, pois hoje não enfrentamos mais esse tipo de problema. O museu, aliás, é visto com grande simpatia pelas autoridades competentes.
+
+**Sr. Hioki:** É uma contribuição para a cultura, afinal.
+
+**Meishu-Sama:** Os museus públicos, com seus orçamentos insuficientes, não conseguem adquirir obras de arte valiosas que acabam saindo do país. Eles reconhecem que, ao comprá-las e preservá-las, prestamos um grande serviço à nação. Por isso, o Comitê para a Proteção de Bens Culturais nos oferece facilidades e apoio.
+
+**“A Salvação da América” será um tema controverso**
+
+**Sr. Hioki:** O fato de as novas religiões exercerem tanto fascínio sobre o povo em nossa era se deve, provavelmente, ao esgotamento do encanto das religiões tradicionais do Japão, somado ao sofrimento e à solidão das pessoas.
+
+**Meishu-Sama:** Sem dúvida.
+
+**Sr. Hioki:** Portanto, é um erro descartar tudo simplesmente como superstição ou heresia. Afinal, o Templo Honganji, a Tenrikyo, o Budismo de Nitiren e o próprio Cristianismo enfrentaram inúmeras perseguições em seus primórdios.
+
+**Meishu-Sama:** As perseguições são inerentes à religião. A maior de todas foi sofrida por Cristo, que chegou a ser privado da própria vida. E, no entanto, foi seu ensinamento que mais se difundiu pelo mundo. Logo, quanto mais severa a perseguição, maior o valor da doutrina.
+
+**Sr. Hioki:** A psicologia humana é fascinante. No meu caso, quando um livro que publico é alvo de críticas, suas vendas aumentam. A maledicência funciona como uma espécie de publicidade, pois deixa uma impressão marcante na mente das pessoas.
+
+**Meishu-Sama:** O caso de “O Amante de Lady Chatterley” ilustra bem esse ponto. Estou prestes a lançar um livro que, tenho certeza, gerará controvérsia. Se isso ocorrer, será ótimo, pois certamente venderá muito. A obra, intitulada “A Salvação da América”, deve ser publicada no próximo mês.
+
+**Sr. Hioki:** Entendo. Desta vez, o fluxo é inverso.
+
+**Meishu-Sama:** O número de doentes nos Estados Unidos é assombroso. As estatísticas indicam que há entre dezessete e dezoito milhões de pessoas sob cuidados médicos, o que representa mais de dez por cento da população total. Neste livro, exponho detalhadamente as causas das doenças que mais afligem a nação americana e a maneira de curá-las. Pretendo distribuí-lo ao presidente, à classe intelectual, aos grandes hospitais e aos médicos. A obra está em processo de tradução, e a versão em japonês está quase pronta.
+
+**Sr. Hioki:** O ser humano realmente precisa se encontrar pessoalmente e conversar para entender as coisas.
+
+**Meishu-Sama:** Como se diz, “Ouvir cem vezes não se compara a ver uma vez”.
+
+**Sr. Hioki:** É verdade. Fico feliz por ter vindo.
+
+**Meishu-Sama:** Eu também considero de suma importância que líderes como os senhores conheçam nosso trabalho.
+
+**Sr. Hioki:** Oh, não, por favor...
+
+**A pintura feita à base de bife**
+
+**Sr. Kondo:** Seu interesse em arte se concentra principalmente na arte antiga ou também abrange a moderna?
+
+**Meishu-Sama:** Apreciamos ambas, mas a arte moderna não é boa. Por isso, acabo me voltando para a arte antiga.
+
+**Sr. Hioki:** De fato, falta-lhe espírito. É mera técnica manual.
+
+**Meishu-Sama:** As pinturas dos artistas modernos carecem de força no pincel. Isso se deve ao estilo de vida que levam. A alimentação exerce uma influência tremenda sobre a força interior. Quem se alimenta de bife e bebe leite não consegue gerar verdadeiro vigor. Como resultado, recorrem a uma pintura de puro preenchimento. É isso que vemos hoje.
+
+**Sr. Kondo:** E quanto às pinturas antigas estrangeiras?
+
+**Meishu-Sama:** Existem boas pinturas a óleo, algumas esplêndidas na Itália. No entanto, minha tese é que a pintura ocidental não é propriamente arte, mas algo intermediário entre a arte e o artesanato. Falando sem rodeios, é mobília de luxo. A pintura japonesa e oriental, por sua vez, é feita para o verdadeiro deleite. As obras são trocadas conforme as estações, permitindo uma fruição genuína da arte. No Ocidente, a mesma tela permanece na parede o ano inteiro; dizem que há quem passe a vida inteira com uma única obra exposta.
+
+**Sr. Hioki:** A grandiosidade de um artista como Sotatsu transcende a arte; é pura força espiritual. Não se vê algo assim na pintura moderna. Ouvi dizer que o senhor possui o “Daruma” de Miyamoto Musashi e o “Martim-Pescador” de Muqi. São obras-primas.
+
+**Meishu-Sama:** Os artistas da Dinastia Song eram, em sua maioria, monges. Eles se retiravam para as montanhas, alimentavam-se de verduras e arroz com cevada e se dedicavam à ascese espiritual. Por isso, quando pintavam, o resultado era diametralmente diferente. Em suma, é preciso adotar uma dieta vegetariana e praticar a disciplina espiritual; sem isso, é impossível.
+
+**Sr. Hioki:** Não é uma pintura, mas sim um bloco de energia espiritual.
+
+**Meishu-Sama:** Exatamente. Miyamoto Musashi apenas trocou a espada pelo pincel. Diante de suas pinturas, eu me curvo em reverência.
+
+**Sr. Hioki:** Muitas obras de artistas atuais têm um preço elevado enquanto eles vivem, mas seu valor despenca após a morte.
+
+**Meishu-Sama:** Há casos em que o valor já cai em vida. De Yokoyama Taikan, por exemplo, eu adquiro obras produzidas até dois ou três anos atrás, mas as atuais não me interessam. Creio que seja efeito do alcoolismo.
+
+**O amor e seus difíceis limites**
+
+**Sr. Hioki:** Para finalizar, gostaríamos de ouvir a perspectiva do Mestre sobre o amor romântico... Se puder nos dizer algo a respeito...
+
+**Sr. Kondo:** Em Atami, deve haver uma profusão de exemplos para inspirá-lo, talvez possa partir daí.
+
+**Meishu-Sama:** Bem, hoje já sou um ancião... De todo modo, o amor romântico é algo excelente. É o que se pode chamar de uma grande misericórdia, uma graça concedida por Deus ao ser humano. Contudo, o amor é magnífico quando mantido até um certo limite; a tragédia ocorre quando essa fronteira é ultrapassada. Portanto, desde que não se cruze a linha, deve-se amar intensamente! (diz, entre risos). Todavia, talvez o amor que se consegue deter no limite não seja o verdadeiro amor. (risos gerais).
+
+**Sr. Hioki:** Isso é uma grande verdade.
+
+**Meishu-Sama:** Em minha juventude, cheguei ao que se poderia chamar de clímax do amor, a ponto de cogitar um duplo suicídio. Naquele instante, porém, um outro “eu” dentro de mim observou: “Então este é o estado de espírito de quem comete suicídio por amor”. Pensei: “Eu vivenciei esta experiência; isto basta”, e minha razão, com grande força, solucionou a questão. Naquele momento, pensei: “Sou extraordinário”. Uma pessoa comum não conseguiria fazê-lo. Somente eu seria capaz.
+
+**Sr. Hioki:** Então, em vez de um amor perdido, foi um amor conquistado de forma plena.
+
+**Meishu-Sama:** Até aquele episódio, eu acreditava que aqueles que cometiam suicídio a dois eram tolos. Mas então percebi meu equívoco. Não se pode chamá-los de tolos. Compreendi que prosseguir por aquele caminho seria perigoso. Em outras palavras, dominei a filosofia do amor.
+
+**Sr. Hioki e Sr. Kondo:** Agradecemos imensamente por seu tempo e por todas as suas palavras.
+
+(A responsabilidade pelo texto é do repórter)
+
+---
+
 # Diálogo com Madeleine David no Museu de Arte de Hakone
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年10月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 美術館三階の日本間における 明主様とダヴィッド女史 ジャーナリスト会見記 | **Status:** Published | **Edição/Página:** 41号 | **Data ISO:** 1952-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Diálogo com Madeleine David no Museu de Arte de Hakone
 
@@ -254,6 +593,7 @@ Conforme noticiado na edição 173 da revista Eiko, a Sra. Madeleine David, vice
 
 **Categoria:** taidan | **Ano:** 昭和26(1951)年4月4日 | **Fonte:** Eikou
 **Título Original:** 明主様 夢声氏対談記 （上） | **Status:** Published | **Edição/Página:** 98号 | **Data ISO:** 1951-04-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Diálogo sobre a Alma na Arte
 
@@ -319,6 +659,7 @@ No dia 21, quarto dia do Grande Culto da Primavera, Meishu-Sama devotou aproxima
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年6月17日 | **Fonte:** Eikou
 **Título Original:** 明主様と谷川徹三氏との御対談 (三) | **Status:** Published | **Edição/Página:** 213号 | **Data ISO:** 1953-06-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Apreciações sobre Utensílios de Chá
 
@@ -408,6 +749,7 @@ A esse respeito, tenho um relato interessante. No ano passado, o *chawan* Fuzan,
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年1月21日 | **Fonte:** -
 **Título Original:** ある日の対談 | **Status:** Published | **Edição/Página:** 46号 | **Data ISO:** 1950-01-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Origem das Doações e o Progresso da Obra Divina
 
@@ -431,6 +773,7 @@ Nesse sentido, os recursos arrecadados são prontamente revertidos para as despe
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年8月27日 | **Fonte:** -
 **Título Original:** ある政客との対談 | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1949-08-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Um Diálogo sobre a Política e a Fé
 
@@ -504,6 +847,7 @@ O político, o presidente do jornal e o repórter, em uníssono, declararam: "Es
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年7月9日 | **Fonte:** Eikou
 **Título Original:** 明主様 レモン・カルティエ氏夫妻と御対談 | **Status:** Published | **Edição/Página:** 164号 | **Data ISO:** 1952-07-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Construção do Paraíso na Terra e a Salvação pela Alegria
 ### Diálogo com o Senhor e a Senhora Raymond Cartier
@@ -700,6 +1044,7 @@ A senhora Cartier, observando as peças de cerâmica, apontou para uma delas e d
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年9月17日 | **Fonte:** -
 **Título Original:** ある客との対談 | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1949-09-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Diálogo sobre a Defesa da Nação
 
@@ -721,6 +1066,7 @@ Todavia, o cerne da questão é que, se o indivíduo possuir um corpo saudável,
 
 **Categoria:** taidan | **Ano:** 昭和26(1951)年5月6日 | **Fonte:** 週刊朝日
 **Título Original:** 問答有用 徳川夢声 連載対談 | **Status:** Published | **Edição/Página:** 1642号 | **Data ISO:** 1951-05-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 週刊朝日
 
 ## Um Diálogo com Meishu-Sama: A Gênese da Fé e a Realidade do Mundo Espiritual
 
@@ -981,6 +1327,7 @@ Nascido em dezembro de 1882 em Asakusa, Tóquio, com 68 anos de idade. Desde ced
 
 **Categoria:** so | **Ano:** 昭和10(1935)年2月11日 | **Fonte:** 紫苑
 **Título Original:** 創刊の辞 | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1935-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 紫苑
 
 ## Prefácio da Edição Inaugural
 
@@ -994,6 +1341,7 @@ Contudo, mesmo para nós, que almejamos uma imersão constante no sublime estado
 
 **Categoria:** so | **Ano:** 昭和24(1949)年5月8日 | **Fonte:** -
 **Título Original:** 想像による批判 | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1949-05-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Sobre as Críticas Imaginárias
 
@@ -1011,6 +1359,7 @@ Afirmo categoricamente que não existe método mais eficaz para conter a crescen
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
 **Título Original:** 自観大先生との対談 | **Status:** Published | **Edição/Página:** 号外 | **Data ISO:** 1949-05-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Religião dos Benefícios Imediatos e o Ideal da Paz Mundial
 
@@ -1082,6 +1431,7 @@ Em suma, o capitalismo é necessário, o socialismo é necessário e o comunismo
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年11月19日 | **Fonte:** Eikou
 **Título Original:** 明主様と文学 | **Status:** Published | **Edição/Página:** 183号 | **Data ISO:** 1952-11-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 Revista Eikou, nº 183, publicada em 19 de novembro de 1952.
 
@@ -1161,6 +1511,7 @@ No último dia 12 de outubro, recebemos a visita do senhor H., promissor escrito
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
 **Título Original:** 明主様 国際情勢と医学農業問題について大いに語らる 竹内四郎氏ほか二氏との御対談より(二) | **Status:** Published | **Edição/Página:** 194号 | **Data ISO:** 1953-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Destino do Mundo, a Revolução da Medicina e a Agricultura Natural
 
@@ -1291,6 +1642,7 @@ Mudando de assunto, recebi um relato impressionante de um homem que, trabalhando
 
 **Categoria:** so | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 掻痒苦 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## O Suplício do Prurido
 
@@ -1310,6 +1662,7 @@ Por fim, há manifestações sintomáticas semelhantes às da urticária que dec
 
 **Categoria:** so | **Ano:** 昭和11(1936)年4月11日 | **Fonte:** 観音のHikari
 **Título Original:** 蘇聯の意図 | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1936-04-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 観音の光
 
 ## As Intenções Soviéticas
 
@@ -1331,6 +1684,7 @@ Atualmente, o contingente soviético posicionado no Extremo Oriente ultrapassa d
 
 **Categoria:** so | **Ano:** 昭和24(1949)年10月8日 | **Fonte:** -
 **Título Original:** 造物主に反抗する医学 | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1949-10-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Medicina que se Rebela contra o Criador
 
@@ -1350,6 +1704,7 @@ Sob essa ótica, pode-se afirmar, sem a menor presunção, que o Johrei de nossa
 
 **Categoria:** so | **Ano:** 昭和26(1951)年12月26日 | **Fonte:** Eikou
 **Título Original:** 算盤と能率 | **Status:** Published | **Edição/Página:** 136号 | **Data ISO:** 1951-12-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Ábaco e a Eficiência
 
@@ -1375,6 +1730,7 @@ Contudo, essa forma de pensar está fundamentalmente equivocada. Evidentemente, 
 
 **Categoria:** so | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 掻痒苦 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## O Tormento do Prurido
 
@@ -1394,6 +1750,7 @@ Além disso, certas injeções e intoxicações, como as causadas por antipirina
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年1月28日 | **Fonte:** Eikou
 **Título Original:** 明主様「救世会館」の構想と「日本の使命」について大いに語られる 竹内四郎氏ほか二氏との御対談(一) | **Status:** Published | **Edição/Página:** 193号 | **Data ISO:** 1953-01-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Salão Messiânico e a Missão do Japão
 
@@ -1535,6 +1892,7 @@ Sr. Komaki: Meishu-Sama, o senhor tem se tornado recentemente essa questão, no 
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年6月15日 | **Fonte:** 無限
 **Título Original:** 自観放談 | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1949-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 無限
 
 ## Diálogo com Meishu-Sama: Do Cenário Mundial à Ciência Espiritual
 
@@ -1666,6 +2024,7 @@ Antes dele, haverá uma grande obra de purificação.
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年1月1日 | **Fonte:** -
 **Título Original:** 新春熱海炉辺談 | **Status:** Published | **Edição/Página:** 43号 | **Data ISO:** 1950-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Perspectivas para o Ano que se Inicia
 Um Diálogo de Ano-Novo em Atami
@@ -1728,6 +2087,7 @@ Nos primórdios deste novo ano, o grande Mestre concedeu-nos parte de seu precio
 
 **Categoria:** so | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 総結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Alvorada do Paraíso Terrestre
 
@@ -1747,6 +2107,7 @@ A propósito, esta obra tem sua publicação prevista, em breve, também em trad
 
 **Categoria:** so | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
 **Título Original:** 祖霊と死後の準備 自観叢書第3編 | **Status:** Published | **Edição/Página:** P.10 | **Data ISO:** 1949-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 霊界叢談
 
 ## A Preparação para a Vida Pós-Morte e o Culto aos Antepassados
 
@@ -1774,6 +2135,7 @@ A esse respeito, há uma história elucidativa. Certa vez, durante uma sessão d
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年6月10日 | **Fonte:** Eikou
 **Título Original:** 明主様と谷川徹三氏との御対談 (二) | **Status:** Published | **Edição/Página:** 212号 | **Data ISO:** 1953-06-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Diálogo sobre a Essência da Arte
 
@@ -1943,6 +2305,7 @@ Qual dos imperadores foi o melhor calígrafo?
 
 **Categoria:** so | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 総結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## Conclusão Geral
 
@@ -1982,6 +2345,7 @@ A história nos mostra, através de inúmeras experiências, que as novas descob
 
 **Categoria:** so | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 掻痒苦 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## O Padecimento do Prurido
 
@@ -2001,6 +2365,7 @@ Por fim, há manifestações semelhantes à urticária que são oriundas da into
 
 **Categoria:** so | **Ano:** 昭和24(1949)年7月2日 | **Fonte:** -
 **Título Original:** 早期教育の弊 | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1949-07-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Os Malefícios da Educação Precoce
 
@@ -2020,6 +2385,7 @@ De fato, mesmo no Japão, entre os políticos da era moderna, figuras de grande 
 
 **Categoria:** so | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 造物主の侮辱？ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Ofensa à Obra do Criador
 
@@ -2037,6 +2403,7 @@ Minha vasta experiência comprova essa verdade de forma inequívoca. Ao permitir
 
 **Categoria:** so | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 祖霊の戒告 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Admoestação dos Espíritos Familiares
 
@@ -2056,6 +2423,7 @@ Para concluir, é comum que certos curadores religiosos ou ascetas atribuam a ma
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年10月22日 | **Fonte:** Eikou
 **Título Original:** 明主様と為郷恒淳氏との御対談 ◇ 秋風戦（そよ）ぐ十月四日箱根神山荘の応接間において◇ | **Status:** Published | **Edição/Página:** 179号 | **Data ISO:** 1952-10-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Desígnio Divino para a Nova Era
 
@@ -2186,6 +2554,7 @@ Contudo, grande parte da "beleza" que existe hoje, na verdade, rebaixa o nível 
 
 **Categoria:** so | **Ano:** 昭和27(1952)年1月23日 | **Fonte:** Kyusei
 **Título Original:** 速度の芸術とピカソに就て | **Status:** Published | **Edição/Página:** 140号 | **Data ISO:** 1952-01-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Arte da Velocidade e Picasso
 
@@ -2205,6 +2574,7 @@ Permitam-me, agora, expor brevemente minha opinião sobre a pintura. Acredito qu
 
 **Categoria:** so | **Ano:** 昭和27(1952)年11月5日 | **Fonte:** Eikou
 **Título Original:** 相応の理と其他の事 | **Status:** Published | **Edição/Página:** 181号 | **Data ISO:** 1952-11-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Lógica da Concordância e outras reflexões
 
@@ -2226,6 +2596,7 @@ Nesse sentido, nós somos verdadeiramente afortunados. Por compreendermos a medi
 
 **Categoria:** so | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 祖霊の戒告 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Admoestação dos Espíritos Antepassados
 
@@ -2241,6 +2612,7 @@ Existe ainda outro exemplo elucidativo. Em determinada família, o chefe da casa
 
 **Categoria:** so | **Ano:** 昭和24(1949)年9月10日 | **Fonte:** -
 **Título Original:** 算盤を無視するな | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1949-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Relevância do Cálculo
 
@@ -2270,6 +2642,7 @@ Diante desse quadro, é imperativo que, de agora em diante, a participação de 
 
 **Categoria:** so | **Ano:** 昭和26(1951)年5月16日 | **Fonte:** Eikou
 **Título Original:** 祖霊と病気 | **Status:** Published | **Edição/Página:** 104号 | **Data ISO:** 1951-05-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Influência dos Antepassados nas Enfermidades
 
@@ -2305,6 +2678,7 @@ Meishu-Sama nos ensina que a disenteria infantil pode ser curada com duas ou tr�
 
 **Categoria:** sa | **Ano:** 昭和27(1952)年9月17日 | **Fonte:** Eikou
 **Título Original:** 菜食のよき例 | **Status:** Published | **Edição/Página:** 174号 | **Data ISO:** 1952-09-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Esplêndido Exemplo do Vegetarianismo
 
@@ -2324,6 +2698,7 @@ Em nítido contraste, observemos o homem moderno. Apesar de se fartar de aliment
 
 **Categoria:** sa | **Ano:** 昭和27(1952)年11月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 最後の審判 | **Status:** Published | **Edição/Página:** 42号 | **Data ISO:** 1952-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Juízo Final
 
@@ -2343,6 +2718,7 @@ Pode-se afirmar, com segurança, que não há um só lugar na face da Terra isen
 
 **Categoria:** so | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 掻痒苦 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Sobre o Padecimento Pruriginoso
 
@@ -2362,6 +2738,7 @@ Existe ainda uma manifestação semelhante à urticária que é oriunda da intox
 
 **Categoria:** sa | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 三毒 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Origem das Enfermidades: As Três Toxinas
 
@@ -2385,6 +2762,7 @@ Para concluir, existe um método para distinguir as três toxinas por meio da pa
 
 **Categoria:** sa | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
 **Título Original:** 殺菌か養菌か | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## O Paradoxo da Esterilização Terapêutica
 
@@ -2406,6 +2784,7 @@ Contudo, o perigo não se encerra aí. O sangue maculado por substâncias estran
 
 **Categoria:** so | **Ano:** 昭和26(1951)年12月5日 | **Fonte:** Eikou
 **Título Original:** 祖霊祭りに就ての注意 | **Status:** Published | **Edição/Página:** 133号 | **Data ISO:** 1951-12-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Questão da Veneração aos Antepassados
 
@@ -2462,6 +2841,7 @@ A Meishu-Sama e a todos os ministros, minha mais profunda e sincera gratidão. P
 
 **Categoria:** sa | **Ano:** 昭和24(1949)年6月30日 | **Fonte:** -
 **Título Original:** 細菌恐るべき乎 | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1949-06-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Seriam os Germes Tão Temíveis?
 
@@ -2483,6 +2863,7 @@ Somente por este aspecto, já se pode compreender a magnitude do poder salvador 
 
 **Categoria:** sa | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
 **Título Original:** 酸素吸入の誤謬 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Falácia da Inalação de Oxigênio
 
@@ -2500,6 +2881,7 @@ Portanto, ao inferirmos a partir desse princípio, compreendemos que a inalaçã
 
 **Categoria:** sa | **Ano:** 昭和7(1932)年12月 | **Fonte:** 松風
 **Título Original:** 歳末感 ・巻頭言 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1932-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 松風
 
 ## Reflexões ao Findar do Ano
 
@@ -2517,6 +2899,7 @@ Encontro plena satisfação na simples alegria compartilhada entre os companheir
 
 **Categoria:** sa | **Ano:** 昭和26(1951)年6月27日 | **Fonte:** Eikou
 **Título Original:** 最後の審判とは | **Status:** Published | **Edição/Página:** 110号 | **Data ISO:** 1951-06-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Significado do Juízo Final
 
@@ -2538,6 +2921,7 @@ Isso se deve ao fato de que, no momento decisivo, por mais que o ser humano se e
 
 **Categoria:** sa | **Ano:** 昭和10(1935)年3月4日 | **Fonte:** Hikari明世界
 **Título Original:** 罪障消滅 | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1935-03-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## A Eliminação das Máculas Espirituais
 
@@ -2567,6 +2951,7 @@ Diante de tal panorama, não podemos permanecer de braços cruzados. É lamentá
 
 **Categoria:** sa | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 罪穢と病気 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## Pecado, Impureza e a Origem das Doenças
 
@@ -2590,6 +2975,7 @@ Assim, a função que serve como fonte geradora da purificação espiritual resi
 
 **Categoria:** sa | **Ano:** 昭和25(1950)年1月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 最後の審判 | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1950-01-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Juízo Final
 
@@ -2619,6 +3005,7 @@ Ofereço este texto àqueles que não possuem fé.
 
 **Categoria:** sa | **Ano:** 昭和28(1953)年10月21日 | **Fonte:** Eikou
 **Título Original:** 詐欺時代 | **Status:** Published | **Edição/Página:** 231号 | **Data ISO:** 1953-10-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Era da Fraude
 
@@ -2648,6 +3035,7 @@ Observando este panorama, conclui-se que no mundo atual, embora não se possa di
 
 **Categoria:** sa | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 沢村田之助他 | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1950-02-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Os Temíveis Equívocos da Medicina
 
@@ -2677,6 +3065,7 @@ Os casos que relatei são apenas alguns exemplos, dentre as inúmeras experiênc
 
 **Categoria:** sa | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** 内外公論
 **Título Original:** 醒めよ既成宗教家と現代医学者 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1936-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 内外公論
 
 ## Despertai, religiosos e médicos da atualidade
 
@@ -2702,6 +3091,7 @@ Se não forem capazes de compreender este ponto crucial e persistirem em suas ca
 
 **Categoria:** sa | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 三位一体 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## A Essência da Santíssima Trindade
 
@@ -2721,6 +3111,7 @@ O mundo que advirá após a concretização dessa Santíssima Trindade será o P
 
 **Categoria:** sa | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 最後の審判 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## O Juízo Final e a Verdadeira Medicina
 
@@ -2744,6 +3135,7 @@ A razão para tal primazia é que, conforme afirmei anteriormente, a elucidaçã
 
 **Categoria:** sa | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 三国同盟の意義 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## O Significado da Aliança Tripartite
 
@@ -2773,6 +3165,7 @@ Quando aplicamos essa lógica à presente Guerra Mundial, tudo se torna ainda ma
 
 **Categoria:** sa | **Ano:** 昭和8(1933)年4月 | **Fonte:** 松風
 **Título Original:** 作歌について ・巻頭言 | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1933-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 松風
 
 ## Reflexões sobre a Composição Poética
 
@@ -2790,6 +3183,7 @@ A meu ver, contudo, ambas as abordagens, isoladamente, são parciais e não repr
 
 **Categoria:** sa | **Ano:** 昭和24(1949)年8月20日 | **Fonte:** -
 **Título Original:** 産制の愚 | **Status:** Published | **Edição/Página:** 23号 | **Data ISO:** 1949-08-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Insensatez do Controle de Natalidade
 
@@ -2809,6 +3203,7 @@ Ademais, em minha opinião, é possível que o Estado Mundial se concretize mais
 
 **Categoria:** sa | **Ano:** 昭和24(1949)年9月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 悟りと覚り | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1949-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Compreensão e o Despertar
 
@@ -2828,6 +3223,7 @@ Contudo, sob a nossa ótica, tal realidade se deve ao fato de que, até agora, o
 
 **Categoria:** sa | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 細菌恐るべき乎 自観叢書10編 | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## O Temor às Bactérias
 
@@ -2847,6 +3243,7 @@ A simples análise deste fato já é suficiente para revelar a magnitude da salv
 
 **Categoria:** sa | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 三尊の弥陀 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## A Natureza da Trindade Búdica
 
@@ -2866,6 +3263,7 @@ Uma exegese pormenorizada de cada um destes itens pode ser encontrada na revista
 
 **Categoria:** sa | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 再生 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## As Leis da Reencarnação e suas Causas
 
@@ -2889,6 +3287,7 @@ A reencarnação apressada, por sua vez, não é influenciada apenas pelo apego 
 
 **Categoria:** sa | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 三度目のブタ箱入り 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.38 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## O Terceiro Encarceramento
 
@@ -2908,6 +3307,7 @@ A esse respeito, porém, um fato curioso veio a ocorrer no ano seguinte. Um cert
 
 **Categoria:** sa | **Ano:** 昭和28(1953)年5月13日 | **Fonte:** Eikou
 **Título Original:** 裁く勿れ | **Status:** Published | **Edição/Página:** 208号 | **Data ISO:** 1953-05-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Não julgueis
 
@@ -2939,6 +3339,7 @@ Mas já me desviei consideravelmente do tema principal, e por isso, encerro aqui
 
 **Categoria:** sa | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 酒と宗教 | **Status:** Published | **Edição/Página:** P.81 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## A Causa Espiritual do Alcoolismo
 
@@ -2964,6 +3365,7 @@ Depreende-se, portanto, que em qualquer religião, desde que ela possua o brilho
 
 **Categoria:** sa | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
 **Título Original:** 錯覚的治療 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1936-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術・新日本医術としての岡田式療病法
 
 ## A Ilusão no Tratamento Médico
 
@@ -2987,6 +3389,7 @@ O segundo tipo é o paciente que se recupera completamente. Na realidade, trata-
 
 **Categoria:** sa | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 罪穢と病気 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Relação entre os Pecados, as Impurezas e as Doenças
 
@@ -3006,6 +3409,7 @@ Se aplicarmos este mesmo princípio em uma escala mais ampla, compreenderemos qu
 
 **Categoria:** English | **Ano:** - | **Fonte:** NYORAI: THE MEDICINE BUDDHA Heaven on Earth, No.
 **Título Original:** YAKUSHI | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** NYORAI: THE MEDICINE BUDDHA Heaven on Earth, No.
 
 ## Yakushi Nyorai, o Buda da Cura
 
@@ -3023,6 +3427,7 @@ Este é precisamente o Poder de Kannon (観音力) que venho manifestando.
 
 **Categoria:** English | **Ano:** - | **Fonte:** Eikoh, No.
 **Título Original:** DEADLOCK | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** Eikoh, No.
 
 ## O Impasse
 
@@ -3040,6 +3445,7 @@ Assim sendo, ao ler estas palavras, guarde-as no âmago de seu coração. Quando
 
 **Categoria:** sa | **Ano:** 昭和28(1953)年6月17日 | **Fonte:** Eikou
 **Título Original:** 最後の審判とは何か | **Status:** Published | **Edição/Página:** 213号 | **Data ISO:** 1953-06-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O que é o Juízo Final
 
@@ -3059,6 +3465,7 @@ Há também aqueles que, mesmo recebendo uma grande graça e se sentindo gratifi
 
 **Categoria:** English | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
 **Título Original:** POWER | **Status:** Published | **Edição/Página:** 50号 | **Data ISO:** 1950-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Poder da Resistência
 
@@ -3072,6 +3479,7 @@ Todavia, a medicina, em sua lógica invertida, ao mesmo tempo que apregoa o fort
 
 **Categoria:** sa | **Ano:** 昭和24(1949)年6月11日 | **Fonte:** -
 **Título Original:** 産制問題の別の観方 | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1949-06-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Uma Perspectiva Alternativa para o Controle de Natalidade
 
@@ -3097,6 +3505,7 @@ Este plano deveria ser formalmente elaborado e submetido ao Quartel-General das 
 
 **Categoria:** English | **Ano:** - | **Fonte:** AND POLITICS Miscellaneous Topics Related to Religious Faith, p.
 **Título Original:** RELIGION | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** AND POLITICS Miscellaneous Topics Related to Religious Faith, p.
 
 ## Religião e Política
 
@@ -3114,6 +3523,7 @@ Diante da construção de um novo Japão, considero que a tarefa mais premente �
 
 **Categoria:** English | **Ano:** - | **Fonte:** MYSELF （
 **Título Original:** ABOUT | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** MYSELF （
 
 ## A Essência de Meu Ser
 
@@ -3139,6 +3549,7 @@ Reconheço que este texto pode soar um tanto como autoelogio, o que me causa cer
 
 **Categoria:** English | **Ano:** - | **Fonte:** MISSION OF SCIENCE Medicine for Tomorrow,
 **Título Original:** THE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** MISSION OF SCIENCE Medicine for Tomorrow,
 
 ## A Missão da Ciência
 
@@ -3168,6 +3579,7 @@ Somente assim a vida da humanidade será prolongada e uma era livre de doenças 
 
 **Categoria:** English | **Ano:** - | **Fonte:** POWER Tidings of Great Joy from Heaven , February
 **Título Original:** NATURAL | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** POWER Tidings of Great Joy from Heaven , February
 
 ## A Força Invisível do Espírito
 
@@ -3195,6 +3607,7 @@ A ciência moderna finalmente começou a reconhecer que não apenas todos os ser
 
 **Categoria:** English | **Ano:** - | **Fonte:** "EVIL" DISAPPEARS FROM THIS WORLD Eikoh , No.
 **Título Original:** IF | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** "EVIL" DISAPPEARS FROM THIS WORLD Eikoh , No.
 
 ## E se o Mal Desaparecesse Deste Mundo
 
@@ -3232,6 +3645,7 @@ Eu, porém, afirmo que isso é possível. Para que tal se realize, a condição 
 
 **Categoria:** sa | **Ano:** 昭和26(1951)年8月29日 | **Fonte:** Eikou
 **Título Original:** 三大迷信とは何か | **Status:** Published | **Edição/Página:** 119号 | **Data ISO:** 1951-08-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## As Três Grandes Superstições
 
@@ -3258,6 +3672,7 @@ Em suma, uma sociedade ideal e livre do crime somente surgirá quando emergir um
 
 **Categoria:** English | **Ano:** - | **Fonte:** ARE THE THREE MAJOR SUPERSTITIONS? Eikoh , No.
 **Título Original:** WHAT | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** ARE THE THREE MAJOR SUPERSTITIONS? Eikoh , No.
 
 ## As Três Grandes Superstições
 
@@ -3277,241 +3692,6 @@ Esta superstição difere um pouco das duas anteriores. O propósito da lei, com
 Se o leitor compreende em seu coração o que exponho, o primeiro passo é entrar em contato com o sentimento religioso. No entanto, não se pode esperar que as religiões tradicionais deem conta dessa tarefa. Isso fica evidente ao observarmos que, até hoje, a educação e a moral têm recebido maior destaque do que a própria religião. Dadas as circunstâncias, foi-se obrigado a adotar o princípio da punição legal como único recurso viável, o que, de certa forma, era inevitável.
 
 Em suma, não resta dúvida de que uma sociedade ideal e livre de crimes somente se tornará realidade com o surgimento de uma religião verdadeiramente poderosa, que transcenda a força somada das religiões tradicionais, da moral e da educação. Se a nossa Igreja Messiânica Mundial é essa religião, o mais sensato é que a estudem o quanto antes. Certamente, constatarão que em minhas palavras não há falsidade.
-
----
-
-# Noventa e Nove por Cento versus Um por Cento
-
-**Categoria:** English | **Ano:** - | **Fonte:** PERCENT VERSUS ONE PERCENT Eikoh , No.
-**Título Original:** NINETY-NINE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Noventa e Nove por Cento versus Um por Cento
-
-Conforme elucidei no capítulo anterior, a causa da guerra reside no próprio mal que habita o ser humano. A essência desse mal, como já escrevi, é a manifestação dos anseios dos espíritos animais, o que se torna evidente pela natureza brutal de seus atos. Quando me refiro a "animais", aludo primordialmente às feras e, em seguida, às aves; em casos mais raros, a insetos e peixes. Todos eles são indispensáveis para a administração dos desejos físicos do homem, tendo Deus assim criado os seres humanos. Constituem, portanto, o que se poderia chamar de um mal necessário.
-
-Contudo, esses espíritos animais estão conectados, por liames espirituais, ao líder do Mundo dos Espíritos Malignos, sendo, por conseguinte, perfeitamente manipulados segundo a sua vontade. Além disso, o Mundo dos Espíritos Malignos também possui uma hierarquia, e cada espírito maligno se apossa de um indivíduo cujo nível espiritual corresponde ao seu. Essa hierarquia abrange desde os mais altos até os mais baixos escalões, e sua organização é análoga à do Mundo dos Espíritos Divinos.
-
-Nesse contexto, desde os tempos primevos até os dias atuais, a humanidade tem atravessado dezenas ou centenas de milhares de anos em um confronto constante entre o bem e o mal. Naturalmente, ao longo desse período, a força dos espíritos malignos prevaleceu, de modo que os espíritos divinos foram frequentemente oprimidos. Todavia, que o mal tenha sido finalmente derrotado e o bem, vitorioso, é um fato que a própria História comprova. Com efeito, se os espíritos malignos houvessem prevalecido, o mundo teria sido destruído, e a realidade que hoje conhecemos jamais existiria. A razão para essa longa predominância do mal é que, até o presente momento, o tempo, em certa medida, o favorecia. Em outras palavras, vivíamos na Era da Noite. A Noite, por sua própria natureza, é escuridão, e o poder da Luz para subjugar o mal era insuficiente; era, portanto, uma situação inevitável.
-
-Em virtude do que foi exposto, o mundo, até então, era um lugar onde até mesmo o mal podia alcançar seus objetivos e mantê-los por um tempo considerável. As pessoas, ao testemunharem tal estado de coisas, iludiram-se, acreditando que o caminho do mal era um atalho para o sucesso, o que, por sua vez, gerou novos seguidores. Como resultado, a sociedade foi gradualmente infectada pelo mal, a ponto de essa ilusão se transformar em um preceito de senso comum para a vida.
-
-A História nos revela que, embora pareçam triunfar temporariamente por meios malignos, aqueles que assim procedem estão fadados ao fracasso inevitável. Contudo, a maioria das pessoas permaneceu insensível a essa realidade. Pode-se afirmar, portanto, que a história da humanidade não passa de um registro da contínua alternância entre o sucesso e o fracasso, ambos gerados pelo mal.
-
-Como o poder do mal era avassalador durante a Era da Noite, não foram poucos os justos que se tornaram suas vítimas. Entre eles, destacam-se muitos religiosos, sendo a maior de todas as vítimas Jesus Cristo. Até mesmo eu, se tivesse nascido naquela época, poderia ter enfrentado sofrimentos inimagináveis. Entretanto, como sempre lhes digo, a Noite chegou ao fim. Agora que adentramos a alvorada da Era do Dia, é-nos permitido avançar com menor padecimento, e nosso progresso segue o curso programado.
-
-Neste ponto, cumpre ressaltar que os planos e as atividades das divindades malignas não se limitam à guerra e à violência. Eles têm avançado em todas as áreas, seguindo um programa meticuloso e de longo alcance. Sua conquista mais bem-sucedida é a ciência materialista. Esta ciência materialista é, precisamente, a sua maior arma. Por meio dela, concederam benefícios assombrosos a toda a humanidade e, ao mesmo tempo, valendo-se dessa arma para conquistar a confiança das pessoas, pretendem, em última instância, apoderar-se do poder absoluto sobre a raça humana. O objetivo primordial desse programa maligno é, inequivocamente, governar a vida do ser humano.
-
-O instrumento que desenvolveram com essa finalidade é a medicina moderna. Por meio dela, buscam curar as doenças por métodos puramente materiais. Aparentemente, a cura parece de fato possível; contudo, em sua essência, a verdade é completamente diversa. Não obstante, sua inteligência é astuta o suficiente para se empenhar por todos os meios possíveis. Recorrem, evidentemente, a máquinas, raios de luz, novos medicamentos, cirurgias, entre outros recursos. Sua patologia é, ademais, teorizada exaustivamente, com detalhes microscópicos, mas ninguém até hoje foi capaz de enxergar a verdadeira situação.
-
-À luz disso, se alguém contrai uma enfermidade e pergunta sobre sua origem, a resposta é meramente protocolar. Os médicos são incapazes de oferecer uma explicação precisa, limitando-se a respostas extremamente vagas. Da mesma forma, ao serem questionados sobre o prognóstico, suas afirmações são sempre condicionais, como "é provável que...", sem jamais chegarem a uma conclusão definitiva. E, mesmo quando ousam fazer uma, o prognóstico se mostra equivocado em nove de cada dez casos — uma realidade que os próprios médicos devem vivenciar com frequência.
-
-O tema seguinte é o problema alimentar. Este se resume ao fertilizante químico, produzido, assim como os medicamentos, com base em preceitos majoritariamente científicos. Suponho que, por também apresentar um efeito temporário em seu início, as pessoas foram ludibriadas, e seu uso se disseminou por todas as nações, como vemos hoje — assunto que explico em detalhes em outro capítulo.
-
-A próxima questão é a guerra. Esta, como já descrevi, é o resultado das conspirações de indivíduos ambiciosos e competentes de cada época, que sacrificaram inúmeras vidas humanas em sua cobiça para se tornarem os governantes supremos. Contudo, também eles realizam seu sonho de sucesso apenas de forma passageira, culminando, sem exceção, no fracasso, e sobrevivem apenas como meros episódios nos anais da História.
-
-Até aqui, examinei em linhas gerais a natureza do mal. Diante do exposto, torna-se igualmente claro que chegou o momento em que Deus irá liquidar a cultura materialista. Agora que o propósito da divindade maligna se aproxima de sua concretização, Deus revela a verdade por meu intermédio. Se refletirem profundamente sobre isso, perceberão quão profundo e sutil é o grandioso desígnio de Deus, algo que verdadeiramente desafia a nossa capacidade de conjectura.
-
-Observando sob outra perspectiva, podemos entender que, se o poder de Deus é de cem por cento e o da divindade maligna, de noventa e nove por cento, Deus a supera em um por cento. É com esse um por cento que Ele reverte a situação. Esse poder é, de fato, a Nyoi Houshu (如意宝珠). Sendo assim, como sempre afirmo, a cultura contemporânea será transformada em seu ápice de noventa e nove por cento, momento que corresponde ao "fim do mundo" anunciado por Jesus Cristo. Portanto, é inevitável que, neste exato instante, ocorra no Mundo Espiritual um cataclismo extraordinário, capaz de abalar céus e terra. Aqueles que conseguirem crer nisso serão pessoas eternamente felizes.
-
-E, como o pilar desse plano maligno é a ciência moderna, a revolução da medicina ocorrerá como uma consequência natural. O que substituirá a ciência médica é o nosso método, o Johrei. Não é preciso me estender sobre o fato de uma pessoa comum, sem conhecimento algum de medicina, receber, após alguns dias de treinamento, o poder de curar enfermos à beira da morte, desenganados por inúmeros médicos. Consequentemente, com esse poder, não será tarefa difícil dissolver os erros que a cultura moderna cometeu e acumulou ao longo de várias dezenas de séculos.
-
-Neste momento, o manto da Noite é rasgado, e o Sol radiante desponta no horizonte. Agora é, pois, o alvorecer do Dia. Se é verdade o que disse Jesus Cristo — "felizes os que creem" —, será inevitável que os incrédulos estejam destinados à ruína.
-
----
-
-# Acerca da Digestão
-
-**Categoria:** English | **Ano:** - | **Fonte:** DIGESTI Salvation of the World, No.
-**Título Original:** ON | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Acerca da Digestão
-
-A medicina frequentemente recomenda o consumo de certos alimentos por serem de fácil digestão, mas nisto reside um equívoco colossal. Na verdade, alimentos demasiadamente digeríveis dispensam a atividade estomacal, o que gradualmente leva ao seu enfraquecimento. Consequentemente, o hábito de ingerir tais alimentos, somado ao uso de digestivos, faz com que o estômago se torne cada vez mais lento e flácido. O agravamento desse quadro culmina naquilo que se conhece como gastroptose. Portanto, a gastroptose é uma enfermidade originada pela própria medicina equivocada. Ademais, a recomendação médica de mastigar exaustivamente os alimentos é igualmente errônea, constituindo-se apenas em outro método para debilitar o estômago.
-
-Por essa razão, Deus criou os alimentos para que fossem consumidos em uma sábia combinação entre os de fácil e os de difícil digestão. Sendo assim, afirmo com absoluta certeza: se a pessoa se alimentar daquilo que lhe apetece e considera saboroso, sem se preocupar se é ou não digerível, e mastigando apenas parcialmente, jamais sofrerá de qualquer mal estomacal.
-
----
-
-# A Extinção da Tragédia
-
-**Categoria:** English | **Ano:** - | **Fonte:** EXTERMINATE THE ILLS OF TRAGEDY Hikari , No.
-**Título Original:** TO | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## A Extinção da Tragédia
-
-Neste mundo, talvez não haja nada mais detestável para o ser humano do que a tragédia. Embora seja impossível erradicá-la por completo, mitigá-la em certa medida não é uma tarefa árdua. Nesse sentido, examinemos primeiramente a verdadeira natureza da tragédia.
-
-Com efeito, é um fato inegável que a causa de quase todas as tragédias reside na doença. Certamente, poder-se-ia argumentar que existem outras fontes de aflição, como os infortúnios amorosos ou as injustiças oriundas da cobiça material. Contudo, ao analisá-las mais a fundo, percebemos que também estas derivam de uma enfermidade de ordem espiritual. O adágio "mente sã em corpo são" revela-se, assim, uma verdade absoluta. O resultado de meus longos anos de pesquisa demonstra que desvios como a imoralidade, os conflitos passionais, a desonestidade, o temperamento irascível, o vício da bebida, a indolência e a delinquência juvenil estão, invariavelmente, associados a deficiências patológicas no corpo físico.
-
-Todavia, até o presente momento, nem a medicina moderna nem quaisquer outros métodos foram capazes de apresentar uma forma segura de curar por completo as enfermidades e de forjar um ser humano integralmente saudável, em espírito e matéria. Mesmo quando se lograva identificar a origem de uma doença, não havia um meio para solucioná-la de forma definitiva. Ainda que tenham surgido, ao longo da história, aqueles que se vangloriavam de haver descoberto a causa das doenças e estabelecido curas definitivas, suas conquistas, com demasiada frequência, não passavam de efeitos temporários que se desvaneciam com o tempo. Não posso deixar de sentir que, embora o dia decline, a jornada ainda é longa.
-
-Os inúmeros relatos de graças alcançadas, publicados em nosso periódico, ilustram essa realidade. As narrativas sobre a superação de moléstias graves e complexas, transbordando de alegria e gratidão, são de tal modo comoventes que é impossível lê-las sem derramar lágrimas.
-
-Tal solução para as doenças e a infelicidade provém do que chamamos de manifestação do poder invisível. Apenas aqueles que a vivenciam podem compreender a magnitude do poder Divino.
-
-O homem moderno não se convence sem fatos e evidências tangíveis. Sendo assim, por mais habilmente que se exponham teorias ou se recomendem doutrinas, enquanto não forem demonstrados efeitos concretos, tudo não passará de preces vazias. Nessas condições, salvar a humanidade e promover o bem-estar social não passaria de um sonho.
-
-A força pela qual o invisível move o visível constitui a verdadeira essência da fé. É precisamente isto que a nossa Igreja realiza na prática. Por essa razão, acredito que a designação mais fidedigna para ela seria "a religião do poder". A maioria das religiões tradicionais, como o próprio termo japonês para religião — *shukyo*, "ensinamentos da doutrina" — sugere, fundamenta-se em preceitos e busca despertar a alma a partir do exterior. O Johrei, método praticado por nossa Igreja, opera de modo distinto: ele irradia a Luz espiritual diretamente no âmago da alma, provocando seu despertar imediato. Trata-se, por assim dizer, de uma transformação que ocorre sem esforço aparente, o que relega os sermões e as preleções a uma importância secundária.
-
-Shakyamuni afirmou: "O ser, em sua essência, é Buda", e também: "Aquele que atinge a iluminação é um Bodhisattva". Suas palavras são a mais pura verdade. Aquele que se torna membro de nossa Igreja alcança, em um período notavelmente breve, um elevado nível de despertar espiritual e atinge a genuína iluminação. Com isso, não apenas deixa de se preocupar com suas próprias tragédias, como também se torna qualificado para, por sua vez, extinguir as tragédias de seus semelhantes.
-
----
-
-# O Salvador e o Redentor
-
-**Categoria:** English | **Ano:** - | **Fonte:** MESSIAH AND  REDEEMER Unpublished " Creation of Civilization ", written in
-**Título Original:** THE | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## O Salvador e o Redentor
-
-Até o presente momento, dediquei-me a expor, como teoria fundamental, a necessidade do mal e como, por meio dele, a civilização pôde progredir e desenvolver-se até o estado atual. Cumpre-me, agora, discorrer sobre outra questão de suma importância. Refiro-me ao fato de que, desde os primórdios da história, inúmeras religiões surgiram e, sem exceção, todas exortaram à prática do bem e repudiaram veementemente o mal.
-
-Naturalmente, tal postura é compreensível, uma vez que a premissa de qualquer religião é a erradicação do mal. Contudo, essa mesma premissa suscitava em mim um questionamento recorrente: “Como pode ser? Sendo Deus ou Buda a encarnação do amor e da compaixão, por que criaria pessoas más, permitiria que cometessem atos perversos para, em seguida, puni-las? Não reside aí uma profunda contradição? Porventura, se Deus não houvesse criado o mal desde o princípio, a necessidade de punição seria extinta, e não consistiria nisto o verdadeiro amor Divino?”.
-
-De fato, a pergunta é de uma lógica irrefutável, e confesso que eu mesmo compartilhava desse mesmo modo de pensar. Por essa razão, minha resposta era sempre a seguinte: “Sua observação é correta, todavia, não fui eu quem criou o mal e, portanto, não me cabe explicá-lo. Fundamentalmente, se Deus o permitiu, é porque existe uma razão para tal, e estou certo de que, no devido tempo, Ele nos revelará o motivo primordial. Sendo assim, não nos resta outra alternativa senão aguardar”.
-
-Eis que, finalmente, o tempo profetizado chegou, e Deus revelou-me detalhadamente esse grande mistério, o que me enche de inexprimível alegria. Estou convicto de que muitos outros, que albergavam a mesma dúvida, ao lerem estas palavras, sentirão seus olhos espirituais se abrirem subitamente, como se uma luz resplandecesse em meio à escuridão da noite.
-
-Por que, então, todos os fundadores de religiões do passado denunciaram o mal? Conforme detalhei anteriormente, o mal foi necessário por um determinado período, e por essa razão, o Deus Supremo não deu a conhecer seu profundo significado. Consequentemente, nem mesmo as divindades justas podiam compreendê-lo e, assim, persistiam na intenção de criar um paraíso unicamente por meios justos. Em contrapartida, os espíritos malignos, para os quais os fins justificam os meios, tentavam realizar suas ambições através de toda sorte de artifícios.
-
-Todavia, o prazo para a atuação do mal finalmente expirou, e o poder direto do Deus Supremo começou a se manifestar. Foi nesse contexto que Ele me escolheu para desvelar o significado fundamental do bem e do mal. A verdade é que os fundadores de religiões do passado não possuíam poder suficiente. O exemplo mais notável é o de Jesus Cristo. Ele próprio se declarou o Redentor, mas não o Salvador. Redentor, como a própria palavra indica, é aquele que redime o pecado. Sua missão era, portanto, tomar sobre si os pecados de toda a humanidade, apresentar-se em estado de contrição perante o Deus Supremo e rogar por Seu perdão. Em suma, ele atuou como um representante de todos os homens; era uma divindade do lado dos que são perdoados, e não do lado de Deus, que perdoa. Foi por essa razão, como compensação pelo pecado, que ele se deixou crucificar.
-
-Este mesmo princípio se aplica ao budismo. Shakyamuni, em seus primórdios, devotou-se a pregar inúmeros sutras com o objetivo de criar um Mundo Paradisíaco, mas seus esforços não evoluíram como antecipara. Foi então que, conforme consta nas escrituras budistas, ele afirmou: “Aos setenta e dois anos, alcancei o Kenshinjitsu (見真実)”, que significa “ver através da verdade”. Nesse momento, ele compreendeu verdadeiramente seu destino e sua missão. Reconheceu seus erros passados e percebeu que o advento do Mundo Paradisíaco ocorreria em um futuro muito distante. Confessou, então, que havia não poucos equívocos nos ensinamentos que pregara até ali, e que a verdade residia unicamente no que passaria a ensinar. Foi a partir dessa revelação que ele pregou o Sutra Hou-metsujin, sobre a extinção total da Lei de Buda; o Sutra Miroku-shutsugen-joju, sobre o cumprimento da profecia da vinda de Maitreya; e os Vinte e Oito Capítulos do Sutra de Lótus. Em uma palavra, Shakyamuni compreendeu o Butsu-metsu (仏滅), ou seja, que a Lei de Buda inevitavelmente pereceria, e anunciou que, após esse evento, adviria o Mundo de Miroku, o Paraíso na Terra — um relato amplamente conhecido.
-
-Há, contudo, um ponto que exige nossa atenção no que tange ao tempo. Shakyamuni disse que o Mundo de Miroku chegaria após cinco bilhões, seiscentos e setenta milhões de anos. Se refletirmos, porém, nem mesmo um ser como Shakyamuni profetizaria sobre um futuro tão inconcebivelmente distante. Afinal, que sentido haveria em tal profecia? É-nos impossível sequer imaginar qual seria o estado da Terra ou da humanidade em uma era tão remota. Segundo o que me foi revelado por Deus, a real intenção era apresentar os numerais 5, 6 e 7, pois neles se ocultava um profundo significado. O número 5 representa o Sol (Fogo); o 6, a Lua (Água); e o 7, a Terra (Solo). Esta é a ordem correta — 5-6-7 —, mas até hoje, o mundo esteve sob a ordem incorreta de 6-7-5. Embora eu venha a escrever sobre isso com mais detalhes posteriormente, o fato é que nem mesmo esses dois grandes santos, Jesus Cristo e Shakyamuni, puderam pregar a verdade em sua totalidade.
-
-A prova disso reside na própria falta de clareza das escrituras budistas e da Bíblia, que impossibilitaram a qualquer pessoa, até hoje, a apreensão da verdade. Naturalmente, tal fato foi inevitável, pois a época não o permitia.
-
-Agora, entretanto, chegou o momento em que o Deus Supremo finalmente revelará a mais profunda verdade. O que está descrito nesta obra é límpido e não admite qualquer dúvida, permitindo que todos possam facilmente compreendê-la. Ocorre que o tremendo poder do mal logrou, até o presente, dominar noventa e nove por cento de todas as coisas. E, no exato instante em que se prepara para subjugar o um por cento restante, surgirá, de forma surpreendente, o poder desse um por cento, que derrubará de um só golpe a conspiração dos espíritos malignos. Em outras palavras, o mundo em que o mal prevalecia sobre o bem se transformará em um mundo onde o bem prevalecerá sobre o mal.
-
-Para expressá-lo de forma concreta, os noventa e nove por cento de mal representam a medicina moderna. Conforme já escrevi, ela foi um mal necessário e, por isso, cumpriu seu papel até agora. Como resultado, porém, ela passou a dominar completamente a vida, o bem mais precioso do ser humano. Se a medicina estiver equivocada, o perigo que isso representa para a vida humana é indescritível. Corrigir algo em que a humanidade deposita uma fé tão inabalável é, desnecessário dizer, uma tarefa de enorme dificuldade.
-
----
-
-# A Natureza Misteriosa do Mundo Espiritual
-
-**Categoria:** English | **Ano:** - | **Fonte:** OF THE SPIRITUAL WORLD Heaven on Earth,No.
-**Título Original:** MYSTERY | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## A Natureza Misteriosa do Mundo Espiritual
-
-O Mundo Espiritual é, em verdade, uma existência de natureza mística e prodigiosa, cuja compreensão transcende por completo o mero bom senso dos homens do mundo físico. A este respeito, discorrerei sobre como os pensamentos e as intenções humanas se refletem nesse plano.
-
-Uma vez que o Mundo Espiritual é um universo constituído unicamente pelo pensamento, nele, do nada, o ser se manifesta, e o ser, por sua vez, retorna ao nada, em um processo de infinitas metamorfoses. Tomemos como exemplo a criação de uma imagem sagrada de uma divindade ou de um Buda, seja por meio da pintura, da escultura ou de outra arte. Acontece que, de acordo com a índole de seu criador, o espírito divino ou búdico que nela se assenta manifestará, naturalmente, uma hierarquia distinta. Em outras palavras, é o caráter do artista que determina a natureza do espírito que ali se estabelece. Se o criador possuir um caráter da mais elevada estirpe, um espírito divino de alta hierarquia, correspondente a essa nobreza, descerá sobre o objeto. Inversamente, ainda que a forma visível seja idêntica, se o caráter do autor for de baixo nível, um espírito divino substituto ou uma emanação de um espírito divino, compatível com essa condição, ali se instalará.
-
-Há ainda outro aspecto a considerar. Quando os fiéis oram com sinceridade e de todo o coração diante de um Objeto Sagrado, o poder do espírito divino nele presente – ou seja, sua Luz – manifesta-se com grande intensidade. Em contrapartida, se os pensamentos do devoto não passam de mero formalismo, desprovidos de um sentimento genuíno de reverência, o poder desse espírito divino é atenuado na mesma proporção. Ademais, quanto maior o número de pessoas a reverenciar o Objeto Sagrado, mais resplandecente se torna a Luz emanada de seu poder divino.
-
-Desde a antiguidade, há um ditado popular que afirma: “Até a cabeça de uma sardinha pode se tornar sagrada pela fé”. O que isso significa? Se uma pessoa de índole inferior e sem qualquer qualificação cria um objeto de veneração e, por meio de propaganda ardilosa, atrai por algum tempo um número considerável de seguidores, os pensamentos e as intenções coletivas desses devotos acabam por plasmar a forma de uma divindade ou de um Buda no Mundo Espiritual. Consequentemente, esse objeto manifesta um poder considerável e concede certos benefícios, fenômeno que resulta inteiramente da criação da mente humana e que só pode ser descrito como verdadeiramente misterioso. Todavia, embora tais cultos possam prosperar por um período, eles não são autênticos. Por serem criações temporárias e ilusórias, estão fadados a desaparecer com o tempo. Como todos sabem, não são poucos os exemplos desse tipo de ocorrência. As chamadas “divindades da moda” pertencem a essa categoria.
-
-O que foi exposto até aqui refere-se aos espíritos divinos. Passemos agora a uma análise do seu oposto: os espíritos malignos.
-
-É notória a abundância, em nosso mundo, de indivíduos imorais que, para satisfazer os próprios desejos, causam transtornos ao próximo, infligindo-lhe sofrimento e desgraça. Evidentemente, como sempre ressaltamos, tais atitudes são fruto do pensamento materialista, que nega a existência do invisível. Contudo, sob uma perspectiva espiritual, esse fenômeno se revela assombroso e verdadeiramente aterrador.
-
-Quando uma pessoa faz outra sofrer, a vítima inevitavelmente nutre rancor, ódio e um desejo de vingança. Seus pensamentos e intenções, viajando através de cordões espirituais, colidem diretamente com o agressor. Do ponto de vista espiritual, as formas geradas por essa fúria e esse ressentimento são pavorosas. Se pudessem ser vistas a olho nu, até o mais vil dos malfeitores sucumbiria instantaneamente ao pavor.
-
-Quando o número de vítimas não se limita a uma ou duas, mas atinge a casa dos milhares ou das dezenas de milhares, essa multidão de pensamentos converge e se aglutina, dando origem a monstruosidades ainda mais aterradoras e de uma estranheza sem par. Tais entidades assumem as mais diversas formas, cercando o malfeitor com o intuito de aniquilá-lo, tornando sua situação insustentável. Assim, não importa quão heroico ou audaz seja o indivíduo, ele não terá outra escolha senão perecer sob um destino trágico. Uma análise das grandes figuras da História, tanto do passado como do presente, revela que, sem exceção, todas elas trilharam um caminho semelhante. Isso se torna evidente ao observarmos outros casos, como as tragédias que se abateram sobre políticos corruptos, a ruína de novos-ricos e, de modo especial, o fim que tiveram aqueles que iludiram e fizeram de joguete inúmeras mulheres, bem como os agiotas de natureza perversa.
-
-Em total contraste, aquele que realiza inúmeras boas ações e recebe de muitas pessoas pensamentos de gratidão e profunda emoção, verá esses pensamentos se converterem em uma Luz que o envolve. Por essa razão, sua virtude se engrandece cada vez mais. Os espíritos malignos, temendo essa Luz, tornam-se incapazes de se aproximar, e a pessoa alcança uma felicidade grandiosa. As auréolas que frequentemente vemos representadas nas imagens de deuses e budas são um símbolo justamente dessa Luz.
-
-Pelo que foi exposto, pode-se compreender a imensa importância que devemos atribuir aos pensamentos e às intenções do ser humano.
-
----
-
-# A Concretização da Verdade
-
-**Categoria:** English | **Ano:** - | **Fonte:** OF THE TRUTH
-**Título Original:** ACTUALIZATION | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## A Concretização da Verdade
-
-Qual é, em primeiro lugar, o verdadeiro propósito da religião? A resposta, evidentemente, é a concretização da verdade. Pois bem, o que é a verdade? É, naturalmente, a natureza em sua forma primordial. O Sol nascer no leste e se pôr no oeste; o ser humano, uma vez que nasce, ter de morrer inevitavelmente — o que o budismo denomina "tudo que vive deve perecer" e "aqueles que se encontram devem se separar" —; o fato de respirarmos o ar e nos mantermos vivos pelo alimento: tudo isso, inquestionavelmente, constitui a verdade. O fato de ser preciso enunciar realidades tão manifestas revela o quão desnorteada se encontra a humanidade em seu estado atual.
-
-Por essa razão, ao observarmos os eventos nefastos que permeiam a sociedade contemporânea — a desordem, os conflitos, o caos, a criminalidade —, torna-se inegável que as condições que conduzem a humanidade à infelicidade superam em muito as que a levariam à felicidade. Sendo assim, cumpre-nos refletir sobre a origem de tal quadro. Do meu ponto de vista, a causa reside precisamente no fato de que o alicerce de todas as coisas se distanciou em demasia da verdade. A questão resume-se ao simples fato de que, embora as pessoas tenham se afastado da verdade, elas não possuem a menor consciência dessa condição.
-
-Todavia, por qual motivo isso ocorre? Permitam-me ponderar e expor a realidade: o homem contemporâneo tornou-se incapaz de sequer vislumbrar a própria verdade. Uma das razões é, possivelmente, a impossibilidade de dirigir seus pensamentos à natureza da verdade, por estarem excessivamente ocupados com os problemas prementes da vida cotidiana. Contudo, há outro motivo: até mesmo a religião, instrumento crucial para a solução, careceu até hoje de luz suficiente para enxergar a verdade com clareza e, com frequência, ensinou a inverdade, acreditando ser a verdade. Se a religião tivesse possuído a capacidade de ensinar a verdade de maneira fidedigna, a sociedade humana estaria, sem dúvida, em uma condição muito superior à atual. Ouso dizer que o Paraíso na Terra já poderia ter sido concretizado em certa medida.
-
-Entretanto, o tempo celestial chegou, e a Vontade Divina manifesta-se agora, fazendo com que Deus, por meu intermédio, anuncie a verdade e, utilizando-me como Seu instrumento, execute a sua concretização. Portanto, uma vez que todos os discursos que exponho revelam a própria verdade da maneira mais simples e acessível a todos, se meus leitores, livres de quaisquer preconceitos e de mente aberta, lerem meus escritos com atenção e discernimento, a verdade emergirá vividamente em suas consciências.
-
-A esse respeito, principiarei explicando as questões mais triviais: o ser humano adoece precisamente por haver se desviado da verdade em algum aspecto, e a razão pela qual a medicina não consegue curar a doença reside no fato de que ela também se encontra apartada da verdade. A má condução da política, a insalubridade do pensamento, o aumento da criminalidade, o sofrimento causado pela escassez de dinheiro, pela deflação ou pela inflação — tudo isso ocorre porque, em algum ponto, há um desvio da verdade. Se não houvesse desvio algum da verdade por parte dos homens, tudo o que é correto transcorreria conforme seus desejos, pois foi dessa maneira que Deus criou a sociedade humana. Logo, não é tão difícil concretizar uma sociedade ideal, plena de virtude e beleza, nem que o homem viva uma vida de alegria e felicidade. Em outras palavras, é nisto que reside a possibilidade da vinda do Paraíso na Terra, que tanto preconizo.
-
-Diante do exposto, minhas palavras podem parecer, em certos pontos, bastante singulares. Na realidade, porém, não há nelas singularidade alguma; são a mais pura expressão do que é natural. As pessoas percebem essa suposta singularidade porque observam o mundo com olhos que não enxergam a verdade. Quanto mais consideram herética a minha visão, mais evidente se torna que a própria realidade deste mundo é herética.
-
-Deus concedeu ao homem liberdade ilimitada. Esta é a verdade. Aos animais e plantas, seres distintos do homem, foi outorgada apenas uma liberdade restrita. É nisso que consiste a nobreza da condição humana. Sendo assim, o que é a liberdade intrínseca ao homem? Afirmo que o homem possui liberdade por existir em um ponto intermediário entre dois extremos opostos: se elevado, torna-se um deus; se degradado, torna-se uma besta.
-
-Ao levarmos esse raciocínio adiante, chegamos à seguinte conclusão: depende unicamente da conduta humana que este mundo se torne um paraíso pleno de alegria ou, ao contrário, um inferno de miséria. Esta é a verdade. Diante disso, qual dos dois caminhos devemos escolher? Não é preciso sequer ponderar; à exceção de um demônio inato, é perfeitamente natural que se prefira o primeiro.
-
-Segue-se, pois, que a primeira opção — a realização de um mundo paradisíaco — é precisamente o propósito último da humanidade, e a consecução desse propósito nada mais é que a concretização da verdade. E sendo esta a missão primordial da religião, ensino continuamente a verdade, tanto pela palavra escrita quanto pela falada. Ademais, na qualidade de concretizador da verdade, atuo dia e noite com o máximo de meus esforços.
-
----
-
-# Sobre a Enfermidade do Câncer
-
-**Categoria:** English | **Ano:** - | **Fonte:** CANCER Eikoh, No.
-**Título Original:** ON | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Sobre a Enfermidade do Câncer
-
-Na edição anterior, o senhor Bunji Tatematsu, nosso correligionário residente nos Estados Unidos, relatou em sua correspondência que a enfermidade mais temida pelo povo norte-americano é o câncer. Diante disso, dissertarei sobre a origem desse mal. A causa primordial do câncer é bastante simples: consiste no acúmulo de toxinas provenientes do consumo de carne. Podemos compreender essa realidade ao observar que tal doença acomete, com maior frequência, pessoas de meia-idade e idosos, e não os jovens.
-
-Portanto, para se imunizar contra o câncer, é necessário ingerir uma grande quantidade de vegetais. Conforme já escrevi anteriormente, o ideal para o ser humano é manter um equilíbrio, consumindo carne e vegetais em porções iguais. A razão para tal reside no fato de a carne ser um alimento de natureza Yang, enquanto os vegetais são de natureza Yin. O consumo desproporcional e excessivo de um em detrimento do outro contraria, assim, as leis da Natureza.
-
-Nesse sentido, caso alguém venha a contrair câncer, a mudança imediata para uma dieta vegetariana garantirá a cura, ainda que o processo seja prolongado.
-
-Contudo, faço aqui uma advertência: se, ao contrair a enfermidade, a pessoa recorrer a medicamentos ou a tratamentos como a radioterapia, o efeito será reverso, tornando a cura improvável. Em tais circunstâncias, não me é possível assegurar a recuperação. Logo, se nenhum tratamento de ordem médica for empregado, a cura é certa, não havendo motivo para preocupação.
-
-Aproveito a oportunidade para discorrer sobre outras doenças prevalentes nos Estados Unidos. Além do câncer, a poliomielite tem sido, há tempos, motivo de grande aflição. Trata-se, no entanto, de uma pseudopoliomielite, cuja verdadeira causa é o enrijecimento de toxinas de injeções e de outros medicamentos nas pernas. A cura para essa condição reside unicamente no Johrei. Visto que, no momento, sua prática é inviável naquele país, a melhor alternativa é entregar o processo à Natureza. Por meio da purificação natural, a melhora ocorrerá gradualmente, sendo este o único caminho a seguir. Todavia, por desconhecerem esse princípio, as pessoas agravam o quadro com tratamentos médicos, transformando-o em uma doença incurável para toda a vida.
-
-Por fim, mencionarei a tuberculose. A esse respeito, publicarei em breve o livro “A Cura da Tuberculose pela Fé”, que será distribuído também nos Estados Unidos. Todos que o lerem serão salvos. Felizmente, a mentalidade do povo norte-americano é progressista e pouco afeita a se apegar a teorias convencionais. Sendo assim, creio que meus esclarecimentos serão reconhecidos mais rapidamente do que se imagina.
-
----
-
-# A Realidade do Mundo Pós-Morte
-
-**Categoria:** English | **Ano:** - | **Fonte:** THE SPIRIT AFTER DEATH REAL? Tidings of Great Joy from Heaven , February
-**Título Original:** IS | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## A Realidade do Mundo Pós-Morte
-
-A questão sobre a existência do espírito após a morte tem sido, desde tempos imemoriais, palco de inúmeras controvérsias que permanecem sem uma conclusão definitiva. Eu, contudo, afirmo categoricamente que os espíritos existem, pois sua existência é um fato. Ninguém pode negar aquilo que é real. As descrições do Inferno e do Paraíso legadas pelo Buda Shakyamuni, assim como o Céu, o Inferno e o Purgatório na Divina Comédia de Dante, não são, em minha convicção, hipóteses absurdas e desprovidas de fundamento.
-
-Mas, afinal, como é o Mundo Espiritual? Em uma única expressão, é um mundo regido pelo pensamento e pela intenção. Nele, desfruta-se de uma liberdade de movimento extraordinária, dada a ausência de barreiras materiais como o corpo físico. Um espírito, por meio de sua vontade, pode deslocar-se a qualquer lugar com uma velocidade superior à de um avião. No Xintoísmo, durante os rituais de invocação, entoa-se: "Percorrei os céus, atravessai a terra e vinde repousar neste santuário". De fato, distâncias de milhares de quilômetros podem ser vencidas em minutos, ou até mesmo em segundos.
-
-Todavia, a celeridade com que um espírito se move depende de seu nível hierárquico. Espíritos de elevada graduação, ou seja, aqueles que alcançaram a divindade, deslocam-se com grande rapidez. Quanto mais alta a sua posição, mais velozes se tornam. Um espírito divino supremo pode atingir qualquer destino, por mais distante que seja, em um instante mais breve que um décimo de milésimo de segundo. Em contrapartida, um espírito de graduação inferior pode levar dezenas de minutos para percorrer a mesma distância. Isso ocorre porque, quanto menor sua graduação, mais denso e maculado é o espírito.
-
-Ademais, os espíritos possuem a capacidade de se expandir e contrair livremente, conforme seu próprio pensamento. Em um altar budista familiar de aproximadamente trinta centímetros de largura, centenas de espíritos ancestrais podem se enfileirar. Nesses momentos, a ordem, a hierarquia e as vestimentas são mantidas com extremo rigor, preservando uma organização que corresponde à posição de cada um. Naturalmente, os espíritos se rejubilam imensamente com rituais realizados com sinceridade, mas não se agradam de cerimônias meramente protocolares. Nessas ocasiões, eles se fixam nos nomes póstumos budistas ou, no Xintoísmo, em espelhos sagrados, pedras, inscrições ou árvores sagradas, como o himorogi (神籬). Portanto, os rituais devem ser conduzidos com a máxima sinceridade e magnificência, de acordo com as possibilidades de cada um.
-
-Desde a antiguidade, há relatos de pessoas que avistaram espíritos, geralmente de indivíduos recém-falecidos. O espírito de alguém que morreu há pouco tempo é visível aos olhos humanos porque suas células espirituais são mais densas. O fato de que muitas pessoas testemunharam a ascensão de Cristo após sua ressurreição não é um milagre inexplicável, mas um evento perfeitamente plausível. Sua elevação aos céus, entretanto, deveu-se à sua condição de espírito de altíssima graduação. Com o passar dos anos, os espíritos purificam-se e tornam-se mais rarefeitos, o que os torna difíceis de serem percebidos pela visão humana. Além disso, um espírito pode entrar e sair livremente até mesmo por um orifício minúsculo, como o de um alfinete, pois não possui o obstáculo do corpo físico.
-
-Observado apenas por este prisma, o Mundo Espiritual poderia parecer uma utopia para os defensores do livre-arbítrio, mas a realidade é outra. Ocorre que o Mundo Espiritual é governado por leis absolutamente imperativas, que restringem essa liberdade.
-
-Gostaria de acrescentar uma palavra sobre a fisionomia dos espíritos. Logo após a morte, eles mantêm a exata aparência que tinham no momento do passamento, tal como se vê em ilustrações. Isso se deve ao pouco tempo transcorrido. Com o passar dos dias, sua aparência se molda fielmente ao seu pensamento e à sua intenção. Por exemplo, uma pessoa negativa, pessimista e solitária adquirirá uma figura desolada, emagrecida e desalentada. Alguém com pensamentos brutais assumirá a aparência de uma fera; uma pessoa de índole demoníaca terá a fisionomia de um demônio; e quem nutre pensamentos ignóbeis terá um semblante repulsivo. Por outro lado, aqueles de coração nobre e belo manifestarão essa virtude em sua aparência. No mundo terreno, o corpo físico funciona como um invólucro que permite dissimular a verdadeira natureza, mas no Mundo Espiritual, tudo se revela de forma nua e crua, um processo que se consolida em aproximadamente um ano.
-
-Em uma obra de um famoso líder religioso, encontrei a seguinte passagem: "O espírito humano se extingue após a morte; portanto, nem ele nem o Mundo Espiritual continuam a existir. A razão é simples: se assim fosse, com os incontáveis bilhões de pessoas que morreram desde a antiguidade, o Mundo Espiritual já deveria estar superlotado".
-
-Este autor, embora seja uma grande figura do mundo budista, desconhecia a capacidade que os espíritos possuem de se expandir e contrair livremente.
-
----
-
-# A Onipotência da Ciência
-
-**Categoria:** English | **Ano:** - | **Fonte:** SCIENCE ALMIGHTY? Miscellaneous Topics Related to Religious Faith, p.
-**Título Original:** IS | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## A Onipotência da Ciência
-
-Na atualidade, as pessoas falam como se não houvesse problema que a ciência não pudesse resolver, tratando-a como se fosse uma panaceia. A respeito dessa crença, gostaria de lhes fazer uma pergunta: seria a ciência capaz de solucionar as questões da moral, da arte ou do amor?
-
-Se a ciência de fato pudesse dirimir as questões morais, então os indivíduos que receberam a mais esmerada formação científica, os egressos das mais altas instituições de ensino, deveriam ser moralmente superiores. Todavia, o fato de não serem raros os casos de prevaricação, crimes infames e outros delitos entre essas mesmas pessoas revela claramente a parca influência da ciência no campo da moralidade.
-
-Passemos agora à arte, um campo que nos reserva outra surpresa. Quando observo as obras dos artistas contemporâneos, imersos em uma era de grande progresso científico, e as comparo com as criações de mestres de séculos passados — que desconheciam a ciência —, constato um fato que nunca deixa de me assombrar: as obras antigas são, em muitos aspectos, imensamente superiores.
-
-O que considero mais fascinante, no entanto, é o amor entre homens e mulheres. Como seria possível interpretar esse sentimento cientificamente?
-
-Estas três questões são, indubitavelmente, alguns dos maiores e mais cruciais dilemas da existência humana, cuja solução se faz premente.
-
-É verdade que, no plano material, a ciência tem oferecido contribuições notáveis à humanidade, e anseio sinceramente por seu contínuo progresso. Contudo, como mencionei, há um número considerável de problemas que a ciência é incapaz de solucionar. Não seria justamente essa a esfera que cabe à religião?
-
-Nesse sentido, chego a uma conclusão: o progresso harmônico de ambas — ciência e religião — constitui o verdadeiro avanço da civilização humana.
 
 ---
 

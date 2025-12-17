@@ -1,9 +1,740 @@
 # Mioshie_Teachings - Part 51
 
+# Relato das Graças Divinas na América
+
+**Categoria:** kikou2 | **Ano:** 昭和28(1953)年8月5日 | **Fonte:** Eikou
+**Título Original:** 米国画信（三） 晴風中教会 嵐 知重 | **Status:** Published | **Edição/Página:** 220号 | **Data ISO:** 1953-08-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Relato das Graças Divinas na América
+
+Recebi do Diretor Ogusa uma amável e atenciosa correspondência, na qual me informava que, durante a visitação de meados de maio, o próprio Meishu-Sama dignou-se a proferir palavras sobre o andamento da difusão em Los Angeles, permitindo ainda a partilha de um relato de graça. Diante de tal notícia, e ciente de minhas próprias limitações, encontro-me em um estado de absoluto temor reverencial.
+
+Assim, despeço-me de Los Angeles. Após uma estada de três meses, a melancolia de um viajante reside na inevitável necessidade de se apartar dos fiéis com os quais estabeleceu laços. Quanto mais longa a permanência, mais profundo o pesar da separação, e senti uma solidão ainda maior do que ao partir do Havaí. O consolo, contudo, manifestou-se em duas alegrias: a iminente chegada do senhor Higuchi a Los Angeles e a cura completa de mais uma pessoa acometida por doença mental, sucedendo o caso que relatei anteriormente. A senhora Morishita, cuja anormalidade perdurou por seis anos, recuperou-se com aproximadamente dois meses de Purificação Espiritual, enquanto a senhora Saito Julie, em condição semelhante por três anos, obteve a cura total em apenas um mês. Curiosamente, observei uma proporção direta entre o período da enfermidade e a frequência da Purificação Espiritual. Humildemente, anseio por receber um esclarecimento sobre a origem de tais milagres.
+
+Agora, ao chegar a Seattle e refletir sobre os três meses que se passaram, constato que foram, de fato, meses prazerosos, ainda que vertiginosos. Dediquei-me à Obra Divina, à minha exposição individual, à produção artística e, como se não bastasse, ainda me permiti fazer turismo como qualquer pessoa, somando a tudo isso o estudo do inglês e as aulas de Gidayu. Reconheço que ampliei em demasia o leque de minhas atividades. No entanto, a uma dessas ocupações, o Gidayu, está associada uma graça divina inesperada, que gostaria de relatar brevemente.
+
+No final do ano passado, ao partir do Japão, o Dr. Michiichi Okada, que acumula os títulos de médico e talvez doutor em Gidayu, sugeriu-me: “Quando for a Los Angeles, procure o mestre Tsuruzawa Shigezo, o principal acompanhador de shamisen de Yamashiro no Shojo, do Bunraku de Osaka. Ele está nos Estados Unidos este ano como instrutor do Bunraku americano. Por que não aproveita os momentos de lazer da viagem para aprender um trecho com ele?”. Sendo o Dr. Okada um renomado crítico de Bunraku, segui seu conselho. Poucos dias após minha chegada a Los Angeles, visitei o mestre Shigezo, que me recebeu com extrema hospitalidade e, para minha surpresa, compartilhou uma história extraordinária.
+
+“Anteontem”, começou ele, “veio a Los Angeles e tornou-se meu discípulo um senhor chamado Fujitaro Kubota. Ele é um ancião residente em Seattle, considerado o maior especialista em jardinagem oriental da América do Norte e também uma figura proeminente no círculo de Gidayu de lá. Ele veio à cidade com outro propósito: procura uma grande pintura a óleo, de aproximadamente um metro e meio por um metro e oitenta, para o salão principal de sua residência. Como não encontrou nada adequado em Seattle, passou o dia de ontem percorrendo as galerias daqui, mas nenhuma obra o agradou. Ele me disse ontem à noite que viu no jornal a notícia da chegada de um pintor chamado Arashi e que pensava em procurá-lo.” No exato momento em que o mestre contava essa história, o próprio senhor Kubota apareceu inesperadamente, trazendo seu instrumento para uma aula. O mestre nos apresentou de imediato, e o diálogo fluiu com uma naturalidade espantosa: “Ontem mesmo falávamos do senhor!”, “E eu acabava de ouvir a seu respeito!”. Assim, um pedido transformou-se em um acordo: “Poderia pintar para mim?”, “Com prazer.”. E, dessa forma, mal havia eu chegado a Los Angeles, e já surgia uma encomenda de uma obra de grande porte para Seattle, justamente o local de minha próxima exposição.
+
+Para uma pessoa que tem a permissão de servir à Obra Divina, intuí imediatamente que aquilo era um desígnio de laços providenciais, concedido por Meishu-Sama como uma manifestação de Sua infinita e grandiosa compaixão. Todavia, diante de uma proteção divina tão manifesta e inegavelmente real, meu coração estremeceu com uma emoção solene que, embora a palavra não seja de todo apropriada, assemelha-se a um tipo de temor. Acredito firmemente que somente elevando meu espírito poderei retribuir a tão imensa graça divina.
+
+Buscando, portanto, conferir alguma profundidade a esse meu amplo leque de atividades, iniciei uma rotina verdadeiramente estonteante, que ia da manhã à meia-noite, sempre com a Obra Divina como eixo central. E, encontrando lazer em meio à ocupação, frequentava, para meu próprio divertimento, as aulas com o mestre Shigezo. Para ser sincero, esses eram os momentos de maior descontração. Embora o Gidayu em si seja extremamente difícil, a sensação era talvez semelhante à de ir ao encontro de uma pessoa amada. Sentado em frente ao mestre, ouvindo o suave tanger do shamisen, havia instantes em que um pensamento curioso me assaltava: “Afinal, o que vim fazer na América?”. Contudo, com meu otimismo habitual, continuei a praticar diligentemente, e agora em Seattle, sigo as orientações do senhor Kubota, que retornou antes de mim. Este é, provavelmente, o maior desvio de rota durante minha estada nos Estados Unidos.
+
+Entre os nipo-americanos, artes como o Gidayu, o Biwa e o Shigin, que nas cidades modernizadas do Japão já soam um tanto antiquadas e raramente são apreciadas, florescem com vigor. É provável que os imigrantes da primeira geração tenham encontrado nessas formas de arte, então em seu apogeu, uma válvula de escape para sua pungente saudade da terra natal. Ademais, devido ao grande interesse dos americanos pela cultura japonesa, há um número considerável de discípulos caucasianos de Gidayu. Desenvolvem-se, assim, admiráveis cenas internacionais, nas quais eles se agarram ao atril, chorando com a pureza de Osono, com a candura de Hatsugiku ou com a desventura de Otsuru. Frequentemente me perguntam por que o Kabuki não vem aos Estados Unidos. A meu ver, a companhia Shochiku deveria, a qualquer custo, apresentar ao mundo essa cultura clássica e singular do Japão. Penso no quanto isso contribuiria para as relações de amizade e anseio para que, superando todas as dificuldades, esse projeto se concretize. Embora os rumores circulem há anos, o fato de que, com exceção da viagem do falecido Sadanji a Moscou, nada se materializou até hoje, leva-me a crer que, se a razão for meramente financeira, como se comenta, eu não poderia deixar de sorrir da miopia do senhor Otani. Mas minha digressão tornou-se um descarrilamento.
+
+Viajei para Seattle utilizando a vasta rede de ônibus Greyhound, assim chamada por sua semelhança com o cão de mesmo nome, esguio e de pernas longas. Optei por esse meio de transporte, pois o avião não permite apreciar a paisagem ao longo do caminho. Para um turista, é a melhor escolha, já que o ônibus para nos pontos de interesse. Partimos às oito da manhã, deixando para trás Los Angeles, cujo clima já se assemelhava ao de Tóquio. Suportamos o calor abrasador de Fresno, com temperaturas de trinta e nove graus, graças à brisa que entrava pela janela do veículo. Ao entardecer, passamos pela esplêndida beleza urbana de Sacramento. A partir daí, à medida que subíamos as montanhas, a temperatura começou a cair gradualmente. Ao cruzarmos a cordilheira da Califórnia, por volta da meia-noite, fomos surpreendidos por uma violenta nevasca. Em um único dia, transitamos do auge do verão para o rigor do inverno. A intensidade das variações climáticas do continente é, sem dúvida, assombrosa.
+
+Desde que cheguei aos Estados Unidos, minha percepção das estações do ano tem sido uma sucessão de confusões: nadei no Havaí em pleno inverno, tremi de frio usando um casaco pesado em pleno verão. Para completar, o tal horário de verão, que adianta ou atrasa o relógio em uma hora — e que alguns estados adotam e outros não —, desorganizou até mesmo minha noção do tempo. Murmurei para mim mesmo uma obviedade digna de uma rã em seu poço: “A América é realmente vasta!”. A paisagem que se descortinava pela janela na manhã seguinte era uma belíssima cena de neve do norte. A tranquilidade da cidade de Portland, que se desenvolveu na bacia do eterno rio Columbia, com a cordilheira Cascade e seus picos prateados ao fundo; o Monte Rainier, também conhecido como Monte Tacoma-Fuji, à nossa direita; a passagem pela cidade de Olympia, brilhando ao sol poente. Chegamos a Seattle às sete e meia da noite. A distância é equivalente à de Kagoshima a Sapporo, e percorremos o trajeto em trinta e seis horas e meia. Ao norte de Portland, já não havia neve. Seattle. Uma cidade com a qual eu sonhava há muito tempo, pois, ao lado de Boston, é reconhecida nos Estados Unidos por sua elevada atmosfera artística. A ambientação é distinta daquela de Los Angeles, com seu foco nos negócios; aqui, as ruas transmitem uma notável serenidade. Conhecida como a cidade das florestas e das águas, Seattle faz jus à sua fama: a relva nova brota nos campos, as montanhas se vestem com o verde fresco da primavera, e riachos cristalinos serpenteiam pelos lagos da cidade e de seus arredores. A miríade de pombas que brincam nas ruas evoca, de certa forma, a cidade de Nara, no Japão.
+
+Mal me instalei no hotel, uni dois quartos para começar a trabalhar na grande tela do senhor Kubota, enquanto, em paralelo, cuidava dos preparativos para minha exposição individual. Contudo, sendo a capital das artes, as galerias da cidade estavam todas com a agenda lotada para os próximos dois ou três meses. Sem saber o que fazer, consultei o senhor Kaichi Seko, gerente do Bush Hotel, onde estou hospedado. Ele me informou que o grande salão do térreo de seu edifício de seis andares estava sendo reformado no estilo sukiya, algo raro na América, para abrigar um restaurante japonês. A previsão era que a primeira fase da obra terminasse no final de maio, e ele gentilmente se ofereceu para ceder o espaço. Para uma exposição cujo tema era o Monte Fuji, o local era simplesmente perfeito. Agradeci-lhe profundamente por sua generosidade e, imediatamente, comecei a ministrar-lhe Purificação Espiritual para sua insônia e a redirecionar meus esforços. A rotina agitada, tal como em Los Angeles, recomeçou.
+
+Por onde passo, a mídia tem me dado uma cobertura surpreendentemente ampla. No Havaí, fui tema de quatorze artigos em jornais locais e internacionais e participei de duas transmissões de rádio. Em Los Angeles, foram treze artigos. Aqui em Seattle, além de várias publicações em japonês, o Seattle Times, um dos cinco maiores jornais dos Estados Unidos, com uma tiragem diária de quarenta e quatro páginas, publicou em 26 de maio uma matéria de nove colunas com a seguinte manchete, em típico estilo ianque: “Pintor japonês move uma grande montanha sobre seu cavalete”. É crucial mencionar um ponto importante: embora eu tenha sido abençoado com tantas oportunidades de divulgação gratuita, a razão pela qual evitei mencionar nossa Fé foi a descoberta, já em solo americano, de uma incômoda lei que proíbe atividades que violem o propósito declarado no visto de entrada. Apesar disso, por ter ousado auxiliar na Obra de Difusão, enfrentei em Los Angeles uma pequena perseguição. Ao ponderar sobre a grande perseguição sofrida por Meishu-Sama, sinto-me temeroso até mesmo de usar tal palavra para descrever o que foi, na verdade, um problema bastante trivial, provavelmente fruto de uma campanha difamatória por parte de médicos. Eu esperava secretamente que um incidente como esse se tornasse uma excelente matéria para o jornalismo, mas o fato jamais foi noticiado. Se tivesse sido, talvez eu fosse acusado da referida violação e, seguindo as regras, poderia até ter sido deportado.
+
+De qualquer forma, pretendo seguir em frente sem artifícios, deixando que as coisas fluam naturalmente. Com perseverança e sem pressa, buscarei agir em conformidade com a Vontade Divina, entregando tudo aos Ensinamentos nos quais deposito minha total confiança e mantendo, até o fim, uma conduta translúcida.
+
+Gostaria de acrescentar que, como resultado da exposição, recebi aqui mais uma proteção divina inesperada. No dia dois deste mês, recebi a visita súbita, no hotel, do senhor Norman Davis, vice-diretor do Museu de Arte de Seattle, que me propôs encomendar um retrato seu para o acervo do museu. Acontece que, na exposição, eu havia incluído um busto do senhor Heiji Okuda, um benfeitor dos pioneiros japoneses, e a suave tonalidade da pincelada japonesa, segundo ele, pareceu-lhe singular. Apenas em Seattle, há dois mil e novecentos pintores, entre os quais três retratistas de renome nacional. O fato de que tal encomenda fosse feita a um mero viajante como eu, embora me enchesse de gratidão pela honra, não pôde deixar de me causar um calafrio.
+
+Isto porque o local onde, a partir de nove de julho, será exibida a obra-prima "Yuna", de autoria de Meishu-Sama, como parte da exposição de arte japonesa antiga que está percorrendo as cinco maiores cidades dos Estados Unidos, é precisamente este Museu de Arte de Seattle. Como se poderia atribuir tal conexão a uma mera coincidência? Uma proteção invisível, uma graça divina tão imensa derramada sobre alguém tão insignificante como eu...
+
+Quando fui convidado à sua suntuosa residência, a conversa naturalmente derivou para a exposição de arte japonesa. Vendo a oportunidade, expliquei que eu era um servo do senhor Mokichi Okada, o expositor de "Yuna" (peço perdão pela forma como me referi a ele), e descrevi em linhas gerais a doutrina de nossa Fé e a construção de um mundo de Verdade, Bem e Belo. Concentrei-me inteiramente em meu deficiente inglês. Embora o senhor Davis risse abertamente de meus erros, ouviu-me com grande atenção. Suas palavras, "Gostaria de estudar mais a respeito", trouxeram-me um alívio imenso, e senti meu pincel deslizar com leveza ao pintar seu retrato, o coração palpitando com uma emoção calorosa, semelhante à de um botão de flor prestes a desabrochar.
+
+Peço sinceras desculpas por ter relegado um relato de tamanha importância para o final de um texto em formato de crônica de viagem. Em breve, enviarei a continuação.
+
+Meishu-Sama, muito obrigado por Vossas inúmeras e grandiosas proteções.
+
+(18 de junho, em Seattle)
+
+---
+
+# Relato da Comitiva de Filmagem na Costa de Shirahama (Parte II)
+
+**Categoria:** kikou2 | **Ano:** 昭和27(1952)年4月2日 | **Fonte:** Eikou
+**Título Original:** 爪木崎燈台 白浜海岸ロケ随行記２ 福地眞之助 | **Status:** Published | **Edição/Página:** 150号 | **Data ISO:** 1952-04-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Relato da Comitiva de Filmagem na Costa de Shirahama (Parte II)
+
+Após uma viagem de aproximadamente uma hora, o veículo deteve-se na costa de Shirahama, cuja beleza já nos encantara durante o trajeto de ida. Para captar a essência do mar, que envia e retrai suas ondas sobre a areia alva desde o longínquo Oceano Pacífico, a câmera foi posicionada na orla, com as lentes fixas no horizonte. O som característico do mecanismo girando preencheu o ar. Concluída essa tomada, realizou-se outra, de um ângulo lateral, e com isso o trabalho foi finalizado.
+
+Com tudo concluído, embarcamos todos na caçamba do caminhão. Eram quinze horas e quarenta minutos quando nos despedimos da costa de Shirahama, cintilante sob o sol poente, que já se inclinava consideravelmente no horizonte.
+
+O motor funcionava em perfeitas condições, e seu ronco ecoava pelas montanhas e enseadas enquanto seguíamos rumo ao norte. Recordei-me das palavras do motorista, o senhor Yoneya, que comentara na vinda: “Este carro funciona melhor quanto mais longe viajamos”. “Verdadeiramente, este veículo se move pela Proteção Divina”, murmurei para mim mesmo, assentindo em silêncio. Fiquei por instantes extasiado com a beleza das montanhas de Izu, tingidas pela luz do crepúsculo, e com as sucessivas enseadas que surgiam e desapareciam como as imagens de uma lanterna mágica.
+
+Ao cair do sol por trás das montanhas a oeste, um vento gélido começou a soprar implacavelmente, fazendo com que todos se encolhessem em seus sobretudos. Quando chegamos à cidade de Ito, a noite já era completa. Sem que se soubesse de quem partiu a ideia, uma voz sugeriu: “Vamos tomar um café”. “Excelente ideia!”, exclamaram todos, subitamente revigorados. O veículo então parou em frente a uma cafeteria.
+
+O sabor daquele café permanece inesquecível até hoje. Sentei-me à mesa com o engenheiro Fukui, o senhor Nemoto e o senhor Suzuki, e aproveitei para indagar sobre diversos aspectos do filme.
+
+“Senhor Fukui, podemos considerar que o trabalho está praticamente concluído?”, perguntei.
+
+“Sim. Amanhã filmaremos algumas cenas que faltam na montanha e na cidade de Atami, e depois de amanhã retornaremos.”
+
+“Houve algum ponto que o senhor considerou especialmente desafiador do ponto de vista técnico nesta filmagem?”
+
+“Não, nenhum em particular. O que mais exigiu de minha parte foi a elaboração do roteiro.”
+
+“Imagino o quão laborioso deve ter sido escrever um roteiro desta magnitude.”
+
+“De fato. Na verdade, até chegar aqui, eu havia subestimado a complexidade da tarefa. Pensei que se tratava apenas de registrar Meishu-Sama subindo a montanha. Contudo, ao chegar e ouvir as explanações, fiquei surpreso. Deparei-me com um projeto de uma escala grandiosa que me deixou perplexo. Por essa razão, conversei com os reverendos responsáveis sobre o significado da construção do Paraíso Terrestre, tomei emprestados os escritos de Meishu-Sama e me dediquei a lê-los avidamente para aprofundar minha compreensão. Foi assim que elaborei o roteiro, que depois submeti à apreciação.”
+
+“Agradecemos imensamente a sua sinceridade.”
+
+“Não há de quê. Justamente por me ter sido confiada total liberdade, sem quaisquer restrições, senti-me compelido a assumir a responsabilidade. Ao pensar nos trezentos mil fiéis, e em tantas outras pessoas que assistiriam ao filme, concluí que não poderia criar uma obra medíocre. ‘Preciso produzir algo que seja digno de ser apresentado em qualquer lugar’ — com esse pensamento, agi transcendendo qualquer interesse pessoal. Tenho certeza de que o resultado será uma obra da qual não teremos de nos envergonhar...”, disse ele. Enquanto falava, os olhos do afável engenheiro Fukui brilhavam com paixão artística e convicção.
+
+“A Riken é mais conhecida pela ciência. O senhor já havia filmado filmes religiosos antes?”
+
+“Sim, já filmei.”
+
+“Em comparação com aqueles, o senhor nota alguma particularidade neste projeto?”
+
+“Sim, muitas. Os filmes religiosos que realizei anteriormente eram focados principalmente em cerimônias de culto, rituais e sermões, o que impunha muitas limitações. Em contrapartida, nesta obra, ‘A Grande Construção’, não há uma única cena com esse caráter estritamente religioso. Por isso, acredito que mesmo as pessoas que não são membros da Igreja poderão assisti-lo com naturalidade e, assim, aprofundar sua compreensão sobre a construção do Paraíso Terrestre.”
+
+“Exato! Essa é uma das características mais marcantes da Sekaikyuseikyou: a determinação de edificar vigorosamente o Paraíso no mundo. Acompanhando a filmagem hoje, tive a profunda impressão de que o cinema, assim como a pintura e a escultura, é uma arte grandiosa.”
+
+“De fato. Esforçamo-nos para que cada cena não fosse um mero registro fotográfico, mas sim uma fotografia artística. Afinal, trata-se do Paraíso Terrestre.”
+
+“Creio que Meishu-Sama ficará imensamente satisfeito. Ademais, penso que os membros das províncias anseiam por reverenciar a sagrada imagem de Meishu-Sama através do filme. Como essa questão foi abordada?”
+
+“Fomos informados previamente pelos reverendos sobre essa expectativa, de modo que a maior parte do filme está, de fato, centrada nesse aspecto.”
+
+“E as atividades do Exército de Servir?”
+
+“Naturalmente, também as filmamos. Registramos o momento em que, sob as ordens de Meishu-Sama, eles manejam vigorosamente as pás na construção. É uma cena emocionante. Como ainda não há edifícios concluídos, esse esforço representa o clímax da obra. Buscamos dar grande destaque, em close-up, a esse empenho na ‘construção em andamento’.”
+
+“Qual será a duração aproximada?”
+
+“Filmamos mil e oitocentos pés de película, então teremos tranquilamente mil e quinhentos pés de filme finalizado, o que equivale a aproximadamente dois rolos. Normalmente, para produzir um material como este, filmamos de dois mil e quinhentos a três mil pés e depois cortamos na edição. Contudo, como tive total autonomia, senti profundamente a responsabilidade e tomei o máximo cuidado para evitar desperdícios, filmando com extrema cautela.”
+
+Ao ouvir tais palavras, senti um profundo alívio. Confesso que nutria uma certa apreensão pelo fato de a filmagem estar a cargo de alguém sem contato prévio com a nossa Fé. Questionava-me se seria possível, nessas condições, criar uma obra que agradasse a Meishu-Sama, sem incorrer em descuidos. Todavia, após acompanhar a equipe por um dia e testemunhar a consciência artística do diretor, pensei com segurança: “Com ele, tudo ficará bem”.
+
+Curioso, decidi traçar um breve perfil do cinegrafista e engenheiro Fukui.
+
+“Qual é a sua especialidade cinematográfica?”
+
+“Principalmente obras de caráter lírico. No pós-guerra, acabei filmando quase exclusivamente materiais didáticos de ciências, pelos quais me tornei mais conhecido, mas antes da guerra, minha preferência era por temas líricos.”
+
+“Então este trabalho também foi uma excelente oportunidade para o senhor.”
+
+“Sim”, assentiu o engenheiro com um largo sorriso, o rosto transbordando de alegria.
+
+“E quanto ao seu estilo? É algo mais exuberante?”
+
+“Não, meu estilo é mais pessoal, por assim dizer; não é exuberante. Para este filme, como se trata da primeira parte de uma grande obra, pensei que seria apropriado adotar um tom sereno, como a abertura de uma sinfonia, algo que toque profundamente a alma.”
+
+Fascinado por aquele universo da arte cinematográfica, perdi completamente a noção do tempo. Uma voz vinda de fora anunciou: “Vamos partir”, e mais uma vez nos acomodamos no caminhão.
+
+O veículo deslizava pela estrada imersa na escuridão da noite. As luzes da costa de Ajiro se distanciavam no horizonte quando, subitamente, nosso campo de visão se iluminou com a paisagem noturna de Atami, cintilante como um castelo de luz. O reflexo das luzes na baía criava uma cena de beleza indescritível. Esforcei-me para gravar aquela visão para sempre na câmera da minha alma. Mal tive tempo de saboreá-la, e o carro parou em frente à Vila Shimizu.
+
+A despeito de uma viagem de mais de oito horas, ida e volta, ninguém sofreu qualquer percalço, e as filmagens se encerraram com perfeita tranquilidade. Tal fato se deve unicamente à Proteção Divina de Meishu-Sama, a quem, de longe, dirigi minha mais profunda gratidão, orando pelo magnífico arremate da obra “A Grande Construção”.
+
+Após um banho que lavou a poeira do dia, a imagem do farol de alvenaria branca, erguendo-se sobre o mar de um azul-cobalto, ressurgiu vividamente em minha mente. “Foi belíssimo”, murmurei, como se falasse comigo mesmo. Meu companheiro de viagem, o senhor F., como se partilhasse do mesmo sonho, respondeu em um eco vago: “Maravilhoso”.
+
+Foi, de fato, um acompanhamento de filmagem verdadeiramente esplêndido.
+
+Agora, resta-nos apenas, junto a todos os irmãos, aguardar ansiosamente pelo abençoado dia da estreia.
+
+---
+
+# Um Novo Santuário da Arte: O Museu de Hakone
+
+**Categoria:** kikou2 | **Ano:** 昭和27年6月30日 | **Fonte:** -
+**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1952-06-30
+**Coletânea:** - | **Fonte (JP):** -
+
+## Um Novo Santuário da Arte: O Museu de Hakone
+
+**Impressões de uma Crítica de Arte Estrangeira sobre o Shinsenkyo de Hakone**
+*Publicado na revista Eikou, nº 239, em 16 de dezembro de 1953*
+
+A senhora Elise Grilli, esposa do senhor Ellis, responsável pelas transmissões estrangeiras da NHK, é uma renomada crítica de arte e jornalista do Nippon Times.
+
+No último dia 24 de novembro, após visitar o Shinsenkyo (神仙郷) de Hakone, ela se dirigiu a Atami, onde solicitou uma audiência com Meishu-Sama. Durante o encontro, teceu os seguintes comentários a respeito do Shinsenkyo de Hakone:
+
+Ela observou que, se alguém busca apenas a beleza natural ou a beleza artificial isoladamente, pode encontrá-las em paisagens mundialmente famosas, como as da Noruega, Suíça, França e Itália, ou nas obras de arte exibidas em museus e galerias espalhados por toda parte. Contudo, tais experiências se limitam a uma apreciação segmentada da beleza. Em seus quatro anos de residência no Japão, ela havia explorado inúmeros locais de renome, sítios históricos e obras de arte por todo o país, mas afirmou que foi a primeira vez que descobriu uma obra de arte una e coesa, que integra harmonicamente a beleza natural e a artificial como o Shinsenkyo de Hakone.
+
+Com efeito, na paisagem de Hakone, um local de sublime beleza, ela encontrou jardins paradisíacos, uma manifestação da beleza humana que harmoniza elementos naturais como árvores, rochas, musgos, flores e água. Além disso, dentro dessa beleza natural humanizada, deparou-se com a beleza sintética do complexo do museu. A senhora Grilli declarou que, em todo o mundo, jamais havia tido contato com algo semelhante. Sua perspicácia em decifrar a grandiosa concepção de Meishu-Sama para a construção do Paraíso Terrestre em Hakone é verdadeiramente notável; de fato, nenhuma pessoa, japonesa ou estrangeira, havia demonstrado até então uma compreensão tão profunda.
+
+Ao tomar conhecimento dos planos para a área do Zuìun-dai, em Atami, a senhora Grilli ficou maravilhada com sua grandiosidade e prometeu retornar em outra data, acompanhada de seu marido. Ressaltou também a extrema relevância de apresentar aos estrangeiros um ponto turístico tão singular, capaz de conectar Hakone e Atami em apenas uma hora de trajeto.
+
+Sua visão sobre a religião também se fundamenta na beleza da Natureza. Seu olhar se detém na elevação do caráter por meio da Natureza e no aprimoramento da alma por meio da Beleza. Ela assevera com acuidade que as religiões estabelecidas veem suas doutrinas, outrora proferidas por seus fundadores, caírem em descrédito e suas linhas de fé estagnarem, pois todas, sem exceção, contrariam as leis naturais.
+
+A seguir, apresentamos a tradução do artigo da senhora Grilli, publicado no Nippon Times.
+
+(Por Diretor Abe)
+
+---
+
+**Um Novo Santuário da Arte: O Museu de Hakone**
+*Por Elise Grilli, publicado no Nippon Times em 30 de novembro de 1953*
+
+Se o mundo em que o leitor vive se assemelha ao meu, trata-se, sem dúvida, de um universo onde a imaginação e a expectativa superam constantemente a realidade. Em minha jornada em busca de obras de arte e outras maravilhas da vida, basta o menor estímulo para que minha mente construa a imagem de uma obra-prima que, na prática, a rede da realidade não consegue capturar. Como poderia, por exemplo, a Mona Lisa – um retrato pequeno e de tons escuros – corresponder a tudo o que se lê e se sonha a seu respeito?
+
+Desta vez, no Japão, creio ter finalmente encontrado algo que satisfez plenamente minhas expectativas.
+
+Neste país, onde as grandes obras de arte não se concentram em centros como o Louvre, na França, ou os Museus do Vaticano, na Itália, é preciso peregrinar pacientemente a templos remotos ou a coleções particulares para contemplar uma única estátua ou um punhado de peças de cerâmica. Portanto, emulando a paciência e a resignação ensinadas pelo budismo – tão influente no desenvolvimento da arte japonesa –, talvez seja mais prudente não nutrir grandes esperanças.
+
+Durante todo o verão, planejei visitar o recém-inaugurado Museu de Arte de Hakone, atraída pelo anúncio de uma exposição de xilogravuras ukiyo-e, a forma de arte japonesa com a qual eu já nutria grande familiaridade antes mesmo de vir ao Japão. Imaginei que essa exposição, situada em local tão isolado, certamente me aguardaria sem pressa para encerrar. E, de fato, ela me esperou até a véspera de seu fechamento para o inverno. Ao chegar nesse último dia, por muito pouco não perdi uma das experiências mais enriquecedoras de toda a minha jornada artística no Japão.
+
+Pela primeira vez, a realidade sobrepujou as expectativas que eu havia construído. O anúncio da exposição era muito mais modesto e conciso do que a realidade. A exibição de uma impecável seleção de obras-primas do ukiyo-e era, na verdade, apenas uma pequena parte de um projeto imensamente maior.
+
+Na encosta de uma montanha próxima ao Parque de Gora, um milagre moderno se concretizou. É como se a montanha tivesse se aberto ao comando de "Abre-te, Sésamo!", revelando um novo tesouro repleto não de joias e ouro cintilantes, mas do acervo de preciosidades que a humanidade concebeu e criou ao longo dos séculos. O edifício do museu, quase oculto pelas nuvens no alto da montanha, brilha com uma brancura e uma novidade que o fazem parecer uma fantasia de Aladim. Sua estrutura, um simples retângulo com amplas janelas, não adere a nenhum estilo específico de época ou país. Coroando o topo, sem qualquer dissonância, um telhado de telhas azuis em estilo chinês completa a construção. Em termos contemporâneos, trata-se de uma arquitetura funcionalista, cujo objetivo é criar um ambiente condigno para a exibição de obras-primas, tanto antigas quanto modernas.
+
+O interior do edifício é inundado pela luz do sol. As superfícies reluzentes de vidro, madeira e mármore criam um cenário amplo e harmonioso para a variada coleção disposta em grandes vitrines.
+
+O que não se vê é igualmente importante. O museu possui uma estrutura à prova de fogo e um sistema de climatização para garantir a segurança e a conservação de seu acervo de valor inestimável. A atmosfera sombria, quase tumular, que geralmente paira sobre os museus públicos, aqui é inexistente. A luz solar que entra pelas janelas e o panorama das montanhas que se descortina ao longe, de tirar o fôlego, harmonizam-se perfeitamente com as inúmeras obras de arte ali expostas – criações sublimes que nasceram da destilação de detalhes da Natureza viva, outrora sentidos com intensidade poética. No exterior do museu, um jardim de musgos e rochas, ele próprio uma obra de arte, repousa em meio à floresta da encosta.
+
+Tal como o edifício, que concilia os estilos oriental e ocidental, a coleção de arte abrange ambos os continentes. Embora a arte japonesa predomine em volume, encontram-se também obras representativas da China, da Índia, da Grécia e do Mediterrâneo.
+
+O acervo deste pequeno edifício permite traçar toda a história da arte do ukiyo-e, desde os pergaminhos pintados à mão no estilo de Matabei até o apogeu da era de ouro, por volta de 1800, que nos legou mestres como Sharaku, Utamaro e, logo depois, Hokusai e Hiroshige.
+
+O inverno em Hakone é demasiado rigoroso, tanto para as obras quanto para os visitantes. Por isso, o museu permanecerá fechado, com reabertura prevista para 1º de maio do próximo ano, quando sediará uma grande exposição de arte do período Momoyama.
+
+A força motriz que materializou este paraíso da arte é uma organização religiosa dedicada primordialmente à cura. Sua ideologia não se impõe de forma alguma ao visitante, exceto por uma fé manifesta: a de que o Paraíso Terrestre pode ser concretizado unicamente por meio da arte e da beleza, sejam elas naturais ou artificiais.
+
+(Tradução de Tatsumatsu Bunji)
+
+---
+
+# A Religião da Eterna Juventude
+
+**Categoria:** kikou2 | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Eikou
+**Título Original:** 青年宗教 百地超生 | **Status:** Published | **Edição/Página:** 125号 | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A Religião da Eterna Juventude
+
+Outrora, quando nossa Igreja era conhecida como Kannon Kyodan (観音教団), era comum que os jornalistas que visitavam a Sede pela primeira vez manifestassem, com indisfarçável perplexidade, uma observação ao contemplar a assembleia de fiéis: “É surpreendente como há tantos jovens e intelectuais entre seus seguidores, e quase nenhum idoso”. Tal comentário era, de fato, a mais sincera das impressões.
+
+Materialistas em sua maioria, esses visitantes não superavam uma concepção religiosa extremamente superficial, que os levava a sentenciar de imediato que qualquer nova religião não passava de superstição ou doutrina maligna. Influenciados, ademais, por boatos maliciosos que maculavam o nome Kannon e pela vasta propaganda acerca das graças notáveis concedidas, eles certamente pré-conceberam nossa fé como sendo uma instituição dedicada meramente à obtenção de benefícios mundanos. Postulavam, por conseguinte, que encontrariam ali um reduto de pessoas idosas e de pouca instrução, e não um ambiente frequentado por jovens instruídos.
+
+De fato, nos templos da maioria das religiões, predominam os idosos que anseiam por um bom lugar na vida após a morte, ou mesmo jovens que já se portam como anciãos. Nesses locais, paira uma atmosfera sombria e melancólica: um silêncio desolador, sermões que induzem ao sono, palavras e rituais extravagantes e vestimentas peculiares. Tudo isso compõe uma aura característica que muitos associam à religião.
+
+Nesse sentido, o ambiente de nossa Igreja desafia de forma contundente tais preconceitos. Ao se depararem com uma atmosfera surpreendentemente equilibrada e pautada pelo bom senso, repleta de uma vitalidade juvenil tão intensa que, à primeira vista, parece não haver idosos, o impacto dessa percepção é, para muitos, profundamente inesperado.
+
+Em primeiro lugar, o próprio Meishu-Sama, mesmo que nos refiramos apenas ao Seu corpo físico, é o símbolo da erradicação das doenças. Ele possui uma saúde ideal, que supera até mesmo a dos mais robustos jovens e adultos entre os fiéis. Sua voz plena de vigor, Sua face de um rubor resplandecente, Sua pele lustrosa e Seus movimentos ágeis em nada denunciam os traços da idade avançada.
+
+A provação do último verão, em decorrência da perseguição de que foi alvo, foi de uma severidade tão atroz que todos nós, fiéis, chegamos a temer por Sua segurança. Contudo, enquanto os jovens detidos com Ele ainda se encontravam debilitados após serem libertados, Meishu-Sama já havia recuperado plenamente Seu vigor. Desde então, Sua capacidade de trabalho diário supera em muitas vezes a de antes da perseguição — que já equivalia à de dez homens comuns. Sua força física é sobre-humana, e Ele aparenta ser mais jovem do que há uma década. Dessa forma, Meishu-Sama rejuvenesce continuamente à medida que avança na Obra Divina. Recentemente, observamos o milagre assombroso de Seus cabelos prateados readquirirem o brilho e a cor da juventude, o que interpretamos como uma manifestação da jovialidade do Espírito Divino que Nele nasceu.
+
+Ademais, embora Seus ensinamentos sejam universais e sem barreiras, Sua palavra é notavelmente inovadora e racional, o que a torna particularmente fascinante para os jovens da nova era, forjados no pensamento científico.
+
+Nossa Igreja vive em função do objetivo sem precedentes de construir o Paraíso na Terra, uma Obra Divina cuja concretização transcende até mesmo o ímpeto dos jovens e adultos mais vigorosos. Portanto, a participação nela não admite posturas passivas ou saudosistas, típicas da velhice. Mesmo aqueles que já atingiram a idade avançada, ao seguirem o exemplo de Meishu-Sama, sentem-se compelidos a nutrir em si o espírito juvenil.
+
+Certamente, não são raros em nossa Igreja os membros que já passaram da meia-idade. Contudo, todos eles foram agraciados com a imensa dádiva da salvação de suas vidas e com a recuperação da saúde. Ardendo de esperança e alegria por sua insigne missão como apóstolos do Messias, eles transbordam de um vigor renovado, empenhando-se para não ficar atrás dos mais jovens.
+
+O que mais aprofunda os sulcos da velhice é o sofrimento gerado pela doença, pela pobreza e pelo conflito. Com um poder extraordinário, nossa fé dissipa gradualmente as nuvens escuras que são a causa primordial desses males, prolongando uma vida radiante. Os fiéis aprendem a discernir os terríveis danos causados pelos venenos dos medicamentos — raiz da abreviação da vida — e assimilam, por meio do método de saúde revelado por Deus, o segredo da longevidade. O poder grandioso do Johrei concede vitalidade a jovens precocemente envelhecidos e restaura nos idosos um corpo e uma alma rejuvenescidos, capazes de retroceder vinte anos no tempo, a tal ponto que se torna impossível estimar sua verdadeira idade. Eis a razão pela qual os visitantes afirmam não ver idosos em nossa Igreja.
+
+Segundo nos foi revelado, o Paraíso é um mundo de eterna primavera, de longevidade e juventude perenes, onde, mesmo após milhões de anos, ninguém envelhece além dos trinta. Cremos que Meishu-Sama é a manifestação de um nobre Espírito Divino, o mais antigo e, ao mesmo tempo, o mais novo e grandioso dos jovens.
+
+A jovialidade dos fiéis, por sua vez, é a prova de que seus espíritos estão sendo salvos no Mundo Espiritual, e de que todos os idosos se tornarão jovens para sempre. O Paraíso é a união harmoniosa desses jovens, um mundo de saúde e vigor que jamais envelhece. Costuma-se dizer que são sempre os jovens os que impulsionam o avanço da civilização. A Sekai Kyusei Kyo, ao corrigir a cultura do século XX e criar a civilização do século XXI, afirma-se como uma religião autenticamente jovem.
+
+O que mais poderia insuflar alma e infundir uma vida vibrante no âmago de uma sociedade humana senil e à beira da morte, senão uma religião de eterna juventude?
+
+---
+
+# Diário de Visões Espirituais
+
+**Categoria:** kikou2 | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 霊視日記 （第三回） 五三中教会 茨木よし子 | **Status:** Published | **Edição/Página:** 45号 | **Data ISO:** 1953-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
+
+## Diário de Visões Espirituais
+
+**(Terceira Parte)**
+*Coletânea de artigos da Reverenda Jikan Okada*
+*Ibaraki Yoshiko, Igreja Go-san-chū*
+*Revista Chijō Tengoku, nº 45, publicada em 25 de fevereiro de 1953*
+
+**Dia X, Mês X**
+
+Certa vez, ao ouvir a gravação de uma palestra proferida por Meishu-Sama no Salão Público de Hibiya, presenciei a chegada de inúmeras Divindades, que vinham uma após a outra para escutar. Passado algum tempo, surgiu um homem de aspecto selvagem, com os cabelos desgrenhados e um semblante que remetia a um sequestrador. De corpo nu e musculatura proeminente, seus olhos brilhavam como os de uma fera. Na mão esquerda, carregava uma esteira, enquanto na direita, segurava firmemente uma jovem em trajes japoneses sob o braço, com a respiração ofegante e pesada.
+
+Essa cena insólita perdurou por instantes, e eu observava apreensiva, imaginando o que poderia acontecer. Contudo, à medida que a palestra prosseguia, aquele homem, antes tão feroz, foi se abrandando gradualmente. Por fim, soltou a moça e, como se sua índole houvesse sido corrigida, desapareceu subitamente. Esta visão permitiu-me constatar o poder das palavras de Meishu-Sama, capazes de dissipar até mesmo os mais temíveis demônios.
+
+**Dia X, Mês X**
+
+Durante a Cerimônia Mensal da Sede, observei um menino de aproximadamente sete anos que demonstrava grande aversão ao Johrei, recuando a todo custo. Pude ver, por trás dele, um grande dragão negro que, com a boca aberta, parecia manipulá-lo incessantemente. Com pesar, pensei: "Que criança desafortunada". No entanto, ao término do Johrei, o dragão já não era mais visível. O menino, por sua vez, apresentava um humor excelente.
+
+**Dia X, Mês X**
+
+Ao entoar o Cântico Divino "Kamimuza" diante do Altar, surgiu a visão de uma longa procissão de pessoas, velhos e jovens, trajando suas melhores vestes. Todos se congregavam diante de uma imagem extraordinariamente grande de Kannon (観音), de uma magnitude comparável à do Grande Buda de Nara. Em um local vastíssimo, semelhante a um salão de mil tatamis, eles se organizavam em diversos níveis, iniciando uma vida comunitária. Fora desse grande salão, estendia-se um magnífico jardim, que conjugava a beleza natural e a artificial, onde muitas outras pessoas passeavam e se divertiam.
+
+**Dia X, Mês X**
+
+Enquanto orava diante de um oratório budista, manifestou-se a visão de um rio, por onde uma multidão atravessava apressadamente pelas partes mais rasas. A cena então se alterou, mostrando um grande número de pessoas reunidas em meio a lápides e templos antigos. Era espantosa a quantidade de gente ali presente. Assim como ocorre no Mundo Físico, pude vislumbrar no Mundo Espiritual uma paisagem sendo purificada por uma grande tempestade.
+
+**Dia X, Mês X**
+
+Na residência de uma fiel, cuja avó acamada recebia purificação por um derrame, eu orava diante do oratório budista. Subitamente, o altar se expandiu, transformando-se em um imenso salão repleto de pessoas que corriam em meio a uma grande agitação. Nesse tumulto, vi três ou quatro meninas, de sete ou oito anos, vestidas com quimonos vermelhos com padrões verdes, brincando alegremente. Em pouco tempo, a confusão cessou, e o ambiente foi tomado por uma solenidade profunda, como se água tivesse sido aspergida para assentar a poeira. Em seguida, a imagem de Kannon (観音) do biombo sagrado se manifestou, e diante dela, as pessoas começaram a se alinhar em fileiras de quatro, de forma ordenada, vindas de todas as direções, inclusive de lugares que pareciam buracos escuros. O Mundo Espiritual é, de fato, um lugar de grande disciplina.
+
+A cena mudou completamente. Vi a avó, que cuidava de duas crianças, escorregar e cair de um lugar inclinado como um barranco. Ao final da oração, enquanto eu e o responsável pela Sede ministrávamos Johrei na senhora, a imagem dela cuidando e acalentando as duas crianças surgiu diante de meus olhos. Ao lado, uma serpente cuspia incessantemente uma substância impura pela boca, parecendo aliviada. Posteriormente, soube que aquela senhora havia falecido subitamente enquanto trabalhava no campo, na época do terremoto de Toyooka, e que as duas crianças eram gêmeos que ela havia perdido em um aborto espontâneo aos sete meses de gestação.
+
+**Dia X, Mês X**
+
+Sendo sábado, as aulas terminaram ao meio-dia. À tarde, acompanhei o responsável pela Sede a uma cerimônia na casa de um membro em outra localidade. No caminho, guiados por um fiel que veio nos receber, visitamos a Divindade Guardiã local. Assim que a oração foi proferida, as portas do santuário se abriram. À direita do salão de orações, surgiu a imagem de uma mulher, que parecia ser da Era Meiji, com um coque redondo e um adorno no cabelo, vestindo um quimono lilás com estampas. Ela escrevia algo com um pincel. Em seguida, duas figuras de cabelos longos e vestindo hakama branco abriram uma porta de correr à direita. Ali, descortinou-se uma cena de chuva de fogo, ventos e tempestades violentas, como se estivéssemos observando um pergaminho da era das guerras civis. Muitas pessoas tombavam de diversas formas; era uma visão terrível.
+
+A cena então se alterou para um local onde muitas pessoas se banqueteavam, e a figura de guerreiros imponentes se destacava. Logo depois, tudo mudou novamente, e vi duas figuras nobres, vestidas com suntuosos trajes de cerimônia, diante de um biombo dourado de doze folhas. Era um grande salão, mas reinava uma grande desordem. Pensei se a Divindade Guardiã daquele lugar ainda não conheceria a Sekaikyuseikyou.
+
+Ao terminarmos a visita, notei, ao lado do santuário, uma estela de pedra pentagonal com cerca de um metro de altura, na qual estava gravado o nome de Amaterasu Omikami na frente e os nomes de outras cinco Divindades. Os aldeões pareciam frequentar o local, pois havia arroz lavado como oferenda. Ao entardecer, quando a luz começava a diminuir, proferimos a oração. Imediatamente, surgiu a imagem de Amaterasu Omikami, a mesma que reverenciamos em nossos pergaminhos sagrados, com vestes brancas, cabelos negros e um halo dourado atrás de si. Ao seu lado, estavam quatro ou cinco outras Divindades. Concluída a oração, a Grande Deusa retornou serenamente ao seu santuário de madeira, uma estrutura simples, sem um altar elaborado, semelhante a um mausoléu ou monumento aos mortos de guerra.
+
+Por volta das seis da tarde, chegamos à casa do membro, onde fomos recebidos por quatro ou cinco fiéis daquela vila para uma agradável cerimônia noturna. Assim que a oração foi entoada diante do Altar, vi uma mesa suntuosa com louças magníficas. Desse cenário de opulência, começou a brotar, de um ponto que parecia um buraco, um riacho de águas cristalinas. Belos grous brincavam alegremente em suas águas, sob o brilho intenso do sol nascente, compondo uma paisagem revigorante. Em seguida, a visão mudou para uma casa de veraneio, de um só andar, com paredes brancas e telhado anil, situada à beira-mar. Ao seu lado, cerejeiras desabrochavam em plena floração. A harmonia entre o mar e a cor das flores era tão perfeita que parecia uma pintura.
+
+**Dia X, Mês X**
+
+Durante a oração matinal diante do oratório budista de uma família de membros, tive a visão de uma pessoa sofrendo de peritonite, com o abdômen extremamente inchado. Em seguida, vi uma imensa biblioteca, com dezenas de milhares de livros preenchendo as estantes, e um lugar semelhante ao auditório de uma grande escola, com longos bancos enfileirados. Ao final da oração, relatei o que vira à família. Eles me informaram que se tratava do irmão mais velho, que havia falecido de peritonite durante seus anos de estudo. Ao folhearem um álbum, mostraram-me a foto e disseram: "É este". Reconheci o rapaz da visão. Para meu espanto, o álbum também continha fotografias da biblioteca e do grande auditório. Fiquei verdadeiramente assombrada.
+
+**Dia X, Mês X**
+
+Após a cerimônia na casa de um membro, durante a palestra do responsável pela Sede, observei casualmente e vi surgir uma criatura semelhante a um grande urso negro. Sua boca era como a de um dragão, e ele vasculhava avidamente peles de cabeça de serpente. Enquanto eu sentia um certo incômodo com a cena, uma serpente de proporções extraordinárias, de cor marrom-clara com grandes manchas, como as que se veem em zoológicos, surgiu de barriga para o chão, movendo-se lentamente até o lado direito da imagem de Komyō Nyorai. Aparentemente, as peles que a outra criatura remexia eram dela. Sentindo-me profundamente perturbada, roguei a Meishu-Sama por proteção. A serpente, então, começou a se afastar, deslizando. Sua extensão era tamanha que, por mais que se movesse, seu rastro parecia interminável.
+
+**Dia X, Mês X**
+
+Ao visitar o Santuário Onjiro, vi um jovem Deus vestindo trajes dourados e prateados. Ao seu lado, uma figura feminina com adornos de cabelo esvoaçantes o ajudava a se vestir, enquanto ele segurava uma espada. Em seguida, vi uma Deusa inspecionando a barra de seu quimono de cinco cores – vermelho, anil... – e fazendo vários ajustes, como se estivesse se preparando para uma grande celebração. De repente, a porta ao fundo se abriu e surgiu o mesmo Deus idoso que eu vira dias antes. Como o dia quinze seria o festival de outono da Divindade Guardiã, os Deuses pareciam estar muito atarefados com os preparativos.
+
+Terminada a visita, retornei à Sede da Igreja. Naquele dia, documentos precisavam ser enviados à Sede Central. Assim que o responsável fez seu relatório à imagem de Dai-Komyō Nyorai, Meishu-Sama apareceu subitamente e, logo que sua imagem se desvaneceu, tive a visão do Sol erguendo-se majestosamente sobre o oceano, com seu brilho resplandecente. Essa cena gloriosa perdurou por muito tempo.
+
+Por volta das sete da noite, enquanto orava diante do Altar, tive a visão de Meishu-Sama em um belo jardim de azaleias, dando instruções sobre a poda de galhos secos. Pouco depois, vi Daikoku e Ebisu, seguidos por uma grande comitiva, distribuindo iguarias.
+
+**Dia X, Mês X**
+
+Durante o Festival de Daikokuten, ao proferir a oração diante do Altar, uma das Divindades dos Sete Deuses da Sorte, um ser com uma longa barba, manifestou-se. Ao entoar a Oração Amatsu Norito, duas ou três figuras vestindo suntuosos trajes cerimoniais surgiram; todas eram idosas e suas vestes, de extrema nobreza. Em seguida, apareceu uma Deusa e, em um nível mais baixo, sua grande comitiva de servidoras divinas.
+
+Quando o Cântico de Gratidão a Deus foi entoado, a visão se transformou em um belo reino paradisíaco, sem vegetação densa, mas com grandes formações rochosas. Do alto, o Sol irradiava uma luz fulgurante. Diante desse cenário, dois ou três seres de aparência etérea, que transcendiam o mundo secular, moviam-se de um lado para o outro sobre as rochas. Ao lado, vi dois pinheiros de formas elegantes e cores deslumbrantes. A cena era tal qual uma pintura de seres celestiais com seus mantos esvoaçantes.
+
+**Dia X, Mês X**
+
+Enquanto lia um artigo na seção "Miscelânea da Luz", surgiu a visão de um aquário de um belo tom verde-amarelado e translúcido, com cerca de sessenta centímetros de comprimento por trinta de altura. Dentro dele, carpas ornamentais de uma beleza estonteante, com cores aveludadas em tons de laranja, azul e branco malhado, nadavam livremente, soltando bolhas de ar. Ao lado, uma criatura que parecia uma mistura de pato preto com serpente movia a boca continuamente.
+
+**18 de outubro**
+
+Como Meishu-Sama viajaria para Quioto, fui à Igreja Central com o responsável pela Sede e outros membros para prestar reverência. O presidente da Igreja conduziu a oração noturna diante do Altar. Assim que a Oração Amatsu Norito começou a ser entoada, cerca de vinte Divindades vieram para participar. Em seguida, chegaram mais vinte ou trinta figuras de aparência nobre e, logo após, outras vinte ou trinta pessoas que pareciam ser de alta posição no Mundo Físico. Por fim, uma multidão de pessoas comuns se juntou, formando uma massa compacta. Juntamente com essa grande multidão do Mundo Espiritual, e guiados pelo presidente, tivemos a permissão de receber Meishu-Sama em frente ao Hotel Miyako.
+
+**19 de outubro**
+
+Por volta das dez da manhã, tivemos a permissão de receber Meishu-Sama na entrada do Museu de Arte de Quioto. Pude ver que Ele estava acompanhado por Messias Kannon (観音), seguido por uma magnífica escolta de Deuses Dragão de diversas formas e cores. Havia dragões prateados, brancos, amarelos, verdes; um esplendor de cores. Tudo o que eu via era ao mesmo tempo assombroso e sublime, e meu coração batia acelerado. Após pouco mais de uma hora, a comitiva partiu, liderada pela Kannon (観音) de Meishu-Sama, seguida novamente pela multidão de Deuses Dragão multicoloridos. O carro que transportava o benevolente Meishu-Sama partiu silenciosamente.
+
+**20 de outubro**
+
+No Teatro de Quioto, tivemos a permissão de nos encontrar com Meishu-Sama, juntamente com todos os outros membros. Novamente, vi que Meishu-Sama e Kannon (観音) se manifestaram como um só, e cerca de vinte ou trinta Divindades se postavam ao redor de Sua cadeira. Depois disso, meu corpo sentiu o cansaço, e não consegui ter mais visões. A atmosfera do local era densa e carregada de energias malignas, o que me causou um certo mal-estar.
+
+Cada palavra proferida por Meishu-Sama transformava-se em Luz branca que se espalhava, purificando todo o ambiente. Essa Luz penetrava em minha alma, e eu sentia como se cada sílaba me ministrasse Johrei, cravando-se em meu ser. Minha cabeça foi imensamente purificada. Ter a permissão de me encontrar com Meishu-Sama quatro vezes em apenas três dias foi uma felicidade equivalente a um ano inteiro de encontros. Essa ventura é incomparável, e minha gratidão era imensa.
+
+**Dia X, Mês X**
+
+Uma monja da seita Shingon, amiga do responsável pela Sede, ao ver um membro em purificação na Igreja, ofereceu-se gentilmente para tratá-lo com o que chamou de "radioatividade" que emanava de suas mãos. De fato, de suas palmas saía uma considerável força espiritual amarelada, mas que não se comparava, de modo algum, ao Johrei de nossa Fé. Pude ver que, quando a pessoa recebia Johrei, a energia da monja era completamente anulada. Esta experiência me fez compreender que a imensa Luz que nós, membros, recebemos é centenas de vezes mais intensa que a de uma monja Shingon, mesmo com todo o seu treinamento ascético. É um privilégio exclusivo dos fiéis de nossa Fé.
+
+**Dia X, Mês X**
+
+Enquanto ouvia a palestra do responsável pela Sede sobre o polimento da alma, vi a mão de uma grande criatura negra surgir à sua direita. Não consegui discernir a forma completa do ser, mas era um quadrúpede de porte avantajado. Contudo, do corpo do ministro, emanava uma luz dourada, forte e esplêndida, que gradualmente repelia aquela mão sombria. Enquanto me perguntava se aquilo seria o Manto Espiritual, vi Meishu-Sama posicionado atrás dele, protegendo-o.
+
+**Dia X, Mês X**
+
+Durante a cerimônia mensal da imagem de Komyō Nyorai na casa de um membro, tive uma visão. Diante do Altar, descortinou-se o alvorecer no Mundo Espiritual. Um galo, com crista vermelha, plumagem alva e uma longa cauda azul-marinho, subiu em uma cerca e cantou vigorosamente. Essa imagem persistiu por muito tempo. Em seguida, a cena mudou para um cenário desolador de um bombardeio, com fumaça densa e uma chuva de fogo. Em meio a essa destruição, vi um monge em trajes suntuosos, prostrado em oração serena.
+
+**Dia X, Mês X**
+
+Atendendo ao pedido de um senhor idoso que se recuperava de uma purificação na garganta, fui com uma amiga ministrar-lhe Johrei. Inicialmente, minha amiga começou o Johrei, e eu permaneci ao lado, observando em silêncio para ter uma visão espiritual. Assim que o Johrei começou, um belo campo de flores apareceu, mas em meio a ele, uma criatura semelhante a um cavalo negro em fúria destruía tudo, empinando-se e agitando a cauda com violência. Ao redor do pescoço do enfermo, havia um pequeno gato preto encolhido. Próximo a ele, vi pessoas deitadas e outras caídas, como se tivessem sido estranguladas. Um local sombrio estava repleto de gente.
+
+Em seguida, começamos a ministrar Johrei juntas enquanto entoávamos a oração. Para minha surpresa, a transição do plano animal, onde cavalos e bois pastavam, para o plano humano foi surpreendentemente rápida. De um buraco escuro, um número incontável de pessoas começou a sair. O local, que antes era sombrio, foi se iluminando progressivamente, até se converter num cenário de indescritível beleza, com cerejeiras em plena floração e belas escadarias de pedra a perder de vista. Toda a área parecia coberta por um tapete de veludo verde. Nesse lugar, vi uma mulher com os olhos vendados sendo conduzida pela mão por um cavalheiro. Isso me fez refletir sobre o imenso poder do Johrei e da oração.
+
+**Dia X, Mês X**
+
+Sendo domingo e sem aulas, fui a uma vila com o responsável pela Sede e outros membros. Pela manhã, ao saudarmos a imagem de Dai-Komyō Nyorai na Igreja, um dragão branco apareceu com um ar gentil, como se fosse guardar o local em nossa ausência. No oratório budista, uma figura que parecia ser a mãe do responsável também surgiu para nos saudar. Com o coração leve, partimos.
+
+Ao chegarmos ao nosso destino e cumprimentarmos o anfitrião, senti um estranho desconforto, embora fosse nosso primeiro encontro. Enquanto refletia sobre a razão daquilo, vi um dragão negro ao seu lado, com a boca aberta. Senti-me desapontada por termos vindo de tão longe para encontrar tal situação. Contudo, durante a conversa com o responsável da Sede, notei, de relance, que o dragão havia desaparecido. O anfitrião tornou-se notavelmente mais lúcido e nos conduziu a uma sala nos fundos da casa.
+
+Embora não houvesse uma imagem de Komyō Nyorai nesse cômodo, muitas figuras de alta estirpe espiritual entravam e saíam. Em pouco tempo, o local se encheu de presenças espirituais. Como tínhamos um tempo antes da reunião, recebi Johrei. O cenário espiritual começou a se transformar rapidamente. Em um plano mais elevado, vi pessoas de vestes brancas sendo conduzidas, uma a uma, com grande cortesia. Havia também figuras que pareciam princesas de grande beleza, que tomavam seus lugares sucessivamente.
+
+Logo chegaram os convidados, alguns que já haviam experimentado o Johrei e outros que não o conheciam. Foi mais uma oportunidade de grande aprendizado. Um homem robusto, de quase sessenta anos e rosto avermelhado, entrou. Enquanto eu me perguntava qual seria seu sofrimento, vi ao seu lado a imagem de uma idosa de cabelos brancos desgrenhados, apoiada em uma bengala, balançando a cabeça em agonia. Perguntei-lhe: "O senhor sente dores na cabeça ou no pescoço?". Ele respondeu, segurando a cabeça: "Sim, há algum tempo minha cabeça dói muito. Já tentei vários tratamentos, mas só piora."
+
+Em seguida, enquanto uma jovem recebia Johrei, vi a imagem de um homem deitado ao seu lado. Mencionei isso durante a conversa, e o anfitrião, surpreso, foi buscar um grande retrato emoldurado de outra casa para me mostrar. "É este homem!", exclamei, tão espantada quanto ele. Tudo fazia sentido, e os familiares escutavam atentamente. A conversa sobre o caminho se estendeu noite adentro, e perdemos a noção do tempo.
+
+**Dia X, Mês X**
+
+Logo pela manhã, as pessoas da noite anterior retornaram para receber Johrei e conversar. A idosa que eu vira apoiada na bengala ao lado do homem agora aparecia com o peito aberto, deitada tranquilamente, como se toda a sua agonia tivesse desaparecido. Ao perguntar ao homem como se sentia, ele respondeu, com grande alegria, que estava muito melhor e conversou de forma desenvolta.
+
+Ao sair, aprendi muitas coisas com as pessoas da vila, sentindo imensa gratidão. Nessa primeira visita, tivemos a alegria de conduzir uma pessoa à nossa Fé.
+
+---
+
+# A Reparação das Consequências
+
+**Categoria:** kikou2 | **Ano:** 昭和27(1952)年7月30日 | **Fonte:** Eikou
+**Título Original:** あと始末 槐安生 | **Status:** Published | **Edição/Página:** 167号 | **Data ISO:** 1952-07-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A Reparação das Consequências
+
+Apesar da modéstia destes meus escritos, que expõem minhas próprias falhas nas preciosas páginas da revista Eikou, não raro recebo incentivos e considerações dos leitores, especialmente sobre meu Diário de Johrei. Hoje mesmo, um fiel vindo da distante Yonezawa procurou-me com um propósito específico. Disse ele ter lido em meu diário uma passagem sobre a magnificência do pensamento de Meishu-Sama, o que o motivou a vir rogar-me um favor.
+
+Relatou-me então a aflitiva situação de um conterrâneo, o senhor Hamada Yoshio, que se encontra no corredor da morte em uma penitenciária nas Filipinas. Segundo ele, trata-se de uma trágica injustiça: Hamada foi condenado por um crime cometido por um homônimo que serviu na mesma unidade militar e que, para agravar a situação, faleceu em combate. Sem o verdadeiro culpado, tornou-se impossível provar o equívoco. A esposa do sentenciado, uma fiel antiga e fervorosa, ao ler meu diário, concebeu a esperança de que, por meio do pensamento de Meishu-Sama, seu marido pudesse receber a proteção Divina, obter a suspensão da pena e ser repatriado. Por essa razão, o visitante viajou até aqui, suplicando que eu intercedesse junto a Meishu-Sama em seu favor.
+
+Embora profundamente condoído com o relato, vi-me na obrigação de recusar o pedido, explicando que nem minha função nem minha posição me permitiam tal encargo. Contudo, para seu alento, mencionei uma notícia veiculada nos jornais de hoje, que informava sobre a possibilidade de o governo filipino reavaliar as sentenças de morte em resposta a apelos públicos e privados, permitindo que os prisioneiros cumpram suas penas no Japão. A esperança, portanto, não estava de todo perdida. Ao refletir sobre o caso, porém, não pude deixar de murmurar para mim mesmo: “Quando, afinal, a reparação de todas estas consequências terá fim?”.
+
+Passaram-se sete anos desde o fim da guerra. Embora tenhamos reconquistado nossa soberania, as reparações às nações vitoriosas ainda são uma pendência, e o repatriamento dos prisioneiros na China e na União Soviética permanece sem solução à vista. As cidades se reergueram sobre as cinzas, mas a fisionomia de outrora desapareceu para sempre. Para as famílias que perderam pais e irmãos, por mais que se ofereçam formas de consolo, jamais haverá uma reparação completa enquanto seus entes queridos não retornarem.
+
+Essa incapacidade de resolver as pendências não se limita ao Japão, a nação derrotada; os próprios vitoriosos enfrentam dilemas semelhantes. Tudo isso nos leva a uma profunda reflexão: até que ponto o ser humano é capaz de reparar as consequências de seus próprios atos?
+
+Perante a lei, um crime pode ser punido com multas ou reclusão, mas a vítima raramente sente que a dívida foi de fato quitada. A situação é ainda mais complexa quando se trata de atos imorais que escapam às malhas da justiça. E o que dizer das ações praticadas com boas intenções, mas que resultam em mal? Nesses casos, a consciência de ter agido por um bem impede o próprio autor de sequer cogitar a necessidade de uma reparação.
+
+É o que se observa em certos políticos e magnatas que, após acumularem amantes e concubinas, declaram publicamente, e com notável desfaçatez, ter “resolvido” cada situação, evitando assim o escândalo. Tal atitude, no entanto, não passa de um estelionato moral, no qual o afeto é trocado por dinheiro para preservar as aparências. A transgressão não é apagada; a reparação está longe de ser completa. Um único pecado jamais se restringe a si mesmo; ele gera inúmeras ondas de novas transgressões. Somente Deus, e não um juiz terreno, pode perscrutar a extensão dessas ondulações, tanto visíveis quanto invisíveis. Quem, dentre os homens, seria capaz de reparar os danos indiretos e acertar definitivamente essas contas?
+
+Se somos incapazes de reparar por completo as faltas que reconhecemos, como poderíamos então lidar com as consequências de atos praticados sob a convicção de uma falsa verdade? O mundo está repleto de pessoas que, sem se darem conta de seu engano, acumulam erros acreditando estar no caminho certo. Meishu-Sama nos legou inúmeros Ensinamentos que desvelam essas inverdades, e dentre os equívocos mais graves está a questão do yakudoku (薬毒). As vidas ceifadas por esse método equivocado representam um dano de proporções incalculáveis. Tanto médicos quanto pacientes foram vítimas desse erro de tomar a inverdade por verdade. Como, então, reparar tal situação? Ainda que, deixando o orgulho de lado, tais pessoas se rendessem humildemente à verdade ensinada por Meishu-Sama, pondo um ponto final em seu erro, as vidas perdidas não poderiam ser restituídas. Uma reparação completa seria, portanto, impossível.
+
+Eu mesmo, antes de ingressar na fé, acreditei na inverdade como se fosse verdade e consumi tantos medicamentos que meus cabelos encaneceram precocemente. As purificações que vivencio são, sem dúvida, parte desse processo de acerto de contas. Ao pensar em quando ele enfim se concluirá, um calafrio percorre minha espinha. Ademais, carrego as máculas de meus antepassados e, por minhas imperfeições, certamente cometo erros de forma inconsciente. Diante de tudo isso, parece evidente que não há nada que o ser humano possa reparar em sua totalidade.
+
+Mesmo ciente de minha incapacidade, persisto em meu propósito de contínua reflexão e arrependimento diante de Deus. Desejo ardentemente poder servir, ainda que minimamente, na Obra Divina, como forma de expiar, senão de reparar, os atos que cometi quando tomava a inverdade por verdade.
+
+---
+
+# A Singular História da Estátua de Daikokuten
+
+**Categoria:** kikou2 | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Toho no Hikari
+**Título Original:** 大黒様と鼠 滑稽阿呆文学 | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1936-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
+
+## A Singular História da Estátua de Daikokuten
+
+Diz-se que Daikokuten não apenas concede bênçãos e prosperidade àqueles que, com fé devotada, o reverenciam dia e noite, mas também protege seus lares de calamidades iminentes. Entronizado ao lado do Nyorai da Grande Luz, seu vínculo conosco, membros da Igreja Messiânica, aprofunda-se continuamente. À medida que a nossa Igreja se expande, cresce também o número de fiéis que consagram uma imagem de Daikokuten, e, de modo correspondente, não cessa o fluxo de pessoas que trazem suas estátuas sagradas à Sede Central para receber a consagração de Meishu-Sama.
+
+Há uma tradição antiga entre os fiéis que afirma que, por meio da consagração de Meishu-Sama, o semblante já venturoso da estátua de Daikokuten adquire uma expressão ainda mais radiante, tornando-se um símbolo de plena fortuna e virtude. Diz-se, ademais, que sua fisionomia passa a assemelhar-se à de um dos membros da família que o acolhe.
+
+Este fenômeno, por si só, já constitui um relato extraordinário. Contudo, a história de como a estátua de Daikokuten veio a ser consagrada pelo senhor Endo é ainda mais notável, pois assemelha-se à maneira pela qual o próprio Meishu-Sama obteve sua imagem, sendo ela mesma adornada por episódios singulares e fascinantes.
+
+Meu primeiro encontro com esta estátua de Daikokuten ocorreu quando fui levado, de forma um tanto abrupta, à residência do senhor Endo para ministrar Johrei a seu filho, que adoecera repentinamente. Após reverenciar o Altar, meus olhos foram cativados pela imagem de Daikokuten, esculpida em madeira e colorida, e não pude conter uma exclamação de admiração pela qualidade da obra. Embora parecesse um pouco grande para o modesto oratório, a peça media aproximadamente trinta e seis centímetros e aparentava ser uma obra anterior à Restauração Meiji. Visitei muitas igrejas e lares de membros e tive a oportunidade de reverenciar inúmeras estátuas de Daikokuten. No entanto, a maioria delas, falando com franqueza, é de qualidade modesta: confeccionadas com madeira ainda verde, que não passou pelo devido processo de secagem, e esculpidas sem o cuidado de evitar o cerne do tronco, o que propicia o surgimento de fendas e rachaduras. São obras de artesãos ou entalhadores locais que, na verdade, só se tornam dignas de veneração após receberem a consagração de Meishu-Sama. Dentre tantas, a imagem entronizada no Johrei Center de Kaminari-naka era uma das poucas que haviam me causado uma impressão verdadeiramente marcante.
+
+Analisando o sentimento por trás da minha admiração pela imagem do senhor Endo, percebi que, além do mérito artístico da peça, havia também um pensamento de índole inferior. Conhecendo sua situação financeira, presumi que ele devia ter feito um sacrifício desmedido para adquiri-la. Como o menino enfermo adormeceu após o Johrei aliviar seu sofrimento, pude observar a estátua mais uma vez. Notei então que, além de a pintura do nariz estar desgastada, havia ali uma leve marca, como um arranhão. Contudo, essa imperfeição não comprometia a harmonia do conjunto, sendo quase imperceptível. A percepção tornou-se singularmente estranha quando me lembrei de que o próprio senhor Endo sofria de uma sinusite crônica severa.
+
+Ao comentar sobre isso com ele, de forma descontraída, ele respondeu: “Sim, eu já havia notado e também achava muito curioso”. E então, passou a me narrar as circunstâncias de como adquiriu a Imagem Divina.
+
+O ingresso do senhor Endo na fé, assim como o de muitos membros, foi motivado pela cura de uma enfermidade na família. De natureza extremamente dócil, ele executava prontamente e sem questionamentos todas as orientações do ministro de sua igreja, e, por essa razão, recebia as graças divinas uma após a outra. Certa vez, ele descreveu essa sucessão de milagres da seguinte forma: “É como se Deus me segurasse pelo colarinho e me erguesse”. A decisão de entronizar Daikokuten também veio de uma sugestão do ministro, que lhe recomendou que o fizesse. Seguindo as palavras do religioso, ele procurou por uma imagem específica: uma representação jovem, sem barba e com o martelo erguido acima da cabeça. Buscou por um longo tempo, mas só encontrava figuras de anciãos barbudos; a imagem jovem parecia inalcançável.
+
+Por acaso, descobriu que um vizinho trabalhava como intermediário de utensílios e antiguidades e pediu-lhe que procurasse a estátua. No dia seguinte, o vizinho apareceu com uma imagem de Daikokuten que correspondia exatamente ao seu pedido. Exultante, perguntou o preço e ouviu que o custo era de oito mil ienes. O senhor Endo, contudo, dispunha de apenas três mil ienes, e não havia como conseguir os cinco mil restantes.
+
+“Nesse caso, amanhã a levarei de volta ao proprietário. Por favor, permita que ela permaneça em sua casa apenas por esta noite”, disse o negociante antes de se retirar. “Sentia uma vontade imensa de chorar de tão desapontado”, confessou o senhor Endo, “pois o Deus da Fortuna que eu tanto desejava estava ao meu alcance, mas no dia seguinte iria embora por falta de dinheiro.”
+
+Na manhã seguinte, conforme o combinado, a estátua de Daikokuten foi devolvida ao seu dono. Naquele momento, como se falasse com uma pessoa viva, o senhor Endo despediu-se da imagem, dizendo: “Se tivermos afinidade, rogo que um dia retorne ao meu lar”.
+
+Passados alguns dias, o negociante retornou. “E então? Por que não a compra de uma vez?”, insistiu. “Eu desejo ardentemente, mas não tenho o dinheiro”, respondeu Endo. “Conseguirei mais mil ienes. Não poderia me ajudar a negociar?” O vizinho, porém, explicou: “É uma peça que vale mais de dez mil, e oito mil já é o preço de custo, portanto não há o que negociar. Que tal fazer o seguinte? Como somos vizinhos, não ganharei nada com a intermediação. Por que o senhor não vai diretamente ao proprietário e tenta argumentar com ele?” Dito isso, o vizinho o levou imediatamente à casa do dono.
+
+O proprietário foi irredutível: “Estou disposto a vendê-la porque sei que será para fins de fé, mas o preço já está mais do que justo, não posso reduzi-lo”. Desolado pela falta do dinheiro, o senhor Endo já se preparava para ir embora quando um homem chegou para vender arroz no mercado paralelo. O dono da estátua comprou o arroz, mas parece que lhe faltava dinheiro para o pagamento. Após procurar nervosamente pela casa por um instante, ele retornou e disse, exasperado: “Ah, que complicação! Não tem outro jeito. Pode levar por quatro mil ienes”. O senhor Endo, radiante de alegria, entregou-lhe a quantia, e com aquele mesmo dinheiro o homem pagou pelo arroz.
+
+“Se aquele vendedor de arroz não tivesse aparecido naquele exato momento, esta estátua de Daikokuten jamais teria vindo para a minha casa. Isso também foi graças à proteção Divina”, concluiu o senhor Endo, revivendo a alegria daquele dia ao recontar a história.
+
+“Só notei o arranhão no nariz depois que a trouxe para casa. Foi o ministro da igreja quem me fez perceber a relação com a minha sinusite. Entendi que ali residia uma profunda Vontade Divina destinada a mim e, desde então, reverencio-a todos os dias em gratidão a Deus. E se recebi graças? Sim, foram imensas! Depois que Daikokuten chegou, meus negócios começaram a prosperar gradualmente. Consegui pagar todas as minhas dívidas e, agora, já vislumbro a possibilidade de construir, com meu próprio esforço, uma casa, ainda que pequena.”
+
+Enquanto ouvia, eu alternava meu olhar entre o nariz largo do senhor Endo, consequência de sua sinusite, e o nariz arranhado da estátua de Daikokuten, contendo o riso diante daquela cena. Senti-me profundamente comovido, compreendendo que, para aqueles de coração puro e fé fervorosa, Deus concede graças à altura de sua devoção.
+
+---
+
+# A Eterna Celebração do Jardim do Paraíso
+
+**Categoria:** kikou2 | **Ano:** 昭和27(1952)年8月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 「天国の苑」完成す ――近く巡回上映の計画―― 枕流記者 | **Status:** Published | **Edição/Página:** 39号 | **Data ISO:** 1952-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
+
+## A Eterna Celebração do Jardim do Paraíso
+
+O dia 15 de junho de 1952 não é apenas uma data de júbilo e reverência que os fiéis da Sekaikyuseikyou jamais poderão esquecer, mas constitui também o resplandecente marco do nascimento de um novo mundo. Com a inauguração do Museu de Belas-Artes, o complexo de Shinsenkyo, protótipo do Paraíso Terrestre, alcançou sua plena realização, tanto em nome quanto em essência. O pilar fundamental da grandiosa Obra Divina da Salvação foi, assim, erigido sobre uma rocha inabalável.
+
+Qual não terá sido a comoção dos fiéis que participaram da cerimônia? A gratidão por terem sido utilizados como alicerces do Paraíso, as memórias do suor sagrado vertido no serviço abnegado, entremeavam-se em cada coração, despertando um impulso quase irrefreável de exultar pela alegria de viver um dia tão pleno de significado. Por sua vez, os fiéis que não puderam comparecer certamente prostraram-se diante do Altar em seus lares, oferecendo orações silenciosas de gratidão, e, com o pensamento voltado ao Jardim do Paraíso, renovaram seu juramento de viver em prol da Verdade.
+
+Nesse contexto, surgiu, por parte da agência Mainichi News, a proposta de produzir um cinejornal sobre a inauguração do Museu de Belas-Artes. Vislumbrando nesta oferta uma excelente oportunidade, a Sede Central da Igreja, com a permissão de Meishu-Sama, concebeu o projeto de criar um documentário intitulado “O Jardim do Paraíso”, destinado tanto àqueles que não puderam estar presentes quanto ao registro perene da emoção daquele dia. A decisão foi tomada no início de junho, e a produção foi confiada ao Departamento de Filmes Educacionais Shinriken. As filmagens tiveram início em 16 de junho, por ocasião da cerimônia, atingiram seu clímax com a recepção do dia 30 e foram concluídas em 2 de julho. A exibição prévia, honrada com a presença de Meishu-Sama, ocorreu em 23 de julho. O cinejornal, por sua vez, já havia estreado em circuito nacional no dia 11 de julho, causando assombro e admiração no público.
+
+A produção cinematográfica coube, assim como na vez anterior, ao Departamento de Filmes Educacionais Shinriken, que dedicou seus máximos esforços sob a supervisão do Reverendo Abe e a orientação do senhor Mizutori, da Sede Central. O roteirista e diretor, Toshio Shimauchi, é um homem na casa dos trinta anos, de aparência jovial e distinta. Com mais de uma década de experiência na indústria cinematográfica, ele se encontrava no limiar de uma fase promissora em sua carreira, sendo reconhecido internamente por sua sensibilidade artística moderna. Quanto ao cinegrafista, Kenji Fukui, dispensaria apresentações; trata-se do mesmo profissional de notória competência que assumiu integralmente, do roteiro à câmera, o documentário da “Grande Construção”, de modo que o sucesso desta nova empreitada parecia já assegurado. A grandiosa equipe contava ainda com o assistente Suzuki, três engenheiros de som, três iluminadores e cinco refletores, totalizando 12 kWh de potência. Cumpre acrescentar que o narrador foi o célebre locutor Takahashi, conhecido por seu trabalho na emissora NHK.
+
+O processo de criação do roteiro iniciou-se em 12 de junho, quando o senhor Shimauchi chegou apressadamente ao escritório. Ali, inquiriu detalhadamente sobre a história da Sekaikyuseikyou e o significado da construção do Paraíso Terrestre. De volta à sua hospedaria, dedicou-se à leitura atenta dos Escritos Divinos de Meishu-Sama. Nesse ínterim, percorreu os diversos locais, ponderando minuciosamente sobre cada enquadramento, a duração de cada tomada, o teor da narração que acompanharia cada cena e todos os aspectos gerais relativos às transições e aos efeitos visuais. O roteiro, fruto dessa imersão, foi então submetido à revisão do Reverendo Abe, e as filmagens tiveram início no dia 16 de junho. A seguir, permito-me narrar, em ordem, minhas impressões sobre a obra.
+
+O primeiro impacto, uma genuína exclamação de encanto, veio com a sequência de abertura. O título, “O Jardim do Paraíso”, surgia sob a luz do sol que se filtrava por entre as folhas de bordo, cujos reflexos tingiam as letras, evocando uma atmosfera perfeitamente condizente com o nome. Enquanto eu ainda admirava a justeza do título, a paisagem se abriu em um panorama grandioso, revelando os picos de Hakone, com o Monte Kintoki elevando-se ao longe, e o vasto vale a seus pés. A câmera então se deslocou para o Kanzan-tei e os jardins de Shinsenkyo, aproximando-se em close-up até adentrar o recinto sagrado do Shinzan-so. Ali, a venerável figura de Meishu-Sama surgiu na tela, e, instintivamente, ajustei minha postura em sinal de respeito. Vestindo o tradicional haori-hakama e com a mão direita apoiada sobre a mesa, Meishu-Sama proferiu, serenamente, as seguintes palavras:
+
+“Eu sou Mokichi Okada, Líder Espiritual da Sekaikyuseikyou. O lema de nossa Igreja é eliminar a doença, a pobreza e o conflito para, assim, construir o Paraíso neste mundo. O Paraíso, como se sabe, é um mundo pleno de Verdade, Bem e Belo. A Verdade e o Bem não podem ser expressos em formas materiais, mas o Belo, sim. Foi por essa razão que construí um protótipo do Paraíso Terrestre aqui, nas montanhas de Hakone. No que tange a este museu, observamos que, recentemente, a inauguração de instituições do gênero tem se tornado comum. Contudo, a maioria se dedica à arte chinesa, ocidental ou budista; não existia um museu cujo foco principal fosse a beleza japonesa em sua forma mais pura. Considerando tal lacuna algo profundamente lamentável, decidi criar um museu de arte japonesa. Minha intenção foi construir um espaço que harmonizasse, da maneira mais plena possível, a beleza natural de Hakone com a beleza da criação humana.”
+
+Enquanto essas palavras eram proferidas, a imagem do museu surgia e se desvanecia como uma visão. O cenário transita do Kanzan-tei para os jardins do Templo Nikko-den e, em seguida, para a cerimônia comemorativa. Entoa-se o hino sagrado: “Feliz ocasião, Shinsenkyo enfim se completa, e celebramos este dia sagrado.” A câmera então se volta para as carpas que nadam no lago do Nikko-den, deslizando em seguida por entre as árvores do Vale do Bordo, como se o espectador ali passeasse. Fiquei maravilhado com o efeito da luz do sol a tremeluzir sobre o musgo, doado por fiéis de todo o país, quando, de algum lugar, principiou a fluir a melodia cristalina de um koto. Em seguida, a imagem se concentra na caligrafia e no telhado do salão de chá Sangetsu-an. Ao adentrar o jardim, o som da água caindo de uma bica de bambu sobre uma bacia de pedra atinge o ápice da delicadeza, harmonizando-se com a música do koto e transportando a alma para uma dimensão onírica. Um suspiro de admiração escapou-me: “Magnífico...”
+
+A cena se transfere para o interior do museu. Somos apresentados às obras do mestre escultor contemporâneo Sato Gengen: uma imagem de Kannon (観世音) e um falcão. Logo depois, somos cativados pela sublime e indescritível suavidade de uma obra-prima da Era Asuka, um tesouro de valor inestimável: o Nyoirin Kannon (如意輪観音) em bronze dourado. Vem a seguir o famoso Sutra Causal da Era Tenpyo. Foi uma pena que suas cores não pudessem ser captadas, mas essa é uma limitação inescapável do filme em preto e branco. A caligrafia “Kiun” (帰雲), do mestre zen Mujuun, cuja tinta parece ainda vibrar no papel, continua a fascinar a todos. Em seguida, o díptico de Muqi, expoente da pintura das dinastias Song e Yuan, retratando um martim-pescador e uma alvéola. A beleza das curvas de um incensório em celadon da dinastia Song parece gravar-se em nossa retina; era como se eu pudesse ver a cor sóbria e suave que admirara pessoalmente. De “Kanzan e Jittoku”, de Soami, a câmera passa para um close-up da “Paisagem Nevada de Biyo”, de Sesshu, e sou tomado pela sensação de ser transportado a um domínio etéreo e onírico. A obra-prima de Chojiro, a tigela de chá “Íris”, é a próxima, e a câmera continua a nos apresentar, uma após a outra, obras de arte de calibre mundial, fazendo com que eu, emudecido, me sentisse absorvido pela tela.
+
+O contraponto entre o “Daruma” de Musashi, de traços afiados como a lâmina de uma espada, e o “Daruma” de Korin, pleno de uma maturidade serena e harmoniosa, revela-se fascinante. Em seguida, o famoso biombo “Aves Aquáticas”, uma das obras-primas de Korin, cujas ondas, que chegaram a ser conhecidas como “ondas de Korin”, deixam claro, mesmo para um leigo, o porquê de Meishu-Sama afirmar com frequência que Korin é o precursor do impressionismo e do pós-impressionismo. A cena seguinte nos surpreende com a primorosa caixa de laca “Higurashi”, do Período Edo. Se, no museu, eu apenas podia contrastar a peça com sua descrição e imaginar que “a roda d'água deve girar ao abrir a tampa”, aqui, graças à magia do cinema, a tampa de fato se abre e a roda d'água gira, arrancando um “Ah!” de espanto da plateia.
+
+A imagem transita para 30 de junho, retratando o esplendor da recepção de abertura do museu, que contou com a presença de personalidades de diversos setores. A escritora Yoshiko Yoshiya, os literatos Yasunari Kawabata e Jun Takami, o doutor em letras Yoshiro Nagayo, o grande mestre da dança Michio Ito, o renomado general Kazushige Ugaki, entre tantos outros ilustres convidados, chegavam sob uma chuva fina, protegidos por guarda-chuvas. Conduzidos por Meishu-Sama, eles percorrem as salas, detendo-se diante das obras-primas, observando-as com uma atenção absorta. Os rostos, as obras. A câmera acompanha o grupo e se volta novamente para as preciosidades: uma estátua de Amida Nyorai do Período Kamakura, de minuciosa técnica *kirikane*; um close-up da mundialmente famosa obra-prima do ukiyo-e, “Mulheres do Banho”, célebre pela beleza de suas linhas e pela expressividade das figuras; as tigelas de chá sobrepostas de Ninsei, cujo frescor de design Meishu-Sama tanto enaltece; e um incensório de Hakusan Shosai. Foram minutos de uma intensidade estonteante.
+
+A experiência pareceu durar muito tempo, mas, do início ao fim, transcorreram apenas onze minutos e meio, o equivalente a mil e cento e cinquenta pés de película. Contudo, nesse curto espaço de tempo, o filme logrou expressar, com uma plenitude avassaladora, a essência do protótipo do Paraíso Terrestre. Fui tomado por uma profunda emoção e pela certeza de que tal feito só foi possível graças à proteção, à orientação, à direção artística e à própria participação de Meishu-Sama. As lágrimas me vieram aos olhos ao sentir a imensidão de Seu coração, que, por meio do cinema, guia as almas ao Paraíso.
+
+Desejei também aplaudir calorosamente todos os que participaram da produção deste filme. Minha admiração se estende não apenas ao Reverendo Abe e ao senhor Mizutori pela supervisão e orientação, ou ao senhor Nemoto pela coordenação, mas, sobretudo, à paixão pela arte demonstrada por aqueles que vivem imersos na criação cinematográfica. Senti que, nessa dedicação, existe algo de sagrado, um elo com a sinceridade que move o coração de um fiel. Indo além, não pude deixar de pensar no imenso benefício que adviria para a própria arte cinematográfica se essas pessoas abraçassem a fé. Com a alma purificada, quão mais inspirada e divina não seria sua habilidade técnica? Oro, pois, para que esse dia chegue o mais breve possível.
+
+Com estas palavras, concluo meu relato e impressões sobre as filmagens de “O Jardim do Paraíso”. A todos os fiéis, peço que aguardem com grande expectativa.
+
+---
+
+# Conversa entre Servidores da Sede Central
+
+**Categoria:** kikou2 | **Ano:** 昭和30(1955)年4月15日 | **Fonte:** Chijo Tengoku
+**Título Original:** 本部事務所奉仕者座談会 | **Status:** Published | **Edição/Página:** 69号 | **Data ISO:** 1955-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
+
+## Conversa entre Servidores da Sede Central
+
+Com o advento do trigésimo ano da era Showa (1955), e diante do momento crucial em que a Obra Divina avança com ímpeto cada vez maior, nós, que temos a honra de servir na Sede Central, renovamos o propósito de nos devotarmos com ainda mais sinceridade ao sagrado serviço.
+
+Nesse sentido, no dia 30 de janeiro, poucos dias antes do Risshun, marco de um novo e grandioso ciclo, reunimos todos os servidores da Sede para uma mesa-redonda, que se estendeu por aproximadamente uma hora e meia. Embora tenha sido nossa primeira iniciativa do gênero, e talvez não tenhamos conseguido expressar a plenitude de nossos sentimentos, apresentamos a seguir as palavras dos dedicados servidores da Sede Central.
+
+A condução do encontro esteve a cargo do Sr. Sakemi, redator desta revista. (Relato do redator Kihara)
+
+**Participantes:**
+Minoru Mondori, Kokichi Taga, Mitsujiro Mihirogi, Yutaka Kii, Kiyoshi Tatematsu, Eikichi Iihara, Seiji Miura, Masao Fujisaki, Kinzo Narita, Keiichi Yamamoto, Kotaro Wada, Shinji Fukuoka, Tamotsu Furuya, Koichi Uno, Yukio Ishihara, Seihachiro Nakajima, Keita Yamazaki, Yoshio Fujii, Kazuko Nakagawa, Miyoko Nakai, Hanako Kozakai, Kiyoko Ambo, Kiyoko Omori, Yaeko Kajiura, Seiko Mori
+(em ordem aleatória)
+
+**Moderador:** Esta é a primeira mesa-redonda que realizamos no escritório. Espero que, ao compartilharmos nossas experiências no servir, possamos encontrar inspiração para o futuro de nossa dedicação. Os senhores estão alocados em diferentes seções, mas certamente todos têm recebido inúmeras graças. Gostaria que começassem por relatar momentos em que sentiram de forma vívida a alegria de estarem sendo utilizados por Deus.
+
+**Tatematsu:** O que mais me marcou, e que já tive a honra de relatar na revista Eikō, foi a publicação da sua edição internacional. A incumbência surgiu no final de setembro, e nosso plano inicial era lançá-la até o final de outubro. No dia primeiro daquele mês, fui apresentar um relatório parcial ao reverendo Abe. Ocorre que, justamente naquela época, o presidente da Igreja do Havaí, Sr. Moritake Okada, e o tesoureiro, Sr. Shigeo Goto, estavam no Japão. O reverendo então me disse que seria uma excelente oportunidade para lhes mostrar a revista, e que, para tanto, eu deveria aprontá-la até o dia 8. Senti um calafrio e pensei: "Isso será impossível". Afinal, era a primeira vez que fazíamos algo do tipo e não tínhamos tido tempo para os preparativos adequados. Contudo, imediatamente compreendi que era um anseio de Deus que nos apressássemos e, sem hesitar, dei início aos trabalhos. Era preciso providenciar a tradução para o inglês, negociar com a gráfica... Foram dias de um turbilhão de atividades. No entanto, tudo transcorreu com uma fluidez impressionante. Não houve um único obstáculo, e, no dia 7 de outubro, tanto a versão em japonês quanto a em inglês estavam prontas. Foi, indubitavelmente, uma imensa proteção divina.
+
+**Fukuoka:** A história que o Sr. Tatematsu acaba de contar também me parece extraordinária. Lembro-me de que, no dia 28 de setembro do ano passado, eu estava em Tóquio. Sem que estivesse em meus planos, precisei ir a Gora com o Sr. Ajiki. Foi quando ouvi sobre a necessidade de se produzir a edição internacional da Eikō em um prazo exíguo. Tendo alguma experiência na área, avaliei a situação e concluí que, para um primeiro número, seria uma tarefa que beirava o impossível em condições normais. Entretanto, uma inspiração tomou conta de mim: "Talvez seja possível". Senti que era uma ordem Divina para que eu agisse. Naquele mesmo instante, todo o projeto, o leiaute, tudo se materializou em minha mente. Isso é algo que jamais ocorrera em toda a minha experiência; foi espantosamente misterioso. Por se tratar de algo praticamente inviável, o fato me fez refletir profundamente. Não há dúvida de que fomos instrumentos nas mãos de Deus.
+
+**Moderador (Sakemi):** Permitam-me, então, relatar algo do setor de edição. No ano passado, ao prepararmos a edição especial sobre agricultura, a revisão final já havia sido concluída e o material aguardava apenas a apreciação de Meishu-Sama antes de seguir para a gráfica. O artigo de maior destaque reportava a colheita do Sr. Goto, da província de Oita, com um rendimento de cinco *koku* e cinco *to*. A esse respeito, recebemos a seguinte orientação de Meishu-Sama: "Está vago. Investiguem os números exatos, até o último *shō* e *gō*." Imediatamente, enviamos um telegrama e recebemos como resposta: "GOKOKU GOTO". Como o valor em *shō* não estava claro, creio que fizemos um novo contato. Pouco depois, chegou uma carta esclarecendo que a colheita fora de cinco *koku*, um *to*, três *shō* e seis *gō*. Compreendemos, então, o equívoco: o "GOTO" no telegrama não se referia à medida "cinco *to*", mas sim ao sobrenome "Goto". Estivemos a ponto de cometer um erro gravíssimo. Reportamos imediatamente os números detalhados a Meishu-Sama, que nos disse: "Eu sabia. Vocês estavam sendo alvo de espíritos malignos". Sentimos uma profunda reverência e pedimos perdão. Nós não havíamos percebido qualquer irregularidade na ausência dos detalhes, mas o episódio nos ensinou de forma contundente que, na Obra de Deus, nada pode ser tratado com displicência, e que Meishu-Sama tem conhecimento de todas as coisas, por menores que pareçam.
+
+**Mihirogi:** A propósito dessa edição especial, a tiragem prevista era de um milhão de exemplares. Com base na minha experiência com a distribuição de jornais, tanto o trabalho gráfico quanto a logística de entrega me pareciam desafios colossais. Francamente, eu não estava convicto de que conseguiríamos. Todavia, confiava que, sendo uma determinação Divina, tudo se realizaria a contento. Fizemos, então, uma alocação inicial dos exemplares, informando que as igrejas poderiam solicitar mais, se necessário, ou reportar eventuais excessos. Para minha surpresa, embora alguns locais tenham ajustado a quantidade para menos, um número inesperadamente grande de igrejas pediu para aumentar seus pedidos, superando em muito nossas projeções. A impressão daquela edição atrasou cerca de um mês, mas, quando finalmente entramos em produção, a demanda já era tamanha que a tiragem de um milhão de cópias parecia perfeitamente viável. Alguns reverendos diretores chegaram a sugerir que a publicação fosse feita em duas ou três etapas. Diante do cenário, ponderei que poderíamos tentar lançar tudo de uma só vez. O resultado foi que um milhão de exemplares não foi suficiente, e tivemos de fazer uma reimpressão. Fica claro que, quando há uma Palavra de Meishu-Sama, tudo invariavelmente se encaminha para o sucesso.
+
+**Moderador:** Sim, esse ponto é indiscutível. Em nosso trabalho na editoria, por vezes nos preocupamos com a falta de artigos ou testemunhos de fé. Contudo, no momento oportuno, o material necessário sempre chega, e frequentemente nos sentimos envergonhados por nossa apreensão inicial. A lição é que basta nos entregarmos ao serviço com pureza de coração.
+
+**Mihirogi:** O mesmo ocorre com os cultos e cerimônias. Preparamo-nos, calculamos o número de participantes, a alocação de pessoal, sempre com alguma apreensão. E, invariavelmente, nossas preocupações se mostram infundadas. O Sr. Taga, por exemplo, determina um número que lhe parece adequado, e o resultado é sempre exato: nem mais, nem menos pessoas. Tudo flui com perfeição. Assim, percebemos que não há um único mérito em nossos planejamentos. Em suma, compreendemos que o pensamento humano é verdadeiramente limitado.
+
+**Mondori:** Tendo em vista minha atribuição junto à equipe de dedicantes, lido constantemente com a dinâmica de pessoas e percebo com clareza que, no momento exato em que alguém é necessário, Deus o providencia. Nós, do escritório, também testemunhamos isso. À medida que o volume de trabalho aumenta, o número de servidores também nos é outorgado. Por exemplo, o Sr. Fujisaki, ex-chefe de gabinete da prefeitura de Atami, juntou-se a nós. A princípio, pensei que talvez não houvesse trabalho suficiente para ele. Porém, logo após sua chegada, surgiu uma incumbência complexa e delicada envolvendo negociações com a prefeitura a respeito de vias públicas. Sua presença foi providencial. Se tivéssemos de cuidar disso sozinhos, não teríamos a mesma confiança para lidar com um assunto tão intrincado.
+
+Isso me faz recordar os primórdios do escritório da Igreja Messiânica. Na época em que as Igrejas Maiores foram dissolvidas e a fé se unificou, todo o trabalho administrativo que elas realizavam passou a ser de nossa responsabilidade. Éramos apenas seis pessoas e, aflitos, nos perguntávamos como daríamos conta de tudo. No entanto, a transição ocorreu de forma surpreendentemente simples, e, por um bom tempo, aquele pequeno grupo foi mais que suficiente. Olhando em retrospecto, vejo que foi uma proteção extraordinária.
+
+Por isso, minha postura é a seguinte: se nos dedicarmos com afinco, empregando a totalidade de nossas forças, Deus se encarregará de conduzir tudo da melhor maneira. Ao darmos o nosso melhor, o que tiver de ser, será. E, se algo não se concretizar, não há motivo para aflição. Sinto uma serena aceitação e confiança no porvir. Portanto, a preocupação não é apenas desnecessária; ela simplesmente não tem lugar.
+
+**Taga:** Em meu trabalho com os Oratórios e Ohikari, pude sentir essa mesma verdade. A partir de junho do ano passado, determinou-se que os Ohikari seriam entregues em bolsas protetoras. O anúncio foi feito com apenas uma semana de antecedência. De repente, precisávamos adquirir tecidos como seda *habutae* e brocado *kinran*, além de encontrar um grande número de pessoas para confeccionar as bolsas. Fiquei sem saber por onde começar. A primeira urgência era o tecido. Embora a Atami Shoji tivesse um pequeno estoque, era insuficiente, e a Igreja não possuía nada. Procurei pela cidade de Atami, sem sucesso. Fui a Odawara; a primeira loja não tinha, mas a segunda, sim. Encontrei tudo em pouquíssimo tempo. Quanto às pessoas, recorremos aos membros da equipe de dedicantes, e, para nossa alegria, sete ou oito deles tinham experiência com costura. Conseguimos máquinas emprestadas e iniciamos a produção imediatamente. As embalagens de vinil também chegaram a tempo, e conseguimos acondicionar todos os Ohikari existentes para a outorga. Posteriormente, recebemos uma doação de brocado de um fiel que o possuía, e assim tudo continuou a fluir harmoniosamente.
+
+Com os Oratórios, nosso desejo sempre foi oferecer aos membros paramentos da melhor qualidade pelo menor custo possível. Novamente, por meio de um membro, conseguimos adquiri-los a um preço muito vantajoso. Em todos os aspectos, as coisas se encaminham perfeitamente. Servir na confecção dos Oratórios e Ohikari é uma grande responsabilidade, e sermos protegidos para realizar nossas tarefas diárias em segurança é motivo de imensa gratidão.
+
+**Moderador:** Muito obrigado. Agora, gostaria de passar a palavra ao Sr. Kii, da contabilidade.
+
+**Kii:** Para o nosso setor, a questão dos donativos é central. Contudo, até hoje, temos evitado fazer apelos diretos. Raramente solicitamos às igrejas que arrecadem um valor específico para cobrir determinada necessidade. Compreendemos que, no momento oportuno, Deus provê exatamente o montante necessário. Embora às vezes passemos por momentos de suspense, os recursos sempre se materializam de forma providencial, o que nos enche de gratidão.
+
+**Mondori:** É verdade. Nosso modo de proceder é muito diferente do convencional. À primeira vista, pode parecer uma gestão sem planejamento, mas, de forma surpreendente, tudo funciona com perfeição.
+
+**Kii:** Exatamente. É claro que elaboramos orçamentos, mas eles quase sempre são superados pela realidade. No entanto, o dinheiro necessário sempre está disponível, e conseguimos honrar nossos compromissos com os fornecedores das obras de construção sem maiores contratempos. Acredito que isso só é possível porque é Deus quem está no comando. Talvez seja esta a economia de Miroku.
+
+**Mondori:** O que o Sr. Kii disse me fez lembrar algo. Durante a mesa-redonda de fim de ano dos reverendos diretores, o diretor financeiro mencionou que "o donativo puro é usado para fins puros, e o impuro, para o caminho oposto". Creio que esse princípio se aplica também aos dedicantes. Assim como existe o donativo puro e o impuro, pode haver uma impureza quando solicitamos a dedicação de forma insistente. Por isso, adotamos a política de não fazer muitos pedidos para o envio de equipes de dedicação. Da mesma forma que os recursos financeiros, gostaríamos de ter muitas pessoas servindo, mas nossa prioridade é contar com pessoas de coração puro, se assim posso dizer.
+
+**Sakemi:** No setor de edição, noto que há períodos em que recebemos pouquíssimos artigos e testemunhos de fé. Chegamos a nos preocupar se teremos material suficiente para as quatro edições mensais da Eikō e a da Chijo Tengoku. Já fizemos solicitações, e, embora elas sejam atendidas, o fluxo logo retorna ao seu ritmo natural. Isso me fez pensar que forçar o envio de relatos de graças gera uma situação desconfortável para todos. O mesmo vale para os artigos. Recentemente, por necessidade, nós mesmos temos assumido a tarefa de escrever, e sentimos na pele a dificuldade que ela representa. Por isso, preferimos aguardar que o material chegue espontaneamente, sem fazer muitos apelos. Quando consideramos o esforço hercúleo de jornais e revistas seculares para preencher suas páginas, percebemos quão abençoados somos. Mesmo com a natureza distinta de um jornal religioso, o fato de o material necessário simplesmente se reunir na hora certa é motivo de imensa gratidão.
+
+**Mondori:** De fato, quando se trata de escrever um relato de graça, muitas vezes não sabemos o que dizer. Para mim, tudo se resume em uma única frase: "Estou vivo e sendo utilizado na Obra Divina a cada dia."
+
+**Narita:** Eu me identifico plenamente. Desde que comecei a servir na Sede, minha saúde melhorou de forma notável. E essa graça se estendeu aos meus filhos, que se tornaram muito mais fortes. Sou imensamente grato por isso. Durante o último Culto do Natalício de Meishu-Sama, auxiliei no setor de oferendas. Naquela ocasião, dormi apenas uns quinze minutos. Normalmente, eu estaria exausto no dia seguinte, mas não senti o menor cansaço. Só posso agradecer pela oportunidade de servir.
+
+**Mondori:** De fato, quando penso nos servidores da Sede, vejo que somos todos pessoas que não estariam vivas se não fosse pela graça de Meishu-Sama.
+
+**Fukuoka:** No início de minha dedicação, eu precisava tirar cochilos para conseguir continuar. Recentemente, porém, tenho gozado de excelente saúde, pelo que agradeço do fundo do coração.
+
+**Wada:** Eu também fui abençoado com saúde e sinto uma profunda gratidão. Antes de vir para a Sede, sofri por um longo período com uma diarreia crônica, acompanhada de febre baixa e dores. Desde que iniciei a dedicação, todos esses sintomas desapareceram completamente. E, ultimamente, dizem que até ganhei um pouco de peso. Tendo recebido essa graça, desejo servir o máximo que puder.
+
+**Nakajima:** Minha saúde também se fortaleceu, o que aprofunda ainda mais minha gratidão.
+
+**Moderador:** É uma graça maravilhosa que todos recebam saúde ao se dedicarem. Isso nos faz sentir que precisamos nos empenhar ainda mais, em retribuição.
+
+**Kii:** De fato, desde a fundação do escritório, nunca tivemos um caso de afastamento por longo período.
+
+**Taga:** É verdade. Quando alguém falta, é por um ou dois dias, no máximo alguns. Logo a pessoa reaparece, sorridente. Não temos as preocupações com doenças que são comuns no mundo profano. É uma grande bênção.
+
+**Mihirogi:** Frequentemente visito empresas do setor ferroviário e fico impressionado com o alto índice de absenteísmo. Falam de tuberculose, de cuidados preventivos... Eu sempre comento com eles: "No escritório da Igreja Messiânica, somos mais de trinta pessoas, e praticamente ninguém falta por doença. E, quando acontece, a pessoa retorna em dois ou três dias, ainda mais disposta que antes. Isso, por si só, não lhes diz algo?". Eles me olham com uma expressão de espanto e curiosidade.
+
+**Moderador:** Agora, gostaria de ouvir o Sr. Yamazaki.
+
+**Yamazaki:** Recentemente, algo me fez refletir. No último Culto do Natalício de Meishu-Sama, fui incumbido de levar a Gora o Oratório que seria entronizado no Salão Messiânico. O tempo estava instável e o caminhão não tinha capota. Eu me preocupava com a umidade que poderia surgir após passarmos pelo passo de Jikkoku. No entanto, a caminho do escritório naquela manhã, dei-me conta de que me preocupar era uma falta de fé e pedi perdão. Preparei um plano de contingência e parti. Ao chegar ao passo de Jikkoku, o tempo estava esplêndido. Senti-me envergonhado por ter me preocupado.
+
+**Moderador:** Fica claro, então, que a preocupação é algo que devemos abandonar em todas as circunstâncias. Agora, por favor, Sr. Miura, da Agricultura Natural.
+
+**Miura:** O setor de Agricultura Natural ainda está em sua fase inicial, com a associação de divulgação recém-criada. É um período de transição bastante atarefado, mas seguimos em frente. Sinto, contudo, minhas próprias limitações e anseio por me tornar alguém útil, que possa acompanhar o desenvolvimento da Obra. Sou grato pela profunda proteção que me permitiu chegar até aqui sem maiores percalços.
+
+**Moderador:** A associação certamente crescerá muito, e contamos com sua valiosa contribuição, Sr. Miura. Agora, o Sr. Uno.
+
+**Uno:** Falando em termos pessoais, eu nunca fui uma pessoa de muita resistência. Mas, desde que comecei a servir na Agricultura Natural, tenho me dedicado a um volume imenso de tarefas de forma quase impensada. Mesmo extrapolando meus limites, nunca cheguei a ficar de cama. Poder continuar servindo, de alguma forma, é uma grande proteção.
+
+**Moderador:** Alguém mais gostaria de se manifestar?
+
+**Mondori:** Tendo vivenciado por três anos a rotina de um assalariado, sinto uma diferença abismal em relação à vida de dedicação. Em termos extremos, o assalariado trabalha para viver; ou seja, o resultado de seu trabalho é um salário, com o qual ele sustenta sua vida. Daí, talvez, surja a competição acirrada. O prazer no trabalho em si é raro, e o entretenimento é buscado em outras fontes. Para nós, entretanto, a dedicação é a totalidade de nossa existência. É nela que encontramos a alegria. O trabalho em si é nossa vida, nosso prazer. E, por isso, de certa forma, é muito leve. Sei que pode soar estranho, mas às vezes sinto como se estivesse a brincar. Temos jovens no escritório, e acredito que eles podem ter a certeza de que vivemos em meio a uma alegria de nível muito mais elevado do que aquela que as pessoas do mundo profano buscam.
+
+**Fujii:** Eu mal saí da adolescência e estou apenas começando a caminhar com minhas próprias pernas, então só posso imaginar a sociedade secular através do que ouço. Mas, ao refletir, vejo que meus dias são plenos de alegria. Não consigo encontrar motivos para tristeza, e isso me dá uma sensação de grande leveza. Por outro lado, preocupo-me em não me acomodar nessa felicidade e me tornar negligente. Por isso, busco manter meu coração sempre vigilante.
+
+**Mihirogi:** A grande aspiração de um assalariado é ter seu trabalho reconhecido pelos superiores. Quando esse desejo se intensifica, a pessoa passa a dar mais importância às aparências. Os jovens do nosso escritório não são assim. Para eles, basta dar o melhor de si, pois sabem que Deus está a observar. Essa seriedade é algo que aprecio muito.
+
+**Yamazaki:** Eu também não conheço muito o mundo secular, mas, desde o início, sempre gostei da atmosfera dos lugares onde os membros da Igreja se reúnem. Mesmo na época da escola, eu amava o ambiente da Igreja e corria para lá assim que as aulas terminavam. E agora, servindo no escritório, sinto que essa atmosfera suave e livre é algo que não se encontra em nenhum outro lugar.
+
+**Mondori:** Não temos preceitos rígidos. Se quiséssemos, poderíamos agir com total liberdade. É, de fato, um ambiente livre.
+
+**Yamazaki:** Mas, por isso mesmo, é também um lugar de grande temor.
+
+**Mondori:** Exato. Deus está observando. A ausência de regras visíveis não significa que não haja consequências. Desviar-se do caminho correto pode custar a própria vida. A propósito da atmosfera, pessoas de fora que nos visitam sempre comentam, admiradas: "Todos trabalham com um semblante tão alegre e radiante."
+
+**Narita:** Minha esposa me diz que, desde que comecei a servir na Sede, minha fisionomia mudou, tornou-se mais serena. Sinto-me imensamente grato por isso.
+
+**Moderador:** Ouvimos muitas histórias interessantes dos homens. Agora, gostaria de ouvir as vozes suaves das senhoras. Por favor, Sra. Kajiura.
+
+**Kajiura:** Quando comecei a servir, fui designada para a contabilidade. Eu não tinha nenhuma experiência na área e não entendia absolutamente nada. Por muito tempo, angustiei-me, pensando se alguém tão incapaz como eu poderia ser realmente útil. Contudo, a Sra. Hayakawa e o Sr. Kii me ensinaram tudo com muita paciência. À medida que me familiarizava com o trabalho, recuperei a calma e compreendi que só pude vir servir porque recebi a permissão Divina. A angústia inicial se dissipou e deu lugar a uma imensa alegria.
+
+**Mondori:** Se a senhora não tivesse compreendido que Deus nos coloca no lugar mais adequado, talvez não estivesse servindo conosco até hoje.
+
+**Kajiura:** Sim, acredito sinceramente nisso. Outro ponto é a pureza de coração. No trabalho, quando cometo um erro ou esqueço algo — e na contabilidade um erro de um iene já causa um desequilíbrio —, embora em meu coração eu saiba que errei, às vezes acabo me defendendo. Com isso, crio um ambiente estranho e me sinto mal. Percebo que saio perdendo com essa atitude e sei que preciso corrigir esse aspecto de minha personalidade.
+
+**Moderador:** Agora, a Sra. Ambo, por favor.
+
+**Ambo:** Minha função é mais receptiva, e por isso sinto com especial intensidade a importância da pureza de coração que a Sra. Kajiura mencionou. Em situações triviais, mesmo sabendo que não deveria, às vezes insisto em minha própria vontade e acabo em um beco sem saída. Percebi que isso acontece invariavelmente quando me esqueço de pedir a Meishu-Sama. Compreendi profundamente a bênção que é poder mentalizar "Meishu-Sama" em qualquer circunstância.
+
+**Mondori:** O trabalho da Sra. Ambo é muito importante. É como ser a guardiã da nossa porta de entrada.
+
+**Moderador:** A Sra. Ambo retornará para casa no dia 7 de fevereiro. Tenho certeza de que os aprendizados adquiridos durante sua dedicação serão de grande valia. A seguir, gostaria de ouvir a Sra. Nakagawa, que assumirá sua função.
+
+**Nakagawa:** Eu cheguei há poucos dias e ainda não sei de nada, mas prometo me dedicar de corpo e alma. Ouvir as diversas experiências dos senhores hoje foi muito edificante e me sinto imensamente grata.
+
+**Moderador:** Sra. Nakai, por favor.
+
+**Nakai:** Logo que comecei a servir, fui repreendida de forma muito severa pelo Sr. Mondori. Na época, pensei: "Uma pessoa como eu não é adequada para servir na Sede. Talvez seja melhor eu ir embora." Fiquei muito angustiada por um tempo. Conversei com o Sr. Sakemi, que me aconselhou: "É Deus quem está conduzindo tudo. Pensar dessa forma é um erro, uma falta de gratidão. Basta se dedicar com afinco, não acha?". Suas palavras me fizeram ver que ele tinha toda a razão. Hoje, quando me lembro daquele período, estremeço ao pensar no perigo que corri. Sinto uma imensa gratidão por ter sido despertada.
+
+**Mondori:** Quando ouvi essa história, perguntei a ela: "Mas o que foi que eu disse para repreendê-la tão severamente?". Para ser sincero, eu nem me lembrava. É embaraçoso ser a causa de tudo isso...
+
+**Moderador:** Sra. Mori, por favor.
+
+**Mori:** Compartilho do mesmo sentimento expresso pela Sra. Kajiura.
+
+**Moderador:** Oh, não, a senhora precisa nos contar algo diferente... Assim não vale!
+
+**Kii:** O relato da Sra. Kajiura me fez lembrar que, na época, a contabilidade era composta apenas pela Sra. Hayakawa e por mim. Estávamos em período de fechamento de balanço, com muito trabalho acumulado. A chegada dela foi uma grande ajuda. Isso me faz pensar, mais uma vez, que Deus nos envia as pessoas no momento exato da necessidade e, ao mesmo tempo, sinto uma grande gratidão pela Sra. Kajiura.
+
+**Moderador:** A seguir, o Sr. Furuya.
+
+**Furuya:** De vez em quando, faço uma autoanálise. Antes de ingressar na fé, eu vivia mergulhado em preocupações e angústias. Após receber a permissão de ingressar e, posteriormente, de servir, alcancei uma felicidade imensa, e a ansiedade deu lugar à paz. Contudo, reflito que não devo me acostumar a essa condição tão plena e me tornar complacente. Não consigo expressar muito bem, mas temo que a chama inicial, o desejo fundamental de aprofundar minha fé e evoluir, possa arrefecer. Por isso, considero crucial jamais esquecer a emoção do início da minha jornada de fé e procuro manter essa chama sempre acesa em meu coração.
+
+**Moderador:** Sr. Ishihara, o senhor já está conosco há algum tempo e deve estar bem adaptado. Gostaríamos de ouvi-lo.
+
+**Ishihara:** Quando comecei a servir na editoria, senti um complexo de inferioridade. Havia tantas pessoas qualificadas, e quando eu fazia uma revisão, meu trabalho sempre era corrigido por alguém mais experiente. Perguntava-me o que alguém como eu poderia fazer de útil. Tendo sido criado com muita liberdade, confesso que me sentia irritado e contrariado por ser corrigido. Com essa postura mental, não demorou para que eu cometesse um erro colossal. Eu havia transcrito um poema de autoria da esposa de Meishu-Sama, intitulado "Palácio de Cristal", para ser publicado na Eikō. Negligenciei a conferência final para verificar se havia erros ou omissões. Como resultado, a revista foi impressa com um ideograma errado. Quando o erro foi descoberto, o impacto abalou-me até o âmago do meu ser. Compreendi, de forma avassaladora, o quanto minha postura mental estava equivocada e pedi perdão do fundo do meu coração. Evidentemente, hoje não tenho mais tais pensamentos.
+
+**Moderador:** Quem ainda não falou...? Sr. Yamamoto, por favor.
+
+**Yamamoto:** Há quatro ou cinco dias, tive um despertar profundo. Tive a honra de servir diretamente a Meishu-Sama desde 1948 até maio do ano passado. Depois disso, fui transferido para a editoria e passei a ir e vir da Residência de Odawara. Após o privilégio inefável daquela dedicação, minha situação atual me pareceu livre demais, e acabei por me entregar a pensamentos indignos. Minha esposa me acordava, eu ia para o escritório, cumpria meu dia de serviço e voltava para casa. À noite, sem ter muito o que fazer, ia dormir. Certo dia, houve uma queda de energia, algo raro em Odawara, e ficamos na mais completa escuridão. A comida parecia sem sabor, e senti-me irritado e frustrado. Foi quando me perguntei: "Isso está certo?". Minha esposa comentou: "Quando falta luz, a gente percebe o valor da eletricidade, não é? Sem ela, não dá nem para ouvir rádio". Suas palavras foram como um estalo. Eu havia me acostumado tanto às graças recebidas que caíra em um estado de letargia, uma vida sem propósito, semelhante à de um assalariado que vive apenas para se sustentar. Senti uma profunda vergonha. Foi graças ao ingresso na fé que recebi tudo o que tenho, e eu havia me esquecido de agradecer. Dei-me conta de que, se não dedicasse parte do meu dia a algo significativo, se não me esforçasse para evoluir, estaria sendo imperdoavelmente ingrato. Foi então que percebi: desde que saíra da convivência direta com Meishu-Sama, eu não lia os Escritos Divinos, exceto durante a oração da noite. Eu sabia da importância de receber os Ensinamentos, mas, como havia tido o privilégio de transcrever os ditos de Meishu-Sama e, agora na editoria, lia os textos durante a revisão, acomodei-me. Decidi que precisava mudar. A Obra Divina avançará cada vez mais, e, se eu não me aprimorar, ficarei para trás. Com esse novo propósito, durante a oração da noite, pedi perdão sinceramente. Naquele exato momento, o trecho dos Escritos Divinos sorteado para leitura foi "Leiam os Escritos Divinos assiduamente". Senti como se estivesse recebendo uma admoestação direta de Meishu-Sama, e meu corpo se encolheu de reverência. Sou imensamente grato por ter sido despertado quando estava à beira de um precipício.
+
+**Moderador:** As palavras do Sr. Yamamoto servem de alerta para todos nós da editoria. Faremos o possível para não cometer o mesmo erro. Agradeço a todos pelas valiosas histórias. Passamos momentos muito agradáveis. Que possamos, juntos, acompanhar o avanço da Obra Divina com nosso constante aprimoramento espiritual. Muito obrigado a todos.
+
+**Todos:** Muito obrigado.
+
+---
+
+# O Milagre da Arte: Recordações sobre o Acervo de Meishu-Sama
+
+**Categoria:** kikou2 | **Ano:** 昭和29(1954)年7月14日 | **Fonte:** Eikou
+**Título Original:** 美術品御蒐集の思い出 井上超生 | **Status:** Published | **Edição/Página:** 265号 | **Data ISO:** 1954-07-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## O Milagre da Arte: Recordações sobre o Acervo de Meishu-Sama
+
+Ao contemplar a recente exposição de ukiyo-e do Museu de Arte de Hakone, realizada na loja de departamentos Mitsukoshi, fui tomado por um assombro que quase me paralisou. É provável que os especialistas, além de surpresos, tenham ficado perplexos, enquanto o público que pela primeira vez se deparava com obras de tal calibre certamente redescobriu, estupefato, a excelência da arte japonesa.
+
+Recordo-me da grande repercussão causada quando o rolo de pintura *Yamanaka Tokiwa* foi exibido pela primeira vez na mesma loja. Contudo, na mostra atual, não apenas esta célebre obra estava presente, mas também uma profusão de peças de valor ainda superior e obras-primas jamais antes reveladas ao grande público, todas generosamente expostas. Era uma realidade que parecia um sonho. Ademais, o fato de todo esse acervo pertencer a um único museu e poder ser apreciado gratuitamente são aspectos que nos deixam atônitos. Com efeito, pode-se dizer que esta é uma das muitas “caixas de surpresa” que somente o Poder Divino de Meishu-Sama poderia nos apresentar.
+
+Torna-se ainda mais difícil de acreditar quando se compreende que tal acervo foi reunido em um curto período, de seis meses a um ano, e não por meio de uma fortuna astronômica ou de um esforço hercúleo de busca. O fato de que obras de arte de todos os gêneros, e não apenas de ukiyo-e, foram reunidas dessa maneira só pode ser descrito como uma manifestação do Poder Divino em uma escala jamais vista, uma obra realizada conforme Sua Vontade.
+
+Gostaria, neste momento, de registrar algumas memórias do período em que Meishu-Sama iniciou a formação de Seu acervo de obras de arte. Creio que o princípio de tudo se deu por volta da primavera de 1944. Como de costume, Ele havia saído com Sua esposa para assistir a um filme e, ao retornar após o jantar no restaurante Prunier, do Hotel Imperial, Seus olhos pousaram sobre um conjunto de caixas para escrita em laca *maki-e* — uma para papéis e outra para pincéis e tinteiro —, que pertencera ao clã Maeda e estava exposto na vitrine de uma loja de antiguidades próxima. Eram peças de uma beleza notável, cujo preço, se não me engano, era de cerca de sete mil ienes, um valor considerado baixo para a época. No dia seguinte, o proprietário da loja, o senhor Honda, levou as peças pessoalmente à residência de Hozan-so e, com visível admiração, relatou: “Qualquer cliente, invariavelmente, pede explicações detalhadas, examina a peça com minúcia e, por fim, tenta negociar o preço. Meishu-Sama, no entanto, assim que as viu, adquiriu-as pelo valor pedido, sem hesitar. Fiquei verdadeiramente impressionado com a agudeza de Seu olhar e Sua forma tão decidida de comprar”.
+
+Posteriormente, o senhor Honda tornou-se membro da Igreja e, sempre que obtinha novas peças de *maki-e*, trazia-as para a apreciação de Meishu-Sama, que ocasionalmente adquiria aquelas que Lhe agradavam. O processo de escolha de Meishu-Sama era notavelmente rápido. Enquanto pessoas comuns levariam muito tempo examinando e hesitando, Ele tomava Sua decisão instantaneamente, como se apontasse para algo já predestinado. Certa vez, ao escolher um biombo de grande valor dentre um conjunto de seis para o futuro museu, levou apenas cinco minutos — uma proeza que transcende a capacidade humana.
+
+Após Sua mudança para Hakone e Atami, o contato com o senhor Honda foi se perdendo. Contudo, sem que fosse preciso procurá-los, novos antiquários começaram a frequentar Sua residência, e seu número aumentou gradualmente, permitindo a aquisição paulatina de mais obras. (A propósito, o senhor Honda reapareceu sete anos mais tarde, tendo um papel fundamental no início da coleção de ukiyo-e e na apresentação de um colecionador norte-americano). Em outubro de 1946, mesmo acamado por uma purificação através da sarna, o fluxo de antiquários, longe de diminuir, intensificou-se. Eu ficava encarregado de receber as obras e apresentá-las a Ele nos momentos em que Se sentia melhor, e era uma alegria para nós percebermos que a apreciação da arte se tornara um de Seus deleites durante aquele período. Foi também nessa fase de purificação que a Igreja se expandiu rapidamente por todo o Japão, e as doações financeiras afluíram, permitindo que Meishu-Sama adquirisse peças de grande valor sem maiores preocupações. Assim, entre 1949 e 1950, um número considerável de obras de excelência já havia sido reunido, somando-se às aquisições as peças doadas pelos membros.
+
+Normalmente, quem adquire obras de arte ouve longas explicações do antiquário antes de tomar uma decisão. Meishu-Sama, entretanto, raramente se encontrava com os negociantes. O costume era que um de Seus assistentes recebesse a peça e a levasse à Sua presença. Para a maioria das obras, de qualquer gênero, a decisão era imediata. Apenas aquelas que exigiam um exame mais aprofundado permaneciam com Ele por dois ou três dias. Sua perspicácia era tamanha que falsificações extremamente bem-executadas, que haviam enganado especialistas e recebido certificados de autenticidade de renomados avaliadores, eram por Ele instantaneamente desmascaradas. Os próprios antiquários ficavam atônitos e, somente após a explicação de Meishu-Sama, compreendiam o engano, rendendo-se à Sua capacidade de discernimento. Por essa razão, é um fato sem precedentes que, desde o início da coleção, nenhuma peça falsa tenha sido adquirida.
+
+Ademais, por melhor que fosse uma obra, Meishu-Sama jamais adquiria peças que estivessem excessivamente danificadas. A prova disso pode ser vista nas obras expostas no Museu de Arte de Hakone: nenhuma delas apresenta avarias que comprometam seu valor, e todas conservam uma beleza e um frescor surpreendentes. Este cuidado com a preservação é, sem dúvida, um dos fatores que elevam o prestígio da instituição.
+
+Conforme o próprio Meishu-Sama comentava, o processo de aquisição não parecia ser fruto da ação humana, pois os tipos de obras que chegavam até Ele se organizavam em ciclos definidos, de aproximadamente seis meses a um ano. Durante os primeiros quatro ou cinco anos, a coleção se concentrou exclusivamente na arte japonesa, começando pela laca *maki-e* e seguindo com pinturas e cerâmicas. Obras de categorias que hoje são consideradas raras e de difícil obtenção simplesmente afluíam a Ele de forma natural.
+
+Nesse período inicial, Ele quase não possuía livros de referência sobre arte. Assim, quando um novo gênero começava a surgir, Ele consultava especialistas ou examinava catálogos que Lhe traziam para obter conhecimento sobre o assunto. No entanto, Seu aprendizado era tão veloz que, em pouco tempo, ultrapassava em muito o conhecimento de quem O havia instruído. Ocorria uma completa inversão de papéis: o mestre tornava-se o aprendiz, e por mais que se esforçasse para acompanhá-Lo, a distância entre eles apenas aumentava, até que o especialista acabava por se render. Essa capacidade intelectual e esse discernimento sobre-humanos sempre foram motivo de admiração e espanto entre os conhecedores.
+
+Lembro-me também de que, nos primeiros tempos, um dos antiquários costumava dizer, intrigado: “É muito curioso. Meishu-Sama raramente adquire a peça que trago com maior convicção. Ele invariavelmente escolhe uma das mais baratas, na qual minha margem de lucro é menor. Contudo, ao refletir depois, percebo que, de fato, a obra que Ele comprou é excelente”. Embora eu não esteja a par dos detalhes mais recentes, ainda hoje, quando ocasionalmente pergunto o preço de uma aquisição, fico surpreso com o quão baixo ele é. Assim, até mesmo nos valores das obras, ocorrem verdadeiros milagres.
+
+No início da formação do acervo, período que começou durante a guerra e se estendeu pela confusão do pós-guerra, muitas peças foram adquiridas a preços muito baixos, em um gesto de solidariedade para com a aristocracia em declínio. Posteriormente, quando os norte-americanos descobriram a excelência da arte japonesa e começaram a comprá-la avidamente, fazendo com que obras autênticas deixassem o país e os preços disparassem, Meishu-Sama já havia reunido em Suas mãos inúmeras obras-primas por uma fração de seu valor de mercado. Entre elas, destacava-se um grande número de cerâmicas de Ninsei, peças de *maki-e* e pinturas da escola Rinpa, o que demonstra a magnificência de Sua visão. Naquela época, nem sonhávamos com Seus planos para um museu e nos perguntávamos por que Ele se dedicava a colecionar tantas obras, mesmo com recursos aparentemente limitados. Olhando em retrospecto, compreendemos que, desde o momento em que o Japão se dedicava unicamente à guerra, Ele já antevia a derrota e o consequente colapso das classes privilegiadas, e foi com base nessa visão do futuro que Ele deu início a essa empreitada.
+
+Dessa forma, as ações de Meishu-Sama estão sempre extraordinariamente à frente de Seu tempo. É somente anos mais tarde, quando Seus preparativos já estão consideravelmente avançados, que vemos o mundo começar a seguir os caminhos que Ele traçou.
+
+Atualmente, as obras de primeira linha são extremamente raras, seus preços multiplicaram-se dezenas de vezes em relação à época inicial, e tornou-se praticamente impossível adquirir uma única peça. Apesar disso, as obras que Meishu-Sama almeja continuam, de alguma forma, a chegar até Ele. Diante de tal milagre extraordinário, só nos resta, como sempre, o mais profundo e silencioso assombro.
+
+Inoue Chosei
+Publicado na revista Eikō, nº 265, em 14 de julho de 1954.
+
+---
+
+# A Essência do Mestre Religioso
+
+**Categoria:** kikou2 | **Ano:** 昭和29(1954)年7月28日 | **Fonte:** Eikou
+**Título Original:** 先生論 大草直好 | **Status:** Published | **Edição/Página:** 267号 | **Data ISO:** 1954-07-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A Essência do Mestre Religioso
+
+Nós, ministros, somos frequentemente chamados de "mestre" tanto por pessoas de fora quanto pelos próprios fiéis. De fato, o termo "mestre" é empregado para designar profissionais de uma vasta gama de áreas, mas, em geral, parece referir-se àqueles que exercem um papel de liderança.
+
+Contudo, existe uma diferença abissal entre o "mestre" no âmbito acadêmico, como um professor universitário, e o "mestre" que ocupa uma posição religiosa como a nossa. Em uma universidade, por exemplo, não é raro que um departamento de humanidades possua mais de uma dezena de professores para uma disciplina específica, com apenas um punhado de alunos. Mesmo assim, o valor desses mestres não sofre o menor abalo pela escassez de discípulos. Seu prestígio fundamenta-se em sua erudição, que lhes garante amplo respeito na sociedade.
+
+A realidade de um mestre religioso, entretanto, é diametralmente oposta. De que adiantaria toda a sua cultura e conhecimento se os fiéis não se reunissem ao seu redor? Pode-se afirmar que seu mérito seria nulo. Um professor universitário não se perturba se nenhum aluno comparece durante as férias, mas para um líder religioso, a ausência de fiéis em uma única cerimônia pode significar o fim de sua missão.
+
+Ademais, enquanto um estudante está, de certa forma, vinculado a seu professor pela estrutura da instituição de ensino, o mestre religioso não dispõe de nenhum meio para coagir seus seguidores. Por essa razão, mesmo um orientador que inicialmente tenha atraído uma multidão pode, com o tempo, ver seus fiéis se afastarem.
+
+Fica evidente, portanto, que a natureza do vínculo entre professor e aluno é essencialmente distinta daquela que une o líder religioso e seus fiéis. Consequentemente, os critérios de avaliação para cada um também divergem profundamente. O professor está ligado a seus alunos pelos laços formais da matrícula ou da participação em um laboratório de pesquisa, dos quais o estudante não se desvencilha, a menos que abandone seu objetivo acadêmico. A avaliação desse mestre repousa quase que inteiramente em sua bagagem de conhecimento e experiência.
+
+No campo religioso, todavia, as circunstâncias são outras. O fiel não precisa tomar uma decisão drástica para se afastar de sua igreja. A avaliação de seu orientador, embora não ignore o saber e a experiência, depende de algo muito mais intrínseco à condição humana: a presença ou ausência da virtude, o "toku".
+
+É nesse ponto que se define o papel distinto que a academia e a religião desempenham na vida humana. A religião estabelece uma conexão mais direta e profunda entre os sentimentos e a razão das pessoas, permeando todas as facetas da existência. Os indivíduos buscam um mestre religioso movidos pelo anseio de ver suas tribulações e angústias sanadas e de alcançar a salvação. É natural, portanto, que se estabeleça entre eles uma comunhão que transcende as relações humanas corriqueiras, uma verdadeira sintonia entre as almas.
+
+Sendo assim, por mais sublime que seja uma religião ou por mais elevados que sejam os Ensinamentos transmitidos por um mestre, tais fatores, por si sós, não constituem a medida de seu valor. O que realmente importa é a virtude pessoal do mestre, sua humanidade, sua benevolência. Se ele não se tornar um orientador indispensável, atento aos mínimos detalhes da vida de fé de seus seguidores, não poderá ser considerado um verdadeiro condutor de almas.
+
+Acredito que é precisamente por isso que Meishu-Sama nos exorta constantemente a cultivar a virtude da humildade e a nos colocar em uma postura de serviço. Nós, que seguimos o caminho de Meishu-Sama, fomos agraciados com um Poder Divino incomparável e com Ensinamentos de uma nobreza e elevação sem paralelos. A simples transmissão desses dons deveria, por si só, nos qualificar como os mais elevados mestres religiosos. Se, apesar disso, não alcançamos os resultados esperados em nossa missão, não seria por nos faltar a humildade que se espera de um mestre? Não seria porque, em nosso íntimo, cedemos à arrogância, ao desejo de parecer importantes ou de posar de eruditos da religião? Não estaremos, porventura, aprisionados em uma visão egocêntrica, na qual apenas nós mesmos ou nossa igreja somos especiais, carecendo do espírito de servir ao próximo?
+
+Há um antigo provérbio que diz: "O falcão habilidoso esconde suas garras". Da mesma forma, com o espírito de servir a Deus e aos fiéis, almejemos nos tornar mestres de caráter íntegro, amáveis e admirados por todos. Aspiremos ser pessoas que irradiam harmonia e bem-estar. Creio que alcançar essa condição representa o verdadeiro valor e o propósito último da nossa fé.
+
+---
+
+# Visões Espirituais em uma Noite Memorável
+
+**Categoria:** kikou2 | **Ano:** 昭和29(1954)年1月20日 | **Fonte:** Eikou
+**Título Original:** 霊視日記（14） 五三中教会 茨木よし子 | **Status:** Published | **Edição/Página:** 244号 | **Data ISO:** 1954-01-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Visões Espirituais em uma Noite Memorável
+
+Em 8 de dezembro, estava programada para a uma da tarde uma grande conferência sobre a Agricultura da Natureza, a ser realizada no segundo andar da prefeitura, com a participação dos reverendos Watanabe, Nakamura e Umemura, vindos da Sede Central. Nessa época, a escola onde leciono estava em meio a ensaios intensos para um festival artístico, e eu já quase me resignara à impossibilidade de comparecer. Contudo, pouco depois das três horas, consegui obter permissão e corri para o local. Ao chegar, as palestras dos reverendos Nakamura e Umemura já haviam terminado, e o reverendo Watanabe estava em meio à sua explanação.
+
+Diante do fervor com que o reverendo falava, a plateia ouvia com a mais profunda atenção. Pude contemplar, ao seu lado, a nobre figura de Meishu-Sama, que acompanhava atentamente cada palavra. Atrás do reverendo, visualizava-se a imagem de Kannon (観音). Diante de tal cenário do Mundo Espiritual, refleti sobre quão sublime é o Mundo do Pensamento. Naquele instante, senti que compreendia a razão espiritual pela qual, como emissários de Meishu-Sama, eles haviam sido agraciados com a missão de vir a este local.
+
+Entre os ouvintes, distinguia-se a presença de espíritos de raposas e tanukis, que, com semblantes de espanto, como se tivessem saltado de uma caixa de surpresas, erguiam as patas dianteiras e esticavam o pescoço para escutar. Havia também espíritos de anciãos e anciãs que ouviam com a respiração suspensa. Percebi, ainda, que quando alguém tentava se retirar, um espírito de um homem robusto surgia ao seu lado e o puxava pela manga, como que para impedi-lo de partir.
+
+À noite, tivemos a honra de participar de um jantar seguido de uma confraternização com os reverendos em uma pousada na famosa estância de águas termais de Kinosaki. Ao chegar ao local, encontrei apenas algumas pessoas. Enquanto aguardávamos a chegada de todos, alguns foram para as fontes termais, outros tomavam chá. Dois homens, que pareciam ter grande afinidade, sentaram-se um de frente para o outro e começaram uma partida de go. Imediatamente, por trás de cada um, surgiram um tengu com feições humanas e um tengu com bico de corvo, que observavam o jogo com grande interesse. Reencontrei o senhor H., que, como sempre, conversava de maneira afável; em suas costas, uma grande e antiga raposa sorria de forma zombeteira. Conforme os demais convidados chegavam e se cumprimentavam, eu via atrás deles figuras semelhantes a Mickey Mouse e a um filhote de urso. Havia quem carregasse um galo, uma grande vaca, um potro ou inúmeros filhotes de tanuki. Outro trazia consigo um grande gato tigrado. A variedade era tamanha que me sentia como se estivesse a observar um zoológico.
+
+Quando o número previsto de membros se reuniu, fomos conduzidos ao salão de jantar e tomamos nossos lugares. Sentado do lado oposto ao nosso, um senhor tinha atrás de si a figura de um monge corpulento, trajando um kesa de brocado dourado, que se postava com grande veneração. Algumas criadas aproximaram-se para nos servir saquê, e, por trás delas, surgiram gatos de pelagem branca e castanha, que realizavam o mesmo gesto em postura reverente. Ao lado do reverendo Watanabe, que parecia muito feliz, materializou-se uma folha de papel onde alguém escrevia com um pincel: “Grande Sucesso” e “Inúmeros méritos, méritos e mais méritos”. Próximo ao reverendo Umemura, apareceu uma senhora idosa, de baixa estatura, que escrevia: “A alegria após cumprir a Grande Missão. Eu também me sinto feliz”.
+
+Quando o reverendo Umemura, de excelente humor, entoou uma paródia da canção “Karesusuki”, visualizei um espírito-guia abrindo uma boca enorme e cantando com entusiasmo. Atrás dele, a mesma senhora idosa de cabelos brancos que eu vira anteriormente enxugava as lágrimas com um lenço, em meio a uma profunda comoção.
+
+Após algum tempo, os reverendos se retiraram. Os membros, que até então estavam contidos, começaram a bater palmas e a cantar. Nesse momento, vi espíritos de raposas e tanukis surgindo lentamente por trás deles e pondo-se a festejar com grande alvoroço. Para mim, foi uma noite extremamente prazerosa, embora agitada, pois precisava me dividir entre tomar notas e desfrutar da refeição.
+
+Em seguida, na sala de confraternização, quando um dos reverendos iniciou seu discurso, vi atrás dele um espírito que segurava um pergaminho enrolado com a boca. De repente, passando por sobre o ombro esquerdo do reverendo, o espírito lançou o pergaminho e o desenrolou subitamente. Nele, estava escrito um texto que se assemelhava a uma carta. Enquanto o reverendo falava, o espírito reposicionava o pergaminho, como se quisesse mostrá-lo. No início do texto, lia-se: “Somos verdadeiramente gratos pela proteção diária de Meishu-Sama”. Ao final, estava escrito: “Muito obrigado, Meishu-Sama”. Durante todo o discurso, esse espírito continuou a desenrolar e a exibir o pergaminho, sucessivamente.
+
+Logo que outro reverendo começou sua palestra, que despertou grande interesse, ocorreu algo ainda mais surpreendente. A mesma senhora idosa de antes, sufocada por lágrimas de comoção, apresentou uma carta recém-escrita diante do palestrante e, postando-se atrás dele, desenrolou-a como se fosse um pergaminho para que todos vissem.
+
+Subitamente, surgiram muitos espíritos de camponeses, com lenços amarrados à testa e carregando ferramentas parecidas com pás. Eles se reuniram ao redor do reverendo e começaram a lavrar a terra. Entre eles, havia diversas expressões: alguns pareciam sofrer, outros demonstravam alegria; uns trabalhavam com relutância, enquanto outros sorriam. Em um piscar de olhos, lavraram um vasto campo a uma profundidade de cerca de sessenta centímetros. A cor da terra recém-revolvida era belíssima. Sobre esse solo, vindo de algum lugar, apareceu Daikoku que, sorrindo, começou a pisar na terra e a brandir seu martelo, do qual jorravam moedas de ouro em profusão. Em pouco tempo, o reverendo que falava estava completamente coberto por elas. Impressionada com a cena, olhei mais atentamente e vi que, atrás dele, estava o próprio Daikoku, com seu chapéu vermelho, sorrindo.
+
+Em outro ponto do cenário espiritual, vi uma grande inundação que arrastava plantações e hortaliças. Pouco depois, o Daikoku atrás do reverendo foi substituído por uma deusa, e foi essa deusa que permaneceu visível a partir de então.
+
+Durante o período de perguntas e respostas, pude ver, atrás de um fiel que fazia uma pergunta, a imagem fugaz de um gato de pelo marrom-escuro e bigodes brancos. Atrás do reverendo que respondia, a deusa irradiava uma luz branca e ofuscante. Vi também uma pessoa com um coelho preto e outra com uma raposa que parecia questionar com extrema seriedade.
+
+A confraternização desta noite foi de um valor inestimável, e, absorta, nem percebi o tempo passar. Infelizmente, a hora do trem se aproximou e precisei me retirar no meio da palestra.
+
+Agradeço profundamente a Meishu-Sama por Sua proteção diária.
+
+Com o mais profundo respeito, apresento este relato fiel das minhas visões espirituais durante o encontro. Muito obrigada.
+
+---
+
 # A Súbita Prova da Fé
 
 **Categoria:** jorei | **Ano:** 昭和25(1950)年10月25日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 （四） 槐安生 | **Status:** Published | **Edição/Página:** 75号 | **Data ISO:** 1950-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Súbita Prova da Fé
 
@@ -45,6 +776,7 @@ Como interpretar tamanha contradição? Isso nada mais é do que a manifestaçã
 
 **Categoria:** kikou2 | **Ano:** 昭和26(1951)年6月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 徳川夢声氏講演要旨 五月二十二日 日比谷公会堂に於て | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1951-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Despertar para a Existência do Espírito
 
@@ -104,6 +836,7 @@ Bem, o tempo que me foi concedido chegou ao fim. Como prezo pela pontualidade, d
 
 **Categoria:** kikou2 | **Ano:** 昭和29(1954)年8月11日 | **Fonte:** Eikou
 **Título Original:** 随想 名刺 | **Status:** Published | **Edição/Página:** 269号 | **Data ISO:** 1954-08-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Profissão de Fé no Verso de um Cartão
 
@@ -141,6 +874,7 @@ Enquanto inscrevo, com esmero, estas palavras em cada um de meus cartões, refli
 
 **Categoria:** kikou2 | **Ano:** 昭和28(1953)年10月28日 | **Fonte:** Eikou
 **Título Original:** ハワイ通信（10） 樋口喜代子 本部も決定し外人間にも発展の兆し見ゆ | **Status:** Published | **Edição/Página:** 232号 | **Data ISO:** 1953-10-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Relatório das Atividades Missionárias no Havaí
 
@@ -179,6 +913,7 @@ Encerro por aqui meu relatório.
 
 **Categoria:** jorei | **Ano:** 昭和29(1954)年1月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 野辺送り ＜隠坊・メシヤ教を語る＞ 槐安生 | **Status:** Published | **Edição/Página:** 56号 | **Data ISO:** 1954-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Fé Vista Através das Chamas
 
@@ -206,6 +941,7 @@ Perdoe-me por ter falado demais. Muito obrigado por sua atenção. Passe bem.
 
 **Categoria:** kikou2 | **Ano:** 昭和28(1953)年8月12日 | **Fonte:** Eikou
 **Título Original:** ハワイ通信（六） 安食晴彦 | **Status:** Published | **Edição/Página:** 221号 | **Data ISO:** 1953-08-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Relatório da Missão no Havaí: Entre Provações e Milagres
 
@@ -253,6 +989,7 @@ Apesar de todas as críticas, a Sekaikyuseikyou parece prosperar. Em seu local d
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年6月27日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 110 槐安生 | **Status:** Published | **Edição/Página:** 110号 | **Data ISO:** 1951-06-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões sobre os Desígnios da Salvação
 
@@ -278,6 +1015,7 @@ Eles haviam conhecido e se alegrado com a plena eficácia do Johrei. Se, naquela
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年11月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 42号 | **Data ISO:** 1952-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Paradoxo do Diagnóstico e a Cura Verdadeira
 
@@ -307,6 +1045,7 @@ Assim como a peritonite pode ter sua origem em fitoterápicos, ouvi dizer que es
 
 **Categoria:** jorei | **Ano:** 昭和29(1954)年10月15日 | **Fonte:** Chijo Tengoku
 **Título Original:** 野辺送り （二）（お寺さんとメシヤ教） 槐安 | **Status:** Published | **Edição/Página:** 63号 | **Data ISO:** 1954-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Reflexões de um Sacerdote Budista
 
@@ -338,6 +1077,7 @@ Eu andava bastante preocupado desde que soube de sua conversão, mas, observando
 
 **Categoria:** jorei | **Ano:** 昭和25(1950)年12月6日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記081 槐安生 | **Status:** Published | **Edição/Página:** 81号 | **Data ISO:** 1950-12-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Crônicas da Fé e da Purificação
 
@@ -387,6 +1127,7 @@ Não se irritar e permitir que o outro fale sem reagir é, de fato, um notável 
 
 **Categoria:** jorei | **Ano:** 昭和29(1954)年6月15日 | **Fonte:** Chijo Tengoku
 **Título Original:** 神は罰し神は恵み給う （一） 槐安生 | **Status:** Published | **Edição/Página:** 59号 | **Data ISO:** 1954-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Deus Castiga e Deus Abençoa (Parte I)
 
@@ -430,6 +1171,7 @@ O leitor pode se perguntar por que eu escreveria sobre algo tão evidente para q
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年10月24日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 127号 | **Data ISO:** 1951-10-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Redenção de um Homem Devasso
 
@@ -459,6 +1201,7 @@ Tempos depois, a senhora Kojima me trouxe notícias. Segundo seu relato, após r
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年7月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 偶然というのは余りにも 槐安生 | **Status:** Published | **Edição/Página:** 38号 | **Data ISO:** 1952-07-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O que Chamamos de Coincidência
 
@@ -511,6 +1254,7 @@ Coincidência, coincidência... Depois que Tanabe partiu, exultante e revigorado
 
 **Categoria:** jorei | **Ano:** 昭和28(1953)年7月1日 | **Fonte:** Eikou
 **Título Original:** 壱岐さんの入信 明主様の言霊 槐安生 | **Status:** Published | **Edição/Página:** 215号 | **Data ISO:** 1953-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Eco do Verbo Divino: A Conversão no Coração da Medicina
 
@@ -544,6 +1288,7 @@ Este caso, assim como o das enfermeiras Iki e Takeshima, é um exemplo notável 
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年3月5日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 146号 | **Data ISO:** 1952-03-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Incontestável Força do Johrei
 
@@ -575,6 +1320,7 @@ O senhor Uda, que é uma boa pessoa, nada sabe sobre a verdadeira natureza da Ig
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年2月7日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記抄 槐安生 | **Status:** Published | **Edição/Página:** 90号 | **Data ISO:** 1951-02-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões sobre Fé e Destino
 
@@ -606,6 +1352,7 @@ A verdadeira causa do declínio nos negócios da família do senhor Miyagawa res
 
 **Categoria:** jorei | **Ano:** 昭和28(1953)年10月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 喜美談語 （二）槐安生 | **Status:** Published | **Edição/Página:** 53号 | **Data ISO:** 1953-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Quem é o Verdadeiro Especialista?
 
@@ -651,6 +1398,7 @@ No corpo humano, criado por Deus, não há uma única parte, sejam as amígdalas
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 35号 | **Data ISO:** 1952-04-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Crônicas de um Pioneiro: Relato da Aldeia de Akamatsu
 
@@ -728,6 +1476,7 @@ Ao revisitar a querida aldeia de Akamatsu após cinco longos anos, percebi que s
 
 **Categoria:** jorei | **Ano:** 昭和28(1953)年9月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 喜美談語 天国行きの切符 槐安生 | **Status:** Published | **Edição/Página:** 52号 | **Data ISO:** 1953-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Ingresso para o Paraíso
 
@@ -773,6 +1522,7 @@ Tenho a impressão de que não sou o único a sentir que nós, fiéis do mesmo c
 
 **Categoria:** jorei | **Ano:** 昭和28(1953)年5月13日 | **Fonte:** Eikou
 **Título Original:** 浄霊は輸血なり （血液のいれ替え？） 槐安 | **Status:** Published | **Edição/Página:** 208号 | **Data ISO:** 1953-05-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Johrei, a Verdadeira Transfusão Sanguínea
 
@@ -818,6 +1568,7 @@ Seria um espetáculo deveras interessante observar se os tantos médicos que nos
 
 **Categoria:** jorei | **Ano:** 昭和25(1950)年10月18日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 （三） 槐安生 | **Status:** Published | **Edição/Página:** 74号 | **Data ISO:** 1950-10-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Diário de Johrei (III)
 
@@ -890,6 +1641,7 @@ Renovo, assim, minha determinação de que o caminho para essa realidade consist
 
 **Categoria:** jorei | **Ano:** 昭和29(1954)年2月3日 | **Fonte:** Eikou
 **Título Original:** 光くらべ ――神力と人力―― 槐安生 | **Status:** Published | **Edição/Página:** 246号 | **Data ISO:** 1954-02-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Poder Divino e o Poder Humano
 
@@ -965,6 +1717,7 @@ Enquanto falava, o proprietário serviu-me uma xícara de chá.
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年10月8日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 177号 | **Data ISO:** 1952-10-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Essência do Milagre Divino
 
@@ -1031,6 +1784,7 @@ O verdadeiro Kaiansei
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年5月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1951-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Testemunhos da Fé e da Convicção
 
@@ -1088,6 +1842,7 @@ Pensei comigo mesmo: a um homem com tamanha fibra moral, eu confiaria de bom gra
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年1月23日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 140号 | **Data ISO:** 1952-01-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Lição Sobre as Toxinas Medicamentosas
 
@@ -1122,6 +1877,7 @@ Enquanto observava sua silhueta se afastar, pensei comigo mesmo: mesmo após ter
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年2月21日 | **Fonte:** Eikou
 **Título Original:** お浄め日記抄 槐安生 | **Status:** Published | **Edição/Página:** 92号 | **Data ISO:** 1951-02-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Defesa Inabalável da Fé
 
@@ -1157,6 +1913,7 @@ Ao chegar em casa, deparei-me com uma cena surpreendente: o Omamori, que eu deve
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年9月5日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 120号 | **Data ISO:** 1951-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A queixa sobre a eficácia excessiva do Johrei
 
@@ -1190,6 +1947,7 @@ Fiquei absolutamente estupefato diante daquela queixa, exposta com uma lógica i
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年1月9日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 138号 | **Data ISO:** 1952-01-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Purificação do Ego na Senda do Johrei
 
@@ -1233,6 +1991,7 @@ Tais palavras, proferidas por alguém que há tão pouco tempo abraçou a fé, t
 
 **Categoria:** jorei | **Ano:** 昭和25(1950)年11月8日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 77号 | **Data ISO:** 1950-11-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Coletânea de Ensaios do Mestre Okada Jikanshi
 
@@ -1255,6 +2014,7 @@ Continua na próxima edição.
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 142号 | **Data ISO:** 1952-02-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Coleção de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei
 
@@ -1296,6 +2056,7 @@ O mundo de hoje está em completa desordem. Em completa desordem.
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年3月14日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記抄 槐安生 | **Status:** Published | **Edição/Página:** 95号 | **Data ISO:** 1951-03-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Coletânea de Ensaios do Reverendo Jikan Okada – Fragmentos do Diário de Johrei
 
@@ -1325,6 +2086,7 @@ Diante do insondável mistério das Caligrafias de Meishu-Sama, que manifestam e
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年2月27日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 145号 | **Data ISO:** 1952-02-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Diário de Johrei
 
@@ -1359,6 +2121,7 @@ Tais fatos comprovam, uma vez mais, que Meishu-Sama é o grandioso Messias. Dian
 
 **Categoria:** jorei | **Ano:** 昭和29(1954)年3月3日 | **Fonte:** Eikou
 **Título Original:** 子供は正直 槐安生 | **Status:** Published | **Edição/Página:** 250号 | **Data ISO:** 1954-03-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Sinceridade Infantil
 Por Kaiansei
@@ -1392,6 +2155,7 @@ Não resta dúvida de que Deus e o Tempo se encarregarão de proferir o justo ju
 
 **Categoria:** jorei | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
 **Título Original:** 浄霊日記 槐安生 （江川勝利） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教奇蹟集
 
 ## Diário de Johrei (Extraído da Coletânea de Milagres da Sekaikyuseikyou)
 
@@ -1423,6 +2187,7 @@ Com relação a eles, desisti completamente. Talvez, em algum momento de suas vi
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年7月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1951-07-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Diário de Johrei
 *Por Kaiansei*
@@ -1454,6 +2219,7 @@ Senti uma profunda desolação. Como pode alguém com um desejo tão intenso de 
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年10月31日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 128号 | **Data ISO:** 1951-10-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Diário de Johrei
 
@@ -1496,6 +2262,7 @@ No momento do Juízo Final da humanidade, que se aproxima inexoravelmente, indag
 
 **Categoria:** jorei | **Ano:** 昭和29(1954)年1月1日 | **Fonte:** Eikou
 **Título Original:** 馬の耳にお守り ――地上天国の表紙の奇蹟 槐安生 | **Status:** Published | **Edição/Página:** 241号 | **Data ISO:** 1954-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Coleção de Teses do Reverendo Jikan Okada
 Pesquisa de Ensinamentos: help Pesquisa de Materiais:
@@ -1540,6 +2307,7 @@ Instruído por seu tio, Yoshio preparou um envelope com mil ienes, no qual escre
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年8月6日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 168号 | **Data ISO:** 1952-08-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Da Coletânea de Teses do Mestre Jikan Okada – Diário de Johrei, por Kaiansei
 Revista Glória, nº 168, 6 de agosto de 1952
@@ -1598,6 +2366,7 @@ Minha esposa, ao que parece, tem grande apreço pela senhora Akiyama, por sua ge
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年7月2日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 163号 | **Data ISO:** 1952-07-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Diário da Purificação
 *Por Kaiansei, publicado na revista Eikō, nº 163, em 2 de julho de 1952.*
@@ -1636,6 +2405,7 @@ No significado profundo da palavra “purificação” está contido o imenso am
 
 **Categoria:** kikou2 | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 霊視日記 茨木よし子 | **Status:** Published | **Edição/Página:** 40号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Coletânea de Artigos do Reverendo Jikan Okada: Diário de Visões Espirituais, por Yoshiko Ibaraki
 
@@ -1745,6 +2515,7 @@ Certa vez, após o culto mensal na unidade, já passava da meia-noite. Estávamo
 
 **Categoria:** jorei | **Ano:** 昭和28(1953)年7月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 50号 | **Data ISO:** 1953-07-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O homem que crê no Johrei, mas não em Deus
 
@@ -1796,6 +2567,7 @@ Existe um provérbio que diz: “Até o rosto de Buda se tolera apenas três vez
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年2月28日 | **Fonte:** Eikou
 **Título Original:** お浄め日記抄 槐安生 | **Status:** Published | **Edição/Página:** 93号 | **Data ISO:** 1951-02-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Relatos de um Diário de Johrei
 
@@ -1820,6 +2592,7 @@ Nota: *Jimon* (耳門) refere-se a um pequeno portão lateral de passagem.
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年5月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 36号 | **Data ISO:** 1952-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Diário de Johrei
 
@@ -1881,6 +2654,7 @@ E, no entanto, que substantivo de imenso poder é a palavra "Rádio"! Os Ensinam
 
 **Categoria:** jorei | **Ano:** 昭和28(1953)年3月18日 | **Fonte:** Eikou
 **Título Original:** この人にしてこの奇蹟 （明主様の御浄霊） 槐安 | **Status:** Published | **Edição/Página:** 200号 | **Data ISO:** 1953-03-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Milagre Digno Desta Pessoa (O Johrei de Meishu-sama)
 
@@ -1946,6 +2720,7 @@ O osso necrosado que serviu para dissipar suas dúvidas, eu o envolvi em papel e
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年12月17日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 187号 | **Data ISO:** 1952-12-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Diário de Johrei
 
@@ -2017,6 +2792,7 @@ O Johrei da fé Messiânica, que pode ser praticado por qualquer pessoa — seja
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年4月11日 | **Fonte:** Eikou
 **Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 99号 | **Data ISO:** 1951-04-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Coletânea de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei (por Kaiansei) – Revista Glória, nº 99, 11 de abril de 1951
 
@@ -2029,1345 +2805,6 @@ Hoje, foram-me apresentados dois novos membros. Um deles, um senhor de aproximad
 Não é atitude de um religioso denegrir outras fés por um excesso de zelo pela sua própria. Assim, expliquei que a associação ○tomo se dedica principalmente ao culto aos antepassados, o que não é, de forma alguma, algo negativo. Enalteci também os fundamentos doutrinários da Tendokyo (天道教) [Tenrikyo], conhecidos como os oito pós, bem como os preceitos da "religião dançante", que se baseiam em seis nuvens, subtraindo dois desses elementos, afirmando que ambos são admiráveis. Tais palavras deixaram os dois novos membros visivelmente satisfeitos. Fui abençoado com a rara oportunidade de fazer uma comparação entre a Igreja Messiânica e outras religiões sem qualquer traço de animosidade, o que foi, para mim, motivo de profunda gratidão.
 
 Os exemplos vivos dessas duas pessoas, que por tanto tempo seguiram outras doutrinas e se converteram à Igreja Messiânica, pareceram causar uma profunda impressão nos demais presentes. Aqueles que, por serem novos na fé, ainda não a compreendiam bem, puderam, graças a esse testemunho concreto, reafirmar suas convicções. Foi, sem dúvida, um fruto valioso. Isso serviu de estopim para que diversas perguntas surgissem ativamente, resultando em uma reunião de uma alegria rara em tempos recentes. Parti, por fim, com a promessa de retornar.
-
----
-
-# Coletânea de Artigos do Reverendo Jikan Okada — Diário de Johrei
-
-**Categoria:** jorei | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Eikou
-**Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 125号 | **Data ISO:** 1951-10-10
-
-## Coletânea de Artigos do Reverendo Jikan Okada — Diário de Johrei
-
-*Por Kaiansei, publicado na revista "Eikou" nº 125, em 10 de outubro de 1951*
-
-Certo dia, um desconhecido de uns vinte e quatro ou vinte e cinco anos, trajando um uniforme estudantil de botões dourados, veio à minha casa. Parado na soleira da estreita entrada, interpelou-me, quase como em um interrogatório: “O senhor é o homem conhecido como Kaian, da Igreja Messiânica? Não há engano?”. Ao mesmo tempo, perscrutava o interior da residência e me examinava da cabeça aos pés, como se fizesse uma rigorosa inspeção. Sua fisionomia denunciava que tanto a casa quanto a minha aparência destoavam consideravelmente de suas expectativas. De fato, o cenário que se apresentava era o de um modesto cômodo de sete tatames e meio, onde meus filhos brincavam de sumô. O anfitrião, este que vos escreve, vestia seus únicos e surrados trajes de trabalho, segurava um cachimbo simples e debruçava-se sobre uma folha de manuscrito, caneta em punho. Tudo ali evidenciava que aquela não era, de modo algum, uma morada burguesa.
-
-“Escute”, pensei, “não seria melhor parar de avaliar as pessoas pela casa e pelas roupas que vestem?” Contendo a irritação diante da atitude daquele jovem insolente e desconhecedor de qualquer etiqueta, indaguei: “Quem é o senhor e qual o motivo de sua visita?”.
-
-Em um discurso apressado, ele explicou: “Chamo-me fulano de tal. Estive acamado por três anos com tuberculose, mas fui curado pelo Johrei da Igreja Messiânica. Contudo, como religião, considero-a primitiva e indigna desse nome. Fiz diversas perguntas ao ministro que me aplicou Johrei, mas suas respostas foram insatisfatórias. Foi ele quem me falou a seu respeito, e por isso vim, com o intuito de travar um grande debate”.
-
-“Um debate? Dispenso tal coisa”, respondi. “Não há nada mais insensato do que uma discussão cujo único propósito é a própria discussão. Ademais, questões de fé não se resolvem com argumentos. Todavia, visto que o senhor veio de tão longe, terei a cortesia de ouvir suas teses como referência”. E assim o convidei a entrar.
-
-Pelo seu propósito de debater, percebi que ele havia se preparado, ainda que às pressas. Sua admiração parecia recair sobre a figura de Kurata Hyakuzo, pois não cessava de citá-lo: “O mestre Kurata disse isto”, “afirmou aquilo”. Emendava com Kant, Hegel e as obras de um certo acadêmico, em que se prescrevia como uma religião deveria ser. Declarou que também partilhava daquelas convicções. E assim, perante uma plateia de uma só pessoa, discursou por quarenta minutos. Seu rosto estava ruborizado, os olhos, injetados e saltados. Naquele momento, experimentei simultaneamente a compaixão por aquele pobre coitado e um profundo sentimento de aversão.
-
-“É só isso que tinha a dizer?”, perguntei. “Ainda tenho mais, mas o que o senhor pensa das minhas teses? Gostaria que me desse uma resposta clara”, retrucou ele, com um semblante triunfante. Sua arrogância era a de quem se deleita com o próprio monólogo, como se estivesse em um palco glorioso.
-
-“Em todo o seu discurso”, comecei, “não há uma única tese que seja sua. O que o senhor fez foi apenas assimilar os escritos de um tal Kurata, de Hegel, de Kant e de algum manual de introdução à religião. Nada mais. Portanto, se me pede uma opinião sobre ‘suas’ teses, não tenho como responder. Agora, se o seu desejo é que eu refute as teorias de Kurata, Kant ou do tal acadêmico, então poderemos conversar”. Ao ver desmascarada a origem de seu conhecimento de segunda mão, ele ficou completamente desconcertado.
-
-Prossegui: “A Igreja Messiânica nasceu justamente porque as religiões do passado se mostraram incapazes de salvar o ser humano. De que vale, então, um conhecimento erudito sobre religiões que não salvam? É desnecessário explicar que uma ciência da religião fundamentada em credos ineficazes está, por si só, equivocada. Se as ideias de Kurata pudessem salvá-lo, bastaria que lesse seus livros e encontrasse a salvação. A liberdade de crença é garantida pela Constituição. Não tenho a menor intenção de lhe impor a fé messiânica. O senhor deve seguir a religião que lhe pareça mais convincente. O senhor afirma que a Igreja Messiânica é inferior por não possuir preceitos, mas acaso conhece o significado desses preceitos e a razão pela qual foram criados? Acusa nossa doutrina de ser um empréstimo do budismo, mas poderia me apontar exatamente onde se encontra esse tal empréstimo em nossos ensinamentos? Em suma, o que o senhor diz não passa da mesma cantilena de rechaço às novas religiões que se ouve por aí. Não há nada de original em suas opiniões. O que o senhor deveria estar ponderando agora é a natureza do poder do Johrei, que curou sua tuberculose”. Embora reconhecesse que minhas palavras eram um tanto duras, havia em mim o desejo de abater seu orgulho, e por isso meu tom foi veemente.
-
-Ele mudou de tática. Inclinando-se para a frente, atacou: “Dizem que a proteção sagrada é apenas um pedaço de papel com algo escrito. Por que cobram por ela? Sendo uma religião, deveria ser distribuída gratuitamente”. Percebi então que este era, talvez, o verdadeiro motivo de sua visita, e senti uma profunda pena. “Pela sua lógica, um religioso deveria viver de ar e neblina, isolado nas montanhas. Ocorre que vivemos em um mundo onde até religiosos pagam impostos, e o arroz não é distribuído de graça. Que tal resolvermos essa questão mais adiante? O senhor diz que foi salvo, mas não se tornou membro nem demonstrou, com um único gesto, sua gratidão a Deus pelo longo tempo em que recebeu Johrei. Pelo contrário, vem até aqui para proferir calúnias. A palavra ‘ingrato’ parece ter sido criada para descrevê-lo. O valor da proteção sagrada, quando comparado ao de uma vida humana, não seria caro nem que custasse cem mil, nem um milhão. Se o ressentimento típico dos tuberculosos o faz pensar assim, por que o senhor mesmo não escreve algo em um papel, chama de ‘proteção sagrada’ e sai para vender? Contenho com dificuldade o impulso de esmurrá-lo diante de tanto egoísmo, portanto, peço que se retire imediatamente!”, acabei por bradar.
-
-Ele permaneceu em silêncio, fitando-me com olhos fixos. “Se quer mesmo debater, saiba que sua mente minúscula não será suficiente. Sugiro que volte acompanhado de especialistas em filosofia e religião para lhe darem suporte. Se, por outro lado, deseja a salvação, venha de cabeça baixa, e o Johrei lhe será ministrado. Permita-me um conselho de amigo: observe seu rosto no espelho todas as manhãs, especialmente a dureza em seu olhar. Quando sua expressão se tornar serena, volte a me procurar. Nessa ocasião, conversaremos até que tudo lhe faça sentido.”
-
-Então, algo inesperado aconteceu. Grossas lágrimas começaram a rolar por seu rosto. “Sinto muito”, disse ele, baixando a cabeça. E assim, partiu, cabisbaixo e desolado. Ter sido importunado por um indivíduo tão néscio logo no início da manhã tornou meu dia inteiro desagradável.
-
----
-
-# Assuntos Religiosos Gerais
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-**Título Original:** 宗教概観篇 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Assuntos Religiosos Gerais
-
-**155. A razão para a abolição do budismo e a ascensão do xintoísmo**
-
-*Pergunta: Na Era Meiji, iniciou-se o costume de cultuar separadamente as divindades xintoístas e budistas. Qual seria o motivo para tal mudança? Reverentemente, peço vosso esclarecimento.*
-
-Isso ocorreu devido ao advento do governo imperial. Durante o Período Tokugawa, o culto prestado era ao budismo. Com a Restauração Meiji, todavia, a linhagem do Imperador passou a seguir os preceitos xintoístas, o que levou tanto a religião quanto a política a se alinharem a esse novo sentido. Existe, nesse fato, uma profunda conexão espiritual.
-
-**156. A origem dos sinos dos templos**
-
-*Pergunta: Qual é o significado dos sinos suspensos que encontramos nos templos?*
-
-Sua origem reside na necessidade de anunciar as horas. No Ocidente, os sinos também eram tocados com essa finalidade. Quanto ao formato, foi concebido da maneira que produzisse a melhor ressonância possível.
-
-**157. Deidade protetora**
-
-*Pergunta: Diz-se que os seres humanos possuem uma deidade protetora. Poderia nos falar a respeito?*
-
-Se, por exemplo, alguém portar consigo uma imagem de Monju, consagrando-a como sua deidade protetora, obterá, de fato, certa proteção, ainda que tênue. Não significa, contudo, que uma pessoa já nasça com uma deidade protetora predeterminada.
-
-**158. Deidade protetora**
-
-*Pergunta: Ocasionalmente, ouço pessoas afirmarem que sua deidade protetora é Senju Kannon ou Fugen Bosatsu. O que isso significa? Solicito vossos ensinamentos.*
-
-Trata-se de uma concepção infundada. Para aqueles que ingressam nesta Fé, a deidade protetora é Komyō Nyorai.
-
-**159. O amuleto de Fudō**
-
-O amuleto de Fudō Myō-ō é inadequado para automóveis. Inevitavelmente, tal como seu nome indica — Fudō (不動), "o imóvel" —, ocorrerá um acidente que imobilizará o veículo.
-
-**160. O impasse tripartido**
-
-*Pergunta: De que forma a lesma, o sapo e a serpente se enquadram no princípio cinco-seis-sete? E, caso exista uma correspondência semelhante no reino dos peixes, por favor, poderia nos revelar?*
-
-Essa relação é conhecida como o impasse tripartido e corresponde ao princípio cinco-seis-sete. O Japão é a serpente; a Coreia, a lesma; e a China, o sapo. Falarei sobre este assunto em uma ocasião mais oportuna.
-
-**161. O impasse tripartido e o princípio cinco-seis-sete**
-
-*Pergunta: Em outra oportunidade, o senhor nos disse que “a serpente, a lesma e o sapo formam um impasse tripartido que se torna Miroku”. Qual é o significado dessas palavras?*
-
-Aparentemente, estabeleceu-se a seguinte analogia: a serpente representa o Japão e o número cinco; a lesma, a Coreia e o número seis; o sapo, a China e o número sete. Essa correspondência, no entanto, não possui uma relação direta com Miroku; trata-se de uma lógica derivada, e não de um vínculo fundamental.
-
-**162. O significado das pirâmides e do Yahirodono**
-
-*Pergunta: Sei que, no Egito Antigo, construíam-se pirâmides para sepultar os mortos. Qual o significado por trás dessa prática? Ouvi também uma teoria de que a palavra “pirâmide” derivaria de “hiramitsutono”, que significaria “palácio pleno de luz solar”, sendo, portanto, sinônimo do Yahirodono (八尋殿) mencionado no Kojiki, e que tais estruturas também existiriam no Japão. Poderia nos esclarecer a esse respeito?*
-
-Desde a Antiguidade, os egípcios reverenciavam o Sol. Aqueles que eram consagrados nas pirâmides eram invariavelmente os reis. A forma triangular da pirâmide, por sua vez, representa o modelo do Universo.
-
-No caminho para a percepção da verdade, é impossível compreender tudo de uma só vez.
-
-Quanto ao termo Yahirodono (八尋殿), ele recebe esse nome simplesmente por se tratar de um complexo de oito palácios.
-
----
-
-# A Ação Espiritual dos Animais
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-**Título Original:** 学問篇 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## A Ação Espiritual dos Animais
-
-**086 O Suicídio do Gato**
-
-Quando realizamos a cerimônia em honra a Komyonyorai, observamos um fenômeno recorrente em diversos locais: os gatos domésticos se reúnem, aparentando reverenciar a Imagem, mas, com o tempo, emagrecem progressivamente até falecerem. Gostaríamos de uma explicação a esse respeito.
-
-Há, de fato, uma lógica para tal acontecimento. Trata-se de algo perfeitamente plausível. São espíritos humanos que decaíram à condição de gatos e cujo único anseio é renascer como seres humanos. Por essa razão, reúnem-se perante Komyonyorai e buscam o suicídio pelos meios que lhes são acessíveis, como ingerir alimentos nocivos ou simplesmente deixar de comer.
-
-**087 O Aparecimento de um Rato Branco e o Desaparecimento dos Outros**
-
-Desde março, há em minha casa um único e grande rato branco de olhos vermelhos. Ele aparece e circula livremente mesmo durante o dia e na presença de pessoas. Desde que ele surgiu, os outros ratos que tanto nos incomodavam desapareceram. Haveria alguma relação espiritual com a minha família?
-
-Sim, há uma relação. Trata-se de um ser humano que reencarnou como rato. É provável que, em sua vida pregressa, tenha sido o gerente de uma loja e seja, portanto, um antepassado dessa família. O desaparecimento dos outros ratos ocorre porque o rato branco os intimida com seu olhar. Seria aconselhável oferecer-lhe alimento com frequência. (16 de maio de 1950)
-
-**088 Fenômeno Incomum Envolvendo uma Lesma**
-
-Temos o caso de uma fiel chamada Ai Sasano. Anteriormente, sua família residia a cerca de cem metros da casa atual. Logo após sua mudança, o proprietário do antigo imóvel removeu a estrutura de concreto do poço, que se transformou numa poça d’água. Nesse local vivia uma lesma, e os filhos da senhora Sasano, ao brincarem por lá, acabaram por soterrá-la com pedras. Pouco tempo depois, essa mesma lesma surgiu na nova casa da família, deixando um rastro ao rastejar pela treliça da porta de correr e, eventualmente, circulando ao redor do Altar onde a Imagem Divina está consagrada. Haveria algum significado espiritual nisso?
-
-A lesma, juntamente com a serpente e o sapo, compõe um trio de criaturas espiritualmente distintas das demais. Embora seja raro, não é impossível que um ser humano reencarne como um animal e, subsequentemente, como uma lesma; aliás, os seres humanos podem reencarnar até mesmo como insetos.
-
-É possível que essa lesma tenha vindo em busca da salvação de Komyonyorai. Desde que o papel do Altar não fique manchado, não há problema.
-
-As lesmas têm a capacidade de materializar o espírito e de espiritualizar a matéria. Quando se joga sal sobre elas, desaparecem, para por vezes ressurgir ao lado. São, de fato, seres de natureza profundamente espiritual. (2 de fevereiro de 1950)
-
-**089 A Tartaruga Enfurecida**
-
-Certa vez, durante uma pausa na plantação de arroz em um dia chuvoso, uma grande tartaruga aproximou-se do local onde uma família descansava. O chefe da família a capturou e disse: "Vou usar a carne como acompanhamento para o saquê e o casco para fazer uma cigarreira". Logo em seguida, porém, sua capa de chuva pegou fogo, causando-lhe graves queimaduras. Seu cavalo caiu em um fosso e perdeu dois dentes da frente. Dias depois, ao carregar um fardo por uma encosta, o homem tropeçou, machucou gravemente a cintura e ficou impossibilitado de se levantar. Mesmo sob tratamento médico, passou a sofrer com um líquido que vertia do local da lesão. Diante disso, ele decidiu soltar a tartaruga em um açude próximo. Desde então, nenhuma outra desgraça ocorreu. Haveria uma relação espiritual?
-
-Trata-se de um ser humano que reencarnou como tartaruga. As tartarugas são animais especialmente dotados de espiritualidade e possuem sentimentos semelhantes aos dos humanos. A tartaruga se enfureceu, mas se acalmou ao ser libertada.
-
-Nenhum ser deve ser morto, a menos que ofereça perigo à vida humana. Se atacar, trata-se de legítima defesa.
-
-**090 Insetos que Rastejam Apenas sobre um Paciente com Peritonite**
-
-À noite, muitos "vermes-de-ervilha" entram no quarto e sobem apenas no corpo de uma pessoa que sofre de peritonite. Qual seria a razão para isso?
-
-Em condições como a peritonite, um líquido exsudado vaza dos capilares. É provável que os insetos sejam atraídos por essa substância. (22 de junho de 1949)
-
-**091 O Poder Espiritual dos Ratos**
-
-Gostaria de saber por que, quando um rato sobe na cama enquanto dormimos, somos acometidos por pesadelos e aflição.
-
-É um fenômeno que de fato ocorre. Quando um rato, do forro do teto, fixa o olhar em uma pessoa, esta pode ter pesadelos e sentir-se atormentada. Os ratos detêm esse tipo de poder espiritual. A única solução é impedir que eles entrem no ambiente.
-
-**092 O Rato Branco (Reencarnação de Outros Animais)**
-
-Na casa de um fiel, vários ratos costumam brincar juntos. Entre eles, curiosamente, há um rato branco. Isso possui algum significado espiritual?
-
-Todos os animais, ao envelhecerem, tendem a apresentar pelos brancos. Esse rato, contudo, é a reencarnação de um coelho ou de um gato branco. Um gato branco, por exemplo, que tenha devorado um número excessivo de ratos, pode renascer como um deles devido ao ressentimento acumulado.
-
-**093 Desaparecimento dos Ratos**
-
-Desde fevereiro, os ratos desapareceram da minha casa. Qual seria o motivo?
-
-Deve haver alguma circunstância específica. É bastante comum que os ratos desapareçam antes de um incêndio, mas essa não é a única possibilidade. (6 de junho de 1949)
-
-**094 A Morte do Rato Branco**
-
-No final do ano passado, um rato branco apareceu em minha casa. Ele cresceu bastante, não temia as pessoas e seus movimentos eram lentos. Neste ano, ele desapareceu, e suspeito que tenha sido devorado por um gato. Recebi a Iniciação em 11 de janeiro, e meu marido está acamado com tuberculose. Isso não seria um mau presságio?
-
-(A resposta a esta questão foi omitida, sugerindo-se apenas orar a Deus e aguardar o tempo certo). (16 de janeiro de 1950)
-
-**095 A Calamidade da Aranha**
-
-Os espíritos malignos frequentemente se utilizam de aranhas. As aranhas de grande porte, em particular, podem servir de veículo para sua possessão. Deve-se compreender que, quando isso ocorre, um espírito ou uma entidade maligna apoderou-se da aranha com o intuito de atormentar alguém. Portanto, é preciso ter cautela com esses aracnídeos.
-
-**096 Seres Humanos e Aranhas; Sonhos com Aranhas**
-
-Um fiel recém-iniciado, ao final de seu terceiro dia de curso, sentiu a presença de uma grande aranha em seu ombro esquerdo. Ele relata que, no passado, sempre que ocorria um nascimento ou falecimento na família, ele também sonhava com uma aranha de grandes dimensões. Qual a explicação para isso?
-
-Os seres humanos podem reencarnar como insetos, e a reencarnação como aranha é particularmente comum. Ademais, pode ocorrer a possessão de um ser humano por uma aranha ou de uma aranha por um ser humano. No teatro, há peças como "Tsuchigumo" (A Aranha-da-terra), que retrata uma aranha se transformando em humano, o que indica que tais eventos eram considerados verossímeis.
-
-Há espíritos perdidos na forma de aranha que são, sem dúvida, espíritos de antepassados. Eles se manifestaram dessa forma para transmitir uma mensagem, expressando tanto o desejo de salvação quanto a alegria pela sua própria Iniciação. Com o devido aprimoramento, eles poderão, por fim, renascer como seres humanos.
-
-**097 Aranhas e Seres Humanos**
-
-Sobre a relação entre aranhas e seres humanos.
-
-As aranhas capturam insetos. Sua função se resume a isso. Ao se alimentarem de pequenos insetos, elas cumprem um papel útil.
-
-**098 O Cão de Oito Partes**
-
-Desde a antiguidade, diz-se que criar um cão "hachiwari" (com uma mancha dividida na cabeça) faz com que "o dono seja superado" ou "nunca faltem doentes na casa". Qual o significado disso?
-
-Trata-se de uma reencarnação humana. Como o cão se sobrepõe espiritualmente ao ser humano, o dono acaba sendo "derrotado". Contudo, ao ingressar na Fé, a pessoa eleva sua posição espiritual, e tais influências deixam de existir. (19 de agosto de 1949)
-
-**099 A Tartaruga e a Pesca Abundante**
-
-Desde os tempos antigos, existe o costume de, ao se capturar uma tartaruga-marinha, não a matar, mas oferecer-lhe bastante saquê e devolvê-la ao mar. Diz-se que, na pescaria seguinte, a fartura é imensa. Que tipo de poder essas tartarugas possuem?
-
-A tartaruga é um ser de natureza extremamente espiritual, diferente dos animais comuns. Quando se oferece a ela um banquete e se salva sua vida, ela retribui o favor com sua ajuda. (11 de janeiro de 1950)
-
-**100 Urinar sobre uma Minhoca**
-
-Quando uma criança urina sobre uma minhoca, seu órgão genital fica vermelho e inchado. Isso ocorre por uma influência espiritual ou é uma purificação de toxinas?
-
-A minhoca é um ser espiritual, e a reação é de origem espiritual. O espírito vivo da minhoca se enfurece. Com efeito, as minhocas são uma espécie de Divindade-Dragão. (11 de dezembro de 1948)
-
-**101 Urinar sobre uma Minhoca**
-
-Quando uma criança urina sobre uma minhoca, seu pênis frequentemente incha. Qual a causa espiritual para isso?
-
-O espírito da minhoca se enfurece. As minhocas são uma espécie de Divindade-Dragão, e as Divindades-Dragão abominam ser profanadas. (23 de agosto de 1949)
-
-**102 Kappa**
-
-O Kappa... sim, ele existe. Trata-se de uma criatura peculiar que de fato existiu. Seus sentimentos assemelham-se aos dos seres humanos, compartilhando as mesmas emoções de alegria, raiva, tristeza e prazer. Antigamente, sua presença era consideravelmente comum. Sua aparência é mais semelhante à de um sapo, com o corpo pegajoso e de uma cor azul-esverdeada.
-
-**103 O Coelho é uma Ave**
-
-Ao contarmos coelhos, usamos o classificador de aves ("ichiwa, niwa"). Há alguma razão para isso?
-
-A razão é que o coelho está classificado na categoria das aves. Quando corre, o coelho salta. Ele se impulsiona com as duas patas traseiras, como se voasse. (14 de março de 1949)
-
-**104 Sentimentos e Personalidade do Kappa**
-
-O Kappa aprecia pepinos. É um ser que preza a lealdade e, quando ajudado, certamente retribui o favor. Ele é um grande apreciador de sumô; por mais que seja derrubado, ele sempre se levanta e volta a lutar. Conforme os registros indicam, ele possui sentimentos muito próximos aos dos humanos. Seu corpo é pegajoso, tem o tamanho aproximado de uma criança, é muito perseverante e possui uma depressão na cabeça que contém água.
-
-**Pergunta de um fiel:** Ouvimos muito sobre o Kappa. O seu espírito realmente existe?
-
-**Resposta de Meishu-Sama:** "O espírito do Kappa existe, sim. Ele adora sumô e, por mais que você o derrube, ele se levanta e o agarra novamente. Em contrapartida, se você cuidar bem dele, ele se apega e o ajuda de várias maneiras."
-
----
-
-# Coletânea de Teses do Reverendo Jikan Okada — Pesquisa de Ensinamentos: Seção Ajuda. Pesquisa de Materiais: Etnia, Nação, Superstições, Volume 8, 130-149. Moradia e Costumes
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** 国土、迷信篇
-**Título Original:** 民族 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Coletânea de Teses do Reverendo Jikan Okada — Pesquisa de Ensinamentos: Seção Ajuda. Pesquisa de Materiais: Etnia, Nação, Superstições, Volume 8, 130-149. Moradia e Costumes
-
-**130. A Substituição de Pilares e a Influência sobre as Pessoas**
-
-*Pergunta:* Meu marido e eu vivemos em uma edícula. Em junho de 1948, trocamos o telhado de colmo da casa principal por um de telhas. Fomos informados de que, para evitar "maldições", seria necessário substituir também os pilares, e assim o fizemos com quatro ou cinco deles. Gostaria de saber se isso não teria relação com uma enfermidade anterior.
-
-*Resposta:* Trata-se de uma superstição. O ser humano não é influenciado por algo tão trivial como um pilar. Crenças como a do pilar invertido são inverdades.
-
-*Adendo sobre junção de vigas, pilares invertidos e a ausência de fé*
-
-No interior, dizem que emendar a viga mestra de uma casa — para uma futura ampliação, por exemplo — atrai infortúnios. Também é comum ouvir que pilares invertidos são agourentos, o que, de fato, possui um ínfimo fundamento. Contudo, em minha opinião, tal coisa não tem a menor importância. Para as pessoas desprovidas de fé, no entanto, assuntos triviais podem de fato exercer alguma influência, de modo que não lhes posso dar garantias. (21.07.1948)
-
-**131. A Troca de Telhados de Colmo por Telhas**
-
-*Pergunta:* Em meu vilarejo, muitas residências principais têm telhados de colmo. Há uma tradição segundo a qual "trocar por telhas invariavelmente traz desgraça para a família", e o mais preocupante é que isso parece se confirmar na prática. Qual seria a razão para tal fenômeno? Caso uma reforma seja necessária, como poderíamos evitar essa adversidade?
-
-*Resposta:* Tal crença é infundada. (16.09.1949)
-
-**132. Disputas pela Altura dos Telhados e as Telhas Shoki**
-
-*Pergunta:* Em meu vilarejo, algumas casas ostentam uma imagem de Shoki sobre o telhado. Os moradores dizem que, se uma casa for mais baixa que a da frente, a mais baixa "perde" na disputa, e por isso instalam uma estátua de cerâmica de Shoki voltada para o telhado vizinho. Isso seria superstição?
-
-*Resposta:* Sim, é uma superstição. Se ambos os vizinhos competissem, a que altura seus telhados não chegariam? A altura da casa em si não tem relação alguma. Viver em um terreno elevado, no entanto, é benéfico.
-
-Residir a meio caminho de uma encosta não é bom. Locais que se acessam descendo a partir da rua também são desfavoráveis, pois o Mundo Espiritual se estrutura de forma análoga. Uma residência como a Vila Higashiyama, por exemplo, é desfavorável.
-
-É um erro crasso utilizar telhas com a figura de demônios, chamadas "onigawara", voltadas para a "direção do demônio" a fim de se proteger. (26.05.1949)
-
-**133. A Direção Sudeste e a Reforma de Muros**
-
-*Pergunta:* Desejo reformar um muro, mas uma pessoa me advertiu que não o fizesse este ano, pois, na direção sudeste, a cada dez anos, os antepassados vêm nos visitar. Devo acreditar nisso?
-
-*Resposta:* É uma superstição. Proceda com a reforma o quanto antes. (03.06.1949)
-
-**134. O Azar de Três Anos**
-
-*Pergunta:* Segundo o almanaque de Takashima Ekidan, a partir deste ano, a direção do "azar de três anos" será o norte; no ano passado, foi o oeste. Meu irmão mais velho, ignorando tal advertência, construiu um forno a oeste do centro da casa e iniciou suas atividades. Desde então, todos na família estão sofrendo com graves problemas de visão, e tememos ser tracoma. Haveria alguma relação com o "azar de três anos"? Seria essa direção realmente desfavorável?
-
-*Resposta:* Trata-se de uma superstição. Do contrário, como se explicaria a situação no Ocidente? Não se deve dar atenção a tais crendices. Costuma-se dizer que os adivinhos desconhecem os próprios limites. (05.02.1950)
-
-**135. Superstições sobre a Reforma de Fornos**
-
-*Pergunta:* Pretendo reformar meu forno, mas ouvi dizer que, se uma família com uma gestante o fizer, a criança nascerá com lábio leporino. Gostaria de saber se existe alguma relação entre a gestação e a reforma do forno. Esclareço que cultuamos a imagem de Komyo Nyorai.
-
-*Resposta:* É uma superstição. (26.01.1950)
-
-**136. A Direção do Zodíaco e o Corte de Árvores**
-
-*Pergunta:* Em minha região, costuma-se dizer que não se deve cortar árvores na direção correspondente ao signo do zodíaco do ano vigente. Haveria alguma razão para isso?
-
-*Resposta:* Trata-se de uma superstição bastante comum. (26.11.1949)
-
-**137. O Oitavo Dia do Mês e a Subida de Montanhas**
-
-*Pergunta:* Popularmente, dizem que o oitavo dia do mês é o dia do deus da montanha e que, portanto, deve-se evitar subi-las, pois quem o faz se machuca. Isso possui algum significado?
-
-*Resposta:* Embora seja uma superstição, o número oito (八) tem a forma do Monte Fuji. Oito também pode ser decomposto em cinco e três, representando a princesa Konohanasakuya-hime, que é uma manifestação de Kannon. Portanto, não é algo totalmente desprovido de significado. Contudo, não há motivo para se abster de subir montanhas no oitavo dia. A crença referente ao dia oito de fevereiro é um costume local, não uma regra geral. (11.03.1949)
-
-**138. Piolhos Brancos nas Roupas**
-
-*Pergunta:* Ouvi dizer que, quando piolhos brancos infestam as roupas de alguém, essa pessoa morrerá. Qual seria a razão para isso? É verdade que a pessoa morre?
-
-*Resposta:* É uma superstição. (26.04.1950)
-
-**139. Ameixas em Conserva e o Infortúnio**
-
-*Pergunta:* Dizem que, se as conservas de ameixa mofarem, um infortúnio certamente ocorrerá. Existe algum fundamento para isso?
-
-*Resposta:* Trata-se de uma superstição. (15.05.1949)
-
-**140. O Canto da Galinha**
-
-*Pergunta:* Uma de minhas galinhas (da raça Leghorn branca) canta como um galo todas as manhãs e, por vezes, também ao entardecer. No geral, as pessoas dizem que isso é um mau presságio, o que me deixa apreensivo. Ela continua pondo ovos diariamente. Haveria algum significado nisso?
-
-*Resposta:* O canto de uma galinha não exerce influência sobre o destino. Isso é uma superstição. (28.05.1949)
-
-**141. Sonhar com Enguias**
-
-*Pergunta:* Dizem que sonhar com enguias é um presságio de morte. Existe alguma relação espiritual entre as enguias e os seres humanos?
-
-*Resposta:* Tal crença é de natureza supersticiosa.
-
-**142. Sonhar com Banquetes**
-
-*Pergunta:* Dizem que sonhar que se está participando de um banquete é sinal de doença. Haveria alguma relação espiritual nisso? Rogo que me conceda seus ensinamentos.
-
-*Resposta:* É uma superstição. Ser agraciado com um banquete, mesmo que em sonho, é algo excelente. (22.05.1949)
-
-**143. Trovões e Incenso**
-
-*Pergunta:* Costuma-se dizer que acender incenso durante uma trovoada previne a queda de raios. Existe alguma razão para isso?
-
-*Resposta:* Trata-se de uma superstição. A crença relacionada ao mosquiteiro, por outro lado, possui algum sentido. (24.02.1949)
-
-**144. O Gato que Acena**
-
-*Pergunta:* Gostaria que me ensinasse sobre o significado de se usar estátuas ou imagens do "gato que acena" no comércio e se há alguma implicação, boa ou má, em posicioná-lo em um lugar elevado.
-
-*Resposta:* Trata-se de uma superstição tola. Creio que o gato foi escolhido simplesmente por fazer um gesto que se assemelha a um aceno. (20.03.1949)
-
-**145. Superstições sobre o Dia do Semeio**
-
-*Pergunta:* Na região de Tochigi, há uma lenda popular que proíbe terminantemente o semeio em dias "inférteis" (termo do calendário) ou no "dia do coelho". O que o senhor pensa a respeito?
-
-*Resposta:* Tal crença é infundada. É uma superstição.
-
-**146. A Morte da Pimenteira-Japonesa ao se Cantar Durante a Colheita**
-
-*Pergunta:* Ao colher os brotos ou frutos da pimenteira-japonesa, diz-se que cantar faz a planta morrer. Haveria algum significado nisso?
-
-*Resposta:* É uma superstição. Provavelmente, isso ocorreu uma única vez e foi generalizado para todas as situações. (11.09.1949)
-
-**147. O Plantio de Arroz, o Semeio e os Dias Favoráveis**
-
-*Pergunta:* Até hoje, a tradição popular diz ser melhor não plantar arroz no "dia do coelho", segundo o calendário das Nove Estrelas. Qual o significado disso? E por que dizem que não se deve semear trigo e cevada no "dia do cão"?
-
-*Resposta:* Trata-se de uma superstição. No Ocidente, não existem tais costumes e, ainda assim, as colheitas são abundantes. (13.09.1949)
-
-**148. Dias Inférteis**
-
-*Pergunta:* Em várias regiões, existem os chamados "dias inférteis", que correspondem aos dias do rato, do cavalo e do galo de cada mês, nos quais as pessoas evitam semear e plantar. Haveria algum significado nisso?
-
-*Resposta:* Isso é uma superstição. Pode-se plantar em qualquer dia. Dizem também que não se deve colher melões nos dias do coelho, do macaco, do galo e da ovelha. (21.12.1948)
-
-**149. Superstição sobre o Preparo dos Campos de Arroz com Gado (Região de Tohoku)**
-
-*Pergunta:* Em uma parte da região de Tohoku, é terminantemente proibido preparar os campos de arroz com bois ou cavalos da tarde do dia quatro à noite do dia cinco de maio do calendário lunar, pois dizem que isso causa uma longa estiagem. Qual seria a razão para tal costume?
-
-*Resposta:* É uma forma de superstição. (11.03.1949)
-
----
-
-# Diário de Johrei
-
-**Categoria:** jorei | **Ano:** 昭和27(1952)年3月19日 | **Fonte:** Eikou
-**Título Original:** 浄霊日記 槐安生 | **Status:** Published | **Edição/Página:** 148号 | **Data ISO:** 1952-03-19
-
-## Diário de Johrei
-
-*Por Kaiansei, extraído da revista Eikou nº 148, publicada em 19 de março de 1952.*
-
-Antigos provérbios nos ensinam que “o caçador que persegue o cervo não enxerga a montanha” e, de forma igualmente sublime, que “somos instruídos pelo filho que carregamos às costas”. Hoje, pude vivenciar a profundidade de tais adágios, rindo de minha própria limitação e compreendendo que nessas máximas, tantas vezes lidas superficialmente e logo esquecidas, reside uma filosofia de perenidade milenar.
-
-Ao adentrar o vestíbulo, arremessando a mochila e as sandálias, ouvi um lamento: “Mãe, minha cabeça dói. Ministre-me Johrei.” Era meu filho mais novo, aluno do primeiro ano, que retornava da escola com o rosto marejado de lágrimas. Sua mãe, após tocar-lhe a testa, ponderou consigo mesma: “Será que pegou um resfriado?”. Enquanto estendia o acolchoado para que ele repousasse, sentou-se à sua cabeceira e iniciou o Johrei. O menino, que mesmo febril por um resfriado correria para a rua, convicto de que cada instante não brincado é um tempo perdido, deitou-se sem relutar, o que denotava que o mal-estar era de fato intenso. Talvez pelo alívio proporcionado pelo Johrei, a criança logo adormeceu. “Você dormiu descoberto ontem à noite, não foi? Por isso se resfriou”, pensou a mãe, observando seu rosto sereno, antes de interromper o Johrei para se dirigir à cozinha.
-
-Tanto a mãe quanto eu, o pai, tornamo-nos surpreendentemente impassíveis diante das purificações de nossos filhos e de nós mesmos. Antigamente, nossa atitude era diametralmente oposta: éramos extremamente sensíveis às enfermidades das crianças. Ao ler o jornal, os anúncios de remédios eram os primeiros a saltar aos meus olhos. Mantínhamos em casa um arsenal completo de medicamentos domésticos, uma preparação tão meticulosa que jamais nos faltavam recursos para os primeiros socorros antes da chegada de um médico.
-
-Contudo, essa postura sofreu uma transformação radical após a conversão de toda a família à Sekaikyuseikyou. Não que tenhamos nos tornado pessoas desumanas; a mudança decorreu de possuirmos o sublime recurso terapêutico exclusivo de nossa Fé: o Johrei. A certeza de poder ministrá-lo a terceiros e aos nossos familiares em caso de doença, prescindindo de médicos e fármacos, infundiu em nós a confiança para não mais temer a enfermidade. Com o tempo, essa serenidade de não encarar a doença como um mal irremediável foi sendo cultivada, até se tornar um hábito arraigado em nosso ser.
-
-“Dói... minha cabeça dói...”, recomeçou o pranto do menino, que despertara com a chegada de uma visita. Apalpei sua cabeça, mas não havia febre. Perscrutei a nuca e o bulbo, mas não encontrei indícios de acúmulo de toxinas. Julguei a situação deveras peculiar; de onde proviria essa dor? Ciente de que este filho tem propensão a sentir dor nas glândulas parótidas ao se resfriar, investiguei a área, mas não detectei qualquer anormalidade. “Dói, dói... ministre-me Johrei”, ele insistia. Por seu tom, pude finalmente deduzir duas coisas: a dor era lancinante e parecia se concentrar na metade esquerda da cabeça, a partir da testa.
-
-Nesse instante, nosso filho de quatro anos chegou da escola. Ao ver o irmão deitado, perguntou o que havia acontecido. Observou-me por um momento ministrar Johrei e, diante de um gemido mais forte do pequeno, sentenciou: “Não vai sarar se ministrar Johrei aí. São vermes. Ele está com vermes.” Ele já passara por inúmeras experiências semelhantes, e em todas elas o Johrei o auxiliara a expelir os parasitas; por isso, seu diagnóstico foi instantâneo. “Ah, é verdade! Podem ser vermes!”, pensei. Senti o rosto corar por minha própria obtusidade ao não ter considerado essa possibilidade. Eis-me aqui, “instruído pelo filho que carrego às costas”. Minha esposa e até mesmo a visita riram da minha brincadeira, proferida para disfarçar o embaraço.
-
-Durante seu ciclo de desenvolvimento no organismo infantil, as lombrigas podem infiltrar-se não apenas nos órgãos internos, mas também na região craniana, o que explicaria as dores de cabeça. Recordo-me de que, no passado, eu mesmo recorria a vermífugos para minhas enxaquecas. A cada visita do vendedor de remédios de Tomikawa, eu invariavelmente adquiria ao menos dez pacotes de um vermífugo à base de santonina e de antigripais. Quando o estoque se esgotava, corria à farmácia. E quando a importação de santonina para o Japão foi interrompida, passei a preparar e tomar um decocto de um remédio da farmacopeia chinesa, o海人草 (Kaininsou), similar a algas marinhas, chegando a forçar meus filhos, sob protestos, a bebê-lo.
-
-Crendo administrar um remédio, na verdade eu ingeria e ministrava veneno. Foi somente após ingressar na Sekaikyuseikyou que tomei consciência desse fato e empalideci, atônito. Seguindo essa lógica, talvez se possa argumentar que os médicos, acreditando prescrever um medicamento, na verdade serviam uma dose de veneno a seus pacientes. Trata-se, obviamente, de uma ironia, mas sob a ótica das leis divinas, tal ato poderia ser enquadrado como homicídio culposo por negligência profissional. As lombrigas... esses seres que evocam a imagem de serpentes sinistras, emergindo por vezes pelo ânus ou pela boca, há muito, muito tempo afligem a humanidade com um sofrimento desnecessário.
-
-Pessoas da minha geração certamente se recordam de que, na infância, qualquer dor de barriga era imediatamente tratada com um vermífugo. Vim a descobrir muito mais tarde que aquele não era um analgésico, e sim um medicamento para parasitas. No início de cada mês, mesmo sem sentir dor alguma, éramos obrigados a ingerir um pó branco que, invariavelmente, era outro remédio do gênero.
-
-Em retrospecto, pode-se dizer que crescemos em meio a uma batalha cíclica entre os vermes em nosso interior e os vermífugos que nos eram administrados. Quão familiar era para nós essa medicação! Não que eu sinta nostalgia desses remédios, mas, se fosse para falar em nostalgia, mencionaria o 救命丸 (Kyumeigan). Estou certo de que, até mesmo as pessoas com maior aversão a medicamentos, em algum momento já tomaram esses dois. Ademais, sobre as lombrigas, circulam inúmeras histórias que hoje soam cômicas.
-
-Nossos pais nos instruíam a comer primeiro os alimentos de sabor desagradável e deixar os mais saborosos e preferidos para o final. E nós seguíamos a recomendação à risca. A lógica por trás desse costume era que os vermes devorariam o que primeiro passasse pela garganta; assim, ao ingerir o alimento delicioso por último, a criança se nutriria, e não os parasitas. A incapacidade da medicina atual de enxergar essa crença como uma anedota cômica revela, a meu ver, a sua grande agonia.
-
-Li certa vez em um jornal que de 60% a 70% da população japonesa é portadora de lombrigas. O montante que essas pessoas despendem para combater esses parasitas — uma luta incessante e infrutífera — representa, por uma estimativa bastante conservadora, um desperdício anual de seiscentos a setecentos milhões de ienes. Uma soma dessa magnitude seria suficiente para construir seis ou sete Salões Messiânicos, como aquele que em breve se erguerá, imponente, no cume do Monte Zuiun. É, portanto, um valor considerável.
-
-Tanto hoje como no passado, a única arma contra as lombrigas continua sendo a santonina. Diante disso, somos levados a indagar: onde está o alardeado progresso da medicina?
-
-Mesmo um problema aparentemente tão trivial como o das lombrigas demonstra que, fora dos ensinamentos da Sekaikyuseikyou, não há solução definitiva. Se extrapolarmos essa lógica para todas as outras doenças e se a nação inteira aderisse e apoiasse a Agricultura Natural, a economia se contaria na casa das centenas de bilhões. Consequentemente, a carga tributária diminuiria. Se mantivéssemos a alíquota de impostos atual por apenas um ano, a crise habitacional, por exemplo, seria solucionada de uma só vez. As demais questões de seguridade social poderiam ser resolvidas sem sacrifício ou ônus para ninguém. Nesse cenário, as políticas de contenção ao Partido Comunista, que tanto mobilizam o governo, se tornariam obsoletas. Poderíamos permitir que fizessem o alarde que quisessem, pois, numa sociedade onde todos são prósperos e não há mais pobres, ninguém se filiaria a uma agremiação política tão perigosa.
-
-Enquanto ministrava Johrei em meu filho, em um fluxo contínuo de pensamentos, os benefícios secundários do Johrei e da Agricultura Natural se desdobravam em minha mente. A Sekaikyuseikyou é, de fato, algo grandioso. Seu desenvolvimento se alinha perfeitamente com o ideal de construção de um novo Japão. Tomado por uma profunda admiração, cheguei a murmurar para mim mesmo. Por fim, conversei longamente com minha visita, e ambos concordamos que somente com a presença da religião é possível edificar uma política com verdadeira espinha dorsal.
-
----
-
-# Coletânea de Teses de Jikan Okada — Pesquisa nos Ensinamentos Divinos: Busca de Materiais: Seção da Fé (Adesão e Dificuldades na Fé)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-**Título Original:** 信仰篇 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Coletânea de Teses de Jikan Okada — Pesquisa nos Ensinamentos Divinos: Busca de Materiais: Seção da Fé (Adesão e Dificuldades na Fé)
-
-### 032. Os Ensinamentos Divinos e o Acidente Vascular Cerebral (A Relação entre os Ensinamentos Divinos e a Cura das Doenças)
-
-**Pergunta:** Ingressei na fé em 1943 e, no ano seguinte, tive a permissão de entronizar a Imagem de Meishu-Sama. Naquela época, eu a mantinha no tokonoma do segundo andar. Contudo, após o falecimento de meu marido, por motivos de uma purificação financeira, precisei alugar um cômodo no segundo andar para terceiros. Atualmente, o Eixo Sagrado está guardado em sua caixa, colocado no tokonoma da sala de estar no andar de baixo. A placa com os dizeres “Komyokai” (Mundo de Luz), por sua vez, permanece entronizada no segundo andar, que está alugado. Gostaria de saber se esta situação é apropriada. Adicionalmente, informo que, desde julho deste ano, venho recebendo uma purificação em forma de uma condição semelhante a um derrame.
-
-**Meishu-Sama:** A leitura dos Ensinamentos Divinos contribui para a melhora do acidente vascular cerebral. (18 de dezembro de 1949)
-
-### 033. O Futuro de um Homem com um Filho Ilegítimo que Ingressou na Fé
-
-**Pergunta:** Um homem de trinta e oito anos, embora casado e com filhos, envolveu-se com outra mulher, e a desarmonia em seu lar atingiu o ápice. Felizmente, graças aos méritos de Kannon, a paz foi restaurada. Ele agora se dedica com afinco à fé, mas a referida mulher está para dar à luz um filho fruto dessa relação. Ele se angustia, buscando uma maneira de resolver a situação de forma harmoniosa. Que orientação poderia receber? Como adendo, a mulher em questão possui uma conduta leviana; este será seu terceiro filho, sendo que o anterior foi eliminado às ocultas. No momento, estamos tentando persuadi-la a ingressar na fé.
-
-**Meishu-Sama:** Questões dessa natureza devem ser entregues a Kannon. Não há necessidade de que o ser humano se preocupe ou tente resolver por si só.
-
-Contudo, entregar não significa inação. A pessoa envolvida deve se empenhar em ajudar o maior número possível de pessoas. O acúmulo dessa virtude atenuará seu sofrimento. É preciso polir a si mesmo. Em todas as situações, quando o pensamento humano não alcança uma solução, entregar o problema a Deus resulta em uma resolução primorosa. Eu mesmo procedo dessa forma.
-
-### 034. Investimento na Indústria Farmacêutica
-
-**Pergunta:** A família de meu marido possuía uma tradição na fabricação de remédios caseiros. Durante a guerra, o negócio foi interrompido, mas recentemente, por questões de subsistência, decidiram retomá-lo. Foi solicitado que eu providenciasse o capital. Sendo algo relacionado a medicamentos, senti um profundo desconforto, mas, por obrigações com os parentes, vi-me forçada a enviar o dinheiro. No mesmo dia, sofri um acidente no trem e, no meu local de trabalho, insistiram em tratar meu ferimento com remédios. Gostaria de saber se investir em medicamentos e permitir que meus parentes continuem a fabricá-los constitui um pecado espiritual.
-
-**Meishu-Sama:** É um pecado gravíssimo. Pior que o de ladrões e assaltantes. (Refere-se àqueles que fabricam e vendem remédios).
-
-Entregue a situação a Deus e, após algum tempo, interrompa essa atividade. Retomar algo que já havia sido abandonado é extremamente negativo. É preciso cessar terminantemente. Os espíritos ancestrais também desejam que pare. O seu ferimento é uma advertência deles. Aquilo em que se acredita ser errado deve ser abandonado de forma absoluta. Mesmo que você pare, eles não ficarão desamparados.
-
-Essas atividades prejudicam o corpo de muitas pessoas. Praticá-las com pleno conhecimento de causa é absolutamente inaceitável. (Não há pecado maior do que dar ou vender remédios. Se a pessoa o faz por ignorância, é perdoável). (3 de abril de 1949)
-
-### 035. Caçador que Ingressou na Fé
-
-**Pergunta:** Um homem de cinquenta e um anos, durante o sono, por vezes emite um som agudo, como um chiado. Seus pais sofriam de asma; o pai faleceu e a mãe está acamada. Ele, além de agricultor, é caçador e ocasionalmente captura javalis. Sua esposa é membro da nossa Igreja, e a casa deles funciona como um local de Johrei. Esta condição seria uma herança de asma? Como podemos ajudá-lo a ser salvo?
-
-**Meishu-Sama:** É melhor que ele deixe de ser caçador.
-
-### 036. Sofrimento com Pesadelos por Trabalhar em um Hospital
-
-**Pergunta:** Desejo ardentemente poder servir na Obra de Kannon, mas as circunstâncias não me permitem. Atualmente, trabalho em um hospital, uma atividade diametralmente oposta aos princípios de Kannon. Ultimamente, quase todas as noites tenho sonhos desagradáveis e, ao despertar, minhas aflições se intensificam. Após muita reflexão, decidi deixar meu trabalho no hospital. Rogo por sua proteção.
-
-**Meishu-Sama:** Deixe o trabalho o mais rápido possível. (9 de outubro de 1949)
-
-### 037. Como Remover os Obstáculos de Crenças Religiosas Anteriores
-
-**Pergunta:** Quando um fiel de outra religião decide se dedicar exclusivamente ao nosso Caminho, sua antiga crença frequentemente se torna um empecilho. Como devemos proceder em tais casos? Solicitamos sua orientação.
-
-**Meishu-Sama:** (O melhor é não interferir. A mudança não é imediata). É como tingir um tecido novamente: remover a cor original demanda tempo e paciência.
-
-A religião é uma questão de pensamento; portanto, é difícil corrigi-la abruptamente. É uma questão de tempo. Durante esse período, deve-se aguardar.
-
-Ocorre, no entanto, que muitas vezes a pessoa que tenta remover a “cor” de outra também está “tingida”. Antes de se preocupar com os outros, é fundamental que essa pessoa reflita profundamente sobre sua própria condição. (8 de outubro de 1949)
-
-### 038. A Fé na Nossa Igreja e na Konkokyo
-
-**Pergunta:** Meus pais e toda a minha família praticam a fé na Konkokyo há mais de vinte anos. Temos recebido grandes graças e, até hoje, reverenciamos seus deuses como divindades-tronco, juntamente com a fé em nossa Igreja. Gostaria de saber se tal prática é correta. Desejamos continuar a crer da mesma forma que antes. Qual seria a sua orientação?
-
-**Meishu-Sama:** Por enquanto, não há alternativa, mas manter ambas as fés perpetuamente não é correto. O nível espiritual é completamente diferente. A Konkokyo estaria no nível de um discípulo de um discípulo. Não se deve forçar a compreensão; o melhor é aguardar o momento oportuno e entregar a situação a Deus. (27 de novembro de 1949)
-
-### 039. A Fé Simultânea na Nossa Igreja e na Seicho-no-Ie
-
-**Pergunta:**
-1. Sendo membro de nossa Igreja, é permissível praticar o Shinsokan da Seicho-no-Ie? É correto recitar a sutra "Kanro no Hou" diante do altar budista?
-2. Consta em uma revelação divina do "Acendedor dos Sete Faróis" que, quando a flor de lótus Myofu de Kannon se abrir, está escrito: “Vós, compreendei e agradecei a todas as coisas do Céu e da Terra”. Peço que me esclareça a relação entre Kannon e a grande divindade da Seicho-no-Ie.
-
-**Meishu-Sama:**
-1. Não é permitido. É preciso escolher uma ou outra.
-2. Não conheço a Seicho-no-Ie em profundidade. (15 de fevereiro de 1949)
-
-### 040. Manter a Fé em Kobo
-
-**Pergunta:** No passado, fui salvo pela minha fé em Kobo-sama e continuei a praticá-la. Recentemente, passei a ter fé em Kannon, e a doença de meu filho foi curada pelo Johrei. No entanto, estou praticando a fé em dois caminhos, o de Kannon e o de Kobo. Gostaria de saber se isso é apropriado.
-
-**Meishu-Sama:** Isso também não é correto. Mais precisamente, se você tem fé em Kannon, a fé em Kobo se torna desnecessária. Kobo, na verdade, é um discípulo de Shakyamuni, e Shakyamuni é um discípulo de Kannon.
-
-### 041. Sogra que Pratica os Rituais da Reiyukai
-
-**Pergunta:** A família para a qual minha irmã se casou filiou-se à Reiyukai, uma religião em voga atualmente, e a sogra dela é uma praticante fervorosa. Ela insiste que a desarmonia familiar é causada pelos antepassados, tornando a convivência muito difícil. Quando surge um problema em casa, ela afirma que, se os nomes póstumos budistas de nossa família forem entronizados no altar de sua casa para que ela possa recitar o daimoku, a harmonia será restaurada. Mesmo que digamos: "Nós já cultuamos Komyo Nyorai, portanto não é necessário que a senhora realize ofícios por nós", a sogra se recusa a ouvir. Consequentemente, minha irmã está em uma situação delicada. O que ela deve fazer?
-
-**Meishu-Sama:** É melhor deixá-la fazer o que deseja. Os espíritos estão cientes da situação e não a culparão. Se houver alguma consequência, recairá sobre a sogra. Adote uma postura de não-resistência, permita que ela aja como quiser, para que se sinta bem, e aguarde o momento certo. Assim, o que é bom se manifestará como bom, e o que é ruim, como ruim. É importante não perder o espírito de tolerância e saber esperar. Se os espíritos ancestrais não aprovarem, eles tomarão alguma providência.
-
-### 042. Competição de Fé entre Pai e Filho
-
-**Pergunta:** Minha casa serve como local de difusão, e tenho a permissão de servir. Quando ingressei na fé (janeiro de 1948), meu pai, simultaneamente, aderiu à fé da Ontakekyo. Ambos, pai e filho, seguimos fervorosamente nossos respectivos caminhos. Eu me dedico ao máximo para não ficar atrás de meu pai, mas, quanto mais me esforço, mais ele me desafia, e as coisas não correm bem. Diante desta situação, que método devo adotar daqui para frente? Por favor, oriente-me.
-
-**Meishu-Sama:** A atitude competitiva é incorreta. Aja com não-resistência. Se você "vencer", seu pai ficará ainda mais exaltado; portanto, procure "perder".
-
-Na fé, não deve haver qualquer tipo de conflito. Havendo conflito, a derrota é nossa. (27 de agosto de 1949)
-
-### 043. Pai que Esconde a Imagem Divina
-
-**Pergunta:** Ingressei na fé há dois anos e, em outubro do ano passado, tive a permissão de entronizar a Imagem de Komyo Nyorai. Tenho um pai de setenta e seis anos que é extremamente devoto do budismo. Ele não gostou da Imagem de Komyo Nyorai e, no dia 23 deste mês, removeu-a e escondeu-a sob os tatames. Fiquei assustada e pedi ao responsável pela difusão que guardasse a Imagem temporariamente. O que devo fazer? E como posso fazer meu pai compreender?
-
-**Meishu-Sama:** Komyo Nyorai também é um Buda. Na realidade, um espírito maligno possuiu seu pai. Não se preocupe, aguarde o momento oportuno e apenas entregue a situação a Deus. (28 de abril de 1949)
-
-### 044. Sobre a Participação em Cursos (Reciclagem e Troca da Proteção Sagrada)
-
-**Pergunta:** É apropriado que pessoas sem vigor, sofrendo de neurastenia ou condições semelhantes, participem dos cursos? Após um curso de reciclagem, é necessário trocar a Proteção Sagrada (Omamori)?
-
-**Meishu-Sama:** Sim, podem participar.
-
-Quanto à reciclagem, não há necessidade de trocar a Proteção Sagrada. Contudo, se for o desejo da pessoa, não há problema.
-
-A atual Proteção Sagrada, o Ohikari, não deve ser trocada. (1948)
-
-*Nota de rodapé (rattail): [Palestra de Meishu-Sama (28 de julho de 1948), da Coletânea de Palestras. Data de publicação desconhecida, estimada por volta de 1951.]*
-*— Quando mudamos de ministro orientador, devemos receber uma nova Proteção Sagrada...?*
-*“Dependendo das circunstâncias, a Proteção Sagrada pode ser trocada. Contudo, a que está sendo outorgada agora não deve ser substituída. As anteriores foram caligrafadas com um foco na cura, enquanto a atual foi caligrafada com um propósito religioso. As antigas devem ser guardadas ou emolduradas.”*
-
-### 045. A Morte Prematura de Animais
-
-**Pergunta:** Gostaria de entender a ligação da linha espiritual e a relação cármica entre um dono e seu animal de estimação, quando este animal é um ser humano reencarnado. Além disso, se o dono é um membro da Igreja, o espírito que decaiu à condição de animal também é purificado e, por isso, morre mais cedo?
-
-**Meishu-Sama:** Quando são purificados, eles podem renascer como seres humanos mais rapidamente. Para que isso ocorra, é necessário que deixem o corpo animal. Portanto, existe a lógica de que possam vir a morrer um pouco mais cedo.
-
-Há, inclusive, muitos animais que desejam ser mortos.
-
----
-
-# Sintonias Espirituais (Coletânea de Teses do Mestre Jikan Okada)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** （上）
-**Título Original:** 浄霊篇 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Sintonias Espirituais (Coletânea de Teses do Mestre Jikan Okada)
-
-**097. Fadiga e dor no coração durante o Johrei**
-
-**Pergunta:** Ao ministrar Johrei, sinto fadiga, meu coração palpita e experimento dor. Haveria algo de errado comigo?
-
-**Resposta:** Tais ocorrências são comuns e se devem à influência de um espírito.
-
-**098. Sonolência ao ministrar Johrei a uma pessoa específica**
-
-**Pergunta:** Por que razão, ao ministrar Johrei a uma pessoa em particular, sou acometido por uma forte sonolência?
-
-**Resposta:** Sim, há pessoas que sentem sono. Adormecer não é um mau sinal. Se o enfermo estiver em um estado de espírito otimista, não há motivo para preocupação; o que é prejudicial é a aflição. O simples ato de fixar o olhar em alguém pode induzir sonolência. Há casos, também, em que um espírito provoca o sono. O espírito que atua no enfermo, sentindo o sofrimento da purificação, pode induzir o sono no ministrante ou no próprio paciente.
-
-**099. Sonolência durante o Johrei**
-
-**Pergunta:** É um fenômeno comum na região de Tohoku: ao receber Johrei, a pessoa cochila em pé ou seu corpo oscila como se estivesse em um barco. Há também quem sorria de forma aparentemente inconsciente. Qual seria a razão para tais manifestações?
-
-**Resposta:** Isso provavelmente se deve à falta de sono. Quando se está sonolento, é possível adormecer até mesmo enquanto se caminha. Eu mesmo, muitas vezes, adormeci enquanto ministrava Johrei.
-
-**100. Mão que se agita amplamente durante o Johrei**
-
-**Pergunta:** Sou filho de uma relação extraconjugal e, poucos meses após meu nascimento, fui entregue para adoção a outra família (os Tonosoku). Meu pai adotivo detestava crianças e, como eu sofria de problemas gastrointestinais e chorava incessantemente, era alvo de suas punições. Relatam que ele chegou a mergulhar minha cabeça em água quente, entre outras crueldades indescritíveis. Posteriormente, fui entregue a outra família (os Kuriyama), mas minha saúde frágil permaneceu inalterada, levando-me a estados de morte aparente por duas ou três vezes.
-
-Além disso, por volta dos seis anos, um lampião de teto caiu sobre minha cabeça, causando-me queimaduras gravíssimas em quase todo o corpo, que, felizmente, se curaram sem deixar cicatrizes. Talvez em decorrência da crueldade sofrida na infância ou da minha própria debilidade, até hoje minha visão é deficiente, necessitando de óculos com dez graus, e tenho audição precária, o que me impõe grandes limitações.
-
-Como o patriarca da família Kuriyama, que me acolheu, era zelador de um templo xintoísta, após concluir o ensino primário superior, tornei-me aprendiz de sacerdote. Fui então adotado por essa família e, em 1941, com o consentimento de meu pai adotivo, converti-me do Budismo Shingon para o Xintoísmo. Tempos depois, ingressei na Igreja Kannon e, um ano mais tarde, em maio de 1948, comecei a servir na Obra Divina.
-
-Contudo, em janeiro deste ano, algo surpreendente ocorreu: enquanto ministrava Johrei, ao aproximar a palma da mão da área afetada, meu braço, do punho para baixo, passou a se agitar de forma súbita, ampla e vigorosa. Desde então, o fenômeno se repete, o que me deixa perplexo. Meu orientador espiritual afirma que tais manifestações estão relacionadas a profundos laços cármicos. Gostaria de receber seus esclarecimentos sobre as possíveis causas da minha deficiência visual e auditiva e desses misteriosos movimentos durante o Johrei. Haverá salvação para minhas limitações físicas? E quem, ou o quê, provoca esse estranho agitar de minhas mãos? Ainda não tenho a imagem de Komyo Nyorai consagrada em meu lar.
-
-**Resposta:** Primeiramente, é imprescindível que o senhor consagre a imagem de Komyo Nyorai. Sua situação atual assemelha-se à de alguém que permanece no portão, sem adentrar a sala de visitas. A deficiência em sua visão e audição parece ser resultado de coágulos formados por hemorragias internas, decorrentes dos maus-tratos sofridos. O agitar das mãos é um fenômeno espiritual, causado por um espírito secundário que possui tal característica. (26/02/1949)
-
-**101. Manifestações de purificação no ministrante**
-
-**Pergunta:** Quando estou ministrando Johrei em alguém, meu estômago faz ruídos e tenho eructações. O que isso significa?
-
-**Resposta:** Significa que, ao ministrar Johrei, você também está sendo purificado.
-
-**102. Posição do corpo e a liberação de gases (eructações)**
-
-**Pergunta:** Gostaria de saber por que, ao ministrar Johrei a pessoas sem gravidade, quando o faço com elas sentadas, a liberação de espíritos e eructações ocorre com mais facilidade, ao passo que, se estão deitadas ou conversando, isso parece não acontecer.
-
-**Resposta:** Eructações são gases, e a natureza dos gases é ascender; por isso, saem mais facilmente pela boca. Quando a pessoa está deitada, a passagem fica obstruída. É uma interpretação puramente física. Não há problema algum em ministrar Johrei com a pessoa em pé. (11/08/1949)
-
-**103. Sentir náuseas ao se dedicar ao Johrei**
-
-**Pergunta:** Após me dedicar ao Johrei por dois ou três dias, sinto náuseas e vontade de vomitar. Qual seria a razão para isso?
-
-**Resposta:** É um fenômeno excelente. Significa que as impurezas estão sendo expelidas. (15/07/1949)
-
-**104. Sensação na palma da mão e interferências na Luz do Johrei**
-
-**Pergunta:** Ao receber Johrei, algumas pessoas sentem um calor intenso ou um formigamento, enquanto outras vezes, nós, ministrantes, notamos uma diferença na sensação dependendo de quem o recebe. Qual a causa disso?
-
-**Resposta:** Existem diversas causas para tal fenômeno, e uma delas está relacionada à constituição daquele que recebe o Johrei. Quando a pessoa possui predominância do elemento água em sua constituição, a sensação de calor é mais intensa, pois o Johrei é centrado no elemento fogo, e o fogo arde com mais vigor em contato com a água. Esta é a causa mais comum.
-
-Outro fator relevante é a interferência espiritual que pode afetar o paciente. Por exemplo, se na família houver alguém que se oponha veementemente ao tratamento pela fé, com pensamentos do tipo: “Cura pela fé é impossível, é preciso procurar um médico!”, o espírito vivo dessa pessoa pode se ligar ao doente para criar obstáculos. Nesses casos, nem o paciente nem o ministrante sentirão o calor.
-
-Da mesma forma, o próprio ministrante pode sofrer interferências espirituais. Existem muitos espíritos que se aproximam para nos confundir e obstruir nosso serviço. Sob essa influência, a emanação do elemento fogo diminui, e o calor não é percebido. Enfim, embora as causas sejam variadas, a essência é esta.
-
-O mais importante é não se preocupar com tais minúcias. Apegando-se a cada detalhe, o desgaste será inevitável. Basta que ministre com a mente serena e desapegada.
-
-**105. Formigamento na palma da mão durante o Johrei**
-
-**Pergunta:** Há pessoas que, ao ministrarem Johrei na área do corpo que está purificando (o foco da doença), sentem um nítido formigamento na palma da mão. O que isso significa?
-
-**Resposta:** É algo que ocorre com frequência. Trata-se de uma espécie de faculdade espiritual. Mesmo pessoas comuns, com a prática, podem desenvolvê-la até certo ponto. (25/01/19**)
-
-**106. Variação na sensibilidade à emanação espiritual**
-
-**Pergunta:** Quais são as causas da diferença de sensibilidade à emanação espiritual entre as pessoas que recebem Johrei?
-
-**Resposta:** A sensibilidade varia segundo o ministrante, os laços cármicos, os pensamentos, entre outros fatores. Depende também da antiguidade e da profundidade da fé do ministrante. Não é possível estabelecer uma regra fixa.
-
-**107. Sensibilidade ao Johrei**
-
-**Pergunta:** Ao receber Johrei, por que existem pessoas com alta e baixa sensibilidade?
-
-**Resposta:** Trata-se de uma característica inata, não havendo uma razão específica. É natural que os seres humanos sejam assim, da mesma forma que existem pessoas mais e menos suscetíveis. (28/02/1950)
-
-**108. Sensibilidade ao Johrei**
-
-**Pergunta:** Costuma-se dizer que tanto quem ministra quanto quem recebe Johrei pode sentir ou não algo. Seria correto afirmar que o ideal é não sentir nada?
-
-**Resposta:** A sensibilidade varia de acordo com quem recebe, e a intensidade da sensação varia de acordo com quem ministra. O ideal é ter uma espiritualidade elevada e, consequentemente, sentir. Isso reflete a força da fé e a elevação da alma. (26/11/1949)
-
-**109. Sentir a Luz Divina durante o Johrei**
-
-**Pergunta:** Entre os fiéis com quem me relaciono, há uma pessoa que afirma sentir a Luz Divina entrar e sair de seu corpo ao receber Johrei. Contudo, ela diz que, após ter tido sarna ou ao receber Johrei por um longo período, deixou de sentir. Isso gera questionamentos sobre a intensidade da Luz e cria dificuldades na difusão. Como posso explicar-lhe a situação de forma que ela compreenda?
-
-**Resposta:** De fato, há pessoas que percebem a entrada da Luz Divina em seu corpo. O surgimento da sarna é uma ação de purificação. (Nota do autor: A pergunta deveria detalhar melhor os pontos essenciais.) (18/06/1949)
-
-**110. Sensação de formigamento doloroso na mão do ministrante**
-
-**Pergunta:** Existem pessoas que, ao ministrarem Johrei, relatam sentir uma dor semelhante a um formigamento na própria mão quando esta toca o foco da doença. Qual a razão para isso? Elas também afirmam que, quando sentem esse formigamento, a cura ocorre, mas, quando não sentem, não há melhora. Gostaria de receber esclarecimentos sobre ambos os pontos.
-
-**Resposta:** Certas pessoas possuem essa capacidade. A sensibilidade em determinada parte do corpo varia conforme a doença, pois a energia espiritual está sendo bloqueada naquela região. Pode ocorrer, também, que o espírito protetor do ministrante atue dessa maneira. Mesmo pessoas comuns, através da prática, podem desenvolver essa faculdade em certo grau. (08/07/19**)
-
-**111. Calafrios com o Johrei**
-
-**Pergunta:** Uma fiel de dezenove anos sente um frio constante, que se intensifica ao receber Johrei, chegando a provocar-lhe tremores por todo o corpo. Suas mãos e pés estão sempre gelados como gelo e úmidos. Qual seria a causa?
-
-**Resposta:** Trata-se do calafrio característico da febre de purificação. A causa reside na força espiritual insuficiente do ministrante, que não consegue dissolver a origem do problema. O processo será longo, mas a cura é certa. Recomendo que ela receba Johrei de um membro mais antigo e experiente. (12/04/1950)
-
-**112. Sensação de choque elétrico ao tocar os cabelos**
-
-**Pergunta:** No meu caso, ao receber Johrei, no instante em que a mão do ministrante toca meus cabelos, sinto um “choque”, como se tivesse recebido uma descarga elétrica. Qual a explicação?
-
-**Resposta:** Isso ocorre porque seus cabelos são sensíveis e percebem a energia espiritual. Pode também ser um caso de toxinas de medicamentos. Quando certos tipos de remédios se acumulam na superfície da pele, podem provocar uma sensação dolorosa.
-
-**113. Sensação de calor ao receber Johrei de uma pessoa específica**
-
-**Pergunta:** Há uma senhora de vinte e seis ou vinte e sete anos que, ao receber Johrei, sente calafrios e uma sensação de pressão no peito e no abdômen, não importando quem seja o ministrante. Entretanto, há uma única exceção: um homem de quarenta e cinco anos chamado Yanagawa. Somente quando recebe Johrei dele, ela sente o corpo aquecer e chega a transpirar. Eles não têm nenhum parentesco, conheceram-se apenas através da Igreja. Qual seria a razão para este fenômeno?
-
-**Resposta:** Existem linhagens espirituais do Sol, da Lua e da Terra, e cada uma emana uma energia espiritual distinta. O correto é sentir calor, mas este é um fenômeno temporário. A energia de espíritos de parentes próximos costuma ser sentida com mais calor; o fato de não serem parentes indica uma afinidade espiritual de outra natureza. (01/03/1950)
-
----
-
-# Arte da Medicina (Parte 1) — Doenças Oculares (2)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-**Título Original:** 医術篇（一） | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Arte da Medicina (Parte 1) — Doenças Oculares (2)
-
-**075 Protrusão do Globo Ocular**
-
-Uma jovem de vinte anos, Tomita Emiko, sofre do estômago e dos intestinos desde os doze ou treze anos, o que a deixou debilitada. Ademais, há cinco anos padece de um problema ocular e, atualmente, seu olho direito está protruído, impossibilitando-a de enxergar. Haveria alguma causa espiritual para essa condição? Rogo também por sua orientação sobre como proceder com o Johrei.
-
-Não há nenhuma relação espiritual; o problema restringe-se aos olhos. A protrusão ocular pode ocorrer em decorrência da Doença de Basedow ou pode ser causada por toxinas que pressionam o globo ocular por trás. Este último parece ser o caso. A doença sequer teria se manifestado se ela não tivesse tomado medicamentos. Seus problemas gastrointestinais são, na totalidade, uma intoxicação medicamentosa. (7.6.1949)
-
-**076 Sobre o Tremor do Globo Ocular**
-
-Um homem de 42 anos apresenta um tremor constante nos globos oculares. Embora não sinta nenhum desconforto, gostaria de saber se essa condição pode ser remediada com o Johrei.
-
-Tem cura. (3.6.1949)
-
-**077 Estrabismo**
-
-Minha filha, Sachiko, de dezoito anos, sofre de estrabismo. Como poderemos obter sua salvação? Nossa família, com cinco membros, já recebeu a graça de ingressar na fé e temos o Omamori Dai-Kōmyō Nyorai devidamente entronizado em nosso lar.
-
-As toxinas estão a pressionar o nervo motor ocular. A condição será remediada com a ministração de Johrei na região frontal, com foco nos olhos, e também ao redor do pescoço. (26.4.1950)
-
-**078 Estrabismo Divergente**
-
-Qual a causa espiritual do estrabismo divergente?
-
-A causa é semelhante à da gagueira: um dos ligamentos que movimentam o olho encurtou-se devido às toxinas. Havendo um distúrbio no nervo ocular, a condição é curável através do Johrei ministrado na parte posterior dos olhos. (12.12.1948)
-
-**079 Estrabismo**
-
-O problema popularmente conhecido como estrabismo é de ordem espiritual ou física? Pode ser curado com o Johrei?
-
-Na maioria dos casos, a causa é física. Um dos ligamentos do olho não se estende adequadamente. Com o Johrei, a condição é curável.
-
-**080 Estrabismo**
-
-O estrabismo tem origem espiritual? E pode ser curado pelo Johrei?
-
-Toxinas na cabeça estão a comprimir os músculos oculares, manifestando-se nos olhos. Por essa razão, a pessoa sente um certo ofuscamento. Basta purificar a cabeça. (16.7.1949)
-
-**081 Aniridia (Ausência de Pupila)**
-
-Uma menina de dois anos, cega de nascença, não possui pupilas. Creio que, com o Johrei, as pupilas possam surgir gradualmente e que ela volte a enxergar um pouco. Qual a sua elucidação?
-
-Tem cura. A menor alteração já indica o início da recuperação. O surgimento de secreção ocular, por exemplo, pode ser visto como um sinal de que o processo de melhora começou. A pupila é algo que se dilata e se contrai; portanto, ela não está ausente, apenas não está visível. Não é recomendável aplicar vapor. Houve um caso anterior em que o paciente quase perdeu a visão por ter feito isso.
-
-**082 Pupilas sem Foco e Esclera Avermelhada**
-
-O cristalino do olho esquerdo de uma pessoa está límpido, mas sua pupila não tem foco. O olho direito tem cerca de um terço da córnea afetada, e ambos foram submetidos a cirurgia. Ela vem recebendo Johrei há um ano e meio. No início, não sentia a Luz Divina, mas, após uns dois meses, passou a sentir uma ardência. Recentemente, em dias de bom tempo, consegue perceber vultos negros quando alguém passa à sua frente e também já distingue o piscar das luzes elétricas. Ela aprecia bebidas alcoólicas; isso é prejudicial? A parte branca de seus olhos fica vermelha, lacrimeja e causa uma sensação de corpo estranho. Esses sintomas ocorrem continuamente. Haveria possibilidade de cura total?
-
-Tanto o lacrimejar quanto a sensação de corpo estranho serão remediados. Acredito que a condição tenha sido agravada pelos médicos. É preciso ministrar Johrei intensamente na cabeça. Levará um tempo considerável. (6.1.1949)
-
-**083 Visão de Objeto Negro em Movimento**
-
-Uma senhora de sessenta anos vê um objeto negro, semelhante a uma bola de gude, movendo-se a poucos centímetros diante de seu olho direito. Outra senhora, de cinquenta e cinco anos, vê algo cinzento como um inseto de uns três centímetros movendo-se a pouca distância de seu rosto, na altura da sobrancelha esquerda. Em ambos os casos, apenas elas próprias têm essa visão. Qual seria a causa?
-
-Há uma solidificação de toxinas na parte superior da pupila. Existe algo ali. Com Johrei ministrado pacientemente, a condição será curada.
-
-**084 Brilho Amarelado no Centro do Olho**
-
-Um paciente, cujo centro do globo ocular brilha com uma tonalidade dourada, ainda não enxerga absolutamente nada. Ele poderá ser curado?
-
-Trata-se de uma pessoa de elevada estatura e força espiritual. A cegueira é a doença. Há um obstáculo dentro da pupila. Quando o amarelo for eliminado, ele voltará a enxergar. Provavelmente, alguma toxina especial foi utilizada como medicamento, tornando-se um corpo estranho.
-
-**085 Visão Dupla**
-
-Uma senhora de 61 anos, não membro, começou a sentir dores no olho esquerdo por volta das 21h do dia 16 de julho deste ano. Na manhã seguinte, passou a ver tudo em duplicidade e frequentou um hospital por cerca de um mês. Desde 18 de outubro, vem receber Johrei. Recentemente, as dores cessaram, mas a visão dupla permanece inalterada. Há 25 anos, ela sofreu por quatro anos com tracoma e triquíase, tendo sido submetida a uma cirurgia. A visão dupla pode ser corrigida com Johrei? Rogo por seus esclarecimentos.
-
-As toxinas estão sendo expelidas pelos olhos, o que causa uma leve dilatação da pupila. Por isso, ela enxerga em duplicidade. (21.11.1949)
-
-**086 Presbiopia**
-
-A hipermetropia de idade, ou presbiopia, pode ser curada com Johrei?
-
-A presbiopia pode ser remediada até certo ponto, mas não por completo, pois, com o envelhecer, todas as funções orgânicas naturalmente declinam. É impossível que voltem a ser como na juventude. (Contudo, os casos de presbiopia precoce são curáveis). (27.1.1949)
-
-**087 Perda de Visão**
-
-Um homem de 67 anos, há alguns anos, sem motivo aparente, começou a ter a visão turva e, em pouco tempo, perdeu-a completamente. Depois disso, passou a cultuar uma divindade-raposa e hoje se comporta como se estivesse possuído por uma. Ocorre que, seja de dia ou de noite, ao despertar subitamente, ele consegue enxergar até as linhas das mãos, mas a visão logo se turva e desaparece. Qual seria a razão para tal fenômeno?
-
-Trata-se de um acúmulo gradual de toxinas no fundo do olho. Como foram solidificadas com colírios, levará um tempo considerável, mas a cura é possível. O surgimento de secreção ocular indicará o início da recuperação. (14.3.1949)
-
-**088 Astigmatismo**
-
-1. Gostaria de perguntar sobre o astigmatismo.
-2. Uma menina de dois ou três anos, desde agosto do ano passado, apresentava uma protuberância no umbigo que aparecia e desaparecia. Recentemente, a protuberância tornou-se permanente e aumenta de tamanho quando ela chora. Essa condição pode ser curada pelo Johrei?
-
-1. O astigmatismo é causado por uma solidificação na região do bulbo raquidiano que obstrui o fluxo sanguíneo para os olhos. (23.9.1949)
-
-**089 Mancha na Visão**
-
-Em junho do ano passado, enquanto eu trabalhava com um esmeril em uma metalúrgica, um pó de latão atingiu meu olho. Busquei tratamento médico imediatamente, mas, quatro dias depois, surgiu uma mancha na minha visão, e o quadro piorou. Continuei o tratamento por cerca de cinco meses e, então, ingressei nesta fé e comecei a receber Johrei. No início, minha visão melhorou um pouco, mas, depois, por algum motivo, não progredi mais. Gostaria que me ensinasse a causa.
-
-A causa foi ter recorrido à medicina. A mancha é uma intoxicação causada pelo acúmulo de medicamentos. Se perseverar com paciência, será curado.
-
-**090 Surgimento de Mancha no Olho**
-
-Minha esposa, Shizue, de 67 anos, há trinta anos, teve a visão do olho direito embaçada por uma mancha, e assim permaneceu até hoje. Desde novembro do ano passado, ela vem recebendo Johrei continuamente. Após entronizarmos o Omamori Kōmyō Nyorai, uma turvação carnosa, avermelhada e branca, começou a surgir do canto interno de ambos os olhos, cobrindo a pupila e dificultando a visão. Seria um fenômeno espiritual? E como devemos proceder? Rogo por seus ensinamentos.
-
-O pus que estava solidificado começou a se dissolver, o que é um excelente sinal. É um estado temporário. Dependendo do olho, a visão pode ser temporariamente perdida. (7.9.1949)
-
-**091 Descolamento de Retina**
-
-O membro Kikuti Kitizo, de 37 anos, tem problemas de visão desde o primário e já passou por diversas cirurgias. Em 1946, começou a receber Johrei e melhorou um pouco. Contudo, na primavera deste ano, iniciou-se um novo processo de purificação, e em pouco tempo ele perdeu completamente a visão do olho esquerdo. A visão do olho direito também foi se deteriorando, e hoje ele enxerga apenas vultos. Os médicos diagnosticaram descolamento de retina ou glaucoma. Será possível obter sua salvação? Ele ingressou na fé em 1946, tinha a Imagem de Kannon e, em setembro deste ano, recebeu o Omamori Dai-Kōmyō Nyorai. Toda a família é de fiéis devotos. Rogo por sua orientação.
-
-A condição piorou por causa das cirurgias. Há um acúmulo de toxinas medicamentosas. O quadro atual é positivo; certamente será curado. O descolamento foi provocado durante um dos procedimentos cirúrgicos. (23.12.1949)
-
-**092 Descolamento de Retina**
-
-Um homem de quarenta anos perdeu a visão do olho direito há mais de dez anos devido a um descolamento de retina. Há dois anos, seu olho esquerdo também foi diagnosticado com o mesmo problema, e ele passou por três cirurgias. Atualmente, enxerga muito pouco.
-1. Qual é a causa do descolamento de retina?
-2. Desde que comecei a receber Johrei, a secreção ocular aumentou. Posso interpretar isso como um sinal de que serei salvo?
-3. Ele relata que, ao receber Johrei na cabeça, seu ombro direito enrijece. Qual seria a causa disso?
-
-Embora eu não conheça os detalhes, o descolamento ocorre, provavelmente, porque toxinas se acumulam entre a retina e o cristalino, afastando-os. A condição pode ser remediada, a despeito das cirurgias. O aumento da secreção ocular pode ser considerado um sinal de cura. O enrijecimento do ombro é um processo de purificação equilibrada da cabeça. (23.7.1949)
-
-**093 Criança Cega**
-
-Uma criança perdeu a visão na infância. O diagnóstico médico foi de descolamento de retina, mas, até os oito anos, ela conseguia distinguir claro e escuro. Atualmente, uma membrana branca cobre suas pupilas e ela não enxerga nada. Com o Johrei, essa membrana começou a diminuir. Será possível que, pela sua proteção, ela volte a enxergar ao menos um pouco?
-
-A camada branca é pus solidificado. Tem cura. O processo será longo porque foram aplicados colírios. O surgimento de secreção ocular e lágrimas é um bom sinal. (3.5.1950)
-
-**094 Cegueira após pancada na nuca**
-
-Meu pai, Rinosuke, de 65 anos, no final de 1945, feriu o olho com um pequeno galho, o que afetou a conjuntiva esquerda, o cérebro e os ouvidos. Ele foi tratado pela medicina e recuperou-se por completo. Porém, em dezembro de 1946, caiu em uma casa de banhos, bateu a nuca e, no mesmo mês, contraiu tétano. Desde 15 de dezembro de 1947, está cego. Gostaria de solicitar seus esclarecimentos sobre esse quadro.
-
-Se tivesse deixado como estava, teria se curado. Ao aplicar medicamentos, estes penetram pela ferida e causam uma doença por intoxicação medicamentosa. Não há relação entre a sola dos pés e os olhos. Quando ele caiu na casa de banhos, houve uma hemorragia interna na nuca. A condição será remediada com Johrei nessa região. (6.4.1950)
-
-**095 Nervo Óptico (Lesão por Queda)**
-
-Há uma pessoa que, segundo a medicina, perdeu a visão de um olho porque o nervo óptico se rompeu em uma queda de um lugar alto. Rogo por seus ensinamentos a respeito do nervo óptico.
-
-O nervo óptico, que se conecta ao cérebro, pode de fato se romper. Se o rompimento for limpo, ele pode se reconectar; caso contrário, não. Pode haver também o caso de uma hemorragia interna que solidificou e está a comprimir o nervo, impedindo a visão. De todo modo, é impossível saber sem antes ministrar o Johrei, que deve ser aplicado na região entre o olho e a cabeça, e também nas laterais. (9.6.1949)
-
----
-
-# Coletânea de Ensaios do Mestre Jikan Okada
-
-**Categoria:** kouwa | **Ano:** 昭和24(1949)年10月21日 | **Fonte:** 御Hikari話録
-**Título Original:** - | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1949-10-21
-
-## Coletânea de Ensaios do Mestre Jikan Okada
-## Busca de Ensinamentos: help Busca de Materiais: Estudos Espirituais - Volume 3 - Elucidação sobre os Diversos Espíritos (Parte 1)
-
-## 041-054 Morte Violenta e Espíritos Aprisionados à Terra
-
-**041 A Condição Espiritual de Grandes Vultos que Tiveram Morte Súbita**
-
-Mesmo no caso de grandes vultos da história que tiveram uma morte trágica, como Jesus ou Gandhi, é possível que ascendam diretamente ao Paraíso? Ademais, em situações como a do Sr. Shimoyama, cujo corpo foi desmembrado, qual se torna a condição de seu corpo espiritual no Mundo Espiritual?
-
-Jesus, por ser um líder religioso, ressuscitou diretamente para o Paraíso. Gandhi, embora tenha se engajado em um movimento político, sua abordagem não era a convencional. Seguia, em geral, o estilo indiano, o método dos ascetas brâmanes. Por essa razão, ele primeiramente desce ao inferno para, em seguida, ascender rapidamente ao Paraíso. Mortes dessa natureza acarretam grande sofrimento no inferno.
-
-Quanto ao Sr. Shimoyama, seu corpo espiritual se recompõe em pouco tempo. Contudo, ele sentirá dor por um período após a morte. Se os familiares lhe oferecerem sufrágios, ele readquire a forma humana com relativa rapidez, processo que leva cerca de uma semana. (13 de julho de 1949)
-
-**042 A Diferença no Momento da Morte dos Criminosos de Guerra**
-
-Foi noticiado que os sete criminosos de guerra executados por enforcamento levaram tempos distintos para expirar. Qual é o estado espiritual deles nesse momento? O espírito se desprende ao subir ao patíbulo ou somente no instante da morte? E, durante esse intervalo, o espírito sofre?
-
-A diferença no tempo para expirar é natural, pois decorre de variações na constituição física de cada um e no posicionamento da corda no pescoço. (Antigamente, houve casos de crucificados que não morriam mesmo após serem perfurados sete vezes). O sofrimento do estrangulamento é transportado tal como é para o Mundo Espiritual, e o espírito permanece nesse estado por algum tempo. Os sufrágios trazem algum alívio, contudo, para eles, o processo será longo; acredito que permanecerão assim por décadas. O espírito transita para o Mundo Espiritual no estado exato do momento da morte. No caso das vítimas de bombardeio, o processo é mais rápido. Aqueles cujos corpos foram pulverizados recompõem a forma humana em poucos dias, mas, a princípio, permanecem em estado de torpor, sem consciência. (27 de dezembro de 1949)
-
-**043 O Pós-Morte de Quem se Afogou ao Tentar Salvar Alguém**
-
-Qual se torna a condição, no Mundo Espiritual, daquele que morre ao tentar salvar uma pessoa que estava se afogando?
-
-Ele desce ao inferno, mas consegue sair rapidamente. Não se torna um espírito aprisionado à Terra.
-
-**044 A Consciência de um Espírito Morto em Explosão**
-
-Gostaria que me ensinasse um método para salvar o espírito de minha avó, que, segundo ouvi, morreu há três anos em uma explosão numa província distante.
-
-Quem morre em uma explosão tem o corpo pulverizado. Embora a recomposição seja relativamente rápida, a súbita perda de suas faculdades no momento da explosão o lança em um estado semelhante à demência. Assim, mesmo após readquirir a forma humana, o espírito permanece em torpor, desprovido de consciência. Entoar a Oração Amatsu-Norito com frequência o ajudará a recuperar a consciência mais depressa. Sua melhora dependerá da virtude que acumulou em vida e da dedicação dos familiares nos sufrágios. Deve-se colocá-lo próximo à imagem de Komyō Nyorai. (6 de janeiro de 1949)
-
-**045 O Sacrifício Humano como Pilar Resulta em Aprisionamento à Terra?**
-
-Desde a antiguidade, ouvimos relatos sobre sacrifícios humanos, os chamados “pilares humanos”, em grandes obras de rios e canais. Aqueles que morrem como pilares humanos também se tornam espíritos aprisionados à Terra, limitados a um período de trinta anos? Ademais, como o ato é praticado com o sentimento de beneficiar o mundo e as pessoas, de que forma seus méritos e deméritos são avaliados no Mundo Espiritual? Rogo que me conceda seus ensinamentos.
-
-A condição é diferente da de um espírito aprisionado à Terra comum. Trata-se de um ato de autossacrifício, cuja motivação é nobre. Ainda assim, não deixa de ser um suicídio, e o suicídio é um pecado. Portanto, a pessoa se torna um espírito aprisionado ao local onde se lançou, mas ascende ao Paraíso em pouco tempo. Por ser um suicídio, contudo, é necessário que haja uma purificação correspondente a esse pecado. (22 de agosto de 1949)
-
-**046 O Espírito de um Peregrino Morto de Forma Violenta (Como Proceder)**
-
-A terra pertencente a uma fiel que orientei (Sra. Iku Tanaka, 47 anos) era, antigamente, o local de um túmulo de um peregrino. Há cerca de dois meses, sempre que a Sra. Iku vai ao campo, sua voz sai involuntariamente, entoando preces budistas e repetindo “rokubu, rokubu” (peregrino). A imagem de um peregrino surge diante de seus olhos, sua cabeça fica pesada e ela não consegue dormir à noite, sofrendo de igual modo durante o dia. Em sua casa, a Sra. Iku cultua a imagem de Komyō Nyorai, e tanto ela quanto seus dois filhos recebem Johrei. Contudo, mesmo indo ao campo para entoar a Oração Amatsu-Norito e oferecendo sufrágios em casa com alimentos por uma semana, as vozes não cessaram e ela só consegue dormir por duas ou três horas. Como devo proceder para consolar esse espírito? Rogo por sua orientação.
-
-O espírito do peregrino ainda não foi salvo. Ele teve uma morte violenta, provavelmente foi assassinado. Vá até o local no campo onde ele parece estar enterrado e erga uma estela de madeira ou algo semelhante, inscrevendo um nome para ele. Ofereça-lhe água e, como deve estar faminto, algum alimento, e entoe a Oração Amatsu-Norito. O espírito está obscurecido por seu forte apego. Se fizer isso por meio mês ou um mês, obterá resultado. (18 de agosto de 1949)
-
-**047 O Significado de Espírito Aprisionado à Terra**
-
-Compreendi que os espíritos de suicidas se tornam espíritos aprisionados à Terra. Gostaria de saber, no entanto, qual a diferença entre estes e outros espíritos que permanecem no local da morte, como as vítimas de um assassinato seguido de suicídio, os espíritos remanescentes de antigos campos de batalha, os mortos em desastres súbitos, os que foram confinados e assassinados em um cômodo ou os que cometeram suicídio em lealdade a seu mestre.
-
-Todos, sem exceção, são espíritos aprisionados à Terra. Qualquer morte que não seja por doença, ou seja, toda morte violenta, resulta em um espírito aprisionado à Terra. Um assassinato seguido de suicídio forçado é, na verdade, um homicídio, sendo, portanto, fundamentalmente diferente de um suicídio consensual.
-
-**048 O Limite de Tempo do Aprisionamento à Terra**
-
-Minha casa está localizada no terreno de uma antiga residência de samurais, que, segundo dizem, foi um local de decapitações. Sem saber disso, comprei o terreno e construí minha casa. Em 28 de novembro de 1941, durante um grande tornado, minha filha mais velha morreu sob os escombros da casa, que não chegou a desabar. Agora, fui acometido por uma doença súbita e busquei a salvação do Mestre, passando a cultuar a imagem de Komyō Nyorai. Posso continuar morando neste lugar? Por favor, ensine-me.
-
-A presença de um espírito que teve morte violenta torna o local inadequado para se viver. Normalmente, esses espíritos permanecem ali por cerca de trinta anos, mas os que têm um apego muito forte podem ficar por mais tempo. Contudo, ao cultuar a imagem de Komyō Nyorai, o espírito será salvo e, em gratidão, passará a retribuir o bem recebido. Portanto, não há problema em permanecer. No ponto exato onde ocorriam as decapitações, erga uma pequena placa de pedra ou uma estela de madeira e, por aproximadamente três anos, entoe a oração uma vez por dia.
-
-**049 A Possessão por um Espírito Aprisionado à Terra**
-
-Foi-nos ensinado que um espírito aprisionado à Terra não pode se afastar mais do que algumas dezenas de metros do local. Como podemos interpretar, então, o fato de ele conseguir obsidiar uma pessoa que se encontra distante? Rogo por seus ensinamentos.
-
-Em geral, isso não ocorre. Contudo, se houver um vínculo espiritual preexistente com a pessoa, o espírito pode obsidiá-la a uma distância considerável.
-
-**050 O Pós-Morte dos Soldados Mortos em Combate**
-
-Em que condições os espíritos dos soldados mortos em combate ascendem aos Céus?
-
-Por se tratar de uma morte em batalha, eles se enquadram na categoria de espíritos aprisionados à Terra. Todavia, como seu coração estava imbuído do sentimento de servir à pátria, eles se libertam rapidamente do local, descem uma vez ao inferno e, após passarem pela purificação espiritual, são salvos. Embora seja uma forma de suicídio, a motivação é nobre, o que torna a purificação no inferno mais breve.
-
-**051 Paralisia Infantil (Espírito de Enforcado)**
-
-Um bebê de nove meses ainda não firma o pescoço. Pensei tratar-se de paralisia infantil congênita e perguntei se havia algum caso de morte violenta entre os antepassados. Disseram-me que a avó se enforcou há três anos. Seria uma reencarnação ou uma obsessão?
-
-A causa são as injeções. Quando aplicadas logo após o nascimento, elas paralisam o desenvolvimento ósseo. Com perseverança, a criança se curará. Quanto à avó, um espírito que se enforcou não reencarna em três ou cinco anos. Por ser um espírito aprisionado à Terra, ele só poderá reencarnar após muitas décadas.
-
-**052 A Maldição de um Espírito Aprisionado e Corrompido, e a Coluna Invertida**
-
-Um repatriado no vilarejo de Atsuta, em Hokkaido, alugou uma casa por cortesia da prefeitura. Pouco tempo depois, duas pessoas da família morreram. Ele se mudou e, na nova casa, outras duas faleceram. Pela terceira vez, novamente por gentileza da prefeitura, ao se preparar para entrar na residência atual, sua esposa teve a visão de um caixão sendo carregado para fora da casa. Ela disse ao marido que não queria entrar, mas ele a repreendeu, dizendo que era um absurdo e que deviam aceitar a gentileza. Contudo, em menos de dois meses, mais dois filhos morreram. A cada mudança, duas pessoas morrem. Não seria algo de natureza espiritual? Além disso, na terceira casa, o pilar principal da sala de visitas está instalado de cabeça para baixo.
-
-Há dois espíritos aprisionados à Terra amaldiçoando a família. Eles agem em parte por solidão e em parte por um sentimento perverso de inveja dos vivos. São espíritos de natureza deturpada, ou seja, espíritos malignos. A única forma de salvá-los é através da fé, cultuando a imagem de Komyō Nyorai e entoando a oração. Quanto ao pilar invertido, é inadmissível. Espiritualmente, é um erro grave. O pilar é um elemento fundamental e, nessa condição, ele simboliza a incapacidade de sustentar a casa, levando-a à ruína. A família deve ingressar na fé para resolver a situação.
-
-**053 O Fantasma de uma Jovem**
-
-Durante uma missão na Casa de Difusão de Kashiwazaki, em 10 de setembro, despertei de madrugada e vi a silhueta de uma jovem do lado de fora do mosquiteiro onde eu dormia. Ela se sentou, fez uma reverência e partiu em silêncio. Os membros da Casa de Difusão disseram que, às vezes, ouvem passos subindo a escada para o segundo andar. Dizem não sentir nenhuma melancolia. Que tipo de manifestação espiritual seria essa?
-
-É um espírito aprisionado à Terra, de alguém que teve uma morte violenta. A oração é eficaz. (3 de outubro de 1949)
-
-**054 Ter Pesadelos ao Dormir sob uma Viga (O Medo e o Espírito Guardião Secundário)**
-
-Um conhecido de um fiel ouviu dizer que dormir sob uma viga causa pesadelos e decidiu experimentar quando se hospedou em um lugar. Ele começou a ter pesadelos depois das dez da noite. Por volta das duas da manhã, mudou de posição e dormiu tranquilamente até o amanhecer. Há algum significado espiritual nisso?
-
-Provavelmente havia um espírito na viga, talvez de alguém que se enforcou ou de outra pessoa que teve uma morte violenta no forro. Além disso, quando o ser humano abriga o sentimento de medo, seu espírito guardião secundário costuma pregar-lhe peças. (22 de janeiro de 1950)
-
----
-
-# Tratado sobre a Arte da Cura (Dez)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** （十）
-**Título Original:** 医術篇 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Tratado sobre a Arte da Cura (Dez)
-## 5. A Purificação no Puerpério
-
-**058. A aparência envelhecida das multíparas**
-
-**Pergunta:** As mulheres que deram à luz muitos filhos aparentam ser mais velhas do que aquelas que não tiveram filhos. Considerando que dar à luz é o cumprimento de uma missão celestial, qual seria a razão para tal fenômeno? Rogo que nos elucide a esse respeito.
-
-**Meishu-Sama:** Isso não é necessariamente verdade. Há mulheres que, mesmo tendo muitos filhos, mantêm uma aparência jovial. O que provavelmente ocorre é que, em função das múltiplas responsabilidades, elas não se dedicam a cuidados com a aparência, o que lhes confere um aspecto envelhecido. Na realidade, o parto é um processo que expulsa toxinas e, por conseguinte, deveria promover o rejuvenescimento. O que de fato envelhece é o uso de medicamentos. (9 de setembro de 1924)
-
-**059. Cefaleia e afluxo de sangue à cabeça no pós-parto**
-
-**Pergunta:** Dei à luz em outubro de 1948 e, quatro horas após o parto, tive uma hemorragia intensa que exigiu assistência médica e uma curetagem uterina. Catorze dias depois, ao realizar tarefas domésticas, tive uma recaída e precisei ficar de cama novamente, sob cuidados médicos. Melhorei após cerca de um mês, mas as sequelas voltaram a se manifestar. Recorri a banhos de assento e medicamentos potentes, o que agravou drasticamente meu estado, causando zumbido nos ouvidos, cefaleia, afluxo de sangue à cabeça e agitação na circulação ao menor movimento, a ponto de não conseguir ir ao banheiro. Desde janeiro deste ano, suspendi os medicamentos e venho recebendo Johrei, mas meu quadro oscila entre melhoras e pioras. Em que áreas o Johrei deve ser concentrado para maior eficácia? Peço sua orientação.
-
-**Meishu-Sama:** A área primordial é a cabeça e toda a região do pescoço. A causa é o *yakudoku* (impurezas medicamentosas). A cura virá à medida que essas impurezas forem eliminadas. Com perseverança, a recuperação será completa.
-
-**060. Susto no pós-parto e cefaleia persistente**
-
-**Pergunta:** Há vinte anos, logo após um parto, sofri um pequeno susto e, desde então, a dor de cabeça nunca mais desapareceu. Tenho muitos sonhos e, quando acordo por volta das onze ou doze da noite, não consigo mais dormir. Qual seria a causa?
-
-**Meishu-Sama:** Após o parto, é comum que resíduos de sangue se acumulem no abdômen. Subsequentemente, as toxinas se dirigem para as áreas de maior atividade nervosa. No caso em questão, o susto direcionou esse fluxo para a cabeça. O tratamento requer perseverança no Johrei. Se, por exemplo, a pessoa fizesse uso excessivo das pernas, o fluxo se dirigiria a elas, podendo, com o passar dos anos, causar dormência e paralisia. Por essa razão, qualquer atividade deve ser retomada gradualmente, apenas após o término do sangramento. Enquanto houver a presença de lóquios, a recuperação ainda não está consolidada, devendo-se evitar esforços intensos. Cumpre notar que os coágulos de sangue antigo são relativamente difíceis de dissolver. (6 de janeiro de 1924)
-
-**061. Vertigem, rubor facial, pés frios e palpitações no pós-parto (Influência espiritual)**
-
-**Pergunta:** Sou uma mulher de trinta e três anos. Tive meu primeiro filho em janeiro do ano passado. No final de março deste ano, senti uma vertigem súbita e uma sensação de desmaio, acompanhada de calor intenso apenas no rosto e na cabeça, e pés extremamente frios, o que me forçou a ficar acamada. A partir do final de abril, embora minha pulsação estivesse normal, comecei a sentir fortes palpitações que ressoavam na cabeça. Ocasionalmente, sinto uma pressão que sobe da região do diafragma para o peito, meu rosto fica quente e minha visão, turva. Utilizava bolsas de água quente nos pés e compressas de água fria na cabeça, tomava um preparado fitoterápico e, até meados de setembro, recebi diversas injeções de hormônios, cânfora, vitaminas e estimulantes, sem qualquer efeito. A cada consulta, os médicos davam um diagnóstico diferente: taquicardia, beribéri cardíaco, distúrbios da linhagem sanguínea. No final de setembro, comecei a receber Johrei. No terceiro dia, tive uma menstruação mais abundante que o habitual, sem outras alterações. Após uns dez dias, a pressão sob os seios aliviou, mas comecei a sentir uma nova pressão, que antes não existia, subindo da região do umbigo para o peito esquerdo e a cabeça, e as palpitações não melhoraram muito. Atualmente, sinto endurecimentos ao redor do umbigo e na região do estômago, e há cerca de sete dias meu abdômen produz ruídos. Meu apetite se mantém normal desde o início da doença, e quase não houve debilidade física. Qual a causa dessas palpitações? Acrescento que tanto minha mãe quanto minha avó faleceram de doenças cardíacas; haveria alguma relação espiritual?
-
-**Meishu-Sama:** Espíritos dessa natureza costumam atuar. No puerpério, as preocupações e o esforço mental fazem com que os resíduos de sangue subam. Esse sangue solidificou-se temporariamente, e sua purificação iniciou-se no final de março. As toxinas no rosto, ao serem purificadas, causam o rubor. As palpitações são causadas pela atuação do espírito de sua avó. Com Johrei, ela será curada. (19 de outubro de 1924)
-
-**062. Palpitações e vertigem decorrentes de sangue antigo**
-
-**Pergunta:** Uma senhora de trinta e oito anos, após um parto há quatro anos, começou a apresentar uma curvatura progressiva na coluna e problemas cardíacos, com palpitações ao menor esforço. Além disso, ao levantar-se da cama, sente uma vertigem tão intensa que demora a se recuperar. Ela vem recebendo Johrei há quatro meses e, embora tenha melhorado consideravelmente, vive amedrontada, com a sensação de que há algo a perturbando. Seu cunhado cometeu suicídio e a casa onde mora foi construída no local de uma antiga cocheira. Haveria alguma influência espiritual? Essa doença tem cura completa? Ela já ingressou na fé.
-
-**Meishu-Sama:** Não há influência espiritual. A causa reside nos resíduos de sangue do parto que se acumularam na região lombar, provavelmente por excesso de esforço no período de resguardo. Esse sangue antigo solidificou-se próximo ao coração — entre o estômago e o coração — ou se estendeu da lombar até a região cardíaca, provocando palpitações ao menor movimento. Uma dessas duas hipóteses é a correta. A vertigem é uma anemia cerebral, que se manifesta ao mover a cabeça. Como o sangue está solidificado, a recuperação levará algum tempo. (8 de novembro de 1924)
-
-**063. Calafrios decorrentes de distúrbios da linhagem sanguínea**
-
-**Pergunta:** Há vinte anos, após um parto, sofri de distúrbios da linhagem sanguínea e de uma afecção renal. Até poucos anos atrás, recorri a todo tipo de tratamento, como medicamentos, acupuntura e moxabustão. Como resultado, hoje tenho os movimentos de todo o corpo entorpecidos, sinto o lado esquerdo do corpo frio e demoro a me aquecer na cama. Há um ano, venho recebendo Johrei. O *yakudoku* (impurezas medicamentosas) causou queda de cabelo, mas já noto um crescimento de fios finos. Por ser uma doença crônica, a melhora é lenta. Suspeito que a doença possa estar sendo agravada por alguma influência espiritual (estou em meu segundo casamento; meu marido está no quarto; a terceira esposa dele tinha um espírito de raposa que a fazia ir ao encontro do marido todos os dias). Acredito que a recuperação levará muitos anos.
-
-**Meishu-Sama:** A causa é o *yakudoku* (impurezas medicamentosas). Tratamentos que promovem um alívio temporário acabam por gerar a semente de um sofrimento ainda maior. Pode haver também uma influência espiritual, mas o Johrei certamente trará a cura.
-
-**064. Distúrbios da linhagem sanguínea no pós-parto**
-
-**Pergunta:** Sou uma mulher de quarenta e um anos e há treze sofro com distúrbios da linhagem sanguínea decorrentes do pós-parto. Desde janeiro do ano passado, venho recebendo Johrei e melhorando bastante. Contudo, dizem que tais distúrbios são incuráveis. Isso é verdade?
-
-**Meishu-Sama:** Os distúrbios da linhagem sanguínea no pós-parto ocorrem quando a mulher, antes que todo o sangue residual seja expelido, submete uma parte do corpo a esforço mental ou físico, fazendo com que o sangue se acumule naquele local. Esse sangue, em geral, é de difícil eliminação. Tais distúrbios são perfeitamente curáveis e apresentam os mais variados sintomas. O ideal é que, por setenta e cinco dias, a mulher se abstenha de suas atividades rotineiras. Após esse período, ela estará praticamente restabelecida.
-
-**065. Amenorreia e resfriamento uterino no pós-parto**
-
-**Pergunta:** Dei à luz aos vinte e um anos e, desde uma hemorragia que tive no pós-parto, nunca mais menstruei. Eu já sofria de calafrios, mas o diagnóstico médico não apontou nenhuma anormalidade. É natural para uma mulher ter seu ciclo mensal. Recebo Johrei há quase dois anos e os calafrios melhoraram muito, mas a menstruação ainda não retornou. Qual seria a razão? Se eu continuar com o Johrei, meu ciclo poderá se normalizar?
-
-**Meishu-Sama:** Frequentemente, durante a eliminação do sangue antigo, o útero sofre um resfriamento. Isso faz com que o sangue se solidifique e obstrua as trompas, impedindo a passagem do fluxo menstrual. A dor menstrual, por sua vez, ocorre quando o sangue tenta forçar essa passagem. Continue com o Johrei para dissolver esses coágulos. (27 de outubro de 1924)
-
-**066. Amenorreia no pós-parto**
-
-**Pergunta:** Tenho quarenta anos. Aos trinta e um, após dar à luz, menstruei apenas uma vez, e meu ciclo cessou. Faz três anos que recebi a permissão de ministrar Johrei, mas a situação permanece a mesma. A ausência de menstruação pode trazer algum problema?
-
-**Meishu-Sama:** A ausência de menstruação é um problema. Em casos como o avanço da tuberculose, por exemplo, o ciclo cessa. A amenorreia indica uma debilidade interna considerável. (As causas podem ser anemia ou obstrução das trompas, mas geralmente é anemia). (3 de fevereiro de 1924)
-
-**067. Menstruação e amenorreia no pós-parto**
-
-**Pergunta:** Qual a razão de algumas mulheres menstruarem logo após o parto, enquanto outras permanecem sem menstruar até a gravidez seguinte? Qual das duas condições é a mais adequada? Qual a relação entre a menstruação e a capacidade de conceber?
-
-**Meishu-Sama:** Não é natural que a menstruação retorne imediatamente após o parto. O que ocorre é a eliminação de resíduos de sangue antigo. É possível engravidar mesmo sem menstruar, embora não seja o ideal. Em mulheres mais velhas, isso pode acontecer, mas em jovens, não.
-
-**068. Varizes no pós-parto**
-
-**Pergunta:** Existe uma condição popularmente conhecida como "sunbaku", comum em mulheres que deram à luz, na qual os vasos sanguíneos de uma parte do corpo se tornam salientes e avermelhados, como vermes. Em alguns casos, a pessoa também apresenta espasmos em certas partes do corpo. Qual o significado disso?
-
-**Meishu-Sama:** Essa condição é mais frequente nas pernas. Ocorre quando a mulher, antes da completa eliminação do sangue antigo no pós-parto, utiliza excessivamente as pernas, fazendo com que o sangue se solidifique ali. Durante o período de eliminação dos lóquios, deve-se evitar concentrar esforço em uma única parte do corpo. Os espasmos, que são cãibras, decorrem desse acúmulo. (22 de julho de 1924)
-
-**069. Dificuldade de locomoção nos membros inferiores no pós-parto**
-
-**Pergunta:** Estou ministrando Johrei em uma pessoa que, há oito anos, após um parto, ficou com os joelhos inchados e com a mobilidade reduzida. Ela poderá voltar a se mover livremente? Onde devo concentrar o Johrei?
-
-**Meishu-Sama:** Sim, ela será curada. Quando a mulher caminha antes que todo o sangue antigo seja expelido, ele se acumula na parte posterior dos joelhos. Ao pressionar essa área, é possível sentir um nódulo dolorido. Ministre Johrei nesse local, e ela se recuperará. Durante o puerpério, é prejudicial concentrar a atividade nervosa em um único ponto enquanto os lóquios não forem completamente eliminados. A psicose puerperal, por exemplo, é frequentemente causada por esses resíduos de sangue. O Johrei os elimina. (16 de novembro de 1923)
-
-**070. Dificuldade de locomoção no pós-parto**
-
-**Pergunta:** Uma senhora de trinta e cinco anos, não messiânica, teve febre puerperal após o parto em junho do ano passado. Ficou internada até setembro e, quando começou a caminhar, em outubro, passou a ter dificuldade de locomoção. Atualmente, está acamada, com dificuldade até para se virar. Sempre que recebe visitas ou quando alguém a toca, por mais leve que seja o contato, ela começa a suar ininterruptamente e a sentir um frio intenso. Sua alimentação se resume a uma tigela de mingau de arroz por dia, e ela está bastante debilitada. Há um fato adicional: seu sogro, embriagado, caiu na rua e morreu carbonizado pelo fogo de sua própria lanterna. É normal que uma febre puerperal dure tanto tempo?
-
-**Meishu-Sama:** Não há relação com espíritos. A dificuldade de locomoção é causada pelo *yakudoku* (impurezas medicamentosas). Com perseverança, ela será curada. Em alguns casos, a recuperação pode ser relativamente rápida.
-
-**071. Manchas avermelhadas nas pernas de uma mulher**
-
-**Pergunta:** Uma mulher de quarenta anos está com as pernas inchadas e com manchas avermelhadas que a impedem de ficar de pé. Manchas semelhantes também apareceram em seu rosto. Qual a razão? Ela ingressou na Igreja em setembro deste ano.
-
-**Meishu-Sama:** É uma ocorrência comum em mulheres que já tiveram filhos. Trata-se de uma hemorragia interna causada pelo *yakudoku* (impurezas medicamentosas). No puerpério, por exemplo, o uso excessivo das pernas pode levar a esse quadro. Em outros casos, a causa pode estar relacionada à menstruação ou ao *yakudoku*. O sangue impuro, através da purificação, aflora à pele. Essas manchas vermelhas não são septicemia. (1924)
-
-**072. Inchaço recorrente na sola dos pés a cada parto**
-
-**Pergunta:** Há mulheres que, na sola dos pés, apresentam veias arroxeadas e salientes, semelhantes a vermes. A causa é o esforço de caminhar antes da completa eliminação do sangue antigo do puerpério, fazendo com que este se acumule nos pés. Uma vez que essa tendência se estabelece, o fenômeno se repete a cada parto. A purificação causada pela planta *Geronium thunbergii* (gennoshouko) geralmente é fatal; é uma espécie de suicídio, pois facilita o desenvolvimento de peritonite. Na primeira semana após o parto, é preciso repouso. Deve-se evitar esforço físico enquanto o sangue antigo estiver sendo eliminado, o que leva cerca de três semanas. Enquanto houver a presença de lóquios, não se deve sobrecarregar o corpo. (1923)
-
-**073. Sangramento leve e prolongado e frio na região lombar e nas pernas após o parto**
-
-**Pergunta:** Sou uma mulher de trinta e seis anos. Dez anos atrás, após o nascimento do meu segundo filho, meu abdômen adquiriu o volume de uma gestação de três meses. Por cerca de sete anos, minha menstruação foi regular, mas depois passei a ter um sangramento leve e diário por um ano e meio. Desde então, há aproximadamente um ano, o sangramento ocorre quinzenalmente. Não sinto dor, mas a região lombar e as pernas ficam extremamente frias, e se como um pouco a mais, tenho dificuldade para dormir. Até hoje, o único tratamento médico que fiz foi moxabustão. Rogo que me elucide sobre a causa, o método de Johrei e a possibilidade de engravidar.
-
-**Meishu-Sama:** Há alguma anomalia. Mesmo medicamentos tomados na infância podem ter uma influência profunda. Não importa quantos anos passem, as impurezas medicamentosas não diminuem. O ser humano só consegue digerir alimentos; tudo o que não é comestível permanece no organismo. Trata-se de um caso de rim atrofiado, que será curado com Johrei. A área que armazena o sangue menstrual está flácida, causando o vazamento. É possível engravidar. (29 de julho de 1924)
-
-**074. Dor lombar, desvio na coluna e incapacidade de andar no pós-parto**
-
-**Pergunta:** Em abril de 1948, três meses após o parto, comecei a sentir dor na região lombar e minha coluna entortou. Em julho, meus joelhos perderam a força e não consegui mais andar. Em seguida, minhas pernas começaram a ter espasmos. Consultei um médico, que me disse que uma cirurgia resolveria o problema. Fui internada em janeiro do ano passado e, em maio, passei por uma cirurgia na medula espinhal. No entanto, os espasmos não cessaram e continuei sem poder andar. Dois meses depois, tive uma febre de mais de quarenta graus e, logo em seguida, os espasmos pararam e consegui ficar de pé com apoio. Recebi alta em setembro, mas depois disso os espasmos pioraram, voltei a não conseguir andar e minhas pernas ficaram contraídas. Em outubro, ouvi falar sobre Kannon (観音) e minha mãe ingressou na Igreja e começou a ministrar Johrei em mim, mas não houve grande mudança. O que devo fazer para ser salva?
-
-**Meishu-Sama:** Há um acúmulo de sangue antigo do pós-parto. Ele está comprimindo os músculos e os nervos das pernas. A cirurgia, por ter sido inadequada, não curou os espasmos. Se a região lombar for bem purificada com Johrei, a cura é certa. Seria bom receber Johrei de um membro mais antigo de vez em quando. (26 de abril de 1925)
-
-**075. Febre puerperal**
-
-**Pergunta:** Minha família é composta por nove pessoas e vivemos da agricultura. Nos últimos três anos, a mesma pessoa teve pneumonia três vezes, e após um parto, teve febre alta e perdeu a consciência. Meu pai também sofre de nevralgia. Qual a razão de tudo isso? Em particular, no caso da febre pós-parto, a pessoa em si não sente tanto sofrimento, embora para quem a vê pareça estar sofrendo muito. Em que pontos devo concentrar o Johrei?
-
-**Meishu-Sama:** Isso é febre puerperal. Apalpe todo o corpo e ministre Johrei na parte mais quente. A febre se origina de um único ponto. Pressione e encontrará o local dolorido. Purifique essa área. (26 de novembro de 1924)
-
-**076. Nevralgia persistente no pós-parto**
-
-**Pergunta:** Uma senhora de cinquenta anos teve uma má recuperação de parto. Venho lhe ministrando Johrei desde o outono de 1946, mas seu estado tem piorado gradativamente, e agora ela nem consegue se levantar. Ela recebeu o Ohikari em 1946. Atualmente, seu quadro se assemelha a uma nevralgia. Qual seria a causa? É uma condição curável?
-
-**Meishu-Sama:** Deveria ser curada sem dificuldade. Ou o ponto focal está errado, ou a força espiritual é insuficiente. O ponto vital não está sendo atingido. Há um ponto dolorido na parte inferior dos rins. O que há no rosto é um certo tipo de *yakudoku* (impureza medicamentosa). A força espiritual varia de pessoa para pessoa. Quanto mais tempo de prática, mais forte é a irradiação espiritual. (15 de março de 1924)
-
-**077. Parto e câncer de esôfago**
-
-**Pergunta:** A esposa de um conhecido, de quarenta e três anos, teve uma má recuperação após o parto. Ao consultar um médico, foi diagnosticada com câncer de esôfago. Ela tem pouco apetite e está sofrendo muito. Acabamos de começar a ministrar Johrei, mas como tenho pouca experiência, peço, humildemente, que me ensine a causa e o método de Johrei.
-
-**Meishu-Sama:** O parto não causa câncer de esôfago. Não há relação entre as duas coisas. É difícil determinar se é de fato câncer de esôfago ou não. (Descreva o caso com mais detalhes).
-
----
-
-# Deidades da Linhagem Lunar
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-**Título Original:** 万神篇 | **Status:** Published | **Edição/Página:** - | **Data ISO:** -
-
-## Deidades da Linhagem Lunar
-
-**068 A Distinção entre os Ideogramas de “Izanagi” e “Izanami”**
-
-Por que razão os nomes das duas divindades, Izanagi e Izanami, contêm o ideograma “邪” (maligno)? Gostaríamos também de saber por que o ideograma “弉” por vezes é utilizado. Solicitamos seu esclarecimento a esse respeito.
-
-Provavelmente, trata-se do uso de ideogramas com valor puramente fonético. De fato, a deidade Izanami-no-Mikoto chegou a manifestar uma atuação maligna. No entanto, como o ideograma foi empregado apenas para representar um som, não é necessário se prender a tal detalhe. (11.09.1949)
-
-**069 A Atuação de Izanami-no-Mikoto**
-
-Considerando que a aparição de Izanagi-no-Mikoto inaugura o Mundo do Dia e que, após seu recolhimento, a atuação de Izanami-no-Mikoto se torna obscurecida, seria correto afirmar que a manifestação desta última inaugura o Mundo da Noite?
-
-Izanami-no-Mikoto sucumbe ao mundo do crime, ou seja, aos espíritos demoníacos, e por essa razão se torna maligna. A lógica é análoga à de um espírito que se apossa de alguém cuja mente está repleta de toxinas. Em suma, a era de Izanami-no-Mikoto corresponde à Noite, e sua forma de atuar revela uma fraqueza que permite a atividade dos demônios.
-
-**070 O Exílio de Susanoo-no-Mikoto e a Mudança no Mundo**
-
-Por que o Mundo do Dia não se instaurou mesmo após Izanagi-no-Mikoto ter exilado Susanoo-no-Mikoto do Japão? Rogamos seus esclarecimentos.
-
-Não é tanto Susanoo-no-Mikoto quem domina a Lua, mas a Lua que o domina. Conforme a época, Deus lhe designa uma determinada missão. Não há necessidade de pensar que uma coisa está invariavelmente ligada à outra. Com o exílio de Susanoo-no-Mikoto do Japão, uma divindade substituta é criada. Okuninushi-no-Mikoto, por exemplo, sucedeu-o e assumiu o governo.
-
-**071 As Três Gerações de Susanoo-no-Mikoto**
-
-Ouvimos dizer que existem três gerações de Susanoo-no-Mikoto. Gostaríamos de saber quem são, qual a sua relação e quais as suas respectivas atuações.
-
-Existe uma relação de parentesco, de pai e filho.
-
-O primeiro é Kami Susanoo-no-Mikoto (神素盞嗚尊). Sua esposa é Otohime, e ele foi para o Ocidente. Vindo da Coreia, ocupou e governou o Japão, tornando-se posteriormente Amida Nyorai (阿弥陀如来).
-
-O segundo é Haya Susanoo-no-Mikoto (速素盞嗚尊), a divindade que subjugou a serpente de oito cabeças e desposou a princesa Kushinadahime.
-
-O terceiro é Takehaya Susanoo-no-Mikoto (竹速素盞嗚尊), que em seguida se tornou Okuninushi-no-Mikoto e, mais tarde, o Dairokuten Mao (第六天魔王).
-
-Daizaiten e Taishakuten são divindades da Índia.
-
-**072 Kami Susanoo e Susanoo**
-
-Existem três gerações: a primeira é Kami Susanoo (神素盞嗚), a seguinte é Haya Susanoo (速素盞嗚) e a terceira é Takehaya Susanoo (竹速素盞嗚). Geralmente, todas são abreviadas para Susanoo-no-Mikoto. O primeiro a chegar a Izumo foi aquele que salvou a princesa Kushinadahime e aniquilou a serpente de oito cabeças, Yamata-no-Orochi, cujo sangue, diz-se, correu em tal quantidade que tingiu o rio de vermelho. Este foi Kami Susanoo-no-Mikoto, que tomou Kushinadahime como sua esposa (a segunda). Ele construiu um palácio chamado Suga-no-miya. Ao entrar na morada, sentiu uma sensação tão revigorante (*sugasugashii*) que assim a nomeou.
-
-O ideograma *su* (ス) significa "o que está no topo", e *sa* (サ) significa "ajudar", tendo, portanto, o sentido de "braço direito". Contudo, ambicionando tornar-se ele próprio o mestre, recorreu à força militar. Por esse motivo, incorreu na ira de Izanagi-no-Mikoto e foi exilado.
-
-Certa vez, vi um retrato de Susanoo-no-Mikoto. Possuía um rosto alongado, de feições inteligentes. Era uma divindade notável, dotada de grande poder.
-
-Ele é, fundamentalmente, uma divindade coreana. Segundo as lendas, desceu sobre o Monte Soshimori. É o deus mais reverenciado na Coreia.
-
-Na China, é conhecido como Panku Shenwang; no Japão, como Amaterasu Oomikami; na Índia, como Daizaiten; e na Ásia Menor, como o deus Alá. Seu nome varia conforme o país. (1948)
-
-**073 Susanoo-no-Mikoto, a Maçonaria e a Medicina**
-
-Qual a relação entre o desígnio noturno de Susanoo-no-Mikoto, a medicina ocidental, a maçonaria e o comunismo? Gostaríamos de receber seus esclarecimentos.
-
-Existe uma profunda correlação. O significado é que Susanoo-no-Mikoto foi subjugado por espíritos de deuses malignos. Visto que a natureza de Susanoo-no-Mikoto já é de vosso conhecimento, não há necessidade de me aprofundar no assunto.
-
-**074 O Mito da Subjugação da Serpente Yamata-no-Orochi**
-
-Solicito seus esclarecimentos sobre o significado do mito da subjugação da serpente Yamata-no-Orochi por Susanoo-no-Mikoto.
-
-Sobre a serpente Yamata-no-Orochi, creio tratar-se de um fato. Existem três Susanoo-no-Mikoto.
-
-Conta-se que ele subjugou a criatura que exigia a princesa Kushinadahime como sacrifício humano e, em seguida, tomou-a como esposa. Depois, construiu uma residência chamada Palácio de Suga. Diz-se que, ao chegar pela primeira vez, agradou-se do local e exclamou: "Ah, que lugar revigorante!". Este deve ter sido o primeiro, Kami Susanoo-no-Mikoto.
-
-Pela ciência do Kototama, "Kushinada" significa "Japão"; a partir de então, ele passou a governar o país. Existe uma interpretação segundo a qual ele dominou o Japão após subjugar um grupo de salteadores chamado Yamata-no-Orochi, que habitava a região. Creio que essa interpretação também seja válida. (18.07.1948)
-
-**075 O Significado da Reunião dos Deuses no Mês de Kannazuki**
-
-É verdade que durante o chamado *Kannazuki* (mês sem deuses), as diversas divindades realmente se reúnem em Izumo? E seria correto interpretar que essas divindades que se reúnem são espíritos malignos?
-
-Na realidade, os deuses não se reúnem em Izumo; eles partem de Izumo. Susanoo-no-Mikoto veio da Coreia, estabeleceu uma corte em Izumo e se tornou Okuninushi-no-Mikoto, mas foi derrotado pelo Imperador Jimmu. Por essa razão, os deuses de ascendência coreana retornam à Coreia partindo do Cabo Hi-no-misaki. É por isso que se chama *Kannazuki*. Portanto, o evento não possui qualquer outra conotação.
-
-**076 A Divindade Consagrada no Santuário Hinomisaki-jingu**
-
-O Grande Santuário de Hinomisaki consagra uma emanação espiritual de Amaterasu Oomikami?
-
-É possível que seja uma emanação espiritual de Amaterasu Oomikami. De lá, em outubro de cada ano, os deuses retornavam à Coreia. Esse é o *Kannazuki*. (02.03.1949)
-
-**077 O Ritual de Confinamento no Santuário Hinomisaki-jinja**
-
-No Santuário Hinomisaki-jinja, na província de Izumo, ocorre anualmente, na calada da noite de Ano-Novo, um ritual no Monte Amanokazu, no qual Susanoo-no-Mikoto oferece a espada Ame-no-Murakumo-no-Tsurugi a Amaterasu Oomikami como sinal de reconciliação. Esse ritual é conduzido unicamente pelo sacerdote-chefe Ono, e, para que ninguém mais o presencie, à meia-noite, todas as luzes da aldeia são apagadas e é estritamente proibido caminhar pelas ruas ou sair de casa. Diz-se que, nos últimos trinta anos, duas pessoas violaram essa proibição: uma delas caiu morta na estrada, e a outra, que espiou por uma fresta da porta de treliça do santuário, ficou com o rosto preso à porta, incapaz de se soltar. Os aldeões, para quem espiar está fora de questão, questionam se não haveria uma solução para o inconveniente de terem as luzes apagadas à meia-noite e de não poderem sair de casa. Como devemos proceder?
-
-Antigamente, Amaterasu Oomikami e Susanoo-no-Mikoto não mantinham boas relações. Os seguidores dos deuses de Izumo realizam tais cerimônias para enaltecer a divindade do Santuário Hinomisaki-jinja.
-
-**078 O Deus Casamenteiro de Izumo**
-
-O que significa a crença de que o deus de Izumo é um deus casamenteiro? Rogamos seus esclarecimentos.
-
-Isso é algo que foi inventado. Antigamente, a corte de Izumo detinha grande poder. Com a devolução de suas terras ao governo imperial, os deuses de Izumo perderam sua função e, talvez, tenham se dedicado a unir casais. A fama de casamenteiro provavelmente se deve a acontecimentos daquela época que se tornaram particularmente memoráveis. (12.05.1949)
-
-**079 A Ilha dos Demônios e o "Tesouro do Palácio do Dragão"**
-
-Existe alguma relação entre a Ilha dos Demônios (*Onigashima*) e o Palácio do Dragão (*Ryuuguujou*)?
-
-No Palácio do Dragão, havia um tesouro armazenado. A princesa Otohime havia reunido e guardado todo o ouro e a prata do mundo. Este é o mesmo tesouro que a Kannon (観音) de mil braços segura.
-
-**080 Otohime e Satanás**
-
-Qual é a relação entre Otohime e Satanás? Solicitamos seus esclarecimentos.
-
-Otohime reuniu a matéria de todo o mundo. Satanás se aproveitou dela ou a ludibriou. A relação se resume a isso. (08.09.1949)
-
-**081 O Nome Divino da Lua**
-
-Ao reverenciar a Lua, por qual nome divino devemos nos dirigir a ela?
-
-O nome correto é Tsukuyomi-no-Mikoto. Existe uma antiga religião chamada Tsukuyomi-kyo, e Tsukuyomi-no-Mikoto é perfeitamente adequado para a Era da Noite.
-
-**082 O Segundo Paraíso e os Deuses da Lua**
-
-O Segundo Paraíso é o mundo da Lua; por isso, ora brilha, ora míngua.
-
-Tsukiyomi-no-Mikoto é...
-
-Susanoo-no-Mikoto, por pertencer à escuridão, torna-se propenso a cometer pecados. Por cometê-los, precisa expiá-los. Por isso, sofre imensamente.
-
-Tanto Jesus quanto Amida são manifestações de Susanoo-no-Mikoto. (14.07.1948)
-
----
-*Observação: [Extraído de "Kannon Koza" (観音講座) (Segunda Aula), publicado em 25 de julho de 1935]*
-
-*Susanoo-no-Mikoto é o deus da Lua e representa a atuação durante o período de escuridão.*
-
-*Tsukuyomi-no-Mikoto também é um deus da Lua, mas representa a atuação durante o período iluminado.*
-
-*— O aspecto oculto, a escuridão: Susanoo-no-Mikoto*
-*— O aspecto manifesto, a luz: Tsukuyomi-no-Mikoto*
-
-*Tsukuyomi-no-Mikoto significa "ver o mundo da Lua", ou seja, "Tsuki-yo-mi" (visão do mundo lunar).*
----
-
-**083 A Divindade "Nijuusan'ya-sama"**
-
-Na região de Goto, em Nagasaki, cultua-se uma divindade chamada “Nijuusan’ya-sama”, cuja imagem se assemelha muito à de Senju Kannon ou, por vezes, é representada por três luas. Há casos de espíritos de raposa que a temeram. Ela é venerada na noite do dia 23 do calendário solar. Qual é a sua verdadeira identidade?
-
-Sua verdadeira identidade é Tsukuyomi-no-Mikoto. Existe uma religião chamada Tsukuyomi-kyo. Com a consagração da Imagem da Luz Divina, não há mais necessidade de cultuar essa divindade. Tsukuyomi representa a atuação durante as noites de luar. A atuação no aspecto da escuridão pertence a Susanoo-no-Mikoto.
-
----
-
-# Compêndio de Milagres e Fenômenos Prodigiosos 3: Deuses Guardiães e Luz (027-044)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-**Título Original:** 奇蹟奇象篇 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** -
-
-## Compêndio de Milagres e Fenômenos Prodigiosos 3: Deuses Guardiães e Luz (027-044)
-
-### 027 O Presságio Auspicioso da Esfera de Luz entre o Lago Biwa e o Monte Fuji
-
-Uma esfera de luz, de um fulgor intenso e belíssimo, desceu dos céus em direção à área do Lago Biwa, conforme se pode observar no mapa do Japão. A esfera cintilava como um diamante. Enquanto eu a observava atentamente para não perdê-la de vista, ela se deslocou até as proximidades do Monte Fuji, retornando em seguida para se fundir novamente ao ponto de origem no Lago Biwa. Ao redor desse fenômeno, uma miríade de pontos luminosos, em cinco ou sete cores esplêndidas, era visível. Seria esta alguma forma de notificação divina? Habitualmente, nada vejo, mas quando intenciono olhar, consigo enxergá-la. Indago sobre o ocorrido em razão de sua extraordinária beleza.
-
-**Ensinamento de Meishu-Sama**
-
-A Deusa Izunome tem seu espírito residente no Monte Fuji e seu corpo, na forma de um Dragão Dourado, habita o Lago Biwa. Por essa razão, ela transita entre esses dois locais. Os antepassados, desejando que a fé do senhor Nishimura seja restaurada, rogaram a Deus para que lhe mostrasse tal visão. Este fenômeno também se relaciona com a esfera espiritual que possuo em meu ventre.
-
-*(23 de julho de 1949)*
-
-### 028 Tromba-d’água de Quarenta Minutos no Lago Biwa
-
-Em 22 de setembro de 1934, por volta das 16 horas, uma tromba-d’água como a da fotografia formou-se sobre o Lago Biwa (a dois quilômetros da costa de Katata Ukimido), perdurando por aproximadamente quarenta minutos. A coluna de água, com um diâmetro estimado em dois metros, erguia-se em direção aos céus, movendo-se gradualmente para o norte. O local do ocorrido é praticamente o mesmo onde se formou a grande tromba-d’água de 21 de abril de 1929. Qual mistério estaria por trás de tal evento? Rogo por vossos Ensinamentos. Adicionalmente, o Estúdio Fotográfico Senshu, que registrou esta imagem, era um estabelecimento de grande renome na província de Shiga. Contudo, pouco tempo depois, entrou em declínio, todos os membros da família faleceram e, hoje, não restam sequer vestígios de sua existência. Haveria alguma razão para isso?
-
-**Ensinamento de Meishu-Sama**
-
-Uma duração de quarenta minutos é algo sem precedentes.
-
-### 029 Após a Iniciação na Fé, o Jardim Resplandece por Completo
-
-Minha esposa e eu fomos iniciados na fé em novembro do ano passado. Em meados de fevereiro deste ano, no dia seguinte à conclusão de um aperfeiçoamento em nossa residência, a neve que cobria o jardim começava a derreter. A luz do sol da manhã, ao incidir sobre ela, produziu um brilho incomum. O jardim e suas árvores resplandeceram com uma beleza indescritível, como se estivessem cravejados de diamantes branco-azulados. Minha esposa e eu testemunhamos essa visão por cerca de cinco minutos, até que a paisagem retornou à sua beleza habitual.
-
-Posteriormente, por volta de meados de abril, enquanto eu lia o Jornal Eiko de frente para o Altar e a fotografia de Meishu-Sama, minha esposa relatou que, no centro do jardim às minhas costas, uma área circular com cerca de três metros e meio de diâmetro se iluminou intensamente, assim como as árvores ali presentes, como se uma luz emanasse do subsolo. O fenômeno durou aproximadamente cinco minutos e depois tudo voltou ao normal.
-
-Em 25 de abril, dia de reunião em nossa casa, enquanto orávamos em família, minha esposa viu a parede de estuque, na altura do ideograma "Rai" do Omamori Daikoomyoo Nyorai, brilhar em cinco pontos distintos, do tamanho de grãos de soja, como se fossem diamantes, por cerca de três minutos. Ademais, recentemente, sempre que penso em Meishu-Sama ou sua imagem me vem à mente, sou acometido por uma profusão de lágrimas, independentemente da hora ou do lugar, a ponto de me sentir constrangido. O mesmo ocorre quando leio relatos de graças para outras pessoas; as lágrimas vêm e, por vezes, minha voz embarga, o que se torna um embaraço.
-
-Cumpre notar que, antes de ingressar na fé, eu consumia grande quantidade de saquê. Hoje, graças a Deus, mesmo uma pequena dose me causa mal-estar no dia seguinte. Minha saúde está melhor do que antes, e não creio ter me tornado um neurastênico chorão. Qual seria a razão para todos esses fatos? Rogo por vosso Ensinamento.
-
-**Ensinamento de Meishu-Sama**
-
-Isso representa a alegria de Deus, uma forma de celebração. É obra de um Deus Dragão que habita essa terra. Um antepassado seu está ligado a você e se regozija. Quanto à bebida, a diminuição de sua tolerância se deve ao enfraquecimento das impurezas que residiam em seu ventre. Isso indica a presença de um antepassado que alcançou a condição divina.
-
-*(22 de maio de 1950)*
-
-### 030 O Deus Guardião do Lar
-
-Durante o último tufão, duas árvores zelkova do jardim de um membro (em cuja família apenas três pessoas são fiéis e que ainda não recebeu o Altar) tombaram sobre o telhado da casa. Uma delas foi reerguida com muito esforço após a poda de seus galhos. Para a outra, decidiram pedir ajuda aos vizinhos, mas resolveram primeiro tomar um chá. Cerca de trinta minutos depois, ao retornarem, constataram que a árvore, de alguma forma, já estava de pé, em sua posição original. Gostaria de indagar a respeito deste fato.
-
-**Ensinamento de Meishu-Sama**
-
-É um milagre. O fato de a árvore ter se reerguido após trinta minutos é verídico. Foi o Deus Guardião da casa que a levantou, atuando sobre o espírito da árvore. É um acontecimento raro. Assim como as pessoas têm seus Deuses Guardiães, as casas também os têm. Se já tivessem o Altar, o dano teria sido ainda menor. O ocorrido se deve à virtude da fé dos membros.
-
-### 031 Uma Esfera de Fogo no Quarto
-
-Cerca de quinze dias após apenas a esposa receber o Omamori, em uma noite, por volta da uma hora da manhã, uma esfera de fogo surgiu dentro da casa e ali permaneceu em movimento por aproximadamente duas horas. Assustada, a esposa entoou a Oração Amatsu-Norito e, vinte minutos depois, a esfera desapareceu. Qual seria a razão para tal fenômeno? O marido, que não possui o Omamori, também a viu.
-
-**Ensinamento de Meishu-Sama**
-
-Provavelmente, um antepassado que alcançou a condição divina manifestou-se para incentivar o marido a ingressar na fé o quanto antes. Durante a Era da Noite que findou, tais coisas não eram possíveis, mas, com a recente transformação do Mundo Espiritual, tornaram-se viáveis. De agora em diante, muitos fenômenos misteriosos ocorrerão.
-
-*(4 de fevereiro de 1949)*
-
-### 032 Com um Som de Explosão, o Papel do Shoji se Solta e Repousa no Chão
-
-Ingressei na fé em 1947 e, posteriormente, passei por uma purificação de tuberculose intestinal. Em 24 de fevereiro deste ano, cheguei a um estado crítico, mas fui salvo pela proteção divina. Em 3 de março, entronizei o Altar de Koomyoo Nyorai. No dia seguinte, por volta do meio-dia, ouvi um som semelhante a uma explosão. O papel do shoji do cômodo ao lado do Altar havia sido removido com a precisão de uma lâmina de barbear e estava cuidadosamente depositado diante do Altar. Seria isto algum tipo de aviso?
-
-Adicionalmente, no tokonoma onde o Altar de Koomyoo Nyorai foi instalado, havia um pergaminho do santuário xintoísta local com a inscrição "Rokujo Jinja". Este foi enrolado e colocado ao lado do tokonoma. Este procedimento está correto? Respeitosamente, submeto minhas dúvidas.
-
-**Ensinamento de Meishu-Sama**
-
-Está correto. Quanto ao pergaminho do santuário local, é melhor mantê-lo enrolado sobre um estrado. O fenômeno com o papel pode ter sido obra do deus de Rokujo Jinja. Tais coisas acontecem.
-
-*(3 de maio de 1950)*
-
-### 033 Grande Som e Esfera de Luz (Cores da Luz dos Sistemas Solar e Lunar)
-
-Um fiel sob minha orientação, o senhor Fujihachi Ebino, relatou que no dia seguinte à entronização do Altar de Koomyoo Nyorai, seu marido sentiu grande sofrimento. Naquela mesma noite, por volta das duas da manhã, ao acordar para levar o filho ao banheiro, ele olhou para fora e, subitamente, ouviu um som como o de uma chapa de zinco caindo, ao mesmo tempo em que viu algo semelhante a um globo ocular rubro. O casal testemunhou o fenômeno. Posteriormente, verificaram que nenhuma chapa do telhado havia caído. Qual a relação disto com o Altar de Koomyoo Nyorai? Rogo por vossa orientação.
-
-**Ensinamento de Meishu-Sama**
-
-Foi uma notificação enviada por um deus de considerável hierarquia. É comum que as notificações ocorram por meio de sons, especialmente no caso de santuários.
-
-A esfera de luz é o espírito de um deus; ao se deslocarem, eles assumem essa forma, semelhante a um fogo-fátuo. A luz vermelha pertence ao sistema solar, enquanto as luzes branca e violeta pertencem ao sistema lunar.
-
-*(25 de abril de 1950)*
-
-### 034 Sons Estranhos no Oratório Budista Antes da Iniciação na Fé
-
-Todos os anos, durante o período de Obon, do dia 13 ao 15, eu ouvia no oratório budista um som contínuo, "jii jii", semelhante ao canto de uma cigarra, que não cessava mesmo que eu tocasse no oratório ou falasse. Contudo, após começar a me dedicar a este Caminho e entronizar os Altares de Koomyoo Nyorai e da Kannon em Biombo, neste ano, durante o Obon, embora eu tenha realizado diversas cerimônias para os antepassados em minha cidade natal, o som não se manifestou. Fatos semelhantes ocorreram em outras famílias que ingressaram na fé. Qual seria a razão para isso?
-
-**Ensinamento de Meishu-Sama**
-
-Os espíritos dos antepassados desejavam comunicar algo e, para isso, produziam esse som. Com seu ingresso na fé, eles se sentiram satisfeitos, e a necessidade de tal manifestação cessou.
-
-*(28 de agosto de 1949)*
-
-### 035 O Mistério no Templo (A Mensagem Espiritual do Antigo Abade)
-
-Trata-se de um evento ocorrido no templo da escola Shinshu de minha aldeia. A partir de 23 de dezembro do ano passado, todas as noites, por volta das 21 horas, ouvia-se o som de matracas vindo do salão principal. Quando alguém se dirigia ao salão, o som passava a ser ouvido nos aposentos do monge; ao retornar aos aposentos, o som voltava ao salão. Havia três conjuntos de matracas, cada um com um som distinto devido à madeira, e os três sons diferentes eram audíveis. Esse fenômeno persistiu até por volta de 5 de janeiro, quando cessou. O antigo abade do templo faleceu em fevereiro do ano passado, e seu sucessor, que assumiu o posto logo depois, vem estudando nossos Ensinamentos desde a primavera passada, mas ainda não se converteu. Haveria alguma relação espiritual com o som das matracas?
-
-**Ensinamento de Meishu-Sama**
-
-O antigo abade, ao chegar ao Mundo Espiritual, tomou conhecimento deste Ensinamento. Desejoso de que o atual abade ingresse na fé, e não dispondo de outros meios, ele recorreu a esse método para transmitir sua vontade. É imperativo que o atual abade se converta. Caso contrário, outras formas de notificação ocorrerão.
-
-*(15 de fevereiro de 1950)*
-
-### 036 Pequeno Som Acompanhado por uma Luz
-
-Meu pai, Kenzo, de 53 anos, sofrendo de dor ciática, recebeu Johrei no dia 11 deste mês. Naquela noite, já deitado, por volta de 0h40, ouviu sobre sua cabeça um som similar ao de um interruptor elétrico sendo acionado, e uma luz de cor intermediária entre o dourado e o prateado, com cerca de 40 centímetros de diâmetro, apareceu. No dia 14, ele foi à Igreja. Na manhã seguinte, por volta das 5 horas, ouviu um som semelhante e viu uma luz da mesma cor, desta vez com cerca de 20 centímetros de diâmetro, que desceu aproximadamente 30 centímetros antes de desaparecer. Haveria algum significado nisso?
-
-**Ensinamento de Meishu-Sama**
-
-É um deus, embora não de uma hierarquia muito elevada. Trata-se de um deus guardião e de um antepassado que alcançou a condição divina, manifestando sua alegria.
-
-Quando os espíritos se deslocam no espaço, assumem a forma de esferas. As que possuem brilho indicam um espírito que atingiu a divindade. As dos espíritos humanos são opacas.
-
-*(19 de agosto de 1949)*
-
-### 037 Ao Retornar da Casa de um Parente Enfermo, Ouço um Som Estranho
-
-O marido de minha irmã mais nova está acamado com tuberculose. Fui visitá-lo e falei sobre a grandiosidade de Kannon, mas ele não compreendeu. Ao sair da casa, ouvi atrás de mim um som semelhante ao de um bambu se partindo. Chegando à minha própria casa, ouvi novamente o mesmo som. Seria isso algum tipo de aviso?
-
-**Ensinamento de Meishu-Sama**
-
-Não é nada de grave. Trata-se de um espírito ancestral da família dele, que atua como guardião. Foi uma forma de acompanhá-la na ida e na volta.
-
-### 038 Esfera de Fogo sobre o Telhado da Casa onde o Altar foi Entronizado
-
-Atualmente, tenho o Altar de Daikoomyoo Nyorai entronizado e sirvo diligentemente como responsável de uma Unidade Religiosa. No dia 20 deste mês, por volta das 18 horas, uma esfera de fogo vermelha e redonda, com cerca de seis centímetros de diâmetro, surgiu do telhado de minha casa, projetou-se horizontalmente por cerca de um metro e caiu sobre o telhado da área do tokonoma. Um vizinho afirma ter testemunhado o ocorrido. Haveria alguma relação espiritual com Kannon? Rogo por vossa orientação.
-
-**Ensinamento de Meishu-Sama**
-
-Sim, há relação. Trata-se de um espírito. Por ser uma esfera de fogo de um vermelho vivo, embora em certas ocasiões possa se tratar de um espírito vivo, neste caso, é um espírito que, por sua devoção a Kannon, veio de um lugar distante. Ele fez uma breve parada antes de prosseguir sua jornada. Espíritos ancestrais que alcançaram a condição divina se deslocam como esferas de fogo. Portanto, trata-se de um antepassado antigo. Ele veio com a permissão divina, talvez para fazer um pedido a Kannon ou para ter uma audiência com Daikoomyoo Nyorai.
-
-*(25 de novembro de 1924)*
-
-### 039 Esfera de Luz Dança e Colide com uma Pessoa
-
-Há uma pessoa ainda não iniciada na fé que relata que, recentemente, uma esfera de luz redonda, com cerca de 24 centímetros de diâmetro, surge do nada e adentra a casa. Ao colidir com alguém que recebe Johrei, ela se desfaz como fumaça. Mais recentemente, a esfera foi vista dançando sobre o mosquiteiro. O que seria essa esfera redonda?
-
-**Ensinamento de Meishu-Sama**
-
-É uma manifestação da alegria de um antepassado, que deseja mostrá-la. Ele ordena a um Deus Dragão, seu subordinado, que realize o fenômeno.
-
-*(12 de setembro de 1949)*
-
-### 040 Após a Iniciação na Fé, Esfera de Fogo Cai com Estrondo
-
-Cerca de uma semana após a esposa de meu irmão mais velho ingressar na fé, uma noite, pouco depois de meu irmão mais novo (o segundo filho), não convertido, ter se deitado, uma esfera de fogo azul com cerca de 18 centímetros de diâmetro brilhou com um som explosivo "bo" junto à porta de correr, a uns dois metros do oratório budista. Ao se extinguir, um núcleo incandescente de uns três centímetros desprendeu-se de seu interior e caiu, sem que nenhuma outra alteração ocorresse. Minha mãe e meu outro irmão (o terceiro filho), que descansavam no quarto ao lado, testemunharam o mesmo fenômeno, mas o casal do irmão mais velho, no mesmo cômodo, nada percebeu. O dia não era nenhuma data budista especial. Haveria algum significado espiritual nisso?
-
-**Ensinamento de Meishu-Sama**
-
-Um espírito ancestral que se tornou um Dragão de Fogo veio celebrar o ingresso na fé. Os Dragões de Fogo frequentemente atuam na forma de raios.
-
-### 041 Inúmeras Esferas de Fogo Caem
-
-Na casa da família de um membro, onde ninguém ainda é convertido, em 13 de agosto, por volta das 21h15, uma quantidade incontável de objetos semelhantes a esferas de fogo desceu de cerca de 30 centímetros acima do telhado para o jardim dos fundos, desaparecendo a aproximadamente um metro do chão. Ocorreu na véspera do Obon. O tamanho das esferas variava, sendo as maiores do tamanho de uma antiga moeda de 50 sen e as menores como faíscas. O fenômeno se repetiu por três vezes. Seriam espíritos de antepassados ou a ação de um Dragão de Fogo?
-
-**Ensinamento de Meishu-Sama**
-
-São os espíritos dos antepassados. Para que as pessoas acreditem que eles de fato retornam, os próprios espíritos elaboram diversas maneiras de se manifestar.
-
-*(12 de setembro de 1949)*
-
-### 042 As Recentes Esferas de Fogo
-
-Ultimamente, ouço muitos relatos sobre esferas de fogo. Eu mesmo, logo no início do Ano Novo, vi uma esfera de fogo semelhante à lua que desapareceu subitamente no céu. O que poderia ser?
-
-**Ensinamento de Meishu-Sama**
-
-O que se tem visto com frequência são Dragões de Fogo, que são Deuses Dragão do sistema solar. Os Deuses Dragão do sistema do fogo iniciaram agora suas atividades.
-
-*(27 de fevereiro de 1949)*
-
-### 043 Esfera de Luz e Esfera Negra Emergem de um Muro de Pedra
-
-Duas irmãs de uma mesma família relataram ter visto por duas vezes uma esfera de fogo emergir à noite de um muro de pedra que cerca a propriedade. De dentro dessa esfera de fogo, uma esfera negra era expelida. Apenas a irmã mais nova é membro da Igreja; os pais e os demais familiares não são convertidos. Haveria alguma relação com os espíritos ancestrais?
-
-**Ensinamento de Meishu-Sama**
-
-No muro de pedra habita o espírito de uma serpente. É o espírito de um animal que foi morto naquela área. O que saiu de dentro da esfera de fogo foi a serpente. Os espíritos de nível elevado se manifestam como esferas de luz, enquanto os de natureza inferior se manifestam como luz negra.
-
-*(11 de setembro de 1949)*
-
-### 044 Esfera de Luz Vermelha Emerge da Urna Eleitoral
-
-Durante a eleição para o conselho da Cooperativa Agrícola da aldeia de Kojo, na província de Iwate, uma esfera de luz vermelha emergiu suavemente da urna e se deslocou por cerca de três metros e meio. Um de nossos membros presenciou o fato e, surpreso, alertou a pessoa ao seu lado, que também a viu. Posteriormente, o presidente da cooperativa faleceu de hemorragia cerebral em cerca de um mês e meio, e um funcionário morreu subitamente com os mesmos sintomas, aproximadamente quinze dias depois. A esfera vermelha teria algum significado? E haveria relação com a morte do presidente?
-
-**Ensinamento de Meishu-Sama**
-
-O fenômeno tem uma profunda conotação espiritual. Está relacionado ao rancor dirigido ao presidente da cooperativa, um ressentimento compartilhado por muitas pessoas que, em conjunto, o afligiram. O funcionário foi uma vítima colateral. Tais ocorrências não são impossíveis.
-
-*(22 de maio de 1950)*
 
 ---
 

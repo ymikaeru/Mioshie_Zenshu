@@ -188,6 +188,16 @@ def extract_dates():
                         status = None
                         issue_page = None
                         date_iso = None
+                        collection = None
+                        
+                        # Extract Collection Name (requires Regex on raw content as get_text removes attributes)
+                        # Pattern: <font face="HG正楷書体-PRO" size="2"><strong> (.*?) ――</strong>
+                        # Note: HTML might vary slightly, but this flag is specific.
+                        match_collection = re.search(r'<font face="HG正楷書体-PRO" size="2"><strong>\s*(.*?)\s*――</strong>', content)
+                        if match_collection:
+                             # Clean up: " 岡田自観師の論文集 " -> "岡田自観師の論文集"
+                             collection = match_collection.group(1).strip()
+                        
                         
                         match_marker = source_marker_pattern.search(search_chunk_clean)
                         if match_marker:
@@ -311,10 +321,18 @@ def extract_dates():
                             item['date_iso'] = date_iso
                             modified = True
 
+                        if collection:
+                            item['collection'] = collection
+                            modified = True
+
                         if found_source:
                             found_source = found_source.strip()
                             if len(found_source) > 1 and len(found_source) < 100:
                                 found_source = found_source.strip("、 　")
+                                
+                                # Save Source JP
+                                item['source_jp'] = found_source
+                                
                                 romaji_source = to_romaji(found_source)
                                 item['publication'] = romaji_source
                                 found_sources.add(found_source)

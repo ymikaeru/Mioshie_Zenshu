@@ -1,9 +1,34 @@
 # Mioshie_Teachings - Part 26
 
+# Um Mundo de Embustes
+
+**Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** 滑稽阿呆文学
+**Título Original:** インチキ世界 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 滑稽阿呆文学
+
+## Um Mundo de Embustes
+
+O mundo avança a passos largos, e embora a vida se tenha tornado extraordinariamente conveniente, é inegável que, a reboque desse progresso, a falsidade e o logro se infiltraram em tudo. Vivemos, portanto, em uma sociedade onde não se pode baixar a guarda. Existem embustes de toda sorte: desde os mais grosseiros e evidentes até aqueles revestidos de solenidade, o que, convenhamos, não deixa de ser cômico. Nesse sentido, este néscio que vos fala registrará, sem rodeios, tudo o que seus olhos e ouvidos captarem. Se os leitores se divertirem, que riam à vontade. Se se indignarem, que se enfureçam. E se o tédio os assolar, que simplesmente abandonem a leitura. Afinal, se me preocupasse com a opinião alheia, jamais poderia expressar o que realmente penso.
+
+Aborrecem-me profundamente as perspectivas e frases banais, tão comuns nos escritos alheios. Na visão deste néscio egocêntrico, ao observar o panorama da sociedade, o que vejo é um desfile de nulidades, um encontro fortuito de medíocres. Mesmo aqueles que se pavoneiam com o título de doutor não passam de indivíduos que, à custa da fortuna de seus pais, compraram conhecimento estrangeiro e o entulharam em suas mentes tacanhas. Os sofismas que proferem, com ares de grande importância, no jornalismo ou nos círculos intelectuais, nada mais são do que um meio de subsistência e um artifício para satisfazer sua mesquinha vaidade em busca de algum renome.
+
+Alguém poderia estufar o peito e acusar-me de excessiva maledicência, mas antes de cerrar os punhos e franzir o cenho, peço que, com serenidade, ponham a mão sobre o peito e leiam com atenção os devaneios deste tolo. Como é possível que, diante de tantos logros e falsidades, ninguém se dê conta? Vossos intelectuais e jornalistas devem ter os olhos por meros orifícios e os ouvidos de mercador, e não haverá razão para queixumes se assim forem descritos. Por essa razão, este néscio se propõe a desmascarar, uma a uma, as imposturas do mundo, e a registrá-las gradualmente para o aprendizado das gerações futuras.
+
+O frio deste ano tem sido inclemente. Até mesmo o tão alardeado veículo limpa-neves, importado e motivo de orgulho para o Ministério das Ferrovias, revelou-se completamente inútil. E assim, o homem primitivo que se orgulha de sua civilização, embora brade aos quatro ventos sua intenção de "conquistar a natureza", recebe como resposta um mero bocejo da própria natureza diante de seus engenhos.
+
+Diante desse frio implacável, os ilustres senhores do Observatório Meteorológico, com seu habitual ar de quem tudo sabe e perscruta os segredos do universo, atribuem o fenômeno, como de costume, à atividade das manchas solares. Contudo, convenientemente se omitem de explicar a natureza de tais manchas ou sua real conexão com a intensidade do frio. Para tudo o que não compreendem, a resposta é invariavelmente a mesma: a culpa é das manchas solares. Que fardo pesado carregam essas pobres manchas!
+
+Apesar disso, devo confessar uma certa admiração pelos senhores do Observatório, e não digo isso em tom de lisonja. Afinal, ao culpar as manchas solares por tudo, eles garantem que sua tese jamais seja refutada. Sabem perfeitamente que ninguém poderá viajar até o Sol para verificar a veracidade de suas alegações. Na realidade, porém, apenas imitam algum cientista ocidental — cuja competência desconheço — de modo que hesito entre o elogio e a crítica.
+
+Todavia, há algo que me inspira uma admiração ainda maior: a previsão do tempo. A formulação do texto é simplesmente genial: "O tempo amanhã será de céu claro, mas com possibilidade de nebulosidade, podendo ocorrer chuvas esparsas em certas localidades". Com uma declaração dessas, quer faça sol, quer o céu se encubra ou chova, a previsão estará sempre correta. Uma frase de uma estranheza e engenhosidade admiráveis, capaz de causar inveja ao mais astuto dos adivinhos. Refletindo melhor, porém, a necessidade de criar uma formulação tão ambígua reside na natureza caprichosa dos sistemas de baixa pressão. Portanto, que fique claro: minhas queixas e críticas não se dirigem aos funcionários do Observatório, mas sim a esse grande impostor e sua inconstância: o sistema de baixa pressão.
+
+---
+
 # O Que se Espera da Medicina
 
 **Categoria:** i | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 医学に望む | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1949-03-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## O Que se Espera da Medicina
 
@@ -25,6 +50,7 @@ Nesse sentido, o que almejamos é que a medicina progrida, o mais brevemente pos
 
 **Categoria:** i | **Ano:** 昭和27(1952)年11月12日 | **Fonte:** Eikou
 **Título Original:** 医学被害者の例 | **Status:** Published | **Edição/Página:** 182号 | **Data ISO:** 1952-11-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Engano da Medicina e a Salvação Final
 
@@ -73,6 +99,7 @@ Reitero a minha gratidão.
 
 **Categoria:** i | **Ano:** 昭和24(1949)年5月14日 | **Fonte:** -
 **Título Original:** 所謂、迷信の解剖 信仰は飽く迄冷静に | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1949-05-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Anatomia da Superstição
 **A fé deve ser, acima de tudo, serena**
@@ -101,6 +128,7 @@ Há mais um ponto a ser observado: a fé deve ser mantida com a mais absoluta se
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月18日 | **Fonte:** Eikou
 **Título Original:** 医療ナンセンス | **Status:** Published | **Edição/Página:** 196号 | **Data ISO:** 1953-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ilusão da Ciência e o Milagre do Johrei
 
@@ -145,6 +173,7 @@ Com estas palavras, encerro este artigo, louvando a virtude divina de Meishu-Sam
 
 **Categoria:** i | **Ano:** 昭和26(1951)年10月17日 | **Fonte:** Eikou
 **Título Original:** 医師は本教の協力者 | **Status:** Published | **Edição/Página:** 126号 | **Data ISO:** 1951-10-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Os Médicos como Colaboradores de Nossa Fé
 
@@ -168,6 +197,7 @@ Podemos traçar um paralelo: a lei se faz necessária pela existência dos crimi
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学が病気を作る実例 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Um Caso Concreto de Doenças Criadas pela Medicina
 
@@ -181,6 +211,7 @@ Certamente, os próprios médicos se deparam constantemente com situações aná
 
 **Categoria:** i | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
 **Título Original:** 医薬に反対せず 足利にまた本教中傷事件 | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1949-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Esclarecimento Acerca de Falsas Acusações em Ashikaga
 
@@ -218,6 +249,7 @@ Telefone: Odawara 453
 
 **Categoria:** i | **Ano:** 昭和26(1951)年10月31日 | **Fonte:** Eikou
 **Título Original:** 医学迷信 | **Status:** Published | **Edição/Página:** 128号 | **Data ISO:** 1951-10-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Superstição da Medicina Contemporânea
 
@@ -261,6 +293,7 @@ No momento do Juízo Final da humanidade, que se aproxima a passos largos, imagi
 
 **Categoria:** i | **Ano:** 昭和28(1953)年11月4日 | **Fonte:** Eikou
 **Título Original:** 医学の無力と浄霊の偉力 | **Status:** Published | **Edição/Página:** 233号 | **Data ISO:** 1953-11-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Impotência da Medicina e o Poder Magnífico do Johrei
 
@@ -296,6 +329,7 @@ Meishu-Sama, receba nossa mais profunda e sincera gratidão.
 
 **Categoria:** i | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
 **Título Original:** 医学の解剖 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の革命的療法
 
 ## Uma Dissecação das Falácias da Medicina
 
@@ -329,6 +363,7 @@ Pois bem, passemos finalmente à explanação detalhada sobre os equívocos da m
 
 **Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** 鰯の頭も信心とは大いなる誤りである
 **Título Original:** 鰯の頭も信心とは大いなる誤りである | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Profunda Falácia do Ditado "Até a Cabeça da Sardinha é Objeto de Fé"
 
@@ -362,6 +397,7 @@ Em suma, é imprescindível que os japoneses compreendam que a fé mais isenta d
 
 **Categoria:** i | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
 **Título Original:** 痛みと熱 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Dor e a Febre
 
@@ -393,6 +429,7 @@ Resta ainda a preocupação de que a febre agrave o estado de fraqueza do doente
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 異食物に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Acerca das Substâncias Estranhas ao Organismo
 
@@ -420,6 +457,7 @@ Portanto, como expliquei anteriormente, o verdadeiro alimento humano é sempre s
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
 **Título Original:** 医学の本体 | **Status:** Published | **Edição/Página:** 195号 | **Data ISO:** 1953-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Essência da Medicina
 
@@ -480,6 +518,7 @@ Meishu-Sama, muito obrigado. Agradeço e reitero minha gratidão por Sua imensa 
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Eikou
 **Título Original:** 医学の出鱈目 | **Status:** Published | **Edição/Página:** 197号 | **Data ISO:** 1953-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Os Absurdos da Medicina
 
@@ -531,6 +570,7 @@ Meishu-Sama, muito obrigada.
 
 **Categoria:** i | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 怒る勿れ | **Status:** Published | **Edição/Página:** P.23 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## A Disciplina de Não se Irritar
 
@@ -562,6 +602,7 @@ Para ilustrar esses pontos, contarei uma experiência pessoal. Na época em que 
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 医学とは何ぞや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Essência da Medicina
 
@@ -591,6 +632,7 @@ Entretanto, ao se conhecer esta Arte Médica Japonesa, a saúde no lar eleva-se 
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
 **Título Original:** 医学と浄霊 | **Status:** Published | **Edição/Página:** 142号 | **Data ISO:** 1952-02-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Milagre do Johrei e a Falácia da Cura pela Sugestão
 
@@ -622,6 +664,7 @@ E assim, o ponto central deste artigo é esclarecer um fato inequívoco: a cura 
 
 **Categoria:** i | **Ano:** 昭和26(1951)年7月4日 | **Fonte:** Eikou
 **Título Original:** 一の世界 | **Status:** Published | **Edição/Página:** 111号 | **Data ISO:** 1951-07-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Revelação do Primeiro Mundo
 
@@ -651,6 +694,7 @@ Como se pode depreender do exposto, o fato de nossa Igreja manifestar, incessant
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 胃疾患・病患と医学の誤謬二 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Verdadeira Causa das Moléstias Gástricas e os Erros da Medicina
 
@@ -688,6 +732,7 @@ Há também casos extremamente raros em que uma pessoa, sem fazer uso de medicam
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月24日 | **Fonte:** Eikou
 **Título Original:** 医療が病気を悪化させる | **Status:** Published | **Edição/Página:** 175号 | **Data ISO:** 1952-09-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Medicina como Agravante das Enfermidades
 
@@ -732,6 +777,7 @@ Meishu-Sama, muito obrigada.
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 医師の資格 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Sobre as Qualificações Médicas
 
@@ -765,6 +811,7 @@ Consta que, durante o Período Tokugawa, os médicos a quem se conferia o títul
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
 **Título Original:** 医学療法と信仰療法 | **Status:** Published | **Edição/Página:** 186号 | **Data ISO:** 1952-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Superstição da Medicina Moderna
 
@@ -790,6 +837,7 @@ Pelo exposto, a confiança na medicina é, portanto, de cem por cento, enquanto 
 
 **Categoria:** i | **Ano:** 昭和27(1952)年3月19日 | **Fonte:** Eikou
 **Título Original:** 医学の盲点 医学断片集（３） | **Status:** Published | **Edição/Página:** 148号 | **Data ISO:** 1952-03-19
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ilusão da Cura Moderna
 
@@ -807,6 +855,7 @@ Diante de tal realidade, anseio por levar ao conhecimento de toda a humanidade, 
 
 **Categoria:** i | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 医学の誤謬 自観叢書10編 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## O Equívoco Fundamental da Medicina
 
@@ -828,6 +877,7 @@ A seguir, passarei a expor a teoria supracitada de forma pormenorizada.
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学の出鱈目 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Insipiência da Medicina Contemporânea
 
@@ -843,6 +893,7 @@ Não tenho a intenção de tecer críticas gratuitas à medicina. Todavia, diant
 
 **Categoria:** i | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 医学は科学か | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Medicina é uma Ciência?
 
@@ -895,6 +946,7 @@ Tendo em vista os exemplos citados, a crença no progresso da medicina não pass
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学が結核を作る事実 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Como a Medicina Gera a Tuberculose
 
@@ -910,6 +962,7 @@ Ao se analisar sua trajetória, a verdade de que os tratamentos médicos agravam
 
 **Categoria:** i | **Ano:** 昭和29(1954)年2月10日 | **Fonte:** Eikou
 **Título Original:** 医学と薬剤の批判 | **Status:** Published | **Edição/Página:** 247号 | **Data ISO:** 1954-02-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Falácia da Medicina Contemporânea
 
@@ -956,6 +1009,7 @@ Até esse dia, oro para que o amigo se empenhe ao máximo em sua jornada.
 
 **Categoria:** i | **Ano:** 昭和24(1949)年8月20日 | **Fonte:** -
 **Título Original:** 意外な話 | **Status:** Published | **Edição/Página:** 23号 | **Data ISO:** 1949-08-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Engano por Trás da Queda da Mortalidade
 
@@ -975,6 +1029,7 @@ Considerando, ademais, que o Japão chegou ao ponto de implementar políticas de
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 医師会に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Reforma da Associação Médica
 
@@ -992,6 +1047,7 @@ Ademais, torna-se cada vez mais patente que os métodos materialistas da medicin
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月20日 | **Fonte:** Eikou
 **Título Original:** 医療〔学〕と浄霊 | **Status:** Published | **Edição/Página:** 144号 | **Data ISO:** 1952-02-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Incomparável Superioridade do Johrei
 
@@ -1029,6 +1085,7 @@ Nossa felicidade atual, devemos inteiramente a Meishu-Sama. Muito obrigado. Apre
 
 **Categoria:** i | **Ano:** 昭和26(1951)年1月31日 | **Fonte:** Eikou
 **Título Original:** インテリの悲哀 | **Status:** Published | **Edição/Página:** 89号 | **Data ISO:** 1951-01-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Infortúnio dos Intelectuais
 
@@ -1063,6 +1120,7 @@ E o que seria esse obstáculo? É, como já se pode deduzir, a própria supersti
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月3日 | **Fonte:** Eikou
 **Título Original:** 医学の罪悪観 | **Status:** Published | **Edição/Página:** 172号 | **Data ISO:** 1952-09-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Perspectiva Pecaminosa da Medicina
 
@@ -1088,6 +1146,7 @@ Portanto, ao se compreender a verdade, percebe-se que os prejuízos da medicina 
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 医学とは何ぞや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## O Que É a Medicina?
 
@@ -1117,6 +1176,7 @@ Em contrapartida, por meio desta Arte Médica Japonesa, a saúde das famílias e
 
 **Categoria:** i | **Ano:** 昭和25(1950)年5月13日 | **Fonte:** Kyusei
 **Título Original:** 生神様 | **Status:** Published | **Edição/Página:** 62号 | **Data ISO:** 1950-05-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Postura de um Deus Vivo
 
@@ -1140,6 +1200,7 @@ A esse respeito, recordo-me de uma jornalista da revista *Fujin Koron* que, em r
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 医師会に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## Acerca da Associação Médica
 
@@ -1157,6 +1218,7 @@ Ademais, os fatos não se limitam a essa perspectiva. Torna-se cada vez mais evi
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月3日 | **Fonte:** Eikou
 **Título Original:** 医学被害者の告白 | **Status:** Published | **Edição/Página:** 172号 | **Data ISO:** 1952-09-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Engano da Medicina
 
@@ -1201,6 +1263,7 @@ Meishu-Sama, muito, muito obrigada.
 
 **Categoria:** i | **Ano:** 昭和29(1954)年3月17日 | **Fonte:** Eikou
 **Título Original:** 医学の実体 | **Status:** Published | **Edição/Página:** 252号 | **Data ISO:** 1954-03-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Realidade da Medicina
 
@@ -1237,6 +1300,7 @@ Meishu-Sama, muito obrigada por Vossa imensa proteção. Rogo que continue a me 
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 医学不明の流行病 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Epidemia de Causa Ignorada
 
@@ -1258,6 +1322,7 @@ Esta enfermidade é mais comum em pessoas das classes média e alta, apresentand
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学は迷信なり 医学関 係 御論文集 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Superstição da Medicina Moderna
 
@@ -1299,6 +1364,7 @@ A seguir, explicarei como essa colossal crendice foi construída.
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月27日 | **Fonte:** Eikou
 **Título Original:** 依頼心を去れ | **Status:** Published | **Edição/Página:** 145号 | **Data ISO:** 1952-02-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Pela Erradicação da Mentalidade de Dependência
 
@@ -1320,6 +1386,7 @@ Sei que, ao dizer isso, parece que não tenho o direito de pregar sobre a erradi
 
 **Categoria:** i | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
 **Título Original:** 一切の不幸は病気から | **Status:** Published | **Edição/Página:** 134号 | **Data ISO:** 1951-12-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Origem de Todo Infortúnio é a Doença
 
@@ -1343,6 +1410,7 @@ Em contrapartida, nossa Igreja também se empenha ao máximo em sua missão de e
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学の罪悪１ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Os Crimes da Medicina
 
@@ -1358,6 +1426,7 @@ Ao ler o relato do paciente, cujo histórico omitimos aqui, descrevendo sua evol
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学と浄霊 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Razoabilidade do Johrei e a Contradição da Medicina
 
@@ -1373,6 +1442,7 @@ Nesse sentido, a causa fundamental por trás dessa disparidade de resultados é 
 
 **Categoria:** i | **Ano:** - | **Fonte:** Kenko
 **Título Original:** 医学の進歩と寿命 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## O Paradoxo entre o Avanço da Medicina e a Longevidade
 
@@ -1400,6 +1470,7 @@ Então, qual seria a melhor solução para este problema? É o que passarei a ex
 
 **Categoria:** i | **Ano:** 昭和24(1949)年7月23日 | **Fonte:** -
 **Título Original:** 稲荷の意味 | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1949-07-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Significado dos Santuários Inari
 
@@ -1419,6 +1490,7 @@ Por conseguinte, não se deve dirigir a ela nenhuma prece que não seja pela abu
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 医家の観たる医薬 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Visão de um Médico sobre os Medicamentos
 
@@ -1487,6 +1559,7 @@ Em suma, a concepção que os médicos modernos têm sobre os medicamentos é ca
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学迷信の恐ろしさ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Terror da Superstição Médica
 
@@ -1504,6 +1577,7 @@ Nesse sentido, tenho me empenhado em apontar, com a devida ousadia, os equívoco
 
 **Categoria:** i | **Ano:** 昭和28(1953)年11月18日 | **Fonte:** Eikou
 **Título Original:** 医学は迷信か | **Status:** Published | **Edição/Página:** 235号 | **Data ISO:** 1953-11-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Medicina seria uma Superstição?
 
@@ -1529,6 +1603,7 @@ Há, ainda, um outro fato surpreendente que passa despercebido à maioria das pe
 
 **Categoria:** i | **Ano:** 昭和26(1951)年7月4日 | **Fonte:** Eikou
 **Título Original:** 医学の盲点 二つの反対の例 | **Status:** Published | **Edição/Página:** 111号 | **Data ISO:** 1951-07-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Falácia da Medicina Moderna: Dois Relatos Contrastantes
 
@@ -1584,6 +1659,7 @@ Peço perdão por me estender tanto, mas o fiz movida pela imensa alegria que tr
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
 **Título Original:** 医学は科学？ | **Status:** Published | **Edição/Página:** 186号 | **Data ISO:** 1952-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Medicina é uma Ciência?
 
@@ -1603,6 +1679,7 @@ E por que o Johrei possui tamanha eficácia? Porque ele torna possível a dissol
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 医師の資格 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## Sobre a Qualificação dos Médicos
 
@@ -1638,6 +1715,7 @@ Sabe-se que, no Período Tokugawa, os médicos que alcançaram a fama de “gran
 
 **Categoria:** i | **Ano:** 昭和10(1935)年6月 | **Fonte:** Toho no Hikari
 **Título Original:** 一種の不敬 | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1935-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## Uma Certa Forma de Desrespeito
 
@@ -1667,6 +1745,7 @@ Aproveitar-se do fato de que ninguém ousa questionar assuntos relativos à Casa
 
 **Categoria:** i | **Ano:** 昭和27(1952)年1月23日 | **Fonte:** Eikou
 **Título Original:** 医学が悲劇を作る | **Status:** Published | **Edição/Página:** 140号 | **Data ISO:** 1952-01-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A medicina que produz tragédias
 
@@ -1726,6 +1805,7 @@ Em primeiro de maio, peregrinei a Atami e, em primeiro de julho, a Gora. Pude ve
 
 **Categoria:** i | **Ano:** 昭和10(1935)年8月16日 | **Fonte:** Toho no Hikari
 **Título Original:** 生命ちゅもの 阿呆文学 | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1935-08-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## Reflexões sobre a Natureza da Vida
 
@@ -1741,6 +1821,7 @@ Portanto, meus caros, ao se encontrarem à beira de um rio ou em dias de forte v
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学の罪悪２ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Agravo da Medicina
 
@@ -1762,6 +1843,7 @@ Minhas palavras podem soar extremas, todavia, sou compelido a expressá-las dest
 
 **Categoria:** i | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策
 **Título Original:** 異食物に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策
 
 ## Acerca das Substâncias Estranhas ao Organismo
 
@@ -1793,6 +1875,7 @@ Os exemplos que apresentei são apenas alguns dentre inúmeros casos semelhantes
 
 **Categoria:** i | **Ano:** 昭和28(1953)年6月24日 | **Fonte:** Eikou
 **Título Original:** 医学に対する挑戦ではない | **Status:** Published | **Edição/Página:** 214号 | **Data ISO:** 1953-06-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Não se trata de um desafio à medicina
 
@@ -1834,6 +1917,7 @@ Meishu-Sama, muito, muito obrigado. Expresso minha mais profunda gratidão.
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
 **Título Original:** 医療誤点の種々相 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1952-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核信仰療法
 
 ## Os Equívocos da Medicina sob Diversas Perspectivas
 
@@ -1871,6 +1955,7 @@ Nós, por outro lado, postulamos que a causa de todas as doenças é uma só. A 
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 胃疾患 ・病患と医学の誤謬二 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Verdadeira Causa das Doenças do Estômago
 
@@ -1910,6 +1995,7 @@ Por fim, existem casos extremamente raros em que a pessoa expele sangue pela boc
 
 **Categoria:** i | **Ano:** 昭和14(1939)年 | **Fonte:** 医学試稿
 **Título Original:** 医学試稿 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1939
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Verdadeira Natureza da Doença e da Cura
 
@@ -2408,6 +2494,7 @@ Os sintomas se manifestam principalmente no rosto, cabeça e costas. A área afe
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 胃病と心臓病 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Sobre as Moléstias Gástricas e Cardíacas
 
@@ -2457,6 +2544,7 @@ O que descrevi acima é a angina comum. Existe, contudo, uma condição semelhan
 
 **Categoria:** i | **Ano:** 昭和11(1936)年5月29日 | **Fonte:** Kenko
 **Título Original:** 医学は非科学的なり | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-05-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## O Caráter Anticientífico da Medicina
 
@@ -2486,6 +2574,7 @@ Como exposto, visto que a patologia e a etiologia carecem de qualquer fundamento
 
 **Categoria:** i | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 医学とは何ぞや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## O Veredito sobre a Medicina Moderna
 
@@ -2515,6 +2604,7 @@ Em contrapartida, ao conhecer esta arte de cura, a saúde das famílias eleva-se
 
 **Categoria:** i | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 胃病 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Verdade sobre as Doenças do Estômago
 
@@ -2548,6 +2638,7 @@ Finalmente, abordarei o câncer de estômago. Existem dois tipos: o pseudo-cânc
 
 **Categoria:** i | **Ano:** 昭和27(1952)年10月29日 | **Fonte:** Eikou
 **Título Original:** 行詰り | **Status:** Published | **Edição/Página:** 180号 | **Data ISO:** 1952-10-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdadeira Natureza do Impasse
 
@@ -2569,6 +2660,7 @@ O ser humano deve, em seu dia a dia, esmerar-se em polir sua sabedoria. E, para 
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 医師の資格 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Sobre a Qualificação Médica
 
@@ -2602,6 +2694,7 @@ Consta que os médicos do Período Tokugawa, aclamados como mestres em sua arte,
 
 **Categoria:** i | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
 **Título Original:** 生霊 自観叢書第3編 | **Status:** Published | **Edição/Página:** P.54 | **Data ISO:** 1949-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 霊界叢談
 
 ## Relatos sobre os Espíritos Vivos
 
@@ -2637,6 +2730,7 @@ Ademais, existem também os espíritos vivos de raposas. Seu corpo físico perma
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医療被害者の一例 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Um Exemplo das Vítimas da Medicina
 
@@ -2654,6 +2748,7 @@ Se assim o é, reside também uma culpa nessas terapias pela fé. Tal culpa cons
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 医学とは何ぞや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## Uma Análise Crítica da Medicina
 
@@ -2683,6 +2778,7 @@ Em contrapartida, os ministrantes desta arte de curar e suas famílias, bem como
 
 **Categoria:** i | **Ano:** 昭和29(1954)年3月10日 | **Fonte:** Eikou
 **Título Original:** 一種の悲喜劇 | **Status:** Published | **Edição/Página:** 251号 | **Data ISO:** 1954-03-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Tragicomédia
 
@@ -2717,6 +2813,7 @@ Por tudo isso, minha gratidão a Meishu-Sama é infinita. Peço perdão pela cal
 
 **Categoria:** i | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
 **Título Original:** 医学とは何ぞや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策（再版）
 
 ## Os Paradoxos da Medicina Moderna
 
@@ -2746,6 +2843,7 @@ Em contrapartida, ao conhecer esta arte médica, a saúde das famílias eleva-se
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 医師会に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Uma Proposta para a Ordem dos Médicos
 
@@ -2765,6 +2863,7 @@ Por todas essas razões, reafirmo aqui a necessidade premente de se reformar a O
 
 **Categoria:** i | **Ano:** 昭和26(1951)年5月30日 | **Fonte:** Eikou
 **Título Original:** 怒りを克服する | **Status:** Published | **Edição/Página:** 106号 | **Data ISO:** 1951-05-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Superação da Ira
 
@@ -2786,6 +2885,7 @@ Ademais, o Johrei pode ser tanto autoaplicado como ministrado por outra pessoa, 
 
 **Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
 **Título Original:** 一、一般指圧療法との比較 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 日本医術講義録
 
 ## Análise Comparativa com a Terapia de Shiatsu Convencional
 
@@ -2801,6 +2901,7 @@ Em contrapartida, a terapia de shiatsu por mim idealizada tem como alicerce o Po
 
 **Categoria:** i | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
 **Título Original:** 医師が電療に反対する | **Status:** Published | **Edição/Página:** 53号 | **Data ISO:** 1950-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Posição de um Renomado Médico sobre a Eletroterapia
 
@@ -2822,6 +2923,7 @@ Como este exemplo demonstra, ele possuía um caráter alheio às convenções mu
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 異食物に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## Sobre os Alimentos Estranhos ao Organismo
 
@@ -2847,6 +2949,7 @@ Diante de tais exemplos, torna-se um fato inquestionável que as substâncias es
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 胃疾患 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Verdadeira Causa das Enfermidades Estomacais
 
@@ -2877,54 +2980,6 @@ Avançando na análise, a úlcera gástrica é causada, na grande maioria dos ca
 A úlcera atribuída ao consumo excessivo de álcool, na realidade, muitas vezes tem sua origem no hábito que muitos alcoólatras têm de ingerir medicamentos gástricos durante ou após a bebida. Para essas pessoas, a causa do problema é mais o remédio do que o álcool.
 
 Existe, ademais, uma condição extremamente rara em que a pessoa apresenta vômitos com sangue ou pequenas partículas de sangue no escarro, sem que haja dor, uso de medicamentos ou qualquer outra causa aparente. Trata-se de um quadro que confunde os médicos, mas que se aproxima dos sintomas de uma úlcera. A causa reside na formação de uma pequeníssima tumefação em uma parte do estômago, da qual o sangue emana. Mesmo que ocorra um episódio de vômito com sangue, se não houver interferência, a condição tende a se resolver espontaneamente.
-
----
-
-# Medicina: Arte Benevolente ou Prática Deletéria?
-
-**Categoria:** i | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Eikou
-**Título Original:** 医は果して仁術か〔無題〕 | **Status:** Published | **Edição/Página:** 204号 | **Data ISO:** 1953-04-15
-
-## Medicina: Arte Benevolente ou Prática Deletéria?
-
-Desde tempos imemoriais, a medicina é reverenciada como uma arte benevolente. Contudo, tal concepção origina-se da ignorância sobre seus fundamentos mais profundos e, na verdade, representa uma visão diametralmente oposta à realidade. Nós nos empenhamos arduamente para elucidar esta verdade. O relato de graça que se segue é uma prova irrefutável, pois traz o testemunho de um espírito vindo diretamente do Mundo Espiritual, o que dissipa qualquer dúvida a respeito. Com efeito, o relato demonstra que, longe de ser um ato de benevolência, a prática médica constitui uma terrível transgressão.
-
-A esse respeito, recordo-me de ouvir com frequência, desde muito tempo, sobre a desproporcional quantidade de infortúnios e desditas que acometem os descendentes de médicos. Portanto, se os profissionais da medicina tomassem conhecimento deste fato, seria inevitável que fossem tomados pelo desalento. Afinal, se a prática médica resulta em gerar infelicidade para inúmeras pessoas e, ao mesmo tempo, para o próprio praticante, que atividade poderia ser mais desvantajosa e insensata?
-
-A missão de salvar a todos dessa condição é precisamente o propósito de nossa Sekaikyuseikyou. Exortamos, pois, os senhores médicos a refletirem profundamente sobre esta realidade que lhes apresentamos.
-
-**Antepassados são salvos um após o outro no Mundo Espiritual**
-Província de Shimane
-Igreja Tyuko de Ryuko
-Yuzuriha Mineko (30 anos)
-
-Meishu-Sama,
-
-Desde que ingressei na fé, em 13 de dezembro de 1949, tenho vivido dias de paz e alegria em meio a este mundo conturbado, sem jamais sentir qualquer apreensão, graças à imensa proteção de Meishu-Sama. Por isso, expresso minha mais sincera e profunda gratidão.
-
-Embora eu seja uma pessoa com muitas máculas, tomo a liberdade de relatar, ainda que com minha escrita inábil, algumas das inúmeras graças que tenho recebido diariamente.
-
-Pouco tempo após nosso casamento, em fevereiro de 1949, meu esposo faleceu de tuberculose, deixando-me com nossos dois filhos – um de um ano e sete meses e outro de apenas quatro meses de vida –, além de minha avó de oitenta anos. A partir de então, passei a viver uma vida solitária, angustiada pela saúde frágil das crianças e assolada por dificuldades financeiras. O auxílio que recebia da prefeitura era insuficiente para sustentar um bebê que não podia amamentar. Por essa razão, em agosto daquele ano, pedi que minha mãe viesse morar conosco para que eu pudesse começar a trabalhar. Contudo, meus filhos, de saúde delicada, adoeciam constantemente com febre e diarreia, obrigando-me a levá-los ao hospital. Como resultado, eu chegava atrasada ou precisava sair mais cedo do trabalho com frequência, o que me causava um sofrimento indescritível.
-
-Foi nesse período de aflição que, em novembro, meu irmão mais velho me falou sobre estes sagrados ensinamentos. Sentindo a necessidade de me amparar em algo superior, decidi participar do Culto Mensal do Johrei Center de Minamida-machi, em Matsue, no dia 18 daquele mês. Naquela ocasião, meu filho mais novo sofria de uma otite, e recebi Johrei do ministro Ishizaka. Para minha surpresa, a secreção purulenta, que até então era constante, cessou por completo no dia seguinte. Admirada com o ocorrido, continuei a frequentar o local por mais alguns dias, e, após receber Johrei do chefe de Johrei Center, Sr. Sugitani, meu filho ficou totalmente curado. Diante de tão maravilhoso e inexplicável milagre, decidi ingressar na fé. No dia 13 de dezembro, recebi a Outorga do Ohikari pelas mãos do ministro Sugitani.
-
-A partir daquele momento, abandonei por completo os tratamentos médicos para meus filhos, dedicando-me exclusivamente à prática do Johrei. Graças a essa decisão, embora passassem por diversas purificações, eles se restabeleciam prontamente a cada vez. Os mesmos meninos que antes eram diagnosticados com desnutrição nos exames médicos, hoje estão fortes, saudáveis e passam os dias brincando cheios de energia, permitindo que eu trabalhe com tranquilidade. Sinto uma imensa gratidão pela proteção de Meishu-Sama.
-
-Contudo, por ser uma pessoa com muitas máculas, outras provações me aguardavam. No final de 1949, o proprietário da casa onde morávamos começou a exigir insistentemente que nos mudássemos. Naquela época de escassez de moradias, como seria possível encontrar outro lugar, ainda mais sendo uma mãe com filhos pequenos, que são frequentemente rejeitados como inquilinos? Sem alternativa, acabei por me mudar para o local onde resido atualmente, um único cômodo na casa de meus pais.
-
-Meu irmão também se tornou um membro fervoroso, e em sua casa entronizamos o Altar, a Fotografia de Meishu-Sama e a imagem de Kannon (観音) em pergaminho. Embora eu ainda não tenha recebido a permissão para ter meu próprio Altar, pude entronizar a imagem de Kannon (観音) em maio do ano retrasado, e desde então leio diariamente as Orações e os Ensinamentos. Por meio dessa prática, fui levada a compreender quão rapidamente os espíritos dos antepassados são salvos no Mundo Espiritual.
-
-A primeira manifestação ocorreu em maio do ano passado, quando fui tomada por uma possessão. Era o espírito da mãe de meu falecido esposo, cujo paradeiro era desconhecido. Ela revelou: "Há mais de vinte anos, cometi suicídio na Coreia. Por esse pecado, somado ao de ter sido enfermeira, caí no inferno e sofri terrivelmente. Contudo, fui salva por Komyō Nyorai e agora estou no Paraíso. Meu filho, seu marido, também já alcançou um bom lugar, e vivemos todos felizes. Tudo isso é graças à sua fé". Com imensa alegria, ela acrescentou: "Preciso retribuir esta graça".
-
-A segunda experiência se deu no início de setembro. Enquanto eu lia o livro "Relatos do Mundo Espiritual" diante do oratório, senti um peso súbito sobre minha cabeça e ombros, sensação que persistiu por alguns dias. Ao receber Johrei de meu irmão, a possessão se manifestou: era o avô de meu marido. Ele nos disse: "Estou no inferno. Embora esta mulher [referindo-se a mim] tenha entrado na fé e ore todos os dias, eu a desprezava. Mas, desde que ela começou a ler os 'Relatos do Mundo Espiritual', meus sentimentos mudaram. No início, eu pensava que eram apenas tolices, mas, ao continuar ouvindo, compreendi: 'De fato, eu estava errado. Não posso continuar assim'. Agora, desejo ouvir atentamente, praticar com sinceridade e me tornar uma pessoa melhor. No entanto, estou na parte mais profunda do inferno, e a ascensão é muito difícil. Ainda assim, tenho fé de que um dia serei elevado a um bom lugar. Estou no inferno porque fui médico em minha vida terrena. Sim, foi por isso. Eu não tinha essa intenção, mas não há o que fazer. Realmente, ser médico não é bom". Após dizer várias outras coisas, ele concluiu com um pedido: "De agora em diante, também me apegarei a Deus com toda a sinceridade. Por favor, ore por mim todos os dias. É tudo o que peço".
-
-Este episódio me fez ver claramente que, embora a medicina seja socialmente vista como uma nobre arte de benevolência que salva pessoas, a realidade no Mundo Espiritual é chocante e oposta: trata-se de um ato pecaminoso que conduz ao inferno.
-
-Em outra nota, eu, uma pessoa de tantas máculas, tive a imensa alegria de ver realizado meu grande anseio de ser recebida em audiência por Meishu-Sama durante Sua visita ao oeste do Japão, pelo que sou profundamente grata. Gostaria de relatar a proteção que recebi nessa ocasião. Pouco antes da possessão de meu avô, eu vinha sentindo a cabeça pesada, com purificações que se manifestavam cinco ou seis vezes por dia na região do bulbo e do occipital, além de uma sensação de aperto no topo da cabeça. Após a audiência, todos esses sintomas desapareceram por completo. Por meio dessa experiência, compreendi a imensa intensidade da Luz Divina de Meishu-Sama e a importância fundamental de sermos purificados ao receber a graça de um encontro com Ele.
-
-Meishu-Sama, muito, muito obrigada. Com minha mais profunda e reiterada gratidão, encerro este relato.
-
-(27 de fevereiro de 1953)
 
 ---
 

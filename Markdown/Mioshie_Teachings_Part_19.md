@@ -1,9 +1,74 @@
 # Mioshie_Teachings - Part 19
 
+# O Ponto Vital
+
+**Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月5日） | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1953-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
+
+## O Ponto Vital
+
+A exposição de Ukiyo-e passa por renovações periódicas em seu acervo, e a partir de hoje, realizamos a terceira troca de obras. Portanto, o que verão é inteiramente distinto do que estava em exibição anteriormente. Recomendo que a apreciem com essa perspectiva. Desta vez, além das peças do museu, incluímos algumas de colecionadores particulares. É, de fato, um milagre a velocidade com que as obras continuam a chegar. Atualmente, nosso acervo de Ukiyo-e já é considerado o maior do Japão. E isso em menos de um ano; nesta mesma época, no ano passado, não possuíamos absolutamente nada do gênero. Tudo foi reunido em apenas sete ou oito meses, o que é verdadeiramente extraordinário.
+
+A esse respeito, farei a leitura de um relato sobre a recente manifestação do espírito de Utamaro, que expressou sua alegria, e o significado de suas palavras.
+
+(Ensinamento “O Milagre da Reunião das Obras de Arte”)
+
+No Mundo Espiritual, trava-se uma verdadeira competição entre os artistas para trazerem suas criações até aqui. Contudo, aqueles que as trazem são, em sua maioria, movidos pela ganância, buscando lucros exorbitantes. Como estabeleci o princípio de não adquirir peças por preços elevados, essa situação causa grande aflição aos espíritos. De minha parte, mantenho a serenidade e não demonstro pressa; com o tempo, eles se veem compelidos a reduzir o preço para que a obra seja finalmente acolhida. É um processo bastante interessante.
+
+Ademais, se tentam aumentar o valor ou apresentar uma peça de procedência duvidosa, a verdade invariavelmente vem à tona. Alguém sempre me informa. Tudo se desenrola como se eu próprio possuísse um conhecimento profundo sobre o assunto. Quando me interesso por uma obra, mas hesito devido ao preço, ponderando sobre a aquisição, infalivelmente surge alguém para revelar que aquela mesma peça já esteve à venda por um valor muito inferior, expondo a tentativa de estelionato do negociante. Desse modo, as obras chegam às minhas mãos sempre pelo seu justo valor de mercado. Não tenho a intenção de adquiri-las por menos do que valem, mas tampouco aceito preços fraudulentos. Agindo com essa retidão, tudo transcorre de forma harmoniosa e satisfatória.
+
+Isso se aplica a todas as áreas. Seja com o Ukiyo-e ou com a arte ocidental, no ano passado eu era um completo leigo. Não haveria como eu, subitamente, adquirir todo esse conhecimento. Contudo, as circunstâncias se arranjam de tal forma que aparento ser um grande conhecedor. Por isso, os comerciantes parecem pensar: "Como ele pode entender tanto?". A realidade, porém, é outra. Muitas vezes, uma intuição me ocorre ou recebo uma sugestão de outra pessoa que me permite fazer a escolha certa. O resultado é que pareço ter o olhar apurado de quem estudou o assunto por longos anos. Esse aspecto é fascinante.
+
+De qualquer modo, como a maioria das peças é de alto valor e meus critérios se tornam cada vez mais rigorosos, abstenho-me de comprar quase tudo. Adoto a política de adquirir somente o que pode ser considerado uma obra-prima. Assim, as poucas que surgem são invariavelmente caras, o que me causa enormes dificuldades financeiras. Trata-se, no entanto, de um sofrimento que busco voluntariamente, não havendo motivo para pessimismo. É, na verdade, um lamento de alegria.
+
+Ainda assim, considero-me bastante hábil na administração dos recursos e em outras questões correlatas. Organizo os pagamentos aos negociantes de arte de maneira a não criar impasses, agindo com sensatez para não os prejudicar. Tenho grande confiança em minha capacidade de gerenciar as finanças. Isso se deve, em parte, ao rigoroso treinamento a que fui submetido no passado, quando sofri imensamente com problemas financeiros. Fui atormentado por dívidas durante mais de vinte anos, e essa provação se converteu, hoje, em um profundo aprendizado. Compreendo, portanto, que Deus me submeteu a um rigoroso treinamento sobre o uso do dinheiro e muitos outros aspectos da vida. Escrevi a esse respeito.
+
+(Ensinamento “Vinte Anos de Dívidas”)
+
+Embora este exemplo se refira a finanças, o mesmo princípio se aplica a absolutamente tudo. No tratamento das doenças, por exemplo, o desejo veemente de "querer ser curado a todo custo" pode, paradoxalmente, retardar o processo. Da mesma forma, a ânsia desesperada por "salvação" pode levar ao resultado oposto. É o apego, como sempre digo, que se torna um obstáculo.
+
+Recentemente, mencionei que o tratamento dos ombros é fundamental para a cura da tuberculose. Isso, porém, não se restringe a essa enfermidade; cardiopatias também estão invariavelmente associadas a um enrijecimento do ombro esquerdo. Logo, a cardiopatia é, em sua essência, uma enfermidade dos ombros. Essa massa enrijecida no ombro se dissolve gradualmente, desce e se acumula na região do coração, exercendo pressão sobre ele. Portanto, para tratar doenças cardíacas, deve-se ministrar Johrei principalmente nos ombros.
+
+Pessoas com problemas estomacais também apresentam, sem exceção, os ombros tensos. Ao receberem Johrei nessa área, o apetite invariavelmente melhora, pela mesma razão. A única exceção a essa regra é o derrame cerebral. Na verdade, este tende a ocorrer em pessoas com ombros flexíveis. Indivíduos com ombros flexíveis costumam ser saudáveis, e o derrame tende a acometer justamente as pessoas que aparentam boa saúde. Não ocorre em quem está debilitado. Alguém emagrecido pela tuberculose, por exemplo, jamais sofrerá um derrame. Este é mais comum em pessoas robustas, de aparência oleosa e compleição avermelhada.
+
+Em contrapartida, quem sofre um derrame sempre possui nódulos na região do pescoço, seja do lado direito ou esquerdo, e também na nuca, igualmente à direita ou à esquerda. Isso significa que as toxinas, que deveriam descer, acabam subindo e se solidificando nesses locais. O ponto de acúmulo é determinado pelo uso que a pessoa faz do corpo em sua profissão. Quando esses nódulos se dissolvem abruptamente e penetram no cérebro, ocorre a hemorragia cerebral. Se o enrijecimento for do lado direito do pescoço, os membros do lado esquerdo do corpo ficarão paralisados.
+
+Portanto, apenas no caso do derrame, o foco não são os ombros, mas sim os nódulos no pescoço. Tais casos, no entanto, são raros. As doenças mais comuns são a tuberculose, as afecções pulmonares e cardíacas, os problemas gastrointestinais e, atualmente, a disenteria. Como sempre explico, a disenteria ocorre quando o sangue impuro da nuca se dissolve e é expelido pelo ânus.
+
+Dessa forma, para a maioria dos doentes, o procedimento inicial mais eficaz é solicitar que inclinem a cabeça e ministrar Johrei no centro da nuca, na parte mais profunda. Ali se encontra o centro vital do ser humano, e esse ponto influencia todo o corpo. Após purificar essa área, passa-se aos ombros. Deve-se focalizar o ponto-chave pela frente e, em seguida, por trás. Mesmo por cima da roupa, um leve toque permite identificar os nódulos. Em casos de grande enrijecimento, ministra-se Johrei sobre o ombro. Ao flexibilizar os ombros, os nódulos ao redor do pescoço também se dissolvem com muito mais facilidade.
+
+Problemas nos braços e pernas também se originam nos ombros. Assim, ao tratar os ombros de alguém com dificuldades nas pernas, estas melhorarão.
+
+Quanto à cabeça, a parte frontal e a nuca têm funções distintas. A nuca está relacionada à eliminação de toxinas pela disenteria ou hemorroidas. Um ponto importante a se ter em mente é que, ao ministrar Johrei nos ombros, o paciente pode sentir mal-estar no peito, como náuseas ou uma leve ânsia de vômito. Isso ocorre porque as toxinas dissolvidas se acumulam no estômago. Nesse momento, deve-se ministrar Johrei nessa região. Mesmo sem Johrei, as toxinas acabarão por descer, mas isso poderá causar dores abdominais. Portanto, é preciso saber que, após o Johrei nos ombros ou no pescoço, as toxinas dissolvidas podem causar náuseas e, em seguida, dores de barriga. Frequentemente me perguntam por que, ao tratar um problema no pescoço, o abdômen dói. A resposta é que as toxinas dissolvidas desceram para essa região para serem eliminadas através da diarreia.
+
+Nos homens, a eliminação ocorre dessa forma. Nas mulheres, contudo, além da diarreia, a eliminação pode ocorrer pela frente, na forma de corrimento, ou através das mucosas da pele, causando sensações de ardência ou coceira. Nos homens, a via principal é a diarreia. Compreendendo esses processos, é possível proceder sem grandes equívocos.
+
+Embora esse seja o padrão, em algumas pessoas as toxinas podem se acumular na região lombar, ou seja, nos rins. Inicialmente, as toxinas medicamentosas se concentram nos rins, que são responsáveis por processá-las. No entanto, apenas uma pequena parte é eliminada, e o restante se solidifica nos ombros. Contudo, em outros casos, essas toxinas podem se alojar na região lombar. Isso depende da profissão da pessoa. Aqueles que usam muito as mãos ou realizam trabalhos que exigem grande concentração tendem a acumular toxinas nos ombros. Já os agricultores, que flexionam muito o corpo, ou aqueles cujo trabalho exige força na região lombar mesmo sentados, acumulam-nas nessa área.
+
+Quando essa massa de toxinas na região lombar se dissolve pouco a pouco e flui para as pernas, surgem os problemas nos membros inferiores. O beribéri, por exemplo, tem essa origem. Câimbras, dormência, fadiga, fraqueza nos joelhos – todos os problemas relacionados às pernas decorrem de toxinas que, uma vez acumuladas na região lombar, escoam para baixo. Consequentemente, para tratar qualquer afecção nas pernas, o primeiro passo é ministrar Johrei na parte posterior do corpo, visando o centro da região lombar, no cóccix. Ao fazer isso, as pernas se tornarão muito mais leves, mesmo sem receber Johrei diretamente.
+
+Esse mesmo problema está relacionado à falta de ar. Pessoas com problemas que vão da região lombar às pernas sentem um esforço imenso ao caminhar ou subir uma ladeira. Seus movimentos não são leves. Esse esforço se traduz em falta de ar. O trabalho excessivo exigido do coração afeta sua força. Por sua vez, essa sobrecarga cardíaca resulta em falta de ar, que é uma função pulmonar; a respiração se torna mais frequente. Segundo o princípio de que o coração é fogo e os pulmões são água, quando o coração se esforça demais, seu fogo, seu calor, perde a capacidade de energizar os pulmões. Assim, a atividade pulmonar se torna deficiente. Essa é a lógica.
+
+Os médicos desconhecem por completo tais princípios. Eles se limitam a anunciar resultados de pesquisas fragmentadas, por áreas específicas. É, em verdade, uma abordagem bastante primária. O que acabei de expor é um panorama geral, mas, com essa compreensão, é possível interpretar outros fenômenos. Conhecendo a origem, a prática do Johrei se torna muito mais eficaz.
+
+Em qualquer atividade, o fundamental é identificar o ponto vital. No Johrei, também é preciso descobrir esse ponto. Com o conhecimento que transmiti, a identificação do ponto vital se torna muito mais fácil. Mesmo ao fazer um autodiagnóstico, apalpe todo o seu corpo. As toxinas se concentram onde há calor. Se ao tocar o corpo ele estiver uniformemente frio, ótimo. Mas geralmente haverá algum ponto mais quente; ali está o ponto vital. Da mesma forma, ao pressionar, certamente encontrará um local dolorido. Existem pessoas que não sentem dor alguma, mas é improvável que isso se deva à ausência de toxinas. O mais provável é que as toxinas estejam tão solidificadas que nenhum processo de purificação esteja ocorrendo. A dor indica que alguma purificação, por menor que seja, está em andamento no nódulo. A ausência total de dor, portanto, pode ser um sinal de perigo. Frequentemente, pessoas que não sentiam dor alguma começam a senti-la após ingressarem na fé. Isso significa que a purificação naquele local finalmente começou. Contudo, esses casos são raros; a maioria das pessoas sente dor em algum ponto. Ao ministrar Johrei nesses locais, ou pedir que alguém o faça nas suas costas, a saúde será restaurada. Para o autotratamento, o ponto mais importante são os ombros. Basta encontrar o local mais enrijecido e concentrar o Johrei ali. Por vezes, encontrará pequenos nódulos. Para dissolvê-los, emita Luz pelos dedos, sem tocar, como sempre digo. Utilize os dois dedos, assim, concentrando a emissão pelo dedo médio. A Luz que emana dos dedos é mais intensa e dissolve bem os pequenos nódulos.
+
+Em tudo, o segredo é o ponto vital. No entanto, é comum que as pessoas o ignorem. Isso não se aplica apenas à doença, mas também às conversas, aos assuntos cotidianos, a tudo. Na difusão, por exemplo, quando alguém hesita em ingressar na fé, se você tocar precisamente no ponto vital de sua dúvida, a pessoa decidirá: "Então, ingressarei". Mas encontrar esse ponto vital é bastante difícil.
+
+À medida que a sabedoria de uma pessoa se expande, ela se torna mais rápida em identificar o ponto vital. Em qualquer situação, o segredo é atuar sobre ele. E quando o ponto vital não for encontrado, não se deve agir com precipitação. Isso pode significar que o momento certo ainda não chegou, ou que há outras circunstâncias envolvidas. Se mantivermos a atenção, quando a hora chegar, o ponto vital se revelará. Com as doenças, por exemplo, quando uma febre persiste, basta tocar no ponto certo para que ela ceda. Vocês mesmos já devem ter tido essa experiência.
+
+A capacidade de identificar o ponto vital é, pois, a condição primordial para o sucesso na vida humana. Por ignorarem esse ponto, os atuais líderes da política, da economia e da diplomacia cometem equívocos consideráveis. Ouço com frequência nos jornais e no rádio os políticos se reunindo diariamente para debater inúmeras questões, mas todas elas tangenciais ao ponto vital. Homens tidos como importantes se reúnem e deliberam, mas discutem tudo, exceto o essencial. Por isso, nenhuma boa solução emerge. Não se trata de falta de inteligência; são pessoas inteligentes. A inteligência que possuem, porém, é apenas superficial, externa. O âmago lhes escapa. Discutem longamente a periferia, mas ninguém debate o centro. Em suma, não compreendem o ponto central contido no círculo.
+
+Portanto, o ser humano precisa desenvolver uma mente capaz de descobrir o ponto vital. A fé é o treinamento para isso. A Sekaikyuseikyou se fundamenta nesse ponto central, que até hoje permaneceu incompreendido por todos. Nosso alicerce é compreendê-lo e, com base nele, salvar a humanidade. Quando passamos a enxergar e a agir em todas as coisas a partir dessa perspectiva, os resultados são maravilhosos. Embora seja um caminho difícil, já será um grande avanço se conseguirmos, ao menos, discernir com rapidez o que está próximo ao ponto vital.
+
+---
+
 # O Planejamento da Sede Sagrada e do Museu de Arte de Hakone
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年3月16日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Planejamento da Sede Sagrada e do Museu de Arte de Hakone
 
@@ -31,6 +96,7 @@ Como podem ver, há um volume considerável de trabalho a ser feito, envolvendo 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年12月5日） | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1953-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre a Conjuntura Mundial e a Decadência da Arte
 
@@ -92,6 +158,7 @@ Para concluir com um tema distinto, eu não reverencio a Deus da maneira convenc
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年4月11日 | **Fonte:** Kenko
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-04-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## A Saúde como Alicerce da Verdadeira Salvação
 
@@ -141,6 +208,7 @@ Apesar de tudo, o homem se gaba de sua civilização e se sente grato por ela. V
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月15日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Consciência Intrínseca da Natureza e a Ordem Espiritual
 
@@ -186,6 +254,7 @@ Aproveito para apresentar um texto que escrevi sobre religião, abordando um tem
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年8月16日） | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1953-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Milagre da Regeneração e o Avanço da Obra Divina
 
@@ -241,6 +310,7 @@ O erro está em aplicar gelo e tomar outras medidas para impedir a eliminação,
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月15日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Mais Profunda Vingança
 
@@ -264,6 +334,7 @@ Por todas essas razões, dei início a este trabalho. Nele, exponho de forma min
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年12月7日） | **Status:** Published | **Edição/Página:** 29号 | **Data ISO:** 1954-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Perspicácia da Visão Estrangeira
 
@@ -316,6 +387,7 @@ Para concluir, há algo que os senhores precisam impreterivelmente saber. Será 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年4月16日） | **Status:** Published | **Edição/Página:** 33号 | **Data ISO:** 1954-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Revelações sobre o Mundo Espiritual e o Destino da Humanidade
 
@@ -385,6 +457,7 @@ Escrevi um pouco a esse respeito.
 
 **Categoria:** kouwa | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Kenko
 **Título Original:** 大日本健康協会発会式御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## A Vontade de Kannon e o Advento do Mundo de Miroku
 
@@ -454,6 +527,7 @@ Em linhas gerais, este é o significado de Miroku.
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年4月16日） | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1953-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Crepúsculo do Budismo e a Aurora da Nova Era
 
@@ -491,6 +565,7 @@ Condições como o espasmo vaginal, em que um simples toque provoca uma dor lanc
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年11月16日） | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1952-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Diretrizes sobre Johrei e a Situação Mundial
 
@@ -531,6 +606,7 @@ Observar o desenrolar dos acontecimentos sob essa ótica é fascinante. Ao conhe
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月3日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Alvorecer da Nova Era
 
@@ -590,6 +666,7 @@ Estas foram, em linhas gerais, as explanações sobre os planos e o rumo dos aco
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年7月7日） | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1952-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Significado Divino do Museu de Arte
 
@@ -635,6 +712,7 @@ Comecei a escrever um folheto sobre o museu para ser distribuído aos visitantes
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年6月15日 | **Fonte:** 箱根日Hikari殿増築落成祝賀式Gokowa 昭和26
 **Título Original:** 箱根日光殿増築落成祝賀式御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1951-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Transição para a Era do Dia e a Construção do Paraíso Terrestre
 
@@ -666,6 +744,7 @@ Seja como for, o trabalho se torna cada vez mais gratificante e fascinante. Até
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月3日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Alvorecer de 1954 e o Poder da Luz Divina
 
@@ -709,6 +788,7 @@ Se a causa das doenças são as nuvens no espírito, é evidente que a cura deve
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年8月11日 | **Fonte:** Hikari明世界
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-08-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## A Verdade sobre as Fotografias Espirituais
 
@@ -792,6 +872,7 @@ Há, contudo, uma exceção. Pode ocorrer de um ancestral ter regredido ao reino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 神仙郷完成兼美術館開館記念祝賀式典御講話１ | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1952-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Construção do Paraíso e a Inauguração do Museu de Arte
 
@@ -867,6 +948,7 @@ Embora não planejasse realizar Johrei hoje, atenderei democraticamente aos inú
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年7月27日） | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1952-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Mal como Instrumento do Plano Divino
 
@@ -910,6 +992,7 @@ Por ora, encerro minhas palavras.
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年8月18日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre Meus Próximos Escritos
 
@@ -927,6 +1010,7 @@ Posteriormente, abordarei os mais variados campos do saber, como a política, a 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年12月27日） | **Status:** Published | **Edição/Página:** 29号 | **Data ISO:** 1954-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Concretização do Paraíso e o Princípio do Johrei
 
@@ -962,6 +1046,7 @@ Creio que mesmo membros com bastante tempo de fé possam ter dificuldade em comp
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年10月26日） | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1953-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Superstição dos Fertilizantes e a Crise do Japão
 
@@ -999,6 +1084,7 @@ Ainda haveria muitos outros pontos a serem abordados e textos a serem lidos, mas
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S28年9月24日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## As Manifestações da Intensificação da Luz Divina
 
@@ -1039,6 +1125,7 @@ A execução deste projeto seguirá uma ordem, ocorrendo somente após a conclus
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年5月26日） | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1952-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Manifestação da Vontade Divina
 
@@ -1096,6 +1183,7 @@ Sinto o anseio de esclarecer a todos o mais rápido possível, mas, como tudo é
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年12月25日） | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1953-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Vontade Divina por Trás do Rancor Humano
 
@@ -1131,6 +1219,7 @@ Mudando de assunto, gostaria de fazer uma observação sobre a prática do Johre
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年12月25日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Força Absoluta e a Grande Transição
 
@@ -1170,6 +1259,7 @@ Até agora, todo o pensamento tem sido puramente materialista. Não há necessid
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年7月25日） | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1953-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Superstição da Ciência e a Verdade Revelada
 
@@ -1235,6 +1325,7 @@ Outro ponto é que os cremes atuais contêm diversos produtos químicos, cada ve
 
 **Categoria:** kouwa | **Ano:** 昭和25(1950)年3月5日 | **Fonte:** Kyusei
 **Título Original:** 御講話 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1950-03-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Desvelar do Plano Divino
 
@@ -1258,6 +1349,7 @@ O Plano de Deus, por sua vez, é de uma magnitude grandiosa. Anteontem, tratamos
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年2月26日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1953-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Urgência e o Propósito Divino da Agricultura Natural
 
@@ -1297,6 +1389,7 @@ Encerrando por ora o assunto da agricultura, escrevi um artigo interessante que 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年2月26日） | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1954-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Superstição do Sofrimento e a Expansão da Obra Divina
 
@@ -1344,6 +1437,7 @@ Sendo assim, é fundamental que todos compreendam os malefícios da medicina chi
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年10月8日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Restauração do Emplastro Espiritual e a Síntese das Civilizações
 
@@ -1383,6 +1477,7 @@ Nesse sentido, é fundamental entender os princípios Vertical e Horizontal. O c
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年10月27日） | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1952-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre o Johrei e a Divulgação da Verdade Divina
 
@@ -1416,6 +1511,7 @@ A "Conclusão" deste ensaio, que será lida em outra oportunidade, foi redigida 
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S26年9月26日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Construção do Paraíso e a Dissolução dos Sofrimentos Humanos
 
@@ -1445,6 +1541,7 @@ No que tange a Atami, os jardins estarão, em sua maior parte, concluídos até 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S27年9月26日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1952-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Protótipo do Paraíso Terrestre e o Desvelar do Plano Divino
 
@@ -1516,6 +1613,7 @@ A forma de evitar isso está no ensinamento central da Igreja Messiânica: “En
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年5月27日） | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1953-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Providência Divina e a Racionalidade da Fé
 
@@ -1559,6 +1657,7 @@ O vencedor do ano passado era da província de Kagawa. Como a marca a ser supera
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S27年3月23日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Visões do Paraíso Terrestre e a Missão Divina
 
@@ -1600,6 +1699,7 @@ Encerrarei minhas palavras por aqui. Eu não pretendia ministrar Johrei no dia d
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年2月27日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre o Inestimável Valor da Arte Japonesa
 
@@ -1637,6 +1737,7 @@ Ainda haveria muito a dizer, mas nosso tempo se esgotou.
 
 **Categoria:** kouwa | **Ano:** 昭和23(1948)年11月1日 | **Fonte:** 昭和
 **Título Original:** 五六七教会発会式御言葉 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1948-11-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Nascimento da Igreja Gorokushichi e o Advento do Mundo do Dia
 
@@ -1688,6 +1789,7 @@ O nascimento da Igreja Gorokushichi é, em minha convicção, o primeiro passo p
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S28年9月27日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre os Tufões, a Expansão da Fé e o Ponto de Encontro entre Ciência e Religião
 
@@ -1749,6 +1851,7 @@ Ao se aprofundar a questão, chega-se à conclusão de que religião e ciência 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年10月25日） | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1953-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Grande Revolução da Agricultura Japonesa
 
@@ -1784,6 +1887,7 @@ Com o avanço gradual da Obra, a partir do próximo ano, grandes transformaçõe
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年8月21日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Embate entre o Dragão Dourado e o Dragão Negro
 
@@ -1808,65 +1912,6 @@ Minha intenção é imprimir este relato e distribuí-lo ao juiz e aos promotore
 Recentemente, o senhor Kosaka, da editora “Hikari”, produziu uma obra intitulada “A Nova Violência”. Nela, ele transcreveu na íntegra meu “Relato da Perseguição Religiosa” e incluiu também pareceres de outras personalidades ilustres. O livro será comercializado para o público geral, e cuidaremos para que exemplares sejam distribuídos a pessoas importantes em diversas áreas.
 
 Quanto ao “Relato da Perseguição Religiosa” original, produzimos apenas dez mil cópias em edição limitada. Portanto, os fiéis que ainda não o possuem devem adquirir esta nova publicação. Planejamos também anexar um suplemento sobre a audiência atual, destinado exclusivamente aos nossos membros.
-
----
-
-# A Ciência em seu Limite e a Verdade sobre a Purificação
-
-**Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
-**Título Original:** 御講話 （S28年7月26日） | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1953-08-15
-
-## A Ciência em seu Limite e a Verdade sobre a Purificação
-
-Atualmente, dedico-me à escrita de um livro intitulado “O Livro da Revolução na Medicina”. Nele, inseri um trecho que se desvia do convencional, o qual gostaria que lhes fosse lido agora.
-
-(Leitura do ensaio “A Ciência não pode curar doenças”, parte de “O Livro da Revolução na Medicina”)
-
-Conforme o que acabamos de ouvir, a medicina revela-se, em verdade, algo assaz insensato. Isso porque seus praticantes atuam em completa ignorância sobre a real natureza das enfermidades, baseando-se em meras suposições. Atos como “este medicamento provavelmente surtirá efeito” ou “a doença possivelmente será curada com remédios” demonstram uma profunda falta de convicção. Se a verdade sobre essa prática viesse à tona, ela seria desmascarada como um disparate colossal. Pior ainda, é um disparate que submete o ser humano ao sofrimento e, por fim, ceifa-lhe a vida. É algo verdadeiramente inadmissível. Gradualmente, meu propósito é elucidar essa realidade e revelá-la ao mundo inteiro.
-
-Nesse sentido, ouvi recentemente uma transmissão de rádio que consistia na gravação de uma mesa-redonda com a participação do Dr. Yukawa. O debate suscitou um ponto de grande interesse, sobre o qual peço que ouçam a leitura a seguir.
-
-(Leitura do ensaio “Superciência”)
-
-Este é um assunto de certa complexidade; contudo, é fundamental que tenham um conhecimento geral a respeito, para que, ao se depararem com tais discussões, não fiquem completamente perdidos. A teoria mais avançada da ciência atual é a teoria das partículas elementares. O termo “elementar” (素粒子, soryuushi) é bastante astuto. O ideograma “so” (素) pode significar “cru”, “inacabado”, indicando que o acabamento final ainda não foi realizado. A partícula elementar seria, portanto, a partícula mais ínfima da matéria. Inicialmente, essa era apenas uma concepção teórica do Dr. Yukawa, mas, ao se fotografarem os raios cósmicos, surgiram na imagem seis ou sete delas, que foram identificadas como tais partículas.
-
-Em seguida, temos o que chamam de “propriedade da matéria” (物性, bussei). A “natureza da matéria” (物の性), para nós, corresponde ao espírito, a uma forma de gás. A ciência apenas imagina que algo assim talvez exista. Essa é a teoria mais avançada da física de partículas no momento. Todavia, existem inúmeras outras partículas infinitamente menores que essas, como foi lido anteriormente; o universo é infinito. A partir desse ponto, a ciência já não consegue avançar; mais do que isso, ela se torna impotente. A menos que os microscópios evoluam de forma extraordinária, não há o que fazer. A matéria, nesse nível, torna-se um gás, e a ciência não consegue apreender a natureza de um gás com clareza. Ela pode chegar a postular que “provavelmente deve existir”, mas há algo ainda mais profundo. Refiro-me ao espírito e ao Mundo Espiritual, que se desdobram em múltiplos níveis: superior, médio, inferior e muitos outros.
-
-A origem fundamental do espírito é a Luz. A origem da Luz é o Sol. E a origem da luz do Sol são seus pontos negros. Estes pontos são como o núcleo da semente do grande universo, algo que a astronomia jamais poderá compreender. Embora pareça haver um único ponto negro, na verdade, existem vários. Isso se torna visível através de um telescópio; certa vez, observei-os no Museu de Ciência e vi que são múltiplos pontos dispersos, que, agrupados, aparecem a nós como um só. Esses pontos negros são de uma importância tremenda, pois são eles que governam o Sol, constituindo seu centro. É o ponto central (ヽ) do símbolo de Deus, Su (○ヽ). A luz que cura as doenças por meio do Johrei emana precisamente desses pontos negros.
-
-Se fosse explicar tudo isso em detalhes, não haveria fim, e tampouco há necessidade de conhecerem assuntos de tamanha profundidade. O que foi dito é suficiente. Como afirmei, a ciência está no limiar de ter de reconhecer a existência do espírito. Cientistas como o Dr. Yukawa admitem que ainda há muitos problemas a serem pesquisados, e chegam a dizer que o crescente número de questões a serem resolvidas os aflige. Por outro lado, há uma corrente de cientistas, mais alinhada à filosofia existencialista — pois, a esse nível, filosofia e ciência se encontram —, que se encontra em um beco sem saída, acreditando que não é possível avançar mais. Nenhuma das duas posições está equivocada, mas pode-se dizer que aqueles que reconhecem esse impasse demonstram maior clarividência.
-
-Pretendo escrever sobre o que existe além desse ponto de estagnação da ciência e planejo enviar o texto ao Dr. Yukawa. Se ele compreenderá ou não, é incerto, mas acredito que, no mínimo, obterá uma pista. Uma vez que isso seja compreendido, a cura de doenças pelo Johrei poderá ser plenamente explicada pela própria ciência. Todavia, a ciência à qual me refiro é muito mais avançada que a ciência contemporânea. Diante dela, curar doenças com remédios e máquinas se revela uma prática extremamente primitiva, de povos não civilizados. O ato de tomar medicamentos com reverência será visto, por volta do século XXI, como um sinal da ingenuidade dos homens do século XX. As gerações futuras dirão, em tom de escárnio: “Eles chamavam aquilo de civilização e cultura, mas, na verdade, era algo patético”. A dificuldade reside no fato de que o cérebro das pessoas de hoje ainda não está preparado para assimilar tal verdade. Contudo, por se tratar da Verdade, mesmo que não seja compreendida de imediato, sua aceitação final é insofismável. Apenas requer tempo. E é para provar essa Verdade que demonstramos a cura das doenças. Sob essa perspectiva, o processo não é tão complexo.
-
-Por essa mesma razão, as religiões do passado se mostram infantis. Em bom rigor, mesmo Cristo e Buda foram, em certo sentido, como crianças, com ensinamentos primários. Naquela época, não havia necessidade de revelar aos homens verdades tão profundas e elevadas; para os seres humanos daquelas eras, aquele modo de ensinar era adequado. Hoje, porém, tal abordagem já não é suficiente. Em suma, o Tempo avançou. O progresso da cultura até este ponto significa que a humanidade está pronta para receber revelações mais profundas. Há também a questão envolvendo as forças do mal, mas isso é outro assunto. O que lhes apresentei foi o futuro do desenvolvimento da ciência e da cultura. Portanto, em um futuro próximo, quando o momento certo chegar, tudo isso se tornará cada vez mais claro.
-
-Soube, há pouco, que surgiu recentemente nos Estados Unidos uma corrente que afirma: “A medicina atual é falha. Devemos pesquisar métodos de cura que não dependam dela, que não utilizem remédios ou máquinas”. Estão se aproximando da verdade. No Havaí, os resultados têm sido magníficos, e o Sr. Higuchi deve ir aos Estados Unidos no próximo mês. Contudo, as circunstâncias são complexas e as coisas não avançarão com simplicidade, mas confio que Deus conduzirá tudo da melhor maneira. No momento, o caminho mais rápido é fazer os americanos compreenderem, e creio que, para isso, Deus empregará meios que sequer podemos imaginar. Estamos, portanto, a um passo de uma grande mudança.
-
-Quanto à Purificação, sei aproximadamente quando chegará o tempo em que a verdadeira Purificação se intensificará, e doentes surgirão em profusão por toda parte, com um grande número de mortes. No entanto, parece que ainda levará alguns anos. Analisando a progressão com que o Mundo Espiritual se ilumina, os sinais se tornarão notáveis e claros daqui a, no mínimo, dois ou três anos. Isso se tornou evidente para mim recentemente. Por conseguinte, Deus, em Sua perfeição, está realizando os preparativos sem falhas. Os ensaios que acabaram de ser lidos são parte desses preparativos. Com o avançar do Tempo, minhas palavras se tornarão mais profundas e diretas. Embora eu já saiba o que deve ser dito, a clareza para transpor esse conhecimento para a escrita surge quando o momento predestinado chega. É, de fato, algo muito interessante. Deus não age nem cedo demais, nem tarde demais; Ele age no momento exato.
-
-Como mencionei da outra vez, há uma advertência importante sobre como tornar macios os ombros endurecidos. A rigidez nos ombros, desde tempos antigos, é tratada com massagens ou batidas. Por termos essa ideia arraigada, é fácil aplicar força excessiva durante o Johrei. Ocorre que o enrijecimento dos ombros é o mais resistente, e é justamente por isso que se deve ministrar sem força alguma. Embora o Johrei deva sempre ser aplicado com leveza, nos ombros sentimos um impulso de usar mais força. Deve-se fazer o contrário: quanto mais rígidos estiverem os ombros, mais eficaz será relaxar a mão, pois isso os tornará macios. Eu mesmo tenho essa experiência. Antigamente, eu recebia massagens com frequência. Elas proporcionavam um alívio momentâneo, mas depois a rigidez voltava ainda pior, e a massagem precisava ser cada vez mais forte. Quando percebi isso, passei a pedir que uma criada leiga me massageasse, e, a partir de então, a rigidez começou a diminuir. Portanto, ao contrário da força e da pressão da massagem, a melhor maneira é suavizar sem aplicar força. Depois, pode-se mirar o centro do enrijecimento, e ele se dissolverá com relativa facilidade.
-
-Quando isso acontece, como já disse, o primeiro efeito é um aumento notável do apetite. Para um tuberculoso, isso significa reduzir drasticamente o enfraquecimento. Também é extremamente eficaz para indigestão, gastropatia, espasmos estomacais e outros males. Portanto, saibam que, para as doenças da parte superior do corpo, o melhor é abrandar os ombros, concentrando o Johrei nessa área. Em seguida, deve-se ministrar ao redor do pescoço, especialmente na região do bulbo e dos gânglios linfáticos.
-
-Recentemente, ocorreu um caso interessante: uma pessoa cuja língua travava, dificultando a fala. A causa estava no fundo do nariz. Geralmente, quando a língua trava, o problema está sob o queixo e se manifesta lateralmente. No caso dessa pessoa, porém, o travamento era vertical, originando-se na região que a medicina chama de adenoide. Ao ministrar Johrei no ponto entre o nariz e a boca, e na parte de trás da cabeça, o problema melhorou consideravelmente. A causa, como veem, pode estar em um lugar totalmente inesperado. Há também muitas pessoas com problemas nas pernas e na lombar que melhoraram após receberem Johrei no pescoço.
-
-Para a parte superior do corpo, o foco deve ser os ombros. Para a parte inferior, o ponto crucial é o centro da região lombar. Ministrar Johrei ali torna as pernas muito mais leves e também melhora a falta de ar. Falo por experiência própria. Antigamente, eu ficava bastante ofegante ao subir ladeiras. Como não parecia ser um problema no tórax, achei estranho e decidi ministrar Johrei em mim mesmo, na região do cóccix. Imediatamente, minhas pernas ficaram mais leves e a falta de ar desapareceu. Até hoje, subo as muitas ladeiras de Hakone com grande rapidez, sem perder para os jovens. Na verdade, há jovens em piores condições, e acabo tendo que moderar meu passo para acompanhá-los. Alguns me dizem: “Meishu-Sama, o senhor é muito rápido, não consigo acompanhá-lo!”, e eu respondo: “É o peso da idade de vocês”. Apenas ministrar Johrei nesse ponto da lombar faz uma diferença enorme.
-
-Outro ponto que gostaria de abordar é a maquiagem feminina, que acarreta diversos problemas. Em primeiro lugar, ao abandonar os cosméticos — pó, cremes e afins —, a pele pode ficar escura, como a de um nativo dos mares do sul, por um período de seis meses a um ano. Superada essa fase com paciência, a pele se torna extraordinariamente bela. Já ouvi relatos de graças a esse respeito. Não é uma beleza produzida pela maquiagem, mas uma beleza translúcida.
-
-Além disso, os cosméticos modernos contêm diversas toxinas medicamentosas que penetram na pele, causando doenças dermatológicas no rosto de muitas mulheres. Há também a condição conhecida como *nobose*, em que o rosto esquenta. O termo sugere que o sangue sobe à cabeça, mas não é isso. Trata-se de uma purificação que ocorre no rosto, causando calor. As mulheres usam pó de arroz desde a antiguidade, e o produto daquela época continha muito chumbo. A purificação desse chumbo acumulado é o que causa o aquecimento do rosto.
-
-Outro caso interessante foi o de um respeitável chefe de igreja de porte médio que veio a mim com os dentes moles e com alguma dor. Eu lhe ministrei Johrei. Seu rosto estava muito quente, febril. Ao continuar o Johrei para baixar a febre, seus dentes começaram a firmar. A causa do amolecimento dos dentes era, portanto, uma intoxicação por cosméticos. É algo realmente assustador. Se ele tivesse procurado um dentista, certamente teria perdido todos os dentes e acabado com uma dentadura.
-
-Há algo ainda mais terrível, que aconteceu recentemente com uma senhora de certa idade. Ela foi fazer um permanente e aplicaram-lhe um produto químico estranho. Ultimamente, usam-se produtos muito fortes. A substância penetrou em seu couro cabeludo, e a dor foi tão intensa que a deixou assustada. Depois disso, uma forte purificação começou, e o Johrei parecia não surtir efeito. Diversos sintomas surgiram, e ela veio me consultar, suspeitando de um problema espiritual. Ao ouvir seu relato, concluí que se tratava de uma intoxicação pelo produto do permanente. Eu lhe disse que, se ela sobrevivesse a um determinado número de dias, ficaria bem. Contudo, dois ou três dias depois, ela faleceu. Era uma fiel antiga. Com o passar do tempo, os produtos químicos se tornaram mais potentes, e as consequências são terríveis.
-
-Sendo assim, o ideal é não usar cosméticos. Quanto aos permanentes, podem ser feitos sem o uso de produtos químicos. O processo consiste apenas em encaracolar o cabelo com calor, o que é perfeitamente possível sem química. Os produtos são usados apenas para fazer o penteado durar mais. Em suma, ao abandonar a maquiagem, a mulher se torna muito mais bonita. Basta um pouco de paciência. Além disso, maquiar-se consome um tempo precioso, o que é uma grande perda. É também uma causa de brigas entre marido e mulher. Eu mesmo já passei por isso: ficava esperando na entrada de casa, e minha esposa não aparecia. Curioso com a demora, ia ver o que estava acontecendo e a encontrava grudada no espelho, retocando aqui e ali, até ficar satisfeita. Íamos a algum lugar, como ao teatro, e ela ia ao toalete. A cortina se abria, e ela não voltava. Eu ia procurá-la e a encontrava retocando o rosto fervorosamente.
-
-O ato de a mulher se maquiar é, em si, uma espécie de pecado. Fundamentalmente, é uma tentativa de parecer bonita por meios artificiais. Antigamente, isso era chamado de “adorno feminino” e considerado parte da virtude da mulher. Embora haja certa lógica nesse pensamento, na realidade, trata-se de um engodo, uma espécie de ato de dissimulação. Como se trata do rosto, parece aceitável, mas o princípio é o mesmo de um tolo tentando parecer inteligente ou de um pobre se passando por rico.
-
-O mais importante para uma mulher é ter um coração cálido. Quando o sangue se purifica, a aura da pessoa se torna agradável. De que adianta ter a pele alva se a impressão que se passa é desagradável? Uma boa aura é muito mais valiosa. Pode parecer um assunto estranho, mas, no fim das contas, tanto para homens quanto para mulheres, o mais importante é transmitir um bom sentimento. A beleza superficial pode ser útil para mulheres de certas profissões, como gueixas ou prostitutas, mas, para o convívio diário, uma aura agradável é o que nunca enfada. É a beleza que emana do âmago. Para mim, a mera beleza exterior não tem atrativo algum. Não digo isso para lisonjear, mas os fiéis realmente têm uma aura agradável. Às vezes, fico maravilhado. Falando com total imparcialidade, encontro pessoas cujos traços faciais não são admiráveis, mas o sentimento que recebo delas é tão bom que chego a pensar em como isso é misterioso.
-
-Dessa forma, como os cosméticos são também uma forma de toxina, não é preciso abandoná-los de uma vez. Recomendo a adoção de uma abordagem gradual, diminuindo o uso aos poucos até parar completamente. O resultado será imensamente positivo. Já há muitas mulheres que, felizes, relatam como ficaram mais bonitas depois de abandonar a maquiagem. Assim como no tratamento das toxinas medicamentosas, é preciso suportar uma fase transitória, mas os benefícios, como já mencionei, são enormes. À medida que essa verdade se difundir pelo mundo, trará vantagens em diversos aspectos. Talvez esta seja também uma das condições do Paraíso Terrestre.
 
 ---
 

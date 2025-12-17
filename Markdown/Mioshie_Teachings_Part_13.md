@@ -4,6 +4,7 @@
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 結核問題とその趨勢 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Questão da Tuberculose e sua Trajetória
 
@@ -91,6 +92,7 @@ Hoje, contudo, o número de mortes já ultrapassa os cento e cinquenta mil anuai
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 結核と神経作用 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Influência Mental na Tuberculose
 
@@ -112,6 +114,7 @@ Sabe-se também que, entre os animais, o gado é particularmente suscetível à 
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 現代文化とは 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Natureza da Cultura Contemporânea
 
@@ -127,6 +130,7 @@ Conforme o exposto, a vida humana pertence ao domínio espiritual, e quem govern
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
 **Título Original:** 結核問題とその趨勢 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第一編
 
 ## A Questão da Tuberculose e sua Trajetória
 
@@ -257,6 +261,7 @@ Tudo isso, em última análise, decorre da falta de compreensão do povo em rela
 
 **Categoria:** ke | **Ano:** 昭和10(1935)年7月11日 | **Fonte:** 紫苑
 **Título Original:** 芸術 | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1935-07-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 紫苑
 
 ## O Espírito que Aprecia a Arte
 
@@ -270,6 +275,7 @@ Ademais, é quando a vastidão, a elevação, a beleza e a pureza desse espírit
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
 **Título Original:** 健康と弱体 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Relação entre a Saúde e a Debilidade
 
@@ -289,6 +295,7 @@ Por fim, a quarta categoria abrange aqueles que, apesar de aparentarem uma saúd
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核は浄霊以外治す方法ない 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Poder Divino e a Cura das Enfermidades
 
@@ -308,6 +315,7 @@ O equívoco fundamental da civilização moderna reside precisamente na incapaci
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年5月14日 | **Fonte:** -
 **Título Original:** 現当利益 | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1949-05-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Essência dos Benefícios Imediatos na Fé
 
@@ -335,6 +343,7 @@ Oh, quão ansiosamente aguardamos o dia em que a ignorância desses obstinados s
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年10月21日 | **Fonte:** Eikou
 **Título Original:** 結核の霊的原因 | **Status:** Published | **Edição/Página:** 231号 | **Data ISO:** 1953-10-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Causa Espiritual da Tuberculose
 
@@ -375,6 +384,7 @@ Meishu-Sama, muito, muito obrigada.
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
 **Título Original:** 刑務所 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-10-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 法難手記
 
 ## A Necessidade da Educação Religiosa nos Presídios
 
@@ -406,6 +416,7 @@ Por fim, gostaria de acrescentar um ponto. Em cada cela do presídio, deveria ha
 
 **Categoria:** ke | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** P.114 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## A Urgência de uma Nova Força Espiritual
 
@@ -431,6 +442,7 @@ Neste ponto da história, creio não ser o único a pensar que, se não emergir 
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
 **Título Original:** 結核は絶対に伝染しない | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題と其解決策（再版）
 
 ## A Tuberculose Não é Absolutamente Contagiosa
 
@@ -472,6 +484,7 @@ Qual das duas vias devemos escolher? Evidentemente, a segunda. A formação de t
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1936-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術・新日本医術としての岡田式療病法
 
 ## A Iminente Revolução na Arte de Curar
 
@@ -501,6 +514,7 @@ Meu mais profundo desejo é que os médicos aprendam esta terapia e a apliquem e
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 結核と精神作用 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Influência Mental na Tuberculose
 
@@ -530,6 +544,7 @@ Esses exemplos, portanto, permitem-nos avaliar quão poderosa é a influência d
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
 **Título Original:** 結核と特効薬 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の革命的療法
 
 ## O Paradoxo dos Medicamentos Modernos
 
@@ -549,6 +564,7 @@ O fato de eu ter sido capaz de desvelar uma verdade de tamanha magnitude é o si
 
 **Categoria:** ke | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 下座の行 | **Status:** Published | **Edição/Página:** P.43 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## A Prática da Humildade
 
@@ -568,6 +584,7 @@ Em locais de grande concentração de pessoas, como nos transportes públicos, a
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 結核の原因 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## A Verdadeira Natureza da Tuberculose
 
@@ -614,6 +631,7 @@ O artigo supracitado corrobora inegavelmente a minha tese. Fica demonstrado que 
 
 **Categoria:** ke | **Ano:** 昭和8(1933)年2月 | **Fonte:** 松風
 **Título Original:** 芸術は純真なれ ・巻頭言 | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1933-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 松風
 
 ## A Arte Deve Ser Pura e Sincera
 
@@ -631,6 +649,7 @@ O que verdadeiramente almejamos, e nisto penso constantemente, são obras que no
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 下痢 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Diarreia sob a Ótica da Ação Purificadora
 
@@ -646,6 +665,7 @@ Passemos agora à diarreia crônica, cujos episódios podem se estender por mese
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核と薬毒 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Verdadeira Causa da Tuberculose
 
@@ -661,6 +681,7 @@ Tomado de espanto, e para se certificar, submeteu-se por duas vezes a exames em 
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 顕幽の関係 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Relação entre o Mundo Visível e o Invisível
 
@@ -688,6 +709,7 @@ A seguir, abordarei outros reinos que compõem o Mundo Espiritual. Além dos Rei
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 結核は絶対に感染しない | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Tuberculose Jamais se Transmite por Contágio
 
@@ -727,6 +749,7 @@ Por fim, talvez não exista outra doença para a qual tenham surgido tantos "med
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 血痰及び喀血 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## A Verdadeira Natureza do Escarro Sanguinolento e da Hemoptise
 
@@ -748,6 +771,7 @@ Nesse sentido, há um conhecimento fundamental a ser observado. Nos casos comuns
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 健康による天国化 自観叢書10編 | **Status:** Published | **Edição/Página:** 号外 | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## A Saúde como Alicerce para o Paraíso Terrestre
 
@@ -771,6 +795,7 @@ Diante desse quadro, tanto a medicina, com todos os seus avanços, quanto as rel
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 結核解決策 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## A Solução Definitiva para a Tuberculose
 
@@ -798,6 +823,7 @@ Por fim, declaro categoricamente: a solução para o problema da tuberculose só
 
 **Categoria:** ke | **Ano:** 昭和29(1954)年2月17日 | **Fonte:** Eikou
 **Título Original:** 結核新薬は悉く無力なり | **Status:** Published | **Edição/Página:** 248号 | **Data ISO:** 1954-02-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ineficácia Absoluta dos Novos Fármacos para a Tuberculose
 
@@ -832,6 +858,7 @@ Agradeço-Lhe do fundo do coração, Meishu-Sama, pela salvação que me concede
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 結核と特効薬 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Tuberculose e os Fármacos de Efeito Extraordinário
 
@@ -853,6 +880,7 @@ A descoberta desta verdade fundamental, que me foi concedida, é o sinal inequí
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年9月12日 | **Fonte:** Eikou
 **Título Original:** 現代医学進歩の窮極 | **Status:** Published | **Edição/Página:** 121号 | **Data ISO:** 1951-09-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Derradeiro Desfecho do Avanço da Medicina Moderna
 
@@ -874,6 +902,7 @@ Eis a grande crise que se avizinha para as nações civilizadas. Quando esse mom
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核に対する医療と浄霊 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Antagonismo entre o Tratamento Médico e o Johrei
 
@@ -887,6 +916,7 @@ Este exemplo nos leva a uma profunda reflexão: despender vultosas somas em hosp
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 結核問題 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Sobre a Questão da Tuberculose
 
@@ -956,6 +986,7 @@ A sensação de fadiga decorre do enfraquecimento geral do organismo, causado pe
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
 **Título Original:** 結核付随病 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1952-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核信仰療法
 
 ## Manifestações Secundárias da Tuberculose
 
@@ -989,6 +1020,7 @@ Estou convicto de que, por meio destas explanações detalhadas, os senhores mé
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年6月18日 | **Fonte:** Kenko
 **Título Original:** 健康の歌 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-06-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Cântico à Saúde
 
@@ -1016,6 +1048,7 @@ Ergamos bem alto o grande estandarte e marchemos
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核地獄の追放 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Sobre o Tratamento Discriminatório da Tuberculose
 
@@ -1035,6 +1068,7 @@ Nesse sentido, a medicina do Johrei, ao se opor frontalmente à segregação imp
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年11月12日 | **Fonte:** Eikou
 **Título Original:** 健康は一切なり | **Status:** Published | **Edição/Página:** 182号 | **Data ISO:** 1952-11-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Saúde como Alicerce de Tudo
 
@@ -1062,6 +1096,7 @@ Diante do exposto, torna-se claro que qualquer campo do saber – seja a religi�
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Eikou
 **Título Original:** 結核信仰療法に就いて | **Status:** Published | **Edição/Página:** 204号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Terapia da Fé para a Tuberculose
 
@@ -1083,6 +1118,7 @@ Sendo o próprio Deus Supremo o autor deste plano sem precedentes, é evidente q
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Conclusão sobre os Erros da Medicina Moderna
 
@@ -1154,6 +1190,7 @@ Decidi que este livro não será comercializado. A razão é que julgo ser ainda
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年6月18日 | **Fonte:** Eikou
 **Título Original:** 結核半減記念祝いに就て | **Status:** Published | **Edição/Página:** 161号 | **Data ISO:** 1952-06-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Sobre a comemoração da redução da mortalidade por tuberculose
 
@@ -1183,6 +1220,7 @@ Em contrapartida, o Johrei de nossa Igreja atua dissolvendo e expelindo as toxin
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 結論 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Conclusão sobre Ashita no Ijutsu
 
@@ -1256,6 +1294,7 @@ Por fim, decidi que esta obra não será comercializada. A razão é que conside
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 結核の経路 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## O Percurso da Tuberculose e os Equívocos Terapêuticos
 
@@ -1273,6 +1312,7 @@ Quando um quadro febril dessa natureza se prolonga por muitos dias, o paciente d
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年1月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 解脱 | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1951-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Libertação
 
@@ -1290,6 +1330,7 @@ O ser humano deve resignar-se quando for o momento de fazê-lo e perseverar quan
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年10月3日 | **Fonte:** Eikou
 **Título Original:** 結核と馬車馬 | **Status:** Published | **Edição/Página:** 124号 | **Data ISO:** 1951-10-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Tuberculose e o Cavalo de Carroça
 
@@ -1307,6 +1348,7 @@ Portanto, se persistirem em galopar por essa senda equivocada, é certo que um d
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 結核も此通り全治する 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Comprovação da Cura Total da Tuberculose
 
@@ -1324,6 +1366,7 @@ Todavia, como sempre afirmo, pelo fato de se tratar de uma religião, uma conqui
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
 **Título Original:** 結核患者現在四百万人 | **Status:** Published | **Edição/Página:** 227号 | **Data ISO:** 1953-09-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdadeira Dimensão da Tuberculose no Japão
 
@@ -1351,6 +1394,7 @@ Com base nessa projeção, a estimativa anterior de um milhão e quinhentos mil 
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年4月2日 | **Fonte:** Eikou
 **Título Original:** 結核新薬を嗤う | **Status:** Published | **Edição/Página:** 150号 | **Data ISO:** 1952-04-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Falácia dos Novos Medicamentos para Tuberculose
 
@@ -1378,6 +1422,7 @@ Decorre desse princípio que, ainda que se extermine a totalidade dos micróbios
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 下痢 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Purificação Através da Diarreia
 
@@ -1395,6 +1440,7 @@ Passemos agora à diarreia crônica, uma afecção que pode perdurar por meses o
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
 **Título Original:** 健康による天国化 | **Status:** Published | **Edição/Página:** 号外 | **Data ISO:** 1949-05-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Edificação do Paraíso por meio da Saúde
 
@@ -1420,6 +1466,7 @@ Acreditamos que a missão celestial que nos foi confiada é precisamente a de an
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 結核は絶対に感染しない | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Tuberculose e o Mito do Contágio
 
@@ -1473,6 +1520,7 @@ Qual dos caminhos devemos escolher? Evidentemente, o de formar o segundo tipo de
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年4月9日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 医学断片集（６） | **Status:** Published | **Edição/Página:** 151号 | **Data ISO:** 1952-04-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Limitação da Medicina Moderna
 
@@ -1486,6 +1534,7 @@ Houve, ademais, outra reportagem sobre um caso tido como raríssimo: a recupera�
 
 **Categoria:** mu | **Ano:** 昭和10(1935)年4月26日 | **Fonte:** 紫苑
 **Título Original:** 無題 （紫苑2号） | **Status:** Published | **Edição/Página:** 2号, 2号 | **Data ISO:** 1935-04-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 紫苑
 
 ## O Esplendor da Nova Folhagem
 
@@ -1501,6 +1550,7 @@ Aproveitemos, pois, esta época sublime para enriquecer grandemente nosso espír
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年2月7日 | **Fonte:** Eikou
 **Título Original:** 結核なんか何でもない 阿呆文学 | **Status:** Published | **Edição/Página:** 90号 | **Data ISO:** 1951-02-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Solução Desconcertante para a Tuberculose
 
@@ -1556,6 +1606,7 @@ Chegará o dia em que esta minha teoria será aclamada no mundo inteiro como uma
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年12月10日 | **Fonte:** -
 **Título Original:** 無肥料栽培の勝利 悩みの食糧問題一挙に解決せん | **Status:** Published | **Edição/Página:** 39号 | **Data ISO:** 1949-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Triunfo do Cultivo Natural e a Solução para a Crise Alimentar
 
@@ -1603,6 +1654,7 @@ Por fim, gostaria de ressaltar mais um ponto: nosso método de cultivo natural n
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年6月20日 | **Fonte:** Eikou
 **Título Original:** 無信仰者シャッポを脱ぐ | **Status:** Published | **Edição/Página:** 109号 | **Data ISO:** 1951-06-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O incrédulo que se curva diante do milagre
 
@@ -1641,6 +1693,7 @@ Em seu nome, transmito o mais profundo agradecimento.
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 | **Status:** Published | **Edição/Página:** 198号, 198号 | **Data ISO:** 1953-03-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Comprovação da Agricultura da Natureza
 
@@ -1679,6 +1732,7 @@ Apresento, a seguir, um resumo dos resultados.
 
 **Categoria:** mu | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 浮腫及び盗汗 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## O Edema e a Sudorese Noturna
 
@@ -1704,6 +1758,7 @@ Aproveitando o ensejo, discorrerei sobre a transpiração em geral. Via de regra
 
 **Categoria:** mu | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 浮腫及び盗汗 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Verdadeira Causa do Edema e dos Suores
 
@@ -1727,6 +1782,7 @@ Aproveitando a oportunidade, discorrerei também sobre a transpiração em geral
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
 **Título Original:** 無機から有機へ | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の革命的療法
 
 ## A Gênese Espiritual dos Micróbios
 
@@ -1754,6 +1810,7 @@ No entanto, ao examinarem as centenas de exemplos verídicos que se seguem, quem
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年 | **Fonte:** 私物語
 **Título Original:** 無信仰時代２ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 私物語
 
 ## O Empreendimento Cinematográfico que Deus Não Permitiu
 
@@ -1781,6 +1838,7 @@ Ao refletir hoje sobre esses acontecimentos, compreendo com clareza que Deus, ci
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年7月9日 | **Fonte:** -
 **Título Original:** 昔の宗教と今の宗教 | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1949-07-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## As Religiões do Passado e a Religião do Presente
 
@@ -1800,6 +1858,7 @@ Em sua essência, o Paraíso Terrestre é o próprio mundo da arte. Eis a razão
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 | **Status:** Published | **Edição/Página:** 204号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Melodia da Construção do Paraíso Terrestre
 
@@ -1863,6 +1922,7 @@ Decidi que participarei da construção deste Paraíso Terrestre. Meu ideal de d
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 医学断片集（19） | **Status:** Published | **Edição/Página:** 169号 | **Data ISO:** 1952-08-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Conduta Diante da Purificação da Tuberculose
 
@@ -1878,6 +1938,7 @@ Somente após a febre ter desaparecido por inteiro, deve-se reintroduzir, paulat
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 無機質界 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## O Elo entre a Ciência e o Mundo Espiritual
 
@@ -1913,6 +1974,7 @@ Passemos, agora, à relação entre o mundo inorgânico e o mundo material.
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年12月5日 | **Fonte:** Eikou
 **Título Original:** 無肥四十年の蜜柑 | **Status:** Published | **Edição/Página:** 133号 | **Data ISO:** 1951-12-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Primor das Tangerinas Cultivadas sem Adubo por Quarenta Anos
 
@@ -1934,6 +1996,7 @@ Que lhes parece? Exorto os membros a darem início a essa nobre empreitada o qua
 
 **Categoria:** mu | **Ano:** 昭和23(1948)年12月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 無肥料栽培 | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1948-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Revolução da Agricultura sem Adubos
 
@@ -1999,6 +2062,7 @@ Os inúmeros relatos de experiências práticas que se seguem a este artigo comp
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年8月29日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 | **Status:** Published | **Edição/Página:** 119号 | **Data ISO:** 1951-08-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Origem Fundamental das Epidemias
 
@@ -2022,6 +2086,7 @@ Os fiéis conhecem bem estas verdades, mas, por serem de difícil compreensão p
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 無神論者よ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Evidência Divina do Milagre
 *Trecho inédito de “O Livro da Revolução da Medicina”, redigido em 1953*
@@ -2036,6 +2101,7 @@ Nesse sentido, sempre afirmo ser fundamental compreender, com o âmago do ser, q
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年3月20日 | **Fonte:** -
 **Título Original:** 無信仰と有信仰 | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1949-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Condição dos que Têm Fé e dos que Não a Têm
 
@@ -2067,6 +2133,7 @@ Um poder salvador tão extraordinário é algo sem precedentes na história da h
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 無神論者忽ち兜を脱ぐ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Rendição do Ateu
 
@@ -2084,6 +2151,7 @@ Por essa razão, a conversão de um único médico será suficiente para salvar 
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年9月26日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 | **Status:** Published | **Edição/Página:** 123号 | **Data ISO:** 1951-09-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Causa Primordial dos Sofrimentos Sociais
 
@@ -2107,6 +2175,7 @@ Apenas externei os pensamentos que me ocorreram ao ouvir a referida transmissão
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 無肥料栽培法
 **Título Original:** 無肥栽培の報告を読んで 自観叢書第2篇 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 無肥料栽培法
 
 ## Sobre as Dificuldades Iniciais da Agricultura Natural
 
@@ -2130,6 +2199,7 @@ Esta é a agricultura da Era de Miroku (五六七の代) e este é o estado de v
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
 **Título Original:** 無信仰者のカンカン兜を脱ぐ | **Status:** Published | **Edição/Página:** 195号 | **Data ISO:** 1953-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Queda do Capacete da Incredulidade
 
@@ -2216,6 +2286,7 @@ Conforme nos é ensinado, doravante, empenharemos o pouco que valemos e juramos 
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年8月13日 | **Fonte:** -
 **Título Original:** 無肥料栽培の非難 寸評（光22号） 白光生 | **Status:** Published | **Edição/Página:** 22号, 22号 | **Data ISO:** 1949-08-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Uma Breve Análise sobre as Críticas à Agricultura sem Adubos
 
@@ -2231,6 +2302,7 @@ Portanto, não é equivocado considerar tais críticas como nada mais do que uma
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
 **Título Original:** 無神迷信 | **Status:** Published | **Edição/Página:** 134号 | **Data ISO:** 1951-12-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Superstição do Ateísmo e a Corrupção Social
 
@@ -2260,6 +2332,7 @@ Resta-nos questionar por que eles caíram em tal equívoco. A resposta é clara:
 
 **Categoria:** mu | **Ano:** 昭和6(1931)年10月1日 | **Fonte:** 瑞Hikari
 **Título Original:** 紫の焔 | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1931-10-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 瑞光
 
 ## Observações sobre o Mundo Poético
 
@@ -2303,6 +2376,7 @@ E quanto à maneira de recitar os poemas? Não se poderia aprimorá-la? Algumas 
 
 **Categoria:** mu | **Ano:** - | **Fonte:** 無病運動を起せ
 **Título Original:** 無病運動を起せ | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Proposição de um Movimento pela Ausência de Doenças
 
@@ -2320,6 +2394,7 @@ Se, como resultado, o número de membros crescer gradualmente para dezenas de mi
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年1月28日 | **Fonte:** Eikou
 **Título Original:** 無神論のカチカチ遂に往生す | **Status:** Published | **Edição/Página:** 193号 | **Data ISO:** 1953-01-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Capitulação de um Ateu Irredutível
 
@@ -2377,6 +2452,7 @@ Este é o relato, ainda que redigido de forma singela, da primeira experiência 
 
 **Categoria:** mu | **Ano:** 昭和29(1954)年1月6日 | **Fonte:** Eikou
 **Título Original:** 無神論に就いて | **Status:** Published | **Edição/Página:** 242号 | **Data ISO:** 1954-01-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Sobre o Ateísmo
 
@@ -2412,6 +2488,7 @@ Minha missão é, portanto, extirpar essa animalidade de tais pessoas e elevá-l
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年 | **Fonte:** 〔無題〕
 **Título Original:** 〔無題〕 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Perigo da Demagogia e o Desvio da Mídia
 
@@ -2439,6 +2516,7 @@ Cumpre-me acrescentar, a propósito, que sou um cidadão comum, sem qualquer fil
 
 **Categoria:** mu | **Ano:** 昭和29(1954)年1月27日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 | **Status:** Published | **Edição/Página:** 245号 | **Data ISO:** 1954-01-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Superstição dos Fertilizantes
 
@@ -2460,6 +2538,7 @@ Em contrapartida, observou-se um fenômeno surpreendente: as lavouras que, por d
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年10月1日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 医学断片集（22） | **Status:** Published | **Edição/Página:** 176号 | **Data ISO:** 1952-10-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Onipresença das Toxinas Medicamentosas
 
@@ -2477,6 +2556,7 @@ Portanto, se até mesmo comigo ocorre dessa forma, é possível deduzir qual sej
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
 **Título Original:** 無機質界 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の革命的療法
 
 ## A Descoberta que Revoluciona a Ciência e a Religião
 
@@ -2502,6 +2582,7 @@ Passemos, então, a examinar a relação entre o mundo anímico e o mundo materi
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年4月30日 | **Fonte:** Eikou
 **Título Original:** 無神と有神 | **Status:** Published | **Edição/Página:** 154号 | **Data ISO:** 1952-04-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Da Matéria ao Espírito: A Conversão de um Materialista
 
@@ -2555,6 +2636,7 @@ Rogo para que as pessoas do mundo despertem o quanto antes e se entreguem aos br
 
 **Categoria:** mu | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 浮腫及び盗汗 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Sobre o Edema e os Suores Noturnos
 
@@ -2574,6 +2656,7 @@ Aproveitando o ensejo, discorrerei sobre a transpiração de modo geral. Via de 
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年 | **Fonte:** 私物語
 **Título Original:** 無信仰時代１ 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 私物語
 
 ## A Semente da Fé em Meio à Descrença
 
@@ -2599,6 +2682,7 @@ Mesmo naquela época, quando eu era um descrente absoluto, um materialista arrai
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** 新宗教新聞
 **Título Original:** 難しい問題 | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新宗教新聞
 
 ## A Complexa Questão do Pacifismo
 
@@ -2619,6 +2703,7 @@ Por todas essas razões, nós, religiosos, não podemos simplesmente brandir a b
 
 **Categoria:** mu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 浮腫及び盗汗 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Sobre o Edema e a Sudorese
 
@@ -2638,6 +2723,7 @@ Uma vez que a sudorese noturna já foi abordada no capítulo sobre a tuberculose
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
 **Título Original:** 〔無題〕 医学断片集（29） | **Status:** Published | **Edição/Página:** 194号 | **Data ISO:** 1953-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ilusão dos Tratamentos Médicos Passageiros
 
@@ -2659,6 +2745,7 @@ Muitos hão de se recordar que, há mais de uma década, houve uma moda passagei
 
 **Categoria:** mu | **Ano:** - | **Fonte:** Kyusei
 **Título Original:** 〔無題〕 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Uma Reflexão sobre os Grandes Fundadores de Religiões
 
@@ -2674,6 +2761,7 @@ Todavia, é de se lamentar que, inegavelmente, lhes tenha faltado o poder para a
 
 **Categoria:** no | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 脳膜炎の奇蹟 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Milagre da Meningite
 
@@ -2691,6 +2779,7 @@ Se a isso se dá o nome de progresso da medicina, então é forçoso concluir qu
 
 **Categoria:** no | **Ano:** 昭和10(1935)年2月23日 | **Fonte:** Toho no Hikari
 **Título Original:** ノントー銀行 阿呆文学 | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1935-02-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## A Origem do Banco Nonto
 
@@ -2708,6 +2797,7 @@ Eis, portanto, a verdadeira história e as circunstâncias que deram origem ao c
 
 **Categoria:** no | **Ano:** 昭和25(1950)年5月20日 | **Fonte:** Kyusei
 **Título Original:** 農業の大革命 飯米十割増産は易々たり | **Status:** Published | **Edição/Página:** 63号 | **Data ISO:** 1950-05-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Grande Revolução Agrícola
 
@@ -2742,6 +2832,7 @@ Há mais um ponto que desejo elucidar. Ao divulgarmos esta grande boa-nova ao mu
 
 **Categoria:** no | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 脳疾患 ・病患と医学の誤謬七 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## As Enfermidades Cerebrais e os Equívocos da Medicina
 

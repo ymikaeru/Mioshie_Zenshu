@@ -4,6 +4,7 @@
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年8月5日） | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1953-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Liberdade da Saúde e a Expansão da Obra Divina
 
@@ -41,6 +42,7 @@ Atualmente, dedico-me de corpo e alma à escrita do “Livro da Revolução da M
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月6日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Ilusão da Medicina e a Causa Primordial do Sofrimento Humano
 
@@ -98,6 +100,7 @@ Isso contraria o senso comum, e por isso muitos erram. Estamos habituados a faze
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月6日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Princípio da Salvação e a Construção do Paraíso
 
@@ -141,6 +144,7 @@ O jornalista americano que nos visitou recentemente, o senhor Grilli, ressaltou 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年2月17日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Missão do Belo e a Salvação pela Arte
 
@@ -204,6 +208,7 @@ Em breve, os senhores Matsui, Suzuki, Momomi, Kihara, Azabu e Shugetsu partirão
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年3月5日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Causa Primordial e a Expressão Divina na Arte
 
@@ -241,6 +246,7 @@ Como nosso tempo se esgotou, encerrarei minhas palavras por aqui.
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S27年10月1日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1952-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Avaliação de Pessoas e Acontecimentos sob a Ótica Divina
 
@@ -380,6 +386,7 @@ Portanto, nosso desenvolvimento está superando as expectativas. Não é que nã
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年10月1日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Encontro dos Três Miroku (弥勒三会)
 
@@ -433,6 +440,7 @@ Deus é verdadeiramente meticuloso e providencia tudo, do princípio ao fim. Sem
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年9月17日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Realidade Espiritual e a Ilusão do Mundo Material
 
@@ -500,6 +508,7 @@ Em Los Angeles, as pessoas estão sendo curadas em grande número apenas por par
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月26日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Purificação da Gripe e a Batalha Espiritual contra a Medicina
 
@@ -543,6 +552,7 @@ Nosso método, ao contrário, dissolve e expulsa, promovendo a cura real. Por es
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年8月25日） | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1953-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Missão do Havaí e a Alvorada da Verdadeira Civilização
 
@@ -594,6 +604,7 @@ Contudo, a Obra Divina é, em si, extremamente célere. A edição mais recente 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月26日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Perspicácia Estrangeira e a Limitação Japonesa
 
@@ -651,6 +662,7 @@ Isso poderia levar à conclusão de que tais coisas são necessárias. Contudo, 
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年10月21日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Plano Divino da Vertical e da Horizontal
 
@@ -682,6 +694,7 @@ Assim sendo, o Plano Divino é de uma profundidade imensa, que se tornará cada 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S27年3月25日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Nova Etapa da Obra Divina e a Construção do Paraíso
 
@@ -723,6 +736,7 @@ Minha intenção era não realizar Johrei durante os dias do culto, mas, devido 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年6月26日） | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1952-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre a Inteligência e a Causa da Infelicidade
 
@@ -760,6 +774,7 @@ Este último artigo também está relacionado ao tema. Trata das doenças contag
 
 **Categoria:** kouwa | **Ano:** 昭和11(1936)年1月21日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-01-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## O Grande Julgamento e a Missão Divina
 
@@ -861,6 +876,7 @@ A Europa, com seu poderio militar consolidado, é um alvo difícil. Portanto, a 
 
 **Categoria:** kouwa | **Ano:** 昭和23(1948)年 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1948
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Providência Divina dos Números, Símbolos e Lugares Sagrados
 
@@ -912,6 +928,7 @@ O ouro representa o Japão, que é conhecido como o País do Ouro. Kannon (観�
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年4月25日） | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1953-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Essência do Grande Veículo na Fé
 
@@ -971,6 +988,7 @@ Por essa razão, o comunismo teve seu apogeu enquanto Stalin estava vivo. E a Am
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月26日 | **Fonte:** Eikou
 **Título Original:** 明主様御言葉 | **Status:** Published | **Edição/Página:** 258号 | **Data ISO:** 1954-05-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Mensagem aos Fiéis
 
@@ -1021,6 +1039,7 @@ Portanto, rogo que, agora mais do que nunca, todos se unam como um só corpo par
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年11月25日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Discernimento entre o Verdadeiro e o Falso
 
@@ -1056,6 +1075,7 @@ Por fim, quando estive em Quioto no mês passado, os deuses dos santuários daqu
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年11月25日） | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1952-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Expansão da Fé e a Revolução da Medicina
 
@@ -1103,6 +1123,7 @@ Médicos e farmacêuticos serão os sacrifícios dessa revolução. No entanto, 
 
 **Categoria:** kouwa | **Ano:** 昭和15(1940)年5月4日 | **Fonte:** Gokowa
 **Título Original:** 特別講習会御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1940-05-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Estrutura Trina do Universo e a Nova Era da Luz
 
@@ -1210,6 +1231,7 @@ Assim, a compreensão da relação indissociável entre o espírito e o corpo é
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S28年3月27日） | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Avanço da Obra Divina e a Alvorada do Mundo do Dia
 
@@ -1273,6 +1295,7 @@ A arte do Ukiyo-e desperta grande interesse entre os estrangeiros que vivem no J
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S29年3月27日） | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Progresso da Obra Divina e as Revelações da Nova Era
 
@@ -1328,6 +1351,7 @@ Ademais, como mencionei, os fundadores das diversas religiões e outros grandios
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年8月27日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Observância da Natureza e o Discernimento da Verdade
 
@@ -1397,6 +1421,7 @@ A este respeito, estou escrevendo agora sobre o Juízo Final, o Fim do Mundo, qu
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年11月27日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Superioridade Artística Japonesa e a Civilização Vindoura
 
@@ -1436,6 +1461,7 @@ No entanto, em termos de magnitude, seu poder é tão extraordinário quanto o d
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年4月27日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Essência da Agricultura Natural e a Construção do Paraíso em Quioto
 
@@ -1481,6 +1507,7 @@ Ainda haveria muito a dizer, mas o tempo é escasso. Queria apenas compartilhar 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S27年9月23日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1952-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Protótipo do Paraíso e a Transição Mundial
 
@@ -1536,6 +1563,7 @@ Com isto, encerro minhas palavras. Sei que muitos aguardam ansiosamente, então 
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S26年9月23日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Concretização da Obra Divina e o Advento do Mundo Ideal
 
@@ -1583,6 +1611,7 @@ Por fim, gostaria de falar sobre o Johrei. Até hoje, os senhores tinham o costu
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年6月25日） | **Status:** Published | **Edição/Página:** 23号 | **Data ISO:** 1953-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Milagre da Regeneração e o Desapego
 
@@ -1630,6 +1659,7 @@ As pessoas com ombros rígidos podem aplicar esse princípio a si mesmas. Certa 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年11月26日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Missão da Estirpe do Sol
 
@@ -1673,6 +1703,7 @@ A tarefa mais urgente para os japoneses é expandir essa visão tacanha, transfo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年4月26日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Essência da Agricultura Natural e a Missão da Arte
 
@@ -1726,6 +1757,7 @@ Para ilustrar um ponto, permitam-me relatar uma ocorrência de quase vinte anos 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年1月25日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Extensão da Vida e a Verdadeira Abundância da Terra
 
@@ -1777,6 +1809,7 @@ Recentemente, na província de Ehime, em Shikoku, se não me engano, uma galinha
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年8月26日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Necessidade do Discernimento e da Retidão
 
@@ -1824,6 +1857,7 @@ Creio que acharão este trecho interessante.
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年12月21日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Batalha da Verdade na Medicina e na Arte
 
@@ -1889,6 +1923,7 @@ Seja como for, chegará o dia em que todos compreenderão que o que digo é a ve
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 関西巡教御講話 （S27年4月30日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Missão de Quioto e a Nova Era Mundial
 

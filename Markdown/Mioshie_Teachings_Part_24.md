@@ -4,6 +4,7 @@
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年11月8日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Verdade sobre o Bem, o Mal e a Agricultura
 
@@ -25,6 +26,7 @@ Em casos extremos, como o de certa localidade na província de Shizuoka, a quebr
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 関西巡教御講話 （S28年4月8日） | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1953-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Missão em Saga e a Salvação do Mundo Búdico
 
@@ -64,6 +66,7 @@ Há mais um ponto que desejo ressaltar: a espantosa celeridade com que Deus atua
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S28年3月26日） | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Alvorada da Nova Civilização
 
@@ -105,6 +108,7 @@ A partir de junho, teremos a exposição de Ukiyo-e. Todas as obras já foram re
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年5月22日 | **Fonte:** 東京日比谷公会堂における講演会講話
 **Título Original:** 真文明とはなにか | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1951-05-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東京日比谷公会堂における講演会講話
 
 ## O Advento da Civilização Verdadeira
 
@@ -174,6 +178,7 @@ Há muitos outros significados para o batismo de fogo, mas como o tempo avançou
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S29年3月26日） | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## As Transformações do Mundo Espiritual e seus Reflexos no Plano Terreno
 
@@ -229,6 +234,7 @@ Antes, a Sekaikyuseikyou era vista com desconfiança: “aquilo é estranho”, 
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年11月21日 | **Fonte:** Kenko
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-11-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## A Cura pelo Equilíbrio: A Essência do Caminho de Kannon
 
@@ -262,6 +268,7 @@ Kannon não é masculino nem feminino e, no entanto, é ambos. Kannon abrange os
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年9月18日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Clareza da Verdade na Nova Era
 
@@ -301,6 +308,7 @@ Por fim, quanto aos “Suntetsu”. Tenho a impressão de que acabaria por repet
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年6月27日） | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1952-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Missão do Museu de Arte na Providência Divina
 
@@ -330,6 +338,7 @@ Embora breve, foi sobre isso que escrevi um pouco.
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 関西巡教御講話 （S27年10月20日） | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1952-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Edificação do Paraíso em Quioto e a Missão do Povo Japonês
 
@@ -367,6 +376,7 @@ Ainda haveria muito a dizer, mas, para não me estender em assuntos desarticulad
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 関西 巡教 御講話 （S29年4月12日） | **Status:** Published | **Edição/Página:** 33号 | **Data ISO:** 1954-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Bomba de Hidrogênio e a Salvação da Humanidade
 
@@ -414,6 +424,7 @@ O tempo se esgotou, então encerrarei por aqui. O que acabo de lhes expor é de 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S27年3月24日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Edificação do Paraíso Terrestre
 
@@ -457,6 +468,7 @@ Haveria muito mais a dizer. Gostaria de falar sobre o Museu de Arte, mas o tempo
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御誕生祭御講話 （S28年12月23日） | **Status:** Published | **Edição/Página:** 29号 | **Data ISO:** 1954-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Palavras por Ocasião do Aniversário Natalício
 
@@ -500,6 +512,7 @@ Ademais, nossa missão não se restringe à religião; nosso objetivo é constru
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月27日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Purificação, a Medicina e o Grande Drama Mundial
 
@@ -541,6 +554,7 @@ De agora em diante, os acontecimentos se tornarão fascinantes. Apenas a Sekaiky
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月27日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Perspectiva de um Jornalista Estrangeiro
 
@@ -600,6 +614,7 @@ Sendo assim, neste momento, tanto o Solo Sagrado de Atami quanto o Museu de Arte
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年9月16日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Luz Divina na Era da Cegueira
 
@@ -643,6 +658,7 @@ O maior dano advindo de tais práticas é o descrédito que lançam sobre a pró
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月7日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Essência do Johrei e a Origem dos Males
 
@@ -684,6 +700,7 @@ Desde ontem, estou com uma dor de dente e um leve inchaço. Trata-se da dissolu�
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月7日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Ciência do Johrei e a Edificação do Paraíso Terrestre
 
@@ -729,6 +746,7 @@ Resta-me acrescentar um último ponto. Quando o Paraíso Terrestre se tornar um 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年2月16日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Museu de Arte de Hakone e o Alerta sobre a Tuberculose
 
@@ -782,6 +800,7 @@ Por ora, encerro minhas palavras.
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年7月15日） | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1952-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Origem do Mal e a Criação da Civilização
 
@@ -825,6 +844,7 @@ Por todas essas razões, pretendo registrar estas observações por escrito para
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月26日 | **Fonte:** Eikou
 **Título Original:** 御講話 （於奈良公会堂） | **Status:** Published | **Edição/Página:** 258号 | **Data ISO:** 1954-05-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Bomba de Hidrogênio e a Missão Divina
 
@@ -872,6 +892,7 @@ Dessa forma, a união entre a cultura da latitude, representada pela América, e
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年12月15日） | **Status:** Published | **Edição/Página:** 29号 | **Data ISO:** 1954-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Verdadeira Beleza: A Purificação do Corpo e do Espírito
 
@@ -921,6 +942,7 @@ A fragilidade do senso de justiça hoje é um problema global. Predomina um opor
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年9月11日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-09-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## Sobre a Edificação do Solo Sagrado e a Missão de Salvação no Tempo Presente
 
@@ -992,6 +1014,7 @@ Kannon (観音) é extremamente meticulosa e não aprecia o erro. Portanto, quan
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年5月11日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-05-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Origem da Doença e o Poder Divino dos Novos Amuletos
 
@@ -1095,6 +1118,7 @@ Relatar as graças por meio de discussões e raciocínios lógicos vai contra o 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年5月16日） | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1953-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Essência da Fé e a Lei Divina
 
@@ -1151,6 +1175,7 @@ A maioria de vocês já deve ter visitado o Museu de Arte de Hakone. Estamos nos
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年10月16日） | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1952-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Orgulho Nacional e a Transição para a Era do Dia
 
@@ -1184,6 +1209,7 @@ A estirpe de Yamato pertence à linhagem do Sol. O mundo, até o presente moment
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年11月28日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Juízo Divino e a Purificação
 
@@ -1219,6 +1245,7 @@ Além disso, há a questão da vacina BCG. Li recentemente no jornal uma histór
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年6月7日） | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1952-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Interpretação Correta dos Ensinamentos e o Discernimento Espiritual
 
@@ -1286,6 +1313,7 @@ Bem, as conversas sobre este assunto não têm fim, portanto, encerrarei por aqu
 
 **Categoria:** kouwa | **Ano:** 昭和21(1946)年11月3日 | **Fonte:** 祝辞 昭和
 **Título Original:** 療術師組合結成式 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1946-11-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 祝辞 昭和
 
 ## A Missão da Nova Medicina Japonesa
 
@@ -1313,6 +1341,7 @@ Conselheiro da Associação dos Terapeutas de Tóquio
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年12月1日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Crítica da Arte e a Missão do Museu
 
@@ -1352,6 +1381,7 @@ Quando falo sobre este assunto, acabo me empolgando.
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （28年7月1日） | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1953-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Ilusão do Heroísmo e a Lei Espiritual
 
@@ -1373,6 +1403,7 @@ Sem a menor dúvida. Aliás, para um imperador, o pecado é ainda mais pesado. Q
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S27年12月1日） | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1952-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Sobre a Postura da Fé e a Perspectiva Divina
 
@@ -1510,6 +1541,7 @@ Os Estados Unidos, a União Soviética e o Japão, por outro lado, adotaram a va
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年1月5日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Salvação que Transcende a Religião
 
@@ -1553,6 +1585,7 @@ Por hoje, encerro minhas palavras.
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 関西巡教御講話 （S28年11月10日） | **Status:** Published | **Edição/Página:** 28号, 235号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Reflexões sobre a Obra em Quioto e sua Expansão Mundial
 
@@ -1606,6 +1639,7 @@ Resta o Japão, cujo problema central é o arroz. Uma vez que isso seja resolvid
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年8月6日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Natureza da Purificação e o Advento do Juízo Final
 
@@ -1647,6 +1681,7 @@ Eles admitiram nunca terem visto muitas das obras de nossa coleção, sejam laca
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年3月6日） | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Reflexões sobre a Morte de Stalin e a Providência Divina
 
@@ -1678,6 +1713,7 @@ O próximo lançamento será a “Coletânea de Milagres da Sekaikyuseikyou”. 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年6月5日 | **Fonte:** 明主様御言葉
 **Título Original:** 明主様御言葉 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1954-06-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Advento do Messias e o Rejuvenescimento Divino
 
@@ -1697,6 +1733,7 @@ Gostaria de me aprofundar em diversos assuntos, todavia, como ainda sou, por ass
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年11月1日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-11-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## O Significado da Peregrinação e a Missão do Movimento de Kannon
 

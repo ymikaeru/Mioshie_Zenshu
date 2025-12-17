@@ -1,9 +1,54 @@
 # Mioshie_Teachings - Part 21
 
+# A Salvação dos Espíritos Búdicos e a Grande Transição Mundial
+
+**Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月15日） | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1953-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
+
+## A Salvação dos Espíritos Búdicos e a Grande Transição Mundial
+
+Recentemente, realizei uma viagem de cinco dias a Quioto. Pude constatar que o número de fiéis tem aumentado em diversos locais, o que me transmitiu uma impressão de grande vitalidade. Em Quioto, dediquei-me quase que exclusivamente a visitar templos, percorrendo-os dia após dia. O que observei, todavia, é que todos eles se encontram em um estado de completa exaustão, uma situação verdadeiramente lastimável. A ruína do Budismo manifesta-se ali de forma muito clara. Aparentemente, enfrentam sérias dificuldades financeiras, pois demonstram o desejo de vender suas imagens búdicas e outros artefatos. Houve até mesmo um templo de considerável importância que manifestou a intenção de vender sua imagem principal de adoração. Ficaram de trazê-la dentro de dois ou três dias; trata-se de um pergaminho. Ao indagar sobre o que fariam após a venda, responderam que procuravam um substituto, uma solução bastante cômoda. É, de fato, a ruína do Budismo.
+
+Perante um grande público, expliquei que um dos propósitos de eu estar construindo um anexo de nossa Igreja em Saga é, precisamente, o de salvar os espíritos búdicos que habitam nesses templos. Com efeito, os espíritos das divindades búdicas manifestam-se não apenas nas imagens principais de adoração, mas também em diversas pinturas e esculturas. Eles atuam no mundo e, quando repousam, abrigam-se nessas imagens. Tais objetos possuem um profundo significado. Muitas pessoas, por exemplo, reverenciam uma imagem de Daikoku, e o espírito de Daikoku nela se manifesta para atuar. Quando alguém ora diante de uma imagem búdica, a emanação de sua gratidão se dirige à divindade e, quanto mais orações recebe, mais o poder e a Luz dessa divindade se intensificam. Inversamente, se as pessoas a ignoram e deixam de orar, sua Luz e seu poder gradualmente se enfraquecem. Uma divindade reverenciada por muitos, portanto, adquire maior poder e, consequentemente, concede maiores graças.
+
+Nesse sentido, algumas pessoas sensíveis conseguem, ao observar uma imagem, discernir se ela foi objeto de muitas preces. Dizem que sua fisionomia parece diferente. Uma imagem que recebeu muitas orações emana uma certa vivacidade, ao passo que outra, que não as recebeu, transmite uma impressão de solidão. É algo verdadeiramente misterioso. Há também o caso de imagens que, mesmo desprovidas de um espírito, ao serem reverenciadas como, por exemplo, uma imagem de Kannon (観音), a força da emanação do pensamento humano pode criar uma forma com o poder de Shaka, Amida ou Kannon. Contudo, se as orações cessam, essa forma gradualmente se dissipa. Por outro lado, quando um espírito secundário de uma divindade búdica se manifesta em uma imagem, ele não desaparece mesmo que as pessoas deixem de orar; permanece ali, em estado de solidão. Eis a diferença fundamental.
+
+As divindades de Quioto, por terem sido muito reverenciadas, possuem um poder vibrante. Contudo, com o declínio do Budismo, essas divindades — que, em sua origem, são manifestações de Deus — anseiam por retornar à sua condição divina original e atuar grandemente em prol da Sekaikyuseikyou. O relato da senhora Taga, publicado na revista *Tijou Tengoku*, exemplifica essa vontade de atuar. Todavia, como ainda carregam certas máculas, não podem trabalhar até que sejam purificadas. É por essa razão que todas elas recorrem a mim.
+
+É por isso que, de agora em diante, obterei tais imagens búdicas. Construirei também um museu de arte budista. Nele, purificarei os espíritos das imagens que adquirirmos, por empréstimo ou compra, para que possam atuar. Posteriormente, as peças em si poderão ser apreciadas por muitas pessoas como obras de arte, sejam esculturas ou pinturas. Essa é a forma correta de proceder. Exibi-las em diversas exposições enquanto ainda abrigam um espírito é uma situação penosa para essas divindades. A intenção delas não é ser objeto de apreciação artística, mas sim ajudar as pessoas e manifestar sua compaixão. Uma vez que o espírito retorne ao Plano Divino para atuar, o objeto remanescente se torna uma verdadeira obra de arte, e não há mais problema. Pretendo realizar esse trabalho gradualmente. E, quando essas divindades búdicas começarem a atuar, os fiéis de diversas outras religiões se tornarão, todos, membros da Sekaikyuseikyou. O mesmo ocorrerá com os que entoam o *Namu Amida Butsu* ou o *Namu Myoho Renge Kyo*. Se os fundadores de suas religiões passam a atuar grandemente, seus seguidores não terão outra alternativa senão se filiar à nossa Igreja. Portanto, a questão fundamental é salvar os fundadores e patriarcas de cada religião. Esse é o trabalho que se iniciará em Saga. E, uma vez concluído, procederemos da mesma forma com o Cristianismo, salvando os grandes pastores e figuras proeminentes de sua história. Trata-se de uma obra de alcance mundial. Assim, a questão não é simplesmente aumentar o número de fiéis; o ponto crucial, de onde advirão os verdadeiros resultados, reside em salvar esses espíritos centrais e fundamentais. É algo fascinante.
+
+Contudo, como ninguém até hoje teve conhecimento de tais assuntos, as pessoas, ao me ouvirem, apenas conseguem pensar: "Ah, então é assim que as coisas funcionam...". Um fato interessante é que, quando o espírito de uma divindade se manifesta em uma imagem, a qualidade da obra de arte influencia a elevação do espírito que a habitará. Por isso, quando se diz de uma obra de excelência que "ela parece viva", é porque um espírito verdadeiro nela reside. Isso se aplica não apenas a imagens de divindades, mas também a representações de animais. Há muitas histórias sobre o gato de Hidari Jingoro que teria devorado um rato, ou sobre um pássaro esculpido por ele que alçou voo. Obras de grande perfeição realmente atraem um espírito correspondente à sua forma.
+
+Em nossa Igreja, por exemplo, reverenciamos a imagem de Daikoku, e o espírito de Daikoku se manifesta nela para atuar. Nesses casos, quanto maior a imagem, maior a sua atuação. Isso não significa que qualquer um deva buscar a maior imagem possível. De acordo com o princípio da correspondência, o ideal é um tamanho que esteja em harmonia com o altar ou o oratório onde será entronizada. Imagens muito pequenas têm uma atuação igualmente restrita. Além disso, quanto mais bem-acabada a obra, mais elevado é o nível do espírito de Daikoku que nela se manifesta. Certa vez, comentei que uma imagem maior seria melhor, e o senhor Shibui trouxe uma de proporções imensas, que precisou ser transportada em um caminhão por vários homens. Naquela época, os ganhos financeiros do senhor Shibui eram de fato extraordinários, o que indica que ele recebeu uma graça correspondente. Isso não autoriza que todos ajam da mesma forma, pois, como disse, há o princípio da correspondência, e um excesso de tamanho pode ser prejudicial. O ideal é que seja grande, mas dentro de uma proporção adequada.
+
+O mesmo se aplica a pinturas e caligrafias. Curiosamente, quando um espírito de dragão não encontra um local para se abrigar, ele pode se manifestar em pinturas ou caracteres. Evidentemente, ele se manifesta no ideograma que significa "dragão", mas também em outros relacionados à água. É comum que habite em caracteres que contenham o radical de "água". Na ausência de outra opção, ele pode até mesmo se abrigar no radical de "água" presente no nome do artista que criou a obra. Os espíritos de dragão podem permanecer onde quer que haja água. É algo de uma sutileza impressionante. Da mesma forma, pessoas cujos nomes estão relacionados à água são mais propensas a ter a proteção de um espírito de dragão, pois sua própria natureza se alinha com o elemento aquático. Tudo isso é extremamente sutil.
+
+Quioto é uma cidade de templos; por essa razão, a própria cidade encontra-se em um estado de grande esgotamento. Desta vez, ao percorrer seus bairros, prestei atenção e notei a enorme quantidade de muros em ruínas. A situação é bastante grave. Nas áreas comerciais, a aparência é melhor, mas fora delas, é comum encontrar um a cada cinco ou dez imóveis com o muro desabando. Em alguns casos, até as tábuas de madeira estão quebradas. É uma visão desoladora. Creio que isso seja um reflexo do estado de exaustão dos templos. Embora Quioto seja um lugar magnífico, falta-lhe a estrutura necessária para se firmar como um grande polo turístico e atrair um vasto público. Diante disso, tenho planos de transformar a região de Saga em um centro que seja, ao mesmo tempo, um grande destino turístico e uma manifestação do Paraíso Terrestre. Para tal, o projeto precisa ser de grande magnitude, e o terreno atual, com cerca de sessenta e seis mil metros quadrados, é demasiado pequeno. Seriam necessários, no mínimo, trezentos e trinta mil metros quadrados. Por isso, desde o início, eu havia dito que o ideal seria encontrar uma área entre cento e sessenta e cinco mil e trezentos e trinta mil metros quadrados. Como não foi possível encontrar um terreno tão vasto de uma só vez, e também pelo alto custo, optamos provisoriamente pelo local atual. Uma área de sessenta e seis mil metros quadrados parece grande, mas para se tornar um ponto turístico de renome mundial, é preciso ter ao menos o quíntuplo disso. Quando o projeto se concretizar, Quioto se tornará uma visita obrigatória para quem vem ao Japão, o que trará um desenvolvimento extraordinário. Com isso, a cidade também prosperará, e os muros em ruínas deixarão de existir. Deus conduzirá tudo da melhor maneira, não há motivo para preocupação. Contudo, do ponto de vista humano, é nosso dever agir nesse sentido, e tenho certeza de que essa é também a Vontade Divina.
+
+Agora, abordando outro assunto, divulgado nos jornais e no rádio: a questão sobre o futuro da União Soviética. O desfecho do problema coreano e a direção que o governo soviético tomará após a morte de Stalin são as maiores incógnitas do momento e capturam a atenção do mundo inteiro. De agora em diante, ocorrerão mudanças complexas e variadas. Primeiramente, as negociações de armistício parecem avançar, mas isso, por si só, não resolve a questão de fundo. O plano dos Estados Unidos, como sempre afirmaram, é unificar o Norte e o Sul para restaurar a independência da Coreia. Tal desfecho invalidaria completamente os objetivos e os sacrifícios de vidas e recursos feitos pela China Comunista, que, por isso, não cederá facilmente. Atualmente, os Estados Unidos defendem a necessidade de avançar do Sul em direção ao Norte, até a linha de Pyongyang, o que a China jamais aceitará. Isso gerará um novo e grave problema.
+
+Em seguida, temos a situação de Chiang Kai-shek em Taiwan, que não pode permanecer como está. Embora não seja possível uma ação súbita contra toda a China continental, será necessário algum tipo de avanço para que a situação se estabilize. A China Comunista, por sua vez, não ficará inerte. Acredito que esses dois focos de tensão trarão grandes dificuldades. Além disso, na Indochina, onde o conflito continua, o exército de Ho Chi Minh avança com um ímpeto formidável, a ponto de forçar a retirada das tropas francesas, o que representa outra grave complicação.
+
+Diante de tudo isso, a resolução não será simples. Outro fator de grande importância é que, gradualmente, o comunismo soviético perderá sua influência. Stalin era um homem de poder extraordinário. Embora maligno, sua força era inegável. Após sua morte, não há ninguém capaz de realizar nem metade do que ele fez. Malenkov e Molotov são figuras de capacidade limitada. Por essa razão, a União Soviética começará a ruir. E a ruína da União Soviética significa a ruína do comunismo. Um modelo disso já se manifestou claramente dentro da nossa própria Igreja. Aqueles que estão a par dos acontecimentos saberão do que falo, mas, como não posso me expressar abertamente sobre o assunto, cabe a cada um discernir. Portanto, podemos considerar que o comunismo entrou em sua fase de extinção.
+
+Nesse ponto, poderíamos nos perguntar sobre os Estados Unidos. Muitos talvez pensem que, com a queda de seu adversário, eles prosperarão conforme sua vontade. Contudo, segundo o Plano de Deus, os Estados Unidos enfrentarão uma provação terrível. É possível que uma era de sofrimento, talvez maior que a da União Soviética, se aproxime — na verdade, ela virá em breve. Ainda não posso dar detalhes, mas ocorrerá algo inédito desde a fundação do país. Do ponto de vista do Plano Divino, haverá uma transformação grandiosa não apenas na União Soviética, mas também nos Estados Unidos. Falarei mais sobre isso com o tempo, mas não demorará muito. Prevejo que se manifestará ainda neste ano. Trata-se do processo de destruição e reconstrução, da reestruturação do mundo. Somente depois disso é que a Sekaikyuseikyou iniciará seu verdadeiro trabalho e se manifestará em escala global. O que fazemos agora é a preparação para esse momento. Não posso aprofundar mais o assunto, por isso encerro por aqui, tendo oferecido alguns pensamentos sobre a morte de Stalin.
+
+Outro dia, falei sobre as novas religiões e também escrevi um artigo a respeito. Sobre as doenças mentais, também já discorri, mas hoje gostaria de lhes ensinar algo interessante. Costuma-se pensar que as enfermidades femininas decorrem de problemas ginecológicos, mas não é bem assim. Tomemos como exemplo a histeria, a dor de cabeça e outras afecções relacionadas à cabeça. Nesses casos, o Johrei na cabeça e no pescoço é importante, mas a região do útero tem uma relação muito grande com o problema. Portanto, ao ministrar Johrei nessa área, a cabeça melhora. O ponto fundamental das doenças femininas está nessa região. Sendo um ponto vital, o acúmulo de toxinas ali pode gerar febre purificadora e diversos processos de dissolução que repercutem na cabeça.
+
+É preciso saber que tudo o que ocorre na parte da frente dessa região está relacionado com a parte frontal da cabeça, e o que ocorre na parte de trás, com a região anal. Diarreia e disenteria, por exemplo, são eliminações de toxinas da parte posterior da cabeça. Já as toxinas da parte frontal da cabeça são eliminadas pela frente, manifestando-se como corrimentos, que são particularmente comuns. Assim como falamos em Céu e Terra, há uma profunda conexão: tratar a cabeça melhora os problemas ginecológicos, e tratar a região pélvica melhora a cabeça. Saber disso e aplicar no Johrei produzirá grandes resultados, por isso, experimentem. Se sua esposa estiver intratável e tiver uma crise de histeria, ministrem Johrei nessa região. Será excelente se isso trouxer harmonia ao lar.
+
+Essa área do corpo possui muitos outros significados. Contudo, pela sua natureza, é um tema que um ginecologista poderia abordar com mais propriedade. Como nossa abordagem é espiritual, não é necessário um conhecimento tão detalhado, mas é importante estarmos cientes dessas questões. Separações, maridos que buscam amantes e outras tragédias familiares podem ocorrer, mas não se pode culpar apenas o homem. A verdade é que, devido a disfunções nessa área, muitas mulheres não conseguem satisfazer seus maridos, e isso é relativamente comum. Portanto, a responsabilidade não é só do marido; a esposa também tem sua parcela. E a única forma de corrigir isso é através do Johrei. Antigamente, cheguei a curar casos de frigidez, é algo que tem cura. A dificuldade é que, quando pergunto: "Como está?", a pessoa não responde: "Graças ao senhor, melhorei". No entanto, a melhora é visível em sua fisionomia; ela sorri, e isso basta para saber que está bem.
+
+Há também jovens que têm aversão ao casamento, o que está intimamente ligado a problemas nessa região. A medicina chama isso de espasmos vaginais; há casos em que um simples toque causa uma dor lancinante. São essas moças que dizem que permanecerão solteiras por toda a vida, pois não revelam o verdadeiro motivo. Isso também pode ser curado com Johrei. Existe ainda a ausência de pelos pubianos, causada por toxinas solidificadas sob a pele que impedem seu crescimento; isso também tem cura. Há muitos outros exemplos, mas creio que não seja necessário entrar em mais detalhes para que compreendam. Por hoje, é tudo.
+
+---
+
 # A Salvação dos Deuses-Dragão e a Providência da Bomba de Hidrogênio
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年4月15日） | **Status:** Published | **Edição/Página:** 33号 | **Data ISO:** 1954-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Salvação dos Deuses-Dragão e a Providência da Bomba de Hidrogênio
 
@@ -77,6 +122,7 @@ Escrevi um pequeno artigo sobre este assunto.
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年5月7日） | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1953-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Causa Primordial das Doenças e a Prática do Johrei
 
@@ -108,6 +154,7 @@ Aproveito a oportunidade para mencionar que escrevi um artigo sobre o Pequeno e 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年5月6日） | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1953-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Expansão da Fé e a Causa Primordial das Enfermidades
 
@@ -147,6 +194,7 @@ Escrevi também sobre a diferença entre a fé da Pequena Via e a da Grande Via,
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年10月7日） | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1952-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Purificação, o Destino e a Alvorada da Nova Era
 
@@ -180,6 +228,7 @@ Compreender isto torna a vida mais fácil e bem-sucedida. Se alguém se esforça
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 神仙郷完成兼美術館開館記念祝賀式典御講話２ | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1952-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Concretização do Paraíso e a Inauguração do Museu de Arte
 
@@ -255,6 +304,7 @@ Na verdade, eu não pretendia realizar Johrei hoje, mas, como soube que muitos o
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年4月5日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-04-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Gênese do Conhecimento Divino e a Edificação do Mundo de Luz
 
@@ -272,6 +322,7 @@ Um grandioso Templo Divino será erguido em Senjogahara, tendo como modelo o San
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年1月11日 | **Fonte:** 昭和
 **Título Original:** 私の信仰の経路 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-01-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 昭和
 
 ## A Trajetória da Minha Fé
 
@@ -389,6 +440,7 @@ A missão de Deus é nos salvar.
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年10月6日） | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1952-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Natureza da Purificação e a Construção do Destino
 
@@ -430,6 +482,7 @@ Como o tempo é curto, peço que leiam um artigo breve.
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月1日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Alvorecer do Paraíso Terrestre
 
@@ -475,6 +528,7 @@ Para que a humanidade, a começar pelos povos do Japão e dos Estados Unidos, qu
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年7月5日） | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1952-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Museu de Arte e a Providência Divina
 
@@ -522,6 +576,7 @@ Temos também um biombo Nanban, da era de Oda Nobunaga. Um especialista de outro
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 神仙郷完成兼美術館開館記念祝賀式典御講話３ | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1952-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Missão do Museu de Arte na Elevação Espiritual
 
@@ -623,6 +678,7 @@ Embora eu não pretendesse realizar Johrei nesta ocasião, diante dos muitos ped
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年9月1日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-09-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Verdade Divina e os Equívocos do Mundo Moderno
 
@@ -682,6 +738,7 @@ Ao final de tudo, o Japão prosperará imensamente. No entanto, está previsto q
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月1日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Alvorecer da Expansão da Obra Divina
 
@@ -725,6 +782,7 @@ Deus, com Sua sabedoria, conduzirá tudo com maestria. Portanto, a partir deste 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月17日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Manifestação do Plano Divino
 
@@ -761,6 +819,7 @@ A esse respeito, há uma história sobre a fundadora da Oomoto-kyo. Certo dia, D
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年12月5日） | **Status:** Published | **Edição/Página:** 29号 | **Data ISO:** 1954-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Perspectiva da Justiça e a Sabedoria Divina
 
@@ -802,6 +861,7 @@ Este é um ponto crucial na fé, embora muitas vezes subestimado. O budismo, por
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月17日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Vitória que Emerge da Derrota
 
@@ -833,6 +893,7 @@ Não que eu esteja imitando Ibsen, pois há diferenças substanciais, mas o prin
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 講話 （S27年2月6日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Edificação do Belo: O Museu de Hakone e a Visão para o Paraíso Terrestre
 
@@ -876,6 +937,7 @@ Sei que minhas palavras podem soar como fanfarronice, mas falo com total convic�
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年9月6日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Lógica Divina em Nossos Atos e Pensamentos
 
@@ -913,6 +975,7 @@ Permitam-me, para concluir, tecer algumas considerações sobre a doença. Atual
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年5月1日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-05-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Transição para a Segunda Fase da Obra Divina
 
@@ -1030,6 +1093,7 @@ Portanto, o que parece mentira se tornará realidade, e a organização da socie
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S27年6月1日） | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1952-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Edificação do Belo e a Expansão da Arte
 
@@ -1183,6 +1247,7 @@ Sim, propagaremos as melhores variedades de musgo.
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年4月16日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Construção do Protótipo do Paraíso Terrestre
 
@@ -1230,6 +1295,7 @@ Como o tempo é escasso, encerrarei minhas palavras por aqui.
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Terapia Divina e a Causa das Doenças
 
@@ -1323,6 +1389,7 @@ O beribéri é uma intoxicação pelo arroz branco, por isso é comum em jovens 
 
 **Categoria:** kouwa | **Ano:** 昭和15(1940)年11月9日 | **Fonte:** Gokowa
 **Título Original:** 特別講習会御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1940-11-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Terapêutica Divina e a Alvorada de uma Nova Era
 
@@ -1530,6 +1597,7 @@ O batismo de fogo... purificar o espírito com o espírito. Fui incumbido por De
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年11月16日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Discernimento Verdadeiro
 
@@ -1561,6 +1629,7 @@ Isso nos reconduz ao que mencionei anteriormente: pela falta de um discernimento
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年12月7日） | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1953-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Natureza Humana e a Missão Divina em Meio às Crises Mundiais
 
@@ -1628,6 +1697,7 @@ Por fim, o rearmamento do Japão ganhará grande impulso a partir do próximo an
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年7月7日） | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1953-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Lógica Espiritual por Trás dos Acontecimentos
 
@@ -1681,6 +1751,7 @@ Pessoas com o abdômen inchado certamente têm problemas renais. Além disso, a 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年1月3日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Perspectivas para um Mundo em Transição
 
@@ -1738,6 +1809,7 @@ Deus não afirma que salvará toda a humanidade. Ele ensina que haverá os que s
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 箱根地上天国完成記念祭御講話 （S28年6月15日） | **Status:** Published | **Edição/Página:** 23号 | **Data ISO:** 1953-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Inauguração do Mundo do Dia e a Manifestação do Poder Divino
 
@@ -1779,6 +1851,7 @@ Em suma, para tratar a tuberculose, deve-se focar o Johrei nos ombros, na regiã
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年11月11日 | **Fonte:** Gokowa
 **Título Original:** 玉川郷秋季大祭御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-11-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Plano Divino e a Missão dos Pioneiros
 
@@ -1828,6 +1901,7 @@ Assim, a obra de Kannon (観音) progride e avança, passo a passo.
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年3月16日） | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Essência do Discernimento
 
@@ -1875,6 +1949,7 @@ Para aprofundar ainda mais, quando se coloca um arranjo diante de um pergaminho,
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年3月16日） | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Avanço da Obra Divina e a Missão da Arte
 
@@ -1904,6 +1979,7 @@ Outro ponto digno de nota é que, até agora, as exposições em lojas de depart
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年1月15日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Verdadeira Ciência e a Ilusão das Superstições
 
@@ -1929,6 +2005,7 @@ O próximo tema também é bastante interessante, e já o comentei em outra opor
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年12月11日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Raiz dos Grandes Males da Sociedade
 
@@ -1958,6 +2035,7 @@ Em suma, a solução virá. Para tanto, basta que as pessoas saibam que Deus exi
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年8月16日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Batalha entre o Bem e o Mal e a Divulgação da Verdade
 

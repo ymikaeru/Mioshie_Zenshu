@@ -1,9 +1,26 @@
 # Mioshie_Teachings - Part 15
 
+# A Nova Metodologia Terapêutica
+
+**Categoria:** kouwa | **Ano:** 昭和13(1938)年1月26日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1938-01-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
+
+## A Nova Metodologia Terapêutica
+
+Sob a ótica da verdadeira religião, a prática deve ser realizada sobre as vestes. Desde um determinado acontecimento, tornou-se necessário que nos dediquemos exclusivamente à terapia e, por essa razão, é imperativo que alteremos nosso método. Tendo em vista o compromisso que assumimos, pela primeira vez, de não apresentar nossas atividades como de cunho religioso, nossa atuação deve se concentrar unicamente na cura. Consequentemente, os discípulos também devem seguir essa mesma diretriz.
+
+Nesse sentido, mesmo aqueles que receberam o treinamento anterior deverão familiarizar-se com a nova metodologia. A razão para tal mudança é que a abordagem anterior, de caráter estritamente devocional, gerava apreensão naqueles desprovidos de fé ou de conhecimento a nosso respeito. Pontos diversos, como a identificação das causas espirituais das doenças, causavam-lhes insegurança. Em contrapartida, ao nos concentrarmos unicamente na terapia, o processo torna-se claro, permitindo uma atuação completa e isenta de receios. O próprio paciente sente-se mais à vontade e pode receber o tratamento com plena confiança, entregando-se ao processo com total tranquilidade. Portanto, com este novo método terapêutico, a expansão de nossa Obra é inevitável. Prova disso é que, recentemente, nossos terapeutas têm estado tão atarefados que mal encontram tempo para suas refeições. Ademais, a nova técnica é de rápida assimilação, pois seus fundamentos podem ser compreendidos, em linhas gerais, em uma única noite de preleção.
+
+Anteriormente, eu concedia um ideograma caligrafado. Embora, em essência, seu uso seja preferível, há circunstâncias em que é mais prudente não o fazer. Portanto, o ideal é utilizá-lo, desde que a situação o permita. Quando há outras pessoas presentes, por exemplo, corre-se o risco de a prática ser vista como algo supersticioso. Além disso, as formalidades de reverência, como o ato de orar que se praticava antes, não são mais necessárias. Nem o terapeuta nem o paciente devem realizá-las.
+
+---
+
 # A Purificação do Japão e o Cenário Político Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年2月17日） | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1954-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Purificação do Japão e o Cenário Político Mundial
 
@@ -45,6 +62,7 @@ Tive a oportunidade de ler as primeiras vinte páginas do manuscrito e o achei m
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年3月5日） | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Reflexões sobre o Cenário Político Mundial
 
@@ -80,6 +98,7 @@ Agora, algo que sempre menciono, mas que peço que leiam por ser particularmente
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S27年5月1日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## O Despertar da Kannon Messiânica e a Religião da Arte
 
@@ -125,6 +144,7 @@ Afinal, quanto mais esperança o ser humano tiver, melhor. Nesse sentido, o Yume
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年3月5日） | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Significado Oculto da Doença e a Missão da Igreja
 
@@ -156,6 +176,7 @@ A partir do dia nove do próximo mês, haverá uma exposição de pinturas origi
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年9月17日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1952-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Transição para o Mundo do Dia
 
@@ -201,6 +222,7 @@ Há dois anos, um negociante de arte, um homem comum, trouxe-me uma edição de 
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年9月1日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Revelação sobre a Medicina e a Origem do Sofrimento Humano
 
@@ -236,6 +258,7 @@ A partir de agora, passarei a escrever sobre as doenças de natureza espiritual.
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年10月17日） | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1953-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Avanço da Obra Divina no Céu e na Terra
 
@@ -289,6 +312,7 @@ Para finalizar, gostaria de dizer uma palavra. Tenho notado que muitos aplicam f
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年5月17日） | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1952-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Prática Correta do Johrei e a Causa das Doenças
 
@@ -361,6 +385,7 @@ Desmantelar essa superstição médica e farmacêutica é, de fato, uma tarefa m
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S26年10月1日S） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Celeridade da Obra Divina
 
@@ -412,6 +437,7 @@ E as transformações ainda estão apenas no começo. A parte dos fundos mudará
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S27年9月1日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## O Equívoco Americano e o Plano Divino para a Purificação do Mundo
 
@@ -467,6 +493,7 @@ As pessoas ainda não se deram conta de que o esterco humano é prejudicial. Est
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年6月6日） | **Status:** Published | **Edição/Página:** 23号 | **Data ISO:** 1953-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Luta Espiritual e a Discernição
 
@@ -518,6 +545,7 @@ Portanto, se se esforçarem para agir assim em todas as situações, a diferenç
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年10月6日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-10-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## O Mistério dos Números e a Edificação da Obra Divina
 
@@ -571,6 +599,7 @@ Até mesmo nosso modesto livreto, "O Movimento de Kannon", que muitos já consid
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年11月5日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Alvorada de uma Nova Civilização
 
@@ -606,6 +635,7 @@ Assim, a Sekaikyuseikyou atrairá cada vez mais atenção. A grande dificuldade 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （29年2月1日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Construção do Paraíso Terrestre e sua Projeção Mundial
 
@@ -631,6 +661,7 @@ Mas, por ora, encerro aqui minha explanação. Fiquem à vontade para fazer suas
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年4月5日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Ação Direta do Deus Supremo
 
@@ -683,6 +714,7 @@ Até mesmo Buda, Cristo e Maomé reverenciavam a Deus, buscavam Sua orientação
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （28年2月1日） | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Sabedoria da Descoberta e a Missão da Nova Era
 
@@ -958,6 +990,7 @@ Ainda temos tempo. Gostariam de perguntar mais alguma coisa?
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月21日 | **Fonte:** Bunmei no Sozo
 **Título Original:** 御講話 未発表、昭和26(1951)年9月21日（速記録） これは | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1951-09-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## As Raízes Espirituais e a Missão Messiânica
 
@@ -1003,6 +1036,7 @@ Existem muitos mistérios como este, impossíveis de serem registrados em livros
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年4月25日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Visão Divina para a Agricultura e a Cultura Japonesa
 
@@ -1040,6 +1074,7 @@ A propósito, um breve alerta.
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年6月26日） | **Status:** Published | **Edição/Página:** 23号 | **Data ISO:** 1953-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre o Apego e a Verdadeira Causa das Doenças
 
@@ -1077,6 +1112,7 @@ Este ano, tudo indica que a disenteria será muito prevalente. O número de caso
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年11月25日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Visão de Mundo e a Missão do Japão
 
@@ -1144,6 +1180,7 @@ Agora, gostaria de ler algo que lhes servirá de referência.
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年8月25日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Reta Interpretação dos Ensinamentos Divinos
 
@@ -1215,6 +1252,7 @@ Com esse conhecimento, nenhuma pergunta poderá deixá-los em apuros. Basta que 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年1月26日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Existência dos Deuses-Dragão
 
@@ -1260,6 +1298,7 @@ Como nosso tempo se esgotou, peço agora que leiam a seção "Suntetsu".
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年6月21日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-06-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Edificação de um Mundo sem Doenças
 
@@ -1345,6 +1384,7 @@ Existem muitos outros desígnios divinos, os quais revelarei gradualmente com o 
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年8月25日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Visão Universal da Fé e a Manifestação do Belo
 
@@ -1384,6 +1424,7 @@ Quando a pessoa contrai a doença, o sangue tóxico se solidifica no peritônio 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S28年3月25日） | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Revolução da Cultura Mundial
 
@@ -1451,6 +1492,7 @@ Quanto à arte moderna, como não tem despertado muito interesse, decidimos não
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S26年9月1日S） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Diretrizes para as Nossas Publicações
 
@@ -1472,6 +1514,7 @@ Imagino que os senhores leiam a seção “Fonte do Riso”. Considero-a excelen
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S29年3月25日） | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Alvorecer de uma Nova Era Espiritual
 
@@ -1531,6 +1574,7 @@ Destarte, a hora de nossa missão ascender ao palco principal da História mundi
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S26年12月6日S） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Mobilização Divina e a Supremacia do Bem
 
@@ -1570,6 +1614,7 @@ Seja como for, tudo o que escrevi vem se manifestando gradualmente. Conforme con
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年11月27日） | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1952-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Salvação do Ocidente e a Falácia da Medicina Moderna
 
@@ -1613,6 +1658,7 @@ Por fim, o patriotismo tem sido um tema de grande debate ultimamente. Também es
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年4月27日） | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1953-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Sabedoria de Izunome e o Julgamento Precipitado
 
@@ -1662,6 +1708,7 @@ E Deus preparou as circunstâncias para que isso fosse possível. Acontece que o
 
 **Categoria:** kouwa | **Ano:** 昭和16(1941)年7月22日 | **Fonte:** Asu no Ijutsu
 **Título Original:** 江の島片瀬における御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1941-07-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術
 
 ## A Origem Espiritual das Doenças e o Princípio da Cura
 
@@ -1713,6 +1760,7 @@ Uma vez que este princípio seja assimilado com clareza, o temor das doenças de
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S28年9月23日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Plano Divino em Pleno Andamento
 
@@ -1738,6 +1786,7 @@ Minhas palavras acabaram soando como o título de um sermão, mas, como o tempo 
 
 **Categoria:** kouwa | **Ano:** 昭和15(1940)年4月2日 | **Fonte:** Gokowa
 **Título Original:** 特別講習会御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1940-04-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Os Alicerces da Terapêutica Divina
 
@@ -1791,6 +1840,7 @@ A melhora do paciente tende a ocorrer em ciclos, com alternância entre dias de 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 春季大祭御講話 （S27年3月27日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Edificação do Paraíso Terrestre e a Providência Divina
 
@@ -1836,6 +1886,7 @@ O tempo avançou consideravelmente. Há muito mais que gostaria de compartilhar,
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年12月18日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre a Verdade e a Arte Imposta
 
@@ -1867,6 +1918,7 @@ Meu novo museu seguirá um caminho distinto. O foco será o belo pelo qual todos
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年8月27日） | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1953-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Expansão da Obra Divina e o Princípio da Adequação
 
@@ -1916,6 +1968,7 @@ Reflitam bem sobre essas questões. Acionem sua sabedoria e discernimento e ajam
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年8月26日） | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1953-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Princípio da Correspondência
 
@@ -1959,6 +2012,7 @@ Esse mesmo raciocínio se aplica de forma muito clara à cura das doenças. Apro
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月25日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre a Visão Limitada e a Ascensão Espiritual
 
@@ -2018,6 +2072,7 @@ Isso, porém, não é entregar-se a Deus, mas sim sobrecarregá-Lo com responsab
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月25日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Gripe como Bênção e a Purificação do Mundo
 
@@ -2051,6 +2106,7 @@ Agora, darei prosseguimento com a leitura do próximo trecho de “O Livro da Re
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S26年9月5日S） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Aguardada Chegada do Tempo Divino
 

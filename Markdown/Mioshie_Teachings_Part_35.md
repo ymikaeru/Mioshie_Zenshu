@@ -1,9 +1,917 @@
 # Mioshie_Teachings - Part 35
 
+# A Situação Mundial e o Mundo Espiritual
+
+**Categoria:** shi | **Ano:** 昭和29(1954)年3月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 時局と霊界 | **Status:** Published | **Edição/Página:** 58号 | **Data ISO:** 1954-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
+
+## A Situação Mundial e o Mundo Espiritual
+
+Embora o momento não seja propício a tecer críticas sobre a presente contribuição, optamos por aguardar uma ocasião mais oportuna. Todavia, reconhecendo o seu inegável interesse, que a torna digna de nota, decidimos publicá-la neste espaço.
+
+**Comunicação do Mundo Espiritual para a Salvação por Meishu-Sama**
+*Presidente da Igreja Oshin-Naka, Terunosuke Maki*
+
+**15 de fevereiro, 23h**
+**O espírito de Malenkov**
+
+**Meishu-Sama:** Espírito de Malenkov, incorpora no corpo de Shigeru. Incorporaste? Desde o outro dia, tens atuado através de fulano e obstruído sobremaneira a Obra do Deus Supremo. O espírito de sicrano não é um ser de índole tão insolente. Fingindo ser ele, ousaste desafiar a autoridade de Deus. Quando o Sol se manifesta, nada permanece oculto. Foste desmascarado pelo som alto dos passos de um servidor no corredor. O fato de Nobuko estar adormecida era uma estratégia para que, baixando a guarda, as grandes entidades se aproximassem. Hoje, com Momotaro também a repousar, um breve descuido teu permitiu que fosses descoberto. Quão bem te ocultaste até agora. Desafiar a autoridade de Deus certamente te trará sofrimento. Deus detém a vida de tudo o que existe e respira. A vida de todos Me pertence. Conceder a vida ou a morte é do Meu livre-arbítrio. Desejas precipitar-te no inferno por desafiar a autoridade de Deus? Almejas o mesmo abismo que Stálin? Ele permanecerá nesse abismo por incontáveis anos, em grande tormento. É esse o destino que buscas para ti? Certamente que não. Se te arrependeres, perdoarei até mesmo os teus grandes pecados. Contudo, mesmo as pequenas faltas não serão perdoadas sem arrependimento. Se teu remorso for sincero, serás perdoado. Preferes ficar aprisionado no gelo, na escuridão do abismo? Ou anseias pelo Paraíso? Aquele que é forte no mal, uma vez arrependido, torna-se igualmente forte no bem. Se não te emendares perante Deus, serás consumido pelas rodas de fogo do Sol. Se te corrigires, permitir-te-ei servir. Se eu te consumir pelo fogo, todo o povo soviético será igualmente aniquilado. Consentirias que o povo fosse queimado? Desejas que inocentes sofram as chamas? Preferes que eu te submeta agora à roda de fogo? Ou que, mediante teu arrependimento, teus pecados sejam extintos? Todos são filhos de Deus. Uma simples mudança de disposição pode vos transformar em bons filhos. És capaz de agir conforme a Minha Vontade? Servir-me-ás com total liberdade? De fato, é através do bem e do mal que a mácula do mundo é purificada. Para purificar a mácula do mundo, até mesmo a guerra se faz necessária. Servir-me-ás? Eu te perdoo; portanto, dedica-te. Por mais árduo que seja, opor-te-ás ao mal? A tarefa é penosa, mas a cumprirás? Não deves mais obstruir. Serás um instrumento da Vontade Divina. Serve sem desafiar Minha autoridade. Se compreendeste, manifesta-te em palavras.
+
+**Malenkov:** Recebo com imensa gratidão Vossas palavras e, doravante, emendarei minha conduta.
+
+**Meishu-Sama:** Teus pecados passados estão perdoados. Serve conforme a Minha Vontade. Desse modo, o povo soviético de coração sincero será salvo. Se te empenhares, tua nação se tornará um lugar cálido e feliz. Por que persistir em atormentar o Sol? Com tuas próprias mãos, salva o povo soviético. Se compreendeste, retorna de imediato e põe-no em prática. Assim, o gelo se derreterá e tua pátria se tornará uma terra amena. Este é um dia auspicioso para ti.
+
+**16 de fevereiro, 15h30**
+**O espírito de Molotov**
+
+**Meishu-Sama:** Espírito de Molotov, incorpora no corpo de Shigeru. Incorporaste? Quem és tu? Negro ou vermelho?
+
+**Molotov:** Sim, sou um Dragão Vermelho.
+
+**Meishu-Sama:** Enfrentaste grandes provações. Após a partida de Stálin, teus fardos foram muitos. Dize-me, tens sofrido ultimamente? A Era da Noite finalmente chegou ao fim. No céu do Oriente, o Sol principiou sua ascensão. O Mundo de Cristal está prestes a se manifestar. E tu, como te sentes? Desejas permanecer como estás? Rebelar-se contra Deus é, sem dúvida, um caminho de sofrimento. Quando o Mundo de Cristal se concretizar, nem a mais ínfima mácula será tolerada. Foi por isso que teu sofrimento se intensificou, não? Todos os seres que habitam este universo são Meus filhos. Tu também és Meu filho. Compreendo profundamente o sofrimento de um filho. Dize-me, pretendes rebelar-te contra teu pai para sempre?
+
+**Molotov:** Sim, compreendi perfeitamente.
+
+**Meishu-Sama:** Se não desejas mais te rebelar, pedirás perdão por teus pecados passados e te dedicarás a Deus?
+
+**Molotov:** Sim, dedicar-me-ei.
+
+**Meishu-Sama:** Tornar-te-ás um instrumento dócil nas mãos de Deus?
+
+**Molotov:** Sim, tornar-me-ei.
+
+**Meishu-Sama:** São palavras que brotam de um coração sincero?
+
+**Molotov:** Sim. Ontem, ao ouvir o que foi dito a Malenkov, compreendi tudo com clareza.
+
+**Meishu-Sama:** Aceitas a tarefa de purificar o mundo?
+
+**Molotov:** Sim, com alegria a aceitarei. Hoje, permiti-me apresentar um sinal.
+
+**Meishu-Sama:** Que sinal apresentaste?
+
+**Molotov:** Sim. No Ofício Religioso de hoje, providenciei que Vós fôsseis conduzido por um carro vermelho, como forma de colaboração.
+
+**Meishu-Sama:** De agora em diante, age conforme Minhas comunicações. Stálin, no Mundo Espiritual, em meio ao seu tormento no abismo, também começa a se arrepender. Basta que ele sozinho experimente tal sofrimento. Aflige-Me a ideia de que muitos outros passem por essa mesma agonia. Se te corrigires, uma primavera amena visitará também a União Soviética. Suportaste com grande paciência por um longo tempo. Faze com que os Dragões Vermelhos do mundo se emendem.
+
+**Molotov:** Sim. Certamente farei com que se emendem. Rogo, pois, por Vossa proteção.
+
+**Meishu-Sama:** Aqueles que estão em posições elevadas despertam rapidamente, mas os que estão abaixo são obstinados e indolentes, e tardam a despertar. Mesmo no Japão, há quem obstrua o caminho. Quantos espíritos da linhagem justa foram sacrificados? Fazer com que os indolentes se corrijam não é tarefa fácil. Eu te protegerei; portanto, a partir de hoje, emprega teus maiores esforços. Aquele que é forte no mal é também forte no bem. Refiro-me a ti. Eu te protegerei e te salvarei. Torna-te um instrumento em Minhas mãos.
+
+**Molotov:** Sim. Peço perdão por toda a minha insolência até o dia de hoje.
+
+**Meishu-Sama:** A urgência do Plano Divino é tamanha que se faz necessário utilizar o Sol e a Lua nesta intensa purificação. Quando chegar o momento de vossa própria purificação, Eu certamente vos auxiliarei. Arrisca tua vida e cumpre tua missão. Tua vida está sob Minha guarda. De agora em diante, mostra-me ocasionalmente sinais de tua cooperação. Agora, podes retornar. Agradeço teu esforço.
+
+**17 de fevereiro**
+**Mao Zedong (China Comunista), Dragão Vermelho**
+
+**Meishu-Sama:** Espírito que aguarda à entrada, incorpora em Shigeru. Incorporaste? Quem és tu?
+
+**Mao:** Sou o tão esperado Mao Zedong. Eu também sou um servo do Dragão Vermelho.
+
+**Meishu-Sama:** Trabalhas com afinco. Sabes quem Eu sou?
+
+**Mao:** Sim, tenho conhecimento.
+
+**Meishu-Sama:** Como vão as coisas? Parecem ir muito bem, não é mesmo? Expulsaste Chiang Kai-shek e prossegues com grande vigor. Estás contente?
+
+**Mao:** No momento, estou a refletir.
+
+**Meishu-Sama:** Teu grande chefe, Stálin, sofre no gelo do abismo. Aos poucos, ele também começou a se arrepender. Aprecias o abismo?
+
+**Mao:** Detesto-o. A princípio, eu colaborava com Stálin, mas após ouvir o que foi dito a Molotov, estou a reconsiderar.
+
+**Meishu-Sama:** Sabes o que és para Meishu-Sama? Queres que Eu te diga?
+
+**Mao:** Por favor, dai-me uma pista.
+
+**Meishu-Sama:** Pois bem, a darei. *Tarachine no*, é apenas isso.
+
+**Mao:** *Tarachine* refere-se aos pais?
+
+**Meishu-Sama:** *Tarachine* não se refere apenas à mãe, mas a ambos, pai e mãe. Compreendeste?
+
+**Mao:** Sim.
+
+**Meishu-Sama:** Compreendes bem o japonês. Em verdade, todos os seres que habitam a Terra, quiçá o universo, são filhos gerados por Meishu-Sama. Não o sabias? Foste trazido a este mundo por uma necessidade. Nasceste para cumprir uma missão. Compreendes qual é essa missão?
+
+**Mao:** Seria aquela missão que ouvi ontem?
+
+**Meishu-Sama:** Não te parece que a China se encontra profundamente maculada? Em uma casa, quando há sujeira, o que se faz?
+
+**Mao:** Faz-se a limpeza.
+
+**Meishu-Sama:** Sem uma purificação, quando a China for exposta à luz, sua imundície será tamanha que ela se tornará pó. Que deves fazer? Meishu-Sama desceu ao Japão, berço do Sol, com a intenção de salvar o mundo. Contudo, em lugares tão impuros, não posso intervir. O que se deve fazer?
+
+**Mao:** Sim, eu realizarei a purificação.
+
+**Meishu-Sama:** Exato. Sem essa purificação, a primavera jamais chegará à China. Para salvar o povo chinês, encarregar-te-ás de purificar o país? Se o fizeres, o povo de coração sincero será salvo. O povo sincero será salvo pela Luz Divina. És capaz de cumprir essa grande missão?
+
+**Mao:** Sim, sou capaz.
+
+**Meishu-Sama:** Uma primavera radiante se anunciará.
+
+**Mao:** Diremos adeus a esta terra impura.
+
+**Meishu-Sama:** Assim espero. Purifica-a. Prepara o caminho para que Deus possa adentrar.
+
+**Mao:** Então, providenciarei para que tudo se desenrole dessa maneira.
+
+**Meishu-Sama:** Sozinho, não conseguirás. Utiliza muitas pessoas para te auxiliar. Age com teu espírito de justiça, sem te importares com as críticas alheias. O bem e o mal são julgados por Deus. Faze-o. Certamente te concederei a primavera. Une-te às outras nações e aos teus subordinados. Se mudares de ideia, Eu te consumirei nas rodas de fogo. Jura e retorna.
+
+**Mao:** Com a clareza de Vosso olhar espiritual, compreendo perfeitamente e prometo que cumprirei a missão. Com Vossa licença, retorno.
+
+*Mao Zedong parte.*
+
+**18 de fevereiro, 11h40**
+**A seguir, manifestaram-se os seguintes espíritos:**
+
+**Truman (Estados Unidos), Dragão Vermelho**
+
+**Truman:** Meus parabéns por esta auspiciosa ocasião.
+
+**Meishu-Sama:** Compreendes o motivo de ser uma ocasião auspiciosa? Como foi tua postura em relação a Deus até hoje?
+
+**Truman:** Sim. Não tive conhecimento até que o assunto foi amplamente divulgado na imprensa americana.
+
+**Meishu-Sama:** Compreendeste que Deus desceu à Terra? E agora, qual é a tua intenção? O que farás doravante?
+
+**Truman:** A esse respeito, tenho recebido comunicações de diversas nações e estou a deliberar sobre o assunto.
+
+**Meishu-Sama:** Recebeste uma comunicação de Molotov?
+
+**Truman:** Sim, tive notícia.
+
+**Meishu-Sama:** E, diante disso, desejas cooperar? Desejas emendar-te?
+
+**Truman:** Sim, desejo emendar-me.
+
+**Meishu-Sama:** Cooperarás na batalha decisiva que definirá o futuro do mundo? Deus pretendia iniciar a purificação um pouco antes, mas a adiou consideravelmente. Em virtude desse adiamento, muitos mais serão salvos. Foi um grande esforço. Não foste tu que obstruíste a expansão da Obra de Deus na América?
+
+**Truman:** No início, sim, obstruí. Eu o fazia por julgar que o Judaísmo seria prejudicado. De agora em diante, cooperarei com a Obra de Deus.
+
+**Meishu-Sama:** Tuas palavras parecem carecer de força espiritual.
+
+**Truman:** É que a Luz Divina tem penetrado fisicamente na América, e por isso estou a receber purificação.
+
+**Meishu-Sama:** Desejas tornar-te um membro da Sekaikyuseikyou, ou recusas?
+
+**Truman:** Tenho me aproximado gradualmente, e gostaria de ser contado como um de vossos membros. Por trás da destruição, a criação se manifesta.
+
+**Meishu-Sama:** Qual dos dois preferes?
+
+**Truman:** A criação.
+
+**Meishu-Sama:** Que seja. Colabora com aquilo que preferes. Expressa-o em palavras.
+
+**Truman:** Sim. Com o envio do Reverendo Higuchi à América, a primavera também chegará ao nosso país.
+
+**Meishu-Sama:** Tu compreendes mais rápido que os homens de bem.
+
+**Truman:** Sim, pois a Luz Divina tem penetrado em meu corpo físico.
+
+**Meishu-Sama:** De agora em diante, serve à América discretamente, por trás dos panos. Não precisas de destaque. Servirás?
+
+**Truman:** Sim, servirei.
+
+**Meishu-Sama:** Se assim o fizeres, concederei a primavera também ao povo judeu. Pensei no que fazer, pois seus pecados são profundos, mas se se arrependerem, a primavera lhes será concedida.
+
+**Truman:** Ah, muito obrigado. Neste momento, passo por uma breve purificação.
+
+**Meishu-Sama:** Eu te ministrarei Johrei. Onde sentes a purificação?
+
+**Truman:** Sim, na coluna vertebral.
+
+**Meishu-Sama:** É uma ligação ancestral com espíritos-dragão. Se colaborares, teu corpo impuro também será purificado. Jura que servirás.
+
+**Truman:** Sim. Recebendo Vossas gratas palavras, juro que servirei.
+
+**Meishu-Sama:** Agradeço por teres vindo de tão longe.
+
+**Truman:** Ah, peço que envieis uma forte Linha Espiritual para a América.
+
+**Meishu-Sama:** Enviarei uma Linha Espiritual ainda mais forte.
+
+**Truman:** Sim, muito obrigado.
+
+**18 de fevereiro, 8h30**
+**Eisenhower (Estados Unidos), Dragão Negro**
+
+**Meishu-Sama:** Espírito de Eisenhower, incorporado em Nobuko, passa para o corpo de Shigeru.
+
+**Eisenhower:** Sou Eisenhower.
+
+**Meishu-Sama:** Ontem estiveste em Atami para um encontro, não? Na companhia de quem retornaste? Aguardaste com grande ansiedade por esta avaliação espiritual. Ouviste as diversas conversas?
+
+**Eisenhower:** Sim, ouvi. Rogo que me permitais servir.
+
+**Meishu-Sama:** Tu és um Dragão Negro, correto?
+
+**Eisenhower:** Sim. Rogo que me utilizeis em Vossa Obra.
+
+**Meishu-Sama:** Contribui para que a salvação através de nossa fé se expanda rapidamente na América. Regozijaste-te com o avanço da Obra no país, não foi? Quando te perguntei se foste tu que fizeste o presidente Maki quase perder o trem ao vir para a capital, respondeste: "Não me ocupo de assuntos tão mesquinhos." Eu te concederei uma poderosa força espiritual do bem; portanto, proclama a Verdade com a força de um leão. Dentre todos que vieram até agora, és o que melhor compreende. Conto contigo. Conto firmemente contigo.
+
+**Eisenhower:** Compreendido. Tornar-me-ei um dos grandes protagonistas do cenário mundial. Rogo por Vossa contínua proteção. Com licença, senhor presidente.
+
+*Retorna com grande ímpeto.*
+
+**MacArthur (Estados Unidos), Linhagem Divina Justa**
+
+**MacArthur:** Sou MacArthur. Parabenizo-o por esta ocasião gloriosa.
+
+**Meishu-Sama:** Há quanto tempo. Sinto saudades. Esperaste longamente por este dia, não foi?
+
+**MacArthur:** (Chora, comovido de alegria) Sim, esperei.
+
+**Meishu-Sama:** Tu és um espírito justo. Tuas ações foram grandemente obstruídas, não é mesmo? Tudo tem seu tempo e sua hora. Esperaste com grande paciência. Suportaste com bravura.
+
+**MacArthur:** Minha perseverança não é digna de tal menção.
+
+**Meishu-Sama:** Finalmente chegou o dia de subires ao grande palco do mundo.
+
+*MacArthur soluça.*
+
+**MacArthur:** Ah, que felicidade! Perdoai-me o descontrole, tamanho é meu júbilo.
+
+**Meishu-Sama:** Deus pretende realizar a grande purificação do mundo. Eisenhower compreendeu bem e prometeu cooperar. Truman também partiu prometendo sua total colaboração.
+
+**MacArthur:** Ah, com isto, a trindade da América está completa.
+
+**Meishu-Sama:** Uni vossas forças e atuai.
+
+**MacArthur:** Sim, compreendi perfeitamente.
+
+**Meishu-Sama:** Prepara teu coração e avança. Esta é a batalha final do mundo. Enviar-te-ei uma poderosa Linha Espiritual. Conto firmemente contigo. Além disso, estamos a expandir nossa base a partir do Havaí; colabora para que essa expansão prossiga com vigor. Do contrário, o povo americano sucumbirá ao veneno dos remédios. Compreende isto. Deixo essa tarefa sob teus cuidados.
+
+**MacArthur:** Que imensa felicidade. MacArthur certamente cumprirá sua missão. Muito obrigado.
+
+**Meishu-Sama:** Vem em peregrinação todos os meses. Vem para ouvir as diversas instruções.
+
+**MacArthur:** Sim. Virei para uma audiência em glória.
+
+**Meishu-Sama:** Vem. Vinde juntos, os três.
+
+**MacArthur:** Sim. Muito obrigado. Agradeço ao Sol, à Lua e à Terra.
+
+*Parte em meio a lágrimas de alegria.*
+
+**19 de fevereiro, 11h**
+**Nehru (Índia, Primeiro-Ministro e Ministro das Relações Exteriores), Dragão Negro**
+
+**Meishu-Sama:** Bem-vindo, senhor Nehru, que tanto aguardava.
+
+**Nehru:** Ha, ha! Sou o servo Nehru. Agradeço imensamente por este chamado. Ah, que felicidade.
+
+**Meishu-Sama:** Como está a situação por aí? O momento tão esperado finalmente chegou?
+
+**Nehru:** Ah, as nuvens no horizonte começam a se adensar. Rogo que confieis a este servo Nehru uma grande missão.
+
+**Meishu-Sama:** Conto firmemente contigo. Guarda-a em teu coração e cumpre-a com firmeza.
+
+**Nehru:** Agirei com prudência. Como há outros aguardando, despeço-me por agora. Rogo por Vossa proteção.
+
+**Meishu-Sama:** Retorna em peregrinação novamente, acompanhado de tua comitiva. Agradeço teu esforço.
+
+**Panikkar (Índia, ex-embaixador na China), Dragão Negro**
+
+**Meishu-Sama:** E tu, quem és?
+
+**Panikkar:** Sou um servo do Dragão Negro.
+
+**Meishu-Sama:** Conheces teu nome físico? És Panikkar, não?
+
+**Panikkar:** Ah, sim. Rogo que me permitais servir ao lado do senhor Nehru.
+
+**Meishu-Sama:** Apoia Nehru com firmeza. És seu braço direito. É preciso ter grande coragem para tal tarefa.
+
+**Panikkar:** Sim, compreendi perfeitamente. Como há outros aguardando, despeço-me. Rogo por Vossa contínua proteção.
+
+**Meishu-Sama:** Sim, Eu te protegerei. Retorna para uma nova audiência.
+
+**Birla (Índia, um dos cinco grandes magnatas), Dragão Negro**
+
+**Birla:** Agradeço profunda e sinceramente por ter sido incluído neste convite.
+
+**Meishu-Sama:** Tu também és um Dragão Negro, correto?
+
+**Birla:** Sim. Pertenço à mesma linhagem dos que me precederam.
+
+**Meishu-Sama:** A ti, confio a cooperação com os tesouros. Cumprirás o papel de Daikoku. Conto firmemente contigo. Enviar-te-ei também um grande auxílio espiritual. Conto firmemente contigo.
+
+**Birla:** Sim, cumprirei minha missão. Rogo por Vossa proteção.
+
+**Sra. Pandit (Índia, ex-embaixadora nos EUA, filha de Motilal Nehru), Dragão Negro**
+
+**Pandit:** Sou Pandit. Rogo por vossa benevolência.
+
+**Meishu-Sama:** A ti, confio a tarefa de auxiliar teu pai, Nehru, como sua secretária. Confiei a ele uma grande missão. Sem um cuidado excepcional, ele não a poderá cumprir.
+
+**Pandit:** Compreendi perfeitamente. Rogo por Vossa proteção.
+
+**Meishu-Sama:** Mantém a discrição e a suavidade em tuas atitudes. Com isso, teu pai brilhará intensamente. Conto firmemente contigo.
+
+**Pandit:** Sim, cumprirei minha missão. Rogo por Vossa proteção. Com vossa licença.
+
+**Rajagopalachari (ex-Governador-Geral da Índia), Dragão Vermelho**
+
+**Meishu-Sama:** Chegaste. Agradeço teu esforço. Ajuda Nehru e cumpre com firmeza teu papel nos bastidores. O papel dos bastidores é crucial. A fundação é mais importante que a fachada da casa.
+
+**Rajagopalachari:** Sim, compreendi perfeitamente. Rogo por vossa benevolência.
+
+**Meishu-Sama:** Conto firmemente contigo para o papel de alicerce.
+
+**Rajagopalachari:** Sim. Rogo por Vossa proteção. Como estou com pressa, despeço-me por agora.
+
+**Prasad (primeiro Presidente da República da Índia), Dragão Vermelho**
+
+**Prasad:** Agradeço profunda e sinceramente por Vossa imensa proteção. Chegou o momento em que, gloriosamente, poderei servir a Meishu-Sama.
+
+**Meishu-Sama:** Recebeste comunicação da União Soviética? Conto firmemente contigo. Esta é a batalha decisiva do mundo.
+
+**Prasad:** Ah, sim! Cumprirei com firmeza a primeira ordem que me foi dada. Rogo por Vossa proteção. Despeço-me por hoje.
+
+**Rau (ex-representante da Índia na ONU), Dragão Vermelho**
+
+**Rau:** Agradeço por Vossa proteção diária.
+
+**Meishu-Sama:** As chamas da batalha estão prestes a se erguer.
+
+**Rau:** Sim. Rogo que me permitais cumprir magnificamente esta grande missão. Se eu a cumprir com firmeza, peço Vossa imensa proteção.
+
+**Meishu-Sama:** Deves agir com mais vigor. Com passividade, não serás útil.
+
+**Rau:** Sim, agirei com firmeza. Como estou com pressa, despeço-me.
+
+**Meishu-Sama:** Agradeço teu esforço.
+
+**Kripalani (um dos líderes supremos do Partido do Congresso Nacional), Dragão Vermelho**
+
+**Kripalani:** Meishu-Sama, hoje é um dia de imensa felicidade.
+
+**Meishu-Sama:** És muito querido pelo povo. És um homem afortunado. Nesta grande missão, tua tarefa é liderar as massas. Unificar o povo. Apenas alguém com teu carisma pode cumprir tal papel. Guia-os com afeto. O amor é fundamental.
+
+**Kripalani:** Sim. Avançarei com o grande amor de Meishu-Sama. Agradeço por esta grandiosa missão. Rogo por Vossa proteção.
+
+**Patel (Vice-Primeiro-Ministro da República da Índia), Dragão Vermelho**
+
+**Patel:** Hoje é um dia auspicioso. Agradeço por Vossa constante e imensa proteção. Desta vez, confiaste-me uma grande missão, e eu cooperarei.
+
+**Meishu-Sama:** Vossa terra está muito encoberta por nuvens; peço que a purifiques com afinco. Com tamanha nebulosidade, o Paraíso Terrestre não poderá se manifestar. Conto com tua firmeza na purificação. Pelo bem da felicidade do povo, suporta as provações temporárias.
+
+**Patel:** Sim, compreendido. Rogo por Vossa proteção.
+
+**Rao (ex-Secretário-Geral do Partido Comunista da Índia), Dragão Vermelho**
+
+**Meishu-Sama:** Agradeço teu esforço diário na tarefa de purificação.
+
+**Rao:** Agradeço por esta grande missão. Eu a cumprirei.
+
+**Meishu-Sama:** A ti, cabe o papel da destruição.
+
+**Rao:** Sim. Por trás da destruição, a construção. Certamente cumprirei.
+
+**Narayan (líder do Partido Socialista da Índia), Espírito Feminino Justo**
+
+**Narayan:** Agradeço por Vossa permissão neste dia auspicioso.
+
+**Meishu-Sama:** Com uma alma feminina, enfrentas provações diárias.
+
+**Narayan:** Sim. Agradeço por confiar uma missão tão grandiosa a alguém como eu.
+
+**Meishu-Sama:** De agora em diante, conto firmemente contigo.
+
+**Narayan:** Sim, cumprirei minha missão.
+
+**Meishu-Sama:** Há coisas que apenas uma mulher pode fazer, e que os homens não podem. Conto firmemente contigo para essa tarefa.
+
+**Narayan:** Guardarei em meu coração e a cumprirei.
+
+**Meishu-Sama:** Age com suavidade.
+
+**Narayan:** Sim. Por hoje, despeço-me.
+
+**Ali Khan (Primeiro-Ministro do Paquistão, assassinado), Linhagem Divina Justa**
+
+**Ali Khan:** Agradeço por Vossa permissão neste dia auspicioso.
+
+**Meishu-Sama:** Vieste do Mundo Espiritual?
+
+**Ali Khan:** Sim. Anseio por este momento, aguardando com grande expectativa por receber esta grandiosa missão.
+
+**Meishu-Sama:** Conto firmemente contigo para a missão no Mundo Espiritual. Foi um destino trágico, mas recorri a ti por haver uma missão a ser cumprida no plano espiritual. Tu és um espírito justo. Um espírito justo não pode manter um corpo em um lugar tão encoberto por nuvens. Foi um grande sacrifício. Do Mundo Espiritual, salva com firmeza o povo da Índia. Isso repousa sobre teus ombros. Conto contigo. Retorna em peregrinação. Teu sofrimento se abrandará gradualmente. Vem. Vem receber Johrei novamente.
+
+**Ali Khan:** Rogo por Vossa benevolência.
+
+**Jinnah (primeiro Presidente do Paquistão), Espírito Justo**
+
+**Jinnah:** Agradeço imensamente por esta grandiosa missão.
+
+**Meishu-Sama:** Os espíritos da linhagem justa são muito pacíficos. Não sejas tão contido; age com mais vigor. Desse modo, não serás útil.
+
+**Jinnah:** Sim. Eu estava intimidado.
+
+**Meishu-Sama:** De agora em diante, coopera com Ali Khan no Mundo Espiritual. Age com a força de mil, de dez mil homens. Age com um espírito vigoroso. Não demonstres a mesma fraqueza de antes.
+
+**Jinnah:** Sim. Peço desculpas.
+
+**Meishu-Sama:** O Partido Comunista e todos os outros são papéis que Eu mesmo distribuí. Como é a mesma missão, não te sintas intimidado. Salva-os com palavras de grande força espiritual.
+
+**Jinnah:** Sim, cumprirei. Em data posterior, virei em peregrinação a Vós, Meishu-Sama, para expressar minha gratidão. Por hoje, despeço-me.
+
+**Bao Dai (ex-chefe de Estado do Vietnã), Espírito Justo**
+
+**Bao Dai:** Meus parabéns por esta ocasião. Chegou o momento em que, gloriosamente, poderei servir à Vossa Obra. Agradeço profunda e sinceramente.
+
+**Meishu-Sama:** Enganaste com grande habilidade os espíritos malignos. Foi um grande esforço. Outros não conseguiriam imitar tal feito. Desempenhaste o papel de Oishi Kuranosuke do Japão.
+
+**Bao Dai:** Sim. Graças à Vossa forte Linha Espiritual, este momento feliz chegou.
+
+**Meishu-Sama:** Finalmente, a primavera chegará também a essa terra encoberta.
+
+**Bao Dai:** Sim. Esperei, esperei por este momento. Certamente cumprirei. O tempo chegou e, em breve, poderei gloriosamente ter uma audiência física convosco. Com licença.
+
+**Vo Nguyen Giap (Comandante-em-Chefe da República Democrática do Vietnã), Espírito Justo**
+
+**Vo:** Agradeço imensamente por Vossa permissão. Meus parabéns por este dia.
+
+**Meishu-Sama:** Suportaste um longo sofrimento.
+
+**Vo:** Sim. Que imensa felicidade. Agradeço pela grandiosa proteção de Meishu-Sama. O momento finalmente chegou.
+
+**Meishu-Sama:** Até agora, estiveste a construir as fundações. De agora em diante, conto contigo para a construção. Agradeço teu esforço.
+
+**Vo:** De agora em diante, cumprirei com firmeza. Rogo por uma proteção ainda maior.
+
+**De Lattre de Tassigny (ex-Alto Comissário da França na Indochina)**
+
+**Tassigny:** Meishu-Sama, receber Vossa gloriosa permissão é uma verdadeira felicidade. Meus parabéns por este dia.
+
+**Meishu-Sama:** Suportaste um longo sofrimento. Conto com um esforço ainda maior de tua parte.
+
+**Tassigny:** Ah! Recebendo Vossas gratas palavras, certamente cumprirei a missão da construção da salvação. Rogo por Vossa benevolência e proteção.
+
+**Pham Van Dong (Vice-Primeiro-Ministro e Ministro do Interior da República Democrática do Vietnã)**
+
+**Pham:** Meus parabéns por este dia. Sinto-me feliz por poder contemplar gloriosamente o semblante de Meishu-Sama.
+
+**Meishu-Sama:** Sofreste por um longo tempo. Não viste a luz do dia por muito tempo.
+
+**Pham:** Não, tal sofrimento é insignificante comparado ao de Meishu-Sama. Através dele, pude polir meu espírito.
+
+**Meishu-Sama:** O sol finalmente começou a brilhar sobre o mundo. Dedica-te à tua missão com tranquilidade. Guarda-a em teu coração e cumpre-a.
+
+**Pham:** Certamente, arriscarei minha vida para cumpri-la. Rogo por Vossa proteção.
+
+**Nguyen Van Xuan (primeiro chefe do governo central provisório do Vietnã), Alma Feminina**
+
+**Nguyen:** Agradeço por Vossa permissão. É uma imensa felicidade.
+
+**Meishu-Sama:** Com um corpo de mulher, enfrentas provações diárias. Suportaste e serviste bem. O momento finalmente chegou. Conto firmemente contigo. Desempenha teu papel com tua grande coragem.
+
+**Nguyen:** Sim, cumprirei com firmeza. Mesmo sendo mulher, esforçar-me-ei. Rogo por Vossa imensa proteção futura.
+
+**Sukarno (Presidente da República da Indonésia, chamado de "Sol das Índias Orientais", popular, pró-americano)**
+
+**Sukarno:** Hoje é um dia de imensa felicidade.
+
+**Meishu-Sama:** Tens um nome muito bom, "Sol das Índias Orientais". O Sol da Índia. Derrete bem o mal.
+
+**Sukarno:** Sim, derreterei bem. Rogo que derrameis sobre mim a mesma proteção do Sol do Japão. Ah, esperei, esperei! O momento chegou. Cumprirei, certamente cumprirei esta grande missão. Derreterei e salvarei com um grande amor. Sol do Japão, por favor, guiai-me pela mão. Rogo por Vossa proteção futura. Com licença.
+
+**Hatta (Vice-Presidente da República da Indonésia)**
+
+**Hatta:** Chegamos a um momento verdadeiramente magnífico. É o dia pelo qual tanto esperei. Meus parabéns.
+
+**Meishu-Sama:** Tu, cumpre o papel da água na Índia. Une teu coração ao de Sukarno e atua.
+
+**Hatta:** Sim. Por favor, transmiti minhas saudações ao espírito da água do Japão. Para não atrapalhar a Obra Divina, despeço-me. Rogo por Vossa benevolência de agora em diante.
+
+*Cumprimenta Meishu-Sama e o espírito da água, Shoichi, antes de partir.*
+
+**Alimin (Secretário-Geral do Partido Comunista da Indonésia, dado como executado), Alma Feminina**
+
+**Alimin:** Meus parabéns por este dia. Agradeço por Vossa constante e imensa proteção.
+
+**Meishu-Sama:** És mulher? Tua missão é a da terra da Índia. O papel de alicerce. Tua missão também é grandiosa. Conto firmemente contigo. És diferente dos rumores. Dizem que foste executada, mas és muito hábil em despistar. Eu te protegerei. Age com firmeza.
+
+**Alimin:** Ah, muito obrigada. Cumprirei com firmeza. Por favor, transmiti minhas saudações também ao espírito da terra do Japão.
+
+**Musso (Membro do Comitê Central do Partido Comunista da Indonésia, dado como executado), Alma Feminina**
+
+**Musso:** Agradeço pela permissão concedida neste dia auspicioso.
+
+**Meishu-Sama:** Não foste executada? Tu também despistaste? As mulheres são muito hábeis em se disfarçar e escapar. Conto firmemente contigo para o papel de apoio a Alimin. Esconde-te bem e age. Mantém-te discreta e oculta. Quando o momento chegar, o palco será vosso. Foi um grande esforço.
+
+**Musso:** Sim. Rogo por Vossa benevolência. (Virando-se para Kimiko) Vossa missão é a mesma que a minha na administração. Rogo por vossa cooperação.
+
+**Soekiman (atual Primeiro-Ministro da República da Indonésia)**
+
+**Soekiman:** Meus sinceros parabéns por este dia. Agradeço por Vossa imensa proteção.
+
+**Meishu-Sama:** Estás aposentado devido à idade?
+
+**Soekiman:** Sim, estou aposentado, mas com boa saúde. Eu esperava pela chegada deste dia.
+
+**Meishu-Sama:** Tu também és um ator habilidoso. És o mentor de todos. Sê um pai para todos. Fornece-lhes força. Os jovens têm vigor, mas podem fraquejar diante de pequenos obstáculos. Conto firmemente contigo.
+
+**Soekiman:** Sim. Rogo por Vossa proteção.
+
+*Faz uma reverência a Meishu-Sama e depois cumprimenta Maki antes de partir. Aparentemente, seu papel é semelhante ao de Maki.*
+
+**Sjahrir (líder do Partido Socialista da Indonésia, ex-Primeiro-Ministro)**
+
+**Sjahrir:** Meus parabéns por esta ocasião. Agradeço pela permissão concedida hoje e rogo por Vossa contínua benevolência.
+
+**Meishu-Sama:** Sofreste por um longo tempo. Conto contigo para o papel de apoio a Soekiman. Orienta os mais jovens. Chegou o momento de colheres os frutos de teus longos anos de esforço.
+
+**Sjahrir:** Sim, cumprirei.
+
+*Aparentemente, seu papel é semelhante ao da Sra. Maki, e ele pede que transmitam suas saudações a ela antes de partir.*
+
+*(Fim da sessão das 12h do dia 19 de fevereiro)*
+
+**19 de fevereiro, início às 14h**
+**Aung San (organizou o movimento antijaponês, assassinado em 1947), Birmânia**
+
+**Aung San:** Agradeço pela permissão concedida. Meus gloriosos parabéns. O momento finalmente chegou, e graças a Vós, a primavera se aproxima.
+
+**Meishu-Sama:** Sofreste por um longo tempo. És um espírito justo, não? O palco glorioso finalmente se abriu para ti. Meishu-Sama sabia disso. De agora em diante, age com determinação. Haverá muitas dificuldades, mas guarda este sentimento de Meishu-Sama em teu coração e prossegue. Eu protegerei teus assuntos com especial atenção. Consta que foste assassinado, mas teu corpo existe. Conseguiste te ocultar com maestria. De agora em diante, conto firmemente contigo.
+
+**Aung San:** Servirei gloriosamente à Vossa Obra. Rogo por Vossa benevolência.
+
+**Thakin Than Tun (líder do Partido Comunista)**
+
+**Than Tun:** Meus parabéns por este dia.
+
+**Meishu-Sama:** Tentaram atentar contra tua vida. Fingias ser comunista, mas os espíritos da linhagem justa são muito visados. Agiste bravamente. Eu te protegerei, portanto, age com firmeza. Sê cuidadoso.
+
+**Than Tun:** Certamente cooperarei. Rogo por Vossa benevolência.
+
+**U Nu (atual Primeiro-Ministro da Birmânia)**
+
+**U Nu:** Meus parabéns por este dia.
+
+**Meishu-Sama:** Tu também atuaste com grande habilidade por muito tempo. Ocultaste-te bem como comunista. Agir contra os próprios sentimentos exige grande autocontrole. De agora em diante, Eu te protegerei. Dedica-te com afinco.
+
+**U Nu:** Sim. Certamente, certamente cumprirei a grande missão. Rogo por Vossa contínua proteção.
+
+**Thakin Soe (líder do Partido Comunista da Birmânia), Dragão Negro**
+
+**Thakin Soe:** Meus parabéns por este dia. Que imensa felicidade. Vim correndo ao Vosso encontro.
+
+**Meishu-Sama:** És um Dragão Negro?
+
+**Thakin Soe:** Sim, sou. Recebendo Vossa imensa proteção, certamente cumprirei o papel da destruição.
+
+**Meishu-Sama:** Se purificares o país, a primavera chegará à Birmânia. Em público, lutai, mas em privado, une as mãos com Aung San.
+
+**Thakin Soe:** Sim, cumprirei. Rogo por Vossa proteção.
+
+**Osmeña (ancião do Partido Nacionalista das Filipinas), Atuação da Água**
+
+**Osmeña:** Agradeço por esta grata notícia.
+
+**Meishu-Sama:** Foi um grande esforço. Passaste por muitas provações. As cortinas da grande peça teatral de Meishu-Sama para os três mil mundos estão prestes a se abrir. Conto firmemente com a cooperação da América. Embora sejas idoso, Eu te darei a força. Orienta os mais jovens.
+
+**Osmeña:** Sim. Rogo por Vossa contínua benevolência. Por favor, vede o interior do meu coração. Certamente, certamente orientarei os jovens.
+
+**Meishu-Sama:** Retorna novamente.
+
+**Osmeña:** Sim, muito obrigado.
+
+**Quirino (ex-Presidente das Filipinas), Atuação do Fogo**
+
+**Quirino:** Meishu-Sama, meus parabéns. Agradeço profunda e sinceramente por Vossa proteção diária.
+
+**Meishu-Sama:** Protegeste grandemente os japoneses durante a Segunda Guerra Mundial. Foi um grande esforço. Eu me regozijei.
+
+**Quirino:** Vossas palavras me são uma honra imerecida.
+
+**Meishu-Sama:** Protegeste bem os japoneses em prol da construção. De agora em diante, conto contigo. Coopera firmemente com a América.
+
+**Taruc (líder da força central da independência nacional antiamericana nas Filipinas), Atuação da Terra**
+
+**Taruc:** Muito obrigado por este dia.
+
+**Meishu-Sama:** Enfrentas provações diárias. Confiei uma grande missão à América. A trindade das Filipinas deve trabalhar com afinco. Teu papel é o da terra, não?
+
+**Taruc:** Sim. Rogo pela proteção da trindade do Japão. Meishu-Sama, rogo por Vossa contínua benevolência.
+
+**Roxas (terceiro Presidente das Filipinas, falecido em 1948)**
+
+**Roxas:** Meus parabéns por este dia.
+
+**Meishu-Sama:** Vieste do Mundo Espiritual? Conto firmemente contigo para a missão no plano espiritual. Protege com firmeza a trindade das Filipinas. Será uma tarefa árdua. Conto firmemente contigo.
+
+**Roxas:** Sim. Certamente cumprirei. Rogo que me concedais Vossa proteção.
+
+**Balgos (Secretário-Geral do Partido Comunista das Filipinas), Alma Feminina**
+
+**Balgos:** Muito obrigado por este dia.
+
+**Meishu-Sama:** És um espírito justo, não? Uma alma feminina. Disfarçaste-te de Dragão Vermelho comunista. De agora em diante, não precisas mais te disfarçar. Teu papel é administrativo, correto? Age com firmeza.
+
+**Balgos:** Sim. Rogo por Vossa contínua benevolência.
+
+**Ganapathy (Presidente da Federação Geral do Trabalho da Malásia, executado em 1949)**
+
+**Ganapathy:** Agradeço por ter sido convidado.
+
+**Meishu-Sama:** Consta que foste executado, mas como está, tens um corpo?
+
+**Ganapathy:** Sim, tenho.
+
+**Meishu-Sama:** Tu também te disfarçaste? Conseguiste te ocultar com maestria. Suportaste o sofrimento e te escondeste bem. Sem ti, a primavera não chegará à Malásia. Conto firmemente contigo.
+
+**Ganapathy:** Ah, de agora em diante, cumprirei com firmeza esta missão. Com licença.
+
+**Tan Kah Kee (grande comerciante chinês do Sudeste Asiático, revolucionário chinês no exterior)**
+
+**Tan:** Muito obrigado por este dia. Meus sinceros parabéns.
+
+**Meishu-Sama:** Enfrentas provações diárias. És um espírito justo, mas te disfarçaste de Dragão Vermelho? Uma alma feminina, não? Foi um grande esforço.
+
+**Tan:** Sim. A partir de agora, poderei servir gloriosamente à Vossa Obra.
+
+**Meishu-Sama:** Abandona as vestes do Dragão Vermelho. Do contrário, não poderás cumprir tua missão. Retorna à tua essência de espírito justo e trabalha!
+
+**Tan:** Sim. A partir de hoje, as despojei. Rogo por Vossa contínua benevolência.
+
+**Pibun (atual Primeiro-Ministro da Tailândia)**
+
+**Pibun:** Sou Pibun. Meishu-Sama, meus gloriosos parabéns. Como esperei pela chegada deste dia! Certamente agirei em prol da Tailândia.
+
+**Meishu-Sama:** Sofreste por um longo tempo. Concede logo a primavera à Tailândia, para que cessem os conflitos. O povo sofreu muito.
+
+**Pibun:** Ah, certamente, certamente servirei à Vossa Obra. Rogo por Vossa contínua benevolência.
+
+**Pridi (foi Ministro das Relações Exteriores e do Tesouro antes da guerra; durante a guerra, liderou o "Movimento Tailândia Livre")**
+
+**Pridi:** Agradeço por este convite auspicioso.
+
+**Meishu-Sama:** É um sofrimento ter uma missão em um lugar tão encoberto por nuvens. Ajuda Pibun e age com firmeza. Confio-te o papel de Ministro do Tesouro, o papel dos tesouros.
+
+**Pridi:** Ah, recebendo Vossas gratas palavras, certamente cumprirei. Rogo que me concedais Vossa proteção.
+
+**Abdullah (Rei da Jordânia, assassinado)**
+
+**Abdullah:** Agradeço por ter sido convidado.
+
+**Meishu-Sama:** És um rei. A região árabe também sofre muito.
+
+**Abdullah:** Sim. Foi por causa da Era da Noite.
+
+**Meishu-Sama:** A luz finalmente surgiu no Oriente. Dedica-te à tua missão com tranquilidade. Conto firmemente contigo. Cumpre com firmeza o papel de salvar a nação árabe no Mundo Espiritual.
+
+**Abdullah:** Sim, cumprirei. Rogo por Vossa imensa proteção.
+
+**Ibn Saud (Rei da Arábia Saudita), pró-americano**
+
+**Meishu-Sama:** És o Rei da Arábia?
+
+**Ibn Saud:** Sim. Meus parabéns. Chegou o momento em que poderei servir gloriosamente à Vossa Obra. Rogo por uma proteção ainda mais intensa de agora em diante.
+
+**Meishu-Sama:** Sofreste por um longo tempo. De agora em diante, age com firmeza.
+
+**Nahas Pasha (ex-Primeiro-Ministro do Egito, político veterano)**
+
+**Nahas:** Agradeço por ter sido convidado. Meus parabéns. Gloriosamente, poderei servir.
+
+**Meishu-Sama:** Sofreste muito. Estás bastante idoso, mas como está teu corpo?
+
+**Nahas:** Sim, sou idoso, mas meu espírito está firme. Rogo que me utilizeis em Vossa Obra.
+
+**Meishu-Sama:** O "s" de Nahas se conecta com o "s" de Shushin (Deus Supremo). Sê o centro e age. Age com firmeza.
+
+**Nahas:** Muito obrigado. Rogo por Vossa proteção.
+
+**Farouk (ex-Rei do Egito)**
+
+**Farouk:** Meus parabéns por esta ocasião.
+
+**Meishu-Sama:** Dissimulaste tua indolência para despistar. Entregue às mulheres, enganaste bem os olhares alheios. Conto firmemente contigo. Cumpre esta grande missão com presteza. De agora em diante, não precisas mais fingir indolência. Não há necessidade de te esconderes.
+
+**Farouk:** Sim, compreendi. Na Era da Noite, era preciso agir assim para não ser assassinado. Reformarei minha conduta passada e avançarei. Por hoje, despeço-me. Rogo por Vossa benevolência.
+
+**Husseini (Grande Mufti de Jerusalém, xenófobo)**
+
+**Husseini:** Agradeço pelo convite. Sou um espírito justo, mas tenho cumprido a missão da destruição.
+
+**Meishu-Sama:** Tua verdadeira missão é a construção. Como o dia raiou, deves mudar teu rumo. Tens um sonho, e esse é o teu verdadeiro propósito. Coopera com a América.
+
+**Husseini:** É mesmo? Então, de agora em diante, passarei a servir à construção. Certamente reformarei minha conduta e cooperarei. Rogo por Vossa benevolência.
+
+**Naguib (atual Primeiro-Ministro do Egito, militar)**
+
+**Naguib:** Agradeço por Vossa constante e imensa proteção.
+
+**Meishu-Sama:** Conto firmemente contigo para esta missão.
+
+**Naguib:** Que imensa felicidade. Certamente agiremos em cooperação e união. Cooperaremos com a América. Rogo por Vossa contínua proteção.
+
+**Spaak (ex-Primeiro-Ministro da Bélgica)**
+
+**Spaak:** Agradeço profunda e sinceramente por este convite auspicioso.
+
+**Meishu-Sama:** A ti também confiarei uma grande missão na batalha decisiva do mundo. O "s" de Spaak é o "s" de Shushin. É o papel do "s" da Bélgica. Chegou o momento de colheres os frutos de teus sofrimentos passados. Conto firmemente contigo.
+
+**Spaak:** Muito obrigado (chora comovido). Rogo por Vossa contínua proteção.
+
+**Aranha (político brasileiro)**
+
+**Aranha:** Agradeço por ter sido convidado. Agradeço por ter confiado uma grande missão à América.
+
+**Meishu-Sama:** És do Brasil? Enfrentas provações diárias. Para que a primavera chegue também ao Brasil, desejo expandir a linha de nossa fé. Que dizes, cooperarás? O tio do Sol, Otohira Kusakabe, também está no Brasil. Sua missão é transmitir o evangelho da Sekaikyuseikyou. Até lá, encarrega-te da purificação.
+
+**Aranha:** Sim, aceito. Certamente cooperarei. Rogo por Vossa contínua proteção.
+
+**Evatt (político australiano)**
+
+**Evatt:** Agradeço profunda e sinceramente por este convite auspicioso. Chegou o momento em que poderei servir gloriosamente à Vossa Obra. Sinto-me imensamente feliz.
+
+**Meishu-Sama:** Tu também enfrentas provações diárias. Cumpre a missão de salvar a Austrália.
+
+**Evatt:** Recebendo Vossas gratas palavras, tomo coragem e certamente cumprirei a grande missão. Rogo por Vossa imensa proteção.
+
+**Meishu-Sama:** Eu te protegerei. Avança com determinação.
+
+**Evatt:** Ah, com licença.
+
+**Romulo (ex-Ministro das Relações Exteriores das Filipinas)**
+
+**Romulo:** Muito obrigado por este dia. Meus gloriosos parabéns. O momento pelo qual tanto esperei chegou, e cumprirei com firmeza.
+
+**Meishu-Sama:** Enfrentas provações diárias. Ajuda Quirino.
+
+**Romulo:** Ah, rogo por Vossa contínua proteção. Como estou com pressa, despeço-me.
+
+**Nervo (representante permanente do México na ONU)**
+
+**Nervo:** Meishu-Sama, meus gloriosos parabéns. Agradeço por me confiar esta grande missão.
+
+**Meishu-Sama:** Enfrentas provações diárias. A ONU é bastante complexa. Teu papel é o de proclamar a Verdade com a força de um leão. Com tua grande coragem, conto firmemente contigo.
+
+**Nervo:** Agradeço por terdes percebido esta minha coragem. Agirei com a determinação de engolir o mundo. Rogo por uma proteção ainda maior. Com licença.
+
+**Entezam (político iraniano)**
+
+**Entezam:** Agradeço profunda e sinceramente por este convite auspicioso.
+
+**Meishu-Sama:** Enfrentas provações diárias. Lidas bem com um país tão complexo.
+
+**Entezam:** Ah, recebendo Vossas gratas palavras, sinto-me feliz. Chegou o momento de servir gloriosamente à Vossa Obra. Rogo por Vossa proteção para que eu possa cumprir esta grande missão.
+
+**Lie (Secretário-Geral das Nações Unidas)**
+
+**Lie:** Meus gloriosos parabéns por este dia.
+
+**Meishu-Sama:** Enfrentas provações diárias. Teu papel também é muito difícil. De agora em diante, conto firmemente contigo. Conto firmemente com teu papel de apoio. Cooperaste com o movimento pela paz na Coreia, mas isso não é mais necessário. De agora em diante, trabalha conforme a Vontade de Deus!
+
+**Lie:** Sim. Certamente cumprirei esta grande missão. Usai-me conforme a Vossa Vontade. Como estou com pressa, despeço-me.
+
+**Oppenheimer (físico atômico americano)**
+
+**Oppenheimer:** Vim em resposta ao Vosso convite. Meus parabéns.
+
+**Meishu-Sama:** Como vai a produção?
+
+**Oppenheimer:** Tem avançado bastante. Com os preparativos concluídos, a capacidade de produção aumentou consideravelmente.
+
+**Meishu-Sama:** Há muitos espiões, não? Isso também é necessário. Seria ideal se a purificação pudesse ser realizada sem o uso da energia atômica.
+
+**Oppenheimer:** Não, isto também foi criado por Deus.
+
+**Meishu-Sama:** Sim, é verdade. De agora em diante, trabalha conforme Minhas comunicações.
+
+**Oppenheimer:** Sim, compreendido.
+
+**Baruch (ex-representante dos EUA na Comissão de Energia Atômica da ONU)**
+
+**Baruch:** Vim em resposta ao Vosso convite.
+
+**Meishu-Sama:** Dedicas grande esforço à energia atômica.
+
+**Baruch:** Isto é um pano para limpar a sujeira. Estamos a fabricar as ferramentas para a grande purificação.
+
+**Meishu-Sama:** Não deve ser usado além do necessário. Conto contigo para a sua gestão.
+
+**Baruch:** Sim, compreendido. Rogo por Vossa contínua benevolência. Com licença.
+
+**Lilienthal (ex-presidente da Comissão de Controle de Energia Atômica dos EUA)**
+
+**Meishu-Sama:** Sofreste por um longo tempo. O momento finalmente chegou. Tu também te apresentarás? Esperaste com grande paciência até a hora certa. Agradeço por essa missão. Não é mais necessário esperar. Conto contigo. Não uses além do necessário. Esta não é uma arma para aniquilar a humanidade. É apenas para a purificação. Conto contigo.
+
+**Lilienthal:** Sim, compreendi. Certamente me apresentarei. Rogo por Vossa contínua proteção.
+
+**Fuchs (físico atômico britânico)**
+
+**Fuchs:** Agradeço pelo convite e vim ao Vosso encontro.
+
+**Meishu-Sama:** Estás a cumprir pena atualmente? Tua missão foi muito árdua. Este papel também foi necessário. Sofreste muito. Suportaste com bravura. Não te rebeles e preserva tua vida. Quando o momento chegar, haverá uma missão para ti. Está se aproximando. Não te mostres indolente nem provoques a ira dos outros. Tua vida corre perigo. Sê paciente e obedece às ordens.
+
+**Fuchs:** Recebo com gratidão Vossas palavras. Esta é a imensa proteção que me foi concedida. Rogo por Vossa contínua benevolência.
+
+**Blackett (físico britânico)**
+
+**Meishu-Sama:** Tu também agiste com prudência até a chegada do momento. Enfrentaste oposição e sofrimento.
+
+**Blackett:** Recebendo Vossas gratas palavras, sinto-me feliz.
+
+**Meishu-Sama:** Chegou o momento em que talvez seja necessário usar a energia atômica. Não gostaria de usá-la, mas sem ela, a purificação não ocorrerá rapidamente.
+
+**Blackett:** Sim. Compreendo Vossos sentimentos.
+
+**Meishu-Sama:** Para salvar o todo, por vezes é preciso sacrificar a parte. Cumpre com firmeza tua missão futura.
+
+**Blackett:** Recebendo Vossas muitas e gratas palavras, dedicarei-me ainda mais de agora em diante.
+
+Este é o relatório que apresento. Havia partes referentes a Israel e Coreia, mas peço sinceras desculpas pelo atraso, pois não foi possível transcrevê-las a tempo. Apresentá-las-ei no próximo relatório. Agradecendo profundamente por Vossa proteção diária, encerro este relatório.
+
+*Saniwa: Nobuko Kusakabe*
+*Médium: Shigeru Mima*
+
+---
+
+# Os Recursos Humanos e a Medicina Moderna
+
+**Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 人的資源と現代医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第一編
+
+## Os Recursos Humanos e a Medicina Moderna
+
+Indiscutivelmente, o objetivo primordial do Japão neste momento histórico de suma importância é a plena consecução da Esfera de Coprosperidade da Grande Ásia Oriental. Para alcançar tal desígnio, o elemento mais crucial é, sem dúvida, a questão dos recursos humanos. É precisamente por essa razão que as autoridades governamentais têm implementado diversas políticas de incentivo à natalidade. Todavia, ao analisarmos a situação com maior profundidade, deparamo-nos com outra realidade.
+
+Um recém-nascido só se tornará efetivamente produtivo após o transcurso de, no mínimo, duas décadas. Nesse sentido, os recursos humanos de que necessitamos com urgência são, impreterivelmente, os jovens e adultos que já se encontram em plena atividade em seus respectivos campos de trabalho. A recente decisão do governo de estabelecer o registro nacional para homens entre dezesseis e quarenta anos e para mulheres entre dezenove e vinte e cinco anos demonstra, portanto, o acerto dessa visão.
+
+Diante disso, o método mais célere e eficaz para fortalecer nossos recursos humanos seria, sem sombra de dúvida, erradicar as enfermidades. Contudo, basta observar os diversos estratos da sociedade atual para constatar um fato alarmante: o número de doentes atingiu um patamar talvez sem precedentes. Quantos indivíduos, em toda a nação japonesa, desfrutam de uma saúde verdadeiramente plena? A simples reflexão sobre essa pergunta já nos enche de profunda apreensão. As diversas estatísticas que apresentei anteriormente devem ter sido suficientes para que o leitor compreenda a gravidade deste cenário.
+
+Conforme já expliquei detalhadamente, a medicina contemporânea é, em sua essência, uma medicina que produz doentes; por meio de seus tratamentos, transforma enfermidades leves em quadros graves, conduzindo o paciente, por fim, à morte. No que tange à tuberculose, cuja incidência se encontra em franca ascensão, a medicina preconiza o repouso absoluto. Conquanto a renúncia temporária ao trabalho fosse justificável se tal método levasse à cura completa, a realidade é que a vasta maioria dos pacientes, após longos períodos de inatividade, acaba por perder a vida. O prejuízo para a nação é, de fato, incalculável. Ademais, se calcularmos minuciosamente os recursos envolvidos no cuidado desses pacientes — o pessoal de enfermagem, os medicamentos e equipamentos, bem como a mão de obra e os materiais para produzi-los —, chegaremos a cifras que superam a mais vasta imaginação.
+
+Há ainda outro fator nefasto a ser considerado: o diagnóstico precoce. Como explanei anteriormente, a maioria dos casos de tuberculose em estágio inicial se curaria de forma natural se não houvesse intervenção. No entanto, uma vez que o diagnóstico precoce revela os sintomas iniciais, o paciente é compulsoriamente submetido a tratamentos e ao isolamento. Ao receber a notícia ou mesmo a sugestão de que sofre de tuberculose, o paciente sofre um abalo espiritual devastador, pois mergulha em um sentimento de desesperança diante do que considera uma doença incurável. Isso lhe suprime o ânimo e reduz o apetite, provocando um rápido enfraquecimento. Somando-se a isso a intoxicação medicamentosa e outros métodos que agravam a enfermidade, o declínio do corpo e do espírito torna-se uma conclusão inevitável.
+
+Os fatos supracitados são de conhecimento comum e podem ser observados e ouvidos por qualquer pessoa em nosso cotidiano. Não se trata, de minha parte, de qualquer exagero; busco apenas descrever a realidade tal como ela se apresenta. Por isso, creio que tanto médicos quanto pacientes, ao lerem estas linhas, hão de reconhecer a veracidade contida nestas palavras.
+
+Diante do exposto, declaro, sem hesitação, que a maior barreira ao desenvolvimento dos recursos humanos é a própria medicina. Enquanto não despertarmos para essa verdade, o número de doentes continuará a crescer e, por mais que o governo se esforce em elaborar contramedidas, será lamentavelmente impossível solucionar a carência de pessoal. Pior ainda, quanto maior a dependência da medicina, mais nefastos serão os resultados. O futuro que se descortina é, pois, desolador.
+
+É com o coração angustiado que, dia e noite, me pergunto como poderei fazer nosso povo despertar para esta gravíssima realidade o mais rápido possível.
+
+Atualmente, com o intuito de suprir a carência de mão de obra, o governo promove a reestruturação e fusão de pequenos e médios empreendimentos comerciais e industriais, remanejando-os para setores prioritários. Contudo, observa-se uma prática paradoxal: por meio de programas de controle de saúde e diagnóstico precoce, identificam-se principalmente os casos iniciais de tuberculose, submetendo esses indivíduos ao repouso ou ao isolamento. Qual o resultado de tais ações? Por um lado, liberam-se recursos humanos; por outro, eles são eliminados. Esta abordagem assemelha-se a tentar encher de água uma peneira.
+
+Ademais, quando um indivíduo habituado a trabalhos leves é transferido para uma atividade laboral extenuante, como a de operário fabril, é natural que ocorra uma intensa purificação em seu organismo. Consequentemente, surgem sintomas como febre baixa, tosse e fadiga, que são prontamente diagnosticados como tuberculose, o que agrava ainda mais a escassez de mão de obra. Como a quantidade de trabalhadores que podem ser obtidos por meio da reestruturação industrial é finita, quem poderá negar que se aproxima o dia em que seremos assolados por uma drástica escassez de recursos humanos?
+
+Imaginemos, por um momento, o que aconteceria se o governo adotasse a arte médica por mim concebida e a implementasse em toda a nação. Os doentes diminuiriam dia após dia. A maioria dos enfermos se curaria enquanto continuava a trabalhar. A tuberculose, em particular, seria drasticamente reduzida, e o temor do contágio seria erradicado. As enfermidades contagiosas, por sua vez, também diminuiriam, e o número de óbitos por essas causas se tornaria insignificante. Assim, o pavor dos germes patogênicos deixaria de existir, pois as pessoas se tornariam tão saudáveis que a invasão de um micro-organismo não seria capaz de desencadear uma doença. A maior parte das moléstias seria curada em menos de uma semana, e o ser humano estaria, enfim, livre da ansiedade causada pelas doenças. Dietas especiais e métodos de saúde artificiais se tornariam obsoletos. A longevidade humana aumentaria ano após ano. E, se é verdade que em um corpo sadio habita um espírito sadio, é certo que o pensamento do povo se tornaria igualmente saudável, em proporção à saúde de seus corpos. E se a maior causa da infelicidade é a doença, torna-se evidente que a própria infelicidade, a pobreza e os conflitos também seriam drasticamente reduzidos.
+
+---
+
+# A Verdadeira Arte Médica
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 浄霊で何でも治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
+
+## A Verdadeira Arte Médica
+
+O caso deste paciente, a nosso ver, tratava-se de uma enfermidade ocular extremamente simples. Contudo, a medicina, alegando causa desconhecida, mostrava-se incapaz de curá-la, o que evidencia sua completa impotência.
+
+Entretanto, ao ministrarmos Johrei, não apenas a enfermidade ocular foi sanada, como também todas as demais doenças de que padecia. Por conseguinte, o Johrei constitui a autêntica arte médica, não havendo outra designação para a medicina moderna senão a de “não medicina”.
+
+A razão fundamental para tal disparidade reside no fato de a medicina ser material, ao passo que nosso método é espiritual — são, portanto, opostos. Em outras palavras, em toda a Criação, o espírito é o principal e a matéria, o secundário. Esta é a Verdade.
+
+Os próprios fatos atestam essa realidade, não deixando, assim, margem para qualquer dúvida.
+
+---
+
+# Cardiopatias e Hipertensão Arterial
+
+**Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 心臓病及び高血圧 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
+
+## Cardiopatias e Hipertensão Arterial
+
+Na medicina, as cardiopatias são classificadas, em linhas gerais, em angina pectoris, valvulopatia e hipertrofia cardíaca, entre outras.
+
+A angina pectoris manifesta-se de forma súbita e paroxística, com uma dor lancinante e uma sensação de compressão em toda a região torácica, acompanhadas de dificuldade respiratória aguda. O sofrimento que ela impõe é verdadeiramente indescritível, o que a torna uma doença deveras temível. Em casos graves, um único episódio de angina pode ceifar a vida do enfermo, embora, na maioria das vezes, o paciente se recupere temporariamente. A causa subjacente reside nas toxinas estagnadas ao redor do coração, as quais, em virtude do primeiro processo de purificação, são pressionadas centripetamente contra o órgão. A cura natural para tal condição é difícil, e os tratamentos médicos, como as injeções, proporcionam apenas um alívio momentâneo. Contudo, por meio de nosso método terapêutico, a enfermidade pode ser erradicada com facilidade.
+
+Quanto à valvulopatia, em seus quadros mais graves, a causa é idêntica à da angina pectoris. A diferença reside no fato de o primeiro processo de purificação ser mais lento, o que evita dores tão intensas. Assim, os sintomas predominantes são palpitações, pulso irregular e uma leve dificuldade respiratória. Já nos casos leves, o problema se origina em toxinas solidificadas nas regiões das costelas, tanto na parte anterior quanto posterior próximas ao coração, ou ao redor do diafragma. A febre baixa, decorrente do processo de purificação dessas toxinas, acaba por superestimular o coração.
+
+Ademais, a hipertrofia cardíaca, embora possa ocorrer em raras ocasiões, é, na vasta maioria dos casos, um diagnóstico equivocado por parte dos médicos. O que provavelmente ocorre é que eles confundem uma massa de toxinas solidificadas nas proximidades do coração com um aumento do próprio órgão. A verdadeira hipertrofia cardíaca acomete apenas pessoas que consomem álcool em excesso ou atletas, sendo praticamente inexistente em indivíduos comuns. Esse acúmulo de toxinas é naturalmente purificado, transformando-se em escarro que, ao ser expelido, resulta na cura.
+
+Passando à hipertensão arterial, observamos que, recentemente, seus sintomas se tornaram frequentes em pessoas após a meia-idade. Acredita-se que os hipertensos sejam mais propensos à hemorragia cerebral, mas essa correlação não é tão direta quanto a medicina afirma. Não se trata de uma certeza absoluta, embora seja um fato estatístico que a incidência é maior entre os hipertensos do que entre aqueles com pressão baixa.
+
+Nesse sentido, a causa da hemorragia cerebral, conforme expliquei anteriormente, reside na solidificação de toxinas nas regiões cervicais (próximo às glândulas parótidas) e nas proximidades do bulbo raquidiano. Todavia, a origem da hipertensão arterial é distinta e se localiza em outro ponto. Ela decorre da solidificação de toxinas em uma área um pouco mais à frente no pescoço, imediatamente abaixo das amígdalas. Essa massa comprime a artéria, e como tal artéria se conecta ao braço, registra-se uma leitura elevada no esfigmomanômetro.
+
+Para comprovar esta tese, apresentarei um caso bastante elucidativo. Anos atrás, um senhor de aproximadamente sessenta anos, com pressão arterial de trezentos, veio procurar-me. Ele relatou: "Minha pressão talvez seja superior a trezentos. Digo isso porque o aparelho medidor chega ao seu limite máximo de trezentos, e toda vez que a meço, o ponteiro atinge esse valor imediatamente". Apesar de um quadro de hipertensão tão acentuado, ele continuava a trabalhar diariamente em sua empresa há cinco ou seis anos, desde a descoberta da condição, sem apresentar qualquer anormalidade. Este fato demonstra vividamente que os focos causadores da hemorragia cerebral e da hipertensão arterial são distintos. Vale notar que aquele homem havia sido copista por trinta anos, o que levou a uma notável espessura da referida artéria; a causa era, indubitavelmente, o enrijecimento muscular decorrente de sua profissão.
+
+---
+
 # Enfermidades do Ouvido, Nariz e Garganta
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 耳鼻疾患 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Enfermidades do Ouvido, Nariz e Garganta
 
@@ -47,6 +955,7 @@ Se, no entanto, por maior que seja o inchaço, nos abstivermos de intervir, ele 
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年 | **Fonte:** 資本主義と共産主義
 **Título Original:** 資本主義と共産主義 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Capitalismo e o Comunismo sob a Perspectiva do Materialismo
 
@@ -68,6 +977,7 @@ Qual seria, então, a solução? Ela reside, evidentemente, em unificar a humani
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 手術の無力 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Impotência da Cirurgia
 
@@ -85,6 +995,7 @@ Oh, comunidade médica de todo o mundo, que possais despertar para esta realidad
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年8月8日 | **Fonte:** Eikou
 **Título Original:** 宗教文明時代（上） | **Status:** Published | **Edição/Página:** 116号 | **Data ISO:** 1951-08-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Minha Missão Singular e a Civilização do Futuro
 
@@ -112,6 +1023,7 @@ Diante do exposto, quando reflito profundamente sobre mim mesmo, pergunto-me: co
 
 **Categoria:** shi | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 信仰の醍醐味 | **Status:** Published | **Edição/Página:** P.17 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## A Quintessência da Fé
 
@@ -133,6 +1045,7 @@ Em suma, considero-me alguém que vive em meio a milagres. Eis, pois, a que me r
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
 **Título Original:** 資料検索 ： 正直と嘘 自観叢書第5編 | **Status:** Published | **Edição/Página:** P.6 | **Data ISO:** 1949-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観隨談
 
 ## Sobre a Honestidade e a Mentira
 
@@ -148,6 +1061,7 @@ Contudo, observamos no mundo pessoas, por vezes chamadas de calejadas pelas difi
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年11月30日 | **Fonte:** 明麿近詠集
 **Título Original:** 序文 （明麿近詠集） 自観叢書第8編 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-11-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明麿近詠集
 
 ## Prefácio
 
@@ -166,6 +1080,7 @@ Higashiyama Akimaro
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
 **Título Original:** 消化に就て | **Status:** Published | **Edição/Página:** 50号 | **Data ISO:** 1950-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Acerca da Digestão
 
@@ -179,6 +1094,7 @@ Em verdade, os alimentos foram concebidos por Deus para que o ser humano consumi
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年9月6日 | **Fonte:** Eikou
 **Título Original:** 新旧文化の交代 | **Status:** Published | **Edição/Página:** 68号 | **Data ISO:** 1950-09-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Transição para a Nova Cultura
 
@@ -208,6 +1124,7 @@ A estrutura da nova cultura já se encontra plenamente preparada. Não se trata 
 
 **Categoria:** shi | **Ano:** 昭和6(1931)年12月15日 | **Fonte:** 瑞Hikari
 **Título Original:** 新短歌々人の鈍感性 | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1931-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 瑞光
 
 ## A Insensibilidade dos Poetas da Nova Poesia Tanka
 
@@ -225,6 +1142,7 @@ Em suma, trata-se de redescobrir a força vital da poesia tanka japonesa. Trata-
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 心臓医術 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## A Influência da Terapia Cardíaca na Saúde Integral
 
@@ -248,6 +1166,7 @@ Nessa perspectiva, é evidente que esta arte de cura do coração acelera a recu
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 宗教となるまで 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.45 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## A Trajetória Durante a Guerra e a Missão Divina
 
@@ -273,6 +1192,7 @@ Embora de forma bastante sucinta, creio ter delineado a trajetória que percorri
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 痔疾患 ・病患と医学の誤謬十五 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## As Afecções Hemorroidárias e os Equívocos da Medicina
 
@@ -294,6 +1214,7 @@ As pessoas também costumam temer o sangramento hemorroidário. No entanto, tal 
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年11月20日 | **Fonte:** 世界Kyusei教早わかり
 **Título Original:** 自然農法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-11-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教早わかり
 
 ## O Diálogo entre Deus, a Terra e o Homem
 
@@ -329,6 +1250,7 @@ Vede, senhores agricultores! Foi-nos concedida esta maravilhosa dádiva, a Agric
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年7月1日 | **Fonte:** 内外公論
 **Título Original:** 真の宗教が有るか？ | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1936-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 内外公論
 
 ## Haverá uma Religião Verdadeira?
 
@@ -411,6 +1333,7 @@ Portanto, quando a religião verdadeira surgir, será inevitável que todas as c
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年1月15日 | **Fonte:** Shizen Noho Kaisetsu
 **Título Original:** 素人菜園に就て | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自然農法解説
 
 ## Considerações sobre a Jardinagem Doméstica
 
@@ -426,6 +1349,7 @@ Com efeito, são inúmeros os problemas que afligem os praticantes da jardinagem
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 神霊医学は民主的医学なり 自観叢書10編 | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## O Caráter Democrático da Medicina Espiritual Divina
 
@@ -443,6 +1367,7 @@ Corrobora inequivocamente o postulado acima uma recente declaração do Sr. Seki
 
 **Categoria:** shi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 種痘は如何にすべきや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Questão da Vacina Antivariólica
 
@@ -458,6 +1383,7 @@ Todavia, por meio desta Terapia, as toxinas naturais não apenas são eliminadas
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
 **Título Original:** 序文 （結核信仰療法） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1952-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核信仰療法
 
 ## Prefácio à Terapia da Tuberculose pela Fé
 
@@ -490,6 +1416,7 @@ O Autor
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年2月26日 | **Fonte:** 東京日々新聞
 **Título Original:** 浄霊術で完全に治癒 ・法話（三） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-02-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東京日々新聞
 
 ## A Ilusão dos Medicamentos e a Verdadeira Causa das Doenças
 
@@ -521,6 +1448,7 @@ Mesmo aqueles desenganados pelos grandes hospitais ou que receberam sentenças d
 
 **Categoria:** shi | **Ano:** 昭和29(1954)年1月6日 | **Fonte:** Eikou
 **Título Original:** 真の大乗宗教 | **Status:** Published | **Edição/Página:** 242号 | **Data ISO:** 1954-01-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdadeira Religião do Grande Veículo
 
@@ -538,6 +1466,7 @@ Diante desse quadro, torna-se evidente que a religião precisa manifestar um pod
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年7月2日 | **Fonte:** Eikou
 **Título Original:** 自然農法の勝利 | **Status:** Published | **Edição/Página:** 163号 | **Data ISO:** 1952-07-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Triunfo da Agricultura Natural
 
@@ -718,6 +1647,7 @@ Nesta ilha de Sado, o Evangelho da Salvação foi propagado e a Agricultura Natu
 
 **Categoria:** shi | **Ano:** 昭和8(1933)年 | **Fonte:** 新版阿呆陀羅経
 **Título Original:** 新版阿呆陀羅経 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1933
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Novo Sutra dos Insensatos
 
@@ -763,6 +1693,7 @@ Shicharakapokupokupoku.
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 真の健康と擬健康 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Verdadeira Saúde e a Pseudossaúde
 
@@ -782,6 +1713,7 @@ Pelo exposto, a verdadeira saúde consiste em estar completamente livre de toxin
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年11月12日 | **Fonte:** -
 **Título Original:** 借金是か非か | **Status:** Published | **Edição/Página:** 35号 | **Data ISO:** 1949-11-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Filosofia da Dívida
 
@@ -811,6 +1743,7 @@ Esta é, em suma, a filosofia sobre o endividamento que proponho.
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年12月3日 | **Fonte:** -
 **Título Original:** 人体は綜合体である | **Status:** Published | **Edição/Página:** 38号 | **Data ISO:** 1949-12-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Natureza Integrada do Corpo Humano
 
@@ -830,6 +1763,7 @@ Podemos traçar uma analogia com uma nação. Tomemos o Japão como exemplo: ser
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年7月16日 | **Fonte:** -
 **Título Original:** 新時代の宗教 | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1949-07-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Religião da Nova Era
 
@@ -841,6 +1775,7 @@ A religião, à semelhança das demais manifestações culturais, está sujeita 
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊と医学迷信 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura pela Fé ante a Falibilidade da Medicina
 
@@ -860,6 +1795,7 @@ Se, mesmo cientes de tudo isso, tais autoridades ainda hesitarem, incapazes de a
 
 **Categoria:** shi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 神仏はあるか | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Existirão Deus e os Budas?
 
@@ -889,6 +1825,7 @@ Nesse sentido, caros leitores, desejo ardentemente que abram os olhos da alma pa
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年11月11日 | **Fonte:** Eikou
 **Título Original:** ジャーナリストと本教 | **Status:** Published | **Edição/Página:** 234号 | **Data ISO:** 1953-11-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Imprensa e a Nossa Causa Divina
 
@@ -922,6 +1859,7 @@ Desejo ardentemente que o Japão aprenda com esse exemplo e se desfaça, o mais 
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 心臓医術 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Importância Primordial da Terapia Cardíaca
 
@@ -941,6 +1879,7 @@ Nesse sentido, por meio desta Terapia Cardíaca, a cura da tuberculose é aceler
 
 **Categoria:** shi | **Ano:** 昭和8(1933)年9月16日 | **Fonte:** 神示の外国魂
 **Título Original:** 神示の外国魂 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1933-09-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Hierarquia dos Indivíduos Fúteis
 
@@ -958,6 +1897,7 @@ Todavia, no presente, pela imensa compaixão do Deus Supremo, foram agraciados c
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 序文 （文明の創造） 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## O Projeto da Nova Civilização
 
@@ -975,6 +1915,7 @@ Assim que o Juízo Final se concluir, terá início a construção do Novo Mundo
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 上半身の病気と中風 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## Um Esclarecimento sobre a Apoplexia e as Doenças da Parte Superior do Corpo
 
@@ -998,6 +1939,7 @@ Outro ponto que merece atenção é a crença de que a hipertensão arterial sej
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** Eikou
 **Título Original:** 宗教文明時代（下） | **Status:** Published | **Edição/Página:** 117号 | **Data ISO:** 1951-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Minha Natureza e Missão Divina
 
@@ -1027,6 +1969,7 @@ Sendo assim, como não chamar este texto de Evangelho do Paraíso?
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年4月4日 | **Fonte:** Eikou
 **Título Original:** 自然農法をよく理解せよ | **Status:** Published | **Edição/Página:** 98号 | **Data ISO:** 1951-04-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Declínio do Rabanete Nerima e o Princípio da Agricultura Natural
 
@@ -1066,6 +2009,7 @@ Assim, o rabanete segue para o norte. Ou melhor, deveríamos dizer que não apen
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 心臓病 | **Status:** Published | **Edição/Página:** P.75 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Verdadeira Causa das Enfermidades Cardíacas
 
@@ -1081,6 +2025,7 @@ Nesse sentido, a dor origina-se da estimulação nervosa que ocorre quando os n�
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年 | **Fonte:** 岡田自観氏の横顔
 **Título Original:** 序 （岡田自観氏の横顔） 自観叢書第6編 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 岡田自観氏の横顔
 
 ## Prefácio
 
@@ -1099,6 +2044,7 @@ Jikan
 
 **Categoria:** shi | **Ano:** - | **Fonte:** 正直は辛い
 **Título Original:** 正直は辛い | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Honestidade e a Superstição Científica
 
@@ -1122,6 +2068,7 @@ Diante da realidade atual, em que os especialistas, alheios ao advento desta med
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年9月3日 | **Fonte:** Eikou
 **Título Original:** 宗教と妨害 | **Status:** Published | **Edição/Página:** 172号 | **Data ISO:** 1952-09-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Natureza da Perseguição Religiosa
 
@@ -1147,6 +2094,7 @@ O incidente ocorrido em maio do ano retrasado é um exemplo eloquente. Naquela o
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 鍼灸療法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Reflexões sobre a Acupuntura e a Moxabustão
 
@@ -1168,6 +2116,7 @@ Quanto à acupuntura, este método consiste em lesar os vasos sanguíneos para p
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
 **Título Original:** 序文 （自観説話集） 自観叢書12編 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-01-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観説話集
 
 ## Prefácio
 
@@ -1186,6 +2135,7 @@ O Autor
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 手術に就て 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Acerca dos Procedimentos Cirúrgicos
 
@@ -1211,6 +2161,7 @@ Um ponto que exige grande atenção é a intoxicação por desinfetantes. Em cir
 
 **Categoria:** shi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 痔疾患 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Sobre as Enfermidades Hemorroidárias
 
@@ -1228,6 +2179,7 @@ Nesse sentido, é fundamental compreender que o sangramento hemorroidário é, n
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊こそ真の医学 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Compaixão Divina diante do Sofrimento Humano
 
@@ -1241,6 +2193,7 @@ Contudo, Deus outorgou-me a sabedoria e o poder necessários para resgatar essas
 
 **Categoria:** shi | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 真の救い | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## A Essência da Verdadeira Salvação
 
@@ -1256,6 +2209,7 @@ Para concluir, afirmo: o destino final de uma religião conduzida pela sabedoria
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 人口問題と本療法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Causa da Infertilidade e a Solução para a Crise Populacional
 
@@ -1277,6 +2231,7 @@ Sou compelido a afirmar, ainda que possa soar como autoexaltação: fora desta a
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 種痘は如何にすべきや | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Questão da Vacinação e a Purificação do Organismo
 
@@ -1296,6 +2251,7 @@ Diante do exposto, compreende-se que a questão da abolição da vacina não se 
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年5月5日 | **Fonte:** 土の偉力
 **Título Original:** 自然栽培の勝利 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 土の偉力
 
 ## O Princípio da Agricultura Natural
 
@@ -1359,6 +2315,7 @@ Para concluir, gostaria de abordar um último ponto. Ao criar bichos-da-seda ali
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年8月13日 | **Fonte:** -
 **Título Original:** 神霊医学は民主的医学なり | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1949-08-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Medicina Espiritual Divina: Uma Medicina Democrática
 
@@ -1384,6 +2341,7 @@ O excerto acima serve como uma confirmação inequívoca da tese aqui defendida.
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年2月20日 | **Fonte:** 新日本医術書
 **Título Original:** 消化機能は一大化学者なり | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-02-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Função Digestiva é um Notável Químico
 
@@ -1417,6 +2375,7 @@ Em verdade, o solo e o sistema digestivo são, ambos, notáveis e extraordinári
 
 **Categoria:** shi | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 宗教と政治 | **Status:** Published | **Edição/Página:** P.7 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## Religião e Política
 
@@ -1434,6 +2393,7 @@ Diante da construção de um novo Japão, considero fundamental que, acima de tu
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
 **Título Original:** 借金 自観叢書第5編 | **Status:** Published | **Edição/Página:** P.7 | **Data ISO:** 1949-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観隨談
 
 ## Minha Árdua Batalha Contra as Dívidas
 
@@ -1453,6 +2413,7 @@ Diante de todo esse cenário, só vim a solucionar por completo a questão das d
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 人体は綜合体である 自観叢書10編 | **Status:** Published | **Edição/Página:** 38号 | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## O Corpo Humano como um Sistema Integrado
 
@@ -1472,6 +2433,7 @@ Façamos uma analogia com uma nação. Tomando o Japão como exemplo, seria inco
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 真の健康と擬健康 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## A Verdadeira Saúde e a Saúde Aparente
 
@@ -1493,6 +2455,7 @@ Em vista do exposto, a saúde verdadeira só pode pertencer a um ser humano inte
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年5月27日 | **Fonte:** Eikou
 **Título Original:** 信仰の合理性と再浄化 | **Status:** Published | **Edição/Página:** 210号 | **Data ISO:** 1953-05-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Lógica Divina e o Processo de Re-purificação
 
@@ -1524,6 +2487,7 @@ Há um último ponto fundamental a ser compreendido: o propósito pelo qual Deus
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年6月25日 | **Fonte:** Eikou
 **Título Original:** 神経という言葉 医学断片集（14） | **Status:** Published | **Edição/Página:** 162号 | **Data ISO:** 1952-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Contradição do Diagnóstico "Nervoso"
 
@@ -1539,6 +2503,7 @@ Pois, se aceitarmos a premissa médica de que é possível sentir dor sem que ha
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年7月11日 | **Fonte:** Eikou
 **Título Original:** 浄霊は何にでも効果がある | **Status:** Published | **Edição/Página:** 112号 | **Data ISO:** 1951-07-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Abrangência dos Efeitos do Johrei
 
@@ -1576,6 +2541,7 @@ Meishu-Sama nos concedeu esta imensa alegria. Esforcemo-nos, mutuamente, para n�
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年7月1日 | **Fonte:** Eikou
 **Título Original:** ジャーナリストに愬（うった）う | **Status:** Published | **Edição/Página:** 215号 | **Data ISO:** 1953-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Apelo aos Jornalistas
 
@@ -1603,6 +2569,7 @@ Como exposto, nossa Igreja cura enfermidades que a ciência considera incurávei
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
 **Título Original:** 時期を待て | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Sabedoria de Aguardar o Momento Oportuno
 
@@ -1628,6 +2595,7 @@ Com base no exposto, podemos compreender a importância capital do tempo. Nas es
 
 **Categoria:** shi | **Ano:** 昭和23(1948)年7月1日 | **Fonte:** Sanka-shu
 **Título Original:** 序文 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1948-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 讃歌集
 
 ## A Força Misteriosa dos Poemas
 
@@ -1648,6 +2616,7 @@ O Autor
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年11月5日 | **Fonte:** -
 **Título Original:** 進歩的宗教 | **Status:** Published | **Edição/Página:** 34号 | **Data ISO:** 1949-11-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Religião Progressista
 
@@ -1667,6 +2636,7 @@ Pelas razões expostas, a verdadeira missão da religião deve ser a de aprimora
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年5月25日 | **Fonte:** 新宗教新聞
 **Título Original:** 新生日本への希望 不安なき社会を造る これが宗教の真の使命 | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1952-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新宗教新聞
 
 ## A Verdadeira Missão da Religião: Edificar uma Sociedade Livre de Inquietações
 
@@ -1686,6 +2656,7 @@ Uma outra fonte de instabilidade social, que ocupa diariamente as manchetes dos 
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年2月27日 | **Fonte:** 東京日々新聞
 **Título Original:** 自然農法で三割増産 ・法話（四） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-02-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東京日々新聞
 
 ## A Agricultura da Natureza e o Aumento de Trinta por Cento na Produção
 
@@ -1711,6 +2682,7 @@ Para detalhar a prática da Agricultura da Natureza, no cultivo do arroz, a palh
 
 **Categoria:** shi | **Ano:** 昭和29(1954)年10月20日 | **Fonte:** Eikou
 **Título Original:** 信徒諸士に告ぐ！ | **Status:** Published | **Edição/Página:** 279号 | **Data ISO:** 1954-10-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Exortação aos Membros
 
@@ -1736,6 +2708,7 @@ Portanto, ao analisarmos as situações em que surgem problemas, constatamos que
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 人口問題と本療法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## A Solução para o Declínio Populacional
 
@@ -1757,6 +2730,7 @@ Sinto-me compelido a enaltecer esta Terapia, pois é uma verdade insofismável: 
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 資料検索 ： 小児精神病此通り治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura da Psicose Infantil
 
@@ -1776,6 +2750,7 @@ Este caso, por si só, já é suficiente para demonstrar a natureza rudimentar d
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
 **Título Original:** 弱体児童の防止法 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Solução para a Fragilidade Infantil
 
@@ -1807,6 +2782,7 @@ Passemos, agora, ao método ativo: a Terapia Purificadora por Imposição das M�
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
 **Título Original:** 序文 （世界救世教奇蹟集） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教奇蹟集
 
 ## O Alvorecer da Verdadeira Civilização
 
@@ -1831,6 +2807,7 @@ O Editor
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊で死者蘇える 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Milagre que Revela a Superioridade da Medicina Espiritual
 
@@ -1848,6 +2825,7 @@ Portanto, pode-se afirmar que a Arte Médica do Johrei constitui, de fato, a mai
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Eikou
 **Título Original:** 自分で病気を知る法 | **Status:** Published | **Edição/Página:** 125号 | **Data ISO:** 1951-10-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um método para conhecer a própria enfermidade
 
@@ -1861,6 +2839,7 @@ Contudo, existem situações peculiares. Indivíduos que, devido à tuberculose 
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
 **Título Original:** 新聞恐怖時代 | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1949-10-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Era do Temor aos Jornais
 
@@ -1878,6 +2857,7 @@ Por tudo o que foi exposto, nossos aproximadamente duzentos mil fiéis, espalhad
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年5月14日 | **Fonte:** -
 **Título Original:** 社会悪の根源 | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1949-05-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Raiz dos Males Sociais
 
@@ -1899,6 +2879,7 @@ Contudo, não basta apenas pregar teorias religiosas, proferir sermões ou entoa
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年4月29日 | **Fonte:** Kyusei
 **Título Original:** 痔に就て | **Status:** Published | **Edição/Página:** 60号 | **Data ISO:** 1950-04-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Respeito da Hemorroida
 
@@ -1916,6 +2897,7 @@ Geralmente, o sangramento dura de uma a duas semanas, não havendo, portanto, o 
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
 **Título Original:** 信仰の種類 (再録) 自観叢書12編 | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1950-01-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観説話集
 
 ## As Modalidades da Fé
 
@@ -1955,6 +2937,7 @@ Aquele cuja fé não se enquadra em nenhuma das categorias acima descritas, este
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年8月27日 | **Fonte:** -
 **Título Original:** 宗教 教育 政治 | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1949-08-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Origem da Decadência Social e sua Solução
 
@@ -1974,6 +2957,7 @@ Por fim, abordemos a política, cujo estado é deveras lastimável. Analisando e
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年3月25日 | **Fonte:** Kyusei
 **Título Original:** 信者諸君へ御注意 | **Status:** Published | **Edição/Página:** 55号 | **Data ISO:** 1950-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Advertência aos Fiéis
 
@@ -1991,6 +2975,7 @@ Segundo: Como norma fundamental, o Johrei deve ser ministrado individualmente, d
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年4月21日 | **Fonte:** 新日本医術書
 **Título Original:** 新日本医術と既存医学の誤謬 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-04-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## A Verdadeira Natureza da Doença e o Equívoco da Medicina
 
@@ -2016,6 +3001,7 @@ Conclui-se, portanto, que os tratamentos médicos praticados até hoje não prom
 
 **Categoria:** shi | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 宗教と芸術 | **Status:** Published | **Edição/Página:** P.8 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## Religião e Arte
 
@@ -2035,6 +3021,7 @@ Contudo, como também surgiram muitos santos e monges ilustres que, vivendo de f
 
 **Categoria:** shi | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
 **Título Original:** 宗教と芸術 | **Status:** Published | **Edição/Página:** 61号 | **Data ISO:** 1950-05-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Religião e Arte
 
@@ -2054,6 +3041,7 @@ Como materialização do que foi exposto, nossa Igreja dedica especial atenção
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
 **Título Original:** 人口問題 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核問題ト其解決策
 
 ## A Causa Oculta do Declínio Populacional
 
@@ -2083,6 +3071,7 @@ Todavia, tenho a convicção de que todas essas estratégias, por mais variadas 
 
 **Categoria:** shi | **Ano:** 昭和26(1951)年9月26日 | **Fonte:** Eikou
 **Título Original:** 浄霊の発明的価値 | **Status:** Published | **Edição/Página:** 123号 | **Data ISO:** 1951-09-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Valor da Descoberta do Johrei
 
@@ -2106,6 +3095,7 @@ Pelas razões expostas, soamos um grande alarme contra essa ideologia inflexíve
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
 **Título Original:** 人的資源と現代医学 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第一編
 
 ## Os Recursos Humanos e a Medicina Moderna
 
@@ -2143,6 +3133,7 @@ Agora, permitam-me descrever o que aconteceria se o governo adotasse esta arte d
 
 **Categoria:** shi | **Ano:** 昭和29(1954)年1月13日 | **Fonte:** Eikou
 **Título Original:** 浄霊は科学療法なり（１） | **Status:** Published | **Edição/Página:** 243号 | **Data ISO:** 1954-01-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Natureza Científica do Johrei
 
@@ -2178,6 +3169,7 @@ A grande incógnita, que certamente todos desejam desvendar, permanece: por que 
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 小児結核も此通り 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura da Tuberculose Infantil pelo Johrei
 
@@ -2199,6 +3191,7 @@ No presente momento, pessoas com essa forma de pensar detêm as rédeas da saúd
 
 **Categoria:** shi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** Asu no Ijutsu 第二篇
 **Título Original:** 人的資源と現代医学（一） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-12-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二篇
 
 ## A Medicina Moderna e o Esgotamento dos Recursos Humanos
 
@@ -2228,6 +3221,7 @@ A necessidade de dietas especiais e de métodos artificiais de saúde desaparece
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年2月8日 | **Fonte:** 新日本医術書
 **Título Original:** 序論 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-02-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 新日本医術書
 
 ## O Alvorecer de uma Nova Arte Médica
 
@@ -2259,6 +3253,7 @@ Na verdade, esta nova arte médica japonesa, que poderíamos denominar Ashita no
 
 **Categoria:** shi | **Ano:** 昭和10(1935)年3月4日 | **Fonte:** Hikari明世界
 **Título Original:** 純日本医学の建設 （一） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1935-03-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## O Estabelecimento da Medicina Puramente Japonesa (I)
 
@@ -2310,6 +3305,7 @@ Infelizmente, a Terapia da Luz Espiritual é uma técnica que, em todo o mundo, 
 
 **Categoria:** shi | **Ano:** 昭和11(1936)年1月25日 | **Fonte:** Hikari明世界
 **Título Original:** 自由無礙 | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1936-01-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## A Liberdade Absoluta e sem Impedimentos
 
@@ -2341,6 +3337,7 @@ Embora pareça um desvio do tema, se o Primeiro-Ministro, o cérebro da nação,
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 浄霊で吃音が治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura da Gagueira pelo Johrei
 
@@ -2358,6 +3355,7 @@ Nesse sentido, ao indagarmos quem foi o ministrante de Johrei que operou a cura 
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 腎臓医術と若返り法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## A Terapêutica Renal e o Método de Rejuvenescimento
 
@@ -2391,6 +3389,7 @@ Também sob este aspecto, os efeitos de nossa Arte Médica Renal devem ser consi
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年12月3日 | **Fonte:** Eikou
 **Título Original:** 神経とは 医学断片集（23） | **Status:** Published | **Edição/Página:** 185号 | **Data ISO:** 1952-12-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A falácia da “causa nervosa”
 
@@ -2408,6 +3407,7 @@ Talvez estas palavras soem um tanto duras aos ouvidos dos médicos. Contudo, dec
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 手術無用 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Superioridade do Johrei sobre a Cirurgia
 
@@ -2423,6 +3423,7 @@ Outro aspecto que demonstra a natureza ideal da arte do Johrei reside no tratame
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
 **Título Original:** 柔道 自観叢書第5編 | **Status:** Published | **Edição/Página:** P.11 | **Data ISO:** 1949-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観隨談
 
 ## A Sabedoria do Caminho Suave
 
@@ -2438,6 +3439,7 @@ Paradoxalmente, essa atitude acaba por acelerar o fracasso do próprio obstrutor
 
 **Categoria:** shi | **Ano:** 昭和24(1949)年4月30日 | **Fonte:** -
 **Título Original:** 宗教からみた産制問題 | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1949-04-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Perspectiva Religiosa sobre o Controle de Natalidade
 
@@ -2461,6 +3463,7 @@ Pelas razões expostas, declaramos aqui nossa mais veemente oposição ao contro
 
 **Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 神書拝読で治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura pela Leitura dos Escritos Divinos
 
@@ -2480,6 +3483,7 @@ Assim, uma doença incurável pelos meios materiais foi sanada pelo ato imateria
 
 **Categoria:** shi | **Ano:** 昭和29(1954)年4月14日 | **Fonte:** Eikou
 **Título Original:** 自然農法の一大朗報 | **Status:** Published | **Edição/Página:** 256号 | **Data ISO:** 1954-04-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Notícia Alvissareira para a Agricultura Natural
 
@@ -2563,326 +3567,6 @@ Artigo 13º: A alteração ou revogação deste estatuto exigirá a aprovação 
 1. A diretoria será definida por meio da indicação de responsáveis pelo comitê fundador, com a aprovação tanto dos indicados quanto dos membros.
 2. Os consultores serão indicados após deliberação do comitê diretivo, uma vez que o Presidente tenha sido eleito.
 3. As reuniões mensais de estudo serão realizadas na segunda terça-feira de cada mês, a partir das 17h.
-
----
-
-# Uma Reflexão sobre a Imprensa
-
-**Categoria:** shi | **Ano:** 昭和24(1949)年10月29日 | **Fonte:** -
-**Título Original:** 新宗教と新聞記事 | **Status:** Published | **Edição/Página:** 33号 | **Data ISO:** 1949-10-29
-
-## Uma Reflexão sobre a Imprensa
-
-É fato conhecido pela maioria que nossa Igreja tem sido, recentemente, tema de conversas, tanto favoráveis quanto desfavoráveis, nos mais diversos estratos sociais. Nesse sentido, pode-se dizer que não há um só dia em que artigos sobre nossa fé não apareçam nos jornais de todo o Japão. Por essa razão, jornalistas de variados veículos de comunicação frequentemente me procuram, solicitando entrevistas. A princípio, por inexperiência, eu acreditava na consciência profissional dos repórteres e lhes falava com sinceridade sobre assuntos de natureza religiosa. Contudo, ao ler os artigos publicados posteriormente, era tomado por grande espanto.
-
-Os pontos cruciais que eu desejava transmitir à sociedade eram quase que inteiramente suprimidos, ao passo que assuntos de menor importância eram apresentados de forma sensacionalista. Ademais, a tônica geral dos textos era excessivamente sarcástica e zombeteira. Eles me abordavam com indagações aparentemente sérias, como “quais são suas opiniões religiosas?” ou “quais suas impressões sobre a sociedade atual?”, a fim de extrair declarações. Alguns chegavam a prometer que jamais publicariam inverdades. A realidade, todavia, mostrava-se diametralmente oposta, o que não posso deixar de considerar desconcertante.
-
-Curiosamente, quando se trata de políticos, personalidades ou líderes de religiões estabelecidas, os artigos são redigidos com extrema seriedade. Contudo, ao abordarem as novas religiões, a escrita revela um olhar de indisfarçável desdém. Indagamos, pois, a razão de tal disparidade. A nosso ver, a causa reside no fato de que a maioria dos jornalistas está profundamente imbuída de uma ideologia materialista. Em consequência, nutrem uma espécie de animosidade ideológica para com o pensamento espiritualista que nós promulgamos, especialmente em relação à nossa ênfase na existência de um Deus invisível aos olhos. Assim, o materialismo arraigado que professam os leva a rotular o espiritualismo como mera superstição, sentindo-se justificados em atacá-lo. Acreditam que essa é a maneira correta de salvar o povo, alertando-o para que não se deixe enredar pela crendice.
-
-De nossa parte, entretanto, sustentamos o oposto: é o materialismo a verdadeira superstição, a fonte primordial dos males que afligem a sociedade. Estamos convictos de que, para o mundo melhorar, é imperativo que essa visão seja desmantelada e que o pensamento espiritualista seja amplamente difundido. Disso decorre um abismo intransponível entre as duas concepções. Enquanto esse espírito materialista permear suas mentes, ele inevitavelmente se manifestará em seus escritos. Isso fica evidente no sentimento de repulsa que transborda em cada trecho de seus artigos. Nas inúmeras conversas que mantive com profissionais da imprensa, sinto-me invariavelmente desapontado ao constatar a superficialidade de seu pensamento materialista e a completa ausência de uma perspectiva espiritual.
-
-Diante do exposto, decidi que, de agora em diante, não mais concederei entrevistas, a não ser aos jornalistas que se proponham a escrever com seriedade. Rogo aos senhores da imprensa que estejam cientes desta resolução. Todavia, caso desejem veementemente obter respostas a perguntas ou conhecer minhas impressões sobre algum tema, peço que o façam por meio de correspondência. Dessa forma, responder-lhes-ei também por escrito. Adotei este procedimento para evitar o inconveniente de fazer com que se desloquem de longe em vão, o que seria lamentável. Agradeço profundamente a compreensão de todos.
-
----
-
-# Sobre as Falsidades Propagadas pela Imprensa
-
-**Categoria:** shi | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
-**Título Original:** 新聞の独断はファッショ 新聞のデマに就て | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1949-10-22
-
-## Sobre as Falsidades Propagadas pela Imprensa
-
-Desejo elucidar um fato que frequentemente passa despercebido ao público: a magnitude do prejuízo que artigos mentirosos, veiculados pela imprensa, infligem à nossa Igreja. Recordo-me que, no outono passado, por ocasião da questão de sonegação de impostos, o jornal Asahi publicou a cifra estapafúrdia de que nosso patrimônio seria de dois a três bilhões de ienes. Dada a credibilidade social de um veículo de tamanha envergadura, muitos depositaram fé naquelas palavras. Com efeito, fomos subsequentemente assolados por uma torrente de pedidos de auxílio financeiro, vindos de aproveitadores, extorsionários e até mesmo de pessoas completamente desconhecidas que nos solicitavam capital para negócios e empréstimos de toda sorte, a ponto de, por um tempo, nos sentirmos subjugados por essa avalanche de solicitações.
-
-Contudo, recentemente, a história se repetiu: o jornal Yomiuri publicou que nossa receita diária ultrapassaria os dez milhões de ienes. Em consequência, uma nova leva de indivíduos em busca de vantagens financeiras começou a nos procurar. O sentimento de alívio que experimentamos, quando a situação anterior havia se acalmado, foi, portanto, efêmero, e ao que tudo indica, teremos de suportar este infortúnio por mais algum tempo.
-
-Naturalmente, tais cifras são de uma falsidade flagrante. Nossa Igreja foi oficializada como pessoa jurídica religiosa em agosto do ano retrasado; seria impossível, a menos que recorrêssemos à magia, acumular tamanha fortuna em tão pouco tempo. Os senhores jornalistas bem sabem das dificuldades financeiras que afligem até mesmo as religiões estabelecidas há séculos, que contam com milhões de fiéis. Diante delas, nossa Igreja é como um recém-nascido perante um grande campeão. Ademais, por nos encontrarmos em plena fase de expansão, nossas dificuldades econômicas são maiores do que se pode imaginar. Para que se tenha uma ideia clara de nossa real situação, basta mencionar que apenas recentemente conseguimos a liberação de nossos bens, que haviam sido penhorados para o pagamento de um imposto superior a dez milhões de ienes, referente ao ano anterior.
-
-Diante de nossa verdadeira condição, qual seria o motivo para que eles publiquem números tão fantasiosos? Talvez o façam por mero sensacionalismo, contudo, o prejuízo que nos causam é imensurável. Seria lícito permitir o exercício de um poder tão tirânico? Eis uma questão de suma gravidade. Ademais, parece existir entre eles a convicção de que toda nova religião é, por definição, uma seita supersticiosa e maligna, cujo extermínio representaria um bem para a sociedade. Nesse sentido, não hesitam em recorrer à calúnia e à invenção, exagerando os fatos para instigar na sociedade um sentimento de repulsa e desconfiança, fazendo-nos parecer perigosos. Trata-se de uma estratégia para, simultaneamente, despertar a curiosidade de seus leitores. Poderíamos chamar tal conduta de jornalismo íntegro? Evidentemente, os senhores jornalistas não se dão ao trabalho de investigar; partem do pressuposto de que somos uma seita supersticiosa e maligna. Portanto, o maior temor das novas religiões reside, justamente, nas calúnias da imprensa. Diante do exposto, não se pode negar que tal atitude constitui uma violação dos direitos humanos, pois sacrifica cidadãos de bem em prol de seus próprios interesses. Trata-se, em verdade, de um feudalismo midiático.
-
-A verdade, se me permitem declará-la, é que a sociedade atual se encontra em um estado de degradação tão profundo que nem a educação, nem a moral, nem mesmo a força das religiões tradicionais são capazes de detê-lo. É insofismável a necessidade do advento de uma salvação verdadeiramente poderosa. Contudo, essa salvação não se manifestará como nos contos de fadas ou nas lendas, descendo dos céus sobre nuvens ou surgindo subitamente da terra. Ela se concretizará por meio de um ser humano escolhido, que, de forma gradual e sincera, se dedicará a salvar cada indivíduo, com o propósito de construir uma sociedade melhor, uma nação melhor e um mundo melhor. O executor de tal obra pode surgir em qualquer lugar e sob qualquer aparência. Mesmo aqueles que hoje são reverenciados como fundadores e santos não foram figuras de grande destaque em sua época. A história das religiões demonstra claramente que o reconhecimento e a veneração lhes foram sendo gradualmente conferidos com o passar dos anos. Vejamos o exemplo de Cristo: no momento de sua ascensão, contava com apenas onze discípulos como seguidores inabaláveis. Foram esses mesmos discípulos que, passadas mais de uma década, compilaram os escritos que hoje conhecemos como o Novo Testamento. Ó, jornalistas deste mundo! Gostaria de saber que pensamentos lhes ocorrem após a leitura destas palavras.
-
----
-
-# Comunicado aos Senhores Membros
-
-**Categoria:** shi | **Ano:** 昭和25(1950)年10月15日 | **Fonte:** Chijo Tengoku
-**Título Original:** 信徒諸氏に告ぐ | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1950-10-15
-
-## Comunicado aos Senhores Membros
-
-Temos observado que, entre os membros de nossa Igreja, têm surgido manifestações que negam a necessidade de se recorrer a médicos, medicamentos ou injeções quando da ministração do Johrei. Tal postura representa uma grave distorção dos princípios de nossa Fé e, ao gerar equívocos na sociedade, acaba por macular a imagem de nossa Obra. Diante disso, venho mais uma vez exortar a todos à máxima prudência, para que em nenhuma circunstância a prática médica seja rechaçada.
-
-Ademais, cumpre esclarecer um ponto referente ao método agrícola preconizado por Meishu-Sama. Até o presente, este método vinha sendo popularmente conhecido como “cultivo sem adubos”, por não utilizar fertilizantes químicos ou dejetos humanos. Contudo, tal designação é imprecisa, pois, como é sabido, nossa prática agrícola valoriza e emprega amplamente o composto natural. O princípio fundamental deste método reside no respeito à força da Natureza; portanto, o mais apropriado é que sua denominação contenha o termo “Natural”, como em “Agricultura Natural” ou “Cultivo Natural”. Nesse sentido, o próprio Meishu-Sama instituiu que, doravante, esta seja a terminologia oficial. Sendo assim, solicito a todos a rigorosa e completa observância desta nova diretriz.
-
----
-
-# As Modalidades da Fé
-
-**Categoria:** shi | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** Chijo Tengoku
-**Título Original:** 信仰の種類 | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1949-08-30
-
-## As Modalidades da Fé
-
-Embora designemos por fé um sentimento único, existem na realidade diversas modalidades de praticá-la. A seguir, apresento uma breve enumeração: (1) a fé interesseira, (2) a fé de ocasião, (3) a fé meramente devocional, (4) a fé utilitarista, (5) a fé mediúnica, (6) a fé egoísta, (7) a fé presunçosa, (8) a fé intermitente, (9) a fé inconstante, (10) a fé volúvel, (11) a fé instrumental e (12) a fé simulada, entre outras.
-
-Passarei a elucidar cada uma delas.
-
-(1) A fé interesseira caracteriza-se pelo desejo exclusivo de receber graças. Para seus adeptos, o serviço a Deus ou ao próximo é secundário; a prioridade reside unicamente no benefício próprio. Trata-se de uma postura egoísta, frequentemente observada em pessoas de classe média ou alta. Elas compreendem como utilizar a fé, mas desconhecem o significado de servir a Deus. Utilizar a fé implica posicionar o ser humano acima do Divino, ao passo que a verdadeira fonte das bênçãos reside em reverenciar e servir a Deus. Portanto, essa modalidade de fé, ao inverter a ordem correta das coisas, acaba por anular as próprias graças que almeja e, por conseguinte, não perdura.
-
-(2) A fé de ocasião manifesta-se naqueles que demonstram grande apatia enquanto a religião permanece desconhecida do grande público. Contudo, assim que ela ganha notoriedade e se torna alvo de comentários na sociedade, tais pessoas subitamente se recordam de sua existência e buscam aproximar-se de Deus, mostrando-se dispostas a colaborar.
-
-(3) Os praticantes da fé meramente devocional limitam-se a expressar gratidão constantemente. Do ponto de vista externo, parecem fiéis exemplares; todavia, carecem da visão ampla do magno objetivo de Deus, que é a salvação da humanidade. Possuem uma perspectiva estritamente individualista e, por essa razão, são completamente inativos em suas obras. Sua presença serve apenas para fazer número, como árvores secas que compõem a paisagem de uma montanha sem, contudo, possuírem vida.
-
-(4) A fé utilitarista consiste em uma mentalidade astuciosa, na qual o indivíduo busca utilizar a religião para obter lucros ou para concretizar alguma ambição pessoal. No momento em que percebem a impossibilidade de continuar a explorá-la para seus fins, abandonam-na sem hesitação.
-
-(5) A fé mediúnica é a dos que se fascinam por fenômenos de possessão divina e se dedicam a lidar com eles, desejando ardentemente conhecer os segredos do Mundo Espiritual. Embora não seja intrinsecamente maligna, não representa o caminho principal da fé. Essa é uma atividade mais apropriada a círculos de estudos psíquicos. O perigo reside na facilidade com que se dá crédito às revelações de espíritos de baixo nível, chegando-se a reverenciar predições que se mostram equivocadas. Trata-se, portanto, de um desvio doutrinário.
-
-(6) A fé egoísta é praticada unicamente pela cobiça. É o caso daqueles que, como se vê comumente na sociedade, realizam visitas mensais a determinados templos ou santuários, oferecendo dinheiro e donativos com o único objetivo de obter vantagens materiais, sem jamais refletir sobre o infortúnio da sociedade ou do próximo. Poderíamos classificá-la como uma fé puramente mundana.
-
-(7) A fé presunçosa é aquela em que a pessoa não consegue se desvencilhar do amor-próprio, manifestando o desejo de se impor, de receber, de ser bem-vista, de ser elogiada e de ouvir palavras lisonjeiras. É uma fé verdadeiramente mesquinha, que também se enquadra na categoria das práticas de baixo nível.
-
-(8) A fé intermitente é a da pessoa que ressurge quando já havia caído no esquecimento. Quando pensamos que abandonou a fé, por sua longa ausência, percebemos que não é o caso. Sem que se saiba o motivo, ela reaparece subitamente, como um fantasma. Seria preferível que pessoas assim abandonassem a fé por completo.
-
-(9) A fé inconstante é a daquele que não consegue se manter fiel a uma única crença e sente o desejo de experimentar diversas outras. Sua fé é como uma planta aquática que flutua de uma margem a outra, sem jamais criar raízes, o que o impede de receber as verdadeiras graças. Apesar disso, sente um vazio sem professar alguma crença, pois sua hesitação é imensa. Basta ouvir a opinião de alguém para que mude de ideia. É, em verdade, uma pessoa desafortunada.
-
-(10) A fé volúvel é extremamente inconstante. Assim como na fé anterior, seu praticante é incapaz de se aprofundar em uma única crença, mudando incessantemente. Trata-se de um peregrino religioso. Esse tipo de comportamento é propenso a ocorrer entre os intelectuais.
-
-(11) A fé instrumental é aquela em que a pessoa utiliza Deus e a fé como um meio para satisfazer seus próprios desejos. Assemelha-se à fé egoísta e é um padrão comum em organizações religiosas, sendo frequente entre líderes, acadêmicos e outras figuras proeminentes.
-
-(12) A fé simulada é a daquele que, externamente, se apresenta como um fiel devoto, mas, em seu íntimo, não reconhece a existência de Deus. Indivíduos desse tipo costumam ser extremamente eloquentes, de modo que, a princípio, enganam a maioria das pessoas. Contudo, Deus não permite que tal farsa perdure; com o tempo, a máscara acaba por cair, e eles desaparecem.
-
-Se a sua fé não se enquadra em nenhuma das categorias acima descritas, então ela é a fé verdadeira.
-
----
-
-# A Verdade e a Falsidade
-
-**Categoria:** shi | **Ano:** 昭和24(1949)年7月20日 | **Fonte:** Chijo Tengoku
-**Título Original:** 真理と非真理 | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1949-07-20
-
-## A Verdade e a Falsidade
-
-Desde tempos imemoriais, a Verdade é um tema recorrente nas discussões humanas. Contudo, raramente se aborda seu oposto: a falsidade, ou o falso princípio. Todavia, para a correta interpretação de todas as questões práticas, é imprescindível saber discernir entre uma e outra, pois dessa distinção dependem os resultados, que podem ser benéficos ou nefastos. Ao observar a realidade, constata-se com notável frequência que a falsidade é confundida com a Verdade, um equívoco do qual a maioria das pessoas sequer se dá conta.
-
-Tanto a falsidade quanto a Verdade se manifestam em todos os domínios do saber: na religião, na filosofia, na ciência, na arte e na educação. Qualquer que seja a questão, um falso princípio está fadado a ruir com o passar de alguns anos, décadas ou séculos, ao passo que a Verdade permanece perpétua e imutável.
-
-Quando uma nova descoberta surge, é comum que a sociedade a acolha como uma verdade suprema. No entanto, não raro, ela acaba por ser refutada por novas teorias que a suplantam. De modo análogo, quem poderia garantir que até mesmo as grandes religiões não desaparecerão após o transcurso de séculos ou milênios? Entretanto, seu desaparecimento raramente é absoluto. O que ocorre é a desintegração de seus aspectos falsos, enquanto a parcela de Verdade que continham consegue perdurar. E ainda que nada delas restasse, teriam cumprido seu papel como uma etapa no avanço da civilização, não devendo, portanto, ser alvo de críticas. Nesse sentido, é natural que um falso princípio, quanto mais se aproxima da Verdade, mais longa seja sua existência; e quanto mais dela se distancia, mais efêmera seja sua duração, tal como ocorre com a longevidade dos seres humanos.
-
-A rigor, o correto discernimento entre a Verdade e a falsidade deveria ser atribuição dos sábios e precursores de cada era. A realidade, porém, é que são extremamente raros aqueles dotados de uma visão tão extraordinária. Não obstante, há falsos princípios que conseguem perdurar por um tempo considerável. Os governos despóticos e o pensamento feudal, por exemplo, foram falsidades tratadas como Verdade. Exemplos mais recentes, como o fascismo de Mussolini, o nazismo de Hitler e o Hakko Ichiu (八紘一宇) de Tojo, tiveram um destino efêmero justamente por serem falsos. Ainda assim, por um certo período, essas ideologias levaram seus povos a crer que eram a Verdade, a ponto de fazer com que suas próprias vidas fossem tratadas com leviandade. Guardamos em nossa memória a imagem vívida das inúmeras e lastimáveis vítimas sacrificadas por essa ilusão. Tal fato nos revela o quão terrível pode ser o poder de uma falsidade.
-
-No tocante à Verdade e à falsidade, é inegável que esta última se manifesta com frequência no campo religioso. Inúmeras religiões de menor expressão surgem e desaparecem. Ainda que seu início seja esplendoroso, muitas delas se desvanecem sem deixar vestígios em poucas décadas, precisamente por serem religiões fundamentadas na falsidade. Por conseguinte, uma religião que possua um valor intrínseco, análogo ao da Verdade, ainda que venha a sofrer forte opressão por um determinado período, certamente ressurgirá e se tornará uma grande religião. Isso pode ser constatado ao observarmos as grandes religiões que perseveram até os dias de hoje.
-
-(Nota) Hakko Ichiu (八紘一宇): Significa “o mundo sob um mesmo teto”. Foi um lema utilizado durante a Guerra do Pacífico para justificar a expansão imperialista do Japão.
-
----
-
-# A Distinção entre Fé e Religião
-
-**Categoria:** shi | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** Chijo Tengoku
-**Título Original:** 宗教と信仰 | **Status:** Published | **Edição/Página:** 15号 | **Data ISO:** 1950-04-20
-
-## A Distinção entre Fé e Religião
-
-Embora os termos religião e fé sejam comumente empregados como sinônimos, a verdade é que, em muitas ocasiões, seus significados divergem. O adágio popular segundo o qual “até a cabeça de uma sardinha pode inspirar devoção” exemplifica um ato de fé, mas não constitui uma religião. De modo análogo, a veneração que povos primitivos devotam a ídolos bizarros, esculpidos em madeira ou pedra, também se enquadra na esfera da fé, e não da religião.
-
-Diante do exposto, é perfeitamente compreensível que os indivíduos cultos de nossa época desconsiderem a idolatria, por a julgarem uma prática inferior. Contudo, isso não significa que baste professar qualquer religião, pois as próprias religiões se classificam em níveis: superior, intermediário e inferior. A salvação genuína do ser humano só pode ser alcançada por meio de uma religião de nível superior. À primeira vista, a ideia de que existem hierarquias entre as religiões pode parecer estranha; todavia, se observarmos o Universo, constataremos que todas as coisas se distinguem por diferentes graus de elevação, e as religiões não poderiam ser uma exceção a essa lei universal.
-
-Uma religião superior, por definição, é aquela regida pelo Deus Supremo. Visto que Sua virtude e Seu poder são imensos e potentes, é natural que a força salvadora que dela emana seja igualmente grandiosa. O principal distintivo de tal religião, portanto, é a manifestação de notórios milagres. É por essa razão que nossa Igreja manifesta milagres como a cura de enfermidades consideradas incuráveis pela medicina, o livramento de desastres iminentes e a proteção contra incêndios que, em circunstâncias normais, seriam inevitáveis. Sendo assim, quanto mais evidentes forem os benefícios concretos e imediatos, mais convictos podemos estar da presença do Deus Supremo no cerne dessa religião.
-
----
-
-# A Questão Demográfica e o Futuro dos Povos
-
-**Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
-**Título Original:** 人口問題 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
-
-## A Questão Demográfica e o Futuro dos Povos
-
-Dentre as questões que hoje captam a atenção das nações civilizadas, nenhuma é porventura mais crucial que a demográfica. Com efeito, ela constitui o alicerce sobre o qual se edifica a ascensão ou a queda dos povos. A afirmação de Adam Smith, de que a prosperidade e o poderio de um país "dependem de sua capacidade de crescimento populacional", é uma verdade insofismável. No mesmo sentido, o brado de Mussolini ao povo italiano — "Alcançai a maior taxa de natalidade e a menor taxa de mortalidade!" — não tinha outro significado.
-
-Essa dimensão premente que o problema demográfico adquiriu é, na verdade, um fenômeno do século XIX em diante. Naturalmente, antes do século XVIII, a ausência de estatísticas completas em qualquer nação nos impede de conhecer os números exatos. Embora seja concebível que uma nação ou um povo tenha sofrido um declínio populacional temporário devido a guerras ou desastres naturais, o cenário atual, no qual todas as nações civilizadas, sem exceção, apresentam uma redução em suas taxas de crescimento, é um fenômeno absolutamente sem precedentes. Se essa tendência de queda demográfica tivesse se iniciado séculos antes, é improvável que as nações civilizadas de hoje tivessem alcançado seu atual florescimento. Mais do que isso, talvez tivessem desaparecido ou, à semelhança do povo Ainu, subsistido apenas como um vestígio. Consequentemente, o desenvolvimento de uma cultura tão resplandecente como a que presenciamos teria sido impossível.
-
-Diante desse quadro, a primeira interrogação que devemos levantar é a seguinte: se a queda na taxa de crescimento populacional começou no início do século XIX, cumpre-nos refletir sobre a possibilidade de que algum método específico, inexistente antes do século XVIII, tenha sido aplicado em larga escala a todos os povos civilizados. É imperativo, portanto, investigar a natureza desse método e desvendar sua verdadeira essência. É evidente que tal método só pôde ser implementado de forma tão ampla por ter sido considerado, sem sombra de dúvida, benéfico. Contudo, é plausível que algo tido como positivo, após apresentar resultados favoráveis por alguns anos ou décadas, revele-se, a longo prazo, prejudicial. A fraqueza humana, entretanto, reside no fato de que, uma vez que algo é aceito como bom, mesmo que surjam fenômenos adversos, a força das ideias preconcebidas pode nos impedir de perceber a verdade. Tal situação assemelha-se à daqueles que, tendo sido iludidos por doutrinas heréticas, persistem em sua fé cega, elaborando justificativas para negar a realidade mesmo depois que a verdadeira natureza de tais doutrinas é exposta.
-
-Encontrar esse método oculto é, pois, a chave para solucionar este magno problema. Mas qual seria, então, essa solução enigmática? Antes de desvendá-la, apresentarei o panorama atual da dinâmica populacional no Japão e nas demais nações do mundo.
-
-O Semanário do Gabinete, em sua edição de 8 de dezembro de 1940, publicou o seguinte:
-
-(A taxa de natalidade de nosso país, que atingiu seu pico em 1920, com 36 nascimentos por mil habitantes, vem mostrando uma tendência de queda gradual. Em 1936, caiu abaixo de 30, e em 1937, registrou 31. No ano seguinte, sob o impacto do conflito em curso, despencou para 27. Embora essa taxa ainda seja consideravelmente alta em comparação com a da Itália (23), Alemanha (19), Estados Unidos (17) e o Reino Unido e França (15), tal fato não deve ser motivo para otimismo. A causa fundamental do declínio da natalidade ainda não está totalmente esclarecida, sendo um dos principais temas de estudo da demografia. A experiência das nações civilizadas europeias, contudo, nos ensina que, embora a guerra não seja a causa primária do declínio da natalidade, ela é um terrível catalisador do processo. Ademais, uma vez iniciada, a queda na taxa de natalidade tende a acelerar-se vertiginosamente, e a recuperação, uma vez que a taxa tenha caído, revela-se extremamente difícil. Outro ponto preocupante é que a redução da natalidade geralmente afeta mais a população de melhores qualidades, enquanto a capacidade reprodutiva da população de qualidades inferiores permanece alta. Isso promove a chamada seleção adversa, ou seja, uma tendência em que os indivíduos de maior valor diminuem enquanto os de menor valor aumentam. Sob essa perspectiva, para zelar pela qualidade da população, é imperativo que a natalidade seja elevada.)
-
-Vejamos agora um exemplo da relação entre a população e a guerra, conforme o mesmo semanário:
-
-Tomemos o caso da Alemanha durante a recente Grande Guerra, o mais típico conflito da era moderna. Ao longo de quatro anos, a Alemanha mobilizou mais de treze milhões de jovens, dos quais se estima que 1,85 milhão tenham morrido em combate. Embora o número de mortos em combate não seja pequeno, a perda populacional total da Alemanha, em decorrência da redução de nascimentos e do aumento da mortalidade geral, alcançou a espantosa cifra de 4,2 milhões de pessoas — duas vezes e meia o número de baixas em combate. A soma dessas duas perdas demonstra claramente o impacto profundo que a guerra moderna exerce sobre o crescimento populacional e a importância crucial de se repor rapidamente esse déficit.
-
-No Japão, durante o atual conflito, observamos, em diferentes graus, um impacto semelhante na dinâmica populacional. Em 1938, em comparação com o ano anterior, houve uma redução de mais de 250 mil nascimentos. Excluindo as mortes decorrentes de combate, ferimentos ou doenças de guerra, houve um aumento de mais de 50 mil óbitos. Como resultado, o crescimento natural da população sofreu uma redução superior a 300 mil pessoas. É inevitável que a guerra nos faça perder uma parte do nosso crescimento natural. Contudo, devemos ponderar profundamente que perder uma parte do crescimento natural hoje significa perder futuros pais e mães, um efeito que se perpetuará por muito tempo no futuro da nossa população.
-
-Um fator ainda mais crucial é que o impacto da guerra sobre a população varia enormemente dependendo do estágio demográfico em que ela ocorre. A trajetória de crescimento populacional das nações civilizadas pode ser dividida em quatro fases, de acordo com as flutuações nas taxas de natalidade e mortalidade. A primeira fase é caracterizada por uma taxa de mortalidade que, após atingir seu pico, começa a declinar, enquanto a taxa de natalidade sobe, resultando em um aumento do crescimento natural. Na segunda fase, a natalidade começa a cair, mas a mortalidade declina a um ritmo ainda mais acelerado, fazendo com que o crescimento natural continue a aumentar. Na terceira fase, a queda da mortalidade desacelera até estagnar, ao passo que o declínio da natalidade se acentua drasticamente. Com o avanço dessa fase, a taxa de natalidade acaba por cruzar a linha da mortalidade, caindo abaixo dela. Por sua vez, a taxa de mortalidade começa a subir gradualmente. A população não apenas para de crescer, como começa a diminuir. Esta é a quarta fase.
-
-Uma guerra ocorrida na primeira fase tem um impacto populacional que tende a ser reposto com relativa facilidade. Contudo, os efeitos de uma guerra que eclode a partir do final da segunda fase são muito mais difíceis de reverter. Pelo contrário, ela acelera ainda mais a queda da natalidade. A Alemanha enfrentou a Grande Guerra no final de sua segunda fase, o que provocou uma queda vertiginosa em sua natalidade. As ambiciosas políticas populacionais nazistas são um testemunho eloquente da dificuldade de se restaurar uma taxa de natalidade uma vez que ela tenha caído. A França, que participou da Grande Guerra durante sua terceira fase, já ingressou na quarta. A dificuldade que enfrentou na alocação de pessoal e o receio de perdas humanas nesta guerra atual ficaram evidentes no desenrolar dos combates, desde a campanha da Escandinávia até a entrada incruenta do exército alemão em Paris.
-
-Diz-se que Napoleão, no auge da glória francesa, ao contemplar as consideráveis perdas de suas tropas na noite da Batalha de Eylau, em fevereiro de 1807, declarou com soberba: "Uma noite em Paris compensará tudo isso". Em contraste, conta-se que, durante a Grande Guerra, um general francês, na frente de batalha do Marne, lamentou que, se dispusesse de mais alguns jovens, o exército francês teria sido capaz de, por si só, rechaçar os alemães para além do Reno. A queda da natalidade e a estagnação do crescimento populacional da França tornaram-se definitivas após a Grande Guerra. Hoje, a França sucumbiu à Alemanha. À luz da trajetória demográfica francesa após o último grande conflito, esse talvez fosse um destino inevitável.
-
-Quando as garras do imperialismo russo se estenderam sobre nosso país, o Japão lutou com determinação na Guerra Russo-Japonesa, derrotando um império branco e arrancando brados de júbilo dos povos de cor. Naquela época, nossa população encontrava-se em meados da primeira fase demográfica. Atualmente, porém, como detalharei adiante, nosso estado populacional já se aproxima do final da segunda fase. É desnecessário dizer que a escala do conflito atual e a da Guerra Russo-Japonesa são imensamente diferentes, mas não devemos nos esquecer de que também estamos em fases demográficas distintas. Este é, precisamente, um dos principais motivos pelos quais devemos ter grande apreensão quanto ao futuro do crescimento populacional de nossa nação em meio ao conflito atual.
-
-Em seguida, é necessário comparar a taxa de natalidade do Japão com a dos povos circundantes, especialmente os da Esfera de Coprosperidade da Grande Ásia Oriental. Embora a taxa de natalidade do povo chinês, que representa um quinto da população mundial, seja desconhecida, há fundamentos para estimar que ela seja de, no mínimo, 40 por mil habitantes. A taxa da União Soviética, com seus quase 200 milhões de habitantes, pode ser estimada em cerca de 40. A Índia, com 350 milhões de pessoas, registra 35; as Filipinas, 37; e as Colônias do Estreito, 38 — taxas notavelmente elevadas. Em comparação, a taxa de natalidade de nosso país é, de longe, a mais baixa. É verdade que, nesses povos, a taxa de mortalidade também é extremamente alta, de modo que o crescimento natural não é tão acentuado quanto a natalidade sugere. No entanto, esses números são suficientes para demonstrar o formidável potencial de crescimento latente dessas populações. Não é difícil supor que, uma vez estabelecida a ordem e garantida a estabilidade e a melhoria da vida econômica, eles assegurarão uma capacidade de expansão demográfica assombrosa.
-
-O Semanário da Agência de Informação, em sua edição de 12 de fevereiro de 1941, afirma:
-
-O fato de a população do Japão ter mantido um crescimento de quase um milhão de pessoas por ano até o início do Incidente da China pode, à primeira vista, parecer uma promessa de desenvolvimento infinito para o povo japonês. Contudo, trata-se de uma grande ilusão. Embora seja um fato inegável que a população japonesa vinha crescendo a esse ritmo, não se pode concluir, de forma otimista, que isso garanta um desenvolvimento e um aumento populacional perpétuos. O crescimento demográfico ocorre quando o número de nascimentos supera o de mortes. Ao calcularmos a taxa de natalidade anual, dividindo o número de nascimentos pela população total daquele ano, verificamos que, no Japão, essa taxa continuou a subir por cerca de cinquenta anos, desde o início da Era Meiji até 1920. A partir desse ponto, no entanto, ela entrou em um declínio súbito e acentuado. Em 1899, a taxa de natalidade era de 31,33 por mil habitantes; em 1900, de 31,69. Em 1920, atingiu 36,19 por mil, o que representa um aumento de 4,86 nesse período. A partir de então, a taxa de natalidade começou a diminuir anualmente, chegando a 30,61 em 1937. Isso significa que, em um curto período de apenas dezesseis anos desde 1920, a taxa de natalidade de nosso país diminuiu em 6,5 por mil habitantes, indicando que a capacidade do povo japonês de gerar filhos enfraqueceu nesse mesmo grau em um curto espaço de tempo.
-
-Como foi possível, então, que a capacidade reprodutiva do povo japonês tenha diminuído tão abruptamente após 1920, sem que seu ritmo de crescimento populacional se reduzisse na mesma proporção, continuando a aumentar em quase um milhão de pessoas por ano? A única razão para isso é que a taxa de mortalidade também diminuiu acentuadamente, acompanhando a queda da natalidade. Assim como a taxa de natalidade, a de mortalidade no Japão também subiu desde o início da Era Meiji até por volta de 1920, mas, a partir desse ponto, entrou em um rápido declínio. Em 1899, a taxa de mortalidade era de 21,05 por mil habitantes; em 1900, de 20,31. Em 1920, chegou a 25,41, um aumento de 5,1 em aproximadamente cinquenta anos. A partir daí, porém, assim como a natalidade, ela começou a cair vertiginosamente, atingindo 16,95 em 1937. Em apenas dezesseis anos, a taxa de mortalidade de nosso país diminuiu em 8,46 por mil habitantes. É um número verdadeiramente espantoso.
-
-A razão pela qual o Japão conseguiu manter um crescimento populacional de quase um milhão de pessoas por ano, apesar de a taxa de natalidade ter entrado em um declínio acentuado após a Primeira Guerra Mundial, deve-se exclusivamente a essa queda na taxa de mortalidade.
-
-O que acontece com o futuro de uma população quando as taxas de natalidade e mortalidade diminuem simultaneamente? Isso é algo que as nações europeias já vivenciaram. Qual foi o resultado dessa inversão de tendência demográfica nos países da Europa? A primeira consequência foi a preocupação de que a própria população começasse a diminuir, levando, em última instância, à autodestruição do povo.
-
-Por que uma população que experimenta uma queda simultânea nas taxas de natalidade e mortalidade está fadada à extinção? A razão é que não há limite para a queda da taxa de natalidade. Em um caso extremo, pode-se até imaginar uma situação em que ninguém mais nasça. Por outro lado, a queda da taxa de mortalidade possui um limite definido e não pode ser reduzida indefinidamente. A menos, é claro, que se descubra um elixir da imortalidade ou um método milagroso, como sonhavam os antigos, o que é outra história.
-
-Pela experiência da humanidade até hoje, é extremamente difícil reduzir a taxa de mortalidade para menos de 10 por mil habitantes. Os países com as menores taxas de mortalidade no mundo atualmente são a Austrália e a Nova Zelândia. Lá, a taxa de mortalidade está abaixo de 10 por mil há mais de vinte anos, sendo este o recorde mundial. Mesmo entre as nações civilizadas da Europa, as taxas mais baixas, como a do Reino Unido, com 11,6 (em 1938), e a da Alemanha, com 11,7 (no mesmo ano), provavelmente representam o mínimo que a humanidade pode alcançar.
-
-Portanto, se as taxas de natalidade e mortalidade no Japão continuarem a cair tão drasticamente quanto até agora, até atingirem os níveis europeus, qual será o resultado? Inevitavelmente, chegará um tempo em que também teremos de nos preocupar com a extinção de nosso povo, assim como as nações da Europa. De acordo com as previsões do Instituto de Pesquisa Populacional, se a situação permanecer inalterada, a população do Japão continuará a crescer até o ano 2000, atingindo um máximo de 123 milhões de habitantes. Esse será o pico populacional que o Japão poderá alcançar. A partir daí, a população entrará em um declínio gradual, trilhando o caminho da autodestruição. Este cálculo, de grande precisão demográfica, baseia-se na dinâmica populacional de nosso país até 1937. Para nós, que agora devotamos todos os nossos esforços à construção da Esfera de Coprosperidade da Ásia Oriental, esta é, sem dúvida, uma projeção desalentadora.
-
-O segundo problema alarmante que surge como consequência da queda simultânea das taxas de natalidade e mortalidade é a diminuição gradual da proporção de jovens e o aumento da proporção de idosos. Isso ocorre porque, com a queda da mortalidade, a proporção de pessoas que vivem mais tempo aumenta, enquanto a queda da natalidade reduz a proporção de nascimentos anuais, resultando em uma diminuição da população jovem. Nos países civilizados da Europa, essa tendência de queda simultânea persistiu por um longo período, resultando, já nos dias de hoje, em uma proporção extremamente baixa de jovens, o que os transformou em "nações sem juventude". Em nosso país, ao compararmos a população atual com a de uma década atrás, já observamos um aumento considerável na proporção de idosos. Se permitirmos que essa tendência continue, ela se agravará progressivamente, e, inevitavelmente, chegaremos à mesma situação da Europa. Esta é uma perspectiva deveras alarmante.
-
-Uma nação sem jovens não pode se desenvolver, nem, provavelmente, sonhar com um futuro brilhante. Imaginemos um país habitado apenas por idosos, desfrutando tranquilamente do resto de suas vidas. Nele, não encontraremos progresso nem desenvolvimento. O destino da França nesta guerra demonstra da forma mais clara o quão trágico é o destino de uma nação sem juventude.
-
-O mesmo semanário, em sua edição de 19 de fevereiro de 1941, prossegue:
-
-(4) Objetivos e Métodos da Política Populacional
-
-Por trás do aparente e brilhante desenvolvimento e crescimento da população japonesa, um veneno terrível já se estava gestando. Devemos, em primeiro lugar, eliminar esse veneno e evitar a repetição dos erros cometidos pelas nações europeias. Se a população do Japão se tornar cada vez mais envelhecida, seu ímpeto de crescimento enfraquecer e ela finalmente entrar em um caminho de declínio, como poderemos cumprir a importante missão de liderar a Esfera de Coprosperidade da Ásia Oriental? No futuro, o Japão necessitará cada vez mais de um grande número de jovens vigorosos, saudáveis e sábios. Para atender a essa necessidade, a política populacional do Japão deve ser estabelecida com base nos seguintes quatro objetivos:
-
-1.  Assegurar o desenvolvimento perpétuo da população, prevenindo seu envelhecimento e futuro declínio.
-2.  Tornar sua capacidade reprodutiva e suas qualidades superiores às de outras nações.
-3.  Garantir o efetivo militar necessário para um Estado de defesa avançado.
-4.  Realizar uma alocação adequada da população para assegurar a capacidade de liderança sobre os povos da Ásia Oriental.
-
-A meta imediata de alcançar 100 milhões de habitantes no território nacional até o ano de 1960, anunciada pelo governo no Esboço para o Estabelecimento de uma Política Populacional, expressa de forma concisa e concreta a população necessária para atingir esses objetivos. Se essa meta for alcançada, o crescimento populacional subsequente do Japão se tornará ainda mais expressivo, e o povo japonês finalmente estabelecerá as bases para um desenvolvimento duradouro, perpétuo e pujante.
-
-Contudo, alcançar essa meta de 100 milhões de habitantes até 1960 é, na realidade, um empreendimento de extrema dificuldade. Mas agora, devemos superar essa extraordinária dificuldade e atingir esse objetivo o mais rápido possível. Como, então, podemos alcançar essa meta desafiadora? De modo geral, existem dois métodos: aumentar a taxa de natalidade e reduzir a taxa de mortalidade. Entre esses dois, alguns dão ênfase especial à redução da taxa de mortalidade, defendendo-a com veemência. Segundo eles, "embora a taxa de mortalidade de nosso país tenha diminuído rapidamente nos últimos tempos, ela ainda é consideravelmente mais alta que a do Reino Unido, Alemanha, Austrália e Nova Zelândia. Isso prova que ainda há uma margem considerável para reduzi-la. Além disso, em vez de focar em aumentar a natalidade, cuidar bem das crianças que nascem e minimizar sua mortalidade é o método mais eficiente e racional para alcançar os objetivos de crescimento populacional".
-
-À primeira vista, essa opinião parece bastante razoável. A redução da taxa de mortalidade é, de fato, particularmente necessária em nosso país. Todavia, se essa opinião defende que a futura política populacional do Japão se concentre unicamente na redução da mortalidade, não se pode dizer que seja uma visão correta. A razão é que, se nos esforçarmos apenas para reduzir a taxa de mortalidade, não apenas será matematicamente impossível atingir a meta de 100 milhões de habitantes até 1960, mas também, em algumas décadas, a população do Japão inevitavelmente começará a diminuir.
-
-A previsão do Instituto de Pesquisa Populacional, mencionada anteriormente, foi calculada sob a suposição de que as taxas de natalidade e mortalidade do Japão continuariam a tendência de queda observada até 1937. Segundo essa projeção, mesmo que a taxa de mortalidade continue a diminuir a um ritmo consideravelmente rápido, a população começará a declinar a partir do ano 2000. Portanto, para atingir a meta estabelecida, não podemos depender exclusivamente da redução da mortalidade. É preciso concentrar os esforços principais no aumento da taxa de natalidade.
-
-(5) O Declínio da Natalidade e as Estratégias para seu Aumento
-
-Como afirmado acima, para promover o crescimento populacional, o aumento da natalidade deve ser a base. Mas como podemos alcançar esse aumento?
-
-O declínio acentuado da taxa de natalidade em nosso país, que começou logo após a Primeira Guerra Mundial, deve-se a duas causas principais: o adiamento da idade de casamento e a diminuição do número de filhos por casal. Por exemplo, entre 1925 e 1935, a taxa de natalidade caiu de 34,92 para 31,63 por mil habitantes, resultando em uma redução de aproximadamente 400 mil nascimentos. Esse número foi calculado comparando-se o número real de nascimentos em 1935 com uma projeção de quantos teriam ocorrido se a proporção de pessoas casadas e a taxa de natalidade entre os casados tivessem permanecido as mesmas de 1925. Desse total, estima-se que cerca de 230 mil nascimentos foram perdidos devido ao adiamento da idade de casamento e à consequente diminuição da proporção de pessoas casadas em idades mais jovens. Outros 170 mil foram perdidos devido à queda na taxa de natalidade entre os casais já existentes.
-
-Alguns afirmam que a queda da natalidade em nosso país é inteiramente resultado do controle de natalidade. Contudo, os fatos acima demonstram que, além do controle de natalidade, o adiamento da idade de casamento e a consequente redução da proporção de jovens casados são responsáveis pela maior parte do declínio da natalidade. Além disso, seria precipitado atribuir a diminuição da taxa de natalidade entre os casais unicamente ao controle de natalidade. Embora o controle de natalidade seja, sem dúvida, um fator, também é plausível supor que a própria fertilidade feminina tenha diminuído por diversas outras razões. Portanto, para promover o aumento da natalidade, é obviamente necessário erradicar a mentalidade favorável ao controle de natalidade, mas isso por si só não será suficiente para atingir a meta desejada. É preciso incentivar o casamento em idades mais jovens para aumentar a proporção de jovens casados. Além disso, devemos nos esforçar para aumentar a taxa de natalidade entre os casais.
-
-Alcançar esses objetivos, no entanto, é uma tarefa extremamente árdua. Como premissa fundamental, é necessário rejeitar veementemente a mentalidade de controle de natalidade e o individualismo, buscando a manutenção e o fortalecimento de um sistema familiar saudável, pois este é o motor do crescimento populacional. Para incentivar o casamento em idades mais jovens, é preciso que organizações coletivas e órgãos públicos promovam ativamente a apresentação, mediação e orientação para o matrimônio. É necessário também reduzir drasticamente os custos do casamento e criar um sistema de empréstimos para o dote. No que tange à reforma do sistema educacional, é preciso considerar sua relação com a política populacional e corrigir com urgência a situação em que os jovens são forçados a adiar o casamento por terem de frequentar a escola por um período excessivamente longo.
-
-(6) Estratégias para Combater a Redução Populacional e Fortalecer as Qualidades Nacionais
-
-Para fortalecer a população, o primeiro passo necessário é esforçar-se para aumentar a natalidade. No entanto, é evidente que, em paralelo, é preciso trabalhar para reduzir a mortalidade. O atual Esboço para o Estabelecimento de uma Política Populacional visa reduzir a mortalidade geral em aproximadamente 35% nos próximos vinte anos para atingir seus objetivos de crescimento. Essa também é, assim como o aumento da natalidade, uma tarefa de grande dificuldade.
-
-Como mencionado anteriormente, a taxa de mortalidade de nosso país ainda é consideravelmente mais alta que a de países europeus como Alemanha e Reino Unido. Uma análise mais detalhada revela que, em particular, a mortalidade infantil e a mortalidade por tuberculose, que atinge principalmente jovens na faixa dos vinte anos, são excepcionalmente elevadas.
-
-A mortalidade infantil, no entanto, vem diminuindo em nosso país a um ritmo impressionante desde o período da Primeira Guerra Mundial. Em 1918, a taxa de mortalidade infantil era de 188,6 por mil nascidos vivos; em 1919, 170,5; e em 1920, 165,7. Naquela época, quase 20% das crianças morriam antes de completar o primeiro aniversário. A partir de então, porém, essa taxa diminuiu anualmente, chegando a 116,7 em 1936 e 105,8 em 1937. Apesar disso, nossa taxa de mortalidade infantil ainda é muito superior à dos países europeus. Em 1936, a taxa no Reino Unido era de apenas 61,9; na Alemanha, 65,8; e na França, 67,0. Além disso, de acordo com a sexta tábua de vida de nosso país, de cada 100 mil nascidos vivos, apenas 81.788 meninos e 83.229 meninas sobrevivem até os cinco anos de idade. Isso revela o fato alarmante de que quase 20% das crianças morrem antes de completarem cinco anos. Para reduzir a taxa de mortalidade em nosso país, é primordial diminuir a mortalidade infantil.
-
-Quanto à mortalidade por tuberculose, alguns costumavam considerá-la uma "doença da civilização", algo inevitável que acompanha o progresso cultural. Contudo, isso é um grande equívoco. A taxa de mortalidade por tuberculose em nosso país quase não mostra tendência de queda; pelo contrário, recentemente tem apresentado uma tendência de alta. Em 1920, a taxa de mortalidade por tuberculose era de 22,4 por dez mil habitantes. Ela diminuiu temporariamente para 18,0 em 1932, mas voltou a subir, chegando a 20,7 em 1938. Embora isso pareça corroborar a ideia de que o aumento da mortalidade por tuberculose é inevitável com o avanço da civilização, a comparação com países europeus mostra, por exemplo, que a taxa na Alemanha é de 5,5, na Austrália é de 3,8, e na Nova Zelândia é de 3,6. Isso prova que, com o devido esforço, a redução da mortalidade por tuberculose não é impossível, independentemente do progresso cultural.
-
-Por essa razão, o atual Esboço para o Estabelecimento de uma Política Populacional estabelece como metas centrais para a redução da mortalidade a melhoria da taxa de mortalidade infantil e a diminuição da mortalidade por tuberculose.
-
----
-
-# Prefácio à “Exposição da Doutrina da Sekaikyuseikyou”
-
-**Categoria:** shi | **Ano:** 昭和26(1951)年6月1日 | **Fonte:** 世界Kyusei教教義解説（病貧争の巻）
-**Título Original:** 序文 （世界救世教教義解説） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951-06-01
-
-## Prefácio à “Exposição da Doutrina da Sekaikyuseikyou”
-
-Recentemente, o senhor Seikun Matsui, colaborador do Departamento de Publicações de nossa Igreja, solicitou-me a apreciação de um manuscrito que elaborou, no qual empreende uma análise crítica bastante particular sobre nossos Ensinamentos. Após concluir a leitura, verifiquei tratar-se de uma dissertação primorosa que, em toda a sua extensão, capta com notável precisão o cerne de nossa Doutrina. Por essa razão, sentindo-me plenamente satisfeito com o resultado, recomendei vivamente sua publicação.
-
-Merece especial destaque a seção final, dedicada à medicina, na qual o autor compila contundentes declarações de especialistas de diversas nações. Sinto-me compelido não apenas a expressar minha admiração pela esmerada pesquisa que tal feito exigiu, mas também a recomendar esta obra, movido pelo profundo desejo de que seu conteúdo seja amplamente divulgado.
-
-Com efeito, em uma época na qual o povo japonês ainda não se despojou por completo do antigo hábito de reverenciar indiscriminadamente o que provém do exterior, esta se apresenta como uma obra da mais elevada pertinência.
-
-15 de maio de 1951
-Jikan
-
----
-
-# Sobre a Dor de Dente e a Prática do Johrei
-
-**Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-**Título Original:** 歯痛も此通り 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
-
-## Sobre a Dor de Dente e a Prática do Johrei
-
-Embora a medicina trate a odontologia como um campo separado, tal divisão é equivocada. A razão para tanto é que a origem das doenças é una; a única diferença reside no local do corpo em que ela se manifesta. Todavia, por desconhecer esse princípio fundamental, a medicina supõe erroneamente que a causa varia conforme o sintoma, atribuindo a cada um deles uma patologia distinta. Trata-se, em verdade, de uma abordagem de extrema ingenuidade.
-
-Nesse sentido, a prova irrefutável de nossa prática reside no fato de que qualquer enfermidade, sem exceção, é curada pela simples imposição da mão. Os efeitos sobre a dor, em particular, são percebidos instantaneamente, o que a torna a melhor maneira de se constatar a eficácia do Johrei. Ademais, a dor nada mais é que uma purificação intensa e, por essa razão, é de fácil e rápida solução, o que deve ser motivo de alegria.
-
-O relato [aqui omitido] que se segue exemplifica um caso em que uma pessoa, atormentada por uma dor de dente ao longo de um dia inteiro, foi curada de forma imediata e surpreendentemente simples, um feito verdadeiramente notável.
-
-Portanto, a presença de um único membro de nossa Igreja em um lar é suficiente para eliminar por completo a apreensão com dores de dente, permitindo ainda que se preste um auxílio valioso ao próximo. Da mesma forma, se um odontólogo conhecesse o Johrei, apenas com esse recurso, sua prosperidade profissional seria inquestionável.
-
----
-
-# A Subjetividade e a Criação de um Segundo Eu
-
-**Categoria:** shi | **Ano:** 昭和25(1950)年3月18日 | **Fonte:** Kyusei
-**Título Original:** 主観と客観 | **Status:** Published | **Edição/Página:** 54号 | **Data ISO:** 1950-03-18
-
-## A Subjetividade e a Criação de um Segundo Eu
-
-Na condução de suas vidas, os seres humanos são propensos a se deixar aprisionar pela subjetividade, sendo tal inclinação, de fato, mais comum entre as mulheres. Isso constitui um grande perigo, pois, ao se aferrarem obstinadamente às suas próprias convicções como se fossem a única verdade, passam a utilizá-las como régua para julgar o próximo. Em consequência, os assuntos não fluem harmoniosamente, o que acarreta sofrimento não apenas para os outros, mas também para si mesmos.
-
-Diante dessa realidade, é fundamental que o indivíduo se distancie continuamente de si mesmo para se auto-observar. Em outras palavras, deve-se criar um segundo eu com o propósito de analisar criticamente o primeiro. Tal prática previne a ocorrência da maioria dos equívocos. A esse respeito, há uma história interessante a ser contada.
-
-Trata-se de um relato sobre um homem chamado Kuroiwa Ruikou (黒岩涙香), que, no passado, foi presidente do jornal Yorozu Chouhou e também um renomado tradutor de romances. Sendo ele, ademais, um filósofo, tive a oportunidade de ouvir com frequência suas dissertações. Certa vez, ele proferiu as seguintes palavras: “O eu com o qual nascemos não é, em essência, grande coisa. Se uma pessoa almeja verdadeiramente seu aprimoramento, ela precisa construir um novo e segundo eu. É o que se pode chamar de um segundo nascimento”. Fiquei tão profundamente impressionado com essa teoria que me esforcei para aplicá-la, e recordo-me até hoje dos inúmeros benefícios que obtive.
-
----
-
-# A Liberdade Intrínseca da Fé
-
-**Categoria:** shi | **Ano:** 昭和27(1952)年10月8日 | **Fonte:** Eikou
-**Título Original:** 自由なる信仰 | **Status:** Published | **Edição/Página:** 177号 | **Data ISO:** 1952-10-08
-
-## A Liberdade Intrínseca da Fé
-
-A liberdade de crença é um direito assegurado pela nova ordem constitucional, portanto, não me aterei a esse ponto. O que pretendo abordar é a liberdade inerente à fé em si. Como é de conhecimento geral, inúmeras são as religiões existentes no mundo, das maiores às menores, e, sem exceção, todas proclamam sua própria supremacia, considerando as demais, invariavelmente, como inferiores. Em virtude disso, desencorajam veementemente seus fiéis de qualquer contato com outros credos. Argumentam que as outras doutrinas são heréticas, que o castigo de seu Deus é temível ou que a salvação é inatingível para quem nutre um coração dividido.
-
-Em certas religiões, essa postura chega a ser notavelmente severa. Caso um fiel manifeste a intenção de se desligar, há ministros que recorrem a intimidações aterradoras para impedi-lo, predizendo grandes calamidades, enfermidades graves, a perda da própria vida ou até mesmo a aniquilação de toda a família. Este é, por excelência, o estratagema habitual dos credos malignos. Embora tais alegações desafiem o bom-senso, o fiel, por vezes, lhes dá crédito e hesita em tomar uma decisão. O mais intrigante, contudo, é que essa prática não se restringe a religiões recém-surgidas. Crenças antigas e tidas como respeitáveis também incorrem, com frequência, em atitudes semelhantes. Refletindo sobre isso, percebe-se que o pensamento livre não é um ideal restrito às esferas política e social; no campo religioso, os grilhões do feudalismo parecem, da mesma forma, persistir.
-
-Diante do exposto, desejo discorrer sobre a liberdade no âmbito da própria religião. É absolutamente inadmissível que se restrinja o livre-arbítrio dos fiéis em prol da conveniência da instituição. E quando o meio utilizado para tal fim é a coação verbal, chegamos a uma forma de coerção espiritual imperdoável. A título de exemplo, certa vez, fui procurado para um aconselhamento nestes termos:
-
-A pessoa relatou que, apesar de ter se dedicado com fervor à sua fé por um longo período, os problemas de saúde em sua família eram incessantes e a miséria, uma constante da qual não conseguia se libertar. Por essa razão, sentia sua crença esmorecer e desejava se afastar. Contudo, o ministro de sua igreja a amedrontava com advertências terríveis, e ela, confusa, encontrava-se em um impasse, sem saber como proceder. Minha orientação foi inequívoca: por se tratar, evidentemente, de um credo maligno, deveria afastar-se o mais rápido possível. Lamentavelmente, religiões com tais características parecem ser bastante numerosas em nossa sociedade.
-
-Qual seria, então, a razão para tal comportamento? Pode ser uma medida desesperada para evitar a perda de fiéis, mas certamente há outros motivos. É um fenômeno antigo: quando uma religião floresce, é comum que surjam imitações. Temos observado, esporadicamente, ocorrências semelhantes em relação ao nosso próprio Ensinamento. Nessas ocasiões, costumo dizer: a religião é como os cosméticos; quando um produto se torna um sucesso de vendas, logo surgem as falsificações. O aparecimento de imitações é, na verdade, uma prova de reconhecimento público e, sob essa ótica, chego a considerá-lo algo positivo, o que me leva a encarar a situação com bom humor.
-
-Esse fenômeno, embora sob outra forma, parece encontrar um paralelo no Cristianismo. Refiro-me à advertência sobre o surgimento de falsos cristos e falsos messias. Tal alerta, porém, possui tanto um aspecto positivo quanto um negativo. O risco reside na possibilidade de que, ao surgir o verdadeiro Messias, as pessoas o julguem erroneamente como um impostor, perdendo assim a oportunidade de serem salvas.
-
-O maior obstáculo, todavia, reside no grande número de pessoas que, convictas da supremacia de sua religião, dedicam-se a ela com fervor. Por acreditarem genuinamente nisso, alcançam uma satisfação no plano espiritual, mas não se trata da felicidade genuína. A verdadeira felicidade só é concretizada quando o aspecto material também é salvo, permitindo que o ser humano se torne um habitante do Paraíso em espírito e corpo. Aparentemente, muitos fiéis que seguem cegamente seus preceitos desconhecem esse fato e, por mais que se empenhem em sua fé, não conseguem se libertar do sofrimento. Nesse sentido, há outro ponto que merece atenção: o receio de conhecer outras religiões decorre, provavelmente, da suspeita de que possa existir um ensinamento superior. Isso, por si só, revela uma fraqueza intrínseca àquele credo e é algo sobre o qual se deve refletir profundamente.
-
-Embora possa soar como autoelogio, o que me deixa em uma posição delicada para dizê-lo, nossa Messhiya-kyō é absolutamente livre nesse aspecto. Nossos fiéis sabem bem disso. Sempre afirmo que todos devem entrar em contato com quaisquer outras religiões. Estudá-las é igualmente recomendável, pois isso amplia o conhecimento e a visão de mundo. Se, como resultado dessa busca, encontrarem um ensinamento superior ao da Messhiya-kyō, são livres para mudar de fé a qualquer momento, sem que isso lhes acarrete qualquer impedimento. Tal atitude jamais será considerada um pecado. Afinal, para o verdadeiro Deus, o que realmente importa é que a pessoa seja salva e alcance a felicidade.
-
----
-
-# A Solução para o Declínio Populacional
-
-**Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
-**Título Original:** 人口問題と本療法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
-
-## A Solução para o Declínio Populacional
-
-Se esta Terapia viesse a ser praticada em larga escala, o grave problema do declínio populacional, que tanto aflige a nação nos dias de hoje, poderia ser finalmente solucionado.
-
-Em sua essência, qual seria a causa da infertilidade? Conforme já elucidado em outra ocasião, ela advém da atrofia renal, que gera uma carência hormonal. Essa carência, por sua vez, suscita uma debilidade da função sexual, que constitui a genuína causa da diminuição da fertilidade. É preciso ressaltar que tal condição não se restringe às mulheres, acometendo os homens de igual maneira.
-
-No caso específico das mulheres, a atrofia renal acarreta a solidificação de toxinas urêmicas no peritônio. Tal processo acaba por comprimir as trompas de Falópio ou por causar o deslocamento do útero de sua posição natural, como nos casos de anteversão e retroversão, o que, consequentemente, representa um obstáculo à concepção.
-
-Por conseguinte, a frigidez e a aversão ao cônjuge, observadas em certas mulheres, são, invariavelmente, consequências da atrofia renal. O que a medicina diagnostica como subdesenvolvimento uterino tem, em verdade, a mesma origem.
-
-Portanto, uma vez restabelecida a saúde dos rins, a capacidade de conceber é recuperada. Ademais, a harmonia conjugal floresce, e problemas nefastos como os conflitos familiares e os divórcios decrescerão notavelmente.
-
-Embora possa parecer autolouvação, sinto-me compelido a afirmar o seguinte: à exceção desta Arte Médica, a chave para a solução do problema populacional jamais será encontrada.
 
 ---
 

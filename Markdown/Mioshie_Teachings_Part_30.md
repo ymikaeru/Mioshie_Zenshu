@@ -1,9 +1,226 @@
 # Mioshie_Teachings - Part 30
 
+# A Terapia Divina e sua Excelência
+
+**Categoria:** o | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 卓越せる神療法 | **Status:** Published | **Edição/Página:** 53号 | **Data ISO:** 1950-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
+
+## A Terapia Divina e sua Excelência
+
+**A diarreia cessa com a alimentação normal**
+**Salvo das trevas da infiltração pulmonar**
+
+*Yamada Shigeo (28 anos), Igreja Tyuoo Yoko – Província de Tokushima*
+
+Gostaria de relatar a sublime experiência que me levou a ingressar na fé. Abandonei a medicina, terapia na qual depositava a mais absoluta confiança, e renunciei aos medicamentos dos quais minha vida dependia, para suplicar ardentemente a Deus e, assim, alcançar a alegria que hoje desfruto.
+
+No final de dezembro de 1948, embora não me sentisse bem, fui trabalhar como de costume. Durante o expediente, comecei a sentir dificuldades para respirar e dirigi-me imediatamente ao hospital municipal. O diagnóstico foi infiltração no pulmão esquerdo, e a recomendação médica foi de que eu me submetesse a um tratamento de pneumotórax artificial pelos dois anos seguintes. Após um mês de tratamento, porém, meu rosto foi adquirindo uma palidez crescente, sem que houvesse qualquer sinal de melhora. Pelo contrário, desenvolvi uma colite como complicação, resultando em uma diarreia persistente.
+
+Seguindo à risca as orientações médicas, minha dieta se restringia a mingau de arroz, sopa de legumes e gema de ovo. Qualquer tentativa de ingerir o mínimo de nutriente, como um simples pedaço de peixe, intensificava imediatamente as crises de diarreia, e meu estado de fraqueza se agravava dia após dia. Nesse ínterim, o médico insistia em aplicações de glicose, cálcio e vitamina B2, afirmando categoricamente: “Este é o melhor tratamento que a medicina pode oferecer. Se o senhor comer qualquer coisa além do mingau, morrerá”.
+
+Apesar de meus esforços em seguir as recomendações, a diarreia não cessava. Em desespero, recorri a medicamentos da medicina oriental, como a fedegosa e o gerânio, e até mesmo a sessões de moxabustão, mas tudo resultava em desilusão. Minhas noites e dias eram tomados por uma profunda angústia.
+
+Em meio a tamanho sofrimento, recordei-me de um relato que ouvira no verão do ano anterior, de uma vizinha, a senhora Utako Sakai. Ela contava, com gratidão, como a teimosa doença de pele de seu filho fora curada por Deus. Na época, gozando de boa saúde, eu desdenhei da história, tratando-a como mera superstição. Contudo, agora, desiludido com as terapias convencionais e sentindo-me como um náufrago que se agarra a qualquer destroço, procurei a senhora Sakai no dia 23 de maio. Prontamente, debaixo de uma chuva torrencial, ela me acompanhou até o Johrei Center de Hayashizaki.
+
+Ao relatar meu quadro clínico ao reverendo Nomura, ele abriu um sorriso e disse: “Se deseja ser salvo, faça exatamente o que eu lhe disser. Suspenda as injeções e os remédios, e alimente-se como uma pessoa saudável”. Em seguida, ministrou-me Johrei com grande ternura. Embora eu duvidasse que uma doença tão grave pudesse ser curada com um método como aquele, confiei nas palavras do reverendo, que me assegurou: “Será curado mesmo que duvide”. Naquela mesma noite, abandonei por completo os medicamentos e o mingau de arroz. No dia seguinte, para meu espanto, a diarreia persistente cessou por completo, e minhas fezes se normalizaram.
+
+A gratidão e a alegria que senti naquele momento levaram toda a minha família às lágrimas. Após cerca de meio mês recebendo Johrei, o reverendo me orientou: “A purificação será mais lenta se o senhor não estiver trabalhando”. Seguindo seu conselho, retornei ao trabalho em pleno período chuvoso, época em que até as pessoas mais saudáveis sentem seu vigor diminuir. Naturalmente, senti alguns desconfortos em decorrência do período de convalescença, mas, com a prática diária do Johrei, logo deixei de sentir qualquer cansaço.
+
+Quando contei essa experiência a meus colegas de trabalho, alguns comentaram: “Isso aconteceu simplesmente porque chegou a hora de você melhorar”. Sendo um homem de fé vacilante, tais palavras abalaram meu coração.
+
+Na madrugada de 8 de agosto, fui acometido por uma crise violenta de dores de estômago, vômitos, diarreia e cólicas abdominais, que me faziam contorcer em agonia. Minha família, alarmada, insistia para que chamássemos um médico, mas eu decidi que aquela era a hora de me apegar unicamente a Deus e pedi que me ministrassem Johrei. Em meio à ministração, a dor lancinante que me tirava o fôlego começou a abrandar, e, sem que eu percebesse, adormeci profundamente. Ao despertar, era como se tivesse emergido de um pesadelo: todo o sofrimento havia desaparecido, e eu não sentia o menor sinal de fadiga.
+
+Naquele instante, mesmo eu, um materialista convicto, rendi-me à grandiosidade da virtude divina de Deus. Tomei, então, a firme decisão de ingressar na fé, com o desejo de que o maior número possível de pessoas possa compreender este sublime caminho da salvação. Atualmente, gozo de uma saúde ainda mais robusta do que antes e, com a proximidade do dia de minha outorga, passo meus dias repleto de esperança, agradecendo aos reverendos Nomura e Mitamura.
+
+***
+
+*O caso acima é elucidativo. O paciente, submetido a um tratamento de pneumotórax artificial para infiltração pulmonar, não obteve resultado algum, apresentando apenas palidez facial e complicações como colite e diarreia crônica. Foi-lhe prescrita uma dieta rigorosa, sob a advertência de que qualquer desvio o levaria à morte. Contudo, ao receber Johrei e suspender todos os medicamentos, sua diarreia de longa data cessou no dia seguinte, mesmo tendo ele se alimentado normalmente. O resultado foi, portanto, o exato oposto da previsão médica. Este é um fato que dispensa maiores explicações.*
+
+***
+
+## A Terapia Verdadeiramente Eficaz
+
+**É um mistério que não despertem**
+
+*Sato Yoshiko (32 anos), Igreja Tyuoo Shumei – Província de Osaka*
+
+Em maio de 1948, fui diagnosticada com pleurisia e passei seis meses em tratamento. Quando finalmente me recuperei e voltei ao trabalho, a doença reincidiu em abril do ano seguinte. Tentei de tudo: injeções, medicamentos, moxabustão e qualquer outro tratamento que me recomendassem, mas nada surtia efeito. Meu corpo definhava a olhos vistos, e, ao contemplar minha crescente magreza, eu me entregava à melancolia. Por vezes, tinha crises histéricas e descontava minha frustração em meus filhos.
+
+Foi então que um parente, membro de nossa Igreja, aconselhou-me com fervor: “Apegue-se a Deus! Com certeza Ele a curará”. Ele me apresentou ao reverendo Okada, que, a partir daquele dia, passou a se deslocar diariamente de Kobe até o extremo de Osaka para me ministrar Johrei. De forma extraordinária, meu apetite, há muito desaparecido, começou a retornar. A alegria que senti foi imensa. Guiada pelo reverendo, desenvolvi uma fé inabalável de que seria salva por Deus e decidi imediatamente ingressar na fé.
+
+Entretanto, como ainda estava sob cuidados médicos, não me senti à vontade para interromper o tratamento abruptamente. Eu recebia os remédios prescritos, mas não os tomava; quanto às injeções, via-me obrigada a recebê-las. Lembro-me vividamente do sétimo dia, quando o médico veio à minha casa. Eu lhe disse: “Doutor, a injeção é muito dolorosa, gostaria de parar”. Ele respondeu: “Então aplicarei na veia”, e assim o fez.
+
+Imediatamente após, comecei a sentir um tremor violento e um frio insuportável, que me paralisavam. Cobriram-me com três cobertores, e pedi a meu filho que me segurasse, mas os espasmos eram tão fortes que o repeliam. Com todas as minhas forças, apeguei-me a Deus. Incapaz de ministrar Johrei em mim mesma, recitei a Oração Zengen Sanji por duas vezes em meio à agonia. Mesmo assim, os tremores não cessavam, e meu pulso ficava cada vez mais fraco. Devido ao meu estado debilitado, pensei que meu fim havia chegado. Mas logo reagi: “Não, certamente receberei a proteção divina!”, e continuei a orar com fervor.
+
+De repente, lembrei-me do Goreishi. Pedi a meu filho que o trouxesse, e eu o ingeri. Pouco tempo depois, os tremores começaram a diminuir. Ah, que felicidade senti naquele momento! “Só mais um pouco de esforço”, pensei, concentrando toda a minha vontade. Então, como se despertasse de um sonho, os tremores cessaram por completo. No instante em que compreendi que havia sido salva, as lágrimas rolaram, e mãe e filho choramos de alegria.
+
+Naquele dia, jurei a mim mesma que jamais receberia outra injeção. Hoje, minha saúde melhorou a tal ponto que surpreende meus conhecidos, e sinto que a recuperação plena está próxima. Sou imensamente grata a Deus e a todos que me guiaram neste caminho. Rogo para que, o mais breve possível, eu possa retribuir essa imensa graça.
+
+***
+
+*O relato acima demonstra que, apesar de se submeter a inúmeras terapias, a paciente apenas definhava. Isso nos leva a concluir que, embora existam incontáveis tratamentos hoje em dia, pode-se dizer que nenhum deles é verdadeiramente eficaz. Além disso, uma única injeção desencadeou calafrios violentos e um sofrimento tão intenso que a fez confrontar a morte, uma reação adversa que ouvimos com frequência. É um mistério o motivo pelo qual as pessoas não despertam para essa realidade. A ironia do destino é que sua recuperação só teve início a partir do momento em que ela tomou a firme decisão de não mais aceitar injeções.*
+
+***
+
+## Salva de uma Doença Grave
+
+**Curada sem necessidade de cirurgia**
+
+*Mure Otosuke, Igreja Tyuoo Hoho – Província de Kagoshima*
+
+Minha esposa, Fujino, de quarenta e cinco anos, sempre teve uma constituição frágil, conhecida em nossa aldeia por uma condição crônica relacionada ao sangue. Em novembro do ano passado, ela foi diagnosticada por um médico com mioma uterino. Desde então, mergulhou em dias de pessimismo e desânimo. O pensamento de uma cirurgia era para ela mais aterrador que a própria morte, motivo pelo qual, contrariando a recomendação médica, buscou em casa todo tipo de medicamento, mas sem obter qualquer resultado, o que apenas aumentava seu tormento.
+
+Foi então que, não sei por quem, ela ouviu falar que em um vilarejo vizinho havia um reverendo que curava doenças pelo poder divino de Deus. Imediatamente, ela o procurou e iniciou o tratamento. De forma extraordinária, a grande massa endurecida que ela tinha no baixo-ventre começou a amolecer e, em menos de meio mês, dissolveu-se completamente através de um sangramento. Hoje, ela está com a saúde restaurada e já consegue trabalhar.
+
+No início, eu nutria aversão por práticas que me pareciam rituais de oração e mantinha grande ceticismo em relação a esse poder. Contudo, diante do fato consumado da cura completa de minha esposa, não pude senão me assombrar. Hoje, vivemos nossos dias com profunda gratidão pela graça divina.
+
+***
+
+*Esta paciente, diagnosticada com mioma uterino e com indicação cirúrgica, foi completamente curada em menos de meio mês por meio do Johrei, que culminou em um sangramento. Casos como este demonstram que a maioria dos miomas uterinos consiste em coágulos de sangue decorrentes da estagnação menstrual, algo comum no período da menopausa.*
+
+***
+
+## O Caminho da Dúvida se Dissipa
+
+**Salvo no limite do desespero**
+
+*Murakami Yoshimi (27 anos), Igreja Tyuoo Yoko – Província de Ehime*
+
+Todos neste mundo almejam viver em felicidade. Pela primeira vez, reconheço minha própria insensatez e envergonho-me dela. Imagino, contudo, que não sejam poucos os que ainda não se deram conta da própria tolice. Por isso, registro aqui, com fidelidade, a experiência que conduziu a mim e minha família – quatro pessoas ao todo – pelo caminho da felicidade.
+
+Na noite de 1º de maio, em um café chamado “Akebono”, na cidade de Ozu, saboreei com um amigo uma deliciosa refeição de ostras e camarão, algo que não fazia há muito tempo. Como minha saúde nunca foi robusta, senti uma certa apreensão após comer, mas deixei o estabelecimento sentindo-me bem. Contudo, após percorrer cerca de dois quilômetros no caminho de volta, senti como se um balde de água fria tivesse sido derramado sobre minha cabeça. Em um ou dois minutos, uma dor lancinante e avassaladora tomou conta de mim.
+
+A situação era insustentável. O amigo que me acompanhava, em um gesto de gentileza, massageava minhas costas, mas a dor só aumentava. Felizmente, um grupo de quatro ou cinco jovens passou pelo local e, em meio à minha agonia, levaram-me à casa do médico da aldeia. Recebi uma injeção, que me trouxe algum alívio, e, com um laxante em mãos, consegui finalmente chegar em casa. Tomei o medicamento imediatamente, mas ele não surtiu o menor efeito. Pelo contrário, a dor retornava com uma intensidade que me fazia encolher de pavor. Por catorze dias, sofri incessantemente, noite e dia.
+
+É um padecimento cuja dimensão só pode ser compreendida por quem o vivenciou. Durante esse período, o atencioso médico da aldeia visitou-me diversas vezes. A cada visita, ele me encorajava, dizendo: “É o seu fígado. A dor pode durar cem dias, mas não o matará, portanto, seja forte”. Para mim, no entanto, a morte parecia muito mais branda do que aquela tortura.
+
+Exatamente no décimo quarto dia, recebi mais duas injeções. Por algum motivo, caí em um sono profundo e tranquilo que durou quatro horas, algo que não acontecia há muito tempo. Eu não soube na hora, mas minha família, em pânico, chegou a enviar telegramas. Ao despertar, senti que o demônio da dor se aproximava novamente.
+
+Foi então que minha mãe, com uma voz cheia de vigor, dirigiu-se a mim: “Você, como pai, tem uma responsabilidade. Se partir deste mundo, a responsabilidade de um pai para com seu filho não será cumprida. Custe o que custar, você precisa se manter vivo. Por isso, rogue pela ajuda de Deus”. Ela insistiu com fervor, mas, mesmo naquela situação em que médicos e remédios já não me podiam valer, e em que seria natural me apegar a qualquer esperança, meu coração não se abriu com facilidade. Eu havia jurado a mim mesmo que não me deixaria levar por tais superstições.
+
+Continuei, então, com as injeções, até que o dinheiro se esgotou. A única coisa que aumentava era o tormento demoníaco. De olhos fechados, em meio à solidão, eu me perdia em devaneios. Em um desses momentos, surgiu em minha mente a imagem do reverendo Omatsu na casa do senhor Hashimoto, em minha aldeia, ministrando Johrei.
+
+Ainda assim, eu duvidava. Como algo daquela natureza poderia, neste mundo de avanços científicos, superar a ciência? Contudo, vencido pela insistência inabalável de minha mãe, cedi. Com relutância, pedimos ajuda na casa do senhor Matsutoku, na aldeia vizinha de Shintani. Quem veio em nosso socorro foi o reverendo Kinkichi Matsutoku, um jovem de apenas dezessete anos. Quando ele chegou, eu me contorcia em dores agudas. Sem que eu entendesse bem o que acontecia, ele começou a ministrar-me Johrei. De forma surpreendente, em menos de dez minutos, a dor começou a recuar, como se uma fina camada de papel estivesse sendo removida. Senti como se tivesse sido transportado para outro mundo. Foi a primeira vez em minha vida que me senti tão assombrado.
+
+Meu segundo espanto veio logo depois. Fui convidado para uma cerimônia religiosa na casa do reverendo Matsutoku. Na manhã do evento, a dor retornou. Ao saber que o reverendo Omatsu estaria presente, fui até lá transportado em um carrinho de mão. Assim que cheguei, o reverendo Omatsu ministrou-me Johrei diante do Altar. Em menos de cinco minutos, todo o sofrimento que me afligia desapareceu por completo.
+
+Então, o reverendo me disse: “Coma um pouco de arroz, pois faz mal ficar sem se alimentar”. Fiquei absolutamente chocado. Não era para menos. Até então, mesmo o suco de maçã me causava dor; como poderia comer arroz? O reverendo trouxe a refeição e acrescentou: “Esta é uma oferenda de Deus, pode comer sem medo”. Olhei para o prato e vi tempura, kamaboko e feijão, alimentos que me pareciam aterradores. Contudo, entendendo aquilo como uma ordem, eu comi. Fazia dezoito dias que eu não via arroz. Naquele momento, pela primeira vez em meus vinte e sete anos de vida, senti no fundo da alma a bênção de poder me alimentar. A partir de então, consegui engolir cada porção de arroz. Simultaneamente, tive a imensa honra de receber Johrei do próprio reverendo Ogawa, uma graça pela qual sinto uma gratidão que não consigo expressar em palavras.
+
+No dia 27 de maio, por volta da uma da tarde, senti necessidade de ir ao banheiro. Expeli, então, uma grande quantidade de toxinas escuras e fétidas. A partir daquele momento, senti-me ainda melhor, e hoje minha saúde é muito superior à que eu tinha antes da doença.
+
+Com tudo isso, percebi que eu estava matando não apenas meu próprio corpo, mas também meu caminho para a felicidade. Ao refletir, vejo que fui um homem verdadeiramente tolo. Hoje, após receber a Medalha da Luz Divina, minha vida familiar e social se encheu de esperança, e caminho com passos firmes e vigorosos. Como membro da Igreja Tyuoo Yoko, por mais insignificante que eu seja, dedico-me a servir a Deus sob a orientação dos reverendos, com um sentimento de profunda gratidão, a fim de contribuir para a reconstrução de um Japão melhor.
+
+***
+
+*O caso acima trata de uma intoxicação alimentar. O uso de laxantes foi inócuo, e as inúmeras injeções não surtiram efeito, levando o paciente a esgotar seus recursos financeiros. Mesmo assim, ele relutava em negar a ciência. Foi somente ao chegar a uma situação de vida ou morte que, a contragosto, aceitou receber Johrei. Uma única ministração o fez sentir-se como se estivesse em outro mundo, e a recuperação completa veio em um curto espaço de tempo. Diante disso, é de se lamentar a incapacidade da medicina moderna de curar sequer uma simples intoxicação alimentar.*
+
+---
+
+# A Verdade sobre Yakushi Nyorai
+
+**Categoria:** ya | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 薬師如来 | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1950-02-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
+
+## A Verdade sobre Yakushi Nyorai
+
+Yakushi Nyorai (薬師如来) é uma manifestação de Kannon (観世音菩薩), sendo também reverenciado como o Yakushi Nyorai do Leste (東方薬師如来).
+
+Eu, que atuo por meio do poder de Kannon, venho preconizando a tese de que os medicamentos são venenos. Contudo, Yakushi Nyorai é a deidade da Medicina, o que, à primeira vista, revela uma profunda contradição. Gostaria, portanto, de elucidar a verdade por trás dessa aparente discrepância.
+
+Tenho afirmado constantemente que o período em que vigoram os ensinamentos búdicos corresponde ao Mundo da Noite. Nesse sentido, durante essa era, o elemento espiritual da água predominava sobre o do fogo. Consequentemente, o poder para dissolver as toxinas era insuficiente, tornando mais vantajoso solidificá-las.
+
+Foi por essa razão que se recomendava o uso de medicamentos, com o propósito de solidificar as toxinas. O próprio Shakyamuni abordou esse princípio ao pregar o capítulo do Sutra de Lótus conhecido como “A Parábola das Ervas Medicinais” (薬草喩品).
+
+Todavia, Yakushi Nyorai, ciente de que os medicamentos materiais não eram benéficos, concedia a graça da cura por meio de medicamentos espirituais. Agora, porém, ao adentrarmos finalmente a era do Mundo do Dia, Ele adotou um novo método: o da dissolução e eliminação das toxinas.
+
+Este é precisamente o Poder de Kannon (観音力) que venho manifestando.
+
+---
+
+# Acerca do Veneno Contido nos Remédios
+
+**Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 薬毒に就いて 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
+
+## Acerca do Veneno Contido nos Remédios
+
+Embora a natureza do veneno contido nos remédios já tenha sido pormenorizada em seções anteriores, apresento aqui o mais claro dos exemplos. Se os medicamentos de fato possuíssem o poder de curar as doenças, a espantosa quantidade de venenos introduzida no corpo humano ao longo de gerações deveria ter resultado em uma humanidade excepcionalmente saudável, em um mundo onde não houvesse um único doente. Contudo, a realidade manifesta precisamente o oposto. Tal paradoxo deveria suscitar um profundo questionamento, mas as pessoas permanecem em uma cegueira absoluta, incapazes de percebê-lo. A causa reside na crença arraigada, transmitida desde tempos imemoriais, de que as doenças são curadas com remédios — uma convicção que se fossilizou em mera superstição.
+
+Por essa razão, como a zombar do alardeado progresso da medicina, o número de doentes não cessa de aumentar. Faltam médicos e enfermeiros, os hospitais estão superlotados, os leitos são insuficientes, e as discussões sobre seguros de saúde, sanatórios e higiene pública tornam-se cada vez mais frenéticas, como é de conhecimento geral. Observando este cenário, torna-se evidente que o avanço da medicina é puramente materialista, um progresso científico que se aprofunda em minúcias, mas que representa um avanço no ato de tratar, e não um avanço que resulta na cura efetiva. É um progresso que funciona no plano teórico, mas falha no campo prático. Nesse sentido, enquanto a vida do homem moderno estiver sob o domínio da teoria científica, caso esta se revele equivocada, ele se tornará sua vítima. A raiz do problema está na crença de que a ciência atual já progrediu o suficiente para decifrar os mistérios da vida humana. Assiste-se, pois, a uma espantosa idolatria da teoria científica.
+
+Estatísticas recentes indicam, para grande regozijo geral, que a expectativa de vida dos japoneses aumentou consideravelmente; há trinta anos, a média para ambos os sexos era de quarenta e sete anos, ao passo que hoje se estende para sessenta e dois ou sessenta e três. Este feito é atribuído ao progresso da medicina. A verdadeira razão para tal fenômeno, contudo, é a seguinte: a medicina, ao empregar o veneno dos remédios para debilitar o corpo, enfraquece a Ação Purificadora e alivia o sofrimento. Antigamente, os medicamentos eram mais fracos, e a força da purificação acabava por prevalecer, levando o paciente à morte. Os novos fármacos, todavia, lograram êxito em intensificar a toxicidade a um nível que não causa envenenamento agudo. Com isso, o período de interrupção da purificação tornou-se mais longo, e a morte foi igualmente postergada, criando a aparência de que a medicina progrediu. Trata-se, portanto, de um progresso anômalo, impulsionado pela contínua proliferação de novos medicamentos.
+
+Evidentemente, como a doença não é curada, o que se vê é apenas o aumento de pessoas que não morrem, mas tampouco recuperam a saúde — indivíduos em um estado de suspensão entre a vida e a morte. Essa tendência, aliás, é mais acentuada nos países ditos civilizados. Relatos de pessoas que retornaram recentemente da Europa confirmam que, em nações como a Inglaterra e a França, não apenas a população de idosos aumentou, como também o povo em geral demonstra aversão ao trabalho, buscando uma vida fácil e dedicando-se unicamente à busca por prazeres. Afirma-se que a situação na Grã-Bretanha, em especial, é tão grave que a escassez de alimentos supera a do Japão, um país derrotado na guerra. É inconteste que a causa fundamental reside no declínio da vitalidade física da nação. O próprio avanço do socialismo naquele país deriva desse quadro, pois é uma ideologia que rejeita a meritocracia e arrefece o desejo de trabalhar. A recente debilidade britânica foi acelerada por esse fator, e o Japão faria bem em refletir seriamente sobre essa questão.
+
+Em uma digressão histórica, ao perscrutarmos os anais, verificamos que, até cerca de mil anos após a fundação do Japão, era comum que os imperadores vivessem mais de cem anos. A razão para tal longevidade é simples: naquela era, não existiam medicamentos. As doenças começaram a surgir após a introdução da medicina chinesa. Ademais, pouco tempo depois da chegada do budismo, há mil e quatrocentos anos, uma epidemia assolou o país. O governo da época, atribuindo a calamidade à ira dos deuses japoneses pela introdução de uma religião estrangeira, proibiu o budismo. Como a medida não surtiu efeito, a proibição foi revogada.
+
+Outro exemplo notável nos é legado por uma famosa lenda. O imperador Qin Shi Huang da China, ao saber que “a leste existe a ilha de Horai (Japão), cujos habitantes são extremamente longevos, devendo possuir um remédio miraculoso”, ordenou a seu vassalo, Xu Fu, que partisse em busca desse elixir. Ao chegar, Xu Fu descobriu que o Japão de então era uma terra sem medicamentos. Incapaz de retornar de mãos vazias, ele permaneceu no país até o fim de seus dias. Dizem que seu túmulo se encontra até hoje em um determinado local na província de Wakayama, o que demonstra não se tratar de uma mera fábula.
+
+Tais exemplos históricos e lendários demonstram que, se o ser humano não recorresse a medicamentos, ultrapassar os cem anos de vida seria algo trivial. Com efeito, a morte do homem é causada por doenças, sendo, portanto, uma morte não natural. Em uma era livre de remédios, a morte voltaria a ser um processo natural, e a longevidade, por conseguinte, não teria nada de extraordinário.
+
+---
+
+# A Comprovação de um Mundo sem Doenças
+
+**Categoria:** ya | **Ano:** 昭和28(1953)年7月1日 | **Fonte:** Eikou
+**Título Original:** 病なき世界 | **Status:** Published | **Edição/Página:** 215号 | **Data ISO:** 1953-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A Comprovação de um Mundo sem Doenças
+
+A construção de um mundo isento de doenças, lema de nossa Igreja, é um propósito profundamente conhecido por todos os fiéis. O relato de graça que se segue corrobora essa verdade de maneira precisa e, por ser um testemunho tão alvissareiro, decidi publicá-lo. Com efeito, se o número de pessoas que alcançam a saúde por meios não médicos aumentar progressivamente, como demonstra este caso, a materialização de um mundo sem enfermidades não será, de modo algum, uma tarefa árdua. Sendo essa a condição fundamental para o Paraíso Terrestre, compreender-se-á que minha declaração sobre a construção de um Paraíso Terrestre livre da doença, da pobreza e do conflito, longe de ser uma mera bravata, é uma proclamação de absoluta certeza.
+
+## Família sem medicamentos é homenageada pela Cooperativa de Saúde
+
+**Província de Toyama, Igreja Dai-ai Tchu**
+**Fujii Yutaro (47 anos)**
+
+Meishu-Sama, sou imensamente grato por Vossa proteção diária. Desde que tive a permissão de ingressar na fé, no ano de 1948, recebi inúmeras graças, mas até hoje não havia reportado meus agradecimentos, pelo que peço sinceras desculpas. Ao tomar plena consciência da felicidade que é ser um fiel, rogo Vossa permissão para apresentar este relato, ainda que com minhas palavras singelas.
+
+Há bastante tempo, foi organizada em meu vilarejo uma cooperativa de saúde, à qual todas as trezentas e cinquenta famílias aderiram sem exceção. Recentemente, foi realizada uma pesquisa sobre as famílias que recorreram a tratamento médico nos últimos dois anos e aquelas que jamais o fizeram. O resultado, expresso em números, foi o seguinte:
+
+Total de famílias associadas à cooperativa de saúde: 350
+Famílias que receberam tratamento médico: 341
+Famílias que jamais receberam tratamento médico: 9
+
+Diante de tal desfecho, as nove famílias que mantiveram a saúde sem recorrer a medicamentos foram homenageadas pelo município de Tonami com a entrega de um presente comemorativo. Dentre essas, sete são de membros da Sekaikyuseikyo. Das duas restantes, uma, embora não seja filiada, recebe Johrei sempre que adoece e, por essa via, alcança a cura. Consequentemente, apurou-se que apenas um lar não possui qualquer vínculo com nossa Igreja.
+
+As autoridades da administração local, cientes dessa realidade, solicitaram que um representante fosse escolhido dentre as famílias messiânicas para receber a homenagem. Fui o escolhido para tal honra, e, ao vivenciar esse momento, minha família e eu renovamos nossa imensa gratidão pela benevolente e transbordante proteção de Meishu-Sama.
+
+Graças a esse acontecimento, os moradores do vilarejo puderam ver, pela primeira vez, a imagem dos fiéis de nossa Igreja vivendo seus dias com alegria e sem o auxílio de medicamentos. Ficaram maravilhados diante da grandiosidade de tal proteção divina. Até mesmo aqueles que se opunham à nossa fé estão revendo seus conceitos, e uma atmosfera de maior compreensão começa a se adensar.
+
+Empenhar-me-ei para que essa alegria possa ser partilhada com o maior número de lares possível. Rogo humildemente que Vossa proteção continue a nos guiar.
+
+Meishu-Sama, muito obrigado.
+
+---
+
+# A Ilusão do Progresso Farmacêutico
+
+**Categoria:** ya | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
+**Título Original:** 薬剤に科学性はない | **Status:** Published | **Edição/Página:** 227号 | **Data ISO:** 1953-09-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A Ilusão do Progresso Farmacêutico
+
+Embora tal afirmação possa, à primeira vista, causar estranheza, uma análise baseada nos fatos revelará sua veracidade. O desenvolvimento de um novo medicamento não se origina de um fundamento científico preciso, mas sim de uma mera suposição de que determinada substância talvez seja eficaz contra certa doença ou sintoma. A partir dessa conjectura, iniciam-se os testes em animais, como camundongos, cobaias e macacos. Caso se observe algum efeito promissor, passa-se à experimentação em seres humanos.
+
+Contudo, mesmo essa fase de testes em pessoas é, em geral, abreviada. Um período de avaliação prolongado demandaria muito tempo, de modo que a decisão sobre a viabilidade do fármaco é quase sempre tomada com base em resultados de poucas semanas ou, no máximo, alguns meses. Se os efeitos parecerem positivos, o medicamento é prontamente aplicado em larga escala e, assim que se julga ser suficientemente seguro, seu lançamento é anunciado. Os grandes jornais, por sua vez, noticiam a novidade com estardalhaço, levando o público, em sua notável simplicidade, a se impressionar e a acreditar em um avanço genuíno da medicina.
+
+A realidade, no entanto, é outra. Ainda que um medicamento demonstre eficácia por alguns meses, o verdadeiro problema manifesta-se posteriormente. Inevitavelmente, surge a intoxicação medicamentosa, cujos efeitos anulam por completo qualquer benefício inicial. A história nos oferece inúmeros exemplos de fármacos que se tornam inúteis após, no máximo, alguns poucos anos de uso. A maior prova disso reside no ciclo incessante de novos medicamentos que surgem e logo desaparecem do mercado.
+
+Nesse sentido, pode-se prever, sem grande margem de erro, que os atuais e aclamados medicamentos para a tuberculose terão uma vida útil de poucos anos. Fica evidente, portanto, que a crença na cura de doenças por meio de remédios não passa de uma ilusão, que serve apenas para enriquecer a indústria farmacêutica. Enquanto a humanidade não despertar para essa verdade, o propalado progresso da medicina não passará de uma falácia. Com efeito, os novos fármacos assemelham-se a modismos passageiros: são lançados com grande alarde, desfrutam de um breve período de notoriedade e, pouco tempo depois, caem no esquecimento.
+
+---
+
 # Elucidação sobre as Enfermidades
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
 **Título Original:** 岡田先生療病術講義録 下巻 （四） | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 岡田先生療病術講義録
 
 ## Elucidação sobre as Enfermidades
 
@@ -191,6 +408,7 @@ Independentemente do tipo ou da malignidade da afecção hemorroidária, nossa t
 
 **Categoria:** ya | **Ano:** 昭和26(1951)年1月24日 | **Fonte:** Eikou
 **Título Original:** 薬毒 | **Status:** Published | **Edição/Página:** 88号 | **Data ISO:** 1951-01-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Veneno Oculto nos Remédios
 
@@ -234,6 +452,7 @@ Revista Eikou nº 88, 24 de janeiro de 1951
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
 **Título Original:** 岡田先生療病術講義録 上巻 （五） | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1936-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 岡田先生療病術講義録
 
 ## O Tratamento das Enfermidades e o Exame do Paciente
 
@@ -473,6 +692,7 @@ Se tratada no início, a meningite tem cura garantida. Tenho um exemplo de um me
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
 **Título Original:** 薬毒皆無になれば百歳以上生きる 医学断片集（８） | **Status:** Published | **Edição/Página:** 155号 | **Data ISO:** 1952-05-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A longevidade centenária pela eliminação do yakudoku
 
@@ -488,6 +708,7 @@ O passamento dar-se-ia por morte natural; isto é, tal como uma árvore que, ao 
 
 **Categoria:** ya | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
 **Título Original:** 厄介な世の中 寸評（光25号） 白光生 | **Status:** Published | **Edição/Página:** 25号, 25号 | **Data ISO:** 1949-09-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Inevitabilidade da Imperfeição
 
@@ -503,6 +724,7 @@ Trata-se de uma artimanha contra a qual devemos manter-nos sumamente vigilantes.
 
 **Categoria:** ya | **Ano:** 昭和25(1950)年10月25日 | **Fonte:** Eikou
 **Título Original:** 優しさと奥床しさ | **Status:** Published | **Edição/Página:** 75号 | **Data ISO:** 1950-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Da Gentileza e do Recato
 
@@ -522,6 +744,7 @@ Analisando a questão por outro prisma, vemos que o turismo é hoje aclamado com
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 真の医学とは
 **Título Original:** 薬害の実例 | **Status:** Published | **Edição/Página:** 210号 | **Data ISO:** 1953-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 真の医学とは
 
 ## A Verdadeira Medicina
 
@@ -560,6 +783,7 @@ Muito obrigada, Meishu-Sama. Expresso minha mais profunda gratidão.
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 野蛮なる医学 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Barbárie da Medicina
 
@@ -579,6 +803,7 @@ Entretanto, é verdadeiramente insondável que a sociedade, alheia a essa patent
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 薬毒の害 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## O Engano dos Remédios e a Verdadeira Causa das Doenças
 
@@ -618,6 +843,7 @@ A seguir, passarei a dissertar sobre as principais doenças, iniciando pelas tr�
 
 **Categoria:** ya | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
 **Título Original:** 病は内から外へ ・医学談片集 | **Status:** Published | **Edição/Página:** 37号 | **Data ISO:** 1949-11-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Origem Interior das Aflições
 
@@ -637,6 +863,7 @@ Exorto-os, portanto, a refletir profundamente sobre o significado do que foi exp
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 薬毒の一実例 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Um Exemplo Concreto do Veneno dos Remédios
 
@@ -656,6 +883,7 @@ Ah, o anseio de levar esta verdade a toda a humanidade, com a máxima urgência,
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Eikou
 **Título Original:** 野蛮なる文明 | **Status:** Published | **Edição/Página:** 201号 | **Data ISO:** 1953-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Civilização Bárbara
 
@@ -689,6 +917,7 @@ O que expus até aqui, de forma espontânea e sem maiores delongas, já é sufic
 
 **Categoria:** ya | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 薬毒 自観叢書10編 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## A Revelação Divina sobre a Saúde
 
@@ -716,6 +945,7 @@ Pelo princípio exposto, quando uma pessoa adoece, se simplesmente deixar a natu
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 薬毒（ 二） 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Verdadeira Natureza das Doenças Causadas por Medicamentos
 
@@ -737,6 +967,7 @@ Vejamos agora a formação dos cálculos biliares. O processo se inicia quando a
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 薬毒（一） 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Natureza Venenosa dos Remédios
 
@@ -760,6 +991,7 @@ Adicionalmente, enfermidades que acometem ambos os sexos, como espasmos estomaca
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年4月1日 | **Fonte:** Eikou
 **Título Original:** 薬毒の恐ろしさ （２） | **Status:** Published | **Edição/Página:** 202号 | **Data ISO:** 1953-04-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Aterradora Realidade do Yakudoku
 
@@ -825,6 +1057,7 @@ Se não conhecêssemos este Caminho, a vida de meu pai já teria sido ceifada pe
 
 **Categoria:** ya | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
 **Título Original:** 薬効短見論 | **Status:** Published | **Edição/Página:** 61号 | **Data ISO:** 1950-05-06
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Eficácia Transitória dos Medicamentos
 
@@ -842,6 +1075,7 @@ A verdadeira medicina consiste em não utilizar medicamento algum, mas sim em pr
 
 **Categoria:** ya | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
 **Título Original:** 十一、薬剤中毒 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 日本医術講義録
 
 ## O Perigo da Intoxicação Medicamentosa
 
@@ -873,6 +1107,7 @@ Talvez o que exponho lhes pareça por demais insólito. Contudo, por se tratar d
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
 **Título Original:** 読売記者の健忘症 | **Status:** Published | **Edição/Página:** 37号 | **Data ISO:** 1949-11-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Sobre a Amnésia dos Profissionais da Imprensa
 
@@ -890,6 +1125,7 @@ Não quero crer que se trate de uma sórdida retaliação ao artigo que publicam
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年7月29日 | **Fonte:** Eikou
 **Título Original:** 病は簡単に治るもの | **Status:** Published | **Edição/Página:** 219号 | **Data ISO:** 1953-07-29
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Absurdo do Sofrimento pela Doença
 
@@ -948,6 +1184,7 @@ Meishu-Sama, muito obrigado.
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Eikou
 **Título Original:** 薬毒の体験 | **Status:** Published | **Edição/Página:** 197号 | **Data ISO:** 1953-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Flagelo do Veneno dos Remédios
 
@@ -996,6 +1233,7 @@ Meishu-Sama, muito obrigado por me salvar.
 
 **Categoria:** yo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 腰椎カリエス治る 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Cura da Tuberculose Lombar
 
@@ -1009,6 +1247,7 @@ O caso desta jovem senhora, aqui sucintamente apresentado, ilustra essa realidad
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年1月16日 | **Fonte:** Eikou
 **Título Original:** 薬毒の恐ろしさ （１） | **Status:** Published | **Edição/Página:** 139号 | **Data ISO:** 1952-01-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Pavoroso Mal das Toxinas Medicamentosas
 
@@ -1065,6 +1304,7 @@ Reitero a Vós, Meishu-Sama, meus mais profundos agradecimentos. Do fundo do meu
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
 **Título Original:** 読売紙の挑戦に応う | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1949-10-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Nossa Resposta aos Desafios do Jornal Yomiuri
 
@@ -1084,6 +1324,7 @@ Naturalmente, sob a ótica humana, um empreendimento de tal magnitude pode parec
 
 **Categoria:** ya | **Ano:** 昭和29(1954)年3月31日 | **Fonte:** Eikou
 **Título Original:** 薬剤は科学？ | **Status:** Published | **Edição/Página:** 254号 | **Data ISO:** 1954-03-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Ilusão da Ciência Farmacêutica
 
@@ -1113,6 +1354,7 @@ Tratando-se de algo que concerne à vida humana, de importância capital, tal si
 
 **Categoria:** ya | **Ano:** 昭和29(1954)年4月21日 | **Fonte:** Eikou
 **Título Original:** 薬剤は人類の敵 | **Status:** Published | **Edição/Página:** 257号 | **Data ISO:** 1954-04-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Os medicamentos são inimigos da humanidade
 
@@ -1154,6 +1396,7 @@ A Vós, Meishu-Sama, minha eterna gratidão.
 
 **Categoria:** yo | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Eikou
 **Título Original:** 吉田さん | **Status:** Published | **Edição/Página:** 201号 | **Data ISO:** 1953-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Glória Efêmera e a Prudência
 
@@ -1173,6 +1416,7 @@ A própria História nos ensina esta lição. Vemos que mesmo as mais notáveis 
 
 **Categoria:** ya | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
 **Título Original:** 薬毒 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第一編
 
 ## O Flagelo das Toxinas Medicamentosas
 
@@ -1210,6 +1454,7 @@ Portanto, não é exagero afirmar que a raiz da infelicidade e dos conflitos hum
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年5月 | **Fonte:** 吉屋信子女史と語る
 **Título Original:** 吉屋信子女史と語る | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1950-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Diálogo com a Escritora Nobuko Yoshiya
 
@@ -1233,6 +1478,7 @@ O que acabo de relatar são apenas minhas impressões gerais sobre a ocasião. A
 
 **Categoria:** yo | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 夜と昼 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Cultura Noturna e a Cultura Diurna
 
@@ -1274,6 +1520,7 @@ Nesse sentido, queiram ou não, a noite que precede a depuração da medicina oc
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
 **Título Original:** 読売新聞に質す 埼玉の投書事件に就て | **Status:** Published | **Edição/Página:** 29号 | **Data ISO:** 1949-10-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Uma Interpelação ao Jornal Yomiuri sobre o Incidente em Saitama
 
@@ -1297,6 +1544,7 @@ Desnecessário dizer que nosso propósito fundamental é afirmar o certo como ce
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年8月13日 | **Fonte:** -
 **Título Original:** 「読売」の反省を求む 事実無根の教団誹謗記事 | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1949-08-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Exigimos a Retratação do Jornal "Yomiuri"
 *Artigo sobre a matéria caluniosa e infundada contra a Igreja*
@@ -1340,6 +1588,7 @@ Portanto, independentemente de quem seja o adversário, é nossa política despe
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
 **Título Original:** 読売紙の記事に就て 真相を究明せよ 中傷の蔭に躍る一派 | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1949-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Esclarecendo a Verdade por Trás da Conjura Difamatória
 
@@ -1363,6 +1612,7 @@ Por fim, o ponto mais lamentável da matéria é a alegação de que a receita d
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
 **Título Original:** 予防接種と結核 自観叢書10編 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 神示の健康法
 
 ## A Vacinação e a Tuberculose
 
@@ -1394,6 +1644,7 @@ Ah, como é árdua a tarefa de promover tal esclarecimento! A razão para tal di
 
 **Categoria:** yo | **Ano:** 昭和28(1953)年8月5日 | **Fonte:** Eikou
 **Título Original:** 世のインテリ族に物申す | **Status:** Published | **Edição/Página:** 220号 | **Data ISO:** 1953-08-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma admoestação aos intelectuais do mundo
 
@@ -1419,6 +1670,7 @@ Escrevi o que me veio à mente, e peço que compreendam que o fiz por minha prof
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 薬毒の種々相 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## As Diversas Manifestações das Toxinas dos Remédios
 
@@ -1466,6 +1718,7 @@ Tanto as toxinas de injeções quanto as de desinfetantes possuem diferentes “
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
 **Título Original:** 幼児の食物に就て | **Status:** Published | **Edição/Página:** 51号 | **Data ISO:** 1950-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Sobre a Alimentação Infantil
 
@@ -1485,6 +1738,7 @@ O ponto central, no entanto, não é que o espinafre seja particularmente nocivo
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年12月31日 | **Fonte:** -
 **Título Original:** 読売紙から謝罪文 市長さらに抗議す | **Status:** Published | **Edição/Página:** 42号 | **Data ISO:** 1949-12-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Retratação do Jornal Yomiuri e o Novo Protesto do Prefeito
 
@@ -1500,6 +1754,7 @@ Ademais, soubemos que o prefeito, ao ler a referida carta, considerou-a desprovi
 
 **Categoria:** yo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 幼稚なる医学 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Medicina Infantil
 
@@ -1515,6 +1770,7 @@ Ainda que a motivação seja boa, se o resultado é nefasto, não pode haver per
 
 **Categoria:** ya | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
 **Título Original:** 山彦学校は共産思想培養の学校？ | **Status:** Published | **Edição/Página:** 134号 | **Data ISO:** 1951-12-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Escola Yamabiko e a Sombra do Comunismo
 
@@ -1734,6 +1990,7 @@ Contudo, esta grande religião, tão esperada por todos, que se preocupa com o s
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年12月31日 | **Fonte:** -
 **Título Original:** 夜の終り近づけり汝等悔改めよ | **Status:** Published | **Edição/Página:** 42号 | **Data ISO:** 1949-12-31
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Alvorada do Mundo do Dia e o Juízo Final
 
@@ -1755,6 +2012,7 @@ Na qualidade de executor desta salvação final, e por delegação divina, cumpr
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
 **Título Original:** 欲張ったヨクのない人 | **Status:** Published | **Edição/Página:** 49号 | **Data ISO:** 1950-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Ambicioso Desprovido de Ambição
 
@@ -1772,6 +2030,7 @@ Diante disso, é imperativo compreender que qualquer empreendimento estará fada
 
 **Categoria:** yo | **Ano:** 昭和10(1935)年2月4日 | **Fonte:** Hikari明世界
 **Título Original:** 余が発見せる風邪の原因と其療法 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光明世界
 
 ## A Causa do Resfriado e o Método Terapêutico por Mim Descoberto
 
@@ -1805,6 +2064,7 @@ A esse respeito, cumpre mencionar que as teorias do Dr. Shionoya, de Shibuya, qu
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月5日 | **Fonte:** Kiseki Monogatari
 **Título Original:** 黄泉比良坂の戦 自観叢書第4篇 | **Status:** Unknown | **Edição/Página:** P.27 | **Data ISO:** 1949-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 奇蹟物語
 
 ## A Batalha de Yomotsuhirasaka
 
@@ -1836,6 +2096,7 @@ Isso decerto corresponde ao episódio da batalha de Yomotsuhirasaka, no qual o e
 
 **Categoria:** yo | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 夜昼転換 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## O Evangelho do Paraíso
 
@@ -1877,6 +2138,7 @@ Se admitimos a existência da Transição da Noite para o Dia, quando, então, o
 
 **Categoria:** yo | **Ano:** 昭和27(1952)年1月16日 | **Fonte:** Eikou
 **Título Original:** 予防注射 | **Status:** Published | **Edição/Página:** 139号 | **Data ISO:** 1952-01-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões sobre a Vacinação Compulsória
 
@@ -1963,6 +2225,7 @@ Aquelas palavras trouxeram um alívio imediato à nossa tensão acumulada.
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年4月18日 | **Fonte:** -
 **Título Original:** 唯物主義者との問答 | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1949-04-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Diálogo com um Materialista
 
@@ -1992,6 +2255,7 @@ A: De fato.
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年6月3日 | **Fonte:** Kyusei
 **Título Original:** ある客との対談 | **Status:** Published | **Edição/Página:** 65号 | **Data ISO:** 1950-06-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Um Diálogo sobre Profecias e a Fé Verdadeira
 
@@ -2015,6 +2279,7 @@ Pelas razões que acabo de expor, reafirmo que em nossa Igreja não há, em abso
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
 **Título Original:** 神仙郷緑蔭縦横談 | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1949-09-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## O Futuro Luminoso de Todos os Fiéis
 
@@ -2058,6 +2323,7 @@ Religião é, em sua essência, crer em milagres. Os materialistas, por sua vez,
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
 **Título Original:** ある客との対談 | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1949-09-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Doença e a Obra de Salvação
 
@@ -2087,6 +2353,7 @@ Dizendo isso, o visitante retirou-se.
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
 **Título Original:** 書は人格を表現する ある客との御対談より | **Status:** Published | **Edição/Página:** 199号 | **Data ISO:** 1953-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Caligrafia Expressa a Personalidade
 
@@ -2116,6 +2383,7 @@ Existem diversas categorias na caligrafia: a habilidosa, a cativante, a destra e
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年5月8日 | **Fonte:** -
 **Título Original:** ある日の対談 | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1949-05-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Missão da Religião frente ao Aumento da Criminalidade
 
@@ -2143,6 +2411,7 @@ Com essas palavras, o visitante partiu.
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年6月3日 | **Fonte:** Eikou
 **Título Original:** 明主様と谷川徹三氏との御対談 (一) | **Status:** Published | **Edição/Página:** 211号 | **Data ISO:** 1953-06-03
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Missão da Arte na Construção do Paraíso
 
@@ -2214,6 +2483,7 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年7月17日 | **Fonte:** Chijo Tengoku
 **Título Original:** ＮＨＫアナウンサーとの御対談 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1949-07-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Diálogo com a Rádio NHK
 
@@ -2535,6 +2805,7 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 
 **Categoria:** taidan | **Ano:** 昭和26(1951)年4月11日 | **Fonte:** Eikou
 **Título Original:** 明主様 夢声氏対談記 （ 下 ） | **Status:** Published | **Edição/Página:** 99号 | **Data ISO:** 1951-04-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Diálogo sobre Nomes, Personalidades e a Ciência Divina
 
@@ -2594,6 +2865,7 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年10月25日 | **Fonte:** Eikou
 **Título Original:** 実談、虚談 神懸りな話 未発表、昭和27(1952)年10月25日 | **Status:** Unpublished | **Edição/Página:** 186号 | **Data ISO:** 1952-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Natureza do Oculto e a Salvação do Mundo
 
@@ -2725,6 +2997,7 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
 **Título Original:** 人類幸福の道拓けん 本紙一周年を記念して | **Status:** Published | **Edição/Página:** 53号 | **Data ISO:** 1950-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## Reflexões sobre um ano de lutas e a expansão da Obra Divina
 
@@ -2798,6 +3071,7 @@ Nossa Igreja investiu uma quantia vultosa nesta construção. Tenho a certeza de
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
 **Título Original:** 人類の救済と世界平和に貢献 世界救世教誕生の意義と使命 | **Status:** Published | **Edição/Página:** 48号 | **Data ISO:** 1950-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Significado e a Missão do Nascimento da Igreja Messiânica Mundial
 
@@ -2865,6 +3139,7 @@ Creio que nossa nova Igreja, em sintonia com o Cristianismo, deve devotar toda a
 
 **Categoria:** taidan | **Ano:** 昭和29(1954)年8月4日 | **Fonte:** Eikou
 **Título Original:** 明主様と御対談 （完） | **Status:** Published | **Edição/Página:** 268号 | **Data ISO:** 1954-08-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Terror da Bomba Atômica e a Primazia do Espírito
 
@@ -3004,6 +3279,7 @@ Creio que nossa nova Igreja, em sintonia com o Cristianismo, deve devotar toda a
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年4月30日 | **Fonte:** -
 **Título Original:** ある日の対話 | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1949-04-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Um Diálogo Oportuno
 
@@ -3025,6 +3301,7 @@ O fato de nossa Igreja se encontrar no centro de tão grandes debates é, em si,
 
 **Categoria:** taidan | **Ano:** 昭和29(1954)年11月24日 | **Fonte:** Eikou
 **Título Original:** 明主様 新聞関係人に御面会賜る ＜メシヤ会館において＞ | **Status:** Published | **Edição/Página:** 284号 | **Data ISO:** 1954-11-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Meishu-Sama Concede Audiência à Imprensa
 
@@ -3065,6 +3342,7 @@ Cumpre registrar que, entre as dez redações presentes, encontravam-se os três
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年7月9日 | **Fonte:** Eikou
 **Título Original:** 明主様とブレーデン博士 御対談 | **Status:** Published | **Edição/Página:** 164号 | **Data ISO:** 1952-07-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Diálogo entre Meishu-Sama e o Dr. Braden
 
@@ -3162,6 +3440,7 @@ Aproveitando a oportunidade, gostaria de acrescentar algo. A civilização até 
 
 **Categoria:** taidan | **Ano:** 昭和29(1954)年7月28日 | **Fonte:** Eikou
 **Título Original:** 明主様と御対談 (二) | **Status:** Published | **Edição/Página:** 267号 | **Data ISO:** 1954-07-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Missão da Luz Divina
 
@@ -3411,6 +3690,7 @@ Quando uma pessoa acumula máculas por meio de seus pecados, sua alma decai aos 
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年1月28日 | **Fonte:** -
 **Título Original:** 某医博との対談 | **Status:** Published | **Edição/Página:** 47号 | **Data ISO:** 1950-01-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Diálogo com um Doutor em Medicina
 
@@ -3434,6 +3714,7 @@ Após essas palavras, a conversa derivou para amenidades.
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年6月24日 | **Fonte:** Eikou
 **Título Original:** 明主様と谷川徹三氏との御対談 （完） | **Status:** Published | **Edição/Página:** 214号 | **Data ISO:** 1953-06-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Diálogo entre Meishu-Sama e o Sr. Tanigawa Tetsuzo
 
@@ -3568,342 +3849,6 @@ Após essas palavras, a conversa derivou para amenidades.
 — Comigo ocorre o mesmo. Mesmo tendo outros compromissos, o tempo que passo em antiquários é sagrado. Agradeço imensamente por me mostrar tantas maravilhas. Há algumas peças na atual exposição do museu que gostaria de apreciar com mais calma, portanto, farei uma nova visita em breve.
 
 — Agradecemos a todos pela sua longa visita.
-
----
-
-# Um Diálogo com Meishu-Sama
-
-**Categoria:** taidan | **Ano:** 昭和29(1954)年7月21日 | **Fonte:** Eikou
-**Título Original:** 明主様と御対談 (一) | **Status:** Published | **Edição/Página:** 266号 | **Data ISO:** 1954-07-21
-
-## Um Diálogo com Meishu-Sama
-
-Em 15 de abril passado, recebemos a visita do Sr. Dick Nakamura, correspondente em Tóquio da revista em língua inglesa *Asia Scene*, que, a pedido de seus leitores, desejava obter esclarecimentos sobre os escritos de Meishu-Sama, “A Salvação da América” e “A Bomba Atômica Não É de Se Temer”. Acompanhavam-no representantes da Rádio Tóquio: o locutor Terumasa Mayama e o produtor Akiyoshi Inoue.
-
-A audiência foi concedida no salão de recepções da Vila Hekiun-sō (碧雲荘). Aguardávamos todos quando, às duas horas da tarde, tivemos a honra de ser recebidos por Meishu-Sama, que se mostrava de excelente humor. A conversação estendeu-se por aproximadamente duas horas.
-
-A seguir, apresentamos o conteúdo desse diálogo.
-
-Ademais, cumpre registrar que parte desta entrevista foi publicada na edição de maio da *Asia Scene*, sob o título “O Deus Vivo de Atami”, e um trecho foi transmitido em 20 de abril no programa “Radio Sketch”, da Rádio Tóquio.
-
-**Sr. Nakamura:** Vim para ouvi-lo, Mestre, a respeito de seu livro “A Salvação da América”. Leitores norte-americanos nos contataram, solicitando informações sobre seu conteúdo. Os representantes da Rádio Tóquio que me acompanham trabalham em colaboração conosco.
-
-**Meishu-Sama:** Compreendo. No entanto, minhas palavras são por demais singulares e talvez não se adequem a um meio como o rádio.
-
-**Sr. Inoue:** Nosso programa, contudo, intitula-se “Radio Sketch” e tem por premissa apresentar os mais diversos assuntos sob as mais variadas perspectivas. Nesse sentido, nosso objetivo é expor uma ideia ao público, mesmo que, a princípio, ela pareça incompreensível. Portanto, nossa postura é isenta de críticas.
-
-**Meishu-Sama:** Essa é a atitude correta.
-
-**Sr. Inoue:** Sendo assim, peço-lhe licença para fazer perguntas que talvez pareçam insistentes.
-
-**Sr. Nakamura:** De minha parte, também me permitirei indagar com total franqueza.
-
-**Meishu-Sama:** É o melhor a fazer. Na verdade, sinto-me mais à vontade para conversar dessa maneira.
-
-**Sr. Nakamura:** Não vim aqui com o pressuposto de que se tratava de apenas mais uma nova religião. Se assim fosse, eu me contentaria em conversar com um de seus diretores para elaborar meu artigo. Todavia, por sentir que esta obra não se enquadrava nessa categoria, compreendi que seria imprescindível encontrar-me com a fonte original para entender a verdade.
-
-**Meishu-Sama:** Exato. Fundamentalmente, as religiões não são capazes de proporcionar a verdadeira salvação. Se pudessem, o mundo já teria sido salvo pelo Cristianismo ou pelo Budismo e se transformado em um paraíso. Contudo, a persistência da doença, da pobreza e do conflito demonstra a ineficácia de seus métodos. Não obstante, é inegável o mérito que tiveram; sem sua presença, a humanidade estaria imersa em uma barbárie ainda mais profunda. Mas sua capacidade de atuação tem um limite. É nesse ponto que atuo, com um poder que transcende a religião.
-
-### A Fonte da Vitalidade
-
-**Sr. Mayama:** Soube que o senhor viajou de carro a Quioto até um ou dois dias atrás. Não se sentiu cansado?
-
-**Meishu-Sama:** A viagem de carro foi apenas na ida, mas não me sinto particularmente fatigado.
-
-**Sr. Mayama:** De onde provém essa fonte de vitalidade, essa energia?
-
-**Meishu-Sama:** Provém da vida em conformidade com a Natureza. Meu método para a saúde é um pouco diferente do convencional.
-
-**Sr. Mayama:** Poderia nos dar um exemplo?
-
-**Meishu-Sama:** Sustento que quanto mais se exige do corpo, melhor. Por isso, eu me esforço ao máximo, dentro do possível. Assim, o corpo se fortalece naturalmente.
-
-**Sr. Mayama:** Mas o que costumamos ouvir é que o excesso de esforço abrevia a vida.
-
-**Meishu-Sama:** Essa é a tese da medicina moderna. A verdade, porém, é que quanto mais o ser humano utiliza seu corpo, melhor. Os atletas se submetem a esforços consideráveis e, ao contrário do que se pensa, o esforço torna o homem mais saudável. Eu sigo esse princípio e mantenho-me fiel a essa diretriz. Além disso, procuro dormir pouco. Chego a incentivar a redução do sono. Quanto à alimentação, adoto o princípio de comer o que desejo, na quantidade que desejo. Conceitos como vitaminas e calorias, portanto, tornam-se irrelevantes.
-
-**Sr. Mayama:** Seus seguidores também aparentam ter uma ótima compleição.
-
-**Meishu-Sama:** Sim. Este é o verdadeiro método para a saúde. É por desconhecê-lo que as pessoas cometem equívocos e se debilitam. O caso mais grave é o dos Estados Unidos; por essa razão, escrevi “A Salvação da América”, com o intuito de esclarecer os americanos.
-
-**Sr. Mayama:** Qual foi o estopim, por assim dizer, para essa descoberta?
-
-**Meishu-Sama:** A primeira revelação ocorreu quando curei a mim mesmo da tuberculose. Naquela época, eu seguia à risca as recomendações médicas, ingerindo grande quantidade de alimentos nutritivos e fortificantes. Após muita reflexão, decidi mudar de rumo. Como eu praticava pintura, consultando livros sobre a farmacopeia chinesa, observei que diversas raízes e cascas de árvores eram consideradas medicinais. Pensei que, se tais substâncias eram úteis, elas deveriam ser necessárias ao organismo. Foi então que resolvi experimentar os vegetais — eu, que até então os evitara em favor de uma dieta baseada em produtos de origem animal. O resultado foi surpreendentemente positivo, e em cerca de três meses recuperei por completo a saúde. A partir desse momento, comecei a nutrir dúvidas sobre a medicina ocidental.
-
-**Sr. Mayama:** Então essa foi a origem de seu princípio de não contrariar a Natureza?
-
-**Meishu-Sama:** Exatamente. Posteriormente, ao ingressar na Oomoto-kyo (大本教), tomei conhecimento da existência de Deus e do espírito. Compreendi que o espírito, embora invisível, é uma realidade concreta, distinta da matéria, e constitui a causa de todas as coisas.
-
-Assim, entendi que a doença também tem sua origem no espírito. Ou seja, quando o espírito se macula, o sangue se impurifica. Essa impureza sanguínea se transforma em toxinas, e a doença nada mais é que o processo de sua eliminação. Portanto, ao se purificar a mácula espiritual, que é a causa primordial, a doença consequentemente se cura. O método para eliminar essa mácula espiritual, mais do que fruto de uma pesquisa, foi-me ensinado por Deus.
-
-**Sr. Mayama:** Isso é algo que nos parece um pouco difícil de compreender.
-
-**Meishu-Sama:** Naturalmente. Por isso, o que tenho a dizer — ou melhor, a verdade que exponho — é tão singular que pode parecer desconcertante. Por exemplo, se os senhores sentem uma dor, como a de apendicite, à medida que eu procedo desta forma (eleva Suas mãos), a dor gradualmente desaparece, e a cura se estabelece. Em nosso método, um caso de apendicite costuma ser completamente curado em vinte ou trinta minutos. Como a causa é a toxina, uma vez que ela se dissolve e é eliminada através de uma diarreia, a cura se completa.
-
-**Sr. Mayama:** E não há nenhuma fundamentação científica para isso?
-
-**Meishu-Sama:** Trata-se de uma ciência de nível superior. A ciência atual é, portanto, uma ciência de baixo nível. Tomemos como exemplo os micróbios. Hoje, a ciência se limita a tentar exterminá-los. É verdade que os micróbios são um agente patogênico, mas a questão crucial é: de onde eles vêm? Atualmente, fala-se em contágio: A foi contagiado por B, que por sua vez foi contagiado por C, e assim por diante. Mas, no fim, qual é a origem primeira? Não é como se o primeiro indivíduo tivesse simplesmente surgido do nada. Contudo, sem investigar essa origem, criam um alvoroço em torno do resultado, que é o micróbio, e se empenham em matá-lo. É preciso, portanto, atuar na causa, para que o “filho” — o micróbio — sequer venha a nascer. Foi disso que me dei conta. A causa fundamental, por sua vez, é a mácula espiritual. Essa mácula, sob a influência do calor corporal e de outras condições, vai se condensando até se solidificar. É um princípio da matéria que tudo, ao se condensar, se solidifica. Atingido certo grau de solidificação, uma forma de bactéria surge por geração espontânea. Essa bactéria, de natureza vegetal e inorgânica, evolui progressivamente, passando de inorgânica a orgânica. Ela é o precursor do micróbio. Portanto, matar o micróbio é tratar o efeito; a abordagem fundamental consiste em eliminar a mácula. É por isso que conseguimos curar a tuberculose, por exemplo, pois somos capazes de tratar a origem da doença.
-
-**Sr. Mayama:** Em nossa concepção, o processo envolve cirurgia, dor, altos custos... e se a cura vier, ótimo, mas mesmo que não venha...
-
-**Meishu-Sama:** Mas a cura não vem. Porque essa abordagem não tem nada de científica. Como acabo de explicar, o método verdadeiramente científico é aquele que elimina a mácula espiritual, a causa primordial.
-
-**Sr. Mayama:** Sendo assim, é um tratamento extremamente simples.
-
-**Meishu-Sama:** Sim, e perfeitamente lógico. Por essa razão, não temo minimamente a disenteria. Pelo contrário, até anseio por contraí-la. Não há nada mais benéfico.
-
-**Sr. Mayama:** Quando o senhor eleva as mãos, há contato físico?
-
-**Meishu-Sama:** Não, a distância é irrelevante. A luz que emano é extremamente poderosa. É mais potente que a da bomba atômica.
-
-**Sr. Mayama:** Nesse caso, a radioatividade, que é um tema tão debatido atualmente, não seria prejudicial?
-
-**Meishu-Sama:** Sim, ela é prejudicial. Aqueles que têm de morrer, morrerão. Mas os que sobreviveriam, se deixados em paz, se curarão.
-
-**Sr. Mayama:** Mas isso requer a sua intervenção, não é? Outras pessoas não conseguiriam...
-
-**Meishu-Sama:** Não, elas se curam naturalmente. O corpo humano possui a capacidade de se regenerar dessa forma. Veja o exemplo das vitaminas, sobre cujo excesso ou carência tanto se fala. A medicina acredita que os nutrientes se encontram apenas nos alimentos, ignorando os órgãos responsáveis por produzi-los. Para nós, qualquer alimento serve. Pode ser apenas verdura ou mesmo só canja de arroz. Há uma história sobre Ogyu Sorai (荻生徂徠), que, enquanto se hospedava na casa de um fabricante de tofu, alimentou-se exclusivamente de *okara* por dois anos para se dedicar aos estudos. Um fato como esse seria inexplicável para os nutricionistas de hoje. A medicina desconhece a capacidade produtiva das funções internas do organismo.
-
-### Existe Remédio no Mundo?
-
-**Sr. Mayama:** Mas costuma-se dizer que os remédios podem ou não ser compatíveis com o organismo de cada um.
-
-**Meishu-Sama:** Na verdade, não existe no mundo uma única substância que se possa chamar de remédio. Aquilo que designam por esse nome é, invariavelmente, veneno. Digo isso porque defino a doença como uma ação purificadora. É o processo pelo qual o corpo elimina substâncias que não deveriam estar nele. A dor e a febre são manifestações desse processo; a febre, por exemplo, é a ação que dissolve as impurezas. É esse sofrimento que chamamos de doença. Portanto, a doença é uma forma de limpeza do corpo, algo extremamente benéfico. Por isso, afirmo que devemos ser gratos à doença.
-
-**Sr. Mayama:** Então o senhor recomenda que fiquemos doentes? De vez em quando?
-
-**Meishu-Sama:** Não de vez em quando. Quanto mais, melhor. Por isso digo às pessoas para pegarem o máximo de resfriados possível. É comum um de meus seguidores dizer: “Graças a Deus, finalmente consegui pegar um resfriado”. Se a pessoa se permite gripar, a tuberculose jamais se desenvolverá. A tuberculose surge porque as pessoas reprimem o resfriado. É lógico, não? O resfriado é uma limpeza das toxinas. Quando essa limpeza se inicia, o ideal é intensificá-la para eliminar ainda mais impurezas. O que se faz hoje é interromper essa limpeza, solidificando as toxinas. É por isso que os médicos não falam em curar, mas em solidificar.
-
-**Sr. Nakamura:** Retomando um ponto anterior, e quanto às pessoas que foram expostas à radiação da bomba atômica?
-
-**Meishu-Sama:** Elas se curam se forem simplesmente deixadas em paz, sem qualquer intervenção.
-
-**Sr. Mayama:** Curam-se?
-
-**Meishu-Sama:** Curam-se. São as diversas intervenções da medicina que as levam à morte. A medicina é, portanto, uma existência prejudicial e desprovida de benefícios.
-
-**Sr. Mayama:** Isso significa que a Sekaikyuseikyou é contra a medicina?
-
-**Meishu-Sama:** Não, defendo algo mais contundente: sua abolição absoluta. A humanidade nem imagina o quão feliz seria se a medicina deixasse de existir.
-
-**Sr. Nakamura:** Isso se aplica às doenças de órgãos internos. E no caso de enfermidades cirúrgicas?
-
-**Meishu-Sama:** A lógica é a mesma, pois a causa reside na mácula espiritual da pessoa. Mesmo um ferimento externo se cura rapidamente. Isso pode ser comprovado lendo os jornais que publicamos. Explicar tudo isso é uma tarefa árdua, não porque seja complexo, mas porque suas mentes, ao contrário do que seria ideal, estão solidificadas pela superstição científica e médica.
-
-**Sr. Mayama:** Bem... mas...
-
-**Meishu-Sama:** Se assim não fosse, o senhor aceitaria imediatamente minha tese? Certamente que não. E mesmo que a aceitasse, surgiriam dúvidas, e o senhor não deixaria de achá-la estranha e misteriosa.
-
-### Eu Formo os “Homens” que Salvam
-
-**Sr. Mayama:** Como o senhor descobriu que bastava proceder desta forma (elevando as mãos)? Foi através de uma revelação divina ou de uma inspiração?
-
-**Meishu-Sama:** Sem dúvida. A princípio, eu tinha uma ideia vaga de que Deus me concedia uma espécie de energia espiritual que eu emitia a partir daqui. Com o tempo, essa percepção se tornou mais clara, pois Deus foi me instruindo através de diversos acontecimentos. Atualmente — e digo isso ciente do risco de ser mal interpretado —, já não sei se sou um deus ou um ser humano. Milagres, eventos extraordinários, ocorrem todos os dias.
-
-**Sr. Mayama:** Então, em seu cotidiano, o senhor é uma pessoa comum e, ao se deparar com um doente, uma força mística flui em seu corpo? Ou o senhor permanece em seu estado habitual?
-
-**Meishu-Sama:** No início, era algo parecido com isso. Contudo, há alguns anos, tomei consciência da existência de uma esfera de luz em meu ventre. Há pessoas que conseguem vê-la. Quando procedo desta forma, a luz sai dessa esfera e atravessa minhas mãos. Isso ocorre quando sou eu a ministrar. Quando meus discípulos ministram, eles procedem da mesma forma, e muitas pessoas relatam ver uma luz emanando de suas palmas.
-
-**Sr. Mayama:** E como é essa luz?
-
-**Meishu-Sama:** Pode ser branca, amarela ou dourada. Geralmente, são as crianças que a veem.
-
-**Sr. Nakamura:** Por terem um coração puro, imagino.
-
-**Meishu-Sama:** Exatamente. Por serem despidas de artifícios, por não terem uma consciência latente, elas acreditam com mais facilidade. Há uma criança de doze anos que continua a vê-la.
-
-**Sr. Mayama:** Então, nós não seríamos capazes de fazer o mesmo?
-
-**Meishu-Sama:** Qualquer um pode. Se não fosse assim, não seria possível ter seguidores.
-
-**Sr. Mayama:** Quer dizer que todos eles já atingiram esse patamar?
-
-**Meishu-Sama:** Não se trata de um patamar a ser atingido; basta receber a Medalha Sagrada para que se tornem capazes. É por isso que a história parece boa demais para ser verdade.
-
-**Sr. Mayama:** De fato. Para mim, é um pouco difícil de acreditar. Considerando o que acabou de nos dizer, o senhor não pensaria em ir pessoalmente ao Hospital da Universidade de Tóquio, onde pacientes da bomba atômica estão internados a um custo altíssimo e sob a preocupação de toda a nação, para tentar curá-los?
-
-**Meishu-Sama:** Eu tenho uma missão mais importante. Seria um desperdício de meu tempo dedicar-me a salvar indivíduos pessoalmente. Minha tarefa, agora, é formar os milhares de pessoas que salvarão a humanidade.
-
-**Sr. Mayama:** Mas há pessoas em grande sofrimento. O senhor não tem o desejo de...
-
-**Meishu-Sama:** Tenho. Desejo ardentemente ajudá-las. No entanto, se as circunstâncias não o permitem, nada posso fazer. Meu trabalho é formar as “pessoas” que salvarão esses indivíduos.
-
----
-
-# Um Encontro com Meishu-Sama: Diálogos sobre a Fé, a Arte e a Salvação
-
-**Categoria:** taidan | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
-**Título Original:** 明主様をお訪ねして語る 文芸春秋誌顧問 日置昌一氏 同 編集局次長 近藤利弥氏 ××木原記者 | **Status:** Published | **Edição/Página:** 186号 | **Data ISO:** 1952-12-10
-
-## Um Encontro com Meishu-Sama: Diálogos sobre a Fé, a Arte e a Salvação
-
-Em 25 de outubro de 1952, recebemos a visita do Sr. Shoichi Hioki, conselheiro da Bungeishunju, a mais prestigiosa revista literária de nosso país, e do Sr. Toshiya Kondo, vice-diretor de redação da mesma editora. O propósito do encontro era uma entrevista com Meishu-Sama, a ser publicada nas páginas da conceituada revista.
-
-A figura do Sr. Hioki dispensa maiores apresentações; trata-se de um erudito de vasto saber, carinhosamente apelidado de “Tio Sabe-Tudo” pelas crianças que o ouvem no rádio. Sua aparência correspondia ao tipo que Meishu-Sama costuma descrever como “o doutor forjado pelas adversidades da vida”.
-
-A conversa ocorreu na sala de recepção da residência Hekiun-so e contou também com a presença do Sr. Seikun Matsui, conselheiro de nossa Igreja. O diálogo entre Meishu-Sama e o “Doutor Sabe-Tudo” prolongou-se por duas horas, em meio a risos incessantes.
-
-Trazemos a seguir, para o apreço dos leitores, um trecho da memorável conversa travada naquele dia.
-
-**Milagres como os de Cristo são realizados por meus discípulos**
-
-**Sr. Hioki:** Hoje, gostaria de lhe fazer algumas perguntas sobre diversos pontos do Messianismo que há muito me intrigam. Para começar, qual a razão que o levou a alterar o nome de Kannon-kyo (観音教) para Messianismo?
-
-**Meishu-Sama:** Meu objetivo é a salvação de toda a humanidade; portanto, sempre considerei que o nome da religião também deveria ter um alcance mundial. O nome Kannon-kyo (観音教), por sua natureza, restringe-se ao Oriente. Ademais, tenho grande apreço pelo nome “Messias”. Contudo, para evitar equívocos que a grafia fonética pudesse gerar, associei-a aos ideogramas que significam “Salvação do Mundo”. A mudança ocorreu porque senti que o tempo oportuno havia chegado.
-
-**Sr. Hioki:** Ouvi dizer que o senhor também se dedica a atividades como o aumento da produção de alimentos nas zonas rurais... O que é bastante apropriado para a Religião *Meshiya*! (risos gerais).
-
-**Meishu-Sama:** De fato. Sem utilizar absolutamente nenhum fertilizante, é perfeitamente possível obter um aumento de 50% na produção de arroz. Ademais, os grãos colhidos são maiores e mais saborosos. O princípio fundamental é extrair o potencial inerente ao solo, em vez de depender de adubos.
-
-**Sr. Kondo:** Isso se aplica mesmo em terras áridas?
-
-**Meishu-Sama:** Na verdade, é o uso de fertilizantes que torna a terra árida. A acidez do solo também é consequência deles. Os fertilizantes são como narcóticos. O uso de um entorpecente proporciona um bem-estar momentâneo, não é mesmo? O mesmo ocorre com os adubos: os resultados podem parecer bons por três ou cinco anos, mas o efeito é temporário e prejudicial.
-
-**Sr. Kondo:** Então, o senhor rejeita por completo tanto os fertilizantes quanto os narcóticos.
-
-**Meishu-Sama:** Exatamente.
-
-**Sr. Kondo:** Os seguidores do Messianismo curam suas doenças sem recorrer a nenhum tipo de medicamento?
-
-**Meishu-Sama:** Sim, pois o remédio é, em sua totalidade, veneno. Ele suprime os sintomas da doença por meio da toxina. Portanto, quanto mais medicamentos uma pessoa ingere, mais difícil se torna a sua cura. No caso da tuberculose, por exemplo, curamos noventa e três em cada cem pacientes. Os sete restantes, que não obtêm a cura, são invariavelmente aqueles que mais se intoxicaram com remédios.
-
-**Sr. Hioki:** A sociedade costuma alardear quando um ou dois casos em milhares dão errado convosco, mas os médicos ceifam um número muito maior de vidas.
-
-**Meishu-Sama:** Nesse sentido, notícias como o sucesso de uma cirurgia cardíaca ou o transplante de um globo ocular de um cadáver, para nós, assemelham-se a truques de ilusionismo. São expedientes costumeiros para fazer o povo crer na chamada ciência médica. Recentemente, o pintor Yoshii teve um problema ocular que o afligia há quatro anos curado em apenas cinco minutos. Portanto, milagres da magnitude dos de Cristo são realizados diariamente por meus discípulos.
-
-**Sr. Kondo:** Sendo assim, os farmacêuticos e os médicos devem ver o Messianismo como um rival comercial. Isso certamente lhes causará grandes dificuldades.
-
-**Meishu-Sama:** Por essa razão, tenho refletido sobre qual será o destino dos médicos. Inevitavelmente, farmácias e médicos desaparecerão do mundo inteiro, e encontrar uma solução para ampará-los será um grande desafio.
-
-**Sr. Kondo:** E sobre sua família?
-
-**Meishu-Sama:** Tenho seis filhos. Alguns já se casaram, e tenho também vários netos.
-
-**Sr. Kondo:** Eles têm alguma relação com a sua religião?
-
-**Meishu-Sama:** Alguns têm, outros não. Eu deixo essa decisão ao critério de cada um.
-
-**Sr. Kondo:** E nos lares de seus filhos, quando alguém adoece, não se recorre a um médico?
-
-**Meishu-Sama:** Jamais recorremos a um médico. Se algum deles tomasse um remédio, eu provavelmente cortaria nossos laços familiares.
-
-**Construirei o maior museu de arte da América**
-
-**Sr. Hioki:** Mudando de assunto, é bastante incomum que um líder religioso se dedique a construir um museu de arte. Qual foi a motivação por trás desse projeto?
-
-**Meishu-Sama:** Talvez não se possa chamar de motivação, mas o ser humano reencarna perpetuamente, e eu mesmo já nasci como o Príncipe Shotoku. Foi ele quem disseminou o budismo no Japão, e o fez por meio da arte. Naquela ocasião, contudo, sua obra se limitou ao Japão. Desta vez, afirmo que realizarei a mesma missão em escala mundial. O museu de Hakone é o primeiro passo.
-
-Há poucos dias, um japonês que reside há muitos anos nos Estados Unidos esteve aqui e sugeriu que eu levasse meu acervo para uma exposição itinerante em seu país. Eu lhe respondi: “Em breve, construirei um museu na própria América”. Já investiguei bastante os museus existentes por lá e, a meu ver, são instituições que ostentam apenas o nome. Pretendo edificar o maior e melhor museu dos Estados Unidos.
-
-**Sr. Hioki:** A sociedade questiona como o senhor acumulou uma fortuna tão vasta em tão pouco tempo. Qual seria, por assim dizer, o segredo para tal prosperidade?
-
-**Meishu-Sama:** A base de tudo é a cura das doenças. Pessoas que, após passarem por grandes hospitais e médicos renomados, se encontram à beira da morte, são salvas por meus discípulos. A gratidão que sentem é incomensurável. Isso as leva a sentir que devem contribuir financeiramente com todas as iniciativas da Igreja. Sempre oriento a não praticar nada que tenha caráter de exploração. Aqueles que recebem graças divinas chegam a aguardar ansiosamente uma oportunidade para ofertar seu donativo. O museu, por exemplo, custou cerca de cinquenta milhões de ienes. A ideia surgiu em novembro do ano passado e a construção foi concluída em junho deste ano, financiada integralmente por essas contribuições.
-
-**Sr. Hioki:** Parece que a Casa da Moeda foi criada especialmente para o Messianismo! (risos gerais).
-
-**Sr. Kondo:** Antes das eleições, nenhum político o procurou pedindo empréstimos? Ouve-se muito que Yoshida e Hatoyama, do Partido Liberal, estavam com grandes dificuldades financeiras para formar suas facções.
-
-**Meishu-Sama:** Não, não vieram.
-
-**Sr. Hioki:** Se eu fosse um parlamentar, talvez viesse procurá-lo!
-
-**Meishu-Sama:** De todo modo, como temos a grandiosa missão de salvar o mundo, nossas finanças estão sempre apertadas; vivemos em constante dificuldade. Ademais, daqui a dois anos, construiremos em Atami um museu ainda maior que o de Hakone, o que exige a aquisição de muitas obras. A pressão financeira é enorme. Contudo, não se trata da aflição causada por credores. Outro fator é o seguinte: recentemente, os americanos têm demonstrado um imenso desejo por antiguidades japonesas. Somos frequentemente abordados com o ultimato: “Se o senhor não adquirir esta peça, ela será vendida para a América”. Vemo-nos, assim, na obrigação de resguardar esse patrimônio. Neste mês mesmo, tivemos um caso assim com uma estátua de Buda absolutamente esplêndida.
-
-**Sr. Matsui:** O Sr. Tokujiro Kanamori (Diretor da Biblioteca Nacional da Dieta) manifestou imensa gratidão por isso.
-
-**Meishu-Sama:** A aquisição dessas obras de arte exige grandes somas de dinheiro. E, além disso, temos diversos outros empreendimentos que administramos.
-
-**Servo Abe:** O dinheiro necessário sempre acaba surgindo, misteriosamente.
-
-**Sr. Matsui:** Temos três parlamentares que são membros do Messianismo, e a nenhum deles foi dado dinheiro. Eles receberam Johrei de Meishu-Sama e sentiram: “Com isto, a eleição está garantida!” (risos gerais).
-
-**Meishu-Sama:** É por isso que todos que vêm a mim têm seu destino aprimorado.
-
-**Sr. Hioki:** Kondo, talvez devêssemos vir também, o que acha?
-
-**Meishu-Sama:** O Sr. Musei Tokugawa também parece ter prosperado ainda mais depois que começou a frequentar nossos cultos. Por esses motivos, o dinheiro aflui, mas as despesas também são vultosas.
-
-**Sr. Kondo:** A Receita Federal deve estar de olhos bem abertos, imagino.
-
-**Meishu-Sama:** Sendo uma corporação religiosa, temos vantagens nesse aspecto. No início de nossas atividades religiosas, por falta de compreensão, fomos bastante visados pela fiscalização tributária. Contudo, após a construção do museu, eles devem ter entendido nosso propósito, pois hoje não enfrentamos mais esse tipo de problema. O museu, aliás, é visto com grande simpatia pelas autoridades competentes.
-
-**Sr. Hioki:** É uma contribuição para a cultura, afinal.
-
-**Meishu-Sama:** Os museus públicos, com seus orçamentos insuficientes, não conseguem adquirir obras de arte valiosas que acabam saindo do país. Eles reconhecem que, ao comprá-las e preservá-las, prestamos um grande serviço à nação. Por isso, o Comitê para a Proteção de Bens Culturais nos oferece facilidades e apoio.
-
-**“A Salvação da América” será um tema controverso**
-
-**Sr. Hioki:** O fato de as novas religiões exercerem tanto fascínio sobre o povo em nossa era se deve, provavelmente, ao esgotamento do encanto das religiões tradicionais do Japão, somado ao sofrimento e à solidão das pessoas.
-
-**Meishu-Sama:** Sem dúvida.
-
-**Sr. Hioki:** Portanto, é um erro descartar tudo simplesmente como superstição ou heresia. Afinal, o Templo Honganji, a Tenrikyo, o Budismo de Nitiren e o próprio Cristianismo enfrentaram inúmeras perseguições em seus primórdios.
-
-**Meishu-Sama:** As perseguições são inerentes à religião. A maior de todas foi sofrida por Cristo, que chegou a ser privado da própria vida. E, no entanto, foi seu ensinamento que mais se difundiu pelo mundo. Logo, quanto mais severa a perseguição, maior o valor da doutrina.
-
-**Sr. Hioki:** A psicologia humana é fascinante. No meu caso, quando um livro que publico é alvo de críticas, suas vendas aumentam. A maledicência funciona como uma espécie de publicidade, pois deixa uma impressão marcante na mente das pessoas.
-
-**Meishu-Sama:** O caso de “O Amante de Lady Chatterley” ilustra bem esse ponto. Estou prestes a lançar um livro que, tenho certeza, gerará controvérsia. Se isso ocorrer, será ótimo, pois certamente venderá muito. A obra, intitulada “A Salvação da América”, deve ser publicada no próximo mês.
-
-**Sr. Hioki:** Entendo. Desta vez, o fluxo é inverso.
-
-**Meishu-Sama:** O número de doentes nos Estados Unidos é assombroso. As estatísticas indicam que há entre dezessete e dezoito milhões de pessoas sob cuidados médicos, o que representa mais de dez por cento da população total. Neste livro, exponho detalhadamente as causas das doenças que mais afligem a nação americana e a maneira de curá-las. Pretendo distribuí-lo ao presidente, à classe intelectual, aos grandes hospitais e aos médicos. A obra está em processo de tradução, e a versão em japonês está quase pronta.
-
-**Sr. Hioki:** O ser humano realmente precisa se encontrar pessoalmente e conversar para entender as coisas.
-
-**Meishu-Sama:** Como se diz, “Ouvir cem vezes não se compara a ver uma vez”.
-
-**Sr. Hioki:** É verdade. Fico feliz por ter vindo.
-
-**Meishu-Sama:** Eu também considero de suma importância que líderes como os senhores conheçam nosso trabalho.
-
-**Sr. Hioki:** Oh, não, por favor...
-
-**A pintura feita à base de bife**
-
-**Sr. Kondo:** Seu interesse em arte se concentra principalmente na arte antiga ou também abrange a moderna?
-
-**Meishu-Sama:** Apreciamos ambas, mas a arte moderna não é boa. Por isso, acabo me voltando para a arte antiga.
-
-**Sr. Hioki:** De fato, falta-lhe espírito. É mera técnica manual.
-
-**Meishu-Sama:** As pinturas dos artistas modernos carecem de força no pincel. Isso se deve ao estilo de vida que levam. A alimentação exerce uma influência tremenda sobre a força interior. Quem se alimenta de bife e bebe leite não consegue gerar verdadeiro vigor. Como resultado, recorrem a uma pintura de puro preenchimento. É isso que vemos hoje.
-
-**Sr. Kondo:** E quanto às pinturas antigas estrangeiras?
-
-**Meishu-Sama:** Existem boas pinturas a óleo, algumas esplêndidas na Itália. No entanto, minha tese é que a pintura ocidental não é propriamente arte, mas algo intermediário entre a arte e o artesanato. Falando sem rodeios, é mobília de luxo. A pintura japonesa e oriental, por sua vez, é feita para o verdadeiro deleite. As obras são trocadas conforme as estações, permitindo uma fruição genuína da arte. No Ocidente, a mesma tela permanece na parede o ano inteiro; dizem que há quem passe a vida inteira com uma única obra exposta.
-
-**Sr. Hioki:** A grandiosidade de um artista como Sotatsu transcende a arte; é pura força espiritual. Não se vê algo assim na pintura moderna. Ouvi dizer que o senhor possui o “Daruma” de Miyamoto Musashi e o “Martim-Pescador” de Muqi. São obras-primas.
-
-**Meishu-Sama:** Os artistas da Dinastia Song eram, em sua maioria, monges. Eles se retiravam para as montanhas, alimentavam-se de verduras e arroz com cevada e se dedicavam à ascese espiritual. Por isso, quando pintavam, o resultado era diametralmente diferente. Em suma, é preciso adotar uma dieta vegetariana e praticar a disciplina espiritual; sem isso, é impossível.
-
-**Sr. Hioki:** Não é uma pintura, mas sim um bloco de energia espiritual.
-
-**Meishu-Sama:** Exatamente. Miyamoto Musashi apenas trocou a espada pelo pincel. Diante de suas pinturas, eu me curvo em reverência.
-
-**Sr. Hioki:** Muitas obras de artistas atuais têm um preço elevado enquanto eles vivem, mas seu valor despenca após a morte.
-
-**Meishu-Sama:** Há casos em que o valor já cai em vida. De Yokoyama Taikan, por exemplo, eu adquiro obras produzidas até dois ou três anos atrás, mas as atuais não me interessam. Creio que seja efeito do alcoolismo.
-
-**O amor e seus difíceis limites**
-
-**Sr. Hioki:** Para finalizar, gostaríamos de ouvir a perspectiva do Mestre sobre o amor romântico... Se puder nos dizer algo a respeito...
-
-**Sr. Kondo:** Em Atami, deve haver uma profusão de exemplos para inspirá-lo, talvez possa partir daí.
-
-**Meishu-Sama:** Bem, hoje já sou um ancião... De todo modo, o amor romântico é algo excelente. É o que se pode chamar de uma grande misericórdia, uma graça concedida por Deus ao ser humano. Contudo, o amor é magnífico quando mantido até um certo limite; a tragédia ocorre quando essa fronteira é ultrapassada. Portanto, desde que não se cruze a linha, deve-se amar intensamente! (diz, entre risos). Todavia, talvez o amor que se consegue deter no limite não seja o verdadeiro amor. (risos gerais).
-
-**Sr. Hioki:** Isso é uma grande verdade.
-
-**Meishu-Sama:** Em minha juventude, cheguei ao que se poderia chamar de clímax do amor, a ponto de cogitar um duplo suicídio. Naquele instante, porém, um outro “eu” dentro de mim observou: “Então este é o estado de espírito de quem comete suicídio por amor”. Pensei: “Eu vivenciei esta experiência; isto basta”, e minha razão, com grande força, solucionou a questão. Naquele momento, pensei: “Sou extraordinário”. Uma pessoa comum não conseguiria fazê-lo. Somente eu seria capaz.
-
-**Sr. Hioki:** Então, em vez de um amor perdido, foi um amor conquistado de forma plena.
-
-**Meishu-Sama:** Até aquele episódio, eu acreditava que aqueles que cometiam suicídio a dois eram tolos. Mas então percebi meu equívoco. Não se pode chamá-los de tolos. Compreendi que prosseguir por aquele caminho seria perigoso. Em outras palavras, dominei a filosofia do amor.
-
-**Sr. Hioki e Sr. Kondo:** Agradecemos imensamente por seu tempo e por todas as suas palavras.
-
-(A responsabilidade pelo texto é do repórter)
 
 ---
 

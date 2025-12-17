@@ -1,6009 +1,2132 @@
 # Mioshie_Teachings - Part 97
 
-# namajima
+# PALESTRA DO FUNDADOR DA SEKAI KYUSEI KYO (O Que É a Verdadeira Civilização — Palestra proferida no Salão Público de Hibiya, Tóquio, inédita, 22 de maio de 1951)
+
+**Categoria:** kanren | **Ano:** - | **Fonte:** Chijo Tengoku
+**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** - | **Fonte (JP):** -
+
+## PALESTRA DO FUNDADOR DA SEKAI KYUSEI KYO (O Que É a Verdadeira Civilização — Palestra proferida no Salão Público de Hibiya, Tóquio, inédita, 22 de maio de 1951)
+
+### Prefácio
+
+Este volume, *Saúde Verdadeira*, é uma coletânea dos ensinamentos sobre a saúde humana de Mokichi Okada, fundador da Sekai Kyusei Kyo, a quem os membros da instituição reverenciam como Meishu-Sama, o Líder Espiritual Iluminado. Em sua forma original, na língua japonesa, foi publicado como um volume complementar a outra coletânea de ensinamentos de Meishu-Sama, intitulada *Tengoku no Ishizue* (Alicerce do Paraíso).
+
+Dentre os três pilares proeminentes do Paraíso Terrestre que Meishu-Sama sentia como sua missão estabelecer — saúde, prosperidade e harmonia —, a saúde é, inquestionavelmente, o mais fundamental. A saúde, tanto mental quanto física, sempre foi o alicerce de toda prosperidade e felicidade, e a humanidade tem empreendido grandes e reiterados esforços para alcançá-la. Por vezes, a abordagem foi espiritual e psicológica; outras, científica e material. Desses esforços surgiram movimentos para curar a enfermidade, a grande aniquiladora da saúde, por meio de uma abordagem físico-psicológica unificada, interativa e complementar. Atividades orientadas para esse fim prosseguem até hoje.
+
+A ciência médica, inegavelmente, tem desempenhado o papel preponderante na busca pela garantia da saúde física. Os rápidos avanços nas técnicas médico-terapêuticas, especialmente nos últimos anos, tornaram possível salvar vidas em grave perigo e restaurar o funcionamento normal do corpo humano. Contudo, apesar de tais progressos, não apenas a doença persiste, como demonstra o aumento das chamadas “doenças da civilização”, mas também o tratamento médico excessivo, o uso desmedido de medicamentos, a aplicação de fertilizantes químicos e pesticidas nas lavouras, o uso generalizado de aditivos alimentares, a alimentação excessiva e o amplo consumo de narcóticos têm levado a uma incidência crescente de anomalias psicológicas, recém-nascidos com deformidades e crianças obesas ou frágeis.
+
+Muitas pessoas continuam a acreditar que, embora a ciência médica apresente efeitos tanto negativos quanto positivos, ela acabará por conduzir a uma nova era completamente livre de doenças. Contudo, Meishu-Sama advertiu que, se a terapêutica médica e os hábitos alimentares permanecerem inalterados, as enfermidades, em vez de diminuírem, aumentarão, ainda que suas manifestações patológicas possam se modificar. Os métodos terapêuticos modernos confundem um efeito temporário com uma cura fundamental. Ao concentrarem a pesquisa exclusivamente nos aspectos físicos, seus defensores ignoram a verdadeira natureza da vida, que abrange tanto o aspecto espiritual quanto o físico.
+
+Meishu-Sama ensinou que, embora Deus tenha criado os seres humanos para serem saudáveis, a medicina moderna emprega métodos antinaturais que são mais prejudiciais do que benéficos. Diante desse quadro de crenças e práticas equivocadas, esta compilação dos ensinamentos de Meishu-Sama sobre o assunto foi preparada na esperança de contribuir para a conquista da verdadeira saúde por toda a humanidade.
+
+Visto que a filosofia de saúde de Meishu-Sama difere das ideias geralmente aceitas, apresentamos a seguir um esboço de seus princípios fundamentais, a fim de permitir ao leitor uma melhor compreensão.
+
+Nosso mundo possui tanto um aspecto espiritual quanto um físico, e ambos estão tão inseparavelmente ligados quanto as faces superior e inferior de um mesmo objeto. O Mundo Espiritual é, em verdade, a causa geradora, a essência fundamental do mundo material. Em outras palavras, todos os fenômenos que ocorrem no mundo físico já ocorreram no Mundo Espiritual e foram subsequentemente transferidos para o mundo da matéria. Essa verdade se expressa no princípio de que o espiritual precede o físico.
+
+Como os planos espiritual e físico são duas faces da mesma entidade, o que acontece em um afeta o outro. Ocorrências no plano espiritual têm consequências no plano físico, e fenômenos físicos influenciam o plano espiritual. Em suma, a condição prevalecente em um plano passa a assemelhar-se ou a ser idêntica à condição do outro. Os planos espiritual e físico são um só.
+
+De modo análogo, o ser humano consiste no ser físico visível e no ser espiritual invisível. Os fenômenos que ocorrem na carne humana são transferidos do espírito, e as mudanças no ser físico refletem-se no ser espiritual. Embora essencialmente transparente, o ser espiritual pode se tornar turvo por impurezas causadas por pensamentos, palavras e atos negativos, como raiva, ódio, inveja e calúnia. Impurezas que adentram o corpo físico tornam o sangue turvo e refletem-se no ser espiritual, maculando-o. Essa mácula espiritual é transferida como toxina, ou veneno, para o ser físico, onde tende a estagnar e a se solidificar à medida que sua quantidade aumenta. Quando a toxina atinge um certo nível, o corpo físico perde sua capacidade de funcionar normalmente. Então, o poder natural de autopurificação do corpo elimina o acúmulo de toxinas e restaura a saúde.
+
+Esse poder de autopurificação é a maior bênção de Deus. Condições como febre, dor, tosse, acúmulo de fleuma e diarreia representam justamente o poder de autopurificação em ação, dissolvendo e expelindo as toxinas do corpo. Embora possam causar uma instabilidade física temporária, com o passar do tempo as toxinas são expelidas, a purificação se completa e a saúde normal é restabelecida. A eliminação das toxinas remove as máculas correspondentes do plano espiritual.
+
+A ciência médica, entretanto, tende a considerar essas condições como nocivas e sempre empregou recursos como medicamentos para sanar os sintomas o mais rápido possível. Mesmo quando aparentemente bem-sucedido, tal tratamento interrompe o processo de autopurificação a meio caminho. Ao impedir a eliminação das máculas do ser espiritual e das toxinas do ser físico, esses elementos indesejáveis se acumulam. Ademais, a contaminação do sangue com medicamentos reflete-se no ser espiritual, aumentando sua turvação. Isso, por sua vez, amplifica o acúmulo de toxinas no ser físico a um nível ainda maior, podendo levar a uma situação perigosa.
+
+O poder natural de autopurificação novamente se esforça para remover a toxina acumulada, manifestando-se de formas mais violentas do que antes. A ciência médica responde prescrevendo medicamentos mais fortes, que detêm o poder de autopurificação, fazendo com que este se manifeste de maneira ainda mais intensa. À medida que o processo se repete indefinidamente, sem resolução, as máculas espirituais e as toxinas físicas se acumulam a tal ponto que as forças de autopurificação se tornam impotentes, e sintomas patológicos extremamente persistentes afligem o ser físico. É importante notar aqui que não apenas os medicamentos, mas também os fertilizantes químicos, pesticidas e aditivos alimentares se enquadram na categoria de impurezas.
+
+O caminho para eliminar as máculas espirituais e sua manifestação física na forma de toxinas é através do Johrei, a purificação por meio da luz divina, que Deus disponibilizou por intermédio de Meishu-Sama. O Johrei consiste em canalizar a luz divina da palma da mão de uma pessoa em direção ao ser espiritual de outra, estimulando assim o processo de purificação e eliminando a turvação do espírito e as toxinas que são sua manifestação no ser físico. O Johrei, por sua vez, permite que o poder natural de autopurificação funcione normalmente.
+
+Além de eliminar as máculas espirituais, é vital evitar criá-las. O ponto fundamental, como já explicado, é manter atitudes mentais corretas e falar e agir de maneira adequada. Ao mesmo tempo, é importante minimizar a quantidade de impurezas que entram no corpo, ingerindo apenas alimentos puros, cultivados por métodos agrícolas naturais, ou o que chamamos de “agricultura natural”.
+
+A explicação de Meishu-Sama sobre as causas das doenças e a forma como podem ser eliminadas não é mera teoria, mas baseia-se na revelação divina, em seus próprios e repetidos encontros triunfantes com a enfermidade — por vezes, graves o suficiente para ameaçar a própria vida — e em inúmeros outros casos nos quais ele ajudou pessoas a superarem suas doenças.
+
+Como Meishu-Sama afirma no texto deste livro: "Fui minuciosamente instruído por Deus em todas as coisas pertinentes à saúde e à doença humanas. Se não o tivesse sido, jamais teria empreendido a temível tarefa de criar um mundo livre de enfermidades. Posso falar com ousadia porque tenho certeza absoluta do que estou dizendo" (p. 11).
+
+Essa certeza absoluta permitiu a Meishu-Sama criticar os métodos terapêuticos modernos. Ele reconhecia sua eficácia e necessidade em certas circunstâncias, mas insistia que não passavam de paliativos temporários ou prolongadores da vida, incapazes de promover uma cura fundamental. A dependência de tal terapêutica não apenas falha em eliminar a doença em tratamento, como também a complica e agrava. Meishu-Sama advertiu que, se essa situação não fosse corrigida, a saúde de toda a humanidade poderia se deteriorar, e a própria espécie estaria ameaçada de extinção. Ele dedicou sua vida a tentar aumentar ao máximo o número de pessoas que conhecem o significado da verdadeira e boa saúde.
+
+Os numerosos comentários adversos de Meishu-Sama sobre a terapêutica moderna, medicamentos, fertilizantes químicos e pesticidas neste texto são mais do que meras críticas e apontamentos de falhas. São advertências e propostas fundadas em seu imenso espírito de compaixão. "A miséria absoluta da humanidade moderna me inflige um sofrimento intolerável" (p. 11). Esperamos, portanto, que o leitor examine atentamente o profundo significado dos ensinamentos de Meishu-Sama, em vez de se concentrar em seu sentido superficial ou considerá-los como dogmas rígidos.
+
+Meishu-Sama não rejeitava categoricamente toda terapia médica e medicação, mas advertia que, em muitos casos, os medicamentos podem ter efeitos adversos, especialmente quando tomados em excesso. Ele também ensinou que, se o ser espiritual for mantido puro por meio do Johrei, o ser físico permanecerá em tão boa saúde que o tratamento médico e os medicamentos se tornarão supérfluos. A esse respeito, na edição de 15 de outubro de 1950 (nº 17) da revista mensal *Chijo Tengoku* (Paraíso na Terra), Meishu-Sama declarou: "Há pessoas em nosso quadro de membros que dizem que nossa fé rejeita médicos, medicamentos, injeções etc. Devemos ser extremamente cautelosos a esse respeito. Interpretações equivocadas dos objetivos de nossa organização geram mal-entendidos e, consequentemente, são prejudiciais à nossa fé. Aproveito esta oportunidade para adverti-los contra a impressão de que rejeitamos a terapia médica."
+
+Muitos dos ensinamentos incluídos neste volume foram originalmente publicados há muito tempo. Naquela época, embora desejasse divulgar sua nova teoria sobre a saúde a fim de ajudar o maior número possível de pessoas sofredoras no mundo, e o mais rápido possível, Meishu-Sama compreendia plenamente que a publicação de suas ideias o exporia a ataques contundentes, uma vez que sua filosofia divergia amplamente das concepções comuns sobre o assunto e constituía um desafio perturbador para os estabelecimentos médico e agrícola. No entanto, ele publicou em prol do bem-estar da humanidade. Como era de se esperar, foi criticado, atacado e até proibido de publicar. Mas muitas pessoas foram grandemente ajudadas porque ele se manifestou. Em reconhecimento ao seu grande coração compassivo, nossa organização decidiu compilar seus ensinamentos e publicá-los novamente em uma nova forma.
+
+Felizmente, conseguimos sincronizar a publicação da versão original em japonês com a celebração do centenário de nascimento de Meishu-Sama, expressando assim nossa gratidão pela bênção de seus ensinamentos.
+
+É nosso profundo desejo que este livro aumente o número de pessoas que, despertas para a verdade sobre a saúde e para o verdadeiro caminho para alcançá-la, se tornem sãs de mente e corpo e dediquem seus esforços e senso de missão ao estabelecimento daquilo que toda a humanidade anseia: um mundo melhor.
+
+## FÉ E SAÚDE
+
+### 001. O Objetivo Supremo
+
+Ninguém pode negar que a felicidade é o objetivo supremo de todas as aspirações humanas, e que a saúde física é absolutamente essencial tanto para aqueles que buscam a felicidade quanto para os que, já felizes, desejam assim permanecer. Conforme disse Jesus de Nazaré: "Pois, que aproveitará ao homem se ganhar o mundo inteiro e perder a sua alma?".
+
+Logrei êxito em eliminar a enfermidade dos seres humanos e em restaurar-lhes o vigor da saúde, prolongando, assim, suas vidas. Isso significa a realização de um grande ideal ao qual a humanidade aspira há milhares de anos. O prolongamento da vida humana foi, até então, geralmente considerado um sonho insensato. Por essa mesma razão, a grande descoberta que conduz à sua concretização deve ter um valor inigualável na história da humanidade.
+
+Estou certo de que levar esta nova arte de cura a toda a humanidade não poderá deixar de provocar uma grande revolução global. Mas isso não deve causar alarme: a revolução da qual falo estará muito distante das revoluções sangrentas e violentas do passado. Será brilhante de luz e alegria, e servirá como alicerce para a paz eterna.
+
+Embora eu possa parecer excessivamente audacioso, acredito que, se lerem este livro com atenção, refletirem profundamente sobre seu conteúdo e o puserem em prática, verão que não há falsidade em minhas palavras.
+
+O que significa o desenvolvimento cultural senão a melhoria do bem-estar de cada indivíduo? A base desse bem-estar deve ser a saúde e a longevidade. Como todos sabemos, a humanidade tem envidado grandes esforços para avançar no campo da ciência médica, na crença de que este é o único caminho para alcançar tal objetivo. É certamente verdade que a ciência médica possui um fascínio inigualável por qualquer outra ciência. Mas os seres humanos tendem a se ofuscar com os grandes hospitais, com seus centros cirúrgicos, inúmeros tipos de medicamentos, microscópios, equipamentos de raios X, rádio e diversos aparelhos de radiação; com as teorias científicas minuciosamente elaboradas, as frequentes novas descobertas e a publicação de novas teorias. Diante de toda essa impressionante parafernália, os seres humanos naturalmente presumem que a medicina poderá, em última análise, eliminar a doença. No entanto, hoje esse objetivo permanece em um futuro remoto, e não temos ideia de quando será alcançado.
+
+Não desejo criticar ociosamente a ciência médica, mas sinto que é hora de advertir o mundo de que ainda estamos nos movendo em uma direção oposta àquela que deveria ser o verdadeiro objetivo. Ao elucidar o funcionamento do corpo humano por meio da dissecação e da análise, a ciência médica prestou um serviço pelo qual devemos ser gratos. Todavia, essa mesma ciência médica é, em muitos aspectos, falaciosa; na verdade, é certamente uma das maravilhas do mundo que a humanidade tenha passado tanto tempo sem reconhecer essas falácias.
+
+A arte de cura que criei representa a abertura de uma porta mística que esteve fechada por milhares de anos. Acredito que Deus me confiou a grande tarefa de ajudar a restaurar a humanidade ao seu estado essencial de boa saúde.
+
+*5 de fevereiro de 1947*
+
+### 002. Curar o Todo Curando as Partes
+
+Consideremos por um momento a situação real que prevalece no mundo. O domínio do irracional é quase universal; a verdade raramente, se é que alguma vez, é encontrada. Por essa razão, não se pode dizer quando o sofrimento da humanidade será eliminado. Em resumo, o mundo como um todo, assim como os países individualmente, está doente.
+
+Embora pareça imenso, o mundo é apenas um conjunto de indivíduos. A doença de uma pessoa é transferida para toda a nação e, em seguida, para o mundo, até que o globo inteiro se encontre em uma condição patológica. No entanto, o inverso também é verdadeiro: se o indivíduo se tornar saudável e são, assim também se tornarão a nação e, em última análise, o mundo.
+
+Uma pessoa que compreende este princípio vê que promover a saúde dos indivíduos é o único caminho para — como proclama nosso lema — criar um mundo ideal. Em outras palavras, curar a doença de indivíduo após indivíduo é a forma de alcançar este grande objetivo.
+
+*25 de junho de 1951*
+
+### 003. Meu Sofrimento Singular
+
+Eu também tenho meus sofrimentos. Como minha tarefa é abrir um novo caminho em um mundo desolador e sem luz como o atual, Satanás e Devadatta (um primo e discípulo de Buda que se voltou contra seu mestre e até conspirou para matá-lo, tornando-se um símbolo do mal) correm à solta. É como estar cercado por um muro eriçado com as lanças do ciúme, da inveja, da perseguição, da calúnia e do mal-entendido. Tentar superar essas coisas e gradualmente transformar este mundo infernal em um paraíso é mais difícil do que se pode imaginar.
+
+No entanto, como gozo da proteção do Espírito Supremo, minha sorte não é tão árdua quanto pode parecer aos de fora; na verdade, sou constantemente grato pela grande felicidade e pelo maravilhoso destino que me foram concedidos.
+
+Contudo, há uma coisa que me causa grande sofrimento. Está, como seria de esperar, relacionada à ciência médica moderna. Embora eu venha falando e escrevendo sobre as falácias da medicina moderna há muitos anos, nunca avancei e disse a verdade completa e sem rodeios. Sempre tive o cuidado de evitar comentários indevidamente provocativos, pois sentia que revelar toda a verdade poderia causar problemas desnecessários. Além disso, por mais que eu desejasse publicar a verdade, não pude fazê-lo até que o momento certo chegasse.
+
+Fui minuciosamente instruído por Deus em todas as coisas pertinentes à saúde e à doença humanas. Se não o tivesse sido, jamais teria empreendido a temível tarefa de criar um mundo livre de enfermidades. Posso falar com ousadia porque tenho certeza absoluta do que estou dizendo.
+
+Como a base para eliminar o sofrimento é erradicar a doença, a miséria absoluta da humanidade moderna me inflige um sofrimento intolerável. Estou dividido entre minha simpatia pela situação da humanidade e o sentimento de que o tempo não é propício para dizer a verdade completa. Isso me causou uma dor tão grande que tenho orado constantemente pela rápida chegada do dia da plena revelação.
+
+*3 de junho de 1950*
+
+### 004. Saúde e Paraíso Terrestre
+
+Como já sabem por minhas repetidas explicações, o mundo ideal que constantemente defendemos implica a eliminação dos três maiores sofrimentos da humanidade: doença, pobreza e conflito. A doença é, obviamente, a principal condição da qual os outros dois sofrimentos surgem.
+
+Se Deus deseja salvar a humanidade, Ele deve começar resolvendo o problema da saúde. Sem saúde, que felicidade pode haver? Qualquer religião ou ciência que careça do poder de resolver a questão da saúde tem pouco valor, pois é impossível lidar com a pobreza ou o conflito sem uma boa saúde.
+
+Esta é provavelmente a primeira vez que qualquer religião ou ciência assume a causa de criar um mundo livre de doença, pobreza e conflito. Estabelecer tal meta requer uma confiança enorme, mas o fato de termos conseguido atrair centenas de milhares de seguidores fiéis em pouco tempo, e de que o número desses seguidores aumenta gradualmente com o passar do tempo, indica que essa confiança não era infundada.
+
+É essencial que todos os males sejam eliminados. Ao longo do desenvolvimento de nossa organização, portanto, reconhecemos a necessidade de lidar com a questão da saúde e demos primazia à cura. Para levar os resultados ao maior número possível de pessoas, preenchemos as páginas de nossos periódicos com relatos de casos, o que inevitavelmente desperta dúvidas nas mentes dos leitores, especialmente de estudiosos e especialistas.
+
+Como quase todos esses relatos representam milagres de um tipo geralmente considerado impossível, especialistas e pessoas em posições de responsabilidade política naturalmente esperam investigações aprofundadas sobre eles. Tais pessoas provavelmente veem nos resultados expressos em nossos testemunhos uma ameaça de problemas sem precedentes. Elas se perguntam, talvez, se muitos de nossos testemunhos são verdadeiros. Se de fato estiverem livres de exagero e falsidade, o que podem significar?
+
+Sem precedentes como é na história do mundo, a questão é tão difícil que tais pessoas não têm ideia de como abordá-la. No entanto, fatos sempre permanecem fatos; a verdade é sempre a verdade. Não nos lançaríamos de bom grado em um redemoinho que certamente nos arrastaria para grandes problemas. Contudo, se se observa a questão objetivamente, vê-se que é o Tempo, a autoridade absoluta, que trouxe à tona este grande empreendimento, no qual não podemos deixar de reconhecer um amor tremendo.
+
+Como as pessoas comuns interpretarão os casos bem documentados de indivíduos que, desesperados após terem tentado em vão todo tipo de terapia aceita na esperança de curar suas graves doenças, vêm a conhecer o Johrei e experimentam a alegria de retornar à vida da beira da morte, incapazes de expressar sua gratidão em palavras?
+
+As pessoas que duvidam e rejeitam essas experiências nunca tiveram contato real com a questão em pauta. É apenas racional que os seres humanos usem o poder do Johrei para eliminar o sofrimento do mundo, se uma investigação aprofundada provar, sem sombra de dúvida, que nossas experiências são fatos. Qualquer pessoa que persista em se recusar a reconhecer a verdade, mesmo depois de conclusivamente provada, ou carece de amor pela humanidade, ou é forçada a adotar essa postura por circunstâncias inescapáveis, ou está psicologicamente doente.
+
+Talvez o que eu disse tenha sido demasiado franco; mas o apelo que faço é um que não podemos ignorar enquanto pretendermos avançar para a nova era.
+
+*25 de junho de 1949*
+
+### 005. Um Mundo Sem Doença, Pobreza e Conflito
+
+A maioria das pessoas considera um mundo sem doença, pobreza e conflito como um ideal inatingível, mas nosso movimento não teme afirmar que acredita firmemente em sua realização.
+
+A maneira fundamental de criar tal mundo é eliminar a doença. Pessoas que adoecem devem gastar dinheiro com tratamento e podem ser forçadas a se afastar do trabalho. Os infortúnios se acumulam à medida que a doença persiste. Por fim, todas as economias e propriedades que o indivíduo trabalhou e suou por anos para acumular se esvaem. Então, quando já pegou emprestado tudo o que pôde de amigos e parentes, ele descobre que não resta nenhum vestígio do modo de vida abundante, pacífico e feliz que ele e sua família desfrutaram até recentemente.
+
+Existem muitos casos de pessoas que, afundando nas mais baixas profundezas possíveis, sofrem tanto de doença quanto de pobreza. A família inteira de uma pessoa gravemente doente é obrigada a arcar com responsabilidades ilimitadas. A doença de uma pessoa pode causar dificuldades, em maior ou menor grau, não apenas a parentes e amigos, mas também a empregadores e colegas de trabalho. A doença de uma pessoa pode ser um golpe para as quatro ou cinco pessoas de sua família imediata e para outros fora de casa também. Quando duas ou três pessoas adoecem terminalmente, uma após a outra, na mesma casa, não é incomum que até a família mais rica se veja obrigada a viver em circunstâncias severamente reduzidas.
+
+As pessoas economizam dinheiro com um de dois objetivos: o objetivo positivo de acumular propriedades e fortuna, e o objetivo negativo de prover fundos para pagar despesas médicas em caso de doença. Como todos sabem, um número muito grande de pessoas economiza para este último propósito, o negativo.
+
+Podemos concluir que a doença é a maior causa da pobreza.
+
+Todos sabem que as causas fundamentais do conflito, seja em escala individual ou nacional, são econômicas. Como já disse, a doença é uma causa básica de problemas econômicos. Consequentemente, para livrar o mundo da pobreza e do conflito, é essencial primeiro eliminar a causa fundamental — a doença. A primeira prioridade deve ser livrar a humanidade da enfermidade.
+
+Somente um poder divino poderia alcançar tal objetivo; nem mesmo Buda ou Jesus Cristo sonharam com um empreendimento tão glorioso, e quem quer que possa ter fé em sua realização é um homem mais feliz do que qualquer outro antes dele.
+
+*15 de setembro de 1935*
+
+### 006. Saúde é Tudo
+
+Teólogos e jornalistas se enganam quando insistem que as religiões que enfatizam a cura de doenças — ou a promoção da boa saúde — são de alguma forma inferiores porque se concentram em benefícios práticos. A doença é um obstáculo tremendo para a sociedade, bem como uma causa de grande sofrimento, e um exame aprofundado da sociedade contemporânea mostra que a enfermidade é a causa fundamental de toda infelicidade e tragédia. Pode-se até dizer que há doença por trás de toda tragédia. O número de pessoas felizes aumenta em proporção direta ao aumento do número de pessoas saudáveis.
+
+Tenho falado em nível individual, mas em nível nacional também, não há nada tão negativo quanto a doença, a raiz de todos os problemas. Na consecução do objetivo supremo — um mundo livre de doença, pobreza e conflito —, resolver o problema da doença leva à solução dos problemas da pobreza e do conflito.
+
+É importante lembrar que doença não significa apenas distúrbios físicos, mas também psicológicos, uma das questões mais sérias do mundo de hoje.
+
+A guerra fornece uma boa ilustração. As pessoas que instigam guerras são o oposto exato das pessoas que tentam preveni-las. Da mesma forma, os líderes de uma agressão são muito diferentes das pessoas que precisam ser instadas a lutar. Os grandes vilões nesses casos são sempre as pessoas de poder que põem a guerra em movimento, e a exposição de seus verdadeiros motivos sempre mostra que são gananciosas e insatisfeitas com o grau de sucesso que as pessoas comuns consideram suficiente. Seus talentos extraordinários e autoconfiança as tornam impacientes e as impelem a ambições ultrajantes. Como as vidas dos heróis históricos deixam claro, tais pessoas invariavelmente acabam em fracasso, embora as coisas possam ir a seu favor por um tempo.
+
+Ademais, para alcançar seus próprios fins ambiciosos, elas sacrificam impiedosamente a vida de muitas pessoas comuns. Mesmo sendo chamadas de heróis, tais pessoas são, na verdade, capazes de permanecer imperturbáveis diante da terrível infelicidade e perda de vidas que causam, a razão sendo que elas mesmas são psicologicamente deficientes. Elas sofrem de um tipo de loucura; obviamente, há algo mentalmente errado com uma pessoa que é capaz de persistir em ações egoístas, sem amor e impiedosas que servem a seus próprios propósitos, independentemente do custo para os outros.
+
+Curiosamente, a experiência me ensinou que uma pessoa com uma falha psicológica sempre tem algum tipo de falha física também. A razão pela qual alguns "heróis" e criminosos parecem gozar de extrema boa saúde é que, embora abriguem grandes quantidades de toxinas, estas estão em estado solidificado.
+
+Com base nesta discussão, poderia parecer que qualquer religião, ciência, filosofia ou sistema educacional que eliminasse a doença humana seria aceitável. Na verdade, porém, não há como curar a enfermidade completamente, a não ser através da Luz Divina.
+
+*12 de novembro de 1952*
+
+### 007. Paraíso através da Saúde
+
+Jesus Cristo proclamou: "O reino dos céus está próximo". Indubitavelmente, o objetivo de todas as religiões é criar um mundo melhor, aliviar a humanidade do sofrimento e trazer um mundo de alegria. No entanto, longe de realizar este objetivo comum, ainda nem sequer saímos do inferno na terra.
+
+Por que é que, apesar dos esforços incessantes da religião, filosofia, ciência, moralidade e educação em todas as partes do mundo desde os tempos antigos, fizemos tão pouco progresso? Ainda não vimos os primeiros vislumbres de uma solução para o problema da saúde, que está no cerne de toda tragédia. A menos que o problema da saúde seja resolvido, será inútil tentar consertar as outras coisas.
+
+A cura espiritual divina que aperfeiçoei é capaz de eliminar todas as doenças humanas e de estabelecer a saúde perfeita. No entanto, a descoberta desta cura espiritual divina convida prontamente ao mal-entendido. A relação entre ela e a maioria do mundo é como a de pessoas no chão e um homem em um telhado. As pessoas no chão não conseguem ver o topo da cabeça do homem localizado no telhado.
+
+Tenham certeza de que, se procurarem a causa de qualquer tragédia, encontrarão a doença em seu cerne. Tomemos, por exemplo, o caso de um jovem que, prestes a se formar em uma instituição de ensino superior, é afligido pela tuberculose.* A esperança se desvanece tanto para o estudante quanto para os pais que nele centraram todas as suas aspirações. O futuro deles é sombrio. Da mesma forma, uma pessoa de meia-idade atacada por alguma doença terrível deve parar de trabalhar, frustrada, justamente no momento em que estabeleceu as bases para uma vigorosa atividade futura.
+
+Como eu disse, a maioria das tragédias da sociedade humana pode ser rastreada até a doença. É justamente neste momento mais miserável que subitamente apareceu a cura espiritual divina. Qualquer pessoa que tenha se juntado à nossa organização e a tenha experimentado de fato se convencerá de quão revolucionária é essa ciência médica.
+
+*20 de abril de 1950*
+
+*Na época em que este artigo foi escrito, a tuberculose ainda era uma doença temida e, em geral, incurável no Japão.*
+
+### 008. O Caminho para a Felicidade
+
+Todos os seres humanos desejam a felicidade, e é óbvio que a ausência de doenças é essencial para a felicidade de indivíduos e famílias. Mas a ideia de completa boa saúde foi considerada impossível até agora, e muitas pessoas, embora saudáveis, vivem com o medo de adoecer mais cedo ou mais tarde. Ademais, essa ansiedade é agravada pela incerteza de se tal doença poderia ser curada. Por essas razões, mesmo pessoas bem-sucedidas em circunstâncias confortáveis não podem desfrutar da verdadeira felicidade por causa da insegurança que sentem em relação à sua saúde.
+
+Como expliquei frequentemente antes, a doença é a fonte fundamental de toda infelicidade. As pessoas economizam dinheiro e compram seguros de saúde e de vida para se precaverem quando adoecem. Motivação semelhante está por trás de muitas instituições sociais, como orfanatos, lares para idosos e fundos de auxílio. Consequentemente, até que o problema da doença humana seja resolvido, mesmo as medidas governamentais mais ideais não podem trazer a verdadeira felicidade às pessoas.
+
+Em resumo, a saúde é a base da felicidade — na verdade, é toda a felicidade —, mas nenhuma arte ou método médico foi capaz de resolver o problema da enfermidade até agora.
+
+Não estou me gabando; mas, como já afirmei, o Johrei e o regime de saúde que fundei podem libertar a humanidade da insegurança causada pela doença. Posso dizer com certeza que qualquer pessoa que venha a conhecer o Johrei experimentará a verdadeira felicidade. O caminho já está aberto para a felicidade que os seres humanos anseiam há milhares de anos.
+
+*28 de setembro de 1942*
+
+### 009. Com Fé e Sem Fé
+
+Em primeiro lugar, devo deixar claro que pela palavra "fé" refiro-me, especificamente, à fé em nossos ensinamentos, e não à fé no sentido geral.
+
+As pessoas que vivem neste mundo transitório de sofrimento são bem descritas nas palavras de Cristo como "cordeiros patéticos". Quantas pessoas podem realmente dizer que vivem seus dias completamente livres de ansiedade?
+
+Entre os fatores que causam a insegurança humana, a doença é o mais importante. As pessoas não podem prever quando ficarão doentes. Podem pegar um resfriado uma hora depois de estarem perfeitamente sãs. O resfriado pode evoluir para uma pneumonia ou para os estágios iniciais da tuberculose. Um ataque de apendicite pode trazer uma dor excruciante a qualquer momento. No dia seguinte, essa pessoa pode contrair tifo intestinal ou alguma doença desconhecida. Em dois ou três dias, uma criança pode morrer de doenças terríveis como disenteria infantil, difteria ou meningite. Pessoas idosas podem ficar acamadas e miseráveis por anos devido a uma hemorragia cerebral súbita que resulta em paralisia ou paralisia parcial. Um membro da família pode ser forçado a levar uma vida de hospitalização isolada por causa de uma doença altamente contagiosa.
+
+Ademais, nestes tempos de altos custos médicos, é impossível prever quanto custarão a terapia e a hospitalização. Se a doença for facilmente curada, a situação não é tão má, mas se for prolongada, as economias arduamente conquistadas podem ser totalmente exauridas, posições podem ser perdidas como resultado de uma longa ausência do trabalho, e todo o apoio financeiro pode desaparecer. Enquanto a pessoa se recupera e é capaz de trabalhar, ela pode ganhar a vida, mas como uma família vai sobreviver se o chefe da casa morrer ou ficar permanentemente incapacitado? Tal destino significa o fim de todos os empreendimentos e planos. É especialmente difícil quando tal tragédia atinge uma pessoa no auge da vida. Quem pode dizer que o dia trágico não chegará quando, como consequência da doença e da morte, os laços de amor entre marido e mulher ou pais e filhos devam ser rompidos?
+
+Como a reflexão sobre essas considerações prova, todos os seres humanos, sem exceção, carregam o medo da doença como um peso de chumbo. Se a humanidade não puder ser libertada dessa ansiedade, então Buda estava correto ao dizer que o mundo transitório é como uma casa em chamas, e que ninguém pode escapar dos quatro sofrimentos: nascimento, doença, envelhecimento e morte. Segundo Buda, a realização e aceitação disso constituem a iluminação.
+
+Que notícia mais maravilhosa para a humanidade poderia haver, então, do que o aparecimento de um ensinamento capaz de libertá-la da ansiedade da doença! No início, qualquer um que proclamasse o advento de tal ensinamento seria, sem dúvida, ridicularizado como afirmando o impossível e estando a um passo da loucura. No entanto, tal ensinamento certamente apareceu. Meus leitores podem alimentar dúvidas persistentes, podem rejeitar o que digo — contudo, se for verdade, certamente é suficiente para criar uma sensação mundial.
+
+Explicarei agora brevemente a relação entre a fé em nossos ensinamentos e a doença. Qualquer pessoa que compreenda a essência desta fé não tem medo da doença. Uma vez que suas causas são claramente entendidas, a doença é vista como uma fonte de felicidade, e não de medo, pois é reconhecida como um processo fisiológico natural no avanço da boa saúde e, portanto, como uma das grandes bênçãos de Deus.
+
+Até agora, concentrei-me na doença, mas muitas outras fontes de ansiedade tornam impossível para as pessoas contemporâneas desfrutarem de um momento sequer de tranquilidade. Por exemplo, o transporte veicular, do qual tantas pessoas dependem e no qual passam grande parte de suas vidas, é frequentemente a fonte de desastres graves. Da mesma forma, desastres devido a maquinário perigoso nos locais de trabalho, incêndios, roubos, terremotos, inundações e outras ocorrências naturais podem, como o principal perigo da doença, atacar a qualquer momento.
+
+Governos e entidades privadas tomam medidas para proteger a população contra essas coisas, e fundos são criados para fornecer seguro de saúde, seguro contra desastres, seguro-desemprego e assim por diante. No entanto, nenhum desses métodos tangíveis pode garantir a tranquilidade além de um certo limite. A segurança absoluta só pode ser alcançada com um seguro intangível; isto é, o seguro de Deus. As pessoas modernas, que são verdadeiramente "cordeiros patéticos" e altamente refratárias à ideia de métodos intangíveis, encontram-se presas em constante ansiedade, já que os meios tangíveis nos quais confiam nada podem fazer para resolver o problema básico.
+
+Nós, que temos essa compreensão, não suportamos observar aqueles que não a têm, que, como grama sem raízes, vivem vidas de medo e tremor. São como pessoas à deriva no mar em um bote salva-vidas; preocupados apenas com sua própria embarcação, recusam-se a reconhecer a existência do grande navio que se aproximou com um convite para embarcar. Observando e oferecendo ajuda, ainda somos incapazes de tirá-los da escuridão da rejeição. É compreensível, é claro, que as pessoas achem difícil aceitar este poder espiritual maravilhoso, mas totalmente sem precedentes. No entanto, a própria aparição deste grande ensinamento remove todo o fundamento para a dúvida de que o surgimento de um mundo ideal, um mundo livre de doença, pobreza e conflito, está próximo.
+
+*20 de março de 1949*
+
+### 010. Sekai Kyusei Kyo e Eu
+
+Como todos os membros compreendem, nossa religião é bastante diferente de todas as religiões anteriores. Embora eu não possa dar uma explicação detalhada aqui, gostaria de descrever a diferença brevemente.
+
+A maioria das religiões no Japão é de um ou dois tipos gerais. O primeiro tipo, que é tão simples que quase fica fora da categoria de religião, envolve ações e cerimônias que dão ao praticante não mais do que uma vaga sensação de ter feito a coisa certa. De tempos em tempos, os crentes de tais religiões visitam santuários, onde compram placas talismânicas, amuletos ou papéis de adivinhação. Aqueles com dinheiro podem patrocinar apresentações de danças rituais. Outros jogam dinheiro na caixa de oferendas do santuário ou fazem outras contribuições. Fazer essas coisas lhes dá uma vaga sensação de segurança espiritual. No Japão, esse tipo de fé popular é chamado de "Crença nos Deuses". Como geralmente há uma organização correspondente por trás dela, só pode ser chamada de "religião".
+
+O segundo tipo é uma religião pura na qual os membros são registrados e organizados em grupos, e na qual numerosos oficiais, ministros e missionários se dedicam exclusivamente ao trabalho religioso. Os crentes firmes de tais religiões têm uma sinceridade que, em contraste com qualquer vaga sensação de "graça", os inspira a se lançarem entusiasticamente, de corpo e alma, nas atividades religiosas.
+
+O segundo tipo de religião ocorre tanto em formas antigas quanto novas. Talvez sob a influência dos tempos de mudança, as mais antigas são menos vigorosas e tendem a estagnar. Ouço dizer que, a esta altura, algumas delas mal conseguem sobreviver. As mais novas (novamente no Japão) surgiram desde o final do século XIX e estão se desenvolvendo atualmente com grande vigor. A maioria delas, no entanto, está relacionada à fé xintoísta. Entre os budistas, apenas alguns grupos dentro da seita Nichiren demonstram vigor. O resto carece de vitalidade.
+
+Embora difiram umas das outras em formas e modos, a maioria dessas religiões são extensões das ideias ou escritos de seus fundadores. Seus crentes servem sinceramente porque gozam da proteção do deus ou Buda que sua religião reverencia. Obviamente, no entanto, os graus de intensidade da fé variam entre os membros. A maioria deles afirma querer tornar os humanos mais felizes e o mundo um lugar melhor. Concordamos com eles nisso, mas muitas religiões se concentram demais em elementos espirituais e mostram relativamente pouco interesse em benefícios materiais a serem obtidos nesta vida.
+
+### 011. A Verdadeira Salvação
+
+Embora não negligenciemos os aspectos psicológicos, percebemos que, sem a consideração dos aspectos físicos também, o alívio não pode ser completo. Esta posição básica é o que diferencia nossa organização de todas as outras. A salvação apenas espiritual é uma questão teórica que não pode dar a verdadeira felicidade. A felicidade puramente psicológica pode desaparecer a qualquer momento em nossa sociedade moderna em deterioração. A doença pode atacar; ladrões podem arrombar e roubar; estelionatários podem causar perdas financeiras; ou pesados fardos tributários podem trazer graves dificuldades.
+
+É claro que os impostos são necessários para que a polícia e os tribunais de justiça lidem com os criminosos. O dinheiro deve ser gasto na prevenção das muitas doenças das quais os seres humanos são vítimas, e o dinheiro deve ser encontrado através de impostos para compensar as enormes perdas incorridas em guerras iniciadas por homens mal-intencionados. Muitos outros exemplos poderiam ser citados, mas, como estes mostram, é extremamente difícil viver com segurança e tranquilidade com base apenas na salvação espiritual.
+
+Em suma, em um mundo como o nosso, a felicidade só é possível quando a salvação material e espiritual são asseguradas. Como seu nome indica, nossa organização traz salvação material e espiritual para o mundo. Em nível individual, isso significa a realização dos desejos do indivíduo em termos de benefício real nesta vida. Em nível social, significa reforma cultural.
+
+Na prática, porém, como as revelações de Deus mostram, a civilização contemporânea abriga falácias inerentes, falácias que ninguém até agora parece ter notado. Por causa delas, ademais, muitas vezes acontece que um curso de ação adotado como sendo útil, na verdade, leva ao dano. Em suma, algo projetado para promover o bem-estar da humanidade resulta na promoção da infelicidade. Os fatos provam isso melhor do que qualquer outra coisa. Mesmo que a civilização tenha se desenvolvido até seu nível atual, os seres humanos não apenas não encontram a felicidade, mas tendem a sofrer cada vez mais.
+
+Na medida em que nossa civilização é o produto da sabedoria e dos esforços repetidos de grandes homens e mulheres, e de sábios estudiosos, que apareceram um após o outro ao longo de milhares de anos, ela já deveria ter alcançado um nível de excelência tão supremo que qualquer falácia inerente séria seria impensável. No entanto, eu sei que tais falácias existem. Meu desejo é fazer as pessoas entenderem isso o mais rápido possível, compartilhar a felicidade com elas e transmitir-lhes uma política para a criação de uma nova e ideal civilização mundial. Esta é a vontade de Deus.
+
+Gostaria de dizer aqui algumas palavras sobre mim. Antes de começar, devo explicar que, embora minha origem seja a de um ser humano comum, meu destino é misterioso, sem paralelo na história da humanidade. Nasci para ajudar o mundo de uma maneira totalmente diferente de grandes líderes religiosos do passado, como Buda, Jesus Cristo e Maomé. Recebi o poder de realizar o que não pôde ser realizado em seu tempo.
+
+Posso, por exemplo, saber qualquer coisa que seja importante saber nos mundos divino, espiritual e físico e no passado, presente e futuro — dentro dos limites, é claro, de assuntos relacionados a ajudar a humanidade e à criação de um mundo ideal. É fascinante que eu possa prever, não apenas meu próprio destino, mas também as mudanças que ocorrerão no mundo. Ademais, a experiência até hoje mostrou que minhas previsões são, em geral, precisas. É como se os sonhos se tornassem realidade.
+
+Estou constantemente fazendo planos e empreendendo projetos que, sem exceção, correm como eu quero. Se decido escrever uma obra literária sobre algum tópico, as palavras fluem naturalmente. Como sabem, gosto de poesia e posso produzir um número surpreendentemente grande de versos. Por exemplo, é fácil para mim compor cinquenta versos curtos em uma hora. Gostaria de escrever outros tipos de versos, romances e peças de teatro também, mas a falta de tempo me impede. Também escrevo sátiras e literatura humorística. Embora não tenha tido experiência com o gênero, fui capaz de escrever a oração ritual que nossos membros recitam.
+
+Como todos sabem, também estou construindo um protótipo em grande escala do Paraíso na Terra e escolhi pessoalmente cada pedra, árvore e planta com flor. Projetei o paisagismo, a arquitetura e a decoração. Ao projetar o Salão de Adoração no protótipo do paraíso que estamos construindo agora, empreguei o estilo Le Corbusier, hoje prevalecente no mundo da arquitetura. Mas o fiz de uma nova maneira, de modo que, quando o edifício for concluído, certamente atrairá a atenção global.
+
+Quase não preciso pensar no trabalho de paisagismo ou arquitetura, pois, se eu apenas ficar de pé e olhar para o espaço para o qual algum projeto está planejado, imagens concretas surgem diante de mim. Nunca estudei esses assuntos; é apenas que, se decido fazer algo, imediatamente tenho boas ideias. Faço arranjos florais, pinto quadros e faço caligrafia. Embora eu tenha estudado um pouco de pintura, em todos esses outros campos sou um completo amador.
+
+Compreendo coisas que acontecerão daqui a um século na política, educação, economia, filosofia e medicina. Sabendo como sei as maneiras fundamentais pelas quais a civilização contemporânea está em erro, sou impaciente para fazer algo para introduzir reformas, despertar a humanidade e trazer felicidade ao mundo. Mas não há nada que eu possa fazer até que o momento certo chegue. No momento, só posso, em conexão com a criação de um paraíso na terra, apontar problemas relacionados à saúde, que é fundamental para todo o resto, e erros na agricultura, conforme me foram revelados.
+
+### 012. Poder do Espírito
+
+A coisa mais surpreendente para mim é a maneira como posso usar o poder do espírito para permitir que os membros curem doenças e saber que as curas que efetuam são duradouras e sólidas. Cristo e outros sábios e santos foram capazes de curar doenças milagrosamente, mas quase sempre apenas uma pessoa de cada vez; era impossível para eles ajudar centenas de milhões de pessoas. Para ajudar toda a humanidade, é essencial dotar um número infinito de outras pessoas com o poder de curar. É isso que estou fazendo agora — com resultados surpreendentes, como o desenvolvimento de nossa organização mostra de forma notável.
+
+Como eu disse anteriormente, nem mesmo Cristo e Buda foram capazes de fazer isso. Deus me permitiu fazer essas coisas porque o tempo certo chegou. Quando penso nas razões de Deus para me dar poderes tão grandes, fico profundamente impressionado com a importância da minha própria missão.
+
+É claro que Deus nunca cria nada supérfluo. Tudo é feito ou destruído em resposta a uma necessidade. Se isso for visto como a verdade do que digo, minha missão enviada pelo céu emerge claramente.
+
+Estou sendo constantemente informado sobre todos os mistérios e recebi poderes ilimitados e profundos de sabedoria divina. Faço todas as coisas com base na revelação, a fim de transmitir este conhecimento a todas as pessoas e criar uma civilização ideal.
+
+A humanidade tornou-se tão sofisticada intelectualmente que as explicações simples que funcionavam no passado agora não conseguem convencer. Milagres que comprovem esses princípios são necessários para que as pessoas possam aceitá-los, e Deus manifesta milagres de acordo. Devemos ser imensamente gratos por Deus não apenas apontar nossos erros, mas também por operar milagres para substanciar o que é revelado. O trabalho divino que estou realizando agora remove todo o fundamento para a dúvida sobre a verdade do que acabo de dizer.
+
+*25 de novembro de 1950*
+
+### 013. O Feudalismo da Ciência
+
+Um grande segmento da população recentemente passou a perceber que nosso Johrei é muito mais eficaz do que a ciência médica moderna; mas gostaria de dizer algumas palavras aqui sobre um problema relacionado e difícil.
+
+Não importa quão tremendamente eficaz seja o Johrei, ele naturalmente não pode curar todos os casos e, infelizmente, às vezes as pessoas morrem. Quando isso acontece, nossos oponentes levantam um grande clamor. Alguns, com aparente regozijo, aproveitam a chance para nos criticar nos jornais. No entanto, ao mesmo tempo, a maioria das pessoas aceita a morte como um resultado possível do tratamento médico. Todos nós conhecemos casos em que pacientes morreram como resultado de uma única injeção. Pessoas que a princípio se sentiam seguras da recuperação através do tratamento médico, gradualmente enfraqueceram e finalmente morreram. Outras pereceram por causa de uma cirurgia mal sucedida. Mas poucas pessoas são críticas e desconfiadas sobre tais mortes; é verdade que parentes próximos às vezes ficam tão enfurecidos que processam os médicos envolvidos, mas é muito difícil resolver questões desse tipo por meio de ações judiciais, e eles geralmente engolem sua indignação e desistem.
+
+Apesar da eficácia do nosso método, muitas vezes nos creditam não mais do que curas psicológicas, ou somos inundados com o tipo de críticas e ataques que já descrevi quando cometemos um pequeno erro. Em suma, a confiança equivocada no poder da ciência médica leva a melhor.
+
+É claro que isso não é um desenvolvimento recente; houve inúmeros casos semelhantes no passado. Pode ser que este seja o destino de um pioneiro, mas gostaria de examinar as razões pelas quais a sociedade, apesar de seus consideráveis avanços, persiste em abrigar essa atitude irracional.
+
+Como a ciência materialista é uma condição fundamental da sociedade moderna, praticamente tudo o que é considerado não científico é rejeitado como superstição. Surpreende-me que as pessoas se recusem a perceber que a ciência não é onipotente, não importa o quão avançada seja. Existem muitos problemas para os quais ela não tem respostas. Como sempre digo, as pessoas depositam cegamente todas as suas expectativas no progresso científico porque se tornaram cativas do que poderia ser chamado de superstição da ciência, que provavelmente causa danos incalculáveis.
+
+Alguns dos danos mais notáveis são causados pela ciência médica. Mas, neste caso, sem saber que sua adesão a ela é profundamente supersticiosa, as pessoas persistem em acreditar que apenas a ciência médica é eficaz e em se recusar a prestar atenção a qualquer outro tipo de terapia, não importa quão eficaz e socialmente útil seja. Em uma palavra, o Japão de hoje é subserviente à ciência de uma maneira feudal.
+
+Isso não é sem razão; a história mostra que, antes do alvorecer da era científica neste país, várias superstições amplamente difundidas causaram grandes danos e que foi a ciência que desempenhou um papel considerável na retificação dessa situação. No entanto, em algum momento, a adoração da ciência foi longe demais e passou a dominar completamente a mente das pessoas. Mesmo considerando a ciência suprema, as pessoas alimentam dúvidas quando descobrem que a medicina é incapaz de curar doenças. Abandonando a medicina, buscam tranquilidade psicológica em uma das religiões estabelecidas. Então, se incapazes de encontrar satisfação dessa maneira, voltam-se para os novos ensinamentos religiosos e vêm até nós.
+
+Antes da Segunda Guerra Mundial, o povo japonês considerava o princípio feudal de patriotismo e fidelidade ao soberano como a mais alta moralidade e, como ainda nos lembramos, os defensores da democracia eram prontamente jogados na prisão. Hoje, a maioria das pessoas adora a ciência como a moralidade suprema e despreza e rejeita nosso ensinamento, assim como a democracia foi desprezada e rejeitada no passado.
+
+*26 de março de 1952*
+
+### 014. A Civilização de Amanhã
+
+Revelarei agora os resultados de cerca de vinte anos de estudo sobre todos os aspectos do espírito e do Mundo Espiritual. A rigor, na medida em que o espírito é intangível — em certo sentido, imaterial —, não há como sua existência ser provada experimentalmente, de modo que é obviamente difícil desenvolver seu estudo em um ramo concreto do saber. No entanto, como já disse, estou convencido de que a marcha irresistível da ciência acabará por trazê-lo, acadêmica e cientificamente, ao alcance do mais comum dos homens.
+
+A ciência moderna, de cujas grandes bênçãos todos desfrutamos agora, foi originalmente baseada no que pareciam ser as imaginações oníricas e rebuscadas de pioneiros em épocas anteriores. Essas imaginações evoluíram para importantes campos do saber. Quando isso é levado em consideração, fica claro que o reconhecimento da existência do espírito e a criação de um importante departamento de estudo para lidar com a ciência espiritual são apenas uma questão de tempo.
+
+A pessoa moderna civilizada que se recusa a aceitar a existência do espírito e do Mundo Espiritual, não importa quão cuidadosamente sejam explicados, é como um selvagem incivilizado que se recusa a aceitar a existência do ar que permeia os espaços ao seu redor. Mas, uma vez que se admite a existência do espírito ao observar o mundo real, tudo se torna totalmente claro e livre de contradição e inconsistência. Da mesma forma, a fonte das dificuldades que me fazem criticar a ciência materialista torna-se fácil de compreender, na medida em que a manifestação deste poder maravilhoso é, em si, a verdade.
+
+Isso dará alguma ideia da natureza da grande mudança que está ocorrendo no mundo atualmente e da nova civilização que nascerá como resultado. Como será essa civilização? Ela será inevitavelmente caracterizada pelo surgimento e desenvolvimento de uma cultura espiritual. E, à medida que a relação entre matéria e espírito se tornar, em certa medida, mais clara, isso deverá ter um efeito notavelmente estimulante também na civilização estabelecida.
+
+Isso ocorrerá, é claro, depois que a guerra terminar. Não é um sonho ocioso supor que, assim como o desenvolvimento da civilização material revelou a verdadeira natureza do ar e, portanto, foi benéfico para a humanidade, máquinas mais sofisticadas servirão à humanidade, tornando possível medir e utilizar o espírito.
+
+Em meu estudo da relação entre o espírito e a doença, finalmente vim a conhecer seu caráter essencial e as relações de causa e efeito a ele ligadas, e aprendi que essas coisas estão intimamente conectadas não apenas com a doença humana, mas também com a mudança e a renovação em todos os fenômenos. No entanto, como a solução da doença é o tema deste livro, limitar-me-ei aqui, principalmente, à relação entre o espírito e a doença.
+
+Minha arte de cura está à frente de seu tempo, na medida em que atingiu o estágio em que é possível fazer a ciência espiritual servir à humanidade, manifestando poderes surpreendentes para a melhoria da saúde humana.
+
+*23 de outubro de 1943*
+
+### 015. A Verdadeira Natureza da Doença
+
+A doença é o que acontece quando uma anormalidade surge em uma parte ou em todo o corpo humano, e o sofrimento se segue como resultado; no entanto, a ciência médica ainda não compreendeu precisamente o que causa tal anormalidade. Gostaria de delinear aqui a pesquisa que fiz sobre este tópico.
+
+Todos os animais consistem essencialmente nos corpos espiritual e físico, cuja conexão íntima e inseparável dá origem à força vital. O espírito é controlado pela vontade, que surge da alma. A ciência médica ocidental ignorou completamente o espírito e concentrou-se, em estudos analíticos minuciosos, no corpo. Isso é tudo o que se pode esperar enquanto a ciência permanecer materialista em sua atitude.
+
+A verdadeira causa da doença, no entanto, não está no corpo, mas no espírito. A enfermidade surge primeiro no espírito e depois se transfere para o corpo. Em outras palavras, o espírito é a causa da doença, e as manifestações físicas no corpo são o resultado. Mesmo centenas de anos a mais de pesquisa não resultarão em curas, a menos que a relação entre espírito e corpo seja claramente compreendida.
+
+Em seu estágio atual de desenvolvimento, a ciência é incapaz de empregar instrumentos para medir o espírito. Sua situação prevalecente é idêntica ao estado da civilização antes que a humanidade descobrisse a existência do ar no espaço aparentemente vazio. Uma ciência que descobriu os elementos componentes do ar certamente não é incapaz de descobrir a existência do espírito. A descoberta do ar levou a saltos súbitos na ciência. Da mesma forma, a descoberta da existência do espírito trará o estabelecimento de uma verdadeira medicina, uma verdadeira terapia e, ao unir religião e ciência, erradicará de uma vez por todas o conflito contemporâneo entre as reivindicações da ciência e do espírito.
+
+No momento, estou alcançando curas surpreendentes por meio de uma teoria concentrada no espírito. Nossos feitos são tão impressionantes, de fato, que as pessoas os descrevem como milagres. No entanto, qualquer pessoa que compreenda o princípio da cura orientada pelo espírito, sem medicamentos e sem terapia física, percebe que o que fazemos é perfeitamente natural, e não misterioso. Pelo contrário, deveríamos considerar um milagre se alguém fosse capaz de curar completamente por meio de uma terapia concentrada apenas no corpo.
+
+Não estou criticando a ciência, mas apontando as falácias da ciência médica. A ciência trouxe à humanidade bênçãos imensuráveis e deve continuar a se desenvolver no futuro. Mas espero que seu progresso futuro seja em união com a religião.
+
+Há um ponto a este respeito sobre o qual é fácil errar. Como eu disse, os seres humanos têm espíritos controlados pela vontade. As máquinas não. No entanto, em seu papel de uma espécie de mágico, a ciência tende a fazer máquinas e instrumentos funcionarem como se estivessem vivos e até mesmo a substituir seres humanos vivos por eles. Mas é impossível tratar seres humanos vivos como máquinas. Por não serem nada além de matéria física, máquinas danificadas podem ser consertadas com ferramentas, óleo e coisas do gênero, que são, elas mesmas, matéria física. Os vasos sanguíneos, nervos e células do corpo humano estão em constante mudança e engajados incessantemente em processos metabólicos. É verdadeiramente um mistério. Não é produzido com base em princípios científicos. O corpo humano é algo que não podemos fazer, não importa o quanto tentemos. No entanto, não podemos impedir que seja feito. É um produto místico da criação, e um ser humano é um ser espiritual superior, completamente diferente de plantas, pássaros, feras e peixes.
+
+*15 de maio de 1936*
+
+## SAÚDE
+
+### 016. A Verdade da Saúde
+
+Ao falar sobre saúde, o primeiro princípio que deve ser compreendido é que a boa saúde depende de obedecer e respeitar a ordem natural. Portanto, devemos primeiro considerar o propósito de Deus, o criador, ao fazer os seres humanos.
+
+Interpretamos esse propósito como a criação de um mundo ideal, composto de verdade, virtude e beleza. Esta ideia surpreendente não é fácil de aceitar a princípio; quem sabe quantas dezenas de milhares, centenas de milhares, ou mesmo milhões de anos, podem ser necessários para alcançar o ideal? Mas a história mostra que o mundo tem se movido, passo a passo, na direção de sua consecução. Deus é espiritual, e o ser humano é físico. Trabalhando juntos, os dois estão fazendo um progresso ilimitado.
+
+A humanidade está encarregada deste empreendimento. Nossa responsabilidade é imensa e, para realizá-la, devemos estar em boa saúde. Tendo-nos dado várias missões a cumprir, Deus nos dotou com o grau de saúde de que necessitamos para cumprir nossas responsabilidades. Se perdermos essa saúde, o propósito de Deus em nos criar fracassaria. Uma reflexão profunda sobre esta verdade deixa claro que nosso estado normal é o de boa saúde. Mas, surpreendentemente, adoecemos — ou nos tornamos anormais — facilmente. Uma vez que esta verdade básica seja compreendida, torna-se aparente que converter a condição anormal na condição normal está em harmonia com o propósito de Deus.
+
+Ao considerar esta verdade, a reflexão mostra que as anormalidades no corpo humano resultam de desvios das leis da natureza. A terapia corretiva precisa, é claro, entender a anormalidade, corrigi-la e restaurar o corpo ao seu estado normal. Consequentemente, exporei agora em detalhes o tipo de desvios que perturbam a ordem natural.
+
+Ao nascerem, os bebês humanos são alimentados com leite materno ou fórmula, porque ainda não têm dentes e seus órgãos digestivos ainda são fracos. Gradualmente, à medida que ganham os dentes e seus órgãos internos amadurecem, suas dietas são suplementadas com alimentos apropriados. Cada uma das muitas variedades de alimentos disponíveis para nós tem um sabor distinto, e o corpo humano foi dotado com o sentido do paladar, permitindo-lhe ter prazer nesses sabores. O resto do nosso ambiente é bem suprido com as quantidades certas de ar, fogo e água para a manutenção da saúde humana.
+
+O ser humano está igualmente bem equipado. O cérebro é dotado da capacidade de raciocinar, lembrar e reagir emocionalmente. As mãos podem fazer coisas, e os pés e as pernas dão liberdade de movimento. Outras partes necessárias, como cabelo, unhas, olhos, nariz, boca e ouvidos, são fornecidas. A pele que cobre o rosto e o resto do corpo contribui para a beleza humana.
+
+Delineado com tanto detalhe, o ser humano prova ser uma obra maravilhosa da criação. Somos movidos pela maravilha da obra de Deus em uma única flor, uma folha, uma bela paisagem natural e todos os pássaros e feras até o último inseto e peixe; mas a humanidade é certamente a obra-prima do Criador. O milagre do processo reprodutivo que garante a continuação da espécie desafia a descrição.
+
+Quando percebemos que o corpo humano é a obra-prima do Criador, vemos que a doença, que inibe a ação humana, é uma aberração contra a natureza. Este é o ponto ao qual os seres humanos devem dedicar o mais sério pensamento.
+
+*20 de abril de 1950*
+
+### 017. Seres Humanos como Receptáculos para a Saúde
+
+Como a humanidade foi feita para ser saudável, devemos corrigir a antiga crença de que os seres humanos são receptáculos cheios de doenças. Nada poderia estar mais longe da verdade. O ser humano é um receptáculo para a saúde.
+
+No entanto, estamos sujeitos à doença e, como o problema parece insolúvel, muitas pessoas desistem e aceitam o que consideram ser um destino inevitável. É claro que a doença é muitas vezes difícil de curar. A enfermidade pode persistir por tanto tempo ou recorrer com tanta frequência que as pessoas podem ficar mais tempo doentes do que saudáveis. Por essa razão, as pessoas passaram a pensar em seus corpos como receptáculos para a doença e inventaram um provérbio para expressar sua condição.
+
+Não é de surpreender que, por a natureza básica da doença ter permanecido desconhecida, as pessoas tenham passado a acreditar que a enfermidade e a morte são inevitáveis. A mesma crença levou Buda a dizer que toda vida consiste nas quatro dores: nascimento, doença, envelhecimento e morte.
+
+Já expliquei que a doença é causada por desvios das leis da natureza. Quando as pessoas adoecem, geralmente recorrem a medicamentos, o que é um curso de ação equivocado. É antinatural empregar tanto as medicinas chinesas, que são feitas de ervas, raízes e cascas, quanto as medicinas ocidentais, que são geralmente extratos de substâncias minerais e vegetais.
+
+Os medicamentos são sempre amargos, malcheirosos, azedos ou de outra forma desagradáveis; desde tempos antigos, as pessoas falam da necessidade de comer ou beber algo bom para refrescar a boca após uma dose medicinal. Os medicamentos são desagradáveis porque Deus os fez assim para mostrar que são venenosos e não devem ser tomados. Em contraste, todos os alimentos e bebidas saudáveis são projetados para agradar o paladar. Este é o caminho da natureza.
+
+É um erro tentar definir em generalidades o que é e o que não é nutritivo. Os alimentos diferem de acordo com o solo, o clima e o local em que crescem, mas todos são produzidos para atender às necessidades das pessoas que vivem naquele solo e naquele local. É certo que os povos orientais comam arroz, e os povos ocidentais comam trigo. Pessoas de uma nação insular como o Japão comem grandes quantidades de peixe, e os povos continentais comem carne. De acordo com esta linha de pensamento, é certo que os agricultores comam muitos vegetais, já que uma dieta vegetariana é adequada para pessoas que devem trabalhar longas horas sem descanso. Se os nutricionistas de nosso tempo conseguirem convencer os agricultores a comer mais peixe e carne, a força de trabalho agrícola diminuirá. Como comem frutos do mar, os pescadores trabalham intermitentemente e são incapazes de longos períodos de trabalho contínuo. Além disso, comer frutos do mar aumenta a sensibilidade e, desta forma, também atende às necessidades dos pescadores. A natureza é verdadeiramente maravilhosa.
+
+*20 de abril de 1950*
+
+### 018. Saúde Verdadeira e Saúde Falsa
+
+Quase toda a humanidade — ou pelo menos quase todos os membros dos povos "civilizados" — está doente. Alguns não estão visivelmente doentes, enquanto outros o estão manifestamente. Em outras palavras, as pessoas que realmente sofrem estão claramente doentes, e as aparentemente saudáveis sofrem de doença latente.
+
+Aqui, tratarei apenas da condição dos doentes latentes, pois não há necessidade de explicar a condição dos manifestamente doentes. Os doentes latentes abrigam toxinas, mas a purificação para quebrar seu estado solidificado ainda não começou. Uma pessoa verdadeiramente saudável é aquela que está absolutamente livre de toxinas e em quem nenhum processo de purificação ocorre. Em comparação com isso, a pessoa doente latente abriga toxinas acumuladas, mas aparentemente permanece em boa condição, realiza suas tarefas diárias, até mesmo trabalho pesado, e parece totalmente saudável. Além disso, como é difícil descobrir tais toxinas, o exame médico moderno declara tais pessoas saudáveis. Chamo essa condição de "saúde falsa" e não posso deixar de estremecer ao pensar em quantas pessoas hoje seguem alegremente seu caminho, apesar da carga explosiva de doença que carregam.
+
+O antigo ditado de que os seres humanos são "receptáculos para a doença" refere-se a este estado de "saúde falsa".
+
+*5 de fevereiro de 1947*
+
+### 019. Criando Crianças Saudáveis
+
+As crianças japonesas de hoje estão com a saúde debilitada. Alarma-me muito ver como a cor de seus rostos é pálida e como parecem frágeis. No passado, essa condição prevalecia principalmente entre as crianças urbanas, mas ultimamente também começou a afetar as das aldeias agrícolas. Exames físicos realizados em uma escola primária de certa aldeia na prefeitura de Nagano, localizada no centro do Japão, mostraram que oitenta e uma em cada cem crianças eram suspeitas de sofrer de tuberculose. Desde então, relatos semelhantes têm aparecido de tempos em tempos nos jornais. Deve intrigar a todos ler esse tipo de coisa em uma época em que o progresso médico moderno chegou até mesmo às áreas rurais. A gravidade do problema é ainda maior porque a causa do fenômeno não foi encontrada.
+
+Para permitir que as pessoas entendam, descreverei a causa em termos do meu sistema de medicina natural. A única causa concebível de má saúde entre as crianças urbanas e rurais é a higiene e nutrição equivocadas. O erro reside em acreditar que as crianças japonesas são exatamente como as crianças ocidentais e em criá-las totalmente no modo ocidental. Este é um erro grave. As crianças japonesas e ocidentais são essencialmente diferentes.
+
+A ideia equivocada de que as crianças japonesas podem ser criadas à maneira ocidental parece, no passado, ter se limitado à cidade, mas agora se espalhou também para o campo. O erro da maneira ocidental está em ignorar a natureza, dar às crianças leite demais, negligenciar a amamentação, mimar, superdosar com medicamentos e administrar os tipos errados de injeções. Embora teoricamente aceitável, esse tipo de criação na verdade enfraquece fisicamente as crianças. O sistema pode ser adequado para os ocidentais, que estão acostumados a ele há gerações, mas representa uma mudança súbita e ruim para os japoneses. Se deve haver uma mudança no modo antigo, que os japoneses há muito consideram compatível, ela deve ser gradual. Os fatos deixam isso perfeitamente claro. As crianças eram muito mais saudáveis algumas décadas atrás, em uma época em que a ciência médica ainda não havia avançado ao nível que atingiu hoje.
+
+Para fins de referência, descreverei agora a maneira correta de criar os filhos. As mães devem trabalhar até o mês do parto, se possível. Devem amamentar seus filhos e usar leite de vaca apenas quando absolutamente necessário. As crianças devem ser autorizadas a viver da maneira mais natural possível, e as mães não devem se preocupar demais com coisas como pegar um resfriado. Em outras palavras, as crianças não devem ser desnecessariamente agasalhadas, mas devem ser autorizadas a seguir seus próprios caminhos sem muita interferência dos pais. O uso de medicamentos deve ser minimizado.
+
+Os pais devem reconhecer que as crianças nascem neste mundo dotadas da capacidade de crescimento saudável. Mimar demais apenas as enfraquece. A melhor política geral é ter em mente os veneráveis costumes antigos transmitidos por nossos ancestrais, sem se deixar levar pelas modas da época. Devemos usar o progresso moderno adotando não suas teorias, mas seus aspectos verdadeiramente bons. Exorto veementemente as autoridades e especialistas a levarem este ponto em consideração.
+
+*14 de março de 1951*
+
+### 020. Um Meio para Qualquer Um Ganhar Peso
+
+Um grande número de pessoas que nascem magras e desejam ganhar peso tentam todos os tipos de métodos em vão. Praticamente todo mundo já viu em algum momento uma mulher com traços faciais adoráveis que era magra demais para permitir que sua beleza inata se mostrasse em seu melhor efeito, e pensou com pesar como ela seria bonita se fosse apenas um pouco mais cheinha. Às vezes, a debilidade física torna as crianças irritadiças e frágeis. É comum que pais que desejam fortalecer seus filhos os alimentem com leite, óleo de fígado de bacalhau e outros alimentos nutritivos e lamentem mais tarde que todos os seus esforços não produziram nenhum ganho de peso.
+
+Há uma maneira pela qual pessoas assim podem engordar e melhorar a cor do rosto. Nos ombros de pessoas que não conseguem ganhar peso, invariavelmente há um lugar duro, semelhante a uma rocha, que está ligeiramente febril.* Como esgota as células, essa febre reduz drasticamente o apetite; mas se o Johrei for usado nela, o ponto duro gradualmente amolecerá. À medida que isso acontece, o apetite aumentará e a pessoa ganhará peso.
+
+O Johrei não apenas torna as pessoas saudáveis, mas também as torna bonitas. Se este método fosse amplamente conhecido em todo o mundo, todos nós poderíamos nos alegrar com o aumento do número de pessoas adoráveis. Os pais também ficariam felizes com a melhora da saúde de seus filhos.
+
+*10 de janeiro de 1951*
+
+### 021. O Caminho para Ser Bela
+
+Existem três tipos principais de beleza: artificial, natural e emocional. A beleza artificial é o resultado do uso de pós e rouges, mas a beleza natural é o resultado de boa saúde e boa circulação; é a beleza da vitalidade e do vigor. A beleza emocional brota do coração e inspira respeito e afeição nos outros.
+
+Hoje, as mulheres se cobrem de pó, rouge e batom para se tornarem bonitas, porque esqueceram de tudo, exceto da beleza artificial. No entanto, existe uma maneira de ser bela desde o âmago, sem recorrer a cosméticos ridiculamente caros. Esta é a verdadeira beleza, que vem da boa saúde e da purificação do sangue.
+
+A pele das mulheres torna-se sem brilho, enrugada, pálida e inchada pelo uso de muitos medicamentos. Para esconder esses efeitos, as mulheres de hoje fazem uso excessivo de cosméticos. A verdadeira beleza é impossível sem a beleza interior, que vem da fé. Vemos isso em pessoas que recebem Johrei, que se tornam tão mais bonitas com o passar do tempo que é quase impossível reconhecê-las.
+
+*3 de setembro de 1949*
+
+*A pessoa que ministra o Johrei não toca os ombros da pessoa afligida. Em vez disso, a pessoa que recebe o Johrei verifica a dureza ou maciez de seus próprios ombros.*
+
+### 022. Medicina e Esporte
+
+Atletas, que têm corpos esplêndidos e grande força física, são geralmente considerados propensos a morrer relativamente jovens. Por que isso acontece é um enigma para a ciência médica, mas as seguintes são as razões.
+
+Embora existam muitos tipos de esportes, uma pessoa geralmente se especializa em apenas um tipo. Consequentemente, o atleta repete os mesmos movimentos incessantemente durante longas horas de treinamento, de modo que as toxinas se acumulam e endurecem em seus pontos de força. Com o passar do tempo, o processo de purificação começa. Mas como as toxinas são mais persistentes nos atletas do que nas pessoas comuns, a purificação e a cura são mais difíceis para eles. Minha própria experiência mostrou que protuberâncias duras de toxinas acumuladas se formam em um ombro ou no outro de nadadores, e que o processo de purificação associado a elas produz sintomas semelhantes aos da tuberculose. Ao avaliar a condição de tais nadadores, os médicos frequentemente diagnosticam tuberculose, e isso explica o grande número de pessoas neste campo aparentemente sofrendo desta doença.
+
+Da mesma forma, os golfistas tendem a ser afligidos por problemas renais, porque tensionar a cintura e a região do quadril faz com que as toxinas se acumulem e endureçam ao redor da área dos rins, e é um fato bem conhecido que os corredores de maratona frequentemente sofrem de aumento do coração.
+
+Pelo bem de sua saúde, os atletas deveriam praticar dois ou mais esportes.
+
+Os músicos também devem ter cuidado, pois seu trabalho exige a repetição dos mesmos movimentos, o que pode levar a doenças. Por exemplo, pessoas que gostam de tocar piano têm acúmulos de toxinas em suas regiões peitorais, já que seus pontos de força estão em ambos os braços. Os violinistas estão sujeitos ao mesmo tipo de problema em seus ombros, e os violoncelistas em seu ombro esquerdo e região do quadril. Essas condições merecem séria reflexão, e os músicos devem compensar realizando movimentos diferentes daqueles envolvidos em seu trabalho.
+
+*5 de fevereiro de 1947*
+
+### 023. Meu Plano de Saúde
+
+Gostaria de explicar o método que eu mesmo sigo para me manter em forma. Este ano tenho sessenta e sete anos, segundo a maneira ocidental de contar a idade, mas sou mais robusto e vigoroso do que muitos homens no auge da vida. Frequento subo a colina em cujas encostas nossa nova sede está sendo construída e sempre tenho que diminuir o passo para as pessoas mais jovens, que não têm força nas pernas. Fico quase envergonhado com suas perguntas frequentes sobre se Meishu-Sama está cansado, já que não estou nem um pouco fatigado.
+
+Vou para a cama às duas e meia ou três da manhã e durmo até as sete ou sete e meia, o que significa que tenho cerca de quatro ou quatro horas e meia de sono. Como meus associados próximos sabem, faço o trabalho de dez pessoas. As pessoas mais jovens acham difícil me acompanhar, mas não há nada a fazer a não ser deixá-las continuar tentando.
+
+Faço todas essas coisas como resultado do meu método de manter a saúde. Como meu método é o oposto do geralmente seguido hoje, vou explicá-lo aqui na esperança de que sirva de referência para outras pessoas.
+
+A prescrição médica moderna para uma boa saúde é se esforçar apenas moderadamente, dormir e se alimentar bem, mastigar bem a comida e não pensar demais. Meu método é o oposto disso. Insisto que as pessoas devem se esforçar ao máximo*, pois esta é uma maneira muito eficaz de melhorar a saúde. No entanto, exorto a uma moderação sensata, pois o esforço excessivo pode causar sofrimento.
+
+A quantidade de sono que uma pessoa necessita varia com a idade, mas para uma pessoa da minha idade, quatro ou cinco horas é o ideal. Curiosamente, no que diz respeito à comida, estou constantemente preocupado em me alimentar demais. Há tantas oferendas dos membros que mal conseguimos dar conta delas, e sempre faço questão de comer pelo menos um pouco de cada uma em agradecimento à sua gentileza, de modo que tendo, se é que, a comer muitas coisas ricas. Para compensar isso, como invariavelmente uma quantidade considerável de batata-doce após o café da manhã todas as manhãs. Como lanche noturno, muitas vezes como uma tigela de arroz com chá e nunca perco uma porção de sopa de feijão doce.
+
+Os alimentos têm características yang (positivas) e yin (negativas) que devem ser mantidas em equilíbrio. Vegetais são yin e peixe e carne são yang. Esses alimentos devem ser consumidos de forma a evitar inclinar-se demais em qualquer direção. Eu como setenta por cento de alimentos yin e trinta por cento de alimentos yang pela manhã, cinquenta por cento de cada no almoço e setenta por cento de alimentos yang e trinta por cento de alimentos yin à noite. Os picles também são de natureza yin ou yang: picles de folhas verdes são yin e picles de daikon, rabanete e nabo são yang. Eu os como em uma proporção de meio a meio.
+
+Mastigo minha comida apenas pela metade, não completamente, porque mastigar totalmente a comida enfraquece o estômago. Além disso, não descanso após as refeições, mas imediatamente começo alguma atividade.** Esta é uma maneira de fortalecer o estômago. Curei eficazmente doenças estomacais por meio deste método.
+
+Nunca estabeleço limites para os alimentos que como. Meu princípio alimentar básico é comer o quanto eu quiser do que eu quiser quando eu quiser. É, no entanto, impossível ser sempre tão autoindulgente como esta afirmação sugere, então como adequadamente.
+
+Embora possa soar surpreendente, pensar o máximo possível é uma espécie de regime de saúde. Pessoas que usam seus cérebros vivem muito, mas preocupar-se é um mau uso deles. Em vez disso, deve-se usá-los de maneiras interessantes e agradáveis. É aqui que a fé revela seu valor. Sempre que você tiver uma preocupação, se adotar a atitude de que deve deixá-la com Deus, a preocupação diminuirá consideravelmente. Em outras palavras, deixe Deus arcar com o fardo. Talvez isso pareça convenientemente egoísta, mas Deus acha tal egoísmo muito agradável.
+
+Por muito tempo, não importa o quanto chova ou vente, nunca deixei de sair uma vez por dia. Ando o máximo possível. Pessoas idosas que continuam a melhorar de saúde costumam dizer a mesma coisa.
+
+Bebo apenas cerca de três pequenas xícaras de saquê ou um pequeno copo de cerveja e fumo apenas uma quantidade média.***
+
+Este é o meu sistema para uma boa saúde. Não presto atenção alguma aos germes. Embora a pessoa comum possa considerar meu método insalubre, na verdade é o verdadeiro caminho para ser saudável. Garanto que qualquer pessoa que colocar este método em prática se tornará saudável. Não há chance, pelo menos, de você se tornar um tipo pálido e caseiro, então recomendo que fiquem tranquilos e sigam o sistema que apresentei.
+
+*20 de abril de 1950*
+
+*(Esforçar-se ao máximo) Isso significa que as pessoas saudáveis não devem mimar seus corpos. Não significa que pessoas confinadas por doença ou constitucionalmente frágeis devam tentar levar o mesmo tipo de vida ativa que as pessoas completamente saudáveis.*
+
+**(Quando termino de comer, começo imediatamente alguma atividade) Isso não se aplica aos doentes.*
+
+***Meishu-Sama não inalava a fumaça; apenas apreciava a fragrância dos cigarros. Fumava de quatro a cinco por dia e não recomendava o fumo a outras pessoas.*
+
+### 024. O Que É a Morte?
+
+Na vida, nenhuma questão é tão urgente ou tão imponderável quanto a morte. Como resultado de minha longa experiência pessoal e de minhas pesquisas em várias religiões, experimentos em espiritualismo conduzidos no Ocidente e em todos os outros campos relacionados, cheguei a uma resposta.
+
+Começarei minha explicação descrevendo a composição do ser humano, que não é o corpo físico como os cientistas afirmam, mas é composto de dois elementos fundamentais: o corpo físico e o espírito (elemento do fogo). Os elementos da água e do solo são os componentes fundamentais do corpo físico, que não pode funcionar como um ser vivo sem a alma, o elemento espiritual intangível. O corpo humano nada mais é do que a manifestação visível do espírito, e a separação do espírito do corpo é o que se entende por morte.
+
+Quando o corpo físico envelhece ou adoece, ou é ferido ou sofre perda excessiva de sangue, e não pode mais ser usado, a lei é que o espírito deve se separar dele. A perda do elemento do espírito, ou do fogo, faz com que a temperatura do corpo caia e o sangue coagule em certos pontos. O elemento do espírito, na forma que o corpo físico tinha em vida, vai então para um mundo separado chamado reino espiritual.
+
+Por ser um excelente exemplo de como isso acontece, descreverei um experimento uma vez conduzido no Ocidente em conexão com a forma do espírito. Enquanto um certo paciente se aproximava da morte, a enfermeira em quem este experimento estava sendo conduzido notou um vapor branco, semelhante a fumaça, subindo da vizinhança da testa da pessoa doente. Ele se adensou e, depois de formar um grande oval no espaço, gradualmente assumiu a forma de um corpo humano como o que o paciente tinha em vida. A forma de vapor pairou no ar a cerca de um metro acima do cadáver agora sem vida e, olhando para a família enlutada ao redor da cama, parecia querer dizer algo, mas finalmente flutuou silenciosamente em direção à janela e, dali, para fora.
+
+Pensa-se que o espírito geralmente deixa o corpo a partir de um número limitado de lugares: a testa, o abdômen ou os pés. Em casos como morte por explosão, quando o corpo é mutilado, o espírito é temporariamente disperso em inúmeras partículas finas, mas imediatamente se reagrupa centripetamente para assumir a forma do corpo que a vítima tinha em vida. A partir daí, procede exatamente como os espíritos daqueles que morrem como resultado de doença.
+
+Quando o espírito se move para qualquer lugar sob sua própria vontade, ele assume uma forma esférica enquanto flutua pelo espaço. Pessoas que podem ver esses espíritos, como a enfermeira no exemplo acima, têm poderes especiais que são inatos ou adquiridos através de treinamento. Houve muitas pessoas assim em nosso país, e eu as encontrei em numerosas ocasiões. Uma mulher que usei em um experimento provou ter maravilhosos poderes de clarividência.
+
+*1939*
+
+### 025. Vida e Morte
+
+Desde os tempos antigos, as pessoas dedicaram mais energia ao problema da morte do que a qualquer outro. Nada é mais aterrorizante do que a morte, que põe fim a toda felicidade e esperanças. No entanto, com exceção de certos casos especiais, a maioria das mortes é causada, pode-se dizer inevitavelmente, por doença. A maioria das mortes que ocorrem antes dos noventa anos resulta de doença — são, em outras palavras, não naturais.
+
+A expectativa de vida humana natural seria encerrada não por doença, mas pelo envelhecimento e pelo gradual aumento da debilidade física. Por essa razão, as pessoas que morrem dessa maneira natural não sofrem e geralmente podem prever o fim. O corolário é que as mortes acompanhadas de sofrimento não representam o término natural da vida. As pessoas estão apenas se resignando à sua sorte quando, em um caso de morte prematura, buscam consolo em palavras como "Sua hora havia chegado".
+
+O famoso sacerdote zen Torisu Etsuzan, que morreu há alguns anos aos cento e doze anos, previu sua própria morte. Ele chamou um número considerável de membros da família imediata, parentes e amigos para o seu lado, disse algumas palavras de despedida a cada um e, meditando até a hora profetizada chegar, morreu silenciosa e indolormente. Este é um excelente exemplo de morte "natural".
+
+*1939*
+
+### 026. Morte Natural e Não Natural
+
+A morte é a extinção da vida que ocorre quando, como uma árvore que murcha e morre, o ser físico não é mais capaz de viver. As numerosas causas de morte podem ser agrupadas em duas categorias principais: natural e não natural. A morte natural ocorre quando o tempo de vida alocado ao ser vivo se esgota. A morte não natural resulta de doença, acidente, violência ou suicídio.
+
+Os seres humanos deveriam morrer naturalmente; no entanto, por mais incrível que pareça, as mortes naturais diminuíram constantemente em frequência à medida que a civilização avançou, enquanto as não naturais, especialmente as causadas por doenças, aumentaram. Por que é que, apesar dos avanços inexoráveis em outros campos da civilização, a situação em relação à vida humana retrocedeu? Este único fato deveria fazer suspeitar de algum erro grave, mas, apesar de seu desejo ilimitado de pesquisa em outros campos, eles permanecem extremamente indiferentes a essa questão, presumivelmente porque estão resignados à sua incapacidade de fazer qualquer coisa sobre a questão da mortalidade.
+
+Isso ocorre porque nenhuma ciência ou religião do passado foi capaz de fornecer uma solução definitiva para a questão. Consequentemente, não importa que progresso seja feito em outros campos, nesta área o homem não tem outro recurso no momento senão deixar a natureza seguir seu curso. O tópico obviamente requer mais reflexão. Nada poderia ser mais contrário às intenções de Deus, que fez o homem para ser o animal supremo, do que as mortes não naturais excederem as mortes naturais em número — e continuarem a aumentar.
+
+Se Deus é de fato onipotente, mais cedo ou mais tarde Ele deve restaurar à humanidade suas qualificações como líder da criação. Obviamente, não há razão para Deus olhar silenciosamente para sempre para as anormalidades da vida humana. É natural, segue-se, que o Deus Onipotente elimine as mortes não naturais e, assim, prolongue a vida humana através do poder divino. E isso apenas sublinha ainda mais a iminência do mundo da luz, o mundo livre de doenças pelo qual a humanidade esperou por milhares de anos.
+
+*19 de junho de 1936*
+
+## TOXINAS
+
+### 027. Uma Análise das Toxinas
+
+Passarei agora a uma explicação das toxinas. Basicamente, a toxina é algo que contamina o sangue ou macula o espírito. Essa contaminação ou mácula surge, é claro, como resultado da contaminação pelo mal. A ideia de contaminação tem sido muito enfatizada pelas religiões desde os tempos antigos, mas até agora os relatos sobre ela foram simplistas demais: o mal é contaminante, então deve ser evitado. Mas esse tipo de explicação não pode, de forma alguma, convencer uma civilização que se tornou intelectual e científica. Hoje, as pessoas exigem um argumento sólido baseado na lógica empírica.
+
+Assim como o mundo consiste em um reino físico e um espiritual, o ser humano é composto de seres físicos e espirituais inseparavelmente inter-relacionados. Como o espírito e o corpo são um, a mácula do espírito se reflete no sangue e vice-versa. Isso é de suma importância e deve ser claramente compreendido.
+
+O mal físico que uma pessoa comete causa a formação de máculas no espírito. Um acúmulo dessas máculas faz com que um processo de purificação comece; isso pode tomar a forma de doença, punição legal ou algum outro desastre. Qualquer mal que escape desses tipos de purificação será punido espiritualmente de acordo com a lei de Deus. Uma pessoa pode evitar a retribuição de seus semelhantes, mas a punição de Deus é absoluta e se refletirá no corpo na forma de algum grande sofrimento. Tais doenças são altamente malignas e muitas vezes fatais.
+
+O processo de sofrer as consequências do mal pode ser comparado a uma dívida. Quanto mais tempo ela permanece sem pagamento, mais os juros se acumulam. Aqueles raros vilões que conseguem evitar a punição da humanidade e de Deus neste mundo mergulharão no inferno quando morrerem por causa da gravidade de seus atos, e finalmente serão obrigados a se arrepender. O inferno em questão é como aquele que os budistas chamam de Avichi, a mais baixa de todas as regiões infernais, ou o *Nezoko-no-kuni* (terra abaixo das raízes) do Xintoísmo, onde há escuridão completa na qual se permanece como que congelado por centenas de anos. Todas as pessoas desesperadamente más devem se resignar a ir para esse tipo de mundo. Percebo que as pessoas modernas terão dificuldade em aceitar isso, mas insisto que seja acreditado, pois o que digo vem diretamente de espíritos que ouvi durante minhas pesquisas no reino espiritual.
+
+O autorreproche que se sente ao fazer o mal resulta em sofrimento, que é em si uma forma de purificação suave. Seria bom se o arrependimento completo se seguisse nesta fase, mas raramente acontece, e a maioria das pessoas continua a pecar cada vez mais. A extensão da mácula espiritual é proporcional ao grau do erro.
+
+As máculas, no entanto, podem vir de fora, bem como de dentro. Tomemos, por exemplo, um caso em que uma pessoa causa sofrimento a outra. A vítima fica com raiva e amargura, e essas emoções são transmitidas através de cordões espirituais para o ser espiritual da pessoa que causou o dano original, e assim causam máculas. Em contraste, quando uma pessoa faz outra feliz, sua gratidão é transmitida de volta na forma de luz para o benfeitor, cujas máculas são reduzidas por ela. É uma lei fundamental da natureza que quanto mais tais boas ações são feitas em segredo e sem desejo de recompensa, maior será a recompensa de Deus. Os seres humanos devem acreditar e seguir esta verdade absoluta.
+
+A purificação da mácula causa doenças e outros desastres; portanto, se os seres humanos desejam ser felizes, devem fazer o bem, não o mal, e assim impedir que seus espíritos se maculem.
+
+A seguir, abordarei o assunto do ponto de vista físico. A forma de doença que vem da turvação do sangue é, é claro, causada pelo veneno chamado medicamento. Os medicamentos são essencialmente tóxicos, mas as pessoas os interpretaram erroneamente como benéficos porque não sabem que a doença é um processo de purificação.
+
+Explicarei o princípio envolvido na medicina tóxica do ponto de vista do experimento prático, mas devo ressaltar que mesmo as pessoas que foram curadas pelo Johrei podem sofrer uma recaída. Chamamos isso de repurificação. Embora o Johrei inicial remova as toxinas que já estimularam o processo de purificação, à medida que a pessoa retorna ao trabalho vigoroso e ativo, uma purificação enérgica começa novamente. Em outras palavras, o paciente se torna saudável como resultado da purificação, e mais purificação é estimulada por essa boa saúde. À medida que o processo se repete, o paciente se aproxima gradualmente da recuperação total. Essa repurificação, no entanto, pode envolver temperaturas altas bastante violentas e tosse severa. A fleuma tossida é antiga e, portanto, espessa; é facilmente reconhecível pelo seu cheiro medicinal. O paciente perde o apetite, enfraquece e, em casos raros, pode morrer.
+
+O Criador permitiu que a terra produzisse todos os alimentos necessários para a nutrição da humanidade, os protagonistas do mundo. Deus deu a cada alimento seu próprio sabor e aos seres humanos o sentido do paladar. Portanto, não há necessidade de se preocupar com a nutrição. Apenas comer e apreciar as coisas que se gosta é suficiente para uma boa saúde. O princípio em operação neste caso é semelhante ao que governa o apetite sexual, que tem outros propósitos além de simplesmente criar seres humanos. Assim, os seres humanos não devem colocar em seus corpos nada além de substâncias especificadas como alimentos. Se o alimento não tem sabor ou é amargo, não deve ser comido. É por ignorância disso que as pessoas sempre cometeram o grande erro de supor que medicamentos desagradáveis são bons para o corpo.
+
+*1 de dezembro de 1952*
+
+### 028. Os Três Tipos de Toxinas
+
+Todas as doenças são causadas pelas três toxinas: toxina acumulada (*nendoku*), toxina urinária (*nyodoku*) e toxina medicamentosa (*yakudoku*).
+
+A toxina acumulada também poderia ser chamada de toxina medicamentosa hereditária, pois é transmitida de geração em geração e, por fim, se transforma em um tipo independente de toxina.
+
+A toxina urinária resulta do excesso de urina causado pelo mau funcionamento dos rins.
+
+Já expliquei o que é a toxina medicamentosa e me limitarei aqui a explicar as formas como ela se manifesta. Ela produz principalmente condições desagradáveis como febre, dor, coceira, diarreia, náusea, paralisia e assim por diante. A febre é mais perceptível em pessoas que tomam medicamentos em grandes quantidades. Pela mesma razão, pode-se dizer que pessoas que normalmente não usam medicamentos raramente sofrem de febre. Novamente, a dor causada por medicamentos de estilo ocidental é muitas vezes aguda, enquanto a dor de medicamentos de estilo chinês é mais surda.
+
+*5 de fevereiro de 1947*
+
+### 029. Toxina Urinária
+
+Como foi frequentemente apontado, toxinas especialmente duras que persistem no corpo como resultado de gerações de uso de medicamentos e que, portanto, não são prontamente eliminadas, tendem a se acumular onde os nervos são mais densos. Como tensionamos nossas cinturas, quadris e costas nas posições que assumimos durante várias atividades, essas toxinas se acumulam particularmente na região dos rins; isso é claramente ilustrado nas doenças dos entusiastas do golfe.
+
+Como tais toxinas comprimem os rins, a extensão em que se acumulam afeta a eficiência do órgão. Por exemplo, se rins operando com eficiência máxima são capazes de remover dez unidades de urina do corpo, eles podem ser capazes de remover apenas nove unidades quando comprimidos pelo acúmulo de toxinas. A outra unidade permanece no corpo para se tornar toxina urinária.
+
+Como as toxinas de segundo estágio — aquelas reforçadas por alguma substância estranha, como um medicamento, multiplicadas sobre a toxina original ou de primeiro estágio — a toxina urinária se acumula em regiões de densa concentração nervosa. Devido à sua relação com os movimentos corporais, ela tende a se concentrar mais na região dos rins, no abdômen, nos gânglios linfáticos da virilha, no peritônio, nos ombros e no pescoço. O acúmulo de toxinas é maior no lado mais comprimido.
+
+Enquanto as toxinas medicamentosas transmitidas hereditariamente são limitadas em quantidade, e as próprias toxinas medicamentosas são limitadas às quantidades de medicamento tomadas, as toxinas urinárias são constantemente produzidas e, portanto, difíceis de tratar. Esta toxina urinária é uma das três toxinas que, juntas, são, em geral, a fonte de todas as doenças.
+
+*1939*
+
+### 030. Toxinas Persistindo por Meio Século
+
+Aos dezoito anos, contraí pleurisia. O tratamento consistiu em abrir um orifício no meu lado e drenar cerca de duzentos gramas de fluido. Germicidas foram usados na operação. Mais tarde, a doença recorreu. Desta vez, recebi medicamentos. Os efeitos combinados dos medicamentos e dos desinfetantes causaram um acúmulo duro de toxinas em um lugar entre minhas costas e axila que descobri apenas recentemente.
+
+Decidi ministrar Johrei em mim mesmo para me livrar disso. No início, estava muito duro, mas gradualmente amoleceu e começou a se dissolver. Cada vez que se dissolvia um pouco mais, eu tinha diarreia. Embora o acúmulo de toxinas causasse pouca dor, achei interessante notar quão certa era a ocorrência de diarreia após o Johrei.
+
+Essa experiência provou que os acúmulos de toxinas persistem por anos. Tenho agora sessenta e oito anos, o que significa que aquele nódulo duro de toxinas esteve em meu corpo por cinquenta anos. Se eu não soubesse sobre o Johrei, ele teria permanecido comigo pelo resto da minha vida.
+
+Após cada episódio de diarreia acompanhando a dissolução das toxinas, eu me sentia muito melhor, mesmo que me considerasse bastante saudável, sem saber do acúmulo de toxinas. Depois que as toxinas finalmente se dissolveram completamente, minha condição melhorou muito, para minha grande alegria. Sinto como se tivesse adicionado vinte ou trinta anos à minha vida. Um benefício ainda maior é que minha mente funciona tão bem agora que escrever é mais fácil para mim do que nunca.
+
+O que aprendi com este incidente, em suma, foi que, em pessoas que não conhecem o Johrei, as toxinas medicamentosas podem persistir por toda a vida. Além disso, como sempre disse, as fontes de diarreia estão quase sempre na cabeça ou nas costas. Assim, existem dois tipos de diarreia: a que ocorre quando os acúmulos de toxinas nessas áreas se dispersam e se acumulam temporariamente no abdômen; e a que é causada por envenenamento por alimentos ou bebidas. Quando provocada pela *Johka* (purificação) da cabeça, a diarreia é acompanhada por grandes fluxos de sangue.
+
+*6 de junho de 1951*
+
+### 031. Medicamento: Uma Causa de Erro
+
+A maioria dos leitores provavelmente ficará surpresa com o título deste artigo. A ideia de uma relação entre o erro e o medicamento é de fato surpreendente. No entanto, por mais espantoso que pareça, existe de fato uma conexão muito séria entre os dois.
+
+O medicamento, como insisto frequentemente, é veneno. Quando entra no corpo, o sangue se torna turvo. Quando o sangue se torna turvo, o espírito se torna maculado, e isso resulta em desconforto para a pessoa que tomou o medicamento. A sensação de desconforto é o verdadeiro vilão, pois torna a pessoa afligida por ela irritadiça, irascível e, por fim, belicosa. Uma pessoa que se sente bem pode ignorar observações provocativas de outros, mas pode explodir de raiva por praticamente nada quando está sofrendo algum mal-estar. Em outras palavras, o sentimento do momento determina se uma pessoa é alegre e animada ou sombria e mal-humorada. Deve ser levado muito a sério, ademais, pois tem uma conexão íntima com toda a sua sorte na vida.
+
+As emoções desempenham um papel importante na vida humana; elas podem levar ao rompimento de casais, brigas entre pais e filhos ou irmãos e irmãs, problemas entre amigos e, em alguns casos, à perda do emprego. Obviamente, as emoções desempenham um papel muito grande em todas as esferas da vida prática e cotidiana: se, por exemplo, um funcionário em algum escritório do governo ou de uma empresa é querido e confiável por seus superiores; se uma pessoa é aprovada por seus colegas, ou um comerciante popular entre seus clientes; se um especialista técnico tem sucesso em seu trabalho ou um estudante em seu estudo; e assim por diante. A emoção é um componente normal em todos esses casos; o que importa é quando ela sai do controle.
+
+Pessoas que se treinaram a um estado de grande autocontrole podem lidar com problemas emocionais com sucesso, mas os seres humanos comuns muitas vezes buscam o estímulo da bebida, digamos, ou do jogo como uma distração de sua sensação de desconforto. Outros, que estão bem financeiramente e ocupam uma alta posição na sociedade, buscam uma fuga semelhante em uma vida luxuosa ou em aventuras sexuais. Tudo isso custa dinheiro, que é frequentemente obtido por meios menos do que admiráveis. Sabe-se que seres humanos recorreram a desfalques, fraudes, corrupção e — o mais terrível de tudo — assassinato, apenas para adquirir quantias insignificantes.
+
+Algumas pessoas afirmam ser capazes de encontrar uma mulher por trás de cada crime, mas eu mesmo penso que o medicamento está no cerne do problema. Em resumo, para encontrar alívio emocional, as pessoas hoje buscam estímulos cada vez mais fortes. Para atender às suas necessidades, organizações que oferecem diversões insalubres de todos os tipos estão aumentando e se tornando cada vez mais acessíveis através dos modernos métodos de transporte. Esses fatores, combinados com o colapso de restrições sociais mais antigas, como os sistemas de classes, fazem com que a vida séria pareça tola aos olhos de muitos.
+
+No entanto, problemas desse tipo representam o lado mais claro do quadro. O lado mais sombrio da medicação é muito mais sério. Aqui, a doença é causada em quase todos os casos. Ademais, as pessoas se automedicam imprudentemente com medicamentos e injeções, de modo que as doenças aumentam e cada vez mais seres humanos experimentam desconforto.
+
+As ramificações da dependência excessiva de medicamentos são extensas. Primeiro, porque os medicamentos causam aumento de doenças, os pacientes devem gastar dinheiro com tratamento e perder tempo no trabalho. As despesas e a perda de tempo no trabalho reduzem sua renda e esgotam suas economias. Eles devem, portanto, pedir emprestado ou ser um fardo para os outros. Eles se tornam cada vez mais desgostosos com a vida. Ao mesmo tempo, como os medicamentos reprimem, mas não curam completamente, a doença se arrasta até que eles se encontram em um impasse completo e são levados a roubar os fundos necessários ou, se forem de vontade fraca, cometer suicídio, sozinhos ou às vezes com toda a família. Casos desse tipo são relatados nos jornais todos os dias. A tuberculose é a doença que precipita muitas dessas tragédias.
+
+Para resumir, então, o crime tem suas origens em uma sensação humana de mal-estar, que é causada, por sua vez, por medicamentos. Este é o significado por trás do título "Medicamento: Uma Causa de Erro".
+
+*6 de fevereiro de 1952*
+
+### 032. Causas de Acidentes
+
+Os muitos acidentes que ocorrem hoje em rodovias e em outros lugares continuam a aumentar alarmantemente, embora estejamos sendo constantemente advertidos sobre eles. A questão de como lidar com eles é tão difícil que advertências e admoestações parecem ser o único caminho aberto. A verdadeira causa dos acidentes parece não ser reconhecida; mas, do nosso ponto de vista, tem a ver com a condição dos nervos da humanidade moderna.
+
+Em suma, os nervos das pessoas hoje não respondem com sensibilidade e rapidez. Diante do perigo, as pessoas não conseguem reagir e evitar o dano com a agilidade que é essencial. Essa lentidão deve ser retificada, pois, em crises, um deslize de uma fração de segundo pode significar um desastre. A esse respeito, fico constantemente impressionado com a falta de agilidade dos jovens. Muitos deles são muito mais lentos do que eu, e tenho quase setenta anos. O que considero uma maneira normal de me mover e agir, eles consideram rápido.
+
+A causa dessa obtusidade mental é a tendência moderna de recorrer a injeções ou medicamentos sem pensar e a todo momento. Ademais, as bebidas alcoólicas que consomem contêm conservantes ou outros produtos químicos, e os alimentos que comem foram cultivados com a ajuda de fertilizantes químicos e inseticidas. Pessoas que comeram e beberam esse tipo de coisa por muito tempo geralmente têm grandes acúmulos de toxinas medicamentosas em seus corpos.
+
+Virtualmente saturadas de medicamentos e compelidas a levar vidas de crescente complexidade nas quais devem pensar demais, as pessoas modernas compreensivelmente têm coagulações maciças de toxinas medicamentosas em suas cabeças. Processos de purificação suaves estão ocorrendo em suas cabeças o tempo todo, de modo que praticamente ninguém hoje está mentalmente lúcido; quase todos sofrem de calor, congestão, peso e dor na cabeça. Este estado mental explica não apenas os acidentes, mas também os muitos assassinatos e agressões relatados recentemente nos jornais.
+
+*16 de julho de 1952*
+
+### 033. O Criador da Humanidade
+
+Quem criou a humanidade? Obviamente, a própria humanidade. Deus criou nossos primeiros ancestrais, mas a partir daí os seres humanos criaram outros seres humanos. Nossos corpos têm o poder misterioso de criar o espírito e a carne humana de valor inestimável. Este poder não pode ser obtido através do conhecimento, da erudição, de equipamentos mecânicos ou de medicamentos. Deus dotou cada ser humano com este poder inato.
+
+Se cada ser humano recebeu o maravilhoso poder de criar um ser físico, então dificilmente é surpreendente que ele seja capaz de curar suas próprias doenças. As terapias naturais podem, assim, produzir certos resultados.
+
+*1936*
+
+### 034. Terapia Natural
+
+Os seres humanos são, de fato, a obra-prima artística de todas as criações de Deus. Verdadeiramente, como se diz na Bíblia, os humanos foram criados à imagem de Deus. Consequentemente, é impossível para a ciência compreender inteiramente a estrutura misteriosa que é um ser humano. A ciência chegou apenas a uma compreensão parcial da humanidade, e ninguém pode dizer quantos milhares de anos serão necessários para uma compreensão completa, ou mesmo se tal compreensão é cientificamente possível.
+
+Só podemos louvar o poder do Criador de uma criatura tão maravilhosa, com suas muitas características surpreendentes manifestas nos movimentos dos membros e do corpo; nas operações sutis da vontade e do pensamento em expressões emocionais de alegria, raiva, tristeza e prazer; em nervos tão sensíveis que consideram intolerável a coceira causada por uma simples picada de pulga; em uma língua capaz de transmitir todos os tipos de intenções e de saborear os sabores de todos os tipos de alimentos e bebidas; em rostos, cada um único entre os 1,8 bilhão de pessoas na Terra. Especialmente misterioso é o processo de reprodução pelo qual um ser humano é criado.
+
+À luz dessas maravilhas, dificilmente é surpreendente que, enquanto os seres humanos não forem robôs produzidos cientificamente, a ciência será incapaz de resolver o mistério da vida.
+
+No momento em que uma pessoa adoece, o próprio corpo se põe a trabalhar para eliminar o problema. Capaz de produzir seus próprios medicamentos caseiros, o corpo é tanto um grande farmacêutico quanto um grande médico. Quando o corpo é invadido pela impureza chamada doença, o médico da medicina caseira que tem seu próprio hospital ali prontamente diagnostica a causa do problema e imediatamente emite uma prescrição para o farmacêutico, iniciando assim a terapia. O corpo produz medicamentos esplêndidos e mantém equipamentos esplêndidos, ambos capazes de produzir curas eficazes.
+
+Quando uma toxina é absorvida pelo corpo, o farmacêutico do corpo imediatamente prescreve um laxante, que induz a diarreia para livrar o corpo da substância ofensiva. Outras reações corporais também são notavelmente engenhosas. Por exemplo, a entrada de bactérias nocivas no corpo estimula o grande processo de esterilização chamado febre. Quando envenenado de uma forma ou de outra, o corpo força os venenos para fora para impedir que entrem nos órgãos internos. O resultado é que manchas vermelhas aparecem na pele, e a coceira e a febre eliminam a causa do problema. As toxinas estimulam os rins a uma ação vigorosa para usar o líquido para excretar o veneno na urina. Quando uma grande quantidade de poeira é inalada, o corpo a expele em escarro.
+
+Portanto, a maioria das doenças pode ser curada deixando-as à natureza.* No entanto, ignorantes disso, as pessoas confiam nos medicamentos e sistemas terapêuticos desenvolvidos pela pesquisa científica, dificultando muito a terapia natural e prolongando a duração da doença.
+
+No entanto, a confiança na terapia natural não elimina completamente a necessidade da prática médica. Há muito valor em coisas como bacteriologia, alguns aspectos da higiene, cirurgia em tempo de guerra ou após acidentes de trânsito e outras emergências, odontologia e ortopedia.
+
+*1935*
+
+*Isso não significa recusar a ajuda da ciência médica em caso de doença grave e possivelmente fatal. Apenas afirma que, como aproveitar os poderes naturais de recuperação do corpo humano é fundamental para a manutenção da boa saúde, a terapia natural é a mais desejável.*
+
+### 035. Os Pontos Cegos da Medicina e os Poderes Benéficos da Natureza
+
+O maior erro da medicina moderna é ignorar completamente os poderes naturais com os quais os seres humanos são inatamente dotados. Frequentemente ouvimos falar de pessoas que, ao adoecerem, vão imediatamente ao médico. Depois de examiná-las, o médico diz: "Foi bom você ter vindo a mim sem demora. Se tivesse esperado mais, teria sido tarde demais." Os médicos dizem essas coisas porque acreditam que a doença, ou permitir que uma doença siga seu curso sem tratamento, significa que a condição do paciente certamente piorará. A medicina não gosta da ideia de não lidar com uma situação a tempo e imediatamente prescreve medicamentos ou outra terapia para deter a enfermidade o mais rápido possível.
+
+No entanto, é importante perceber que essa ânsia de deter o progresso de uma enfermidade é um erro grave. A enfermidade é o processo pelo qual as toxinas são eliminadas. Se for permitido que siga seu curso, a doença certamente será curada assim que as toxinas forem removidas. É para livrar o corpo de toxinas que existem sofrimentos como febre, tosse, catarro, coriza, suor, diarreia, dor e coceira. Tudo o que é necessário é suportar a condição por um tempo. Quando as impurezas forem eliminadas, o interior do corpo estará limpo. Não faz sentido tentar lidar com a enfermidade de acordo com um cronograma.
+
+Os médicos, no entanto, ignorantes deste princípio, adotam a posição oposta e advertem fortemente contra permitir que uma doença siga seu curso. Eles tentam bloquear a passagem de impurezas que o corpo está tentando expelir e, dessa forma, fazem com que as toxinas endureçam. Obviamente, esta não é uma maneira de promover uma cura fundamental.
+
+Outro ponto cego sério da medicina é o pavor da supuração que geralmente ocorre quando o corpo humano sofre uma ferida ou queimadura. Por causa desse medo, os médicos cometem o grande erro de tomar várias medidas para prevenir a infecção. O choque de uma ferida ou queimadura faz com que as toxinas se acumulem na área lesionada; todos têm uma quantidade considerável de toxinas, que o corpo tenta expelir sempre que uma oportunidade se apresenta. Como elas se acumulam ao redor das feridas, quanto maior a área infectada, maior a quantidade de toxinas que será removida do corpo. Isso, é claro, é uma coisa muito boa.
+
+O processo pelo qual o corpo humano está constantemente se limpando e eliminando impurezas é chamado de autoterapia natural. Cada ser humano é dotado de tal poder, e respeitá-lo e dar-lhe todas as oportunidades de se manifestar é o único caminho verdadeiro para a verdadeira ciência médica. Na prática, no entanto, como é amplamente confirmado pelos fatos, os médicos aceitam e até incentivam coisas que impedem a operação desse poder natural.
+
+Simplesmente perceber os poderes de autocura naturais, concedidos pelo céu à humanidade — mais maravilhosos do que qualquer coisa que a ciência médica seja capaz — é uma fonte de imensa felicidade. O Johrei reforça e estimula ainda mais esses poderes naturais e é, portanto, o mais progressista e racional de todos os sistemas terapêuticos.
+
+*25 de julho de 1951*
+
+### 036. O Que É Enfermidade?
+
+Todos os seres humanos têm tanto toxinas inatas, herdadas de seus pais, quanto toxinas medicamentosas adquiridas, que entram no corpo após o nascimento. A maioria das pessoas acha esta afirmação surpreendente. Desde os tempos antigos, a crença foi aceita e serviu como a ideia central subjacente à prática médica, de que o medicamento era algo que curava doenças e melhorava a saúde, e que, com o medicamento certo, o problema da enfermidade poderia ser resolvido. As pessoas, assim, presumiram que a descoberta de bons medicamentos resolveria o problema da enfermidade.
+
+Todos conhecem a importância que o povo dos Estados Unidos atribui aos medicamentos e os esforços extremos que dedicam à descoberta de novos. Se os medicamentos produzissem curas, o número de doenças deveria, em teoria, diminuir gradualmente. Em vez disso, em aparente desafio a toda a razão, elas estão em constante aumento.
+
+Não existe na Terra um medicamento verdadeiramente curativo. Todos os medicamentos são venenos, cada um com seu próprio efeito. A operação do veneno chamado medicamento parece curar porque diminui os sintomas patológicos.
+
+Por que digo que os medicamentos são venenos? Quando o Criador fez os seres humanos, ele simultaneamente forneceu todos os alimentos de que necessitam. As coisas que são adequadas para o consumo humano são claramente distintas daquelas que não o são. As coisas que devemos comer têm sabores agradáveis, e fomos dotados de um sentido do paladar. O cuidado escrupuloso que o Criador teve com esses arranjos é revelado na maneira como as pessoas podem obter toda a nutrição de que precisam simplesmente comendo as coisas de que gostam. Não comemos conscientemente para viver, mas vivemos porque comemos. O mistério da procriação é semelhante, na medida em que homens e mulheres não se envolvem em relações sexuais especificamente para ter filhos. Os filhos são concedidos aos seres humanos como o resultado incidental de atos realizados para outros fins.
+
+As funções internas do corpo humano são incapazes de lidar com materiais estranhos que não sejam aqueles criados para servir como alimentos. Esses outros materiais são as toxinas medicamentosas, que tendem a se acumular e, com o passar do tempo, endurecer em várias partes do corpo. As áreas endurecidas resultantes são encontradas apenas em regiões onde os nervos operam, como a parte superior do corpo, especialmente o pescoço e acima. Esta é a região dominada pelo cérebro e inclui os olhos, ouvidos, nariz e boca. Estes são os lugares onde as toxinas tendem a se acumular, endurecendo na vizinhança do pescoço e causando a rigidez na região do pescoço e dos ombros que todos experimentam.
+
+Quando um certo grau de intensidade é atingido, o processo natural de eliminação, ou purificação, se inicia. A febre dissolve as toxinas, que, em forma líquida, são eliminadas do corpo através da tosse, escarro, secreções nasais, suor, movimentos intestinais e urina, ou os sintomas do que é chamado de resfriado comum. O resfriado é um processo para livrar o corpo de toxinas. Se o paciente suportar o desconforto e permitir que as coisas sigam seu curso natural, eventualmente o interior do corpo será limpo e uma cura será efetuada. Isso é algo maravilhoso.
+
+O simples processo fisiológico conhecido como resfriado é, na verdade, uma evidência da providência de Deus pela qual deveríamos ser gratos, embora as pessoas interpretem incorretamente o sofrimento causado pela purificação. É certamente evidente quão equivocada é a medicina ao conceber maneiras de pôr fim ao processo. Quanto mais vigoroso e animado o ser humano, mais prontamente o processo de purificação ocorre. Tentar deter o processo só pode reduzir o vigor do corpo.
+
+No entanto, as pessoas ainda recorrem ao veneno chamado medicamento. Desde os tempos antigos, as pessoas preparam medicamentos líquidos, pílulas, unguentos e injeções, fervendo, pulverizando e extraindo elementos encontrados em ervas, raízes, cascas, minerais e órgãos de animais para uso na interrupção do processo de purificação. Como tais venenos são fortes o suficiente para serem fatais, eles são administrados em doses pequenas e diluídas. As quantidades são estabelecidas para serem tomadas várias vezes ao dia. Um medicamento que funciona bem é aquele em que a toxina foi fortalecida o máximo possível sem atingir um nível que possa causar dependência.
+
+O uso de toxinas medicamentosas endurece aquelas outras toxinas que, tendo sido dissolvidas, estão em solução e no processo de serem eliminadas. O alarde atual sobre higiene preventiva e o medo do resfriado comum indicam o quão envenenado o homem moderno se tornou e quão fácil é para ele adoecer.
+
+Ademais, a felicidade que as pessoas sentem por uma expectativa de vida de sessenta e poucos anos é gravemente equivocada. Se não fosse pela enfermidade, os seres humanos poderiam facilmente viver mais de cem anos. A morte com menos de cem anos é antinatural e causada pela enfermidade. Se a doença fosse eliminada e a morte natural prevalecesse, todos nós viveríamos mais.
+
+Como a discussão até agora deveria ter mostrado, a terapia médica não cura a doença, mas simplesmente alivia a dor temporariamente. Todos os métodos que ela emprega para alcançar esse fim — repouso total, compressas úmidas, aplicações, bolsas de gelo, terapia elétrica, tratamentos com radiação e assim por diante — apenas endurecem as toxinas. A moxabustão e os tratamentos térmicos são exceções. Estes usam a estimulação pelo calor para guiar as toxinas para certos locais e trazer alívio da dor, mas isso é tudo; quando a situação retorna ao que era antes, nada de duradouro foi alcançado. Os métodos terapêuticos usados até agora endureceram as toxinas. A única maneira de promover uma cura verdadeira é dissolver as toxinas e removê-las do corpo.
+
+*1 de janeiro de 1953*
+
+### 037. A Verdadeira Causa da Enfermidade
+
+Como eu disse na seção anterior, os seres humanos possuem várias toxinas quando nascem neste mundo. Como é impossível manter uma saúde perfeitamente boa por causa das obstruções que essas toxinas criam, o corpo é constituído para passar por um processo de purificação natural constante para eliminá-las fisiologicamente. Este processo de purificação natural é acompanhado por alguma dor ligada ao processo conhecido como enfermidade.
+
+Isso pode ser ilustrado com referência à mais comum de todas as enfermidades, o resfriado. Embora provavelmente não haja ninguém que não tenha experimentado um resfriado em algum momento, as causas da enfermidade permanecem desconhecidas para a ciência médica. Minha própria descoberta, no entanto, foi que o resfriado é um dos processos de purificação mais simples de todos. Uma pessoa que pega um resfriado provavelmente manifestará uma variedade de sintomas desagradáveis — febre, dores de cabeça, tosse, expectoração, secreções nasais, perda de apetite, sudorese, letargia e dor nas articulações — que discutirei em breve em detalhes.
+
+Primeiro, porém, devo analisar a natureza do processo de purificação, que divido em duas categorias. Na primeira categoria, várias toxinas no sangue se acumulam e endurecem em várias partes do corpo. Os lugares onde elas se acumulam naturalmente são áreas de concentrações nervosas ou regiões que estão na parte inferior do corpo quando este está em repouso. Com o passar do tempo, as toxinas acumuladas endurecem para produzir o que é comumente chamado de rigidez. Geralmente, esta condição é indolor ou associada a nada pior do que a rigidez dos ombros.
+
+O segundo processo de purificação ocorre quando o primeiro já excedeu certos limites e a eliminação natural de toxinas começa. Para facilitar tal eliminação, é essencial dissolver as toxinas endurecidas. A febre é o meio empregado para alcançar este fim. O grau de febre necessário depende da dureza, natureza e quantidade das toxinas e da constituição física do paciente. A febre é ocasionalmente experimentada devido à fadiga após o exercício. Isso acontece porque o exercício estimula o processo de purificação. As toxinas dissolvidas por ele são removidas do corpo em suor, expectoração e secreções nasais.
+
+Como resulta em expectoração, a tosse nesses casos pode servir como uma "bomba". As secreções nasais são removidas no espirro. O escarro é expectorado após a tosse; o espirro é sempre seguido pela descarga de matéria nasal. A febre, a expectoração e a ingestão de medicamentos causam perda de apetite. O movimento causado pela dissolução de toxinas endurecidas e a preparação para eliminá-las estimula os nervos na área afetada e provoca dor de cabeça e dores nas articulações. As toxinas sendo eliminadas pela tosse entram em contato com as membranas mucosas, causando catarro na garganta e nas cordas vocais, o que por sua vez causa dor e rouquidão.
+
+Se nenhum tratamento for dado e nenhum medicamento for usado, esses sintomas do resfriado são deixados para seguir seus cursos naturais e serão curados em pouco tempo, pois o processo de purificação é concluído de forma ordenada. Confiar na terapia natural desta maneira reduz a quantidade de toxinas no corpo e melhora a saúde.
+
+Ao mostrar que os resfriados deveriam, na verdade, ser bem-vindos como o mais simples dos processos de purificação, esta discussão deve deixar claro quão equivocadas são as pessoas quando os temem, e quão equivocada é a ciência médica ao tentar tão arduamente impedir que as pessoas os peguem. Desde os tempos antigos, diz-se, por exemplo, que "o resfriado é a fonte de todas as doenças". Na verdade, porém, é necessário afirmar que o resfriado é o único meio pelo qual todas as outras doenças podem ser evitadas.
+
+Ignorante das causas do resfriado, a ciência médica aplica vários métodos quando uma pessoa pega um resfriado, mas todos eles interrompem o processo de purificação. Antitérmicos, bolsas de gelo e compressas úmidas para baixar a febre são exemplos. Eles têm o efeito de retroceder a purificação da segunda para a primeira categoria. Eles reendurecem aquelas toxinas que haviam começado a se dissolver. Embora o médico e o paciente sejam iludidos a pensar que a condição está melhorando porque sintomas como febre, tosse e secreção nasal são reduzidos, na verdade as toxinas endureceram novamente e a situação regrediu ao que era antes do início da purificação de segunda categoria. A recorrência da doença é, portanto, apenas de se esperar.
+
+É importante notar que todas as medidas como medicação, bolsas de gelo e compressas úmidas pioram a situação quando ela recorre, porque interrompem o processo de purificação. Consequentemente, a interrupção repetida de processos de purificação menores por meios como medicamentos faz com que as toxinas se acumulem e aumentem, tornando necessário um processo de purificação maior e inevitável, que assume a forma de uma doença grave.
+
+*5 de fevereiro de 1947*
+
+### 038. O Que É Enfermidade? O Resfriado
+
+A ciência médica concorda que as pessoas têm várias toxinas inatas. O corpo inicia um processo fisiológico natural na tentativa de se livrar delas. Chamamos esse processo de purificação.
+
+Inicialmente, as toxinas se acumulam em várias partes do corpo, especialmente nas áreas onde os nervos são mais usados: a parte superior do corpo humano, notadamente ao redor do cérebro. Quando uma pessoa está acordada, o cérebro, os olhos, os ouvidos, o nariz e a boca estão constantemente ativos, mesmo que as pernas e os braços possam estar em repouso. Consequentemente, as toxinas se acumulam principalmente na área do cérebro e, em seguida, nos ombros, pescoço, glândulas linfáticas, topo da coluna vertebral e na região das glândulas sob as orelhas. Gradualmente, esses acúmulos localizados de toxinas endurecem.
+
+Quando o endurecimento atinge um certo estágio, o processo de eliminação começa. Isso deve ser considerado uma bênção. O endurecimento das toxinas reduz o vigor a ponto de o ser humano ser incapaz de realizar suas tarefas fundamentais, interferindo na circulação sanguínea e causando rigidez no pescoço e nos ombros, dores de cabeça, peso na cabeça, redução da visão, dificuldade de audição, nariz entupido, embotamento do sentido olfativo, piorreia, dentes ruins, falta de ar, lentidão nas pernas e braços, dores nas costas e inchaço. Para evitar isso, o Senhor Criador proveu o esplêndido processo de purificação chamado enfermidade.
+
+Se a dor envolvida na eliminação de toxinas é o que chamamos de enfermidade e essa enfermidade purifica o sangue, ela deveria ser considerada a maior de todas as bênçãos de Deus, pois é o elemento essencial para a boa saúde. Poderia até ser que, se não estivessem sujeitos à doença, os seres humanos enfraqueceriam gradualmente e talvez se extinguissem. Como defendo a criação de um mundo livre de doenças, posso parecer contradizer-me ao dizer isso, mas não é o caso. O que quero dizer é a eliminação de todas as toxinas para que o processo de purificação, e portanto a doença, se torne desnecessário.
+
+Explicarei agora o meu significado da forma mais completa e compreensível possível.
+
+Chamamos o processo de eliminação de toxinas endurecidas de purificação. Quando uma pessoa pega um resfriado, o primeiro sintoma é a febre. A natureza emprega a febre para dissolver as toxinas endurecidas e facilitar sua eliminação. As toxinas líquidas então entram rapidamente nos pulmões. Este é um processo altamente místico. Por exemplo, se dissolvermos as toxinas por meio do Johrei, elas vão imediatamente para os pulmões, passando direto pelos músculos e ossos. A condição é bastante leve quando as toxinas estão concentradas em apenas um ou dois lugares no corpo, mas se torna mais séria à medida que o número de concentrações aumenta. É por isso que um resfriado que parece leve no início às vezes se torna mais sério.
+
+Se as toxinas liquefeitas são finas, elas entram rapidamente nos pulmões e são imediatamente expelidas do corpo como escarro. Se forem mais densas, no entanto, a operação semelhante a uma bomba da tosse é acionada para eliminá-las através da traqueia. Assim, a tosse é imediatamente seguida pela descarga de escarro, assim como o espirro é sempre acompanhado por secreção nasal.
+
+Da mesma forma, dores de cabeça, dor de garganta, inflamação do ouvido interno e das glândulas linfáticas, e dor nos braços e pernas e nas glândulas próximas à virilha são todas causadas quando as toxinas que estavam solidificadas nessas partes se liquefazem e começam a se mover em busca de uma saída. Essas condições ocorrem devido à estimulação dos nervos.
+
+As toxinas fluidas podem ser concentradas ou diluídas. As concentradas são eliminadas do corpo em escarro, secreção nasal ou diarreia; as extremamente diluídas são aquosas e podem ser eliminadas como suores noturnos ou urina. A maneira completamente natural como esse processo de purificação ocorre nos faz maravilhar com os poderes do Criador.
+
+Não há razão para que Deus tenha produzido seres humanos e depois lhes imposto algo como a doença, que lhes causa sofrimento e impede sua atividade. Na verdade, os seres humanos produzem toxinas por erro e permitem que elas se acumulem em corpos que deveriam ser infalivelmente saudáveis, de modo que o processo de eliminação se torna inevitável e essencial.
+
+Se esta é a natureza da doença, significa que o resfriado comum, se deixado para seguir seu curso naturalmente, deve ser curado sem tratamento específico, pois o processo de purificação ocorrerá naturalmente. Quando isso acontece, a saúde melhora. No entanto, por alguma razão inexplicável, em algum momento esse processo de purificação foi completamente mal compreendido. Quando uma doença se desenvolve, as pessoas tomam medidas extremas para interromper a purificação porque interpretam a dor que a acompanha como uma indicação de que sua condição está se deteriorando. Com medo, tentam reduzir a febre. A redução da febre interrompe a liquefação das toxinas; como consequência, todos os sintomas como tosse e descarga de escarro diminuem, dando a impressão de recuperação da enfermidade.
+
+Ao recorrer à terapia médica para tratar um resfriado, as pessoas apenas reendurecem as toxinas que haviam começado a se liquefazer. Como medidas como bolsas de gelo, aplicações frias, medicamentos e injeções endurecem as toxinas e eliminam simultaneamente os sintomas patológicos, as pessoas tendem a acreditar que estão efetuando uma cura. Na verdade, essas medidas apenas dificultam a operação de limpeza que já havia começado.
+
+Os resfriados pioram porque, ao tentar detê-los, as pessoas forçam o processo de purificação a entrar em conflito com o processo de não purificação de uma maneira que gera atrito. Mesmo quando a aplicação da terapia médica parece tê-lo conquistado, o resfriado inevitavelmente reaparecerá. Em suma, em vez de curar a doença, a medicina apenas a adia.
+
+O caminho para curar a enfermidade é purificar o corpo, livrando-o completamente das toxinas que são a causa fundamental da doença. A única terapia verdadeira é aquela que, quando a purificação começa, acelera a liquefação das toxinas e maximiza sua eliminação do corpo.
+
+*15 de agosto de 1951*
+
+### 039. O Que É o Resfriado Comum?
+
+Provavelmente é impossível para a pessoa comum, vivendo como membro da sociedade, evitar pegar um resfriado. Sentir frio é geralmente considerado a causa dos resfriados, e é difícil evitar a condição que se apresenta muitas vezes todos os dias quando se pode sentir frio: despir-se antes de ir para a cama, vestir-se ao acordar, tomar banho e sair ao vento e à chuva frios. Consequentemente, ensino que as pessoas não devem se preocupar demais com isso.
+
+Às vezes, sentir frio é seguido por pegar um resfriado, e às vezes não é. Quando é, é porque a pessoa tinha uma leve febre; quando não é, é porque não havia febre. Em outras palavras, a pessoa já havia pegado um resfriado, e a leve febre foi o primeiro sinal da doença; o resfriado teria vindo, não importa se seu corpo estivesse gelado ou não. Particularmente se ela tem uma leve febre, sentirá calafrios, não importa onde esteja e não importa o quão agasalhada esteja.
+
+É importante perceber, no entanto, que quando o tempo muda ou quando uma pessoa é exposta ao frio, não há como impedir o processo natural de purificação que ocorre em resposta a essas condições. É, portanto, fútil tentar evitar pegar resfriados, que são inevitáveis. De fato, a tentativa pode ter efeitos psicológicos adversos. Estou convencido de que não há ninguém que possa evitar um resfriado sendo cuidadoso.
+
+A ciência médica ainda não consegue identificar a causa do resfriado comum. No entanto, tentarei uma explicação aproximada à luz de minhas próprias visões.
+
+Em primeiro lugar, a causa básica da saúde ou doença nos seres humanos é a pureza ou impureza de seu sangue. Uma pessoa saudável tem sangue puro, enquanto o sangue de uma pessoa doente é turvo. Felizmente, um processo de purificação está constantemente ocorrendo no corpo de uma pessoa com sangue turvo, e os elementos (toxinas) responsáveis pela turvação se acumulam em um lugar e endurecem. Este é, como já expliquei, o primeiro processo de purificação. O segundo processo de purificação — isto é, a eliminação das toxinas endurecidas — se segue. Este processo é o que se chama de resfriado comum. A febre dissolve e liquefaz as toxinas endurecidas, que, após se acumularem primeiro nos pulmões como escarro, são expelidas pela ação de bombeamento envolvida na tosse. Em outras palavras, o resfriado comum é a forma mais simples de purificação. Como resultado, o sangue turvo se torna puro e a saúde melhora. Consequentemente, o resfriado é uma grande bênção concedida à humanidade por Deus e um processo fisiológico natural.
+
+*23 de novembro de 1943*
+
+### 040. Banho Interno
+
+Estou constantemente escrevendo sobre as falácias inerentes à medicina moderna. Algumas pessoas aceitam os princípios nos quais nossa filosofia se baseia, mas, na realidade, a maioria é incapaz de colocá-la em prática com ousadia porque pensa em doença em termos de médico e medicamentos. Pelo bem dessa maioria, explicarei aqui nossa abordagem da maneira mais compreensível possível.
+
+Provavelmente, a doença mais facilmente compreendida é o resfriado comum. Quando as pessoas pegam um resfriado e sintomas como febre, tosse, catarro, espirros, coriza, dores de cabeça e dor nas articulações se desenvolvem, elas imediatamente procuram um médico para um diagnóstico. Esta é a causa do problema.
+
+Embora percebam que a doença não é mais do que um resfriado, a maioria das pessoas que pega um imediatamente abriga o medo de que, se não forem cuidadosas, a situação se tornará mais séria e que estão vivenciando os primeiros estágios de uma doença muito mais grave. Algumas pessoas simplesmente fazem o que o médico instrui e esperam melhorar. Outras recorrem a remédios caseiros como aspirina, chás de raízes e ervas, uma bebida de saquê e ovos, casca de laranja carbonizada e assim por diante, ou vão para a cama, empilham cobertores sobre si mesmas e tentam suar, ficando vermelhas no processo.
+
+Não satisfeitas com curas caseiras improvisadas e com medo de que a doença saia do controle e se torne talvez incurável, pessoas com menos coragem do que dinheiro correm para seu médico de confiança. Elas fazem muitas perguntas, mas, como o próprio médico não entende a causa do resfriado comum, ele ou ela é incapaz de dar qualquer explicação clara. Consequentemente, a mente do paciente, naturalmente, não fica em paz. O médico pode muito bem suspeitar do perigo de pneumonia, mas deve se contentar com injunções superficiais como "Vá para a cama e descanse" ou "Cuide-se bem", aumentando assim apenas a ansiedade do paciente. Tais pacientes são obrigados a ficar em casa o dia todo com um termômetro e, do nosso ponto de vista, parecem ridículos.
+
+Não há nada mais benéfico para a saúde do que o resfriado, pois ele limpa as toxinas armazenadas em todas as partes do corpo. É bom suar o máximo possível e livrar o corpo do catarro e das secreções nasais, pois esses fluidos contêm toxinas que foram dissolvidas pela febre. Quanto mais rápido eles forem removidos do corpo, mais cedo uma cura do resfriado será alcançada, deixando o paciente se sentindo revigorado e com melhor saúde do que antes. Um resfriado limpa o interior do corpo gratuitamente; que bênção maior poderia haver do que essa?
+
+Assim como o banho é uma forma de manter o exterior do corpo limpo, um resfriado é uma forma de manter o interior limpo. A lavagem remove a sujeira que adere à pele; um resfriado remove a sujeira do interior do corpo. Escarro, secreções nasais e suor são a sujeira interior sendo removida do corpo.
+
+Embora seja fácil lavar o exterior do corpo, uma limpeza semelhante do interior é impossível. A natureza, testemunhando a grande habilidade de Deus, o criador, providenciou os resfriados para fazer este trabalho, e deveríamos ser correspondentemente gratos a eles.
+
+Empregando as toxinas chamadas medicamentos e interpretando mal a natureza dos resfriados, os médicos fazem tudo o que podem para detê-los. Duvido que haja um único medicamento verdadeiro entre os produtos medicinais do mundo. Todas as substâncias agora consideradas medicamentos benéficos são, na verdade, toxinas que retardam o processo natural de recuperação. Nada é mais equivocado do que confiar nessas toxinas. As pessoas cometem o erro porque são iludidas a pensar que, quando os medicamentos trazem alívio da dor, interrompendo temporariamente o processo de limpeza interna, uma cura real foi efetuada.
+
+Em suma, a medicina é verdadeiramente um fruto proibido. O fato de eu ter descoberto este notável erro humano e ensinar o Johrei, ademais, como uma forma de eliminar as toxinas medicamentosas, mostra claramente quão grande salvação meu trabalho representa. Deveria ser óbvio também que minha insistência na criação de um paraíso na terra livre de doença, pobreza e conflito é mais do que mera ostentação.
+
+*12 de março de 1952*
+
+### 041. A Verdadeira Causa da Enfermidade Está na Alma
+
+Tudo no mundo físico é composto por um ser espiritual e um ser material. O ser material decai e se decompõe quando o espírito o abandona. Isso acontece até mesmo no caso das pedras; por exemplo, pedras que se esfarelam e quebram facilmente são às vezes chamadas de "mortas". A ferrugem na superfície do metal pode ser chamada de cadáver, pois representa o que o metal se torna quando seu ser espiritual parte. Lâminas de espada bem polidas e espelhos de metal antigos não enferrujam muito porque o espírito das pessoas que os fizeram foi adicionado aos dos objetos físicos.
+
+Todas as coisas materiais têm espíritos, mas as criaturas vivas têm seres espirituais. Em seres humanos vivos, o ser espiritual e o corpo físico estão íntima e inseparavelmente ligados um ao outro. A morte ocorre quando o ser espiritual deixa o corpo físico para o Mundo Espiritual.
+
+Além de seus seres espirituais — ou melhor, dentro de seus seres espirituais — todas as criaturas vivas têm mentes e almas. A mente é o centro do ser espiritual, e a alma é o centro da mente. Em tamanho, a mente é um centésimo do ser espiritual, e a alma é um centésimo da mente. Quando a alma se move, a mente é posta em ação. Quando a mente se move, o ser espiritual é posto em ação, e isso, por sua vez, faz com que o ser físico atue. A alma é a fonte fundamental de todo movimento humano e de todos os outros fenômenos físicos.
+
+Classificada em termos de bem e mal, a mente age como bem em relação ao mal do ser físico, e a alma como bem em relação ao mal da mente. O atrito entre os vários bens e males dá origem a uma harmonia que se manifesta como ação potencial. Consequentemente, a doença é gerada por parte da alma, que ativa o corpo físico.
+
+Embora pequena, a alma tem poderes livres de expansão e contração. Quando uma pessoa está acordada e trabalhando, a alma assume a forma humana, mas se torna redonda durante o sono. No instante da morte, a alma, a mente e o ser espiritual se tornam redondos. A luz está associada a essa redondeza. Portanto, ao deixar o corpo, a entidade espiritual assume a forma de esferas voadoras e flamejantes, que ocasionalmente são visíveis ao olho humano.
+
+A ocorrência de doença em uma parte particular da alma em sua forma humana significa, de fato, uma mácula — diminuição da luz — de uma parte da própria alma. Isso é transmitido primeiro para a mente e, em seguida, para o ser espiritual. Finalmente, manifesta-se como doença no ser físico. Portanto, enquanto a alma permanecer imaculada, a pessoa não contrairá absolutamente nenhuma doença.
+
+A poluição pelo pecado é a causa das máculas na alma. Para explicar isso, é necessário aprofundar-se no campo da religião. Portanto, não tratarei disso aqui, mas explicarei a doença como uma manifestação física.
+
+Como já expliquei, quando ocorrem máculas em parte do ser espiritual — digamos, nos pulmões — o sangue no ser físico correspondente se torna turvo. Como este princípio não se limita à doença pulmonar, mas se aplica a todas as outras enfermidades, o tratamento deve depender da remoção das máculas do ser espiritual.
+
+Conhecendo apenas a evidência e ignorando a causa principal — ou seja, deste princípio — a ciência médica moderna concentra a maior parte de sua pesquisa e esforço nos sintomas patológicos do ser físico. Embora possa trazer um alívio temporário, tal tratamento não pode efetuar curas fundamentais.
+
+Em contraste, o Johrei emprega a luz divina para eliminar as máculas no ser espiritual. Quando isso acontece, o líquido concentrado é dissolvido e a doença é aliviada ou curada, porque a purificação do ser espiritual resulta em uma cura no ser físico.
+
+No entanto, não se pode dizer que isso seja verdadeiramente fundamental. Embora certamente mais fundamental do que os efeitos da ciência médica, não pode ser chamado de absoluto, pois, a menos que a alma seja totalmente purificada, é impossível estar verdadeiramente tranquilo mentalmente. A purificação da alma só é completa quando a pessoa tem uma compreensão firme da fé correta e a põe em prática.
+
+Como esse tipo de ação é obra da luz divina, as pessoas que a realizam não geram absolutamente nenhum pecado, mas, em vez disso, acumulam virtude. Consequentemente, tais pessoas levam vidas de alegria e êxtase, totalmente livres de doenças ou calamidades. Elas desfrutam de felicidade, longa vida e prosperidade.
+
+Gostaria de aproveitar a oportunidade que esta discussão oferece para dizer mais uma coisa sobre a alma. Algumas pessoas se assustam facilmente com coisas externas e estão constantemente inquietas e agitadas porque suas almas foram enfraquecidas e seus poderes de resistência contra impulsos do mundo exterior foram reduzidos. As muitas pessoas hoje que sofrem de debilidade nervosa são desse tipo. A causa da fraqueza são as máculas na alma, mas ela pode ser curada se a coagulação de sangue tóxico na nuca for dissolvida. Se sua condição se deteriorar, tais pessoas podem sofrer de insônia. Elas também devem viver com a probabilidade de uma recorrência, mesmo após uma cura ter sido efetuada. Portanto, elas devem aceitar o Johrei e permitir que suas almas sejam tão iluminadas pela luz divina que nenhuma mácula possa se desenvolver ali.
+
+*1935*
+
+### 042. O Erro e a Causa Fundamental da Doença
+
+A doença é basicamente causada pela poluição do sangue e por um acúmulo e coagulação de fluido supurativo. Estes, por sua vez, são manifestações de máculas no ser espiritual. Isso é resultado da poluição pelo pecado, que pode ser hereditário ou adquirido.
+
+A poluição hereditária é o acúmulo e consolidação dos erros perpetrados por muitos ancestrais. A poluição adquirida é o acúmulo dos erros que uma pessoa comete nesta vida.
+
+Primeiro, tratarei em detalhes da poluição hereditária. Não somos criaturas que surgiram subitamente para a vida, sem relação com todos os outros seres. Cada um de nós tem milhares de ancestrais e é o ápice vivo e respirante de todos os nossos antepassados. Ao mesmo tempo, porém, cada um de nós é um ser intermediário, uma individualidade temporal, em um processo eterno. Na visão ampla, somos elos na corrente que conecta nossos ancestrais e nossos descendentes. Na visão menor, cada um de nós é o elo que une pai e filho.
+
+Para explicar completamente como a doença pode resultar do erro dos ancestrais, é essencial discutir a vida após a morte, ou seja, a organização do Mundo Espiritual. No que se segue, portanto, apresento um resumo da situação aqui.
+
+Ao deixar este mundo e passar pelo portão da morte, um ser humano se despoja de sua vestimenta de carne. A carne pertence a este mundo, e o espírito ao Mundo Espiritual. Como resultado do envelhecimento ou da doença, o corpo físico se degenera a ponto de não ser mais útil, whereupon o espírito abandona este fardo físico inútil e vai para o Mundo Espiritual, onde deve se preparar para o renascimento neste mundo. Essa preparação é a purificação.
+
+Como a maioria das pessoas está grandemente poluída pelo pecado durante a vida física, no Mundo Espiritual, como resultado de um julgamento justo e rigoroso, a maioria cai no inferno. Suportando sua punição lá, eles melhoram pouco a pouco. No entanto, essa purificação ainda deixa poluentes espirituais, ou um resíduo de pecado, a serem passados em um fluxo ininterrupto para seus descendentes. Filhos e netos devem arcar com o fardo dos erros de seus antepassados no que poderia ser chamado de lei de causa e efeito da expiação. Como esta é a lei inescrutável de Deus, o Criador de todas as coisas, os seres humanos não têm outra escolha senão obedecê-la.
+
+Os poluentes espirituais fluem incessantemente na direção do cérebro e da coluna vertebral de um ser humano e, imediatamente após entrarem na alma, assumem forma física como fluido supurativo, que é a causa de todos os tipos de doença.
+
+A segunda poluição, ou adquirida, é algo que todos entendem bem, pois nenhuma pessoa é capaz de viver esta vida sem cometer erros de alguma forma. É claro que o erro é de muitos tipos e graus; há erro legal, erro moral, erro social e assim por diante. Alguns erros se manifestam em ação física real, enquanto outros tipos são apenas erros da mente. Embora possa parecer muito severo, a afirmação de Cristo de que um homem que cobiça uma mulher em seu coração já cometeu adultério com ela certamente não está errada.
+
+Todos os pequenos atos e pensamentos da vida diária — odiar alguém, desejar mal a outra pessoa, desejo lascivo — embora aparentemente insignificantes em si mesmos, podem se tornar sérios se permitidos a se acumularem por um longo período. A superioridade do tipo obtida pela vitória em uma competição ou sucesso social pode fazer com que a pessoa que não teve sucesso sinta ressentimento ou inveja da pessoa mais afortunada. Esse tipo de ressentimento pode ser a causa do pecado.
+
+A tomada desnecessária da vida, a preguiça, atacar os outros, desperdiçar bens materiais, dormir demais pela manhã, quebrar promessas, falsidade e muitas outras ações e atitudes são todos pecados cometidos sem serem sentidos como tal. Embora pequenos individualmente, ao longo de um longo período de tempo, esses pecados podem se tornar numerosos e se acumular como máculas na alma.
+
+Ao contrário do que possa parecer, até mesmo os recém-nascidos têm máculas adquiridas. O caso pode ser diferente depois que as crianças deixam o lado de seus pais para se tornarem independentes, mas enquanto estiverem sob sua proteção, as crianças devem compartilhar os pecados de seus pais e mães. Os pais são o tronco da árvore. Os galhos são os filhos, e os ramos menores são os netos. Assim como nenhum galho não é afetado pelo tronco, é impossível que as máculas espirituais dos pais não influenciem a prole.
+
+A poluição adquirida e seus efeitos são muitas vezes prontamente aparentes, como os poucos exemplos a seguir mostram. Em duas dessas instâncias, pessoas que persistentemente enganaram outras pessoas ficaram cegas elas mesmas.
+
+Quando criança, eu ia frequentemente a Senzoku-cho, em Asakusa, visitar um velho que, em seus anos mais jovens, havia sido proprietário de uma loja especializada em montar pinturas e caligrafias em rolos e que havia acumulado uma fortuna como resultado de seu gênio para forjar tais obras de arte. Seus novos rolos passavam por venda como valiosas antiguidades. No entanto, como ele mesmo me contou, depois de envelhecer, ficou incuravelmente cego; morreu pouco tempo depois.
+
+Em outra instância, o sacerdote chefe de um templo no distrito de Shizuoka queria expor a principal imagem budista de seu templo em Tóquio. Ele levou a estátua para Tóquio para arrecadar fundos, mas não conseguiu e se viu sem dinheiro suficiente para a viagem de volta. Para conseguir a passagem, ele deixou a estátua como garantia com o proprietário de um negociante de móveis chamado Hanagame, em Hanakawado, Asakusa, de quem emprestou o que precisava. Percebendo seu grande valor, Hanagame vendeu a imagem. Quando o sacerdote, que havia reunido o dinheiro para o pagamento, voltou a Tóquio para resgatá-la, Hanagame, teimosa e descaradamente, recusou-se a admitir que a havia aceitado em primeiro lugar. Em um impasse irresolúvel, o sacerdote se enforcou sob os beirais de Hanagame. Tendo obtido um enorme lucro com a venda da estátua, Hanagame expandiu seus negócios e por um tempo prosperou continuamente até ficar extremamente rico. Mas em seus últimos anos, ele também ficou cego. Para piorar as coisas, seu filho, que deveria suceder em seus negócios, entregou-se à bebida e à libertinagem e esbanjou a fortuna da família. Eu via frequentemente Hanagame como um velho miserável, magro e esquelético, sendo conduzido pela mão pela cidade por sua velha esposa. Meu pai me contou a história de seu destino. Não pode haver dúvida de que a vingança do sacerdote morto estava em ação no que aconteceu com ele.
+
+Em outra instância, o pecado do pai foi visitado no filho. Uma garota de dezessete ou dezoito anos que trabalhava como empregada em nossa casa havia perdido a visão de um olho quando os filhos da família para a qual ela havia trabalhado anteriormente acidentalmente a atingiram no rosto com uma arma de ar comprimido. Descobriu-se que, em meados do século XIX, seu pai era especialmente habilidoso em fazer imitações de contas de coral de borracha, que ele vendia para pessoas do campo a preços altos como se fossem genuínas. Embora tenha ganhado muito dinheiro dessa forma, o ressentimento das pessoas que ele enganou deve ter sido igualmente grande. O pecado do pai foi visitado na filha na forma de perda de visão em um olho. Além disso, se seus olhos fossem normais, essa garota teria ido longe no mundo, pois, além dessa única deformidade, ela era muito bonita.
+
+Em ainda outra instância, um velho veio me pedir para tratar uma dor em seu pulso. Fiquei tão surpreso que mais de dez dias de terapia não o curaram que perguntei qual era sua fé religiosa. Ele me disse que por mais de vinte anos havia depositado sua fé em uma certa divindade. Assim que ele seguiu meu conselho de parar de adorar aquele deus, seu braço melhorou gradualmente. E, em uma semana, ele estava completamente curado.
+
+Eu ouço frequentemente sobre pessoas cujas mãos estão paralisadas ou doloridas ou cujos joelhos não dobram porque adoram erroneamente a divindade errada.
+
+Como esses exemplos mostram, não devemos subestimar a poluição adquirida pelo pecado. Pessoas que sofrem de doenças ou outras dificuldades devem examinar-se cuidadosamente para descobrir do que são culpadas, depois se arrepender e fazer as pazes.
+
+*1936*
+
+### 043. Pecado e Enfermidade
+
+Antes de discutir este tópico, devo dizer que, embora "pecado" tenda a ser pensado em termos religiosos, quando falo dele, estou falando de seus aspectos éticos. Os homens de religião, de fato, usam frequentemente o termo pecado; mas, como o que se segue mostra, o pecado não é uma abstração hipotética e feita pelo homem, mas uma realidade prática.
+
+Como eu disse no artigo anterior, quando as pessoas pensam o mal e cometem o mal, a mácula no ser espiritual aumenta tanto em quantidade quanto em concentração. Quando a concentração atinge um certo grau, o processo de purificação se inicia naturalmente. Esta é uma lei rigorosa e inescapável do Mundo Espiritual, e ninguém está imune a ela.
+
+Embora o processo de purificação geralmente se manifeste como doença, às vezes assume outras formas. Onde a terapia médica não tem efeito sobre a doença, mesmo que aplicada com a máxima minúcia, é porque ela tenta usar meios mecânicos e farmacêuticos para resolver um problema espiritual. Ela está seguindo um curso totalmente equivocado.
+
+Rezar a um deus ou Buda em casos de doença, como algumas pessoas fazem, é eficaz até certo ponto, pois, obviamente, tais seres são do reino espiritual e suas bênçãos ajudam a diminuir as máculas espirituais. No entanto, nem mesmo um deus ou Buda — quanto mais consciencioso ele for, mais ainda, pois deve ser justo — permitirá que impurezas acumuladas por um longo período sejam resolvidas com apenas um sofrimento leve. Isso é como uma pessoa que violou uma lei nacional; não importa como ela se arrependa e lamente, seu crime não pode ser ignorado, embora sua punição possa ser aliviada como resultado de sua atitude penitente.
+
+Em alguns casos, tipos alternativos de processos de purificação ocorreram antes que o usual comece. Nessas instâncias, o grau de mácula é relativamente leve, de modo que apenas um processo de purificação suave é necessário. Tal purificação prévia pode ter sido motivada por um despertar psicológico provocado pelo contato com histórias religiosas ou escritos sagrados ou pelos testemunhos de pessoas mais velhas ou de distinção. Os bons efeitos que estes podem ter mostram a importância de bons livros, palestras, filmes e dramas no despertar da alma ou consciência humana.
+
+A seguir, então, gostaria de discutir o processo que ocorre no ser espiritual quando as pessoas são despertadas dessas maneiras. O ser espiritual está em três estágios; incluindo a mente, que é o centro do ser espiritual, e a alma, que é o centro da mente. A alma, que é essencialmente a consciência, está constantemente sendo obscurecida por influências externas. Ela é fundamentalmente uma esfera radiante; a mácula na mente, seu invólucro externo, obscurece seu brilho e a põe para dormir; mas quando a mente está calma como água parada ou um espelho claro, o brilho celestial da alma se manifesta.
+
+Quando uma pessoa é espiritualmente despertada, a alma que dormia de repente brilha intensamente. Até hoje, as principais maneiras de provocar tal despertar foram educacionais — por exemplo, as histórias e o material escrito que mencionei anteriormente. O contato com eles despertou a alma e permitiu que ela brilhasse. Isso, por sua vez, dissipou a mácula da mente e iniciou a purificação do ser espiritual. Desta forma, os três elementos — alma, mente e espírito — preservam um estado de equilíbrio entre luz e escuridão.
+
+Nesta abordagem educacional, primeiro a alma é despertada; depois a mente e o ser espiritual são purificados. Em nosso método terapêutico, no entanto, a ordem é oposta: por meio do Johrei de fora, o ser espiritual é primeiro purificado; isso dissipa a mácula da mente e, irresistivelmente, desperta a alma. Além disso, quando a alma e a mente são despertadas pelo método educacional, a pessoa passa pelo sofrimento da abnegação, que por sua vez afeta o corpo espiritual, levando a doenças e outros sofrimentos, enquanto nosso método terapêutico constitui uma espécie de remodelagem ideal de espírito e corpo juntos, pela qual a alma é despertada sem que ela perceba, no curso da cura.
+
+*23 de outubro de 1943*
+
+### 044. Enfermidade e Sofrimento
+
+Sofrimento é a consciência que as pessoas têm de que adoeceram. Poderia até parecer que enfermidade e sofrimento são sinônimos, mas existem muitos tipos diferentes de sofrimento. Até o presente, a ciência médica considerou o sofrimento e a doença como a mesma coisa e acreditou que aliviar o sofrimento era equivalente a aliviar a enfermidade. Essa abordagem é fundamentalmente equivocada, como o exemplo do resfriado comum mostrará.
+
+Quando as pessoas pegam um resfriado, primeiro desenvolvem febre. Como a cabeça dói, aplicam compressas de gelo nela. Como isso traz um pouco de conforto, sentem que a diminuição do sofrimento é o mesmo que diminuir a gravidade da enfermidade. Isso está errado. Enfermidade e sofrimento são diferentes; quanto mais o sofrimento é aliviado, mais agravada a enfermidade se torna. Embora as pessoas modernas possam achar esta uma afirmação surpreendente, é uma verdade inabalável. Nenhuma medicina que não a aceite como um princípio fundamental pode ser uma verdadeira medicina. A explicação que se segue deve deixar todos que a lerem totalmente convencidos.
+
+No passado, as pessoas costumavam dizer que não havia homem sem vaidade e sífilis. Na verdade, não há ninguém que não tenha herdado toxinas. Além disso, a maioria das pessoas tem mais dessas toxinas do que pensa. Quando as toxinas são transformadas em medicamentos, nós as chamamos de toxinas medicamentosas; discutirei isso mais tarde.
+
+Como resultado dos processos metabólicos, as toxinas se acumulam em várias partes do corpo e endurecem gradualmente com o passar do tempo. O acúmulo de toxinas ocorre em locais onde os nervos são usados e, portanto, é mais frequente na parte superior do corpo, especialmente acima do pescoço. Durante as horas de vigília, a cabeça, os olhos, o nariz, a boca, os ouvidos e a garganta trabalham incessantemente. Isso é especialmente verdadeiro para o cérebro, onde mais nervos são empregados do que em qualquer outra parte do corpo. Consequentemente, as toxinas de todo o corpo estão constantemente se movendo em direção ao cérebro e se acumulam em grande medida na vizinhança do pescoço; isso ocorre porque os nervos dos olhos, nariz, boca e ouvidos têm suas origens no cérebro. O fenômeno explica por que a maioria das pessoas tem nódulos na área do pescoço ou rigidez nos ombros.
+
+Quando as toxinas se acumulam ao máximo, elas impedem a manutenção contínua da boa saúde. Nesta fase, um processo de eliminação, chamado purificação, começa. O Criador exerceu a máxima engenhosidade ao prover este processo de purificação. Primeiro, uma febre se desenvolve e derrete os nódulos de toxina. Então, instantaneamente, as toxinas passam em forma líquida para os pulmões, onde são imediatamente expelidas do corpo no processo chamado expectoração. A tosse é o processo de bombeamento que resulta na expectoração. As toxinas na parte de trás da cabeça e na vizinhança do topo da coluna vertebral se tornam fluidos nasais, que são descarregados pelo nariz no processo chamado espirro. A maneira como esses processos agem para remover as toxinas liquefeitas do corpo é óbvia quando se lembra que sempre se descarrega escarro ao tossir e fluidos nasais ao espirrar. Após a liquefação, as toxinas no corpo abaixo do pescoço são descarregadas como suores noturnos.
+
+As dores de cabeça são causadas por toxinas liquefeitas que buscam uma saída do corpo e estimulam os nervos a causar dor. Essas toxinas estão se esforçando para alcançar os pulmões, de onde serão expelidas na forma de escarro. Quando administramos Johrei para dores de cabeça, a tosse e a expectoração de escarro são instantâneas, e o alívio da dor se segue.
+
+Como os seres humanos frequentemente dobram os braços e as pernas, as toxinas se acumulam nas articulações, onde a purificação resulta em dor.
+
+Como esta explicação deixa claro, a enfermidade é o processo de limpeza de poluentes do corpo humano. Pode-se, portanto, dizer que não há bênção maior do que o resfriado comum, ou a enfermidade em geral. A causa da má saúde são os poluentes acumulados. A enfermidade é o processo pelo qual esses poluentes são limpos e a boa saúde é restaurada. O sofrimento da enfermidade é abençoado, pois é um processo de limpeza. Se deixado em paz, não será severo.
+
+A ciência médica vê a dor como um mal e tenta detê-la. Ao impedir o surgimento de matéria que naturalmente deveria ser expelida do corpo, isso causa uma colisão entre o poder natural e o artificial e, dessa forma, intensifica o sofrimento. Obviamente, a ciência médica, que se desenvolveu sob a ilusão de que suprimir os processos naturais dessa maneira pode operar curas, está fundamentalmente em erro.
+
+Há, no entanto, uma condição essencial para a remoção do acúmulo localizado de toxinas. A menos que o corpo seja vigoroso o suficiente para expelir as toxinas, ou seja, a menos que os processos metabólicos sejam fortes o suficiente, a purificação não pode ocorrer. Interpretando isso de maneira oposta, a ciência médica tenta suprimir o surgimento da purificação. Para fazer isso, ela deve enfraquecer tanto o metabolismo quanto a saúde.
+
+Os medicamentos são uma forma de enfraquecer a saúde. Fundamentalmente, os medicamentos são venenos; eles são eficazes precisamente porque são venenosos. Isso pode parecer ridículo, mas uma dose de medicamento, de fato, enfraquece o corpo. Enfraquecer o corpo enfraquece o processo de purificação, o que, por sua vez, reduz o sofrimento. A ciência médica estabelecida se ilude ao supor que foi o medicamento que curou a doença.
+
+O mesmo pode ser dito de outras chamadas terapias. Aplicar compressas de gelo na cabeça para reduzir a febre apenas reendurece as toxinas que haviam começado a se liquefazer. O repouso total, sem exercício de qualquer tipo, é a maneira mais eficaz possível de enfraquecer o corpo. Mesmo pessoas em boa saúde sofrerão efeitos negativos se forem forçadas a permanecer imóveis por vários meses sem exercitar seus corpos. Seus estômagos enfraquecerão, perderão o apetite, seus braços e pernas ficarão debilitados pela falta de uso e se encontrarão à beira de uma doença grave. Claramente, o caso é muito mais grave com uma pessoa doente que é privada de todo exercício.
+
+As compressas úmidas também enfraquecem o corpo. Os seres humanos respiram não apenas pela boca e nariz, mas também pelos capilares dispersos por toda a pele do corpo. As compressas interrompem a respiração dérmica onde quer que sejam aplicadas. Isso baixa a febre e alivia o sofrimento, mas interrompe o processo de purificação na vizinhança da compressa.
+
+*(Data incerta)*
+
+### 045. Toxinas Medicamentosas I
+
+Prosseguirei agora para explicar o grave perigo das toxinas medicamentosas, em geral, além do que chamo de "toxinas hereditárias". Em todas as épocas e em todos os lugares, foi considerado sensato tomar remédio quando se está doente, assim como é comer quando se está com fome. A ideia de que os medicamentos curam está profundamente enraizada. No entanto, percebi que os medicamentos são venenos temíveis que carecem totalmente de poder para curar a enfermidade. De fato, eles causam doenças no sentido de que são sua fonte.*
+
+Algumas pessoas podem achar isso difícil de entender, mas é verdade. Certa vez, li em um livro as seguintes palavras de um notável médico de estilo chinês: "Fundamentalmente, não existem medicamentos; são todos venenos. Tomar remédio para uma doença é o mesmo que tentar controlar um veneno por meio de outro." Isso é algo muito sábio de se dizer e reminiscente do antigo provérbio sobre "fazer medicamentos de ervas venenosas".
+
+Quando a dor é intolerável, o alívio pode, é claro, ser obtido por meio de, digamos, injeções de morfina. No entanto, como os cientistas médicos sabem muito bem, o alívio é provocado apenas por uma paralisia temporária dos nervos causada pelo veneno chamado morfina.
+
+Expliquei anteriormente que a enfermidade surge como resultado do processo de purificação, que é sempre acompanhado pelo sofrimento referido como doença. Obviamente, todos detestam o sofrimento e querem escapar dele rapidamente. Existem duas maneiras de eliminar o sofrimento. Uma maneira de se livrar dele completamente é expelindo totalmente do corpo as toxinas que devem ser removidas. A outra é uma fuga temporária e um retorno à condição anterior à ocorrência do sofrimento; isso significa, meramente, interromper o processo de purificação e retornar à condição existente antes de sua iniciação. Como a eliminação completa das toxinas é um processo natural, leva tempo. É o desejo de se livrar rapidamente do sofrimento que estimulou o desenvolvimento de todos os métodos médicos e outros métodos terapêuticos inventados no passado. Além disso, a ciência médica nunca compreendeu o princípio da eliminação de toxinas e da purificação como a verdadeira natureza da doença.
+
+*1939*
+
+*Embora os medicamentos sejam capazes de prolongar a vida temporariamente e de criar uma condição de falsa boa saúde, eles não podem promover uma cura fundamental. A boa saúde essencial é uma condição na qual os seres humanos podem viver sem medicamentos. Por essa razão, é importante evitar tomar medicamentos o máximo possível, embora às vezes o respeito pela vida humana torne sua aplicação necessária.*
+
+### 046. Toxinas Medicamentosas II
+
+Quando as pessoas adoecem, desenvolvem febre, dor e mal-estar geral, ou podem tossir e expectorar catarro. Se tomarem um medicamento, sentir-se-ão melhor, como se o medicamento tivesse curado a doença. Mas, como já disse muitas vezes, tomar o veneno chamado medicamento enfraquece todo o corpo. Porque o corpo enfraquece, o processo de purificação diminui, e a dor é aliviada.
+
+Se fosse só isso, a situação não seria tão má. O problema verdadeiramente sério é o que acontece com o veneno depois de o termos tomado. Deixe-me explicar. A ingestão de veneno estimula um processo antídoto, ou um que elimina a substância nociva. Isso é verdade para as toxinas nos alimentos que comemos, mas o corpo é impotente para neutralizar imediatamente venenos que não sejam os de nossos alimentos. Como o veneno dos medicamentos que as pessoas tomam não é completamente eliminado, parte dele permanece para se acumular no corpo.
+
+Assim como no caso das toxinas que foram transmitidas por gerações de usuários de medicamentos, essas toxinas recém-introduzidas se acumulam em áreas onde os nervos são abundantes; quando a purificação e a eliminação de toxinas endurecidas acumuladas do tipo mais difícil de expelir do corpo começam, as toxinas medicamentosas interrompem o processo e aumentam os níveis tóxicos. Este é o efeito da terapia medicinal.
+
+Um acúmulo de toxinas de segundo estágio se desenvolve. Então, a purificação começa novamente; mas desta vez, devido à quantidade aumentada de toxinas, o processo de purificação é um esforço maior. É por isso que a purificação secundária, ou repurificação, é mais severa do que o processo inicial. Além disso, podem ocorrer purificações de terceiro e quarto estágios.
+
+*1939*
+
+### 047. Febre Baixa
+
+Embora apenas algumas pessoas estejam cientes disso, provavelmente ninguém hoje está sem o que se chama de febre baixa. Devido à influência surpreendentemente grande que ela tem sobre o corpo humano, discutirei agora esse tipo de febre.
+
+Uma febre leve e persistente causa dores de cabeça, peso na cabeça, falta de concentração psicológica, distração, diminuição da memória, perda de perseverança, preguiça em tudo, lentidão de todo o corpo e um desejo de ficar deitado sem fazer nada. Ela reduz o apetite e torna as pessoas exigentes com o que comem. Quando afligidas por ela, as pessoas mostram preferência por líquidos e alimentos com alto teor de líquido. Elas podem ser irritáveis, isoladas do mundo, enfadadas e pessimistas. Tornam-se histéricas, têm uma visão negativa e preferem o tempo chuvoso ao bom tempo. Pegam resfriados facilmente e são propensas a nariz entupido, zumbido nos ouvidos e amigdalite. Ficam com falta de ar e sentem peso nas pernas ao andar rápido ou subir ladeiras.
+
+Como este breve resumo de seus efeitos mostra claramente, uma febre baixa não é algo a ser levado de ânimo leve.
+
+Por causa desses sintomas, tais pessoas não se dão bem com seus amigos ou se relacionam suavemente com outras pessoas. Seus relacionamentos conjugais e outros são ruins porque tais pessoas insistem em agir exatamente como desejam e sempre têm algum tipo de justificativa para seu próprio comportamento egoísta; "liberalismo" é uma de suas desculpas favoritas. Porque tais pessoas estão insatisfeitas com a vida em casa, coisas horríveis muitas vezes acontecem em suas vidas. O número crescente de jovens que fogem de casa atualmente pode muito bem ser influenciado por este tipo de situação doméstica. Nos piores casos, famílias inteiras já cometeram suicídio juntas.
+
+Em nível social, um grande número de pessoas preocupadas apenas em perseguir e justificar seus próprios fins egoístas perturba a harmonia, debate assuntos sem importância e recorre ao conflito para resolver questões que poderiam ser resolvidas amigavelmente. O egoísmo desse tipo é aparentemente comum no mundo da política. Sempre que algo está sendo debatido em um grupo, há tanto alvoroço e comoção que leva muito tempo para se chegar a um acordo; a razão não é tanto que as pessoas desconheçam a causa, mas que são indiferentes a ela.
+
+Mas ainda há mais na questão. À medida que a sociedade se perturba das maneiras que descrevi acima, as pessoas experimentam mais coisas desagradáveis do que agradáveis e buscam diversão recorrendo ao álcool; é por isso que a venda de bebidas alcoólicas, não importa quanto custem, continua sem diminuir.
+
+Em seguida, tais pessoas buscam estímulos ainda mais fortes na esperança de escapar de seu sofrimento. Os jovens buscam diversões insalubres. As pessoas mais velhas com dinheiro para pagar por tais coisas mantêm amantes ou buscam consolo nos bairros da luz vermelha. Por essa razão, o mundo de hoje está cheio de tais diversões insalubres.
+
+Claramente, então, nada é tão temível quanto uma febre baixa, que é a causa fundamental de problemas em todos esses aspectos da vida. A presença de toxinas medicamentosas no corpo é a causa da febre leve, que é um sinal do lento processo de purificação que ocorre no corpo para eliminar essas toxinas endurecidas. Como o Johrei é a única maneira de operar uma cura, um aumento no número de pessoas que praticam o Johrei eliminará a deplorável situação que descrevi acima. Quando isso acontecer, a sociedade será um lugar agradável e feliz para se viver; e teremos um mundo ideal.
+
+*5 de setembro de 1951*
+
+### 048. Purificação Equilibrada
+
+A pessoa que ministra o Johrei deve lembrar-se do princípio da "purificação equilibrada". Por exemplo, a dor no braço direito pode desaparecer, mas depois se desenvolver no braço esquerdo. A dor parece mover-se de um braço para o outro, mas isso é, na verdade, um exemplo de purificação equilibrada: a limpeza deve ocorrer de maneira equalizada. Assim, quando as toxinas foram purificadas do braço direito, uma purificação natural paralela pode começar no braço esquerdo, se houver toxinas ali.
+
+Obviamente, isso não se aplica apenas aos braços, mas também a outras partes do corpo. A dor não se desloca do abdômen para as costas. A aparência de um deslocamento é apenas o resultado da purificação equilibrada da qual falo.
+
+*22 de abril de 1950*
+
+### 049. A Palavra Purificação (Johka)
+
+A palavra "purificação", que usamos para doença, é, sinto eu, peculiarmente apta, não menos porque expressa exatamente a verdade. Ela tem, para começar, um som muito agradável, enquanto a palavra enfermidade é a própria desagradabilidade. No entanto, mesmo a palavra para enfermidade, em japonês, dificilmente é um erro. Os dois caracteres para ela, *byo* e *ki*, significam "enfermidade" e "mente", e o problema é precisamente que as pessoas se preocupam demais com a enfermidade sem perceber que ela é, essencialmente, uma coisa boa.
+
+A esse respeito, sinto-me encorajado e encantado quando ouço os membros dizerem uns aos outros, por exemplo: "Tenho o prazer de dizer que a purificação começou", ou "Graças à purificação, sinto-me muito melhor agora", ou "A purificação é uma verdadeira bênção".
+
+Embora eu não goste muito, a palavra *byoin* (hospital) é uma descrição apta da instituição: um lugar (*in*) onde a doença incurável (*byo*) continua por muito tempo. Se nós, nesta organização, fôssemos solicitados a dar um nome a um lugar onde a doença é tratada, provavelmente o chamaríamos de *johin*, ou lugar de purificação. Se as pessoas parassem de tomar medicamentos, as únicas doenças que restariam seriam as simples, que poderiam ser curadas em casa; e não haveria necessidade de construir hospitais de qualquer tipo.
+
+*21 de maio de 1952*
+
+### 050. Admoestações dos Espíritos Ancestrais
+
+Porque esperam sinceramente a felicidade e a prosperidade de seus descendentes, os espíritos ancestrais estão incessantemente enviando-lhes advertências para evitar que cometam erros e pratiquem o mal que vai contra o seu próprio bem-estar, e para ajudá-los a evitar cair em caminhos negativos.
+
+Quando sua posteridade deixada neste mundo é atraída por forças do mal para fazer algo errado, os espíritos ancestrais infligem todos os tipos de calamidades e doenças sobre eles, tanto como uma advertência quanto como expiação por pecados já cometidos. Por exemplo, uma pessoa que fez fortuna por meios desonestos será feita sofrer incêndio e perdas que destroem todas as suas propriedades. Com alguns pecados, novamente, a purificação pela doença é realizada.
+
+Tais admoestações se manifestam de várias maneiras. Por exemplo, pode acontecer que um bebê ou uma criança passe por uma purificação na forma de um resfriado — uma doença simples que o Johrei deveria ser capaz de curar facilmente — mas nada tem efeito. De forma intrigante, a criança começa a vomitar muito, perde o apetite, declina rapidamente e morre. Esta é uma admoestação dos espíritos ancestrais do tipo já descrito, necessária por, digamos, a infidelidade conjugal do pai da criança ou por ele manter uma amante. Onde o homem não entende da primeira vez que tal aviso é entregue, seus outros filhos são tirados dele um por um. É lamentável ao extremo que um homem sacrifique assim a vida de um filho querido por momentos fugazes de prazer. Em um caso deste tipo, os espíritos hesitam em tirar a vida do pai, que é o pilar de toda a família, e são compelidos a levar a criança em seu lugar.
+
+Aqui está uma ilustração interessante de tal admoestação. O chefe de uma família, com cerca de quarenta anos na época, estava indisposto a orar diante do altar budista da família; isso perturbou sua filha, que discutiu o assunto com o irmão mais novo de seu pai. Como resultado dessas conversas, o altar da família foi transferido da casa do irmão mais velho para a do mais novo. O homem mais novo começou a se preocupar com o que poderia acontecer no futuro e foi novamente à casa de seu irmão mais velho para solicitar que ele escrevesse uma declaração clara da transferência do altar. O irmão mais velho concordou e pegou caneta e papel para se preparar, mas no exato instante em que estava prestes a escrever, teve um espasmo nas mãos e sua língua ficou paralisada. Ele não conseguia escrever ou dizer nada.
+
+Vários tipos de tratamentos foram tentados neste homem, mas em vão. Finalmente, ele veio pedir ajuda a um dos meus discípulos, que me relatou a história da filha sobre o altar da família. Os ancestrais entregaram esta admoestação ao irmão mais velho como chefe do ramo principal da família porque, embora dispostos a permitir a transferência do altar temporariamente para a casa do irmão mais novo, eles não podiam tolerar uma transferência permanente, pois isso perturbaria a linhagem da família e poderia resultar na interrupção da linha familiar.
+
+*5 de fevereiro de 1947*
+
+### 051. Renascimento
+
+Há uma grande latitude na velocidade com que as pessoas renascem, dependendo da vontade da pessoa envolvida. Uma pessoa que está muito apegada a este mundo no momento da morte renascerá rapidamente. Mas os efeitos de um retorno tão rápido não são bons.
+
+A purificação mais profunda ocorre no Mundo Espiritual. Portanto, quanto mais tempo se permanece lá, mais puro se torna o ser espiritual e mais afortunadas são as circunstâncias no renascimento. Se o renascimento for rápido, os poluentes permanecem e devem ser purificados durante a vida por meio de um destino desafortunado, cheio de doenças, pobreza e desastres. Esta é a situação que determina por que algumas pessoas nascem afortunadas, enquanto outras nascem desafortunadas. A boa e a má sorte não são de forma alguma acidentais, mas são inevitavelmente determinadas pelo grau de purificação no Mundo Espiritual.
+
+Há ainda outro fator determinante: a sinceridade e a minúcia com que os sobreviventes realizam os serviços memoriais pelo espírito do falecido. Ademais, o fervor com que os sobreviventes e descendentes ajudam os outros, trabalham para o bem-estar da sociedade e da nação e acumulam virtude, estimula a purificação dos ancestrais. Isso significa que a piedade filial não se limita a esta vida. Pelo contrário, as orações oferecidas e as boas ações realizadas após a morte dos pais podem ser ainda mais importantes do que o cuidado demonstrado durante a vida. São apenas as pessoas ignorantes da natureza do Mundo Espiritual que dizem: "Quando eu estava pronto para ser bom para eles, meus pais não estavam mais vivos para desfrutar disso".
+
+Pessoas que renascem antes que sua purificação no Mundo Espiritual esteja completa são às vezes fisicamente deformadas ou deficientes. Para citar um exemplo, pode-se nascer com uma deformidade em um braço ou perna porque se quebrou um membro em uma queda e, em seguida, renasceu antes que tivesse tempo de cicatrizar.
+
+Há casos em que a devoção e o apego dos sobreviventes influenciam a velocidade com que uma pessoa renasce. As mulheres não raro engravidam novamente logo após a morte de um filho amado. Isso pode ocorrer porque a devoção e a saudade da mãe aceleraram muito o renascimento da criança. Por essa razão precisa, tais crianças geralmente não são muito felizes.
+
+*23 de outubro de 1943*
+
+### 052. O Mundo Espiritual
+
+Gostaria agora de discutir com mais detalhes a maneira como a civilização moderna se baseia, como não é preciso apontar, na ciência materialista. Em primeiro lugar, é necessário aqui compreender a estrutura do próprio universo. Concentrar-me-ei nos pontos principais e nas questões particulares que estão diretamente relacionadas aos seres humanos.
+
+Basicamente, o universo consiste em três elementos: o sol, a lua e a terra. Esses três elementos são as essências do fogo, da água e do solo, e se manifestam como o reino espiritual, o reino do ar e o reino dos fenômenos; a realidade é uma fusão completa e uma harmonia desses três. Até agora, as pessoas entenderam apenas os reinos do ar e dos fenômenos (os reinos materiais) e ignoraram a existência de outro, o reino espiritual, que a ciência material não conseguiu compreender. A civilização moderna é apenas dois terços do que deveria ser, porque foi produzida pelo progresso em apenas dois dos elementos básicos. Enquanto este outro elemento for ignorado, uma civilização perfeita não pode evoluir, pois esse elemento está no cerne de todo o poder básico e é muito mais importante do que os outros dois combinados.
+
+Esta afirmação é claramente ilustrada por nossa cultura, uma cultura que não foi capaz de garantir a felicidade, o único desejo da humanidade, apesar de todo o seu desenvolvimento material. Um exame atento dos fundamentos deste paradoxo revela uma verdade profunda.
+
+Se a humanidade tivesse compreendido a existência do Mundo Espiritual desde o início, a civilização material não teria alcançado o tipo de desenvolvimento maravilhoso que manifesta hoje. Ignorar o reino espiritual deu origem ao ateísmo, e do ateísmo, muito mal nasceu. A luta resultante entre o bem e o mal fez o homem sofrer e, assim, estimulou implacavelmente o desenvolvimento da civilização material. Uma reflexão profunda sobre o assunto mostra que isso só pode ser o plano de Deus.
+
+Agora, no entanto, tendo se desenvolvido até um certo nível, o materialismo ameaça provocar a destruição da civilização. A invenção da bomba atômica ilustra vividamente a verdade disso. Chegou o momento de fazer uma grande reviravolta em nosso pensamento sobre o avanço da civilização. O primeiro passo deve ser deixar claro para todas as pessoas a existência do Mundo Espiritual, que até então era considerado inexistente.
+
+Como é, de fato, intangível, é claro, é impossível lidar com ele através da ciência. A única maneira é através de uma manifestação do poder de Deus, um poder maior do que qualquer coisa que a humanidade já experimentou no passado. Mesmo assim, é difícil convencer a humanidade moderna, que por tanto tempo e tão teimosamente enfatizou a visão materialista, desse poder. É aqui que o milagre central de nossa fé vem à tona, o método do Johrei, pelo qual o ateu mais convicto se encontra convencido de uma só vez.
+
+Quando se tornar conhecido por toda a humanidade, uma verdadeira civilização mundial surgirá, e a cultura moderna dará uma grande reviravolta. Mesmo assim, um problema incômodo permanece a ser resolvido. Durante as dezenas de milhares de anos que levou para produzir a civilização moderna, uma quantidade incalculável de mal foi cometida. Poluentes do corpo espiritual se acumularam a ponto de que, a menos que algo seja feito a respeito, eles impedirão a construção de um novo mundo. Assim como é essencial varrer as aparas de madeira e os restos de madeira no local de uma nova construção, esses poluentes devem ser limpos. Tal processo de limpeza pode ser o que Cristo quis dizer com o Juízo Final.
+
+É um fato que, com o Johrei, realizamos inúmeros milagres. Tornar a existência do Mundo Espiritual conhecida a todas as pessoas — este, certamente, é o plano de Deus, e Deus depositou sobre meus ombros a grande responsabilidade por isso.
+
+*4 de julho de 1951*
+
+### 053. A Grande Transição Mundial
+
+Explicarei agora em detalhes como o Johrei que eu originei surgiu e por que ninguém mais até agora percebeu as causas da enfermidade e a inutilidade de quase todos os métodos terapêuticos existentes.
+
+O universo é composto por algumas coisas tão ilimitadas quanto o céu e outras tão minúsculas que não podem ser vistas nem mesmo sob um microscópio; todas essas coisas, de acordo com seu tamanho e composição, surgem, se desenvolvem, se combinam e se separam, se agregam, se desintegram e se reconstroem em um processo de desenvolvimento eterno. Assim como cada uma dessas coisas tem um aspecto yin e um yang, há a diferença entre noite e dia em um único dia, e um período frio e um período quente em cada ano, e assim continua por dez anos, cem anos, mil anos ou dez mil anos. No entanto, naturalmente, uma vez a cada vários milhares de anos, ocorre uma transição do dia para a noite e da noite para o dia.
+
+O tempo para tal transição está chegando agora. De fato, hoje corresponde ao amanhecer de tal período. O leitor pode ficar intrigado com esta afirmação, pois provavelmente pensa em noite e dia como parte de um ciclo regular de 24 horas. No entanto, isso pode ser explicado com bastante facilidade.
+
+O mundo em que vivemos consiste em três estágios: o Mundo Espiritual, o mundo do ar e o mundo dos fenômenos. Estes também podem ser agrupados em dois estágios: o elemento água — o ar — e o elemento solo — o próprio globo — são físicos, enquanto o elemento fogo — o espírito — é totalmente não físico. Neste caso, o último corresponde ao Mundo Espiritual e os dois primeiros ao mundo físico.
+
+Para entender a relação entre o Mundo Espiritual e o mundo físico, é essencial saber que todos os fenômenos surgem primeiro no Mundo Espiritual e são transmitidos ao mundo físico. Em termos metafóricos, o Mundo Espiritual é o filme cinematográfico, enquanto o mundo real é o que aparece projetado na tela. Esta é uma lei rigorosa do universo. No caso do ser humano, a mente invisível se move primeiro, depois os braços e as pernas se movem sob seu comando. É impossível que os braços e as pernas se movam primeiro e depois a mente. O Mundo Espiritual corresponde à mente, e o mundo físico aos braços e às pernas.
+
+Os ciclos de noite e dia que ocorrem uma vez em milhares ou dezenas de milhares de anos são ocorrências no Mundo Espiritual. Por muito tempo, o mundo esteve em um estado de noite, mas está prestes a ser transformado em um mundo de dia. A antiga história japonesa conhecida como *Kojiki* profetiza isso na história da deusa do sol Amaterasu Omikami, que se escondeu em uma caverna, mergulhando assim o mundo na escuridão, mas depois emergiu para trazer a luz do dia novamente. Em minha opinião, a ideia da Luz do Oriente, há muito popular no Ocidente, não é outra coisa senão esta profecia.
+
+*23 de outubro de 1943*
+
+### 054. Transição da Noite para o Dia
+
+Todas as ocorrências no mundo físico são projeções de ocorrências no Mundo Espiritual. Tudo se torna claro se se perceber que uma grande transição tem ocorrido recentemente no Mundo Espiritual.
+
+Do ponto de vista de Deus, essencialmente todas as coisas no universo são criadas e destruídas como resultado da ação tanto do mundo espiritual quanto do mundo real, em um processo interminável de desenvolvimento no mundo material que vai do universo ilimitado às partículas mais minúsculas. São essas mudanças intermináveis que dão origem ao progresso e desenvolvimento cultural incessantes. Uma reflexão calma e tranquila sobre isso não pode deixar de inspirar um sentimento da vontade universal, do propósito de Deus.
+
+Em todas as coisas, há distinções entre yin e yang, escuridão e luz, noite e dia. Essas variações, bem como as das estações do ano e do crescimento e declínio observáveis em todas as coisas, relacionam-se com a vida humana tanto quanto com todos os outros fenômenos. As distinções observáveis entre todas as coisas, de todos os tamanhos, devem ser vistas também no tempo. Por exemplo, assim como um período de vinte e quatro horas é dividido em dia e noite, cada ano, década, século, milênio, tem um dia e uma noite. Esses dias e noites maiores, no entanto, são fenômenos do Mundo Espiritual. Para o mundo real, apenas a divisão dia e noite de um período de vinte e quatro horas é observável.
+
+O tempo para a mudança da noite para o dia, que deve acontecer no Mundo Espiritual a cada tantos milhares ou dezenas de milhares de anos, chegou agora. A menos que se compreenda este fato importante, é impossível captar os princípios do Johrei. Ao mesmo tempo, o conhecimento desta verdade torna possível ver o futuro do mundo e inspira serenidade de espírito.
+
+A seguir, então, explicarei como essa mudança no Mundo Espiritual da noite para o dia — uma mudança que ocorre apenas uma vez em milhares de anos — afeta o mundo físico. Até agora, o Mundo Espiritual tem experimentado uma noite que, como a noite no mundo real, é uma escuridão quebrada apenas por períodos de luar. É claro que, quando o elemento água é abundante e a lua está oculta, apenas as estrelas brilham. Quando as estrelas estão encobertas, a escuridão é completa. Os efeitos deste estado são claros no mundo físico, que é simplesmente um reflexo do Mundo Espiritual. Os períodos alternados de ordem e desordem, guerra e paz, nas nações do mundo no passado, foram muito parecidos com o crescente e minguante da lua.
+
+Agora chegou o tempo em que a escuridão deve dar lugar à luz; estamos entrando em um período que pode ser comparado ao amanhecer. Como resultado desta transição no Mundo Espiritual, a humanidade experimentará uma transformação imensa, inspiradora e alegre, de um tipo nunca antes conhecido. Arautos desta transição já apareceram em cena.
+
+Como o dia no mundo real, o novo dia do qual estou falando começará com o aparecimento do orbe do sol no leste. Agora, no Extremo Oriente — no Japão, a terra do sol nascente — uma grande revolução está ocorrendo. A destruição da cultura existente da noite está começando neste país. Esta é a razão para a destruição total de nossas principais cidades culturais, a redução de nossa indústria e economia a uma situação desesperadora e a abolição geral das classes privilegiadas e dominantes.
+
+Sinais da construção de uma nova cultura — a cultura do dia — já apareceram. Após o desarmamento completo, a democracia está surgindo no Japão. Ambos os fenômenos são sem precedentes nos 2.600 anos que se passaram desde a fundação da nação japonesa. Mais do que sem precedentes, eles também eram imprevisíveis. São um primeiro passo no estabelecimento da paz mundial. Em contraste com o mundo da noite, caracterizado pela guerra, fome e sofrimento, o mundo do dia será um tempo brilhante com paz, abundância e boa saúde. O Japão do presente mostra que estamos no ponto de virada.
+
+O sol que agora está nascendo nos céus orientais eventualmente alcançará seu zênite. O que isso significará? Obviamente, significará a destruição geral da cultura da noite. O que é mais, significará o nascimento da cultura do dia. Como o Japão já pode mostrar um pouco dessa cultura, isso é fácil de profetizar.
+
+O destino do mundo está pesando fortemente sobre nós no presente. Ninguém será capaz de escapar deste quadro; o único curso aberto para nós é encontrar uma maneira de minimizar o sofrimento que devemos enfrentar. Tal caminho está à mão em uma compreensão de nossos princípios de Johrei e na participação no desenvolvimento da cultura do dia.
+
+A Bíblia diz: "E este evangelho do reino será pregado em todo o mundo, em testemunho a todas as nações, e então virá o fim". Acredito que isso signifique que meus escritos devem cumprir esta missão.
+
+Ao explicar os princípios do Johrei, cheguei a explicar o destino do mundo porque isso é muito importante. A descoberta dos princípios do Johrei e a descoberta da falácia da ciência médica dependem basicamente do único ponto de converter a noite em dia. A causa da enfermidade são as máculas no corpo espiritual. Eliminar essas máculas é a única condição para a cura da enfermidade. Por que, então, isso não era conhecido antes da descoberta do Johrei?
+
+A razão é que existem duas maneiras de tratar a enfermidade. Uma é provocar um retorno ao estado anterior ao início da purificação das toxinas; ou seja, reendurecer as toxinas. A outra é liquefazer as toxinas e eliminá-las. Como o leitor entenderá bem agora, a ciência médica estabelecida emprega o primeiro método, enquanto o Johrei emprega o segundo.
+
+Um dos princípios do Johrei é que o corpo humano irradia uma luz mística invisível que é uma essência espiritual peculiar ao corpo humano e que consiste basicamente no elemento fogo. A canalização do Johrei exige grandes quantidades do elemento fogo, que aumentará gradualmente em quantidade no Mundo Espiritual à medida que este se move para o período do dia, já que o sol é a fonte básica da radiação do elemento fogo. Além de seu valor na cura, uma quantidade aumentada do elemento fogo é igualmente importante porque estimulará o processo de purificação no corpo humano.
+
+A mudança no Mundo Espiritual influenciará diretamente o corpo espiritual. Aumentar a quantidade do elemento fogo desempenhará, por assim dizer, um papel suplementar no incentivo à purificação das máculas no corpo espiritual. A enfermidade, portanto, ocorrerá mais facilmente, e a terapia médica estabelecida, que depende do endurecimento das toxinas, perderá parte e, finalmente, toda a sua eficácia. Por exemplo, enquanto na era da escuridão levava vários anos para que as toxinas, uma vez endurecidas, se tornassem ativas novamente, na era da luz este período encurtará gradualmente para um ano, depois meio ano, e assim por diante, até que no final o endurecimento das toxinas se torne realmente impossível.
+
+Estamos gradualmente nos movendo para o mundo do dia. No mundo da noite, o método de endurecimento de toxinas, e não o de liquefação de toxinas, para tratar a enfermidade prevaleceu porque o elemento fogo necessário para a liquefação de toxinas estava disponível em quantidades insuficientes. Isso fez parecer necessário contentar-se com o método de endurecimento de toxinas como o melhor substituto. Mas este foi um erro grave que tem sido a causa de expectativas de vida encurtadas, doença, fome, guerra e outros sofrimentos.
+
+*5 de fevereiro de 1947*
+
+### 055. Eu Sou um Cientista do Espírito
+
+Embora possa parecer estranho para mim, um especialista em religião, descrever-me como um cientista, qualquer um que ler isto até o fim se convencerá de que a descrição é precisa.
+
+Como costumo dizer, a ciência moderna ainda está em um nível muito baixo para ser chamada de ciência. A ciência contemporânea dá máxima ênfase à descoberta e investigação de partículas. A sofisticação do microscópio tornou possível avanços surpreendentes na compreensão da humanidade sobre partículas extremamente minúsculas. Somos capazes de investigar coisas ampliadas milhares, até milhões de vezes, e as possibilidades de desenvolvimento futuro parecem infinitas. A palavra espírito, que entrou em uso popular nos últimos anos, provavelmente se refere a este mundo ilimitado. Não são as operações científicas como tal, é claro, mas as hipóteses deduzidas dos resultados da pesquisa em teorias científicas que nos permitiram aprender sobre este mundo; sem tais hipóteses, os esforços para entendê-lo teriam sido fúteis.
+
+Este mundo infinito é a mesma coisa que o Mundo Espiritual que eu ensino. A ciência, que na realidade negou por muito tempo o espiritual, agora foi obrigada a reconhecê-lo. Ao chegar a uma apreciação mais precisa do Mundo Espiritual, a ciência de repente se elevou a uma posição elevada e deu um passo à frente na busca acadêmica pela verdade ideal. Em seu período inicial, a ciência se concentrou no físico; em seu período posterior, se concentrará no espiritual. O surgimento de tal ciência no palco mundial significa uma virada de 180 graus, levando a ciência a um acordo com a religião.
+
+Para tornar isso ainda mais fácil de entender, imaginemos uma linha traçada através do centro do mundo da ciência. A ciência material está abaixo dessa linha, e a ciência espiritual acima dela. A primeira se ocupa do conteúdo externo, e a segunda do conteúdo interno. É motivo de grande alegria que a ciência tenha se movido do material, onde era uma ciência da existência, para o espiritual, onde é uma ciência que lida com coisas sem existência física.
+
+Um problema sério ainda permanece, no entanto. Não basta simplesmente entender o Mundo Espiritual. Sua essência deve ser compreendida e então tornada útil à humanidade. A ciência física não tem um método capaz de fazer isso. Para lidar com o espiritual, é essencial empregar o espiritual. Em minha opinião, essa dificuldade pode ser facilmente superada. De fato, ela já foi superada em meu trabalho com resultados surpreendentes. Nos casos de cura de doenças, estou usando o espírito para resolver problemas espirituais.
+
+Para explicar brevemente: como as impurezas acumuladas no espírito do paciente são as fontes de todas as doenças — de acordo com a firme lei de que o espiritual precede o físico — remover essas impurezas necessariamente efetua uma cura. O método pelo qual essa cura é efetuada é usar um tipo especial de radiação espiritual — poderia ser chamada de uma bomba atômica espiritual — para queimar as impurezas. Este método, que chamamos de Johrei, é uma operação científica sofisticada, digna de ser chamada de "superciência", pois resolve problemas que a medicina, a ciência e a religião até então consideraram irresolúveis. Como o inferior não pode superar o superior, uma solução dos problemas de alto nível da vida humana por meio da ciência material de baixo nível é impossível. Isso é provado pela facilidade com que o Johrei pode curar doenças que a ciência médica desistiu como sem esperança.
+
+A ciência espiritual poderia ser chamada de essência interna da ciência física.
+
+Examinemos agora mais a fundo a natureza do Mundo Espiritual. Essencialmente, o Mundo Espiritual é composto pelas essências do sol, da lua e da terra, uma união do que a ciência chama de oxigênio, hidrogênio e nitrogênio, e o que nós chamamos de elemento fogo, elemento água e elemento solo. A Terra é a forma básica do mundo material; o sol, do espírito; a lua, do ar. O sol e a lua controlam a atmosfera, que preenche todos os espaços da terra. O elemento fogo, embora o mais forte, é também o mais raro dos três. Por essa razão, embora entendendo o calor e a luz, a ciência ainda não compreendeu a natureza do elemento fogo como espírito. Como a ciência se concentrou apenas nos elementos da água e do solo, são estes que caracterizam a civilização moderna; esta é sua maior falha.
+
+Neste ponto, tenho que descrever uma grande e surpreendente mudança que o mundo está prestes a sofrer. O mundo, como vimos, é composto pelos três elementos: sol, lua e terra. Em termos de fenômenos físicos, a alternância do sol e da lua significa a mudança do dia para a noite. Uma divisão semelhante entre dia e noite existe no Mundo Espiritual, embora a ciência material não possa entendê-la. A ciência espiritual, por outro lado, pode entendê-la.
+
+A grande mudança que deve ocorrer no mundo é uma transição de um tipo surpreendente que a humanidade nunca considerou anteriormente. Ela está prestes a começar. É uma mudança histórica, uma expansão do dia e da noite que só pode ser compreendida em termos do próprio tempo. No Mundo Espiritual, a alternância de dia e noite ocorre uma vez a cada dez, cem, mil ou dez mil anos. Assim como o planeta Terra é composto pelos três elementos: fogo, água e solo, todo o espaço universal é baseado no número três. De acordo com esta lei imutável do universo, dia e noite duram três anos, trinta anos, trezentos anos, três mil anos e assim por diante. É claro que existem diferenças na velocidade com que a transferência do espírito para o ser material é feita, dependendo da natureza e do tamanho da coisa em questão. No entanto, em geral, tudo se move de acordo com a lei.
+
+Surpreendentemente, a grande transição que deve ocorrer uma vez a cada três mil anos está prestes a acontecer agora — agora é o seu amanhecer. Como escrevi anteriormente, a própria data da transição é claramente conhecida: desde 15 de junho de 1931, o mundo está em sua fase diurna. Embora a transição tenha sido feita no Mundo Espiritual, ela está sendo gradualmente transferida para o mundo físico e eventualmente se tornará uma realidade.
+
+À medida que o Mundo Espiritual entra na fase diurna, a quantidade do elemento fogo aumentará. Isso também será gradualmente refletido no mundo físico, e a situação prevalecente até o presente, na qual a água teve precedência sobre o fogo, será revertida; o fogo terá precedência sobre a água. Nenhuma ciência física pode explicar isso, mas as pessoas de esclarecimento entenderão completamente. Problemas que necessariamente ficaram sem solução no passado agora podem ser prontamente resolvidos. Desta forma, minha ideia é elevar a ciência física de seu nível baixo atual ao ponto em que possa ajudar a criar uma verdadeira civilização.
+
+*7 de abril de 1954*
+
+### 056. A Precedência do Espiritual sobre o Físico
+
+Por ser orientada materialmente e se concentrar apenas em objetos visíveis e tangíveis, a ciência moderna compreende apenas as superfícies externas das coisas e não presta atenção alguma a uma importante realidade interna. A "realidade" em questão, que bem poderia parecer uma espécie de não-existência, é o que se conhece como espírito. Enquanto a ciência não perceber que o espírito é o principal constituinte de todas as coisas, seus avanços serão claudicantes e parciais, não importa quanto progresso ela faça. Nem se pode esperar que ela dê origem a uma verdadeira civilização.
+
+Uma vez que isso seja claramente compreendido, todos os problemas insolúveis do passado serão facilmente resolvidos, pois a lei de que o espiritual tem precedência sobre o físico é universal. Para citar um exemplo, a vontade invisível é responsável pelo movimento dos membros e outras partes do corpo humano. O corpo não se move por si só. Não importa quão milagroso possa parecer, é necessário entender que a causa original surge no espírito e é então transferida para o corpo.
+
+Explicarei isso agora em relação à enfermidade, na qual o princípio é mais facilmente compreendido. Embora se manifeste como fenômenos no corpo, a doença tem, é claro, sua origem no espírito. Em outras palavras, uma mácula ocorre primeiro em uma ou várias partes do espírito, depois se reflete no corpo como doença, de modo que se livrar das máculas obviamente significa curar a enfermidade.
+
+Enquanto a causa da enfermidade estiver no espírito, a prática da ciência médica de tratar apenas os sintomas físicos não pode efetuar uma cura verdadeira. É essencial perceber isso o mais rápido possível e fazer um novo começo. Felizmente, Deus me confiou a imensa responsabilidade de revisar e corrigir os erros da ciência médica. A responsabilidade é ainda maior porque o erro vai além da ciência médica e se estende a todos os aspectos de nossa civilização.
+
+Deixe-me dar um exemplo. Os muitos crimes que ocorrem hoje são, como a enfermidade, apenas manifestações superficiais. Suas causas, como as da doença, devem ser encontradas no espírito ou na alma. No entanto, como no tratamento da enfermidade, as pessoas permanecem inconscientes das verdadeiras causas e tentam lidar com o crime tratando apenas os sintomas; em outras palavras, através da punição. Tal tratamento, no entanto, é apenas temporário, e os crimes continuam tão numerosos quanto as areias de uma praia. As pessoas deveriam perceber que a remodelação da alma, essencial para sua eliminação, só pode ser alcançada através da religião.
+
+Como mostrei, a falha em levar o espírito em consideração está por trás desses dois grandes problemas. Os milagres são um método para tornar isso completamente compreendido.
+
+*10 de setembro de 1953*
+
+### 057. A Precedência do Espiritual sobre o Físico
+
+Consideremos a relação entre o mundo não material e a doença física. Por "mundo não material" refiro-me ao que chamamos de Mundo Espiritual. Nos seres humanos, há unidade entre o corpo e o espírito. O corpo é visível e físico. O espírito é invisível aos olhos, mas existe como uma espécie de éter. O corpo humano pertence ao reino do ar, e o espírito humano ao Mundo Espiritual.
+
+Como afirmado anteriormente, o Mundo Espiritual é uma entidade transparente, ainda mais rarefeita que o ar. Nisso, pode parecer semelhante à não-existência, mas, na verdade, longe de ser inexistente, é uma fonte de poder absoluto e infinito, um reino de profundezas inimaginavelmente misteriosas, composto pelas essências do sol, da lua e da terra. Referir-me-ei a ele aqui, provisoriamente, como "poder universal".
+
+Este poder universal traz todas as coisas à existência e estimula seu crescimento e desenvolvimento, mas este processo acumula poluição, e um processo de purificação ocorre para eliminar os poluentes. Isso é muito semelhante ao banho, que os seres humanos usam para remover a sujeira e a fuligem que se acumulam em seus corpos. Poluentes que se acumulam em localidades específicas no Mundo Espiritual do planeta Terra estimulam o desenvolvimento de células de baixa pressão que desempenham uma função de limpeza e purificação. Os incêndios, sejam causados por raios ou por agência humana, desempenham o mesmo tipo de função.
+
+O mesmo acontece com os seres humanos, é claro; quando os poluentes se acumulam, o espírito assume a liderança na iniciação de um processo de purificação. Examinarei isso agora em detalhes.
+
+Os poluentes — ou máculas — que se acumulam no espírito humano criam manchas opacas no corpo espiritual, que é essencialmente transparente. Há duas causas para isso: máculas que surgem no próprio espírito e máculas transferidas para o espírito a partir do corpo físico. Começarei minha explicação com o primeiro.
+
+O espírito consiste em três camadas que convergem no centro. A mais interna é chamada de alma — a pequena entidade que, em termos de nascimento humano, é primeiro transferida pelo homem para se alojar no útero da mulher. No entanto, como a alma é envolvida pela mente, que por sua vez é envolvida pelo espírito, as condições na alma são transferidas para o espírito por meio da mente e, inversamente, as condições no espírito se refletem na alma por meio da mente. Em suma, a alma, a mente e o espírito são simultaneamente três e um.
+
+Enquanto estão vivos, todos os seres humanos fazem tanto o bem quanto o mal. Quando o mal supera o bem, a diferença é o pecado que se reflete como máculas na alma. Então a mente e o espírito, nesta ordem, também se tornam maculados. As máculas são removidas quando o seguinte processo de purificação começa. As máculas acumuladas se contraem e se condensam e se reúnem em certas localidades do corpo. Curiosamente, a localização difere de acordo com a natureza do pecado. Por exemplo, o pecado cometido através do olho causa acúmulo no olho; os pecados cometidos através da cabeça, acúmulos na cabeça; e os pecados cometidos através do peito, acúmulos no peito.
+
+Consideremos agora o caso inverso, onde as máculas são transferidas do corpo físico para o espírito. Neste caso, a turvação se desenvolve no sangue antes da transferência para o espírito. Como o sangue é a manifestação física do espírito e o espírito, inversamente, uma manifestação espiritual do sangue, o corpo e o espírito são um. Inversamente, a transferência de máculas concentradas para o corpo causa turvação no sangue; quando esta se torna ainda mais condensada, endurece; e quando a dureza resultante é liquefeita e busca saídas de várias partes do corpo, o sofrimento causado é o que se conhece como enfermidade. A transferência do corpo, portanto, refere-se à transferência da turvação do sangue.
+
+A questão, então, é o que causa essa turvação. Surpreendentemente, é o medicamento que constitui o pilar da terapia médica. Como todo medicamento é veneno, a introdução de medicamentos no corpo causa máculas no sangue,* como os fatos provam melhor do que qualquer outra coisa. Devido à natureza tóxica do medicamento, dificilmente surpreende que, enquanto submetidas a tratamento médico, as doenças muitas vezes persistam, piorem ou deem origem a efeitos colaterais patológicos.
+
+Se as máculas no sangue físico se refletem como máculas no espírito e se isso, por sua vez, é a causa da enfermidade, o caminho para curar a enfermidade é o mesmo que o caminho para causar a enfermidade. É uma lei universalmente aplicável que o espiritual tem precedência sobre o físico. Por essa razão, a menos que as máculas no espírito sejam removidas, a doença resultante delas não pode ser completamente curada. Nossa terapia é uma aplicação desta lei, na medida em que curamos fundamentalmente a doença purificando o espírito através do Johrei. Ignorante disso, a ciência médica tenta curar apenas o corpo, ignorando o espírito. Consequentemente, não importa quanto progresso ela faça, ela permanece capaz de curas apenas temporárias.
+
+*15 de agosto de 1951*
+
+*Embora o medicamento possa prolongar a vida e possa produzir pessoas que são aparentemente, embora não realmente, saudáveis, ele carece do poder de efetuar curas fundamentais. A saúde humana em sua forma original é a capacidade de viver sem medicamentos. Por essa razão, é importante evitar tomar medicamentos o máximo possível. Há, no entanto, casos em que doenças muito graves tornam o recurso ao medicamento inevitável.*
+
+### 058. O Corpo Espiritual e o Corpo Físico
+
+É um princípio fundamental que em todas as coisas o espiritual tem precedência sobre o físico; uma vez que este princípio seja compreendido, muitos dos chamados milagres se tornam compreensíveis. É, no entanto, necessário entender primeiro a relação entre o Mundo Espiritual e o mundo físico.
+
+Os seres humanos podem estar vestidos com uma vestimenta carnal, mas também têm uma vestimenta espiritual (aura). A aura é uma espécie de éter ou luz refletida do espírito; e, embora seja vaga, há pessoas que podem vê-la com seus olhos comuns. Como o tempo, a aura está constantemente mudando de clara para nublada e de nublada para clara. Se a pessoa pensa o bem e faz o bem, o espírito é claro; mas se pensa o mal e faz o mal, ele se torna nublado. Assim, a crença em uma divindade verdadeira lança uma luz que ajuda a dissipar as máculas, enquanto a adoração de uma falsa divindade apenas as aumenta.
+
+As pessoas comuns que não têm conhecimento de assuntos espirituais tendem a pensar que qualquer deus é um deus verdadeiro. Isso é um grande erro. Na verdade, os deuses falsos são mais numerosos do que os deuses verdadeiros. A prova disso pode ser vista em famílias que, apesar de gerações de fé ardente, sofrem uma linha interminável de infortúnios. As divindades que tais pessoas adoram são falsas ou fracas.
+
+Quando uma pessoa deposita sua fé em um deus verdadeiro, no entanto, e acumula mérito como consequência de seus próprios esforços para salvar os outros, sua luz aumenta e sua aura se amplia. A aura de uma pessoa comum pode ter cerca de 3 centímetros de largura. A de uma pessoa boa e virtuosa pode ter de 15 a 30 centímetros de largura, enquanto a de alguém com uma personalidade divina e mérito imenso pode ter muitos quilômetros de largura. A de um grande líder religioso se estenderá por vários povos e terras, como é verdade nos casos de Cristo e Buda. Um salvador do mundo tem o poder surpreendente de abranger toda a humanidade com sua luz, embora a história mostre que nenhum salvador assim apareceu no mundo até agora. A atitude e o esforço do indivíduo determinam a largura de sua aura. As pessoas devem acreditar nisso e procurar acumular o máximo de virtude possível.
+
+Membros de nossa organização são frequentemente salvos do desastre por suas auras. Por exemplo, uma aura larga pode impedir que o espírito de um automóvel que se aproxima atinja uma pessoa, mesmo que a atinja. Em circunstâncias semelhantes, pessoas com auras finas ou sem aura alguma podem ser mortas ou sofrer ferimentos graves. O caso é semelhante com a boa e a má sorte.
+
+As coisas são organizadas de modo que o corpo humano pertence ao mundo físico, e o espírito ao Mundo Espiritual. O Mundo Espiritual é composto por zonas superior, média e inferior, cada uma das quais é dividida em três estágios. Cada um desses estágios é ainda dividido em vinte níveis, para um total de cento e oitenta níveis. É claro que a zona inferior é o inferno. A zona média é o mundo do ser, ou um reino do mesmo calibre que nosso mundo comum. A zona superior é o paraíso. As pessoas comuns habitam a zona média, mas podem se mover para cima ou para baixo, dependendo de suas ações serem boas ou más.
+
+Além disso, o Mundo Espiritual, ao contrário do mundo real, é totalmente justo, sem a menor parcialidade de qualquer tipo. Embora isso seja uma desvantagem para os maus, é uma verdadeira alegria para as pessoas de fé verdadeira. O mundo do inferno, é claro, é um turbilhão de ciúme, ressentimento, inveja, ódio e pobreza. Esses traços os budistas chamam de ganância, raiva e tolice, todos os quais aumentam em intensidade à medida que descem pelos níveis. O reino mais baixo é dito ser um inferno de escuridão e frio absolutos.
+
+Tudo isso não pertence apenas ao mundo após a morte. A felicidade e a infelicidade neste mundo real dependem da posição do indivíduo no Mundo Espiritual. Os numerosos casos relatados de famílias inteiras que, após terem sido levadas a extremos de sofrimento, cometem suicídio juntas, revelam a maneira como o reino do inferno no Mundo Espiritual se reflete no mundo real.
+
+Como tal sofrimento decorre, em última análise, do mal que a própria pessoa perpetrou, ninguém é tão tolo quanto o malfeitor deliberado. Mesmo as pessoas que parecem temporariamente ter progredido no mundo como consequência de atos maus devem, mais cedo ou mais tarde, chegar à desgraça porque são colocadas no inferno no Mundo Espiritual. O inverso também é verdadeiro. Se uma pessoa faz o bem e se sua posição no Mundo Espiritual melhora, é uma lei divina e inviolável que a felicidade um dia chegará a seu caminho, não importa o quanto ela sofra agora.
+
+Embora ensinar este princípio seja a missão essencial da religião, ela não o fez completamente até o presente, a razão sendo a ênfase nas escrituras e na pregação em detrimento da coisa realmente importante: a demonstração real — isto é, os milagres. Mas o tempo chegou. O Deus Supremo manifestará seus poderes absolutos e, através de nossa organização, operará milagres surpreendentes que despertarão a humanidade de suas ilusões e conquistarão a fé de todas as pessoas.
+
+*10 de setembro de 1953*
+
+### 059. Cura Espiritual
+
+De vários ângulos, expliquei que o mundo do dia será um mundo em que o espiritual precede o físico. As toxinas acumuladas como substâncias materiais no corpo humano são as causas fundamentais da doença. No ser espiritual, as máculas ocorrem em zonas correspondentes às áreas do corpo físico onde esses acúmulos tóxicos ocorrem. A eliminação das toxinas do ser físico é apenas uma medida temporária; as toxinas se regenerarão com o passar do tempo, de acordo com a lei de que o espiritual precede o físico. Consequentemente, o único método correto para alcançar o objetivo final da terapia é remover as máculas do espírito. Esta é a maneira fundamental de eliminar as toxinas.
+
+A própria palavra recaída deixa claro que, ao se concentrarem no corpo físico e não empregarem outros métodos além da eliminação ou endurecimento das toxinas físicas, as terapias passadas tiveram apenas resultados temporários e nunca fundamentais. Como acabei de indicar, a ciência médica tem apenas duas maneiras de lidar com as toxinas: endurecê-las ou removê-las cirurgicamente. Os remédios populares usam eletricidade ou raios de luz para endurecer as toxinas, ou a combustão de moxa para causar queimaduras que concentram e depois eliminam a supuração.
+
+A terapia à qual nos subscrevemos, no entanto, baseia-se na remoção de máculas do espírito por meio de uma espécie de onda espiritual composta principalmente pelo elemento fogo, que irradia das mãos e dos dedos da pessoa que administra o Johrei. Denominei provisoriamente essa onda de "raio místico". Todos a possuem em algum grau. Talvez fosse melhor dizer que este raio preenche ilimitadamente o espaço ao nosso redor — em suma, o Mundo Espiritual.
+
+Por que ninguém no passado descobriu o uso deste raio espiritual para conduzir a terapia eliminando as máculas? É porque o mundo estava em uma fase noturna, na qual a luz disponível se limitava, aproximadamente, à da lua, e era impossível obter o suficiente do raio místico para tratar a doença; ou seja, para remover as máculas do espírito.
+
+Isso não quer dizer que o raio fosse totalmente inexistente. Como é bem sabido, algumas pessoas religiosas e praticantes da fé conseguiram ganhar fama entre as pessoas por suas doutrinas e renome como fundadores de seitas religiosas porque suas curas tiveram algum efeito. No entanto, como é composta principalmente pelo elemento água, a luz da lua foi eficaz em lidar apenas com um número limitado de doenças e por períodos limitados. Como o elemento água da luz da lua é um fator de resfriamento, ele endurece as toxinas.
+
+Como emprega principalmente o elemento fogo, o Johrei tem grande efeito na dissolução de todos os tipos de toxinas. Assim, as duas motivações fundamentais por trás da descoberta do meu método terapêutico são as seguintes: o conhecimento de que o mundo está prestes a entrar em uma transição da noite para o dia, e o desejo de efetuar grandes curas irradiando sobre as partes patologicamente afetadas dos corpos humanos um raio poderoso, fazendo assim com que o elemento fogo, cujas moléculas aumentam na fase diurna do mundo, passe através do corpo humano em grandes concentrações.
+
+*23 de outubro de 1943*
+
+### 060. O Princípio do Johrei
+
+#### I
+
+O nível educacional geral de hoje torna a explicação deste princípio muito difícil. Não há o que fazer a respeito disso, no entanto, enquanto a educação permanecer estruturada no materialismo. Na verdade, porém, os registros escritos e as tradições transmitidas oralmente pelos fundadores de praticamente todas as religiões incluem menção a milagres. Este é especialmente o caso nas grandes religiões, porque naqueles dias realizar milagres e produzir resultados benéficos era suficiente para convencer as massas, que não desejavam ser informadas sobre os princípios das coisas milagrosas que contemplavam.
+
+É óbvio, mesmo agora, quantas mais pessoas Jesus Cristo teria salvo em sua vida e a grande extensão em que ele teria sido capaz de expandir os limites de seus ensinamentos se não fosse por sua crucificação. A brevidade da vida de Cristo foi causada pelo grande poder de Satanás naquela época. O poder de Satanás era superior porque, no que diz respeito ao reino espiritual, o tempo era prematuro. A intuição espiritual me diz, no entanto, que agora o tempo está finalmente maduro para a grande transição no Mundo Espiritual e que o poder de Satanás está enfraquecendo dia a dia.
+
+As revelações divinas tornaram claras para mim todas as coisas que intrigaram o mundo no passado. Através deste conhecimento, estou me esforçando para definir claramente o verdadeiro e o falso, elucidar as raízes básicas do bem e do mal, retificar todos os erros e estimular o desenvolvimento vivo de uma cultura espiritual em contraste com a cultura materialista que progrediu tão hesitantemente no passado. Em outras palavras, ao estimular o desenvolvimento simultâneo das culturas espiritual e material, meu objetivo é criar um mundo ideal, ou paraíso na terra.
+
+Explicarei alguns dos princípios que permitem aos membros obter bons resultados através de milagres surpreendentes. Como eu disse, ao contrário das pessoas incivilizadas ou das que vivem em uma época de baixo desenvolvimento cultural, a humanidade moderna não se inspira na fé apenas por milagres. As pessoas hoje não se convencem a menos que os milagres tenham corroboração teórica. Muitas religiões mais antigas entraram em declínio porque meramente rejeitaram a cultura materialista e não trouxeram benefícios reais nesta vida para as pessoas da época.
+
+Explicarei agora o método do Johrei por meio do qual nossos membros operam milagres. Levantar a mão e direcionar a palma para uma pessoa doente imediatamente alivia doenças difíceis e graves. Em pouco tempo, a dor intolerável é aliviada ou eliminada por completo. Isso só pode ser chamado de milagroso. Ao longo de centenas e milhares de anos, estudiosos notáveis de muitas terras estudaram e praticaram para aperfeiçoar a ciência médica moderna, e seus métodos terapêuticos meticulosos e elaborados merecem elogios. Para uma pessoa comum aplicar com sucesso o método do Johrei para curar doenças que se mostraram recalcitrantes à terapia nas mãos de autoridades médicas que treinaram por décadas a um grande custo, deve ser descrito como a maravilha do século. É precisamente isso que se entende por "a verdade que transcende a verdade".
+
+É compreensível, uma vez que isso é algo sem precedentes em toda a história, que as pessoas que não fizeram mais do que ouvir tais histórias não possam aceitar o que ouvem e que considerem os portadores dos contos como supersticiosos ou dementes. Se estivéssemos menos do que absolutamente certos do que podemos fazer, nunca teríamos feito uma declaração de propósito tão ambiciosa e abrangente: "Um mundo absolutamente livre de doença, pobreza e conflito". Se nos faltasse o poder para levar a cabo este programa, seríamos culpados do mal imperdoável de enganar o mundo.
+
+Os milagres não são milagrosos para nós. São fenômenos que ocorrem como resultado de um processo particular e são capazes de corroboração científica.
+
+#### II
+
+Nada é puramente material; tudo tem um corpo espiritual que é invisível aos olhos. Os seres humanos são compostos por um corpo físico e um corpo espiritual, que, em termos muito gerais, correspondem às essências da lua e da terra e à essência do sol, respectivamente. Em termos simples, o espírito é fogo, yang, masculino, exterior, vertical e diurno. O corpo, em contraste, é água, yin, feminino, interior, horizontal e noturno.
+
+Concentrando-se apenas no corpo, a ciência cometeu o erro fundamental de não reconhecer a existência do espírito. Se fossem corpo sem espírito, os seres humanos seriam apenas matéria, tão inanimados quanto árvores e pedras, desprovidos de vida e de atividade espiritual. A falha em entender este fato simples esteve por trás de todos os erros que a ciência cometeu no passado.
+
+Os cientistas presumem que o espaço é ocupado por nada além de ar. Infelizmente, a ciência ainda não se desenvolveu ao ponto de poder descobrir os muitos elementos invisíveis, além do ar, que preenchem o espaço. Felizmente, porém, eu consegui descobrir esses elementos invisíveis. Chamo essa abordagem de "ciência espiritual". A descoberta levou ao pioneirismo de uma era na qual o maior sofrimento da humanidade, a doença, será totalmente eliminado.
+
+Quais são, então, as causas básicas da enfermidade? O ser humano é composto de espírito e corpo. Os dois estão inseparavelmente unidos, e o espírito permite que o corpo viva e se mova. O espírito assume uma forma semelhante à do corpo. Em seu centro está a mente; no centro da mente está a alma. As operações desta entidade três em um se manifestam na forma de vontade e pensamento. Como controla o corpo na forma de vontade e pensamento, o espiritual precede o físico. Em termos simples, quando um ser humano move seus braços e pernas, os membros são motivados, não por si mesmos, mas sob o comando da vontade. O mesmo é verdade para os olhos, o nariz, a boca e todas as outras partes do corpo.
+
+Para explicar a enfermidade em conexão com este princípio de uma maneira que seja prontamente compreendida, tomarei os furúnculos como exemplo. Quase todos já os experimentaram. Geralmente, começam como pequenas erupções, aumentam de tamanho, tornam-se vermelhos, inflamados e são dolorosos ou coçam em sua cabeça. São uma manifestação da fisiologia natural do corpo enquanto tenta expelir toxinas. O corpo é naturalmente capaz de gerar febre para liquefazer toxinas que se acumularam e se localizaram, e então descarregá-las em forma líquida. Para criar uma passagem de saída para as toxinas, a pele se torna mais fina e mais macia do que o normal. A vermelhidão de um furúnculo é o sangue tóxico visível através da pele que se tornou transparente. Pouco tempo depois, um pequeno orifício se abre, e as toxinas liquefeitas na forma de pus são expelidas do corpo. Este é o fim do processo de purificação.
+
+Esta é a explicação física. No espírito, desenvolve-se uma espécie de mácula correspondente ao furúnculo. Quanto mais grave a enfermidade, mais densas as máculas. As máculas se acumulam e se localizam em uma parte do espírito. Este é o processo de purificação comum que leva à eliminação de toxinas de todo o corpo espiritual que se acumularam em um só lugar. A purificação, que está inseparavelmente conectada com o ser físico, é o que se chama de enfermidade.
+
+Não apenas o corpo humano, mas tudo o mais no universo está sujeito à lei mencionada anteriormente de que o espiritual precede o físico. O propósito do Johrei é eliminar as máculas no espírito. Por meio do Johrei, as máculas são tornadas completamente ineficazes, sua vida é convertida em morte. Máculas "mortas" são impotentes e não podem irritar os nervos. Consequentemente, a dor não mais existe.
+
+#### III
+
+O método de Johrei que uso atualmente é escrever o caractere para a palavra *hikari* (luz) em pedaços de papel, que exercem seu efeito quando usados na pessoa como pontos focais. Quando alguém usando um ponto focal ministra o Johrei, fortes ondas de luz irradiam da tinta com a qual o caractere é escrito, viajam ao longo do braço da pessoa e então irradiam para fora da palma de sua mão.
+
+Os caracteres escritos para *hikari* emitem raios de luz que são transmitidos instantaneamente a cada um deles através de "cordões espirituais" do meu corpo, assim como as ondas de rádio são transmitidas. Dizer que ondas de luz são emitidas do meu corpo espiritual levanta a questão de que tipo de mecanismo existe em meu ser espiritual que pode fazer isso. A resposta é simples: em meu abdômen há uma bola de luz com um diâmetro normal de cerca de 6 centímetros. Há pessoas que a viram. Esta bola de luz pura emite raios de luz ilimitados. A fonte desta luz é a joia cintamani do Bodhisattva Avalokiteshvara, que, localizada no Mundo Espiritual, dirige sua luz ilimitada para mim. Isso é chamado de poder divino, poder imponderável e poder do conhecimento maravilhoso. A joia cintamani, ou a joia da satisfação, mantida pelo bodhisattva chamado Cintamanicakra-avalokiteshvara é a mesma que esta.
+
+#### IV
+
+Em relação à história do Bodhisattva Avalokiteshvara — ou Kannon (観音), em japonês —, desde tempos antigos acreditava-se que esta divindade budista em particular possuía um poder único e misterioso. Com a permissão de Deus, algum dia revelarei todo o mistério deste bodhisattva, mas, no momento, o tempo não está maduro. Portanto, exporei apenas o necessário para o Johrei.
+
+É claro que Avalokiteshvara tem atuado no Japão desde a chegada do Budismo, mas até agora essa atividade se limitou à salvação do espírito. Avalokiteshvara conferia bênçãos práticas quando as pessoas oravam por elas, mas eram apenas do tipo mais secundário, porque, embora o elemento básico da luz fosse uma união íntima dos elementos fogo e água, o elemento solo estava ausente. Por incluir apenas dois elementos, a luz carecia de poder total na concessão de benefícios.
+
+Mas o tempo da grande transformação no Mundo Espiritual chegou — o que a Bíblia chama de fim do mundo e Juízo Final. Por essa razão, o poder de salvação mais poderoso e absoluto se tornou necessário. Este poder deve incluir todos os três elementos — fogo, água e solo —, sendo o último o elemento da matéria que corresponde ao corpo humano. A composição de três elementos se completa quando o solo é adicionado pela passagem da luz através do corpo. O poder deste três em um é o poder de Avalokiteshvara.
+
+Em termos simples, o elemento luz emitido pela joia cintamani do Bodhisattva Avalokiteshvara passa através do meu corpo, tornando-se assim uma manifestação do poder místico do bodhisattva, que passa de mim e através dos seguidores em nossa fé, tornando-se por sua vez o poder de purificação.
+
+Usarei agora um exemplo para explicar este princípio. No passado, as pessoas oravam por bênçãos a imagens ou estátuas de Avalokiteshvara. Mas o Johrei realizado pelos crentes em nossa fé é capaz de conceder muitas vezes mais bênçãos, porque as ondas de luz emitidas por estátuas e pinturas consistem em apenas dois elementos e carecem do poder vital do corpo físico.
+
+A grande transformação no Mundo Espiritual, da qual falo constantemente, é outra razão. Antes de meados de junho de 1931, o elemento água predominava no Mundo Espiritual; a quantidade do elemento fogo era pequena. Desde então, no entanto, a quantidade do elemento fogo tem aumentado gradualmente. A transição na verdade começou décadas antes, mas naquela época o elemento fogo era extremamente raro.
+
+Para explicar a força da luz, eu poderia dizer que a luz é forte quando o elemento fogo é abundante, assim como uma lâmpada elétrica de alta potência emite calor forte. Como outro exemplo, muitas vezes me dizem que sou muito mais quente do que as pessoas comuns por causa da massa do elemento fogo em meu abdômen. Todas as noites, algumas das pessoas que me servem massageiam meus ombros e sempre comentam sobre o grande calor que sentem em meu corpo. Mesmo no inverno, é tal que muitas vezes precisam remover uma ou duas peças de roupa externa. Todos dizem que um quarto se aquece com a minha presença por um curto período. Eu, rindo, me chamo de "aquecedor substituto". No inverno, após um banho, sinto-me confortável por uma ou duas horas vestindo apenas um roupão de banho. Prefiro muito a água do banho que não seja muito quente. O princípio envolvido é como aquele que aumenta o calor quando a água é derramada no fogo ou que torna os dias claros de inverno mais frios do que os nublados.
+
+*30 de maio de 1949*
+
+### 061. Johrei e a Composição de Três Elementos dos Órgãos Internos
+
+Entre os órgãos internos, a função do coração, dos pulmões e do estômago tem a maior importância para a vida humana. Explicarei agora como eles agem em termos dos três elementos fundamentais: fogo, água e solo.
+
+O coração absorve o elemento fogo, os pulmões o elemento água e o estômago o elemento solo; o coração corresponde ao fogo, os pulmões à água e o estômago ao solo. Mas a maneira como a ciência médica explicou este assunto foi totalmente inadequada. A ciência apontou a maneira como o oxigênio levado aos pulmões purifica o sangue, mas isso por si só não atinge o cerne da questão. Explicarei agora a situação de acordo com a medicina que me foi divinamente revelada, mas devo primeiro começar com uma explicação da verdadeira natureza do Mundo Espiritual.
+
+É impossível entender esta verdadeira natureza sem perceber que, embora seja imperceptível aos cinco sentidos humanos, o Mundo Espiritual é, na verdade, a fonte fundamental de todas as coisas. O princípio de que a água faz o fogo queimar e que o fogo faz a água fluir é a chave para a solução de todas as coisas. Um pré-requisito para a compreensão do reino espiritual invisível é uma explicação do reino do ar.
+
+O oxigênio, familiar através da ciência moderna, é o espírito do fogo; o hidrogênio é o espírito da água; e o nitrogênio é o espírito do solo. Esses três mantêm suas identidades individuais, mas quando são unificados formam a essência da qual todas as coisas surgem. A ação inefavelmente mística desses três elementos resulta em uma situação na qual climas extremamente quentes, extremamente frios e temperados são cada um adequado às necessidades das criaturas que ali vivem. Hipoteticamente, se todo o elemento água fosse removido, o mundo explodiria de uma vez. Se todo o elemento fogo fosse removido, tudo congelaria instantaneamente. Se todo o elemento solo fosse eliminado, tudo se desintegraria em nada.
+
+Este princípio deve deixar claro o significado básico da função do coração, dos pulmões e do estômago. Em outras palavras, o coração absorve o elemento fogo do Mundo Espiritual; sua operação é o pulso. De maneira semelhante, os pulmões absorvem o elemento água; sua operação é a respiração. O estômago absorve o elemento solo do mundo físico; sua operação é a ingestão de nutrientes.
+
+A liquefação das toxinas endurecidas que causam todas as doenças exige calor. Este é o primeiro passo no processo de purificação. Interpretado como um sintoma patológico, este calor, que é necessário em grandes quantidades, é a febre. Nesses momentos, para acomodar este calor, a frequência do pulso aumenta muito. Como o calor se concentra na região afetada, ele tende a diminuir em outras partes do corpo, provocando assim calafrios desagradáveis. Nesses momentos, os pulmões absorvem grandes quantidades do elemento água, fazendo com que a frequência respiratória aumente, estimulando a atividade do coração e prevenindo a desidratação.
+
+O espírito do fogo é, naturalmente, emitido pelo sol, o espírito da água pela lua e o espírito do solo pela terra.
+
+O principal entre os três órgãos principais é o coração, que ativa os pulmões, que por sua vez ativam o estômago. Embora a insuficiência de alimento no estômago não signifique perigo imediato para a vida, a sobrevivência é possível por não mais do que alguns minutos se os pulmões se tornarem inoperantes e por apenas alguns segundos quando o coração falha. Isso fica claro pelo costume da ciência médica de sempre dar a falência cardíaca, e não a falência dos pulmões ou do estômago, como a causa da morte. Quando uma pessoa morre, o coração primeiro para de operar. O corpo então se torna frio à medida que o espírito, o elemento do fogo que anteriormente o preenchia, parte para retornar ao Mundo Espiritual. Então os pulmões cessam a respiração, e o elemento da água que havia permeado o corpo retorna ao reino do ar, iniciando um processo de secagem. Obviamente, o estômago também para de operar e a impossibilidade de obter bebida e comida faz com que o corpo se torne rígido.
+
+Como o corpo humano é composto por um amálgama dos três elementos: fogo, água e solo, curar as doenças que afligem o corpo só é racional se depender dos poderes desses três elementos. Este é o princípio do Johrei.
+
+O Johrei depende do poder do Deus Supremo, uma transmissão de luz. É uma luz espiritual, invisível ao olho humano, enquanto a luz visível do sol, de uma lâmpada ou de uma lâmpada elétrica é a manifestação física da luz. A essência da luz é uma união íntima entre os elementos da água e do fogo. Quanto maior a quantidade do elemento fogo, mais forte a luz. No entanto, o poder da luz composta de fogo e água é insuficiente. O elemento do solo também é necessário. A inclusão do elemento do solo aperfeiçoa a união do três em um, que emite uma luz com maravilhosos poderes de cura. Ondas desta luz penetram no corpo e eliminam as máculas poluidoras no espírito. O efeito deste processo é transferido para o corpo na forma de efeitos terapêuticos.
+
+Quanto aos meios práticos de realizar isso, eu escrevo, como expliquei tantas vezes, o caractere para a palavra luz em um pedaço de papel, que é então dobrado e usado dentro da roupa. O espírito das ondas de luz passa pelo meu braço e pela caneta para permear e condensar (embora eu use a palavra condensar, o processo é difícil de explicar). Uma conexão é então estabelecida entre o caractere para luz e a fonte de luz dentro do meu corpo por meio de cordões espirituais ao longo dos quais um suprimento de ondas de luz passa incessantemente. A ligação espiritual entre o Deus Supremo e eu é semelhante; uma quantidade infinita de ondas de luz é transmitida a mim para a salvação da humanidade.
+
+Como esta explicação deve ter deixado claro, um método terapêutico que faz uso do poder da composição três em um do corpo humano é a verdadeira terapia e, como é de se esperar, tal terapia é capaz de manifestar poderes de cura sem precedentes.
+
+*6 de agosto de 1949*
+
+### 062. Poder Absoluto
+
+É indiscutível que o poder de Deus é a fonte de toda atividade no universo. Todo crescimento e mudança são uma manifestação deste poder, assim como o estímulo e a cessação de toda ação. Todas as criaturas vivas, dos seres humanos às bactérias, nascem e morrem por causa deste poder. É o controlador ilimitado e absoluto.
+
+Eu poderia fornecer inúmeros outros exemplos deste fato, mas basta dizer que o universo em si é, em última análise, poder, que eu gostaria agora de examinar de vários pontos de vista.
+
+O próprio caractere chinês que significa "poder" (力) mostra como não apenas o significado das palavras, mas a maneira como são escritas é um produto da vontade de Deus. O caractere em questão é produzido fazendo-se primeiro uma linha vertical, depois cruzando a vertical com uma horizontal um pouco acima do meio para fazer algo como uma cruz e, finalmente, descendo outra vertical a partir da horizontal, permitindo que o pincel se eleve bruscamente na parte inferior desta segunda vertical em uma espécie de cauda. Em suma, de uma combinação de vertical e horizontal surge a ação, que então passa a girar com um movimento circular no sentido horário. Esta é a maneira como o próprio poder funciona.
+
+Para examinar isso agora em termos de realidade, ele representa, no sentido mais amplo, os dois grandes princípios ou ideologias do mundo: o espiritualismo e o materialismo, ou os tipos de cultura espiritualista e materialista. Em termos religiosos, nos quais são mais fáceis de entender, estas são as culturas das duas grandes religiões mundiais: a cultura espiritual vertical oriental do Budismo e a cultura física horizontal ocidental do Cristianismo. No passado, por terem existido independentemente, o vertical e o horizontal não foram capazes de manifestar o verdadeiro poder, como é mais patentemente provado pelo fracasso do mundo em alcançar a unidade harmoniosa e em salvar a humanidade. As principais religiões inegavelmente tiveram como meta a realização de um mundo ideal, mas a miserável confusão e o impasse do mundo de hoje mostram quão longe o ideal está da realidade, quão remota é sua realização. A falta de poder é a razão para este estado de coisas, e isso aconteceu porque o vertical e o horizontal não foram unidos. É claro que isso pode ser uma questão de tempo e pode ser inevitável dentro do plano de Deus.
+
+Se eu agora explicar minha própria missão, o significado do que acabo de dizer se tornará ainda mais aparente. O Johrei é o aspecto central de minhas atividades. Como nossos membros sabem muito bem, eu escrevo o caractere da "luz" em um pedaço de papel, que, quando usado como um ponto focal, confere o poder de curar completamente até mesmo aquelas doenças difíceis que os médicos desistiram como sem esperança. Já escrevi centenas de milhares desses pontos focais, mas sua eficácia permanece inalterada, não importa o quanto seu número aumente. Além disso, eles são eficazes não apenas na cura de doenças, mas também na alteração da constituição psicológica de uma pessoa. Eles, assim, melhoram a personalidade e salvam as pessoas de crises muito perigosas. Graças aos inúmeros exemplos de tais milagres que ocorrem o tempo todo, mais e mais pessoas estão vivendo em felicidade.
+
+Isso se deve inteiramente ao poder dos pontos focais; não desejo me gabar, mas fatos são fatos e não pode haver mal em relatá-los. Nunca antes na história alguém exerceu este poder absoluto. Não pode haver dúvida sobre todos esses milagres, pois eles são relatados em testemunhos de experiências reais em nossos periódicos.
+
+Em termos budistas, este poder que nasce da união do vertical e do horizontal é o poder místico do Bodhisattva Avalokiteshvara. Em termos cristãos, é o poder do Messias. Embora em grande parte espiritual agora, este poder um dia se manifestará em forma física. Quando isso ocorrer, uma verdadeira cultura, nascida da conjunção da cultura espiritual do Oriente e da cultura material do Ocidente, surgirá. O nascimento de tal cultura é o objetivo e a vontade de Deus e é sem precedentes no mundo.
+
+*16 de janeiro de 1952*
+
+### 063. Uma Pessoa de Cada Vez É Insuficiente
+
+As grandes realizações dos muitos sábios que, como Jesus Cristo, operaram milagres para salvar seres humanos, brilham intensamente na história da religião. Mas tais pessoas só foram capazes de curar individualmente, o que torna impossível curar um grande número de pessoas. Mesmo Cristo, que realizou milagres maravilhosos como abrir os olhos dos cegos, fazer os coxos andarem e expulsar demônios dos doentes espirituais, foi capaz de curar apenas uma pessoa de cada vez, então não é de surpreender que suas realizações tenham atraído pouca atenção popular em sua própria época.
+
+No entanto, dezenas de milhares de nossos membros realizam diariamente curas semelhantes, e não se pode dizer até que ponto seu número aumentará com o passar do tempo. Uma coisa que é previsível, no entanto, é que, como um grande número de pessoas será gradualmente salvo, nossas atividades se tornarão uma questão global importante no futuro.
+
+Nosso sistema terapêutico é inegavelmente uma ciência médica maravilhosa, mas a cura física por si só é insuficiente, pois a criação de um mundo ideal é nosso objetivo final. Devemos nos esforçar para criar saúde tanto psicológica quanto física, produzindo o tipo de ser humano que é unido em espírito e corpo, tornando assim possível a formação de um paraíso na terra.
+
+Esta discussão indica que o tempo chegou e que nossa organização apareceu como a religião definitiva, como é mais vividamente provado pela maneira como as pessoas que aceitam nossa fé imediatamente se tornam capazes de poderes de cura milagrosos.
+
+*(Data incerta)*
+
+### 064. Minha Luz
+
+Alguns leitores, sem dúvida, estão surpresos com as coisas que escrevi sobre o Budismo — coisas que me foram divinamente reveladas, embora nunca ditas por ninguém antes. É apenas uma questão de tempo que impediu Deus de deixar essas coisas claras antes. Por muito tempo, a escuridão e a ignorância prevaleceram, mas uma grande transição para uma era de luz solar brilhante, afastando a escuridão, está se aproximando.
+
+Mesmo na era da escuridão, é claro, a luz da lua permitia que as pessoas discernissem as coisas até certo ponto, e elas eram gratas por tais pequenas misericórdias. Refiro-me ao ensinamento do Budismo. No entanto, a luz da lua tem apenas cerca de um sexagésimo da potência da luz solar, muito fraca para tornar as coisas claramente visíveis. Assim, durante todo o período de escuridão, os seres humanos foram iludidos, incapazes de viver em paz e tranquilidade, pois nem a religião nem qualquer outra coisa era claramente discernida.
+
+Mas quando é dia, tudo na terra é claramente revelado à luz do sol e nada é obscuro, de modo que é perfeitamente natural que eu, cuja tarefa é criar uma "civilização do dia", entenda todas as coisas.
+
+Qual é, exatamente, minha relação com o mundo do dia? Dentro do meu corpo reside uma bola de luz — o que era conhecido desde os tempos antigos como a joia cintamani. Já tornei este fato conhecido, mas aqui tratarei da própria luz em detalhes.
+
+Pensava-se que a luz era o brilho do sol, mas isso está errado. É, de fato, uma conjunção íntima da luz do sol e da lua. Sua natureza fundamental é uma união dos dois elementos extremos: fogo (sol) e água (lua). Enquanto reside em meu corpo, o elemento solo de minha carne é adicionado a esses dois elementos, completando assim a tríade três em um de fogo, água e solo. Ao dizer isso, não quero dizer que as pessoas comuns sejam compostas inteiramente pelo elemento sol. Elas também têm luz, embora seja pequena e fraca. Minha luz, no entanto, é muito maior do que a das pessoas comuns. Pode ser dezenas de milhares ou milhões de vezes maior, ou tão infinitamente maior que desafia a imaginação.
+
+Quando usados na pessoa, os três tipos de pontos focais, com os caracteres para luz, luz divina e grande luz divina, manifestam imediatamente poderes de cura irradiados pela luz de seus caracteres escritos. Ao escrevê-los, não oro nem faço nada fora do comum. Apenas os escrevo, um de cada vez, a uma grande velocidade: leva cerca de sete segundos para escrever um, e posso facilmente escrever quinhentos em uma hora. Cada um desses pedaços de papel é capaz de curar dezenas de milhares de pessoas. Embora eu possa dá-los a centenas de milhares de pessoas, sua eficácia permanece inalterada. Em outras palavras, o poder da luz que possuo é inconcebivelmente grande.
+
+Como possuo tal poder, é improvável que eu não entenda alguma coisa. Como nossos membros bem sabem, não importa o que me perguntem, nunca fico sem resposta. Às vezes, pessoas sofredoras em lugares muito distantes de mim telegrafam pedindo bênçãos, e muitas delas recebem ajuda curativa de mim apenas fazendo isso. Assim que ouço sobre sua situação, uma parte da luz dentro de mim se desprende e se conecta a elas. A luz viaja através de cordões espirituais para lhes trazer assistência. Como essa luz pode ser multiplicada dezenas de milhares de vezes e irradiar tão longe quanto necessário para fazer tais conexões, ela é extremamente preciosa. Em termos mais simples, o que irradia de mim poderia ser chamado de "balas de luz", exceto que, ao contrário das balas comuns, elas não matam, mas dão vida.
+
+Esta explicação geral trata apenas de uma parte do meu poder; explicar tudo seria difícil. Mesmo assim, será suficiente para fazer as pessoas abrirem os olhos e observarem o trabalho que farei no futuro. Qualquer pessoa de inteligência será capaz de entender até certo ponto. Em termos religiosos, as pessoas variam em sua "consciência espiritual", e se os crentes purificarem seus corpos e almas de todo o coração para que fiquem livres de máculas, serão espiritualmente iluminados e compreenderão com precisão meu grande poder.
+
+*25 de maio de 1952*
+
+### 065. Quem É o Salvador?
+
+Considero este um título incomum para um artigo, como tenho certeza que o leitor também considera. Para explicá-lo, devo agora dar um relato psicológico de mim mesmo. Devo dizer de antemão que meu principal objetivo aqui foi ver o funcionamento da minha mente interior objetivamente e sem o menor engano: espero que o leitor tenha isso em mente.
+
+As palavras salvador e messias foram usadas em todos os períodos no Oriente e no Ocidente. No entanto, com exceção de algumas pessoas de fé religiosa especial, a maioria da humanidade sempre considerou o nascimento no mundo do salvador há muito esperado e sobrenaturalmente poderoso como nada mais do que uma esperança ideal, um grande sonho. Aqueles que afirmaram ser salvadores eles mesmos desapareceram com o passar do tempo. Claramente, nenhum verdadeiro salvador apareceu ainda.
+
+Embora eu não goste de me chamar de salvador, devo confessar que não posso negar definitivamente que o sou. A aparição de um salvador é de importância sem precedentes na história da humanidade e, obviamente, não deve ser discutida levianamente. Nem se pode considerá-la simplesmente como um ideal: deve-se acreditar que ocorrerá mais cedo ou mais tarde, uma vez que os sábios do passado antigo a profetizaram em várias formas, como a vinda do Messias, a Segunda Vinda de Cristo e o nascimento no mundo do Bodhisattva Maitreya como o próximo Buda.
+
+Voltando então à minha própria psicologia: por muito tempo pensei que a condição primária para um salvador é a capacidade de resolver os problemas da doença humana. A maior qualidade de um salvador é ser dotado de um método absoluto para aperfeiçoar a saúde humana e permitir que as pessoas vivam suas vidas designadas pelo céu, mais o poder de colocar esse método em prática. É claro que a saúde física deve ser acompanhada pela saúde mental. Em uma passagem famosa, Jesus de Nazaré deixou isso claro quando perguntou o que aproveitaria a uma pessoa ganhar o mundo inteiro e perder sua vida.
+
+A esse respeito, sempre sustentei que o valor de uma religião ou de um líder religioso é claramente limitado se faltar o poder de eliminar a enfermidade. Um dia, mais de uma década depois que entrei pela primeira vez na vida de fé, cheguei a entender o princípio fundamental da doença e o método para lidar com ela. A surpresa e a alegria que senti naquela época são inimagináveis. Entre todos os povos do mundo, ninguém jamais fez uma descoberta tão grande como esta. Nenhuma outra descoberta ou invenção é de forma alguma comparável a ela; devo, de fato, ter nascido com um destino milagroso.
+
+*20 de outubro de 1948*
+
+### 066. Eliminando o Sofrimento da Doença
+
+Desde os tempos antigos, dois métodos principais foram usados para curar doenças. Um método é totalmente espiritual e envolve orações a seres divinos ou Budas, diretamente ou através da intervenção de xamãs ou outros praticantes religiosos: conjurações, substitutos ou disciplina espiritual. O outro método, de natureza totalmente física, baseia-se em coisas como medicamentos, equipamentos mecânicos, cirurgia, injeções e tratamento com radiação, mas inclui também tratamentos populares como shiatsu (cura por pressão dos dedos) e massagem. Em outras palavras, os métodos são diametralmente opostos.
+
+Na civilização moderna, no entanto, a ciência fez progressos tão surpreendentes que se tornou comum supor que a terapia física é a única maneira de efetuar curas. Consequentemente, acredita-se que o progresso na terapia física um dia libertará totalmente a humanidade dos sofrimentos da doença. Ao superenfatizar a ciência, os homens passaram a rejeitar a própria existência do espírito divino.
+
+Para examinar a situação agora com mais profundidade, vemos que a civilização oriental evoluiu, de acordo com o plano de operações de Deus, depois que a humanidade se desenvolveu até um certo estágio. Por um tempo, ela deu grandes passos, mas depois falhou porque era muito espiritual e mental, negando firmemente a matéria física; assim, entrou no período de declínio em que ainda se encontra no presente. Por outro lado, a civilização ocidental, que subestimou o espírito e adorou o físico, desenvolveu-se até o estágio em que se encontra no presente. Mas ela também, em última análise, falhou. Ambas as civilizações falharam, como o estado atual do mundo prova claramente. Em suma, a humanidade falhou primeiro em uma direção, depois em outra. No entanto, apesar dessa dupla falha, os olhos das pessoas não se abriram e elas ainda se apegam desesperadamente ao tipo de civilização que não oferece esperança. Obviamente, algum tipo de grande mudança é necessária.
+
+*25 de dezembro de 1951*
+
+### 067. Sendo Parteira da Civilização Mundial
+
+Foi aqui que a Sekai Kyusei Kyo apareceu e apontou os erros na civilização já desvanecida. Nesse sentido, estou agora escrevendo o texto para a criação de uma nova civilização. Essencialmente, este projeto não se inclina fortemente nem para o vertical nem para o horizontal, mas é o ensinamento de uma verdade adaptável e indestrutível, uma verdade de moderação. Em termos mais simples, ele reconhece a existência do espírito enquanto respeita grandemente o progresso material. O próprio método do Johrei é uma combinação do poder tanto do espírito quanto do corpo, pois consiste no espírito emitido através da palma da mão. Consequentemente, sou tanto a parteira quanto o líder no nascimento de uma verdadeira civilização mundial.
+
+*25 de dezembro de 1951*
+
+### 068. Poder Limitado e Ilimitado
+
+É necessário entender a diferença entre poder limitado e ilimitado, pois as pessoas hoje tendem a supor que todo poder é finito. Possivelmente, isso é tudo o que se pode esperar em um ambiente social e cultural puramente materialista. Muitas pessoas ignorantes da verdade não conseguem ter sucesso porque baseiam suas ações apenas na crença no poder limitado.
+
+Existem muitos tipos diferentes de poder limitado. Na civilização primitiva, o poder básico era o poder humano ou a força física. À medida que a civilização evoluiu, outros se seguiram — poder mental, autoridade, depois poder político, poder de opressão, poder militar, poder financeiro, poder econômico, poder da erudição, força-motriz, poder mecânico, poder destrutivo, poder do pensamento, poder da pena e poder da publicidade — estes se desenvolveram gradualmente para suplantar o poder humano. A força de cada um dependia do período em questão. No período primitivo, os tipos de poder que se sucederam foram a violência, a autoridade e o controle. É importante notar que todos esses tipos de poder são limitados e não têm qualidade de absolutismo, como é irrefutavelmente provado pela maneira como um poder antes considerado absoluto pode ser totalmente destruído mais tarde. Um exame de exemplos de fracassos do passado distante torna isso claro.
+
+Em contraste com o poder limitado, o poder ilimitado é absoluto, eterno e irresistível. Embora o poder limitado seja visível e tangível, o poder ilimitado aparentemente não existe em lugar algum. Por essa razão, as pessoas são incapazes de acreditar que ele existe e permanecem convencidas de que o poder limitado é o único poder. O poder limitado é produzido por seres humanos; o poder ilimitado é empregado por Deus.
+
+Um exemplo pronto é o método do Johrei usado por nossa organização. As pessoas supõem que, como a ciência médica usa métodos visíveis, medicinais e mecânicos, ela necessariamente efetuará uma cura; no entanto, acham impossível, a princípio, acreditar que o Johrei, que envolve nada mais do que levantar a mão no espaço, possa ter qualquer efeito terapêutico. Elas são totalmente incapazes de entender por que o Johrei, na prática, é comparavelmente mais eficaz do que a ciência médica; elas só podem se perguntar. Em suma, elas podem entender o poder limitado, mas o poder ilimitado está além delas. No entanto, para uma pessoa que entende o princípio, é perfeitamente natural. O que fica bem claro é que a ciência médica é o poder da humanidade, enquanto o Johrei é o poder de Deus.
+
+*(Data incerta)*
+
+### 069. Exame Filosófico do Johrei
+
+A premissa básica sobre a qual as pessoas criticaram o grande efeito do Johrei é bastante errônea. As pessoas há muito estão acostumadas a acreditar que nenhuma cura é possível sem tratamento físico e tendem a pensar que os efeitos de nossa terapia, que não emprega medicamentos nem dispositivos mecânicos, devem resultar de sugestão psicológica. Especialmente os não-membros são propensos a pensar dessa maneira. Curiosamente, no entanto, a verdade é o oposto.
+
+Quase todas as pessoas doentes que vêm até nós, ou que recorrem a certos tipos de medicina popular, nutrem um certo grau de dúvida sobre ela, porque ficam perplexas com um tratamento que não emprega máquinas nem medicamentos. No entanto, quando outros explicam os grandes efeitos que ela tem e quando veem quão eficaz tem sido nos casos de pessoas próximas a eles, quase todos chegam a temperar sua dúvida com crença.
+
+A maioria das pessoas que se submetem a tratamento médico é dominada pela suposição de que se recuperarão. Todas elas, ademais, depositam grande fé em grandes hospitais e em pessoas com doutorado. Ideias preconcebidas sobre as maravilhas do progresso na ciência médica tornam sua confiança nela incomparavelmente maior do que sua confiança em outras formas de cura. Isso é provado pela maneira como muitas pessoas continuam a se submeter a um tratamento médico prescrito em vão por meses, sem perder a fé nele. Às vezes, mesmo uma terapia que se estende por um ou dois anos e que resulta apenas em um agravamento da condição não altera a confiança do paciente, que é verdadeiramente surpreendente em sua tenacidade. Muitas vezes, a dúvida não surge mesmo quando um diagnóstico equivocado e um tratamento equivocado pioram a condição do paciente, quando injeções causam a morte ou erros cirúrgicos aumentam a gravidade da doença.
+
+Quando um grande médico, empregando todos os métodos mais recentes, não consegue fazer nada além de continuar piorando as coisas até que o paciente finalmente morra, as pessoas se resignam ao destino e não fazem nenhuma queixa; mesmo um grande médico trabalhando o máximo possível não foi capaz, dizem elas, de efetuar uma cura. Mesmo quando a causa da morte é um tratamento patentemente equivocado, um processo judicial seria justificado, mas as pessoas geralmente seguem o caminho mais fácil e deixam as coisas como estão, dizendo: "Não importa o que façamos agora, a pessoa que morreu não voltará à vida".
+
+A ciência médica comanda essa confiança absoluta, acredito eu, porque, ao fazer julgamentos, as pessoas hoje são muito mais propensas a enfatizar a forma externa, a teoria e a tradição mais do que a substância.
+
+Quando jovem, interessado em filosofia, fiquei uma vez profundamente impressionado com as teorias do famoso filósofo francês Henri Bergson, especialmente suas ideias sobre a teoria intuitiva e o movimento perpétuo de todas as coisas. A essência dessas teorias é a seguinte:
+
+É difícil para os seres humanos responderem intuitivamente ao fazer observações das coisas ao seu redor, pois todos nós caímos sob a influência de ideias existentes. Os efeitos abrangentes de coisas como educação, costume e tradição estão latentes em nossas mentes, tendendo a tornar nosso pensamento fixo e rígido. Somos incapazes de escapar de sua influência. A soma dessas coisas nos impede de apreender os objetos como eles realmente são. Em outras palavras, elas obscurecem nossa visão como óculos escuros. Para entender as coisas corretamente, devemos nos colocar em um estado onde nem um grão dessas ideias preconcebidas permaneça para nos atrapalhar. Bergson descreveu o eu em tal condição como o eu do instante. É o eu para o qual não há passado nem futuro, o eu da mente sem preconceitos, livre até mesmo de especulação. Quando o eu do instante vê as coisas, é com uma intuição completamente desimpedida. Esta é a única maneira de os seres humanos verem as coisas corretamente.
+
+A teoria do movimento perpétuo de todas as coisas — isto é, a ideia de que tudo o que existe está em constante movimento e nunca para por um instante — significa que o eu individual, o Japão e o mundo de hoje não são os mesmos que o eu individual, o Japão e o mundo de ontem. Obviamente, a cultura, a política, a economia, a arte e a medicina de ontem diferem de suas contrapartes de hoje. Portanto, o que era verdade ontem pode, ou não, ser destruído hoje. Se for destruído, era falso desde o início. A verdade que não é destruída pode ser dita com certeza como sendo ou a verdade ou algo mais próximo da verdade do que da falsidade. A aparência da verdade em relação ao tempo também é importante. Existem muitos exemplos históricos de verdades que foram consideradas supremas por décadas e séculos apenas para serem provadas paradoxos em uma data posterior.
+
+A filosofia de Bergson, como delineada aqui, é extremamente conveniente para se chegar a uma compreensão da verdadeira natureza do Johrei e da ciência médica ocidental. É importante notar, a este respeito, que a maioria das pessoas que vêm para nossa prática de purificação o fazem porque a ciência médica, na qual tantos têm fé absoluta, não conseguiu curá-las. Estranhamente, quando o remédio em que confiam não adianta, elas são curadas pelo tipo de terapia que veem com suspeita. A reflexão sobre este estado de coisas revela claramente a diferença entre os poderes de cura das duas abordagens terapêuticas. É um sinal de que os poderes de cura do Johrei transcendem a sugestão psicológica e vão muito além.
+
+*28 de setembro de 1942*
+
+### 070. Religião e Fé
+
+Sempre que o Johrei é descrito como uma religião ou uma fé, insisto que não é nem uma coisa nem outra. As religiões ocorrem em várias formas e exigem vários tipos diferentes de atividade, mas geralmente são organizadas em seitas ou grupos com certas doutrinas estabelecidas e expondo certos ensinamentos de acordo com os quais seus adeptos devem agir. Além disso, as religiões frequentemente exigem que seus membros adorem figuras de budas, bodhisattvas, deuses, sábios, Cristo ou fundadores de seitas.
+
+Fé significa confiança e convicção que se fortalecem com o passar do tempo e, por fim, evoluem para reverência e convicção total. Seus objetos não se limitam a deuses ou budas, mas podem incluir praticamente qualquer coisa. Orar para que o sol nasça ao amanhecer é fé. O espírito samurai é um tipo de fé, assim como a crença na ciência. A crença na ciência médica no ocidente também é uma fé que se tornou tão absoluta que as pessoas estão dispostas a confiar suas preciosas vidas a ela com tranquilidade, não importa quais efeitos seus tratamentos produzam.
+
+É no que diz respeito a esses elementos religiosos e conceitos de fé que o Johrei difere. Ele, é claro, não tem nenhum elemento religioso. Quanto à fé, ela não é totalmente inexistente; é, por exemplo, natural que pessoas que se recuperaram de uma doença crítica, mesmo depois que os médicos alertaram sobre a morte iminente, se alegrem tanto que sua emoção se estenda à fé. No entanto, esta é uma reação natural, e não superstição.
+
+Agora, tenho uma palavra a dizer aos médicos. Há uma razão pela qual os médicos invariavelmente atribuem curas bem-sucedidas efetuadas por meios não médicos à fé. Sua interpretação, baseada na experiência da ciência médica ocidental, é que os medicamentos são especialmente eficazes quando o paciente tem fé no médico que os administra. Os médicos frequentemente falam das muitas instâncias em que o mesmo medicamento tem efeito superlativo quando prescrito por um médico famoso e muito menos efeito quando dado por um médico desconhecido. Isso prova que o próprio medicamento não tem efeito curativo e que apenas a crença está em ação em tais casos. À luz desta situação, é provavelmente inevitável que os médicos acostumados a tais atitudes pensem que a crença no médico efetua a cura.
+
+Como costumo dizer, no caso do Johrei, o efeito para um cético é exatamente o mesmo que o efeito para um crente.
+
+*5 de outubro de 1943*
+
+### 071. Terapia e Conceitos
+
+Existe atualmente uma grave concepção errônea sobre o tratamento da enfermidade. É a ideia — apresentada, ademais, pelos próprios médicos — de que a cura baseada na fé e a cura pela medicina popular são grandemente auxiliadas pela sugestão psicológica e pela força espiritual. Em minha opinião, isso é inverter as coisas.
+
+A pessoa comum tem fé absoluta de que a terapia médica pode curar a enfermidade. A extensão dessa crença, como mostrada em todos os tipos de exemplos diários, é bastante surpreendente — como testemunha o fato de que tais pessoas consideram qualquer caso de cura por meios não médicos como milagroso. Em outras palavras, o paciente que escolhe buscar a cura através da medicina convencional começa com a convicção psicológica de que sua enfermidade será curada. Se, mesmo assim, uma cura não for alcançada, significa que a própria medicina — que teoricamente comanda todos os recursos da ciência e da sugestão psicológica — se mostrou ineficaz, tornando assim tais ideias sem sentido.
+
+Agora, examinemos o tipo de caso oposto. No início, todos os pacientes que vêm a nós nutrem dúvidas sobre a probabilidade de uma cura. A maioria deles, depois de não ter encontrado ajuda no tratamento médico e em outros métodos, é apenas acidentalmente guiada até nós e recorre ao nosso sistema como último recurso, esperando por um golpe de sorte. Assim, enquanto a ciência médica, que teoricamente tem uma vantagem absoluta em tais empreendimentos, é incapaz de curar, nosso grupo, que deveria estar em maior desvantagem, mostra resultados sólidos. Há matéria para séria reflexão aí.
+
+*15 de maio de 1936*
+
+### 072. Pode Ser Curado
+
+A eliminação da doença — ou seja, a garantia de boa saúde — é a mais importante das três condições que constantemente professamos como nosso objetivo: um mundo livre de doença, pobreza e conflito. Sem saúde, que salvação é possível? Aquelas pessoas de grande fé que acreditam que a salvação é possível enquanto gemem sob a doença e o sofrimento estão muito enganadas. Embora a salvação espiritual seja possível sob tal filosofia, a salvação física não é. A razão pela qual as pessoas de fé são apenas meio salvas é que, limitadas à salvação espiritual, as religiões existentes infelizmente carecem do poder de salvar no plano físico.
+
+Como consequência da convicção há muito estabelecida de que a religião deve se preocupar apenas com a salvação espiritual, os estudiosos religiosos inventaram a engenhosa teoria de que a salvação física é heresia. Com base nesta visão paradoxal, eles expressam a opinião altamente equivocada de que qualquer religião que proponha o objetivo de trazer vantagens reais a seus seguidores no mundo presente é de qualidade inferior.
+
+Os membros de nossa organização são capazes de desfrutar em abundância das bênçãos práticas que as religiões estabelecidas consideram impossível conceder. Tais pessoas que vêm a nós depois de terem sido dadas como sem esperança pelos médicos imediatamente melhoram e se recuperam. Uma verdade tão surpreendente deveria ser motivo de grande preocupação para os médicos. No entanto, apesar de todos os ataques críticos dirigidos a nós pelo mundo, nossa organização continua a se desenvolver a um ritmo inabalável.
+
+As pessoas que divulgam nosso ensinamento não têm inclinação para oferecer curas aos doentes de um ponto de vista religioso. Tudo o que fazem é realizar o Johrei — purificação do espírito — em resposta ao pedido da pessoa. Quando o espírito é purificado, a doença desaparece naturalmente. Em outras palavras, o processo envolvido não é o de curar, mas de permitir que uma cura se efetue por si mesma. Este é o ponto mais importante. É inconcebível que possa infringir qualquer lei ou causar qualquer dano à sociedade.
+
+Acolhemos qualquer tipo de investigação de nossas atividades, pois o número de vidas que salvamos e a extensão em que ajudamos a melhorar o bem-estar geral são claramente revelados nas montanhas de relatórios e expressões escritas de gratidão que recebemos de pessoas que estão tão felizes por serem salvas pelo Johrei que não conseguem conter sua alegria. De fato, essas expressões escritas de agradecimento são numerosas demais para serem acomodadas nas páginas da revista mensal *Chijo Tengoku* (Paraíso na Terra) e do semanário *Hikari* (Luz).
+
+Como regra, a pessoa que foi ajudada pelo Johrei escreve seu próprio relatório, contando os fatos como são, sem exagero. Pessoas que por alguma razão não podem escrever seus relatórios, ditam-nos oralmente. Mas, em todos os casos, nomes e endereços são dados em detalhes, e qualquer pessoa que duvidar pode visitar as pessoas e questioná-las.
+
+É muito angustiante que as pessoas, seja de propósito ou sem querer, tentem nos atrapalhar o máximo possível em nossa luta em direção ao objetivo de criar um novo Japão. Não sei como descrever as pessoas que tentam nos esmagar porque temos poderes superiores na cura de doenças, a maior fonte de sofrimento da humanidade, quando tanto os setores oficial quanto privado da população deveriam nos oferecer todo o apoio e encorajamento possíveis.
+
+*30 de março de 1949*
+
+### 073. Teoria do Método e Teoria do Efeito
+
+Gostaria de tratar aqui, com algum detalhe, da infeliz prontidão do público em geral para entender mal a terapia do Johrei. Embora os maravilhosos efeitos do tratamento com Johrei sejam agora conhecidos por um grande segmento da população, um número considerável de pessoas, e especialmente um grupo de especialistas, ainda nos entende mal seriamente. Meu propósito ao escrever isto é esclarecê-los em seu erro.
+
+Nas críticas feitas ao nosso sistema, nunca há uma palavra indicando que sua eficácia seja inferior à do tratamento médico. A crítica é que nosso método é equivocado, não científico e supersticioso porque não faz uso de meios materiais como máquinas e medicamentos. Eu refuto essa objeção, embora perceba que tais pessoas a fazem porque consideram os seres humanos como corpos físicos apenas. Em contraste com a opinião delas, vemos o ser humano como composto pelos dois elementos de corpo físico e espírito, e insistimos que o espiritual tem precedência sobre o físico. Em outras palavras, o corpo se move de acordo com as operações do espírito, ou da vontade.
+
+A diferença entre nossa visão e a deles é a diferença entre materialismo e espiritualismo, ou entre a crença de que o físico tem precedência sobre o espiritual e a crença de que o espiritual tem precedência sobre o físico. Eles empregam meios físicos para curar o espírito. A chave para determinar qual das visões está correta é encontrar um critério para um julgamento preciso. O único critério absolutamente infalível são os efeitos reais dos dois métodos.
+
+Em contraste com o método materialista, que lida com coisas visíveis que qualquer um pode reconhecer, o método espiritualista está em desvantagem por lidar com algo invisível e intangível que não pode ser prontamente reconhecido. Quando os espiritualistas são criticados neste ponto, nenhuma menção é feita aos efeitos; e apenas o método é censurado.
+
+O método que se concentra em coisas visíveis parece, na superfície, ser razoável. No entanto, sem empregar medicamentos e equipamentos mecânicos e contando apenas com a operação da palma da mão humana, somos capazes de manifestar efeitos terapêuticos surpreendentes ao lidar com doenças que a ciência médica não pode curar, não importa quantos medicamentos e equipamentos mecânicos ela recorra. Em suma, um sistema parece razoável, mas não cura, enquanto o outro parece irracional, mas cura. É importante notar que um sistema se concentra no método e o outro no efeito. Deveria ser perfeitamente claro qual das abordagens está correta.
+
+Para levar a discussão à sua conclusão lógica, pode-se dizer que, embora seja científico, o sistema que não produz efeito positivo é, na prática, inútil e, portanto, para dizer o mínimo, não é boa ciência. O sistema que tem um efeito positivo é útil e, portanto, boa ciência. O ponto essencial é que um se preocupa com coisas visíveis e o outro com coisas invisíveis. O primeiro lida com o visível e não é verdadeira ciência; o último lida com o invisível e é verdadeira ciência.
+
+*30 de janeiro de 1950*
+
+### 074. Os Fatos Falam Eloquentemente
+
+Em pouco tempo, nossa organização cresceu e estendeu suas fronteiras a um ponto provavelmente sem precedentes na história da religião. Por que isso aconteceu? Neste mundo difícil, as pessoas não doam dinheiro, usam seu tempo livre e permanecem fervorosamente fiéis sem algum motivo. Ademais, nosso atual quadro de duzentos mil membros inclui representantes de todos os níveis sociais: de políticos, detentores de doutorado, professores universitários, membros da dieta nacional, funcionários de alto escalão e empresários influentes a comerciantes de classe média, trabalhadores de colarinho branco e azul e agricultores. A grande diversidade deste quadro de membros merece reflexão.
+
+Há um bom número de pessoas que, recusando-se a aceitar tais fatos, arrogantemente descartam nossos ensinamentos como supersticiosos e heréticos; no entanto, seria um erro condenar tais pessoas de imediato, pois praticamente todas as novas religiões que surgiram até agora não tiveram valor verdadeiro. Embora algumas delas tenham florescido no início e parecessem prometer se tornar grandes religiões no futuro, com o passar do tempo elas gradualmente perderam seu vigor e terminaram em fiasco. Apenas um número limitado delas continua a existir hoje. Com exemplos deste tipo em mente, as pessoas poderiam ser justificadas em descartar novas religiões como superstição e ensinamentos errados.
+
+Como essa situação nos afeta? Antes de responder a isso, eu pediria que abandonassem todo preconceito, começassem com uma página em branco e olhassem as coisas através de lentes sem cor. A resposta mais rápida e sensata é falar sobre o efeito de nosso característico Johrei, que é sem precedentes na história da religião e na história da humanidade. Que isso não é teoria vazia nem presunção, mas fato vivo, é provado mais vividamente pela montanha de relatórios em minha mesa; das experiências de seres humanos individuais, relatando sua gratidão transbordante. Os relatórios são regularmente publicados em grande número no jornal *Hikari* e na revista mensal *Chijo Tengoku*.
+
+Porque conhecemos esses fatos, somos compelidos a acreditar na possibilidade de realizar nosso extraordinário ideal de um Paraíso na Terra no qual não haverá doença, pobreza ou conflito.
+
+O trabalho que estamos fazendo atualmente não pode ser realmente chamado de religião. O uso dessa palavra evoca associações com religiões mais antigas e estabelecidas e, portanto, é um obstáculo para a compreensão da verdadeira natureza de nossa organização, que é na verdade um empreendimento de salvação em uma escala maior do que qualquer coisa que já existiu antes. Como o mundo está entrando em uma fase de tremenda transformação, seria difícil, sem uma salvação nesta vasta escala, para a humanidade escapar de uma grande crise. Consequentemente, Deus me escolheu como a pessoa para realizar este grande empreendimento. Embora eu não seja ousado o suficiente para me chamar de Messias, posso dizer agora que, no futuro, Deus manifestará poderes messiânicos através de mim.
+
+Como a história mostra, todas as religiões foram mal compreendidas pelo mundo em um momento ou outro. Não sou exceção a essa regra, pois também fui mal compreendido, mas o número de meus apoiadores está aumentando gradualmente. De minha parte, apenas ajo de acordo com as instruções de Deus e, confiando-me a Deus, deixo o tempo passar.
+
+*20 de dezembro de 1949*
+
+### 075. Mudança no Método do Johrei
+
+Doravante, desejo que o Johrei seja realizado de uma nova maneira que me foi divinamente revelada e que deriva da recente e tremenda alteração no Mundo Espiritual.
+
+Anteriormente, o Johrei envolvia a ação tanto do espírito quanto do corpo, na medida em que, quando o espírito era emitido da palma da mão, a pessoa exercia um certo grau de poder físico. No entanto, o uso do poder físico tinha o efeito de reduzir o poder do espírito. Mesmo no passado, isso era assim; é por isso que, quanto mais a pessoa que realizava o Johrei se esforçava, mais o efeito diminuía.
+
+Para conter essa tendência, de agora em diante nenhum poder físico deve ser exercido na canalização, e apenas o espírito deve ser irradiado. Para explicar com mais detalhes: a luz do espírito divino passará de mim ao longo de cordões espirituais para os pontos focais que todos vocês possuem, onde ela permanecerá. Como essa luz passará através da palma da mão para a parte patologicamente afetada do receptor, de agora em diante os praticantes de Johrei devem canalizar o espírito com uma atitude tão leve e fácil quanto possível e não devem exercer força alguma.
+
+É certo que, com este método, os poderes de cura serão muito maiores — de fato, cinco vezes maiores; isso estimulará um progresso surpreendente na obra de Deus. Vocês devem fazer como eu digo, sem confusão ou medo, pois é a vontade de Deus, agora que o tempo está maduro e que a salvação para a humanidade está avançando. Explicarei os detalhes práticos pessoalmente em entrevistas, para torná-los mais fáceis de compreender.
+
+*27 de dezembro de 1950*
+
+### 076. Enfermidade e Caráter Humano
+
+Minha considerável experiência revelou-me correlações interessantes entre o caráter de uma pessoa e a enfermidade da qual a pessoa sofre. Como descobri na terapia, uma pessoa que é direta por natureza se recuperará de maneira direta. Uma pessoa que não faz alarde se recuperará sem alarde. Mas a doença de uma pessoa egoísta provavelmente persistirá por muito tempo. Os sintomas de uma pessoa teimosa são teimosos. A condição de doença de uma pessoa que é mutável provavelmente se alterará facilmente. A enfermidade de uma pessoa com uma personalidade negativa provavelmente tomará rumos negativos.
+
+É importante conhecer o caráter da pessoa que se está tentando curar e alterar seus traços ruins, pois isso certamente terá um bom efeito sobre a própria enfermidade. O melhor é tentar desenvolver a franqueza no caráter da pessoa.
+
+*1936*
+
+### 077. Orgulho e Erro
+
+Duas das coisas contra as quais somos mais fortemente advertidos no ensinamento da Seita Omoto são o orgulho e o erro. É bom que estejamos atentos contra o orgulho, pois as experiências de muitos de nossos membros revelam como ele pode ser um problema.
+
+Por exemplo, uma pessoa que realiza o Johrei pela primeira vez está incerta de sua capacidade de curar e executa a tarefa com medo e tremor. Quando, de fato, ela consegue curar, considera isso maravilhoso; e a pessoa curada fica exultante e grata; todos os nossos membros devem ter experimentado isso em algum momento. Mas, com o passar do tempo, a pessoa se esquece de ser grata por lhe ser permitido curar e passa a pensar que a grandeza reside em si mesma. Quando este tipo inconfundível de orgulho se desenvolve, é necessária uma advertência severa, pois este é um estágio de grande perigo, no qual o pensamento da pessoa pode dar uma guinada reversa.
+
+Como já afirmei, o praticante de Johrei não deve tentar exercer nenhum de seu próprio poder humano. Quanto menos poder humano exercido, melhor. Uma pessoa orgulhosa, no entanto, é mais propensa a exercer sua própria força, o que tem um efeito mais debilitante na eficácia do Johrei do que qualquer outra coisa. As pessoas muitas vezes me perguntam por que seu poder de cura diminuiu ultimamente, agora que são experientes, enquanto era muito maior quando eram iniciantes hesitantes. A explicação que acabei de dar deve tornar a resposta óbvia.
+
+Devemos também estar em guarda contra o erro, pois é fácil cometer um erro em relação ao pensamento sobre a fé. Por exemplo, as pessoas às vezes concebem o desejo de saber sobre as causas e efeitos de Deus, ou as origens e relações dos deuses conforme estabelecido em mitos e lendas, ou se interessam pelos fenômenos de possessão espiritual, sedentas por mais e mais conhecimento sobre tais assuntos. Entusiasmo demais nesses tópicos pode fazer com que uma pessoa negligencie os fundamentos da fé. Não há nada de errado em saber um pouco sobre tais assuntos, mas limites devem ser estabelecidos, pois se envolver neles pode afastar a pessoa do verdadeiro caminho.
+
+O erro deste tipo vem de não ler meus ensinamentos ou de lê-los, mas não os colocar em prática. Uma pessoa que entende o que escrevi sobre esses dois pontos importantes e coloca meus escritos em prática será capaz de seguir a linha da verdadeira fé.
+
+*4 de julho de 1951*
+
+### 078. A Verdadeira Ciência da Nutrição
+
+A base da nutrição é o espírito do alimento que comemos, mas
+
+---
+
+# A Obra da Salvação (O Livro da Saúde)
+
+**Categoria:** kanren | **Ano:** 昭和33年 | **Fonte:** -
+**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1958
+**Coletânea:** - | **Fonte (JP):** -
+
+## A Obra da Salvação (O Livro da Saúde)
+
+Publicado pela Sede Central da Igreja Messiânica Mundial em 18 de janeiro de 1958, este volume de 174 páginas foi organizado pelo Departamento de Assuntos Religiosos, sob a responsabilidade editorial de Mitsuru Sakai.
+
+A presente obra compila sessenta e oito veneráveis Ensinamentos, com foco primordial em temas concernentes à medicina.
+
+**Veneráveis Ensinamentos Incluídos nesta Obra**
+
+---
+
+# Publicações Relacionadas
+
+**Categoria:** kanren | **Ano:** 昭和30年 | **Fonte:** -
+**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1955
+**Coletânea:** - | **Fonte (JP):** -
+
+## Publicações Relacionadas
+
+ALARM ALARM — Edição Inaugural
+
+Data de publicação: 1º de julho de 1955
+Formato: A5, 72 páginas
+Preço: 50 ienes
+Editor e Publicador: Fujii Yodo
+Editora: Shizen Noho Sha
+
+---
+
+# Publicações Relacionadas - Mestre Nakajima Issei: Sua Fé e sua Vida - por Asō Etsushi
 
 **Categoria:** kanren | **Ano:** - | **Fonte:** -
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** - | **Fonte (JP):** -
 
-Publicações Relacionadas à Coletânea de Teses do Mestre Okada Jikanshi
+## Publicações Relacionadas - Mestre Nakajima Issei: Sua Fé e sua Vida - por Asō Etsushi
 
-## Reverendo Nakajima Issei — Sua Fé e Sua Vida —
+### Quarenta e cinco - “Sejam pessoas solícitas”
 
-Asou Ei
+O Mestre proferia frequentemente estas palavras.
 
-Minha paixão são as biografias
-Diretor Executivo da Shinshuren, Oishi Hidenori
+Estávamos em 1948. Três anos haviam se passado desde o fim da guerra, mas a segurança interna do país ainda era precária. Em meio à desordem daqueles dias, as pessoas viviam sob a mentalidade de que era mais vantajoso desconfiar do que acreditar. Numa época como essa, ser uma pessoa solícita era, em suma, sinônimo de ser astuto e oportunista, e a expressão parecia desprovida de seu real valor.
 
-Talvez por sempre almejar perscrutar a trajetória de abnegação e ascese dos precursores, para dali sorver um alento que me permita fustigar severamente as insuficiências de minha própria fé e inflamar o coração na busca do Caminho, tenho o particular hábito de ler, com especial predileção, os registros e as biografias de homens de religião.
+Contudo, o Mestre repetia incansavelmente essas palavras aos fiéis que se reuniam.
 
-Para mim, a leitura dessas obras suscita uma emoção muito mais arrebatadora e me compele a uma profunda reflexão sobre minha condição atual, de forma muito mais impactante do que a leitura de escrituras sagradas ou tratados doutrinários, por mais profundos e nobres, porém frios, que estes sejam. Creio que, entre aqueles que buscam a Lei e trilham o Caminho, não poucos partilham de inclinação semelhante à minha.
+Certa vez, em um dia programado para receber membros de regiões distantes, a chuva que caíra durante a noite persistia pela manhã, caindo de forma incessante e impiedosa. Foi em um dia assim.
 
-Por essa razão, a publicação da biografia de um religioso que abriu veredas e escalou montanhas com o sacrifício do corpo e da alma é um acontecimento verdadeiramente alvissareiro, tanto para os que seguem o mesmo Caminho quanto para os que não o seguem.
+Chegado o momento, um grande grupo de fiéis adentrou o recinto, vindo da estação de Atami completamente encharcado. Por serem de lugares remotos, ninguém havia se preparado com um guarda-chuva. Ao verem os membros ensopados, os responsáveis pela recepção, embora penalizados, não consideraram uma descortesia o fato de não terem ido recebê-los na estação com guarda-chuvas.
 
-Contudo, no que tange a tais biografias, antigamente, em virtude do incipiente desenvolvimento da civilização, as vidas dos fundadores e líderes religiosos, ou de grandes homens de fé, eram compiladas ao longo de várias gerações pelas mãos de seus discípulos. Ademais, como eram transmitidas de um buscador a outro por meio de cópias manuscritas, é provável que levassem décadas, e por vezes séculos, para alcançar uma ampla difusão.
+Mais tarde, o Mestre dirigiu-se aos seus assistentes:
 
-No entanto, nos dias de hoje, em que dispomos de papel em abundância, de lápis e canetas, e, além disso, do notável avanço dos gravadores e das técnicas de impressão, seria de se esperar que um grande número de biografias fosse publicado em curto espaço de tempo. Apesar disso, em comparação com as publicações em geral, o número de biografias parece-me extremamente reduzido. Não seria isso um reflexo da imensa dificuldade que é escrever uma biografia?
+“Por qual motivo todas essas pessoas vêm de lugares distantes, sacudindo em um trem durante a noite inteira? Não é por arderem com o anseio de receber a Luz Divina, de se aprimorar ainda que minimamente e de se alinhar à Vontade de Deus, que deseja salvar a humanidade na medida do possível, para assim cumprir um papel na construção do Paraíso Terrestre? E vocês, não recebem as oferendas que cada um deles traz como prova de sua sinceridade? Apesar disso, ao vê-los chegar encharcados, vocês apenas sentiram pena, mas ninguém os foi receber na estação com um guarda-chuva. Ouso dizer que ninguém sequer cogitou que devesse fazê-lo. É preciso que reflitam profundamente. Quando eu digo para serem pessoas solícitas, refiro-me a serem pessoas bondosas. Para mim, de nada serve alguém que seja solícito, mas desprovido de bondade.”
 
-As dificuldades inerentes à escrita de uma biografia são múltiplas. No meu caso, talvez por possuir uma memória excepcionalmente fraca, esqueço-me de quase tudo, até mesmo de acontecimentos importantes do meu próprio passado. A menos que se mantenha um diário meticuloso, não é da natureza humana que as lembranças, à exceção daquelas de forte impacto, se tornem vagas e indistintas? Sendo assim, investigar com precisão os múltiplos aspectos da vida de alguém que já partiu pode ser considerado a mais árdua das tarefas.
+O juízo do Mestre era severo.
 
-No caso particular dos religiosos, o que se reveste de maior importância não é tanto o percurso cronológico de sua vida, mas sim a evolução de sua alma: as transformações de seu coração e o aprofundamento e a elevação de sua fé. Trata-se, em grande medida, de uma dimensão invisível aos outros. Por isso, adentrar essa esfera íntima e atingir o cerne da verdade talvez seja algo inalcançável para uma pessoa comum. Por outro lado, se o autor se permite excessiva liberdade e dá asas à imaginação, a obra converte-se em um romance biográfico. E, como em uma biografia religiosa, esse aspecto de extrema dificuldade é ainda mais crucial do que a cronologia dos fatos, pode-se afirmar que não há tarefa mais complexa do que redigir a biografia de um homem de fé.
+Dito isso, ele também nutria aversão por aqueles que eram solícitos em demasia.
 
-A fé não pertence ao domínio da teoria, mas sim ao da experiência. Portanto, quanto mais elevada e profunda for a jornada espiritual do biografado, maior a probabilidade de o autor se ver sem ter por onde começar, podendo até mesmo ser subjugado pelo desalento.
+“Aquele que não tem iniciativa e aquele que a tem em excesso. Detesto ambos”, costumava dizer.
 
-O autor desta biografia do Reverendo Nakajima Issei, o senhor Asou, enfrentou essa dificuldade desesperadora e, mesmo assim, em um período de menos de um ano, investigou, pesquisou, organizou o material e redigiu esta obra notável. Por sua coragem e seu esforço, não posso senão expressar minha mais profunda reverência.
+O verdadeiro significado destas palavras, ao que parece, não era compreendido por muitos membros. Todavia, o que o Mestre pretendia expressar era que, em muitos casos, ser excessivamente solícito é o oposto da genuína bondade.
 
-Ademais, embora provavelmente estivesse limitado pela editora quanto ao volume do texto, o senhor Asou, que mal conheceu pessoalmente o Reverendo Nakajima, logrou transmitir a verdadeira essência do mestre de forma que se poderia dizer completa. Diante de tal competência, curvo-me em admiração.
+O Mestre afirmou:
 
-Meus textos, como este mesmo que ora escrevo o denuncia, são compostos por frases longas, e o leitor por certo terá dificuldade em conectar o início ao fim de cada uma. É, por assim dizer, uma prosa arrastada e prolixa. Por isso, não consegue despertar interesse nem emoção no leitor. Ao final da leitura, o desfecho provável é perguntar-se sobre o que, afinal, estava escrito.
+“A solicitude e o sentimento de gratidão são uma só coisa. Ser solícito apenas por ser, sem que isso brote de um sentimento de gratidão, não é autêntico.”
 
-Em contrapartida, a prosa do senhor Asou é tecida com frases extremamente curtas. É o que se chama de um texto de sentenças concisas e incisivas, dotado de um vigor que causa forte impressão no leitor. Esta é, por assim dizer, a forma como a escrita se apresenta hoje e como deverá ser no futuro.
+Ele também sempre insistia, a ponto de ser repetitivo, sobre a prática da humildade.
 
-Talvez por estar sempre a me atormentar com as falhas de minha própria sintaxe, sinto-me particularmente atraído pela escrita do senhor Asou nesta obra: concisa, serena e desprovida de qualquer afetação.
+“Uma das causas do fracasso humano é a arrogância. Os verdadeiramente bem-sucedidos jamais se esquecem de seu passado. Esquecer as próprias origens e envaidecer-se é o primeiro passo para a ruína. Perante Deus, de que valem a posição social e o status dos homens? Devemos ser sempre humildes. Não se pode jamais esquecer a mentalidade de se colocar em uma posição inferior.”
 
-Apenas para expressar um desejo, como se trata de uma biografia formal, eu gostaria que os nomes verdadeiros de todas as pessoas mencionadas no texto tivessem sido utilizados. Evidentemente, se essas pessoas ainda vivem e tal procedimento pudesse causar algum embaraço, a decisão tomada terá sido inevitável.
+“Para quem tem fé, o mais importante é jamais se esquecer da prática da humildade. Ao recebermos o imensurável poder de Kannon (観音) e vermos milagres, que nem nós mesmos imaginávamos, manifestarem-se sucessivamente, sendo reverenciados pelas pessoas como se fôssemos um deus vivo, não é incomum que passemos a nos valorizar acima de nossa real substância e nos tornemos presunçosos. E quando a presunção nos faz esquecer a autorreflexão, tudo começa a se desviar do caminho de Deus, e cometemos o duplo erro de nem sequer nos darmos conta disso. No final, caímos em um abismo de miséria. É preciso ter extremo cuidado.”
 
-Pois bem, a Sekaikyuseikyou ainda não publicou uma biografia oficial de seu Fundador. E, no que concerne às biografias de fundadores em geral, uma reflexão me ocorre sobre as organizações religiosas que já se despediram de seus líderes para o Mundo Espiritual: não seria oportuno que os discípulos diretos, aqueles que foram salvos e receberam os ensinamentos pessoalmente do Fundador, enquanto ainda não partiram para o Mundo Espiritual, começassem desde já a registrar suas memórias de fé, com especial foco na figura do Fundador, cientes de que tais relatos se tornarão fontes preciosas para a futura biografia? Hoje em dia, com a conveniência e a facilidade dos gravadores, tal tarefa seria incomparavelmente mais simples do que os labores extenuantes que exigiam o sacrifício de nossos antepassados.
+“O caminho da fé não consiste em outra coisa senão em acumular, passo a passo, o aprimoramento para nos tornarmos seres humanos completos. Para tanto, a humildade é uma constante necessária.”
 
-O Reverendo Nakajima já não está neste mundo, e o autor de sua biografia, senhor Asou, não o pôde entrevistar diretamente. Portanto, seria descabido buscar nesta obra uma perspectiva sobre o Fundador. De todo modo, desejo expressar meu respeito aos discípulos do Reverendo Nakajima que publicaram esta biografia em comemoração ao décimo aniversário de seu falecimento. Este ato não só constitui uma forma de retribuir a imensa graça recebida do mestre, como representa também um grande feito em prol de nossa Igreja.
+“O coração, sempre renovado.”
 
-Na Sekaikyuseikyou, a primeira pessoa a quem encontrei foi o Reverendo Shibui Sosai. Foi no final do ano de 1948, quando, acompanhando uma pessoa, encontrei-o, por assim dizer, de maneira informal, no Hozanso, em Kaminoge, Tamagawa. Depois disso, tive a oportunidade de vê-lo diversas vezes, tanto em ocasiões oficiais como informais. Isso se deveu ao fato de o Reverendo Shibui ter tido uma vida mais longa que a do Reverendo Nakajima.
+Era o que o Mestre sempre dizia.
 
-Em comparação, minhas oportunidades de encontrar o Reverendo Nakajima foram escassas, não mais que duas, a partir do outono de 1949.
+Cerca de três meses antes de seu falecimento, ele assim ensinou aos membros:
 
-Nesta biografia há uma cena que evoca essa lembrança, mas recordo-me com clareza de um último encontro, em uma estalagem em Hakone, quando o Reverendo Nakajima me visitou. Estávamos prestes a iniciar uma discussão sobre religião quando, devido a um compromisso urgente, ele precisou partir. Um desfecho deveras frustrante, que lamento profundamente até hoje.
+“Hoje, pouco a pouco, voltamos a poder comer arroz branco. Durante a guerra, chegamos a comer até mesmo borra de soja, algo que nem os cavalos comiam, e sentíamos na pele a preciosidade do arroz branco. Mesmo não sendo agricultores, preocupávamo-nos com a colheita do ano, se o ducentésimo décimo dia do calendário agrícola transcorreria sem tufões, se não haveria danos por pragas. A cada chuva, a cada sopro de vento, nosso coração se afligia, e éramos gratos pelo labor dos agricultores. Agora, no entanto, com o arroz branco tornando-se gradualmente abundante, esquecemos a gratidão de até ontem e o tratamos com descaso.
+O mesmo se aplica à saúde. Consultamos médicos, tomamos remédios aos montes e esgotamos todos os recursos, mas a cura não vinha. O futuro era desolador. Então, por um acaso, somos salvos por este caminho e nos tornamos pessoas de constituição robusta, a ponto de sermos irreconhecíveis. Sentimos uma alegria que nos arranca lágrimas e pensamos que um dia teremos de retribuir essa imensa graça. Contudo, com o passar dos dias, esquecemo-nos do passado, o sentimento de gratidão se esvai e nos tornamos arrogantes e insolentes.
+O mesmo se aplica à fé. No início, quando ingressamos no caminho da fé, sentíamos a graça, a nobreza e a sublime honra, e nosso coração ardia como fogo. Com o passar do tempo, porém, sem que percebamos, caímos na negligência, no formalismo, e esquecemos a gratidão inicial.
+Tudo isso ocorre porque não renovamos nosso coração.
+As pessoas falam de fé. Mas, em relação a essa fé, quantos de fato refletem sobre si mesmos? É preciso jamais esquecer o coração dos primeiros dias de fé e, para que ele não envelheça, devemos nos chicotear espiritualmente, aspirando ser hoje melhores que ontem, e amanhã melhores que hoje. Água que não flui, apodrece. Um coração que não se autoestimula logo perde sua elasticidade. Mantenham o coração sempre renovado — peço que não se esqueçam disso.”
 
-Naquela ocasião, senti que, para ele, eu era um "jovem imberbe" — embora eu seja apenas quatro anos mais novo. No âmbito da fé, porém, estou certo de que ele assim me via. Percebi nele uma aura de quem não descansaria enquanto não me persuadisse. Eu, por minha vez, creio que o enfrentei com uma mente aberta, sem defesas. Contudo, ainda hoje, sempre que recordo aquele momento, sinto um arrepio percorrer-me o corpo ao imaginar o que teria acontecido se, naquela noite, o Reverendo tivesse tido tempo para argumentar e debater livremente.
+### Quarenta e seis
 
-Seja como for, mesmo tendo sido um breve encontro, guardo dele a forte impressão de um religioso de uma retidão rara e, ao mesmo tempo, de uma meticulosidade ímpar em suas ações.
+No outono de 1949, o Sr. O., funcionário do Ministério da Justiça, viajou a Hakone a trabalho e aguardava o Mestre no quarto de uma pousada.
 
-Sempre que, por algum motivo, me recordo do Reverendo Nakajima — sem com isso comparar suas religiões —, não consigo deixar de pensar que, como homem de fé, ele possuía uma têmpera semelhante à do Mestre Zen Dogen. A idade com que faleceram é também aproximadamente a mesma.
+Naquela época, o Ministério da Justiça estava encarregado de investigar as chamadas novas religiões. O Sr. O. era o responsável por essa tarefa.
 
-Não se pode pensar na Sekaikyuseikyou sem considerar os dois grandes discípulos do Fundador Okada: Nakajima e Shibui. De forma análoga ao que ocorreu com os dois principais discípulos de Buda, Sariputta e Maudgalyayana, que partiram deste mundo antes de seu mestre, um deles partiu para o Mundo Espiritual antes do Fundador, como um arauto a lhe preparar o caminho. O outro faleceu logo após a ascensão do Fundador, como se fora seu porta-espada. É, em verdade, uma perda lastimável. Às vezes, pergunto-me como o mapa da Sekaikyuseikyou teria se alterado se ambos ainda estivessem entre nós. Seria isto apenas o lamento de um homem comum?
+Logo, o Mestre adentrou o recinto.
 
-Contudo, assim como o Fundador continua vivo na Sekaikyuseikyou, também o Reverendo Nakajima vive no coração de inúmeros fiéis.
+E, postando-se diretamente diante do Sr. O., lançou-se em uma contundente tese sobre religião.
 
-E, ademais, por meio desta biografia, ele continuará a viver de forma ainda mais ampla e vigorosa, para todo o sempre.
+Discorreu com eloquência e veemência, chegando a afirmar: “A nossa religião é a suprema”. Sua verve era irrefreável.
 
-23 de julho de 1961
+O Sr. O. era um acadêmico especializado em filosofia indiana e tinha inúmeras ponderações a fazer, mas, estando ali em missão de investigação, ouviu-o em silêncio. Havia pontos com os quais podia concordar e outros com os quais não.
 
-## Introdução
+“Pois bem, vou lhe mostrar a prática do Johrei”, disse o Mestre, ao final.
 
-Se me perguntassem: "Qual era o princípio norteador da vida do Reverendo Nakajima?", eu responderia: "Era a sua consciência".
+Ele chamou uma pessoa e a fez sentar-se no cômodo ao lado. Em seguida, fechou completamente as portas de correr que separavam os dois ambientes. Assim, a pessoa não podia ver nem o Mestre, nem o Sr. O.
 
-A consciência — eis o seu imperativo categórico.
+Feito isso, o Mestre, do seu aposento, iniciou o Johrei. O Sr. O., como quem observa algo insólito, fixou o olhar nos gestos de sua mão.
 
-Assim foi antes de ingressar na fé, e assim permaneceu depois.
+Então, percebeu algo extraordinário.
 
-O Reverendo Nakajima mantinha-se constantemente diante do espelho da consciência, em um rigoroso processo de autorreflexão e autoflagelação. Nesse aspecto, era excessivamente severo consigo mesmo.
+Quando o Mestre erguia a palma da mão, a pessoa na sala ao lado, invisível, começava a tossir.
 
-Da mesma forma, era excessivamente severo com os outros. Exigia-lhes, sem clemência, uma profunda reflexão e os açoitava com rigor. Os discípulos de ânimo mais fraco acabavam por desistir.
-
-A diferença reside em que, antes da fé, ele acreditava ser possível alcançar a perfeição do ser unicamente por suas próprias forças. Após ingressar na fé, contudo, compreendeu que mesmo essa força própria só se torna possível com o amparo de Deus.
-
-Em outras palavras, ele percebeu que, uma vez no ringue, é preciso lutar com todas as forças; contudo, quem é o adversário e a quem pertencerá a vitória são desígnios que repousam inteiramente no plano Divino.
-
-Originalmente, o Reverendo Nakajima era, por temperamento, um homem de paixões intensas. Não conseguia tolerar a mediocridade. Para ele, era tudo ou nada.
-
-Por exemplo, no transcorrer de sua vida, ele não se contentava em viver como quem enche de azeite um prato com pavio e o acende para iluminar a si e aos outros com serenidade. Essa forma de viver não lhe trazia satisfação. Preferia antes "escavar o próprio corpo, expor a própria carne, (...) e com ela acender mil tochas" (do Busso Toki) para arder em chamas. Desejava consumir-se por completo em um fogo crepitante, até que a carne se queimasse e os ossos ficassem expostos.
-
-Para ele, nisso residia a verdadeira honra de um homem.
-
-Contudo, a fé o transformou.
-
-A consciência permaneceu como a bússola de sua vida, mas ele deixou de se atormentar em nome dela. Libertou-se da "autotortura".
-
-A fé fez brotar nele, antes de mais nada, a alegria e a gratidão por estar vivo. Uma profunda gratidão Àquele que lhe permitia viver iluminou seu ser. O sorriso despontou em sua vida.
-
-Eis o que ele escreveu em seus últimos anos:
-
-"O riso é o Paraíso. Riam e façam rir abundantemente. No começo, pode até ser um riso forçado. Mesmo que não achem graça, riam. Mesmo que não seja divertido, riam. Alguns poderão criticar, dizendo que é falsidade, mas não importa. Nada é genuíno desde o princípio. A mentira pode se tornar verdade. Quando todos puderem rir de coração, isso será o Paraíso. Riam e façam rir com clareza, com elegância e em abundância."
-
-Ainda assim, a consciência foi, por toda a sua vida, o alicerce de seu ser. Ele ensinava a seus discípulos que Deus habita nos atos ditados pela consciência.
-
-"A quintessência da fé — consiste em lavar as impurezas e a mácula de nosso ser, para, com um coração límpido, devotar sincera gratidão ao Deus de Grande Amor. Em outras palavras, é viver em plenitude a 'prática' da fé."
-
-Era o que o Reverendo sempre dizia.
-
-Verdadeiramente, o Reverendo Nakajima foi um homem de consciência, um homem da prática da fé. Foi, no mais profundo sentido, um grande asceta que viveu sacrificando a si mesmo.
-
-## Um
-
-Issei, ou Nakajima Takehiko, nasceu em 26 de fevereiro de 1899, em Kawashima, um tranquilo vilarejo agrícola em Hagi, na província de Yamaguchi.
-
-A família Nakajima era uma antiga linhagem que remontava a Fujiwara no Kamatari e possuía laços com a genealogia de Yoshida Shoin. Seu pai, Zensaburo, era professor na escola primária da aldeia, um profundo conhecedor dos clássicos chineses, com especial apreço pela poesia. A pedido dos aldeões, ensinava-lhes obras como os "Registros do Historiador" e o "Shiji".
-
-Em seus últimos anos, tornou-se diretor da Escola Primária de Kawakami, também em Hagi, mas faleceu aos cinquenta e cinco anos, vítima de um derrame.
-
-Sua mãe, Aki, era filha da família Tanaka, da mesma região. Após o primogênito Takehiko, deu à luz mais quatro filhos: Sadako, Hisako, Kenji e Keisuke. Atualmente com oitenta e seis anos, ela desfruta de uma velhice serena em sua casa de montanha em Gora, Hakone.
-
-O Reverendo era um bebê robusto e adorável.
-
-Nos arredores de Hagi, havia uma fonte termal popularmente conhecida como "Shioyu".
-
-Certa vez, a mãe levou o recém-nascido até lá.
-
-Enquanto estavam no banho, as outras mulheres que se tratavam nas águas termais diziam:
-
-"Que bebê mais lindo! Deixe-me segurá-lo um pouco."
-
-E insistiam em pegar o bebê no colo.
-
-Todas as mulheres demonstravam o mesmo desejo.
-
-Era um bebê tão encantador que todos queriam afagá-lo.
-
-O menino era forte, não apresentava toxinas congênitas e crescia de forma saudável e vigorosa.
-
-"Ele realmente não dá trabalho algum", orgulhava-se a mãe.
-
-E com razão, pois era uma criança robusta que nunca apanhava um resfriado.
-
-Aos sete anos de idade (contagem japonesa), ingressou na Escola Primária de Kawashima, onde seu pai lecionava. Era inteligente e tinha um excelente desempenho escolar.
-
-Em casa, era um menino obediente e que não causava transtornos.
-
-Contudo, detestava a derrota. Naquela época, começou a praticar kendo e frequentava o dojo da delegacia local, onde brandia sua espada de bambu. Quando perdia, ficava extremamente aborrecido.
-
-Por isso, progrediu rapidamente. Chegou a participar de competições e a receber prêmios.
-
-Também gostava de caligrafia e praticava com afinco, o que era outra manifestação de seu espírito competitivo. No sexto ano, transcreveu o Édito Imperial sobre a Educação com tal maestria que recebeu um prêmio da escola.
-
-Enfim, detestava perder para os outros. Era algo que lhe era simplesmente insuportável.
-
-Apesar disso, era dócil.
-
-Enfrentava com determinação tudo o que considerava errado, mas, fora isso, era extremamente complacente e até excessivamente compassivo.
-
-Gostava de presentear os outros e distribuía tudo o que tinha em mãos.
-
-Deu seu acordeão, deu sua espingarda de ar comprimido. Era um menino de coração generoso.
-
-Amado pelos pais e pelos professores da escola, vivia dias felizes. Até se formar, nunca ficou abaixo do terceiro lugar da turma.
-
-## Dois
-
-O jovem ingressou na Escola Secundária de Hagi.
-
-Também no ginásio, era um aluno brilhante.
-
-No segundo ano, aspirando à carreira militar, prestou o exame para a escola preparatória do exército.
-
-Seu desempenho na prova foi excelente, mas foi reprovado no exame físico.
-
-"Você teve um ótimo resultado, mas, infelizmente, sua visão é fraca. Posso aprová-lo para a intendência, que tal?", disse o examinador.
-
-O jovem retirou-se em silêncio.
-
-(Intendência, não. Intendência não é ser soldado de verdade.)
-
-Desolado, o jovem percorreu a pé os mais de cinquenta quilômetros do caminho de volta para casa, desde Yamaguchi, local do exame.
-
-Ao chegar, parou na entrada de casa e começou a chorar baixinho.
-
-A mãe ficou assustada.
-
-(Que humilhação, que humilhação!)
-
-O jovem não pronunciava uma palavra, mas chorou por um longo tempo, com uma expressão de profunda amargura.
-
-Desistindo de se tornar militar, o jovem retornou à escola e continuou a estudar com afinco.
-
-Ao se formar no ginásio, seu professor responsável lhe disse:
-
-"Você tem ótimas notas e acredito que terá um grande futuro. Que tal ingressar na Academia Dobun Shoin?"
-
-De fato, o jovem sonhava em desbravar o continente. Se pudesse, gostaria de ingressar na Academia Dobun Shoin na China, que seria o caminho mais curto para seu objetivo. Consultou seus pais sobre o assunto.
-
-O pai se opôs.
-
-"Você é o filho mais velho. Não precisa ir para tão longe", disse ele.
-
-"Então, eu desisto", respondeu o jovem, com docilidade. Mas, no fundo, sentia uma grande tristeza.
-
-Sem alternativa, tornou-se professor substituto em sua antiga escola, o Ginásio de Hagi, lecionando para alunos quase da sua idade.
-
-Contudo, sua ambição de alçar grandes voos não se extinguira. Longe disso, ardia em seu íntimo como a lava no subsolo de um vulcão.
-
-(Será que meu destino é definhar por toda a vida neste pequeno vilarejo? Eu me recuso! Recuso-me!)
-
-Assim, após cerca de um ano, deixou o magistério e partiu para Tóquio.
-
-O Reverendo tinha, então, dezenove anos.
-
-Seu pai, Zensaburo, e o então embaixador no Brasil, o senhor Tatsuke Shichita, eram conterrâneos e haviam estudado juntos. Com uma carta de apresentação do pai, ele pretendia se tornar um protegido da família Tatsuke e dedicar-se aos estudos.
-
-Em seu coração, acalentava secretamente a esperança de, com o auxílio do embaixador, conseguir uma oportunidade de trabalho na América do Sul.
-
-Ao chegar a Tóquio e ser acolhido, o Reverendo escolheu o curso de Comércio na Universidade Meiji e começou a frequentá-lo. Brasil, México, Argentina... Seus sonhos o impulsionavam nos estudos.
-
-Contudo, o sonho desmoronou em apenas dois anos. Além de enfrentar a morte de seu rigoroso pai, foi acometido por um caso grave e inesperado de beribéri.
-
-Foi forçado, portanto, a retornar à sua terra natal para se tratar.
-
-Embora fosse um vilarejo tedioso e com poucos estímulos para um espírito jovem, o ar era puro, e a brisa que soprava e o riacho que corria traziam a paz serena do campo.
-
-Com o tempo, o beribéri foi completamente curado.
-
-No entanto, um sonho uma vez desfeito não se reconstrói. O Reverendo resignou-se.
-
-(Será que vou passar a vida inteira como um assalariado? Que detestável. Mas não há o que fazer.)
-
-Encontrou um emprego na biblioteca de Shimonoseki e tornou-se funcionário do local.
-
-A possibilidade de ler o alegrava. Vivendo em meio a livros, qualquer obra que desejasse estava ao seu alcance.
-
-Ainda assim, seu coração não encontrava consolo. Não conseguia sentir prazer naquela vida.
-
-(Uma traça. Um verme de papel. Serei eu um verme assalariado?)
-
-Com desdém de si mesmo, ansiava por abandonar aquela rotina o mais rápido possível.
-
-Deixou o emprego na biblioteca após dois anos.
-
-## Três
-
-Uma prima do Reverendo era casada com um diretor da Kuhara Mining.
-
-Graças a essa conexão, após deixar a biblioteca, ele ingressou na Kuhara Mining. Contudo, foi notado por um certo senhor Yamada, um conterrâneo mais velho que gozava de grande prestígio na época, e logo se transferiu para a Daido Electric Power, mudando-se para Nagoia. Tinha então vinte e dois anos.
-
-O trabalho não o entusiasmava, mas ele se dedicava com afinco.
-
-Três anos depois, aos vinte e cinco anos, casou-se com a senhorita Teruseko, filha de um grande atacadista de tecidos de algodão da região.
-
-"Providenciarei para que a certidão de casamento seja registrada trinta minutos antes do início da cerimônia. Esteja preparado e traga seu selo oficial."
-
-Desde o início, este era o Reverendo Nakajima.
-
-Na Nagoia daquela época, o costume era registrar o casamento apenas após o nascimento de um filho. Mas o Reverendo, que não tolerava nada que não fosse feito com a mais absoluta formalidade, era irredutível.
-
-A cerimônia transcorreu sem percalços, e um banquete de celebração foi realizado no santuário Tosho-gu.
-
-Durante a festa, o Reverendo, de modo pouco usual para um noivo, bebeu bastante.
-
-A noiva observava-o, apreensiva.
-
-Nesse momento, o irmão da noiva aproximou-se e disse:
-
-"Confio-lhe minha irmã. Ela é minha querida irmã. Uma irmã verdadeiramente boa."
-
-Ao ouvir isso, o Reverendo arregalou ainda mais seus grandes olhos e encarou o homem que se tornara seu cunhado.
-
-"Boa irmã, boa irmã... Se tanto lamenta entregá-la em casamento, leve-a de volta agora mesmo!"
-
-O tom de voz do Reverendo foi tão alto que os presentes se entreolharam, intrigados.
-
-Um breve mal-estar pairou no ar.
-
-O Reverendo, alheio a tudo, continuou a beber.
-
-Por que o Reverendo desejava tanto se embriagar no banquete de seu próprio casamento? Havia uma razão.
-
-Sua mãe se opusera ao casamento com Teruseko e não comparecera à cerimônia.
-
-Isso o desagradava. Mais do que desagrado, sentia-se solitário e desolado.
-
-Com a bebida, a situação se agravou. O Reverendo bebeu, de modo pouco usual para um noivo. Pensava que assim estava bem, e ao mesmo tempo, que a educação de sua futura esposa seria uma tarefa árdua.
-
-Naquela noite, ao voltar para casa, o Reverendo, com uma expressão solene, declarou à sua nova esposa:
-
-"A partir de amanhã, está terminantemente proibido usar o dialeto de Nagoia. Está proibido usar o pó de arroz branco e vermelho. E a responsabilidade de cuidar da casa na minha ausência é sua."
-
-Destas três ordens, as duas últimas eram exequíveis, mas a primeira — "É vedado o uso do dialeto de Nagoia" — era algo que a senhora Teruseko não tinha a menor confiança em cumprir. Será que ele não toleraria sequer uma palavra que lhe escapasse involuntariamente?
-
-Para uma mulher nascida e criada em Nagoia, ser proibida de usar seu dialeto a partir do dia seguinte era uma exigência descabida. Em uma interpretação mais pessimista, parecia até uma ameaça cruel, uma ordem para fazer o impossível.
-
-Contudo, a exigência do Reverendo era uma ordem suprema.
-
-"Sim. Cumprirei rigorosamente", respondeu a recém-casada, ainda com o traje de cerimônia. Havia no ar uma atmosfera de tal severidade que não lhe restava outra opção.
-
-A partir do dia seguinte, a senhora Teruseko passou a cumprir a ordem.
-
-Quando uma palavra no dialeto de Nagoia estava prestes a escapar, ela a engolia antes que chegasse à garganta, reformulava a frase no japonês padrão e só então conseguia falar.
-
-E não era só isso.
-
-O Reverendo ordenou que ela começasse imediatamente a manter um livro de contas domésticas. E não apenas ordenou: todas as noites, ele inspecionava as contas do dia e não ia dormir sem antes apor seu selo de aprovação. A esposa não se deixou abater. Pelo contrário, determinada a apresentar um livro de contas impecável, ela usou suas habilidades adquiridas na escola comercial e continuou a escrituração com esmero.
-
-Passou-se um mês.
-
-"Hum. Assim está bom", disse o Reverendo, com ar de satisfação.
-
-A partir de então, não só deixou de inspecionar as contas, como também delegou à esposa todas as questões financeiras da casa.
-
-Naquela época, o salário do Reverendo era de oitenta e cinco ienes, e o aluguel, de vinte e cinco.
-
-## Quatro
-
-Enquanto levava sua vida de assalariado na Daido Electric Power, o Reverendo foi novamente instado pelo senhor Yamada e tornou-se vendedor em uma concessionária da Ford Motor Company, localizada em Jinbocho, Kanda, Tóquio. E, dia após dia, corria de um lado para o outro para vender automóveis.
-
-Contudo, a profissão de vendedor era, em sua essência, incompatível com a personalidade do Reverendo. Uma vez que aceitara o emprego, pretendia se dedicar de corpo e alma, e assim o fazia. No entanto, o que não se alinha à natureza de uma pessoa é imutável, e em seu peito havia sempre um vazio, como um buraco aberto.
-
-"Acabei me rebaixando a um mero charlatão", dizia o Reverendo, rindo para si mesmo e para os amigos. Era um riso amargo como uma ameixa verde.
-
-Vendedor. Para uma pessoa comum, não seria uma profissão que merecesse tanto autodesprezo. Mas para o Reverendo, excessivamente íntegro, tanto no bom quanto no mau sentido, o ofício de vender produtos com lábia e artimanhas era motivo de profunda vergonha. Sentia-se como se tivesse decaído à condição de um vigarista que extorque dinheiro para beber nas montanhas de Hakone, e vivia em constante irritação.
-
-Observando-o, o senhor Yamada, que o havia introduzido na concessionária Ford, suspirou e disse:
-
-"Nakajima, talvez, no fim das contas, fosse melhor para você se tornar um monge ou um pastor."
-
-De fato, no fundo do coração do Reverendo, algo de natureza religiosa começava a brotar. No entanto, era como uma nebulosa disforme que precede a formação de uma estrela; ele mesmo não conseguia apreender sua essência e se consumia em uma inquietação solitária.
-
-Contudo, era preciso trabalhar.
-
-Sem trabalho, não havia como se sustentar.
-
-E assim, exausto, ele retornava para casa em Dote Sanbancho, Kojimachi, onde sua esposa o aguardava.
-
-No quarto ano de casamento, nasceu ali sua primeira filha, Mihoko.
-
-O trabalho não lhe trazia alegria, mas a felicidade de ter seu primeiro bebê era imensa, e seu ânimo pareceu melhorar, a ponto de fazer esta brincadeira:
-
-"Teruseko é do ano do Dragão, e Mihoko também. Se eu não tomar cuidado, serei devorado por dragões."
-
-O Reverendo já completara trinta anos.
-
-Anseava por uma paz de espírito verdadeira. Queria encontrar estabilidade.
-
-Contudo, apesar das aparências, algo nebuloso ainda persistia em seu peito. Havia nele uma inquietação constante, como a de quem tenta dividir dez por três sem parar. Embora seu humor tivesse melhorado, assemelhava-se a um céu em dia de muitas nuvens. Mesmo com a adorável bebê no colo, o Reverendo, como um paranoico, autoflagelava-se.
-
-(É isto que eu quero? É isto?)
-
-(Devo me contentar com esta vida?)
-
-E, mordendo os lábios, mergulhava em profundas reflexões.
-
-Passado algum tempo, o Reverendo trocou a Ford pela Bridgestone Tire, e a família mudou-se para Osaka.
-
-Na filial de Osaka, o que o esperava era a cadeira de chefe de seção.
-
-Contudo, mesmo essa cadeira não lhe era confortável.
-
-É verdade que o título de "vendedor" desaparecera e, em vez dos dias em que perambulava coberto de poeira, sua vida passara a ser predominantemente a de sentar-se a uma escrivaninha e apor seu selo em documentos. Mas, para ele, ambas as ocupações eram igualmente desinteressantes.
-
-(Vender automóveis ou vender apenas os pneus... ambos exigem uma mentalidade de charlatão. Será este o meu trabalho? Terei que aceitá-lo como meu ofício?)
-
-No escritório, durante a hora do almoço, após a saída dos funcionários, o Reverendo remoía seus pensamentos amargos.
-
-Contudo, embora o trabalho fosse desinteressante, ele confiava em si mesmo. Havia nele um sentimento de "esperem para ver".
-
-Por isso, ao chegar em casa, dizia à esposa com arrogância:
-
-"Eu sou o melhor genro do Japão!"
-
-Era o Ano Novo do ano seguinte ao seu casamento.
-
-O casal fora à casa dos pais da esposa para as felicitações.
-
-Sendo um atacado de tecidos de algodão, havia ali muitos empregados.
-
-A esposa, convidada, juntou-se aos empregados em um jogo de karuta.
-
-Ao ver a cena, o Reverendo enfureceu-se.
-
-"Se é minha esposa, comporte-se como tal, com mais dignidade! Jogar karuta com os empregados... que comportamento é esse?"
-
-Irado, o Reverendo simplesmente deu as costas e foi embora.
-
-No dia seguinte, a esposa, após refletir seriamente sobre como poderia seguir em frente com um marido tão difícil, foi à cozinha e bebeu um copo de saquê, bebida que não apreciava. Era a única forma de suportar a situação.
-
-Depois, cambaleante, saiu de casa.
-
-"Você ainda se julga uma mocinha? Não fui eu que insisti em me casar com você. Se não está satisfeita, pode ir embora quando quiser."
-
-O Reverendo, que acabara de gritar essas palavras, ao ver que a esposa desaparecera, ficou visivelmente alarmado.
-
-Imediatamente, correu atrás dela.
-
-O orgulho de ser "o melhor genro do Japão" não era, de forma alguma, infundado. O Reverendo realmente acreditava nisso. Por isso, em casa, era autoritário.
-
-Foi nesta casa em Osaka que nasceu seu primogênito, Seihachiro.
-
-## Cinco
-
-Contudo, para que não haja mal-entendidos, gostaria de acrescentar um detalhe sobre o período em que o Reverendo foi vendedor. Ele detestava perder. Tinha um temperamento que não se contentava com nada menos que o primeiro lugar, em tudo o que fazia. Mesmo na época de vendedor, ele se manteve fiel a essa obstinação e a esse espírito combativo.
-
-Anos mais tarde, ele contou a seus discípulos:
-
-"Por ser considerado um homem de grande capacidade, fui transferido para reerguer uma filial cujas vendas estavam em declínio. Lá, para descobrir por que os produtos não vendiam, passei seis meses sem fazer absolutamente nada. Pelo menos, era assim que os outros me viam. Por causa disso, fui alvo de duras críticas dentro da empresa. Contudo, durante esses seis meses, fiz uma descoberta: todos os vendedores se concentravam em negociar com os motoristas, e por isso os resultados não eram bons. Entendi o problema. Então, decidi negociar diretamente com os proprietários dos veículos, e não mais com os motoristas. Como resultado, as vendas, que até então eram nulas, superaram as de meus colegas no final do ano. Esse fato serviu de estímulo, e o desempenho da filial melhorou consideravelmente."
-
-O Reverendo não vivia apenas em autodesprezo.
-
-Pelo contrário, após ter se esforçado ao máximo, ele aspirava a uma estrela distante — embora ele mesmo não soubesse exatamente o que era, era uma estrela que brilhava em um céu longínquo, e ele buscava o caminho até ela.
-
-## Seis
-
-Finalmente, chega o momento da transformação do Reverendo.
-
-"Eu tenho um trabalho a fazer. Ainda não sei qual é. Mas, certamente, não é o comércio."
-
-Como se estivesse a convencer a si mesmo, o Reverendo deixou a Bridgestone Tire.
-
-E, com a coragem de um explorador que desbrava uma caverna desconhecida, mas ainda com uma sensação de nebulosidade, ele deixou Osaka e retornou a Tóquio.
-
-Comprou uma pequena casa em Saginomiya, Nakano, para abrigar sua família de quatro pessoas. Custou quatrocentos e cinquenta ienes.
-
-Um dia, notou um pequeno caroço no polegar direito de seu filho, que mal acabara de completar um ano.
-
-Pensando que não era nada grave, deixou como estava. No entanto, o inchaço começou a aumentar. A cada dia, ficava maior. O menino, com dor, chorava incessantemente.
-
-Levou-o a um médico do bairro.
-
-O médico, ao examinar a ponta do polegar, balançou a cabeça e disse que nada podia fazer.
-
-Então, procurou um renomado médico em Suidobashi.
-
-Ao primeiro olhar, o médico declarou:
-
-"Isto é grave. Se não for amputado imediatamente, a infecção se espalhará até o pulso."
-
-O Reverendo empalideceu. Ter que amputar um dos dedos daquela mãozinha tão pequena e adorável!
-
-Sua mente ficou confusa. Mas não havia o que fazer.
-
-"Por favor, faça o que for preciso", disse o Reverendo, com a voz trêmula, de olhos fechados. Foi tudo o que conseguiu dizer.
-
-Após os preparativos, o médico amputou o polegar direito do bebê na altura da articulação do meio.
-
-(Ah, meu filho agora está mutilado.)
-
-Ao lado da criança, que dormia sem nada saber, o Reverendo e sua esposa suspiraram inúmeras vezes. Sentiam-se como se estivessem sendo arrastados para o fundo de um pântano profundo.
-
-Na noite da cirurgia, porém, sua filha Mihoko, de três anos, subitamente teve febre.
-
-E não era uma febre comum. Era uma febre alta, de quarenta graus.
-
-Chamaram o médico às pressas, que diagnosticou disenteria.
-
-Diante dos golpes sucessivos, o casal ficou completamente desnorteado.
-
-"Se esta menina morrer, eu também morro", chegou a dizer o Reverendo.
-
-Nesse momento, um de seus amigos o visitou.
-
-Ao lhe contarem sobre a doença da filha, o amigo disse:
-
-"Em Kojimachi, há um mestre que faz coisas extraordinárias. Chama-se Masaki. Dizem que ele pode curar qualquer doença."
-
-"De quem você ouviu isso?"
-
-"Bem, na verdade, ontem à noite houve uma palestra em Kojimachi, e eu fui ouvi-la. Em resumo, trata-se de um método de cura espiritual, que, sem o uso de medicamentos, pode curar qualquer enfermidade. Que tal tentar pedir ajuda a esse tal de Masaki?"
-
-"Só com isso, não me parece muito confiável", respondeu o Reverendo, secamente.
-
-Contudo, apesar de suas palavras, seu desespero era tanto que se agarraria a qualquer esperança.
-
-Verdade ou mentira?
-
-De qualquer forma, decidiu experimentar aquele método de cura.
-
-Então, apertando firmemente a mão do amigo, disse:
-
-"Vou procurá-lo e pedir sua ajuda."
-
-Correndo para a casa em Kojimachi como se voasse, encontrou o senhor Masaki e lhe explicou a condição da filha.
-
-"Vamos imediatamente", respondeu ele.
-
-A facilidade com que ele aceitou o pedido deixou o Reverendo ainda mais apreensivo.
-
-(Será que este mestre realmente conseguirá curar a Mihoko?)
-
-No caminho de volta, acompanhado pelo homem, seu coração ainda oscilava entre a fé e a dúvida.
-
-Ao chegarem em casa, o senhor Masaki começou a fazer algo peculiar.
-
-Segurava um leque sobre o peito da criança doente e parecia concentrar-se em algo. Mais tarde, o Reverendo descobriria que o método de usar um leque era uma prática da Oomoto-kyo. Naquele momento, porém, achou aquilo muito estranho.
-
-O senhor Masaki permaneceu assim por um longo tempo.
-
-(O que será isto?)
-
-O Reverendo observava, atônito, aquele gesto misterioso.
-
-Pouco a pouco, as bochechas da criança, que estava prostrada, começaram a corar. Um brilho retornou a seus olhos, antes opacos.
-
-"Água... Quero água", disse a menina com clareza aos pais, que estavam ao lado de sua cama.
-
-Depois de beber a água, ela disse:
-
-"Que delícia, que delícia."
-
-O Reverendo ficou estupefato. Sua esposa também estava assombrada.
-
-(Ela vai se curar!)
-
-Sem entender o que estava acontecendo, mas vendo com seus próprios olhos a recuperação da filha, o Reverendo sentiu uma alegria tão intensa que teve vontade de chorar.
-
-Em uma semana, a doença havia desaparecido por completo.
-
-## Sete
-
-Graças ao tratamento do senhor Masaki, a doença de sua amada filha foi curada. Testemunhando com seus próprios olhos esse fato milagroso e irrefutável, o Reverendo sentiu uma comoção que abalou as profundezas de sua alma.
-
-(Isto não é algo comum. Definitivamente, não é algo comum.)
-
-O Reverendo sentiu o desejo de conhecer o grande mestre a quem o senhor Masaki reverenciava como seu guia. Não, mais do que um desejo, sentiu que era seu dever conhecê-lo.
-
-Soubera pelo senhor Masaki que esse grande mestre se chamava Okada Mokichi, era um alto dirigente da Oomoto-kyo e lutava dia e noite para difundir no mundo um método de cura pela fé. E que esse método não era um simples tratamento para doenças, mas sim a encarnação condensada do ideal de salvação da humanidade.
-
-(Que tipo de homem ele seria?)
-
-Só de pensar, seu peito se apertava.
-
-Finalmente, o dia chegou.
-
-Levando consigo a pequena Mihoko, agora completamente restabelecida, o Reverendo foi visitar o homem conhecido como o Grande Mestre de Omori.
-
-É claro que um dos motivos era expressar sua gratidão, mas não era só isso. Ele queria desvendar o segredo daquele método de cura miraculoso.
-
-Por isso, antes de sair, disse à esposa:
-
-"A doença de uma criança, para a qual os médicos mais renomados não encontraram solução, foi curada sem o uso de um único remédio, apenas com o abanar de um leque. Vou investigar esse mistério a fundo."
-
-E assim, pela primeira vez, o Reverendo encontrou-se com o grande mestre, Okada Mokichi.
-
-Era um homem de meia-idade, magro, de baixa estatura, sem nada de extraordinário à primeira vista. Apenas suas orelhas eram notavelmente grandes e seus olhos, de uma agudeza assustadora. Um olhar que parecia perscrutar o mais íntimo do ser.
-
-Contudo, à medida que conversavam, o coração do Reverendo foi se aliviando. Uma alegria inebriante, como a de se libertar de uma corda invisível com a qual ele mesmo se amarrara, começou a brotar em seu peito.
-
-Em cerca de uma hora, ele estava completamente fascinado por aquela figura.
-
-(Isto, de fato, não é algo comum. Tenho certeza de que este Grande Mestre esclarecerá tudo o que eu vinha pensando de forma vaga. E é um assunto urgente, não posso hesitar.)
-
-"Por favor, aceite-me como seu discípulo", disse o Reverendo, com determinação. Seu rosto expressava uma súplica desesperada.
-
-O Grande Mestre, talvez percebendo o que se passava no coração daquele homem que acabara de conhecer, respondeu prontamente:
-
-"Está bem, aceito."
-
-Assim, por meio da doença de uma criança, selou-se o vínculo entre aquele que viria a ser o Fundador da Sekaikyuseikyou e seu fiel discípulo.
-
-Pensando bem, no mesmo ano em que o jovem Okada Mokichi, residente em Onoko-cho, Tóquio, sofria com a recidiva de uma pleurisia que o acometera dois anos antes, vendo seus sonhos de se tornar um artista se esvaírem aos dezessete anos em uma primavera de convalescença, nascia o Reverendo Nakajima, no extremo oeste da ilha principal do Japão.
-
-E o fato de que, décadas mais tarde, o Reverendo se tornaria o braço direito daquele Fundador, lançando as bases da Igreja de hoje, só pode ser atribuído a um profundo laço kármico.
-
-No entanto, em todas as relações humanas e em todas as obras conjuntas, Deus sempre planeja tais encontros.
-
-Mesmo no que as pessoas consideram um acaso, a vontade de Deus está presente, calculada com rigor. Deus apenas aguarda a decisão do homem.
-
-E essa decisão deve ser tomada agora. Amanhã não serve.
-
-"Por favor, aceite-me como seu discípulo."
-
-"Está bem, aceito-o como discípulo."
-
-Comovido por essas palavras, o Reverendo, com o coração palpitante, retornou para casa, fez seus preparativos e, no dia seguinte, instalou-se na casa do Grande Mestre.
-
-Anos mais tarde, para memorizar os escritos sagrados da Oomoto-kyo, o Reverendo colou as folhas de papel por todo o teto de seu quarto, tentando aprendê-los deitado.
-
-Quando não conseguia decorar, batia na própria cabeça com o punho, gritando: "Seu idiota!". Sua esposa chegou a pensar que ele enlouquecera.
-
-Uma vez decidido a fazer algo, era da natureza do Reverendo ir até as últimas consequências.
-
-E assim, da manhã à noite, e por vezes da noite ao amanhecer, esquecendo-se de tudo, ele se dedicou a desvendar os mistérios desse novo método de cura.
-
-No sétimo dia de sua estada, ele pôde compreender, não com o intelecto, mas com todo o seu ser, a lei da primazia do espírito sobre a matéria, sempre ensinada pelo Grande Mestre.
-
-O Reverendo era, por natureza, um homem de personalidade forte e obstinado.
-
-Feliz daquele que pode crer sem ver, mas ele não pertencia a essa categoria. Sendo mais cético que a média, não era homem de se convencer facilmente apenas com palavras e lógica. Para alguém como ele, era preciso ver. Sem ver, não acreditaria.
-
-Contudo, enquanto ele mesmo praticava a cura, os milagres sucediam-se, um após o outro.
-
-Quisesse ou não, o Reverendo os via.
-
-A doença é a mácula do espírito — não havia outra opção senão crer na lei da primazia do espírito sobre a matéria.
-
-Para negar essa lei, seria preciso negar os milagres que ocorriam diariamente.
-
-E esses milagres eram inegáveis. Pois ele os via, com seus próprios olhos, ontem e hoje.
-
-A partir desse momento, o Reverendo abandonou sua antiga visão de vida. Ocorreu uma conversão de cento e oitenta graus.
-
-Diante da revolução em seu próprio coração, com uma mistura de espanto e alegria, o Reverendo murmurava:
-
-(Eu não existo mais. Existe apenas o eu que é discípulo do Grande Mestre. Sem o Grande Mestre, este eu também deixa de existir.)
-
-Contudo, um milagre gerou outro milagre ainda maior.
-
-O polegar direito do bebê, que fora amputado na articulação do meio, começou a crescer novamente, e até mesmo uma unha se formou. Hoje, ninguém que o veja notaria que aquele dedo foi um dia cruelmente amputado.
-
-Até os dedos renascem.
-
-## Oito
-
-O Grande Mestre acreditava na Oomoto-kyo. Aquilo em que o Grande Mestre acreditava, ele também deveria acreditar.
-
-"Vou a Ayabe", disse à esposa, e partiu para a região de Tanba. Na sede da Oomoto-kyo, dedicou-se por uma semana ao estudo de sua doutrina. Mas seu modo de aprender não era uma absorção intelectual. Como sempre, era um processo de imersão total, como se absorvesse o conhecimento por todos os poros do corpo. Não era saber, era sabedoria.
-
-Ao retornar para casa, o Reverendo trazia ao pescoço um "oyashiro" (amuleto sagrado).
-
-E, mal chegara à entrada, disse abruptamente à esposa que o recebia:
-
-"Você também vai a Ayabe."
-
-Não era uma sugestão. Era uma ordem.
-
-"Mesmo que me diga para ir, com duas crianças pequenas..."
-
-Enquanto a esposa hesitava em responder, um trovão caiu.
-
-"Se eu disse para ir, vá! Mesmo com os filhos, se você quiser, você consegue ir. Vá!"
-
-Sem alternativa, a esposa respondeu:
-
-"Sim, irei." Mas, mesmo dizendo sim, com dois filhos pequenos, não podia partir imediatamente.
-
-Após fazer todos os preparativos, a esposa partiu para Tanba duas semanas depois.
-
-E retornou como uma fiel. O Reverendo, com ar satisfeito, disse a si mesmo:
-
-(Assim está bom.)
-
-De modo geral, o Reverendo era um homem que, embora tivesse um lado sereno, era predominantemente passional. Por isso, também na fé, não se contentava com nada menos que "tudo ou nada". Essa era sua visão de vida, mas também um traço de sua personalidade.
-
-Como já mencionado, o Reverendo escrevera os textos sagrados da Oomoto-kyo em papel de arroz e os colara no teto. Certa vez, arrancou um trecho que considerava o mais importante e o engoliu. Não se contentava em apenas guardá-lo na mente. Precisava tê-lo dentro de si para se sentir em paz.
-
-O Reverendo era assim. Por isso, estudava literalmente dia e noite, a ponto de sua esposa, que o observava, sentir-se angustiada.
-
-(Será isto o inferno da fé?)
-
-Houve momentos em que a esposa não pôde deixar de pensar assim.
-
-A família dela alardeava:
-
-"Nakajima enlouqueceu. Se continuar com um marido desses, Teruseko acabará perdendo o juízo."
-
-Existem dois caminhos para se ingressar na fé. Há aqueles que chegam ao cume subindo degrau por degrau, e aqueles que ascendem em linha reta, como em um elevador, até atingir o ponto mais alto.
-
-O Reverendo pertencia a este último grupo.
-
-O cenário mudou em um instante.
-
-Até encontrar aquela pessoa, o Reverendo era um "buscador errante".
-
-Aquela pessoa era, sem dúvida, o Grande Mestre.
-
-"Fui eu quem descobriu o Grande Mestre", dizia o Reverendo a si mesmo e a seus discípulos.
-
-De fato, talvez seja verdade. Mas quem descobriu o Reverendo também foi o Grande Mestre. A verdade é que foi como se dois astrônomos, em planetas distintos, se descobrissem simultaneamente através de seus respectivos telescópios.
-
-Até então, o Reverendo, como um buscador às cegas, estava sempre em perseguição de algo. Ele mesmo não sabia bem o que era. Apenas pensava vagamente que havia um "caminho para construir a si mesmo e aos outros" e que esse caminho o possuía. Ansiava por encontrar logo esse caminho.
-
-Contudo, não conhecia a entrada. Não sabia por onde começar.
-
-O Reverendo sofria, pensava, se irritava. E isso continuou mesmo após o casamento. Como uma criança que, avistando ao longe uma ponte de arco-íris, não sabe por onde subir e está prestes a chorar, ele se sentia perdido e arrancava os cabelos.
-
-Foi então que o Reverendo descobriu o Grande Mestre.
-
-Uma luz resplandeceu diante dele.
-
-Sua pessoa mudou, sua vida mudou. Naquele momento, o Reverendo renasceu como um bebê. E esse bebê apegou-se ao Grande Mestre como a uma mãe, com fé e devoção. E essa dedicação jamais vacilou por toda a sua vida.
-
-Essa dedicação poderia ser chamada de autoimolação. O ato de oferecer o próprio corpo ao fogo como oferenda aos Budas e para o bem de todos os seres é chamado de "shoshin kuyo". O Reverendo serviu ao Grande Mestre com o espírito de autoimolação. Nele, não havia mais o menor traço de dúvida ou hesitação.
-
-Assemelha-se à fé absoluta de Shinran que, após ter se debatido em dúvidas e incertezas, encontrou Honen e pensou que, se seu mestre fosse para o inferno, ele o seguiria com alegria.
-
-Em seus últimos anos, o Reverendo escreveu:
-
-"São muitas as palavras para descrever Deus. Deus é luz. Deus é amor. Ou ainda, a origem dos mundos espiritual e material, sem começo nem fim. Contudo, são extremamente poucos os que verdadeiramente compreendem Deus. Muitos pensam que compreendem, sem de fato compreender. Quem, então, pode ser considerado alguém que realmente compreendeu Deus? É aquele que sabe que Deus não pode ser analisado ou interpretado pela mais brilhante sabedoria humana. Deus só pode ser compreendido através da experiência. Por mais que se quebre a cabeça, a lógica não O alcança. É através da experiência de milagres que transcendem a lógica que, gradualmente, se começa a compreender Deus."
-
-Também em seus últimos anos, ele escreveu:
-
-"Dentre todos os anseios humanos, o que mais nos atrai é o desejo de desvendar o mistério. O ardor na fé, por exemplo, é uma manifestação do anseio de explorar o mistério. Ao desvendar um mistério, surge o desejo de explorar o próximo. Quanto mais se conhece, mais se deseja desvendar suas profundezas. Nisto reside o fascínio e a beleza da fé. E como o milagre é a manifestação do mistério, quanto mais se explora o mistério, mais milagres se experimentam. O fervor na fé aumenta, pode-se dizer, pelo desejo de receber muitos desses milagres. Portanto, quanto mais forte o desejo de desvendar o mistério, mais milagres a pessoa recebe, e assim, o ardor na fé se intensifica."
-
-"Religião e amor têm pontos em comum. A atração pelo mistério da religião e a atração pelo ser amado são muito semelhantes. A diferença, contudo, é que o ponto culminante do amor é o casamento e, após o casamento, o encanto da novidade tende a se dissipar. Em contrapartida, o amor a Deus — ou seja, a religião — é eterno. Quanto mais se explora o mistério, mais forte se torna o encanto e maior a sua beleza. Longe de perder o frescor, quanto mais se explora, maior se torna o fascínio."
-
-Aquele Deus — o Deus Verdadeiro, centro do universo — que, por seu voto de salvar todos os seres, desceu de seu trono divino e se manifestou como Buda, era Kannon Bosatsu. E Kannon era o Deus do Reverendo. E essa fé jamais vacilou, nem por um instante, até a sua morte.
-
-## Nove
-
-Para o Reverendo, o Grande Mestre era a única pessoa. Sua existência só fazia sentido através do Grande Mestre; o "eu" que existia para si mesmo desaparecera.
-
-Por isso, todas as coisas pertenciam ao Grande Mestre.
-
-Quando comprava algo, pensava: "Será que o Grande Mestre já comeu isto?", e se preocupava até com um simples doce.
-
-Não vestia nada que o Grande Mestre não vestiria.
-
-Quando a Guerra do Pacífico começou e os doces se tornaram escassos, o Reverendo se esforçava para conseguir os cupons, enfrentava a fila em frente à confeitaria Nakamuraya em Shinjuku para comprá-los e, feliz como uma criança, ia entregá-los na casa do Grande Mestre.
-
-Certa vez, recebeu dois mil e quinhentos ienes pela venda da casa de sua família. Na mesma hora, colocou todo o dinheiro diante do Grande Mestre e disse, radiante: "Por favor, use-o para a Obra Divina."
-
-Isso não acontecia em tempos de abundância. Era em meio a uma pobreza extrema que ele sentia a necessidade de agir assim.
-
-E, mesmo nos dias em que não havia um centavo em casa, ele dizia, rindo: "Não há nada mais confortável do que dormir", e tirava uma soneca durante o dia.
-
-Em 23 de dezembro de 1933, o Reverendo foi a Omori para celebrar o aniversário do Grande Mestre.
-
-Naquele dia, ele havia encomendado um pargo no peixeiro, mas, por ser também o auspicioso dia do nascimento do Príncipe Herdeiro, não foi fácil conseguir o peixe.
-
-Ainda assim, conseguiu encontrar um pargo grande e pôde levá-lo.
-
-Como deve ter se alegrado o Grande Mestre com aquela celebração íntima entre mestre e discípulo.
-
-Este evento tornou-se uma tradição e, a partir de então, todos os anos os discípulos se reuniam para celebrar o aniversário do Grande Mestre.
-
-"Lealdade."
-
-O puro amor com que o Reverendo servia ao Grande Mestre pode ser resumido, melhor do que por qualquer outra palavra, nestes dois caracteres.
-
-Era, de fato, lealdade. Lealdade no seu sentido mais puro.
-
-Essa lealdade se transformou na fé ardente do Reverendo. Na confiança em sua própria vida.
-
-O Reverendo não permitia que ninguém, em hipótese alguma, questionasse a fé que recebera do Grande Mestre. Tinha a determinação de aniquilar quem quer que o fizesse.
-
-Por isso, mesmo nas discussões com os discípulos, não mostrava a menor clemência. Sua veemência era tal que deixava o interlocutor sem argumentos. Não cedia um milímetro.
-
-"Naquela época, cheguei a pensar, com ressentimento, que o Reverendo era uma pessoa cruel", confessou um discípulo anos mais tarde.
-
-Isso também era uma manifestação da lealdade do Reverendo. Por ter mantido, ao longo de toda a sua vida, uma lealdade para com o Grande Mestre semelhante à de um vassalo que considera uma honra morrer em batalha diante de seu senhor, ele não permitia críticas prolixas ao caminho ensinado pelo Grande Mestre.
-
-"É preciso ser dócil. A resposta 'sim' e o ato de se levantar devem ser simultâneos."
-
-O Reverendo costumava dizer isso, e ele mesmo, diante do Grande Mestre, se levantava imediatamente. O que quer que lhe fosse dito, respondia "sim". E, ao mesmo tempo que respondia, já estava de pé.
-
-## Dez
-
-Mudaram-se de Saginomiya, em Nakano, para Asagaya.
-
-A vida era difícil. A renda do Reverendo era praticamente nula.
-
-A esposa vendia de porta em porta o jornal da Oomoto-kyo, "A Luz do Oriente". Mesmo grávida, não lhe era permitido ficar em casa. A vida não permitia, ou melhor, o Reverendo não permitia.
-
-Naquela época, "A Luz do Oriente" custava dois sen por exemplar, e metade do valor das vendas era entregue ao Grande Mestre. Portanto, fosse como fosse, era preciso vender oitenta exemplares por dia para sobreviver.
-
-Com oitenta exemplares por dia, o ganho era de oitenta sen, totalizando vinte e quatro ienes por mês.
-
-Mesmo naqueles tempos de preços baixos e dinheiro valorizado, sustentar uma família de quatro pessoas com vinte e quatro ienes por mês era uma luta árdua.
-
-Havia dias em que, sem dinheiro para comprar comida, precisavam colher brotos de cavalinha no campo para comer.
-
-Mesmo em meio a essa vida difícil, a educação que o Reverendo impunha à sua esposa era rigorosa. Ele se empenhava em incutir-lhe a severa visão de vida de que "quem não trabalha um dia, não come nesse dia".
-
-Se a resposta da esposa não o agradasse minimamente, ele a repreendia: "Que modo de responder é esse?"
-
-Se ela demorasse a se levantar, "Por que está demorando tanto?"
-
-A esposa girava como um pião, movendo-se como um redemoinho, hoje aqui, amanhã ali. O excesso de trabalho prejudicou sua visão. Mesmo assim, o Reverendo ainda murmurava:
-
-(Estou educando a Teruseko.)
-
-Sendo assim, era igualmente rigoroso na educação dos filhos.
-
-Anos mais tarde, sua filha mais velha, Mihoko, disse:
-
-"Ele era um pai extremamente severo. Mas, como suas repreensões eram sempre lógicas, não deixavam um sentimento ruim. Dito isso, enquanto era repreendida, chegava a pensar, com ressentimento, que não precisava falar tanto. Hoje, porém, percebo que a severidade de meu pai foi, a seu modo, uma bênção, e sou-lhe imensamente grata. Isso porque compreendi a ternura que se escondia no fundo de seu rigor. Na verdade, meu pai era um homem sentimental e de bom coração."
-
-Isso se aplica perfeitamente ao Reverendo como marido.
-
-"Que pessoa desajeitada!"
-
-Dizendo isso, descia do segundo andar e, de repente, levantava o punho para a esposa, com os nervos à flor da pele. Contudo, logo em seguida, arrependia-se. Arrependia-se a ponto de ter os olhos marejados.
-
-Ainda assim, quando a exaltação tomava conta dele, perdia o controle de si e voltava a gritar. E, novamente, se arrependia.
-
-A indenização que recebera ao deixar a empresa já se esgotara há muito tempo.
-
-A vida continuava difícil.
-
-O senhorio, com falsa benevolência, dizia:
-
-"Se quer dinheiro, por que não faz tratamentos elétricos? Isso atrai pacientes."
-
-O Reverendo permanecia em silêncio, com uma expressão que dizia para não se meter onde não era chamado.
-
-(Não sou um simples curandeiro. Não quero me tornar um. E, mesmo que quisesse, não é da minha natureza.)
-
-O senhorio, observando-o, desistia, pensando:
-
-(Que homem inflexível.)
-
-Certa vez, ele contou ao Grande Mestre sobre o tratamento elétrico sugerido pelo senhorio.
-
-O Grande Mestre, com naturalidade, disse:
-
-"Faça os dois. Seria bom fazer os dois."
-
-Mas sua personalidade não lhe permitia tal versatilidade. A conversa morreu ali. Contudo, o idealismo ardente do Reverendo acabou por colidir frontalmente com a visão de fé de um certo membro da Oomoto-kyo, e, ao final, o Reverendo rompeu corajosamente com a própria organização.
-
-Isso aconteceu em 1933.
-
-No ano seguinte, o Grande Mestre também renunciou ao seu cargo de direção na Oomoto-kyo e abriu uma clínica de terapia de shiatsu baseada na fé em Hanzomon, Kojimachi. O Grande Mestre tinha então cinquenta e dois anos. O Reverendo, trinta e cinco.
-
-Essa época de pobreza se estendeu por um longo período, mas, por mais difícil que fosse a situação, o Reverendo detestava lamentações. Por isso, a esposa não podia se queixar. Não apenas queixar-se, mas não podia sequer mencionar a palavra dinheiro. A esposa precisava cerrar os dentes e permanecer em silêncio.
-
-"Olhe os pássaros no céu. Vivem sem nenhuma reserva. Como pode o ser humano, o mais nobre de todos os seres, passar fome?"
-
-O Reverendo costumava dizer isso à esposa. E agia como se vivesse em um país onde o dinheiro não tivesse valor.
-
-O Reverendo também detestava dívidas.
-
-Por isso, a esposa não podia pedir emprestado nem mesmo uma pequena quantia para uma emergência. Se fosse descoberta, certamente seria repreendida.
-
-Contudo, houve vezes em que, sem alternativa, ela precisou pedir dinheiro emprestado para o sustento da casa. Ao saber disso, o Reverendo a repreendia severamente:
-
-"Devolva imediatamente. Devolva já!"
-
-A esposa foi vendendo, uma a uma, as coisas que trouxera em seu enxoval. Já não havia mais nada para vender.
-
-"Já não tenho mais nada", disse ela certa vez, com uma expressão quase de alívio.
-
-"Eu também estou vestindo um quimono de verão adaptado para o inverno. E, mesmo assim, sou feliz", disse o Reverendo, rindo.
-
-## Onze
-
-Nesta casa, o casal sofreu por seis meses com uma sarna terrível.
-
-Com filhos para cuidar e as tarefas domésticas, ficarem ambos de cama tornava a preparação das refeições diárias um desafio. Quando contratavam uma diarista, ela logo ia embora, queixando-se do cheiro da roupa suja. Por fim, ninguém mais vinha ajudá-los.
-
-O Reverendo, com o corpo todo enfaixado, suportava o sofrimento de um inferno em vida, deitado em silêncio.
-
-Quando os discípulos o visitavam, ele se cobria com o cobertor até o queixo para que não vissem seu estado.
-
-Nos dias de cerimônia mensal, o Reverendo, deitado em seu quarto de seis tatames no andar de cima, pedia que alinhassem almofadas no varal e, de dentro de seu futon, proferia uma palestra para cerca de trinta fiéis sentados ali. Falava por uma hora.
-
-A esposa orou: "Rogo que, mesmo que seja temporariamente, minha sarna seja curada primeiro." Com os dois acamados, os filhos não sobreviveriam.
-
-Sua prece foi atendida, e a esposa se curou um pouco antes do Reverendo.
-
-Contudo, alguns anos depois, ela contraiu sarna pela segunda vez.
-
-"Está certo. Eu orei para que me curasse, mesmo que fosse temporariamente, então é natural que isso aconteça", pensou ela.
-
-Com as mãos enfaixadas até o meio dos dedos, a esposa tricotava um haramaki de lã, um pedido do Grande Mestre. Como uma forma de retribuir, por menor que fosse, a sua gratidão, ela continuou a tricotar com afinco.
-
-Ao ver aquela cena, o Reverendo se comoveu às lágrimas.
-
-Para ele, o Grande Mestre era a única pessoa insubstituível neste mundo. E sua esposa, suportando a coceira por todo o corpo, estava fazendo um haramaki para ele.
-
-Em seu coração, o Reverendo disse:
-
-(Obrigado.)
-
-## Doze
-
-Em 1º de janeiro de 1935, foi realizada a cerimônia de fundação da Dai-Nihon Kannon Kyokai na clínica em Hanzomon, Kojimachi.
-
-A residência do Grande Mestre também foi transferida de Omori para Kaminoge, em Tamagawa, tornando-se a sede da igreja.
-
-Naquela época, a casa do Reverendo também havia se mudado de Asagaya novamente para Nakano — desta vez, para Honmachi-dori, 3-chome.
-
-No verão do ano seguinte, 1936, o Grande Mestre, aos cinquenta e cinco anos, foi convocado pela delegacia de polícia de Omiya, em Saitama, e posteriormente detido na delegacia de Tamagawa. A acusação era de prática ilegal de cura.
-
-E, no outono de 1937, foi emitida uma ordem que permitia a prática da cura, mas proibia que fosse associada à religião. O Grande Mestre, então, superficialmente, afastou-se da religião para se dedicar apenas à terapia.
-
-O Reverendo também, apenas na aparência, desvinculou-se da religião, passando a se apresentar como um simples terapeuta e colocando uma placa condizente com essa atividade.
-
-Contudo, os pacientes não vinham como esperado. Havia dias em que ninguém aparecia.
-
-Nesses dias sem movimento, o Reverendo, como quem diz que a sorte favorece quem sabe esperar, deitava-se na sala. Em seu rosto, não havia o menor traço de sombra. Era uma expressão de plena confiança.
-
-No ano seguinte, 1938, a família do Reverendo mudou-se novamente, para o 1-chome do mesmo bairro de Nakano.
-
-Cerca de uma semana após a mudança, o Reverendo saiu para cortar o cabelo.
-
-No caminho, ao passar em frente a um templo, viu uma senhora de uns oitenta anos agachada, em um estado de completa exaustão.
-
-Ele falou com ela, mas ela não conseguiu responder. Apenas ergueu o olhar para o Reverendo, em um gesto de súplica. Seus olhos estavam turvos, revelando alguma doença.
-
-O Reverendo sentiu que não podia abandoná-la e decidiu levá-la para casa.
-
-Para o Reverendo, pensar e agir eram sempre uma coisa só.
-
-Ele amparou a idosa e a levou para casa.
-
-Ao examiná-la, constatou que se tratava de tuberculose laríngea.
-
-A partir de então, o tratamento do Reverendo continuou diariamente.
-
-O corpo da idosa melhorou drasticamente.
-
-Completamente recuperada, a senhora disse, com lágrimas nos olhos: "Não sei como agradecer. Mas não tenho nada para lhe oferecer."
-
-"Não precisa me agradecer", disse o Reverendo, com um sorriso, ao ver o rosto corado e saudável da idosa.
-
-A senhora curvou-se em agradecimento várias vezes e partiu.
-
-Algum tempo depois, um homem visitou o Reverendo.
-
-"Ouvi falar do senhor por uma pessoa. Eu também tenho refletido muito sobre a fé. Gostaria muito de conhecê-lo", disse o visitante.
-
-Esse homem era ninguém menos que o futuro Reverendo Shibui Sozaburo, da Nihon Miroku Kyokai.
-
-Louvado seja Deus. A partir daquele momento, estabeleceu-se uma relação íntima e de profundo laço kármico entre o Reverendo e aquele homem.
-
-O Grande Mestre costumava dizer:
-
-"Nakajima é fogo, Shibui é água. E Nakajima é vertical, Shibui é horizontal. Os dois são as rodas de uma carruagem. Ambos são importantes. Se faltar uma, a carruagem não anda. Eu pude ter dois homens tão admiráveis. Por isso, posso viajar tranquilo sobre a carruagem."
-
-## Treze
-
-Em 6 de setembro de 1939, seu segundo filho, Miroku-chan, ascendeu aos céus aos seis anos de idade (contagem japonesa), na mais tenra infância.
-
-Sofreu de uma diarreia severa. Seria o seu destino? Infelizmente, não houve salvação.
-
-Na época, a esposa estava grávida de sua terceira filha, Hiroko-chan.
-
-A filha mais velha, Mihoko; o filho mais velho, Seihachiro; e o segundo filho, Miroku-chan (nascido em 6 de março, nomeado Miroku pelo Grande Mestre), partiram para o céu. Abaixo dele, havia a pequena Haruyo-chan.
-
-Em meio à dor da perda, a esposa grávida tentava se consolar minimamente, pensando: "A criança em meu ventre é a substituta daquele que se foi. Portanto, com certeza é um menino."
-
-Contudo, nasceu uma menina. Deram-lhe o nome de Hiroko.
-
-Com a decepção de que a criança que ela acreditava ser a substituta de Miroku-chan era, na verdade, uma menina, a esposa entrou em neurose.
-
-Talvez por causa desse apego distorcido, a terceira filha, Hiroko-chan, faleceu com menos de um ano de vida.
-
-Na mesma casa, em um curto espaço de tempo, o casal se despediu de dois caixões. Eram dias sombrios.
-
-Contudo, pouco tempo depois, nasceu a quarta filha, Mitsuko-chan, e a luz retornou.
-
-E, mais tarde, em julho de 1944, quando a família se refugiou em Izusan, Atami, a esposa estava grávida de seu sétimo filho.
-
-Apesar dos tempos de guerra, em que as pessoas viviam aterrorizadas pelas sirenes de ataque aéreo, o bebê nasceu em segurança em 7 de novembro. Recebeu o nome de Kazuko.
-
-O Grande Mestre, contente, disse:
-
-"Perderam dois, mas receberam dois em troca, não é mesmo?"
-
-Contudo, isso foi mais tarde. A dor do Reverendo pela perda de seus dois filhos era imensa.
-
-A única coisa que consolava sua dor era a fé. E ele dizia a si mesmo:
-
-(Nascendo e morrendo, a vida humana continua eternamente. A morte é apenas uma troca de vestes. O Grande Mestre me ensinou isso. E eu não duvido. Como posso não duvidar? Sou, por natureza, um homem desconfiado. Tenho um lado obstinado que não aceita facilmente o que os outros dizem. E, no entanto, acredito sem a menor dúvida nas palavras do Grande Mestre. Isso é um grande mistério para mim. Nunca encontrei ninguém assim. O que será que isso significa? Desde que conheci o Grande Mestre, meu próprio coração desapareceu. O coração do Grande Mestre se tornou o meu. Eu já não existo. Existe apenas o Grande Mestre. Sendo assim, é mais do que natural que eu não possa duvidar de uma única palavra sua. Eu simplesmente creio no Grande Mestre. Foi-me dito que a morte é uma troca de vestes, e assim creio. A água flui do alto para o baixo. Eu, seguindo as palavras do Grande Mestre, fluirei naturalmente para onde quer que seja.)
-
-## Catorze
-
-N-san, ao retornar da guerra, ouviu de alguém:
-
-"Em Nakano, Tóquio, há um grande mestre. Ele cura qualquer doença. É um mestre extraordinário."
-
-N-san sofria de um problema pulmonar.
-
-"Sua doença será curada com apenas duas ou três sessões", acrescentou a pessoa.
-
-(Será verdade? Não será mentira? Mas esta pessoa não é de falar levianamente.)
-
-N-san hesitou. Não se sentia inclinado a visitá-lo imediatamente, acreditando na história.
-
-Contudo, ao pensar em sua condição, não conseguia ficar parado.
-
-Por fim, sem mais poder se conter, N-san partiu de Kobe em dezembro de 1942.
-
-No trem, imaginava como seria o mestre, como seria a casa.
-
-A guerra ainda continuava.
-
-Ele havia retornado da guerra por motivo de doença, mas não sabia por quanto tempo os dias de incerteza durariam.
-
-Em um canto do trem lotado, N-san, com a única esperança no "mestre de Nakano", fechou os olhos.
-
-Chegou à estação de Tóquio, pegou a linha Chuo e finalmente encontrou a casa que procurava.
-
-Imaginara uma construção imponente, mas era uma pequena casa alugada, com uma placa de madeira pintada de branco onde se lia "Clínica Nakajima".
-
-Abriu a porta da frente, mas não havia um único par de sandálias.
-
-(Embora sejam oito da manhã, está quieto demais.)
-
-Intrigado, N-san pediu licença para entrar.
-
-Alguém da casa apareceu e disse:
-
-"Por favor, entre."
-
-Ao subir, viu que a sala também estava vazia. Sem ter o que fazer, sentou-se em silêncio.
-
-Aos poucos, as pessoas que vinham para o tratamento começaram a chegar.
-
-O homem chamado Reverendo Nakajima, de quem ouvira falar, era magro, alto, com um rosto comprido e olhos notavelmente penetrantes.
-
-Como fora o primeiro a chegar, esperava ser o primeiro a receber o tratamento — que, segundo lhe disseram, consistia apenas em impor as mãos. No entanto, o Reverendo não lhe deu a menor atenção e começou a tratar os pacientes que chegaram depois.
-
-Pensou que seria o próximo, mas o Reverendo novamente tratou alguém que chegara depois.
-
-Os pacientes chegavam um após o outro. O Reverendo continuava a tratá-los, como se não notasse a presença de N-san.
-
-Ele já estava farto de esperar.
-
-Contudo, pensando que aquele mestre curaria seu problema pulmonar, não podia ir embora. Esperou pacientemente.
-
-Finalmente, por volta das quatro da tarde, foi atendido.
-
-E, quando sua vez chegou, sentou-se diante do Reverendo e, com um sentimento que beirava o ressentimento, disse:
-
-"Estou aqui desde as oito da manhã..."
-
-"Você é alguém que veio para receber orientação, não é? Foi para isso que veio. Por isso, deixei-o por último", disse o Reverendo, sem um esboço de sorriso.
-
-Após ouvir de N-san sobre os sintomas da tuberculose, o Reverendo disse:
-
-"Respire fundo."
-
-N-san inspirou e expirou.
-
-"Viu? Você consegue respirar assim. Mesmo que não consiga uma troca de ar de cem por cento, se conseguir oitenta por cento, não há com o que se preocupar. Seus pulmões não estão tão ruins."
-
-O Reverendo, dizendo isso, pressionava vários pontos do corpo de N-san com o dedo médio.
-
-"Coração, rins, fígado, estômago — estão todos ruins."
-
-"Não, esses não estão tão mal assim", protestou N-san, com convicção.
-
-"Não. Estão muito ruins. Piores que os pulmões. Nos pulmões, pelo menos, há sintomas conscientes, o que é um bom sinal."
-
-A maneira de falar do Reverendo era autoritária.
-
-N-san apenas disse:
-
-"Sim, senhor."
-
-No segundo dia.
-
-"Sente-se aqui", disse o Reverendo.
-
-N-san olhou e viu um atril, sobre o qual repousava um manuscrito de umas quinhentas ou seiscentas páginas.
-
-"Leia isto", ordenou o Reverendo novamente.
-
-Ele leu, página por página.
-
-(Que letra feia), pensou.
-
-Havia muitas coisas escritas. Partes que entendia, e muitas que não.
-
-Como lhe fora ordenado, ele leu.
-
-Levou um dia inteiro para terminar.
-
-"Terminei de ler", disse ele.
-
-"Deve haver partes que você não entendeu. Poderia explicar agora, mas você provavelmente não entenderia bem. Portanto, ouça as perguntas que os outros me farão. Preste muita atenção." O Reverendo disse isso com displicência e se retirou.
-
-N-san ficou perplexo, como se tivesse sido enganado por uma raposa.
-
-## Quinze
-
-No terceiro dia.
-
-"Você está em silêncio, não tem perguntas?", disse o Reverendo, como que o instigando.
-
-Então, N-san perguntou sobre o que não entendia a respeito do bem e do mal.
-
-"Se você pratica o mal, seu espírito se obscurece e seu corpo adoece. Se pratica o bem, seu espírito se purifica e não há doença."
-
-"Então, existe o bem absoluto?"
-
-"Não."
-
-"Nesse caso, não é apenas sofrimento?"
-
-"Não se pode alcançar o bem absoluto, mas é possível se aproximar dele."
-
-"Essa lógica eu entendo."
-
-"Lógica não adianta. Não é algo que se entenda com a lógica."
-
-"Então, o que devo fazer?"
-
-"Salvar ao menos uma pessoa."
-
-N-san ficou com a sensação de ter entendido e não ter entendido.
-
-Todos os dias, refletia sozinho.
-
-Alguns dias depois, choveu.
-
-Dias de chuva são ociosos. Naquele dia, nenhum paciente havia chegado ainda.
-
-"Hoje estou livre, vou lhe mostrar meu poder. Tire a roupa", disse o Reverendo.
-
-Ele se despiu e sentou-se. Recebeu Johrei por cerca de quinze minutos.
-
-"E então?", disse o Reverendo, pousando as mãos sobre ele.
-
-"Sinto-me bem."
-
-"Seus ombros estão tensos. Deve ser doloroso."
-
-Dizendo isso, após uns trinta minutos, aplicou Johrei novamente. Desta vez, por cerca de cinco minutos.
-
-"E então?", disse o Reverendo, repetindo a mesma pergunta.
-
-N-san se levantou. Surpreendeu-se com a leveza que sentiu ao ficar de pé.
-
-"Estou impressionado", disse N-san, curvando a cabeça com sincera reverência.
-
-"O poder é isto."
-
-O Reverendo tinha uma expressão de "viu só, entendeu agora?".
-
-"Por que me sinto tão leve?"
-
-"Daqui a pouco, ficará pesado novamente", disse o Reverendo, como se estivesse anunciando um veredito.
-
-(Ele pode tornar leve ou pesado, à vontade?)
-
-Nesse momento, N-san compreendeu pela primeira vez que era a isso que se referiam quando falavam de um médium.
-
-Escusado será dizer que este N-san tornou-se, mais tarde, um fiel. Tornou-se assistente, tornou-se chefe de sub-sede. Como braço direito do Reverendo, salvou muitas pessoas. O Grande Mestre o elogiava, dizendo: "Ele é jovem, mas é notável."
-
-O Reverendo era um bom observador de pessoas. Olhava, olhava fixamente. E, quando percebia que a pessoa era digna de confiança, não escondia nada. Acreditava que, uma vez que confiasse em alguém, era seu dever mostrar-se por completo, sem nada a ocultar.
-
-Quando um jovem discípulo, a quem fora confiada a difusão em uma determinada região, disse: "Não tenho capacidade para isso", o Reverendo respondeu com firmeza:
-
-"Eu lhe confio esta missão porque tenho a convicção de que você é capaz. Se você tem ou não capacidade, eu sei melhor do que você."
-
-Sendo este o Reverendo, ele discerniu a totalidade de N-san e, conhecendo sua fé inabalável, falou-lhe abertamente sobre tudo, sem constrangimento.
-
-"Eu também não tive cem por cento de sucesso na formação de discípulos desde o início. Vejamos, se contarmos, falhei umas onze vezes. Graças a isso, aprendi a desconfiar das pessoas. Sou um ser humano comum, a esse ponto."
-
-## Dezesseis
-
-No início de 1943, houve um período em que os fiéis, um a um, foram se afastando. E nenhum novo membro ingressava.
-
-"É porque o Reverendo é muito rigoroso", cochichavam alguns discípulos.
-
-Mesmo as pessoas que vinham apenas para tratamento se reduziram a, no máximo, dez por dia.
-
-O rigor não era apenas com os fiéis.
-
-A esposa, que também trabalhava como assistente, era repreendida por tudo. Quando cometia um erro, era severamente admoestada.
-
-As pessoas que vinham para tratamento comentavam:
-
-"Aqueles dois não são casados, não é?"
-
-"É, não parecem ser."
-
-O Reverendo estava tão tenso que provocava esse tipo de conversa.
-
-Ainda assim, não podiam parar. A esposa, vestindo um jaleco branco, percorria as casas dos pacientes.
-
-Com poucos pacientes, a vida, naturalmente, tornou-se difícil.
-
-Contudo, o Reverendo estava cheio de confiança.
-
-"Eu encontrei um trabalho que vale a pena para um homem. Se perder esta oportunidade, não haverá mais nada. Sinto, do fundo do coração, um propósito na vida. Espere e verá", dizia ele, com o peito estufado.
-
-"Não importa que o mundo não me entenda. Podem rir o quanto quiserem. Dedicarei minha vida à verdade. Esse é o meu único propósito. Mesmo que me pisem, mesmo que me chutem, sinto-me honrado."
-
-O Reverendo também dizia isso.
-
-Nesses momentos, suas bochechas coravam de paixão e lágrimas brotavam em seus olhos.
-
-E, do final daquele ano até 1944, o número de fiéis aumentou vertiginosamente. Aqueles que haviam se afastado retornaram. O número de pessoas que vinham para tratamento mais que dobrou em relação ao ano anterior, superando vinte por dia. Naturalmente, a rotina do Reverendo tornou-se mais atarefada.
-
-Era setembro de 1944.
-
-O Reverendo partiu para uma aldeia no nordeste do país para ministrar um curso de formação.
-
-O fiel da aldeia encarregado de organizar o curso, pensando que, já que o Reverendo viria, era preciso reunir pelo menos trinta participantes, correu de um lado para o outro.
-
-Até a véspera, conseguira reunir vinte e nove pessoas.
-
-(Falta mais um. Se não, o Reverendo pode me repreender.)
-
-Com esse pensamento, ele percorreu novamente a vizinhança.
-
-E, finalmente, conseguiu trinta pessoas.
-
-Na noite em que o curso terminou, na casa do anfitrião onde estava hospedado, o Reverendo disse: "Gostaria de tomar um banho ao ar livre."
-
-Os da casa levaram a banheira para o quintal e a aqueceram.
-
-Submerso até o pescoço, o Reverendo estava de bom humor.
-
-(Ah, que sensação boa.)
-
-Ouvindo o canto distante de um cuco, o Reverendo parecia satisfeito.
-
-(Se não tivessem reunido trinta pessoas, mas apenas vinte ou vinte e cinco, eu não teria visto aquele rosto contente), pensou o anfitrião, aliviado.
-
-## Dezessete
-
-H-san estava incomodada com um terçol no olho esquerdo que surgira há alguns dias e estava inchando.
-
-Ele crescia cada vez mais, a dor se intensificava, e ela achou que não haveria outra solução senão ir ao médico para uma incisão.
-
-Contudo, H-san era professora em uma universidade feminina. Seu olho direito já era fraco, a ponto de os óculos serem quase inúteis. Portanto, ela vivia praticamente com a visão do olho esquerdo.
-
-Se fosse ao médico agora para uma incisão, certamente teria que usar um tapa-olho. E, com um terçol tão grande, talvez não pudesse retirá-lo por uma, ou mesmo duas semanas. Durante esse tempo, ficaria praticamente cega.
-
-Além disso, devido à doença de sua mãe, ela já havia faltado às aulas por um mês. Havia muita matéria para ser ensinada no terceiro trimestre. Portanto, não podia faltar mais à escola.
-
-Nesse momento, lembrou-se de ter ouvido falar, cerca de um mês antes, de um método de tratamento inovador chamado "Terapia de Purificação", pela esposa de um professor de outra universidade.
-
-Na ocasião, a esposa do professor dissera: "Furúnculos e coisas do tipo, o pus sai enquanto você observa."
-
-Ela estava completamente cética. Hesitava.
-
-Contudo, na noite anterior, na esperança de extrair o pus mais rapidamente, aplicara uma compressa quente antes de dormir, o que piorou a situação. Ao acordar, metade de seu rosto estava inchado, e sua aparência era tão deformada que ela mal conseguia se olhar no espelho. Além disso, a dor era ainda maior.
-
-H-san decidiu tentar, mesmo que fosse para ser enganada, e foi visitar a esposa do professor para que lhe apresentasse o tal mestre.
-
-Isso aconteceu em janeiro de 1944.
-
-Acontece que era o primeiro dia do mês e, naquela época, o Reverendo e os demais dirigentes da TENGOKUKAI se reuniam mensalmente na casa do Grande Mestre. Portanto, a clínica em Nakano estava fechada.
-
-Vendo seu rosto aflito, a esposa do professor disse:
-
-"Se você está com tantos problemas, eu mesma posso ajudá-la. Acabei de me formar, sou uma novata, mas se não se importar, eu faço o tratamento. E amanhã você pode ir à clínica do Reverendo."
-
-Embora não confiasse, H-san, em seu desespero, agarrou-se a essa esperança e sentou-se diante da esposa do professor.
-
-## Dezoito
-
-Diante de H-san, a senhora movia a palma da mão estendida, tremulando-a. (Que coisa estranha), pensou H-san, enquanto permanecia sentada em silêncio por mais de quarenta minutos.
-
-Quando seu pescoço começou a ficar dormente, a senhora disse: "Por hoje, é só", e H-san sentiu um grande alívio.
-
-Ao voltar para casa, naquela noite, seguiu as instruções e não aplicou compressas quentes nem frias antes de dormir.
-
-H-san, que frequentemente sofria de insônia e cuja condição se agravara por causa do terçol, dormiu profundamente naquela noite, algo que não acontecia há muito tempo. Ao acordar, sentia-se excepcionalmente bem.
-
-E não era só isso. O inchaço no olho e na bochecha havia praticamente desaparecido, e não havia dor. Ao remover cuidadosamente o tapa-olho, viu que uma quantidade considerável de pus amarelado havia saído.
-
-(Será que o tratamento de ontem funcionou, ou o pus saiu naturalmente porque chegou a hora?)
-
-H-san ainda estava cética. Mas, de qualquer forma, era um mistério.
-
-No dia seguinte, com a carta de apresentação, foi à clínica em Nakano.
-
-Esperava uma casa mais imponente, mas encontrou uma construção pequena e sem grande destaque. Na entrada, vários pares de sapatos e sandálias estavam desordenadamente espalhados.
-
-H-san subiu a escada escura com receio.
-
-O segundo andar consistia em dois quartos de seis tatames conjugados. No quarto dos fundos, de frente, uma pessoa que parecia ser o Reverendo estava tratando alguém. Apesar da simplicidade do prédio, ele tinha um ar de nobreza. Ao entrar na sala, a pessoa que parecia ser o Reverendo levantou o rosto e disse:
-
-"Seja bem-vinda."
-
-H-san ficou um pouco surpresa com a agudeza do olhar que brilhava no fundo daqueles olhos grandes.
-
-(Este deve ser o Reverendo Nakajima), pensou. Intuiu que não poderia ser outra pessoa.
-
-O Reverendo, enquanto estendia a palma da mão, disse a H-san, rindo:
-
-"Fazer um terçol tão grande... você é uma pessoa ambiciosa. O que tanto deseja?" Sua risada era sonora.
-
-(Que mestre interessante), pensou H-san, e sentiu-se à vontade.
-
-Em seguida, o Reverendo pressionou a nuca de H-san e disse:
-
-"Você é bem teimosa, não é?"
-
-H-san sentiu um sobressalto.
-
-Isso porque, desde pequena, H-san era uma criança obstinada, a ponto de seus irmãos a apelidarem de "Arame". Ela sabia bem de sua teimosia. Mas não esperava que, em um lugar como aquele, um mestre que via pela primeira vez a apontasse de forma tão direta.
-
-Há pouco, pensara que ele era um mestre interessante, mas agora sentia um pouco de medo. Sentia como se sua alma estivesse sendo desvendada.
-
-"Como o senhor sabe disso?", perguntou, encolhida.
-
-"E então, acertei? Ahahaha!"
-
-O Reverendo riu alto, com visível satisfação.
-
-## Dezenove
-
-O olho de H-san estava completamente curado.
-
-"É realmente um mistério inexplicável", disse ela.
-
-"Esta Terapia de Purificação, qualquer um pode fazer. Até um tolo, um simplório, pode fazer", disse o Reverendo, rindo.
-
-"Por quê?", ela perguntou o motivo.
-
-"Mais tarde você entenderá", foi a única resposta.
-
-"Mais tarde..."
-
-O que isso significava? H-san sentiu, pela atmosfera do lugar, que o Reverendo pretendia transformá-la em uma terapeuta profissional.
-
-Ao mesmo tempo, um sentimento de cautela brotou em seu peito.
-
-(Preciso ter cuidado.)
-
-H-san pensava que, se pudesse ajudar ao menos um doente com essa Terapia de Purificação, gostaria de aprender o método e ajudar as pessoas. Contudo, não queria se tornar uma profissional da área.
-
-Por isso, mesmo encontrando o Reverendo outras vezes, manteve uma atitude evasiva.
-
-Um dia, o Reverendo lhe disse:
-
-"Você é professora de inglês, mas qualquer um pode ensinar inglês. Ensinando inglês, você não salvará a humanidade. Se for à Inglaterra, até os mendigos debaixo das pontes de Londres falam inglês."
-
-H-san sentiu uma forte resistência interna, mas as palavras não saíram de sua boca.
-
-(É verdade, os mendigos debaixo das pontes de Londres falam inglês. Mas eles não conseguem ler Shakespeare. E, no entanto, o Reverendo diz essas coisas com tanta naturalidade.)
-
-H-san havia desenvolvido métodos de ensino de inglês muito particulares e tinha grande confiança em sua capacidade. Por isso, as palavras "qualquer um pode ensinar inglês" feriram, não pouco, seu orgulho. Contudo, havia um certo encanto em seu tom direto e sem rodeios. Assim, embora sentisse resistência, não se irritou.
-
-Na verdade, H-san, que pensava em reformar o coração das pessoas através da educação, mais do que no ensino do inglês em si, após alguns anos de magistério, começava a sentir a impotência de seus esforços. Por isso, as palavras do Reverendo foram, de fato, dolorosas. Sentiu sua confiança desmoronar sob seus pés.
-
-## Vinte
-
-No verão de 1944, a situação de guerra do Japão deteriorou-se rapidamente.
-
-As pessoas de bom senso, sob a ameaça sinistra dos ataques aéreos, sentiam que o destino da pátria era apenas uma questão de tempo.
-
-No final de julho daquele ano, a família do Reverendo encontrou uma casa em Nishi-ashikawa, Izusan, na cidade de Atami, e para lá se refugiou.
-
-O Grande Mestre, que se mudara para Gora, em Hakone, em maio, também se transferiu para Higashiyama, em Atami, em setembro.
-
-Contudo, mesmo tendo se refugiado em Atami, o Reverendo não podia se dar ao luxo de ficar em casa. Apenas transferira a esposa e os filhos para uma zona de segurança, mas ele próprio viajava incessantemente, sem tempo para cuidar de sua casa.
-
-Não era raro que, ao retornar de uma viagem à região de Tohoku, ele seguisse diretamente para a região de Kansai, sem passar por sua casa em Atami.
-
-E, na volta de Kansai, novamente não passava em casa, indo direto para Tóquio. Era uma vida agitada.
-
-Houve também um episódio como este. Em seu retorno de uma viagem, o Reverendo foi visitar o Grande Mestre em Higashiyama-so. O Grande Mestre, sorrindo, disse:
-
-"Seu filho nasceu."
-
-Foi assim que o Reverendo soube do nascimento de seu filho. E, naquela ocasião, o parto fora extremamente difícil.
-
-O Reverendo, que ainda não passara em casa, com uma expressão um tanto embaraçada, disse:
-
-"É que foi uma viagem longa."
-
-Esta casa hoje é o dormitório de uma empresa, mas quando o Reverendo a alugou, era uma casa pequena.
-
-Ele construiu um anexo com um escritório de oito e seis tatames. E, mais tarde, ergueu um sobrado, que batizou de Shinkokaku.
-
-Isso aconteceu depois do fim da guerra, mas em um dos cômodos do Shinkokaku — um quarto de vinte tatames — havia um tapete. Um de seus assistentes, que era deficiente visual, era responsável pela limpeza matinal, mas não conseguia ver os pequenos detritos.
-
-Por isso, as outras pessoas, por compaixão, o ajudavam. A compaixão era bem-vinda, mas para o assistente, ainda era uma situação penosa.
-
-O Reverendo, ao presenciar a cena, disse ao assistente:
-
-"Já está bom. Pode parar."
-
-E, mais tarde, disse-lhe:
-
-"É porque você dá o primeiro passo que todos começam a agir. Em tudo, o que é nobre é dar o primeiro passo."
-
-A voz do Reverendo era gentil.
-
-Nos olhos deficientes do assistente, algo brilhou.
-
-## Vinte e Um
-
-Era outono de 1944. O Reverendo partiu para a região de Tohoku, vestindo o uniforme nacional e com as pernas enfaixadas com polainas.
-
-Com os alarmes de ataque aéreo, o trem parava diversas vezes, e os passageiros, atrás das janelas com persianas baixadas, passavam horas de angústia.
-
-Contudo, o Reverendo não se preocupava.
-
-(Estou formando os soldados de Deus, então com certeza terei proteção.)
-
-Durante os cursos, muitas vezes era preciso correr para os abrigos antiaéreos.
-
-Em uma dessas ocasiões, alguém disse:
-
-"Se temos proteção divina, não precisamos entrar no abrigo, não é?"
-
-O Reverendo se irritou.
-
-"Não se pode abusar da proteção divina. É um erro apenas fazer a sua parte e esperar pelo destino. Tentar forçar as coisas apenas com o esforço humano, por ego, é errado, mas não fazer nada e apenas esperar por uma dádiva também é errado."
-
-## Vinte e Dois
-
-Em março de 1945, os ataques aéreos se intensificaram. Todas as noites, vastas áreas eram consumidas pelo fogo.
-
-Recusando a promoção de professora assistente a professora titular, sugerida por um veterano, H-san iniciou uma vida de dedicação na sede da TENGOKUKAI em Atami.
-
-Cerca de dois meses antes, H-san comunicara sua decisão ao Reverendo. Contudo, ele não disse: "Que boa decisão. Está ótimo."
-
-Ela fora até ele imaginando que seria elogiada, esperando ver um rosto feliz. Mas, para sua surpresa, o Reverendo foi indiferente.
-
-(O Reverendo, que tanto me incentivou, o que aconteceu?), pensou H-san, confusa, enquanto olhava para o rosto dele, que a encarava em silêncio.
-
-Após um momento, o Reverendo disse:
-
-"Não precisa se tornar assistente por obrigação. Se no fundo do seu coração houver o menor apego ao título de professora universitária, escolha esse caminho agora. Não há necessidade de se sentir em dívida comigo e se forçar a nada."
-
-Sentindo-se rejeitada, seu coração, antes tenso, relaxou subitamente.
-
-Contudo, mesmo desapontada, tentou acalmar a agitação em seu peito para compreender os verdadeiros sentimentos do Reverendo e esperou por suas próximas palavras.
-
-O Reverendo, olhando para H-san com compaixão, disse:
-
-"Deus concede sua permissão e utiliza aqueles que se agarram a Ele com fervor. Ele não tem serventia para aqueles que agem como se estivessem fazendo um favor. Pense bem mais uma vez."
-
-Com vontade de chorar, ela baixou a cabeça. O Reverendo, como que para dar o golpe final, disse:
-
-"Se for para desistir, que seja agora."
-
-H-san voltou para casa e refletiu profundamente.
-
-(Em um canto do meu coração, ainda há muita vaidade. Um sentimento exaltado de que estou sacrificando uma posição de honra para me dedicar à salvação da humanidade. Que coração pretensioso e desagradável. E há um segundo eu que se observa com admiração por essa atitude. Que autossatisfação, que sentimentalismo!)
-
-No dia seguinte, H-san foi novamente a Atami.
-
-E, curvando a cabeça, disse apenas isto:
-
-"Por favor, permita-me servir à Obra Divina. Eu lhe suplico."
-
-Em seu rosto, havia a determinação de seguir unicamente este caminho e a sinceridade de quem se envergonhava dos apegos fúteis do dia anterior.
-
-E assim, superando a oposição de sua família, H-san tornou-se assistente do Reverendo.
-
-Para escolher um único assistente, o Reverendo era assim, meticuloso a este ponto.
-
-## Vinte e Três
-
-H-san tornou-se assistente do Reverendo.
-
-Certa manhã, o Reverendo estava sentado em frente ao tokonoma principal, e H-san, à sua esquerda.
-
-Ainda não havia chegado ninguém para tratamento.
-
-Uma empregada trouxe três jornais diferentes e os deixou na entrada da sala.
-
-"Traga um desses jornais, qualquer um serve", disse o Reverendo.
-
-Ele disse "um", mas como H-san não sabia qual jornal ele mais gostaria de ler, ela pegou os três e os colocou diante dele. E, pensando ter sido prestativa, retirou-se.
-
-Após uns dois ou três minutos de silêncio, o Reverendo, com um tom formal, disse:
-
-"Você sabe o que é ser dócil?"
-
-Sem saber o que responder, H-san olhou para o rosto do Reverendo.
-
-Então, ele continuou:
-
-"Você se lembra do que eu disse agora há pouco? Eu disse 'um' jornal. Você, pensando em ser prestativa, trouxe os três, mas isso é prova de que você não é dócil. A verdadeira docilidade não é nada complicado. É simplesmente fazer o que lhe foi dito. Eu penso nas coisas mais profundamente que você. Quando eu disse 'um', foi porque pensei que as pessoas que virão para tratamento logo estarão aqui, e elas também gostariam de ler o jornal enquanto esperam. Por isso, disse 'um'. Para deixar os outros dois para elas. Entendeu?"
-
-H-san ficou surpresa.
-
-Ela se dedicara à educação por dezenove anos. Durante esse tempo, em busca de um grande guia espiritual, encontrara diversas personalidades famosas. Mas nunca havia conhecido alguém que ensinasse dessa maneira. H-san, instintivamente, curvou a cabeça.
-
-Foi mais ou menos na mesma época.
-
-Ouviu-se uma voz na entrada anunciando uma visita, e H-san desceu as escadas.
-
-Ao perguntar o motivo da visita, a pessoa disse que tinha um assunto a tratar com o Reverendo.
-
-Quando H-san transmitiu a mensagem, o Reverendo levantou-se e foi até a entrada.
-
-Pouco depois, ao subir para o segundo andar, o Reverendo disse a H-san:
-
-"Quando você desceu agora há pouco, reparou em como estavam os sapatos e as sandálias na entrada?"
-
-H-san, preocupada apenas em anunciar a visita, não havia notado e permaneceu em silêncio.
-
-Então, o Reverendo disse:
-
-"Os calçados estavam espalhados por toda parte, uma desordem tal que o visitante mal tinha onde pisar. Você fala de grandes ideais e pensamentos elevados, mas na prática de pequenos atos de sinceridade como este, você é um zero. O ser humano precisa se tornar alguém que se preocupa com os outros, que tem atenção aos detalhes. Do contrário, não servirá para a construção do mundo do dia."
-
-H-san, sentindo uma vergonha que a fazia querer se esconder em um buraco, ficou com o rosto vermelho.
-
-## Vinte e Quatro
-
-O Reverendo, meio de brincadeira, dizia à esposa:
-
-"Eu lido com doentes o dia todo. Preciso ter ao menos o prazer de comer algo saboroso."
-
-De fato, o Reverendo comia bem.
-
-Na primavera de 1941, ele reuniu seus discípulos e fundou a "Tengukai".
-
-A mensalidade da "Tengukai" era de cinco ienes, que eram acumulados para que todos pudessem desfrutar de boas refeições juntos. Nesses momentos, o Reverendo parecia especialmente feliz.
-
-Contudo, em 8 de dezembro daquele ano, a Guerra do Pacífico começou, e os alimentos foram se tornando cada vez mais escassos.
-
-Ainda assim, o Reverendo não se deu por vencido.
-
-Levando consigo seus seguidores, ele procurava por bons restaurantes e saía para comer.
-
-Gostava especialmente de soba, e comer cinco porções de mori-soba não era nada para ele. Quando foi a Tohoku, comeu cinquenta tigelas de wanko-soba. Mesmo que seja um soba que se come de uma só vez, cinquenta tigelas é impressionante, diziam os discípulos presentes, com os olhos arregalados.
-
-Contudo, o Reverendo não era do tipo que comia bem sozinho, sem se importar com os outros. Sua personalidade não lhe permitia tal atitude.
-
-Durante a escassez de alimentos, em uma de suas viagens, foi-lhe servida uma iguaria que na época já era rara de se encontrar. O discípulo que o acompanhava, com água na boca, comeu tudo sem cerimônia.
-
-Mais tarde, o Reverendo o repreendeu:
-
-"Pense nas pessoas da casa. Como pode alguém comer tudo com tanto gosto? É preciso deixar um pouco para os da casa."
-
-Ele tinha esse lado gentil.
-
-Também por essa época, recebeu de um fiel como agradecimento pelo Johrei um sho e cinco go de arroz branco.
-
-Ao ver o arroz, o Reverendo disse à esposa:
-
-"Dê este arroz branco para a Haruyo."
-
-O Reverendo amava Haruyo-chan a ponto de dizer que não doeria nem se a colocasse dentro dos olhos. Como o irmão mais velho, Miroku-chan, e a irmã mais nova, Hiroko-chan, haviam falecido, Haruyo-chan era uma presença pequena, solitária e inocente.
-
-Por causa disso, seus irmãos mais velhos passaram a provocá-la, chamando-a de "Haruyo-chan do arroz branco". Provavelmente sentiam ciúmes do carinho que o Reverendo demonstrava pela irmã mais nova.
-
-Embora o Reverendo adorasse comer, a cozinha de sua casa não era, de forma alguma, luxuosa.
-
-Um de seus discípulos conta que, por volta de 1943, ao espiar o armário da cozinha, muitas vezes não encontrava nada dentro.
-
-No ano anterior ao fim da guerra, a situação piorou ainda mais.
-
-O mingau de arroz era noventa por cento água, e continha quase que exclusivamente nabo e cenoura; o arroz propriamente dito era apenas um punhado. E era assim todos os dias.
-
-Contudo, o Reverendo estava satisfeito com isso.
-
-Certa vez, ele disse a seus discípulos:
-
-"Eu como qualquer coisa. Nunca reclamo da comida. Apenas, se for para usar os mesmos ingredientes, dou sugestões sobre como prepará-los para que fiquem mais saborosos."
-
-## Vinte e Cinco
-
-Por alguma razão, o Reverendo era particularmente severo com os militares.
-
-Logo após o fim da guerra, quando o exército japonês já não existia, um ex-oficial da marinha, K-san, foi visitá-lo.
-
-K-san servira em um submarino, mas contraíra um problema pulmonar e estava se recuperando em uma estalagem em Atami (que ainda funcionava como enfermaria para militares).
-
-Por acaso, na loja de tofu perto da estalagem, ouviu falar do Reverendo e quis conhecê-lo.
-
-Então, telefonou.
-
-A pessoa que atendeu disse, em voz alta:
-
-"É militar? Se é militar, tem que ter coragem."
-
-K-san ficou surpreso.
-
-Ao visitá-lo, o Reverendo apareceu.
-
-Vestia um yukata, com uma faixa amarrada firmemente na cintura, e o encarava de pé.
-
-Quando K-san explicou o motivo de sua visita, ele disse apenas uma palavra:
-
-"Então é você o militar?"
-
-Também por essa época, Y-san, um ex-militar que retornara da guerra, apareceu na entrada da casa do Reverendo, com uma mochila nas costas, buscando seus ensinamentos.
-
-O Reverendo, que saiu para atendê-lo, disse bruscamente, como se estivesse irritado:
-
-"Quem é você?"
-
-A esposa, ao lado, interveio:
-
-"É o senhor Y-san. Ele já esteve aqui outro dia."
-
-Então, o Reverendo, sem a menor cerimônia, cuspiu as palavras:
-
-"Eu não o conheço."
-
-S-san, que ficara completamente cego no campo de batalha, chegou à casa do Reverendo guiado por sua tia. Era um ex-capitão do exército.
-
-"O que aconteceu?"
-
-"Fui atingido por estilhaços de um projétil."
-
-"Você não enxerga?"
-
-"Absolutamente nada."
-
-"No entanto, a maneira como você tira os sapatos está errada. Mesmo que não enxergue, deveria ser capaz de alinhar seus próprios sapatos um pouco melhor."
-
-Isso aconteceu durante a guerra. Um chefe da associação de veteranos do exército visitou o Reverendo.
-
-O Reverendo lhe disse:
-
-"Seu olhar é muito duro. Suavize seus olhos."
-
-O Reverendo sempre dizia que os olhos dos militares tinham "quinas". Parecia que ele conseguia identificar um ex-militar apenas pelo cheiro.
-
-Também era rigoroso com os professores.
-
-Certa vez, N-san, que fora diretor de uma escola primária e agora estava aposentado, visitou o Reverendo.
-
-"Por quantos anos você foi professor?", perguntou o Reverendo.
-
-"Vinte e cinco anos", respondeu N-san.
-
-Então, o Reverendo, arregalando os olhos, disse:
-
-"Esse pecado é maior que o de um criminoso de guerra."
-
-## Vinte e Seis
-
-O Reverendo detestava "desculpas".
-
-Aquela mulher, por ser a filha mais nova, fora criada com um carinho especial. Podia ser mimada à vontade, e a maioria de seus caprichos era atendida. Como não se lembrava de ter sido repreendida, mas apenas elogiada, desenvolveu, sem perceber, o hábito de se considerar uma boa menina.
-
-Consequentemente, mesmo depois de adulta, não suportava ser advertida ou criticada por outras pessoas.
-
-Mesmo depois de começar a servir na sede, sempre que cometia um erro e era advertida pelo Reverendo, invariavelmente dava uma desculpa.
-
-Quando lhe diziam: "Você não fez o que deveria ter feito", a desculpa saía de sua boca: "Ah, eu ia fazer isso agora mesmo."
-
-Outra desculpa que surgia era: "Na verdade, eu ia fazer, mas não pude por tal e tal motivo."
-
-Nessas ocasiões, o Reverendo sempre dizia com firmeza:
-
-"Só pensar não adianta nada. Se não fizer, é o mesmo que não ter pensado. Por que não consegue simplesmente dizer 'desculpe'? Um simples 'desculpe' não é suficiente?"
-
-Certa vez, essa mulher foi alvo de uma calúnia contada ao Reverendo por outra pessoa. Embora não tivesse feito nada, foi acusada, e o Reverendo a advertiu sobre o assunto.
-
-Ela, indignada, deu desculpas.
-
-"Não foi bem assim", disse ela.
-
-"Não me lembro de ter feito tal coisa", acrescentou.
-
-Então, o Reverendo, com uma voz calma, perguntou:
-
-"Você acredita em Deus?"
-
-"Sim, acredito."
-
-"Se você realmente acredita, mesmo que a acusação seja falsa, não deveria ser capaz de se abster de dar desculpas? Se Deus sabe a verdade, não é o suficiente? Somente quando você se tornar uma pessoa capaz de esperar o tempo passar em silêncio, sem dar desculpas, poderá dizer que realmente compreende a Deus."
-
-## Vinte e Sete
-
-Aconteceu durante a guerra.
-
-A repartição de finanças notificou o Reverendo de que lhe seria cobrado um imposto de dois milhões de ienes.
-
-Até mesmo o Reverendo ficou alarmado.
-
-Como gastava o dinheiro assim que o recebia, não tinha uma quantia significativa em mãos. Mesmo que lhe ordenassem pagar, seria impossível.
-
-"Não se pode tirar leite de pedra."
-
-O Reverendo estava em apuros.
-
-Contudo, mesmo que quisesse protestar, não tinha os livros contábeis. Nunca se preocupara em mantê-los.
-
-A repartição de finanças enviou fiscais.
-
-O Reverendo estremeceu de medo.
-
-(O que devo fazer?)
-
-O Reverendo não tinha habilidade com o ábaco. Nem cabeça para isso.
-
-Então, os discípulos decidiram se dividir e preparar os livros contábeis às pressas.
-
-No entanto, os discípulos não tinham conhecimento na área. A decisão unânime foi chamar alguém com experiência em impostos e trabalhar a noite toda.
-
-Nesse momento, A-san, um dos discípulos mais estimados, disse a todos:
-
-"Nesta situação, vamos nos dedicar ao Reverendo."
-
-"Certo. Vamos nos despojar de tudo. Vamos entregar tudo o que temos para vestir", concordou alguém.
-
-"Mas, por mais que nos despojemos, no inverno precisaremos de algo para vestir. Então, vamos guardar um conjunto de roupas de inverno. O resto, entregaremos tudo", disse A-san.
-
-"Vamos fazer isso."
-
-"Vamos fazer isso."
-
-Mais tarde, ao saber da história, o Reverendo ficou comovido. Com lágrimas nos olhos, disse:
-
-"Esse sentimento é o que é nobre."
-
-Dizendo isso, pode parecer que o Reverendo era uma pessoa que gastava o dinheiro que entrava de forma indiscriminada, da direita para a esquerda. Contudo, ele era um homem que observava com extrema rigidez o que se costuma chamar de "distinção entre o público e o privado".
-
-Até mesmo o missô e o shoyu na cozinha, ele não permitia que fossem usados de forma descuidada.
-
-As cartas que recebia de diversas pessoas — ele as encadernava e usava como bloco de anotações. À noite, ao dormir, mantinha-as ao lado do travesseiro e, no verso, anotava ideias que lhe ocorriam ou o rascunho das respostas das cartas que pretendia escrever. Às vezes, escrevia até mesmo seus manuscritos no verso de papéis de carta.
-
-No dia de Ano Novo de um certo ano, após a cerimônia, um dos discípulos, ainda com o quimono novo que ganhara, estava limpando o quarto.
-
-O Reverendo passou por ali.
-
-E, ao ver a cena, repreendeu-o severamente.
-
-"Quando for limpar, vista-se adequadamente. Se não cuidar das coisas, Deus não lhe dará mais nada. Cuide bem das coisas. Não se esqueça dessa gratidão."
-
-Um dos dirigentes foi repreendido pelo Reverendo por ter viajado de segunda classe, o que hoje seria a primeira.
-
-"Até o Grande Mestre viaja de terceira. Você, viaje de quarta ou quinta."
-
-Contudo, quando era preciso gastar, o Reverendo o fazia sem hesitação. Se não tinha, orava para conseguir.
-
-Às vezes tinha, às vezes não.
-
-Mesmo que andasse com as mãos nos bolsos, não havia dinheiro em sua carteira. E, mesmo que houvesse, lidar com dinheiro era um incômodo.
-
-Por isso, aonde quer que fosse, era a esposa quem fazia todos os pagamentos. Ele se portava como um senhor feudal.
-
-Embora se portasse como um senhor feudal, ele observava atentamente os pontos cruciais.
-
-Certa vez, um dos assistentes escreveu um relatório administrativo em uma folha de papel nova e o entregou ao Reverendo.
-
-O Reverendo, ao ver aquilo, disse:
-
-"Memorandos para mim podem ser escritos em papel usado. Todas as coisas são dádivas de Deus. Mesmo uma única folha de papel deve ser usada com cuidado. Se não houver gratidão pelas coisas, certamente passará por dificuldades."
-
-## Vinte e Oito
-
-Em tudo, o Reverendo observava a questão a partir do ponto de vista do "pensamento".
-
-Foi por volta da primavera de 1945.
-
-K-ko-san, que estava servindo em Atami, obteve a permissão do Reverendo para passar uma noite na casa de sua irmã em Tóquio.
-
-Naquela manhã, ela saiu da casa do Reverendo com o plano de resolver alguns assuntos na sucursal de Higashiyama pela manhã e, de lá, ir direto para a estação, a tempo de pegar o trem do meio-dia.
-
-E assim, estava cuidando das pequenas tarefas na sucursal.
-
-Enquanto ajudava no Johrei, K-ko-san percebeu que havia esquecido algo.
-
-Mas já não havia tempo para voltar e buscar.
-
-K-ko-san, que sempre era advertida pelo Reverendo para verificar se não esquecera nada, pensou que seria um problema se ele soubesse e, fingindo naturalidade, desceu as escadas.
-
-E, secretamente, telefonou para a casa do Reverendo e pediu a uma das pessoas que serviam lá que levasse o objeto até a sucursal.
-
-Naquele momento, a pessoa do outro lado da linha disse:
-
-"Justo agora estou saindo para um recado, então levo para você. É só um pequeno desvio no caminho."
-
-K-ko-san sentiu um alívio. (Assim está bom), pensou.
-
-E, novamente em segredo, voltou para o andar de cima e agiu como se nada tivesse acontecido.
-
-Pouco depois, ouviu-se o som da porta da frente se abrindo.
-
-K-ko-san, novamente com uma expressão impassível, desceu, recebeu o objeto esquecido e subiu as escadas em silêncio.
-
-O Reverendo, observando K-ko-san e suspeitando de algo, perguntou de forma inquisidora:
-
-"Quem veio agora? O que veio fazer?"
-
-Percebendo que não adiantaria tentar esconder, K-ko-san contou o que havia acontecido.
-
-E, com um tom de desculpa, disse:
-
-"Quando telefonei, a Sra. B, que estava justamente de saída para um recado, atendeu. Então pedi a ela que trouxesse." Ela enfatizou a parte "justamente de saída para um recado".
-
-Após um ou dois minutos de silêncio, o Reverendo disse:
-
-"Esquecer algo é inevitável. Pedir para que tragam também está certo. Mas por que você teve que acrescentar 'porque estava de saída para um recado'? Você entende por que isso é um problema?"
-
-De fato, embora parecesse um simples desvio, da casa do Reverendo até a sucursal era um caminho consideravelmente longo, que incluía uma subida íngreme, o que, na verdade, era bastante incômodo.
-
-(Foi por ter dito 'de passagem' que ele se irritou), pensou K-ko-san, encolhendo-se.
-
-O Reverendo continuou:
-
-"Isso não vem de um coração humildemente arrependido, mas sim do pensamento de querer parecer um pouco melhor aos olhos dos outros. Se você não tivesse acrescentado isso, teria sido muito mais humilde e belo. Pode parecer um detalhe pequeno, mas esse seu pensamento não é louvável. O pensamento de se valorizar, esse pensamento desagradável, eu quero removê-lo completamente de você. Entendeu?"
-
-"Sim. Entendi perfeitamente. Eu ainda sou muito falha", disse K-ko-san, curvando a cabeça.
-
-Para K-ko-san, o Reverendo, com uma voz gentil, disse:
-
-"Até se tornar uma alma de cristal, é preciso polir, polir, e assim se purificar. É preciso polir constantemente."
-
-## Vinte e Nove
-
-"Não se pode confiar nas pessoas."
-
-O Reverendo disse isso uma vez a um de seus discípulos de maior confiança.
-
-O discípulo fez uma expressão de surpresa.
-
-Vendo isso, o Reverendo continuou:
-
-"Não se espante. Um ano de convivência não é suficiente. É preciso conviver por uns três anos para conhecer alguém. E, mesmo assim, apenas no âmbito dessa convivência."
-
-"O que significa 'apenas no âmbito dessa convivência'?"
-
-"Por exemplo, uma esposa. Um homem convive com sua esposa por vinte anos. O limite de sua compreensão sobre ela se restringe à pessoa que ela foi como esposa durante esses vinte anos. Fora isso, ele não a conhece."
-
-De fato, o Reverendo não confiava nas pessoas facilmente.
-
-Certa vez, um chefe de sub-sede levou um assistente que trabalhava com afinco para conhecer o Reverendo.
-
-"Ele trabalha muito bem. Acredito que tem futuro", disse o chefe de sub-sede ao Reverendo, depois que o assistente se retirou.
-
-Então, o Reverendo, categoricamente, disse:
-
-"Ele não serve."
-
-O chefe de sub-sede, achando que era impossível, não se convenceu das palavras do Reverendo.
-
-Contudo, pouco tempo depois, aquele assistente abandonou a fé.
-
-"Fiquei realmente impressionado com a perspicácia do Reverendo", confessou o chefe de sub-sede.
-
-O Reverendo era rápido em avaliar as pessoas. E era ele quem dizia que "é preciso conviver por uns três anos...". Era um homem cauteloso.
-
-Por não compreenderem essa cautela, algumas pessoas o criticavam, dizendo que "ele acreditava em tudo o que lhe diziam".
-
-"É verdade que ele tinha um lado que confiava nas pessoas muito rapidamente. Mas, com aqueles olhos grandes, um único olhar seu devia ser capaz de desvendar o íntimo da maioria das pessoas. Portanto, em vez de dizer que ele era crédulo, seria mais correto dizer que ele observava rapidamente, com profundidade, e então confiava rapidamente, com profundidade."
-
-## Trinta
-
-Do pós-guerra, entre 1946 e 1947, a expansão da Igreja foi meteórica. Só a TENGOKUKAI registrava de mil a dois mil novos membros por mês. Pode-se dizer que foi a era da competição pela conversão.
-
-Sub-sedes regionais foram surgindo, aqui e ali, em sucessão. Como o Reverendo não conseguia dar conta de tudo sozinho, os dirigentes viajavam para ministrar os cursos de formação em seu lugar.
-
-O número de fiéis nas sub-sedes também aumentava vertiginosamente, e era comum os chefes de sub-sede trazerem novos membros à sede.
-
-Quando um novo membro lhe era apresentado pelo chefe de sub-sede, o Reverendo, na ausência deste, dizia discretamente ao recém-chegado:
-
-"Por favor, prestigie o seu mestre. Eu lhe peço."
-
-Devido a um erro na difusão, um certo chefe de sub-sede foi pedir desculpas ao Reverendo.
-
-O erro não fora sua responsabilidade, mas um erro era um erro.
-
-O chefe de sub-sede estava preparado para cometer haraquiri.
-
-Ao ouvir o relatório detalhado, o Reverendo grunhiu:
-
-"Humm."
-
-Ficou em silêncio por uns cinco minutos.
-
-O chefe de sub-sede, encolhido como uma tartaruga, aguardava a sentença, sem saber o que aconteceria.
-
-O Reverendo, finalmente, disse com calma:
-
-"Certo. Esse pecado não é seu."
-
-Nos dias de audiência com o Grande Mestre, os chefes de sub-sede se reuniam e faziam diversas perguntas sobre a fé.
-
-Por isso, na véspera, todos eles se consultavam sobre suas respectivas perguntas e, depois, relatavam o resultado ao Reverendo.
-
-Nessas ocasiões, o Reverendo sempre acrescentava uma ou duas de suas próprias perguntas às dos chefes de sub-sede.
-
-Eram assuntos que ele mesmo conhecia bem, mas sua intenção era que o Grande Mestre os explicasse aos chefes de sub-sede, para assim educá-los de forma mais forte e segura.
-
-Oito meses antes de falecer, o Reverendo advertiu os chefes de sub-sede:
-
-"Embora tenhamos uma história de quase vinte anos, devido à perseguição, concentramo-nos na área da cura. Portanto, desde que começamos a atuar como religiosos, não se passaram nem dois anos completos. Como religiosos, somos como bebês. Contudo, ao sermos intermediários do poder de Kannon, alcançamos este maravilhoso desenvolvimento. Somos respeitados por muitos fiéis. Mas seria um grande erro pensar que este poder é nosso. Somos apenas pessoas que entraram neste caminho um pouco antes dos fiéis em geral e, por isso, conhecemos o percurso com mais detalhes. Somos, por assim dizer, guias. Apenas conhecer o caminho não nos torna grandes. Não devemos esquecer que estamos em constante aprimoramento."
-
-## Trinta e Um
-
-Economia do "pão-duro e esbanjador" —
-
-O Reverendo costumava dizer isso.
-
-Para Deus, gaste com prodigalidade.
-
-Em contrapartida, para si mesmo, seja pão-duro.
-
-O Reverendo seguiu essa "economia Nakajima" por toda a sua vida.
-
-As doações dos fiéis são todas de Deus. Portanto, devem ser usadas apenas para a Obra Divina.
-
-Com essa convicção, o Reverendo sempre dizia:
-
-"Não se deve gastar levianamente em assuntos pessoais. Mesmo que seus pais peçam, não há necessidade de lhes dar esse tipo de dinheiro."
-
-Não se envaideça.
-
-Não se ire.
-
-Não se precipite —
-
-O Reverendo também costumava dizer isso.
-
-"Não se envaideça. Quanto mais você se envaidece, mais as pessoas se afastam. Quanto mais você se ira, mais Deus se afasta. E, quanto mais você se precipita, mais você perde o controle de si mesmo."
-
-Os discípulos chamavam isso de os "três 'nãos' do Reverendo".
-
-Deus não descansa —
-
-O Reverendo também costumava dizer isso.
-
-Como o Reverendo trabalhava excessivamente, um de seus discípulos lhe disse:
-
-"Por que não descansa um pouco?"
-
-Então, o Reverendo respondeu:
-
-"Deus não conhece o descanso", e continuou a trabalhar.
-
-O ser humano está em aprimoramento até a morte —
-
-O Reverendo também costumava dizer isso.
-
-"Fui ensinado pelo Grande Mestre que o ser humano, nascendo e morrendo, possui uma vida eterna. Se realmente compreendermos isso, é algo extraordinário. O que aprimoramos hoje se incorpora a nós e, ao irmos para o Mundo Espiritual, teremos evoluído. E levaremos essa virtude para o próximo mundo, onde continuaremos nosso aprimoramento. E, ao passarmos para o mundo seguinte, teremos evoluído ainda mais. Sabe, às vezes eu penso em como serei daqui a dez mil anos, e é algo que me enche de alegria."
-
-Você me dá a sua vida? —
-
-O Reverendo costumava dizer isso a quem desejava ingressar na fé.
-
-O Reverendo não aceitava como discípulo quem se apegava à vida. Como alguém que ama a si mesmo mais do que a Deus poderia salvar a humanidade?
-
-"Espírito ou carne?" — O Reverendo questionava rigorosamente a si mesmo e aos outros. E não aceitava como fiel quem respondesse "carne".
-
-"Dê-me seus cinquenta ou sessenta anos de vida. Em troca, eu lhe darei a vida eterna", dizia o Reverendo.
-
-"De quem é este dinheiro? É de Deus. Mantenha as notas alinhadas." — dizia o Reverendo.
-
-Anos mais tarde, uma jovem que cuidava da cozinha da casa do Reverendo, por não conseguir fechar o caixa por uma diferença de cinquenta sen, tirou uma moeda de cinquenta sen de sua própria carteira para cobrir o buraco.
-
-Quando o fato veio à tona e a jovem disse: "Eu completei o valor com meu dinheiro", o Reverendo se irritou.
-
-"Você fala em 'seu dinheiro', 'seu dinheiro', mas até o seu dinheiro pertence a Deus. O problema não é o erro no cálculo por descuido, mas sim a mentalidade de que, se o dinheiro falta, basta tirar da sua própria carteira para resolver. Você pensa que basta acertar as contas e tudo está resolvido. É essa mentalidade que está errada."
-
-De fato, o Reverendo era meticuloso.
-
-Contudo, não era bom com contas. Na verdade, seria mais correto dizer que era ruim. Mas, embora fosse ruim, não era do tipo que tolerava o desleixo dos outros.
-
-Por isso, depois disso, outra jovem que trabalhava na cozinha do Reverendo, por não conseguir administrar com o dinheiro que recebia, passou por momentos de desespero várias vezes. Ela relembra aquela época assim:
-
-"Eu não podia tirar dinheiro da minha própria carteira, e se dissesse ao Reverendo que faltava, ele me repreenderia, perguntando como eu estava usando o dinheiro de Deus. Cheguei a pensar seriamente em fazer sacos de jornal velho para juntar algum dinheiro."
-
-O desleixo era absolutamente imperdoável.
-
-Tudo tinha que ser feito de forma correta.
-
-Essa era a atitude do Reverendo em relação ao dinheiro.
-
-Por isso, embora ele mesmo fosse descuidado com suas roupas e sua alimentação, e não se importasse em saber quanto dinheiro entrava ou saía, não suportava ver a falta de sensibilidade dos outros em relação ao dinheiro.
-
-Especialmente depois de se tornar um religioso, com a convicção de que o dinheiro pertencia a Deus, ele não permitia que um único centavo fosse tratado com descaso.
-
-O Reverendo disse em uma reunião de dirigentes:
-
-"Quem prega os ensinamentos deve ter sempre um coração puro. Contudo, quando se usa a cabeça para as finanças e para a administração do dia a dia, o coração, sem que se perceba, vai se turvando. Dito isso, não se pode negligenciar essas questões. Por isso, formei uma esposa confiável e um assistente de contabilidade sincero e competente, a quem confiei tudo."
-
-O Reverendo manteve essa convicção até o fim.
-
-Até na forma de acrescentar carvão.
-
-Todas as coisas são dádivas de Deus. O erro está em pensar que são suas, que foram obtidas por sua própria força. É preciso conhecer o verdadeiro valor das coisas e não as desperdiçar. É tolice acrescentar a mesma quantidade de carvão em dias frios e em dias quentes.
-
-É preciso ter atenção a esses pequenos detalhes. Quem consegue fazer isso, pode-se dizer que adquiriu uma verdadeira fé.
-
-Sobre a questão da ordem.
-
-Certa vez, o Reverendo disse severamente a seus discípulos:
-
-"Há quem, ao dormir, coloque as roupas que vestia ao lado do travesseiro. Mas calças e meias são peças que se usam na parte de baixo do corpo. Quem coloca tais coisas ao lado do travesseiro não pode se tornar uma pessoa de valor."
-
-Outra vez, em uma viagem, quando o Reverendo ia lavar o rosto, viu que a bacia estava ao lado do lavatório do banheiro (que, por ser de estilo ocidental, era extremamente limpo).
-
-O Reverendo chamou um assistente e o advertiu com grande severidade.
-
-"Quem você pensa que eu sou? Há décadas, desde que entrei na fé, venho me esforçando para reduzir ao máximo as máculas de minha alma. E você quer que eu lave o rosto nesta bacia? Minha alma ficará turva. Troque-a imediatamente."
-
-## Trinta e Dois
-
-Embora ainda não fosse uma religião formal, o Reverendo mandou imprimir o "Zengen Sanshi" (Hinos de Boas Palavras) e distribuiu uma cópia a cada discípulo.
-
-A guerra terminara há poucos anos. Um grande desassossego pairava no coração das pessoas. A filosofia do desespero, com arrogância, adentrava a mente do povo. O número de pessoas que buscavam a morte aumentou.
-
-Nishikigaura, em Atami, um local de grande beleza cênica, tornou-se, sem que se percebesse, um famoso ponto de suicídio. Muitos jovens, adultos e até idosos, diariamente, lançavam-se do penhasco em uma jornada para o reino da morte. Homens e mulheres se matavam.
-
-O Reverendo lamentava profundamente essa situação. Havia momentos em que, ao ler a pequena notícia no rodapé do jornal "Suicídio por afogamento em Nishikigaura", ele mergulhava em pensamentos profundos. Havia momentos em que seus olhos se enchiam de lágrimas.
-
-O Reverendo era, por natureza, um homem sentimental. Era comum que se emocionasse assistindo a um filme. Para ele, o fato de um ser humano tirar a própria vida, ou ter sido levado a isso, era algo insuportável.
-
-Ademais, os espíritos dessas pessoas, sem conseguirem chegar ao seu destino final, vagavam na fronteira entre este e o outro mundo. E, de Nishi-ashikawa, em Izusan, onde o Reverendo morava, Nishikigaura ficava a um tiro de pedra. Sobre aquelas águas escuras, os espíritos dos mortos soluçavam.
-
-O Reverendo sentiu que era seu dever, com suas próprias mãos, realizar uma cerimônia em memória deles.
-
-Certo dia, o Reverendo, acompanhado de alguns discípulos, embarcou em um pequeno barco. Mesmo quando as ondas brancas quebravam nas rochas sob o penhasco, ao se afastar da costa, o mar de Atami era calmo. A ilha de Hatsushima flutuava sobre o mar sereno, como se dormisse.
-
-A cerimônia do Reverendo e seus discípulos começou, e era hora de entoar o "Zengen Sanshi".
-
-Com as mãos em prece, o Reverendo começou a recitar em voz alta e clara.
-
-Contudo, os discípulos apenas moviam os lábios. Entre eles, apenas um sabia de cor; os outros ainda não haviam memorizado o "Zengen Sanshi". Sem alternativa, apenas moviam a boca.
-
-Mais tarde, o Reverendo, com um grito retumbante, repreendeu seus discípulos:
-
-"Eu não lhes dei o 'Zengen Sanshi' por capricho ou por diversão. Eu me dei ao trabalho de imprimir e lhes entregar, e vocês não o decoraram. O que vocês pensam que é o 'Zengen Sanshi'?"
-
-Os discípulos, de uma só vez, baixaram a cabeça e se prostraram no fundo do barco.
-
-Um fiel que foi ver o Reverendo cerca de vinte dias antes de sua morte, relata:
-
-"Quando o visitei, o Reverendo desceu do segundo andar e, de pé na entrada, disse: 'Você nunca chega ao ponto em que eu o repreendo de verdade, não é?' Quando perguntei por quê, ele, sem um esboço de sorriso, respondeu: 'É que, quando você é repreendido, você foge.' Isso foi no meu quarto ano de fé."
-
-"A repreensão é luz."
-
-O Reverendo costumava dizer isso.
-
-Eu repreendo porque acredito que será útil. Se achar que não adianta, não repreendo.
-
-Esse era o verdadeiro sentimento do Reverendo.
-
-Inúmeros discípulos e fiéis foram repreendidos pelo Reverendo. Alguns foram tão severamente admoestados que tremeram como se um raio lhes tivesse caído sobre a cabeça. Outros foram repreendidos de forma branda e suave, o que os deixou ainda mais assustados.
-
-Contudo, as pessoas repreendidas diziam, mais tarde:
-
-"Realmente, era diferente. Havia peso em sua forma de repreender."
-
-Certa pessoa cometeu um erro.
-
-O Reverendo, muito irritado, disse:
-
-"Como você espera servir como ministro (religioso) agindo assim? Devolva suas credenciais."
-
-Contudo, logo em seguida, sorriu e disse:
-
-"Bem, vou tolerar por uma vez."
-
-É repreendido.
-
-Dá uma desculpa.
-
-É repreendido novamente.
-
-Dá outra desculpa.
-
-É repreendido mais uma vez.
-
-Então, cala-se.
-
-O Reverendo, então, diz com calma:
-
-"Entendeu?"
-
-Havia um jovem que acabara de se tornar ministro.
-
-Quando saía para a difusão e não obtinha resultados, ficava apreensivo, pensando que seria repreendido pelo Reverendo. Ao ver seus superiores serem advertidos por falta de sinceridade e esforço, ele se encolhia, certo de que também seria repreendido.
-
-Contudo, o Reverendo não repreendeu aquele jovem.
-
-(Você é um ministro recém-formado, afinal), o jovem compreendeu o que se passava na mente do Reverendo.
-
-O jovem, ao contrário, sentiu-se envergonhado.
-
-"Eu desejava me tornar logo alguém que o Reverendo repreendesse individualmente", confessou ele mais tarde.
-
-O Reverendo só repreendia quem valia a pena.
-
-"Alguém que, mesmo chutado e humilhado, não foge" — o Reverendo costumava dizer isso, e só repreendia pessoas assim. Em outras palavras, ele repreendia porque confiava na pessoa.
-
-"Quando via outra pessoa sendo repreendida e ficava com uma expressão de quem não tinha nada a ver com aquilo, ele me repreendia, dizendo: 'Estou falando com você'", disse um discípulo.
-
-Há também um discípulo que diz ter sentido algo semelhante a orgulho após ser repreendido.
-
-"Depois de ser repreendido pelo Reverendo, quando contava aos meus colegas, todos ouviam com um ar animado. Fui repreendido, sim, mas fui repreendido pelo Reverendo, e o Reverendo não repreende quem não vale a pena — esse sentimento de orgulho que eu tinha no peito fazia com que a conversa não ficasse nem um pouco pesada. Enfim, o Reverendo era uma pessoa verdadeiramente extraordinária", diz essa pessoa.
-
-## Trinta e Três
-
-Uma jovem que chegara para servir pela primeira vez, esperando ser imediatamente designada para ajudar no Johrei, foi, para sua surpresa, levada a uma cozinha mal iluminada, onde lhe disseram: "Seu local de aprimoramento é aqui."
-
-A jovem encolheu-se sob o olhar penetrante do Reverendo. E, sem querer, murmurou:
-
-(Ah, então é aqui que vou me aprimorar...)
-
-Contudo, três meses depois, quando ele lhe disse com gentileza: "Você já se acostumou bastante, não é?", a jovem, mais do que feliz, ficou surpresa ao ver os grandes olhos do Reverendo marejados.
-
-A penumbra da cozinha já não lhe parecia escura.
-
-E não foi apenas com essa jovem. A todos os que se entregavam ao seu cuidado, ele impunha rigorosamente o trabalho humilde.
-
-Limpeza, lavanderia, recados...
-
-Forçadas a realizar tarefas a que não estavam acostumadas, as jovens cometiam erros constantes e eram advertidas diariamente.
-
-"Com modos de 'mocinha' ou 'rapazinho', não se pode servir à Obra Divina", dizia ele, citando frequentemente uma passagem dos escritos sagrados da Oomoto-kyo.
-
-A disciplina era rigorosa. Não havia clemência.
-
-Contudo, após alguns meses de prática, quando via que haviam atingido um nível satisfatório, o Reverendo sempre as elogiava com gentileza.
-
-"Você também foi muito perseverante. Cheguei a duvidar de quanto tempo aguentaria. O ser humano não sabe o que o destino lhe reserva, por isso é preciso se tornar alguém capaz de fazer qualquer coisa, em qualquer situação. Senti pena de você, mas até agora a mantive nos trabalhos mais humildes. Ao realizar os trabalhos mais humildes, quando você mesma tiver que dar ordens, será capaz de compreender o sofrimento dos outros. Há uma grande diferença entre poder fazer algo, mas não precisar e receber com gratidão o que os outros fazem por você, e, por outro lado, não conseguir fazer e mandar os outros fazerem. É preciso saber disso. Mas você realmente se esforçou muito. Obrigado."
-
-E também dizia:
-
-"Se o ser humano estiver sempre preparado para o pior, não importa o que aconteça, em qualquer circunstância, ele permanecerá inabalável. A vida nem sempre é favorável, por isso essa preparação é importante. Afinal, não nascemos nus? Se pensarmos que nossa vida, que não existia, nos foi salva, nada do que fizermos pela Obra Divina será suficiente. Não há um ponto em que se possa dizer que já se fez o bastante."
-
-O Reverendo era incapaz de fazer elogios. Não é que pudesse, mas não o fizesse; ele simplesmente não conseguia. Era contra a sua natureza.
-
-Por isso, as moças jovens, no início, inevitavelmente o temiam. Viviam apreensivas.
-
-Havia até algumas que, pensando que é melhor não provocar quem está quieto, o observavam de longe.
-
-Uma pessoa disse:
-
-"Eu o achava assustador e o detestava."
-
-Olhos arregalados.
-
-Um olhar tão forte e brilhante que, quando se estava com a consciência pesada, era impossível encará-lo de frente.
-
-Contudo, o Reverendo era, na verdade, gentil.
-
-Às vezes, ele entrava silenciosamente na cozinha. E ficava ali, de pé, em silêncio.
-
-As pessoas que trabalhavam lá não o percebiam.
-
-O Reverendo observava atentamente o que elas faziam.
-
-Certa vez, uma jovem, com as bochechas coradas, esforçava-se para levantar uma grande peneira cheia de arroz glutinoso.
-
-O Reverendo, que a observava por trás, no momento exato de seu esforço, gritou para dar força:
-
-"Epa!"
-
-A peneira foi levantada.
-
-A jovem, ao ver o Reverendo de pé atrás dela, sentiu uma alegria que a fez querer chorar.
-
-"É nesses momentos que se revela a gentileza do Reverendo", disse essa pessoa mais tarde.
-
-## Trinta e Quatro
-
-Quando se tratava da difusão, o Reverendo se entregava de corpo e alma.
-
-Sempre tinha um mapa do Japão à mão e estudava incansavelmente as regiões para expandir a difusão.
-
-E utilizava os jovens de acordo com seus talentos. Não importava se tinham ou não estudos, seu passado ou sua inteligência. Se via que era uma pessoa sincera, o Reverendo a promovia e a utilizava sem hesitação.
-
-Certa vez, um chefe de sub-sede, por ambição pessoal, incitou os jovens fiéis e causou alguns problemas.
-
-Um assistente, não podendo mais tolerar a situação, advertiu o chefe de sub-sede.
-
-Então, o chefe de sub-sede, em retaliação, começou a falar mal do assistente para os jovens fiéis.
-
-Por fim, o assistente foi à sede e relatou o ocorrido ao Reverendo.
-
-O Reverendo disse:
-
-"Deixe-o fazer o que quiser. Mas, em um ambiente assim, será difícil para você trabalhar, então venha para cá."
-
-Houve uma ocasião em que o Reverendo agiu de forma a criar um atrito entre dois discípulos.
-
-Contudo, isso fazia parte de um plano de longo alcance. Para unir verdadeiramente duas pessoas que ainda não estavam firmemente ligadas, era preciso, uma vez, separá-las de forma decisiva. Era o que o Reverendo pensava.
-
-Pouco tempo depois, aqueles discípulos se uniram firmemente. E a expansão da Igreja também progrediu.
-
-"Na época, eu pensei que o Reverendo estava agindo de forma estranha e, à minha maneira, tentei investigar. Mas, no fundo de suas ações, não encontrei o menor traço de malícia", disse essa pessoa mais tarde.
-
-Para unir, primeiro separar. Romper e expandir, romper e expandir — o Reverendo também utilizava esse método.
-
-Nos dias de cerimônia da Miroku-kai, o Reverendo sentava-se na última fila, atrás da multidão de fiéis, e ouvia atentamente suas perguntas. Embora a Miroku-kai fosse presidida pelo Reverendo Shibui e não fosse sua vez de falar, ele queria ouvir as conversas como uma lição e observar a atmosfera. Tinha esse tipo de zelo.
-
-"Uma pessoa alta, de quimono, chegava discretamente e sentava-se atrás dos fiéis. E ouvia as perguntas de todos. Depois de um tempo, essa pessoa desaparecia. Era o Reverendo", contou uma pessoa que era fiel da Miroku-kai na época.
-
-As reuniões sobre a difusão frequentemente varavam a noite. Mesmo quando se pensava que ele iria parar, o Reverendo continuava a falar sem parar. Os discípulos ficavam exaustos.
-
-"Na difusão, existe apenas o presente. Apenas o agora, o momento imediato. Não se pode atrasar. Na difusão, não existe amanhã."
-
-Era o que o Reverendo pensava.
-
-Certa vez, em uma celebração, cerca de vinte pessoas estavam sentadas na sala. A refeição já estava servida.
-
-Nesse momento, um jovem discípulo entrou apressadamente.
-
-"Desculpem o atraso...", disse o jovem, coçando a cabeça.
-
-Então, o Reverendo, com delicadeza, disse:
-
-"Depois que o trem parte, ninguém mais pode embarcar."
-
-O Reverendo detestava atrasos. "Atrasar-se é o mesmo que mentir", costumava dizer.
-
-E, para a grande causa da difusão, ele dizia que não havia outro dia senão o hoje. Sempre dizia para não se atrasarem.
-
-## Trinta e Cinco
-
-O Reverendo gostava de caminhar.
-
-Ele explorava lugares agradáveis com a intenção de, mais tarde, levar seus discípulos para conhecê-los, e por isso caminhava com frequência. Percorria seus caminhos favoritos inúmeras vezes e visitava seus lugares preferidos repetidamente.
-
-Após as cerimônias em Hakone, às vezes voltava a pé pelo vale de Kiga, em vez de usar transporte. Nessas ocasiões, não estava sozinho, mas acompanhado por assistentes.
-
-O Reverendo mantinha seus nervos constantemente em tensão. Havia momentos em que parecia uma corda de instrumento musical tão esticada que se romperia ao menor toque, uma visão que causava aflição.
-
-"O único lugar onde consigo realmente relaxar é dentro de um trem", costumava dizer.
-
-Contudo, não era apenas no trem. Em meio à natureza, o Reverendo também conseguia relaxar a tensão de seus nervos, e era visível sua alegria e serenidade.
-
-Gostava especialmente de flores. Observava atentamente as flores que encontrava pelo caminho, fossem de árvores ou de plantas rasteiras. Nunca passava por elas de forma indiferente. Mesmo as flores que pareciam comuns, ele as observava com o olhar de um poeta.
-
-"A beleza das cerejeiras de Atami — foi o Reverendo quem me explicou e me fez apreciá-la de uma nova forma. Até então, eu pensava que as cerejeiras eram todas iguais em qualquer lugar", conta um discípulo.
-
-"As flores são um dos símbolos do Paraíso. Se os cômodos da casa, e até mesmo o lavatório do banheiro, estivessem adornados com flores, quão belo e harmonioso seria. Nenhuma casa se torna um paraíso da noite para o dia, mas com essa atitude, é possível se aproximar gradualmente de um lar paradisíaco. Como uma forma de universalizar a beleza, é necessária a popularização das flores, de forma simples e que não exija muito custo ou tempo. Existe também o aspecto da política nacional de exportação de flores de alta qualidade, aproveitando o clima e as características do Japão e de seu povo. Mas, antes de mais nada, desde que não prejudique a produção de alimentos, não deveríamos transformar cada centímetro de terra em um canteiro de flores, para adornar nossos lares com flores acessíveis e baratas?"
-
-Três anos após o fim da guerra, em uma época em que os corações ainda estavam inquietos, o Reverendo falava frequentemente sobre isso aos fiéis.
-
-No outono de 1945, o Reverendo, acompanhado do Grande Mestre e de um grupo de vinte e sete pessoas, foi ao Jukkoku Toge.
-
-O Grande Mestre vestia um monpe (calças largas de trabalho) com a barra amarrada. Os demais membros do grupo também estavam vestidos de forma apropriada. A ida foi de ônibus.
-
-Na volta, todos desceram a pé até Atami. Naquela ocasião, o Grande Mestre disse:
-
-"Sim, este lugar é bom", e decidiu comprar o terreno onde hoje se localiza o Zuiun-kyo.
-
-Não apenas nessa ocasião, mas sempre que o tempo permitia, o Reverendo acompanhava o Grande Mestre em suas buscas por terrenos.
-
-Mesmo sem esse objetivo, como gostava de caminhar, aproveitava qualquer tempo livre para fazê-lo.
-
-## Trinta e Seis
-
-O Reverendo não era uma pessoa de fácil acesso.
-
-Diante de desconhecidos, às vezes tinha uma expressão que parecia perguntar "quem é você, afinal?".
-
-Além disso, era desajeitado no trato com as pessoas. Mesmo com alguém que mal conhecia, iniciava uma discussão logo de cara. O interlocutor não se sentia à vontade.
-
-Certa vez, uma pessoa que encontrou o Reverendo pela primeira vez discutiu com ele. Nesses casos, uma pessoa que se intitula "mestre" geralmente lida com a situação de forma amena, dizendo "então, volte outro dia" e dispensando a pessoa com gentileza. Mas o Reverendo não era capaz de tal artifício. Ele confrontou diretamente M-san, um interlocutor que via pela primeira vez.
-
-M-san também não era homem de recuar. A discussão foi se acalorando e, por fim, o tom do Reverendo tornou-se beligerante. M-san não se deixou intimidar e disse tudo o que queria. A discussão transformou-se em algo que não se sabia se era um debate ou uma briga.
-
-(Ele me trata como um bebê, um homem de quarenta anos!), pensou M-san, e foi embora furioso, decidido a nunca mais vê-lo.
-
-Contudo, no dia seguinte, por algum motivo, sentiu vontade de vê-lo novamente, e até uma certa nostalgia, e foi visitar o Reverendo.
-
-"Você não sabe de nada, não é?", disse o Reverendo.
-
-E, por duas horas inteiras, dissertou para M-san sobre Deus. Seu rosto estava radiante de fervor. Sua atitude era de total imparcialidade, como se o episódio do dia anterior não existisse mais em seu coração.
-
-M-san, com isso, gostou imensamente do Reverendo. Esse sentimento logo se transformou em respeito, depois em admiração, e ele se tornou um fiel. Mais tarde, tornou-se chefe de sub-sede.
-
-O Reverendo era honesto. Seria mais correto dizer, honesto demais.
-
-Certa pessoa foi levada pelo Reverendo à presença do Grande Mestre. Essa pessoa havia acabado de começar a praticar o Johrei.
-
-Antes disso, o Reverendo lhe dissera: "Hoje, peça o que quiser ao Grande Mestre."
-
-Então, a pessoa relatou apenas os casos em que o Johrei não surtira efeito e perguntou: "Haverá algo de errado em minha prática?"
-
-O Grande Mestre dissertou sobre o assunto. O Reverendo, ao lado, com uma expressão amarga, pensava: (Mas que absurdo, só relatar os fracassos).
-
-Mais tarde, o Reverendo disse àquela pessoa:
-
-"Por que você só relatou aquilo?"
-
-"Mas o senhor disse que eu poderia pedir o que quisesse, sem cerimônia, então eu o fiz."
-
-"Você acha que basta ser honesto e dizer tudo? Hoje você não vai embora. Venha para minha casa. Tenho algo a lhe dizer."
-
-Dizendo isso, o Reverendo levou a pessoa para sua casa e passou a noite toda lhe dando um sermão.
-
-"Basta ser grato pelo que foi curado. Deus vê tudo. Não há necessidade de se queixar. Agradeça apenas pelo que foi curado."
-
-O Reverendo tinha esse lado honesto. Uma honestidade que era quase adorável. Talvez se pudesse dizer, infantil. Embora dissesse aos outros "você acha que basta ser sempre honesto?", ele mesmo era sempre honesto, o que lhe trouxe tanto benefícios quanto prejuízos.
-
-Seu comportamento rude com desconhecidos não era uma postura deliberada para se impor. Era simplesmente porque, se não se interessava, agia naturalmente daquela forma.
-
-Um jovem assistente, após ser repreendido pelo Reverendo, disse a um colega: "Fiquei feliz por ter sido repreendido pelo Reverendo."
-
-Ao ouvir isso, o Reverendo, com honestidade, disse:
-
-"Um boi, quando é açoitado, sente um certo prazer. Mas isso é diferente de felicidade. Dizer que ficou feliz por ser repreendido é estranho. Não é genuíno. Se dissesse que se sentiu aliviado depois, eu entenderia, mas feliz... não sei."
-
-Poucas pessoas repreendiam os outros de forma tão desinibida quanto o Reverendo. No entanto, ele conhecia bem a psicologia de quem era repreendido.
-
-Sabia, e repreendia sem piedade. Às vezes, repreendia a ponto de fazer os olhos da pessoa saltarem.
-
-Apenas cerca de um ano antes de sua morte, ele passou a repreender menos.
-
-"Foi cerca de um ano antes de sua ascensão que ele parou de repreender quem dormia durante as palestras", relembra um discípulo.
-
-Enfim, o Reverendo era um homem honesto.
-
-Uma pessoa incapaz de mentir para os outros e para si mesma.
-
-## Trinta e Sete
-
-O Reverendo era frequentemente repreendido pelo Grande Mestre, assim como ele repreendia os outros.
-
-Certa vez, o Reverendo e outros dirigentes estavam reunidos em Higashiyama-so, discutindo um assunto importante com o Grande Mestre.
-
-Naquele momento, chegou a notícia de um incêndio perto da casa do Reverendo.
-
-"Nakajima, volte para casa imediatamente", disse o Grande Mestre.
-
-Dizem que os maiores medos são terremoto, raio, incêndio e pai. O Reverendo tinha um pavor acima do normal de desastres naturais e provocados pelo homem. Costumava insistir para que instalassem para-raios.
-
-Por isso, ao saber do incêndio na vizinhança, o Reverendo voltou correndo para casa.
-
-Felizmente, o fogo foi logo extinto e a casa não sofreu danos.
-
-Aliviado, o Reverendo repreendeu a pessoa que cuidava da casa por não o ter avisado imediatamente do incêndio nas proximidades.
-
-"Eu soube do incêndio por outra pessoa e voltei. Você, que estava encarregado da casa, por que não me telefonou? Como pode agir assim?"
-
-O tom do Reverendo era duro.
-
-Contudo, o Reverendo também se esqueceu de avisar imediatamente ao Grande Mestre que sua casa estava em segurança. A casa de ferreiro, espeto de pau.
-
-Por causa disso, desta vez, foi o Reverendo quem foi repreendido pelo Grande Mestre.
-
-"Eu estava muito preocupado. Foi uma sorte não ter queimado, mas por que não me avisou imediatamente?"
-
-Como consequência, por algum tempo, os discípulos ouviram do Reverendo:
-
-"Vocês são lentos. Basicamente, a culpa é de vocês serem lentos."
-
-Contudo, o Reverendo era uma pessoa que sabia se desculpar com sinceridade.
-
-Após ser repreendido pelo Grande Mestre por um certo motivo e ter se desculpado, ele, ao retornar, desculpou-se novamente com seus discípulos.
-
-"Eu estava errado."
-
-Um jovem estava hospedado na casa do Reverendo, recebendo seus ensinamentos.
-
-Na véspera de sua partida, o Reverendo o chamou e disse:
-
-"Parece que algo o está incomodando. Por que não me diz diretamente?"
-
-"É por este e este motivo. Por isso, permaneci em silêncio."
-
-"Entendo. Nesse caso, eu estava errado", disse o Reverendo, desculpando-se com sinceridade.
-
-## Trinta e Oito
-
-O Reverendo era um homem de formalidades.
-
-Embora tivesse um temperamento passional, a ponto de ter perfurado a própria cabeça com uma agulha de tatame em um acesso de irritação, ele mantinha as formalidades. Era uma pessoa que se lançava de corpo e alma, mas não era capaz, nem pretendia, agir de forma desregrada. Sempre se lembrava de manter um certo grau de dignidade.
-
-Por exemplo, ao curar um doente com Johrei, o Reverendo, em seguida, ia invariavelmente agradecer ao Grande Mestre.
-
-Era um dia de cerimônia em Higashiyama-so.
-
-O Reverendo, diante do Grande Mestre, disse: "Agradeço por ter salvo Y-san", e as lágrimas começaram a rolar por seu rosto.
-
-O Grande Mestre, olhando para um homem sentado atrás, perguntou: "M-san, você também se curou?"
-
-Naquele momento, o Reverendo, junto com M-san, curvou a cabeça e agradeceu do fundo do coração. As lágrimas ainda brilhavam em suas bochechas.
-
-Quando o Grande Mestre vestia seda, o Reverendo vestia algodão.
-
-"Se o Grande Mestre vestisse algodão, eu vestiria papel", dizia o Reverendo.
-
-Isso também fazia parte das "formalidades" do Reverendo.
-
-A máxima "Deus é ordem" era, para o Reverendo, uma formalidade solene.
-
-Por isso, ele era extremamente rigoroso com os relatórios sobre a difusão.
-
-Certa vez, um chefe de sub-sede foi convidado para ser padrinho de um casamento.
-
-Como precisava ir à cerimônia naquele dia, ele pediu a um assistente que entregasse o relatório da difusão e saiu.
-
-O assistente entregou o relatório ao Reverendo, conforme lhe fora ordenado, mas isso não o agradou.
-
-No dia seguinte, quando o chefe de sub-sede foi procurá-lo, o Reverendo estava furioso.
-
-"A partir de então, decidi não ser mais padrinho de casamento. Se o relatório for negligenciado por causa disso, serei novamente repreendido pelo Reverendo. Enfim, o Reverendo se irritava se as formalidades não fossem cumpridas à risca. Sendo assim, ele próprio era sempre formal. Pelo menos, quando vestia o traje cerimonial, o fazia corretamente", disse o chefe de sub-sede, com uma expressão de quem aprendera a lição.
-
-Ser formal significa, em outras palavras, detestar a ambiguidade.
-
-Quando o coração de alguém era ambíguo, ninguém conseguia encarar o Reverendo de frente. Seus grandes olhos eram assustadores.
-
-Ninguém se sentia inclinado a mentir para o Reverendo, mas, mais do que isso, ninguém conseguia mentir. Naturalmente, tornavam-se honestos.
-
-O Reverendo também não mentia. Na verdade, mesmo que quisesse, não conseguiria. Era honesto como uma criança, de uma honestidade transparente.
-
-"Coloque-se no lugar do outro."
-
-O Reverendo costumava dizer isso.
-
-Era um dia de cerimônia em Hakone. E chovia.
-
-O jovem assistente B-san, ao sair da sede em Atami, pegou emprestado o guarda-chuva de alguém.
-
-Ao final de seus afazeres, no caminho de volta, percebeu que no guarda-chuva que segurava estava escrito "Nakajima".
-
-(Ah! É o guarda-chuva do Reverendo. Eu o coloquei no suporte para não me enganar, mas que erro foi esse? Que problema. Mas não fui eu quem errou. Alguém errou.)
-
-B-san disse isso a si mesmo.
-
-E, com o guarda-chuva, voltou para Atami.
-
-O Reverendo, que voltou mais tarde, disse que, como seu guarda-chuva não estava no suporte, pegou o de outra pessoa emprestado.
-
-B-san, encolhendo os ombros, desculpou-se:
-
-"Fui eu quem pegou o guarda-chuva errado. Sinto muito."
-
-Então, o Reverendo disse: "Você não tem sinceridade", e entrou.
-
-(Não tenho sinceridade? O que isso significa?)
-
-B-san refletiu bastante. Mas não conseguiu compreender bem o significado.
-
-Pensou por cerca de um mês. E, finalmente, entendeu.
-
-"Por eu ter pego o guarda-chuva errado, fiz o Reverendo perder tempo procurando o seu. O tempo do Reverendo é precioso, é, por assim dizer, o tempo de Deus. Sabendo disso, eu usei o guarda-chuva errado e voltei de Hakone para Atami. Quando percebi o erro, por que não entreguei o guarda-chuva ao Reverendo ainda em Hakone? Senti vergonha de minha falta de consideração. Fiz o Reverendo perder o precioso tempo de Deus... Ah, foi então que percebi o que significava 'não ter sinceridade'", disse B-san.
-
-E acrescentou:
-
-"O Reverendo tinha o hábito de não explicar as coisas na hora, mas de deixar que a pessoa refletisse depois."
-
-O Reverendo fala diante de uma multidão de fiéis.
-
-E cada um dos fiéis sente que aquele ensinamento é dirigido especialmente a ele.
-
-Isso também se deve, provavelmente, ao fato de o Reverendo ser alguém que "se colocava no lugar do outro".
-
-## Trinta e Nove
-
-"Eu formo pessoas."
-
-Essa era a convicção do Reverendo.
-
-O Reverendo ensinava o Caminho com todas as suas forças, a qualquer pessoa, em qualquer ocasião.
-
-Isso nos lembra a história de Yoshida Shoin, que, preso em sua cela, ensinava com fervor o Caminho aos guardas do outro lado das grades.
-
-E, ao ensinar, o Reverendo perdia a noção do tempo.
-
-"A verdadeira conversa começa agora", dizia ele. Ao olhar no relógio, era meia-noite. Isso acontecia com frequência.
-
-Por isso, não era raro que as conversas terminassem às três ou quatro da manhã. Se era para ensinar, ensinava até o fim. Por causa de sua dedicação intensa, às vezes era mal compreendido.
-
-Houve uma vez em que reuniu os discípulos e lhes ensinou por três dias e três noites, sem descanso.
-
-Durante o dia, corria de um lado para o outro, atarefado. Ao terminar suas tarefas, começava a falar. E falava a noite toda, sem parar, até que os primeiros raios de sol penetrassem pelas frestas das persianas.
-
-Os discípulos, sem exceção, ficavam exaustos. O Reverendo, porém, mantinha uma expressão serena.
-
-Houve uma proposta de casamento para certa pessoa. Ela estava em dúvida se aceitava ou não.
-
-Então, o intermediário disse:
-
-"A moça trabalhou por um ano na casa do Reverendo Nakajima."
-
-Com essa única frase, a pessoa decidiu se casar com a moça.
-
-"Se ela trabalhou por um ano na casa do Reverendo, posso me casar com ela sem restrições", disse essa pessoa mais tarde a um outro fiel.
-
-"Na casa do Reverendo, as pessoas mudam. O Reverendo era um mestre na arte de transformar o ser humano", disse outra pessoa.
-
-De fato, o Reverendo nunca falava de forma vaga. Nem lia de forma vaga.
-
-Em tudo, era sério e dedicado.
-
-Com esse espírito e essa paixão, ele foi formando pessoas.
-
-Contudo, o Reverendo não era, de forma alguma, eloquente. Na verdade, era até um pouco prolixo. No entanto, o encanto de sua fala hesitante era notável. Sem que se percebesse, todos eram cativados.
-
-Para formar pessoas, o Reverendo usava todos os meios. A forma de colocar o carvão no fogo, o uso do molho de soja, tudo se tornava material de ensino.
-
-"Servir a Deus é algo muito sério. Até mesmo guardar uma tigela de arroz não pode ser feito de qualquer maneira", disse o Reverendo a uma mulher que considerava o trabalho na cozinha algo trivial.
-
-Certo dia de 1947, D-san, que retornara da guerra, estava sentado na entrada da sala da Luz, na sede, observando o rosto do Reverendo sem piscar. Como no exército, ele pensava que seria repreendido se desviasse o olhar e o encarava fixamente.
-
-Nesse momento, uma jovem entrou com chá. Mas D-san, absorto no rosto do Reverendo, não a notou.
-
-Na entrada, a jovem hesitava.
-
-Ao ver a cena, o Reverendo, apontando para D-san, disse:
-
-"Quem se senta na entrada não prospera. É uma pessoa que não percebe que está atrapalhando a passagem. É preciso estar sempre atento ao que acontece ao redor."
-
-Claro, D-san, envergonhado, encolheu-se.
-
-"O objetivo da fé é, para se tornar um ser humano completo, aprimorar-se passo a passo. Para isso, é preciso ser sempre humilde, gentil e praticar o ato de servir, desejando a felicidade da sociedade."
-
-Assim dizia o Reverendo.
-
-Além de ensinar com palavras, o Reverendo escrevia diligentemente. Aproveitava qualquer tempo livre para escrever. Mesmo no auge do verão, escrevia com o suor a escorrer. Recebia muitas cartas dos fiéis e se esforçava para responder o máximo que podia.
-
-Contudo, era impossível responder a todas individualmente. Mas ele queria, ao menos, acusar o recebimento.
-
-Então, o Reverendo preparava vários cartões postais nos quais escrevia com pincel o caractere "Shin" (Verdade) e, abaixo, assinava "Issai". E os enviava como resposta, com o significado de "carta recebida".
-
-Por estar muito ocupado, muitas vezes não tinha tempo para ler o jornal. Nessas ocasiões, o Reverendo marcava as manchetes e, tarde da noite, pedia a um assistente que lesse para ele.
-
-Ia dormir, no mais cedo, à meia-noite. Não era raro que se deitasse às duas ou três da manhã.
-
-## Quarenta
-
-Em 30 de junho de 1941, o Reverendo acompanhou o Grande Mestre em uma peregrinação ao Santuário de Ise.
-
-Antes da partida, o Grande Mestre, rindo, disse:
-
-"Nakajima, você só usa quimono, mas desta vez vá de terno. Se for de quimono, eu não vou junto."
-
-Por causa disso, o Reverendo se viu obrigado a usar um terno.
-
-Contudo, ele não tinha um.
-
-Mesmo que quisesse comprar, por ser alto, não encontrava um terno pronto que lhe servisse. E não havia tempo para mandar fazer um.
-
-Sem alternativa, confessou a verdade. O Grande Mestre, novamente, riu.
-
-"Então, você vai de quimono. Eu, de qualquer forma, vou de terno."
-
-Pois bem, durante a longa viagem de trem, ele jogou Go com o Grande Mestre pela primeira vez.
-
-Ninguém sabe quem venceu ou por quanto. Mas, considerando que os dois, que detestavam perder — o Grande Mestre com sessenta anos e o Reverendo com quarenta e três —, não brigaram, concluíram a peregrinação com sucesso e, na volta, apreciaram a pesca com cormorões no rio Nagara, é provável que a batalha no trem tenha terminado em empate.
-
-Isso porque aquela foi a primeira partida e, a partir de então, todos os anos, no Ano Novo, realizava-se o confronto entre o Grande Mestre e o Reverendo. E, invariavelmente, eram apenas duas partidas.
-
-A razão era que o Reverendo era um pouco mais forte. Mas, se vencesse as duas, o Grande Mestre ficaria de mau humor. E ele não queria perder. No final, o resultado era uma vitória para cada um, e o grande confronto do início da primavera terminava em harmonia.
-
-O único momento em que o Reverendo demonstrava seu espírito de luta contra o Grande Mestre era quando jogava Go.
-
-## Quarenta e Um
-
-A mente do Reverendo era como um fogo de artifício giratório, rodopiando incessantemente.
-
-Seus pensamentos corriam à frente. E com grande velocidade. Eram como uma corrente elétrica.
-
-Enquanto se conversava com ele, ele pressionava:
-
-"E o que vem depois?"
-
-Se a pessoa hesitava, ele logo disparava a segunda flecha:
-
-"Você pretende fazer assim, não é?"
-
-Ele também era impaciente.
-
-Por isso, suas conversas frequentemente davam saltos.
-
-Era preciso estar muito atento para acompanhá-lo. Do contrário, ficava-se perdido.
-
-Vamos recolher algumas das palavras que o Reverendo proferiu em diversas ocasiões, palavras que brilham como estrelas cadentes — ou seja, palavras de um brilho esplêndido, mas que se perdem se não forem observadas com atenção.
-
-Certa vez:
-
-"Vá buscar o nabo em conserva que caiu na sarjeta. 'Sim, senhor. Vou buscá-lo.' — Isso é ser soldado."
-
-Certa vez:
-
-"Você conhece os Três Pilares: Mestre, Guia e Pai? O Mestre é Miroku Oshin, o Grande Mestre. O Guia é Miroku Hoshin, Deguchi Onisaburo. O Pai é Miroku Hojin, Deguchi Nao."
-
-Certa vez:
-
-"Quando o mundo de Miroku será estabelecido?", perguntou uma pessoa.
-
-"No centésimo ano da era Showa", respondeu o Reverendo, sem hesitar.
-
-Certa vez:
-
-"A TENGOKUKAI é um lugar para formar seres humanos divinos. Seres humanos animalescos não podem viver aqui."
-
-Certa vez, a alguém que encontrava pela primeira vez:
-
-"Você sabe quem criou o ser humano?"
-
-"Sim. O Criador."
-
-"Você sabe que os remédios são venenos?"
-
-"Sei por experiência."
-
-"Você é notável."
-
-Certa vez:
-
-"Ele disse que, se o Reverendo tirar o amuleto, não é diferente de ninguém. Ahahaha."
-
-Certa vez:
-
-"Torne-se um fósforo."
-
-Para acender algo, não basta levar um fósforo. É preciso acender o palito da caixa. O palito aceso pode queimar qualquer coisa. Para inflamar e inspirar as pessoas, é o mesmo: primeiro é preciso queimar a si mesmo.
-
-Certa vez:
-
-"O sentimento de se arrumar após sair do banho."
-
-O Reverendo disse isso sobre a aparência das mulheres. Manter esse sentimento é o essencial, e a atitude em relação à aparência se resume a esta única frase.
-
-Certa vez:
-
-"Mesmo entrando na fé, seja o primeiro. Mas, dito isso, a fé não é um negócio. Não há outro caminho senão eliminar as máculas da alma."
-
-Certa vez, o Reverendo, após perguntar a seus discípulos se conheciam um método para discernir se alguém tinha vocação para a vida religiosa, disse:
-
-"O método mais simples e infalível é ver se a pessoa tem um ideal. Em seguida, observar se ela, diante de um mundo contraditório, consegue discernir o bem do mal. E, se além disso, tiver compaixão, então pode-se dizer que está no caminho certo."
-
-Certa vez:
-
-"O maior aprimoramento para um ministro são as questões de dinheiro e de relacionamento com o sexo oposto. É preciso superá-las."
-
-Para concluir, uma observação:
-
-O Reverendo era um "homem do ensinamento", mas antes disso, era um "homem da prática". Um homem de rigoroso aprimoramento.
-
-Se não se tiver isso claro, o Reverendo como "homem do ensinamento" pode facilmente dar a impressão de ser apenas um homem nervoso.
-
-## Quarenta e Dois
-
-O Reverendo era um homem de bela aparência.
-
-O elegante quimono lhe caía muito bem.
-
-Qualquer um o associava imediatamente a um ator.
-
-"Ele é a cara do Danjuro", disse um discípulo.
-
-"Você já viu o Danjuro?", perguntou outro.
-
-"Claro que não. Mas, de qualquer forma, ele é o Danjuro."
-
-"O que nele lembra o Danjuro?"
-
-"Você já deve ter visto as gravuras do primeiro Danjuro. Ele é idêntico."
-
-"Será?"
-
-"Claro que sim. Primeiro, olhe para aqueles olhos. São exatamente como os do Danjuro quando arregala os olhos."
-
-"O Reverendo não está sempre com os olhos arregalados."
-
-"Mesmo quando não está, é como se estivesse. Não é impressionante?"
-
-O Reverendo pode nunca ter ouvido diretamente essas conversas secretas. Mas não teria ele, de alguma forma, consciência de sua bela aparência? Pois o Reverendo era, em tudo, um homem de grande confiança.
-
-Aquele Reverendo era um feminista.
-
-O Reverendo, um marido que parecia autoritário e teimoso, era, no fim das contas, um feminista. Tinha grande consideração por sua esposa. Havia nele um lado quase mimado.
-
-Mesmo quando estava irritado com alguma coisa, se a esposa o acalmava, dizendo "não precisa se irritar tanto", uma expressão de menino mimado surgia em seu rosto.
-
-E, como uma chuva de verão, a irritação passava.
-
-"O Reverendo é mimado pela esposa", disse um discípulo.
-
-Não, talvez até mesmo suas demonstrações de raiva fossem, na verdade, uma expressão de seu lado mimado.
-
-Em seus últimos anos, em uma vida finalmente mais estável, ele passou a ter o luxo de desfrutar de uma pequena dose de saquê à noite.
-
-Bebia com visível prazer.
-
-Contudo, havia vezes em que não queria beber.
-
-"Hoje não quero", dizia o Reverendo antecipadamente à esposa.
-
-Mas ela se esquecia de avisar a cozinheira.
-
-Por isso, na mesa do jantar, lá estava a garrafa de saquê.
-
-Então, o Reverendo se irritava.
-
-"Eu não disse que não queria saquê?"
-
-"É verdade, esqueci de avisar a cozinheira."
-
-"A culpa é sua. Beba todo este saquê."
-
-Esse tipo de reação colérica é, de certa forma, uma manifestação de uma psicologia mimada. Um chefe de sub-sede da época, que conhecia bem esse lado dele, disse, rindo:
-
-"Há quem diga que, por fora, eram um casal exemplar, mas por dentro, quem sabe. Eu digo o contrário. Por fora, quem sabe, mas por dentro, eram um casal verdadeiramente exemplar. Mas não estou dizendo que eram assim porque ambos eram pessoas exemplares. Embora cada um tivesse suas fraquezas, essas fraquezas não se chocavam, mas se encaixavam perfeitamente, como engrenagens que giram em harmonia — era esse tipo de bom casal que eles eram."
-
-Por ser feminista, era naturalmente popular entre as fiéis e discípulas. E, sendo um homem de bela aparência, seria estranho se não fosse popular.
-
-Certa vez, uma jovem assistente deveria acompanhar o Reverendo a Kansai.
-
-Na mesma época, uma amiga da jovem também iria para Kansai.
-
-"Ir com o Reverendo é tão formal. Queria ir com você, nós duas, no assento romântico", disse a jovem à amiga.
-
-O Reverendo pode ter ouvido ou não essa conversa em segredo.
-
-Ele disse à amiga da jovem:
-
-"Vá você na frente."
-
-Disse apenas isso e não falou mais nada com a jovem assistente.
-
-Se fosse um discípulo homem, certamente teria caído um raio do tipo "se não quer ir, não vá".
-
-Ao retornar para casa após uma semana detido na delegacia de Tamagawa, o Reverendo perguntou à esposa que o recebia:
-
-"Como vocês se sustentaram?"
-
-"De alguma forma, conseguimos comer", respondeu ela.
-
-"Entendo", foi tudo o que ele disse.
-
-Aquele mesmo Reverendo que, em frente ao banheiro, pedia para lhe passarem o cordão das calças que estava solto. Ele também era um marido amável e infantil.
-
-O Reverendo disse:
-
-"Perdoemos as pessoas. Existe o princípio da afinidade, e cada um tem a esposa e os filhos que lhe são correspondentes. Antes de repreender a esposa e os filhos, reflitamos. Nós também temos falhas de sobra. Reflexão e tolerância, e juntos aprimorarmos nossas almas — é aqui que começa a celestialização do lar."
-
-Quando estava de bom humor, o Reverendo brincava com a esposa:
-
-"Será que eu deveria ter uma aventura?"
-
-Então, a esposa respondia:
-
-"Se encontrar alguém melhor do que eu, pode ir se divertir quando quiser."
-
-E, depois, caíam na gargalhada.
-
-Eram um bom casal.
-
-## Quarenta e Três
-
-O Reverendo escrevia tudo, cartas e manuscritos, com pincel.
-
-Parece que gostava de caligrafia. Contudo, as opiniões sobre sua caligrafia se dividem: metade a considera boa, a outra metade, ruim.
-
-Alguém disse: "Em suma, é uma caligrafia interessante", e essa crítica parece ser a mais adequada.
-
-Ele compunha muitos tankas.
-
-De setembro a dezembro de 1949, foram publicados três números da revista "TENGOKU NO TOMO" (Amigo do Paraíso), como boletim da TENGOKUKAI, e em cada edição havia seus tankas.
-
-Compadecendo-se do mundo prestes a perecer, surgiu o Senhor da Salvação.
-Sem a salvação de nosso Mestre, que seria deste Japão em ruínas?
-Ignorantes do fim da noite que se aproxima, como se agitam as almas impuras.
-A sucessão de eventos nefastos é sinal do fim da noite.
-O solene juízo de Deus já começa a se manifestar, ó, ficai atentos.
-Desde que conheci o poder oculto de meu Mestre, abandonei tudo e me ergui.
-O poder que nosso Mestre emana, compreendi ser o poder da salvação de Deus.
-Se eu ainda não conhecesse meu Mestre, continuaria a vagar em confusão e sofrimento.
-Recebendo o poder de meu Mestre, também eu, com todas as minhas forças, curarei os homens.
-Saibam que os acontecimentos ao redor de nosso Mestre são todos desígnios do Grande Deus.
-A transição do Mundo Espiritual começa a se manifestar sobre esta terra em que vivemos.
-Ao poder do cinco e do seis, somando-se o do sete, o poder absoluto se manifestará.
-Recebendo o poder pleno, aproxima-se o tempo de salvar os homens como desejamos.
-Esta alma, manchada pela escuridão da noite, purificarei para servir à Obra Divina.
-As três grandes calamidades de vento, água e fogo, que me importam, se polir minha alma e me apegar a Deus?
-O Grande Deus, para me tornar um homem justo, concedeu-me a pedra de amolar da adversidade.
-
-Certa vez, o Reverendo apresentou seus tankas ao Grande Mestre, que, sorrindo, disse:
-
-"Os seus não são poemas. São chinês clássico." Claro, era meio de brincadeira.
-
-Contudo, essas palavras não são apenas uma crítica aos tankas do Reverendo, mas têm um significado muito maior.
-
-Pois a personalidade do Reverendo tinha um quê de chinês clássico.
-
-Sobre isso, uma pessoa disse:
-
-"É o caráter de sua terra natal. Ele se parece com Shoin."
-
-Outra pessoa disse:
-
-"Pode ser hereditário. Seu pai era um poeta de estilo chinês, e a 'História não oficial do Japão' era sua leitura favorita."
-
-## Quarenta e Quatro
-
-"Severo consigo mesmo e com os outros. Eu o via como alguém semelhante a Dogen."
-
-Isso foi dito por um estudioso de religião que conheceu o Reverendo pela primeira vez no outono de 1949.
-
-O Reverendo era, de fato, uma pessoa de uma retidão glacial. Tinha a aura de um antigo samurai.
-
-Contudo, por outro lado, também tinha um lado humorístico.
-
-Certa vez, em uma sub-sede, o Reverendo foi convidado para uma palestra. Cerca de duzentos fiéis estavam reunidos.
-
-Ao final da palestra, o Reverendo deixou o púlpito e se preparava para sair da sala.
-
-Então, uma jovem que chegara atrasada e estava sentada na última fileira, disse em voz alta:
-
-"Reverendo, por favor, mostre-nos seu rosto um pouco mais."
-
-O Reverendo, ao ouvir isso, voltou para perto do púlpito, fez uma pose um tanto afetada e disse:
-
-"Oh, estou com vergonha."
-
-Sendo este o Reverendo, ele ria abertamente do que achava engraçado. Ria com gosto, com a boca bem aberta. Não era do tipo que mantinha sempre uma expressão séria.
-
-Em uma viagem de trem, alguém contou uma história cômica.
-
-O Reverendo gargalhou, segurando a barriga.
-
-Depois, talvez um pouco envergonhado por ter rido tão alto, disse com um sorriso maroto:
-
-"Que sujeito sem jeito."
-
-Todos os meses, quando se reuniam na sede, os chefes de sub-sede praticavam a recitação dos hinos.
-
-Certo dia, em substituição a um chefe de sub-sede, um assistente chamado W-san participou da reunião.
-
-Embora presente, ele pensou que, por não ser um chefe de sub-sede, não precisaria recitar, e sentou-se relaxado.
-
-Contudo, o Reverendo disse:
-
-"Você também, recite."
-
-W-san entrou em pânico. Não sabia em que tom deveria recitar.
-
-Tomando coragem, começou a recitar em seu próprio estilo.
-
-A melodia era tão cômica que o Reverendo riu alto. Os outros também caíram na gargalhada.
-
-E não foi só isso. Contagiados pela melodia cômica de W-san, um após o outro, surgiram recitações com melodias estranhas.
-
-O Reverendo, achando graça, ria às gargalhadas.
-
-Certa vez, um assistente empilhou cédulas, amarrou-as com uma fita e escreveu o valor: tantos mil e tantos ienes.
-
-Contudo, por engano, em vez de colocar o ponto na casa dos milhares, colocou-o na casa das centenas.
-
-Ao ver aquilo, o Reverendo, de brincadeira, disse:
-
-"Nossa, quanto dinheiro! É impressionante!"
-
-"A cerimônia do chá era a única coisa em que ele não era bom", diz a esposa, mas o Reverendo fazia de tudo. Uma de suas especialidades era o Hyakunin Isshu.
-
-Como tradição, todos os anos no Ano Novo, realizava-se um torneio de karuta, e o Grande Mestre, o Reverendo, seus assistentes e outros fiéis se reuniam em uma animada celebração.
-
-Contudo, em habilidade, o Reverendo se destacava. Por isso, quem se sentava diante dele era invariavelmente derrotado. Era comum que ele vencesse todos, um após o outro.
-
-O Grande Mestre também ria e dizia:
-
-"É melhor não ler o primeiro verso. Senão, o Nakajima leva todas as cartas."
-
-Os outros, em sua maioria, só conseguiam mover as mãos depois que o leitor terminava o segundo verso.
-
-Ele também compunha muitos versos cômicos.
-
-Com o Grande Mestre como mestre de cerimônias, essas reuniões de versos cômicos continuaram de cerca de 1929 a 1933.
-
-No almoço, sempre era servido arroz vermelho embrulhado em folha de bambu.
-
-O pseudônimo do Reverendo era Sennari, e o da esposa, Manyoshi.
-
-Às vezes, jogava com os filhos. Quando perdia, ficava genuinamente aborrecido.
-
-Mesmo jogando pingue-pongue, tirava a camisa e se envolvia de corpo e alma. Não parava até vencer. Quando vencia, ficava de ótimo humor.
-
-O Reverendo, após o jantar, gostava de tocar piano. Gostava da canção "Yoneyama-san kara, kumo ga dete..." e a tocava com frequência. Também gostava da canção infantil "Kinran donsu no obi shimenagara...". Às vezes, tocava "Echigo Jishi" do nagauta.
-
-"E então? Não sou bom?", gabou-se ele a uma pessoa.
-
-O homem, de língua afiada, respondeu:
-
-"Mas, Reverendo, seu piano ainda é um piano de acompanhamento para o chá."
-
-O Reverendo fez uma expressão de quem pensa "o que sabe de música um leigo?".
-
-Aquele piano foi comprado em Tóquio durante a guerra. Para transportá-lo até Atami de carro, ele mesmo se encarregou de conseguir a gasolina.
-
-No piano, ele era razoável, mas no canto, era um desastre. Era do tipo desafinado.
-
-Mesmo na recitação dos hinos, o Reverendo costumava dizer à esposa, que estava ao seu lado:
-
-"Você, faça."
-
-Sendo este o Reverendo, era raro que cantasse por iniciativa própria. Apenas em festas e eventos, ele costumava cantar "Aizen Katsura".
-
-E, quando cantava, fazia de propósito a imitação de um paciente com derrame, cantando com uma dicção arrastada.
-
-"O Reverendo sabe que canta mal, por isso ele se camufla dessa maneira", disse um discípulo ao homem sentado ao seu lado.
-
-"Aí está a esperteza do Reverendo", respondeu o outro.
-
-Contudo, gostava de ouvir.
-
-O Reverendo sempre ouvia em silêncio quando a esposa tocava koto. Gostava especialmente da peça "Chidori no Kyoku".
-
-Apresentamos aqui alguns versos cômicos e de calçado do Reverendo e de sua esposa.
-
-Ora, que nobreza o quê! Seus ancestrais não eram ladrões? (Sennari)
-
-Socorro! Não é um pobre coitado, é o senhor Mitsui, o senhor Mitsubishi.
-
-Ah, não aguento mais! Não aguento mais os impostos.
-
-Ah, não aguento mais! Será que não existe uma viúva rica pedindo socorro?
-
-Ah, não aguento mais! O que se acumula é o pecado e, bem, o banheiro.
-
-Maldito! Quando critica os outros, parece tão satisfeito; quando é criticado, finge que está dormindo.
-
-Que bizarro! Dizem que é melhor morrer nas mãos de um médico do que ser salvo por Deus.
-
-Que vergonha! Que tipo de pessoa é essa, com uma cara de Hariti.
-
-Que vergonha! Estou ficando bem visível, será peritonite?
-
-Covarde, covarde, você me despreza, mas eu também tenho uma esposa em casa, ora essa!
-
-Que confusão! O casal vizinho está brigando alto no meio da noite. Ah, que satisfação, pensa o solteirão.
-
-Em pleno inverno, a bela de traje ocidental com o peito e as pernas de fora, espirra repetidamente. (Manyoshi)
-
-Idiota! Confundiu saquê com vinagre. Ah, que problema!
-
-A aparência é de um marido fraco, mas o coração, ah, é muito, muito... hohoho.
-
-Senhora, de tanto que a patroa a repreende, a empregada pensa: sua bruxa.
-
-## Quarenta e Cinco
-
-"Seja uma pessoa atenta."
-
-O Reverendo costumava dizer isso.
-
-Era 1948. Três anos após o fim da guerra, a ordem interna ainda não estava totalmente restabelecida, e as pessoas, com a mentalidade de que era mais vantajoso duvidar do que acreditar, viviam dias turbulentos.
-
-Uma pessoa atenta era, em suma, considerada uma pessoa esperta, e a palavra em si não tinha muito valor naquela época.
-
-Contudo, aos fiéis que se reuniam, o Reverendo repetia sempre essa frase.
-
-Certa vez, em um dia em que fiéis de regiões distantes se reuniriam, a chuva que caía desde a noite anterior continuava a cair insistentemente pela manhã. Era um dia desses.
-
-Chegou a hora, e da estação de Atami, uma multidão de fiéis encharcados entrou.
-
-Por virem de longe, ninguém estava preparado para a chuva. Vendo os fiéis ensopados, a pessoa da recepção, embora sentisse pena, não pensou que fora indelicado não ter ido esperá-los na estação com guarda-chuvas.
-
-Mais tarde, o Reverendo disse aos assistentes:
-
-"Por que todos vêm de tão longe, passando a noite em um trem? Não é porque, recebendo a Luz, desejam se aprimorar um pouco que seja e, seguindo a vontade de Deus de salvar a humanidade o máximo possível, ardem com o desejo de desempenhar um papel na construção do Paraíso Terrestre? E vocês não recebem as oferendas que eles trazem como sinal de sua sinceridade? E, no entanto, vocês, ao verem os fiéis molhados, sentem pena, mas ninguém foi à estação com guarda-chuvas. Não, provavelmente ninguém sequer pensou que deveria ter ido. É preciso refletir profundamente. A pessoa atenta de que sempre falo é uma pessoa gentil. Não tenho serventia para uma pessoa que não é gentil, mas é atenta."
-
-O juízo do Reverendo era severo.
-
-Dito isso, o Reverendo não gostava de pessoas excessivamente atentas.
-
-"Pessoas desatentas e pessoas excessivamente atentas. Eu não gosto de nenhuma das duas", dizia ele.
-
-Parece que muitos dos fiéis não compreendiam bem o significado dessas palavras.
-
-Contudo, o que o Reverendo queria dizer era que ser excessivamente atento, em muitos casos, é o oposto de ser gentil.
-
-O Reverendo disse:
-
-"Ser atento e ter um sentimento de gratidão são a mesma coisa. Ser atento apenas por ser atento, sem um sentimento de gratidão — isso não é genuíno."
-
-O Reverendo falava sempre, a ponto de ser repetitivo, sobre a prática de servir com humildade.
-
-"Uma das causas do fracasso humano é a arrogância. Os verdadeiros vencedores nunca esquecem o passado. Esquecer o passado e se ensoberbecer é o primeiro passo para o fracasso. Diante de Deus, o que importam a posição e o status social do homem? É preciso ser sempre humilde. Não se deve esquecer o coração de quem serve com humildade."
-
-"Para um fiel, o mais importante é nunca esquecer a prática de servir com humildade. Quando recebemos o grande poder de Kannon, e milagres que nem nós mesmos esperávamos acontecem um após o outro, e somos reverenciados pelas pessoas como se fôssemos um deus vivo, corremos o risco de nos valorizarmos além do que somos e nos tornarmos arrogantes. E, quando nos tornamos arrogantes e esquecemos a autorreflexão, tudo começa a se desviar do caminho de Deus, e cometemos o duplo erro de não perceber isso. E, no final, caímos miseravelmente no abismo. É preciso ter muito cuidado."
-
-"O caminho da fé não é outro senão o de se aprimorar passo a passo para se tornar um ser humano completo. Para isso, é preciso ser sempre humilde."
-
-"O coração sempre novo."
-
-O Reverendo sempre dizia isso.
-
-Cerca de três meses antes de falecer, o Reverendo ensinou aos fiéis:
-
-"Nós agora podemos comer arroz branco gradualmente. Durante a guerra, comíamos até mesmo farelo de soja que nem os cavalos comiam, e sentíamos profundamente a preciosidade do arroz branco. Mesmo não sendo agricultores, preocupávamo-nos com a colheita do ano, se o 210º dia do ano seria seguro, se não haveria danos por pragas, e a cada chuva, a cada vento, agradecíamos o trabalho dos agricultores. Agora, que o arroz branco está se tornando mais abundante, esquecemos a gratidão de ontem e o tratamos com descaso."
-
-"O mesmo se aplica à saúde. Fomos ao médico, tomamos remédios a ponto de nos afogarmos neles, e, além disso, tentamos de tudo, mas não nos curamos. O futuro era sombrio. E, por um acaso, fomos salvos por este caminho e nos tornamos pessoas de uma saúde invejável. Ficamos tão felizes que as lágrimas corriam, e pensamos que um dia teríamos que retribuir essa graça. Com o passar dos dias, esquecemos o passado, o sentimento de gratidão desaparece e nos tornamos arrogantes e insolentes."
-
-"O mesmo se aplica à fé. No início da fé, sentíamos a preciosidade, a nobreza, a imensa graça, e nosso coração ardia como fogo. Com o passar do tempo, sem que percebêssemos, caímos na negligência, no formalismo, e esquecemos a gratidão inicial."
-
-"Tudo isso acontece porque não renovamos nosso coração."
-
-"As pessoas falam de fé. Mas quantas delas se autoavaliam em relação a essa fé? É preciso nunca esquecer o coração do início da fé e, para que esse coração não envelheça, açoitar-se dia após dia, hoje melhor que ontem, amanhã melhor que hoje. A água que não corre, apodrece. O coração que não se autoestimula, perde a elasticidade. O coração sempre novo — gostaria que não se esquecessem disso."
-
-## Quarenta e Seis
-
-No outono de 1949, O-shi, do Ministério da Justiça, estava em Hakone, em um quarto de estalagem, aguardando o Reverendo.
-
-Naquela época, o Ministério da Justiça estava investigando as chamadas novas religiões. O-shi era o encarregado.
-
-Logo, o Reverendo entrou.
-
-E, de frente para O-shi, lançou-se em uma discussão sobre religião.
-
-Começou a falar com eloquência, argumentando que "nossa religião é a suprema", com um ímpeto irresistível.
-
-O-shi era um estudioso especializado em filosofia indiana e tinha muito a dizer, mas, estando ali a trabalho de investigação, ouvia em silêncio. Havia pontos com os quais concordava e pontos com os quais não.
-
-"Então, vou lhe mostrar a prática do Johrei", disse o Reverendo, por fim.
-
-E, chamando uma pessoa, pediu que se sentasse no quarto ao lado. E fechou a porta de correr entre os quartos. Assim, a pessoa não podia ver nem o Reverendo nem O-shi.
-
-Feito isso, o Reverendo começou a aplicar o Johrei de seu quarto. O-shi, como quem vê algo raro, observava os movimentos de suas mãos.
-
-Contudo, notou algo estranho.
-
-Quando o Reverendo estendia a palma da mão, a pessoa no quarto ao lado, invisível, começava a tossir.
-
-Quando o Reverendo baixava a mão, a tosse da pessoa cessava.
+Quando o Mestre abaixava a palma da mão, a tosse da pessoa cessava.
 
 Isso se repetiu duas ou três vezes.
 
-(E então? Entendeu?)
+O Mestre o fitou, com uma expressão que parecia dizer: “E então? Compreendeu?”.
 
-O Reverendo tinha essa expressão.
+O Sr. O., visivelmente impressionado, murmurou:
 
-O-shi, um tanto impressionado, murmurou:
+“Isto é formidável!”
 
-(Isso é incrível!)
+O Mestre transbordava confiança. Uma confiança tão impetuosa que parecia não admitir críticas de quase ninguém. Ele emanava uma aura de quem estava pronto para qualquer debate doutrinário. De fato, mesmo em sua vida privada, se alguém que não fosse o Grande Mestre se atrevesse a tecer comentários sobre seus assuntos pessoais, seu humor azedava terrivelmente. Por vezes, chegava a se enfurecer abertamente.
 
-O Reverendo tinha confiança. Uma confiança tão ardente que parecia não admitir críticas de quase ninguém. Exalava um espírito de "venha debater a doutrina comigo". E, de fato, mesmo em sua vida privada, se alguém que não fosse o Grande Mestre fizesse algum comentário sobre sua vida pessoal, ele ficava de péssimo humor. Às vezes, ficava genuinamente irritado.
+Essa expressão de “E então? Compreendeu?” não foi o semblante que o definiu por toda a vida. Contudo, após seu encontro com o Grande Mestre, seu rosto passou a espelhar constantemente essa coragem indômita e inabalável.
 
-(E então? Entendeu?)
+Tempos depois, o Sr. O. comentou:
 
-Não digo que este fosse o rosto do Reverendo ao longo de toda a sua vida. Mas, depois de encontrar o Grande Mestre, o rosto do Reverendo foi sempre este, expressando uma coragem indomável.
+“De qualquer forma, considero o Mestre uma pessoa de aguçado poder espiritual. Poderia dizer também que era um homem de forte inspiração. Como religioso, era irrepreensível. No entanto, no que tange à administração religiosa, era um completo desastre. Em outras palavras, ele possuía a têmpera de um fundador de religião, mas não a de um organizador de denominação. Era puro, direto, rigoroso — mas creio que esse rigor se aplicava tanto a si mesmo quanto aos outros. Essa é a minha impressão, embora eu o tenha encontrado apenas duas vezes.”
 
-Mais tarde, O-shi disse:
+### Quarenta e sete
 
-"De qualquer forma, acredito que o Reverendo era uma pessoa de grande poder espiritual. Pode-se dizer também que era uma pessoa de forte intuição. Como religioso, era impecável. Contudo, no aspecto administrativo da religião, era um desastre. Em outras palavras, ele tinha as qualidades de um fundador, mas não de um organizador de uma igreja. Puro, direto, rigoroso — mas esse rigor era aplicado tanto a si mesmo quanto aos outros. É o que penso. Encontrei o Reverendo apenas duas vezes."
+Em setembro de 1949, foi lançado o primeiro número do “Tengoku no Tomo”, o boletim informativo da Tengoku-kai.
 
-## Quarenta e Sete
+Até então, cada sub-sede publicava seus próprios informativos, mimeografados ou impressos, mas, por iniciativa do Mestre, que argumentou que “dessa forma, é impossível conhecer o movimento da Tengoku-kai como um todo”, decidiu-se pela publicação de uma revista de aproximadamente cinquenta páginas. O texto intitulado “Por ocasião do lançamento”, publicado na edição inaugural, contém diversas sugestões importantes.
 
-Em setembro de 1949, foi lançado o primeiro número do "TENGOKU NO TOMO" (Amigo do Paraíso), o boletim da TENGOKUKAI.
+“A intenção do Mestre Presidente é que cada responsável de sub-sede atue como um representante regional da Tengoku-kai, servindo à construção do Paraíso, pois a criação de barreiras entre as sub-sedes contraria o objetivo da associação. Conforme consta na Coletânea de Salmos, as fronteiras entre os países devem desaparecer, e o ódio e os conflitos entre os homens devem se dissipar como um sonho.
+A Tengoku-kai é, e sempre será, uma só. Por mais que o número de sub-sedes aumente, ela permanece uma única associação. O aumento de sub-sedes, motivado por questões administrativas e de organização regional, significa apenas que cada responsável de sub-sede é um ministro diretamente subordinado à Sede Geral, atuando como se estivesse em missão em sua respectiva localidade. Peço que não se esqueçam disso.
+Em suma, o crescimento do número de sub-sedes representa o crescimento da própria Tengoku-kai. Se compararmos a uma única árvore, por mais que seus galhos e folhas se multipliquem, todos eles se ramificam a partir do tronco. Se o tronco secar, os galhos e as folhas também secarão.”
 
-Até então, cada sub-sede publicava seu próprio boletim, mimeografado ou impresso, mas, por sugestão do Reverendo, que argumentou que "assim não é possível conhecer o movimento da TENGOKUKAI como um todo", decidiu-se publicar uma revista impressa de cerca de cinquenta páginas. O artigo "Por ocasião do lançamento", publicado no primeiro número, contém várias sugestões importantes.
+O “Tengoku no Tomo” publicou sua segunda edição em outubro, mas não circulou em novembro. Em dezembro, foi lançada uma terceira edição, com mais páginas, que marcou o fim da publicação.
 
-"A intenção do Reverendo Presidente é que cada chefe de sub-sede atue como representante regional da TENGOKUKAI, servindo à Obra de construção do Paraíso, e que não se criem barreiras entre as sub-sedes, pois isso contraria o objetivo da associação. Como diz o Zengen Sanshi, as fronteiras entre as nações devem desaparecer, e o ódio e os conflitos entre os homens devem se dissipar como um sonho."
+Diz-se que um dos motivos foi uma orientação do Grande Mestre, que teria dito: “A Nippon Kannon Kyodan já publica a revista mensal ‘Chijo Tengoku’ desde dezembro de 1948, portanto, é melhor não construir um telhado sobre outro”.
 
-"A TENGOKUKAI é, e sempre será, una. Por mais que o número de sub-sedes aumente, ela continua sendo uma única associação. A criação de sub-sedes, em geral, por região, é uma questão de organização. Peço que os chefes de sub-sede não se esqueçam de que são ministros diretamente subordinados à sede geral, atuando como representantes em suas respectivas regiões."
+Contudo, é certo que o Mestre não publicou o “Tengoku no Tomo” com a intenção deliberada de criar uma sobreposição.
 
-"Em suma, o aumento do número de sub-sedes significa o crescimento da TENGOKUKAI. Se compararmos a uma árvore, por mais que os galhos e as folhas se multipliquem, todos se ramificam a partir do tronco. Se o tronco secar, os galhos e as folhas também secarão."
+Essa questão transcende a simples publicação de um boletim. O Mestre jamais se esqueceu de sua postura humilde de servo do Grande Mestre. Conforme afirmava a doutrina da Nippon Kannon Kyodan da época, ele acreditava que “o Mestre Okada Jikan é um homem de poder e virtude, escolhido por Kannon-Bosatsu como seu representante para a salvação da humanidade”, e a isso dedicara sua vida inteira. Ele jamais contestava as palavras do Grande Mestre. Independentemente da lógica, sua resposta era imediata: “Compreendido”.
 
-Este "TENGOKU NO TOMO" teve uma edição em outubro, mas não em novembro, e em dezembro foi publicado um terceiro número com mais páginas, sendo então descontinuado.
+Ao final do texto “Por ocasião do lançamento”, ele não se esqueceu de enfatizar este ponto:
 
-Uma das razões para isso teria sido a advertência do Grande Mestre: "Como a Nihon Kannon Kyodan já publica a revista mensal 'Chijo Tengoku' (Paraíso Terrestre) desde dezembro de 1948, seria melhor não sobrepor as publicações."
+“Não devemos jamais esquecer que a origem da árvore é a sua raiz invisível. O Grande Mestre é essa raiz. O tronco é o Mestre Presidente (o texto é anônimo por se tratar do editorial de lançamento), os galhos são os responsáveis de sub-sedes, e as folhas são os fiéis. Somente quando essa árvore cresce e floresce, o Paraíso Terrestre se concretiza. É como um dos nutrientes para o crescimento dessa árvore que este boletim informativo foi criado.”
 
-Contudo, é certo que o Reverendo não publicou o "TENGOKU NO TOMO" com a intenção consciente de sobrepor publicações.
+Essa convicção não era exclusiva do Mestre. Todos os responsáveis de sub-sede partilhavam da mesma crença.
 
-Isso não se resume apenas à questão do boletim. O Reverendo nunca esqueceu a humildade de se considerar um servo do Grande Mestre. Como consta na doutrina da então Nihon Kannon Kyodan, ele "acreditava que o Mestre Okada Jikan era uma pessoa de poder e virtude escolhida por Kannon Bosatsu como seu representante para a salvação da humanidade", e entregou sua vida diante dele. Nunca contestou as palavras do Grande Mestre. Fosse qual fosse a lógica, ele respondia imediatamente: "Compreendido."
+Naquela época, o Sr. M., responsável de uma sub-sede, escreveu o seguinte no informativo que editava e publicava:
 
-No final deste "Por ocasião do lançamento", ele não se esqueceu de enfatizar este ponto:
+“Nós nos dirigimos à presença do Grande Mestre e, sob a orientação do Mestre Nakajima, pudemos receber o poder de Kannon. Através dele, conhecemos a verdadeira força de uma religião autêntica e pudemos saboreá-la. Em meio ao calor abrasador, na fonte do poder divino que jorra incessantemente, nosso corpo e alma são purificados, e vivemos nossos dias em felicidade, com uma sensação de frescor a percorrer constantemente nosso ser. Que afortunados somos! É como se, guiados pelo Mestre Nakajima, tivéssemos atravessado o deserto do sofrimento antes dos demais, alcançado o oásis e recebido o néctar do Grande Mestre.”
 
-"Não se deve esquecer que a base da árvore é a raiz invisível. O Grande Mestre é como a raiz, o Reverendo Presidente (sendo o editorial de lançamento, não está assinado) é o tronco, os chefes de sub-sede são os galhos, e os fiéis são as folhas. Somente com o crescimento e a prosperidade da árvore é que o Paraíso Terrestre poderá ser construído. E o boletim aqui lançado é parte do nutriente que alimenta essa árvore."
+O Mestre era, em essência, um educador rigoroso, tanto consigo mesmo quanto com os outros.
 
-Essa não era apenas a convicção do Reverendo. Todos os chefes de sub-sede partilhavam da mesma crença.
+Nesse aspecto, assim como os membros em geral, nem mesmo os responsáveis que dirigiam as sub-sedes recebiam tratamento especial. Ele os corrigia de forma implacável e sem clemência.
 
-Naquela época, M-san, um chefe de sub-sede, escreveu o seguinte em seu boletim de notícias:
+Poucos meses antes do lançamento do “Tengoku no Tomo”, o Mestre disse em certa ocasião:
 
-"Nós, que chegamos à presença do Grande Mestre e, sob a orientação do Reverendo Nakajima, pudemos receber o poder de Kannon, fomos agraciados com o conhecimento do verdadeiro poder da verdadeira religião e com a experiência da verdadeira religião. Em meio ao calor escaldante, na fonte do poder divino que jorra incessantemente, com o corpo e a alma purificados, passamos nossos dias em felicidade, como se uma frescura constante fluísse dentro de nós. Que afortunados somos! É como se, tendo atravessado o deserto do sofrimento um passo à frente dos outros, fôssemos guiados pelo Reverendo Nakajima a um oásis e recebêssemos do Grande Mestre o néctar da salvação."
+“... E peço também aos senhores fiéis. Na fé, em qualquer circunstância, não olhem para o homem, mas mantenham Deus como seu centro. Ao observarem os responsáveis de sub-sede e outros ministros à luz dos ensinamentos diretos do Grande Mestre, como as Palestras sobre a Fé e os Salmos, talvez os vejam repletos de defeitos e indignos de respeito como religiosos. Como religiosos (pois não se passaram nem dois anos desde que iniciaram suas atividades), talvez sejam como bebês que ainda não conseguem andar sozinhos. Peço-lhes que nos concedam um pouco de tempo. E para que eles se tornem ministros exemplares, peço que nos ofereçam seus conselhos benevolentes. Além disso, se tiverem qualquer dúvida sobre as palavras ou ações de um responsável de sub-sede ou de outro ministro, por favor, não hesitem em me consultar. Deixemos de lado o egoísmo, unamos as mãos e cooperemos para o desenvolvimento do nosso caminho.”
 
-O Reverendo era, em suma, um educador rigoroso consigo mesmo e com os outros.
+O “Tengoku no Tomo”, lamentavelmente, encerrou-se após três edições, mas a motivação que levou o Mestre a publicá-lo foi, sem dúvida, a convicção de que a “harmonia” entre os responsáveis de sub-sede era a condição primordial para o progresso da Obra Divina.
 
-Nesse aspecto, assim como os fiéis em geral, ele não poupava os chefes de sub-sede. Agia com rigor e sem clemência.
+### Quarenta e oito
 
-Poucos meses antes do lançamento do "TENGOKU NO TOMO", o Reverendo disse em certo lugar:
+Não há quem não abrigue contradições em seu peito. Talvez se possa dizer que a contradição é a própria essência do ser humano. Se assim for, quanto maior a figura, maiores serão suas contradições internas.
 
-"... E peço também aos fiéis. Na fé, em todas as circunstâncias, não olhem para as pessoas, mas mantenham Deus como o centro. Quando observarem o chefe de sub-sede e os outros ministros à luz dos ensinamentos diretos do Grande Mestre, como as 'Palestras sobre a Fé' e os 'Hinos', talvez os achem cheios de defeitos e indignos de respeito como religiosos. Como religiosos (pois não se passaram nem dois anos completos desde que começaram a atuar nesse sentido), talvez sejam como bebês que ainda não conseguem andar sozinhos. Peço que lhes concedam um pouco de tempo. E que lhes deem conselhos benevolentes para que se tornem ministros admiráveis. E, se tiverem alguma dúvida sobre as palavras e ações do chefe de sub-sede ou de outros ministros, por favor, não hesitem em me consultar. Deixando de lado o egoísmo, vamos nos dar as mãos e cooperar para o desenvolvimento do Caminho."
+O Mestre também possuía inúmeras contradições. Impulsivo e de conduta excêntrica, dizia o que pensava e, como é próprio das personalidades intransigentes, não esboçava um sorriso por mera formalidade se não achasse graça. Por isso, não se pode dizer que fosse uma pessoa de trato fácil.
 
-O "TENGOKU NO TOMO", infelizmente, terminou no terceiro número. Mas, pode-se dizer que o coração do Reverendo ao decidir publicá-lo não era outro senão o de considerar a "harmonia" entre os chefes de sub-sede como a condição primordial para o desenvolvimento do Caminho.
+Contudo, em sua intimidade, era ainda mais austero e passional. Após a perda de seu segundo filho, Sanroku, seu temperamento abrandou consideravelmente, mas, ainda assim, no lar, era literalmente um “pai severo”. Era especialmente rigoroso com sua esposa.
 
-## Quarenta e Oito
+Em suas palestras para os fiéis, o Mestre ensinava com solicitude: “Cuidados importantes no pós-parto. Primeiro: fazer refeições leves por uma semana. Segundo: nas três semanas seguintes, alternar entre repouso e atividades leves, evitando exercícios extenuantes. Terceiro: por setenta e cinco dias, abster-se de ler jornais, costurar e atividades similares”. No entanto, ele mesmo não permitiu que sua esposa repousasse nem por uma semana.
 
-Não há ninguém que não abrigue contradições em seu peito. Talvez se possa dizer que a contradição é a essência do ser humano. Se assim for, quanto maior a pessoa, maiores serão as contradições em seu peito.
+Isso talvez se devesse, por um lado, ao fato de sua esposa também ser uma mulher de fibra, incapaz de ficar ociosamente na cama, e, por outro, a razões econômicas que não permitiam tal luxo. De qualquer forma, em casa, o Mestre era rigoroso.
 
-O Reverendo também tinha muitas contradições. De temperamento direto e comportamento excêntrico, dizia o que pensava e, como é comum aos intransigentes, não sorria por cortesia se não achasse graça. Por isso, não se pode dizer que fosse uma pessoa de fácil trato.
+Era um homem forte, mas também frágil. Havia nele um lado receoso.
 
-Contudo, interiormente, era ainda mais inflexível e direto. Após a morte de seu segundo filho, Miroku-chan, seu espírito se abrandou um pouco, mas em casa, ele era literalmente um "pai severo". Especialmente com a esposa, era rigoroso.
+Tinha especial fraqueza diante de membros de gangues. Em seus últimos anos, com o crescimento da instituição, era frequente que tais indivíduos aparecessem no escritório.
 
-O mesmo Reverendo que, em suas palestras para os fiéis, ensinava com gentileza os "cuidados pós-parto: primeiro, comer alimentos leves por uma semana; segundo, alternar entre deitar e levantar por três semanas, evitando exercícios extenuantes; terceiro, abster-se de ler jornais, costurar, etc. por setenta e cinco dias", não permitia que sua própria esposa ficasse de cama nem por uma semana.
+Nessas ocasiões, o Mestre pedia ao Sr. K. que cuidasse da situação e se escondia. Certa vez, enquanto o Sr. K. dialogava com os homens no andar de baixo, o Mestre, do segundo andar, ministrava Johrei incessantemente na direção deles.
 
-Isso, por um lado, pode ser atribuído ao fato de a esposa também ser uma mulher de fibra, que não conseguia ficar ociosa na cama, e também a razões econômicas que não permitiam tal descanso. De qualquer forma, em casa, o Reverendo era rigoroso.
+Apesar de parecer calmo, tinha seus momentos de afobação. Aparentemente, nunca teve interesse em aprender a cerimônia do chá, sendo um completo desastre no assunto. Embora dissesse aos outros para manterem a calma, parecia haver algo em seu próprio íntimo que o impedia de se aquietar.
 
-Era um homem forte, mas também fraco. Tinha um lado receoso.
+O Mestre detestava pessoas nervosas. No entanto, ele mesmo possuía traços de uma personalidade bastante nervosa.
 
-Especialmente com gangues, era fraco. Em seus últimos anos, com o crescimento da igreja, era comum que membros de gangues aparecessem no escritório.
+“Sejam solícitos. Sejam solícitos. Estejam atentos”, dizia sempre o Mestre. Contudo, até ele cometia deslizes. Por exemplo, após a guerra, um funcionário do Ministério da Justiça veio a Atami para investigar a instituição.
 
-Nessas ocasiões, o Reverendo pedia a K-san que cuidasse do assunto e se escondia. Certa vez, enquanto K-san lidava com a gangue no andar de baixo, o Reverendo, do andar de cima, aplicava-lhes Johrei incessantemente.
+O homem dirigiu-se diretamente à Sede da Tengoku-kai.
 
-Embora parecesse calmo, tinha um lado precipitado. Parece que nunca quis aprender a cerimônia do chá, mas, de qualquer forma, era um desastre nisso. Dizia aos outros para manterem a calma, mas havia algo em seu próprio coração que não conseguia se acalmar.
+Ao anoitecer, serviram-lhe o jantar.
 
-O Reverendo não gostava de pessoas nervosas. Contudo, ele mesmo tinha um lado bastante nervoso.
+Devido à natureza de sua função, ele não comeu nada, limitando-se a beliscar uma maçã e a beber um chá preto.
 
-"Seja atento. Seja atento. Preste atenção", dizia o Reverendo, sempre. Contudo, ele mesmo cometia atos de desatenção. Por exemplo, após a guerra, uma pessoa do Ministério da Justiça veio a Atami para investigar a igreja.
+Posteriormente, como parte de seu trabalho, ele examinava os documentos da instituição.
 
-A pessoa foi primeiro à sede da TENGOKUKAI.
+Foi quando se deparou com seu próprio nome, ao lado do qual estava anotado: “Despesa com recepção: tantos ienes”.
 
-Ao entardecer, foi servido o jantar.
+Geralmente, em casos assim, a anotação não é feita de forma tão explícita. Ali, no entanto, constava o valor exato. O funcionário ficou um tanto perplexo.
 
-A pessoa, devido à natureza de sua função, não comeu nada, apenas beliscou uma maçã e bebeu um chá preto.
+Muito tempo depois, ele recordou o episódio:
 
-Mais tarde, essa pessoa, ainda como parte de seu trabalho, estava examinando os documentos da igreja.
+“Salvo engano, o responsável era o Mestre. Anotar o valor da despesa com recepção daquela forma... Até hoje não sei se foi um ato de magnanimidade, uma demonstração de convicção ou algo decorrente de sua personalidade.”
 
-Então, encontrou seu próprio nome e a anotação: "Despesas de representação: tantos ienes".
+Quando o Mestre identificava um defeito em alguém, brandia o chicote e o atingia sem piedade. Contudo, ele mesmo era um homem de muitos defeitos.
 
-Geralmente, em casos como este, não se escreve de forma tão explícita. No entanto, ali estava o valor exato. A pessoa ficou um pouco intrigada.
+O que o tornava grandioso, porém, era sua plena consciência das próprias falhas e sua constante autorreflexão — algo que as pessoas comuns não conseguem fazer.
 
-Muito tempo depois, essa pessoa disse:
+No final de 1943, houve um período em que o ímpeto da expansão da fé arrefeceu.
 
-"Se não me engano, o responsável era o Reverendo. Anotar as despesas de representação daquela forma... será que foi por generosidade, por convicção ou por causa de sua personalidade? Ainda hoje não sei."
+Naquela ocasião, o Mestre disse a seus jovens assistentes: “Deve haver algo de errado em mim”. Sua reflexão era tão intensa que chegava a ser doloroso observá-lo.
 
-O Reverendo, ao encontrar uma falha em alguém, brandia o chicote sem piedade, mirando exatamente naquele ponto. Contudo, ele mesmo era uma pessoa cheia de falhas.
+Por ser assim, o Mestre conhecia os limites das coisas. “Não faça o que não lhe compete”, dizia a si mesmo e aos outros.
 
-O que o tornava grandioso, porém, era que ele conhecia plenamente suas próprias falhas e estava sempre em autorreflexão. Algo que uma pessoa comum não consegue fazer.
+Certa pessoa lhe perguntou:
 
-No final de 1943, houve um período em que a expansão da igreja diminuiu.
+“Um amigo meu está com problemas com a esposa por causa de uma amante. Como devo orientá-lo a resolver a situação?”
 
-Naquela época também, o Reverendo disse a seus jovens assistentes: "Deve haver algo de errado em mim." Sua autorreflexão era tão intensa que era doloroso de se ver.
+O Mestre, com um semblante sério, indagou:
 
-Sendo este o Reverendo, ele conhecia os limites das coisas. Dizia a si mesmo e aos outros para não fazerem o que não lhes cabia.
+“Diga-me, você já teve uma amante?”
 
-Alguém perguntou ao Reverendo:
+“Não, nunca”, respondeu o homem.
 
-"Um amigo meu está tendo problemas com a esposa por causa de uma amante. Como devo resolver a situação?"
+Então, o Mestre declarou, taxativo:
 
-O Reverendo, com uma expressão séria, disse:
+“Se você não tem experiência no assunto, não o compreende. É melhor não se intrometer.”
 
-"Você já teve uma amante?"
+Por isso, o Mestre sempre dizia a todos que não entendia de política. Delegava todas as conversas sobre o tema a pessoas competentes. Quando surgia tal assunto, ele corria imediatamente para procurar o indivíduo certo.
 
-"Não, nunca", respondeu a pessoa.
+O Mestre era um homem grandioso. Por isso, carregava grandes contradições. E o que o engrandecia era sua profunda consciência dessas contradições.
 
-Então, o Reverendo, categoricamente, disse:
+Por essa razão, ao saberem de sua morte, todos os seus discípulos choraram. Um deles, que desabou em prantos diante do caixão, relatou:
 
-"O que não se tem experiência, não se pode compreender. É melhor não se meter onde não é chamado."
+“Foi a primeira vez na vida. Nunca chorei tão alto. Na verdade, por mais que eu tentasse conter o pranto, era simplesmente impossível.”
 
-Por isso, o Reverendo dizia a todos que não entendia bem de política e delegava todas as conversas sobre o assunto a pessoas competentes. Quando surgia tal assunto, ele corria imediatamente para a pessoa responsável.
+“Que tragédia. O Mestre faleceu”, dizia outro discípulo, enquanto as lágrimas escorriam por seu rosto, falando sozinho em um canto da sala.
 
-O Reverendo era um homem grandioso. Por isso, também tinha grandes contradições. E ele compreendia bem essas contradições. Nisso residia sua grandeza.
+Apesar de suas contradições, o Mestre as envolvia com sua grandeza, força e nobreza.
 
-Por isso, quando souberam de sua morte, todos os discípulos choraram. Um discípulo, que desabou em prantos diante do caixão, disse:
+### Quarenta e nove
 
-"Foi a primeira vez na minha vida que chorei tão alto. Não, mesmo querendo conter, não conseguia parar."
+Em 4 de fevereiro de 1950, as até então existentes Nippon Kannon Kyodan e Nippon Miroku Kyokai foram dissolvidas, concretizando-se a unificação sob a pessoa jurídica religiosa Sekai Kyusei Kyo.
 
-"Que desgraça! O Reverendo faleceu", dizia outro discípulo, em um canto da sala, enquanto as lágrimas rolavam por seu rosto.
+A partir de então, o título de “Grande Mestre” foi alterado para “Meishu”.
 
-Apesar das contradições, o Reverendo as envolvia e era grande, forte e admirável.
-
-## Quarenta e Nove
-
-Em 4 de fevereiro de 1950, as até então existentes Nihon Kannon Kyodan e Nihon Miroku Kyokai foram dissolvidas, e a unificação na pessoa jurídica religiosa Sekaikyuseikyou foi realizada.
-
-E o título do Fundador, "Grande Mestre", foi, a partir de então, alterado para "Meishu".
-
-Contudo, alguns dias antes, em 31 de janeiro, provavelmente por volta da uma da manhã, o Reverendo faleceu subitamente.
+Contudo, poucos dias antes, em 31 de janeiro, provavelmente por volta da uma da manhã, o Mestre faleceu subitamente.
 
 No dia anterior, 30 de janeiro.
 
-O Reverendo foi à casa de uma discípula em Kamakura. Seu filho mais velho, Seihachiro, frequentava uma universidade em Tóquio a partir daquela sub-sede.
+O Mestre foi à casa de uma discípula em Kamakura. Seu filho mais velho, Seihachiro, residia nessa igreja difusora enquanto frequentava a universidade em Tóquio.
 
-Não se sabe com que intenção, mas naquela manhã, o Reverendo disse aos filhos:
+Não se sabe com que intenção, mas naquela manhã, o Mestre disse aos filhos:
 
-"Vamos à casa da Sra. K em Kamakura e jantaremos todos juntos."
+“Vamos à casa da Sra. K. em Kamakura e jantaremos todos juntos.”
 
-Prepararam-se rapidamente e saíram de casa, ele e a esposa. No trem, Haruyo-chan, Mitsuko-chan e Kazuko-chan estavam animadas.
+Prepararam-se imediatamente e saíram de casa com sua esposa. No trem, as filhas Haruyo, Mitsuko e Kazuko se divertiam alegremente.
 
 Um dia animado chegou ao fim.
 
 O jantar foi sukiyaki.
 
-Contudo, o Reverendo não comeu muito.
+Contudo, o Mestre quase não comeu.
 
-Após a refeição, dizendo que não se sentia bem, ele se deitou e ouviu rádio.
+Após a refeição, queixando-se de um mal-estar, deitou-se e ficou a ouvir rádio.
 
-Naquele momento, o Reverendo, com uma expressão casual, disse a Seihachiro:
+Naquele momento, com uma expressão casual, o Mestre disse a Seihachiro:
 
-"Eu não peço que você seja bem-sucedido. Quero que se torne alguém querido pelas pessoas."
+“Eu não peço que você tenha sucesso na vida. Desejo que se torne alguém amado pelas pessoas.”
 
-O Reverendo pode não ter dito isso com a intenção de ser um testamento. Mas, de fato, tornou-se seu testamento, não apenas para Seihachiro, mas para muitos de seus filhos.
+Talvez o Mestre não tenha dito isso com a intenção de ser seu testamento. Mas, de fato, tornou-se seu último legado, não apenas para Seihachiro, mas para muitos de seus filhos espirituais.
 
-"Eu também considero essas palavras um testamento", diz Seihachiro, com nostalgia, ao recordar aquele dia.
+“Eu também considero aquelas palavras como seu testamento”, afirma Seihachiro, recordando com emoção aquele dia.
 
-Pouco depois, o mal-estar do Reverendo passou. Pelo menos, parecia ter passado.
+Logo, o mal-estar do Mestre passou. Pelo menos, parecia ter passado.
 
-O grupo, deixando apenas o filho mais velho que morava na casa, retornou a Atami. Quando chegaram em casa, já eram dez da noite.
+O grupo, deixando para trás apenas o filho mais velho que ali residia, retornou a Atami. Quando chegaram em casa, já passava das dez horas da noite.
 
-Embora tarde e em uma noite de frio cortante, o Reverendo chamou o dirigente A-san e outros para conversar. Comeu também muitas de suas tangerinas favoritas.
+Apesar da hora tardia e da noite gélida, o Mestre chamou o dirigente A. e outros para conversar sobre diversos assuntos. Comeu também muitas de suas tangerinas favoritas.
 
-E, por volta da meia-noite, disse:
+Por volta da meia-noite, disse:
 
-"Vou dormir", e se deitou.
+“Vou dormir”, e recolheu-se.
 
-Pouco depois, a esposa, sentindo um pressentimento, acendeu a luz do abajur.
+Pouco tempo depois, sua esposa, sentindo uma estranha apreensão, acendeu o abajur ao lado da cama.
 
-O Reverendo, deitado, acariciava a própria bochecha com a mão.
+O Mestre, ainda deitado, acariciava o próprio rosto com a mão.
 
-(Algo está errado.)
+“Há algo de errado”, pensou ela.
 
-A esposa chamou:
+A esposa o chamou: “Querido”.
 
-"Querido."
+Não houve resposta.
 
-Mas não houve resposta.
+Ao observá-lo, viu que sua face não tinha a cor normal.
 
-Ao olhar, viu que a cor de seu rosto não era normal.
+Mesmo sacudindo-o, não havia qualquer reação.
 
-Mesmo sacudindo-o, não houve reação.
+A esposa apertou apressadamente a campainha.
 
-A esposa apertou a campainha às pressas.
+O Sr. A. veio correndo. Mas os olhos do Mestre não se abriram mais. Ele já não falava.
 
-A-san veio correndo. Mas os olhos já não se abriam. A boca já não falava.
+O Grande Mestre também acorreu ao local.
 
-O Grande Mestre também correu para lá.
+Naquele momento, porém, seu coração já havia parado.
 
-Contudo, naquela altura, o coração já havia parado.
+Tudo aconteceu de forma tão abrupta que ninguém olhou para o relógio. Quando se deram conta e verificaram as horas, os ponteiros já se aproximavam das duas da manhã.
 
-Com a súbita reviravolta dos acontecimentos, ninguém olhou para o relógio. Quando se deram conta e olharam, os ponteiros já indicavam quase duas da manhã.
+### Cinquenta
 
-## Cinquenta
+Ao ouvir a notícia do falecimento súbito de seu pai, Seihachiro sentou-se de um salto sobre o futon e gritou, com voz retumbante:
 
-Ao receber a notícia da morte súbita de seu pai, Seihachiro levantou-se de um salto e gritou:
+“Maldito!”
 
-"Idiota!"
+O grito ecoou de forma sinistra pelas paredes do quarto ainda na penumbra.
 
-A voz ecoou sinistramente pelas paredes do quarto ainda escuro.
+O pai que partira na noite anterior de bom humor, poucas horas depois, já não pertencia a este mundo. Como algo assim poderia ser possível?
 
-Seu pai, que partira na noite anterior de bom humor, poucas horas depois, já não estava neste mundo. Como algo assim poderia acontecer?
+Foi, literalmente, um raio em céu azul.
 
-Foi, literalmente, uma notícia inesperada.
+“Maldito!”
 
-"Idiota!"
+A exclamação, obviamente, não era dirigida a seu pai. Tampouco a si mesmo. Nem a qualquer outra pessoa.
 
-Não foi, claro, dirigido a seu pai. Nem a si mesmo. Nem a qualquer outra pessoa.
+Era apenas que ele precisava gritar aquilo contra algo indefinido.
 
-Apenas sentiu a necessidade de gritar contra algo.
+Não era um sentimento de tristeza. Nem de pesar. Era, antes, uma indignação.
 
-Não era um sentimento de tristeza. Nem de revolta. Era, pode-se dizer, indignação.
-
-Mas não sabia contra o que descontá-la.
+Mas ele não sabia contra o que canalizá-la.
 
 Ao descer na estação de Atami, uma chuva fina caía sobre a cidade.
 
 Entrou em sua casa.
 
-Mas que mudança! Todos tinham uma expressão de incredulidade. As pessoas que chegavam, uma após a outra, também estavam tão chocadas que mal conseguiam falar.
+Mas que transformação avassaladora. Todos estampavam no rosto uma expressão de incredulidade. As pessoas que chegavam, uma após a outra, estavam tão chocadas com a notícia repentina que mal conseguiam falar.
 
-Diante do corpo do Reverendo, a esposa tinha os olhos vermelhos.
+Diante do corpo do Mestre, sua esposa tinha os olhos avermelhados.
 
-Na noite anterior — quer dizer, já passava da meia-noite —, ao acender um cigarro na cama, o Reverendo lhe dissera:
+Na noite anterior — já passava da meia-noite —, ao se deitar e acender um cigarro, o Mestre lhe dissera:
 
-"Você também sofreu muito, mas de agora em diante tudo vai melhorar."
+“Fiz você passar por muitos percalços, mas, de agora em diante, tudo vai melhorar.”
 
-A esposa, lembrando-se daquelas palavras, remoía-as em seu coração.
+A esposa recordava aquelas palavras, remoendo-as repetidamente em seu coração.
 
-De repente, as lágrimas brotaram. A esposa, como que para contê-las, curvou-se para os visitantes que prestavam condolências.
+De repente, as lágrimas transbordaram. Contendo-as, ela curvava a cabeça para os visitantes que vinham prestar condolências.
 
-(Ele sabia que morreria esta noite.)
+Ela compreendeu: “Provavelmente, ele sabia que morreria esta noite”.
 
-Com os olhos marejados, a fumaça do incenso que subia parecia turva.
+Através dos olhos marejados, até a fumaça do incenso que subia parecia turva.
 
-No quarto ao lado, via-se a figura de um discípulo chorando copiosamente.
+Na sala ao lado, via-se a figura de um dos discípulos, que chorava copiosamente.
 
-O funeral foi realizado em 5 de fevereiro, em Atami, após a cerimônia de Risshun (início da primavera) no dia 4.
+O funeral foi realizado em Atami, no dia 5 de fevereiro, após a cerimônia de Risshun (início da primavera) do dia 4.
 
-Caía uma chuva gelada.
+Caía uma chuva gelada, mesclada com neve.
 
-E ele foi sepultado no Templo Shogen-ji, em Nakano, Tóquio.
+Ele foi sepultado no templo Shogen-ji, em Nakano, Tóquio.
 
-Este templo é popularmente conhecido como Templo do Macaco, por causa dos macacos de pedra em sua entrada.
+Este templo é popularmente conhecido como Templo do Macaco, devido a uma estátua de macaco de pedra em sua entrada.
 
-E assim, o Reverendo, cuja morte foi noticiada pelos jornais de Tóquio como "Falecimento do principal discípulo de Okada Mokichi, da Nihon Kannon Kyodan", deixou este mundo aos cinquenta e um anos. E, cinco anos depois, em 10 de fevereiro de 1955, partiu para o céu como um precursor do Fundador — o Grande Mestre —, que ascendeu aos setenta e três anos.
+Assim, o Mestre, cuja morte foi noticiada pelos jornais de Tóquio com as manchetes “Morre proeminente discípulo de Mokichi Okada da Nippon Kannon Kyodan”, partiu deste mundo aos cinquenta e um anos de idade, rumo ao Céu como precursor do Fundador — o Grande Mestre, que ascenderia cinco anos depois, em 10 de fevereiro de 1955, aos setenta e três anos.
 
-## Conclusão
+### Conclusão
 
 Em novembro de 1949, o Dr. Hideki Yukawa recebeu o Prêmio Nobel de Física.
 
-O Reverendo Nakajima imediatamente pegou o pincel e escreveu:
+O Mestre Nakajima imediatamente tomou da pena e escreveu:
 
-"A descoberta do méson pelo Dr. Yukawa é motivo de louvor não apenas no Japão, mas em todo o mundo. Contudo, nós, ao contrário, sentimos um medo crescente diante dessa descoberta. Pois a grande tragédia da bomba atômica, que aniquilou Hiroshima e Nagasaki em um instante, ainda está fresca em nossa memória. E, segundo um telegrama recente de Washington, a pesquisa dos cientistas americanos sobre a bomba atômica avançou ainda mais, e diz-se que ela possui um poder de destruição milhares de vezes maior que o das bombas de Hiroshima e Nagasaki. Ao ouvir isso, nosso medo só aumenta. E, se uma dessas bombas for detonada a grande altitude em um canto do planeta, dizem que toda a vida na Terra pode ser aniquilada. Diante da nova descoberta do méson, devemos nos alegrar ou nos entristecer? É preciso refletir com calma. O único ponto que nos deve alegrar é que a ciência moderna está provando, com seus fatos, que avança passo a passo em direção ao mundo invisível, ou seja, à esfera espiritual."
+“A descoberta do méson pelo Dr. Yukawa é motivo de louvor não apenas para o Japão, mas para o mundo inteiro. Contudo, para nós, essa descoberta, ao contrário, intensifica o temor. Pois a terrível tragédia das bombas atômicas, que aniquilaram Hiroshima e Nagasaki em um instante, ainda está vívida em nossa memória, causando-nos arrepios. Ademais, segundo um telegrama recente de Washington, as pesquisas dos cientistas americanos sobre a bomba atômica avançam a passos largos, e diz-se que já possuem um poder destrutivo milhares de vezes superior ao das bombas de Hiroshima e Nagasaki. Ao ouvir isso, nosso terror só aumenta. Dizem também que, se uma delas for detonada a grande altitude em um canto do planeta, toda a vida na Terra poderá ser extinta. Diante da notícia da descoberta de uma nova partícula, o méson, devemos refletir serenamente se nos cabe alegrar ou lamentar. O único ponto que nos deve alegrar é que isso comprova o fato de que a ciência moderna avança, passo a passo, em direção ao mundo invisível, ou seja, ao campo espiritual.”
 
-Naquela época, a preocupação do Reverendo era com o "mundo". A Segunda Guerra Mundial terminara, mas a "Guerra Fria" que se seguiu entre as duas grandes potências se intensificava a cada dia.
+O interesse do Mestre, naquela época, estava voltado para o “mundo”. A Segunda Guerra Mundial terminara, mas a “Guerra Fria” que se seguiu entre as duas superpotências se intensificava a cada dia.
 
-E, se em algum lugar ela se inflamasse e se estendesse a uma Terceira Guerra Mundial, se a bomba atômica fosse usada — ao pensar nisso, o Reverendo sentia uma inquietação insuportável.
+E se, por algum motivo, um conflito eclodisse e se alastrasse para uma Terceira Guerra Mundial, e bombas atômicas fossem usadas — ao pensar nisso, o Mestre sentia uma inquietação que não o deixava em paz.
 
-"Não há ninguém que não tenha seus sofrimentos. As pessoas buscam a fé para escapar desses sofrimentos — em outras palavras, para passar da infelicidade para a felicidade."
+“Não há quem não tenha sofrimentos. As pessoas buscam a fé para escapar desses sofrimentos — em outras palavras, para passar da infelicidade à felicidade”, dizia o Mestre.
 
-O Reverendo disse isso.
+Mas a questão não se esgotava aí.
 
-Mas não era só isso.
+Dois meses antes do anúncio do prêmio ao Dr. Yukawa, o Mestre declarou:
 
-Dois meses antes do anúncio do prêmio do Dr. Yukawa, o Reverendo disse:
+“Por mais que nosso lar, nossa terra natal e o Japão sejam salvos, de que adiantariam a felicidade individual e a felicidade do Japão se eclodisse uma guerra mundial com o uso de bombas atômicas? De agora em diante, devemos pensar e agir tendo como meta a humanidade inteira. A fé também deve ser uma prece pela felicidade da humanidade, através da qual oramos pela nossa própria felicidade. Pois não existe indivíduo sem o mundo, nem mundo sem o indivíduo.”
 
-"Por mais que nosso lar, nossa terra natal, nosso Japão sejam salvos, se uma guerra mundial com bombas atômicas eclodir, não haverá felicidade individual nem felicidade para o Japão. De agora em diante, devemos pensar e agir com a humanidade como nosso objetivo. A fé também deve ser uma prece pela felicidade da humanidade mundial e pela nossa própria felicidade. Pois não há mundo sem o indivíduo, nem indivíduo sem o mundo."
-
-Pensando bem, o Reverendo nasceu em 1899, no que se poderia chamar de "paz do vale", entre a Guerra Sino-Japonesa e a Guerra Russo-Japonesa.
+Pensando bem, o Mestre nasceu no 32º ano da era Meiji, em um período que poderia ser chamado de “vale de paz” entre as guerras sino-japonesa e russo-japonesa.
 
 No ano seguinte, eclodiu a Revolta dos Boxers na Coreia, e o Japão enviou tropas.
 
-Aos quinze anos, a era Meiji deu lugar à Taisho, mas, apenas dois anos depois, eclodiu a Primeira Guerra Mundial. O Japão acabou participando, lutando no Oriente.
+Aos quinze anos, a era Meiji deu lugar à era Taisho, mas, apenas dois anos depois, irrompeu a Primeira Guerra Mundial. O Japão acabou por participar do conflito, combatendo no Oriente.
 
-Em seguida, em 1931, eclodiu o Incidente da Manchúria; em 1932, o Incidente de 15 de maio; em 1936, o Incidente de 26 de fevereiro. O país estava em tumulto. E, no ano seguinte, 1937, eclodiu o Incidente da China.
+Em seguida, em 1931, eclodiu o Incidente da Manchúria. Em 1932, o Incidente de 15 de maio; em 1936, o Incidente de 26 de fevereiro. O país vivia em um estado de agitação, até que, no ano seguinte, em 1937, finalmente eclodiu a Segunda Guerra Sino-Japonesa.
 
-E, em 1939, a Segunda Guerra Mundial começou. Em 8 de dezembro de 1941, o Japão, enfrentando as potências aliadas, deu início à Guerra do Pacífico. Mas, após quatro anos de luta, em 15 de agosto de 1945, rendeu-se incondicionalmente. — Um pós-guerra desolador.
+Em 1939, as cortinas da Segunda Guerra Mundial se abriram e, em 8 de dezembro de 1941, o Japão iniciou a Guerra do Pacífico contra as potências aliadas. Após quatro anos de árdua luta, em 15 de agosto de 1945, rendeu-se incondicionalmente. Seguiu-se um pós-guerra desolador.
 
-E o Reverendo faleceu no final de janeiro de 1950, poucos meses antes da Guerra da Coreia, que eclodiu como resultado da "Guerra Fria".
+E foi assim que o Mestre faleceu no final de janeiro de 1950, poucos meses antes da Guerra da Coreia, que eclodiu como resultado da “Guerra Fria”.
 
-A vida de cinquenta anos do Reverendo pode ser claramente dividida em três períodos.
+Os cinquenta anos de vida do Mestre podem ser claramente divididos em três fases:
 
-Um, a juventude, em que acalentava o sonho de se aventurar no exterior, mas que terminou sem se realizar.
+Uma, a juventude, em que acalentava o sonho de se aventurar pelo mundo, mas que terminou sem que o realizasse.
 
-Um, o período de busca às cegas, em que se tornou um assalariado para sobreviver, mas se angustiava com a questão de como deveríamos viver.
+Outra, a fase de busca às cegas, em que se tornou assalariado para garantir o sustento, mas se atormentava com a questão de como deveria viver.
 
-Um, o período em que, ao encontrar a pessoa de Okada Mokichi e descobrir Deus, dedicou-se incansavelmente à atividade religiosa.
+E, por fim, a fase em que encontrou a figura de Mokichi Okada, descobriu Deus e se dedicou incansavelmente à sua missão como religioso.
 
-E, ao final, não seria correto dizer que ele fechou os olhos acreditando que a religião, a ciência, a arte, tudo deve contribuir para o bem-estar da humanidade mundial, e que o dia em que toda a humanidade se dará as mãos, formando uma dança de "paz perpétua" ao redor do globo, certamente chegará?
+E ao final dessa jornada, não seria correto dizer que o Mestre fechou os olhos acreditando que a religião, a ciência e a arte devem todas contribuir para o bem-estar da humanidade, e que o dia em que todos os seres humanos se derem as mãos, formando uma ciranda de “Paz Eterna” ao redor do globo, certamente chegará?
 
-Com reverência, transcrevemos aqui o artigo "Sejamos Cidadãos do Mundo", do Grande Mestre (na época, já chamado de Meishu), publicado na revista Eiko de 3 de outubro de 1951. Lembrando do Reverendo Nakajima Issei, que já na época da Nihon Kannon Kyodan almejava uma religião mundial —
+Com o devido respeito, transcrevemos aqui o artigo “Sejam cidadãos do mundo”, do Grande Mestre (na época, já chamado de Meishu), publicado na revista “Eiko” de 3 de outubro de 1951, em memória do Mestre Nakajima Issei, que, já nos tempos da Nippon Kannon Kyodan, almejava uma religião de âmbito mundial.
 
-"O ser humano de agora em diante deve se tornar um cidadão do mundo. Há uma história interessante sobre isso.
+“O homem de agora em diante precisa se tornar um cidadão do mundo. A esse respeito, há uma história interessante.
 
-Logo após o fim da guerra, um ex-militar veio me procurar e, com uma expressão de indignação, disse: 'Por mais que eu pense, não consigo entender esta rendição.' E continuou a falar, indignado. Como eu não demonstrava o menor interesse, ele, perplexo, perguntou: 'O senhor é japonês?' Eu respondi prontamente: 'Não sou japonês.' Ele, chocado, tremeu e perguntou: 'Então, de que país o senhor é?' Eu lhe disse: 'Sou um cidadão do mundo.' Com essas palavras, ele ficou com uma expressão vazia e me pediu que explicasse o significado. Eu lhe falei várias coisas, e é com base nisso que escrevo agora.
+Logo após o fim da guerra, um ex-militar veio me procurar e, com uma expressão de profunda indignação, começou a desabafar: ‘Por mais que eu pense, não consigo entender a rendição de agora’. Como eu não demonstrava o menor interesse no assunto, ele, aparentemente chocado, perguntou: ‘O senhor é japonês?’. Respondi de imediato: ‘Não sou japonês’. Assustado, ele tremeu e insistiu: ‘Então, de que país o senhor é?’. Eu lhe disse: ‘Sou um cidadão do mundo’. Diante dessas palavras, ele ficou com uma expressão vazia e atônita, e me pediu que explicasse o significado daquilo até que ele compreendesse. Falei-lhe sobre diversas coisas, e é com base nisso que escrevo agora.
 
-Em primeiro lugar, é um erro fazer distinções como 'japonês' ou 'chinês'. Os japoneses daquela época eram assim. Após vencerem as duas guerras, a Sino-Japonesa e a Russo-Japonesa, e subitamente se tornarem uma potência de primeira classe, ficaram arrogantes. Começaram a pensar e a fazer pensar que o Japão era uma 'nação divina', um país especial, e acabaram por provocar uma guerra como aquela.
+Em primeiro lugar, o próprio ato de criar distinções, dizendo ‘japonês’, ‘chinês’, e assim por diante, é um erro fundamental. Os japoneses daquela época eram assim. Após as vitórias nas guerras sino-japonesa e russo-japonesa, eles subitamente ingressaram no rol das nações de primeira classe e se envaideceram, passando a pensar e a fazer os outros pensarem que o Japão era um país divino, uma nação especial, o que acabou por desencadear aquela guerra.
 
-Por isso, desprezavam os outros povos como se fossem cães e gatos, e não sentiam o menor remorso em matar as pessoas de outros países, devastando-os à vontade. E, como resultado, acabaram sofrendo a amarga derrota de hoje. Enquanto existir a ideia de que 'basta que meu país esteja bem, não importa o que aconteça com os outros', a paz mundial será inalcançável.
+Por essa razão, desprezavam os outros povos como se fossem cães e gatos, não sentiam o menor remorso em matar pessoas de outras nações e devastavam outros países a seu bel-prazer, o que finalmente os levou à amarga derrota que hoje enfrentam. Enquanto persistir a mentalidade de que, desde que o próprio país esteja bem, não importa o que aconteça com os outros, a paz mundial jamais será alcançada.
 
-Isso pode ser entendido se tomarmos o Japão como exemplo. Se pensarmos em conflitos entre províncias, como se trata de um assunto interno do Japão, seria como uma briga entre irmãos, e a solução seria simples. Basta expandir esse raciocínio para uma escala mundial.
+Isso pode ser compreendido se fizermos uma analogia com o próprio Japão. Se imaginarmos uma disputa entre províncias, por se tratar de um assunto interno, seria como uma briga entre irmãos, que certamente se resolveria com facilidade. Basta expandir esse raciocínio para uma escala global.
 
-É o que diz o famoso poema do Imperador Meiji: 'Em um mundo onde os quatro mares são todos irmãos, por que as ondas e os ventos se agitam?' É exatamente isso. Se todos pensassem assim, a paz mundial poderia ser estabelecida a partir de amanhã. Se toda a humanidade adotasse essa visão ampla, todos os países do mundo seriam como uma família, e não haveria como uma guerra eclodir.
+É exatamente o que diz o famoso poema do Imperador Meiji: ‘Num mundo em que os mares dos quatro cantos nos unem como irmãos, por que as ondas e o vento se agitam em discórdia?’. Se todos adotassem essa mentalidade, a paz mundial poderia se estabelecer a partir de amanhã. Se toda a humanidade alcançasse essa amplitude de espírito, todas as nações do mundo se tornariam como uma só família, e não haveria como uma guerra eclodir, não é mesmo?
 
-Por essa razão, mesmo hoje, ideologias e pensamentos que criam grupos e tratam os outros como inimigos, ou ideias nacionalistas, de 'alma nacional', de 'nação divina', esse pensamento egocêntrico, não apenas leva o país ao erro, mas também se torna um obstáculo à paz mundial.
+Por esse princípio, ainda hoje, ideologias que se autodenominam ‘-ismo’ ou ‘-pensamento’ criam grupos de afinidade e tratam os outros como inimigos. Conceitos como ‘política nacional’, ‘espírito de tal nação’, ‘nacionalismo de tal país’ ou ‘país divino’ são pensamentos autocentrados que não apenas levam a própria nação ao erro, como também se tornam um obstáculo à paz mundial.
 
-Portanto, nesta ocasião, ao menos todo o povo japonês, em comemoração a este tratado de paz, deve se tornar cidadão do mundo, abandonar o pensamento limitado de até agora e adotar uma visão ampla. Este é o pensamento mais progressista para o mundo de agora em diante, e o mundo precisa de pessoas assim."
+Portanto, nesta ocasião, ao menos todo o povo japonês, em comemoração ao tratado de paz, deve se tornar cidadão do mundo, superar o pensamento de visão restrita de até agora e adotar um de natureza universal. Este é o pensamento mais avançado para o mundo vindouro, e o mundo necessita de pessoas desse tipo.”
 
----
+――――――――――・―――――――・――――――――――
 
-Este livro foi elaborado com base em depoimentos colhidos ao longo de um ano, em encontros com muitas pessoas que tiveram seus destinos entrelaçados com o do Reverendo Nakajima Issei. É possível que, por equívocos de audição ou por inabilidade de expressão, eu tenha transmitido uma imagem incorreta da verdadeira figura do Reverendo.
+Este livro foi elaborado com base em relatos colhidos ao longo de um ano, em encontros com muitas pessoas que mantiveram laços com o Mestre Nakajima Issei. É possível que, por equívocos de audição ou por inabilidade de expressão, eu tenha transmitido uma imagem imprecisa da verdadeira figura do Mestre.
 
-Se houver tais erros, a responsabilidade é inteiramente minha, o autor. Peço sinceras desculpas a todos que prestaram seus depoimentos e a todos que aparecem neste livro.
+Se tais falhas existirem, a responsabilidade é inteiramente minha, o autor. Peço profundas desculpas àqueles que ofereceram seus relatos e a todos que são mencionados neste livro.
 
-Asou Ei
+Asō Etsushi
 
----
+――――――――――・―――――――・――――――――――
 
-Reverendo Nakajima Issei
-— Sua Fé e Sua Vida —
+*Nota:* O artigo “Sejam cidadãos do mundo”, citado neste livro, sofreu pequenas alterações. Embora sejam, em sua maioria, irrelevantes, a última frase foi omitida, razão pela qual a reproduzimos aqui:
 
-Impresso em 20 de agosto de 1961
-Publicado em 30 de agosto de 1961
+“Mudando de assunto, o mesmo se aplica às religiões. Criar facções, dizendo ‘tal doutrina’, ‘tal seita’, ‘tal escola’, já é algo anacrônico. Mas, sem querer me gabar, a nossa religião é diferente. Não temos a menor mesquinhez de dizer para não se aproximarem de outras religiões. Pelo contrário, até nos alegramos com essa aproximação. Isso porque nossa religião é um pacifismo que visa harmonizar toda a humanidade e tornar o mundo como uma só família. Nesse sentido, em nossa religião, consideramos qualquer religião como companheira e buscamos avançar de mãos dadas, em boa convivência.”
 
-Autor: Asou Ei
-Impressor: Moriyama Jitsutaro
-Editora: Atami Shoji Kabushiki Kaisha
-¥200
+Existem também registros das palavras de Meishu-Sama ao receber a notícia do falecimento do Mestre Nakajima:
 
-(Nota)
-O artigo "Sejamos Cidadãos do Mundo", citado neste livro, foi ligeiramente alterado. Embora a maior parte das alterações seja insignificante, a última frase foi omitida, e a apresentamos aqui:
-"A conversa muda, mas com as religiões acontece o mesmo. Criar facções como a 'religião tal', a 'seita tal', a 'escola tal', já está fora de moda. Mas, sem querer me gabar, esta é a nossa Igreja. Nossa Igreja não tem a menor intenção mesquinha de evitar o contato com outras religiões. Pelo contrário, até nos alegramos com o contato. Isso porque nossa Igreja é pacifista, visando harmonizar toda a humanidade e tornar o mundo como uma única família. Nesse sentido, em nossa Igreja, consideramos qualquer religião como companheira e pretendemos avançar de mãos dadas, em boa harmonia."
-
-Existem também registros das palavras de Meishu-Sama ao saber do falecimento do Reverendo Nakajima.
-[Palavras sobre o falecimento do Sr. Nakajima, fevereiro de 1950, Obras Completas de Okada Mokichi, vol. Palestras 3-345]
+*Palavras sobre o passamento do Sr. Nakajima, 1950.02.**, Obras Completas de Mokichi Okada, Coletânea de Palestras 3-345.*
 
 ---
 
-# Manual de Difusão II - 1-2
+# A Rizicultura em Doze Meses
 
-**Categoria:** kanren | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Gosuiiji録
-**Título Original:** - | **Status:** Published | **Edição/Página:** 2号, 14号 | **Data ISO:** 1951-10-10
+**Categoria:** kanren | **Ano:** 昭和30年1月1日 | **Fonte:** 稲作十二カ月
+**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1955-01-01
+**Coletânea:** - | **Fonte (JP):** -
 
-## Manual de Difusão II - 1-2
-## Sobre a Imagem Sagrada
-
-### Cinco. O Ofício Religioso Mensal
-
-**1. O significado do Ofício Religioso Mensal**
-〔Ensinamento de 8 de setembro de 1951〕
-
-*Pergunta: “Ao participarmos do Ofício Religioso Mensal, recebemos abundante Luz e alcançamos a purificação de nosso espírito?”*
-
-Assim é a natureza de Deus; o princípio é idêntico. Quando um grande número de pessoas se congrega, a Luz Divina se intensifica, e por esse motivo, recebemos graças. A Luz de Deus não consegue se irradiar plenamente quando há impurezas, tal como teias de aranha que a obstruem.
-
-**2. A cerimônia religiosa pode ser antecipada, mas jamais adiada**
-〔Palestra de 18 de maio de 1948〕
-
-*Pergunta: “Nos casos em que não é possível realizar a cerimônia a Kannon (観音) no dia dezoito de cada mês…”*
-
-Realizem-na no dia dezessete. Cerimônias e ofícios memoriais dedicados a Deus e aos budas podem ser antecipados, mas nunca devem ser adiados.
-
-**3. A data do Ofício Religioso Mensal não deve ser alterada arbitrariamente**
-〔Palestra de 23 de agosto de 1949〕
-
-*Pergunta: “Recebi a permissão de ingresso na Fé em janeiro deste ano e, em março, recebi a Imagem de Komyo Nyorai. No dia trinta de março, o responsável do Johrei Center veio à minha casa para realizar o Ofício Religioso Regular. Em abril, no dia vinte e seis, ele veio novamente para o ofício e, nessa ocasião, um copo com água, que estava sobre o suporte ritual e não possuía nenhuma fissura, partiu-se subitamente, derramando toda a água. Contudo, a Imagem de Gobyobu Kannon (御屏風観音), que se encontrava sobre o mesmo suporte, permaneceu inexplicavelmente intacta, sem se molhar. Sinto que há um significado tanto no fato de o copo ter se partido quanto na Imagem não ter sido molhada. Qual seria a interpretação?”*
-
-Você fala em Ofício Religioso Regular, mas não há uma data fixa?
-
-*Resposta: “Sim, há uma data estabelecida.”*
-
-Qual é a data estabelecida?
-
-*Resposta: “Foi estabelecida e realizada no dia trinta de março.”*
-
-Não, refiro-me à data mensal que foi determinada.
-
-*Resposta: “Ah, sim, sobre isso...”*
-
-Ora, se é um Ofício Religioso Regular, deve haver um dia do mês que foi fixado, não é mesmo?
-
-*Resposta: “Sim, há.”*
-
-Então, qual é a data estabelecida?
-
-*Resposta: “É o dia vinte e oito.”*
-
-Dia vinte e oito... mas aqui as datas são diferentes, como dia trinta. Adiantar a data estabelecida é aceitável, mas atrasá-la é extremamente prejudicial. É fundamental que saibam disso. Todos os assuntos relativos a Deus e aos budas podem ser antecipados, mas jamais adiados. Qual foi o motivo desse atraso?
-
-*Resposta: “Foi devido à conveniência do responsável do Johrei Center...”*
-
-Se os assuntos de Deus são adiados pela conveniência do responsável, isso significa colocar o responsável acima de Deus. Trata-se de uma ofensa gravíssima. Depois, a cerimônia seguinte foi no dia vinte e seis de abril, o que é muito cedo. Na verdade, antecipar em demasia também não é o ideal, mas é consideravelmente melhor do que atrasar. Qual o motivo dessa antecipação? Foi novamente por conveniência do responsável?
-
-*Resposta: “Não, creio que foi um erro de escrita. Em abril, realizamos no dia vinte e oito.”*
-
-Foi um erro de escrita, então... De todo modo, se houver a determinação de cumprir rigorosamente a data estabelecida para o Ofício Religioso Regular, haverá a proteção divina e tudo transcorrerá de maneira favorável. Contudo, quando há frouxidão no coração, surgem toda sorte de impedimentos. O mesmo se aplica às vindas a Atami. Se a pessoa decide firmemente: “Na próxima vez, irei a Atami em tal dia, sem falta”, ela consegue vir sem nenhum obstáculo. Todavia, se pensa: “Irei se for conveniente” ou “Verei como as coisas estarão na ocasião”, certamente surgirá um imprevisto. Os espíritos malignos estão sempre à espreita, buscando uma oportunidade para interferir. Uma frouxidão no coração lhes abre uma brecha. Se a postura for: “Irei ainda que chova ou que caiam lanças do céu, aconteça o que acontecer”, os espíritos malignos de forma alguma conseguirão interferir. Com uma decisão firme, não ocorrem equívocos.
-
-Ademais, você menciona a “Imagem de Gobyobu Kannon (御屏風観音) sobre o suporte ritual”, mas por que motivo ela está colocada em um suporte como esse?
-
-*Resposta: “Sim, como não possuímos oratório, nós a cultuamos sobre um suporte ritual.”*
-
-Isso está incorreto. O lugar daquela Imagem é no oratório. Cultuá-la e orar em outro local é um equívoco. Há uma forma determinada para sua entronização, dentro de um oratório, e vocês devem seguir essa orientação. Se não for para proceder da maneira correta, é preferível não a cultuar. Quando os seres humanos alteram aquilo que Deus determinou, estão se colocando acima Dele. O copo ter se partido foi uma advertência divina por estarem cometendo esse erro.
-
-**4. Como devem proceder os locais cujo Ofício Religioso Mensal é no dia vinte e três por ocasião do Culto do Natalício**
-〔Ensinamento de 1º de dezembro de 1952〕
-
-*Pergunta: “O dia vinte e três de dezembro é o Culto do Natalício, mas parece que muitos locais realizam o Ofício Religioso Mensal nessa mesma data. Gostaríamos de alterar a data apenas neste mês...”*
-
-Não há problema. A data pode ser qualquer uma.
-
-*Pergunta: “Pois seria mais apropriado participarmos do Culto do Natalício.”*
-
-Aquilo que foi estabelecido deve ser cumprido. E o Culto do Natalício possui um significado distinto.
-
-**5. (No exterior) Sobre estabelecer o Ofício Religioso Mensal por dia da semana**
-〔Ensinamento de 1º de maio de 1952〕
-
-*Pergunta: “Trata-se de uma pergunta de um membro do Havaí. Para a realização do Ofício Religioso Mensal, lá eles costumam determinar a data pelo dia da semana em vez do dia do mês. Gostaríamos de saber se isso seria permitido.”*
-
-Sim, não há problema.
-
-*Pergunta: “Poderia ser aos sábados?”*
-
-Perfeitamente. O sábado talvez seja o melhor dia.
-
-*Pergunta: “Parece que eles não utilizam a sexta-feira para esses fins.”*
-
-É porque é o dia da Paixão de Cristo, não é? A sexta-feira treze.
-
-*Pergunta: “Como há quatro semanas no mês, não é necessário fixar como, por exemplo, ‘o primeiro sábado’?”*
-
-Não é necessário fixar, mas o primeiro é melhor. Tudo o que é feito antes é melhor. O que vem primeiro se torna a base. Por esse motivo, estabeleci esta reunião para o dia primeiro. Além disso, do ponto de vista numérico, os números divisíveis — os pares — correspondem ao princípio positivo. Portanto, também é válido ajustar as datas de acordo com a natureza dos números ímpares e pares.
-
-### Seis. Práticas Litúrgicas
-
-#### Um. Entronização e Manuseio da Imagem Sagrada
-
-**1. Sobre a escolha da data para a entronização da Imagem Sagrada**
-〔Luz do Ensinamento, nº 22, 25 de março de 1951〕
-
-*Pergunta: “Para o dia da entronização da Imagem Sagrada, deveríamos evitar os dias dois, quatro, seis e nove? Respeitosamente, solicito sua orientação.”*
-
-Não há uma regra fixa nesse sentido, mas é preferível que seja um dia auspicioso. Dias auspiciosos são aqueles com os números um, cinco e oito. O significado é o seguinte: o um representa o início, a origem, o Deus Supremo; o cinco representa o surgimento, o fogo, o princípio positivo, sendo o número supremo; o oito, composto por cinco e três, representa Izunome, o fogo e a água, o ato de emanar, abrir, expandir, a forma do Monte Fuji, o número infinito. O onze representa a unificação, o entrelaçamento do vertical e do horizontal que dá início às coisas. O quinze representa a unificação que resulta no surgimento. O dezoito representa a unificação que resulta na abertura, é a soma de cinco, seis e sete, e de três, seis e nove, e também representa a energia vital, sendo extremamente auspicioso. O vinte e um significa que dois se unem para dar início, sendo também um bom dia para matrimônios. O vinte e cinco, que é cinco vezes cinco, significa o nascer do sol, tendo um sentido extremamente positivo. O vinte e oito, que significa que dois se unem para abrir, evidentemente é um bom número. Na Índia, quando Kannon (観音) era chamada de Kanjizai Bosatsu, ela possuía vinte e oito servos, conhecidos como os Vinte e Oito Protetores, e o Sutra de Lótus é composto por vinte e oito capítulos. O vigésimo quinto capítulo é o Kannon Fumon-bon, e como Kannon (観音) é um buda solar, ela pertence ao princípio positivo.
-
-Aproveitando a oportunidade, escreverei algo de natureza mística. De modo geral, o ensinamento budista está associado ao número sete. Isso porque o Buda Shakyamuni é o Miroku do elemento terra, e terra corresponde ao sete. O dobro de sete é catorze, e o dobro deste é vinte e oito. Se considerarmos que o três representa a água e a lua, então o budismo é um ensinamento da lua e da terra. A palavra "Índia" (印度) significa, em seus ideogramas, "lua" e "terra". Trata-se da terra do princípio negativo, e antigamente a Índia era chamada de "País da Lua", o que elucida o significado do budismo.
-
-**2. Não é permitido entronizar duas Imagens Sagradas em uma mesma residência**
-〔Palestra de novembro/dezembro de 1949〕
-
-*Pergunta: “Em uma casa com duas alcovas sagradas, seria correto entronizarmos a Imagem de Daikomyo Nyorai em uma e a de Komyo Nyorai na outra?”*
-
-Não há nenhuma necessidade disso. Basta entronizar uma delas na melhor alcova sagrada. Cultuar ambas é, em verdade, uma falsidade.
-
-**3. Não é permitido entronizar duas Imagens Sagradas em uma mesma residência**
-〔Ensinamento de 1º de abril de 1951〕
-
-*Pergunta: “Recebi as Imagens de Komyo Nyorai e Daikomyo Nyorai, mas como disponho de apenas um cômodo, não consigo entronizá-las.”*
-
-Não se deve ter duas Imagens Sagradas em uma mesma residência. Deve haver apenas uma.
-
-**4. A Imagem Sagrada (e o retrato) não deve ser movida desnecessariamente**
-〔Palestra de novembro/dezembro de 1949〕
-
-*Pergunta: “Durante os cursos de formação, por falta de espaço no Johrei Center, alugamos pousadas. Nesses casos, temos entronizado temporariamente a Imagem de Daikomyo Nyorai na alcova sagrada da pousada para realizar os cursos. Esse procedimento é correto?”*
-
-Não, não é correto. Isso é um equívoco... Sim, se for necessário pendurar um pergaminho, em vez da Imagem de Komyo Nyorai, seria apropriado utilizar uma caligrafia como “Luz” ou “Verdade, Bem e Belo”.
-
-**5. A permissão para subir no telhado acima da Imagem Sagrada para reparos**
-〔Palestra de 13 de abril de 1950〕
-
-*Pergunta: “Em regiões de neve, é frequente subirmos no telhado para remover a neve ou para consertar o telhado de colmo. Nas casas onde a Imagem de Komyo Nyorai está entronizada, deveríamos removê-la temporariamente?”*
-
-Isso não representa problema algum. O objetivo é reparar o telhado, portanto, não constitui desrespeito. Em casos como goteiras, Deus também concede Sua permissão. Deus é uma presença que compreende tudo perfeitamente, portanto, basta agir de forma apropriada conforme a situação.
-
-**6. A uma pessoa que removeu a Imagem Sagrada para consertar o telhado**
-〔Ensinamento de 1º de agosto de 1953〕
-
-*Pergunta: “Ao tentar fechar a porta de correr em frente ao Altar, forcei-a e ouvi um grande estrondo. O retrato de Meishu-Sama caiu no chão, o vidro quebrou e a barra de seu hakama sofreu um dano do tamanho de uma picada de alfinete e mais dois ou três arranhões. A montagem inferior da Imagem Sagrada foi atingida por um estilhaço de vidro, resultando em um corte de cerca de um centímetro, e um pouco de chá foi derramado sobre ela. Refiz a montagem e a trouxe hoje. Peço imensas desculpas.”*
-
-Deixe-me ver. Se não houver problema, eu a purificarei.
-
-*Pergunta: “A esse respeito, ocorreu algo anteriormente. Um profissional precisou subir no telhado para consertar a calha, e por esse motivo, a pessoa removeu a Imagem Sagrada e o retrato.”*
-
-Aí está o erro. Foi errado tê-los removido naquela ocasião.
-
-*Pergunta: “Mas uma pessoa subiria no telhado...”*
-
-Quando alguém sobe, basta pedir perdão a Deus. O erro foi ter movido a Imagem.
-
-*Pergunta: “Fiz isso por considerar um ato de reverência...”*
-
-Não é assim. Tratava-se de um conserto, algo inevitável. Deus permite. Se não se sobe no telhado, o conserto não pode ser feito, e se a calha não for reparada, haverá prejuízos. Logo, da parte de Deus, não há repreensão. Deus jamais repreende quando há uma justificativa lógica. Ao remover a Imagem, você, na verdade, insultou a Deus. Foi como se O considerasse desprovido de bom senso. Por isso, Deus Se desagradou.
-
-**7. Caso a Imagem Sagrada seja muito comprida (Parte 1)**
-〔Palestra de 3 de março de 1950〕
-
-*Pergunta: “Quando o teto da alcova sagrada é baixo, podemos enrolar a parte superior da Imagem Sagrada?”*
-
-Não, não pode. Se for comprida, basta cortá-la. Não é bom que a parte inferior fique se arrastando. Para um ser humano também seria desconfortável se sua roupa ficasse se arrastando, não é verdade? (Risos)
-
-**Caso a Imagem Sagrada seja muito comprida (Parte 2)**
-〔Ensinamento de 1º de abril de 1951〕
-
-*Pergunta: “Trata-se de um mezanino, e como o teto é baixo, gostaria de saber o que é mais apropriado: enrolar a parte inferior do pergaminho ou deixá-lo arrastando?”*
-
-É absolutamente inadmissível. Ambas as opções estão erradas. Se o pergaminho for comprido, deve-se cortar o eixo. Seria estranho se um ser humano andasse arrastando os pés.
-
-**8. Sobre a Imagem Sagrada balançar com o vento (Parte 1)**
-〔Ensinamento de 1º de agosto de 1951〕
-
-*Pergunta: “No interior, há locais onde a Imagem Sagrada fica muito exposta ao vento. Para fixá-la, seria apropriado usar um peso de pergaminho? Ou um fio...?”*
-
-O fio é a melhor opção. Fixe pregos em ambos os lados e estique um fio. Essa é a melhor maneira. O peso não é adequado, pois se o vento for forte, ele não será suficiente.
-
-**Sobre a Imagem Sagrada balançar com o vento (Parte 2)**
-〔Ensinamento de 1º de abril de 1954〕
-
-*Pergunta: “No verão, abrimos as portas, e quando o vento é forte, a Imagem Sagrada se move. Podemos prendê-la na parte inferior com um fio branco?”*
-
-Sim, podem. Nesse caso, esticar o fio na horizontal é mais seguro.
-
-**9. A direção para a entronização da Imagem Sagrada**
-〔Luz do Ensinamento, nº 21, 25 de fevereiro de 1951〕
-
-*Pergunta: “Recebi a permissão de entronizar a Imagem de Komyo Nyorai, mas minha casa não possui alcova sagrada e, por ser uma residência para duas famílias, o espaço é reduzido. Pretendo fixar uma placa de madeira em uma divisória de papel e criar uma alcova improvisada. Em que direção devo entronizar a Imagem? Solicito sua orientação.”*
-
-A direção pode ser qualquer uma — leste, oeste, norte ou sul. Contudo, a posição deve ser no local de maior honra do cômodo.
-
-#### Dois. Sobre o Cômodo do Altar
-
-**1. Como proceder em residências rurais onde o uso de lenha causa fuligem na Imagem Sagrada**
-〔Ensinamento de 1º de agosto de 1951〕
-
-*Pergunta: “Nas áreas rurais, o uso de lenha para cozinhar faz com que a Imagem Sagrada fique coberta de fuligem, o que tem sido um problema. Seria permitido cobri-la com algo apenas nos momentos de maior sujeira?”*
-
-Podem envolvê-la com um tecido de seda branco. Ou então, fixem pregos — de preferência de bambu — em ambos os lados. Costurem a borda do tecido de seda para formar um laço, mantenham-no enrolado no dia a dia e cubram a Imagem apenas nessas ocasiões. Essa seria a melhor solução.
-
-**2. Sobre cômodos que aproveitam o espaço do sótão**
-〔Palestra, edição especial de abril de 1949〕
-
-*Pergunta: “No caso de um cômodo que aproveita o espaço do sótão, cujo teto é baixo e não permite a construção de uma alcova sagrada, como devemos proceder?”*
-
-Se não houver nada nesse sótão, não há problema em entronizar a Imagem Sagrada na alcova do andar inferior. No entanto, geralmente esses espaços são usados como depósitos. Se o sótão estiver sendo usado como depósito, é melhor não entronizar a Imagem na alcova abaixo. Obviamente, a Imagem não pode ser entronizada no sótão, pois é um depósito. Da mesma forma, não se devem colocar objetos na alcova sagrada. Arranjos de flores e incensários são permitidos, pois são adornos, mas colocar outros objetos a transforma em um depósito, o que é inadequado. Portanto, nesses casos, pode-se pendurar uma caligrafia que não seja a Imagem Sagrada e, dependendo da fé da pessoa, ela certamente conseguirá se mudar para uma casa sem sótão.
-
-**3. Caso o segundo andar seja utilizado como depósito (casas rurais) - Parte 1**
-〔Ensinamento de 1º de maio de 1953〕
-
-*Pergunta: “Nas casas rurais, é comum que o segundo andar, embora existente, seja usado para guardar ferramentas agrícolas, palha e esteiras, o que dificulta a entronização da Imagem Sagrada. Algumas pessoas constroem uma espécie de anexo, como um alpendre, do lado de fora da casa, onde não há segundo andar, para fazer a alcova. Mesmo assim, o segundo andar fica visível nas proximidades. Tal procedimento seria permitido?”*
-
-Nesse caso, dependendo das dimensões do anexo, embora não seja o ideal, é uma solução aceitável. Se o anexo avançar pelo menos um metro para servir de alcova, estaria bom. Se nesse espaço de um metro for colocado um tatame para então se construir a alcova, seria adequado.
-
-**Caso o segundo andar seja utilizado como depósito (armazém de barro) - Parte 2**
-〔Palestra de 3 de maio de 1949〕
-
-*Pergunta: “Atualmente, utilizamos uma sala de um templo como Johrei Center, mas precisaremos desocupá-la. Gostaríamos de alugar o armazém de barro da casa de um parente para realizar as atividades de Johrei. O segundo andar desse armazém é atualmente um depósito sem forro. No térreo, há uma alcova. Seria permitido entronizar a Imagem de Daikomyo Nyorai nesse local?”*
-
-Absolutamente, não. Isso colocaria a Imagem em um nível inferior ao de onde seres humanos habitam, o que seria um desrespeito tremendo. É preferível não entronizar a Imagem em um lugar assim. Portanto, se desejam pendurar a Imagem ali, um depósito não é adequado...
-
-*Pergunta: “Muitas casas rurais são assim. Seria permitido se o andar de baixo for saliente?”*
-
-Mesmo que seja saliente, não pode ser muito próximo ao segundo andar. Se estiver consideravelmente afastado, tudo bem. Essa pessoa deveria construir uma alcova no depósito, colocando um forro e fazendo as devidas reformas. Se não tiver dinheiro para isso, deve orar com fervor e se dedicar de todo o coração, e o dinheiro certamente virá.
-
-**4. Se o segundo andar não for utilizado para guardar objetos, é permitido entronizar a Imagem no andar de baixo**
-〔Ensinamento de 1º de junho de 1953〕
-
-*Pergunta: “Seguindo a orientação recebida no mês passado sobre a entronização da Imagem Sagrada em casas rurais com segundo andar, gostaria de saber se seria permitido caso o segundo andar não seja utilizado de forma alguma.”*
-
-Nesse caso, não há problema. Se não houver nada, está bom. Se objetos forem colocados, a Imagem de Deus ficaria em uma posição inferior a eles; se pessoas circularem por lá, estariam pisando sobre Deus. É isso que não é permitido. Se tais condições não existirem, não há impedimento. A situação se torna equivalente à de um telhado, portanto, é aceitável.
-
-**5. É permitido reformar um cômodo de criação de bicho-da-seda (com boa vista, no segundo andar) para entronizar a Imagem Sagrada?**
-〔Ensinamento de 8 de outubro de 1951〕
-
-*Pergunta: “Em uma casa de campo, para entronizar a Imagem Sagrada no segundo andar, gostaríamos de reformar um cômodo que é usado para a criação de bicho-da-seda, pois tem uma vista muito boa. Seria permitido?”*
-
-Perfeitamente.
-
-*Pergunta: “Como deveríamos proceder com a alcova sagrada?”*
-
-Basta adequá-la ao formato de um aposento de estilo japonês.
-
-*Pergunta: “O cômodo é voltado para o sul.”*
-
-A orientação para o sul não é um problema. O importante é que a alcova ocupe a melhor posição do aposento. A melhor posição é a mais distante da entrada. Além disso, a disposição não deve obrigar a pessoa a dar as costas à Imagem para sair. O ideal é que esteja na parede oposta à entrada ou em uma parede lateral.
-
-**6. Em caso de teto baixo, é permitido elevar o telhado apenas sobre a alcova sagrada para entronizar a Imagem?**
-〔Ensinamento de 1º de fevereiro de 1954〕
-
-*Pergunta: “Um membro que ingressou na Fé em janeiro do ano passado deseja entronizar a Imagem Sagrada, mas o segundo andar de sua casa é muito baixo, com cerca de um metro de altura nas extremidades. Seria aceitável elevar o telhado em cerca de um metro, apenas na largura da alcova?”*
-
-Nesse caso, sim.
-
-**7. Não é permitido pendurar quadros e outros objetos no cômodo do Altar**
-〔Ensinamento de 1º de dezembro de 1951〕
-
-*Pergunta: “Possuo uma fotografia de uma estátua de pedra de Kannon (観音) de Datong, na China...”*
-
-Existem muitas estátuas budistas de pedra, de qualidades variadas. Seja em um quadro ou de outra forma, não há problema em tê-la, mas não no cômodo onde se encontra a Imagem de Deus.
-
-**8. No cômodo do Altar, não é permitido pendurar fotografias em que Meishu-Sama não esteja presente**
-〔Luz do Ensinamento, nº 21, 25 de fevereiro de 1951〕
-
-*Pergunta: “Recentemente, ao limpar o Altar, o cabo do martelo de Daikoku quebrou. Essa estátua de Daikoku já existe há dezenas de anos; originalmente, ele segurava uma espada, mas eu fiz um martelo e o coloquei em suas mãos. Mais ou menos na mesma época, a fotografia do Sr. Soosai Shibui (tirada no Grande Culto do Miroku do ano passado), que estava pendurada no mesmo cômodo, inclinou-se cerca de vinte graus dentro da moldura. Seria algum tipo de aviso?”*
-
-(Trecho omitido)
-
-Com relação à fotografia, está determinado que fotografias em que eu não apareço não devem, em hipótese alguma, ser penduradas. Portanto, isso também é uma advertência de seus antepassados.
-
-**Anexo: Não pendurar fotos de falecidos no mesmo cômodo onde há uma caligrafia de Meishu-Sama**
-〔Palestra de 28 de maio de 1948〕
-
-Fotografias de falecidos podem ser penduradas em qualquer lugar do cômodo do oratório budista. No cômodo onde houver uma caligrafia minha, não é permitido. Contudo, se for inevitável, pode-se pendurá-la o mais distante possível da caligrafia.
-
-As Imagens de Gobyobu mais antigas continham o nome de um templo, mas isso foi feito apenas por exigência das autoridades da época. Se desejar entronizar uma nova, pode fazê-lo e doar a antiga a outra pessoa.
-
-#### Três. Sobre a Alcova Sagrada
-
-**1. É permitido o culto em uma alcova móvel**
-〔Palestra de 3 de abril de 1950〕
-
-*Pergunta: “Em uma casa sem alcova sagrada, ao entronizar a Imagem, seria permitido usar uma alcova móvel?”*
-
-Sim, seria. Afinal, não há outra alternativa.
-
-**2. Sobre as paredes da alcova sagrada**
-〔Ensinamento de 1º de dezembro de 1953〕
-
-*Pergunta: “Um membro construiu uma alcova sagrada, mas foi informado de que, por via de regra, a parede frontal da alcova não deve ser rebocada. Ele, no entanto, disse que não gostava da aparência e pediu que rebocassem tudo, mas o construtor se recusou.”*
-
-Tanto faz. Isso não é uma questão relevante. Embora seja costume não rebocar, a decisão pode ser tomada de acordo com a preferência da pessoa, sem problema algum. Não é um assunto de grande importância; é apenas uma questão de argamassa. Casas com a parede sem reboco também se queimam em incêndios e sofrem desastres.
-
-**3. Exemplo de permissão para manter uma alcova invertida**
-〔Ensinamento de 8 de novembro de 1951〕
-
-*Pergunta: “A alcova sagrada fica perto da entrada, enquanto a parte dos fundos do cômodo é um assoalho de madeira sob um teto rebaixado.”*
-
-Não é uma boa disposição. Não é recomendável. Seria bom consertar.
-
-*Pergunta: “Seria preciso demolir o teto...”*
-
-Não é possível construir uma boa alcova do outro lado? Embora não seja o ideal, a reforma seria muito trabalhosa, não? Se for possível consertar, seria melhor, mas se não for, é tolerável. Se estivessem construindo uma casa nova, poderiam fazer do jeito certo. Se tiverem paciência, é possível manter assim. Não é uma situação tão ruim. O pior mesmo é construir o quarto dos filhos no andar de cima e o dos pais no de baixo. Nesse caso, os filhos se tornam desobedientes. Isso, sim, precisa ser corrigido de qualquer maneira.
-
-**4. A posição do Altar no segundo andar e a escada**
-〔Ensinamento de 1º de dezembro de 1951〕
-
-*Pergunta: “Estamos reformando a escada do segundo andar para que ela dê acesso ao cômodo dos fundos, onde a Imagem de Daikomyo Nyorai está entronizada. Gostaríamos de evitar que a alcova fique em uma posição de retorno...”*
-
-O ideal é que não fique em uma posição de retorno. Devido à estrutura da casa, o que é inevitável, é inevitável, mas, na medida do possível, deve-se evitar essa disposição. Se a escada ficar na lateral, não há problema. Na lateral é aceitável, mas o retorno não é bom. Desde que não haja retorno, a direção da escada não importa.
-
-**5. Sobre a posição da alcova e das prateleiras escalonadas**
-〔Ensinamento de 8 de outubro de 1951〕
-
-*Pergunta: “Normalmente, a alcova é composta por metade de prateleiras escalonadas e metade de espaço livre. O centro é a posição correta?”*
-
-Isso mesmo. Assim está bom. E ao dividir o espaço ao meio, as prateleiras escalonadas ficam do lado mais próximo da entrada, e a alcova propriamente dita, do lado mais distante. A alcova fica na parte mais profunda do cômodo. Procedendo assim, fica claro qual é o lugar de honra.
-
-*Pergunta: “Na minha casa está ao contrário...”*
-
-Existem muitos casos assim.
-
-*Pergunta: “A alcova fica perto do corredor e as prateleiras, mais distantes...”*
-
-A referência não é o corredor, é a entrada. Estou me referindo à entrada. Não importa se a alcova fica do lado do corredor. As pessoas entram e saem pela entrada, não é? Pelo corredor não se circula tanto. Portanto, a referência é o lado mais distante da entrada.
-
-*Pergunta: “O local onde a Imagem está entronizada fica acima da entrada do andar de baixo. Isso tem alguma relação?”*
-
-De forma alguma. O segundo andar é independente do andar de baixo. Basta considerar a disposição do segundo andar.
-
-**6. Não há problema se o banheiro ficar atrás da alcova sagrada (Parte 1)**
-〔Palestra de 23 de abril de 1949〕
-
-*Pergunta: “É comum encontrar casas onde o banheiro fica localizado atrás da alcova sagrada. Isso representa algum problema?”*
-
-Não há problema algum. Se nos preocupássemos com isso, ninguém conseguiria entronizar a Imagem. Existem inúmeras casas assim. Dentro do banheiro, sim, seria inadmissível (risos), mas se houver uma parede, está tudo bem (risos).
-
-**Não há problema se o banheiro ficar atrás da alcova sagrada (Parte 2)**
-〔Ensinamento de 1º de dezembro de 1953〕
-
-*Pergunta: “Gostaria de saber se há problema em o banheiro estar localizado do outro lado da parede da alcova sagrada.”*
-
-Não há problema. Muitas casas são assim; se nos preocupássemos com isso, seria uma grande complicação.
-
-### Sete. Unidade de Difusão (e Local de Reunião)
-
-**1. Sobre a necessidade de entronizar Imagens Sagradas distintas na unidade e na residência (Parte 1)**
-〔Ensinamento de 1º de abril de 1951〕
-
-*Pergunta: “Foi ensinado que não se deve ter duas Imagens Sagradas em um mesmo local. No entanto, há o espaço onde os membros vêm orar e o cômodo dos fundos, onde eu resido...”*
-
-Ah, nesse caso, é correto ter duas. Uma delas é para a igreja, que é de natureza pública, então não há problema.
-
-**Sobre a necessidade de entronizar Imagens Sagradas distintas na unidade e na residência (Parte 2)**
-① **Regra Geral**
-〔Ensinamento de 1º de agosto de 1953〕
-
-*Pergunta: “A igreja e minha residência ficam no mesmo imóvel. A Imagem Sagrada que estava entronizada em uma edícula foi transferida para a área da igreja, por estar dentro da mesma propriedade. O procedimento está correto?”*
-
-A Imagem de Komyo Nyorai ficará separada da igreja? Se for assim, está certo.
-
-*Pergunta: “É uma só.”*
-
-Devem ser separadas. Caso contrário, há uma confusão entre o público e o privado. A igreja existe para as atividades religiosas, sendo uma entidade pública, enquanto a Imagem na residência particular destina-se à proteção do lar, o que é algo distinto.
-
-② **Flexibilidade Conforme a Situação**
-〔Ensinamento de 1º de agosto de 1953〕
-
-*Pergunta: “Em uma residência sem edícula, uma única Imagem Sagrada seria suficiente?”*
-
-Isso deve ser avaliado com flexibilidade. Em uma casa ampla, é melhor ter Imagens separadas, mas em uma casa pequena, uma só é suficiente. Se houver espaço suficiente para delimitar claramente a área da igreja e a da residência, o ideal é separá-las. Além disso, em situações de urgência ou por diversas outras razões, até que as condições melhorem — como em casos de uma alcova pequena ou um Altar modesto —, é permitido o uso combinado. Posteriormente, quando a disposição do cômodo permitir uma separação adequada, deve-se proceder como expliquei.
-
-**Anexo**
-〔Ensinamento de 1º de julho de 1951〕
-
-*Pergunta: “Recebemos o ensinamento de que não se deve entronizar duas Imagens Sagradas em uma mesma casa. Contudo, em uma propriedade rural, o irmão mais velho mora na casa principal e o mais novo, em uma edícula, e ambos têm a Imagem Sagrada entronizada. Temos frequentado a casa do irmão mais novo para reuniões.”*
-
-O irmão mais velho zela pela casa, enquanto o mais novo se dedica à difusão religiosa. Sendo assim, não há problema em serem separadas; na verdade, essa é a forma correta. Um protege a casa da família — pois os antepassados, embora presentes, não apreciam desordem —, e o outro se dedica principalmente à difusão. São finalidades distintas, portanto, está correto.
-
-*Pergunta: “A casa principal não tem um bom cômodo, mas a edícula foi construída de forma esplêndida.”*
-
-Assim está bom. No Mundo Espiritual, a edícula se tornou o centro.
-
-**2. Sobre emprestar a Imagem Sagrada para um local de reunião**
-〔Palestra de novembro/dezembro de 1949〕
-
-*Pergunta: “Gostaria de saber se posso emprestar temporariamente a Imagem Sagrada que recebi para ser entronizada em um posto avançado do Johrei Center.”*
-
-Não há problema, desde que a Imagem seja entronizada e cultuada permanentemente lá. Da mesma forma, é aceitável emprestá-la a alguém provisoriamente, até que essa pessoa receba a sua própria.
-
-**3. Sobre devolver ao proprietário original a Imagem Sagrada de uma unidade de difusão**
-(Nota) Consultar atentamente a parte sublinhada no item anterior.
-〔Ensinamento de 1º de outubro de 1953〕
-
-*Pergunta: “O irmão mais velho, que recebeu a Imagem Sagrada, ainda não pôde entronizá-la por não ter a montagem pronta. Seu irmão mais novo abriu um posto avançado com ela. Caso o responsável do posto mude, a Imagem Sagrada deve permanecer no local?”*
-
-E o que o irmão mais velho está fazendo?
-
-*Pergunta: “Devido a questões familiares, ele não pode entronizá-la.”*
-
-E por isso a passou para o posto avançado? O irmão mais velho é chefe de unidade?
-
-*Pergunta: “É um membro comum.”*
-
-Ele continua na Fé?
-
-*Pergunta: “Sim, continua.”*
-
-Se o irmão continua na Fé, não há problema.
-
-*Pergunta: “E quando o irmão mais velho receber a permissão para entronizá-la?”*
-
-Ele deverá receber uma nova. A Imagem do posto avançado não pode ser movida.
-
-*Pergunta: “Então a Imagem atual do posto avançado deve permanecer como está?”*
-
-Sim. Aliás, o tratamento dado às minhas fotografias e às Imagens Sagradas é diferente. A diferença é que a fotografia está em um nível superior, portanto, não admite nenhuma flexibilidade. Foi por isso que fui rigoroso sobre o assunto da outra vez. É natural que seja assim, pois sou eu quem escreve as Imagens Sagradas, e aquele que escreve está acima do que é escrito.
-
-### Oito. Oração, Súplicas e Assuntos Correlatos
-
-**1. O que deve vir primeiro, a Oração Amatsu-Norito ou as súplicas?**
-〔Luz da Sabedoria, nº 6, 20 de julho de 1949〕
-
-*Pergunta: “O que deve ser feito primeiro: a Oração Amatsu-Norito ou as súplicas?”*
-
-O correto é entoar primeiro a Oração Amatsu-Norito. As súplicas, por serem de natureza pessoal, devem vir depois. O principal objetivo de entoar a oração é purificar o Mundo Espiritual. Além disso, quando a oração é entoada, muitos espíritos se aproximam, pois ao ouvi-la, eles se elevam espiritualmente. A oração também tem como eixo central a expressão de gratidão a Deus.
-
-**2. Ao fazer uma súplica a Deus, mentalizá-la tem o mesmo efeito que expressá-la verbalmente?**
-〔Palestra de 18 de janeiro de 1949〕
-
-*Pergunta: “Ao fazer uma súplica a Deus, podemos considerar que mentalizá-la tem o mesmo efeito que expressá-la verbalmente?”*
-
-Não, é diferente. Por exemplo, se eu apenas pensar em lhe oferecer um banquete, você não se sentirá nem um pouco satisfeito, não é mesmo? (Risos) É fundamental que as coisas se manifestem na forma. Portanto, devem ser expressas também em palavras. Bem, apenas pensar já é melhor do que não pensar...
-
-**3. Sobre a forma de orar em grupo**
-〔Palestra de 3 de junho de 1949〕
-
-*Pergunta: “Até agora, eu fazia minhas súplicas durante a prostração, mas atualmente não há tempo para isso. Como devo proceder?”*
-
-Quando se está em um grupo grande, é melhor não fazer súplicas, pois tomaria muito tempo. Basta fazer seus pedidos em momentos oportunos no dia a dia. Nós não somos xintoístas, portanto não é preciso seguir formalidades sacerdotais com excesso de cerimônia. Este Caminho engloba tanto o xintoísmo quanto o budismo. Os monges, por exemplo, não batem palmas, não é verdade? Portanto, basta agir com flexibilidade. Apenas não se deve perder a forma de reverência.
-
-**4. Como mentalizar diante do Altar na presença de muitas pessoas**
-〔Palestra de 18 de janeiro de 1949〕
-
-*Pergunta: “Ao orar no Johrei Center, muitas vezes não o faço em voz alta por haver outras pessoas ao redor...”*
-
-Basta agir de acordo com a situação. Há pessoas que murmuram em voz baixa, não é? Daquela forma está bom. Além disso, ao ministrar Johrei, é melhor não mentalizar. Em casos de emergência, é mais eficaz verbalizar a súplica. E em situações de vida ou morte, recorram a mim. Nesses casos, eu, que estou vivo, tenho mais força do que caligrafias ou imagens. Afinal, sou eu o executor dessa obra.
-
-**5. A oração pessoal e a oração com os membros**
-〔Ensinamento de 5 de novembro de 1951〕
-
-*Pergunta: “Quando vou a um posto avançado sob minha responsabilidade, devo orar assim que chego? Os membros costumam se reunir por volta das treze ou catorze horas. Devo orar junto com eles nesse momento?”*
-
-Ao chegar, você vai diretamente para a casa, certo? Nesse caso, ore imediatamente. Quanto antes, melhor. Entoe a oração.
-
-*Pergunta: “Não há problema em fazer junto com os membros?”*
-
-Claro que não há problema. É excelente. Os significados são diferentes. A oração na chegada é para agradecer e pedir proteção para as atividades que se seguirão. A oração com os membros é para a proteção e o agradecimento em nome deles. Com as coisas de Deus, é preciso ser meticuloso.
-
-*Pergunta: “E na hora de ir embora?”*
-
-Na partida, obviamente, deve-se agradecer pelo período de permanência e pedir pela proteção contínua dos membros. Não há problema algum. Ao chegar, se os membros já estiverem reunidos, pode orar junto. Mas se estiver sozinho, o correto é fazer separadamente.
-
-**6. Sobre sentir sono durante a oração**
-〔Palestra, edição especial de julho de 1949〕
-
-*Pergunta: “Desde que ingressei na Fé, já tive a honra de estar em sua presença cinco vezes, mas invariavelmente sinto sono durante a oração e os hinos. Nos ofícios religiosos, a sonolência é ainda mais forte. Qual seria a razão?”*
-
-Isso tem dois significados. Um deles é que o sono vem como uma aversão a Deus. Seu anjo da guarda secundário sofre ao ouvir os hinos. O outro significado ocorre quando há muitos espíritos que desejam ouvir. Nesses casos, é mais fácil para eles escutarem se a pessoa adormecer. Portanto, este último não é um mau sinal. Eu mesmo já passei por isso antigamente.
-
-**7. O número de súplicas**
-〔Palestra de 23 de abril de 1949〕
-
-*Pergunta: “Tenho muitas coisas que gostaria de pedir a Deus. Fazer vários pedidos todos os dias não seria um desrespeito?”*
-
-Pode fazer quantos pedidos quiser. Não há desrespeito algum em pedir. Aliás, pensar que é um desrespeito, isso sim é um desrespeito. Deus é capaz de ouvir e discernir cem ou mil pedidos. O número não é um problema. Se a quantidade fosse um impedimento, a Kannon (観音) de Asakusa estaria exausta. Afinal, milhares de fiéis a visitam todos os dias.
-
-**8. É permitido entoar os poemas da coletânea “Paraíso Terrestre” diante do Altar**
-〔Ensinamento de 1º de junho de 1953〕
-
-*Pergunta: “Seria permitido entoar diante do Altar os poemas publicados na coletânea ‘Paraíso Terrestre’?”*
-
-Perfeitamente. Eles têm o mesmo valor que os Hinos Divinos.
-
-*Pergunta: “Podemos entoá-los de manhã e à noite, assim como os Hinos?”*
-
-Sim. Nesse caso, vocês podem selecionar os que preferirem. É permitido escolher e utilizar livremente aqueles que considerarem de grande benefício para todos.
-
-*Pergunta: “Durante as reuniões de estudo, seria apropriado entoar os Hinos e ler trechos de ‘Crônicas da Fé’ antes e depois?”*
-
-Sim. E vocês também podem comentar o significado dos Hinos, dizendo: “Penso que o sentido é este, que o ensinamento é aquele”. Se isso gerar um bom resultado, está ótimo. Dependendo da situação, se houver uma dúvida sobre um problema específico, é excelente dizer: “Nos Hinos, consta o seguinte, e este provavelmente é o significado”.
-
-**9. Exemplos de preces**
-**a. A escolha de uma profissão**
-〔Palestra, edição especial de abril de 1949〕
-
-*Pergunta: “Eu trabalho com marcenaria e agricultura. Gostaria de saber se tenho chances de prosperar na marcenaria.” (Risos gerais)*
-
-Ao ingressar na Fé e orar com sinceridade, Deus decidirá qual das duas opções é a melhor para você. Geralmente, quando se está em dúvida, se você entregar a questão a Deus sem ansiedade, chegará um momento em que as circunstâncias o levarão inevitavelmente a uma decisão. Basta proceder dessa forma.
-
-**b. A escolha de uma profissão**
-〔Luz do Ensinamento, nº 41, 25 de outubro de 1952〕
-
-*Pergunta: “Ingressei na Fé em junho de 1951 e entronizei as Imagens de Daikomyo Nyorai, Gobyobu Kannon (御屏風観音) e Daikoku. Em dezembro de 1948, iniciei um negócio de extração de pedras no meu endereço atual, fornecendo material para os escritórios de obras públicas da província. Emprego, em média, vinte operários por dia e me esforço na produção e transporte. Contudo, em março do ano passado, sofri um desastre natural com um deslizamento de terra na pedreira, que causou grandes danos a todo o maquinário da usina. Felizmente, não houve vítimas humanas ou animais. Após uma árdua recuperação, continuei a produção até hoje, buscando servir, ainda que minimamente, à sagrada Obra Divina, sob a orientação e o Johrei do Sr. Kaneko, responsável da unidade de Amagi. No entanto, meus negócios não progridem como o desejado. Acidentes com caminhões de carga e falhas recorrentes em equipamentos como motores elétricos, britadores e compressores de ar são frequentes. Além disso, a receita fiscal, talvez por não haver outras usinas nesta área rural, exige uma estimativa de lucro muito elevada, e estou à beira de fechar a fábrica. Isso seria uma purificação pelos meus pecados e máculas? Ou seria um aviso de que esta profissão não é adequada para mim e que chegou a hora de mudar de ramo? Imploro pela sua especial compaixão e por uma orientação de Meishu-Sama que possa me salvar.”*
-
-*“Acrescento, como referência, que de 1928 a 1940, por doze anos, trabalhei no Departamento de Obras Públicas da província. Após me aposentar, abri um escritório de engenharia na cidade de Fukuoka, atuando com projetos e levantamentos topográficos para obras civis em geral. Posteriormente, por dois anos, fui contratado como consultor de projetos sob o apelido de ‘Speed’ pelo Tenente-Coronel C. R. Douglas, comandante das forças de ocupação em Kasugabaru, servindo sob seu comando durante sua permanção, até me retirar e iniciar meu negócio atual.”*
-
-A extração de pedras não é adequada para você; é melhor mudar de profissão. Ore fervorosamente à Imagem de Daikomyo Nyorai, e a próxima atividade surgirá em sua mente. Siga essa inspiração, e tudo dará certo.
-
-**c. Quando não sai água do poço**
-〔Palestra, edição especial de abril de 1949〕
-
-*Pergunta: “Meu vilarejo tem poucos poços, e atualmente muitos deles secaram. O dono de um desses poços é devoto de Inari, mas sua filha acabou de ingressar em nossa Fé. Através do Johrei, a água do poço voltará a jorrar? E seria correto pedir à Imagem de Komyo Nyorai que a água volte?”*
-
-Sim. Em suma, tudo o que contribui para a felicidade das pessoas pode ser objeto de súplica. Não há uma maneira especial de pedir; basta expressar o que se pensa e orar. A água voltará a jorrar. À medida que o número de fiéis aumentar, a água voltará. São os seres humanos que usam a água; portanto, se houver mais pessoas de bem, as bênçãos serão concedidas. Quando há um predomínio de pessoas de má índole, as coisas não ocorrem como se deseja.
-
-**10. Sobre o Altar de uma pessoa que só pode voltar para casa uma vez por semana**
-〔Ensinamento de 8 de setembro de 1951〕
-
-*Pergunta: “Trata-se de uma casa onde a Imagem de Daikomyo Nyorai está entronizada. Após o falecimento de seu irmão, a pessoa foi cuidar da avó idosa que ficou sozinha e acabou assumindo o negócio da família. Com isso, ela só consegue voltar para casa uma vez por semana e está preocupada por não poder cuidar devidamente do Altar. O que ela deve fazer?”*
-
-Isso se refere à situação atual, certo? Ela fica indo e vindo?
-
-*Pergunta: “Ela volta uma vez por semana.”*
-
-E quem fica na casa durante sua ausência?
-
-*Pergunta: “Ninguém.”*
-
-Não há o que fazer. Se é impossível, é impossível. Deus não Se importa com isso. O problema seria se a pessoa tivesse condições de cuidar e fosse negligente. Mas, sendo impossível, não há alternativa. Portanto, ela deve explicar a situação a Deus, dizendo que não pode cuidar diariamente e pedindo Sua permissão. Assim estará bom.
-
-**11. Orientações para quando se deixa a casa por um período prolongado em viagem**
-〔Palestra de 13 de maio de 1949〕
-
-*Pergunta: “Tenho as Imagens de Komyo Nyorai e Gobyobu Kannon (御屏風観音) entronizadas em casa. Quando viajo e me ausento por um longo período, minha família, que não tem fé, não ora e nem sequer limpa o Altar. Nesses casos, seria melhor enrolar os pergaminhos e guardá-los? E seria correto levar o relicário com as tabuletas memoriais do oratório budista para orar durante a viagem?”*
-
-Não é preciso fazer nada disso; pode deixá-las como estão. Se os que ficam não cuidam por falta de fé, é inevitável. Basta que a pessoa, de onde estiver, entoe a oração ou os hinos. Levar o relicário também não é correto. Deve-se deixá-lo onde está e, de longe, voltar-se em direção à casa para orar... Isso é a oração à distância. Os espíritos virão, não importa quão longe estejam.
-
-**Suplemento: Sobre a maneira de bater palmas**
-〔Palestra de 3 de junho de 1949〕
-
-Podem bater palmas, mas façam-no de forma mais suave, quase imperceptível. Bater palmas com força é barulhento e inadequado. Pessoas de fé profunda batem palmas suavemente, enquanto as de fé superficial o fazem com força... É curioso, mas existe essa tendência. Quando muitas pessoas batem palmas juntas, o som se torna muito alto. Em vizinhanças onde as casas são próximas, isso pode incomodar os vizinhos. É preciso bater palmas de leve, com delicadeza. Procedendo assim, podem fazê-lo.
-
----
-
-# Renascimento (I)
-
-**Categoria:** kanren | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## Renascimento (I)
-
-Tenho uma amiga de infância, de nome Minami Chie, que reside em Numazu. Desde o falecimento de seu marido, um próspero empresário, ela vive discretamente, lecionando artes manuais para as jovens da vizinhança, amparada pela renda de alguns imóveis que lhe restaram.
-
-Há cerca de dois meses, Chie me enviou uma carta com o seguinte teor:
-“Gostaria de conversar com você sobre diversos assuntos. Por favor, venha me visitar assim que tiver um tempo livre.”
-Contudo, os dias que se seguiram foram de tal forma atribulados que não encontrei oportunidade para visitá-la até hoje.
-
-Felizmente, hoje é domingo, um dia ensolarado e sem vento, propício a um passeio. Decidi que, após ouvir as preocupações de Chie, se houvesse tempo, iria contemplar as cerejeiras às margens do rio Kano. Com esse plano em mente, troquei de roupa.
-
-Ao sair de casa, verifiquei a caixa de correio e, junto a alguns cartões-postais, encontrei um envelope pesado, selado com três estampas de dez ienes. Não havia endereço nem nome do remetente. O carimbo postal indicava a cidade de Koga, na província de Ibaraki.
-“Não conheço ninguém em um lugar como Koga...”, ponderei, intrigado.
-Todavia, como o horário do trem se aproximava, li apressadamente os postais, guardei o envelope misterioso no bolso e segui para a estação de Shizuoka.
-
-Devido ao bom tempo, a plataforma estava repleta de gente. Toquei o envelope no bolso, ansioso por abri-lo.
-Não tardou para que o trem chegasse.
-Encontrando um único assento vago, acomodei-me e, sem demora, rompi o lacre do envelope.
-
-Dele saíram mais de dez folhas de papel de carta, densamente preenchidas com uma caligrafia miúda. Verifiquei, por precaução, a última página, mas ali também não havia assinatura.
-No entanto, ao reler as primeiras linhas, exclamei involuntariamente: “Ah, então é a Senhorita Rose?”. Senti-me um pouco constrangido, pois o vagão estava lotado.
-
-A carta começava assim:
-“Sou aquela jovem do interior que, no dia cinco do mês passado, durante a audiência com Meishu-Sama, teve a honra de sentar-se ao seu lado no salão principal da Sede Provisória da Igreja Messiânica. Naquela ocasião, recebi o seu cartão de visitas, mas cometi a descortesia de não me apresentar. Peço que me perdoe. O senhor, porém, sorriu e disse que me chamaria de Senhorita Rose. Pois bem, sou eu, a Rose.
-Dirijo-lhe esta carta repentina porque, naquele dia, o senhor me fez perguntas sobre o Johrei, e eu, por minha vez, discorri com uma presunção de conhecimento. Decidi, então, que deveria compartilhar com o senhor a história desta mulher enigmática que sou eu. Sei que é uma grande indelicadeza enviar uma carta tão pessoal a alguém com quem conversei uma única vez, por meros dez minutos. Rogo-lhe, entretanto, que a leia como se fosse um romance de autor anônimo e, ao terminar, a descarte. Afinal, minha vida de fato se assemelha a um romance.”
-
-(II)
-
-Olhei pela janela. As montanhas sobrepostas, veladas por uma névoa esverdeada, e a cor das nuvens esparsas no céu anunciavam a plenitude da primavera. O trem passava, naquele momento, pelas proximidades da estação de Kusanagi.
-
-Continuei a leitura.
-“Não creio que existam, neste vasto mundo, muitas pessoas que tenham vindo à luz com um destino tão cruel quanto o meu.
-Que carma tão nefasto terei acumulado em vidas passadas? Na noite em que nasci, as estrelas no firmamento devem ter ardido com um brilho azulado, como olhos cheios de ódio. Dentre elas, a estrela do meu destino, em particular, deve ter me enviado a este mundo com o propósito de me atormentar por toda a vida. De outro modo, seria inconcebível que um ser humano nascesse sob tais circunstâncias.
-Vivi a amaldiçoar a mim mesma. Vivi de forma autodestrutiva, vendo-me como filha do pecado.
-Hoje, porém, já não alimento tais sentimentos de revolta. Quero apenas deixar registrado, de início, que a mulher que eu era até dois anos atrás vivia a debater-se desesperadamente em meio a um destino perverso, chorando e suplicando a algo ou alguém que a matasse.”
-“Um destino cruel?”, pensei, evocando a imagem daquela jovem que usava uma rosa branca no peito. “Que infortúnio ela teria carregado desde o nascimento?” Retomei a leitura.
-
-“A verdade é que sou uma criança que viu a primeira luz deste mundo na maternidade de um presídio.
-Apenas com esta frase, o senhor talvez não compreenda a dimensão do que digo, de modo que passarei a narrar os fatos em ordem.
-Creio que não houve mulher mais desafortunada que minha mãe. Contam que, noite após noite, era espancada por seu marido alcoólatra e violento — meu pai —, e que seu corpo jamais estava livre de feridas recentes.
-Ainda assim, minha mãe suportava tudo em silêncio. Era uma mulher de princípios antigos, firmemente convicta de que, uma vez casada, jamais deveria, sob qualquer pretexto, cruzar novamente o umbral da casa de seus pais.
-Meu pai, enquanto se limitava a beber e a ser violento, ainda era tolerável. Certo dia, porém, trouxe para casa uma mulher de reputação duvidosa. De forma ostensiva, fazia com que ela lhe servisse saquê e, embriagado, agredia minha mãe, agarrando-a pelos cabelos e arrastando-a pelo chão. A outra mulher, dizem, assistia a tudo com um sorriso nos lábios.
-O limite da resignação foi ultrapassado. A dócil mãe transformou-se em um demônio da vingança. Ela já não era a mesma de antes.
-Naquela noite, enquanto meu pai dormia embriagado, ela montou sobre ele e cravou-lhe uma faca de cozinha na garganta. Em seguida, desfigurou o rosto da rival, que dormia ao lado, com múltiplos golpes. A mulher morreu pouco depois, no hospital para onde foi levada.”
-“Que tragédia insuportável”, refleti. “E a Senhorita Rose, nesse momento, dormia no ventre da mãe?”
-Uma sensação desoladora apossou-se de mim.
-
-(III)
-
-A carta prosseguia. O trem corria agora ao longo da costa de Yui. Alheio à miséria humana, o mar brilhava serenamente.
-“Quando a polícia chegou, minha mãe estava sentada, em estado de torpor, ao lado do corpo inerte de meu pai e da mulher ensanguentada, cujo rosto se assemelhava a uma romã aberta. Levada à delegacia, ela se debatia como uma louca e, rolando pelo tatame da sala de interrogatório, gritava, enfurecida: ‘Quem matou quem? Fui eu a assassinada! Sim, eu fui assassinada!’.
-Ah, mas naquele momento, a própria mãe ignorava por completo que a tênue chama da minha vida já ardia em seu ventre. Dito de outra forma, na noite em que minha mãe assassinou meu pai, eu, de dentro de seu ventre sombrio, testemunhei aquela vingança terrível. Será impróprio dizer isso? Mas que outra forma de viver eu teria, senão atormentando a mim mesma com tal pensamento?
-Ao final do julgamento, considerando as circunstâncias atenuantes, minha mãe foi sentenciada a doze anos de reclusão.
-Nove meses depois, após ser gestada no ventre de uma mãe em uniforme de prisioneira, nasci na maternidade do presídio.
-Dizem que Cristo nasceu sobre a palha de uma manjedoura. Que berço macio e cálido deve ter sido! Pelos campos, ovelhas mansas certamente baliam, celebrando o nascimento do salvador de Israel.
-A minha maternidade, em contraste, era um quarto com um leito frio, em uma prisão lúgubre, cercada por altos muros de pedra. Quem, pergunto eu, celebrou o nascimento daquela criança?
-Logo após o parto, minha mãe foi acometida por uma febre altíssima e morreu em meio a grande sofrimento. O leito de ferro onde me deu à luz tornou-se também o seu leito de morte.
-Após o falecimento de minha mãe, meu pequeno corpo atravessou os portões de pedra e foi entregue aos cuidados de minha tia, em Ibaraki. Neste exato momento, enquanto escrevo esta carta, ela costura no quarto ao lado. É minha grande benfeitora, que, administrando uma modesta loja de variedades, me criou sozinha até hoje.
-Chamei essa tia de mãe e cresci sob seus cuidados até os dezoito anos. Até essa idade, eu nada sabia sobre meu passado. Eu ria como as flores e cantava como os pássaros, e concluí o ensino médio em uma fase de plena felicidade.
-Contudo, na primavera daquele ano, no dia em que voltei para casa com o diploma de formatura, minha tia — a quem eu sempre julgara ser minha verdadeira mãe — revelou-me o segredo sobre minha origem.
-‘Não posso esconder isso para sempre...’, disse ela, em prantos, e contou-me sobre a vida infernal de minha mãe, sua irmã mais nova.
-Ah, a comoção que senti naquele momento... Não há palavras ou pena que possam descrevê-la.
-Amaldiçoei os céus e a terra. ‘Por que eu vim a este mundo?’, perguntava-me, enquanto chorava até rasgar meu lenço em pedaços.”
-
-(IV)
-
-“Amaldiçoei os céus, a terra e a mim mesma. Pensei em suicídio. Se naqueles dias eu tivesse em mãos algo como uma bomba, creio que teria ido ao túmulo de minha mãe e me despedaçado em uma explosão retumbante. Eu queria morrer gritando a toda a humanidade: ‘Vejam, vou me reduzir a pó!’. Não me contentaria com uma morte discreta, como cortar a carótida com uma lâmina. Dia e noite, eu maquinava vingança contra algo ou alguém.
-Entretanto, a necessidade do suicídio desapareceu. Naquele outono, subitamente, comecei a tossir sangue.
-Fui diagnosticada com tuberculose pulmonar. Minha tia, assustada, não poupou despesas com médicos e remédios. Apesar disso, eu não tinha o menor desejo de me curar. Embora me comovesse com seus cuidados afetuosos, meu único anseio era morrer e não lhe dar mais trabalho.
-Haverá paciente como eu? A cada vez que o sangue borbulhava em meus pulmões, eu pensava: ‘Agora vou morrer, agora vou morrer’, e sentia uma alegria que contrastava com o sofrimento físico.
-Certo dia, ouvi o médico sussurrar para minha tia que eu não viveria mais que dois meses. Não me surpreendi. Ao contrário, passei a aguardar ansiosamente o fim desse prazo.
-Ah, dois meses. Eu queria ir logo para junto da minha pobre mãe.
-Contudo, foi nesse estado de espírito que aceitei receber o Johrei, e, como lhe disse quando nos encontramos, fi-lo unicamente por compaixão por minha tia. Enquanto recebia o Johrei, eu o desprezava em meu íntimo, desafiando-o: ‘Vamos, cure meus pulmões, se é capaz. A verdade é que eu quero morrer logo’.
-Acontece que minha tuberculose, antes tão grave, foi curada. Meus pulmões voltaram a funcionar com vigor e, seis meses depois, meu corpo estava mais forte do que nunca.”
-
-Li até este ponto de uma só vez e soltei um longo suspiro. Um sentimento de gratidão ao Criador por não ter permitido a morte daquela jovem encantadora e, ao mesmo tempo, uma dúvida sobre como aquela menina, que se debatia em autodestruição e revolta, havia se transformado em uma pessoa tão serena, turbilhonavam em minha mente.
-O trem acabava de sair da estação de Fuji. Pensei que, se fizesse baldeação para a linha Minobu e fosse a Fujinomiya, encontraria a senhora idosa que, no ano anterior, me presenteara com um manual da Igreja Messiânica. Senti, então, a natureza misteriosa dos laços que unem as pessoas.
-Voltei os olhos para a carta.
-“Depois disso, deparei-me com um fato extraordinário. Vi com meus próprios olhos que o impossível pode, de fato, acontecer. As pessoas costumam dizer que certas coisas são absolutamente impossíveis. No entanto, após presenciar aquele acontecimento, compreendi que seres relativos como nós, humanos, não deveriam jamais usar uma palavra como ‘absoluto’.”
-
-(V)
-
-“Certo dia, minha tia e eu caminhávamos pela avenida principal da cidade, voltando das compras.
-De repente, uma motocicleta surgiu em alta velocidade de uma esquina e, bem à minha frente, tombou com um estrondo. Instintivamente, saltei para trás como se impulsionada por uma mola. Foi por muito pouco.
-No instante seguinte, porém, vi que havia uma criança presa sob as rodas da motocicleta.
-O condutor, conseguindo se levantar, retirou a criança de debaixo do veículo. Ela estava inerte. O homem, abraçado ao corpo mole, gritava por um médico. Tinha o rosto pálido e sangue escorria de sua testa.
-Naquele momento, porém, vários pedestres já se haviam aglomerado, e funcionários saíam das lojas para ver o que ocorrera.
-‘O médico é logo ali. Eu o acompanho’, disse um deles. A criança, nos braços do homem, pendia os braços, sem que se soubesse se estava viva ou morta.
-Mas, no exato momento em que o motociclista se preparava para correr em direção ao consultório, a criança gemeu e abriu os olhos.
-Eram olhos grandes, expressivos e serenos. Sem qualquer sombra de dor, eles fitaram o desconhecido que a segurava.
-Creio que, a esta altura, o senhor já pode imaginar o que aconteceu. O fato extraordinário a que me referi é que a criança estava ilesa.
-Pense bem. Seria possível que, após ser atingida por uma motocicleta em tal velocidade, uma criança não apresentasse sequer um arranhão no exame médico posterior? Os moradores da cidade contam que, logo depois, a criança voltou do consultório caminhando normalmente, de mãos dadas com a mãe, que viera correndo, apavorada.
-Dizem que o próprio médico, perplexo, afirmava que um caso como aquele não acontecia nem em mil. O que o senhor pensa a respeito? Não lhe parece um prodígio?
-Ao voltar para casa, refleti sobre muitas coisas. Pensei que, se a motocicleta tivesse caído para o meu lado, eu poderia ter ficado presa sob as rodas junto com a criança, e talvez tivesse tido uma perna esmagada. Na pior das hipóteses, poderia ter morrido com o crânio fraturado. Questionei-me se deveria atribuir o fato de ter escapado ilesa apenas à palavra ‘acaso’.
-Pensei também na criança, que não sofrera ferimento algum, e indaguei-me sobre o que teria salvado sua vida.
-Coisas que não acontecem nem em mil, podem ocorrer a qualquer momento; coisas que não acontecem nem em dez mil, estão sempre acontecendo. Contudo, não consigo explicar com palavras o que isso significa. O que quero dizer é que, neste mundo, existe algo que transcende até mesmo a física.”
-
-(VI)
-
-“Na verdade, o que eu realmente gostaria de lhe contar ao tomar a liberdade de escrever esta carta não são histórias sobre a cura de uma doença ou sobre sair ileso de um acidente. Trata-se de um milagre muito, muito mais maravilhoso.
-Refiro-me ao fato de que, desde que ingressei na Igreja Messiânica, toda aquela minha angústia foi completamente dissipada. Por favor, não pense que isso é pouca coisa. A pessoa que sou hoje não é a mesma de dois anos atrás. A palavra que melhor me descreve é ‘renascida’. Tornei-me uma mulher inteiramente nova.
-Não foi Cristo quem disse que, se o homem não nascer de novo, não poderá entrar no Reino de Deus? Eu renasci e sinto agora, com todo o meu ser, a felicidade de me encontrar plenamente envolvida no regaço de Deus.
-No momento, só existe em mim o sentimento de gratidão. Compreendi que até mesmo o meu destino funesto — ter nascido no cárcere, do ventre de uma mãe matricida — foi obra de alguma força maior. Ao pensar que, por essa força, eu nasci, cresci, adoeci, fui curada e salva, e que hoje posso viver sob esta luz radiante, não tenho motivos para me queixar de nada.
-O renascimento de um ser humano... Haverá milagre maior na vida? Quem é capaz de realizar tal prodígio? O homem, com suas próprias mãos, não pode fazer outro homem renascer. E quem seria esse ‘alguém’, senão Deus? Gostaria de dizer que hoje compreendo plenamente o significado de entregar-se à Vontade Divina. Por favor, não me repreenda por parecer uma jovem pretensiosa.
-Não sei que provações o senhor enfrentou em sua vida, mas, se porventura se deparar com alguma dor ou tristeza, gostaria que se lembrasse das palavras desta moça inculta do interior. Lembre-se do poder misterioso do Deus Supremo de que fala a Igreja Messiânica — o Senhor, o Altíssimo, o Deus Único.”
-
-A longa carta da Senhorita Rose terminava aqui. Pensei em como existem histórias de vida desoladoras, e senti meus olhos arderem. E pus-me a refletir sobre que poder seria esse da Igreja Messiânica, capaz de fazer um ser humano renascer.
-Uma pessoa passa do negro ao branco; a tristeza de ontem converte-se na felicidade de hoje. Como pode o ser humano, que não consegue tornar branco ou preto um único fio de seu cabelo, transformar-se em alguém completamente diferente de um dia para o outro, sem a atuação de um poder sublime?
-Enquanto pensava na misteriosa conexão que levara uma jovem, a quem eu encontrara apenas uma vez, a me escrever uma carta tão confessional, considerei que o próprio fato de aquela carta ter cruzado campos e montanhas, passado por inúmeras pessoas e chegado especificamente às minhas mãos, era também, em si, um prodígio.
-
-(VII)
-
-O trem chegou à estação de Numazu.
-Da estação, tomei um ônibus para a praia de Sembonhama.
-Fogos de artifício espocavam no céu da cidade; devia estar havendo algum evento.
-Desci na entrada do parque e, atravessando um bosque de pinheiros, cheguei à casa de Chie. “Nos dias de vento, o mar ruge tanto que mal consigo dormir”, ela me escrevera certa vez. De fato, o oceano se estendia logo abaixo, e na areia, em frente à cerca viva, caranguejos vermelhos se moviam furtivamente.
-Chie estava em casa. Brincava com um gato na varanda ensolarada. A aula de artes manuais devia estar suspensa naquele dia.
-“Finalmente apareceu”, disse ela.
-Chie sorriu.
-“Seu objetivo principal era ver as cerejeiras, e minha consulta foi apenas um pretexto, não é?”
-“Bem, é mais ou menos isso”, respondi, rindo também.
-Depois de um pouco de conversa fiada, perguntei:
-“Afinal, que angústia existencial é essa que a atormenta?”
-“Bem... não vá rir, por favor. É um dilema sobre um novo casamento.”
-“Rir? De forma alguma. Eu diria até: parabéns!”
-“‘Eu diria até’ é um cumprimento um tanto estranho.”
-“É que, se fosse motivo para parabéns, não haveria necessidade de consulta, certo?”
-“Resposta exata”, disse Chie com um sorriso melancólico. E ficou em silêncio, pensativa.
-“Posso até desistir de ver as cerejeiras do rio Kano. Conte-me o que a aflige”, insisti.
-Então, com uma expressão séria, Chie perguntou:
-“Eu, que até esta idade nunca amei ninguém, queria saber... essa dor que às vezes me aperta o peito... isso é o amor?”
-“Sim. Pelo menos, aquela sensação de euforia certamente não é o amor verdadeiro”, respondi, também em tom sério.
-“O pretendente ficou viúvo há cinco anos e, desde então, criou sozinho sua única filha. A moça casou-se no ano passado... e foi então que ele decidiu que se casaria novamente. E a proposta foi feita a mim. Conheço-o bem, pois a filha dele frequentava minhas aulas de artes manuais. Ele leciona literatura inglesa na universidade. É um cavalheiro muito afável...”
-“Nesse caso, não há com que se preocupar. Meus parabéns, de fato e de direito. O melhor a fazer é caminhar logo para o altar.”
-Chie permaneceu em silêncio. Senti-me um tanto desanimado e acendi um cigarro.
-Após um instante, ela disse:
-“Na verdade, a pessoa que às vezes me aperta o peito não é ele. É um homem intelectualmente muito inferior, incomparável a ele. Mas, por algum motivo, não consigo esquecê-lo. O que se passa comigo?”
-
-(VIII)
-
-Fiquei desolado. “Por que nós, seres humanos, somos feitos de uma forma tão complicada?”, pensei.
-O homem que a pedia em casamento era gentil e confiável; ela o respeitava, mas não sentia por ele um amor ardente.
-O outro homem, de intelecto limitado e indigno de respeito, era quem, dolorosamente, povoava seus sonhos noite após noite. Como dizia Chie, o que se passava, afinal?
-“Não sei”, respondi, meneando a cabeça.
-“É natural que não saiba. Nem eu mesma sei”, disse Chie, rindo.
-“Não, não é isso. O que não entendo não são os seus sentimentos, mas sim a forma como elementos opostos coexistem no afeto de uma mulher por um homem. Por exemplo, amor e ódio, respeito e desprezo, mente e corpo...”
-“Deixemos as teorias complicadas de lado. O que eu quero saber agora é se devo ou não me casar com o professor universitário.”
-“É por isso que digo que não sei. Não posso dar uma resposta definitiva. As colunas de conselhos em jornais e revistas femininas certamente recomendariam o casamento com o professor.”
-“Mas, já que veio até aqui, dizer que não sabe me deixa desamparada. Precisa me dizer alguma coisa...”
-“Mas é o que estou dizendo. É fácil dar o conselho do bom-senso, mas na vida há muitas questões que o bom-senso sozinho não resolve. Se quer se casar de novo, case-se. Não há mais o que dizer. Pode parecer insensível, mas, na verdade, esta é a resposta mais honesta.”
-“E se o problema fosse seu?”
-“Também não saberia. Mas posso dizer uma coisa: a razão humana é algo em que não se pode confiar plenamente. Veja o seu caso. É uma questão extremamente simples, em teoria, mas, na prática, você se sente confusa e incapaz de decidir. Por isso, não entendo as pessoas que tanto enaltecem a razão.”
-“Mas, se não podemos confiar na razão, em que havemos de confiar?”, interrompeu Chie.
-“Claro, a razão deve ser respeitada. Mas, sem o alicerce da fé, há momentos em que a razão deixa de ser funcional. Ditados como ‘Fazer tudo o que está ao alcance humano e aguardar a Vontade Divina’ ou ‘consultar a Deus’ são ensinamentos para vivermos acreditando em algo que transcende a razão, essa faculdade tão precária.”
-Enquanto falava, uma estranha sensação me ocorreu. “Que dia peculiar”, pensei. Pela manhã, ao sair de casa, recebera um envelope com a história do destino singular da Senhorita Rose; agora, ouvia de Chie um relato sobre o caos da psicologia humana. O próprio globo terrestre, essa massa de barro que reúne mais de dois bilhões de seres humanos, fazendo-os chorar e rir, pareceu-me cômico.
-“Vou pensar melhor a respeito”, disse Chie em voz baixa.
-
-(IX)
-
-“Isso. É melhor que você mesma pense com cuidado.”
-Com essas palavras, levantei-me.
-Chie também se levantou, dizendo que me acompanharia, e calçou seus chinelos de madeira.
-Enquanto caminhávamos pela areia do bosque, sob a luz do sol que se filtrava por entre os pinheiros, eu disse:
-“Há um provérbio inglês que diz que a compaixão se assemelha ao amor. O respeito também se assemelha ao amor. Um amor sem respeito é problemático, mas respeito é apenas respeito; não é, em si, amor. Pense bem sobre isso.”
-“Começo a entender que o amor pertence mais ao mundo do instinto do que ao da razão”, respondeu Chie, como se falasse consigo mesma.
-“Talvez, mas esse tal de instinto é uma fera perigosíssima. É por isso que precisamos domá-lo com o chicote da razão. O problema é que a razão, que parece tão confiável, nem sempre o é. E é aí que a palavra ‘fé’ se torna crucial. A fé não é algo que antecede a razão; é como uma estaca que a mantém firme, impedindo que oscile. Uma grande flor de crisântemo em um vaso não se sustenta por seu próprio caule; ela se mantém ereta graças a uma estaca. Da mesma forma, a razão sem fé é como uma folha seca na ponta de um galho, tremulando a cada sopro de vento. É algo instável demais para se contemplar.”
-“Foi justamente por me sentir perdida com este problema que quis recorrer à sua sabedoria”, disse Chie, com a voz embargada.
-“Acontece que a nossa sabedoria é a de meros mortais. Não difere muito da sabedoria de um macaco. É algo incerto”, respondi com sinceridade.
-Caminhamos até a entrada do parque, e de lá tomei o ônibus. Pela janela traseira, vi Chie começar a andar na direção oposta à de sua casa. Provavelmente, para organizar seus pensamentos.
-“O sofrimento tem seu valor”, pensei, enquanto observava a figura de Chie desaparecer atrás do muro do hotel da praia.
-Desci do ônibus na ponte Onaribashi.
-Na relva da outra margem, jovens casais estavam sentados aqui e ali, alguns parecendo contemplar as cerejeiras no barranco, outros parecendo não lhes dar a menor importância. As árvores ainda estavam com oitenta por cento de suas flores abertas.
-Enquanto atravessava a ponte lentamente, senti como se tivesse cometido um pecado. Falei de grandes coisas, como o mundo da fé, mas, afinal, em que eu estava dizendo para Chie acreditar? Como diz o ditado, até na cabeça de uma sardinha se pode ter fé, mas eu não poderia lhe oferecer a cabeça de uma sardinha. Não creio que meu conselho estivesse errado, mas dificilmente poderia ser chamado de gentil.
-Talvez eu devesse ter dito a Chie: “Desista desse homem em quem não se pode confiar e case-se com o professor universitário. É o bom-senso. Levei trinta anos para perceber que o bom-senso é, em si, a própria religião. A fé, pode-se dizer, é o coração que repousa no bom-senso.”
-
-(X)
-
-Enquanto atravessava a ponte, lembrei-me subitamente do templo Shunju-ji, situado à sombra do monte Kanuki. Talvez porque soubesse que ao lado de seu portão havia uma magnífica e antiga cerejeira.
-Naquele templo, vive um interessante monge zen chamado Genkai, meu amigo desde os tempos de escola. “Ótimo, vou visitar Genkai”, decidi.
-A cerejeira ao lado do portão do templo também estava com cerca de oitenta por cento de suas flores.
-Entrei pelo pátio de terra nos fundos do templo principal e chamei:
-“Com licença!”
-“Ora, que visita rara!”, disse Genkai, aparecendo.
-Assim que entrei no quarto que lhe servia de escritório e dormitório, antes mesmo que eu me sentasse, Genkai comentou:
-“Você deve estar muito ocupado. Os leigos são dignos de pena.”
-“Pelo contrário, estou desfrutando de dias de completa tranquilidade”, retruquei, sem me dar por vencido.
-“Não tente disfarçar. Seus olhos não param quietos.”
-“Hahaha. Confesso, estou um pouco ocupado. Por isso, estou longe do estado de espírito de que ‘a serenidade é o tesouro do nobre’.”
-“Sua aparência não é de nobre, mas de mendigo”, disse Genkai, rindo com gosto.
-“Mas você sabe a que tipo de pessoa se refere essa ‘nobreza’?”, perguntei, brandindo minha espada verbal.
-“Ora, essa! Ousando questionar um especialista?”
-“Pois saiba que o nobre, em essência, é como um nabo.”
-“Um nabo?”
-“Exato. O legume.”
-“E qual a razão disso?”
-“Vejo que você nunca leu o Taikoki.”
-“Não, não li.”
-“Pois no Taikoki há a seguinte passagem: certo dia, um pintor visitou Akechi Mitsuhide. Após observá-lo atentamente, pegou uma folha de papel e desenhou um nabo. Ao lado, escreveu o elogio: ‘A serenidade é o tesouro do nobre’.”
-“E é por isso que o nabo é nobre?”
-“Claro. Que monge zen de raciocínio lento. O nabo não pensa em ganhar dinheiro.”
-“Bem, não importa se eu sou lento, mas Mitsuhide também não deve ter entendido.”
-“Exato. Por isso, pouco tempo depois, atacou o templo Honno-ji e matou Nobunaga. Ele não compreendeu o valor da serenidade.”
-Enquanto conversávamos, ocorreu-me perguntar sua opinião sobre a Igreja Messiânica.
-“Ultimamente, tenho estudado os ensinamentos de Meishu-Sama”, anunciei.
-“A tal da Igreja Messiânica? Deixe isso de lado. É uma tolice.”
-“Por que uma tolice?”
-“Não é aquela religião que cura doenças com amuletos e feitiços para ganhar dinheiro?”
-“E vocês, monges, o que fazem? Não vivem à custa de funerais? Se é para viver do dinheiro do povo, é mais nobre viver da gratidão de quem foi curado do que viver de funerais.”
-
-(XI)
-
-“Monge de funeral, é? Não maltrate tanto este homem de bem.”
-Genkai disse isso com uma expressão genuinamente desolada.
-“Na verdade, até pouco tempo atrás, eu também não dava a menor importância à Igreja Messiânica. Mas, lendo um pouco de sua literatura, descobri que, diferentemente das religiões convencionais, ela é também uma forma de arte.”
-“O que você quer dizer com isso?”
-“Em suma, mesmo quem não acredita em Deus, na verdade, acredita em algo. Pode não acreditar em Jeová, mas acredita nas Musas. A veneração da Virgem Maria no catolicismo tem um forte componente de comoção artística. E eu acho que não há nada de errado nisso. Por isso, na Igreja Messiânica, não se fala apenas de coisas tristes, como a vida após a morte, com um semblante pálido. O ensinamento é: primeiro, a própria pessoa deve alcançar a felicidade. Como alguém, que é um exemplo vivo da infelicidade neste mundo, pode fazer os outros felizes?”
-“E o que é a felicidade terrena?”
-“Ter saúde para trabalhar, poder fazer as três refeições diárias e viver em harmonia com os vizinhos. O que mais se pode querer?”
-“É verdade. Não preciso que você me diga; nós, monges, não temos o direito de falar mal da Igreja Messiânica. Afinal, vivemos de braços cruzados, pensando apenas na vida futura. No mínimo, deveríamos criar bibliotecas em todos os templos para que as pessoas da vizinhança pudessem ler bons livros.”
-“Se você já tem essa autocrítica, merece um elogio. Mas a vida do monge zen de hoje não se resume a murmurar coisas ininteligíveis como ‘O que é Buda? O cipreste no jardim...’? Isso não passa de um passatempo para intelectuais. Pode ser que você se sinta bem, mas ao seu lado há pessoas pobres, doentes, pensando em suicídio.”
-“Você está cada vez mais cáustico. O que o move a proferir palavras tão venenosas?”
-“Não é ódio. Mas é cômico que vocês pensem que podem se salvar através da disciplina, ou seja, pelo próprio esforço. Se é assim, tente produzir uma flor verde com o poder humano.”
-“E o poder do outro?”
-“Pelo menos, é uma atitude mais humilde. Mas, enquanto se discute se é pelo próprio esforço ou pelo poder do outro, ainda não se chegou ao essencial. Na arte, na beleza, existe essa distinção? O que é belo é belo, sem necessidade de explicação.”
-“Isso soa um pouco como o xintoísmo.”
-“Pureza, claridade, retidão e honestidade. Dizem que a união desses quatro elementos forma a ‘verdade’. É um conceito límpido e agradável.”
-“Então, a Igreja Messiânica é xintoísta?”
-“Não há muros tão mesquinhos. É uma praça aberta a todos. A própria palavra ‘Messias’ é de origem cristã; a veneração de imagens de Kannon desenhadas pelo fundador como objeto de culto é um costume xintoísta; e a busca da felicidade através da compaixão de Kannon é um conceito budista. Em suma, é algo artístico.”
-Tarde da noite, deixei o templo Shunju-ji. Genkai, sob a cerejeira do portão, despediu-se:
-“Volte sempre.”
-
-(XII)
-
-O trem de volta estava silencioso.
-O Monte Fuji, sob o céu noturno, despojado de tudo o que era supérfluo, era de uma beleza austera, escura e nítida como se tivesse sido esculpida.
-De repente, pensei em como seria escrever uma biografia de Okada Mokichi.
-Um bebê desnutrido, nascido em um cortiço, chora incessantemente por leite. O vento sopra forte, fazendo chacoalhar as portas de correr da casa de dois cômodos. O céu prenuncia uma tempestade.
-“Vai chover esta noite. É melhor irmos dormir cedo”, diz o pai, com um ar de resignação.
-“Vou pedir o arroz de amanhã emprestado agora mesmo”, diz a mãe, ajeitando com os dedos os cabelos sem vida.
-Uma vida humilde, na qual, ao anoitecer, carregavam um carrinho de mão com objetos usados para montar uma barraca em uma rua movimentada, a dez quarteirões de distância.
-Okada Mokichi cresceu nesse ambiente. Vivia doente, tossindo constantemente, mas seus olhos eram límpidos e serenos...
-“Isso daria uma história muito mais interessante do que qualquer ficção”, pensei.
-“Tudo tem uma razão de ser. A Igreja Messiânica também não surgiu do nada. Nenhuma flor desabrocha sem um caule e folhas. E, sob o caule, deve haver uma raiz. Sendo assim, na base mais profunda desta religião, as raízes do homem chamado Okada devem estar fincadas. Poderia o cristianismo existir sem a figura de Jesus, o filho do carpinteiro? A raiz da Tenrikyo é Nakayama Miki; a da Oomoto, Deguchi Nao. Sim, vou começar por desvelar o homem Okada Mokichi em sua essência.”
-Ao pensar nisso, uma passagem escrita pelo fundador veio-me instantaneamente à mente:
-“...Na minha juventude, gostava de ler filosofia. Dentre todas as correntes, a que mais me atraiu foi o pragmatismo de William James. Para James, a teoria filosófica, por mais arguta que seja, não passa de um jogo se não for colocada em prática. Ela só adquire valor quando se manifesta em ações. Identifiquei-me com essa ideia e, naquela época, esforcei-me para incorporar a filosofia em meu trabalho e em minha vida cotidiana.”
-Ele também escreveu:
-“Mais tarde, ao abraçar a religião, compreendi que esse pragmatismo filosófico deveria ser estendido à fé. Criei, assim, o pragmatismo religioso. Qualquer pessoa, independentemente de sua profissão ou condição, pode melhorar seu destino e contribuir para a sociedade manifestando a religião em suas ações.”
-Contudo, o que mais me impressionou foram as linhas seguintes:
-“Porém, por mais que se manifeste a religião em ações, não se deve tornar ‘religioso’ a ponto de exalar um odor de santidade, assim como o missô não deve feder a missô. Há no mundo muitas pessoas que parecem carregar a fé pendurada na ponta do nariz.”
-O trem, com a sombra escura do Fuji refletida em suas janelas, atravessou a ponte de ferro com um estrondo.
-Pensei que o homem chamado Okada era como uma locomotiva.
-
----
-
-# A Luz se Espalha pela Terra (Comentário de Apresentação de Meishu-Sama)
-
-**Categoria:** kanren | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1954-03-15
-
-## A Luz se Espalha pela Terra (Comentário de Apresentação de Meishu-Sama)
-Coletânea de Ensinamentos, nº 31, publicado em 15 de março de 1954
-17 de fevereiro de 1954
-
-Tomei conhecimento, há dois ou três dias, de que o jornal ‘Shizuoka Minpo’ iniciará, a partir de 1º de março, a publicação de uma série de artigos sobre a Sekaikyuseikyou – ou melhor, sobre mim –, que se estenderá por três meses. Não se trata de uma solicitação de nossa parte e, sinceramente, desconheço as intenções por trás da iniciativa; a proposta simplesmente surgiu de forma inesperada. No jornal de anteontem, foi divulgada uma prévia e, como a redação me pareceu bastante interessante, pedirei que a leiam para os senhores.
-
-(Artigo “A Saga da Sekai Meshiya-kyō”, do jornal ‘Shizuoka Minpo’ de 15 de fevereiro)
-
-Li, então, as primeiras vinte páginas do manuscrito e constatei que a redação é, de fato, cativante, despertando viva curiosidade. Dentre os trechos, um em particular me divertiu imensamente. O autor, que esteve aqui uma única vez para uma entrevista, descreveu minha partida da seguinte forma: “Após a conversa e a ministração de Johrei, sua maneira de se retirar assemelhava-se à de um senhor do interior, que caminha apressado, temendo perder o trem.” Achei a descrição muito espirituosa.
-
-O curioso é que, com exceção daquela única vez, nunca mais o encontrei, e tampouco me parece que ele tenha conversado em profundidade com outros membros da Igreja. Portanto, uma vez que a série se estenderá por três meses, aguardo com grande expectativa para ver que fontes ele utilizará e qual será a sua abordagem. A motivação que o levou a idealizar este projeto também me é desconhecida. Creio que tudo se esclarecerá com o tempo; todavia, posso afirmar com certeza que não há má-fé em sua intenção. É inegável que os aspectos positivos desta iniciativa superam os negativos.
-
-Nesse sentido, seria ideal se a publicação ocorresse em um jornal de médio porte, ou quiçá em um dos grandes diários de Tóquio. Contudo, mesmo se tratando de um jornal regional, acredito que tal iniciativa possa ter um efeito catalisador. Eventualmente, poderá instigar outros jornais da capital, ou mesmo revistas de grande circulação, a também se interessarem pelo assunto, despertando a atenção de jornalistas influentes. Ademais, o fato de não ser apenas uma nota, mas uma série contínua por três meses, confere ao material um caráter quase literário, o que o torna, a meu ver, bastante promissor. Sem entrar em maiores méritos, considero a proposta de grande interesse. Imagino que os membros também aguardarão a publicação com grande entusiasmo.
-
-A prévia no jornal veio acompanhada de uma fotografia minha que, segundo dizem, ficou muito boa. Não me cabe julgar se a foto está boa ou ruim, por se tratar de minha própria imagem, mas, ao que parece, saí rejuvenescido.
-
----
-
-# Mestre Nakajima Issei: Sua Fé e Trajetória
-
-**Categoria:** kanren | **Ano:** 昭和36年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1961
-
-## Mestre Nakajima Issei: Sua Fé e Trajetória
-
-Fotografia da capa indisponível.
-
-Mestre Nakajima Issei: Sua Fé e Trajetória
-
-Primeira impressão: 20 de agosto de 1961
-Segunda impressão: 30 de agosto de 1961
-Formato: B5 (aproximado), 246 páginas
-Preço: 200 ienes
-
-Autor: Asō Etsu
-Editor Responsável: Moriyama Jitsutarō
-Gráfica: Isson Insatsu K.K.
-Casa Editorial: Atami Shōji K.K., 112 Tawara-chō, Atami
-
-A folha de rosto da obra contém uma fotografia e uma caligrafia.
-
-※ Agradecemos a colaboração com o fornecimento deste material.
-
----
-
-# Coletânea de Ensaios do Mestre Okada Jikan
-
-**Categoria:** hakkousi | **Ano:** 昭和23年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1948
-
-## Coletânea de Ensaios do Mestre Okada Jikan
-**Informações sobre as publicações da obra Miscelânea sobre a Fé**
-
-**Miscelânea sobre a Fé (Primeira Edição)**
-Publicada em 5 de setembro de 1948
-Formato B6, 117 páginas, Venda proibida
-Editor e Responsável pela Publicação: Fuji Tsunetake
-Gráfica: Nippon Kosei Kanko Tsushinsha
-Editora: Departamento de Assuntos Doutrinários da Nippon Kannon Kyodan
-
-**Miscelânea sobre a Fé (Segunda Edição)**
-Publicada em 5 de março de 1949
-Formato B6, 117 páginas, Preço de capa: 100 ienes
-Autor: Okada Jikan
-Editor: Koizumi Morinosuke
-Impressor: Nishiyama Shunnosuke
-Gráfica: Nisseiki Shuppan Goshi-gaisha
-Editora: Igreja Nippon Miroku
-
-**Miscelânea sobre a Fé (Edição de Cortesia)**
-Publicada em 10 de outubro de 1951
-Formato B6, 106 páginas, Venda proibida
-Autor: Okada Jikan
-Editor: Momomi Seiichi
-Editora: Departamento de Publicações da Sekai Kyusei Kyo
-
-Esta edição de cortesia contou com múltiplas impressões e publicações.
-A Caligrafia Divina presente nesta versão é uma reprodução impressa.
-
----
-
-# america
-
-**Categoria:** hakkousi | **Ano:** 昭和28年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1953
-
-Coletânea de Ensaios do Mestre Okada Jikan
-
-## A Salvação da América
-
-Publicado em 1º de janeiro de 1953
-Formato B6, 148 páginas, distribuição restrita
-Autor: Mokichi Okada
-Editor responsável: Seiichi Momomi
-Editora: Departamento de Publicações da Sekai Kyuseikyo
-
-Trata-se de uma brochura elaborada com o propósito de missionar no exterior, composta por explanações sobre as manifestações patológicas e por relatos de experiências de fé.
-
-Embora a obra tenha sido publicada no Japão, com anúncios veiculados em jornais como o Yomiuri Shimbun, sua edição em inglês foi, na ocasião, postergada.
-
----
-
-# joreiiju
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-――― Coletânea de Teses do Mestre Okada Jikan ―――
-
-## Breve Elucidação sobre a Arte Médica do Johrei
-(Para os que recebem Johrei pela primeira vez)
-
-Publicação em formato B6, com 35 páginas. Por não possuir colofão, a data de sua edição e demais detalhes são desconhecidos. Esta obra reúne diversos artigos referentes ao Johrei.
-
-Artigos da Coletânea
-
-O que é a Doença?... A Terapia Revolucionária da Tuberculose
-A Gênese dos Micróbios............ A Terapia da Fé para a Tuberculose
-A Verdade sobre a Saúde............ O Método Divino para a Saúde
-O Ser Humano, um Recipiente de Saúde............ O Método Divino para a Saúde
-A Medicina Divina
-O Princípio do Johrei............ Edição Especial da Revista Luz
-Quando os Remédios Perdem a Eficácia............ Glória, nº 196
-
----
-
-# Capítulo I: Os Ministros
-
-**Categoria:** kanren | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
-**Título Original:** 伝道の手引き | **Status:** Published | **Edição/Página:** ２号, 9号, 2号 | **Data ISO:** 1949-03-01
-
-## Capítulo I: Os Ministros
-
-### Seção I: Até a dedicação exclusiva à Obra Missionária
-
-**1. Sobre a pessoa que, em meio a infortúnios sucessivos, não consegue se dedicar à difusão como gostaria**
-(Do Myochi no Hikari [Paraíso Terrestre, nº 2], publicado em 1º de março de 1949)
-
-*Pergunta: “Fui vítima dos bombardeios em Tóquio e atualmente resido em outra localidade. Embora mal consiga suportar os sofrimentos materiais e espirituais que se sucedem, desejo do fundo do coração dedicar-me intensamente ao caminho da salvação. Contudo, não consigo fazê-lo como gostaria. Qual seria a razão?”*
-
-Isso ocorre tanto por haver um acúmulo de pecados e impurezas quanto por existir uma grande missão. Pessoas com grandes missões precisam ser mais aprimoradas. Por esse motivo, embora possam enfrentar purificações rigorosas, se possuírem fé, Deus invariavelmente lhes concederá milagres que as tornarão capazes de suportá-las e, por outro lado, lhes proporcionará acontecimentos positivos, infundindo-lhes esperança. Portanto, desde que a fé permaneça inabalável, o sofrimento não será tão intenso, e a situação certamente melhorará passo a passo. Em suma, é preciso compreender que se trata de um sofrimento cujo propósito é conduzir a um bem maior.
-
-**2. Sobre o momento oportuno para se dedicar exclusivamente à difusão**
-(De uma Palestra de Meishu-Sama [julho de 1949], publicada na Coletânea de Palestras, nº 9, edição especial de 30 de julho de 1949)
-
-*Pergunta: “Desde que conheci este Ensinamento, tenho recebido inúmeras e grandiosas graças. Desejo ardentemente dedicar-me em tempo integral a este caminho o mais breve possível e, com tantos pensamentos, já não consigo me concentrar em meu trabalho atual (alfaiataria). Preocupo-me também com questões de subsistência. O que devo fazer?”*
-
-Com efeito, é preciso aguardar o momento oportuno. Para ingressar de forma exclusiva no caminho da fé, também existe um tempo certo. E como saber quando esse tempo chegou? À medida que o momento se aproxima, as circunstâncias gradualmente se ajustam, tudo se alinha e deixa de haver qualquer tipo de empecilho. Não é bom agir forçando uma situação ou passando por cima de oposições. Os resultados de tais atitudes não são favoráveis. Portanto, o melhor a fazer é aguardar pacientemente. Agindo assim, o momento ideal certamente chegará. Isso se aplica a todas as coisas na vida.
-
-**3. Há casos em que Deus (utilizando os espíritos ancestrais) faz com que a pessoa abandone sua profissão**
-
-**① O caso em que as ferramentas agrícolas que vendia deixaram de ser procuradas**
-(De uma Orientação de Meishu-Sama [5 de setembro de 1951], publicada na Coletânea de Orientações, nº 2, em 10 de outubro de 1951)
-
-*Pergunta: “Minha mãe adoeceu em 17 de junho e, em consequência do tratamento médico, sofreu terrivelmente, como se estivesse à beira da morte. Fomos apresentados a este caminho, e em 29 de junho, meus três filhos e eu ingressamos na fé. Consagramos a Imagem de Kannon (観音) e passamos a ministrar-lhe Johrei. No dia 30, ela entrou em estado de morte, e toda a família lamentava. Nesse momento, um relógio de parede que estava quebrado há mais de dez anos começou a funcionar. Enquanto nos dedicávamos fervorosamente ao Johrei, o relógio emitia um som de ‘tic-tac’. Surpresos, fomos ver e, pouco depois, ele parou. Ao retornarmos para junto de minha mãe, ela se encontrava em estado agônico. Em 20 de julho, por volta das nove da noite, ela partiu para o Mundo Espiritual. Naquele instante, uma luz de sete cores preencheu o quarto, e também vimos uma luz no oratório budista. Todos agradecemos. Desde então, como me dedico à fabricação de implementos agrícolas e este ano houve uma seca prolongada, eu estava produzindo equipamentos para bombear água. Contudo, após ingressar na fé, não recebi um único pedido. Gostaria de saber se há nisso alguma Vontade Divina e pedir uma orientação a Meishu-Sama.”*
-
-Isso significa que você deve abandonar essa atividade comercial para se dedicar exclusivamente à religião. Dentre seus antepassados, há um forte desejo de que, por meio da sua fé, você pratique muitas virtudes e que todos eles sejam salvos. Para tanto, como o trabalho no comércio o impede de atuar como gostariam, eles o fizeram parar.
-
-**② O caso em que a pessoa quase morreu na explosão de um poço de gás**
-(De uma Palestra de Meishu-Sama [3 de junho de 1949], publicada na Coletânea de Palestras, nº 12, em 21 de setembro de 1949)
-
-*Pergunta: “Sou proprietário de uma fábrica de vidro e, em março deste ano, consagrei a Imagem Divina. No dia 30 de abril, o poço de gás (gás natural) parou de funcionar subitamente. Rogo a proteção divina para que o gás volte a fluir como antes. Ademais, por se tratar de um poço novo, é inexplicável que ele tenha parado tão cedo. Seria alguma maldição?”*
-
-Provavelmente, são seus antepassados que estão agindo. Bem, não posso afirmar com certeza sem que mais tempo se passe... Certa vez, ocorreu algo semelhante. Havia uma família que, por mais que criasse gado, os animais sempre morriam. Nas outras casas nada acontecia, mas naquela, os animais pereciam. Eu disse à pessoa que aquilo significava que ela deveria abandonar sua profissão e se dedicar exclusivamente à fé. Ela compreendeu e hoje atua com alegria. Talvez o seu caso seja parecido.
-
-*Pergunta: “Além de o poço ter secado, em uma ocasião, quase perdi a vida em um acidente no local.”*
-
-Ah, sim... Talvez seja um sinal para que você abandone essa atividade. Eu mesmo tive uma experiência similar. Em minha juventude, eu pretendia ser pintor, mas precisei desistir por causa de um problema nos olhos. Ainda assim, apegado à arte, comecei a praticar a laqueadura japonesa, o *makie*. Então, Deus finalmente me tirou o movimento dos tendões da mão. Os outros dedos dobram, mas este aqui (o indicador da mão direita) não dobra. Consequentemente, tornei-me incapaz de segurar um pincel e fui forçado a parar. No *makie*, este é o dedo mais utilizado, de modo que não havia mais nada a fazer. Isso, portanto, significava que eu deveria renunciar à laqueadura, pois tinha a missão de me dedicar à Obra de Deus.
-
-**③ Sobre a pessoa que, seguindo a recomendação de um espírito ancestral, dedicou-se exclusivamente à difusão**
-(De uma Palestra de Meishu-Sama [28 de fevereiro de 1950], publicada na Coletânea de Palestras, nº 19, em 13 de junho de 1950)
-
-*Pergunta: “Trabalhei por vinte e sete anos na companhia ferroviária. Em julho do ano passado, toda a minha família ingressou na fé. No entanto, no dia 12 deste mês, um espírito se manifestou em minha esposa e descreveu longamente as paisagens do Mundo Espiritual, do inferno ao céu, ordenando que eu deixasse a ferrovia imediatamente e me dedicasse à Obra Divina. Minha esposa voltou ao normal na noite do dia 22, mas no dia 24, o espírito se manifestou novamente, insistindo que eu não deveria continuar no trabalho. Apresentei meu pedido de demissão sem demora. O chefe da seção, muito gentilmente, sugeriu que eu esperasse pela reorganização de março, mas como a ordem do espírito era estrita para que eu me demitisse até o dia 25, oficializei minha saída. Contudo, ontem, ouvi do presidente da Igreja que a ordem para eu deixar o emprego foi uma travessura de um espírito de raposa, e fiquei absolutamente chocado. Visto que já me demiti, gostaria de me dedicar à Obra de agora em diante. Estaria correto proceder assim?”*
-
-Sim, parece que foi um pouco precipitado. O que se manifestou foi um de seus antepassados. Entre os ancestrais, existem aqueles que são serenos e os que são muito impacientes. Este é um dos impacientes. Uma pessoa impaciente que se utilizou de uma raposa... Portanto, não se trata apenas da raposa. As raposas são hábeis nessas coisas, e por isso os antepassados frequentemente as utilizam quando querem comunicar algo. Há casos em que é apenas a raposa, mas há também situações em que ela serve aos espíritos ancestrais.
-
-Parece que houve um excesso de pressa. Contudo, mesmo que tenha sido prematuro, a diferença de tempo seria mínima. Sendo assim, o correto é seguir adiante, dedicando-se de corpo e alma à Obra Divina. Afinal, não há como mensurar o quanto este trabalho é superior ao da companhia ferroviária. Para o seu antigo posto, há inúmeros substitutos, e a saída de uma ou duas pessoas não fará diferença alguma. Em contrapartida, uma única pessoa que se dedica à Obra Divina realiza algo de imenso valor. Portanto, dedique-se com afinco. É algo magnífico.
-
-**4. Ao fiel que, por estar muito ocupado com o Johrei, teve sua profissão prejudicada**
-(De uma Palestra de Meishu-Sama [dezembro de 1949], publicada na Coletânea de Palestras, nº 17, em 28 de fevereiro de 1950)
-
-*Pergunta: “Há vários anos, recebi o Ohikari e, paralelamente à minha profissão (pescador), tenho auxiliado na salvação de pessoas. Recentemente, porém, essa atividade se tornou tão intensa que quase já não consigo me dedicar à pesca. Gostaria de seguir apenas o caminho da fé, mas minha família e parentes se opõem veementemente. Como devo proceder?”*
-
-Nesse caso, é melhor que se dedique exclusivamente à salvação. A oposição da família e dos parentes não deve ser motivo de preocupação. Ademais, a própria pessoa afirma que "a atividade de salvação se tornou intensa".
-
-Comigo foi assim. Todos se opunham, mas eu me mantive firme e não dei ouvidos a ninguém. Na verdade, não existe nada mais nobre e sublime do que este trabalho. É muito melhor do que pescar peixes para alimentar as pessoas. Há muitos outros que podem ser pescadores; salvar pessoas através deste caminho é incomensuravelmente melhor. O mesmo se aplica à escolha de uma profissão. Deve-se ponderar sobre qual delas trará mais benefícios à sociedade e mais felicidade às pessoas. Uma vez decidido qual é o melhor caminho, siga em frente com determinação, independentemente de quem se oponha. Foi assim que eu perseverei. Frequentemente, ouço falar de investigações por parte das autoridades, de repressão ou de obstruções por parte da classe médica. No entanto, nada disso me abala. E por quê? Porque o que eu faço é muito superior ao que eles fazem. Tentar impedir-me é, portanto, um erro. Havendo um Deus justo, é absolutamente impossível que o mal prevaleça.
-
-Ademais, quando nossa convicção é inabalável, os opositores desaparecem. A existência de oposição ou de diversas formas de obstrução muitas vezes indica que ainda há alguma brecha em nós. Se houver a menor hesitação ou fraqueza, é nesse ponto que os espíritos malignos atacarão. Sendo espíritos, eles percebem essas aberturas e criam obstáculos. Se nossa determinação for absoluta e não houver brechas, os espíritos malignos nada poderão fazer.
-
-Diante disso, até mesmo os opositores acabam por desistir. Com o tempo, eles passarão a compreender que "de fato, aquilo é algo bom" e começarão a nos reverenciar ou a nos apoiar. Portanto, esta pessoa também pode seguir em frente sem se deixar abalar pela oposição da família e dos parentes.
-
-### Seção II: O Laço Cármico
-
-**1. A) A permissão para se dedicar à difusão se deve ao laço cármico. B) Um ministro sem realizações não possui grande valor.**
-(De uma Palestra de Meishu-Sama [23 de abril de 1949], publicada na Coletânea de Palestras, nº 7, em 1949)
-
-*Pergunta: “Qual das duas posturas é a correta para um ministro: pensar que, por ser um grande pecador, tem a permissão de servir a este nobre caminho, ou considerar-se, em certa medida, um ser humano escolhido por Deus?”*
-
-Bem... ambas estão corretas. Contudo, a ideia de se dedicar por ser um grande pecador é um tanto estranha. A questão não é a profundidade do pecado. Se fosse assim, este seria um excelente caminho para assassinos e ladrões. (risos) Na verdade, tudo se deve ao laço cármico. Por outro lado, pensar ser um escolhido de Deus é bom, mas não há necessidade de se supervalorizar por isso. É certo que foi escolhido, mas isso, por si só, não lhe confere um grande valor. Afinal, o ingresso nesta fé se deu por um laço cármico, por uma linhagem espiritual. Se, a partir daí, através de seu trabalho, a pessoa se torna muito feliz e alcança uma posição elevada, então é justo que se valorize nessa medida. Portanto, é um erro pensar que, apenas por ter se tornado um membro, já se é um escolhido e não precisa fazer mais nada.
-
-**2. As pessoas cuja vida foi salva têm o laço cármico de servir à Obra de Deus**
-(De uma Palestra de Meishu-Sama [abril de 1949], publicada na Coletânea de Palestras, nº 6, edição especial de 23 de abril de 1949)
-
-Quando uma pessoa que havia sido desenganada sobrevive graças a este caminho, sua vida se torna diferente da anterior. Deixa de ser propriedade privada. Uma vez que Deus, por necessidade, prolongou sua existência, ela tem o dever de realizar um trabalho útil a Ele. Se uma pessoa salva nessas circunstâncias volta a se dedicar a coisas triviais, como ganhar dinheiro, certamente fracassará. Houve o caso de um homem que atuava no ramo da mineração e, quando estava à beira da morte por um problema cardíaco, recuperou-se completamente com o Johrei. Contudo, ele voltou a se envolver obsessivamente com as minas. A pessoa que o havia curado o aconselhou diversas vezes, mas ele não quis ouvir. Pouco tempo depois, ele faleceu. Este é um ponto de suma importância.
-
-**Apêndice 1: O caso da advertência recebida por alguém que se dedicava simultaneamente à difusão e à agricultura**
-(De uma Palestra de Meishu-Sama [julho de 1949], publicada na Coletânea de Palestras, nº 9, edição especial de 30 de julho de 1949)
-
-*Pergunta: “Eu sofria de apendicite e me disseram que a cirurgia era inevitável. Contudo, com uma única sessão de Johrei, obtive um resultado surpreendente, que me deixou absolutamente maravilhado. Diante de tamanha alegria, deixei imediatamente minha profissão de professor, tornei-me ministro e passei a me dedicar de corpo e alma a este caminho. Recentemente, porém, o boi que possuo, embora estivesse amarrado no estábulo, caiu de um penhasco e morreu. Qual o significado disso?”*
-
-Se ele tinha um boi, significa que se dedicava à agricultura.
-
-*Resposta do interlocutor: “Sim.”*
-
-Bem, trata-se de um desígnio de Deus para que você abandone a agricultura e se dedique exclusivamente a este caminho. Sim, é provável que seja isso.
-
-**Apêndice 2: O caso da advertência recebida por alguém que havia abandonado a difusão**
-(De um Ensinamento de Meishu-Sama [5 de novembro de 1951], publicado na Coletânea de Ensinamentos, nº 4, em 15 de dezembro de 1951)
-
-*Relato: “Kunio, filho mais velho do membro Fuminaru Kitazawa, com um ano e oito meses, apresentou sintomas de resfriado por volta de 30 de outubro, com erupções vermelhas por todo o corpo. Os pais pensaram que poderia ser sarampo. A partir da manhã do dia 31, o menino parou de chorar; apenas respirava pela boca e permanecia deitado, sem tentar se levantar. Preocupados, levaram-no à unidade da Igreja em 1º de novembro. Naquele momento, ele tinha febre considerável, coriza e dificuldade para mamar. Após receber Johrei e voltar para casa, começou a expelir uma grande quantidade de secreção nasal espessa. No dia seguinte, ao ser levado novamente à unidade, já não tinha febre, mas continuava sem falar ou chorar, como se estivesse dormindo, abrindo ocasionalmente os olhos com um olhar vago. Recebeu Johrei intensivo na nuca, na região posterior da cabeça e nos rins, mas não houve alteração. Ontem, sequer quis mamar, permanecendo apenas em um estado de sonolência. Até anteontem, tinha um pouco de diarreia, mas isso cessou e agora ele solta gases constantemente. O pai ingressou na fé em fevereiro de 1947 e tem a Imagem Komyō Nyorai consagrada. No início, recebeu a qualificação de ministro assistente e se esforçava na difusão, mas devido à forte oposição dos pais e irmãos, não conseguia se dedicar como desejava. Atualmente, embora seja o filho mais velho, vive separado da família e trabalha na fabricação de chinelos e sandálias com sola de borracha. A mãe ingressou na fé em novembro de 1950. No ano passado, ela passou por uma purificação de pleurisia e foi curada pelo Johrei. A data em que a doença dela começou coincide com a do início da doença do filho. Haveria alguma relação espiritual? E em que áreas devemos concentrar o Johrei?”*
-
-São os espíritos ancestrais, sem dúvida. Eles anseiam ardentemente que a família se dedique com afinco à Obra de Deus. A frase "não conseguia se dedicar como desejava" é a chave. Isso deixou os antepassados em uma situação muito difícil. A conversão da mãe foi positiva, mas apenas ingressar na fé não é suficiente. Inicialmente, eles agiram para que ela se convertesse; agora, esta é uma advertência para que tanto o pai quanto a mãe se dediquem fervorosamente à fé. É crucial que eles compreendam isso de coração e se desculpem. Caso contrário, a criança poderá vir a falecer. Os antepassados, pensando que a situação não pode continuar assim, podem chegar ao ponto de tirar a vida de um filho para que o casal desperte. A situação é perigosa. Portanto, pai e mãe devem despertar o quanto antes, pedir perdão e se comprometer perante Deus, dizendo: "A partir de agora, dedicaremos nossa vida à Vossa Obra, por favor, nos perdoe". Devem fazer o mesmo em relação aos seus antepassados. Agindo assim, a criança se recuperará rapidamente. Se não o fizerem logo, os espíritos ancestrais que estão no Mundo Espiritual não poderão ser salvos. À medida que o fim se aproxima, eles ficam extremamente aflitos.
-
-### Seção III: A Missão
-
-**1. Sobre a missão de cada ministro e o aprimoramento da fé**
-(De uma Orientação de Meishu-Sama [1º de julho de 1953], publicada na Coletânea de Orientações, nº 22, em 15 de julho de 1953)
-
-*Pergunta: “Como ministros, em que ordem devemos considerar a salvação das pessoas, o aprimoramento da fé e a dedicação material? Gostaria também de indagar sobre o significado e a forma da dedicação de donativos.”*
-
-Que pergunta terrível. O próprio ato de pensar sobre o que é mais importante já é um equívoco. O correto é não pensar sobre isso. A razão é que Deus, de acordo com a missão e a capacidade que conferiu a cada um, designa pessoas para a Obra de salvar o próximo e outras para a Obra relacionada a donativos. O aprimoramento é algo geral, mas cada um tem sua missão específica. A missão se revela nas circunstâncias que se apresentam; portanto, quando uma situação surge, basta agir de acordo com ela. Se uma pessoa atrai recursos financeiros com mais facilidade do que ministra Johrei, essa é a sua missão. Se, por outro lado, ela não tem recursos, mas forma muitos novos membros, essa é a sua missão. As circunstâncias ao redor se encarregarão de mostrar o caminho; basta, portanto, avançar com sinceridade, seguindo o fluxo natural dos acontecimentos.
-
-Quanto ao aprimoramento, o aspecto mais importante é a Sabedoria e Iluminação. É a capacidade de compreender as diversas coisas. No entanto, uma compreensão equivocada não serve. O padrão para aferi-la são os Escritos Divinos. Se, ao lê-los, a pessoa consegue, em geral, pensar "é verdade", isso indica que sua Sabedoria e Iluminação já se elevaram consideravelmente. Há quem leia e pense "não entendo de jeito nenhum", e há também quem entenda no momento da leitura, mas se esqueça ao chegar em casa. A capacidade de compreender subitamente diversas questões é um sinal de que a Sabedoria e Iluminação estão se elevando. Para diagnosticar a doença de alguém e acertar, é preciso ter um grau muito elevado de Sabedoria e Iluminação. Portanto, se antes a pessoa compreendia cinco coisas e agora compreende seis ou sete, significa que sua Sabedoria e Iluminação estão progredindo.
-
-**2. O critério para discernir a própria missão**
-(De uma Palestra de Meishu-Sama [7 de junho de 1953], publicada na Coletânea de Ensinamentos, nº 23, em 15 de julho de 1953)
-
-A Era de Miroku consiste em transformar o mundo infernal em um paraíso; é, portanto, a maior revolução desde o início da humanidade. Contudo, ao mesmo tempo que é a maior, é também a revolução mais fácil de ser realizada. Fala-se em revolução sem derramamento de sangue, o que significa uma revolução sem conflitos, mas esta é muito mais do que isso. Não é uma simples revolução pacífica; é a mais fácil de todas, podendo ser chamada de "revolução paradisíaca". A partir do dia quinze, as coisas gradualmente tomarão esse rumo. Pela Lei da Precedência do Espírito sobre a Matéria, o Mundo Espiritual se transformará primeiro, e essa transformação se refletirá fielmente no Mundo Material.
-
-Nesse sentido, poderíamos até mesmo ser meros espectadores. Basta que realizemos o trabalho que nos foi confiado por Deus, a tarefa que nos é apresentada. Por isso, é melhor não fazer uso excessivo da sabedoria e do pensamento humanos. Por exemplo, quando um doente nos procura, é melhor não pensar: "Se eu salvar esta pessoa, acontecerá isto ou aquilo". A pessoa que chega até nós deve ser salva; portanto, basta que o façamos.
-
-**3. O trabalho dos ministros varia conforme o laço cármico**
-(Do Hikari no Oshie [Paraíso Terrestre, nº 29], publicado em 25 de outubro de 1951)
-
-*Pergunta: “Recentemente, após as cerimônias mensais em diversas unidades, durante o Johrei, fenômenos de possessão espiritual têm ocorrido espontaneamente, e tenho tido a oportunidade de aprender sobre o Mundo Espiritual e questões de natureza espiritual. Frequentemente, os antepassados dos membros se manifestam pedindo salvação, solicitando a confecção de um altar ou a correção da posição em que este foi colocado. Tenho feito o possível para atender a esses pedidos. No entanto, ouvi de um certo ministro que, se formos excessivamente solícitos em salvar os espíritos, eles se apoiarão em nós indefinidamente, e ao fazer isso, acabaremos perdendo todos os nossos bens materiais. Eu, por outro lado, acredito que, se eles vêm até mim, é porque existe uma ligação espiritual, e não que me procuram de forma desordenada. Acredito também que, ao salvar um espírito, o sentimento de gratidão dele um dia se materializará. Qual seria a visão correta? Rogo que me esclareça a esse respeito.”*
-
-Ministros como esse, mencionado na pergunta, são um problema. São pessoas de mente fechada, que se apegam a uma única ideia. Esse tipo de ministro se desvia do ensinamento de que a fé deve ser adaptável, livre, irrestrita e capaz de se manifestar de infinitas formas. Nesse sentido, os fenômenos espirituais também variam, podendo ser corretos ou incorretos, bons ou maus, dependendo da pessoa, do local e do momento. Ser capaz de discernir entre eles e agir adequadamente é o que define um verdadeiro fiel de nossa Igreja.
-
-Portanto, as possessões que ocorrem com esta pessoa indicam que ela tem essa missão específica, e pode realizá-la sem qualquer preocupação. Cada indivíduo tem uma missão diferente; por isso, julgar unicamente com base no próprio critério é o maior dos erros. Gostaria que compreendessem bem este ponto. A analogia com uma peça de teatro torna tudo mais claro: é a diversidade de papéis que torna a peça interessante.
-
-### Seção IV: Sobre o Aprimoramento dos Ministros
-
-**1. Os ministros têm a missão de orientar os fiéis para que se tornem pessoas de bem**
-(De uma Palestra de Meishu-Sama [25 de maio de 1953], publicada na Coletânea de Ensinamentos, nº 22, em 15 de junho de 1953)
-
-Curar doenças ou salvar alguém não se resume a restaurar a saúde dessa pessoa. O objetivo final é, juntamente com a saúde, torná-la uma pessoa de bem. Apenas ter um corpo forte para trabalhar não salvará a humanidade. O princípio fundamental é formar seres humanos saudáveis de espírito e matéria.
-
-**2. Quando uma pessoa é salva, as pessoas de sua linhagem também são salvas gradualmente**
-(De uma Palestra de Meishu-Sama [1º de outubro de 1951], publicada na Coletânea de Ensinamentos, nº 3, em 3 de novembro de 1951)
-
-Quando salvamos uma pessoa, o número de indivíduos de sua linhagem que são salvos aumenta consideravelmente. Em seguida, cada uma dessas pessoas também é salva. É assim que o mundo funciona.
-
-**3. Se os galhos maiores não forem salvos, os menores não o serão**
-(De uma Orientação de Meishu-Sama [1º de julho de 1953], publicada na Coletânea de Orientações, nº 22, em 15 de julho de 1953)
-
-Tomemos uma árvore como exemplo. Ela tem um tronco e galhos. A ordem correta é que o tronco seja salvo primeiro, seguido pelos galhos maiores, depois os menores e, por fim, as folhas. Portanto, não adianta tentar salvar as folhas logo após o tronco, pois isso seria inverter a ordem. Os membros da Sekai Kyusei Kyo, eu sou a raiz. Os dirigentes, não posso dizer que sejam o tronco no momento, mas talvez correspondam aos galhos maiores. Uma vez que os galhos maiores sejam salvos, os menores também o serão. Tentar salvar as folhas ignorando essa sequência é ir contra a ordem natural, e por isso não se obterá sucesso.
-
-**4. O aprimoramento do ministro é a base de tudo**
-(De uma Palestra de Meishu-Sama [1º de dezembro de 1952], publicada na Coletânea de Orientações, nº 16, em 15 de dezembro de 1952)
-
-*Relato: “Desta vez, estamos nos referindo aos membros ativos e gostaríamos que todos eles pudessem se tornar ministros. Ontem, tive a oportunidade de falar claramente sobre isso. Acredito que, à medida que os ministros se fortalecem, os membros também compreendem melhor, e é com essa base que devemos nos projetar para o exterior.”*
-
-Afinal, a causa reside em nós mesmos. Quando as coisas não saem como desejamos, devemos, antes de mais nada, refletir sobre nossa própria maneira de agir. O método correto está descrito em algum lugar nos meus escritos.
-
-**5. A necessidade de se corrigir através dos acontecimentos da vida**
-(De uma Orientação de Meishu-Sama [1º de março de 1954], publicada na Coletânea de Orientações, nº 29, em 15 de março de 1954)
-
-Tudo o que se manifesta em nossa vida, as pessoas com quem nos relacionamos e até mesmo o lugar onde vivemos, tudo tem um laço cármico. Mesmo que pareça insignificante, não seguir esse fluxo acarreta consequências negativas. Muitas vezes, tentamos impor nossa vontade a despeito das circunstâncias, mas isso raramente acaba bem. Tal atitude é ego. Dizer "Bem, já que pensei assim, vou levar até o fim, não importa o que digam" ou "Vou perseverar, aconteça o que acontecer" é perigoso. Em vez disso, é melhor tentar e, se não der certo, simplesmente desistir. Pode parecer uma total falta de convicção, mas não é o caso. É nesse ponto que a sinceridade e a obediência ao destino se revelam como as melhores virtudes.
-
-**6. Sobre a responsabilidade do ministro**
-(De uma Palestra de Meishu-Sama [23 de julho de 1949], publicada na Coletânea de Palestras, nº 13, em 21 de outubro de 1949)
-
-*Pergunta: “Recebi a Imagem Daikomyō Nyorai, mas como não tenho um lugar adequado, guardei-a. Mesmo assim, receberei proteção?”*
-
-Se a Imagem está guardada, a proteção recebida será mínima. Além disso, receber a Imagem sem ter um local para entronizá-la não é o procedimento correto.
-
-*Interlocutor: “Fomos vítimas de um incêndio durante a guerra e atualmente moramos em um barraco...”*
-
-E antes disso?
-
-*Interlocutor: “Não a havíamos recebido.”*
-
-Portanto, não está correto. O certo é preparar um lugar digno para a entronização e só então recebê-la. É o mesmo quando recebemos um convidado, não é? Preparamos um assento e depois o acolhemos. Não se pode dizer: "Seja bem-vindo, mas como não tenho lugar, por favor, agache-se em um canto do depósito". (gargalhadas)
-
-*Interlocutor: “O chefe da família pensou que, ao entronizar a Imagem Divina, talvez recebesse uma casa melhor...”*
-
-Ele está tentando se aproveitar de Deus! É um absurdo. Se fosse possível utilizar Deus de forma tão conveniente, seria algo realmente notável, verdadeiramente esplêndido. ...Isso está fundamentalmente errado.
-
-*Interlocutor: “É que não temos um altar...”*
-
-Então, o melhor é desistir. Se ele adotar a postura de desistir, talvez até receba um altar. (risos) Quando o coração da pessoa muda... Você também precisa pedir perdão junto com ele. Agir dessa forma... essa atitude de se aproveitar de Deus é um erro desde a raiz. Portanto, devolva a Imagem e peça perdão sinceramente. Assim, ele receberá um altar. Até que isso aconteça, deixe a Imagem Divina sob a guarda da Sede Central.
-
-**7. Os ministros devem ser seres iluminados**
-(De uma Orientação de Meishu-Sama [1º de outubro de 1951], publicada na Coletânea de Orientações, nº 3, em 25 de novembro de 1951)
-
-Ao se tornar ministro, a pessoa alcança um nível espiritual – no budismo, diríamos que se torna um ser iluminado – e, por isso, recebe graças correspondentes. Os membros em geral ainda não atingiram esse patamar e precisam se aprimorar para alcançá-lo.
-
-### Seção V: O Laço Cármico entre Mestre e Discípulo
-
-**1. Como corrigir o erro de um superior**
-(Do Hikari no Oshie [Paraíso Terrestre, nº 25], publicado em 25 de junho de 1951)
-
-*Pergunta: “Quando um superior ou um ministro comete algum erro, alertá-lo sobre isso constitui uma má ação? E como proceder quando o ministro, convicto de que sua conduta é correta, não compreende o sentido de nossas palavras e nos interpreta mal? Por favor, oriente-me.”*
-
-Isso depende do estado de espírito do ministro e da Sabedoria e Iluminação da pessoa que o adverte, portanto não é possível dar uma resposta simples. O melhor a fazer é pedir com toda a sinceridade à Imagem Komyō Nyorai. Agindo assim, Deus providenciará a melhor solução, e isso é o suficiente.
-
-**2. O laço cármico entre mestre e discípulo deve ser reverenciado**
-(De uma Palestra de Meishu-Sama [4 de abril de 1949], publicada na Coletânea de Palestras, nº 7, em 1949)
-
-*Pergunta: “Quando um discípulo sente que seu mestre não se empenha o suficiente no caminho da fé e perde o respeito por ele, ou quando surge o desejo de seguir um mestre mais exemplar para aprofundar os estudos... isso representa uma questão séria para o discípulo ou membro. Nesses casos, qual deve ser a postura e como se deve proceder?”*
-
-Isso é um problema. É o pensamento de alguém que não possui fé. Foi Deus quem permitiu que as coisas fossem assim, portanto, não há o que fazer. O fato de você ter se tornado discípulo daquele mestre se deve a um laço cármico; enxergar a situação de um ponto de vista meramente humano é o que gera esse tipo de pensamento. Escolher um mestre por ele ser bom é um completo absurdo. Não que um bom mestre não traga nenhum benefício, mas a influência dele não é tão grande assim. Não é o mesmo com os grandes pintores? Muitos se tornam muito mais notáveis que seus mestres. Existe um ditado: "A honra de superar o anil", que significa "surgido do anil, mais azul que o próprio anil".
-
-Portanto, o mestre é uma questão secundária, terciária. O mais importante é como você está. Essa é a prioridade. Dito isso, desrespeitar o mestre é errado. Ele deve ser tratado com a devida consideração. Agir de forma displicente com ele por não conseguir respeitá-lo é desviar-se do caminho. E a atitude de trocar de mestre porque este não lhe agrada é própria de quem não tem fé alguma, de quem ignora completamente a existência de Deus. Na verdade, se o mestre não lhe parece adequado, o correto é orar para que ele melhore. Se as pessoas começarem a trocar de mestre por insatisfação, daqui a pouco estarão fazendo greve.
-
-*Interlocutor: “Há muitas pessoas assim.”*
-
-Sim, existem muitas. Ora seguem um mestre, ora trocam para outro... Sinceramente, não sei o que estão fazendo. (risos) Em última instância, é você quem deve ajudar as pessoas da sociedade, as muitas pessoas. E se houver algo que seu mestre não saiba, basta enviar a pergunta por escrito. Foi para isso que abrimos este canal de comunicação; assim, não há como errar.
-
-**3. Sobre a mudança de unidade**
-(De uma Orientação de Meishu-Sama [5 de outubro de 1951], publicada na Coletânea de Orientações, nº 3, em 25 de novembro de 1951)
-
-*Pergunta: “Entre os ministros, há alguns que, por não gostarem do presidente da Igreja a que pertencem, incentivam todos a se mudarem para outra. O que pensar a respeito?”*
-
-Isso é um equívoco. São pessoas que ainda não adentraram verdadeiramente na fé, pois não acreditam em Deus. Tudo é conduzido por Deus. Mesmo que o presidente da Igreja tenha falhas, existe um laço cármico que os obriga a estar ligados a ele. Se o presidente estiver errado, ele será removido ou corrigido. Julgar que alguém está completamente errado é invadir o domínio de Deus. Não está escrito que os seres humanos não conseguem discernir o bem e o mal? Dizer que o presidente está errado demonstra uma incompreensão da fé.
-
-*Interlocutor: “O presidente que os aceita também estaria agindo sem compreensão?”*
-
-Isso não podemos saber – não somos Deus. A pessoa que diz "aquele presidente está errado" é que não compreende. Eu, por exemplo, mesmo que um subordinado cometa um erro, nunca lhe digo que está errado. Entrego o assunto a Deus. Se ele estiver realmente errado, será removido ou aniquilado. Aos olhos humanos, algo pode parecer um erro, mas para Deus, há alguma necessidade naquilo. Houve um caso assim com uma certa pessoa. Eu dizia "bem, é Deus quem está agindo", mas ela acabou adoecendo, foi hospitalizada e faleceu. Se Deus não tivesse poder para fazer algo assim, seria melhor não acreditar. Agora, sobre aquela pessoa que está em tal lugar... dizem que ela precisa ser removida. Mas é Deus quem está no comando. Se for necessário, Deus simplesmente a retirará. Se ela ainda está lá, é porque ainda há uma necessidade.
-
-### Seção VI: A Conduta dos Presidentes de Igreja e Responsáveis de Unidade
-
-**(I) Sobre a Posição e Nível Espiritual**
-
-**1. Como a posição e o nível espiritual são definidos**
-(De uma Palestra de Meishu-Sama [8 de janeiro de 1949], publicada na Coletânea de Palestras, nº 3, em 8 de fevereiro de 1949)
-
-A posição e o nível espiritual de cada um são definidos naturalmente.
-
-**2. Quanto mais elevada a posição e o nível espiritual, maior a influência**
-(De uma Orientação de Meishu-Sama [1º de maio de 1953], publicada na Coletânea de Orientações, nº 20, em 15 de maio de 1953)
-
-Os problemas da parte inferior do corpo têm pouca influência sobre a parte superior. Em contrapartida, as doenças da parte superior afetam fortemente a inferior. Isso também pode ser observado em uma nação: as más ações da classe dirigente – líderes, ministros, políticos – têm um impacto imenso sobre os níveis mais baixos. Já as más ações ou pensamentos de quem está na base tendem a ter um efeito apenas parcial. É como uma pirâmide: quanto mais se sobe, menor a estrutura e maior o poder.
-
-**3. A importância de se ter plena consciência de sua posição e nível espiritual**
-(Do artigo "Sobre a Racionalidade da Fé", publicado na revista Eikō, nº 213, em 17 de junho de 1953)
-
-Presidentes de Igreja, responsáveis de unidade, ministros, diretores, entre outros, devem ter plena consciência de sua classe, de suas atribuições e responsabilidades, e tomar cuidado para não agir de forma irracional. Para isso, se tiverem o hábito de ler os Escritos Divinos e aprimorar sua Sabedoria e Iluminação, conseguirão ter discernimento em qualquer situação.
-
-**4. A missão do responsável de unidade**
-(De uma Palestra de Meishu-Sama [27 de maio de 1953], publicada na Coletânea de Ensinamentos, nº 22, em 15 de junho de 1953)
-(Ensinamento proferido após a leitura do artigo "Sobre a Racionalidade da Fé")
-
-Receber Johrei do responsável de unidade não é algo totalmente errado, mas deve ocorrer em momentos de grande sofrimento ou quando a causa da doença é desconhecida. Nesses casos, é apropriado consultá-lo e receber seu Johrei. Contudo, recorrer ao responsável por algo que se poderia resolver por conta própria é um equívoco. Dependendo da doença, há variações, mas uma pneumonia, por exemplo, é algo que pode se curar mesmo que a deixemos em paz. Se o pai ou a mãe ministrarem Johrei, a recuperação será satisfatória. Insistir em chamar o responsável desde o início, nesse caso, retarda a cura. Ao contrário, o Johrei dos pais acelera o processo. Isso ocorre porque o responsável de unidade deve ter como foco salvar um grande número de pessoas e expandir a Obra Divina. Ao se desviar desse foco, ele se esforça em vão e não obtém bons resultados.
-
-**5. O responsável de unidade não precisa se preocupar com os assuntos gerais da Igreja**
-(De uma Orientação de Meishu-Sama [1º de outubro de 1953], publicada na Coletânea de Orientações, nº 25, em 15 de outubro de 1953)
-
-*Interlocutor: “Creio que o dever do ser humano é oferecer o dinheiro necessário a Deus e permitir que Ele o utilize.”*
-
-Correto.
-
-*Interlocutor: “Nós, que servimos à nossa organização religiosa, consideramos que pensar em formas de gerar receita e colocá-las em prática é a Verdade, o Bem e o Belo.”*
-
-Isso é excelente.
-
-*Interlocutor: “Observando a organização, vejo que há inúmeras oportunidades de gerar receita.”*
-
-Isso não se limita à organização; o mundo está repleto delas.
-
-*Interlocutor: “Sendo assim, eu, que sirvo à organização...”*
-
-A expressão "servir" está equivocada. O correto é "dedicar-se". "Servir" é um termo usado por funcionários públicos ou de empresas.
-
-*Interlocutor: “Eu, que me dedico, ao aconselhar os dirigentes da organização sobre oportunidades de gerar receita, estaria agindo com uma visão limitada? E, neste caso, como devo exercer meu poder de Izunome?”*
-
-Você deve simplesmente ignorar. O que quer que os dirigentes da organização façam, Deus cuidará de tudo adequadamente. É uma preocupação desnecessária. Se não fosse assim, Deus pareceria impotente. Mesmo que você permaneça em silêncio, Deus resolverá tudo da melhor forma. Em vez disso, sua tarefa é formar o maior número possível de novos membros. Aconselhar os dirigentes significa que você está se colocando em uma posição muito elevada. Não há necessidade alguma de pensar sobre essas coisas. Sua função é a de responsável de unidade; portanto, basta que se dedique a formar mais membros e a expandir sua unidade. Ademais, o ato de advertir pressupõe que você percebe uma falha ou que a conduta deles difere do seu modo de pensar, não é?
-
-*Interlocutor: “Não se trata de uma advertência, mas em meu entendimento, por exemplo, se eu trabalhasse em uma empresa, e o presidente ou os diretores...”*
-
-Isto não é uma empresa; é uma organização religiosa. Pensar nela em termos empresariais é um erro.
-
-*Interlocutor: “Foi por pensar dessa forma que fiz a pergunta.”*
-
-Acontece que é Deus quem está no comando. Portanto, os dirigentes são supervisionados por Ele. Você pode achar que eles estão errados e, de fato, às vezes eu mesmo me pergunto por que agem de certa maneira, mas não há o que fazer. Como é Deus quem está conduzindo, deixo o assunto nas mãos Dele, pensando: "Deus, por favor, resolva isso de alguma forma".
-
-*Interlocutor: “Como também me dedico, posso considerar que é Deus quem está agindo?”*
-
-Exato. A postura correta é entregar tudo nas mãos de Deus, algo que já escrevi inúmeras vezes em meus livros. Será que você não lê os Escritos Divinos?
-
-*Interlocutor: “Não compreendo a diferença entre entregar a Deus e me esforçar de acordo com minha posição e nível espiritual.”*
-
-Pois bem, você deve se esforçar entregando a Deus. Seu erro é separar as duas coisas. É como diz o provérbio: "Faça tudo o que está ao seu alcance e espere a Vontade do Céu". Você se esforça, sim, mas com tudo entregue a Deus. Essa é a forma correta.
-
-A pergunta de agora foi excelente. Pode haver outras pessoas com o mesmo pensamento. Portanto, é muito bom que perguntem abertamente sobre essas questões para que possam trabalhar com uma compreensão verdadeiramente profunda.
-
-**6. Quem ocupa uma posição de liderança deve atuar nos bastidores, utilizando a mente**
-(De uma Palestra de Meishu-Sama [6 de outubro de 1953], publicada na Coletânea de Ensinamentos, nº 27, em 15 de novembro de 1953)
-
-Para explicar o corpo espiritual, a palma da mão é o melhor exemplo. A palma desempenha várias funções, enquanto o dorso da mão quase não tem utilidade. A palma representa o corpo físico. O espírito, por sua vez, não parece se mover muito quando o observamos, mas é ele quem comanda. No corpo humano, as costas representam o espírito. Por isso, dizemos que a causa das doenças está nas costas, pois elas são a origem. Assim, as pessoas que realizam o trabalho mais crucial são as que menos se movimentam. As que se ocupam das tarefas mais básicas são as que mais se agitam. Contudo, por desconhecerem o espírito e enxergarem apenas o corpo físico, os trabalhadores se ensoberbecem e proclamam sua importância, o que dá origem ao comunismo. A lógica comunista é correta se não se reconhece a existência do espírito. É uma teoria bem elaborada. No entanto, uma vez que se reconhece o espírito, o comunismo se torna insignificante. Por isso, quando me perguntavam minha opinião sobre o comunismo, eu sempre dizia que não era nada e que desapareceria com o tempo. Como ele se baseia apenas no corpo físico e ignora o espírito, que é o elemento principal, não tem perenidade. Eu não estava errado ao afirmar que o comunismo não duraria muito.
-
-Dessa forma, quem não parece estar trabalhando, na verdade, realiza o trabalho mais grandioso. É por essa razão que eu sempre digo que o líder, o cabeça, não deve se movimentar. Frequentemente me perguntam: "Meishu-Sama, o senhor não viaja para as províncias?". Eu respondo com a analogia do eixo da roda: o eixo não deve se mover. Isso deveria ser suficiente para a compreensão. Da mesma forma, a ideia de que o líder deve estar à frente, comandando, é falsa. Desde a antiguidade, nas batalhas, quando o general se adiantava para comandar, a derrota era certa. O general que permanece resguardado em sua tenda, sem se mostrar, é o que leva à vitória. Isso porque essa postura está em harmonia com a Lei da Precedência do Espírito sobre a Matéria. Quando o primeiro-ministro Tojo viajou de avião para o Pacífico Sul durante a guerra, eu disse: "Isso não vai dar certo". Se o primeiro-ministro estivesse em sua residência oficial, talvez jogando go, a vitória seria possível, mas daquela forma, o fracasso era certo.
-
-Mudando de assunto, naquela época, no mundo dos negócios, havia um homem bastante famoso, Soichiro Asano, o fundador da Asano Cement. Ele se levantava cedo e corria de um lado para o outro. Teve um sucesso estrondoso por um tempo, mas depois faliu. Eu achava isso curioso, mas depois que conheci a Lei da Precedência do Espírito sobre a Matéria, tudo fez sentido. Assim, a ideia de que trabalhar e se mover visivelmente é algo bom é, na verdade, o oposto da realidade. Portanto, nas unidades da nossa Igreja, é melhor que o responsável não se coloque tão à frente, mas delegue o máximo possível aos seus subordinados ou aos novos membros. No início da guerra, falava-se em "comando na linha de frente". Os militares diziam que os presidentes das indústrias bélicas deveriam comandar na linha de frente, que não podiam ficar nos bastidores. Mas quem comanda na linha de frente está fadado ao fracasso. Claro que, na antiguidade, em batalhas ou entre bandoleiros, o chefe precisava agir para que seus homens se movessem, mas em atividades pacíficas, é preciso seguir a lei que mencionei.
-
-Portanto, a simples atividade, a pressa e a agitação não são necessariamente boas. É preciso agir de acordo com a própria posição e circunstância, de uma maneira lógica. Vemos frequentemente no mundo pessoas que se esforçam muito, mas não prosperam. Se observarmos sob essa ótica, a razão se torna clara. Costuma-se dizer: "Ele trabalha tanto, por que vive na pobreza?". E: "Aquela pessoa vive sem fazer nada, mas está sempre com os bolsos cheios". Quem conhece essa lei, entende o porquê. Por outro lado, a preguiça e o trabalho espiritual que mencionei podem parecer semelhantes externamente, o que gera confusão. Aí reside um ponto interessante. Em suma, trata-se de fazer a mente trabalhar. A questão de quem trabalha com o corpo e quem trabalha com a mente já vem, de certa forma, determinada pelo nascimento. Há pessoas que nasceram para usar a mente, outras para usar o corpo, e ainda outras que nasceram para falar. Diz-se que "fulano nasceu primeiro pela boca". De fato, se uma pessoa assim se torna político, vive fazendo discursos; se se torna religioso, vive dando palestras. Essas pessoas também são importantes, e essa é a sua função.
-
-**(II) Sobre a Orientação dos Subordinados**
-
-**1. Orientar com o riso**
-(De uma Palestra de Meishu-Sama [7 de setembro de 1953], publicada na Coletânea de Ensinamentos, nº 26, em 15 de outubro de 1953)
-(Após a leitura do artigo "A Causa Principal do Desenvolvimento de Nossa Igreja" [Eikō, nº 228])
-
-Ontem mesmo, recebi uma carta da Argentina. Foi em resposta a uma correspondência de lá, de junho deste ano, de alguém que desejava ardentemente ser salvo. Enviei-lhe o Ohikari e os Escritos Divinos. Pela carta de ontem, vejo que essa pessoa também começou a trabalhar com bastante afinco. Acredito que, em breve, nossa Obra começará também na Argentina. A correspondência é a melhor forma de iniciar. Ir pessoalmente a lugares distantes é muito trabalhoso. Se conseguirmos formar membros por carta, futuramente alguém irá para lá, mas com essa preparação, o trabalho subsequente se torna mais fácil. O que Deus faz é realmente engenhoso. Deus é, de fato, muito engenhoso. Os deuses antigos, porém, não eram. Eles afligiam os seres humanos e lhes causavam diversos problemas. O Deus da Sekai Kyusei Kyo, contudo, tem poder, e por isso tudo é possível.
-
-Outro dia, compus um poema que diz: "Orações que se assemelham a choro e súplica são o sinal de uma religião de nível inferior". O cristianismo também tem muitas "orações que se assemelham a choro e súplica". Quando vemos pastores pregando nas ruas, eles o fazem com uma voz verdadeiramente lastimável. Isso acontece porque seu deus não tem poder, e por isso eles precisam acrescentar a força humana, tornando-a o elemento principal. A salvação obtida dessa forma ainda pertence a uma esfera infernal. Uma religião verdadeiramente celestial é aquela em que as pessoas são salvas sorrindo, com alegria. Certa vez, fui convidado para um casamento cristão. O casamento e o velório eram a mesma coisa. Bem, nos velórios, hoje em dia não tanto, mas antigamente nos davam doces. Nas cerimônias de casamento cristãs, também dão doces. Há ainda uma seita cristã que considera o riso um pecado. Uma vez, quando eu promovia concursos de poemas humorísticos, um cristão veio me dizer: "No cristianismo, o riso é um pecado, mas aqui vocês o incentivam. É totalmente diferente". De fato, somos muito diferentes.
-
-Quando religiões desse tipo prosperam em escala mundial, é natural que o mundo se torne infernal. Claro que sofrer por motivos religiosos é muito melhor do que sofrer nas mãos de pessoas más. No entanto, do ponto de vista de Deus, é preciso criar um mundo onde os seres humanos se rejubilem, um mundo transbordante de alegria. Por isso, uma religião como a Sekai Kyusei Kyo, que nunca existiu antes, é alvo de tantos mal-entendidos e olhares equivocados.
-
-**2. Guiar as pessoas através de doutrinas e preceitos não é a forma mais elevada da Igreja Messiânica**
-(De uma Palestra de Meishu-Sama [6 de março de 1954], publicada na Coletânea de Ensinamentos, nº 32, em 15 de abril de 1954)
-(Após a leitura do artigo "Prefácio de 'O que é a Sekai Kyusei Kyo?'" [Eikō, nº 253])
-
-Frequentemente se diz que "a Sekai Kyusei Kyo ainda não tem uma doutrina". Isso ocorre porque as pessoas a enxergam como uma religião comum, e por isso pensam em termos de doutrina. Na verdade, como não somos uma religião no sentido convencional, não precisamos de doutrina. A própria palavra "doutrina" não se encaixa bem, pois não se trata de um ensinamento. Desde a antiguidade, a maioria das religiões possui doutrinas, e muitas delas são esplêndidas e bem elaboradas. A doutrina é a lógica do ensinamento, e os ensinamentos não salvam o ser humano.
-
-No jornal Shizuoka Minpō, começou a ser publicada uma série de artigos sobre mim. Neles, há uma passagem muito perspicaz. Diz que, em minha juventude, em um grupo de estudos bíblicos, discuti sobre milagres e, por não conseguir acreditar neles de forma alguma, risquei todas as passagens sobre milagres da minha Bíblia. Ao lê-la assim, percebi que havia se tornado não um livro religioso, mas um livro de moral. Compreendendo isso, perdi completamente o interesse e abandonei o estudo. Acho que essa é uma observação muito acertada. Em suma, quando uma religião se baseia apenas em ensinamentos, ela se torna uma forma de moral. Além dessa moral, ou seja, além do que a lógica pode explicar, existe o elemento do mistério, e é esse o fundamento da religião. Portanto, quanto mais mistérios e milagres, maior o valor da religião. No entanto, ao chegar a esse ponto, ela deixa de ser uma religião no sentido estrito. Por isso, os ensinamentos se tornam desnecessários.
-
-Este é um ponto de difícil compreensão. É como criar leis para evitar que surjam criminosos. A criação de leis estabelece que "quem cometer tal delito, incorrerá em tal crime e receberá tal punição", mantendo a ordem de forma precária. As doutrinas religiosas também costumam ter uma lista de "não se deve fazer isso" e "deve-se fazer aquilo". O precursor disso são os Dez Mandamentos de Moisés. Com "faça isso" e "não faça aquilo", embora não haja uma punição física como a da lei, há uma punição espiritual. A passagem bíblica que diz "quem olhar para uma mulher com cobiça já cometeu adultério em seu coração" é um exemplo dessa punição espiritual. Fazer o bem e evitar o mal por medo da punição não é a forma verdadeira. É como se esforçar para não beber álcool porque faz mal à saúde. Como religião, isso ainda é um nível inferior, não um nível elevado.
-
-Uma religião de nível elevado é aquela em que não há punições como "não faça isso", mas em que a pessoa simplesmente não gosta de fazer tais coisas. No caso da bebida, ela perde a vontade de beber. Ela perde o gosto por fazer coisas estranhas. Cometer atos maus ou desonestos é, no fundo, uma questão de gosto. As pessoas envolvidas em escândalos de corrupção gostam desse tipo de coisa. Para elas, agir nas sombras é mais interessante do que ganhar dinheiro por meios limpos e convencionais. Isso ocorre porque a alma dessas pessoas não é reta, é de baixo nível. Se a alma não fosse baixa, elas não agiriam assim. Elas têm uma forte inclinação animal e muito pouco sentimento humano e luminoso. Precisam de uma jaula, que é a punição, para não se desviarem. E mesmo com a jaula, elas a arrombam... Espiritualmente falando, são de um nível muito baixo. Na verdade, os políticos e as pessoas importantes que andam de peito estufado são, do ponto de vista espiritual, extremamente inferiores. São de uma classe baixa.
-
-Sendo assim, quando a alma atinge um estado em que não pratica o mal mesmo sem leis ou preceitos, quando não tem gosto pelo mal e sente prazer em fazer o bem, essa é a alma verdadeira. Não se deve abster do mal porque os outros estão vendo. O objetivo principal da Sekai Kyusei Kyo é formar seres humanos assim. Claro que ninguém se torna uma pessoa tão exemplar de uma hora para outra, e por isso a doutrina também é necessária. Mas o fundamento está em um plano muito mais elevado, e é por isso que digo que não somos uma religião. Algo de tão alto nível nunca havia surgido antes. E agora, surgiu. Explicar algo de tão alto nível não é simples. As pessoas dizem: "Que absurdo!". No Johrei, por exemplo, a pessoa é curada mesmo que duvide. O mundo nos aborda com a lógica, mas a lógica está abaixo; nós estamos acima da lógica. Seria bom que investigassem, mas os intelectuais de hoje, se não conseguem compreender algo com a lógica que conhecem, simplesmente o descartam. É muito difícil, mas quem compreende de verdade, percebe que é algo muito melhor que a lógica e não consegue mais se afastar.
-
-**3. Como conciliar a discriminação e a igualdade ao orientar os discípulos**
-(De uma Palestra de Meishu-Sama [28 de fevereiro de 1949], publicada na Coletânea de Palestras, nº 4, em 1949)
-
-*Pergunta: “Ao orientar os discípulos, como devemos lidar com a discriminação e a igualdade? Por exemplo, como devemos tratar um discípulo antigo que não tem um desempenho notável em comparação com um discípulo novo que se destaca grandemente?”*
-
-Não se deve tomar uma decisão definitiva por um lado ou por outro. Não se deve pender nem para o desempenho nem para a antiguidade. A pessoa mais antiga tem seus méritos por sua trajetória; não é uma antiguidade, mas tem o sabor do tempo. (risos)
-
-Agora, se for para priorizar um dos dois, é claro que o desempenho deve vir em primeiro lugar. O ideal é agir de forma equilibrada e flexível, conforme a situação. As pessoas em geral não são hábeis nisso, e o conhecimento acadêmico também não ajuda... A discriminação é vertical, e a igualdade é horizontal. Pender demais para um dos lados é um erro.
-
-**4. Como proceder quando um subordinado está agindo de forma errada**
-(De uma Orientação de Meishu-Sama [5 de outubro de 1951], publicada na Coletânea de Orientações, nº 3, em 25 de novembro de 1951)
-
-Eu, por exemplo, mesmo que um subordinado cometa um erro, nunca lhe digo que está errado. Entrego o assunto a Deus. Se ele estiver realmente errado, será removido ou aniquilado. Aos olhos humanos, algo pode parecer um erro, mas para Deus, há alguma necessidade naquilo. Houve um caso assim com uma certa pessoa. Eu dizia "bem, é Deus quem está agindo", mas ela acabou adoecendo, foi hospitalizada e faleceu. Se Deus não tivesse poder para fazer algo assim, seria melhor não acreditar. Agora, sobre aquela pessoa que está em tal lugar... dizem que ela precisa ser removida. Mas é Deus quem está no comando. Se for necessário, Deus simplesmente a retirará. Se ela ainda está lá, é porque ainda há uma necessidade.
-
-A pessoa que faleceu realizou um grande feito, fez coisas muito boas. Sou-lhe grato até hoje. Ela fez o bem, mas como passaria a fazer o mal, foi detida. Houve um momento em que ela foi necessária. Deus é profundo. Se os seres humanos pudessem discernir o bem e o mal com seus próprios olhos... que tipo de Deus seria esse? Qualquer pessoa má, qualquer pessoa tola, é utilizada por Deus quando há necessidade. Geralmente, com o passar do tempo, compreendemos. No grande teatro do universo, há papéis de vilão, papéis de herói, há todo tipo de função. Existem muitos vilões, mas sem eles, a peça não acontece. Só com pessoas boas... Portanto, enquanto houver progresso, apesar dos percalços, está tudo bem. Afinal, vivemos em um mundo do mal.
-
-E há também os espíritos malignos. Eles também se infiltram na organização. Todos os membros são alvos dos espíritos malignos. Não se pode baixar a guarda nem por um instante. Há pessoas que sofrem terrivelmente por causa deles, mas isso é uma purificação. Sem ser atacado pelos espíritos malignos, não é possível se purificar.
-
-**5. O líder deve se responsabilizar por suas palavras**
-(De uma Palestra de Meishu-Sama [16 de março de 1953], publicada na Coletânea de Ensinamentos, nº 20, em 15 de abril de 1953)
-
-A questão do momento é a queda do gabinete de Yoshida. Isso me fez lembrar de algo da época em que eu promovia concursos de poemas humorísticos. O poema que considerei a obra-prima foi: "Idiota! Pensando bem, era de mim que falava". Ele foi publicado na coletânea "A Fonte do Riso". Acredito que se aplica perfeitamente ao Sr. Yoshida. O estopim direto foi, sem dúvida, a questão do "idiota". A partir daí, as críticas ao seu gabinete explodiram. Se fosse outro problema, o povo talvez não se importasse tanto, mas aquilo foi intolerável. Até eu pensei: "O Sr. Yoshida precisa renunciar". A questão do "idiota" foi fatal.
-
-Ainda assim, em vez de tomar a medida morna de apenas "retirar" a palavra, o Sr. Yoshida deveria ter se desculpado. É nesses momentos que fica evidente a falta de consciência e de senso de justiça dele em relação a esse tipo de problema. O interlocutor era, afinal de contas, um membro do Parlamento. Um parlamentar, mesmo que seja apenas um, representa os votos de dezenas de milhares de eleitores. Dizer "idiota" a ele é o mesmo que insultar o povo com a mesma palavra. Do ponto de vista do sentimento popular, isso é inaceitável. E o fato de o primeiro-ministro de um país ter dito "idiota" no sagrado recinto do Parlamento torna a situação indefensável. Portanto, não havia outra saída senão se curvar em desculpas. E essa desculpa deveria demonstrar um profundo arrependimento, algo como: "Cometi um erro por descuido, peço que me perdoem". Deveria ficar claro que ele compreendeu sua falta. Mas foi uma simples "retirada", o que soa como um mero lapso de linguagem. Se ele tivesse dito: "Eu disse por engano, portanto retiro", seria diferente. Mas não foi isso. Deveria ter sido uma demonstração de arrependimento pelo crime de ter chamado o povo de "idiota" e de ter profanado o sagrado plenário. A ausência total desse sentimento mostra que o Sr. Yoshida não tem consciência, que não consegue sequer distinguir o bem do mal. Sendo assim, confiar-lhe a ordem de uma nação se torna perigoso e insustentável.
-
-**6. Ensinar a se apegar a Deus para não cair na fé em pessoas**
-(De um Ensinamento de Meishu-Sama [5 de outubro de 1951], publicado na Coletânea de Ensinamentos, nº 3, em 3 de novembro de 1951)
-
-*Relato: “Minha esposa, Miya (43 anos), adoeceu com um problema ginecológico um ano após o nascimento de nosso filho mais velho, há vinte anos. Recebeu tratamento médico por vários anos e melhorou. Na primavera de 1946, foi diagnosticada com tuberculose apical e começou a enfraquecer. Foi quando conheci esta Igreja. Eu ingressei na fé e, por um ano, ministrei-lhe Johrei, e ela ficou praticamente curada. Depois disso, perdemos o contato com nosso orientador, e o Ohikari ficou guardado no altar por vários anos. Nesse período, em 1948, após muito tempo sem filhos, ela engravidou. Com a proximidade do parto, desenvolveu nefrite e recorreu a tratamento médico, mas o bebê nasceu morto. Na ocasião, aplicaram-lhe gelo no abdômen. Depois disso, ela se fortaleceu. O bebê falecido tem seu espírito cultuado. No final de 1949, seus gânglios linfáticos do pescoço incharam, e ela ficou em dúvida entre médicos e remédios. Em fevereiro do ano seguinte, com a orientação do ministro Taki, minha esposa também ingressou na fé. Continuamos com o Johrei e, em cerca de seis meses, ela se fortaleceu novamente. Em 15 de agosto deste ano, fomos em peregrinação a Hakone. Ao voltar, ela sentiu dores na região lombar. Pedimos Johrei a vários ministros, mas a dor foi se intensificando. Do final de agosto a setembro, todas as noites, por volta das 20h às 00h, ela sofre com dores agudas e intermitentes em toda a região lombar. O Johrei alivia, mas a situação se repete diariamente. Ultimamente, quase não se alimenta e enfraquece a cada dia. A febre oscila entre 37 e 38 graus. Em agosto de 1950, consagramos a Imagem de Kannon (観音) e, em dezembro, a Imagem Komyō Nyorai. Como podemos obter a salvação?”*
-
-A frase "perdemos o contato com nosso orientador" é um erro gravíssimo. A fé não é no orientador. Esse é o erro fundamental, e quando se comete algo assim, as coisas não vão bem, e a recuperação se torna muito difícil. O fato de a tuberculose apical ter sido curada é uma graça imensa, e por isso a fé deveria ter se fortalecido ainda mais. Dizer que perdeu o contato com o orientador é o contrário do que deveria ter acontecido. Ademais, em 1948, após muito tempo, ela engravidou – o que é motivo de grande gratidão. Mesmo assim, não despertaram. Recorreram a tratamento médico e o bebê nasceu morto. Eles próprios, deliberadamente, agiram para que as coisas piorassem. Depois, a aplicação de gelo – outro erro. Gânglios linfáticos – mesmo tendo curado a tuberculose com o Johrei, hesitar entre médicos e remédios é um disparate. A cabeça não está funcionando bem.
-
-Isso significa que, como eles erraram o caminho, agora precisam consertar o erro. Mas consertar um erro depois de tê-lo cometido não é simples. A proteção divina é interrompida por um tempo. É como estar segurando uma corda de salvação e soltá-la. Ao tentar segurá-la novamente, não é tão fácil.
-
-**7. A importância de se vestir de acordo com a própria posição**
-(De uma Orientação de Meishu-Sama [8 de setembro de 1951], publicada na Coletânea de Orientações, nº 2, em 10 de outubro de 1951)
-
-Ontem, uma pessoa importante esteve aqui, vestida de forma simples, sem sequer usar meias. Isso é um erro. Nossa fé se baseia na Verdade, no Bem e no Belo. Falta o Belo. Em algumas religiões, as pessoas se vestem de forma suja e simples e moram em casas modestas, mas nossa fé preza o Belo. E beleza... não há lugar mais belo do que este. Esquecer-se da beleza é se desviar do verdadeiro caminho. Insistir em comer alimentos ruins – se essa for a única opção para sobreviver, tudo bem –, mas comer deliberadamente comida ruim, vestir-se de forma simples e morar em uma casa modesta para dar a impressão de ter uma fé fervorosa é um equívoco.
-
-Quem come alimentos saborosos tem o mérito para tal. Não se pode fazê-lo através de meios ilícitos, mas se, seguindo o caminho correto, a pessoa pode comer bem e morar em uma boa casa, isso é o certo. É como na tese que li há pouco – como o diamante e o ferro. O ferro tem sua função na fabricação de panelas ou trilhos de trem. Fazer panelas, caldeirões ou armas de ouro seria um desperdício. O ouro tem seu valor quando é bem polido e usado como adorno. O mesmo se aplica às moedas.
-
----
-
-# kekkaku1
-
-**Categoria:** hakkousi | **Ano:** 昭和18年5月5日 | **Fonte:** Asu no Ijutsu
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1943-05-05
-
-Coletânea de Teses do Mestre Okada Jikan – Organizado por Periódico de Publicação
-
-## A Questão da Tuberculose e sua Solução (Ashita no Ijutsu)
-
-Trechos extraídos da primeira edição de "Ashita no Ijutsu", compilando os ensinamentos relativos à tuberculose.
-
-**A Questão da Tuberculose e sua Solução (Primeira Edição)**
-
-Publicado em 13 de dezembro de 1942
-Impressão mimeografada, papel japonês, encadernação em estilo fukurotoji
-Formato A5, 133 fólios, 265 páginas
-Distribuição restrita
-Autor: Okada Mokichi
-Impressor: Hara Seisaku
-Editora: Departamento de Publicações da Sakai Shoji
-
-Como era de se esperar, o papel japonês praticamente não apresenta sinais de deterioração.
-
-**A Questão da Tuberculose e sua Solução (Segunda Edição)**
-
-Publicado em 5 de maio de 1943
-Formato B6, 181 páginas
-Preço: dois ienes
-Autor: Okada Mokichi
-Editor: Shihozawa Takeshi
-Gráfica: Kumagai Insatsusho
-
-Sua publicação foi proibida em fevereiro de 1944.
-
----
-
-# gosinsyo
-
-**Categoria:** hakkousi | **Ano:** 昭和29年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1954
-
-— Coletânea de Ensaios do Mestre Okada Jikanshi —
-
-## Ensinamentos Divinos (Religião)
-
-Publicado em 25 de março de 1954
-Formato B5, 520 páginas
-
-Edição: Departamento Doutrinário da Sekaikyuseikyou
-Editor-responsável: Moriyama Jitsutaro
-Publicação: Departamento de Publicações da Sekaikyuseikyou
-
-## Coletânea de Ensaios Essenciais
-
-A obra, ao que parece, foi-nos entregue dentro desta sobrecapa, ou melhor, de um estojo.
-
----
-
-# Coletânea de Ensaios do Mestre Jikan Okada – Organizada por Periódico de Publicação
-
-**Categoria:** hakkousi | **Ano:** 昭和26年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1951
-
-## Coletânea de Ensaios do Mestre Jikan Okada – Organizada por Periódico de Publicação
-
-**Fonte do Riso**
-
-Publicado em 30 de janeiro de 1951
-Formato B6, 115 páginas
-Venda proibida
-
-Autor: Jikan
-Editor responsável: Masao Koyama
-Casa publicadora: Departamento Editorial Eikosha
-
-Trata-se de uma coletânea de poemas humorísticos no estilo *kanku*. Originalmente publicados sob o pseudônimo de Ake-garasu Aho, o colofão desta edição atribui a autoria a Jikan.
-
-**Poema de Abertura**
-
-*As carteiras vazias deste mundo...*
-*Ah, como anseio enchê-las,*
-*até que pesem,*
-*com moedas de ouro.*
-
-**Prefácio**
-
-Se nos perguntarmos sobre o que é mais necessário à sociedade japonesa atual – ou melhor, ao próprio povo japonês –, a resposta que todos os homens de bom senso proclamariam em uníssono é, sem dúvida, o riso.
-
-Basta observar a realidade: o fardo dos impostos, a escassez de alimentos, a crise habitacional, a alta dos preços, as dificuldades financeiras, o alarmante aumento da criminalidade, a proliferação de doenças... A sucessão de adversidades é tamanha que não seria exagero descrever este cenário como uma autêntica pintura do inferno.
-
-Ademais, como ensina o antigo provérbio, "A fortuna adentra os portais onde ecoa o riso". Contudo, neste mundo transitório, tão carregado de melancolia e desânimo como o dos dias atuais, parece improvável que algo de bom possa florescer. Portanto, é imperativo que dissipemos de uma só vez essa atmosfera lúgubre com uma vigorosa explosão de riso. Foi com esse propósito que decidimos pela publicação desta obra.
-
-Caros leitores, leiam e riam! Riam com toda a alma! Releiam e libertem-se de suas amarras! Riam, riam, riam sem cessar, pois é assim que devemos construir o Paraíso na Terra. Afinal, não se diz que o riso é a flor que desabrocha no Paraíso?
-
-Os poemas aqui reunidos foram originalmente selecionados por mim há mais de vinte anos, na época em que eu presidia uma associação dedicada aos *kanku* humorísticos. Para a presente edição, realizei uma nova triagem a partir daquela vasta coleção, acrescentando-lhes alguns retoques. Por essa razão, ouso afirmar que cada verso contido nestas páginas é uma verdadeira joia.
-
-Outubro de 1950
-O Editor
-
----
-
-# kakudai1
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-※ É permitida a cópia para uso pessoal, contudo, solicitamos o máximo de cuidado em seu manuseio.
-
----
-
-# Postais de Shinsenkyo (神仙郷): O Paraíso Terrestre de Hakone
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## Postais de Shinsenkyo (神仙郷): O Paraíso Terrestre de Hakone
-
-## Conjunto de Quatro Postais Coloridos de Shinsenkyo (神仙郷) (Número exato de exemplares desconhecido)
-
-Produzido por Otsuka Kogeisha, Tóquio.
-
-Edifício Principal do Museu de Arte de Hakone
-
-Vista a partir do Museu de Arte de Hakone, contemplando a Casa de Chá de Shinsenkyo (神仙郷) e a região do Monte Myojogatake
-
-Vista a partir do Museu de Arte de Hakone, avistando o Pavilhão Nikko-den de Shinsenkyo (神仙郷) e a região de Miyanoshita e Yumoto
-
-Vista a partir dos jardins do Pavilhão Nikko-den de Shinsenkyo (神仙郷), em direção ao Monte Sounzan
-
----
-
-# hakone3
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-――― Coletânea de Ensaios do Mestre Jikan Okada ―――
-
-**Publicação Original:** Panfleto da Exposição Especial do Museu de Arte de Hakone
-**Tema da Exposição:** As Cinquenta e Três Estações da Tōkaidō de Hiroshige: Hakone
-**Data da Publicação:** 26 de agosto de 1953
-**Especificações:** Formato B5 modificado, 76 páginas, 71 fotografias
-**Editora:** Hōchi Shimbunsha
-**Responsável pela Edição, Publicação e Impressão:** Kaichiro Kosaka
-
-Este é o panfleto da Exposição Especial do Museu de Arte de Hakone de 1953.
-
-## Índice
-
-**Seção de Ukiyo-e e Xilogravuras**
-Shizuya Fujikake (página 9)
-
-I. A Evolução do Ukiyo-e e da Xilogravura
-I. O Paraíso da Beleza: O Museu de Arte de Hakone
-I. A Ascensão da Xilogravura Moderna
-
-**Seção de Considerações Gerais e Artes Aplicadas**
-Tetsuzo Tanigawa (página 41)
-
-Reflexões sobre o Museu de Arte de Hakone — Um diálogo centrado nas artes aplicadas —
-
-Palavra do Editor (página 66)
-
-## Apresentação dos Autores
-
-**Sr. Shizuya Fujikake**
-Doutor em Letras. Nascido na província de Ibaraki, graduou-se no Departamento de História da Universidade Imperial de Tóquio, onde se especializou no estudo da história da arte. Ocupou sucessivamente os cargos de inspetor de Tesouros Nacionais do Ministério da Educação e de professor na Universidade Imperial de Tóquio. Entre suas obras mais representativas, destacam-se "A História da Xilogravura Ukiyo-e", "Ukiyo-e" e "Estudos sobre o Ukiyo-e", sendo renomado como crítico de ukiyo-e e xilogravuras.
-
-**Sr. Tetsuzo Tanigawa**
-Atualmente, é decano da Primeira Faculdade de Letras da Universidade Hosei. Nascido na província de Aichi, graduou-se no Departamento de Filosofia da Universidade Imperial de Quioto, sendo discípulo da filosofia de Nishida. Ocupou a cátedra de professor na Escola de Pintura de Quioto, na Universidade Ryukoku e na Universidade Hosei. Foi também, por um período, vice-diretor do Museu Nacional. É autor de obras como "Humanismo" e "Guerra e Paz", sendo célebre como crítico cultural e de arte.
-
----
-
-# hajimete
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-Coletânea de Ensaios do Mestre Okada Jikan
-Organizado por Periódico
-
-## Para os que Recebem Johrei pela Primeira Vez
-
-10 de dezembro de 1954
-A6, 20 páginas
-Editor-responsável: Departamento Editorial da Sekaikyuseikyo
-Publicação: Departamento de Publicações da Sekaikyuseikyo
-Impressão: Atami Shoji Kabushikigaisha
-
----
-
-# miosiesy
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-Coletânea de Artigos do Mestre Okada Jikan
-Coletânea de Ensinamentos por Publicação (Números 1 a 33)
-
-Coletânea de Ensinamentos (Número 1)
-Publicado em 20 de setembro de 1951
-Formato B6
-Edição: Departamento Editorial da Sekaikyuseikyo
-Editor Responsável: Seizo Abe
-Editora: Departamento de Publicações da Sekaikyuseikyo
-
-## Registro dos Encontros nos Dias de Oração
-
-**Prefácio**
-
-O presente volume reúne os registros das orientações e dos Ensinamentos proferidos por Meishu-Sama durante os encontros nos dias de oração, compilados sob o título de "Coletânea de Ensinamentos".
-
-Por meio das palavras de Verdade de Meishu-Sama, contidas em Suas orientações, torna-se perfeitamente possível ao ser humano ser salvo do sofrimento da doença — uma das três grandes aflições da humanidade — e adentrar uma vida de júbilo. Suas palavras, ademais, nos revelam o grandioso caminho da Verdade, um patamar inatingível por quaisquer meios que a cultura estabelecida possa oferecer. Temos a convicção de que cada um desses pronunciamentos, sem exceção, constitui um despertar para essa mesma Verdade.
-
-Pelas razões expostas, almejamos que esta obra se torne um livro de consulta indispensável a todos os fiéis.
-
-Setembro de 1951
-
-N.º / Data de Publicação / Ensinamentos Registrados nos Dias / Obras Completas de Mokichi Okada
-
-1º / 20.09.1951 / Agosto de 1951: 1, 5, 8, 11, 16, 18, 21, 25, 28 / Seção de Palestras 4-405
-2º / 25.10.1951 / Setembro de 1951: 1, 5, 8, 11, 15, 18, 21, 23, 24, 25, 26, 27 / Seção de Palestras 4-477
-3º / 25.11.1951 / Outubro de 1951: 1, 5, 8, 11, 15, 18, 21, 25, 28 / Seção de Palestras 5-7
-4º / 15.12.1951 / Novembro de 1951: 1, 5, 8, 11, 15, 18, 21, 25, 28 / Seção de Palestras 5-104
-5º / 15.01.1952 / Dezembro de 1951: 1, 6, 8, 11, 15, 18, 21, 23, 25, 28 / Seção de Palestras 5-197
-6º / 25.02.1952 / Janeiro de 1952: 1, 2, 3, 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 6-333
-7º / 20.03.1952 / Fevereiro de 1952: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 7-7
-8º / 20.04.1952 / Março de 1952: 5, 6, 7, 15, 16, 17, 23, 24, 25, 26, 27 / Seção de Palestras 7-91
-9º / 15.05.1952 / Abril de 1952: 5, 6, 7, 15, 16, 17, 25, 26, 27, 30 / Seção de Palestras 7-212
-10º / 15.06.1952 / Maio de 1952: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 7-271
-11º / 15.07.1952 / Junho de 1952: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 7-331
-12º / 15.08.1952 / Julho de 1952: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 7-411
-13º / 25.09.1952 / Agosto de 1952: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 8-7
-14º / 15.10.1952 / Setembro de 1952: 5, 6, 7, 15, 16, 17, 23, 24, 25, 26, 27 / Seção de Palestras 8-60
-15º / 15.11.1952 / Outubro de 1952: 5, 6, 7, 15, 16, 17, 18, 20, 25, 26, 27 / Seção de Palestras 8-128
-16º / 15.12.1952 / Novembro de 1952: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 8-180
-17º / 15.01.1953 / Dezembro de 1952: 5, 6, 7, 15, 16, 17, 23, 25, 26, 27 / Seção de Palestras 8-230
-18º / 15.02.1953 / Janeiro de 1953: 1, 2, 3, 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 9-317
-19º / 15.03.1953 / Fevereiro de 1953: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 10-7
-20º / 15.04.1953 / Março de 1953: 5, 6, 7, 15, 16, 17, 23, 24, 25, 26, 27 / Seção de Palestras 10-59
-21º / 15.05.1953 / Abril de 1953: 5, 6, 7, 8, 10, 15, 16, 17, 25, 26, 27 / Seção de Palestras 10-134
-22º / 15.06.1953 / Maio de 1953: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 10-205
-23º / 15.07.1953 / Junho de 1953: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 10-261
-24º / 15.08.1953 / Julho de 1953: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 10-330
-25º / 15.09.1953 / Agosto de 1953: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 11-7
-26º / 15.10.1953 / Setembro de 1953: 5, 6, 7, 15, 16, 17, 23, 24, 25, 26, 27 / Seção de Palestras 11-63
-27º / 15.11.1953 / Outubro de 1953: 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 11-142
-28º / 15.12.1953 / Novembro de 1953: 5, 6, 7, 8, 10, 11, 15, 16, 17, 25, 26, 27 / Seção de Palestras 11-193
-29º / 15.01.1954 / Dezembro de 1953: 5, 6, 7, 15, 16, 17, 23, 25, 26, 27 / Seção de Palestras 11-271
-30º / 15.02.1954 / Janeiro de 1954: 1, 2, 3, 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 12-99
-31º / 15.03.1954 / Fevereiro de 1954: 4, 5, 6, 7, 15, 16, 17, 25, 26, 27 / Seção de Palestras 12-174
-32º / 15.04.1954 / Março de 1954: 5, 6, 7, 15, 16, 17, 23, 24, 25, 26, 27 / Seção de Palestras 12-237
-33º / 15.05.1954 / Abril de 1954: 5, 6, 7, 11, 12, 15, 16, 17 / Seção de Palestras 12-314
-
----
-
-# Coletânea de Escritos do Mestre Okada Jikanshi
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## Coletânea de Escritos do Mestre Okada Jikanshi
-## Registro de Ensinamentos por Edição (Números 1 a 30)
-
-**Registro de Ensinamentos (Nº 1)**
-Publicação: 15 de setembro de 1951
-Formato: B6
-Edição: Departamento Editorial da Sekaikyuseikyou
-Diretor de Publicação: Seizo Abe
-Publicação: Departamento de Publicações da Sekaikyuseikyou
-
-Transcrição das Audiências Especiais, restritas aos membros qualificados.
-Distribuído exclusivamente aos membros qualificados.
-
-**Prefácio**
-
-Esta brochura reúne os Ensinamentos de Meishu-Sama, ministrados durante as Audiências Especiais.
-
-Sejam os Ensinamentos de Meishu-Sama que destroem as superstições estabelecidas, sejam Suas inúmeras Palavras Divinas acerca do novo mundo que se aproxima, cremos que, invariavelmente, tudo ecoará no âmago de vossos corações. Por essa razão, ousamos recomendar que esta obra se torne um guia indispensável para todos.
-
-Setembro de 1951
-
-| Nº | Data de Publicação | Conteúdo | Referência na Coletânea de Obras de Mokiti Okada |
-| :-- | :--- | :--- | :--- |
-| 6 | 25.01.1952 | Registros das Audiências Especiais de abril a julho de 1951. | Coletânea de Palestras, vol. 4, p. 31 |
-| 1 | 15.09.1951 | Registros das Audiências Especiais de 1, 5 e 8 de agosto de 1951. | Coletânea de Palestras, vol. 4, p. 76 |
-| 2 | 10.10.1951 | Registros das Audiências Especiais de 1, 5 e 8 de setembro de 1951. | Coletânea de Palestras, vol. 4, p. 118 |
-| 3 | 25.11.1951 | Registros das Audiências Especiais de 1, 5 e 8 de outubro de 1951. | Coletânea de Palestras, vol. 4, p. 181 |
-| 4 | 10.12.1951 | Registros das Audiências Especiais de 1, 5 e 8 de novembro de 1951. | Coletânea de Palestras, vol. 4, p. 251 |
-| 5 | 25.12.1951 | Registros das Audiências Especiais de 1, 5 e 8 de dezembro de 1951. | Coletânea de Palestras, vol. 4, p. 336 |
-| 7 | 10.03.1952 | Registros das Audiências Especiais de janeiro e fevereiro de 1952. | Coletânea de Palestras, vol. 6, p. 7 |
-| 8 | 25.04.1952 | Registros das Audiências Especiais de março e 1 de abril de 1952. | Coletânea de Palestras, vol. 6, p. 41 |
-| 9 | 15.05.1952 | Registro da Audiência Especial de 1 de maio de 1952. | Coletânea de Palestras, vol. 6, p. 103 |
-| 10 | 15.06.1952 | Registro da Audiência Especial de 1 de junho de 1952. | Coletânea de Palestras, vol. 6, p. 132 |
-| 11 | 15.07.1952 | Registro da Audiência Especial de 1 de julho de 1952. | Coletânea de Palestras, vol. 6, p. 163 |
-| 12 | 25.08.1952 | Registro da Audiência Especial de 1 de agosto de 1952. | Coletânea de Palestras, vol. 6, p. 195 |
-| 13 | 25.09.1952 | Registro da Audiência Especial de 1 de setembro de 1952. | Coletânea de Palestras, vol. 6, p. 231 |
-| 14 | 15.10.1952 | Registro da Audiência Especial de 1 de outubro de 1952. | Coletânea de Palestras, vol. 6, p. 263 |
-| 15 | 15.11.1952 | Registro da Audiência Especial de 1 de novembro de 1952. | Coletânea de Palestras, vol. 6, p. 287 |
-| 16 | 15.12.1952 | Registro da Audiência Especial de 1 de dezembro de 1952. | Coletânea de Palestras, vol. 6, p. 306 |
-| 17 | 15.02.1953 | Registro da Audiência Especial de 1 de fevereiro de 1953. | Coletânea de Palestras, vol. 9, p. 7 |
-| 18 | 15.03.1953 | Registro da Audiência Especial de 1 de março de 1953. | Coletânea de Palestras, vol. 9, p. 35 |
-| 19 | 15.04.1953 | Registro da Audiência Especial de 1 de abril de 1953. | Coletânea de Palestras, vol. 9, p. 58 |
-| 20 | 15.05.1953 | Registro da Audiência Especial de 1 de maio de 1953. | Coletânea de Palestras, vol. 9, p. 85 |
-| 21 | 15.06.1953 | Registro da Audiência Especial de 1 de junho de 1953. | Coletânea de Palestras, vol. 9, p. 116 |
-| 22 | 15.07.1953 | Registro da Audiência Especial de 1 de julho de 1953. | Coletânea de Palestras, vol. 9, p. 146 |
-| 23 | 15.08.1953 | Registro da Audiência Especial de 1 de agosto de 1953. | Coletânea de Palestras, vol. 9, p. 171 |
-| 24 | 15.09.1953 | Registro da Audiência Especial de 1 de setembro de 1953. | Coletânea de Palestras, vol. 9, p. 199 |
-| 25 | 15.10.1953 | Registro da Audiência Especial de 1 de outubro de 1953. | Coletânea de Palestras, vol. 9, p. 225 |
-| 26 | 15.11.1953 | Registro da Audiência Especial de 1 de novembro de 1953. | Coletânea de Palestras, vol. 9, p. 256 |
-| 27 | 15.12.1953 | Registro da Audiência Especial de 1 de dezembro de 1953. | Coletânea de Palestras, vol. 9, p. 279 |
-| 28 | 15.02.1954 | Registro da Audiência Especial de 1 de fevereiro de 1954. | Coletânea de Palestras, vol. 12, p. 11 |
-| 29 | 15.03.1954 | Registro da Audiência Especial de 1 de março de 1954. | Coletânea de Palestras, vol. 12, p. 39 |
-| 30 | 15.04.1954 | Registro da Audiência Especial de 1 de abril de 1954. | Coletânea de Palestras, vol. 12, p. 70 |
-
----
-
-# Coletânea de Milagres da Sekaikyuseikyou (A Bomba Atômica para a Ciência)
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## Coletânea de Milagres da Sekaikyuseikyou (A Bomba Atômica para a Ciência)
-
-Esta obra é uma compilação de 120 relatos de experiência.
-
-**Dados da Publicação Original**
-
-**Autor:** Mokichi Okada, Líder Espiritual da Sekaikyuseikyou
-**Editor Responsável:** Jitsutaro Moriyama
-**Editora:** Departamento de Publicações da Sekaikyuseikyou
-**Gráfica:** Atami Shoji Kabushiki-gaisha
-**Data de Publicação:** 10 de setembro de 1953
-**Formato:** B6, 300 páginas
-**Distribuição:** Venda proibida
-
----
-
-# Coletânea de Ensaios do Reverendo Okada Jikan
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## Coletânea de Ensaios do Reverendo Okada Jikan
-
-Postais de Zuiunkyo, do Paraíso Terrestre de Atami. Coleção monocromática de quatro cartões e um adicional, embora o número exato de peças seja incerto. Não há indicação da data de emissão nem do local de confecção.
-
-A imponente vista do Salão Messias no Paraíso Terrestre de Hakone (Maquete).
-
-O panorama sublime de Atami, contemplado à distância desde Zuiunkyo, no Paraíso Terrestre.
-
-A singular paisagem do Bosque de Ameixeiras Célebres em Zuiunkyo, no Paraíso Terrestre de Atami.
-
-A grandiosa cena do Monte das Azaleias em Zuiunkyo, no Paraíso Terrestre de Atami.
-
-Vista panorâmica do Museu de Arte de Hakone, em comemoração à sua inauguração em junho de 1952.
-
-Esta última imagem, ao que tudo indica, acompanhava o conjunto; contudo, não foi impressa como um cartão-postal.
-
----
-
-# honan
-
-**Categoria:** hakkousi | **Ano:** 昭和25年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1950
-
-Coletânea de Ensaios do Reverendo Okada Jikan
-
-## Relato da Perseguição Religiosa
-
-Publicado em 30 de outubro de 1950
-Formato B6, 94 páginas
-Venda proibida
-
-Autor: Jikan
-Editor: Koyama Masao
-Impressor:
-Publicação: Departamento Editorial Eikosha
-
-Um relato memorialístico da Perseguição Religiosa sofrida entre 8 de maio e 12 de julho de 1950, referente à detenção sob a acusação de evasão fiscal.
-
----
-
-# Coletânea de Artigos do Mestre Okada Jikanshi
-
-**Categoria:** hakkousi | **Ano:** 昭和26年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1951
-
-## Coletânea de Artigos do Mestre Okada Jikanshi
-
-Este ensinamento foi extraído da publicação *Luz do Ensinamento*, em sua edição de 20 de maio de 1951, impressa em formato A6 com 160 páginas. A editoração esteve a cargo do Departamento Editorial da Sekai Kyuseikyou, tendo como editor responsável o Sr. Oyama Masao e como casa publicadora o Departamento de Publicações Eikosha.
-
-O presente texto corresponde a um excerto da seção “Luz da Sublime Sabedoria”, originalmente veiculada na revista *Paraíso Terrestre* e compilada na Coletânea de Perguntas e Respostas. O mesmo conteúdo pode ser encontrado na Obra Completa de Okada Mokichi, Coletânea de Sermões, volume 5, página 285.
-
----
-
-# Periódico ‘Hikari’ (Luz)
-
-**Categoria:** hakkousi | **Ano:** 昭和24年3月8日 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1949-03-08
-
-## Periódico ‘Hikari’ (Luz)
-Edições 1 a 47 (De 8 de março de 1949 a 28 de janeiro de 1950)
-
-### Editorial de Lançamento
-
-É com grande propósito que lançamos o periódico ‘Hikari’ (Luz), que se constituirá no órgão oficial da Nihon Kannon Kyodan (日本観音教団). O objetivo de nossa Igreja é atuar em prol da concretização do Paraíso Terrestre, um mundo isento de doença, pobreza e conflito.
-
-Refletindo sobre o panorama religioso, é inegável que todas as doutrinas, sem exceção, almejam a erradicação do sofrimento humano e a realização de um mundo ideal. Todavia, a questão primordial reside na sua capacidade de concretização. Pois, por mais sublimes que sejam as palavras proferidas ou os textos escritos, se não houver a possibilidade de sua materialização, tudo se reduz, em última análise, a nada mais que preces vazias.
-
-Não temos a menor intenção de caluniar outras religiões; apenas expomos os fatos como eles se apresentam, algo que é do conhecimento de todos.
-
-O que nossa Igreja presentemente realiza é a solução da doença e da pobreza na esfera individual, o que, por conseguinte, dissolve os conflitos que lhes são inerentes. O resultado é a manifestação de lares paradisíacos. Muitos por certo pensarão ser impossível que algo tão alvissareiro exista neste mundo cético e adverso. E tal ceticismo é compreensível, pois, desde o alvorecer da História, a humanidade jamais havia experienciado a manifestação de uma força salvadora tão poderosa.
-
-Contudo, um fato é um fato, e quem quer que tenha contato com nossa Igreja poderá comprovar essa verdade por si mesmo. Nosso sincero anseio é tornar este grandioso poder salvador amplamente conhecido, a fim de gerar o maior número possível de pessoas felizes. Cremos que essa é a maneira de correspondermos a Deus, que nos confiou a magna obra de salvação da humanidade.
-
-Nossa única determinação é avançar com a convicção de que, ao lançarmos os projéteis de ‘Luz’ contra esta sociedade de trevas e ignorância, a escuridão se dissipará instantaneamente, dando lugar ao Paraíso. Eis, em suma, as palavras que marcam o lançamento deste periódico.
-
-(Jikan)
-
-## Periódico ‘Kyusei’ (Salvação do Mundo)
-Edições 48 a 65 (De 4 de fevereiro de 1950 a 3 de junho de 1950)
-
-### Sobre a mudança de título de ‘Hikari’ para ‘Kyusei’
-
-Conforme informado em outro comunicado, a anterior Nihon Kannon Kyodan (日本観音教団) e a Nihon Goroku Shichi Kyokai (日本五六七教会) foram dissolvidas. Em seu lugar, foi fundada a nova Sekai Meshiya Kyo (世界救世（メシヤ）教). Por conseguinte, o periódico ‘Hikari’ também teve seu nome alterado para ‘Kyusei’.
-
-## Periódico ‘Eikou’ (Glória)
-Edição 66 em diante (A partir de 23 de agosto de 1950)
-
-### Sobre a Retomada da Publicação
-
-Como é de vosso conhecimento, a publicação deste periódico foi inevitavelmente suspensa após a edição de número 65, lançada em 3 de junho. Paralelamente, em 8 de maio, o editor-chefe, Sr. Inoue Shigetokichi, foi detido pela promotoria da província de Shizuoka sob suspeita de evasão fiscal. Posteriormente, no dia 29 do mesmo mês, eu mesmo fui submetido a destino semelhante.
-
-Contudo, é imperativo esclarecer que nem o Sr. Inoue nem eu praticamos qualquer ato que infrinja a lei; a situação decorreu unicamente de uma investigação insuficiente por parte das autoridades. Evidentemente, não temos dúvida de que chegará o momento em que a verdade sobre nossa integridade virá à tona. Embora se diga desde a antiguidade que as perseguições religiosas são inerentes à fé, a ocorrência de tais eventos talvez se deva também à nossa falta de virtude. Ao mesmo tempo, acreditamos firmemente que se trata de uma profunda graça de Deus, concedida para polir nossas almas. Considerando o adágio de que, quanto maior a missão, maiores são as provações, o que mais haveríamos de dizer?
-
-Fui libertado em 19 de junho, após vinte e dois dias de detenção. Uma semana depois, eclodiu o conflito na Coreia. Embora por ora esteja restrito àquela região, pode-se dizer que é o prelúdio da transição da Guerra Fria entre as duas grandes potências, Estados Unidos e União Soviética, para uma guerra declarada. Naturalmente, este é também o primeiro sinal da grande purificação mundial e, poderíamos dizer, o prenúncio do Juízo Final. Ao observarmos tal conjuntura, não podemos deixar de sentir que o palco para nossa atuação salvífica se aproxima a cada instante.
-
-Os jornais de hoje trazem uma notícia sobre o Major Imboden, cuja perspectiva considero extremamente interessante. Disse o major: ‘Nenhuma nação pode ser neutra; ou é boa, ou é má. Portanto, é hora de decidir de que lado se está.’ São palavras de uma franqueza revigorante.
-
-Creio, todavia, que esse princípio não se aplica somente às nações, mas a todos os âmbitos da sociedade, sem exceção. Naturalmente, a religião não pode ser isenta desse critério. A única diferença, no caso da religião, é que atos praticados com a mais pura intenção de fazer o bem podem, por vezes, resultar no mal. Este é um ponto sobre o qual os religiosos devem exercer a máxima vigilância. O mesmo se aplica à lei. Durante o interrogatório a que fui submetido nesta recente suspeita, refleti sobre o fato de que as leis, criadas para promover o bem, quando aplicadas em excesso, podem paradoxalmente gerar o mal.
-
-Nesse mesmo espírito, decidimos alterar o título deste periódico de ‘Kyusei’ para ‘Eikou’ (Glória), e fortalecemos nossa determinação em nos empenharmos cada vez mais para concretizar a salvação do povo, que é o objetivo de Deus.
-
-Gostaria de anunciar aqui algo que a maioria dos membros provavelmente já sabe: aproveitando a oportunidade gerada por este incidente, promovemos uma reforma em toda a estrutura de nossa organização. Primeiramente, renunciei à minha posição como Kyoshu (教主) da Sekai Meshiya Kyo e, de agora em diante, dedicar-me-ei exclusivamente à difusão dos Ensinamentos. Esta decisão, por óbvio, provém da Vontade Divina. Pois, aquilo que a mente humana é incapaz de compreender em um primeiro momento, com o passar do tempo, sempre se revela fruto de um profundo desígnio — algo que a experiência constantemente me ensina.
-
-(Jikan)
-
----
-
-# Coleção de Tratados do Mestre Okada Jikan
-
-**Categoria:** hakkousi | **Ano:** 昭和24年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1949
-
-## Coleção de Tratados do Mestre Okada Jikan
-**Apresentação da Coleção Jikan, Volumes 1 a 15, por Editora**
-
-Aos estimados fiéis, anunciamos com grande satisfação o início da publicação da Coleção Jikan, de autoria do Grande Mestre Jikan, uma obra há muito aguardada por todos. Convidamos-vos a apreciar a grandiosidade de sua pena, que, em uma só leitura, conduz o leitor ao Mundo de Luz.
-
-**Volume 1: Tuberculose e a Terapia Espiritual Divina**
-*Data de Publicação:* 25 de junho de 1949
-*Formato:* B6, 80 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-*Apresentação:* Embora se afirme que a tuberculose tem cura, a realidade demonstra que muitos não a alcançam. Qual seria a razão para tal fato? Nesta obra, o autor elucida exaustivamente as causas desse mal e apresenta o método de cura infalível sob a perspectiva da nossa Terapia Espiritual Divina.
-
-**Volume 2: O Método do Cultivo sem Adubos**
-*Data de Publicação:* 1º de julho de 1949
-*Formato:* B6, 91 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-*Apresentação:* O método de cultivo sem adubos exposto neste livro atesta a certeza de um aumento de 30 a 50% na colheita. Seus princípios, sua metodologia e os relatórios de experimentos são apresentados de forma irrefutável nesta obra.
-
-**Volume 3: Colóquios sobre o Mundo Espiritual**
-*Data de Publicação:* 5 de outubro de 1949
-*Formato:* B6, 77 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Nishiyama Shunnosuke
-*Editora:* Nijusseiki Shuppan Insatsu Gōshi-gaisha
-
-*Apresentação:* A morte humana é comumente vista como o fim de tudo. Contudo, na verdade, após o passamento, a pessoa segue para o Mundo Espiritual, onde uma nova vida se inicia. A vida humana, em sua essência, é um ciclo infindável de renascimentos e transições.
-
-**Volume 4: Narrativas de Milagres**
-*Data de Publicação:* 5 de outubro de 1949
-*Formato:* B6, 78 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Nishiyama Shunnosuke
-*Editora:* Nijusseiki Shuppan Insatsu Gōshi-gaisha
-
-*Apresentação:* Este livro é um registro dos milagres decorrentes do poder Divino de Meishu-Sama, constituindo-se em uma leitura sublime para a elevação da fé.
-
-**Volume 5: Divagações de Jikan**
-*Data de Publicação:* 30 de agosto de 1949
-*Formato:* B6, 78 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Nishiyama Shunnosuke
-*Editora:* Nijusseiki Shuppan Insatsu Gōshi-gaisha
-
-**Volume 6: Um Perfil de Okada Jikan**
-*Data de Publicação:* 15 de julho de 1949
-*Formato:* B6, 80 páginas
-*Autor:* Sueo Takao
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-**Volume 7: Cristianismo, Budismo e a Religião Kannon**
-*Data de Publicação:* 25 de outubro de 1949
-*Formato:* B6, 69 páginas
-*Compilado pelo Departamento de Edição da Nihon Kannon Kyodan
-*Editor-chefe:* Nishiyama Shunnosuke
-*Editor Responsável:* Igarashi Kazuo
-*Editora:* Nijusseiki Shuppan Insatsu Gōshi-gaisha
-
-*Apresentação:* Ao empreendermos a magna construção do Paraíso Terrestre, faz-se necessário, primeiramente, examinar as duas grandes religiões que lhe servem de alicerce: o Cristianismo e o Budismo. Outrossim, é igualmente imperativo compreender por que nossa religião nasceu na presente era. Nesse sentido, a leitura desta obra torna-se um dever para todos, sejam fiéis ou não.
-
-**Volume 8: Recente Coletânea de Poemas de Akimaro**
-*Data de Publicação:* 30 de novembro de 1949
-*Formato:* B6, 86 páginas
-*Autor:* Higashiyama Akimaro
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-*Apresentação:* Esta é uma coletânea de poemas compostos pelo Mestre Jikan sob seu pseudônimo artístico, Akimaro, sendo relativamente recentes. Gradualmente, tem se tornado notório que o Mestre Jikan, além de líder religioso, é também um gênio de rara estirpe nas artes literárias. Seus poemas curtos, que retratam não apenas a grandiosidade da Natureza, mas também as múltiplas facetas das relações humanas, certamente tocarão as fibras mais sensíveis do leitor.
-
-**Volume 9: O Caminho para a Luz**
-*Data de Publicação:* 30 de dezembro de 1949
-*Formato:* B6, 69 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-*Apresentação:* Este é o registro da jornada ascética do Grande Mestre Jikan até alcançar a essência sutil da fé. Sua trajetória, marcadamente distinta da dos fundadores e santos do passado, despertará profundo interesse no leitor, que poderá, por meio dela, apreender algo de sublime valor.
-
-**Volume 10: O Método de Saúde da Revelação Divina**
-*Data de Publicação:* 20 de abril de 1950
-*Formato:* B6, 72 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Mitome Kōjirō
-*Editora:* Departamento de Publicações do Kyusei Shimbunsha
-
-*Apresentação:* O estado de saúde do homem moderno encontra-se em uma situação crítica, o que se evidencia em diversos aspectos: parasitoses, esgotamento nervoso, tuberculose, linfatismo, doenças infecciosas, entre outros. Trata-se de um fato que contraria o suposto progresso da medicina, cuja causa reside, indubitavelmente, em um grave equívoco nos métodos de saúde. O método revelado por Deus e apresentado pelo Mestre Jikan é a solução definitiva para este magno problema. Temos a convicção de que, ao praticá-lo, qualquer pessoa poderá tornar-se um indivíduo vigoroso e saudável.
-
-**Volumes 11 e 14:** Sua publicação foi anunciada, porém as obras não chegaram a ser editadas.
-
-**Volume 11: A Patologia da Revelação Divina (Não publicado)**
-Posteriormente, o conteúdo parece ter sido incorporado à obra "Coletânea de Milagres da Sekai Kyusei Kyo".
-
-**Volume 12: Coletânea de Alocuções de Jikan (Título anterior: Coletânea de Tratados de Jikan)**
-*Data de Publicação:* 30 de janeiro de 1950
-*Formato:* B6, 77 páginas
-*Autor:* Okada Jikan
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-*Apresentação:* Esta obra é um adendo aos "Colóquios sobre a Fé". Nela, foram selecionados os melhores artigos publicados até hoje nos jornais Hikari e Chijo Tengoku, acrescidos de novos textos. Cada página é uma joia literária. É desnecessário dizer que, à medida que se avança na leitura, sente-se a fé aprofundar-se cada vez mais.
-
-**Volume 13: Os Seis Grandes Místicos do Mundo**
-*Data de Publicação:* 5 de dezembro de 1949
-*Formato:* B6, 79 páginas
-*Autor:* Sueo Takao
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-*Apresentação:* Este livro, de autoria do Sr. Sueo Takao — um fiel de coração, ainda que não formalmente — é uma análise comparativa e objetiva entre o Mestre Jikan e os cinco grandes santos do mundo. Sua pena perspicaz não apenas realça a natureza mística do Mestre, mas também atinge o cerne da questão com maestria, despertando enorme interesse ao discorrer, de forma irretocável, sobre a sua grandiosa aspiração de salvação mundial, jamais almejada por nenhum outro líder espiritual.
-
-**Volume 14: As Flores do Paraíso (Não publicado)**
-Posteriormente, o conteúdo parece ter sido incorporado à obra "Fonte de Riso".
-
-*Apresentação:* O cenário do mundo contemporâneo, a olhos vistos, está repleto de sofrimento. Diante disso, o que se faz mais necessário é o riso. Rir abundantemente. É por meio do riso que se deve esquecer as aflições e preencher-se de uma vigorosa força vital. Não haverá quem, ao ler qualquer trecho desta obra, não se entregue ao riso.
-
-**Volume 15: Cristo e o Mestre Jikan**
-*Data de Publicação:* 25 de janeiro de 1950
-*Formato:* B6, 77 páginas
-*Autor:* Matsui Seikun
-*Editor-chefe:* Koizumi Morinosuke
-*Editora:* Nihon Miroku Kyokai
-
-*Apresentação:* O Sr. Matsui Seikun, um crítico de religiões com uma perspectiva singular, propõe ao mundo nesta obra uma análise comparativa entre Cristo e o Mestre Jikan. Como é sabido, Cristo anunciou: "O Reino dos Céus está próximo", ao passo que o Mestre Jikan afirma: "Vim para construir o Paraíso". É notável a concordância nas palavras de ambos os mestres, separados por dois milênios, o que bem poderia ser chamado de o enigma do século XX. Seria mera coincidência ou um desígnio da Providência? Nesse ponto, é impossível não reconhecer um elo espiritual. Em vista do exposto, a leitura desta obra é um dever para todos os que se interessam pela fé.
-
-Um momento... parece que falta um volume. Trata-se de um equívoco ocorrido durante a digitalização. O volume "Coletânea de Alocuções de Jikan" foi omitido.
-
----
-
-# Coletânea de Artigos Fundamentais
-
-**Categoria:** hakkousi | **Ano:** 昭和30年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1955
-
-## Coletânea de Artigos Fundamentais
-
-Uma Coletânea de Teses do Mestre Jikan Okada
-
-Os textos desta obra foram extraídos das Escrituras Sagradas da Sekaikyuseikyou (Volume de Arte e Sociedade), cuja publicação original data de 1º de setembro de 1955.
-
-A presente edição foi realizada pelo Departamento de Assuntos Doutrinários da Sekaikyuseikyou, com direção editorial de Jitsutaro Moriyama, e impressa pelo Departamento de Publicações da Sekaikyuseikyou.
-
----
-
-# joreiho
-
-**Categoria:** hakkousi | **Ano:** 昭和28年11月 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1953-11
-
---- Coletânea de Artigos do Mestre Okada Jikan ---
-Segundo a Publicação Original
-Curso sobre o Método do Johrei (I a VIII)
-
-## Curso sobre o Método do Johrei (I)
-1º de novembro de 1953 | Formato A6 | 45 páginas
-Organização: Departamento Doutrinário da Sekai Kyusei Kyo
-
-**Prefácio**
-
-Ao recebermos os recentes Ensinamentos de Meishu-Sama, conscientizamo-nos de maneira especial da suma importância dos pontos relativos ao Johrei. Por conseguinte, extraímos de Seus escritos os trechos pertinentes a esse sagrado método e os apresentamos nesta obra, que ora publicamos sob o título de "Curso sobre o Método do Johrei".
-
-(I) Texto de 1º de novembro de 1953
-(II) Texto de 1º de outubro de 1953
-(III) Texto de 1º de outubro de 1954
-(IV) Crítica à Farmacologia (Texto de 20 de novembro de 1954)
-(V) Sobre os Sintomas da Tuberculose, da Asma e de Afecções Cardíacas (Texto de 10 de fevereiro de 1955)
-(VI) Sobre a Doença Oriunda das Toxinas Medicamentosas (Texto de 1º de abril de 1955)
-(VII) Doenças Femininas (Texto de 25 de abril de 1955)
-(VIII) Doenças Gastrointestinais (Texto de 1º de maio de 1955)
-
----
-
-# kekkaku2
-
-**Categoria:** hakkousi | **Ano:** 昭和18年11月23日 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1943-11-23
-
-――― Coletânea de Tratados do Mestre Okada Jikanshi ―――
-Por Veículo de Publicação
-
-## A Verdadeira Natureza da Tuberculose
-
-Publicado em 23 de novembro de 1943
-Formato B6, 101 páginas
-Autor: Okada Mokichi
-Editor: Shiozawa Takeru
-
----
-
-# A Eloquência dos Fatos (Jornal Paraíso Terrestre, nº 11, 20 de dezembro de 1949)
-
-**Categoria:** kanren | **Ano:** - | **Fonte:** Chijo Tengoku
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## A Eloquência dos Fatos (Jornal Paraíso Terrestre, nº 11, 20 de dezembro de 1949)
-
----
-
-# Até a Concretização do Paraíso Terrestre (Coletânea de Ensaios do Mestre Okada Jikan)
-
-**Categoria:** hakkousi | **Ano:** 昭和25年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1950
-
-## Até a Concretização do Paraíso Terrestre (Coletânea de Ensaios do Mestre Okada Jikan)
-
-Hakone-Gora Shinsenkyo (箱根強羅神仙郷)
-Publicado em 21 de setembro de 1950
-Formato B6, 15 páginas
-Venda proibida
-
-Autor: Jikan
-Impressor: Koyama Masao
-Gráfica: Taiyo Printing Co., Ltd.
-Editora: Departamento de Publicações Eikosha
-
-A obra inicia-se com dez poemas.
-
----
-
-# kekkaku5
-
-**Categoria:** hakkousi | **Ano:** 昭和27年12月 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1952-12
-
-Coletânea de Teses do Mestre Jikan Okada
-(Compilação por Periódico de Origem)
-
-## Terapia da Fé para a Tuberculose (Corrigindo os Erros Fundamentais da Medicina Moderna)
-
-Autor: Jikan Okada
-Editor Responsável: Seizou Abe
-Editora: Departamento de Publicações da Sekai Kyuseikyou
-
-Publicado em 1º de dezembro de 1952
-Formato B6 | 235 páginas
-Venda Proibida
-
-Inclui, como apêndice, uma coletânea com o relato de cem experiências de fé.
-
----
-
-# tebiki
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-Da Coletânea de Ensaios do Mestre Okada Jikan
-Publicação: Manual da Igreja Messiânica Mundial
-
-## Manual da Igreja Messiânica Mundial (Para Novos Membros no Exterior) – Segunda Edição
-
-Segunda edição publicada em 11 de agosto de 1953
-Formato A6, 83 páginas
-Autora: Higuchi Kiyoko
-Editora: Departamento de Publicações da Sekai Kyuseikyou
-Gráfica: Atami Shoji Kabushiki Kaisha
-
-Este modesto manual foi por mim compilado com o intuito de servir aos fiéis do Havaí e de outras nações. A obra, contudo, apresenta inúmeras imperfeições, razão pela qual rogo a benevolente compreensão dos leitores a esse respeito.
-
-Ser-me-ia motivo de indizível júbilo se este trabalho puder servir como um humilde auxílio para que mais pessoas alcancem a salvação concedida por meio da Igreja Messiânica.
-
-Higuchi Kiyoko
-
-*Nota editorial: Por se destinar a novos membros no exterior, a obra original apresenta furigana em todos os kanji.*
-
----
-
-# Coletânea de Teses do Mestre Okada Jikanshi
-
-**Categoria:** hakkousi | **Ano:** 昭和29年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1954
-
-## Coletânea de Teses do Mestre Okada Jikanshi
-
-(Extraído do periódico “Compêndio para Aprimoramento”)
-
-**Compêndio para Aprimoramento**
-
-Publicado em 10 de março de 1954, este manual constitui o texto oficial para a Iniciação na Fé.
-
-A edição esteve a cargo da Sede Central da Sekaikyuseikyou, tendo como editor-responsável Jitsutaro Moriyama e como casa publicadora a Atami Shoji, Ltda.
-
-A obra, cuja venda é proibida, apresenta-se em formato A5 e contém 42 páginas.
-
----
-
-# ehagaki
-
-**Categoria:** hakkousi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-Coleção de Ensaios do Mestre Okada Jikan — Organizado por Publicação
-
-## Postais do Museu de Arte de Hakone
-
-Data estimada: 1952. Conjunto monocromático de nove estampas (o número exato é desconhecido). Produção de Otsuka Kogeisha, Tóquio.
-
-Jarra para Água com Decoração Floral Esmaltada, de Nonomura Ninsei
-Tigela “Monte Yoshino”, de Ogata Kenzan
-Folhas de Outono no Rio Tatsuta, de Ogata Kenzan
-Pardais no Bambu, de Takeuchi Seihou
-Biombo, de Nangan
-Aves Aquáticas, de Ogata Kourin
-Bodhidharma em Vermelho, de Ogata Kourin
-Pintura de Bodhidharma com Inscrição Caligráfica, de Miyamoto Musashi
-Alvéola sobre Lótus, de Mokkei
-
----
-
-# Coletânea de Artigos do Mestre Okada Jikanshi
-
-**Categoria:** hakkousi | **Ano:** 昭和26年8月5日 | **Fonte:** 法難手記
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1951-08-05
-
-## Coletânea de Artigos do Mestre Okada Jikanshi
-
-**Por Periódico de Publicação**
-
-**A Nova Violência**
-Reedição e Comentário sobre os ‘Relatos da Perseguição Religiosa’
-
-Publicado em 5 de agosto de 1951
-Formato B6, 148 páginas
-Autor: Kosaka Kaichiro
-Editor: Kosaka Kaichiro
-
-**Esboço de uma Audiência Judicial**
-
-Publicado em 10 de agosto de 1951
-Formato A6, 18 páginas
-Editor e Responsável pela Publicação: Kosaka Kaichiro
-Editora: Suginami Shobo
-Suplemento de ‘A Nova Violência’
-
----
-
-# Coleção de Ensaios do Mestre Okada Jikan
-
-**Categoria:** sasshi | **Ano:** 昭和24(1949)年12月5日 | **Fonte:** 世界の六大神秘家
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1949-12-05
-
-## Coleção de Ensaios do Mestre Okada Jikan
-## Os Seis Grandes Místicos do Mundo
-Por Sueo Suge, Colaborador do Departamento Editorial da Nihon Kannon Kyodan
-
-Da Coletânea Jikan, Volume 13: “Os Seis Grandes Místicos do Mundo”. Publicado em 5 de dezembro de 1949.
+## A Rizicultura em Doze Meses
+Publicado em 1º de janeiro de 1955
 
 ### Prefácio
 
-O autor, Sr. Sueo Suge, é uma pessoa cuja posição pode ser descrita como a de um membro, sem que, de fato, o seja. É justamente por essa perspectiva objetiva com que o Sr. Suge me analisa que considero sua crítica particularmente interessante. Ademais, este manuscrito foi concebido não apenas com base em seu vasto conhecimento no campo religioso, mas também com o auxílio de um influente estudioso de religiões que, de uma posição discreta, ofereceu seu apoio. Ao me ser apresentado o texto, com uma única leitura, percebi que a obra capturava a essência de meu pensamento, razão pela qual decidi incorporá-la como o décimo terceiro volume da Coletânea Jikan.
-
-Embora o texto possa conter passagens que, a um terceiro, pareçam enaltecer em demasia meu poder místico, confirmo que o autor atingiu o cerne da questão e que nada se afasta, em absoluto, da verdade.
-
-Novembro de 1949
-Jikan
-
-### A Capacidade Espiritual de Shakyamuni
-
-#### I. Shakyamuni antes da Iluminação
-
-Shakyamuni nasceu no século VI a.C. como príncipe do Castelo de Kapilavastu, na Índia, filho do Rei Suddhodana. Aos dezessete anos, desposou a Princesa Yasodhara, de beleza e elegância singulares. Contudo, o sonho idílico dos recém-casados, em sua união harmoniosa, foi efêmero. Relata-se que, ao cair da noite e instalar-se o silêncio, o príncipe mergulhava em profunda meditação e contemplação, alheio a quase todos os assuntos de sua vida conjugal.
-
-Desde tenra idade, o príncipe demonstrava notável destreza com o arco e a cavalo, a ponto de não haver, entre os numerosos vassalos, quem o superasse. Sua erudição também era excepcional; aos sete anos, já debatia com o grande brâmane Badarani, escolhido especialmente para ser seu tutor, deixando-o desconcertado. Consta que não havia disciplina, fosse nas artes, nos clássicos, na astronomia, na geografia ou na matemática, em que ele não demonstrasse um conhecimento inato.
-
-O príncipe não era apenas incomparavelmente inteligente, mas também possuía um coração transbordante de compaixão e apreciava imensamente a prática da meditação. Temendo que seu filho renunciasse ao mundo, o rei providenciou-lhe, aos dezessete anos, uma esposa que aliava talento e beleza, mas nem mesmo isso conseguiu demover o príncipe de suas práticas contemplativas.
-
-Diante disso, o rei-pai mandou construir três palácios sazonais, onde reuniu centenas das mais belas cortesãs, selecionadas de todo o reino, em um esforço para cativar o coração do príncipe. Todavia, tais artifícios também se mostraram inúteis para conter sua aversão ao mundo secular. Finalmente, aos vinte e nove anos, o príncipe abandonou o trono, a esposa — que na época estava grávida — e os filhos, e retirou-se do mundo.
-
-Este fato de magna importância exige de nós uma reflexão aprofundada. Como disse Jesus, é mais fácil um camelo passar pelo fundo de uma agulha do que um rico entrar no Reino de Deus. O fato de que um homem nascido príncipe, com a possibilidade de desfrutar do ápice da glória e da opulência, tenha escolhido voluntariamente tornar-se um asceta solitário, entregando-se a rigorosas austeridades, deve ser interpretado, de uma perspectiva espiritual, como resultado de uma orientação provinda do Mundo Espiritual.
-
-As biografias de Shakyamuni segundo os budistas Hinayana são notavelmente pobres em descrições místicas como a voz de Deus ou o Espírito Santo, tão presentes nos relatos de Jesus, Paulo, Sócrates ou Maomé. Os textos Mahayana, por outro lado, narram que, antes da renúncia do príncipe, uma divindade do Reino Puro, Jōgyoten, manifestou-se a ele sob a forma de um doente, de um ancião e de um cadáver na estrada, a fim de fortalecer sua resolução de abandonar a vida mundana. A natureza exata de Jōgyoten não é claramente definida, mas deve ser entendida como uma referência a um mundo além do plano físico ou a um habitante desse mundo.
-
-Em suma, parece não haver dúvida de que Shakyamuni, assim como Jesus, Paulo, Sócrates e Maomé, ouviu vozes do Mundo Espiritual e recebeu orientação de seus habitantes. No entanto, os budistas Hinayana, em sua obstinação por defender a iluminação por mérito próprio, parecem ter sido cegos a tais fatos místicos ou, deliberadamente, evitado abordá-los.
-
-Adicionalmente, o budismo Mahayana reconhece os três corpos de Buda: Dharmakaya, Sambhogakaya e Nirmanakaya. O segundo capítulo do Sutra de Lótus, “Meios Apropriados”, ensina: “Os budas, os Tathagatas, aparecem no mundo para levar os seres vivos a abrir o conhecimento e a visão de Buda. Para mostrar aos seres vivos o conhecimento e a visão de Buda... para fazer os seres vivos despertarem para o conhecimento e a visão de Buda... para fazer os seres vivos entrarem no caminho do conhecimento e a visão de Buda...”. Se o anseio mais profundo dos budas do Mundo Búdico — que é o Mundo Espiritual — é a revelação, o despertar e o ingresso no conhecimento de Buda, é natural concluir, mesmo sob a ótica da ciência espiritual contemporânea, que um intercâmbio entre Shakyamuni, dotado de vasta capacidade espiritual, e o Mundo Búdico tenha ocorrido.
-
-É verdade que não são poucos os estudiosos budistas que consideram a doutrina dos três corpos de Buda um mero produto da idealização e veneração póstuma a Shakyamuni. Tais interpretações, contudo, pendem excessivamente para o materialismo. Do ponto de vista da ciência espiritual moderna, a doutrina dos três corpos não deve ser necessariamente negada.
-
-Quando o Bodhisattva — Shakyamuni — se sentou sob a árvore Bodhi para sua prática e fez o voto: “Sentado sob esta árvore, não me levantarei até que tenha atingido a iluminação”, a terra tremeu com grande estrondo. Um dragão cego, ouvindo o tremor, abriu os olhos e emergiu do solo. Quinhentos pássaros azuis voaram pelo céu, circulando o Bodhisattva pela direita. Nuvens auspiciosas de cores indescritíveis surgiram, e um vento perfumado soprou. Nesse momento, o deus Indra, disfarçado de homem comum, apareceu trazendo em mãos relva macia e pura. O Bodhisattva espalhou a relva e sentou-se sobre ela em posição de lótus. Todos os deuses e divindades benfazejas rejubilaram. Os animais prenderam a respiração, os galhos das árvores cessaram seu farfalhar, e as nuvens no céu e os pássaros em voo imobilizaram-se. O céu e a terra tornaram-se límpidos e puros. As oito classes de seres celestiais e dragões exultaram em alegria, dançando e louvando no firmamento... (Sutra da Causa e Efeito).
-
-Não é difícil imaginar que o sutra acima contenha certo exagero, mas é inegável que, quando o príncipe, que já havia alcançado o estágio de Bodhisattva após seis anos de austeridades junto ao rio Nairanjana, iniciou sua meditação sentada sob a árvore Bodhi, seu grandioso voto de “não me levantarei deste assento até atingir a perfeita iluminação” ressoou no Mundo Espiritual, provocando ali uma grande comoção. Os pesquisadores da espiritualidade concordam que até mesmo os bons pensamentos, as boas ações e as ondas de pensamento unificadas de nós, pessoas comuns, influenciam o Mundo Espiritual, trazendo alegria aos espíritos de nossos antepassados e auxiliando em sua elevação. Isso ocorre porque o mundo físico e o Mundo Espiritual são as duas faces de uma mesma moeda, e a sutileza de sua mútua interação tem sido revelada pelas pesquisas espirituais contemporâneas. Além disso, no mesmo Sutra da Causa e Efeito, na seção sobre a subjugação de Mara, encontramos um relato com o seguinte significado:
-
-Quando o Bodhisattva proferiu seu voto, todos os deuses e divindades benfazejas rejubilaram em uníssono. Apenas o palácio de Mara, o rei demônio que reside no sexto céu do reino do desejo, começou a tremer de forma anormal. O voto do Bodhisattva o fez sentir-se angustiado e atormentado por uma agitação insuportável. Ele pensou: “O asceta Gautama veio agora à árvore Bodhi e, renunciando aos cinco desejos, senta-se em meditação. Em breve, ele alcançará a perfeita iluminação. Quando isso acontecer, ele salvará todos os seres vivos e, inevitavelmente, seu poder superará o meu. Devo tomar uma atitude destrutiva antes que ele atinja a iluminação”. Assim, consultou seu filho, Sartha. Sartha respondeu: “Aquele Bodhisattva possui poderes transcendentais e sabedoria; não há nada que ele não compreenda, a ponto de até os deuses e divindades benfazejas o admirarem. Ninguém pode se opor a ele. Nem mesmo com o poder de meu pai será possível fazer algo. Rogo que tenha prudência para não atrair desgraça sobre si com planos malignos”. Então, o rei demônio chamou suas três filhas e pediu-lhes que colaborassem para impedir a iluminação do Bodhisattva. Em seguida, o próprio rei demônio ameaçou o Bodhisattva, e suas três filhas tentaram seduzi-lo, ora com encantos, ora com palavras doces...
-
-A descrição das artimanhas desesperadas do rei demônio e das diversas táticas de sedução de suas três filhas é deveras fascinante.
-
-No entanto, alguns estudiosos budistas de inclinação materialista insistem em interpretar tal passagem como uma mera representação do conflito psicológico de Shakyamuni antes de sua iluminação. Contudo, ao considerarmos as cenas em que divindades aparecem repetidamente para repelir esses demônios e auxiliar Shakyamuni em seu caminho para a iluminação, a complexa interação entre os reinos astral, espiritual e divino, tal como se manifesta na pesquisa espiritual, surge vividamente em nossa mente. Interpretar esses relatos como narrativas das experiências de Shakyamuni em comunhão com o outro mundo durante sua profunda meditação parece despertar um sentimento de maior veracidade. Particularmente intrigante para os estudiosos da espiritualidade é o fato de as serpentes aparecerem como aliadas do demônio, enquanto os dragões surgem como mensageiros divinos.
-
-Adicionalmente, os relatos de que as divindades no firmamento queimaram incensos nobres, fizeram chover flores maravilhosas e tocaram música celestial em oferenda ao Bodhisattva; e de que o Bodhisattva, finalmente, obteve o olho divino, observando detalhadamente os reinos do inferno, dos animais, dos fantasmas famintos, dos seres humanos e dos céus, e descrevendo em pormenores o que viu — tudo isso são registros que merecem especial atenção, pois documentam o momento em que Shakyamuni passou a manifestar plenamente sua capacidade espiritual.
-
-Desde que Shakyamuni fez o voto de alcançar a perfeita iluminação, um espírito chamado Jōgyoten o protegeu incessantemente, lutando contra espíritos malignos e auxiliando-o em sua jornada. Está registrado que, ao ver Shakyamuni atingir a iluminação, esse Jōgyoten ficou tão exultante que não sabia onde pôr as mãos e os pés. É provável que este espírito sagrado, Jōgyoten, fosse o espírito guardião de Shakyamuni.
-
-A maravilhosa Lei que Shakyamuni compreendeu com sua iluminação era, por assim dizer, uma lei profunda e sem precedentes, que apenas os budas podem conhecer. Ciente de quão difícil seria ensiná-la e compreendê-la, ele considerou entrar no Nirvana sem pregá-la. Foi então que o grande Rei Brahma, Indra e outras divindades do céu, juntamente com outros seres celestiais, suplicaram a Shakyamuni que fizesse girar a grande roda do Dharma. O Buda, então, permaneceu em silêncio por sete dias inteiros e, após profunda reflexão, finalmente anuiu. Esta passagem do sutra também pode ser vista como um episódio que narra a comunicação de Shakyamuni com o outro mundo, ou seja, o Mundo Espiritual.
-
-Na biografia de Shakyamuni, não encontramos uma linha divisória clara como a de Paulo ou Maomé, que, ainda leigos, subitamente ouviram uma revelação celestial e, tocados pela inspiração divina, passaram por uma transformação radical. No entanto, o fato de Shakyamuni, desde a infância, ter transcendido a glória e os prazeres mundanos, dedicando-se constantemente à meditação e, por fim, ter abandonado trono, esposa e filhos para se dedicar à busca do Caminho, não deveria ser visto como a própria prova de que ele recebia contínua orientação do Mundo Espiritual?
-
-#### II. Shakyamuni após a Iluminação
-
-Após atingir a iluminação e obter o olho divino, Shakyamuni observou detalhadamente as capacidades superiores, medianas e inferiores de todos os seres vivos, bem como as aflições que os atormentavam, para decidir a quem deveria abrir as portas do néctar da verdade. Ele se lembrou de que o eremita Arada, seu primeiro mestre após renunciar ao mundo, havia lhe pedido que o instruísse primeiro, assim que alcançasse a iluminação. Enquanto considerava que Arada, por sua inteligência, seria um interlocutor adequado para ser o primeiro a receber seus ensinamentos, uma voz vinda do céu subitamente o informou: “O eremita Arada faleceu na noite passada”. Está claro que, após sua iluminação, tais fenômenos ocorreram com frequência.
-
-Além do mencionado, um outro fenômeno espiritual, ou milagre, registrado na biografia de Shakyamuni ocorreu no campo ao amanhecer, a caminho de Varanasi. Uma caravana de mais de quinhentos mercadores passava por ali quando, no meio do campo, uma divindade celestial lhes falou do céu, dizendo: “O Abençoado apareceu no mundo. Vós deveis ser os primeiros a lhe oferecer vossa devoção”. Eles perguntaram onde estava o Abençoado, e a divindade respondeu: “O Abençoado passará por aqui em breve”. De fato, logo o Buda apareceu, acompanhado por inúmeros seres celestiais à sua frente e atrás, e recebeu a oferenda. Ele então lhes disse: “Esta oferenda encherá de vigor quem a comer, trará paz e saúde a quem a oferece, preservará sua longevidade e fará com que os deuses e divindades benfazejas os protejam sempre. Nesta vida, pais, esposas, filhos, parentes e servos prosperarão. Não haverá desastres nem infortúnios. E se, entre as nove gerações de sua família, alguém tiver caído em um mau caminho, pelo mérito desta oferenda, renascerá no mundo dos homens ou dos céus. Não abrigará visões equivocadas, aumentará suas virtudes e estará sempre próximo dos budas e tathagatas, e suas preces serão atendidas”. Tendo dito isso, com um porte majestoso como o de um cisne real, ele seguiu adiante. Este é um registro famoso que contém o ensinamento sobre a virtude de se fazer oferendas aos habitantes do mundo físico e do Mundo Espiritual.
-
-Ademais, nos registros dos fenômenos espirituais de Shakyamuni, há muitos relatos envolvendo dragões. Os dragões foram por muito tempo considerados criaturas imaginárias, mas com o avanço da pesquisa espiritual, ficou claro que eles existem de fato no Mundo Espiritual, e não são poucos os casos em que pessoas com capacidade espiritual os viram. Portanto, os registros sobre os diversos dragões na biografia de Shakyamuni não devem ser tomados como meras fábulas. Deve-se entender que Shakyamuni, com sua visão espiritual, podia de fato vê-los. Um exemplo é o relato da conversão do Rei Dragão Mucilinda. Certa vez, o Buda chegou às margens do lago Ajapala e, como o dia findava, entrou em meditação. Nos sete dias seguintes, uma grande tempestade se abateu sobre o local. Então, um grande rei dragão chamado Mucilinda, que vivia no lago, vendo o Buda em meditação, enrolou seu corpo sete vezes ao redor dele para protegê-lo. Ao final dos sete dias, o rei dragão assumiu a forma humana e prestou reverência ao Buda. Há, de fato, não poucos exemplos em livros sobre fenômenos espirituais de dragões assumindo forma humana e aparecendo aos olhos de pessoas do mundo físico.
-
-Outro fenômeno místico pode ser encontrado no relato da conversão dos irmãos Kasyapa. No reino de Mágada, viviam três irmãos de sobrenome Kasyapa, chamados Uruvilva, Nadi e Gaya. Eram mestres em artes místicas e gozavam da profunda devoção tanto do rei quanto do povo, além de serem muito inteligentes. O Buda veio a este reino com a intenção de convertê-los. Contudo, o arraigado orgulho de Uruvilva Kasyapa era difícil de abater. Ele disse ao Buda, com notável malícia: “Há um dragão maligno que vive aqui, e talvez o senhor seja morto durante a noite. Se estiver de acordo com isso, pode pernoitar”. O Buda respondeu que não precisava se preocupar e entrou imediatamente na câmara de pedra, onde se sentou em posição de lótus e entrou em meditação. De repente, o dragão maligno apareceu, expelindo chamas que encheram a câmara. O Buda, porém, permaneceu em meditação, imóvel de corpo e mente, com a expressão inalterada. O temível dragão acabou se rendendo, tomou os três refúgios e foi recolhido na tigela de esmolas do Buda. Assim, o Buda aguardou serenamente o amanhecer. Kasyapa e seus discípulos, embora reconhecessem o poder divino do Buda, ainda se recusavam a aceitar seus ensinamentos. Na segunda noite, o Buda sentou-se sob uma árvore e entrou tranquilamente em samadhi. À meia-noite, os Quatro Reis Celestiais apareceram diante dele para ouvir o Dharma, e cada um emitiu uma luz brilhante. Kasyapa e seus discípulos, embora surpresos, ainda se recusaram a ser convertidos. Na terceira noite, Indra desceu para ouvir o Dharma e emitiu uma grande luz. Na quarta noite, o Grande Brahma veio ouvir o Dharma e emitiu uma luz tão intensa que parecia o sol do meio-dia. Mas a arrogância de Kasyapa permanecia inalterada. Então, o Buda manifestou vários fenômenos espirituais para ele. Quando Kasyapa tentou acender o fogo, o Buda o tornou impossível. Quando tentou apagar o fogo que ardia, também não conseguiu. Quando Kasyapa tentou rachar lenha, o Buda o impediu de levantar o machado. Ele também materializou uma tigela cheia de frutos de Jambudvipa, um continente distante — um fenômeno de aporte de objetos. Tais fenômenos ocorrem hoje com médiuns de alta capacidade, e não há razão para duvidar da capacidade espiritual de Shakyamuni. Tendo testemunhado tantos milagres, Kasyapa e os outros finalmente abandonaram seu orgulho, aceitaram os ensinamentos do Buda e se tornaram seus discípulos proeminentes.
-
-Ao longo da história, as interpretações sobre Shakyamuni têm sido verdadeiramente diversas entre os estudiosos, havendo até quem o considere um mero pregador. Tal visão, contudo, é fruto da falta de conhecimento sobre fenômenos espirituais, necessário para interpretar os eventos descritos em sua biografia. Carentes dessa compreensão, esses estudiosos caem em uma perspectiva materialista e consideram tais fatos como invenções absurdas. Para o olhar da avançada pesquisa espiritual de hoje, Shakyamuni brilha inequivocamente como um grande místico dotado de capacidade espiritual.
-
-### Sócrates e o Daimonion (Espírito Divino)
-
-#### I. Um Breve Esboço do Pensamento do Filósofo Sócrates
-
-É extremamente raro que a lenda de um grande homem se resuma a um registro de fatos inquestionáveis, especialmente quando essa pessoa pertence a um passado longínquo. Sócrates não é, de forma alguma, uma exceção a essa regra.
-
-Sócrates nasceu em Atenas, na Grécia, entre 469 e 470 a.C., filho de um escultor e de uma parteira. Lamentando a desordem social de seu tempo, ele frequentava as ruas, os mercados e as assembleias, combatendo as convenções e a adulação com sua lógica incisiva. Opôs-se aos sofistas, que, cedendo à corrente da época, haviam se rebaixado aos artifícios da retórica e da eloquência. Com seu método dialógico singular, expunha as contradições de seus interlocutores, fazendo-os tomar consciência de sua própria ignorância.
-
-Contudo, seu método era, por assim dizer, um estímulo, visando promover a autorreflexão e o despertar de cada um.
-
-Durante trinta anos, ele se viu como um guia espiritual do povo, empenhando-se em promover o aprimoramento espiritual e a renovação moral dos cidadãos. Essa ação fervorosa abalou o coração dos jovens, que se reuniram em grande número ao seu redor, defendendo a justiça e opondo-se com audácia à autoridade vigente. Por fim, aos setenta anos, foi acusado de corromper a juventude e de negar os deuses do Estado. Com serenidade, bebeu a taça de veneno, perecendo em nome da verdade. Era o ano de 399 a.C.
-
-Sócrates foi, de fato, um homem de ação, que se esforçou por unir conhecimento e prática. Assim, há quem afirme que a visão de Sócrates como um reformador do saber através da definição de conceitos é um equívoco posterior, originado em Aristóteles. A *areteia* (verdade) e a *phronesis* (sabedoria), que Sócrates considerava os valores supremos, não podiam ser alcançadas apenas pelo saber acadêmico; eram conquistadas unicamente na realização constante da ação virtuosa. E ele ensinava que a verdadeira felicidade reside apenas nesse estado de união entre conhecimento e virtude.
-
-Ao longo da história, muitas foram as valiosas tentativas, por parte de diversas pessoas, de demonstrar que a existência do mal no mundo não contradiz a onipotência, a bondade e a justiça de Deus. Na Grécia, a questão da teodiceia, ou defesa de Deus, era de difícil solução para os poetas, que até então eram os guias espirituais do povo. Diz-se que esse problema foi finalmente resolvido pela convicção de Sócrates de que "a virtude é a felicidade".
-
-Ele, que já ouvia os conselhos do espírito divino do Daimonion como a voz de sua consciência, adquiriu, ademais, a fé na providência divina. A confissão da ignorância, que era o método socrático, era tanto uma máscara para atrair o interlocutor quanto uma ironia dirigida àqueles que acreditavam que o mero conhecimento de fatos era o verdadeiro saber. Era uma exigência de um esforço incessante em direção ao ideal do verdadeiro conhecimento. Esta é a famosa ironia socrática da história.
-
-A partir disso, Sócrates adotou como lema de sua atividade a inscrição do templo de Apolo em Delfos: "Conhece-te a ti mesmo". E o que fundamentava a absolutez da verdade em seu método indutivo era sua convicção no Bem. O Bem era o valor supremo, estritamente unido à beleza, e a sua aquisição era a virtude e, também, o conhecimento. Portanto, significava o amor à sabedoria.
-
-#### II. Diálogo com seu discípulo Eutidemo sobre o amor dos deuses
-
-Naquela época, os sofistas proliferavam, destruindo a verdade e perturbando a moral. Em oposição a eles, Sócrates passava seus dias nas ruas e nos locais de reunião, interpelando as pessoas com perguntas e investigando-as até que seus argumentos caíssem em contradição, fazendo-as tomar consciência de sua própria ignorância. Esse método de encontrar a verdade através do diálogo é conhecido como o método socrático. Sócrates também o chamava de maiêutica, ou arte de partejar, comparando-o à profissão de sua mãe, pois via seu método como uma forma de ajudar a dar à luz a verdade.
-
-Com isso, pode-se facilmente inferir que Sócrates não tinha a menor intenção de incentivar seus discípulos a se tornarem hábeis na eloquência, astutos na ação ou excelentes em alguma técnica. Pelo contrário, ele acreditava que era preciso, antes de tudo, cultivar a prudência e ordenar a mente. Isso porque ele estava convencido de que, se alguém possuísse tais habilidades sem a devida prudência, apenas aumentaria sua injustiça e fortaleceria sua capacidade de praticar o mal.
-
-Portanto, em primeiro lugar, ele se esforçou para tornar seus discípulos prudentes em relação aos deuses. Xenofonte, discípulo de Sócrates, escreveu as "Memoráveis", onde se encontra um diálogo sobre o amor dos deuses travado entre Sócrates e Eutidemo, considerado um dos mais talentosos entre seus discípulos. Através deste diálogo, podemos vislumbrar a natureza do Daimonion de Sócrates. Xenofonte estava presente e ouviu Sócrates falar a Eutidemo da seguinte maneira:
-
-"Diga-me, Eutidemo, alguma vez já refletiste sobre as diversas coisas que os deuses fazem para satisfazer as necessidades dos homens?"
-
-Ao que Eutidemo respondeu:
-
-"Não, nunca pensei sobre isso."
-
-"Mas sabes, sem dúvida, que antes de tudo precisamos de luz, e que os deuses a proveram para nós."
-
-"É verdade. Sem luz, nossos olhos seriam inúteis, e seríamos como cegos."
-
-"E também, como necessitamos de descanso, os deuses nos deram a noite, um tempo magnífico para repousar."
-
-"Isso também é algo pelo qual devemos ser gratos."
-
-"E o que dizer do fato de que, como precisamos de alimento, os deuses o fazem brotar da terra, providenciam as estações adequadas para esse fim, e que essas estações nos fornecem não apenas o que necessitamos, mas também uma abundância e variedade de coisas para nosso deleite?"
-
-"Isso também é, sem dúvida, um ato de amor para com a humanidade."
-
-"E o fato de nos terem dado a água, um dom de valor inestimável, que, em cooperação com a terra e as estações, faz nascer e crescer tudo o que é necessário ao homem, que nos nutre e, misturando-se a tudo o que nos serve de alimento, o torna mais digerível, saudável e saboroso; e, como dela necessitamos em grande quantidade, no-la fornecem com generosidade e abundância?"
-
-"Isso também é uma manifestação da providência divina para com o homem."
-
-"E o que dizer do fogo, que nos protege do frio, afasta a escuridão, auxilia em todas as artes e na produção de tudo o que o homem concebeu para seu benefício? Em suma, dentre as coisas úteis à vida, não há nada de valor que o homem possa criar sem o fogo."
-
-"Isso também é uma manifestação de um amor extraordinariamente grande pelo ser humano."
-
-"E o sol, que no inverno muda sua trajetória para se aproximar gradualmente, amadurecendo alguns frutos e fazendo murchar outros cujo tempo já passou; e, uma vez feito isso, não se aproxima mais, para não nos prejudicar com calor excessivo, afastando-se com cuidado; e, quando se afasta a ponto de nos congelarmos de frio, muda novamente de direção e começa a se aproximar, descrevendo assim uma órbita no céu que nos é mais benéfica?"
-
-"Isso também parece ter sido feito para o bem da humanidade."
-
-"E, como é evidente que não suportaríamos o calor ou o frio se chegassem de forma abrupta, o sol se aproxima e se afasta de maneira tão gradual que nem percebemos quando chegamos aos extremos. O que dizes disso?"
-
-Então, Eutidemo disse:
-
-"Já começo a pensar que os deuses não têm outra ocupação senão a de cuidar dos homens. A única coisa que me perturba é que os animais, além dos homens, também participam desses benefícios."
-
-Ao que Sócrates respondeu:
-
-"Mas não é evidente que eles também nasceram e foram criados para o benefício do homem? Pois, que outro ser vivo obtém tantos benefícios de cabras, ovelhas, bois, cavalos, burros e outros animais quanto o homem? Parece-me que os benefícios que recebemos deles são ainda maiores do que os que recebemos das plantas. Pelo menos como alimento e riqueza, em nada são inferiores às plantas. Muitas raças humanas não usam como alimento o que brota da terra, mas vivem do leite, do queijo e da carne de seus rebanhos. Toda a humanidade domestica e treina os animais úteis, tornando-os colaboradores na guerra e em muitos outros trabalhos."
-
-"Concordo com isso também. É surpreendente ver como esses animais, que em certos aspectos são muito mais fortes do que nós, obedecem tão bem aos homens e se submetem à sua vontade."
-
-"E o que dizer do fato de que, havendo inúmeras coisas boas e úteis, e de diversas naturezas, os deuses deram ao homem os sentidos correspondentes a cada uma delas, graças aos quais podemos, através da razão e da memória, discernir o que conhecemos pelos sentidos, saber que benefício cada coisa possui e conceber muitos artifícios para desfrutar do bem e evitar o mal? E o que dizer do fato de nos terem dado a capacidade da fala, pela qual podemos ensinar uns aos outros todas as coisas boas, compartilhá-las, torná-las comuns, estabelecer leis e governar o Estado?"
-
-"De fato, parece que os deuses cuidaram de tudo para a humanidade."
-
-"E, quando o homem não pode prever o que lhe será benéfico no futuro, os deuses o ajudam, ensinando-lhe como obter os melhores resultados."
-
-Nesse ponto, Sócrates está claramente se referindo à voz do Daimonion (espírito divino) que ressoava em seu íntimo. Então, Eutidemo disse:
-
-"Sócrates, se é verdade que os deuses lhe dizem o que fazer e o que não fazer, sem que você lhes pergunte, parece que eles têm uma benevolência especial por você, mais do que por outras pessoas."
-
-Isso claramente indica que Sócrates era possuidor do que os estudiosos da ciência espiritual moderna chamam de capacidade de clariaudiência. Sócrates, então, responde afirmativamente:
-
-"Sim. E que o que digo é verdade, você compreenderá imediatamente se, em vez de esperar para ver a forma dos deuses com seus próprios olhos, se contentar em ver suas obras sagradas e, assim, os venerar e respeitar."
-
-E, continuando, ele explica com grande habilidade como os reinos divino e espiritual existem:
-
-"... Pensa também que os próprios deuses nos mostram o porquê. Pois, quando os deuses comuns nos dão coisas boas, eles nunca aparecem em pessoa para trazê-las. Quanto mais o Deus que ordena e mantém todo o universo, onde existem todas as coisas belas, em um estado eternamente imaculado, saudável e sem envelhecimento, para que quem delas precise possa usá-las mais rápida e seguramente do que se poderia imaginar; este Deus, embora vejamos suas grandes obras, a forma que as ordena e governa nos é invisível."
-
-Com isso, ele ensina que o Deus que sustenta o universo é o ser supremo e único, e que todos os outros deuses governam o mundo como seus subordinados, e que os deuses que nos concedem os diversos bens (tesouros) são esses deuses inferiores. E, prosseguindo, refere-se à natureza da alma humana:
-
-"Pensa também que, embora o sol pareça se mostrar a todos, ele não permite que o contemplem. Se alguém, ousadamente, tentar olhá-lo fixamente, ele lhe tira a visão. E verás também que os mensageiros dos deuses são invisíveis. A alma humana, que de tudo o que pertence ao homem é o que mais participa da natureza divina, embora seja evidente que nos governa, seu corpo não é visível. Tendo bem em mente essas coisas, não devemos menosprezar o que é invisível, mas reconhecer o poder dos deuses nos diversos fenômenos e venerar o espírito divino."
-
-Falando e agindo assim, Sócrates instruiu seus discípulos a se tornarem cada vez mais devotos de Deus e mais prudentes.
-
-#### III. O Daimonion (Espírito Divino) de Sócrates e seus Estados de Transe
-
-Nietzsche, ao relembrar o momento em que concebeu a ideia do eterno retorno, descreveu-o da seguinte forma:
-
-"Haverá alguém que tenha uma noção clara do que os poetas antigos chamavam de inspiração? Não em um sentido supersticioso, mas há momentos em que não se pode deixar de sentir que se é um mero fantoche de uma força sobre-humana. O conceito de revelação, no sentido de algo que é visto e ouvido com uma clareza indizível, algo que abala profundamente a pessoa, é apenas a descrição de um fato vivido. Não se busca, ouve-se. Recebe-se sem perguntar quem dá. Como um relâmpago, com necessidade, sem hesitação, o pensamento fulgura. Tudo ocorre de forma extremamente involuntária, mas em meio a uma tempestade de liberdade incondicional, de algo divino."
-
-Um pensamento profundo é produto de uma vida de experiências profundas. Relata-se que Sócrates teve, com frequência, tais experiências da alma. Em outras palavras, ele frequentemente entrava em transe e experimentava profundos estados de êxtase. O mais famoso deles é o chamado "êxtase de vinte e quatro horas" que o tomou quando servia como soldado na frente de Potideia. Não podemos saber hoje, com certeza, com qual espírito guardião Sócrates conversou e sobre o que falou com seu Daimonion (espírito divino).
-
-Contudo, podemos conjecturar que se tratava de sua missão. Tendemos a pensar que a missão de Sócrates se resumia a examinar as pessoas, especialmente os atenienses famosos de sua época, e, como resultado, expor sua ignorância. Embora isso tenha sido a causa de sua grande popularidade entre os jovens e, consequentemente, do ódio de seus acusadores, para Sócrates, não era uma tarefa à qual devesse se apegar. Pelo contrário, tal exame era apenas um trabalho preparatório para o cumprimento de sua verdadeira missão.
-
-A verdadeira missão de Sócrates era seguir o caminho do amor à sabedoria e exortar os homens, especialmente seus concidadãos atenienses, um a um, a não dedicarem sua principal preocupação ao corpo ou aos bens, mas à alma, esforçando-se para torná-la a melhor possível. Era o que se convencionou chamar de "cuidado da alma". Em outras palavras, o Johrei. E a premissa de sua missão na época era a afirmação de que aquilo que deve ser cuidado em primeiro lugar, ou seja, o verdadeiro eu, é a alma humana.
-
-Assim, compreende-se que a relação entre Sócrates e seu Daimonion (espírito divino) era de fato profunda. Sócrates diz:
-
-"Quanto ao Daimonion (espírito divino), há uma razão pela qual vós me ouvistes falar dele com frequência. É que algo divino, algo relacionado ao Daimonion, me acontece. É sobre isso que Meleto também zombou em sua acusação. Mas isso acontece comigo desde a infância. Ou seja, ouço uma voz que, sempre que se manifesta, me impede de fazer o que estou prestes a fazer. Nunca me exortou a fazer algo. Foi essa voz que me impediu de me envolver na política do Estado."
-
-É provável que tal Sócrates, desde cedo, tivesse algo de "excêntrico", tanto física quanto espiritualmente. A robustez e a resistência de seu corpo eram notadas por todos os seus discípulos, e enfatiza-se sua completa temperança, sua moderação no comer e no beber e, em ocasiões especiais, sua capacidade de beber profundamente sem se embriagar ou perder a compostura. Na idade adulta, costumava usar a mesma roupa no verão e no inverno e andar descalço. Segundo seu discípulo Platão, mesmo no frio cortante do campo de batalha no inverno, ele mantinha esse hábito. Parece que sua robustez física, que lhe valeu o apelido de "pesadelo dos sapateiros", era uma manifestação de sua excelência inata.
-
-Espiritualmente, Sócrates também era bastante peculiar. Sua característica mais notável era a "voz" misteriosa e o "estranho Daimonion" que o acompanhavam desde a infância. Isso se manifestava de forma súbita e, muitas vezes, por motivos triviais. E sempre assumia a forma de uma proibição repentina. A experiência mostrava que ignorar esse aviso geralmente resultava em consequências indesejáveis.
-
-Em suma, poderia ser chamado de uma espécie de "pressentimento" sinistro em relação a (desgraças). E isso também indica que Sócrates possuía de fato a aptidão de um "vidente espiritual". No entanto, ao contrário da maioria dos videntes, ele era capaz de controlar bem essa aptidão, assim como São Paulo em relação ao dom de "falar em línguas". Outro ponto que seu discípulo Platão destaca, além dessa capacidade de vidência, é a tendência de Sócrates a cair em acessos de concentração ou abstração tão intensos que beiravam a inconsciência ou o "esquecimento de si".
-
-Tais acessos eram, aparentemente, de curta duração. As pessoas os chamavam de meditação, esquecimento de si, êxtase ou abstração, mas pode-se supor que, na verdade, eram estados de união divina e projeção astral. Entre eles está o longo acesso, mencionado anteriormente, que durou um dia e uma noite.
-
-Sócrates, já após receber a sentença de morte, disse o seguinte sobre seu Daimonion (espírito divino) no tribunal:
-
-"Minha premonição habitual costumava ocorrer com grande frequência e se opor a mim até mesmo em assuntos muito pequenos. Ou seja, opunha-se quando eu estava prestes a fazer algo que não era correto. Mas agora, como vós bem sabeis, aconteceu-me o que muitos considerariam o maior dos males e que é visto como o maior dos males. No entanto, quando saí de casa esta manhã, o sinal divino não se opôs a mim de forma alguma. Nem se opôs quando vim a este tribunal. Nem se opôs a nenhuma palavra que eu estivesse prestes a dizer. Em outras ocasiões, enquanto eu falava, a oposição ocorria no meio da minha fala. Mas agora, neste caso, ele não se opôs de forma alguma, nem quando eu fazia algo, nem quando dizia algo. Que causa devo ver nisso? Eu vos direi. O que me aconteceu é provavelmente algo bom. Não pode ser correto pensarmos que a morte é um mal. A prova está aqui."
-
-Com isso, podemos saber que o que Sócrates chamava de Daimonion (espírito divino) emanava das profundezas de sua própria alma. E não era uma voz de comando que o impelia a agir, mas uma força que, diante de uma situação, o impedia de cometer uma injustiça.
-
-Era uma força que o guiava para o bem em suas ações diárias e, ao mesmo tempo, uma força que chegou a determinar a missão de sua vida.
-
-Para Sócrates, era um sinal divino, e no fundo de sua alma, o Daimonion era, por fim, uma manifestação de Deus. Deus se manifestava a Sócrates apenas como seu Daimonion, tornando-se uma força para ele, sentida interiormente. Por ouvir a voz de tal Daimonion, palavras de grande paz de espírito como "seja como for do agrado dos deuses" brotavam de Sócrates. Ou seja, o Daimonion era para Sócrates a voz de um guia negativo que ressoava do mundo absoluto de Deus até o fundo de sua vida. Portanto, pode-se considerar que era a voz de advertência de algo como um espírito guardião.
-
-Sócrates diz que ouviu essa voz desde a juventude. Provavelmente, essa voz começou a ressoar em Sócrates a partir do momento em que ele começou a intuir profundamente o mundo dos deuses. Era uma voz de contenção. Sócrates, após a era da autoconsciência, ouviu essa voz de contenção e percorreu o caminho da vida com calma e coragem, guiado por sua missão de amor à sabedoria. E agora, quando Sócrates, aos setenta anos, recebeu a sentença de morte no tribunal e se apresentou diante dos atenienses, a voz do Daimonion não mais ressoou.
-
-A voz de advertência era uma voz que ressoava do mundo absoluto. Mas agora, Sócrates estava prestes a abandonar sua existência no mundo relativo para se tornar um com esse mundo absoluto. Ele se tornou um com o próprio eco do absoluto. Não se tratava mais de ouvir algo que ressoava, mas de se tornar o próprio eco. E isso também coincide com o oráculo de Delfos, que, quando um dos fervorosos admiradores de Sócrates, Querefonte, perguntou ao deus Apolo: "Há alguém mais sábio que Sócrates?", respondeu: "Não há ninguém mais sábio que Sócrates".
-
-De qualquer forma, o Daimonion de Sócrates era uma força vital irresistível e, ao mesmo tempo, uma força negativa que o fazia parar, uma força que o levava à reflexão, uma força que interiorizava a vida.
-
-É por isso que o Daimonion não ressoou para Sócrates, que cumpriu sua missão de amor à sabedoria, no momento de sua morte. Portanto, para Sócrates, a morte nada mais era do que o abrir das cortinas do drama da libertação da alma.
-
-### A Mística de Jesus Cristo
-
-#### I. O Nascimento de Jesus e seu Contexto
-
-Desde a antiguidade, existem inúmeros e excelentes estudos sobre Jesus Cristo. Quanto aos livros sobre ele, são tantos que a expressão "encheriam um carro de boi" seria um eufemismo.
-
-No entanto, não é necessário discutir detalhadamente aqui que existem fundamentalmente duas visões distintas: uma que identifica completamente Jesus e Cristo, e outra que, a princípio, os considera separadamente. O que se segue é uma tentativa de analisar Jesus como um místico e um grande manifestador de poder espiritual do ponto de vista religioso, partindo desta última perspectiva e baseando-se nos Evangelhos Sinóticos, considerados as fontes mais confiáveis sobre ele.
-
-Pois bem, Jesus nasceu em uma aldeia remota da Palestina, durante o reinado do Rei Herodes, que durou cerca de quarenta anos a partir de 37 a.C. Jesus era filho de um carpinteiro. A Palestina era um país pequeno, com uma área aproximada à da ilha de Shikoku, no Japão. No entanto, por estar localizada em uma encruzilhada entre a Ásia, a África e a Europa, ocupava uma posição ideal para uma religião que visasse unificar o Oriente, o Ocidente e os mares do Sul.
-
-Na época de Jesus, a Palestina estava sob o domínio do Império Romano, que se encontrava no auge de seu poder e governava as nações ocidentais com uma mistura de rigor e tolerância. Embora Jesus tenha nascido na idade de ouro do Império Romano, ele pertencia a um povo subjugado e vassalo, que os romanos viam com desprezo e desdém.
-
-Jesus era judeu. A história passada de sua pátria era gloriosa. No entanto, por vários séculos, os judeus haviam sido mantidos como escravos no Egito, até que seu grande líder, Moisés, se levantou, os guiou através do deserto em direção a uma nova pátria na Palestina. Alguns anos depois, sob o governo dos reis Davi e Salomão, seu reino se tornou tão esplêndido que não ficava atrás de nenhuma outra nação ocidental.
-
-Contudo, costuma-se dizer que a principal grandeza do povo judeu reside em sua convicção religiosa. Ou seja, eles sentiam que eram portadores de uma revelação religiosa especial a ser dada à humanidade. A essência dessa revelação era a seguinte: Deus é único, o criador, protetor e governante do universo; o espírito divino permeia todas as coisas; Deus é perfeito em sabedoria, justiça, pureza, poder, misericórdia e verdade; Deus é espírito e, portanto, nenhum ídolo ou imagem deve ser usado para adorá-lo.
-
-Pois bem, como eles concebiam Deus como um ser com personalidade ética, acreditavam que o principal dever do homem era servir a Deus levando uma vida justa. Os Dez Mandamentos de Moisés são a expressão mais clara disso. Embora fossem um povo subjugado, os judeus não abandonaram o sonho de que seus dias de grandeza retornariam e acreditavam que um dia Deus enviaria seu Messias para libertá-los do domínio do Império Romano. E muitas profecias sobre esse Messias podem ser encontradas na Bíblia. No entanto, na época do nascimento de Jesus, a maioria de seu povo pensava que o Messias era um líder sobre-humano enviado por Deus a este mundo para julgar o mundo, punir os maus, recompensar os bons e governar o mundo inteiro para sempre.
-
-Muitos esperavam que tal Messias aparecesse em breve. Na região da Galileia, onde Jesus vivia, o desejo de independência do Império Romano era particularmente forte. Antes do nascimento de Jesus, líderes nacionalistas haviam se rebelado várias vezes, sendo sempre reprimidos pelo braço de ferro do Império Romano. No entanto, o espírito indomável desses corajosos patriotas nunca arrefeceu. Eles aguardavam pacientemente a chegada de seu libertador.
-
-É nesse contexto histórico que Jesus nasce, como o filho mais velho de um carpinteiro devoto, após a famosa concepção milagrosa.
-
-#### II. O Mistério em Torno do Batismo e da Ressurreição de Jesus
-
-A essência do ensinamento que Jesus começou a pregar era: "O Reino de Deus, tão esperado, está próximo. Arrependei-vos e crede no Evangelho". Esse Evangelho nada mais era do que a promessa de salvação de que, quando se confia em Deus simplesmente como Pai e se vive uma vida moralmente correta, seguindo a vontade divina como cidadão de seu domínio, o Reino de Deus, Ele, com amor e graça, os considerará justos.
-
-As histórias sobre a mística de Jesus, desde o momento em que ele proferiu essas primeiras palavras, permeiam toda a Bíblia, mas o mistério em torno de seu batismo e ressurreição, em particular, tem um significado muito profundo quando considerado em conjunto com sua capacidade espiritual. Quando Jesus completou trinta anos, um notável reavivamento da fé religiosa ocorreu na região mais ao sul da Palestina. Uma multidão de homens e mulheres de bem, de todas as classes, afluía ao deserto árido e rochoso a leste do rio Jordão para ouvir os sermões de um profeta chamado João. E um por um, eles foram batizados. Entre eles estava Jesus.
-
-Quando Jesus quis ser batizado por João, diz-se que João a princípio se recusou, dizendo: "Eu é que preciso ser batizado por ti, e tu vens a mim?". Ao que Jesus teria respondido: "Deixa por agora, pois convém-nos cumprir toda a justiça", e foi batizado.
-
-Assim, ao ser batizado e sair da água, Jesus reconheceu ainda mais profundamente a relação especial que tinha com Deus. Em outras palavras, ele se tornou ainda mais consciente da missão que Deus lhe havia confiado. O período de atividade de Jesus, do batismo à ressurreição, foi relativamente curto. Pode não ter chegado a dois anos. No entanto, esse período está repleto de mistérios e de material abundante que atesta o poder espiritual de Jesus. E tudo começa, de fato, com este batismo.
-
-Jesus sentiu uma força misteriosa, que ninguém mais possuía, agitando-se dentro de si. Ele começou a sentir diretamente a comunicação do mundo divino-espiritual. No momento em que se deu conta disso, viu os céus se abrirem e uma pomba descer. E de um canto do céu, uma voz chegou a seus ouvidos. Era: "Tu és o meu Filho amado, em ti me comprazo". Para as outras pessoas que foram batizadas naquele dia, o batismo significava simplesmente que elas estavam abandonando seus velhos pecados e entrando em uma nova vida de retidão. Para Jesus, no entanto, a situação era completamente diferente. Para ele, o batismo significou o início da comunicação direta com o mundo divino-espiritual e a dedicação à missão que Deus lhe havia confiado.
-
-Então, seria Jesus o Messias tão esperado? E se ele fosse o Messias, de que maneira deveria cumprir sua missão? A resposta a essas perguntas ainda não estava clara para Jesus. Assim, seguindo o antigo costume de sua terra, ele deixou para trás a multidão e o tumulto e adentrou o deserto para meditar sobre essa questão.
-
-Por cerca de quarenta dias, Jesus permaneceu sozinho em um lugar remoto do deserto. Durante esse tempo, diz-se que ele não comeu, mas orou fervorosamente a Deus, preparando-se plenamente para a missão que o aguardava. Também é relatado que, durante esse período, Jesus teve que lutar contra muitas tentações. É fácil imaginar que as muitas tentações que o assaltaram enquanto ele jejuava e orava a Deus na solidão do deserto eram de natureza espiritual, e que ele teve contato com espíritos de falecidos e outros seres. Embora seja impossível provar detalhadamente que tipo de tentações foram essas, Jesus mesmo, mais tarde, falou a seus discípulos sobre três delas. É o famoso "diálogo com o diabo". E as respostas que Jesus deu nessa ocasião devem ser ponderadas do ponto de vista espiritual.
-
-Quando o jejum de Jesus se aproximava do fim, e em seu último dia ele buscava alimento, a primeira tentação chegou. Quem se aproximou foi Satanás, o diabo, o mais alto dos espíritos malignos, como se diz. Apontando para as pequenas pedras planas espalhadas por ali, o espírito maligno disse: "Se és o Filho de Deus, manda que estas pedras se transformem em pães". Ao que Jesus respondeu: "Está escrito na Bíblia que o homem não vive só de pão, mas de toda palavra que sai da boca de Deus". Mesmo na interpretação mais comum deste fato histórico, parece que ele ensinou que a comunicação do mundo divino-espiritual é um alimento mais essencial para a alma humana do que as bênçãos materiais. Em seguida, o espírito maligno Satanás levou Jesus, em um piscar de olhos, ao topo de uma montanha muito alta. Espiritualmente, é claro. E imediatamente lhe mostrou todos os reinos do mundo, dizendo: "Tudo isto te darei, se, prostrado, me adorares". Mas Jesus respondeu: "O homem deve adorar o Senhor, seu Deus, e só a ele servir".
-
-Isso também pode ser interpretado de forma bastante sensata, no sentido de que, mesmo que se obtenha o domínio do mundo material em troca de adorar o espírito maligno Satanás, não se pode alcançar a alegria eterna. De qualquer forma, isso demonstra o poder místico de Jesus, que reconhecia claramente a realidade do mundo divino-espiritual. Então, o espírito maligno levou Jesus, também espiritualmente, a Jerusalém e o colocou no pináculo de um templo, dizendo: "Se és o Filho de Deus, lança-te daqui abaixo, pois está escrito na Bíblia que Deus enviará espíritos santos encarregados de te proteger, e eles te susterão em suas mãos, para que não tropeces com o teu pé em pedra alguma". Ao que Jesus, citando novamente uma passagem da Bíblia, respondeu: "Não tentarás o Senhor, teu Deus", e o repeliu.
-
-Esta série de narrativas representa, de fato, a própria experiência espiritual mística de Jesus. Não é necessário repetir aqui que a Bíblia descreve a luta de Jesus com os espíritos malignos em relação à sua missão de vida com uma linguagem pictórica. No entanto, as tentações que assaltaram Jesus não se limitaram a este misterioso embate espiritual com o espírito maligno Satanás no deserto. Elas vieram na forma de tentações que formavam todos os tipos de relações cármicas, que ele teve que purificar e conquistar a cada vez. E Jesus foi literalmente fiel à decisão que tomou no deserto até o fim de sua vida espiritual mística. Que sua morte física resultou dessa fidelidade é algo que os autores da Bíblia escreveram em uníssono.
-
-Claro, a vida terrena de Jesus, da manjedoura à cruz, é de extrema importância. No entanto, especialmente quando o foco é a mística de Jesus, deve-se ponderar sobre o significado crucial dos fenômenos espirituais que ocorreram nos quarenta dias após sua ressurreição.
-
-Maria Madalena foi ao monte Gólgota (a Colina da Caveira) para recolher o corpo de Jesus crucificado. Naquele momento, ela nem sonhava em encontrar o Jesus ressuscitado. No entanto, Jesus a chamou pelo nome: "Maria!". Foi a primeira palavra da ressurreição. Maria, como que atingida por um choque elétrico ao ouvir a voz de seu mestre Jesus, disse: "Mestre!". A Maria, que tentava se lançar sobre o Jesus ressuscitado, as palavras que Jesus disse são de fato muito profundas: "Não me toques, porque ainda não subi para meu Pai. Mas vai a meus irmãos e dize-lhes: Subo para meu Pai e vosso Pai, meu Deus e vosso Deus". Jesus, que se manifestou diante dos olhos de Maria em um "fenômeno de materialização de corpo inteiro", como diz a ciência espiritual, disse-lhe para não o tocar. Nisto, pode-se perceber a falha decisiva que existe na fronteira entre o mundo físico e o Mundo Espiritual. E não é impossível, transcendendo essa falha, sentir vagamente a mística do amor de Jesus.
-
-### Paulo e o Espírito Divino
-
-#### I. Paulo e o Judaísmo
-
-É raro encontrar na história uma figura tão interessante e inspiradora quanto Paulo.
-
-Na Epístola aos Filipenses, Paulo escreve com orgulho sobre sua linhagem:
-
-"Circuncidado ao oitavo dia, da linhagem de Israel, da tribo de Benjamim, hebreu de hebreus."
-
-Parece haver um duplo significado no fato de Paulo se vangloriar assim de sua linhagem. Um é o significado que tinha antes de se tornar um apóstolo do cristianismo, um "escravo de Jesus"; o outro é o significado que surgiu depois que ele se tornou um apóstolo.
-
-E, dando um passo adiante, esses dois significados se misturam, desdobrando um mundo de significados complexo e interessante. De qualquer forma, Paulo foi o missionário que ocupou a posição mais importante na era primitiva do cristianismo. Ele era um judeu puro, nascido em Tarso, na província da Cilícia, na Ásia Menor.
-
-Paulo era inicialmente chamado de Saulo, e acredita-se que isso foi em homenagem ao primeiro rei judeu, Saul, que surgiu da tribo de Benjamim. E nos Atos dos Apóstolos, Paulo relembra seu passado dizendo: (Atos 22:3) "Eu sou judeu, nascido em Tarso da Cilícia, mas criado nesta cidade, instruído aos pés de Gamaliel, segundo a exatidão da lei de nossos pais, sendo zeloso para com Deus, como todos vós hoje sois."
-
-Em primeiro lugar, o que moldou Paulo foi a tradição judaica, o espírito judaico. Paulo nasceu em uma família farisaica, foi educado pelo farisaísmo e, como ele mesmo diz:
-
-"E na minha nação excedia em judaísmo a muitos da minha idade, sendo extremamente zeloso das tradições de meus pais." [Gálatas 1]
-
-Ele era um judeu que recebera uma educação rigorosa como fariseu.
-
-Então, qual era a relação entre o judaísmo, ao qual Paulo se dedicava tão seriamente, e os fariseus, que o envolviam? Quanto mais profunda a relação de Paulo com o judaísmo, mais profundo se torna o significado daquela famosa experiência espiritual conhecida como a "conversão de Paulo".
-
-Pois bem, na antiga Israel, o reino de Judá caiu politicamente sob a pressão da Babilônia, e a capital, Jerusalém, foi destruída duas vezes, em 597 e 587 a.C. Naquela época, os principais cidadãos foram capturados e levados como prisioneiros para a Babilônia, no que ficou conhecido na história como o cativeiro babilônico. Com essa queda política e o cativeiro babilônico, Israel se tornou um corpo sem cabeça.
-
-No entanto, as pessoas levadas como prisioneiras receberam relativa liberdade e não foram expostas a grandes perigos em suas vidas. Mas a perda de sua pátria e de seu templo deve ter sido uma tristeza insuportável para eles. E isso, por outro lado, resultou no fortalecimento do espírito nacional e do pensamento escatológico. Além disso, isso também prova que eles não perderam a fé em seu deus nacional, Yahweh (o verdadeiro nome de Jeová).
-
-Após essa história, em 538 a.C., eles foram finalmente libertados de sua condição de prisioneiros pelo poder do rei persa. E, ao retornarem à sua terra, primeiro reconstruíram o templo em Jerusalém e depois estabeleceram regulamentos detalhados sobre os rituais do templo e os sacerdotes (o chamado Código Sacerdotal). O que é comumente chamado de Torá de Moisés é o resultado da compilação e revisão de leis com base no espírito religioso de seus ancestrais. A partir daqui, pode-se dizer que a cabeça perdida foi recolocada no corpo. Tudo isso aconteceu na segunda metade do século V a.C., e deveu-se em grande parte aos esforços de Esdras e Neemias.
-
-Pois bem, o judaísmo é essa religião do templo, baseada na lei, que surgiu dessa forma. O nome "Judeia" vem de Judá, o nome da terra onde viviam os descendentes de Judá, filho de Jacó, e mais tarde o povo de Israel em geral foi chamado de judeu.
-
-Esta religião é a adoração de Yahweh, mas, ao contrário da fé moral dos antigos profetas, era uma religião puramente de rituais cerimoniais e preceitos. Portanto, os rabinos, como sacerdotes e professores da lei, eram seus líderes. Um pouco mais tarde, o partido dos saduceus, centrado nos sacerdotes, e a seita dos fariseus, que se esforçavam para observar estritamente a lei como seu dever supremo, ganharam poder. Portanto, a educação rigorosa da seita farisaica que Paulo recebeu tinha como objetivo observar com especial rigor a lei do Antigo Testamento e a lei consuetudinária.
-
-Os fariseus eram pessoas com esse objetivo, e eles se chamavam assim para se distinguirem do povo em geral. A origem hebraica da palavra "fariseu" significa "separado". Politicamente, eram exclusivistas; religiosamente, enfatizavam o aspecto externo e formal da religião, em vez de seu espírito. Eles levaram a cabo a perseguição aos cristãos juntamente com os saduceus, mas, ao contrário dos saduceus, que eram políticos e emocionais, eles infligiram a perseguição de um ponto de vista puramente religioso.
-
-Como era costume nas famílias judias devotas, Paulo, desde a infância, sem dúvida forjou sua lealdade ao Deus de Israel com a regra de ouro: "Ouve, ó Israel: O Senhor nosso Deus é o único Senhor, etc." (Deuteronômio 6:4). A lei, a literatura, a história e todas as outras disciplinas só tinham sua razão de ser se centradas no temor e na reverência a Jeová. Não havia uma educação específica chamada educação religiosa para os judeus; pode-se dizer que tudo era educação religiosa.
-
-Confirmando isso e mostrando vividamente o caráter pessoal de Paulo, temos as seguintes palavras em "Romanos 7:9":
-
-"E eu, nalgum tempo, vivia sem lei, mas, vindo o mandamento, reviveu o pecado, e eu morri."
-
-Aos treze ou catorze anos, ele assumia a responsabilidade total como "filho da lei", e o esforço para observar estritamente a lei se tornava algo sério. Talvez Paulo tenha ido para Jerusalém por volta dessa época para estudar a lei e se preparar para se tornar um rabino. Ele relembra essa época nos Atos dos Apóstolos, como mencionado anteriormente. Ou seja, pode-se inferir que ele se dedicou de corpo e alma à exegese e à dogmática da lei aos pés de Gamaliel.
-
-O esforço para satisfazer cada jota e cada til da lei como um fariseu rigoroso e puro não deve ter sido algo comum. No entanto,
-
-"E na minha nação excedia em judaísmo a muitos da minha idade, sendo extremamente zeloso das tradições de meus pais" (Gálatas 1:14).
-
-É natural que o sentimento sincero do jovem Paulo se manifestasse como um esforço para praticar a lei. E,
-
-"Segundo a justiça que há na lei, irrepreensível" (Filipenses 3:6),
-
-Paulo foi tão fiel a ponto de poder dizer isso.
-
-Paulo deve ter reconhecido, por profunda autoconsciência, que só poderia se apresentar diante do Deus santo se fizesse o que a lei ordenava. No entanto, a importância da lei e a contradição interna da vida na lei são descritas de forma pesada em Romanos, capítulo 7, versículo 7 e seguintes. Acredito que esse sofrimento interno de Paulo não era um tormento moral e ético baseado apenas em uma relação de comando. Era algo mais premente. Acredito que era uma questão que envolvia toda a sua existência e sua relação com Deus. O impasse dessa contradição é a morte e a perdição.
-
-"Porque o que faço não o aprovo; pois o que quero isso não faço, mas o que aborreço isso faço." (Romanos 7:15)
-
-Essa confissão, que parece escrita com sangue, nos dá uma ideia do tormento e do gemido ocultos no coração de Paulo em sua vida farisaica sob a lei do judaísmo. Pode-se dizer que foi uma luta moral e religiosa no sentido mais profundo. Era uma questão interna de Paulo, iluminada apenas diante de Deus e escondida dos homens.
-
-De qualquer forma, para Paulo, que era tão devoto do judaísmo, o que se tornou um problema sério desde seus dias como fariseu foi, na verdade, o impasse da própria lei que exigia uma observância rigorosa. E acredita-se que isso também constituiu um profundo incentivo para que o próprio Paulo viesse a crer em Cristo Jesus.
-
-A lei se relaciona apenas com o ponto da prática. No entanto, como o homem "pela carne se enfraqueceu", mesmo que tente cumprir a lei, não consegue, então, no final, a prática da lei deve ser considerada impossível. "Porquanto a inclinação da carne é inimizade contra Deus, pois não é sujeita à lei de Deus, nem, em verdade, o pode ser. Portanto, os que estão na carne não podem agradar a Deus." (Romanos 8:7-8)
-
-É por isso. No entanto, a vida justificada pela fé,
-
-"Mas agora, morrendo para aquilo em que estávamos retidos, para que sirvamos em novidade de espírito, e não na velhice da letra." (Romanos 7:6),
-
-é libertada do domínio da lei e colocada sob o domínio do Espírito Santo pela graça. E não apenas o perdão é concedido, mas também a capacidade de alcançar a santidade. Portanto, um Cristo Jesus crucificado não era apenas inacreditável. Paulo, com orgulho de ser um judeu puro e um fariseu que vivia pela lei, passou a perseguir os cristãos. Alguns veem isso como uma automutilação lamentável de Paulo, que sofria com a contradição interna da religião da lei.
-
-#### II. A Experiência Espiritual de Paulo
-
-Que Paulo era possuidor de uma alta capacidade espiritual foi demonstrado de forma súbita enquanto ele, ardendo em sua convicção de perseguir os cristãos, se dirigia a Damasco.
-
-"E, indo no caminho, aconteceu que, chegando perto de Damasco, subitamente o cercou um resplendor de luz do céu. E, caindo em terra, ouviu uma voz que lhe dizia: Saulo, Saulo, por que me persegues? E ele disse: Quem és, Senhor? E disse o Senhor: Eu sou Jesus, a quem tu persegues. Levanta-te, e entra na cidade, e lá te será dito o que te convém fazer. E os homens que iam com ele pararam espantados, ouvindo a voz, mas não vendo ninguém. E Saulo levantou-se da terra, e, abrindo os olhos, não via a ninguém. E, guiando-o pela mão, o levaram a Damasco. E esteve três dias sem ver, e não comeu nem bebeu." (Atos 9:3-9)
-
-Tal fenômeno espiritual nunca havia ocorrido a Paulo antes. Era diferente do Daimonion de Sócrates, que ele ouvia desde a infância. De fato, para compreender Paulo como um todo, é preciso adotar uma abordagem que considere a revolução completa de sua personalidade, provocada por essa experiência espiritual, como um grande ponto de virada. O significado dessa experiência foi assim profundo.
-
-Tanto o Paulo fariseu quanto o Paulo que, "por nascimento", possuía a cidadania romana e estava em contato com a cultura helenística, eram, no final das contas, apenas uma preparação para o Paulo que, através dessa experiência espiritual, se tornou servo de Jesus e apóstolo de Cristo. Na verdade, o próprio Paulo pensava assim.
-
-O ofício de apóstolo, ao qual ele dedicou toda a sua vida posterior e pelo qual foi martirizado, foi apenas uma resposta à missão que recebeu naquele momento e uma manifestação do surpreendente espírito de amor que o possuiu e não o largou. Se Paulo não tivesse vivido esse momento, a história mundial não teria conhecido o "Apóstolo Paulo", e a história do cristianismo certamente não teria sido escrita como a conhecemos hoje.
-
-Esse estado de transe de Paulo foi, sem dúvida, uma experiência em que foi capturado pelo Jesus ressuscitado.
-
-E o poder essencial que moveu Paulo depois disso foi o Espírito Santo. E, como ele mesmo diz, "andar no Espírito" era a vida de Paulo. Pela destruição e queima do antigo, uma nova vida é gerada. Viver morrendo já é algo central, mesmo dentro da própria vida.
-
-O Paulo fariseu, o Paulo que viveu na lei, foi completamente destruído e reduzido a nada por essa intensa experiência espiritual, ficando cego por três dias. E, de dentro disso, ele foi capturado pelo Jesus ressuscitado e se preparou para uma nova vida como escravo de Jesus.
-
-A partir daí, começa a dupla visão de Paulo. A orgulhosa consciência de ser hebreu também adquire um duplo significado a partir daqui.
-
-"Já não sou eu quem vive, mas Cristo vive em mim."
-
-Esta é provavelmente a expressão da mais profunda experiência espiritual de Paulo. Paulo chegou a mudar completamente sua estratégia missionária por "orientação do Espírito". Paulo também viu "visões" com frequência. Vemos que os pontos de virada em sua vida foram determinados por tais experiências místicas. Em Gálatas 2:2, enfatiza-se que a ida de Paulo a Jerusalém foi "por revelação".
-
-E aos coríntios, que se orgulhavam de falar em línguas, ele diz: "Dou graças ao meu Deus, porque falo mais línguas do que vós todos." (1 Coríntios 14:18)
-
-Diz-se também que Paulo às vezes caía em um estado que é geralmente chamado de êxtase. É o que se chama de estado de transe. Em 2 Coríntios, Paulo escreve:
-
-"Foi arrebatado até ao terceiro céu, ao paraíso (se no corpo, não sei, se fora do corpo, não sei), e ouviu palavras inefáveis, que ao homem não é lícito falar."
-
-Por um lado, Paulo era um político religioso prático e um líder eclesiástico sensato. Por outro, como se costuma pensar, ele era um místico guiado por sonhos e visões, possuidor de vidência espiritual e que, no que é geralmente chamado de estado de êxtase, ou seja, em estado de transe, ouvia a voz celestial.
-
-Em outras palavras, ele era possuidor de clariaudiência. E pode-se ver que entre o grupo de espíritos guardiões de Paulo havia "não o espírito do mundo, mas o Espírito que provém de Deus" (1 Coríntios). Então, qual é o significado do "Espírito de Deus" em si? Paulo não explica isso teoricamente. Ele apenas o menciona de forma fragmentária em 1 Coríntios 2:10 e 11.
-
-"Mas Deus no-las revelou pelo seu Espírito; porque o Espírito penetra todas as coisas, ainda as profundezas de Deus. Porque, qual dos homens sabe as coisas do homem, senão o espírito do homem, que nele está? Assim também ninguém sabe as coisas de Deus, senão o Espírito de Deus."
-
-Embora muito fragmentárias, essas palavras sugerem que o Espírito não é uma substância separada de Deus, nem um servo pertencente a Deus. Ele está na essência de Deus e, quando uma pessoa participa do Espírito, ela é capturada na essência de Deus. Portanto, para Paulo, "participar" do Espírito ou ser "cheio" do Espírito não é apenas ser preenchido com poder religioso e ético, nem ser possuído por um espírito social. Significa, de fato, estar unido à própria essência sobrenatural de Deus e se tornar propriedade de Deus.
-
-Nesse sentido, as experiências de Paulo no estado de êxtase e arrebatamento são relatadas como tendo ocorrido com frequência desde seu estado de transe no caminho de Damasco. No entanto, os detalhes de tais experiências não podem ser conhecidos por outros, a menos que o próprio Paulo os conte. Felizmente, em Efésios 1:13 e 14, há algo que nos permite vislumbrá-los.
-
-"Em quem também vós estais, depois que ouvistes a palavra da verdade, o evangelho da vossa salvação; e, tendo nele também crido, fostes selados com o Espírito Santo da promessa. O qual é o penhor da nossa herança, para redenção da possessão adquirida, para louvor da sua glória."
-
-A esta altura, talvez o verdadeiro significado do estado de transe de Paulo não seja bem compreendido, a menos que se considere em relação ao conceito do fim do mundo.
-
-De qualquer forma, Paulo, através de uma grande experiência de sua alma, acreditou no evangelho de Cristo e em sua salvação e, a partir daí, tornou-se consciente de sua missão como pregador do evangelho de Cristo. E, como esse evangelho não estava condicionado à lei judaica, ele tinha a convicção de que deveria ser transmitido a todas as pessoas, sem discriminação étnica ou social. Assim, ele se tornou voluntariamente um pregador do evangelho de Cristo aos gentios. No entanto, o notável sucesso da missão de Paulo aos gentios deveu-se, em grande parte, ao fervor que brotava de sua fé e de sua experiência espiritual. Mas, além disso, deve-se reconhecer que seu talento político, com o qual "andou no Espírito", também desempenhou um papel significativo. Ele tinha um plano. Não agiu cegamente, movido apenas pela paixão.
-
-Segundo Romanos 15:20, Paulo primeiro,
-
-"E desta maneira me esforcei por anunciar o evangelho, não onde Cristo fora nomeado, para não edificar sobre fundamento alheio."
-
-Ou seja, Paulo adotou a missão pioneira como sua política. Em seguida, ele realizou uma missão centrada nas cidades. Isso provavelmente se deveu à intenção de transmitir o nome de Jesus ao maior número possível de pessoas antes da segunda vinda do Senhor.
-
-Ao entrar em uma cidade, ele primeiro usava a sinagoga judaica. Isso se devia tanto ao desejo de cumprir a salvação de seus compatriotas quanto de se aproximar dos gentios "tementes a Deus" que frequentavam a sinagoga. Quando alguns crentes eram feitos, Paulo "elegia anciãos" para liderar a igreja. Paulo também se esforçava para manter contato entre as igrejas locais e a igreja-mãe em Jerusalém.
-
-O fato de Paulo ter se empenhado na campanha de arrecadação de fundos para os "santos pobres" de Jerusalém foi, por um lado, para promover a unidade da igreja. Nesses pontos, Paulo era de fato um político eclesiástico excepcional. Mas Paulo não tentou fazer tudo sozinho. Ele sempre esteve acompanhado ou liderou muitos colaboradores e companheiros de luta.
-
-E, além disso, ele trabalhou de acordo com a comunicação do "Espírito Santo", junto com o "Espírito Santo".
-
-"Se vivemos em Espírito, andemos também em Espírito." (Gálatas 5:25)
-
-Viver no Espírito é viver em Cristo.
-
-"E, se o Espírito daquele que dentre os mortos ressuscitou a Jesus habita em vós, aquele que dentre os mortos ressuscitou a Cristo também vivificará os vossos corpos mortais, pelo seu Espírito que em vós habita." (Romanos 8:11)
-
-As atividades de Paulo, baseadas em tal autoconsciência, levaram a conflitos com algumas pessoas da igreja de Jerusalém, mas ele chegou a um acordo com seu líder, Pedro, e outros, e finalmente se dedicou principalmente à missão no mundo dos gentios, como a Ásia Menor, a Macedônia e a Grécia.
-
-No entanto, a animosidade contra Paulo entre os judeus aumentou gradualmente, e sua incitação causou um tumulto popular. Como resultado, ele foi preso, mas apelou para ser enviado a Roma, e diz-se que foi morto na época do imperador Nero. Entre as acusações pelas quais Nero matou Paulo, provavelmente estava a de que sua capacidade espiritual se comunicava com o diabo e, em conluio com ele, enganava o povo.
-
-Em suma, pode-se considerar que Paulo foi um grande médium e vidente espiritual.
-
-### O Profeta Maomé
-
-#### I. O Islamismo e seu Fundador, Maomé
-
-Como todos já sabem, o Islamismo, cujo nome em chinês é Huijiao, e também conhecido como Huíhuíjiào, é uma religião monoteísta baseada nos ensinamentos de seu fundador, Maomé, o que não é novidade aqui.
-
-Diz-se que seu fundador, Maomé, nasceu por volta do final do século VI d.C., ou seja, por volta de 570, em Meca, uma cidade costeira do Mar Vermelho, no centro da Península Arábica. Maomé, por volta dos quarenta anos, através de uma conversão religiosa, teve contato com a revelação de Deus, Alá, e a partir daí começou a pregar o Islamismo como uma nova religião.
-
-Se removermos o que é claramente absurdo e o que parece quase sem valor da história dos cerca de quarenta anos de Maomé antes do início de sua "missão", o que resta para ser contado é surpreendentemente pouco. No entanto, parece não haver dúvida de que, durante as muitas guerras que eclodiram com frequência quando Maomé ainda era adolescente, ele atuou como um colaborador de certo calibre, fornecendo armas a seu tio Zubayr.
-
-O Islamismo e a guerra. Maomé e a luta. A relação entre a religião muçulmana e a batalha é inseparável. De fato, o Islamismo se espalhou através da batalha com armas, através da luta. Daí o ditado: "A espada na mão direita, o Alcorão (a bíblia do Islamismo) na mão esquerda".
-
-Por volta de 594 d.C., uma caravana carregada com as mercadorias de uma rica senhora de Meca viajou com segurança para a cidade de Bostra e, obtendo um lucro correspondente aos perigos de seu trabalho, retornou com segurança a Meca. As qualificações necessárias para o trabalho de tal caravana em expedição não são diferentes das de um general competente. A capacidade de impor disciplina, de evitar o inimigo, a coragem ao encontrar o inimigo, a capacidade de discernir informações falsas e verdadeiras, a capacidade de perscrutar os planos dos outros, etc., são todas qualificações necessárias.
-
-Mas não se resume a isso. Depois de chegar com segurança ao mercado de destino, quando o líder ou agente da caravana tem que vender as mercadorias que lhe foram confiadas para obter o maior lucro, outras qualificações devem desempenhar um papel. Ou seja, a sinceridade para com seus servos e também a paciência e a agilidade são indispensáveis.
-
-O líder da caravana em expedição a Bostra, Maomé, órfão de Abdallah, era um jovem de vinte e cinco anos na época, mas possuía plenamente as qualificações necessárias acima e era bem visto por sua patroa, a rica viúva de Meca, Khadija. Assim, não há dúvida de que Maomé liderou as caravanas de Meca, viajando de cidade em cidade, para vários lugares.
-
-Naquela época, as pessoas proeminentes de Meca estavam todas constantemente envolvidas no trabalho de tais caravanas. Portanto, as qualificações e habilidades de um soldado, como mencionado anteriormente, eram muito necessárias. Como a Arábia não era um país industrial, as caravanas geralmente iam para a Síria e o Iêmen, e muitas vezes o Egito, a Abissínia (Etiópia) e a Pérsia também eram considerados bons mercados para as caravanas.
-
-Segundo o Alcorão, o livro sagrado de Maomé, ele parecia ser versado em tais expedições de caravana por terra e mar. Portanto, é fácil supor que, através de tais viagens de caravana, Maomé estabeleceu relações amigáveis com estrangeiros de vários lugares e, como resultado de seu contato com diferentes culturas e climas, seu conhecimento aumentou gradualmente e um amplo senso comum foi acumulado.
-
-Entre os mercadores estrangeiros com quem Maomé entrou em contato em vários lugares, havia claramente judeus que comercializavam roupas e outros produtos. Parece que o profeta Maomé, em seus últimos anos, extraiu muitas fábulas deles e também adquiriu muitas expressões curiosas.
-
-No entanto, Maomé, que era um homem de bom senso desenvolvido com o conhecimento adquirido em suas muitas viagens, não recebera uma educação formal. A arte de ler e escrever era, é claro, conhecida pelo povo de Meca, mas não fora ensinada a Maomé quando criança. É desnecessário dizer que a arte de ler e escrever era extremamente importante em Meca, a capital das caravanas da Arábia comercial. Mais tarde, o próprio Maomé enfatizou sua importância. A razão pela qual Maomé não a aprendeu provavelmente se deve ao destino que os "órfãos" geralmente têm que seguir.
-
-Portanto, Maomé não tinha ouvidos nem olhos para a arte ou a poesia árabe. Além disso, a forma de educação da época começava com a memorização dos cantos das histórias dos clãs, mas acredita-se que Maomé também não teve isso.
-
-No entanto, a capacidade de Maomé de absorver conhecimento não falhou completamente. Isso porque a tradição o fez memorizar poemas que atraíram particularmente a imaginação do profeta Maomé. Alguns dos poemas dos cantos narrativos citados em ocasiões solenes ou de alegria se fixaram na memória de Maomé e se tornaram a base para a forma de sua conversão religiosa posterior.
-
-No entanto, apesar desses fatos, Maomé detestava completamente a poesia. Diz-se que isso provavelmente foi uma vingança, em certo sentido, por sua falta de educação. Por outro lado, parece que Maomé mostrava uma atitude de absorver a superstição em um grau considerável. Ele encontrava grande importância especialmente nos presságios associados aos nomes. Ele também nunca duvidou da eficácia dos feitiços.
-
-Certa vez, quando um seguidor de Maomé quis atribuir um eclipse solar à morte do filho de Maomé, Ibrahim, Maomé disse que um eclipse solar não tinha relação com a sorte ou o azar de um indivíduo, por mais importante que fosse. No entanto, parece que Maomé ainda considerava o eclipse um fenômeno natural grave que exigia uma forma especial de "oração".
-
-A experiência como garoto de caravana ensinou a Maomé a arte do reconhecimento. A capacidade de discernir a localização, o número e o equipamento do inimigo a partir de meros sinais e vestígios desempenhou um papel pleno no período em que Maomé foi líder de um bando de salteadores, até ser expulso de Meca e, inversamente, reconquistá-la.
-
-No entanto, além de tais experiências, a natureza concedeu a Maomé uma graça invejável. Era o fato de que Maomé conhecia os homens em todos os seus detalhes. Seu julgamento intuitivo sobre seus subordinados, é claro, e sobre as pessoas em geral, raramente estava errado.
-
-Finalmente, para preparar a compreensão do Islamismo, descreveremos a aparência externa do profeta Maomé em sua meia-idade, após sua conversão religiosa. Diz-se que ele era de estatura mediana, de cor um tanto azulada, com cabelos nem lisos nem cacheados, cabeça grande, olhos grandes, cílios grossos, olhos avermelhados, barba espessa, ombros largos e mãos e pés grossos. Outra teoria diz que ele tinha boca grande, olhos amendoados e calcanhares finos. Outra teoria ainda diz que as mãos de Maomé eram excepcionalmente macias, o que, do ponto de vista da quiromancia, significaria uma "tendência natural para o místico". Quando Maomé reconquistou Meca, ele usava um turbante preto na cabeça.
-
-O Islamismo é a religião monoteísta que foi transmitida por este Maomé a partir do início do século VII d.C. para a África, Espanha, Sudoeste Asiático, Turquia, Ásia Central, Índia, China, etc., como já mencionado.
-
-A palavra "Islã" do Islamismo significa "submissão". E os crentes do Islamismo são chamados de "muçulmanos", o que significa "aquele que se submete", ou seja, "servo de Deus". Submissão significa confiar em Deus Alá de acordo com os ensinamentos de Maomé e observar absolutamente sua sinceridade, e isso constitui a essência desta religião. A submissão era a fé, e a fé significava viver de acordo com a vontade de Deus.
-
-Deus Alá não é apenas o todo-poderoso e criador do mundo, mas também aquele que governa a humanidade, dando-lhe a lei através de mensageiros ou profetas. Portanto, seus mandamentos, além do ensinamento de que nenhum outro ser além de Alá deve ser adorado como deus e que Maomé deve ser reverenciado como seu profeta, incluem a observância estrita da oração diária e da ablução, da esmola, do jejum e de outros festivais, especialmente a peregrinação à cidade sagrada de Meca.
-
-Além disso, costumes sociais e morais também são estabelecidos, e a guerra é reconhecida como um dever sagrado para proteger e difundir a fé em Deus Alá.
-
-O Islamismo, além de seu livro sagrado, o Alcorão (que significa revelação), originalmente não tinha uma doutrina. No entanto, nos tempos modernos, "catecismos" chamados de livros de perguntas e respostas sobre a fé ou normas de fé foram estabelecidos. Por outro lado, após o contato com a erudição grega e cristã, surgiram os chamados "mutakallimun", que discutiam questões teológicas. É a teologia que adicionou argumentação à fé tradicional do Islamismo e lhe deu uma interpretação especulativa.
-
-Em 8 de junho de 632 d.C., uma segunda-feira, o profeta de Deus Alá, Maomé, morreu de uma febre que durou cerca de cinco dias. As cortinas de sua vida de luta política e religiosa de mais de sessenta anos foram baixadas. Quando o crente muçulmano e discípulo direto Abu Bakr deu seu último adeus ao rosto morto de seu profeta Maomé, diz-se que seu rosto parecia o "eterno fevereiro" do livro sagrado, o Alcorão.
-
-As antigas crenças que sobreviveram por muito tempo na Arábia, um país aparentemente remoto, receberam um golpe decisivo da nova religião pregada por Maomé. E, "Maomé está morto, mas o Deus de Maomé não morre".
-
-#### II. Alá e o Transe de Maomé
-
-Quando Maomé nasceu na Arábia, inúmeros clãs, grandes e pequenos, disputavam o poder. Cada clã acreditava em seu próprio deus ou espírito guardião, e as pessoas esperavam tudo deles. E, quando vários clãs formavam uma aliança, a relação entre os espíritos guardiões ou deuses também era amigável. O número de deuses em que se acreditava perto de Meca, local de nascimento de Maomé, era muito grande, e alguns deles eram árvores antigas ou pedras enormes.
-
-No entanto, Maomé chamou a época em que essa idolatria era praticada de "era da ignorância". De qualquer forma, é certo que, antes de Maomé, nenhuma revelação havia aparecido ao povo de Meca e, portanto, não havia profetas, escrituras nem líderes. Os rituais que as pessoas praticavam eram simplesmente uma imitação do que seus pais faziam.
-
-Na Península Arábica, havia tantos deuses quanto clãs. Entre esses clãs, estava o clã Quraysh, ao qual Maomé pertencia. O deus Alá, que Maomé veio a reconhecer como o objeto de adoração monoteísta, era o deus do clã Quraysh. Era um deus masculino. Portanto, o povo do clã Quraysh era filho desse deus masculino, Alá. Sempre que o povo de Meca encontrava alguma dificuldade, eles invariavelmente apelavam a Alá. Por outro lado, em tempos de paz e tranquilidade, eles tendiam a retornar à adoração de muitos deuses.
-
-Alá era considerado o deus da criação do céu e da terra, e os outros deuses eram considerados subordinados a Alá. E esses deuses eram considerados as filhas de Alá, deusas femininas. Aqui, há uma contradição com a crença dos habitantes de Meca da época, que consideravam ter filhas uma das infelicidades, mas, de qualquer forma, é nesse contexto que Maomé, com sua experiência como garoto de caravana, surge como profeta.
-
-Pois bem, os heróis nacionais de todos os países, na maioria dos casos, têm um motivo claro, um grande ponto de virada para desempenhar seu papel heroico, e não é impossível apontá-lo. Uma crise ocorre, e o herói responde a ela. No entanto, no caso de Maomé, é difícil apontar um evento tão claro. Ele se tornou grande sem que se percebesse quando.
-
-Durante o longo período até sua conversão religiosa, Maomé levava a vida de um respeitável cidadão de Meca e também era um excelente comerciante. E, aos quarenta anos, encontramos Maomé como a figura central de uma sociedade secreta cujo objetivo era a reconstrução de toda a organização social.
-
-Pode-se inferir que a ideia central dessa sociedade secreta era unificar toda a Arábia sob a visão monoteísta de Deus Alá e reorganizar completamente a estrutura social.
-
-Geralmente, quando uma pessoa recebe comunicação do Mundo Espiritual, ela deve, de alguma forma, corresponder o tipo e o método dessa comunicação a uma fonte misteriosa. Portanto, o problema imposto ao médium é receber a comunicação sem que ele mesmo a forneça.
-
-Maomé, como os médiuns modernos, também teve que resolver esse problema. De qualquer forma, como estava envolto no véu de uma sociedade secreta, o cerne da questão só pode ser conjecturado, mas, ainda assim, parece que Maomé, quando sentia claramente a inspiração, adotava instintivamente o processo comum a todos os profetas de todas as épocas.
-
-Maomé costumava entrar em um estado de intensa agitação quando era atingido pela inspiração. Seu rosto ficava pálido, ele se enrolava em um cobertor e, em seguida, suava profusamente, e assim recebia a comunicação. Às vezes, também, uma comunicação obscura em letras do alfabeto, que não formavam palavras, aparecia antes da comunicação em palavras. Era estranhamente semelhante ao primeiro movimento de uma tábua ouija. Há também evidências para acreditar que Maomé às vezes tinha ataques epiléticos. Isso era acompanhado por fenômenos como roncar e o rosto ficar vermelho, mas isso acabou sendo reconhecido como a forma normal de comunicação com o Mundo Espiritual. E a comunicação podia ser recebida sem qualquer preparação.
-
-Diz-se que Maomé, mesmo enquanto comia, ao responder diretamente a uma pergunta, recebia a comunicação do Mundo Espiritual e, depois de anunciá-la pelo método acima, terminava a refeição interrompida. Às vezes, também, enquanto estava no púlpito, uma revelação vinha para responder a uma pergunta feita. As revelações e inspirações que vieram a Maomé dessa forma o levaram a ser chamado de "o homem de cobertor" ou "o homem envolto".
-
-De qualquer forma, parece que Maomé manteve esse processo, ou seja, um estado correspondente a um fenômeno de possessão espiritual, seja ele qual for, do início ao fim. Maomé pôde declarar: "É por este milagre que sou versado no conteúdo de uma escritura que nunca li", quando a quantidade de inspiração que lhe era dada aumentava progressivamente em alguns casos e ele seguia um método seguro.
-
-Além disso, quando Maomé viajava como líder de caravana por vários lugares, ele encontrava muitos monges que pregavam o renascimento religioso, e deles ouvia e aprendia vários sermões. Os principais eram sobre a impermanência do mundo, a possibilidade de discernir o criador do universo a partir dos fenômenos do mundo, o dia do juízo, o fogo do inferno, a necessidade de adorar Alá em vez dos ídolos, etc.
-
-De qualquer forma, as características claras que esta religião de Maomé tinha em oposição à idolatria eram, de ponta a ponta, a fé na vida após a morte e a fé na unidade de Deus.
-
-O povo de Meca da época realizava um festival chamado *tahannuth* (uma espécie de ascetismo). Durava um mês, e durante esse período, Maomé costumava se esconder em uma caverna na montanha Hira, a cerca de três milhas de Meca. O mês dedicado a este ritual ascético era particularmente adequado para ansiar por uma forma de religião mais espiritual do que a idolatria usual. Em algum momento durante este mês, Maomé desceu sozinho ao vale. Acredita-se que foi então que houve uma manifestação de Deus que o fez partir como um mensageiro do Mundo Espiritual.
-
-A questão da manifestação de Deus descrita no Alcorão é que foi o próprio Deus que desceu naquela época e chamou o profeta Maomé de uma distância de quinhentos ou seiscentos metros. E, na segunda vez que apareceu, diz-se que ele viu a ponta da árvore do esquecimento (cuja fruta, se comida, leva a um sonho de felicidade suprema e a esquecer o mundo da dor) no "jardim da alegria". Sobre como Maomé iniciou sua comunicação com o Mundo Espiritual dessa forma, não se sabe mais do que esta história vaga.
-
-De qualquer forma, segundo uma teoria, Maomé ficou tão surpreso com essa experiência espiritual e temeu tanto se tornar um adivinho ou poeta idólatra que tentou se suicidar subitamente. Diz-se que Maomé tinha quarenta anos na época. Havia uma esposa do profeta Maomé chamada Khadija, e entre ela e ele existem várias lendas. Primeiro, quando Maomé tentou se suicidar, diz-se que Khadija o encontrou e o consolou, dizendo-lhe sua convicção de que Maomé se tornaria um profeta nacional, um *nabi*, no futuro. O interessante é que a esposa de Maomé nunca tinha ouvido a palavra "profeta" e não sabia nada sobre isso.
-
-E, quando ela consultou um de seus parentes eruditos, Waraqa, filho de Nawfal, sobre o assunto, ele também encorajou Maomé, dizendo: "Santo, santo, esta é a grande *nomos* (lei)". Depois disso, ela perguntou a seu marido, Maomé, se seus pais, que eram idólatras, foram para o inferno. Maomé respondeu que sim. Mas, ao ver o rosto dela se contorcer de dor, Maomé a garantiu, dizendo que, se ela pudesse ver a verdadeira natureza de seus pais, passaria a odiá-los. Em seguida, quando ela perguntou se seus filhos mortos também estavam no inferno, uma inspiração veio ao profeta Maomé e respondeu: "Todo aquele que crê, e todo aquele que é sucedido por seus descendentes na fé, Nós vos daremos descendência". Com isso, a mãe que perdeu seus filhos pôde se convencer de que a felicidade eterna de seus filhos mortos dependia da profundidade de sua fé, e que, crendo, não apenas seus filhos ressuscitariam, mas ela também teria a oportunidade de fazê-los entrar no "jardim do êxtase".
-
-Certa vez, Uthman, filho de Maz'un, um homem de coração ascético, visitou Maomé e sentou-se com ele. Naquele momento, Maomé subitamente olhou para o céu, fixou o olhar em um canto do céu, foi naquela direção, voltou e olhou para o céu novamente. Quando perguntado sobre o significado dessa ação, Maomé respondeu: "Um mensageiro de Deus me visitou e me disse para pregar a justiça, a harmonia, a pureza, etc."
-
-Enquanto isso, o número de crentes aumentava gradualmente. Com isso, a natureza do Alcorão também mudou, evoluindo de uma comunicação semelhante à de um "médium" para uma pregação poderosa. No entanto, nos primeiros dias em que os fenômenos espirituais começaram a se manifestar em Maomé, devido a várias relações, como a cautela em relação a outros clãs idólatras, a adoração do único Deus Alá, que deveria substituir os antigos festivais, era praticada em grande segredo. Não está claro até que ponto a sociedade secreta da fé em Alá, da qual Maomé era a figura central, estava ciente de seu poder latente, mas, de qualquer forma, os benefícios obtidos com suas atividades secretas nos primeiros anos de sua existência foram grandes.
-
-Assim, à medida que a sociedade secreta do Islã, como servos de Alá, se fortalecia, as regras gerais dessa sociedade secreta foram reconhecidas e passaram a ter poder de controle. Uma vez que alguém se convertia, convertia-se para sempre, e se desertasse, não havia vida. As regras que tornam a conversão de um crente muçulmano quase impossível até hoje estão, na verdade, muito intimamente relacionadas ao caráter dessa sociedade secreta, e pode-se pensar que a espécie de névoa misteriosa que envolve o maometismo tem sua origem aí.
-
-Assim, o profeta de Alá, o único Deus, Maomé, através de suas experiências espirituais e da orientação do Mundo Espiritual, após vinte e três anos de luta política e religiosa após seu transe, ascendeu da posição de um comerciante de Meca, que um dia fora um garoto de caravana, ao trono de um grande império religioso que parecia prestes a engolir o mundo.
-
-### O Mestre Okada Jikan como Místico
-
-#### I. Antes e depois da Visão de Deus do Mestre Jikan
-
-Atualmente, o Mestre Jikan manifesta uma grandiosa capacidade espiritual, e o número daqueles que recebem a graça da cura de doenças em todo o país se aproxima de duzentas mil pessoas. Além disso, ele defende o cultivo sem adubos, obtendo resultados notáveis, e está construindo protótipos do Paraíso Terrestre em Atami e em Gora, Hakone. Com plena confiança, ele dedica esforços incessantes para, eventualmente, realizar esse ideal em todo o Japão e no mundo.
-
-Assim como Maomé, antes de ouvir a voz do Mundo Espiritual, não passava de um membro de uma caravana que atravessava o deserto com mercadorias, este grande místico, antes de receber a inspiração divina, era apenas um homem de negócios comum. Mais do que isso, o Mestre era originalmente um completo descrente, chegando a insultar santuários e templos como inúteis. Nesse aspecto, ele se assemelha muito a Paulo, que, antes de ouvir a voz de Deus e ver sua imagem, era um judeu anticristão que perseguia fervorosamente os cristãos.
-
-Ao longo da história, tanto no Oriente quanto no Ocidente, os grandes místicos que foram guiados pela inspiração divina, receberam a voz celestial e manifestaram uma grandiosa capacidade espiritual, eram, em sua maioria, pessoas comuns. A única exceção é Shakyamuni, que nasceu em uma família real e foi criado como príncipe.
-
-Parece que a grandiosa capacidade espiritual não tem qualquer relação com honra, posição, poder ou riqueza neste mundo. Pelo contrário, quanto mais nobre for a pessoa em seu caráter — com um coração puro, transbordante de compaixão e notável por suas boas ações —, mais ela se torna um protegido dos espíritos mais elevados do Mundo Espiritual, ou seja, de Deus e dos Budas, e recebe a capacidade espiritual.
-
-É verdade que aqueles comumente chamados de possessos, ou as sacerdotisas e médiuns simples, podem ser possuídos por espíritos de falecidos de baixo nível ou por espíritos de animais com os quais têm afinidade vibratória, e ocasionalmente manifestam fenômenos milagrosos. No entanto, tais casos não devem ser chamados de místicos. O público muitas vezes acredita cegamente que tais fenômenos são obra de deuses e budas, resultando em uma confusão entre o joio e o trigo, o que torna o discernimento extremamente difícil. E tal confusão se deve, em última análise, à falta de conhecimento sobre a ciência espiritual.
-
-Como já mencionado, do ponto de vista da ciência espiritual, a capacidade espiritual não tem relação alguma com a posição ou a fama neste mundo. Pelo contrário, é quando a pureza de pensamento, a virtude e as boas ações de uma pessoa se harmonizam com as ondas de pensamento dos espíritos elevados que habitam o Mundo Espiritual que uma capacidade espiritual sublime se manifesta. No entanto, ao refletirmos mais profundamente, parece que uma pessoa destinada a se tornar um grande místico e realizar grandes obras já era, mesmo quando parecia ser apenas uma pessoa comum e medíocre, intencionada por Deus para receber uma missão ou tarefa específica.
-
-Segundo a visão da maioria dos estudiosos da ciência espiritual, cada pessoa nasce com alguma missão. Portanto, não seria uma conclusão precipitada supor que um grande místico é, na verdade, selecionado pelo Mundo Espiritual para cumprir uma missão especial e, por isso, nasce neste mundo.
-
-Seja como for, o Sr. Okada, que era visto como um homem comum e descrente, entrou para a fé devido a um fracasso nos negócios. Em seguida, ingressou na religião Oomoto, e, à medida que passava por um aprimoramento espiritual, suas inspirações se tornaram frequentes, seguidas por uma sucessão de fenômenos milagrosos. Sua capacidade espiritual aumentou cada vez mais, e, aos quarenta e três anos, ele finalmente atingiu o estado de visão de Deus. Foi então que o rugido de leão e a atuação do Mestre Jikan, um grande desperto espiritual, se descortinaram. Além disso, diz-se que o Mestre recebeu de Deus a missão de construir o Paraíso Terrestre.
-
-Paulo e Maomé confessaram ter ouvido a voz de Deus e agido de acordo com sua vontade. Sócrates, no entanto, parece ter tido consciência da proibição divina, mas não da ação por ordem divina. Acredita-se que Shakyamuni não teve a consciência de ter recebido a vontade divina, mas, durante seu caminho para a iluminação e depois dela, conversou frequentemente com seres do Mundo Espiritual e, abrindo seu olho divino, observou as várias camadas do Mundo Espiritual. Assim, percebe-se que cada um tem suas particularidades.
-
-No caso do Mestre Jikan, ele não apenas recebeu de Deus a inspiração para construir o Paraíso Terrestre, mas também diz que recebe constantemente a vontade divina e que suas ações são, por vezes, restringidas por essa mesma vontade. Em suma, ele recebe tanto o aspecto ativo de Paulo e Maomé quanto o aspecto passivo de Sócrates. O corpo e a mente do Mestre Jikan são movidos pela vontade divina e restringidos pela vontade divina, quase sem espaço para o ego operar. Este é o estado que se pode chamar de união entre Deus e o homem, e o que o budismo ensina sobre abandonar o pequeno eu para se fundir no grande eu se refere a tal estado.
-
-Aqueles que são chamados de médiuns comuns só conseguem se comunicar com o Mundo Espiritual depois de se livrarem dos pensamentos mundanos, unificarem sua mente e manterem um estado mental altruísta. A capacidade de se comunicar constantemente com os seres divinos, de receber a vontade divina e de viver de acordo com ela, a todo momento, é possível apenas para os grandes místicos, algo que os médiuns comuns jamais poderiam alcançar. Nesse estado, a riqueza e a pobreza se tornam controláveis, o destino pode ser moldado à vontade e as doenças podem ser curadas. Isso porque se está no estado de "não sou eu quem o faz, mas Deus em mim o faz".
-
-#### II. A Capacidade Espiritual de Cura do Mestre Jikan
-
-O Mestre Jikan diz que tem uma esfera de cerca de duas polegadas de diâmetro em seu abdômen e que recebe continuamente capacidade espiritual através da radioatividade divino-espiritual da Joia que Realiza os Desejos (Nyoi Hoju) de Kannon Bosatsu. Ele também explica que, dessa esfera em seu abdômen, inúmeras partículas de luz (koso) são irradiadas através de linhas espirituais. Essas partículas de luz são as menores partículas de luz e possuem um forte poder bactericida. Ou seja, os germes tóxicos que se desenvolvem no hidrogênio do corpo humano — partículas provavelmente tão pequenas que não podem ser vistas nem com um microscópio de milhões de vezes de aumento — são eliminados por essas partículas de luz com poder bactericida, e a doença se cura por si mesma.
-
-Aqui, faremos uma breve análise da Joia que Realiza os Desejos. No budismo esotérico Shingon, existe uma prática chamada "Método da Joia que Realiza os Desejos", na qual a Joia é reverenciada como a divindade principal. Este é o método mais profundo e secreto do budismo esotérico, e seu nome é geralmente mantido em segredo, sendo chamado de Joia Preciosa, Lei Preciosa, Mistério Precioso ou Método Dhatu. Para praticar este método, às vezes as relíquias (sharira) são usadas como a divindade principal. Ou seja, as relíquias de Buda (cinco, três ou uma partícula) são colocadas em um pote de ouro e reverenciadas como a divindade principal durante a prática. As relíquias de Buda, como se sabe, foram obtidas quando Shakyamuni deixou este mundo e seu corpo foi cremado. Elas são consideradas uma parte do corpo de Buda e são extremamente valiosas. Em nosso país, há relíquias enviadas da Tailândia consagradas em Nagoya e Tóquio, que são objeto de grande veneração dos budistas. As relíquias não existem apenas em Shakyamuni. Elas devem existir em todas as pessoas, mas parece que não são tão proeminentes quanto nas pessoas de grande virtude e boas ações. Acredita-se que as relíquias de Buda Shakyamuni sejam as mais importantes do mundo.
-
-Um texto budista diz: "A Joia que Realiza os Desejos é a própria relíquia", e também: "A Joia Preciosa é a semente da relíquia". Assim, a relíquia e a Joia que Realiza os Desejos são consideradas uma só. Além disso, diz-se: "A mente de bodhi inerente em nós é a Joia que Realiza os Desejos", e: "É a relíquia de Buda, adamantina, indestrutível e inata". E também se explica: "Esta Joia que Realiza os Desejos é apenas a porta da letra A". A letra A é dita como não-nascida, algo que possuímos naturalmente desde antes de nosso nascimento. E também se ensina: "A virtude da atividade universal é a virtude da união e da geração da Joia que Realiza os Desejos".
-
-Em suma, a Joia que Realiza os Desejos refere-se a algo fundamental que transcende o nascimento e a morte do mundo fenomenal, que é sem começo nem fim e que possuímos inatamente. O que se manifesta em nosso corpo físico é a relíquia. E, como a virtude da união e da geração da Joia que Realiza os Desejos é a fonte da atividade universal, nossa atividade e nossa vida também se devem à virtude da união e da geração da Joia que Realiza os Desejos, segundo a interpretação mística do budismo esotérico Shingon.
-
-Agora, ao compararmos essa interpretação do budismo esotérico com a relação entre a Joia que Realiza os Desejos do Mestre Jikan e a esfera que ele possui em seu abdômen, descrita anteriormente, descobrimos, para nossa surpresa, um princípio e um sistema idênticos e inseparáveis.
-
-Em outras palavras, o poder espiritual gerador é concedido da Joia que Realiza os Desejos — que é a mente de bodhi inerente de Kannon Bosatsu e a fonte da atividade universal — à joia-relíquia manifestada no corpo físico do Mestre Jikan. E a possibilidade de o Mestre, por sua vez, compartilhar esse poder de sua joia com outros é uma consequência lógica que deve ser naturalmente admitida, a menos que se negue a interpretação do budismo esotérico.
-
-Observando por essa perspectiva, a relação entre o Mestre e a Joia que Realiza os Desejos, que até então parecia extremamente difícil de compreender, bem como o poder espiritual de cura que dela emana, tornam-se claros como o dia.
-
-#### III. A Visão do Mestre Jikan sobre a Transição do Mundo Espiritual, que merece ser ouvida
-
-Cristo disse: "O Reino dos Céus está próximo", profetizando a aproximação do Reino dos Céus, mas não declarou que o construiria. Shakyamuni, após sua iluminação, pensou que a verdade que havia compreendido era uma lei extremamente rara e de difícil compreensão e, temendo que os seres vivos não a entendessem se a pregasse, considerou entrar no Nirvana. Tudo isso porque o tempo ainda não havia chegado. Assim como no mundo fenomênico há a alternância de dia e noite, no Mundo Espiritual também ocorre a alternância de dia e noite — embora muito raramente, ao longo de muitos anos. O Mundo Espiritual, que até então era noite, começou a se tornar gradualmente dia a partir de 15 de junho de 1931. O dia é o mundo do sol, e a noite é o mundo da lua. O mundo do sol é o mundo governado pelos deuses, e o mundo da lua é o mundo governado pelos budas. Agora, estamos entrando no mundo de Deus, e a era em que o poder de Deus pode ser plenamente manifestado está amadurecendo. Em breve, o justo subjugará o injusto, o bem vencerá o mal, e infortúnios como doença, pobreza e conflito desaparecerão gradualmente do mundo, e surgirá um Paraíso Terrestre pacífico e cheio de felicidade. Eu recebi a missão de construir esse Paraíso Terrestre, diz o Mestre Jikan. É uma declaração verdadeiramente surpreendente e grandiosa.
-
-É totalmente impossível para aqueles com pouca capacidade espiritual interpretar completamente esta grande declaração. No entanto, se considerarmos o mundo fenomênico, a teoria do átomo indivisível e do materialismo onipotente, que dominou o mundo por mais de duzentos anos, foi completamente derrubada pela ciência moderna. Com a descoberta de que o fundamento do universo não é a matéria, mas o espírito, uma grande revolução na visão de mundo está prestes a ocorrer.
-
-Por outro lado, a fabricação da bomba atômica causou uma sensação sem precedentes na história do mundo, e a voz que abomina a guerra e anseia pela paz enche o mundo inteiro. Planos para abrir o caminho para a paz mundial estão sendo promovidos de todos os ângulos.
-
-Além disso, em relação à doença, o maior sofrimento da humanidade, a cura espiritual se expandiu pelo mundo e está prestes a suplantar a terapia física. O que esses vários fenômenos significam? A pesquisa espiritual deixou claro que o Mundo Espiritual e o mundo físico são, em última análise, as duas faces de um mesmo escudo, em uma relação inseparável. Portanto, não seria inadequado ver os fenômenos acima, que agitam o mundo fenomênico, como tendo uma relação intrínseca com a transição do Mundo Espiritual. Ao ouvirmos a declaração do Mestre Jikan, raciocinando a partir desse significado e imaginando uma grande transição no Mundo Espiritual, há muito o que nos é sugerido.
-
-#### IV. A Visão Artística Espiritual do Mestre Jikan
-
-Como já mencionei, o Mestre Jikan está construindo protótipos do Paraíso Terrestre em Atami e em Gora, Hakone. Ele diz que tudo, desde a escolha do local até os mínimos detalhes do projeto, é guiado pela vontade divina, e que ele simplesmente se move de acordo com essa ordem, sem aplicar qualquer trabalho de sua autoria. E cada um dos locais escolhidos, seja por sua atmosfera de um reino de fadas recluso e sereno, ou por sua vista panorâmica que abrange a beleza de montanhas e águas, ou pela combinação de uma floresta densa e árvores de cedro e cipreste imponentes, ou pela beleza natural de suas ondulações, longas e curtas, deixa quem o vê em estado de êxtase. É um grande mistério que tal escolha seja feita com tanta facilidade, como que por acaso, sem qualquer trabalho próprio, e não se pode deixar de pensar que é pela orientação do Mundo Espiritual, ou seja, pela vontade divina.
-
-Quanto ao projeto e às instalações, diz-se que o Mestre age de acordo com o que lhe vem naturalmente à mente, sem seguir as instruções de ninguém, e que tudo está em harmonia com as direções, e sua precisão e engenhosidade deixam os especialistas boquiabertos.
-
-O Mestre diz: "A obra de Deus é o ápice da grande arte, a grande harmonia da verdade, do bem e do belo". Portanto, parece que ele acredita que, ao incorporar a vontade divina, a verdade, o bem e o belo brotam abundantemente do fundo de seu coração, e tanto seus pensamentos quanto suas ações se tornam arte. Em última análise, sua visão se baseia na ideia de que religião e arte são as duas faces de uma mesma moeda, que não há arte separada da religião e que o ápice da arte é a religião.
-
-#### V. O Mestre Jikan e sua Sucessão de Milagres
-
-Como já mencionei, o fato de o Mestre Jikan estar manifestando uma capacidade espiritual milagrosa na cura de doenças é comprovado pela fé de quase duzentas mil pessoas curadas em todo o país. A cura espiritual não é um fenômeno raro, tanto no Japão quanto no exterior, desde a época de Cristo, e os pesquisadores espirituais avançados de hoje também reconhecem sua possibilidade. No entanto, no que diz respeito à grandeza da capacidade de cura, o Mestre Jikan brilha com um esplendor radiante. Além disso, o Mestre não se limita a manifestar sua própria grandiosa capacidade de cura, mas também permite que muitos de seus discípulos manifestem sua capacidade espiritual, fazendo com que eles curem muitos doentes graves. Esta é, de fato, uma capacidade espiritual única, sem igual ao longo da história, tanto no Oriente quanto no Ocidente, e é o que mais merece atenção. Ou seja, ao conceder-lhes a caligrafia com o ideograma "Hikari" (Luz), de seu próprio punho, e quando os discípulos a carregam consigo ao tratar da cura de terceiros, eles manifestam a capacidade de cura. Tal exemplo é, provavelmente, sem paralelo no mundo.
-
-O Mestre Jikan explica isso dizendo que a capacidade espiritual que ele recebeu de Kannon Bosatsu é transmitida a seus discípulos através de seu braço e da caligrafia. Não se deveria ver essa capacidade espiritual excepcional como o maior dos milagres?
-
-Além disso, não se pode deixar de se surpreender com a quantidade e a notoriedade dos milagres do Mestre Jikan. A imagem de Kannon apareceu em suas costas e foi vista por pessoas com vidência espiritual. Essa imagem também apareceu em suas fotografias, e, de fato, até mesmo a imagem de um Dragão Dourado apareceu em suas fotos. (Essas fotografias estão atualmente em posse do Mestre.) Diz-se que o Deus Dragão Dourado é a divindade guardiã de Kannon Bosatsu.
-
-Desde 1926, o Mestre tem a sensação de que Kannon Bosatsu está constantemente com ele e o guia incessantemente. Ele tem a convicção de que Kannon o usa como um instrumento para a tarefa de salvação de todos os seres. Além disso, como já mencionado, a construção do Paraíso Terrestre também é fruto da inspiração de Kannon, e os protótipos do Paraíso Terrestre atualmente em andamento seguem sua vontade e são executados de acordo com ela. Ele diz que tudo, desde a escolha do terreno, o projeto, a construção e os custos, flui naturalmente e se manifesta naturalmente. Tais fatos misteriosos e incompreensíveis, do ponto de vista da ciência espiritual, só podem ser vistos como a obra do espírito guardião do Mestre — o espírito que o guia do Mundo Espiritual. Assim como a grande façanha de Joana d'Arc, que, sendo uma jovem senhora, conseguiu comandar três exércitos, reverter a situação desfavorável de seu lado e derrotar um inimigo poderoso, foi, na verdade, resultado do apoio do Mundo Espiritual. Compreendendo este fato, fica claro que, ao receber o poder de um espírito elevado, pode-se realizar grandes feitos, que as pessoas comuns nem sonhariam, e com facilidade. Portanto, o fato de o Mestre Jikan estar realizando grandes obras com serenidade parece ser mais apropriadamente interpretado como sendo devido ao poder de um espírito elevado (o poder de Deus e dos Budas).
-
-Em suma, os milagres do Mestre Jikan são numerosos demais para serem contados. No entanto, como eles já foram publicados em seu próprio livro, "Histórias de Milagres", e em várias outras publicações da organização, omitiremos aqui. Mas a iluminação e os milagres são inseparáveis, e a profundidade da iluminação pode ser conhecida pela quantidade e pela notoriedade dos milagres. Portanto, os fatos acima são suficientes para provar quão profunda é a iluminação do Mestre.
-
-Sobre o ápice de sua iluminação, o Mestre permanece em silêncio, dizendo que ainda não é o momento de anunciá-lo.
-
-Eventualmente, será anunciado, e não é difícil imaginar que, quando o anúncio for feito, causará uma grande comoção no mundo. Resta-nos apenas esperar com grande expectativa.
-
-*Da Coletânea Jikan, Volume 13*
-*Os Seis Grandes Místicos do Mundo*
-*Publicado em 5 de dezembro de 1949*
-*Formato B6, 79 páginas, distribuição interna*
-*Autor: Sueo Takao*
-*Editor: Morinosuke Koizumi*
-*Editora: Nihon Gorokunana Kyo*
+Watanabe Masaru
+Vice-presidente da Associação de Divulgação da Agricultura Natural
+
+O princípio da Agricultura Natural consiste em manifestar o magnífico poder do solo. Com efeito, todas as coisas na Grande Natureza são geradas e desenvolvidas pelos três elementos primordiais: Fogo, Água e Terra. Sendo assim, para que as culturas agrícolas recebam esses três elementos em abundância, basta garantir-lhes boa insolação, permitir que absorvam água suficientemente e purificar o solo. Ao seguir essa lógica de clareza meridiana, qualquer lavoura, por meio de sua própria força vital e das bênçãos da Grande Natureza, atingirá a plenitude em seu vigor e frutificação.
+
+A agricultura convencional, contudo, ignora o poder da Grande Natureza e menospreza a função primordial do solo, a matriz de onde brotam os cultivos. O equívoco fundamental reside, em especial, na concepção errônea de que os adubos são a fonte de nutrição das plantas. Tal fato é amplamente comprovado pelo esgotamento da produtividade agrícola, resultado de anos de uso indiscriminado de adubos químicos e excrementos humanos, práticas que denotam uma total ausência de amor pelo solo. A falácia intrínseca aos métodos de cultivo com adubação se torna, portanto, manifesta.
+
+As deficiências da agricultura vigente são ainda mais profundas. O círculo vicioso gerado pela aplicação de adubos químicos, excrementos humanos e outros fertilizantes debilita as plantas durante seu crescimento, diminuindo sua resistência às intempéries, como ventos, chuvas e frio, e tornando-as mais suscetíveis a doenças e pragas. Em consequência, ano após ano, os agricultores se veem diante da triste realidade da quebra de safra.
+
+A Agricultura Natural foi preconizada por seu Fundador com o nobre propósito de renovar a agricultura japonesa, que se encontrava em um impasse, e, por meio dela, promover o bem-estar da humanidade. Com uma história de já dez anos, seus praticantes se espalham por todo o país. A força da Agricultura Natural reside no fato de que, uma vez compreendido e aplicado seu princípio, o aumento da produção é garantido desde o primeiro ano, como atestam os resultados concretos obtidos em diversas regiões do Japão.
+
+Este livro, centrado na rizicultura e intitulado “A Rizicultura em Doze Meses”, foi elaborado com um triplo objetivo: auxiliar os praticantes a obterem colheitas ainda mais abundantes; servir como um guia cordial para os inexperientes; e, por fim, esclarecer aqueles que, por não compreenderem o princípio da Agricultura Natural ou por abrigarem dúvidas quanto à sua eficácia, ainda hesitam em adotá-la.
+
+É preciso apenas atentar para um ponto: as técnicas de rizicultura podem exigir pequenas adaptações conforme as condições do terreno. Recomenda-se, portanto, que o leitor estude e pondere cuidadosamente sobre esse aspecto, dedicando-se a uma leitura atenta e reflexiva desta obra e aplicando seus ensinamentos com fidelidade.
+
+Janeiro de 1955
+
+### Os Três Princípios da Agricultura Natural
+
+#### Um: Adubos e Agrotóxicos
+1.  Não utilizar adubos químicos de qualquer espécie.
+2.  Não utilizar composto orgânico, esterco de estábulo, excrementos humanos, dejetos de aves ou quaisquer outros tipos de excremento.
+3.  Não utilizar trevo, capim, cinzas de madeira ou palha, terra queimada e similares.
+4.  Não utilizar qualquer outro produto empregado como fertilizante artificial.
+5.  Não utilizar desinfetantes ou quaisquer outros agrotóxicos.
+
+#### Dois: O Solo
+1.  A Agricultura Natural é o método de cultivo que se baseia na lei da Grande Natureza, expressa nos elementos Fogo, Água e Terra.
+2.  O solo é o próprio adubo; basta, portanto, mantê-lo puro.
+3.  Aumentar o volume de solo (terra cultivável).
+4.  Ao realizar a aração profunda pela primeira vez, é imprescindível fazer a adição de solo novo.
+
+#### Três: Sementes e Mudas
+1.  Utilizar sementes puras, que não tenham absorvido as toxinas dos adubos em safras passadas. Caso não seja possível obter sementes isentas dessas toxinas, deve-se plantá-las sucessivamente na mesma área de cultivo, ano após ano, para purificá-las.
+2.  Qualquer variedade de semente pode ser utilizada, mas é preferível evitar as provenientes de locais muito distantes.
+3.  As mudas devem ser cultivadas de modo que se tornem grossas, curtas, firmes e sadias.
+
+A Agricultura Natural exige a observância rigorosa destes três princípios.
+
+### Atividades de Dezembro
+
+#### Um: Preparo do Solo
+1.  Na Agricultura Natural, o solo é a própria vida; portanto, seu preparo é o fator mais importante.
+2.  O preparo para a aração deve ser iniciado logo após a colheita do arroz. Como regra, a palha não deve ser utilizada.
+3.  Em solos pouco coesos ou em solos areno-argilosos que se compactam facilmente, pode-se usar uma pequena quantidade de palha.
+4.  Em terrenos recém-abertos para cultivo, em regiões de clima frio ou em outras circunstâncias em que seja necessário, pode-se espalhar sobre toda a superfície, durante este mês, palha cortada no menor comprimento possível. Mesmo nesses casos, a medida de cinquenta *kan* por *tan* é considerada a mais adequada.
+5.  Ao utilizar a palha, é ainda melhor aplicá-la após ter gerado calor, de modo a favorecer a ação do intemperismo.
+    (Atenção) O uso de palha próximo à época do transplante das mudas resultará, invariavelmente, em fracasso.
+6.  Em campos que já receberam aração profunda e adição de solo novo, basta arar a uma profundidade de seis a sete *sun* e destorroar a terra.
+7.  Jamais se deve amontoar, no campo de arroz, a terra destinada à adição ou a palha, pois isso impede a respiração do solo e favorece o surgimento de doenças e pragas. Tampouco se deve queimar palha no campo.
+8.  Campos que necessitam de elevação do nível do solo:
+    (1) Arrozais recém-formados.
+    (2) Campos cuja camada de terra arável, sendo muito rasa, foi aumentada de uma só vez.
+    (3) Campos onde o perfilhamento é extremamente difícil.
+    (Nota) Como preparar a terra para a elevação do nível do solo:
+    - Revolver a mistura após três ou quatro meses para utilizá-la.
+    - Cortar a palha em pedaços de aproximadamente cinco *bu*.
+9.  Ao converter um campo de cultivo seco em arrozal, deve-se adicionar cerca de cinco mil *kan* de terra de montanha (solo coletado a uma profundidade de três *shaku* abaixo da superfície).
+    (Atenção) Realizar a aração profunda com inversão de camadas de terra a partir de março (após o período mais frio do inverno) levará ao fracasso.
+
+#### Dois: Aração Profunda
+1.  Ao realizar a aração profunda, deve-se esforçar para revolver completamente a camada de base (a camada com toxinas dos adubos, com cerca de um *sun* e meio a dois ou três *sun* de espessura) — aumentando em aproximadamente 50% a profundidade do solo já cultivado.
+2.  Ao arar, o solo do fundo deve ser, invariavelmente, depositado sobre a camada de cultivo.
+3.  Durante o inverno, deve-se promover o destorroamento e a exposição do solo de fundo ao intemperismo, visando à purificação das toxinas dos adubos.
+4.  Nunca se deve aprofundar a aração de uma só vez. Em solos com camada de cultivo rasa, pode-se levar de dois a três anos para atingir a profundidade de um *shaku*.
+5.  Quanto à retenção de água em arrozais submetidos à aração profunda, a inundação do campo resolverá qualquer problema.
+    (Atenção)
+    (1) No primeiro ano de prática, expor uma quantidade excessiva de solo novo na superfície pode levar ao fracasso.
+    (2) Se, após a aração profunda, o destorroamento for negligenciado, as toxinas dos adubos permanecerão no solo, resultando em fracasso.
+
+#### Três: Adição de Solo Novo
+1.  O objetivo da adição de solo novo é neutralizar as toxinas dos adubos; a quantidade de três mil *kan* por *tan* é considerada adequada.
+2.  Caso a aração profunda tenha sido tardia ou não tenha sido possível realizá-la a tempo, a adição de mil a dois mil *kan* de solo novo eliminará, já no primeiro ano, o problema do declínio de outono e dos danos por doenças e pragas.
+3.  Se a aração profunda foi realizada no primeiro ano, é imprescindível adicionar cerca de três mil *kan* de solo novo.
+4.  Para a adição, deve-se utilizar terra isenta de toxinas dos adubos. No caso de terra de montanha, deve-se remover a camada superficial e utilizar o solo subjacente. Se possível, a argila vermelha é preferível.
+5.  A adição pode ser feita a qualquer momento até o início do plantio na primavera. Contudo, em campos que não produziram uma colheita satisfatória no ano anterior, a adição de solo novo garantirá o sucesso.
+6.  Em pântanos ou solos turfosos com profundidade superior a sete ou oito *sun*, o mais indicado é não realizar a aração profunda, mas sim adicionar de quatro a cinco mil *kan* de solo novo.
+
+### Atividades de Janeiro
+
+#### Um: Preparo do Canteiro em Solo Não Nivelado
+1.  Aguardar um período em que o campo para o canteiro esteja seco. Sem arar o solo, que permanece como ficou após a colheita do ano anterior, cortar os restolhos de arroz rente à superfície do campo.
+2.  Fazer um canteiro de quatro *shaku* de largura e um sulco de um *shaku* de largura. Para demarcar o canteiro, é útil usar uma foice velha para traçar as linhas.
+3.  Sobre o canteiro de quatro *shaku*, espalhar uniformemente palha cortada em pedaços de um *bu*, sem sobrepô-los.
+4.  Retirar a terra do sulco de um *shaku* até uma profundidade de quatro *sun* e depositá-la sobre a palha no canteiro de quatro *shaku* (pois o solo superficial é puro).
+5.  Quando a terra retirada do sulco secar, destorroá-la finamente. Realizar a manutenção periódica para evitar o crescimento de ervas daninhas até a época da semeadura.
+
+#### Dois: Preparo da Terra de Cobertura
+1.  Preparar terra isenta de toxinas (de preferência, terra de montanha) para a cobertura após a semeadura no canteiro, na proporção de seis *kan* por *tsubo*. Cuidar para que a terra esteja finamente destorroada até a época da semeadura.
+2.  É recomendável coletar e preparar a terra de cobertura por volta de julho ou agosto do ano anterior.
+3.  É preciso estar atento ao fato de que alguns tipos de solo endurecem com a chuva, enquanto outros se desfazem.
+    (Atenção)
+    (1) Fazer o canteiro em solo não nivelado após uma aração profunda levará ao fracasso.
+    (2) Utilizar terra com torrões para a cobertura prejudicará o perfilhamento e resultará em fracasso.
+
+### Atividades de Fevereiro e Março
+
+#### Um: Purificação do Solo
+1.  Após a aração, para promover uma purificação ainda mais completa do solo, é recomendável revolvê-lo novamente. Essa prática é especialmente indicada para campos com alta concentração de toxinas dos adubos.
+2.  Mesmo nos locais onde a aração está atrasada, deve-se esforçar para concluí-la, impreterivelmente, até o final de fevereiro. No caso de aração profunda no primeiro ano, é benéfico revolver o solo enquanto ele ainda está congelado, para intensificar a ação do intemperismo.
+3.  Em arrozais submetidos à aração profunda, especialmente em terrenos com má retenção de água, deve-se ter o cuidado de acumular neve ou água da chuva previamente, para que o solo fique bem umedecido.
+4.  Aproveitando um período de tempo seco, destorroar finamente a terra revolvida, cuidando para favorecer a ação do intemperismo e impedir o crescimento de ervas daninhas.
+5.  Se a camada de toxinas dos adubos for muito espessa, o ideal é arar e destorroar o solo duas ou três vezes durante este período.
+6.  Após a aração profunda, se possível, inundar o campo com água corrente (inundação artificial) trará resultados ainda melhores.
+7.  Aqueles que iniciarem a prática deste método tardiamente devem dar especial atenção à adição de solo novo e à exposição ao intemperismo.
+    (Atenção) Negligenciar a exposição ao intemperismo e o destorroamento após a aração profunda resultará em fracasso.
+
+### Atividades de Abril
+
+#### Um: Definição da Época de Semeadura
+1.  Conhecendo as características da variedade, considera-se um bom método de cultivo semear as variedades precoces um pouco mais cedo, mantê-las no canteiro por cinquenta a sessenta dias, e programar a emissão das espigas para sessenta dias após o transplante.
+2.  Se não houver um intervalo de sessenta dias entre o transplante e a emissão das espigas, o número de colmos (perfilhamento) será reduzido. É bom definir a época de semeadura levando esse ponto em consideração.
+
+#### Dois: Conclusão do Preparo do Canteiro
+Nivelar a superfície do canteiro já preparado (onde a camada superficial de terra foi destorroada) e verificar sua área. Um canteiro de quatro *shaku* de largura por nove *shaku* de comprimento corresponde a um *tsubo*. Para uma área de um *tan*, preparar um canteiro de dez *tsubo*.
+
+#### Três: Imersão das Sementes com Casca
+Mergulhar as sementes em água corrente e limpa (água de rio) até que se tornem translúcidas.
+
+#### Quatro: Semeadura
+1.  A semeadura é realizada entre o final de abril e o início de maio. Seja com uma semeadora em linha ou manualmente, deve-se executar o trabalho com calma e precisão.
+2.  A quantidade de sementes recomendada é de três *gō* por *tan* (três *shaku* por *tsubo*). Se houver receio de que seja insuficiente, basta aumentar um pouco a área do canteiro. A forma ideal de realizar o canteiro em solo não nivelado é como ilustrado na figura acima.
+3.  Após a semeadura, cobrir com a terra de montanha previamente preparada (seis a sete *kan* por *tsubo*).
+4.  O objetivo da cobertura de terra é evitar o crescimento de ervas daninhas e impedir que as sementes sejam comidas por pássaros.
+5.  O benefício do canteiro em solo não nivelado é que as mudas crescem sadias e livres de doenças.
+
+#### Cinco: Canteiro Convencional
+1.  Quando for difícil fazer o canteiro em solo não nivelado e se optar pelo método tradicional, deve-se semear o mais ralo possível e deixar as mudas no canteiro pelo maior tempo possível, a fim de obter mudas fortes.
+2.  Mesmo no caso do canteiro convencional, a medida de cinco *shaku* por *tsubo* é considerada adequada, sendo preferível que a semeadura seja mais rala.
+3.  Em regiões onde o canteiro protegido é indispensável, após a germinação, é importante expor gradualmente as mudas ao vento frio, não as mantendo protegidas por muito tempo, para que se tornem resistentes ao frio.
+    (Atenção) Para evitar que os pardais comam as sementes durante a germinação, é bom espalhar uma pequena quantidade de casca de arroz sobre a terra de cobertura.
+
+### Atividades de Maio e Junho
+
+1.  Após a semeadura, manter o canteiro com água em nível profundo. Quando as sementes germinarem e não houver mais risco de serem comidas por pássaros, basta manter a água nos sulcos, sem que ela atinja o leito das mudas.
+2.  No canteiro em solo não nivelado, se o desenvolvimento das mudas parecer lento, pode-se estimular o perfilhamento revolvendo o solo uma vez entre as mudas com uma pequena tábua na qual se pregaram três pregos de um *sun*.
+3.  Quando as mudas estiverem prestes a ultrapassar cinco ou seis perfilhos, cerca de quinze dias antes do transplante, deve-se cortar uma única linha entre as touceiras com uma foice para interromper imediatamente o perfilhamento.
+4.  Para retirar as mudas, inundar o canteiro com água em nível profundo. É melhor não lavar completamente a terra das raízes.
+
+#### Dois: Preparo do Campo Principal
+1.  Verificar cuidadosamente se há vazamentos de água e, caso encontre algum ponto defeituoso, refazer e reparar as taipas.
+2.  Até quatro ou cinco dias antes do transplante, nivelar o campo com esmero para não formar elevações ou depressões.
+3.  Após inundar o campo, é melhor não amassar excessivamente o solo. Amassá-lo faz com que ele rache mais facilmente ao secar.
+4.  Em campos com má retenção de água, é bom compactar o fundo argiloso.
+5.  Solos pouco coesos (que não se transformaram em lama) se beneficiam de uma leve compactação.
+
+#### Três: Transplante
+1.  Utilizar mudas fortes, plantando uma por cova. As mudas que permaneceram por mais tempo no canteiro têm mais vigor e certamente irão perfilhar.
+2.  O número máximo ideal de perfilhos por *tsubo* é de seiscentos a setecentos, até mil.
+    (Atenção) Um perfilhamento superior a mil colmos tende a reduzir a colheita.
+3.  Em locais onde a camada de solo arável é inferior a quatro *sun* ou em terrenos com pouca insolação, o espaçamento entre as covas pode ser ajustado conforme a necessidade, mas o plantio de uma única muda por cova sempre produzirá melhores resultados.
+4.  O espaçamento normal entre as covas é de um *shaku* por um *shaku* e dois *sun*. Onde a camada de solo arável for superior a cinco *sun*, a atividade do solo é facilitada e a influência da temperatura é menor; portanto, deve-se ampliar o espaçamento tanto quanto possível.
+5.  Plantar as mudas superficialmente, com amor, para não danificar as raízes.
+6.  Considera-se ideal utilizar mudas com três a seis perfilhos.
+    (Atenção) Utilizar mudas com mais de seis perfilhos resultará em fracasso.
+◎ (O plantio direto está atualmente em estudo pelo departamento de orientação.)
+
+#### Quatro: Irrigação Após o Transplante
+Após o transplante, é bom manter o campo constantemente irrigado com uma lâmina de água rasa.
+
+### Atividades de Julho, Agosto e Setembro
+
+#### Um: Capina e Irrigação
+1.  A primeira capina deve ser feita com um ancinho de ferro (*gandzume*), revolvendo o solo profundamente entre as linhas, até dez dias após o transplante. Na segunda capina, deve-se trabalhar no sentido oposto, a uma profundidade de cerca de dois *sun*.
+2.  A segunda capina deve ser realizada cerca de uma semana após a primeira, removendo as ervas daninhas próximas à base das plantas e amontoando terra.
+3.  Realizar a terceira capina até o final de julho. Nesta etapa, deve-se remover a terra da base das plantas para que até as menores ervas daninhas possam ser retiradas.
+4.  Se o perfilhamento for insuficiente, pode-se realizar também uma quarta capina.
+5.  A secagem do campo no meio do verão também é desnecessária. Durante esse período, deve-se dar atenção especial à irrigação, evitando que o solo rache.
+6.  Como o período de emissão das espigas ocorre entre o final de agosto e o início de setembro, não se deve entrar no arrozal nessa época.
+7.  É inevitável que o campo seque devido à falta de água em geral. (Contudo, se após a drenagem houver um período de seca, irrigar o campo continuamente até a colheita, cerca de uma semana depois, fará com que os grãos amadureçam sem falhas, com um ganho de aproximadamente oito *shō* por *tan* a cada irrigação.)
+
+#### Dois: Época da Drenagem
+1.  O momento ideal para a drenagem é após a fase de grão leitoso, quando a semente com casca começa a endurecer.
+2.  Em períodos de forte insolação, se houver risco de o solo rachar, é melhor manter o campo inundado.
+
+#### Três: Preparativos para o Próximo Ano
+◎ Aqueles que pretendem fazer o canteiro em solo não nivelado devem garantir a terra de cobertura durante este mês.
+
+### Atividades de Outubro e Novembro
+
+#### Um: Coleta de Sementes
+1.  Quanto mais antigo o histórico de cultivo natural em um solo livre de toxinas dos adubos, onde o arroz cresceu sadio, melhor. Se os grãos tiverem amadurecido de forma bela e uniforme, será perfeito.
+2.  Não utilizar sementes de plantas que sofreram com doenças, pragas ou declínio de outono.
+3.  Qualquer variedade da vizinhança pode ser utilizada.
+4.  É altamente recomendável utilizar sementes do mesmo campo.
+5.  Em áreas de arrozais de água salgada, é bom escolher sementes da mesma região, se possível.
+6.  O ideal é selecionar cerca de três das espigas mais longas, excluindo a panícula principal.
+7.  Em uma mesma touceira, coletar a metade superior das espigas que estiverem uniformes.
+8.  O melhor momento para a coleta é quando os grãos não estão totalmente maduros, mas com cerca de 70% de sua coloração final (para evitar grãos trincados).
+9.  Secar as sementes coletadas à sombra e armazená-las.
+
+#### Dois: Método de Armazenamento das Sementes com Casca
+[Referência]
+1.  Para guardar as sementes, confeccionar pequenos sacos de palha.
+2.  O ideal é que haja um espaço de cerca de três *sun* entre o saco de palha e a caixa.
+3.  A caixa pode ser simples, com frestas.
+4.  Guardar em local sombreado, longe da luz solar.
+
+Interessados em aprofundar seus estudos sobre este método agrícola, favor contatar a Sede Central da Associação de Divulgação da Agricultura Natural.
+
+*A Rizicultura em Doze Meses*
+Publicado em 1º de janeiro de 1955
+Sede Central da Associação de Divulgação da Agricultura Natural
+Sakimi-cho, Atami
+
+Autor:
+Watanabe Masaru
+Vice-presidente da Associação de Divulgação da Agricultura Natural
+
+Editor:
+Fujii Yodo
+Editora Shizen Nouhou
+
+Gráfica:
+Gráfica Koyama Kogyo Co., Ltd.
+Telefone: Honjo (63) 5868
+
+Casa Editora:
+Editora Shizen Nouhou
+1-9 Morishita-cho, Koto-ku, Tóquio
 
 ---
 

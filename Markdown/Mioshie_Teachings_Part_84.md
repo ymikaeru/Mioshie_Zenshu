@@ -1,9 +1,821 @@
 # Mioshie_Teachings - Part 84
 
+# O Problema da Tuberculose e sua Solução (Reedição)
+
+**Categoria:** sasshi | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** -
+**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1943-05-05
+**Coletânea:** - | **Fonte (JP):** -
+
+## O Problema da Tuberculose e sua Solução (Reedição)
+
+### Introdução
+
+Dentre as questões tratadas com máxima prioridade na política nacional de nosso país, destaca-se o problema da tuberculose. A importância deste assunto é por demais manifesta para que se façam necessárias maiores explicações. Sinto, pois, que se puder, por meio da publicação dos resultados obtidos em minhas pesquisas, contribuir, ainda que modestamente, para a política de nossa nação, não haverá felicidade maior.
+
+O governo, demonstrando profundo interesse por essa questão, elaborou recentemente um projeto intitulado “Diretrizes para as Medidas contra a Tuberculose”. Por meio dele, conclamou as autoridades no assunto a se empenharem em sua erradicação completa, com o intuito de solucionar o problema dos recursos humanos — o mais crucial para a plena realização da Grande Guerra da Ásia Oriental. Tal medida visa não apenas assegurar a prosperidade eterna do Estado, mas também dissipar a desonra de o Japão ser conhecido como uma nação de tuberculosos no advento da era em que os oito cantos do mundo se unirão sob um mesmo teto. Para a consecução de tal objetivo, a cooperação de todo o povo é, naturalmente, indispensável, constituindo-se em uma questão da mais alta urgência.
+
+Todavia, as diretrizes propostas baseiam-se inteiramente na teoria e nos métodos da medicina ocidental. Considerando a estrutura da cultura moderna, tal abordagem é natural e, a princípio, isenta de críticas. Ademais, parece que as nações civilizadas do Ocidente conseguiram reduzir drasticamente a incidência da tuberculose em seus respectivos territórios por meio da medicina moderna, de modo que se torna mais do que justificável que nosso plano tenha sido elaborado tomando-as por modelo.
+
+Contudo, após vinte anos de pesquisa, desenvolvendo um método próprio, desvinculado da medicina ocidental, descobri que a causa fundamental da doença reside em um fator inesperado. Concomitantemente, logrei aperfeiçoar tanto um método para a cura completa quanto um método de imunização, obtendo assim a convicção de que o problema da tuberculose pode ser inteiramente solucionado. Percebi, nesse processo, que a teoria da medicina ocidental sobre a tuberculose é a tal ponto equivocada que seus métodos não apenas são desprovidos de qualquer efeito na erradicação da doença, mas, na verdade, produzem o efeito reverso de aumentá-la. Os fatos, por si, são mais eloquentes que qualquer argumento; bastará, portanto, observar a evolução da tuberculose em nosso país daqui para a frente. Contrariando todas as expectativas, a doença continuará a crescer gradualmente, até que chegará o tempo em que tanto o governo quanto os especialistas se encontrarão em um estado de perplexidade, sem saber o que fazer. Que esse dia virá é uma certeza mais clara que a luz do dia.
+
+Entretanto, sinto que não é preciso esperar por esse momento de desconcerto, pois ele já se faz presente.
+
+Com a mais profunda reverência, recordo que, no décimo quarto ano da era Showa, Sua Majestade a Imperatriz, em Sua benevolente consideração pela erradicação da tuberculose, dignou-se a conceder uma vultosa soma de Seu tesouro pessoal. Naquela ocasião, o governo e o povo, em uníssono, juraram corresponder à Vontade Imperial, estabelecendo a Associação de Prevenção da Tuberculose e instituindo diversas medidas, fatos que ainda estão vívidos em nossa memória. Desde então, é de se supor que os responsáveis pelo assunto tenham se empenhado com o máximo afinco. Seria lógico, portanto, que já se houvessem colhido alguns resultados positivos. Se, porventura, a situação atual for pior do que a daquela época, é inegável que a causa reside ou na negligência ou em políticas equivocadas, o que representaria uma afronta à nobre Vontade Imperial. Se assim for, creio que seria justo que os responsáveis assumissem, com temor e tremor, a devida responsabilidade.
+
+Contudo, como leais súditos do Japão, é inconcebível que tenha havido tais erros ou negligência. O mais provável é que, apesar de terem envidado seus maiores esforços, até o esgotamento, não conseguiram obter os resultados esperados. Se esta é a realidade, não é preciso dizer que a causa reside no fato de que as medidas baseadas na medicina ocidental partiram de um erro fundamental.
+
+Este pequeno volume é uma compilação de trechos de minha obra, “Ashita no Ijutsu”, que tratam da tuberculose. Como o problema da tuberculose está indissociavelmente ligado ao problema populacional, decidi incluir também os escritos pertinentes a este último. Embora a obra original contenha estatísticas sobre a dinâmica populacional e a incidência da tuberculose, optei por omiti-las aqui para evitar que o texto se tornasse prolixo.
+
+As estatísticas mais recentes disponíveis são as do décimo quarto ano da era Showa (1939). Nesse ano, o número de óbitos por tuberculose foi de 154.371, o que corresponde a uma proporção superior a vinte e uma mortes para cada dez mil habitantes. Entre os jovens de quinze a vinte e nove anos, a tuberculose foi responsável por mais de quarenta e cinco por cento de todos os óbitos, uma taxa alarmantemente alta. Todavia, como é comum que óbitos por tuberculose sejam registrados sob outras causas, pode-se imaginar que o número real seja duas ou até três vezes maior. As autoridades estimam o número de doentes em cerca de dez vezes o número de mortos, ou seja, em torno de um milhão e meio. Certamente, esse número se refere a casos de tuberculose aberta; logo, é de se supor que o número de casos latentes ou suspeitos seja várias vezes superior a essa cifra. E, na medicina moderna, penso que é mais comum que os casos suspeitos evoluam para a forma aberta do que retornem à saúde.
+
+Ademais, o problema da tuberculose não é recente. É fato notório que, há muito tempo, tanto o governo quanto a sociedade civil têm se dedicado a encontrar contramedidas e a se esforçar por sua erradicação. Se essas medidas fossem adequadas, seria de se esperar, no mínimo, algum grau de eficácia, seja na contenção da doença, seja em uma leve melhora do quadro. E, no entanto, a situação se agrava a cada ano que passa, tendo chegado a um ponto em que o otimismo já não é mais possível. Este é um fato que exige profunda reflexão. É evidente que as medidas adotadas até hoje foram, no mínimo, inadequadas. Portanto, a chave para a solução reside na reflexão e na investigação sobre quais pontos foram inadequados.
+
+Contudo, em vez de qualquer reflexão, o que se pretende é intensificar e expandir justamente os métodos que se provaram inadequados. Se as recém-propostas “Diretrizes para as Medidas contra a Tuberculose” consistem nisso, pode-se prever que, quanto mais o tempo passar, piores serão os resultados.
+
+As autoridades, entretanto, afirmam que as novas diretrizes são consideravelmente diferentes das anteriores. A diferença, segundo elas, é que, enquanto antes se acreditava que bastava deixar a questão a cargo dos médicos, agora se exige a cooperação de cada indivíduo. Em outras palavras, pretende-se adotar também todos os métodos não médicos. Por essa declaração, pode-se depreender que, em certa medida, despertaram para o fato de que os métodos médicos tradicionais foram um fracasso.
+
+Vejamos outro dado: por volta do trigésimo quinto ou trigésimo sexto ano da era Meiji, a proporção de jovens em idade de alistamento militar com pleurisia era de dois para cada cem. No décimo segundo ano da era Showa, esse número saltou para vinte e quatro em cada cem, um aumento de doze vezes. Ao compararmos o avanço da medicina, da higiene social e do conhecimento sobre higiene pessoal entre essas duas épocas, não há dúvida de que o décimo segundo ano da era Showa representa um progresso considerável. Olhando por esse prisma, é impossível não questionar o progresso da medicina. Por mais que aparente ter avançado em seus aspectos externos, ela não pode se dissociar da realidade.
+
+Por mais que a descoberta de germes, o desenvolvimento de equipamentos e as teorias avancem, se a condição física da nação se deteriora, o crescimento populacional declina e a tuberculose e toda sorte de doenças se alastram, isso é a prova de que a teoria e a realidade não coincidem. Portanto, a chave para a solução deste problema reside em descobrir onde se oculta a causa fundamental dessa discrepância. E como logrei êxito em descobrir essa chave, pretendo revelá-la por meio deste pequeno volume.
+
+## Da Primeira Parte de ‘Ashita no Ijutsu’: Excerto da Introdução
+
+O ponto central desta obra é o problema populacional. O declínio na taxa de crescimento das nações civilizadas é um fato que, em última análise, aponta para o destino da extinção. Segundo as estimativas do senhor Burgdörfer, renomado demógrafo alemão, por volta do ano 2050, ou seja, daqui a aproximadamente 110 anos, a população da Alemanha terá se reduzido a 25 milhões de pessoas. Em comparação com os 67 milhões de habitantes de hoje, isso representa uma drástica redução para quase dois quintos do total. Outrossim, de acordo com um estudo da senhora Enid Charles, do Reino Unido, se as taxas de natalidade e mortalidade continuarem a diminuir no mesmo ritmo, a população britânica, hoje em torno de 46 milhões, cairá para menos de um décimo desse valor em cem anos, chegando a 4,4 milhões.
+
+Qual seria, então, a projeção para o nosso Japão? Segundo os cálculos do Dr. Tomonaga Nakagawa, uma autoridade em estatística de nosso país, a população de 73.939.278 pessoas, registrada no décimo quinto ano da era Showa, continuará a crescer no ritmo atual, atingindo o pico de 122.774.777 no septuagésimo quinto ano da mesma era. A partir daí, começará a declinar, chegando a 115.546.586 vinte anos depois, no nonagésimo quinto ano da era Showa. Com base nesses cálculos, a Alemanha se verá reduzida a meros 1,6 milhão de habitantes em 550 anos; o Reino Unido, a 440 mil em 200 anos; e o Japão chegará a zero em quatrocentos ou quinhentos anos.
+
+Considerando que essas projeções se baseiam em estatísticas, podemos lhes atribuir considerável credibilidade. Diante de tal problema, quem poderia não ser assaltado pelo terror e pela comoção? Creio que esta grande questão é muitas vezes, quiçá dezenas de vezes, mais grave que a da Esfera de Coprosperidade da Grande Ásia Oriental ou a da Nova Ordem Mundial, e exige uma solução absoluta.
+
+Por que terá surgido este fenômeno aterrador do declínio populacional entre os séculos XIX e XX? Acredito que esse estranho fenômeno não existia antes do século XVIII. Pois, se tivesse começado em alguma era anterior, as nações civilizadas já teriam sido extintas ou estariam à beira da extinção nos dias de hoje.
+
+Qual é, então, a verdadeira natureza deste enigma do século XX, o declínio populacional? Leitor, não se espante: a causa é o próprio progresso da medicina. Ah, em toda a história, terá havido problema mais inesperado e desconcertante que este?
+
+Embora eu tenha apresentado estatísticas que indicam a extinção total das nações civilizadas em trezentos, quatrocentos ou quinhentos anos, a meu ver, a realidade é que dificilmente sobreviverão por mais de duzentos ou trezentos anos. Se a causa é o “efeito reverso do progresso da medicina”, é lógico supor que, à medida que a medicina avance ainda mais, os resultados serão piores do que os previstos com base no nível atual da medicina.
+
+Qual é, então, o significado desse “efeito reverso”? Foi o grande anseio de elucidar completamente esta questão, de fundar uma verdadeira arte médica japonesa e de salvar as incontáveis almas da humanidade que se encaminham para a extinção, que deu origem a esta obra.
+
+## O Problema Populacional
+
+Em todas as nações civilizadas do mundo de hoje, o problema que atrai maior interesse e atenção é, sem dúvida, o problema populacional, pois ele constitui a base da ascensão e queda dos povos. A afirmação de Adam Smith de que a riqueza e a força de uma nação dependem de seu “poder de crescimento populacional” é uma verdade absoluta. O brado de Mussolini ao povo italiano — “Aumentai ao máximo a taxa de natalidade e reduzi ao mínimo a taxa de mortalidade!” — não tinha outro significado.
+
+O fato de o problema populacional ter adquirido uma importância tão crucial é um fenômeno que remonta ao século XIX. Naturalmente, antes do século XVIII, nenhum país possuía estatísticas completas, de modo que não há como saber os números exatos. Contudo, embora uma nação ou um povo possa ter sofrido um declínio populacional temporário devido a guerras ou desastres naturais, o fenômeno atual, em que todas as nações civilizadas, sem exceção das não civilizadas, apresentam uma queda na taxa de crescimento populacional, é algo sem precedentes. Se uma tendência de declínio populacional como a de hoje tivesse começado séculos atrás, o florescimento das nações civilizadas que vemos atualmente seria, muito provavelmente, impossível. Mais do que isso, elas já teriam sido extintas ou estariam em um estado de mera subsistência, como o povo Ainu. Consequentemente, o esplêndido desenvolvimento cultural que hoje presenciamos não teria ocorrido.
+
+Diante desse problema, a primeira questão que devemos levantar é a seguinte: se a queda na taxa de crescimento populacional começou no início do século XIX, deve ter havido algum método especial, inexistente antes do século XVIII, que foi aplicado a toda a população das nações civilizadas em um período não muito anterior a esse início. Devemos, portanto, buscar esse “certo método” e desvendar sua natureza. É evidente que, para ser aplicado a toda a população das nações civilizadas, esse método deve ter sido considerado, sem sombra de dúvida, benéfico. Contudo, mesmo algo tido como benéfico pode, após anos ou décadas de resultados positivos, reverter-se e tornar-se prejudicial ao longo de um período ainda mais extenso. A fraqueza humana, no entanto, é tal que, uma vez que se acredita em algo como benéfico, mesmo que surjam fenômenos negativos, a forte ideia preconcebida os anula, e a pessoa não se dá conta do erro. É o mesmo que ocorre com aqueles que, uma vez iludidos por uma doutrina herética, mesmo após a farsa ser exposta, apegam-se a ideias preconcebidas e, com justificativas ilógicas, persistem em sua fé cega.
+
+A descoberta desse “certo método” é a chave para a solução deste grande problema. Qual seria, então, esse enigmático “certo método”? Antes de desvendar este mistério, apresentemos a tendência da dinâmica populacional em nosso Japão e nas diversas nações do mundo.
+
+-- Estatísticas omitidas. --
+
+Ao analisarmos a dinâmica populacional do Japão e das demais nações, torna-se evidente que a queda na taxa de crescimento já se tornou uma regra de ferro, sem exceção em nenhum país. Como contramedida, as políticas adotadas até hoje, e que continuam em vigor, são bem conhecidas. Para aumentar a taxa de natalidade, as medidas principais são a redução da idade para o casamento e a proibição da contracepção e do aborto. Em nosso país, em particular, busca-se reduzir as altas taxas de mortalidade por tuberculose e mortalidade infantil. Outras políticas incluem a prevenção da concentração populacional nas cidades, ou seja, a redistribuição da população, a exaltação da consciência nacional e a reafirmação do sistema familiar.
+
+Contudo, estou convencido de que todas essas medidas, por serem superficiais e não atacarem a raiz do problema, podem ter algum efeito limitado, mas jamais serão capazes de reverter a tendência geral. É desnecessário dizer que todo efeito tem uma causa. Naturalmente, o declínio da taxa de crescimento populacional não foge a essa lei; portanto, não pode haver uma solução fundamental que não seja descobrir e remover sua causa. O fato de que essa causa não foi descoberta por ninguém até hoje foi, por si só, uma causa secundária.
+
+No próximo tópico, exporei essa causa — o enigma mencionado no início.
+
+## A Questão do Declínio da Taxa de Crescimento Populacional
+
+Com base nas estatísticas apresentadas, creio que a tendência atual do problema populacional no Japão e no mundo já foi compreendida. Em resumo, tudo se resume a dois pontos:
+
+1.  Na Europa, o declínio da taxa de crescimento começou a partir de meados do século XIX; no Japão, a partir do décimo ano da era Taisho.
+2.  A redução da taxa de mortalidade e a redução da taxa de crescimento ocorrem em paralelo.
+
+Como causa do primeiro ponto, afirmo categoricamente que se trata da “vacinação contra a varíola”, algo que a humanidade considera como uma salvação.
+
+Como é de conhecimento geral, a vacinação foi descoberta por Edward Jenner, que nasceu em Berkeley, na Inglaterra, em 1749, e faleceu em 1823. Filho de um clérigo, obteve sua licença médica em Londres em 1792. Por volta de 1770, soube-se que as jovens gregas, ao inserirem uma agulha nas pústulas de doentes com varíola e inocularem o pus em sua própria pele, contraíam uma forma leve da doença e se livravam da forma grave. Mais tarde, descobriu-se que a varíola bovina poderia substituir a humana. Em 14 de maio de 1796, Jenner inoculou a varíola bovina no braço de seu próprio filho para confirmar seu sucesso e, em 1798, finalmente publicou seu método de vacinação.
+
+Em nosso país, a primeira vacina chegou no segundo ano da era Kaei (1849). Posteriormente, no quinto ano da era Ansei (1858), foi inaugurado o Instituto de Vacinação em Otamagaike, Kanda, e também o Instituto de Medicina Ocidental, mais tarde renomeado para Instituto de Medicina, que se tornou a atual Faculdade de Medicina da Universidade Imperial. No início da era Meiji, Sensai Nagayo, retornando da Europa, transmitiu o método de cultivo da vacina utilizando novilhas. Em seguida, no sétimo ano da era Meiji, foi estabelecido em Bakurocho, Tóquio, o Posto de Cultivo da Vacina Bovina. Posteriormente, o Instituto de Doenças Infecciosas passou a produzir a vacina, e a inoculação da varíola bovina na população em geral para obter imunidade à varíola natural tornou-se prática comum.
+
+Aqui, devo esclarecer que, na medicina, “imunidade” parece significar “não desenvolver a doença”. Contudo, se aprofundarmos o pensamento, a seguinte teoria se estabelece: não desenvolver a doença pode significar que a toxina da varíola foi eliminada e desapareceu, ou que, mesmo com a presença da toxina, a doença não se manifesta por algum motivo. A razão é que os seres humanos, desde o nascimento, possuem toxinas hereditárias congênitas, como as da varíola, do sarampo, da coqueluche, entre outras. A toxina da varíola, em particular, é temida por sua natureza maligna. A manifestação da varíola é um processo de purificação natural do corpo humano. Ou seja, a toxina da varíola, em seu movimento para ser expelida, acumula-se sob a pele em todo o corpo, sendo pressionada de dentro para fora. Esse processo, que se apresenta como erupções cutâneas, onde cada pústula se rompe e expele pus, é o que chamamos de doença da varíola. A febre que a acompanha é uma ação de dissolução natural para facilitar a eliminação da toxina. Portanto, ao observarmos as pústulas, qualquer um pode compreender essa lógica. A transmissão, por conseguinte, é uma providência da natureza que induz e acelera esse processo de purificação. Por essa razão, a doença da varíola é uma “ação de eliminação de uma toxina violenta”, e é por meio dela que a saúde humana é mantida.
+
+A vacinação, no entanto, suprime essa ação de eliminação da toxina da varíola (doravante abreviada como “toxina variólica”). Ela enfraquece a força purificadora. Em outras palavras, transforma o estado “positivo” em “negativo”. Essa toxina variólica negativada, ou seja, a toxina latente da varíola, perde sua força de expulsão e permanece no corpo.
+
+E qual é a ação dessa toxina latente que permanece no corpo? Ela se torna a causa da tuberculose, da miopia, de doenças renais, da amigdalite, de afecções na cabeça e de inúmeras outras enfermidades. Além disso, a presença da toxina latente da varíola debilita as funções de todo o corpo, promovendo um declínio geral da condição física e uma redução da taxa de fertilidade feminina. Esta é a verdadeira causa primordial do surgimento do problema populacional.
+
+Isso se evidencia de forma clara nas estatísticas populacionais. Na Europa, o declínio começou após a descoberta da vacinação. Como mostram os dados, a França foi a primeira, manifestando os sinais de queda na taxa de crescimento trinta a quarenta anos após a descoberta da vacinação, enquanto a Inglaterra e a Alemanha os apresentaram após cerca de setenta a oitenta anos. Em nosso país, de forma quase idêntica à Europa, os primeiros sinais começaram a aparecer aproximadamente cinquenta a sessenta anos após a implementação da vacinação em massa.
+
+Vejamos outro exemplo. A taxa de natalidade de 40 por mil entre os chineses, cujo conhecimento médico e de higiene social é incompleto, deve-se, sem dúvida, ao fato de não praticarem a vacinação. Outros exemplos incluem o fato de o vencedor da maratona na 11ª Olimpíada, Sohn Kee-chung, ser um peninsular; no Campeonato de Educação Física do Japão do ano passado, os primeiro e segundo lugares no levantamento de peso terem sido conquistados por peninsulares; e, na corrida de revezamento de Fukuoka a Osaka, também no ano passado, a equipe vencedora ter sido a de coreanos e taiwaneses. A surpreendente força e resistência dos cúlis da Manchúria, apesar de sua alimentação extremamente pobre e da falta de higiene, são provas irrefutáveis da robustez física e da tenacidade dos povos não vacinados. Seria desejável uma investigação ainda mais aprofundada para comparar as notáveis diferenças entre os povos vacinados e os não vacinados. Se a situação atual persistir, o que acontecerá? A disparidade entre a força dos povos aumentará cada vez mais, e quem poderá negar que virá uma era terrível em que as nações civilizadas caminharão para a extinção enquanto as não civilizadas prosperarão?
+
+Expliquemos agora como a toxina latente da varíola se tornou a causa de todas as doenças. Por meio disso, ficará claro o quão equivocada tem sido a medicina até hoje em sua compreensão da origem das enfermidades. Para tanto, comecemos por explicar o que é a doença.
+
+## A Verdadeira Causa da Doença
+
+Talvez não haja questão que tenha atormentado tanto a mente humana ao longo da história quanto a pergunta: “O que é a doença?”. Quantos milhares de sábios em todo o mundo não dedicaram suas vidas a decifrar este enigma? E, no entanto, até hoje, ele permanece sem solução. As respostas que se julgaram ter encontrado até agora vão desde o desequilíbrio dos cinco órgãos e seis vísceras na medicina chinesa até a teoria da degeneração celular de Virchow na medicina ocidental, passando pela descoberta das bactérias por Koch na Alemanha e Pasteur na França. A medicina atual foi construída sobre essas bases. Portanto, todas as teorias, sem exceção, consideram a “doença como algo que destrói a saúde e ameaça a vida”. As religiões, por sua vez, a veem como uma advertência divina ou um castigo pelos pecados e impurezas. Consequentemente, a doença tem sido vista como algo a ser lamentado, temido e amaldiçoado.
+
+Minha teoria, contudo, é exatamente o oposto: “A doença é a maior bênção que Deus concede ao ser humano, e é por meio dela que a saúde é mantida e a vida, prolongada”. Portanto, o homem deve oferecer a mais profunda gratidão pela doença. Em outras palavras, a doença é um processo fisiológico natural. Ao lerem tal afirmação, imagino que não conseguirão conter o espanto diante de algo tão inesperado. Explicarei, então, em detalhes e em ordem, os fundamentos dessa teoria.
+
+Desde que o ser humano nasce neste mundo, ele carrega consigo diversas toxinas hereditárias, sendo a principal a toxina da varíola. Como a presença dessas toxinas impede a manutenção de uma saúde perfeita, o corpo foi criado para realizar um processo de purificação natural contínuo, a fim de expeli-las. Quando esse processo de purificação ocorre, ele é acompanhado de certo grau de sofrimento, e a esse sofrimento deu-se o nome de doença. Para ilustrar, tomemos como exemplo a doença mais comum, o resfriado, pois não há quem não a tenha experimentado. Embora sua causa seja considerada desconhecida pela medicina, segundo o que descobri, trata-se de um dos mais simples processos de purificação.
+
+Quando se contrai um resfriado, surgem sintomas como febre, dor de cabeça, tosse, coriza, expectoração, perda de apetite, fadiga geral e dores nos membros. Isso ocorre porque as toxinas acumuladas em diversas partes do corpo durante o primeiro processo de purificação, que ocorre continuamente, iniciaram uma atividade para serem eliminadas através de um segundo processo de purificação.
+
+Aqui, é necessário explicar o que é o processo de purificação. O processo de purificação consiste na acumulação e solidificação gradual de substâncias impuras do corpo, como a toxina variólica, a toxina urêmica e as toxinas medicamentosas, em locais específicos. Onde se acumulam? Principalmente em áreas onde os nervos são mais utilizados, cujos detalhes explicarei mais adiante. De todo modo, é a manifestação da ação de eliminação dessas toxinas solidificadas que dá início à doença.
+
+O processo de purificação pode ser dividido em dois tipos. O primeiro processo de purificação é a acumulação e solidificação das toxinas em locais específicos do corpo. O segundo processo de purificação é a eliminação para fora do corpo das toxinas uma vez solidificadas. No primeiro caso, como o sofrimento ainda não é intenso, não se considera uma doença. A rigidez nos ombros ou no pescoço é um exemplo disso. Em seguida, inicia-se o processo de dissolução dessa rigidez — e isso é o resfriado. A crença popular de que a rigidez nos ombros causa resfriados se baseia nesse princípio.
+
+Conforme explicado, a febre é a ação de dissolução que facilita a eliminação das toxinas solidificadas. As toxinas dissolvidas e liquefeitas são a coriza e a expectoração, que também podem se manifestar como suor, urina ou diarreia. Contudo, mesmo em estado líquido, se a toxina for muito concentrada, sua eliminação se torna difícil, o que desencadeia uma ação de sucção: o espirro e a tosse. O espirro age como uma bomba para sugar a coriza, e a tosse, para sugar a expectoração. Isso fica evidente pelo fato de que, após um espirro, a coriza flui, e após a tosse, a expectoração é expelida. A perda de apetite deve-se à febre, à expectoração e ao uso de medicamentos. As dores ocorrem porque as toxinas acumuladas no local se dissolvem, transformam-se em toxinas líquidas e, ao se moverem para serem eliminadas, estimulam os nervos. A dor de garganta é causada pela toxina contida na expectoração, que, ao tocar a mucosa, a irrita e provoca uma inflamação catarral. A rouquidão também se deve a essa inflamação catarral nas cordas vocais e na mucosa, que impede o funcionamento adequado da válvula de fonação. A dor de cabeça é a irritação causada pela ação de eliminação das toxinas líquidas do pescoço ou da cabeça, dissolvidas pela febre.
+
+Sendo o resfriado isso, se o deixarmos seguir seu curso sem qualquer tratamento ou medicação, o processo de purificação ocorrerá sem percalços, e a cura completa se dará em pouco tempo. O fato de o processo de purificação ocorrer tão facilmente no resfriado é, na verdade, uma bênção divina. Por essa razão, a cada resfriado, a quantidade de toxinas diminui. Se curarmos os resfriados de forma natural, o próximo será invariavelmente mais leve, e o intervalo entre eles se prolongará gradualmente, até que finalmente deixemos de contraí-los. Isso ocorre porque, sem toxinas, não há mais necessidade de resfriados. Ao atingir esse estágio, mesmo que se contraia um resfriado ocasionalmente, por se tratar de uma toxina leve, quase não haverá febre, apenas um pouco de coriza e expectoração, e pode-se dizer que não há outros sofrimentos. Assim, a cura ocorre sem que se perceba, enquanto se continua com as atividades diárias.
+
+Todavia, todas as teorias médicas até hoje sustentam o oposto. O resfriado é temido como se fosse o prelúdio de uma doença grave. Desde a antiguidade se diz que “o resfriado é a origem de todas as doenças”, e hoje ele é temido como a porta de entrada para a tuberculose. Contudo, segundo a lógica que expliquei, a verdade é que o resfriado é “a causa para se evitar todas as doenças” e “o método para não se contrair tuberculose”. Portanto, contrair um resfriado é, na verdade, motivo de alegria. “Fazer por contrair resfriados” é a primeira e mais importante condição para a promoção da saúde.
+
+Desconhecendo essa verdade, todas as terapias até hoje, por temerem o resfriado e considerarem erroneamente o sofrimento que ele causa como uma ação maléfica a ser suprimida, acabam por interromper esse valioso processo de purificação. O principal método para isso é o uso de medicamentos. Originalmente, os medicamentos são todos toxinas. Como disse um grande mestre da medicina chinesa antiga: “Todos os medicamentos são venenos. Portanto, curar doenças com medicamentos é combater veneno com veneno”. Uma verdade absoluta.
+
+Ou seja, o uso de uma substância venenosa chamada medicamento enfraquece as funções do corpo. Com as funções enfraquecidas, o processo de purificação é interrompido. A aplicação de gelo também interrompe o processo de purificação, aliviando a febre e a dor. Os emplastros têm efeito semelhante. O corpo humano respira não apenas pelas narinas, mas também pelos capilares da pele. O emplastro interrompe essa respiração, enfraquecendo o processo de purificação na área e aliviando a dor.
+
+Todos esses métodos suprimem e interrompem o processo de purificação. Com isso, a dor diminui, os sintomas da doença se reduzem e, momentaneamente, surge um estado aparente de cura. No entanto, não se trata de uma cura verdadeira, em que as toxinas foram eliminadas. O que ocorre é que as toxinas, que haviam iniciado o processo de purificação, são novamente solidificadas, retornando ao “estado anterior ao início da purificação”. Consequentemente, com o tempo, o processo de purificação se manifestará novamente, e a pessoa contrairá outro resfriado, que será novamente interrompido, e assim sucessivamente. É fato conhecido que há muitas pessoas no mundo que vivem nesse ciclo. O problema é que, a cada vez, as toxinas dos medicamentos são adicionadas, aumentando a quantidade de toxinas a serem purificadas. É natural, portanto, que os resfriados se tornem gradualmente mais malignos, resultando em doenças como a pneumonia.
+
+A pneumonia, em sua essência, é um processo de purificação intenso, podendo ser considerada uma forma grave de resfriado. Como explicado, por se suprimir o resfriado, que é um pequeno processo de purificação, as toxinas se acumulam e aumentam a cada vez, manifestando-se de uma só vez como uma grande purificação reativa.
+
+Sendo a medicina atual partida de um erro fundamental, é lógico que, quanto mais ela avança, mais doentes surgem e mais a condição física da população se deteriora. Portanto, o progresso da medicina não é um progresso que cura doenças, mas sim um “progresso que não cura doenças”. O declínio na taxa de crescimento populacional também tem como causa principal a diminuição da fertilidade feminina, fato reconhecido pelos estudiosos. A mortalidade infantil e o aumento da tuberculose também se devem, evidentemente, aos equívocos da medicina atual.
+
+A seguir, a questão do declínio da taxa de crescimento populacional e da redução da taxa de mortalidade ocorrerem em paralelo. Qual a razão disso? A razão é a seguinte.
+
+Afirma-se que a diminuição gradual de doenças infecciosas e da tuberculose pulmonar nos países civilizados da Europa se deve ao avanço da higiene social. Contudo, essa é apenas uma parte da razão, não a razão completa. É claro que a perfeição das instalações sanitárias teve algum efeito, mas a causa fundamental é o declínio da força física. Dizer que as doenças infecciosas diminuem porque a força física declinou pode parecer muito estranho, mas a realidade é esta: doenças infecciosas e a tuberculose, em sua essência, são manifestações de um processo de purificação intenso devido a uma força física vigorosa. Portanto, em um povo cuja força física declinou, um processo de purificação intenso não pode ocorrer. A alta incidência de doenças infecciosas entre o povo chinês não se deve tanto ao seu descaso com a higiene, mas sim à sua grande força física.
+
+Desenvolvendo essa lógica, chegamos ao seguinte. Para facilitar a compreensão, dividamos as pessoas em três tipos. O primeiro tipo é o de pessoas completamente saudáveis e sem toxinas, para as quais é natural que não surjam doenças. O segundo tipo (que constitui a maioria) é o de pessoas com toxinas e com grande força física, o que facilita a ocorrência do processo de purificação. O terceiro tipo é o de pessoas que, embora tenham toxinas, possuem uma força física tão fraca que o processo de purificação não pode ocorrer, ou, se ocorre, é muito fraco. Nestas pessoas, o processo pode ser desencadeado se a força física aumentar um pouco, por exemplo, através de exercícios. Por isso, elas logo recorrem a medicamentos e repouso, retornando ao estado anterior e recuperando-se temporariamente. Essas pessoas se esforçam para evitar o excesso de trabalho.
+
+A medicina atual, por desconhecer essa lógica, busca transformar as pessoas do segundo tipo no terceiro. Prova disso são as crianças das cidades e os filhos de médicos, ou seja, aqueles que têm mais contato com a medicina, que são os mais frágeis. O grande número de intelectuais pálidos que seguem fielmente as teorias da medicina e higiene atuais também é uma evidência. É verdade que melhorar as pessoas do segundo tipo para o primeiro é impossível para a medicina moderna.
+
+E qual a razão da morte? Desde a antiguidade, acredita-se que as pessoas morrem de doença, mas, na verdade, a morte por doença é extremamente rara. A maioria morre porque suprime a doença. Como explicado repetidamente, ao se aplicar métodos de supressão ao processo de purificação, as toxinas não são eliminadas e retornam, e a elas se somam as toxinas dos medicamentos. A repetição do confronto entre o processo de purificação e a ação de supressão aumenta a debilidade, até que finalmente se perde a vida.
+
+Outra razão é que, nas nações civilizadas, as instalações médicas são completas, de modo que, ao surgimento da doença, o tratamento médico é aplicado imediatamente. Como explicado, isso interrompe a purificação e adiciona toxinas medicamentosas, debilitando a condição física. Já as nações não civilizadas, ao adoecerem, na maioria das vezes deixam a doença seguir seu curso natural, permitindo que o processo de purificação ocorra completamente. Essa é a causa de sua grande força física.
+
+Consequentemente, a força física das nações civilizadas declina. Com o declínio, o processo de purificação se torna fraco, e as oportunidades de adoecer diminuem. Com menos doenças, a taxa de mortalidade é baixa. Em contrapartida, na época em que as nações civilizadas de hoje ainda tinham um processo de purificação vigoroso, as oportunidades de adoecer eram muitas. Com muitas doenças, recebiam tratamento médico. Como o tratamento médico é contraproducente, a taxa de mortalidade era alta. Essa é a verdadeira causa de a taxa de mortalidade ser alta em épocas de grande força física e alta taxa de natalidade.
+
+Contudo, não se pode negar que a medicina moderna tem méritos consideráveis. O problema é que seus erros, que são muitas vezes maiores que seus méritos, tornaram-se a causa do problema populacional e de outros. Examinemos agora, de todos os ângulos, o quão surpreendentes e terríveis são esses erros.
+
+A solução para o problema do declínio da condição física reside, sem dúvida, na abolição da vacinação contra a varíola, que é sua causa fundamental, e na resolução da questão da toxina variólica resultante. No entanto, abolir a vacinação imediatamente seria impossível. Por outro lado, continuar como está também não dificulta a solução. O que se deve fazer é adotar um método de redução gradual. Ou seja, primeiro, cortar a fonte do problema com a proibição de medicamentos e, através de nosso tratamento, purificar o sangue das pessoas. Com isso, a doença da varíola será completamente solucionada.
+
+## Tuberculose Pulmonar
+
+-- Estatísticas omitidas. --
+
+Ao observarmos a tendência atual desta doença no Japão, percebemos a gravidade da situação.
+
+Leitor, por que a tuberculose pulmonar está aumentando tanto? Segundo o que descobri, a causa também reside nos erros da medicina moderna. As próprias medidas de prevenção da tuberculose da medicina moderna estão tendo o efeito reverso de aumentar a doença. Falando sem rodeios, todos os métodos da medicina moderna visam ao alívio temporário do sofrimento, e não se percebe que esses métodos de alívio se tornam, com o tempo, a causa do agravamento da doença. Daí o nome “tratamento sintomático”, que, imagino, significa tratar os sintomas que aparecem externamente, sem tocar na causa fundamental.
+
+Hoje, os pacientes diagnosticados com tuberculose pulmonar pelos médicos, especialmente os em estágio inicial, não têm qualquer anormalidade nos pulmões. Pode-se dizer que a maioria desses casos é um erro de diagnóstico.
+
+Os métodos de diagnóstico atuais da medicina incluem a ausculta de estertores (sons de bolhas), a reação de Mantoux, a velocidade de hemossedimentação, o exame microscópico do escarro para bacilos de Koch e a radiografia. Os sintomas incluem febre persistente, tosse, expectoração, escarro com sangue, hemoptise, emagrecimento, suores noturnos, distúrbios gastrointestinais e sensação de fadiga. Vejamos cada um deles.
+
+Como detalhado no tópico “A Verdadeira Causa da Doença”, como resultado da supressão dos resfriados, as toxinas variólicas, urêmicas e medicamentosas acumulam-se e se solidificam gradualmente em diversas partes do corpo. Onde são essas partes? Embora seja em todo o corpo, há locais mais ou menos definidos: ao redor do pescoço, especialmente perto do bulbo raquidiano esquerdo; na região dos gânglios linfáticos do pescoço; nos ombros direito e esquerdo (especialmente o esquerdo); nas axilas direita e esquerda; na inserção dos braços; em toda ou parte das costelas e suas proximidades; na borda inferior dos diafragmas direito e esquerdo; da região do estômago ao peritônio; nos gânglios linfáticos da virilha (especialmente à direita); na borda inferior das omoplatas direita e esquerda (especialmente a esquerda); em ambos os lados da medula espinhal e na região dos rins, nas costas. Em minha experiência no tratamento de muitos pacientes com tuberculose, a maioria apresenta acúmulo de toxinas na região dos rins, nas costas, e no peritônio, especialmente ao redor do umbigo. Isso causa febre, tosse, perda de apetite, fadiga, etc., e o tratamento desses locais alivia muito os sintomas da tuberculose pulmonar. Por aí se vê que muitos pacientes diagnosticados pelos médicos como tuberculosos são, na verdade, portadores de nefrite crônica e peritonite supurativa crônica. Parece que os médicos não conseguem detectar esse acúmulo de toxinas na região dos rins e do peritônio.
+
+Ademais, quando as toxinas solidificadas dessa peritonite supurativa crônica se dissolvem devido à febre e causam diarreia persistente, o diagnóstico médico é de tuberculose intestinal.
+
+As toxinas acumuladas nesses vários locais podem estar em dois ou três pontos nos casos leves, mas nos casos graves podem se estender a todas as áreas. Naturalmente, a febre do segundo processo de purificação é o primeiro passo. Com ela, as toxinas acumuladas se dissolvem, transformam-se em expectoração e são expelidas pela tosse. Nesse processo, a expectoração passa necessariamente pelos pulmões e é expelida pela traqueia em direção à garganta. Se deixado ao curso natural, a toxina líquida, ou seja, a expectoração, passará pelos pulmões sem problemas e será eliminada. No entanto, ao passar pelos pulmões, a expectoração fica temporariamente retida nos alvéolos, aguardando a ação de sucção da tosse. O som que se ouve nesse momento são os estertores. É claro que, nesse caso, não há nenhuma anormalidade nos próprios pulmões. Contudo, com base nesses sintomas, o médico suspeita de uma doença pulmonar e, após vários exames com equipamentos, firma o diagnóstico. O problema é o tratamento que se segue.
+
+Como já disse várias vezes, todo tratamento médico é uma supressão do processo de purificação. Assim, a expectoração, que estava prestes a ser eliminada ao passar pelos pulmões, tem seu ímpeto frustrado e acaba ficando retida dentro dos pulmões.
+
+O tratamento médico, em primeiro lugar, recomenda repouso absoluto. Não há nada que enfraqueça mais o sistema gastrointestinal do que o repouso absoluto. Pense bem: mesmo uma pessoa saudável, se mantiver repouso absoluto por um mês, terá, em primeiro lugar, seu sistema gastrointestinal adormecido e ficará enfraquecida em todo o corpo. Isso é óbvio. Em seguida, administram-se medicamentos por via oral ou injetável. Sendo eles também toxinas, aceleram o enfraquecimento. Além disso, sob o pretexto de nutrição, incentiva-se a ingestão de carne de peixe, aves e outros animais, e de alimentos processados. Isso também enfraquece os órgãos internos (a teoria da nutrição alimentar será detalhada em outra parte). Recomenda-se a terapia do ar puro, que tem algum efeito, mas este é anulado pelos outros métodos equivocados. Recentemente, a helioterapia em sanatórios também é recomendada, mas ela tem um benefício e um malefício. Originalmente, o ser humano faz exercícios leves dentro de casa, onde não há luz solar direta, e exercícios intensos ao ar livre, sob o sol. Isso é natural. Estar sob o sol exige exercícios intensos, como caminhar ou trabalhar até suar, para se adequar às leis da natureza. Ficar sob o sol mais imóvel do que se ficaria dentro de casa é antinatural e não pode ser bom.
+
+Ao se aplicarem esses vários métodos que, em geral, promovem o enfraquecimento, o processo de purificação é suprimido, e os sintomas da doença diminuem. Não é de se espantar que se pense, erroneamente, que se está no caminho da cura. No entanto, como não é uma cura real, o que se segue é o seguinte.
+
+A expectoração, que deveria ser eliminada ao passar pelos pulmões, acaba ficando retida neles porque a tosse, que é a ação de sucção, diminui ou perde a força devido ao enfraquecimento geral do corpo. Além disso, como a expectoração que se segue continua a se infiltrar, ainda que em pequenas quantidades, nos pulmões, a toxina retida aumenta gradualmente de volume, resultando na formação de uma solidificação de expectoração dentro dos pulmões. Isso também se torna a causa da dificuldade respiratória.
+
+A função dos pulmões é absorver a quantidade necessária de ar para o corpo humano através do movimento respiratório. Se uma solidificação se forma nos pulmões, a quantidade de ar absorvida diminui na mesma proporção. Consequentemente, para absorver a quantidade necessária de ar, a respiração deve se tornar mais frequente. Por exemplo, se, de uma necessidade de dez, um obstáculo de dois permite absorver apenas oito, para absorver cem de ar, será necessário respirar doze vezes e meia em vez de dez.
+
+Quando os médicos diagnosticam essa solidificação de expectoração, dão-lhe nomes como tuberculose, gangrena pulmonar ou câncer de pulmão. Este é o curso comum que a maioria dos pacientes com tuberculose percorre. Olhando por esse prisma, vemos que uma pessoa que inicialmente não tinha nenhuma anormalidade nos pulmões, como resultado de um tratamento equivocado, torna-se um verdadeiro paciente tuberculoso e, finalmente, sua vida corre perigo. Portanto, falando sem rodeios, a conclusão é que a medicina moderna está aumentando o número de pacientes com tuberculose.
+
+É verdade que a dificuldade respiratória também pode ter outras causas. Uma delas é quando a solidificação de toxinas nas costelas impede sua contração durante a respiração. Outra, comum em pacientes terminais de tuberculose, é o enfraquecimento extremo do coração devido a uma tosse intensa e frequente e contínua. A respiração ofegante durante a pneumonia infantil causada por sarampo segue a mesma lógica, pois o sarampo se manifesta em todos os alvéolos pulmonares.
+
+Quando um paciente com tuberculose fica sem febre devido ao repouso absoluto, basta um pouco de exercício para que a febre retorne imediatamente. O médico, assustado, proíbe o exercício, mas essa também é uma teoria equivocada e contrária. A ausência de febre deve-se ao enfraquecimento e à interrupção da purificação causados pelo repouso. É natural que o exercício desencadeie o processo de purificação e cause febre.
+
+É por isso que os médicos não dizem que curam a tuberculose, mas que a “solidificam”. Isso todos sabem. No entanto, a verdadeira cura de qualquer doença deve consistir em dissolver e eliminar completamente a toxina solidificada que é a causa da doença, de modo que não reste nenhuma toxina. Quando se cura dessa forma, não importa que tipo de trabalho se faça após a recuperação, a doença jamais retornará. Na medicina moderna, porém, o tratamento é de solidificação. Por isso, mesmo após a cura da tuberculose, teme-se a recidiva, e é impossível retornar ao trabalho por meses ou até anos. Não são poucos os casos trágicos em que um paciente com tuberculose, após seguir diligentemente as instruções do médico por um longo período e finalmente se alegrar com a recuperação, sofre uma recaída repentina e tem que recomeçar tudo do início. Isso é resultado do tratamento de solidificação.
+
+Explicarei agora sobre a infiltração pulmonar. Trata-se de uma doença em que as toxinas acumuladas nas costelas e em suas proximidades se dissolvem com o calor, infiltram-se da pleura para dentro dos pulmões e tentam ser expelidas como expectoração. Se deixado ao seu curso, as toxinas seriam eliminadas sem problemas, e a cura ocorreria. No entanto, tanto o médico quanto o paciente, temendo-a como se fosse o início da tuberculose, aplicam vários tratamentos, ou seja, suprimem o processo de purificação, e assim a doença se torna de difícil tratamento.
+
+A seguir, ao examinar pacientes diagnosticados com catarro apical pulmonar e linfadenite hilar, descobri que a causa é quase sempre a rigidez no pescoço e nos ombros. A rigidez nos ombros, que é o primeiro processo de purificação, ao entrar no segundo processo, causa febre e apresenta sintomas semelhantes aos da doença pulmonar. Nesses casos, também não há nenhuma anormalidade nos pulmões. Se deixado ao seu curso, a toxina se dissolverá, infiltrar-se-á do ápice para dentro dos pulmões, será expelida como expectoração, e a cura ocorrerá. Pode-se pensar que a rigidez nos ombros é exclusiva dos idosos, mas recentemente é muito comum em jovens e até em crianças.
+
+Há outro ponto importante. A teoria médica atual considera o excesso de trabalho como uma das principais causas da tuberculose. A razão seria o enfraquecimento da resistência como resultado do excesso de trabalho. No entanto, essa interpretação é totalmente oposta à verdade. A razão é que o exercício até o ponto de excesso de trabalho desencadeia o processo de purificação. Aqui, é necessário explicar o que é a fadiga. A fadiga é o resultado da febre do processo de purificação que ocorre naturalmente como consequência do exercício. Portanto, a fadiga é boa para a saúde. É, por assim dizer, um método para acelerar o processo de purificação. A própria medicina não recomenda o exercício para a promoção da saúde? No entanto, a medicina fala em exercício moderado, o que provavelmente significa um nível que não desencadeia o processo de purificação. Mas isso tem pouco efeito. Na verdade, o ideal é um nível que desencadeie o processo de purificação. É claro que a febre ocorre porque há toxinas em alguma parte do corpo. Com isso, as toxinas diminuem, o que é bom. Portanto, quanto mais toxinas uma pessoa tem, mais facilmente ela tem febre e se cansa. Por essa razão, ao repetir a sensação de fadiga através do exercício, as toxinas diminuem gradualmente, e a saúde melhora. O que é cômico é a teoria acadêmica que diz que a fadiga é causada pela geração de um tipo de toxina devido ao exercício excessivo.
+
+Por essa lógica, quem tem um processo de purificação vigoroso, ou seja, quem tem febre facilmente e se cansa, é porque tem uma forte resistência. Portanto, se, como diz a teoria médica, as pessoas com baixa resistência são mais propensas à tuberculose, os idosos, que se cansam facilmente, deveriam ser os mais acometidos. No entanto, a realidade é que a juventude, o período de maior vigor, é a mais suscetível. Isso ocorre precisamente porque a juventude é o período em que o processo de purificação é mais vigoroso.
+
+Essa mesma lógica pode ser aplicada à situação atual da Europa. O fato de a tuberculose ser especialmente comum entre os japoneses deve-se a que sua força física ainda é mais vigorosa que a dos brancos, e o processo de purificação ocorre mais facilmente. Como já expliquei várias vezes, os sintomas iniciais da tuberculose são desencadeados pelo processo de purificação. Se é por isso que ela é comum na juventude, então os brancos, devido ao declínio de sua força física, têm um processo de purificação fraco, e a tuberculose não pode ocorrer. A causa disso é que a vacinação contra a varíola foi implementada décadas antes do que no Japão. Em termos simples, os jovens brancos se tornaram como idosos, e os sintomas da tuberculose não podem mais surgir. O caso mais extremo é o da França. Como estão hoje os franceses, que eram tão vigorosos na época de Napoleão? O vigor e a vitalidade da juventude se esgotaram, e eles se encontram em um estado semelhante ao dos idosos, buscando apenas uma vida de conforto e prazer. É fato notório que essa foi a causa da derrota na guerra atual. Felizmente, como o Japão adotou a vacinação mais tarde que a Europa, a força de purificação ainda permanece. Essa é a verdadeira causa da alta incidência de tuberculose no Japão. No entanto, as autoridades, interpretando que a tuberculose diminuiu entre os brancos porque as medidas de prevenção foram eficazes, estão implementando as mesmas medidas da Europa.
+
+Como prova disso, gostaria de fazer uma pergunta aos médicos. Na guerra que estamos travando agora, por que os soldados japoneses, que têm muita tuberculose, são mais fortes que os soldados brancos, que têm pouca? Imagino que não conseguirão dar uma explicação convincente. No entanto, com a teoria que apresentei, a questão se resolve facilmente.
+
+Hoje, entre os brancos, diz-se que os idosos são mais propensos à tuberculose do que os jovens. Isso ocorre porque, como eu digo, a condição física declinou gradualmente devido à vacinação. Os idosos, portanto, foram menos afetados pela vacinação do que os jovens. Assim, se nos alegrarmos com a diminuição gradual da tuberculose e com os resultados ideais obtidos através das políticas médicas ocidentais, é certo que nos tornaremos fracos como os brancos de hoje.
+
+A esse respeito, vejamos um interessante anúncio de um especialista publicado recentemente.
+
+(Teoria e Realidade)
+
+Em 11 de março do décimo oitavo ano da era Showa, o jornal Asahi publicou o seguinte artigo na coluna “Soldados Fortes, Povo Saudável”:
+
+“O Problema da Medicina e da Educação Física — Em busca de soldados fortes e um povo saudável, nossa educação física está sendo reexaminada de todos os ângulos. Quanto mais se aprofunda no problema da educação física, mais se sente a necessidade de uma forte ligação com a medicina. Assim, a educação física e a medicina, finalmente de mãos dadas, avançam para o estabelecimento de um verdadeiro sistema de educação física em nosso país. Ouçamos a seguir as opiniões de ambos os lados.”
+
+A Relação entre Saúde e Tuberculose
+
+(Dr. Hideo Kumabe, Técnico do Sanatório de Nakano, Cidade de Tóquio)
+
+“Com a necessidade premente de garantir e fortalecer os recursos humanos na guerra decisiva da Grande Ásia Oriental, a educação física tradicional, centrada na competição, está sendo criticada e reexaminada de vários ângulos.
+
+Deixemos o exame da educação física pura para os especialistas da área. Ao considerarmos o problema do ponto de vista de nós, que nos dedicamos à medicina, especialmente como especialistas em tuberculose, sentimos que há muitas questões que não podem ser negligenciadas. A maior delas é o problema da tuberculose e da educação física.
+
+Na prática, o maior obstáculo à educação física dos jovens tem sido a tuberculose.
+
+Quantos atletas não sucumbiram à pleurisia ou à tuberculose? E esses atletas eram possuidores de corpos excelentes. Do ponto de vista da nação, seria mais desejável que essas pessoas deixassem muitos descendentes fortes.
+
+O segundo problema é o oposto: o dos chamados frágeis e das crianças frágeis. Onde se concentrou o pensamento sobre esse problema até agora? Não havia uma vaga relação implícita com a tuberculose? No entanto, ironicamente, a medicina prova que quase não há pacientes com tuberculose entre esses chamados frágeis e crianças frágeis.
+
+Do conceito tradicional de fragilidade, a tuberculose deve ser completamente descartada. Não há nenhuma relação entre fragilidade e tuberculose. São essas pessoas que devem ser treinadas de forma científica e racional, mas este é um campo inexplorado, negligenciado tanto por médicos quanto por educadores físicos.
+
+A contradição de, por um lado, possuidores de corpos excelentes sucumbirem à tuberculose e, por outro, pessoas que necessitam de treinamento racional serem abandonadas pela educação física, deriva do fato de a tuberculose ser julgada pela aparência e pela sensação de saúde de cada um.
+
+Ou seja, no que diz respeito à tuberculose, toda aparência não é apenas inconfiável, mas, a menos que a doença avance consideravelmente, não há sintomas subjetivos ou externos. É claro que não há físico ou constituição que não possa contrair tuberculose, e a tuberculose não pode ser prevenida de forma alguma pelo treinamento. No que diz respeito à tuberculose, toda solução só é possível através de métodos científicos adequados.
+
+Selecionar as pessoas que podem suportar o treinamento é tarefa do médico; o educador físico as treina para serem mais fortes e de forma racional. Aqui reside um vasto campo onde médicos e educadores físicos devem cooperar estreitamente no futuro. Nenhum súdito do Imperador deve ser perdido para a educação física, e não deve haver nenhuma pessoa frágil. Este é também o ideal futuro de médicos e educadores físicos.”
+
+Se o que está neste artigo for verdade, penso que ele apresenta um problema verdadeiramente surpreendente. Que ponto é tão importante? É, sem dúvida, o fato de que a maioria dos jovens de nossa nação se enquadra em dois tipos: se são saudáveis, são suspeitos de tuberculose; se são frágeis, são imunes à tuberculose.
+
+Há aqui outro problema importante que não pode ser ignorado. O que é? Até hoje, a teoria acadêmica sustentava que os doentes de tuberculose eram pessoas originalmente frágeis, crianças com constituição linfática, ou que, por alguma razão temporária, sua resistência se enfraquecera, e o bacilo da tuberculose, que já estava latente, aproveitara a oportunidade para se manifestar com virulência explosiva, causando a doença. Isso já se tornara um fato estabelecido na medicina. No entanto, se o que o Sr. Kumabe indica for verdade, a teoria médica até hoje terá que ser completamente revertida, e ligar a educação física à medicina será algo fácil de dizer, mas difícil de fazer. Mas, se por acaso for possível ligá-las, e uma pessoa frágil tiver a sorte de atingir um nível de saúde que suporte a educação física, isso significará, em última análise, que ela se juntou ao grupo dos suspeitos de tuberculose. Assim, ficaremos em um dilema, sem saber o que é certo e o que é errado.
+
+Como já disse várias vezes, o leitor perceberá que este artigo de jornal corrobora bem minha teoria de que a tuberculose é um vigoroso processo de purificação.
+
+Ademais, o que sugere a afirmação no artigo de que “a tuberculose não pode ser prevenida de forma alguma pelo treinamento”? Este é um ponto importante que aqueles que se dedicam à educação física hoje devem considerar seriamente.
+
+O fato de que muitos atletas sucumbem à pleurisia e à tuberculose também exige que se investigue sua causa. Segundo minha análise, quando se pratica continuamente um tipo de esporte, como já expliquei, formam-se solidificações de toxinas nos pontos de concentração nervosa. Quando um processo de purificação ocorre, surgem sintomas como febre, tosse e expectoração. O médico diagnostica como tuberculose e, devido a um tratamento equivocado, a pessoa acaba perdendo a vida.
+
+A pleurisia é causada por contusões no peito ou pelo uso de força ou esforço intenso dos braços.
+
+(Diagnóstico Médico)
+
+Sobre os estertores, já expliquei. Quanto à reação de Mantoux, ou seja, a injeção da solução de tuberculina, segundo a interpretação médica, se a área injetada ficar vermelha, inchada, com bolhas ou úlceras, a reação é positiva, e a pessoa já foi infectada pela tuberculose. Se não houver tais sinais, a reação é negativa. Se a tuberculina for injetada em concentração maior, alguns negativos podem se tornar positivos. Diz-se também que, entre os positivos, há os que já se curaram e os que ainda não. E que, embora os negativos não estejam infectados, podem se infectar em alguma ocasião e se tornar positivos. É, como se vê, extremamente ambíguo.
+
+Na minha interpretação, no entanto, ao se injetar uma substância estranha no sangue, ocorre imediatamente um processo de purificação para eliminar essa substância, o que causa inchaço e vermelhidão na área. É o mesmo princípio da picada de um inseto venenoso ou de uma abelha. Mas examinemos mais detalhadamente. Há duas interpretações para os sintomas após a injeção, tanto para os positivos quanto para os negativos. Entre os positivos, a primeira é que a vermelhidão e o inchaço após a injeção se devem a uma ação de desinfecção por um processo de purificação vigoroso. A segunda é que o aparecimento de bolhas e úlceras se deve ao acúmulo e tentativa de eliminação de toxinas existentes perto do local da injeção, estimuladas pela injeção. Entre os negativos, ou seja, aqueles que não apresentam sintomas após a injeção, também há dois tipos. O primeiro é o de pessoas que, embora possuam toxinas, não manifestam sintomas porque seu processo de purificação é fraco. São os frágeis do terceiro tipo que mencionei. Se a solução for injetada em maior concentração ou repetidamente nessas pessoas, o processo de purificação finalmente se manifesta. O segundo tipo é o de pessoas completamente saudáveis, próximas de não terem toxinas. Nessas pessoas, o processo de purificação é intenso, a força de desinfecção é grande, e não chega a haver inchaço.
+
+Quanto à velocidade de hemossedimentação, se houver toxinas no sangue, ele ficará turvo. Quanto mais toxinas, maior o peso e mais rápida a sedimentação. Portanto, quanto mais turvo o sangue, mais fácil é a ocorrência do processo de purificação, ou seja, da doença.
+
+O bacilo da tuberculose não é absolutamente contagioso. Isso será detalhado no próximo tópico.
+
+A seguir, expliquemos a radiografia. Os médicos diagnosticam tuberculose pulmonar apenas por verem uma sombra na imagem, mas isso é muito precipitado. A razão é que a imagem é plana, e é difícil distinguir entre as toxinas dentro dos pulmões e as de fora, ou seja, nas costelas ou em suas proximidades. Pela minha experiência, nos pacientes em estágio inicial de tuberculose, a toxina que causa a doença está, na maioria dos casos, não dentro dos pulmões, mas fora, ou seja, sob a pele do peito ou das costas, perto das costelas. Há também diferenças entre a toxina variólica, a urêmica e a medicamentosa, que não podem ser distinguidas pela radiografia, mas que podem ser identificadas com precisão pelo método de diagnóstico com a ponta dos dedos que criei.
+
+A hemoptise é muito boa, pois é a eliminação do sangue tóxico através do processo de purificação. A própria medicina afirma que a tuberculose com hemoptise é mais fácil de curar. O local da hemoptise não é fixo. Em muitos casos, o sangue tóxico se acumula em uma parte externa dos pulmões devido ao processo de purificação, ou se infiltra e se acumula dentro dos pulmões. Com a febre, ele se dissolve e ocorre a hemoptise. É preciso notar que, na ocorrência de um derrame cerebral, o sangramento pode ocorrer como hemoptise em vez de no cérebro. Muitos médicos diagnosticam erroneamente isso como hemoptise pulmonar, sem saber que, na verdade, foi assim que o derrame cerebral foi evitado.
+
+Os suores noturnos são o melhor processo de purificação. As toxinas, dissolvidas pelo calor intenso e transformadas em um líquido ralo, são eliminadas pelos capilares da pele. Isso acelera muito a cura. Pela minha experiência, os pacientes com suores noturnos ou que desenvolvem suores noturnos durante o tratamento, sem exceção, têm bons resultados. É o mesmo princípio do resfriado, que melhora com a transpiração e a queda da febre. A medicina, no entanto, considera os suores noturnos como resultado da fadiga e tenta detê-los, mas isso é um erro. Não é por fadiga, mas sim por um processo de purificação vigoroso.
+
+Recentemente, alguns médicos recomendam a pneumotórax. Como se sabe, perfura-se e injeta-se ar na pleura para, com a pressão, interromper temporariamente a atividade dos pulmões e suprimir o processo de purificação. Com isso, as toxinas nos pulmões, que haviam começado a se dissolver, solidificam-se novamente. Os sintomas melhoram um pouco, e isso é erroneamente considerado um efeito positivo. Mas, como os outros tratamentos, é um tipo de terapia de solidificação. O processo de purificação ocorrerá novamente. Portanto, não é uma cura verdadeira, mas apenas um adiamento da cura.
+
+## A Tuberculose Não é Absolutamente Contagiosa
+
+Hoje, a tuberculose é extremamente temida por ser considerada contagiosa. Por isso, várias medidas são tomadas, cuja complexidade e o enorme fardo para o Estado e para os indivíduos são verdadeiramente surpreendentes. Todos temem o contágio, e os médicos proíbem até mesmo pais, filhos e cônjuges de se aproximarem e conversarem. Quando um doente de tuberculose surge em uma família, todos vivem em constante ansiedade, temendo o contágio a qualquer momento. A atmosfera sombria é insuportável. Se a doença fosse de fato contagiosa, não haveria o que fazer, pois a vida é mais importante que qualquer medida. Mas, segundo o que descobri, não há absolutamente nenhum risco de contágio.
+
+O que a medicina chama de bacilo da tuberculose não é transmitido, mas surge por geração espontânea. Como isso acontece? Como expliquei em detalhes, a toxina líquida, ou seja, a expectoração, se for eliminada rapidamente, não gera nenhum micro-organismo. No entanto, devido a tratamentos equivocados, a expectoração fica retida e se solidifica nos pulmões. Com o tempo, essa expectoração solidificada apodrece. É um princípio que, onde há apodrecimento, surgem pequenos insetos ou micro-organismos. Por exemplo, quando a madeira apodrece, surgem cupins. Por mais refinado que seja o arroz, se envelhecer, surgirão larvas. Todos sabem disso. Assim, onde há apodrecimento, a matéria orgânica surge da inorgânica. As larvas no arroz, obviamente, não vêm de ovos que invadiram de fora. Portanto, o bacilo da tuberculose também é de geração espontânea e não é absolutamente contagioso. Acredito que, com o avanço da ciência, se descobrirá que não é contagioso. Consequentemente, a presença ou ausência do bacilo da tuberculose no diagnóstico médico depende de quão antiga é a expectoração.
+
+No caso do resfriado, como já expliquei, para interromper a purificação das toxinas solidificadas em vários locais, a toxina que retorna e se solidifica novamente também gera bacilos de tuberculose por geração espontânea. Doenças como escrófula, tuberculose renal, mal de Pott e outras chamadas de “tuberculose de algo” seguem esse princípio.
+
+Para provar essa teoria, contarei minha experiência. Minha família consistia em mim, minha esposa, seis filhos e vários assistentes e empregados, totalizando mais de dez pessoas. Ao longo de mais de dez anos, sempre tive um ou dois pacientes com diagnóstico de tuberculose pulmonar grave morando conosco e recebendo tratamento. Devem ter sido pelo menos umas vinte e tantas pessoas. É claro que os tratava como parte da família. Comíamos à mesma mesa, e os utensílios não eram desinfetados de forma alguma. Eu fazia isso tanto para o tratamento quanto para testar minha teoria. Vários deles faleceram em minha casa, o que mostra que eram todos casos graves. Eram pessoas que haviam sido diagnosticadas com tuberculose em grandes hospitais e consideradas sem esperança de cura. No entanto, até hoje, ninguém foi contagiado. Todos são a própria imagem da saúde. Mesmo por essa experiência, não há espaço para dúvidas de que a doença não é contagiosa. E eu gostaria que o contágio do bacilo da tuberculose fosse testado a qualquer momento. Tanto eu quanto qualquer membro de minha família nos oferecemos de bom grado como cobaias para o experimento.
+
+Cientistas modernos provavelmente rirão dessa teoria da geração espontânea de bactérias. Afinal, foi a teoria bacteriológica de Pasteur, um titã da bacteriologia comparável ao descobridor do bacilo da tuberculose, o Dr. Koch, que derrubou a teoria da geração espontânea, até então apoiada pela maioria dos estudiosos. Pasteur demonstrou experimentalmente que “os micro-organismos não surgem espontaneamente, mas são transmitidos pelo ar”. Ele colocou caldo de carne de carneiro em dois frascos de vidro: um com o gargalo curvo e outro com o gargalo reto. No frasco com o gargalo curvo, não surgiram micro-organismos, enquanto no frasco com o gargalo reto, sim. Desde então, a teoria da geração espontânea desapareceu, e a teoria da transmissão pelo ar foi aceita, permanecendo até hoje. No entanto, explicarei este princípio em detalhes mais tarde, ao falar sobre espírito e matéria. Por ora, farei uma breve explicação.
+
+A constituição de toda a criação no universo é de elemento-fogo, elemento-água e elemento-terra. O ar é composto principalmente de elemento-água, e a energia espiritual, de elemento-fogo. Contudo, a ciência até hoje não descobriu a energia espiritual, ou seja, o elemento-fogo. O ar (elemento-água) flui horizontalmente, enquanto a energia espiritual (elemento-fogo) sobe e desce verticalmente. Para a geração espontânea de um organismo como um micro-organismo, é claro que é necessário o elemento-fogo, ou seja, o calor. No entanto, esse calor é, em certa medida, bloqueado por materiais duros como vidro ou metal. Assim, no experimento de Pasteur, o frasco de vidro com o gargalo curvo bloqueou o calor do elemento-fogo.
+
+Diz-se que a medicina moderna entrou em uma nova era quando o Dr. Virchow, considerado o santo da medicina do século XIX, expôs sua patologia celular. Segundo ela, “o corpo humano — pele, mucosas, músculos, esqueleto, cabelo, etc. — é todo constituído de inúmeras células. Cada uma dessas células tem vida e existência próprias, e a união da vida e da existência de cada célula compõe um corpo humano. A doença, portanto, é um estado em que essas células se degeneram e sua vida se enfraquece”. Essa é, em linhas gerais, a patologia celular.
+
+Por exemplo, na tuberculose pulmonar, “o bacilo da tuberculose invade o tecido pulmonar, prolifera e libera toxinas, fazendo com que as células daquela área se degenerem ou sejam destruídas. As células destruídas são absorvidas pela corrente sanguínea, prejudicando as funções de todo o corpo e causando febre, suores noturnos e outros sintomas”.
+
+Ou seja, “a febre em um paciente com tuberculose ocorre porque o bacilo da tuberculose invade os pulmões, cria um foco infeccioso, e as toxinas liberadas por esse foco e pelo próprio bacilo estimulam o centro termorregulador, causando a febre”.
+
+Essa teoria patológica é fundamentalmente equivocada. Se a vida da célula se enfraquece e isso é a causa da doença, então as doenças não deveriam ocorrer na infância e na juventude, quando o metabolismo é mais vigoroso, mas sim na velhice. É bastante estranho que uma teoria tão contrária aos fatos tenha sido acreditada por tanto tempo.
+
+Afirma-se que a febre na tuberculose pulmonar é uma ação do bacilo de Koch. Mesmo que se aceite isso, diz-se que as toxinas liberadas pelo próprio bacilo estimulam o centro termorregulador. Mas que tipo de função é esse centro termorregulador? A medicina diz que ele está no cérebro, mas provavelmente nenhum médico no mundo consegue prová-lo. A razão é que tal função como um centro termorregulador não existe em nenhuma parte do corpo humano, muito menos no cérebro.
+
+Com uma patologia tão infantil, é natural que, por mais que se pesquise, não se chegue a uma solução. Apresentarei, em linhas gerais, duas maneiras de solucionar a tuberculose pulmonar.
+
+1.  Para reduzir apenas a tuberculose pulmonar, é preciso diminuir a condição física de toda a nação. Ou seja, tornar os jovens com a constituição de idosos. Os brancos modernos são um exemplo disso.
+2.  Criar pessoas que não gerem febre, que é a característica da tuberculose. Ou seja, pessoas sem toxinas. Ou seja, pessoas completamente saudáveis no verdadeiro sentido.
+
+Qual dos dois escolher? Obviamente, criar as pessoas do segundo tipo. Essa é a verdadeira solução, e só é possível através da arte médica que criei. É preciso saber que o método da medicina ocidental que está sendo praticado atualmente é o do primeiro tipo.
+
+## Da Segunda Parte de ‘Ashita no Ijutsu’: Recursos Humanos e a Medicina Moderna
+
+O maior objetivo de nosso Japão na grave situação atual é, sem dúvida, a conclusão da Esfera de Coprosperidade da Grande Ásia Oriental. E o elemento mais importante para alcançar isso é a questão dos recursos humanos. É por isso que as autoridades estão implementando todas as medidas possíveis sob o lema “procriai e multiplicai-vos”. No entanto, se dermos um passo atrás e pensarmos, a situação é a seguinte: um bebê que nasce hoje só será útil na prática daqui a, no mínimo, vinte anos. Nesse sentido, os recursos humanos de que necessitamos com urgência agora são, obviamente, os jovens e adultos que já estão servindo em suas respectivas áreas de trabalho. É acertada a recente decisão do governo de registrar cidadãos do sexo masculino entre dezesseis e quarenta anos e do sexo feminino entre dezenove e vinte e cinco anos.
+
+Nesse sentido, para fortalecer os recursos humanos da forma mais rápida possível, não há método mais eficaz do que eliminar os doentes. Mas olhem para as diversas camadas da sociedade de hoje. O número de doentes é provavelmente sem precedentes. Quantos japoneses são verdadeiramente saudáveis? Só de imaginar, a apreensão é imensa. Creio que o leitor já pôde concordar com isso através das várias estatísticas que apresentei.
+
+Já expliquei suficientemente que a medicina de hoje é, na verdade, uma medicina que cria doentes. Além disso, no tratamento de pacientes com tuberculose, que está em franca ascensão, a medicina recomenda o repouso absoluto. Se esses métodos levassem à cura completa, o abandono do trabalho por um período seria inevitável. Mas, quando a maioria, após um longo período de repouso, acaba perdendo a vida, a perda para a nação não é pequena. E se calcularmos em detalhes o pessoal necessário para cuidar de pacientes em repouso prolongado, os medicamentos e equipamentos utilizados, e o pessoal e os materiais para fabricá-los, os números serão, sem dúvida, astronomicamente maiores do que se imagina.
+
+Há outro problema incômodo: o diagnóstico precoce. Como já expliquei, a maioria dos pacientes com tuberculose em estágio inicial se curaria naturalmente se fosse deixada em paz. No entanto, quando um sintoma inicial é descoberto pelo diagnóstico precoce, o tratamento médico é imposto, e o isolamento também se torna necessário. Além disso, como a tuberculose é sugerida ou declarada, o paciente sofre um grande golpe psicológico pela noção de desesperança de uma doença incurável. Isso o faz perder o ânimo, diminui o apetite e o enfraquece rapidamente. Acrescente-se a isso a administração de toxinas medicamentosas e outros métodos, e é natural que a doença se agrave tanto espiritual quanto fisicamente.
+
+Como exemplo disso, vemos hoje em toda parte casos de pessoas que, enquanto trabalhavam, acreditavam ser saudáveis, e os outros também as viam como mais saudáveis que a média, mas que, após um exame de saúde, são consideradas suspeitas de tuberculose e subitamente afastadas do trabalho ou isoladas. Nesses casos, mesmo que a pessoa insista em trabalhar, alegando não ter nenhum problema para isso, seu pedido é negado por razões legais ou outras, e ela tem que se resignar. A principal razão para isso é, naturalmente, o risco de contágio, o que é compreensível.
+
+E qual é o resultado e o desfecho final disso? Uma pessoa que antes era forte e saudável é forçada ao repouso absoluto e informada de que tem tuberculose. É natural que comece a enfraquecer física e psicologicamente. Depois de seis meses a um ano, fica reduzida a pele e osso e, no final, perde a vida. Mesmo que, felizmente, a evolução seja boa, na melhor das hipóteses, a pessoa consegue realizar trabalhos leves. A realidade é que é impossível voltar a fazer trabalhos pesados como antes.
+
+Olhando por esse prisma, a causa principal é o erro de considerar contagioso o que não é, o que força a tomada de medidas de isolamento. Além disso, um tratamento equivocado e a ação psicológica fazem com que sintomas leves evoluam para uma tuberculose autêntica, levando à perda da vida.
+
+A esse respeito, direi sem rodeios. Se a medicina de hoje realmente tivesse o poder de curar doenças, ao se tratar uma pessoa forte e saudável, os sintomas de tuberculose interna ainda não manifestos seriam curados, e ela se tornaria ainda mais forte e saudável. Não deveria ser assim? No entanto, quando o resultado do tratamento é o agravamento dos sintomas, o aumento da fraqueza e, finalmente, a morte, o próprio fato prova que o tratamento é equivocado e contraproducente.
+
+Ó, povo de hoje, olhem para esses fatos com olhos abertos, com uma mente livre de preconceitos. E que despertem para a verdade o mais rápido possível.
+
+Exemplos como esses são hoje vistos e ouvidos constantemente, não apenas pelos envolvidos, mas por todos.
+
+Com base nesses fatos, penso que o maior obstáculo aos recursos humanos é a própria medicina equivocada. A menos que se desperte para isso, o número de doentes continuará a aumentar gradualmente. E por mais que o governo tome medidas, a falta de recursos humanos não será resolvida. E, enquanto se depender da medicina, quanto mais se apressar, mais grave será o efeito reverso. O futuro é, de fato, motivo de grande preocupação.
+
+Recentemente, as autoridades criaram a Corporação Médica do Japão. Para referência, apresento sua estrutura abaixo.
+
+O artigo 29 da Lei de Assistência Médica Nacional diz: “A Corporação Médica do Japão tem por objetivo promover a difusão da assistência médica em consonância com a política nacional de melhoria da aptidão física da nação”. Assim, a Corporação Médica do Japão se esforçará para melhorar a aptidão física da nação através da difusão da assistência médica.
+
+Quanto aos fundos, além do capital de um bilhão de ienes do governo, a corporação pode emitir títulos médicos até cinco vezes esse valor para levantar fundos operacionais, podendo gastar, em geral, seis bilhões de ienes em cinco anos. No entanto, os fundos obtidos com a emissão de títulos deverão ser reembolsados no futuro. O governo garante o reembolso do principal e o pagamento dos juros dos títulos médicos. A corporação também tem privilégios como isenção de impostos e o direito de desapropriar terras. Além disso, o capital social da corporação pode ser aumentado com a aprovação do ministro competente.
+
+Os planos de negócios da Corporação Médica do Japão são vários, mas vejamos apenas os relacionados à tuberculose.
+
+Como medida contra a tuberculose, a corporação planeja estabelecer 80.000 leitos de sanatórios para tuberculose em todo o país, integrar os cerca de 20.000 leitos de sanatórios públicos para tuberculose existentes e, assim, gerenciar de forma integrada 100.000 leitos de instalações de tratamento de tuberculose. Se contarmos também os sanatórios para tuberculose de veteranos de guerra feridos, os construídos por várias organizações e os sanatórios de médicos particulares, o número chega a cerca de 150.000 leitos, próximo do que é necessário para as instalações de prevenção da tuberculose no Japão.
+
+Esse é o plano. E sobre ele, eu penso o seguinte: mesmo que, em cinco anos, se consiga construir os 150.000 leitos ideais, temo que, até lá, o grande aumento da tuberculose atinja o dobro ou até o triplo desse número. A razão, como não preciso mais explicar, é que a condição física atual dos japoneses está em um nível propício para o desenvolvimento da tuberculose e que a medicina transforma o que não é tuberculose em suspeita de tuberculose e, finalmente, em paciente de tuberculose autêntica.
+
+Portanto, falando sem rodeios, penso que o dispêndio de uma grande quantia do tesouro nacional e os esforços abnegados de muitas pessoas resultarão, nesta grave situação, em um resultado oposto ao objetivo de fortalecer a força de combate. É uma grande e lamentável tragédia. É muito difícil para mim escrever tais coisas, mas, pensando no futuro da nação, não posso me calar.
+
+O governo, para suprir a falta de recursos humanos, está reorganizando e consolidando pequenas e médias empresas comerciais e industriais, liberando recursos humanos e direcionando-os para indústrias importantes. Por outro lado, através do controle da aptidão física e do diagnóstico precoce, está descobrindo principalmente os estágios iniciais da tuberculose e adotando métodos de repouso ou isolamento. Qual é o resultado disso? É um método que, por um lado, libera recursos humanos e, por outro, os aniquila.
+
+Além disso, ao se transferir pessoas de trabalhos tradicionalmente leves para o trabalho intenso de uma fábrica, é inevitável que ocorra um processo de purificação violento. É inevitável que surjam sintomas de tuberculose, como febre baixa, tosse e fadiga. Os recursos humanos se tornarão cada vez mais escassos. E como os recursos liberados pela reorganização e consolidação são limitados, quem pode dizer que não virá um tempo em que sofreremos de uma grande escassez de recursos humanos?
+
+Se esta arte médica que criei fosse aplicada à nação, qual seria o resultado? Vou imaginá-lo e escrevê-lo. Primeiro, o número de doentes diminuiria dia a dia. A maioria dos doentes se curaria enquanto continuava a trabalhar. Especialmente a tuberculose pulmonar diminuiria drasticamente, e o medo do contágio seria libertado. As doenças infecciosas também diminuiriam gradualmente, e o medo dos germes das doenças infecciosas seria libertado. A razão é que as pessoas se tornariam saudáveis a ponto de não adoecerem mesmo que os germes entrassem em seu corpo. E como a maioria das doenças se curaria em uma semana, os recursos humanos aumentariam em vinte a trinta por cento.
+
+A necessidade de alimentos nutritivos desapareceria, e a necessidade de métodos de saúde especiais também. A expectativa de vida humana se estenderia ano a ano. E se um espírito são habita um corpo são, o pensamento da nação se tornaria são na proporção da saúde do corpo. E se a maior causa da infelicidade é a doença, é desnecessário dizer que a infelicidade, a pobreza e os conflitos diminuiriam drasticamente.
+
+## A Crise dos Recursos Humanos
+
+Recentemente, uma pessoa de uma fábrica na cidade de XX veio me procurar com um problema de saúde dos operários, dizendo que a medicina ocidental era muito impotente e buscando nosso tratamento. Enviei quatro de meus discípulos que já tinham seus consultórios para irem até lá e se dedicarem ao tratamento. Perguntei a eles qual era a doença mais comum entre os operários. A resposta foi que a fábrica tinha sete mil operários e que o problema era que eles se cansavam facilmente durante o trabalho e, consequentemente, lhes faltava resistência. É desnecessário dizer que isso se devia a uma febre baixa, e era, obviamente, um passo antes da tuberculose.
+
+Ouvi também outro fato surpreendente. Em uma das maiores fábricas do Japão, com dezenas de milhares de operários, a taxa de absenteísmo tem aumentado cada vez mais recentemente. A taxa, que era de 10% no ano retrasado e 15% no ano passado, piorou muito este ano, chegando a 25% recentemente. A empresa, sem alternativa, considera todos os que faltam por mais de duas semanas como demitidos e os deduz da taxa de absenteísmo, conseguindo com dificuldade manter um número próximo de 10%. Os executivos da empresa estão muito preocupados. É claro que a maioria dos ausentes apresenta sintomas de tuberculose.
+
+Se olharmos para essa situação, a taxa era de 10% no décimo quinto ano da era Showa, aumentou 5 pontos percentuais para 15% no décimo sexto ano e, no décimo sétimo ano, aumentou 10 pontos percentuais em relação ao ano anterior, chegando a 25%. Se continuar nesse ritmo, no décimo oitavo ano, teremos que prever um aumento de pelo menos 10 pontos percentuais, para mais de 35%, e no décimo nono ano, cerca de 50%. Outro fato recente é que, em uma fábrica em XX, um exame de saúde rigoroso revelou que 32% dos operários, embora com gravidade variável, tinham que ser tratados como tuberculosos ou suspeitos de tuberculose. É um grande problema. E mesmo os que comparecem ao trabalho têm sua condição física diminuída, e a redução de sua eficiência devido à fadiga é inevitável. A futura queda na produtividade é algo que, só de imaginar hoje, nos causa calafrios.
+
+Recentemente, em algumas fábricas, há uma tendência de diminuição da eficiência do trabalho. Por isso, os supervisores suspeitam de sabotagem. Mas, pensando que, nesta grave situação, não deveria haver japoneses assim, investigaram e descobriram que a causa era a fadiga. Um operário veterano de uma grande fábrica contou que uma máquina que antes era movida por três pessoas hoje requer o trabalho de cinco ou seis. Não há dúvida de que a força física dos operários diminuiu.
+
+Isso não é um problema de imaginação ou de ideias. É um fato vivo que está se manifestando agora. Diante disso, o governo recentemente iniciou um movimento pela saúde do povo e está se empenhando na melhoria da condição física e na erradicação da tuberculose, o que é compreensível. Mas os fatos acima mencionados mostram que isso não só não terá efeito, como será a causa do agravamento do problema.
+
+Segundo um anúncio recente do Exército, o plano do inimigo americano é um grande ataque aéreo ao nosso território. Para isso, eles estão concentrando todos os seus esforços no aumento da produção de porta-aviões e aviões. É claro que a enorme capacidade de produção industrial dos Estados Unidos já era bem conhecida por nós antes do incidente, como se pode ver pelo plano de números astronômicos estabelecido por Roosevelt. Isso não pode ser subestimado. Portanto, é desnecessário dizer que nosso país também deve, superando quaisquer sacrifícios e dificuldades, forçar um grande aumento na produção de material bélico. Mas, quando os recursos humanos, que são a base disso, estão na situação descrita, não podemos de forma alguma ficar tranquilos.
+
+## A Condição Fundamental para o Aumento da Produção
+
+A tarefa mais urgente e importante que o Japão enfrenta nesta difícil situação é o fortalecimento da força de combate, ou seja, a expansão da capacidade de produção. Isso é evidente pelo fato de que tanto o governo quanto o povo estão concentrando seus esforços nesse ponto. No entanto, penso que as medidas que estão sendo tomadas atualmente estão um pouco fora do alvo. Qual é o problema? Segundo a opinião dos especialistas, para aumentar a produção, a consciência e o entusiasmo de todo o povo em relação a esta grave situação precisam ser ainda mais fortalecidos. Portanto, a ênfase está sendo colocada na vontade e no pensamento. Ou seja, prega-se a grande causa da lealdade ao Imperador, e as palavras e ações dos patriotas do final do xogunato são apresentadas como um modelo a ser seguido, tanto por escrito quanto oralmente. É claro que isso também é importante, mas penso que é preciso perceber um ponto ainda mais crucial.
+
+Em uma recente palestra de rádio de uma figura proeminente da Associação de Apoio ao Trono Imperial, ele disse: “Será que nosso povo não está relaxando em sua consciência de tempo de guerra? Isso se reflete no fato de que o setor de produção não está alcançando os resultados esperados”. No entanto, penso que por trás dessas palavras há algo que sugere uma grande preocupação. A razão é que, neste momento em que a produção deve ser aumentada cada vez mais, não deveria haver relaxamento. É desnecessário dizer que hoje não há um único cidadão que não esteja ciente de que a única maneira de superar esta grave situação é aumentar a produção. Não há ninguém que não tenha a determinação de que a retaguarda também é um campo de batalha e que todos os cem milhões de japoneses estão lutando. Se a vontade coletiva da nação não se manifesta na produção, deve haver algo que não se encaixa. O que seria isso? Vou escrever a seguir.
+
+Em uma palavra, a causa é que todo o povo está cansado. Ou melhor, se cansa. Por mais firme que seja a vontade e por mais forte que seja a força espiritual, o corpo não obedece. Porque não se pode ultrapassar os limites da força física.
+
+É como uma pessoa cujo limite é carregar quinze kan; por mais que se esforce espiritualmente, não conseguirá carregar vinte. Nesse sentido, penso que a verdade é que o povo japonês de hoje tem uma força espiritual que excede sua força física, e esta não consegue acompanhá-la. Quando pensamos nesse sentido, a causa do “relaxamento” não estaria no declínio da força física? E, neste momento em que a tensão é necessária, pensar que o declínio da força física atingiu um nível bastante preocupante não é um medo infundado.
+
+Qual seria, então, a razão para tal declínio da força física? À luz desta arte médica, é muito claro. A causa, obviamente, reside no fato de que a saúde e a higiene atuais não são adequadas. E, como já explicado, o cansaço se deve à ocorrência de febre baixa. A ocorrência de febre baixa se deve ao fato de que o trabalho, especialmente o trabalho intenso, desencadeia um processo de purificação nas toxinas acumuladas e solidificadas. E o que são as toxinas acumuladas? As duas causas principais são, sem dúvida, a solidificação de toxinas medicamentosas de vacinas preventivas e o acúmulo de toxinas devido à supressão do processo de purificação do resfriado. Sendo assim, a solução é fácil. É abolir os medicamentos e fazer por contrair resfriados. Que método simples seria este, que com a mera execução dessas duas coisas, a força física da nação seria fortalecida? No entanto, como a saúde e a higiene de hoje são o oposto desse princípio, a força física continuará a declinar. Por mais que o governo grite e se desespere, o resultado não pode deixar de ser contraproducente.
+
+Há outro ponto importante. A medicina aponta o excesso de trabalho e a falta de sono como as principais causas da tuberculose. Se acreditarmos nisso, teremos que evitar ao máximo o excesso de trabalho e a falta de sono. Temos que pensar em como a noção de cautela resultante disso afeta o trabalho. Ou seja, quando se precisa de um último esforço ou quando se tenta estender um pouco mais o tempo de trabalho, é natural que haja uma hesitação mental. E qual é o grande impacto que esse resultado tem sobre a produção? E, como já expliquei, considerar contagiosa a tuberculose, que não é, e proibir a ida ao trabalho, ou, como resultado de um diagnóstico precoce, afastar da fábrica casos leves que poderiam ser curados enquanto se trabalha — tudo isso não tem um impacto considerável na capacidade de produção?
+
+## O Movimento pelo Resfriado e o Movimento pela Abolição dos Medicamentos
+
+Eu expliquei o quão eficaz é contrair um resfriado como o mais simples processo de purificação e como o resfriado é, na verdade, a maior bênção que Deus deu à humanidade. O leitor também já deve ter compreendido o quão terríveis são as toxinas dos medicamentos. Portanto, ao se despertar para esses dois grandes erros e ao corrigi-los e praticá-los, posso afirmar que mesmo a tuberculose, que hoje é considerada o problema mais difícil, será reduzida pela metade em menos de dez anos. Nesse sentido, não há dúvida de que, em um futuro próximo, um movimento pelo resfriado e um movimento pela abolição dos medicamentos serão inevitavelmente realizados por alguém. E não é preciso dizer o quão grande será o benefício para o Estado e para a nação quanto mais cedo esse movimento começar.
+
+E é claro que, ao se aplicar esta arte médica, ela atuará como um catalisador para esse objetivo.
+
+## Germes e Doenças Infecciosas
+
+A patologia da medicina ocidental praticada hoje é quase inteiramente baseada na teoria dos germes. Entende-se que todas as doenças são transmitidas por germes. Até o resfriado é considerado uma ação de germes. E diz-se que o germe do resfriado é tão pequeno que não pode ser visto nem com um microscópio; é chamado de vírus filtrável.
+
+A interpretação da medicina é que doenças como resfriado, difteria, coqueluche, sarampo, caxumba, etc., são transmitidas por gotículas. Isso significa que, em um ambiente fechado como uma sala ou um veículo, quando um doente espirra ou ri, os germes são expelidos com a saliva em forma de névoa, flutuam no ar e são inalados, causando o contágio. Diz-se que os idosos são relativamente imunes e que os jovens, especialmente as crianças, são mais suscetíveis, e que não se deve aproximar a menos de um metro de um doente.
+
+Se quase todas as doenças são contagiosas, acreditar nisso torna a vida do homem moderno um terror constante.
+
+Além do ar, o ninho de germes mais direto é, sem dúvida, o dinheiro. A esse respeito,
+
+“O pesquisador Sanshi Abe, do Laboratório de Higiene da Faculdade de Medicina da Universidade de Hokkaido, coletou 345 itens, entre notas de dez ienes, moedas de cinquenta sen de prata, dez sen de cuproníquel, dez sen de níquel e um sen de cobre, de locais de grande circulação como correios, bancos, mercados, lojas de departamento, restaurantes, lojas de alimentos e indivíduos. Ao estudar os germes aderidos a essas moedas e notas, ele encontrou um número incontável de germes, como coliformes, paratifo, tifo, estafilococos, cólera, esquizomicetos, etc. Todos são prejudiciais ao corpo humano, e é preciso ter muito cuidado, especialmente com crianças pequenas que, sem pensar, levam moedas de cobre ou prata à boca. Por outro lado, muitas pessoas pensam que as moedas de prata e cobre estão contaminadas com o bacilo da tuberculose, mas, segundo a pesquisa do Sr. Abe, o número de bacilos da tuberculose é surpreendentemente baixo e não tem força suficiente para afetar o corpo humano.”
+
+“Número de Germes em Várias Moedas” (Pesquisa de junho do décimo primeiro ano da era Showa)
+
+Quantos germes estão aderidos a uma nota de dez ienes, uma moeda de cinquenta sen, uma de dez sen e uma de um sen?
+
+*   Em uma nota de dez ienes, o máximo de germes comuns foi de 169.105, com uma média de 52.491.
+*   Em uma moeda de cinquenta sen de prata, a média foi de 1.559.
+*   Em uma moeda de dez sen de cuproníquel, 2.470.
+*   Em uma moeda de dez sen de níquel e cuproníquel, 2.203.
+*   Em uma moeda de um sen de cobre, 1.032.
+
+“Tipos e Número de Germes Patogênicos”
+
+Quantos coliformes, bacilos do tifo, paratifo, etc., estão presentes?
+
+*   Em uma nota de dez ienes, 54.
+*   Em uma moeda de cinquenta sen de prata, 4.
+*   Em uma moeda de dez sen de cuproníquel, 3.
+*   Em uma moeda de dez sen de níquel e cuproníquel, 1.
+*   Em uma moeda de um sen de cobre, 4.
+
+O fato de a moeda de dez sen de níquel e cuproníquel ter menos germes que as outras se deve a ter sido emitida há pouco tempo. O número relativamente baixo de germes na moeda de um sen de cobre se deve à propriedade bactericida do próprio cobre.
+
+“Local e Número de Germes”
+
+Onde são usadas as moedas com o maior número de germes?
+
+*   O maior número está nos mercados, seguido por correios, lojas de artigos diversos, lojas de departamento, restaurantes, confeitarias, lojas de alimentos e posse individual, nesta ordem. O menor número está na posse individual, porque, sendo guardadas em carteiras, o ar não circula como do lado de fora, e os germes aderidos não se multiplicam.
+
+Como se vê, o dinheiro está coberto de inúmeros tipos de germes. No entanto, é impossível para qualquer pessoa desinfetar as mãos toda vez que toca em dinheiro. E, por mais que se tema o contágio pelo ar, não se pode deixar de andar de trem, bonde ou ônibus. Portanto, para escapar completamente dos germes, não há método ideal a não ser viver no mar, longe da costa, em uma ilha deserta, ou construir uma casa isolada nas montanhas, completamente sem contato com a sociedade. Mas isso não é algo que qualquer um possa fazer. Portanto, não há método de segurança absoluta a não ser se tornar saudável a ponto de não adoecer mesmo que os germes entrem no corpo. E é possível ter tal saúde? Afirmo, sem hesitação, que é possível. A esse respeito, apresentarei um exemplo convincente.
+
+Segundo um artigo do jornal Yomiuri de 3 de setembro do décimo ano da era Showa, há cerca de 12.000 catadores de lixo em Tóquio. Em dezembro do ano anterior, o Departamento Social da Cidade realizou uma investigação detalhada dos catadores pertencentes a postos de compra de lixo autorizados, principalmente no distrito de Adachi. Os resultados foram anunciados no dia 2. Segundo eles, apesar de trabalharem em condições tão anti-higiênicas, o número de doentes com doenças infecciosas e outras é surpreendentemente baixo. Das 2.415 pessoas investigadas, apenas 60 eram mulheres. A idade dos investigados variava de 31 a 50 anos, constituindo 1.299 pessoas, mais da metade do total. Quanto ao estado de saúde, os pacientes com doenças gastrointestinais crônicas eram os mais numerosos, seguidos pelos alcoólatras. O número de casos de doenças infecciosas, tuberculose pulmonar e doenças venéreas era relativamente baixo. Ou seja, das 2.415 pessoas, 2.123 eram saudáveis, 85 eram frágeis, 58 eram senis, 35 tinham deficiências físicas, 85 eram inválidas e 32 tinham outras doenças.
+
+Mesmo por este exemplo, fica claro que quase não há doenças infecciosas causadas por germes. Portanto, sabemos que, por mais que uma pessoa entre em contato com germes, se for saudável, não será facilmente contagiada.
+
+Os germes patogênicos, até hoje, foram considerados prejudiciais à humanidade e temidos, mas não se pode dizer que seja apenas isso. Eles podem, na verdade, ser benéficos. A razão é que nada que exista neste mundo pode ser desnecessário para o ser humano. Se algo se torna desnecessário, é eliminado pela seleção natural. Isso é a verdade. O fato de os seres humanos decidirem arbitrariamente que algo é inútil ou prejudicial se deve apenas ao fato de que, no nível atual da cultura, a razão da existência dessa coisa é desconhecida. A esse respeito, apresentarei os resultados de minha pesquisa sobre germes e doenças infecciosas. Gostaria que tanto os especialistas quanto os leitores julgassem por si mesmos.
+
+As doenças infecciosas, assim como outras doenças, são um processo de purificação. O que as torna temidas pelos seres humanos é sua natureza extremamente aguda. Através da atividade dos germes, é uma ação providencial para eliminar certos tipos de toxinas presentes no sangue. É claro que uma pessoa com sangue impuro não é saudável e tem sua vida prejudicada. Qual é, então, o caminho e a razão do contágio por germes? Vou explicar.
+
+Primeiro, quando os germes entram no corpo humano através da pele, mucosas, alimentos, etc., eles avançam rapidamente para a corrente sanguínea. As toxinas no sangue, na verdade, servem de alimento para os germes. Ao comerem esse alimento, os germes se reproduzem. Portanto, quanto mais alimento, mais eles se reproduzem. Enquanto comem e se reproduzem a uma velocidade incrível, após gerarem um certo número de descendentes, eles morrem sucessivamente. Seus cadáveres são expelidos misturados com o sangue, as fezes, a urina, a expectoração, a saliva, etc. Com isso, o processo de purificação do sangue é realizado completamente. Por isso, após doenças infecciosas como disenteria, tifo, sarampo, varíola, disenteria infantil, coqueluche, etc., a pessoa fica mais saudável do que antes de adoecer. Isso torna clara a lógica que apresentei. No entanto, há pessoas cuja saúde não melhora muito após se recuperarem de uma doença infecciosa. Isso ocorre porque o tratamento médico suprime o processo de purificação, e as toxinas permanecem.
+
+Na medicina, há o que se chama de portador. São pessoas que têm os germes, mas não adoecem. Por que isso acontece? Porque há pouco alimento para os germes. Ou seja, há alimento suficiente para que sobrevivam, mas não o suficiente para que se reproduzam. Portanto, uma pessoa com sangue puro, sem toxinas, mesmo que os germes entrem em seu corpo, eles morrerão de fome imediatamente por falta de alimento. Assim, não há contágio. Por isso, quero dizer o seguinte: o termo “contágio” não é apropriado. O termo “indução” é mais adequado.
+
+Com essa lógica, a razão da existência dos germes deve ter sido compreendida. Ou seja, eles realizam um processo de purificação nos seres humanos. São como “faxineiros de toxinas”. Portanto, do ponto de vista da saúde, é melhor ser “induzido” do que contagiado. De um ponto de vista prático, quando se pensa no fato de que as nações altamente civilizadas, que se orgulham da notável redução de doenças infecciosas, estão sofrendo com o declínio da condição física e a diminuição da população, enquanto as nações não civilizadas, com muitas doenças infecciosas, estão na situação oposta, percebe-se que a teoria que apresentei não está errada.
+
+Ou seja, as nações altamente civilizadas, embora tenham sangue impuro, conseguiram reduzir drasticamente as doenças infecciosas porque evitam os germes ao máximo. Como já mencionei, a nação saudável ideal seria aquela em que as doenças infecciosas diminuíssem ou desaparecessem porque todos se tornaram pessoas de sangue puro. E é desnecessário dizer que as toxinas no sangue são, em sua maioria, toxinas medicamentosas.
+
+Aqui, preciso explicar novamente sobre a tuberculose e outros assuntos. A medicina, sob o pretexto de “esterilização”, se concentra apenas em matar os germes. Acredita-se que, se os germes forem mortos, a doença será curada. Mas não há erro maior que este. No caso da tuberculose pulmonar, tentar matar apenas os germes é absolutamente impossível. A razão é que, até que os medicamentos orais ou injetáveis cheguem ao foco da tuberculose através do sangue e de outros fluidos, o poder bactericida do medicamento já terá se tornado praticamente nulo. Se existisse um medicamento tão forte que seu poder bactericida não se perdesse até chegar ao foco, é óbvio que tal medicamento colocaria a vida em perigo no momento de seu uso. Portanto, por mais que se pesquise a ação bactericida dos medicamentos, penso que é um esforço completamente inútil.
+
+Então, qual seria o método apropriado para alcançar o objetivo da esterilização? É tornar impossível a proliferação dos germes. Ou seja, eliminar a causa da proliferação dos germes. Ou seja, cortar o alimento dos germes e fazê-los morrer de fome. Não há outro método. E não ter alimento significa se tornar uma pessoa de sangue puro. Para se tornar uma pessoa de sangue puro, não se deve usar medicamentos. A medicina de hoje, enquanto fornece a matéria-prima para o alimento dos germes, se esforça para impedir sua proliferação. É natural que não haja resultados. Por isso, sem alternativa, eles se concentram em métodos de prevenção passivos.
+
+## Nutrição
+
+Acredita-se que a nutrição na medicina moderna tenha avançado consideravelmente. A interpretação da medicina é a seguinte:
+
+(De um artigo de um especialista)
+
+“Todos nós comemos, geralmente, três vezes ao dia. Fazemos isso para repor as substâncias que nosso corpo perde diariamente e, por outro lado, para construir novos tecidos corporais. Assim, no corpo, ocorrem constantemente dois processos: decomposição e síntese. Metabolismo é o termo geral para esses dois processos. Mas qual é o caminho que os alimentos percorrem no corpo, desde a digestão e absorção até se tornarem substâncias de reposição ou de síntese?
+
+Começando pelas proteínas, elas são decompostas no sistema digestivo em aminoácidos, absorvidas pela parede intestinal, entram na corrente sanguínea, passam pelo fígado e são distribuídas para todo o corpo com o sangue, chegando aos vários tecidos. Os aminoácidos que chegam aos tecidos são então montados em proteínas específicas daquele tecido. Uma parte dos aminoácidos é decomposta ainda mais em ureia, ácido úrico, amônia, creatina, creatinina e sais inorgânicos, e excretada na urina. Como visto, a proteína, ao ser digerida, é usada como aminoácido para a síntese de tecidos, mas uma parte, assim como os carboidratos e as gorduras, é queimada para gerar energia para o movimento.
+
+Deixemos as proteínas por aqui e passemos aos carboidratos. Eles são finalmente transformados no monossacarídeo glicose, absorvidos pela parede intestinal, entram nas veias e são transportados pela veia porta. Portanto, se ingerirmos uma grande quantidade de carboidratos de uma vez, o açúcar no sangue aumenta. Quando se ingere muito, ele vai para o fígado e é armazenado como glicogênio. Quando necessário, é novamente transformado em glicose e fornecido ao corpo. Essa glicose é oxidada e queimada pelo oxigênio no sangue, fornecendo principalmente energia para o movimento. Ao mesmo tempo, gera-se muito dióxido de carbono. Quanto mais intenso o exercício, mais ativa é a oxidação da glicose, e o glicogênio armazenado no fígado é retirado para suprir a demanda. No entanto, há vários produtos intermediários até que a oxidação da glicose gere dióxido de carbono. O ácido úrico é um deles, e por isso se mede a quantidade de ácido úrico para determinar o grau de fadiga.
+
+Além disso, uma parte dos carboidratos é transformada em gordura no corpo e se deposita. Assim, comer muitos alimentos ricos em carboidratos aumenta a gordura corporal e leva à obesidade gradual.
+
+Quanto às gorduras, uma parte pode ser digerida e absorvida no estômago, mas a maior parte vai para o intestino, onde é decomposta em ácidos graxos e glicerol pela enzima lipase do suco pancreático, a estearase. Eles são absorvidos pela parede intestinal, transformados novamente em gordura e circulam pelo corpo com a linfa em estado leitoso, entram nas veias. Uma parte da gordura é então armazenada como gordura corporal, e outra parte é oxidada e queimada para gerar energia. Mas, diferentemente dos carboidratos, esta se transforma principalmente em energia térmica.”
+
+Como se vê, a explicação é extremamente detalhada e, à primeira vista, muito impressionante. Não é de se espantar que o público em geral acredite nela.
+
+No entanto, por mais detalhada que seja a explicação, penso que ela não passa de uma suposição dedutiva de médicos, obtida através da dissecação de cadáveres, da análise de alimentos e do exame de excrementos. A razão é que a estrutura, as funções e a força vital que se manifestam através da atividade do corpo humano estão em um nível muito mais alto e profundo do que o da ciência atual. Portanto, mesmo que se consiga interpretar a saúde humana do ponto de vista nutricional hoje, seria como olhar para o céu de dentro de uma chaminé e dizer que se conhece o tamanho do céu. Ou como avaliar uma obra de arte pelo preço do papel, da tinta e do trabalho. É porque não se conhece a força invisível.
+
+Em suma, é preciso reconhecer que a ciência moderna ainda está em um nível muito baixo para compreender completamente o corpo humano e sua vida, que são misteriosos e maravilhosos. É claro que se pode prever que o progresso da ciência um dia alcançará um nível em que isso será possível. Como não sou cientista, não explicarei cientificamente, mas com base na prática e na experiência, pretendo explicar, com lógica indutiva, o que é a verdadeira nutrição. Hoje, quando se fala em nutrição, fica-se preso às teorias de calorias e vitaminas, e tudo é regido por elas. Mas eu afirmo: mesmo comendo alimentos sem nenhuma vitamina, o ser humano pode viver perfeitamente bem.
+
+O erro fundamental da pesquisa médica é que ela se concentra apenas nos alimentos e ignora a ação das funções de digestão e produção de nutrientes dentro do corpo humano. Todas as funções do corpo humano são, na verdade, grandes produtoras químicas, capazes de transformar livremente todos os tipos de alimentos. A medicina, no entanto, ainda não conhece o significado desse poder de transformação. O que é esse poder de transformação? Por exemplo, mesmo comendo arroz, vegetais, batatas ou feijão, eles são transformados pelo mágico chamado função digestiva e se tornam sangue, músculos, ossos. No entanto, por mais que se analise arroz e vegetais, não se encontrará um grão de elemento sanguíneo ou um milímetro de elemento muscular. Apenas ao comê-los, esses elementos são produzidos naturalmente no corpo. É um poder de transformação verdadeiramente misterioso e grandioso. Portanto, mesmo que se ingira alimentos sem nenhuma vitamina, através da atividade insondável de várias funções, as vitaminas A, B, C, os aminoácidos, o glicogênio e todos os outros nutrientes ainda não descobertos são produzidos.
+
+Seguindo essa lógica, surge a seguinte questão: se comendo coisas sem nenhum elemento sanguíneo se produz sangue, e comendo coisas sem nenhuma vitamina se produz vitaminas, o que acontece se, sob o pretexto de nutrição, se beber sangue ou se tomar vitaminas? O resultado é o seguinte: se sangue ou vitaminas entram no corpo, a função que deveria produzi-los não precisa mais trabalhar e para. Consequentemente, se mesmo uma parte das funções do corpo para, é natural que as outras funções inter-relacionadas também parem ou se atrofiem.
+
+Um exemplo simples: a vaca, comendo capim e palha, produz aquele delicioso e nutritivo suco chamado leite. Isso se deve ao poder de transformação da atividade da função digestiva da vaca. Hoje, por mais que o homem use a força das máquinas, seria impossível produzir leite a partir de capim e palha.
+
+Por essa lógica, se ingerirmos nutrientes como vitaminas, o resultado pode ser bom por um tempo, mas depois as funções gradualmente se enfraquecem, e o corpo todo se debilita. É como andar de carro: no início é confortável, mas com o tempo as pernas enfraquecem. Portanto, se comermos alimentos nutritivos, o corpo engorda por um tempo, a cor do rosto melhora e as estatísticas mostram bons resultados. Mas, depois de um tempo, o corpo se enfraquece gradualmente.
+
+Por isso, com base nos bons resultados mostrados nas estatísticas de um ou dois anos de experimentos com alimentos nutritivos, estabelecem-se políticas de incentivo à alimentação nutritiva. É realmente um problema.
+
+Nesse sentido, para fortalecer a força vital humana, é preciso promover a atividade das funções nutritivas. Para isso, deve-se comer alimentos com poucos nutrientes, para fazer com que as funções de produção de nutrientes do corpo trabalhem. O objetivo do exercício também é esse. Na prática, desde a antiguidade, os agricultores comem alimentos muito simples. É porque comem alimentos simples que surge tanta força de trabalho. Se os agricultores comessem alimentos refinados, sua força de trabalho diminuiria. A grande força vital dos cúlis da Manchúria, que comem alimentos muito simples e a mesma coisa nas três refeições, também confirma minha teoria. A nutrição de hoje, no entanto, recomenda a ingestão de uma grande variedade de alimentos, mas isso também não corresponde à realidade.
+
+Na Grande Guerra da Ásia Oriental atual, ao se investigar as tropas americanas, britânicas e holandesas após sua derrota, descobriu-se que sua comida era incomparavelmente mais luxuosa que a dos soldados japoneses. O fato de os soldados japoneses, com sua comida simples, serem mais fortes que os soldados inimigos, com sua comida refinada, também corrobora minha teoria.
+
+Vejamos outro exemplo. Suponha que haja uma fábrica de máquinas. A fábrica importa matérias-primas como ferro e carvão. Com o trabalho dos operários e a queima do carvão para mover as máquinas, após vários processos, uma máquina completa é produzida. Essa é a missão da fábrica, sua razão de existir e sua força vital. Se, em vez disso, uma máquina pronta fosse levada para a fábrica, não haveria necessidade do trabalho dos operários nem do funcionamento das máquinas. A chaminé não soltaria fumaça. A vida da fábrica não existiria. Consequentemente, os operários seriam demitidos, as máquinas enferrujariam gradualmente, e a razão de existir da fábrica desapareceria. O ser humano é o mesmo. Se comermos alimentos nutritivos, que são alimentos mais completos, e especialmente nutrientes como vitaminas, que são altamente refinados, a fábrica dentro do corpo não precisará trabalhar, e é natural que as funções se enfraqueçam. Nesse sentido, o ser humano deve comer alimentos o mais primitivos e simples possível, para que as funções internas trabalhem para transformá-los em nutrientes completos. O próprio processo dessa atividade se manifesta como a força vital humana.
+
+Recentemente, diz-se que se deve mastigar bem os alimentos, mas isso também é um grande erro. Se se mastigar muito bem, não haverá espaço para o estômago trabalhar, e ele enfraquecerá. Portanto, mastigar pela metade, ou seja, de forma normal, é o ideal. Diz-se desde a antiguidade que “quem come rápido é saudável”, e isso tem sua razão.
+
+A nutrição de hoje também subestima a nutrição dos grãos. Pensa-se que a nutrição está principalmente nos acompanhamentos, e as pessoas se esforçam para criar vários cardápios. Isso também é um erro. Na verdade, a nutrição dos grãos é a principal, e os acompanhamentos são secundários. Pode-se até entender que os acompanhamentos são necessários para tornar o arroz mais saboroso. Como exemplo disso, quando escalei os Alpes japoneses anos atrás, fiquei surpreso ao ver a marmita do guia. Era apenas arroz branco, sem nenhum acompanhamento. Nem mesmo uma ameixa em conserva. Perguntei: “É gostoso só arroz?”. Ele respondeu: “É muito gostoso”. E eles carregam doze ou treze kan nas costas e sobem e descem caminhos extremamente íngremes todos os dias. É surpreendente. O que os nutricionistas diriam ao verem esses fatos?
+
+O fato de ser muito gostoso comer apenas arroz, sem acompanhamentos, pode parecer estranho, mas a razão é a seguinte. As funções humanas são feitas para se adaptarem ao ambiente. Se se continuar a comer alimentos simples, a língua se adapta, e eles se tornam saborosos. Essa mudança na língua parece ser pouco conhecida. Por outro lado, quem se acostuma com alimentos refinados, com o tempo, eles deixam de ser saborosos, e a pessoa busca alimentos cada vez mais refinados. Vemos muitos exemplos de pessoas luxuosas assim.
+
+Se se aceitar minha teoria, o benefício para a política de alimentos em tempos de guerra, que hoje é um problema da maior importância, seria imensurável.
+
+A seguir, falemos sobre os alimentos. O que são os alimentos? É desnecessário dizer que o Criador, que fez todos os seres vivos, incluindo o ser humano, deu a cada um os alimentos adequados para manter sua vida. Isso é um princípio evidente. Portanto, para o ser humano, foi mais ou menos determinado “o que o ser humano deve comer”. E como saber quais alimentos foram dados ao ser humano? É muito fácil. Há o elemento do “sabor”. Por ele, pode-se saber. Ou seja, o Criador deu ao ser humano o instinto do paladar e colocou nos alimentos o “sabor”.
+
+Por essa lógica, todos os alimentos têm seu próprio sabor. Ao comê-los com prazer, eles se tornam nutrientes, e a vida é mantida. Portanto, coisas como vitaminas e proteínas não têm nenhum significado.
+
+Como já mencionado, mesmo que nutrientes como as vitaminas sejam necessários para o corpo humano, as funções internas os produzem e transformam a partir de qualquer alimento. Portanto, no que diz respeito aos alimentos, o natural é o melhor. Não há necessidade de estudá-los academicamente em uma ciência da nutrição. Na verdade, isso pode ser até prejudicial. Por essa lógica, dependendo do ambiente, da profissão, da constituição física de cada um, surgem naturalmente diferenças nos gostos. O que se deseja naquele momento é necessário para a pessoa, então ela deve ingeri-lo. É como querer água quando se está com sede.
+
+Vejamos agora a natureza dos alimentos. Os nutrientes estão contidos em maior quantidade nos vegetais. Portanto, do ponto de vista apenas nutricional, grãos e vegetais são suficientes para manter a saúde. Na prática, se vivermos apenas de carne de peixe, aves e outros animais, sem comer nenhum vegetal, teremos septicemia. Por outro lado, nunca ouvi falar de alguém que tenha ficado doente por comer apenas vegetais.
+
+A personalidade humana também é muito influenciada pelo tipo de alimento. Se comermos apenas vegetais, a personalidade se torna dócil, e o pensamento se torna não resistente. Em termos nacionais, torna-se um perdedor internacional. A Índia caiu não apenas por razões religiosas, mas principalmente porque a alimentação de seu povo consiste quase inteiramente de vegetais e leite. Entre os animais também, leões e tigres, que são carnívoros, são ferozes, enquanto bois e cavalos, que são herbívoros, são dóceis. Isso deixa claro.
+
+Consequentemente, os vegetarianos naturalmente têm menos desejos materiais, ambição e outras qualidades ativas. Portanto, na sociedade cultural moderna, dependendo de sua situação e profissão, eles também devem comer carne de peixe, aves e outros animais.
+
+Em uma era de intensa competição internacional e conflitos entre povos como a atual, a carne de animais também se torna necessária. Ou seja, comer carne gera um espírito de competição e uma consciência de luta. O fato de os brancos sempre gostarem de lutar e de as guerras na Europa nunca cessarem também se deve a essa razão.
+
+Recentemente, alguns teóricos dizem que comer carne é muito prejudicial, mas isso é um erro. Mesmo que os alimentos contenham toxinas, elas são muito leves e desaparecem com a purificação natural. Portanto, desde que não se exceda, não há problema em comer carne.
+
+Nesse sentido, o tipo de alimento deve ser escolhido de acordo com a situação e a profissão de cada um. Isso deve estar claro.
+
+No entanto, não importa em que situação o ser humano se encontre, depois dos oitenta anos, os desejos materiais e a consciência de luta não são mais necessários. Portanto, o melhor é se tornar vegetariano. Isso é adequado para a saúde e leva a uma vida mais longa.
+
+Mesmo por isso, fica claro o quão adequada é uma alimentação simples para a promoção da saúde. No entanto, hoje, quando se adoece, sob o pretexto de nutrição, incentiva-se a ingestão de carne. Isso, na verdade, aumenta a fraqueza e tem um efeito negativo na cura da doença.
+
+Quanto ao leite, ele é adequado para bebês que ainda não têm dentes, mas não depois que os dentes nascem. O nascimento dos dentes significa que já se pode comer alimentos sólidos. Significa que a função digestiva se desenvolveu e que os alimentos sólidos são adequados. Isso é natural. Portanto, é desnecessário dizer que é um erro um adulto beber leite sob o pretexto de nutrição. Que mal faz? Enfraquece todo o corpo. Como já mencionei, até mesmo mastigar demais os alimentos enfraquece. Portanto, com um alimento líquido como o leite, o enfraquecimento é ainda maior. Toda vez que me perguntam se um adulto pode beber leite, eu sempre rio e digo: “Se você vai comer a mesma comida que um bebê, não deveria também agir como um, engatinhando e sendo carregado?”. Isso também é um mal da medicina, que se prende à teoria e ignora a prática.
+
+Quando se adoece, costuma-se dar mingau de arroz com ameixa em conserva. Isso também é um grande erro. A ameixa em conserva foi criada na antiguidade, na época das guerras civis, como um alimento para os soldados. O objetivo era ter o menor volume possível e que, comendo uma pequena quantidade, não se sentisse fome. Portanto, hoje, é adequada para caminhadas e escaladas, mas não para doentes. Estando na cama, com falta de exercício, deve-se comer coisas fáceis de digerir. Mesmo quando se está saudável, comer ameixa em conserva diminui o apetite.
+
+Sob o pretexto de nutrição, costuma-se dar óleo de fígado de bacalhau para as crianças. Isso também não é bom. Nos alimentos, seja arroz, trigo, feijão ou vegetais, há um teor de óleo específico. A função do corpo o extrai de todos os alimentos. Assim, a quantidade é exatamente a certa, sem excesso nem falta. O fato de que do farelo se extrai óleo de farelo, da colza, óleo de colza, e da soja, óleo de soja, torna isso claro. Beber apenas o óleo é uma nutrição desequilibrada e extremamente antinatural. Se se beber apenas o óleo, a função de extração de óleo do corpo se atrofia. O resultado, é claro, será ruim.
+
+## Sobre Alimentos Estranhos
+
+Vou escrever sobre minha experiência com alimentos estranhos.
+
+A função digestiva humana não consegue digerir completamente nada que não seja o que foi determinado como alimento humano pela natureza. Portanto, os medicamentos, sejam ocidentais ou chineses, não são alimentos e bebidas dados pela natureza. São alimentos e bebidas estranhos, corpos estranhos. E, sob o pretexto de remédio, engolir cobras, lesmas, minhocas, ou beber o sangue de seres vivos — tudo isso, por ser alimento estranho, não é digerido completamente. As toxinas permanecem e se tornam a causa de doenças.
+
+Recentemente, para suplementar o cálcio, recomenda-se comer espinhas de peixe. Isso também é um erro. Do peixe, deve-se comer a carne. As espinhas, a cauda, a cabeça, etc., devem ser descartadas. O fato de os dentes humanos não serem feitos para mastigar coisas como espinhas torna isso claro. Seria natural que fossem alimento para gatos. A teoria simples e infantil de comer ossos para nutrir os ossos e beber sangue para aumentar o sangue deve ser abandonada o mais rápido possível. A esse respeito, apresentarei alguns exemplos.
+
+Ouvi uma vez de uma mulher que foi enfermeira-chefe em um certo hospital por muitos anos. Um homem de quarenta e poucos anos morreu subitamente, sem nenhuma causa aparente. Como a causa da morte era um mistério, ele foi submetido a uma autópsia. No seu intestino, havia um acúmulo e um preenchimento de pequenos grãos pretos, que impediram o movimento intestinal e causaram a morte súbita. Descobriu-se que a causa da morte foram os comprimidos que esse homem tomou por muitos anos como laxante para a constipação.
+
+Houve outro caso de um homem de cerca de cinquenta anos que morreu subitamente por uma causa semelhante. A única diferença é que, neste caso, não foi um laxante, mas o uso contínuo de um digestivo que o levou à morte. A autópsia revelou um grande acúmulo do digestivo no fundo do estômago e no intestino.
+
+Um discípulo meu tratou um paciente com problemas de estômago. Ele tinha vários pequenos caroços na parte inferior do estômago e sempre sentia um leve desconforto. Ao receber nosso tratamento, ele vomitou várias vezes em pouco tempo, e os caroços desapareceram, assim como o desconforto. No vômito, saiu algo como lodo, com cheiro de lesma. Acontece que essa pessoa havia engolido várias lesmas mais de dez anos antes. As lesmas não haviam sido digeridas e permaneceram no corpo.
+
+Uma mulher que era cantora profissional engoliu duas lesmas para melhorar a voz. Anos depois, um pequeno caroço, como um câncer, apareceu no lado esquerdo de seu estômago e começou a crescer. Ela foi hospitalizada e operada. Para sua surpresa, uma das lesmas estava morta e solidificada, mas a outra ainda estava viva, havia crescido muito dentro de seu estômago e se tornado um grande caroço.
+
+Eu tratei uma mulher de cerca de trinta anos que, mais de dez anos antes, havia recebido várias injeções de veneno de víbora nos ombros e nas costas. Com o passar dos anos, uma solidificação se formou na área, causando muita dor. Foi um caso muito difícil, e a cura completa levou vários anos.
+
+Pessoas que engolem pó de cobra seca, bebem licor de cobra ou comem cobra, sem exceção, têm solidificações no estômago e no peritônio. E essa solidificação é mais maligna que a toxina urêmica, e a cura leva tempo.
+
+Exemplos como os que listei são inúmeros. Não conhecer isso e, para curar uma doença, gastar muito dinheiro, comer e beber coisas desagradáveis e malcheirosas pensando que são remédios, criar a causa da doença e até perder a vida — a estupidez é incomparável.
+
+## Febre
+
+Na medicina, várias teorias sobre a causa da febre foram propostas. Hoje, a teoria geral é que uma função chamada centro termorregulador existe no cérebro e que algum estímulo a ele gera calor. Diz-se também que o calor é gerado pelo movimento dos membros e pelo fígado e rins. E que a temperatura do corpo humano é produzida pela queima dos alimentos.
+
+Se essa teoria for verdadeira, e se, na ocorrência de uma doença, o veneno da doença estimula o centro termorregulador e causa febre, então, como já expliquei, a função chamada centro termorregulador não existe em nenhuma parte do corpo humano. Portanto, o significado de “estímulo do veneno da doença” não se sustenta. Na minha imaginação, essa teoria errônea surgiu porque, na maioria das doenças, durante a febre, há uma alta temperatura no cérebro e dor de cabeça, o que levou à crença errônea de que o centro termorregulador está na cabeça. Por isso, em todas as doenças febris, acredita-se que resfriar a cabeça com gelo é bom. Dizer que o movimento dos membros gera calor é provavelmente um erro devido ao aumento da temperatura por esse motivo e à febre do processo de purificação. Dizer que o fígado e os rins são a causa da febre é provavelmente um erro de interpretação do fato de que a maioria das pessoas tem uma febre baixa localizada constante na região do fígado e dos rins devido à purificação de toxinas solidificadas.
+
+E a teoria de que a temperatura do corpo é criada pela queima dos alimentos é, talvez, a mais risível. É verdadeiramente misterioso que os alimentos queimem dentro do sistema digestivo. Não seria como raciocinar sobre a temperatura do corpo humano da mesma forma que sobre um fogão? Ou seja, não seria imaginar a digestão dos alimentos como a queima do carvão?
+
+Ao explicar a causa da febre que descobri em minha pesquisa, quero deixar claro que é provavelmente uma teoria inédita. Peço ao leitor que a leia com atenção e a reflita.
+
+Toda a criação no universo é constituída de três elementos primordiais. E a geração e transformação de todas as coisas não ocorrem sem a força desses três elementos. Quais são esses três elementos? São o Sol, a Lua e a Terra. O Sol é a fonte do elemento-fogo, a Lua, do elemento-água, e a Terra, do elemento-terra. E as forças desses três elementos — fogo, água e terra — fluem, se cruzam e se unem vertical e horizontalmente. A verticalidade vai do céu à terra, em três estágios: o Sol, a Lua e a Terra. O fato de que, durante um eclipse solar, o Sol, a Lua e a Terra se alinham verticalmente em três estágios torna isso claro. Ou seja, o mundo celestial é o mundo do fogo, centrado no Sol; o mundo intermediário é o mundo da água, centrado na Lua; e a terra é o mundo da terra, centrado na Terra.
+
+A horizontalidade é a própria realidade do mundo em que nós, humanos, vivemos. O que isso significa? O mundo real na Terra consiste na existência do espaço e da matéria. A existência da matéria pode ser conhecida pelos cinco sentidos humanos, mas o espaço foi por muito tempo considerado como o nada. Com o progresso da cultura, descobriu-se que o espaço não é o nada, mas que existe uma semimatéria chamada ar (eu a chamo provisoriamente de semimatéria). E eu descobri que, no espaço, que até hoje se pensava conter apenas ar, existe outro elemento. Eu o chamo de “energia espiritual”. É verdade que certas religiões falam do mundo espiritual, de espíritos vivos e mortos, de possessão, e que ascetas e médiuns também falam de espíritos. No Ocidente também, com o desenvolvimento da ciência espiritual, a pesquisa sobre o espírito e o mundo espiritual avançou consideravelmente. Há registros como o famoso livro de Sir Oliver Lodge, “A Sobrevivência do Homem Após a Morte”, e o “Relato da Exploração do Mundo Espiritual” do Dr. Ward, que são bastante críveis, mas o escopo e o objetivo de minha pesquisa são completamente diferentes.
+
+O elemento da matéria é a terra. Que todas as coisas materiais vêm da terra e a ela retornam é algo que todos sabem bem. O elemento da semimatéria, a água, é emitido pela Lua e preenche o ar. A energia espiritual, no entanto, é irradiada pelo Sol e não é nem matéria nem semimatéria, mas sim imaterial. Por isso, não foi descoberta até hoje. Em termos simples, pode-se dizer que a terra é matéria, a água é semimatéria e o fogo é imaterial.
+
+Assim, o elemento da matéria é a terra, o do ar é a água e o da energia espiritual é o fogo. Esses três elementos se unem, e daí surge a força. Em termos científicos, a realidade do universo é a fusão e a atividade desses três elementos como partículas atômicas inimaginavelmente pequenas. O fato de que o espaço que respiramos tem a temperatura, a secura e a umidade adequadas para a vida se deve à fusão e harmonia do elemento-fogo e do elemento-água. Se o elemento-fogo desaparecesse e restasse apenas o elemento-água, tudo congelaria em um instante. Se, ao contrário, o elemento-água desaparecesse e restasse apenas o elemento-fogo, tudo explodiria em um instante e se tornaria nada. E esses dois elementos, fogo e água, se unem à terra, e a terra gera força, e todas as coisas são geradas e se desenvolvem. Por essa lógica, a natureza do fogo é queimar verticalmente, e a da água é fluir horizontalmente. O fogo queima com a água, e a água se move com o fogo. Se representarmos isso em um diagrama, seria assim.
+
+Desde a antiguidade, diz-se que o homem é um microcosmo. Essa lógica também se aplica ao corpo humano. O fogo, a água и a terra no corpo humano correspondem ao “coração, pulmões e estômago”. O estômago come o que vem da terra, os pulmões absorvem o elemento-água e o coração absorve o elemento-fogo. O coração, os pulmões e o estômago no corpo humano são os órgãos que absorvem os três elementos primordiais. O fato de essas funções ocuparem a parte mais importante da constituição do corpo humano também confirma essa lógica. Até hoje, o coração era considerado apenas um órgão do sangue, que enviava o sangue impuro para os pulmões e recebia de volta o sangue purificado pelo oxigênio. Isso se devia ao desconhecimento da existência do elemento-fogo.
+
+Assim, o estômago engole o alimento, ou seja, o elemento-terra, pela boca e pelo esôfago. Os pulmões absorvem o elemento-água pela respiração, e o coração absorve o elemento-fogo pela pulsação.
+
+Portanto, quando uma doença ocorre e há febre, é porque o coração está absorvendo do mundo espiritual a quantidade necessária de calor, ou seja, de elemento-fogo, para dissolver as toxinas solidificadas na parte doente. A pulsação do coração é uma ação de bomba para absorver o elemento-fogo do mundo espiritual. O fato de a pulsação do coração, ou seja, o pulso, aumentar antes da febre se deve ao fato de a absorção do elemento-fogo se tornar mais frequente. O calafrio que se sente nesse momento ocorre porque, para absorver a quantidade de calor necessária para a purificação, o envio para a temperatura do corpo é temporariamente reduzido. A queda da febre significa que a ação de dissolução da toxina terminou.
+
+Assim, o coração absorve o elemento-fogo do mundo espiritual sem um momento de descanso. Isso é a temperatura do corpo. Os pulmões também absorvem constantemente o elemento-água do mundo do ar pela respiração. A quantidade de água no corpo humano obtida pela absorção dos pulmões, além da que se bebe pela boca, é consideravelmente grande.
+
+Por essa lógica, quando uma pessoa morre, a temperatura do corpo se vai em um instante, e o corpo esfria. A água também desaparece, o sangue coagula, e o cadáver começa a secar. A explicação é que, com a morte, o espírito se desprende do corpo e entra no mundo espiritual. Como o elemento-fogo do espírito se foi, a água se condensa. Em outras palavras, o espírito, que é elemento-fogo, retorna ao mundo espiritual; a água retorna ao mundo do ar; e o corpo retorna à terra.
+
+Há um ponto a ser notado aqui. Usa-se um termômetro para medir a febre. Tanto os médicos quanto o público em geral pensam que este método é perfeito, mas, do meu ponto de vista, é muito imperfeito. A razão é a seguinte.
+
+Originalmente, na febre, a fonte do calor é, na verdade, uma área localizada. As pessoas pensam que é em todo o corpo, mas isso é um grande erro. Quando eu examino um paciente com febre de cerca de quarenta graus, a causa é o processo de purificação de uma solidificação do tamanho da ponta de um dedo. Ao dissolver essa solidificação, a febre baixa imediatamente em todo o corpo. Um processo de purificação intenso causa febre em todo o corpo, mas um processo fraco é localizado e radial, e não há febre fora da área circundante (embora o tamanho varie). Portanto, ao se colocar o termômetro na axila, se houver uma doença naquela área, como uma solidificação de toxina na inserção do braço ou uma neuralgia intercostal, a febre será detectada. Mas, nesse momento, a virilha, a região dos rins, a cabeça, etc., que estão distantes, não terão febre. Na prática, há até uma pequena diferença entre a axila direita e a esquerda. Há pessoas com uma diferença de até cinco décimos de grau. Por isso, digo que o método de medição da febre com um termômetro é imperfeito.
+
+O método de medição da febre que eu uso, no entanto, pode detectar até a febre mais leve. Ao colocar a palma da mão, pode-se sentir claramente até um décimo de grau de febre, e qualquer doença pode ser identificada. É claro que isso requer bastante prática, mas qualquer pessoa pode aprendê-lo com cerca de um ano de experiência.
+
+A seguir, explicarei o quão errôneo é aplicar gelo em casos de febre alta. A temperatura corporal adequada é de trinta e seis a trinta e sete graus. Isso porque essa temperatura é adequada para as funções vitais. Ao se aplicar gelo, a temperatura cai para zero grau, que é a temperatura do gelo. É natural que a atividade das funções da área que recebe o gelo seja severamente prejudicada. Por essa lógica, em casos de derrame cerebral, pneumonia, tifo e outras doenças de febre alta, o tratamento médico sempre aplica gelo na cabeça. Com isso, o cérebro fica em um estado de congelamento, entra em um estado de anemia paralítica, e a atividade das funções é prejudicada. Muitas vezes, a pessoa sucumbe não à doença original, mas ao gelo.
+
+A aplicação de gelo não só traz esses maus resultados, como também interrompe fortemente o processo de purificação. Por isso, eu gostaria que isso fosse absolutamente abolido.
+
+Há outro ponto importante: a ação de rebote dos antitérmicos. Imagino que nem os especialistas nem o público em geral sonhem com isso. O que acontece é que, quando se usa antitérmicos continuamente para uma doença, geralmente por mais de uma semana, uma ação de rebote começa a ocorrer gradualmente. É como a força de repulsão que surge quando se pressiona um objeto. Assim como o uso de laxantes causa constipação e o uso contínuo de diuréticos, ao contrário, diminui o volume de urina, o mesmo acontece aqui. Usa-se um antitérmico porque há febre. Usa-se um antitérmico e, por isso, a febre aumenta. Ao se repetir isso, uma febre que inicialmente era de trinta e sete ou trinta e oito graus acaba se tornando uma febre alta de mais de quarenta graus e muito persistente. Nesses casos, os médicos têm grande dificuldade, pois a causa da febre é desconhecida. A febre persistente em pacientes com tuberculose tem, em muitos casos, essa causa. É verdadeiramente terrível.
+
+## Pleurisia e Peritonite
+
+A pleurisia e a peritonite também são doenças bastante comuns. Comecemos pela pleurisia. Na medicina, ela é dividida em três tipos: pleurisia úmida, pleurisia purulenta e pleurisia seca. A pleurisia úmida ocorre quando se forma um espaço vazio entre as duas membranas que envolvem os pulmões, e nesse espaço se acumula água, ou seja, urina. A pleurisia purulenta é quando se acumula pus. E a pleurisia seca é quando há apenas o espaço, sem acúmulo de água ou pus.
+
+A causa desta doença pode ser espontânea ou secundária. A secundária é causada, por exemplo, por contusões no peito ou nas costas, ou por esforços como trabalho pesado, esportes, natação, etc. A espontânea ocorre sem nenhuma causa aparente. A causa da pleurisia úmida, seja secundária ou espontânea, é o acúmulo de urina excedente devido à atrofia dos rins. No tratamento médico da pleurisia úmida, usam-se diuréticos e se drena a água por punção. Os diuréticos, no entanto, têm um efeito reverso, e a evolução geralmente é desfavorável. A drenagem por punção tem uma evolução melhor. Mas, mesmo que se cure uma vez, é fácil ter uma recaída devido à urina residual solidificada.
+
+A causa da pleurisia purulenta é quase a mesma do mal de Pott, em que o pus da medula espinhal se infiltra e se acumula na pleura. A quantidade de pus é relativamente grande e, nos casos malignos, o tratamento médico consiste em drenar o pus por punção. Por vários meses ou mais, uma quantidade considerável de pus é drenada diariamente. No entanto, embora haja casos de pleurisia purulenta desde o início, a pleurisia úmida pode, após um longo tempo, supurar e se tornar purulenta. Há médicos que tratam com repouso, sem punção. Nesse caso, com o tempo, o pus se solidifica gradualmente, e o peito fica como se tivesse uma tábua. Vendo esse sintoma, alguns médicos dizem que os pulmões apodreceram e desapareceram, mas isso é um erro grosseiro. Esse sintoma geralmente ocorre em um dos pulmões, direito ou esquerdo. O pulmão com o pus solidificado não consegue respirar e fica parado, então o pulmão saudável tem que trabalhar o dobro, e a respiração se torna naturalmente profunda e difícil. Nesse momento, ao se olhar pelas costas, pode-se ver claramente que um pulmão está imóvel e o outro se move fortemente. Ao se dissolver o pus solidificado no pulmão imóvel, o pus é expelido vigorosamente como expectoração, e o pulmão começa a respirar gradualmente. Isso mostra que os pulmões não apodreceram e desapareceram. Houve um caso de um paciente que foi dito ter ambos os pulmões podres e inutilizáveis, que foi tratado por um discípulo meu e hoje está completamente curado, saudável e ativo. A pleurisia purulenta é considerada quase incurável pela medicina.
+
+No entanto, seja pleurisia úmida ou purulenta, se, ao adoecer, a pessoa não receber tratamento médico e deixar a doença seguir seu curso, a toxina urêmica e o pus serão expelidos como expectoração através da purificação natural, e a maioria dos casos se curará completamente.
+
+A pleurisia úmida é a mais comum, seguida pela purulenta. A pleurisia seca é extremamente rara. Pacientes diagnosticados com pleurisia seca, pela minha experiência, foram, na maioria dos casos, diagnosticados erroneamente com neuralgia intercostal.
+
+Aqui, é preciso falar sobre a neuralgia intercostal. Essa doença tem uma grande variação de gravidade. E uma de suas características é ser facilmente confundida com a pleurisia. Nos casos graves, até mesmo respirar causa uma dor insuportável. Se deixada em paz, ela se cura completamente com febre e expectoração. Mas o tratamento médico usa emplastros, gelo, injeções e toda sorte de terapias de solidificação. Por isso, embora se cure temporariamente, a doença sempre retorna.
+
+Os sintomas das três tipos de pleurisia e da neuralgia intercostal são dor ao respirar fundo, falta de ar, suores noturnos, sonolência excessiva, tontura, etc.
+
+A peritonite é uma doença muito semelhante à pleurisia. Também há dois tipos, úmida e purulenta, mas não há a seca. Na úmida, a urina se acumula no peritônio. Se forem usados diuréticos, como descrito em “Terapias Existentes”, a doença se agrava gradualmente. E se for realizada a drenagem por punção, o efeito reverso é ainda maior. A cada vez, a doença piora, e o inchaço aumenta cada vez mais, até que o abdômen fica maior do que o de uma mulher no final da gravidez. É claro que, nesse ponto, não há mais salvação.
+
+Na peritonite purulenta, o abdômen não incha muito. É mais uma solidificação. Por isso, à primeira vista, parece um abdômen normal, e no diagnóstico médico, mesmo em casos bastante graves, pode não ser detectada. Por isso, a peritonite purulenta pode até ser diagnosticada erroneamente como tuberculose pulmonar. Parece inacreditável, mas eu experimentei isso várias vezes e fiquei chocado. É verdade que, quando ocorre um processo de purificação na peritonite purulenta, os sintomas são febre, tosse, expectoração, perda de apetite, fraqueza, emagrecimento, etc., então talvez não seja de se espantar que seja confundida com tuberculose pulmonar. Mas é uma infelicidade para o paciente, e o método de diagnóstico da medicina precisa ser melhorado. Por isso, eu experimentei várias vezes curar completamente a tuberculose pulmonar em tais pacientes tratando apenas o peritônio e os rins.
+
+Essa peritonite purulenta é algo que quase todos, sem exceção, têm em algum grau. Provavelmente não há ninguém que não a tenha. Isso pode ser facilmente verificado pela palpação com a ponta dos dedos. Há um nódulo ao redor do umbigo, que é uma solidificação de pus, e é imediatamente reconhecível. E o fato de se ter dor de barriga ou diarreia de vez em quando, sem ter comido nada que cause intoxicação, deve-se ao processo de purificação dessa solidificação. Há também pessoas que não sentem nenhuma dor. Quando eu aponto isso para elas, elas ficam surpresas. Pessoas com pus solidificado no peritônio sempre têm uma cor de rosto ruim. Pela minha experiência, eu posso dizer pela cor do rosto se há peritonite purulenta e qual a sua gravidade. A causa da peritonite é, obviamente, a atrofia dos rins. Portanto, a menos que os rins sejam curados, ela nunca se curará completamente.
+
+## Saúde Verdadeira e Pseudo-saúde
+
+Eu disse antes que quase todos os japoneses estão doentes. Ao dizer isso, alguns podem dizer que estou errado, que há muitas pessoas saudáveis e ativas no mundo. É verdade que, se olharmos apenas para a aparência externa, elas parecem muito saudáveis, e não é de se espantar que se pense assim. Mas vou explicar isso em detalhes.
+
+O significado do “processo de purificação” que descobri, ou seja, que “a doença é um processo de purificação”, é, em outras palavras, que um processo de dissolução natural ocorre nas toxinas que se solidificaram. Portanto, antes do início do processo de dissolução, não há sintomas de doença, e a pessoa é como uma pessoa saudável. Ou seja, mesmo uma pessoa com toxinas, se elas estiverem solidificadas e não houver nenhum início de processo de dissolução, ela se considera saudável, e como não tem febre e sua cor e físico parecem saudáveis, mesmo que um médico faça um exame de saúde, com o diagnóstico da medicina de hoje, não se consegue descobrir as toxinas solidificadas antes do início da purificação. É inevitável que se erre e se considere a pessoa completamente saudável. Por isso, há muitos casos de pessoas que foram consideradas um modelo de saúde no diagnóstico médico e que, pouco tempo depois, adoeceram e morreram. A razão é essa.
+
+Portanto, eu chamo de pseudo-saúde a pessoa que, embora tenha toxinas, ainda não iniciou a purificação. No diagnóstico desta arte médica, no entanto, pode-se conhecer todas as toxinas de uma pessoa com pseudo-saúde. O que a medicina chama de doença latente é provavelmente uma suposição sobre essas toxinas. No diagnóstico médico, com base nos sintomas que aparecem na medição da pressão arterial, na reação à tuberculina, na velocidade de hemossedimentação, nos exames de sangue para sífilis, etc., prevê-se a doença latente. Mas não se consegue saber com precisão em qual órgão ou em qual local a causa da doença está latente. Portanto, é natural que não se consiga prevenir a ocorrência da doença. Nesse sentido, a medicina preventiva que se prega recentemente não tem nenhum significado. No final, não passa de uma oração vazia.
+
+Desde a antiguidade, diz-se que o homem é um vaso de doenças e se preocupa com a possibilidade de adoecer a qualquer momento. Buda disse que os quatro sofrimentos do homem são nascimento, doença, velhice e morte, e que a doença é inevitável. Isso ocorre porque todos estão em um estado de pseudo-saúde, e não se sabe quando o processo de purificação começará. Portanto, à medida que o número de pessoas verdadeiramente saudáveis aumentar, essas palavras desaparecerão.
+
+Sendo assim, a saúde verdadeira só pode ser a de uma pessoa completamente sem toxinas. Mas uma pessoa tão completamente saudável, entre os japoneses de hoje, provavelmente há uma em dez mil. A razão é que as pessoas que vivem mais de noventa anos são saudáveis assim. Com esta arte médica, no entanto, pode-se se tornar uma pessoa sem toxinas, completamente saudável, e viver mais de noventa anos é muito fácil.
+
+## Tuberculose e a Ação do Espírito
+
+A medicina moderna não parece dar muita importância à influência da ação do espírito na tuberculose pulmonar. Gostaria de fazer uma crítica a esse respeito.
+
+Originalmente, o que diferencia os seres humanos dos outros animais é a existência da vida espiritual. Ou seja, eles são ricos em emoções como alegria, raiva, tristeza e prazer. Sua sensibilidade aos impulsos externos é extremamente aguçada, e a influência do espírito sobre o corpo também é muito grande. Todos sabem que, quando se tem preocupações ou ansiedade, o apetite diminui, o rosto fica pálido, fica-se silencioso, deprimido, com insônia, dor de cabeça e vários outros fenômenos ocorrem. Portanto, se esses sofrimentos espirituais persistirem, podem levar à neurastenia e, em casos extremos, até à doença mental.
+
+Por essa lógica, ao se considerar o problema da tuberculose hoje, a influência da ação do espírito é algo que não pode ser ignorado. É o fato de que o que não é tuberculose se torna tuberculose verdadeira pela ação do espírito. Por exemplo, suponha que em uma família surja um paciente com tuberculose. É natural que todos na família comecem a se preocupar com a possibilidade de serem contagiados. Essa ansiedade fica constantemente na mente e não desaparece. Se, por acaso, a pessoa contrai um resfriado, que normalmente seria curado facilmente, nesse caso, ela pensará: “Será que finalmente fui contagiado pela tuberculose?”. Nesse caso, ela procurará rapidamente um médico. O médico, que também estava pensando na possibilidade de contágio para os membros da família, trata o caso com especial cuidado e cautela. O paciente pensa: “Então é isso”, e a ansiedade surge, e a cura não progride. Com isso, ele perde o ânimo, o apetite diminui, e surgem sintomas como palidez, emagrecimento, insônia, etc. Como ele sempre viu e ouviu que esses são sintomas de doença pulmonar, a situação piora cada vez mais. Finalmente, o médico também fica sem saber o que fazer. A ansiedade do paciente aumenta ainda mais, e gradualmente surgem os sintomas da tuberculose.
+
+A noção de que se contraiu tuberculose pulmonar leva imediatamente à associação com a incurabilidade, e a cena final da morte aparece na mente. Finalmente, a doença se torna uma tuberculose autêntica. Ah, o que no início era um simples resfriado, pela força da ideia, avança até a morte.
+
+Mesmo por isso, pode-se entender o quão grande é a influência da ação do espírito. Na verdade, penso que há um número surpreendentemente grande de pacientes com tuberculose que seguiram esse caminho. Portanto, considerar contagiosa a tuberculose, que não é, e considerar incurável a doença pulmonar, que deveria ser curável, também é, sem dúvida, uma das causas do aumento da tuberculose.
+
+Entre os animais, diz-se que especialmente as vacas contraem tuberculose. No entanto, a expectativa de vida de uma vaca saudável e de uma vaca com tuberculose não difere. Portanto, a tuberculose não as afeta. Mesmo por isso, pode-se saber o quão terrível é a ação do espírito nos seres humanos.
+
+Nesse sentido, o homem moderno, especialmente na juventude, vive em grande parte em ambientes coletivos como escolas, empresas, fábricas, exércitos, etc. Se um amigo ou alguém próximo adoece, é inevitável que se torne especialmente nervoso. Portanto, se nesse momento se contrai um resfriado e ele se complica, o medo do contágio surge, e não se pode dizer que não haja casos em que a pessoa se torna um paciente com tuberculose pela ação do espírito.
+
+Este é um exemplo do Ocidente, acho que da França. Para testar a relação entre doença e ação do espírito, foi escolhido um prisioneiro condenado a uma pena pesada. Ele era, obviamente, completamente saudável. Primeiro, os médicos fizeram um exame de saúde e o informaram de que ele tinha tuberculose latente. Mas, como ele não sentia nada de anormal, não acreditou de forma alguma nas palavras dos médicos. Depois de um tempo, fizeram outro exame de saúde e disseram que a tuberculose latente estava progredindo um pouco, mas ele ainda não quis acreditar. Depois de mais um tempo, fizeram um terceiro exame de saúde e disseram que a tuberculose latente havia avançado. Nesse ponto, mesmo ele, vendo que os médicos o advertiam pela terceira vez, acreditou que estava realmente sendo consumido pela tuberculose. De repente, começou a enfraquecer e, com o passar dos dias, desenvolveu os sintomas de uma tuberculose verdadeira e acabou morrendo. Lembro-me de ter lido isso em um livro. Este é um bom exemplo.
+
+Mesmo por isso, se a minha teoria de que a tuberculose não é contagiosa ou que é sempre curável se tornar de conhecimento geral, penso que a boa influência não será pequena.
+
+## A Arte de Curar os Rins e o Método de Rejuvenescimento
+
+Esta terapia, em uma palavra, pode ser chamada de arte de curar os rins. Como já expliquei em detalhes, as causas das doenças são três: a toxina variólica, a toxina urêmica e a toxina medicamentosa. E o local onde essas três toxinas mais atuam é, sem dúvida, os rins. Vou explicar a ordem.
+
+Quando um ser humano nasce neste mundo, a toxina congênita que mais causa doenças é a toxina variólica. Ela se acumula primeiro na região dos rins, nas costas. É claro que a maioria dos bebês também a tem. Por isso, crianças que demoram a andar, o que é comum, têm essa causa. Ao se tratar isso, elas se curam facilmente. À medida que o ser humano cresce, as três toxinas se acumulam na região dos rins, e a solidificação aumenta gradualmente. A pressão resultante atrofia os rins. Como já expliquei, a urina excedente vaza e se soma a essa solidificação. Consequentemente, os rins são cada vez mais pressionados, o que aumenta a urina excedente, e a solidificação aumenta ainda mais. Como resultado, a urina excedente se move gradualmente para ambos os lados da coluna vertebral, nas costas, e se acumula. Sobe ainda mais e se torna a rigidez nos ombros. Passa pelo pescoço e atinge o cérebro, é claro, e também os olhos, os ouvidos, o nariz, as gengivas, a garganta, etc. Em algumas pessoas, atinge também o peito, a inserção dos braços, o estômago, o fígado, o peritônio e desce até as pernas. Nesse caso, como já expliquei, o acúmulo é maior nos pontos de concentração nervosa.
+
+Assim, como a disfunção renal é a causa de todas as doenças, antes de mais nada, é preciso dissolver e remover a solidificação na região dos rins, nas costas. Com isso, todas as doenças começam a se curar.
+
+Aqui, é preciso conhecer o processo de purificação de equilíbrio. Ao se dissolver e remover uma solidificação de toxina em um local, as outras solidificações de toxina, para se equilibrarem com esse estado de purificação, iniciam um processo de autopurificação. É claro que, sendo um processo de autopurificação, ele é acompanhado de febre ou dor. Portanto, quando a região dos rins, que é a causa fundamental, é purificada, as toxinas que se espalharam para outras partes, como galhos, são curadas em todo o corpo através da purificação natural de equilíbrio. É inevitável. Por essa lógica, promover a atividade dos rins é o único método para a cura de todas as doenças e a promoção da saúde.
+
+Quando a disfunção renal é removida e a atividade se torna vigorosa, muitos efeitos positivos começam a aparecer. O fenômeno mais notável é o rejuvenescimento. A pessoa rejuvenesce pelo menos dez a vinte anos. Por que isso acontece? A função dos rins, além de eliminar as toxinas do corpo através da urina, é produzir hormônios. A medicina de hoje injeta hormônios de fora, mas isso, ao contrário, só ilude com um efeito temporário e enfraquece os rins. É como a indústria nacional que definha por causa da importação de produtos estrangeiros. Nesse sentido, o efeito desta terapia, que pode produzir infinitamente hormônios nacionais muito superiores aos importados, é, mesmo que se olhe apenas para este ponto, grandioso.
+
+Como resultado disso, é claro que o vigor aumenta, surge uma sensação de bem-estar, a pessoa se torna otimista, e sua visão da vida muda completamente. Consequentemente, traços de personalidade como raiva, irritabilidade, impaciência, etc., desaparecem. A pessoa se torna mais sociável e cooperativa, trabalha com prazer e perseverança, e sua eficiência aumenta muito. Dizer isso pode parecer como ser atingido no rosto com um bolinho de arroz doce, mas afirmo que não há nenhum exagero. Qualquer um que experimentar saberá que não é mentira. Por isso, eu sempre penso: se os rins dos japoneses se tornarem saudáveis, antes de mais nada, a eficiência aumentará, a produção aumentará, e como o número de pessoas pessimistas e deprimidas diminuirá, a sociedade se tornará mais alegre, e as pessoas passarão a desfrutar da vida. Nesse sentido, não é exagero dizer que esta arte de curar os rins é um método de transformação do corpo e da mente que supera um milhão de sermões.
+
+A seguir, preciso falar um pouco mais sobre a purificação de equilíbrio. À medida que as purificações de equilíbrio mencionadas ocorrem sucessivamente, é como se o corpo indicasse onde estão as solidificações de toxina. Assim, todos os locais com toxinas são finalmente revelados e curados, e a pessoa se torna completamente saudável.
+
+Quando um paciente recebe esta terapia pela primeira vez, no dia seguinte, ele pode se sentir indisposto. Isso não se deve ao local tratado, mas sim ao fato de que uma purificação de equilíbrio está ocorrendo em um local não tratado. É uma febre baixa, e por isso a pessoa se sente indisposta. Ao se tratar o local não tratado no dia anterior, a cura é completa.
+
+Recentemente, as autoridades têm dito ao público em geral para andar com o peito estufado. Se os rins forem completamente curados, a pessoa naturalmente estufará o peito. A causa de os jovens não conseguirem estufar o peito e de os idosos ficarem com as costas curvadas é inteiramente a solidificação de toxina urêmica nas costas ou na região lombar. Por isso, por mais que se promova o peito estufado hoje, a menos que os rins se tornem saudáveis, será uma imposição artificial e forçada, que causará dor. Pode haver um efeito temporário, mas a durabilidade será pequena.
+
+Neste ponto também, o efeito de nossa arte de curar os rins é grande.
+
+## O Problema Populacional e Esta Terapia
+
+Se esta terapia se difundir, o grande problema do declínio populacional, que hoje preocupa tanto a nação, poderá ser resolvido.
+
+Qual é a causa da infertilidade? É exatamente como expliquei no tópico anterior. A atrofia dos rins causa uma deficiência de hormônios. A deficiência de hormônios leva a uma fraqueza sexual, o que resulta em uma diminuição da fertilidade. É claro que isso não se aplica apenas às mulheres, mas também aos homens. Especialmente nas mulheres, a atrofia dos rins causa a solidificação de toxina urêmica no peritônio, que comprime as trompas de Falópio ou altera a posição do útero, causando retroversão ou anteversão, o que dificulta a concepção.
+
+Sendo assim, a frigidez e a aversão ao marido em mulheres são todas resultado da atrofia dos rins. O que a medicina chama de subdesenvolvimento do útero também é, obviamente, causado pela atrofia dos rins.
+
+Portanto, se os rins se tornarem saudáveis, a mulher certamente engravidará, o casal viverá em harmonia, e problemas detestáveis como disputas familiares e divórcios diminuirão drasticamente.
+
+Não posso deixar de me elogiar. Fora desta arte médica, a chave para a solução do problema populacional não pode ser encontrada de forma alguma!
+
+## A Aplicação Desta Terapia
+
+Como já explicado, esta arte médica é uma arte de curar os rins. Portanto, ao se aplicar o tratamento, primeiro se trata a cabeça, o pescoço e os ombros. Em seguida, o paciente é colocado de bruços, e com a palma da mão e os dedos, explora-se a quantidade de toxinas na região dos rins, direito e esquerdo. Entre os japoneses de hoje, pode-se dizer que não há uma única pessoa que não tenha acúmulo de toxinas na região dos rins. E essa toxina pode ser dolorosa ou indolor, mas a maioria é indolor. O local mais importante é entre a coluna vertebral e a última costela, ou seja, se traçarmos um triângulo, o ponto central. Se essa área for macia e ceder à pressão dos dedos, está bom. Mas provavelmente não há ninguém assim. A maioria das pessoas tem uma solidificação extensa, e algumas até têm uma protuberância. É, obviamente, uma solidificação de urina excedente. Ela se move para cima, em ambos os lados da coluna vertebral, e há uma grande quantidade de solidificação especialmente entre a omoplata e a coluna vertebral. Essa solidificação está relacionada ao estômago. Ao dissolvê-la, a atividade do estômago é promovida, e o apetite aumenta. Portanto, em pacientes com câncer de estômago, a dissolução dessa solidificação traz bons resultados. A toxina solidificada também se move para baixo, da região dos rins até a região do quadril. Especialmente quando há uma solidificação em contato com o osso do quadril, geralmente há uma anormalidade nas pernas. Ao dissolvê-la, a cura é boa.
+
+Sendo assim, o tratamento da região dos rins deve ser a primeira prioridade, o da região das omoplatas, a segunda, e o resto, a terceira. Em geral, a solidificação de toxina na região do rim direito é maior, e a do esquerdo é um pouco menor. No entanto, a causa da apendicite, da pielonefrite e da icterícia é a atrofia do rim direito.
+
+Ao se dissolver a toxina solidificada na região dos rins, a toxina dissolvida se infiltra nos rins e é expelida com a urina. A proteína é essa toxina dissolvida. Portanto, nesse momento, é claro que haverá alguma proteína na urina. E, à medida que a toxina na região dos rins se dissolve, todas as doenças do corpo são bem curadas pela ocorrência de um processo de autopurificação de equilíbrio. E a dissolução da toxina na região dos rins torna a dissolução das solidificações de toxina em outros locais surpreendentemente fácil.
+
+A atividade dos rins também promove a força de purificação de todo o corpo, e pode haver febre. Mas isso acelera muito a cura, então é motivo de alegria.
+
+Portanto, eu descobri que, se os rins se tornarem saudáveis, todas as doenças serão curadas, o corpo e a mente se tornarão sãos, e se obterá felicidade e longevidade. O ideal da humanidade, que se pensava ser impossível, tornou-se aqui uma realidade.
+
+Por isso, penso que a descoberta desta arte de curar os rins é a maior descoberta da história da humanidade.
+
+A seguir, há um ponto a ser notado: pacientes com peritonite purulenta. Se apenas a região dos rins for tratada, em muitos casos, ocorrerá uma purificação de equilíbrio, causando dor de barriga e diarreia. Portanto, em tais pacientes, deve-se tratar a região dos rins e também a do peritônio.
+
+## A Arte de Curar o Coração
+
+Depois dos rins, o órgão mais importante é, sem dúvida, o coração. Portanto, vou explicar que tipo de boa influência um coração saudável, obtido através desta terapia, exerce sobre as doenças, as funções gerais do corpo, os aspectos espirituais, etc.
+
+Como já expliquei, um dos locais onde a urina excedente dos rins mais se acumula é entre a omoplata e a coluna vertebral. Isso fica exatamente na parte de trás do coração. Portanto, essa solidificação de toxina pressiona o coração, e é natural que sua atividade seja prejudicada. E que influência a força da atividade do coração tem? Como já expliquei, pelo princípio de que, no corpo humano, o coração é fogo, os pulmões são água e o estômago é terra, é a seguinte.
+
+Primeiro, à medida que a toxina que pressiona o coração é dissolvida, a atividade do coração se torna vigorosa. Como resultado, a absorção do elemento-fogo aumenta. É claro que a atividade dos pulmões, que são água, é fortalecida. É como se a força do fogo que aquece a água aumentasse. Consequentemente, a atividade dos pulmões se torna vigorosa, e a toxina solidificada nos pulmões de um paciente com tuberculose é dissolvida e expelida mais rapidamente, o que acelera a cura. A atividade dos pulmões também promove a atividade do estômago, e o apetite aumenta. Ambos se combinam para produzir um efeito notável.
+
+Mas não é só isso. Há algo que não pode ser ignorado: uma mudança positiva na personalidade. A função do coração, por sua relação com a fonte do calor, é, em termos de personalidade, a função de onde brota o amor. Portanto, uma atividade vigorosa do coração significa que a emoção do amor se torna mais forte, e a personalidade muda completamente. Como exemplo disso, a personalidade dos pacientes com tuberculose é, em geral, fraca em paixão amorosa e dominada pela razão. Pela minha experiência no tratamento de muitos pacientes com tuberculose, este é um fato indiscutível.
+
+Nesse sentido, esta arte de curar o coração acelera a cura da tuberculose pulmonar e diminui o número de doentes. É desnecessário dizer o quão eficaz ela é para a solução do problema da tuberculose.
+
+## O que é a Medicina?
+
+A medicina, sem dúvida, deve curar todas as doenças, melhorar a saúde da nação e, com isso, contribuir para o progresso do Estado. Por isso, como um dos departamentos mais importantes entre as várias estruturas do Estado, ela recebe um tratamento especial do governo. E, ao se ver que ela detém a chave para a solução do problema dos recursos humanos, que é uma questão urgente no momento, a importância de sua missão é inquestionável.
+
+Até agora, eu apontei todos os erros da medicina ocidental com teoria e provas. Mas há um problema que não pode ser ignorado. É, como já mencionei, a questão da saúde dos médicos e de suas famílias. Eu penso: se a medicina moderna fosse verdadeiramente avançada, sua prova deveria se manifestar de forma precisa. Por mais que se construam teorias acadêmicas, se publiquem novas teses, se ostentem os avanços de novos medicamentos, equipamentos e métodos, se isso não mostrar um efeito prático, não terá nenhum significado.
+
+Portanto, se a medicina realmente avançou, ela deveria mostrar sua prova ao mundo e silenciar os críticos da medicina ocidental como eu. Se isso for impossível, a palavra “progresso da medicina” não passará de uma palavra vazia. Se for assim, penso que a medicina ocidental deveria ser dissolvida e reconstruída sob uma nova teoria baseada em fatos. Se eu disser isso, talvez pareça muito radical. Mas eu não digo isso levianamente. Digo porque tenho razões para dizê-lo. Vou examiná-las sem rodeios.
+
+A prova mais convincente do valor da medicina ocidental seria, como já mencionei, que a saúde dos próprios médicos e de suas famílias estivesse acima do nível da população em geral. No entanto, ao olharmos para a realidade de hoje, há motivos para suspeitar que está, na verdade, abaixo do nível da população em geral. A curta vida dos doutores em medicina, a alta taxa de morbidade dos médicos, a fragilidade de suas famílias e a alta proporção de filhos de médicos com tuberculose. É claro que os próprios médicos, para proteger suas vidas, tomam o máximo cuidado. E, para os doentes em suas famílias, eles tomariam medidas melhores do que o diagnóstico precoce. Não deveria haver atrasos no tratamento. No entanto, se a realidade é essa, a medicina preventiva que se prega recentemente também não tem sentido. A razão é que já foi provado experimentalmente que a prevenção é difícil para os próprios médicos.
+
+Portanto, se a medicina ocidental quer mostrar à sociedade que realmente avançou, antes de mais nada, a saúde dos médicos e de suas famílias deve estar muito acima do nível da população em geral. Ao verem isso, as pessoas não teriam como não confirmar o progresso da medicina ocidental. Mas isso é provavelmente impossível.
+
+Tanto as autoridades quanto os especialistas, sempre que abrem a boca, falam da falta de conhecimento de higiene geral e tentam impor injeções e outros métodos à força. E é um fato que, entre a população, há um número considerável de pessoas que os evitam ou não lhes dão atenção. Isso é a prova de que a população não confia plenamente na medicina ocidental. Portanto, as autoridades deveriam, antes de mais nada, considerar isso. Por mais que seja a massa, ela sabe o quão preciosa é a vida. Como já mencionei, a saúde dos médicos e de suas famílias é precária. Há casos, embora raros, de morte súbita após injeções de tifo, e muitos casos de pessoas que chegam à beira da morte após uma injeção de difteria. Ao saberem disso, é natural que a massa sinta um certo receio. E não são poucos os casos de pessoas que perdem a vida devido a erros cirúrgicos. Ouvi dizer anos atrás que um certo cirurgião gostava de operar pacientes que não eram seus parentes, mas nunca operava seus familiares ou parentes. Isso provavelmente era por medo de cometer um erro cirúrgico.
+
+Tudo isso se deve ao fato de que a medicina ocidental não mostra um efeito comprovado. Ou melhor, não consegue mostrá-lo. Como resultado disso, é inevitável que a moxabustão e as terapias populares estejam em voga recentemente. E, ao olharmos para a tendência dos pacientes hoje, é um fato inegável que aqueles que valorizam a teoria recorrem à medicina, e aqueles que valorizam a prática recorrem às terapias populares.
+
+Portanto, não é preciso dizer muito. A medicina ocidental deve provar que é eficaz contra todas as doenças, de forma confiável, e que não tem nenhum efeito colateral. Fora isso, será impossível fazer com que a nação confie plenamente na medicina ocidental. Se tal efeito fosse alcançado, a própria nação pediria as injeções, e a hesitação em relação às cirurgias desapareceria. É claro que a moxabustão, criada pelos antigos indianos, a medicina chinesa, criada há mais de dois mil anos pelos chineses, e as terapias populares atuais desapareceriam. No entanto, apesar de a realidade ser o oposto, fala-se do progresso da medicina ocidental. É aí que fica algo que não se encaixa.
+
+Preciso dizer outra coisa importante. É o movimento pela saúde do povo e as diretrizes para as medidas contra a tuberculose que estão sendo implementados agora. É claro que eles não vão além dos métodos da medicina ocidental. Qual será o resultado? Penso que não se poderá obter resultados melhores do que o nível de saúde das famílias dos médicos. A razão é que, se as famílias, que são as mais próximas dos médicos, não superam o nível da população em geral, então será assim. Portanto, não posso deixar de desejar que o dispêndio de uma grande quantia do tesouro nacional e a alocação de muitos recursos humanos para isso não terminem em vão.
+
+No entanto, ao se conhecer esta arte médica, a saúde da família também se torna muito superior ao nível geral, e se pode criar uma família idealmente saudável. Isso é um fato. Em outras palavras, enquanto a medicina ocidental é externa, esta arte médica é interna. Nesse sentido, o que peço às autoridades é que não dependam apenas da medicina ocidental, mas que investiguem e estudem todas as terapias populares e estabeleçam uma política de saúde baseada na prática.
+
+## O Processo de Cura da Tuberculose Pulmonar
+
+Os sintomas da tuberculose no primeiro e segundo estágios são febre baixa, tosse, expectoração, suores noturnos, fadiga, alguma perda de apetite, etc. Nesse nível, a doença pode ser curada mesmo pela cura natural. O método é fazer exercícios na medida em que não causem muito sofrimento. Com isso, é claro que os sintomas acima mencionados aumentarão. No entanto, como isso acelera o processo de purificação, os sintomas melhoram, e a doença caminha para a cura. Quanto à alimentação, o melhor é uma dieta vegetariana. A esse respeito, contarei minha experiência.
+
+Aos quinze anos, tive pleurisia. Com tratamento médico, fiquei completamente curado em cerca de um ano e estive saudável por um tempo, mas tive uma recaída. Desta vez, a evolução não foi boa, e a doença piorou gradualmente. Depois de mais de um ano, fui finalmente diagnosticado com tuberculose no terceiro estágio. Eu tinha dezoito anos na época. O último médico que me examinou foi o falecido Dr. Tatsukichi Irizawa. Após um exame minucioso, ele determinou que não havia mais esperança de cura. Então, eu tome-me uma decisão. Se eu ia morrer de qualquer maneira, não havia outra escolha a não ser encontrar um método diferente e me curar milagrosamente. Naquela época, meu único prazer era pintar. Ao olhar para velhos livros de pintura, encontrei um livro com desenhos de várias ervas medicinais usadas na medicina chinesa. Ao olhá-lo, tive uma revelação. Até então, eu estava comendo muitos alimentos nutritivos de origem animal. É claro que comia carne de boi e de frango, e até cozinhava o mingau de arroz com leite. Naquela época, os médicos pregavam que a nutrição se limitava a alimentos de origem animal, e eu seguia isso. Mas, ao ver aquele livro, pensei: os vegetais também têm propriedades medicinais e nutritivas. Pensando bem, na época das guerras civis, a alimentação era quase inteiramente vegetariana, mas, como se vê nos registros históricos, surgiram heróis e grandes homens como nuvens. Então, talvez o vegetarianismo seja bom. Especialmente para os japoneses. Decidi praticá-lo com firmeza. No entanto, para ter certeza, experimentei uma dieta vegetariana por apenas um dia e me senti muito bem. Continuei por dois, três dias, e me senti cada vez melhor. Percebi o erro da medicina ocidental e, depois de cerca de uma semana, abandonei os medicamentos. Continuei assim por cerca de um mês, e a doença estava quase completamente curada. Continuei com a dieta vegetariana por três meses. Como resultado, fiquei mais saudável do que antes de adoecer. Depois disso, tive outras doenças, mas nunca mais tive sintomas de tuberculose. Ficou claro que eu estava completamente curado. E, hoje, aos sessenta e poucos anos, mais de quarenta anos depois, estou vigoroso e com uma saúde que supera a dos jovens. Isso mostra que a tuberculose não é de forma alguma algo a ser temido.
+
+Penso que este fato pode servir de referência para os pacientes com tuberculose.
+
+Este é o processo de cura natural. É desnecessário dizer que, com a aplicação desta terapia, o tempo é reduzido a uma fração disso.
+
+Há outro ponto a ser notado aqui. Há um método extremamente eficaz para o sintoma da hemoptise: a dieta vegetariana. Por mais violenta que seja a hemoptise, o efeito decisivo da dieta vegetariana é algo que não pode mais ser duvidado, com base em inúmeros exemplos. Recentemente, há um número considerável de especialistas que defendem isso. Consequentemente, o fato de que, ao contrário, a ingestão de carne induz a hemoptise também se tornou claro.
+
+A seguir, comentarei sobre a tuberculose no terceiro estágio e além.
+
+No processo de cura da tuberculose, há uma particularidade que não se vê em outras doenças. Ela se limita, pode-se dizer, aos pacientes no terceiro estágio e além. Vou explicar sobre isso.
+
+Quando um paciente com tuberculose no terceiro estágio ou além recebe este tratamento, ele mostra um resultado muito bom. Em pouco tempo, todos os sintomas da doença melhoram, e ele pensa que a cura completa está próxima e se alegra. De repente, sintomas como febre alta, tosse, expectoração, perda de apetite, etc., surgem sucessivamente, e ele se surpreende. E esses sintomas de recaída são bastante persistentes. Com o tratamento, o veneno da doença é expelido, e os sintomas diminuem. O problema é que a fraqueza aumenta. Como resultado, embora os sintomas da doença melhorem muito, há casos em que a pessoa sucumbe à fraqueza.
+
+Por que isso acontece? Um paciente com tuberculose, ao ter o primeiro processo de purificação, o suprime com tratamento médico. A força de purificação se torna gradualmente fraca. A doença continua em um processo de avanços e recuos, e quando já não se sabe quando a melhora virá, muitos recorrem a esta terapia. Nesse caso, como as toxinas que se acumularam após o primeiro processo de purificação são dissolvidas, um efeito temporário aparece. O apetite do paciente aumenta, ele começa a se exercitar gradualmente, e a força de purificação se regenera. A condição se torna semelhante à do momento do primeiro processo de purificação. No entanto, se o estado de saúde fosse o mesmo do primeiro processo de purificação, a força física seria suficiente para durar até o final do processo, e a cura completa ocorreria. Mas, como a pessoa está enfraquecida por um longo período de tratamento equivocado, mesmo que melhore temporariamente, ela não consegue suportar um processo de purificação vigoroso e morre de fraqueza.
+
+Portanto, ao se tratar um paciente com tuberculose no terceiro estágio ou além, o que se deve fazer para evitar esse mau resultado? Vou escrever sobre isso.
+
+Quando, após uma melhora temporária, ocorre uma nova purificação, ela invariavelmente apresenta os seguintes sintomas: a região do bulbo raquidiano, direito ou esquerdo, fica especialmente inchada, e ali ocorre uma febre alta. Se o lado direito estiver inchado, há uma grande solidificação no rim direito. Se o esquerdo estiver inchado, há uma grande solidificação no rim esquerdo. Quase não há ninguém com a região do bulbo raquidiano simétrica. É claro que, se houver uma solidificação em um rim, o outro também terá alguma. E se houver uma solidificação nos rins, haverá sempre uma peritonite purulenta. Especialmente nos pacientes com tuberculose, isso é notável. E é também a causa da perda de apetite. Portanto, quando ocorre uma nova purificação, primeiro, à medida que a solidificação na região dos rins se dissolve e diminui, a solidificação de toxina na região do bulbo raquidiano и na do peritônio se torna muito fácil de dissolver. E, tratando primeiro a região dos rins, depois a do bulbo raquidiano e a do peritônio, e em seguida a do estômago, a do fígado, etc., e, se necessário, tratando várias vezes ao dia, obtêm-se resultados muito bons. O processo de cura se torna regular, e mesmo o terceiro estágio pode ser completamente curado.
+
+## Sobre a Vacina BCG
+
+Recentemente, o governo decidiu aplicar uma vacina chamada BCG em todos os jovens após a conclusão do ensino fundamental. Sobre essa vacina, o Sr. Masayasu Kusumoto, técnico da Divisão de Tuberculose do Ministério da Saúde, disse:
+
+“Ao olharmos para o estado de desenvolvimento da tuberculose em nosso país, a taxa de desenvolvimento da doença em pessoas não infectadas é três vezes maior do que em pessoas já infectadas. Isso nos diz que aqueles com reação negativa à tuberculina têm um risco maior de desenvolver a doença do que os com reação positiva. Este fato mostra que também na tuberculose existe algum tipo de imunidade. Com base nessa imunidade à tuberculose, tentou-se no passado a imunização artificial com vacinas de bacilos mortos ou a inoculação de uma quantidade muito pequena de bacilos da tuberculose, mas todos foram completamente ineficazes ou, ao contrário, perigosos, e não tiveram sucesso. A vacina BCG começou quando os senhores Calmette e Guérin, na França, descobriram em 1904 uma cepa do bacilo da tuberculose bovina (que causa tuberculose em bovinos e é diferente do humano) com uma virulência extremamente fraca. Eles provaram que sua inoculação em humanos era absolutamente segura e que conferia imunidade a pessoas não infectadas, e tiveram sucesso em cultivá-la e transformá-la em vacina. Em nosso país também, ela tem sido estudada há mais de dez anos, passou por uma análise japonesa e hoje está sendo colocada em prática. O objetivo da vacina BCG é prevenir o desenvolvimento explosivo da doença em pessoas recém-infectadas. Ela não tem sentido para aqueles com reação positiva à tuberculina e, além disso, causa efeitos colaterais na área injetada, por isso é proibida. Deve ser limitada estritamente àqueles com reação negativa em um exame rigoroso de tuberculina. Após a injeção da vacina BCG, a imunidade geralmente aparece em cerca de dois meses, e a reação à tuberculina se torna positiva. A duração da imunidade é de cerca de um ano.
+
+Existem vários métodos de injeção, subcutânea, intradérmica, etc., e pode-se dizer que não há efeitos colaterais. É verdade que algumas pessoas podem desenvolver um abscesso ou uma úlcera no local da injeção, mas isso é uma prova da força da imunidade e não é motivo de preocupação. Em um país como o nosso, com uma alta taxa de desenvolvimento da doença em pessoas não infectadas, pode-se dizer que é algo com um caráter totalmente japonês. No futuro, gostaríamos de aplicá-la a todos os jovens que saem do campo para a cidade ou que entram em ambientes de vida coletiva. A vacina BCG está sendo aplicada gratuitamente, exceto pela taxa de consulta, para um número limitado de pessoas todos os dias no Consultório de Saúde da Fundação de Prevenção da Tuberculose, em Misakicho 1, Kanda, Tóquio.”
+
+Segundo isso, a vacina não tem efeito em pessoas já infectadas, mas apenas em pessoas não infectadas, ou seja, com reação negativa. E a duração da imunidade é de cerca de um ano. Vou criticar isso do ponto de vista desta arte médica.
+
+Eu disse que os tratamentos da medicina ocidental, embora mostrem um efeito temporário, depois agravam a doença. Penso que o mesmo acontecerá com essa vacina.
+
+A razão pela qual se considera que essa vacina foi um sucesso e foi colocada em prática é que, durante o período de setembro do ano passado a junho deste ano, ela foi aplicada a cem mil formandos do ensino fundamental, e a taxa de morbidade por tuberculose diminuiu para um terço, e a taxa de mortalidade diminuiu drasticamente para um décimo. No entanto, decidir e implementar com base em um experimento de apenas nove meses não seria muito precipitado? A situação é tão urgente em relação à prevenção da tuberculose que talvez seja inevitável. Deixando isso de lado, eu disse antes que a causa da tuberculose é um processo de purificação vigoroso. O fato de que, em nove meses, se obtiveram bons resultados mostra o quão forte é o poder de interrupção do processo de purificação dessa vacina. Ou seja, o fato de que a tuberculose, que é o processo de purificação mais vigoroso, e os jovens de dezesseis ou dezessete anos, que estão prestes a ter o processo de purificação mais vigoroso, tiveram uma diminuição da doença, mostra claramente o poder de rebaixamento da condição física dessa vacina.
+
+Portanto, ao prevermos o estado após a vacina, é claro que haverá um declínio da força física, e a redução da eficiência do trabalho será inevitável. E se a imunidade dura um ano, será necessário revacinar. Qual será o resultado? Ao se repetir a supressão do processo de purificação que deveria ocorrer, a condição física declinará gradualmente, e os jovens terão a condição física de idosos. Especialmente a taxa de fertilidade feminina sofrerá uma queda drástica.
+
+Olhando por esse prisma, iludir-se com um bom resultado temporário e, depois, ter um resultado ruim inimaginável é mais claro que ver o fogo. Como já expliquei, apenas a vacinação contra a varíola já rebaixou a condição física do povo japonês a este ponto. Ao se aplicar a vacina BCG, que se diz ter um efeito notável, não se pode deixar de se preocupar com o futuro da condição física de nossa nação.
+
+## Conclusão
+
+Tendo explicado de várias maneiras a causa da tuberculose, a verdadeira razão de seu aumento e os efeitos desta arte médica, acredito que o leitor já compreendeu completamente a verdadeira natureza da tuberculose e percebeu que não é algo a ser temido.
+
+Em resumo, a doença é um processo de purificação. Especialmente a tuberculose é um processo de purificação vigoroso, por isso se manifesta na juventude, período de maior vigor. O bacilo da tuberculose não é absolutamente contagioso. A doença sempre pode ser completamente curada.
+
+A medicina ocidental, que não conhece o processo de purificação, tem como objetivo de todos os seus tratamentos solidificar novamente as toxinas que começaram a se dissolver, e nada mais. Ou seja, seu único objetivo terapêutico é retornar ao estado de pseudo-saúde anterior ao início da purificação. Por isso, na maioria dos casos, há o risco de recaída. E, para realizar o método de solidificação, com o método de repouso absoluto, medicamentos e outros métodos, exige-se um grande custo e um longo tempo, impondo um enorme fardo ao Estado e aos indivíduos.
+
+Na infância e na juventude, quando o processo de purificação das toxinas congênitas ocorre, o tratamento médico as solidifica, adiciona toxinas medicamentosas e, finalmente, cria uma constituição linfática. Como resultado, na juventude, quando a vitalidade é vigorosa, ocorre um processo de purificação agudo ou persistente. Nesse caso, o tratamento médico, com seus erros de diagnóstico e tratamento, leva, na maioria das vezes, a um resultado infeliz.
+
+Recentemente, sob o pretexto de vacinação preventiva, injeta-se substâncias estranhas no sangue. Elas se acumulam e se solidificam em um local através do processo de purificação. No entanto, faz-se um treinamento físico ou um trabalho forçado intenso. Como resultado, um processo de purificação ocorre nessa solidificação, e a pessoa fica com febre. Através de um exame de saúde precoce, descobre-se a febre, e essas pessoas são consideradas suspeitas de tuberculose ou pacientes com tuberculose aberta, e são submetidas a tratamento ou isolamento. Isso prejudica a produção, consome recursos humanos e tem uma influência nada pequena e negativa sobre os objetivos atuais do Estado.
+
+Considerar contagioso o que não é, ou seja, germes de geração espontânea que não representam nenhum risco de contágio, e implementar métodos de prevenção extremamente complexos. Isso causa ansiedade na vida individual, diminui a eficiência e, além disso, força todo o Estado a fazer despesas e instalações inúteis.
+
+Ao se conhecer a verdade, vê-se que é um grande problema que não pode ser negligenciado nem por um dia para o bem do Estado, e não se pode deixar de se preocupar. No entanto, eu apresentei uma solução que pode resolver completamente a tuberculose. Como fazer com que toda a nação a conheça ou a aplique é uma questão para as autoridades governamentais, as autoridades especializadas e os líderes de cada área. Desejo ardentemente que essas pessoas, pelo bem do Estado, se dediquem à pesquisa e à aplicação desta arte médica.
+
+(Setembro do décimo sétimo ano da era Showa)
+
+## Apêndice
+
+Como apêndice, gostaria de expressar um desejo que gostaria que o governo implementasse. Espero que tanto as autoridades e os especialistas quanto os leitores em geral prestem atenção à lógica que exponho aqui.
+
+## Proposta ao Governo
+
+Nesta grave situação que o Japão enfrenta, ou seja, para vencer esta grande guerra, é inegável que as velhas estruturas que não se adaptam mais à situação futura devem ser reformadas com grande determinação. O governo também parece ter percebido isso, e o fato de que, desde o início do incidente, está implementando políticas inovadoras como nunca antes visto é motivo de grande satisfação. A esse respeito, gostaria de apresentar um plano que acredito que o governo deveria implementar o mais rápido possível em relação ao problema dos recursos humanos, que hoje é da maior urgência.
+
+Como expliquei em detalhes, para resolver o problema dos recursos humanos, não há melhor estratégia do que diminuir o número de doentes. Para isso, é claro que se exige uma arte médica com verdadeiro poder de cura.
+
+No entanto, o governo até hoje considerou a medicina ocidental como a única e dependeu apenas dela, ignorando as outras. Isso provavelmente se deve ao fato de o governo pensar que não há absolutamente nenhuma outra terapia com efeito curativo superior à medicina ocidental. No entanto, apesar de se tomarem todas as medidas médicas ocidentais, não só não se obtêm os resultados esperados, como a tendência é de agravamento. Especialmente no problema da tuberculose. Por isso, peço ao governo um grande despertar e uma grande reforma. É o fato de que existem terapias superiores à medicina ocidental na prática popular. E, embora essas pessoas trabalhem silenciosamente dia e noite pela saúde da nação e alcancem resultados notáveis, elas ainda não são reconhecidas pelo mundo e são tratadas com frieza.
+
+O Japão está agora em uma grande marcha, governo e povo, para o fortalecimento da força de combate. A esse respeito, penso que não há nada mais eficaz do que despertar do sonho da dependência da medicina ocidental. Ou melhor, se não se despertar o mais rápido possível, não se pode deixar de dizer que o futuro da nação está em perigo. A esse respeito, gostaria de propor um plano muito simples e eficaz. Com este método, se estabelecerá a base para a solução do problema da saúde nacional, e penso que chegará um tempo em que será absolutamente necessário implementá-lo. O plano é o seguinte.
+
+1.  Primeiro, selecionar dez pacientes com tuberculose. A razão é que, nesta doença, é conveniente escolher sintomas idênticos, com pouca diferença, e porque é o problema que mais exige solução hoje.
+
+Para esses dez pacientes, escolher um total de dez tipos de terapeutas, incluindo medicina ocidental (clínica ou cirúrgica), moxabustão, terapia nutricional, eletroterapia, shiatsu, terapia espiritual, terapia de energia espiritual, terapia natural e outras. Realizar um teste de cura com uma duração inicial de um mês. Como resultado, alguns melhorarão, outros não terão efeito e outros piorarão. No entanto, com apenas um mês, o efeito não pode ser considerado certo. Portanto, repete-se o método. Ou seja, continua-se por mais um mês com dez novos pacientes. Fazendo isso dez vezes, ou seja, continuando os dez tipos de terapia por dez meses, a diferença entre os que têm efeito, os que não têm e os que pioram se tornará clara. Consequentemente, o governo fará com que as terapias sem efeito e com resultados ruins se convertam nas terapias com efeito. É claro que, mesmo com o mesmo efeito, deve-se escolher a mais eficaz entre as dez.
+
+A terapia selecionada em primeiro lugar será a que ajudará a resolver de uma só vez o difícil problema da saúde nacional, especialmente o problema da tuberculose. E, como isso pode ser resolvido com apenas dez meses de tempo e um pequeno esforço, e como o efeito é fundamental e eterno, e como se torna a condição básica para resolver a grave situação atual, penso que deve ser implementado de qualquer maneira.
+
+Acredito que a maior dificuldade na implementação deste método será a seleção dos terapeutas. A minha opinião sobre isso é que, como o método mais justo, deve-se reunir talentos de todo o país através de anúncios no diário oficial ou em jornais. No entanto, devido à natureza do problema, ninguém se inscreveria sem uma grande confiança. Portanto, pode-se considerar que os candidatos são pessoas de considerável habilidade. Se houver muitos candidatos, pode-se aumentar o número de grupos de dez. E, com o teste de um mês, os que não tiverem efeito ou tiverem resultados ruins serão gradualmente eliminados, e apenas os excelentes permanecerão. Desses excelentes, far-se-á outra seleção, e no final, o melhor, ou seja, a terapia de primeiro lugar, permanecerá. No entanto, por mais excelente que seja a terapia, ela não deve ser algo que apenas aquela pessoa possa fazer e que não possa ser ensinada. Deve ser algo que qualquer um possa aprender e obter resultados práticos.
+
+A arte médica selecionada como resultado desse teste se tornará a futura arte médica do Japão.
+
+---
+*O Problema da Tuberculose e sua Solução*
+
+Publicado em 5 de maio do 18º ano da era Showa
+
+Formato B6, 181 páginas, Preço: dois ienes
+
+Autor: Mokichi Okada
+
+Editor: Takeshi Shiozawa
+
+Gráfica: Kumagai Insatsujo
+
+Publicação proibida em fevereiro do 19º ano da era Showa.
+
+Em 13 de dezembro do 17º ano da era Showa, extratos sobre tuberculose de “Ashita no Ijutsu” foram compilados em mimeógrafo, papel japonês A5, 133 folhas, 265 páginas, não comercializado.
+
+Reeditado em 5 de maio do 18º ano da era Showa, formato B6, 180 páginas, preço: dois ienes, posteriormente a publicação foi proibida.
+
+(O índice da primeira edição de “O Problema da Tuberculose e sua Solução” era o seguinte: “Introdução”, da Primeira Parte de “Ashita no Ijutsu”: “Introdução”, “O Problema Populacional”, “A Questão do Declínio da Taxa de Crescimento Populacional”, “A Verdadeira Causa da Doença”, “Tuberculose Pulmonar”, “A Tuberculose Não é Absolutamente Contagiosa”, da Segunda Parte de “Ashita no Ijutsu”: “Recursos Humanos e a Medicina Moderna (1)”, “A Crise dos Recursos Humanos”, “Germes e Doenças Infecciosas”, “Nutrição”, “Febre”, “Pleurisia e Peritonite”, “Saúde Verdadeira e Pseudo-saúde”, “Tuberculose e a Ação do Espírito”, “A Arte de Curar os Rins e o Método de Rejuvenescimento”, “O Problema Populacional e Esta Terapia”, “A Arte de Curar o Coração”, “O que é a Medicina?”, “Conclusão”, “O Processo de Cura da Tuberculose Pulmonar”, “Sobre a Vacina BCG”)
+
+(Nota) O texto diz “Da Segunda Parte de ‘Ashita no Ijutsu’: Recursos Humanos e a Medicina Moderna (1)”, mas na reedição de “Ashita no Ijutsu”, esta parte está incluída na Primeira Parte. O título também não tem a indicação “(1)”. A fonte do ensaio “Sobre o Elemento-Fogo, o Elemento-Água e o Elemento-Terra” nos Escritos Divinos (Parte Religiosa) é indicada como “Ashita no Ijutsu, pp. 19-25”, mas na reedição, é uma passagem dentro de “Febre” na página 72 da Segunda Parte. Como a primeira edição não está disponível, não foi possível confirmar, mas é possível que a edição da primeira e da segunda edições seja diferente.
+
+---
+
 # Coletânea de Teses do Reverendo Okada Jikanshi
 
 **Categoria:** sasshi | **Ano:** 昭和28(1953)年5月5日 | **Fonte:** Eikou
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1953-05-05
+**Coletânea:** - | **Fonte (JP):** -
 
 ## Coletânea de Teses do Reverendo Okada Jikanshi
 
@@ -1769,6 +2581,7 @@ Igreja Eisho-Tyu,
 
 **Categoria:** sasshi | **Ano:** 昭和10(1936)年9月15日 | **Fonte:** -
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** - | **Fonte (JP):** -
 
 Coletânea de Ensaios do Mestre Okada Jikan
 O que é o Movimento de Kannon para a Criação de um Mundo sem Doença, Pobreza e Conflito?
@@ -2067,1129 +2880,6 @@ A outra é o avanço do cinema sonoro. Nele, os átomos do som, em várias forma
 O espírito divino é luz e calor. Portanto, a comprovação científica da luz de Deus está a um passo de distância. Quando a ciência conseguir provar a existência do espírito humano, da turvação como causa da doença e da atividade da luz de Deus que a cura, então, pela primeira vez, religião e ciência se unirão para criar um conhecimento completo. E sua verdadeira missão será dar uma nova luz à humanidade.
 
 Editado pela Dai Nippon Kannon Kai, publicado em 15 de setembro de 1936, formato 12,7 x 18,8 cm, 94 páginas, preço 10 sen.
-
----
-
-# Coletânea de Ensaios do Mestre Okada Jikanshi
-
-**Categoria:** sasshi | **Ano:** 昭和24(1949)年11月20日 | **Fonte:** 御Hikari話録
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1949-11-20
-
-## Coletânea de Ensaios do Mestre Okada Jikanshi
-### Registro dos Ensinamentos de Luz, nº 14, publicado em 20 de novembro de 1949
-
-**Três de agosto**
-
-**P— O desenvolvimento do conhecimento acelera a evolução da alma? As pessoas que mais utilizam a mente tendem a viver mais porque, por meio disso, suas almas evoluem e, consequentemente, seu valor de existência no mundo físico aumenta?**
-
-R— Essa é uma linha de raciocínio plausível. Contudo, por outro lado, é a evolução da alma que permite o desenvolvimento do conhecimento. Portanto, não se pode afirmar categoricamente qual dos dois precede o outro. A ideia de que "a longevidade advém do valor de existência" tem, de fato, grande fundamento. O corpo humano beneficia-se da atividade, e a mente, em especial, por ser a soberana de todo o ser, desenvolve-se à medida que é utilizada, o que contribui para uma vida mais longa. Esse entendimento, aliás, contraria o que se pensava até então.
-
-É preciso ressalvar, contudo, que utilizar a mente com preocupações é prejudicial. Jogos como mahjong, go e shogi, por exemplo, exigem um esforço mental considerável, especialmente o go. No entanto, a dedicação a tais passatempos impede a produtividade. Eu mesmo os apreciava, mas percebi que, ao me envolver com eles, tornava-me incapaz de realizar qualquer outra coisa. (risos) Isso constitui o pecado da ociosidade, um pecado de grande peso. Viver sem nada fazer, em completa inércia, é um erro. O verdadeiro propósito do ser humano é o trabalho; sem ele, a vida se torna vã. (Consultar Registro dos Ensinamentos de Luz, nº 5).
-
-**P— Há Difusões que exigem a troca do Ohikari de membros transferidos de outras localidades. Tal procedimento é correto?**
-
-R— Trata-se de um equívoco absurdo. A Luz Divina é a mesma em qualquer Difusão. Adotar tal prática seria como admitir que existem diferenças entre elas.
-
-**P— Em velórios, existe o costume de cobrir o Altar Divino com uma folha de papel branco. Como devemos proceder?**
-
-R— Essa prática era adequada aos deuses de outrora, pois o Deus a quem servimos é diferente. (risos) Antigamente, a morte era vista como uma mácula, o que se devia à falta de poder daquelas divindades. Ora, a morte é um destino comum a todos, e até mesmo os deuses, em tempos remotos, tiveram a experiência de morrer. (risos) Longe de ocultar o Altar, seria mais apropriado que o falecido recebesse a Luz Divina.
-
-**P— Ministrar Johrei em estado de esgotamento por falta de sono ou após ingerir bebida alcoólica tem efeito? Não seria uma falta de respeito para com Deus?**
-
-R— A ideia de que a falta de sono causa esgotamento não corresponde à verdade. Eu mesmo procuro dormir o mínimo possível, pois isso aumenta minha capacidade de ação. A crença de que a privação de sono debilita a energia vital é fruto de uma forte doutrinação da medicina, que nos leva a sentir uma certa letargia. A realidade, porém, é outra. Observem as gueixas: são as que menos dormem e, no entanto, estão entre as mulheres mais inteligentes do Japão. (risos) Esse exemplo por si só já esclarece a questão. (Consultar Registro dos Ensinamentos de Luz, nº 5).
-
-Quanto à ingestão de álcool, a questão deve ser avaliada com flexibilidade, conforme a situação. Todavia, um fiel deste Caminho que se embriaga a ponto de perder a consciência demonstra que sua fé ainda é superficial e que seu espírito não se depurou. Com o aprofundamento da fé, torna-se naturalmente impossível beber além de um certo limite. Para os que não possuem fé, a embriaguez não acarreta maiores problemas.
-
-**P— Algumas pessoas afirmam que quem não possui ego nem apego tem uma aura espiritual mais forte. Isso procede?**
-
-R— De modo algum. O ego e o apego são indispensáveis. O segredo, contudo, é não os exteriorizar. (risos) No Ofudesaki da Oomoto, há uma passagem que diz: "O ego é necessário, mas bom é tê-lo e não o manifestar". É uma colocação de extrema felicidade. Sem o ego, tornar-nos-íamos tolos. (gargalhadas) A conduta ideal é manter o ego no âmago do ser e, sobre essa base, cultivar a docilidade.
-
-**P— Para nós, que conhecemos a grandiosidade deste Caminho e acreditamos na Grande Purificação, o ideal seria casar com alguém da mesma fé. Contudo, se porventura nos apaixonarmos por uma pessoa que não crê no Caminho nem na Grande Purificação, deveríamos considerar esse casamento como algo provisório? E no caso de um casamento com alguém que se recusa terminantemente a crer, como um médico ou um professor, que tipo de purificação esse casal receberá por ocasião da Grande Purificação?**
-
-R— Não se preocupem com tais questões. Se o amor surgir, casem-se. Pelo contrário, casar-se com alguém de quem não se gosta, mesmo que essa pessoa seja do Caminho, é um erro. Aqueles que hoje não creem, um dia crerão. O sentimento de amor é, em si, um sinal de que o casamento deve acontecer. Estão mais tranquilos agora? (gargalhadas)
-
-**P— Vemos casais que se dão mal terem bons filhos, enquanto outros, que vivem em harmonia, têm filhos problemáticos. Qual a análise espiritual para esses casos?**
-
-R— A índole dos filhos, seja boa ou má, está relacionada aos pecados dos pais e, portanto, não tem grande conexão com a harmonia conjugal. Contudo, alguma influência pode existir, pois a desavença no casal gera pensamentos negativos que, por sua vez, podem afetar os filhos.
-
-**P— Existem lares onde os filhos, cientes do ódio mútuo entre os pais, acabam por odiar a ambos. Embora isso possa parecer carma, devemos entender que Deus nos concede tais uniões para nos ensinar algo?**
-
-R— A questão não é de ensino, mas sim do nível espiritual da pessoa. Alguém que se encontra em determinado patamar espiritual naturalmente atrairá um cônjuge de nível semelhante. A humanidade atual, em sua maioria, vive em condições análogas às do inferno, daí tanto sofrimento. Essa situação não é carma, mas destino. Portanto, à medida que a pessoa se eleva espiritualmente, sua vida melhora.
-
-**P— Quando um casal é incompatível em termos de personalidade e conclui que a separação traria felicidade a ambos, o divórcio é uma opção aceitável?**
-
-R— Se o divórcio for consensual, não há problema. O divórcio unilateral, no entanto, gera ressentimento e pode causar interferências espirituais.
-
-**P— Por que os diabéticos sentem um desejo incontrolável de comer? É permitido que se alimentem conforme o apetite?**
-
-R— Na diabetes, as toxinas se acumulam no pâncreas, órgão responsável por processar o açúcar. Comprimido por essas toxinas, o pâncreas deixa de funcionar corretamente, e o açúcar, em vez de ser absorvido pelo corpo, é eliminado pela urina. Essa carência de açúcar gera uma nova demanda, o que desperta a vontade de comer. Assim, o ideal seria consumir doces, mas como outros alimentos contêm pouco açúcar, é preciso ingerir grandes quantidades para compensar. Portanto, o paciente deve, sim, comer.
-
-O método mais eficaz para curar a diabetes é, sem dúvida, eliminar as toxinas localizadas no pâncreas, o que se consegue facilmente com o Johrei. Mesmo na medicina, existe uma terapia que consiste em permitir a ingestão livre de açúcar, o que demonstra certa perspicácia.
-
-**P— Um rapaz de quinze anos, por volta dos dois anos de idade, teve a circulação de uma das pernas prejudicada por um elástico de meia muito apertado. No local, a pele ficou calva, como uma cicatriz de queimadura, e a perna não se desenvolveu bem, permanecendo mais fina do joelho para baixo. Ele anda sem grandes dificuldades, mas se cansa facilmente. Ainda há salvação para ele?**
-
-R— Sim, tem cura. O problema foi de fato o forte aperto. Se fosse apenas o aperto, não haveria maiores consequências, mas as toxinas foram atraídas para o local e se solidificaram. O corpo humano é um mecanismo complexo; ao pressionarmos um ponto, as toxinas tendem a se acumular ali.
-
-**P— Recentemente, muitas pessoas têm consumido bebidas alcoólicas sintéticas à base de metanol, e algumas perderam a visão como resultado. Qual a razão disso? O Johrei pode curar essa condição?**
-
-R— É melhor evitar tais bebidas. Como na peça de teatro, beber algo sabendo que é veneno... (risos) Contudo, mesmo a perda de visão é curável. A condição se torna irreversível por causa dos tratamentos equivocados. Ao ingerir metanol, suas toxinas se acumulam na parte posterior dos olhos. Se a pessoa, sob o efeito da bebida, ainda se dedica a atividades que forçam a visão, como o mahjong, as toxinas se concentram ainda mais nos olhos.
-
-A cura pode ocorrer mesmo sem tratamento, mas com o Johrei, a recuperação é, obviamente, muito mais rápida. O problema é que as pessoas geralmente recorrem a colírios, e a ação conjunta das toxinas do metanol e dos medicamentos agrava o quadro.
-
-**P— Como o saquê e a cerveja contêm conservantes, imagino que o doburoku (saquê caseiro não filtrado) seja uma opção melhor...**
-
-R— Certamente, o doburoku é melhor. Mas sua fabricação é rigorosamente controlada, não é? (risos) Se fosse possível produzi-lo abertamente, seria ótimo. Mas como não é o caso, não devemos fazer nada que infrinja a lei.
-
-**P— Ouvi dizer que a tuberculose óssea na coluna (Mal de Pott) é uma doença espiritual. Por que os locais de drenagem do pus variam?**
-
-R— O pus é expelido por onde encontra mais facilidade para sair, como em áreas de tecido mais mole. É nesses pontos que se formam as fístulas. Geralmente, elas aparecem ao redor da cintura.
-
-**P— Perto da minha casa, nasceu um ciclope (criança com um olho só). Qual seria a causa espiritual para isso?**
-
-R— Tais casos podem ser resultado de ressentimento ou de pecados cometidos contra Deus. Por exemplo, se uma pessoa foi assassinada sendo partida ao meio, pode ser que uma das metades não tenha se purificado completamente no Mundo Espiritual antes de reencarnar. Ofensas a Deus também podem resultar em punições divinas dessa natureza, pois os olhos representam a divindade, simbolizando o sol e a lua.
-
-**P— Imagino que matar deliberadamente animais como bois, cavalos, gatos e cobras gera pecado. Como devemos reverenciá-los após a morte? E no caso de morte natural?**
-
-R— Sim... Cobras podem ser mortas. Quando vejo uma, eu a mato, enterro-a em um local onde não será pisada, entoo a Oração Amatsu-Norito três vezes e peço ao Grande Deus do Mundo Espiritual que ela possa reencarnar como ser humano da próxima vez. A cobra se alegra em ser morta. Por isso, depois de realizar esse ritual, sinto um grande bem-estar. A razão é que a cobra considera sua própria forma hedionda e anseia por encerrar sua existência o quanto antes. Se, ao encontrar uma cobra, você lhe disser: "Não mostre uma forma tão feia aos humanos", ela não aparecerá mais. Outro dia mesmo, havia uma junto àquelas pedras; eu disse isso a ela, e nunca mais a vi.
-
-Contudo, existem muitas cobras que são, na verdade, seres humanos apegados que se transformaram. Matá-las pode atrair maldições. Em casas antigas, é comum encontrar a cobra-rateira-japonesa; não se deve matá-la, pois é um espírito ancestral. Gatos também não devem ser mortos. Bois, bem, matá-los é inevitável. O importante é realizar uma cerimônia em sua memória uma vez por ano. O procedimento é o mesmo, seja por morte natural ou por abate.
-
-**P— Diz-se que as miragens são causadas pela curvatura da luz. Poderia nos instruir sobre a verdadeira causa?**
-
-R— Não se trata de curvatura da luz. É um fenômeno frequentemente observado na costa do Mar do Japão, próximo a Niigata. O que ocorre é que paisagens da Coreia são refletidas, como um arco-íris. Não é curvatura, mas sim reflexo. Antigamente, quando havia castelos na Coreia, suas imagens eram projetadas, criando aquela visão que se assemelha a um palácio submarino. Hoje, talvez isso não aconteça mais.
-
-**Treze de agosto**
-
-**P— Ouvi dizer que o hinoki (cipreste japonês) é uma árvore sagrada. Se tivermos um em nosso jardim, podemos podar os galhos para manutenção?**
-
-R— Sim, não há problema algum.
-
-**P— Podemos cortar a copa da árvore?**
-
-R— Sim, pode. Mesmo que a árvore venha a secar por causa da poda, não há problema. O que é inadequado é usar a madeira de hinoki em construções comuns. Eu mesmo podo as minhas sem cerimônia.
-
-**P— Como um fiel do Caminho deve encarar o fato de sua esposa ter tido um relacionamento com outro homem antes do casamento?**
-
-R— Isso não tem a menor importância. (risos) Afinal, foi antes do casamento. Se fosse depois, seria um pecado. Mas antes, não há problema. Pode ser que ela pretendesse se casar com o outro homem, mas ele faleceu ou algo impediu a união, e por isso ela se casou com você.
-
-**P— E se ocorrer um triângulo amoroso após o casamento?**
-
-R— Isso é inaceitável. Mas se tal situação ocorrer, entregue-a nas mãos de Deus. (risos) Ele resolverá tudo da melhor maneira. Tentar solucionar com a inteligência humana jamais dará certo.
-
-**P— Gostaria de fazer mais algumas perguntas sobre a forma de cultuar os ancestrais (ihai). (1) No caso de uma mulher que se casou e foi para outra família, basta que ela culte uma placa geral com os dizeres "Antepassados de Gerações"?**
-
-R— O culto aos antepassados da família de origem deve ser feito pela própria família. Uma vez que a mulher se casa e entra em outra família, não precisa mais se preocupar com os ancestrais de seu lar de origem.
-
-**P— (2) Quando marido e mulher falecem, é melhor inscrever seus nomes póstumos em uma única placa ou em duas separadas?**
-
-R— Ambos os modos são válidos, mas uma única placa talvez seja mais prática. De qualquer forma, no Mundo Espiritual, marido e mulher seguem caminhos separados inicialmente. Apenas quando atingem um certo grau de salvação é que podem se reunir.
-
-**P— (3) O senhor nos orientou a colocar as placas de marido e mulher lado a lado. Se o falecido marido teve uma segunda esposa, onde a placa dela deve ser posicionada?**
-
-R— Isso se torna um triângulo amoroso no Mundo Espiritual. (risos) A placa deve ser colocada ao lado, mas a ordem correta deve ser respeitada. A ligação espiritual não se desfaz completamente, e os espíritos vêm quando são cultuados. Se a ordem estiver incorreta, eles podem sentir desconforto e até sofrer.
-
-**P— (4) Se um irmão mais velho faleceu na infância e o mais novo, na idade adulta, a placa do mais velho ainda deve ter precedência?**
-
-R— Sim, essa é a forma correta. Mesmo que tenha falecido ainda bebê, o irmão mais velho tem a primazia.
-
-**P— (5) Entre avós e pais, é natural que os avós ocupem a posição de honra (mais próximos ao centro), correto?**
-
-R— Sem dúvida.
-
-**P— (6) Entre as placas dos meus irmãos e as dos meus filhos, qual deve ter a precedência?**
-
-R— Os irmãos mais velhos vêm primeiro; os mais novos, depois dos seus filhos. A disposição correta no altar é: no centro, a placa dos "Antepassados de Gerações"; à direita (de quem olha), os avós; à esquerda dos antepassados, os pais. À direita dos avós, as placas dos seus irmãos. Se possível, à esquerda dos pais, pode-se colocar a placa dos "Antepassados de Gerações" da família da esposa.
-
-**P— Uma família secundária (bunke) deseja instalar um novo altar e iniciar o culto aos seus antepassados. Basta entoar a Oração Amatsu-Norito e a Zenguen-Sandji? Não é necessário chamar um monge budista?**
-
-R— Apenas as orações são suficientes. Não há necessidade de chamar um monge. Muitos espíritos já não apreciam os sutras e preferem que lhes sejam oferecidas a Zenguen-Sandji e os Salmos.
-
-**P— Uma mulher de 35 anos, que teve o útero removido há um ano devido a dores, ingressou na fé em novembro passado. Atualmente, sua perna direita está toda inchada, e ela tem no baixo-ventre um nódulo do tamanho da cabeça de um bebê, além de sentir algumas náuseas. Ela está recebendo Johrei. Qual a sua orientação?**
-
-R— Bem, o útero dela foi removido. O inchaço na perna é consequência disso. Câncer é algo raro; provavelmente trata-se de um acúmulo de outras toxinas. Além do mais, ela tem apenas 35 anos. O câncer geralmente se manifesta após os 40.
-
-**P— Devemos continuar com o Johrei?**
-
-R— Sim. Mas não posso garantir a cura.
-
-**P— Os parentes são contra, mas ela insiste em se apegar à fé...**
-
-R— Se ela se apega, devemos ajudá-la.
-
-**P— Se ela vier a falecer, não haveria o risco de isso prejudicar a expansão do Caminho?**
-
-R— Aja com flexibilidade. O importante é não prometer a cura.
-
-**P— Desde que começou a receber Johrei, ela passou a urinar com mais frequência.**
-
-R— Ótimo. Façam o tratamento por uma semana e observem se há alguma melhora, por menor que seja. Não posso garantir sua vida, mas a dor certamente desaparecerá.
-
-**P— Ela não sente dor alguma no momento.**
-
-R— Mas está inchada, não está?
-
-**P— Sim.**
-
-R— O inchaço é a dor.
-
-**P— Um fiel fervoroso, presidente de uma empresa, enfrentou dificuldades financeiras devido ao congelamento de créditos no ano passado e foi forçado a dissolver a companhia. Ele tentou iniciar vários outros negócios, mas todos fracassaram quando estavam prestes a se concretizar. Entendendo que isso não estava de acordo com a Vontade Divina, ele se resignou e passou a viver uma vida modesta, concentrando seus pensamentos em Komyio-Nyorai-Sama. Seus amigos, preocupados, consultaram um asceta, que disse que o avô do fiel, à beira da falência, fora salvo pela fé em uma certa divindade Inari. Desde então, a família a cultuava, mas o pai do fiel abandonou a prática. O asceta afirmou que o fracasso se devia a uma maldição de Inari e que o culto deveria ser retomado imediatamente. Devemos acreditar nisso? É possível remover essa interferência?**
-
-R— Essa história me parece um tanto estranha. Dizer que ele vive uma vida modesta e resignada porque seus negócios não dão certo é uma atitude errada. Assim, nada jamais dará certo. É preciso esforçar-se ao máximo. E mesmo que uma divindade Inari estivesse causando interferência, se ele se dedicasse a salvar pessoas por meio deste Caminho, Inari algum poderia tocá-lo. Qualquer divindade Inari, por mais poderosa que seja, não é nada diante de Kannon. (risos) Mas para isso, a pessoa precisa ter o devido merecimento.
-
-O maior de todos os pecados humanos é o da preguiça. Deus nos concedeu mente e mãos; não utilizá-los é um grande erro. Devemos usá-los ao máximo. Aos nossos olhos, um asceta como esse não passa de um aprendiz. Se esse fiel está dando ouvidos a ele, é porque, apesar de ter entrado no portão da fé, ainda hesita. É preciso ser mais resoluto. Ele deveria ter a postura de salvar o asceta, e não o contrário. Ser salvo por um asceta... isso o coloca abaixo de um mero aprendiz. (risos)
-
-**P— Os Kappa realmente existem?**
-
-R— Sim, eles existiram em grande número. Há muitas histórias sobre eles, e eu mesmo já os estudei. Alguns dizem que são doninhas transformadas, mas os Kappa de fato existiram. Parecem-se com humanos e possuem as mesmas emoções: alegria, raiva, tristeza e prazer. Se você ajuda um Kappa, ele lhe será grato. Sua aparência lembra muito a de um sapo. Sua pele é pegajosa e esverdeada ao toque. No topo da cabeça, têm um prato que, se secar, lhes causa grande sofrimento. Adoram lutar sumô e, mesmo que sejam derrubados, levantam-se e voltam a atacar incansavelmente. Eles não conhecem o cansaço, então é o oponente humano que acaba exausto. Enfim, há muitos detalhes, mas a existência dos Kappa é um fato.
-
-**Vinte e três de agosto**
-
-**P— Quando as lombrigas são expelidas pelo Johrei, seus ovos ainda permanecem no abdômen? Se sim, eles podem se desenvolver? E no caso dos oxiúros, por que eles saem às centenas, um após o outro?**
-
-R— Os oxiúros saem às centenas porque existem em grande quantidade. Sairão todos os que estiverem lá. Como são muito pequenos, duzentos ou trezentos deles cabem na palma da mão. Os ovos de lombriga entram no corpo através dos alimentos, mas com o Johrei, não há com que se preocupar. No entanto, se ovos anteriores permanecerem, eles podem crescer e ser expelidos mais tarde. Basicamente, os vermes se desenvolvem onde há impurezas. Os ovos, porém, são outra questão. O Johrei não purifica o corpo instantaneamente, então alguns ovos antigos podem se desenvolver.
-
-**P— Quando uma criança urina em uma minhoca, seu pênis costuma inchar. Há uma causa espiritual para isso?**
-
-R— É o espírito da minhoca que se irrita. A minhoca é um tipo de dragão divino; por isso, em japonês, se escreve "dragão da terra". Ela detesta ser suja e, ao mesmo tempo, possui um certo orgulho.
-
-**P— Um homem de 45 anos não tem desejo sexual há dez anos. Com o Johrei, ele pode voltar a ser como uma pessoa normal?**
-
-R— Sim, isso tem cura. A causa é a atrofia dos rins. O Johrei é mais eficaz que injeções de hormônio. (risos) Casos como este mostram o quão sublime é o Johrei. Há um nódulo na região dos rins; é preciso ministrar bastante Johrei ali. Aos 45 anos, ele ainda não deveria estar nessa condição, então pode ser otimista. (risos) É uma situação delicada. Existe também a frigidez feminina. Quando ministro Johrei e pergunto "Qual foi o resultado?", elas nunca dão uma resposta clara. (risos)
-
-**P— Ultimamente, tenho sofrido de uma amnésia terrível. Leio jornais e livros, mas não consigo reter o conteúdo. Que tipo de purificação é esta?**
-
-R— Isso ocorre porque as toxinas se acumularam em sua cabeça. Você mesmo pode ministrar Johrei com frequência na parte frontal da cabeça. Você ainda não tem idade para ficar senil. (risos)
-
-**P— Um bebê de um ano recebeu o Pergaminho da Fé (Kyoshu). Podemos dobrá-lo em um tamanho menor e pendurá-lo no pescoço da criança?**
-
-R— Isso não deve ser feito. A idade apropriada para receber o Pergaminho é a partir dos cinco anos. Nesses casos, basta que os pais recebam o Ohikari. Crianças pequenas podem urinar no Pergaminho, o que seria um desrespeito.
-
-**P— Mas ele já recebeu...**
-
-R— Se já recebeu, não há o que fazer. Guarde-o até que a criança cresça. A partir dos seis anos, mais ou menos, estará bem.
-
-**P— Se a pintura de uma estátua de Daikoku, consagrada por Meishu-Sama, descascar, podemos repintá-la?**
-
-R— Sim, pode ser repintada.
-
-**P— Nesse caso, é necessário que seja consagrada novamente, ou podemos mantê-la como está?**
-
-R— Desde que não se toque nos olhos, pode mantê-la como está.
-
-**P— Recentemente, durante o Johrei, tem sido comum os pacientes perderem a consciência e seus espíritos se manifestarem. Gostaria de receber uma orientação a respeito.**
-
-R— Isso ocorre porque a purificação no Mundo Espiritual se intensificou. Os espíritos não conseguem mais permanecer em paz e se manifestam em busca de salvação rápida. De agora em diante, casos como este aumentarão. Nessas situações, deve-se ministrar Johrei principalmente na parte frontal da cabeça.
-
-Se as manifestações forem muito frequentes, pode-se fazer um gesto de contenção com as mãos enquanto se diz: "Acalme-se, acalme-se". A força da palavra costuma ser eficaz. Mesmo quando a pessoa está semiconsciente e o espírito parece prestes a se manifestar, mas não consegue, dizer "Acalme-se, acalme-se" pode fazê-lo retornar ao seu estado normal.
-
-Quando o espírito que se manifesta é de uma raposa, a pessoa junta as mãos em oração e as balança para cima e para baixo. Se for o espírito de uma ave, o movimento é diferente (neste momento, Meishu-Sama demonstra o gesto, começando com as mãos em oração, depois assumindo uma postura de bater palmas e continuando o movimento, que se torna progressivamente maior, até finalmente estender os braços para os lados e movê-los para cima e para baixo, como uma ave voando). E então, a pessoa salta. Ela pode saltar trinta centímetros ou um metro sem dificuldade. Houve casos extremos em que a pessoa atravessou o teto.
-
-Não é bom fazer o espírito falar quando ele se manifesta. Isso é um desvio do caminho correto. A razão é que tal manifestação é uma cena vexatória, e não devemos permitir que o espírito passe por essa vergonha, pois Deus é amor. Portanto, não se deve permitir que ele fale. Contudo, há variações de caso para caso. Algumas pessoas começam a falar assim que perdem a consciência. Isso pode ser a Vontade de Deus ou uma ação do espírito guardião principal; nesses casos, permitir que fale pode ser apropriado.
-
-Quando o espírito começar a falar, pergunte: "Quem é você?" ou "Qual a sua identidade?". Ele dirá muitas coisas, e algumas podem ser mentiras. No entanto, não se deve duvidar desde o início; acredite no que ele diz. Uma vez identificada a sua origem, pergunte o motivo da manifestação: "Por que você se manifestou?". O espírito pode pedir para ser cultuado ou fazer outras solicitações. Se o pedido for razoável, atenda-o, e ele ficará feliz.
-
-Porém, alguns espíritos tentarão enganá-lo. Ouça o que eles dizem. Se um espírito afirmar: "Sou um ancestral de tantas gerações atrás, um guerreiro que morreu em tal batalha", pergunte: "Em que ano você nasceu?". Ele pode responder "Há duzentos anos". Então, continue: "Quem era o shógun naquela época?". Vá aprofundando as perguntas. Se for um espírito verdadeiro, responderá corretamente. Se for falso, como uma raposa, não conseguirá responder e acabará revelando sua verdadeira identidade. Por isso, é melhor não duvidar desde o começo. (Consultar Registro dos Ensinamentos de Luz, nº 7).
-
-(Após um membro relatar um caso de possessão espiritual, Meishu-Sama prosseguiu com as seguintes palavras:)
-
-Gostaria de fazer uma observação sobre a possessão espiritual. Espíritos de alto nível jamais se manifestam dessa forma; e Deuses, quase nunca. A natureza da possessão é essa. Embora existam manifestações legítimas, aquelas que são longas e insistentes são, invariavelmente, de raposas ou outros espíritos inferiores. Se fosse um Deus verdadeiro, a comunicação seria breve e simples. Eu mesmo passo por uma verdadeira possessão divina uma ou duas vezes por ano, quando preciso consultar sobre algo que me é absolutamente incompreensível, e nunca é um processo longo. Essa é a natureza da possessão. As pessoas comuns não discernem isso e acabam sendo enganadas. Até mesmo pessoas importantes caem nessa armadilha. Recentemente, um antigo assistente de ministro foi severamente iludido. Dei-lhe uma reprimenda enérgica, e ele despertou e se corrigiu.
-
-No entanto, como as manifestações podem ocorrer durante o Johrei, não podemos simplesmente ignorá-las. É preciso ter discernimento para julgar a situação. De qualquer forma, o que é prolixo e insistente não é bom. O mesmo se aplica aos seres humanos. Pessoas que falam sem parar, como uma matraca, geralmente são influenciadas por espíritos de raposa. Portanto, se em uma discussão o outro lado começar a falar incessantemente, recue. Seria como discutir com uma raposa. Não se envolva. Diga "Conversaremos em outra ocasião" e afaste-se.
-
-Quanto mais elevado o Deus, mais concisa é a comunicação. No Mundo Espiritual, os seres de mais alto nível comunicam-se apenas pelo pensamento. Um nível abaixo, usam-se algumas palavras. No nível seguinte, a comunicação se assemelha à fala humana. E os espíritos de animais falam sem parar. Portanto, quanto mais prolixa e longa a manifestação, maior a probabilidade de ser um espírito animal. É um conhecimento valioso a se ter. Com ele, não há como errar.
-
-**P— Recebi o Pergaminho da Fé em janeiro deste ano. Em março, recebi a Imagem de Komyio-Nyorai-Sama. No dia 30 de março, o dirigente da Difusão veio à minha casa para a Cerimônia Mensal, e novamente no dia 26 de abril. Na segunda ocasião, um copo d'água intacto, que estava sobre o oratório, partiu-se subitamente, e a água se derramou. Contudo, a Imagem da Kannon que estava no mesmo oratório não se molhou. Sinto que há um significado no fato de o copo ter se partido e a Imagem não ter se molhado. Qual seria?**
-
-R— Você fala em Cerimônia Mensal, mas a data não é fixa?
-
-**P— Sim, é fixa.**
-
-R— Qual é a data fixada?
-
-**P— Fixamos no dia 30 de março.**
-
-R— Não, eu pergunto qual é a data fixada para todos os meses.
-
-**P— Ah, bem...**
-
-R— Se é uma Cerimônia Mensal, deve haver um dia fixo todo mês, correto?
-
-**P— Sim, há.**
-
-R— Então, qual é o dia?
-
-**P— É dia 28.**
-
-R— Dia 28... mas as datas que você mencionou estão erradas, como o dia 30. Antecipar a data é aceitável, mas atrasá-la é extremamente grave. É algo que todos devem saber. Em todos os assuntos divinos, a antecipação é permitida, mas o atraso é inadmissível. Qual o motivo do atraso?
-
-**P— Foi por causa da agenda do dirigente da Difusão...**
-
-R— Se os assuntos de Deus são adiados por causa da conveniência de um dirigente, então o dirigente se coloca acima de Deus. É uma ofensa gravíssima. A cerimônia seguinte foi em 26 de abril, o que é muito cedo. Embora a antecipação excessiva também não seja ideal, é muito melhor do que o atraso. Qual a razão para essa antecipação? Foi novamente a conveniência do dirigente?
-
-**P— Não, creio que anotei a data errada. Em abril, a cerimônia foi no dia 28.**
-
-R— Foi um erro de anotação? De qualquer forma, se houver a firme determinação de realizar a Cerimônia Mensal na data estabelecida, a proteção divina garantirá que tudo corra bem. Mas se houver negligência no coração, surgirão obstáculos. O mesmo se aplica às peregrinações a Atami. Se você decidir firmemente: "No próximo dia tal, irei a Atami", poderá vir sem nenhum impedimento. Mas se pensar "Irei se for conveniente" ou "Depende das circunstâncias", certamente surgirão problemas. Os espíritos malignos estão sempre à espreita, buscando uma oportunidade para interferir. A negligência no coração abre brechas para eles. Com a determinação de ir "chova ou faça sol", nenhum espírito maligno poderá atrapalhar. Com uma decisão firme, não há erro.
-
-Você também mencionou "a Imagem da Kannon sobre o oratório". Por que a imagem está em um oratório desse tipo?
-
-**P— É que não tenho um altar budista, então a coloquei sobre esse oratório para cultuá-la.**
-
-R— Isso está errado. A Imagem deve ser colocada em um altar budista. Cultuá-la em outro lugar é um equívoco. Há uma forma correta, estabelecida por Deus, e ela deve ser seguida. Se não for para seguir as regras, é melhor não cultuar. Quando o ser humano altera o que foi determinado por Deus, ele se coloca acima de Deus. O copo ter se partido foi uma advertência divina contra essa conduta equivocada.
-
-**P— Um missionário de outra religião, vizinho meu, disse à minha esposa, que é minha segunda mulher: "Seu marido deve lhe obedecer cegamente, senão ficará cego" e "Se não entrarem para a nossa religião, ambos morrerão em breve". Esse missionário consegue adivinhar detalhes sobre a vida familiar das pessoas apenas olhando para elas, o que deixa minha esposa aterrorizada. O que devemos fazer?**
-
-R— Ameaças como "ficará cego" são absolutamente infundadas. Isso se chama fé coercitiva e é um erro gravíssimo. Quando uma religião recorre a ameaças, pode ter certeza de que se trata da ação de espíritos malignos, e não há nada a temer. Ameaçar é uma tática comum dos espíritos malignos. O verdadeiro Deus jamais é derrotado por eles, então não se preocupe com isso. Eu mesmo já perdi a conta de quantas vezes fui ameaçado ao longo da vida.
-
-A fé não é algo a ser imposto pela ameaça. É preciso ter cuidado com isso. E desconfie do que é prolixo e insistente. Deus é extremamente sucinto. "Deus não tem duas palavras", Ele fala apenas uma vez. Somente em ocasiões muito especiais eu consulto a Deus e, nessas horas, a resposta é uma única palavra. É algo de uma simplicidade impressionante. O mesmo se aplica aos seres humanos. Quando o Imperador emite um édito, ele não se repete. É algo como "Nós pensamos que...", de forma muito concisa. O que é insistente não é verdadeiro.
-
-Portanto, a divulgação deste Caminho deve ser feita de forma leve e natural. Fale de maneira simples. Se a outra pessoa não compreender, é porque ainda não chegou a sua hora ou ela não tem afinidade espiritual. Quando o momento certo chegar, ela mesma virá procurar, e então será a hora de explicar detalhadamente.
-
-**P— Minha irmã é missionária de outra religião, e por influência dela, eu também me tornei membro. No entanto, há dois anos, ingressei neste Caminho. Ainda mantenho em casa o altar da antiga religião. Meu marido detesta essa religião e insiste para que eu o devolva, mas ouvi dizer que devolver o altar pode trazer grandes desgraças para a família. Também ouvi que Kannon e a divindade daquela religião são a mesma coisa, por isso digo que não há problema em mantê-lo. O que devo fazer?**
-
-R— Você deve devolvê-lo. Manter as duas crenças é um erro. E quanto às ameaças de que "se sair desta religião, sua família será aniquilada", isso é absolutamente falso. Essa fé coercitiva, baseada na ameaça, está errada. Deus é pura compaixão e jamais agiria dessa forma. Essa não é a obra de um Deus justo. Certamente, trata-se da ação de um espírito maligno.
-
-No entanto, quando alguém abandona uma fé, acontece o seguinte: os espíritos malignos, que estão sempre buscando uma brecha para atormentar os seres humanos, antes não conseguiam agir por causa da proteção divina. Com o abandono da fé, essa brecha se abre, e eles causam infortúnios. Isso acaba parecendo um castigo divino.
-
-Forçar a fé por meio de ameaças é um erro. Quem faz isso acaba atraindo a desgraça para si mesmo. Em qualquer coisa, inclusive na fé, a retidão é a maior força. Uma pessoa correta, mesmo sem fé, não deveria sofrer infortúnios. Contudo, a verdadeira retidão só pode ser mantida através da fé. Sem acreditar no invisível, é impossível ser verdadeiramente justo. O ser humano é propenso a pensar: "Ninguém está vendo, então não há problema em fazer isso". Mas quem tem fé pensa: "Deus está vendo, não posso fazer isso". É por isso que a fé, a fé verdadeira, é indispensável.
-
-**P— Recentemente, apareceu em nossa região uma pessoa que cura doenças através da palavra, e ela se tornou muito famosa. Dizem que esse mestre treinou por vinte anos e que em seu centro de práticas, mudos, surdos e cegos são curados. O local vive lotado. O que é isso?**
-
-R— Isso é uma farsa, pura propaganda. A cura pela palavra não é exclusividade do Japão; existiu também nos Estados Unidos. Lá, os doentes repetiam para si mesmos: "Estou curado, estou curado", e isso gerava um efeito considerável. Foi bastante popular. Eu mesmo já tentei. A cura pela palavra é, na verdade, a cura pelo poder do som (kototama). Por exemplo, se você está com dor de barriga e diz "Dor de barriga, desapareça!", a dor some instantaneamente. Mas pouco depois, ela volta. Por isso, abandonei essa prática.
-
-Houve também um médico que curava com a palavra. Ele falava por uma ou duas horas, abordando temas espirituais e mentais, deixando a medicina em segundo plano e usando apenas medicamentos muito simples. Isso também tinha um certo efeito. E antigamente, havia um mestre que curava a tuberculose fazendo os doentes rirem com histórias engraçadas, como um comediante. Isso também trazia muitas melhoras.
-
-Não sei a qual categoria essa pessoa pertence, mas mesmo que cure, não será uma cura fundamental. A doença é purificação. Métodos como esse são temporários e não duram. E é absolutamente impossível que mudos, surdos e cegos sejam curados dessa forma. É propaganda para atrair pessoas. Afinal, como um surdo poderia ouvir a palestra? (gargalhadas)
-
-**P— Frequentemente se fala em "boa compatibilidade". Isso tem relação com a idade do homem e da mulher?**
-
-R— A compatibilidade é algo muito mais profundo do que se pode determinar pelos ciclos do zodíaco chinês. Além disso, o fato de um casal se dar bem não significa necessariamente que seja uma boa união. O excesso de harmonia pode ser tão prejudicial quanto a falta dela. O meio-termo é o ideal. Um casal que vive "grudado" o tempo todo acaba sendo improdutivo. (gargalhadas)
-
-Ademais, é Deus quem decide os casamentos, então essa questão não tem relevância. Se o espírito de uma pessoa é bom, ela não atrairá alguém de espírito ruim. No final, tudo depende do seu próprio merecimento. Não existe casamento entre pessoas de níveis espirituais tão distintos. A condição social também não importa muito. Seja um casamento por amor ou arranjado, se aconteceu naturalmente, está bom. Se após analisar o pretendente algumas vezes você concluir que está tudo bem, case-se logo. Decida após dois ou três encontros. Ficar escolhendo demais e esperando muito tempo não costuma dar certo.
-
-**P— Há problema em manter fotos de entes queridos falecidos em paredes ou no altar como recordação?**
-
-R— É melhor guardar as fotos dos falecidos por cerca de um ano. Olhar para a foto faz com que nos lembremos constantemente da pessoa, e ser lembrado é, invariavelmente, um incômodo para o espírito. Mesmo que ele esteja a caminho do Paraíso, cada vez que é lembrado, é puxado de volta para o mundo físico, o que atrasa sua ascensão. É um grande transtorno. Por outro lado, se você o esquecer completamente, ele pode pensar que você é uma pessoa ingrata. O ideal é lembrar-se na medida certa. (risos) Especialmente durante as cerimônias memoriais, concentre-se com toda a sinceridade. Mas lembrar-se o tempo todo não é bom. Ao orar diante de uma foto, o espírito do falecido é atraído para ela, o que também é incômodo para ele. Portanto, é melhor guardar a foto até que se passe o primeiro aniversário da morte. Depois disso, não há problema.
-
-É comum acontecer o seguinte: quando um filho morre, os pais pensam muito nele. Esse apego pode fazer com que a criança reencarne rapidamente. Muitas vezes, um novo filho nasce no ano seguinte ou no segundo ano, exatamente na data do falecimento do primeiro. Isso é uma clara evidência do fenômeno. É prejudicial, pois a criança reencarna sem ter se purificado o suficiente no Mundo Espiritual. Por isso, é melhor não se lembrar com tanta frequência.
-
-Contudo, existem exceções. Certa vez, um capitão da marinha teve um primeiro filho muito fraco e com dificuldades de aprendizado, o que causava grande preocupação. Ele ia mal na escola e faleceu por volta dos dez anos. No ano seguinte, exatamente no aniversário de sua morte, nasceu outro filho. Este cresceu muito inteligente, forte e obediente. No entanto, sua personalidade e aparência eram idênticas às do filho falecido. O que aconteceu foi que, ao morrer, o primeiro filho pensou com grande remorso: "Causei muita preocupação aos meus pais. Da próxima vez, quero nascer forte e bom para retribuir seu amor". Esse pensamento ficou tão arraigado que ele reencarnou em apenas um ano. Nesse caso, como a criança tinha consciência, foi positivo, mas é uma situação rara.
-
-**P— Mesmo nos casos de reencarnação rápida devido ao apego, o espírito secundário que acompanha a pessoa é diferente do da vida anterior?**
-
-R— Em princípio, é diferente. Mas se a reencarnação for muito rápida, pode acontecer de ser o mesmo. Isso não ocorre com bebês, mas com pessoas que morreram mais velhas, se reencarnarem logo, o mesmo espírito secundário pode acompanhá-las. Na verdade, isso não é bom. Se um espírito secundário cometeu um assassinato e logo se acopla a uma nova pessoa, esta terá um assassino como acompanhante, o que é extremamente perigoso.
-
-**P— Dizem que sonhar com incêndio durante a gravidez resulta em um filho com marcas de nascença, e que ter fé resulta em um bom filho. Isso é verdade?**
-
-R— Sonhar com incêndio durante a gravidez não causa problema algum. Marcas de nascença não têm uma causa tão simples. Isso é superstição. Já a afirmação de que a fé gera bons filhos é uma verdade absoluta. Com a fé, o coração se volta para Deus, e os maus pensamentos desaparecem. Os filhos são influenciados pelos pensamentos dos pais. Não em tudo, mas em certos aspectos, a influência é inegável. Portanto, uma criança concebida quando os pais estão em um bom estado de espírito tende a ser boa. A quantidade de pecados e máculas dos pais e seu estado mental têm uma enorme influência sobre os filhos. É cômico ver pais que cometem erros repreendendo seus filhos. Os pais são o tronco, e os filhos, os galhos. Se o tronco é frágil, não há como os galhos serem fortes. Primeiro, os pais devem acumular muitas virtudes. Assim, os filhos não se desviarão. É comum ver pais que mantêm amantes repreenderem os filhos por serem libertinos. Isso não adianta nada.
-
-O ser humano foi criado de forma que não consegue cometer erros impunemente. Todo erro gera uma consequência correspondente, que traz sofrimento para a própria pessoa. E o sofrimento vem com juros. Quanto mais se acumula, maiores os juros, e quando a cobrança chega de uma só vez, o golpe é terrível. Por isso, é preciso resolver as pendências o quanto antes.
-
-**P— Recebi o Pergaminho da Fé em dezembro de 1937. Uma semana depois, tive um sonho. Em um lugar do meu jardim onde não existia nada, havia um pinheiro. Enquanto eu o observava, maravilhado, o pinheiro se transformou em um dragão, que ascendeu aos céus. Qual o significado disso?**
-
-R— Um dragão divino que estava ligado a você foi salvo porque você ingressou na fé. Esse dragão já havia passado por um longo período de aprimoramento e estava prestes a concluir sua purificação. O fato de você ter recebido o Pergaminho removeu a última mácula que restava, permitindo sua ascensão. Ele se mostrou em sonho para lhe comunicar isso. É algo que acontece com frequência.
-
-**P— Uma mulher sonhou com seu filho falecido. O rosto era o mesmo de quando ele era vivo, mas do pescoço para baixo, o corpo era o de uma enguia de uns 20 centímetros de diâmetro e 3 metros de comprimento. Ele estava no mar, tentando desesperadamente ser abraçado pela mãe. A família era dona de uma peixaria na época em que o menino nasceu. Qual o significado disso?**
-
-R— Ah, isso foi a maldição de um congro ou de uma enguia... existem enguias marinhas. Um desses animais causou a interferência. Com três metros de comprimento, era bem grande. Mas seres como cobras são elásticos e podem se encolher. A cabeça de criança e o corpo de enguia indicam que a transformação de humano para animal não é instantânea; ela começa pela parte inferior do corpo. Com o tempo, a cabeça também se tornaria de enguia. Provavelmente, eles mataram e comeram o animal quando tinham a peixaria. Dragões divinos – e enguias e congros são tipos de dragão – são imprevisíveis, é preciso ter cuidado.
-
-**P— Uma mulher estava doente na cama quando viu uma lesma enorme ao lado de seu travesseiro. Após sua morte, uma lesma idêntica apareceu em seu túmulo...**
-
-R— Que história desagradável. (risos)
-
-**P— Mais tarde, a família preparou arroz festivo (sekihan) e o ofereceu a Deus. Do nada, surgiram inúmeras lesmas que cobriram completamente o arroz. Pouco depois, desapareceram todas. Há algum significado nisso?**
-
-R— Sim, há. Existe uma conexão entre a lesma e essa mulher. Provavelmente, um filho ou outro parente próximo dela se transformou em lesma. O espírito de um familiar se apossou de uma lesma. É comum que espíritos se apossem de lesmas, moscas, abelhas, borboletas e libélulas. O espírito dessa criança, então, trouxe seus subordinados para se banquetear com o arroz. Cobra, sapo e lesma formam um trio de seres que se paralisam mutuamente, e não são nada agradáveis. Essa pessoa provavelmente reencarnou como lesma uma vez e, depois, como criança, mas a conexão espiritual ainda não se desfez. É um fenômeno misterioso, mas acontece.
-
-**P— Uma pessoa com o Ohikari e outra com um amuleto de Amida tiraram uma foto ao lado de uma árvore. A que tinha o amuleto subiu na árvore, e a que tinha o Ohikari ficou embaixo. Na revelação, apenas a pessoa com o Ohikari apareceu; a outra não era visível (e o foco estava perfeito). Isso tem algum significado?**
-
-R— Sim, e muito. Como a outra pessoa estava no erro, foi apagada da foto. É um caso interessante. Traga a foto para publicarmos na revista. De fato, milagres acontecem em fotografias.
-
-**P— Por quantos anos devemos realizar as cerimônias memoriais de falecimento?**
-
-R— Por quantos anos quiser. Cerimônias de quinhentos ou mil anos, como se costuma fazer, são muito boas. Após tanto tempo, a maioria dos espíritos já reencarnou, então a cerimônia pode parecer desnecessária. No entanto, se o espírito já reencarnou e está vivo, a virtude da cerimônia se reverte para ele. A pessoa viva recebe um benefício. Mesmo após várias reencarnações, a conexão espiritual persiste, então realizar a cerimônia é sempre um ato de grande virtude. Às vezes, quando algo de bom nos acontece inesperadamente, pode haver uma relação com isso.
-
-**P— A lápide provisória de um túmulo quebrou, e ainda não construímos a definitiva. Posso eu mesmo fazer uma lápide e instalá-la?**
-
-R— Sim, sem problema. E é melhor fazê-lo logo. Sem uma lápide, não é possível prestar homenagens, pois o espírito não tem onde se manifestar. Faça uma, por mais simples que seja, o quanto antes.
-
-**P— Diz-se que as causas espirituais da tuberculose são gatos e cobras. Isso é verdade?**
-
-R— Não é que não haja relação, mas não é tão comum. A causa espiritual mais frequente são os irmãos. Quando um morre, ele sente solidão e muitas vezes vem buscar o outro, o que dá a impressão de contágio. Isso também pode acontecer entre marido e mulher. Entre pais e filhos, é muito raro. Gatos podem causar tosse, que é confundida com tuberculose, mas é uma tosse diferente da causada pela doença. Cobras podem causar dor intercostal, que as pessoas associam aos pulmões. Casos assim, de difícil diagnóstico, são frequentemente classificados como tuberculose.
-
-**P— Um assistente de ministro que ingressou na fé em maio do ano passado faleceu de tuberculose. Após a morte, seu corpo ficou rígido, dificultando a colocação no caixão. Até então, todos os corpos que recebiam Johrei amoleciam. Foi a primeira vez que isso não aconteceu. Qual a causa?**
-
-R— É um caso raro. Com o Johrei, o corpo sempre amolece. Deve haver uma razão muito forte para isso: ou um pecado muito grande, ou uma grande quantidade de medicamentos solidificados. Uma dessas duas coisas. Em situações assim, deve-se ministrar bastante Johrei na cabeça. Mas isso acontece talvez em uma a cada dez mil pessoas. Normalmente, apenas uma sessão já traz um grande alívio.
-
-**P— Aos 18 anos, tive endometrite e fiquei internada por seis meses, melhorando. Aos 24 e 26, tive novamente problemas no útero. Casei-me e hoje sou mãe de três filhos. Tenho vergonha de dizer, mas sou frígida e não sinto nada. Terei salvação?**
-
-R— Sim, tem cura. Isso se deve à atrofia dos rins; seu útero está como o de uma criança. Se ministrar Johrei nos rins, certamente se curará. Na região entre a coluna e as costelas, em forma de triângulo, há um nódulo de toxinas de medicamentos. Quando a parte posterior dos rins amolecer e o órgão, que estava murcho, se expandir e voltar a funcionar, o útero também aumentará de tamanho. É preciso ministrar Johrei também na cintura e no abdômen. Para uma recuperação rápida, é necessário um Johrei de grande poder espiritual, então procure um ministro com mais experiência.
-
-**P— Há treze anos, tive problemas no pós-parto que se tornaram crônicos ("caminho do sangue"). Desde janeiro do ano passado, venho recebendo Johrei e melhorei bastante. Como essa condição é considerada incurável, gostaria de saber se a cura total é possível.**
-
-R— Sim, a cura é certa. Os sintomas do "caminho do sangue" variam, mas a causa é, basicamente, o sangue que não foi completamente expelido após o parto e se desloca para as partes do corpo que são utilizadas. Se a mulher usa a cintura, ele se solidifica ali; se usa os olhos, o sono é prejudicado. As doenças mentais no pós-parto ocorrem porque esse sangue, devido a preocupações, sobe para a cabeça. Esse sangue é difícil de ser eliminado por meios comuns, por isso a condição é tida como incurável.
-
-É importante saber o seguinte: após o parto, a mulher deve ficar de cama por uma semana. Depois, levantar-se aos poucos e evitar esforços por 21 dias. A partir de 35 dias, pode retomar gradualmente as atividades normais. O ideal é voltar à rotina somente após 75 dias. Forçar o corpo no pós-parto é a origem de muitas doenças, então é preciso ter muito cuidado.
-
-(Nota do editor: Em ocasião anterior, Meishu-Sama nos orientou: "Mulheres com menos de 75 dias de pós-parto podem receber Johrei, mas não devem ministrar muito em outras pessoas, pois o sangue tóxico pode se acumular em seus braços e causar dores nevrálgicas no futuro." Adicionamos esta nota para referência.)
-
-**P— Recentemente, minha esposa engravidou e teve um aborto espontâneo, e depois disso, sua menstruação cessou. Pensamos que estava grávida novamente, mas a menstruação voltou. Qual a razão disso?**
-
-R— Não era uma gravidez real, mas sim uma gravidez psicológica. É um fenômeno comum. A mulher deseja tanto engravidar que sua menstruação para, e a barriga começa a crescer, geralmente por cinco ou seis meses. Isso mostra o imenso poder da mente humana. Mas como se trata apenas de sangue menstrual acumulado, assim que ele é expelido, a barriga murcha como um balão. Muitos casos de "aborto" são, na verdade, gravidezes psicológicas. Em um aborto real, sempre há um coágulo de sangue. Pessoas nessa situação, ao entrarem na fé e acumularem um pouco de virtude, conseguirão ter filhos saudáveis. Ela tem apenas 26 anos... não, essa é a sua idade. Então sua esposa deve ser ainda mais jovem. Com certeza ela conseguirá engravidar.
-
-**P— Tenho ouvido falar de meninas com cerca de três meses de idade que apresentam um sangramento semelhante à menstruação. Por que isso acontece?**
-
-R— Isso não é menstruação e dura pouco tempo. Ao nascer, o bebê ingere um pouco do sangue antigo da mãe, especialmente se ela tem um fluxo menstrual abundante. Por isso, é comum que o bebê sangre pela boca dois ou três meses após o nascimento. Os médicos diagnosticam como úlcera gástrica, mas é impossível que uma criança tão pequena tenha úlcera. É apenas a expulsão do sangue antigo, não é nada grave. No caso dessas meninas, o sangue antigo está sendo expelido por baixo. Logo voltará ao normal, não há motivo para preocupação.
-
-**P— O que a medicina chama de septicemia? Qual a sua causa e como tratá-la com Johrei?**
-
-R— A septicemia é a presença de sangue extremamente impuro no corpo. Esse sangue rompe os vasos sanguíneos. No início, costumam aparecer manchas na pele, que são o sangue vazando sob a derme. Se a pessoa se corta, o sangue não para de escorrer. Se extrai um dente, a hemorragia pode ser fatal. O sangue está terrivelmente impuro, e a causa são as toxinas de medicamentos muito fortes. Com o Johrei, a cura é rápida, pois a impureza do sangue diminui.
-
-**P— Ouvi dizer que a micose (pé de atleta) é causada pela possessão de espíritos de insetos. O mesmo se aplica a outras micoses, como a tinha? E por que a micose é mais comum nos pés?**
-
-R— A micose não é causada por possessão de espíritos de insetos. Os germes se proliferam. E eles se proliferam porque há toxinas, neste caso, de medicamentos. As toxinas mais pesadas tendem a se acumular na parte inferior do corpo. As mais pesadas de todas se concentram perto da sola dos pés. A micose se manifesta um pouco acima da sola, onde as toxinas de medicamentos se acumulam e os germes se desenvolvem. Portanto, quem não toma remédios não tem micose. É uma doença criada pelo próprio ser humano, uma doença artificial. O mesmo se aplica à tinha e outras micoses; a causa também são as toxinas de medicamentos.
-
-**P— A meia-lua na base da unha tem relação com a saúde da pessoa?**
-
-R— Sim, uma grande relação. Especialmente a do polegar. Quanto mais saudável a pessoa, mais branca e nítida é a meia-lua. Quando tive sarna, a minha desapareceu completamente. Agora está voltando, mas ainda não está como antes.
-
-**P— O umbigo tem alguma função após o crescimento?**
-
-R— Sim. O ser humano precisa de um centro, e esse centro é o umbigo. Ele desempenha uma função importantíssima, uma função invisível. O umbigo é a fonte da coragem e da determinação, correspondendo à alma rude (aramitama) do Xintoísmo. O ponto entre as sobrancelhas é chamado de "Imperador Celestial" (Tentei). O Imperador Celestial acima e o umbigo abaixo formam o céu e a terra. O Imperador Celestial corresponde à alma harmônica (niguitama); dele vem a sabedoria, e do umbigo, a coragem. Pensa-se com o Imperador Celestial e age-se com o umbigo. Ele é o centro.
-
-O Japão tem a forma de um dragão, e o Monte Fuji é o umbigo do país. Portanto, o Fuji não é apenas uma montanha alta e bonita; ele tem um significado de extrema importância. (Consultar Registro dos Ensinamentos de Luz, nº 4).
-
-**P— O senhor ensinou que as quatro estações são a respiração da Terra. A ciência, porém, explica que elas ocorrem porque a Terra gira em torno do Sol enquanto roda em seu próprio eixo. Como devemos entender isso?**
-
-R— A explicação da ciência está equivocada. Não é a Terra que orbita o Sol, mas o Sol que orbita a Terra. A razão é que o centro do universo é a Terra. Entre todos os corpos celestes, a Terra é o mais elevado. Na verdade, o Sol e a Lua são inferiores à Terra. E o que é de posição superior não deve se mover. Por isso eu digo que o mestre não deve se mover. Durante a guerra, o general Tojo vivia circulando pela cidade, inspecionando pessoalmente as frentes de batalha, abrindo tampas de lixeiras. Eu sempre dizia que isso era errado. Quanto mais elevada a posição de uma pessoa, mais ela deve permanecer imóvel. A Terra é a mestra; portanto, o correto é que todos os outros astros girem ao seu redor.
-
-**P— Na noite de 11 de maio, entre 22h30 e 23h, um anel de sete cores, de uma beleza extraordinária, formou-se ao redor da Lua. Nunca vi algo tão belo. Isso tem algum significado espiritual?**
-
-R— Eu já vi um anel semelhante, como um arco-íris, ao redor do Sol. Foi por volta do meio-dia e durou cerca de uma hora. Eu estava atravessando o Lago Kasumigaura, na província de Ibaraki, a caminho de Kashima e Katori. Era exatamente como o anel ao redor da Lua. O Sol ficou com um tom cinza e escurecido. A explicação é a seguinte:
-
-A luz do Sol é extremamente forte. Quando atinge a Lua, diferentes cores podem surgir. Quando a Lua está irradiando uma grande quantidade de umidade, ou seja, quando a luz do Sol e o hidrogênio estão ambos muito potentes, ocorre o fenômeno do arco-íris. A ocorrência de tal fenômeno indica que algo está para acontecer na Terra. Não é uma coincidência. Quando algo está para ocorrer no mundo material, antes ocorrem diversas mudanças no Mundo Espiritual, que se refletem nos corpos celestes, gerando fenômenos misteriosos. O que acontece no Mundo Espiritual não é visível, mas devemos observar com muita atenção as mudanças astronômicas, pois elas são um reflexo que se manifestará no mundo físico.
-
----
-
-# Coleção de Ensaios do Mestre Jikan Okada — Registro da Perseguição Religiosa
-
-**Categoria:** sasshi | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1950-10-30
-
-## Coleção de Ensaios do Mestre Jikan Okada — Registro da Perseguição Religiosa
-*Publicado em 30 de outubro de 1950*
-
-### Prefácio
-
-Este registro é o relato das experiências que vivenciei durante o nefasto incidente ocorrido em 8 de maio de 1950 e que teve seu desfecho parcial em 12 de julho do mesmo ano. Não nutro, em absoluto, a intenção de utilizar estas palavras para influenciar favoravelmente o processo judicial que ora enfrento. Tomei a liberdade de escrever apenas por temer que, com o passar do tempo, minhas memórias se esvaiam.
-
-Para mim, este episódio revelou-se uma experiência de valor inestimável. Senti profundamente que todos que respiram o ar da sociedade moderna devem estar cientes de que uma pequena desatenção, um equívoco ou a ignorância da lei podem acarretar calamidades inesperadas. Foi com a solícita preocupação de alertar o maior número possível de pessoas que redigi estas linhas.
-
-Ademais, gostaria de fazer um apelo às autoridades: para que o Japão se torne uma nação verdadeiramente democrática, é imperativo que se reconheçam as inúmeras questões que clamam por reforma no âmbito da administração judicial. Anseio que as autoridades, através deste relato, possam sentir essa necessidade. Este é o meu mais sincero desejo.
-
-A experiência que vivenciei ao longo de vinte e dois dias, submetido a interrogatórios por policiais e promotores, revelou um método de natureza tão antidemocrática que transcende a imaginação, sendo, ao que parece, quase desconhecido do público em geral. Se tamanha arbitrariedade for tolerada, é impossível mensurar quantos cidadãos inocentes serão vitimados e submetidos a sofrimentos atrozes no futuro. Cientes dessa realidade, sentimos o dever inalienável de agir em seu socorro.
-
-Por mais que se promulgue uma Constituição impecável, se a sua aplicação não for condizente, a liberdade e a democracia, tão arduamente conquistadas, serão espezinhadas na lama. É por sentir que um grande despertar se faz urgentemente necessário, e o mais rápido possível, que decido expor estes fatos sem rodeios, sob o risco de causar apreensão.
-
-Embora não sejamos especialistas, cremos que o pilar fundamental da lei deve ser o de incentivar o bem, punir o mal, construir uma sociedade melhor e concretizar a máxima felicidade para o maior número de pessoas. Esta, a nosso ver, deve ser a sua convicção basilar.
-
-Contudo, a conclusão a que cheguei, após vivenciar na pele cada detalhe deste incidente, é que a realidade se contrapõe frontalmente a esse propósito. Como é de vosso conhecimento, sou um religioso. A missão primordial da religião, não é preciso dizer, também visa à realização de uma sociedade humana mais elevada, incentivando o bem, punindo o mal e construindo um mundo ideal.
-
-Portanto, por mais que nos dediquemos à expansão da fé e almejemos uma sociedade livre e democrática, se aqueles que aplicam a lei permanecerem alheios a tais princípios, cabe-nos incitá-los ao despertar, rogando para que, sob uma percepção correta, alcancem os objetivos almejados. Se este registro puder servir, ainda que minimamente, como um subsídio para tal fim, sentir-me-ei imensamente afortunado.
-
-Dito isso, ao refletir sobre o ocorrido, não posso deixar de sentir o peso da autocrítica. Este incidente revelou quão negligente e desidiosa foi a nossa administração até hoje e quão falha foi a nossa supervisão. Se não fosse por este episódio, é possível que, inconscientemente, nossa complacência tivesse semeado as sementes de inúmeras outras calamidades. Assim, considero que uma grande desgraça foi transformada em um mal menor.
-
-Creio firmemente que foi Deus quem, utilizando as mãos das autoridades, nos concedeu a graça de uma grande purificação. Este imenso sofrimento, senão o açoite do amor de Deus, o que mais poderia ser? Profundamente introspecto, sinto apenas gratidão e emoção. E aos agentes da lei, que desempenharam o papel desse açoite, dedico também a minha mais profunda gratidão por seu labor.
-
-Embora tenha intitulado esta obra de “Registro da Perseguição Religiosa”, o termo pode não ser o mais preciso. Líderes como Cristo, Nitiren, Honen, Shinran e, mais recentemente, a fundadora da Tenrikyo, utilizaram a palavra “perseguição religiosa” (法難, hounan) em uma época em que não existia um sistema legal como o atual. O “hou” (法) de “hounan” provavelmente se origina do budismo e não corresponde à “lei” (法律, houritsu) de hoje. Originalmente, o budismo era chamado de “Bu-ppou” (仏法, Lei de Buda), termo que depois se transformou em “Bukkyo” (仏教, Ensinamento de Buda). Nesse sentido, o que Cristo sofreu deveria ser chamado de “paixão” ou “sofrimento”, e não de “perseguição religiosa”.
-
-O meu caso, por sua vez, não teve qualquer relação com a religião; o ponto central foi uma questão de sonegação fiscal. Portanto, seria mais apropriado chamá-lo de “infortúnio legal” em vez de “perseguição religiosa”. A propósito, consta que a Sra. Miki Nakayama, fundadora da Tenrikyo, foi presa mais de uma dezena de vezes. Apesar disso, sua religião alcançou a prosperidade que vemos hoje. Isso nos ensina que a perseguição religiosa é um elemento inerente à fé e que, por mais que as autoridades exerçam forte pressão, aquilo que possui verdadeiro valor jamais será aniquilado e, um dia, será reconhecido pela sociedade.
-
-Há ainda outro propósito de suma importância nesta obra. Como sabem, assim que o incidente eclodiu, a maioria dos jornais noticiou o fato com grande alarde, tratando-o como um furo de reportagem. Ao ler os artigos, porém, deparei-me com uma profusão de inverdades, o que me causou profunda preocupação com o equívoco que poderiam gerar na sociedade. Senti, pois, a necessidade de oferecer um esclarecimento.
-
-Como religioso, empenhado em corporificar a Vontade Divina e devotado à sagrada obra de salvação da humanidade, considero que expor a verdade e dissipar a nuvem de mal-entendidos é a medida mais urgente a ser tomada. É com essa intenção que escrevo. Nesse sentido, rogo para que compreendam a sinceridade de minhas palavras, apreendam a realidade desta chamada “perseguição religiosa” e façam um julgamento justo.
-
-Agosto de 1950
-O Autor
-
-### O Início
-*Mokiti Okada*
-
-### A Batida Policial
-
-Conforme mencionei no prefácio, na madrugada de 8 de maio de 1950, como um raio em céu azul, uma vasta operação de busca e apreensão foi deflagrada em seis edifícios da nossa organização em Atami e um em Odawara, totalizando sete locais. Diz-se que o contingente mobilizado foi de oitenta policiais, o que evidencia a magnitude da operação. Foi como uma grande captura ao raiar do dia. Ademais, todos portavam pistolas, um aparato intimidador que evocava a recente prisão de um grande chefe do crime organizado. Quem poderia imaginar que uma organização religiosa seria alvo de tal tratamento?
-
-Ainda guardamos na memória a grande repressão sofrida por religiões como a Oomoto e a Hito-no-Miti antes do fim da guerra. Naquela época, os casos envolvendo religiões geralmente se baseavam em acusações de lesa-majestade e questões envolvendo mulheres, o que se tornara um padrão. Contudo, o crime de lesa-majestade desapareceu sem deixar vestígios, e é do conhecimento geral que problemas de natureza erótica não existem em nossa Igreja. Sendo assim, sob qual suspeita estaríamos? Não tínhamos a menor ideia. Era, no mínimo, intrigante.
-
-Não nos restava outra alternativa senão tentar deduzir a situação pela maneira como a busca era conduzida. Assim, pedi a familiares e às pessoas que presenciaram a operação que me relatassem os detalhes.
-
-Por volta das cinco e tantas da manhã do dia 8 de maio, despertei subitamente. Ao ouvir um barulho vindo da cozinha, uma das empregadas entrou apressadamente no quarto e disse: “Muitos policiais acabaram de chegar para uma investigação”. Fiquei surpreso e extremamente perplexo. Minha esposa, que dormia no cômodo ao lado, abriu discretamente a porta de correr, aproximou-se e sussurrou: “Você não acha que são ladrões?”. Respondi: “Se fosse no meio da noite escura, talvez, mas agora que o dia amanheceu, é impossível. Com certeza são policiais”. Mal terminei de falar, senti a presença de alguém no cômodo contíguo. Minha esposa, que retornou apressadamente, parecia ainda não acreditar e perguntou ao indivíduo: “O senhor não é um ladrão?”. Ouvi uma voz responder: “Não, sou fulano de tal”, e aparentemente mostrou-lhe um mandado. Minha esposa então disse: “Nesse caso, por favor, procedam à investigação”.
-
-Percebendo a gravidade da situação, saltei da cama e abri a porta de correr. De fato, um homem com aparência de policial inspecionava o local com o olhar. Ele se dirigiu a mim, dizendo: “Não precisa se levantar, pode continuar deitado”. Compreendi que seria mais conveniente para a investigação se eu permanecesse na cama, então voltei a me deitar. Contudo, meu coração batia acelerado, e o sono era impossível. Embora não houvesse nada a temer em uma busca e apreensão, a inquietação é um sentimento comum a todos os seres humanos em tais circunstâncias.
-
-Quando o café da manhã ficou pronto, levantei-me e, com esforço, consegui comer uma tigela de arroz, embora a comida me parecesse insossa. Pude constatar como as preocupações afetam, antes de tudo, o apetite. Soube depois que doze ou treze policiais à paisana haviam invadido a casa. Eles vasculharam cada canto, apreendendo documentos, correspondências, cadernetas bancárias, dinheiro em espécie, centenas de cartões de visita e tudo o mais que pudesse servir como material de investigação, e então se retiraram.
-
-Segundo o relato de uma empregada, seis ou sete policiais passaram cerca de três horas revistando o seu quarto de seis tatames. É verdade que, por ser o quarto de várias empregadas, havia muitos pertences, mas a revista foi tão minuciosa que, segundo ela, examinaram tudo, peça por peça, desde as faixas de baixo do quimono até as roupas íntimas. Dizem que os oficiais repetiam constantemente: “Estranho, muito estranho”. Todos comentamos que isso provavelmente se devia ao fato de não terem encontrado os bens ocultos que tanto esperavam encontrar. A equipe inteira se retirou por volta das três da tarde, o que significa que, descontando o tempo para as refeições, a operação durou mais de oito horas.
-
-Isso ocorreu em minha residência. No anexo em Shimizu-tcho, Atami, chegaram a remover as vigas do armário embutido para inspecionar o espaço sob o assoalho, o que revela a magnitude de suas expectativas. Em minha antiga casa, em Higashiyama, Atami, havia um cofre que, por não ser usado há muito tempo, ninguém se lembrava da combinação. Os policiais o selaram e retornaram alguns dias depois, em um grupo de três, para finalmente abri-lo. Segundo o caseiro, ficaram muito desapontados por não encontrarem nada e foram embora.
-
-Posteriormente, em 30 de maio, cinquenta policiais invadiram o anexo em Gora, Hakone, e realizaram uma busca extremamente detalhada por várias horas. Nessa época, eu já estava detido, e só soube do ocorrido mais tarde.
-
-Apesar de uma busca e apreensão de tamanha envergadura, o resultado foi como na fábula da montanha que pariu um rato. Contudo, quanto mais penso, mais me pergunto por que uma investigação tão grandiosa foi realizada. É realmente incompreensível. A opinião unânime era de que eles esperavam encontrar uma quantidade considerável de bens ocultos. No entanto, o mandado mencionava suspeita de suborno relacionada a um senhor chamado Kuhei Kanahisa. Oitenta policiais armados para uma suspeita dessa natureza? A perplexidade só aumentava. E, para completar, meu secretário, Fukuo Inoue, e o encarregado das obras em Atami, Kuhei Kanahisa, também foram presos e detidos.
-
-Diante disso, as intenções das autoridades eram um completo mistério. Inevitavelmente, sentia-se uma atmosfera de apreensão. Obviamente, contratamos advogados para Inoue e Kanahisa. Preocupados com meu bem-estar, alguns fiéis também me indicaram ou trouxeram advogados conhecidos para me confortar. Chegamos a discutir medidas a serem tomadas, temendo que a situação pudesse se agravar. Pensávamos que Inoue e Kanahisa seriam liberados em dois ou três dias, mas uma semana, e depois duas, se passaram sem que eles retornassem. Tendo-os como subordinados por tanto tempo, eu sabia perfeitamente que não eram pessoas capazes de cometer crimes graves. Inoue, em particular, servia-me com lealdade há vinte anos e era tratado como um membro da família.
-
-Soube que, bem antes da prisão dos dois, um fiel chamado Jintaro Yamada, funcionário de um banco, também havia sido detido sob a acusação de empréstimos irregulares. Antigamente, ele me visitava com frequência, mas naquele ano nos encontramos apenas uma vez, e eu não tinha notícias suas. Portanto, eu desconhecia suas circunstâncias, mas, por ser um fiel, imaginei que não faria nada de muito errado. Contudo, essa questão também era um enigma.
-
-Havia também quem levantasse a hipótese de que um bando de extorsionistas estaria por trás da ação das autoridades. Sinto a necessidade de detalhar aqui a atuação desse grupo.
-
-### O Bando de Extorsionistas
-
-Esse bando de extorsionistas vinha mirando nossa Igreja há um ou dois anos, com o objetivo de obter uma vultosa quantia em dinheiro. Para tanto, empregavam toda sorte de estratagemas, assediando insistentemente a organização. Segundo rumores, um grupo de cerca de dez pessoas, incluindo alguns parlamentares, religiosos, aproveitadores ligados à antiga direita e opositores da nossa Igreja, urdia uma conspiração. Eles agiam junto às autoridades e até mesmo ao Comando Supremo das Forças Aliadas, pintando nossa Igreja como um covil de demônios. O plano era levá-la à beira da dissolução para, então, alegar que uma grande soma seria necessária para as despesas da campanha que a salvaria, extorquindo dezenas de milhões de ienes.
-
-Como propaganda para alcançar seus objetivos, eles disseminavam calúnias, afirmando que nossa Igreja difamava a medicina ou que a agricultura sem fertilizantes era um absurdo. Envolviam também questões de sonegação fiscal, suborno e outras diversas invenções e boatos. A alegação na qual mais se empenhavam era a da ocultação de bens. Afirmavam que escondíamos centenas de milhões em barras de ouro e diamantes, um material perfeito para instigar as autoridades. Além disso, utilizavam jornais e revistas de forma maliciosa, espalhando boatos para criar uma opinião pública desfavorável, fazendo com que a existência da nossa Igreja parecesse prejudicial à sociedade. Empregavam todos os meios desesperados para atingir seus fins, mostrando uma determinação implacável.
-
-Uma manifestação disso foi a aparatosa operação do CID no verão do ano anterior. Lembro-me bem: por volta das nove da noite de 25 de agosto, cerca de dez agentes chegaram de surpresa ao anexo de Gora, Hakone, para uma busca e apreensão. A suspeita era de que escondíamos uma grande quantidade de barras de ouro, platina e diamantes, o suficiente para encher um tambor. Pareciam estar bastante convictos. Durante dois dias, realizaram uma busca rigorosa, chegando a utilizar um radar e a escavar a terra sob o assoalho da casa. Contudo, também naquela ocasião, a montanha pariu um rato, e o caso foi encerrado sem incidentes. Ao questioná-los, disseram que a ação se baseou em denúncias e cartas anônimas. A habilidade com que esse bando de extorsionistas enganava e manipulava as autoridades era de impressionar.
-
-Assim, pessoas de bem, que nada fizeram de errado, são atormentadas para satisfazer interesses escusos, sem que os perpetradores sofram qualquer sanção legal. Eles continuam a agir livremente na sociedade, enquanto as vítimas se veem forçadas a sofrer em silêncio. O resultado é que os bons são prejudicados, e os maus se dão bem. Trata-se de uma falha no sistema legal ou em sua aplicação? De todo modo, é um problema que não pode ser ignorado. Ouvi muitas pessoas que se lembravam da operação do CID comentarem que as suspeitas de ocultação de bens eram notavelmente semelhantes.
-
-Como mencionei, a maioria dos advogados apresentados ou trazidos por fiéis opinava que não havia a menor possibilidade de o Mestre ser preso. Diante disso, eu também acreditava que, no máximo, poderia ser chamado para depor, mas que uma detenção estava absolutamente fora de questão.
-
-No entanto, em 29 de maio, vinte e um dias após a busca e apreensão do dia 8, fui subitamente acordado de madrugada. Um homem apresentou-me um cartão de visita que o identificava como Sr. K., chefe da divisão de investigação criminal da Delegacia de Ihara, na cidade de Shimizu, província de Shizuoka. Acompanhado por outro detetive, ele me disse: “O senhor deve nos acompanhar imediatamente”. Fiquei estarrecido. Aquilo era totalmente inesperado.
-
-Naquele momento, eu disse: “Meus subordinados estão sendo interrogados há tanto tempo, provavelmente porque há pontos que não foram esclarecidos. Eu já pensava que, se eu mesmo explicasse tudo detalhadamente, eles entenderiam. Portanto, esta é uma ótima oportunidade”. E consenti prontamente.
-
-Devido a problemas com o carro, chegamos com bastante atraso. Passava da meia-noite e meia quando cruzamos os portões da delegacia e fui levado para uma cela de detenção. Eu já havia tido a experiência da detenção em 1936, por duas vezes, e em 1940, uma vez. Na primeira, foram dois dias; na segunda, onze; na terceira, três. As duas primeiras foram por questões religiosas, e a terceira, por violação da Lei Médica. Em todos os casos, fui considerado inocente. Naquela época, os interrogatórios foram conduzidos pela Polícia Especial (Tokkō). Embora se imagine que os interrogatórios da Tokkō fossem extremamente feudais, em comparação com os desta vez, os atuais foram incomparavelmente mais rigorosos e implacáveis. Poderia resumi-los em uma palavra: aterrorizantes. Pretendo descrever tudo exatamente como aconteceu.
-
-### O Interrogatório
-#### O Primeiro Interrogatório
-
-No primeiro dia de detenção na delegacia, o interrogatório foi breve e terminou rapidamente. Foi no segundo dia. Assim que terminei o café da manhã, fui levado para uma sala de interrogatório no segundo andar. Além do chefe da divisão de investigação criminal K. e do chefe da divisão de investigação criminal M., um inspetor chamado S. havia sido enviado como reforço da sede da Polícia Nacional em Shizuoka naquela mesma manhã.
-
-Gostaria de registrar aqui minhas impressões sobre esses três homens. O Sr. K. era, de certa forma, uma pessoa de trato afável e acessível. Já o Sr. M. era o típico interrogador, severo e implacável. Poderíamos dizer que M. era a figura paterna, e K., a figura materna. O inspetor S. era um homem robusto, do tipo militar, cuja presença imponente exercia uma forte pressão sobre o réu.
-
-O interrogatório começou. Cercado pelos três, fui submetido a um bombardeio de perguntas. A primeira questão era sobre o Sr. Jintaro Yamada, funcionário do Banco de Shizuoka, agência de Numazu. Disseram-me para falar a verdade. Quando respondi o que sabia e o que não sabia, os três, em uníssono, gritaram: “É impossível que você não saiba! Se tentar se fazer de desentendido ou mentir, vai se arrepender! O que Inoue disse e o que Yamada disse coincidem. Se só você diz algo diferente, está claro que o errado é você!”. Fiquei atônito: “Por mais que eu pense, tenho certeza de que a minha versão é a correta”. Mas eles não se convenceram e continuaram a me pressionar.
-
-Fiquei chocado. Seria este o método de interrogatório da polícia democrática? Isso não era democrático, era o completo oposto. Comparado a isso, o tratamento da antiga Tokkō era incomparavelmente mais suportável. Por mais que eu contasse os fatos como eles eram, simplesmente não me davam ouvidos. Insistiam em impor a sua versão a todo custo. “Isso é terrível”, pensei. “O que devo dizer?” Eu não estava sendo interrogado; estava recebendo ordens. Dizer a verdade era, simplesmente, um ato de desobediência. Em meu desespero, cheguei a perguntar se deveria inventar uma história, ao que eles responderam: “Não diga tolices. Basta dizer a verdade”. Mas, quando eu dizia a verdade, eles a ignoravam por completo. Haveria no mundo tamanha contradição e incoerência? “Oh, Deus, o que devo fazer?”, eu suspirava.
-
-Quando terá começado esse tipo de interrogatório? Lembro-me de ter ouvido que o método soviético consiste em tratar o acusado como culpado desde o início e transformá-lo em culpado. Pensei que algo assim não poderia acontecer na polícia do Japão democrático de hoje, mas a realidade que eu enfrentava era exatamente essa. Enquanto eu refletia, os gritos dos três homens ecoavam em meus ouvidos, quase a ponto de rompê-los. Assim, não me lembro bem, mas o interrogatório daquele dia terminou com um depoimento confuso, e o registro deve ter ficado extremamente desleixado.
-
-No dia seguinte, fui interrogado novamente sobre o mesmo assunto pelos três, da mesma forma que no dia anterior. Como era impossível dar um depoimento claro, a investigação não progredia. Eles ficavam cada vez mais impacientes e me pressionavam. Ora falavam em tom ríspido, ora se acalmavam; ora se tornavam demônios, ora se faziam de budas. Era impossível prever suas reações.
-
-Naquele momento, veio-me à mente algo que ouvira após o fim da guerra, quando o Japão se tornou democrático sob a orientação americana: que um réu não deveria ser tratado como culpado até que sua culpa fosse provada. A realidade, no entanto, era muito diferente. Ali, eu era tratado como culpado desde o início. Embora eu, um homem indigno, seja reverenciado por trezentos mil fiéis como líder de uma religião, o tratamento que recebi não diferia em nada do dispensado a um criminoso preso em flagrante. A única diferença em relação ao passado era a linguagem um pouco mais polida. Não usavam termos como “desgraçado” ou “você”; era só isso. Nunca senti tanta saudade dos interrogatórios de antigamente.
-
-O aspecto mais angustiante do método atual era o interrogatório sobre a memória, que me forçava obstinadamente a recordar os fatos. Se fosse algo que eu tivesse feito ou aprovado, talvez conseguisse, de alguma forma, reavivar a memória. Mas tratava-se de ações realizadas por meus subordinados por conta própria, sem meu conhecimento. Embora eu procurasse ouvir os relatórios mais importantes, em dias de muito trabalho, podia deixar passar algo, e mesmo o que ouvia, geralmente esquecia logo em seguida.
-
-Aqui, faz-se necessário descrever minha personalidade e rotina diária. Tenho o hábito de delegar os pequenos detalhes e tomar decisões com base no panorama geral. De outro modo, seria impossível administrar um empreendimento de grande escala. Na época, eu publicava um jornal semanal e uma revista mensal, sendo responsável por quase toda a edição. Oitenta a noventa por cento dos artigos eram escritos por mim ou eram cartas de leitores que eu revisava. Além disso, eu escrevia e publicava vários livros por ano. Em Atami e Hakone, empregava mais de cem trabalhadores na construção de um protótipo do Paraíso Terrestre em grande escala. Escusado será dizer que o projeto e o estilo eram concebidos e orientados unicamente por mim. No tempo livre, caligrafava talismãs e outros escritos a pedido, totalizando milhares de peças por mês.
-
-Com exceção dos seis dias de folga mensais, eu me reunia diariamente com os fiéis por uma a uma hora e meia. Eram centenas, às vezes mais de mil pessoas. Eu respondia a suas perguntas e proferia sermões. Além disso, encontrava-me com dirigentes da Igreja, personalidades notáveis, pessoas influentes, jornalistas e outros visitantes especiais, totalizando várias pessoas por dia. Ocasionalmente, viajava a Tóquio, o que consumia o dia todo. Eu lia vários jornais diários e as revistas de meu interesse, mas, devido à presbiopia, pedia a um subordinado que lesse para mim todas as noites.
-
-Desde jovem, sou um grande apreciador de cinema. Para me proporcionar algum lazer, os fiéis se revezavam para organizar sessões de cinema no salão do anexo várias vezes por mês. Essas sessões também serviam de recreação para as dezenas de dedicantes. Gosto muito de rádio e tento ouvir o máximo possível, mas nunca ouço apenas o rádio; faço-o enquanto realizo alguma outra tarefa, de forma dual. É assim que valorizo o tempo. Este breve resumo já demonstra o quão atarefada é a minha vida. Costumo dizer que realizo o trabalho de dez pessoas, e não creio que seja um exagero.
-
-Diante de uma rotina tão intensa, eu delegava todas as questões financeiras aos meus subordinados. Nunca perguntei sobre as receitas ou despesas diárias. Além disso, como sou reverenciado pelos fiéis como um deus vivo, não só não há necessidade de me preocupar com dinheiro, como isso poderia diminuir minha dignidade. Por isso, evito deliberadamente tocar no assunto. E não sou o único. É comum que os fundadores e líderes de qualquer religião transcendam as questões mundanas, especialmente as financeiras.
-
-Por essa razão, eu apenas ouvia relatórios gerais sobre finanças e outros assuntos de tempos em tempos. Só prestava atenção a valores muito altos ou a questões especiais não financeiras, como referência. Fora do âmbito da fé, eu praticamente não dava ouvidos a assuntos seculares.
-
-Apesar disso, o interrogatório dos oficiais se concentrava unicamente em questões financeiras, sem uma única palavra sobre religião. Portanto, por mais que me pedissem para reavivar a memória, era uma tarefa impossível. Imagino que os oficiais soubessem disso, mas eles insistiam em questionar-me repetidamente apenas sobre finanças, e eu custava a entender suas verdadeiras intenções.
-
-Eles diziam: “Como líder da organização, é impossível que você não saiba das questões financeiras. Em primeiro lugar, se não sabe, isso é o cúmulo da irresponsabilidade”. Eu respondia: “Não sou o presidente de uma empresa comercial para poder responder a isso. E, mesmo que fosse, ouvi dizer que, em questões fiscais e contábeis, a responsabilidade recai sobre os subordinados encarregados, e não sobre o presidente. Quanto mais sobre o líder de uma religião”. No entanto, eles me detiveram, o líder religioso, e me interrogaram obstinadamente apenas sobre finanças, como já mencionei.
-
-Todas as vezes, eu dizia: “Sou diferente do presidente de uma empresa comercial. Se for sobre religião, responderei a qualquer pergunta, mas sobre finanças, é impossível”. Ao que eles retrucavam: “Que absurdo! Você está tentando jogar toda a culpa nos seus subordinados. Que covardia! O líder de uma religião deveria assumir a culpa de seus subordinados, não acha?”. Fiquei de queixo caído. Era um religioso recebendo um sermão de um policial. Senti a raiva crescer diante de tamanha incompreensão, mas, pensando que ofendê-los seria prejudicial, e interpretando aquilo como uma provação divina, contive-me e, engolindo em seco, fiz o possível para não desagradá-los, curvando-me humildemente em mais de uma ocasião.
-
-O inspetor S. foi embora depois de dois ou três dias. A partir de então, os senhores K. e M. continuaram o interrogatório, com paciência, nos intervalos de seus próprios trabalhos. Mesmo nos dias mais curtos, o interrogatório deve ter durado várias horas. Antes de começar, o Sr. M. invariavelmente proferia um sermão. As palavras eram sempre as mesmas, embora ele não parecesse notar. Era algo assim: “Você quer voltar para casa o mais rápido possível, não é? E seus subordinados estão presos há muito tempo. Você também quer libertá-los logo. Por isso, é melhor reavivar a memória e contar tudo de uma vez”.
-
-Outra vez, ele disse: “É impossível que você não se lembre de um caso tão claro. Até mesmo assassinos e ladrões se lembram bem de fatos de cinco anos atrás e confessam tudo sem rodeios. O seu caso é de apenas dois anos. Não tem como não se lembrar. Nesse ritmo, seja você um deus ou o que for, vai acabar sendo pior que um assassino ou um ladrão”. Eram esses os seus modos. Diante de tal humilhação, a tristeza me invadiu, e não pude conter as lágrimas.
-
-Naquele momento, pensei: “É verdade. Atos extraordinários como um assassinato ou um roubo são inesquecíveis, não apenas por cinco ou dez anos, mas por toda a vida. Mas o meu caso é totalmente infundado, portanto, não é uma questão de lembrar ou esquecer”. Será que ele não entendia algo tão óbvio, ou apenas fingia não entender? De qualquer forma, a pressão só aumentava.
-
-Ele também dizia com frequência: “Se você não quer reavivar a memória, não precisa. Para mim, não faz a menor diferença. Mas quem sai perdendo é você, não acha? Então, vamos mantê-lo aqui até que se lembre. É mais inteligente reavivar a memória logo e sair daqui o mais rápido possível. Pense bem”.
-
-#### A Fabricação de Memórias
-
-Cada vez que ouvia isso, eu ficava desesperado. O que eu poderia fazer? Era impossível reavivar uma memória que não existia. Mas, se não o fizesse, ficaria detido indefinidamente. Eu precisava encontrar uma solução. Cheguei a pensar que teria sido melhor ter cometido alguma pequena maldade no passado; assim, bastaria confessá-la para resolver a situação.
-
-Depois de muito refletir, concebi um plano: a fabricação de memórias. Ou seja, fingir que estava me lembrando de algo. Talvez fosse isso que ele chamava de “ser inteligente”. Com receio, tentei. Ele disse que estava completamente errado e não me deu ouvidos. Pensei novamente. Tentei extrair fragmentos de suas palavras para construir uma história, mas ele disse que isso seria um interrogatório indutivo e não permitiu.
-
-Sem alternativa, comecei a observar a sua expressão e a prestar atenção às suas palavras, construindo aos poucos um depoimento que, de alguma forma, tomou forma. Naquele momento, pensei que estava fazendo algo extremamente bizarro: diante de um policial, eu mesmo me esforçava arduamente para criar um crime do qual era inocente. Seria possível que algo tão irracional existisse em uma nação civilizada? Nunca imaginei nem ouvi falar de um esforço tão estranho e penoso.
-
-Quando meu depoimento continha elementos que poderiam incriminar-me, ele parecia satisfeito. Caso contrário, relutava em aceitá-lo. Contudo, mesmo ao criar um crime, fui cauteloso. Para cada item, inventava um ou dois detalhes, buscando sempre a pena mais leve possível. Mais tarde, ao consultar um advogado, ele me disse que, por ser leigo, minha fabricação foi muito malfeita. Isso fica evidente ao ler meus depoimentos.
-
-Além disso, ele falava constantemente em tom ríspido, quase sem me deixar falar. Isso era extremamente frustrante. Quando eu tentava dizer algo, ele me interrompia aos gritos. Sem opção, eu esperava por uma brecha em seu discurso incessante para inserir algumas palavras. Isso se arrastou por vários dias.
-
-Nessa época, um promotor chamado K. veio me interrogar. O promotor K. era um intelectual, e seu interrogatório foi calmo e compreensível. Senti-me aliviado. Por isso, consegui falar com mais fluidez. O problema é que os assuntos abordados por ele eram os mesmos da polícia, e eu precisava repetir o que já havia dito aos policiais. Naquela altura, eu já havia mentido, então adotei uma atitude de “que seja”, o que, em parte, me ajudou a inventar uma história que agradasse ao promotor.
-
-Dois ou três dias depois, um promotor de reforço, o Sr. Y., veio me interrogar. Prestei um depoimento semelhante ao que dei à polícia. O promotor Y. foi bastante incisivo, mas, de alguma forma, consegui amarrar as pontas e, aos trancos e barrancos, o depoimento foi concluído. Senti um alívio. Alguns dias depois, o promotor Y. retornou e me interrogou novamente. O teor foi o mesmo da vez anterior, é claro.
-
-#### A Tortura Mental
-
-Foi então que um evento marcante ocorreu. Aconteceu durante um interrogatório conduzido pelos senhores M. e K. Naquela ocasião, o Sr. M. estava no comando, e o assunto principal eram as despesas da campanha contra a acusação de sonegação fiscal, iniciada em 8 de novembro de 1948. Como eu não me lembrava de absolutamente nada, não conseguia responder. O Sr. M., no entanto, não aceitava minha resposta e repetia insistentemente que eu deveria “reavivar a memória”.
-
-De vez em quando, ele se ausentava por algum motivo, mas logo retornava e me pressionava: “Ainda não conseguiu se lembrar?”. Eu, como de costume, tentava inventar uma resposta, mas, por se tratar de números, ele rebatia dizendo que os valores estavam completamente errados ou que não faziam o menor sentido. Ele dizia: “É impossível que você não se lembre de um assunto tão claro. Você só está demorando porque tenta distorcer os fatos em vez de falar a verdade”. Eu ficava furioso. Não tinha a menor intenção de distorcer ou mentir. Como religioso, sempre ensinei aos fiéis que a mentira é o pior dos males. Como poderia eu mesmo mentir? Tentei explicar que, acima de tudo, não poderia mentir para Deus, mas não obtive qualquer reação. Era como falar com uma estátua de pedra.
-
-No entanto, ele continuava a insistir em um único ponto: que eu reavivasse a memória. Como o interrogatório girava em torno de números, era extremamente difícil inventar uma resposta. A ansiedade, a angústia, a raiva e o desespero se misturavam em minha mente, que chegou ao limite da confusão. Senti o ambiente ao meu redor girar em um grande vórtice. Uma violenta tontura se apossou de mim, perdi a visão, minha consciência ficou turva e, no instante em que pensei que enlouqueceria, perdi os sentidos e desfaleci no local.
-
-Felizmente, recuperei a consciência em um ou dois minutos, mas a tontura era insuportável, a ponto de me causar náuseas. Sem alternativa, eles suspenderam o interrogatório. Cerca de uma hora depois, consegui me levantar e, apoiando-me em uma bengala, arrastei-me de volta para a cela de detenção. No momento em que entrei, a cela me pareceu o paraíso. Normalmente, a simples imagem daquela cela escura, com uma pequena janela e grades de ferro, seria assustadora, mas o fato de me parecer o paraíso revela o quão terrível fora o interrogatório.
-
-Algumas horas depois, no décimo dia de detenção, recebi a primeira visita do meu advogado, pois até então as visitas estavam proibidas. Ele notou meu estado cambaleante e minha palidez e, ao saber que eu havia desmaiado, recomendou que eu consultasse um médico, o que eu aceitei. Logo depois, o médico da polícia veio e me diagnosticou com esgotamento nervoso.
-
-Gostaria de ressaltar que, após dez dias de detenção, o enfraquecimento é considerável. A perda de apetite, a falta de exercício, a mudança drástica no estilo de vida, o desconforto do ambiente e o sofrimento mental causado pela dureza do interrogatório levam qualquer pessoa não acostumada a um estado de extremo esgotamento nervoso. No meu caso, por ter sessenta e nove anos de idade e levar uma vida confortável, o enfraquecimento foi ainda mais acentuado.
-
-No dia seguinte, à tarde, quando eu já me sentia um pouco melhor, fui chamado novamente para o interrogatório. Desta vez, talvez por eles terem sido mais brandos, consegui passar pela sessão sem maiores problemas. No entanto, no dia seguinte, como eu estava ainda mais recuperado, fui chamado e interrogado novamente. E, mais uma vez, o assunto das despesas da campanha foi trazido à tona. Quando disse que ainda não conseguia me lembrar, eles não aceitaram e continuaram a me pressionar com o mesmo argumento de sempre. Diante de tamanha insistência, senti a raiva, a angústia e a ansiedade prestes a explodir e lutei com todas as minhas forças para contê-las.
-
-Então, a agonia e a confusão começaram a girar novamente em minha cabeça. Subitamente, perdi a consciência e desfaleci, da mesma forma que da outra vez. Foi talvez ainda pior que da primeira vez. Ao recobrar os sentidos, senti o corpo dormente e não conseguia me levantar. Cerca de uma hora depois, consegui finalmente ficar de pé, mas não conseguia andar. O Sr. M., vendo meu estado, carregou-me nas costas até a cela. Enquanto era carregado, não pude deixar de gritar: “Isto é tortura mental!”. A palavra “tortura” pareceu assustá-los.
-
-Desde então, a tontura piorou. Se eu tentava pensar em algo, tudo começava a girar. Senti que algo em meu cérebro havia se quebrado. “Isso é terrível”, pensei. Se eu fosse pressionado mais uma vez sobre a questão das despesas da campanha, meu cérebro seria completamente destruído. O resultado seria a loucura ou a demência. A sinistra premonição de que eu poderia me tornar um inválido pelo resto da vida me assombrava.
-
-No dia seguinte, fui chamado para o interrogatório, mas me recusei a ir. Contudo, não podia ficar protelando. Se o interrogatório não terminasse logo, eu não seria libertado. Era um beco sem saída. Foi então que, como um auxílio do Céu, recordei-me da técnica de comunicação espiritual, que eu praticava com frequência no passado. “É isso! Não há outra maneira de superar este obstáculo”, pensei.
-
-O cerne do problema era a questão financeira. Como o Sr. Tetsuo Asai era o principal responsável por esse assunto, ele deveria saber os detalhes. Pensei em invocar o seu espírito. Aproveitando o silêncio da noite, chamei o espírito do Sr. Tetsuo e tentei a técnica. Esse tipo de prática espiritual é comum entre ascetas desde os tempos antigos, mas é absolutamente impossível fazer com que uma terceira pessoa, sem conhecimento espiritual, a compreenda.
-
-De todo modo, ao consultar o espírito, as palavras fluíram da minha boca, e os números pareceram se tornar claros. Talvez até claros demais.
-
-#### A Ida para o Presídio
-
-No dia seguinte, como de costume, fui chamado à sala de interrogatório. Como sabia que os policiais não entenderiam nada sobre comunicação espiritual, pensei em várias maneiras de explicar e finalmente disse: “Na verdade, ontem à noite, em meu desespero, orei a Deus com toda a sinceridade. Graças a isso, minha memória tornou-se clara, e agora posso responder”. E comecei a falar com fluidez. Os senhores K. e M. me olhavam com uma expressão de quem não entendia nada, mas, como meu depoimento, diferentemente das outras vezes, era fluente, o registro foi concluído rapidamente. Para mim, o importante era escapar do sofrimento do interrogatório e sair daquele lugar. Senti-me como se tivesse escapado da boca de um crocodilo e respirei aliviado.
-
-Naquela mesma noite, o promotor K. veio, e o interrogatório começou como sempre. Relatei os fatos com a mesma fluidez com que havia falado aos policiais. O promotor K. disse: “Até agora, você só disse coisas incoerentes. É estranho que, de repente, tudo tenha se tornado tão claro, não acha?”. E me fez várias perguntas. De fato, o valor das despesas que eu havia mencionado até então era completamente aleatório: ora quinhentos ou seiscentos mil ienes, ora cerca de um milhão, ora mais de dois milhões. Isso por si só já demonstrava que eu não sabia de nada.
-
-Como achei que seria difícil fazê-lo entender, respondi que havia orado a Deus e que um milagre havia acontecido. Com isso, o interrogatório pareceu ter chegado ao fim. Senti um alívio e, por ter escapado da destruição do meu cérebro, consegui dormir profundamente naquela noite, algo que não acontecia há muito tempo.
-
-No entanto, no dia seguinte, por volta das dez da manhã, ouvi uma voz do lado de fora da cela dizendo para eu sair imediatamente. Pensei que, como o interrogatório havia terminado, eu seria libertado naquele dia. “Que alegria!”, pensei. Mas, quando a porta se abriu e eu saí, vi um policial que eu não conhecia. Achei estranho. Ele me disse: “Vamos para Shizuoka agora, prepare-se”. Fiquei duplamente surpreso.
-
-O guarda da detenção me ajudou a arrumar meus pertences, cobertores e o que mais eu conseguisse carregar. Acompanhado por dois policiais, entrei em um carro. Cerca de uma hora depois, o carro parou. Olhei e vi que estávamos em frente a um presídio. Fiquei chocado. Jamais imaginei que seria levado para um presídio.
-
-Presídio, presídio. Que nome terrível e abominável. Eu tinha a convicção de que jamais em minha vida seria colocado em um lugar como aquele. Naquele momento, lembrei-me das famosas palavras de Taira no Shigemori: “Ontem, pensei que era o destino dos outros; hoje, recai sobre mim”. Era exatamente isso. Que mal eu teria feito para ser mandado para um presídio? Eu não entendia. Mais uma dúvida se somou às outras. “Será que foi porque ontem, através da comunicação espiritual, meu depoimento foi claro demais e isso infringiu alguma lei? Será que estou indo para o presídio por causa disso?”, imaginei. Mas, mais tarde, soube por meu advogado que não era esse o motivo.
-
-Depois de passar pelos procedimentos de praxe, guiado por um policial, atravessei os sinistros edifícios do presídio. Após caminhar cerca de cem metros, fui levado para um prédio moderno, recém-construído, que em nada se parecia com um presídio, e colocado em uma cela individual. O cômodo era pequeno, mas tinha um banheiro, uma pequena pia e água encanada. As paredes eram brancas, a janela era grande e o ambiente era claro e agradável. Era incomparavelmente mais limpo que a cela escura e úmida da delegacia. Não me sentia como se estivesse em uma prisão. Senti-me salvo.
-
-Pela janela, via-se um pátio ajardinado, onde flores de hortênsia, provavelmente plantadas por prisioneiros, começavam a desabrochar. Embora cercado por um muro alto e severo de tijolos, eu podia ver cinco ou seis grandes árvores de um verde viçoso, desenhando seus contornos contra o céu azul acima do muro.
-
-Logo, trouxeram-me o almoço fornecido pela instituição. Fiquei surpreso. Era o famoso “mossou-meshi” (refeição simples de presídio). Cerca de setenta por cento de cevada e trinta por cento de arroz, servido em uma grande tigela de alumínio. Como acompanhamento, apenas duas pequenas ameixas em conserva. Tentei comer o arroz, mas, com o perdão da palavra, parecia que não desceria pela garganta. Então, o prisioneiro encarregado da distribuição de comida veio e disse: “Há uma refeição encomendada para o senhor, pode deixar a refeição da casa”. A delícia daquela refeição encomendada é um sabor que não esqueço até hoje. Senti como se tivesse chegado a um mundo completamente diferente.
-
-No entanto, o depoimento que prestei ao promotor K. na noite anterior, baseado na comunicação espiritual, começou a me preocupar. A comunicação espiritual consiste em invocar o espírito de uma pessoa viva para obter informações, e nem sempre é precisa. A consciência do médium pode se misturar, ou espíritos zombeteiros podem interferir, resultando em muitos erros. Por isso, eu havia parado de praticá-la há mais de dez anos. Além disso, o que fiz na noite anterior foi um ato de desespero, e eu não tinha confiança no resultado. Pensei que seria terrível se houvesse algum erro e que eu precisava explicar a situação e pedir a anulação do depoimento.
-
-Na manhã seguinte à minha chegada ao presídio, pedi ao chefe dos guardas para falar com o promotor K. Disseram-me que eu o veria à tarde, mas ele não apareceu naquele dia. No dia seguinte, pedi novamente, mas sem sucesso. Naquele dia, o advogado M. veio me visitar. Contei-lhe a história e pedi seu conselho. Ele concordou que seria melhor eu contar a verdade. Eu disse ao advogado: “Como foi um depoimento mediúnico, não posso garantir sua precisão. Foi uma invenção nascida do desespero, algo como um romance policial”.
-
-No dia seguinte, 18 de junho, o quarto dia no presídio, finalmente fui chamado à sala de interrogatório à noite. Foi meu primeiro interrogatório desde que cheguei. E foi então que sofri um choque que jamais esquecerei.
-
-Assim que entrei na sala e me sentei diante do promotor K., ele se levantou abruptamente, pálido, com os olhos injetados, e, tremendo, gritou para mim: “Nunca vi pessoa mais ultrajante que você! Você diz que o último interrogatório foi um romance policial?”. (Ah, ele soube pelo advogado, pensei.) “Eu preparei o registro com toda a seriedade! Pensei que sua memória havia se tornado clara e que um depoimento decente poderia ser feito. E agora você vem com essa de romance policial? Isso é um insulto a um promotor! É imperdoável!”. Ele me fuzilava com o olhar, com uma fúria de quem estava prestes a me atacar.
-
-Não foi um raio em céu azul; foi como se cem raios tivessem caído sobre mim de uma só vez. Encolhi-me, sem conseguir emitir um som. Com ele tão ofendido, e eu sem conhecimento jurídico, o medo do que poderia acontecer me paralisou. Senti-me como uma pedra, sem consciência da minha própria existência. Apenas me prostrei, pedindo desculpas incessantemente. “Sinto muitíssimo, por favor, me perdoe. Fui um tolo”, repeti várias vezes, enquanto as lágrimas corriam pelo meu rosto, incontroláveis.
-
-Naquele momento, o promotor também disse: “Se eu quiser destruir a sua organização, não preciso de muito esforço. Com a minha força, consigo acabar com ela em um dia”. Ao ouvir essas palavras, fiquei chocado. Pensei: “Hoje, a liberdade de religião é garantida. Se uma religião com trezentos mil fiéis pode ser destruída em um dia pela força de um único promotor, quão frágil é a religião!”. Eu, que me orgulhava de liderar a principal nova religião, estava, na verdade, dormindo em cima de um vulcão. Era um assunto de extrema gravidade, que exigia profunda reflexão. Esse foi um dos motivos que me levaram a renunciar ao cargo de líder da Sekai Kyusei Kyo. Além disso, como mencionei, meu cérebro havia sido gravemente abalado, e eu sentia que seria difícil continuar a cumprir minhas responsabilidades como líder.
-
-Diante do meu pedido de desculpas em prantos, até mesmo o promotor pareceu se acalmar um pouco, e o interrogatório voltou a um tom mais normal. Ainda assim, diferentemente das outras vezes, ele estava cheio de sarcasmo e tentava me encurralar. Respondi com apreensão e, se não me engano, o interrogatório terminou sem que um registro fosse feito.
-
-Logo após o fim daquela sessão, pensei: “Provavelmente, em mais de cinquenta anos, desde que me entendo por gente, nunca me curvei tanto diante de um ser humano, buscando as palavras mais humildes para me desculpar. E há décadas que eu não derramava uma lágrima, mas, naquela ocasião, elas fluíram sem parar”.
-
-“Que mal eu fiz?”, me perguntava. Eu não conseguia entender. Apenas disse que não sabia das questões financeiras porque as havia delegado aos meus subordinados. No fim, fui responsabilizado pelos erros deles. Já ouvi falar de funcionários que assumem a culpa de seus presidentes, mas nunca de um presidente que é forçado a assumir a culpa de seus funcionários. E, mesmo que meus subordinados tenham agido pensando no bem da Igreja e sem má-fé, não há lógica em o líder ser responsabilizado pelos erros deles. Além disso, meu caso é muito diferente do das pessoas comuns. Sou um religioso, o líder de uma religião. Acredito ser um representante de Deus. Portanto, minha missão é transmitir a Vontade Divina e pregar os ensinamentos. Nesse sentido, acredito que devo me manter alheio aos assuntos mundanos. Por isso, em relação a finanças, especialmente dinheiro, eu apenas ouço e logo esqueço. E creio que está certo assim. E não sou o único. Desde os tempos antigos até hoje, duvido que exista um único fundador ou líder religioso que se preocupe com questões financeiras. Pelo contrário, quanto mais afastado dos assuntos seculares, mais próximo se está do ideal de um verdadeiro religioso. Essa é a percepção comum da sociedade. E um promotor não poderia ignorar isso.
-
-Quanto mais eu pensava, menos eu entendia. Como sabem, a nova Constituição garante a liberdade de religião. Isso provavelmente se deve ao reconhecimento, por parte do Estado, da nobre missão da fé. Olhando para trás, há muitos exemplos de fundadores e líderes religiosos que sofreram perseguições, mas provavelmente nenhum por questões financeiras.
-
-Diante do exposto, é evidente que eu não poderia dar uma resposta satisfatória a suspeitas não relacionadas à religião. Além disso, devido ao interrogatório severo, equivalente a uma tortura mental, cheguei a desmaiar duas vezes. Para evitar essa terrível provação, que poderia levar à destruição do meu cérebro, recorri, como último recurso, a um meio espiritual para garantir minha segurança. Portanto, o que fiz foi em defesa da minha própria mente, e não há nada do que me envergonhar.
-
-Dito isso, como relatei uma inverdade como se fosse real, desejei corrigi-la imediatamente e transmiti minha intenção através do meu advogado.
-
-Analisando todo o percurso, onde estaria o meu erro? A que se deve tanta raiva, tantos gritos, tantos insultos e a necessidade de me desculpar em prantos? Não consigo encontrar uma razão. Hoje se fala em direitos humanos, mas onde eles estão? Não consigo aceitar que este seja o Japão democrático e que estes sejam os funcionários de uma nação civilizada. Diz-se que os funcionários públicos são servidores do povo, mas isso é um disparate. Aqui, o povo não passa de um escravo dos funcionários públicos. Não pude deixar de lamentar.
-
-No dia 19, à tarde, fui chamado novamente. O interrogatório começou, e, para minha surpresa, a atmosfera era completamente diferente. A calma que substituiu a fúria da noite anterior me deixou perplexo. Imaginei que talvez o Sr. Asai, que soube ter sido preso naquele dia, tivesse testemunhado que eu não tinha nenhuma relação com o caso de suborno.
-
-Desta vez, não houve perguntas forçadas. Eram, por assim dizer, questões secundárias, e pude responder com fluidez. O promotor disse que tinha um compromisso urgente e que continuaríamos à noite. Por volta das nove, fui chamado novamente. Fui questionado sobre alguns pontos restantes, que foram resolvidos rapidamente, e o registro parece ter sido concluído. Então, de repente, o promotor disse: “Você já pode ir”. Fiquei tão surpreso que demorei a entender. Finalmente, compreendi que estava sendo libertado e, por volta das onze da noite, deixei o presídio.
-
-#### O Engodo
-
-No contexto de um interrogatório, a palavra “kama wo kakeru” (armar uma cilada, enganar) é usada desde os tempos antigos. Desta vez, fui vítima dessa tática inúmeras vezes. Pode-se dizer que ela foi a espinha dorsal do interrogatório. A política de investigação recente parece abominar o interrogatório indutivo, mas o interrogatório por engodo é muito mais pernicioso. Isso porque o interrogatório indutivo tende a gerar menos falsidades. Enquanto o interrogatório indutivo é uma técnica verbal, o interrogatório por engodo é, em sua maioria, uma mentira fabricada. Tenta-se enganar o réu com mentiras habilmente disfarçadas de verdade. Por isso, pessoas honestas e inexperientes caem facilmente na armadilha, e os interrogadores usam e abusam dessa tática.
-
-Se alguém não cai, é porque é um veterano experiente. E veterano, nesse caso, significa reincidente. O resultado é que o réu primário cai na armadilha, e o reincidente escapa com habilidade. Assim, o bom se torna culpado, e o mau, inocente. A prova disso é que, neste caso, todos nós fomos indiciados porque caímos nesse tipo de interrogatório. Vou citar um exemplo.
-
-Após voltar para casa, ouvi o relato do meu secretário, Fukuo Inoue, um dos suspeitos. Ele sempre foi leal ao meu trabalho e me serviu por vinte anos. Conheço seu caráter e sua conduta melhor do que ninguém. Ele não é, de forma alguma, uma pessoa má. Muitos o descrevem como “um homem de bem de uma raridade ímpar, um verdadeiro buda”. Às vezes, eu o repreendia, dizendo: “Seu problema é ser bom demais”. Ele é extremamente dócil, faz tudo o que lhe pedem e é incapaz de se irritar, contrariar ou se opor.
-
-Um homem assim, vítima de um interrogatório por engodo, não teve a menor chance. Era a pessoa perfeita para isso. Por mais que dissesse que não se lembrava, os interrogadores não lhe davam ouvidos. Pressionado dia após dia, ele entrou em um estado de extremo esgotamento nervoso, a ponto de sua saúde geral ficar comprometida. Temendo por sua vida, e pensando que precisava sair dali o mais rápido possível, ele acabou concordando com tudo o que lhe diziam. Por isso, seus depoimentos eram incoerentes, o que, segundo consta, causou grandes dificuldades aos interrogadores. Interrogar um homem bom como Inoue é como torcer o braço de um bebê. Pensei que não há ninguém mais digno de pena do que um homem de bem.
-
-Aconteceu também o seguinte. Durante o meu interrogatório, o oficial costumava dizer: “Nós investigamos este caso a fundo por mais de seis meses. Não adianta tentar esconder nada agora. É melhor para você confessar tudo”. No entanto, a cada pergunta, eu me surpreendia com o quão fora da realidade eles estavam. Havia muitos assuntos sobre os quais eles pareciam não ter investigado quase nada. O fato de terem mobilizado oitenta policiais armados já demonstrava a falta de investigação. Se tivessem investigado a fundo, não haveria necessidade de tanto alarde; um simples interrogatório teria sido suficiente.
-
-Naquele momento, pensei também: “Teria sido muito melhor se tivessem usado vários espiões, infiltrados como fiéis, para investigar a fundo. Eles teriam se surpreendido com a nobreza da nossa religião e, em vez de investigar, o próprio Estado teria desejado nos apoiar”. Portanto, embora tenham investigado, foi certamente uma investigação superficial. A afirmação de que haviam investigado a fundo não passava de um tipo de engodo.
-
-Se, através do interrogatório por engodo, pessoas de bem são enganadas e transformadas em culpadas, este é um problema muito sério. Se esse método de interrogatório é o único aceito pelo sistema de promotoria atual, o povo só tem a sofrer. Se uma nuvem tão antidemocrática paira sobre a esfera da administração judicial, que deveria ser justa e imparcial, desejo ardentemente que ela seja dissipada o mais rápido possível, para que o mundo da lei se torne claro como um espelho.
-
-A respeito do interrogatório de Inoue, como ele e Kuhei Kanahisa me trouxeram suas declarações, decidi transcrevê-las a seguir.
-
-***
-
-### Declaração
-*Fukuo Inoue*
-
-Venho, por meio desta, apresentar minhas mais sinceras desculpas por ter prestado um depoimento extremamente falso sobre os dois casos pelos quais fui indiciado, causando-lhes grande transtorno. Desejo expor os fatos e rogar pela vossa compreensão.
-
-O mandado de prisão mencionava a “suspeita de, em dezembro de 1948, com o intuito de ocultar trezentos mil ienes do patrimônio de Mokiti Okada, ter doado dez mil ienes a Jintaro Yamada, do Banco de Shizuoka, agência de Atami”. Eu não tinha nenhuma lembrança de tal fato, mas, como havia um mandado de prisão, acreditei que existisse uma base sólida para a acusação. Além disso, eu tinha uma vaga lembrança de ter dado uma gratificação de cerca de dez mil ienes ao Sr. Yamada quando lhe pedi para preencher alguma declaração de impostos. Por isso, a princípio, admiti a acusação.
-
-No entanto, nos interrogatórios seguintes, fui pressionado a admitir que havia dado mais do que dez mil ienes. Eu neguei repetidamente, argumentando que, como cliente, não havia motivo para suborná-lo. Contudo, o investigador afirmou categoricamente: “É de bom senso dar uma gratificação de cerca de trezentos mil ienes, o que corresponde a dez por cento de três milhões”. Diante de sua insistência, não tive outra escolha a não ser declarar no registro que “talvez tenha dado trezentos mil ienes”.
-
-Na época da prisão, minha ciática crônica havia se manifestado. Somando-se a isso o sofrimento da detenção, que eu experimentava pela primeira vez, e a drástica mudança no estilo de vida, eu sofria dia e noite com a mente turva, dores nas costas, insônia e falta de apetite. Responder ao interrogatório incessante sobre fatos que eu desconhecia completamente era um tormento indescritível. Mesmo que esse seja o procedimento padrão da polícia, para mim, naquele momento, era o sofrimento de um inferno de torturas.
-
-Para entender a verdade sobre o caso, não me restava outra opção senão extrair do investigador informações sobre o depoimento do Sr. Yamada e, com base nisso, deduzir e responder. Cheguei ao ponto de pedir ajuda ao investigador para o meu depoimento, alegando perda de memória.
-
-Alguns dias depois, durante um interrogatório, aproveitando um momento de distração do investigador, consegui dar uma olhada em um memorando em sua mesa (escrito a caneta em papel de carta com linhas vermelhas). Vi os seguintes registros:
-
-- 23.10 (Outubro de 1948) Mokiti Okada 100.000,00
-- 23.12 (Dezembro de 1948) 200.000,00
-- Takehiko Nakajima 80.000,00 (aparentemente, o valor que o Sr. Nakajima deu ao Sr. Yamada)
-
-Acreditei que esse era o depoimento do Sr. Yamada e finalmente entendi a base para os trezentos mil ienes mencionados pelo investigador. A partir de então, passei a depor que havia dado cem mil ienes em outubro e duzentos mil em dezembro, deduzindo e inventando os detalhes e as circunstâncias. Enquanto insistia na minha declaração de cem e duzentos mil ienes, cheguei a acreditar que eu mesmo havia feito as doações.
-
-Admiti os trezentos mil ienes, em primeiro lugar, por profunda preocupação de que a suspeita recaísse sobre o Grande Mestre Okada, a quem venero como a um deus. Em segundo lugar, acreditei na tentação do oficial de que, se eu confessasse, seria libertado mais cedo. Pensei que, se meu depoimento coincidisse com o do Sr. Yamada, eu seria libertado daquele tormento injusto. Meu único desejo era sair da prisão o mais rápido possível, recuperar minha saúde e cumprir minhas importantes obrigações sociais.
-
-Quando a elaboração do registro sobre o suborno ao Sr. Yamada terminou, eu esperava ser libertado, exausto e debilitado. Foi então que, durante vários dias, fui cercado por cerca de sete detetives e submetido a um interrogatório rigoroso sobre as finanças da Sekai Kyusei Kyo e outras questões gerais. “Se não confessar algo, não será libertado”, “Se você não falar, traremos o Grande Mestre Okada”, “Vamos acabar com essa religião do mal, a Messias Kyo”. Fui atacado com todo tipo de ameaças, gritos que equivaliam a tortura e insultos vis. Senti tonturas devido à fraqueza, o coração apertar de medo e palpitações. O sofrimento físico e mental era indescritível, e temi por minha vida.
-
-Prevendo o pior, obtive um atestado médico e, ao mesmo tempo, para escapar daquela crise, fiz uma confissão fictícia sobre a ocultação de trinta milhões de ienes. Desde então, minha saúde piorou drasticamente, meu cérebro pareceu ter sido destruído e entrei em um estado de confusão, desespero e medo, enquanto o período de detenção era sucessivamente prorrogado. Durante o interrogatório intimidador do promotor, eu estava como que inconsciente, passei por tudo em um estado de torpor.
-
-Em suma, meu depoimento sobre o suborno ao Sr. Yamada, com exceção de uma vaga lembrança, não passa de um romance, uma obra de ficção que criei com base em minhas deduções, imaginação e no que vi no memorando. Isso pode ser confirmado pela incoerência do conteúdo do registro, que mudava constantemente.
-
-Após mais de vinte dias de detenção, senti um profundo enfraquecimento e uma alteração em minha constituição física. No início de junho, ao saber da detenção do Grande Mestre, por quem eu daria a vida, caí em desespero. Tremi de raiva ao pensar na brutalidade de tratar como criminoso um homem que fez uma contribuição tão monumental à cultura. Fiquei física e mentalmente arrasado, como um cadáver ambulante. Perdi até mesmo a força para negar a afirmação arbitrária do promotor Yanase de que “os trezentos mil ienes foram dados a Yamada como suborno, em acordo com o Grande Mestre”.
-
-Quando o escrivão do promotor me disse: “O Grande Mestre está dizendo que confiou trezentos mil ienes a Yamada para subornar e entreter os funcionários da Receita Federal de Atami. Vamos refazer o registro”, perdi até mesmo a coragem de negar, dizendo “desconheço totalmente”. Caí em um estado de apatia tal que cheguei a depor: “Se o Grande Mestre diz isso, então eu também devo ter combinado e dado o dinheiro”.
-
-Os quarenta e sete dias de detenção causaram um grande dano ao meu corpo e mente e encurtaram minha vida. Após a libertação, estive várias vezes à beira da morte devido a insuficiência cardíaca. O surgimento das várias doenças, conforme descrito no atestado médico anexo, pode dar uma ideia do meu sofrimento.
-
-Ademais, o depoimento de que, por volta de abril de 1948, quando o Grande Mestre Okada foi taxado em cinco milhões de ienes de imposto de renda, eu subornei um funcionário da Receita Federal de Atami através do Sr. Yamada também é infundado. Confundi esse fato com a declaração do imposto sobre o patrimônio do ano anterior. O fato de eu ter mudado meu depoimento várias vezes, mencionando cinquenta mil, cem mil, duzentos mil ienes, prova que não se tratava de uma lembrança, mas de mera imaginação ou suposição em resposta a um interrogatório indutivo.
-
-Assim, ambos os casos pelos quais fui indiciado são assuntos dos quais não tenho conhecimento. Hoje, com a mente se recuperando, o único fato que consigo reconhecer claramente é que, por volta de março ou abril de 1947, por ocasião da declaração do imposto sobre o patrimônio, dei ao Sr. Yamada uma gratificação de dez mil (com certeza) ou vinte mil ienes.
-
-As razões pelas quais prestei um depoimento falso e o mantive são as seguintes:
-1.  Mais dolorosa e triste que a morte foi a luta contra a terrível e malévola intenção do interrogatório de forçar a suspeita sobre o Grande Mestre, cuja grande virtude todos louvam, sem ter como retribuir.
-2.  Por ser totalmente ignorante sobre o mecanismo de investigação criminal, acreditei que, se admitisse a acusação, o caso seria resolvido imediatamente.
-3.  Desejava, o mais rápido possível, me libertar do medo causado pela doença.
-4.  Acreditei que fazer meu depoimento coincidir com o do Sr. Yamada aceleraria o trabalho do investigador e seria a única maneira de ser libertado rapidamente.
-5.  Era insuportavelmente doloroso ver tantos dias preciosos, tanto dinheiro público e tanto pessoal sendo mobilizados para nos transformar em criminosos, a nós que nos dedicamos de corpo e alma à construção de uma nação pacífica. Para uma rápida resolução do caso, não me importei em fazer um depoimento desfavorável.
-6.  Como eles acolhiam com grande satisfação a confissão de novos crimes, cheguei a desejar ter algo do gênero para confessar.
-7.  Como era investigado sob a premissa de ser culpado, e eles pareciam determinados a não parar até que eu confessasse um crime, se eu negasse algo do qual não tinha conhecimento, seria submetido a uma perseguição intensa e implacável, com todo tipo de táticas indutivas. Não tive outra escolha a não ser ceder. E desejava escapar do desconforto de repetir o mesmo esforço inútil, do tempo, do trabalho e da fadiga extrema.
-
-Como alguém que serve a Deus, o simples fato de ser alvo de tal suspeita já é uma prova da minha falta de fé. Diariamente, peço perdão a Deus e aos fiéis. Portanto, não tenho a menor intenção de escapar da punição devida através de um depoimento falso. No entanto, receber uma punição injusta com base em um depoimento infundado é algo que a essência da lei, em sua rigorosa justiça, não pode permitir.
-
-O que foi exposto acima é a verdade nua e crua, sem qualquer ficção ou embelezamento. Rogo para que, com um discernimento que ilumine meu coração como um espelho divino, seja proferido um julgamento justo e imparcial.
-
-*Atestado Médico*
-*Fukuo Inoue*
-Insuficiência cardíaca, hepatite, síndrome de esgotamento nervoso, ciática.
-Devido às doenças acima, requer repouso absoluto por um mês.
-1 de julho de 1950
-*Dr. Michikazu Okada*
-
-***
-
-A seguir, a declaração de Kuhei Kanahisa.
-
-### Declaração
-*Kuhei Kanahisa*
-
-Fui preso sob a acusação de suborno e questões agrárias e detido por quarenta e seis dias no presídio de Shizuoka. Descreverei aqui o interrogatório que sofri, marcado por tortura, ameaças, gritos e insultos vis, e submeto meu relato ao julgamento da sociedade.
-
-Jamais esquecerei. Às seis da manhã de 8 de maio de 1950, cinco detetives da sede da Polícia Nacional da província de Shizuoka vieram e me disseram: “Há um mandado de prisão contra o senhor. Pedimos que nos acompanhe até Shizuoka”. Eu perguntei: “Que mandado de prisão?”. Eles responderam: “Se lhe mostrarmos o mandado aqui, teremos que levá-lo algemado até Shizuoka, o que seria um problema para o senhor, não é?”.
-
-Como havia um mandado de prisão, acreditei que existisse uma base sólida. Além disso, como os membros da comissão agrária de Atami haviam sido presos, pensei que talvez tivesse dado uma gratificação de cerca de três mil ienes a um deles quando me ensinaram sobre os procedimentos da Lei Agrária. Por isso, fui a Shizuoka.
-
-No entanto, o detetive que me interrogou naquele dia era um homem de aparência assustadora. Ele me pressionou de forma categórica: “Você recebeu uma grande quantia do Grande Mestre e a deu ao prefeito So. Quanto você deu no total?”. Eu respondi: “Não dei absolutamente nada ao prefeito So”. Ele gritou: “Não minta! Até uma criança, quando ajuda em casa, pede alguma coisa, não é?”. Eu disse: “Mesmo que eu levasse, o prefeito não é do tipo que aceita. E a Igreja também não tem motivo para dar dinheiro”. Ele insistiu: “Mas ele lhe ajudou muito com a questão agrária. Você não deu nada em agradecimento?”.
-
-Eu respondi: “Aprendi muito sobre o que não sabia, mas não me lembro de ter recebido uma ajuda especial do prefeito. E também não houve um resultado excepcionalmente bom graças a ele. Por mais que me pressione, não dei nada”. Eu neguei repetidamente. Ele então disse: “Você nos subestima. Se falar a verdade, não executaremos este mandado de prisão e o deixaremos ir para casa hoje à noite. O que me diz?”. E me pressionou novamente.
-
-O relógio já marcava nove horas. Eu estava com a mente turva e sentia tonturas. Não tive outra opção a não ser implorar: “Por favor, deixe-me passar a noite aqui”.
-
-Foi então que me leram o mandado de prisão. A acusação era de suspeita de ter subornado o membro da comissão agrária Gosaburo Ueda com três mil ienes por volta de maio de 1947. A princípio, admiti a acusação.
-
-Passei uma noite inquieta. No dia seguinte, fui chamado da cela de detenção. O assustador detetive-chefe do dia anterior não estava lá. Reclamei com outro detetive sobre o interrogatório ameaçador, a pressão, os gritos e os insultos que havia sofrido. O detetive me disse que o nome do outro era Kurebayashi, que ele não investigava casos como o meu, mas sim crimes violentos, e que, como houvera um assassinato na noite anterior, ele não voltaria mais. Senti como se tivesse sido salvo do inferno. De fato, ele parecia um detetive de crimes violentos.
-
-No entanto, o interrogatório continuou a girar em torno do prefeito. Fui pressionado sobre o mesmo assunto inúmeras vezes. No terceiro dia, eu disse: “Se vocês têm uma base tão sólida para investigar, parece-me que talvez eu tenha dado cerca de dez mil ienes”. Ele respondeu: “Não foi tão pouco. Você está mentindo”. Eu disse: “É verdade”. Depois disso, ele raramente perguntava sobre o prefeito e não me pressionava mais.
-
-Naquele momento, eu disse ao detetive: “Ouvi dizer que as pessoas sofrem para mentir, mas na polícia, sofre-se terrivelmente para dizer a verdade”. Ele respondeu: “Se você não fez absolutamente nada, ótimo”. O assunto do prefeito terminou em cerca de uma semana, sem que nenhum registro fosse feito.
-
-O interrogatório seguinte também foi sobre a questão agrária. Fui ameaçado e torturado para admitir que havia subornado o secretário da comissão agrária com uma grande quantia. Eu neguei repetidamente, dizendo que não me lembrava de ter dado dinheiro algum. O detetive me pressionou: “Ueda lhe arranjou um terreno, não foi?”. Eu respondi: “Na verdade, comprei pouco mais de seiscentos tsubo de terra por intermédio de um conhecido de Ueda, um homem chamado Sugiyama”. Ele perguntou: “Quanto você deu a Ueda em agradecimento?”. Eu disse: “Não dei nenhuma gratificação específica nem a Ueda nem a Sugiyama”. Ele retrucou: “Você não tem bom senso! É um tolo por não agradecer a quem lhe ajuda”. Eu disse: “Então, por favor, me ensine quanto eu deveria ter dado”. Ele respondeu: “Você está nos subestimando, como fez na delegacia de Odawara”.
-
-Eu disse: “É um ultraje dizer que os estou subestimando. Pelo contrário, já se passaram dez dias nesta vida de detenção, que é uma reviravolta de cento e oitenta graus para mim. O interrogatório diário me deixou mentalmente exausto, a ponto de esquecer o que lhes disse ontem. Entendo perfeitamente o estado de espírito de quem confessa. No momento, por mais que eu diga a verdade, vocês a descartam como mentira. Estou sofrendo para encontrar uma mentira que os satisfaça. Mas vocês dizem que mentir não adianta, que há uma contraparte em tudo. Eu digo que, com o tipo de interrogatório que vocês me fazem, o que a contraparte disser também será mentira”. O detetive respondeu: “Nós sempre temos uma contraparte. O que importa é que o que você diz e o que a contraparte diz coincidam”.
-
-Eu já estava exausto, física e mentalmente, como se estivesse inconsciente. Diante do interrogatório diário, pensei que, se eu fizesse uma declaração falsa, a outra parte seria libertada mais cedo. A partir de então, não me restou outra opção senão me esforçar para extrair o conteúdo do depoimento da outra parte.
-
-Eu me mantive em silêncio durante o interrogatório. Então, eles disseram: “Você deu cento e cinquenta mil ienes pelo terreno que lhe arranjaram, não foi?”. Eu respondi: “É a primeira vez que ouço isso. Quando o negócio foi fechado, não se falou em gratificação. Como a proposta veio do corretor Sugiyama, presumi que ele já estivesse incluindo uma comissão de cinquenta ou sessenta mil ienes. Por isso, comprei o terreno por quinhentos mil ienes. Não me lembro de ter dado cento e cinquenta mil”. O detetive disse: “Ambos dizem que receberam o dinheiro com o seu consentimento”. Eu respondi: “Nunca ouvi falar disso e não acredito nisso agora”. Ele disse: “Não adianta esconder. Ueda e Sugiyama estão furiosos. Eles dizem que, se você tivesse confessado logo, eles já teriam saído. Você está sendo odiado por todos. Se você não confessar tudo logo, o caso vai se arrastar. Isso vai levantar suspeitas sobre o Grande Mestre. Isso não é nada de mais, confesse logo”.
-
-Devido ao esgotamento físico e mental, e acreditando que, se eu concordasse, o caso seria resolvido, vários registros com declarações que eu nem sequer imaginava foram feitos. Na noite do décimo segundo dia de detenção, um detetive veio me informar que, por dificuldade no interrogatório, minha detenção havia sido prorrogada por mais dez dias, a pedido do promotor. Pensei comigo mesmo: “Quatro detetives me interrogando todos os dias, e eles dizem que o interrogatório é difícil? Que engraçado”. Eles me pediam para dizer a verdade, mas, quando eu o fazia, diziam que era tudo mentira e não me davam ouvidos. Dizer a verdade era como falar com uma estátua de pedra. E, quando eu mentia em resposta ao interrogatório indutivo, eles ficavam satisfeitos.
-
-Um exemplo disso: um inspetor chamado Sawaguchi me disse: “Você deu dez mil ienes a Ueda porque ele lhe ajudou muito com o projeto do parque acima do Umezono, não foi?”. Eu respondi: “Não me lembro de nada disso”. Ele disse: “Mas Ueda diz que recebeu. Já lhe disse várias vezes: a polícia mantém vocês aqui até que as duas versões coincidam”. Como minha memória não é das melhores, eu disse: “Se Ueda diz que recebeu, então acho que dei”. Fiz uma declaração vaga. O detetive a registrou e, ao sair, me aconselhou: “Amanhã você será interrogado pelo promotor. O promotor investiga novamente o que nós investigamos preliminarmente. Se você negar ou se irritar, vai prejudicar a impressão do promotor e será pior para você”.
-
-Naquela noite, não consegui dormir, talvez por ter mentido. Na tarde do dia seguinte, fui chamado pelo promotor. Fui até ele com receio. Ele me perguntou: “Ontem você depôs que deu dez mil ienes a Ueda. Mas, ao interrogá-lo, Ueda disse, chorando, que não se lembra de ter recebido dez mil ienes de você. O que me diz?”. Eu respondi: “É verdade. Não me lembro de ter dado dez mil ienes. Mas o inspetor Sawaguchi disse que Ueda afirmava ter recebido e me pressionou a admitir, então fui induzido a dizer algo que não era verdade”. O promotor disse que corrigiria o registro.
-
-Pensei: “Será que a polícia democrática ao estilo americano consiste em tratar o suspeito como culpado em flagrante desde o início e negar de antemão a verdade durante o interrogatório? Assim, os bons choram, e os maus se dão bem”.
-
-A investigação prosseguiu. Acredito que foi por volta do décimo sexto ou décimo sétimo dia de detenção. Quatro detetives, o inspetor Sawaguchi, o subinspetor Kuriyama e os chefes Konagaya e Matsushima, vieram e me interrogaram sobre as gratificações que eu teria dado a funcionários por questões de construção. Eu declarei: “Em relação à construção, talvez eu tenha dado cerca de cinco mil ienes como gratificação ao Sr. Inaba, o despachante que me ajudou muito”. No dia seguinte, com base na minha vaga declaração, Inaba foi preso e detido.
-
-A partir de então, o detetive Matsushima ficou encarregado de nós dois. Ele ia e voltava, dizendo: “Inaba confessou isso e aquilo”. E, quando eu confessava para coincidir com a versão dele, ele ia até Inaba e dizia: “Kanahisa confessou isso e aquilo”. No final, vários registros foram feitos. Tudo começou com cinco mil ienes, e o valor, resultado do interrogatório por engodo de ambos os lados, chegou a cerca de setenta mil ienes. Eu fui acusado de tentativa de suborno, e Inaba, de apropriação indébita. O chefe Matsushima me torturava com gritos e insultos vis. Para que Inaba pudesse ser libertado o mais rápido possível, não tive outra escolha a não ser depor conforme o que o detetive dizia.
-
-### No Presídio
-
-Em 29 de maio, no final do período de detenção, fui transferido para o presídio, completamente exausto. Devido ao cansaço extremo, adormeci assim que cheguei. Acordei com o som do rádio, durante o noticiário das sete. E ouvi sobre a detenção do Mestre, por quem eu daria a vida. Caí em desespero, pensando que tudo estava perdido. Passei a noite tremendo de raiva.
-
-No dia seguinte, um guarda do presídio veio me chamar. Fui e encontrei o inspetor Sawaguchi, o subinspetor Kuriyama e os chefes Matsushima e Konagaya. De tão furioso, não disse uma palavra. O chefe Matsushima disse: “Kanahisa, você parece muito zangado hoje. Sabe que o Grande Mestre veio para cá?”. Eu disse: “Hoje não vou falar absolutamente nada”. Então, todos tentaram me acalmar. Disseram: “Não fomos nós que trouxemos o Grande Mestre por causa do seu depoimento. Como há uma contraparte, não há o que fazer. Você ainda tem muitas coisas para nos contar. A única maneira de mostrar sua lealdade como responsável é falar tudo o mais rápido possível para que o Grande Mestre possa voltar”.
-
-Eu disse apenas uma frase: “Vocês falam bonito, mas o resultado é desastroso. Não tenho mais nada a dizer”. Os detetives disseram: “Hoje Kanahisa está zangado, não adianta. Vamos embora”. E foram.
-
-Na prisão, conversei e ouvi os outros detentos com antecedentes criminais. Parece que os reincidentes sempre conseguem escapar. Quem chora são apenas os bons.
-
-Atualmente, estou indiciado e em casa. Como alguém que serve a Deus, o fato de ter chegado a essa situação é prova da minha falta de fé. Diariamente, peço perdão a Deus e a todos os fiéis.
-
-Agora, só me resta esperar pelo dia do verdadeiro julgamento. Acredito que muitos absurdos inesperados surgirão no tribunal.
-
-***
-
-### Após o Retorno para Casa
-
-Devo relatar também o que aconteceu após meu retorno. Encontrei-me com um certo advogado e lhe contei os detalhes do interrogatório. Ele me disse: “Que pena! O réu tem o direito de permanecer em silêncio. Você não precisava responder sobre o que não se lembrava. A lei estabelece que o silêncio não pode ser usado contra você. Portanto, no seu caso, não havia necessidade de tanto sofrimento. Bastava insistir que não sabia. Ao inventar uma história, você acabou se complicando com a lei. É realmente lamentável”.
-
-Fiquei chocado. Percebi que tudo aconteceu por minha ignorância da lei. Agora, de nada adiantava me arrepender. Imagino que haja muitas pessoas na sociedade que sofrem calamidades inesperadas por desconhecerem a lei. Senti que, mesmo um religioso, precisa ter um conhecimento básico da legislação.
-
-Mas não foi só isso. No meu caso, fui levado à beira de um colapso mental. Ainda hoje, sofro de esgotamento nervoso e de tonturas extremas, e me esqueço de muitas coisas, o que é um grande problema. Não consigo sair de casa como gostaria, nem suporto viagens longas de carro. Gosto de compor poemas tanka, mas, como isso exige muita concentração, ainda não consigo. Escrevi este manuscrito com grande esforço, mas, como não precisei pensar, apenas relatar minhas experiências recentes, não foi tão difícil.
-
-Cerca de dez dias após minha libertação, o promotor K., através do meu advogado, solicitou um novo interrogatório. Alegando que minha doença ainda não estava curada, apresentei atestados de dois médicos e pedi para ser interrogado em casa, mas meu pedido foi negado. Tive que ir, como eles queriam, da minha residência em Gora, Hakone, até a promotoria em Mishima. Como ainda era difícil fazer a viagem direta, fui primeiro para minha casa em Atami, onde pernoitei. No dia seguinte, talvez por compaixão, o promotor se deslocou até a sub-promotoria de Atami. Como era perto, eu fui.
-
-O interrogatório foi uma repetição dos assuntos já exaustivamente abordados na delegacia e no presídio. O promotor perguntou se o que eu havia declarado até então estava correto. Pensei que aquela era a oportunidade para dizer a verdade. Quando comecei a falar, o promotor K. ficou extremamente irritado e disse: “Não posso aceitar que você mude seu depoimento agora. Se insiste em fazer isso, teremos que recomeçar a investigação do zero. O que me diz?”.
-
-Fiquei chocado. Minha saúde mal havia se recuperado. Se eu fosse submetido novamente àquele severo interrogatório de memória, seria terrível. Havia o risco de meu cérebro, que mal começara a se curar, ser novamente danificado. Sem alternativa, respondi conforme o desejo do promotor. Com isso, ele se acalmou, e tudo terminou sem incidentes.
-
-Ao voltar para casa, contei ao advogado o que havia acontecido. Ele disse: “Que pena! Hoje era o ‘golpe de misericórdia’. Era a melhor oportunidade para corrigir os depoimentos errados. Se tivesse insistido na verdade, talvez o caso tivesse sido arquivado”. Arrependi-me de ter perdido uma oportunidade irrecuperável.
-
-Tenho uma natureza que me impede de contrariar os outros. Sou extraordinariamente fraco e sempre acabo concordando com o que me dizem, o que muitas vezes me irrita comigo mesmo. Naquela ocasião, o advogado perguntou como estava o promotor. Eu disse: “No início, ele estava estranho, mas no final pareceu se acalmar”. Ele respondeu: “Claro! Você deu a ele os motivos para o indiciamento que ele queria”.
-
-Isso me fez lembrar de uma frase de um romance de Saneatsu Mushanokoji que me impressionou muito: “Ele é fraco como um deus, forte como um deus”. Essas palavras se aplicam perfeitamente a mim naquela situação. Se trocarmos “ele” por “Okada”, a frase se encaixa. Naquele momento, eu fui “fraco como um deus”. Mas também tenho um lado “forte como um deus”: o lado que odeia a injustiça e luta contra o mal até a vitória.
-
-Após meu retorno, soube que, no dia da minha libertação, o alto dirigente da nossa Igreja, Sozaburo Shibui, havia sido preso em meu lugar. Fiquei chocado. Segundo informações, ele foi levado várias vezes do presídio para a promotoria, a algumas quadras de distância, para ser interrogado. Dizem que o fizeram caminhar por uma rua movimentada usando um chapéu de palha para esconder o rosto e algemas. Isso mostra a severidade do tratamento que recebeu.
-
-O Sr. Shibui tem mais de sessenta anos. Além disso, há dois anos, sofreu seu terceiro derrame cerebral. Do ponto de vista médico, um segundo derrame já representa risco de vida. Um terceiro é considerado quase sempre fatal. No entanto, quando ele teve o terceiro derrame, graças ao meu Johrei, sua vida foi salva. Embora tenha melhorado consideravelmente, ainda não está totalmente recuperado. Por isso, delegou todas as suas funções a um substituto. Seu cérebro ainda não pode ser sobrecarregado, e um interrogatório na promotoria é impossível para ele.
-
-Não sei se sabiam ou não de sua condição, mas o fato de o terem tratado como um criminoso perigoso é incompreensível. Para ele, não havia risco de fuga nem de resistência, o que é óbvio pelo bom senso. Além disso, ele é o mais alto dirigente da Igreja, respeitado por muitos fiéis, e sua condição cerebral é a que descrevi. Manter um homem assim detido em um presídio por mais de dez dias e interrogá-lo quase diariamente é não apenas irracional, mas cruel. É evidente que um registro preciso não poderia ser obtido. É lamentável que um homem semi-doente tenha recebido tal tratamento.
-
-No dia da minha libertação, o próprio promotor disse: “Shibui ainda está com a cabeça meio confusa”, o que significa que ele sabia da condição. Segundo o relato do Sr. Shibui após sua libertação, por mais que fosse interrogado, ele se esquecia de muitas coisas e dizia: “Minha cabeça está confusa, não entendo bem. Por favor, escrevam como acharem melhor”. Ao que o interrogador gritou: “Seu idiota!”.
-
-Isso está certo? Para mim, é completamente incompreensível.
-
-Não pretendo fazer nenhuma crítica a esses fatos. Apenas relatei o que ouvi, como ouvi. A crítica fica a cargo do leitor. Minha única pergunta é: por que agir de uma maneira tão cruel, que desafia o bom senso?
-
-A opinião de muitas pessoas sobre este incidente é unânime: apesar da aparatosa busca e apreensão, o resultado foi um esforço em vão. Para salvar as aparências, eles precisavam produzir alguns culpados. Por isso, entraram em pânico e forçaram a mão no interrogatório.
-
-Outros diziam: “Acusar uma religião tão conhecida como a Sekai Kyusei Kyo e obter sucesso seria um grande feito, um trampolim para a carreira. Por isso, eles se empenharam ao máximo para encontrar um crime, agindo com um rigor desnecessário. Mas isso não acontece só com a Sekai Kyusei Kyo; já houve muitos casos assim”. Eu mesmo, em algumas ocasiões, neguei tais hipóteses, dizendo: “Que absurdo!”.
-
-Analisando em detalhes os métodos de interrogatório, há muitos pontos de difícil compreensão. Primeiro, as perguntas são desnecessariamente minuciosas. Por exemplo: o dinheiro dado a fulano, quem deu a ordem, quem entregou, em maços de que notas, a que horas do dia, em que cômodo, o que foi dito, quem estava ou não no cômodo. Repetem as mesmas perguntas quase todos os dias. É verdade que esse método pode ter algum efeito para reavivar a memória, mas duvido que uma pessoa comum se lembre de tantos detalhes depois de dois ou três anos.
-
-Além disso, a natureza do caso não é de agressão ou crime violento. Um promotor deveria saber que não se trata de um crime de grande malícia. Pela minha experiência, um assunto que, na época da Tokkō, seria resolvido em três dias, hoje levaria trinta dias, e talvez nem assim. Isso causa uma queda drástica na eficiência das investigações, e acredito que há muito espaço para melhorias.
-
-Outro ponto que gostaria de ressaltar é a profunda falta de compreensão dos promotoores de hoje em relação à religião. Essa incompreensão se manifesta, acima de tudo, na falta de respeito pelos religiosos, que são tratados como pessoas comuns. Dizem que, até mesmo na era Tokugawa, os monges eram mais respeitados que o cidadão comum. Um policial me disse: “Em casa, você pode ser tratado como um deus, todos se curvam e o reverenciam. Mas aqui, não. Aqui, você é tratado como um ser humano igual a um batedor de carteira ou um ladrão. Esteja ciente disso. É assim que é justo”. Fiquei perplexo com tal grosseria.
-
-Gostaria de falar também sobre a prosperidade dos Estados Unidos hoje. É preciso analisar a fundo as suas causas. Escusado será dizer que o pensamento do povo americano tem como base o cristianismo, o que se reflete em todos os aspectos da vida. Recentemente, em uma declaração sobre a questão da Coreia, o General MacArthur disse: “Deus ajudará nosso propósito”. Essas palavras revelam a profundidade de sua fé. O fato de que o Presidente Truman e a classe instruída dos Estados Unidos são, em sua maioria, cristãos, e de que quase não há um lar americano sem uma Bíblia, demonstra que a democracia americana é uma manifestação do espírito cristão.
-
-E o Japão de hoje? O que me impressionou profundamente foi a falta de fé dos promotores. Talvez por isso, eles pareçam tão frios, desprovidos de compaixão e sentimento. E não sou o único a pensar assim. Durante o interrogatório, eu queria falar sobre fé, mas eles não demonstravam o menor interesse, e eu acabava interrompendo o assunto. O objetivo primordial de um promotor não é criar criminosos, mas eliminá-los. No entanto, a realidade parece ser o oposto. Com este incidente, senti fortemente que aqueles que lidam com criminosos precisam ter uma base religiosa para que a reforma e a reabilitação possam ser alcançadas.
-
-Ao tratar os religiosos, eles não apenas nos veem como pessoas comuns, mas talvez até como inferiores. Suponho que, em seus corações, eles considerem a religião como algo inútil. Alguns parecem até nutrir um sentimento de ódio. Aconteceu o seguinte: um de meus subordinados, preso neste caso, ficou detido por mais de trinta dias em uma cela com vários outros. Durante a detenção, ele contava aos companheiros de cela sobre o rigoroso interrogatório diário. Um prisioneiro, um ladrão e agressor com várias condenações, ficou surpreso e disse: “Nem nós fomos submetidos a um interrogatório tão severo por tanto tempo. Esse tipo de interrogatório dura um ou dois dias, depois volta ao normal”. Isso mostra o desprezo com que os religiosos são tratados.
-
-No entanto, talvez não seja justo culpar apenas as autoridades. Afinal, não são poucos os que usam a religião como fachada para praticar fraudes e estelionatos. Diante deste incidente, senti profundamente que nós também precisamos nos autoexaminar e conquistar a confiança da sociedade. Nesse sentido, pode-se interpretar que Deus nos deu esta nobre provação para nos despertar.
-
-#### O Que Esperamos das Autoridades
-
-Diante do que relatei em detalhes, nós, que fomos submetidos a um interrogatório tão frio, desprovido de compaixão e lágrimas, sentimos profundamente a necessidade de que aqueles encarregados das investigações tenham um coração religioso. Para levar um réu ao arrependimento, não basta pressioná-lo cegamente. O interrogador deve julgar com um olhar de sabedoria. Se encontrar um crime, que o persiga até o fim. Mas, se perceber que não há crime, deve abandonar a suspeita e libertar o inocente prontamente. E, se houver um crime leve, que aplique a punição correspondente. Esse seria o procedimento correto.
-
-Se reconhecermos nossa culpa, não teremos objeção em receber a punição devida. Mas não podemos, de forma alguma, aceitar uma culpa que não temos. O que quero dizer é que, durante um interrogatório rigoroso, se a pessoa consegue reconhecer alguma culpa em si mesma, é mais fácil suportar. Mas, quando não é o caso, o sofrimento mental de reprimir a frustração é imenso. Melhorar essas diversas irracionalidades é o dever de um povo democrático. Portanto, escrevo este registro impulsionado por um incontrolável senso de justiça, sem qualquer outra intenção.
-
-Por fim, gostaria de dar um conselho especial. É a palavra “sinceridade”, que sempre pregamos. E isso se aplica especialmente àqueles que lidam com criminosos. Sem sinceridade, por mais que se esforce na aparência, o resultado será nulo. E o que cultiva a sinceridade? É a força da fé correta. A causa do crime, escusado será dizer, é a filosofia materialista e ateísta de que o invisível não é crível. Portanto, a erradicação do materialismo é o método fundamental para reduzir o crime. Esta é uma verdade imutável.
-
-Em primeiro lugar, é preciso fazer com que as pessoas reconheçam e acreditem na existência de Deus. Para isso, aqueles encarregados de interrogar os criminosos devem, antes de tudo, reconhecer a existência de Deus e, então, tratar os criminosos com amor sincero. Sem isso, é impossível tocar o coração do outro. Em uma palavra, a verdadeira sinceridade nasce apenas do reconhecimento de Deus. Se nos aproximarmos dos criminosos com amor sincero, nossa sinceridade tocará suas almas, e seus corações começarão a se mover.
-
-Esta experiência me revelou, de forma inequívoca, a falta de fé das autoridades investigadoras. Escrevo este texto com o desejo de que o mundo da lei também reconheça a necessidade da fé. Originalmente, não há ninguém que não possua uma fé inata. Contudo, como resultado da educação materialista, da falta de poder das religiões tradicionais, que permanecem estagnadas, e do fato de que, com exceção de algumas, a maioria das novas religiões não oferece nada de substancial, as pessoas chegaram aos dias de hoje com um preconceito arraigado.
-
-Quando tentamos explicar a essência da fé, não só não conseguimos que as pessoas a experimentem, como somos vistos com desdém, como pobres coitados presos à superstição, e ignorados. Isso é especialmente verdadeiro entre os intelectuais. Embora haja um número considerável de intelectuais que aderiram à nossa Igreja, eles tendem a evitar recomendá-la a outros e a manter sua fé em segredo.
-
-Some-se a isso as notícias falsas da mídia, a antipatia dos materialistas e a incompreensão das autoridades. Tentar expandir a fé em meio a tudo isso é uma tarefa árdua. E não são poucos os que, por mais que tentemos convencê-los, negam categoricamente a existência de Deus, afirmando que tudo não passa de superstição. Do nosso ponto de vista, essas pessoas, que consideram superstição o que não é, são os verdadeiros supersticiosos e dignos de pena. Pois nós, os chamados supersticiosos, vivemos em um estado de paz de espírito e, em meio a esta sociedade perigosa, não temos nenhuma ansiedade e desfrutamos de uma vida feliz.
-
-Há outro ponto importante. É o terrível preconceito em relação às nossas atividades religiosas. Ao investigar nossa Igreja, eles olham apenas para o lado negativo e fecham os olhos para o lado positivo. É verdade que, como parte de suas funções, as autoridades de investigação se concentram apenas nos aspectos relacionados a crimes. Mas aqui, é preciso considerar que não é a lei que cria o Estado, mas o Estado que cria a lei. Ou seja, se o Estado é o principal, e a lei, o secundário, ao investigar nossa Igreja, eles deveriam olhar tanto para o lado negativo quanto para o positivo. O lado positivo é como nossa Igreja contribui para o bem do país.
-
-Pessoas desenganadas por grandes hospitais e vários médicos são salvas de forma milagrosa; pessoas com ideologias nefastas, criminosos perigosos e delinquentes juvenis se regeneram; a pobreza é solucionada. Inúmeros seres humanos “negativos” são transformados em seres humanos “positivos”. Esses são fatos vivos. Uma parte deles está publicada em nossos materiais, e qualquer um que os leia não terá dúvidas. Acima de tudo, o desenvolvimento sem precedentes da nossa Igreja é a maior prova disso.
-
-No entanto, em relação à nossa Igreja, eles não olham para o lado positivo e buscam apenas o negativo, procurando por alguma falha. Essa atitude ignora o interesse nacional e se baseia apenas em conveniências e interesses próprios. Como se costuma dizer, se batermos em um tatame, sairá poeira. Como nossa Igreja cresceu rapidamente, pode haver falhas de supervisão ou pontos que infringem a lei por ignorância. Mas isso representa talvez um por cento do todo. Se noventa por cento é branco e um por cento é preto, é evidente que apoiar os noventa por cento é o que beneficia o país.
-
-No entanto, as autoridades olham apenas para o um por cento e se recusam a ver os noventa. É como se pegassem o um por cento preto e o expandissem para apagar os noventa por cento brancos. Em vez de salvar os noventa insetos e matar um, eles salvam um e matam noventa. Essa parece ser a verdadeira causa deste incidente.
-
-Esse um por cento preto é, escusado será dizer, o resultado das ações do bando de extorsionistas que mira nossa Igreja, dos invejosos, daqueles que são prejudicados pelo nosso desenvolvimento e dos opositores que agem por rivalidade comercial. Isso foi propagado por jornais, revistas e boatos, e as autoridades, seguindo o ditado de que “não há fumaça sem fogo”, pensaram que devia haver algo de podre em nossa Igreja e decidiram investigar a fundo. Já sabíamos desse plano há vários meses. Alguns nos deram conselhos, mas, como estávamos realizando um trabalho nobre do qual não tínhamos do que nos envergonhar diante do Céu, confiamos que a verdade acabaria por vir à tona e não fizemos nada.
-
-No entanto, as autoridades, embora tenham investigado os bancos e outras instituições, não encontraram grandes depósitos. Concluíram, então, que o dinheiro havia sido convertido em ouro, prata e joias e habilmente oculto. Isso provavelmente levou à busca e apreensão de grande escala.
-
-Por outro lado, houve algo que aprofundou muito as suspeitas das autoridades. Desde o ano passado, notícias falsas sobre receitas de mais de dez milhões de ienes por dia e um patrimônio de bilhões de ienes vinham circulando em jornais e revistas. Embora as autoridades não as tenham engolido por completo, é provável que tenham dado algum crédito a elas. Além disso, o boato no qual o bando de extorsionistas mais se empenhou foi o da ocultação de uma grande quantidade de barras de ouro e diamantes. As autoridades devem ter pensado: “É isso!” e agido. E, uma vez que as autoridades levantam uma suspeita, mesmo que se prove errada, elas não desistem facilmente e parecem determinadas a levar sua ideia até o fim. Por isso, acabam sendo forçadas a dar uma importância exagerada a crimes menores.
-
-Outro ponto que gostaria de ressaltar é que nossa Igreja foi estabelecida como pessoa jurídica religiosa em agosto de 1947, há apenas dois anos e meio. Até então, nosso patrimônio era modesto. É impossível que, em um período tão curto e em um mundo tão difícil, tenhamos acumulado um patrimônio de bilhões de ienes. Isso é algo que se pode entender com um pouco de bom senso. Portanto, se as autoridades se deixaram levar por esses boatos e notícias falsas, nossa Igreja foi vítima de uma grande calamidade, o que é extremamente lamentável.
-
-Diante do exposto, peço que as autoridades, de agora em diante, julguem nossa Igreja de forma imparcial, olhando tanto para o lado positivo quanto para o negativo. Se o lado positivo for muito maior que o negativo, então, reconhecendo nosso valor, se não nos apoiarem, que ao menos nos protejam para que possamos atuar em paz. Em suma, é preciso abandonar uma visão mesquinha e adotar uma perspectiva ampla. Acredito que a liberdade de religião também se baseia nesse princípio.
-
-Diz-se que “árvores altas atraem o vento” ou “o prego que se destaca é martelado”. É exatamente isso. É comum ouvir que os japoneses têm uma mentalidade insular de se unirem para derrubar qualquer um que se destaque, o que é um problema. Os que têm discernimento sempre lamentam o quanto isso impede o progresso do país. Se não mudarmos esse ponto, jamais surgirá algo grandioso. Em contraste, ouvi dizer que nos Estados Unidos, quando alguém começa a se destacar, a sociedade o apoia para que se torne ainda maior. Assim, o Japão permanecerá para sempre encolhido em um canto da Ásia. Espero que percebamos isso e que o dia em que nos tornaremos uma grande nação cultural, contribuindo para a paz mundial, não tarde a chegar.
-
-#### A Violação dos Direitos Humanos
-
-É desnecessário dizer que a liberdade e a democracia começam com o respeito aos direitos humanos. Contudo, este incidente me fez perceber que, na prática, isso raramente acontece. O que me surpreendeu foi a atitude dos funcionários públicos, que violam os direitos humanos do povo com a maior naturalidade. A polícia prende e priva as pessoas de sua liberdade como se fosse a coisa mais normal do mundo. Pode-se dizer que eles formam uma classe privilegiada.
-
-Com base em uma simples denúncia, uma carta anônima, um relatório de um subordinado, eles convocam e detêm pessoas sem uma investigação adequada. E, mesmo na detenção, não se importam com o transtorno causado ao réu. Um interrogatório que poderia ser resolvido em um dia de detenção se arrasta por dois ou três dias. Neste caso, sob o pretexto de que várias pessoas estavam envolvidas, fomos detidos por mais de vinte, e até mais de quarenta dias. Pelo bom senso, a suspeita poderia ter sido esclarecida em uma ou duas semanas. Mas, como já disse, eles repetem a mesma coisa todos os dias, e o processo se arrasta. Isso não é democracia, é burocracia.
-
-O Japão viveu sob um longo regime feudal, e a mentalidade de “senhor feudal” das autoridades talvez seja difícil de erradicar. E o povo, por sua vez, com sua atitude de se curvar aos poderosos, acaba se submetendo a tudo. Sinto que ainda estamos longe de um Japão verdadeiramente democrático. Quando ouço sobre a relação entre funcionários públicos e o povo nos Estados Unidos, sinto uma profunda inveja e anseio para que o Japão chegue logo a esse ponto.
-
-É verdade que a polícia japonesa melhorou em relação ao passado. A linguagem rude e os termos desrespeitosos quase desapareceram, e a atitude em relação ao povo melhorou consideravelmente. Mas acredito que já é hora de acabar com os excessos que restringem desnecessariamente a liberdade de expressão do povo.
-
-A seguir, gostaria de descrever meu estado psicológico como réu durante o interrogatório. Talvez não seja inútil. Como já detalhei, é natural negar o que não se lembra em resposta às perguntas do interrogador. Mas isso parece irritá-lo, e o interrogatório se intensifica. Eles acabam nos ameaçando, se irritando, gritando e nos insultando. O réu também se torna emotivo e não consegue dizer o que quer. O interrogatório não flui. O resultado é uma enorme perda de tempo e energia para ambos os lados.
-
-Após ser libertado e recuperar a saúde e meu estado psicológico normal, refleti sobre a situação e passei a entender melhor o que aconteceu. “Por que eu não defendi minha posição com mais veemência naquela época?”, “Por que eu disse coisas que poderiam me complicar com a lei?”, “Por que inventei fatos e concordei com as armadilhas do interrogatório, mesmo sabendo que eram desfavoráveis?”. Foi um estado psicológico estranho. Mais tarde, ouvi dizer que, se eu tivesse mantido a verdade até o fim, talvez não tivesse sido indiciado. Arrependi-me, mas agora não há mais o que fazer. Tentarei descrever em detalhes meu estado psicológico daquela época.
-
-Em primeiro lugar, ao ser colocado na cela de detenção, o ambiente muda completamente. O quarto tem apenas uma pequena janela no alto, de onde nem se vê o céu azul. Fica-se sentado em silêncio, do amanhecer ao anoitecer, em um quarto escuro de cerca de três tatames. É como ser um cadáver vivo. O teto e as paredes são de tábuas brutas, e um dos lados é uma grande porta de grades. De vez em quando, um policial abre a porta com uma chave absurdamente grande. O som metálico e sinistro é suficiente para causar um esgotamento nervoso.
-
-Se a pessoa cometeu um crime, talvez consiga suportar. Mas, se não, é uma situação ridícula e deprimente. Como tenho fé, pensei que Deus estava me fazendo passar por aquilo para polir minha alma e consegui aguentar. Mesmo assim, é muito difícil, e quem não passou por isso não consegue entender. Lembrei-me da expressão “a liberdade de estar vivo” de um romance russo. É uma forma irônica de dizer que não há liberdade alguma. E era exatamente isso. O único espaço de liberdade eram os três tatames. O único exercício era caminhar de um lado para o outro, como um animal enjaulado. Nunca senti tanto a preciosidade da liberdade.
-
-A comida é servida três vezes ao dia para nos manter vivos. É só isso. Não se pode conversar, ler, fumar. O banheiro só pode ser usado em horários determinados. Nesse ponto, um animal é mais livre. Senti-me desqualificado como ser humano.
-
-Aos poucos, o apetite diminui. Dizem os experientes que o pior é depois de dez dias. Depende da pessoa, mas geralmente, depois de vinte dias, a pessoa se acostuma e fica mais fácil. Após dez dias consecutivos, a fadiga física, somada a um tipo de esgotamento nervoso, enfraquece enormemente a força mental. A pessoa perde a vontade de argumentar, por mais que o interrogador diga, e entra em um estado de desânimo, de “que seja”. Por mais que tente lutar, o corpo e a alma não obedecem. Foi por isso que desmaiei duas vezes.
-
-O medo de entrar na sala de interrogatório é imenso. Apresentar-se diante do interrogador é terrivelmente assustador. Eu sempre tive confiança na minha força mental, mas ali, a confiança se dissipou. A única coisa que ocupava minha mente era o desejo de escapar do interrogatório e sair daquele lugar. Se o que eu dissesse era crime ou não, isso não importava. A única coisa que me confortava era a certeza de que, como eu não havia feito nada de errado, acabaria sendo inocentado. Não havia espaço para pensar em mais nada. Esta é a minha confissão sincera.
-
-A violação dos direitos humanos pode assumir várias formas. Pensei que o procedimento das autoridades, como descrevi, também é uma forma de violação dos direitos humanos.
-
-#### O Presídio
-
-Devido a este incidente, fiquei cinco dias no Presídio de Shizuoka (que na verdade é um centro de detenção). Gostaria de relatar algo que senti profundamente naquela época.
-
-O presídio era um prédio recém-construído, com instalações modernas e bem equipadas. Tinha um ar cultural que em nada se assemelhava à imagem que eu fazia desse tipo de lugar. Os guardas eram muito gentis, e o ambiente era permeado por um espírito democrático. Os prisioneiros pareciam saudáveis e alegres, o que me causou uma boa impressão.
-
-O que lamentei, no entanto, foi a ausência de instalações para o espírito. E o que quero dizer com “instalações para o espírito”? É a educação religiosa. Gostaria de apresentar aqui uma proposta.
-
-Primeiro, construir um grande auditório. Duas vezes por dia, de manhã e à tarde, por trinta a sessenta minutos, convidar autoridades de diferentes religiões para proferir palestras, em sistema de rodízio. Tenho certeza de que eles aceitariam de bom grado, pois não há trabalho mais significativo para um religioso. Para os prisioneiros, seria uma mudança de rotina, um alimento para a alma. Inconscientemente, muitos reconheceriam seus erros e se arrependeriam.
-
-Há muito se discute a introdução da educação religiosa nas escolas, uma proposta que, lamentavelmente, ainda não foi implementada, provavelmente devido a questões complexas. Ao contrário do Ocidente, onde a religião é predominantemente o cristianismo, o Japão tem inúmeras escolas e seitas, o que torna a questão impraticável.
-
-Mas qual é a realidade do Japão de hoje? Como todos sabem, o número de criminosos aumentou drasticamente. As autoridades e as pessoas de bem sentem que algo precisa ser feito, que não se pode mais ignorar a situação. Se continuarmos assim, a instabilidade social só aumentará, e o futuro do Japão reconstruído será sombrio. É preciso tomar medidas urgentes. No entanto, ainda não se encontrou uma solução eficaz.
-
-Isso porque os olhos estão voltados apenas para o aspecto material, ignorando o espiritual. É sobre isso que quero falar. Por mais que a polícia e os tribunais estejam bem equipados e se esforcem na prevenção do crime, no fim, são métodos paliativos. Pois olham apenas para o resultado e fecham os olhos para a causa. É uma lei universal que tudo tem uma causa e um efeito. É algo óbvio, mas o fato de não se perceber essa obviedade é uma grande falha da cultura moderna. A razão para isso é a ênfase excessiva na educação materialista, uma cultura manca. Vejam: diz-se que a cultura progrediu, mas o crime, em vez de diminuir, aumenta. Essa é a maior prova.
-
-Os métodos atuais de prevenção do crime são multas e punições corporais. A punição pode ser necessária se não houver outra alternativa, mas esperar que apenas isso elimine o crime da sociedade é como esperar o rio Amarelo clarear. Leis e punições são como chicotes, jaulas e redes para animais. Apenas contêm sua ferocidade. Se houver uma brecha, o animal tentará escapar. Isso se aplica perfeitamente à sociedade humana. Leis cada vez mais rígidas são como apertar as malhas da rede. Isso mostra quantos homens-fera existem hoje.
-
-Nesse sentido, o verdadeiro progresso da cultura seria o aumento do número de pessoas que não precisam de perigo, mesmo sem leis ou jaulas. E criar essas pessoas, que não precisam ser tratadas como animais, é a missão fundamental da religião. Sem o reconhecimento disso, por mais que as instalações de prevenção materialistas sejam completas, é evidente que não se obterá o efeito desejado.
-
-Portanto, sugiro às autoridades que a educação religiosa para os prisioneiros é o método mais apropriado e eficaz, e que não requer grandes despesas.
-
-Por fim, gostaria de acrescentar algo. Seria bom ter uma Bíblia em cada cela. De todos os livros religiosos do mundo, não há nenhum com mais poder para levar ao arrependimento do que a Bíblia.
-
-#### O Absurdo
-
-Depois de tanto escrever sobre assuntos sérios, gostaria de relatar um ou dois episódios absurdos envolvendo jornalistas e outros.
-
-Quando fui levado pela primeira vez, pouco antes de chegarmos à Delegacia de Ihara, o chefe K., que estava no carro, disse: “Os jornalistas devem estar esperando no portão da frente, vamos entrar pelo de trás”. E estacionou o carro no portão dos fundos. Mas os jornalistas, que souberam da manobra, se aglomeraram assim que eu saí do carro. No caminho de cerca de vinte metros até a entrada, dos dois lados, os flashes dispararam mais de dez vezes.
-
-Assim que entrei na delegacia, fui levado para a sala de interrogatório no segundo andar. Enquanto eu passava por um breve interrogatório, houve uma confusão com um policial que tentava impedir um fotógrafo de abrir a porta da sala para me fotografar. O mais surpreendente foi ver alguém que havia subido em um poste de eletricidade com uma escada, apontando a lente pela janela do segundo andar. Um oficial percebeu, correu para fechar a cortina e, pouco depois, pensando que o perigo havia passado, abriu-a novamente. Mas então, encontraram outro fotógrafo que havia subido em uma árvore com uma escada, apontando a lente. Fecharam a cortina novamente, e todos riram. A dedicação deles ao trabalho se assemelhava à competição de um atleta em busca da pontuação máxima.
-
-Quando eu estava descendo as escadas para ir ao banheiro, de repente, uma multidão se juntou, vinda de todos os lados, tentando me fotografar. Um policial me pegou pela mão e me fez voltar às pressas. Depois disso, passei a usar o banheiro privativo dos policiais. Para chegar lá, eu descia silenciosamente por uma escada nos fundos.
-
-No terceiro dia, dia 31, fui levado ao tribunal de Shizuoka. Não me lembro bem, mas acho que um juiz me perguntou se eu admitia as acusações. O procedimento durou cerca de trinta minutos. Na volta para a delegacia, foi uma confusão. Ao sairmos, um oficial me avisou: “Hoje tem muitos jornalistas e curiosos esperando. Esteja preparado e entre no carro o mais rápido possível”. Vários policiais se desdobravam para organizar a multidão.
-
-No caminho do portão dos fundos até a rua, de cerca de vinte metros, uma fileira de câmeras e equipes de filmagem não deixava espaço. Ao sairmos do portão, a fileira de câmeras continuava. Eles estavam esperando, e os flashes disparavam incessantemente. Como minha consciência estava limpa, entrei no carro com calma. Quem viu os noticiários da época deve ter entendido bem a cena.
-
-A rua em frente à delegacia tinha cerca de catorze metros de largura e estava lotada de curiosos e fiéis. Devia haver centenas, talvez mil pessoas. Havia muitos fiéis, que eram fáceis de identificar porque estavam com as mãos em prece. O que me surpreendeu foi que, a algumas quadras da delegacia, um carro tentou nos ultrapassar em alta velocidade. Olhei e vi que eles estavam nos filmando de dentro do carro, emparelhando a velocidade. Fiquei muito surpreso.
-
-Cerca de uma hora depois, chegamos ao portão da frente do tribunal de Shizuoka. E lá estava outra fileira de câmeras. Equipes de filmagem e muitos outros esperavam. Fomos filmados na ida e na volta.
-
-E aqui também aconteceu algo engraçado. A algumas quadras do tribunal, um cinegrafista subiu na lataria do nosso carro em movimento e, pela janela aberta do motorista, tentou nos filmar. O policial que estava comigo percebeu, parou o carro e, depois de muita insistência, conseguiu convencê-lo a descer.
-
-Enquanto estive na delegacia, jornalistas locais vinham de vez em quando para fazer perguntas e tirar fotos.
-
-Agora, um absurdo da minha libertação. Foi por volta das onze da noite de 19 de junho. Um oficial sugeriu que saíssemos pelo portão dos fundos, pois muitos jornalistas esperavam na frente. Ele abriu um portão de emergência, raramente usado, e eu saí discretamente. Os jornalistas que esperavam na frente foram enganados. Dizem que ficaram furiosos quando descobriram. Só perceberam cerca de cinquenta minutos depois, quando já era tarde demais para me alcançar.
-
-No entanto, um jornalista do Mainichi deve ter avisado a sucursal de Atami por telefone. No Passo de Jikkoku, nosso carro cruzou com o dele, e um flash disparou de repente, o que me assustou um pouco. Por uma questão de estratégia, meus subordinados fizeram parecer que eu estava voltando para minha casa em Mizuguchi-cho, Atami. Mas, de repente, mudamos de direção e fomos para Hakone. Chegamos à casa de um conhecido em Sengokuhara por volta das três e meia da manhã. Essa batalha de astúcia com os jornalistas também foi, à sua maneira, divertida.
-
-Houve também outro incidente. Enquanto eu estava detido, um dia, vários policiais vieram à minha casa para uma busca e apreensão. Entraram debaixo do assoalho e subiram no telhado, investigando minuciosamente. Ao voltar, ouvi o relato e achei o método de busca muito estranho. Perguntei, mas ninguém soube me explicar. Lembrei-me então de quando eu era membro da Oomoto. A religião foi alvo de uma suspeita absurda: dizia-se que havia uma sala secreta no porão, usada para encontros amorosos, e que centenas de lanças de bambu estavam escondidas. Uma grande busca e apreensão foi realizada, causando um grande transtorno. Imaginei que algo semelhante, baseado em uma carta anônima, tivesse acontecido. Se for o caso, fico chocado ao pensar que existem pessoas no mundo que se dão ao trabalho de pregar peças tão elaboradas.
-
-E mais uma coisa engraçada. Há alguns anos, tive sarna, e isso deve ter se espalhado. Quando estava no presídio, fui examinado pelo médico da instituição. Após um exame cuidadoso, ele garantiu que eu estava completamente curado. O médico era um homem espirituoso e divertido. Ele começou a conversar comigo e, de repente, perguntou: “Com que idade o ‘O-Hikari-sama’ conheceu uma mulher?”. Fiquei desconcertado. “Acho que por volta dos dezoito ou dezenove anos”, respondi. A conversa enveredou por temas interessantes, como as relações entre homens e mulheres. Quando estávamos no auge do assunto, o médico foi chamado para um compromisso e se despediu. Foi como encontrar um buda no inferno; por um momento, senti meu coração se iluminar.
-
-Por fim, a obra-prima do absurdo. Foi durante o noticiário das nove da noite de 24 de julho. Ouviu-se a notícia de que o prefeito de Atami, Shuugetsu So, havia sido convocado pela promotoria de Shizuoka. A suspeita era de que ele teria recebido um suborno de cem mil ienes do “O-Hikari-sama” da Sekai Kyusei Kyo. Fiquei tão perplexo que não consegui dizer uma palavra. Não sei quem inventou essa história e a enviou à emissora, mas, se a emissora a divulgou sem a devida apuração, a falha é dela. E quem se responsabilizará por isso? Mas talvez isso seja apenas um dos dissabores de ser uma pessoa popular.
-
-#### Conclusão
-
-Analisando este incidente com calma, não me parece que o interrogatório tenha sido conduzido de forma justa. Gostaria de levantar alguns pontos de interrogação.
-
-Primeiro, a severidade do interrogatório e sua longa duração, desproporcionais à natureza da suspeita. Pela minha experiência, foi incomparavelmente mais longo que na época da Tokkō. Naquela época, por mais minucioso que fosse o interrogatório, um caso como este seria resolvido em dois ou três dias. Desta vez, demorou várias vezes mais. Eles repetiam a mesma coisa todos os dias, o que é extremamente ineficiente.
-
-Pensei: “É verdade que, em alguns casos, pode ser necessário prolongar a investigação. Mas este caso não é tão complexo. E os réus são todos pessoas de fé profunda, não são criminosos. Pelo contrário, são superiores ao cidadão comum”. E não sou só eu que digo isso; os próprios interrogadores os elogiaram. No entanto, o tratamento foi o mesmo dispensado a um criminoso perigoso.
-
-Além disso, o interrogatório parecia ser conduzido de forma a nos levar a dar respostas que infringissem a lei. Todos os meus subordinados que foram interrogados concordam com isso. Por mais que o réu contasse os fatos como eles eram, eles não aceitavam. Pensei que era porque não correspondia ao que eles queriam ouvir.
-
-Durante o interrogatório, eles nos intimidavam, nos levavam ao desespero, nos insultavam e nos provocavam. Usavam todo tipo de tática. Diferentemente do passado, a tortura física não é mais permitida, mas, em seu lugar, temos a tortura mental, verbal. E, com uma tática de resistência, eles nos esgotavam ao extremo, com a determinação de não nos soltar até que déssemos uma resposta que pudesse ser usada como crime.
-
-A tortura verbal, por não causar dor física, pode ser mais fácil de suportar para um verdadeiro criminoso. Mas, para um cidadão de bem, o sofrimento é tão profundo quanto o da tortura física, se não maior. Especialmente para quem desconhece a lei ou é fraco de espírito, a ansiedade e o medo extremos, somados à fadiga física, levam a um estado de exaustão e impotência espiritual e carnal. A maioria acaba entrando em um estado de desânimo.
-
-O resultado é que, mesmo aqueles que mantinham firmemente a verdade, acabam desistindo, pensando que não conseguirão resistir. Somado ao desejo de sair dali o mais rápido possível, eles se veem forçados a dar uma resposta que agrade aos interrogadores, contra a sua vontade. No meu caso, por ser idoso e líder de uma religião, houve alguma consideração. Mas imagino que, com meus subordinados, o tratamento tenha sido muito pior.
-
-Diante do exposto, não posso deixar de pensar que este caso foi uma ação planejada das autoridades. Como eu, todos os réus disseram que, quando davam uma resposta que poderia ser considerada crime, os interrogadores ficavam satisfeitos. Caso contrário, a atitude mudava, e a pressão aumentava. Chegamos a um ponto em que o importante era escapar da situação, mesmo que tivéssemos que inventar ou mentir.
-
-No entanto, os interrogadores diziam: “Não minta, diga a verdade”, enquanto eles mesmos usavam mentiras terríveis para nos enganar. Um exemplo: Inoue relatou que, durante o interrogatório, disseram-lhe: “Isso deve ter acontecido, conte-nos a verdade”. Ele, por não saber de nada, disse que não sabia. O interrogador então disse: “Se você não falar, vamos chamar Okada e perguntar a ele. Está bem?”. Inoue, para quem a ideia de me ver chamado era mais dolorosa que a morte, pensou que, se assumisse a culpa, eu seria poupado. E concordou com tudo o que o interrogador dizia. Pouco depois, soube que eu havia sido chamado, percebeu que fora enganado e chorou de remorso.
-
-Então, os interrogadores disseram a Inoue: “Okada foi preso e confessou tal e tal coisa. Você também deve saber”. Ele, sem perceber que era uma armadilha, disse: “Se o Mestre diz isso, deve ser verdade”. E confirmou. Depois, vieram a mim e disseram: “Inoue confessou tal e tal fato. Você também deve confirmar”. Foi um interrogatório circular. Eu disse: “Inoue é muito distraído, não se pode confiar nele”. Eles responderam: “Que absurdo! Ele é mais inteligente que você”. Fiquei perplexo, sem palavras.
-
-Isso mostra como os crimes são construídos, pouco a pouco, com mentiras, engodos, ameaças e resistência. Que coisa terrível! Em suma, o interrogador cria as perguntas, e nós criamos as respostas. E, nessa troca, perdemos dias e dias. O resultado é que tanto o interrogador quanto o réu desperdiçam tempo e energia, sem nenhum ganho. E o contribuinte, que paga por tudo isso, vê seu dinheiro sendo desperdiçado.
-
-Analisei este incidente de todos os ângulos. Não nego que tivemos nossas falhas, mas elas se devem unicamente ao nosso desconhecimento da lei. Nada mais.
-
-O cerne deste incidente é, sem dúvida, a sonegação fiscal. Mas acredito que há sérias dúvidas a serem levantadas sobre essa questão. Na época, nós, que nos dedicávamos às atividades religiosas sob o nome de Pessoa Jurídica Religiosa Nippon Kannon Kyodan, estávamos tranquilos, pois a lei isentava as pessoas jurídicas religiosas de impostos.
-
-No entanto, em 8 de novembro de 1948, de repente, a Receita Nacional fez uma busca e apreensão na sede da Associação 567, em Odawara, presidida por Sozaburo Shibui, que era, na época, a representação da nossa organização, e apreendeu todos os livros contábeis. Os livros, que estavam sob a responsabilidade de um contador, tinham os registros de receitas completos, mas os de despesas estavam apenas pela metade. Por que tamanha negligência? Foi a tranquilidade de saber que a pessoa jurídica era isenta de impostos.
-
-No entanto, o fiscal da Receita considerou a metade não registrada das despesas como renda pessoal, de acordo com a lei, e decidiu tributá-la. Ao saber disso, ficamos surpresos e tentamos explicar as despesas não registradas, mas eles se recusaram a aceitar, dizendo que não poderiam reconhecer o que não estava nos livros. Sem qualquer atitude conciliatória, eles tomaram uma decisão unilateral e arbitrária. O resultado foi que a tributação recaiu sobre mim e Sozaburo Shibui, sem que pudéssemos contestar. Achei aquilo extremamente irracional.
-
-Na época, o Sr. Shibui, indignado, disse: “Se o motivo foi a metade não registrada no momento da busca e apreensão, se a Receita tivesse vindo um pouco mais tarde, os livros estariam completos, e a questão da sonegação não teria surgido”.
-
-O Sr. Shibui pretendia contestar a decisão através de um processo administrativo. Mas, para isso, era preciso pagar o imposto imediatamente. Estimava-se que o valor não seria inferior a trinta milhões de ienes. Pagar uma quantia tão grande de uma só vez significaria a falência da organização. Ele expôs a situação ao falecido advogado Hasegawa, pedindo que negociasse uma redução do imposto e um parcelamento. O advogado Hasegawa, compadecido, disse que se esforçaria ao máximo e que podíamos confiar nele, que tinha certeza de que conseguiria um bom resultado. O Sr. Shibui, então, entregou todo o caso a ele. A partir daí, demos ao advogado Hasegawa todo o dinheiro que ele pedia.
-
-O Sr. Shibui, que havia entrado no mundo da fé há mais de dez anos e estava afastado da sociedade, não tinha interesse nem conhecimento sobre impostos. Além disso, pouco depois do incidente, ele sofreu seu terceiro derrame cerebral e teve que passar a responsabilidade do caso para seu irmão mais novo, Tetsuo.
-
-Como tudo estava nas mãos do advogado Hasegawa, não havia necessidade de nos preocuparmos com os métodos que ele usaria. E, como leigos, não adiantaria darmos nossa opinião. Os irmãos Shibui apenas esperavam que o caso fosse resolvido favoravelmente.
-
-O problema fiscal foi resolvido, de alguma forma, graças aos esforços do advogado (o valor final foi de 10,5 milhões de ienes para mim, incluindo 800 mil do ano anterior, e 7 milhões para o Sr. Shibui). O imposto foi pago, e eu, os irmãos Shibui, os outros dirigentes e os principais fiéis ficamos aliviados. Pensamos que não haveria mais problemas e esquecemos o assunto.
-
-No entanto, a promotoria resolveu desenterrar o caso e nos deteve, submetendo-nos a um interrogatório extremamente severo, como já relatei. Analisando todo o processo desde o início, vemos a atitude da Receita Nacional. A lei tributária democrática de hoje estabelece que a decisão deve ser tomada em acordo com o contribuinte, com o consentimento de ambas as partes. No entanto, eles não adotaram esse procedimento e determinaram a base da tributação de forma apressada. Foi um ato ilegal. E, como isso se tornou a causa deste incidente, mais de um ano depois, fomos vítimas de um método de cobrança de impostos antidemocrático.
-
-E não foi só isso. A tributação exorbitante imposta pela Receita Nacional serviu de base para os anos seguintes. Em 1949 e neste ano, uma grande renda pessoal foi arbitrariamente presumida a partir da receita da pessoa jurídica, resultando em uma tributação de seis a sete milhões de ienes. Como não tinha dinheiro, tive que pegar emprestado da organização para pagar. E, mesmo assim, disseram que não era suficiente e tentaram me impor uma cobrança adicional. Mas as finanças da Igreja não permitiram, e o caso está em negociação.
-
-Olhando para trás, se tivéssemos aceitado a tributação inicial, a organização teria entrado em colapso. Para evitar a crise, contratamos um advogado. E, devido à má conduta do advogado, nós, que não sabíamos de nada, fomos arrastados para este incidente. Onde está a nossa culpa?
-
-É verdade que, pelo resultado, a suspeita de suborno é inevitável. Mas, na prática, não temos culpa alguma. Jamais imaginamos que seríamos indiciados. Fomos perseguidos por uma política antidemocrática, e os danos só aumentam. Que governo terrível!
-
-Desde o início, não tivemos a intenção de sonegar. E, como religiosos, não teríamos a menor intenção de infringir a lei. Mesmo hoje, com essa acusação abominável pesando sobre nós, não temos nada do que nos envergonhar. Nossa consciência está limpa diante do Céu e da Terra.
-
-Gostaria de descrever os enormes danos que este incidente causou à nossa Igreja. Além do sofrimento físico e mental por dezenas de dias e da acusação infame, os jornais, não sei se por invenção dos repórteres, publicaram notícias falsas e exageradas, em letras garrafais, causando um grande abalo em nossa credibilidade social. O impacto espiritual sobre os trezentos mil fiéis também foi imenso.
-
-O ímpeto de crescimento da nossa Igreja foi freado. Desde então, nossa expansão foi reduzida a uma fração do que era, e as receitas diminuíram drasticamente. Fomos forçados a suspender as obras da Sede. Não se sabe quantos anos serão necessários para nos recuperarmos, restaurarmos nossa credibilidade e nos reerguermos.
-
-Se temos que sofrer tantos danos por um crime que não cometemos, sem ter a quem recorrer, e sermos forçados a engolir o choro, a política do Japão está certa? O justo seria que o Estado nos pedisse desculpas e nos indenizasse adequadamente. Mas, na prática, isso não acontecerá. O que nos resta é ansiar, do fundo do coração, pela rápida concretização de uma sociedade verdadeiramente democrática, onde possamos viver em paz, livres da ameaça do poder.
-
-Analisando a causa deste incidente, é evidente que não se trata apenas das falhas do sistema político atual. Os funcionários públicos abusam de seu poder, tratam o povo como escravos e, quando seus erros causam danos ao povo, eles os ignoram, sem assumir qualquer responsabilidade. Será esta a forma de uma política democrática? Gostaria de ouvir uma resposta responsável das autoridades.
-
-E não é só isso. Eu e quatro de meus subordinados fomos todos indiciados. O veredito será dado em um julgamento público. Mas, do início ao fim, as despesas com advogados e os prejuízos tangíveis e intangíveis que sofremos foram imensos, como já relatei.
-
-Eu esperava que o caso fosse arquivado. Pois o material básico para o indiciamento, o registro do interrogatório, é, como já disse, uma obra de ficção desleixada. E os próprios interrogadores devem saber disso. É verdade que um dos réus cometeu um crime leve, e seu indiciamento é inevitável. Mas, para os outros, os motivos para o indiciamento são não apenas frágeis, mas inexistentes. No entanto, fomos todos indiciados em um único pacote, o que é, no mínimo, arbitrário.
-
-Ouvi dizer que o julgamento de hoje se baseia em provas materiais ou no testemunho de testemunhas. No entanto, a base para o indiciamento, como já disse, não passa de um registro fabricado no desespero. O fato de que a busca e apreensão com oitenta policiais não produziu nenhuma prova material e de que nenhuma testemunha apareceu é a prova mais clara.
-
-Relatei os fatos como eles aconteceram, da forma mais detalhada possível. Se este registro puder contribuir, ainda que minimamente, para o bem-estar do povo, sentirei que o sofrimento que passamos não foi em vão.
-
-Por fim, como religioso, gostaria de dizer uma palavra. Até hoje, como aqueles que têm contato com nossa Igreja bem sabem, temos nos esforçado para eliminar o mal da sociedade e promover o bem. Por isso, nós mesmos nos policiamos para não cometer injustiças, seguir o caminho correto e evitar erros. O fato de termos sofrido tal provação parece muito estranho, mas, refletindo bem, o que mais poderia ser senão a profunda intenção de Deus?
-
-Acredito que esta foi uma grandiosa provação, concedida para que pudéssemos polir nossas almas e nos tornarmos úteis na grande obra de salvação no futuro. As inúmeras dificuldades que enfrentamos nos últimos anos me fazem crer que Deus nos fez conhecer todos os lados sombrios da sociedade.
-
-Hoje, a cultura do nosso país, por mais que pareça ter progredido em sua aparência externa, progrediu apenas no aspecto material e formal. Em seu conteúdo, a liberdade e a democracia são apenas palavras vazias, quase sem substância. A moralidade está em um nível inferior ao da era feudal, em um estado de pandemônio. Os políticos e a classe dirigente vivem o dia a dia, sem princípios nem convicções. O povo perdeu a esperança e luta para sobreviver. É uma realidade que não se pode encarar.
-
-Aqueles que se preocupam com o país e a sociedade são considerados ultrapassados e ignorados. Os sinceros são desprezados, os bons são enredados pela lei, e os maus a contornam. É natural que o número de maus aumente. Costuma-se dizer que os honestos são tolos. E nós também. Com este incidente, descobrimos pela primeira vez que os bancários também são funcionários públicos. Fiquei chocado com minha própria ingenuidade.
-
-Este mundo de escuridão e ignorância, sob o olhar de Deus, não pode durar muito. O Juízo Final, proclamado pelo grande Cristo há dois mil anos e que nós continuamos a anunciar, está próximo. Isso não é uma palavra vã. Crendo ou não, em um futuro próximo, Deus o mostrará. E então, será tarde demais para se arrepender. Com esta advertência, encerro meu relato.
-
-***
-
-**Registro da Perseguição Religiosa**
-*Publicado em 30 de outubro de 1950*
-*Formato B6, 94 páginas, não comercializável*
-*Autor: Jikan*
-*Editor: Masao Koyama*
-*Impressor e Editora: Departamento de Publicações Eiko-sha*
-
----
-
-# Coleção de Ensaios do Mestre Okada Jikanshi
-
-**Categoria:** sasshi | **Ano:** - | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## Coleção de Ensaios do Mestre Okada Jikanshi
-## A Ascensão da Gravura Moderna (Por Fujikake Shizuya, Doutor em Letras)
-
-### A Expressão do Ukiyo-e e a Ascensão da Gravura Moderna
-
-Sendo a arte dos cidadãos de Edo, o *ukiyo-e* entrou em declínio com a queda do xogunato e a transformação da cidade em Tóquio. Tal decadência se deu porque a gravura passou a retratar questões factuais e eventos sociais, negligenciando sua vocação artística. Foi nesse ínterim, contudo, que surgiu Kobayashi Kiyochika. Ao incorporar técnicas ocidentais de representação, ele criou uma gravura renovada e adequada à nova era. De fato, entre suas obras do início do período Meiji, encontram-se peças de notável primor artístico.
-
-Embora o *ukiyo-e* tenha sucumbido às transformações de seu tempo, a gravura, como expressão da arte japonesa, não estava destinada a desaparecer. Pelo contrário, em meados do período Taisho, ela ressurgiu com um vigor surpreendente.
-
-### As Duas Vertentes da Gravura Moderna
-
-A gravura moderna, em sua presente ascensão, manifesta-se em duas vertentes principais. A primeira delas segue o legado das antigas gravuras *ukiyo-e*, em um processo colaborativo no qual o artista concebe o desenho original, que é então transferido para a madeira por um entalhador e impresso em cores por um impressor. Ao longo de todas as etapas, o artista supervisiona o trabalho para garantir que a obra final corresponda à sua visão.
-
-A segunda vertente é a da gravura de autoria integral, na qual o artista assume o controle de todo o processo. Ele não apenas concebe a imagem, mas também empunha a goiva, esculpindo a madeira enquanto reflete sobre a melhor forma de expressar sua intenção. Igualmente, é ele quem, com minuciosa atenção à harmonia cromática, aplica as cores com o *baren*, ajustando a intensidade de cada tom. Nesse método, o artista materializa sua obra de arte com absoluta liberdade, do início ao fim.
-
-Ambas as vertentes da nova gravura floresceram a partir de meados do período Taisho, embora suas raízes, naturalmente, remontem ao período preparatório de Meiji. Independentemente da escola a que pertençam, todos os artistas se dedicam com afinco ao objetivo de criar obras de arte primorosas. Consequentemente, seus trabalhos são uma expressão fiel da individualidade de cada criador; em vez de imitarem terceiros, eles desenvolvem uma linguagem artística singular. Em suma, é porque os artistas criam com genuíno deleite que suas obras atingem um elevado patamar artístico. O universo da gravura moderna, por estar em plena ascensão, exibe um espírito de efervescente vitalidade.
-
-### A Vertente da Gravura Ukiyo-e: Hashiguchi Goyo (橋口五葉)
-
-Foi Hashiguchi Goyo (1880-1921) quem, utilizando a técnica herdada do *ukiyo-e*, produziu uma nova e significativa gravura para a era moderna. Goyo apresentou sua primeira obra em 1915. Lamentavelmente, faleceu em 1921, deixando um legado de apenas catorze obras. Todas são de qualidade excepcional, abrangendo majoritariamente retratos de belas mulheres, mas também paisagens e representações de aves. Ele supervisionava pessoalmente, e com extremo rigor, os processos de entalhe e impressão, resultando em gravuras de um estilo único e inconfundível. Em seus trabalhos, pode-se observar o mais alto requinte da técnica.
-
-O artista seguinte é Ito Shinsui (伊東深水) (1898-1972). Sua primeira obra, de julho de 1916, intitulada *Ao Espelho*, é uma de suas obras-primas. Retratando uma mulher em vestes íntimas vermelhas a maquiar-se diante de um espelho, a peça demonstra de forma sublime a eficácia da gravura, com uma harmoniosa e bem-sucedida combinação de cores.
-
-Após *Ao Espelho*, Shinsui continuou a apresentar, uma após a outra, novas gravuras plenas da vitalidade da nova era. Séries como *Barco na Lama* e as *Oito Vistas de Omi* estão entre suas criações mais notáveis. Embora mais tarde tenha alcançado renome em exposições por suas pinturas de belas mulheres, Shinsui nunca deixou de produzir gravuras. Um exemplo é a obra de grande formato *O Capuz Okoso*, que retrata uma figura com um capuz púrpura-escuro e uma veste vermelha, segurando o cabo de um guarda-chuva. O quimono em tom de lilás e o guarda-chuva coberto de neve ao fundo criam um contraste cromático de grande efeito artístico.
-
-Em seguida a Shinsui, Kawase Hasui (川瀬巴水) (1883-1957) iniciou sua produção de gravuras em 1918, supostamente inspirado pela série *Oito Vistas de Omi* de seu predecessor. Hasui dedicou-se exclusivamente à representação de paisagens naturais, desenvolvendo um estilo único e característico. Pode-se dizer que seus passos o levaram a todos os cantos do Japão. Sendo um artista especializado em gravura, sua produção ultrapassa as quatrocentas obras. Seus trabalhos, de atmosfera serena e tonalidades suaves, retratam a beleza natural do Japão com grande fidelidade, sendo apreciados não apenas por japoneses, mas também por estrangeiros.
-
-A gravura do portão do Templo Zojoji na neve evoca o sentimento poético dos pinheiros cobertos de neve, complementado pela figura de uma bela mulher com seu guarda-chuva, lutando contra a nevasca. A combinação cromática entre o portão laqueado em vermelhão e a brancura da neve resulta em um efeito visual de grande impacto. Já em *Neve no Crepúsculo no Templo Kiyomizu*, obra de 1950, a composição é particularmente interessante; o primeiro plano escurecido realça a luminosidade da paisagem nevada ao fundo, criando uma atmosfera cativante.
-
-Além destes, outros artistas que se dedicaram à gravura de paisagem incluem Kasamatsu Shiro (笠松紫浪) (1898-1991) e Ito Takashi (伊藤孝之) (1894-1982). Takashi distingue-se por um realismo meticuloso em suas representações.
-
-Um nome que merece destaque especial entre os paisagistas é o de Yoshida Hiroshi (吉田博) (1876-1950). Se Goyo, Shinsui e Hasui são reconhecidos mundialmente como mestres da gravura, Yoshida Hiroshi é, entre eles, o mais amplamente conhecido.
-
-Yoshida Hiroshi viajou por todo o mundo, transformando-o em tema para suas gravuras. Em suas três viagens ao exterior, retratou cenários magníficos desde os Estados Unidos e a Europa até a Índia e a Manchúria, resultando em oito obras das Américas, onze da Europa e trinta e duas da Índia. No Japão, seus passos foram onipresentes, produzindo séries sobre os Alpes Japoneses (doze obras), os Alpes do Sul (seis obras), o Mar Interior de Seto (dezenove obras), o Monte Fuji (dez obras), Tóquio (doze obras), a região de Kansai (doze obras), entre outras. Incluindo as obras avulsas, seu catálogo soma duzentas e quarenta e uma gravuras. A obra *Manhã em Abuto no Mar Interior de Seto*, de 1930, exemplifica seu estilo. A vela do barco é impressa com um leve tom de sumi, enquanto sua sombra refletida na água é representada em anil, de forma simples. O céu e a água, em tons de verde, são esfumados a partir das margens superior e inferior. Por fim, um delicado matiz avermelhado da aurora foi aplicado sobre as montanhas distantes, também em anil, expressando com maestria a sensação de uma manhã no mar interior.
-
-As gravuras de Yoshida Hiroshi eram produzidas em seu próprio ateliê, onde mantinha entalhadores e impressores sob sua supervisão direta. Por atuar também como editor, desfrutava de total liberdade criativa, o que lhe permitiu um volume de produção expressivo. Por essa razão, não seria exagero afirmar que, entre os apreciadores da gravura japonesa no mundo, não há quem não possua uma obra de Yoshida.
-
-Yamamura Toyonari (山村豊成) (1885-1942), pseudônimo artístico de Yamamura Koka para suas gravuras, deixou obras notáveis no gênero de retratos de atores de kabuki. Ele retratava os rostos em grande escala, utilizando a técnica de impressão com mica (*kirazuri*), em um estudo das técnicas da era de Sharaku. Sua obra *Nizaemon XI no papel de Kakiemon* possui um encanto particular em sua expressão sóbria.
-
-Natori Shunsen (名取春仙) (1886-1960) dedicou-se primordialmente ao retrato de atores, criando uma coleção de mais de cinquenta obras. Peças como *Nakamura Utaemon como Yodo-gimi* e *Ichimura Uzaemon como Iriya Naozamurai* são consideradas obras-primas. A gravura *Utaemon como Yodo-gimi* é um exemplo de seu talento.
-
-### A Vertente da Gravura de Autoria Integral
-
-Dentre as correntes da gravura moderna, aquela com maior potencial de desenvolvimento e que suscita as mais elevadas expectativas para o futuro é, sem dúvida, a da gravura de autoria integral – concebida, entalhada e impressa pelo próprio artista. Suas origens remontam ao período Meiji, com precursores e pioneiros como Yamamoto Kanae e Tobari Kogan. A partir deles, essa nova forma de gravura floresceu, culminando na formação da Associação Japonesa de Gravura Criativa em 1918. O fato de a gravura moderna ter ascendido em meados do período Taisho deve-se, portanto, tanto ao surgimento dessa associação quanto à produção já consolidada de artistas da vertente do *ukiyo-e*, como Goyo e Shinsui.
-
-Na gravura de autoria integral, cada artista, com total liberdade, dedica-se a conceber composições que explorem o potencial da mídia, a revelar no entalhe o toque único de suas ferramentas e a manifestar, através da impressão, toda a beleza cromática da gravura. É precisamente por isso que a gravura moderna possui tão vasta dimensão artística e um futuro tão promissor.
-
-As gravuras *ukiyo-e*, produzidas sob a égide de editores comerciais, eram geralmente feitas em um formato padrão chamado *ōban nishiki-e*, por conveniência, sendo por vezes combinadas em dípticos ou trípticos. A gravura moderna, ao contrário, é criada no tamanho que o artista deseja, resultando em uma grande variedade de dimensões, com obras de grande formato que possuem uma força expressiva correspondente.
-
-O *ukiyo-e* foi concebido para ser apreciado de perto, nas mãos do espectador, em um ambiente interno. A gravura moderna, por sua vez, é feita para ser contemplada em paredes, como um quadro. Por essa razão, os artistas desenvolvem técnicas que consideram o efeito visual a distância.
-
-Os artistas da gravura de autoria integral empregam métodos singulares em todas as etapas do processo – desenho, entalhe e impressão –, sem imitar os outros, o que lhes confere uma forte originalidade. Digno de nota é também o fato de não emularem as técnicas da gravura ocidental. A seguir, apresentamos alguns dos principais expoentes dessa vertente.
-
-Onchi Koshiro (恩地孝四郎) (1891-1955)
-Um dos pilares da gravura moderna, Onchi possuía profundo conhecimento de poesia e música, o que o levou a destacar-se de forma singular na gravura abstrata e não figurativa. Seu postulado artístico era emancipar a gravura da imitação da pintura, estabelecendo para ela um domínio estético próprio. Contudo, também produziu retratos e paisagens de excelência.
-
-Tezuka Kunimitsu (手塚富雄) (1895-1976)
-A característica distintiva das gravuras deste artista reside na maestria do contraste entre o preto e o branco, obtido por meio de sua técnica de entalhe, que ele considerava o ápice da arte da gravura. Obras como a torre de cinco andares do Templo Horyu-ji em *Início de Outono em Ikaruga* e os *Budas de Pedra de Usuki* são excelentes exemplos. Ele também produziu trabalhos coloridos, que possuem um encanto peculiar. Recentemente, publicou o livro *Sanmai Hanga*.
-
-Maekawa Senpan (前川千帆) (1888-1960)
-As gravuras do senhor Maekawa são dotadas de um profundo senso de sátira social, mas ele também criou paisagens de grande elegância. Sua obra é rica em originalidade.
-
-Kawanishi Hide (川西英) (1894-1981)
-Residente em Kobe, sua marca registrada é a combinação de cores claras e simples. Ele utiliza com habilidade as cores primárias – como vermelho, amarelo e anil – para criar uma tonalidade intensa e simplificada. Seu filho, Yusaburo, também produz gravuras com uma tendência similar à do pai, com resultados notáveis.
-
-Koizumi Kishio (小泉癸己男) (1893-1945)
-Como fruto de seu esforço monumental, deixou a série *Cem Vistas de Tóquio*. Com a intenção de rivalizar com as *Trinta e Seis Vistas do Monte Fuji* de Hokusai, ele iniciou uma série homônima, mas faleceu após completar vinte e três das gravuras. Sua obra possui um estilo característico.
-
-Hashimoto Okiie (橋本興家) (1899-1993)
-Tornou-se famoso por retratar em gravura os castelos ainda existentes no Japão. Muitas de suas obras são de grande formato e possuem um interesse particular.
-
-Kawakami Sumio (川上澄生) (1901-1972)
-Este artista produz e exibe suas gravuras apenas em exposições, o que resulta em muitas obras de grande escala e valor artístico. Sua produção, no entanto, é limitada.
-
-Katsuhira Tokushi (勝平得之) (1904-1971)
-Residindo na cidade de Akita, ele foi o artista que melhor expressou as particularidades regionais em suas gravuras. Suas obras de grande formato horizontal, que retratam as quatro estações na vida de uma família de agricultores, e a série sobre os dez costumes de Akita são trabalhos excepcionais. *Lírios-aranha* é uma das peças mais notáveis desta última série.
-
-Munakata Shiko (棟方志功) (1903-1975)
-Um artista de talento genial, Munakata aborda temas relacionados ao budismo, expressando-os de forma audaciosa em preto e branco. Seu estilo é ao mesmo tempo simples, rústico e pleno de uma energia avassaladora, tendo criado uma linguagem artística única. Algumas de suas gravuras em preto e branco são coloridas pelo verso com pinceladas de cores fortes, o que, visto pela frente, produz uma tonalidade suave e interessante.
-
-Saito Kiyoshi (斎藤清) (1907-1997)
-Recentemente, tem apresentado uma sucessão de obras com uma nova sensibilidade, que atraíram a atenção de estrangeiros e receberam críticas favoráveis. Sua obra *Inverno em Aizu*, embora de uma tendência distinta, faz parte de uma série de nove gravuras. Utilizando apenas *sumi* escuro e claro, ele expressa a paisagem nevada com máxima eficácia.
-
-Shinagawa Takumi (品川工) (1908-2009)
-Um artista de fina sensibilidade, cria novas gravuras de caráter abstrato e é bastante promissor. Em *Budas de Pedra*, ele busca expressar a beleza da ruína, utilizando tons de amarelo e verde com grande riqueza artística.
-
-Sekino Junichiro (関野準一郎) (1914-1988)
-Além da xilogravura, destaca-se também na técnica da água-forte. Entre suas obras-primas em xilogravura estão os retratos de Takahama Kyoshi e Kichiemon, bem como *Bungo nos Bastidores*. Esta última é uma obra de grande formato, cuja composição, que combina o rosto do boneco e o do mestre manipulador Bungoro, é fascinante, e a harmonia geral das cores é excelente.
-
-Kitaoka Fumio (北岡文雄) (1918-2007)
-Um artista da nova geração, seu estilo varia consideravelmente, e ele possui obras dignas de apreciação.
 
 ---
 

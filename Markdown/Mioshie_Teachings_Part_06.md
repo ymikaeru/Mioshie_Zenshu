@@ -1,9 +1,125 @@
 # Mioshie_Teachings - Part 6
 
+# Ensinamentos em Diálogo
+
+**Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年3月13日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
+
+## Ensinamentos em Diálogo
+
+**P: Haveria alguma relação entre a linhagem espiritual e o tipo sanguíneo?**
+
+Não, não há qualquer relação. A linhagem espiritual é una e imutável; já a linhagem sanguínea, em contrapartida, torna-se confusa e desordenada através da miscigenação. A Verdade, por analogia, é um princípio constante e invariável. Por exemplo, o fato de o Sol nascer no Leste e se pôr no Oeste é uma verdade que jamais se alterou desde os tempos mais remotos. A moral, todavia, está em perpétua transformação. A ideologia de lealdade ao imperador, tão presente durante a guerra, hoje desapareceu por completo. Ocorre o mesmo com as linhagens: a espiritual é perene, enquanto a sanguínea se modifica.
+
+**P: Por que o calor solar é mais intenso em baixas altitudes e mais perceptível próximo ao solo?**
+
+Na realidade, o que ocorre é o inverso. O calor solar é, na verdade, mais fraco em baixas altitudes. A ideia de que o solo é aquecido por absorver o calor do Sol é um equívoco; o calor provém do interior da Terra. O calor geotérmico é consideravelmente mais intenso que o solar. Prova disso é que, quanto maior a altitude de uma montanha, mais fria ela se torna, pois se distancia da fonte de calor terrestre. Isso demonstra que o calor do Sol é relativamente brando. É também por essa razão que a neve acumulada começa a derreter pela camada inferior. Contudo, quando o calor solar e o geotérmico se unem, sua força se intensifica.
+
+É por isso que, ao cavarmos um pouco abaixo da superfície, o local se torna fresco, pois nos afastamos da incidência solar. Mas isso ocorre apenas até certa profundidade; a partir daí, a temperatura aumenta progressivamente, a ponto de derreter até mesmo o ferro. Se pudéssemos cavar tão fundo, não precisaríamos de navios para ir à América; bastaria construir um túnel e usar elevadores. (Risos) O centro da Terra é uma massa incandescente.
+
+É esse o princípio por trás das fontes termais. A água subterrânea que flui por fissuras nas rochas é aquecida pelo calor da Terra e emerge à superfície. As águas de Hakone, por exemplo, são de montanha, mas as de Atami são subterrâneas, correndo como um rio a cerca de trezentos metros de profundidade. Pode-se estimar que esse rio de águas termais tenha entre vinte e quarenta metros de largura. Se o leito rochoso por onde passa contém minerais, elementos como ferro e enxofre se dissolvem na água. Eis a origem das chamadas fontes minerais, ricas em ferro ou compostos sulfurosos.
+
+Pretendo, em breve, perfurar em busca de uma fonte termal em nossa propriedade agrícola. Tenho bastante confiança de que a encontraremos. Há maneiras de identificar onde as águas termais brotam. Primeiramente, observa-se a vegetação local: as árvores parecem sem vigor e têm uma tonalidade acastanhada, efeito do enxofre. O solo também é completamente diferente, e a própria água da região revela sua natureza. Ao perfurar, a partir de certa profundidade, encontramos rochas impregnadas de ferro e enxofre. Mais abaixo, as rochas se assemelham a blocos de ferro puro. Alguém já tentou perfurar naquela área, mas o fez em um afluente do rio termal e não obteve sucesso. A corrente principal, mais robusta, localiza-se mais ao fundo. Desta vez, pretendo perfurar diretamente no veio principal.
+
+**P: As profundezas do oceano são quentes?**
+
+Não, são igualmente frias. O espírito da água tem a propriedade de resfriar e, à medida que se adentra as camadas mais profundas, sua concentração aumenta, tornando o ambiente mais frio. Além disso, os gases geotérmicos possuem uma força considerável. No futuro, eles se tornarão a principal fonte de energia motriz.
+
+**P: Gostaria de saber qual a diferença entre o Elemento Fogo que emana de Deus Supremo e o que emana do Sol.**
+
+São a mesma coisa. O Elemento Fogo é a energia espiritual do Sol. A fonte primordial do calor é o Sol, e o Sol é o corpo divino de Deus Supremo; portanto, a atuação do calor de Deus se manifesta como o Sol. Numa analogia matrimonial, o Sol seria o masculino e a Lua, o feminino. A humanidade vive pela irradiação da energia espiritual de ambos. Com o advento do Mundo do Dia, o Elemento Fogo se tornará ainda mais intenso. Contudo, embora o fogo seja espírito, o Elemento Fogo é o espírito do espírito; por essa razão, sua manifestação física no Mundo Material não é tão evidente. Ainda assim, é possível percebê-lo em certa medida. De fato, quando ministro Johrei, algumas pessoas exclamam: “Que calor, que calor!”, e todos comentam que o ambiente onde me encontro é sempre aquecido.
+
+**P: A Lua é um corpo sólido ou líquido? Se for sólida, estaria congelada?**
+
+Exatamente. A Lua é um bloco de gelo. E dela também emana uma energia espiritual, uma poderosíssima essência de Água. Sem ela, os seres humanos simplesmente se desintegrariam pelo calor.
+
+**P: Uma mulher de trinta e nove anos, após um resfriado, foi perdendo a voz gradualmente. Depois de receber Johrei por duas semanas, ela retornou ao mesmo estado do início da doença, com febre e dor. Qual a sua orientação?**
+
+Isso é excelente. Significa que as toxinas que estavam solidificadas começaram a se dissolver. Ela será curada. A voz é produzida pela vibração de pregas vocais; uma vibração sutil gera um som agudo, enquanto uma vibração mais branda produz uma voz grave e baixa. No caso dela, formou-se um acúmulo de toxinas na base dessas pregas, impedindo a fala. Ao dissolvermos essa massa, a voz retornará.
+
+**P: O avô dessa pessoa estrangulou um gato no passado, e a tia dela sofre do mesmo problema. Suspeitamos de uma causa espiritual...**
+
+Certamente. O apego do gato ainda não se dissipou por completo. Por isso, é preciso ministrar Johrei intensamente na fronte e na garganta dela.
+
+**P: A paciente apresenta febre alta na testa e na região das glândulas parótidas. Ontem, seu maxilar inferior inchou a ponto de ela não conseguir baixar a cabeça.**
+
+Isso é um ótimo sinal. Costuma-se falar em doenças espirituais, mas o corpo espiritual e o corpo físico são unos e indivisíveis. Um espírito só consegue se manifestar onde há máculas. Portanto, ao ministrarmos Johrei, as máculas são purificadas, e o espírito não consegue mais se fixar ali.
+
+**P: Ao entronizarmos uma Caligrafia Sagrada emoldurada, qual a ordem e a posição corretas?**
+
+Ela não deve ser colocada exatamente acima da alcova ornamental (tokonoma). Escolha o melhor lugar disponível, com exceção desse ponto central. Um local ideal seria sobre as prateleiras assimétricas (chigai-dana). Uma regra importante: onde houver uma caligrafia minha, não se deve pendurar fotografias de outras pessoas ou obras caligráficas de outros autores.
+
+**P: E em um espaço pequeno, sem essas prateleiras?**
+
+Se não houver um local realmente adequado, pode-se pendurá-la em uma das extremidades da alcova principal.
+
+**P: Qual a ordem correta para caligrafias como “Sol e Lua” e “Paraíso Terrestre”?**
+
+A disposição não pode ser aleatória. As palavras que escrevo estão vivas; são organismos. É preciso, portanto, considerar a hierarquia. “Sol e Lua” deve ficar no topo. “Mundo de Luz” viria logo abaixo. “Paraíso Terrestre” pode vir depois de “Mundo de Luz”. “Dragão Divino” pode ficar bem mais abaixo. As caligrafias com dragões devem ficar em posição inferior, pois os dragões estão abaixo dos seres humanos. “Luz de Kannon” — Kannon (観音) é um buda, e a luz de um buda não precisa estar em uma posição tão elevada; pode vir depois de “Paraíso Terrestre”. Já “Mundo Divino” deve estar bem no alto, pois se refere ao mundo de Deus. “Terra Pura e Luminosa” pode ficar mais abaixo. “Vento Divino”, por ser vento, pode ser colocado em qualquer lugar.
+
+**P: Sobre os corvos: (1) Dizem que seu grasnido pode prever boa ou má sorte. Isso é verdade? (2) Afirmam que os corvos têm uma espiritualidade elevada. Por que, então, sua voz e aparência não são tão belas?**
+
+(1) Sim, é possível compreender seus chamados. Há pessoas com grande sensibilidade para isso, capazes de dizer: “Agora o corvo está chamando seus companheiros”, e geralmente acertam. Na verdade, isso se aplica a qualquer pássaro, mas é especialmente notável nos corvos. A crença de que o grasnido de um corvo anuncia a morte de alguém também é verdadeira.
+
+(2) Os corvos possuem uma espiritualidade elevada e uma intuição aguçada. Desde a antiguidade, são considerados mensageiros de Amaterasu Oomikami, pois têm uma profunda conexão com o Sol. No Mundo Espiritual, os corvos se tornam *karasu-tengu* e, entre as aves, ocupam a mais alta hierarquia, encarregando-se de todas as tarefas divinas. Meu espírito guardião secundário, aliás, é um corvo.
+
+**P: Mas muitas pessoas detestam o som que os corvos emitem...**
+
+Sim, a maioria das pessoas não gosta. Isso se deve ao fato de eles se alimentarem de carcaças e também por anunciarem a morte de alguém com seu grasnido.
+
+**P: Se possuem uma espiritualidade tão elevada, por que são tão malquistos?**
+
+É o ser humano que os rejeita. Os seres humanos, em geral, não compreendem nada. Observe uma gueixa, por exemplo. Ela parece esplêndida, bela e refinada, ao menos na aparência. Na prática, contudo, elas são a origem de inúmeros conflitos familiares. (Risos) Na verdade, aquilo que o homem considera bom costuma ser mau, e o oposto também ocorre com frequência.
+
+**P: Qual o nível de educação superior que uma mulher deveria almejar?**
+
+É preferível que recebam a melhor educação possível, ao menos até o nível de uma universidade feminina. Um baixo nível de instrução resulta em falta de capacidade de compreensão, o que é um problema. Na prática, é muito raro encontrar uma mulher com quem se possa ter uma conversa substancial. O nível dos homens já é baixo, mas o das mulheres é ainda mais. A maioria das pessoas deveria, no mínimo, cursar uma universidade. O problema é que o sistema educacional atual é ineficiente e leva o dobro do tempo necessário. Se fosse bem estruturado, o período de estudos poderia ser reduzido à metade. Uma duração tão longa acarreta diversos inconvenientes. Os homens também precisam ser intelectuais. Aqueles que não o são carecem de discernimento, e conversar com eles não tem o menor interesse.
+
+**P: Parece que, entre os filhos, o mais novo costuma ser mais brilhante que o mais velho. Qual a razão para isso?**
+
+Os filhos refletem os pais. Na época em que nasce o primogênito, os pais ainda são menos experientes. Quando nasce o caçula, eles já acumularam mais vivência e sabedoria, e isso se reflete na criança, que se torna mais inteligente. Há outro fator: o primeiro filho, por não ter grandes estímulos, tende a ser mais apático. É por isso que no Japão existe o ditado sobre “o primogênito simplório”. Embora não tenhamos estatísticas sobre isso no Japão, no Ocidente há dados que mostram que famílias com muitos filhos produzem mais indivíduos notáveis. Isso ocorre porque, em lares numerosos, o tratamento dispensado às crianças pode ser menos favorável, o que acaba por lapidá-las.
+
+**P: Qual o significado do gesto de unir as mãos em oração?**
+
+É um gesto natural. Embora se criem diversas teorias, trata-se de algo que ocorre espontaneamente, assim como inclinar a cabeça em sinal de cumprimento.
+
+**P: Qual é o fundamento teórico dos ateus?**
+
+É a visão materialista, a ideia de que “o que não se vê não existe”. Por isso, escrevi certa vez em um livro: “É mais difícil fazer um homem civilizado de hoje acreditar na existência do espírito do que explicar a um selvagem a existência do ar”. Há ainda outro fator: a negação por parte do espírito guardião secundário. Existem pessoas que, mesmo compreendendo perfeitamente e se maravilhando com as curas operadas pelo Johrei, simplesmente não conseguem aceitar a fé. Nesses casos, a causa é invariavelmente a interferência do guardião secundário, que lhes sussurra: “Como algo tão absurdo poderia ser verdade?”, obstruindo o caminho. Com o avanço para o Mundo do Dia, o poder do espírito guardião secundário diminuirá, e todos, sem exceção, passarão a crer no espírito. É por essa mesma razão que a Obra Divina se expande em certos lugares e em outros não. Onde há expansão, a luz já chegou; onde não há, a escuridão ainda prevalece.
+
+**P: Uma mulher de trinta e dois anos sofreu uma queimadura aos quatro, ao cair em uma lareira de chão. Desde então, seu abdômen começou a crescer. Há alguns anos, foi diagnosticada com um cisto ovariano purulento e passou por uma cirurgia. Ela pode ser curada pelo Johrei?**
+
+Não creio que a causa seja a queimadura. Não se trata de uma peritonite? Observe com atenção. Se fosse peritonite, o abdômen estaria inchado de forma uniforme. Sendo um cisto, o inchaço é mais abrupto. [Meishu-Sama demonstra os formatos com as mãos]. Se ela não tivesse sido operada, a cura seria completa. Como houve uma intervenção cirúrgica, talvez não seja possível restaurar seu estado original, mas ela alcançará uma recuperação considerável.
+
+**P: Poderia nos instruir sobre o Espírito Divino Primordial e as Quatro Almas?**
+
+Esta é uma pergunta frequente. As Quatro Almas são: *Aramitama* (alma rude), *Kushimitama* (alma prodigiosa), *Sakimitama* (alma abençoadora) e *Nigimitama* (alma harmoniosa). *Aramitama* representa a coragem. No seu aspecto positivo, é bravura; no negativo, manifesta-se em um assaltante, por exemplo. *Kushimitama* é a sabedoria, que também possui um lado bom e um lado mau. Naturalmente, deve ser a sabedoria elevada, e não a astúcia ou a sagacidade. *Sakimitama* é a compaixão, o desejo de fazer os outros felizes. E *Nigimitama* é a harmonia, a capacidade de se relacionar bem com os outros, de não se irar. O ideal é que essas quatro almas atuem de forma equilibrada no ser humano. Alguém que as possua em sua plenitude é um ser extraordinário. Mas pessoas assim são praticamente inexistentes. A maioria possui, no máximo, três ou duas almas. A grande parte das pessoas possui apenas uma.
+
+**P: Minha filha estuda em uma escola missionária...**
+
+Sim, não há problema algum.
+
+**P: Na escola, ela reverencia Cristo, e em casa, Kannon (観音). Isso me parece um tanto...**
+
+Cristo e Kannon (観音) são o mesmo. Cristo é o Kannon (観音) do Ocidente, e Kannon (観音) é o Cristo do Oriente. Pense nisso da mesma forma que sua filha veste roupas ocidentais ou trajes japoneses. (Risos) Há um poema que compus sobre isso:
+
+*Kannon, Miroku, Messias ou Cristo,*
+*São todos Deus em forma humana manifesto.*
+
+Como vê, são a mesma coisa.
+
+**P: Nesse caso, qual a relação entre Cristo e Jesus?**
+
+Sobre isso, ainda não posso falar com clareza. Quando chegar o momento certo, tudo será compreendido.
+
+---
+
 # Esclarecimentos sobre Causas Espirituais e Físicas
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年12月25日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre Causas Espirituais e Físicas
 
@@ -59,6 +175,7 @@ Nos relatos de graça, é comum encontrar a frase: "Fiz tudo o que as pessoas di
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年5月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 妙智之光 | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1949-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos sobre a Fé e a Vida
 
@@ -198,6 +315,7 @@ A salvação que eu trago agora, entretanto, é a luz do Sol, que é sessenta ve
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年5月28日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Sobre o Matrimônio, a Justiça Divina e a Salvação
 
@@ -271,6 +389,7 @@ O melhor é aguardar o tempo certo. Não é o ser humano que faz o outro compree
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年2月8日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年1月28日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1949-02-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Diálogos sobre Matrimônio, Fé e os Mistérios da Vida
 
@@ -421,6 +540,7 @@ Em suma, o sumo sacerdote perguntou se ele era o Filho de Deus. Jesus respondeu:
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年6月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1951-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos Divinos
 
@@ -510,6 +630,7 @@ Tal condição se deve ao fato de, em uma vida pregressa, essa pessoa ter sido u
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月10日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年5月3日） | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1949-07-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Fé e a Vida Cotidiana
 
@@ -627,6 +748,7 @@ Além disso, a vibração não deve ser ampla. O movimento deve ser sutil e ráp
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年6月7日 | **Fonte:** 会報
 **Título Original:** 妙智の鍵 光明分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-06-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -800,6 +922,7 @@ Enterrem-nos em um local onde não sejam pisoteados, entoem a Oração Amatsu-No
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年9月28日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** - | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos sobre a Vida e o Mundo Espiritual
 
@@ -907,6 +1030,7 @@ Certamente. Ela buscará vingança. Quando encontro uma serpente, peço que a ma
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年5月25日 | **Fonte:** 会報
 **Título Original:** 無碍光 直心分会 | **Status:** Published | **Edição/Página:** ４号 | **Data ISO:** 1949-05-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Esclarecimentos sobre Diversas Questões da Fé
 
@@ -964,6 +1088,7 @@ R: Mesmo após a consagração principal, o altar de Inari deveria ter sido mant
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年8月18日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Orientações sobre Purificação e Causas Espirituais
 
@@ -1079,6 +1204,7 @@ Os antepassados desejavam ser cultuados e também fizeram esse pedido. O fluxo d
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年4月28日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Respostas às Indagações da Fé
 
@@ -1120,6 +1246,7 @@ Quando falo em condicionamento espiritual, refiro-me à ação do Espírito Prot
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年11月8日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Esclarecimentos Divinos sobre o Bem, o Mal e a Prática da Fé
 
@@ -1509,6 +1636,7 @@ Pode, mas, nesses casos, seria bom entoar também a Oração Amatsu-Norito e o S
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年7月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 50号 | **Data ISO:** 1953-07-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Consultas e Orientações Divinas
 
@@ -1627,6 +1755,7 @@ Após dialogarmos longamente com o espírito, explicando-lhe os Ensinamentos da 
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年8月21日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre a Purificação da Febre Tifoide
 
@@ -1666,6 +1795,7 @@ O medicamento solidificou-se nesses locais que doem sob pressão; portanto, bast
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年9月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 妙智之光 | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1949-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Perguntas e Respostas
 
@@ -1764,6 +1894,7 @@ R: Antigamente, nos campos de batalha, os exércitos hasteavam estandartes. Se e
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年9月21日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年6月13日） | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1949-09-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## A Força da Palavra e a Prática da Fé
 
@@ -1914,6 +2045,7 @@ Do ponto de vista do Kototama, o nome Hakone (箱根) se decompõe em: "Ha" (ハ
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年6月20日 | **Fonte:** 会報
 **Título Original:** 無碍光 直心分会 | **Status:** Published | **Edição/Página:** ５号 | **Data ISO:** 1949-06-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Esclarecimentos sobre Diversas Questões
 
@@ -1993,6 +2125,7 @@ Significa “jubiloso”, “louvar”, “exaltar”.
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年2月27日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre a Purificação e o Mundo Espiritual
 
@@ -2089,6 +2222,7 @@ Essa é a causa. O que ela está sofrendo é uma advertência por sua atitude. S
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年2月18日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Os Eclipses e o Destino Humano
 
@@ -2102,6 +2236,7 @@ Existe, de fato, alguma relação; contudo, ela não possui maior relevância. A
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年4月4日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Prática da Fé
 
@@ -2199,6 +2334,7 @@ Não se trata de uma cura verdadeira. O cigarro estimula a tosse, e é fato que,
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年1月8日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S23年12月28日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1949-01-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Fé e a Vida
 
@@ -2314,6 +2450,7 @@ Isso não é uma técnica de cura espiritual, mas uma prática de religiões com
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年2月18日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Fé e os Princípios da Vida
 
@@ -2497,6 +2634,7 @@ O sete representa a terra, portanto essa combinação não é correta. O certo n
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年11月15日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Orientações sobre Purificações e Pontos Vitais
 
@@ -2564,6 +2702,7 @@ O que vemos agora é a soma das toxinas originais com as toxinas medicinais. O f
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年4月21日 | **Fonte:** 会報
 **Título Original:** 妙智の鍵 光明分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-04-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Esclarecimentos sobre Questões Diversas
 
@@ -2625,6 +2764,7 @@ Todos os parentes consanguíneos possuem uma ligação espiritual. A exceção o
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年3月15日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre Enfermidades e a Prática do Johrei
 
@@ -2668,6 +2808,7 @@ Com perseverança, a cura virá gradualmente. Casos como este costumam levar ano
 
 **Categoria:** situmon | **Ano:** 昭和23(1948)年12月 | **Fonte:** 会報
 **Título Original:** 信仰余話 直心分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1948-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Manifestações do Mundo Espiritual no Cotidiano
 
@@ -2707,6 +2848,7 @@ Já as marcas escuras representam o espírito de ressentimento. Frequentemente, 
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年10月11日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Purificação do Yakudoku e a Atuação do Mundo Espiritual
 
@@ -2792,6 +2934,7 @@ Está excelente assim.
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年2月7日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Esclarecimentos sobre Purificações e Causas Espirituais
 
@@ -2846,6 +2989,7 @@ Dediquem-se de corpo e alma a salvar as pessoas. Acumulem virtude. Agindo assim,
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年1月8日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S23年12月8日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1949-01-08
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Prática da Fé e a Visão da Arte
 
@@ -2957,6 +3101,7 @@ Isso se diz porque Hidari Jingoro era canhoto. Existem canhotos cujo espírito e
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年3月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 22号 | **Data ISO:** 1951-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Esclarecimentos sobre a Fé e o Espírito
 
@@ -3048,6 +3193,7 @@ O Amuleto Sagrado de nossa Igreja está vivo, e, por isso, exige o máximo de cu
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年11月8日A） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos sobre a Fé e o Mundo
 
@@ -3147,6 +3293,7 @@ Na arte, a pintura a nanquim é espírito, e a pintura colorida é matéria. A c
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S28年3月1日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Orientações sobre a Agricultura Natural e a Transição para a Era do Dia
 

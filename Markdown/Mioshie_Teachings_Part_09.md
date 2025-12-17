@@ -1,9 +1,174 @@
 # Mioshie_Teachings - Part 9
 
+# Questões e Respostas sobre os Princípios Divinos
+
+**Categoria:** situmon | **Ano:** 昭和25(1950)年1月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 妙智之光 | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1950-01-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
+
+## Questões e Respostas sobre os Princípios Divinos
+
+**Pergunta:** Qual o significado do grande mérito de “Felicidade e Longevidade Vastas como o Oceano”?
+
+**Resposta:** Trata-se de uma expressão adjetiva, originária do Sutra de Kannon. Nela, “Felicidade” representa os bens materiais; “Longevidade”, a extensão da vida; e “Vastas como o Oceano”, o infinito. A síntese desses elementos constitui o que se denomina “grande mérito”.
+
+**Pergunta:** Poderia elucidar sobre Kannon?
+
+**Resposta:** Kannon (観音), em sânscrito *Avalokiteshvara*, é um termo que foi traduzido como *Kanzeon* pelo erudito chinês Kumarajiva, e posteriormente abreviado para Kannon. A análise dos três ideogramas que compõem *Kanzeon* revela um significado profundo.
+
+*Kan* (観) remete à ideia de observar ou contemplar objetivamente. Na verdade, o seu sentido primordial remonta a uma era ancestral, quando a deidade que constitui a essência do Bodhisattva, Izunome-no-Kami, foi subjugada pela Princesa do Palácio do Dragão, Otohime. Desde então, Ela passou a observar o mundo dominado por Otohime.
+
+Ameaçada por Susanoo-no-Mikoto, Izunome-no-Kami refugiou-se na Índia, e, em Sua ausência, Susanoo-no-Mikoto passou a governar o Japão. Sendo Susanoo-no-Mikoto o irmão mais novo de Amaterassu-Omikami, sua esposa era chamada de *ototo-hime* (princesa mais nova), termo que se contraiu para Otohime e também era grafado como Otone-hime.
+
+Otohime era uma divindade de forte apego material. Em virtude dessa cobiça, transformou-se em um deus-dragão e permaneceu oculta nas profundezas do oceano por um longo período. Foi com o seu auxílio que Daijizaiten dominou a Índia antiga, época em que surgiu o nome alternativo para Kannon: *Kanjizai*, que significa “aquele que tudo vê livremente”.
+
+Posteriormente, Otohime estabeleceu o seu Palácio do Dragão, o *Ryugu-jo* (龍宮城), em uma costa da Coreia, passando a ser conhecida como a Princesa do Palácio do Dragão. Sua corte era composta exclusivamente por servas, pois, durante sua ausência, Susanoo-no-Mikoto tomou uma segunda esposa no Japão, chamada Wakahimegimi. Incapaz de suportar a solidão, Otohime acolheu Urashima Taro, um jovem e belo pescador japonês que naufragara na Coreia, tornando-o, possivelmente, seu jovem amante. As relações entre homens e mulheres naquela era parecem ter sido consideravelmente desregradas.
+
+**Pergunta:** Deus realiza o desdobramento espiritual. Os espíritos humanos, animais e vegetais também o fazem?
+
+**Resposta:** O desdobramento espiritual ocorre em toda a Criação, incluindo animais e plantas. Contudo, quanto mais elevada é a existência, maior a abrangência, a quantidade e o número de suas emanações. Nesse sentido, o Deus Supremo que rege o Universo se desdobra em todas as coisas. Por esse princípio, é natural que uma divindade realize o desdobramento espiritual.
+
+Embora nos refiramos a todos como “espíritos”, os dos animais são classificados como espírito vital e espírito pós-morte. O espírito humano é denominado espírito primordial. O espírito das plantas é um intermediário entre o orgânico e o inorgânico. O dos minerais é simplesmente chamado de espírito.
+
+A morte é uma realidade para tudo o que existe, não se limitando aos seres animados. Até mesmo as pedras possuem vida e morte; quando seu espírito se esvai, elas se desfazem em pó. Shakyamuni postulou que “tudo é vazio”. Essa visão, contudo, surge quando se desconsidera o espírito e se analisa apenas a matéria, resultando na conclusão de que tudo é vácuo. É esse o ensinamento da Seicho-no-Ie, que prega a inexistência de tudo. Consta que, certa vez, ao ser interpelado pela polícia, o Sr. Taniguchi, ao afirmar a tese da inexistência universal, ficou em apuros quando lhe perguntaram sobre o destino do Estado nesse contexto.
+
+**Pergunta:** Por que há tantos casos de enfermidades mentais entre artistas geniais, como Schumann e van Gogh?
+
+**Resposta:** Não é que haja, necessariamente, uma prevalência de enfermidades mentais entre os artistas geniais. Embora se diga que a genialidade e a loucura são separadas por uma linha tênue, o que ocorre é que o gênio, por sua natureza peculiar, muitas vezes é percebido como alguém mentalmente instável aos olhos das pessoas comuns.
+
+Os casos de verdadeira psicopatologia são raros. Indivíduos como Schumann e van Gogh, de fato, sofriam de uma enfermidade real. Entre os escritores recentes, também existem aqueles com comportamentos análogos, mas frequentemente são usuários de substâncias como Hiropon e Adorm, o que os torna casos de enfermidades mentais autoinduzidas.
+
+Originalmente, o artista é um ser idiossincrático. Ao receber uma inspiração, ele pode sair subitamente ou fixar o olhar em um único ponto por tempo prolongado. Tais comportamentos parecem, para o observador comum, manifestações de loucura. Contudo, os grandes mestres da arte são, na verdade, detentores de um profundo bom-senso. A perspectiva de artistas como Korin, por exemplo, é extremamente lúcida. Suas pinturas, embora pareçam audaciosas e espontâneas, são executadas com uma perfeição impecável, sem uma única falha, o que inspira profunda admiração.
+
+**Pergunta:** Diz-se que o formato das orelhas está relacionado à felicidade ou ao infortúnio. Isso tem algum fundamento?
+
+**Resposta:** Indubitavelmente, há uma correlação com a felicidade ou o infortúnio. Isso não se aplica apenas às orelhas, mas também à boca, aos olhos e ao nariz. Contudo, por suas características distintas, as orelhas são a parte do corpo cujo formato permite uma avaliação mais clara. Um estudo aprofundado revela sua conexão com o destino.
+
+Diz-se que lóbulos grandes são sinal de riqueza futura. Como os meus são grandes, disseram-me que eu enriqueceria grandemente, mas passei por muitas dificuldades com pobreza e dívidas. Hoje, embora em um contexto público, não tenho mais preocupações financeiras. Acho que, no fim, a previsão se concretizou. As estátuas de Buda também são representadas com lóbulos longos e pendentes, pois essa é considerada uma característica auspiciosa.
+
+**Pergunta:** Qual o grau de conexão entre a personalidade de uma pessoa e a personalidade de seu espírito?
+
+**Resposta:** Não se trata de uma “conexão” entre as personalidades do corpo espiritual e do corpo físico; elas não são distintas. A personalidade do espírito é a origem de tudo, e, em geral, corpo e espírito estão em consonância.
+
+O ser humano possui uma consciência virtuosa e uma consciência maligna. A maioria das pessoas tem uma dupla personalidade; a diferença reside apenas no grau em que essa dualidade se manifesta. A hesitação nada mais é do que o conflito entre a vontade do espírito secundário e a do espírito primordial. Quando a mente está enuviada, a alma fica obstruída e sua força não consegue se manifestar.
+
+Normalmente, os pensamentos do espírito secundário protetor prevalecem, mas, por serem de natureza maligna, conduzem ao fracasso e ao arrependimento. É por esse motivo que alguém afirmou: “A vida é uma sucessão de fracassos”. O sofrimento decorrente do erro purifica as máculas e permite que a força da alma se manifeste. Com a atuação da alma, o discernimento entre o certo e o errado, o bem e o mal, torna-se preciso, levando ao sucesso. Portanto, o ditado “O fracasso é a mãe do sucesso” se fundamenta nesse princípio.
+
+**Pergunta:** Qual o significado da contemplação da Lua na décima quinta e na décima terceira noites? E por que se oferecem ramos de capim-dos-pampas?
+
+**Resposta:** A décima quinta noite, como se sabe, é o momento em que a Lua atinge sua plenitude, quando sua influência sobre a umidade e sua luminosidade chegam ao ápice. Essa força é mais intensa no décimo quinto dia do oitavo mês do calendário antigo.
+
+A décima terceira noite tem um significado búdico. O número treze é frequentemente utilizado no budismo com diversas conotações, como nos Treze Budas ou nas pagodas de treze andares. A Lua também é celebrada na décima terceira noite, assim como na vigésima sexta. O número quinze representa o apogeu, o momento que precede o declínio; por isso, o número treze é considerado extremamente auspicioso. Ademais, o Buda da Medicina, Yakushi Nyorai, possui doze generais divinos sob seu comando, que, somados a ele, totalizam treze.
+
+O cristianismo, por sua vez, considera o treze um número nefasto, pois a sexta-feira treze foi o dia da Paixão de Cristo. Curiosamente, na história do Ocidente, de fato, muitos eventos funestos parecem ter ocorrido no dia treze.
+
+Quanto ao capim-dos-pampas (*susuki*), ele é utilizado porque sua floração atinge o auge na época da décima quinta noite, criando um belo contraste com a Lua.
+
+**Pergunta:** Qual a relação mútua entre o Sol, a Lua, as estrelas e a Terra?
+
+**Resposta:** O centro do Universo é a Terra, e ela se encontra em seu âmago. A vida existe dentro da Terra; nos demais corpos celestes, não há seres vivos. Tudo o que existe foi criado para a Terra — ou melhor, para a humanidade. O propósito de Deus é nutrir e promover o progresso e o desenvolvimento da raça humana na Terra.
+
+Para a consecução desse objetivo, existem as três forças primordiais: Fogo, Água e Solo. O Sol, a Lua, a Terra e os astros celestes existem todos em função desse propósito.
+
+O Sol é uma massa de fogo; a Lua, uma massa de água — mais precisamente, a essência da água em estado sólido, ou seja, gelo. Devido ao calor solar, a Lua emana umidade constantemente. É por isso que, em noites de luar, a concentração de hidrogênio é particularmente alta. Em cada era, surgem invariavelmente pessoas que correspondem às influências do Sol, da Lua e dos astros.
+
+O Céu e a Terra são como espelhos postos face a face: tudo o que existe no Céu se reflete na Terra.
+
+Todas as coisas necessitam de um centro. A mancha solar é um exemplo disso, e o símbolo ◎ é seu ideograma representativo, análogo à semente de um fruto. A Lua não possui um centro, pois é um corpo subordinado ao Sol, cumprindo uma função feminina. Embora se fale em igualdade de direitos, espiritualmente, o homem é o elemento principal. A missão primordial da mulher é gerar filhos, e, em segundo lugar, auxiliar seu marido. Sua função é, em última análise, complementar.
+
+As estrelas são extremamente numerosas, e as estrelas escuras superam em muito as luminosas. Quando uma estrela escura se solidifica, ela começa a brilhar — é o que se chama de descoberta de uma nova estrela. Quando uma estrela se fragmenta, torna-se um meteoro. O meteorito nada mais é do que um fragmento de estrela. O número de estrelas corresponde ao número de seres humanos; na época da Criação, havia muito menos estrelas. Os cientistas afirmam que os raios cósmicos penetram nos locais mais profundos, mas as linhas espirituais atravessam até o centro da Terra.
+
+**Pergunta:** O que é a Joia Mani?
+
+**Resposta:** A Joia Mani, no budismo, é chamada de *Nyoi Hoju* (如意宝珠), a “joia que realiza desejos”. Uma das manifestações de Kannon-Sama, a *Nyoirin Kannon*, está relacionada a ela. No xintoísmo, é conhecida como *Ihotsu Misumaru no Tama*. Em essência, ela representa a alma de Kannon-Sama.
+
+**Pergunta:** Durante as preleções, são citados os seguintes trechos bíblicos: “Vede que ninguém vos engane. Porque virão muitos em meu nome, dizendo: ‘Eu sou o Cristo’, e dirão: ‘O tempo está próximo’, e enganarão a muitos. Mas ainda não é o fim”. “Porque surgirão falsos cristos e falsos profetas, e farão tão grandes sinais e prodígios que, se possível fora, enganariam até os escolhidos”. Jesus perguntou: “E vós, quem dizeis que eu sou?” E Simão Pedro, respondendo, disse: “Tu és o Cristo”. E Jesus, respondendo, disse-lhe: “Bem-aventurado és tu”. Qual a interpretação correta?
+
+**Resposta:** Isso está absolutamente correto. Até hoje, muitos surgiram reivindicando ser o Cristo redivivo, e essas palavras servem como um alerta. Há cerca de vinte anos, apareceu na Índia um homem de aproximadamente trinta anos chamado Sundar Singh, que conquistou milhões de seguidores. Ele realizava vários milagres, como caminhar sobre as águas, e, por um tempo, foi aclamado como o Cristo que retornou. Contudo, faleceu com pouco mais de trinta anos. Ele não era o verdadeiro.
+
+Essas palavras da Bíblia são algo que também gostaríamos de enfatizar em nossa religião. No Japão, ainda hoje, existem impostores. Muitos se autoproclamam a reencarnação de Amaterassu-Omikami. Com o surgimento de tantos falsos cristos, é inevitável que, quando o verdadeiro aparecer, ele seja inicialmente confundido com um farsante. Todavia, o aparecimento de um genuíno, contudo, será inevitavelmente reconhecido com o tempo.
+
+**Pergunta:** Qual a diferença entre o Poder de Kannon e o Poder Divino?
+
+**Resposta:** O Poder de Kannon representa a força suprema no âmbito búdico, mas o Poder Divino é imensamente superior.
+
+**Pergunta:** Dependendo da região, a placenta é enterrada em locais específicos. Se um animal for o primeiro a pisar sobre esse local, a pessoa passa a ter um medo terrível daquela espécie de animal. Há alguma razão para isso?
+
+**Resposta:** É um fenômeno temporário. Como a placenta, por ser um resíduo do parto, ainda possui alguma conexão espiritual, esse tipo de ocorrência é possível. Por isso, desde a antiguidade se recomenda enterrá-la onde as pessoas não costumam pisar.
+
+**Pergunta:** Qual a relação entre os espíritos de répteis e de gatos, e quais os sintomas que se manifestam no corpo?
+
+**Resposta:** Há muitos casos de pessoas sob a influência de espíritos de serpentes ou gatos, mas, em situações normais, é difícil identificá-los. Eles se tornam evidentes quando a pessoa adoece e manifesta sintomas anormais.
+
+No caso do espírito de serpente, pode tratar-se de uma influência espiritual negativa, da reencarnação de uma serpente ou da simples possessão por um espírito ofídico. Quando se trata da influência de um deus-dragão, a característica principal é uma sede intensa, que leva a pessoa a desejar água constantemente. Mulheres que são reencarnações de deusas-dragão tendem a rejeitar o casamento. Além disso, é possível identificar essa influência pelos traços faciais.
+
+A influência de espíritos de gatos é muito mais rara, afetando majoritariamente mulheres. Em homens, geralmente ocorre como uma represália de um espírito de gato que foi severamente maltratado. Quando se manifesta através de doença, é comum em crianças com difteria, sendo facilmente identificável por sintomas como fungar e apresentar um chiado na garganta. A difteria é, na maioria das vezes, causada por espíritos de gatos. Fora do contexto de doença, uma pessoa sob essa influência demonstra gosto por tocar shamisen ou por dançar.
+
+A asma pode ter alguma relação com gatos, mas não é uma regra. Geralmente, é um simples processo de purificação com pouca influência espiritual. Existem dois tipos: a asma cardíaca e a brônquica. A que se manifesta com tosse e falta de ar é a brônquica.
+
+**Pergunta:** Uma mulher de 31 anos sofre de sinusite. Há quatro ou cinco anos, ela teve uma melhora, mas desde então a passagem nasal ficou obstruída, a secreção cessou e hoje ela não consegue mais sentir cheiros. O Johrei pode curá-la?
+
+**Resposta:** Sim, pode ser curada. A melhora que ela experimentou não foi uma cura verdadeira, mas apenas uma solidificação do pus, o que causou os sintomas atuais. Na sinusite, as toxinas geralmente se acumulam em ambos os lados da base do nariz. Esse pus se origina na região do bulbo raquidiano e ali se concentra para ser expelido pelo nariz. Portanto, ao ministrar Johrei no bulbo, a passagem nasal se desobstrui e a cura ocorre.
+
+Há uma forte relação entre o cerebelo, o bulbo e o nariz. Prova disso é que, na intoxicação por gás, o agente tóxico entra pelo nariz, atinge o bulbo, invade o cerebelo, causando sonolência, perda de consciência e, em casos graves, a morte. A perda do olfato também pode ser curada com Johrei no bulbo raquidiano.
+
+**Pergunta:** Meu irmão sofre de asma e, todos os anos, do outono ao inverno, mal consegue se levantar devido à tosse e ao catarro. Haveria uma causa espiritual?
+
+**Resposta:** Não se trata de asma espiritual. Uma característica da asma é sua manifestação sazonal. Há casos que ocorrem exclusivamente no inverno, outros no verão, e há pessoas que têm crises invariavelmente em setembro, uma vez ao ano. Esses casos regulares são considerados mais leves. Aqueles que ocorrem de forma irregular ao longo do ano são os mais graves.
+
+**Pergunta:** Minha família é composta por seis pessoas. Eu e a esposa do meu filho mais velho recebemos a Luz Divina. Temos um negócio de máquinas de costura e trabalhamos arduamente todos os dias, mas temos muitos prejuízos com inadimplência, e o negócio não prospera. O que devemos fazer?
+
+**Resposta:** Trabalhar arduamente é louvável, mas a ansiedade gera atos impensados. Se você entregar tudo nas mãos de Deus, as coisas naturalmente se encaminharão para o bem. Isso é a Proteção Divina. Agindo assim, você receberá a orientação de Deus. Quando um cliente chegar, você saberá se é arriscado ou não vender a crédito.
+
+**Pergunta:** Qual a diferença entre a atuação do Amuleto da Grande Luz Divina e a do amuleto comum?
+
+**Resposta:** O acréscimo do ideograma “Grande” amplia a sua força, pois as palavras escritas atuam. As palavras possuem um poder misterioso que me foi concedido por Deus, mas, em certa medida, elas atuam para todas as pessoas.
+
+A Luz flui de meu braço, através do pincel, impregna a caligrafia e penetra no papel. Sendo assim, estou salvando a humanidade pelo poder da palavra, da escrita e do pensamento.
+
+**Pergunta:** O neto (uma menina) de um lenhador não messiânico começou a ter secreção no ouvido aos quatro anos e ficou surdo. Após tratamentos médicos e práticas na religião Nitiren, a secreção parou e a audição retornou; ela está agora com seis anos. Sua irmã mais nova, de três anos, ficou surda em abril deste ano e parou de falar as poucas palavras que sabia. Há cerca de vinte dias, começamos a ministrar-lhe Johrei, e a secreção voltou, acompanhada de uma leve melhora na audição. Seria isso uma maldição de um espírito de dragão de árvore? Se ele derrubou uma grande árvore em seu trabalho, como deveria proceder para apaziguar o espírito?
+
+Ademais, outro neto desse lenhador (de sete anos, filho de uma filha casada) nasceu sem a úvula, com uma fenda no meio da garganta que vai até o meio do céu da boca. Ele não consegue articular as palavras com clareza. Consegue comer devagar, mas não consegue sugar nada. O avô dessa criança sofria de asma severa e cometeu suicídio por enforcamento no banheiro há dezessete anos. Qual seria o laço cármico por trás disso? O Johrei poderia melhorar sua pronúncia?
+
+**Resposta:** O primeiro caso não se trata de um espírito de dragão de árvore, mas da influência espiritual de um pecado relacionado aos ouvidos cometido por algum ancestral.
+
+O segundo caso refere-se a uma vida anterior na qual a pessoa morreu ao ser partida ao meio ou ter a garganta esmagada por algum objeto, reencarnando antes que seu espírito pudesse se recuperar no Mundo Espiritual.
+
+**Pergunta:** Se um osso fraturado for engessado de forma sobreposta, o Johrei pode curá-lo nessa condição?
+
+**Resposta:** Uma vez que o osso se consolida, não há cura. Os ossos se solidificam rapidamente.
+
+**Pergunta:** A casa de um fiel recebeu o talismã do santuário local. O que se deve fazer?
+
+**Resposta:** Dobre-o e coloque-o sobre uma bandeja diante do Altar da Luz Divina por um tempo. Após um ou dois meses, agradeça e queime-o.
+
+**Pergunta:** A irmã de uma fiel faleceu há quatro anos e foi sepultada no túmulo da família da mãe. Há algum problema nisso?
+
+**Resposta:** Em princípio, isso não é o correto, pois ela deveria ser consagrada no túmulo da família do pai. Contudo, se já se passaram três ou quatro anos sem intercorrências, não há problema. Alguns espíritos se manifestam quando não estão satisfeitos. Se nada aconteceu, significa que o espírito está em paz com a situação.
+
+**Pergunta:** Qual a causa da gagueira?
+
+**Resposta:** A causa são toxinas solidificadas nos músculos que conectam o cérebro à língua, as quais interferem nos nervos. A cura pode ser obtida ministrando Johrei na região febril que se estende da lateral da cabeça até a bochecha.
+
+**Pergunta:** As crianças geralmente têm duas linhas horizontais nos pulsos, mas, em casos raros, há apenas uma. Na zona rural de Nagano, isso é chamado de “pulseira de contas” e dizem que é sinal de vida curta. Isso é superstição?
+
+**Resposta:** É superstição. Não tem significado algum.
+
+**Pergunta:** Diz-se que uma veia azulada entre os olhos de uma criança é sinal de irritabilidade. Qual a sua opinião?
+
+**Resposta:** É verdade. É algo que se percebe apenas com o olhar. Mesmo em pessoas comuns, uma veia salta quando se irritam. É o oposto do que ocorre quando o rosto se descontrai de alegria; trata-se de um fenômeno instintivo, sem um significado mais profundo.
+
+**Pergunta:** O que é a “Terra das Dez Milhões de Terras Búdicas” mencionada nos sutras?
+
+**Resposta:** Refere-se à Terra Pura, o paraíso ao lado do Buda Amida. Antigamente, tudo era expresso de forma hiperbólica. O mesmo se aplica aos “cinco bilhões, seiscentos e setenta milhões de anos”. Embora pareça um futuro extremamente distante, ele já está diante de nossos olhos.
+
+---
+
 # Luz sobre Diversas Questões
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年1月20日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年11・12月） | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1950-01-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Luz sobre Diversas Questões
 
@@ -439,6 +604,7 @@ Não é muito bom. O composto que usamos deve ser "natural". Resíduos de algod�
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年9月21日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年6月3日） | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1949-09-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Questões sobre a Prática da Fé e o Mundo Espiritual
 
@@ -649,6 +815,7 @@ Há ainda outro fator. Antigamente, o Japão vivia sob um rigoroso sistema feuda
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年6月28日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos sobre a Criação, as Linhagens Espirituais e a Prática da Fé
 
@@ -754,6 +921,7 @@ Não há problema, contanto que se tome o devido cuidado para que pessoas sem o 
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年2月25日 | **Fonte:** 会報
 **Título Original:** 妙智の鍵 光明分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Esclarecimentos sobre o Mundo Espiritual
 
@@ -821,6 +989,7 @@ Quanto à tigela de arroz com um único hashi, o falecido não possui mais o cor
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年2月28日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## A Premência na Dedicação e as Profecias do Fim dos Tempos
 
@@ -856,6 +1025,7 @@ Deus é, de fato, grandioso. Uma guerra atômica levaria a humanidade à aniquil
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月10日 | **Fonte:** 実生分会ニュース
 **Título Original:** 妙智の鍵 実生分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-07-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 実生分会ニュース
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -939,6 +1109,7 @@ Antigamente, era uma formalidade utilizada para reverenciar o Imperador quando e
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年11月5日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Solução Divina para a Nação e o Indivíduo
 
@@ -1198,6 +1369,7 @@ No entanto, se alguém compreende e acredita nisso com total sinceridade, já po
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年11月25日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Causa das Doenças e a Salvação pelo Johrei
 
@@ -1245,6 +1417,7 @@ Esse estado de espírito é excelente. Estão ministrando Johrei aqui, nos gâng
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年2月28日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1949
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Esclarecimentos sobre a Fé e a Vida Cotidiana
 
@@ -1349,6 +1522,7 @@ Nesse sentido, o tratamento por meio do Johrei é um método ideal, pois não ac
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S25年4月3日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1950-06-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Orientações sobre a Vida e a Fé
 
@@ -1448,6 +1622,7 @@ O ser humano tende, invariavelmente, a se colocar no centro e a se prender a seu
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年10月21日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Natureza Espiritual das Enfermidades
 
@@ -1511,6 +1686,7 @@ Compreendo. É provável que, no início, a causa tenha sido o espírito de Inar
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年10月1日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Orientações sobre a Prática da Fé
 
@@ -1660,6 +1836,7 @@ Não, pois isso seria colocar os antepassados no mesmo patamar de Deus, o que co
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年4月28日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## O Advento da Era do Juízo Divino
 
@@ -1719,6 +1896,7 @@ Profecias que estipulam datas e meses específicos estão fadadas ao fracasso. O
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年3月10日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S27年2月**日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Construção do Paraíso Terrestre: Arte, Fé e Salvação
 
@@ -2113,6 +2291,7 @@ O que me pareceu mais misterioso foi o que aconteceu no ano passado. Um negocian
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年11月20日 | **Fonte:** 御Hikari話録
 **Título Original:** 御光話 （S24年8月3日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1949-11-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録
 
 ## Diálogos sobre a Fé e os Princípios Divinos
 
@@ -2200,6 +2379,7 @@ Não se trata de uma refração da luz. Elas são frequentemente avistadas na co
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
 **Título Original:** 御光話 （S23年8月28日） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1951
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御光話録（補）
 
 ## Esclarecimentos Divinos de Agosto de 1948
 
@@ -2281,6 +2461,7 @@ Não se trata de uma refração da luz. Elas são frequentemente avistadas na co
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 会報
 **Título Original:** 妙智の鍵 光明分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 会報
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -2494,6 +2675,7 @@ Sim, não há problema. Se fosse com seres humanos, seria inadmissível.
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年2月1日 | **Fonte:** 実生分会ニュース
 **Título Original:** ご存じですか 実生分会 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1949-02-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 実生分会ニュース
 
 ## Esclarecimentos sobre Assuntos Espirituais e do Cotidiano
 
@@ -2585,6 +2767,7 @@ No caso de famílias que possuem apenas o livro de registros ou um tablete múlt
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S27年1月25日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Esclarecimento sobre o Yakudoku e a Purificação Espiritual
 
@@ -2655,6 +2838,7 @@ Se o problema do poço tiver relação com um deus-dragão, haverá um aviso por
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年9月18日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Elucidações sobre Doenças e Questões Espirituais
 
@@ -2740,6 +2924,7 @@ Com perseverança no Johrei, ela será curada. Não há motivo para preocupaçã
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御垂示 （S26年10月5日） | **Status:** Published | **Edição/Página:** 3号 | **Data ISO:** 1951-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## Esclarecimentos sobre a Fé e a Purificação
 
@@ -2995,6 +3180,7 @@ O ideal é entregar tudo nas mãos de Deus. Se a mudança trouxer melhores condi
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御教え （S26年11月8日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Orientações Divinas sobre a Causa das Doenças
 
@@ -3076,6 +3262,7 @@ Isso é inadmissível. Um erro gravíssimo. Não há por que sujá-lo tanto. Tra
 
 **Categoria:** situmon | **Ano:** 昭和23(1948)年12月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 妙智之光 （一） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1948-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Luz da Sublime Sabedoria (I)
 
@@ -3163,6 +3350,7 @@ Dessa forma, o corpo humano possui uma relação íntima com a Lua, e a linha es
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 妙智之光 | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1950-02-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Sabedoria Divina em Perguntas e Respostas
 
@@ -3286,6 +3474,7 @@ Essas visões mostram as transformações que ocorreram até agora, mas, no futu
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 教えの光 | **Status:** Published | **Edição/Página:** 40号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Orientações sobre a Fé e a Purificação
 

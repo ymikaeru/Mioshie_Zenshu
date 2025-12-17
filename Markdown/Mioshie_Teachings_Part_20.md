@@ -1,9 +1,70 @@
 # Mioshie_Teachings - Part 20
 
+# A Ciência em seu Limite e a Verdade sobre a Purificação
+
+**Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月26日） | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1953-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
+
+## A Ciência em seu Limite e a Verdade sobre a Purificação
+
+Atualmente, dedico-me à escrita de um livro intitulado “O Livro da Revolução na Medicina”. Nele, inseri um trecho que se desvia do convencional, o qual gostaria que lhes fosse lido agora.
+
+(Leitura do ensaio “A Ciência não pode curar doenças”, parte de “O Livro da Revolução na Medicina”)
+
+Conforme o que acabamos de ouvir, a medicina revela-se, em verdade, algo assaz insensato. Isso porque seus praticantes atuam em completa ignorância sobre a real natureza das enfermidades, baseando-se em meras suposições. Atos como “este medicamento provavelmente surtirá efeito” ou “a doença possivelmente será curada com remédios” demonstram uma profunda falta de convicção. Se a verdade sobre essa prática viesse à tona, ela seria desmascarada como um disparate colossal. Pior ainda, é um disparate que submete o ser humano ao sofrimento e, por fim, ceifa-lhe a vida. É algo verdadeiramente inadmissível. Gradualmente, meu propósito é elucidar essa realidade e revelá-la ao mundo inteiro.
+
+Nesse sentido, ouvi recentemente uma transmissão de rádio que consistia na gravação de uma mesa-redonda com a participação do Dr. Yukawa. O debate suscitou um ponto de grande interesse, sobre o qual peço que ouçam a leitura a seguir.
+
+(Leitura do ensaio “Superciência”)
+
+Este é um assunto de certa complexidade; contudo, é fundamental que tenham um conhecimento geral a respeito, para que, ao se depararem com tais discussões, não fiquem completamente perdidos. A teoria mais avançada da ciência atual é a teoria das partículas elementares. O termo “elementar” (素粒子, soryuushi) é bastante astuto. O ideograma “so” (素) pode significar “cru”, “inacabado”, indicando que o acabamento final ainda não foi realizado. A partícula elementar seria, portanto, a partícula mais ínfima da matéria. Inicialmente, essa era apenas uma concepção teórica do Dr. Yukawa, mas, ao se fotografarem os raios cósmicos, surgiram na imagem seis ou sete delas, que foram identificadas como tais partículas.
+
+Em seguida, temos o que chamam de “propriedade da matéria” (物性, bussei). A “natureza da matéria” (物の性), para nós, corresponde ao espírito, a uma forma de gás. A ciência apenas imagina que algo assim talvez exista. Essa é a teoria mais avançada da física de partículas no momento. Todavia, existem inúmeras outras partículas infinitamente menores que essas, como foi lido anteriormente; o universo é infinito. A partir desse ponto, a ciência já não consegue avançar; mais do que isso, ela se torna impotente. A menos que os microscópios evoluam de forma extraordinária, não há o que fazer. A matéria, nesse nível, torna-se um gás, e a ciência não consegue apreender a natureza de um gás com clareza. Ela pode chegar a postular que “provavelmente deve existir”, mas há algo ainda mais profundo. Refiro-me ao espírito e ao Mundo Espiritual, que se desdobram em múltiplos níveis: superior, médio, inferior e muitos outros.
+
+A origem fundamental do espírito é a Luz. A origem da Luz é o Sol. E a origem da luz do Sol são seus pontos negros. Estes pontos são como o núcleo da semente do grande universo, algo que a astronomia jamais poderá compreender. Embora pareça haver um único ponto negro, na verdade, existem vários. Isso se torna visível através de um telescópio; certa vez, observei-os no Museu de Ciência e vi que são múltiplos pontos dispersos, que, agrupados, aparecem a nós como um só. Esses pontos negros são de uma importância tremenda, pois são eles que governam o Sol, constituindo seu centro. É o ponto central (ヽ) do símbolo de Deus, Su (○ヽ). A luz que cura as doenças por meio do Johrei emana precisamente desses pontos negros.
+
+Se fosse explicar tudo isso em detalhes, não haveria fim, e tampouco há necessidade de conhecerem assuntos de tamanha profundidade. O que foi dito é suficiente. Como afirmei, a ciência está no limiar de ter de reconhecer a existência do espírito. Cientistas como o Dr. Yukawa admitem que ainda há muitos problemas a serem pesquisados, e chegam a dizer que o crescente número de questões a serem resolvidas os aflige. Por outro lado, há uma corrente de cientistas, mais alinhada à filosofia existencialista — pois, a esse nível, filosofia e ciência se encontram —, que se encontra em um beco sem saída, acreditando que não é possível avançar mais. Nenhuma das duas posições está equivocada, mas pode-se dizer que aqueles que reconhecem esse impasse demonstram maior clarividência.
+
+Pretendo escrever sobre o que existe além desse ponto de estagnação da ciência e planejo enviar o texto ao Dr. Yukawa. Se ele compreenderá ou não, é incerto, mas acredito que, no mínimo, obterá uma pista. Uma vez que isso seja compreendido, a cura de doenças pelo Johrei poderá ser plenamente explicada pela própria ciência. Todavia, a ciência à qual me refiro é muito mais avançada que a ciência contemporânea. Diante dela, curar doenças com remédios e máquinas se revela uma prática extremamente primitiva, de povos não civilizados. O ato de tomar medicamentos com reverência será visto, por volta do século XXI, como um sinal da ingenuidade dos homens do século XX. As gerações futuras dirão, em tom de escárnio: “Eles chamavam aquilo de civilização e cultura, mas, na verdade, era algo patético”. A dificuldade reside no fato de que o cérebro das pessoas de hoje ainda não está preparado para assimilar tal verdade. Contudo, por se tratar da Verdade, mesmo que não seja compreendida de imediato, sua aceitação final é insofismável. Apenas requer tempo. E é para provar essa Verdade que demonstramos a cura das doenças. Sob essa perspectiva, o processo não é tão complexo.
+
+Por essa mesma razão, as religiões do passado se mostram infantis. Em bom rigor, mesmo Cristo e Buda foram, em certo sentido, como crianças, com ensinamentos primários. Naquela época, não havia necessidade de revelar aos homens verdades tão profundas e elevadas; para os seres humanos daquelas eras, aquele modo de ensinar era adequado. Hoje, porém, tal abordagem já não é suficiente. Em suma, o Tempo avançou. O progresso da cultura até este ponto significa que a humanidade está pronta para receber revelações mais profundas. Há também a questão envolvendo as forças do mal, mas isso é outro assunto. O que lhes apresentei foi o futuro do desenvolvimento da ciência e da cultura. Portanto, em um futuro próximo, quando o momento certo chegar, tudo isso se tornará cada vez mais claro.
+
+Soube, há pouco, que surgiu recentemente nos Estados Unidos uma corrente que afirma: “A medicina atual é falha. Devemos pesquisar métodos de cura que não dependam dela, que não utilizem remédios ou máquinas”. Estão se aproximando da verdade. No Havaí, os resultados têm sido magníficos, e o Sr. Higuchi deve ir aos Estados Unidos no próximo mês. Contudo, as circunstâncias são complexas e as coisas não avançarão com simplicidade, mas confio que Deus conduzirá tudo da melhor maneira. No momento, o caminho mais rápido é fazer os americanos compreenderem, e creio que, para isso, Deus empregará meios que sequer podemos imaginar. Estamos, portanto, a um passo de uma grande mudança.
+
+Quanto à Purificação, sei aproximadamente quando chegará o tempo em que a verdadeira Purificação se intensificará, e doentes surgirão em profusão por toda parte, com um grande número de mortes. No entanto, parece que ainda levará alguns anos. Analisando a progressão com que o Mundo Espiritual se ilumina, os sinais se tornarão notáveis e claros daqui a, no mínimo, dois ou três anos. Isso se tornou evidente para mim recentemente. Por conseguinte, Deus, em Sua perfeição, está realizando os preparativos sem falhas. Os ensaios que acabaram de ser lidos são parte desses preparativos. Com o avançar do Tempo, minhas palavras se tornarão mais profundas e diretas. Embora eu já saiba o que deve ser dito, a clareza para transpor esse conhecimento para a escrita surge quando o momento predestinado chega. É, de fato, algo muito interessante. Deus não age nem cedo demais, nem tarde demais; Ele age no momento exato.
+
+Como mencionei da outra vez, há uma advertência importante sobre como tornar macios os ombros endurecidos. A rigidez nos ombros, desde tempos antigos, é tratada com massagens ou batidas. Por termos essa ideia arraigada, é fácil aplicar força excessiva durante o Johrei. Ocorre que o enrijecimento dos ombros é o mais resistente, e é justamente por isso que se deve ministrar sem força alguma. Embora o Johrei deva sempre ser aplicado com leveza, nos ombros sentimos um impulso de usar mais força. Deve-se fazer o contrário: quanto mais rígidos estiverem os ombros, mais eficaz será relaxar a mão, pois isso os tornará macios. Eu mesmo tenho essa experiência. Antigamente, eu recebia massagens com frequência. Elas proporcionavam um alívio momentâneo, mas depois a rigidez voltava ainda pior, e a massagem precisava ser cada vez mais forte. Quando percebi isso, passei a pedir que uma criada leiga me massageasse, e, a partir de então, a rigidez começou a diminuir. Portanto, ao contrário da força e da pressão da massagem, a melhor maneira é suavizar sem aplicar força. Depois, pode-se mirar o centro do enrijecimento, e ele se dissolverá com relativa facilidade.
+
+Quando isso acontece, como já disse, o primeiro efeito é um aumento notável do apetite. Para um tuberculoso, isso significa reduzir drasticamente o enfraquecimento. Também é extremamente eficaz para indigestão, gastropatia, espasmos estomacais e outros males. Portanto, saibam que, para as doenças da parte superior do corpo, o melhor é abrandar os ombros, concentrando o Johrei nessa área. Em seguida, deve-se ministrar ao redor do pescoço, especialmente na região do bulbo e dos gânglios linfáticos.
+
+Recentemente, ocorreu um caso interessante: uma pessoa cuja língua travava, dificultando a fala. A causa estava no fundo do nariz. Geralmente, quando a língua trava, o problema está sob o queixo e se manifesta lateralmente. No caso dessa pessoa, porém, o travamento era vertical, originando-se na região que a medicina chama de adenoide. Ao ministrar Johrei no ponto entre o nariz e a boca, e na parte de trás da cabeça, o problema melhorou consideravelmente. A causa, como veem, pode estar em um lugar totalmente inesperado. Há também muitas pessoas com problemas nas pernas e na lombar que melhoraram após receberem Johrei no pescoço.
+
+Para a parte superior do corpo, o foco deve ser os ombros. Para a parte inferior, o ponto crucial é o centro da região lombar. Ministrar Johrei ali torna as pernas muito mais leves e também melhora a falta de ar. Falo por experiência própria. Antigamente, eu ficava bastante ofegante ao subir ladeiras. Como não parecia ser um problema no tórax, achei estranho e decidi ministrar Johrei em mim mesmo, na região do cóccix. Imediatamente, minhas pernas ficaram mais leves e a falta de ar desapareceu. Até hoje, subo as muitas ladeiras de Hakone com grande rapidez, sem perder para os jovens. Na verdade, há jovens em piores condições, e acabo tendo que moderar meu passo para acompanhá-los. Alguns me dizem: “Meishu-Sama, o senhor é muito rápido, não consigo acompanhá-lo!”, e eu respondo: “É o peso da idade de vocês”. Apenas ministrar Johrei nesse ponto da lombar faz uma diferença enorme.
+
+Outro ponto que gostaria de abordar é a maquiagem feminina, que acarreta diversos problemas. Em primeiro lugar, ao abandonar os cosméticos — pó, cremes e afins —, a pele pode ficar escura, como a de um nativo dos mares do sul, por um período de seis meses a um ano. Superada essa fase com paciência, a pele se torna extraordinariamente bela. Já ouvi relatos de graças a esse respeito. Não é uma beleza produzida pela maquiagem, mas uma beleza translúcida.
+
+Além disso, os cosméticos modernos contêm diversas toxinas medicamentosas que penetram na pele, causando doenças dermatológicas no rosto de muitas mulheres. Há também a condição conhecida como *nobose*, em que o rosto esquenta. O termo sugere que o sangue sobe à cabeça, mas não é isso. Trata-se de uma purificação que ocorre no rosto, causando calor. As mulheres usam pó de arroz desde a antiguidade, e o produto daquela época continha muito chumbo. A purificação desse chumbo acumulado é o que causa o aquecimento do rosto.
+
+Outro caso interessante foi o de um respeitável chefe de igreja de porte médio que veio a mim com os dentes moles e com alguma dor. Eu lhe ministrei Johrei. Seu rosto estava muito quente, febril. Ao continuar o Johrei para baixar a febre, seus dentes começaram a firmar. A causa do amolecimento dos dentes era, portanto, uma intoxicação por cosméticos. É algo realmente assustador. Se ele tivesse procurado um dentista, certamente teria perdido todos os dentes e acabado com uma dentadura.
+
+Há algo ainda mais terrível, que aconteceu recentemente com uma senhora de certa idade. Ela foi fazer um permanente e aplicaram-lhe um produto químico estranho. Ultimamente, usam-se produtos muito fortes. A substância penetrou em seu couro cabeludo, e a dor foi tão intensa que a deixou assustada. Depois disso, uma forte purificação começou, e o Johrei parecia não surtir efeito. Diversos sintomas surgiram, e ela veio me consultar, suspeitando de um problema espiritual. Ao ouvir seu relato, concluí que se tratava de uma intoxicação pelo produto do permanente. Eu lhe disse que, se ela sobrevivesse a um determinado número de dias, ficaria bem. Contudo, dois ou três dias depois, ela faleceu. Era uma fiel antiga. Com o passar do tempo, os produtos químicos se tornaram mais potentes, e as consequências são terríveis.
+
+Sendo assim, o ideal é não usar cosméticos. Quanto aos permanentes, podem ser feitos sem o uso de produtos químicos. O processo consiste apenas em encaracolar o cabelo com calor, o que é perfeitamente possível sem química. Os produtos são usados apenas para fazer o penteado durar mais. Em suma, ao abandonar a maquiagem, a mulher se torna muito mais bonita. Basta um pouco de paciência. Além disso, maquiar-se consome um tempo precioso, o que é uma grande perda. É também uma causa de brigas entre marido e mulher. Eu mesmo já passei por isso: ficava esperando na entrada de casa, e minha esposa não aparecia. Curioso com a demora, ia ver o que estava acontecendo e a encontrava grudada no espelho, retocando aqui e ali, até ficar satisfeita. Íamos a algum lugar, como ao teatro, e ela ia ao toalete. A cortina se abria, e ela não voltava. Eu ia procurá-la e a encontrava retocando o rosto fervorosamente.
+
+O ato de a mulher se maquiar é, em si, uma espécie de pecado. Fundamentalmente, é uma tentativa de parecer bonita por meios artificiais. Antigamente, isso era chamado de “adorno feminino” e considerado parte da virtude da mulher. Embora haja certa lógica nesse pensamento, na realidade, trata-se de um engodo, uma espécie de ato de dissimulação. Como se trata do rosto, parece aceitável, mas o princípio é o mesmo de um tolo tentando parecer inteligente ou de um pobre se passando por rico.
+
+O mais importante para uma mulher é ter um coração cálido. Quando o sangue se purifica, a aura da pessoa se torna agradável. De que adianta ter a pele alva se a impressão que se passa é desagradável? Uma boa aura é muito mais valiosa. Pode parecer um assunto estranho, mas, no fim das contas, tanto para homens quanto para mulheres, o mais importante é transmitir um bom sentimento. A beleza superficial pode ser útil para mulheres de certas profissões, como gueixas ou prostitutas, mas, para o convívio diário, uma aura agradável é o que nunca enfada. É a beleza que emana do âmago. Para mim, a mera beleza exterior não tem atrativo algum. Não digo isso para lisonjear, mas os fiéis realmente têm uma aura agradável. Às vezes, fico maravilhado. Falando com total imparcialidade, encontro pessoas cujos traços faciais não são admiráveis, mas o sentimento que recebo delas é tão bom que chego a pensar em como isso é misterioso.
+
+Dessa forma, como os cosméticos são também uma forma de toxina, não é preciso abandoná-los de uma vez. Recomendo a adoção de uma abordagem gradual, diminuindo o uso aos poucos até parar completamente. O resultado será imensamente positivo. Já há muitas mulheres que, felizes, relatam como ficaram mais bonitas depois de abandonar a maquiagem. Assim como no tratamento das toxinas medicamentosas, é preciso suportar uma fase transitória, mas os benefícios, como já mencionei, são enormes. À medida que essa verdade se difundir pelo mundo, trará vantagens em diversos aspectos. Talvez esta seja também uma das condições do Paraíso Terrestre.
+
+---
+
 # A Edificação do Sagrado e a Purificação do Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年5月25日） | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1952-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Edificação do Sagrado e a Purificação do Mundo
 
@@ -57,6 +118,7 @@ Para os fiéis, portanto, a disenteria deve ser encarada como um processo bem-vi
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年12月26日） | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1953-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Sabedoria Divina no Veredito Judicial
 
@@ -89,6 +151,7 @@ Sobre o Johrei: quando os dedos estão separados, cria-se um espaço entre eles;
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年2月25日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1953-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Comprovação da Agricultura Natural e sua Ampla Divulgação
 
@@ -142,6 +205,7 @@ Creio que já me estendi o suficiente sobre a agricultura. Embora o tempo seja e
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年2月25日） | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1954-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Purificação no Indivíduo e na Sociedade
 
@@ -175,6 +239,7 @@ Por fim, redigi um texto que esclarece a verdadeira natureza dos medicamentos, u
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S27年9月25日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1952-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Protótipo do Paraíso e o Desígnio Divino
 
@@ -240,6 +305,7 @@ Contudo, como a palestra já se estendeu e temos o Johrei a seguir, encerrarei p
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 秋季大祭御講話 （S26年9月25日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Materialização do Paraíso e a Erradicação do Sofrimento
 
@@ -287,6 +353,7 @@ Desse modo, Deus vem realizando preparativos em escala mundial há muito tempo. 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年2月5日） | **Status:** Published | **Edição/Página:** 31号 | **Data ISO:** 1954-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Manifestação do Juízo Divino e a Nova Era
 
@@ -336,6 +403,7 @@ Até agora, Deus determinava que esses mistérios não fossem revelados. Contudo
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 立春祭御講話 （S28年2月5日） | **Status:** Published | **Edição/Página:** 19号 | **Data ISO:** 1953-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Início da Grande Transição Mundial
 
@@ -411,6 +479,7 @@ Em suma, os acontecimentos se tornam cada vez mais interessantes. O Plano Divino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年8月17日） | **Status:** Published | **Edição/Página:** 13号 | **Data ISO:** 1952-09-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Expansão da Obra Divina em Meio à Luta Espiritual
 
@@ -466,6 +535,7 @@ A seguir, como me perguntam com frequência sobre obras de assistência social, 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （28年11月1日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Revolução da Agricultura Natural e o Plano Divino
 
@@ -539,6 +609,7 @@ Acabamos falando apenas sobre agricultura, mas se houver alguma pergunta, por fa
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S27年4月1日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## O Discernimento Espiritual e a Construção do Paraíso Terrestre
 
@@ -648,6 +719,7 @@ Quando o Paraíso Terrestre estiver pronto, construiremos o Templo Principal, do
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年7月1日 | **Fonte:** Toho no Hikari
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-07-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 東方の光
 
 ## A Superstição e a Verdadeira Salvação
 
@@ -711,6 +783,7 @@ Assim, foram estabelecidos os três poderes: o de governar, o de salvar e o de j
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年9月5日） | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1952-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Banalização do Mal
 
@@ -742,6 +815,7 @@ Ainda assim, existe o que se chama de “agonia final”. Certas religiões de m
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年9月5日） | **Status:** Published | **Edição/Página:** 2号 | **Data ISO:** 1951-10-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Manifestação do Espírito Guardião e a Purificação Mundial
 
@@ -787,6 +861,7 @@ O apêndice de "A Nova Violência" será publicado, e meu desejo é que ele seja
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年3月17日） | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1953-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Política, a Ordem no Johrei e a Arte Floral
 
@@ -844,6 +919,7 @@ Poderia falar sobre isso por horas, mas o tempo é curto, então encerrarei por 
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年3月17日） | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Barbárie da Cultura Moderna e o Alvorecer da Verdadeira Civilização
 
@@ -905,6 +981,7 @@ Ainda haveria muito mais a dizer, mas o tempo se esgotou. Por hoje, encerro aqui
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （28年3月1日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-03-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Gênese da Única e Verdadeira Nova Religião
 
@@ -938,6 +1015,7 @@ Bem, discorri sobre os pensamentos que me ocorreram no momento. Contudo, como es
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年5月5日） | **Status:** Published | **Edição/Página:** 10号 | **Data ISO:** 1952-06-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Legado do Príncipe Shotoku e a Missão Messiânica
 
@@ -975,6 +1053,7 @@ A meu ver, nesse aspecto, estão abaixo dos povos primitivos. Se um desses povos
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年12月6日） | **Status:** Published | **Edição/Página:** 5号 | **Data ISO:** 1952-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre a Revolução Agrícola e a Verdade da Medicina
 
@@ -990,6 +1069,7 @@ O relato descreve os sentimentos com tamanha profundeza que é impossível lê-l
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年4月17日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Vislumbres da Nova Era: Agricultura, Arquitetura e Arte
 
@@ -1025,6 +1105,7 @@ Nesse sentido, gostaria de solicitar que estejam atentos à procura de pessoas q
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年10月5日） | **Status:** Published | **Edição/Página:** 27号 | **Data ISO:** 1953-11-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Princípio da Força Infinita
 
@@ -1080,6 +1161,7 @@ Se eu a explico hoje de forma tão detalhada é porque, embora eu mesmo compreen
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御講話
 
 ## A Influência da Linhagem Espiritual
 
@@ -1103,6 +1185,7 @@ Cada indivíduo, portanto, está intrinsecamente ligado por essas linhas espirit
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年8月1日） | **Status:** Published | **Edição/Página:** 1号 | **Data ISO:** 1951-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Visão Espiritual sobre a Doença e a Cura
 
@@ -1120,6 +1203,7 @@ Por desconhecerem tais verdades, os seres humanos praticam o mal. E o que signif
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月25日 | **Fonte:** Gosuiiji録
 **Título Original:** 御講話 （S27年8月1日） | **Status:** Published | **Edição/Página:** 12号 | **Data ISO:** 1952-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御垂示録
 
 ## A Revelação do Ardil Divino
 
@@ -1201,6 +1285,7 @@ Isso é um fato. Seria bom publicar esses relatos na revista "Eikou". Há algum 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年12月6日） | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1953-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Argúcia na Observação das Pessoas e do Mundo
 
@@ -1260,6 +1345,7 @@ Mudando drasticamente de assunto, gostaria de abordar um tema interessante sobre
 
 **Categoria:** kouwa | **Ano:** 昭和22(1947)年11月 | **Fonte:** 祝辞 昭和
 **Título Original:** 日本観音教団発会式 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1947-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 祝辞 昭和
 
 ## Mensagem por Ocasião da Fundação da Nihon Kannon Kyodan
 
@@ -1279,6 +1365,7 @@ Todavia, à medida que a Obra se expande, embora se torne mais gratificante, as 
 
 **Categoria:** kouwa | **Ano:** 昭和16(1941)年9月11日 | **Fonte:** Kenko
 **Título Original:** 丸の内中央亭御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1941-09-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 健康
 
 ## A Causa Espiritual das Doenças e a Salvação da Humanidade
 
@@ -1447,6 +1534,7 @@ Como estou proibido de praticar religião, falei sem tocar no assunto. Chegará 
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年11月17日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Relação entre a Sorte e a Purificação
 
@@ -1500,6 +1588,7 @@ Recentemente, tenho notado um aumento expressivo nos anúncios de medicamentos i
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年3月15日） | **Status:** Published | **Edição/Página:** 8号 | **Data ISO:** 1952-04-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Construção dos Museus e o Plano Divino
 
@@ -1535,6 +1624,7 @@ Mas, por ora, encerremos este assunto. Tenho agora algo bastante interessante a 
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年1月2日） | **Status:** Published | **Edição/Página:** 6号 | **Data ISO:** 1952-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Transição para a Nova Era e a Missão da Arte
 
@@ -1594,6 +1684,7 @@ Creio que, por ora, minhas palavras são suficientes.
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** - | **Fonte (JP):** -
 
 ## O Poder do Papel Sagrado e a Luta Espiritual
 
@@ -1637,6 +1728,7 @@ Em essência, quando uma pessoa não pende para nenhum extremo — seja o vertic
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年8月15日） | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1953-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Expansão da Luz e a Purificação do Mundo
 
@@ -1672,6 +1764,7 @@ A purificação se intensifica gradualmente. Neste ano, por exemplo, o número d
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年1月16日） | **Status:** Published | **Edição/Página:** 18号 | **Data ISO:** 1953-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Vitória pela Virtude e a Revolução Médica
 
@@ -1697,6 +1790,7 @@ Em suma, a questão se resume aos medicamentos. O pavor que eles representam nã
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年9月7日） | **Status:** Published | **Edição/Página:** 26号 | **Data ISO:** 1953-10-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Sabedoria Divina como Discernimento para a Salvação
 
@@ -1746,6 +1840,7 @@ E o número de pessoas assim está aumentando. À medida que as toxinas dos medi
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年1月16日） | **Status:** Published | **Edição/Página:** 30号 | **Data ISO:** 1954-02-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Os Princípios Espirituais da Agricultura Natural
 
@@ -1791,6 +1886,7 @@ Este é o significado fundamental, e é preciso ensiná-lo gradualmente aos agri
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年2月7日） | **Status:** Published | **Edição/Página:** 7号 | **Data ISO:** 1952-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Verdadeira Posição da Arte Japonesa no Mundo
 
@@ -1834,6 +1930,7 @@ Mas, por ora, encerro aqui minhas considerações sobre o museu.
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S26年11月15日） | **Status:** Published | **Edição/Página:** 4号 | **Data ISO:** 1951-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Os Perigos da Possessão Espiritual e a Busca da Verdade
 
@@ -1881,6 +1978,7 @@ Já na obra que estou escrevendo agora, *A Criação da Civilização*, não há
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年11月15日） | **Status:** Published | **Edição/Página:** 16号 | **Data ISO:** 1952-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Verdadeira Paz e a Obra Divina
 
@@ -1944,6 +2042,7 @@ Portanto, a melhor estratégia é fazer com que leiam, não importa como. Quando
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年4月4日 | **Fonte:** Gokowa
 **Título Original:** 御講話 | **Status:** Unknown | **Edição/Página:** - | **Data ISO:** 1935-04-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Transitoriedade do Budismo e a Missão de Kannon
 
@@ -1954,49 +2053,6 @@ A partir desse momento, Xaquiamuni tornou-se “Aquele que Vê a Verdade”. Con
 Ele também compreendeu que Aquele que surgiria na última era para edificar o Mundo de Luz seria Kannon. No entanto, por tampouco poder divulgar essa revelação, restringiu-se a pregar o capítulo Fumonbon (普門品) do Sutra do Lótus, por meio do qual apenas exaltava Kannon.
 
 Como Xaquiamuni tinha pleno conhecimento de todas as coisas, inclusive do declínio do budismo, ele pregou que “viria a era da extinção do budismo” e descreveu este mundo como uma “casa em chamas”. Na realidade, porém, suas palavras referiam-se especificamente à era budista. Ele sabia que, uma vez que Kannon viesse ao mundo, a humanidade seria salva. Por essa razão, ele difundiu os ensinamentos budistas com o propósito único de guiar as pessoas da melhor forma possível até a chegada do tempo determinado. Esse fato demonstra claramente que o budismo não é um ensinamento de caráter permanente, e, nesse mesmo sentido, os sutras foram revelados de forma apenas parcial.
-
----
-
-# A Salvação dos Espíritos Búdicos e a Grande Transição Mundial
-
-**Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
-**Título Original:** 御講話 （S28年4月15日） | **Status:** Published | **Edição/Página:** 21号 | **Data ISO:** 1953-05-15
-
-## A Salvação dos Espíritos Búdicos e a Grande Transição Mundial
-
-Recentemente, realizei uma viagem de cinco dias a Quioto. Pude constatar que o número de fiéis tem aumentado em diversos locais, o que me transmitiu uma impressão de grande vitalidade. Em Quioto, dediquei-me quase que exclusivamente a visitar templos, percorrendo-os dia após dia. O que observei, todavia, é que todos eles se encontram em um estado de completa exaustão, uma situação verdadeiramente lastimável. A ruína do Budismo manifesta-se ali de forma muito clara. Aparentemente, enfrentam sérias dificuldades financeiras, pois demonstram o desejo de vender suas imagens búdicas e outros artefatos. Houve até mesmo um templo de considerável importância que manifestou a intenção de vender sua imagem principal de adoração. Ficaram de trazê-la dentro de dois ou três dias; trata-se de um pergaminho. Ao indagar sobre o que fariam após a venda, responderam que procuravam um substituto, uma solução bastante cômoda. É, de fato, a ruína do Budismo.
-
-Perante um grande público, expliquei que um dos propósitos de eu estar construindo um anexo de nossa Igreja em Saga é, precisamente, o de salvar os espíritos búdicos que habitam nesses templos. Com efeito, os espíritos das divindades búdicas manifestam-se não apenas nas imagens principais de adoração, mas também em diversas pinturas e esculturas. Eles atuam no mundo e, quando repousam, abrigam-se nessas imagens. Tais objetos possuem um profundo significado. Muitas pessoas, por exemplo, reverenciam uma imagem de Daikoku, e o espírito de Daikoku nela se manifesta para atuar. Quando alguém ora diante de uma imagem búdica, a emanação de sua gratidão se dirige à divindade e, quanto mais orações recebe, mais o poder e a Luz dessa divindade se intensificam. Inversamente, se as pessoas a ignoram e deixam de orar, sua Luz e seu poder gradualmente se enfraquecem. Uma divindade reverenciada por muitos, portanto, adquire maior poder e, consequentemente, concede maiores graças.
-
-Nesse sentido, algumas pessoas sensíveis conseguem, ao observar uma imagem, discernir se ela foi objeto de muitas preces. Dizem que sua fisionomia parece diferente. Uma imagem que recebeu muitas orações emana uma certa vivacidade, ao passo que outra, que não as recebeu, transmite uma impressão de solidão. É algo verdadeiramente misterioso. Há também o caso de imagens que, mesmo desprovidas de um espírito, ao serem reverenciadas como, por exemplo, uma imagem de Kannon (観音), a força da emanação do pensamento humano pode criar uma forma com o poder de Shaka, Amida ou Kannon. Contudo, se as orações cessam, essa forma gradualmente se dissipa. Por outro lado, quando um espírito secundário de uma divindade búdica se manifesta em uma imagem, ele não desaparece mesmo que as pessoas deixem de orar; permanece ali, em estado de solidão. Eis a diferença fundamental.
-
-As divindades de Quioto, por terem sido muito reverenciadas, possuem um poder vibrante. Contudo, com o declínio do Budismo, essas divindades — que, em sua origem, são manifestações de Deus — anseiam por retornar à sua condição divina original e atuar grandemente em prol da Sekaikyuseikyou. O relato da senhora Taga, publicado na revista *Tijou Tengoku*, exemplifica essa vontade de atuar. Todavia, como ainda carregam certas máculas, não podem trabalhar até que sejam purificadas. É por essa razão que todas elas recorrem a mim.
-
-É por isso que, de agora em diante, obterei tais imagens búdicas. Construirei também um museu de arte budista. Nele, purificarei os espíritos das imagens que adquirirmos, por empréstimo ou compra, para que possam atuar. Posteriormente, as peças em si poderão ser apreciadas por muitas pessoas como obras de arte, sejam esculturas ou pinturas. Essa é a forma correta de proceder. Exibi-las em diversas exposições enquanto ainda abrigam um espírito é uma situação penosa para essas divindades. A intenção delas não é ser objeto de apreciação artística, mas sim ajudar as pessoas e manifestar sua compaixão. Uma vez que o espírito retorne ao Plano Divino para atuar, o objeto remanescente se torna uma verdadeira obra de arte, e não há mais problema. Pretendo realizar esse trabalho gradualmente. E, quando essas divindades búdicas começarem a atuar, os fiéis de diversas outras religiões se tornarão, todos, membros da Sekaikyuseikyou. O mesmo ocorrerá com os que entoam o *Namu Amida Butsu* ou o *Namu Myoho Renge Kyo*. Se os fundadores de suas religiões passam a atuar grandemente, seus seguidores não terão outra alternativa senão se filiar à nossa Igreja. Portanto, a questão fundamental é salvar os fundadores e patriarcas de cada religião. Esse é o trabalho que se iniciará em Saga. E, uma vez concluído, procederemos da mesma forma com o Cristianismo, salvando os grandes pastores e figuras proeminentes de sua história. Trata-se de uma obra de alcance mundial. Assim, a questão não é simplesmente aumentar o número de fiéis; o ponto crucial, de onde advirão os verdadeiros resultados, reside em salvar esses espíritos centrais e fundamentais. É algo fascinante.
-
-Contudo, como ninguém até hoje teve conhecimento de tais assuntos, as pessoas, ao me ouvirem, apenas conseguem pensar: "Ah, então é assim que as coisas funcionam...". Um fato interessante é que, quando o espírito de uma divindade se manifesta em uma imagem, a qualidade da obra de arte influencia a elevação do espírito que a habitará. Por isso, quando se diz de uma obra de excelência que "ela parece viva", é porque um espírito verdadeiro nela reside. Isso se aplica não apenas a imagens de divindades, mas também a representações de animais. Há muitas histórias sobre o gato de Hidari Jingoro que teria devorado um rato, ou sobre um pássaro esculpido por ele que alçou voo. Obras de grande perfeição realmente atraem um espírito correspondente à sua forma.
-
-Em nossa Igreja, por exemplo, reverenciamos a imagem de Daikoku, e o espírito de Daikoku se manifesta nela para atuar. Nesses casos, quanto maior a imagem, maior a sua atuação. Isso não significa que qualquer um deva buscar a maior imagem possível. De acordo com o princípio da correspondência, o ideal é um tamanho que esteja em harmonia com o altar ou o oratório onde será entronizada. Imagens muito pequenas têm uma atuação igualmente restrita. Além disso, quanto mais bem-acabada a obra, mais elevado é o nível do espírito de Daikoku que nela se manifesta. Certa vez, comentei que uma imagem maior seria melhor, e o senhor Shibui trouxe uma de proporções imensas, que precisou ser transportada em um caminhão por vários homens. Naquela época, os ganhos financeiros do senhor Shibui eram de fato extraordinários, o que indica que ele recebeu uma graça correspondente. Isso não autoriza que todos ajam da mesma forma, pois, como disse, há o princípio da correspondência, e um excesso de tamanho pode ser prejudicial. O ideal é que seja grande, mas dentro de uma proporção adequada.
-
-O mesmo se aplica a pinturas e caligrafias. Curiosamente, quando um espírito de dragão não encontra um local para se abrigar, ele pode se manifestar em pinturas ou caracteres. Evidentemente, ele se manifesta no ideograma que significa "dragão", mas também em outros relacionados à água. É comum que habite em caracteres que contenham o radical de "água". Na ausência de outra opção, ele pode até mesmo se abrigar no radical de "água" presente no nome do artista que criou a obra. Os espíritos de dragão podem permanecer onde quer que haja água. É algo de uma sutileza impressionante. Da mesma forma, pessoas cujos nomes estão relacionados à água são mais propensas a ter a proteção de um espírito de dragão, pois sua própria natureza se alinha com o elemento aquático. Tudo isso é extremamente sutil.
-
-Quioto é uma cidade de templos; por essa razão, a própria cidade encontra-se em um estado de grande esgotamento. Desta vez, ao percorrer seus bairros, prestei atenção e notei a enorme quantidade de muros em ruínas. A situação é bastante grave. Nas áreas comerciais, a aparência é melhor, mas fora delas, é comum encontrar um a cada cinco ou dez imóveis com o muro desabando. Em alguns casos, até as tábuas de madeira estão quebradas. É uma visão desoladora. Creio que isso seja um reflexo do estado de exaustão dos templos. Embora Quioto seja um lugar magnífico, falta-lhe a estrutura necessária para se firmar como um grande polo turístico e atrair um vasto público. Diante disso, tenho planos de transformar a região de Saga em um centro que seja, ao mesmo tempo, um grande destino turístico e uma manifestação do Paraíso Terrestre. Para tal, o projeto precisa ser de grande magnitude, e o terreno atual, com cerca de sessenta e seis mil metros quadrados, é demasiado pequeno. Seriam necessários, no mínimo, trezentos e trinta mil metros quadrados. Por isso, desde o início, eu havia dito que o ideal seria encontrar uma área entre cento e sessenta e cinco mil e trezentos e trinta mil metros quadrados. Como não foi possível encontrar um terreno tão vasto de uma só vez, e também pelo alto custo, optamos provisoriamente pelo local atual. Uma área de sessenta e seis mil metros quadrados parece grande, mas para se tornar um ponto turístico de renome mundial, é preciso ter ao menos o quíntuplo disso. Quando o projeto se concretizar, Quioto se tornará uma visita obrigatória para quem vem ao Japão, o que trará um desenvolvimento extraordinário. Com isso, a cidade também prosperará, e os muros em ruínas deixarão de existir. Deus conduzirá tudo da melhor maneira, não há motivo para preocupação. Contudo, do ponto de vista humano, é nosso dever agir nesse sentido, e tenho certeza de que essa é também a Vontade Divina.
-
-Agora, abordando outro assunto, divulgado nos jornais e no rádio: a questão sobre o futuro da União Soviética. O desfecho do problema coreano e a direção que o governo soviético tomará após a morte de Stalin são as maiores incógnitas do momento e capturam a atenção do mundo inteiro. De agora em diante, ocorrerão mudanças complexas e variadas. Primeiramente, as negociações de armistício parecem avançar, mas isso, por si só, não resolve a questão de fundo. O plano dos Estados Unidos, como sempre afirmaram, é unificar o Norte e o Sul para restaurar a independência da Coreia. Tal desfecho invalidaria completamente os objetivos e os sacrifícios de vidas e recursos feitos pela China Comunista, que, por isso, não cederá facilmente. Atualmente, os Estados Unidos defendem a necessidade de avançar do Sul em direção ao Norte, até a linha de Pyongyang, o que a China jamais aceitará. Isso gerará um novo e grave problema.
-
-Em seguida, temos a situação de Chiang Kai-shek em Taiwan, que não pode permanecer como está. Embora não seja possível uma ação súbita contra toda a China continental, será necessário algum tipo de avanço para que a situação se estabilize. A China Comunista, por sua vez, não ficará inerte. Acredito que esses dois focos de tensão trarão grandes dificuldades. Além disso, na Indochina, onde o conflito continua, o exército de Ho Chi Minh avança com um ímpeto formidável, a ponto de forçar a retirada das tropas francesas, o que representa outra grave complicação.
-
-Diante de tudo isso, a resolução não será simples. Outro fator de grande importância é que, gradualmente, o comunismo soviético perderá sua influência. Stalin era um homem de poder extraordinário. Embora maligno, sua força era inegável. Após sua morte, não há ninguém capaz de realizar nem metade do que ele fez. Malenkov e Molotov são figuras de capacidade limitada. Por essa razão, a União Soviética começará a ruir. E a ruína da União Soviética significa a ruína do comunismo. Um modelo disso já se manifestou claramente dentro da nossa própria Igreja. Aqueles que estão a par dos acontecimentos saberão do que falo, mas, como não posso me expressar abertamente sobre o assunto, cabe a cada um discernir. Portanto, podemos considerar que o comunismo entrou em sua fase de extinção.
-
-Nesse ponto, poderíamos nos perguntar sobre os Estados Unidos. Muitos talvez pensem que, com a queda de seu adversário, eles prosperarão conforme sua vontade. Contudo, segundo o Plano de Deus, os Estados Unidos enfrentarão uma provação terrível. É possível que uma era de sofrimento, talvez maior que a da União Soviética, se aproxime — na verdade, ela virá em breve. Ainda não posso dar detalhes, mas ocorrerá algo inédito desde a fundação do país. Do ponto de vista do Plano Divino, haverá uma transformação grandiosa não apenas na União Soviética, mas também nos Estados Unidos. Falarei mais sobre isso com o tempo, mas não demorará muito. Prevejo que se manifestará ainda neste ano. Trata-se do processo de destruição e reconstrução, da reestruturação do mundo. Somente depois disso é que a Sekaikyuseikyou iniciará seu verdadeiro trabalho e se manifestará em escala global. O que fazemos agora é a preparação para esse momento. Não posso aprofundar mais o assunto, por isso encerro por aqui, tendo oferecido alguns pensamentos sobre a morte de Stalin.
-
-Outro dia, falei sobre as novas religiões e também escrevi um artigo a respeito. Sobre as doenças mentais, também já discorri, mas hoje gostaria de lhes ensinar algo interessante. Costuma-se pensar que as enfermidades femininas decorrem de problemas ginecológicos, mas não é bem assim. Tomemos como exemplo a histeria, a dor de cabeça e outras afecções relacionadas à cabeça. Nesses casos, o Johrei na cabeça e no pescoço é importante, mas a região do útero tem uma relação muito grande com o problema. Portanto, ao ministrar Johrei nessa área, a cabeça melhora. O ponto fundamental das doenças femininas está nessa região. Sendo um ponto vital, o acúmulo de toxinas ali pode gerar febre purificadora e diversos processos de dissolução que repercutem na cabeça.
-
-É preciso saber que tudo o que ocorre na parte da frente dessa região está relacionado com a parte frontal da cabeça, e o que ocorre na parte de trás, com a região anal. Diarreia e disenteria, por exemplo, são eliminações de toxinas da parte posterior da cabeça. Já as toxinas da parte frontal da cabeça são eliminadas pela frente, manifestando-se como corrimentos, que são particularmente comuns. Assim como falamos em Céu e Terra, há uma profunda conexão: tratar a cabeça melhora os problemas ginecológicos, e tratar a região pélvica melhora a cabeça. Saber disso e aplicar no Johrei produzirá grandes resultados, por isso, experimentem. Se sua esposa estiver intratável e tiver uma crise de histeria, ministrem Johrei nessa região. Será excelente se isso trouxer harmonia ao lar.
-
-Essa área do corpo possui muitos outros significados. Contudo, pela sua natureza, é um tema que um ginecologista poderia abordar com mais propriedade. Como nossa abordagem é espiritual, não é necessário um conhecimento tão detalhado, mas é importante estarmos cientes dessas questões. Separações, maridos que buscam amantes e outras tragédias familiares podem ocorrer, mas não se pode culpar apenas o homem. A verdade é que, devido a disfunções nessa área, muitas mulheres não conseguem satisfazer seus maridos, e isso é relativamente comum. Portanto, a responsabilidade não é só do marido; a esposa também tem sua parcela. E a única forma de corrigir isso é através do Johrei. Antigamente, cheguei a curar casos de frigidez, é algo que tem cura. A dificuldade é que, quando pergunto: "Como está?", a pessoa não responde: "Graças ao senhor, melhorei". No entanto, a melhora é visível em sua fisionomia; ela sorri, e isso basta para saber que está bem.
-
-Há também jovens que têm aversão ao casamento, o que está intimamente ligado a problemas nessa região. A medicina chama isso de espasmos vaginais; há casos em que um simples toque causa uma dor lancinante. São essas moças que dizem que permanecerão solteiras por toda a vida, pois não revelam o verdadeiro motivo. Isso também pode ser curado com Johrei. Existe ainda a ausência de pelos pubianos, causada por toxinas solidificadas sob a pele que impedem seu crescimento; isso também tem cura. Há muitos outros exemplos, mas creio que não seja necessário entrar em mais detalhes para que compreendam. Por hoje, é tudo.
 
 ---
 

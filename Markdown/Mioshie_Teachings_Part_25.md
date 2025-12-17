@@ -4,6 +4,7 @@
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年6月5日） | **Status:** Published | **Edição/Página:** 23号 | **Data ISO:** 1953-07-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## O Desespero dos Espíritos Malignos e o Avanço da Luz Divina
 
@@ -69,6 +70,7 @@ A razão para isso é que o número de relatos de graças tem aumentado tanto qu
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S29年3月6日） | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1954-04-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Essência da Salvação e a Visão da Verdade
 
@@ -122,6 +124,7 @@ A estrutura é como uma pirâmide, com o ápice representando o estado de Kenshi
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年4月6日） | **Status:** Published | **Edição/Página:** 9号 | **Data ISO:** 1952-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre a Providência Divina e o Discernimento Espiritual
 
@@ -193,6 +196,7 @@ Contudo, para que a redenção seja efetiva, é preciso que exista a figura do "
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S27年12月17日） | **Status:** Published | **Edição/Página:** 17号 | **Data ISO:** 1953-01-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Análise da Conjuntura Mundial e a Missão da Fé
 
@@ -240,6 +244,7 @@ Embora o tempo seja escasso, gostaria de ler mais um artigo interessante.
 
 **Categoria:** te | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 天狗界 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## O Mundo dos Tengu
 
@@ -279,6 +284,7 @@ A personalidade do Tengu é caracterizada por seu gosto pela argumentação, sua
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年7月17日） | **Status:** Published | **Edição/Página:** 24号 | **Data ISO:** 1953-08-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## A Superioridade da Luz Divina sobre a Ciência
 
@@ -340,6 +346,7 @@ As enfermidades do fígado, do pâncreas ou dos intestinos têm uma origem difer
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
 **Título Original:** 御講話 （S28年11月6日） | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1953-12-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 御教え集
 
 ## Sobre o Avanço da Obra Divina e a Missão da Beleza
 
@@ -383,6 +390,7 @@ A propósito, o *Chicago Tribune* possui quatro mil e duzentos funcionários, su
 
 **Categoria:** te | **Ano:** 昭和26(1951)年7月11日 | **Fonte:** Eikou
 **Título Original:** 天国は美の世界 | **Status:** Published | **Edição/Página:** 112号 | **Data ISO:** 1951-07-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Paraíso é o Mundo do Belo
 
@@ -410,6 +418,7 @@ Para concluir, gostaria de tecer um comentário sobre o comunismo. Embora essa i
 
 **Categoria:** te | **Ano:** 昭和28(1953)年1月7日 | **Fonte:** Eikou
 **Título Original:** 鉄剤 ・医学断片集（25） | **Status:** Published | **Edição/Página:** 190号 | **Data ISO:** 1953-01-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Propósito Divino dos Materiais
 
@@ -429,6 +438,7 @@ Nesse sentido, quando todas as coisas são julgadas à luz do bom senso, sua fin
 
 **Categoria:** te | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
 **Título Original:** 哲学的に観たる本医術 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1942-09-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（初版）第二編
 
 ## Uma Análise Filosófica da Arte da Cura
 
@@ -466,6 +476,7 @@ O resultado, portanto, é verdadeiramente singular: a medicina em que depositava
 
 **Categoria:** te | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
 **Título Original:** 天国と地獄 自観叢書第3編 | **Status:** Published | **Edição/Página:** P.20 | **Data ISO:** 1949-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 霊界叢談
 
 ## A Composição do Céu e do Inferno
 
@@ -505,6 +516,7 @@ Creio ter abordado, de forma geral, a constituição do Mundo Espiritual, a vida
 
 **Categoria:** te | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 天国と地獄 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## Céu e Inferno
 
@@ -522,6 +534,7 @@ Esse equívoco resulta na perda de vidas que poderiam ser salvas, demonstrando q
 
 **Categoria:** te | **Ano:** 昭和27(1952)年12月17日 | **Fonte:** Eikou
 **Título Original:** 手当 医学断片集（24） | **Status:** Published | **Edição/Página:** 187号 | **Data ISO:** 1952-12-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Impropriedade do Tratamento Paliativo
 
@@ -537,6 +550,7 @@ Poder-se-ia conjecturar que seu significado remeta a práticas como afagar ou ma
 
 **Categoria:** te | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 天理教 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.38 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## Relatos sobre a fé e a cura
 
@@ -558,6 +572,7 @@ Nesse momento, porém, a mesma reflexão me ocorreu. Se eu a levasse à cura com
 
 **Categoria:** te | **Ano:** 昭和23(1948)年 | **Fonte:** 天降説
 **Título Original:** 天降説 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1948
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## Sobre o Advento do Messias
 
@@ -577,6 +592,7 @@ Sendo uma tese tão inverossímil, foi-me de todo impossível aceitá-la. Tal eq
 
 **Categoria:** te | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 癲癇 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.63 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## Um Caso de Epilepsia e sua Origem Espiritual
 
@@ -594,6 +610,7 @@ A identidade do espírito que atormentava esta serviçal era a de um recém-nasc
 
 **Categoria:** te | **Ano:** 昭和25(1950)年1月14日 | **Fonte:** -
 **Título Original:** 低能児は治る | **Status:** Published | **Edição/Página:** 45号 | **Data ISO:** 1950-01-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## É Possível Sanar a Deficiência Intelectual
 
@@ -615,6 +632,7 @@ Permitam-me apresentar outro exemplo. Observa-se que, quanto mais nos aproximamo
 
 **Categoria:** te | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 癲癇 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Verdadeira Causa da Epilepsia
 
@@ -640,6 +658,7 @@ O espírito que atua nesta jovem é o de um recém-nascido. Sua avó concebeu um
 
 **Categoria:** te | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
 **Título Original:** 天才児童はどうして出来るか | **Status:** Published | **Edição/Página:** 53号 | **Data ISO:** 1950-03-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Origem das Crianças-Prodígio
 
@@ -661,6 +680,7 @@ Contudo, é preciso salientar que nem todas as crianças-prodígio alcançam o p
 
 **Categoria:** te | **Ano:** 昭和27(1952)年7月9日 | **Fonte:** Eikou
 **Título Original:** 伝染病恐るるに足らず | **Status:** Published | **Edição/Página:** 164号 | **Data ISO:** 1952-07-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Princípio da Purificação e as Epidemias
 
@@ -684,6 +704,7 @@ Uma vez compreendido este princípio, as doenças contagiosas não apenas deixam
 
 **Categoria:** te | **Ano:** 昭和25(1950)年11月20日 | **Fonte:** 世界Kyusei教早わかり
 **Título Original:** 天地創造記 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1950-11-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教早わかり
 
 ## A Gênese do Mundo e a Vontade Divina
 
@@ -707,6 +728,7 @@ Tendo proferido estas palavras, Ele ascendeu aos Céus sobre uma nuvem e partiu.
 
 **Categoria:** te | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 癲癇 ・病気と霊三 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## Sobre a Epilepsia
 
@@ -730,6 +752,7 @@ Sua resposta significa que ele não encontra outro corpo humano para onde se dir
 
 **Categoria:** te | **Ano:** 昭和27(1952)年1月1日 | **Fonte:** Eikou
 **Título Original:** 天国篇 ・ミロクの世の実相 | **Status:** Published | **Edição/Página:** 137号 | **Data ISO:** 1952-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Capítulo do Paraíso
 
@@ -763,6 +786,7 @@ Quanto à segunda modalidade de invasão, a que não é motivada pela necessidad
 
 **Categoria:** te | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
 **Título Original:** 天然痘 | **Status:** Published | **Edição/Página:** 103号 | **Data ISO:** 1952-12-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核信仰療法
 
 ## A Verdade sobre a Varíola e sua Cura
 
@@ -815,6 +839,7 @@ Meishu-Sama, muito obrigada.
 
 **Categoria:** te | **Ano:** 昭和25(1950)年9月20日 | **Fonte:** Eikou
 **Título Original:** 展覧会を観て（上） | **Status:** Published | **Edição/Página:** 70号 | **Data ISO:** 1950-09-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Impressões sobre o Cenário Artístico Contemporâneo
 
@@ -846,6 +871,7 @@ Gosu aka-e (呉須赤絵): Estilo de cerâmica com esmalte vermelho produzido em
 
 **Categoria:** te | **Ano:** 昭和25(1950)年3月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 天理本道に就て | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1950-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Questão da Tenri Honmichi
 
@@ -869,6 +895,7 @@ Cabe agora reexaminarmos a referida profecia do senhor Onishi. O evento da abdic
 
 **Categoria:** te | **Ano:** 昭和24(1949)年9月24日 | **Fonte:** -
 **Título Original:** 低気圧は人災なり | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1949-09-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Origem Humana das Calamidades Climáticas
 
@@ -896,6 +923,7 @@ Pelo exposto, fica evidente que o único meio de prevenir as perturbações atmo
 
 **Categoria:** te | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
 **Título Original:** 天国化と健康問題 | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1949-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Edificação do Paraíso e a Questão da Saúde
 
@@ -915,6 +943,7 @@ Reconheço que a argumentação aqui exposta pode ter sido excessivamente franca
 
 **Categoria:** te | **Ano:** 昭和26(1951)年5月9日 | **Fonte:** Eikou
 **Título Original:** 天然痘はこの通り治る | **Status:** Published | **Edição/Página:** 103号 | **Data ISO:** 1951-05-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Evidência da Cura da Varíola
 
@@ -962,6 +991,7 @@ Muito obrigada, Meishu-Sama.
 
 **Categoria:** te | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 伝染病と黴菌 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Verdade sobre as Doenças Contagiosas e os Micróbios
 
@@ -1033,6 +1063,7 @@ Por essa razão, considero que o termo “indução” é mais apropriado que �
 
 **Categoria:** te | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
 **Título Original:** 伝染病 | **Status:** Published | **Edição/Página:** P.53 | **Data ISO:** 1953-01-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** アメリカを救う
 
 ## A Missão Purificadora das Doenças Infecciosas
 
@@ -1056,6 +1087,7 @@ Ademais, após a recuperação de uma disenteria, a capacidade intelectual melho
 
 **Categoria:** te | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
 **Título Original:** 天狗界 自観叢書第3編 | **Status:** Published | **Edição/Página:** P.62 | **Data ISO:** 1949-08-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 霊界叢談
 
 ## O Mundo dos Tengu e sua Natureza Espiritual
 
@@ -1093,6 +1125,7 @@ Já os indivíduos sob a influência de um Tengu de origem aviária manifestam t
 
 **Categoria:** te | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
 **Título Original:** 天国建設と悪の追放 | **Status:** Published | **Edição/Página:** 169号 | **Data ISO:** 1952-08-13
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Construção do Paraíso e a Expulsão do Mal
 
@@ -1116,6 +1149,7 @@ Com o exposto, creio que o significado fundamental do bem e do mal ficou claro. 
 
 **Categoria:** te | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 哲学的に観たる本医術 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Uma Perspectiva Filosófica sobre a Verdadeira Medicina
 
@@ -1147,6 +1181,7 @@ E aqui, chegamos a um ponto crucial. A esmagadora maioria dos que nos procuram o
 
 **Categoria:** te | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
 **Título Original:** デパート教 | **Status:** Published | **Edição/Página:** 97号 | **Data ISO:** 1951-03-28
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Religião Loja de Departamentos
 
@@ -1168,6 +1203,7 @@ Eis, em linhas gerais, o significado do termo “Religião Loja de Departamentos
 
 **Categoria:** te | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
 **Título Original:** 低気圧は人災なり (再録) 自観叢書12編 | **Status:** Published | **Edição/Página:** 28号 | **Data ISO:** 1950-01-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 自観説話集
 
 ## Os Sistemas de Baixa Pressão São Calamidades de Origem Humana
 
@@ -1197,6 +1233,7 @@ Pelo exposto, fica evidente que o caminho para a prevenção dos sistemas de bai
 
 **Categoria:** te | **Ano:** 昭和25(1950)年10月4日 | **Fonte:** Eikou
 **Título Original:** 天国は芸術の世界 | **Status:** Published | **Edição/Página:** 72号 | **Data ISO:** 1950-10-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Paraíso é o Mundo da Arte
 
@@ -1218,6 +1255,7 @@ Portanto, tanto a nossa prática de curar doenças quanto a reforma que promovem
 
 **Categoria:** te | **Ano:** 昭和25(1950)年3月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 天国予言の具体化 | **Status:** Published | **Edição/Página:** 14号 | **Data ISO:** 1950-03-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Concretização da Profecia do Paraíso
 
@@ -1235,6 +1273,7 @@ Nesse sentido, a obra que atualmente realizamos já foi profetizada há dois mil
 
 **Categoria:** te | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 天国篇 未発表 | **Status:** Unpublished | **Edição/Página:** 137号 | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Edificação do Paraíso Terrestre
 
@@ -1256,6 +1295,7 @@ Passarei, então, a descrever em detalhes e de forma ordenada como será, concre
 
 **Categoria:** te | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
 **Título Original:** 抵抗力 | **Status:** Published | **Edição/Página:** 50号 | **Data ISO:** 1950-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Verdade sobre a Força de Resistência
 
@@ -1273,6 +1313,7 @@ Fica evidente, nesse sentido, o erro colossal em que a medicina incorre.
 
 **Categoria:** te | **Ano:** 昭和24(1949)年12月20日 | **Fonte:** Chijo Tengoku
 **Título Original:** 転向者の悩みに応う | **Status:** Published | **Edição/Página:** 11号 | **Data ISO:** 1949-12-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Uma Resposta à Angústia dos Conversos
 
@@ -1306,6 +1347,7 @@ A fé autêntica é aquela que brota espontaneamente do fundo da alma, um impuls
 
 **Categoria:** te | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 癲癇と精神病 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Epilepsia e as Enfermidades Mentais
 
@@ -1323,6 +1365,7 @@ Somente este fato já demonstra que o nosso lema de salvar toda a humanidade nã
 
 **Categoria:** te | **Ano:** 昭和25(1950)年9月27日 | **Fonte:** Eikou
 **Título Original:** 展覧会を観て（下） | **Status:** Published | **Edição/Página:** 71号 | **Data ISO:** 1950-09-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Reflexões sobre a Decadência da Arte
 
@@ -1346,6 +1389,7 @@ Para concluir, dirijo-me a todos os pintores deste mundo com uma palavra final. 
 
 **Categoria:** te | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
 **Título Original:** 低級宗教 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1935-09-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 病貧争絶無の世界を造る観音運動とは何？
 
 ## O Discernimento sobre as Religiões Inferiores
 
@@ -1369,6 +1413,7 @@ Existe, ademais, outra categoria, que consiste na veneração de raposas, tengus
 
 **Categoria:** te | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
 **Título Original:** 天国は芸術の世界なり | **Status:** Published | **Edição/Página:** 51号 | **Data ISO:** 1950-02-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## O Paraíso é o Mundo da Arte
 
@@ -1386,6 +1431,7 @@ Pelo exposto, cumpre-nos compreender que o Mundo de Miroku, o Paraíso na Terra,
 
 **Categoria:** te | **Ano:** 昭和6(1931)年7月10日 | **Fonte:** 天国の花
 **Título Original:** 天人会規約 （以印刷換謄写） | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1931-07-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の花
 
 ## Regulamento da Associação Tennenkai
 
@@ -1430,6 +1476,7 @@ Shofuso (松風荘), Hakkeien, Omori, Tóquio
 
 **Categoria:** te | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 天国建設の順序と悪の追放 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Edificação do Paraíso e a Expulsão do Mal
 
@@ -1459,6 +1506,7 @@ Com base no que foi explanado, o significado fundamental do bem e do mal deve es
 
 **Categoria:** te | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 天国的宗教と地獄的宗教 | **Status:** Published | **Edição/Página:** 46号 | **Data ISO:** 1953-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Religião do Paraíso e as Religiões do Inferno
 
@@ -1494,6 +1542,7 @@ Diante da verdade aqui exposta, seria natural que qualquer pessoa celebrasse e e
 
 **Categoria:** te | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
 **Título Original:** 哲学的に観たる本医術 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第二編
 
 ## Fé, Ceticismo e a Verdadeira Cura
 
@@ -1531,6 +1580,7 @@ Este fato, por si só, demonstra a inquestionável diferença no poder de cura. 
 
 **Categoria:** te | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 天狗界 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Esfera dos Tengu
 
@@ -1576,6 +1626,7 @@ Por outro lado, os possuídos por Tengu-pássaros manifestam as características
 
 **Categoria:** u | **Ano:** 昭和24(1949)年7月30日 | **Fonte:** -
 **Título Original:** 氏神に就て | **Status:** Published | **Edição/Página:** 20号 | **Data ISO:** 1949-07-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Distinção entre Ujigami e Ubusunagami
 
@@ -1591,6 +1642,7 @@ Ademais, ao se edificar um santuário Ubusuna, havia outras práticas. Em certos
 
 **Categoria:** te | **Ano:** 昭和26(1951)年10月24日 | **Fonte:** Eikou
 **Título Original:** 天国的宗教と地獄的宗教 | **Status:** Published | **Edição/Página:** 127号 | **Data ISO:** 1951-10-24
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Religião Paradisíaca e Religião Infernal
 
@@ -1634,6 +1686,7 @@ E eu afirmo que essa religião é a nossa, a Igreja Messiânica. A razão para i
 
 **Categoria:** u | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
 **Título Original:** 運命と自由主義 | **Status:** Published | **Edição/Página:** P.40 | **Data ISO:** 1948-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 信仰雑話
 
 ## Sobre Predestinação e Destino
 
@@ -1651,6 +1704,7 @@ Portanto, quando se ultrapassa essa esfera, viola-se a liberdade alheia, e o ind
 
 **Categoria:** u | **Ano:** 昭和27(1952)年6月4日 | **Fonte:** Eikou
 **Título Original:** 宇宙は地球以外に生物なし | **Status:** Published | **Edição/Página:** 159号 | **Data ISO:** 1952-06-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdadeira Natureza do Universo
 
@@ -1668,6 +1722,7 @@ Em virtude desses princípios, a astronomia, da qual os cientistas tanto se orgu
 
 **Categoria:** u | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
 **Título Original:** 運命の転換 自観叢書第9篇 | **Status:** Published | **Edição/Página:** P.41 | **Data ISO:** 1949-12-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 光への道
 
 ## A Transformação do Destino
 
@@ -1700,6 +1755,7 @@ De fato, em minhas peregrinações a diversos santuários, vivenciei muitas situ
 
 **Categoria:** u | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 疑い結構 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Superstição dos Intelectuais
 
@@ -1717,6 +1773,7 @@ Este fato demonstra claramente que o verdadeiro supersticioso é aquele que, ape
 
 **Categoria:** i | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
 **Título Original:** 意気地のない宗教 | **Status:** Published | **Edição/Página:** 32号 | **Data ISO:** 1949-10-22
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Religião Covarde
 
@@ -1732,6 +1789,7 @@ Em suma, sua empreitada assemelha-se à do louva-a-deus que tenta deter uma carr
 
 **Categoria:** u | **Ano:** 昭和8(1933)年10月16日 | **Fonte:** Kyusei
 **Título Original:** 蛆虫の説 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1933-10-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## A Prédica do Verme
 
@@ -1759,6 +1817,7 @@ Portanto, despertem o quanto antes! Limpem bem os seus ouvidos e venham a mim. T
 
 **Categoria:** i | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 医学と自然 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## A Falácia da Medicina Moderna e o Princípio da Purificação
 
@@ -1784,6 +1843,7 @@ Sendo assim, tanto a saúde quanto a doença do ser humano devem ser compreendid
 
 **Categoria:** u | **Ano:** 昭和27(1952)年2月27日 | **Fonte:** Eikou
 **Título Original:** 運命は自由に作れる | **Status:** Published | **Edição/Página:** 145号 | **Data ISO:** 1952-02-27
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Destino Pode Ser Livremente Moldado
 
@@ -1809,6 +1869,7 @@ Para tanto, não há outro caminho senão a fé. É preciso ressaltar, contudo, 
 
 **Categoria:** i | **Ano:** - | **Fonte:** 医学の発見に就て
 **Título Original:** 医学の発見に就て | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** -
 
 ## A Ilusão das Curas Médicas Temporárias
 
@@ -1832,6 +1893,7 @@ O que se pode depreender de tudo isso é que, ao testarem um novo fármaco, os p
 
 **Categoria:** u | **Ano:** 昭和39(1964)年2月1日 | **Fonte:** Chijo Tengoku
 **Título Original:** 嘘と幸福 未発表、年代不詳 | **Status:** Unpublished | **Edição/Página:** 173号 | **Data ISO:** 1964-02-01
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## A Mentira e a Felicidade
 
@@ -1861,6 +1923,7 @@ Há uma história a esse respeito. O célebre Kato Takaaki, que conquistou a adm
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月10日 | **Fonte:** Eikou
 **Título Original:** 医診では病気は分らない | **Status:** Published | **Edição/Página:** 173号 | **Data ISO:** 1952-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Medicina é Incapaz de Diagnosticar as Doenças
 
@@ -1905,6 +1968,7 @@ Muito obrigada, Meishu-Sama.
 
 **Categoria:** u | **Ano:** 昭和26(1951)年9月5日 | **Fonte:** Eikou
 **Título Original:** 嘘吐き迷信 | **Status:** Published | **Edição/Página:** 120号 | **Data ISO:** 1951-09-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Supersticiosa Crença na Mentira
 
@@ -1940,6 +2004,7 @@ Se não conseguem crer em uma verdade tão manifesta, é porque estão aprisiona
 
 **Categoria:** i | **Ano:** 昭和28(1953)年6月17日 | **Fonte:** Eikou
 **Título Original:** 医学の恐ろしさ | **Status:** Published | **Edição/Página:** 213号 | **Data ISO:** 1953-06-17
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Homicídio de Boa-Fé Praticado pela Medicina
 
@@ -1979,6 +2044,7 @@ Muito obrigada, Meishu-Sama.
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
 **Título Original:** 医学迷信 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教奇蹟集
 
 ## A Falácia da Medicina Moderna
 
@@ -2027,6 +2093,7 @@ Quando penso que, no momento do Juízo Final da humanidade, que se aproxima a pa
 
 **Categoria:** i | **Ano:** 昭和28(1953)年1月21日 | **Fonte:** Eikou
 **Título Original:** 医師の無責任という言葉 医学断片集（27） | **Status:** Published | **Edição/Página:** 192号 | **Data ISO:** 1953-01-21
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Verdade sobre a Irresponsabilidade Médica
 
@@ -2042,6 +2109,7 @@ Situações como as descritas são ouvidas com frequência. Onde reside, portant
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医療と薬毒の恐怖 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## A Aterradora Realidade da Medicina e do Yakudoku
 
@@ -2055,6 +2123,7 @@ Ao observar tais situações, anseio ardentemente que os próprios médicos, mai
 
 **Categoria:** i | **Ano:** 昭和28(1953)年12月9日 | **Fonte:** Eikou
 **Título Original:** 偉大なる哉浄霊 | **Status:** Published | **Edição/Página:** 238号 | **Data ISO:** 1953-12-09
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Grandiosidade do Johrei
 
@@ -2095,6 +2164,7 @@ Meishu-Sama, muito obrigada.
 
 **Categoria:** i | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
 **Título Original:** 医者の遁辞 | **Status:** Published | **Edição/Página:** 49号 | **Data ISO:** 1950-02-11
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
 
 ## As Escusas da Medicina
 
@@ -2110,6 +2180,7 @@ A esse respeito, recordo-me do desabafo de um certo doutor em medicina. Ele conf
 
 **Categoria:** i | **Ano:** 昭和27(1952)年8月20日 | **Fonte:** Eikou
 **Título Original:** 医学が病気を作る実例 | **Status:** Published | **Edição/Página:** 170号 | **Data ISO:** 1952-08-20
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A medicina como geradora de doenças: um caso real
 
@@ -2151,6 +2222,7 @@ Muito obrigado, Meishu-Sama.
 
 **Categoria:** i | **Ano:** 昭和26(1951)年3月14日 | **Fonte:** Eikou
 **Título Original:** 一種の罪悪 | **Status:** Published | **Edição/Página:** 95号 | **Data ISO:** 1951-03-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Espécie de Crime
 
@@ -2172,6 +2244,7 @@ No entanto, se a questão se limitasse a isso, não seria tão problemática. O 
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
 **Título Original:** 医学不明の流行病 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術（再版）第二編
 
 ## Uma Enfermidade de Causa Desconhecida pela Medicina
 
@@ -2189,6 +2262,7 @@ Este quadro sintomático manifesta-se com maior frequência em pessoas das class
 
 **Categoria:** i | **Ano:** 昭和26(1951)年11月7日 | **Fonte:** Eikou
 **Título Original:** 医学の革命 | **Status:** Published | **Edição/Página:** 129号 | **Data ISO:** 1951-11-07
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Uma Revolução na Medicina
 
@@ -2206,6 +2280,7 @@ Em suma, o primeiro passo de Deus é a reforma da medicina moderna. Diferentemen
 
 **Categoria:** i | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Eikou
 **Título Original:** 医学の無力 | **Status:** Published | **Edição/Página:** 201号 | **Data ISO:** 1953-03-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Impotência da Medicina
 
@@ -2246,6 +2321,7 @@ Rogo humildemente que continue a nos proteger, a nós, que ainda carregamos tant
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月18日 | **Fonte:** Eikou
 **Título Original:** 医学の迷蒙 | **Status:** Published | **Edição/Página:** 196号 | **Data ISO:** 1953-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## O Engano da Medicina
 
@@ -2298,6 +2374,7 @@ Meishu-Sama, muito obrigado.
 
 **Categoria:** i | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
 **Título Original:** 医学に欺されてる医師 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1936-05-15
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術・新日本医術としての岡田式療病法
 
 ## Os Médicos Iludidos pela Medicina
 
@@ -2331,6 +2408,7 @@ Por conseguinte, as pessoas que depositam uma fé cega e absoluta na medicina oc
 
 **Categoria:** i | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
 **Título Original:** 伊都能売神 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1952
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 文明の創造
 
 ## A Verdadeira Gênese do Budismo
 
@@ -2362,6 +2440,7 @@ Contudo, o nome Kanzeon encerra um profundo mistério, sobre o qual passarei a d
 
 **Categoria:** i | **Ano:** 昭和28(1953)年11月4日 | **Fonte:** Eikou
 **Título Original:** 生きてる宗教 | **Status:** Published | **Edição/Página:** 233号 | **Data ISO:** 1953-11-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## A Religião Viva
 
@@ -2397,6 +2476,7 @@ Isso me faz recordar o célebre filósofo americano William James e sua doutrina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
 **Título Original:** 医学迷信の一例 | **Status:** Published | **Edição/Página:** 194号 | **Data ISO:** 1953-02-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Exemplo da Superstição Médica
 
@@ -2443,6 +2523,7 @@ A Meishu-Sama, meu eterno e mais profundo agradecimento.
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
 **Título Original:** 医学迷信者の典型的実例 未発表 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1953
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 医学革命の書
 
 ## O Exemplo Típico do Crente na Superstição Médica
 
@@ -2460,6 +2541,7 @@ A esse respeito, cumpre advertir: será muito mais sensato que o façam o quanto
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
 **Título Original:** 医学関係者よ | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-09-10
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 世界救世教奇蹟集
 
 ## A Ineficácia da Medicina e a Verdadeira Salvação da Tuberculose
 
@@ -2540,6 +2622,7 @@ Em minhas palavras finais, expresso minha mais profunda gratidão a Meishu-Sama.
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
 **Título Original:** 胃癌・ 病気と霊五 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-10-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 明日の医術 第三編
 
 ## A Origem Espiritual do Câncer de Estômago
 
@@ -2561,6 +2644,7 @@ No caso do câncer aparente, embora a condição da área afetada possa parecer 
 
 **Categoria:** i | **Ano:** 昭和26(1951)年9月26日 | **Fonte:** Eikou
 **Título Original:** 医学の考え方 | **Status:** Published | **Edição/Página:** 123号 | **Data ISO:** 1951-09-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Os Equívocos Fundamentais da Medicina Moderna
 
@@ -2585,29 +2669,6 @@ No entanto, a sociedade em geral aclama tais métodos como sendo “medicina ava
 Expus, assim, minha crítica à medicina moderna de forma franca e direta. Espero que, através desta leitura, o leitor possa alcançar alguma compreensão sobre o assunto. Contudo, o simples fato de ser necessário tecer tais apontamentos é, em si, algo verdadeiramente lamentável.
 
 Para concluir, o pensamento que norteou a medicina até hoje esteve focado exclusivamente em suprimir os resultados que se manifestam na superfície. Toda a sua pesquisa se concentrou nesse aspecto, sem que jamais se cogitasse aprofundar a investigação em busca da origem dos males. Como resultado, a verdadeira causa permanece oculta, e a medicina continua a trilhar uma senda equivocada. Considerando que tudo no universo possui uma causa que gera um efeito, meu sincero desejo é que os médicos contemporâneos possam, de alguma forma, despertar para essa realidade e reconsiderar seus fundamentos.
-
----
-
-# Um Mundo de Embustes
-
-**Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** 滑稽阿呆文学
-**Título Original:** インチキ世界 | **Status:** Unpublished | **Edição/Página:** - | **Data ISO:** 1935
-
-## Um Mundo de Embustes
-
-O mundo avança a passos largos, e embora a vida se tenha tornado extraordinariamente conveniente, é inegável que, a reboque desse progresso, a falsidade e o logro se infiltraram em tudo. Vivemos, portanto, em uma sociedade onde não se pode baixar a guarda. Existem embustes de toda sorte: desde os mais grosseiros e evidentes até aqueles revestidos de solenidade, o que, convenhamos, não deixa de ser cômico. Nesse sentido, este néscio que vos fala registrará, sem rodeios, tudo o que seus olhos e ouvidos captarem. Se os leitores se divertirem, que riam à vontade. Se se indignarem, que se enfureçam. E se o tédio os assolar, que simplesmente abandonem a leitura. Afinal, se me preocupasse com a opinião alheia, jamais poderia expressar o que realmente penso.
-
-Aborrecem-me profundamente as perspectivas e frases banais, tão comuns nos escritos alheios. Na visão deste néscio egocêntrico, ao observar o panorama da sociedade, o que vejo é um desfile de nulidades, um encontro fortuito de medíocres. Mesmo aqueles que se pavoneiam com o título de doutor não passam de indivíduos que, à custa da fortuna de seus pais, compraram conhecimento estrangeiro e o entulharam em suas mentes tacanhas. Os sofismas que proferem, com ares de grande importância, no jornalismo ou nos círculos intelectuais, nada mais são do que um meio de subsistência e um artifício para satisfazer sua mesquinha vaidade em busca de algum renome.
-
-Alguém poderia estufar o peito e acusar-me de excessiva maledicência, mas antes de cerrar os punhos e franzir o cenho, peço que, com serenidade, ponham a mão sobre o peito e leiam com atenção os devaneios deste tolo. Como é possível que, diante de tantos logros e falsidades, ninguém se dê conta? Vossos intelectuais e jornalistas devem ter os olhos por meros orifícios e os ouvidos de mercador, e não haverá razão para queixumes se assim forem descritos. Por essa razão, este néscio se propõe a desmascarar, uma a uma, as imposturas do mundo, e a registrá-las gradualmente para o aprendizado das gerações futuras.
-
-O frio deste ano tem sido inclemente. Até mesmo o tão alardeado veículo limpa-neves, importado e motivo de orgulho para o Ministério das Ferrovias, revelou-se completamente inútil. E assim, o homem primitivo que se orgulha de sua civilização, embora brade aos quatro ventos sua intenção de "conquistar a natureza", recebe como resposta um mero bocejo da própria natureza diante de seus engenhos.
-
-Diante desse frio implacável, os ilustres senhores do Observatório Meteorológico, com seu habitual ar de quem tudo sabe e perscruta os segredos do universo, atribuem o fenômeno, como de costume, à atividade das manchas solares. Contudo, convenientemente se omitem de explicar a natureza de tais manchas ou sua real conexão com a intensidade do frio. Para tudo o que não compreendem, a resposta é invariavelmente a mesma: a culpa é das manchas solares. Que fardo pesado carregam essas pobres manchas!
-
-Apesar disso, devo confessar uma certa admiração pelos senhores do Observatório, e não digo isso em tom de lisonja. Afinal, ao culpar as manchas solares por tudo, eles garantem que sua tese jamais seja refutada. Sabem perfeitamente que ninguém poderá viajar até o Sol para verificar a veracidade de suas alegações. Na realidade, porém, apenas imitam algum cientista ocidental — cuja competência desconheço — de modo que hesito entre o elogio e a crítica.
-
-Todavia, há algo que me inspira uma admiração ainda maior: a previsão do tempo. A formulação do texto é simplesmente genial: "O tempo amanhã será de céu claro, mas com possibilidade de nebulosidade, podendo ocorrer chuvas esparsas em certas localidades". Com uma declaração dessas, quer faça sol, quer o céu se encubra ou chova, a previsão estará sempre correta. Uma frase de uma estranheza e engenhosidade admiráveis, capaz de causar inveja ao mais astuto dos adivinhos. Refletindo melhor, porém, a necessidade de criar uma formulação tão ambígua reside na natureza caprichosa dos sistemas de baixa pressão. Portanto, que fique claro: minhas queixas e críticas não se dirigem aos funcionários do Observatório, mas sim a esse grande impostor e sua inconstância: o sistema de baixa pressão.
 
 ---
 

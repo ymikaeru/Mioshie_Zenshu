@@ -1,9 +1,1510 @@
 # Mioshie_Teachings - Part 72
 
+# — Coletânea de Artigos do Mestre Okada Jikan —
+
+**Categoria:** sanko | **Ano:** 昭和27(1952)年7月2日 | **Fonte:** Eikou
+**Título Original:** 参考文献 「おけさ」の島の自然栽培回顧座談会 | **Status:** Published | **Edição/Página:** 163号 | **Data ISO:** 1952-07-02
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## — Coletânea de Artigos do Mestre Okada Jikan —
+Busca de Ensinamentos | Busca de Documentos | Referências Bibliográficas
+
+## Mesa-redonda Retrospectiva sobre a Agricultura Natural na Ilha do "Okesa"
+Revista Glória, nº 163, publicada em 2 de julho de 1952 (Showa 27)
+
+**Local:** Anexo de Sado da Igreja Koyo, Suwa-cho, Kawarada-machi, Sado-gun, Niigata
+**Moderador:** Tomizo Ishii, Vice-presidente da Igreja Koyo
+**Data e Hora:** 1º de março de 1952, a partir das 19h
+**Participantes:** Tatsu Oda, Tomizo Matsumoto, Shusaburo Tsuchiya, Teiichi Nahata, Sue Tsuchiya, Shintaro Kitami, Kansaku Kataoka, Nao Tsuchida, Tatsuo Uesaka
+(e mais de dez outros presentes)
+
+Rumo a Sado, a Sado, curvam-se as ervas e as árvores... Conhecida em todo o mundo pelos versos de sua canção, a ilha de Sado, famosa pelo "Okesa", dista três horas de navio do porto de Niigata, uma travessia de aproximadamente sessenta quilômetros. É um lugar onde as ondas bravias do Mar do Japão se quebram contra a costa de pinheiros verdejantes; onde as cordilheiras de Osado e Kosado, como espírito e corpo, abraçam-se em mútua harmonia. Uma ilha com cinquenta e três léguas de circunferência, envolta em uma aura de mistério. Foi nesta ilha de Sado que o evangelho do Deus da Salvação foi proclamado, e onde a Agricultura Natural vem sendo praticada há três ou quatro anos. Notavelmente, desde o primeiro ano, não houve um único agricultor que sofresse redução em sua colheita. Um diferencial particular é que a purificação espiritual, o Johrei, quase não foi realizado nos arrozais, o que corrobora o ensinamento de Meishu-Sama de que mesmo os não-membros, se praticarem a Agricultura Natural, obterão colheitas fartas. Cientes de que estes resultados poderiam servir de referência para aqueles que ainda não possuem fé, decidimos organizar esta mesa-redonda.
+
+### O Impacto da Edição Especial sobre Agricultura
+
+**Moderador:** A Sede da Igreja Messiânica Mundial distribuiu por todo o Japão, inclusive para as associações agrícolas, uma edição especial da nossa publicação com o artigo de Meishu-Sama intitulado "É Certo um Aumento de 50% na Produção de Arroz em Cinco Anos". Imagino que exemplares também tenham chegado a Sado. Que repercussões essa "bomba atômica da agricultura" suscitou por aqui?
+
+**Kataoka:** Recentemente, um técnico da cooperativa agrícola da aldeia de Yawata veio conversar comigo. Ele disse que já vinha observando com atenção os excelentes resultados da Agricultura Natural, mas, após ler a edição especial do jornal "Glória", demonstrou enorme interesse, afirmando: "Isto precisa ser estudado a fundo".
+
+**Sue:** O técnico agrícola da aldeia de Ninomiya orgulha-se perante outras aldeias, dizendo: "Na minha aldeia, colhe-se um arroz de qualidade superior".
+
+**Oda:** E é natural que se orgulhe. De todo o arroz entregue pelas seiscentas famílias de agricultores de Ninomiya, apenas cerca de trinta sacas foram classificadas como de segunda classe. E todas essas trinta sacas eram o arroz natural da senhora Sue.
+
+**Moderador:** É realmente esplêndido. Se considerarmos uma entrega média de cinquenta sacas por família, seiscentas famílias totalizam trinta mil sacas. Trinta sacas em trinta mil é, de fato, um feito digno de orgulho.
+
+**Sue:** Anualmente, todos os inspetores de Sado se reúnem para uma avaliação conjunta a fim de estabelecer os padrões de classificação do arroz. Na última reunião, um deles lamentou: "O surgimento de um arroz de tão alta qualidade como este nos causa problemas, pois nos força a rebaixar a classificação do arroz comum".
+
+**Matsumoto:** O prefeito da aldeia de Ninomiya, desde que a edição especial foi distribuída, também tem se vangloriado perante as outras aldeias, dizendo: "Em nossa comunidade, já há pessoas praticando este método há muitos anos".
+
+**Moderador:** A conversão em Sado, estimulada pela "bomba atômica" da edição especial, parece ser surpreendentemente rápida. Senhor Kataoka, sua barbearia funciona como um centro social, uma redação de notícias e uma estação de rádio para a aldeia. Poderia nos descrever brevemente como a percepção sobre a Agricultura Natural evoluiu nos últimos anos?
+
+**Kataoka:** No primeiro ano, foi vista com atenção. No segundo, como loucura. No terceiro, a conclusão foi: "A obra de Deus é diferente". Depois disso, um silêncio absoluto se instalou.
+
+### Sobre as Sementeiras
+
+**Moderador:** Ouvimos relatos de membros em várias regiões que, ao iniciarem, enfrentam dificuldades com o desenvolvimento lento das mudas. Qual a experiência de vocês a esse respeito?
+
+**Nahata:** A questão da sementeira é, sem dúvida, o problema fundamental. A retirada das mudas é a parte mais árdua. Pela constituição local de Sado, os homens não participam dessa tarefa, então, para mim, é um assunto do qual me abstenho. Contudo, minha esposa, ao retornar depois de ajudar as vizinhas em suas sementeiras adubadas, suplica-me para que, ao menos na sementeira, encontremos uma solução.
+
+**Matsumoto:** A queixa dela é compreensível. As raízes se estendem longamente, e, ao puxar, as mudas resistem e se partem com facilidade. É preciso retirá-las com muito cuidado para não quebrar o caule. Quando se faz um feixe, o volume é quase todo de raízes; para ser um tanto hiperbólico, assemelham-se a agulhas de pinheiro com raízes.
+
+**Tsuchiya:** Como diz o ditado, "uma boa muda é meio caminho para uma boa safra", portanto, produzir mudas de qualidade é crucial.
+
+**Matsumoto:** A causa do problema é que as sementeiras são utilizadas no mesmo local por gerações e, tradicionalmente, recebem muito mais adubo que os arrozais comuns. Isso resulta na sedimentação de toxinas do adubo, que formam uma camada endurecida. Eu experimentei usar um local diferente para a sementeira e obtive um resultado excelente.
+
+**Nahata:** As sementeiras são estabelecidas em locais considerados ideais por nossos antepassados, levando em conta fatores como facilidade de irrigação, canais de água, insolação, distância da residência, tipo de solo e relações com os vizinhos. Mudar de local, portanto, acarreta dificuldades. (Todos assentem em concordância.)
+
+**Moderador:** Senhores, vocês estão se tornando os precursores da Agricultura Natural. Nesse sentido, deveriam também criar uma "sementeira precursora" para as futuras gerações. Qual a altura das mudas no momento do transplante?
+
+**Matsumoto:** No início de junho, quando as transplantamos, medem cerca de quinze centímetros. Diz-se que as mudas da Agricultura Natural são mais curtas, mas, se medirmos de fato, veremos que não há diferença. Tanto as mudas naturais quanto as adubadas têm caules do mesmo comprimento. Contudo, como as folhas das mudas adubadas são mais longas, as naturais parecem ser mais curtas.
+
+### Sobre o Composto Orgânico
+
+**Moderador:** Gostaria que discutissem diversos aspectos relacionados ao composto orgânico.
+
+**Matsumoto:** A própria palavra japonesa para "composto" (堆肥) me soa desagradável. O ideograma para "amontoar" (堆) é aceitável, mas o de "adubo" (肥) não me agrada. Será que não poderíamos pedir a Meishu-Sama que criasse um novo termo? (Todos caem na gargalhada.)
+
+**Moderador:** Os senhores também podem pensar em um nome apropriado.
+
+**Nahata:** Eu utilizo palha finamente picada e realizei um experimento com três métodos de aplicação no arrozal. Primeiro, misturar a palha picada à terra por volta de novembro. Segundo, aplicá-la na primavera, antes do plantio. Terceiro, não utilizar palha alguma, praticando a agricultura em seu estado mais puro. A ordem de produtividade da colheita foi a seguinte: em primeiro lugar, a aplicação da palha em novembro; em segundo, a ausência total de palha; e, em terceiro, a aplicação na primavera. Quando a palha é incorporada ao solo em novembro, na primavera a terra se torna mais fofa e macia, o que também aumenta a eficiência do trabalho de preparo do solo antes do plantio.
+
+**Matsumoto:** Pude sentir profundamente a veracidade do ensinamento de Meishu-Sama de que o próprio solo é o adubo. Também compreendi com clareza que o composto orgânico não é um fertilizante. Estou no meu quarto ano de prática, e, na colheita passada, os campos onde apliquei mais composto tiveram os piores resultados, enquanto os que receberam menos se saíram melhor. O campo onde não usei composto algum teve a maior colheita de todas, rendendo cerca de onze sacas e meia. Este ano, não pretendo usar composto algum. Se seguirmos os Ensinamentos e as Escrituras Divinas de Meishu-Sama ao pé da letra, a colheita é infalível. Tentar inovar por conta própria leva a maus resultados.
+
+**Kitami:** O arrozal em frente à minha casa, com cerca de um sexto de hectare, não é adubado há muito tempo e produz colheitas excelentes. Além disso, sempre cultivamos a mesma variedade de arroz; se tentamos uma diferente, surgem muitos grãos chochos e a produção diminui. Através das Escrituras Divinas de Meishu-Sama, compreendi os benefícios do cultivo contínuo da mesma espécie.
+
+**Moderador:** Qual é o custo aproximado com adubos por décimo de hectare para os agricultores da região?
+
+**Todos:** De mil e duzentos ou trezentos a dois mil ienes.
+
+**Moderador:** É um valor relativamente baixo em comparação com os agricultores de Niigata, onde se gasta cerca de dois mil ienes. Os chamados "agricultores exemplares" (篤農家) chegam a gastar cerca de três mil ienes. Contudo, basta um pequeno acento fonético para que "exemplar" se torne "envenenador" (毒農家) em japonês.
+
+### Agricultores que Praticam a Agricultura Natural em Toda a Sua Área (Excluindo-se os que a praticam parcialmente)
+
+| Sobrenome e Nome | Anos de Prática | Área Cultivada | Colheita por *tan* (1951) | Média da Aldeia por *tan* |
+| :--- | :--- | :--- | :--- | :--- |
+| Tomizo Matsumoto | 3º para 4º ano | 1 *chō* e 5 *tan* | 8,1 sacas | 7 sacas |
+| Shusaburo Tsuchiya | 2º ano | 1 *chō*, 4 *tan* e 3 *se* | 8,15 sacas | 7 sacas |
+| Teiichi Nahata | 2º para 3º ano | 9 *tan* | 7,5 sacas | 7 sacas |
+| Sue Tsuchiya | 2º para 3º ano | 9 *tan* e 1 *se* | 7,5 sacas | 6,3 sacas |
+
+### Sobre o Johrei
+
+**Moderador:** Ao analisar os relatórios apresentados, observo que o Johrei praticamente não é realizado. Qual a frequência aproximada?
+
+**Matsumoto:** Fica deselegante escrever "nenhuma vez", então anotei "uma vez", mas a verdade é que quase não ministramos Johrei nos arrozais.
+
+**Tsuchiya:** Sentimo-nos constrangidos diante dos outros moradores. Se eu acenasse com a mão para as plantas de arroz, seria um escândalo, diriam que enlouqueci. Minha própria família me pede: "Por favor, ao menos durante o dia, não acene com as mãos". Por isso, não realizamos o Johrei de forma alguma.
+
+**Moderador:** Então todos aqui pensam da mesma forma?
+
+**Todos:** Sim, pedimos desculpas... (risos)
+
+**Moderador:** Contudo, os resultados obtidos, com colheitas abundantes e sem um único caso de quebra de safra desde o primeiro ano, além do progresso consistente no segundo e terceiro anos, confirmam o ensinamento de Meishu-Sama de que qualquer pessoa, mesmo sem ser membro, pode obter uma boa colheita. Este ano, pelo contrário, peço que purifiquem grandemente o solo através do Johrei. Aguardo com expectativa os resultados no próximo outono.
+
+### Estado de Espírito no Primeiro Ano
+
+**Matsumoto:** Na época em que ingressei na fé, vivíamos a era da Terapia Johrei, e eu nunca tinha ouvido falar da Agricultura Natural. Contudo, raciocinei que, se os remédios são prejudiciais ao corpo humano, os adubos químicos certamente seriam nocivos ao solo. Com essa convicção, decidi iniciar o cultivo natural, usando mudas provenientes de lavoura adubada. Foi justamente nesse período que a Igreja começou a difundir a Agricultura Natural, o que me deu grande força para prosseguir. Desde o primeiro ano, os resultados foram excelentes.
+
+**Moderador:** O senhor foi um precursor, pois iniciou a prática antes mesmo de receber o ensinamento.
+
+**Tsuchiya:** No primeiro ano, as lavouras adubadas da aldeia tiveram uma péssima colheita, de modo que não enfrentei oposição da família. Isso me fez sentir a profundidade do Plano Divino. Minha colheita foi a melhor da aldeia. No segundo ano, os resultados foram tão bons quanto os de uma safra excepcional das lavouras adubadas.
+
+**Sue:** A prefeitura da aldeia emitiu uma notificação para que aplicássemos defensivos agrícolas para a prevenção de pragas e doenças, advertindo que, caso não o fizéssemos e a lavoura fosse afetada, não receberíamos auxílio. Ironicamente, os campos que receberam o tratamento foram quase todos atingidos pela doença do carvão, enquanto o meu, que não foi tratado, permaneceu intacto. Mesmo diante desse fato, as pessoas em geral se limitam a comentar "de fato, a obra de Deus é diferente", mas não se animam a imitar o método.
+
+**Moderador:** E quanto à oposição familiar?
+
+**Tsuchiya:** Em minha casa, a família se dividiu entre a "equipe natural" e a "equipe do adubo". Os homens ficaram do lado natural, e as mulheres, do lado do adubo. Após a colheita de outono, a partir do segundo ano, a equipe do adubo silenciou.
+
+**Matsumoto:** A oposição terminou em 1951... exceto no que diz respeito à horta.
+
+**Kataoka:** Gostaria de compartilhar um episódio sobre o senhor Uesaka. Ele pediu permissão a seu pai para experimentar a Agricultura Natural em apenas um de seus arrozais. O pai, contudo, o incentivou, dizendo: "Por que apenas um? Confio a você todas as terras. Pratique a Agricultura Natural em toda a nossa propriedade".
+
+**Uesaka:** A partir deste ano, dedicarei todo o meu empenho.
+
+### Comparação entre o Cultivo Natural e o Adubado (Condição das Plantas de Arroz)
+
+**Tsuchiya:** Até o momento, observo que as plantas do cultivo adubado têm um número ligeiramente maior de grãos por espiga, mas muitas são chochas. Nas plantas naturais, não há um único grão chocho. No final, na colheita, a diferença é abissal.
+
+**Matsumoto:** As espigas da Agricultura Natural se mantêm todas eretas, o que, visto de cima, dá a impressão de que a lavoura é rala, preocupando os iniciantes. Contudo, após o beneficiamento, todos se surpreendem ao constatar que a quantidade de arroz é muito superior à do cultivo adubado.
+
+**Nahata:** As espigas da Agricultura Natural são uniformes e perfeitamente alinhadas, formando um tapete de uma beleza ímpar. Nos campos adubados, as espigas pendem e o que se destaca são as folhas, dando uma aparência de densidade que engana o observador leigo, mas que, na verdade, contém pouco arroz. As espigas também são desiguais.
+
+**Uesaka:** Mas isso não poderia variar de acordo com a variedade da planta?
+
+**Todos:** De forma alguma.
+
+**Matsumoto:** No processo de secagem após a colheita, o arroz natural também seca um dia mais rápido que o adubado.
+
+### Comparação da Qualidade do Arroz
+
+**Tsuchiya:** Ao beneficiar quarenta sacas, obtive apenas o equivalente a dois litros de grãos quebrados.
+
+**Kitami:** (Com cultivo adubado) Eu, de cem sacas, tive um excedente de duas sacas de grãos quebrados.
+
+**Tsuchiya:** Esse é um resultado considerado bom. Normalmente, a perda é muito maior.
+
+**Matsumoto:** Nesta região, as famílias com grandes plantações e poucos membros chegam a consumir arroz quebrado por meio ano ou até o ano inteiro. Até hoje, os lavradores consomem o arroz de qualidade inferior para poder entregar o melhor. Gastam dinheiro e se esforçam para transformar um bom arroz em grãos quebrados. Por isso, a vida do lavrador não é fácil.
+
+**Moderador:** Uma saca corresponde a sessenta quilos. Qual é a diferença de volume entre o arroz natural e o adubado para atingir esse peso?
+
+**Nahata:** Para encher uma saca, o arroz natural requer cerca de 3,8 *to*, enquanto o adubado precisa de 4,2 *to*. Em um lote de cinquenta ou cem sacas, isso representa uma diferença de quatro a cinco sacas.
+
+**Matsumoto:** Também realizei um experimento com o polimento do arroz. Após uma hora do polimento de uma medida de arroz, o natural apresentou uma perda de peso de 2,5%, enquanto o adubado perdeu 10%.
+
+**Nahata:** Uma vizinha veio me pedir arroz emprestado. Ela me contou que só na terceira tentativa conseguiu cozinhá-lo adequadamente. Na primeira, virou uma papa e ela deu para a vaca. Na segunda, a textura melhorou, mas ficou duro demais para comer. Na terceira, adicionando três ou quatro conchas a mais de água, finalmente obteve um arroz perfeito.
+
+**Tsuchida:** A vizinhança pedindo arroz emprestado se tornou um problema. Empresto para quem quer experimentar, mas muitos vêm por pura conveniência. Quando falta arroz em casa, todos os vizinhos vêm pedir o nosso arroz natural. É vantajoso para eles, pois um quilo emprestado rende o equivalente a um quilo e trezentos gramas depois de cozido. Na hora de devolver, trazem o arroz adubado. Assim, ao emprestar um quilo, perco trezentos gramas. É uma mistura de perdas e ganhos, de alegrias e tristezas.
+
+### O Farelo e a Palha de Arroz
+
+**Matsumoto:** Para distinguir o farelo de arroz natural do adubado, basta apertá-lo na mão. A diferença é imediata.
+
+**Tsuchiya:** O farelo do arroz adubado, como no poema de Takuboku, "escorre fino e solto por entre os dedos". Já o natural, quando apertado, permanece compactado. Quando o farelo natural acabou, tentei dar o adubado para a vaca, mas ela se recusou a comer. Os animais são honestos.
+
+**Nahata:** O gado não precisa de suplementos como farelo. A palha do cultivo natural é suficiente para que engordem, o pelo fique extremamente lustroso e comam com grande apetite.
+
+**Matsumoto:** No inverno, durante a entressafra, confeccionamos capas de chuva de palha. A palha natural, quando branqueada, fica alvíssima e, por ter nós mais curtos, as capas duram o dobro das comuns. Os compradores fazem questão de escolher e levar as feitas com a nossa palha.
+
+**Moderador:** O tempo já se estendeu bastante. Gostaria de pedir ao senhor Matsumoto que nos oferecesse uma conclusão.
+
+**Matsumoto:** Após praticar a Agricultura Natural por três ou quatro anos, posso afirmar que em minha aldeia (Ninomiya), onde todos os membros a adotaram, não houve um único caso de redução na colheita desde o primeiro ano. Se seguirmos os ensinamentos de Meishu-Sama exatamente como nos foram transmitidos, não há absolutamente nada a temer. Mesmo que a colheita fosse igual à do cultivo adubado, os benefícios em outros aspectos nos garantem um lucro de setenta a oitenta por cento a mais. Este ano, ministraremos Johrei abundantemente e, desde já, aguardo com grande expectativa os resultados.
+
+**Moderador:** A Agricultura Natural é o alicerce para a construção do Paraíso Terrestre, a chave para a solução da economia rural e da questão alimentar do Japão. É a chave para uma montanha de tesouros. E o tesouro se extrai da terra. Os senhores receberam de Deus a chave para essa montanha de tesouros. Utilizem-na plenamente. Com isso, damos por encerrada nossa reunião.
+
+---
+
+# A todos os fiéis
+
+**Categoria:** sanko | **Ano:** 昭和29(1954)年5月26日 | **Fonte:** Eikou
+**Título Original:** 参考文献 信徒の皆様へ 世界救世教 管長 大草直好 | **Status:** Published | **Edição/Página:** 258号 | **Data ISO:** 1954-05-26
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## A todos os fiéis
+
+**Coleção de Teses de Jikan Okada**
+Referência: Revista Eikou nº 258, publicada em 26 de maio de 1954
+Naoyoshi Ohkusa, Presidente da Igreja Messiânica Mundial
+
+A transição das estações é um princípio universal, e embora as mudanças ocorram a cada instante, muitas vezes não nos apercebemos delas senão quando somos subitamente despertados para a sua presença. Assim, sem que notássemos, o ano avançou para a estação das brisas perfumadas, e o verdejante matiz das folhas novas se aprofunda dia após dia.
+
+Quando refletimos, junto a todos os senhores, sobre a trajetória de expansão de nossa Igreja, que floresce com o passar dos meses e dos anos, somos tomados por uma profunda emoção, tal como expresso na Canção Sagrada de Meishu-Sama:
+
+*Até a majestosa árvore que alcança os céus*
+*Já foi um tenro e diminuto broto.*
+*Assim são as coisas neste mundo.*
+
+Esse progresso, evidentemente, é o reflexo da Vontade Divina, a manifestação sublime da Obra Sagrada de salvação da humanidade, que Meishu-Sama nos ensina diuturnamente para redimir este mundo de impurezas. Contudo, é também, em minha opinião, o fruto do empenho e da dedicação de cada um dos fiéis.
+
+Nesse ínterim, a partir do dia da Oração do Culto Mensal de 25 de abril, fomos subitamente privados da presença de Meishu-Sama, ficando impossibilitados de reverenciar Sua figura. Compreendo perfeitamente que, para os senhores, a notícia tenha soado como um raio em céu azul, trazendo à tona expressões de inquietação. Foi, por assim dizer, um instante em que o rebanho de cordeiros pareceu se dispersar.
+
+Todavia, Meishu-Sama, percebendo a inquietação de Seus fiéis e movido por Sua imensa compaixão, dignou-Se a nos agraciar com Suas palavras por meio de uma gravação, transmitida desde a profundidade de Seus aposentos, para nos apontar a direção a seguir.
+
+Diante de Suas palavras, todos nós nos prostramos, embargados por lágrimas de gratidão, e pudemos concluir a cerimônia em um ambiente de absoluta solenidade.
+
+Recordo-me de um ensinamento que Meishu-Sama frequentemente nos transmite: “Até mesmo eu, em minha juventude, sofri com diversas enfermidades, e os venenos dos medicamentos que ingeri naquela época ainda persistem em meu corpo.” Ao ponderar sobre tais palavras e sobre os Seus detalhados alertas acerca dos perigos do yakudoku (薬毒), e ao refletir sobre meu próprio passado, sinto com ainda mais intensidade a profundidade de Seus ensinamentos. Simultaneamente, não consigo conter a alegria de ter sido salvo em tempo oportuno. De fato, é imperativo afirmar que Meishu-Sama é o provedor da suprema alegria para toda a humanidade e um farol de magnitude incomparável.
+
+Em um momento tão crucial, a publicação do Livro Divino – Coletânea sobre Religião (As Escrituras Sagradas da Sekai Kyuseikyo) foi, para nós, fiéis, motivo de indizível felicidade. Todas as teses contidas nesta obra elucidam a verdade sobre os múltiplos aspectos do Universo, constituindo um manual de orientação para a felicidade de toda a humanidade. Trata-se de um compêndio de ensaios que nos demonstra, com clareza e profundidade, por que nossa Igreja é a responsável pela construção do Paraíso Terrestre, o ideal de todos os seres humanos.
+
+Este é, em suma, o alicerce doutrinário de nossa fé; é a nossa Bíblia. Nós, fiéis, somente podemos ser considerados verdadeiros seguidores ao estudar com afinco esta obra divina, assimilando e aplicando seus preceitos em nosso cotidiano para edificar a nossa própria felicidade. Ademais, estou convicto de que a maneira de retribuir a imensa graça recebida de Meishu-Sama é propagar amplamente pelo mundo a alegria de nossa salvação, o evangelho do paraíso.
+
+De todo modo, o presente momento vivido por Meishu-Sama é, como Ele mesmo nos indicou em Suas palavras, um prelúdio para uma grande transformação e um salto evolutivo de nossa Igreja. Devemos compreendê-lo como um marco de suma importância. Nesta conjuntura, o desenvolvimento inabalável de nossa fé será erigido sobre o alicerce de uma devoção sincera, permeada por uma fé ainda mais sólida e justa por parte de todos os fiéis. Compreendemos, com o mais profundo temor reverencial, tratar-se de um desígnio divino que nos conclama a um patamar superior de determinação.
+
+Rogo, portanto, que agora, mais do que nunca, nos unamos como um só corpo para servir à Obra Divina.
+
+---
+
+# Um devaneio? Um milagre?
+
+**Categoria:** sanko | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 参考文献 夢物語？ 奇蹟？ | **Status:** Published | **Edição/Página:** 198号 | **Data ISO:** 1953-03-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Um devaneio? Um milagre?
+
+*Revista Glória, nº 198, 4 de março de 1953*
+*(Incluído na obra “Explicação da Agricultura Natural”)*
+
+**Tatsuo Yamakawa**
+*Técnico Agrícola, Chefe da Segunda Seção de Operações*
+*Escritório de Alimentos de Tóquio, Ministério da Agricultura e Florestas*
+
+“É inconcebível que um homem com formação em agronomia se ocupe de uma questão tão anticientífica e fantasiosa. Que sujeito despropositado!”.
+
+Essa foi a repreensão uníssona que recebi de muitos superiores e colegas. Em resposta, eu sempre me defendia, enrubescendo e com certa hesitação:
+
+“Eu também estudei um pouco de agronomia e fertilizantes e, por isso, quando ouvi essa história pela primeira vez, reagi exatamente como os senhores, concluindo que algo tão fantasioso seria impossível. Contudo, meu interlocutor, sem demonstrar o menor constrangimento, insistiu: ‘Os fatos o comprovam, não há o que se possa fazer. Venha e veja por si mesmo’. Movido por essa veemência, nos últimos dois anos, discretamente, percorri plantações em Chiba, Kanagawa, Saitama e Tochigi. O que vi é tão extraordinário que meu conhecimento acadêmico em agronomia e fertilizantes se mostrou incapaz de oferecer qualquer explicação. Por essa razão, superando a vergonha, venho lhes falar sobre o assunto. Sinto-me desnorteado diante desta realidade solene e não sei como proceder. Rogo-lhes que observem os resultados com seus próprios olhos e me emprestem sua sabedoria para decifrar esta história que parece um devaneio.”
+
+Essa conversa tornou-se inevitável sempre que eu apresentava o método de cultivo conhecido como Agricultura Natural — que promove o aumento da produção à medida que os anos passam, sem a aplicação de fertilizantes artificiais — a meus superiores e amigos.
+
+Permitam-me, então, explicar em que consiste essa Agricultura Natural, tão prontamente rotulada como fantasiosa. É provável que os leitores, ao abordarem o tema com suas ideias preconcebidas, também pensem após a primeira leitura: “Que tolice! É impossível que tal coisa exista. Uma história tão conveniente assim não pode ser verdade”. E eu mesmo considero natural essa incredulidade.
+
+Meu interesse e dedicação ao estudo da Agricultura Natural intensificaram-se após a leitura do relatório intitulado “Pesquisa, Análise e Crítica da Agricultura Natural de Arroz”, de autoria do senhor Sadao Kanezaki, técnico agrícola e chefe da subsede de Ominato do Escritório de Estatística e Pesquisa de Aomori, do Ministério da Agricultura. Utilizando seu tempo livre, o referido técnico investigou durante três anos a realidade dos praticantes da Agricultura Natural em sua vizinhança e compilou os resultados em seu trabalho.
+
+Comecemos pelo que se poderia chamar de princípio da Agricultura Natural. Este afirma que, “se o solo foi criado pelo Criador para produzir os alimentos que sustentam os seres humanos e os animais, sua essência é possuir nutrientes em superabundância, sendo, por assim dizer, uma massa de fertilidade. O desconhecimento total desse fato levou ao equívoco de considerar os fertilizantes como o alimento das plantas. A aplicação de diversos adubos artificiais, paradoxalmente, acabou por debilitar a força intrínseca do solo. Portanto, para aumentar a produção, é preciso fortalecer ao máximo o poder do próprio solo. Para isso, deve-se cessar a aplicação de qualquer impureza, com exceção do composto orgânico (feito de capim, folhas secas e palha). Isso significa eliminar adubos de origem humana, fertilizantes químicos, esterco de estábulo (dejetos de gado, cavalos e aves), adubos de peixe, cinzas de madeira e todo tipo de fertilizante artificial. Assim, o solo se purifica, manifesta sua força original, e a produção agrícola aumenta”.
+
+Nesse ponto, o leitor poderia pensar que tal efeito seria possível com a aplicação de grandes quantidades de composto orgânico, já que este possui nutrientes. Todavia, não é o caso. Afirma-se que o composto não é utilizado como fertilizante, mas sim para absorver umidade, reter calor e evitar a compactação do solo. A quantidade, aliás, é modesta: de quarenta a cinquenta “kan” por “tan”. Em suma, o princípio da Agricultura Natural consiste em praticar o cultivo contínuo sem qualquer tipo de fertilizante artificial. O ponto mais crucial é a utilização de sementes colhidas de lavouras cultivadas pelo mesmo método. Todos os demais procedimentos de cultivo podem seguir as práticas convencionais.
+
+De acordo com o relatório do técnico Kanezaki, uma plantação de arroz que, em 1948, com o uso de fertilizantes químicos, produzia 1,2 “koku” por “tan”, passou a registrar aumentos sucessivos após a adoção da Agricultura Natural em 1949. As colheitas foram de 1,4 “koku” em 1949, 1,8 em 1950 e 2,2 em 1951. Em minha visita a Utsunomiya, no dia 10 de outubro deste ano, conversei com um agricultor que está no quarto ano do método. Ele me disse, com grande confiança: “Cinco anos atrás, quando eu usava adubo, por mais que me esforçasse, este campo não passava de sete fardos por ‘tan’. No ano passado, meu terceiro ano com a Agricultura Natural, colhi oito fardos e meio. Este ano, espero um pouco mais”. De fato, a altura das plantas, a cor da palha, o número de perfilhos, a quantidade de grãos por espiga e a forma como as espigas se apresentavam distinguiam-se nitidamente das lavouras vizinhas.
+
+Conforme uma tabela estatística que compara a Agricultura Natural com o método convencional (cultivo da mesma variedade sob as mesmas condições, exceto pela presença ou ausência de fertilizantes), no primeiro e no segundo ano, a altura das plantas é cerca de 10% menor. No terceiro ano, elas se equiparam, e a partir do quarto ano, tornam-se, inversamente, mais de 10% mais altas. A lavoura que observei, em seu quarto ano, era de fato mais alta que as plantas vizinhas cultivadas com adubo. Quanto ao perfilhamento, a mesma tabela aponta uma redução de aproximadamente 15% nos dois primeiros anos, um número igual ou superior no terceiro, e um aumento de mais de 10% a partir do quarto ano. A lavoura em questão também apresentava, em média, três perfilhos a mais. Mas o que mais me surpreendeu foi a sensação ao segurar um feixe de seus caules: eram firmes e rijos como juncos, enquanto as plantas adubadas eram flácidas. Lembrei-me de ter lido o relato de um agricultor que dizia: “Minha plantação resistiu a tufões sem tombar e foi imune a pragas e doenças; mesmo quando o arrozal vizinho foi atacado por cigarrinhas, não sofri nenhum dano”. Diante da robustez daqueles caules, considerei que tal relato poderia, de fato, ser verdadeiro.
+
+A quantidade de grãos por espiga, segundo a estatística, diminui um pouco menos de 10% no primeiro ano, praticamente se iguala no segundo, aumenta mais de 10% a partir do terceiro e mais de 30% a partir do quarto ano. O arroz daquele agricultor amadurecia em cachos tão cheios e abundantes que a descrição mais adequada seria “exuberantes”. Contudo, um detalhe merece destaque especial: nas plantas adubadas, a maturação ocorre de forma desigual na espiga, de baixo para cima, ao passo que, nesta lavoura sem adubo, os grãos de cada espiga amadureciam uniformemente, a partir da mesma altura, e quase não se encontravam grãos estéreis.
+
+Ademais, a cor era notável. Os grãos de arroz possuíam um tom dourado puro, e a palha, um verde-amarelado vívido. O contraste era ainda mais nítido do que a diferença entre a tez de uma pessoa doente e o tom rosado de alguém saudável. Por isso, mesmo à distância, era possível distinguir os campos adubados dos não adubados, como se mantas de cores distintas tivessem sido estendidas sobre eles.
+
+Outra característica imediatamente visível era o comprimento e a quantidade de suas radículas, que eram de duas a três vezes maiores que as das plantas adubadas. Foi-me relatado que, anualmente, na fase de transplante do viveiro para o campo, enquanto as mudas adubadas crescem vigorosamente, as mudas sem adubo apresentam uma cor avermelhada e um crescimento quase nulo, tornando-se alvo de zombarias dos vizinhos. Contudo, é provável que, neste exato momento, suas raízes estejam se aprofundando na terra, em busca dos nutrientes originais do solo.
+
+Como o leitor deve ter deduzido a partir da diminuição do perfilhamento e do número de grãos por espiga, a produção de fato decresce no primeiro e no segundo ano. A tabela estatística indica uma redução de cerca de 10% no primeiro ano. Os agricultores que visitei relataram que, embora a colheita parecesse muito ruim antes do beneficiamento, ao descascar o arroz, a quebra era surpreendentemente pequena, resultando numa redução de apenas 10% na produção final por “tan”.
+
+O rendimento no descasque do arroz da Agricultura Natural é normalmente de 65%, com relatos que chegam a 75%. Isso se deve, provavelmente, à casca mais fina e ao grão mais denso.
+
+A partir do segundo ano, a produção se normaliza e, do terceiro ao quinto ano, a tabela mostra um aumento de 10%, 20% e 30% ou mais, respectivamente. Os agricultores que visitei confirmaram essa progressão, com índices de aumento muito semelhantes, o que corrobora a veracidade da estatística.
+
+Quando abordo este assunto, há quem afirme categoricamente: “Isso se deve à adubação residual”. Mas como explicar, então, o aumento progressivo da produção com o passar dos anos? Para mim, é algo incompreensível. O descobridor da Agricultura Natural, no entanto, oferece a seguinte explicação: “A aplicação de fertilizantes químicos trouxe um efeito temporário considerável, e por isso seu uso se generalizou, mas o resultado foi uma ação inversa. A função original da planta é absorver os nutrientes do solo, mas, ao ser adubada, sua natureza foi alterada, tornando-a dependente do fertilizante como fonte de nutrição. É um fenômeno análogo à dependência de narcóticos em seres humanos. No início, o uso de uma droga pode gerar prazer ou clareza mental, e esse efeito inesquecível leva o indivíduo a aprofundar-se no vício. Da mesma forma, as sementes atuais estão todas ‘intoxicadas por fertilizantes’. Assim como um dependente de álcool, tabaco ou narcóticos sofre terrivelmente com a abstinência súbita, as plantas, privadas de adubo, apresentam uma aparência debilitada, assim como um dependente de nicotina que, ao parar de fumar, fica apático e sem foco. Consequentemente, a colheita diminui. No entanto, como já mencionado, as raízes, não encontrando nutrientes na superfície, retornam à sua função original e se aprofundam no solo para se alimentar. Após um ano, a ‘intoxicação’ diminui, mas não está curada. Utilizando as sementes dessa colheita no segundo e no terceiro ano, a dependência é finalmente superada. A planta recupera seu desempenho original e, ao absorver os nutrientes de um solo que se purificou por dois ou três anos, passa a ter um aumento de produção”.
+
+Houve também quem dissesse: “Os experimentos sem adubo já foram realizados pelas estações de pesquisa agrícola e seus resultados estão comprovados. Por que insistir nesse assunto?”. A essas pessoas, gostaria de perguntar: nesses experimentos, eles utilizaram, no ano seguinte, as sementes colhidas da própria lavoura sem adubação para dar continuidade ao teste no mesmo local?
+
+A importância de utilizar sementes colhidas de um cultivo sem fertilizantes foi algo que testemunhei com meus próprios olhos ao visitar um agricultor em Saitama, que está em seu quarto ano de prática. Ele havia dividido um de seus campos, que iniciava o método naquele ano, em duas partes. Em uma metade, plantou mudas provenientes de sementes que vinham sendo cultivadas sem adubo há quatro anos; na outra, usou mudas de sementes que recebiam o método pela primeira vez. No final de setembro, a diferença no desenvolvimento, que já indicava uma clara distinção na colheita, era manifesta. A sinergia entre a semente e o solo é o que eleva a produção, mas ali pude constatar o excelente resultado obtido apenas pela semente que já havia retornado à sua natureza original, reconhecendo assim a grandiosidade da semente não adubada.
+
+Por fim, no que tange à qualidade, vejamos o exemplo do agricultor de Saitama. No ano passado, em uma área cultivada de 1,5 “chou”, ele colheu 84 fardos. A cota de entrega ao governo era de 30 fardos, cuja classificação na inspeção oficial foi de um fardo de segunda classe e 29 de terceira. Outro agricultor da região, com uma cota de 57 fardos, obteve 28 de segunda classe e 27 de terceira. Considerando que, no ano anterior, na mesma região, quase não houve arroz de segunda classe, e que a terceira classe representou menos de 30%, a quarta, mais de 50%, e o restante foi classificado como quinta classe, os resultados desses agricultores devem ser considerados excepcionais. O arroz integral apresentava um brilho excelente e seu peso por litro era de 3% a 4% maior que o do arroz adubado. Houve casos em que um fardo foi completado com apenas 3,8 “to” de arroz. Quanto ao sabor, tive a oportunidade de provar o arroz novo em Utsunomiya, e era esplêndido. Também experimentei acelga, melancia e batata-doce cultivadas pelo mesmo método, e não posso negar que eram deliciosas. O “mochi” feito com esse arroz tinha um paladar refinado, grande elasticidade e uma textura suave como a seda.
+
+Imagino que quase todos os leitores estejam pensando: “Sem custos com adubos, com menos trabalho, e ainda por cima com maior produção, sabor e qualidade insuperáveis? Uma história tão boa assim só pode ser um devaneio! Dê um tempo às suas tolices!”.
+
+Minha peregrinação por diversas províncias em busca deste devaneio já dura dois anos, e este sonho (?) ainda não se desfez. Para mim, não há como não o considerar um milagre dos tempos atuais. Tenho vontade de clamar em alta voz: Se for um sonho, que eu desperte o mais rápido possível! Se for um milagre, que surjam sem demora os amigos capazes de empunhar o bisturi da ciência para investigá-lo!
+
+(Nota) Este artigo foi originalmente publicado na edição especial de Ano Novo do boletim “Movimento Mensal”, editado pelo Escritório de Alimentos de Tóquio. Na ocasião, os dados sobre o Cultivo Natural (fornecidos por nossa Igreja) foram incluídos como um anexo, os quais reproduzimos a seguir para referência.
+
+---
+**Resultados do Cultivo Natural de Arroz – Dados de 1951**
+
+| Ano de Prática | Primeiro Ano | Segundo Ano | Terceiro Ano | Quarto Ano | Quinto Ano | Sexto Ano |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Comparativo de Produção** (Natural vs. Adubado) | +4,7% | +20,2% | +30,6% | +31,0% | +63,0% | +74,0% |
+| **Comparativo de Altura da Planta** | -8,3% | -9,9% | -0,8% | +1,0% | +0,5% | +0,5% |
+| **Comparativo de Perfilhamento** | -16,8% | -16,1% | -3,0% | +11,5% | +16,0% | +25,5% |
+| **Comparativo de Grãos por Espiga** | -4,9% | -1,5% | +12,9% | +30,0% | +44,0% | +50,0% |
+| **Comparativo de Peso do Arroz Integral por Litro** | +4,4% | +4,4% | -4,5% | +2,5% | +3,8% | +20,0% |
+| **Comparativo da Taxa de Beneficiamento** | +12,3% | +16,3% | +13,9% | +18,5% | +17,0% | N/D |
+| **Número de Casos Pesquisados (de 106 famílias)** | 68 | 26 | 15 | 2 | 2 | 1 |
+
+*Nota: Esta tabela indica o percentual de aumento ou redução em comparação com o cultivo da mesma variedade em condições idênticas, porém com o uso de adubação.*
+
+---
+
+# Impressões de Leitura sobre *Yamahiko Gakkou* (Para aqueles que não leram a obra)
+
+**Categoria:** sanko | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
+**Título Original:** 山彦学校は共産思想培養の学校？ | **Status:** Published | **Edição/Página:** 134号 | **Data ISO:** 1951-12-12
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Impressões de Leitura sobre *Yamahiko Gakkou* (Para aqueles que não leram a obra)
+
+Publicado na revista *Eikou*, ed. 134, em 12 de dezembro de 1951 (Showa 26)
+Por Egawa-sei
+
+Na província de Yamagata, em uma localidade famosa por suas fontes termais, a cidade de Kaminoyama, situa-se o vilarejo de Yamoto, a cerca de uma légua e meia de distância. Trata-se de uma aldeia montanhosa com trezentas e quatro residências, poucas terras cultiváveis e onde alguns habitantes subsistem da produção de carvão. Vilarejos como este, desprovidos de condições geográficas favoráveis, não são raros; apenas na periferia da região de Kanto, em províncias como Tochigi e Gunma, existem inúmeros outros. Por que, então, apenas o vilarejo de Yamoto alcançou notoriedade?
+
+A razão reside em um fato singular: a única escola secundária da aldeia, a Escola Yamoto, teve um de seus alunos, o jovem Eguchi Koichi, premiado com o primeiro lugar no Concurso Nacional de Redação para estudantes secundaristas, recebendo o Prêmio do Ministro da Educação por sua obra “A Morte de Minha Mãe e o que Veio Depois”.
+
+Aproveitando essa oportunidade, o professor responsável pela turma do segundo ano de Eguchi, o senhor Muchaku Seikyo, incentivou seus alunos a escreverem redações e poemas utilizando o dialeto local. Compilou esses textos em um livro, encabeçado pela premiada redação de Eguchi, e publicou-o sob o título *Yamahiko Gakkou*. A obra fortuitamente capturou a atenção de educadores e conquistou o apreço da crítica, tornando-se um best-seller e, de um dia para o outro, projetando o anônimo vilarejo montanhês à fama nacional.
+
+Ademais, a obra está sendo adaptada para o cinema pela produtora Yagi Productions. O roteiro foi escrito por Yagi Yasutaro, com direção de Imai Tadashi, e as filmagens encontram-se em andamento. No momento em que este artigo for para a impressão, é provável que o filme já esteja em exibição nos cinemas de todo o país.
+
+### Por que decidi escrever minhas impressões sobre *Yamahiko Gakkou*
+
+O que me motivou a redigir este artigo foi a descoberta de que, em meio às redações de estudantes secundaristas compiladas neste livro, há um texto sobre o Ohikari, de autoria conjunta de duas jovens, bem como uma ata de deliberação do conselho estudantil do segundo ano da escola, contendo uma narrativa forjada e sem qualquer fundamento sobre o mesmo tema. Vale ressaltar que a afixação dessa ata por todo o vilarejo já havia sido reportada à nossa Igreja no ano anterior.
+
+O termo Ohikari, empregado no texto, é amplamente reconhecido como um sinônimo da Sekaikyuseikyou, tanto pela sociedade em geral quanto pelos próprios fiéis. A associação é análoga à forma como o Pavilhão Dourado do templo Chuson-ji, em Hiraizumi, província de Iwate, passou a ser carinhosamente conhecido como *Hikari-do* (Pavilhão da Luz) desde que o poeta Basho assim o celebrou em seus versos.
+
+O simples fato de terem afixado por todo o vilarejo uma deliberação difamatória contra nossa Igreja já seria motivo suficiente para que os responsáveis na escola sentissem o peso de sua conduta. Contudo, não apenas incluíram tal texto no livro, como também, em sua adaptação cinematográfica, inseriram uma cena de Johrei seguida por um desfecho que sugere a morte do enfermo. Diante de tal afronta, tornou-se impossível permanecer em silêncio.
+
+Inicialmente, cogitei intitular este artigo como “Um Protesto Contra *Yamahiko Gakkou*” ou “As Falsidades de *Yamahiko Gakkou*”. Optei, todavia, pela serenidade de “Impressões de Leitura”, não para exibir a grandeza de meu espírito ou para ostentar uma altivez imune a tais trivialidades. A verdadeira razão é que, ao ler a obra na íntegra, passei a questionar seus métodos pedagógicos e, mais gravemente, a suspeitar com veemência que esta coletânea de redações infantis seja, na realidade, fruto de acréscimos feitos pelo professor Muchaku Seikyo. Permitam-me expor os fundamentos que sustentam esta audaciosa afirmação.
+
+Ao tomar conhecimento do projeto de filmagem de *Yamahiko Gakkou*, o professor Shindo Kiichi, que já realizou atividades de difusão em Yamoto, visitou a escola no final de outubro para se encontrar com o professor Muchaku e o diretor. Nessa reunião, obteve a confissão de que a redação sobre o Ohikari não era obra das duas jovens. Posteriormente, em conversa direta com as alunas, o senhor Shindo confirmou que elas não haviam escrito o texto e que o professor Muchaku utilizara seus nomes arbitrariamente para publicá-lo.
+
+A redação sobre o Ohikari ocupa apenas duas das duzentas e vinte e oito páginas do livro. No entanto, ao descobrirmos que não se trata de um texto infantil, mas sim de uma composição do professor sob o nome de suas alunas — uma obra fraudulenta —, é inevitável que a mesma suspeita recaia sobre as demais redações. (E ao saber que esta obra será traduzida para o inglês como um exemplo da escrita de estudantes japoneses, minhas dúvidas sobre sua legitimidade apenas se aprofundam.)
+
+### O ensaio em questão e a quem cabe a responsabilidade
+
+O texto em questão é breve. Transcrevo-o aqui integralmente, juntamente com a ata de deliberação, para que os fiéis possam constatar quão repleto de falsidades ele é.
+
+> **Ohikari**
+> (11 de fevereiro de 1950)
+> Katsue Nagahashi
+> Akiko Maeda
+>
+> Hoje, o assunto do Ohikari virou um problema. O fato de o Ohikari estar na moda em nosso vilarejo tornou-se um problema. Parece que as pessoas que entram para o Ohikari estão dizendo que “quem não entrar morrerá por volta de 1952”, e discutimos se isso seria verdade. Além disso, foi comentado que, ao entrar para o Ohikari, não é mais preciso usar adubo nos arrozais e hortas, e que até mesmo entre os jovens há quem queira aderir em massa. Conversamos se o Ohikari realmente cura doenças, e quando perguntamos a todos “Vocês acham que o Ohikari é verdade?”, todos disseram “É mentira”. Então, decidimos escrever uma ata de deliberação e afixá-la pelo vilarejo. Decidimos transformá-la em um jornal de parede.
+>
+> Escrevo abaixo a ata de deliberação.
+>
+> **O Ohikari**
+> — Texto afixado no vilarejo —
+>
+> O assunto do Ohikari tornou-se um problema em nossa classe. É verdade que, ao entrar para o Ohikari, é possível colher arroz sem usar adubo? Se isso fosse verdade, uma pessoa que carrega trinta quilos de carvão nas costas, por ser do Ohikari, sentiria o peso mais leve que os outros, não é mesmo? E todos riram.
+>
+> Será que o Ohikari é realmente algo bom?
+> Em nossa turma, quando perguntamos “Quem concorda com o Ohikari?”, ninguém levantou a mão.
+> Contando, parece que há cerca de trinta pessoas no vilarejo de Yamoto que aderiram. Dizem que custa mais de dez mil ienes por pessoa. Se considerarmos uma média de dez mil ienes por pessoa, isso significa que trezentos mil ienes foram gastos em talismãs do Ohikari. O orçamento escolar de Yamoto para este ano é de cento e quarenta e seis mil, seiscentos e vinte e três ienes.
+> Ao comparar os números desta forma, não deveriam as pessoas do vilarejo refletir mais sobre este assunto do Ohikari?
+>
+> (Deliberação do Conselho Estudantil do Segundo Ano da Escola Yamoto)
+
+O que torna este livro particularmente singular é o fato de as redações infantis serem, em sua maioria, registros do cotidiano, com o dialeto local empregado de forma autêntica. Em toda a obra, encontram-se expressões dialetais que seriam incompreensíveis sem notas de rodapé. Por qual motivo, então, apenas a redação sobre o Ohikari foi escrita em japonês padrão, sem um único termo regional? A comparação com o orçamento escolar é uma estratégia que denota uma inteligência incomum, mas que, por isso mesmo, torna a intenção por trás dela ainda mais explícita. A menção ao valor de dez mil ienes, por exemplo, é uma calúnia flagrante e leviana.
+
+Na Sekaikyuseikyou, é raro encontrar alguém que tenha se tornado fiel sem ter sua doença curada. O professor Muchaku deveria ter investigado o motivo pelo qual os trinta fiéis de Yamoto (número que também diverge consideravelmente da realidade) aderiram ao Ohikari. Se o fizesse, a conclusão seria, naturalmente, outra. Todas essas incongruências, contudo, tornam-se compreensíveis para o leitor quando se descobre o segredo dos bastidores: a obra não é de autoria das crianças, mas sim do professor.
+
+Passemos agora à adaptação cinematográfica. Obtive um trecho do roteiro de Yagi que trata do Ohikari e o transcrevo abaixo (os números entre parênteses indicam as tomadas).
+
+> (73) Casa de Hideo
+> O avô de Hideo lavava os olhos com um colírio contido em um frasco de cerâmica rachado.
+> “Vovô, Hideo está na montanha?”
+> “Sim.”
+> “Seus olhos não estão bons?”
+> “Não.”
+> “Hideo ainda não pode ir à escola?”
+> “Não, por minha causa...”
+> Era uma casa pobre.
+> Muchaku lembrou-se de Hideo, que não havia estendido seu futon na estalagem em Yunohama.
+> “Por que não vai ao posto de saúde para que vejam seus olhos?”
+> “Não tenho tempo.”
+> Chiko entra pela porta.
+> “Professor, minha mãe pediu para o senhor recitar um sutra para o Buda.”
+> “Um sutra?”
+> “Eu não sirvo para isso. Peça a um monge de verdade.”
+> “Se pedirmos a um monge de verdade, teremos que pagar.”
+> “Ah, entendo. Vou imediatamente.”
+> Chiko se retira.
+> O avô de Hideo pergunta:
+> “Professor, se eu rezar ao Ohikari, meus olhos vão sarar?”
+> “Vovô, doenças precisam de médicos e remédios.”
+> “É mesmo?”
+> “Não confie em coisas como o Ohikari. Vá a um médico no posto de saúde.”
+> Muchaku disse com veemência.
+
+> (85) Posto de Saúde
+> Uma senhora do Ohikari, com gestos reverentes, faz uma oração pela mãe de Eiichi, que está deitada.
+> Muchaku chega, vê a cena e arregala os olhos.
+> Eiichi e sua irmã estão tão absortos na senhora do Ohikari que não percebem a presença do professor.
+> A senhora do Ohikari termina a oração e diz a Eiichi e sua irmã:
+> “O Ohikari irá curá-la logo.”
+> Eiichi e sua irmã abaixam a cabeça em silêncio.
+> A senhora do Ohikari diz:
+> “Então, rezem com fervor também”, e se retira.
+> Eiichi vê Muchaku e se assusta.
+> “Professor, o senhor estava aí?”
+> “Sim. E o médico?”
+> “Foi ver um doente em Sukarida (nome de um lugar).”
+> “Sua mãe está sofrendo?”
+> “Há pouco ela dizia ‘dói, dói’, mas agora adormeceu.”
+> “Foi você que chamou a pessoa do Ohikari, Eiichi?”
+> “Não. Ela veio sem que ninguém pedisse.”
+> “Você acha que o Ohikari cura doenças?”
+> “Não sei... Não sei, mas dizem que se entrarmos para o Ohikari, podemos colher o dobro de arroz e trigo sem precisar de adubo.”
+> “Quem diz uma coisa dessas?”
+> “Todo mundo. O senhor Hikojustambém.”
+> “O senhor Hikoju... até ele...”
+> “Sim.”
+> “Eiichi, as doenças surgem porque o corpo está fraco por má nutrição ou excesso de trabalho. A superstição também é uma doença da alma. Quando o ser humano se deixa abater pela pobreza e pelo infortúnio, e em vez de pensar nas causas, apenas se desespera, a doença da superstição se infiltra em seu coração.”
+> “Recitar sutras também é superstição, professor?”
+> “Sim. É menos que superstição. Uma religião verdadeira deveria se preocupar muito mais com os seres humanos vivos e com o mundo.”
+> “Mas o senhor também não reza para Buda?”
+> “Rezo. O meu Buda são vocês.”
+> “...”
+
+> (108) Estrada na montanha
+> A mãe de Eiichi transporta um pesado fardo de lenha (*paita*).
+> Nota: Após esta imagem, as seguintes são sobrepostas.
+> (109) Rostos e figuras de camponeses característicos da região de Tohoku, A, B, C.
+> (110) Paisagem do vilarejo com um pôster em primeiro plano sobre a entrega compulsória de arroz ao governo.
+> (111) Paisagem do vilarejo com um pôster em primeiro plano sobre o recrutamento para as colônias de desenvolvimento em Hokkaido.
+> (112) Paisagem do vilarejo com um pôster em primeiro plano do conselho estudantil da escola dizendo: “Parem com o Ohikari”.
+> (113) Sala de aula da Escola Yamoto. Muchaku e as crianças estudando.
+> (114) Paisagem do vilarejo montanhês.
+> Sobreposto a isso, o seguinte poema:
+> “A neve cai, cai sem cessar.
+> E sob ela,
+> vivem os seres humanos.
+> — Toshio”
+
+O roteiro de Yagi parece ter dramatizado a redação de Eguchi Koichi para o cinema, mas estas cenas relacionadas ao Ohikari não existem no texto original do jovem. Logo, sua origem só pode ser a ata de deliberação afixada no vilarejo, e o conteúdo dos diálogos parece ter sido construído diretamente a partir do pensamento de Muchaku. É natural que uma adaptação cinematográfica exija dramatizações para preencher lacunas narrativas, mas por que distorcer deliberadamente uma religião existente? Com isso, a honra da Sekaikyuseikyou, conhecida como Ohikari, é vilipendiada, e nossa difusão sofre um obstáculo considerável. Todavia, o prejuízo não se restringe a uma única organização religiosa; é evidente que, por consequência, todas as novas religiões serão tolhidas em suas atividades.
+
+A declaração de Muchaku, “O meu Buda são vocês”, é uma questão de grande relevância também para as diversas escolas do budismo. Ignorar tal afirmação significaria permitir que a autoridade de toda a esfera religiosa, incluindo o Departamento de Assuntos Religiosos, fosse posta em xeque.
+
+Embora o roteirista e o diretor tenham liberdade para manter suas convicções pessoais, a questão é se Muchaku Seikyo e Yagi Yasutaro, ao difamarem a religião desta maneira, tinham plena consciência de que tal ato poderia infringir não apenas a liberdade de culto garantida pela Constituição, mas também as políticas da Ocupação, que formam a base da democracia japonesa precisamente por reconhecerem tal direito.
+
+Como se pode inferir apenas por este roteiro, em um filme como *Yamahiko Gakkou*, que carece de uma trama robusta, esta cena se tornará um momento crucial. É exatamente por isso que me senti compelido a expor a dimensão de sua falsidade.
+
+Como se observa no roteiro citado, um fiel da Sekaikyuseikyou identificaria imediatamente os equívocos. Para os não iniciados, contudo, os erros passam despercebidos: primeiramente, nenhum fiel teria o despropósito de ministrar Johrei sem o consentimento do enfermo ou de sua família; em segundo lugar, a prática jamais se resume a apenas “fazer uma oração”.
+
+Outro ponto fundamental é saber se a mãe de Eguchi de fato recebeu Johrei. Durante sua conversa com o senhor Shindo, Muchaku afirmou que isso ocorreu uma vez. No entanto, os fiéis que vivem no vilarejo são unânimes em afirmar que jamais ministraram Johrei a ela.
+
+Analisando a situação ponto a ponto, o tratamento ultrajante dispensado ao Ohikari assemelha-se a sermos mordidos por um cão raivoso que saltou de uma viela enquanto caminhávamos pela rua. O dano causado por um cão raivoso atinge poucas pessoas, mas o poder de influência do cinema, neste caso, constitui uma forma de violência, quiçá uma violência ainda maior.
+
+### Impressões de Leitura sobre *Yamahiko Gakkou*
+
+Ao ler a redação de Eguchi, laureada com o Prêmio do Ministro da Educação, senti-me comovido. Muitas personalidades de renome que elogiaram *Yamahiko Gakkou* compartilharam dessa comoção, mas a natureza da minha impressão difere fundamentalmente da delas.
+
+Para mim, a obra *Yamahiko Gakkou*, incluindo a redação de Eguchi, é, na verdade, um esplêndido manual de propaganda comunista.
+
+Sob a orientação de seu professor, Eguchi investiga a pobreza de forma realista, incisiva e obstinada. O jovem merece ser louvado por ter produzido uma obra de tal realismo, e não hesito em reconhecer o esforço do professor Muchaku em sua orientação. Contudo, a conclusão inevitável a que se chega ao investigar as causas e o processo da pobreza é a de um grande muro: a contradição do sistema social.
+
+Segundo a pedagogia do professor Muchaku, uma família de pequenos agricultores, vivendo sob a atual estrutura econômica do liberalismo e a organização estatal da democracia, jamais conseguirá se livrar da pobreza, permanecendo acorrentada aos seus grilhões de ferro. Aqueles que são guiados por esse ensinamento apenas nutrem sentimentos de descontentamento e insatisfação para com a sociedade, sem que lhes seja oferecida qualquer forma de salvação. É neste sentido que afirmo ser a obra um manual de propaganda comunista.
+
+Ao lado de *Yamahiko Gakkou*, outra obra infantil que cativou o público leitor foi *Shonenki* (Período da Adolescência). Embora a consciência de privilégio de uma criança precoce, que se depreende da leitura de *Shonenki*, tenha me causado certo incômodo, a ausência de uma escuridão irremediável proporciona um alívio ao leitor.
+
+Anos antes, como precursoras de *Yamahiko Gakkou* e *Shonenki*, as redações de Toyoda Masako em *Tsuzurikata Kyoshitsu* (Sala de Redação) e as de Nozawa Fumiko foram publicadas e bem recebidas pelos círculos literários. Ambas retratavam, com um olhar infantil e realista, uma vida de pobreza e miséria. Contudo, recordo-me que não possuíam a mesma investigação incisiva de *Yamahiko Gakkou* e, por isso, careciam daquela melancolia sombria.
+
+A diferença na percepção do tempo entre *Tsuzurikata Kyoshitsu* e *Yamahiko Gakkou* é um reflexo dos tempos, uma diferença de dimensão. Os educadores chamam essa diferença de “progresso” da criança. Contudo, se isso pode de fato ser considerado progresso é uma questão que exige reflexão.
+
+Eu não sou alguém que fecha os olhos para as contradições inerentes ao atual sistema social, tampouco sou como os religiosos tradicionais, que negam o mundo presente, ensinam a resignação e prometem a salvação apenas na vida futura. Como fiel da Sekaikyuseikyou, dedico-me de corpo e alma ao grande objetivo de nossa fé: resolver os carmas imemoriais que afligem a humanidade — doença, pobreza e conflito — e construir o Paraíso Terrestre, um objetivo que a humanidade almeja desde o início da criação, mas que até hoje não logrou alcançar.
+
+Escrevo isto porque o roteiro afirma que “uma religião verdadeira deveria se preocupar muito mais com os seres humanos vivos e com o mundo”. Ora, o Ohikari é precisamente a religião que se dedica a salvar os seres humanos vivos e a sociedade que eles formam, e o faz de forma prática, obtendo resultados concretos.
+
+Por mais que o professor Muchaku incite Eguchi e as outras crianças a investigarem a pobreza, isso, por si só, não os salvará, não melhorará a vida em Yamoto e, muito menos, salvará os agricultores. O único resultado é a ampliação do descontentamento social, pois, quanto mais se investigam as causas da pobreza, mais se descobre uma realidade que leva ao desespero. Isso não é outra coisa senão um terreno fértil para o comunismo.
+
+Lamento profundamente que o professor Muchaku, ao se deparar com temas tão excelentes como “O Ohikari pode curar?” e “É possível aumentar a produção sem adubo?”, em vez de dar as costas às perguntas das crianças, não tenha investigado a realidade. Se tivesse apurado por que as doenças foram curadas pelo Ohikari (pois de fato há quem tenha sido curado) e por que a produção aumentou sem o uso de fertilizantes, teria encontrado ali a salvação para as crianças e para os agricultores.
+
+Para analisar a ideologia do professor Muchaku e o objetivo de sua pedagogia, basta ler o posfácio ao final de *Yamahiko Gakkou* e a seção intitulada “Aos amigos de todo o país”, assinada pelos alunos do segundo ano da Escola Yamoto.
+
+Na carta “Aos amigos de todo o país”, são mencionados os nomes de dois romancistas cujas obras foram lidas em classe: Hayama Yoshiki e Tokunaga Sunao. O primeiro, já falecido, foi um simples escritor proletário; o segundo é um autor ainda em atividade. Embora de envergaduras diferentes, quero chamar a atenção para o fato de que ambos são escritores que partem de uma perspectiva de classe.
+
+No posfácio, Muchaku cita o conteúdo de uma palestra proferida na escola de Yamoto por Yanagida Kenjuro (um filósofo que, segundo consta, abandonou sua filosofia idealista anterior para se converter à filosofia materialista após a guerra, filiando-se ao Partido Comunista) e acrescenta sua própria impressão: “Quando ele bradou que ‘a moralidade moderna não é a docilidade, nem a obediência, nem a paciência, mas a resistência. A resistência!’, uma ovação estrondosa irrompeu”.
+
+O pensamento do professor Muchaku, que ressoou com a hábil agitação de Yanagida, não ultrapassa em nada a psicologia de um espectador que aplaude o popular teatro de espadachins femininas. A sucessão de resistência e mais resistência apenas arrasta o ser humano de um conflito a outro, em um ciclo sem fim. É um caminho idêntico ao ciclo interminável do carma, onde não há salvação alguma, apenas uma dor asfixiante.
+
+O que me surpreendeu na orientação de Muchaku foi sua insistência em ensinar às crianças que o trabalho agrícola é um mau negócio, concluindo que a única saída é a união de forças para mecanizar a agricultura, algo que só seria possível por meio da solidariedade dos camponeses. Aqui, mais uma vez, *Yamahiko Gakkou* se revela um manual de doutrina comunista.
+
+Ao chegar a este ponto, deparei-me com uma grande questão: no ensino obrigatório de um país, em escolas do sistema 6-3, é permissível que se promova a formação de uma ideologia tão específica nas crianças?
+
+Deixando isso de lado, será que, ao instilar essa consciência de classe unilateral nas crianças, é possível conduzi-las, e ao vilarejo de Yamoto, a uma felicidade imediata? A resposta é um categórico “não”.
+
+Mesmo que o sistema social fosse reformado pela união dos camponeses, como ensina o professor Muchaku, isso por si só não traria a felicidade, pois são os seres humanos que operam o sistema. Ademais, a reforma de um sistema limita-se ao próprio sistema; ela não aplica o bisturi na origem das doenças, da pobreza e dos conflitos que afligem a humanidade. Será que os agricultores do outro lado da Cortina de Ferro são tão afortunados quanto sonham o professor Muchaku e seus seguidores? E os países satélites? No fim, tudo se resume à lógica de que “a grama do vizinho é sempre mais verde”.
+
+Então, os agricultores devem continuar para sempre em um trabalho deficitário, acorrentados aos grilhões da pobreza? O fato de a agricultura atual ser um mau negócio deve-se unicamente ao erro dos métodos de cultivo herdados de seus antepassados. Ao reformar essa agricultura antiquada, o aumento da colheita é garantido, os custos de produção são reduzidos e, em comparação com outras profissões, o trabalho agrícola deixa de ser, de forma alguma, um mau negócio.
+
+Que o trabalho agrícola é deficitário, eu já sabia muito antes das lições do professor Muchaku. Deixando de lado a antiguidade, sobre a qual não há registros, desde a era dos feudos medievais até a reforma agrária de hoje, o trabalho no campo não deixou de ser desvantajoso. A história comprova que, desde a Idade Média, os agricultores, presos ao sistema feudal, foram objeto de exploração pelos senhores de terras. E hoje? Embora existam muitas políticas governamentais aguardadas pelo campo — reforma agrária, melhoria do solo, indenizações por perdas, financiamento de longo prazo, controle do preço do arroz —, o agricultor de hoje não é um servo medieval. Se ele assim o desejar, pode dar um fim a essa vida sombria e se dedicar a uma agricultura que não seja deficitária.
+
+Tomando emprestadas as palavras do professor Muchaku, uma religião verdadeira é aquela que se preocupa com os seres humanos vivos e com a sociedade. Essa religião verdadeira, conhecida pelo nome de Ohikari, é a Sekaikyuseikyou. Se seus ensinamentos fossem acolhidos com sinceridade, a doença que causava a pobreza de Eguchi seria curada, a produção de suas terras aumentaria, e o rendimento por agricultor no Japão — um dos mais baixos do mundo — poderia ser ampliado com extrema facilidade. A felicidade chegaria aos agricultores sem que precisassem esperar por uma reforma do sistema social, algo que sabe-se lá quando ocorrerá (e que, de qualquer forma, não garante o aumento da produção por hectare).
+
+Contudo, esta grande religião tão aguardada por todos, que se preocupa com os seres humanos vivos e com a sociedade, de nada servirá a um homem que, como o professor Muchaku, não se dispõe a acreditar e, ao contrário, sente prazer em difamá-la.
+
+---
+
+# O Estabelecimento e a Preservação da Fé de Ligação Direta com Meishu-Sama
+
+**Categoria:** sanko | **Ano:** 昭和25(1950)年8月30日 | **Fonte:** Eikou
+**Título Original:** 明主様に直結する信仰の確立と保持 世界救世教管長 大草 直好 | **Status:** Published | **Edição/Página:** 67号 | **Data ISO:** 1950-08-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## O Estabelecimento e a Preservação da Fé de Ligação Direta com Meishu-Sama
+
+**Naoyoshi Ohkusa, Superintendente da Sekaikyuseikyou**
+*Revista Glória, nº 67, publicada em 30 de agosto de 1950*
+
+Neste período de intenso calor estival, expresso minha profunda gratidão a todos os senhores por sua diuturna dedicação ao Caminho Sagrado, rogando por sua contínua saúde e bem-estar. Por Vontade de Meishu-Sama e por deliberação do Conselho Diretor, este servo indigno foi nomeado para o importante cargo de Superintendente. Sendo eu de pouca habilidade para assumir tão grande responsabilidade, sinto-me sobrepujado pela preocupação quanto a ser capaz de cumprir plenamente meus deveres. Sendo assim, resta-me apenas rogar pelo apoio de Vossas Senhorias e de todos os fiéis.
+
+A causa do recente e lamentável incidente reside na inexperiência do responsável em assuntos mundanos, em seu parco conhecimento jurídico e em sua falta de prática com os devidos trâmites processuais. Essa conjunção de fatores culminou, de forma imprevista, em uma infração às leis vigentes, chegando ao ponto de envolver o próprio Meishu-Sama. Mais grave ainda, resultou na inevitável situação de Meishu-Sama ter de comparecer pessoalmente perante um tribunal. Tal fato nos causa indizível consternação, e creio que todos os fiéis compartilham de uma dor lancinante. Todavia, rogo a todos que não se deixem iludir por notícias repletas de exageros e embustes, nem por boatos infundados. Exorto-os, acima de tudo, a manter sua fé inabalável em Meishu-Sama e a redobrar seus esforços em prol de seus ideais. Quando o julgamento público tiver início, toda a verdade virá à tona; os pormenores da investigação, ainda desconhecidos do público, serão elucidados, e tenho a firme convicção de que a posição justa e íntegra de Meishu-Sama será então compreendida por todos. Contudo, este não é o momento para maiores deliberações. Rogo encarecidamente que, compreendendo a situação, prossigam com a difusão dos Ensinamentos sem quaisquer apreensões, dedicando-se unicamente a essa nobre tarefa.
+
+Já transcorreu meio ano desde a fundação da Sekaikyuseikyou, que nasceu da união das igrejas preexistentes, e agora, com a recente reforma, renovamos nossa estrutura para nos prepararmos para o futuro. O objetivo é garantir que não haja falhas, almejando jamais voltar a despertar a desconfiança da sociedade. Nesse sentido, para nossa Igreja, que avança com o sublime propósito de realizar a Obra de Salvação da Humanidade, é imperativo que manifestemos a fé em sua forma primordial: uma fé puríssima, centrada unicamente em Meishu-Sama, sem a mínima impureza. Considero que este é o curso natural e correto. Reflitamos sobre o Cristianismo: mesmo após Jesus ter sido submetido ao julgamento de sua época e partido deste mundo, seus apóstolos, entre os quais havia muitas personalidades notáveis, anularam a si mesmos e, de forma irrestrita, preservaram a estrutura da fé centrada no grandioso espírito de Jesus. Sem jamais a desvirtuarem, uniram-se para se dedicar à difusão, e foi por essa razão que lograram estender as mãos da salvação a todo o mundo, como vemos em nossos dias. Da mesma forma, no Budismo, embora tenham surgido inúmeros santos, todos, invariavelmente, propagaram os ensinamentos tendo Shakyamuni como centro, atribuíram todos os seus méritos a ele e, por não se desviarem do caminho da fé, o Budismo pôde se difundir por todo o Oriente. Ao contrastarmos tais exemplos com o cenário religioso de nosso país, observamos que, por uma inclinação à mesquinhez característica de nosso povo, busca-se o centro da fé de maneira secundária, o que resulta em disputas facciosas incessantes que conduzem a um declínio gradual — fato este de conhecimento geral e que lamentamos profundamente. Nossa Sekaikyuseikyou, ao analisar atentamente esses fatos, não deve, de forma alguma, se deixar aprisionar por essa mesquinhez, um mal que assola nosso país. Devemos compreender que o estabelecimento e a preservação de uma fé de ligação direta com Meishu-Sama constituem o ponto mais crucial de todos.
+
+Utilizo esta mensagem, que serve como saudação por minha nomeação, para expor uma parte de meus pensamentos e apelar pela colaboração de todos.
+
+Adicionalmente, informo que Meishu-Sama, nesta ocasião, retirou-se da posição de Líder Espiritual, adotando-se um novo regime de Superintendência. A composição do corpo diretivo é a seguinte:
+
+**Superintendente**
+Naoyoshi Ohkusa
+
+**Diretor (Permanente)**
+Sakae Iwamatsu
+
+**Diretor (Permanente)**
+Jitsutaro Moriyama
+
+**Diretor (Permanente)**
+Otomatsu Araniwa
+
+**Diretor**
+Katsuichi Watanabe
+
+**Diretor**
+Hiroyuki Tomura
+
+**Diretor**
+Shuzo Taga
+
+**Diretor**
+Masaharu Okubo
+
+**Diretor**
+Kazuo Nishigaki
+
+**Diretor**
+Utaro Nagamura
+
+**Diretor**
+Yoshihiko Kihara
+
+**Conselheiro Fiscal (Permanente)**
+Osamu Yashiro
+
+**Conselheiro Fiscal**
+Inosuke Koizumi
+
+**Conselheiro Fiscal**
+Nobumasa Takato
+
+---
+
+# Coleção de Artigos do Mestre Okada Jikan
+
+**Categoria:** sanko | **Ano:** 昭和28(1953)年12月16日 | **Fonte:** 内外タイムス
+**Título Original:** 参考文献 性病戦線異常あり （十二月九日 | **Status:** Published | **Edição/Página:** 239号 | **Data ISO:** 1953-12-16
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 内外タイムス
+
+## Coleção de Artigos do Mestre Okada Jikan
+
+## Anomalias na linha de frente contra as doenças venéreas (Publicado em 9 de dezembro no jornal Naigai Times)
+
+Revista Eikou, nº 239, 16 de dezembro de 1953
+
+Aclamada como a salvadora das doenças venéreas no pós-guerra, a penicilina marcou o início de uma era em que novos medicamentos, como a aureomicina e a terramicina, surgem sucessivamente. Contudo, as doenças venéreas não dão sinais de desaparecer. Pelo contrário, ouve-se um clamor popular de que a própria penicilina perdeu sua eficácia. Seria tal mudança fruto do desenvolvimento de resistência no organismo humano ou de um enfraquecimento do poder do fármaco? Nesse sentido, para esta edição de nossa "Aula sobre Sexualidade", convidamos o Dr. Yukibuki Shū, diretor do Hospital Yoshiwara, e o Dr. Shōda Shūichirō, médico-chefe do Hospital Kaishundō, para elucidarem a evolução dos métodos de tratamento e o panorama atual da "frente de batalha contra as doenças venéreas".
+
+### A penicilina que já não surte efeito: a prática clínica contrariando a teoria
+
+Inicialmente, a eficácia da penicilina, antes tida como absoluta, passou a ser questionada. O Dr. Yukibuki, na qualidade de clínico, esclareceu a questão nos seguintes termos:
+
+Quando começamos a utilizar a penicilina, a erradicação da gonorreia parecia uma realidade iminente, não mais um sonho distante. Contudo, a indústria farmacêutica passou a produzir a penicilina em formulações mais convenientes, o que levou a um aumento vertiginoso de seu uso. A primeira versão que utilizamos foi a penicilina cristalina aquosa, cuja característica era a rápida absorção, que elevava prontamente a concentração sanguínea, mas também era excretada com rapidez, resultando em um tempo de ação curto. Essa deficiência exigia a aplicação de injeções sucessivas a cada poucas horas, o que era um inconveniente. Todavia, quando administrada de forma contínua, sua eficácia era notável. Com o tempo, desenvolveu-se uma formulação oleosa, projetada para manter a concentração sanguínea contra o gonococo por um período prolongado. A essa se seguiram outras, como a penicilina oleosa com procaína para aliviar a dor e misturas contendo ácido esteárico e albumina.
+
+Essas novas formulações, de absorção mais lenta, mantinham a concentração no sangue por mais tempo e permitiam a injeção da dose necessária de uma só vez, tornando o tratamento muito mais prático. Foi precisamente a partir do uso desses novos tipos que os resultados no tratamento da gonorreia começaram a decair. Consequentemente, casos que antes eram curados com um total de duzentas mil unidades da versão aquosa passaram a exigir, no mínimo, trezentas mil unidades das formulações com procaína, chegando-se a aplicar até novecentas mil unidades. Isso parece ocorrer não porque a penicilina em si tenha se tornado ineficaz contra o gonococo, mas porque a busca por conveniência na sua aplicação reduziu a velocidade com que a concentração sanguínea se eleva. Ainda hoje, há situações em que acredito que o uso da formulação aquosa seria mais apropriado. Outras causas para o problema residem na confiança excessiva que os médicos depositaram na penicilina e no uso indiscriminado por parte dos pacientes, que, em automedicação, agravaram seus próprios quadros na crença de que bastava tomar uma injeção do medicamento.
+
+A injeção de penicilina até suprime os sintomas temporariamente, mas exames bacteriológicos posteriores revelam que cerca de vinte por cento dos pacientes não alcançam a cura completa. Muitos, acreditando-se curados, desenvolvem na verdade uma forma crônica da doença, que se torna recalcitrante ao tratamento e passa a exigir doses de até novecentas mil unidades para responder. Este é, sem dúvida, um dos fatores que dificultaram o tratamento. Apesar de o dogma acadêmico vigente sustentar que a gonorreia não pode desenvolver resistência à penicilina e que, portanto, sua erradicação é possível, a experiência clínica demonstra o contrário. Se a escolha da penicilina e a aplicação do tratamento não forem meticulosamente ajustadas ao quadro do paciente — tanto do ponto de vista clínico quanto bacteriológico —, a eficácia será reduzida, e os casos que se agravam tornam-se extremamente difíceis de erradicar.
+
+No que tange à sífilis, a situação é distinta. O tratamento com penicilina é considerado mais seguro que o antigo Salvarsan, que possuía efeitos colaterais severos. Todavia, diferentemente da gonorreia, a sífilis, quando submetida a tratamentos intermitentes e incompletos, pode dar origem a cepas extremamente resistentes. Isso nos leva a concluir que, no caso da sífilis, a resistência é, de fato, uma realidade.
+
+### Os microrganismos que derrotam os bons remédios e os vários "salvadores" que já surgiram
+
+Em seguida, o Dr. Shōda detalhou a evolução histórica do tratamento das doenças venéreas:
+
+No tratamento da sífilis, a era Meiji foi dominada pela terapia com mercúrio, que se limitava a conter o avanço da doença. Com o advento do Salvarsan, em 1914, obteve-se um efeito mais significativo. Contudo, por volta de 1931, o que antes se resolvia com uma aplicação semanal passou a exigir duas aplicações em dose máxima para surtir efeito. Ademais, em 1920, o bismuto foi introduzido como substituto do mercúrio, mas sem sucesso.
+
+O tratamento com Salvarsan prosseguiu até 1946, mas sua eficácia diminuía progressivamente, até que a penicilina surgiu como um verdadeiro salvador. Essa esperança, porém, foi breve. Casos que à época se curavam com trezentas mil unidades hoje exigem, mesmo no estágio inicial, cerca de dez injeções de seiscentas mil unidades. Se a doença avança para o estágio secundário, a dose necessária salta para um mínimo de três a nove milhões de unidades, ou o equivalente a mais de trinta injeções de Salvarsan. A partir do terceiro estágio, torna-se impossível prever a quantidade necessária para obter algum resultado.
+
+No que concerne à gonorreia (tripper), outrora havia um medicamento oral chamado Santal, que, embora trouxesse algum alívio, apenas atenuava os sintomas. Posteriormente, surgiram os corantes de cálcio, que promoveram uma melhora considerável. A eles se seguiram as sulfamidas, com resultados ainda melhores, chegando a cessar a secreção purulenta. Com o tempo, contudo, o microrganismo tornou-se mais forte, e a eficácia desses fármacos diminuiu.
+
+Após a guerra, a chegada da penicilina foi revolucionária: uma única injeção de trezentas mil unidades era capaz de estancar completamente o pus, e por um momento pareceu que a gonorreia seria banida do mundo. Mas, como já se tornara um padrão, sua eficácia foi se esvaindo, a ponto de surgirem casos que não se curavam nem mesmo com doses superiores. Ainda que a estreptomicina tenha sido aclamada como a sucessora, tampouco se provou uma arma definitiva. Desde então, novos medicamentos como a cloromicetina, a terramicina, a aureomicina e a iloticina foram anunciados. No entanto, nem mesmo esses mais recentes antibióticos parecem ser a solução final para os casos de doenças venéreas que se tornaram crônicos e resistentes.
+
+---
+
+# Coletânea de Teses do Reverendo Okada Jikanshi
+
+**Categoria:** sanko | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
+**Título Original:** 参考文献 布教座談会 光宝大教会 | **Status:** Published | **Edição/Página:** 191号 | **Data ISO:** 1953-01-14
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Coletânea de Teses do Reverendo Okada Jikanshi
+
+**Mesa-redonda sobre a Difusão na Grande Igreja Kōhō**
+*Jornal Eikō*, nº 191, 14 de janeiro de 1953
+
+**Data:** 3 de outubro de 1952
+**Local:** Sede da Grande Igreja Kōhō, Tosu-chō, Comarca de Miyaki, Província de Saga
+**Presidente:** Reverendo Tagao Sakai
+**Moderador:** Reverendo Harumichi Nozoe
+**Oradores:** Reverendo Mitsunosuke Sakai, Yoshiko Shibuta, Katsujirō Suzuki, Yoshinobu Futami, Meizō Nagatomo, Zentarō Sawamoto, Akio Sawamoto, Mieko Egashira, Isematsu Yamashita, Tōta Sakemi, Kiyoko Kajiwara, Keiko Ōmori, Tatsuo Ōno, Teiko Furukawa, Hachirō Hayata
+**Outros presentes:** Cerca de vinte pessoas
+
+**Moderador:** Daremos início, neste momento, à nossa mesa-redonda. Como este encontro foi organizado de forma repentina e a maioria dos membros já se retirou, restando apenas os responsáveis da igreja, gostaria de conduzir nossa conversa em um ambiente descontraído, como um diálogo franco e íntimo. Para começar, gostaria de solicitar ao reverendo Presidente que nos proponha um tema ou um ponto de partida para nossa discussão. Por gentileza, reverendo.
+
+**Presidente:** Graças a Deus, o desempenho de nossas igrejas tem melhorado recentemente. As igrejas que tratam com a devida seriedade a oferenda de gratidão pelo Johrei invariavelmente apresentam um desempenho superior. E, de fato, é natural que assim seja. Contudo, é justamente a essa questão fundamental que muitos não dedicam a devida atenção, encontrando dificuldades para realizá-la corretamente. Portanto, creio que seria proveitoso iniciarmos nossa conversa abordando o tema da oferenda de gratidão.
+
+### Sobre a Oferenda de Gratidão
+
+**Moderador:** Agradeço-lhe. Trata-se, com efeito, de um assunto da mais alta importância. Sendo assim, senhora Shibuta, por favor, poderia começar?
+
+**Shibuta:** Peço licença para falar. No momento, não tenho relatos individuais para apresentar, pois os membros da igreja têm se empenhado admiravelmente. Contudo, noto que, por exemplo, no que tange às contribuições mensais, aqueles que, por iniciativa própria, as entregam pontualmente e de forma correta, recebem graças visivelmente distintas e passam por purificações mais brandas.
+
+**Presidente:** Entregar as contribuições sem causar transtornos representa, por assim dizer, o cumprimento do mais básico dever moral de um membro. Isso é o esperado.
+
+**Moderador:** As unidades que prosperam já estão em um ritmo constante, mas imagino que a recepção seja bastante movimentada. O que nos diz, senhora Ōmori?
+
+**Ōmori:** Eh... (risos) (risos de todos)
+
+**Moderador:** (risos) Essa me surpreendeu! Então, vamos a alguém mais novo. Senhor Suzuki, gostaria de partilhar algo?
+
+**Suzuki:** O que vou relatar desvia-se um pouco do tema...
+
+**Moderador:** Oh, não há problema algum.
+
+**Suzuki:** Ocorreu no início deste mês. Recebi um casal vindo da mina de carvão de Kuhara; o marido sofria de uma dor na lombar. Ele me abordou com um tom peculiarmente provocador: "Disseram-me que este é o lugar para tratar o que nem médicos, nem eletroterapia, nem massagens conseguem resolver. Já tentei de tudo, sem o menor resultado. Por isso vim. Diga-me, reverendo, isso cura mesmo?". Respondi: "Se vai curar ou não, isso eu não posso lhe dizer". Ele retrucou: "Ora, viemos de tão longe, e o senhor me vem com uma resposta tão pouco animadora". Eu então expliquei: "Pode parecer pouco animador, mas na verdade é a fonte de toda a confiança, pois é Deus quem realiza a obra". Após cochichar algo com a esposa, ele decidiu: "Pois bem, reverendo, já que estamos aqui, curando ou não, vamos em frente e experimente". E então ele perguntou: "A propósito, reverendo, vejo que todos colocam dinheiro naqueles envelopes. Quanto é que se deve pôr ali?". Nesse momento, confesso que minha paciência começou a se esgotar. Respondi: "Aquilo é uma oferenda de gratidão a Deus; não há um valor fixo. Mas, assim como se paga uma taxa de primeira consulta ao médico, trezentos ou quinhentos ienes, o que estiver em seu coração, está de bom tamanho". Depois de deliberarem mais um pouco, entregaram a oferenda e ele se sentou à minha frente. Passados uns vinte minutos de Johrei, eu disse: "Como se sente? Tente esticar as costas". Ele começou a se endireitar lentamente e exclamou: "Ai, ai, ai! Dói, dói! Não mudou absolutamente nada!". Senti como se uma lança atravessasse meu peito. "Que falha a minha", pedi perdão em meu coração. Até aquele momento, eu o julgava internamente, pensando: "Que sujeito insolente. Alguém assim não voltará uma segunda vez". Ministrava o Johrei enquanto nutria irritação e raiva. Então, dei-me conta de meu erro imperdoável: eu, um instrumento que canaliza o sagrado Poder de Meishu-Sama, estava a julgar uma pessoa com base em meus próprios sentimentos. Pedi-lhe perdão e, desta vez, canalizei a Luz Divina por apenas dois ou três minutos. Perguntei: "Onde dói mais agora?". Para minha surpresa, ele se endireitou com cautela, mas de forma tranquila, até alcançar uma postura normal. Repetiu o movimento de flexão e extensão mais duas, três vezes, cada vez com mais vigor, e de repente exclamou, em grande alvoroço: "Ah! Curou! Não sinto dor alguma!". Foi-me permitido compreender quão nitidamente os resultados se alteram conforme a nossa disposição mental. Soube depois que ele comentou com outros membros que, por uma cura tão boa, o valor não havia sido caro.
+
+**Presidente:** Exatamente! É justamente isso. A responsabilidade de fazer alguém sentir que uma oferenda é "cara" ou não recai sobre o ministro. O Johrei, que nos concede o perdão dos infortúnios cármicos do passado, presente e futuro, redirecionando nossa vida para a felicidade, é algo cujo valor não pode ser medido em dinheiro. A oferenda de gratidão, que materializamos na medida de nossas posses, é apenas uma parcela do nosso sentimento, e temos a honra de saber que ela será utilizada na construção do Paraíso Terrestre. Fazer com que os membros compreendam essa honra e ajam corretamente é a verdadeira bondade. Se duvidam, experimentem oferecer de uma só vez um ou cinco milhões de ienes; verão que a maioria dos problemas se resolve em uma única sessão! (risos)
+
+### Ministros, tenham altivez!
+
+**Mitsunosuke Sakai:** Ouvi dizer que, no passado, tanto o reverendo Presidente quanto o reverendo Nozoe chegaram a não aceitar donativos em dinheiro vivo ou envoltos em papéis inadequados, com inscrições como "singela contribuição" e sem o nome do ofertante. Creio que essa altivez do ministro é algo de suma importância.
+
+**Presidente:** Com efeito. O dinheiro pode facilmente tornar-se algo impuro, mas é também algo de grande valor. Por isso, o ministro deve possuir um pensamento límpido e íntegro ao servir como intermediário para Deus. Se ele nutre pensamentos mesquinhos e impuros, acabará por intermediar algo igualmente maculado.
+
+**Furukawa:** Ao receber a permissão de atuar sob a orientação do reverendo Nozoe, sinto que sou constantemente guiada por ele através da postura de fé dos membros.
+
+**Presidente:** É natural que assim seja. O pensamento do ministro reflete-se diretamente nos membros; é algo vivo e atuante. O mesmo ocorre com todos os ministros. Por isso se diz que, ao observar os membros, compreende-se o ministro.
+
+**Sakemi:** Recentemente, tive a permissão de assumir a filial de Nagasaki e tenho recebido muitas graças através dos membros. Cito como exemplo o caso da família Kabe. Eles enviaram uma oferenda para o Culto do Natalício, outra para a peregrinação do casal à Sede e ainda uma terceira em nome dos filhos, que ficariam em casa recebendo Luz. Fiz questão de entregar essas oferendas ao escritório explicando cada uma delas. Atitudes como essa nos trazem uma alegria indescritível. Logo depois de realizar essa dedicação, recebi a notícia de que os três barcos da família haviam tido uma pesca tão abundante que, se carregassem tudo o que as redes continham, afundariam. Tiveram que carregar o máximo que podiam e soltar o resto.
+
+**Presidente:** Que relato reconfortante! Ultimamente, tem aumentado notavelmente o número de oferendas de gratidão por proteção recebida e de donativos por ministração de Johrei a terceiros. No entanto, soube que um certo chefe de igreja média perguntou se "poderia usar para si as oferendas de gratidão por proteção". Sinto que vivemos em mundos completamente diferentes. Ao longo da história, foram raros os seres humanos que conheceram a gratidão a Deus, mas praticamente ninguém compreendeu a verdadeira retribuição a essa gratidão. Alegrar-se ou abanar o rabo é algo que até os animais fazem. Foi com o advento de Meishu-Sama que, pela primeira vez, nos foi ensinado o caminho para retribuir verdadeiramente a Deus. A missão do ministro é orientar os fiéis nesse caminho, transmitindo-o com retidão, sem deturpações nem artifícios.
+
+### Não adotem práticas equivocadas
+
+**Moderador:** Muito obrigado. Agora, gostaria de abordar questões relativas à difusão. Alguém teria alguma dúvida sobre como proceder em determinadas situações ou gostaria de partilhar alguma experiência?
+
+**Suzuki:** Certo dia, uma pessoa de outra igreja, vinda de Shikoku, após receber Johrei, fez sua oferenda. Em seguida, pegou sua bolsa e retirou dez ienes em moedas para colocar diante do Altar. Eu lhe disse: "Não se deve colocar dinheiro vivo diante do Altar". Ela respondeu: "Mas na minha igreja, temos o costume de sempre oferecer uns dez ienes no sambō". Eu disse: "Entendo. Nesse caso, vou recebê-los separadamente e talvez incluí-los na contribuição da equipe de dedicação", e assim aceitei o valor.
+
+**Futami:** Em certa igreja de Kagoshima, o proprietário de uma casa me contou que uma caligrafia sagrada "Sange Ketsujitsu" foi concedida sem a moldura por dez mil ienes. Como as caligrafias sagradas não são mercadorias, não se pode discutir valores, e fiquei um tanto perplexo com a situação.
+
+**Nagatomo:** Em uma igreja na minha região, a oferenda pelo Obyōbu-sama era de cinco mil ienes, e soube de uma pessoa que o recebeu por sete mil. Fiquei chocado. Na Igreja Kōhō, na época, a oferenda era de trezentos ienes. Além disso, parece que a duração do curso de formação era determinada pelo número de dias em que a pessoa recebia Johrei. Falava-se em "curso de dez dias" ou "curso de vinte dias".
+
+**Ōno:** No ano retrasado, em junho, quando participei de uma equipe de dedicação, um dirigente de outra igreja me perguntou qual era a oferenda pelo Obyōbu-sama. Quando respondi que eram trezentos ienes, ele afirmou: "Esse não tem espírito dentro". Fiquei atônito.
+
+**Zentarō Sawamoto:** Fui informado de que uma igreja na cidade de Asetsu, na ilha de Gotō, em Nagasaki, estava com má reputação e perdendo membros rapidamente. Preocupado que isso pudesse ser um obstáculo para a difusão, fui até lá para verificar. Descobri que a esposa do ministro agia como uma vidente, dizendo coisas como "este vai curar" ou "este não tem mais jeito".
+
+**Akio Sawamoto:** Em uma igreja na minha região, foi-me dito que em Narushima o curso de formação dura três dias, mas para quem não tem tempo, não há curso. Já na área de Fukue, o curso simplesmente não é realizado.
+
+**Mitsunosuke Sakai:** Quando eu estava em Nobeoka (em 1950), um membro de outra organização me procurou e disse: "Eu também recebi grandes graças e desejo encaminhar o maior número possível de pessoas, por isso tenho levado muitas delas à minha igreja. Contudo, notei recentemente uma grande diferença nos valores das oferendas de formação em comparação com a sua igreja, e não quero que pensem que estou me aproveitando dessa diferença. Quando perguntei ao meu ministro sobre isso, ele disse que existem igrejas falsas. Vim hoje para verificar a autenticidade da sua. Ao ver a fotografia de Meishu-Sama e ouvir sobre o Dai-Kōmyō-Nyorai, percebi que está longe de ser falsa. Ainda assim, a diferença nos valores das oferendas é excessiva". Ele continuou com várias queixas e finalmente perguntou: "Será que eu não poderia receber apenas os objetos sagrados por meio da sua igreja?". Eu lhe expliquei: "Isso não é possível. Não se trata de uma transação comercial, de algo caro ou barato. À medida que recebemos graças e a nossa compreensão se aprofunda, passamos a sentir na pele a nobreza e a preciosidade dos ensinamentos, e a oferenda jamais nos parecerá cara. Dito isso, o que nos foi determinado deve ser transmitido tal como é. O ministro que age como um intermediário para obter lucro está tratando o sagrado como uma mercadoria, e certamente receberá o devido julgamento por isso. Vocês devem se dirigir a Deus com um pensamento sincero e direto. Sei que há muito a ser dito, mas vocês estão ligados por laços cármicos, portanto, aguardem o momento certo. Em um futuro próximo, chegará o dia em que ministros exemplares em todas as igrejas os guiarão de maneira unificada e correta". Ele ficou muito contente com a explicação e foi embora.
+
+**Egashira:** Quando fui a Aso para o curso de formação, encontrei lá membros de outra organização. Eles haviam recebido tudo por oferendas muitas vezes maiores que as nossas. Eles me orientaram de várias formas, dizendo que a Igreja Kōhō parecia ser rígida demais e que se deve ofertar o máximo possível. Pensei que, de certa forma, isso também tinha suas conveniências.
+
+**Moderador:** Sei que a intenção de todos não é a de apontar defeitos mesquinhamente, mas o rumo da conversa não me agrada. Vamos tentar extrair alguma graça até mesmo dessas situações. Que tal mudarmos de assunto e ouvir um relato edificante sobre como alguém orientou outra pessoa?
+
+**Kajiwara:** Outro dia, veio à igreja uma pessoa que começou a discursar incessantemente sobre uma fé que havia estudado no passado, atrapalhando a ministração de Johrei. Eu lhe disse: "A nossa não é uma religião teórica, mas uma fé alicerçada em fatos. Se quiser conversar, por favor, espere para depois. E se o seu interesse é pesquisar diversas religiões, saiba que só no Japão existem hoje cerca de setecentas. Se dedicasse um mês a cada uma, levaria cinquenta e oito anos. Talvez possamos ouvir seu nobre sermão depois disso". Ele se calou.
+
+**Hayata:** Lembro-me de um caso da época em que o reverendo Nozoe estava em Haiki. Um homem havia recebido a graça da água em um poço que estava seco havia dezesseis anos. Tempos depois, a água começou a aparecer e a sumir. Ao procurar o reverendo, este lhe disse: "Você tem apenas recebido a virtude divina, mas é preciso retribuir a proteção recebida com uma oferenda de gratidão. Além disso, uma oferenda com valor simbólico é um desrespeito. Só o fato de nosso nome ser visto já é uma grande honra, por isso devemos fazer tudo da forma correta". O homem fez uma oferenda adequada e, ao retornar para casa, encontrou o poço transbordando de água. Ficou imensamente feliz. Alguns dias depois, voltou para relatar que um empréstimo que ele tentava reaver havia três anos, e que já dava como perdido, foi pago parcialmente, tendo o devedor lhe entregado dez mil ienes. Desta vez, ele fez uma oferenda de gratidão por proteção da maneira correta antes de partir.
+
+**Moderador:** Sim, recordo-me desse caso. Agora, se alguém tiver alguma dúvida sobre como proceder em certas situações...
+
+### A linguagem perante Meishu-Sama
+
+**Akio Sawamoto:** Ao ler o *Gosuijiroku* e outras publicações, por vezes me deparo com expressões de extrema arrogância dirigidas a Meishu-Sama, como "para sua referência", "mas, contudo" ou "ainda assim, seria melhor não usar adubo". Sinto que essa não é a postura de quem suplica para que todo o seu corpo e espírito sejam utilizados por Ele. Além disso, em relatos de graças publicados no jornal *Eikō*, encontro termos como "oferenda excessiva" ou "Culto de Salvação de Espíritos", e até mesmo um caso em que o jornal era usado como espantalho. Sei que posso estar sendo atrevido, mas temo que isso possa confundir alguns membros. Não seria possível que a equipe editorial tomasse alguma providência?
+
+**Presidente:** O sentimento que o senhor Sawamoto expressou é, de fato, pertinente. Contudo, Deus, em Sua infinita sabedoria, utiliza as pessoas peculiares em lugares peculiares, de maneira engenhosa e sem desperdício. Cabe a nós discernir ao máximo o bem e o mal e apenas observar. Se vocês pudessem ouvir ou ver as diversas formas como as pessoas se dirigem a Meishu-Sama, muitas vezes sentiriam um aperto no peito, uma sensação indescritível. No entanto, ao contemplar a maneira como Meishu-Sama sempre as recebe, com a serenidade de uma brisa primaveril, totalmente impassível, sinto-me tomado por um profundo temor e percebo minha própria impertinência. Como o que o senhor Sawamoto disse é verdade, levarei seu pedido à equipe editorial. Quanto às discrepâncias nos valores das oferendas, esse é um problema que precisa ser unificado com urgência. Afirmar que uma caligrafia "não tem espírito dentro" é um embuste de uma audácia espantosa. E como se não bastasse inventar algo como um "Culto de Salvação de Espíritos", há ministros que saem em comitiva para realizar "cerimônias de consagração" do Altar na casa dos membros ou do Obyōbu-sama. Os equívocos são muitos, complexos e trabalhosos. É como se vários parafusos estivessem frouxos, girando em falso. Realizar ou omitir cursos de formação por conveniência é uma rebelião contra Deus. Se seguirmos as diretrizes divinas e as colocarmos em prática tal como são, os justos certamente alcançarão a felicidade, e os que erram certamente perecerão. É simples assim. De todo modo, é certo que aqueles que seguem o caminho da seriedade prosperarão, e os que trilham o caminho da falta de seriedade decairão. Recentemente, a Sede elaborou novas diretrizes para os cursos de formação, e os encontros entre os ministros dirigentes têm se tornado mais frequentes e próximos. O dia em que todos nos unificaremos sob as diretrizes divinas parece estar próximo.
+
+**Moderador:** Hoje, tivemos a oportunidade de debater diversos assuntos com franqueza e de receber orientações inesperadas e valiosas do reverendo Presidente. Muito obrigado. Que possamos, juntos, nos empenhar ainda mais para elevar nossa fé. A reunião de hoje está encerrada.
+
+**Presidente:** Agradeçamos a Meishu-Sama.
+
+(Todos oram em agradecimento)
+
+---
+
+# Colóquio Regular sobre a Difusão (Primeira Sessão)
+
+**Categoria:** sanko | **Ano:** 昭和27(1952)年11月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 参考文献 布教定例座談会 （第一回） | **Status:** Published | **Edição/Página:** 42号 | **Data ISO:** 1952-11-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
+
+## Colóquio Regular sobre a Difusão (Primeira Sessão)
+
+*Paraíso Terrestre*, n.º 42, 25 de novembro de 1952
+
+**Data e Hora:** 4 de setembro de 1952
+**Local:** Seizanso (residência do Diretor Kihara), Gora, Hakone
+**Participantes:**
+Diretor da Sede Central: Yoshihiko Kihara
+Presidente da Grande Igreja Koho: Tagao Sakai
+Presidente da Igreja Média Chosei: Utaro Nagamura
+Presidente da Igreja Média Koyo: Eitaro Ogawa
+Presidente da Igreja Média Kosei: Kyoji Otsuki
+Presidente da Igreja Média Ryuko: Takaaki Ishizaka
+Estenógrafo: Michiharu Kihara
+
+(Nota) A participação neste Colóquio Regular sobre a Difusão não é restrita aos membros atuais. Os senhores presidentes de Igreja Média que desejarem participar serão muito bem-vindos. Para fins de organização, as inscrições estão sendo centralizadas no escritório da Igreja Messiânica.
+
+**◎ Sobre o Significado da Dedicação no Museu de Arte**
+
+**Ogawa:** Hoje, na véspera da audiência com Meishu-Sama, muitos presidentes de Igreja Média se hospedam em Hakone. Enquanto alguns se entretêm com partidas de go ou shogi, o que é perfeitamente aceitável, esta ocasião se apresentou como uma oportunidade para que pudéssemos utilizar este tempo em serviço a Deus, como preparação para a Obra Divina de amanhã. Em reuniões anteriores, com a presença de muitos, houve assuntos que não pudemos expressar livremente. Ademais, embora tenhamos sido agraciados com os Ensinamentos de Meishu-Sama e, em geral, não estejamos equivocados, percebo que ainda existe uma tendência de, por conveniência própria, deixarmos de assimilar os pontos que nos são desfavoráveis. Há também aqueles que, sob o pretexto de se entregarem à Vontade Divina (kamunagara), acabam por cair em uma postura de negligência, pensando: “Basta praticar o que já compreendi e deixar de lado o que não entendo. Se eu estiver errado, Deus me corrigirá”. Creio que essa atitude ultrapassa a entrega à Vontade Divina e se torna uma forma de omissão.
+
+Portanto, gostaria que todos nós, tanto os que servem há muitos anos na Obra de Meishu-Sama e a difundem com vigor quanto aqueles que, ao contrário, se encontram em um período de estagnação, abríssemos nossos corações. O objetivo fundamental é nos tornarmos úteis a Meishu-Sama. Até agora, talvez por nos considerarmos todos em um mesmo nível, a comunicação com nossos superiores se resumia a concordâncias como “deve ser isso” ou “sim, é verdade”, e assim prosseguimos, sem chegar a uma conclusão clara sobre como as coisas deveriam de fato ser. Naturalmente, aqueles com longa experiência possuem convicções sólidas, mas é ao recebermos a orientação de quem nos afirma “não há erro, o caminho é este” que podemos nos empenhar com renovado vigor e determinação. Este encontro é uma excelente oportunidade para que, com sinceridade, possamos tanto instruir-nos mutuamente quanto ouvir as opiniões de todos, a fim de fortalecermos nosso espírito e nos prepararmos para a Obra Divina que nos aguarda. Agradeço a colaboração de todos.
+
+**Kihara:** É fato que os presidentes de Igreja, atualmente, parecem desprovidos de certo vigor.
+
+**Todos:** Exatamente.
+
+**Nagamura:** Creio que isso se relaciona ao que o senhor Ogawa acabou de mencionar. Na reunião de estudos para presidentes de Igreja Média do primeiro dia do mês, um dos presidentes confessou sentir-se estagnado. Refletindo sobre isso, parece-me que a estagnação ocorre quando se anuncia os Ensinamentos de Meishu-Sama com base no próprio julgamento, faltando a humildade de buscar a orientação dos superiores. Portanto, em vez de simplesmente criar um grupo de presidentes com a disposição de aprender, senti o desejo de que os companheiros com o mesmo ideal se reunissem e criassem essa oportunidade. Sendo esta uma excelente ocasião, gostaria que a transformássemos em um encontro proveitoso, talvez instituindo-a como um colóquio regular.
+
+**Ogawa:** Na recente reunião de estudos, creio que alguém mencionou a questão dos convites para o museu e o prazo de validade. Ouvi dizer que a palavra de Meishu-Sama foi para que os fiéis pudessem visitar o museu a qualquer momento. Acredito que a Igreja tem seguido esse espírito, mas surgiu a questão de um prazo, após o qual o ingresso custaria metade do valor. Alguns interpretaram isso como se a Igreja tivesse revogado uma orientação anterior, expressando seu descontentamento. Contudo, essa interpretação não seria inadequada?
+
+**Kihara:** Sem dúvida, é uma interpretação inadequada.
+
+**Ogawa:** A esse respeito, entendo que, por maior que seja a compaixão de Meishu-Sama, nós já fomos agraciados com inúmeras virtudes divinas, tangíveis e intangíveis, por meio da dedicação. Seria uma impertinência de nossa parte esperar ainda mais benefícios materiais. Na verdade, eu já pensava há algum tempo que essa cortesia deveria ser suspensa.
+
+**Nagamura:** Exatamente por isso, em minha igreja, ao entregar os convites, esclareci: “Este é um gesto da compaixão de Meishu-Sama. Contudo, nossa verdadeira postura deve ser a de contribuir com o valor do ingresso, para que assim possamos colaborar na construção do próximo museu”. Com essa orientação, não tivemos um único caso desse tipo.
+
+**Kihara:** Recentemente, tenho observado uma mentalidade que se assemelha a um sistema de recompensas em relação a diversos assuntos. É algo sobre o qual precisamos refletir. Devemos realizar tudo tendo Deus como nosso interlocutor. Com a conclusão do Museu de Arte, o Paraíso Terrestre se manifestou concretamente tanto no Mundo Material quanto no Mundo Espiritual. Isso é algo extraordinário. Pela Lei do Predomínio do Espírito sobre a Matéria, o restante é apenas uma questão de tempo. Por mais que os demônios se debatam e resistam, a imagem do Shinsenkyo se refletirá em todos os cantos do mundo. Quão imensamente gratos devemos ser por termos recebido a permissão de servir nesta nobre e grandiosa Obra Divina.
+
+Ademais, cada pintura, cada utensílio ali exposto foi escolhido com profundo apreço por Meishu-Sama e, por conseguinte, tudo está impregnado de Sua Luz. Alguém mencionou, se não me engano, que uma pessoa com dor lombar, que normalmente não conseguiria, pôde permanecer em visitação por horas a fio, maravilhada. É natural que assim seja. Portanto, adentrar o museu equivale a receber Johrei. Não se pode receber graças divinas sem oferecer algo em troca. Foi por isso que nós mesmos solicitamos a Meishu-Sama a permissão de contribuir. É dever do presidente de Igreja fazer com que até o último membro compreenda o significado de questões como esta. Essa é a sua missão. Em situações assim, a fé dos membros se aprofunda, e as graças que recebem também se multiplicam.
+
+**Sakai:** É exatamente isso. Na Igreja Koho, desde o início da dedicação no museu, tem aumentado rapidamente o número de membros que expressam sua alegria por terem aprendido a receber graças. E, como resultado, temos observado um bom desempenho em outras áreas também.
+
+**◎ Por que Ocorre a Estagnação?**
+
+**Ishizaka:** Na reunião de presidentes do dia trinta e um, ouvi vozes de presidentes de Igreja Média que diziam ter chegado a um ponto de estagnação...
+
+**Kihara:** Quando ouço que alguém chegou a um ponto de estagnação, simplesmente não consigo aceitar. Só posso pensar que essa pessoa está presa a algo e profundamente equivocada. Também ouvi dizer que a maioria dos presidentes de Igreja Média está em apuros por causa das dedicações, mas tampouco consigo aceitar isso. Em um de Seus Ensinamentos, Meishu-Sama afirmou: “Quando a Igreja passa por dificuldades financeiras, é porque sua dedicação é insuficiente”. Se uma igreja está passando por apuros, é porque sua dedicação é ínfima. O cerne do problema é não se dedicar, o que, por sua vez, gera as dificuldades. Contudo, a atitude tem sido a de não se dedicar por já estar em dificuldades. Sinceramente, como é possível orientar pessoas com tal mentalidade? Tendo recebido um poder tão absoluto, é espantoso que se possa dizer algo assim.
+
+**Otsuki:** Refleti profundamente sobre a questão da dedicação. Costuma-se dizer que, ao dedicar, recebe-se um milhão de vezes mais, ou no mínimo, muitas e muitas vezes mais. Isso não é novidade para mim, mas eu me afligia por não conseguir fazer com que as outras pessoas, ou seja, os membros de filial, compreendessem isso. Contudo, fui despertado para o fato de que o problema não era a incapacidade deles de compreender, mas sim a minha incapacidade de transmitir essa verdade de forma clara. Percebi que a minha própria incompreensão se refletia neles. Desde então, decidi não me prender a diversas questões e atuar com vigor para que todos alcancem a felicidade. E os resultados parecem ser positivos.
+
+**◎ Como Receber os Escritos Divinos**
+
+**Nagamura:** No verão do ano passado, passei por um período de estagnação e procurei o Reverendo Kihara para pedir orientação sobre diversos assuntos. Até então, eu lia os Escritos Divinos apenas com os olhos. Certa vez, o Reverendo me disse: “Não se deve ler com os olhos, mas com o coração, e digerir os Ensinamentos até que se tornem seu sangue e sua carne”. Desde então, tenho me esforçado para praticar isso e, pouco a pouco, sinto que estou começando a compreender.
+
+**Kihara:** Quando leio os Escritos Divinos, não o faço como uma simples leitura. Procuro senti-los no mais profundo de meu ser, como se Meishu-Sama estivesse, naquele exato momento, proferindo aquelas palavras diante de mim. Ao mesmo tempo que leio, busco absorvê-las em meu espírito. Não tenho a intenção de memorizar o significado das palavras. Acredito que, mesmo que eu as esqueça, o importante é que se manifestem em minhas ações. Mesmo as teses e as críticas pontuais que Meishu-Sama escreveu sobre a sociedade, eu as recebo como se fossem dirigidas a mim, para que sirvam à purificação do meu interior.
+
+Atualmente, tenho uma condição física que me permite ter bastante tempo livre, então leio os Escritos Divinos repetidamente. A cada leitura, o sabor se transforma. Recentemente, sinto que meu estado de espírito progrediu. Pode parecer presunçoso, mas eu mesmo me tornei uma pessoa muito mais serena. Antes, diante de qualquer situação, eu tinha fortes desejos, defendia minhas opiniões e costumava ser uma espécie de justiceiro indignado, o que me causava grande sofrimento. Qualquer que seja a razão, quando estamos passando por um momento de desconforto, podemos considerar que estamos sob a influência de espíritos malignos. Se nos apegarmos ao poder absoluto de Deus, deveríamos ser capazes de seguir sempre com um sentimento de paz. Ao ler os Escritos Divinos, sinto profundamente que minha sabedoria e iluminação se elevam e que recebo uma força verdadeira.
+
+**Nagamura:** Lembro-me de que, após uma reunião de ministros em que o Reverendo Kihara nos orientou sobre diversos assuntos, a vitalidade do nosso encontro aumentou. Antes, líamos as teses de Meishu-Sama e as interpretávamos de maneira arbitrária, anunciando-as de acordo com nossa conveniência. Creio que isso era um obstáculo. Portanto, se nós, a começar pelos presidentes, quebrarmos nossa carapaça e passarmos a ter a humildade de buscar a orientação, a estagnação na difusão certamente desaparecerá. Fico a me perguntar por que eu mesmo não compreendi isso antes.
+
+**Kihara:** A palavra “ensinar” soa muito grandiosa, e creio que eu mesmo não deveria usá-la em relação aos outros. Contudo, não há problema algum em ter um espaço onde se possa consultar sobre o que fazer, não é mesmo?
+
+**◎ A Disposição de Buscar o Caminho**
+
+**Otsuki:** Meishu-Sama frequentemente nos diz em Suas palavras para perguntarmos aos nossos superiores.
+
+**Sakai:** Parece que os atuais presidentes de Igreja Média não se veem como pessoas que precisam ser guiadas. Se as coisas não vão bem, não seria essa a causa fundamental? Antigamente, eu mesmo cometi muitos erros e não tenho o direito de falar sobre outras igrejas, mas ouço dizer que os presidentes de hoje carecem de fervor. Será que eles pensam que esse fervor é como as calorias geradas pela queima de carvão? Eu acredito que o que falta é o fervor na busca. E é por isso que a dedicação não é realizada como deveria. O fato de as pessoas aqui reunidas terem vindo com o propósito de buscar é algo excelente.
+
+**Ogawa:** Compreendi que a dedicação é algo que devemos buscar a permissão para realizar. Antes, longe de buscar, eu pensava: “Lá vem mais uma; preciso me sacrificar para cumprir esta tarefa”. Ao falar com os ministros, eu dizia: “Sei que é difícil para todos, mas é imprescindível que levemos isto a cabo”. Era uma postura, pode-se dizer, infernal. Contudo, desde que fui orientado, entendi que ter a permissão de dedicar é, em si, receber vida e força. É algo imensamente gratificante. É por nos ser permitido dedicar que podemos viver o dia a dia, e a expansão da difusão se desenvolve de forma correspondente. A partir desse despertar, passei a dizer aos ministros, com esse sentimento: “Alegrem-se todos! Foi-nos concedida uma dedicação maravilhosa como esta. Poderemos nos desenvolver ainda mais!”. E, de fato, ao realizarmos uma dedicação, logo recebemos os Escritos Divinos. A esperança brota ao dedicar, e sinto uma força que emerge de dentro. Hoje, posso realizar a dedicação com um sentimento verdadeiramente sereno, em um estado de espírito celestial. E, desde então, a difusão também tem apresentado resultados cada vez melhores.
+
+**Kihara:** A Igreja Messiânica não se baseia em teorias vãs, mas avança com base em fatos concretos. Portanto, ao orientarmos os ministros e membros, se não houver a comprovação pelos fatos, eles não nos seguirão com convicção. A esse respeito, acredito que a melhor forma é demonstrar com o próprio exemplo, em vez de apenas falar. Além disso, as palavras de um líder que age com essa disposição têm força e, invariavelmente, movem as pessoas. Mais importante do que falar com eloquência é, afinal, a sinceridade.
+
+**◎ A Dedicação é a Água de Escorva da Bomba**
+
+**Sakai:** Recentemente, ouvi comentários sobre não se exceder na dedicação e em outras atividades. Mas será que é realmente possível “se exceder”?
+
+**Kihara:** Não é possível se exceder de verdade. Contudo, o que se costuma dizer é uma desculpa para escolher o caminho mais fácil. É intolerável que algo que pode ser feito seja descartado com um “é excessivo, é excessivo”. Essas são palavras de quem não acredita nos milagres de Deus. É uma pena que haja tantas pessoas sem ambição. São tolos como aquele que se esforça para bombear água de um poço sem antes colocar a água de escorva. A água de escorva não é simplesmente despejada e perdida; ela retorna trazendo consigo um volume muito maior, não é mesmo? Nossa dedicação é exatamente como essa água de escorva.
+
+**Sakai:** Há pessoas que passam o tempo todo dizendo coisas como: “Por mais que eu pense, minha fé é perfeita e não cometo erros, então por que as coisas não dão certo?”.
+
+**Kihara:** Em primeiro lugar, essa atitude de dizer que “não há erros, mas as coisas não dão certo” já está equivocada. A pessoa deve ter a cabeça completamente virada. Talvez ela compreenda quando sofrer um pouco mais, então é melhor deixá-la em paz. Dizer que não há erros é desrespeitar a Deus de uma forma inaceitável. Quando uma igreja ou filial não vai bem, há quem se limite a culpar os outros, dizendo que seus dirigentes não se esforçam o suficiente. Para mim, isso é o mesmo que dizer: “Esta minha mão é um problema, de vez em quando ela fica preguiçosa e não faz nada. É uma mão terrível”. Na verdade, não é ela uma parte de si mesmo? É apenas um reflexo de sua própria imagem. Ou seja, o problema é a própria pessoa.
+
+**Otsuki:** Isso me fez refletir. O fato de a filial não cooperar ou de os membros não agirem como eu esperava era, no fim das contas, um reflexo de mim mesmo. Sinto muito por isso.
+
+**Kihara:** Quando se chega a essa compreensão, a igreja começa a melhorar gradualmente. É fundamental que estejamos sempre diante de Deus, refletindo sobre nossos atos. Há situações como a do homem que se aflige procurando por toda parte a toalha que já está amarrada em sua própria cabeça. Bastaria levar a mão à cabeça para encontrá-la imediatamente. Da mesma forma, por falta de uma pequena reflexão, acabamos por sofrer desnecessariamente.
+
+Outro dia, minha perna estava doendo e, para minha vergonha, atrasei-me um pouco para a audiência especial. Quando cheguei, a oração já havia começado. No entanto, o pessoal do escritório ainda estava cuidando de procedimentos administrativos. A oração antes da audiência tem o propósito de purificar a todos, para que possamos receber Meishu-Sama. E, apesar disso, dois ou três presidentes estavam cuidando de assuntos burocráticos, ignorando a oração. Isso é puro egoísmo. É com esse tipo de coisa que devemos ter o máximo de cuidado. Se negligenciarmos o que é fundamental, por mais que tentemos fazer bem os detalhes, nada dará certo.
+
+Afinal, o Johrei possibilita a cura de doenças por ser uma terapia fundamental. No entanto, muitos criticam a medicina ocidental, mas suas próprias ações são sintomáticas, ou seja, são como um tratamento paliativo. É por isso que não conseguem receber a verdadeira graça. Torna-se difícil alcançar a felicidade. Essa é a diferença entre a força humana e a Força Divina.
+
+**Sakai:** Antigamente, no sistema das Grandes Igrejas, se não tivéssemos cuidado, éramos repreendidos, então nos esforçávamos ao máximo. Hoje em dia, mesmo que os resultados sejam ruins, ninguém diz nada. Talvez por isso as rédeas estejam mais frouxas, não acha?
+
+**Kihara:** Contudo, Deus está sempre nos observando. O ser humano é uma criatura impura, cheia do desejo de ser elogiado, reconhecido e amado pelos outros. Devemos abandonar esse sentimento e agir não para agradar aos homens, mas para agradar a Deus, ou seja, para nos tornarmos presidentes que agradem a Meishu-Sama. Se fizermos isso, com certeza seremos apreciados tanto pelos ministros quanto pelos membros.
+
+**◎ Postura em Relação à Transferência de Membros**
+
+**Sakai:** Atualmente, ocorrem transferências de membros. Acredito que tanto o presidente da igreja de onde o membro saiu quanto o da igreja que o recebeu deveriam se desculpar.
+
+**Kihara:** Desculpar-se talvez seja um exagero. Há várias razões para uma transferência. É estranho tanto a pessoa que muda de igreja por estar insatisfeita com o presidente, quanto o presidente que a convida, dizendo “então venha para cá”. Quando ouço histórias assim, considero que não é um problema digno de nota. Nos Escritos de Meishu-Sama, há uma passagem que diz: “Há religiões que abominam o contato com outras religiões”. Se aplicarmos isso a esta situação, poderemos compreender. Ao entrar em contato com outra igreja, a pessoa pode passar a valorizar ainda mais a sua própria. Proibir a transferência é estranho. O correto não seria construir uma igreja tão maravilhosa que, quanto mais as pessoas conhecessem outras, mais valorizassem a sua? Os membros são membros de Meishu-Sama; nós apenas os recebemos sob nossa guarda. Pensar que eles nos pertencem é a origem do erro. Temos a responsabilidade de guiá-los sem nos desviarmos dos Ensinamentos de Meishu-Sama.
+
+**◎ Os Membros Imitam seus Líderes**
+
+**Kihara:** De qualquer forma, quem se torna um líder deve, como diz o Ensinamento, tornar-se primeiramente um líder digno de confiança. Para isso, basta eliminar a falsidade. Os membros imitam tudo o que seu líder faz, do começo ao fim. Lembro-me de quando se costumava mover as mãos; surgiu uma discussão sem sentido na base sobre se mover a mão na vertical era o elemento fogo e na horizontal, o elemento água. Isso nasceu de uma falsidade dita ou feita sem cuidado por um líder. Em suma, não devemos inventar coisas que Meishu-Sama desconhece. É por isso que tenho dito a todos os presidentes que encontro: “Deixemos para trás o que passou. De agora em diante, não seria maravilhoso se pudéssemos fazer com que o ódio e os conflitos entre os membros de diferentes igrejas desaparecessem como um sonho?”.
+
+(Fim)
+
+---
+
+# Coleção de Ensaios do Mestre Jikan Okada
+
+**Categoria:** sanko | **Ano:** 昭和25(1950)年3月4日 | **Fonte:** Kyusei
+**Título Original:** 参考文献 二人袴 （一） | **Status:** Published | **Edição/Página:** 52号 | **Data ISO:** 1950-03-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 救世
+
+## Coleção de Ensaios do Mestre Jikan Okada
+## Dois Hakama (Parte I)
+
+*Por Iwasaki Sakae*
+*Publicado na revista Kyusei, nº 52, em 4 de março de 1950.*
+
+Entre as montanhas que separam as províncias de Shinshu e Echigo, aninha-se um vale profundo onde brotam águas límpidas e cálidas, e ali se encontra um pequeno povoado. Povoado, talvez seja um termo inadequado, pois ali restam apenas duas residências. Outrora, na era Meiji, cinco estalagens de águas termais pontilhavam a margem do riacho por cerca de cem metros. Contudo, com o tempo, o lugar foi relegado ao esquecimento pela civilização e seus meios de transporte e, por conseguinte, também foi marginalizado pelo desenvolvimento econômico do país. Sua existência resume-se a um ínfimo ponto, como um grão de milhete, nos mapas do Estado-Maior, tendo se transformado numa paragem feérica, completamente olvidada pelo mundo.
+
+Nesse ínterim, um incêndio consumiu três das estalagens, e as famílias que ali viviam dispersaram-se por outras terras. Das duas casas restantes, uma, pertencente a uma família popularmente conhecida como “de linhagem tísica”, tornou-se uma tapera abandonada após a morte de todos os seus membros. Hoje, em um raio de vinte quilômetros de região montanhosa, apenas uma única morada habitada resiste no fundo deste vale.
+
+Ainda que se diga estalagem, a construção não passava de uma pousada rústica e miserável, de aspecto desolador, com um telhado de ripas de madeira sobre o qual se amontoavam pedras. Antigamente, os camponeses das redondezas vinham até ali, trazendo seu próprio arroz às costas para se tratarem nas águas termais. Os lavradores de hoje, entretanto, preferem tomar o trem para estâncias modernas e bem equipadas, e são poucos os que sequer conhecem a existência destas termas remotas. Assim, há mais de uma década, o lugar não recebia um único hóspede digno desse nome, mergulhado em total abandono.
+
+Diante disso, a família tornou-se de agricultores de coivara, queimando áreas da montanha próxima para cultivar painço, gergelim, couve, milho e batatas, garantindo assim seu sustento. O marido, Kichita, adentrava ainda mais as montanhas para produzir carvão, enquanto sua esposa, Oharu, já há muito se dedicava ao ofício doméstico de esfolar a casca de um arbusto chamado *ganpi* para tecer sandálias de palha.
+
+Oharu, aos trinta e seis anos, possuía a saúde robusta de uma fêmea selvagem. Longe de ser uma mulher obtusa e intratável, era, na verdade, uma trabalhadora de bom coração e grande firmeza. Sua aparência tampouco era desprovida de atrativos; tinha feições audazes e sensuais, como as de um gato-do-mato.
+
+Duas crianças nuas, uma menina de treze e um menino de cinco anos, brincavam e gritavam na fonte de águas termais a céu aberto que brotava à beira do riacho, em frente à casa. Passava do meio-dia, e um sol cálido de início de primavera descia em feixes pela estreita abóbada azul celeste, caindo sobre o vale. A luz fazia faiscar como porcelana os ombros e as nádegas molhadas das crianças e envolvia em uma névoa prateada os salgueiros à beira do penhasco.
+
+A antiga estrada passava pela margem oposta do riacho, e o acesso à casa de Oharu era feito por uma ponte improvisada e precária, construída sobre as grandes rochas que pontilhavam o leito do rio.
+
+Por aquela estrada, onde não se via um forasteiro sequer a cada dez dias, surgiu, para grande surpresa, a figura de um homem idoso, de aparência miserável. Ele parou exatamente em frente à casa de Oharu e sentou-se numa pedra à beira do caminho, passando a observá-los fixamente do outro lado do riacho.
+
+Passou-se quase meia hora. De repente, as crianças, com uma expressão de quem era perseguido por algo terrível, correram desordenadamente em direção à casa. Ambas estavam completamente nuas.
+
+A menina, em cujo corpo já desabrochavam os tímidos sinais da puberdade, exibia os seios e a intimidade sem pudor. Segurando as roupas debaixo do braço, ela chegou ofegante, com a respiração entrecortada. Oharu, que tecia suas sandálias no piso de terra batida da entrada, sentiu-se como se suas próprias partes íntimas tivessem sido expostas e, enrubescendo, gritou furiosamente:
+
+— Mas que criatura indecente! Sua grande estúpida, sua tola!
+
+— Mas, mãe! — a menina, aflita, vestiu às pressas umas calçolas sujas e encardidas. — Um espírito da pobreza de dar medo está espiando a nossa casa há mais de uma hora! Não é pavoroso?
+
+— Que disparate... está a falar como se estivesse possuída por uma raposa!
+
+A menina aproximou a boca do ouvido da mãe e sussurrou:
+
+— Mas é verdade, mãe! Olhe! Ali, na pedra do outro lado da estrada.
+
+Oharu olhou e seu coração gelou. De fato, lá estava ele. Embora não pudesse distinguir seus traços com clareza, via-se um homem de aspecto miserável, aparentando mais de sessenta anos, com um ar soturno, qual um demônio azul egresso do inferno. Estava magérrimo e trajava farrapos do que parecia ser um uniforme militar. Seus olhos, cravados na direção delas, eram como punhais, fixos e obstinados.
+
+O menino, que ficara do lado de fora chupando o dedo com uma expressão a ponto de chorar, olhava fixamente para o deus da miséria na estrada. Oharu o arrastou bruscamente para dentro, baixou a velha esteira de palha que servia de porta e ordenou à filha que vigiasse por uma fresta. Na penumbra que se instalou, ela tentou retomar seu trabalho com as sandálias, mas foi subitamente assaltada por uma sensação de profunda inquietação, como se um presságio sombrio e agourento lhe pesasse sobre as costas.
+
+Sua vida, embora pobre, transcorria numa paz absoluta. Agora, sentia como se um deus da peste tivesse invadido seu lar de forma inesperada.
+
+Oharu fora vendedora ambulante de antídotos em Echigo. Certo dia, durante uma travessia pelas montanhas, conheceu um jovem montanhês com quem partilhou o caminho. Num impulso do coração, entregou-se a ele e, a seu convite, tornou-se a noiva daquela casa solitária no vale. O homem chamava-se Heita; era um jovem de poucas palavras, forte como um touro e muito trabalhador. Vivia com a mãe, que faleceu subitamente no ano seguinte à chegada de Oharu. Nesse mesmo ano, nasceu a menina que agora contava treze anos. Pouco depois, Heita foi convocado para o exército e levado para a Manchúria, de onde jamais retornou. Chegou uma notificação oficial informando que ele perecera em combate na guerra do norte da China, e, em seguida, seus restos mortais foram enviados à família.
+
+Passaram-se sete anos. Oharu, mulher de fibra, resoluta e de índole otimista, trabalhou como um homem para criar a filha naquela casa isolada no fundo do vale.
+
+Numa tarde de outono, quando as montanhas e os vales se vestiam com o brocado das folhas coloridas, um carvoeiro de rosto e membros enegrecidos chegou ao local. Pediu para usar as águas termais e, em seguida, para passar a noite.
+
+Ao sair do banho, o homem de pele escura revelou-se um quarentão de feições surpreendentemente gentis e físico imponente.
+
+Naquela madrugada, deitados em futons dispostos em lados opostos da lareira, o corpo e a alma de Oharu, definhados por uma longa solidão, irromperam como um vulcão. Foi ela quem tomou a iniciativa, e o homem, a partir de então, tornou-se seu marido.
+
+Dessa união, concebido sem demora, nasceu o menino que agora tinha cinco anos.
+
+— Mãe, o deus da peste ainda não foi embora. Continua a olhar para cá. — sussurrou a menina, que espiava pela fresta da esteira, aproximando-se discretamente. O menino, amedrontado, agarrou-se à cintura da mãe.
+
+Passaram-se cerca de duas horas.
+
+— Ele ainda não foi embora.
+
+O dia começava a escurecer.
+
+— Ainda não?
+
+— Não. Continua a nos fitar.
+
+À medida que a escuridão lá fora se adensava, a menina abandonou seu posto de vigia e agachou-se ao lado da mãe. De súbito, ouviram-se passos do lado de fora da casa.
+
+Oharu ficou hirta como uma estátua. As duas crianças, uma de cada lado, abraçaram-se à sua cintura e começaram a tremer.
+
+Pela porta dos fundos, entrou seu marido, Kichita.
+
+— O que estão a fazer? Já está escuro.
+
+— Ah, é você!
+
+— O que se passa?
+
+— Ali, na estrada do outro lado... há um homem que nos encara sem se mover há meio dia.
+
+— Quem?
+
+— Um sujeito estranho, um ladrão, com certeza. Vá lá fora e enxote-o, por favor!
+
+Kichita saiu e, perscrutando a penumbra, gritou de imediato:
+
+— Quem é você? O que faz aí parado?
+
+Do outro lado, uma voz surpreendentemente calma respondeu:
+
+— Vim falar com você. É o dono desta casa?
+
+— Sou. Que quer de mim?
+
+— Tenho um assunto a tratar.
+
+— Não sei do que se trata, mas se é assim, atravesse para cá.
+
+Oharu saiu de rompante e deu um empurrão nas costas de Kichita.
+
+— Que ideia absurda é essa? Mande-o embora depressa, pai, por favor!
+
+Entretanto, o homem misterioso já atravessava o rio. Um odor fétido e sujo, o cheiro de um mendigo que parecia emanar dele, flutuou na escuridão do crepúsculo. Kichita, de pé diante daquela massa de fedor, confrontou-o quase nariz com nariz:
+
+— Porque esteve a espiar a casa dos outros durante meio dia? — repreendeu-o.
+
+O homem, contudo, sem demonstrar qualquer atitude de confronto, respondeu com uma voz rouca e sem força:
+
+— Não estava a espiar. Apenas descansei e refleti um pouco, sentado na pedra da estrada.
+
+— Mas estava a olhar para dentro da nossa casa, não estava? Qual o motivo?
+
+— Não estava a fitar. Tenho olhos, por isso vi. Mas isso é um direito meu. Posso sentar-me por meio dia e olhar para onde bem entender, sem que ninguém interfira.
+
+— Bem, nisso tem razão.
+
+Kichita concordou de forma incauta e, sem saber o que dizer em seguida, cuspiu duas vezes no chão, embaraçado. A impetuosa Oharu, da entrada da casa, bradou:
+
+— Desapareça daqui! Maldito deus da peste! Pai, traga a espingarda! Meta-lhe um tiro!
+
+Kichita conteve a custo a vontade de rir, pois não possuíam espingarda alguma.
+
+— Você parece muito fraco. Está com fome?
+
+— Sim. Não como há três dias.
+
+— Entre. Vamos lhe dar de comer.
+
+Oharu gritou novamente:
+
+— Não seja idiota, seu palerma!
+
+— Não, não é nada disso. Ponha a panela de sopa no fogo, e depressa. — E, virando-se para o estranho, disse: — Venha, entre. Pode pernoitar aqui hoje.
+
+— Sim, aceito a sua oferta.
+
+O homem misterioso, com uma atitude de quem exercia um direito, seguiu Kichita e entrou na casa.
+
+Oharu, estupefata, já não conseguia articular uma palavra. O menino, choramingando "que medo!", enterrou o rosto sujo no ventre da mãe.
+
+*(Nota) Esta narrativa será publicada em três partes. Ao final, teremos a honra de receber e publicar uma análise crítica de Meishu-Sama, com o intuito de que sirva como um guia para a fé e para a vida. Por essa razão, a intitulamos especialmente “Romance para Consulta”.*
+
+## Dois Hakama (Parte II)
+
+*Publicado na revista Kyusei, nº 53, em 11 de março de 1950.*
+
+A casa consistia num único cômodo com piso de terra batida que a atravessava da frente aos fundos. À esquerda, na grande lareira cavada no chão, ardiam em brasa alguns tocos de lenha. Numa panela enegrecida pela fuligem, suspensa por uma corrente ajustável, borbulhava e transbordava o que parecia ser um mingau de batata.
+
+A única iluminação do interior provinha do fogo fumegante da lareira, que por vezes se avivava em labaredas trêmulas; viviam sem luz elétrica ou lamparinas a querosene.
+
+— Beba um pouco disto para relaxar.
+
+— Sim... talvez ajude.
+
+Kichita e o homem de respostas hesitantes sentaram-se frente a frente junto à lareira.
+
+— Tem tabaco?
+
+— Não.
+
+— Então, fume do meu.
+
+Ao ver o marido passar sua tabaqueira ao estranho, Oharu, que entalhava algo no canto mais afastado da lareira, sentiu uma onda de irritação. “Mas que imbecil de bom coração é este meu marido...”, pensou, indignada. As duas crianças, ainda se valendo da proteção do corpo robusto da mãe, encolhiam-se de cada lado dela, como passarinhos cujo ninho fosse ameaçado por uma serpente. Seus olhos, como cristais negros, brilhavam à luz do fogo.
+
+Dentro da casa, o odor fétido do forasteiro desconhecido intensificava-se e espalhava-se gradualmente, o que irritava ainda mais os nervos de Oharu.
+
+Kichita, em tom pausado, perguntou:
+
+— E então, de onde veio?
+
+— Do campo de batalha.
+
+— A esta altura, do campo de batalha? Demorou bastante, não?
+
+— Fui prisioneiro por muito tempo, depois fugi e vaguei pelas montanhas...
+
+— Entendo... Deve ter sido uma provação. Então é isso. E para onde se dirige?
+
+— Para lugar nenhum. Vim para cá. Eu regressei.
+
+— Para cá? Mas deve ter uma terra natal, não?
+
+— Tenho. E também uma esposa e um filho.
+
+— Então, por que não regressa para lá?
+
+— Foi por isso que regressei.
+
+— Diz que regressou, mas para este lugar no meio das montanhas... Ah! Por acaso é natural desta província de Shinshu?
+
+— Sou.
+
+— De... perto daqui?
+
+— Sou.
+
+— E a sua esposa e filho esperam-no lá?
+
+— Suponho que sim.
+
+— Então, por que não volta para lá de uma vez?
+
+— Eu regressei para lá.
+
+— O quê? Que conversa confusa. Está em seu perfeito juízo?
+
+Kichita ergueu o olhar, como se quisesse perscrutar o rosto extremamente abatido do interlocutor.
+
+— Qual é a sua aldeia?
+
+— ...
+
+Após um momento de silêncio, o homem respondeu com uma voz baixa e rouca:
+
+— É aqui.
+
+As palavras saíram de sua boca como se tivessem sido derramadas.
+
+— Nasceu aqui? Entendo. Então deve conhecer a minha Oharu. Qual é o seu nome?
+
+— Heita.
+
+O corpo de Oharu, que já havia parado de entalhar há alguns minutos, estremeceu com um sobressalto.
+
+Kichita, em silêncio, lançou-lhe um olhar penetrante. Oharu arrastou-se para a frente e aproximou o rosto do forasteiro, como se quisesse inalar seu odor fétido. O homem também fixou nela um olhar perscrutador, sem sequer piscar.
+
+Com uma voz débil e frágil, como a de uma doente, um tom que jamais emitira em toda a sua vida, Oharu perguntou:
+
+— Você... é o... de antigamente?
+
+— Sim... sou eu. — O homem baixou a cabeça, visivelmente constrangido.
+
+— Ora, que desgraça nos caiu dos céus... — O segundo marido suspirou e cruzou os braços.
+
+— Eu não tenho para onde ir... Esta é a minha casa...
+
+— Entendo... Que situação complicada.
+
+— Sei que regressei em má hora, mas... esta é a minha terra natal...
+
+O primeiro marido olhou para as duas crianças e disse:
+
+— Aquela menina é minha filha, não é?
+
+— É. O menino é meu.
+
+As duas crianças refugiaram-se num canto do cômodo, escondendo o corpo atrás de um monte de palha de onde apenas seus olhos brilhavam. Oharu, entre os dois homens, prostrara-se no chão e chorava. Seus cabelos desgrenhados escorriam da beira da lareira para a cinza.
+
+Desta vez, foi o primeiro marido quem soltou um profundo suspiro.
+
+— Bem, que situação complicada... — murmurou, abatido.
+
+O segundo marido suspirou ainda mais longamente, várias vezes, curvando a cabeça como se fosse enterrá-la nas cinzas da lareira.
+
+As costas da esposa, deitada de bruços, convulsionavam-se em soluços que lembravam o ganir de um cão com asma.
+
+Finalmente, após um longo silêncio, o marido que regressara quebrou o silêncio com uma voz arrastada:
+
+— O erro foi eu ter regressado agora. Mas eu não sabia de nada; apenas voltei para a minha própria casa.
+
+— Sim, é verdade. Mas eu também não roubei a sua mulher. Foi oficialmente comunicado que você morreu em combate, e até recebemos do governo algo que seriam os seus restos mortais.
+
+— Ninguém tem culpa. Mesmo assim, que grande complicação...
+
+O mingau de batata na panela transbordou, e o fogo sibilou e se apagou, espalhando uma fuligem que caía como geada. Oharu, porém, continuava prostrada em seu pranto, e os dois homens, desorientados, permaneciam mergulhados em seus pensamentos. Atrás da palha, o irmão e a irmã, abraçados, pareciam ter adormecido.
+
+A noite avançava lentamente no desfiladeiro.
+
+## Dois Hakama (Parte III)
+
+*Publicado na revista Kyusei, nº 54, em 18 de março de 1950.*
+
+— Não há *shochu*, Oharu? — A voz arrastada de Kichita quebrou o longo silêncio.
+
+Oharu, contudo, permaneceu de bruços, sem responder. Kichita passou por cima dela, abriu um armário de parede sujo e esburacado e de lá tirou uma garrafa de um litro, tão encardida que parecia um frasco de óleo abandonado num depósito de lixo, e uma tigela de borda lascada com grãos de arroz ressequidos. Retornou ao seu lugar e inclinou o gargalo da garrafa sobre a tigela. Havia *shochu* suficiente para enchê-la quase até a borda.
+
+— É só isto que temos.
+
+Após uma breve hesitação, bebeu de um só gole quase metade do conteúdo e passou o restante a Heita.
+
+Heita também o esvaziou de uma vez e soltou um longo suspiro.
+
+Sob o efeito do álcool, Heita pareceu sentir-se um pouco mais aliviado e, com um tom perscrutador, disse a Kichita:
+
+— Esta casa pertence aos meus antepassados, por isso... eu gostaria de viver aqui...
+
+— É justo. — anuiu Kichita.
+
+— Sendo assim, a casa do velho Kyuzo... está tão arruinada que não se pode mais viver nela?
+
+A casa de Kyuzo era a residência abandonada.
+
+— Não creio. Se a ocuparmos, daremos um jeito.
+
+— Então, não poderia ir morar lá?
+
+— Sim. Parece que não há outra solução. Mas... e a mulher e as crianças, como faremos?
+
+— Pois é. Bem, teremos que deixá-la escolher com quem quer ficar, conforme a sua vontade. Quanto às crianças, a menina é minha, portanto ficará comigo. O menino é seu.
+
+— Oharu, o que você vai fazer? — Kichita dirigiu um olhar complexo para as costas de Oharu, que se arqueavam como uma montanha enquanto ela permanecia de bruços. Heita também fixou o olhar nos cabelos desgrenhados dela.
+
+De repente, Oharu voltou a soluçar baixinho. Ignorando-a, Kichita pegou novamente a tigela e um par de pauzinhos e retirou a panela de mingau de batata das cinzas. O conteúdo estava reduzido a uma pasta grudenta, mas os dois homens começaram a comer, soprando o alimento quente. Heita, faminto, devorou várias porções, fazendo um barulho estridente com os dentes.
+
+— Coma um pouco também, será bom para você. — insistiu Kichita com Oharu, mas ela permaneceu na mesma posição, sem dar resposta.
+
+— Bem, deixemos este problema para amanhã. Vamos dormir. — disse Heita, deitando-se de lado junto à lareira. Kichita também se deitou, de barriga para cima, com as mãos sob a nuca. Bêbados, ambos caíram logo num sono profundo, roncando alto.
+
+Cerca de meia hora depois, Oharu ergueu-se. O contorno de seus olhos, inchados de tanto chorar, estava escurecido, como se usasse óculos pretos.
+
+Tirou do armário um futon relativamente limpo e, com delicadeza, cobriu o primeiro marido, que exalava um odor fétido de mendigo. Em seguida, pegou outro cobertor, o de uso diário, e com ele agasalhou seu atual esposo.
+
+Depois, foi até onde as crianças dormiam. Cobriu-as com a palha que lhes servia de colchão e tentou adormecer encolhida aos pés delas, mas o sono não vinha.
+
+Em algum momento, porém, adormeceu. Despertou sobressaltada, nos braços de Heita, que a abraçava com força. Instintivamente, esteve a ponto de se agarrar a ele, mas seus olhos perscrutaram a escuridão em volta da lareira. Não viu a figura de Kichita.
+
+— E o outro...?
+
+— Ele saiu há pouco. Eu também saí e vi que foi para a casa de Kyuzo.
+
+— No escuro...?
+
+— Lá fora, o dia já está a raiar.
+
+Dizendo isso, Heita a abraçou com mais ardor.
+
+— Oharu... senti tanto a sua falta.
+
+— Meu amado...
+
+Oharu também se agarrou a ele com desespero, sem se importar com o odor de mendigo.
+
+O reencontro após dez anos lançou o homem e a mulher num turbilhão de fúria animal.
+
+Depois, exausto, o homem adormeceu profundamente, como um doente em coma.
+
+Oharu saiu. O vale matutino estava envolto numa névoa leitosa, e já se ouvia o canto das garças. Espiou a casa vazia de Kyuzo e viu Kichita, de costas, alimentando o fogo da lareira, com a cabeça baixa e uma expressão desolada.
+
+— O que faz aí?
+
+— Oharu? — Kichita virou-se e acenou para que se aproximasse. — Venha cá.
+
+Com o coração pesado, Oharu não ousou chegar muito perto e agachou-se do outro lado da lareira.
+
+— O que está a pensar, vindo para um lugar como este ainda no escuro?
+
+— Eu? Bem, pensei em morar nesta casa...
+
+Oharu soltou um gemido agudo, como o som de uma flauta. Kichita saltou sobre ela.
+
+— Eu... eu não consigo renunciar a você. De jeito nenhum! Você é minha!
+
+Abraçou-a como um louco, derrubou-a no chão e, montado sobre ela, buscou seu corpo com desespero. Oharu deixou-se levar. Ao pensar que também não conseguiria se separar daquele homem, sentiu uma ternura avassaladora. Num ímpeto de paixão, todo o seu ser ardeu e ela cravou os dentes no pescoço do homem.
+
+Naquele entardecer, Oharu, com o filho de cinco anos nos braços, atirou-se num poço fundo do riacho.
+
+O grito da criança ecoou, e os dois homens, alarmados, mergulharam imediatamente e os resgataram. Mãe e filho sobreviveram sem ferimentos graves. Mas então... o que fazer? Os dois homens, sentados frente a frente junto à lareira como na noite anterior, apenas suspiravam, sem vislumbrar uma saída.
+
+A noite de primavera, serena e fria, avançava.
+
+Qual será, afinal, o destino desta vida miserável no fundo do vale?
+
+Que destino deveria ela seguir?
+
+---
+
+# Análise da Reunião sobre o Ciclo de Conferências em Hokkaido (Parte 1) — Um exemplo concreto da cooperação e união dos fiéis
+
+**Categoria:** sanko | **Ano:** 昭和28(1953)年2月18日 | **Fonte:** Eikou
+**Título Original:** 北海道講演会を顧みて （一） ―信徒の協力一致の実挙がる― | **Status:** Published | **Edição/Página:** 196号 | **Data ISO:** 1953-02-18
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Análise da Reunião sobre o Ciclo de Conferências em Hokkaido (Parte 1) — Um exemplo concreto da cooperação e união dos fiéis
+
+**Publicado na Revista Eikou nº 196, em 18 de fevereiro de 1953**
+
+**Data:** 1º de fevereiro de 1953
+**Local:** Sede Provisória da Sekaikyuseikyou em Sakimi-cho
+**Presentes:**
+Diretor-Presidente: Yoshihiko Kihara
+Diretor: Eboji Nakamura
+Diretor: Kousaku Ishihara
+Diretor: Jitsutarou Moriyama
+Diretor: Naoyuki Kawai
+Diretor: Shigeru Fujieda
+Auditor: Tagao Sakai
+Moderador (Setor de Edição): Shinnosuke Fukuchi
+
+**Moderador:** Conforme me foi designado, terei a honra de conduzir esta reunião. Neste novo ano de 1953, as atividades da Obra Divina tiveram seu início no norte, com o ciclo de conferências em Hokkaido, que inaugurou a nossa programação. A simples menção de Hokkaido evoca a imagem de um lugar gélido mesmo no verão; portanto, levar a cabo essa missão em pleno inverno, sob um itinerário tão extenuante, representou, sem dúvida, uma labuta extraordinária.
+
+Gostaria, pois, de convidar o Reverendo Kihara para nos elucidar sobre o significado deste ciclo de conferências em Hokkaido.
+
+**Kihara:** Hokkaido, em sua essência, assemelha-se à configuração geográfica da América do Norte. No exato momento em que a obra de Meishu-Sama, “A Salvação da América”, foi publicada, o fato de termos ido a um local com essa semelhança para difundir Seus Ensinamentos e iniciar a divulgação de referido livro reveste-se de um profundo significado. Senti uma imensa gratidão por ter sido utilizado como instrumento em uma pequena parcela do Plano Divino.
+
+**Moderador:** E como se apresentaram as condições climáticas por lá?
+
+**Kihara:** No que tange ao clima, vivenciamos uma sucessão de milagres que nos permitiu constatar, de forma inequívoca, a atuação de Deus. Eu mesmo já vivi em Hokkaido e sei que, no inverno, as nevascas são praticamente inevitáveis, causando constantes atrasos nos transportes. Nosso itinerário, que poderia ser considerado de uma audácia extrema, era de tal modo encadeado que um único contratempo teria comprometido toda a sequência.
+
+Contudo, tudo transcorreu com uma fluidez impecável, sem sequer um minuto de desvio. Tal feito seria inconcebível sem a Proteção Divina. Ademais, como relatei hoje a Meishu-Sama, apesar do frio intenso, enquanto estivemos a serviço da Obra Divina, fomos agraciados com excelente disposição, sem receber purificações. Somente ao retornar para casa, recebi uma purificação branda, com dor de cabeça e coriza. Isso demonstra que, quando nos dedicamos integralmente à missão, tudo flui harmoniosamente. Se surgem obstáculos, é sinal de que, em algum ponto, não estamos alinhados à Vontade Divina. Para discernir essa causa, é necessária a sabedoria de que nos fala Meishu-Sama. Até mesmo a travessia na balsa entre Honshu e Hokkaido foi tão serena que a embarcação parecia deslizar sobre um espelho, a ponto de os tripulantes, homens do mar experientes, se declararem atônitos.
+
+Ao longo de todo o ciclo de conferências, senti a felicidade de estar envolto em um grandioso manto espiritual.
+
+**Moderador:** A delegação de conferencistas desta vez foi completamente renovada em relação às anteriores, sendo composta majoritariamente por reverendos da Sede. Isso poderia significar um novo estágio de crescimento da Sekaikyuseikyou?
+
+**Kihara:** De fato, o Reverendo Shogo Suzuki já vinha mencionando isso há algum tempo. Ele dizia repetidamente: “Mesmo que nós não participemos mais das conferências, há pessoas como os senhores Kawai e Fujieda, de Osaka, que podem assumir”. E acrescentava: “Nós já percorremos o circuito duas vezes; a estrutura interna da Sekaikyuseikyou está sólida e eles darão conta do recado”. Na verdade, surgiu em uma reunião de diretoria a proposta de, daqui para frente, transformar gradualmente os ciclos de conferências em uma espécie de curso de formação inicial, cujo objetivo primordial seria o de proporcionar uma compreensão geral sobre o que é a Sekaikyuseikyou.
+
+Anteriormente, as conferências visavam ao reconhecimento externo da nossa Igreja, mas, como resultado, acabaram por aprofundar a compreensão dos próprios fiéis. Membros que antes eram tímidos e retraídos, após as conferências, sentiram-se mais confiantes e passaram a atuar de forma mais aberta e vigorosa. Isso ocorreu no ano de 1952. Agora, em 1953, conforme Meishu-Sama nos orientou, é o momento de a Igreja “expandir-se como o ideograma do número oito (八)”, o que significa retornar à sua verdadeira essência. Assim, nosso lema deve ser o de transmitir com clareza o que é a Sekaikyuseikyou.
+
+**Moderador:** Nesse aspecto, Reverendo Ishihara, se o senhor notou alguma diferença em relação aos ciclos de conferências anteriores, gostaríamos de ouvir suas impressões.
+
+**Ishihara:** Tive a oportunidade de ouvir a primeira palestra deste novo formato em Obihiro, e posso afirmar que ela aprofundou notavelmente a percepção sobre a nossa Igreja. Recordo-me de um evento anterior em Osaka, cujo propósito era fortalecer os fiéis, que contou com uma plêiade de notáveis oradores; naquela ocasião, tive a sensação de que o evento se distanciava de uma conferência da Sekaikyuseikyou.
+
+**Moderador:** Tratava-se, então, de algo com as características do que se costuma chamar de “palestra religiosa”, é isso?
+
+**Ishihara:** Exatamente. De modo geral, os aplausos do público não pareciam ser dirigidos à Sekaikyuseikyou, mas sim à eloquência do orador. Desta vez, os aplausos foram mais contidos. Uma profusão de palmas pode indicar que o público se conecta com aspectos secundários, sem compreender a essência. Em uma aula universitária, por exemplo, ninguém aplaude. Acredito que a nova postura para o futuro seja a de ouvir com reverência a explanação doutrinária da Sekaikyuseikyou. Embora tenha havido momentos de descontração e humor, senti profundamente que o público, de forma geral, estava absorto e atento. Particularmente em Sapporo e Bibai, a presença de intelectuais na plateia era expressiva. Senti que, naqueles locais, pude desenvolver plenamente meu discurso voltado para esse público. Houve quem esboçasse um aplauso, mas minha intenção não era provocá-los; meu desejo era que a mensagem fosse absorvida em seu âmago. Nesse sentido, posso dizer que foi um modelo de conferência distinto dos anteriores.
+
+**Moderador:** E o senhor, Reverendo Nakamura, quais foram as suas impressões?
+
+**Nakamura:** O que mais me marcou foi a percepção de que, nos locais onde o público foi atraído por meio de propaganda de rua ou encartes em jornais, a receptividade à mensagem era consideravelmente menor. Em contrapartida, nos lugares em que cada membro trouxe consigo três ou cinco pessoas, a palestra fluía com muito mais facilidade. Acredito que aí resida o caminho a ser seguido pelos futuros ciclos de conferências da Sekaikyuseikyou. E, como mencionei no início, nesses locais, senti que a sinceridade dos fiéis era a força que me movia e me fazia falar.
+
+**Moderador:** Em outras palavras, tanto o orador quanto a plateia estavam imbuídos de tal seriedade que se estabeleceu uma conexão profunda entre o púlpito e o coração dos ouvintes. Mudando de assunto, há cerca de um mês, eclodiu a questão envolvendo os jornais, e é possível que alguns fiéis das províncias, ainda que sem motivo, estejam apreensivos. A esse respeito, gostaríamos que nos falasse sobre a situação real da difusão em Hokkaido.
+
+**Kihara:** Analisando a situação da difusão, vemos que existem duas Igrejas Intermediárias na região. Uma delas, embora não possua uma sede formal como Igreja Intermediária, é conduzida pelo senhor Yamaguchi, da Igreja Minori. Foi justamente na área de sua jurisdição que aquele problema ocorreu. Devo dizer que, até então, as referências que eu tinha do senhor Yamaguchi não eram particularmente favoráveis. Contudo, meu princípio sempre foi o de “ouvir o que se diz, mas reservar o juízo até ver com os próprios olhos”, e esta viagem reforçou drasticamente essa convicção.
+
+Embora os senhores Nishimura e Teramura também tenham realizado um excelente trabalho, a atuação do senhor Yamaguchi foi notável. Sendo ele o vice-presidente da Associação Minori, coordena com grande eficiência mais de onze filiais. Além disso, embora o Reverendo Suzuki tenha participado dos cinco primeiros eventos, esteve ausente nos três últimos. E, mesmo tendo iniciado os preparativos mais tarde que os demais, o senhor Yamaguchi conseguiu mobilizar os fiéis de tal forma que cada um trouxe em média cinco convidados. Isso evidenciou a pureza de coração dos membros daquela região, pois, proporcionalmente, a presença de fiéis na plateia era bastante reduzida. É um feito que merece todos os elogios e que só foi possível graças à Proteção Divina, fruto, sem dúvida, da postura que mantêm em seu dia a dia.
+
+Um ponto que me chamou a atenção, e que serve de lição, é o equívoco na mentalidade por trás de uma certa forma de divulgação. Anunciar o evento como uma “noite de cinema” e destacar o título do filme, “Mãe em Meio à Tempestade”, com a intenção de atrair público, é um erro crasso. Reter este ensinamento será de grande valia para todos.
+
+Mesmo nos três locais em que estivemos apenas nós, sem a presença do Reverendo Suzuki, houve pessoas que, ao final, manifestaram o desejo de receber a Medalha da Luz imediatamente. Isso nos serviu de grande referência para o futuro. Houve uma ocasião em que eu planejava falar sobre doenças, mas o fluxo da palestra me levou a discorrer sobre a Agricultura Natural, e o resultado foi excelente. Geralmente, as palestras que se ouvem por aí baseiam-se em citações, no “fulano disse isso” ou “beltrano afirmou aquilo”. No nosso caso, porém, o único método que temos é o de transmitir o que Meishu-Sama nos ensinou, pois os métodos antigos são incapazes de salvar. O que os fiéis precisam entender é que não estamos imitando o que os outros fazem. Somos os braços e as pernas de Meishu-Sama na construção de um novo mundo, e, por isso, nossas palestras são de uma natureza completamente distinta. A Sekaikyuseikyou está em um patamar totalmente diferente. Para um ouvinte de primeira viagem, o que dizemos é algo sem precedentes. E como proferimos as palavras de Meishu-Sama respaldadas pela comprovação dos fatos, elas ressoam diretamente na alma.
+
+**Kawai:** Exato. Trata-se de algo que jamais existiu no mundo. É um conteúdo que não se pode ouvir em nenhum outro lugar e, ademais, que não se pode transmitir sem a devida vivência.
+
+**Fujieda:** É exatamente isso. Sem a comprovação, as palavras perdem todo o seu valor.
+
+**Kihara:** A postura mental do conferencista deve ser grandiosa: “Que esta voz ecoe por todo o mundo, que ressoe no Mundo Espiritual e em todo o Universo”. É preciso expandir o pensamento-sentimento.
+
+**Nakamura:** No meu caso, antes de falar, eu pergunto em que direção fica Atami e, voltado para lá, oro a Meishu-Sama: “Rogo-Lhe o Seu amparo. Por favor, permita-me falar”. E o resultado tem sido muito bom.
+
+**Kihara:** Creio que seria melhor o senhor reavaliar essa prática. Não há necessidade de perguntar onde fica Atami. Basta que, em seu coração, o senhor mentalize: “Meishu-Sama, entrego-me aos Seus cuidados”. Indagar sobre a direção e voltar-se fisicamente para lá é uma atitude materialista. O próprio ato de “rogar” ou “pedir, por favor” também é materialista. Isso pode levar a uma condição de predominância da matéria sobre o espírito. Creio que a razão pela qual Meishu-Sama passou a nos orientar a não usar força ao ministrar Johrei reside no mesmo princípio. Não há problema se, naturalmente, lhe vier à mente o pensamento sobre onde Meishu-Sama possa estar naquele momento. No entanto, formalizar isso em um gesto corporal rígido é uma prática típica das religiões estabelecidas. Se refletirmos sobre este ponto em todas as situações da vida, certamente perceberemos muitas outras coisas.
+
+E, já que estamos no assunto, há algo mais que creio ser útil compartilhar. A decisão de iniciar o ciclo de conferências por Hokkaido também teve, em parte, a intenção de lidar com a questão dos jornais. Na ocasião, expliquei por que aquele problema ocorreu. Muitos dizem: “Aqueles canalhas dos jornais, escrevendo mentiras! É um absurdo!”. Do nosso ponto de vista, no entanto, a mente do jornalista que escreveu a mentira também estava sendo utilizada pelo Deus que habita o interior de Meishu-Sama. Então, por que essa realidade, a de sermos atacados pela imprensa, se manifestou? A causa pode estar em um lugar inesperado, assim como a origem de uma dor de dente pode estar em uma apendicite. Ou seja, quando atos contrários aos Ensinamentos de Meishu-Sama se acumulam, eles acabam por eclodir na forma de problemas como aquele.
+
+*(Continua no próximo número)*
+
+---
+
+# Manifesto da Associação de Difusão da Agricultura Natural
+
+**Categoria:** sanko | **Ano:** 昭和28(1953)年5月5日 | **Fonte:** 革命的増産のShizen Noho Kaisetsu
+**Título Original:** 自然農法普及会趣意書 チラシ | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1953-05-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 革命的増産の自然農法解説
+
+## Manifesto da Associação de Difusão da Agricultura Natural
+
+Em conformidade com os princípios da Agricultura Natural, temos nos dedicado à sua prática e difusão por mais de uma década. Por se tratar de uma teoria absolutamente inédita, nossa jornada foi árdua, marcada por críticas e zombarias. Todavia, o número de pessoas que, convictas de seus benefícios, passaram a adotá-la, cresceu de modo constante. Hoje, os praticantes da Agricultura Natural já somam milhares, e os relatos de aumento na produção se avolumam, revelando, por meio deles, resultados surpreendentes.
+
+Ao praticar este método agrícola, observa-se que as plantações não tombam diante de tempestades e inundações, e desaparece a apreensão com a estiagem e a morte das culturas. Ademais, os custos com fertilizantes tornam-se nulos, o esforço de trabalho é reduzido à metade e, com a erradicação de pragas e doenças, a aplicação de defensivos agrícolas torna-se obsoleta. Comprovou-se, assim, que a prática contínua por cinco anos assegura um aumento de 50% na produção.
+
+Por outro lado, ao analisarmos a situação vigente no meio rural, deparamo-nos com uma realidade que não pode ser negligenciada: o solo agrícola encontra-se em processo de esgotamento devido ao uso de fertilizantes. Como resultado, o agravamento do quadro alimentar no país e o empobrecimento da economia camponesa são fatos incontornáveis.
+
+Foi precisamente diante desse panorama que decidimos fundar a Associação de Difusão da Agricultura Natural. Nosso objetivo é apresentar abertamente à sociedade os princípios e as provas concretas deste método, a fim de resgatar o meio rural, solucionar a questão alimentar, contribuir para a reconstrução do Japão e, com isso, dar o primeiro passo rumo a uma revolução agrícola de alcance mundial.
+
+Nesse sentido, a Associação de Difusão da Agricultura Natural foi estabelecida em conformidade com os objetivos já mencionados. É imperativo esclarecer que esta iniciativa não possui qualquer vínculo com a fé religiosa, não sendo, em hipótese alguma, um instrumento para proselitismo. A Agricultura Natural é, em sua essência, o genuíno método de cultivo que faz manifestar o poder intrínseco do solo, viabiliza um aumento de produção sem precedentes e enriquece a economia familiar do agricultor. A todos os senhores, vanguardistas do meio rural, recomendamos a compreensão de nossos ideais e o ingresso em nossa associação.
+
+Para maiores detalhes, solicitamos que contatem a Sede Central.
+
+Adicionalmente, em continuação a este manifesto, constam o “Regulamento da Associação de Difusão da Agricultura Natural” e a “Ficha de Inscrição na Associação de Difusão da Agricultura Natural”.
+
+---
+
+# Estudo e Análise Crítica da Agricultura Natural no Cultivo de Arroz de Sequeiro
+
+**Categoria:** sanko | **Ano:** 昭和27(1952)年1月30日 | **Fonte:** Eikou
+**Título Original:** 参考文献 水稲自然農法の研究調査と批判 | **Status:** Published | **Edição/Página:** 141号 | **Data ISO:** 1952-01-30
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
+
+## Estudo e Análise Crítica da Agricultura Natural no Cultivo de Arroz de Sequeiro
+
+*Publicado na revista Eikou, nº 141, em 30 de janeiro de 1952. Incluído na Coletânea "Comentários sobre a Agricultura Natural".*
+
+**Por:** Kanesaki Sadao, Engenheiro Agrônomo
+Chefe do Escritório de Ominato, Agência de Pesquisa Estatística de Aomori, Ministério da Agricultura e Florestas
+
+**(Parte I)**
+
+**1. Local da Pesquisa:**
+Aomori-ken, Shimokita-gun, Ohata-machi, Oaza-Ohata, Aza-Tsutsumansaka, nº 1.
+
+**2. Agricultor:**
+Sr. Kumakichi Kabasawa
+
+**3. Área Cultivada:**
+1 chō e 1 tan (aproximadamente 1,1 hectare)
+- Tono nº 1: 9 tan
+- Akage Mochi: 2 tan
+
+**4. Variedades:**
+- Tono nº 1 (precoce): Arroz não glutinoso
+- Akage Mochi (precoce): Arroz glutinoso
+
+**5. Período de Imersão das Sementes:**
+8 a 22 de abril (15 dias)
+
+**6. Período de Semeadura:**
+25 de abril (sementeira comum em campo alagado)
+
+**7. Densidade de Semeadura:**
+5 a 6 gō por tsubo
+
+**8. Adubação:**
+O único adubo utilizado consistiu em palha de arroz finamente picada, na proporção de 70 a 80 kan por tan, aplicada tanto na sementeira, no outono, quanto no campo principal, antes do preparo da terra. Essa palha foi umedecida com água na medida certa e deixada para fermentar até adquirir uma tonalidade esbranquiçada, sendo então aplicada ao solo antes do revolvimento.
+
+**9. Período de Transplante:**
+5 a 8 de junho
+
+**10. Número de Touceiras:**
+100 a 105 touceiras por tsubo
+
+**11. Número de Plantas por Touceira:**
+5 a 7 plantas
+
+**12. Período da Primeira Capina:**
+20 a 24 de junho
+
+**13. Período da Segunda Capina:**
+7 a 10 de julho
+
+**14. Período da Terceira Capina:**
+15 a 19 de julho (superficial)
+
+**15. Condição da Lavoura em 15 de agosto:**
+(1) Altura da planta: 2 shaku e 2 sun a 2 shaku e 6 sun
+(2) Número de panículas por touceira: 12 (média de 20 touceiras)
+(3) Número de grãos por panícula: Aproximadamente 150 grãos (na panícula principal, média de 20 touceiras)
+(4) Perfilhamento: 80% das plantas perfilhadas, sem incidência de pragas ou doenças.
+
+**16. Dados da Colheita por Amostragem (tsubogari) em 30 de setembro:**
+(1) Data e hora da amostragem: 30 de setembro de 1951, às 13h
+(2) Condições climáticas: Chuva leve pela manhã, nublado à tarde; chuva no dia anterior.
+(3) Ferramenta de amostragem: Amostrador circular (tsubogari-ki)
+(4) Método de amostragem: Três pontos de porte mediano (um tsubo por ponto)
+(5) Responsável pela amostragem: O pesquisador, Kanesaki Sadao
+(6) Testemunhas: Sr. Kikuche Chamei, Prefeito de Ohata, e mais uma pessoa; Sr. Saikawa Renzo, Presidente da Comissão de Agricultura de Ohata, e mais uma pessoa.
+(7) Número de touceiras na amostragem: 100 a 105 por tsubo (média de 102)
+(8) Peso do arroz em casca úmido (não processado):
+   - Tono nº 1: 550 monme por tsubo (165 kan por tan)
+   - Akage Mochi: 600 monme por tsubo (180 kan por tan)
+(9) Maturação completa:
+   - Tono nº 1: 1º de outubro
+   - Akage Mochi: 6 de outubro
+(10) Peso do arroz em casca seco (não processado):
+   - Tono nº 1: 367 monme por tsubo (110 kan por tan)
+   - Akage Mochi: 393 monme por tsubo (118 kan por tan)
+(11) Peso do arroz em casca beneficiado:
+   - Tono nº 1: 360 monme por tsubo (108 kan por tan)
+   - Akage Mochi: 377 monme por tsubo (110 kan por tan)
+(12) Perda no beneficiamento (grãos chochos):
+   - Tono nº 1: 3 monme por tsubo (90 monme por tan)
+   - Akage Mochi: 6 monme por tsubo (1 kan e 800 monme por tan)
+(13) Perda na peneira (impurezas):
+   - Tono nº 1: 4 monme por tsubo (1 kan e 200 monme por tan)
+   - Akage Mochi: 10 monme por tsubo (3 kan por tan)
+(14) Volume beneficiado:
+   - Tono nº 1: 1 shō e 5 gō por tsubo (4 koku e 5 to por tan)
+   - Akage Mochi: 1 shō e 8 gō por tsubo (5 koku e 4 shō por tan)
+(15) Peso por shō de arroz beneficiado:
+   - Tono nº 1: 300 monme
+   - Akage Mochi: 280 monme
+(16) Classificação:
+   - Tono nº 1: Superior-Médio
+   - Akage Mochi: Superior-Inferior (devido à colheita precoce, havia alguns grãos verdes)
+(17) Estimativa do volume de arroz integral por tan:
+   - Tono nº 1: 2 koku, 2 to e 2 shō
+   - Akage Mochi: 2 koku, 5 to e 1 shō
+(18) Estimativa do peso de arroz integral por tan:
+   - Tono nº 1: 87 kan
+   - Akage Mochi: 96 kan e 320 monme
+(19) Paladar:
+   - Tono nº 1: Bom
+   - Akage Mochi: Viscosidade acentuada
+
+As características mais importantes observadas são:
+(1) As raízes são longas e bem desenvolvidas (mais que o dobro das de cultivo com adubo).
+(2) A terceira capina é desnecessária. Na Agricultura Natural, o crescimento da planta se dá pelo desenvolvimento radicular supracitado; portanto, a terceira capina, ao danificar as raízes, acaba por prejudicar o desenvolvimento da cultura.
+
+**Anotações Adicionais:**
+
+**1. Histórico da produtividade anual por tan:**
+- 1948: 1 koku e 2 to (último ano com uso de adubo químico)
+- 1949: 1 koku e 4 to (com Agricultura Natural)
+- 1950: 1 koku e 8 to (com Agricultura Natural)
+- 1951: 2 koku e 2 to (com Agricultura Natural)
+(Nota: Valores abaixo de um to foram arredondados para baixo.)
+
+**2. Solo:**
+Argiloso de coloração negra (semelhante a turfa).
+
+**3. Drenagem:**
+Ligeiramente deficiente.
+
+**4. Irrigação:**
+Embora não seja abundante, a temperatura da água é moderada.
+
+Por não se utilizar fertilizantes químicos há três anos (com custo zero de adubos e agrotóxicos), o solo se apresenta revigorado, com proliferação abundante de minhocas, micorrizas e mofo Penicillium. Acredito que isso resulta no aumento da produção, na qualidade superior do produto, no sabor aprimorado e em um alimento mais saudável. É digno de nota que este método se assemelha, em certa medida, àquele proposto pelo Sr. J. I. Rodale, autor de *Pay Dirt* (O Solo de Ouro).
+
+A Agricultura Natural postula que a aplicação de fertilizantes químicos, ao contrário do que se pensa, esgota a força da terra, transformando-a, com o tempo, em um solo infértil. Seria, por assim dizer, "um crime tão grave quanto sentenciar a terra à morte".
+
+De acordo com minha pesquisa, o solo não é uma substância inorgânica, mas um organismo vivo e em intensa atividade, rico em bactérias, actinomicetos, mofos, leveduras, protozoários, algas e outros microrganismos. Com exceção dos protozoários, todos os demais são seres vivos de natureza vegetal. É a coexistência desses organismos vegetais e animais inferiores que constitui a vida biológica do solo. Existe nele, portanto, uma pequena sociedade bem-organizada. Para que essa sociedade prospere, são necessárias as seguintes condições:
+1. Circulação de ar suficiente.
+2. Umidade adequada.
+
+Diante do exposto, não restam dúvidas de que os compostos químicos potentes estão exterminando os incontáveis aliados do agricultor.
+
+*(Continua)*
+
+*15 de novembro de 1951*
+*Pesquisador da Agricultura Natural (por três anos)*
+
+**(Parte II)**
+
+**Micorrizas**
+
+Já mencionamos o trabalho das bactérias do solo e das minhocas no aumento e manutenção da fertilidade. Contudo, o terceiro elemento fundamental para o crescimento das plantas é a contribuição dos fungos microscópicos que habitam o solo.
+
+No passado, os biólogos notaram que as raízes das plantas eram invadidas por esses fungos microscópicos, mas geralmente os consideravam prejudiciais. Recentemente, porém, cientistas do solo, após árduas investigações e experimentos, descobriram que tais fungos, na verdade, auxiliam seu hospedeiro de maneira notável, sendo indispensáveis para sua vida saudável.
+
+O Dr. Ganong, em seu livro *A Textbook of Botany for Colleges*, descreve essa interação da seguinte forma: "Certas espécies de fungos microscópicos, que se desenvolvem em solos ricos em húmus, associam-se às extremidades das raízes de muitas plantas. Suas hifas se entrelaçam em torno das raízes, substituindo os pelos radiculares. Acredita-se que as micorrizas, como o próprio nome sugere, absorvem água e matéria orgânica solúvel liberada pela decomposição de minerais."
+
+O Sr. Howard, em sua obra *An Agricultural Testament*, afirma: "A associação micorrízica é a ponte viva que conecta diretamente um solo fértil – rico em húmus – à cultura. Ela transporta do solo para a planta nutrientes prontamente assimiláveis. A forma como essa associação influencia a função das folhas verdes da planta é, atualmente, uma das questões mais fascinantes a serem investigadas pela ciência."
+
+Analisando as pesquisas do Sr. Howard, Lady Eve Balfour observou que "as plantas cultivadas com composto orgânico sempre apresentavam uma vasta formação de micorrizas, em nítido contraste com aquelas cultivadas com fertilizantes químicos".
+
+Há alguns anos, durante uma viagem por uma região vinícola da França, o Sr. Howard procurava por videiras vigorosas, semelhantes às que vira na Ásia Central. Ao conversar com a proprietária de um vinhedo, ela lhe informou que jamais utilizara fertilizantes químicos e que a qualidade de seus vinhos era amplamente reconhecida. Ao examinar as raízes, ele constatou a presença da associação micorrízica.
+
+Ademais, ele pesquisou o uso de composto orgânico em larga escala para diversas culturas e defendeu a necessidade de que agricultores e estações experimentais agrícolas estudassem o valor das micorrizas e sua relação com as plantas.
+
+**O mofo Penicillium**
+
+Embora o histórico das atividades dos microrganismos do solo seja, em grande parte, desconhecido, sabe-se que o mofo Penicillium é um tipo de fungo micorrízico.
+
+Sua descoberta, há cerca de quinze anos, pelo cientista britânico Dr. Fleming, foi acidental. Quando esse mofo contaminou uma de suas culturas de bactérias, formou-se uma zona clara ao seu redor. Sua curiosidade o levou a aprofundar a pesquisa, resultando na descoberta da penicilina, uma substância secretada por um microrganismo do solo de poder surpreendente.
+
+Lady Eve Balfour, em seu livro *The Living Soil*, relata que muitas bactérias do solo atacam e devoram protozoários nocivos às plantas. Ela descreve: "Muitas das espécies que se alimentam de nematoides (vermes cilíndricos) criam armadilhas ou laços com suas hifas, ou secretam uma substância adesiva. Quando um nematoide entra no laço, ele é aprisionado e, mesmo que se debata, permanece cativo, por vezes por até duas horas."
+
+Ela também menciona que leitões, muito suscetíveis a enterites diarreicas, curam-se completamente quando lhes é oferecida grama de um solo rico em húmus. A drástica redução de aves selvagens nas fazendas deve-se, por sua vez, ao uso excessivo de fertilizantes químicos e à prática habitual de pulverização de agrotóxicos. Os pássaros gostam de ciscar a terra em busca de larvas de insetos. Ao bicarem um solo que se tornou ácido pela aplicação de sulfato de amônio, eles imediatamente percebem que estão no lugar errado e voam para pastagens mais verdes e exuberantes. Desse modo, o agricultor perde importantes aliados na proteção contra as pragas.
+
+Cientistas, ao reconhecerem o imenso poder dos microrganismos do solo para curar doenças humanas, iniciaram pesquisas para utilizá-los também no controle de doenças vegetais.
+
+Ficou claro que a comunidade microbiana do solo possui uma complexa relação entre elementos positivos e negativos. Quando o solo está em condições adequadas, a vida transcorre em equilíbrio, e os microrganismos benéficos prevalecem sobre os nocivos. É animador, segundo ela, que os cientistas que antes dependiam da química estejam agora obtendo sucesso na utilização dos microrganismos do solo.
+
+Sinto que me desviei um pouco do tema principal. Retornemos, pois, ao estudo e à investigação dos princípios da Agricultura Natural.
+
+**O Princípio da Agricultura Natural**
+
+O proponente da Agricultura Natural afirma que seu princípio fundamental é permitir que o solo manifeste sua força intrínseca. Acredito que há muita verdade nisso. Ele também ensina que, até hoje, o ser humano não conhecia a verdadeira natureza do solo; ou melhor, não lhe foi permitido conhecê-la. Essa concepção errônea levou ao uso de fertilizantes, e, com o tempo, o homem se tornou dependente deles.
+
+Nos últimos anos, o número de praticantes da Agricultura Natural tem aumentado anualmente, e os resultados de colheita têm sido surpreendentes em toda parte. Contudo, por enquanto, a prática parece restrita ao círculo de membros da fé. Gradualmente, porém, simpatizantes surgem em diversas regiões, mesmo entre não membros, e o método de cultivo tem se expandido com um vigor impressionante.
+
+Nesse sentido, a campanha que o proponente chama de "erradicação da superstição dos fertilizantes" possui uma verdade inegável. O fato de não se utilizar qualquer tipo de dejeto humano ou fertilizante químico, mas apenas composto orgânico, assemelha-se à tese do já mencionado Sr. Rodale em seu livro *O Solo de Ouro*. No entanto, há uma sutil diferença. Enquanto a Agricultura Natural utiliza matéria orgânica como capim seco e folhas secas para a produção de composto, por serem elementos naturais, ela considera dejetos humanos, esterco de gado e dejetos de galináceos, bem como adubo de peixe e cinzas de madeira, como elementos estranhos à natureza, e, portanto, não os utiliza. Nisso, difere um pouco da teoria do Sr. Rodale.
+
+Ademais, os praticantes da Agricultura Natural ensinam que não há nada em toda a criação que não receba as bênçãos da Grande Natureza. Os "três elementos" – Fogo, Água e Terra – correspondem ao oxigênio do Fogo, ao hidrogênio da Água e ao nitrogênio da Terra. Nenhuma cultura agrícola pode existir sem esses três elementos.
+
+Afirma-se também que os métodos agrícolas atuais ignoram a "Lei da Grande Natureza" e que, em vez de representarem um avanço, são um retrocesso. Nesse ponto, a base de seu argumento novamente se assemelha à do Sr. Rodale.
+
+Se os três elementos – Fogo, Água e Terra – são a força motriz que faz crescer as plantas, então, ao se cultivar em um solo puro, com boa insolação e suprimento adequado de água, é certo que se obterá um excelente resultado. O proponente argumenta que os resultados insatisfatórios se devem ao desconhecimento da verdadeira essência do solo.
+
+Ele também discorre sobre o efeito reverso dos fertilizantes. Embora possam apresentar resultados consideráveis em um primeiro momento, seu uso prolongado gera uma reação adversa: a capacidade inata da planta de absorver os nutrientes do solo se enfraquece, e ela se modifica a ponto de depender do fertilizante como fonte de nutrição. A analogia mais clara, para melhor compreensão, é com a dependência de narcóticos nos seres humanos. A princípio, o uso de uma droga pode gerar uma sensação de prazer ou clareza mental, um efeito inesquecível que leva a um aprofundamento gradual no vício, até que se torne impossível sair dele. O resultado é a intoxicação por narcóticos ou, no caso, a intoxicação por fertilizantes. Isso também encerra uma grande verdade.
+
+Na primavera de 1949, por puro interesse, comecei a investigar o cultivo do Sr. Kabasawa, em Ohata, aproveitando meu tempo livre desde a época da sementeira. Na fase de transplante, a coloração das folhas era fraca, e as mudas, curtas, apresentando um aspecto visivelmente inferior ao dos outros arrozais. Contudo, notei que, em proporção aos caules e folhas, as raízes eram longas e robustas. Em agosto, o crescimento foi notável; em setembro, já superava a média; e em outubro, a maturação, excelente, foi uma surpresa absoluta. A colheita superou as expectativas, e tanto a qualidade quanto o paladar se mostraram superiores. O rendimento no cozimento também foi maior. Outra grata surpresa foi a intensa viscosidade do arroz glutinoso.
+
+Os praticantes da Agricultura Natural também afirmam que, ano após ano, os venenos dos adubos enfraquecem o solo, tornando-o estéril. Nisso também há uma verdade inegável. Ao ouvir a explicação sobre a aplicação do adubo natural, aprendi que, para o arroz, corta-se a palha em pedaços pequenos e a mistura bem com a terra, com o objetivo de aquecer o solo. Para as hortas, folhas secas e capim são deixados para se decompor até que suas nervuras se amoleçam, sendo então bem incorporados à terra. A razão para isso é que um solo compactado dificulta o desenvolvimento das raízes; a matéria orgânica evita essa compactação.
+
+Idealmente, para culturas de raízes superficiais, bastaria misturar o composto de folhas e capim ao solo da horta. Para as de raízes profundas, contudo, recomenda-se criar uma camada de composto de folhas a cerca de um shaku de profundidade.
+
+As pessoas superestimam o valor nutritivo do composto. Seu propósito principal é, em primeiro lugar, evitar a compactação do solo; em segundo, aquecê-lo; e, em terceiro, prevenir os danos da seca. Assim, o fundamento da Agricultura Natural é "fazer o próprio solo viver". Fazer o solo viver significa manter sua pureza a todo custo, sem utilizar impurezas como os fertilizantes artificiais. Desse modo, livre de obstáculos, o solo pode manifestar plenamente seu potencial inato.
+
+Como observação final, o proponente acrescenta que, ao se criar bichos-da-seda alimentados com folhas de amoreira cultivadas pela Agricultura Natural, os casulos não adoecem, a seda se torna mais forte e brilhante, e o aumento da produção é garantido.
+
+Diante do exposto, concluo que os princípios da Agricultura Natural e os resultados práticos da pesquisa aqui apresentados convergem, em muitos aspectos, com a tese do americano Sr. Rodale.
+
+*18 de novembro de 1951 (Continua)*
+
+---
+
 # A Tuberculose sob a Ótica de um Médico (Do livro 'A Verdadeira Natureza da Tuberculose')
 
 **Categoria:** sanko | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
 **Título Original:** 参考文献 付録 医家の観たる結核 | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1943-11-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 結核の正体
 
 ## A Tuberculose sob a Ótica de um Médico (Do livro 'A Verdadeira Natureza da Tuberculose')
 
@@ -96,6 +1597,7 @@ Quinta-coluna (第五列): [Termo originado durante a Guerra Civil Espanhola, qu
 
 **Categoria:** sanko | **Ano:** - | **Fonte:** Eikou
 **Título Original:** 明主様御降誕祭行わる | **Status:** Published | **Edição/Página:** 290号 | **Data ISO:** -
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Coletânea de Ensaios do Reverendo Okada Jikan — Busca de Ensinamentos | Busca de Materiais: A Celebração do Natalício de Meishu-Sama (Jornal Eiko, nº 290, publicado em 5 de janeiro de 1955)
 
@@ -131,6 +1633,7 @@ Dessa forma, as atividades do dia transcorreram em perfeita ordem. Cerca de seis
 
 **Categoria:** sanko | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
 **Título Original:** 参考文献 宗教と科学を超越しての会合 | **Status:** Published | **Edição/Página:** 227号 | **Data ISO:** 1953-09-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Um Encontro que Transcende a Religião e a Ciência
 
@@ -195,6 +1698,7 @@ Em suma, a dor cederia e o alívio viria assim que a micção fosse restabelecid
 
 **Categoria:** sasshi | **Ano:** - | **Fonte:** -
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** - | **Fonte (JP):** -
 
 ## ――― Coletânea de Teses do Mestre Jikan Okada ―――
 Publicação: Religion and Science
@@ -223,6 +1727,7 @@ Nutrição
 
 **Categoria:** sanko | **Ano:** 昭和26(1951)年6月25日 | **Fonte:** Chijo Tengoku
 **Título Original:** 或る神秘 | **Status:** Published | **Edição/Página:** 25号 | **Data ISO:** 1951-06-25
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 地上天国
 
 ## Um Certo Mistério
 
@@ -260,6 +1765,7 @@ Diante disso, compreendemos quão profundo e longínquo é o Plano de Deus, algo
 
 **Categoria:** sanko | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
 **Título Original:** 幽霊はあるか | **Status:** Published | **Edição/Página:** - | **Data ISO:** 1947-02-05
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 天国の福音
 
 ## Relatos sobre Fantasmas (I) - Coletânea de Fenômenos Espirituais
 
@@ -418,6 +1924,7 @@ Após o experimento, a análise das impressões digitais foi confiada ao Dr. Rog
 
 **Categoria:** sanko | **Ano:** 昭和28(1953)年12月23日 | **Fonte:** Eikou
 **Título Original:** 本年を顧みて「座談会」 （S28年） | **Status:** Published | **Edição/Página:** 240号 | **Data ISO:** 1953-12-23
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Da Coletânea de Artigos do Reverendo Jikan Okada
 
@@ -487,6 +1994,7 @@ Revista Eikou, nº 240, 23 de dezembro de 1953
 
 **Categoria:** sanko | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
 **Título Original:** 参考文献 「自然栽培の佐渡」座談会 推定反収十八俵の作者伊野さんを囲んで | **Status:** Published | **Edição/Página:** 198号 | **Data ISO:** 1953-03-04
+**Coletânea:** 岡田自観師の論文集 | **Fonte (JP):** 栄光
 
 ## Mesa-redonda com a Sra. Ino, produtora de uma colheita estimada em dezoito fardos
 
@@ -789,6 +2297,7 @@ A título de referência, informamos que a cifra de dezoito fardos é uma estima
 
 **Categoria:** sasshi | **Ano:** 昭和25(1950)年1月20日 | **Fonte:** 御Hikari話録
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1950-01-20
+**Coletânea:** - | **Fonte (JP):** -
 
 ## Coletânea de ensaios do Mestre Okada Jikanshi — Registro das Sagradas Palavras, nº 16 (Publicado em 20 de janeiro de 1950)
 
@@ -1230,6 +2739,7 @@ Não é muito bom. O composto que utilizamos deve ser “natural”. Resíduos d
 
 **Categoria:** sasshi | **Ano:** 昭和29(1954)年11月20日 | **Fonte:** 浄霊法講座
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1954-11-20
+**Coletânea:** - | **Fonte (JP):** -
 
 ## Coletânea de Teses do Mestre Okada Jikan
 ## Curso sobre o Johrei (IV) — Crítica à Farmacologia
@@ -1601,6 +3111,7 @@ Cinquenta dias de injeção... esse é o problema. Ela será curada. O melhor se
 
 **Categoria:** sasshi | **Ano:** - | **Fonte:** -
 **Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
+**Coletânea:** - | **Fonte (JP):** -
 
 ## Coletânea de Teses do Mestre Okada Jikan – O Paraíso da Beleza: Museu de Arte de Hakone
 *Por Fujikake Shizuya, Doutor em Letras*
@@ -1614,779 +3125,6 @@ Consta que toda a concepção do museu foi fruto do planejamento e do desígnio 
 Nesse sentido, ele se dedicou pessoalmente a cada detalhe, do início ao fim. Até mesmo o jardim é inteiramente fruto de seu planejamento, e cada árvore, cada folha de relva, recebeu sua atenção e seu espírito. Assim, edificou um museu de estrutura sólida para reunir, proteger e preservar os tesouros do Japão, almejando que fossem apreciados pelo maior número de pessoas. Sua esperança era a de que tal iniciativa pudesse também contribuir para a conservação do patrimônio nacional.
 
 Pode-se, com isso, inferir a profundidade das intenções do Líder Espiritual.
-
----
-
-# sinnihon
-
-**Categoria:** sasshi | **Ano:** 昭和11年 | **Fonte:** -
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** 1936
-
---- Coletânea de Teses do Mestre Okada Jikanshi ---
-
-## Livro da Nova Arte Médica Japonesa (Escrito em 1936) - Introdução
-
-Em sua essência, é fato inconteste que o verdadeiro propósito da arte médica consiste em curar todas as enfermidades humanas, conduzindo o ser humano a um estado de completa saúde. Portanto, à medida que a verdadeira arte médica se aperfeiçoasse, a taxa de morbidade humana deveria decrescer ano após ano, e o número de enfermidades diminuiria gradualmente. A consequência natural seria o aumento do número de pessoas que cumprem a longevidade que lhes foi outorgada pelos Céus, partindo em uma morte serena, semelhante ao sono e livre de sofrimento.
-
-Contudo, qual é a realidade que observamos até o presente momento? Não estamos, porventura, trilhando um caminho diametralmente oposto? Vejamos: a taxa de morbidade aumenta dia após dia, e lares onde não haja um único enfermo são uma raridade. Se hoje realizássemos um rigoroso exame da saúde da nação, quantos indivíduos verdadeiramente sadios encontraríamos? Provavelmente, seria difícil encontrar um em cada dez. Relatórios apontam o declínio anual da constituição física dos jovens convocados para o serviço militar, e as estatísticas da mortalidade infantil, que em nada nos honram, nos colocam em primeiro lugar no mundo. Ademais, apesar dos esforços hercúleos dos setores público e privado para erradicar a tuberculose, com o dispêndio de vultosas somas do erário, não apenas a doença não regride, como ainda hoje contabilizamos um milhão e duzentos mil doentes e mais de cem mil mortes por ano. O que nos revela, também, o fato de que os tipos de doenças só aumentam, sem jamais diminuir?
-
-Todos conhecem em demasia a triste realidade de inúmeros homens que, após receberem educação superior e nutrirem um talento promissor, gemem em seus leitos de dor; ou daqueles que, a meio caminho de sua formação, têm seus sonhos frustrados pela doença, passando a juventude, lamentavelmente, em dias de angústia. Há também os que, tendo alcançado posições de destaque e sucesso, prestes a servir grandemente à nação e à sociedade, sucumbem a uma enfermidade. E quantas mulheres, devido à saúde frágil, não conseguem cumprir plenamente seus deveres celestiais de esposa e mãe, ou veem passar a idade de se casar? Acrescente-se a isso a dor da perda prematura de filhos amados, além dos casos de deficiências, desvios de personalidade, insanidade mental e tantos outros que, por esses motivos, mergulham em infortúnios e adversidades.
-
-Suponhamos que uma família tenha um único membro gravemente enfermo: as economias de longos anos de trabalho logo se esgotam. Que dirá, então, se houver dois ou três doentes graves ou mesmo falecimentos? São incontáveis as tragédias de famílias que veem seu patrimônio, mesmo que considerável, ser completamente dilapidado. É fato notório que a doença é uma das principais causas que leva muitos à ruína social e à miséria.
-
-Diante disso, o temor que as pessoas sentem da doença nunca foi tão grande. E é justamente dessa fraqueza que muitos se aproveitam. Seduzidos por engenhosas táticas publicitárias, inúmeros enfermos veem suas finanças serem espoliadas por medicamentos de venda livre e suplementos de eficácia duvidosa, sendo impelidos para a linha da miséria.
-
-E uma vez acometidos por uma doença grave, são obrigados a arcar com custos cirúrgicos assombrosos e despesas de internação exorbitantes. Apesar de tudo, a recuperação é lenta e a taxa de cura, baixíssima. Segundo os próprios especialistas, é difícil que chegue a cinquenta por cento.
-
-O Dr. Kusama, da Universidade Keio, declarou abertamente em um evento público: "A medicina moderna é incapaz de curar as doenças. Sendo assim, o melhor caminho que nos resta é o da medicina preventiva, por meio da qual cada indivíduo deve se esforçar para não adoecer". Creio que estas são as palavras de um verdadeiro erudito, dotado de honestidade e consciência.
-
-Por essa razão, médicos esclarecidos, sentindo na pele a impotência da medicina ocidental, veem-se forçados a voltar sua atenção e a pesquisar a medicina tradicional chinesa, a moxabustão e outras terapias populares, cujo número de adeptos cresce a olhos vistos.
-
-Os fatos aqui expostos revelam claramente o verdadeiro valor da medicina moderna. É verdade que se observam alguns avanços na descoberta de micróbios e na medicina fundamental, mas no campo terapêutico, poder-se-ia dizer que nada mudou em décadas. Sendo assim, onde reside a verdadeira causa desse impasse? Descobri-la é, sem dúvida, uma questão mais urgente do que qualquer reforma política, econômica ou invenção.
-
-É desnecessário dizer que nada representa uma perda maior para a nação do que a falta de saúde de seu povo. Hoje, diante da posição de proeminência que o Japão ocupa, temos a importante missão de não apenas ombrear e competir com os ocidentais, mas, se possível, superá-los. Para nós, japoneses, a saúde deve ser, acima de tudo, a questão mais fundamental.
-
-Onde, então, reside o equívoco da medicina moderna? Ele se encontra em um erro crasso cometido em seu ponto de partida. Como este livro detalha minuciosamente, aquele que o ler com atenção e profundidade, seja quem for, verá sua ignorância se dissipar subitamente. A verdadeira causa das doenças e os segredos da saúde se tornarão tão claros como se expostos à luz do dia, e ele compreenderá que, através de um método terapêutico sem medicamentos, é possível erradicar as enfermidades.
-
-Esta nova arte médica japonesa, que poderíamos chamar de Medicina do Amanhã, a Terapia do Poder de Kannon (観音) e seu método de saúde, representa, em sua essência, a maior boa-nova para a humanidade desde o início de sua história. Sei que não faltarão aqueles que duvidarão de minhas palavras, que podem soar como o desvario de um megalomaníaco. Contudo, isso se assemelha a tentar descrever o sabor de um alimento: por mais que se explique, é impossível compreendê-lo sem prová-lo. Em suma, tudo se resume à experimentação e à vivência. Assumo total responsabilidade e juro que não há uma única inverdade no que afirmo.
-
-(8 de fevereiro de 1936)
-
-## O Princípio da Terapia de Pressão Digital Okada
-
-Embora denominada Terapia de Pressão Digital Okada, na realidade, o termo "pressão digital" não é o mais adequado. Nomes como Terapia de Purificação do Sangue, Terapia de Purificação da Aura ou Terapia de Purificação seriam mais apropriados. Contudo, adotei a designação atual por ser de mais fácil compreensão para o público em geral.
-
-Seu princípio fundamental consiste em eliminar e purificar, por meio da irradiação da Luz Espiritual, as máculas do corpo espiritual humano, que constituem a origem das doenças. Uma vez que as máculas do corpo espiritual são removidas, o sangue naquela região se purifica. Com a purificação do sangue, o pus ali acumulado se dissolve. E, com a dissolução do pus, a doença é completamente curada. Trata-se, portanto, de um método terapêutico fundamental, pois a cura se inicia no espírito.
-
-A medicina ocidental, em contrapartida, emprega um método oposto. Ela busca tratar os fenômenos físicos que se manifestam como doença por meio da aplicação de substâncias materiais, como medicamentos, equipamentos e raios de luz. Assim, embora possa apresentar uma aparente melhora, após certo tempo, a doença ressurge como uma reação à força que foi suprimida. Por essa razão, os tratamentos medicamentosos ou físicos direcionados ao corpo carnal, ainda que surtam efeito, proporcionam, na maioria das vezes, apenas uma cura temporária, e não uma cura fundamental. Há casos, é verdade, em que a cura temporária é seguida pela cura natural e completa, mas isso se restringe a uma pequena parcela das enfermidades.
-
-Pode-se, pois, afirmar categoricamente que a medicina materialista ocidental, enquanto não reconhecer a existência do espírito, por mais que se esforce em progredir, jamais será capaz de curar as doenças.
-
-Mas o que é a Luz Espiritual, a força curativa fundamental da Terapia do Poder de Kannon (観音)? É algo que, por enquanto, não pode ser explicado em um tubo de ensaio, simplesmente porque a ciência ainda não alcançou tal nível de desenvolvimento. Anseio ardentemente pelo dia em que os cientistas e pesquisadores médicos se dediquem a analisar e estudar a natureza dessa Luz Espiritual sob a ótica da ciência.
-
-Essa grandiosa Luz Espiritual é uma espécie de onda luminosa misteriosa, jamais manifestada na história da humanidade. Se fosse preciso descrevê-la, não haveria outra forma senão dizer que se trata de um raio com um poder de cura dezenas, centenas de vezes superior ao do rádio. Onde, então, reside esse raio misterioso? Ele se origina da incessante irradiação das ondas luminosas do Sol e da Lua em direção a um determinado corpo X. Dentro desse corpo X, essas ondas se unem, formando uma espécie de éter, o qual, por sua vez, é continuamente irradiado para o corpo de Jinsai. Por conseguinte, dos meus membros e de todo o meu corpo, essa onda luminosa está sempre sendo emitida. O artífice de toda essa obra, de um mistério insondável, é a própria entidade de Kanzeon Bossatsu. Em termos simples, Kanzeon Bossatsu produz e fornece infinitamente essa onda de éter, que é o poder de cura, e, através do meu corpo físico, realiza a obra de salvação e cura.
-
-É por isso que, ao se aproximarem de mim, muitas pessoas, banhadas por essa onda luminosa, são curadas de suas doenças, suas dores se dissipam ou, tocadas por uma revigorante sensação espiritual, veem seu pessimismo desaparecer e sua coragem aumentar. Com aproximações sucessivas, a purificação do sangue melhora a coloração da pele, e aqueles que tinham o hábito de beber perdem o vício. Embora, por ora, não seja possível explicar cientificamente esses fenômenos, eles podem ser amplamente demonstrados e compreendidos por meio da comprovação prática.
-
-Ademais, quando escrevo ou pinto, a luz atravessa o pincel e penetra na tinta, de modo que a caligrafia ou a pintura passa a irradiar uma espécie de luz. Sua cor é branco-prateada, dourada ou púrpura, e dezenas de pessoas já a testemunharam. Houve casos em que, durante uma queda de energia, a imagem em um quadro, que deveria estar na escuridão, pôde ser nitidamente contemplada graças à luz que irradiava de si mesma. E não foram poucas as vezes em que, com as luzes apagadas, a luz emitida pelo quadro preencheu todo o ambiente.
-
-Há também inúmeros exemplos diários de pessoas comuns que, ao guardarem no bolso um pedaço de papel dobrado, no qual escrevi palavras com a intenção de manifestar o poder de cura, passam imediatamente a manifestar esse poder, obtendo resultados terapêuticos superiores aos de um doutor em medicina. A essa força prodigiosa, damos o nome de Poder de Kannon (観音).
-
-Diante de tudo isso, posso afirmar sem hesitação que se aproxima a era em que a doença não mais existirá e a humanidade poderá viver sua longevidade natural. Com ela, não há dúvida de que virá também a era da revolução da medicina ocidental. A Terapia do Poder de Kannon (観音) é, verdadeiramente, Ashita no Ijutsu e uma grandiosa boa-nova para a salvação da humanidade.
-
-## A Terapia do Poder de Kannon (観音)
-
-O termo "Terapia do Poder de Kannon (観音)" pode soar extremamente supersticioso, e muito refleti sobre que nome lhe dar. Contudo, para expressar sua verdadeira natureza, sem qualquer tipo de adorno, não encontrei outra designação.
-
-Aqui, faz-se necessário analisar todos os métodos terapêuticos existentes até hoje. De modo geral, eles se dividem em terapias materiais e terapias espirituais. As terapias materiais incluem, obviamente, a medicina ocidental e a chinesa, bem como práticas análogas como a acupuntura, a moxabustão e os tratamentos elétricos. Já as terapias espirituais abrangem desde rituais e preces baseados na fé até métodos de cura que se valem da mentalização e da convicção.
-
-Entretanto, esta terapia não se enquadra em nenhuma dessas categorias. Embora guarde grande semelhança com as terapias de pressão digital e imposição de mãos que se popularizaram nos últimos tempos, sua essência é totalmente distinta. Trata-se, portanto, de uma arte médica absolutamente inédita na história e na experiência humana. É uma arte médica inteiramente nova, uma arte que cura, a arte médica do amanhã.
-
-Também a chamo de Terapia de Pressão Digital Okada, mas este é apenas um nome de conveniência, não o mais adequado. Pretendo utilizá-lo apenas até que esta terapia se torne amplamente conhecida.
-
-Ao ouvir falar em "Poder de Kannon (観音)", não se pode dizer que não haja um elemento de fé, mas a cura ocorre independentemente de se crer ou não em Kannon (観音). Ademais, no diagnóstico, sua precisão supera a da medicina. Ela é capaz de eliminar toda sorte de sofrimento, como baixar a febre, cessar a dor, remover o pus, estancar a diarreia e acabar com a tosse. E, por conseguir explicar a causa das doenças de forma detalhada e com base em evidências, é também científica. Nesse aspecto, a medicina moderna é que se mostra não científica, pois, embora consiga fornecer explicações até certo ponto sobre os aspectos periféricos, é incapaz de explicar as causas fundamentais. O que ela apresenta sob o nome de "patologia" não passa, na verdade, da descrição dos fenôenos da doença. Assim, se a medicina se propusesse a explicar a patologia e a causa das doenças, por ora, acabaria por se tornar inevitavelmente não científica.
-
-Esta terapia, por sua vez, é capaz de explicar a patologia e a causa de todas as doenças de forma exaustiva, com base em evidências e de maneira científica (embora não mecanicista). Sendo assim, pode ser considerada científica, mas, por não utilizar medicamentos nem equipamentos, é também não científica.
-
-Dessa forma, esta terapia é, ao mesmo tempo, baseada na fé e independente dela, científica e não científica – uma espécie de terapia indescritível e sem impedimentos.
-
-Desde a antiguidade, são numerosos os exemplos de curas milagrosas obtidas através da fé em Kannon (観音), a qual, entre todas as crenças, se destaca de forma inquestionável, como é de conhecimento geral. Contudo, para uma certa parcela de cientistas que atribuem tais fatos a uma espécie de cura espiritual por sugestionamento, isso pode ser de difícil aceitação. Para essas pessoas, resta-nos aguardar o momento de seu despertar, e prossigamos com nossa explanação.
-
-Até hoje, a salvação de Kanzeon Bossatsu foi concedida, como todos sabem, por meio de ídolos, como estátuas de madeira ou metal e pinturas. Contudo, diante do mundo atual, um verdadeiro inferno em chamas, onde os doentes transbordam pelas ruas devido a tratamentos médicos equivocados e superstições, a salvação por meio de ídolos já não é mais capaz de conter o alastramento das doenças e o sofrimento humano decorrente. Diante disso, tornou-se imperativo realizar uma grande obra de salvação e cura utilizando um ser humano vivo como instrumento. E foi assim que surgiu a Terapia do Poder de Kannon (観音), iniciada por este humilde Jinsai.
-
-(6 de abril de 1936)
-
-## A Época do Renascimento da Arte Médica Japonesa
-
-A Restauração Meiji despertou nossa nação de seu sonho de isolamento, provocando uma grande virada. Tratou-se, como é sabido, de uma renovação em todos os âmbitos, impulsionada pela cultura ocidental. Contudo, hoje, passados mais de sessenta anos, é mais do que evidente que esse ciclo chegou ao fim. Chegou o momento de reavaliar a cultura ocidental, que imitamos e absorvemos indiscriminadamente, e fazer um balanço. Devemos preservar o que é útil e descartar o que não é. E, como resultado desse processo, devemos sintetizar o que há de melhor em cada nação do mundo para, então, avançar com ímpeto na criação e expansão de uma nova cultura japonesa.
-
-Os primeiros sinais dessa nova era já despontam. O progresso de nossa indústria é um deles. A japonização da educação e a reforma política – o que seriam senão manifestações desse mesmo movimento?
-
-Todavia, ao voltarmos nosso olhar para a história de nossa nação desde sua fundação, o que encontramos? Além do pensamento singular de lealdade, bravura e retidão de um povo que reverencia uma linhagem imperial ininterrupta e sem paralelo, é notável que tanto a cultura chinesa quanto a religião indiana foram japonizadas – ou melhor, foi através do Japão que viram sua força vital florescer e atingir a plenitude. Por essa razão, hoje e no futuro, a principal força motriz do Japão em ascensão reside na cultura japonesa cultivada ao longo de três mil anos, cujas flores estão prestes a desabrochar e dar frutos.
-
-Neste momento em que as formas culturais começam a brotar de maneira genuinamente japonesa, é natural que a própria arte médica – essa força absoluta que detém o domínio sobre a vida humana – passe por uma revolução e renasça. Mas não se trata apenas disso. A notória impotência da medicina ocidental é, sem dúvida, outra razão para tal mudança.
-
-A todo momento, anunciam novas descobertas que prometem solucionar doenças complexas ou desvendar os mistérios da vida. Novos medicamentos e tratamentos surgem como salvadores, para depois desaparecerem como fantasmas. As pessoas, iludidas por essa retórica científica, chegam a pensar que suas vidas serão em breve solucionadas pelo poder da ciência.
-
-O homem moderno, em sua maioria, tornou-se míope, capaz de enxergar apenas o que está diante de seus olhos. E com essa visão limitada, é impossível discernir as imitações da ciência. Vejam o aumento drástico de crianças frágeis, a alta taxa de mortalidade infantil e o fato de sermos o país com o maior número de usuários de óculos. E ainda dizem que a medicina progrediu.
-
-Os números de pacientes com tuberculose, derrame cerebral e esgotamento nervoso atingem níveis alarmantes. E ainda dizem que a medicina progrediu.
-
-Os hospitais psiquiátricos, dizem, só conseguem abrigar um décimo dos pacientes existentes. As colunas de anúncios dos jornais estão repletas de propagandas de remédios. As novas religiões conquistam fiéis apenas com a promessa de cura. E ainda dizem que a medicina progrediu.
-
-O número de doutores em medicina que praticam a moxabustão aumenta gradativamente. E há até mesmo doutores especializados na terapia de imposição de mãos. E ainda dizem que a medicina progrediu.
-
-A medicina moderna é incapaz de remover uma única gota de pus sob a pele sem o uso de um bisturi ou agulha. Tentar solucionar os mistérios da vida com uma arte médica como essa é mais difícil do que viajar à Lua em um foguete. E tentar curar doenças com medicamentos talvez seja o mesmo que tentar fazer um robô se apaixonar. Pois, embora os medicamentos possam aliviar a dor, eles não possuem, em absoluto, o poder de curar.
-
-Não há ser mais infeliz do que o homem de uma era que o obriga a confiar sua vida à medicina científica e a religiões fraudulentas. Esta é, verdadeiramente, a era da proliferação de doentes. E, apesar disso, as pessoas acreditam piamente no progresso da medicina, satisfeitas com os tratamentos que recebem, em uma cegueira que não lhes permite questionar nada. É uma situação verdadeiramente lastimável.
-
-Poderemos nós, de fato, entregar nossas vidas a essa medicina moderna e ficar tranquilos? É claro que reconhecemos os maravilhosos benefícios da ciência, aos quais devemos a mais profunda gratidão. Mas a vida humana é algo que deveria estar fora do alcance da ciência.
-
-A nova cultura japonesa que deve nascer não se restringe à ciência. Deve ser uma cultura que integre o espírito e a ciência, o espírito e a matéria – ou melhor, uma cultura na qual o espírito seja o principal. E, naturalmente, na arte médica, o espírito também deve ter primazia, pois é ele a base do poder que restaura a força vital. Não se trata, obviamente, de algo meramente religioso ou conceitual. É algo que não é nem científico nem religioso, mas que possui em si a novidade e a perfeição.
-
-Acredito que chegou o momento em que essa arte médica perfeita nascerá no Japão e se expandirá pelo mundo, para que brancos, orientais e negros possam, igualmente, ser agraciados por seus benefícios. Assim, uma era sem doenças será criada. Os tipos de enfermidades diminuirão gradualmente, e os hospitais serão fechados um após o outro. O número de médicos e a taxa de mortalidade, naturalmente, também reduzirão.
-
-Essa arte médica, que parece um sonho, constituirá a espinha dorsal da cultura japonesa. E, assim como a medicina foi a vanguarda quando a cultura ocidental despertou o Japão de seu longo sono, agora, a nova cultura japonesa, resplandecente como o sol nascente, expandirá sua luz para o oeste.
-
-(15 de abril de 1936)
-
-## Comparação entre Esta Terapia e a Terapia de Pressão Digital Comum
-
-A terapia de pressão digital comum, praticada em diversos lugares nos últimos tempos, apresenta resultados consideráveis e, por isso, goza de certa confiança do público. Contudo, quando comparada a esta terapia, a diferença em todos os aspectos é abissal. E por que isso ocorre? Na terapia de pressão digital comum, é a eletricidade do corpo humano, ou seja, a força espiritual do próprio indivíduo, que é emitida pelas pontas dos dedos. Por essa razão, ao realizar o tratamento, o terapeuta precisa se esforçar enormemente para concentrar sua mente, o que consome uma grande quantidade de sua energia espiritual, causando um cansaço extremo. Assim, a menos que seja uma pessoa de saúde robusta, a prática se torna difícil. E, naturalmente, requer-se um tempo muito maior para o tratamento.
-
-Nesta terapia, contudo, temos no plano mais elevado a presença de Kanzeon Bossatsu, que fornece ao terapeuta, através de Jinsai, um suprimento infinito de seu prodigioso poder de cura. Sendo assim, não há necessidade de um esforço especial. Basta aplicar a terapia com a consciência de ser um mero intermediário. Nesse sentido, o método é extremamente simples e fácil e, ainda assim, seus efeitos são verdadeiramente extraordinários.
-
-## Método de Tratamento
-
-Ao iniciar o tratamento, o terapeuta deve se aproximar do paciente a ponto de seus joelhos se tocarem. Primeiramente, bate-se palmas três vezes, de forma leve, quase inaudível, mentalizando Kanzeon Bossatsu. Em seguida, com a mão esquerda pousada suavemente sobre o ombro direito do paciente, inclina-se levemente a cabeça dele para a frente. Com o dedo indicador da mão direita, em direção ao centro do cérebro, escreve-se no ar por três vezes a frase: "Purifique-se". Imediatamente após, com a boca, sopra-se duas ou três vezes: "Fu, fu, fu". Com a mão direita aberta, a cerca de um centímetro acima da cabeça, esfrega-se o ar de um lado para o outro o mais rápido possível, soprando novamente. Esse procedimento deve durar cerca de um minuto.
-
-A razão para iniciar desta forma é que a origem de todo o ser humano reside no cérebro, que pode ser considerado o centro nevrálgico da causa das doenças. Portanto, começa-se por purificá-lo.
-
-Em seguida, pergunta-se ao paciente, da forma mais detalhada possível, sobre os sintomas, o histórico da doença, os locais de dor, etc. Com base nessas informações, busca-se e localiza-se a causa da enfermidade na área afetada, utilizando as pontas dos dedos para uma investigação minuciosa. Uma vez descoberta a causa, aplica-se o tratamento naquele local.
-
-Como princípio geral do tratamento, inicialmente, em direção à área afetada, escreve-se três vezes com o dedo indicador direito: "Purifique-se por dentro". E, assim como foi feito no cérebro, move-se a palma da mão rapidamente, como se estivesse esfregando. Nesse momento, pode-se tocar ou não na pele. Repete-se esse procedimento algumas vezes e, então, pousa-se levemente a ponta do dedo sobre a área afetada, concentrando a energia espiritual na ponta do dedo e pressionando suavemente, com a intenção de dissolver a causa da doença. Na maioria dos casos, a causa da doença é um acúmulo de pus líquido ou solidificado, que é facilmente identificado ao ser tocado e pressionado com a ponta do dedo, pois causa uma certa dor. Durante o tratamento, deve-se soprar várias vezes, como se estivesse soprando a poeira. Ao repetir esse processo, o acúmulo de pus que constitui a causa da doença certamente se dissolverá, ainda que em parte. Na medida em que se dissolve, o paciente sentirá alívio, e essa será a medida da cura.
-
-O que foi descrito acima, contudo, é apenas o princípio geral, podendo ser adaptado conforme a necessidade na prática. Dependendo do caso, pode-se também utilizar a palma da mão. O amuleto do Poder de Kannon (観音), que se usa no pescoço durante a terapia, funciona como um receptor da Luz Espiritual. É através dele que a Luz Espiritual do Poder de Kannon (観音) é irradiada e penetra pelas pontas dos dedos e pela palma da mão do terapeuta.
-
-Gostaria de acrescentar uma palavra sobre a atitude mental durante o tratamento. É extremamente prejudicial pensar coisas como: "Se eu curar este paciente, estarei contribuindo para o movimento de Kannon (観音)" ou "Talvez ele me ofereça uma contribuição material". O ideal é apenas desejar que o sofrimento do paciente seja eliminado, que ele seja curado e salvo. Pois a grande compaixão de Kanzeon Bossatsu é um sentimento sublime que busca salvar todos os seres, sem qualquer tipo de discriminação.
-
-## O que é a Terapia do Poder de Kannon (観音)?
-
-A expressão "Terapia do Poder de Kannon (観音)" é inédita desde a criação do mundo, pois um método como a Terapia do Poder de Kannon (観音) jamais existiu. Gostaria, então, de explicar o que é essa força chamada Poder de Kannon (観音). Trata-se de uma força prodigiosa que Kanzeon Bossatsu manifesta, utilizando o corpo de uma pessoa escolhida como instrumento, para a salvação da humanidade. E o que é, afinal, essa força prodigiosa? É luz, calor e espírito da água. Essa combinação de luz, calor e água pode ser descrita como um coquetel da luz e do calor irradiados pelo Sol com a essência da luz da Lua. Sua onda luminosa e sublime possui um poder de cura centenas de vezes superior ao do rádio, do raio X ou dos raios ultravioleta, a ponto de não ser possível medi-lo. Com o nível atual do conhecimento e da inteligência humana, é absolutamente impossível compreendê-la. Portanto, não há outro meio de apreender sua verdadeira natureza senão através da experiência prática. Essa onda luminosa é, na verdade, um super raio X. Somente quando se é curado de uma doença grave ou se presencia um grande milagre por meio dessa onda luminosa, é que se pode compreender a grandiosidade e o caráter prodigioso do Poder de Kannon (観音).
-
-Essa é uma força que nem Buda, nem Cristo, nem Maomé, nem qualquer outro santo jamais possuiu. A principal razão para isso foi o tempo. Se qualquer um desses santos a tivesse manifestado, o mundo teria se tornado livre de doenças naquela mesma época. O fato de ainda hoje, ou melhor, de haver cada vez mais pessoas sofrendo com doenças nas ruas, é prova mais do que suficiente.
-
-O Poder de Kannon (観音), invisível aos olhos, mas de uma força curativa imensa, é verdadeiramente incomensurável. Vejamos um exemplo. Se eu escrevo "Poder Curativo de Kannon (観音)" em um papel e qualquer pessoa o dobra e o guarda no bolso, o significado dessas palavras se transforma em luz e começa a atuar, sendo irradiado pelas mãos e dedos dessa pessoa. Consequentemente, quando a palma ou os dedos dessa pessoa tocam a área afetada de um doente, a dor diminui instantaneamente. É um fato notável que, dessa forma, doenças graves, que a medicina não conseguiu curar, são curadas uma após a outra.
-
-Ao dizer tais coisas, sei que posso não apenas não ser acreditado, como também receber protestos. E talvez as autoridades me considerem um exagerado. Contudo, não se pode distorcer a realidade. Nenhuma teoria, por mais elaborada que seja, é capaz de refutar um único fato.
-
-A aurora do mundo está, de fato, chegando. Chegou o tempo em que toda a humanidade será banhada em luz. A manifestação dessa força sem precedentes é prova mais do que eloquente.
-
-## A Causa Fundamental da Doença e a Verdadeira Cura
-
-Qual é, afinal, a causa fundamental da doença? Em uma palavra, é a mácula do espírito. O ser humano é constituído, em sua essência, de espírito e matéria. Se fosse apenas matéria, não passaria de uma substância inanimada.
-
-No centro do espírito, reside a alma, que é o seu regente. E essa alma é a própria vida. Poderíamos dizer, então, que o espírito é uma manifestação da vida, e o corpo, a materialização do espírito. Assim, quando o corpo se move, é a alma, a vida, que gera a vontade. Esta, instantaneamente, move o espírito, que, por sua vez e também instantaneamente, move o corpo. Em outras palavras, vida é alma, alma é espírito e espírito é corpo. E, simplificando ainda mais, vida é corpo e corpo é vida.
-
-É por isso que um dano no corpo pode levar à cessação da vida, e a cessação da vida resulta na morte do corpo. O espírito, portanto, existe como uma entidade intermediária entre o corpo e a alma, atuando como mediador entre ambos.
-
-A origem da doença, portanto, parte da própria alma. Contudo, podemos dividir as causas das doenças em duas grandes categorias. Uma delas é externa, ou seja, a causa pode se originar no corpo. É o caso, por exemplo, do consumo de álcool, de práticas sexuais impuras, do uso de medicamentos, de injeções, da vacinação contra a varíola, do consumo excessivo de carne, etc. Até hoje, a interpretação da causa das doenças se restringiu a esse aspecto físico. (É verdade que, entre os itens mencionados, o uso de medicamentos, as injeções e o consumo de carne são considerados aceitáveis pela medicina moderna, mas, sob a ótica desta terapia, não o são).
-
-O erro reside no fato de que a pesquisa sobre os tratamentos também se concentra unicamente nesse aspecto físico. A verdade é que a verdadeira causa da doença está na alma, sendo o corpo secundário. Pois o corpo, em si, não tem poder de expressão nem de comando, movendo-se inteiramente sob as ordens da alma. Ele é, por assim dizer, a vestimenta da alma. É o mesmo que uma pessoa que veste suas roupas conforme sua vontade. Assim, quando as roupas estão excessivamente danificadas ou sujas, é natural que sejam descartadas. Da mesma forma, quando o corpo está excessivamente danificado e se torna inutilizável, a alma o descarta e parte para o Mundo Espiritual. A isso, chamamos de morte.
-
-Por essa lógica, quando a doença se manifesta primeiramente na alma, ela surge como uma mácula em toda a alma ou em parte dela. Essa mácula se projeta no espírito e, em seguida, no corpo. Nesse processo, a mácula do espírito se transforma em uma turvação do sangue, que, por sua vez, se converte em pus. Esse pus se acumula e se solidifica. A ação para eliminá-lo é o que, em termos físicos, chamamos de doença.
-
-Portanto, o único e verdadeiro método para curar a doença é, sem qualquer dúvida, eliminar a mácula do espírito. Enquanto a mácula persistir, por mais que se trate o corpo, a reincidência é inevitável. O grande número de recidivas nos tratamentos médicos se deve a esse princípio.
-
-Esta terapia, por meio de uma onda luminosa misteriosa, elimina essa mácula. Com isso, o sangue se purifica instantaneamente, e a dor cessa no mesmo instante. As pessoas consideram isso um milagre, mas não há nada de milagroso ou misterioso nisso. Trata-se, como se vê, de um método perfeitamente racional.
-
-Assim, a causa de todas as doenças reside tanto no corpo quanto na alma. Contudo, é preciso conhecer a lei natural, segundo a qual toda matéria é regida pelo espírito imaterial. Por isso, mesmo as doenças de causa física não podem ser curadas fundamentalmente sem a purificação do espírito. E, sob outra perspectiva, a origem da causa física da doença reside, em última análise, na alma. Portanto, a purificação da alma e, consequentemente, do espírito é o princípio fundamental do tratamento das doenças, e posso afirmar categoricamente que não existe outro método de cura verdadeiro.
-
-## A Causa da Doença e os Pecados e Impurezas
-
-Como já foi dito, a causa da doença é o acúmulo e a solidificação de sangue impuro e pus líquido, e estes, por sua vez, são uma projeção da mácula do espírito. De onde, então, se originam e se propagam essas máculas? Elas provêm dos pecados e impurezas. E estes também se dividem em dois tipos: os congênitos e os adquiridos. Os congênitos são o acúmulo e a soma dos pecados e impurezas de inúmeros antepassados, enquanto os adquiridos são o acúmulo dos pecados e impurezas cometidos pelo próprio indivíduo.
-
-Comecemos por detalhar os pecados e impurezas dos antepassados. Nós, que hoje vivemos, não somos existências isoladas, surgidas do nada. Somos, na verdade, a síntese de centenas ou talvez milhares de antepassados, um ser individual que existe e respira na ponta dessa linhagem. Somos uma existência temporal e individual no meio de uma vida que se sucede infinitamente. Em uma perspectiva ampla, somos um elo na corrente que une antepassados e descendentes; em uma perspectiva restrita, somos a cunha que liga pais e filhos.
-
-Para explicar a fundo as doenças causadas pelos pecados e impurezas dos antepassados, é imprescindível falar sobre a vida após a morte, ou seja, sobre a estrutura do Mundo Espiritual. Portanto, farei aqui um breve resumo.
-
-Quando uma pessoa deixa este mundo e passa pelo portal da morte, ela se despoja de sua vestimenta, que é o corpo. O corpo pertence ao mundo material, e o corpo espiritual, ao Mundo Espiritual. Assim, quando o corpo se deteriora pela doença ou pela idade e se torna inutilizável, o espírito o abandona e parte para o Mundo Espiritual. Lá, ele deve se preparar para renascer neste mundo. Essa preparação é o processo de purificação espiritual.
-
-Contudo, a maioria das pessoas acumula uma quantidade considerável de impurezas decorrentes de seus atos pecaminosos em vida. Por isso, ao se depararem com o julgamento rigoroso e imparcial do Mundo Espiritual, a maioria acaba caindo no inferno. Os espíritos que caem no inferno, através do sofrimento das punições por seus pecados, vão progredindo gradualmente, passo a passo. Nesse processo, os resíduos da purificação dos pecados e impurezas, que poderíamos chamar de elementos espirituais impuros, fluem incessantemente para seus descendentes que vivem no mundo material. Trata-se de uma espécie de expiação cármica, na qual o indivíduo, que é a síntese de seus antepassados, compartilha de seus pecados e impurezas. Sendo esta uma lei divina do Deus Supremo que rege a criação, nada podemos fazer a não ser nos submeter a ela.
-
-Esses elementos espirituais impuros fluem continuamente para o cérebro e a medula espinhal do ser humano. Ao entrarem no espírito, materializam-se instantaneamente, e essa materialização é o pus. É ele que se torna a causa de todas as doenças.
-
-Passemos agora aos pecados e impurezas individuais, que são de fácil compreensão para todos. Nenhum ser humano é capaz de viver sem cometer absolutamente nenhum pecado. Contudo, os pecados variam em tamanho, gravidade e natureza. Há, por exemplo, os pecados perante a lei, os pecados morais e os pecados sociais. Há também os pecados físicos, que se manifestam em atos, e os pecados mentais, que existem apenas no pensamento. O preceito de Cristo, segundo o qual o simples fato de olhar para uma mulher com maus pensamentos já constitui o pecado do adultério, pode parecer excessivamente rigoroso, mas não está errado.
-
-Assim, mesmo que não se infrinja a lei, pequenos pecados, como odiar alguém, desejar o mal a outrem ou cobiçar o cônjuge alheio – coisas tão insignificantes que ninguém as considera pecado –, se acumulados por um longo tempo, tornam-se algo considerável. Além disso, vencer uma competição, ter sucesso social, enfim, qualquer ato de superioridade gera o ressentimento e a inveja dos derrotados. E esse ressentimento também se transforma em uma espécie de pecado. Matar seres vivos, ser preguiçoso, atacar os outros, desperdiçar bens materiais, dormir até tarde, quebrar promessas, mentir – tudo isso são pecados que cometemos sem nos dar conta. Embora pequenos, esses inúmeros pecados, com o passar do tempo, acumulam-se em uma quantidade considerável, formando máculas no espírito.
-
-Pode-se pensar que um recém-nascido não teria pecados adquiridos, mas isso não é verdade. Enquanto a criança for sustentada pelos pais, e até que se torne independente, ela também compartilha dos pecados e impurezas deles. Uma comparação com uma árvore torna isso mais claro. Os pais são o tronco, e os filhos, os galhos. Assim como a mácula do tronco afeta os galhos, o mesmo ocorre com os seres humanos.
-
-Esses pecados e impurezas adquiridos muitas vezes se manifestam de forma clara. Vejamos alguns exemplos. Conheço dois casos de pessoas que, por terem enganado os outros, ficaram cegas. Antigamente, em Senzoku-cho, no bairro de Asakusa, havia um mestre em montagem de pergaminhos chamado Kyogin. Ele possuía um talento genial para a falsificação e, ao transformar obras novas em antigas, enriqueceu ao longo de décadas. Contudo, em sua velhice, ficou incuravelmente cego e, pouco depois, faleceu. Eu, que em criança costumava visitá-lo, ouvi essa história dele mesmo.
-
-Outro caso é o de um antiquário chamado Kame, de Hanakawado, também em Asakusa. Certo ano, o abade de um templo da província de Shizuoka veio a Tóquio para expor a imagem sagrada de seu templo. Contudo, a exposição foi um fracasso, e, sem dinheiro para a viagem de volta, ele penhorou a imagem com Kame. Mais tarde, tendo conseguido o dinheiro, voltou para reaver a imagem, mas Kame, que a havia vendido por um preço muito alto, negou cinicamente tê-la recebido e se recusou a devolvê-la. O monge, sem saída, enforcou-se sob o beiral da loja de Kame.
-
-Kame, por sua vez, com o dinheiro que lucrou com a estátua, expandiu seus negócios e, a partir de então, prosperou vertiginosamente, tornando-se um homem muito rico. Contudo, em sua velhice, ficou cego. E seu filho herdeiro, entregue à bebida e às mulheres, dilapidou toda a fortuna em pouco tempo. A família caiu em desgraça, e eu, em criança, muitas vezes via Kame, em um estado lastimável, andando pelas ruas guiado por sua esposa. Meu pai me contou a história por trás de sua ruína. Foi, sem dúvida, a maldição do ressentimento do monge que o atingiu.
-
-Há ainda uma história em que o pecado dos pais recaiu sobre a filha. Trata-se de uma empregada de dezessete ou dezoito anos que trabalhou para mim. Ela era cega de um olho e, ao perguntar-lhe o motivo, contou-me que o filho de seus antigos patrões a havia atingido acidentalmente com uma espingarda de ar comprimido. Ao investigar mais a fundo, descobri que seu pai havia enriquecido vendendo imitações de coral. No início da era Meiji, surgiram imitações muito bem-feitas, feitas de borracha e outros materiais. Ele as levava para o interior, vendendo-as como se fossem autênticas e obtendo enormes lucros. O ressentimento das pessoas que foram enganadas deve ter sido imenso. E foi esse pecado que recaiu sobre a filha, custando-lhe um olho. Ela era, ademais, uma moça muito bonita e, se não fosse por esse infortúnio, certamente teria tido um futuro brilhante. Foi uma grande pena.
-
-Outro exemplo é o de um idoso que veio tratar de uma dor no pulso. Tratei-o por mais de dez dias, mas ele não melhorava. Intrigado, perguntei-lhe sobre sua fé, e ele me disse que há mais de vinte anos era devoto de uma certa divindade. Disse-lhe que essa era a causa de seu mal e o fiz parar de venerá-la. A partir do dia em que parou, começou a melhorar gradualmente e, em cerca de uma semana, estava completamente curado. Histórias como essa não são raras. A veneração a falsos deuses e divindades equivocadas muitas vezes causa problemas como mãos que não se movem, dores ou joelhos que não dobram. Isso se deve, sem dúvida, ao pecado de venerar o que não é correto.
-
-Como se pode ver por esses exemplos, os pecados e impurezas adquiridos não devem ser subestimados. Aqueles que sofrem com doenças e infortúnios devem refletir sobre seus pecados e, se descobrirem seus erros, devem se arrepender e se corrigir o mais rápido possível.
-
-Há ainda uma outra causa, que é a toxina da varíola atenuada, como explico no artigo sobre a vacinação. Portanto, as principais causas das doenças são, sem dúvida, os pecados e impurezas congênitos, os pecados e impurezas adquiridos e a toxina da varíola.
-
-## O Método e o Princípio da Alimentação
-
-O método de alimentação preconizado pela medicina atual está eivado de erros. O primeiro deles é a determinação de horários fixos para as refeições. O segundo é a determinação de quantidades fixas de alimentos.
-
-Os próprios nutricionistas admitem que o tempo de digestão varia conforme o tipo de alimento. Alguns são digeridos em três horas, enquanto outros levam mais de cinco. Portanto, se estabelecermos intervalos fixos entre as refeições, acabaremos por comer com fome demais ou sem fome alguma, o que não condiz com a realidade. O mais racional é comer mais cedo quando se tem fome e mais tarde quando não se tem. Pelo mesmo motivo, o ideal é não determinar a quantidade. Comer mais quando se tem fome e menos quando se está satisfeito é o mais racional e natural. Se ajustarmos nossa alimentação dessa forma, o estômago e os intestinos se manterão sempre saudáveis, sem sombra de dúvida. É o mesmo princípio de vestir um casaco e se aquecer perto do fogo quando está frio, e vestir um quimono leve e tomar água gelada quando está calor. O ser humano, que tanto se preocupa em se ajustar ao frio e ao calor e a tantas outras coisas, por que razão insiste em não ajustar sua alimentação, mantendo-a fixa? É algo verdadeiramente intrigante. Percebe-se que a causa disso reside nos equívocos da própria medicina.
-
-Contudo, para aqueles que, por suas circunstâncias, como os que trabalham com horários fixos, não podem ajustar os horários das refeições, não resta outra alternativa senão ajustar, ao menos, a quantidade de alimentos. Mas aqueles que têm a possibilidade de fazê-lo, devem, sem dúvida, adotar essa prática.
-
-Ademais, o homem de hoje tem ideias extremamente equivocadas sobre a alimentação. Diz-se que tal alimento é remédio e tal outro é veneno, e, com isso, deixam de comer o que desejam e se forçam a comer o que não querem – um grande erro. Em sua essência, todos os alimentos foram criados pelo Deus Criador para nutrir o ser humano. Portanto, cada um deles contém os nutrientes necessários ao corpo. E há um método muito mais simples e preciso para medir esses nutrientes do que a ciência ou os tubos de ensaio: o desejo que a própria pessoa sente de comer determinado alimento em determinado momento. Por que surge esse desejo? Porque, naquele momento, o corpo precisa daquele alimento. Não há, portanto, máquina mais precisa para essa medição. É como sentir sede e desejar água, o que ocorre porque o corpo está com falta de líquidos. Assim, não ter vontade de comer ou achar algo sem sabor significa que aquele alimento não é necessário naquele momento. Forçar-se a comê-lo será mais veneno do que remédio. Quando se está satisfeito, mesmo o prato mais apetitoso não desperta o desejo, o que significa que, naquele momento, nenhum alimento é necessário.
-
-Portanto, o método de alimentação mais ideal é comer o que se deseja, quando se deseja e na quantidade que se deseja. Ao menos os doentes deveriam se esforçar para seguir essa prática.
-
-Nos últimos tempos, tem-se evitado dar aos doentes alimentos estimulantes como a mostarda, o que também é um grande erro. Se Deus os criou, é porque são necessários ao corpo. Sabores picantes e aromáticos estimulam o apetite. A medicina atual também restringe o sal para certas doenças e proíbe o açúcar para outras, o que também é um equívoco. É verdade que, a princípio, pode haver uma melhora, mas, com o tempo, ocorre um efeito reverso: o corpo enfraquece e a doença se agrava.
-
-Gostaria de falar agora sobre a mastigação. Diz-se comumente que quanto mais se mastiga, melhor, e muitas pessoas acreditam nisso, mas também é um erro. Fiz uma experiência a esse respeito. Há cerca de vinte anos, havia um americano chamado Fletcher, que criou o método de alimentação conhecido como Fletcherismo. A ideia era mastigar o máximo possível, até que o alimento se tornasse uma pasta. Na época, o método se tornou bastante popular, e eu o pratiquei por cerca de um mês. No início, senti-me muito bem, mas, com o passar do tempo, senti meu estômago enfraquecer gradualmente e, com isso, uma sensação de fraqueza no corpo. Achei que não era bom e voltei ao meu antigo método de alimentação. Imediatamente, recuperei minhas forças. Com essa experiência, aprendi que mastigar demais enfraquece o estômago e é um grande erro. Qual seria, então, a medida ideal? Mastigar pela metade. E, praticando isso, meu estômago e meus intestinos se tornaram extremamente saudáveis desde então.
-
-É preciso também ter um conceito sobre os alimentos. Aqueles que são abundantes, como peixes e vegetais, devem ser consumidos em grande quantidade, e aqueles que são escassos, em pequena quantidade. Por exemplo, no verão, as berinjelas são extremamente abundantes, e o edamame (soja verde) só está disponível nessa estação. Portanto, para a saúde, o ideal é consumir o máximo possível de berinjela e edamame no verão. Diz-se que a berinjela causa catarro, mas, na verdade, ela tem a propriedade de eliminar as impurezas do corpo. No outono, deve-se comer o máximo de caqui possível. Diz-se que o caqui "esfria" o corpo, mas, na verdade, ele tem um poder de limpeza, o que resulta em uma maior eliminação de urina. Pelo mesmo princípio, o saury e os cogumelos matsutake do outono, as tangerinas e o mochi (bolinho de arroz) do inverno, e as verduras e os brotos de bambu da primavera são todos benéficos.
-
-Gostaria de fazer uma observação especial sobre o umeboshi (ameixa em conserva). Ele é absolutamente contraindicado para os doentes. O umeboshi era, originalmente, usado como provisão em tempos de guerra, pois sua digestão é lenta, o que permite que uma pequena quantidade sacie a fome por mais tempo. É bom para lanches em caminhadas, para evitar a fome, mas é extremamente prejudicial para os doentes, que têm pouca atividade física. Sua acidez excessiva interfere muito na digestão.
-
-## A Função Digestiva é um Grande Químico
-
-Nos últimos tempos, a ciência da nutrição parece ter progredido muito, e as pessoas acreditam nisso. Mas, na verdade, longe de progredir, ela se desviou para uma direção completamente equivocada, o que é, do ponto de vista da saúde pública, verdadeiramente lamentável. A causa disso reside nos erros crassos cometidos nas pesquisas sobre a função digestiva, que tem a relação mais íntima com a nutrição.
-
-Segundo o conhecimento da ciência da nutrição atual, uma vez que o alimento passa pela atividade da função digestiva, sua substância original permanece inalterada. Os nutricionistas acreditam, portanto, que a ingestão de alimentos nutritivos aumenta o sangue e as células, que comer carne aumenta a massa muscular e que beber sangue de animais aumenta o sangue, e recomendam veementemente essas práticas aos doentes. Trata-se de uma interpretação extremamente simplista, que aplica diretamente aos seres humanos os resultados de pesquisas feitas em tubos de ensaio, com porquinhos-da-índia e camundongos. Contudo, o que não sabem é que a função digestiva é um químico formidável, capaz de transformar todos os alimentos.
-
-Gostaria de expor aqui minhas pesquisas sobre o assunto. A atividade da função digestiva não apenas digere tudo, como também transforma livremente a substância original dos alimentos nos nutrientes necessários.
-
-Um exemplo análogo é o do solo. Suponhamos que se semeie uma minúscula semente na terra. Sob a influência do calor do sol, do orvalho da lua, da água da chuva e dos nutrientes do ar, ocorre uma transformação maravilhosa. Surgem belas folhas verdes, depois um botão e, por fim, desabrocha uma flor delicada. Quem poderia imaginar que uma semente de papoula, tão pequena e insignificante, se transformaria em uma flor tão bela? O mistério da vida e sua capacidade de transformação são verdadeiramente assombrosos. A natureza é, de fato, um grande químico.
-
-O mesmo ocorre com os alimentos. Ao passarem pelo esôfago e chegarem ao estômago e aos intestinos, a atividade de cada um desses órgãos vai transformando gradualmente o alimento. O mistério dessa força de transformação é insondável pela inteligência humana, de uma engenhosidade extrema. E, no final, tudo se converte nos elementos necessários à vida, como o sangue, as células e o plasma. O sangue, de cor vermelha, é, obviamente, o resultado da transformação do arroz branco e das verduras verdes. E a base principal dessa transformação são, sem dúvida, o estômago e os intestinos.
-
-Portanto, a atividade essencial dessas funções digestivas é a força que transforma a matéria. Seja um alimento considerado nutritivo ou não nutritivo pelo homem, o químico que existe dentro do corpo o transforma livremente nos elementos que constituem a vida, e na quantidade necessária. É uma força prodigiosa e maravilhosa.
-
-Contudo, os nutricionistas de hoje não conseguem reconhecer essa força de transformação. Isso porque acreditam que as funções de um tubo de ensaio ou de um porquinho-da-índia são as mesmas que as de um ser humano, sem perceber que há uma diferença abissal entre eles. Pensemos um pouco: o ser humano não é um porquinho-da-índia, e seus órgãos internos são completamente diferentes do interior de um tubo de ensaio. O ser humano é, em última análise, uma existência espiritual superior e especial. Vejamos uma analogia de outro campo. Uma política que deu bons resultados com os nativos da África não terá sucesso se aplicada da mesma forma a uma nação de alta cultura. E a diferença entre um homem culto e um nativo é apenas a cor da pele, branca ou negra; como seres humanos, são idênticos. Se é assim, como poderia algo que funcionou com um porquinho-da-índia ser adequado para um ser humano? É tão óbvio que chega a ser estranho que ainda não tenham percebido. Por isso, por mais que se dediquem dia após dia, por décadas, a pesquisar porquinhos-da-índia, provavelmente jamais encontrarão a solução. Ao ver esses cientistas, sentimos até mesmo pena.
-
-É natural que uma ciência da nutrição tão simplista, a ponto de igualar seres humanos e porquinhos-da-índia, não perceba a força de transformação do estômago e dos intestinos.
-
-O nutricionista que não conhece a força de transformação dos órgãos pensa que, se há falta de uma vitamina, basta administrá-la. A falta de uma vitamina pode ser devida a uma falha na função que transforma uma certa substância em vitamina. Ou pode ser devida à falta dessa certa substância. Portanto, a falta de uma vitamina não significa que não se a está ingerindo. Pode-se dizer que é devida à falta da substância que se transforma em vitamina.
-
-Gostaria de voltar ao exemplo do solo e da flor. A bela flor nasce porque se semeia uma semente feia e disforme, que o solo transforma. Se enterrarmos a flor diretamente no solo, ela não florescerá. Pelo contrário, ao se deparar com a força de transformação do solo, a flor murchará, se tornará um lixo fétido e, por fim, retornará à terra. Da mesma forma, se ingerirmos alimentos que se assemelham a sementes feias, sem aparência nutritiva e muito diferentes da vitamina ou do sangue, a força de transformação do estômago e dos intestinos os transformará em vitaminas, sangue e carne de excelente qualidade.
-
-Aplicando esse princípio à nutrição, tudo se torna mais claro. Se ingerirmos vitaminas, sangue, suplementos e nutrientes já prontos, como se fossem flores, a força de transformação do estômago e dos intestinos os transformará, assim como a flor enterrada no solo se transforma em lixo, em fezes e urina. É algo perfeitamente evidente.
-
-De fato, o solo e o estômago são químicos formidáveis.
-
-(20 de fevereiro de 1936)
-
-## A Nova Arte Médica Japonesa e os Equívocos da Medicina Existente
-
-O que é, afinal, a doença? É o processo de purificação do corpo humano. Poderíamos até dizer que o ser humano mantém sua saúde graças à existência da doença.
-
-As impurezas resultantes dos diversos atos da vida, as toxinas dos alimentos, a toxina da varíola atenuada proveniente da vacinação, a intoxicação por medicamentos e tantos outros venenos que se acumulam, seja de forma evitável ou inevitável, consciente ou inconsciente, são, até certo ponto, inevitáveis. E quando a quantidade acumulada ultrapassa um certo limite, é imprescindível que seja eliminada para que a saúde do corpo seja mantida.
-
-Esse é o processo de purificação natural do corpo. O excesso de toxinas que precisa ser eliminado se concentra em alguma parte do corpo e, a partir dali, busca ser expelido. A doença é a dor sentida no processo em que essas toxinas, concentradas em uma determinada área, tentam ser expelidas para o exterior.
-
-Portanto, quando as toxinas presentes no sangue, como resultado da purificação natural, se transformam em pus e são expelidas, é necessário dissolver esse pus para facilitar a eliminação. O pus tem a propriedade de se solidificar na temperatura corporal ou em temperaturas mais baixas. Para dissolvê-lo, é imprescindível uma temperatura superior à do corpo. É para isso que serve a febre. E a dor é o trabalho de eliminação do pus. Assim, através da dor e da febre, o objetivo de eliminar as toxinas é alcançado, e a saúde é mantida.
-
-O mesmo se aplica ao sangramento na tuberculose pulmonar, nas hemorroidas, etc. O excesso de sangue impuro que precisa ser eliminado utiliza o órgão de eliminação, que é o pulmão ou o ânus. Por isso, na tuberculose, quanto maior a quantidade de sangue expectorado, melhor o processo de purificação. Não há, portanto, motivo para temer. Pelo contrário, deve-se ficar feliz e deixar que o processo siga seu curso. Posso afirmar categoricamente que, após isso, a saúde melhora consideravelmente. A medicina, que desconhece esse princípio, interpreta erroneamente o sangramento e a febre como um agravamento da doença e, com grande temor, tenta interrompê-los. Com isso, o processo de purificação, que deveria ocorrer, não se completa, e a doença se prolonga, dificultando a recuperação da saúde. Além disso, o aumento do sangue impuro devido ao uso de medicamentos acelera o agravamento da doença.
-
-Por esses motivos, os fenômenos da doença não são, de forma alguma, prejudiciais à saúde. Pelo contrário, são um processo de purificação. Ao compreender isso, percebe-se que, longe de ser temida, a doença é motivo de grande alegria.
-
-Portanto, o tratamento das doenças até hoje não tem sido a cura, mas sim o seu retardamento e agravamento.
-
-(21 de abril de 1936)
-
-## Dor e Febre
-
-Para que serve a dor? A medicina também não sabe. Como sempre digo, é o trabalho do próprio corpo para eliminar a doença que estimula os nervos. Se deixada em paz, a cura ocorre surpreendentemente rápido. Contudo, por desconhecerem esse princípio, aplicam-se compressas de gelo, pomadas, injeções, emplastros, etc. Tudo isso, sem exceção, obstrui a cura. É verdade que a dor alivia, em maior ou menor grau, mas a cura se prolonga enormemente, e há casos em que surgem complicações inesperadas, que podem até mesmo levar a risco de vida. Ademais, quanto mais intensa a dor, mais vigoroso é o processo de cura, de modo que a dor aguda raramente dura muito tempo.
-
-Com a nossa terapia, contudo, a eliminação de toda e qualquer dor é surpreendentemente rápida e, além de não ser um tratamento sintomático, mas sim fundamental, a eliminação da dor significa a cura completa da doença.
-
-Quanto à causa da febre, a medicina ainda não a desvendou, e as teorias dos diversos especialistas são conflitantes e não chegam a um consenso.
-
-O que é, então, a febre? Ela desempenha um papel de extrema importância no processo de cura natural. O coração absorve o elemento fogo, ou seja, o calor do sol, do Mundo Espiritual e o fornece na quantidade necessária para eliminar a doença. Durante a febre, os batimentos cardíacos acelerados e numerosos indicam o auge dessa atividade. O calafrio que precede a febre ocorre porque o coração se concentra em fornecer calor à área afetada, diminuindo temporariamente o fornecimento de calor ao resto do corpo. É como em uma guerra, quando se concentra as tropas em um determinado ponto, o posicionamento geral das tropas é temporariamente negligenciado.
-
-As pessoas costumam perguntar: "Onde se esconde a febre da doença quando estamos saudáveis? Não se encontra em lugar nenhum um reservatório de calor". É uma pergunta pertinente. Contudo, a razão para isso, como explicado acima, era desconhecida. O coração é o intermediário do calor, e o calor em si preenche o Mundo Espiritual de forma inesgotável. Por isso, a febre necessária para a cura pode continuar por centenas de dias.
-
-No processo de cura, a febre é o elemento de maior mérito. Ela dissolve o acúmulo de todo tipo de pus e a solidificação do catarro, além de matar os germes. Portanto, terapias que visam baixar a febre obstruem completamente a cura natural.
-
-Contudo, os médicos argumentarão: "A doença original pode ser curada pela febre, mas a febre alta pode causar outras complicações, como afetar o cérebro, o que representa um risco de vida". Através de inúmeras experiências, contudo, aprendi que esse temor é infundado.
-
-Por isso, mesmo em um resfriado, se deixarmos a febre seguir seu curso, a cura ocorre de forma extremamente tranquila e rápida. A complicação do resfriado, tão comum, ocorre porque, por desconhecerem esse princípio, tenta-se baixar a febre, que é o elemento crucial. E o fato de a tuberculose pulmonar ter uma evolução desfavorável e levar tanto tempo para ser curada se deve, em grande parte, ao erro do uso de antitérmicos.
-
-Há também a preocupação de que a febre aumente a fraqueza. Mas isso também é um equívoco. É verdade que a fraqueza aumenta, mas é preciso saber que a fraqueza decorrente do agravamento da doença causado pela supressão da febre é muito maior.
-
-## O Equívoco da Inalação de Oxigênio
-
-A aplicação da inalação de oxigênio em pacientes em estado grave tornou-se uma prática comum, mas é um grande erro, pois, na verdade, é prejudicial à doença. O ar que o ser humano respira incessantemente, dia e noite, é uma dádiva do Céu, uma mistura perfeitamente equilibrada de oxigênio, nitrogênio, hidrogênio, etc. Portanto, o simples bom senso nos mostra o equívoco de se absorver apenas oxigênio. Se uma pessoa saudável fizesse inalação de oxigênio, sua saúde certamente seria afetada, ainda que minimamente. Que dirá, então, de uma pessoa doente.
-
-Recentemente, houve uma descoberta muito interessante a esse respeito. Diz-se que voar de avião é eficaz no tratamento de resfriados. Essa teoria foi recentemente proposta pelos médicos londrinos Dr. P. Boulton e Dr. E. F. Knott. Segundo eles, um voo de cerca de trinta minutos a uma altitude de dez mil pés é capaz de curar instantaneamente um resfriado em seu estágio inicial. A explicação é que, como o oxigênio é rarefeito, os tecidos do corpo iniciam uma atividade para obtê-lo.
-
-Disso se pode inferir que a inalação de oxigênio tem, na verdade, um efeito contrário. Não seria de se estranhar, portanto, que, em breve, surja uma teoria defendendo que a inalação de oxigênio é prejudicial. E o resultado será, sem dúvida, a conclusão de que o melhor é respirar o ar natural. É algo mais claro do que a luz do dia.
-
-## Os Malefícios dos Medicamentos
-
-Ao adoecer, a pessoa corre imediatamente para o médico em busca de tratamento. E o médico, em primeiro lugar, prescreve um tratamento medicamentoso, que pode ser oral, injetável ou tópico. Este é o erro fundamental no tratamento. Pois, como já foi dito repetidas vezes, a causa da doença se origina no corpo espiritual e só depois se manifesta no corpo físico. Os medicamentos, embora possam ter algum efeito no corpo físico, são totalmente ineficazes no corpo espiritual, servindo apenas para suprimir externamente o fenômeno que se manifestou.
-
-A área afetada, que é o resultado da projeção da mácula do corpo espiritual, é um acúmulo de impurezas. E a doença é o processo pelo qual essas impurezas são expelidas para fora do corpo através da purificação natural. Portanto, o sofrimento da própria doença é o que leva à cura. Tentar suprimir os fenômenos da doença com medicamentos ou outros métodos é, em si, uma obstrução da cura natural.
-
-O sangue humano deve ser mantido em absoluta pureza. Se o sangue for puro, a pessoa jamais será acometida por doenças. A mácula do corpo espiritual se torna a impureza do sangue, e o processo de purificação dessa impureza é a doença. Disso se compreende a importância de manter o corpo espiritual puro. O fato de que o sangue puro tem um forte poder bactericida significa, por outro lado, que, mesmo que os micróbios, que são os faxineiros do sangue humano, penetrem no corpo, se não houver impurezas, não haverá necessidade de limpeza, e eles não conseguirão se proliferar, acabando por morrer.
-
-Portanto, a ação dos medicamentos, além de obstruir a cura, deixa resíduos que são absorvidos pela corrente sanguínea, tornando o sangue impuro. Isso fica evidente ao se observar a pele de pessoas que usam medicamentos há muitos anos. Sua pele é pálida, sem brilho nem elasticidade, parecendo a de um idoso, mesmo em tenra idade. Se suspendermos o uso de medicamentos nesses pacientes, a purificação natural, com o passar do tempo, eliminará a intoxicação medicamentosa, e eles recuperarão a vitalidade, sua pele voltará a ter brilho e a saúde será restabelecida. É verdadeiramente espantoso que nem os especialistas nem os pacientes tenham se dado conta disso até hoje.
-
-Ademais, o efeito reverso dos medicamentos é algo a ser temido. Trata-se do resultado oposto ao objetivo do uso do medicamento. Por exemplo, para a má digestão, usa-se um digestivo. A princípio, o efeito é excelente, e a digestão melhora. Com isso, tanto o médico quanto o paciente acreditam erroneamente que o estômago se fortalecerá e a má digestão será curada. Mal sabem eles que, após o efeito temporário, a má digestão se agrava. E por que isso ocorre? O estômago existe, em sua essência, como um órgão para a digestão dos alimentos. O correto é que ele digira através de seu próprio trabalho, pois foi assim que o Deus Criador o fez. E o que se faz? Tenta-se usar a força de um medicamento. Se o medicamento digere o alimento, o estômago não precisa trabalhar e, naturalmente, sua atividade enfraquece e atrofia.
-
-Portanto, quanto mais se usa um medicamento para o estômago, mais ele atrofia, o que agrava a má digestão. Para compensar essa má digestão, usa-se mais medicamento, o que, por sua vez, agrava ainda mais a má digestão. Por esse ciclo vicioso, a doença acaba se tornando grave. Em minhas experiências, ao suspender o uso de medicamentos para o estômago em pacientes com falta de apetite ou má digestão, os sintomas desaparecem gradualmente, para a surpresa do paciente.
-
-Há ainda algo mais grave. O digestivo amolece e dissolve o alimento, o que seria bom se se restringisse ao alimento. Mas ele tem o mesmo efeito sobre a parede do estômago, e é isso que é mais temível. A parede do estômago, amolecida pelo uso contínuo de digestivos, pode se romper com o simples contato de um alimento sólido. Essa ruptura causa o extravasamento de sangue, que resulta em vômito com sangue, fezes com sangue e dor. É isso que é a úlcera gástrica. Portanto, a causa da úlcera gástrica é o uso contínuo de medicamentos para o estômago, e o equívoco da medicina ocidental, que tenta curar a úlcera com medicamentos, é verdadeiramente assustador.
-
-O mesmo princípio se aplica à prisão de ventre e a outras doenças, por isso não me estenderei sobre elas. Em suma, é preciso conhecer o quão terrível é o efeito reverso dos medicamentos. Especialmente em recém-nascidos, as injeções e o uso de medicamentos podem causar atraso ou até mesmo a interrupção do desenvolvimento. Isso porque o uso de medicamentos é, em si, a injeção de uma substância impura. Fiquei muito feliz ao saber que, recentemente, alguns médicos descobriram isso e, no caso de bebês, não usam medicamentos, aplicando apenas a terapia alimentar.
-
-## Injeção
-
-Nos últimos tempos, o número de tipos de injeções aumentou consideravelmente. Falarei sobre elas dentro do que conheço.
-
-As injeções para alívio da dor, como no caso de cólicas estomacais ou intestinais, de fato, eliminam a dor temporariamente. Contudo, elas não curam a doença que causa a dor, mas apenas paralisam temporariamente os nervos que a sentem. Durante esse estado de paralisia, a doença em si é curada naturalmente. Portanto, como a causa da doença não é eliminada, embora haja uma aparente melhora, a reincidência após um certo tempo é inevitável.
-
-No caso da asma, a injeção cessa rapidamente a tosse e o chiado, a ponto de parecer que a pessoa está completamente curada, sem diferença alguma de quando está saudável. Contudo, após meio dia ou dois ou três dias, a crise volta. Uma característica do efeito dos medicamentos é que sua duração diminui gradualmente, de três dias para dois, de dois para um, até que a pessoa se torna completamente dependente, um intoxicado por medicamentos. A asma original, não apenas persiste, como tende a se agravar gradualmente. Pois a causa da asma é o acúmulo de pus líquido sob o diafragma, e o chiado e a tosse são o fenômeno de sua eliminação natural. Ao se suprimir a tosse com a injeção, o processo de eliminação do pus é interrompido durante esse período, o que, logicamente, agrava a doença.
-
-Para recuperar a fraqueza e fortalecer o corpo, aplica-se a injeção de cálcio. Ela, de fato, aumenta o apetite e o peso por um tempo, dando a impressão de que a saúde melhorou. Mas isso é um efeito artificial e temporário. Ao se interromper a injeção, a pessoa não apenas volta ao estado de fraqueza anterior, como, devido ao efeito rebote, sua fraqueza se acentua. Ademais, após cerca de um a quatro ou cinco anos, surgem erupções cutâneas por todo o corpo ou em partes dele, semelhantes a urticárias, que causam uma coceira intensa. Trata-se, sem dúvida, de uma intoxicação por cálcio. E é verdadeiramente espantoso que nem as faculdades de medicina nem os grandes nomes da área percebam isso. Para esses sintomas, aplicam-se pomadas, injeções, medicamentos orais, terapias alimentares, etc., mas, como a causa da doença é outra, não surtem efeito algum. O paciente passa dois, três meses, meio ano, um ano, trocando de médicos e hospitais, gastando uma fortuna em tratamentos e, ainda assim, não se cura. Vejo não poucos pacientes nessa situação lastimável. Curei uma senhora de cerca de trinta anos que tinha essa erupção de intoxicação por cálcio no rosto há quatro ou cinco anos. Ela havia tentado de tudo, sem sucesso, e, como era jovem, mal podia sair de casa, vivendo em constante angústia. Era uma situação digna de compaixão. Essa paciente foi curada com três sessões e, até hoje, é extremamente grata.
-
-A eficácia das injeções para doenças como o derrame ou a neuralgia é, por ora, totalmente questionável. Nunca vi ninguém ser curado dessas doenças por injeções. Pelo contrário, vejo inúmeros pacientes em situação lastimável que, devido à intoxicação pelos medicamentos das injeções, sofrem com um fardo adicional, além da doença original. Nesses pacientes intoxicados, quanto maior o número de injeções, mais intensa é a dor e mais difícil é a cura. Por isso, ao prever a duração do tratamento, levo em conta a existência ou não de injeções e seu número. E, obviamente, quanto mais injeções, mais tempo leva o tratamento. Entre os pacientes que tratei, o recorde foi de setecentas injeções em dois meses e meio.
-
-Quanto à injeção para o beribéri, também nunca ouvi falar de ninguém que tenha sido curado por ela. E, do ponto de vista teórico, é impossível que se cure com injeções de medicamentos. Pois a causa do beribéri é uma espécie de toxina que se espalha por uma camada muito superficial da pele. A única solução é eliminar essa toxina. E essa toxina, como dizem os médicos, é, de fato, a intoxicação pelo arroz branco. A causa da intoxicação pelo arroz branco é a remoção total do farelo. Portanto, o consumo de farelo é o método mais simples, barato e eficaz para a cura completa. Por que, então, recorrer a medicamentos e injeções, que causam dor, transtorno e despesas? Com a nossa terapia, contudo, casos comuns são curados em duas ou três sessões, e os mais graves, em até dez.
-
-Há algo a que se deve prestar muita atenção. Muitos médicos confundem o beribéri causado pela intoxicação por arroz branco com um pseudo-beribéri causado pela uremia decorrente da atrofia renal. Trata-se de um erro de diagnóstico muito comum. São duas doenças completamente diferentes, e essa confusão pode levar a consequências terríveis.
-
-Houve o caso de uma paciente, uma senhora da alta sociedade, de cerca de quarenta anos, que não conseguia andar há dois ou três anos. Ela conseguia se arrastar para tomar banho e se sentar para comer, mas, ao ser examinada pelo diretor de um dos maiores hospitais do Japão, um renomado doutor, foi diagnosticada com beribéri. Ele lhe disse que ficaria curada com sessenta injeções. Por volta da quadragésima injeção, ela ficou completamente impossibilitada de se mover, não conseguia nem mesmo se virar na cama, como se estivesse colada ao leito. Assustada, recusou-se a continuar com as injeções. Contudo, seu estado não melhorou e, cerca de um ano depois, fui chamado para examiná-la. Fiquei chocado ao ver seu estado e ouvir seu relato. Tratava-se de um caso de pseudo-beribéri urêmico, diagnosticado erroneamente como beribéri por intoxicação por arroz branco. A impossibilidade de se mover era, sem dúvida, resultado da intoxicação pelas injeções. Para curar essa paciente, a única solução seria eliminar o medicamento das injeções, mas isso não seria possível em um curto período. A única alternativa era esperar que o metabolismo do corpo o eliminasse naturalmente. Expliquei-lhe a situação detalhadamente e, por ora, me retirei. É uma infelicidade digna de compaixão, seja pela ignorância da medicina ou por um erro de diagnóstico, mas senti na pele o quão terrível pode ser a terapia por injeção.
-
-As injeções para a coqueluche em crianças também são um grande erro. A causa da coqueluche é uma toxina que o ser humano possui desde o nascimento. Se essa toxina não for eliminada, ela se torna um obstáculo ao desenvolvimento e à saúde. A coqueluche é o trabalho de eliminação dessa toxina. O período necessário para essa eliminação é de cem dias, daí o nome "tosse dos cem dias". A toxina é eliminada através da tosse, na forma de um líquido branco e espumoso. Quando a quantidade é grande, é expelida através do vômito. Portanto, a tosse é o meio de eliminação da toxina e, nesse caso, é extremamente necessária. Contudo, os médicos se esforçam para aliviá-la. Se a tosse for aliviada, a quantidade de toxina eliminada diminui, e a cura se retarda. Se deixada à vontade, a doença seria curada em cerca de cem dias, mas, devido ao tratamento, pode se prolongar por meio ano ou até um ano. E, devido a esse tratamento equivocado, não é raro que a criança se torne um doente crônico de tosse ou mesmo um doente pulmonar por meses ou anos. Disso se vê o quão terrível é o malefício das injeções, decorrente da incompletude da medicina.
-
-Também não posso concordar com as injeções para a disenteria infantil. Pois conheço muito mais casos de crianças que perderam a vida por causa das injeções do que as que se salvaram. Vejo com frequência casos de bebês de poucos meses que morreram após receberem dezenas de injeções.
-
-As injeções para difteria, pneumonia, erisipela, furúnculos, etc., também não têm muitos relatos de bons resultados.
-
-Apenas as injeções para hemorroidas e sífilis apresentam um certo grau de eficácia, mas mesmo essa eficácia é incomparavelmente inferior à da nossa terapia.
-
-Existem, certamente, muitos outros tipos de terapias por injeção, mas, como são, em geral, semelhantes, podem ser inferidas a partir do que foi dito.
-
-Em suma, a verdade sobre os prós e contras da injeção é que, embora tenha um efeito temporário, no final, há o risco de agravar a doença. Portanto, do ponto de vista da cura fundamental, é melhor não recorrer a injeções.
-
-## O Tratamento Médico que Agrava a Doença
-
-Como já foi dito, o tratamento médico moderno não cura a doença, mas a retarda e agrava. Gostaria de aprofundar esse ponto.
-
-Suponhamos que uma pessoa adoeça e procure um médico. O tratamento consistirá em baixar a febre, suprimir a tosse, dissipar o inchaço, aplicar pomadas para a dor, compressas úmidas ou frias na área afetada, etc.
-
-Todos esses são métodos para aliviar o sofrimento, mas, na verdade, obstruem a cura. Tentar aliviar os fenômenos da doença, que são um processo de purificação, é, em si, uma obstrução da cura.
-
-Mas há um erro ainda maior. É a tentativa de fortalecer a resistência à doença através da ingestão de alimentos considerados nutritivos, como os de origem animal. Isso torna o sangue impuro, ou seja, é um método de aumentar o sangue tóxico. O sangue tóxico tem um poder bactericida fraco e pouca resistência à doença, o que, como resultado, agrava a doença.
-
-As injeções e o uso de medicamentos também tornam o sangue extremamente impuro. Especialmente no caso das injeções, qualquer que seja ela, ao entrar na corrente sanguínea, é vista pelo sangue como a invasão de uma substância impura. O sangue, ao se deparar com essa invasão, tem sua função original de purificação enfraquecida, o que é natural. Como resultado, os fenômenos da doença recuam temporariamente, dando a impressão de que a cura está ocorrendo. Explico isso em detalhes mais adiante, no item sobre a terapia de toxinas, por isso omitirei aqui. De qualquer forma, como já foi dito, a nutrição com carne animal e a impureza do sangue causada pelos medicamentos aceleram o agravamento da doença. É por essa razão que, hoje em dia, quando se adoece, a cura é lenta, e surgem outras doenças. É verdadeiramente assustador o quão equivocada é a arte médica e quão ignorantes são os tratamentos que dela derivam.
-
-(22 de abril de 1936)
-
-## Saúde e Fraqueza
-
-Se a doença em si é o processo de purificação do corpo, então, quanto mais saudável a pessoa, mais vigorosa é sua força de purificação. Em outras palavras, poderíamos dizer que é a saúde que gera a doença.
-
-Vejamos quatro tipos de constituição física. Comecemos pelo primeiro tipo. Ninguém está livre de toxinas no corpo. Além disso, diariamente, acrescentamos mais um pouco, e, quando a quantidade ultrapassa um certo limite, elas são expelidas pela força de purificação natural. Esse processo, como já foi dito, é a manifestação da doença. Portanto, quanto mais saudável a pessoa, mais vigorosa é sua força de purificação. Assim, antes que as toxinas atinjam uma quantidade significativa, o trabalho de eliminação já começa, e tudo se resolve com um resfriado leve ou uma diarreia.
-
-No segundo tipo, a força de purificação é um pouco mais fraca. Por isso, a pessoa mantém uma saúde aparente até que as toxinas atinjam uma quantidade considerável. E, quando a doença finalmente se manifesta, é inevitável que não seja um caso leve.
-
-O terceiro tipo é o da pessoa bastante fraca. Mesmo que uma grande quantidade de toxinas se acumule, a falta de força de purificação impede que a doença se manifeste. É comum vermos pessoas que vivem à base de remédios, sem nunca terem uma doença grave, com o rosto pálido, quase como cadáveres ambulantes. A maioria se enquadra nesse caso.
-
-O quarto tipo é o da pessoa que, apesar de gozar de excelente saúde, morre subitamente, quase sempre de derrame cerebral. E por que isso ocorre? A grande quantidade de sangue tóxico enfraquece a força de purificação, mas os órgãos estão saudáveis. Portanto, a resistência às toxinas é forte, e a pessoa parece saudável. Contudo, por mais forte que seja a resistência, o sangue tóxico, ao atingir uma certa quantidade, precisa ser eliminado. Como os órgãos, com exceção do cérebro, são fortes, o sangue tóxico, sem ter para onde ir, busca ser eliminado pelo cérebro. É isso que causa o derrame. Se essa pessoa tivesse algum outro órgão fraco, como o estômago ou os intestinos, o sangue tóxico se acumularia ali, e, embora ela vivesse com problemas de saúde, evitaria a morte súbita e prolongaria sua vida por alguns anos.
-
-## A Equivocada Terapia de Toxinas
-
-Como já foi dito, a força da purificação depende da pureza do sangue. Portanto, quanto mais puro o sangue, mais vigorosa é a força de purificação, e essa é a verdadeira saúde. Pessoas nesse estado, embora adoeçam, sempre têm casos leves. Isso porque, como já explicado, as toxinas são eliminadas antes de se acumularem em grande quantidade. Portanto, mesmo que adoeçam, não têm febre e raramente contraem doenças contagiosas.
-
-Hoje em dia, mesmo entre as pessoas consideradas saudáveis, as do primeiro tipo são extremamente raras. A maioria das pessoas saudáveis se enquadra no segundo tipo. Quando uma pessoa desse tipo adoece, o uso de injeções, de medicamentos e o consumo de carne, considerada nutritiva, tornam o sangue impuro. A impureza do sangue enfraquece a força de purificação, o que reprime o ímpeto da doença, e os fenômenos da doença recuam temporariamente. O tratamento médico até hoje consistia em confundir isso com a cura. É por essa razão que as doenças consideradas curadas reincidem com frequência.
-
-O método do repouso absoluto, tão em voga nos últimos tempos, segue o mesmo princípio. A atrofia do metabolismo, a fraqueza do estômago devido à falta de exercício, etc., enfraquecem a força de purificação, o que interrompe temporariamente a manifestação da doença. A baixa da febre e a diminuição da expectoração de sangue e da tosse são erroneamente interpretadas como uma melhora da doença. Mal sabem eles que a impureza do sangue, devido ao retorno das toxinas, e a fraqueza dos órgãos, devido ao repouso absoluto, se somam, resultando em uma fraqueza geral acentuada, que, na maioria das vezes, leva à morte. Este é o maior equívoco do tratamento médico. O tratamento para a tuberculose é, em sua maioria, esse, e não é de se estranhar que a taxa de mortalidade seja alta.
-
-Vejamos alguns exemplos da interrupção da força de purificação.
-
-O salvarsan, considerado um remédio milagroso para a sífilis, ao ser injetado, melhora rapidamente os sintomas da doença. Parece que a pessoa está temporariamente curada. Contudo, esse medicamento é, em sua maioria, composto de arsênico, que é uma toxina. O sangue, impurificado por essa toxina, tem sua força de purificação enfraquecida. O fato de que seu inventor, Ehrlich, após inúmeras tentativas, só conseguiu completá-lo na 606ª vez, significa que ele conseguiu reduzir a toxina a um nível que não representasse risco de vida para o organismo. Portanto, a cura obtida com essa injeção é temporária, pois se trata da interrupção da força de purificação pela terapia de toxinas.
-
-No caso da asma, a injeção também tem um efeito notável, mas temporário, e nenhum poder de cura. Independentemente da teoria médica, trata-se, em suma, de uma terapia de toxinas baseada em uma paralisia temporária. A asma, em sua essência, é o acúmulo de pus líquido sob o diafragma, e a tosse, a expectoração e a dificuldade de respirar durante as crises são o fenômeno de sua eliminação. A paralisia causada pelo medicamento da injeção interrompe o processo de purificação. É por isso que, na prática, a pessoa desenvolve uma dependência semelhante à da morfina, e os sintomas de cianose e dificuldade de respirar se agravam.
-
-Na tuberculose pulmonar, quando há expectoração de sangue, aplica-se uma injeção para estancá-lo. Isso também é uma interrupção da força de purificação. O sangue tóxico, que deveria ser eliminado, é retido, o que, na verdade, não passa de uma obstrução da cura da doença.
-
-## Não Existe um Único Remédio que Cure a Doença
-
-Os próprios médicos devem sentir constantemente que os remédios não curam as doenças. Contudo, eles têm o efeito de aliviar a dor. Em suma, eles apenas suprimem a doença ou, através da paralisia, aliviam temporariamente a sensação de dor. O medicamento não é nada além disso. Mas, como sempre digo, a dor é o processo de cura da doença. Portanto, aliviar a dor significa, logicamente, retardar a cura. E, além disso, há a toxina residual do medicamento, o que representa uma desvantagem dupla. A impureza do sangue causada pelos medicamentos é algo a ser temido. Pois, qualquer que seja o medicamento, a impureza do sangue, em maior ou menor grau, é inevitável.
-
-O malefício da impureza do sangue é que ela enfraquece a força de purificação, o que diminui acentuadamente a vitalidade. Como resultado, a pessoa se torna mais propensa a adoecer, e a capacidade de cura da doença enfraquece. Isso porque o sangue impuro tem menor poder bactericida.
-
-Assim, os medicamentos, além de retardarem a cura e tornarem o sangue impuro, têm o benefício de aliviar a dor. Ao se comparar os prós e os contras, percebe-se que os contras superam em muito os benefícios.
-
-Apesar disso, o homem moderno usa medicamentos indiscriminadamente. Isso porque desconhece seus malefícios. É preciso que todos compreendam esse princípio o mais rápido possível. A alta taxa de morbidade, a baixa expectativa de vida e a lentidão da cura das doenças no homem moderno se devem, ao menos em parte, a isso. É algo incontestável.
-
-Pessoas que vivem à base de remédios, sem terem nenhuma doença específica, mas também sem nunca estarem saudáveis, podem, em sua maioria, ser consideradas intoxicadas por medicamentos. Se essas pessoas suspenderem o uso de medicamentos, sua saúde se restabelecerá gradualmente.
-
-Gostaria de bradar em alto e bom som: a saúde da nação começa com a abolição dos medicamentos!
-
-(21 de abril de 1936)
-
-## Matar ou Nutrir os Germes?
-
-O único método de cura da medicina ocidental é a eliminação dos germes. E os métodos de eliminação atuais são o uso de medicamentos e de raios de luz. Contudo, é evidente que é impossível eliminar os germes com qualquer medicamento sem afetar os tecidos. Mas, por não haver outro método, eles o praticam, mesmo sabendo de sua incerteza.
-
-Se fosse apenas a incerteza do efeito, ainda seria aceitável. Mas o que não sabem é que o método de eliminação dos germes, na verdade, promove a proliferação dos germes patogênicos e agrava a doença. É um perigo extremo.
-
-Vejamos, então, a razão para isso.
-
-Suponhamos que se tome ou se injete um medicamento com o objetivo de eliminar os germes. O sangue que absorve esse medicamento, obviamente, não conseguirá atingir o objetivo de eliminar os germes. Apenas se tornará impuro. No caso da tuberculose, por exemplo, o medicamento passa por diversos órgãos digestivos ou pelos vasos sanguíneos, e sua força bactericida enfraquece naturalmente com essa transformação. É impossível saber o quanto ela terá diminuído ao chegar à área afetada. É incomparável com a eliminação direta em um tubo de ensaio.
-
-Com o passar do tempo, a purificação contínua do sangue faz com que o medicamento se separe do sangue como uma toxina. E essa toxina, com o tempo, se transforma em pus, que se torna a causa de todas as doenças.
-
-Mas não é só isso. O sangue impurificado por uma substância estranha é extremamente perigoso, pois seu poder bactericida é muito fraco. Em outras palavras, o sangue impuro é propício à proliferação dos germes patogênicos. A afirmação, no início deste texto, de que os medicamentos agravam a doença, se deve a isso.
-
-## O Equívoco da Terapia Física
-
-Nos últimos tempos, os tipos de terapia física aumentaram, e os médicos a recomendam enfaticamente como um tratamento auxiliar. Gostaria de expor minha opinião sobre sua eficácia.
-
-Comecemos pela terapia de luz, a mais popular entre as terapias físicas. O rádio é o principal, seguido pelo raio X, pelos raios ultravioleta, pela lâmpada solar, etc. A eficácia dessas terapias é, na verdade, uma faca de dois gumes. Vejamos. Suponhamos que se queira tratar uma doença. O fenômeno da doença é o acúmulo de sangue impuro ou de pus. Ao se irradiar luz sobre essa área, de fato, parece que há uma melhora. Contudo, na verdade, não é a doença que melhorou, mas sim seu volume que diminuiu. Em termos simples, o volume da doença foi reduzido e solidificado. Se o volume da doença for dez, ele é reduzido para um ou três. Do ponto de vista do volume, de fato, houve uma redução de mais de sete, e, nesse sentido, houve uma melhora. Mas mal sabem eles que não foi a substância que diminuiu em sete, mas sim que dez foi reduzido e solidificado para menos de três. É como trocar cinquenta moedas de um centavo por uma de cinquenta.
-
-Em minhas experiências, ao examinar uma área afetada como essa com as pontas dos dedos, sinto-a como uma pedra. Nesse caso, encontro uma ou várias pequenas solidificações semelhantes a pedras. Uma vez que se chega a esse estado, a dissolução se torna extremamente difícil e, consequentemente, leva muito tempo. Portanto, se esse paciente não tivesse se submetido à terapia de luz, embora o volume fosse grande, por não estar solidificado, a cura seria fácil. Assim, embora tenha um efeito considerável no alívio temporário, no que diz respeito à cura completa, torna-se, na verdade, um grande obstáculo.
-
-A eficácia da terapia elétrica é muito semelhante, por isso omitirei a explicação.
-
-## Cirurgia
-
-Gostaria de detalhar a cirurgia, o procedimento mais eficaz da medicina ocidental. Tanto os especialistas quanto o público em geral acreditam que a cirurgia é um tratamento preciso, pois elimina a causa da doença. Contudo, ela está longe de ser perfeita. É, na verdade, um tratamento extremamente rudimentar. Cortar livremente os órgãos do corpo com um bisturi, causar dor ao paciente e, ainda por cima, deixar cicatrizes que são quase uma deformidade, além do risco envolvido – é um método verdadeiramente bárbaro. E pensar que isso é considerado um avanço é, de fato, lamentável. Mas, como não se descobriu um tratamento melhor, talvez seja inevitável. Mal sabem eles que a nossa Terapia do Poder de Kannon (観音) cura completamente, em pouco tempo e com facilidade, até mesmo os casos que exigiriam cirurgia. E, enquanto a cura pela cirurgia muitas vezes apresenta o risco de insucesso e de recidiva, a cura completa pela Terapia do Poder de Kannon (観音) é uma cura verdadeira, sem o risco de recidiva.
-
-Vejamos o exemplo da apendicite. Os médicos dizem que, se não for operada em vinte e quatro horas, há risco de vida, e operam. Por não haver um método melhor, é inevitável. Contudo, após a cirurgia, os resultados nem sempre são bons. Há casos em que a ferida leva dois ou três meses para cicatrizar, e, raramente, mesmo após dois ou três anos, continua a sair pus. E, mesmo que cicatrize, pode se formar um acúmulo de pus na área adjacente, com febre e dor, apresentando os mesmos sintomas da apendicite. Nesse caso, o médico recomenda uma nova cirurgia, mas, na prática, cirurgias repetidas aumentam o cansaço do paciente e podem até mesmo levar a risco de vida. E, para um tratamento tão ineficaz, que leva meses ou anos e custa centenas ou milhares de ienes, só se pode pensar o quão impotente é a medicina ocidental.
-
-Em contrapartida, com a nossa Terapia do Poder de Kannon (観音), a cura completa ocorre em uma a três sessões, sem risco de recidiva, e o custo é inferior a dez ienes. É uma diferença incomparável.
-
-A cirurgia para a pielonefrite é muito semelhante à da apendicite, por isso omitirei a explicação. Mas até mesmo os vários tipos de câncer, considerados os mais difíceis de curar pela medicina, têm resultados ruins com a cirurgia. Com a Terapia do Poder de Kannon (観音), contudo, a taxa de cura para todos os tipos de câncer é de noventa por cento. O câncer de útero, por exemplo, é curado completamente em duas ou três a seis ou sete sessões. O tumor se dissolve, é eliminado como diarreia, e não deixa nenhum vestígio.
-
-Além disso, a amigdalite, a otite média e a linfadenite são curadas em duas ou três a cinco ou seis sessões. A fístula anal, o bubão, etc., mesmo os casos graves, são curados completamente em uma a três semanas.
-
-A cirurgia para furúnculos e outros inchaços semelhantes é extremamente contraindicada. Para esses casos, o tratamento natural é o mais seguro e eficaz. Falando abertamente, a causa da morte nesses casos é, em sua maioria, a cirurgia. É algo que os próprios médicos deveriam perceber. Pois todo inchaço é o resultado da purificação natural, em que as toxinas do sangue se transformam em pus, e esse pus busca ser eliminado para fora do corpo. Se deixado à vontade, o inchaço amadurecerá completamente e, por fim, o pus será totalmente eliminado através de uma abertura na pele, e a cura ocorrerá sem deixar vestígios. Contudo, o médico faz a incisão antes que amadureça completamente. Como o pus não se acumulou o suficiente na área afetada, o trabalho de eliminação precisa continuar por vários dias. No tratamento natural, no momento da eliminação do pus, a parte interna da área afetada já está formando nova carne, de modo que, ao ser eliminado o pus, a cura ocorre rapidamente. Portanto, o tratamento natural é mais rápido do que a cirurgia. É verdadeiramente incompreensível que a medicina ocidental não perceba um fato tão óbvio. E o método do resfriamento com gelo, o único utilizado nesses casos, é um grande erro. Pois, ao se resfriar a área afetada, o acúmulo de pus é interrompido, o que obstrui a cura e a retarda enormemente.
-
-## Moxabustão
-
-Existem dois tipos de moxabustão: a tradicional, com a erva moxa, e a moxa térmica, bastante popular nos últimos tempos. Elas são, sem dúvida, mais eficazes do que a terapia medicamentosa, mas, como também se concentram no corpo, não são um tratamento completo, e o efeito, na maioria das vezes, é temporário. Ademais, o ser humano é a obra-prima da criação de Deus. A cor, o brilho, a maciez e a beleza das curvas de sua pele são incomparáveis com as de qualquer outro animal. A pele e as curvas da mulher, em especial, são o ápice da beleza. O fato de que os pintores ocidentais consideram o nu feminino o ápice da beleza é a mais pura verdade. Portanto, o ser humano deve, mais do que nunca, cuidar da pele que lhe foi dada por Deus e embelezá-la. Esse é o seu dever de gratidão a Deus e a expressão de seus mais sinceros sentimentos. E o correto é se esforçar para preservar essa beleza por mais um ano, mais um mês que seja.
-
-E o que se faz? Aplica-se a moxa, deixando marcas de queimadura feias e pontilhadas, que transformam a pessoa em uma espécie de deficiente para o resto da vida. O pecado de profanar a obra de arte de Deus certamente acarretará algum tipo de punição. Portanto, mesmo que o efeito curativo seja considerável, como se cria uma causa de sofrimento ainda maior, é impossível concordar com essa prática.
-
-## Os Cuidados com a Doença São Eficazes?
-
-Existem vários métodos de cuidados com a doença. Vejamos o resfriamento com gelo, as compressas, a inalação, os emplastros, as compressas de mostarda, etc. Explicarei cada um deles brevemente.
-
-1.  O resfriamento com gelo é o mais contraindicado. Mesmo em caso de febre alta, não se deve resfriar. Pois, ao se resfriar a área afetada, o processo de cura natural é interrompido. Por exemplo, na otite média, o pus, buscando ser eliminado, se infiltra no ouvido médio e tenta sair. A dor e a febre alta são para isso. Se, nesse momento, se resfria a área afetada, o pus, em vez de ir para o ouvido médio, muda de direção, migra para a parte de trás do cérebro e causa meningite. Um caso que se resolveria com a otite média acaba se complicando com a meningite, tudo por causa do resfriamento.
-
-    Suponhamos que se resfrie a apendicite. Sem o resfriamento, a febre alta dissolveria o acúmulo de pus, que seria eliminado como fezes, e a cura ocorreria. Mas, com o resfriamento, esse processo é interrompido, e a cura se complica enormemente. É isso que leva à necessidade de cirurgia.
-
-    O mesmo se aplica a outras doenças, com pequenas variações, por isso omitirei a explicação. Contudo, em caso de dor de cabeça devido à febre alta, o uso de uma bolsa de água fria não apresenta problemas.
-
-2.  Compressas: aquecer a área afetada, em qualquer doença, sempre tem algum efeito benéfico e, portanto, não é prejudicial. A aplicação em inchaços, dores de dente, etc., certamente acelera a cura. Pois é um calor artificial que se soma à febre, que deveria dissolver o acúmulo de pus, auxiliando, assim, a cura natural.
-
-3.  Inalação: não tem efeito terapêutico e tampouco é prejudicial. Mas, como dá trabalho, é um desperdício. É melhor não a utilizar, especialmente em crianças.
-
-4.  Emplastros: na verdade, são prejudiciais. Como já foi dito, no tratamento, aquecer é bom e resfriar é ruim. Mesmo que se use um emplastro de água quente, o tempo em que ele fica frio é maior do que o tempo em que fica quente, por isso não é bom. E, se se usar um medicamento, é ainda mais prejudicial, pois, na medida em que o medicamento penetra na pele, ele se transforma em uma substância impura, como o pus.
-
-5.  Compressas de mostarda: em casos de emergência, têm algum efeito. Para quem não conhece a nossa terapia, pode ser uma opção.
-
-## Por que a Terapia do Poder de Kannon (観音) Cura?
-
-Desde a antiguidade, a causa da doença tem sido objeto de inúmeras discussões, tanto na religião quanto na medicina, e o assunto ainda não se esgotou. A religião, em sua maioria, defende a teoria dos pecados e impurezas, enquanto a medicina, em geral, se baseia na teoria dos micróbios. Contudo, a teoria dos micróbios da medicina, na prática, é bastante questionável. O fato de que, apesar dos esforços conjuntos do governo e da população para erradicar a tuberculose pulmonar, não se consiga obter os resultados esperados, indica que a causa da doença reside em algo além dos micróbios. Ela apenas ainda não foi descoberta. Portanto, por mais rigorosa que seja a desinfecção, quem tem que adoecer, adoece, e quem não tem, não adoece, mesmo sem se preocupar com os micróbios. O que isso sugere? E o fato de que, no caso da gripe, quase toda a população é afetada, e mesmo aqueles que usam máscaras e fazem gargarejos rigorosamente adoecem da mesma forma, mostra que a teoria dos micróbios como causa da doença, embora explique uma parte, está longe de abranger a totalidade da causa.
-
-Em contrapartida, a teoria dos pecados e impurezas da religião desvenda a verdadeira natureza da causa da doença, e eu não tenho nenhuma objeção a ela. A questão, então, é como eliminar e dissolver esses pecados e impurezas. Com isso, a erradicação da tuberculose e de outras doenças contagiosas, e de todas as doenças, é possível, o que posso afirmar com base na teoria e na experiência.
-
-Qual seria, então, o método para dissolver os pecados e impurezas? Só existe um: o perdão de Deus. Mas, embora se fale em Deus, existem inúmeras divindades, cada uma com sua função e responsabilidade. E a divindade que possui o poder de perdoar os pecados e impurezas é uma só em todo o universo. É o Deus Supremo, o regente do universo, e a expressão desse Deus Supremo é, com toda a reverência, Amaterassu Sume Oomikami (天照皇大神).
-
-Amaterassu Sume Oomikami (天照皇大神), por ser o Deus único e verdadeiro, da mais alta e nobre divindade, não pode, por lei divina, realizar diretamente a obra de salvação da humanidade. Pois está excessivamente distante do povo. É o mesmo que o Imperador, em sua posição sublime, não poder sujar suas mãos para ajudar diretamente o povo. Por isso, como manifestação de seu desejo de salvar todos os povos do mundo, Ele envia executores da salvação. São eles Kannon (観音), Amida, Buda, Cristo, Maomé e outros santos.
-
-Contudo, a missão que esses santos receberam do Deus Supremo até hoje foi limitada a uma determinada época e a um determinado lugar, o que foi inevitável, pois era o desígnio do Deus Supremo.
-
-Aqui, precisamos olhar atentamente para a era atual. Tudo se tornou global. Mas, na época em que Buda, Cristo, Maomé e todos os outros santos surgiram, o mundo ainda não havia atingido essa escala global. Portanto, por mais valiosos que tenham sido seus ensinamentos e esforços, foi inevitável que fossem locais e temporários. E, se uma religião nasceu de uma necessidade local e temporária, ela não tem o poder de salvar a era atual, que é global. Pois não tem força suficiente. É o mesmo que tentar aplicar a forma de governo de um país a todo o mundo, o que seria impossível. Por exemplo, o Caminho Imperial não seria compreendido pelos russos, o fascismo não seria adequado para a América, e o comunismo não poderia ser implementado no Japão.
-
-Quem consegue enxergar isso tem a capacidade de ver a verdadeira natureza das coisas. Portanto, na era atual, em que tudo se tornou global, é imprescindível que surja uma força de salvação e uma religião globais. A questão que resta é quando e onde.
-
-Comecemos pelo "quando". Se a salvação global surgisse agora, seria cedo demais? Creio que ninguém diria que sim. Pois a agonia da humanidade, em sua realidade atual, não pode mais ser ignorada nem por um dia. Se a salvação global não surgir agora, o que será do futuro da humanidade? Vejam os seres humanos doentes, os espíritos insalubres, a impotência da religião e a confusão de ideias. E reconheçam a situação da Europa e da Ásia. Não estamos caminhando para uma era de uma brutalidade sem precedentes na história? Não seria essa a imagem do chamado fim do mundo? E não se vê em lugar nenhum uma força capaz de impedir isso. Disso se pode concluir que as condições de tempo para o surgimento de uma religião e de uma salvação globais já estão plenamente reunidas. O tempo urge e não permite mais hesitação.
-
-E o "onde"? Podemos dizer, sem hesitar, que é o Japão. Isso fica claro sem a necessidade de recorrer a textos antigos ou a profecias de santos. Pois é o único país que absorveu e assimilou completamente a cultura espiritual do Oriente e a cultura material do Ocidente, que é bem governado por uma linhagem imperial ininterrupta, que respeita a justiça internacional e que se esforça constantemente pela paz e pela moralidade. Sob esse ponto de vista, ninguém discordará de que o lugar é o Japão.
-
-Portanto, não seria de se estranhar que, agora e no Japão, surgisse uma salvação e uma religião globais. A questão que se coloca é: o encarregado dessa grande religião e da salvação da humanidade que deve se manifestar agora será um deus invisível, um buda ou uma pessoa de carne e osso?
-
-Um deus invisível ou uma imagem de buda jamais conseguiriam realizar essa grande obra. Pois a salvação até hoje foi assim, e, por isso, chegamos a esta situação infernal, sem que se possa fazer nada. Portanto, para manifestar a verdadeira força de salvação, é imprescindível um instrumento humano. E o escolhido como instrumento foi o corpo deste humilde Jinsai. Não gosto da expressão "salvador autoproclamado", mas não tenho outra forma de explicar.
-
-Nesse sentido, chegou o tempo de libertar a humanidade da jaula da infelicidade e do sofrimento. Consequentemente, é preciso cortar pela raiz a origem de todos os males, como a injustiça e a depravação, as ideias sombrias, as religiões extremamente distorcidas e os atos insanos do homem, que provêm da intenção do demônio, e retornar à retidão original. E, ao mesmo tempo, é preciso purificar desde a base toda a imundície que é a causa de todos os impasses, acumulada ao longo de milhares de anos de pecados e impurezas, e eliminar toda a infelicidade.
-
-Entre os inúmeros sofrimentos da humanidade que necessitam de salvação, não há salvação mais importante do que a libertação do sofrimento da doença. E foi ela que se manifestou, em primeiro lugar, na forma da Terapia do Poder de Kannon (観音). É natural, portanto, que ela tenha uma eficácia e um poder incomparáveis com qualquer outra terapia.
-
-A entidade búdica que exerce o poder de perdoar os pecados e impurezas é, de fato, a personificação da compaixão, o grande e santo Kanzeon Bossatsu. E, como Ele realiza sua atividade de salvação através do corpo de Jinsai, a razão pela qual os pecados e impurezas, que são a verdadeira causa da doença, são eliminados, é perfeitamente clara. É para isso que serve a Luz Espiritual que irradia incessantemente do corpo de Jinsai, através da qual todas as máculas são dissolvidas.
-
-(17 de fevereiro de 1936)
-
-## A Prevenção da Fraqueza Infantil
-
-Apesar dos esforços incessantes do governo e da população para combater a tuberculose pulmonar, que atinge mais de um milhão de pessoas e causa cento e vinte mil mortes por ano, não apenas não se consegue obter os resultados esperados, como a tendência é de aumento. Diante disso, o futuro da nação é motivo de grande preocupação. Segundo uma pesquisa recente do Departamento Social da Província de Tóquio, quarenta por cento das crianças do ensino fundamental urbano estão infectadas com tuberculose. E, em uma certa escola feminina, vinte e tantos por cento das alunas apresentavam febre baixa. Obviamente, a febre baixa indica que a tuberculose já se manifestou. Se supusermos que o número de alunas em estado latente, ainda sem febre, seja o mesmo, podemos dizer que cerca de cinquenta por cento são tuberculosas. E, como a tuberculose se manifesta com mais frequência por volta dos vinte anos, o período após a formatura é ainda mais perigoso.
-
-A partir desses fatos, pode-se inferir que mais da metade da próxima geração de cidadãos estará infectada com tuberculose. Este é, sem dúvida, o maior problema da nação, mais grave do que qualquer outro. É uma verdadeira situação de emergência para a saúde.
-
-Mas seriam as medidas que o governo está tomando atualmente adequadas e eficazes? Com pesar, somos forçados a dizer que não. A culpa não é das autoridades. É que a força de propagação da doença supera a capacidade da medicina moderna de contê-la. E a estratégia se limita ao método passivo de prevenção da infecção por germes. Como sempre dizemos, na vida social de hoje, é absolutamente impossível não ser infectado por germes, pois as oportunidades de infecção são excessivas.
-
-Portanto, o ideal e a prevenção ativa seriam ter um corpo saudável, a ponto de não ser afetado pelos germes. Ouvi dizer que, nos últimos tempos, as escolas primárias dão óleo de fígado de bacalhau e leite às crianças, e instalam equipamentos de raio X e lâmpadas solares. Mas tudo isso não passa de medidas paliativas, como colocar um curativo.
-
-A fraqueza infantil significa ser portador do bacilo da tuberculose, o que se chama de criança com constituição linfática. Se quarenta por cento das crianças estão nessa condição, será difícil evitar que as restantes se infectem. E, se se criassem escolas apenas para crianças tuberculosas, quarenta por cento das escolas primárias se tornariam escolas para tuberculosos, o que seria, na prática, um problema gravíssimo.
-
-Temos a solução fundamental para esse difícil problema. Mas, antes de a apresentarmos, é preciso examinar a causa do surgimento de um número tão grande de crianças fracas. A causa fundamental é o equívoco de se considerar a constituição física dos japoneses e dos ocidentais como sendo a mesma. Trata-se do consumo excessivo de leite, do consumo de carne por gestantes e do uso de medicamentos por gestantes e recém-nascidos. Pois, se os medicamentos têm a capacidade de curar doenças, essa capacidade é, na verdade, uma toxina. A afirmação dos médicos da medicina tradicional chinesa, de que se cura a doença com medicamentos combatendo veneno com veneno, é a mais pura verdade.
-
-Por isso, a toxina residual dos medicamentos, o leite e a toxina do sangue animal contida na carne tornam, sem que se perceba, o sangue impuro. E, pelo processo de purificação natural do corpo, isso se torna um resíduo de sangue impuro, e a repurificação do sangue impuro resulta em pus. Essas toxinas se acumulam na região do pescoço, ou seja, nas glândulas parótidas, nos gânglios linfáticos, nas amígdalas e na região do ápice pulmonar. Ao examinar milhares de crianças fracas, constatei que todas elas, sem exceção, apresentam esses sintomas. Leitor, experimente examinar a região do pescoço dessas crianças com as pontas dos dedos. Certamente encontrará nódulos de vários tamanhos. E, ao pressioná-los com as pontas dos dedos, elas sentirão uma dor considerável.
-
-Outra causa é a quantidade considerável de toxina da varíola que permanece no corpo, atenuada pela vacinação. E ela atua em conjunto com as outras toxinas, auxiliando-as.
-
-As duas grandes causas mencionadas acima são o que torna as crianças fracas. Portanto, para resolver esse problema, é preciso reconhecer que são necessárias duas medidas: uma passiva, para reduzir essas duas grandes causas, e uma ativa, para eliminar o acúmulo de toxinas.
-
-O método passivo consiste em evitar o consumo de carne durante a gestação e, após o parto, se o leite materno for insuficiente, não dar apenas leite de vaca, mas uma mistura de leite e água de arroz (de arroz semi-polido), meio a meio, o que, em meus muitos anos de experiência, tem apresentado excelentes resultados. Gostaria de acrescentar que é um fato inegável que as gestantes que consomem muita carne têm mais abortos e menos leite. Contudo, a toxina da varíola atenuada só pode ser eliminada por outros métodos.
-
-O método ativo é a terapia de purificação por pressão digital que eu criei. Com ela, a dissolução e a eliminação ocorrem em pouco tempo. Como resultado, o acúmulo desaparece, a febre baixa cessa, o apetite aumenta, as bochechas ficam coradas, o peso aumenta, e a criança se torna cheia de vida e energia, uma criança saudável a ponto de não ser reconhecida. Embora pareça autoelogio, posso afirmar categoricamente que não existe, hoje, nenhum outro método capaz de transformar uma criança fraca em uma criança saudável, e em tão pouco tempo.
-
-## A Trindade dos Órgãos Internos e a Importância do Coração
-
-A trindade dos órgãos internos se refere ao coração, aos pulmões e ao estômago. Pode-se dizer que esses órgãos são a base de todos os órgãos internos, desempenhando as funções mais importantes.
-
-A arte médica, até hoje, pesquisou consideravelmente o estômago e os pulmões, e tem um certo conhecimento de sua atividade. Contudo, no que diz respeito ao coração, pode-se dizer que o desconhecimento é total. E, na verdade, entre esses três órgãos, o coração é o mais importante. O fato de que os médicos apontam a parada cardíaca como a causa direta da morte já deveria nos fazer perceber isso. Se a atividade funcional do coração, o órgão mais importante, não for compreendida, um tratamento verdadeiro jamais poderá ser estabelecido.
-
-A medicina moderna diz que o movimento respiratório dos pulmões purifica o sangue e o envia para o coração. E, como método de purificação do sangue, recomenda enfaticamente a mudança de ares, para que se respire ar puro. E dá grande importância aos alimentos, dedicando seus maiores esforços à pesquisa da nutrição e da digestão. Assim, embora se esforce continuamente na pesquisa da atividade funcional dos pulmões e do estômago, parece não pesquisar muito o coração. É algo verdadeiramente estranho. Seria o resultado de terem desistido de compreender a natureza da função do coração?
-
-Segundo minhas pesquisas, a atividade do coração, entre esses três órgãos, pode ser considerada a base da saúde humana. E, enquanto o coração permanecer um mistério, posso afirmar categoricamente que o método de tratamento e o método de saúde jamais serão solucionados.
-
-Qual é, então, a natureza da atividade do coração, o órgão mais importante? E o que são os batimentos cardíacos? Explicarei em detalhes. O fato de que os pulmões realizam dezenas de movimentos respiratórios por minuto pode ser explicado pela medicina atual. Mas ela não consegue explicar para que servem os batimentos cardíacos. Por que um paciente com tuberculose, mesmo que mude de ares, respire ar fresco e se alimente de forma nutritiva, não se cura facilmente? E por que há não poucos moradores do litoral que contraem tuberculose pulmonar? A medicina moderna ainda não consegue explicar isso. E tudo porque a função do coração é desconhecida.
-
-Para explicar isso, é preciso começar pela estrutura do mundo fenomênico deste planeta. De que é constituída a Terra em que vivemos? Ela é formada por três mundos elementares: 1. o Mundo Espiritual; 2. o mundo do ar; 3. o mundo material. Contudo, as descobertas até hoje se limitaram ao mundo do ar e ao mundo material. O Mundo Espiritual, o mais importante, ainda não foi descoberto. Essa estrutura de três níveis é chamada, no budismo, de "três mil mundos" ou "três reinos".
-
-Explicando esses três níveis de elementos: o primeiro, o Mundo Espiritual, é constituído de um elemento espiritual ainda mais rarefeito que o ar, que a ciência atual não tem como medir. Contudo, as pesquisas recentes sobre elétrons, prótons, nêutrons, núcleos, etc., representam um passo em direção a esse Mundo Espiritual. Acredito que, em breve, se chegará a reconhecer a existência do Mundo Espiritual. Minha teoria está apenas um passo à frente da ciência.
-
-O Mundo Espiritual é o mundo espiritual do Sol, cujo elemento principal é o fogo. O mundo do ar é o mundo espiritual da Lua, cujo elemento principal é a água. E o mundo material é o elemento primordial da matéria, cujo elemento principal é a terra. Se essa relação for compreendida, a função do coração, dos pulmões e do estômago também se tornará clara.
-
-O coração respira o elemento fogo, ou seja, o elemento espiritual. Isso são os batimentos cardíacos. Os pulmões absorvem o elemento água, ou seja, o ar. Isso é a respiração. E o estômago absorve o alimento, constituído do elemento terra. Isso é o movimento de contração e expansão.
-
-Omitirei a explicação da atividade dos pulmões e do estômago e me concentrarei no coração.
-
-Como já foi dito, o sangue é a materialização do espírito. A força que mantém o sangue, que é a energia da vida humana, em constante atividade e, ao mesmo tempo, o purifica, é o elemento fogo. E o coração está constantemente absorvendo esse elemento fogo, também chamado de elemento espiritual. Mas, assim como o ar pode ser puro ou impuro, o mesmo ocorre, e em grande medida, no Mundo Espiritual. Um lugar puro no Mundo Espiritual é um lugar repleto de elemento espiritual, ou seja, onde a quantidade de luz e calor é grande. E um lugar onde esse elemento espiritual é rarefeito é, ao contrário, um lugar onde o elemento impuro é abundante. O elemento impuro é uma espécie de mácula espiritual. Em outras palavras, no Mundo Espiritual, um lugar onde a concentração de elemento espiritual é alta se sente como um dia de céu claro, e um lugar onde a concentração é baixa se sente como um dia nublado e sombrio. E qual a causa da quantidade de elemento espiritual e de elemento impuro? A condição para que o elemento espiritual seja abundante é a consagração de uma divindade correta e os atos e palavras que pertencem ao bem. E a causa do elemento impuro é o oposto: a consagração de espíritos malignos ou de espíritos de raposas e outros animais, e os atos e palavras que pertencem ao mal.
-
-Portanto, se se deseja fortalecer a atividade do coração e, consequentemente, purificar o sangue, basta praticar o primeiro método. Quanto mais se o pratica, mais a saúde melhora e a infelicidade se dissolve. Contudo, a maioria das religiões atuais tem poucas divindades corretas, que irradiam luz e calor, e muitas divindades malignas, que correspondem à escuridão. E, como os atos e palavras dos seres humanos pertencem mais ao mal, o Mundo Espiritual só se turva, tornando-se um verdadeiro inferno de trevas. Os seres humanos que nele vivem absorvem constantemente esse elemento impuro e turvo através do coração, o que o enfraquece. E, como o coração enfraquece, o sentimento de amor se torna rarefeito. A razão pela qual o amor é escasso no homem de hoje e se torna cada vez mais rarefeito é, de fato, essa.
-
-Contudo, nesse mundo de trevas, surgiu finalmente o grande fornecedor infinito de luz e calor, o Buda da Luz, ou seja, Kanzeon Bossatsu, como a Luz da Salvação. Ao se consagrar essa entidade divina, Ele irradia uma quantidade imensurável de elemento fogo, ou seja, de luz e calor. Com isso, a mácula do Mundo Espiritual daquele lar se dissolve gradualmente, e ele se torna claro. Como resultado, o coração dos que ali vivem, nutrido pela abundância de elemento fogo, tem sua atividade fortalecida, e o amor brota. Consequentemente, as brigas cessam, o sangue se purifica e a saúde é restabelecida. E, se se trabalha com amor e saúde, a prosperidade e o sucesso são a consequência natural, e a pobreza desaparece. A origem da erradicação da doença, da pobreza e dos conflitos fica, assim, clara.
-
-É preciso fazer aqui mais uma explicação fundamental: a da natureza e da essência do fogo e da água. O fogo queima graças à água, e a água flui graças ao fogo. Se o material combustível não contivesse absolutamente nenhuma água, o fogo não teria tempo de queimar e explodiria em um instante. E, se a água não sofresse absolutamente nenhuma influência do fogo, permaneceria congelada. É o calor do fogo que a derrete, fazendo-a fluir. E, mais adiante, ela se transforma em vapor e gera energia.
-
-Os pulmões têm, em sua essência, a natureza da água. O ar, embora contenha elementos como o oxigênio e o nitrogênio, é, na verdade, composto principalmente de hidrogênio. Portanto, os pulmões, por serem o órgão que absorve principalmente o ar, ou seja, o hidrogênio, são de natureza fria e a usina da razão. Em contrapartida, o coração tem, em sua essência, a natureza do fogo. Ele absorve o elemento fogo (elemento espiritual) do Mundo Espiritual e, por ser de natureza quente, é a origem do amor e da emoção. Portanto, para ativar a natureza de água dos pulmões, é preciso que a atividade do coração forneça calor suficiente. Se a atividade dos pulmões é lenta, é porque o calor do amor do coração é pouco. Assim, para tratar as doenças pulmonares, é preciso fazer com que o coração absorva mais elemento fogo. E, para fornecer elemento fogo em abundância ao coração, não há outra alternativa senão purificar o Mundo Espiritual em que se vive, o que se consegue através da consagração de uma divindade correta.
-
-Por esse princípio, para fortalecer o coração e curar as doenças cardíacas, basta fornecer ar puro aos pulmões. Com isso, a natureza de água dos pulmões se ativa, o que movimenta a natureza de fogo do coração, e o coração se torna saudável.
-
-Portanto, a causa do aumento drástico de pacientes com doenças pulmonares nos últimos tempos é a fraqueza do coração das pessoas. E há duas razões para isso. Uma é a influência da densidade da mácula do Mundo Espiritual, ou seja, da consagração de espíritos malignos e de raposas, e dos atos e palavras malignos, como já foi dito. A outra é o pensamento ocidental.
-
-O pensamento ocidental, por ter se desenvolvido com base na ciência, valoriza excessivamente a teoria. Como resultado, as pessoas se tornam frias, e o sentimento de amor se torna rarefeito. Os pacientes com doenças pulmonares são, em sua maioria, pessoas em quem a razão predomina, e tendem a ser frias. É um fato incontestável que são egoístas e têm pouco amor ao próximo.
-
-Os pacientes com doenças cardíacas são o oposto: tendem a ser emotivos e a se irritar facilmente. Contudo, nos últimos tempos, os pacientes com doenças cardíacas de fato são muito poucos.
-
-## O Equívoco na Cura Religiosa
-
-No tratamento de doenças através da fé, há um erro grave e muito comum, que ninguém percebeu até hoje. E qual é? É o fato de que, embora se pense estar curando pela fé, na verdade, está-se confiando na própria força. Obviamente, se se pretende curar pela fé, quanto mais fervoroso, maior deveria ser o efeito. E se faz preces à divindade em questão. Mas, nesse caso, o que se está fazendo, na maioria das vezes, é uma terapia mental em si mesmo. Pois a ideia de que os verdadeiros deuses e budas concedem seus favores porque a pessoa se banha em água fria, faz cem peregrinações, recita sutras por horas, bate em tambores de madeira ou oferece todos os seus bens até cair na miséria, é um erro crasso.
-
-O coração dos deuses e budas é como o de um pai, e os fiéis, como seus filhos. Se um filho pede algo ao pai, este jamais se alegrará em vê-lo passar por sofrimentos e penitências. Se o pedido for justo, o pai o atenderá com alegria. Ou melhor, para alegrar seu filho, ele lhe dará o máximo que puder, sem exigir nenhum tipo de sacrifício. Portanto, uma fé que exige penitências não pode ter como objeto um deus correto. E uma fé como essa é, sem exceção, uma superstição.
-
-Contudo, por mais que um filho queira receber as bênçãos do pai, se ele for sempre egoísta, não se importar com o pai e só quiser receber o que deseja, não conseguirá nada. É preciso que, no dia a dia, ele se lembre do pai, se dedique a ele, ouça o que ele diz e pratique atos que o alegrem. Há pessoas que só querem receber benefícios e, mesmo recebendo benefícios imensos, se esquecem de agradecer e retribuir. São verdadeiros filhos ingratos e, se acabam sendo abandonados pelo pai, não há o que fazer. E são justamente essas pessoas que, sem perceberem seu erro, acabam por culpar o pai e caminham para a própria ruína, um fim lastimável.
-
-Portanto, diante dos deuses e budas, é preciso compreender bem seus desígnios, fazer pedidos justos e razoáveis com humildade e simplicidade, e expressar a maior gratidão e retribuição possível. E agradecer e retribuir é salvar o maior número de pessoas possível. Mas, como o ser humano não tem o poder de salvar os outros, a única alternativa é conduzi-los ao deus ou buda que o salvou. E, pela virtude de guiar os outros, a pessoa também é salva. E aqueles que não têm tempo para guiar os outros, podem, em vez disso, oferecer dinheiro ou bens materiais, o que também é excelente.
-
-Quando se está doente, pensar ou mentalizar que não se está, ou fazer penitências e sacrifícios para se curar, é curar-se por sua própria força, e não pelo poder e pela virtude dos deuses e budas. Se o poder e a virtude dos deuses e budas fossem manifestos, não haveria necessidade de passar pelo sofrimento de uma ilusão, pensando que o que existe não existe. E as penitências e os sacrifícios, embora bons para o autodesenvolvimento, indicam que a fé em questão carece do poder e da virtude do deus ou buda, e que se está acrescentando a força humana para dar a impressão de que o benefício foi concedido pela divindade. É uma espécie de enganação. Esse tipo de fé é excessivamente comum, mas, na verdade, é tudo uma farsa. Contudo, essas religiões fraudulentas, ao se depararem com o juízo divino que se aproxima, certamente desmoronarão. Gostaria de alertar os fundadores, os dirigentes e os fiéis dessas religiões para que percebam seu erro o mais rápido possível e sigam o verdadeiro caminho, pois correm um grande perigo.
-
-(8 de abril de 1936)
-
-## A Longevidade dos Membros da Associação de Saúde Ultrapassará os Noventa Anos
-
-Qual é, afinal, a longevidade original do povo japonês? São cento e vinte anos. Explicarei de forma simples em que se baseia essa afirmação. O ser humano é um microcosmo, uma miniatura do universo. E o Japão é um protótipo do planeta Terra. O clima do Japão, com suas quatro estações bem definidas, corresponde perfeitamente ao curso da vida humana.
-
-Se dividirmos o ano em doze meses, a primavera, o verão, o outono e o inverno terão três meses cada. Aplicando isso ao ser humano (com base no calendário lunar), de um a trinta anos é a primavera; de trinta e um a sessenta, o verão; de sessenta e um a noventa, o outono; e de noventa e um a cento e vinte, o inverno.
-
-O estado de cada uma dessas quatro estações representa muito bem os altos e baixos da jornada da vida. Ao nascer, com o primeiro choro, a criança é celebrada com grande alegria. É o mesmo que comemorar o nascimento do Ano Novo, no primeiro dia do ano. Ao se formar nas diversas escolas e atingir a idade adulta, chega a primavera, e a flor da vida desabrocha. O homem se lança ao mundo para florescer, e a mulher, ao encontrar a brisa da primavera, vê o botão de sua flor se abrir. É por isso que se diz que a primeira menstruação é o "abrir da flor".
-
-Ao passar dos trinta e entrar no verão, a flor atinge seu ápice. Algumas flores desabrocham mais cedo, outras mais tarde, o que também se aplica bem aos seres humanos. Há homens que têm sucesso cedo e mulheres que se casam tarde. Ao passar dos quarenta e dos cinquenta, o homem ganha cada vez mais confiança e entra no auge de sua atividade. A mulher, com vários filhos, vê sua família prosperar e florescer. É como nos meses de abril e maio, quando, mesmo que as flores caiam, as folhas e os galhos se tornam cada vez mais viçosos.
-
-Ao passar dos sessenta, chega a época dos frutos, da colheita. O negócio, construído com muito esforço e sofrimento desde a juventude, começa finalmente a dar frutos. E a mulher vê os filhos, que criou com tanto sacrifício, se tornarem independentes e úteis para os pais. É como a colheita do arroz, que foi plantado e cuidado com todo o esmero.
-
-Passada a colheita do outono, ao se chegar aos noventa, entra-se no inverno. A partir daí, com a missão cumprida e o nome feito, vive-se o resto da vida em paz. Essa é a verdadeira e correta ordem da vida.
-
-Portanto, o correto é viver até os cento e vinte anos. E, por volta do ano mil da era imperial, a longevidade se aproximava disso. Contudo, com a acumulação de pecados e impurezas pelo ser humano e a introdução da medicina tradicional chinesa, que levou ao uso de medicamentos, a longevidade foi se encurtando gradualmente. A expectativa de vida média do povo japonês hoje, de sessenta anos, é algo que os antigos jamais poderiam imaginar. O homem moderno é verdadeiramente infeliz. E tudo isso é o resultado dos erros mencionados acima. Portanto, se não houver veneno no corpo, a pessoa certamente viverá até os cento e vinte anos.
-
-Agora, com a chegada do tempo do Céu, foi criada a terapia sem medicamentos, baseada no Poder de Kannon (観音). A partir de agora, os pecados e impurezas do ser humano serão gradualmente eliminados, e as toxinas dos medicamentos que permanecem no corpo diminuirão. Com isso, a longevidade voltará a aumentar.
-
-Contudo, mesmo os membros desta associação, por terem resquícios das impurezas de seus antepassados no corpo, dificilmente atingirão os cento e vinte anos ideais. Mas certamente viverão mais de noventa anos. Disso se pode ver o quão abençoados são os membros desta associação.
-
-(6 de março de 1936)
-
-## O Espírito, o Sangue e a Fé Correta
-
-Os elementos que constituem o corpo humano podem ser divididos, de modo geral, em dois: o espírito e a matéria. Contudo, a ciência, até hoje, só reconheceu a existência da matéria, ignorando a do espírito. Seu conhecimento era, portanto, parcial. Isso porque, apesar de seu progresso, a ciência ainda não conseguiu medir a existência do espírito.
-
-Como já foi dito repetidas vezes, a causa da doença se origina no espírito. A mácula do espírito se torna a impureza do sangue, e a impureza do sangue se torna a doença no corpo. Portanto, o sangue é, na verdade, a materialização do espírito. Prova disso é que, logo após a morte, o sangue se coagula, e seu volume se reduz a uma fração do que era. É a fuga da energia que mantinha o sangue circulando por todo o corpo. E o que é essa energia? Esse X é o próprio espírito. Portanto, a morte é a fuga do espírito. É o espírito abandonando um corpo que já não lhe serve mais. Em outras palavras, o corpo se deteriorou tanto que não consegue mais reter o espírito. É como um morador que, após muitos anos, abandona sua casa em ruínas, com as paredes caindo, o telhado inclinado e sem proteção contra a chuva e o vento.
-
-Portanto, o mais importante para a saúde humana é ter o sangue puro. Contudo, até hoje, não se havia descoberto um método para purificar o sangue. Nem medicamentos, nem raios de luz, nem eletricidade têm esse poder. Pois, se o sangue é a materialização do espírito, para purificá-lo, é preciso, antes de tudo, purificar o espírito. E a ciência, que não conhecia a existência do espírito, naturalmente não descobriu o método de purificação do sangue.
-
-Contudo, essa força oculta que é o espírito não é tudo o que existe além do corpo. Na verdade, o espírito é o invólucro externo. Dentro dele, existe a mente, e, no centro da mente, existe a alma. A alma é o regente, o mestre de todo o corpo humano. E essa alma é o bem mais precioso que nos foi dado por Deus, a origem da consciência. Portanto, a atividade da alma se torna a vontade, que move a mente. A mente move o espírito, e o espírito move o corpo. Se nos movermos de acordo com as ordens da consciência, que emanam da alma, não haverá injustiça e, consequentemente, não haverá fracasso.
-
-O problema é que o espírito pode ser possuído por vários espíritos de animais. Ao dizer isso, sei que o homem moderno rirá. Mas eu gostaria de rir daqueles que riem. Pois é um fato inegável. Os principais espíritos de animais são os de raposa, de tengu (criatura mitológica), de cobra, de cachorro, de gato, de cavalo, de sapo, de pássaros, etc. Eles residem no espírito, expandindo-se e contraindo-se livremente, em uma atividade sem impedimentos. Geralmente, há apenas um, mas, dependendo da pessoa, pode haver dois ou mais. Toda pessoa, sem exceção, tem ao menos um espírito de animal possuindo-a. E, além desse espírito permanente, outros podem possuir a pessoa temporariamente, assim como os espíritos de pessoas falecidas. E esses espíritos possessores são a origem de todo o mal.
-
-Portanto, o bem, que emana da alma, dada por Deus, e o mal, que emana do espírito de animal, que possui a pessoa externamente, estão em constante luta pelo domínio da mente. A mente, presa entre esses dois, oscila constantemente, confusa, sem saber se se alia à alma, que vem de dentro, ou ao espírito possessor, que vem de fora. Esse é o estado do pensamento do ser humano atual. Se se compreender esse princípio, a distinção entre a fé correta e a fé errada se torna clara.
-
-A fé correta tem como centro o Deus Supremo. O Deus Supremo é o deus do sol, Amaterassu Oomikami, e, portanto, somos constantemente iluminados pela luz do sol. Quando o ser humano é iluminado por essa luz do sol, o espírito de animal que o possui se retrai, sua atividade enfraquece, e a atividade do mal, que é sua natureza, se enfraquece, tornando impossível que ele domine a mente com o mal. Se a atração do mal enfraquece, a mente não tem outra escolha senão se aliar à alma, ou seja, à consciência. A pessoa que atinge esse estado é aquela que compreendeu a verdadeira fé, que poliu sua alma e se tornou virtuosa. E uma pessoa assim está completamente livre de doenças, fracassos e infelicidades. Sua vida e sua família prosperam, e ela se torna uma pessoa de luz, que desfruta da bem-aventurança espiritual.
-
-Criar essas pessoas perfeitas é o objetivo do nosso movimento de Kannon (観音), e essa força só pode vir do Poder de Kannon (観音).
-
-Gostar de beber, de cometer adultério, de brigar – tudo isso é o resultado do domínio da mente pelo mal inato do espírito possessor. Contudo, nenhuma religião, até hoje, possuiu o poder da luz capaz de fazer esse espírito possessor se retrair. Por isso, não houve pessoas capazes de viver uma vida de luz. Prova disso é: já existiu alguma organização religiosa totalmente isenta de doentes, de alcoólatras, de adúlteros, de brigas? Com pesar, somos forçados a dizer que não.
-
-Pode-se dizer que, entre os membros da nossa Associação de Saúde, não há doentes, alcoólatras, adultério ou brigas. Contudo, é inevitável que os recém-ingressos ainda apresentem resquícios desses problemas, como um fenômeno de transição. Mas, com o passar do tempo, eles progridem passo a passo e, por fim, se tornam pessoas completamente perfeitas e criam lares de luz.
-
-## Elaborem uma Estatística da Cura Religiosa
-
-É de conhecimento geral que as religiões, especialmente as novas, se baseiam na cura de doenças para conquistar fiéis. E as religiões estabelecidas e outros setores dizem que isso é uma farsa. Contudo, se, de fato, as doenças são curadas, e se isso é superior à medicina, longe de ser uma farsa, é algo que deve ser louvado e colocado a serviço da sociedade. Se o efeito curativo que as novas religiões proclamam é real, longe de ser uma farsa, é uma contribuição maravilhosa para a humanidade, e quem critica é que está sendo farsante. E, na verdade, o governo deveria incentivar isso.
-
-Contudo, se a cura se limita a certos tipos de doenças, ou se o que se diz é exagerado, aí sim, há uma farsa. Portanto, acredito que é crucial para as novas religiões esclarecerem esse ponto. E como se faz isso? Creio que não há outro método senão a elaboração de estatísticas. Em primeiro lugar, é preciso, obviamente, buscar a maior precisão possível e elaborar estatísticas da taxa de cura e da taxa de morbidade dos fiéis daquela religião. Especialmente no que diz respeito à taxa de cura, o paciente deve descrever detalhadamente o histórico do tratamento da doença até então, o processo de cura completa pela religião e o estado após a cura. E essas estatísticas devem ser apresentadas ao público. Se o efeito for reconhecidamente superior ao da medicina, o governo terá a necessidade de incentivar essa prática como uma nova arte médica e aplicá-la amplamente à sociedade.
-
-Mas, sem fazer isso, ficar discutindo se é uma farsa ou não, é um esforço inútil. E, para as novas religiões, ser vistas como uma farsa por tempo indeterminado será um obstáculo ao seu desenvolvimento. Se for impossível apresentar as estatísticas mencionadas acima, não haverá como refutar a acusação de que se trata, de fato, de uma farsa.
-
-Contudo, é preciso admitir que a medicina ocidental também tem um grande componente de farsa. Ou talvez não seja uma farsa, mas uma ilusão. Talvez seja o equívoco de se aplicar um tratamento incompleto como se fosse completo. E vemos constantemente fatos surpreendentes de erros de diagnóstico e de tratamento até mesmo nas mais altas autoridades, como as universidades. Portanto, gostaria de dizer que é urgente que ambos os lados sejam examinados da forma mais imparcial e rigorosa possível, para que se descubram e se corrijam os erros.
-
-## Para Onde Vai a Medicina Moderna?
-
-Atualmente, apenas no Japão, milhares de pessoas e milhões de ienes por ano são dedicados à pesquisa médica. Do meu ponto de vista, parece um esforço totalmente em vão. Falando abertamente, sempre penso que, se se dedicasse apenas uma pequena parte disso a algo mais significativo, seria muito melhor.
-
-Sei que, ao dizer isso, posso ser visto como um louco. Mas gostaria que refletissem profundamente sobre o que vou expor.
-
-Qual é, afinal, o objetivo da medicina? É, sem dúvida, a erradicação das doenças humanas. Não pode haver outro. Portanto, os inúmeros cientistas e autoridades da área médica, não apenas no Japão, mas em todos os países civilizados do mundo, quebram a cabeça e se dedicam dia e noite, com grande esforço, à análise e à pesquisa, com o objetivo final de erradicar as doenças. É uma pesquisa e um esforço para se atingir esse objetivo final.
-
-Portanto, se agora mesmo se descobrisse um método para erradicar as doenças, não haveria mais necessidade de pesquisa e de esforço. Contudo, sei que é difícil aceitar de imediato essa minha afirmação, tão inesperada. Não há como compreendê-la sem uma experimentação minuciosa.
-
-As doenças consideradas as mais difíceis de curar pela medicina, como o câncer, a tuberculose, a fístula anal, a asma, o derrame cerebral, a paralisia, a epilepsia, a loucura, a sífilis, a meningite, etc., se tratadas logo no início, são curadas completamente em duas ou três a uma dúzia de sessões. A taxa de cura de cem por cento não é, de forma alguma, um exagero. Atualmente, a maioria dos pacientes que nos procuram já passou por todo tipo de tratamento e teve seus casos complicados. E, mesmo assim, a taxa de cura que estamos obtendo é superior a oitenta por cento. Disso se pode ter uma ideia.
-
-Não há força que possa contestar os fatos. Repito: uma vez que se estabeleceu um tratamento tão perfeito, é natural e inevitável que toda a arte médica se resuma a ele. Penso que, em algumas décadas, os medicamentos e os equipamentos médicos de hoje talvez estejam expostos em museus, como peças de referência histórica.
-
-Não há pessoas mais infelizes do que aquelas que, sem conhecerem este tratamento, não podem se beneficiar dele. Mas as mais infelizes de todas são aquelas que, mesmo vendo e ouvindo sobre este tratamento, não conseguem acreditar e acabam por perder sua preciosa vida.
-
-## A Doença e a Personalidade Humana
-
-Em minhas muitas experiências, percebo algo interessante: a doença e a personalidade da pessoa se correspondem muito bem. Por exemplo, no tratamento, fica muito claro. Uma pessoa de natureza dócil se cura docilmente. Uma pessoa de temperamento simples tem sintomas simples. Em contrapartida, uma pessoa de ego forte tem uma doença que tende a se prolongar. Uma pessoa teimosa tem uma doença teimosa. Uma pessoa de humor instável tem uma doença instável, e uma pessoa sarcástica tem uma doença que segue um curso sarcástico.
-
-Pensando por esse princípio, ao tratar uma doença, se se conhece bem esse fato e se corrige a personalidade que se considera ruim, isso terá um bom efeito sobre a doença. E o melhor é se tornar dócil em tudo.
-
-## Erros de Diagnóstico e de Tratamento Surpreendentes
-
-Ao tratar de inúmeros pacientes até hoje, descobri algo verdadeiramente surpreendente: o número de erros de diagnóstico dos médicos é excessivamente alto. E, o que é mais, não são poucos os erros cometidos pelas autoridades da área, das faculdades de medicina, em quem todos depositam absoluta confiança. Pretendo, a partir de agora, divulgar esses casos gradualmente, para alertar não apenas os envolvidos, mas também o público em geral. Deixo claro que não tenho a menor intenção de criticar os médicos. É apenas um sentimento que não consigo conter. Por isso, me esforçarei para não me desviar dos fatos nem por um passo.
-
-Cinco doenças inexistentes
-Senhora F. C. (45 anos), de Shinkawa-cho, Kyobashi-ku
-
-Esta paciente estava doente há dez anos, com altos e baixos, e, há cerca de um ano, seu estado se agravou. Por isso, estava em repouso absoluto, permanecendo na cama, exceto para ir ao banheiro. Segundo a paciente, o diagnóstico do Dr. X e do Dr. Y era de catarro no ápice do pulmão esquerdo, linfadenopatia hilar direita, cardiomegalia, gastropstose, beribéri e catarro no intestino delgado – seis doenças. Contudo, ao examiná-la, constatei que, das seis doenças, apenas o catarro no intestino delgado existia. As outras cinco não existiam.
-
-A paciente estava, na verdade, extremamente fraca devido ao longo período acamada. Obviamente, a anemia e a magreza a faziam parecer gravemente doente. Mas a doença real era apenas um acúmulo de pus ao redor do pescoço e em sua base. O resto era uma fraqueza geral dos órgãos, devido às toxinas dos medicamentos que tomou por um longo tempo, e um pequeno acúmulo de pus líquido na região dos rins e no peritônio.
-
-Como resultado do tratamento, no quarto dia, ela se levantou da cama. Em cerca de dez dias, já estava cuidando das tarefas domésticas e, em cerca de vinte dias, estava completamente curada, como se nunca tivesse estado doente. Sua alegria era indescritível. A surpresa dos que a cercavam foi, imagino, imensa. Todos os que a conheciam, dizem, só conseguiam achar tudo aquilo inexplicável.
-
-A sentença de morte invertida
-Reiko K. (7 anos), de Shirokane Shida-machi, Shiba-ku
-
-Em setembro do ano passado, esta paciente ouviu o seguinte do Dr. Z, chefe do departamento de pediatria da Faculdade de Medicina Y: "Não podemos internar esta criança. Pois não há absolutamente nenhuma esperança de cura. A doença é pulmonar, e ela não viverá mais de meio ano. Preparem-se para o pior".
-
-Ao examiná-la, constatei que não havia nada de anormal nos pulmões. Havia apenas um acúmulo de pus consideravelmente grande das glândulas parótidas aos gânglios linfáticos, em ambos os lados, o que lhe causava uma febre superior a 39 graus todos os dias. Tratei esse acúmulo de pus e, gradualmente, ele se dissolveu e a febre baixou. Em uma semana, sua temperatura estava quase normal. No início, seu rosto era pálido, ela não tinha energia e mal conseguia andar. Mas, quando a febre baixou, seu rosto começou a corar, ela ganhou peso e recuperou a energia. Em pouco mais de um mês, estava completamente curada, como se nunca tivesse estado doente. Mas, como ainda restava um pouco de acúmulo de pus nos gânglios linfáticos, ela continuou a vir duas ou três vezes por mês.
-
-Em abril deste ano, ela ingressou feliz na escola primária. Sua saúde e vitalidade são superiores às das outras crianças. Outro dia, sua mãe, rindo, comentou sobre o quão oposta à realidade foi a afirmação do médico de que ela não viveria mais de meio ano.
-
-Se os envolvidos desejarem investigar esses casos, terei o maior prazer em intermediar o contato a qualquer momento. Ou melhor, espero que examinem o estado de cura completa dos pacientes, a título de referência.
-
-(16 de abril de 1936)
-
-## A Medicina Regrediu?
-
-No final de maio, o jornal Asahi publicou o seguinte artigo:
-
-"A constituição física e a saúde de nossos jovens, o pilar da nação em tempos de emergência, vêm declinando gradualmente nos últimos anos. As autoridades, profundamente preocupadas, realizarão uma reunião no dia 27, às 15h, no Kaikosha, em Kudan, para discutir medidas. Do Exército, participarão o Diretor do Departamento Médico, Koizumi, o Cirurgião de Segunda Classe, Nakajima, e o Cirurgião de Primeira Classe, Sonoda. Do Ministério da Educação, participarão o Chefe da Divisão de Educação Física, Iwahara, o Oficial de Saúde Escolar, Onishi, e o Secretário, Ito. Esta será a primeira vez que o Exército e o Ministério da Educação se reunirão para discutir o assunto.
-
-A constituição física de nossos jovens mostra que o número de indivíduos fracos, classificados como C e D, que de 1922 a 1926 era de 250 por mil, aumentou para 350 por mil em 1932 e, no ano seguinte, para 400. Além disso, as doenças torácicas entre os jovens, que em 1899 eram de 2 por cem, hoje aumentaram dez vezes, para 20 por cem. O aumento do peso em relação à altura é notavelmente inferior, e, quanto maior o nível de educação, pior a constituição física, com um número maior de classificados como C e D. É uma situação lamentável. A atenção de todos os setores está voltada para como a reunião entre o Exército e o Ministério da Educação resolverá essa triste situação dos nossos jovens."
-
-O fato de que, em pouco mais de trinta anos, desde 1899, o número de jovens inaptos para o serviço militar tenha se multiplicado por dez é verdadeiramente alarmante. Do ponto de vista nacional, haverá problema mais grave? É preciso que toda a nação se mobilize para investigar as causas. E, enquanto, por um lado, se acredita que a medicina progrediu muito, a realidade, por outro, desmente isso. Qual a causa? Com essa tendência, não se espera uma diminuição, mas sim um aumento no futuro. Pois, a menos que a causa fundamental seja claramente identificada e que se estabeleçam medidas para combatê-la, nada mudará.
-
-Contudo, diante de um assunto tão grave, as autoridades e o público em geral permanecem surpreendentemente indiferentes. Apenas uma parte das autoridades se preocupa. É um fato verdadeiramente inexplicável em nossa era.
-
-Só por esse fato, já se vê que deve haver uma falha fundamental na medicina e na saúde modernas. Portanto, o caminho para salvar essa grave situação é a descoberta dessa falha. Não há outra alternativa.
-
-E eu descobri essa falha. E, ao descobri-la, fiquei absolutamente atônito por um longo tempo. E qual é ela? Explicarei em detalhes a seguir.
-
-O que a medicina moderna está fazendo em relação a esses doentes frágeis, especialmente os tuberculosos (incluindo as crianças fracas), que aumentam drasticamente? Estaria ela, de fato, prevenindo? Na verdade, longe de prevenir, ela os está criando em massa. É um fato estranho e monumental. E ninguém se dá conta de um assunto tão grave e inacreditável. Nesse sentido, penso que, se não houvesse o tratamento médico, o número de inaptos para o serviço militar diminuiria drasticamente. Ou melhor, que é assim, de fato, é mais claro do que a luz do dia. O fato de que o número aumenta à medida que a medicina progride é prova mais do que suficiente. O fato vivo de que o número de inaptos para o serviço militar aumentou em duzentos por mil corrobora minha teoria de forma irrefutável. Ah, não haverá nada de mais grave para o futuro da nação!
-
-Qual é, então, o equívoco da medicina? É preciso expô-lo sem rodeios. E, para isso, é preciso, antes de tudo, esclarecer a natureza da doença, que é a base desse equívoco. E o fato é que a percepção da medicina a esse respeito caiu em uma grande ilusão. A medicina ainda não sabe por que a doença ocorre. Sua teoria atual é a de que a causa de todas as doenças são os micróbios, uma causa externa. Mas este é o erro fundamental. Ou melhor, não é um erro total, mas apenas uma solução parcial.
-
-Segundo minhas pesquisas, a natureza da doença é, na verdade, o processo de purificação natural do próprio ser humano. Ou seja, é uma causa interna. E o que é isso? O ser humano, em sua vida, acumula constantemente impurezas por diversas causas, o que torna o sangue impuro. E essa impureza do sangue se torna a causa da doença. Mas não é o sangue impuro em si, mas sim o trabalho para purificá-lo. Portanto, os fenômenos da doença não passam do sofrimento do processo de purificação.
-
-E por que surgem os pacientes com tuberculose? É porque a impureza, na forma de sangue impuro e de pus, se acumula, em todas as pessoas, na região do pescoço e dos ombros. E, quando a quantidade acumulada ultrapassa um certo limite, inicia-se o processo de sua dissolução. O que acelera esse processo é o frio do inverno, e o trabalho é o resfriado. Portanto, ao se resfriar, surge a febre para dissolver essas impurezas, o pus se torna mais ralo e é eliminado como catarro e coriza. Com isso, o corpo mantém sua saúde. O resfriado é, na verdade, o método mais simples e celestial para se livrar de todas as doenças. Contudo, desde a antiguidade, diz-se que o resfriado é a causa de todas as doenças, o que é um grande erro. Na verdade, é o oposto: é o melhor método para se evitar todas as doenças, um método de saúde engenhosamente criado pelo Deus Criador.
-
-Apesar disso, a medicina, cega para esse fato, tem um medo terrível do resfriado e tenta evitá-lo a todo custo. E, se, por acaso, a pessoa adoece, teme a febre e tenta baixá-la a todo custo. Como resultado, a purificação, que deveria ocorrer, não acontece, e a impureza permanece no corpo, solidificando-se com o passar do tempo. Essa impureza solidificada é a causa fundamental da fraqueza tuberculosa.
-
-O acúmulo de pus líquido e solidificado na região do pescoço e dos ombros, embora a febre baixe e a calma seja restabelecida com o uso de antitérmicos, repouso, etc., é algo temporário, e não uma cura verdadeira. Por isso, a pessoa se resfria novamente, pelo processo de purificação natural. E o tratamento médico novamente impede a purificação. Como resultado, a solidificação do pus se agrava gradualmente. Ao se repetir esse processo, a solidificação do pus aumenta cada vez mais e, como consequência natural, a febre, decorrente da purificação natural, se torna tão persistente que não cede facilmente, mesmo com o uso de antitérmicos. O pus, dissolvido por essa febre necessária, é eliminado como catarro. É por isso que surge a tosse, que se torna contínua.
-
-Há outro sintoma que não pode ser ignorado. A impureza de todo o corpo, que tenta constantemente se acumular na região do pescoço e dos ombros, ao se deparar com a solidificação de pus de longa data, não consegue se acumular ali. Sem ter para onde ir, ela se acumula e se fixa abaixo, na parte superior do tórax, nas costelas, sob os seios e as axilas. E a razão pela qual ela se fixa sob os seios e as axilas é, obviamente, a concentração de nervos devido ao uso constante dos braços. E, como esse sintoma está no tórax, o diagnóstico médico é de tuberculose pulmonar ou infiltração pulmonar. Mas, na verdade, nesse estágio, não há nada de anormal nos pulmões. Pois não se trata de um sintoma interno das costelas, mas externo. Contudo, com a febre, os estertores e a imagem de nuvem no raio X, é natural que se diagnostique erroneamente como uma doença pulmonar. Mas isso está totalmente errado. O fato de que, com o meu tratamento, todos os casos, sem exceção, são curados, mostra claramente que não há nada de anormal nos pulmões.
-
-Como causa do agravamento da doença pulmonar, há, em especial, a má digestão. E a causa da maior parte disso é, sem dúvida, o tratamento médico equivocado. Ao se diagnosticar a doença pulmonar, o tratamento médico prescreve o repouso absoluto. Isso causa uma fraqueza acentuada do estômago, devido à falta de exercício. Outra causa é o uso de digestivos. Na verdade, o resultado é o oposto do objetivo de fortalecer o estômago e aumentar o apetite. Pois, a princípio, a digestão melhora com o medicamento, mas, com o passar dos dias, a atividade do próprio estômago enfraquece gradualmente. Isso porque, como o medicamento faz a digestão, o estômago não precisa trabalhar, e é natural que atrofie. Como resultado, o efeito do medicamento enfraquece gradualmente, e a falta de apetite surge. Então, se usa mais medicamento, em um ciclo vicioso, e o estômago acaba por entrar em um estado de sono, o que agrava a doença a ponto de ser fatal. A causa das doenças gástricas, que aumentam em número tão grande atualmente, fica, assim, clara.
-
-As causas e os equívocos do tratamento da diarreia, da expectoração de sangue, do suor noturno, etc., são muito semelhantes, por isso omitirei a explicação. Em suma, como se pode ver pelo que foi exposto, o tratamento médico moderno caminha por uma trilha de ilusão surpreendente. Em uma palavra, quando a doença surge no corpo, o método para curá-la se torna um obstáculo ao tratamento. E o obstáculo mais fundamental são os antitérmicos e o resfriamento com gelo. Portanto, falando abertamente, é uma luta entre o trabalho de cura do próprio corpo e o tratamento médico que tenta impedi-lo. E o resultado é o aumento da tuberculose.
-
-O que se deve fazer, então? Em primeiro lugar, ao se resfriar, é preciso respeitar a febre e deixá-la seguir seu curso. Com isso, a impureza se dissolve e é eliminada de forma tranquila, e a cura ocorre de forma fundamental e tranquila. Obviamente, a causa da recidiva é eliminada. Ao se experimentar isso, percebe-se que não há um único erro.
-
-Por esse princípio, percebe-se que a verdadeira causa do aumento drástico da tuberculose é, em primeiro lugar, o antitérmico. Portanto, posso afirmar sem hesitação que, apenas com a proibição dos antitérmicos, a abolição do resfriamento com gelo e a não prevenção do resfriado, o número de pacientes com tuberculose diminuiria para menos de um terço. De fato, a medicina está criando pacientes com tuberculose. É um fato assustador e inacreditável, que ocorre abertamente, sob a proteção do Estado.
-
-Contudo, é preciso reconhecer alguns avanços na medicina. A sofisticação dos equipamentos, a complexidade e a diversidade dos tratamentos e a variedade de medicamentos. Mas, enquanto a causa da doença for mal compreendida, tudo isso não passará de uma ilusão para as pessoas. E há o risco de que, ao se dedicarem e se satisfazerem com isso, acabem por se afastar da causa fundamental. Portanto, se a causa da doença for descoberta de forma definitiva, os equipamentos e os medicamentos se tornarão, na verdade, desnecessários.
-
-Ademais, o número de erros de diagnóstico dos médicos atuais é verdadeiramente surpreendente. Ao examinar, vejo que até mesmo os diagnósticos dos grandes hospitais públicos estão errados em setenta a oitenta por cento dos casos. Quem lê isso pode não acreditar, mas é um fato inegável. O raio X, o único método de diagnóstico da medicina, não é, de forma alguma, preciso. Isso fica claro pelo fato de que o acúmulo de pus solidificado e não solidificado nas costelas e em sua parte externa, que aparece como uma nuvem, é erroneamente diagnosticado como uma doença pulmonar. Talvez seja porque a imagem do raio X é plana, mas é preciso que haja uma grande autocrítica a esse respeito. E, no caso dos estertores, embora possam ocorrer nos alvéolos pulmonares, muitas vezes são devidos ao pus líquido na região das costelas. E é preciso saber que, mesmo que haja estertores nos alvéolos, muitas vezes não se trata de uma doença pulmonar.
-
-Quanto à febre baixa, em menos de um em cada dez casos a causa é o pulmão. A maioria se deve à região das glândulas do pescoço e dos ombros, à região das costelas, ao estômago, ao abdômen, à região lombar, etc. Ao se descobrir isso, a infantilidade do diagnóstico médico se torna incompreensível. Portanto, pode-se dizer que a maioria dos pacientes que hoje são diagnosticados com tuberculose pulmonar e vivem em desespero, na verdade, não tem nada de anormal nos pulmões. E sempre rio disso.
-
-A razão pela qual a taxa de cura da tuberculose que trato, embora todos os casos sejam de difícil tratamento, complicados por todo tipo de tratamento médico malsucedido, é superior a oitenta por cento, é porque não há nada de anormal nos pulmões. São os chamados "pacientes pulmonares".
-
-Gostaria de apontar outro erro de tratamento. É a confusão entre a melhora e a cura da doença. A doença, como já foi dito, é um processo de purificação. Portanto, a febre, a tosse, o catarro, a expectoração de sangue, o suor noturno e outros sofrimentos são, quanto mais vigorosa a vitalidade do paciente, mais intensos. E, nesse caso, o tratamento médico realiza incessantemente um tratamento sintomático para aliviar o sofrimento. E esse tratamento consiste em medicamentos, em alimentos nutritivos de origem animal e no repouso absoluto. Contudo, os primeiros tornam o sangue impuro, e o último enfraquece a vitalidade geral do corpo. Portanto, é natural que a força de purificação enfraqueça. Como resultado, a febre baixa, a tosse e o catarro diminuem, e a doença parece melhorar e caminhar para a cura. E, às vezes, parece até que a pessoa está curada. Mas mal sabem eles que isso é um alívio temporário, devido à interrupção da purificação, e não uma cura. Por isso, ou a doença reincide, ou o estado se mantém, sem cura nem agravamento, por vários anos. E todos sabem que há muitos pacientes nessa situação. Isso é, sem dúvida, a prevenção da cura natural. E, nesse processo, se o paciente se exercita, a força de purificação surge imediatamente, e a febre aparece. O médico, assustado, interpreta erroneamente como um agravamento da doença e o proíbe. A teoria que surgiu recentemente no Ocidente, de que se deve tratar a tuberculose enquanto se trabalha, é a prova de que se despertou para o erro do repouso absoluto.
-
-Ao se considerar a imprecisão do diagnóstico, a ilusão sobre a causa da doença e o equívoco do tratamento, percebe-se que, a menos que a medicina moderna passe por uma grande revolução, a perda para a nação e a infelicidade do povo serão imensuráveis. Quem não se preocuparia ao compreender a fundo essa verdade? Somos, aqui, forçados a soar um grande alarme e a conclamar os envolvidos a uma grande autocrítica.
-
-Creio que, com isso, fica claro o porquê do título "A Medicina Regrediu?".
-
-(10 de junho de 1936)
-
-## Exemplos de Erros de Diagnóstico e de Tratamento
-
-1.  Este foi, de fato, um caso que tratei. Em 4 de janeiro deste ano, uma senhora de trinta e dois anos me procurou. Segundo ela, sua menstruação daquele mês havia durado mais do que o normal e, preocupada, procurou um médico. Ele lhe disse: "Isto é muito sério. É uma gravidez ectópica. Se não operar com urgência, você pode morrer". Mas, para ter uma segunda opinião, ela me procurou. Ao examiná-la, não encontrei nenhum sinal de gravidez ectópica. Havia apenas um pequeno acúmulo de pus líquido sob os rins. E isso foi curado completamente com duas sessões. A alegria da senhora foi imensa. No início do ano, ela teria que passar por uma grande cirurgia, ser internada, sofrer com a dor, arcar com as despesas e perder tempo, além de ficar com uma cicatriz, tudo em vão. E tudo se resolveu em apenas duas sessões. É natural que ficasse feliz. Ao analisar esses fatos, o acúmulo de pus estava a mais de três centímetros de distância de onde deveria ocorrer uma gravidez ectópica, em uma camada superficial da pele. Não havia como um especialista se enganar. E, mesmo assim, o fato é que isso aconteceu. Até hoje, acho isso inexplicável.
-
-2.  Uma senhora da alta sociedade, de trinta e sete anos, me procurou. Segundo ela, tinha como doença crônica a rigidez nos ombros e a dor de cabeça. E, recentemente, sua menstruação havia durado mais do que o normal. Procurou o diagnóstico do Dr. X, que lhe disse: "Seu ovário direito está três vezes maior que o esquerdo. Essa é a causa. É preciso operar e retirá-lo imediatamente. A dor de cabeça e a rigidez nos ombros também são por causa disso". Mas, como não queria operar, estava hesitando, quando ouviu falar de mim e me procurou. Examinei-a com cuidado e constatei que ambos os ovários estavam normais, sem nenhum sinal de inchaço. E a dor de cabeça e a rigidez nos ombros não tinham nenhuma relação com os ovários, eram uma doença à parte. Isso ficou claro quando, sem tocar na região dos ovários, tratei seus ombros, e a dor de cabeça e a rigidez nos ombros melhoraram instantaneamente. E, com quatro sessões, ela ficou completamente curada. Sua surpresa e alegria foram imensas. Ao pensar nesses fatos, um ovário normal foi diagnosticado como inchado, e a rigidez nos ombros, que não tinha nenhuma relação com ele, foi relacionada a ele. A gravidade desse erro de diagnóstico é verdadeiramente surpreendente. Se essa paciente não tivesse me procurado, teria tido um ovário saudável retirado e se tornado deficiente para o resto da vida. Senti um arrepio e a pele se eriçar.
-
-3.  A morte do Ministro da Educação, Matsuda: gostaria de afirmar categoricamente que o exame de saúde da medicina ocidental ainda é incompleto. O exemplo mais recente é a morte do Ministro da Educação, Matsuda. Segundo os jornais, o Dr. Manabe, uma autoridade da área médica e um professor veterano da Universidade Imperial, de grande renome, realizou um exame de saúde três horas antes de sua morte. Este é um problema grave que não pode ser ignorado. Que valor tem um exame de saúde que não consegue prever a morte três horas antes? O objetivo de se fazer um exame de saúde é conhecer os primeiros sinais de uma doença. E o objetivo de se conhecer os primeiros sinais de uma doença é, obviamente, evitar uma fatalidade. Contudo, se o objetivo final, que é a própria morte, não pode ser previsto três horas antes, é o mesmo que não fazer nenhum exame de saúde. Disso se pode concluir que, a menos que a medicina ocidental progrida muito mais, seu exame de saúde ainda não é confiável. E não seriam as autoridades e o público em geral excessivamente indiferentes a esses problemas? A sociedade atual, que se preocupa excessivamente com problemas relativamente pequenos em outras áreas, é estranhamente tolerante com tudo o que se refere à medicina. Por quê? Talvez seja por causa dessa tolerância excessiva, mas pode-se imaginar que o número de erros de diagnóstico e de tratamento imperdoáveis seja bastante alto. Se até mesmo uma autoridade da Universidade Imperial comete um erro como o desta vez, pode-se imaginar o nível do diagnóstico dos médicos em geral. Mas talvez não seja justo culpar os médicos. Na verdade, a culpa é da medicina ocidental, que, talvez, não tenha progredido tanto quanto as pessoas imaginam. Em suma, a culpa da crença excessiva na medicina ocidental se manifesta de várias formas, e a situação atual é que não se pode fazer nada a respeito. Vemos com frequência nos jornais relatos de famílias indignadas e processos judiciais por mortes súbitas devido a erros de injeção ou de cirurgia, e outros fatos que são claramente erros médicos. Mas, nesses casos, por alguma razão, o médico parece levar a melhor, e, talvez por isso, a maioria dos casos acaba em nada. É verdade que interferir demais no tratamento médico pode atrapalhar o trabalho do médico, por isso não se pode generalizar. Mas tudo tem um limite, e, se o limite for ultrapassado, é natural que surjam problemas. E, mais ainda, quando se trata de um assunto tão grave como a vida humana.
-
-## A História de quem se tornou Deficiente por causa da Arte Médica
-
-Esta é a história de uma enfermeira. Uma menina de sete anos teve um inchaço na bochecha direita. Foi internada e operada. Contudo, como a cirurgia foi feita cedo demais, surgiu outro inchaço, sob a pálpebra inferior. Imediatamente, ele também foi operado, mas o resultado foi ruim, a situação se agravou e, por fim, a primeira e a segunda área se uniram. O pus, que teve sua eliminação natural impedida pela cirurgia, passou a sair constantemente pelos olhos e pelo nariz, agravando ainda mais o sofrimento. E, após vários meses, quando finalmente se curou, qual foi o resultado? Uma grande cicatriz repuxada deixou seu rosto com uma feiura semelhante à de quem tem o olho virado. Por isso, a mãe, desolada, reclamou com o médico, que lhe disse: "Vá a um cirurgião plástico e peça para consertar".
-
-Analisando o caso, a causa do inchaço foi a purificação natural, em que o pus tentava ser eliminado pela bochecha. Portanto, bastava não fazer nada e deixar que seguisse seu curso. O inchaço aumentaria ao máximo, um pequeno orifício se abriria, todo o pus seria eliminado, a cura seria completa, sem deixar vestígios, e tudo levaria, no máximo, cerca de um mês. E o que se fez? Com um custo elevado, um longo período de tempo e um sofrimento maior, a criança se tornou uma deficiente, algo que não era de nascença. Uma medicina como essa é verdadeiramente assustadora. Sinto profundamente que a tarefa mais urgente do momento é fazer com que as pessoas conheçam os malefícios da arte médica equivocada.
-
-(13 de abril de 1936)
-
----
-
-# Coletânea de Ensaios do Mestre Okada Jikan (Organizada por Periódico de Publicação)
-
-**Categoria:** sasshi | **Ano:** - | **Fonte:** 浮世絵の栞
-**Título Original:** - | **Status:** - | **Edição/Página:** - | **Data ISO:** -
-
-## Coletânea de Ensaios do Mestre Okada Jikan (Organizada por Periódico de Publicação)
-
-A Story of Ukiyo-e
-
-A capa apresenta a obra "Yuna", com o título "UKIYOE" em letras douradas.
-
-A Story of Ukiyo-e
-Versão em inglês de "Guia do Ukiyo-e"
-Formato A6 horizontal, 32 páginas.
-
-by Ichitaro Kondo
-Planned and Supervised by Hakone Art Museum
-Ohtsuka Kogeisya Company ・ Tokyo
-Price ￥ 150.
-
-Trata-se da versão em inglês do panfleto elaborado para a "Exposição de Ukiyo-e", realizada no anexo do Museu de Arte de Hakone a partir de 1º de junho de 1953 (ano 28 da era Showa).
-
-A publicação se inicia com um prefácio de Meishu-Sama.
-
-Contém, ademais, um texto explicativo sobre o ukiyo-e de autoria do senhor Ichitaro Kondo, do Museu Nacional de Tóquio. A obra é ilustrada com uma fotografia colorida e trinta em preto e branco.
 
 ---
 
