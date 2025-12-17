@@ -1,8 +1,38 @@
 # Mioshie_Teachings - Part 26
 
+# A Essência da Medicina
+
+**Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 医学とは何ぞや | **Status:** Published
+
+## A Essência da Medicina
+
+Indubitavelmente, a Medicina tem por finalidade curar todas as enfermidades, aprimorar a saúde da nação e, por conseguinte, contribuir para o progresso do país. É precisamente por essa razão que o governo lhe concede um tratamento privilegiado, situando-a entre os mais importantes setores da estrutura nacional. Ademais, considerando que a Medicina detém a chave para a solução da premente questão dos recursos humanos, a magnitude de sua missão é, pois, indiscutível.
+
+Até o presente momento, vali-me da teoria e da comprovação prática para apontar a totalidade dos equívocos da medicina ocidental. Contudo, subsiste uma questão que não pode ser negligenciada, a qual já abordei anteriormente: a saúde dos próprios médicos e de seus familiares. Em meu entender, se a medicina moderna tivesse de fato evoluído em seu sentido mais autêntico, essa evolução deveria manifestar-se por meio de evidências concretas. Por mais que se elaborem teorias acadêmicas, que se anunciem novas teses ou que se exalte o avanço de medicamentos, equipamentos e métodos, tudo isso se esvazia de significado se não demonstrar eficácia na prática.
+
+Portanto, sustento que, se a medicina verdadeiramente progrediu, ela tem o dever de apresentar ao mundo as provas concretas desse avanço, compelindo ao silêncio críticos como nós. Caso se mostre incapaz de fazê-lo, a expressão "progresso da medicina" não passará de uma fórmula vazia. E, sendo assim, não seria o caso de dissolver a medicina ocidental e reconstruí-la sobre os alicerces de uma nova teoria, fundamentada nos fatos? Minhas palavras podem soar extremas, mas não as lanço ao vento. Há razões sólidas para tal postulado, as quais passarei a dissecar sem reservas.
+
+A prova mais contundente para atestar o valor da medicina ocidental seria, como já mencionei, demonstrar que a saúde dos médicos e de seus familiares se encontra em um patamar superior à média da população. No entanto, ao observarmos a realidade, encontramos indícios que sugerem justamente o contrário: um padrão de saúde inferior ao do cidadão comum. Refiro-me à curta expectativa de vida dos doutores em medicina, à alta taxa de morbidade entre os próprios médicos, à fragilidade de seus familiares e, ainda, à elevada proporção de filhos de médicos acometidos pela tuberculose. É de se supor que os médicos, zelando pela própria vida, adotem as mais meticulosas precauções. Da mesma forma, ao se depararem com um familiar enfermo, certamente lhe dispensariam o melhor tratamento desde os primeiros sinais, não havendo, em tese, margem para agravamentos por diagnóstico tardio. Se, apesar de tudo isso, os fatos são os que apresentei, o conceito de medicina preventiva, tão difundido ultimamente, revela-se desprovido de sentido, pois os próprios médicos já demonstraram, em si mesmos, a dificuldade de prevenir as doenças.
+
+Sendo assim, para que a medicina ocidental demonstre à sociedade seu genuíno progresso, o passo fundamental seria exibir um nível de saúde entre os médicos e suas famílias que fosse muito superior ao da população em geral. Ao testemunhar tal fato, o povo não teria como deixar de reconhecer o avanço da medicina ocidental. Isso, porém, é provavelmente impossível. Não obstante, as autoridades e os especialistas insistem em apontar a falta de conhecimento de higiene da população e tentam impor vacinas e outros métodos de forma coercitiva. O fato de haver uma parcela considerável da nação que evita ou ignora tais medidas é a prova cabal de que o povo não deposita confiança irrestrita na medicina ocidental. Por conseguinte, os responsáveis deveriam, antes de tudo, refletir sobre essa realidade.
+
+Mesmo as massas sabem o quão preciosa é a vida. Como mencionado, quando os cidadãos percebem que a saúde dos médicos e de suas famílias é precária, e quando chegam a seus ouvidos casos, ainda que raros, de morte súbita após vacinas contra febre tifoide, ou de estados de quase morte por vacina contra difteria, é natural que nutram um sentimento de apreensão. Acrescente-se a isso o número não desprezível de vidas ceifadas por erros cirúrgicos. Anos atrás, ouvi dizer que um certo cirurgião de renome operava seus pacientes com prazer, mas jamais realizava cirurgias em seus próprios familiares e parentes, por receio de cometer um erro.
+
+Tudo isso ocorre porque a medicina ocidental não demonstra eficácia de modo concreto. Na verdade, talvez seja mais correto dizer que ela é incapaz de demonstrá-la. Como resultado, é inevitável que a moxabustão e as terapias populares floresçam nos dias de hoje. É um fato inegável que, atualmente, aqueles que prezam a teoria recorrem à medicina, enquanto os que prezam os resultados práticos buscam as terapias populares.
+
+Não há necessidade de nos estendermos. Enquanto a medicina ocidental não comprovar que possui eficácia garantida contra todas as doenças e que está isenta de quaisquer efeitos adversos, será impossível obter a confiança plena da nação. Se, porventura, tal eficácia se tornasse realidade, o próprio povo passaria a solicitar as vacinas e qualquer hesitação diante de uma cirurgia se dissiparia. Naturalmente, tanto o método da moxabustão, criado pelos antigos indianos, quanto a medicina chinesa, desenvolvida há mais de dois mil anos, bem como as atuais terapias populares, desapareceriam por completo. A realidade, contudo, é o exato oposto, e ainda assim se continua a discursar sobre o progresso da medicina ocidental. Eis um paradoxo que permanece sem solução.
+
+Cumpre-me abordar mais um ponto de suma importância: as atuais campanhas de saúde pública e as diretrizes de combate à tuberculose. Visto que ambas se baseiam exclusivamente em métodos da medicina ocidental, quais serão seus resultados? Creio que não será possível alcançar um desempenho superior ao padrão de saúde observado nas famílias dos próprios médicos. Afinal, se os familiares, que são as pessoas mais próximas dos profissionais da medicina, não conseguem superar o nível de saúde da população em geral, a conclusão é lógica. Resta-me apenas nutrir a fervorosa esperança de que o vultoso dispêndio do tesouro nacional e a alocação de inúmeros recursos humanos para tais iniciativas não terminem em vão.
+
+Entretanto, ao se conhecer esta Arte Médica Japonesa, a saúde no lar eleva-se a um patamar muito superior à média, permitindo a construção de lares com saúde ideal. Isto é um fato. Em outras palavras, enquanto a medicina ocidental é extrínseca, esta Arte Médica é intrínseca. Nesse sentido, faço um apelo às autoridades: que não dependam exclusivamente da medicina ocidental, mas que investiguem e estudem todas as terapias populares, a fim de estabelecer uma política de saúde pública que tenha como pilar os resultados práticos.
+
+---
+
 # O Milagre do Johrei e a Falácia da Cura pela Sugestão
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
+**Título Original:** 医学と浄霊 | **Status:** Published
 
 ## O Milagre do Johrei e a Falácia da Cura pela Sugestão
 
@@ -33,6 +63,7 @@ E assim, o ponto central deste artigo é esclarecer um fato inequívoco: a cura 
 # A Revelação do Primeiro Mundo
 
 **Categoria:** i | **Ano:** 昭和26(1951)年7月4日 | **Fonte:** Eikou
+**Título Original:** 一の世界 | **Status:** Published
 
 ## A Revelação do Primeiro Mundo
 
@@ -61,6 +92,7 @@ Como se pode depreender do exposto, o fato de nossa Igreja manifestar, incessant
 # A Verdadeira Causa das Moléstias Gástricas e os Erros da Medicina
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 胃疾患・病患と医学の誤謬二 | **Status:** Published
 
 ## A Verdadeira Causa das Moléstias Gástricas e os Erros da Medicina
 
@@ -97,6 +129,7 @@ Há também casos extremamente raros em que uma pessoa, sem fazer uso de medicam
 # A Medicina como Agravante das Enfermidades
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月24日 | **Fonte:** Eikou
+**Título Original:** 医療が病気を悪化させる | **Status:** Published
 
 ## A Medicina como Agravante das Enfermidades
 
@@ -140,6 +173,7 @@ Meishu-Sama, muito obrigada.
 # Sobre as Qualificações Médicas
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 医師の資格 | **Status:** Published
 
 ## Sobre as Qualificações Médicas
 
@@ -172,6 +206,7 @@ Consta que, durante o Período Tokugawa, os médicos a quem se conferia o títul
 # A Superstição da Medicina Moderna
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
+**Título Original:** 医学療法と信仰療法 | **Status:** Published
 
 ## A Superstição da Medicina Moderna
 
@@ -196,6 +231,7 @@ Pelo exposto, a confiança na medicina é, portanto, de cem por cento, enquanto 
 # A Ilusão da Cura Moderna
 
 **Categoria:** i | **Ano:** 昭和27(1952)年3月19日 | **Fonte:** Eikou
+**Título Original:** 医学の盲点 医学断片集（３） | **Status:** Published
 
 ## A Ilusão da Cura Moderna
 
@@ -212,6 +248,7 @@ Diante de tal realidade, anseio por levar ao conhecimento de toda a humanidade, 
 # O Equívoco Fundamental da Medicina
 
 **Categoria:** i | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 医学の誤謬 自観叢書10編 | **Status:** Published
 
 ## O Equívoco Fundamental da Medicina
 
@@ -232,6 +269,7 @@ A seguir, passarei a expor a teoria supracitada de forma pormenorizada.
 # A Insipiência da Medicina Contemporânea
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学の出鱈目 未発表 | **Status:** Unpublished
 
 ## A Insipiência da Medicina Contemporânea
 
@@ -246,6 +284,7 @@ Não tenho a intenção de tecer críticas gratuitas à medicina. Todavia, diant
 # A Medicina é uma Ciência?
 
 **Categoria:** i | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 医学は科学か | **Status:** Published
 
 ## A Medicina é uma Ciência?
 
@@ -297,6 +336,7 @@ Tendo em vista os exemplos citados, a crença no progresso da medicina não pass
 # Como a Medicina Gera a Tuberculose
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学が結核を作る事実 未発表 | **Status:** Unpublished
 
 ## Como a Medicina Gera a Tuberculose
 
@@ -311,6 +351,7 @@ Ao se analisar sua trajetória, a verdade de que os tratamentos médicos agravam
 # A Falácia da Medicina Contemporânea
 
 **Categoria:** i | **Ano:** 昭和29(1954)年2月10日 | **Fonte:** Eikou
+**Título Original:** 医学と薬剤の批判 | **Status:** Published
 
 ## A Falácia da Medicina Contemporânea
 
@@ -356,6 +397,7 @@ Até esse dia, oro para que o amigo se empenhe ao máximo em sua jornada.
 # O Engano por Trás da Queda da Mortalidade
 
 **Categoria:** i | **Ano:** 昭和24(1949)年8月20日 | **Fonte:** -
+**Título Original:** 意外な話 | **Status:** Published
 
 ## O Engano por Trás da Queda da Mortalidade
 
@@ -374,6 +416,7 @@ Considerando, ademais, que o Japão chegou ao ponto de implementar políticas de
 # A Reforma da Associação Médica
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 医師会に就て | **Status:** Published
 
 ## A Reforma da Associação Médica
 
@@ -390,6 +433,7 @@ Ademais, torna-se cada vez mais patente que os métodos materialistas da medicin
 # A Incomparável Superioridade do Johrei
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月20日 | **Fonte:** Eikou
+**Título Original:** 医療〔学〕と浄霊 | **Status:** Published
 
 ## A Incomparável Superioridade do Johrei
 
@@ -426,6 +470,7 @@ Nossa felicidade atual, devemos inteiramente a Meishu-Sama. Muito obrigado. Apre
 # O Infortúnio dos Intelectuais
 
 **Categoria:** i | **Ano:** 昭和26(1951)年1月31日 | **Fonte:** Eikou
+**Título Original:** インテリの悲哀 | **Status:** Published
 
 ## O Infortúnio dos Intelectuais
 
@@ -459,6 +504,7 @@ E o que seria esse obstáculo? É, como já se pode deduzir, a própria supersti
 # A Perspectiva Pecaminosa da Medicina
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月3日 | **Fonte:** Eikou
+**Título Original:** 医学の罪悪観 | **Status:** Published
 
 ## A Perspectiva Pecaminosa da Medicina
 
@@ -483,6 +529,7 @@ Portanto, ao se compreender a verdade, percebe-se que os prejuízos da medicina 
 # O Que É a Medicina?
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 医学とは何ぞや | **Status:** Published
 
 ## O Que É a Medicina?
 
@@ -511,6 +558,7 @@ Em contrapartida, por meio desta Arte Médica Japonesa, a saúde das famílias e
 # A Postura de um Deus Vivo
 
 **Categoria:** i | **Ano:** 昭和25(1950)年5月13日 | **Fonte:** Kyusei
+**Título Original:** 生神様 | **Status:** Published
 
 ## A Postura de um Deus Vivo
 
@@ -533,6 +581,7 @@ A esse respeito, recordo-me de uma jornalista da revista *Fujin Koron* que, em r
 # Acerca da Associação Médica
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 医師会に就て | **Status:** Published
 
 ## Acerca da Associação Médica
 
@@ -549,6 +598,7 @@ Ademais, os fatos não se limitam a essa perspectiva. Torna-se cada vez mais evi
 # O Engano da Medicina
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月3日 | **Fonte:** Eikou
+**Título Original:** 医学被害者の告白 | **Status:** Published
 
 ## O Engano da Medicina
 
@@ -592,6 +642,7 @@ Meishu-Sama, muito, muito obrigada.
 # A Realidade da Medicina
 
 **Categoria:** i | **Ano:** 昭和29(1954)年3月17日 | **Fonte:** Eikou
+**Título Original:** 医学の実体 | **Status:** Published
 
 ## A Realidade da Medicina
 
@@ -627,6 +678,7 @@ Meishu-Sama, muito obrigada por Vossa imensa proteção. Rogo que continue a me 
 # A Epidemia de Causa Ignorada
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 医学不明の流行病 | **Status:** Published
 
 ## A Epidemia de Causa Ignorada
 
@@ -647,6 +699,7 @@ Esta enfermidade é mais comum em pessoas das classes média e alta, apresentand
 # A Superstição da Medicina Moderna
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学は迷信なり 医学関 係 御論文集 | **Status:** Unknown
 
 ## A Superstição da Medicina Moderna
 
@@ -687,6 +740,7 @@ A seguir, explicarei como essa colossal crendice foi construída.
 # Pela Erradicação da Mentalidade de Dependência
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月27日 | **Fonte:** Eikou
+**Título Original:** 依頼心を去れ | **Status:** Published
 
 ## Pela Erradicação da Mentalidade de Dependência
 
@@ -707,6 +761,7 @@ Sei que, ao dizer isso, parece que não tenho o direito de pregar sobre a erradi
 # A Origem de Todo Infortúnio é a Doença
 
 **Categoria:** i | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
+**Título Original:** 一切の不幸は病気から | **Status:** Published
 
 ## A Origem de Todo Infortúnio é a Doença
 
@@ -729,6 +784,7 @@ Em contrapartida, nossa Igreja também se empenha ao máximo em sua missão de e
 # Os Crimes da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学の罪悪１ 未発表 | **Status:** Unpublished
 
 ## Os Crimes da Medicina
 
@@ -743,6 +799,7 @@ Ao ler o relato do paciente, cujo histórico omitimos aqui, descrevendo sua evol
 # A Razoabilidade do Johrei e a Contradição da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学と浄霊 未発表 | **Status:** Unpublished
 
 ## A Razoabilidade do Johrei e a Contradição da Medicina
 
@@ -756,7 +813,8 @@ Nesse sentido, a causa fundamental por trás dessa disparidade de resultados é 
 
 # O Paradoxo entre o Avanço da Medicina e a Longevidade
 
-**Categoria:** i | **Ano:** - | **Fonte:** 医学の進歩と寿命
+**Categoria:** i | **Ano:** - | **Fonte:** Kenko
+**Título Original:** 医学の進歩と寿命 | **Status:** Unpublished
 
 ## O Paradoxo entre o Avanço da Medicina e a Longevidade
 
@@ -783,6 +841,7 @@ Então, qual seria a melhor solução para este problema? É o que passarei a ex
 # O Significado dos Santuários Inari
 
 **Categoria:** i | **Ano:** 昭和24(1949)年7月23日 | **Fonte:** -
+**Título Original:** 稲荷の意味 | **Status:** Published
 
 ## O Significado dos Santuários Inari
 
@@ -801,6 +860,7 @@ Por conseguinte, não se deve dirigir a ela nenhuma prece que não seja pela abu
 # A Visão de um Médico sobre os Medicamentos
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 医家の観たる医薬 | **Status:** Published
 
 ## A Visão de um Médico sobre os Medicamentos
 
@@ -868,6 +928,7 @@ Em suma, a concepção que os médicos modernos têm sobre os medicamentos é ca
 # O Terror da Superstição Médica
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学迷信の恐ろしさ 未発表 | **Status:** Unpublished
 
 ## O Terror da Superstição Médica
 
@@ -884,6 +945,7 @@ Nesse sentido, tenho me empenhado em apontar, com a devida ousadia, os equívoco
 # A Medicina seria uma Superstição?
 
 **Categoria:** i | **Ano:** 昭和28(1953)年11月18日 | **Fonte:** Eikou
+**Título Original:** 医学は迷信か | **Status:** Published
 
 ## A Medicina seria uma Superstição?
 
@@ -908,6 +970,7 @@ Há, ainda, um outro fato surpreendente que passa despercebido à maioria das pe
 # A Falácia da Medicina Moderna: Dois Relatos Contrastantes
 
 **Categoria:** i | **Ano:** 昭和26(1951)年7月4日 | **Fonte:** Eikou
+**Título Original:** 医学の盲点 二つの反対の例 | **Status:** Published
 
 ## A Falácia da Medicina Moderna: Dois Relatos Contrastantes
 
@@ -962,6 +1025,7 @@ Peço perdão por me estender tanto, mas o fiz movida pela imensa alegria que tr
 # A Medicina é uma Ciência?
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
+**Título Original:** 医学は科学？ | **Status:** Published
 
 ## A Medicina é uma Ciência?
 
@@ -980,6 +1044,7 @@ E por que o Johrei possui tamanha eficácia? Porque ele torna possível a dissol
 # Sobre a Qualificação dos Médicos
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 医師の資格 | **Status:** Published
 
 ## Sobre a Qualificação dos Médicos
 
@@ -1014,6 +1079,7 @@ Sabe-se que, no Período Tokugawa, os médicos que alcançaram a fama de “gran
 # Uma Certa Forma de Desrespeito
 
 **Categoria:** i | **Ano:** 昭和10(1935)年6月 | **Fonte:** Toho no Hikari
+**Título Original:** 一種の不敬 | **Status:** Published
 
 ## Uma Certa Forma de Desrespeito
 
@@ -1042,6 +1108,7 @@ Aproveitar-se do fato de que ninguém ousa questionar assuntos relativos à Casa
 # A medicina que produz tragédias
 
 **Categoria:** i | **Ano:** 昭和27(1952)年1月23日 | **Fonte:** Eikou
+**Título Original:** 医学が悲劇を作る | **Status:** Published
 
 ## A medicina que produz tragédias
 
@@ -1100,6 +1167,7 @@ Em primeiro de maio, peregrinei a Atami e, em primeiro de julho, a Gora. Pude ve
 # Reflexões sobre a Natureza da Vida
 
 **Categoria:** i | **Ano:** 昭和10(1935)年8月16日 | **Fonte:** Toho no Hikari
+**Título Original:** 生命ちゅもの 阿呆文学 | **Status:** Published
 
 ## Reflexões sobre a Natureza da Vida
 
@@ -1114,6 +1182,7 @@ Portanto, meus caros, ao se encontrarem à beira de um rio ou em dias de forte v
 # O Agravo da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学の罪悪２ 未発表 | **Status:** Unpublished
 
 ## O Agravo da Medicina
 
@@ -1134,6 +1203,7 @@ Minhas palavras podem soar extremas, todavia, sou compelido a expressá-las dest
 # Acerca das Substâncias Estranhas ao Organismo
 
 **Categoria:** i | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策
+**Título Original:** 異食物に就て | **Status:** Published
 
 ## Acerca das Substâncias Estranhas ao Organismo
 
@@ -1164,6 +1234,7 @@ Os exemplos que apresentei são apenas alguns dentre inúmeros casos semelhantes
 # Não se trata de um desafio à medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年6月24日 | **Fonte:** Eikou
+**Título Original:** 医学に対する挑戦ではない | **Status:** Published
 
 ## Não se trata de um desafio à medicina
 
@@ -1204,6 +1275,7 @@ Meishu-Sama, muito, muito obrigado. Expresso minha mais profunda gratidão.
 # Os Equívocos da Medicina sob Diversas Perspectivas
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 医療誤点の種々相 | **Status:** Published
 
 ## Os Equívocos da Medicina sob Diversas Perspectivas
 
@@ -1240,6 +1312,7 @@ Nós, por outro lado, postulamos que a causa de todas as doenças é uma só. A 
 # A Verdadeira Causa das Doenças do Estômago
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 胃疾患 ・病患と医学の誤謬二 | **Status:** Published
 
 ## A Verdadeira Causa das Doenças do Estômago
 
@@ -1278,6 +1351,7 @@ Por fim, existem casos extremamente raros em que a pessoa expele sangue pela boc
 # A Verdadeira Natureza da Doença e da Cura
 
 **Categoria:** i | **Ano:** 昭和14(1939)年 | **Fonte:** 医学試稿
+**Título Original:** 医学試稿 | **Status:** Unpublished
 
 ## A Verdadeira Natureza da Doença e da Cura
 
@@ -1775,6 +1849,7 @@ Os sintomas se manifestam principalmente no rosto, cabeça e costas. A área afe
 # Sobre as Moléstias Gástricas e Cardíacas
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 胃病と心臓病 未発表 | **Status:** Unpublished
 
 ## Sobre as Moléstias Gástricas e Cardíacas
 
@@ -1822,7 +1897,8 @@ O que descrevi acima é a angina comum. Existe, contudo, uma condição semelhan
 
 # O Caráter Anticientífico da Medicina
 
-**Categoria:** i | **Ano:** 昭和11(1936)年5月29日 | **Fonte:** 医学は非科学的なり
+**Categoria:** i | **Ano:** 昭和11(1936)年5月29日 | **Fonte:** Kenko
+**Título Original:** 医学は非科学的なり | **Status:** Unpublished
 
 ## O Caráter Anticientífico da Medicina
 
@@ -1851,6 +1927,7 @@ Como exposto, visto que a patologia e a etiologia carecem de qualquer fundamento
 # O Veredito sobre a Medicina Moderna
 
 **Categoria:** i | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
+**Título Original:** 医学とは何ぞや | **Status:** Published
 
 ## O Veredito sobre a Medicina Moderna
 
@@ -1879,6 +1956,7 @@ Em contrapartida, ao conhecer esta arte de cura, a saúde das famílias eleva-se
 # A Verdade sobre as Doenças do Estômago
 
 **Categoria:** i | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 胃病 未発表 | **Status:** Unpublished
 
 ## A Verdade sobre as Doenças do Estômago
 
@@ -1911,6 +1989,7 @@ Finalmente, abordarei o câncer de estômago. Existem dois tipos: o pseudo-cânc
 # A Verdadeira Natureza do Impasse
 
 **Categoria:** i | **Ano:** 昭和27(1952)年10月29日 | **Fonte:** Eikou
+**Título Original:** 行詰り | **Status:** Published
 
 ## A Verdadeira Natureza do Impasse
 
@@ -1931,6 +2010,7 @@ O ser humano deve, em seu dia a dia, esmerar-se em polir sua sabedoria. E, para 
 # Sobre a Qualificação Médica
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 医師の資格 | **Status:** Published
 
 ## Sobre a Qualificação Médica
 
@@ -1963,6 +2043,7 @@ Consta que os médicos do Período Tokugawa, aclamados como mestres em sua arte,
 # Relatos sobre os Espíritos Vivos
 
 **Categoria:** i | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 生霊 自観叢書第3編 | **Status:** Published
 
 ## Relatos sobre os Espíritos Vivos
 
@@ -1997,6 +2078,7 @@ Ademais, existem também os espíritos vivos de raposas. Seu corpo físico perma
 # Um Exemplo das Vítimas da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医療被害者の一例 未発表 | **Status:** Unpublished
 
 ## Um Exemplo das Vítimas da Medicina
 
@@ -2013,6 +2095,7 @@ Se assim o é, reside também uma culpa nessas terapias pela fé. Tal culpa cons
 # Uma Análise Crítica da Medicina
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 医学とは何ぞや | **Status:** Published
 
 ## Uma Análise Crítica da Medicina
 
@@ -2041,6 +2124,7 @@ Em contrapartida, os ministrantes desta arte de curar e suas famílias, bem como
 # Uma Tragicomédia
 
 **Categoria:** i | **Ano:** 昭和29(1954)年3月10日 | **Fonte:** Eikou
+**Título Original:** 一種の悲喜劇 | **Status:** Published
 
 ## Uma Tragicomédia
 
@@ -2074,6 +2158,7 @@ Por tudo isso, minha gratidão a Meishu-Sama é infinita. Peço perdão pela cal
 # Os Paradoxos da Medicina Moderna
 
 **Categoria:** i | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 医学とは何ぞや | **Status:** Published
 
 ## Os Paradoxos da Medicina Moderna
 
@@ -2102,6 +2187,7 @@ Em contrapartida, ao conhecer esta arte médica, a saúde das famílias eleva-se
 # Uma Proposta para a Ordem dos Médicos
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 医師会に就て | **Status:** Published
 
 ## Uma Proposta para a Ordem dos Médicos
 
@@ -2120,6 +2206,7 @@ Por todas essas razões, reafirmo aqui a necessidade premente de se reformar a O
 # A Superação da Ira
 
 **Categoria:** i | **Ano:** 昭和26(1951)年5月30日 | **Fonte:** Eikou
+**Título Original:** 怒りを克服する | **Status:** Published
 
 ## A Superação da Ira
 
@@ -2140,6 +2227,7 @@ Ademais, o Johrei pode ser tanto autoaplicado como ministrado por outra pessoa, 
 # Análise Comparativa com a Terapia de Shiatsu Convencional
 
 **Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
+**Título Original:** 一、一般指圧療法との比較 | **Status:** Unknown
 
 ## Análise Comparativa com a Terapia de Shiatsu Convencional
 
@@ -2154,6 +2242,7 @@ Em contrapartida, a terapia de shiatsu por mim idealizada tem como alicerce o Po
 # A Posição de um Renomado Médico sobre a Eletroterapia
 
 **Categoria:** i | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
+**Título Original:** 医師が電療に反対する | **Status:** Published
 
 ## A Posição de um Renomado Médico sobre a Eletroterapia
 
@@ -2174,6 +2263,7 @@ Como este exemplo demonstra, ele possuía um caráter alheio às convenções mu
 # Sobre os Alimentos Estranhos ao Organismo
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 異食物に就て | **Status:** Published
 
 ## Sobre os Alimentos Estranhos ao Organismo
 
@@ -2198,6 +2288,7 @@ Diante de tais exemplos, torna-se um fato inquestionável que as substâncias es
 # A Verdadeira Causa das Enfermidades Estomacais
 
 **Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 胃疾患 | **Status:** Published
 
 ## A Verdadeira Causa das Enfermidades Estomacais
 
@@ -2234,6 +2325,7 @@ Existe, ademais, uma condição extremamente rara em que a pessoa apresenta vôm
 # Medicina: Arte Benevolente ou Prática Deletéria?
 
 **Categoria:** i | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Eikou
+**Título Original:** 医は果して仁術か〔無題〕 | **Status:** Published
 
 ## Medicina: Arte Benevolente ou Prática Deletéria?
 
@@ -2281,6 +2373,7 @@ Meishu-Sama, muito, muito obrigada. Com minha mais profunda e reiterada gratidã
 # A Guerra Ítalo-Etíope e a Ilusão dos Liberais
 
 **Categoria:** i | **Ano:** 昭和11(1936)年5月3日 | **Fonte:** 伊エ戦争と自由主義者の錯覚
+**Título Original:** 伊エ戦争と自由主義者の錯覚 | **Status:** Unpublished
 
 ## A Guerra Ítalo-Etíope e a Ilusão dos Liberais
 
@@ -2305,6 +2398,7 @@ Sendo assim, o argumento que invoca o exemplo da Etiópia é irrelevante. O verd
 # A Invalidez do Intelectual
 
 **Categoria:** i | **Ano:** 昭和26(1951)年10月31日 | **Fonte:** Eikou
+**Título Original:** インテリの不具者 | **Status:** Published
 
 ## A Invalidez do Intelectual
 
@@ -2321,6 +2415,7 @@ Diante disso, a Igreja Messiânica pode ser compreendida como um grande hospital
 # O Caráter Transitório da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医療は一時的 未発表 | **Status:** Unpublished
 
 ## O Caráter Transitório da Medicina
 
@@ -2335,6 +2430,7 @@ Ademais, cumpre ressaltar que esta criada havia concluído seu aprimoramento há
 # A Incontestável Superioridade do Johrei sobre a Prática Médica
 
 **Categoria:** i | **Ano:** 昭和26(1951)年4月25日 | **Fonte:** Eikou
+**Título Original:** 医学との比較 | **Status:** Published
 
 ## A Incontestável Superioridade do Johrei sobre a Prática Médica
 
@@ -2376,6 +2472,7 @@ Este é o meu primeiro relato.
 # O Ponto Cego da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学の盲点 未発表 | **Status:** Unpublished
 
 ## O Ponto Cego da Medicina
 
@@ -2390,6 +2487,7 @@ Nesse sentido, considerar avançada uma medicina tão pouco confiável e seguir 
 # As Múltiplas Facetas do Equívoco Médico
 
 **Categoria:** i | **Ano:** 昭和27(1952)年4月16日 | **Fonte:** Eikou
+**Título Original:** 医療誤点の種々相 | **Status:** Published
 
 ## As Múltiplas Facetas do Equívoco Médico
 
@@ -2426,6 +2524,7 @@ A prova cabal do que exponho é o tratamento de nossa Igreja: com um único mét
 # A Sacralização da Medicina
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 医学の神聖化 | **Status:** Published
 
 ## A Sacralização da Medicina
 
@@ -2452,6 +2551,7 @@ Sei, no entanto, que existe um número considerável de médicos experientes e c
 # A Cegueira da Medicina e o Poder Natural de Cura
 
 **Categoria:** i | **Ano:** 昭和26(1951)年7月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 医学の盲点と自然良能力 | **Status:** Published
 
 ## A Cegueira da Medicina e o Poder Natural de Cura
 
@@ -2484,6 +2584,7 @@ Diante do exposto, compreendemos que o ser humano foi agraciado por Deus com um 
 # As Lentes Obscuras da Ciência
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 色眼鏡 未発表 | **Status:** Unpublished
 
 ## As Lentes Obscuras da Ciência
 
@@ -2495,7 +2596,8 @@ Este caso, portanto, evidencia de maneira irrefutável a verdade de que os remé
 
 # Todas as Calamidades são Ações Purificadoras
 
-**Categoria:** i | **Ano:** - | **Fonte:** 一切の災は浄化作用なり
+**Categoria:** i | **Ano:** - | **Fonte:** Kenko
+**Título Original:** 一切の災は浄化作用なり | **Status:** Unpublished
 
 ## Todas as Calamidades são Ações Purificadoras
 
@@ -2516,6 +2618,7 @@ Conforme o exposto, a sociedade atual assemelha-se a um verdadeiro inferno, no q
 # A rápida cura de minha dor abdominal e a milagrosa recuperação de meu irmão
 
 **Categoria:** i | **Ano:** 昭和28(1953)年1月7日 | **Fonte:** Eikou
+**Título Original:** 医学と浄霊との比較 | **Status:** Published
 
 ## A rápida cura de minha dor abdominal e a milagrosa recuperação de meu irmão
 
@@ -2565,6 +2668,7 @@ Muito obrigado, Meishu-Sama.
 # Uma Análise da Medicina pela Ótica de um Médico
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 医家より観たる医学 | **Status:** Published
 
 ## Uma Análise da Medicina pela Ótica de um Médico
 
@@ -2692,6 +2796,7 @@ Eu mesmo recebi uma educação médica moderna e, graças a ela, alcancei a posi
 # A Medicina e o Poder da Mente
 
 **Categoria:** i | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
+**Título Original:** 医療と観念 | **Status:** Published
 
 ## A Medicina e o Poder da Mente
 
@@ -2706,80 +2811,6 @@ Permitam-me apresentar um exemplo que ilustra o oposto. Os doentes que nos procu
 Com frequência, deparamo-nos com a seguinte situação: um paciente nos relata ter experimentado todas as terapias existentes sem sucesso e, por conseguinte, já não consegue acreditar em nenhuma promessa de cura. Então, ele nos faz uma proposta: pagar pelo tratamento somente após a sua completa recuperação. Este único fato é suficiente para que se possa inferir o verdadeiro estado psicológico com que os doentes nos procuram. É desnecessário dizer, portanto, o quão mais intensa é a convicção de cura ao se buscar a medicina convencional.
 
 Conforme o exposto, se a medicina, que deveria gozar de absoluta vantagem tanto em seus métodos quanto na convicção dos pacientes, não consegue promover a cura; e se nós, posicionados nas circunstâncias mais desfavoráveis, obtemos resultados concretos na recuperação da saúde, então, este é um fato que nos compele a uma profunda reflexão.
-
----
-
-# A Questão das Substâncias Estranhas ao Organismo
-
-**Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
-
-## A Questão das Substâncias Estranhas ao Organismo
-
-Embora eu já tenha discorrido detalhadamente sobre a nocividade das toxinas medicinais e dos alimentos inadequados, sinto a necessidade de aprofundar ainda mais o assunto. A função digestiva do ser humano, ao que tudo indica, não é capaz de processar integralmente qualquer substância que não tenha sido provida pela Natureza como alimento para o homem. Nesse sentido, os fármacos, sejam da medicina ocidental ou oriental, não constituem alimentos concedidos pelo Céu. São, por assim dizer, substâncias não alimentares, corpos estranhos ao organismo. De igual modo, engolir serpentes, lesmas, minhocas ou beber o sangue cru de outros seres vivos a título de remédio são práticas que introduzem igualmente corpos estranhos, cujas toxinas permanecem no organismo.
-
-Ademais, nos últimos tempos, tem-se recomendado a ingestão de ossos sob o pretexto de suplementar o cálcio; contudo, é desnecessário dizer que tal prática é um equívoco. Em relação a qualquer peixe, o natural é que se consuma sua carne e se descartem as espinhas, a cabeça e a cauda. A evidência disso se encontra na própria constituição da dentição humana, inapta para roer estruturas como os ossos. Por conseguinte, a Natureza determinou que ossos e afins sejam o alimento dos felinos. É preciso que se desperte o quanto antes para a falácia por trás de teorias simplistas como a de comer ossos para nutrir os ossos ou de beber sangue para aumentar o volume sanguíneo. A seguir, apresentarei alguns exemplos concretos que ilustram o que foi exposto.
-
-Certa vez, ouvi o relato de uma senhora que por muitos anos atuou como enfermeira-chefe em um hospital. Um homem de pouco mais de quarenta anos faleceu subitamente sem causa aparente. Ao submeterem o corpo à autópsia para investigar a causa do óbito, descobriu-se um grande acúmulo de pequenos grânulos escuros em seu intestino, o que foi identificado como a causa da morte. Tratava-se de pílulas laxativas que ele havia ingerido ao longo de muitos anos para combater a constipação intestinal. Pode-se supor que o óbito tenha sido causado por uma obstrução intestinal ou pela paralisia do movimento peristáltico, mas o fato inegável é que a causa da morte foi o acúmulo das pílulas laxativas.
-
-Houve também o caso de um homem de aproximadamente cinquenta anos que faleceu de forma súbita por uma razão semelhante. A única diferença residia na natureza da substância: não se tratava de um laxante, mas sim do uso contínuo de um pó digestivo, semelhante a um antiácido. O resultado da autópsia revelou um depósito maciço desse pó no fundo do estômago e ao longo do trato intestinal.
-
-Outro caso refere-se a um paciente com uma enfermidade gástrica que foi tratado por um de meus discípulos. Ele apresentava pequenos nódulos na parte inferior do estômago, que lhe causavam um desconforto constante. Pouco tempo após iniciar o nosso tratamento, o paciente teve diversos episódios de vômito. Com isso, os referidos nódulos desapareceram, e a sensação de mal-estar cessou.
-
-Ocorre que, durante o vômito, ele expeliu uma substância viscosa com um odor característico de lesmas. O homem então se recordou de que, mais de uma década antes, havia engolido algumas lesmas, as quais, evidentemente, permaneceram sem ser digeridas em seu organismo.
-
-De forma análoga, há o relato de uma cantora profissional que, na esperança de aprimorar sua voz, engoliu duas lesmas. Passados alguns anos, surgiu um pequeno nódulo, semelhante a um tumor, do lado esquerdo de seu estômago, o qual se expandia gradualmente. Diante disso, ela foi internada e submetida a uma cirurgia. Para a surpresa de todos, constatou-se que uma das lesmas estava morta, solidificada em uma massa endurecida, enquanto a outra permanecia viva e havia crescido enormemente dentro de seu corpo.
-
-Esses exemplos demonstram que é um fato inquestionável que as substâncias estranhas ao organismo humano são de difícil digestão, podendo permanecer por anos no corpo e se tornar a origem de doenças.
-
-Portanto, conforme afirmei anteriormente, todo alimento destinado ao ser humano possui sabor e, ao ser consumido com prazer, é integralmente digerido, o que permite a manutenção da saúde. Contudo, por ignorância, há quem considere que substâncias de gosto ou odor desagradáveis são remédios e as ingere com sacrifício. Quando tal atitude se converte na causa de enfermidades que, além de grande sofrimento, chegam a ceifar a própria vida, não há palavras para descrever tamanha insensatez.
-
----
-
-# O Equívoco da Medicina e o Milagre da Salvação
-
-**Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-
-## O Equívoco da Medicina e o Milagre da Salvação
-
-A natureza aterradora da medicina moderna torna-se cada vez mais evidente à medida que se aprofunda na leitura destes relatos. Contudo, diante do fluxo incessante de testemunhos que chegam a mim, sinto-me impelido a tecer breves comentários sobre cada caso.
-
-O relato a seguir trata de uma senhora que, em decorrência de uma cesariana, passou a sofrer de enurese noturna. Na tentativa de curá-la, submeteram-na à extração do útero e dos ovários, mas o problema persistiu. Após dezenove anos de contínuo sofrimento, ela foi completamente curada com uma única ministração de Johrei. Trata-se, pois, de um verdadeiro milagre entre os milagres.
-
-O que pensaria um médico ao ler tal testemunho? Faltar-lhe-iam, provavelmente, as palavras. Essa mulher é o exemplo emblemático de uma vítima da medicina equivocada.
-
-É desnecessário dizer que a gestação é um processo natural. Se entregue à sua própria natureza, o parto transcorreria sem percalços, pois o Criador assim o determinou em Sua sabedoria. No entanto, a necessidade da cirurgia deveu-se, evidentemente, ao acúmulo de toxinas medicamentosas. Como consequência, ela desenvolveu a enurese e, na tentativa de sanar este novo mal, removeram-lhe os órgãos mais preciosos para uma mulher: o útero e os ovários.
-
-Ainda assim, a cura não veio. Em desespero, buscou amparo na fé, recorrendo a outras religiões, porém, em vão. Foi então que chegou à nossa Igreja. Este percurso de imenso sofrimento é uma narrativa que não se pode ler sem lágrimas.
-
-Ademais, em nossos dias, são inúmeras as pessoas que partilham de semelhante destino. Caso a nossa Igreja Messiânica Mundial não houvesse surgido, não se pode sequer imaginar por quanto tempo este mundo infernal perduraria.
-
----
-
-# Uma Análise sobre as Enfermidades Gástricas
-
-**Categoria:** i | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
-
-## Uma Análise sobre as Enfermidades Gástricas
-
-Entre os japoneses, as enfermidades gástricas figuram entre as mais prevalentes. Ainda que, em sua maioria, se iniciem com sintomas leves, a aplicação de terapias inadequadas e os equívocos no regime de vida e na alimentação acabam, gradualmente, por cronificá-las. Dessa forma, a maior parte dos casos evolui por um percurso de altos e baixos, culminando em um quadro de gravidade acentuada.
-
-Inicialmente, manifestam-se sintomas brandos como indigestão, azia e dores estomacais. A causa subjacente reside na pressão exercida por toxinas solidificadas na parte externa do estômago. Contudo, o verdadeiro problema emerge do tratamento convencional: o uso de digestivos e a ingestão de alimentos de fácil digestão. Tais métodos, embora ofereçam alívio temporário, promovem, com o uso contínuo, o enfraquecimento do estômago. Isso cria um ciclo vicioso: o paciente recorre novamente aos medicamentos, o estômago se debilita ainda mais e, por fim, a dependência dos digestivos se instala, cronificando a condição. Ademais, o uso prolongado de medicamentos torna a parede estomacal excessivamente flexível. Quando alimentos sólidos entram em contato com essa superfície fragilizada, podem ocorrer fissuras e sangramentos, configurando a úlcera gástrica. Portanto, sendo o uso contínuo de medicamentos a causa primordial da maioria das úlceras, a suspensão desses fármacos, aliada a uma dieta branda, conduz gradualmente à recuperação.
-
-Há também casos em que tumores na parede do estômago provocam sangramentos, que, com o tempo, manifestam-se em fezes com sangue ou vômitos sanguinolentos. Nessas situações, não é raro que os médicos diagnostiquem equivocadamente o quadro como úlcera gástrica. Tal condição, no entanto, pode ser completamente curada através de um processo de purificação natural. A alta incidência de úlceras em pessoas que consomem álcool em excesso deve-se menos ao álcool em si e mais aos medicamentos frequentemente utilizados após a sua ingestão. As toxinas medicamentosas exercem um efeito particularmente nocivo sobre a parede estomacal já congestionada pelo álcool.
-
-Passemos agora ao espasmo gástrico, caracterizado por dores agudas. Existem duas modalidades: a primeira ocorre quando a solidificação das toxinas se intensifica durante o primeiro processo de purificação, comprimindo o estômago; a segunda, quando as toxinas se dissolvem, no segundo processo de purificação. A primeira transcorre sem febre, ao passo que a segunda é acompanhada de febre e de mais fácil resolução. A origem de ambos os quadros reside em medicamentos que, ingeridos ao longo do tempo, retornam ao estômago, convertem-se em um tipo de toxina e ali se solidificam. A hiperacidez gástrica, por sua vez, também é consequência do uso de digestivos e das alterações químicas que estes provocam.
-
-Uma das enfermidades mais temidas pela sociedade é o câncer de estômago. É preciso distinguir, no entanto, entre o câncer gástrico genuíno e o pseudo-câncer. O primeiro, em sua maioria, possui causas espirituais, as quais abordarei posteriormente. Neste momento, debruçar-me-ei sobre os aspectos físicos de ambas as manifestações.
-
-Nos estágios iniciais do câncer gástrico, percebe-se um pequeno nódulo na parte superior externa do estômago ou na região epigástrica, conhecida como boca do estômago. O apetite pode diminuir um pouco, mas não há outras dores ou desconfortos. Diante desse quadro, a medicina frequentemente suspeita de câncer e recorre à remoção cirúrgica. Contudo, ainda que se observe uma melhora temporária após a cirurgia, a recidiva é comum. As estatísticas médicas revelam que, após a intervenção, a sobrevida média não ultrapassa dois anos e meio. Quando a cirurgia não é uma opção, o tratamento médico convencional recorre à radioterapia com rádio. Todavia, conforme já explanado em outras ocasiões, este método não apenas destrói o tecido canceroso, mas também os órgãos internos, resultando, na prática, em uma agravação do quadro.
-
-Com o avanço do câncer genuíno para seus estágios terminais, as toxinas cancerosas se alastram do estômago para o peritônio, a região dos rins e, nos casos mais severos, podem comprometer toda a parte superior do corpo. O paciente passa a vomitar abundantemente uma secreção viscosa e característica, ao mesmo tempo que o apetite diminui drasticamente, levando-o à morte por debilidade extrema. Essa secreção é o traço distintivo do câncer genuíno. Embora a progressão seja geralmente lenta, em alguns indivíduos pode ser assustadoramente rápida. Há casos raros em que a enfermidade acomete metade do corpo em apenas um ou dois dias.
-
-O câncer genuíno, quando em seu estágio inicial, pode ser completamente curado por meio de nossa arte, mas a partir de sua fase intermediária, a recuperação torna-se improvável. Uma característica marcante desta doença é a rápida perda de peso desde o início, chegando, em casos extremos, a uma redução de quase quatro quilos por mês. A pele perde o brilho e a elasticidade, e o paciente desenvolve uma anemia profunda, embora, paradoxalmente, sinta relativamente pouco desconforto ou dor. Esses sintomas permitem um diagnóstico preciso; no entanto, a medicina convencional, ao empregar seus diversos métodos de análise física, muitas vezes não consegue chegar a uma conclusão com facilidade.
-
-A medicina classifica a tuberculose como uma enfermidade consuntiva e o câncer como uma enfermidade proliferativa. Considera-se, também, que as toxinas do câncer são de natureza peculiar, distintas do pus, e, por isso, afirma-se que o câncer não possui germes. Sendo o câncer genuíno de origem espiritual, a medicina materialista é incapaz de identificar sua verdadeira causa e, consequentemente, de estabelecer um tratamento eficaz.
-
-Já o pseudo-câncer é causado pela solidificação de pus e sangue tóxico. Em seus estágios iniciais, assemelha-se ao câncer genuíno, com o surgimento de um nódulo que se estende progressivamente ao peritônio e à região dos rins. No entanto, sua cura é relativamente fácil, e a recuperação completa é a norma, desde que a debilidade do paciente não tenha ultrapassado um certo limite.
 
 ---
 

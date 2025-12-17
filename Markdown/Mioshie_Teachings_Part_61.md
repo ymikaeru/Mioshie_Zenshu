@@ -1,8 +1,1482 @@
 # Mioshie_Teachings - Part 61
 
+# O Mistério dos Números (O significado de um, dois e três)
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 想念言霊篇 | **Status:** Unknown
+
+## O Mistério dos Números (O significado de um, dois e três)
+
+O número um representa Deus em Sua essência primordial. O dois simboliza a divisão do espírito em duas polaridades: Takamimusubi e Kamimusubi. O três, por sua vez, representa a união dessas polaridades, o yin e o yang, que gera o filho, dando origem à trindade.
+
+## A Lógica Espiritual dos Números até Cem (Visão Geral), o Mistério do Cem, o Modelo do Mundo de Miroku e o Século XXI
+
+A seguir, discorrerei sobre a lógica espiritual dos números de um a vinte, bem como de trinta, quarenta, até o cem.
+
+O um é o princípio, a origem. No âmbito divino, corresponde ao Criador, o Deus Único e Verdadeiro. Na tradição japonesa, é representado por Ame-no-Minakanushi-no-Ookami.
+
+O dois representa o yin e o yang, as duas polaridades do espírito, que correspondem às divindades Takamimusubi e Kamimusubi. Eles se tornam o Pai e a Mãe. É a cisão que dá origem à dualidade.
+
+O três é o nascimento do filho, gerado a partir da união do yin e do yang.
+
+O quatro simboliza a expansão para as quatro direções cardeais: leste, oeste, norte e sul.
+
+O cinco representa a manifestação da força ativa do fogo, a geração de calor.
+
+O seis é o número da água. Pela ação do fogo, o gelo se derrete e se torna água. E, pela água, o fogo arde. O fogo é espírito; por meio dele, surgem a água e a terra, alcançando-se a primeira conclusão. "Muyu" (seis) significa “o fogo que arde”.
+
+O sete representa a conclusão, sendo empregado em assuntos de grande importância. Com ele, a Terra é completada. Seu som, "nana", deriva de "naru", que significa "tornar-se", "concretizar-se". A vibração espiritual de "naru" também remete ao ato de emitir um som que reverbera. Essa verdade não se restringe à Bíblia; a afirmação de que o Universo foi criado em sete dias é fidedigna. No Gênesis, relata-se que, no sétimo dia, a Criação foi concluída, seguida por um dia de descanso e celebração. Originalmente, o kanji para sete deveria ser o mesmo para terra (土), pois "na" significa terra.
+
+O oito representa a expansão, o surgimento de múltiplos números, a proliferação.
+
+O nove significa "esgotar", "levar ao ápice". É o desenvolvimento que atinge seu ponto culminante. É o cume da criação. Refere-se também ao "mar de Tsukushi" (Kyushu).
+
+O dez é a união do yin e do yang, do vertical e do horizontal. Representa a verdadeira conclusão. A cultura humana evolui até um certo ponto e, ao chegar ao dez, adquire força. Da união, emana a força. (Atualmente, as civilizações do Oriente e do Ocidente estão se unindo, aproximando-se da conclusão). (Vivemos agora na era do nove, a era de Tsukushi. A união das culturas oriental e ocidental é a missão da Igreja Messiânica).
+
+O onze é o recomeço que sucede a união. Este é o século XXI. Dois elementos se unem; o vinte representa o rei. O onze é o princípio; o vinte é a união que forma o rei. Aquele que está acima de tudo é o Senhor. O Deus Supremo passará a conduzir o Plano Divino para o mundo.
+
+Os números doze, treze e os seguintes possuem uma natureza diferente da sequência primordial de um a quatro, pois surgem após a conclusão temporária representada pelo dez.
+
+O cem corresponde a dez vezes dez e torna-se o modelo para o Mundo de Miroku (5-6-7). Em breve, serão erguidos cinco santuários de base quadrada. O número cem possui um profundo significado e lê-se "momo". Ele também pode ser decomposto nos ideogramas de "um" (一) e "branco" (白). O "um" (一) é o Céu; o traço "no" (ノ) representa a descida; e o "hi" (日), parte do ideograma de branco (白), é "su". Nisto reside um grande mistério.
+
+## O Mistério dos Números (Dezoito, Vinte e Três, Cem, Mil)
+
+Fomos informados de que os números ocultam um profundo mistério. Poderia nos elucidar sobre o significado de alguns deles?
+
+O um significa o início. O dois, a divisão. O dez é a união, a conclusão do plano vertical e horizontal. O onze é o recomeço que sucede a união, a unificação.
+
+O dezoito significa "unir e expandir", e refere-se a Kannon (観音).
+
+O vinte e três representa a atuação do corpo de manifestação. O ideograma de rei (王) é formado por dois "uns" (一) unidos; o três, lido como "mi" (ミ), representa "corpo" (身). Portanto, "vinte e três" simboliza o corpo do rei (王身).
+
+O cem representa dez vezes dez. Lendo-se "momo", possui um significado auspicioso. Também pode significar "uma braça" (hitohiro), o que também tem seu sentido, mas não posso explicá-lo de forma simples.
+
+O mil, lido como "chi", pode significar "espírito". Nomes como "Chiyo" não são favoráveis, pois, sendo "chi" o espírito, conferem à mulher uma natureza solitária. O ideograma de mil (千) também se decompõe em "no" (ノ) e "dez" (十). O "no" (ノ) possui um significado profundo.
+
+## O Significado dos Números (De Um a Onze)
+
+O um é o princípio; no momento da Criação, havia apenas um. O dois representa o Céu e a Terra, o esposo e a esposa. O três é o filho. O quatro é a força dos três que se expande para as quatro direções. O cinco é a atuação do fogo, a geração de calor. O seis é a água; o fogo que arde. O sete é a Terra. Na Criação, segundo o Xintoísmo, os elementos leves ascenderam para formar o Céu, e os pesados se tornaram a Terra. O oito representa o surgimento e a expansão de uma infinidade de coisas. É a proliferação. Diz-se "quatro direções e oito ventos" (shihouhappou), pois, quando se expande o espaço entre as quatro direções, obtêm-se oito. Adicionando-se o Céu e a Terra, temos as dez direções.
+
+O nove significa "esgotar", "abrir-se por completo", "atingir o ponto culminante". A ilha de Kyushu era chamada de Tsukushi.
+
+O dez é a conclusão. A verdadeira forma do dez é a sobreposição de duas cruzes (十), formando o ideograma para poço (井), que representa um quadrado no centro com projeções para as quatro direções.
+
+O onze é o recomeço após a conclusão.
+
+Dez é a união do vertical e do horizontal. O mundo atual encontra-se no estágio de nove partes e nove décimos, faltando apenas um décimo para atingir o dez. Esse elemento faltante é o Ensinamento de Miroku (5-6-7), o Ensinamento de Kannon (観音). (S *. 8. 7)
+
+## O Significado Numérico de 5, 6, 7, o Mistério do Ideograma de "Senhor" e o Significado do Ponto (ヽ)
+
+É ensinado que cinco representa o fogo, seis, a água, e sete, a terra. Rogo que nos esclareça sobre o espírito por trás dessas palavras.
+
+Essa é a ordem da Criação do Céu e da Terra. O fogo é espírito e corresponde ao número cinco.
+
+O Universo se dividiu em Céu e Terra, yin e yang, tornando-se dois. Com o nascimento do filho, tornaram-se três. O quatro é a expansão para as quatro direções, e a partir daí, surge a atividade do fogo, seguida pela água, pela terra e assim por diante.
+
+Com essa divisão, formaram-se o Céu e a Terra: o puro ascendeu ao Céu, e o impuro tornou-se a Terra.
+
+O oito representa a multiplicação. Fala-se em expansão para as oito direções, e grandes quantidades são representadas pelo número oito.
+
+O nove é o amadurecimento pleno, a culminância. É chamado "tsukushi". Antigamente, Kyushu era chamada de ilha de Tsukushi. Ao atingir nove partes e nove décimos, ocorre a Grande Transição, e o mundo se torna dez, alcançando a conclusão. É a união do espírito e da matéria.
+
+Os deuses unem; os budas desatam.
+
+O dez é Rei (王). O três é fogo, água e terra. Quando o ponto (ヽ) sobre o ideograma de Senhor (主) é removido, ele se torna o ideograma de Rei (王).
+
+Quando Susanoo-no-Mikoto aprisionou Amaterasu Oomikami, o mundo mergulhou na noite. Com o advento do Mundo do Dia, ele se tornará um deus. Os budas são manifestações dos deuses e, no final, retornarão à sua origem divina.
+
+O um é Deus, e o traço inferior do ideograma de correto (正) significa "parar", "deter-se".
+
+O Mundo das Trevas é o mundo de Otohime. O ideograma "ritsu" (立) representa o dragão, como em "Rissho Ankoku Ron". Otohime, que detém em suas mãos todos os tesouros do mundo, torna-se a Rainha Dragão. Contudo, desta vez, Otohime sofrerá terrivelmente. Incapaz de suportar o sofrimento de três invernos e três verões, ela devolverá seus tesouros a Deus, e eles se tornarão os objetos que Senju Kannon segura em suas mãos. Aquele que observa o mundo de Otohime é Kanzeon.
+
+O fogo tem a forma do ideograma "dai" (大), que se assemelha à figura humana. Por isso se diz que o ser humano é o primaz de toda a criação. O homem é um animal espiritual, enquanto os animais são seres materiais. A água tem a forma de uma besta. Assim, temos o yin e o yang.
+
+A água é o corpo; a terra é a matéria. O ideograma de terra (土) é composto por "um" (一), a grande terra, sobre a qual se cruza o "dez" (十), a interação do fogo e da água. Terra significa conclusão; diz-se que o Criador a fez no sétimo dia.
+
+O sete, lido como "na", tem a mesma sonoridade de "nari", "naru", que significa "tornar-se", "concretizar-se".
+
+O onze também significa unificação. Do nove para o dez ocorre a união, a conclusão, e com o onze, tudo se torna um, retorna à unidade. O onze representa o mundo que está por vir, o início do Mundo de Miroku (5-6-7).
+
+Atualmente, estamos em nove partes e nove décimos. Adicionando um décimo, chegamos a dez. Na Oomoto, fala-se na batalha entre os nove décimos e nove centésimos contra o um centésimo restante. O ponto (ヽ) no Ohikari representa a sua descida do Céu.
+
+## O Número Três e as Três Fases do Japão
+
+Por ser o Japão a "Origem do Sol", suas três fases são muito nítidas. Em outros países, isso não ocorre da mesma forma. A China rege-se pelos números quatro e sete.
+
+Hoje em dia, o número três não é utilizado. Até agora, na maioria das vezes, empregam-se os números dois ou quatro. Contudo, qualquer empreendimento que não seja baseado no três não prosperará, pois se desvia da Verdade do Céu e da Terra. (14 de novembro de 1948)
+
+## Trezentos e Sessenta e Cinco Dias e as Festividades Sazonais
+
+1. Gostaria de saber a origem do Festival das Bonecas, ou Festival dos Pessegueiros.
+2. O número de trezentos e sessenta e cinco dias em um ano possui algum significado profundo?
+
+1. Trata-se de um costume adotado durante o Período Tokugawa. É algo meramente decorativo.
+2. Três e seis ("mi-roku") formam o nome de Miroku. O cinco ("go" ou "izu") significa "nascer". Portanto, o número 365 está relacionado a Miroku. (28 de maio de 1949)
+
+## O Sete e o Significado dos Números (De Um a Dez e o Século XXI)
+
+Na Bíblia, o número "sete" aparece com frequência. Qual o seu significado?
+
+O sete representa a conclusão. Seu som, "nana", deriva da vibração espiritual de "nari", "naru", que significa "tornar-se", "concretizar-se". Isso não se limita à Bíblia. A afirmação do Cristianismo de que o Universo foi criado em sete dias é verdadeira. Os sete dias da semana correspondem a todo o mundo dos elementos primordiais do Universo.
+
+O um é o Deus Único e Verdadeiro, o princípio, a origem. É o Criador. O dois é o yin e o yang. O três é o filho que nasce do yin e do yang. O quatro é a expansão para as quatro direções. O cinco é a geração de calor, o fogo. O seis é a água, que surge quando o gelo derrete pelo fogo. O fogo é espírito, e por meio dele surgem a água e a terra. É com o surgimento da terra que a criação se completa pela primeira vez. No Gênesis, está escrito que, no sétimo dia, a obra foi concluída, seguida por um dia de descanso e celebração. O oito é a expansão, a multiplicação. O nove é "tsukushi", o desenvolvimento que atinge seu ponto culminante. O dez é a união do vertical e do horizontal, a verdadeira conclusão. É a evolução da cultura humana até certo ponto.
+
+Vivemos agora na era do nove, a era de "tsukushi", na qual as culturas do Oriente e do Ocidente se unem. Essa é a missão da Ordem de Kannon.
+
+O onze é o recomeço que sucede a união. Este é o século XXI. Dois elementos se unem, e o vinte é o rei. O onze é o princípio; o vinte é a união que forma o rei. Aquele que está acima de tudo é o Senhor, o Deus Supremo. O Deus Supremo passará a conduzir o Plano Divino para o mundo.
+
+Na verdade, o ideograma para sete deveria ser o mesmo para terra (土), pois "na" significa terra. (8 de novembro de 1948)
+
+## As Datas Memoriais Budistas
+
+As cerimônias budistas do 7º dia, 21º dia, 35º dia, 49º dia e 100º dia após o falecimento, bem como as datas de aniversário de morte, possuem algum significado em nossos Ensinamentos?
+
+O número sete é usado de várias maneiras. No Cristianismo, o sétimo dia é o dia de descanso, o Sabbath. O sete significa conclusão. Como Sidarta era o Miroku do sete e foi quem criou o Budismo, o número sete possui uma relação intrínseca com essa religião.
+
+O cem representa a plenitude dos números. Por isso, realiza-se a cerimônia do centésimo dia. Sete vezes sete são quarenta e nove dias. O dobro disso seria noventa e oito dias. Como este é um número difícil de memorizar e um tanto complicado, adicionaram-se dois dias para arredondar para cem.
+
+O sete é o número da terra, por isso é usado em assuntos relacionados ao corpo físico. É por essa razão que se celebra o "oshichiya", o sétimo dia após o nascimento. Da mesma forma, logo após a morte, como ainda há uma conexão com o corpo físico, utiliza-se o número sete.
+
+O Xintoísmo, por outro lado, realiza cerimônias a cada dez dias: no 10º, 20º, 30º, 50º e 100º dia. Como o Xintoísmo não tem relação com Sidarta, não há motivo para usar o número sete.
+
+A China utiliza os números quatro e sete. (14 de janeiro de 1949)
+
+## O Sétimo Dia do Nascimento e o Sétimo Dia do Falecimento — Elucidação sobre o Significado dos Números
+
+O sétimo dia após o nascimento é chamado de "oshichiya", e o sétimo dia após a morte, de "shonanoka". Qual a razão para tal?
+
+O sete é o número da conclusão. No Cristianismo, o sétimo dia é o dia de descanso. Um é o início (o Criador). Dois é o yin e o yang, espírito e matéria. Três é o filho. Quatro é a expansão para as quatro direções (leste, oeste, norte e sul). Cinco é o fogo, a força ativa. Seis é a água. Sete é a formação da Terra, o solo. É um número usado em assuntos de grande importância. Oito é a expansão, o infinito. Nove é o ponto culminante. Dez é a verdadeira conclusão. Hoje, estamos nos aproximando dessa conclusão, com a união das civilizações oriental e ocidental. (9 de dezembro de 1948)
+
+## A Origem das Cerimônias do 7º e 49º Dias
+
+Nas cerimônias memoriais, realizam-se rituais no sétimo dia, no quadragésimo nono dia, no primeiro aniversário, no terceiro ano, e assim por diante. Rogo que nos esclareça o motivo.
+
+O espírito permanece na casa por cinquenta dias antes de partir para o Mundo Espiritual. Permanecer por cinquenta dias é uma lei do Mundo Espiritual.
+
+O sete, "nari", significa "tornar-se", "concretizar-se". É o número da conclusão. Tudo se completa em ciclos de sete dias. O quadragésimo nono dia corresponde a sete vezes sete. Com o primeiro aniversário, o terceiro ano e assim por diante, os intervalos vão se tornando cada vez maiores.
+
+O quatro expande-se para as quatro direções; o cinco começa a arder; o seis é a água; e o sete é o que se forma pela força do fogo e da água (5-6-7, fogo-água-terra). O oito é a expansão, a proliferação, a produção de inúmeras matérias. O nove é o ápice, também chamado "tsukushi". Kyushu era a ilha de Tsukushi. O dez é a união.
+
+Até agora, vivemos no mundo do nove; em breve, passaremos para o mundo do dez. O onze é o recomeço que se segue.
+
+## A Verdadeira Essência do Rosário Budista e o Significado do Número 108 (e do número 8)
+
+O rosário budista, ou "juzu", possui cento e oito contas, que correspondem aos cento e oito desejos mundanos do Budismo. O "juzu" é composto de contas (珠), que representam a alma (魂), e seu fio simboliza a continuidade das almas. Significa que o próprio indivíduo já renasceu inúmeras vezes.
+
+O oito representa o infinito. Expressões como "oito milhões de deuses" indicam que grandes quantidades são representadas por este número. Primeiro, o Céu e a Terra foram criados, e diversas coisas foram concluídas (sete), "tornaram-se" (naru). A partir daí, os números começaram a se multiplicar, o que é representado pelo oito.
+
+O nove, "tsukushi", representa a multiplicação levada ao extremo. Chegando a esse ponto, ocorre a destruição. Em seguida, há um recomeço, e a conclusão é alcançada com o dez.
+
+O dez representa o espírito e a matéria, mas a verdadeira conclusão é o cem. Portanto, cento e oito significa a continuidade infinita da alma, o ciclo infinito de renascimentos. (16 de junho de 1948 ou 1949)
+
+O oito, portanto, significa o infinito, a abundância. Os Estados Unidos, em japonês, escreve-se com dois ideogramas de oito (米). Por isso, é um país de grande fartura material. A palavra "yaoya" (mercearia), que literalmente significa "oitocentas lojas", também deriva desse sentido. (maio de 1948)
+
+## O Significado e a Aplicação dos Números
+
+Gostaria de saber mais sobre o mistério e o espírito dos números.
+
+Os números possuem um significado espiritual. Números como 5, 6 e 7 contêm um profundo mistério. A influência dos números é imensa. A escolha de um dia auspicioso ou desfavorável depende do propósito.
+
+Para cerimônias de casamento, que representam uma união, números que simbolizam a junção, como o dez ou o sete, são favoráveis. Eu costumo usar o dez. O dia vinte e um é excelente. O dia onze também é bom. O dia oito deve ser evitado. O quatro também não é bom. Para funerais, qualquer dia é adequado.
+
+Para iniciar algo, dias como o oito são bons. O quatro pode ser bom dependendo do uso, mas sua vibração espiritual pode ser desfavorável.
+
+O um é o Deus Supremo, o Senhor – pode ser também o ancestral. O dois é a divisão em yin e yang (os pais). O três é a família de pai, mãe e filho. O quatro é a expansão para as quatro direções. A cerimônia de Ano Novo de reverência às quatro direções é um grande equívoco. Ela celebra apenas o leste, o oeste, o norte e o sul, uma visão puramente horizontal que ignora a dimensão vertical do Céu e da Terra. A forma correta é a reverência às seis direções. É por essa razão que a Casa Imperial não perdura.
+
+O cinco representa o fogo, a sua atividade. O seis é a água. A associação com a palavra "muyuru" (arder) tem pontos que não me convencem. O sete significa "tornar-se". O oito é a expansão. O nove é "esgotar", "abrir-se por completo". Vivemos na era do nove. A Casa Imperial é chamada de "kokonoe" (nove camadas), o que é péssimo, pois significa "esgotar-se", "chegar ao fim". O dez é a conclusão, e o onze é o recomeço. É a conclusão do eixo vertical e horizontal, o firmar-se sobre a Terra. A missão da Ordem de Kannon é a obra do dez.
+
+O poema "Ame no Kazu Uta" descreve essa ordem através da vibração espiritual das palavras, corrigindo assim o que estava fora de sequência.
+
+## Dias e Números
+
+Ao decidir uma data, o calendário da seita Nitiren considera o dia "taian" (grande paz) o pior de todos, e o "butsumetsu" (morte de Buda) o melhor. Isso não tem relevância. A influência dos números, no entanto, é imensa.
+
+Para casamentos, por se tratar de uma união, deve-se escolher um número que simbolize isso. Sete, dez, onze, vinte e um (dois que se unem para começar como um) são bons.
+
+Para abrir um negócio, o número oito é auspicioso. O cinco, que significa "sair", é bom para dias de viagem.
+
+O quatro não é bom. É raramente utilizado, exceto em ocasiões como funerais.
+
+Ao tomar decisões importantes, é melhor escolher bem o dia. O nove não é muito favorável. É um número de plenitude que indica ter atingido o extremo. (12 de julho de 1948)
+
+## Números de Início e de União
+
+Os números possuem um grande mistério e exercem uma forte influência. Para a união do yin e do yang, números que simbolizam a junção são os mais adequados. Oito ou seis representam a separação. Sete, dez, onze e vinte e um são auspiciosos para casamentos.
+
+Eu faço uso frequente dos números. Para inícios, o oito é bom. O cinco também é favorável. "Izu", sua leitura, tem uma boa vibração espiritual. Por isso, Izu é um lugar de grande importância. Atami também possui um significado semelhante.
+
+## A Influência dos Números: Dias para Casamentos, Funerais e Inícios (Tudo se move segundo os números)
+
+A influência dos números é real.
+
+Para casamentos, deve-se escolher um dia de união. Dez, vinte e um (dois se unem para começar).
+
+Para funerais, números de separação, como o oito ou o dois.
+
+Para inícios, utiliza-se o um ou o cinco.
+
+O nove não é muito empregado. Representa o ponto culminante.
+
+O dez é a completude, a suficiência.
+
+Todas as coisas se movem de acordo com os números.
+
+---
+
+# Costumes e Práticas Sociais
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** Gosuiiji
+**Título Original:** 政治 | **Status:** Unknown
+
+## Costumes e Práticas Sociais
+
+### 109. Fogueira e Súplica por Chuva
+
+Em tempos de estiagem, há um costume no qual os agricultores acendem fogueiras às margens de lagos e rios para suplicar por chuva. Gostaria de saber se tal prática possui alguma eficácia.
+
+Sim, possui alguma eficácia. De fato, quando se lançam muitos fogos de artifício, sobrevém a chuva. Da mesma forma, em tempos de guerra, o disparo de inúmeros canhões invariavelmente atrai a precipitação. O princípio reside em atrair a umidade do ar. Acender uma fogueira atua nesse mesmo sentido, fazendo com que a umidade se concentre, as nuvens se formem e, por conseguinte, a chuva caia. Não se trata, portanto, de um fenômeno de natureza religiosa. O mesmo ocorreu por ocasião do Grande Terremoto de Tóquio.
+
+### 110. Origem do Noshi e do Mizuhiki
+
+Gostaria de saber a origem do Noshi (熨斗) e do Mizuhiki (水引) vermelho e branco, e também em que época surgiram. Rogamos vossa orientação.
+
+A época de sua origem é desconhecida.
+O Noshi (熨斗) remete à ideia de expandir, de prolongar.
+O Mizuhiki (水引), por sua vez, com suas cores vermelha e branca, é empregado em ocasiões festivas. Para acontecimentos que podem se repetir, utiliza-se o nó em forma de flor; já para aqueles que não devem ocorrer mais de uma vez...
+
+### 111. Previsão do Tempo Acertada (O Senhor de Atami)
+
+Quanto ao senhor de Atami, não tenho conhecimento. Se suas previsões fossem precisas, a agência de meteorologia deveria empregá-lo. Contudo, não é desejável que tais previsões se concretizem.
+
+### 112. Simpatias
+
+Recentemente, na cidade de Kizaki, um grande incêndio irrompeu em meio a uma ventania, consumindo dezessete residências. Misteriosamente, porém, uma única casa permaneceu intacta, enquanto o fogo se alastrava na direção do vento. Durante o ocorrido, os moradores daquela casa realizaram uma simpatia: cobriram o altar de Inari da propriedade com o saiote vermelho de uma mulher e amarraram outra peça na ponta de uma haste, agitando-a sobre o telhado como se estivessem em frenesi, para o espanto de todos os que observavam. Poderia nos elucidar a razão por trás desse fato?
+
+É possível que Inari tenha auxiliado, mas não se pode ter certeza sobre tais assuntos. É melhor não depositar excessiva crença nisso. As simpatias, todavia, possuem certa eficácia; são mais garantidas que a medicina.
+
+### 113. O Cão, o Círculo e o Dez nas Visitas ao Templo com Recém-nascidos
+
+Quando uma criança nasce, por ocasião das celebrações de nascimento ou da primeira visita ao templo, costuma-se desenhar as figuras de um cão, de um círculo e do ideograma para o número dez. Haveria algum significado nisso? Gostaríamos de saber.
+
+Existem os bonecos de cães em papel machê, pois os cães gostam de crianças.
+O círculo simboliza a plenitude, o desejo de que a criança cresça de forma harmoniosa ou se torne uma pessoa equilibrada.
+Já o ideograma para o número dez representa o que é "completo" ou "suficiente", sendo tradicionalmente usado em ocasiões auspiciosas.
+Não há, contudo, um significado profundo nisso.
+
+### 114. A Ameixeira e o Rouxinol Japonês
+
+Qual é a relação espiritual entre a ameixeira e o rouxinol japonês?
+
+Essa combinação foi provavelmente criada por antigos pintores, por sua harmonia estética. Do ponto de vista espiritual, não possui um significado profundo. Já outras associações, como o pinheiro e o grou, de fato, encerram um simbolismo. Os gatos, por exemplo, costumam ser retratados sob as gramíneas de outono, e a combinação do bambu com o tigre é uma representação da Coreia.
+
+### 115. O Hálito após Comer Umeboshi Dissipa o Nevoeiro Denso
+
+Diz-se que, ao se deparar com um nevoeiro denso durante uma escalada, se comermos um umeboshi e soprarmos, a névoa se dissipa apenas na área atingida pelo hálito, permitindo encontrar o caminho. E, de fato, isso acontece. Qual seria a explicação para tal fenômeno?
+
+Não há um fundamento significativo para isso. O melhor a fazer é entoar a Oração Amatsu Norito (天津祝詞). Deus nos orienta de forma natural. Até mesmo no ato de arranjar flores, há um profundo mistério.
+
+### 116. Colocar Folhas de Nandina sob o Leito de um Alienado
+
+Diz-se que uma pessoa com transtornos mentais pode ser curada se dormir com folhas de nandina colocadas sob seu leito. Existe alguma relação espiritual nisso?
+
+É a primeira vez que ouço a respeito. Sem experimentar, não há como saber.
+
+### 117. Dizer "Nai" em vez de "Hai"
+
+Na província de Saga, para responder afirmativamente ("hai"), diz-se "nai". Tendo aprendido que as palavras não são meras expressões da vontade, mas que possuem uma alma, o kototama (言霊), como se aplica a relação do kototama nesse caso?
+
+Em certas regiões, é comum o uso de palavras com sentido oposto. Em Shinshu, por exemplo, para dizer "ir", usa-se o verbo "não ir". Talvez, no passado, tenha havido alguma associação desagradável com a palavra "hai", ou talvez seja uma forma de diferenciação, já que o som "hai, hai" é usado para conduzir os cavalos, e as pessoas não são cavalos.
+
+### 118. Diferenciação do Sexo dos Pintinhos com uma Peça de Metal
+
+Para diferenciar o sexo dos pintinhos, suspende-se sobre eles um fio com uma peça de metal na ponta. No caso da fêmea, o objeto descreve um círculo naturalmente; no caso do macho, oscila em linha reta. Isso ocorre porque o masculino corresponde ao vertical, à linha reta, enquanto o feminino corresponde ao horizontal, à curva.
+
+### 119. Xícaras de Chá Novas e Velhas e a Mancha de Chá
+
+Ouvi dizer que, nas xícaras de chá, a mancha deixada pela bebida adere com mais dificuldade às cerâmicas de boa qualidade e que, uma vez formada, não deve ser removida. Nas peças mais simples, por outro lado, ela surge facilmente. Haveria alguma razão para isso?
+
+Isso se deve ao fato de que, em objetos dessa natureza, quanto mais antigos, maior o seu valor.
+
+### 120. Método para Soltar o Músculo dos Mariscos
+
+Fui questionado por algumas pessoas sobre o seguinte: o músculo adutor dos mariscos usados em sopas (como o hamaguri ou o asari) é difícil de soltar. Contudo, se esfregarmos a parte externa da concha algumas vezes com a ponta do dedo ou com um hashi, ele se desprende imediatamente. Dizem que nem os eruditos conseguem explicar a razão. Qual seria o motivo?
+
+Não há um motivo extraordinário para isso. Trata-se, provavelmente, de sua forte força de adesão. O músculo é tão resistente para que o animal possa se proteger.
+
+### 121. Posição dos Afogados de Ambos os Sexos
+
+No caso de afogamento, observa-se que os homens flutuam com o rosto para baixo, e as mulheres, com o rosto para cima. Qual seria a razão para tal? Gostaria de saber.
+
+Homens e mulheres são opostos. É uma questão relacionada à distribuição de peso.
+
+### 122. Flutuação de Homens e Mulheres Afogados
+
+As vítimas de afogamento do sexo masculino são encontradas com o rosto para baixo, enquanto as do sexo feminino são encontradas com o rosto para cima. Qual o motivo?
+
+Provavelmente, a parte mais pesada do corpo tende a ficar para baixo. Assuntos como este não têm relação com a salvação; servem apenas como referência.
+
+### 123. Posição de Homens e Mulheres no Nascimento e no Afogamento
+
+Dizem que, tanto no momento do nascimento quanto em caso de afogamento, os homens ficam voltados para baixo, e as mulheres, para cima. Por que isso ocorre? Rogamos vosso esclarecimento.
+
+Não seria porque os quadris da mulher são mais pesados?
+
+### 124. Fukusuke
+
+O que o Fukusuke representa?
+
+É uma criação de um antigo artista, que buscou expressar algo que transmitisse sorte e felicidade.
+
+### 125. Fukusuke, Okame e Manzai
+
+Gostaríamos de saber a origem de Fukusuke e Okame, e por que são utilizados com uma conotação auspiciosa. Gostaríamos também de uma explicação sobre o significado de Manzai.
+
+O Fukusuke foi criado por alguém para representar a boa sorte e a felicidade; na realidade, não existe tal figura. O mesmo se aplica a Okame, que se diz ser a deusa Ame-no-Uzume-no-Mikoto (宇豆売命). São, portanto, personificações de coisas afortunadas, e por isso se empregam em contextos festivos. O Manzai, da mesma forma, era uma dança realizada em ocasiões auspiciosas, semelhante ao Sanbaso (三番叟). Trata-se de representações simbólicas, sem um significado profundo.
+
+### 126. O Dragão Ressoante
+
+O Dragão Ressoante do Templo Nikko Toshogu (日光東照宮) possui alguma explicação do ponto de vista espiritual?
+
+Não há nada de especial. Ele foi construído para ressoar. É uma questão da maneira como as tábuas do teto foram dispostas.
+
+### 127. Os Túmulos Koshin
+
+Sobre os túmulos Koshin (庚申塚)...
+
+Neles, encontram-se os três macacos sábios, que representam o "não ver o mal, não falar o mal, não ouvir o mal". Na vida prática, essa atitude existe e significa não ver, não ouvir, não falar – ou seja, permanecer em silêncio.
+
+### 128. O Crepúsculo e o Encontro com os Demônios
+
+A hora do crepúsculo também é chamada de "a hora do encontro com os demônios". Poderia nos ensinar seu significado?
+
+Significa que, ao cair do dia, os espíritos malignos se tornam ativos. A palavra japonesa para crepúsculo, tasogare, origina-se da expressão "tare ka so kare", que significa "quem está ali?", pois na penumbra mal se pode reconhecer as pessoas.
+
+---
+
+# Compilação de Artigos de Jikan Okada - Pesquisa de Ensinamentos: Seção de Estudos Acadêmicos 4 - Animais (051-064)
+
+**Categoria:** kouwa | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 学問篇 | **Status:** Published
+
+## Compilação de Artigos de Jikan Okada - Pesquisa de Ensinamentos: Seção de Estudos Acadêmicos 4 - Animais (051-064)
+
+### 052 A Lei da Espiritualização do Corpo Físico
+
+**Pergunta:** Diz-se que as aves se espiritualizam instantaneamente após a morte. E quanto aos demais animais? É possível que seres humanos e outros animais se espiritualizem ainda em vida?
+
+**Meishu-Sama:** Todas as aves se espiritualizam, mas o fenômeno não se restringe a elas; muitos outros animais também o fazem. Quando são domesticados pelo ser humano, perdem essa capacidade. Trata-se da chamada Lei da Espiritualização do Corpo Físico. Os gatos, por exemplo, espiritualizam-se com certa frequência. Da mesma forma, é raro encontrar carcaças de ursos ou lobos.
+
+Esse processo consiste na espiritualização da matéria, e pode ocorrer inclusive com seres humanos ainda em vida. Recentemente, um senhor chamado Saburo Kamei esteve aqui e afirmou ser capaz de se espiritualizar. Há o conhecido caso de um ator britânico que atravessou uma parede a caminho do palco. O senhor Kamei, aliás, é conhecido por suas habilidades em escapar de amarras.
+
+### 052 A Espiritualização do Corpo
+
+**Pergunta:** Ouvi dizer que os corvos não deixam seus corpos para trás na Terra. Qual seria a razão para isso? Gostaria de saber se o mesmo ocorre com alguns mamíferos.
+
+**Meishu-Sama:** Isso se deve à Lei da Espiritualização, pela qual o corpo se desmaterializa por completo. Não apenas os corvos, mas todas as aves passam por esse processo. Contudo, os animais domésticos perdem essa capacidade. Todos os seres que vivem em seu estado natural seguem a Lei da Espiritualização, e seus corpos simplesmente se dissipam. Isso ocorre porque eles não estão impurificados; vivem em harmonia com a Natureza, desprovidos de pensamentos malignos.
+
+### 053 A Mais Elevada Posição Espiritual entre as Aves
+
+**Pergunta:** Nos ensinamentos sobre a hierarquia espiritual, aprendemos que, entre os minerais, o ouro ocupa a posição mais elevada, e entre as árvores, o cipreste. Qual ave detém a mais alta posição espiritual?
+
+**Meishu-Sama:** O corvo é aquele que anuncia o amanhecer. Para representar o Sol, desenha-se um disco solar com um corvo em seu interior. A Lua, por sua vez, é representada pelo coelho.
+
+Meu Deus protetor secundário é um corvo. Antigamente, ele me causou um medo terrível, a ponto de eu chorar copiosamente. Naquela ocasião, ele me disse que, daquele momento em diante, eu não poderia mais cometer erros.
+
+### 054 Considerações sobre o Corvo
+
+**Pergunta:** Gostaria de fazer algumas perguntas sobre o corvo.
+
+(A) É possível discernir presságios bons ou maus pelo seu grasnido?
+(B) Sendo sua espiritualidade tão elevada, há algum significado no fato de sua voz e aparência não serem consideradas belas?
+(C) Embora a maioria das pessoas deteste seu grasnido, o chamado "grasnido de alegria" pode soar agradável para certas pessoas?
+
+**Meishu-Sama:**
+(A) Sim, é possível discernir presságios. Quando um corvo grasna, ele está chamando outros corvos. Por isso, diz-se que, quando um corvo grasna, alguém morrerá. Com pesquisa, é possível compreender esses sinais.
+
+(B) De fato, é uma ave com grande sensibilidade espiritual. Desde a antiguidade, é considerado um mensageiro de Amaterassu Oomikami e possui uma forte ligação com o Sol. No mundo dos *tengu*, ele se manifesta como o *karasu-tengu*, que pode ser uma das divindades de mais alta posição entre os *tengu* com forma de ave. Sua elevada espiritualidade é um fato.
+
+(C) A maioria das pessoas realmente detesta seu som. É comum que ele grasne na manhã do dia em que alguém irá falecer, pois se alimenta de carcaças. Aparentemente, ele prevê a morte e convoca seus companheiros. É extremamente raro que seu grasnido esteja associado a acontecimentos felizes.
+
+A beleza física e a nobreza espiritual nem sempre coincidem; afinal, há gueixas de grande formosura que praticam o mal.
+
+### 055 O Grasnar do Corvo e os Presságios
+
+**Pergunta:** Diz-se que o grasnar do corvo está relacionado a bons e maus presságios. Qual o significado por trás disso?
+
+**Meishu-Sama:** De fato, há uma relação. O corvo aprecia bicar e devorar carcaças. Antes que alguém morra, o odor do futuro cadáver já se manifesta, e o corvo é capaz de percebê-lo. Ciente de que poderá se alimentar, ele chama seus companheiros, comunicando-se através de diferentes tipos de grasnido. No entanto, não há relação com bons presságios. Outras aves, como o rouxinol, estão associadas a presságios felizes.
+
+### 056 O Mainá
+
+**Pergunta:** O mainá é capaz de imitar a fala humana. Trata-se de um caso de reencarnação?
+
+**Meishu-Sama:** Sim, é reencarnação. O mainá possui uma constituição que facilita a fusão e a assimilação de espíritos humanos. Ele tem grande afinidade e ressonância com os espíritos dos homens.
+
+### 057 A Percepção Espiritual dos Animais
+
+**Pergunta:**
+1. Diz-se que os ratos preveem incêndios e abandonam a casa antes que ocorram. Eles realmente possuem tal percepção espiritual?
+2. Afirma-se também que algumas aves e insetos, ao pressentirem a fome que assolará uma região, experimentam uma redução no número de fêmeas antecipadamente. Isso é verdade?
+
+**Meishu-Sama:**
+1. Sim, possuem. Os animais detêm uma sensibilidade espiritual que, em muitos aspectos, ultrapassa a dos seres humanos. Antes de um incêndio se manifestar no plano material, ele ocorre primeiro no Mundo Espiritual. É por isso que eles fogem.
+
+### 058 Mudanças no Canto do Galo
+
+**Pergunta:** Recentemente, tanto nas áreas rurais quanto urbanas da região de Utsunomiya, os galos têm cantado em horários irregulares durante a noite. Qual seria a razão para isso? Haveria algum significado especial?
+
+**Meishu-Sama:** As aves possuem uma considerável sensibilidade espiritual. O Mundo Espiritual está adentrando a Era do Dia, e é provável que elas estejam percebendo essa transição. A passagem da Era da Noite para a Era do Dia provoca diversas mudanças, mas, em sua maioria, são positivas.
+
+### 059 O Canto do Galo à Noite é um Mau Presságio?
+
+**Pergunta:** Os antigos diziam que, se um galo cantasse logo no início da noite, algo de ruim aconteceria. Ultimamente, tenho ouvido galos cantarem por volta das nove da noite. Qual a explicação para isso e haveria alguma relação espiritual?
+
+**Meishu-Sama:** Sim, há uma relação. Animais como galos e ratos possuem uma sensibilidade aguçada. Os fenômenos ocorrem primeiro no Mundo Espiritual, e eles os percebem. Todavia, se o canto for um sinal de purificação, devemos nos alegrar.
+
+### 060 O Galo que Canta sobre o Corpo de um Afogado
+
+**Pergunta:** Ao procurar uma pessoa que se afogou, costuma-se colocar um galo (da raça *shokoku*) em uma tina e deixá-la flutuar na água. Dizem que, ao passar sobre o corpo da vítima, o galo canta. Há alguma relação espiritual nisso?
+
+**Meishu-Sama:** As aves são espiritualmente muito sensíveis. O espírito de quem teve uma morte trágica permanece atado ao local, sem poder se mover. O galo percebe sua presença e, por isso, canta.
+
+### 061 O Canto da Galinha
+
+**Pergunta:** Diz-se que, se uma galinha começar a cantar como um galo todas as manhãs, algo de errado acontecerá naquela casa. Isso é verdade?
+
+**Meishu-Sama:** Não há fundamento nisso. Contudo, como as aves são mais sensíveis que os seres humanos aos assuntos espirituais, é possível que estejam tentando nos comunicar algo.
+
+### 062 Formigas e Chuva Abundante
+
+**Pergunta:** Li em um almanaque que, quando as formigas sobem em grande número pelos tatames, é sinal de um período de muitas chuvas. Atualmente, um fiel tem notado que, em dias nublados, as formigas invadem sua casa. Haveria alguma relação espiritual entre as formigas e os Deuses-Dragões?
+
+**Meishu-Sama:** As formigas são muito sensíveis à umidade no ar. Não há relação com os Deuses-Dragões. Certa vez, escrevi sobre um caso em que a carcaça de uma cobra se transformou inteiramente em formigas. A percepção espiritual delas é extremamente aguçada.
+
+### 063 O Javali que não Devasta a Propriedade de uma Gestante
+
+**Pergunta:** Em meu vilarejo, javalis aparecem todos os anos e destroem as plantações. Contudo, quando há uma mulher grávida em uma casa, eles podem devastar a lavoura do vizinho, mas não causam danos à propriedade dela. Existe alguma razão para isso?
+
+**Meishu-Sama:** Mesmo os animais selvagens possuem uma sensibilidade espiritual própria de sua natureza.
+
+### 064 O Uivo do Cão e o Canto Noturno do Galo
+
+**Pergunta:** Por que se diz que, quando um cão uiva ou um galo canta durante a noite, um acontecimento incomum está para ocorrer?
+
+**Meishu-Sama:** Os animais possuem uma percepção espiritual e são capazes de pressentir tais eventos com clareza.
+
+---
+
+# Coletânea de Artigos do Reverendo Okada Jikan – Capítulo sobre a Arte da Cura (Oito) 5 | 057-082 Equívocos – 3
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （八）
+**Título Original:** 医術篇 | **Status:** Unknown
+
+## Coletânea de Artigos do Reverendo Okada Jikan – Capítulo sobre a Arte da Cura (Oito) 5 | 057-082 Equívocos – 3
+
+### 057 Sobre o Gennoshoko
+
+Uma senhora casada, de vinte e um anos, iniciou um processo de purificação no final de julho. Embora tenha apresentado melhora em fins de agosto, a purificação recrudesceu e, atualmente, ela se encontra tão debilitada que não consegue manter-se de pé. Sua glândula parótida direita está severamente inchada, e uma febre baixa acomete todo o seu corpo. Ocasionalmente, sobrevém-lhe uma tosse, mas a dor lombar é tão intensa que a impede de tossir com força. Ademais, seu rim esquerdo e o peritônio apresentam-se muito enrijecidos, causando distensão abdominal. Até recentemente, ela só conseguia ingerir mingau de arroz, mas ultimamente passou a alimentar-se de uma tigela de arroz duas vezes ao dia. Gostaria que nos elucidasse a causa de seu estado e o método de Johrei mais apropriado.
+
+Adicionalmente, cumpre mencionar que, no período em que a melhora foi seguida pela recaída, sua mãe, que reside em outra localidade, veio visitá-la. Assim que a mãe partiu, ela ficou acamada. Haveria alguma razão específica para tal ocorrência? A família de origem ainda não compreende bem a fé em Kannon (観音). Porventura, existiria alguma causa de natureza espiritual? A paciente também relatou ter feito uso contínuo de um medicamento fitoterápico chamado gennoshoko por nove meses. Rogo que nos oriente sobre como proceder doravante.
+
+Dentre os diversos medicamentos fitoterápicos chineses, o mais nefasto é o gennoshoko. A intoxicação por essa substância atinge, na maioria dos casos, o peritônio e os rins. É uma condição que reincide mesmo após uma aparente recuperação, exigindo, portanto, uma paciência considerável. O quadro se repetirá inúmeras vezes. Contudo, enquanto houver apetite, a cura é possível. Já afirmei repetidas vezes no passado que não se deve dar garantias em casos de intoxicação por gennoshoko. (27 de outubro de 1949)
+
+### 058 As Particularidades do Gennoshoko e da Sarna
+
+Meu pai, com quarenta e oito anos, padece de sarna, que causou uma hipertrofia em seus testículos a ponto de parecerem prestes a romper. Ele enfrenta grande dificuldade respiratória e cardíaca. Desde que começamos a rogar pela proteção Divina, o edema diminuiu, mas a dificuldade para respirar persiste, intensificando-se sobremaneira após urinar e evacuar. Qual seria a razão para isso? Cabe informar que meu pai consumiu medicamentos fitoterápicos chineses (gennoshoko e *habuso*) por cerca de dez anos. Outrossim, por que algumas pessoas desenvolvem edemas, enquanto outras não?
+
+Jamais se deve garantir a cura de uma enfermidade tratada com altas doses de gennoshoko, pois, na maioria das vezes, o desfecho é desfavorável. Não há substância tão tóxica quanto essa. Outros medicamentos não provocariam tal quadro. Ingerir esse tipo de remédio é um ato suicida. O problema dos medicamentos chineses reside no fato de serem consumidos em grandes quantidades e por longos períodos.
+
+A dificuldade respiratória é uma característica da sarna. Nesses casos, utilizar um travesseiro mais alto proporciona um alívio significativo. Isso ocorre porque a toxina da sarna é muito abundante; a quantidade que se dissolve internamente é maior do que a que é expelida pela pele, o que causa o edema. Esse inchaço comprime o coração e os pulmões, resultando na falta de ar. Ao deitar, a toxina se desloca para a parte superior do corpo, intensificando o sofrimento. Ao levantar, ela desce, aliviando a pressão e trazendo bem-estar. Portanto, elevar a altura do travesseiro faz com que a toxina se acumule na parte inferior, proporcionando alívio. A fase mais crítica parece já ter sido superada, então creio que não há motivo para grande preocupação.
+
+O jornal de hoje noticia que, em Quioto, quinhentas pessoas adoeceram após a aplicação da vacina contra a difteria, e a Cruz Vermelha de Osaka está investigando o caso. A purificação está se intensificando. Em breve, os próprios médicos reconhecerão os malefícios dos medicamentos. (16 de novembro de 1948)
+
+### 059 Desconforto Gástrico e o Filho que Morreu Afogado
+
+Há sete anos, um jovem de dezesseis anos, em uma noite escura, caiu de um penhasco com sua bicicleta e morreu afogado. Três anos atrás, sua mãe começou a sentir um peso no estômago que a impede de se alimentar, e todas as noites, por volta da meia-noite, ela desperta atormentada pelo espírito do filho falecido. Como devemos proceder? (A mãe recebeu a outorga da Medalha da Luz Divina em dezembro). Haveria alguma relação espiritual entre a morte do filho e a doença da mãe? Rogo por vossa orientação.
+
+Ao entronizar a Imagem da Luz Divina e dormir no mesmo cômodo, ela gradualmente se restabelecerá. O espírito do filho está apegado. O peso no estômago, contudo, não tem relação com o espírito; a causa é o gennoshoko, cuja toxina se encontra acumulada nas costas. (28 de janeiro de 1949)
+
+### 060 A Mulher Obesa
+
+Uma fiel de trinta e seis anos, de constituição obesa, começou a sentir uma opressão que se estende do peito à garganta, impossibilitando-a de dormir deitada. Há cerca de dez dias ela recebe Johrei, mas ainda permanece apenas recostada sobre o futon. Qual seria a causa? A família dela é muito dedicada, mas o pai, embora tenha sido curado pelo Johrei no passado, agora age como se a fé não tivesse mais utilidade. Poderia haver alguma relação espiritual? Peço que nos elucide a causa e o método de Johrei apropriado.
+
+A obesidade dela decorre do acúmulo de líquido nos rins, e creio que ela tenha consumido uma grande quantidade de medicamentos fitoterápicos chineses. Se for gennoshoko, a cura será extremamente difícil. Ministrem Johrei diligentemente nos rins. Um ponto que merece atenção é que, ao menor sinal de vontade de urinar, ela deve ir ao banheiro imediatamente, sem reter a urina.
+
+### 061 A Toxina Medicamentosa do Preparado 606 e seu Limite de Doses
+
+Estou ministrando Johrei em um homem de quarenta e três anos, ainda não membro, que contraiu sífilis há cinco anos e foi tratado com o preparado 606, obtendo uma cura temporária. Atualmente, ele apresenta infiltração pulmonar. Após três meses de Johrei, houve uma pequena melhora; seu pescoço, antes imóvel, agora possui alguma mobilidade. Ele recebeu cerca de trinta injeções do preparado 606. Recentemente, a melhora estagnou. Seria possível a cura completa? Li no livro "O Evangelho do Céu" que não se deve tocar em determinadas áreas. Se continuarmos com o Johrei, ele melhorará?
+
+O preparado 606 autêntico não deve ser administrado em mais de doze doses. Essa é a norma. Trinta injeções configuram um estelionato; não se trata da substância verdadeira. Se fosse o medicamento genuíno, o organismo do paciente já estaria arruinado. Há casos extremos em que se chega a injetar água destilada. Paradoxalmente, essa situação acaba por prejudicar os médicos que agem com consciência.
+
+A toxina do preparado 606 é leve e tende a ascender. Por isso, ministrem Johrei intensamente na cabeça. (8 de novembro de 1949)
+
+### 062 O Limite de Segurança para as Doses do Preparado 606
+
+Uma mulher de trinta e dois anos, acometida há três anos por uma doença considerada incurável, tem os movimentos dos braços e pernas comprometidos. No último ano, a condição progrediu dos pés para as mãos e, em seguida, para a cabeça. Atualmente, abriram-se dois orifícios de cerca de quatro centímetros no topo de seu crânio, dos quais drena pus. Ela poderá ser curada? (Ela recebeu cerca de dez injeções do preparado 606).
+
+Um rapaz de vinte e seis anos (quatro injeções do preparado 606) sofre de cárie óssea, tem a visão debilitada e três de seus irmãos faleceram de tuberculose óssea. Ele está em processo de purificação, com dores articulares que o impedem de se levantar. Quanto tempo levará para a cura completa?
+
+Até quatro doses do preparado 606 não representam um problema grave. No entanto, não se deve dar garantias para quem recebeu mais de cinco injeções. A toxina penetra nos pulmões através da medula espinhal. É provável que algum espírito esteja obsidiando. Quanto ao tempo de cura, é impossível determinar.
+
+### 063 O Limite de Uso do Preparado 606
+
+Uma senhora de quarenta e um anos recebeu, há vinte anos, cerca de cem injeções do preparado 606 como medida preventiva. Toda a sua família ingressou na fé. O que acontecerá quando a purificação dessas injeções se manifestar?
+
+A norma estabelece que o preparado 606 não pode ser administrado mais de doze vezes. Portanto, é impossível que ela tenha recebido cem injeções. Trata-se, certamente, de um estelionato.
+
+### 064 Dificuldade de Locomoção de Origem Espiritual e a Dosagem do Preparado 606
+
+O senhor Tanaka Tamejiro, de cinquenta e um anos, há sete anos começou a tropeçar até mesmo em pequenas pedras enquanto caminhava. Após o fim da guerra, seu estado se agravou consideravelmente. Ele buscou tratamento em grandes hospitais especializados, quiropraxia, terapia elétrica e diversos outros métodos, mas a doença apenas progrediu. Em fevereiro deste ano, ele chegou à nossa Igreja. Com o Johrei, apresentou melhora dia após dia, mas recentemente seu progresso não tem sido tão notável, o que nos preocupa. Tanto ele quanto sua esposa receberam a Medalha da Luz Divina. O irmão mais velho dele apresentou sintomas semelhantes por volta dos quarenta e dois ou quarenta e três anos e, aos cinquenta, já não conseguia mais andar. Sua fala também se tornou incompreensível para quem não o conhecia. À medida que a instabilidade ao caminhar se intensificava, seu corpo emagrecia, como uma árvore que seca, e ele faleceu treze anos depois, aos sessenta e três anos. Como os sintomas do senhor Tanaka são idênticos aos de seu irmão, estamos apreensivos. Haveria alguma relação espiritual? Ele também recebeu mais de vinte injeções do preparado 606. Rogamos por vossas orientações sobre o método de Johrei.
+
+A dosagem regulamentar do preparado 606 é de doze injeções. Vinte injeções indicam que a substância foi diluída. Aparentemente, o espírito do irmão está atuando. Recomendo que entronizem a Imagem da Luz Divina, leiam os Ensinamentos e entoem a Oração Amatsu-Norito. (7 de abril de 1949)
+
+### 065 Os Malefícios do Salvarsan em Crianças (Doença Mental e Salvarsan)
+
+Trata-se de um menino de quatro anos. Em julho do ano passado, ele teve um segundo episódio de enterite e ficou em um estado de completa idiotia. O médico diagnosticou disenteria epidêmica com encefalite, resultando em afasia. Cerca de três meses depois, ele caiu do carrinho, mordeu e inchou a língua, mas não sofreu ferimentos na cabeça. Desde então, perdeu completamente a fala e passou a ter convulsões, durante as quais encolhe a cabeça como se estivesse assustado e enrijece braços e pernas. Esses ataques ainda ocorrem várias vezes ao dia. Quando bebê, por causa de uma erupção tóxica, ele recebeu oito injeções de Salvarsan e passou por três sessões de terapia de punção lombar, sem efeito algum, e começou a ter epilepsia. Ingressamos na fé exatamente seis meses após o início da doença. A epilepsia melhorou consideravelmente, mas o quadro mudou um pouco. Antes, ele caía, tremia e às vezes espumava pela boca. Desde o início de maio, ele apenas solta dois ou três gritos e, em seguida, seus lábios perdem a cor. A partir de julho, passou a chorar cinco ou seis vezes antes de começar a tremer. Seria a atuação de um espírito diferente? Ele poderá alcançar a cura completa?
+
+Existem tanto fatores espirituais quanto a influência das injeções de Salvarsan, mas esta última é a causa fundamental. Além disso, há a atuação de um espírito de pessoa morta. A incidência de doenças mentais causadas pelo Salvarsan é muito maior do que as causadas pela sífilis. A cura é possível, mas levará tempo. A melhora ocorrerá de forma gradual. (27 de agosto de 1949)
+
+### 066 Dificuldade na Fala após Catarrro Intestinal
+
+Meu filho, de dez anos, em 25 de junho de 1941, teve uma febre de quarenta graus devido a um catarro intestinal agudo. Em 25 de setembro do mesmo ano, a febre retornou com a mesma intensidade. Desde então, sua saúde tem sido frágil e, até hoje, sua fala não é clara, o que atrasou seu ingresso na escola. Ele poderá ser curado apenas com o Johrei? Qual seria a causa?
+
+Há toxinas medicamentosas. Não chega a ser um caso de surdo-mudez. Ministrem Johrei a partir da cabeça. É fundamental que os pais pratiquem a fé e se dediquem a salvar o maior número possível de pessoas.
+
+### 067 Malefícios da Medicina (Tuberculose Laríngea, Estreptomicina)
+
+Minha irmã mais velha adoeceu em meados de janeiro deste ano e foi diagnosticada com tuberculose laríngea. Após receber injeções de cinco caixas de estreptomicina, a febre cedeu, mas estamos preocupados com o futuro. Desejamos que ela seja salva pelo Johrei. Há esperança de recuperação total?
+
+A injeção apenas suprimiu os sintomas. Inevitavelmente, a febre retornará.
+
+### 068 Malefícios da Medicina (Estreptomicina, Debilidade)
+
+Eles se empenharam ao máximo em debilitar o paciente. Como desconheço a ação da estreptomicina, não posso emitir um parecer definitivo. Examinem diversas partes do corpo e concentrem-se nos pontos de febre localizada. Há toxinas no estômago causando pressão. Ministrem Johrei principalmente nas costas. A recuperação dependerá do apetite. Ombros, pescoço, rins... não há outra alternativa senão proceder com paciência e de forma gradual. (1948)
+
+### 069 A Toxina Medicamentosa da Estreptomicina
+
+A jovem Orihata Taeko, de vinte anos, a quem estou ministrando Johrei, recebeu trinta injeções de estreptomicina e passou por um ano de tratamento de pneumotórax para tuberculose. Atualmente, ela consegue se levantar e tem apetite. Quando a purificação da estreptomicina se manifestar, ela poderá ser salva? Por favor, ensine-nos o melhor método a seguir.
+
+Existem toxinas que se dissolvem rapidamente e outras que demoram mais. Mesmo quando a purificação se manifestar, não será algo tão grave. (8 de novembro de 1949)
+
+### 070 Estreptomicina e Cefarantina
+
+Qual das toxinas medicamentosas é mais potente: a da estreptomicina ou a da cefarantina?
+
+Não sendo farmacêutico, não posso afirmar com certeza, mas deve-se considerar que os medicamentos mais recentes tendem a ser mais tóxicos. O fato de serem paliativos temporários é uma prova de sua natureza efêmera. O surgimento de um novo medicamento indica que o anterior não era eficaz. Se fosse, o problema já estaria resolvido. (22 de janeiro de 1949)
+
+### 071 Perda da Voz após Uso de Cefarantina
+
+Uma senhora de trinta e sete anos, atualmente Assistente de Ministro, está passando por uma purificação com sintomas de tuberculose há cinco ou seis anos. Ela tosse com frequência e apresenta febre baixa e intermitente. Há quatro anos, ela tomou cefarantina a cada dez dias, durante seis meses. Por volta de fevereiro deste ano, ela perdeu a voz, embora seu estado geral seja bom. Em que pontos principais devemos ministrar Johrei? Rogo por vossa orientação.
+
+A cefarantina é extremamente prejudicial. A perda da voz indica tuberculose laríngea. A causa é um nódulo no lado direito do bulbo raquidiano; é nesse ponto que a febre se origina com maior intensidade. (3 de julho de 1949)
+
+### 072 A Purificação da Penicilina
+
+Quando um paciente que foi curado no passado com injeções de penicilina entra em processo de purificação, que tipo de sintomas se manifestam?
+
+A toxina solidificada pela penicilina começa a se dissolver. Se ela se solidificou na cabeça, surgirá uma dor de cabeça; se foi na região lombar, haverá dor lombar. A toxina também tende a se acumular nas áreas do corpo que são mais utilizadas. Em uma pessoa que usa muito os braços, a purificação ocorrerá nos braços.
+
+### 073 Injeção de Penicilina
+
+Por favor, explique-nos como ocorre a purificação quando se ministra Johrei em alguém que recebeu injeções de penicilina.
+
+Não há nada de diferente. A ação das toxinas medicamentosas é, em geral, a mesma. Pode-se proceder com o método de purificação convencional.
+
+### 074 Os Malefícios da Penicilina
+
+O Johrei deve ser ministrado no local afetado. O problema é a toxina da penicilina que se solidificou. Com Johrei, a cura é imediata. (7 de agosto de 1948)
+
+### 075 Injeção de Penicilina para Dor na Perna
+
+Um menino da terceira série, que estava sob cuidados médicos há cerca de dois anos devido a uma dor na perna, chegou a um ponto em que não conseguia mais ficar de pé. Graças a aproximadamente um mês de Johrei, ele agora anda por toda a aldeia com o auxílio de muletas. Contudo, ainda há drenagem de pus e ele não está completamente curado. Ele recebeu apenas quatro injeções de penicilina. A cura completa será possível?
+
+Sim, a cura será completa. As injeções de penicilina apenas prolongaram o processo de recuperação. (28 de abril de 1949)
+
+### 076 Incapacidade de Realizar Tarefas Cotidianas após Injeções
+
+Meu irmão mais velho, Hideo, de vinte e seis anos, foi dispensado do esquadrão aéreo por esgotamento nervoso. Em profundo desespero, ele desenvolveu um transtorno mental e foi internado, recebendo alta após seis meses. Ele trabalhou por um ano, mas a doença reapareceu e ele foi hospitalizado por mais nove meses. Durante esse período, foi submetido a eletrochoque, injeções de penicilina e outros tratamentos, e talvez por causa disso, tornou-se incapaz de cuidar de si mesmo. Todos os filhos primogênitos dos irmãos de meu pai faleceram. Haveria alguma relação espiritual?
+
+Certamente há uma relação. A incapacidade de realizar tarefas cotidianas é resultado das toxinas medicamentosas. Ele melhorará gradualmente. Com o Johrei, ele se recuperará. (15 de dezembro de um ano não especificado)
+
+### 077 Penicilina, Sulfamidas e Fitoterápicos Chineses
+
+Quais são os resultados e os efeitos nocivos das toxinas medicamentosas da penicilina e das sulfamidas?
+
+Os efeitos nocivos de todas as toxinas medicamentosas são semelhantes. No entanto, quanto melhor o medicamento, mais forte é o seu veneno, pois ele enfraquece a ação purificadora. Logo, os remédios mais eficazes são os mais tóxicos. Os medicamentos fitoterápicos chineses, feitos de folhas, raízes, cascas e madeira, têm toxinas mais fracas, mas como são usados em grandes quantidades, o dano causado por suas toxinas acaba sendo comparável. O mais tóxico de todos é o gennoshoko. Deve-se considerar que, quando a purificação se manifesta em alguém que consumiu essa substância em grande quantidade, sua vida corre perigo.
+
+### 078 Diagnosticado com Doença Medular e com as Pernas Paralisadas (Injeção de Vitamina)
+
+Um homem de cinquenta e dois anos procurou um médico há um ano devido a uma suposta doença na medula espinhal e, desde então, tem recebido injeções de vitamina continuamente. Há sete meses, suas pernas ficaram paralisadas. Atualmente, ele sofre de esgotamento nervoso e não consegue andar. Há cerca de dois meses, sua esposa ingressou na fé e começou a ministrar-lhe Johrei. Ele ficou surpreso ao sentir dor na superfície da pele e, desde então, recusa-se a receber Johrei. Que tipo de condição leva um paciente como este à paralisia? E por que sua pele dói?
+
+Trata-se da purificação das injeções de vitamina. A dor na pele é um sintoma da purificação do medicamento. Não existe tal coisa como "doença medular"; é apenas uma invenção. A paralisia das pernas foi causada pelas injeções. O Johrei deve ser focado principalmente nas costas. (27 de novembro de 1949)
+
+### 079 Doença no Joelho e Anemia (Papinal)
+
+Estou ministrando Johrei em uma mulher de trinta e sete anos que, após o parto, desenvolveu uma doença no joelho e foi hospitalizada por seis meses. Seu volume sanguíneo é apenas metade do normal, e a anemia causa-lhe sofrimento cardíaco, tendo sido desenganada pelos médicos. Quando ministro Johrei, ela sofre intensamente. Qual seria a causa? Rogo por vossa orientação sobre o método de Johrei. A mãe dela ingressou na fé em 11 de setembro deste ano, mas a paciente ainda não é membro.
+
+O sofrimento é causado pelas injeções. A recuperação será relativamente rápida, portanto, peça a ela que persevere e continue. A injeção que causa mais dor é a de Papinal; a pessoa sente dor mesmo sem que se toque no local. Todo sofrimento é criado pelos médicos. Se soubermos qual medicamento foi usado, a doença pode ser curada. (18 de setembro de 1949)
+
+### 080 Injeção de Ozônio, Visão Espiritual e sua Manifestação
+
+Trata-se de uma fiel de vinte e três anos. De repente, sua respiração tornou-se ofegante, focada apenas na expiração, até que parou completamente. (O ataque durou cerca de cinco minutos). Assustados, sacudimos seu corpo e chamamos seu nome, e ela voltou a respirar, mas dois ou três segundos depois, o mesmo estado se repetiu. Essa condição se repetiu continuamente por sete horas. Durante todo esse tempo, seu coração batia normalmente. Já sabíamos que ela havia recebido cerca de vinte injeções diversas, além de várias injeções de ozônio. Como ela sentia uma dor lancinante, como se seus pulmões estivessem sendo espremidos, presumi que o líquido da injeção havia se gaseificado. Quando sua respiração parava, eu ministrava Johrei na região do hilo pulmonar, e em um ou dois segundos, ela voltava a respirar. Esse ataque ocorreu ininterruptamente das oito da noite às três da manhã, e não pude parar de ministrar Johrei. Duas horas depois, das cinco da manhã até por volta das oito da noite, os ataques recomeçaram. Agora, ela se queixa de dor de cabeça e começou a ter coriza, o que lhe trouxe um leve alívio. No dia seguinte, por volta das sete da noite, ela começou a gemer com uma dor de cabeça violenta, balançando a cabeça de um lado para o outro. Ficou inconsciente por cerca de duas horas. Com o Johrei, ela eliminou grande quantidade de coriza e lágrimas e, em seguida, sentiu-se subitamente bem e com mais energia.
+
+Ademais, na manhã seguinte ao ataque, um membro da família (não membro) saiu para um recado e encontrou um idoso de cerca de oitenta anos, com aparência de mendigo. Ao apanhar um embrulho que o velho deixara cair, este olhou fixamente para o seu rosto e disse: "Há um doente em sua casa, não é? Hoje está melhor do que ontem. Perto do meio-dia, ficará bem." A pessoa relatou essa história, assustada. (De fato, ela estava melhor que no dia anterior). Rogo que nos elucide a causa da parada respiratória e as palavras do misterioso ancião.
+
+A injeção de ozônio pode ser fatal. O jornal noticiou que seu uso seria proibido, o que me leva a crer que seja prejudicial. Quando um espírito atua, a respiração não costuma parar dessa forma. Portanto, creio que se trata de uma intoxicação causada pela injeção. Quanto ao outro fato, é um mistério. Se tivesse que arriscar uma explicação, diria que um espírito ancestral pode estar tentando abrir sua visão espiritual. Certos antepassados podem intensificar a espiritualidade de uma pessoa. Existem seres humanos capazes de ver espíritos. (1 de julho de 1949)
+
+### 081 Intoxicação por Norshin
+
+Sofro de dores de cabeça desde o nascimento e consumi grandes quantidades do analgésico Norshin. Também recorri bastante a massagens, mas agora padeço de rigidez nos ombros. Qual o método de Johrei indicado?
+
+O Norshin também causa intoxicação. A toxina medicamentosa está solidificada em seus ombros; basta dissolvê-la. Se a força espiritual não for intensa, a dissolução será mais lenta. Concentre a energia no ponto endurecido, de modo que ela penetre profundamente.
+
+### 082 Injeção de Morfina
+
+Um ex-soldado que foi mobilizado para a guerra recebeu injeções de morfina devido à amputação de uma perna. Ele pode melhorar com o Johrei?
+
+A intoxicação por morfina tem uma recuperação relativamente boa. Ele melhorará com o Johrei. Interromper o uso de uma vez seria muito penoso, portanto, deve-se ministrar Johrei enquanto se reduz gradualmente a dose. A injeção de morfina suprime o apetite, o que leva à debilidade e a outras complicações.
+
+---
+
+# Arte Médica (VII) 3: Deformidades
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 医術篇 | **Status:** Unknown
+
+## Arte Médica (VII) 3: Deformidades
+
+**033 Issun-boshi**
+
+Qual seria a interpretação espiritual para os casos como o de Issun-boshi, o pequeno samurai do conto folclórico?
+
+Trata-se de uma deficiência na região da cabeça. O elemento que promove o desenvolvimento – o que a medicina denomina glândula pituitária ou hormônios –, ou seja, a função responsável pelo crescimento do ser humano, localiza-se na cabeça. No caso em questão, essa função encontra-se obstruída por um acúmulo de toxinas. Se a cabeça da criança for purificada pelo Johrei ainda na infância, o problema se resolve com simplicidade. Existem também casos como o do boneco Fukusuke, em que apenas a cabeça é desproporcionalmente grande. Isso ocorre devido a uma grande concentração de toxinas nessa região.
+
+**034 Homem com um único testículo**
+
+Venho aplicando Johrei em um menino de seis anos cujo desenvolvimento é normal. Contudo, ele nasceu com uma vesícula na parte inferior das costas e, embora tenha sido submetido a uma cirurgia no Hospital da Universidade de Kyushu, até hoje não possui sensibilidade para controlar suas necessidades fisiológicas. Recentemente, descobriu-se também que ele possui apenas um testículo. Haveria alguma relação com a referida condição? Já se passaram cerca de dois meses de Johrei, sem que eu tenha observado resultados. Gostaria de receber orientações sobre a causa e o método de Johrei.
+
+O problema original não era uma vesícula, mas um edema. A condição atual é consequência da injeção de anestesia local aplicada durante a cirurgia. A presença de um único testículo é algo que ocorre ocasionalmente. O quadro é reversível. Uma sessão de Johrei por semana será suficiente.
+
+**035 Leve anomalia intersexual**
+
+Um menino de quatro anos, não membro, possui um pênis de aparência normal, porém sem o orifício uretral na extremidade da glande. A abertura para a micção se localiza aproximadamente dois centímetros abaixo, sem que isso cause transtornos para urinar.
+
+Isso configura um caso leve de intersexualidade, indicando a presença de certo componente feminino.
+
+**036 Reversão da masculinização em uma jovem**
+
+Li em um artigo do jornal Asahi sobre uma jovem de dezenove anos que passou por um processo de masculinização devido a um tumor ovariano que secretava hormônios masculinos. Após a extração do tumor, ela retornou à sua condição feminina. (Existem de quatro a cinco casos semelhantes no exterior e dois no Japão). Há um ano, sua menstruação cessou e, de forma abrupta, pelos começaram a crescer em seu rosto e peito, seu olhar tornou-se mais incisivo, o pomo de adão ficou saliente, a voz engrossou e sua estrutura óssea se fortaleceu, masculinizando-se rapidamente. Em 28 de outubro do ano passado, ela foi submetida a uma cirurgia no hospital anexo da Universidade de Nagoya para a remoção de um tumor de células masculinizantes do ovário direito. Quatro dias depois, sua voz já se tornara feminina novamente e, em uma semana, os pelos do rosto, peito e pernas caíram, os seios se desenvolveram e ela gradualmente readquiriu as características femininas. A minha dúvida é: o efeito dessa cirurgia será permanente?
+
+O que ocorria era uma compressão do ovário. Se o inchaço tivesse sido eliminado, o problema teria se resolvido sem a necessidade de uma intervenção cirúrgica, algo que a medicina não consegue fazer. Com a cirurgia, é provável que outro tumor se forme na vizinhança, e a situação se repetirá. Se o Johrei for ministrado nos ovários, tudo se reconstituirá naturalmente.
+
+**037 As pessoas com deficiências físicas permanecerão como são?**
+
+Aqueles com deficiências físicas que não podem ser revertidas a um corpo sadio por meio do Johrei (como paralisia, visão monocular, cifose, etc.) poderão adentrar o Mundo de Miroku mantendo sua aparência atual?
+
+Mesmo a cegueira ou a visão monocular são curáveis, desde que não tenham sido submetidas a cirurgia. Se a pessoa não tiver utilizado medicamentos, os olhos quase sempre se recuperam.
+
+**038 Anomalia visual ao caminhar**
+
+Um homem de cinquenta anos, há três, sente o chão ondular como se fossem ondas sempre que caminha. À noite, essa sensação se intensifica, a rua parece estreitar-se e ele cambaleia. Sentado, o sintoma desaparece, mas ele padece de um zumbido constante no ouvido. Seu único histórico de doença é pleurisia. Seria uma questão espiritual? Qual seria o ponto focal para o Johrei?
+
+Esse é um quadro relativamente comum. Existe um nódulo de toxinas na medula oblongata direita. Pessoas com problemas cardíacos também podem apresentar sintomas semelhantes. A causa reside na irregularidade do fluxo sanguíneo na cabeça.
+
+**039 Mãos e pés semelhantes aos de um gato**
+
+As palmas das mãos e as solas dos pés dessa pessoa assemelham-se às patas de um gato, ou à casca de um pinheiro, condição a que se referem como “castigo do gato”. Quando imersas em água por muito tempo, a pele se torna esbranquiçada e uma fina camada se desprende. Em uma família, a mãe, a filha mais velha e o segundo filho apresentam essa condição, enquanto o pai e o filho mais velho, não. Existem ainda sete ou oito outras famílias entre seus parentes com o mesmo problema. Eles se resignaram, acreditando que o “castigo do gato” desaparecerá naturalmente após cinco gerações. Qual seria a causa disso? Seria possível a cura completa através do Johrei? Peço seus esclarecimentos.
+
+De fato, o ressentimento de um gato pode manifestar-se espiritualmente. Contudo, quando afeta várias pessoas, como neste caso, a causa mais provável é o yakudoku ancestral, que se purifica e se concentra em um único ponto da linhagem. Com Johrei, a cura é possível. A crença de que o problema desaparece em cinco gerações se deve ao fato de que, nesse período, as toxinas tendem a se dissipar naturalmente.
+
+**040 Vermes que emergem dos poros**
+
+Um paciente de quarenta anos com tuberculose pulmonar aberta vinha apresentando melhora após receber Johrei por mais de dez vezes. Ele ingressou na fé em 30 de julho e, em 11 de agosto, veio à Sede para receber Johrei. No dia seguinte, já em sua casa, inúmeros vermes brancos, semelhantes a fios de seda e com cerca de cinco milímetros de comprimento, emergiram de todos os poros da pele de seu peito, sendo visíveis a qualquer pessoa. Após esse fenômeno, seu estado de saúde melhorou consideravelmente. Peço que nos elucide sobre o ocorrido.
+
+São vermes. Geralmente, assemelham-se a lagartas e costumam sair também por baixo das unhas. Não há motivo para preocupação. Com o tempo, deixarão de aparecer.
+
+**041 Doença assintomática**
+
+Um jovem de vinte anos, embora não sentisse absolutamente nenhuma anomalia, foi diagnosticado com infiltração pulmonar. Durante um ano e oito meses, foi submetido a cinquenta sessões de terapia de pneumotórax no pulmão direito. Como não sentia qualquer anormalidade no lado direito, o médico recomendou que o mesmo tratamento fosse iniciado no pulmão esquerdo. Sentindo-se descrente com a abordagem médica, ele buscou o Johrei, que vem recebendo há quatro ou cinco dias. Ele relata que seus ombros e costas estão mais leves e seu estado de espírito, mais alegre. Que tipo de purificação ele deverá esperar daqui para frente?
+
+O melhor é não se preocupar com isso. Se não há sintomas, não há problema. O Johrei deve ser ministrado quando o sofrimento surgir. Enquanto um ser humano estiver vivo, sempre haverá algum desajuste em seu corpo.
+
+**042 Osso que emite som**
+
+Um dos membros que assisto, o Sr. Tominaga Ichimatsu, de sessenta e cinco anos, ingressou na fé em maio de 1948. Desde novembro do ano passado, a parte de trás de seu joelho direito estala ruidosamente, cerca de quatro ou cinco vezes ao dia, seja durante o sono ou ao caminhar, sem aviso. O som é tão alto que pode ser ouvido por outras pessoas a uma distância de cinco ou seis cômodos. Após o estalo, ele fica temporariamente incapaz de andar. Qual seria a explicação para tal fenômeno?
+
+Isso ocorre devido a um espaçamento na estrutura óssea. Com o Johrei, o problema será corrigido. Se pressionar a parte de trás do joelho, encontrará um ponto dolorido. É nesse local que o Johrei deve ser concentrado.
+
+**043 Estado de purificação com toxinas por todo o corpo**
+
+Uma senhora de meia-idade sofre há dezoito anos ininterruptos com erupções cutâneas. Seu corpo inteiro apresenta pequenas protuberâncias que não exsudam líquido, mas que sangram um pouco se forem coçadas com força. As áreas inchadas são extremamente endurecidas. Após aproximadamente um mês de Johrei, ela apresenta uma leve melhora. Ademais, o endurecimento em seu rim direito é severo, fazendo com que seu corpo se incline ligeiramente para esse lado. Peço orientações sobre a causa e os pontos de Johrei.
+
+É o que acontece quando há toxinas disseminadas por todo o organismo.
+
+**044 Albinismo causado por medicamentos**
+
+Vi no exterior (China) uma pessoa albina, com cabelos, cílios e sobrancelhas inteiramente brancos. Gostaria que me ensinasse a causa.
+
+Creio que o albinismo seja resultado de yakudoku. Na China, as pessoas ingerem medicamentos incomuns, e penso que seja o veneno contido neles. É um fenômeno análogo ao de um bagre albino.
+
+**045 Rosto branco, corpo vermelho**
+
+Conheço uma jovem em minha vizinhança cujo rosto é branco e muito belo, mas cujas mãos, pés e o restante do corpo são completamente vermelhos. Qual seria a razão para isso? É possível curá-la com Johrei?
+
+Casos como o dessa jovem são bastante comuns. A causa é o sangue impuro. Em pessoas fisicamente ativas, as toxinas tendem a se acumular no corpo. Com Johrei ministrado pacientemente, a cura é alcançável.
+
+---
+
+# 015 A Entoação das Orações e as Palmas
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 祭事篇 | **Status:** Unknown
+
+## 015 A Entoação das Orações e as Palmas
+
+Ao entoar a oração, devemos proferir “Grande Deus do Sol, da Lua e da Terra... Com Vosso Espírito Divino...” ou devemos incluir `Daikomyo Nyorai (大光明如来)` entre os dois, dizendo “Grande Deus do Sol, da Lua e da Terra... `Daikomyo Nyorai (大光明如来)`... Com Vosso Espírito Divino...”? Ademais, ao reverenciarmos o altar dos antepassados, após a oração ou a `Zengensanshi (善言讃詞)`, é correto rogar “Ó, Grande Deus do Mundo Espiritual, protegei-nos e abençoai-nos”? Em tal situação, o número de palmas seria três?
+
+A transição se dá de `Komyorai (光明如来)` para o Grande Deus do Sol, da Lua e da Terra. `Komyorai (光明如来)` representa o Buda. Sendo o Buda associado à noite, é durante esse período que seu nome, `Daikomyo Nyorai (大光明如来)`, deve ser enaltecido. Deus, por sua vez, representa a manhã e, portanto, Seu nome deve ser louvado ao amanhecer. No momento da oração, contudo, ambos devem ser proferidos.
+
+Diante do altar dos antepassados, basta rogar: “Ó, Grande Deus do Mundo Espiritual, protegei-nos e abençoai-nos”. Ao reverenciar os antepassados, as palmas devem ser duas, porquanto eles não possuem corpo físico. O ser humano respira nos três mundos — Divino, Espiritual e Material —, razão pela qual tudo se manifesta em três. Os antepassados, todavia, habitam apenas os mundos Divino e Espiritual. Até então, praticavam-se quatro palmas, pois vivíamos no Mundo da Noite, onde o sol estava ausente. Com o alvorecer da Era do Dia, o sol raiou, e as palmas passaram a ser três.
+
+## 016 Sobre a Prática Litúrgica e a Entoação da Oração
+
+Um: Ouvi dizer que é permitido entoar a oração `Amatsu Norito (天津祝詞)` para enfermos com padecimentos de ordem espiritual. Seria igualmente apropriado entoá-la durante as cerimônias religiosas?
+
+Dois: Em casos de perturbações espirituais, a entoação da `Amatsu Norito (天津祝詞)` por si só é suficiente?
+
+Três: Atualmente, nossa prática litúrgica segue esta sequência: uma vênia, duas reverências, três palmas e uma reverência; em seguida, a entoação da oração; ao final, partindo da prostração, retornamos com três palmas, duas reverências e uma vênia. Prosseguimos com uma vênia, duas reverências, três palmas e uma reverência, seguidas da entoação da `Zengensanshi (善言讃詞)`; e, ao término, partindo da prostração, retornamos com três palmas, duas reverências e uma vênia. Por fim, uma vênia, duas reverências, uma vênia, a entoação do `Gozanka (御讃歌)`, uma vênia, duas reverências e uma vênia. Este procedimento está correto?
+
+Quatro: Durante a entoação do `Gozanka (御讃歌)`, também devemos bater três palmas?
+
+Cinco: Ao entoar a `Amatsu Norito (天津祝詞)`, finalizamos com a súplica “Ó, Grande Deus do Sol, da Lua e da Terra, protegei-nos e abençoai-nos”. Contudo, no caso da `Zengensanshi (善言讃詞)`, não proferimos a parte que diz “Ó, `Daikomyo Nyorai (大光明如来)`, protegei-nos e abençoai-nos”. Haveria alguma razão para essa omissão?
+
+Seis: Diante do altar dos antepassados (pela manhã e à noite), entoamos apenas “Ó, Grande Deus do Mundo Espiritual, protegei-nos e abençoai-nos”. Seria apropriado entoar também a `Zengensanshi (善言讃詞)` durante as cerimônias?
+
+Sete: É permitido bater palmas diante do altar dos antepassados?
+
+Um: Sim, é perfeitamente apropriado entoar a `Amatsu Norito (天津祝詞)`. Contudo, as palmas devem ser batidas com mais suavidade. A experiência demonstra que as pessoas de fé robusta o fazem de modo sereno. Palmas ruidosas podem, inclusive, perturbar a vizinhança. Devem ser leves e discretas.
+
+Dois: A `Amatsu Norito (天津祝詞)` por si só é suficiente.
+
+Três: O importante é que se mantenha o devido respeito. Não se trata de xintoísmo, mas basta que se execute com a mesma deferência de um sacerdote xintoísta.
+
+Quatro: Durante o `Gozanka (御讃歌)`, as palmas são dispensáveis.
+
+Cinco: Deve-se proferir `Daikomyo Nyorai (大光明如来)`.
+
+Seis: Não é necessário.
+
+Sete: Em direção ao altar dos antepassados, deve-se dizer: “Ó, `Daikomyo Nyorai (大光明如来)`, protegei-nos...” duas vezes, e “Ó, Grande Deus do Mundo Espiritual...” duas vezes. (3 de junho de 1949)
+
+## 017 A Forma de Proferir os Nomes Divinos
+
+Quando o Grande Mestre nos guiava nas orações matinais e vespertinas, ao proferir o Nome Divino, havia uma pausa, por exemplo, após “Ó, `Daikomyo Nyorai (大光明如来)`, protegei-nos e abençoai-nos”; em seguida, retomava-se a súplica, prolongando a sílaba final “...abençoai-nooos”, o que conferia uma solenidade majestosa ao ato. Atualmente, porém, a súplica é proferida de uma só vez — “Ó, `Daikomyo Nyorai (大光明如来)`, protegei-nos e abençoai-nos, Ó, `Daikomyo Nyorai (大光明如来)`, protegei-nos e abençoai-nos” —, o que torna a respiração difícil e, naturalmente, acelera o ritmo da entoação. O final abrupto transmite uma sensação de pressa, esvaziando a solenidade do momento. Gostaríamos de retornar à forma anterior. Seria possível?
+
+Podem fazer quantas pausas desejarem. Façam-no de maneira confortável. O essencial é que a prática seja realizada com respeito e um coração reverente. (23 de dezembro de 1949)
+
+## 018 As Orações, o Hino e o Tempo
+
+Praticamos a oração `Takamagahara Norito` pela manhã e a `Zengensanshi (善言讃詞)` à noite. Existe alguma divisão de tempo específica para isso? Rogo que nos elucide também o motivo.
+
+Não há uma demarcação temporal. Deus representa a manhã, e o Buda, a noite. O budismo pertence ao Mundo da Noite. O Japão é a fonte do sol, a nação da manhã; por isso, na corte imperial, as deliberações políticas ocorriam ao amanhecer. A pintura japonesa retrata o sol nascente; a pintura a óleo, o sol poente. (8 de agosto de 1948)
+
+## 019 A Oração Matinal e Vespertina e as Súplicas Diante do Altar dos Antepassados
+
+Gostaria de indagar oralmente sobre a prática litúrgica das cerimônias mensais, das orações matinais e vespertinas, e da reverência ao altar dos antepassados.
+
+Na oração da manhã, a `Amatsu Norito (天津祝詞)`; na da noite, a `Zengensanshi (善言讃詞)`. Diante do altar dos antepassados, basta proferir: “Ó, Grande Deus do Mundo Espiritual, protegei-nos e abençoai-nos” e “Com Vosso Espírito Divino, abençoai o mundo”. (9 de junho de 1949)
+
+## 020 O Sudário e a Prática Litúrgica (A Prática Litúrgica é a Purificação do Espírito)
+
+(1) Seria correto instalar um sudário diante da Imagem Divina, erguendo-o pela manhã e baixando-o à noite?
+
+(2) Nesse caso, durante a oração noturna e nas cerimônias mensais, o sudário pode permanecer baixado?
+
+(1) Sim, está correto.
+
+(2) Não, ele deve ser erguido.
+
+A prática litúrgica matinal e vespertina é a purificação do espírito. (1948)
+
+## 021 As Duas Reverências na Prática Litúrgica
+
+Qual o significado das duas reverências realizadas durante a prática litúrgica?
+
+Na verdade, o correto seriam três reverências, mas, de forma simplificada, fazem-se duas. Desde que se batam três palmas, é suficiente. Fazem-se duas reverências e uma vênia leve. Uma vênia, duas reverências: eis a forma correta. A soma resulta em nove. É a prática litúrgica de Miroku.
+
+## 022 Os Pensamentos Dispersos Durante a Prática Litúrgica
+
+Mesmo ao tentar entoar a `Zengensanshi (善言讃詞)` e o `Gozanka (御讃歌)` em estado de total concentração diante de `Komyorai (光明如来)`, sou assaltado por pensamentos dispersos e bocejos que me impedem de unificar a mente. Isso se deve à interferência de espíritos malignos? Seria um reflexo das máculas do meu lar? Ou decorre da minha própria impureza espiritual? Seja qual for a causa, rogo que me ensine como proceder.
+
+Tal modo de pensar constitui um grave equívoco. O ser humano deve ser aceito em sua condição natural. É imperativo adotar uma postura abrangente, Mahayana. Alcançar um estado de ausência de pensamentos é impraticável. De fato, é justamente durante a entoação das orações que as divagações mentais se manifestam. A própria preocupação em não ter pensamentos dispersos já é, em si, uma divagação. A verdadeira ausência de pensamentos reside em não se inquietar com eles. Portanto, aceite as divagações como são. Elas são inevitáveis. (18 de novembro de 1949)
+
+P: “Então, não há problema se surgirem pensamentos dispersos durante as cerimônias em memória dos antepassados?”
+R: “Não, não há problema algum. Dificilmente existe alguém que consiga entoar uma oração inteira sem que lhe surja um pensamento disperso.”
+
+## 023 Aquecimento do Corpo Durante a Prática Litúrgica
+
+Durante as orações da manhã e da noite, ao entoar o `Gozanka (御讃歌)` após as orações `Norito` e `Zengensanshi (善言讃詞)`, sinto um calor intenso que se origina na parte inferior do abdômen e se espalha por todo o corpo. Qual seria o significado disso?
+
+Isso ocorre porque você está recebendo a Luz de `Komyorai (光明如来)`. (7 de novembro de 1949)
+
+## 024 Reverência à Distância em Viagens
+
+Quando pernoito em um local onde não há um altar a `Komyorai (光明如来)`, volto-me para o leste e entoo três vezes, por duas vezes, a súplica `Nenpi Kannon`. Este procedimento está correto?
+
+Sim, está perfeitamente correto. (28 de outubro de 1949)
+
+## 025 Impossibilidade de Realizar as Práticas em Missão de Difusão
+
+Atualmente, resido em Quioto e tenho a permissão de cultuar `Komyorai (光明如来)`. Contudo, minha mãe e eu, de uma família de três pessoas, estamos em viagem de difusão em outra província, e minha irmã está servindo e residindo na Sede da Igreja. Com a casa sempre vazia, não consigo realizar as práticas diárias a `Komyorai (光明如来)`, retornando apenas uma vez por mês. Em tal situação, como devo proceder?
+
+Se a ausência se deve à missão de difusão, Deus se alegrará ainda mais. Basta que você comunique a Ele a situação. (17 de fevereiro de 1950)
+
+## 026 A Intensidade das Palmas
+
+Ao reverenciar, qual é o mais apropriado: bater palmas com vigor ou com suavidade?
+
+A suavidade é preferível. Aqueles que batem palmas com força e ruidosamente costumam ser pessoas de fé superficial. Creio que seu pensamento se torna materialista. Por valorizarem a forma, batem palmas com vigor. Sua atitude denota uma primazia do corpo sobre o espírito. (19 de junho de 1949)
+
+É permitido bater palmas, mas façam-no com mais serenidade, de modo quase imperceptível. Bater com força é ruidoso e inadequado. Pessoas de fé profunda batem palmas suavemente, enquanto as de fé superficial o fazem com vigor. É um fenômeno curioso, mas essa tendência existe.
+
+## 027 O Número de Palmas
+
+Qual a razão de batermos três palmas diante de Deus e duas diante dos antepassados?
+
+Diante de Deus, são três palmas. Para os antepassados, por não possuírem corpo físico, são duas. A deidade Daikoku, por sua vez, representa a atuação do elemento terra e, por isso, também recebe três palmas.
+
+P: “Quantas palmas devem ser dadas diante do altar dos antepassados?”
+R: “Duas. No Mundo Espiritual, não existe o ‘material’ dos três mundos — Divino, Espiritual e Material —, por isso são duas. Diante de Deus, no xintoísmo, são quatro, batidas duas vezes em pares. Entre os budistas também existe essa prática, pois até agora existiam apenas os números seis e sete. Contudo, como o cinco será acrescentado, na Igreja Messiânica, serão três.”
+
+P: “E em relação às palmas para a deidade Daikoku, como devemos proceder?”
+R: “Sim, podem bater palmas. Contudo, que sejam discretas. Bem pequenas e leves. São três.”
+
+## 028 A Posição das Mãos na Reverência
+
+Ao reverenciar, algumas pessoas posicionam as palmas das mãos para cima. Outras as unem voltadas para baixo. Há ainda as que, com as mãos para baixo, formam um círculo com os polegares e indicadores. Qual dessas formas devemos adotar?
+
+Tocar com as mãos voltadas para baixo um lugar que se pisa com os pés é um ato que macula e, portanto, não é bom. A posição com as palmas para cima é preferível. (2 de dezembro de 1948)
+
+## 029 O Afastamento dos Dedos Mínimos no Gassho
+
+Ao fazer o `gassho`, algumas pessoas notam que seus dedos mínimos se separam naturalmente. Haveria algum significado nisso?
+
+As representações de `Kannon (観音)` também mostram os dedos separados, mas não há um significado particular. (1 de dezembro de 1948)
+
+## 030 A Posição das Mãos na Reverência
+
+Durante a reverência, algumas pessoas o fazem com as mãos unidas, enquanto outras adotam uma postura como se segurassem um `shaku` (cetro ritual). Qual das duas é a correta?
+
+Qualquer uma das formas é aceitável. (25 de junho de 1949)
+
+## 031 Pedidos: por Pensamento ou por Palavras?
+
+Qual a diferença entre fazer um pedido apenas em pensamento e expressá-lo em palavras?
+
+É melhor expressá-lo em palavras. A oração, como pensamento, alcança até um certo ponto, mas, quando verbalizada, sua força é maior. O mundo onde atua o pensamento e o mundo onde atua o espírito da palavra são distintos. Há também o mundo do ato. Se lhe oferecem um banquete, apenas pensar nele não é suficiente. Explico detalhadamente a existência desses dois mundos no meu próximo livro. (15 de julho de 1949)
+
+## 032 Pedidos
+
+Os pedidos devem ser verbalizados?
+
+Os pedidos e as orações, embora alcancem até certo ponto apenas com o pensamento, devem, sim, ser expressos em palavras. Conforme detalho em meu próximo livro, “Crônicas da Fé”, o mundo onde atua o pensamento e o mundo onde atua o espírito da palavra são distintos, e a palavra proferida ressoa com maior intensidade. Em tudo, apenas pensar não é suficiente. É mais gratificante receber um banquete concretamente do que apenas saber que alguém pensou em oferecê-lo. (1948)
+
+## 033 Oração e Palavra
+
+Gostaria de indagar novamente sobre o ensinamento de que as orações devem ser verbalizadas.
+
+É melhor que sejam manifestadas pelo espírito da palavra, mas, na presença de outras pessoas, faça-o de forma inaudível. Contudo, mais eficaz do que isso é ministrar Johrei o quanto antes. (28 de janeiro de 1949)
+
+P: “Gostaria de perguntar novamente sobre o ensinamento de que os pedidos a Deus devem ser feitos em voz alta.”
+R: “É melhor verbalizar a oração, mas se houver pessoas por perto, não o faça; se estiver sozinho, pode verbalizar. Apenas pensar tem pouco efeito. Aja conforme a situação. Pode-se também apenas mover ligeiramente os lábios.”
+
+## 034 O Pensamento e a Palavra nos Pedidos
+
+Ao rogar a Deus, posso considerar que pensar no pedido tem o mesmo efeito que expressá-lo em palavras?
+
+Apenas pensar em oferecer um banquete a alguém não o satisfará. Como possuímos um corpo físico, a forma deve ser manifestada em palavras. É verdade que pensar é melhor do que não pensar, e o pensamento de fato chega a Deus. (18 de janeiro de 1949)
+
+P: “Ao fazer um pedido a Deus, podemos considerar que pensar nele é o mesmo que dizê-lo em voz alta?”
+R: “Não, é diferente. Por exemplo, se eu apenas pensar em lhe oferecer um banquete, você não se sentirá satisfeito, não é mesmo? (risos) Manifestar na forma é o que importa. Portanto, deve-se também expressar em palavras. Bem, ainda assim, pensar é melhor do que não pensar...”
+
+## 035 A Quantidade de Pedidos
+
+Seria um desrespeito fazer múltiplos pedidos a Deus todos os dias?
+
+Pode fazer quantos pedidos desejar. Pensar que isso é errado é que constitui, na verdade, um desrespeito.
+
+---
+
+# A Meteorologia do Futuro (Espiritual e Materialista)
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 天文 | **Status:** Unknown
+
+## A Meteorologia do Futuro (Espiritual e Materialista)
+
+**Pergunta:** De que forma a meteorologia deverá progredir até que alcancemos um clima de ventos e chuvas perfeitamente sazonais?
+
+**Meishu-Sama:** A meteorologia, de fato, progredirá. Até hoje, seu avanço foi lento por ter se fundamentado em uma perspectiva materialista; doravante, contudo, seu desenvolvimento será rápido, pois se guiará por uma ótica espiritual. O mundo caminha para uma era de clima ideal. Pela via materialista, buscar-se-ia um resultado semelhante por meios mecânicos, como o uso da bomba atômica. Atualmente, estou redigindo um manuscrito sobre o século XXI.
+
+## A Predominância do Tempo Nublado
+
+**Pergunta:** Nos últimos anos, não temos mais observado aquelas nuvens de contornos nítidos que víamos antigamente, e o tempo parece algo indefinido. Haveria alguma razão espiritual para tal fenômeno?
+
+**Meishu-Sama:** Isso não possui um significado de grande magnitude. Embora exista uma razão, o tempo voltará ao normal. Ocorrem diversas formas de mudança. Quando o coração humano se anuvia, tal estado se reflete no Mundo Espiritual e, por consequência, tudo perde a clareza. Dias de clima aprazível, assim, tornam-se mais raros.
+
+## A Razão para o Clima Quente (O Aumento do Elemento Fogo)
+
+A razão para o clima ameno deste ano certamente está relacionada ao elemento fogo. À medida que a população do planeta aumenta, a Terra se aquece gradualmente, ano após ano, pois o ser humano é uma criatura que absorve o calor terrestre. Ademais, com a chegada do Dia no Mundo Espiritual, houve um notável aumento do elemento fogo. Fenômenos como as luzes esféricas e o aquecimento do clima guardam relação com esse fato.
+
+## O Princípio das Altas Temperaturas e a Relação entre Fogo e Água (Marido e Mulher)
+
+**Pergunta:** Qual o motivo das altas temperaturas deste inverno?
+
+**Meishu-Sama:** Existe uma razão, mas não é necessário conhecê-la em profundidade. O calor indica uma grande presença de umidade. Onde há muita umidade, a energia do fogo se intensifica. Por essa razão, o tempo fica mais quente após a chuva. A relação se assemelha à de um casal: o homem, sem sua esposa, não consegue manifestar sua verdadeira força. Da mesma forma, a mulher, sem seu marido, tem seu poder diminuído.
+
+O fogo do Japão foi extinto pela água da América; agora, porém, a água americana fortalecerá o fogo japonês. Trata-se da intrínseca relação entre o fogo e a água. Quando um casal vive em harmonia, o marido se enche de vigor. Contudo, se brigam, a água se torna excessiva e apaga o fogo, minando seu ânimo.
+
+## O Calor antes da Chuva e o Princípio da Bomba de Hidrogênio (Umidade e Calor)
+
+**Pergunta:** Qual a razão para as mudanças de temperatura que ocorrem antes da chuva: o tempo fica quente no inverno, fresco na primavera e abafado no verão?
+
+**Meishu-Sama:** O fogo arde por intermédio da água; por conseguinte, a presença de umidade, na verdade, aquece o ambiente. No inverno, os dias verdadeiramente frios são os de céu limpo. É a umidade que gera calor.
+
+Embora a temperatura em lugares como os Mares do Sul seja mais alta que no Japão, a sensação térmica é mais suportável por haver menos umidade. No verão, o calor é gerado pela umidade. A mais potente das bombas de hidrogênio opera pelo princípio de extrair a umidade, detonar o fogo e, em seguida, introduzir instantaneamente o hidrogênio.
+
+## O Aumento Populacional, o Clima e o Paraíso Terrestre
+
+**Pergunta:** Recentemente, o jornal *Nihon Dokusho Shinbun* publicou um artigo sobre uma nova teoria do professor Hideo Nishioka, da Universidade Keio, intitulada "A Teoria do Ciclo de Setecentos Anos do Clima Japonês". Segundo ele, o final do Período Edo, o século XIII (Período Kamakura) e o final do século V foram períodos frios. Em contrapartida, os séculos XV e XVI (Período Muromachi) e o início do século IX (Período Heian) teriam sido períodos quentes. O professor fundamentou sua tese em uma detalhada análise dos anéis de crescimento de um cipreste de mais de 810 anos da Floresta Imperial de Kiso, em Nagano; no estudo de madeiras do Templo Horyuji; em vestígios de leões-marinhos em Choshi (Chiba) e Shirasaki (Wakayama); e na distribuição de castanheiras-do-japão, árvores que crescem em climas frios e úmidos, inferida a partir de cerâmicas com marcas de suas folhas e da descoberta de sementes. Ele também associou o uso de óculos de neve na região de Tohoku, evidenciado por estatuetas de barro, a essas mudanças climáticas. Qual a relação, do ponto de vista espiritual e físico, entre essa teoria acadêmica e a revelação divina sobre a mudança na atmosfera a partir de 1931?
+
+**Meishu-Sama:** Todo fenômeno obedece a um ciclo, uma lei de periodicidade. O clima se tornará mais ameno à medida que a população humana aumentar. Lugares como a Sibéria e os polos Norte e Sul se tornarão habitáveis. As mudanças climáticas se intensificarão, e assim se estabelecerá o Paraíso Terrestre.
+
+## O Aquecimento do Clima e o Ser Humano
+
+**Pergunta:** Dizem que o clima de Hokkaido está muito mais quente em comparação com o passado e que peixes de águas do sul estão sendo pescados cada vez mais ao norte. Haveria alguma razão para isso?
+
+**Meishu-Sama:** O clima está mudando gradualmente. Os lugares frios se tornarão quentes. A Sibéria, por exemplo, já aqueceu consideravelmente, assim como a Manchúria. O clima está se uniformizando. Onde os seres humanos passam a viver, o clima se torna mais quente. A irradiação de calor emitida pelas pessoas é intensa; basta pensar no calor gerado por uma multidão. Onde as pessoas se estabelecem, até mesmo o nevoeiro diminui. Em breve, vastas áreas de terra surgirão nos polos Norte e Sul, e as pessoas passarão a habitá-las. Desse modo, as temperaturas extremas de frio e calor se equilibrarão progressivamente.
+
+## A Causa das Altas Temperaturas e do Excesso de Chuvas
+
+**Pergunta:** Qual a razão para o clima estar tão quente e chuvoso ultimamente? E por que falta energia elétrica, apesar da abundância de chuvas?
+
+**Meishu-Sama:** O clima se aquece à medida que a população aumenta. Quando a luz do Sol é forte, chove mais. A escassez de energia elétrica se deve ao aumento da demanda e à infraestrutura inadequada.
+
+## Ciclos e Temperaturas (A Uniformização)
+
+**Pergunta:** Li em um jornal que existe uma teoria acadêmica segundo a qual, ao longo da história, o clima tem apresentado ondas de frio e calor em ciclos de aproximadamente setecentos anos, e que desde o Período Edo o tempo vem se aquecendo gradualmente. Qual a relação espiritual entre esse fenômeno e as revelações de Meishu-Sama?
+
+**Meishu-Sama:** Todas as coisas possuem um ciclo, e não apenas de setecentos anos. São os seres humanos que regulam as temperaturas; com o aumento da população, o clima se uniformiza.
+
+## O Clima Deste Ano (A Uniformização Climática)
+
+**Pergunta:** Os mais velhos dizem que o clima deste ano não é favorável às colheitas. O que o senhor pensa a respeito? Se for desfavorável, que medidas de manejo devemos adotar? E as anormalidades do inverno quente teriam relação com o Mundo Espiritual?
+
+**Meishu-Sama:** Ainda é cedo para dizer; estamos em fevereiro, não há como ter certeza. Ademais, não cabe ao ser humano controlar o universo, portanto não se trata de "manejo". Em vez disso, é melhor aprimorar o pensamento e praticar o bem. O clima, até certo ponto, é criado pelo próprio homem. Embora surjam lugares frios na Terra, é certo que, ano após ano, o clima se uniformizará, tornando o planeta mais agradável para se viver.
+
+## Ondas de Rádio e o Clima
+
+**Pergunta:** Um acadêmico afirma que o tempo obedece a um ciclo de setecentos anos com períodos quentes e frios, e que este ano entramos em um período quente. Isso seria uma manifestação da purificação do universo? Que tipo de purificação essa mudança nos trará, e que postura mental devemos adotar?
+
+**Meishu-Sama:** Vocês depositam excessiva confiança no que dizem os acadêmicos. Embora existam ciclos para as guerras, a ideia de um ciclo climático de setecentos anos carece de fundamento. Portanto, não precisam acreditar nisso. O que de fato ocorre é uma neutralização do clima em toda a Terra. As ondas de rádio alteram as condições climáticas, e a distribuição da população humana também se expandirá. Disso, podem ter certeza.
+
+## O Aquecimento do Planeta (Inverno Quente)
+
+**Pergunta:** Qual a razão de não ter nevado absolutamente nada este ano na cidade de Obama, onde costuma nevar bastante?
+
+**Meishu-Sama:** Existe um motivo para o clima ameno deste ano, mas não é algo com que devam se preocupar demasiadamente. De modo geral, as zonas quentes do planeta se expandirão.
+
+## O Aquecimento das Regiões Frias (Cultura e Clima)
+
+**Pergunta:** Dizem que, nos últimos anos, a neve na região de Tohoku tem diminuído drasticamente. Qual seria a causa disso?
+
+**Meishu-Sama:** O clima está se uniformizando. Antigamente, a Sibéria era inabitável. Hokkaido também se tornou mais quente. À medida que a cultura se desenvolve, o clima se equilibra. Aparelhos como o rádio também exercem influência. Onde muitas pessoas passam a viver, o tempo esquenta. As montanhas costumam ter muito nevoeiro, mas este diminui quando as pessoas as habitam, pois o ser humano é uma massa de calor.
+
+## O Ser Humano e as Temperaturas
+
+**Pergunta:** Desde o ano passado, sinto que as temperaturas extremas estão se equilibrando. As diferenças entre frio e calor nos diversos lugares desaparecerão?
+
+**Meishu-Sama:** Desaparecerão gradualmente. O ser humano atua para uniformizar a temperatura. É a chegada da Era do Paraíso.
+
+## O Aquecimento da Terra e o Ser Humano
+
+**Pergunta:** Comenta-se que o calor dos últimos tempos se deve a uma inclinação de alguns graus da Terra para o sul. Isso é verdade?
+
+**Meishu-Sama:** Isso não procede. A verdade é que a Terra está destinada a se aquecer. Isso ocorre porque a população humana aumenta e absorve o calor geotérmico. Lugares como Yumoto, em Nikko, eram muito mais frios no passado.
+
+---
+
+# Coleção de Teses do Mestre Okada Jikan
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** Chijo Tengoku
+**Título Original:** 建設破壊篇 | **Status:** Unknown
+
+## Coleção de Teses do Mestre Okada Jikan
+## 016-037 Julgamento e Salvação
+
+### 016 A Purificação pelo Fogo e pela Água e o Dilúvio de Noé
+**Pergunta:** No Salmo consta: “Não fosse a purificação pelo Fogo e pela Água...”. De que forma ela se manifestará?
+
+**Meishu-Sama:** O Fogo é espírito, e a Água, matéria. O Dilúvio de Noé foi a purificação pela Água. (22 de setembro de 1948)
+
+### 017 O Poder Divino e a Luz
+**Pergunta:** Em um dos Salmos, Vossa Senhoria nos ensina: “Purificados pela grande depuração do Fogo e da Água, chegou o tempo de edificar o Paraíso Terrestre”. O que significa essa grande purificação pelo Fogo e pela Água?
+
+**Meishu-Sama:** O Fogo é espírito, e a Água, matéria. Nesse sentido, o poder de Deus é Fogo e Água, e a união de ambos também se torna Luz. Quanto mais o Fogo predomina, mais intensa se torna a Luz. A purificação, portanto, ocorre por meio da Luz. (4 de maio de 1949)
+
+### 018 A Purificação pelo Fogo e pela Água (Espírito e Matéria)
+**Pergunta:** Com todo o respeito, gostaria de perguntar. No Salmo está escrito: “Não fosse a purificação pelo Fogo e pela Água, este mundo humano, tão maculado, não teria outro destino senão a ruína”. Creio que, nas regiões devastadas, as pessoas sentiram de forma lancinante a purificação pela Água, que incluiu também as tempestades. Contudo, de modo geral, não me parece que a purificação pelo Fogo tenha sido tão percebida após o fim da guerra. Que tipo de situação podemos imaginar para o futuro?
+
+**Meishu-Sama:** A Água é de ordem material, mas o Fogo não. O Johrei é a purificação pelo Fogo. O elemento Fogo dissolve as máculas. Tudo o que é material passa pela purificação da Água. (26 de outubro de 1949)
+
+### 019 A Diferença entre o Dilúvio de Noé e a Purificação pelo Fogo e pela Água (Cristo e João Batista)
+**Meishu-Sama:** Existe uma relação considerável.
+
+O Dilúvio de Noé foi uma purificação pela Água, e apenas seis pessoas acreditaram. Oito foram salvas e deram origem aos povos brancos.
+
+João Batista realiza a purificação pela Água; Cristo, a purificação pelo Fogo.
+
+O Johrei é a purificação pelo Fogo, uma purificação através do elemento Fogo. Por ser de natureza espiritual, atua na causa fundamental. É por essa razão que o Paraíso Terrestre pode ser concretizado. A purificação pela Água, com o tempo, volta a se desordenar.
+
+Isso é superstição.
+
+### 020 O “Dilúvio de Noé” e a Purificação pelo Fogo
+**Pergunta:** O que o mito ocidental do “Dilúvio de Noé” representa como prenúncio para o mundo atual? Seria uma profecia? Se o interpretarmos como uma profecia da Grande Purificação, qual será o destino do pensamento materialista? Respeitosamente, peço vosso esclarecimento.
+
+**Meishu-Sama:** Antes da era cristã, viviam os irmãos Noé. O mais velho, recebendo uma inspiração divina, foi alertado sobre a iminência de um grande dilúvio. Ele propagou a revelação ao povo, mas apenas seis pessoas acreditaram. Conforme a orientação divina, ele construiu uma arca, uma embarcação coberta. Existem relatos de que a chuva durou cem dias, enquanto outros afirmam terem sido quarenta. As pessoas que não acreditaram fugiram para o alto das montanhas, mas acabaram devoradas por feras e serpentes. A arca, por sua vez, estava a salvo da entrada desses animais, e por isso seus tripulantes sobreviveram. Diz-se que haviam preparado provisões para setenta e cinco dias. Assim, restaram apenas oito sobreviventes, que, segundo a Bíblia, se tornaram os ancestrais dos ocidentais. Contudo, um evento semelhante também ocorreu no Japão. Em nossas terras, sobreviveram Izanagi-no-Mikoto e Izanami-no-Mikoto. De pé sobre a Ponte Flutuante Celestial, utilizando as joias da vazante e da enchente, eles deram origem às ilhas do nosso país.
+
+A purificação pelo Fogo é a purificação do espírito. Aquela que se dá por meio da água é chamada de purificação pela Água.
+
+O Johrei é realizado com o elemento Fogo; portanto, é uma purificação pelo Fogo de ser humano para ser humano, na qual o espírito é purificado pelo acréscimo do elemento Fogo. (1949)
+
+### 021 O Dilúvio de Noé e o Dilúvio da Antiguidade Japonesa
+**Pergunta:** Por volta de que ano antes de Cristo ocorreu o Dilúvio de Noé?
+
+**Meishu-Sama:** Ocorreu tanto no Ocidente quanto no Japão. No Japão, deu-se na era de Izanagi-no-Mikoto e Izanami-no-Mikoto. Existem duas teorias: uma de que choveu por cem dias e outra, por quarenta. Foi anunciado que em breve haveria um dilúvio e que todos deveriam se preparar, mas somente seis pessoas acreditaram. Elas foram instruídas a construir uma arca no formato de uma semente de ginkgo. De fato, sobreveio um grande dilúvio. Aqueles que fugiram para lugares elevados, como colinas, foram devorados por serpentes que subiram até lá. Os que se abrigaram em barcos comuns foram atacados por animais selvagens. Apenas Noé e seus acompanhantes, que estavam na arca, foram salvos. Isso não aconteceu há centenas de milhares de anos.
+
+### 022 O Arco-Íris na Época do Dilúvio de Noé
+**Pergunta:** A Bíblia relata que um arco-íris apareceu após o Dilúvio de Noé. O arco-íris possui algum significado espiritual?
+
+**Meishu-Sama:** O arco-íris não possui significado espiritual. (É um fenômeno que ocorre quando o vapor de água está denso e reflete os raios do Sol). (21 de dezembro de 1948)
+
+### 023 O Julgamento no Mundo Material e no Mundo Espiritual
+**Pergunta:** Gostaria de saber sobre a ligação espiritual entre as pessoas que recebem seu julgamento no Mundo Material e aquelas que o enfrentam após retornarem ao Mundo Espiritual.
+
+**Meishu-Sama:** O julgamento cotidiano é, na verdade, o julgamento futuro. Ou melhor, é a purificação. O julgamento atual e o futuro são a mesma coisa.
+
+Ao retornar ao Mundo Espiritual, a pessoa é purificada de forma muito mais intensa do que no Mundo Material. Aqui, a existência do corpo físico ameniza o processo. (24 de novembro de 1948)
+
+### 024 Aqueles que não são salvos neste mundo, a extinção de uma família e a linhagem
+**Pergunta:** Fomos ensinados que quem não é salvo neste mundo não tem como ser salvo no outro. No entanto, no caso de famílias que sofreram uma extinção trágica, como se dará o seu renascimento no Mundo do Dia?
+
+**Meishu-Sama:** Isso é um completo disparate. A pessoa não é salva neste mundo. Justamente por possuir um corpo físico, ela não consegue ser salva aqui, sendo então salva no Mundo Espiritual. A ida ao Inferno e o sofrimento ali vivenciado têm como finalidade o arrependimento. O tormento as compele a se regenerar. Trata-se, em essência, de uma punição.
+
+Por possuírem um corpo carnal, os seres humanos têm dificuldade em ser salvos e em compreender as questões do Mundo Espiritual. A maioria, invariavelmente, passa pelo menos uma vez pelo Inferno. É o mesmo que ocorre neste mundo: quando alguém se entrega à polícia, sua pena é atenuada. Aquele que demonstra profundo arrependimento recebe uma sentença mais branda.
+
+A extinção de uma família é uma aniquilação material; não significa que os espíritos desapareceram. Chegado o momento oportuno, os espíritos salvos dessa linhagem reencarnarão para reerguê-la. Em algum lugar, sempre existirá uma família conectada por laços espirituais.
+
+Para que a família se torne um paraíso, o fundamental é que o próprio indivíduo se torne um paraíso. (4 de novembro de 1948)
+
+### 025 A Purificação do Mundo da Noite
+**Pergunta:** Em um Salmo, Vossa Senhoria nos ensina: “Chegou o tempo de purificar a mácula acumulada por milênios nos três mundos”. Isso significa que, até hoje, no Mundo Espiritual da Noite, a purificação era inexistente?
+
+**Meishu-Sama:** Não era inexistente, mas era muito fraca. A purificação é um princípio universal. Antigamente, por exemplo, mesmo que alguém praticasse o mal, a purificação podia levar trinta ou quarenta anos para se manifestar. Por isso, havia quem prosperasse cometendo atos malignos, e outros o imitavam. Gradualmente, as consequências passaram a se manifestar mais rapidamente. O mesmo se aplica às boas ações. Com o Johrei, a cura também se torna mais rápida a cada ano. A revelação célere do mal é o meio mais eficaz para que ele deixe de existir. (25 de agosto de 1949)
+
+### 026 A Razão pela qual a Casa Imperial e o Clã Tokugawa não foram extintos
+**Pergunta:** Ao olharmos para a história do Japão, vemos que, por fraqueza ou falta de sinceridade da classe governante de certas épocas, o povo se desviou do caminho justo, o que resultou na decadência moral que perdura até hoje. Naturalmente, creio que os chefes de Estado, governantes, religiosos e educadores daquelas épocas têm uma grave responsabilidade e culpa perante Deus e a sociedade. Sendo assim, por qual razão a Casa Imperial e o Xogunato Tokugawa não sofreram um julgamento severo e, de alguma forma, perduraram?
+
+**Meishu-Sama:** Até hoje, muitos rancores já foram julgados. Quanto mais intenso o ressentimento, mais rápido ocorre o julgamento. Isso fica evidente ao observarmos os casos de Nobunaga, Hideyoshi e Ieyasu. (3 de outubro de 1949)
+
+### 027 A Diferença entre a salvação da nossa Fé e a das religiões existentes e as boas ações; a última e suprema salvação; a diferença de poder
+**Pergunta:** Fomos ensinados que existem duas maneiras de eliminar as máculas: através do sofrimento ou pela prática contínua de boas ações. Contudo, no mundo atual, parece-me que a verdadeira boa ação só pode ser praticada através dos ensinamentos de Kannon. A maioria das boas ações não se assemelha a simplesmente internar os pais em um hospital?
+
+**Meishu-Sama:** (Isto está correto. A pessoa acredita praticar uma boa ação, mas o resultado é mau.) Na verdade, sem a Verdade de Kannon (Messias)... Este é o último e supremo ensinamento, portanto as outras doutrinas não se comparam. Dizer isso pode soar presunçoso, mas é um equívoco pensar que apenas os seguidores dos ensinamentos de Kannon serão salvos no Julgamento. Em outras religiões também existem pessoas boas, e elas serão salvas. Pessoas sem máculas serão salvas. A diferença reside apenas em ser um atalho ou um caminho mais longo; contudo, existe uma enorme distinção na felicidade que se alcança após a salvação. Desde que não seja uma pessoa má, ela será salva.
+
+(Nossa Igreja possui poder. É algo incomparável. Cristo foi grandioso, mas somente ele realizava milagres; seus discípulos não conseguiam. E ele teve apenas onze seguidores.) Os fundadores do budismo, por exemplo, não curavam tantas doenças quanto os membros de nossa Igreja. Este é um poder inédito na história.
+
+(O fato de as religiões construírem hospitais demonstra a sua falta de poder. Se uma doença incurável para os médicos é curada, as pessoas sentem gratidão. Se, mesmo orando a deuses e budas, a pessoa não se cura e precisa recorrer a um médico, isso significa que o médico é superior ao fundador da religião. Nesse caso, o mais lógico seria reverenciar a fotografia do médico.)
+
+### 028 A Salvação em nossa Fé e nas Religiões Existentes; a Diferença entre a Luz do Sol e a Luz da Lua
+**Pergunta:** Por que, nas religiões do passado, os espíritos não eram salvos?
+
+**Meishu-Sama:** Não é que não fossem salvos de modo algum; a salvação era muito fraca. Isso ocorria porque as religiões do passado possuíam pouco poder, pois pertenciam ao Mundo da Noite. A Noite é regida pela Lua. Contudo, para os seres humanos que viviam na escuridão, ser banhado pela luz da Lua já era motivo de grande gratidão. A salvação que eu trago, todavia, é a Luz do Sol, e o Sol possui sessenta vezes mais poder que a Lua. Podem pensar que a diferença é dessa magnitude. Os ensinamentos do passado eram como a luz da Lua, por isso não eram claros. As Palestras sobre a Fé que publico agora são muito nítidas. Como se pode perceber ao lê-las, com pouquíssimas palavras, compreende-se o mesmo que em vastos e complexos sutras. Por isso, no passado, mesmo ao chegar ao Mundo Espiritual, a salvação se dava na Terra Pura da Luz Serena. A "luz serena" é a luz da Lua. A luz do Sol seria a Luz Solar.
+
+### 029 Apenas os Membros da nossa Fé serão salvos?
+**Pergunta:** Haverá muitas pessoas que permanecerão no Paraíso Terrestre sem terem ingressado nos ensinamentos de Kannon?
+
+**Meishu-Sama:** Haverá muitas pessoas. Este é um ponto facilmente mal interpretado. Qualquer pessoa sincera será salva. Mesmo que ingresse em nossa Igreja, se tiver pensamentos e atitudes equivocadas, perecerá. A salvação depende da alma do indivíduo, mais do que da religião a que pertence. Acontece que, em nossa Igreja, por se compreenderem diversas verdades, a possibilidade de se tornar uma pessoa correta é muito maior. Assim como as coisas têm graus de superioridade e inferioridade, há o bom e o mau.
+
+Digamos que os membros da nossa Igreja têm oitenta por cento de chance, e os de outras, talvez cinquenta por cento.
+
+### 030 O Mundo de Miroku e os Membros da nossa Fé
+**Pergunta:** Quando o Mundo de Miroku chegar, o que acontecerá com as pessoas que não acreditam nos ensinamentos de Kannon?
+
+**Meishu-Sama:** Haverá pessoas que serão salvas e pessoas que perecerão. Independentemente de crer ou não, quem tiver virtude será salvo. A diferença é que, nos ensinamentos de Kannon, a purificação é mais rápida. O efeito é maior, e por isso a pessoa se eleva a um patamar superior. Além disso, ela aprende o método para salvar o próximo. (26 de maio de 1949)
+
+### 031 Trabalhar com Seriedade e não Cometer Pecados Livra da Grande Purificação
+**Pergunta:** Existem muitas pessoas que, embora trabalhem com seriedade, não conseguem acreditar na Grande Purificação que se aproxima e pensam: “Não considero que esta Obra Divina seja o melhor caminho, portanto, não me importo com o julgamento de amanhã”. Que tipo de repreensão essas pessoas receberão de Deus?
+
+**Meishu-Sama:** Quem trabalha com seriedade e não comete pecados será salvo. Pessoas virtuosas são salvas, mesmo não sendo membros. Aos membros, é ensinado o método para serem salvos, ou seja, o melhor método para salvar o próximo. Se o aprendem e não o utilizam, de nada adiantará.
+
+### 032 Atalho e Caminho Longo; a Salvação em outras Religiões
+**Pergunta:** Os seguidores de outras religiões serão salvos na Era de Miroku?
+
+**Meishu-Sama:** As pessoas sem máculas serão salvas. Existem o atalho e o caminho mais longo. Os ensinamentos de Kannon são o atalho.
+
+### 033 A Diferença entre Salvar e Ser Salvo; o Futuro da Purificação
+**Pergunta:** Agradeço profundamente por Vossa Virtude Divina, que nos permitiu encerrar o ano de 1949 em segurança. Creio que em 1950 e 1951 a purificação se tornará cada vez mais intensa. Entre esses dois anos, qual será o mais severo? Peço também vossa orientação sobre o estado da purificação, da fome, da doença e da guerra no Japão e no exterior.
+
+**Meishu-Sama:** O próximo ano será a fronteira entre a Noite e o Dia, portanto, não se sabe o que pode acontecer. O bem e o mal se tornarão evidentes. Tudo dependerá da quantidade de máculas de cada um. Deus é justo. A missão principal dos membros de nossa Igreja é salvar o maior número de pessoas.
+
+Em outras religiões, as pessoas podem ser salvas, mas não podem salvar. (28 de dezembro de 1949)
+
+### 034 O Erro da Inércia após Ingressar na Fé; ser salvo da purificação e a troca de espírito
+**Pergunta:** Ouvi dizer que, se não recebermos a purificação da troca de espírito, não conseguiremos viver até a chegada do Paraíso Terrestre. Como ocorre essa purificação da troca de espírito? Ela é diferente da purificação comum? E seria ela visível a olho nu para as outras pessoas?
+
+**Meishu-Sama:** Seria uma espécie de possessão divina. A pessoa é dominada por um espírito maligno. Se alguém lhe disse isso, é preciso ter cuidado. Não se deve afirmar categoricamente o que é preciso fazer para sobreviver. A purificação se intensificará. Muitas pessoas conseguirão suportá-la. Aqueles que não conseguirem... precisarão purificar seu espírito em certa medida. Como a purificação ocorre através do processo purificador, existe a possibilidade de sobreviverem. Contudo, apenas ingressar na Fé sem se dedicar a salvar o próximo não garante a salvação. Por outro lado, mesmo sem ter ingressado, se o coração e a conduta de uma pessoa forem bons, ela será salva. Ao aderir a esta Fé, o poder purificador para lidar com essas questões se torna mais forte, e por isso a probabilidade de salvação aumenta. O processo purificador é uma limpeza espiritual, através da qual as impurezas diminuem.
+
+### 035 O Lixo que se torna útil – Receber o Ohikari e abandoná-lo
+**Pergunta:** Parece haver um número considerável de pessoas que, após receberem o Ohikari, adormecem sem se dedicar à Obra Divina e, pior ainda, o tratam de forma lamentável. Quando o momento decisivo chegar, qual será o destino delas?
+
+**Meishu-Sama:** Elas perecerão. Não adiantará de nada. É preciso salvar as pessoas. Guardar o Ohikari sem usá-lo é um desperdício muito maior. Deve-se utilizá-lo ao máximo. Uma vez que recebemos um instrumento para a salvação, devemos empregá-lo o tanto quanto for possível.
+
+Até mesmo o lixo precisa se tornar um lixo que não seja varrido para fora. (7 de junho de 1949)
+
+### 036 A Proporção entre o Corpo e as Toxinas; permanecer no Paraíso Terrestre e as toxinas
+**Pergunta:** Apenas as pessoas sem toxinas terão a permissão de viver no Paraíso Terrestre?
+
+**Meishu-Sama:** Não é possível determinar isso de forma absoluta. O importante é que a pessoa tenha a índole para se tornar boa no futuro. Ao adentrar o Paraíso Terrestre, ela será purificada. A decisão se baseia na existência ou não da predisposição para se regenerar. As toxinas são compostas pelas toxinas da própria pessoa e pelas herdadas dos antepassados. Pouquíssimas pessoas possuem uma quantidade muito pequena de toxinas.
+
+Se um ser humano tiver quarenta por cento de toxinas, já pode ser considerado uma pessoa esplêndida e purificada. O ser humano atual tem cento e dez por cento. Em um determinado momento, ocorrerá uma purificação de extrema intensidade. Não posso fazer previsões neste momento.
+
+### 037 Espíritos não Perdoados no Julgamento
+**Pergunta:** Sobre as almas das pessoas não perdoadas no Julgamento de Deus...
+
+**Meishu-Sama:** Elas irão para o Inferno, passarão pelo processo purificador e reencarnarão. Quando renascerem da próxima vez, tornar-se-ão boas pessoas.
+
+E o mundo se transformará em uma era onde não será mais possível cometer pecados. (13 de dezembro de 1949)
+
+---
+
+# Da Coletânea de Artigos do Mestre Okada Jikanshi — Arte Médica (IX)
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** Gosuiiji
+**Título Original:** 医術篇 | **Status:** Unknown
+
+## Da Coletânea de Artigos do Mestre Okada Jikanshi — Arte Médica (IX)
+
+## 001 A Noite e a Medicina
+Até o presente momento, a medicina vigente cumpriu o seu papel. Reconhecemos os méritos da medicina ocidental em áreas como a anatomia e a bacteriologia; não se trata, portanto, de uma negação completa de suas contribuições. Contudo, durante a Era da Noite, a supressão era o método mais adequado, pois não havia força suficiente para a purificação, ou seja, para dissolver e expelir as toxinas. Solidificá-las era, de fato, a via mais rápida. Até mesmo a deusa Kannon (観音), sob a manifestação de Yakushi Nyorai, o Buda da Medicina do Oriente, valeu-se de medicamentos em certas épocas. Nos sutras budistas, encontramos, por exemplo, um capítulo dedicado às ervas medicinais.
+
+Com o advento da Era do Dia, todavia, a solidificação perde sua eficácia. Por conseguinte, o método de dissolver e expelir as toxinas consolidou-se como o caminho mais célere para a cura fundamental. Tive o privilégio de compreender esta verdade antecipadamente e, por essa razão, tenho ensinado este método. Ainda assim, ao nos dirigirmos aos médicos, devemos afirmar que a medicina e as injeções têm o seu valor, pois mesmo nos dias de hoje, um certo grau de solidificação ainda ocorre. A terapia de pneumotórax, por exemplo, atua imobilizando um dos pulmões com o intuito de interromper o processo purificador. (Showa 23)
+
+## 002 O Corpo Espiritual na Arte Médica (Religião e Ciência)
+*Gostaria de receber uma orientação sobre como explicar a medicina moderna sob uma perspectiva religiosa, ou mesmo como apontar seus erros de diagnóstico.*
+
+A medicina moderna, por ter se desenvolvido sob uma perspectiva puramente materialista, não se coaduna nem com a religião, nem com a verdadeira ciência. Os métodos praticados no tempo das terapias populares constituíam uma medicina de natureza espiritual. O ser humano é um todo formado por espírito e matéria; logo, problemas não podem ser solucionados tratando-se apenas o corpo. Ignorar o espírito e focar-se unicamente no corpo físico impede a cura.
+
+Nesse sentido, as costas representam o espírito, enquanto o abdômen representa o corpo. Uma cura verdadeira só é alcançada quando as costas são tratadas. O peritônio, inclusive, pertence à esfera das costas. Ademais, a emoção corresponde ao espírito e a razão, ao corpo. Uma pessoa com as emoções desenvolvidas é rica em sentimentos de alegria, ira, tristeza e prazer.
+
+As raposas, por exemplo, atuam sobre o centro da razão. Ao refletir, o ato de fumar um cigarro estimula os nervos do nariz, que por sua vez agem sobre o cérebro. A execução das ações se dá pelo abdômen, em constante diálogo com a mente. A sabedoria reside na cabeça; a emoção, na nuca; e a coragem, no abdômen.
+
+A afirmação correta é que a ciência é uma parte da religião. O budismo, quando levado às últimas consequências, torna-se extremamente ascético, levando à aversão e negação da civilização científica. Observemos o caso de Tagore, que se dedicava à meditação na floresta... Se todas as pessoas adotassem tal postura hoje, ninguém conseguiria sobreviver. (Showa 23)
+
+## 003 Purificação Espiritual e Purificação Física
+*Mesmo sem receber Johrei, o sofrimento espiritual pode invariavelmente desencadear uma purificação física? E podemos considerar toda purificação natural como um reflexo da purificação espiritual da pessoa, ou ela pode ocorrer mesmo sem qualquer purificação no âmbito do espírito?*
+
+Há uma distinção entre o espiritual e o mental. A purificação se inicia no plano espiritual e, posteriormente, manifesta-se no corpo físico. O aspecto mental, por sua vez, refere-se à maneira de pensar do indivíduo. (03/06/1949)
+
+## 004 As Duas Formas de Purificação: Dissolução e Solidificação
+*Desejosa de servir na Obra Divina, recebi o amuleto de Grande Força, mas, desde o final de abril, fui acometida pela influência de um espírito maligno, sentindo dores no pescoço e nos ombros que me atrapalham em minhas dedicações. Rogo por sua proteção.*
+
+A solidificação é uma forma de purificação, não uma ação de espíritos. Existem duas modalidades de purificação: a que solidifica e a que dissolve. (18/05/1950)
+
+## 005 A Profunda Fadiga Após a Purificação
+*Na infância, contraí pneumonia por três vezes, sendo curado em todas elas por meio de tratamentos médicos. Ingressei na Fé em março de 1946 e, em março deste ano, logo após um encontro com o Grande Mestre, recebi uma intensa purificação de pneumonia. Recuperei-me em cerca de vinte dias, mas, desde então, ao ministrar Johrei, sinto um cansaço físico e mental superior ao de um trabalho braçal, algo que nunca havia sentido antes. Qual seria a razão para tal fenômeno?*
+
+As toxinas que foram solidificadas no passado estão, agora, em processo de dissolução. Trata-se de uma consequência do processo purificador. A eliminação de elementos nocivos, por si só, pode causar fadiga. Há casos em que a pessoa chega a perder a consciência. (06/06/1949)
+
+## 006 A Aparente Pausa na Purificação
+*Durante a ministração de Johrei, há casos em que a purificação parece cessar temporariamente. Qual o significado disso?*
+
+Não se trata de uma interrupção, mas do prelúdio de uma nova etapa purificadora que se manifestará. Basta continuar a dissolver as toxinas. Elas se encontram fragmentadas no organismo. (22/04/1950)
+
+## 007 A Purificação de Quem Consome Álcool
+*Meu marido consome uma quantidade considerável de álcool diariamente, mas não manifesta qualquer purificação. Pessoas que bebem muito têm mais dificuldade em purificar?*
+
+Aqueles que consomem álcool tendem a ter suas purificações postergadas, mas, quando elas ocorrem, manifestam-se de uma só vez. (16/09/1949)
+
+## 008 A Natureza das Toxinas
+*Quando o espírito se macula, essa mácula se materializa em micropartículas tóxicas. Qual a denominação dessas toxinas?*
+
+Costuma-se dizer “do infinitesimal ao infinito”. Não sabemos a real dimensão do Universo, tampouco quão pequenos são os microrganismos. Aquilo que é visível ao microscópio já possui um tamanho considerável. Da mesma forma, é impossível determinar a quantidade de germes existentes no corpo humano. Como a sociedade desconhece essa realidade, nunca houve quem lhes desse um nome. Contudo, a toxina é, em sua essência, de um único tipo. É preciso distinguir as toxinas dos resíduos metabólicos. (12/11/1948)
+
+## 009 As Características do Veneno Ofídico
+*Tsuchiya Tsune, 50 anos, teve um problema renal há dezessete anos. O diagnóstico médico apontou um nódulo do tamanho de um punho no baixo-ventre, e a cirurgia foi recomendada, mas ela não a realizou. Depois disso, não teve mais anormalidades. Contudo, em junho deste ano, logo após ingressar na Fé, seu baixo-ventre começou a inchar e, além do nódulo antigo, surgiram outros dois: um à direita do umbigo, com cerca de 4,5 cm de diâmetro, e outro abaixo da boca do estômago, com aproximadamente 3 cm. Ocasionalmente, um deles sobe em direção ao peito, causando um inchaço de uns 6 cm no centro dos pulmões. Simultaneamente, a região da cintura ao abdômen incha de forma constritiva, causando dificuldade para respirar. Ao se levantar, o nódulo desce, mas então o abdômen se torna dolorosamente distendido. Antes e depois desses episódios, ela expele de 360 a 540 ml de um catarro semelhante à saliva por dia. Seria um fenômeno espiritual? Peço orientação sobre a causa e o método de Johrei.*
+
+Há uma quantidade imensa de toxinas. Aparentemente, trata-se de veneno de serpente. Com perseverança no Johrei, a cura será alcançada, embora demande um tempo considerável. Essa toxina pode ter origem na ingestão de algo relacionado a serpentes, e suas características são a eliminação na forma de espuma ou de uma secreção viscosa. (09/11/1949)
+
+## 010 O Bacilo da Tuberculose
+*1. Mesmo que o bacilo da tuberculose entre em um organismo com muitas toxinas, a doença não será desencadeada?*
+*2. Como devemos compreender a tuberculose infantil?*
+*Rogo por seus esclarecimentos.*
+
+A tuberculose não é contraída mesmo que o bacilo entre no organismo. Eu mesmo poderia lamber o bacilo e não seria infectado. Ele se desenvolve quando o catarro envelhece no corpo. As bactérias são, em essência, organismos extremamente frágeis. A medicina, contudo, promove o envelhecimento do catarro, criando assim uma doença artificial. Praticamente toda doença que não se cura na idade apropriada é diagnosticada como tuberculose. (18/10/1948)
+
+## 011 As Máculas e os Tipos de Bactérias
+*Foi-nos ensinado que as doenças surgem quando as máculas do espírito se refletem no corpo físico. Assim como a medicina moderna classifica doenças como disenteria, cólera, tifo, sífilis e tuberculose, as máculas espirituais também possuem classificações semelhantes?*
+
+Certamente. A cada tipo de toxina corresponde um tipo específico de bactéria. A bactéria adequada para cada toxina é que entra em ação. Os micróbios se alimentam das toxinas presentes no sangue humano para se proliferarem. (13/07/1948)
+
+---
+
+# Coletânea de Artigos do Mestre Jikan Okada
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 社会人事篇 | **Status:** Unknown
+
+## Coletânea de Artigos do Mestre Jikan Okada
+
+## 009 - Plantas de Origem Controlada e a Região de Kyoto
+
+**Pergunta:** Produtos agrícolas de origem controlada, como a berinjela Kamo e os nabos para a conserva *suguki*, cultivados em Kamigamo, na cidade de Kyoto, não se desenvolvem da mesma forma quando plantados em vilarejos vizinhos. Gostaríamos que nos elucidasse a causa desse fenômeno.
+
+**Meishu-Sama:** Os componentes do solo tendem a se concentrar em um único ponto. Aliás, tudo na natureza possui a propriedade de se agregar em um local específico. É por essa razão que surgem peculiaridades em diferentes regiões.
+
+No Japão, o solo nas cercanias de Kyoto é de excelente qualidade, propiciando o cultivo de plantas de categoria superior. Isso se deve às condições favoráveis da crosta terrestre e à irradiação do calor geotérmico.
+
+Sob a perspectiva espiritual, o Japão tem a forma de um dragão, e a região de Kyoto corresponde ao seu tórax, a parte mais esplêndida.
+
+(Observação de 1948: Os bambus de Kyoto, como o *takematsu*, são de ótima qualidade e possuem uma aparência muito bonita. Não se encontra nada semelhante no exterior.)
+
+## 010 - Fadas
+
+**Pergunta:** Um de nossos fiéis fez a seguinte pergunta: ao aplicar Johrei em um paciente em estado grave, ele notou que os rasgos no *shoji* (porta de correr de papel) pareciam flores, e dentro delas, via nitidamente centenas de rostos. Ao perguntar ao paciente, este confirmou que também os via. Esse episódio ocorreu duas ou três vezes. Qual o significado espiritual disso?
+
+**Meishu-Sama:** Trata-se de fadas. Imagino que seus rostos se assemelhem aos de crianças. Onde as flores desabrocham, muitas crianças aparecem a dançar, mas fogem quando um ser humano se aproxima.
+
+Todas as coisas no universo podem adquirir vida. Existem relatos antigos, como a cerejeira de Otomo no Kuronushi que se transformou em uma tartaruga, ou o salgueiro do Templo Sanjusangendo. Acredito que, no caso relatado, sejam seres que vieram vinculados às flores no momento em que elas surgiram.
+
+## 011 - Seres Humanos e Aranhas (O que se pode matar)
+
+**Pergunta:** Eu detesto aranhas, mas sinto um certo desconforto em matá-las. Seria melhor não o fazer?
+
+**Meishu-Sama:** Não há problema em matá-las. Existem casos de possessão por espíritos de aranhas, ou mesmo de seres humanos que se transformam nelas. No teatro Kabuki, por exemplo, a peça *Tsuchigumo* retrata o espírito de uma aranha que assume forma humana para praticar o mal. Refiro-me a aranhas de grande porte; houve casos de espécimes do tamanho de dois tatames. Há tanto seres humanos que se tornam aranhas quanto aranhas que se tornam humanas.
+
+As criaturas de aparência repulsiva podem ser mortas; já as de aparência bela não devem sê-lo. Como exemplo, temos as aves, que deleitam o olhar humano e, ademais, cumprem a função de se alimentar de insetos.
+
+## 012 - Esferas de Fogo que se Elevam da Cabeça (A Linha Espiritual Divina)
+
+**Pergunta:** No dia sete de janeiro deste ano, enquanto eu ministrava o Aprimoramento Básico em Toride, na província de Ibaraki, dois fiéis presentes relataram, em uníssono, que durante o curso viram algo semelhante a um cordão dourado vibrando a cerca de sessenta centímetros acima da cabeça de um dos participantes. Em seguida, viram esferas de fogo, com aproximadamente seis centímetros de diâmetro, elevando-se sucessivamente. Em outra ocasião, durante um Aprimoramento na Sede de Seijo, iniciado no dia cinco deste mês, um participante relatou que, ao despertar na manhã do segundo dia, viu três esferas de fogo envoltas em nuvens flutuando horizontalmente diante de seus olhos, a uma distância de sessenta a noventa centímetros, antes de desaparecerem uma a uma. Qual a explicação para esses fenômenos?
+
+**Meishu-Sama:** Deus emana uma espécie de linha espiritual de luz, e foi isso que eles viram. Ultimamente, tais fenômenos (as esferas de fogo) têm se tornado mais frequentes. Divindades da linhagem do fogo estão se manifestando gradualmente, e é por essa razão que a luz se tornou forte o suficiente para ser visível.
+
+De agora em diante, ocorrências como esta se tornarão cada vez mais comuns.
+
+## 013 - Esfera de Luz Voa e Ouve-se um Grande Som (A Princesa Otohime)
+
+**Pergunta:** Em vinte e seis de janeiro, por volta das sete e meia da noite, uma esfera de fogo com cerca de trinta centímetros de diâmetro cruzou o céu de oeste para leste, deixando um rastro azulado de aproximadamente cinco metros. Ela emitiu uma luz de intensidade ofuscante e desapareceu em uma chuva de centelhas. Cerca de cinco minutos depois, ouvi um som de grande magnitude. Qual o significado disso?
+
+**Meishu-Sama:** Trata-se de um dragão divino da linhagem do fogo. Creio que foi uma manifestação com o propósito de transmitir uma mensagem à humanidade.
+
+Não se pode afirmar com certeza, mas o dia vinte e seis de janeiro é o aniversário de Otohime, a princesa do Palácio do Dragão. O fenômeno pode estar relacionado a ela.
+
+À medida que o Mundo Espiritual se torna diurno, o elemento fogo aumenta, tornando possíveis tais manifestações.
+
+## 014 - Ossos que se Tornam Água (A Essência da Terra)
+
+**Pergunta:** Há algum tempo, exumamos uma urna funerária que havia sido enterrada por aproximadamente oito anos. Embora estivesse hermeticamente fechada, os ossos haviam se transformado em uma água de pureza cristalina. Qual a explicação para tal fato? Diante disso, seria correto pensar que os ossos são uma materialização do espírito do hidrogênio?
+
+**Meishu-Sama:** Isto é um fenômeno raro, mas não impossível. Na verdade, este é o desfecho ideal. A transformação em água é um bom sinal e provavelmente ocorreu devido à fé da pessoa.
+
+Em essência, o corpo humano é água, o espírito é fogo e a matéria é terra; todavia, a própria terra tem sua origem na água. Conforme dizem as escrituras sobre a Criação, "as partículas mais leves se tornaram o Céu, e as mais pesadas, a Terra".
+
+A terra, portanto, é água solidificada.
+
+## 015 - Grande Som Faz a Casa Tremer (Avisos por Meio do Som)
+
+**Pergunta:** Em dezoito de abril de 1948, entronizamos a Imagem da Luz Divina, Komyō Nyorai. Desde dezembro do ano passado, todas as noites, por volta das dez horas, a casa treme com um som de rangido, como se fosse um pequeno terremoto. O fenômeno se repete diariamente. Haveria alguma causa espiritual?
+
+**Meishu-Sama:** Sons como estalos de madeira ou grandes estrondos são comuns em santuários e locais sagrados. Ocorrem quando um espírito deseja comunicar ou solicitar algo. Geralmente, os espíritos comunicam-se por meio de sonhos, intuições ou outras percepções espirituais.
+
+O som é frequentemente utilizado para anunciar uma alegria. Sendo este o caso, o fenômeno cessará em breve. Quando um espírito não encontra outra forma de se manifestar, ele recorre ao som. Se aguardar mais um pouco, o motivo se tornará claro.
+
+Grandes dragões, quando se aproximam, emitem um som sibilante.
+
+## 016 - Materialização do Pensamento Espiritual
+
+**Pergunta:** O dia vinte e dois de junho marcou o terceiro aniversário do falecimento de nosso filho mais velho. No dia treze, que também é o aniversário de falecimento de meus pais, enquanto eu limpava o vidro da fotografia dele no altar familiar, notei quatro caracteres surgindo no lado direito da imagem. Fiquei intrigado e passei a observar diariamente. Próximo à data do aniversário de falecimento, os caracteres tornaram-se mais nítidos, mas eu não conseguia decifrá-los. No dia vinte e nove, pedi ao Reverendo Iwamatsu que os examinasse, e ele identificou as palavras "Chosei Waraku", que significam "Longa Vida, Harmonia e Alegria". Três dias depois, em primeiro de julho, os caracteres começaram a desvanecer, desaparecendo quase por completo em uma semana. Peço-lhe que nos esclareça este fenômeno.
+
+**Meishu-Sama:** Isto significa que seu filho mais velho foi salvo no Mundo Espiritual e expressa sua gratidão. Ele realizou tal fenômeno para que vocês acreditassem na existência do Mundo Espiritual. Quando um espírito concentra intensamente seu pensamento, este pode se materializar até certo ponto.
+
+## 017 - Hinos Divinos Ouvidos do Altar Budista (A Vontade do Espírito e o Kototama)
+
+**Pergunta:** Em uma família na qual os avós são membros e possuem a imagem de Kannon em biombo, a nora, que não é fiel, ouviu um Hino Divino de uma beleza e serenidade indescritíveis vindo do altar budista. Passados três ou quatro dias, um vizinho que veio receber Johrei também ouviu uma voz maravilhosa entoando a oração Amatsu Norito, vinda do mesmo cômodo. Gostaríamos de saber que anteriormente essa família era devota fervorosa da seita Nitiren. Qual seria a explicação para o ocorrido?
+
+**Meishu-Sama:** O que ouviram foi uma manifestação espiritual. Quando um espírito emite o Kototama com o forte desejo de ser ouvido, a vibração do Kototama se adensa, tornando-se audível.
+
+Acredito que os espíritos ancestrais desejaram, assim, comunicar que também aderiram à fé.
+
+## 018 - Marcas de Mão na Parede (Ressentimento) e o Princípio de Ceder
+
+**Pergunta:** Gostaria de relatar um acontecimento de um antigo templo da seita Soto em minha aldeia, que remonta ao início da Era Meiji. Na época, uma idosa que cuidava do sacerdote adoeceu e, abandonada por todos, decidiu tirar a própria vida. Naquele momento, exclamando "Que ódio!", ela pressionou a palma de sua mão direita contra a porta de madeira de seu quarto. A marca ficou impressa com uma clareza impressionante, resistindo a todas as tentativas de remoção e tornando-se, hoje, uma atração do templo. Eu mesmo a vi diversas vezes. Qual o significado espiritual por trás desse fato?
+
+**Meishu-Sama:** Trata-se de um profundo ressentimento. A impressão emana da palma da mão. O pensamento de rancor é algo terrível; por causa dele, o espírito não consegue seguir para seu devido lugar. O fenômeno é semelhante ao do Teto de Sangue de Kyoto. O sangue impregnado de ódio é diferente do sangue comum. Pensamentos de rancor pertencem à esfera do mal e se convertem em espíritos malignos, tornando-se como uma toxina espiritual.
+
+Por essa razão, não se deve jamais incorrer no ressentimento alheio; ao contrário, devemos viver de modo a sermos alvo de gratidão. Nisso reside o princípio de que "ceder é vencer". Aquele que cede se liberta de tais amarras e, por conseguinte, atrai melhor sorte e vive isento de temor. Tokugawa Ieyasu, por exemplo, embora tenha perdido batalhas e fugido, acabou por unificar o país e sua linhagem perdurou. Já Hideyoshi, que sempre vencia, acumulou o rancor de muitos, e por isso seu clã teve uma derrocada rápida.
+
+## 019 - Fumaça de Incenso Vista Saindo do Peito (Paralisia Total), Espírito Salvo e Incenso
+
+**Pergunta:** Um jovem de vinte e dois anos, totalmente paralisado há treze, sofria de cinco a seis convulsões por dia. Há dois meses, ele vem recebendo Johrei. Tanto ele quanto sua família ingressaram na fé, e sua condição melhorou, a ponto de conseguir se alimentar com mais facilidade. No dia dois de abril, durante o Johrei, uma fumaça semelhante à de incenso começou a se elevar da região direita de seu peito. O que isso significa?
+
+**Meishu-Sama:** A causa é um espírito que sofreu um acidente vascular cerebral. Um jovem de vinte e dois anos não deveria ter um derrame; as convulsões ocorrem por influência desse espírito.
+
+O que se viu foi a fumaça de um incenso do Mundo Espiritual. Por vezes, percebe-se também uma fragrância agradável. Este fenômeno foi uma manifestação para indicar que o espírito foi salvo. O local onde o espírito se encontra e o local onde o incenso é ofertado são distintos, mas quando o espírito é salvo, a oferenda do incenso o alcança.
+
+Quando uma divindade se aproxima, é comum que se sinta um aroma sublime.
+
+## 020 - Corvo Bica a Janela para Avisar (Espírito Ancestral)
+
+**Pergunta:** Em abril do ano passado, na cidade de Matto, distrito de Ishikawa, na província de Ishikawa, durante uma semana, cinco ou seis corvos voavam até as proximidades da casa de um membro que assisto. Todos os dias, entre oito e nove da manhã, eles pousavam, um em cada casa vizinha, e um deles bicava o vidro da janela até quebrá-lo, sem se mover. Se a porta era aberta, ele se mudava para a janela seguinte e a quebrava também. Mesmo sendo afugentado, retornava em seguida. Quando eu aplicava Johrei, ele fugia, mas logo voltava. Qual a razão para tal comportamento?
+
+**Meishu-Sama:** Trata-se de um ancestral que se encontra no mundo dos Tengu e que utilizou os corvos para se comunicar com seus descendentes.
+
+Contudo, como o assunto já foi resolvido, não há mais com que se preocupar.
+
+## 021 - A Imagem de Amida que Soa (Espírito Humano Reencarnado)
+
+**Pergunta:** No Templo Ikko-ji, em Utsunomiya, existe uma estátua considerada Tesouro Nacional, conhecida como "Amida Nyorai que Soa". Diz a tradição que esta imagem derrama suor sempre que uma grande calamidade está para ocorrer. Moradores locais afirmam que ela suou antes das guerras Sino-Japonesa e Russo-Japonesa, do Grande Terremoto de Kanto e, mais recentemente, pouco antes da Guerra do Pacífico, alertando sobre os eventos vindouros. Até hoje, a estátua atrai muitos peregrinos. Haveria uma explicação para isso?
+
+**Meishu-Sama:** Existem espíritos de pessoas que, embora tenham praticado o mal ou cometido pecados em vida, arrependeram-se no momento da morte e fizeram o voto de servir à humanidade. Tais espíritos agregam-se a estátuas de Jizo, Amida e outras divindades para, por meio delas, alertar sobre calamidades e, assim, beneficiar um grande número de pessoas.
+
+Também é comum que seres humanos reencarnem como animais e, posteriormente, retornem como espíritos humanos, realizando atos semelhantes.
+
+---
+
+# Ofícios Religiosos em Memória dos Antepassados
+
+**Categoria:** kouwa | **Ano:** - | **Fonte:** 御Hikari話録
+**Título Original:** - | **Status:** Published
+
+## Ofícios Religiosos em Memória dos Antepassados
+
+**033 Johrei e Ofícios Memorialísticos**
+
+Gostaria de solicitar um esclarecimento sobre o Johrei e os ofícios memorialísticos.
+
+O ofício memorialístico corresponde ao culto devotado aos antepassados, enquanto o Johrei visa à purificação. É, em essência, o mesmo que o batismo realizado por um santo. A purificação ocorre pela irradiação da Luz Divina.
+
+**034 O Caminho do Ofício Memorialístico**
+
+Meu pai faleceu há dois anos, em 14 de junho, ao entardecer, enquanto pescava na baía de Shinagawa, aos sessenta e quatro anos. Na época, o diagnóstico médico foi de ataque cardíaco, mas desde que ingressei na fé, tenho me preocupado cada vez mais com a situação de meu pai no Mundo Espiritual. Como devo proceder para consolar seu espírito? Rogo por seu ensinamento.
+
+Ajudar o maior número de pessoas possível é o que gera maior mérito, conforme o exemplo de Mokuren Sonja. Para consolar um espírito, é fundamental desapegar-se da lembrança dele e dedicar-se a salvar o próximo, acumulando virtudes. O ato de salvar outras pessoas, para além de si mesmo, é o que verdadeiramente importa. (4 de maio de 1949)
+
+**035 Culto Excessivamente Formal**
+
+Em certa região, durante o período de Obon, há o costume de retirar todas as tabuletas memoriais do altar doméstico e dispô-las em uma prateleira externa para o culto. Tal prática é adequada? Nesse caso, a imagem de Kannon (観音) que se encontra no altar deve permanecer onde está? Gostaria de seu parecer.
+
+Embora seja um gesto reverente e, portanto, não incorreto, não há necessidade de tamanha formalidade. Na verdade, os antepassados não se sentem à vontade com tal prática, que demonstra um apego excessivo às formas. Os antepassados não se alegram com cerimônias dispendiosas; antes, regozijam-se com a sinceridade que brota do coração. (12 de agosto de 1949)
+
+**036 Oferendas, Impossibilidade de Alimentação Espiritual e o Culto com o Nome Secular**
+
+No Mundo Espiritual, é preciso usar o nome espiritual, e não o secular.
+
+Quando se oferece simplesmente água no altar, sem verbalizar a intenção sincera de que o espírito a beba, ou sem tocar o sino e expressar o desejo de que ele se alimente, o espírito não consegue receber a oferenda. Ademais, se nos dirigirmos apenas a "papai" ou "mamãe", os demais espíritos não poderão se servir.
+
+Se a ordem dos rituais não for seguida corretamente, geram-se disputas entre os espíritos ao se comunicarem. (21 de julho de 1948)
+
+**037 Cerimônias Memoriais: em Casa ou no Templo?**
+
+Ao realizar cerimônias anuais em memória dos antepassados, é melhor fazê-las em casa ou no templo? Peço também que nos ensine a melhor maneira de orientar os fiéis que sentem uma contradição em entoar as preces budistas.
+
+Qualquer um dos locais é aceitável, pois o que chega aos espíritos é a intenção de realizar a cerimônia. Se as condições financeiras permitirem, o templo é mais apropriado, pois é a morada dos espíritos e o ato reflete a sinceridade da pessoa.
+
+Os espíritos não apreciam as preces budistas, pois o mundo búdico já não existe. (23 de junho de 1949)
+
+**038 Data de Falecimento**
+
+Existem diversas formalidades acerca das datas relativas aos antepassados e aos budas; portanto, não se deve agir de maneira aleatória. (27 de junho de 1948)
+
+**039 Divergência entre a Data de Falecimento Oficial e a Revelada por um Médium**
+
+A data de falecimento de meu marido que consta no registro oficial difere daquela que ele mesmo revelou por intermédio de um médium. Qual delas devo considerar como a verdadeira? O local do falecimento coincide em ambas as versões.
+
+Existem casos de erro tanto nos registros oficiais quanto nas comunicações mediúnicas, mas estas últimas costumam ser mais precisas. (3 de junho de 1949)
+
+**040 Alteração da Data de Falecimento para o Calendário Solar**
+
+Quando a data de falecimento de um antepassado está registrada no calendário lunar, como devemos proceder para alterá-la para o calendário solar? E como devemos realizar o culto a partir de então? Rogo por seu ensinamento.
+
+Basta comunicar a mudança ao espírito do antepassado. (3 de julho de 1949)
+
+**041 Culto Fora da Data de Falecimento**
+
+Se uma pessoa que não cultuava seus antepassados decidir confeccionar uma tabuleta memorial e iniciar o culto, não haverá problema em realizá-lo em um dia que não seja a data de falecimento? O mesmo se aplica à aquisição de um novo altar doméstico?
+
+Períodos como o equinócio são adequados para isso. (3 de junho de 1949)
+
+**042 Alteração de Datas de Falecimento do Calendário Lunar**
+
+As datas de falecimento mais recentes estão registradas segundo o calendário lunar. Gostaríamos de passar a realizar as cerimônias memoriais de acordo com o calendário solar. Como devemos proceder?
+
+Pode-se utilizar o calendário solar. O calendário antigo, que é lunar, já deixou de existir. (19 de julho de 1949)
+
+**043 A Necessidade das Cerimônias de Terceiro, Sétimo Ano e Outras**
+
+É recomendável realizar os ofícios religiosos de terceiro, sétimo ano e assim por diante?
+
+Sim, é altamente recomendável. Para espíritos de pessoas notáveis, realizam-se cerimônias até mesmo de mil ou mil e quinhentos anos. Muitos desses espíritos já reencarnaram, mas quando o ofício é realizado em memória deles, a luz proveniente desse ato alcança a pessoa que reencarnou. No mundo, costuma-se dizer que pessoas que prosperam na vida sem uma causa aparente tiveram sorte, mas muitas vezes isso se deve à elevação de seu espírito ancestral por meio de tais ofícios.
+
+O ofício pode seguir o rito xintoísta ou budista; o único fator determinante é a sinceridade de quem o realiza. Ainda que um monge de conduta duvidosa entoe as sutras, não haverá problema se houver sinceridade. O princípio é o mesmo de uma carteira velha: seu estado não altera o valor do dinheiro que ela contém.
+
+Em tempos passados, quando eu investigava o Mundo Espiritual, os espíritos me diziam não se sentir gratos ao ouvir sutras. Em contrapartida, a gratidão que sentem ao ouvir a Oração Norito é imensurável. Deve-se, portanto, entoar a Oração Norito pela manhã e a Zengen Sanshi à noite.
+
+Com a derrota na guerra, o Xintoísmo e o Budismo de nosso país serão gradualmente substituídos pelo Cristianismo, e universidades cristãs já estão sendo fundadas. A propagação do Cristianismo elimina o risco de guerras. O Xintoísmo de nosso país, por ter sido utilizado para fins bélicos, tornou-se problemático. O Budismo, por sua vez, sobrevive apenas por inércia. (2 de novembro de 1948)
+
+**044 Duração das Cerimônias Anuais**
+
+Até quantos anos devem ser realizadas as cerimônias anuais em memória dos antepassados?
+
+Não há um limite; podem ser realizadas cerimônias de quinhentos ou mil anos. Na maioria dos casos, o espírito já terá reencarnado, mas o ofício realizado em sua memória no Mundo Espiritual reverte em bênçãos para a pessoa em vida. Essa conexão perdura por quantas vezes o espírito reencarne, sempre alcançando o indivíduo. Quando alguém vivencia uma felicidade súbita e inesperada, não é raro que isso esteja relacionado a tal fato. (22 de abril de 1949)
+
+**045 Limite para as Cerimônias Memoriais**
+
+Ao solicitar os serviços de um monge para as cerimônias fúnebres, até qual cerimônia anual é apropriado fazê-lo? Rogo por seu ensinamento.
+
+É melhor realizá-las pelo maior tempo possível. Quanto mais antigo o antepassado, melhor. Mesmo que ele já tenha reencarnado, o ofício trará alguma medida de felicidade à pessoa que vive no presente. Portanto, deve-se realizar o culto por centenas de anos, enquanto houver registro.
+
+Para antepassados muito antigos, cujas datas são desconhecidas, pode-se realizar um ofício coletivo. Nesses casos, não é necessário solicitar os serviços de um monge. De modo geral, a prática até a cerimônia de décimo sétimo ano é suficiente. (1948)
+
+**046 Realização de Cerimônias Anuais em Casa**
+
+Minha família pertencia à seita Butsuryu-ko. Contudo, após eu e todos os familiares ingressarmos em nossa fé, o monge se recusa a nos atender, e, da mesma forma, eu não desejo mais solicitá-lo. Desde então, realizo pessoalmente as cerimônias anuais de meus antepassados, sem depender do templo, entoando a Zengen Sanshi e os Hinos Divinos. O túmulo está no cemitério de Tama, o que me permite visitá-lo. Proceder desta maneira é correto?
+
+É perfeitamente correto. (8 de dezembro de 1949)
+
+**047 As Sutras nas Cerimônias Anuais**
+
+Quando um fiel de nossa Igreja deseja realizar uma cerimônia anual em memória de seus antepassados, é suficiente que a família entoe a Zengen Sanshi, ou é necessário também solicitar a um monge que entoe as sutras? Gostaria de saber sua orientação.
+
+Na verdade, apenas a Zengen Sanshi seria suficiente, mas... (18 de julho de 1949)
+
+**048 Culto a Antepassados Reencarnados**
+
+Se, entre os antepassados, houver um espírito que reencarnou precocemente, o culto seria direcionado a um espírito ausente do Mundo Espiritual? Peço seu esclarecimento.
+
+O pensamento devotado durante o culto alcança o local onde o espírito se encontrava no Mundo Espiritual e, de lá, é direcionado àquele que reencarnou. Como resultado, a pessoa em vida é abençoada com mais graças ou boa sorte.
+
+**049 A Refeição em Ausência (Kagezen)**
+
+Quando um membro da família viaja, é comum servirmos em casa uma refeição simbólica em sua ausência, prática conhecida como Kagezen. Qual o significado espiritual desse ato?
+
+Essa prática é espiritualmente muito benéfica, pois cria uma conexão com a pessoa ausente. Se, porventura, o viajante passar por dificuldades para se alimentar, ele sentirá menos fome, por exemplo. (21 de fevereiro de 1950)
+
+---
+
 # 011 A trajetória de Meishu-Sama até sua dedicação exclusiva à religião, a renúncia ao seu anseio de ser pintor, a visão espiritual da presença de Kannon, o pedido de salvação dos Imperadores Meiji e Taisho, a Vontade Divina e a vocação, e as divindades encarregadas das profissões
 
 **Categoria:** kouwa | **Ano:** 昭和元年 | **Fonte:** 私は観音様は信仰しない。観音様の方で私を使っているんだ
+**Título Original:** - | **Status:** Unknown
 
 ## 011 A trajetória de Meishu-Sama até sua dedicação exclusiva à religião, a renúncia ao seu anseio de ser pintor, a visão espiritual da presença de Kannon, o pedido de salvação dos Imperadores Meiji e Taisho, a Vontade Divina e a vocação, e as divindades encarregadas das profissões
 
@@ -248,7 +1722,8 @@ O Imperador Antoku, que se afogou na Batalha de Dan-no-ura, foi consagrado no Sa
 
 # Explicação sobre os Diversos Espíritos (Parte 1) - Aborto e Natimorto
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** 三 諸霊解説（一）
+**Título Original:** 霊学篇 | **Status:** Unknown
 
 ## Explicação sobre os Diversos Espíritos (Parte 1) - Aborto e Natimorto
 
@@ -403,6 +1878,7 @@ Os pais devem aprofundar a fé e se dedicar a salvar pessoas. À medida que a m�
 # Doenças de Causa Espiritual (Parte 2)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 浄霊篇 | **Status:** Unknown
 
 ## Doenças de Causa Espiritual (Parte 2)
 
@@ -550,7 +2026,8 @@ Se a aversão for muito intensa, é melhor não insistir e aguardar a oportunida
 
 # Coletânea de Ensinamentos: A Fé Diante da Oposição (Parte 2)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** Kyusei
+**Título Original:** 信仰篇 | **Status:** Unknown
 
 ## Coletânea de Ensinamentos: A Fé Diante da Oposição (Parte 2)
 
@@ -641,6 +2118,7 @@ A crítica de que a sarna é prevalente em nossa Igreja é fruto de uma visão d
 # Coletânea de Teses do Reverendo Okada Jikanshi — Pesquisa de Ensinamentos: help; Pesquisa de Materiais: O Deus Supremo, parte 9, 123-140
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** 天理王の尊は転輪菩薩にて聖観音の化身とぞ思ふ
+**Título Original:** - | **Status:** Unknown
 
 ## Coletânea de Teses do Reverendo Okada Jikanshi — Pesquisa de Ensinamentos: help; Pesquisa de Materiais: O Deus Supremo, parte 9, 123-140
 
@@ -831,6 +2309,7 @@ Portanto, a afirmação do rádio está completamente equivocada.
 # Coletânea de Teses do Mestre Okada Jikan
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 神解明篇 | **Status:** Unknown
 
 ## Coletânea de Teses do Mestre Okada Jikan
 ## Elucidação sobre Deus, vol. 3 | 024-028 O Universo
@@ -874,6 +2353,7 @@ A origem precisa do Universo é um arcano. Ademais, não há necessidade de desv
 # Deformidades
 
 **Categoria:** kouwa | **Ano:** 昭和24(1949)年7月30日 | **Fonte:** 御Hikari話録
+**Título Original:** - | **Status:** Published
 
 ## Deformidades
 
@@ -1001,7 +2481,8 @@ O caso desse menino de dez anos também se deve a uma reencarnação animal. A c
 
 # Coletânea de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Pesquisa de Materiais de Auxílio: Volume de Estudos Espirituais – Parte 1 – Enfermidades de Causa Espiritual (I)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** 一 霊的病気（一）
+**Título Original:** 霊学篇 | **Status:** Unknown
 
 ## Coletânea de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Pesquisa de Materiais de Auxílio: Volume de Estudos Espirituais – Parte 1 – Enfermidades de Causa Espiritual (I)
 
@@ -1164,7 +2645,8 @@ Do ponto de vista espiritual, trata-se de um espírito que, em vida anterior, fo
 
 # Coletânea de Artigos do Reverendo Okada Jikanshi
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** 経済、社会篇
+**Título Original:** 政治 | **Status:** Unknown
 
 ## Coletânea de Artigos do Reverendo Okada Jikanshi
 ### Política, Economia e Sociedade – Parte 1
@@ -1370,6 +2852,7 @@ Não há necessidade de se preocupar com boatos ilógicos. (29 de julho de 1949)
 # Coletânea de artigos do Reverendo Jikan Okada — Pesquisa de Ensinamentos: help; Pesquisa de materiais: Ritos Espirituais, Volume III, Seção 6
 
 **Categoria:** kouwa | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** - | **Status:** Published
 
 ## Coletânea de artigos do Reverendo Jikan Okada — Pesquisa de Ensinamentos: help; Pesquisa de materiais: Ritos Espirituais, Volume III, Seção 6
 
@@ -1484,6 +2967,7 @@ Também é aceitável ter no oratório um ihai para cultuar espíritos que não 
 # Sonhos (Parte 2)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 霊学篇 | **Status:** Unknown
 
 ## Sonhos (Parte 2)
 
@@ -1617,7 +3101,8 @@ Creio que seja seu espírito guardião advertindo-o para que tenha cautela. Sem 
 
 # Sobre Povos, a Pátria e as Superstições, Volume 2
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** 国土、迷信篇
+**Título Original:** 民族 | **Status:** Unknown
 
 ## Sobre Povos, a Pátria e as Superstições, Volume 2
 
@@ -1846,6 +3331,7 @@ A província de Yamaguchi é o portão de entrada do Japão, por onde os estrang
 # Doenças de Causa Espiritual (II)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 霊学篇 | **Status:** Unknown
 
 ## Doenças de Causa Espiritual (II)
 
@@ -1982,6 +3468,7 @@ Um espírito está exercendo controle. Isso ocorre porque tal espírito está ob
 # Coleção de Teses do Mestre Jikan Okada
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 主神篇 | **Status:** Unknown
 
 ## Coleção de Teses do Mestre Jikan Okada
 
@@ -2291,7 +3778,8 @@ Os seres humanos usam a mão direita, por isso o ombro direito fica desnudo. Nã
 
 # O Poder Espiritual dos Espíritos de Raposa
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** 三 諸霊解説（三）
+**Título Original:** 霊学篇 | **Status:** Unknown
 
 ## O Poder Espiritual dos Espíritos de Raposa
 
@@ -2390,6 +3878,7 @@ Os seres humanos usam a mão direita, por isso o ombro direito fica desnudo. Nã
 # Arte da Medicina (Três) - Patologia do Corpo Medial: Massas Solidificadas
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 医術篇（三）中体病理 | **Status:** Unknown
 
 ## Arte da Medicina (Três) - Patologia do Corpo Medial: Massas Solidificadas
 
@@ -2461,6 +3950,7 @@ O fato de ter começado a doer é um excelente sinal.
 # A Arte da Cura (III) — Patologia do Corpo Intermediário: Cáries
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 医術篇（三）中体病理 | **Status:** Unknown
 
 ## A Arte da Cura (III) — Patologia do Corpo Intermediário: Cáries
 
@@ -2581,6 +4071,7 @@ Não há relação entre as cáries e a moleza das unhas. As cáries são uma do
 # 049 O Modo de Pensar
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 信仰篇（特輯） | **Status:** Unknown
 
 ## 049 O Modo de Pensar
 
@@ -2778,6 +4269,7 @@ Proporcionar bem-estar é o ponto mais crucial. Para isso, é necessário elevar
 # Coletânea de ensaios do Rev. Jikan Okada — Pesquisa de Ensinamentos: Seção de Agricultura — Agricultura Natural 8
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 農法篇 | **Status:** Unknown
 
 ## Coletânea de ensaios do Rev. Jikan Okada — Pesquisa de Ensinamentos: Seção de Agricultura — Agricultura Natural 8
 
@@ -2932,6 +4424,7 @@ O cultivo natural deve seguir a Grande Natureza. O uso de produtos artificiais c
 # Ritos Espirituais, Volume I, Parte 3: Diferenças Religiosas (039-057)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 霊祀篇 | **Status:** Unknown
 
 ## Ritos Espirituais, Volume I, Parte 3: Diferenças Religiosas (039-057)
 
@@ -3089,7 +4582,8 @@ A mistura com a escola Nichiren causa grande perturbação aos espíritos, pois 
 
 # Arte da Cura (Parte Dez)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （十）
+**Título Original:** 医術篇 | **Status:** Unknown
 
 ## Arte da Cura (Parte Dez)
 
@@ -3166,1412 +4660,6 @@ Creio não haver impedimento. As causas para essa condição são tanto espiritu
 *Minha esposa, de trinta e oito anos, passou por uma cesariana há três anos devido a uma "gestação anormal, placenta prévia". Mãe e filho estão saudáveis, mas ela está grávida novamente. O médico afirma haver o risco de a mesma anormalidade ocorrer. Como devemos proceder? Dizem que, se não houver intervenção, uma hemorragia pode ser fatal. Tenho pouca experiência com o Johrei; como podemos alcançar a salvação? E o que é exatamente a placenta prévia?*
 
 Tal preocupação é infundada. A placenta prévia ocorre quando a placenta, que normalmente se fixa na parede posterior do útero, adere à parede anterior. Não é uma condição que deva causar grande apreensão. Como já mencionei, até mesmo um feto em apresentação pélvica é corrigido.
-
----
-
-# 021 O Ohikari daquele que recebe Johrei
-
-**Categoria:** kouwa | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
-
-## 021 O Ohikari daquele que recebe Johrei
-
-**Pergunta:** Ao receber Johrei, a pessoa deve retirar seu Ohikari? Pergunto pois, logo após ingressar na Fé, tive a permissão de ministrar Johrei na cabeça de minha irmã e, nesse momento, vi algo semelhante a uma fumaça branca, como uma bruma tremeluzente, elevar-se daquela região. Imediatamente, pedi que ela retirasse seu Ohikari e, ao ministrar Johrei novamente, tal fenômeno não ocorreu. Portanto, ao se submeter ao Johrei, é realmente correto que a pessoa o faça sem o seu Ohikari? Rogo por vosso Ensinamento.
-
-**Meishu-Sama:** O Ohikari deve ser mantido no pescoço.
-
-(Nota)
-*Do Ensinamento Oral de 3 de abril de 1950, publicado na Coletânea de Ensinamentos Orais, vol. 19, em 13 de junho de 1950:*
-**Pergunta:** Ao recebermos Johrei, podemos permanecer com o Ohikari?
-**Meishu-Sama:** Independentemente de receber Johrei ou não, o Ohikari jamais deve ser retirado. A única exceção é durante o banho; fora isso, não se deve retirá-lo nem por um minuto.
-
-*Do Ensinamento Oral de 8 de julho de 1948, publicado na Coletânea de Ensinamentos Orais, data de publicação desconhecida, estimada por volta de 1951:*
-**Pergunta:** Um discípulo pode ministrar Johrei a um ministro, ou uma pessoa com um Ohikari comum pode ministrá-lo a alguém que porte um Ohikari Daikoomyoo?
-**Meishu-Sama:** Não há impedimento algum. Aquele que recebe é que passa por uma transformação espiritual. Já aquele que ministra tem sua proteção elevada. E reitero: sob nenhuma circunstância se deve retirar o Ohikari.
-
-## 022 O Ohikari durante o recebimento de Johrei
-
-**Pergunta:** Ao receber Johrei, é permitido estar portando o Ohikari?
-
-**Meishu-Sama:** Não há qualquer objeção. Na verdade, é melhor que a pessoa o esteja portando.
-
-## 023 O Ohikari e a Advertência dos Antepassados
-
-**Pergunta:** Uma senhora de cinquenta e sete anos, que ingressou na Fé em janeiro, precisou, por circunstâncias familiares, deixar seu Ohikari sob a guarda de seu ministro. Após esse ocorrido, ela passou a sofrer intensamente de bronquite. Haveria alguma relação entre essa purificação e o fato de ter se separado de seu Ohikari? Gostaria de receber um Ensinamento a esse respeito.
-
-**Meishu-Sama:** Há uma relação intrínseca. Trata-se de uma ação dos antepassados para que ela despertasse para seu erro. O Ohikari jamais deve ser tirado do corpo.
-
-## 024 O Ohikari durante a natação
-
-**Pergunta:** Quando as crianças vão nadar no mar ou no rio aqui perto, ou mesmo quando viajam de trem para praias mais distantes, como devem proceder com o Ohikari?
-
-**Meishu-Sama:** Devem pendurá-lo em algum lugar seguro no local onde irão nadar. Não é correto deixá-lo em casa, especialmente nos dias de hoje, com a frequência de acidentes de trem e outros perigos.
-
-## 025 O Ohikari durante a pesca em alto-mar
-
-**Pergunta:** Um fiel que é pescador, preocupado em não molhar o Ohikari por conta de seu trabalho, costuma sair para o mar sem portá-lo. Consequentemente, não consegue ministrar Johrei em alto-mar. Qual o procedimento correto em tal situação?
-
-**Meishu-Sama:** Essa atitude está equivocada. Basta envolvê-lo em papel impermeável ou emborrachado. É justamente no momento da pesca em alto-mar que o Ohikari se faz mais essencial.
-
-## 026 O Ohikari ao nadar
-
-**Pergunta:** Como se deve proceder com o Ohikari ao ir nadar?
-
-**Meishu-Sama:** Depende do local. Se houver um lugar apropriado para pendurá-lo, como um prego na parede, deve-se fazê-lo. Contudo, ao ir a lugares como o mar, deve-se deixá-lo em casa, comunicando o fato em oração. O ser humano deve fazer tudo o que estiver ao seu alcance com sinceridade.
-
-## 027 A perda do Ohikari e a postura correta (O Ohikari é um fogo inextinguível)
-
-**Pergunta:** Ocasionalmente, ouço relatos de pessoas que perderam o Ohikari que usavam no pescoço. Qual seria a razão para isso?
-
-**Meishu-Sama:** Trata-se de desatenção. Embora não se possa dizer que seja impossível acontecer, a perda ou a sujeira do Ohikari ocorrem porque não há um cuidado rigoroso com o local onde ele é guardado. Isso também se relaciona a uma fé tênue em sua natureza sagrada. A pessoa deve refletir profundamente, pedir perdão e renovar sua postura. O Ohikari é como uma massa do elemento fogo, um fogo inextinguível, e por isso não pode ser maculado pela água.
-
-## 028 A Vontade Divina por trás da queima do Ohikari
-
-**Pergunta:** Trata-se de uma fiel chamada Namie Iwao, de quarenta e dois anos, que ingressou na Fé em 1947, embora não seja particularmente fervorosa em suas práticas. No mês passado, ao retornar de um compromisso, ela pendurou seu Ohikari na lateral de uma cômoda. Por ação do vento ou de um rato, ele veio a cair. Ocorre que, logo abaixo, havia um braseiro com algumas brasas remanescentes, e o Ohikari acabou se queimando. Embora ela pretenda receber um novo Ohikari, gostaria de saber se há algum significado espiritual nesse acontecimento. Venho, pois, solicitar vosso esclarecimento.
-
-**Meishu-Sama:** Sim, há um profundo significado. Um significado imenso. O simples ato de pendurar o Ohikari na lateral de uma cômoda revela uma total falta de compreensão de seu valor. Por conseguinte, se não há necessidade dele, não há por que concedê-lo; foi por essa razão que Deus permitiu que se queimasse. Tais incidentes ocorrem com frequência quando o Ohikari é tratado com descaso. A pessoa em questão deve se arrepender de seu erro e refazer o curso de formação. Se não for capaz de cultivar tal sentimento, então é preferível que abandone a Fé. Não se deve permanecer em um estado ambíguo. Se alguém decide crer, suas ações devem refletir essa decisão.
-
-## 029 Mancha de causa desconhecida no Ohikari
-
-**Pergunta:** Um homem de trinta e quatro anos, no dia treze de julho, subiu em uma árvore para colher yamamomo. Sem perceber, duas frutas caíram em seu bolso e acabaram manchando seu Ohikari, o que o deixou extremamente surpreso e consternado. Haveria alguma causalidade espiritual nisso? E como ele deverá proceder daqui em diante? Rogo por vosso Ensinamento.
-
-**Meishu-Sama:** O interior do Ohikari não deveria se sujar. Ele próprio deve refletir sobre a causa. Algo existe. Um fato como este não deveria ocorrer. Que ele mesmo pondere. Quando compreender o motivo, deve pedir perdão e solicitar a troca.
-
-## 030 O pecado de queimar o Ohikari
-
-**Pergunta:** No final de 1947, minha filha ingressou na Fé, mas sua mãe, por não compreender, acabou queimando o Ohikari dela em setembro do ano passado. Qual é a natureza desse pecado? Recentemente, a mãe mudou de atitude e deseja ingressar na Fé. Como devemos proceder? Solicito vossa orientação.
-
-**Meishu-Sama:** Se ela se arrependeu, isso basta. O pecado não desaparece por completo, mas é reduzido a talvez um décimo de sua gravidade. É uma diminuição considerável.
-
-## 031 O Ohikari molhado (Presença de manchas)
-
-**Pergunta:** Com o devido respeito, no verão, por vezes o Ohikari acaba se molhando devido ao suor ou a uma chuva repentina. Mesmo tomando todas as precauções, caso tal descuido ocorra, como devemos proceder? A força do Ohikari sofre alguma alteração? Com reverência, peço vosso esclarecimento.
-
-**Meishu-Sama:** Se ele se molhar, é preciso abri-lo e verificar se o papel interno não ficou manchado ou sujo. O ideal é envolvê-lo em papel impermeável ou parafinado para protegê-lo da água. Caso esteja manchado, não se deve mais usá-lo; é preciso explicar o ocorrido e receber um novo.
-
-## 032 Molhar o Ohikari
-
-**Pergunta:** Minha irmã mais nova, durante o plantio de arroz, molhou seu Ohikari devido a uma chuva torrencial. Durante o Culto Provisório, pedi ao ministro Taira que o examinasse, e ele constatou que o interior estava manchado, recomendando-me que consultasse o Grande Mestre. Como devo proceder? Rogo por vossa orientação.
-
-**Meishu-Sama:** Habitualmente, deve-se envolvê-lo em papel impermeável ou parafinado. Este é um aviso geral para todos. Como não há nenhum impedimento, é recomendável que o façam.
-
-## 033 A perda do Ohikari
-
-**Pergunta:** Meu filho de cinco anos, em algum momento, perdeu seu Ohikari. Ao perguntar-lhe, ele diz não saber o que aconteceu. Sinto-me imensamente culpado por esse fato e peço profundas desculpas. Seria isto um tipo de advertência? Solicito vosso nobre Ensinamento.
-
-**Meishu-Sama:** Não se trata necessariamente de uma advertência. Pode haver outras razões. Deixando de lado a investigação, o correto é pedir perdão e solicitar um novo Ohikari.
-
-## 034 A perda do Ohikari (Caso envolvendo crianças)
-
-**Pergunta:** No mês passado, fiz uma consulta sobre o primeiro item abaixo e recebi a orientação de que "deve haver um pecado muito grande ou algum erro em relação a Deus, portanto, investigue mais uma vez". Apresento novamente a questão com mais detalhes.
-
-1.  Trata-se de uma fervorosa instrutora chamada Katsuko Nakaya. Seu marido faleceu de tuberculose no outono passado. Sua filha mais velha, que era saudável e dedicada à Fé, adoeceu em janeiro deste ano e faleceu em agosto. Após esses eventos, ela teve que entregar seus dois filhos mais novos para serem criados por outra família. Ocorre que ambas as crianças perderam seus Ohikari em algum lugar, e apenas os porta-amuletos foram encontrados. A família Nakaya, durante a guerra, viu sua casa, construída pelo esforço de uma vida do marido, e outras duas residências vizinhas serem as únicas a queimar em um ataque aéreo, enquanto quase toda a vizinhança foi poupada.
-
-2.  Após receber a orientação para investigar a causalidade, descobri que a casa da família está localizada no topo de uma montanha chamada Kannon-yama, na cidade de Kobe. Essa montanha é uma réplica do circuito de peregrinação de Saigoku, e, desde seiscentos anos atrás, trinta e três imagens de Kannon foram esculpidas em pedra, da base ao cume, e são veneradas sob a administração do templo Jofukuji. A afiliação religiosa da família Nakaya é desconhecida, portanto, o marido e a filha estão sendo cultuados segundo a tradição da família da Sra. Katsuko (Shinshu). Ademais, durante o bombardeio, o solo enfraquecido pela explosão cedeu posteriormente com a chuva, soterrando uma igreja da Tenrikyo que ficava abaixo. Dezessete pessoas foram soterradas, das quais doze morreram instantaneamente.
-
-Diante do exposto, rogo por vossa orientação.
-
-**Meishu-Sama:** A perda do Ohikari é um fato estranho. Contudo, por se tratar de crianças, não há problema; não há culpa para elas. Quanto aos bens materiais, eram frutos de ressentimento. Se essa fortuna não fosse destruída, a salvação não seria possível.
-
-## 035 Danificar a margem branca do Ohikari
-
-**Pergunta:** Uma pessoa, na intenção de aplicar uma folha de papel sagrado sobre um furúnculo, confundiu-se e rasgou um pequeno pedaço da margem branca do Papel Sagrado que fica dentro do Ohikari. O que ela deve fazer?
-
-**Meishu-Sama:** Basta que ela peça perdão.
-
----
-
-# Compêndio sobre o Mundo Espiritual - I - Doenças Espirituais (Parte Dois)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Compêndio sobre o Mundo Espiritual - I - Doenças Espirituais (Parte Dois)
-
-**017 - Criança de constituição linfática (espírito de morto)**
-
-Minha irmã de oito anos recebeu o Ohikari em janeiro deste ano. Contudo, ela é uma criança excessivamente quieta para sua idade, além de muito dependente e medrosa. Seu apetite é bastante reduzido, o que a torna magra e com o peito notavelmente estreito, embora não adoeça com frequência. Preocupa-me que, ao atingir a idade adulta, ela possa desenvolver alguma enfermidade torácica. Haveria uma forma de ela se tornar uma criança mais alegre e vivaz? Gostaria de receber sua orientação.
-
-A possessão por um espírito de morto resulta em uma constituição linfática. (28 de julho de 1949)
-
-**018 - Emagrecimento apesar do apetite (espírito de morto)**
-
-Trata-se de um rapaz de vinte e três anos que ingressou na fé há três meses. Sua madrasta, membro há cerca de um ano, entronizou a Imagem da Luz Divina e dedicava-se fervorosamente ao Johrei. O pai, finalmente convencido, decidiu permitir que o filho se dedicasse integralmente, e o rapaz, compreendendo a grandiosidade da Obra Divina, deixou seu emprego no início de junho para colaborar. Logo em seguida, recebeu uma purificação no peito; e, embora seu apetite tenha aumentado de forma surpreendente, ele emagrece progressivamente. À noite, relata que sua falecida mãe biológica e outros parentes mortos adentram seu leito e, em meio a uma grande algazarra, dizem-lhe coisas incompreensíveis. Em sonho, sua mãe lhe disse: "Você é o pária da família". Poderia haver alguma razão para tais acontecimentos? Como devemos proceder para que ele melhore? Rogo por seu esclarecimento.
-
-Existem inúmeras almas que não alcançaram a salvação no Mundo Espiritual. Nesse sentido, a Oração Amatsu Norito é o mais eficaz. Provavelmente, trata-se do espírito de alguém que faleceu de doença pulmonar. Durante o Johrei, faça com que o espírito ouça a oração por três vezes consecutivas. Ministre Johrei na região frontal da cabeça. Atingido um certo estágio, a cura se manifestará. (26 de julho de 1949)
-
-**019 - Tuberculoso possuído por espírito de afogado**
-
-Há aproximadamente um ano, um indivíduo recebeu um diagnóstico inconclusivo de tuberculose. Ele vem recebendo Johrei há vinte dias e, durante as sessões, seu corpo se inclina para a frente e oscila, por vezes manifestando uma aparência de agonia, como se estivesse submerso. Por volta do quinto dia, após bocejar copiosamente, seus movimentos cessaram. Atualmente, ele ainda não recuperou a voz e sente dificuldade para respirar ao caminhar. Seria isto obra de algum encosto? Será possível que ele volte a falar?
-
-Trata-se do espírito de um afogado. O bocejo representa a liberação de uma energia espiritual maligna; portanto, sua ocorrência durante o Johrei é um bom sinal. Bocejos abundantes indicam a expulsão de espíritos de natureza inferior.
-
-A debilidade causada por enfermidades como a tuberculose facilita a possessão espiritual. Neste caso, o espírito se apossou do enfermo após o enfraquecimento de seu corpo, o que torna sua remoção relativamente simples. O verdadeiro problema reside na debilidade física; uma vez superada, a cura será alcançada. Já se manifestou a tuberculose laríngea. O escarro antigo a ser expelido contém toxinas que provocam uma inflamação catarral na garganta, causando o inchaço das cordas vocais.
-
-**020 - A causa espiritual da tuberculose**
-
-Gostaria que nos ensinasse sobre a causa espiritual da tuberculose.
-
-As causas espirituais são, de fato, numerosas. Geralmente, a possessão ocorre quando o corpo se encontra enfraquecido. Os espíritos de irmãos são os mais comuns, pois, sentindo-se solitários no Mundo Espiritual, anseiam por chamar seus entes queridos. Um resfriado ou qualquer outro fator que debilite o organismo pode servir de gatilho. Com a possessão, a doença se desenvolve exatamente como a tuberculose. Há casos, todavia, em que a possessão ocorre mesmo quando a pessoa está saudável, o que se deve à presença de máculas espirituais. Uma vez que o espírito se retira, a cura é imediata. Quanto mais longo o período de possessão, mais difícil se torna a separação; contudo, se for recente, o espírito se afasta com facilidade.
-
-**021 - Repurificação de tuberculose (solução pelo culto aos antepassados)**
-
-Minha esposa Haruko, de trinta e um anos e aluna do Curso de Formação, vem passando por uma purificação com sintomas de tuberculose desde julho deste ano. Ela havia melhorado temporariamente com o Johrei, mas agora enfrenta uma repurificação e seu estado de fraqueza se agrava progressivamente. O apetite é escasso e seu pulso chega a cento e quarenta batimentos por minuto. Após receber Johrei, sente um grande alívio. Em sua família de origem, três pessoas faleceram de tuberculose, e na minha, sete. Recentemente, tivemos a permissão de entronizar a Imagem Dai-Komyo-Nyorai e a Imagem de Kannon (観音) em biombo. Será possível que ela seja salva?
-
-Os espíritos não sentem a menor gratidão por cultos meramente formais. Portanto, a simples realização de cerimônias não garante sua satisfação, pois há casos em que eles não as aceitam.
-
-Algum desses espíritos a está possuindo.
-
-A tuberculose invariavelmente apresenta repurificações. É perigoso quando a debilidade ultrapassa um certo limite. As toxinas se solidificam em diversos locais, inclusive no bulbo raquidiano. Ministrar Johrei em pontos equivocados pode, ao contrário, desencadear uma purificação generalizada, intensificando ainda mais a tosse. (13 de novembro de 1949)
-
-**022 - Tuberculosa com parentes próximos falecidos de câncer**
-
-Uma senhora de quarenta e cinco anos adoeceu de tuberculose em agosto do ano passado, mantendo uma febre alta de trinta e oito graus por um ano inteiro. Submeteu-se a tratamento médico até maio deste ano, período no qual recebeu nove injeções de estreptomicina, sem efeito algum. Desde maio, abandonou o tratamento e permanece acamada. Recentemente, começou a receber Johrei de nossa Igreja, e desde o dia três deste mês, eu mesmo tenho lhe ministrado. Até o momento, apurei os seguintes fatos:
-
-(A) Ela sempre foi devota de Kannon (観音) e, juntamente com seu marido, ingressou na fé no dia quatro deste mês, com grande alegria e devoção. O pai desta paciente faleceu de câncer de estômago; a mãe, de câncer de útero; o irmão, de câncer bucal; e a irmã, também de câncer de útero.
-
-(B) Há cinco anos, a família residia na cidade de Okayama. Na propriedade, manifestou-se o espírito de um guerreiro morto na Batalha de Minatogawa, que pediu para ser cultuado. Eles atenderam ao pedido, mas, agora residindo em Ashiya, já não realizam o culto.
-
-(C) No ano passado, ingressaram na Reiyukai e passaram a cultuar em seu altar doméstico os nomes póstumos budistas de seus parentes, fato que tem preocupado a família.
-
-Gostaria de saber se esses fatos guardam alguma relação com a doença e como podemos proceder para que ela seja salva. Questiono em seu nome.
-
-(A) Tratando-se de tuberculose, os espíritos das vítimas de câncer não estão atuando. Se estivessem, o estado dela seria análogo ao de uma possessão por espírito de morto.
-
-(B) Seria melhor cultuar o espírito, embora não seja estritamente obrigatório.
-
-(C) Visto que as práticas da Reiyukai são falsas, basta agradecer respeitosamente e cessá-las. (15 de setembro de 1949)
-
-**023 - Adoecer de tuberculose após a morte da esposa**
-
-Nasci na família Kinto e, aos quinze anos, fui adotado pela família Suga, um parente. Mais tarde, casei-me com a filha da família Igarashi. Minha esposa faleceu de tuberculose seis meses após o casamento (26 de maio de 1948). Ela era gêmea, e sua irmã também falecera de tuberculose em 1946. Em 1939, tive pleurisia e, em janeiro de 1947, expectorei sangue pela primeira vez, episódio que se repetiu em maio do mesmo ano. Posteriormente, voltei a expectorar sangue em janeiro e maio de 1948 e 1949. Ingressei na fé em janeiro de 1949 e venho recebendo Johrei. Peço sua orientação sobre a relação espiritual entre a morte de minha esposa e minha tuberculose, bem como sobre o método de Johrei.
-
-Não se pode afirmar que não haja relação. É muito comum que espíritos de cônjuges e irmãos se manifestem por possessão. (16 de maio de 1949)
-
-**024 - Espírito de tuberculoso — caso difícil**
-
-Uma jovem chamada Fukunaga Yayoi, de vinte e oito anos, adoeceu recentemente de tuberculose. Sua mãe adotiva, que ingressou na fé, está lhe ministrando Johrei. Yayoi é filha adotiva e está em seu terceiro casamento. Seu primeiro noivo foi adotado pela família, mas faleceu de tuberculose antes do matrimônio. Em seguida, ela própria foi integrada à família como filha adotiva e casou-se pela segunda vez com um artesão da casa. Este, porém, também faleceu de tuberculose pouco tempo depois, deixando uma filha. Posteriormente, seu pai adotivo morreu de derrame. Agora, em seu terceiro casamento e mãe de um menino, foi ela quem adoeceu de tuberculose. O atual marido não entrega todo o seu salário em casa, tem um péssimo relacionamento com a mãe adotiva e trata a filha do casamento anterior como um estorvo, gerando um clima de constante discórdia. Ela pensa até mesmo em divórcio. O que ela deveria fazer? A causa da doença é espiritual? Se perseverarmos, será possível salvá-la? Rogo por sua orientação.
-
-A solução não será simples. O espírito do genro que faleceu de tuberculose a possuiu. Não posso garantir a cura. Tentem o tratamento. Façam-na ingressar na fé somente após apresentar alguma melhora. Não é prudente fazer promessas enquanto o prognóstico for incerto. (17 de novembro de 1949)
-
-**025 - A interferência de um espírito de tuberculoso**
-
-Basta entronizar a Imagem da Luz Divina. Ao entoar a oração pela manhã e à noite, a interferência do espírito de alguém que faleceu de tuberculose também cessará. (16 de outubro, ano desconhecido)
-
-**026 - Sintomas de asma causados por espírito de serpente**
-
-Há quatro meses, a pessoa em questão passou a ter acessos de tosse ou náuseas repentinas durante as refeições, o que a impede de se alimentar, levando-a a um estado de fraqueza progressiva e perigosa. Apesar de receber Johrei intensivo em casa, não obteve melhora. Atualmente, não consegue se deitar à noite, repousando apoiada em um aquecedor de mesa. Ocasionalmente, sofre de crises de tosse severas e sente uma forte necessidade de beber água. Nesses momentos, a ingestão de água ou chá quente proporciona um alívio surpreendente. Há cerca de dez anos, no jardim da casa de seu pai, essa pessoa matou uma grande serpente *aodaisho* com mais de um metro e oitenta de comprimento. Embora tenha sentido pena, acabou por matá-la. Esta doença seria uma interferência da serpente? E como poderíamos obter a proteção divina?
-
-Trata-se de uma asma causada por uma serpente. A Oração (Zengen Sanshi) é o mais eficaz. Tanto a própria pessoa quanto o ministro de Johrei podem entoá-la, e é benéfico que o façam repetidas vezes. Serpentes como essa costumam engolir diversas criaturas, e os espíritos destas permanecem ligados à serpente. Quando tal serpente possui uma pessoa, esses múltiplos espíritos aprisionados em seu ventre causam grande perturbação. Pode-se beber água à vontade.
-
-Também é recomendável rogar ao Grande Deus do Mundo Oculto. Além disso, a leitura dos Salmos Divinos ou das Coletâneas da Fé, seja pela própria pessoa ou em voz alta por outra, é muito benéfica. Em casos de doenças espirituais, a leitura de trechos apropriados das Coletâneas da Fé para o enfermo se mostra bastante eficaz. (25 de dezembro de 1949)
-
-**027 - Asma que se manifesta durante a limpeza**
-
-O membro Makino Yutaka, de vinte e quatro anos, sofre de asma desde os nove. Ele e sua mãe ingressaram na fé em setembro do ano passado, mas, até hoje, não houve melhora aparente. No dia a dia, ele não tem crises, mas se realiza a limpeza e utiliza um espanador, no dia seguinte sofre um ataque violento que dura exatamente cinco dias. No sexto dia, ele retorna ao normal, sem qualquer sintoma. Qual seria a causa disso? Rogo que nos conceda seu ensinamento.
-
-Ele está possuído pelo espírito de alguém que faleceu de asma. O espírito se incomoda com a limpeza; é um sinal para que ele pare. Portanto, ele deve cessar essa atividade. Se, mesmo assim, não melhorar, significa que existe outra causa. (1º de outubro de 1949)
-
-**028 - Angina e o estranho fenômeno do gato**
-
-Ooi Teruko, de trinta e três anos, sofre de angina há vários anos. O menor estímulo faz com que suas mãos e pés fiquem frios e ela entre em um estado de morte aparente. Os médicos, apesar de múltiplas avaliações, não conseguem determinar a causa. Há um mês, ela ingressou na fé, e embora seu medo tenha diminuído consideravelmente, as palpitações no peito persistem. Seu corpo está muito inchado e, durante as crises de palpitação, as palmas das mãos e as plantas dos pés ficam quentes. O irmão de seu marido morreu afogado. Na noite do dia catorze deste mês, ela sonhou que um gato malhado, preto e branco, mordia com força a ponta de seu polegar. Mesmo depois de acordar, o dedo continuava latejando. Outro dia, enquanto conversava comigo, um gato preto e branco atravessou o cômodo. No mês passado, ao me receber, ela contou que havia sonhado com seu cunhado afogado, que corria nu, de quatro. Haveria alguma relação entre esses sonhos e a condição dela? Peço também orientações sobre os pontos de atenção no Johrei.
-
-Significa que o espírito deseja ser cultuado e receber a Oração Amatsu Norito. Como não pode ser salvo de outra forma, ele recorre a diversos meios como estes para se comunicar. O gato preto e branco talvez seja um espírito felino que esteja ligado ao espírito do irmão. (18 de novembro de 1949)
-
-**029 - Pleurisia seca e os espíritos**
-
-Um membro de nossa Igreja, cujo noivo faleceu durante a guerra, retornou e se casou com outra mulher, vindo a adoecer de pleurisia posteriormente. Ao consultar um curandeiro, foi-lhe dito que se tratava da interferência do espírito da primeira noiva. Como ele deveria proceder para cultuar esse espírito? A esposa atual e a falecida noiva eram amigas íntimas.
-
-A pleurisia não tem relação com espíritos. Contudo, se for uma pleurisia sem derrame pleural, conhecida como pleurisia seca, então há uma conexão espiritual. O método tradicional de culto é suficiente. Ademais, para descartar a possibilidade de um diagnóstico médico equivocado, entoe a Oração Amatsu Norito para ele. Se a causa for espiritual, isso o curará.
-
-**030 - Úlcera gástrica (serpente *aodaisho*)**
-
-Este é o caso da senhora Hayashi Azuma, esposa de Hayashi Yasuzo (trinta e oito anos), que ingressou na fé em 17 de janeiro deste ano. A esposa, que não é membro, começou a sofrer do estômago por volta de maio de dois anos atrás, com sintomas de úlcera gástrica, vômitos e expectoração de sangue, controlados precariamente com medicamentos. Em janeiro deste ano, seu quadro se agravou, e ela se encontra acamada e bastante debilitada. O senhor Yasuzo ministra-lhe Johrei diariamente com grande empenho, mas ela não melhora; ao contrário, enfraquece cada vez mais, alimentando-se apenas de sopa de arroz. Recentemente, eles entronizaram a Imagem de Kannon (観音) em biombo, e o senhor Yasuzo teve um fenômeno de possessão. Ao ser questionado, o espírito revelou ser três entidades: seu pai, Hayashi Fukutaro (falecido há dezessete anos, aos setenta e oito, de doença estomacal); sua madrasta, Hayashi Hama (falecida há cinquenta e cinco anos, de doença estomacal); e seu irmão mais velho, Hayashi Yasuji (falecido há trinta e nove anos, aos nove, de doença estomacal). Os três expressavam gratidão pela entronização da Imagem de Kannon (観音). A mãe atual do senhor Yasuzo, com setenta e nove anos, perdeu a visão de um olho há vinte anos (aos cinquenta e nove) e do outro há dez anos (aos sessenta e nove), enxergando hoje apenas um vago clarão das lâmpadas. Em setembro de 1944, a casa da família foi completamente destruída pela enchente do rio Kii. Curiosamente, todos os infortúnios estão relacionados ao algarismo nove. Ademais, quando o senhor Yasuzo tinha dezoito ou dezenove anos, ele matou cerca de quatro serpentes *aodaisho* que vinham à sua casa para caçar galinhas. Sua esposa, Azuma, apresenta um nódulo do tamanho de um punho na região entre o piloro e as costelas, que incha e se move durante o Johrei. Ocasionalmente, ela vomita uma secreção viscosa e acastanhada. Seus sintomas sugerem câncer de estômago, mas a cegueira da mãe, a perda da casa e outros fatos parecem indicar uma causa espiritual profunda. Rogo por sua orientação.
-
-Aparentemente, é a maldição da serpente *aodaisho*. A doença estomacal é causada pelos remédios. O erro está em ministrar Johrei apenas no abdômen. É preciso ministrar nas costas, nos ombros e na cabeça. O estômago jamais se curará sem que se ministre Johrei nas costas. (11 de maio de 1950)
-
----
-
-# 001 A Etiqueta ao Comparecer a Cerimônias Fúnebres e Nupciais
-
-**Categoria:** kouwa | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
-
-## 001 A Etiqueta ao Comparecer a Cerimônias Fúnebres e Nupciais
-
-Questiona-se a razão pela qual não se devem realizar outras tarefas ou visitar túmulos após participar de um funeral.
-
-Tanto as cerimônias fúnebres quanto as nupciais constituem rituais de magna importância na vida de uma pessoa. Após participar de um funeral, a etiqueta para com o falecido determina o retorno direto ao lar. Embora seja comum a crença na chamada "impureza da morte", segundo a qual a proximidade com um falecido macularia a pessoa, tal concepção carece de maior relevância.
-
-A etiqueta, contudo, é um aspecto fundamental. Mesmo ao se dirigir para ministrar Johrei, caso se realizem outras tarefas antes, sua eficácia será diminuída. Isso ocorre por se tratar de uma inversão da ordem de prioridade entre o principal e o acessório. O mesmo princípio se aplica às visitas aos santuários: a reverência deve preceder quaisquer outros afazeres. Realizar as demais tarefas somente após a visita é, portanto, a conduta apropriada.
-
-## 002 A Consagração das Cinzas na Alcova de Honra
-
-Em algumas localidades, existe o costume de consagrar as cinzas do falecido na alcova de honra da residência antes de transcorridos os quarenta e nove dias do passamento. Como proceder nos casos em que o Altar de Deus já se encontra instalado nesse mesmo local?
-
-Não apenas tal prática é perfeitamente aceitável, como é, na verdade, recomendável. Isso se deve ao fato de que, ao receber a Luz espiritual de Kannon (観音), o espírito do falecido eleva-se e aprimora-se com maior celeridade.
-
-Segundo as leis do Mundo Espiritual, o espírito permanece no lar terreno por até cinquenta dias após a morte. Ao término desse período, no quinquagésimo dia, ele se despede da residência e parte para o Mundo Espiritual, dirigindo-se inicialmente a um templo. Contudo, há exceções: os espíritos de bondade extrema não chegam a permanecer por quarenta e nove dias, ascendendo ao Paraíso imediatamente após o passamento. De modo inverso, os espíritos de maldade extrema tampouco permanecem no lar, sendo precipitados diretamente ao inferno. A grande maioria, que segue o curso ordinário, permanece na residência durante os cinquenta dias.
-
-Nesse sentido, quando o espírito tem a oportunidade de receber a Luz Divina, sua purificação é acelerada. Por essa razão, consagrá-lo na alcova de honra, onde se reverencia Kannon (観音), é uma prática sumamente benéfica, pois facilita e abrevia sua jornada rumo ao Paraíso.
-
-## 003 O Local de Consagração do Espírito do Falecido (Durante os Cinquenta Dias)
-
-O espírito do falecido permanece em seu antigo lar por um período de cinquenta dias. Durante essa fase, caso ele receba a Luz Divina, seu processo de purificação é grandemente acelerado. Portanto, consagrá-lo na alcova de honra onde se reverencia Kannon (観音) é uma medida extremamente positiva, pois contribui para que sua ascensão ao Paraíso ocorra mais rapidamente.
-
-## 004 A Visita a Santuários Durante o Período de Luto
-
-Quando ocorre o falecimento de um parente, tradicionalmente considera-se um tabu visitar santuários ou mesmo atravessar seus portais sagrados durante o período de luto. Essa restrição ainda se aplica em nossos dias? Seria apropriado abster-se de tais visitas?
-
-A restrição é necessária apenas no dia do falecimento.
-
-Deus é espírito, e o ser humano, ao findar sua jornada terrena, também se dirige ao Mundo Espiritual. Sendo assim, não existe uma impureza significativa associada à morte. Da mesma forma, a proibição de tocar em objetos sagrados durante o período menstrual carece de fundamento. Um deus que se ofende com tais trivialidades é, na verdade, uma divindade de segunda classe, desprovida de poder.
-
-No caso do falecimento da esposa, por uma questão de respeito e decoro para com ela, é recomendável que o viúvo aguarde aproximadamente um ano antes de contrair novas núpcias.
-
-O período verdadeiramente crucial são os cinquenta dias subsequentes ao passamento, pois o espírito ainda não partiu para o Mundo Espiritual. Nesse ínterim, é fundamental que as cerimônias em sua memória sejam realizadas com esmero e dedicação.
-
-## 005 A Prática de Não Perturbar o Recém-falecido por Quarenta e Nove Dias
-
-Ouve-se com frequência que, em um lar onde houve um falecimento recente, não se deve mover ou alterar o interior do oratório por quarenta e nove dias. Gostaria de saber se existe algum significado por trás dessa prática.
-
-Durante os quarenta e nove dias, o espírito ainda permanece na residência e, por essa razão, ressente-se de quaisquer perturbações em seu entorno. Transcorrido esse período, já não há mais impedimento.
-
-A forma como o recém-falecido é tratado nesse período inicial reflete-se diretamente em sua condição no Mundo Espiritual. Dedicar-lhe uma atenção especial, sobretudo em cerimônias como a do sétimo dia, é de grande valia.
-
-## 006 O Calor do Corpo dos Membros Após o Falecimento
-
-Observa-se que o corpo de uma pessoa que vem a falecer após ingressar em nossa Fé permanece notavelmente aquecido, mesmo após a morte. Qual seria a razão para tal fenômeno?
-
-Ao ingressar na Fé, a pessoa passa por uma transformação espiritual. Seu espírito torna-se mais aquecido devido ao aumento do elemento fogo. Consequentemente, o corpo físico permanece mais maleável após a morte.
-
-Esse calor é uma manifestação do sentimento de amor. Assim como existem pessoas que nos transmitem uma sensação de calor e outras que nos parecem frias, a temperatura espiritual está ligada ao amor. O centro do amor é o coração. Quando sua atividade é vigorosa, o amor se intensifica, pois o coração absorve o elemento fogo do Mundo Espiritual. Um coração forte possui grande poder de absorção desse calor. Ademais, um coração fortalecido revigora a função pulmonar.
-
-A título de analogia, podemos observar que, em dias frios e ensolarados, a escassez do elemento água resulta em menor combustão do calor. Em contrapartida, dias nublados costumam ser mais quentes porque a maior presença do elemento água intensifica a queima do elemento fogo.
-
-## 007 A Autópsia de Cadáveres
-
-Acredito que a prática de dissecar corpos humanos para fins de pesquisa médica, em vez de contribuir para o avanço da cultura, acaba por acumular máculas espirituais. Gostaria de saber qual é a diferença, no Mundo Espiritual, entre uma pessoa que em vida autorizou a autópsia de seu corpo e outra que foi submetida ao procedimento sem seu consentimento. Adicionalmente, qual seria a maneira correta de sufragar os espíritos de seres humanos e animais que foram dissecados?
-
-No caso daquele que manifestou o desejo em vida, embora o espírito possa vir a se arrepender da decisão, ele não guardará ressentimento. Contudo, aquele que não consentiu poderá, sim, sentir ira. O espírito não sente dor física, independentemente do que seja feito ao corpo. Todavia, ele se importa com seus despojos mortais, pois por algum tempo ainda mantém uma conexão com eles. É por essa razão que a prática lhe causa aversão e, portanto, deve ser evitada.
-
-A sociedade atual, por não reconhecer a existência do espírito, não vê alternativa. No entanto, a autópsia é um procedimento absolutamente condenável, pois a própria medicina moderna está fundamentada em premissas equivocadas.
-
-No que tange aos animais, quando dissecados em grande número, seu ressentimento coletivo pode formar uma consciência única. Observe-se que os descendentes de médicos famosos invariavelmente enfrentam infortúnios e decadência.
-
-Mesmo que a intenção seja boa, se os meios utilizados são malignos, o resultado será desgraça e mácula espiritual.
-
----
-
-# Coletânea de Artigos do Reverendo Okada Jikan — Sobre o Omamori
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Coletânea de Artigos do Reverendo Okada Jikan — Sobre o Omamori
-
-**036. Sobre guardar o Omamori e outros objetos sagrados em bolsas**
-
-Ao viajar para seminários, difusão ou outras atividades, considero inapropriado guardar em uma bolsa o Omamori, o biombo sagrado e as demais caligrafias. Contudo, em situações de grande aglomeração, como nos trens, guardá-los na bolsa parece ser a forma mais segura. Nesses casos, seria permissível que o fizéssemos? Gostaria de receber sua orientação a respeito.
-
-Não há objeção quanto a guardá-los na bolsa, desde que nada seja colocado por cima.
-
-**037. Tratamento do Omamori antigo**
-
-Quando recebemos um novo Omamori, é permitido que uma criança use o antigo até que ela própria receba o seu em um seminário? Solicito sua orientação.
-
-Não é permitido. O ideal é guardá-lo para, posteriormente, ser emoldurado. Recomenda-se emoldurá-lo após cerca de um ano. (28/03/1950)
-
-**038. Sobre emoldurar o Omamori Koumyo**
-
-Em uma audiência anterior, ouvi Vossa Senhoria responder a uma pergunta sobre a abertura do Omamori com as palavras: “Quando chegar o momento, ele foi feito para que possa ser emoldurado”. Particularmente, tendo recebido o Omamori Daikoumyo em julho do ano passado, tomei a liberdade, no início deste ano, de emoldurar o primeiro Omamori Koumyo que havia recebido. Fi-lo sem consultar os ministros, por julgar um desperdício mantê-lo guardado, e o coloquei em um cômodo de entrada. Diante da resposta de que haveria um “momento certo”, percebo que cometi um grave erro e peço sinceras desculpas. Rogo por sua orientação sobre como devo proceder.
-
-Jamais disse algo como “quando chegar o momento”. Essa preocupação é desnecessária. Não houve erro algum. Sendo uma moldura, está perfeitamente adequado. (05/09/1949)
-
-**039. Sobre abrir o Ohikari**
-
-Fui descuidado e abri o meu Ohikari para olhar o seu interior. Chocado por ter cometido um ato tão irreverente, pedi a um ministro que o purificasse, mas a inquietação permanece. Como devo proceder daqui em diante? Solicito seu ensinamento.
-
-Não há problema em abri-lo — afinal, ele foi concebido para poder ser emoldurado. Contudo, é preciso fazê-lo com reverência. Ao ser guardado junto ao corpo, torna-se um Omamori.
-
-Aproveito para esclarecer que, embora algumas tradições proíbam a presença de mulheres em período menstrual em locais sagrados, em nossa Fé não há tal restrição. Da mesma forma, enquanto os falecidos são geralmente afastados de Deus, em nosso caminho, é preferível que se aproximem. Devemos aproximá-los do Koumyo Nyorai-sama para que sejam purificados pela Luz. Deus não aprecia oferendas de arroz cru ou sal, pois estas são do agrado dos Espíritos-Dragão. (25/07/1949)
-
-**040. Outorga de um Ohikari que foi devolvido**
-
-Quando uma pessoa que havia se afastado da Fé retorna e devolve seu Ohikari, como devemos proceder? É possível purificá-lo e outorgá-lo a outro membro?
-
-Uma vez que o Ohikari foi maculado, ele deve ser primeiramente devolvido a mim para que eu o purifique. Após a purificação e a sua recolocação no invólucro, ele poderá ser outorgado novamente. (25/06/1949)
-
-**041. Procedimento para Omamori devolvidos**
-
-Alguns membros, ao se desligarem da Igreja, devolvem seus Omamori. Qual o procedimento correto a ser adotado com esses Omamori que nos foram restituídos?
-
-A forma mais correta é queimá-lo, após expressar um pedido de desculpas. As caligrafias sagradas, no entanto, devem ser guardadas. (18/01/1949)
-
-**042. Omamori devolvidos**
-
-Tenho sob minha guarda três Omamori que foram manuseados indevidamente por seminaristas. Estão comigo desde a época em que meu irmão mais velho era vivo. Os nomes dos portadores estão neles, mas não consigo identificá-los. Um deles foi devolvido devido à oposição do marido da fiel. O que devo fazer com eles?
-
-O ideal é emoldurá-los. Se os guardar, certamente chegará o momento em que serão necessários novamente.
-
-**043. Colocação do Omamori de um falecido no caixão**
-
-É apropriado colocar o Omamori recebido por uma pessoa falecida em seu caixão para que seja cremado junto ao corpo?
-
-O procedimento usual é expressar gratidão e depois queimá-lo. Contudo, também é permitido colocá-lo no caixão. Aquele que parte para o Mundo Espiritual nessas condições recebe um tratamento especial. A diferença em seu estado espiritual é imensa.
-
-**044. Procedimento com o Omamori de um falecido**
-
-Quando um fiel falece, caso a família, por engano, realize um dos procedimentos abaixo com o Ohikari do falecido, que medidas devem ser tomadas?
-1. Cremá-lo junto ao corpo.
-2. Sepultá-lo junto ao corpo.
-3. Lançá-lo em um rio.
-4. Entregá-lo para ser incinerado em um santuário xintoísta ou templo budista.
-
-Qualquer uma das opções é aceitável, mas a proteção se restringirá ao espírito. A melhor forma é mantê-lo pendurado no pescoço do falecido, pois isso lhe garantirá um tratamento privilegiado no Mundo Espiritual. Lançá-lo em um rio não é muito recomendável. A incineração em um santuário não é tão inadequada.
-
-Houve o relato de um espírito na Coreia que, em prantos, agradeceu a um ministro por ter alcançado uma boa posição no Mundo Espiritual graças ao Ohikari que recebera. (25/06/1949)
-
-**045. O Omamori do falecido e seus familiares**
-
-Quando um membro se afasta do caminho da Fé por algum motivo, ou quando um fiel falece e sua família não possui a mesma crença, qual deve ser o destino da Fotografia Divina, do Altar e das caligrafias sagradas? Fomos orientados a cremar o Omamori junto ao corpo do fiel falecido, mas qual o procedimento no caso de sepultamento?
-
-Deve-se proceder de acordo com o desejo da família. (03/12/1949)
-
-**046. Sepultamento do Omamori de um falecido**
-
-Quando um praticante falece, devemos sepultá-lo com o Omamori ou este deve ser devolvido para um descarte apropriado?
-
-Ambas as opções são válidas. O mais importante é respeitar o desejo do próprio falecido. (19/01/1949)
-
-— Quando um fiel falece, fomos orientados a cremar o Omamori junto ao corpo. E no caso de sepultamento?
-— Nesses casos, também se deve seguir o desejo da família. Contudo, em um sepultamento, seria preferível remover o Omamori em vez de enterrá-lo junto ao corpo.
-— Seria correto, então, emoldurá-lo?
-— Sim, seria uma excelente destinação.
-
-**047. O Omamori de um falecido**
-
-Qual o procedimento para o Omamori de um membro que faleceu?
-
-Deve ser queimado.
-
-**048. O olho esquerdo possui a faculdade da visão espiritual**
-
-Quando uso o Omamori, vejo partículas douradas cintilando diante do meu olho esquerdo, como se pó de ouro estivesse sendo aspergido. Quando o retiro, o fenômeno cessa. Qual a razão disso?
-
-A Luz emana do Omamori. Ao usá-lo, a Luz penetra em seu corpo e, consequentemente, passa a irradiar de você. O olho esquerdo tem a capacidade de ver o mundo espiritual. É por isso que o senhor consegue enxergar a Luz. O olho esquerdo possui a faculdade da visão espiritual.
-
-**049. O Ohikari que escapa do invólucro**
-
-Temos um membro que ingressou na Fé há dois anos e pratica com grande fervor. Certa noite, há cerca de dois meses, ao retornar da casa de um vizinho, ele notou que seu Ohikari havia escapado do invólucro de tecido. Alarmado, refez seus passos e o encontrou caído na entrada de sua casa, levemente úmido, embora a caligrafia não tivesse sido molhada. Ele imediatamente pediu perdão e o colocou em um novo invólucro. Todavia, por mais que o feche firmemente com o botão de pressão, o Ohikari invariavelmente escapa da bolsa. Qual seria a causa desse fenômeno?
-
-Embora não seja algo impossível, o fato de ter ocorrido não uma, mas duas vezes, é incomum. Peço que me mostre o objeto uma vez. (11/01/1950)
-
-**050. Sobre abrir ou fechar o invólucro do Omamori Kannon-Ryoku**
-
-Ouvi de membros de outra congregação que o Omamori Kannon-Ryoku deve ser envolto em celofane e que a abertura superior de seu invólucro de tecido jamais deve ser fechada. Por esse motivo, eles o mantêm sempre aberto. Qual o procedimento correto? Manter a abertura desprotegida parece inconveniente, pois o Omamori pode cair ou acumular poeira. Ademais, tivemos um caso em que um familiar, ainda desconhecedor de nossa Fé, abriu o botão de pressão e retirou o Ohikari enquanto o membro tomava banho. Recentemente, passamos a costurar a abertura. Estaria correto proceder dessa forma?
-
-Sim, é correto costurá-lo. A denominação Kannon-Ryoku é inadequada; deve-se chamá-lo de “Ohikari”. (21/04/1949)
-
-**051. Proteção do Omamori**
-
-Trabalho em uma mina de carvão submarina na província de Nagasaki. No interior da mina, a água com lama cai incessantemente como chuva, cobrindo todo o corpo dos trabalhadores. Em breve, terei a graça de receber o Ohikari, mas me preocupo em desrespeitá-lo nessas condições de trabalho. Como devo proceder em tal situação?
-
-O Omamori deve ser envolvido em papel impermeável ou oleado para sua proteção. (02/11/1949)
-
-**052. Cordão do Omamori**
-
-Durante o verão, quando as senhoras utilizam trajes ocidentais, seria permissível substituir o cordão de seda do Omamori por uma corrente fina?
-
-Não há qualquer objeção. (28/04/1950)
-
----
-
-# Arte da Cura (Volume Cinco): Membros, Enfermidades da Pele e Cabelos – Enfermidades da Pele 1
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Arte da Cura (Volume Cinco): Membros, Enfermidades da Pele e Cabelos – Enfermidades da Pele 1
-
-**079 A Causa do Vitiligo (A mancha branca de Meishu-Sama)**
-
-Gostaria de receber seus ensinamentos sobre a causa do vitiligo.
-
-Eu mesmo não compreendo a causa do vitiligo. Visto que não afeta a saúde, creio não haver grande necessidade de saber. A minha mancha branca, por exemplo, tem o formato do Japão.
-
-**080 Vitiligo**
-
-Qual seria a causa do vitiligo?
-
-Trata-se de uma espécie de toxina que se manifesta na pele.
-
-**081 Vitiligo com ausência de pelos na área afetada**
-
-Estou ministrando Johrei a uma jovem de vinte e dois anos que possui, na panturrilha, uma mancha branca e redonda com cerca de nove centímetros de diâmetro. Apenas nessa área, os pelos não crescem. Qual seria a razão para tal fenômeno?
-
-Isso é vitiligo. E, de fato, a sua causa reside em toxinas medicamentosas.
-
-**082 A Cura do Vitiligo**
-
-Desde os oito anos, venho percebendo o surgimento de manchas brancas em meu abdômen, as quais, com o passar dos anos, se expandiram para a cintura e as costas. Os médicos não souberam diagnosticar a enfermidade nem oferecer um tratamento. Gostaria de saber se o Johrei pode curá-la e se existe alguma causa espiritual. Há quem diga que se trata de vitiligo.
-
-Provavelmente é vitiligo. Trata-se de um tipo de toxina que emerge na pele. Certos medicamentos produzem tal efeito. É algo que, em geral, não se cura facilmente.
-
-**083 Marca que Desapareceu Repentinamente**
-
-Ministrei Johrei por um breve momento na senhora Yuki Yamaguchi, de quarenta e dois anos. Logo depois, surgiu acima de seu seio direito uma marca avermelhada, com o formato e as dimensões aproximadas de um cigarro. Na manhã seguinte, porém, ela havia desaparecido. Surpresa, a senhora recebeu o Ohikari. Todavia, cerca de três horas depois, uma nova marca vermelha e redonda, com aproximadamente três centímetros de diâmetro, apareceu no mesmo local e, passadas algumas horas, também sumiu. Qual o significado desses acontecimentos?
-
-Não se trata de uma marca, mas de um nódulo de toxinas que aflorou à superfície em decorrência da purificação. É resultado de alguma toxina medicamentosa; não há motivo para preocupação.
-
-**084 Algo Semelhante a uma Marca Azulada no Tornozelo**
-
-Meu filho mais velho, que tem um ano e três meses, possui no tornozelo esquerdo uma marca de cor azul-clara, muito semelhante àquela que os bebês têm nas nádegas. Desde o nascimento, ela quase não mudou. Gostaria de saber se ela desaparecerá e se há alguma causa espiritual.
-
-É um nódulo de toxinas. Como se trata do mesmo tipo de acúmulo sanguíneo que se observa nas nádegas dos bebês, irá se curar.
-
-**085 Queda no Fim da Gestação e Marca Vermelha no Rosto do Bebê**
-
-Uma mulher, no último mês de gestação, sofreu uma queda e permaneceu inconsciente por três dias. Seu filho nasceu com metade do rosto coberto por uma marca avermelhada. Após uma única sessão de Johrei ministrada por um Kyodoshi, o inchaço e a coloração melhoraram. Essa marca teria uma causa espiritual?
-
-É uma hemorragia interna causada pela queda.
-
-**086 Marca Azulada Causada por Sangue Impuro**
-
-O filho mais velho do meu irmão, hoje com dois anos, nasceu com uma marca azulada nas nádegas. Há cerca de três meses ele vem recebendo Johrei continuamente, mas a mancha parece ter piorado, expandindo-se para ambos os lados da coluna vertebral. Ao toque, a área parece um pouco endurecida e mais fria que a pele ao redor. Gostaria de saber a causa e como proceder com o Johrei.
-
-O sangue impuro está sendo expelido; portanto, quanto maior a mancha se tornar, melhor. Em alguns casos, as toxinas se acumulam em um ponto e são eliminadas na forma de um furúnculo. O que ocorre é que o sangue impuro se misturou à mancha azulada das nádegas.
-
-**087 Marca que Muda de Cor**
-
-Desde os dezoito anos, inúmeros pontos acastanhados surgiram no lado esquerdo do meu rosto e do meu peito, formando uma mancha. Ela não aumenta nem diminui. Quando me sinto bem, sua cor se intensifica; quando me sinto mal, ela clareia. Qual seria a causa? Se eu continuar recebendo Johrei, ela desaparecerá?
-
-Embora não desapareça por completo, ela irá clarear. É uma marca, mas não muito intensa; parece ser decorrente de toxinas medicamentosas. Com perseverança e paciência, ela será eliminada.
-
-**088 Marca Escura Causada por Toxinas Medicamentosas**
-
-Há cerca de seis meses, parte do rosto de uma senhora de trinta e dois anos escureceu, como se fosse uma marca. Após submeter-se a diversos tratamentos médicos e injeções contínuas, o problema se espalhou por toda a face e só tem piorado. A medicina a considerou um caso incurável. Será possível curá-la através do Johrei? Existe alguma causa espiritual?
-
-A causa não é espiritual. O escurecimento da pele é resultado de toxinas medicamentosas. Os tratamentos e as injeções apenas agravaram o quadro, fazendo com que a mancha se expandisse. Certa vez, perguntaram a Hideyoshi o que ele mais temia no mundo, e ele respondeu: "os tolos". Se me fizessem a mesma pergunta, eu responderia: "os remédios".
-
-**089 Manchas Brancas Têm Cura?**
-
-Peço seus ensinamentos sobre a causa e o método de Johrei para manchas brancas e para um nódulo atrás da orelha.
-
-As manchas brancas não se curam. Elas são o resultado da solidificação de alguma toxina medicamentosa. A parte purulenta, contudo, pode ser curada com Johrei. As lesões que não doem quando pressionadas são de difícil tratamento e levam muitos anos para sarar.
-
-**090 Sardas e Marcas**
-
-Como surgem as sardas e as marcas de pele? Existem marcas escuras e vermelhas; por favor, ensine-me sobre suas causas e o método de Johrei.
-
-As sardas são a manifestação das piores impurezas coaguladas no sangue humano; por isso, com o tempo, elas desaparecem. São semelhantes à acne.
-
-**A Causa do Surgimento de Manchas na Pele**
-
-Não há necessidade de compreender por que as manchas surgem, mas o fato é que duas toxinas presentes no sangue vêm à superfície e se fixam na pele. Essa toxina sanguínea é de natureza especial e se forma quando o metabolismo enfraquece. Não sei exatamente por que elas se formam, e tampouco é preciso saber, mas há um grande significado nisso. É como perguntar por que surgem sardas, acne ou pintas.
-
-**091 A Razão do Surgimento de Manchas e Sardas**
-
-É comum que pessoas que alcançam a longevidade apresentem manchas na pele, semelhantes a sardas. Por que isso ocorre?
-
-Costuma-se dizer que ter muitas manchas é sinal de uma vida longa, mas não posso afirmar. Provavelmente, trata-se de um tipo de toxina no sangue que sobe e se adere à pele. Não sei exatamente qual a sua origem, e também não há necessidade de saber. Por exemplo, desconhecemos a causa do surgimento das pintas ou da acne; contudo, se elas causam sofrimento, aí sim é preciso investigar a razão. A marca de nascença, por sua vez, é uma espécie de imperfeição da pele.
-
-**092 Sobre os Nódulos**
-
-Tenho um nódulo. Haveria alguma relação espiritual?
-
-Não. É como um aglomerado de gordura, semelhante ao bagaço de soja que resta da produção do tofu. Se não houver dor, pode deixá-lo como está. Com o Johrei, ele melhorará gradualmente.
-
-**093 Hemangioma**
-
-Desde os quatro meses de idade, meu filho tem um hemangioma na cabeça. Agora ele está com oito meses, e o hemangioma atingiu o tamanho da ponta de um dedo. O médico não recomenda cirurgia. É possível que ele se cure completamente com o Johrei? Ademais, gostaria que me instruísse sobre a causa de seu surgimento.
-
-Ele crescerá, depois se abrirá, e dele sairá sangue com pus; então, se curará.
-
-**094 Verrugas Congênitas**
-
-Que tipo de toxina forma as verrugas e os calos? E qual a razão de aparecerem com mais frequência nas mãos e nos pés?
-
-As verrugas congênitas não se curam.
-
-**095 Verrugas e Sardas**
-
-Qual é a causa da formação das verrugas? E quanto às sardas, que parecem ser mais comuns em mulheres, qual seria a razão?
-
-Existem verrugas que desaparecem e outras que não. Felizmente, a maioria pertence ao primeiro tipo. Elas se formam quando uma espécie de toxina se acumula no local. Essa toxina é um medicamento de natureza peculiar, e, quando a purificação se inicia, ela se manifesta como uma verruga. As congênitas, por outro lado, são como pintas, uma espécie de marca. São questões de uma vida anterior...
-
-As sardas, por sua vez, são causadas por uma determinada toxina no sangue e se manifestam com mais intensidade na puberdade.
-
-**096 Acne**
-
-A acne costuma aparecer na juventude. Seria ela uma purificação de toxinas naturais? Também se ouve falar em “acne de paquera”; isso de fato existe?
-
-A acne é um tipo de gordura. O excesso de hormônios é, provavelmente, a causa mais correta. Aplicar remédios apenas piora a situação. O uso de sabonete também não é recomendável, pois danifica e resseca a pele. Para remover a oleosidade, o farelo de arroz é o mais eficaz.
-
-**097 A Causa dos Calos**
-
-Qual é a causa da formação dos calos que aparecem na sola dos pés?
-
-São aglomerados de toxinas medicamentosas antigas. Com o tempo, eles melhoram. Como os calos são indolores, é provável que sua origem seja a sífilis hereditária.
-
-**098 Pontos de Johrei para Calos**
-
-Uma menina de seis anos tem doze ou treze calos na sola dos pés e, por isso, não consegue andar. Qual é a causa? É possível curá-la com Johrei?
-
-Ela pode ser curada com o Johrei. A causa são as toxinas medicamentosas, que descem pelo corpo. Deve haver pontos doloridos desde a parte superior do pé até a parte de trás do joelho. Ministre Johrei de cima para baixo nesses locais, assim como nos rins, nas nádegas e na parte posterior das coxas.
-
-**099 Toxinas Medicamentosas em Calosidades e Calos**
-
-Que tipo de toxina causa as calosidades e os calos?
-
-O termo para calo, "uo no me" (olho de peixe), na verdade, deveria ser "io no me" (olho de verruga). Trata-se de toxinas medicamentosas que se solidificaram. Há toxinas medicamentosas com a propriedade de endurecer e outras que não a possuem.
-
----
-
-# 027 A Infinidade do Universo
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## 027 A Infinidade do Universo
-
-Seria o universo uma entidade finita ou infinita? Ademais, como se configuraria seu limite?
-
-O universo é infinito e não possui limites. É o que se denomina “sem princípio nem fim”. É impossível determinar o quanto ele se desenvolverá no futuro. O firmamento também é infinito, e sua vastidão não pode ser expressa por números astronômicos. O tempo, de igual modo, é infinito. Sendo o tempo infinito, a trama dos acontecimentos se expande ilimitadamente, e a vida que a percorre é igualmente infinita. (14/10/1949)
-
-## 028 A Propriedade de Solidificação de Todas as Coisas
-
-Sou um estudante de medicina, recém-formado em março deste ano, e com pouco tempo de fé. Nos tratamentos desta Doutrina, ensina-se que “a doença é a dissolução de solidificações, e os medicamentos solidificam a doença”. Rogo a Vossa Senhoria que me elucide sobre a razão pela qual os medicamentos solidificam a doença.
-
-Tudo o que existe no universo tende a se solidificar com o tempo, exceto os seres vivos. No corpo humano, aquilo que não deveria existir se solidifica. A rocha, por exemplo, torna-se rocha através de um processo de enrijecimento. Quando essa solidificação avança gradualmente, sobrevém um processo de desintegração que a reduz a fragmentos. Todas as coisas, ao se solidificarem por enrijecimento, emitem luz. O mesmo ocorre com as estrelas escuras, que, por um processo de fissão, se transformam em meteoros. No caso do pus, as toxinas medicamentosas se solidificam e, em seguida, inicia-se um processo de dissolução. Consequentemente, surge a febre e a substância se liquefaz. (15/05/1949)
-
-## 029 O Domínio sobre o Vento, a Chuva e os Trovões no Mundo Ideal
-
-No Mundo Ideal, a partir de que nível hierárquico será possível dominar à vontade o vento, a chuva e os trovões?
-
-Isso não será alcançado por meio de níveis hierárquicos, mas sim pelo avanço da ciência. A descoberta da energia atômica é parte dessa sequência de progresso.
-
-## 030 A Aproximação da Ciência ao Mundo Espiritual
-
-A ciência estabelecida, que Vossa Senhoria afirma estar prestes a adentrar o Mundo Espiritual, já teria, como uma etapa de seu progresso, logrado obter algum discernimento para elucidar questões como a moral, a arte e o amor na sociedade humana?
-
-A ciência estabelecida ainda desconhece tais domínios. Se chegasse a esse ponto, já teria adentrado o Mundo Espiritual. Contudo, ela ainda se encontra aquém dessa fronteira. (14/10/****)
-
-## 031 Bactérias de Fermentação e Hidrogênio; Cores de Proteção; Bactérias do Hidrogênio e os Pensamentos e Atos Humanos
-
-As bactérias de fermentação originam-se, em geral, do hidrogênio. O processo não ocorre no frio, pois requer o elemento fogo. No entanto, o elemento fogo atua somente até certo ponto; a partir daí, predomina o domínio do hidrogênio.
-
-Existem bactérias de hidrogênio tanto benéficas quanto nocivas ao ser humano, as quais são criadas pelos pensamentos e atos das pessoas.
-
-A expressão “destruição atômica” é inadequada. O que ocorre é a aniquilação do hidrogênio.
-
-Quanto às cores de proteção dos animais e plantas, não há o que discutir. Deus os criou dessa maneira.
-
-## 032 Micropartículas (Ondas Sonoras, Elétrons, Fótons, Pensamentos e Palavras)
-
-As ondas sonoras, por exemplo, possuem uma densidade grosseira. Mais sutil que elas é o elétron. E ainda mais sutil é a partícula espiritual...
-
-No hidrogênio, formam-se toxinas. São essas toxinas que o alteram. O espírito divino é elemento fogo e, por meio dele, as micropartículas tóxicas são dissolvidas. Fótons.
-
-Os pensamentos e as palavras também são micropartículas. (12/07/1948)
-
-## 033 As Micropartículas de Hidrogênio e o Hidrogênio da Ciência
-
-As micropartículas de hidrogênio que geram toxinas e o átomo de hidrogênio da química seriam a mesma coisa?
-
-Sim, são idênticos ao hidrogênio da ciência. Contudo, aquilo que é visível por meios científicos, como o microscópio, é uma manifestação grosseira. O hidrogênio a que me refiro é incomensuravelmente mais sutil. Sua pequenez é infinita, podendo ser menor que um centésimo de milionésimo do hidrogênio conhecido pela ciência convencional. É uma pequenez análoga à vastidão infinita do céu azul.
-
-## 034 A Verdadeira Natureza da Teoria Atômica
-
-1. Considera-se que o núcleo atômico seja constituído pela união do elemento fogo e do elemento hidrogênio. Qual seria, então, a constituição do elétron?
-2. E quanto ao nêutron no núcleo atômico?
-3. Qual a relação entre o próton (partícula positiva) e o elétron (partícula negativa) e os três elementos primordiais: fogo, hidrogênio e terra?
-
-1. O elétron é positivo (yang), e o ‘mikuruton’ é negativo (yin), mas a ciência inverte essa concepção. O próton é único, e ao seu redor orbitam os elétrons negativos. A lógica é a mesma da água que envolve o fogo para atenuá-lo. O centro da Terra é uma massa de fogo – o próton do planeta –, e a atmosfera que a envolve, sendo análoga ao hidrogênio, circunda esse ponto do elemento fogo.
-
-2. Nove deles o circundam. Uma ínfima porção disso é o que explode. (09/11/1949)
-
-## 035 Partículas Espirituais e Átomos
-
-Gostaria de inquirir novamente sobre as partículas espirituais e os átomos.
-
-A. Em seu artigo na 38ª edição do Jornal Hikari, Vossa Senhoria afirma: “Esses cinco tipos são os mésons mu e pi, yin e yang, que correspondem às essências do sol e da lua; o méson intermediário neutro, que é a partícula da união do sol e da lua; e os outros dois tipos, que são as essências da terra e das estrelas. A sede dessa força é, obviamente, o nêutron...”. Poderíamos fazer a seguinte correlação?
-
-- Méson mu yin … essência da terra
-- Méson mu yang … essência do sol
-- Méson pi yin … essência das estrelas
-- Méson pi yang … essência da lua
-- Méson intermediário neutro … partícula da união do sol e da lua
-
-B. Ademais, como se daria a correlação entre a primeira, a segunda e a terceira partículas espirituais e os três elementos: fogo, água e terra?
-
-C. Assim como se diz que o chumbo pode ser transformado em ouro alterando-se artificialmente o número de elétrons de um átomo, não seria possível, partindo do pressuposto de que a índole e a atividade mental de uma pessoa se devem ao núcleo de partículas espirituais de sua alma ou de seu coração, transformar instantaneamente esse núcleo para converter uma pessoa má em uma pessoa boa?
-
-O méson mu é yin; o méson pi, yang. Contudo, o ser humano é uma existência muito mais sublime e sutil, portanto, tal transformação instantânea não é possível. As partículas que o compõem são centenas de milhões de vezes menores que essas moléculas. A mudança só pode ser realizada por meio do elemento espiritual. A sutileza é infinita. (03/02/1950)
-
-## 036 Sobre a Bomba de Hidrogênio
-
-Isto é uma bomba atômica. A bomba atômica funciona da seguinte forma: quando se extrai a umidade de um objeto, outros átomos são liberados, o que acarreta a explosão. Nesse processo, ao se adicionar hidrogênio, o poder explosivo é amplificado. (08/02/1950)
-
-## 037 O Poder da Bomba de Hidrogênio
-
-No jornal Mainichi de 13 de fevereiro, foi publicada uma reportagem em que o cientista atômico norte-americano Dr. Ralph Lapp afirmava que uma única bomba de hidrogênio pesaria 25 toneladas e, se lançada de uma altitude de quatro milhas, poderia destruir uma área de cem milhas quadradas e cobrir de trezentas a quatrocentas milhas quadradas com sua radiação térmica. Ele acrescentou que, no território soviético, a única área que justificaria o lançamento de uma bomba de hidrogênio seria a região de Moscou. Tal informação seria um tanto exagerada? Rogo a Vossa Senhoria que nos instrua, também, sobre a situação na União Soviética.
-
-Isso deve ser verdade. Pelos cálculos, os resultados seriam esses. Tenho uma revelação de Deus sobre o assunto, mas não posso divulgá-la no momento. Não há necessidade de se preocuparem. (18/02/1950)
-
-## 038 A Destruição do Centro de um Tufão com a Bomba Atômica
-
-O recente tufão causou enormes danos humanos e materiais. Diante da escassez de alimentos em nosso país, até mesmo o editorial de 2 de setembro do jornal Osaka Mainichi informa que o tufão resultou em uma perda equivalente a dez milhões de koku de arroz. Consta que, entre os cientistas americanos, surgiu a tese de que seria possível destruir o centro de um tufão com uma bomba atômica, mas que isso ainda não é viável e que o avanço científico atual ainda não é capaz de subjugar a fúria da natureza. Para nós, agricultores, o aumento da produção de alimentos é uma tarefa crucial, mas, por outro lado, como cidadão, sinto um desejo incontrolável de que esses danos sejam minimizados. Como medida preventiva, do ponto de vista espiritual, gostaria humildemente de ouvir a elevada opinião de Vossa Senhoria.
-
-É absolutamente impossível realizar tal feito com uma bomba atômica. Seria análogo a tentar curar o câncer com rádio. (06/09/1949)
-
-## 039 O Poder de Reverberação da Voz Humana e do Som Mecânico
-
-Como as boas palavras e louvores proferidos pela boca humana e aqueles emitidos por meios mecânicos, como o gramofone ou o gravador, reverberam no Mundo do Verbo Divino? Rogo que me instrua.
-
-Aquilo que emana da boca humana contém espírito. A gravação, por sua vez, possui apenas a forma. A diferença é a mesma que existe entre um ser humano e um boneco. (25/05/1949)
-
-## 040 Cores
-
-Sobre o elemento primordial das cores...
-
-As cores existem em decorrência da absorção da luz do sol — e também da luz elétrica. (23/02/1949)
-
-## 041 Eletricidade e Magnetismo
-
-Do ponto de vista dos elementos primordiais, qual é a constituição da eletricidade e do magnetismo? Rogo que me instrua.
-
-São elétrons e magnetismo do Mundo Espiritual.
-
-Os cientistas pesquisaram e descobriram que o corpo humano emite magnetismo. Difundiu-se a ideia de que isso curava doenças, o que se tornou popular na Europa sob o nome de “magnetoterapia”. Antigamente, na época das terapias, havia quem chamasse de magnetismo a irradiação espiritual que emana das mãos. Ainda hoje existem pessoas que o fazem. O termo “magnetismo” não é preciso. Alguns o chamam de “eletricidade corporal”. Em suma, pode-se dizer que são elétrons.
-
-Parece que tudo aquilo que não se compreende é rotulado de magnetismo.
-
-## 042 A Toxina da Eletricidade
-
-Numa pergunta recente, alguém relatou: “Senti dor de cabeça por causa do vento do ventilador. Qual seria a razão?”. Vossa Senhoria respondeu: “É porque a eletricidade contém uma toxina. Houve um caso de uma pessoa que morreu por ter direcionado o vento do ventilador de baixo para cima”. Sendo assim, as pessoas que trabalham com eletricidade também recebem essa toxina? E por que a eletricidade a possui?
-
-A eletricidade contém, de fato, uma toxina. Diz-se que, segundo investigações científicas, o aquecimento elétrico é o que produz a maior quantidade de toxinas. O ventilador não chega a tanto, mas seu uso é antinatural, pois projeta um vento nocivo sobre a pessoa. O caso daquele que morreu com o vento direcionado às pernas ocorreu porque o resfriamento provocou uma paralisia.
-
-## 043 Sensação de Paralisia da Cintura para Baixo Causada por Ventilador
-
-Uma mulher de 52 anos, que há cerca de seis meses dormiu com o ventilador ligado, sentiu um mal-estar da cintura para baixo no dia seguinte. Tentou massagem, acupuntura e shiatsu, sem melhora. Depois, recorreu a tratamentos elétricos e a médicos, mas seu estado foi se agravando e, hoje, ela não consegue se levantar, pois suas pernas estão sem força. Ela sente uma dormência da cintura para baixo, mas ainda tem sensibilidade ao toque. O médico diz que seus nervos motores perderam a agilidade. Qual seria a causa do problema? Haveria alguma relação espiritual? Ao ministrar Johrei, em que pontos devo me concentrar? Seria possível curá-la apenas com Johrei? Ela só recebeu Johrei quatro vezes, não compreende a Doutrina e, consequentemente, não recebeu o Ohikari. Rogo que me oriente.
-
-A causa reside nos diversos tratamentos que ela realizou. Casos como este, decorrentes do uso de ventiladores, são comuns. Contudo, os sintomas que ela apresenta são mais consequência dos tratamentos do que do ventilador em si. Deve-se ministrar Johrei no local onde o vento do ventilador incidia. O que ocorreu foi, em certo sentido, uma necrose temporária de parte dos nervos.
-
-A eletricidade possui uma toxina muito forte. Houve o caso de uma gueixa em Osaka que morreu por causa de um ventilador. O aquecimento elétrico também é prejudicial se usado por longos períodos. Resultados de testes mostram que a toxina emitida pelo aquecedor elétrico é a mais potente. Usar o ventilador sobre o corpo todo não acarreta grandes problemas, mas resfriar uma parte específica é danoso, pois o resfriamento, por princípio, solidifica. Até agora, o que se fez foi solidificar o problema. Lembro-me de um caso, na região de Yokohama, de uma pessoa cuja doença original já estava curada, mas que, por ter aplicado compressas de gelo, perdeu o apetite, definhou e veio a falecer. (15/03/1949)
-
-## 044 O Formato de Relâmpago da Luz do Trovão
-
-Por que a luz do trovão se manifesta na forma de um relâmpago? Rogo que me conceda vosso ensinamento.
-
-Ocorre no instante em que elétrons positivos e negativos se friccionam na atmosfera; a forma se deve à velocidade extraordinária do fenômeno. Em termos religiosos, diz-se que o Dragão de Fogo — um deus-dragão que manipula o fogo — sopra chamas de sua boca, e o sopro desenha essa forma.
-
-Ambas as explicações não estão equivocadas. São dignas de crédito. (01/07/1949)
-
-## 045 A Luz do Vaga-lume: Luz Solar e Luz Lunar
-
-Diz-se que a luz do vaga-lume ainda não foi decifrada pela ciência. Qual seria a sua natureza? Rogo que me instrua.
-
-Existem dois tipos de luz: a luz do sol e a luz da lua. A luz do vaga-lume é luz lunar. Por essa razão, não possui moléculas de calor; é uma luz fria. A luz que possui calor tem predominância do corpo físico do calor. A luz da lua, por sua vez, tem predominância do espírito (frio) da luz solar. Ela é azulada. (02/05/1949)
-
-(Nota: Publicado em “Myochi no Kagi”, edição de agosto da sucursal Komyo, 1º de agosto de 1949)
-
-## 046 O Princípio da Luz do Vaga-lume
-
-Qual o princípio por trás da emissão de luz do vaga-lume e como ela brilha sem calor?
-
-Não é que não haja calor. Existe o calor espiritual. O fogo espiritual não é quente ao tato, mas é poderoso. Trata-se de uma luz espiritual. O que é quente pertence ao corpo físico. (16/08/1949)
-
-## 047 Combustão
-
-A combustão seria a espiritualização da matéria?
-
-A combustão é o fogo espiritual da matéria. (29/09/1949)
-
-## 048 O Calor de Fricção e a Energia Espiritual
-
-O calor gerado por fricção tem relação com a energia espiritual?
-
-O aquecimento por atrito é apenas isso; não possui relação com a energia espiritual.
-
-## 049 A Bomba Bacteriológica
-
-Em uma guerra futura, caso bombas bacteriológicas sejam utilizadas, qual será a situação? E no caso dos fiéis?
-
-Conforme escrevi na coluna Suntetsu, os fiéis podem até mesmo saudar tal acontecimento. A bomba atômica não é algo a se temer. As pessoas que usarem um pano branco serão salvas. E quem estiver em um abrigo antiaéreo estará seguro. (19/06/1949)
-
-(Nota: Suntetsu (Hikari nº 9), publicado em 14 de maio de 1949) “Dizem que a União Soviética desenvolveu a bomba bacteriológica. Apenas para os fiéis da nossa Doutrina, ela não será ineficaz, mas sim inócua.”
-
-(Nota: Sermão de 4 de abril de 1949 (Gokowaroku nº 7), publicado em **/**/1949) “Atualmente, a maior preocupação nos Estados Unidos é a de que a União Soviética possua a bomba bacteriológica e a utilize contra eles. Ora, não há motivo algum para se preocupar com isso. Em breve, pretendo difundir esta Doutrina também nos Estados Unidos. O que se deve fazer é tornar o corpo incapaz de permitir a proliferação de tais germes, não é mesmo? É como construir uma casa à prova de fogo. Assim está resolvido. E em nossa Doutrina, somos capazes de construir essa ‘casa’ à prova de fogo.”
-
-## 050 Bomba Bacteriológica
-
-Por favor, explique as diferenças entre a bomba atômica e a bomba bacteriológica, bem como seus respectivos efeitos. Ademais, que papel a bomba bacteriológica desempenhará no futuro desenvolvimento da cultura?
-
-Para nós, a bomba bacteriológica é algo excelente. (27/09/1949)
-
----
-
-# Arte da Medicina (II) Parte Superior e Média do Corpo
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Arte da Medicina (II) Parte Superior e Média do Corpo
-
-**6. Tuberculose 1**
-
-**085. Tuberculose, Amor e Cérebro**
-
-Por qual razão os doentes de tuberculose, de modo particular, permanecem com a consciência lúcida até o momento final de suas vidas? Rogo que nos conceda seu Ensinamento.
-
-A tuberculose não é uma doença da mente. Ademais, os que sofrem dessa enfermidade carecem do calor do amor. Sendo de natureza fria, a razão neles prevalece sobre o sentimento. Aqueles que contraem tuberculose raramente são pessoas afetuosas; sua aura é igualmente gélida. Para curar os pulmões, é recomendável que pratiquem o amor. (21 de agosto de 1949)
-
-**086. O Escarro da Tuberculose**
-
-Diz-se que a tuberculose pulmonar é uma das doenças mais difíceis de curar, mesmo na Igreja Kannon. O que o Senhor nos diz a esse respeito?
-
-Quanto ao escarro pulmonar, o de cor amarela é o mais antigo. Segue-se o branco, depois o azulado e, por fim, o transparente, que é o mais recente. O escarro é expelido da garganta para cima. É preciso compreender que, por mais que se sele um ambiente, os micróbios surgem. Eles enfraquecem as pessoas ao propagarem a ideia de que o que não é contagioso, na verdade, o é. (26 de novembro de 1949)
-
-**087. Repurificação da Tuberculose e a Razão para a Purificação ser Intensa em Meio à Fraqueza**
-
-É comum observarmos, no estágio terminal da tuberculose, casos em que o doente, embora extremamente debilitado e à beira da morte, passa por intensas e contínuas purificações até falecer. Essa aparente contradição em uma purificação final teria alguma razão especial, como uma graça concedida por Deus para preparar a pessoa para sua jornada ao Mundo Espiritual?
-
-A tuberculose acarreta o uso de grande quantidade de medicamentos potentes, e por isso as repurificações são frequentes. À medida que o Johrei fortalece o organismo, este inicia o processo de expelir as toxinas medicamentosas acumuladas, o que desencadeia uma purificação intensa. Essa é a razão. Tais pacientes invariavelmente possuem um grande nódulo na região do ombro. Se o ponto vital for tocado, a melhora é notável e progressiva. Contudo, é necessário não apenas descobrir esse ponto, mas também possuir força espiritual suficiente para dissolver o nódulo. Na maioria das vezes, ao chegar a essa fase, o caso se torna irreversível. Em suma, basta compreender que se trata de uma purificação vigorosa.
-
-**088. Repurificação de Boa Natureza — Tuberculose**
-
-Somos uma família de três membros, todos fiéis. Meu irmão, de vinte e dois anos, foi diagnosticado em outubro do ano retrasado com tuberculose, inclusive com a presença de uma caverna pulmonar, e recebeu ordens de repouso absoluto. Desde então, ele vem recebendo Johrei. Passou por cerca de quatro meses de purificações sucessivas, como diarreia, hemorroidas e suores noturnos a partir de julho, o que lhe trouxe grande alívio, e somos imensamente gratos. Chegamos a pensar que ele poderia se levantar em breve. Contudo, há cerca de um mês, os suores noturnos retornaram, mas de forma diferente: não ocorrem durante o dia, apenas após adormecer, especialmente ao amanhecer, quando são tão intensos que o deixam encharcado. Além disso, sua garganta está vermelha, inchada e dolorida. Qual seria a natureza desse processo?
-
-Trata-se de uma repurificação de boa natureza. O organismo foi purificado por meio da diarreia e das hemorroidas. A hemorroide, por sua vez, incha e se abre.
-
-**089. Debilidade por Tuberculose**
-
-Meu marido, Seizo, de cinquenta e dois anos, sofre de tuberculose há dois. No dia primeiro de junho deste ano, ele começou a receber Johrei do reverendo Kawai, e sua tosse e escarro praticamente cessaram, a diarreia parou, o apetite retornou e ele parecia estar melhorando de forma constante. No dia onze de setembro, recebi a permissão para ministrar, e, simultaneamente, iniciou-se uma repurificação. Recentemente, a tuberculose intestinal piorou, o estômago e os intestinos doem, a diarreia recomeçou, o peito do pé está inchado, o coração enfraqueceu, e ele se encontra debilitado de corpo e alma. Embora tenhamos suspendido os medicamentos desde primeiro de junho, anteontem consultamos um médico que afirmou que ele não passará deste ano. Continuamos ministrando Johrei dia e noite, mas pergunto: esta é uma purificação que conduz à cura? E, nesse caso, peço orientações sobre como proceder com o Johrei.
-
-A repurificação da tuberculose é, de fato, bastante complexa. (19 de novembro de 1949)
-
-**090. Lidando com a Recidiva da Tuberculose**
-
-Estou ministrando Johrei há cerca de quinze dias em um paciente com tuberculose recorrente, que não obteve melhora no hospital. No início, ele conseguia comer apenas cerca de oitenta por cento de uma tigela de mingau, mas seu apetite tem aumentado progressivamente. No entanto, ele está cada vez mais debilitado. O que devo fazer?
-
-Este é um caso delicado. É preciso expelir as toxinas por meio da purificação, mas isso acarreta febre, tosse e agrava a debilidade. Em outras palavras, a doença melhora, mas o paciente enfraquece. Isso ocorre com doentes de tuberculose que tomaram medicamentos por um período muito longo. Pode-se considerar um caso sem muitas perspectivas; provavelmente, não haverá salvação. A única maneira é prosseguir sem fazer promessas. A purificação das toxinas dos medicamentos suspensos é um processo árduo. Contudo, o Johrei alivia o sofrimento. O melhor a fazer é explicar sobre o Mundo Espiritual e a salvação que se alcança como espírito. É uma situação paradoxal: o Johrei restaura a saúde, e, como consequência, a pessoa enfraquece, o que torna o desfecho desfavorável.
-
-Os sintomas que se seguem à sarna se manifestam de outras formas. Se futuramente se intensificarem, podem surgir todos de uma vez, causando febre alta, vômitos, diarreia, dor de cabeça e uma sensação de que o corpo inteiro está se desfazendo.
-
-**091. Caso Difícil de Tuberculose Pulmonar e a Fé**
-
-Um homem de quarenta e quatro anos, com tuberculose pulmonar há quatro, está acamado desde novembro do ano passado, com febre constante de 38 a 39 graus. Desde que ingressou na fé, em abril deste ano, ele recebe Johrei diariamente, mas a febre não cede. Pelo contrário, no dia seguinte a receber Johrei de um chefe de Igreja, ele passou por uma purificação terrivelmente intensa, sofrendo com suores frios. Embora mantenha o apetite, está bastante debilitado. Qual o método de Johrei indicado?
-
-É um caso complexo. A maioria dos quadros de tuberculose pulmonar se apresenta assim. Como ele tomou medicamentos por cerca de quatro anos, o Johrei os dissolve para que sejam expelidos. Isso gera tosse, escarro e febre, o que causa debilidade. A doença está sendo curada, mas há o risco de que ele não resista ao enfraquecimento. A febre não cederá enquanto os nódulos não se dissolverem, o que exige um poder espiritual extraordinário. O único caminho é proceder gradualmente, ministrando Johrei uma ou duas vezes por semana e mantendo o paciente em repouso. É preciso administrar o Johrei observando atentamente a condição da doença. Pessoas com enfermidades que apresentam risco de vida devem ingressar na fé após a cura.
-
-**092. Pneumotórax seguido de Perda de Apetite, Dor de Garganta e Vômito de Secreção Viscosa (O Ponto Vital do Johrei)**
-
-Meu filho mais velho, de trinta e oito anos, adoeceu do peito em janeiro do ano passado. Após dez sessões de pneumotórax, ele estava melhorando com o Johrei. No entanto, desde janeiro deste ano, começou a perder o apetite gradualmente, e sua garganta passou a doer a ponto de ser doloroso até mesmo engolir saliva. Atualmente, ele mal consegue comer um ovo por dia e vomitou uma substância viscosa, em quantidade equivalente a um litro diário. Desde meados de fevereiro, está acamado e sem energia. Do que se trata?
-
-Isto é uma repurificação. O tratamento médico é uma terapia de solidificação; por isso, quando uma certa quantidade de toxinas é eliminada, o paciente melhora. Depois, as toxinas medicamentosas que estavam latentes vêm à tona, e a purificação se inicia. A repurificação é a fase mais árdua, pois causa debilidade. A doença melhora enquanto o corpo enfraquece. Nesses casos, é imperativo ministrar no ponto vital principal. Há um nódulo na região da nuca ou dos ombros. Em pacientes assim, essa área é extremamente rígida. Primeiramente, deve-se ministrar nas costas, abaixo dos rins, nas coxas e em outros locais onde a febre se concentra. A secreção viscosa e a tosse são sinais de que as toxinas estão se dissolvendo e sendo expelidas. É preciso ter cautela para não agravar a debilidade. O objetivo é fazê-lo superar o ponto crítico o mais rápido possível. Descubra sem demora o ponto quente na nuca e concentre o Johrei ali. Quando a febre baixar, ministre nesse ponto vital. Existem ainda um segundo e um terceiro pontos vitais.
-
-**093. Johrei na Repurificação Pulmonar**
-
-Observamos que, diferentemente de outras enfermidades, muitas pessoas com doença pulmonar vêm a falecer durante a repurificação, mesmo após um período de melhora. Isso se deve à grande quantidade de toxinas de medicamentos, ou haveria algum pecado ou mácula de natureza especial associado a essa doença?
-
-A repurificação é mais severa que a purificação inicial. No começo, a melhora é rápida e impressionante. Isso ocorre porque a força purificadora inicial é mais fraca e remove apenas as toxinas superficiais. Com o tempo, essa força se intensifica, e tem início uma purificação fundamental, que atinge as toxinas acumuladas por um longo período, sendo, portanto, muito mais rigorosa. Em casos de repurificação, o ideal é ministrar Johrei apenas uma vez por semana e proceder com paciência. (21 de novembro de 1949)
-
-**094. Método de Johrei para Tuberculose**
-
-Muitos doentes de tuberculose que não apresentam qualquer melhora com os médicos melhoram consideravelmente com o Johrei, a ponto de parecerem caminhar para a cura completa. Contudo, após cerca de meio mês, seu organismo se fortalece e inicia um processo de purificação, que se torna cada vez mais intenso. Frequentemente, a vitalidade do paciente não é suficiente para suportá-lo até o fim. Além disso, na família dessas pessoas, é comum haver vários casos de morte por tuberculose. A maioria dos doentes que tratei desde que ingressei na fé seguiu esse padrão. Como devo proceder?
-
-Quando o corpo melhora, a purificação se inicia, e a pessoa enfraquece. O Johrei, então, a fortalece novamente. Esse ciclo se repete. Se a vitalidade do paciente for suficiente, tudo correrá bem, mas o resultado, muitas vezes, é um enfraquecimento que ocorre em paralelo à cura da doença. Existem dois métodos. O primeiro consiste em ministrar Johrei uma vez por semana, com perseverança. O segundo é ministrar de forma intensa, cinco ou seis vezes ao dia, para acelerar a purificação. O primeiro método pode ser aplicado por qualquer pessoa, mas o segundo exige um ministro com considerável poder espiritual. (26 de fevereiro de 1949)
-
-**095. O que Saber sobre Ministrar Johrei em Tuberculose**
-
-O fato de muitos doentes de tuberculose não se curarem quando ministro Johrei se deve à minha força espiritual ainda ser fraca? Devo considerar minha fé superficial enquanto não obtiver melhores resultados?
-
-Não, não é esse o caso. A tuberculose é a doença que mais acumula toxinas medicamentosas. A medicina solidifica, nós dissolvemos; aí reside uma diferença fundamental. O tratamento médico, por exemplo, injeta ar na pleura para imobilizar o pulmão, o que solidifica as toxinas internas. Com isso, a febre e o escarro desaparecem, mas não se trata de uma cura, e, por isso, a doença reincide depois de algum tempo. Pacientes nessas condições estão bastante enfraquecidos, e dissolver as toxinas agrava a debilidade. Portanto, a melhor abordagem é proceder gradualmente. A dificuldade reside no fato de que a doença melhora enquanto o corpo enfraquece. Por essa razão, é preferível não aceitar casos de extrema debilidade. Se o enfraquecimento não for tão acentuado, o primeiro passo é conduzir a pessoa à fé e, então, tratar o caso sem pressa. Em dois ou três anos, a cura completa será alcançada. Esta recomendação se aplica especificamente à tuberculose pulmonar; as demais doenças devem ser purificadas intensamente. (8 de agosto de 1948)
-
-O escarro desaparece, mas não se trata de uma cura, e, por isso, a doença reincide depois de algum tempo. Pacientes nessas condições estão bastante enfraquecidos, e dissolver as toxinas agrava a debilidade. Portanto, a melhor abordagem é proceder gradualmente. A dificuldade reside no fato de que a doença melhora enquanto o corpo enfraquece. Por essa razão, é preferível não aceitar casos de extrema debilidade. Se o enfraquecimento não for tão acentuado, o primeiro passo é conduzir a pessoa à fé e, então, tratar o caso sem pressa. Em dois ou três anos, a cura completa será alcançada. (1948)
-
-**096. Tuberculose e Gangrena Pulmonar**
-
-Qual é a diferença entre a causa da tuberculose e a da gangrena pulmonar? Conforme nos foi ensinado, a tuberculose é majoritariamente de origem espiritual. A gangrena pulmonar também seria espiritual, ou sua causa reside nas toxinas de medicamentos?
-
-A gangrena manifesta-se com frequência nas costas, sob a forma de pus e sangue. Já a tuberculose ocorre porque se impede a expulsão do escarro que deveria ser eliminado. A gangrena externa é mais comum. A interna, por ser mais antiga, tem um odor muito forte. A gangrena pulmonar, por sua vez, é de fácil tratamento. (18 de dezembro de 1948)
-
-**097. A Tuberculose é Difícil de Curar?, Tuberculose Miliar e Gangrena Pulmonar**
-
-A repurificação da tuberculose corresponde ao que a medicina denomina tuberculose miliar?
-
-Não, é diferente. A forma miliar pode ocorrer quando o escarro entra em decomposição, ou quando as toxinas do corpo se manifestam na pele, de modo semelhante à sarna. A medicina a considera incurável, mas isso não é verdade; eles apenas a tratam de uma forma que impede a cura. Na realidade, é uma condição relativamente fácil de se curar. A gangrena é a mais fácil de todas. Forma-se um abscesso no pulmão, que é expelido como uma mistura de pus e sangue. Normalmente, a tuberculose é de fácil tratamento, mas os pacientes sucumbem à debilidade causada pelo sofrimento da febre e da expectoração. A recidiva nada mais é do que o derretimento das toxinas que haviam sido solidificadas. (23 de outubro de 1949)
-
-**098. Hemoptise Pulmonar**
-
-Após dar à luz em dezembro de 1946, minha saúde se deteriorou. Fui a um médico, que disse que meus pulmões estavam doentes. Em outubro de 1947, tive um episódio de hemoptise e, nesse período, recebi diversas injeções e outros tratamentos. Entre março e outubro de 1948, passei por cerca de dez sessões de pneumotórax, sem qualquer melhora. Em 20 de novembro daquele ano, conheci os ensinamentos e comecei a receber Johrei, o que faço até hoje. Serei curada? Por favor, ensine-me o método de Johrei.
-
-Desde que a debilidade não seja acentuada, a cura é certa. Basta levar isso em consideração ao proceder. Se houver vitalidade, não há com que se preocupar. A causa da afecção pulmonar geralmente se encontra no pescoço ou nos ombros. Como há muitas toxinas de medicamentos acumuladas, a cura não será rápida. (16 de outubro de 1949)
-
-**099. Tuberculose — Dor no Peito e Hemoptise**
-
-Um homem de vinte e seis anos vem sofrendo de tuberculose pulmonar há um ano e meio. Após algumas sessões de Johrei, ele melhorou consideravelmente. No entanto, queixa-se de dores ocasionais no peito. Antes de iniciar o Johrei, teve cerca de três episódios de hemoptise. Embora esteja bastante fatigado, seu ânimo é bom, e ele já consegue até mesmo caminhar. Rogo por sua proteção.
-
-Se não houver debilidade, a cura é garantida. Esse é o ponto crucial, juntamente com o apetite. (19 de agosto de 1949)
-
-**100. Hemoptise e Dieta Vegetariana**
-
-Um paciente está com hemoptise contínua há dez dias. Estou ministrando Johrei duas vezes ao dia. Seria uma frequência excessiva?
-
-Enquanto houver escarro com sangue, uma dieta vegetariana é recomendável. A eliminação desse tipo de escarro é, na verdade, um bom sinal. (2 de outubro de 1948)
-
-**101. Prognóstico de Infiltração Pulmonar (Hemoptise)**
-
-Aos dezessete anos, sofri de infiltração pulmonar. Aos vinte e dois, em junho, tive uma hemoptise volumosa, seguida de vários outros episódios. Desde outubro do ano passado, venho recebendo Johrei e, atualmente, estou tão saudável quanto qualquer pessoa e trabalho normalmente. Posso continuar assim? Como devo receber Johrei para o meu corpo?
-
-Está bom assim. Como processo de purificação, a hemoptise é excelente. (8 de outubro de 1949)
-
-**102. Mãe e Filhos, os Três com Tuberculose**
-
-Em 18 de março de 1948, entronizamos a Imagem da Luz Divina. Recebi a Medalha da Luz em dezembro de 1946. Já antes disso eu sofria de tuberculose pulmonar e vinha recebendo Johrei, mas minha condição piorou progressivamente e agora estou acamado. Não consigo sequer ir ao banheiro. Minha refeição se resume a uma tigela de arroz; sinto o sabor como delicioso, mas, assim que como, tudo é eliminado. Além disso, meu irmão mais novo, com a mesma doença, está internado. Minha mãe, que cuidava dele, acabou contraindo tuberculose também e foi hospitalizada. Nossa situação financeira tornou-se extremamente difícil, e estamos completamente desamparados. O que devemos fazer?
-
-Há algo de estranho nessa situação; deve haver algum motivo subjacente. Essencialmente, a tuberculose é uma doença criada pela medicina. Provavelmente, utilizaram uma grande quantidade de medicamentos durante as internações. Apenas com o Johrei, a cura deveria ser possível. (25 de fevereiro de 1949)
-
-**103. Tuberculose e Diarreia**
-
-Meu irmão mais novo, de trinta e dois anos, sofre de tuberculose pulmonar há cerca de dez anos. Há dois anos, em agosto, ele ingressou na nossa fé e, no ano passado, recebeu a Imagem da Luz Divina. Desde março ou abril deste ano, porém, ele tem tido diarreia todos os dias, com pouco apetite e uma febre baixa e contínua. Não está muito debilitado e continua a trabalhar em seu escritório diariamente. Até hoje, ele tem recebido Johrei duas vezes ao dia, de manhã e à noite. Está correto? Ou seria mais apropriado ministrar apenas uma vez ao dia?
-
-Tanto uma quanto duas vezes ao dia está adequado. Ele está sendo curado por meio da diarreia. (8 de junho de 1949)
-
-**104. Tuberculose e Apetite (Falta de Ar, Calafrios)**
-
-Minha esposa, Yukiko, de trinta anos, contraiu tuberculose em julho de 1945. Sendo eu médico internista, apliquei-lhe diversos tratamentos, mas sua condição não melhorou e, atualmente, encontra-se no terceiro estágio da doença. A falta de ar é intensa, e seu apetite permite apenas cerca de uma tigela de alimento, e somente se for de consistência mole; com alimentos sólidos, ela perde totalmente a vontade de comer. Além disso, uma vez por dia, a febre sobe para cerca de 39 graus, ocasião em que sente calafrios. A meu ver, ela parece estar em um estado do qual não poderá se recuperar. Ela começou a receber Johrei em 27 de janeiro, e em 14 de fevereiro eu mesmo recebi a Medalha da Luz no Johrei Center de Kamakura, através do reverendo Takeuchi. Desde então, também tenho lhe ministrado Johrei uma vez ao dia, mas não vemos um progresso satisfatório. Rogo por sua proteção e orientação. Informo ainda que, atualmente, praticamente não exerço mais a medicina, tendo fundado e passado a administrar uma empresa de reparos automotivos.
-
-A questão central é o apetite. A aspereza da língua é resultado das toxinas dos medicamentos. (28 de março de 1950)
-
----
-
-# Espíritos de Raposa e Deuses da Terra
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Espíritos de Raposa e Deuses da Terra
-
-### 044 – Úlcera gástrica e uma massa ascendente do abdômen (A questão do culto a Inari)
-
-Uma senhora de trinta e seis anos, que desde fevereiro do ano passado padece de uma úlcera gástrica, está atualmente recebendo Johrei. Contudo, em todas as ocasiões em que o senhor nos honra com sua visita, uma massa esférica sobe de seu abdômen em direção ao peito, causando-lhe grande sofrimento. Há momentos em que ela demonstra extrema aversão em se aproximar da Imagem da Luz Divina. Em seu passado, a referida senhora devotou sua fé a diversas divindades (o Inari de Yoshitaka em Asakawa, o Kiyomasa-ko de Yoyogi, o Kane-kui Inari e o Sasaki Inari) e preocupa-se por ainda possuir um amuleto que recebeu deste último. Solicitamos sua orientação sobre como devemos proceder.
-
-O culto a Inari é, em sua essência, um equívoco. O ser humano ocupa uma posição superior e, portanto, não deve reverenciar seres que lhe são inferiores; seria preferível abster-se de qualquer culto. Essa massa esférica é o espírito de uma raposa. Primeiramente, é necessário entronizar a Imagem da Luz Divina. Diante dela, o espírito de Inari gradualmente se retrará e se converterá, ou então fugirá. Somente após isso, o altar poderá ser desfeito. Com a ministração de Johrei, a cura será alcançada.
-
-Em relação a Inari, é aceitável expressar gratidão e reverência por seu papel na agricultura. Fora dessa esfera, entretanto, ele não possui jurisdição. Existem também aqueles que atuam como servidores da deidade protetora da terra. (26 de janeiro de 1950)
-
-As cerimônias para Inari podem ser realizadas no Dia do Cavalo de cada mês. Uma vez por mês, no início, é o ideal. (1948)
-
-### 045 – A queima acidental do altar de Inari herdado dos antepassados
-
-O altar do桑原稲荷 (Kuwabara Inari), que não era uma herança de ancestrais distantes, mas que vinha sendo cultuado desde a geração de meus pais, foi recentemente destruído em um incêndio. Incomoda-me deixá-lo como está. Qual seria o procedimento mais adequado? Rogo por sua orientação.
-
-Basta que se entronize a Imagem da Luz Divina. Se, após a entronização, nenhuma ocorrência digna de nota se manifestar, pode-se considerar a questão resolvida. (28 de abril de 1950)
-
-### 046 – Inari que deseja ser cultuado
-
-Durante a ministração de Johrei a um membro, um espírito de Inari manifestou-se, expressando o desejo de ser cultuado. Ocorre que o marido dessa senhora não acredita na existência de tais espíritos. O referido Inari estava consagrado em um cinema que foi destruído por um bombardeio durante a guerra, e a residência do membro foi construída nas proximidades de onde o cinema se localizava. Seria apropriado atender ao desejo do Inari e consagrá-lo?
-
-A oposição do marido constitui um grande empecilho, gerando desarmonia. O mais recomendável é fazer com que o espírito de Inari retorne à sua origem. (13 de dezembro de 1949)
-
-### 047 – O futuro de um altar de Inari
-
-Em conjunto com os outros inquilinos, eu cultuava um Inari. Contudo, toda a área foi devastada por bombardeios durante a guerra, e o responsável pelo altar também faleceu. Atualmente, reconstruí o local e cuido do altar. Recentemente, tive a permissão de ingressar na Fé e entronizei a Imagem da Luz Divina. Qual deve ser o destino do altar de Inari de agora em diante?
-
-Na verdade, seria melhor continuar a cultuá-lo, pois alguns desses espíritos podem causar transtornos se o culto for interrompido. É preciso agir com discernimento, adaptando-se às circunstâncias. (19 de agosto de 1949)
-
-### 048 – O espírito de um oratório cujo amuleto foi levado pelo vento
-
-O amuleto do altar de Inari, que era cultuado pelo antigo proprietário, foi levado pelo vento. O espírito já teria se retirado do oratório?
-
-O espírito já se retirou.
-
-### 049 – Inari e a mudança de residência
-
-Um membro que residia em uma propriedade antiga precisou se mudar, pois o terreno seria convertido em arrozal. No local, ele cuidava tanto do altar de Inari que ele mesmo havia consagrado quanto de um outro, preexistente. Ao se mudar, ele transferiu o seu próprio altar. Qual seria o procedimento correto em relação ao altar que já existia na propriedade? Solicitamos seus ensinamentos.
-
-É preciso proceder da mesma forma com o altar preexistente. Se for abandonado, o espírito se enfurece e frequentemente provoca distúrbios mentais. Deve-se transferi-lo juntamente com o outro. (21 de janeiro de 1949)
-
-### 050 – O oratório de Inari herdado dos antepassados
-
-Sou o oitavo sucessor de minha família. Meu bisavô e meu avô foram devotos fervorosos da fé Ontake-kyo e, por essa razão, em novembro de 1928, por ocasião do décimo aniversário de falecimento do meu avô, um altar foi erigido em sua homenagem como divindade guardiã da família, no terreno de um antigo santuário de Inari. Anualmente, na data de seu falecimento em novembro, realizamos uma cerimônia tanto para ele quanto para o Inari, e nunca houve qualquer ocorrência fora do comum. Minhas dúvidas são: (1) Meus ancestrais permanecem no mundo espiritual como espíritos comuns, mas é correto que apenas os chefes da quinta e da sexta geração tenham sido deificados? (2) As esposas dessas duas deidades ancestrais permanecem como espíritos comuns. (3) O correto seria deificar todos os antepassados da família? Ou seria melhor reverter a deificação desses dois ancestrais?
-
-Se o santuário de Inari é antigo e familiar, representa os próprios antepassados, e, nesse caso, não há problema.
-
-Existem duas situações distintas: aquela em que os próprios ancestrais se tornaram Inari e aquela em que a família adotou o culto a um Inari em algum momento de sua história.
-
-Não se deve interferir em um culto ancestral. Sendo algo que perdura por cinco ou seis gerações, é mais prudente não o alterar. Modificá-lo pode despertar a ira desses espíritos. (15 de fevereiro de 1949)
-
-### 051 – Transferência e nome de Inari
-
-Em nossa casa, cultuamos um `Shoichii Inari` (正一位稲荷) de linhagem ancestral. Seria possível transferir seu altar para um local externo?
-
-O Inari pode ser consagrado em qualquer lugar. É preciso, contudo, seguir o procedimento correto. Deve-se fazer uma oferenda de alimento, expressar profunda gratidão pela proteção contínua, explicar as circunstâncias e solicitar permissão para a transferência. Realizar a mudança sem essa devida comunicação desperta a sua fúria.
-
-Quando se consagra um novo Inari, é praxe atribuir-lhe o título de “Shoichii”. (1948)
-
-### 052 – Localização do santuário de Inari
-
-A família de um membro, proprietária de uma hospedaria, cultua um Inari desde a geração do avô. Por falta de terreno ao redor, o altar está instalado em uma prateleira na parede do hall de entrada. Para transferi-lo para o exterior, há apenas um espaço exíguo em um canto, dentro dos limites do muro. Seria apropriado movê-lo para lá?
-
-A consagração na entrada da casa é um equívoco. Quer se trate de um espírito ancestral que se tornou Inari, quer seja uma deidade cultuada pelos antepassados, transferi-lo para o local externo mencionado é uma excelente decisão.
-
-### 053 – O local de consagração de Inari
-
-O `Raiden Inari Daímyojin` (雷電稲荷大明神), sobre o qual minha mãe já lhe consultou há alguns anos, encontra-se atualmente em uma prateleira ornamental desde que nos mudamos para Yoshiwara. Ele deveria ser cultuado no jardim? Ou seria melhor retorná-lo ao seu local original? Ou, ainda, poderíamos entregá-lo a um santuário principal? Por favor, instrua-nos.
-
-O Inari deve ser cultuado no jardim; jamais em ambientes internos. As raposas vivem em tocas subterrâneas, e, portanto, consagrá-las dentro de casa equivale a confiná-las no inferno, o que invariavelmente atrairá a desventura. Ao instalar o santuário no jardim, ele deve ser posicionado a uma altura de sessenta a noventa centímetros acima do nível de uma pessoa sentada. (13 de outubro de 1948)
-
-### 054 – O deus da terra e a forma de cultuá-lo
-
-Há uma família em que todos receberam a Medalha da Luz Divina no ano passado, entronizaram a Imagem e se dedicam com afinco à difusão. O filho mais velho, de vinte e cinco anos, que há dois anos sofria de tuberculose decorrente de uma fístula anal e havia sido desenganado pelos médicos, faleceu serenamente em maio deste ano. Na noite anterior ao seu falecimento, enquanto sua tia entoava a Oração Amatsu-Norito em frente ao altar, um espírito se manifestou por meio dela, dizendo: "Eu sou o senhor desta terra. Vocês construíram uma casa em meu terreno sem pedir permissão e só fazem oferendas a seus antepassados, privando-me de alimento e água. Se não se desculparem, matarei todos os seus filhos." Eles se desculparam e, desde então, oferecem arroz e água no altar budista. A família afirma desconhecer quem seja o dono original da terra, pois a adquiriu de um banco. Como devem proceder daqui em diante? Pedimos sua orientação.
-
-Trata-se de um Chiryu, um dragão que habita a terra, frequentemente chamado de deus da terra ou deidade tutelar do terreno. Tais seres não se vingam daqueles que os mataram, mas sim dos que passam a residir em seus domínios. O fato de alguém habitar um local como esse indica que a própria pessoa possui máculas espirituais, o que se alinha à Lei da Afinidade Espiritual. Ela carrega pecados e impurezas. É preciso pedir-lhe perdão sincero e construir um pequeno santuário de pedra no jardim, com cerca de sessenta centímetros de altura. É recomendável que o santuário leve o nome do local. Essa deidade aprecia arroz cru, oferenda que jamais deve ser esquecida. (5 de julho de 1949)
-
-### 055 – A oferenda ao deus da terra (Deus não sente fome)
-
-Na casa de um membro, manifestou-se o espírito do deus da terra, queixando-se: "Desde que vocês ingressaram na fé de Kannon (観音), não rezam mais para mim. Com fome, não consigo lhes dar proteção." Quantas vezes por mês seria apropriado realizar uma cerimônia?
-
-Essa deidade da terra é, na verdade, um espírito animal. Os deuses não sentem fome. Por compaixão, é bom que lhe façam uma oferenda uma vez por mês e entoem a oração. (2 de julho de 1949)
-
----
-
-# Doenças Espirituais (Parte Três)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Doenças Espirituais (Parte Três)
-
-## Vidas Passadas – Parte 2
-
-**056 O Homem com os Tornozelos Invertidos (A Importância do Tratamento Dispensado ao Corpo após a Morte)**
-
-*Pergunta:* Há o caso de uma pessoa cujo corpo é normal em todos os aspectos, exceto pelos pés, que, de ambos os tornozelos para baixo, são completamente virados para trás. Qual seria o significado espiritual de tal condição?
-
-*Resposta:* Existem duas explicações para tal fato. A primeira é que, em sua vida pregressa, esse indivíduo cometeu um pecado que forçou alguém a ficar nessa posição. A segunda é que, ao morrer, foi vítima de um assassinato brutal no qual seus tornozelos foram seccionados e, no momento do sepultamento, seus pés foram recolocados de forma invertida. Por conseguinte, é imperativo que se tenha o máximo cuidado ao manusear os restos mortais de uma pessoa.
-
-**057 O Recém-Nascido sem Órgãos Genitais (A Remoção do Falo)**
-
-*Pergunta:* Um membro que recebeu a Outorga da Luz recentemente deu à luz, no ano passado, uma criança com a perna esquerda flácida e sem nenhum órgão genital, embora possuísse o ânus. O bebê faleceu logo após o nascimento. Qual seria a elucidação para este caso?
-
-*Resposta:* Trata-se do renascimento de um homem que teve seu falo extirpado ao morrer. Tais atos ocorrem, por exemplo, em casos de ciúme, quando uma esposa assassina o marido. Sem a compreensão do renascimento, fenômenos como este se tornam inexplicáveis.
-
-**058 O Polegar Bífido**
-
-*Pergunta:* O filho de um membro, nascido na primavera deste ano, tem o polegar que se divide em dois a partir da unha. Seria melhor que ele passasse por uma cirurgia para remover um dos dedos?
-
-*Resposta:* Isso se deve ao fato de o dedo ter sido seccionado no momento de sua morte, em uma vida anterior. Deve-se ministrar Johrei na base do polegar.
-
-**059 O Lactente que Não Fala**
-
-*Pergunta:* A segunda filha de Takahashi Ryukichi (34 anos) e Ei (30 anos), chamada Makiko, tem um ano e sete meses de idade. Embora consiga ouvir, ela não pronuncia nenhuma palavra. Será possível que ela venha a falar através do Johrei? Peço que nos ensine a causa e o método de ministração.
-
-*Resposta:* Na vida anterior, ao morrer, seus órgãos vocais foram lesados, seja por ter a garganta perfurada, por ter sido picada por uma serpente ou por ter caído de um lugar alto e se chocado contra algo. É uma condição passível de cura.
-
-**060 A Criança sem Narinas**
-
-*Pergunta:* Recentemente, nasceu uma criança sem as cavidades nasais. O avô dessa criança faleceu há cerca de dois anos em decorrência de um derrame. Haveria alguma relação espiritual entre os dois fatos?
-
-*Resposta:* A condição não apresenta sintomas de derrame; portanto, não há relação com o avô. Trata-se do renascimento de um espírito que, ao morrer, teve o nariz decepado, perfurado ou esmagado. Tais ocorrências nefastas se manifestam precisamente no local que foi atingido. Seria aconselhável que a criança se submetesse a uma cirurgia para a abertura das narinas.
-
-**061 Inteligência Reduzida, Estrabismo e Miopia**
-
-*Pergunta:* Meu filho, de catorze anos, possui uma capacidade intelectual abaixo da média, e seu desempenho escolar é precário, o que me causa grande preocupação. Há três anos, nós três ingressamos na fé. Recentemente, consultamos um especialista que o diagnosticou com ambliopia congênita, exotropia intermitente e miopia severa. O médico afirmou que o estrabismo poderia ser corrigido com cirurgia, mas recusamos o procedimento e temos recebido Johrei. A ambliopia e a inteligência reduzida podem ser curadas? Além disso, o nome dele é Koji, e me pergunto se o nome não seria pesado demais para ele. Haveria também alguma interferência espiritual?
-
-*Resposta:* A causa é de natureza espiritual. Em uma vida anterior, ele faleceu em decorrência de um golpe na cabeça e renasceu antes que o dano fosse plenamente sanado no Mundo Espiritual.
-
-**062 Anomalia na Dentição de um Lactente**
-
-*Pergunta:* Meu neto, um menino de um ano e quatro meses, tem os quatro dentes superiores um pouco recuados para dentro, e um dos dentes inferiores é torcido. Qual seria a razão para isso? Poderia ser corrigido com Johrei?
-
-*Resposta:* O Johrei é capaz de curá-lo. Na vida pregressa, ao morrer, ele sofreu uma queda de um lugar elevado ou foi espancado, o que resultou nessa condição.
-
-**063 A Deformidade Semelhante à de um Pato (Morte por Queda)**
-
-*Pergunta:* Há uma senhora de trinta e oito anos que, à primeira vista, se assemelha a um pato. Ela tem mãos e pés, mas seus braços pendem inertes, sendo totalmente inúteis. Com exceção de pentear os cabelos e lavar o rosto, ela realiza com destreza todas as tarefas domésticas — cozinhar, costurar, lavar roupas — utilizando os pés e a boca, executando com maestria qualquer trabalho feminino. Embora ainda não tenha recebido Johrei, ela deseja ingressar na fé. Essa senhora, que nasceu com essa deficiência, cuidou de seus quatro irmãos mais novos após a morte de seus pais, quando tinha doze anos. Um de seus irmãos tornou-se diretor de uma empresa, e outro, chefe de estação. Seu falecido pai era alcoólatra, e sua mãe, embora viva, afastou-se da família devido a uma conduta imprópria. A senhora em questão, apesar de sua condição, manifesta o desejo de ingressar na fé, perguntando: “Uma pessoa como eu pode receber a Luz Divina?”. Qual seria a orientação? O Johrei poderia curá-la? Peço esclarecimentos sobre a causa espiritual e sobre a viabilidade de seu ingresso.
-
-*Resposta:* É precisamente a pessoas como ela que se deve acolher na fé. Contudo, como já é adulta e sua condição está consolidada, pode-se esperar uma cura de aproximadamente cinquenta por cento. Em sua vida anterior, ela morreu ao cair de um lugar alto ou em uma posição que se assemelhava à de um pato. É recomendável que ela ingresse na fé para que possa compreender diversas questões.
-
-**064 O Recém-Nascido que Não Consegue Virar o Pescoço**
-
-*Pergunta:* Um bebê, desde o nascimento, não consegue virar o pescoço para a esquerda e apresenta uma protuberância óssea do lado direito. Algumas pessoas dizem que é uma interferência de Buda. A causa seria espiritual?
-
-*Resposta:* É o renascimento de alguém que, ao cair de um lugar elevado, teve o pescoço torcido. Não se pode afirmar se a cura total é possível, mas o Johrei pode trazer uma melhora considerável.
-
-**065 Mola Hidatiforme e Nanismo**
-
-*Pergunta:* Gostaria de solicitar esclarecimentos sobre a mola hidatiforme e o nanismo do tipo “Issun-boshi”.
-
-*Resposta:* A mola hidatiforme é um resquício da natureza animal. Certos animais, devido à sua alta fertilidade, geram muitas crias em uma única gestação. O nascimento de gêmeos, trigêmeos e assim por diante é um vestígio dessa fase animal, pois o ser humano, em sua essência, foi concebido para gerar um único filho por vez.
-
-Quanto ao nanismo, conhecido como “Issun-boshi”, existe uma falha em uma parte do cérebro, a ausência do que se poderia chamar de uma “fábrica” de hormônios do crescimento. Por essa razão, o desenvolvimento é tolhido. Sob a perspectiva espiritual, trata-se do renascimento de uma pessoa que teve morte violenta, seja por ter caído de cabeça e a ter esfacelado, seja por ter sido decapitada. A possessão pelo espírito de um bebê também pode fazer com que uma pessoa seja menor que a média, embora não tão pequena quanto um “Issun-boshi”.
-
-**066 Sobre o Nanismo**
-
-*Resposta:* Existe uma deficiência na cabeça. Na vida anterior, ao morrer, a cabeça foi ferida de tal forma que a capacidade de crescimento foi destruída.
-
-**067 A Criança com as Pupilas Dilatadas**
-
-*Pergunta:* Uma menina de cinco anos nasceu com as pupilas dilatadas e em movimento constante, o que prejudica sua visão. Foi-nos dito que, se a condição persistir, ela ficará completamente cega. Trata-se de um fenômeno espiritual? É curável?
-
-*Resposta:* Na vida anterior, a pessoa morreu com as pupilas intensamente dilatadas, e essa condição se perpetuou.
-
-**068 A Dilatação e Contração das Pupilas**
-
-*Pergunta:* As pupilas de uma criança ficaram quase totalmente dilatadas, contraindo-se ocasionalmente e causando perda temporária da visão. Com o Johrei, ela passou a enxergar ao menos os dedos da mão, mas a dilatação e a contração persistem. Há também o caso de um homem de trinta e sete anos que apresenta essa condição desde pequeno, mas, aparentemente, sem que sua visão seja afetada. Qual seria a razão para a dilatação e contração das pupilas?
-
-*Resposta:* Na vida anterior, a pessoa faleceu com as pupilas dilatadas, e essa condição remanesce. A dilatação das pupilas acarreta a perda da visão. Todos os mortos, aliás, apresentam as pupilas dilatadas.
-
-**069 A Criança que Prefere Dias Chuvosos (Morte Violenta ou Espírito do Inferno)**
-
-*Pergunta:* Uma criança, nascida fora do casamento, tem aversão a lugares ensolarados. Em dias de sol, recusa-se a sair, mas em dias de chuva, brinca alegremente ao ar livre. Haveria algum significado nisso?
-
-*Resposta:* Existem duas possibilidades. A primeira é que se trata de alguém que sofreu uma morte violenta em um dia de sol, e o pavor dessa experiência ainda persiste em seu espírito. A segunda é que um espírito do Mundo Inferior está obsediando a criança.
-
-Recordo-me de uma época em que sofri de tuberculose e preferia dias nublados e escuros, sentindo-me mal em dias claros e abertos. Isso se devia ou à própria doença ou à influência de um espírito do Inferno.
-
-Os espíritos do Inferno não conseguem se aproximar de lugares luminosos. Se a aversão à claridade for particularmente intensa, a causa é, de fato, uma morte violenta.
-
-**070 A Criança que Arranca os Próprios Cabelos (Tortura em Vida Pregressa)**
-
-*Pergunta:* Uma menina de treze anos, desde os dez, arranca todos os seus cabelos assim que eles crescem cerca de dois ou três centímetros. Qual seria a explicação para tal comportamento?
-
-*Resposta:* Há um profundo significado espiritual nisso. Existem métodos de tortura que consistem em arrancar os cabelos da vítima. É plausível que se trate do espírito de alguém que foi submetido a tal suplício em uma vida anterior.
-
----
-
-# Período de Transição 2
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Período de Transição 2
-
-### 060. A Era de Terror do Japão (A natureza da era de terror deste século, os terremotos e as máculas humanas)
-
-**Pergunta:** Quando a Era de Terror do Japão chegará ao fim? Em que período ela será mais intensa e de que forma se manifestará?
-
-**Meishu-Sama:** A Era de Terror no Japão, que se iniciou com a guerra, ainda persiste. Contudo, a purificação se intensificará a partir de agora, estendendo-se por aproximadamente vinte e cinco anos.
-
-Este processo se manifestará como purificação. Purificar é limpar; portanto, tudo o que é impuro será eliminado. Os sofrimentos humanos, sem exceção, constituem essa limpeza. A guerra, a inflação, a escassez de suprimentos e os terremotos são, todos, manifestações da Ação Purificadora.
-
-Embora os terremotos sejam contrações da crosta terrestre, as pessoas com muitas máculas espirituais são naturalmente atraídas para os locais onde as catástrofes ocorrem, sendo ali purificadas. É um princípio análogo ao do corpo humano, no qual o pus se concentra em um único ponto. Basta que compreendamos essa dinâmica em uma escala mais ampla. A ocorrência de terremotos é um fato predeterminado, e aqueles com um grande acúmulo de máculas convergem para esses locais a fim de serem purificados. No Mundo Espiritual, existem regiões mais maculadas e outras menos. As pessoas com muitas máculas são direcionadas para as regiões de maior densidade espiritual.
-
-Quanto à forma como a Ação Purificadora se manifestará, será por meio das Três Pequenas e das Três Grandes Calamidades. No Japão, predominarão a fome, as doenças e a guerra, embora calamidades de vento, água e fogo também possam ocorrer nos próximos dois ou três anos. Até o presente momento, tais eventos foram localizados, mas creio que, desta vez, ocorrerão em uma escala muito mais ampla.
-
-A iminente Era de Terror não será de aniquilação total, como o foi o Dilúvio de Noé. Desta vez, tratar-se-á de um batismo de fogo, que ocorrerá em uma medida que não destrua a cultura atual. Todavia, como isso pode ser interpretado como uma profecia, por ora, deixarei a questão em aberto.
-
-### 061. A Manifestação do Juízo Final
-
-**Pergunta:** De que forma se dará o Juízo Final?
-
-**Meishu-Sama:** Não posso afirmá-lo com clareza. A purificação atingirá seu extremo, e sua manifestação será de natureza misteriosa.
-
-### 062. A Purificação da Terra
-
-**Pergunta:** O que é a purificação da Terra?
-
-**Meishu-Sama:** Ela se manifesta de diversas formas: doenças, terremotos, inundações, escassez de bens materiais, entre outras. As guerras também são uma faceta desse processo, incluindo a Guerra Fria entre os Estados Unidos e a União Soviética. Calamidades causadas pelo vento e pela água igualmente o são.
-
-### 063. O Aspecto da Grande Purificação
-
-**Pergunta:** Fomos ensinados que a transição da Era da Noite para a Era do Dia será marcada por um Juízo Final, ou seja, por uma Grande Purificação. De que maneira isso se manifestará no Mundo Material? Será através do batismo de água, do batismo de fogo, de cataclismos, de calamidades, de epidemias ou de desastres?
-
-**Meishu-Sama:** O batismo de fogo é de natureza espiritual: é o Johrei. O batismo de água foi o Dilúvio de Noé.
-
-As doenças, sem dúvida, ocorrerão e representam o aspecto mais temível.
-
-É de se esperar que, ao final, todas as formas de purificação se manifestem simultaneamente. Nesse momento, os fiéis deverão trabalhar com o máximo empenho.
-
-Não posso entrar em detalhes, pois se tornaria uma profecia.
-
-As doenças atuarão de forma direta. (17 de julho de 1949)
-
-### 064. A Hora Atual no Alvorecer do Mundo Espiritual
-
-**Pergunta:** Em termos de tempo no Mundo Físico, a que horas corresponde o atual alvorecer do Mundo Espiritual?
-
-**Meishu-Sama:** Embora haja diferença entre o verão e o inverno, o dia amanhecerá em breve. Estamos entre quatro e cinco horas da manhã.
-
-### 065. Reunião Especial de Perguntas sobre a Grande Purificação
-
-**Pergunta:** Sabemos que, devido à delicadeza do momento, talvez não seja possível receber orientações sobre o futuro da Grande Purificação no que tange à política e às guerras. Para obter esclarecimentos mais profundos sobre esses pontos, deveríamos buscar outra ocasião ou local mais apropriado? Ou devemos nos contentar com o que já nos é ensinado nestas reuniões?
-
-**Meishu-Sama:** Esta forma é a adequada. Divulgar tais assuntos externamente geraria parcialidade, mas em Deus não há segredos. Chamar pessoas reservadamente para tratar de assuntos em segredo é um método do mundo do mal. A Palavra de Deus deve ser acessível a qualquer pessoa, em qualquer momento.
-
-Aqueles que avançaram em sabedoria e iluminação são capazes de compreender a profundidade de minhas palavras. Há os que as entendem plenamente e os que compreendem apenas uma parte. Com a Grande Purificação, as máculas serão removidas, e tudo melhorará. Embora o conceito médico de saúde seja distinto, a verdadeira purificação está destinada a se intensificar. No futuro, as guerras cessarão, e a política se transformará em uma verdadeira e correta política do Belo. (18 de dezembro de 1948)
-
-### 066. A Purificação após a Fundação da Igreja Messiânica
-
-**Pergunta:** Uma fiel, que cultuava a fotografia de Meishu-Sama e a Imagem da Luz Divina, faleceu recentemente devido à Grande Purificação. Sua família agora se recusa a continuar com as práticas. Os familiares da falecida, que são membros, gostariam de acolher a fotografia e a Imagem em sua casa para cultuá-las. Qual seria o procedimento correto?
-
-**Meishu-Sama:** Desde a fundação da Igreja Messiânica, o Mundo Espiritual se alterou consideravelmente. Aproximadamente desde o início deste ano, ele se tornou mais rigoroso. Tornou-se imperativo que as pessoas se convertam. Em contrapartida, para aqueles que se alinharem a Deus, haverá mais bênçãos do que antes. (11 de fevereiro de 1950)
-
-### 067. A Intensificação da Purificação
-
-**Pergunta:** Diz-se que a purificação se intensificará. Ela de fato afetará o corpo humano? E como o mundo mudará nessa época?
-
-**Meishu-Sama:** Quando a purificação se intensificar, ela afetará o corpo humano, e as doenças aumentarão. Em contrapartida, para nós, a cura das enfermidades se tornará mais rápida. A medicina já não conseguirá curá-las. As classes privilegiadas já decaíram. A nobreza foi destituída, e a família imperial enfrenta dificuldades. Desse modo, os pecados das classes privilegiadas foram removidos, e a realidade se manifestou. Isso demonstra quão poderosa é a purificação. Tornou-se inviável fraudar despesas de campanhas partidárias, e as doações políticas se tornarão gradualmente impraticáveis. (16 de agosto de 1948)
-
-### 068. Fenômenos Espirituais e o Período de Transição
-
-**Pergunta:** Recentemente, temos observado, nos Johrei Centers da Konohana-kai, fenômenos espirituais que parecem interligados. Estaríamos diante de um grande período de transição?
-
-**Meishu-Sama:** Não se trata de um fenômeno restrito à Konohana-kai. É um período de transição para toda a humanidade. (12 de fevereiro de 1949)
-
-### 069. Perspectivas para Este Ano
-
-**Pergunta:** Gostaríamos de receber suas orientações sobre as perspectivas para este ano.
-1. Ouvimos indiretamente que os anos de 1949 e 1950 marcarão o ápice da Grande Purificação. Isso é correto?
-2. Outras religiões também têm feito afirmações semelhantes. O que o senhor pensa a respeito?
-3. E quanto às doenças, às guerras, à economia e aos desastres naturais?
-
-**Meishu-Sama:** O ano de 1950 marcará a transição; portanto, será um período rigoroso. Os judeus também afirmam o mesmo, e não se trata apenas de doenças.
-
-Haverá enfermidades e desastres naturais. Ocorrerão casos em que as injeções agravarão o quadro. É provável que haja guerra, pois o conflito entre os Estados Unidos e a União Soviética não poderá ser resolvido sem ela. Ambos os lados, especialmente o soviético, estão evitando o confronto direto, mas, ainda assim, promovem a expansão do comunismo. As tropas se retiraram da Coreia, mas o fizeram por vislumbrar sucesso após a comunização dos coreanos. O comunismo soviético e o do exército chinês são distintos, mas sua origem é a mesma.
-
-Se a China se tornar comunista, a maior parte da Ásia seguirá o mesmo caminho. Depois disso, restará apenas o Japão, que se tentará transformar em uma barreira de contenção contra o comunismo. O Japão será rearmado, e um grande número de soldados será recrutado entre os japoneses. Ambos os lados estão se armando. A União Soviética já possui a bomba atômica. (8 de janeiro de 1949)
-
-### 070. O Período da Grande Purificação
-
-**Pergunta:** A Grande Purificação, tanto no âmbito físico quanto social, se manifestará de forma abrupta a partir do próximo ano? Ou ela avançará de maneira gradual por quatro ou cinco anos para então se intensificar subitamente? Este é um assunto de grande interesse para todos nós.
-
-**Meishu-Sama:** Ela já vem ocorrendo há muito tempo e continua em andamento. A queda das classes privilegiadas é um exemplo disso. Atualmente, uma grande purificação está se processando no mundo político.
-
-Nada ocorre de forma abrupta. Tudo, sem exceção, manifesta-se gradualmente. A sarna, por exemplo, desaparecerá progressivamente. Ela representa uma purificação lenta, e não há purificação mais abençoada. Por ser lenta, não oferece risco à vida. Uma purificação rápida seria como a varíola. Contudo, em geral, virá algo muito mais severo, que ceifará vidas. Outras doenças se somarão repentinamente à varíola, resultando em uma forma muito mais aguda e grave.
-
-Atualmente, diversas outras purificações estão em curso. Deus, certamente, está conduzindo tudo com maestria.
-
-A guerra na China, por exemplo, é uma grande purificação, e a posição de Chiang Kai-shek é perigosa. No Japão, presenciamos diversas quedas, como as dificuldades financeiras da família imperial e a ruína dos ricos. A purificação na Coreia também é extremamente severa. Ela se manifestará de forma generalizada, tornando-se progressivamente mais intensa e concentrada.
-
-Apenas não faço profecias diversas. O mais problemático é quando as pessoas dizem coisas como: "Quando o Grande Juízo chegar, apenas os membros da nossa Igreja serão salvos", não transmitindo minhas palavras com fidelidade. As religiões antigas não causam problemas, mas as novas imediatamente se tornam alvo de controvérsias.
-
-### 071. A Grande Purificação e a Drástica Redução Populacional
-
-**Pergunta:** Em "Miscelânea da Fé - Sobre a Linhagem Espiritual", o senhor afirma: "No futuro, o aumento tanto do número de estrelas quanto da humanidade será imensurável". Como essa afirmação se relaciona com a drástica redução populacional decorrente da Grande Purificação?
-
-**Meishu-Sama:** Mesmo que a população diminua com a Grande Purificação, o número de espíritos não se reduzirá. Com o tempo, a população voltará a crescer. A partir de agora, multiplicar-se-ão os bons, e isso é o que importa. (28 de outubro de 1949)
-
-### 072. A Longevidade do Mundo Espiritual das Raposas
-
-**Pergunta:** Os espíritos de raposa dizem, em uníssono: "Nosso mundo só tem mais um ano e meio de existência". O que acontecerá com eles e com os demais espíritos malignos depois disso?
-
-**Meishu-Sama:** Os espíritos de raposa que se converterem serão salvos. Caso contrário, serão confinados eternamente em um lugar semelhante a um depósito de lixo. É como uma sentença de prisão perpétua.
-
-Do final deste ano até o próximo, o período será muito difícil. Será o ápice da purificação. (Maio de 1949)
-
----
-
-# Preceitos de Bom Senso para a Edificação de Monumentos Funerários
-
-**Categoria:** kouwa | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
-
-## Preceitos de Bom Senso para a Edificação de Monumentos Funerários
-
-Indagação acerca de preceitos de bom senso para a edificação de um monumento funerário, tais como a direção, o formato, a altura do montículo de terra, o tipo de pedra e a pertinência do plantio de árvores.
-
-A direção cardeal é, em princípio, indiferente. Embora as características topográficas do terreno possam impor limitações, a orientação para o norte é, em essência, a mais auspiciosa, um preceito do Xintoísmo que favorece a salvação dos espíritos. Contudo, não é um fator que exija atenção desmedida. A maioria das religiões, incluindo o Budismo, considera a orientação para o oeste preferível, o que talvez se justifique pelo fato de muitas delas terem se originado no Ocidente.
-
-Quanto ao tipo de pedra, quanto mais branca, melhor. As de tonalidade escura, entretanto, devem ser evitadas. Os túmulos da mais alta categoria empregam o mármore branco.
-
-No que tange ao plantio, existem árvores perenes apropriadas para cemitérios. Devem-se evitar espécies que crescem em demasia, dando-se preferência àquelas cujas flores não caem. Nesse sentido, são recomendáveis o podocarpo, o azevinho-japonês, a fotínia e, de modo especial, o anis-japonês. O cipreste-japonês, embora seja utilizado em santuários xintoístas e aceitável em cemitérios, não é o mais indicado por seu crescimento vigoroso.
-
-O formato pode ser o convencional, fabricado pelos canteiros. Pedras em seu estado natural não são adequadas. A altura do montículo de terra deve ser moderada, em torno de quarenta e cinco centímetros.
-
-## Asseio do Cemitério e do Monumento Funerário
-
-O cemitério é a morada de veraneio dos espíritos e, como tal, deve ser mantido em perfeito estado de asseio. Assim como zelamos pela limpeza de nossas residências, devemos proceder do mesmo modo com os túmulos.
-
-Para monumentos que abrigam numerosos nomes póstumos, deve-se adotar a inscrição “Túmulo dos Antepassados da Família” e registrar os nomes individuais na lateral.
-
-Zelar pela limpeza dos mausoléus e túmulos de outras pessoas atrai a gratidão de nossos próprios antepassados.
-
-Cumpre observar que, até o presente momento, nenhuma religião elucidou de maneira cabal e fidedigna os assuntos concernentes ao Mundo Espiritual.
-
-É um preceito que o monumento funerário de um filho não seja superior ao de seus pais. Para erigir um belo túmulo para um descendente, é preciso, primeiramente, aprimorar sobremaneira o dos genitores. A posição de honra é a da direita, com a inscrição aos antepassados ao centro.
-
-A cor da pedra possui um simbolismo profundo: o branco representa o Paraíso; o negro, o Inferno.
-
-## Túmulos em Capelas e o Fechamento de Portões
-
-Indagação sobre a crença de que instalar um monumento funerário no interior de uma capela ou mausoléu acarreta a ruína da família, ou de que manter o portão de um túmulo fechado pode levar os familiares à perdição ou ao cárcere.
-
-O ideal é que o túmulo permaneça a céu aberto, exposto aos elementos. Uma capela ou mausoléu é um local destinado à consagração de divindades e budas de elevada estirpe, não de espíritos humanos. Acomodá-los em tal recinto, ao contrário do que se possa pensar, lhes causa sofrimento. Acredita-se que um tratamento esmerado seja benéfico, mas, se a forma de veneração não for apropriada, o padecimento pode ser atroz. É análogo a tentar elevar abruptamente um espírito do Inferno ao Paraíso, o que lhe seria penoso. Em especial, a ascensão em massa é terminantemente desaconselhada.
-
-O portão do túmulo deve ser aberto por ocasião das visitas e mantido fechado nos demais dias para evitar atos de vandalismo.
-
-## O Marco Funerário
-
-Nós, marido e mulher, recebemos a graça de ingressar na Fé há quatro anos e, dentro de nossas limitações, temos nos dedicado à Obra Divina. Meu pai adotivo faleceu há doze anos, e recentemente seu túmulo cedeu. Desejo repará-lo. Ademais, no local há apenas um marco de madeira, sem um monumento de pedra. Seria apropriado erigir um?
-
-O marco de madeira é uma solução provisória. A edificação do monumento de pedra deve ser providenciada com a maior brevidade possível.
-
-## A Prática de Erigir Sotobas nos Aniversários de Falecimento
-
-Qual o significado de se erguerem sotobas nos templos ou cemitérios durante o Obon ou nos aniversários de falecimento?
-
-Em geral, uma única vez seria o bastante, pois se trata de um gesto de esmero e reverência. Para os espíritos que alcançam a salvação rapidamente no Mundo Espiritual, isso é suficiente. Contudo, para aqueles cuja situação é mais complexa, a prática é repetida diversas vezes.
-
-## O Costume de Monumentos Funerários Separados
-
-Em certa localidade da região de Tanba, vigora o costume de não se edificarem os monumentos nos locais de sepultamento, mas sim no terreno do templo. Como o espaço se esgotou, surge a dúvida: devemos adquirir um novo terreno ou passar a edificá-los nos próprios locais de sepultamento, como é comum?
-
-Após o falecimento, os restos mortais devem ser inumados em um local determinado, como um cemitério. Adotem essa prática para os que vierem a falecer após a partida dos anciãos que seguem o costume antigo.
-
-## A Confecção de um Marco Funerário
-
-O marco funerário de madeira de nosso túmulo está danificado, e ainda não erigimos o monumento de pedra. Haveria algum impedimento em eu mesmo confeccionar um novo marco de madeira, inscrevê-lo e instalá-lo quando me for conveniente?
-
-Não há impedimento algum. Aliás, quanto antes o fizer, melhor. Do contrário, ao visitar o túmulo, o espírito não terá um ponto de referência para se manifestar.
-
-## A Transferência de um Marco Funerário de Pessoa sem Descendentes
-
-Em minha propriedade, encontra-se o marco funerário de uma pessoa sem descendentes, provavelmente um morador de duas gerações passadas cuja linhagem se extinguiu. Seria lícito transferi-lo para um cemitério distante?
-
-Desde que continue a oficiar ritos em sua memória, não há objeção.
-
-## A Não Edificação do Monumento por Razões Econômicas
-
-Há pessoas que, por razões econômicas, mantêm apenas um marco de madeira por muitos anos após o funeral, sem edificar o monumento de pedra. Qual o parecer sobre essa situação?
-
-Tal prática não é boa. Alegar razões econômicas é um despropósito. Os espíritos ancestrais infalivelmente proverão os meios para que o monumento seja erigido.
-
-## O Monumento Funerário Disposto em Testamento e os Restos Mortais
-
-Meu falecido pai, que partiu em 1938, havia reservado um espaço no cemitério ao lado do túmulo dos antepassados, demarcando-o com uma pedra natural. Sua intenção era, futuramente, erigir ali um monumento para meu irmão mais velho, falecido em combate em 1934. Devo honrar a vontade de meu pai e construir o monumento para meu irmão, ou seria melhor consagrá-lo no túmulo dos antepassados? Seus restos mortais ainda se encontram no oratório familiar.
-
-Cumpra a vontade de seu falecido pai. E sepulte os restos mortais sem demora.
-
-## O Momento Apropriado para Erigir o Monumento Funerário
-
-Em minha região, o costume é erigir o monumento de pedra no sétimo ou décimo terceiro aniversário de falecimento, utilizando-se sotobas anualmente até então. Minha família é um ramo secundário, e nos últimos doze anos cinco de seus membros faleceram. Ainda não construímos nenhum monumento. Qual seria a ocasião correta? Deveríamos também construir um para os antepassados da família? Em caso de dificuldades financeiras, é imperativo construir um para cada pessoa?
-
-A sotoba pode ser descartada após transcorrido o primeiro aniversário de falecimento. O monumento de pedra, por sua vez, deve ser edificado logo após esse período de um ano. Independentemente da situação financeira, seria impraticável erigir um monumento individual para cada ente.
-
-## O Momento para Reparar um Monumento Funerário
-
-Em setembro do ano passado, meu filho adotivo faleceu de tuberculose e foi sepultado a oeste do monumento que abriga meu pai adotivo e minha mãe biológica. Recentemente, a lápide inclinou-se para noroeste. Desejo corrigi-la e peço orientação sobre o momento e o método adequados.
-
-O momento oportuno é durante o equinócio. O equinócio representa um marco sazonal de transição.
-
-## A Edificação do Monumento
-
-Desejo erigir um monumento de pedra. Seria suficiente construir um único para os "Antepassados da Família" ou é necessário um para cada espírito? Temos dois espíritos cujo sétimo aniversário de falecimento se aproxima e um falecido recentemente.
-
-Erga um túmulo de formato convencional. Ao centro, inscreva "Túmulo dos Antepassados da Família". Os nomes daqueles a quem conheceu em vida devem ser gravados na lateral, pois não devem ser incluídos na inscrição principal dedicada ao conjunto dos antepassados.
-
-## A Cor do Monumento Funerário
-
-1. É verdade que monumentos de pedra negra são ruins porque podem fazer surgir criminosos entre os descendentes?
-2. Diz-se também que erigir um monumento com uma efígie humana leva à extinção da linhagem familiar. Procede?
-3. Para o consolo dos espíritos, existe alguma relação especial entre o formato, a cor ou a direção do monumento?
-
-A pedra negra é, de fato, inadequada. A branca é auspiciosa. É imperativo que a substitua por uma de cor branca ou cinza, pois o negro é a cor que simboliza o Inferno.
-
-## A Pedra do Monumento Funerário
-
-O monumento funerário de minha família é feito de uma pedra em seu estado natural. Posso mantê-lo assim?
-
-A pedra em estado natural é inadequada.
-
-Da mesma forma que os seres humanos possuem uma fisionomia, os túmulos também apresentam aspectos favoráveis e desfavoráveis. Utilizar uma pedra em estado bruto como monumento funerário não é uma prática recomendável. Tais pedras destinam-se, por sua natureza, a jardins e outros fins ornamentais; seu uso para este propósito carece de lógica. O correto é que um túmulo tenha a forma de um monumento funerário.
-
-Certos espíritos sentem grande aversão por essa inadequação. Quando visitamos um túmulo, o espírito ancestral vem ao nosso encontro. Se o jazigo não estiver em conformidade com a Lei, ele se sentirá desagradado. Os habitantes do Mundo Espiritual apreciam a ordem e a conformidade com os princípios, sendo extremamente meticulosos. Repelem, igualmente, a pedra negra, pois essa cor simboliza o Inferno e as forças malignas, ao passo que o Paraíso é representado pelo branco ou pelo violeta.
-
-## Nomes Xintoístas no Monumento Funerário
-
-No rito xintoísta, para a tabuleta memorial, é preferível utilizar o nome póstumo em vez do nome secular? Nos monumentos, por exemplo, vemos inscrições como "Fulano no Mikoto". Qual o procedimento correto?
-
-O nome póstumo é o que deve constar no monumento funerário, pois o Mundo Divino e o Mundo Búdico são distintos. Ademais, ao Mundo Divino tal como existiu até hoje já não resta muito tempo.
-
-## A Inscrição em um Novo Monumento Funerário
-
-Ao erigir um novo monumento no cemitério, qual das seguintes inscrições seria a mais apropriada?
-1. Túmulo da Família...
-2. Espíritos dos Antepassados da Família...
-3. Seria lícito inscrever vários nomes póstumos neste mesmo monumento?
-
-A inscrição "Espíritos dos Antepassados da Família..." é a forma correta. Os nomes póstumos podem, de fato, ser gravados, porém na lateral ou no verso do monumento, não na face principal. Nesse caso, é fundamental que sejam dispostos em ordem hierárquica correta, de acordo com a posição de cada espírito. Por exemplo, iniciando-se pelo bisavô, seguir-se-ia o avô, e depois o pai. Contanto que a ordem seja respeitada, o procedimento está correto.
-
----
-
-# A Arte da Cura (VII) — 5. Lepra (068-079)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## A Arte da Cura (VII) — 5. Lepra (068-079)
-
-**068. Os Tipos de Alopecia**
-
-Uma senhora de sessenta e três anos, que ingressou na fé em março, relatou que, há dois ou três anos, as pontas de seus dedos começaram a se tornar nodosas. Ela teme que possa ser lepra. A região afetada não apresenta dor nem coceira, mas sua visão começou a ficar turva. Embora isso não a impeça de realizar suas tarefas diárias, os nódulos já se estenderam a todos os dez dedos. Tratar-se-ia de uma causa espiritual?
-
-Não se trata de lepra. Caso fosse, os sintomas teriam se manifestado muito antes. O sintoma mais característico da lepra é a queda de cabelos.
-
-Existem três tipos de alopecia. A que se manifesta em áreas calvas localizadas; a de origem sifilítica, que se distribui de maneira uniforme; e a causada pela lepra, que acomete uma região específica. O caso em questão se assemelha a um ressentimento ou apego de uma vida passada. Trata-se de uma consequência funesta por pecados cometidos com os dedos.
-
-**069. O Diagnóstico e a Cura da Lepra**
-
-Qual o método para o diagnóstico precoce da lepra? E, uma vez manifesta, é possível obter a cura completa por meio da fé e da prática dos Ensinamentos?
-
-A lepra é curável. Contudo, seu diagnóstico precoce é difícil. Em algumas pessoas, surgem sinais precursores, como a queda dos supercílios ou o rareamento dos pelos pubianos e dos cabelos. Todavia, não se pode afirmar que todos os casos são curáveis. Os mais brandos saram em sua maioria, mas há aqueles que não se curam nem mesmo com a fé. Trata-se de uma condição que salta uma geração. (17 de agosto de 1948)
-
-**070. A Toxina da Lepra**
-
-Como proceder para salvar as pessoas que sofrem de lepra? Ademais, qual a razão pela qual essa doença é tão temida e repudiada, sendo considerada hereditária ou contagiosa? Rogo que me esclareça.
-
-A cura se dá por meio do Johrei. A toxina da lepra não possui grande intensidade; dissolve-se com facilidade. Mais temível é o yakudoku (薬毒). Se as pessoas não tomassem medicamentos, a lepra deixaria de existir. (18 de novembro de 1949)
-
-**071. A Lepra e o Uso de Medicamentos**
-
-Minha filha de dezessete anos ingressou na fé em novembro do ano retrasado. No início de abril deste ano, embora não apresentasse nenhum problema grave de saúde, foi enviada ao Hospital Nacional de Okayama como paciente de lepra após um exame de sangue realizado no posto de saúde. Seu quadro atual se resume a um leve inchaço no rosto. Por estar no hospital, ela segue as normas e toma os medicamentos, mas em qualquer tempo livre dedica-se a ministrar Johrei a si mesma e a duas ou três colegas de enfermaria. Em nossa casa, entronizamos a Imagem Sagrada de Komyō Nyorai-sama em abril de 1948. Devemos prosseguir assim? De que forma poderemos alcançar sua salvação?
-
-A lepra é curada pelo Johrei. O que é assustador, na verdade, é o yakudoku (薬毒). É preciso fazer com que ela não tome os medicamentos. Sem o Johrei, as toxinas não se dissolvem. O ideal é que ela receba Johrei e evite o uso de remédios. (15 de novembro de 1949)
-
-**072. A Causa da Lepra**
-
-Gostaria de perguntar sobre a causa espiritual da lepra.
-
-Ela reside no yakudoku (薬毒) antigo. Se a pessoa não ingerir medicamentos, será curada. A sarna, por sua vez, é a toxina da varíola; é uma varíola crônica. (Pessoas que já tiveram varíola não a desenvolvem).
-
-**073. O Bacilo da Lepra**
-
-O bacilo da lepra é, em sua origem, um medicamento. Com o passar das gerações, transforma-se na toxina da lepra. A cura ocorre pelo Johrei. (1948)
-
-**074. Sintomas da Lepra**
-
-Um homem de cinquenta e sete anos, desde o mês de abril, vem apresentando edemas avermelhados na cabeça, rosto, pescoço, nos dedos da mão direita e no dorso do pé esquerdo, semelhantes a queimaduras. O médico aplicou a injeção do preparado 606, sem efeito. Ademais, ele relata uma sensação incômoda na área afetada da cabeça, como se insetos rastejassem, e uma dor nos dedos da mão direita similar à de uma queimadura leve. Ele tem recebido Johrei há um mês, sem resultados. Esse homem ingressou na fé em agosto deste ano. Imagino que se trate de lepra, e como os moradores do vilarejo comentam o mesmo, ele quase não sai de casa, vivendo recluso. Por favor, ensine-me a causa desta doença e o método de Johrei.
-
-É lepra. O poder espiritual ministrado é insuficiente. A cura se dará pelo tratamento fundamental. (28 de setembro de 1949)
-
-**075. A Cura da Lepra**
-
-Qual é a natureza espiritual da lepra? Gostaria de saber sobre a ministração do Johrei nesses casos. Rogo que me oriente.
-
-A lepra não é de origem espiritual, mas sim yakudoku (薬毒). É curável e não é difícil. Na verdade, a cura é simples. (Antigamente, curei a filha de uma pessoa com lepra, e hoje ela está casada). (14 de março de 1949)
-
-**076. Casamento com Pessoa de Linhagem com Lepra**
-
-A lepra é uma doença de fundo espiritual? Qual a sua causa? Tenho um discípulo devidamente qualificado que se deparou com a questão de se casar com uma mulher de uma família com histórico de lepra (seu primeiro casamento foi desfeito porque o irmão dela tinha a doença). A família da mulher, desejando ser salva dessa linhagem, tornou-se membro fervoroso, participou do curso de formação, entronizou a Imagem Sagrada e o Biombo Sagrado, e tem se dedicado a auxiliar na difusão. Atualmente, eles mantêm um posto de difusão e já encaminharam um número considerável de pessoas ao curso. Não haveria problema em meu discípulo se casar com essa mulher? E a enfermidade poderá ser curada? Peço sua orientação.
-
-Ele pode se casar, não há problema algum.
-
-A lepra é curável. Trata-se de yakudoku (薬毒) que se tornou antigo, tornando o sangue extremamente impuro. É uma forma severa de sífilis, denominada “doença do castigo celestial” por ser considerada incurável. Por vezes, a lepra se associa ao ressentimento de outras pessoas. A queda de cabelo é sua principal característica e representa a vinda à tona dessa toxina. (28 de dezembro de 1949)
-
-**077. O Casamento de Pacientes com Lepra**
-
-Como devemos proceder em relação a casamentos de pessoas com lepra?
-
-Se for um casamento entre pessoas com lepra, não há problema. Dificilmente alguém sadio se casaria com uma pessoa acometida pela doença. Diz-se que a pele dos doentes de lepra é bonita. (22 de dezembro de 1948)
-
-**078. Pacientes de Lepra no Japão**
-
-Qual a razão de o Japão ter o maior número de pacientes de lepra em comparação a outros países?
-
-O motivo é o atraso do Japão em criar instituições para lidar com a doença. Em outros países, o número é menor porque os doentes acabam por falecer.
-
-A doença não se propagaria se os doentes não se casassem com pessoas sadias. Se eles se unissem apenas entre si, o número de casos diminuiria gradualmente. (13 de outubro de 1948)
-
-*Nota: Lepra é um termo em alemão para a hanseníase, causada pelo bacilo de mesmo nome.*
-
-**079. O Bacilo da Lepra e os Animais**
-
-Por qual motivo o bacilo da lepra atua somente em seres humanos?
-
-A razão é que sua origem é o yakudoku (薬毒), e os animais não ingerem medicamentos. (No futuro, pretendo salvar também os que sofrem dessa enfermidade). (27 de fevereiro de 1949)
 
 ---
 

@@ -3,6 +3,7 @@
 # A Correção do Mundo Invertido
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月26日） | **Status:** Published
 
 ## A Correção do Mundo Invertido
 
@@ -43,6 +44,7 @@ A medicina atual também está invertida. As toxinas tentam sair do corpo, e ela
 # O Milagre do Museu de Arte e a Providência Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年6月25日） | **Status:** Published
 
 ## O Milagre do Museu de Arte e a Providência Divina
 
@@ -85,6 +87,7 @@ Como o tempo se esgotou, encerrarei por aqui.
 # Os Venenos Acumulados nos Alimentos
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年8月8日） | **Status:** Published
 
 ## Os Venenos Acumulados nos Alimentos
 
@@ -105,6 +108,7 @@ Contudo, diferentemente dos venenos contidos nos remédios, as toxinas dos ferti
 # A Verdadeira Perspectiva Mahayana
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月26日） | **Status:** Published
 
 ## A Verdadeira Perspectiva Mahayana
 
@@ -169,6 +173,7 @@ Dessa forma, Deus atua em todas as frentes, utilizando os mais diversos métodos
 # A Luz do Oriente
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S27年10月18日） | **Status:** Published
 
 ## A Luz do Oriente
 
@@ -215,6 +220,7 @@ Minhas palavras se estenderam. Agradeço a atenção.
 # A Dispersão das Flores e a Vindoura Purificação Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和25(1950)年8月1日 | **Fonte:** 法難手記
+**Título Original:** 御講話 | **Status:** Unpublished
 
 ## A Dispersão das Flores e a Vindoura Purificação Mundial
 
@@ -319,6 +325,7 @@ Jesus nasceu para a redenção. Eu nasci para a salvação, portanto, não se tr
 # A União do Vertical e do Horizontal
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月18日） | **Status:** Published
 
 ## A União do Vertical e do Horizontal
 
@@ -385,6 +392,7 @@ Futuramente, estabeleceremos a forma correta de culto na Igreja Messiânica. No 
 # A Grande Transição do Mundo Espiritual e a Construção do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S29年3月24日） | **Status:** Published
 
 ## A Grande Transição do Mundo Espiritual e a Construção do Paraíso Terrestre
 
@@ -441,6 +449,7 @@ De agora em diante, serei eu a desempenhar o papel de Shiseisentenrōso. As divi
 # A Ofensiva Decisiva da Salvação
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S28年3月24日） | **Status:** Published
 
 ## A Ofensiva Decisiva da Salvação
 
@@ -501,6 +510,7 @@ A sociedade está começando a reconhecer a importância do Museu de Arte de Hak
 # A Apreciação da Arte e o Discernimento
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年8月1日S） | **Status:** Published
 
 ## A Apreciação da Arte e o Discernimento
 
@@ -580,6 +590,7 @@ Aproveitei o período de desordem logo após o fim da guerra. As excelentes aqui
 # A Grande Purificação e o Início da Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御生誕祭御講話 （S27年12月23日） | **Status:** Published
 
 ## A Grande Purificação e o Início da Nova Era
 
@@ -602,6 +613,7 @@ Outro ponto a ser observado é que, com a intensificação da purificação, apr
 # Reflexões sobre a Missão Divina e a Construção do Paraíso
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 明主様御聖誕祭御講話 （S26年12月23日） | **Status:** Published
 
 ## Reflexões sobre a Missão Divina e a Construção do Paraíso
 
@@ -656,6 +668,7 @@ O texto que acabaram de ouvir delineia os fundamentos da organização do mundo.
 # A Dádiva da Vida e a Missão de Salvar o Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月27日） | **Status:** Published
 
 ## A Dádiva da Vida e a Missão de Salvar o Mundo
 
@@ -704,6 +717,7 @@ Bem, nosso tempo se esgotou.
 # O Poder Concreto da Verdade e a Arte da Velocidade
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月15日） | **Status:** Published
 
 ## O Poder Concreto da Verdade e a Arte da Velocidade
 
@@ -732,6 +746,7 @@ A prova mais evidente disso é que as grandes religiões constroem hospitais, co
 # O Paradoxo do Desprendimento na Fé
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月27日） | **Status:** Published
 
 ## O Paradoxo do Desprendimento na Fé
 
@@ -790,6 +805,7 @@ Há uma diferença fundamental entre querer ir para o Paraíso para não ir para
 # A Transição Planetária e a Manifestação da Vontade Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月15日） | **Status:** Published
 
 ## A Transição Planetária e a Manifestação da Vontade Divina
 
@@ -837,6 +853,7 @@ Haveria muito mais a dizer sobre este assunto, mas o tempo é curto. A partir do
 # A Puerilidade da Ciência e a Realidade do Mundo Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月15日） | **Status:** Published
 
 ## A Puerilidade da Ciência e a Realidade do Mundo Espiritual
 
@@ -885,6 +902,7 @@ Por fim, a leucorreia feminina também apresenta variações. Quando as toxinas 
 # Diretrizes para a Construção do Paraíso e a Prática da Fé
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月16日） | **Status:** Published
 
 ## Diretrizes para a Construção do Paraíso e a Prática da Fé
 
@@ -929,6 +947,7 @@ Por fim, mais uma observação. Ao ministrar Johrei, é comum que a pessoa expec
 # A Expansão da Obra Divina e a Revolução da Agricultura Natural
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月16日） | **Status:** Published
 
 ## A Expansão da Obra Divina e a Revolução da Agricultura Natural
 
@@ -989,6 +1008,7 @@ Diante de tal cenário, é nosso dever intensificar a divulgação da Agricultur
 # A Grande Transição e a Missão do Japão
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年9月16日） | **Status:** Published
 
 ## A Grande Transição e a Missão do Japão
 
@@ -1031,6 +1051,7 @@ Neste outro, "A Razão pela qual as Obras de Arte se Reúnem", discorro brevemen
 # O Advento da Era de Miroku e a Purificação do Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月7日） | **Status:** Published
 
 ## O Advento da Era de Miroku e a Purificação do Mundo
 
@@ -1084,7 +1105,8 @@ A compleição também revela muito. Uma pele de aparência muito ruim indica in
 
 # Os Mistérios dos Três Tesouros Sagrados e a Transição para o Novo Mundo
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年2月11日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年2月11日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## Os Mistérios dos Três Tesouros Sagrados e a Transição para o Novo Mundo
 
@@ -1227,6 +1249,7 @@ Na nova Oração Amatsu Norito, a expressão “Daisen-sanzen-sekai” é uma in
 # Sobre a Purificação e a Vontade Divina
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年10月5日S） | **Status:** Published
 
 ## Sobre a Purificação e a Vontade Divina
 
@@ -1263,6 +1286,7 @@ Sendo assim, quer se trate de sua vida pessoal ou da administração de uma Igre
 # A Conjuntura Mundial e a Fé em Deus
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月16日） | **Status:** Published
 
 ## A Conjuntura Mundial e a Fé em Deus
 
@@ -1305,6 +1329,7 @@ O autor é uma pessoa que desconheço por completo; soube de sua existência ape
 # A Revolução Civilizacional e a Missão da Igreja Messiânica
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月7日） | **Status:** Published
 
 ## A Revolução Civilizacional e a Missão da Igreja Messiânica
 
@@ -1351,6 +1376,7 @@ Como acabaram de ouvir, o texto é bastante incisivo. Mal posso esperar para ver
 # Análise da Conjuntura Mundial e o Perigo das Toxinas Medicinais
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月16日） | **Status:** Published
 
 ## Análise da Conjuntura Mundial e o Perigo das Toxinas Medicinais
 
@@ -1394,7 +1420,8 @@ Acabei saltando de um debate sobre a guerra para um assunto sobre cosméticos, m
 
 # A Natureza do Poder Absoluto
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年10月11日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年10月11日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Natureza do Poder Absoluto
 
@@ -1438,7 +1465,8 @@ A ideia da Seicho-no-Ie de que a cura vem pela leitura de um livro é, em essên
 
 # O Caminho para a Verdadeira Saúde
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年4月17日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年4月17日 | **Fonte:** Kenko
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## O Caminho para a Verdadeira Saúde
 
@@ -1453,6 +1481,7 @@ Nesse sentido, o vegetarianismo revela-se a prática mais salutar. É, com efeit
 # Sobre a Ordem Divina e a Construção do Belo
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年8月28日） | **Status:** Published
 
 ## Sobre a Ordem Divina e a Construção do Belo
 
@@ -1489,6 +1518,7 @@ Como sempre ensino, em qualquer atividade, aquilo que se refere a Deus deve ter 
 # O Caminho de Kannon: O Espelho da Conduta Humana
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年8月1日 | **Fonte:** 紫苑
+**Título Original:** 御講話 | **Status:** Published
 
 ## O Caminho de Kannon: O Espelho da Conduta Humana
 
@@ -1646,6 +1676,7 @@ Recentemente, li em um jornal um artigo sobre a descoberta dos raios cósmicos, 
 # A Purificação do Homem e a Edificação do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月17日） | **Status:** Published
 
 ## A Purificação do Homem e a Edificação do Paraíso Terrestre
 
@@ -1696,6 +1727,7 @@ Sei que, ao dizer tais coisas, a grandiosidade e a profundidade do Plano Divino 
 # A Relação entre a Arte e a Elevação Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年6月5日） | **Status:** Published
 
 ## A Relação entre a Arte e a Elevação Espiritual
 
@@ -1770,6 +1802,7 @@ Portanto, do ponto de vista da fé, a contemplação de tais obras tem como prop
 # A Manifestação Divina nos Números e nos Espíritos
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年4月6日） | **Status:** Published
 
 ## A Manifestação Divina nos Números e nos Espíritos
 
@@ -1826,6 +1859,7 @@ Recentemente, comentei sobre a criança que ficou cega no incidente da Ponte Nij
 # A Expulsão do Mal e o Advento do Mundo Ideal
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月17日） | **Status:** Published
 
 ## A Expulsão do Mal e o Advento do Mundo Ideal
 
@@ -1870,6 +1904,7 @@ Por fim, embora não tenha uma relação direta com a fé, sou um grande aprecia
 # A Obra Divina em Quioto e a Salvação das Enfermidades da Alma
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月6日） | **Status:** Published
 
 ## A Obra Divina em Quioto e a Salvação das Enfermidades da Alma
 
@@ -1934,6 +1969,7 @@ A medicina tradicional é impotente diante das doenças mentais. Os médicos nã
 # A Realidade Espiritual por Trás dos Acontecimentos
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月6日） | **Status:** Published
 
 ## A Realidade Espiritual por Trás dos Acontecimentos
 
@@ -1978,6 +2014,7 @@ Pouco tempo depois, a imagem de madeira de Amaterasu Omikami foi transportada pa
 # O Destino das Ideologias e o Plano Divino
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S28年4月10日） | **Status:** Published
 
 ## O Destino das Ideologias e o Plano Divino
 

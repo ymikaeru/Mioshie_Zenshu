@@ -3,6 +3,7 @@
 # A Transição para o Mundo do Dia
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年9月17日） | **Status:** Published
 
 ## A Transição para o Mundo do Dia
 
@@ -47,6 +48,7 @@ Há dois anos, um negociante de arte, um homem comum, trouxe-me uma edição de 
 # A Revelação sobre a Medicina e a Origem do Sofrimento Humano
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年9月1日） | **Status:** Published
 
 ## A Revelação sobre a Medicina e a Origem do Sofrimento Humano
 
@@ -81,6 +83,7 @@ A partir de agora, passarei a escrever sobre as doenças de natureza espiritual.
 # O Avanço da Obra Divina no Céu e na Terra
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月17日） | **Status:** Published
 
 ## O Avanço da Obra Divina no Céu e na Terra
 
@@ -133,6 +136,7 @@ Para finalizar, gostaria de dizer uma palavra. Tenho notado que muitos aplicam f
 # A Prática Correta do Johrei e a Causa das Doenças
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月17日） | **Status:** Published
 
 ## A Prática Correta do Johrei e a Causa das Doenças
 
@@ -204,6 +208,7 @@ Desmantelar essa superstição médica e farmacêutica é, de fato, uma tarefa m
 # A Celeridade da Obra Divina
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年10月1日S） | **Status:** Published
 
 ## A Celeridade da Obra Divina
 
@@ -254,6 +259,7 @@ E as transformações ainda estão apenas no começo. A parte dos fundos mudará
 # O Equívoco Americano e o Plano Divino para a Purificação do Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年9月1日） | **Status:** Published
 
 ## O Equívoco Americano e o Plano Divino para a Purificação do Mundo
 
@@ -308,6 +314,7 @@ As pessoas ainda não se deram conta de que o esterco humano é prejudicial. Est
 # A Luta Espiritual e a Discernição
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月6日） | **Status:** Published
 
 ## A Luta Espiritual e a Discernição
 
@@ -357,7 +364,8 @@ Portanto, se se esforçarem para agir assim em todas as situações, a diferenç
 
 # O Mistério dos Números e a Edificação da Obra Divina
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年10月6日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年10月6日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## O Mistério dos Números e a Edificação da Obra Divina
 
@@ -410,6 +418,7 @@ Até mesmo nosso modesto livreto, "O Movimento de Kannon", que muitos já consid
 # A Alvorada de uma Nova Civilização
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月5日） | **Status:** Published
 
 ## A Alvorada de uma Nova Civilização
 
@@ -444,6 +453,7 @@ Assim, a Sekaikyuseikyou atrairá cada vez mais atenção. A grande dificuldade 
 # A Construção do Paraíso Terrestre e sua Projeção Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （29年2月1日） | **Status:** Published
 
 ## A Construção do Paraíso Terrestre e sua Projeção Mundial
 
@@ -468,6 +478,7 @@ Mas, por ora, encerro aqui minha explanação. Fiquem à vontade para fazer suas
 # A Ação Direta do Deus Supremo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月5日） | **Status:** Published
 
 ## A Ação Direta do Deus Supremo
 
@@ -519,6 +530,7 @@ Até mesmo Buda, Cristo e Maomé reverenciavam a Deus, buscavam Sua orientação
 # A Sabedoria da Descoberta e a Missão da Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （28年2月1日） | **Status:** Published
 
 ## A Sabedoria da Descoberta e a Missão da Nova Era
 
@@ -793,6 +805,7 @@ Ainda temos tempo. Gostariam de perguntar mais alguma coisa?
 # As Raízes Espirituais e a Missão Messiânica
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月21日 | **Fonte:** Bunmei no Sozo
+**Título Original:** 御講話 未発表、昭和26(1951)年9月21日（速記録） これは | **Status:** Unpublished
 
 ## As Raízes Espirituais e a Missão Messiânica
 
@@ -837,6 +850,7 @@ Existem muitos mistérios como este, impossíveis de serem registrados em livros
 # A Visão Divina para a Agricultura e a Cultura Japonesa
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月25日） | **Status:** Published
 
 ## A Visão Divina para a Agricultura e a Cultura Japonesa
 
@@ -873,6 +887,7 @@ A propósito, um breve alerta.
 # Sobre o Apego e a Verdadeira Causa das Doenças
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月26日） | **Status:** Published
 
 ## Sobre o Apego e a Verdadeira Causa das Doenças
 
@@ -909,6 +924,7 @@ Este ano, tudo indica que a disenteria será muito prevalente. O número de caso
 # A Visão de Mundo e a Missão do Japão
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月25日） | **Status:** Published
 
 ## A Visão de Mundo e a Missão do Japão
 
@@ -975,6 +991,7 @@ Agora, gostaria de ler algo que lhes servirá de referência.
 # A Reta Interpretação dos Ensinamentos Divinos
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月25日） | **Status:** Published
 
 ## A Reta Interpretação dos Ensinamentos Divinos
 
@@ -1045,6 +1062,7 @@ Com esse conhecimento, nenhuma pergunta poderá deixá-los em apuros. Basta que 
 # A Existência dos Deuses-Dragão
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月26日） | **Status:** Published
 
 ## A Existência dos Deuses-Dragão
 
@@ -1088,7 +1106,8 @@ Como nosso tempo se esgotou, peço agora que leiam a seção "Suntetsu".
 
 # A Edificação de um Mundo sem Doenças
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年6月21日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年6月21日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Edificação de um Mundo sem Doenças
 
@@ -1173,6 +1192,7 @@ Existem muitos outros desígnios divinos, os quais revelarei gradualmente com o 
 # A Visão Universal da Fé e a Manifestação do Belo
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年8月25日） | **Status:** Published
 
 ## A Visão Universal da Fé e a Manifestação do Belo
 
@@ -1211,6 +1231,7 @@ Quando a pessoa contrai a doença, o sangue tóxico se solidifica no peritônio 
 # A Revolução da Cultura Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S28年3月25日） | **Status:** Published
 
 ## A Revolução da Cultura Mundial
 
@@ -1277,6 +1298,7 @@ Quanto à arte moderna, como não tem despertado muito interesse, decidimos não
 # Diretrizes para as Nossas Publicações
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年9月1日S） | **Status:** Published
 
 ## Diretrizes para as Nossas Publicações
 
@@ -1297,6 +1319,7 @@ Imagino que os senhores leiam a seção “Fonte do Riso”. Considero-a excelen
 # O Alvorecer de uma Nova Era Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S29年3月25日） | **Status:** Published
 
 ## O Alvorecer de uma Nova Era Espiritual
 
@@ -1355,6 +1378,7 @@ Destarte, a hora de nossa missão ascender ao palco principal da História mundi
 # A Mobilização Divina e a Supremacia do Bem
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年12月6日S） | **Status:** Published
 
 ## A Mobilização Divina e a Supremacia do Bem
 
@@ -1393,6 +1417,7 @@ Seja como for, tudo o que escrevi vem se manifestando gradualmente. Conforme con
 # A Salvação do Ocidente e a Falácia da Medicina Moderna
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月27日） | **Status:** Published
 
 ## A Salvação do Ocidente e a Falácia da Medicina Moderna
 
@@ -1435,6 +1460,7 @@ Por fim, o patriotismo tem sido um tema de grande debate ultimamente. Também es
 # A Sabedoria de Izunome e o Julgamento Precipitado
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月27日） | **Status:** Published
 
 ## A Sabedoria de Izunome e o Julgamento Precipitado
 
@@ -1483,6 +1509,7 @@ E Deus preparou as circunstâncias para que isso fosse possível. Acontece que o
 # A Origem Espiritual das Doenças e o Princípio da Cura
 
 **Categoria:** kouwa | **Ano:** 昭和16(1941)年7月22日 | **Fonte:** Asu no Ijutsu
+**Título Original:** 江の島片瀬における御講話 | **Status:** Unknown
 
 ## A Origem Espiritual das Doenças e o Princípio da Cura
 
@@ -1533,6 +1560,7 @@ Uma vez que este princípio seja assimilado com clareza, o temor das doenças de
 # O Plano Divino em Pleno Andamento
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S28年9月23日） | **Status:** Published
 
 ## O Plano Divino em Pleno Andamento
 
@@ -1556,7 +1584,8 @@ Minhas palavras acabaram soando como o título de um sermão, mas, como o tempo 
 
 # Os Alicerces da Terapêutica Divina
 
-**Categoria:** kouwa | **Ano:** 昭和15(1940)年4月2日 | **Fonte:** 特別講習会Gokowa 昭和15
+**Categoria:** kouwa | **Ano:** 昭和15(1940)年4月2日 | **Fonte:** Gokowa
+**Título Original:** 特別講習会御講話 | **Status:** Unknown
 
 ## Os Alicerces da Terapêutica Divina
 
@@ -1609,6 +1638,7 @@ A melhora do paciente tende a ocorrer em ciclos, com alternância entre dias de 
 # A Edificação do Paraíso Terrestre e a Providência Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S27年3月27日） | **Status:** Published
 
 ## A Edificação do Paraíso Terrestre e a Providência Divina
 
@@ -1653,6 +1683,7 @@ O tempo avançou consideravelmente. Há muito mais que gostaria de compartilhar,
 # Sobre a Verdade e a Arte Imposta
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月18日） | **Status:** Published
 
 ## Sobre a Verdade e a Arte Imposta
 
@@ -1683,6 +1714,7 @@ Meu novo museu seguirá um caminho distinto. O foco será o belo pelo qual todos
 # A Expansão da Obra Divina e o Princípio da Adequação
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月27日） | **Status:** Published
 
 ## A Expansão da Obra Divina e o Princípio da Adequação
 
@@ -1731,6 +1763,7 @@ Reflitam bem sobre essas questões. Acionem sua sabedoria e discernimento e ajam
 # O Princípio da Correspondência
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月26日） | **Status:** Published
 
 ## O Princípio da Correspondência
 
@@ -1773,6 +1806,7 @@ Esse mesmo raciocínio se aplica de forma muito clara à cura das doenças. Apro
 # Sobre a Visão Limitada e a Ascensão Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月25日） | **Status:** Published
 
 ## Sobre a Visão Limitada e a Ascensão Espiritual
 
@@ -1831,6 +1865,7 @@ Isso, porém, não é entregar-se a Deus, mas sim sobrecarregá-Lo com responsab
 # A Gripe como Bênção e a Purificação do Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月25日） | **Status:** Published
 
 ## A Gripe como Bênção e a Purificação do Mundo
 
@@ -1863,6 +1898,7 @@ Agora, darei prosseguimento com a leitura do próximo trecho de “O Livro da Re
 # A Aguardada Chegada do Tempo Divino
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年9月5日S） | **Status:** Published
 
 ## A Aguardada Chegada do Tempo Divino
 
@@ -1891,6 +1927,7 @@ Ademais, sinto falta de tertúlias ou mesas-redondas. Seria muito proveitoso que
 # A Missão Mundial da Sekaikyuseikyou
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S28年11月8日） | **Status:** Published
 
 ## A Missão Mundial da Sekaikyuseikyou
 
@@ -1934,7 +1971,8 @@ Hoje, dividi minha explanação em três frentes: a América, o Havaí e o Japã
 
 # O Aumento da Graça Divina e a Conjuntura Mundial
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年8月21日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年8月21日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## O Aumento da Graça Divina e a Conjuntura Mundial
 
@@ -1991,6 +2029,7 @@ Este local serve como sede provisória da Kannonkai. Recentemente, encontramos o
 # A Concretização do Plano Divino na Terra
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S27年3月26日） | **Status:** Published
 
 ## A Concretização do Plano Divino na Terra
 

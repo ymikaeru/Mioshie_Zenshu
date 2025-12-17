@@ -1,8 +1,36 @@
 # Mioshie_Teachings - Part 12
 
+# Conclusão sobre o Problema da Tuberculose e sua Solução
+
+**Categoria:** ke | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
+**Título Original:** 結論 | **Status:** Published
+
+## Conclusão sobre o Problema da Tuberculose e sua Solução
+
+Conforme exposto até aqui, procurei elucidar detalhadamente as causas da tuberculose, os verdadeiros motivos de sua crescente incidência e a eficácia desta arte médica. Confio, portanto, que o leitor tenha podido desvendar a verdadeira natureza da tuberculose e, concomitantemente, compreender que não há absolutamente nada a temer nessa doença.
+
+Sintetizando os pontos principais, a doença é, em sua essência, um processo de purificação. A tuberculose, em particular, representa uma purificação de grande intensidade, razão pela qual se manifesta comumente na juventude, período de máxima vitalidade. Ademais, o bacilo da tuberculose não é, em hipótese alguma, contagioso, e a cura plena é sempre uma certeza.
+
+A medicina ocidental, por desconhecer o princípio da purificação, adota terapias cujo único propósito é solidificar novamente as toxinas que o organismo se esforçava por dissolver. Nada mais fazem além disso. Seu objetivo resume-se a restaurar o indivíduo a um estado de saúde ilusória, anterior ao início do processo purificador. Por essa razão, o risco de reincidência é, na maioria dos casos, uma consequência inevitável. Adicionalmente, os métodos utilizados para essa solidificação — como o repouso absoluto, o uso de medicamentos e outros procedimentos — demandam vultosos recursos financeiros e longos períodos de tratamento, impondo um fardo desmedido tanto ao indivíduo quanto à nação.
+
+Prossigamos: quando, durante a infância ou a adolescência, o organismo inicia a purificação de toxinas congênitas, a intervenção médica convencional interrompe esse processo, solidificando-as e, pior, acrescentando novas toxinas medicamentosas. Isso culmina no desenvolvimento de uma constituição que a medicina denomina "escrofulosa". Consequentemente, ao atingir a juventude, período de pujança vital, manifesta-se uma purificação abrupta e intensa, ou então, um processo persistente e tenaz. Nesses casos, os diagnósticos e tratamentos equivocados da medicina conduzem, na maioria das vezes, a desfechos trágicos.
+
+Além disso, tornou-se comum nos últimos tempos a prática de inocular substâncias estranhas na corrente sanguínea, sob o pretexto de "vacinação preventiva". Por ação do processo purificador, essas substâncias se acumulam e se solidificam em determinada parte do corpo. Ocorre que, quando o indivíduo é submetido a trabalhos extenuantes, como os treinamentos físicos militares ou os regimes de trabalho forçado, inicia-se uma purificação sobre essas massas solidificadas, o que acarreta o surgimento de febre. É então que, a pretexto de "diagnóstico precoce", os exames médicos identificam essas pessoas febris e as rotulam como "suspeitas de tuberculose" ou "pacientes com tuberculose aberta", submetendo-as a tratamento ou isolamento. Tal procedimento obstrui a produção, esgota nossos recursos humanos e, em suma, exerce uma influência extremamente nefasta sobre os objetivos da nação em tempos como os atuais.
+
+Acrescente-se a isso a crença equivocada de que o bacilo, um micro-organismo de geração espontânea e sem qualquer risco de contágio, é transmissível. Essa premissa falsa dá origem a métodos de prevenção extremamente complexos e onerosos. Tais medidas não só geram insegurança na vida das pessoas e reduzem sua produtividade, como também levam o país inteiro a incorrer em despesas e a construir instalações completamente desnecessárias.
+
+Quando se compreende a verdade dos fatos, como aqui exposto, torna-se evidente que estamos diante de um problema de magna importância para a nação, um problema que não pode ser negligenciado sequer por um único dia. Na verdade, a situação é tão grave que me é impossível não sentir profunda apreensão.
+
+Contudo, apresentei neste trabalho a medida capaz de solucionar por completo a questão da tuberculose. A tarefa de divulgá-la e aplicá-la em benefício de toda a população, entretanto, cabe às autoridades governamentais, aos especialistas de renome e aos líderes de cada setor. Portanto, rogo incessantemente para que essas personalidades, movidas pelo mais elevado espírito de amor à pátria, se dediquem com afinco ao estudo e à prática desta arte médica.
+
+(Setembro de 1942)
+
+---
+
 # A Tuberculose e a Possessão por Espíritos
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 結核と憑霊 未発表 | **Status:** Unpublished
 
 ## A Tuberculose e a Possessão por Espíritos
 
@@ -23,6 +51,7 @@ Acedi prontamente ao seu pedido e expliquei-lhe: "Como já é tarde, realizarei 
 # Considerações Finais sobre a Terapia da Fé para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 結論 | **Status:** Published
 
 ## Considerações Finais sobre a Terapia da Fé para a Tuberculose
 
@@ -51,6 +80,7 @@ Ao longo da história, testemunhamos inúmeras descobertas, novas teorias e revo
 # A Tuberculose é uma Insignificância
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
+**Título Original:** 結核なんか屁でもない 阿呆文学（八） | **Status:** Published
 
 ## A Tuberculose é uma Insignificância
 Ensaios de um Ignaro (VIII)
@@ -70,6 +100,7 @@ Seria um desperdício guardar para mim tão sublime tarefa. Por isso, com fervor
 # A Tuberculose e a Toxina Medicamentosa
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 結核と薬毒 | **Status:** Published
 
 ## A Tuberculose e a Toxina Medicamentosa
 
@@ -96,6 +127,7 @@ Outro ponto que merece especial atenção é o fato de a febre ser quase sempre 
 # O Equívoco da Hemossedimentação e a Verdadeira Natureza da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 血沈 | **Status:** Published
 
 ## O Equívoco da Hemossedimentação e a Verdadeira Natureza da Tuberculose
 
@@ -122,6 +154,7 @@ A medicina também sustenta que as toxinas dos remédios, uma vez no organismo, 
 # A Verdadeira Natureza da Tuberculose e sua Solução Definitiva
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 結論 | **Status:** Published
 
 ## A Verdadeira Natureza da Tuberculose e sua Solução Definitiva
 
@@ -146,6 +179,7 @@ Ao compreendermos a verdade dos fatos, percebemos tratar-se de uma questão de s
 # A Inseparabilidade entre os Mundos Espiritual e Material
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 顕幽不離 | **Status:** Published
 
 ## A Inseparabilidade entre os Mundos Espiritual e Material
 
@@ -166,6 +200,7 @@ Este relato demonstra que, por maiores que sejam os tormentos enfrentados, o ser
 # A Conclusão sobre a Medicina
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 結論 | **Status:** Published
 
 ## A Conclusão sobre a Medicina
 
@@ -234,6 +269,7 @@ Por fim, determinei que esta obra não fosse comercializada. A razão é que con
 # O Equívoco da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年1月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 結核ナンセンス | **Status:** Published
 
 ## O Equívoco da Tuberculose
 
@@ -278,6 +314,7 @@ Ofereço este artigo às autoridades e aos especialistas, rogando para que despe
 # A Diarreia
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 下痢 | **Status:** Published
 
 ## A Diarreia
 
@@ -292,6 +329,7 @@ Passando à diarreia crônica, observamos casos que podem se estender por meses 
 # Acerca dos Novos Medicamentos para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年8月27日 | **Fonte:** -
+**Título Original:** 結核新薬に就て 寸評（光24号） 白光生 | **Status:** Published
 
 ## Acerca dos Novos Medicamentos para a Tuberculose
 
@@ -306,6 +344,7 @@ Inicia-se, então, um ciclo vicioso: desenvolve-se um novo fármaco com o poder 
 # A Tuberculose Jamais é Contagiosa
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
+**Título Original:** 結核は絶対に感染しない | **Status:** Published
 
 ## A Tuberculose Jamais é Contagiosa
 
@@ -344,6 +383,7 @@ Qual dos caminhos devemos escolher? Evidentemente, o segundo: a formação de se
 # O Liberalismo da Saúde e a Falácia da Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 健康の自由主義 未発表 | **Status:** Unpublished
 
 ## O Liberalismo da Saúde e a Falácia da Medicina Moderna
 
@@ -382,6 +422,7 @@ Por fim, gostaria de tecer um comentário sobre a religião. Sua missão primord
 # A Falácia da Infecção por Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核感染の誤謬 未発表 | **Status:** Unpublished
 
 ## A Falácia da Infecção por Tuberculose
 
@@ -398,6 +439,7 @@ Diante dessa realidade, tenho empregado todos os meios ao meu alcance e me dedic
 # A Ilusão da Cura pela Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 現代医学で病気は治るか | **Status:** Published
 
 ## A Ilusão da Cura pela Medicina Moderna
 
@@ -428,6 +470,7 @@ Para concluir, o verdadeiro valor da Terapia Divina reside em sua abordagem diam
 # Acerca da Vidência Divina
 
 **Categoria:** ke | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 見神に就て | **Status:** Published
 
 ## Acerca da Vidência Divina
 
@@ -481,6 +524,7 @@ A partir de então, não foram poucas as vezes em que essa divindade me revelou 
 # O Advento da Revolução Médica
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結論 未発表 | **Status:** Unpublished
 
 ## O Advento da Revolução Médica
 
@@ -501,6 +545,7 @@ Nesse contexto, sinto o dever de salvar também aqueles que se dedicam à medici
 # A Tuberculose como Ameaça à Nação
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年2月14日 | **Fonte:** Eikou
+**Título Original:** 結核亡国論 | **Status:** Published
 
 ## A Tuberculose como Ameaça à Nação
 
@@ -535,6 +580,7 @@ Para concluir, gostaríamos de fazer um alerta. As atuais políticas de combate 
 # A Raiz da Guerra e da Pobreza
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 結論 | **Status:** Published
 
 ## A Raiz da Guerra e da Pobreza
 
@@ -561,6 +607,7 @@ Eis a razão pela qual intitulei esta obra de "O Evangelho do Paraíso".
 # A Breve Vida do Homem Moderno
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
+**Título Original:** 現代人の短命 | **Status:** Published
 
 ## A Breve Vida do Homem Moderno
 
@@ -577,6 +624,7 @@ Esta Arte de cura é, em essência, a obra de purificação da humanidade, que s
 # A Verdadeira Natureza da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 結核の現状 | **Status:** Published
 
 ## A Verdadeira Natureza da Tuberculose
 
@@ -595,6 +643,7 @@ Todavia, é aqui que reside o cerne da questão. Pois, segundo o que descobri, a
 # A Longevidade dos Membros Superará os Noventa Anos
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年3月6日 | **Fonte:** 新日本医術書
+**Título Original:** 健康協会会員の天寿は九拾歳を越えん | **Status:** Unknown
 
 ## A Longevidade dos Membros Superará os Noventa Anos
 
@@ -619,6 +668,7 @@ Nesse sentido, ainda que os membros de nossa Associação carreguem em seus corp
 # A Tuberculose e o Fator Espiritual
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核と精神面 | **Status:** Published
 
 ## A Tuberculose e o Fator Espiritual
 
@@ -651,6 +701,7 @@ Lembro-me de um episódio curioso, ocorrido em um vilarejo. Havia ali uma jovem 
 # A Influência do Espírito sobre a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 結核と精神作用 | **Status:** Published
 
 ## A Influência do Espírito sobre a Tuberculose
 
@@ -677,6 +728,7 @@ Diante do exposto, se a minha tese de que a tuberculose não é contagiosa e é 
 # Ensaio sobre a Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年5月23日 | **Fonte:** Eikou
+**Título Original:** 現代医学論 | **Status:** Published
 
 ## Ensaio sobre a Medicina Moderna
 
@@ -721,6 +773,7 @@ Convido o leitor, portanto, a ler os testemunhos de graças alcançadas à luz d
 # A Problemática da Tuberculose e sua Trajetória
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 結核問題とその趨勢 | **Status:** Published
 
 ## A Problemática da Tuberculose e sua Trajetória
 
@@ -854,6 +907,7 @@ Hoje, com o número de mortes ultrapassando 150 mil anualmente, os dados aqui ap
 # A Não Contagiosidade da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 結核は感染しない | **Status:** Published
 
 ## A Não Contagiosidade da Tuberculose
 
@@ -886,6 +940,7 @@ Eu, porém, que vim a conhecer esta verdade por Revelação Divina, sinto o deve
 # A Natureza dos Milagres e a Identidade do Messias
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 結論 | **Status:** Published
 
 ## A Natureza dos Milagres e a Identidade do Messias
 
@@ -906,6 +961,7 @@ Nesse sentido, não considero surpreendente que me vejam como o Messias, o Crist
 # A Verdadeira Natureza dos Benefícios na Fé
 
 **Categoria:** ke | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 現当利益 | **Status:** Published
 
 ## A Verdadeira Natureza dos Benefícios na Fé
 
@@ -928,6 +984,7 @@ Ademais, figuras como Shakyamuni, Cristo e Nichiren revelaram com clareza a verd
 # A Cura da Tuberculose sob a Ótica da Ciência Espiritual
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
+**Título Original:** 結核と神霊科学 ・結核は治る 自観叢書第1篇 | **Status:** Published
 
 ## A Cura da Tuberculose sob a Ótica da Ciência Espiritual
 
@@ -972,6 +1029,7 @@ Por fim, para comprovar minha teoria com fatos, apresento a seguir, para vossa r
 # A Expulsão de Cálculos por meio do Johrei
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年10月22日 | **Fonte:** Eikou
+**Título Original:** 結石も浄霊で排泄さる | **Status:** Published
 
 ## A Expulsão de Cálculos por meio do Johrei
 
@@ -1016,6 +1074,7 @@ Meishu-Sama, muito, muito obrigado. Expresso minha mais profunda e sincera grati
 # A Comprovação de que a Medicina Gera a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年12月23日 | **Fonte:** Eikou
+**Título Original:** 結核は医学が作る実例 | **Status:** Published
 
 ## A Comprovação de que a Medicina Gera a Tuberculose
 
@@ -1067,6 +1126,7 @@ Meishu-Sama, muito obrigado. Agradeço-Lhe profunda e reiteradamente.
 # A Essência dos Benefícios Imediatos
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年11月8日 | **Fonte:** Eikou
+**Título Original:** 現当利益 | **Status:** Published
 
 ## A Essência dos Benefícios Imediatos
 
@@ -1097,6 +1157,7 @@ Na verdade, quem se dispuser a analisar nossa Igreja com seriedade, perceberá q
 # A Arte como Alicerce do Paraíso Terrestre
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年6月6日 | **Fonte:** Eikou
+**Título Original:** 芸術宗教 | **Status:** Published
 
 ## A Arte como Alicerce do Paraíso Terrestre
 
@@ -1111,6 +1172,7 @@ Por conseguinte, devoto o mais profundo interesse à arte e tenciono incentivá-
 # Análise de uma Perseguição Religiosa
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
+**Título Original:** 結論 | **Status:** Published
 
 ## Análise de uma Perseguição Religiosa
 
@@ -1177,6 +1239,7 @@ Com esta advertência de que, chegada a hora, o arrependimento será tardio, enc
 # Os Benefícios Presentes e os Benefícios Futuros
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年11月19日 | **Fonte:** -
+**Título Original:** 現世利益と未来利益 | **Status:** Published
 
 ## Os Benefícios Presentes e os Benefícios Futuros
 
@@ -1195,6 +1258,7 @@ As palavras acima podem ter sido excessivamente diretas, e talvez causem desconf
 # A Influência do Espírito na Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
+**Título Original:** 結核と精神作用 | **Status:** Published
 
 ## A Influência do Espírito na Tuberculose
 
@@ -1221,6 +1285,7 @@ Por essa mesma razão, se a minha tese — a de que a tuberculose não é contag
 # Para Onde Caminha a Medicina Moderna?
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 現代医学は何処へ行く | **Status:** Unknown
 
 ## Para Onde Caminha a Medicina Moderna?
 
@@ -1243,6 +1308,7 @@ Não consigo imaginar maior infortúnio do que o daquelas pessoas que, por desco
 # Seria Impossível Prevenir a Tuberculose?
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年1月21日 | **Fonte:** -
+**Título Original:** 結核予防は不可能か 神医学を信ぜよ | **Status:** Published
 
 ## Seria Impossível Prevenir a Tuberculose?
 
@@ -1267,6 +1333,7 @@ Este artigo é dedicado às autoridades e aos especialistas da área.
 # A Origem Espiritual da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年10月29日 | **Fonte:** Eikou
+**Título Original:** 結核 ・アメリカを救う | **Status:** Published
 
 ## A Origem Espiritual da Tuberculose
 
@@ -1315,6 +1382,7 @@ A explanação acima versou sobre o bacilo da tuberculose e temas correlatos. A 
 # Um Fato que Não Pode Ser Ignorado
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 軽視出来ない事実 自観叢書10編 | **Status:** Published
 
 ## Um Fato que Não Pode Ser Ignorado
 
@@ -1339,6 +1407,7 @@ Esses inúmeros fatos demonstram quão benéfica é a dieta vegetariana para a s
 # A Dimensão Espiritual da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 結核と精神面 未発表 | **Status:** Unpublished
 
 ## A Dimensão Espiritual da Tuberculose
 
@@ -1367,6 +1436,7 @@ Recentemente, tem sido noticiado com frequência o surgimento de surtos de tuber
 # A Verdade sobre o Contágio da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 結核は絶対に感染しない | **Status:** Published
 
 ## A Verdade sobre o Contágio da Tuberculose
 
@@ -1411,6 +1481,7 @@ Qual dos dois caminhos devemos escolher? Evidentemente, a resposta reside em for
 # A Gênese da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核の病原 未発表 | **Status:** Unpublished
 
 ## A Gênese da Tuberculose
 
@@ -1443,6 +1514,7 @@ Diante do exposto, mesmo que a medicina obtenha o sucesso esperado no extermíni
 # O Verdadeiro Perigo da Medicina Ocidental
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 結論 | **Status:** Published
 
 ## O Verdadeiro Perigo da Medicina Ocidental
 
@@ -1481,6 +1553,7 @@ Nesse sentido, dirijo-me não apenas ao governo, mas também aos especialistas e
 # O Grande Equívoco da Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年 | **Fonte:** 現代医療の大誤謬
+**Título Original:** 現代医療の大誤謬 | **Status:** Unpublished
 
 ## O Grande Equívoco da Medicina Moderna
 
@@ -1515,6 +1588,7 @@ Cumpre ressaltar que os medicamentos são, em sua maioria, compostos por toxinas
 # A Tragédia de Ignorar a Realidade
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 現実無視の悲劇 | **Status:** Published
 
 ## A Tragédia de Ignorar a Realidade
 
@@ -1553,6 +1627,7 @@ Em contrapartida, aqueles que recebem os cuidados desta Arte de cura experimenta
 # A Gratidão que Transborda em Donativo
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月8日 | **Fonte:** Kyusei
+**Título Original:** 献金に就て | **Status:** Published
 
 ## A Gratidão que Transborda em Donativo
 
@@ -1588,6 +1663,7 @@ Desde então, continuo a caminhar com perseverança, auxiliando, com minha humil
 # Uma Análise Crítica do Diagnóstico da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 結核と其発見法 | **Status:** Published
 
 ## Uma Análise Crítica do Diagnóstico da Tuberculose
 
@@ -1608,6 +1684,7 @@ Mas o que significa, afinal, “requerer atenção especial”? A medicina preco
 # A Ilusão da Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 結論 | **Status:** Published
 
 ## A Ilusão da Medicina Moderna
 
@@ -1630,6 +1707,7 @@ Sendo assim, quando esta verdade se difundir pelo mundo, é natural que os profi
 # A Superioridade da Agricultura Natural
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年1月15日 | **Fonte:** Shizen Noho Kaisetsu
+**Título Original:** 結論 | **Status:** Published
 
 ## A Superioridade da Agricultura Natural
 
@@ -1657,6 +1735,7 @@ A fim de comprovar os resultados deste surpreendente método agrícola, os mais 
 # A Tuberculose e a Influência da Mente
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 結核と精神作用 | **Status:** Published
 
 ## A Tuberculose e a Influência da Mente
 
@@ -1681,6 +1760,7 @@ Sabe-se também que, entre os animais, o gado é particularmente suscetível à 
 # A Tuberculose é Curável
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
+**Título Original:** 結論 ・結核は治る 自観叢書第1篇 | **Status:** Published
 
 ## A Tuberculose é Curável
 
@@ -1705,6 +1785,7 @@ Analisando a questão sob uma perspectiva acadêmica, pode-se ainda tecer outra 
 # A Verdade sobre a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
+**Título Original:** 結核の原因 ・結核は治る 自観叢書第1篇 | **Status:** Published
 
 ## A Verdade sobre a Tuberculose
 
@@ -1743,6 +1824,7 @@ Contrariando todas as expectativas, nosso método para debelar essa febre de cau
 # A Bomba Atômica Não é de se Temer
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年4月23日 | **Fonte:** Eikou
+**Título Original:** 原爆恐るるに足らず | **Status:** Published
 
 ## A Bomba Atômica Não é de se Temer
 
@@ -1934,6 +2016,7 @@ Este foi um breve relato de minha experiência com a bomba atômica. Muito obrig
 # A Verdadeira Causa da Diarreia
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 下痢 | **Status:** Published
 
 ## A Verdadeira Causa da Diarreia
 
@@ -1948,6 +2031,7 @@ Existe, ainda, a diarreia crônica, que pode se estender por meses ou até mesmo
 # A Influência do Fator Mental na Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 結核と神経作用 | **Status:** Published
 
 ## A Influência do Fator Mental na Tuberculose
 
@@ -1970,6 +2054,7 @@ Entre os animais, diz-se que o gado, em particular, pode contrair tuberculose. T
 # A Verdadeira Salvação e a Incredulidade dos Intelectuais
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 鶏群の一鶴 未発表 | **Status:** Unpublished
 
 ## A Verdadeira Salvação e a Incredulidade dos Intelectuais
 
@@ -1986,6 +2071,7 @@ Aqueles que, diante desta realidade, despertarem e abraçarem a fé são, de fat
 # A Causa Espiritual da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年10月21日 | **Fonte:** Eikou
+**Título Original:** 結核の霊的原因 | **Status:** Published
 
 ## A Causa Espiritual da Tuberculose
 
@@ -2034,6 +2120,7 @@ Meishu-Sama, muito, muito obrigada.
 # A Missão da Arte
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
+**Título Original:** 芸術の使命 | **Status:** Published
 
 ## A Missão da Arte
 
@@ -2056,6 +2143,7 @@ Sob essa ótica, não é exagero afirmar que parte considerável da responsabili
 # O Testemunho da Cura e a Vontade Divina
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核全快者の感想 未発表 | **Status:** Unpublished
 
 ## O Testemunho da Cura e a Vontade Divina
 
@@ -2072,6 +2160,7 @@ Foi com o intuito de salvar essas almas aflitas que, nesta primavera, publiquei 
 # A Saúde e a Longevidade Concedidas por Deus
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 健康と寿命 未発表 | **Status:** Unpublished
 
 ## A Saúde e a Longevidade Concedidas por Deus
 
@@ -2098,6 +2187,7 @@ Conforme exposto, Deus concedeu ao ser humano uma longevidade superior a cento e
 # Um Escárnio à Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
+**Título Original:** 現代医学を嗤う | **Status:** Published
 
 ## Um Escárnio à Medicina Moderna
 
@@ -2124,6 +2214,7 @@ Pelo exposto, creio que se tornou evidente que o princípio de cura que estabele
 # Um Fato que Não Pode Ser Subestimado
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年9月17日 | **Fonte:** -
+**Título Original:** 軽視出来ない事実 | **Status:** Published
 
 ## Um Fato que Não Pode Ser Subestimado
 
@@ -2150,6 +2241,7 @@ Por meio desses inúmeros exemplos, torna-se evidente o quão benéfica é uma d
 # A Tuberculose Jamais é Transmitida por Contágio
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 結核は絶対に感染しない | **Status:** Published
 
 ## A Tuberculose Jamais é Transmitida por Contágio
 *Ashita no Ijutsu (Reedição), Volume I — Publicado em 5 de fevereiro de 1943*
@@ -2191,6 +2283,7 @@ Qual dos dois caminhos devemos escolher? Evidentemente, o segundo: a criação d
 # A Origem Espiritual da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 結核 | **Status:** Published
 
 ## A Origem Espiritual da Tuberculose
 
@@ -2235,6 +2328,7 @@ A explanação acima se deteve no bacilo da tuberculose e em questões correlata
 # O Equívoco da Medicina Frente à Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核医学の恐怖 未発表 | **Status:** Unpublished
 
 ## O Equívoco da Medicina Frente à Tuberculose
 
@@ -2255,6 +2349,7 @@ Ah, como anseio por salvar, o mais breve possível, esta humanidade atormentada.
 # A Falácia da Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 現代医学論 未発表 | **Status:** Unpublished
 
 ## A Falácia da Medicina Moderna
 
@@ -2283,6 +2378,7 @@ Em virtude dessa lógica paradoxal, quanto mais forte o veneno, mais eficaz pare
 # A Questão da Tuberculose e sua Trajetória
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 結核問題とその趨勢 | **Status:** Published
 
 ## A Questão da Tuberculose e sua Trajetória
 
@@ -2369,6 +2465,7 @@ Hoje, contudo, o número de mortes já ultrapassa os cento e cinquenta mil anuai
 # A Influência Mental na Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 結核と神経作用 | **Status:** Published
 
 ## A Influência Mental na Tuberculose
 
@@ -2383,20 +2480,6 @@ Ademais, a ideia de ter contraído tuberculose pulmonar evoca de imediato a asso
 Isso demonstra quão imensurável é, de fato, a influência exercida pela ação do espírito. Creio que o número de pacientes que chegam a essa condição por um caminho semelhante é surpreendentemente elevado. Portanto, o ato de classificar como contagiosa uma tuberculose que absolutamente não o é, e de rotular como incurável uma afecção pulmonar que seria perfeitamente curável, constitui, ainda que soe irônico, uma verdadeira tática de guerra psicológica.
 
 Sabe-se também que, entre os animais, o gado é particularmente suscetível à tuberculose. No entanto, consta que não há diferença na longevidade entre o gado sadio e o tuberculoso, o que significa que este último não sofre, na prática, os efeitos da doença. Tal fato nos permite compreender quão temível é a ação do espírito no ser humano.
-
----
-
-# A Natureza da Cultura Contemporânea
-
-**Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-
-## A Natureza da Cultura Contemporânea
-
-Conforme explanei até este momento, o leitor já deve ter compreendido que a raiz do equívoco da medicina reside em sua negligência para com as leis da Natureza. Afinal, a doença, como já mencionado, nada mais é que um processo natural destinado a expelir as toxinas que obstruem o bom funcionamento do organismo. Sendo esta uma criação Divina, o correto seria que o ser humano se submetesse a ela. Um paralelo pode ser traçado com fenômenos como as tempestades de vento e chuva ou os raios. Quando as impurezas se acumulam e adensam no mundo material e no Mundo Espiritual, geram-se miasmas nocivos aos seres vivos, desencadeando, assim, um processo de purificação. O vento dispersa tais impurezas, a chuva as lava, o sol as seca e, em casos específicos, o fogo dos raios as consome por completo. A doença humana é uma manifestação deste mesmo princípio em menor escala. Portanto, ao compreender esta lógica, torna-se evidente quão contrário à Natureza é o ato de suprimir uma enfermidade.
-
-Neste ponto, devo discorrer pormenorizadamente sobre o equívoco na relação entre a ciência e a enfermidade. Originalmente, o propósito da ciência é satisfazer as aspirações humanas, tornando a existência mais conveniente e aprazível, enriquecendo o intelecto e promovendo a felicidade. Seu domínio de atuação, contudo, é intrinsecamente delimitado. A ciência pertence ao âmbito do tangível, do material; a vida humana, por sua vez, é uma existência de natureza metafísica, que transcende o campo de estudo científico. Em outras palavras, a verdade é que a ciência opera no domínio materialista, enquanto a vida humana se encontra na esfera espiritual. Todavia, com o assombroso avanço científico da era moderna, a humanidade deixou-se iludir, caindo em uma confiança excessiva na ciência, acreditando que por meio dela tudo poderia ser solucionado. Foi assim que a ciência extrapolou suas fronteiras e invadiu o domínio do espírito, passando a tratar a própria vida humana como um objeto passível de manipulação. A medicina nasceu dessa mentalidade de insubordinação — uma verdadeira subversão da ordem natural (下剋上) — e, por conseguinte, é desnecessário reiterar que ela está fundamentalmente equivocada em sua própria concepção.
-
-Conforme o exposto, a vida humana pertence ao domínio espiritual, e quem governa essa esfera é Deus. Portanto, o extraordinário poder de cura que manifesto origina-se d’Ele, sendo natural que possa sanar qualquer enfermidade. Nisto não reside milagre algum. Contudo, o homem moderno, ao testemunhar tais curas, considera-as milagrosas, um fato verdadeiramente digno de riso. É como estar de cabeça para baixo e enxergar como torto aquilo que está perfeitamente reto. O método de cura divino que pratico é, de fato, algo sem precedentes (破天荒), jamais visto ou ouvido. Por essa razão, sua aceitação não é imediata e, a princípio, causa perplexidade. No entanto, à medida que a pessoa passa a compreender seus fundamentos, o sonho de uma longa noite subitamente se dissipa. A ilusão da medicina torna-se clara, e ela finalmente alcança um estado de paz e segurança espiritual. Sendo assim, se mesmo após a leitura desta obra, alguém ainda hesitar, vacilar e não despertar, pode-se afirmar que tal pessoa se encontra em extremo perigo, à beira do abismo da perdição.
 
 ---
 

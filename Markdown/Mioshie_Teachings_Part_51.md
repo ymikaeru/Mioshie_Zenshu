@@ -1,8 +1,765 @@
 # Mioshie_Teachings - Part 51
 
+# A Purificação do Ego na Senda do Johrei
+
+**Categoria:** jorei | **Ano:** 昭和27(1952)年1月9日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## A Purificação do Ego na Senda do Johrei
+
+Ao ministrar Johrei, é imperativo que o “ego” esteja absolutamente ausente. Este Divino Ensinamento, que guardo devotamente no coração e procuro jamais esquecer, orienta-me a, antes de cada Johrei, dedicar um momento para serenar meu espírito. Busco esvaziar a mente de pensamentos mundanos e, somente após atingir um estado de completa isenção de ânimo, volto-me para a pessoa a quem irei servir.
+
+Por essa razão, sou inteiramente incapaz da proeza de conversar trivialidades enquanto ministro Johrei, uma prática que, para mim, seria admitir a fragilidade de minha própria força espiritual. O menor resquício de meu “eu” não deve interferir. Embora me esforce para manter essa postura no dia a dia, ao ministrar Johrei na senhora Kouji, sinto esse ego teimar em se manifestar. O desejo de que seus olhos se recuperem rapidamente, a ânsia de *eu mesmo* curá-la – eis o meu ego em ação.
+
+Transcorreu um mês e meio desde que iniciei o tratamento da senhora Kouji. À primeira vista, seus olhos não revelam qualquer anormalidade, sendo impossível supor que ela tenha um problema de visão. Contudo, seu campo visual — tanto o horizontal e vertical quanto o de perto e de longe — é extremamente restrito. Ao olhar para um automóvel, por exemplo, ela o vê sem o teto ou com metade da lateral ausente, percebendo os objetos de forma incompleta. Não se trata de astigmatismo, mas de uma enfermidade diagnosticada como retinite, uma condição raríssima que acometeria apenas uma em cada dez mil pessoas.
+
+Um especialista aventou que a causa seria um casamento consanguíneo. A senhora Kouji, porém, contesta veementemente esse diagnóstico, pois conhece outra pessoa com os mesmos sintomas cuja família não possui tal histórico. O problema se manifestou após o nascimento de sua filha, hoje com vinte anos, embora ela se recorde de, em retrospecto, perceber as luzes mais foscas desde a infância.
+
+Dentre as muitas pessoas que já atendi, a senhora Kouji se destaca por sua alma cândida e por um fervor raramente visto. Sendo uma pessoa de esmerada educação, sua postura e seus gestos atingem o ápice da cortesia, a ponto de me deixarem constrangido. Numa época em que os conceitos morais da juventude foram aviltados, a linguagem se tornou vulgar e as boas maneiras são ignoradas — e quem ousa mencioná-las é recebido com desdém —, cada ato seu resplandece com particular intensidade. Ela encarna a nobreza e a serenidade da era Meiji, aquele período de lembranças tão caras, em nítido contraste com o que hoje se convencionou chamar de “geração do pós-guerra”.
+
+Nosso primeiro encontro se deu numa pequena reunião de fiéis para a qual fui convidado. Soube então que a senhora Kouji havia recebido a fé em uma igreja próxima e, durante um mês, recebeu Johrei sem sentir qualquer alteração, tanto no corpo quanto nos olhos. Desolada, concluiu que fora abandonada não apenas pelos médicos, mas também por Deus, e desistiu de frequentar a igreja. Ao ouvir seu relato, ministrei-lhe Johrei ali mesmo.
+
+Passados cerca de dez minutos, ela comentou, com um misto de surpresa e alegria a iluminar-lhe o rosto: "Sinto algo vibrar no fundo dos olhos. Seria esta a sensação que tantos relatam?". E prosseguiu: "Recordo-me de o ministro que me atendia antes ter dito que problemas de visão decorrentes de parto são muito difíceis. Será verdade? Se agora senti algo que nunca havia sentido, talvez eu não recupere a visão por completo, mas será que o poder de Deus não poderia me conceder uma pequena melhora? Por favor, eu gostaria de ir à sua casa. O senhor me aceitaria, mesmo que seja um incômodo?".
+
+Respondi-lhe: "Não posso afirmar que seus olhos serão curados. Há muitos medicamentos acumulados em seu organismo e, ademais, nunca tratei um caso como o seu. Sou um mero instrumento de Deus; a cura depende unicamente de Sua Vontade". Após esse diálogo, algum tempo depois, ela adquiriu um passe de trem e começou a vir à minha casa.
+
+Desde então, ela vem receber Johrei sem faltar um só dia, seja sob chuva ou vento. Com esse mesmo afinco, frequentou consultórios de oftalmologia por dezessete ou dezoito anos. Imagino, portanto, o imenso desafio que será dissolver a toxina medicamentosa acumulada durante todo esse tempo. Por fim, seu último médico proferiu a sentença final com frieza: "Minha senhora, aproveite para comer o que gosta e viva sem preocupações. Não há mais esperança de melhora para seus olhos". Que palavras cruéis, depois de terem eles mesmos agravado sua condição com tantos remédios. Senti uma justa indignação ao ouvi-la.
+
+A frase "problemas de visão decorrentes de parto são difíceis de curar" permaneceu em sua mente, e ela a menciona com frequência. Como eu desconhecia tal particularidade, sugeri-lhe que perguntássemos a Meishu-Sama. Sua resposta me comoveu: "Se a resposta for 'não há cura', mergulharei no mais completo desespero. Meus olhos podem não ver, mas meu corpo já se fortaleceu. Acima de tudo, desde que comecei a frequentar sua casa, uma luz se acendeu em meu coração, e só por isso já sou imensamente grata".
+
+Após cerca de vinte sessões, finalmente as lágrimas começaram a fluir. Ao completar um mês, ela iniciou, tateando, a confecção de um suéter de lã para seu filho. Trabalhava com as agulhas até tarde da noite sem sentir cansaço nos olhos. Sua sensibilidade ao frio desapareceu, e o estômago melhorou por completo. A cada dia, sua alegria se tornava mais evidente. Contudo, quando ela desabafa: "Nem mesmo o rosto de meu filho consigo ver com a nitidez que os outros veem. O rosto do senhor, por vezes, me aparece sem olhos ou sem nariz...", o desejo de curá-la o mais rápido possível ressurge, e sou sobressaltado pela intromissão do meu ego.
+
+Apesar de não poder ler jornais ou revistas há anos, nem assistir a filmes, ela nutre o profundo anseio de ler os Escritos Divinos de Meishu-Sama. Ocasionalmente, após o Johrei, leio trechos em voz alta e os explico. Sugiro que peça a seus filhos que leiam para ela e lhe entrego nossas publicações, mas parece que eles o fazem com má vontade. Que ela possa ao menos ler os Escritos Divinos... E mais uma vez, meu ego se manifesta.
+
+Por que razão registrei com tantos detalhes a história de uma senhora com problemas de visão? Talvez seja, também, uma manifestação do meu ego. Certo dia, a senhora Kouji me disse: "Lembro-me com frequência da peça que vi na juventude, *Tsubosaka Reigenki*. Ah, se eu pudesse sentir a mesma alegria de Sawaichi...". Desejo do fundo da alma que ela possa vivenciar essa mesma alegria.
+
+A cura da senhora Kouji traria uma felicidade imensa a seu marido e sua família. Seu esposo, um homem que ascendeu ao cargo de diretor em um ministério, possui uma vasta rede de contatos. Por meio dele, seria possível difundir os Ensinamentos de Meishu-Sama entre os intelectuais. Ao cogitar tal possibilidade, percebo, mais uma vez, a interferência do meu ego.
+
+Ela adquiriu um passe de trem com validade de três meses. Seria um grande avanço se, antes que o passe expire, surgissem purificações como a eliminação de secreção ocular. É a mesquinhez da mente humana que me leva a fazer tais contas, tentando calcular o que é incalculável: o tempo necessário para dissolver as toxinas de quase duas décadas de medicação.
+
+"Se não for um incômodo para o senhor, virei por quantos anos forem necessários. Mesmo que meus olhos não voltem ao que eram, virei para não deixar que se apague a chama da esperança que o senhor acendeu em meu coração".
+
+Tais palavras, proferidas por alguém que há tão pouco tempo abraçou a fé, tocaram-me como a mais genuína expressão de um fiel de Meishu-Sama, e senti os olhos marejarem de emoção. Diante de tamanha sinceridade, meu único desejo se resume a uma prece: que ela possa, ao menos, ter a graça de ler os Escritos Divinos.
+
+---
+
+# Coletânea de Ensaios do Mestre Okada Jikanshi
+
+**Categoria:** jorei | **Ano:** 昭和25(1950)年11月8日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Coletânea de Ensaios do Mestre Okada Jikanshi
+
+**Diário de Johrei, por Kaiansei**
+Publicado na revista Eikou (栄光) nº 77, em 8 de novembro de 1950
+
+**Certo dia, de um certo mês**
+
+Embora o Culto Mensal estivesse marcado para as dezoito horas, já passava das dezenove e ninguém havia chegado. Para mim, que tenho por hábito a estrita observância da pontualidade, tal displicência com o tempo é sobremaneira desagradável. Pode-se argumentar que se trata de apenas trinta minutos ou uma hora; todavia, o tempo deste dia, desta hora, jamais retornará. E, tratando-se de um compromisso com Deus, a questão se torna ainda mais grave. É fundamental que a data e o horário estabelecidos sejam reverenciados.
+
+O anfitrião revela-se uma pessoa de pouquíssima conversação. Caso eu não inicie o diálogo, ele é capaz de permanecer em silêncio por tempo indeterminado, com o olhar perdido no assoalho. Este casal já salvou um número considerável de pessoas, conduzindo-as à fé; contudo, poucos frequentam sua casa. O fato de os visitantes se restringirem quase que exclusivamente aos recém-ingressos na Obra Divina talvez se deva, surpreendentemente, a essa atmosfera constrangedora em seu modo de receber. Poderíamos atribuir tal fato simplesmente às máculas espirituais, e com isso encerrar a questão. No entanto, o episódio me leva a refletir que os ministros necessitam ampliar seus conhecimentos sobre o mundo e aprofundar sua cultura geral.
+
+“Perdão pelo atraso”, disse o jovem vice-presidente de Johrei Center que, vindo de uma viagem a trabalho do interior, finalmente chegou. O relógio já marcava mais de vinte horas. Embora eu pertença a outra unidade religiosa, há muito tempo havia sido convidado a participar de um Culto Mensal e a proferir algumas palavras sobre a fé, convite que aceitei para esta data. Passava das vinte e uma horas quando, finalmente, chegaram cerca de quinze membros, todos juntos. O que distingue os frequentadores deste local dos de outras unidades é um fato singular: a formação do grupo não se deu pela salvação individual de cada um, mas sim a partir da iniciativa de um mestre de obras. Este, movido pela gratidão de ver seu único filho ser salvo, incentivou seus subordinados e os artesãos com quem trabalhava a ingressarem na fé.
+
+Continua na próxima edição.
+
+---
+
+# Coleção de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei
+
+**Categoria:** jorei | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Coleção de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei
+
+*Por Kaiansei, extraído da revista Eikou nº 142, publicada em 6 de fevereiro de 1952.*
+
+Certo dia, de certo mês.
+
+Neste mês, já é a terceira vez que sou procurado para tratar de controle de natalidade. Dentre as consultas, duas foram de pessoas que ingressaram na fé há pouco tempo, e a outra, da esposa de um conhecido.
+
+Não sou, de modo algum, versado em temas peculiares como contracepção ou controle de natalidade; por que, então, sou consultado a respeito? Devem me julgar o interlocutor ideal para tais assuntos triviais por eu já ter uma certa idade, ter provado as amarguras da vida e conhecido as agruras deste mundo a ponto de me enfadar. Talvez minha natureza um tanto ingênua também contribua para essa impressão.
+
+Qualifico tais conversas como triviais sob minha ótica, pois para quem me procura, trata-se de um evento crucial em sua vida. O fato de virem consultar um terceiro demonstra que já esgotaram suas próprias deliberações. No caso dos fiéis que desejam o "controle", a resposta é mais simples, pois eles já parecem antecipar minha negativa: "É terminantemente proibido". Assim, basta-lhes expor o magno princípio religioso e explicar a incoerência de não refrear os próprios desejos e, depois, afligir-se com as consequências.
+
+Como são pessoas que já compreendem a impropriedade de tais atos antinaturais, entendem, sem necessidade de maiores explicações, que não apenas o aborto, mas também a contracepção, é inadmissível. É uma questão que se resolve com a precisão de um só golpe. Contudo, ao ouvir os pormenores de sua situação familiar, sou invadido por um sentimento de compaixão. E quando essa compaixão aflora, mentalmente repito para mim mesmo, como um mantra: "Visão Ampla... Visão Ampla...".
+
+Pois, embora um aborto motivado por uma situação familiar aflitiva possa trazer um alívio momentâneo aos envolvidos, ele inevitavelmente gera carma, acumula máculas e impõe um sofrimento sem fim. Se eu não conhecesse a Sekaikyuseikyou, que me ensinou a preciosidade da vida, e ainda estivesse cativo daquela deplorável e superficial ideia de que o nascimento é um mero acaso resultante do desejo dos pais, eu teria, sem hesitar, concordado com tal ato. Que pensamento perigoso! Ao recordar aquela época, um suor frio me percorre a espinha.
+
+A propósito, quando foi que a voz do controle de natalidade começou a ser ouvida publicamente no Japão? Creio que foi após a vinda da senhora Sanger, que pregava a limitação da prole, e quando a então baronesa Ishimoto, atual esposa do senhor Kato Kanju do Partido Socialista, deu início a um movimento ativo nesse sentido. Todavia, no Período Tokugawa, praticava-se o que se chamava de "desbaste": o segundo e o terceiro filhos de famílias samurais eram mortos por asfixia logo ao nascer. Isso ocorria, provavelmente, entre as classes de menor escalão, como os ashigaru de baixo soldo, para os quais a vida se tornava extremamente difícil.
+
+Aqueles que cometeram atos tão cruéis certamente tinham a consciência de que haviam perpetrado um crime. O que torna a situação atual tão mais assustadora é que hoje tais atos são praticados sem a menor noção de pecado. Não há um dia em que jornais e revistas não publiquem anúncios sobre controle de natalidade, e as farmácias exibem em suas vitrines, sem o menor pudor, cartazes de medicamentos e dispositivos, tornando impossível não vê-los. Dessa forma, o gravíssimo crime de assassinato de um familiar direto é cometido como um evento corriqueiro, desprovido de qualquer senso de transgressão.
+
+É uma tendência social insuportável de se ver, mesmo para quem não seja um moralista de barbas de bode. Durante a guerra, sob o lema "tenham filhos, multipliquem-se", o infanticídio parecia ter sido silenciado, ao menos na superfície. Mas, pensando bem, isso também é bastante absurdo. Um recém-nascido não tem como colaborar com o esforço de guerra, e não é porque um governo militarista impõe sua vontade que um casal será abençoado com filhos. Nascer ou não nascer, tudo reside no carma. Se não ensinarmos sobre essa lei cármica e sobre a preciosidade da vida, a verdadeira felicidade da humanidade jamais será alcançada. E a missão de transmitir esse conhecimento pertence à religião; mais especificamente, à Igreja Messiânica, a única que ensina a realidade do espírito. Ao pensar nisso, sinto o peso de nossa missão e a grandeza de nossa responsabilidade.
+
+A senhora que veio me consultar hoje já trazia consigo a firme decisão de se submeter a uma curetagem, e essa determinação parecia inabalável. Ela não veio me perguntar se deveria ou não fazê-lo, mas sim fazer um pedido interesseiro: caso o pós-operatório não corresse bem, eu lhe ministraria Johrei? E ainda acrescentou, com um sorriso: "Se com o Johrei desse para fazer a criança descer, a religião seria uma maravilha, não é mesmo?".
+
+O marido dessa mulher, embora boa pessoa, era o típico artesão beberrão e preguiçoso. Já tinham cinco filhos e, segundo ela, "se mais um nascer, morreremos todos de fome, pais e filhos". Era um casal que, naturalmente, nunca havia juntado as mãos em prece a Deus ou a Buda; não possuíam sequer um altar para os antepassados. Cerca de seis meses antes, eu havia curado uma doença de um de seus filhos, e na ocasião lhes disse que, sem aprender a reverenciar o sagrado, não poderiam ser felizes. Contudo, não demonstraram o menor interesse em ouvir. Lembro-me de o marido ter interrompido de lado: "Senhor, a boca de um Buda vivo tem prioridade sobre a de um Buda morto".
+
+Tentei explicar a essa estirpe de pessoas tão simples o mistério da concepção, o fato de que no feto em seu ventre, prestes a ser lançado nas trevas, habita uma emanação do espírito de Deus e, por isso, sua vida é sagrada. Mas ela não era alguém que demoveria de seu intento com tais argumentos. Mesmo assim, fiz uma tentativa. Como era de se esperar, ela continha um bocejo. Lembrei-me do ditado: "Adapte o sermão ao ouvinte". Percebendo minha própria ingenuidade, mudei de tática e contei-lhe a história de uma mulher que ficara surda após uma curetagem. Este relato surtiu um efeito imediato. Esse efeito, somado à minha resposta de que, mesmo que ela passasse mal após o procedimento, eu não lhe ministraria Johrei, a fez dizer ao partir: "Acho que vou conversar mais uma vez com o pai das crianças...".
+
+Refletindo mais tarde, ocorreu-me que muitas pessoas que praticam tais atos não compreendem verdadeiramente o destino de ter nascido mulher. Nem sequer lhes passa pela cabeça que ser agraciada com um filho é a vontade de Deus. Além disso, parecia-me que lhes faltava não apenas o senso de pecado, mas até mesmo o sentimento fundamental de vergonha.
+
+O sentimento de vergonha não existe nos animais; é algo que Deus concedeu exclusivamente aos seres humanos. É somente pelo conhecimento da vergonha que a moral e a ordem social podem ser mantidas. Um ser humano sem vergonha não passa de um animal. Vendo essa humanidade que esqueceu o pudor, talvez Deus já esteja a dizer: "Até aqui, e não mais".
+
+O mundo de hoje está em completa desordem. Em completa desordem.
+
+---
+
+# Coletânea de Ensaios do Reverendo Jikan Okada – Fragmentos do Diário de Johrei
+
+**Categoria:** jorei | **Ano:** 昭和26(1951)年3月14日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記抄 槐安生 | **Status:** Published
+
+## Coletânea de Ensaios do Reverendo Jikan Okada – Fragmentos do Diário de Johrei
+
+**Por Kaiansei, publicado na revista Glória, edição nº 95, 14 de março de 1951**
+
+Certo dia, em um certo mês.
+
+Fui visitar o Sr. Nishida, proprietário de um estabelecimento de gêneros alimentícios no próspero centro da cidade A. Sou solicitado por duas pessoas de sua família a lhes ministrar Johrei, duas ou três vezes por mês. Contudo, devido à minha agenda atribulada, nos últimos tempos só pude atendê-los uma única vez. O desejo de ambos não provém de alguma enfermidade específica, mas sim da vontade de receber Johrei regularmente para se fortalecerem espiritualmente. Estou ciente, todavia, de que o principal objetivo de seus chamados é ouvir sobre os Ensinamentos, o que, para mim, constitui um motivo de grande satisfação.
+
+O estabelecimento conta com dois funcionários, mas o fluxo de clientes é incessante. Por essa razão, meu costume é conversar enquanto ministro o Johrei. Ao longo de aproximadamente uma hora, abordo a unidade entre a fé e a vida cotidiana, utilizando exemplos práticos do dia a dia e, ocasionalmente, intercalando a conversa com trocadilhos para descontrair o ambiente.
+
+Em certa ocasião, após um breve preâmbulo – “Tenho notado algo ultimamente...” –, o Sr. Nishida me confidenciou um relato curioso: “Sempre que o senhor nos visita, o movimento da loja aumenta subitamente e, assim que parte, tudo se acalma. O mais intrigante é que, nesses momentos, surgem muitos clientes que realizam compras de alto valor. Causa-me grande estranheza”, concluiu ele.
+
+Ao ouvir suas palavras, pus-me a refletir e percebi que, de fato, era verdade. Embora sempre haja um ou dois clientes na loja, toda vez que estou presente, o fluxo se intensifica a ponto de eu mal ter tempo para me levantar e ministrar o Johrei. Mesmo quando consigo, com esforço, me dirigir à sala reservada, sou constantemente interrompido por um “Com licença”, que me chama de volta à loja. Até então, eu presumia que o estabelecimento fosse sempre assim, agitado. Por isso, minha resposta foi apenas um surpreso “Ah, é mesmo?”. Contudo, eu não conseguia encontrar uma explicação lógica para o fato de as vendas aumentarem tão significativamente apenas durante a minha presença. Poderia se cogitar que a simples presença de alguém como eu intensificasse a Luz Divina no ambiente, mas essa hipótese parecia-me improvável, visto que a família já possui em seu lar um altar com a Imagem de Dai-Komyo-Nyorai e diversas Caligrafias Divinas.
+
+O Sr. Nishida prosseguiu: “Sempre pensei que, para os agricultores que praticam a Agricultura Natural, é fácil calcular as graças recebidas. Para nós, comerciantes, contudo, é difícil distinguir o que provém de nosso próprio esforço e o que é uma bênção divina. Agora, porém, estou convencido de que, quando a Luz Divina se intensifica, recebemos graças na mesma proporção. Se fosse possível, eu lhe pediria que permanecesse aqui todos os dias!”
+
+“Nesse caso, terei de cobrar uma diária generosa!”, respondi em tom de brincadeira, feliz com a constatação. Rimos juntos, mas, por dentro, eu sentia como se tivesse me deparado com uma verdade solene. Embora não seja algo de que me orgulhe, sou geralmente visto como uma pessoa de trato difícil, com uma personalidade que não cativa facilmente os outros. Sendo assim, a minha presença na loja deveria ser, quando muito, um estorvo, e não a causa de um resultado positivo. Como explicar, então, este fenômeno insólito de, ao contrário do esperado, o estabelecimento prosperar? O fato de o próprio dono da loja ter percebido tal ocorrência, algo que passou despercebido por mim, indicava que suas palavras não eram um mero elogio. Tampouco seria plausível aceitar tudo como uma simples sucessão de coincidências.
+
+Talvez as palavras do Sr. Nishida, “Foi porque a Luz Divina se intensificou”, expressassem a mais pura verdade.
+
+Diante do insondável mistério das Caligrafias de Meishu-Sama, que manifestam em obras o poder contido em seu significado, senti brotar em meu coração um sentimento de profunda e sincera gratidão.
+
+---
+
+# Diário de Johrei
+
+**Categoria:** jorei | **Ano:** 昭和27(1952)年2月27日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Diário de Johrei
+
+*Por Enanjo*
+*Publicado na revista Eikou, nº 145, em 27 de fevereiro de 1952.*
+
+Certa manhã, enquanto saboreava uma xícara de chá e percorria com os olhos as páginas do jornal, sem qualquer nexo aparente, a imagem da filha do senhor M. assomou-me subitamente à mente.
+
+Como já fazia alguns meses que não nos víamos, ponderei que seria uma boa oportunidade para visitá-los. De volta, poderia ainda deleitar-me com a paisagem serena das margens do Rio Okawa, onde as aves esvoaçam, renovando assim o espírito. Com esse pensamento, preparei-me apressadamente e saí de casa.
+
+Ao me ver, o senhor M. juntou as mãos em prece e exclamou: "Ah... o senhor chegou em excelente hora! Rogo-lhe que ministre Johrei à minha filha. Foi Deus quem o enviou até aqui."
+
+Sem sequer indagar sobre o estado da jovem, pois já conhecia bem a casa, dirigi-me ao segundo andar. Primeiramente, prestei minhas reverências ao Senhor Komyo Nyorai e, em seguida, voltei meu olhar para o semblante consumido da moça, que repousava em seu leito.
+
+"Mestre, estou passando por uma Purificação muito intensa", disse ela. "Ainda esta manhã, sugeri a meu pai que lhe telefonássemos, mas ele hesitou, dizendo que o senhor é muito ocupado e que seria uma pena incomodá-lo. O ministro da Igreja tem vindo todos os dias, mas desde hoje o sofrimento se agravou sobremaneira... Lembrei-me de que, da última vez que o senhor nos visitou, ocorreu o mesmo: eu pensava 'como seria bom se o Mestre Enanjo viesse agora', e o senhor apareceu. Hoje, novamente, enquanto desejava ardentemente receber seu Johrei, o senhor chegou. Sinto que meu anseio alcançou a Deus, e Ele, em Sua benevolência, atendeu ao meu pedido, enviando-o para me socorrer." E, ao dizer isso, a jovem me ofereceu um sorriso radiante.
+
+Acontecimentos como este, que não podem ser classificados como meras coincidências, ocorreram-me, na verdade, três vezes apenas com a família do senhor M. A primeira vez foi quando sua filha mais velha padecia de um mal que eu jamais vira ou ouvira falar, uma espécie de enrijecimento de todo o corpo. Naquela ocasião, permaneci ao seu lado por três dias e três noites, ministrando Johrei incessantemente. Nas outras duas ocasiões, também cheguei no exato momento em que a família manifestava o desejo de minha presença para ministrar Johrei.
+
+Isso me fez perceber duas coisas com clareza. A primeira é que o pensamento-vontade humano se propaga como a eletricidade, alcançando seu destinatário. A segunda é que esse pensamento chega instantaneamente ao Mundo Espiritual e, de lá, se reflete em nosso plano. Além do pensamento-vontade, fui ensinado de forma contundente sobre a importância crucial da força espiritual da palavra, um poder que no cotidiano é frequentemente subestimado. Ao mesmo tempo, ao intuir a causa da Purificação da jovem, compreendi a grandiosidade do sagrado poder de Meishu-Sama e, com o coração pleno de reverência, ajustei minha postura.
+
+A enfermidade desta moça já perdurava por vinte anos. Tratava-se de uma doença rara e aflitiva, sobre a qual nem mesmo se podia falar abertamente. Embora possa constar nos compêndios de medicina, certamente são raríssimos os médicos que já a presenciaram. Por ser uma doença de tamanha complexidade, mesmo recebendo Johrei há muito tempo, o progresso de sua melhora era quase imperceptível. Sendo mulher, e não homem, seu sofrimento, assim como a angústia de seus pais e irmãos, era indescritível. Após longa e profunda reflexão, o pai decidiu solicitar uma audiência com Meishu-Sama. Eu já podia antever qual seria a orientação de Meishu-Sama, e de fato, confirmou-se. Contudo, o simples fato de terem recorrido a Ele foi suficiente para que, no dia seguinte, a Purificação se iniciasse. Essa tão aguardada Purificação era algo que, até aquele momento, jamais ocorrera. O fato de uma única palavra de Meishu-Sama ter sido capaz de desencadeá-la, acelerando o processo de cura, não pode ser descrito senão como um verdadeiro prodígio divino.
+
+Há ainda outros exemplos análogos. O senhor Koji, que me procurava para receber Johrei por um problema ocular, experimentou uma mudança notável. Depois que relatei seu caso em meu "Diário de Johrei" e o submeti à apreciação de Meishu-Sama, o Johrei passou a ressoar nas profundezas de seus olhos de uma forma que surpreendeu seus amigos. As lágrimas, que antes não vertiam, começaram a jorrar abundantemente. Com isso, tanto eu quanto ele nos rejubilamos, pois agora temos a esperança de que o yakudoku, acumulado por tantos anos, se dissolva e seja expelido como secreção ocular em um tempo surpreendentemente breve, e que seu campo de visão possa se ampliar.
+
+Observamos fenômenos semelhantes nos casos em que se envia um telegrama à Sede Central solicitando Proteção Divina: no exato momento em que a mensagem chega, o milagre acontece. Isso demonstra como a força espiritual das palavras e o pensamento-vontade de Meishu-Sama ecoam vibrantemente no coração dos fiéis. No que tange à minha experiência pessoal, já vivenciei inúmeros exemplos tão assombrosos quanto estes. Jamais ouvi dizer que, desde a aurora da criação, tenham ocorrido milagres tão sublimes.
+
+Tais fatos comprovam, uma vez mais, que Meishu-Sama é o grandioso Messias. Diante disso, senti renovada a inestimável ventura de ser um seguidor da Igreja Messiânica e, do fundo da alma, agradeci a Deus e aos espíritos de meus antepassados.
+
+---
+
+# A Sinceridade Infantil
+
+**Categoria:** jorei | **Ano:** 昭和29(1954)年3月3日 | **Fonte:** Eikou
+**Título Original:** 子供は正直 槐安生 | **Status:** Published
+
+## A Sinceridade Infantil
+Por Kaiansei
+Publicado na revista *Eikou* (栄光), n.º 250, em 3 de março de 1954.
+
+Meu filho, que cursa a terceira série do primário, contendia em voz alta com seus colegas de classe. Ambos, convictos da retidão de suas próprias alegações, não cediam um milímetro sequer. A grande controvérsia, que se prolongou por algum tempo, pareceu, por fim, encerrar-se sem que se chegasse a uma conclusão.
+
+Ao inquirir sobre o teor da discussão, minha esposa e eu nos entreolhamos e sorrimos diante da natureza insólita do assunto.
+
+Acontece que, naquele dia, a tarefa proposta na aula de Estudos Sociais fora a seguinte questão: "Por que as pessoas poupam dinheiro?". A grande maioria dos alunos, ao que parece, respondeu: "Para não passarmos por dificuldades quando ficarmos doentes". Contudo, meu filho foi o único a escrever: "Para gastar tudo de uma vez". (Observação: o menino ansiava por comprar uma bicicleta e, com esse propósito, poupava dez ienes todos os dias.)
+
+Quando o professor, com a intenção de corrigir a resposta do garoto, argumentou: "Mas se você ficar doente e não tiver dinheiro, terá problemas, não é mesmo?", ele teria revidado prontamente: "Por que precisaríamos de dinheiro ao adoecer? Qualquer doença se cura imediatamente com Johrei, sem que se gaste absolutamente nada!".
+
+Nem o professor, nem os colegas de classe, tinham conhecimento do que era o Johrei. Ao ser novamente inquirido sobre o que seria aquilo, o menino, com a franqueza própria da infância, teria explicado: "É Deus quem cura as doenças. Em minha casa, meu pai e minha mãe ministram Johrei e curam qualquer enfermidade, por isso não precisamos de dinheiro".
+
+Aparentemente, para a maioria das crianças, a associação entre doença, médico e dinheiro é imediata e automática. Para meu filho, contudo, a realidade é outra. Ele jamais consultou um médico ou tomou medicamentos, e a noção de que a doença implica, invariavelmente, em despesas financeiras é-lhe completamente estranha. A contenda que prosseguiu após as aulas entre os garotos travessos foi, de certa forma, divertida, por reproduzir fielmente as disputas do mundo adulto, com acusações de "É superstição!", "É mentira!", ou "Deus está lá no oratório de casa!".
+
+Todavia, é de se lamentar a triste condição a que essas crianças foram submetidas. Desde a mais tenra idade, foram adestradas a associar, por reflexo, a palavra "doença" a "médico" e "dinheiro". E essa resposta condicionada, por incrível que pareça, é louvada pela sociedade como a correta. Essa mesma ilusão dogmática, que rotula a fé em Deus como superstição, é a responsável pela criação de leis como a da vacinação obrigatória. Diante de tal cenário, a superstição atinge um patamar tão absurdo que não nos é mais permitido silenciar.
+
+Aqueles que foram desafortunados por uma educação escolar que despreza a religião acabam por negar não apenas a Sekaikyuseikyou, mas a própria existência da fé, que julgam ser uma superstição destinada a iludir as massas ignorantes. Em contrapartida, a alma pura de uma criança, ainda não contaminada por essa erudição imersa em trevas, crê de modo absoluto no Johrei ministrado por seus pais como o meio infalível para a cura de seus males.
+
+Portanto, até mesmo no universo da mais tenra infância, nota-se uma profunda diferença: a criança criada por pais sem fé encontra-se acorrentada aos conceitos de doença, pobreza e conflito. Em contrapartida, aquela que conhece o Johrei já se vê, desde cedo, liberta do sofrimento que emana dessa tríade.
+
+Entre a palavra daquele que conhece a Verdade e as afirmações delirantes daquele que a ignora, qual delas havemos de considerar justa e qual, maligna?
+
+Não resta dúvida de que Deus e o Tempo se encarregarão de proferir o justo julgamento.
+
+---
+
+# Diário de Johrei (Extraído da Coletânea de Milagres da Sekaikyuseikyou)
+
+**Categoria:** jorei | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 浄霊日記 槐安生 （江川勝利） | **Status:** Published
+
+## Diário de Johrei (Extraído da Coletânea de Milagres da Sekaikyuseikyou)
+
+Em um certo dia, de um certo mês.
+
+“Cuide desta criança por um instante, por favor.” Com essas palavras, nossa vizinha deixou conosco sua filha de cinco anos. Era a mesma história de sempre. Troquei um sorriso cúmplice com minha esposa. O rosto da menina, manchado de lágrimas e secreção nasal, denunciava um choro recente. “Está com dor de barriga?”, perguntei. “Sim. Por favor, me ministre Johrei”, respondeu ela. Como já havíamos curado suas dores de cabeça e de estômago com Johrei em duas ou três ocasiões, sempre que adoece, ela vem até nós pedindo: “Tia, por favor, me ministre Johrei”.
+
+As crianças são de uma pureza admirável. Seus pais, contudo, por orgulho e preocupação com as aparências, embora tivessem plena consciência da eficácia do Johrei, jamais o pediam diretamente. Em vez disso, recorriam ao pretexto de nos pedir que cuidássemos da filha por um momento. Então, calculando o tempo necessário para a ministração, retornavam para buscá-la com um “Muito obrigada”.
+
+Por vezes, essa tática tão transparente chega a me irritar, mas reconsidero ao pensar que a criança não tem culpa de nada e, assim, oro a Deus e ministro-lhe Johrei. Cerca de trinta minutos depois, como de costume, a mãe veio buscar a filha, agradecendo por nossa atenção.
+
+Sugeri que a menina talvez tivesse vermes e que deveria trazê-la novamente. “Ah, então era por isso que ela andava tão chorosa”, respondeu a mãe em tom de sarcasmo. “Vou comprar-lhe um vermífugo imediatamente.” E assim partiu.
+
+É raro encontrar um casal de índole tão retorcida quanto esses vizinhos. Eles presenciaram a cura da perna de minha esposa, uma graça concedida por Deus, mas se recusam a reconhecê-la, afirmando que “simplesmente havia chegado a hora de sarar”. Apesar disso, quando a filha adoece, trazem-na para que “cuidemos” dela, jamais pronunciando o pedido de Johrei. Mesmo quando entram em nossa casa, desviam o olhar, evitando a todo custo fitar o sagrado Pergaminho de Komyo Nyorai. Se porventura mencionamos o nome de Deus, eles imediatamente mudam de assunto.
+
+Lembro-me de quando a vizinha, prestes a dar à luz, sofreu uma crise de hemorroidas tão severa que a dor a impedia de dormir. Recorreu a um hospital, onde foi submetida a uma cirurgia. Naquela noite, contudo, a dor se tornou ainda mais excruciante, levando-a a suar frio, provavelmente porque a incisão foi feita antes que o abscesso estivesse completamente supurado. Nessa ocasião, ela veio nos procurar, pedindo que lhe fizéssemos “uma simpatia”. Ministrei-lhe Johrei e, após cerca de duas horas, uma grande quantidade de pus foi expelida. Naquela noite, ela conseguiu dormir profundamente, um alívio pelo qual veio nos agradecer.
+
+Quando lhe sugeri que recebesse o Ohikari para rogar pela proteção Divina, ela se esquivou com uma resposta vaga: “Quem sabe uma próxima vez...”. Embora seja hábil nos negócios, ao que parece por meio de práticas desonestas, é uma avarenta notória, o que lhe rendeu a antipatia de toda a vizinhança. Se sua filha cai na rua, ninguém se dispõe a ajudá-la a se levantar. As outras crianças, naturalmente, não brincam com ela, razão pela qual a menina passa tanto tempo em nossa casa. O casal, por sua vez, sofre perdas financeiras inesperadas com acidentes e infortúnios envolvendo seus empregados, o que parece apenas aguçar ainda mais sua cobiça.
+
+Certa vez, ensinei-lhes que, por meio da fé, o dinheiro não lhes escaparia de casa, ao que me acusaram de tentar ludibriá-los. Aparentemente, também lhes desagrada o fato de que, desde que nos tornamos membros da Sekaikyuseikyou, nosso lar se tornou mais iluminado e nossa vida, mais estável.
+
+Com relação a eles, desisti completamente. Talvez, em algum momento de suas vidas, surja a ocasião em que sintam a necessidade de se apegar a Deus. Minha única apreensão é se despertarão a tempo para o Julgamento Divino.
+
+(17 de julho de 1951)
+
+---
+
+# Diário de Johrei
+
+**Categoria:** jorei | **Ano:** 昭和26(1951)年7月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Diário de Johrei
+*Por Kaiansei*
+*Extraído do Jornal Chijo Tengoku, nº 26, 25 de julho de 1951*
+
+Certo dia, de um certo mês.
+
+Eu me perguntava o que teria acontecido com o professor Nakayama. Justamente quando comentávamos sobre ele, de quem meu filho é aluno na escola, o próprio professor apareceu em nossa casa após uma ausência de seis meses, dizendo: "Há quanto tempo não nos vemos!". Um de meus familiares, surpreso, comentou: "É verdade o que dizem: basta mencionar uma pessoa para que ela apareça". O professor, homem de bom coração, disse com um sorriso sem graça: "Vim porque gostaria de receber Johrei novamente".
+
+Ele descreveu seus padecimentos: insônia, dores de estômago incessantes e uma sensação que subia ao peito de cinco a seis vezes ao dia. A cada episódio, sentia o coração comprimido, como se a respiração fosse cessar. Consultara três médicos diferentes, sem obter melhora. Um deles afirmou que, embora não se tratasse de algo grave, a condição era crônica e recomendou que ele parasse de fumar, passasse a se alimentar de pão em porções controladas para manter-se sempre com um pouco de fome e que tivesse paciência em seu tratamento. Outro, por sua vez, diagnosticou uma enfermidade raríssima, que acomete uma em cada dez mil pessoas, e declarou que a única via para a cura seria a terapia alimentar.
+
+Sorrindo, comentei em tom de brincadeira: "Nesse caso, se o senhor for curado, será o mesmo que curar dez mil pessoas". E então iniciei o Johrei.
+
+A história do professor Nakayama conosco começara no ano anterior. Atormentado por um eczema severo, seus tratamentos hospitalares se mostravam infrutíferos. Certo dia, ele perguntou a seus alunos se algum deles era seguidor da religião da Luz Divina. Meu filho levantou a mão, e o professor lhe pediu: "Fale com seu pai para que ele me aplique essa prática chamada Johrei". Naquela mesma noite, ele veio recebê-lo. Contudo, uma semana depois, ele retornou para se despedir, informando que iria para as fontes termais de Kusatsu. A viagem fora uma imposição velada do diretor da escola, que insistia que as águas o curariam de imediato. Desde então, não havíamos tido mais notícias.
+
+Meu discernimento foi que a imersão nas fontes termais solidificou as toxinas em seu corpo, o que provocou uma rápida deterioração de seu estômago, um órgão que até então não apresentava problemas tão sérios. O professor, por sua vez, sentia-se constrangido por ter interrompido o Johrei no meio do processo, e essa vergonha o impediu de nos procurar antes. Recorreu, então, aos médicos, mas como não obteve sucesso, sua visita representava um último apelo ao poder divino.
+
+Com uma única sessão de Johrei, ele conseguiu dormir profundamente naquela noite, e as crises de ascensão da dor reduziram-se a apenas duas. "O Johrei realmente funciona!", ele exclamou, satisfeito.
+
+No entanto, na quinta sessão, uma crise o acometeu assim que o Johrei terminou. No dia seguinte, o mal-estar se manifestou durante a própria ministração. Para mim, era evidente que as toxinas solidificadas estavam vindo à superfície, e eu tinha a convicção de que, se ele superasse essa barreira temporária, alcançaria a cura. Esforcei-me para explicar-lhe detalhadamente este processo, mas, a partir do sétimo dia, ele não retornou mais.
+
+Senti profundamente a minha própria insuficiência e pedi perdão a Deus. Tempos depois, ao perguntar a meu filho sobre o professor, soube que ele estava frequentando um médico da vizinhança. Fui informado também que, quando as crises o acometiam e sentia o coração prestes a parar, ele clamava em desespero pelos nomes de todas as divindades que conhecia: Kurama-sama, Nichiren-sama, Tenri-O-no-Mikoto, entre outras.
+
+Senti uma profunda desolação. Como pode alguém com um desejo tão intenso de se apegar a Deus ser incapaz de se entregar e confiar em Komyō Nyorai-sama (光明如来様)? A causa, certamente, reside em minha própria falta de força espiritual e na grande quantidade de máculas que ainda possuo. E assim, fui tomado por um sentimento de autorrecriminação.
+
+---
+
+# Diário de Johrei
+
+**Categoria:** jorei | **Ano:** 昭和26(1951)年10月31日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Diário de Johrei
+
+*Por Kaiansei*
+*Publicado originalmente na revista "Eikô" (Glória), n.º 128, em 31 de outubro de 1951*
+
+Certa noite, a esposa do proprietário da Papelaria Yamakawa adentrou, saudando-me. Movendo com certo embaraço seu corpo volumoso, sua postura, diversa da habitual, levou-me a intuir de imediato que vinha em busca do Johrei.
+
+— Pois bem... a filha da minha vizinha restabeleceu-se por completo, e eu vim tanto para expressar a gratidão dela quanto para fazer um pedido para mim. A vizinha mandou-lhe entregar isto, pedindo desculpas por ser apenas uma pequena atenção — disse ela, estendendo-me um pacote que continha pães.
+
+Em seguida, prosseguiu:
+
+— Ela está radiante. Em apenas um dia, a dor da criança cessara; no segundo, o inchaço diminuíra, permitindo-lhe retornar à escola com vigor. Ontem mesmo, ao voltar ao consultório, o médico afirmara que a cura estava completa e novas consultas eram desnecessárias.
+
+Assim, ela me atualizava sobre a menina com otite, ausente nos últimos dois dias.
+
+A menina, aluna da segunda série do primário, contraíra uma otite média após entrar água em seu ouvido direito na piscina da escola. Por mais de um mês, frequentou consultórios médicos, submetendo-se a dez injeções de penicilina, a quinhentos ienes cada, além de sessenta ienes por procedimento, sem obter melhora alguma. Diante do impasse, o médico propôs uma cirurgia para raspar o osso, ressalvando, contudo, que não poderia garantir a cura. A mãe, aflita com a possibilidade de uma cicatriz no rosto da filha prejudicá-la em idade de casamento, procurou-me por indicação da proprietária da papelaria. Ela acrescentou que o médico havia comentado que “a cura viria se o pus fosse expelido” e, ademais, que a criança “sofria de desnutrição”. Isso ocorrera cerca de dez dias antes, quando a mãe a trouxera pela primeira vez.
+
+A afirmação de que a cura depende da expulsão do pus é correta. Todavia, administrar injeções de penicilina, cuja função é justamente suprimir o pus, constitui um manifesto paradoxo. Senti-me diante de uma prova cabal dos equívocos da medicina moderna.
+
+Ponderei que o tratamento poderia se prolongar um pouco devido às injeções, por isso disse à mãe que a enviasse todos os dias após a escola. Durante o Johrei, constatei não apenas a afecção no local, mas também severas cristalizações na região que se estende da nuca ao bulbo raquidiano, além de um processo de purificação no estômago. Isso explicava suas dificuldades com as aulas e as tarefas escolares. A causa da desnutrição também residia aí. Ao explicar que não apenas o ouvido, mas todo o seu corpo melhoraria, a mãe se alegrou e pediu que eu cuidasse de sua filha, embora observasse o procedimento com uma expressão que denotava certa desconfiança. O resultado, entretanto, foi a cura completa da otite em apenas três sessões de Johrei.
+
+Fiquei, contudo, atônito ao saber que, concomitantemente ao Johrei, a menina continuava a frequentar o médico. Eu havia explicado à mãe sobre as toxinas medicamentosas e lhe dissera para remover a gaze que mantinha no ouvido. Vendo que ela não o fazia, não me cabia removê-la à força. Foi um descuido de minha parte não ter percebido que aquela gaze era substituída diariamente no consultório. O médico, segundo relatos, também estranhou a melhora súbita, comentando: “Que curioso...”. A esposa do papeleiro, então, estendeu-se em detalhes supérfluos:
+
+— A vizinha disse que, como não precisa mais gastar com o médico, no dia seguinte iria às lojas de departamento fazer compras.
+
+Diante disso, não pude deixar de sorrir e comentar: “Então, o agradecimento a Deus são dez pãezinhos doces?”. Minha esposa interveio: “Ainda assim, sentirei uma certa nostalgia ao pensar que aquela menina não virá mais”. A imagem adorável daquelas crianças surgiu em minha mente. Talvez por timidez, ela sempre vinha acompanhada de uma amiga. Anunciavam sua chegada com um “Com licença” em uníssono, depositavam suas mochilas e sacolas e sentavam-se diante de mim com uma postura impecável. Ao partir, despediam-se com um sonoro “Até logo”, também em perfeita sintonia.
+
+A esposa do papeleiro sofre de uma obesidade edematosa. Sente o corpo pesado, das pernas ao quadril, e padece com falta de ar, irregularidades menstruais e dores de cabeça. É uma pessoa que frequentemente se queixa de ter perdido o gosto pela vida. Há dois anos venho lhe falando sobre o Caminho da Fé, mas ela sempre rechaçou a ideia, considerando inconcebível que uma doença pudesse ser curada por um método tão “absurdo”. O recente e acelerado aumento de peso, no entanto, a fez lembrar-se de mim e indicar-me à sua vizinha. Contudo, ao testemunhar um resultado de eficácia incomparavelmente superior ao da medicina, a ponto de não admitir comparação, ela finalmente se dispôs a receber o Johrei. Eis o motivo do sentimento complexo que me acometeu quando ela adentrou e pensei: “Finalmente, ela veio”.
+
+É natural que o Johrei não convença apenas por palavras. Muitos, aliás, chegam a pensar que os testemunhos de graças publicados na revista “Eikô” são invenções, talvez pela semelhança de estilo. A grande empreitada consiste em levar essas pessoas a experimentá-lo ao menos uma vez. Somente após a vivência é que elas passam a conhecer o poder de Deus. Esta é uma falha comum entre os habitantes das cidades. A mentalidade predominante em nossa época é a mesma da mãe daquela menina: as pessoas se sacrificam para pagar os altos custos dos tratamentos médicos, mas relutam em oferecer sequer uma pequena gratidão a Deus, que lhes concede a cura sem dor.
+
+No momento do Juízo Final da humanidade, que se aproxima inexoravelmente, indago-me se aqueles que hoje escarnecem e difamam nossa obra de salvação virão, assim como a esposa do papeleiro, curvar a cabeça e implorar por auxílio, com o semblante envergonhado. Tal pensamento me é, ao mesmo tempo, aprazível e melancólico.
+
+(5 de outubro de 1951)
+
+---
+
+# Coleção de Teses do Reverendo Jikan Okada
+
+**Categoria:** jorei | **Ano:** 昭和29(1954)年1月1日 | **Fonte:** Eikou
+**Título Original:** 馬の耳にお守り ――地上天国の表紙の奇蹟 槐安生 | **Status:** Published
+
+## Coleção de Teses do Reverendo Jikan Okada
+Pesquisa de Ensinamentos: help Pesquisa de Materiais:
+
+## Um amuleto na orelha do cavalo – O milagre da capa da revista Paraíso Terrestre
+Por Kaiansei
+Revista Eikou, nº 241, publicada em 1º de janeiro de 1954
+
+Provérbios como “entoar sutras a um cavalo” ou “vento do leste na orelha do cavalo” são transmitidos de geração em geração para satirizar aqueles que não creem na existência de Deus. Contudo, se os cavalos pudessem expressar sua queixa, talvez considerassem tais ditos uma grande injustiça. A razão para tal objeção reside na antiga e difundida fé em Batō Kannon (馬頭観音), a deidade protetora dos cavalos. Não se trata, por certo, de uma fé professada pelo próprio animal, mas sim de um costume de seus proprietários, que rogam a Kannon (観音) pela proteção de seu estimado cavalo.
+
+Ainda que essa devoção tenha origem no egoísmo humano, entrelaçando o afeto pelo animal com interesses de ganhos e perdas, Deus acolhe essas preces e derrama Sua graça até mesmo sobre os cavalos, que jamais despertariam para a fé, ainda que ouvissem um milhão de sutras. Essa benevolência grandiosa e ilimitada oferece uma resposta clara à pergunta metafísica “O que é Deus?”: “Deus é Amor”.
+
+O advento da Sekaikyuseikyou, a religião dos milagres, veio para solucionar os três grandes sofrimentos inerentes à condição humana: a doença, a pobreza e o conflito. Sua obra de salvação se estende desde os pequenos animais, como gado, cavalos, cães e gatos, até os frágeis peixes dourados. Tal fato é evidenciado pelos milhões de testemunhos de graças alcançadas, narrados por nossos membros.
+
+O relato inspirador que intitula este artigo, “Um amuleto na orelha do cavalo”, é precisamente uma dessas maravilhosas narrativas. Trata-se de um espantoso relato de um milagre presenciado por um não membro, que ouvi e transcrevi na companhia do Reverendo Akitsushima, responsável da Igreja Kongo. No âmago da atitude desse não membro, residia a devoção a Batō Kannon (馬頭観音) e, inspirado pelos amuletos utilizados pelos membros da Sekaikyuseikyou, ele concebeu a ideia de colocar um amuleto na orelha de seu cavalo.
+
+O protagonista desta história é o senhor Yoshio Yakuwa, um homem de trinta e dois anos residente na vila de Takakushi, no distrito de Higashimurayama, província de Yamagata. Seu irmão mais novo, Shiramatsu, já havia trabalhado com uma carroça e um cavalo, os quais eram devidamente protegidos. Após a emancipação de seu irmão, Yoshio decidiu seguir o mesmo ofício. Adquiriu um cavalo, mandou construir uma carroça, mas se viu diante de um dilema: como obter um amuleto protetor para o animal?
+
+Ele sabia que o irmão nunca sofrera um único acidente graças a uma imagem de Kannon (観音) costurada na bolsa que o cavalo levava na orelha. Como o amuleto do irmão fora um presente de seu tio, membro da Sekaikyuseikyou, Yoshio foi prontamente procurá-lo para pedir um igual. Contudo, o tio explicou que o amuleto dado a Shiramatsu era uma imagem de Deus que adornara a capa de uma edição especial da revista *Kyusei* – precursora da *Eikou* – e que ele possuía apenas aquele exemplar. Diante da situação, o tio sugeriu uma alternativa: removeu a capa da revista *Paraíso Terrestre* e a entregou a Yoshio, para que servisse como amuleto para o cavalo.
+
+Mal poderia imaginar o tio, o senhor Shoichi Kato, que a capa da revista, dobrada e inserida na bolsa junto à orelha do animal, viria a salvar o cavalo e a carroça de um terrível perigo.
+
+× × ×
+
+Segurando as rédeas da carroça carregada de madeira, Yoshio adentrava uma estreita vereda na montanha. O solo, fragilizado pelas chuvas prolongadas, não suportou o peso do veículo e, num piscar de olhos, a beira do penhasco cedeu. A carroça começou a deslizar, arrastando o cavalo consigo em direção a um precipício de mais de seis metros de altura. Incapaz de conter o peso avassalador do conjunto, Yoshio largou as rédeas. Por um desígnio da sorte, elas se enroscaram na raiz de uma árvore a meio caminho da encosta, detendo a queda. O cavalo e a carroça ficaram imobilizados, tombados de lado. Com a boca repuxada com força pelas rédeas presas à raiz e o ventre pressionado pela haste da carroça, o animal se debatia em agonia, sem conseguir se levantar.
+
+“Preciso cortar as rédeas para salvar o cavalo!”, pensou Yoshio. Em desespero, tentou desatá-las, mas a tensão causada pelo peso da carga tornava a tarefa impossível. No alto do penhasco, os aldeões que presenciavam a cena gritavam, alarmados. “Alguém tem uma faca para cortar as rédeas?”, bradou ele, mas, para seu infortúnio, ninguém possuía. Ao pensar que o cavalo poderia morrer ali, Yoshio sentiu o sangue subir-lhe à cabeça. Imagens de todo o esforço para adquirir o animal e da alegria ao levá-lo para o estábulo surgiram em sua mente como um carrossel de memórias. “Coloquei o amuleto na orelha do cavalo, mas será que não houve bênção para mim? Ah...”, lamentou.
+
+Foi no exato instante em que Yoshio exalou esse suspiro de desolação que o inacreditável aconteceu. O cavalo deu um salto súbito, girou no ar como se executasse uma cambalhota e aterrissou de pé sobre a madeira empilhada na carroça. Um “Ah!” de espanto ecoou não apenas de Yoshio, mas de todos que assistiam do alto do penhasco.
+
+A correia que prende a sela do cavalo à haste da carroça é extremamente robusta, projetada para não se soltar nem mesmo sob a tração de cargas pesadas. É um mecanismo que jamais se desprende sem a intervenção do condutor. Ademais, as rédeas estavam tão firmemente presas à raiz da árvore que o próprio Yoshio, momentos antes, não conseguira desatá-las. Como, então, poderiam ter se soltado com o simples debater-se do animal? Era inconcebível. No entanto, tanto a correia da sela quanto as rédeas se liberaram em um piscar de olhos. O cavalo, cujo destino parecia ser o de cair no precipício e quebrar as patas, não apenas se libertou da sela, como também realizou um salto acrobático e pousou sobre a carga de madeira, sem um único arranhão.
+
+“É um milagre! Um verdadeiro milagre! Valeu a pena ter colocado o amuleto no cavalo!”, exclamou Yoshio, em êxtase. Para retirar a carroça, já descarregada, do penhasco, os aldeões levaram duas horas, abrindo um caminho na encosta. Por fim, com o esforço conjunto de muitas pessoas, conseguiram içá-la. E, para o espanto de todos, o veículo também não apresentava o menor sinal de dano.
+
+“Se a simples capa de uma revista lhe concedeu uma bênção tão grandiosa, imagine a graça inestimável que se pode receber de um amuleto verdadeiro, outorgado por Meishu-Sama! Você recebeu esta imensa proteção, portanto, deve ingressar na Fé imediatamente”.
+
+Instruído por seu tio, Yoshio preparou um envelope com mil ienes, no qual escreveu “Em gratidão pela Proteção Divina”, e o trouxe ao Reverendo Akitsushima, como uma oferenda destinada a Meishu-Sama.
+
+---
+
+# Da Coletânea de Teses do Mestre Jikan Okada – Diário de Johrei, por Kaiansei
+
+**Categoria:** jorei | **Ano:** 昭和27(1952)年8月6日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Da Coletânea de Teses do Mestre Jikan Okada – Diário de Johrei, por Kaiansei
+Revista Glória, nº 168, 6 de agosto de 1952
+
+Certo dia, de um certo mês.
+
+“Aquela jovem... que semblante belo ela tem, não é mesmo?” – exclamou minha esposa, como se não pudesse conter sua admiração, após nossas duas visitantes partirem.
+
+“Sim. É graças ao Johrei. Talvez soe repetitivo dizer isto a esta altura, mas, ao contemplar o semblante daquela jovem hoje, senti que me foi ensinado mais uma vez o quão sublime é o Johrei. Embora já tenhamos a convicção de que não existem limites para o Johrei – que seu poder, atuando sem quaisquer obstáculos, e a Proteção Divina que recebemos são proporcionais à profundidade e à pureza da fé de cada um –, a rapidez com que o rosto daquela moça se transformou foi, de fato, absolutamente espantosa.”
+
+Ato contínuo, passei a relatar sucintamente à minha esposa o que eu sabia sobre a jovem desde que a conheci.
+
+Meu primeiro encontro com a senhorita Fujimura Miyoko deu-se há aproximadamente um ano. Foi na residência da senhora Akiyama, uma fiel de longa data, onde se realizava uma reunião informal com membros e pessoas ainda não-filiadas. Naquela ocasião, fui convidado a falar e disertei por cerca de duas horas sobre a verdadeira essência da Sekaikyuseikyou. Ao final da explanação, anunciei: “Aqueles que desejarem experimentar o Johrei, por favor, permaneçam sem hesitar”. Três não-membros manifestaram interesse e ficaram. A senhorita Fujimura Miyoko era uma delas.
+
+“Qual é o seu problema de saúde?”, perguntei-lhe. “Tenho um problema na cabeça...”, respondeu ela com uma voz tão baixa que quase se desvaneceu. Ao término do Johrei, eu disse aos presentes: “Os senhores acabam de vivenciar o Johrei pela primeira vez e, creio eu, puderam ao menos compreender que se trata de algo muito agradável. A partir de amanhã, continuem a receber Johrei com a senhora Akiyama para que recuperem a saúde o quanto antes. Assim, à medida que suas enfermidades forem curadas, compreenderão naturalmente o que é a religião messiânica e tudo o que explanei há pouco.” Lembro-me claramente de ter dito essas palavras.
+
+A partir de então, passei a visitar a casa da senhora Akiyama uma vez por mês, com a incumbência de proferir palestras aos que ali se reuniam. Nessas ocasiões, a senhorita Fujimura invariavelmente comparecia para ouvir a palestra e receber meu Johrei, retornando sempre para casa com alegria. Foi durante a segunda vez que lhe ministrei Johrei que vim a saber que sua enfermidade era epilepsia. Senti uma profunda compaixão por ela e, sem a intenção de meramente observá-la, passei a acompanhá-la com especial atenção.
+
+Ela devia ter pouco menos de vinte anos. Sua palidez era tão anormal que, sem exageros, sua aparência se assemelhava à de um espectro, causando um certo desassossego. Ademais, seu rosto estava coberto por pequenas erupções cutâneas que lhe conferiam um aspecto desagradável, e as roupas que vestia não pareciam ser de boa qualidade. A impressão que ela me transmitiu naquele dia pode ser resumida em uma única palavra: melancolia. Cheguei a me perguntar se aquela jovem algum dia já havia sorrido.
+
+Segundo me explicou a senhora Akiyama, desde aquele primeiro encontro, ela vinha recebendo Johrei diariamente, sempre ao entardecer. “Vem na volta do trabalho?”, perguntou-lhe a senhora Akiyama. “Sim...”, respondeu a jovem, um tanto encabulada, mencionando o nome da fábrica onde trabalhava. Ela contou ainda: “Por causa desta doença, eu nunca tinha ido ao cinema. Mas, depois que comecei a receber Johrei, ouvi uma voz em minha mente, como um sussurro ao pé do ouvido, dizendo: ‘Agora você pode ir ao cinema, não haverá problema’. Encorajada por essa voz, fui algumas vezes à sala de projeção”. As crises, segundo relatou, tornaram-se gradualmente mais brandas e espaçadas. A mãe da jovem chegou a visitar a senhora Akiyama para expressar sua gratidão.
+
+Ao narrar estes fatos, a senhora Akiyama demonstrava uma alegria genuína. Enquanto a ouvia, contudo, franzi o cenho, questionando-me se não se trataria de uma alucinação auditiva, algo comum em pessoas com certas debilidades. No entanto, ao inquirir mais detalhadamente, compreendi que minha preocupação era infundada; aquilo, na verdade, revelava a profundidade e a pureza da fé daquela jovem.
+
+Na terceira vez que a vi, passados três meses de nosso primeiro encontro, sugeri-lhe que ingressasse na fé para receber o O-mamori, e que entronizasse em seu lar um altar para os antepassados com uma Imagem de Kannon em biombo, a fim de realizar as devidas práticas de gratidão. “Sim, farei isso”, anuiu ela, com docilidade.
+
+A senhora Akiyama também reiterou o mesmo conselho em diversas ocasiões. Certo dia, porém, a mãe da moça a procurou e, expondo a difícil situação familiar, suplicou: “Gostaria muito que minha filha ingressasse na fé para receber a Proteção Divina, mas, no momento, o pai dela está praticamente desempregado. Peço que cuidem dela por mais um tempo”. Compreendi a angústia daqueles pais, que, por necessidade, precisavam enviar uma filha, sujeita a desmaiar a qualquer momento, para trabalhar em uma fábrica, onde estaria exposta a perigos. Senti compaixão por eles.
+
+Transcorrido mais um mês, vi a jovem chegar, cumprimentar a senhora Akiyama dizendo “desculpe-me pelo atraso”, e dirigir-se ao Altar Divino para orar com profunda reverência. Fiquei estarrecido com a notável transformação em seu rosto; estava extraordinariamente mais bela. A palidez espectral e as desagradáveis erupções cutâneas do primeiro encontro haviam desaparecido por completo, dando lugar a uma fisionomia radiante, própria de uma moça de sua idade. “Senhor Kaian, não acha que o rosto da Fujimura se tornou muito bonito? Ela ficou assim, uma bela jovem, de repente, após a última purificação que teve”, comentou a senhora Akiyama, com um ar de orgulho.
+
+Sendo o Johrei um processo de purificação do sangue, é natural que, além de curar doenças, embeleze a fisionomia da pessoa; os exemplos disso são inumeráveis. Na verdade, pode-se dizer que, sem exceção, a aparência dos fiéis adquire uma coloração saudável, desprovida daquele tom escuro e opaco comum em outras pessoas. O semblante de um fiel, livre dos três sofrimentos fundamentais – doença, pobreza e conflito – pela Graça de Deus, é sereno como o sol da primavera. Portanto, é de se esperar que a fisionomia de alguém mude após receber Johrei imbuído de sinceridade por dois ou três meses. O que me deixou maravilhado, no caso da senhorita Fujimura Miyoko, foi a velocidade notável com que essa transformação ocorreu.
+
+“Senhorita Fujimura, no seu caso, é melhor não usar maquiagem, como fazem outras moças”, comentei, talvez de forma um tanto impertinente. A senhora Akiyama, em tom de brincadeira, acrescentou: “Se colocássemos uma placa anunciando ‘Curso Rápido de Beleza’, teríamos uma multidão de jovens querendo se tornar membros, não é mesmo?”
+
+Soube mais tarde que a moça, de seu parco salário, começara a guardar uma quantia fixa todo mês, entregando-a à senhora Akiyama como preparo para seu ingresso na fé. Calculei mentalmente que, naquele ritmo, levaria quase um ano. “Será que eu deveria ajudá-la?”, ponderei. Inúmeras vezes estive a ponto de oferecer-lhe auxílio. Contudo, recordei-me de vários precedentes em que, movido por uma compaixão superficial, acabei obtendo o efeito contrário; foram situações em que uma benevolência de esfera menor gerou o mal. Assim, toda vez que o sentimento de pena pela jovem aflorava, eu reprimia essa compaixão e emoção fáceis, repetindo para mim mesmo como um mantra: “Sabedoria Maior, Sabedoria Maior”.
+
+Posteriormente, devido a uma purificação minha e a uma certa indisposição para sair, deixei de comparecer às reuniões na casa da senhora Akiyama por quatro ou cinco meses. Consequentemente, perdi todo o contato com a senhorita Fujimura. Hoje, porém, para minha surpresa, ela apareceu em minha humilde residência, acompanhada pela senhora Akiyama.
+
+“Graças a Deus, meu pai conseguiu um emprego, e pude ingressar na fé antes do previsto. Eu queria muito agradecer-lhe pessoalmente, senhor Kaian, por isso pedi à tia Akiyama que me trouxesse até aqui”, disse a senhorita Fujimura. Seu rosto estava ainda mais radiante do que da última vez. A compleição, que antes me parecia carecer de um tom mais rosado, agora o exibia, revelando o semblante de uma jovem plena de saúde.
+
+“O ministro da Igreja, ao me outorgar o O-mamori, alertou-me que eu poderia ter uma purificação, mas que não deveria me preocupar. E, de fato, a partir daquele dia, tive uma purificação que me fez repousar por uma semana. Pedi ao meu pai que contatasse a senhora Akiyama para que eu pudesse receber Johrei, mas tanto ele quanto minha mãe disseram: ‘Você já recebeu o O-mamori, então ministre Johrei em si mesma’. E foi o que fiz”, contou ela, rindo com simpatia.
+
+“Meu pai e minha mãe ainda não ouviram as explanações dos senhores ministros, mas, ao verem a cura da minha doença, sentem uma imensa gratidão pela Graça de Deus. Seus corações já se tornaram inteiramente fiéis.”
+
+Enquanto falava, visivelmente feliz, seu rosto corava cada vez mais, numa conflagração de três alegrias: a de ter sido salva por Deus de uma doença terrível, a de ter realizado o antigo desejo de ingressar na fé, e a de ver seus pais abrirem o coração para crer em Deus.
+
+“Sinto como se esta moça fosse minha própria filha, que criei com todo o desvelo”, disse a senhora Akiyama, e em suas palavras não havia o menor traço de afetação, o que me causou a melhor das impressões.
+
+“Com a senhora Akiyama a orientando, a fé dessa jovem jamais vacilará. Podemos ficar tranquilos.”
+
+Minha esposa, ao que parece, tem grande apreço pela senhora Akiyama, por sua gentileza e profunda devoção.
+
+---
+
+# Diário da Purificação
+
+**Categoria:** jorei | **Ano:** 昭和27(1952)年7月2日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Diário da Purificação
+*Por Kaiansei, publicado na revista Eikō, nº 163, em 2 de julho de 1952.*
+
+Certo dia, em certo mês.
+
+Há muitos anos, as toxinas vêm se acumulando e solidificando na região que vai da nuca ao bulbo raquidiano. Minha força vital se esvaiu por completo, e já não consigo manter a perseverança em atividade alguma. O esquecimento tornou-se severo, embora, paradoxalmente, eu não consiga apagar as lembranças desagradáveis de antes de minha conversão à fé, justo aquelas que mais anseio por esquecer. Mesmo quando um membro vem conversar comigo, não suporto permanecer sentado por muito tempo e, de súbito, como se possuído por um espírito, mergulho em silêncio. Sei que, se este quadro se agravar, as consequências serão irreversíveis.
+
+Para me curar antes que isso ocorra, a única, a primordial solução é o Johrei. Talvez por pensar assim, minhas mãos se dirigem inconscientemente à nuca. Graças à minha condição de membro da Igreja Messiânica, percebo rapidamente onde está meu problema e recorro ao Johrei. Contudo, fico a me perguntar: como será para as pessoas do mundo? Inevitavelmente, passo a observá-las com mais atenção. Noto que o acúmulo de toxinas na cabeça, em maior ou menor grau, parece ser um mal comum a todos. Seus rostos são descorados, seus olhos carecem de brilho e seus semblantes transmitem um ar vago e alheio. Ao ler os obituários nos jornais, vejo que a maioria das mortes, mesmo entre os jovens, decorre de enfermidades na cabeça. Há apenas dois ou três dias, o vigoroso dono do restaurante Take Sushi, que preparava sushis com a faixa amarrada à testa, sofreu uma hemorragia cerebral. O proprietário da loja de doces, que vivia recluso por conta de uma hemiplegia, também faleceu, e hoje é seu funeral.
+
+Será que, enfim, chegou a minha vez? Sou levado a cogitar pensamentos funestos. Todavia, graças à fé messiânica, pude compreender o significado do problema da vida e da morte, que nem mesmo a filosofia mais profunda consegue resolver. Aos poucos, adentro um estado de espírito no qual tanto a vida quanto a morte são fontes de alegria. Por isso, surpreendentemente, o temor da morte já não me afeta de forma tão aguda. O que se torna intolerável, no entanto, é a irritação nervosa por não conseguir trabalhar.
+
+Já havia ouvido falar sobre a tendência de purificações na cabeça e a observara nitidamente nas pessoas que vinham receber Johrei. Contudo, somente agora, ao vivenciá-la, compreendo a profundidade da dor e do esgotamento, e uma genuína compaixão brota em mim. Indago-me se as purificações ocorrem em ciclos, cada qual com seu padrão. Houve uma época em que a sarna era uma purificação comum entre os membros, mas hoje sua incidência é bem menor. Atualmente, duas formas se destacam: uma é a solidificação de toxinas na nuca, no bulbo e nas glândulas linfáticas; a outra, notavelmente proeminente, parece ser a purificação decorrente de medicamentos desinfetantes.
+
+Um caso extremo que me foi relatado é o de uma pessoa que, trinta anos após passar por uma cirurgia abdominal, teve uma purificação. A cicatriz cirúrgica rompeu-se e o odor que exalava era inconfundivelmente de desinfetante. Apenas ouvir tal relato me causa arrepios. Como os médicos interpretariam um caso como este? Felizmente, após a eliminação das toxinas, a sutura rompeu-se e fechou-se naturalmente, deixando a pessoa com uma aparência radiante e rejuvenescida em vinte anos. Ouvi-a louvar maravilhada o poder do Johrei.
+
+A dor da purificação causada por desinfetantes parece ser bastante intensa, mas, em contrapartida, o alívio com o Johrei é rápido. Já no meu caso, cujas toxinas se solidificaram na cabeça por eu ter sobrecarregado um cérebro já naturalmente vazio, a dor é menor, mas o processo de dissolução é muito mais lento. A consciência desse fato apenas aumenta minha impaciência e me impede de me concentrar no trabalho.
+
+Contudo, a purificação que eu tanto aguardava finalmente chegou. O nódulo em minha cabeça começou a se dissolver, assim como os pequenos caroços que formavam uma espécie de arquipélago ao redor do meu pescoço. Eu, que jamais produzia muco ou catarro, exceto em caso de resfriado, passei a eliminá-los em uma quantidade surpreendente. A frequência das evacuações também aumentou, com uma tendência à diarreia, seguindo o que se pode considerar um modelo ideal de purificação.
+
+Antes que as toxinas solidificadas começassem a se dissolver, tive febre considerável e sentia uma leve dor em todo o corpo ao menor toque. Intuí que meus rins também haviam iniciado sua purificação. Tenho certeza de que, se eu consultasse um médico, ele diria não haver anomalia alguma em meus rins. Sendo assim, os membros da Igreja Messiânica conseguem detectar a purificação antes mesmo dos médicos, compreendem a origem de doenças que a medicina desconhece e, ainda, são capazes de curá-las. Diante disso, só me resta o mais profundo assombro.
+
+Minha purificação, como mencionei, decorre do uso excessivo de um cérebro já exaurido, e não da eliminação de toxinas medicamentosas. Por essa razão, a dor é branda, mas a incapacidade de trabalhar permanece a mesma. Eu anseio por receber Johrei de algum companheiro de fé, mas o destino é irônico. Em dias normais, mal consigo escrever uma palavra ou iniciar uma linha sem ser interrompido por visitantes. Agora, desde que a purificação começou, estranhamente ninguém mais aparece. Peço à minha esposa, e até ao meu filho pequeno: “Você também usa o Ohikari, então tente me aplicar Johrei”. Mas para uma criança, a brincadeira é muito mais importante do que curar a purificação do pai. Ele para logo, dizendo “Já está bom, não é?”, pega seu taco de beisebol e sai correndo. Resigno-me a pensar que, se em um momento como este me vejo privado de receber Johrei de meus irmãos de fé, minhas nuvens espirituais devem ser muito densas. No entanto, por se tratar de uma purificação, a cura é certa. Quando as toxinas acumuladas forem dissolvidas e eliminadas, poderei trabalhar o dobro de antes. É com essa feliz expectativa que aguardo o fim deste processo.
+
+É um tanto embaraçoso confessar, mas, embora eu ministre Johrei diariamente a meus familiares e a outras pessoas, eu mesmo nunca havia passado por uma purificação verdadeiramente significativa. Por isso, minha compreensão de seus benefícios era meramente conceitual, desprovida da oportunidade de senti-la na prática. As palavras de meus irmãos de fé, quando dizem “Que bênção receber esta purificação!” ou “Foi uma excelente purificação”, só agora ressoam em mim com um sentido real. Finalmente, compreendo em profundidade a gratidão que devemos ter por ela.
+
+A palavra “purificação” carrega em si uma nuance de beleza e alegria. Este termo, de uso corrente entre os membros da Igreja Messiânica, não é amplamente difundido na sociedade. Quando empregado, é de forma superficial, como na “purificação” de um grupo ou de uma organização, significando simplesmente limpar algo que está sujo. Raramente é aplicado a um indivíduo, e mesmo quando se fala em “purificação do corpo e da mente”, o sentido é trivial, referindo-se a pouco mais que um sentimento de bem-estar passageiro.
+
+Nós, por meio dos ensinamentos de Meishu-Sama, aprendemos que aquilo que tradicionalmente se considerava doença é, na verdade, um processo da Providência Divina para eliminar as toxinas e nos fortalecer. É a purificação. Por isso, desenvolvemos o hábito de aguardá-la com expectativa e de nos alegrarmos verdadeiramente com sua chegada. As pessoas que não pertencem à Igreja Messiânica, por outro lado, veem a purificação como doença. Seguem o caminho preestabelecido dos remédios e injeções, gastam seu dinheiro, aprofundam seu sofrimento e, por fim, tremem diante da sombra lúgubre da morte.
+
+No significado profundo da palavra “purificação” está contido o imenso amor de Deus pela humanidade. Quando chegará o dia em que as pessoas de fora da nossa fé compreenderão isto? Aquele que entender corretamente o sentido de “purificação”, este termo de uso habitual entre os messiânicos, terá inevitavelmente a felicidade atraída para sua vida.
+
+---
+
+# Coletânea de Artigos do Reverendo Jikan Okada: Diário de Visões Espirituais, por Yoshiko Ibaraki
+
+**Categoria:** kikou2 | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 霊視日記 茨木よし子 | **Status:** Published
+
+## Coletânea de Artigos do Reverendo Jikan Okada: Diário de Visões Espirituais, por Yoshiko Ibaraki
+
+*Publicado na edição nº 40 da revista Paraíso Terrestre, em 25 de setembro de 1952.*
+
+**Ingresso na Fé**
+
+Ingressei na Fé em 25 de janeiro de 1949.
+
+**Motivo do Ingresso na Fé**
+
+Desde os vinte anos, eu sofria com uma gastrite crônica que evoluiu para uma úlcera duodenal. Após me submeter aos tratamentos da medicina moderna, fui finalmente salva por meio destes sagrados Ensinamentos.
+
+**Situação Familiar**
+
+Minha família, composta por sete pessoas, ingressou integralmente na Fé em 8 de fevereiro de 1950. Em nosso lar, consagramos a Imagem da Luz Divina e a imagem de Kannon (観音) do biombo, e realizamos mensalmente os cultos de gratidão.
+
+**Situação Atual de Minhas Purificações**
+
+Atualmente, recebo constantes e brandas purificações na cabeça, no pescoço e no abdômen, entremeadas por purificações mais intensas que surgem esporadicamente. Em cada uma delas, contudo, sinto a Proteção Divina. A alegria que me invade é tamanha que sinto como se pudesse ascender aos Céus. Foi a partir do momento em que passei a receber Johrei com este sentimento que diversos fenômenos começaram a se manifestar diante de meus olhos fechados. Os relatos que se seguem são uma seleção das principais ocorrências que pude presenciar.
+
+**Relatório das Visões Espirituais**
+
+Por volta de junho de 1949, ao receber Johrei, fenômenos singulares passaram a se descortinar diante de meus olhos. Primeiramente, comecei a ver a Luz que emanava da palma da mão: uma luz tênue, esbranquiçada, semelhante a uma névoa, que se projetava conforme meu pensamento. Em seguida, da Imagem Sagrada, raios de luz dourada e prateada fluíam resplandecentes, preenchendo todo o ambiente. Era uma sensação maravilhosa que percorria todo o meu corpo.
+
+Em setembro de 1949, cerca de uma semana antes de minha primeira peregrinação à Sede, tive uma visão nítida da paisagem de Atami e da região de Hakone, locais que eu jamais havia visitado. A clareza das imagens, como se as tivesse ao alcance das mãos, deixou-me absolutamente perplexa.
+
+Na época em que recebia purificações na cabeça, os únicos lugares onde eu me sentia bem e em paz eram diante da Imagem da Luz Divina e ao lado de meu chefe de difusão. Era uma sensação de conforto e segurança comparável a estar no colo de uma mãe carinhosa. Recordo-me, no entanto, que a presença de pessoas desconhecidas ao meu redor era sobremaneira penosa; dependendo do indivíduo, eu sentia como se minha energia fosse sugada ou atraída por ele, o que me causava grande sofrimento.
+
+Diante do Altar na casa do chefe de difusão, comecei a ter visões de uma imagem de Kannon (観音) segurando uma bela flor de lótus — compreendo agora que era Messias-Kannon. Pude reverenciar essa mesma imagem de Kannon (観音) diante do Altar de minha própria casa. Certa vez, uma ponte de arco-íris surgiu nitidamente, e uma figura semelhante a Cristo manifestou-se tanto na casa do chefe de difusão quanto na minha, trazendo uma extraordinária sensação de bem-estar. Considero um grande mistério o fato de presenciarmos a mesma manifestação.
+
+Por ocasião de minha primeira audiência com Meishu-Sama, em setembro de 1949, Ele manifestou-Se montado em um Dragão Dourado. Senti um acolhimento caloroso, como o de um filho que reencontra seu pai.
+
+Durante a audiência de agosto de 1950, pude contemplar, à direita de Meishu-Sama, um Dragão Dourado, com a espessura de um tronco de árvore, que cochilava serenamente com um olhar gentil.
+
+No outono, comecei a receber purificações com dores agudas, características da úlcera gástrica e intestinal, que ocorriam a cada três horas. Atormentada pela dor, dirigi-me à unidade religiosa e, enquanto lá estava em oração, manifestou-se uma belíssima imagem de Kannon (観音), com mangas a esvoaçar. Pude vê-la também enxugar as lágrimas enquanto me estendia Suas mãos cálidas para ministrar-me Johrei. Naquele momento, compreendi que Deus se fazia presente e protegia até mesmo uma pessoa repleta de máculas como eu, o que me levou às lágrimas de gratidão e me infundiu nova coragem. Essa imagem de Kannon (観音) posicionava-se atrás do chefe de difusão e, através das mãos dele, ministrava-me Johrei. Em outra ocasião, essa mesma Kannon (観音) apareceu atrás dele, consultando um longo e fino pergaminho, e foi então que, finalmente, pude contemplar a figura de Meishu-Sama. Naquele instante, a dor abdominal cessou.
+
+Certa vez, acamada por uma dor surda no abdômen, ao ouvir os membros entoarem a Oração Amatsu Norito, tive a visão de inúmeras divindades se manifestando diante do Altar. Em outra oportunidade, pude contemplar a figura de Meishu-Sama tomando chá diante do Altar. E ainda em outra, vi a imagem do Príncipe Shotoku com Kamatari a servi-lo.
+
+Quando recebia Johrei do chefe de difusão, via em seguida um monge muito semelhante a ele, vestindo trajes de cor marrom ou púrpura, a tomar chá. Ocasionalmente, a figura de Meishu-Sama aparecia atrás do chefe de difusão; nesses momentos, a purificação transcorria com grande leveza, sob intensa Proteção Divina.
+
+Em janeiro de 1951, a caminho da Sede, fizemos uma parada na residência do Reverendo Nakamura, da Igreja Shinsei. Na ocasião, eu sofria com uma forte purificação abdominal e, por mais de uma hora, recebi Johrei do chefe de difusão diante do Altar. A dor oscilava, e o tempo de nossa partida se aproximava. Foi então que, da Imagem Sagrada, emergiu uma Kannon (観音) que se postou flutuando sobre os ombros do chefe de difusão. No caminho para a estação, essa Kannon (観音) voltou-se para trás e passou a me proteger ininterruptamente. Mesmo com a dor excruciante, segui o grupo para não me atrasar. Durante a viagem de trem, continuei a receber Johrei e chegamos em segurança à nossa hospedaria em Atami. Ao chegar, percebi que, em algum momento, a imagem havia se transformado em Senju Kannon, que me observava atentamente, guardando-me.
+
+Desejando ardentemente ter novas audiências com Meishu-Sama, cogitei pedir transferência para a escola primária de Atami e estava prestes a tomar as providências para tal. Contudo, no caminho para casa, recebi mais uma purificação e, sentindo-me insegura com a ideia de me afastar do chefe de difusão, decidi abandonar o plano. Passei a orar a Deus, manhã e tarde, para que me concedesse a rápida recuperação de meu corpo, a fim de que o dia em que eu pudesse me dedicar de corpo e alma à Obra Divina chegasse o quanto antes.
+
+**11 de maio**
+
+Fizemos uma peregrinação ao Santuário Daigu, da deidade Meshirono-Okami, localizado em Fujinoki, Konokakaminouchi, na cidade de Toyooka. Este é o santuário da deidade protetora da terra natal de meu chefe de difusão. Ali, tive as seguintes visões espirituais:
+
+1.  Ao entoarmos a Oração Amatsu Norito, as portas do santuário se abriram suavemente e, de seu interior, surgiu uma figura semelhante a uma princesa, com longos cabelos negros e vestindo um traje de doze camadas, acompanhada por muitas outras divindades, que vieram nos saudar.
+
+2.  Em seguida, a princesa trocou de vestes e, após dispensar seus acompanhantes, pôs-se a chorar copiosamente, recolhendo-se a seus aposentos para dormir. Pensei: "Será que até as divindades adoecem?".
+
+3.  Seus assistentes pareciam preocupados. No entanto, a princesa parecia ouvir nossas orações constantemente. Foi um fenômeno muito misterioso que se descortinou diante de mim. Quem seria a divindade consagrada naquele santuário? Retornei sem perguntar ao sacerdote.
+
+**10 de julho**
+
+Fomos solicitados a atender a jovem esposa de um parente do chefe de difusão, em Maizuru, que estava sob a possessão de um espírito maligno. Fomos, o chefe de difusão e eu, para ministrar-lhe Johrei. Durante a ministração, tive a visão de que, em seu abdômen, havia cinco ou seis pequenas serpentes negras, com a espessura de um lápis e cerca de vinte centímetros de comprimento, que se contorciam freneticamente, como girinos brincando alegremente na água. Acima da cabeça da enferma, pude ver uma serpente-mãe, com um diâmetro de uns dez centímetros, observando atentamente seus filhotes enquanto dardava sua língua rubra. Após algum tempo, as pequenas serpentes em seu ventre se aquietaram, e a dor abdominal pareceu cessar. Como aquela família pertencia à igreja do Reverendo Taga, de Quioto, tivemos a permissão de participar do culto mensal no dia seguinte, 11 de julho.
+
+**11 de julho**
+
+Peregrinamos à residência do Reverendo Shuzo Taga, cujos artigos foram publicados diversas vezes na revista Paraíso Terrestre. Pude conversar com ele, e foi como se muitos de meus questionamentos fossem finalmente elucidados, o que me trouxe imensa alegria. O reverendo, com grande bondade, consultou o Mundo Espiritual e transmitiu-me as seguintes palavras: "As visões que Yoshiko Ibaraki tem tido até agora são de Divindades Benignas. É o seu Verdadeiro Espírito Protetor que as mostra, com a permissão do Deus Supremo. Portanto, pode ficar tranquila". Para mim, essas palavras foram de um alento indescritível, pois, intimamente, eu vivia amedrontada com a possibilidade de serem espíritos malignos. Ele acrescentou: "Essa sua capacidade de visão espiritual durará por um período determinado e depois desaparecerá. Enquanto a tiver, utilize-a sabiamente para a Obra Divina. Você nasceu com essa missão".
+
+Em seguida, descrevi a ele o que via no mundo espiritual de sua residência. Apresento aqui as visões que tive durante o culto mensal na casa do Reverendo Taga.
+
+Pude ver uma divindade, que parecia ser a principal, posicionada ao centro. Em ambos os lados, em degraus, estavam outras divindades, que pareciam ser seus séquitos. A cena assemelhava-se à exposição de bonecas do Festival das Meninas.
+
+Logo depois, a imagem de corpo inteiro de Meishu-Sama surgiu com a nitidez de uma fotografia. Com grande concentração, Ele segurava em Suas mãos um belo vaso de cerâmica redondo, de cor castanha, e o apreciava atentamente. Essa visão permaneceu por um longo, longo tempo.
+
+Diante do oratório budista, surgiu subitamente uma imagem de Senju Kannon. À sua frente, uma jovem e nobre senhora, trajando um belo quimono, realizava alguma oferenda com uma bandeja nas mãos, em atitude de profunda reverência. Pude vislumbrar, assim, a maravilhosa paisagem do mundo espiritual daquele local.
+
+Em seguida, o Reverendo Taga me disse: "Você e seu chefe de difusão se dão muito bem, não é?". Fiquei surpresa com a pergunta. Ele explicou: "Há uma razão espiritual para essa afinidade e uma delicada atuação que os une. Portanto, colaborem intensamente um com o outro".
+
+Depois, ele me aconselhou: "Você possui um profundo laço com a deidade protetora de Toyooka. Investigue a fundo qual divindade está lá consagrada". Ao retornar, fui imediatamente ao santuário com o chefe de difusão, e tive as seguintes visões.
+
+**Peregrinação ao Santuário da Deidade Protetora, em 13 de julho**
+
+A mesma divindade que eu vira antes, com seus longos e belos cabelos negros e o suntuoso traje de doze camadas, surgiu do interior do templo carregada nas costas por um imponente guerreiro, um dos que guardavam ambos os lados do salão de orações. Ela parecia muito enfraquecida por uma longa purificação e aparentava estar bastante abatida.
+
+Em seguida, um homem idoso, em trajes comuns, ofereceu um pergaminho de cerca de trinta centímetros de comprimento, mas não havia ninguém para recebê-lo. Essa cena se prolongou por algum tempo.
+
+A princesa ressurgiu e, com gestos suaves, começou a pentear seus cabelos desgrenhados. Sua aparência era a de quem acabara de dar à luz.
+
+Pude então vê-la segurando em seu colo um bebê belo como uma joia, a quem amamentava. A princesa parecia estar se recuperando bem. (Fim da visão).
+
+Após a peregrinação, conversamos com o sacerdote e descobrimos que a divindade protetora daquela terra é Takamimusuhi-no-Kami. Segundo o Kojiki, a minha deidade protetora é Sukunahikona-no-Mikoto, filho de Kamimusuhi-no-Kami. Assim, compreendi pela primeira vez que, também no que tange à proteção de nossas terras natais, meu chefe de difusão e eu temos uma relação de pai e filho.
+
+Certo membro, passando por uma grande purificação, chegou a um ponto em que tanto ele quanto sua família o consideravam um caso perdido. Foi então que vieram à casa do chefe de difusão para receber a Imagem da Luz Divina. No momento em que ele a recebeu, tive a visão de uma cortina de funeral, preta e branca, o que me assustou. Contudo, em seguida, Meishu-Sama apareceu e entregou-Lhe pessoalmente a Imagem. Pensei: "Ele certamente ficará bem. Receberá a Proteção Divina". E, hoje, ele está completamente restabelecido.
+
+Em outra ocasião, enquanto entoávamos orações diante do oratório budista no quarto de um membro que passava por uma purificação, vi dezenas de mãos acenando de dentro do altar. Com tal visão, temi pelo pior. Naquela mesma noite, ele faleceu.
+
+**19 de julho**
+
+Enquanto orava diante do Altar, surgiu a visão de um imponente santuário de Inari, com seus muitos portais vermelhos. De lá, saíram cinco ou seis raposas que pareciam ser as mais antigas, seguidas por uma longa fila de seus descendentes. Eles pareciam estar expressando sua gratidão diante do Altar. Em seguida, todas as raposas, vestidas com trajes magníficos, começaram a dançar a "procissão de casamento das raposas".
+
+Depois, vi um suntuoso santuário, de onde um nobre guerreiro a cavalo, acompanhado por um grande séquito, cavalgava apressadamente em direção à Imagem da Luz Divina.
+
+Também pude presenciar como o Mundo Espiritual se transforma pela atuação do poder espiritual das palavras.
+
+Consigo ver, também, a energia maligna e escura que é expelida quando se recebe Johrei.
+
+Certa vez, após o culto mensal na unidade, já passava da meia-noite. Estávamos em uma conversa animada, e todos os membros riam descontroladamente. O Reverendo Fulano e o Sr. Sicrano trocavam opiniões de forma divertida. Observei a cena casualmente e pude ter a cômica visão dos dois espíritos de raposa secundários que os acompanhavam, que se exaltavam e latiam em aprovação. O do Sr. Sicrano era bem grande, parecia um chefe. Quando ambos pararam de falar, as raposas encolheram-se e se aquietaram.
+
+---
+
+# O homem que crê no Johrei, mas não em Deus
+
+**Categoria:** jorei | **Ano:** 昭和28(1953)年7月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## O homem que crê no Johrei, mas não em Deus
+
+Certo dia,
+
+Diariamente, ministro Johrei a diversas pessoas e me deparo com portadores das mais raras e complexas enfermidades. A cada ocasião, renovo minha admiração pelo poder do Johrei e sou agraciado com a superabundante proteção Divina. Contudo, por alguma razão, eu ainda não havia sido abençoado com a oportunidade de ministrar Johrei a alguém com tuberculose pulmonar, o grande pavor da nação. É verdade que já me deparei, por diversas vezes, com pacientes em estado terminal, cuja chama da vida estava prestes a se extinguir, mas nunca havia atendido um caso de menor gravidade, como uma infiltração pulmonar ou uma linfadenopatia hilar.
+
+Neste mês, entretanto, essa situação mudou, e finalmente me vi diante de um caso ideal e paradigmático de tuberculose. Iniciei o tratamento com um entusiasmo fervoroso, ansioso por demonstrar a sua eficácia. O resultado foi uma cura completa e surpreendente em apenas uma semana. Senti um ímpeto de proclamar em alta voz a todo o mundo: “A tuberculose? O que há para temer? Com o Johrei da Sekaikyuseikyou, ela se desfaz como um embuste! O Johrei é a terapia definitiva para esta doença!”. Imerso nessa alegria efervescente, cheguei a me vangloriar, acreditando ter sido aprovado com nota máxima na prova que Deus me apresentara.
+
+Todavia, mais tarde percebi que meu desempenho sequer atingira a média. A razão para tal foi meu fracasso na salvação de sua alma — ou seja, em conduzi-lo à fé —, que é o verdadeiro resgate. A responsabilidade, decerto, recai sobre mim. Não obstante, a obstinada negação de Deus por parte daquele homem, um pensamento nutrido pela educação moderna, fez-me refletir sobre como o sistema atual está a formar pessoas refratárias à salvação. E, ao mesmo tempo, ao constatar que Deus estende Sua mão amorosa para salvar até mesmo aqueles que O ultrajam em seu sofrimento, meu coração se encheu de um misto de tristeza e alegria.
+
+Outro dia,
+
+No terceiro dia de Johrei, a febre que ele apresentava no lado esquerdo do pescoço cedeu, e as toxinas na região direita do bulbo raquidiano atenuaram-se consideravelmente. Contudo, ainda persistia um foco febril no topo da cabeça e na região genital. Que um paciente com tuberculose pudesse acumular toxinas na área genital é algo que, provavelmente, nem o mais renomado especialista ousaria sonhar. Diante disso, não pude deixar de me maravilhar com a grandiosidade da revelação Divina, que precede a ciência, e fiquei assombrado ao compreender que ali residia a causa da relação entre a tuberculose e a libido.
+
+A que se deve a libido patologicamente exacerbada nos pacientes tuberculosos? A medicina ainda não elucidou esta questão. Recordei-me de um escritor, que também sofrera dessa doença, atribuir tal fato à solidão do enfermo. Um equívoco manifesto. O Johrei, em si, é um conhecimento superior a qualquer Prêmio Nobel, e a simples descoberta desta conexão entre a tuberculose e a sexualidade já seria merecedora de um doutorado. Assim me entusiasmei em meus pensamentos.
+
+Concluído o Johrei, o relógio marcava precisamente meio-dia. Minha esposa, preocupada que a alimentação em refeitórios públicos não lhe fornecesse a nutrição adequada, havia preparado uma refeição especialmente para ele. Embora ele tenha recusado por mera formalidade, logo aceitou e se sentou à mesa. Vê-lo comer com um apetite tão saudável trouxe-me grande alívio.
+
+No dia seguinte,
+
+No quarto dia de Johrei, perguntei-lhe como se sentia. “Ah... bem...”, respondeu ele vagamente. Insisti, questionando-o especificamente sobre os sintomas que mencionara no primeiro dia: a sudorese noturna, a falta de apetite, a falta de ar. Ele se limitou a murmurar: “Sim... melhoraram bastante”, de forma igualmente ambígua.
+
+Enquanto ele tomava a refeição que lhe havíamos preparado, o Sr. Akiyama, um membro de nossa igreja, chegou. Ao se verem, os dois se entreolharam; o Sr. Akiyama, surpreso, e o paciente, visivelmente desconfortável. Fiquei espantado quando trocaram cumprimentos, pois era evidente que já se conheciam. Mal esperando que o homem partisse, o Sr. Akiyama me disse, com certa indignação:
+
+“Senhor Kaian, qual é a purificação daquele homem? É aqui?”, perguntou, apontando para o próprio peito. “Como ele soube do senhor? No verão passado, um membro o trouxe até mim. Ele se queixava do estômago, e ministrei-lhe Johrei por cerca de duas semanas. Apesar de ser evidente que havia melhorado, ele jamais o admitiu, nem ofereceu uma única palavra de agradecimento. Depois disso, simplesmente desapareceu.”
+
+Aquela era a primeira vez que eu ouvia que ele já havia recebido Johrei do Sr. Akiyama. A versão que ele me contara era outra: que uma pessoa em sua terra natal o havia curado do estômago com Johrei e que, por conhecer a sua eficácia, fora instruído a me procurar ao chegar à capital para aprender mais sobre a Sekaikyuseikyou.
+
+“A lógica dele deve ser: se admitir a melhora, terá de agradecer; se não admitir, livra-se da obrigação. Além do mais, é um homem que considera a existência de Deus ou do espírito humano um delírio de tolos. Dizia que crer nessas coisas é para gente inferior e que pessoas assim atrasam a cultura do Japão. Jamais fez uma única reverência a Deus. Por diversas vezes, senti-me tão irritado que pensei em desistir de tratá-lo, mas continuei por duas semanas na esperança de que, ao reconhecer os efeitos do Johrei, sua mentalidade mudasse. Como ele tem se portado aqui com o senhor?”
+
+As palavras do Sr. Akiyama lançaram uma nova luz sobre a atitude do paciente, e pude enxergar nela os indícios que ele descrevera. Que descuido o meu, que ingenuidade!
+
+Naquele dia,
+
+Decidi observar atentamente qual seria a sua atitude perante Deus. Ele chegou e, como de costume, cumprimentou a mim e a minha esposa com uma polidez impecável. “Por favor”, disse, sentando-se à minha frente.
+
+Até mesmo pessoas que não são membros, ao receberem Johrei, costumam, sem que eu precise dizer nada, fazer uma prece diante do Altar Sagrado. Alguns se ajoelham e curvam a cabeça, outros juntam as mãos em um gesto semelhante ao de manusear um rosário, e há os que fazem uma leve vênia, um tanto encabulados. As reações são diversas. Ele, contudo, desde o primeiro dia, limitava-se a lançar um olhar fugaz ao Altar, demonstrando uma atitude que ia além da indiferença: era um desprezo deliberado. A experiência ensina que, à medida que os efeitos do Johrei se manifestam, até os não membros passam a imitar os fiéis presentes, realizando a prece de forma correta e espontânea. É natural que assim seja, pois, quando explico que sou apenas um instrumento e que a cura provém do poder e da graça de Deus, a gratidão se volta para a fonte correta. Graças às palavras do Sr. Akiyama, compreendi enfim que, no caso dele, tratava-se de um ato de rebeldia intencional.
+
+Então, eu lhe disse: “O Sr. Akiyama já o curou do estômago, e sua doença atual também está a melhorar graças à proteção Divina. Em vez de me cumprimentar, peço que, antes e depois do Johrei, dirija seus cumprimentos e seu agradecimento a Deus”.
+
+“Sim, senhor...”, ele respondeu. No entanto, ao término do Johrei, novamente deixou de fazer a prece.
+
+Existe um provérbio que diz: “Até o rosto de Buda se tolera apenas três vezes”. Decidi, porém, armar-me de paciência e esperar. Acreditei que, quando ele compreendesse que seus pulmões estavam curados pelo Johrei, finalmente seria capaz de reverenciar a Deus.
+
+---
+
+# Relatos de um Diário de Johrei
+
+**Categoria:** jorei | **Ano:** 昭和26(1951)年2月28日 | **Fonte:** Eikou
+**Título Original:** お浄め日記抄 槐安生 | **Status:** Published
+
+## Relatos de um Diário de Johrei
+
+Por Kaiansei
+Publicado na revista *Eikou*, nº 93, em 28 de fevereiro de 1951
+
+Em um determinado dia, refleti profundamente sobre como os abastados, contrariamente ao que se supõe, vivem de maneira surpreendentemente restrita e inconveniente. O caso do Sr. Kiguchi ilustra perfeitamente essa verdade. Sua residência, situada em um bairro nobre e tranquilo, cercada por extensos muros de pedra, impõe uma aparência de grandiosidade e distinção. No entanto, para o cotidiano, revela-se de uma impraticabilidade atroz. Para adentrar a propriedade, pressiona-se a campainha do portão lateral e aguarda-se o anúncio. Após um tempo, uma criada surge para abrir a fechadura. Do portão, percorrem-se dezenas de passos sobre as lajes do jardim até o vestíbulo principal. A criada, por sua vez, contorna a casa pela entrada de serviço para destravar a porta da frente, um percurso que consome mais alguns minutos. A partir dali, para alcançar o quarto do enfermo, é preciso atravessar um corredor interno com curvas à direita e à esquerda, bater à porta e aguardar a permissão para entrar. O doente repousa cercado por um biombo dourado, e somente após contorná-lo é que se pode sentar à sua cabeceira. Diariamente, repete-se essa mesma rotina, um cerimonial moroso e um desperdício de tempo. Essa sequência de trâmites se repete infalivelmente até mesmo quando os membros da família desejam sair. Em essência, não há grande diferença entre suas vidas e a de um prisioneiro encarcerado. E o mais surpreendente é que, mesmo possuindo uma fortuna opulenta, ele se mantém em um estado de avidez febril por acumular ainda mais. Ah, como eu gostaria que ele pudesse experimentar, ao menos uma vez, a simplicidade, a liberdade e a espontaneidade de quem tem pouco. Nisso reside a diferença fundamental entre aquele que possui o tesouro inestimável da fé e aquele que não o possui: a manifestação do paraíso ou do inferno na própria realidade terrena.
+
+Ele se encontra no terceiro ano desde que foi acometido por uma hemorragia cerebral. Nos dias em que se sente melhor, consegue sentar-se sobre o leito e, através da vidraça do corredor, contemplar o jardim. Contudo, quando o rádio transmite o boletim da bolsa de valores, ele comanda sua filha mais velha para que anote as cotações em taquigrafia. Diariamente, o gerente de sua corretora o visita para receber ordens de compra e venda de ações e para o acerto de contas. Pelas suas feições, é possível discernir tudo: a fisionomia amarga revela os prejuízos, ao passo que um semblante radiante denuncia os lucros. Mesmo atormentado por uma enfermidade grave, ele demonstra um apego ao dinheiro que é impossível de erradicar. Sinto um arrepio ao testemunhar a figura aterradora de um homem desprovido de fé.
+
+Completamos hoje uma semana de Johrei. Já no terceiro dia, seu braço direito, antes rígido, voltou a flexionar-se, permitindo-lhe vestir-se sem o auxílio da família. Ele expressou sua alegria com esse progresso e mencionou que sua cabeça parecia mais leve, passando a aguardar minhas visitas com genuína expectativa. Todavia, decidi que hoje será minha última visita a esta casa. Sua natureza avarenta é notória na vizinhança; dizem que nem mesmo os parentes o frequentam. A ironia é que ele ocupa um alto cargo em uma renomada companhia farmacêutica, cujo portfólio de produtos inclui um medicamento tido como eficaz para hemorragias cerebrais. Contudo, nem esses remédios nem os médicos conseguiram curá-lo. Em seu desespero, chegou a cogitar o tratamento com moxabustão de folhas de pinheiro, que ouvira ser eficaz. Foi nesse momento que alguém lhe falou sobre mim, e ele então recorreu ao Johrei. Apesar de ser um especialista em medicamentos, ele foi forçado a admitir, ainda que a contragosto, a ineficácia dos mesmos em seu próprio caso. No entanto, recusa-se terminantemente a aceitar a existência dos *yakudoku*, por mais que eu tente explicar. Suas convicções profissionais o aprisionam. A cada dois dias, um oftalmologista vem à sua casa para aplicar uma injeção em seu olho direito. Certa vez, removi o tampão ocular e canalizei Luz, mas a dor se tornou insuportável para ele, que se negou a repetir o procedimento. Compreendi que não se deve forçar a cura em quem não a deseja verdadeiramente, e por isso desisti de tratar seu olho. Sua atitude, desprovida de qualquer delicadeza ao permitir que a injeção fosse aplicada em minha presença, foi outro fator que contribuiu para o meu desagrado. Ademais, levo uma vida extremamente atarefada e não posso dedicar um período prolongado de tempo a um único indivíduo. Expliquei-lhe sobre Deus e sugeri que um membro da família recebesse a Iniciação para obter a Medalha Sagrada, e que eu passaria a ministrar Johrei em dias alternados. Sua resposta foi estarrecedora: “Na Tenrikyo eles dão os talismãs de graça, não preciso disso”. Fiquei absolutamente atônito, sem palavras. Apesar de sua vasta fortuna, não possui em sua casa um oratório para Deus ou para os antepassados. Ele não detém um único bem que se possa considerar um verdadeiro tesouro do espírito humano. Com uma atitude insolente, ele se vangloriava de sua falta de fé, como se o seu ateísmo fosse um sinal de erudição superior à nossa. “Se é de Kannon (観音) que se trata, também tenho uma em casa”, disse ele, apontando para o topo de uma cômoda. Olhei e vi uma estatueta de porcelana de Kutani. Que ultraje, referir-se a uma peça de decoração como se fosse um objeto de veneração! Eis um homem que, em apenas uma semana, obteve alívio para uma doença cármica grave, mas que não demonstra o mínimo sentimento de gratidão. Um escravo do dinheiro que se recusa até a permitir que um familiar receba a Iniciação. Em verdade, sua enfermidade tem uma causa profunda.
+
+Havia ainda outro fato desagradável: ele interrompia a ministração do Johrei assim que começava a transmissão da bolsa de valores. E, quando estava em reunião com o gerente da corretora, deixava-me esperando por horas, sem a menor cerimônia. Ponderei que continuar a frequentar aquele lugar seria uma profanação a Deus, e que recusar-me a prosseguir seria, em si, uma forma superior de salvação, a única possível naquele caso. Diante disso, declarei: “A partir de hoje, encerrarei a ministração do Johrei. Caso o senhor reconsidere e desperte um desejo sincero de ser curado, então retornarei”. Adeus, espectro do dinheiro, que valoriza mais o ouro e a prata do que o alívio de seu próprio sofrimento, e que talvez acredite que tais bens lhe serão úteis mesmo após a morte. Ao abrir a pesada porta daquela casa, senti como se estivesse, na verdade, abrindo a porta de sua profunda obsessão por riquezas para poder sair.
+
+No dia seguinte, para meu segundo assombro, ele me enviou de presente uma lata de sal de frutas, a título de agradecimento.
+
+Nota: *Jimon* (耳門) refere-se a um pequeno portão lateral de passagem.
+
+---
+
+# Diário de Johrei
+
+**Categoria:** jorei | **Ano:** 昭和27(1952)年5月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
+
+## Diário de Johrei
+
+Do Compêndio de Ensaios do Mestre Okada Jikanshi
+Por Kaiansei (槐安生)
+Da revista *Paraíso Terrestre*, edição nº 36, publicada em 25 de maio de 1952.
+
+Apesar de residir no coração de Tóquio, sou talvez uma das pessoas que menos a conhece. Jamais visitei lugares que qualquer turista faz questão de conhecer, a começar pelo Santuário Meiji e o Santuário Yasukuni. Quanto maior a aglomeração de pessoas, maior a minha relutância em frequentar o local. Isso se deve a uma natureza avessa a convenções e a uma certa indolência, mas, em essência, a uma aversão quase extrema ao ser humano. Diante de tal afirmação, poderiam me interpelar: se tanto detesta a humanidade, por que não abandona de vez seu ofício? A isso, eu responderia que apenas me é permitido subsistir a fim de forjar a disposição de espírito necessária para abandonar tal ofício a qualquer momento.
+
+Por que, sendo humano, nutro aversão por meus semelhantes, com os quais a convivência é inevitável? A verdade é que os considero temíveis. Sou um homem de índole simples, incapaz de acompanhar a intrincada psicologia humana, na qual as palavras e os atos manifestos ocultam intenções diametralmente opostas. Por não possuir a perspicácia para discernir a duplicidade daqueles que, sob uma fachada amável, ocultam a ânsia por ascensão, notoriedade e bens materiais — e que seriam capazes dos atos mais vis para alcançá-los —, já experimentei amarguras em quantidade imensurável. Exterior de Bodhisattva, interior de demônio. O fastio de lidar com criaturas tão assustadoras fez com que, em algum momento, se desenvolvesse em mim uma segunda natureza: a misantropia.
+
+Essa segunda natureza, por sua vez, tornou-me receoso no diálogo com o próximo e avesso a sair de casa, transformando-me em um recluso. Graças à minha conversão à Igreja Messiânica, contudo, vi-me na contingência de não mais poder evitar as conversas com outras pessoas, nem justificar minha permanência em casa com a desculpa do incômodo. Tornou-se realidade o que me foi dito quando ingressei na fé: neste Caminho, Deus nos compele a realizar justamente aquilo que mais detestamos. Fui obrigado a encontrar desconhecidos e a sair de casa, o que, por consequência, permitiu-me conhecer diversos recantos de Tóquio e até mesmo descobrir lugares remotos que jamais imaginei visitar.
+
+Minha propensão a detestar e temer os seres humanos, fruto de sua complexidade psicológica, ainda não se dissipou por completo. Todavia, descobri que entre os fiéis existe uma notável distinção, e é fato que minha índole tem se adaptado gradualmente a essa nova realidade. Ademais, ao refletir sobre os laços espirituais que nos unem no mesmo Caminho, sinto uma imensa alegria em poder conversar com desconhecidos sem reservas ou desconfianças. Contudo, ao observar atentamente, por vezes deparo com episódios que me levam a uma profunda reflexão.
+
+Trata-se de uma reflexão sobre o termo Oushin (応身), uma palavra de profundo significado, e a possibilidade de que esteja sendo usado de forma leviana e egoísta. No budismo, há o conveniente conceito de *houben kedo*, ou "meios hábeis para guiar os outros", e um antigo provérbio que diz "a mentira como um recurso", afirmando que, dependendo da ocasião e das circunstâncias, a mentira pode ser justificável. Há também a ideia de "verdade que brota da mentira", que busca racionalizar o logro. Quando ouço o conceito de Oushin ser equiparado a tais mentiras e conveniências, sinto-me compelido a ponderar.
+
+A razão pela qual anotei em meu diário de hoje estas reflexões sobre minhas próprias e insignificantes idiossincrasias, com um tom que beira o sermão, é que eu mesmo recorri a um *houben*, uma mentira, e não a um Oushin. O fato, desde que voltei para casa, não cessa de atormentar minha consciência, permanecendo como um nó em meu peito. O desenrolar dos fatos foi o seguinte.
+
+A noroeste da capital, não nos bosques de Waseda, mas ao sul da cidade, nas imediações do Santuário I, encontra-se uma área recém-desenvolvida na periferia. É um lugar apinhado e desordenado, típico de sua localização, e seus habitantes são desprovidos de maior refinamento. Em suma, é uma vizinhança de má fama. Ali, no entanto, vive um pequeno e fervoroso grupo de fiéis. Apoiando-se mutuamente em meio a uma vida de parcos recursos, mantêm laços de amizade, ministram Johrei uns aos outros e dedicam-se com grande entusiasmo ao encaminhamento de novas pessoas.
+
+O líder desse admirável grupo, o senhor Akiyama, veio procurar-me com um problema. Uma das integrantes, a senhora Ono, havia curado a neuralgia de uma pessoa de uma nação vizinha. A notícia se espalhou, e as esposas de seus compatriotas começaram a levar os filhos à casa do senhor Akiyama para receber Johrei. No início, eram três ou quatro, mas agora já somavam cerca de dez pessoas. Encorajei-o, dizendo: "Isso é maravilhoso! Conforme está escrito em nossas palavras de louvor, é o primeiro passo para que as fronteiras entre as nações desapareçam e a salvação se torne universal. Prossiga com todo o empenho."
+
+— Ah, Mestre... é justamente aí que reside o problema — disse ele, coçando a cabeça. — O odor característico de suas comidas impregna a casa por muito tempo. E, embora seja delicado dizer, a atitude deles para com Deus é completamente diferente da nossa. A meu ver, beira o desrespeito. Mesmo quando melhoram com o Johrei, não demonstram qualquer gratidão. Quando mencionei o assunto sutilmente, responderam que, por não usar remédios, não há custos envolvidos. Se tento lhes falar sobre os Ensinamentos ou que o poder do Johrei emana do O-mamori, eles apenas riem. A conversa não progride.
+
+Fez uma pausa e continuou, desolado:
+
+— Isso ainda seria tolerável, mas os outros frequentadores, incomodados, deixaram de vir por completo. Até mesmo os membros do nosso grupo foram se afastando. Estou realmente em apuros. As doenças deles não são graves, e melhoram com duas ou três ministrações. Para mim, é gratificante e sinto a alegria de testemunhar o poder de Deus, mas se as outras pessoas se afastam, o resultado final é negativo. Com a força que tenho, sei que é improvável conseguir encaminhá-los à fé, e eles tampouco parecem ter interesse. Assim, tornei-me um mero curandeiro. Não estou mentindo. Sinto-me completamente perdido e vim em busca de um conselho.
+
+A aflita expressão de Akiyama era-me perfeitamente compreensível. Antes da guerra, convivi com duas ou três pessoas daquele país. Lembro-me delas até hoje como gente de bem, com um forte espírito de união e profundos laços de lealdade e afeto. Acreditando que o diálogo resolveria a questão, aceitei o convite de Akiyama e o acompanhei.
+
+— Konnichiwa! — disse uma das mulheres, e, nesse ínterim, as outras já adentravam a casa ruidosamente.
+
+Observei a cena e concluí que as queixas de Akiyama eram mais do que justificadas. Aquela situação era insustentável. Senti-me igualmente consternado.
+
+As enfermidades eram triviais: ombros rígidos, resfriados, vermes, furúnculos — males que, entre fiéis, seriam prontamente solucionados com o Johrei ministrado em família. Após acalmar as crianças que corriam por toda parte, dirigi-me a elas:
+
+— O método Divino de cura de doenças, conhecido como Johrei, pode ser praticado por qualquer pessoa que receba o O-mamori de Deus. A cura é ainda mais rápida quando ele é ministrado por alguém da mesma nacionalidade, do mesmo povo. Portanto, uma de vocês deveria receber o O-mamori e passar a ajudar suas companheiras. O senhor Akiyama pode ensinar onde ministrar Johrei para cada tipo de doença. E se houver entre vocês quem leia japonês, deve ler o jornal da Igreja para seguir os Ensinamentos de Deus, fazendo do Coração de Deus o seu próprio coração para auxiliar o próximo.
+
+Fiz uma pausa e continuei:
+
+— Vocês pensam que, por não usar remédios, o Johrei não tem custo, mas isso é um engano. Conhecem o elemento chamado Rádio, não é mesmo? Aquele mesmo Rádio, cujo grama custa centenas de milhares de ienes, está contido neste O-mamori. Nós o portamos. Portanto, há um grande custo envolvido na ministração do Johrei. Tenho certeza de que em seu país não existem pessoas ingratas, que, após receberem a cura para suas doenças, não sabem demonstrar gratidão.
+
+Eu não havia premeditado como lhes explicaria a situação de forma clara, mas essas palavras simplesmente fluíram de minha boca. Era, inequivocamente, uma mentira, um *houben*.
+
+Assim que terminei de falar, as mulheres demonstraram visível perturbação. "Rádio, Rádio...", cochichavam duas ou três, trocando olhares. Após deliberarem em seu idioma, tiraram as carteiras dos bolsos e, falando ao mesmo tempo, começaram a separar pequenas notas. Uma pegou uma nota de cem ienes e recebeu algumas de dez como troco. Após um breve alvoroço, uma delas aproximou-se e, em silêncio, depositou o dinheiro à minha frente. Eram sete ou oito notas de dez ienes. Akiyama arregalou os olhos, atônito. Eu não consegui conter o riso. As mulheres também riram e, dizendo "sayonara", partiram.
+
+— Akiyama-san — comentei —, por algum motivo, sinto que a partir de amanhã elas não voltarão.
+
+— Será, Mestre? Mas essa do Rádio foi uma saída engenhosa!
+
+Akiyama não tinha a intenção de me repreender com seu comentário, mas senti-me profundamente envergonhado em minha consciência. É claro que não sou santo nem virtuoso, e às vezes recorro a mentiras inofensivas. "Se você não comer peixe, não aprenderá a nadar bem. Os campeões Furuhashi e Hashizume comem muito peixe, por isso são tão bons." Ao dizer isso ao meu pequeno, que detestava peixe, ele passou a comê-lo. O menino também não gostava de nabo nem de cenoura, então lhe disse: "O jogador Kawakami, do time Giants, que você tanto admira, rebate aquelas bolas fulminantes porque come muito nabo e cenoura. A prova é que a cor vermelha daquele taco dele imita a cor da cenoura." Depois disso, ele passou a comer os dois legumes, e sua seletividade alimentar diminuiu. Ninguém se zangaria por mentiras como essas. Hoje, porém, o assunto dizia respeito a Deus. Não havia como não sentir o aguilhão da consciência.
+
+E, no entanto, que substantivo de imenso poder é a palavra "Rádio"! Os Ensinamentos de Meishu-Sama, a pura Verdade, transcendem em muito o nível da ciência atual. Para aqueles que idolatram a ciência supersticiosa, soam apenas como os delírios dogmáticos e messiânicos de um megalômano. Contudo, bastou a única palavra "Rádio", algo que suas mentes podiam compreender, para que aquelas pessoas de trato tão difícil entendessem tudo de imediato. Dizem que aos ouvidos profanos, somente palavras profanas ressoam.
+
+---
+
+# Um Milagre Digno Desta Pessoa (O Johrei de Meishu-sama)
+
+**Categoria:** jorei | **Ano:** 昭和28(1953)年3月18日 | **Fonte:** Eikou
+**Título Original:** この人にしてこの奇蹟 （明主様の御浄霊） 槐安 | **Status:** Published
+
+## Um Milagre Digno Desta Pessoa (O Johrei de Meishu-sama)
+
+*Kaian. Revista Eikô, nº 200, 18 de março de 1953.*
+
+“O que me diz do meu rosto?”, indagou-me o senhor Nishikioji de forma abrupta, como se me propusesse um enigma zen, sem sequer dar tempo para as saudações habituais após um longo período sem nos vermos.
+
+Tal como um ator que, antes de entrar em cena, pede a seu mestre que avalie a maquiagem para o personagem, a pergunta “O que me diz do meu rosto?” não admitia uma resposta imediata.
+
+“Ainda não percebeu? No meu rosto.” Eu bem notara que seu semblante, habitualmente carregado de amargura, hoje irradiava um sorriso. Contudo, eu também percebia a palidez que, ano após ano, denunciava as toxinas que ele ainda não conseguira eliminar. Naturalmente, essa coloração doentia, um símbolo de seu corpo repleto de impurezas, era algo de que ele próprio não tinha consciência, e eu não via razão para mencioná-la e deixá-lo desconfortável. “Parece que algo muito bom lhe aconteceu, mas que relação isso teria com seu rosto?”, comentei, embora tenha percebido no mesmo instante que minha pergunta era tola e não respondia à sua questão. Sua inclinação para rodeios e palavras abstratas, sondando minha reação de forma oblíqua em vez de ir direto ao ponto, sempre me despertou certa impaciência.
+
+“Senhor Kaian... ainda não notou nada neste rosto?” Com estas palavras, o senhor Nishikioji, expondo abertamente sua frustração por não ser compreendido, aproximou seu rosto bem-esculpido e de traços definidos para junto do meu. Por mais que eu o fitasse, não conseguia notar qualquer alteração entre o rosto do senhor Nishikioji de sempre e o de hoje. Era eu, com meus afazeres em espera, quem se sentia verdadeiramente exasperado por aquele tempo perdido. “Por favor, seja direto. Não compreendo do que se trata.” Senti a aspereza em minhas próprias palavras, mas ele, ainda insatisfeito, murmurou: “Como é possível que ainda não tenha entendido...”.
+
+O senhor Nishikioji ingressara na fé cerca de um ano antes de mim, se não me engano, o que o colocava entre os membros mais antigos. Sua motivação para ingressar não fora a superação de uma doença, que o teria levado a conhecer a Verdade, como ocorre com a maioria dos fiéis, mas sim a notícia de que os espíritos de seus antepassados também poderiam ser salvos. Por essa razão, ele nutria um interesse incomum por fenômenos espirituais, mas permanecia indiferente à essência e à substância da fé, que é a “salvação”. Raramente frequentava sua igreja e, por conseguinte, recebia Johrei poucas vezes.
+
+Não sei como, mas ele descobrira meu endereço e me enviara duas cartas. Desde então, visitava-me duas ou três vezes por ano para fazer perguntas sem qualquer relação com a salvação, questionando sobre minhas impressões ou sobre o que “o líder” pensaria a respeito de determinados assuntos, temas que eu considerava triviais. Como seu sobrenome, Nishikioji, sugere, ele parecia ser descendente de uma nobre família da corte. Seus traços harmoniosos e imponentes denunciavam uma criação refinada. Contudo, suas relações sociais, que abrangiam a antiga nobreza, generais reformados do Exército e da Marinha, políticos e altos funcionários, pareciam ser motivo de grande orgulho, pois ele fazia questão de citar seus nomes a qualquer pretexto, como para exibir a vastidão de seu círculo de amizades. Eu, com meu espírito contestador, sentia apenas compaixão por aquela mentalidade esnobe, típica de uma aristocracia em declínio, e o considerava um caso de difícil salvação.
+
+A cada visita sua, eu não me esquecia de acrescentar as três condições essenciais a um membro da Igreja Messiânica: “O senhor tem lido os Ensinamentos? Tem frequentado a igreja? Tem ministrado Johrei?”. Sua resposta era sempre a mesma, como se carimbada: “Sim, tenho lido. Também tenho ido à igreja. E Johrei, de vez em quando...”. No entanto, eu duvidava de que aquilo correspondesse à realidade.
+
+O que me levava a crer que sua fé não era genuína era o fato de ele jamais se referir a Meishu-Sama com o tratamento honorífico que nós, membros, utilizamos; em vez disso, empregava sempre o termo “o líder”, em terceira pessoa. Todas as vezes, eu pronunciava deliberadamente “Meishu-Sama” em voz mais alta, mas ele não demonstrava qualquer reação, continuando a dizer “o líder” com naturalidade. Era um contraste interessante com minha esposa, que se refere a Meishu-Sama como Messias-Sama. Cada vez que isso acontecia, eu não podia deixar de sorrir com amargura. Em suma, eu o via como alguém que, embora formalmente membro, na prática não passava de um simpatizante da Igreja Messiânica, um não-crente.
+
+“Se eu mesmo contar, a história perderá toda a graça, o que é uma pena, mas terei de explicar o que houve com meu rosto.” O senhor Nishikioji insistia no assunto. “O senhor deve se lembrar das duas pequenas verrugas que eu tinha nas laterais do nariz, não é mesmo?”
+
+Ah... então era isso. Olhei novamente para seu rosto. Embora não fossem muito proeminentes, recordei-me das pequenas verrugas escuras que ele possuía em ambos os lados do nariz. “Elas sumiram. O senhor as cauterizou com algum remédio?”, perguntei.
+
+“Sei que minha fé não é fervorosa, então é natural que pense assim. No entanto, por menos fervoroso que eu seja, creio que compreendo perfeitamente o que são as toxinas dos remédios.” Ofendido pela minha insinuação de que sua fé era inconsistente, sua expressão endureceu por um instante. “Elas desapareceram com o Johrei de Meishu-Sama”, disse ele, e passou a narrar os detalhes do espantoso milagre do desaparecimento das verrugas.
+
+“Eu, que raramente vou ao Solo Sagrado, decidi ir quando soube que poderíamos receber o Johrei de Meishu-Sama. Queria ver como era o Johrei ministrado por Ele, se era igual ao do ministro da minha igreja. Assim, enquanto os outros fiéis curvavam a cabeça, eu a mantive erguida, acompanhando com o olhar cada movimento das mãos de Meishu-Sama. Mesmo quando a Luz era irradiada em nossa direção, permaneci de rosto erguido, observando Suas mãos. Minha atitude era, por assim dizer, a de um não-crente observando tudo com frieza, o que certamente foi de uma irreverência extrema para um membro.
+
+Após o término do Johrei, quando Meishu-Sama já havia se retirado, levei a mão ao rosto por puro hábito, sem pensar, e não senti as verrugas que sempre estiveram ali, duras sob a ponta dos meus dedos. ‘Ué...’, pensei. Apalpei o local cuidadosamente com as pontas dos dedos, mas, de fato, não havia nada. Tentei então com os dedos da mão esquerda, mas também não senti coisa alguma. O que teria acontecido? Apressadamente, peguei um espelho de bolso e, ao me olhar, vi que ambas as verrugas haviam desaparecido. Elas estavam lá, sem dúvida, até o momento em que Meishu-Sama entrou. Como e quando sumiram? Não se trata de um objeto; por menor que fosse, era uma parte do meu corpo. Se fosse cortada, sangraria e doeria. Mas foi removida sem que eu sentisse dor ou coceira, sem que eu sequer percebesse. É um mistério. Afinal, como foi que sumiram? Por mais que eu pensasse, não encontrava explicação. De todo modo, era um alívio ter me livrado de algo que me incomodava. Ao me levantar, enquanto me curvava em direção ao Altar, como faziam os outros fiéis, foi então que, como uma revelação divina, uma ideia cintilou em minha mente: elas haviam desaparecido por causa do Johrei que Meishu-Sama acabara de ministrar. ‘Pelo Johrei de Meishu-Sama...’ Toquei novamente o local onde as verrugas estavam, mas elas realmente não estavam mais lá. Para mim, era como se tivesse sido ludibriado por uma raposa. Hoje faz dez dias desde aquele evento extraordinário. Todos os dias, olho no espelho, apalpo com os dedos, repito o gesto inúmeras vezes, mas as verrugas não voltaram. Pensar que elas sumiram com um único Johrei de Meishu-Sama... Creio que Deus me mostrou um milagre, a mim, um membro tão pouco devoto e relapso. Diante disso, sinto que devo reavaliar por completo a percepção que eu tinha de Meishu-Sama e minhas ideias críticas sobre a Sekaikyuseikyou. É o que estou pensando. Senhor Kaian... um milagre como este... é possível que um milagre como este ocorra a quase mil fiéis após recebermos Johrei por um tempo tão breve?”
+
+Mesmo tendo presenciado um milagre tão assombroso, o tom de voz do senhor Nishikioji revelava que, por ser um fato tão distante da realidade cotidiana, ele ainda nutria uma ponta de dúvida.
+
+Os milagres concedidos por Deus são, em sua totalidade, misteriosos e incompreensíveis, impossíveis de serem decifrados pela sabedoria humana. São inúmeros os casos de proteção e milagres que ocorrem apenas por se portar o Omamori. Todavia, o fato de uma parte do corpo humano, como uma verruga, desaparecer instantaneamente e sem deixar vestígios pelo Johrei de Meishu-Sama, apenas nos faz arregalar os olhos em admiração e louvor, demonstrando a profundidade incomensurável do Poder Divino de Meishu-Sama.
+
+Enquanto ouvia o relato do senhor Nishikioji do início ao fim, meus sentimentos de comoção e assombro se renovaram. Ele, no entanto, que se reconhecia como pouco devoto e relapso, ainda guardava no fundo da alma um resquício de incerteza. Que homem hesitante! Isso não é um romance policial; milagres não requerem truques nem provas. Basta aceitar a realidade da salvação, exclamar “É um milagre! Fui salvo!” e agradecer a Deus com sinceridade. Engoli as palavras que já estavam na ponta da minha língua.
+
+“A Virtude Divina e os milagres não nascem do raciocínio humano, tampouco são algo que forçamos a existir por excesso de fé, como uma desculpa. Isso seria falsear a vontade de Deus. Contudo, existem materialistas que, mesmo diante da Virtude Divina e dos milagres, se recusam a aceitá-los por não se enquadrarem nas leis da natureza. Trata-se de uma visão tacanha e risível, de quem superestima a inteligência humana. Se eu dissesse que sua atitude se aproxima disso, o senhor provavelmente ficaria ofendido. O senhor presenciou a realidade, foi salvo na prática, considera um milagre e usa a palavra ‘mistério’, mas se ainda assim duvida, então lhe mostrarei um fato milagroso do qual não poderá duvidar de forma alguma.” Lidar com aquele homem ambíguo e indeciso, que não sabia se acreditava ou não, era simplesmente irritante.
+
+“O milagre que vivenciei não ocorreu por eu ter recebido Johrei diretamente de Meishu-Sama, mas simplesmente por ter contemplado Sua face, e tenho provas que o confirmam. Ao ouvir meu relato, suas dúvidas certamente se dissiparão”, afirmei, e passei a contar-lhe sobre a proteção que recebi durante uma peregrinação, dois anos antes.
+
+Eu, que me orgulhava de minha saúde e de nunca adoecer, sofri de uma inflamação no periósteo, causada por uremia, como a provar que meu corpo não era verdadeiramente saudável, mas apenas um aglomerado de toxinas solidificadas. Após quinze longos dias de dores intensas, quando a dor finalmente cedeu, pus começou a drenar de minha boca dia e noite, ininterruptamente, e quatro dos meus dentes superiores do lado direito caíram.
+
+Quando a quantidade de pus diminuiu um pouco, algo semelhante a um dente começou a romper a gengiva acima do local onde os dentes haviam caído. Sua ponta era afiada e feria meu lábio superior, tornando doloroso até mesmo mover a boca. Para piorar, aquilo crescia a cada dia, a ponto de eu não conseguir mais ingerir alimentos. Por mais que eu ministrasse Johrei em mim mesmo, aquele objeto continuava a crescer, até que ficou mais comprido que meus dentes da frente. Um dentista, que também é membro da fé, veio me visitar e, ao ver a situação, disse que, para uma pessoa comum, uma osteomielite tão grave seria fatal. Ele explicou que o objeto que crescia era um pedaço de osso necrosado e que eu deveria ser internado em um hospital cirúrgico para uma incisão e tratamento, pois, nesse caso, o Johrei não seria suficiente. Confesso que, na ocasião, fiquei um tanto alarmado e apreensivo com o que poderia acontecer.
+
+O pus ainda escorria de minha boca, e eu precisava limpá-lo com algodão a cada cinco minutos. Alimentava-me apenas com líquidos, que eu engolia com dificuldade, e minha força física, naturalmente, declinava. Mesmo nesse estado, peregrinei a Atami. Por causa do mau cheiro em minha boca, sentei-me na última fileira. Mover os lábios doía, então não pude entoar a Oração Amatsu-Norito nem os Hinos Divinos. Quando Meishu-Sama tomou Seu lugar, palavras que até então não haviam me ocorrido surgiram, não em voz alta, mas em meu íntimo: “Meishu-Sama, estou com sérios problemas com este dente. O que vai acontecer com ele?”. Nesse exato momento, senti o olhar de Meishu-Sama em meu dente. E então, o milagre. O milagre. O osso necrosado caiu subitamente na palma da minha mão esquerda. Sem dor, sem coceira, em total ausência de sensação. Soltei um “Ah!” involuntário.
+
+O osso necrosado tinha o tamanho da unha do meu polegar e, talvez por ter expelido todo o pus, parecia uma esponja, com uma aparência repugnante, coberto de pus e sangue. Naquele momento, porém, tomado por um sentimento de pura gratidão, não senti nojo algum. De tão feliz, mostrei-o aos fiéis conhecidos que estavam sentados ao meu lado, apontando para a palma da minha mão e dizendo: “Caiu! Caiu!”. “Nossa...”, exclamaram as senhoras, olhando ora para a minha boca, ora para o osso em minha mão, desviando o rosto com repulsa. Este milagre ocorreu antes mesmo de Meishu-Sama ministrar Johrei a todos os fiéis presentes. Como recordação desse milagre, guardei aquele osso necrosado até hoje.” E então, mostrei-o ao senhor Nishikioji.
+
+“O fato de suas verrugas estarem lá até a chegada de Meishu-Sama é verdade, e o fato de terem desaparecido após o Johrei também é verdade. Se é assim, por que elas sumiram em um intervalo de tempo tão curto? O senhor não as arrancou, nem ninguém as removeu com uma lâmina. Portanto, deveria aceitar com simplicidade o fato milagroso, que só ocorre aos fiéis da Sekaikyuseikyou: foi pelo Johrei de Meishu-Sama. Meu osso caiu na palma da minha mão, não deixando margem para dúvidas, mas no seu caso, como o senhor não sabe o paradeiro das verrugas, quer dizer que não há prova material? Por outro lado, também não há qualquer contraprova de que elas não foram removidas pelo Johrei. Contudo, o fato de que elas desapareceram é real. O senhor veio hoje até aqui para me mostrar seu rosto porque, no fundo, acredita que elas foram removidas pelo Johrei de Meishu-Sama, mas algo ainda o impede de crer totalmente, e por isso veio ouvir minha opinião. Noventa e nove por cento de fé e um por cento de dúvida: eis a sua verdadeira condição. É o seu pensamento materialista, incapaz de aceitar o milagre, que o impede de avançar com sinceridade no caminho da fé. Criticar a Sekaikyuseikyou é um direito, mas a crítica pela crítica pressupõe a descrença. Creio que o motivo pelo qual o senhor recebeu poucas graças até hoje reside na sua própria fé inconstante.” Exasperado com o ceticismo característico dos intelectuais, meu tom de voz tornou-se mais enérgico.
+
+Ainda que suas verrugas tivessem desaparecido com um único Johrei de Meishu-Sama, o senhor Nishikioji mantinha uma ponta de dúvida, questionando: “Como algo assim pode acontecer?”. Talvez por ter ouvido meu relato, visto a prova material e, além disso, ter sido confrontado com meus argumentos firmes, ele finalmente aceitou o milagre como um fato. De repente, o senhor Nishikioji ajeitou subitamente sua postura e disse: “Senhor Kaian, talvez minha atitude estivesse equivocada. De agora em diante, peço que me instrua como se eu fosse um fiel recém-iniciado.”
+
+Verrugas. Eu já havia lido em um jornal que nem mesmo nos Estados Unidos, com toda a sua medicina avançada, existe um tratamento definitivo para verrugas, recorrendo-se ainda aos antigos sortilégios. Havia até mesmo um templo nos subúrbios a oeste que atraía visitantes apenas por causa da fama de que seus amuletos curavam verrugas. E pensar que verrugas, algo tão difícil de tratar, desapareceram com um único Johrei de Meishu-Sama... “O Johrei de Meishu-Sama é como enxugar a água com um pano, não é mesmo?”, expressou o senhor Nishikioji, descrevendo o Poder Espiritual de Meishu-Sama. Concordei plenamente com ele.
+
+Só depois que ele partiu, dei-me conta de que a palavra “líder”, que ele tanto gostava de usar, não fora pronunciada uma única vez. Em seu lugar, ele se referira a Meishu-Sama com a reverência própria de um membro da fé. O grande milagre do desaparecimento das verrugas que tanto o incomodavam ao se barbear, com um único Johrei, havia, sem dúvida, mudado fundamentalmente sua percepção sobre Meishu-Sama e seu modo de pensar sobre a Sekaikyuseikyou.
+
+O osso necrosado que serviu para dissipar suas dúvidas, eu o envolvi em papel e guardei novamente na gaveta.
+
+---
+
 # Diário de Johrei
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年12月17日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
 
 ## Diário de Johrei
 
@@ -73,6 +830,7 @@ O Johrei da fé Messiânica, que pode ser praticado por qualquer pessoa — seja
 # Coletânea de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei (por Kaiansei) – Revista Glória, nº 99, 11 de abril de 1951
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年4月11日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
 
 ## Coletânea de Ensaios do Reverendo Okada Jikanshi — Diário de Johrei (por Kaiansei) – Revista Glória, nº 99, 11 de abril de 1951
 
@@ -91,6 +849,7 @@ Os exemplos vivos dessas duas pessoas, que por tanto tempo seguiram outras doutr
 # Coletânea de Artigos do Reverendo Jikan Okada — Diário de Johrei
 
 **Categoria:** jorei | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
 
 ## Coletânea de Artigos do Reverendo Jikan Okada — Diário de Johrei
 
@@ -123,6 +882,7 @@ Então, algo inesperado aconteceu. Grossas lágrimas começaram a rolar por seu 
 # Assuntos Religiosos Gerais
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 宗教概観篇 | **Status:** Unknown
 
 ## Assuntos Religiosos Gerais
 
@@ -181,6 +941,7 @@ Quanto ao termo Yahirodono (八尋殿), ele recebe esse nome simplesmente por se
 # A Ação Espiritual dos Animais
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 学問篇 | **Status:** Unknown
 
 ## A Ação Espiritual dos Animais
 
@@ -308,7 +1069,8 @@ O Kappa aprecia pepinos. É um ser que preza a lealdade e, quando ajudado, certa
 
 # Coletânea de Teses do Reverendo Jikan Okada — Pesquisa de Ensinamentos: Seção Ajuda. Pesquisa de Materiais: Etnia, Nação, Superstições, Volume 8, 130-149. Moradia e Costumes
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** 国土、迷信篇
+**Título Original:** 民族 | **Status:** Unknown
 
 ## Coletânea de Teses do Reverendo Jikan Okada — Pesquisa de Ensinamentos: Seção Ajuda. Pesquisa de Materiais: Etnia, Nação, Superstições, Volume 8, 130-149. Moradia e Costumes
 
@@ -445,6 +1207,7 @@ Residir a meio caminho de uma encosta não é bom. Locais que se acessam descend
 # Diário de Johrei
 
 **Categoria:** jorei | **Ano:** 昭和27(1952)年3月19日 | **Fonte:** Eikou
+**Título Original:** 浄霊日記 槐安生 | **Status:** Published
 
 ## Diário de Johrei
 
@@ -485,6 +1248,7 @@ Enquanto ministrava Johrei em meu filho, em um fluxo contínuo de pensamentos, o
 # Coletânea de Teses de Jikan Okada — Pesquisa nos Ensinamentos Divinos: Busca de Materiais: Seção da Fé (Adesão e Dificuldades na Fé)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 信仰篇 | **Status:** Unknown
 
 ## Coletânea de Teses de Jikan Okada — Pesquisa nos Ensinamentos Divinos: Busca de Materiais: Seção da Fé (Adesão e Dificuldades na Fé)
 
@@ -602,7 +1366,8 @@ Há, inclusive, muitos animais que desejam ser mortos.
 
 # Sintonias Espirituais (Coletânea de Teses do Mestre Jikan Okada)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （上）
+**Título Original:** 浄霊篇 | **Status:** Unknown
 
 ## Sintonias Espirituais (Coletânea de Teses do Mestre Jikan Okada)
 
@@ -725,6 +1490,7 @@ O mais importante é não se preocupar com tais minúcias. Apegando-se a cada de
 # Arte da Medicina (Parte 1) — Doenças Oculares (2)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 医術篇（一） | **Status:** Unknown
 
 ## Arte da Medicina (Parte 1) — Doenças Oculares (2)
 
@@ -863,6 +1629,7 @@ O nervo óptico, que se conecta ao cérebro, pode de fato se romper. Se o rompim
 # Coletânea de Ensaios do Mestre Jikan Okada
 
 **Categoria:** kouwa | **Ano:** 昭和24(1949)年10月21日 | **Fonte:** 御Hikari話録
+**Título Original:** - | **Status:** Published
 
 ## Coletânea de Ensaios do Mestre Jikan Okada
 ## Busca de Ensinamentos: help Busca de Materiais: Estudos Espirituais - Volume 3 - Elucidação sobre os Diversos Espíritos (Parte 1)
@@ -959,7 +1726,8 @@ Provavelmente havia um espírito na viga, talvez de alguém que se enforcou ou d
 
 # Tratado sobre a Arte da Cura (Dez)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （十）
+**Título Original:** 医術篇 | **Status:** Unknown
 
 ## Tratado sobre a Arte da Cura (Dez)
 ## 5. A Purificação no Puerpério
@@ -1087,6 +1855,7 @@ Provavelmente havia um espírito na viga, talvez de alguém que se enforcou ou d
 # Deidades da Linhagem Lunar
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 万神篇 | **Status:** Published
 
 ## Deidades da Linhagem Lunar
 
@@ -1226,6 +1995,7 @@ Sua verdadeira identidade é Tsukuyomi-no-Mikoto. Existe uma religião chamada T
 # Compêndio de Milagres e Fenômenos Prodigiosos 3: Deuses Guardiães e Luz (027-044)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 奇蹟奇象篇 | **Status:** Unknown
 
 ## Compêndio de Milagres e Fenômenos Prodigiosos 3: Deuses Guardiães e Luz (027-044)
 
@@ -1418,6 +2188,7 @@ O fenômeno tem uma profunda conotação espiritual. Está relacionado ao rancor
 # Sonho com antepassado em oração (comunicação do espírito protetor)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 霊学篇 | **Status:** Unknown
 
 ## Sonho com antepassado em oração (comunicação do espírito protetor)
 
@@ -1531,7 +2302,8 @@ Ele morreu na guerra, e as tênias provavelmente se proliferaram devido às cond
 
 # Arte da Cura (VI) – Diversos Sintomas de Doenças 2: Tosse e Falta de Ar (026-043)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （六） 病気諸症状
+**Título Original:** 医術篇 | **Status:** Unknown
 
 ## Arte da Cura (VI) – Diversos Sintomas de Doenças 2: Tosse e Falta de Ar (026-043)
 
@@ -1650,6 +2422,7 @@ Ele morreu na guerra, e as tênias provavelmente se proliferaram devido às cond
 # 051 A Reclusão do Deus Fundador da Pátria e os Oito Grandes Reis Dragões; a terra de Ayabe (onde o demônio fica dentro e a sorte, fora); a conexão terrestre da Coreia e da China; a condição atual do Grande Deus Fundador da Pátria e a fuga da Deusa Amaterasu
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 神解明篇 | **Status:** Unknown
 
 ## 051 A Reclusão do Deus Fundador da Pátria e os Oito Grandes Reis Dragões; a terra de Ayabe (onde o demônio fica dentro e a sorte, fora); a conexão terrestre da Coreia e da China; a condição atual do Grande Deus Fundador da Pátria e a fuga da Deusa Amaterasu
 
@@ -1883,7 +2656,8 @@ Ninigi-no-Mikoto veio da China.
 
 # A Transição e os Cinco Bilhões, Seiscentos e Setenta Milhões de Anos
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** Kyusei
+**Título Original:** 建設破壊篇 | **Status:** Unknown
 
 ## A Transição e os Cinco Bilhões, Seiscentos e Setenta Milhões de Anos
 
@@ -2048,6 +2822,7 @@ A sarna não representa risco de vida. Surgirão diversos sintomas de doenças a
 # Coletânea de Teses do Reverendo Jikan Okada – Volume de Estudos Espirituais: Enfermidades de Origem Espiritual (IV) - Impedimentos Originados do Terreno
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 霊学篇 | **Status:** Unknown
 
 ## Coletânea de Teses do Reverendo Jikan Okada – Volume de Estudos Espirituais: Enfermidades de Origem Espiritual (IV) - Impedimentos Originados do Terreno
 
@@ -2236,6 +3011,7 @@ Basta que ingressem nesta fé. (10/04/1949)
 # Rituais em Geral
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 祭事篇 | **Status:** Unknown
 
 ## Rituais em Geral
 
@@ -2379,6 +3155,7 @@ Dobre-o e coloque-o sobre um suporte em frente ao altar de Komyō Nyorai-Sama po
 # saij1084
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 祭事篇 | **Status:** Unknown
 
 Coleção de Artigos do Mestre Okada Jikanshi
 Busca por Ensinamentos | Busca por Referências: Seção de Assuntos Cerimoniais – Primeira Parte – 7 | Perguntas 084-100 – Local de Entronização
@@ -2478,7 +3255,8 @@ Busca por Ensinamentos | Busca por Referências: Seção de Assuntos Cerimoniais
 
 # O Casamento, o Novo Casamento, o Elo Espiritual e o Mundo Espiritual (A Verdade sobre a União)
 
-**Categoria:** kouwa | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** -
+**Categoria:** kouwa | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 人事篇 | **Status:** Published
 
 ## O Casamento, o Novo Casamento, o Elo Espiritual e o Mundo Espiritual (A Verdade sobre a União)
 
@@ -2606,7 +3384,8 @@ Se a pessoa em questão for verdadeiramente a sua alma gêmea, o único ser dest
 
 # Coleção de Artigos do Mestre Jikan Okada – Volume sobre a Arte da Medicina (Oito) 2
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （八）
+**Título Original:** 医術篇 | **Status:** Unknown
 
 ## Coleção de Artigos do Mestre Jikan Okada – Volume sobre a Arte da Medicina (Oito) 2
 
@@ -2703,6 +3482,7 @@ R: A inalação de oxigênio proporciona alívio porque o oxigênio tem um efeit
 # Coletânea de Teses do Reverendo Jikan Okada
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 祭事篇 | **Status:** Published
 
 ## Coletânea de Teses do Reverendo Jikan Okada
 
@@ -2815,6 +3595,7 @@ Quanto ao sino, como o espírito pertence ao Mundo Búdico, dois toques são suf
 # Coleção de Ensaios do Mestre Okada Jikanshi — Ensinamentos Sobre o Pensamento e o Poder da Palavra (Sounen Kotodama)
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Título Original:** 想念言霊篇 | **Status:** Unknown
 
 ## Coleção de Ensaios do Mestre Okada Jikanshi — Ensinamentos Sobre o Pensamento e o Poder da Palavra (Sounen Kotodama)
 
@@ -2926,7 +3707,8 @@ O ser humano tende a transferir a culpa para os outros, mas, na verdade, tudo é
 
 # Compêndio de artigos do reverendo Jikan Okada – Pesquisa de Ensinamentos: ajuda / Pesquisa de materiais: Tratado sobre a Arte de Curar (7)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （七）
+**Título Original:** 医術篇 | **Status:** Unknown
 
 ## Compêndio de artigos do reverendo Jikan Okada – Pesquisa de Ensinamentos: ajuda / Pesquisa de materiais: Tratado sobre a Arte de Curar (7)
 
@@ -3041,6 +3823,7 @@ Indivíduos que possuem toxinas específicas em seu organismo são suscetíveis 
 # Elucidação sobre os Diversos Espíritos (III) – Alterações Causadas pela Possessão Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** -
+**Título Original:** 霊学篇 | **Status:** Published
 
 ## Elucidação sobre os Diversos Espíritos (III) – Alterações Causadas pela Possessão Espiritual
 
@@ -3154,7 +3937,8 @@ Um homem de vinte e cinco anos com quem tenho relação, aos vinte anos, foi dia
 
 # Coletânea de Teses de Jikan Okada – Pesquisa nos Ensinamentos: Ajuda. Pesquisa de Materiais: Arte Médica (X) 8 107-123 Renascimento e Reencarnação
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** （十）
+**Título Original:** 医術篇 | **Status:** Unknown
 
 ## Coletânea de Teses de Jikan Okada – Pesquisa nos Ensinamentos: Ajuda. Pesquisa de Materiais: Arte Médica (X) 8 107-123 Renascimento e Reencarnação
 
@@ -3260,7 +4044,8 @@ Como os micro-organismos se agrupam em formato de cacho de uva, recebem o nome d
 
 # O Ser Humano e os Animais (Da Coletânea de Teses do Mestre Okada Jikanshi)
 
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
+**Categoria:** kouwa | **Ano:** - | **Fonte:** Chijo Tengoku
+**Título Original:** 学問篇 | **Status:** Unknown
 
 ## O Ser Humano e os Animais (Da Coletânea de Teses do Mestre Okada Jikanshi)
 
@@ -3400,1098 +4185,6 @@ Sim, o propósito é análogo. Eles atraem e extraem o sangue intoxicado. (23 de
 As rãs comestíveis, que chegam a ser produto de exportação, foram concedidas por Deus para o consumo humano?
 
 Sim, elas foram concedidas para o consumo. Matar um sapo-cururu, no entanto, atrai maldição. (13 de setembro de 1949)
-
----
-
-# A Arte da Cura (Volume 1)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## A Arte da Cura (Volume 1)
-
-## 096 A Enfermidade Ocular e o Colírio
-
-As toxinas medicamentosas de colírios aplicados na juventude são expelidas pelos olhos. Não se trata de uma questão espiritual. A cura é certa quando há secreção purulenta ou lacrimejamento. Com efeito, o lacrimejar sem motivo de tristeza é característico de quem já fez uso de colírios. Cinzas são prejudiciais.
-
-## 097 Uma Afecção Ocular Persistente
-
-**Pergunta:** Desde agosto do ano passado, meus olhos vêm piorando. Embora eu receba Johrei diariamente, não observo qualquer melhora. Qual seria a razão para tal ocorrência?
-
-**Meishu-Sama:** A causa reside nos medicamentos. Pessoas com problemas oculares apresentam febre na região da testa.
-
-## 098 Conjuntivite Aguda
-
-**Pergunta:** Minha filha mais velha, atualmente com vinte e sete anos, contraiu conjuntivite aguda aos vinte e dois. A doença começou no olho direito e, cerca de um mês depois, acometeu também o esquerdo. Submeteu-se a tratamentos médicos que apenas agravaram seu estado, levando-a a uma internação para cirurgia, após a qual perdeu completamente a visão. Desde novembro do ano passado, ela vem recebendo Johrei e, por volta de janeiro deste ano, o olho direito passou a distinguir objetos. Contudo, a "nuvem" esbranquiçada que surgiu após a cirurgia ainda persiste. A visão do olho esquerdo limita-se a perceber a luz de uma lâmpada e, por vezes, apresenta inchaço. Cumpre acrescentar que, simultaneamente à cirurgia do olho esquerdo, ela perdeu a audição do mesmo lado. Haveria possibilidade de uma recuperação completa? Rogo vossa orientação.
-
-**Meishu-Sama:** Foram os médicos que a prejudicaram. A conjuntivite aguda não é, em si, uma doença grave. Foram os médicos os responsáveis pelo agravamento.
-
-## 099 Vermelhidão e Inchaço ao Redor dos Olhos
-
-**Pergunta:** Tive a permissão de ingressar na fé há quatro anos. Sofro com lacrimejamento abundante e uma vermelhidão inchada e dolorosa ao redor dos olhos. Tenho persistido no Johrei por um longo período, mas não apresento melhora. Qual poderia ser a razão? Aos vinte e quatro anos, sofri de astigmatismo e recorri a tratamentos médicos e moxabustão. Além disso, tivemos um agregado cego, que faleceu aos sessenta e cinco anos. Minha enfermidade ocular teria uma causa espiritual? Peço vosso esclarecimento sobre a causa e o método de Johrei.
-
-**Meishu-Sama:** A causa não é espiritual, mas sim o uso de colírios. Aqueles que aplicaram grande quantidade de colírio invariavelmente apresentam lacrimejamento. A cura virá naturalmente, com o tempo, bastando que se abstenha de novos tratamentos.
-
-## 100 A Doença Olho de Gato e o Risco de Vida
-
-**Pergunta:** O terceiro filho do membro Tomijiro Tatsumi (de Quioto, oculista), chamado Takenori, começou a receber Johrei por volta do dia 20 de março devido a uma hérnia. Dois ou três dias depois, notamos um brilho peculiar em seu globo ocular. Após consulta médica, foi diagnosticada uma rara enfermidade ocular, conhecida como "olho de gato". Segundo o médico, dois terços do interior do olho esquerdo estavam preenchidos por um tumor, o que resultou em cegueira. Não haveria tratamento, e se o olho fosse mantido, a doença se estenderia pelo nervo óptico até o olho direito, culminando em risco de vida. A recomendação foi a remoção imediata do olho esquerdo. Diante disso, abandonamos a medicina e recorremos ao Johrei. Ele recebeu o Kyoshu e, desde então, ministramos-lhe Johrei pela manhã e à noite. Cerca de um mês depois, o olho esquerdo apresentou congestão, seguida de dor intensa e contínua por aproximadamente vinte dias. Quando a congestão e a dor começaram a diminuir, por volta de 15 de junho, surgiram em seu rosto e corpo erupções semelhantes a catapora. (Seus avós paternos também ficaram cegos do olho esquerdo; a avó ainda vive). Dizem ser a mais grave das doenças oculares, com risco de vida. Será possível salvá-lo? Solicitamos vossa orientação.
-
-**Meishu-Sama:** Isso é um disparate. É absolutamente impossível que uma doença ocular leve à perda da vida. Se assim fosse, todas as pessoas cegas já teriam morrido. É incompreensível em que se fundamentam para fazer tal afirmação. É, de fato, um ultraje. O processo de purificação, por sua vez, é excelente. As toxinas (pus) da cabeça convergem para o globo ocular a fim de serem expelidas, e ali se solidificam temporariamente. O uso de medicamentos faz com que se enrijeçam e se desloquem para o olho oposto, o que acaba por causar a cegueira em ambos. O quadro atual indica que a cura progride de maneira ordenada, com as toxinas buscando uma via de saída também através da pele.
-
-## 101 A Enfermidade Ocular, a Longevidade e as Toxinas Medicamentosas
-
-**Pergunta:** Minha mãe tem setenta e cinco anos. Há cerca de trinta e cinco anos, ela perdeu a visão do olho direito. Posteriormente, por volta de 1945, o olho esquerdo começou a ficar embaçado, e no ano seguinte, ela ficou completamente cega. Após receber Johrei, cerca de um mês depois, conseguia distinguir vagamente o contorno das portas de correr, mas atualmente, percebe apenas lampejos de luz ocasionais. Nossa família enfrentou muitos infortúnios na geração de meu avô e de meu pai. Poderia haver alguma influência de nossos antepassados? Rogo vosso parecer.
-
-**Meishu-Sama:** A causa não é espiritual. As toxinas presentes no organismo foram solidificadas no início do processo. Com perseverança, a cura virá. Ela se restabelecerá enquanto tiver tempo de vida. Não há ser humano que não possa viver mais de cem anos. São os medicamentos que encurtam a vida.
-
-## 102 A Enfermidade Ocular e o Uso de Colírios
-
-**Pergunta:** Trata-se de uma Kyoshu-sei de vinte e quatro anos, que sofre de uma doença ocular há quatro anos e recebe Johrei há oito meses. Recentemente, suas purificações se intensificaram, a ponto de não conseguir ler letras a trinta centímetros de distância. O médico diagnosticou um problema na retina, e parece que ela utilizou um número considerável de medicamentos, incluindo injeções. Atualmente, sua pupila apresenta certa opacidade. Haveria esperança de salvação para ela?
-
-**Meishu-Sama:** Ela será curada pelo Johrei. O uso de colírios solidificou as toxinas, tornando a cura mais difícil. O colírio é o que mais solidifica. Se não tivesse sido utilizado, o caso seria simples.
-
-## 103 Afecção Ocular (Diminuição da Acuidade Visual)
-
-**Pergunta:** Há cerca de vinte anos, recebi uma injeção de Salvarsan e, há catorze ou quinze anos, outras cinco ou seis. Originalmente, somos três irmãos com problemas oculares. Há mais de dez anos, minha visão vem diminuindo gradualmente e, hoje, mesmo de óculos, não consigo distinguir as pessoas. Contudo, ao remover os óculos e olhar para as linhas da minha própria mão, consigo vê-las com clareza, embora seja incapaz de ler qualquer texto. Acredito que, por gostar de sumô desde a juventude e treinar intensamente batendo a testa em pilares, toxinas se acumularam e solidificaram em minha fronte. Gostaria de solicitar vossa orientação a respeito.
-
-**Meishu-Sama:** Existem toxinas na parte posterior dos olhos. A cura é possível. Ministre Johrei na cabeça.
-
-## 104 Conjuntivite Flictenular
-
-**Pergunta:** Tenho um filho de quatro anos que sofre de desnutrição de natureza tuberculosa e uma doença ocular que o impede de abrir os olhos devido à sensibilidade à luz, o que nos causa grande aflição. Ele recebeu o Ohikari há cerca de vinte dias e temos continuado com o Johrei, mas não há melhora. Ele poderá ser curado? O médico diagnosticou conjuntivite flictenular, e seus olhos apresentam uma névoa.
-
-**Meishu-Sama:** A origem está na cabeça; portanto, ministre Johrei na cabeça. Ministre também na nuca. Em todos os casos de afecções oculares, a presença de secreção ou lágrimas é um sinal seguro de cura. Creio que falta força espiritual a quem está ministrando o Johrei. As doenças oculares são de fácil recuperação, mas a aplicação de medicamentos as solidifica, tornando o processo mais complexo.
-
-## 105 Nuvem nos Olhos
-
-**Pergunta:** Minha filha de onze anos nasceu com uma "nuvem" nos olhos. Embora enxergue um pouco, em agosto deste ano, depois que eu, sua mãe, ingressei na fé e comecei a ministrar-lhe Johrei, a nuvem diminuiu consideravelmente. Tive outra filha, três anos mais velha, com o mesmo problema, que faleceu aos seis anos. Será que os olhos desta minha filha voltarão a enxergar? Peço também vossa orientação sobre a causa espiritual.
-
-**Meishu-Sama:** Ela voltará a enxergar. Nos casos de problemas oculares, se houver a mínima melhora com o Johrei, a cura é certa.
-
-## 106 Secreção e Lacrimejamento Abundantes
-
-**Pergunta:** Há cerca de catorze ou quinze anos, fui acometido por uma doença ocular. No início, fiz lavagens com um médico por aproximadamente dois meses, sem sucesso. Em maio de 1947, recebi o Ohikari e, em março do ano seguinte, entronizei a Imagem de Komyô Nyorai-Sama. Toda a família tem se apegado à fé com fervor, mas ainda sofro com grande quantidade de secreção e lágrimas, o que me aflige. Qual seria a razão?
-
-**Meishu-Sama:** A presença de secreção é a garantia da cura. Deveria se alegrar, pois é por meio dela que a cura se concretizará.
-
-## 107 Enfermidade Ocular com Secreção
-
-A presença de secreção é a garantia da cura. Deveria se alegrar, pois é por meio dela que a cura se concretizará.
-
-## 108 Doença Ocular Causada por Toxinas na Cabeça
-
-**Pergunta:** Há aproximadamente trinta anos, recebi seis injeções da fórmula 606 para tratar um inchaço no pescoço. Há mais de trinta anos sofro de ambos os olhos, recorrendo ao médico duas ou três vezes por ano e usando colírios ocasionalmente. Em março de 1946, tive a permissão de ingressar na fé e também de entronizar a Imagem de Daikomyô Nyorai-Sama. Cerca de seis meses após o ingresso na fé, tive uma purificação nos olhos que perdura até hoje. Nos últimos três meses, a purificação se intensificou, acompanhada de dor aguda, e tenho expelido grande quantidade de secreção. Há uns vinte anos, aterramos um poço que ficava a sudeste de minha casa e cavamos um novo um pouco mais a leste, sem realizar nenhuma cerimônia na ocasião. Além disso, quando tínhamos uma usina de beneficiamento de arroz, há mais de vinte anos, o irmão do meu marido matou muitas cobras vivas, prendendo-as nas correias das máquinas. Esse irmão faleceu de tuberculose aos vinte e nove anos. Há também uma história, de setenta ou oitenta anos atrás, de que um santuário foi construído a noroeste de minha propriedade, onde duas mulheres realizavam cerimônias. Hoje, no local, restam apenas duas grandes árvores, um cânforeiro e um "yonomi". Haveria alguma relação entre esses fatos e a purificação dos meus olhos? E como devo proceder em relação a tudo isso? Peço vossa orientação.
-
-**Meishu-Sama:** O inchaço no pescoço foi um excelente processo. Quanto aos olhos, trata-se das toxinas da cabeça que tentam ser expelidas através deles.
-
-## 109 Causa da Enfermidade Ocular e Cura de Corcunda
-
-**Pergunta:** Aos quatro anos de idade, tive furúnculos por todo o corpo. Após a cura por tratamento médico, surgiu um caroço semelhante a uma corcunda em minhas costas, que foi crescendo com o passar dos anos, e minha estatura não passou de aproximadamente um metro e vinte. Ademais, há cerca de três anos, fui acometido por uma doença ocular com dores intensas. Desde outubro do ano passado, venho recebendo Johrei. Em janeiro deste ano, tive a permissão de ingressar na fé e, ao passar a receber Johrei diariamente, a dor diminuiu consideravelmente, embora ainda ocorram crises de dor aguda. Será que serei curado? Gostaria de saber a causa e o método de Johrei.
-
-**Meishu-Sama:** Tudo o que dói, certamente será curado. Ministre Johrei abundantemente na cabeça e no bulbo. As toxinas da cabeça (sangue impuro) se acumulam nos olhos. Já no bulbo, a compressão dos vasos sanguíneos causa anemia nos olhos. As toxinas que foram suprimidas se interiorizaram e se manifestaram nas costas. O crescimento da coluna vertebral também foi impedido pela corcunda. Este é um caso extremamente difícil.
-
-## 110 Os Olhos e os Rins (Johrei para Doença Ocular Grave)
-
-**Pergunta:** Desde a infância, quando sofri de uma doença ocular, minha visão nunca mais foi nítida. O problema surgiu de forma súbita, em uma única noite. Será possível a recuperação completa? Rogo vosso parecer.
-
-**Meishu-Sama:** Ainda restam resíduos de intoxicação medicamentosa. Os olhos, em geral, curam-se com relativa facilidade. Em casos graves, é necessário ministrar Johrei nos rins.
-
-## 111 A Origem das Doenças Oculares
-
-**Pergunta:** Meu filho de nove anos adoeceu subitamente de um dos olhos há três anos. Desde o início, temos ministrado Johrei, mas uma nuvem branca permanece sobre a pupila, sem sinais de melhora. Qual seria a causa?
-
-**Meishu-Sama:** A causa vem da cabeça. Há toxinas no olho direito. Ministre Johrei no ponto mais quente da cabeça. Ministre também nas costas e nos rins. A cura está sendo difícil porque os pontos vitais não estão sendo atingidos. A força espiritual varia de pessoa para pessoa, alguns nascem com ela mais forte, outros mais fraca. Todas as doenças oculares provêm da cabeça; são uma manifestação das toxinas da cabeça que tentam ser expelidas pelos olhos. Quando há secreção ou lágrimas, significa que o processo de cura se iniciou. O uso de colírios solidifica as toxinas, piorando consideravelmente o quadro.
-
-## 112 Periostite, Cegueira do Marido Opositor e Afecção Ocular Derivada da Peritonite
-
-**Pergunta:** Em nossa casa, por não desejarmos ter filhos, consagrávamos uma imagem de Kishimojin. O filho mais velho desse casal, com quarenta e três anos, sofre de periostite e manca. Sua esposa, por sua vez, padeceu por muitos anos de peritonite, mas foi completamente curada pelo Johrei, pelo que expresso minha profunda gratidão. O casal recebeu o Ohikari em julho de 1945, mas o marido não praticava a fé e se opunha a ela. Recentemente, ele perdeu a visão e, após mais de dois meses de tratamento médico sem resultado, voltou a recorrer ao Johrei. De que forma devemos ministrar o Johrei para obter um resultado eficaz? Solicitamos vossa orientação. (A imagem de Kishimojin já foi por nós mesmos devolvida ao templo xintoísta local).
-
-**Meishu-Sama:** Basta ministrar Johrei na cabeça. Contudo, como as toxinas foram solidificadas por dois meses, será preciso muita perseverança. O fato de terem devolvido a imagem de Kishimojin é positivo. Embora raro, a peritonite pode, de fato, afetar os olhos.
-
-## 113 Perda da Visão por Tratamento Médico
-
-**Pergunta:** Tenho vinte e quatro anos. Em 1941, tive uma leve doença ocular e me submeti a tratamento médico por dois anos. Parecia ter me curado, mas no outono de 1945, a doença reapareceu. Passei a receber injeções no globo ocular, mas meu estado piorou progressivamente, e seis meses depois, perdi completamente a visão. Em agosto de 1947, tive a permissão de receber o Kyoshu, e desde maio deste ano, estou sob a orientação do Reverendo Tokunaga. Atualmente, surgiram caroços acima e abaixo do meu umbigo, e também apareceu um nódulo preto no globo ocular. Em minha família, desde a geração de meus pais, matamos muitas cobras. Além disso, até recentemente, não tínhamos oratório em casa. No mês passado, entronizamos o biombo com a imagem de Kannon e estamos praticando o Johrei.
-
-**Meishu-Sama:** Foram os médicos que o deixaram cego. Os caroços acima e abaixo do umbigo podem ser a manifestação de uma cobra encostada, ou o fato de o olho ter ficado branco e sem visão foi causado pelos médicos. De qualquer forma, a cura é possível com Johrei, mas será um processo longo. Em casos de doença ocular, é imprescindível ministrar Johrei na região acima das sobrancelhas. A cura se aproxima quando essa área se torna fria.
-
-## 114 Johrei para Manchas na Visão
-
-**Pergunta:** Trata-se de uma jovem de vinte e três anos (toda a família recebeu o Ohikari). Por volta de agosto, surgiram duas manchas em seu olho esquerdo. Desde então, ela tem se dedicado exclusivamente ao Johrei, mas não apresenta melhora. Haveria alguma causa espiritual?
-
-**Meishu-Sama:** Não se deve ministrar Johrei apenas no olho. É preciso ministrar na parte esquerda da cabeça e em toda a sua extensão lateral.
-
-## 115 O Johrei dos Olhos
-
-**Pergunta:** Aprendemos que, em casos de purificação nos olhos, ministrar Johrei no bulbo é contraproducente. Qual seria a razão para isso?
-
-**Meishu-Sama:** Porque o sangue se acumula na parte posterior dos olhos...
-
-## 116 Cirurgia no Globo Ocular por um Cisco Causa Dor Intensa e Necrose
-
-**Pergunta:** No dia 24 de maio, procurei um médico porque um cisco entrou em meu olho. Ele disse que eu tinha um tracoma maligno com cerca de quinze ferimentos no globo ocular e que a cirurgia era necessária, à qual me submeti imediatamente. A partir de então, a dor tornou-se insuportável. Recebi umas seis injeções no globo ocular, e depois minha cabeça começou a doer. Em seguida, aplicaram-me injeções na artéria. Passaram-se treze dias, mas a dor só aumentava, e meu olho acabou necrosando, desfazendo-se. Abandonei o médico e passei a receber Johrei. No início, sentia como se meu globo ocular fosse saltar para fora. Após uns três dias de Johrei, a dor melhorou muito, mas ainda sinto dores por volta das quatro da manhã. Ingressei na fé e continuo recebendo Johrei. A recuperação completa será demorada? Haveria alguma causa espiritual?
-
-**Meishu-Sama:** Não há nenhuma causa espiritual. Foram os médicos que agravaram seu estado. A duração do processo de cura dependerá da quantidade e da natureza dos medicamentos utilizados.
-
-## 117 Cirurgia de Entrópio Causa Cegueira
-
-**Pergunta:** Tenho cinquenta e cinco anos. Há três anos, tive problemas gastrointestinais que melhoraram temporariamente, mas reapareceram em outubro do ano retrasado. Naquela época, contraí uma doença ocular. O médico atribuiu a causa a um entrópio e realizou uma cirurgia, que acabou por piorar a situação. Desde então, o olho esquerdo ficou completamente cego, e o direito é extremamente sensível à luz e ocasionalmente dolorido. Recebi o Ohikari em outubro do ano passado e venho ministrando Johrei. Meu corpo melhorou muito, mas meus olhos não apresentaram nenhuma mudança. O que devo fazer?
-
-**Meishu-Sama:** A cirurgia de entrópio fez com que os medicamentos se solidificassem nos olhos. O colírio sobe para a cabeça, se dissolve e depois retorna aos olhos. Certamente há febre na cabeça. Com Johrei, a cura virá.
-
-## 118 Cirurgia do Globo Ocular
-
-**Pergunta:** Devido a repetidas noites em claro trabalhando, meu olho esquerdo começou a ficar levemente embaçado por cerca de um mês. Há aproximadamente quinze dias, perdi a visão. O diagnóstico médico revelou uma extensa hemorragia no fundo do olho, que, por ter coagulado, impede a visão. O médico propõe primeiro aplicar injeções no globo ocular e, por fim, realizar uma cirurgia para remover o coágulo. Ao ouvir os ensinamentos sobre a Grande Kannon, abandonei imediatamente o tratamento médico e passei a receber Johrei. Hoje, no oitavo dia, consigo ver a chama de uma vela um pouco melhor do que no início, mas ainda não distingo as formas dos objetos. Existe perspectiva de cura? Rogo vosso parecer.
-
-**Meishu-Sama:** Sim, há perspectiva. O trabalho noturno fez com que a energia nervosa se concentrasse nos olhos, atraindo as toxinas da cabeça para esse local. A hemorragia no fundo do olho é comum. Os médicos extraem o globo ocular, limpam sua parte posterior e o recolocam, o que pode restaurar um pouco da visão. Contudo, como as toxinas se concentrarão novamente, uma nova e grande cirurgia se fará necessária.
-
----
-
-# Coletânea de artigos do Mestre Okada Jikanshi - A Fisionomia das Residências
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Coletânea de artigos do Mestre Okada Jikanshi - A Fisionomia das Residências
-
-### 018. A Fisionomia da Vila Shinzan-so, a Posição do Pavilhão Kanzan-tei e as Rochas Chihiki-no-iwa e Shimotsu-iwane
-
-O local onde se encontra o Pavilhão Kanzan-tei foi o nosso primeiro parque, anterior à construção do Parque de Gora. A rocha do Kanzan-tei é a maior de todas. O Monte Sounzan teve uma erupção explosiva, e as rochas expelidas naquela ocasião se concentraram em grande número nas proximidades da Vila Shinzan-so, o que é um fenômeno raro, pois geralmente as erupções são de lava.
-
-As rochas servem como proteção contra o mal. A rocha conhecida como Chihiki-no-iwa e o costume de posicionar pedras ao lado de portões têm essa finalidade. A presença de rochas sob o solo também é benéfica. Conforme o dito antigo, deve-se "edificar os pilares do palácio sobre a rocha firme" (Shimotsu-iwane ni miyahashira futoshikitate).
-
-O portão mais auspicioso é o que se situa na direção noroeste (Inui). Do ponto de vista da fisionomia das residências, é extremamente favorável que, ao subir os degraus, o caminho se curve para a esquerda, levando a uma entrada principal também à esquerda. Ademais, uma propriedade cercada por montanhas é igualmente muito positiva. (23 de junho de 1948)
-
-### 019. O Fundamento da Fisionomia das Residências
-
-**Pergunta:** Em locais como os locais de romaria, muito se comenta sobre a fisionomia das construções, afirmando que a orientação e o estilo arquitetônico influenciam a prosperidade ou o declínio da família. Gostaria de saber se, de fato, existe essa relação.
-
-**Meishu-Sama:** A direção do vento não tem relevância, mas os pontos cardeais, sim. O ponto crucial é não construir banheiros ou vasos sanitários na direção nordeste (Ushitora). Para que espíritos malignos ou inferiores não atuem, é fundamental não macular essa direção. Deve-se zelar para que, através dela, advenha uma pura energia espiritual.
-
-É verdade que plantar cedros japoneses previne o surgimento de doentes. A madeira (ki) se converte em fogo (hi), gerando energia vital. Na direção sudoeste (Kon), devem-se posicionar água e pedras. Eis o fundamento da fisionomia das residências. A orientação da fachada, em si, não apresenta problemas. (28 de maio de 1949)
-
-### 020. Conhecimentos Básicos sobre a Fisionomia das Residências
-
-**Pergunta:** Um terreno cuja parte inferior é triangular é chamado de "terreno em formato de navio partindo" e tido como desfavorável. Haveria alguma relação espiritual nisso?
-
-**Meishu-Sama:** Isso não é desfavorável; pelo contrário, é bom. O formato de navio é auspicioso. Contudo, há direções favoráveis e desfavoráveis para o vértice do triângulo. O ideal é que ele se situe na parte superior do terreno, pois isso representa uma forma de avanço. Seria bom inverter o lote, posicionando a entrada no lado oposto. Se a parte superior for triangular, será excelente.
-
-As melhores formas para uma casa são a de navio ou a de "asas de grou abertas". Uma planta quadrada, com algumas reentrâncias e saliências, também é boa. Formas côncavas ou curvas, todavia, são desfavoráveis. (21 de maio de 1949)
-
-### 021. A Fisionomia dos Portões
-
-**Pergunta:** Existe um tipo de portão chamado "portão-moradia" (Nagaya-mon), comum em residências rurais, que consiste em uma estrutura alongada de frente para a rua, com um portão central e, em ambos os lados, cômodos residenciais ou depósitos. Diz-se que não é muito bom. Qual seria o ensinamento a esse respeito?
-
-**Meishu-Sama:** Antigamente, é provável que se fizesse assim para criar uma entrada mais imponente. Não há bem ou mal nisso; se houver necessidade, pode-se fazer. Contudo, se, ao adentrar o portão, não houver um ponto focal à frente, ele perde seu significado. Deveria haver uma residência ou outra construção centralizada. Do ponto de vista da fisionomia das residências, essa configuração é desfavorável, pois não permite o desenvolvimento. (11 de dezembro de 1949)
-
-### 022. Cumeeiras em Forma de "T" e Infortúnios (A Casa de Deus)
-
-**Pergunta:** Há casas cuja cumeeira tem formato de "T" e, na maioria delas, ocorrem infortúnios com a família. Qual seria a razão?
-
-**Meishu-Sama:** Isso não tem grande relação. É superstição. No entanto, para o Templo de Deus, o formato em "T" é inadequado. No futuro, pretendo construir a casa de Deus em um formato específico que tenho em mente. (21 de maio de 1949)
-
-### 023. Terrenos Triangulares
-
-**Pergunta:** Diz-se que morar em um terreno triangular atrai uma sucessão de infortúnios. Por que motivo?
-
-**Meishu-Sama:** A ideia de terreno triangular é uma falácia. A forma verdadeira é a quadrangular, que corresponde aos quatro pontos cardeais (leste, oeste, sul e norte). A forma e a localização da casa, estas sim, têm enorme importância. Uma casa construída sobre o leito de um rio também não é bom, pois lhe falta estabilidade.
-
-Quanto à perfeição, ela atrai o mal, conforme o ditado: "o que atinge a plenitude começa a minguar". Artistas como Hasegawa Tokukata e Hidari Jingoro deixaram intencionalmente uma imperfeição, um guarda-chuva, no Templo Chion-in. Isso, porém, é uma verdade do Mundo da Noite; no Mundo do Dia, não há problema algum. A perfeição é boa. (23 de fevereiro de *)
-
-### 024. O Caso de um Terreno Triangular
-
-**Pergunta:** A casa de um membro é um terreno triangular, com um pequeno riacho passando pelos lados leste e oeste. O chefe da família, de trinta e sete anos, recentemente sente a cabeça pesada e não consegue trabalhar, e a família já vinha sofrendo infortúnios contínuos. Além disso, a água do poço tornou-se muito turva. Haveria alguma relação espiritual entre o terreno triangular, os riachos, a água turva e o infortúnio da família?
-
-**Meishu-Sama:** Um terreno triangular é, de fato, desfavorável. Como digo, a forma correta de um terreno, correspondendo aos quatro pontos cardeais, é a quadrangular. Um triângulo representa metade disso, e por isso não é bom. Construir uma cerca ou muro para demarcar o terreno resolverá a questão. (2 de fevereiro de 1950)
-
-### 025. Casa sobre um Riacho
-
-**Pergunta:** Na província de Fukushima, há uma casa de agricultores construída sobre o riacho que usam para cozinhar e para outros fins. Isso apresenta algum problema?
-
-**Meishu-Sama:** Construir sobre a água é inadequado. O correto é edificar sobre a terra. A energia espiritual da terra é benéfica para o ser humano. O chamado "mal dos edifícios" é comum e ocorre justamente pelo distanciamento dessa energia telúrica. A própria sensação de se exercitar dentro de casa e ao ar livre é diferente.
-
-Agora, se a casa for construída sobre a terra e apenas uma parte dela se projetar sobre a água, não há problema. (12 de abril de 1950)
-
-### 026. A Razão pela Qual uma Casa de Dois Cômodos de Seis Tatames é Inadequada
-
-**Pergunta:** Ouvi dizer que uma casa com dois cômodos de seis tatames não é boa. Qual o motivo?
-
-**Meishu-Sama:** Uma casa com dois cômodos de seis tatames se torna uma "casa de água". O número seis corresponde ao elemento Água; portanto, a configuração resulta em "água sobre água". Pela ausência da atuação do elemento Fogo, essa casa não prospera e as coisas não correm bem. A solução é transformar um dos tatames de um dos cômodos em piso de madeira, criando um ambiente de cinco tatames. (18 de janeiro de 1949)
-
-### 027. Vaso Sanitário Atrás do Tokonoma
-
-**Pergunta:** Vemos com frequência casas em que o vaso sanitário se localiza nos fundos do tokonoma. Qual a sua opinião a respeito?
-
-**Meishu-Sama:** Não há problema algum em o vaso sanitário estar localizado atrás do tokonoma.
-
-### 028. A Direção do Fogão
-
-**Pergunta:** Gostaria de mudar a direção do meu fogão a lenha e peço sua orientação. Atualmente, ele está voltado para uma direção e desejo mudá-lo para outra. Seria possível?
-
-**Meishu-Sama:** Qualquer direção é aceitável. O melhor é aquilo que for mais conveniente e prático para o uso.
-
-### 029. O Deus do Fogão a Lenha
-
-**Pergunta:** Em minha casa, há um antigo fogão a lenha (kamado) que ocupa cerca de 1,65 m² e que eu gostaria de transformar em um banheiro. Ele se localiza entre as direções leste e sudeste. Além disso, onde devo descartar a terra do antigo fogão?
-
-**Meishu-Sama:** Não há problema. Mesmo um fogão a lenha possui espíritos protetores. Espíritos que, por longos anos, cuidaram de fornalhas e continuam a fazê-lo no Mundo Espiritual, tornam-se deuses do fogão. Eles nos protegem. (16 de janeiro de 1950)
-
-### 030. Casa sobre um Poço Antigo e Infortúnios
-
-**Pergunta:** Foi construída uma casa sobre um poço antigo, coberto com uma placa de ferro, e, desde então, os infortúnios se sucedem. Seria uma maldição de um Deus-Dragão? Como deveríamos proceder?
-
-**Meishu-Sama:** Sim, é uma maldição do Deus-Dragão. Os Deuses-Dragões se ofendem quando o propósito de suas águas é roubado sem uma justificativa. (O ideal é cavar um poço substituto nas proximidades, oferecer arroz cru, sal e água, e pedir perdão com sinceridade). (21 de fevereiro de 1949)
-
-### 031. O Encontro de Divisórias em um Único Pilar e os Infortúnios
-
-**Pergunta:** Na região de Miyagi, há a crença de que, quando divisórias como shoji e fusuma convergem de quatro direções para um único pilar central, isso atrai infortúnios. Para evitar, constroem uma parede em um dos lados e erguem um pilar a cerca de noventa centímetros de distância. Isso tem algum fundamento?
-
-**Meishu-Sama:** Sim, há algum sentido nisso. As divisórias de shoji são removíveis. Caso sejam retiradas, resta apenas o pilar, o que é uma configuração estranha para a fisionomia de uma casa. Um cômodo só existe como tal por ter divisórias.
-
-Ademais, antigamente, se um invasor entrasse, um ambiente cercado apenas por shoji não ofereceria local para refúgio. Ter paredes em pelo menos dois lados proporciona uma sensação de estabilidade e segurança. (22 de janeiro de 1950)
-
-### 032. Mudança para a Direção do Kimon
-
-**Pergunta:** É permissível mudar-se para a direção do Kimon (nordeste)?
-
-**Meishu-Sama:** É extremamente favorável.
-
-### 033. Confrontado com uma Ordem de Despejo
-
-**Pergunta:** O proprietário do imóvel que alugo, por questões financeiras, deseja vendê-lo e está exigindo ruidosamente que eu me mude. Rogo por sua proteção para que eu consiga uma nova casa.
-
-**Meishu-Sama:** Isso ocorre quando se faz com que as pessoas ouçam aquilo que lhes é desagradável.
-
-### 034. O que Fazer ao se Mudar
-
-**Pergunta:** 1. Desejo mudar-me para a direção oeste ainda este ano. Há algum procedimento especial que deva ser feito? 2. Posso manter o Pergaminho Sagrado de Komyu Nyorai e o oratório familiar (Butsudan), que contém uma imagem de Amida Nyorai, no mesmo cômodo?
-
-**Meishu-Sama:** 1. Não é preciso fazer absolutamente nada. Se você está na fé, é impossível que vá para um lugar ruim. Você irá para um bom lugar no Mundo Espiritual. (6 de julho de 1949)
-
-### 035. Mudar-se para uma Casa que foi Inundada
-
-**Pergunta:** Sou um missionário que atua nos arredores de Ichinoseki. O local é inconveniente, e sempre desejei me mudar para o centro da cidade. Surgiu uma casa vaga, mas ela foi atingida pelas grandes enchentes dos últimos dois anos. Posso me mudar para lá?
-
-**Meishu-Sama:** Sim, pode se mudar. Quanto antes o fizer, melhor.
-
-### 036. Procedimento para um Vaso Sanitário Antigo
-
-**Pergunta:** Ao construir um novo banheiro, o que se deve fazer com o antigo?
-
-**Meishu-Sama:** O correto é aterrá-lo. (2 de junho de 1949)
-
-### 037. Ao Corrigir um Vaso Sanitário no Kimon, etc.
-
-**Pergunta:** Caso a entrada, a cozinha, o banheiro ou o vaso sanitário estejam localizados no Kimon (nordeste) ou no Ura-Kimon (sudoeste), o que se deve fazer no período até que a reforma seja realizada?
-
-**Meishu-Sama:** Aja com bom senso. (28 de dezembro de 1949)
-
-### 038. Trocar o Telhado por Telhas e o Rebaixamento da Cumeeira
-
-**Pergunta:** Meu telhado de colmo está se deteriorando e desejo substituí-lo por um telhado de telhas. Contudo, dizem que, com as telhas, a cumeeira ficará mais baixa, o que seria desfavorável para a fisionomia da casa. Também afirmam que usar materiais antigos na reforma seria igualmente ruim. Como devo proceder?
-
-**Meishu-Sama:** O fato de a cumeeira ficar mais baixa provavelmente se deve à estrutura ter sido projetada para um telhado de colmo, sendo, portanto, frágil. É bom reformar utilizando materiais antigos. Inclusive do ponto de vista da economia nacional, é positivo que se aproveitem ao máximo os materiais de reuso. (25 de agosto de 1949)
-
-### 039. Construção que não Progride
-
-**Pergunta:** Por ter levado uma vida muito dissoluta, causei grande preocupação à minha mãe, que hoje tem oitenta anos. Para alegrá-la um pouco, comecei uma reforma em casa. A fundação está pronta, mas, mesmo pagando aos operários tudo o que pedem, eles continuamente reclamam que falta algo e não trabalham, de modo que a obra não avança. Acabo de receber a Imagem de Komyu Nyorai e gostaria de rogar por proteção. Devo adiar a construção?
-
-**Meishu-Sama:** Será que o senhor não está de fato deixando de pagar aos operários o que eles exigem? O fato de receber a proteção de Komyu Nyorai não alterará essa situação. (28 de maio de 1949)
-
----
-
-# Ciência Espiritual – Volume I: Doenças de Causa Espiritual (I), 7, 117-138 - A Dupla Causalidade Físico-Espiritual, 3
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Ciência Espiritual – Volume I: Doenças de Causa Espiritual (I), 7, 117-138 - A Dupla Causalidade Físico-Espiritual, 3
-
-**117. Neurastenia Cardíaca e o Repouso no Leito**
-
-Sintomas da neurastenia cardíaca e os pontos-chave do Johrei — Na maioria dos casos, a causa reside em um espírito de morto. Em virtude dessa anomalia, o enfermo sente-se na iminência da morte; contudo, ele está apenas experienciando as mesmas sensações que o espírito teve ao falecer. Paradoxalmente, é ao se deitar que as palpitações se intensificam, gerando a impressão de que a respiração irá cessar. Uma vez que o espírito se afaste, o mal-estar desaparece por completo. Portanto, o coração, em si, não está verdadeiramente comprometido.
-
-Durante as crises, é recomendável entoar a Oração Amatsu Norito. O Johrei deve ser ministrado na região frontal da cabeça.
-
-**118. Diminuição da Pulsação**
-
-Trata-se de uma senhora de quarenta e cinco anos, obesa e solteira. Há cerca de dois ou três anos, sua pulsação baixou para cinquenta batimentos por minuto, e ela não tolera grandes emoções ou esforços. Rogo que me esclareça a causa dessa diminuição na pulsação.
-
-Sim, tais casos ocorrem. Provavelmente, trata-se de anemia. Alternativamente, um espírito que anseia por salvação pode ter se ligado a essa senhora. É recomendável que ela leia os Escritos Divinos tanto quanto possível. (23 de maio de 1950)
-
-**119. Cárie Vertebral e a Ingestão de Grande Volume de Água**
-
-Uma fiel de quarenta e um anos, que recebeu o Ohikari em março de 1948, ao entronizar a Imagem da Luz Divina em novembro daquele ano, recebeu uma purificação na forma de sintomas de cárie vertebral. Após alguns dias de Johrei, foi curada. Em janeiro do ano seguinte, sua perna direita tornou-se extremamente pesada e fria, dificultando sua locomoção. Após o Johrei, ao entoar a oração na perna direita, o sintoma se transferia para a esquerda, curando a direita; ao orar na perna esquerda, o sintoma voltava para a direita. Esse processo se repetiu por uma semana, culminando na cura total. Em meados de fevereiro, sentiu uma dor súbita no baixo-ventre durante o trabalho, seguida por uma hemorragia intensa que durou três dias e depois cessou. Após esse episódio, sua aparência tornou-se pálida, e ela desenvolveu um paladar extremamente seletivo, com aversão a peixes e preferência por vegetais secos. Posteriormente, queixou-se de um endurecimento no baixo-ventre direito e dor na região do rim esquerdo. Ao receber Johrei e orações, a dor se movia, deslocando-se para o coração e o pescoço, embora se concentrasse principalmente no baixo-ventre e na perna esquerda. No início das dores, ela pronunciava inconscientemente nomes de pessoas falecidas, o que cessou após a entronização do altar dos antepassados. No final de junho, teve outra hemorragia intensa por três dias. Atualmente, a dor ocorre em dias alternados, e seu apetite se resume, com dificuldade, a uma tigela de arroz por dia. Ela também bebe diariamente cerca de um litro e oitocentos de água. Surgiu um inchaço do tamanho de um punho na coxa esquerda, e seus pés e tornozelos estão edemaciados. Rogo por sua orientação e proteção.
-
-A causa é tanto espiritual quanto física. A cura é possível, desde que seu apetite retorne. É necessário ministrar-lhe Johrei intensivamente e, ademais, é fundamental que seu apetite seja restabelecido. (29 de agosto de 1949)
-
-**120. Tabes Dorsal e Paraplegia**
-
-Uma senhora de quarenta e sete anos foi diagnosticada com tabes dorsal e esteve hospitalizada por cerca de seis meses desde fevereiro do ano passado. Submeteu-se a um tratamento com injeções de vitaminas na medula espinhal, mas não obteve melhora alguma; ao contrário, seu quadro parece ter piorado. Ela permanece com paraplegia e, embora ainda tenha sensibilidade térmica, é praticamente incapaz de ficar de pé. Há cerca um mês e meio, começou a receber Johrei e parece ter recuperado um pouco da sensibilidade na região lombar. Gostaria de saber se a cura completa é possível. O marido dela faleceu há alguns anos com uma doença semelhante; haveria alguma relação? Como podemos proceder para que ela seja salva?
-
-Há, de fato, uma influência espiritual. Todavia, essa mácula pode ser removida através do Johrei.
-
-As substâncias injetadas na medula espinhal tendem a escorrer para baixo.
-
-É preciso ter perseverança. (15 de março de 1949)
-
-**121. Sintomas de Sudorese e Calafrios (Causa Físico-Espiritual)**
-
-Sou tripulante de uma balsa de conexão ferroviária, onde trabalho como foguista. Por volta de maio deste ano, comecei a sentir um calafrio nas costas e a transpirar profusamente, em gotas, entre as cinco e as sete horas da manhã. Recebi Johrei, e os calafrios cessaram, mas a sudorese continua diariamente. Além disso, no momento em que tocam minha cabeça, sinto um arrepio por todo o corpo. Embora eu me sinta bem, meu peso está diminuindo gradualmente. Qual seria a razão para esses sintomas? Haveria alguma causa espiritual? Rogo por sua orientação.
-
-A transpiração, por si só, não é um problema. A causa aqui é dúplice, espiritual e física: o arrepio ao ter a cabeça tocada é de origem espiritual, enquanto a sudorese é de origem física.
-
-Com a continuidade do Johrei, tanto o espírito quanto o corpo serão curados. (8 de agosto de 1949)
-
-**122. Debilidade Generalizada e Perda de Mobilidade (Características do Beribéri)**
-
-Desde o dia oito de julho, sinto uma fadiga generalizada, meus movimentos estão restritos e venho enfraquecendo progressivamente. Peço orientações sobre o Johrei e os cuidados que devo tomar.
-
-Provavelmente, trata-se de um espírito de morto. Não há outra causa.
-
-A pergunta deveria ser mais detalhada. Na realidade, os sintomas se assemelham aos do beribéri. Nesse caso, seria benéfico ingerir uma colher de farelo de arroz torrado ao tomar chá.
-
-No beribéri autêntico, o lábio inferior fica dormente. Nas mãos, a dormência se manifesta na parte interna do polegar. Nas pernas, a dormência ocorre do joelho para baixo, estendendo-se da parte interna até o peito do pé.
-
-(Orientação verbal) Para a falta de leite materno, deve-se ministrar Johrei nos rins e nas costas. (26 de outubro de 1948)
-
-**123. Dificuldade em Movimentar as Pernas para a Frente**
-
-Sou um homem de sessenta e dois anos. Em minha juventude, fui marinheiro e sempre fui robusto. Contudo, há cerca de três anos, tenho grande dificuldade para movimentar as pernas para a frente. Quando finalmente consigo andar, ando tão rápido que parece perigoso. Para parar, preciso pensar em fazê-lo com bastante antecedência e focar a atenção nos pés, caso contrário, passo do ponto desejado. Também tenho dificuldades para sentar e levantar. Parece ser uma doença de causa espiritual. Rogo por seu ensinamento e pela indicação de onde devo concentrar o Johrei.
-
-Isso é bastante comum. A causa é espiritual e tem cura. Há, invariavelmente, toxinas acumuladas na junção da coxa com o quadril. Com Johrei perseverante, a cura virá. Ao pressionar a região da virilha, encontrará pontos doloridos; concentre o Johrei nesses locais.
-
-Seja a causa espiritual ou física, o resultado é o mesmo. (1949)
-
-**124. Reumatismo e o Espírito que Aparece em Sonhos**
-
-A senhora Toki Nishida, de quarenta e nove anos, que ingressou na fé em fevereiro deste ano, sofre de poliartrite e reumatismo e tem recebido Johrei continuamente. Contudo, ela emagreceu consideravelmente e não apresenta uma melhora significativa. Recentemente, a tia materna dela tem aparecido em seus sonhos, suplicando com as mãos em prece. Haveria algum significado espiritual nisso? Ademais, rogo por sua orientação sobre o método de Johrei.
-
-A dor não é de origem espiritual, mas o gesto de súplica em prece é. Existe uma grande quantidade de toxinas medicamentosas. Como elas se manifestam em diversos locais, a doença é chamada de poliartrite. A cura é possível, mas a força espiritual do Johrei ministrado está sendo insuficiente. Ao investigar, é possível encontrar pontos com febre e dor. (8 de setembro de 1949)
-
-**125. Paralisia dos Membros**
-
-A senhora Kiku Hashimoto, de cinquenta e seis anos, que ingressou na fé em novembro do ano passado, começou a sentir dormência nas mãos e nos pés há cinco anos. Gradualmente, seus movimentos se tornaram mais difíceis, a ponto de levar muito tempo para calçar um simples chinelo. Após ingressar na fé, por um tempo, seu corpo ficou mais leve e seus movimentos, mais fáceis, mas recentemente a dificuldade retornou. Seu rosto está avermelhado devido ao sangue impuro que aflorou. Quando lhe ministro Johrei, ela se sente melhor depois, mas, por morar longe, só pude atendê-la duas ou três vezes; normalmente, ela recebe Johrei de outros membros. Seria a força do Johrei que é insuficiente? Ou trata-se de uma nova purificação que melhorará com o tempo? O marido dela faleceu da mesma doença, portanto, poderia haver também uma causa espiritual?
-
-A causa são as toxinas medicamentosas. Como são abundantes, por mais que se eliminem, novas toxinas se acumulam. O espírito do marido também está a influenciando. A causa é, portanto, dupla. A presença de toxinas medicamentosas facilita a influência de espíritos. (17 de fevereiro de 1950)
-
-**126. Pernas Imóveis e Finas**
-
-Uma senhora de quarenta e um anos, desde outubro do ano passado, vem perdendo progressivamente o movimento da perna direita. Atualmente, a perna está fina e flácida, e ela não tem mobilidade da cintura para baixo. Diagnosticada com paralisia medular, recebeu injeções de vitaminas sem qualquer efeito. Recentemente, os sintomas começaram a se manifestar também na perna esquerda. Em sua família, há casos de morte pela mesma doença, além de mortes por queimadura e outras causas trágicas. Qual seria a origem desse quadro?
-
-As pernas estão finas por falta de uso. Trata-se de uma doença iatrogênica. Ministre Johrei na parte externa da virilha e abaixo das nádegas. Se for um espírito de serpente, ministre na região frontal da cabeça. (23 de abril de 1949)
-
-**127. Mãos sem Mobilidade e Frias**
-
-Um homem de sessenta e três anos adoeceu há dois anos em decorrência de um resfriado. Após receber tratamento médico, os sintomas iniciais desapareceram, mas ambas as mãos perderam a mobilidade, impossibilitando-o de cuidar de si mesmo. Ele sente um peso de vinte a trinta quilos sobre os ombros, cuja musculatura atrofiou, e suas mãos estão sempre frias. Ele vem recebendo Johrei desde fevereiro de 1949, mas ainda não obteve uma melhora significativa. Rogo que me esclareça a causa e o método de Johrei.
-
-Se a causa for física, trata-se de intoxicação por injeções. Se for espiritual, o estado do espírito de morto está se refletindo diretamente na pessoa. É curável.
-
-**128. Reumatismo**
-
-O reumatismo é de origem espiritual? E qual seria o processo de cura de um reumatismo crônico e anquilosante que já dura mais de dez anos? Rogo por um ensinamento detalhado.
-
-Existem ambas as causas. Proporcionalmente, a causa espiritual é mais frequente, geralmente envolvendo espíritos de serpente, que se fixam no local, causando inchaço e vermelhidão. Antigamente, as pessoas chamavam a doença de *ryomachi*, que creio significar “sangue maligno de dragão”.
-
-Como o movimento causa dor, os médicos imobilizam a articulação com talas.
-
-**129. Solas dos Pés Ardentes e Tensão na Virilha e no Abdômen**
-
-Gostaria de fazer a seguinte pergunta: um homem de sessenta e sete anos, há três meses, queixa-se de uma sensação de queimação nas solas dos pés. Ocasionalmente, sente uma tensão que se estende da parte interna das coxas, passando pela região inguinal, até o abdômen, e geme de dor. Ele só consegue virar-se na cama se primeiro dobrar as pernas. No dia primeiro de julho, recebi o Ohikari em seu nome, e no momento em que cheguei à casa dele, o doente começou a tremer violentamente. O médico diz que é neuralgia. Qual seria a sua avaliação? Rogo que me esclareça a causa e o método de Johrei. Desde que recebeu o Ohikari, a expressão do doente parece ter se tornado um pouco mais serena. Qual a razão para isso?
-
-Parece ser de origem espiritual.
-
-Seja espiritual ou não, há um nódulo na região inguinal. Medicamentos mais pesados tendem a se acumular nos pés. A queimação nas solas dos pés é causada por toxinas medicamentosas.
-
-O Johrei deve ser concentrado na virilha e nas solas dos pés. (15 de agosto de 1949)
-
-**130. A Causa da Infertilidade**
-
-Ingressei na fé no início deste ano, há cerca de dez meses. Estou casada há oito anos e ainda não fui abençoada com filhos. Segundo o diagnóstico médico, tenho “obstrução das trompas de Falópio e, sem cirurgia, não há perspectiva de gravidez”. Qual seria a razão para isso? Se eu me dedicar de corpo e alma a servir na Obra Divina, poderei ser agraciada com um filho? No momento, devido a muitas tarefas domésticas, não consigo receber Johrei como gostaria. Devo continuar assim? Rogo por sua orientação.
-
-Geralmente, há uma alteração na posição do útero, sendo a retroversão a mais comum; a anteversão é rara. Existe um nódulo abaixo do umbigo. Do ponto de vista espiritual, um filho só é concedido com a permissão de Deus, através do Deus Protetor Local. Nascimentos de natimortos ou mortes prematuras são de ordem espiritual e ocorrem quando a criança não foi concedida. Isso pode ser corrigido através da fé. (18 de novembro de 1949)
-
-**131. Câncer Uterino e Nódulos**
-
-Estou cuidando de uma fiel de quarenta e dois anos que, há três anos, passou por uma cirurgia para um câncer uterino em estágio inicial. Após a operação, ela começou a receber Johrei, ingressou na fé e entronizou a Imagem da Luz Divina. Por volta de março deste ano, um pequeno nódulo apareceu na região do útero e agora atingiu o tamanho de um punho, tornando-se móvel. Gostaria de saber as causas físicas e espirituais e o método de Johrei. Atualmente, ela não sente dor.
-
-O câncer de útero é extremamente raro. Frequentemente, nódulos de toxinas ou sangue menstrual antigo coagulado são diagnosticados erroneamente. O nódulo teria se tornado ainda maior, mas foi interrompido pela cirurgia, e agora as toxinas voltaram a se acumular.
-
-Quando há uma causa espiritual, trata-se de um espírito vivo.
-
-A cirurgia apenas retarda a cura. Apalpe o baixo-ventre e outras áreas para localizar os nódulos. (27 de novembro de 1949)
-
-**132. Prolapso Uterino e Nódulo na Articulação do Tornozelo**
-
-Uma senhora de sessenta anos sofre de prolapso uterino há cerca de dois anos e meio. Ela vem recebendo Johrei há dois anos, mas, por volta de junho deste ano, surgiu um nódulo do tamanho de um punho na articulação de seu tornozelo esquerdo, sem febre ou dor. Isso tem cura?
-
-Existem causas físicas e espirituais. Os ligamentos que sustentam o útero perdem sua elasticidade. Quando um nódulo de toxina se forma ao lado de um ligamento, ele impede o movimento e a capacidade de sustentação. A influência de um espírito vivo quase sempre se origina de questões afetivas. Um espírito ressentido se liga aos órgãos genitais para interferir, com o objetivo de impossibilitar as relações íntimas. Em todos os casos, a cura é possível.
-
-Creio que o nódulo do tamanho de um punho também seja de origem espiritual, pois se fosse toxina, deveria haver dor ou outros sintomas. Trata-se de um espírito vivo, um espírito de morto ou um espírito de animal. Com perseverança, será curada. Mesmo quando um espírito está atuando, é comum haver acúmulo de líquido na articulação. A causa geralmente está na parte de trás do joelho ou na parte externa da virilha. Se não houver pontos doloridos, a causa é espiritual. (26 de dezembro de 1948)
-
-**133. A Causa do Mioma**
-
-Após intervenção médica em um mioma uterino, o quadro evoluiu para um sarcoma e, posteriormente, fui diagnosticada com câncer, sendo-me indicada uma cirurgia. Atualmente, estou recebendo Johrei. Confesso que, no passado, realizei um aborto induzido. Haveria alguma causa espiritual?
-
-O mioma pode ter tanto uma causa espiritual quanto uma física. A causa espiritual é um espírito vivo, que, na maioria das vezes, se aloja no centro. Se o nódulo estiver à direita, é curável. Existe um nódulo abaixo do rim direito. O sarcoma não é redondo, mas irregular... (12 de fevereiro de 1949)
-
-**134. Prolapso Uterino**
-
-No caso de prolapso uterino, onde devemos concentrar o Johrei? Há alguma influência espiritual?
-
-Ministre Johrei na região da virilha. O problema pode ser a frouxidão dos ligamentos que sustentam o útero de ambos os lados ou a compressão desses ligamentos, que impede sua contração e relaxamento. É comum em mulheres que tiveram muitos filhos, devido ao esforço do parto. Nesses casos, a cura vem com o tempo. Também pode haver influências espirituais. A ação de espíritos vivos quase sempre está ligada a questões afetivas; por exemplo, um homem que não se casa com uma mulher com quem se comprometeu. O ressentimento dela se dirige aos órgãos genitais dele, com o intuito de obstruir suas relações íntimas. (3 de abril de 1949)
-
-**135. Prolapso Uterino**
-
-Uma senhora de sessenta anos sofre com o prolapso do útero. Rogo que me ensine o método de Johrei.
-
-Os ligamentos que sustentam o útero estão frouxos, e há toxinas solidificadas neles. É uma condição comum em mulheres que tiveram muitos filhos. Em mulheres jovens, a cura é rápida, mas em idosas, é mais complicado. Antigamente, tratei uma camponesa com essa doença, e a causa era um espírito vivo. A ação de espíritos vivos é frequente em questões afetivas e acomete muitas mulheres bonitas, afetando o útero, os ovários e outros órgãos.
-
-**136. Menopausa e Histeria**
-
-Mulheres que se casam tardiamente ou que estão na faixa dos cinquenta anos, durante a menopausa, podem se tornar fisiologicamente histéricas. Haveria alguma relação espiritual?
-
-Sim, há uma relação. Existe uma conexão íntima entre o espiritual e o físico. Onde há toxinas, um espírito pode se alojar. Com o Johrei, o espírito foge, buscando outros locais onde ainda existam toxinas. Quando o corpo está completamente limpo, os espíritos não conseguem mais se aproximar. A menopausa é o grande período de transição da mulher. O sangue flutua e se torna instável, gerando um certo desconforto que leva à histeria. A irritabilidade indica a presença de toxinas em algum lugar. Quando uma pessoa se sente mal, tende a interpretar tudo de forma negativa. Portanto, é essencial que o ser humano elimine o desconforto. Com a eliminação das toxinas, a pessoa se torna serena. A histeria ocorre porque um espírito de raposa domina a mente. (12 de dezembro de 1948)
-
-**137. Nódulo no Baixo-Ventre**
-
-Há cerca de dois anos, eu tinha um nódulo no abdômen, do tamanho de uma gestação de quatro meses. Após dois meses de Johrei, fui curada. Recentemente, porém, ele reapareceu. Não sinto dor nem desconforto. Haveria alguma causa espiritual?
-
-Casos de influência de espírito vivo são comuns. Quando a causa é espiritual, o inchaço ocorre abaixo do umbigo, na região da bexiga, acompanhado de uma sensação de peso. Neste caso, porém, a origem não é espiritual, mas sim no peritônio. Portanto, trate bem os rins. O abdômen não necessita de tanto Johrei; concentre-se nas omoplatas e nas costas. (15 de novembro)
-
-**138. Frigidez**
-
-Rogo por seus ensinamentos sobre a frigidez.
-
-Existem causas espirituais e físicas. Há alguma relação com a gravidez; a taxa de concepção é menor, mas a gravidez é possível. A causa espiritual está relacionada a espíritos de dragão. Do ponto de vista físico, a atividade dos rins é deficiente; eles se encontram endurecidos como uma tábua. O mesmo ocorre com o músculo esfíncter. Na maioria dos casos, o problema se resolve tratando os rins.
-
----
-
-# 072 O Grande Deus do Mundo Oculto e o Apaziguamento dos Espíritos
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## 072 O Grande Deus do Mundo Oculto e o Apaziguamento dos Espíritos
-
-Na primavera do ano passado, em Atami, ouvi Vossa Palavra de que, durante o apaziguamento dos espíritos, não seria necessário entoar "Ó, Grande Deus do Mundo Oculto, protegei-nos e concedei-nos felicidade". Gostaria que nos revelasse o significado por trás disso.
-
-Deve-se orar: "Ó, Grande Deus do Mundo Oculto, protegei-nos e concedei-nos felicidade". O Grande Deus do Mundo Oculto é, atualmente, Ookuninushi no Mikoto.
-
-Ao salvar espíritos, como nos casos de possessão, deve-se entoar "Ó, Grande Deus do Mundo Oculto, protegei-nos e concedei-nos felicidade", pois os espíritos estão sob a jurisdição Dele, e a Ele devemos rogar.
-
-Quanto à postura para o apaziguamento dos espíritos... Kannon (観音) é um buda, de modo que, atualmente, não se adota uma forma xintoísta. Este procedimento é realizado em casos de doenças espirituais.
-
-## 073 A Purificação Ascendente e a Oração Purificadora
-
-Uma senhora de aproximadamente cinquenta anos sofre de dores de cabeça e de uma dor aguda que se projeta de seu flanco para cima. Após receber Johrei, ela foi acometida por uma crise violenta de dores ascendentes durante a noite. Mesmo com a ministração dedicada de Johrei por cerca de uma hora, a dor não cessou. Finalmente, um médico veio e aplicou duas injeções, que aliviaram a crise em uma hora e meia, mas o mal-estar subsequente não desapareceu. Será que o Johrei não é capaz de curá-la? Peço que nos esclareça.
-
-O princípio é o mesmo da epilepsia. Com o Johrei, a cura é absoluta. Contudo, é necessária uma força espiritual considerável, como a que possuem os membros mais antigos.
-
-Se a crise não ceder, deve-se entoar a Oração Purificadora. Ainda assim, a eficácia da oração difere conforme a pureza espiritual de quem a entoa; aqueles cujo espírito possui máculas têm menos força.
-
-É evidente que uma injeção interrompe a dor, pois sua função é paralisar os nervos. No entanto, a crise retornará, podendo levar à dependência de morfina.
-
-Trata-se, certamente, de um caso de ordem espiritual. (7 de setembro de 1949)
-
-## 074 Pontos de Johrei para Doenças de Causa Espiritual
-
-Qual é o método mais eficaz para ministrar o Johrei em doenças de causa espiritual? Quais são os procedimentos para casos envolvendo espíritos de mortos e espíritos de vivos?
-
-A designação "doença espiritual" por si só é imprecisa. Como regra geral, para qualquer enfermidade de origem espiritual, ministra-se Johrei na região frontal da cabeça.
-
-Contudo, há exceções. Um espírito de serpente, por exemplo, move-se pelo corpo e foge quando o Johrei é aplicado. Nestes casos, o tratamento deve ser localizado. Há espíritos que se fixam, como se mordessem, e para estes, apenas a cabeça não é suficiente.
-
-Para doenças mentais, epilepsia e paralisia infantil, basta purificar a cabeça.
-
-No que se refere a espíritos de mortos, eles podem encostar no corpo inteiro ou apenas em uma parte. A presença de um espírito de morto geralmente causa uma sensação de frio nas costas. Quando o espírito é de alguém recém-falecido, a sensação é de um calafrio intenso, como se água gelada fosse derramada sobre a pessoa. Nestas situações, ministra-se Johrei na cabeça, no peito e nas costas, sendo as costas o ponto mais eficaz, pois o espírito tende a se desprender com mais facilidade.
-
-Os espíritos de vivos, por sua vez, não representam grande dificuldade. O Johrei deve ser focado no peito e nas costas. Quase invariavelmente, sua origem está em questões amorosas.
-
-Dentre os espíritos de vivos, o mais temível é o da amante que, abandonada por um homem que se une a outra mulher, movida pelo ciúme, atua para impedir a nova relação. Frequentemente, tal espírito se aloja no útero. Certa vez, tratei um caso de prolapso uterino sob a ameaça de divórcio caso não houvesse cura. Recebi uma carta, após cerca de uma semana, informando que o problema estava completamente sanado.
-
-Outro caso ocorreu em Takasaki: por ocasião de um casamento, uma mulher que amava o noivo interferiu espiritualmente. Houve também uma situação em que um espírito violou os órgãos genitais para sabotar a harmonia conjugal. (26 de outubro de 1948)
-
-## 075 A Cura de Pacientes Possuídos por Espíritos
-
-No caso de possessão espiritual, quando utilizamos um médium durante o Johrei do paciente, a cura geralmente ocorre de uma só vez. No entanto, outro espírito se apossa do paciente naquele momento, o que nos impede de alcançar a cura completa, e ele retorna ao estado anterior. Existiria algum método mais eficaz? Adicionalmente, o corpo da pessoa que atua como médium sofre algum prejuízo? Rogamos por seu esclarecimento. (Observação: tanto o paciente quanto o médium ingressaram na Fé em outubro).
-
-É algo semelhante a um tipo de micróbio: onde há máculas, o espírito se aloja. O fundamental é tornar o corpo impenetrável aos espíritos. (8 de novembro de 1949)
-
-## 076 Doenças Espirituais que se Curam com Ofícios Religiosos
-
-Um paciente com uma doença espiritual não melhorava com o Johrei, mas, ao realizarmos um ofício para os espíritos desamparados, ele se curou imediatamente. Nos casos em que o Johrei não surte efeito, podemos recorrer a este método? Haveria outras alternativas?
-
-Há situações em que oficiar um culto é, de fato, mais rápido. Todavia, não se pode generalizar e dizer que isso se aplica a todos os casos. Muitas vezes, apenas com o Johrei se alcança uma cura célere.
-
-Pode ocorrer de o espírito encostado não ser desamparado, e é preciso discernir isso. Nesses casos, Deus nos fará saber por algum meio. Se a orientação for para realizar um ofício, assim se deve fazer. Pode se tratar de espíritos de raposas, deuses dragões, entre outros. A forma de cultuá-los deve seguir o bom senso.
-
-De modo geral, sempre que se suspeitar de uma causa espiritual, é recomendável entoar a Oração Purificadora diversas vezes. Uma prática eficaz é entoá-la em séries de três. Assim, a maioria dos espíritos será salva.
-
-## 077 Sondagem Espiritual e Apaziguamento dos Espíritos em Pacientes
-
-Ao ministrar Johrei em pacientes com problemas espirituais, há casos em que não compreendemos a causa. Ouvimos dizer que existem métodos, como a sondagem espiritual, para identificá-la. Nós mesmos podemos realizar tais práticas? Gostaríamos de sua orientação.
-
-Não há necessidade de métodos de sondagem espiritual, e quanto ao apaziguamento dos espíritos, é melhor não o praticar. Se for necessário ou quando chegar o momento oportuno, o próprio Kannon (観音) lhes fará saber a respeito do espírito.
-
-## 078 A Desnecessidade do Método de Sondagem Espiritual
-
-Como se realiza o método de sondagem espiritual?
-
-Seja para diagnóstico ou para tratamento, não é necessário recorrer a um método de sondagem espiritual. Basta posicionar-se a uma distância de sessenta a noventa centímetros do paciente e irradiar a Luz Divina com a intenção de que ela emane de suas mãos. Com a ministração contínua do Johrei, o espírito encostado gradualmente se enfraquecerá.
-
-## 079 A Sondagem Espiritual e a Prática Assídua
-
-Como se deve proceder para realizar a sondagem espiritual?
-
-Existem diversas maneiras, mas o próprio Johrei é uma forma de sondagem espiritual, pois através dele se pode discernir se a purificação é de ordem física ou espiritual. Evidentemente, há casos em que ambos os aspectos estão presentes. Além disso, os detalhes mais sutis só se tornam claros com a prática assídua. Sem um conhecimento espiritual avançado, não é possível fazer um diagnóstico imediato. Tudo se resume à experiência e à dedicação contínua. (26 de outubro de 1948)
-
-## 080 Como Apaziguar Espíritos que se Manifestam
-
-Recentemente, durante a ministração do Johrei, tem sido comum os assistidos perderem a consciência, enquanto espíritos de mortos, de vivos e outros se manifestam. Sobre isso, gostaríamos de fazer as seguintes perguntas:
-1. Qual a razão para o aumento notável dessas manifestações e como devemos proceder?
-2. Como agir quando o assistido está semiconsciente e o espírito parece prestes a se manifestar, mas não o faz completamente?
-3. Qual o significado do movimento de balançar as mãos em prece para cima e para baixo, que o assistido faz antes de o espírito se manifestar?
-4. Qual a causa dos tremores que acometem o corpo durante a manifestação?
-5. Qual a diferença entre as pessoas que demoram a perder a consciência e aquelas que a perdem rapidamente, permitindo a manifestação do espírito?
-
-A purificação no Mundo Espiritual intensificou-se, e os espíritos, sem encontrar repouso, buscam encostar em seres humanos na esperança de serem salvos.
-
-A melhor providência é ministrar Johrei intensamente na região frontal da cabeça. Se as manifestações forem muito fortes, deve-se ordenar: "Acalme-se". O gesto de mover as mãos para cima e para baixo tem o efeito de apaziguar, sendo, portanto, eficaz.
-
-O movimento ascendente e descendente das mãos é, na maioria das vezes, característico de um espírito de raposa. É preciso apaziguá-lo e impedi-lo de falar. Os tremores também não são um bom sinal, pois indicam que o espírito está se manifestando. Nesses casos, deve-se igualmente acalmá-lo.
-
-Quanto à atuação de divindades ou do anjo da guarda... Muitos espíritos mentem, mas devemos ouvi-los sem contestar. Se suas exigências não contiverem maldade, devemos atendê-las. Os impostores acabarão por se enredar em suas próprias palavras. O melhor é não duvidar.
-
-## 081 O Tratamento do Fenômeno Mediúnico
-
-O espírito de uma raposa branca, salvo recentemente, tem se manifestado através da senhora Murata Misao, emitindo advertências aos espíritos que interferem na Obra Divina. Ela também tem atuado como médium. O espírito se regozija imensamente com a Oração Amatsu-Norito, a Oração Zenguen-Sandji e os Hinos Divinos. Especialmente quando o assunto envolve o futuro de seu marido, o espírito chora e o adverte, apontando suas diversas falhas e exortando-o a se dedicar exclusivamente à Obra Divina. Durante a reunião de ensinamentos da filial de Kamakura, no dia 25, ele transmitiu a cada um dos membros mensagens sobre a grandiosidade da virtude divina e sobre as condições do Mundo Espiritual. Mesmo quando a própria senhora Misao entoava a Oração Amatsu-Norito e a Zenguen-Sandji durante o Johrei, o espírito se manifestava. Após uma orientação específica, as manifestações cessaram. Gostaríamos de receber Vossa instrução sobre como proceder daqui em diante.
-
-Não há uma maneira específica de conduzir a situação. Deixe que as coisas transcorram naturalmente. (28 de abril de 1950)
-
-## 082 A Postura Diante de Espíritos de Raposa
-
-Diante de espíritos de raposa e outros, não se deve ficar em guarda, pensando: "Não serei enganado por ele". Pelo contrário, é preciso deixar-se enganar. Dessa forma, o espírito se expõe mais rapidamente.
-
-Para doenças de causa espiritual, a Oração Purificadora é o recurso mais eficaz. Deve-se entoá-la em séries de três.
-
-Se formos analisar a fundo, tudo tem uma relação espiritual. Os seres humanos podem ser influenciados por espíritos de mortos, de vivos e elementais, enquanto a matéria possui apenas um espírito simples. (1948)
-
-*Nota: Trecho de palestra de 1º de junho de 1953, publicado na coletânea "Goroku" nº 21, em 15 de junho de 1953.*
-
-"É comum que, em manifestações espirituais, um espírito de raposa, por exemplo, se aposse de alguém. Nesses momentos, a tendência é pensar: 'Não vou me deixar enganar por uma raposa'. Mas é aí que reside o engano. O melhor é se deixar enganar por ela. O espírito dirá as mais diversas coisas, e devemos ouvir, respondendo: 'Entendo, faz sentido'. Se lhe perguntarmos o porquê de algo, ele responderá prontamente. Procedendo assim, com o tempo, a própria raposa acaba por revelar suas inconsistências e, por fim, pede desculpas. Tive muitas experiências desse tipo. Quando nos mantemos na defensiva, pensando 'não serei enganado', acabamos sendo enganados ou nos irritando. Mesmo que a raposa esteja dizendo um completo absurdo, devemos ouvir com genuíno interesse, como se estivéssemos maravilhados. Agindo assim, é o espírito que acaba se confundindo."
-
-## 083 Tuberculose Causada por Possessão de Espírito de Morto
-
-Qual é o processo de cura, através do Johrei, para um paciente com tuberculose causada pela possessão de um espírito de morto? E, uma vez curado, o espírito que o possuía também é salvo? Rogamos Vossa orientação.
-
-Se a possessão for recente, o espírito se desprende rapidamente. O processo é bastante nítido. Há casos, contudo, em que o espírito só se aloja depois que o corpo já está debilitado, pois não consegue fazê-lo quando a pessoa está saudável. É quando o corpo enfraquece e o sangue diminui — e, consequentemente, o espírito da pessoa se torna mais tênue — que a possessão se torna possível.
-
-Devemos interrogar o espírito para que ele responda. Pedindo a Kannon (観音), podemos investigar o caso. (28 de agosto de 1948)
-
-## 084 Uma Linhagem Familiar Destinada a Perecer
-
-Certa senhora que sofria de tuberculose, sentindo-se profundamente grata por ter alcançado alívio após cerca de um ano, ingressou na Fé e passou a se dedicar. Por volta de abril deste ano, ela começou a ministrar Johrei em sua filha de dezoito anos, também tuberculosa. A jovem apresentou uma melhora temporária, mas a família se opôs e recorreu a injeções, interrompendo o Johrei. O estado da moça piorou e, prestes a falecer, ela pediu para ver aquela senhora uma última vez. Quando ela chegou, a filha agarrou-se a ela e disse: "Cheguei a este ponto porque meus pais não compreenderam. Vou amaldiçoá-los. E levarei você comigo". No caminho de volta, a senhora, carregando seu filho nas costas, sofreu uma queda, bateu o peito com força e teve uma hemoptise. Desde então, ficou acamada, e o rosto de seu filho passou a lhe parecer o da filha falecida. A hora da queda coincidiu com a hora da morte da moça. Além disso, a falecida aparece em seus sonhos, pedindo para ser salva. Atualmente, a senhora mal consegue comer uma tigela de arroz, não pode deitar de costas por causa da tosse e passa os dias encostada em seus futons. O que devemos fazer? Gostaríamos de seu conselho.
-
-Nunca ouvi algo semelhante. Em primeiro lugar, amaldiçoar os pais é um erro gravíssimo. É preciso que ela entoe a Oração Purificadora o máximo que puder e leia em voz alta os relatos de fé. Outra pessoa também pode ler para ela. Assim, a cura será possível. É necessário explicar-lhe quão terrível é o apego dos mortos. Aparentemente, há um carma muito pesado. (Trata-se da irmã da pessoa da pergunta anterior). A doença dela tampouco está curada. Submetida ao Juízo Divino, uma família nessas condições está fadada à ruína. (26 de julho de 1949)
-
----
-
-# Tratado sobre a Arte da Cura (IV): Enfermidades da Região Inferior do Corpo — Hemorroidas e Doenças Venéreas
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Tratado sobre a Arte da Cura (IV): Enfermidades da Região Inferior do Corpo — Hemorroidas e Doenças Venéreas
-
-**001 A causa das enfermidades da região inferior do corpo (A origem das hemorroidas e o “senshaku”)**
-
-**Pergunta:** No interior, existe uma condição popularmente conhecida como “senshaku”, na qual uma formação semelhante a um bastão surge na região que vai dos testículos ao baixo-ventre, imobilizando a pessoa. Gostaria de Vos perguntar se se trata de um fenômeno de ordem espiritual.
-
-**Meishu-Sama:** Não é de natureza espiritual, mas sim uma manifestação de toxinas medicamentosas que descem e se solidificam nos testículos. O frio acelera esse processo de endurecimento. Com o Johrei, a cura ocorre gradualmente. Quando se aplicam injeções, o peso da substância medicamentosa faz com que ela desça cada vez mais. Com efeito, hemorroidas, dores nos testículos, nódulos na virilha, dores e cãibras nas pernas são todos oriundos de toxinas medicamentosas que se acumulam e se solidificam nas partes inferiores do corpo.
-
-A causa das hemorroidas encontra-se na virilha. Ministrando Johrei nessa região, a cura é alcançada. Geralmente, o problema se manifesta à direita ou à esquerda; as hemorroidas do lado direito, por exemplo, originam-se na virilha direita.
-
-Em verdade, trata-se de uma descoberta de magnitude mundial.
-
-**002 Pontos de Johrei para hemorroidas e dor no baixo-ventre**
-
-**Pergunta:** Eu, minha esposa e nosso filho mais velho ingressamos na Fé sequencialmente desde a primavera do ano passado. Minha esposa, Toki, de cinquenta e dois anos, ao ingressar em maio, padecia apenas de um leve mal-estar gastrointestinal. Contudo, suas dores abdominais se intensificaram gradualmente e seu apetite diminuiu. Por volta de outubro, ela precisou acamar-se, com dores por todo o corpo, sendo as das hemorroidas especialmente severas. Seu estado de debilidade era tamanho que, no final do ano, chegou a correr risco de vida, mas recentemente apresentou uma ligeira melhora. Todavia, as dores abdominais e a intensidade das hemorroidas persistem. Desde que se entende por gente, ela praticamente não fez uso de medicamentos. Haveria alguma mácula espiritual que justifique uma purificação tão prolongada? Adicionalmente, há uma questão que me inquieta a respeito de meu irmão mais novo, falecido durante a guerra enquanto trabalhava compulsoriamente em uma mina de carvão em Kyushu. No funeral conjunto, realizado pela empresa e pela província, foi-lhe outorgado o nome póstumo de Seikoin Hogetsu Nitcho Zenshi. O templo de nossa família, no entanto, alegou que nem mesmo os líderes leigos possuíam um nome de tal grau e o consagrou com outro nome. A família enlutada reverencia a placa com o primeiro nome no dia a dia, mas, nos aniversários de falecimento, o monge vem e utiliza a placa do templo para os ofícios. Como deveríamos proceder doravante? Solicito Vosso esclarecimento.
-
-**Meishu-Sama:** O nome póstumo a ser utilizado é o do templo.
-
-O que ocorre é uma purificação. A dor das hemorroidas origina-se na virilha. A dor no baixo-ventre, por sua vez, deve-se a uma solidificação no bacinete renal direito.
-
-**003 Fístula anal decorrente de tuberculose**
-
-**Pergunta:** Meu marido, de trinta e nove anos, contraiu tuberculose no final do ano passado e, no início deste ano, surgiu uma leve fístula anal. Em meados de abril, ele ingressou na Fé e, desde então, vem recebendo Johrei. Com o tempo, seu quadro se agravou: todas as manhãs, após evacuar, as fezes entram no orifício da fístula, causando uma inflamação e um sofrimento atroz por duas ou três horas. Depois, um pouco de pus continua a drenar ao longo do dia. Notamos que, ao consumir alimentos gordurosos no jantar, como tempura de legumes, a dor após a evacuação na manhã seguinte é menos intensa. Seria recomendável que ele consumisse frituras constantemente? Atualmente, ele apresenta febre baixa, expectoração em pequena quantidade e apetite normal. Rogo que nos ensineis o método correto de Johrei para este caso.
-
-**Meishu-Sama:** A cura ocorrerá à medida que o pus for expelido pela fístula. É muito comum que uma tuberculose suprimida se manifeste como fístula anal. A medicina, nesses casos, transforma uma única enfermidade em duas. Óleos de origem vegetal são excelentes e podem ser consumidos à vontade. A fístula anal é invariavelmente curada pelo Johrei.
-
-**004 Fístula anal e possessão espiritual — Pontos de Johrei**
-
-**Pergunta:** Mugikura Goichi, de vinte e um anos, tem recebido Johrei desde o final do ano passado por causa de uma fístula anal. À medida que seu corpo enfraquece, sucessivos espíritos se apossam dele, e nas últimas duas semanas ele parece pairar entre o mundo material e o espiritual. Imploramos a Vossa proteção.
-
-**Meishu-Sama:** O problema não tem relação com a fístula anal. A debilidade o tornou suscetível. A força do Johrei está sendo insuficiente. Os pontos a serem ministrados são as costas e a nuca.
-
-**005 Prolapso retal — Método de Johrei**
-
-**Pergunta:** Sou um homem de cinquenta e oito anos. Há mais de vinte anos padeço de hemorroidas e, há alguns anos, estas evoluíram para um prolapso retal. Não me submeti a cirurgias, mas tentei diversos tratamentos sem sucesso. Há dois anos, toda a minha família ingressou na Fé, e venho recebendo Johrei continuamente, mas não observo qualquer mudança. Como posso obter a cura? Peço Vosso ensinamento.
-
-**Meishu-Sama:** A região está excessivamente solidificada, mas a cura é possível. O prolapso retal, quando antigo, torna-se muito rígido. O Johrei o amolecerá. Ao ir ao banheiro, é preciso empurrá-lo para dentro. Evacuações demoradas são prejudiciais. Trata-se de uma doença peculiar aos japoneses, decorrente da estrutura de seus sanitários.
-
-Eu mesmo, quando jovem, sofri com prolapso retal, mas me curei ao adotar o hábito de evacuar rapidamente. Ministre Johrei com a ponta dos dedos; a cura será relativamente rápida.
-
-**006 Hemorroidas e a terapia com rádio**
-
-**Pergunta:** Maruyama Hisae, de quarenta e três anos, foi diagnosticada com câncer de útero e, cerca de um ano após o início da doença, submeteu-se à terapia com rádio. Desde julho deste ano, tenho-lhe ministrado Johrei diariamente. Atualmente, ela sofre de hemorroidas externas e precisa evacuar cerca de cinco vezes ao dia, mas, devido à dor, consegue expelir apenas uma pequena quantidade. Ela não tem apetite e parece definhar a cada dia. Será possível a cura completa?
-
-**Meishu-Sama:** A terapia com rádio destrói os tecidos juntamente com o câncer. É algo terrível. A irradiação de raios X tem um poder de solidificação notável. Sem analisar o caso de perto, não posso afirmar, mas creio que será difícil. Aos quarenta e três anos, o problema deve ser decorrente de acúmulo de sangue antigo.
-
-As hemorroidas externas curam-se rapidamente. Existem as internas e as externas.
-
-**007 Colite catarral evoluindo para hemorroida interna**
-
-**Pergunta:** Iwaki Katsuji, atualmente com doze anos, sofria de colite catarral desde os oito. Durante quatro anos, recebeu injeções e tratamentos médicos sem melhora. Em setembro do ano retrasado, começou a receber Johrei e apresentou grande progresso. Este mês, ele viajou de Hokkaido a Tóquio para uma entrevista convosco, mas, durante o percurso no trem, sentiu dores agudas e repetidas após evacuar. A dor localiza-se na região das hemorroidas, e ele apresenta fezes com sangue e de consistência amolecida. Por favor, ensinai-nos o método de Johrei.
-
-**Meishu-Sama:** A colite catarral é, na verdade, um processo excelente. O que os tratamentos médicos fizeram foi conservar a doença.
-
-Há um abscesso se formando próximo ao ânus. É o que se chama de hemorroida interna. Com o Johrei, a cura será rápida.
-
-**008 Cirurgia anal**
-
-**Pergunta:** Em maio de 1945, surgiu-me subitamente um tumor a cerca de três centímetros ao lado do ânus. O médico realizou uma cirurgia com uma incisão de aproximadamente seis centímetros. Aparentemente, a recuperação foi total em um mês, mas, dois meses depois, o problema retornou exatamente como antes e persiste até hoje. Pelo contrário, agora há sangramento e pus, o que me causa grande sofrimento. Haveria alguma relação espiritual? Que partes do corpo devo purificar com Johrei?
-
-**Meishu-Sama:** A causa é a cirurgia. Quando se faz a incisão antes que todo o pus tenha se acumulado, é isso que acontece. Se o processo seguisse seu curso natural, as toxinas se concentrariam cada vez mais, até que um orifício se abriria para sua expulsão. Com a cirurgia, o pus não consegue mais se acumular no local original. Há pessoas que perdem a vida por causa disso. A cura virá ministrando Johrei no local e nos rins.
-
-**009 Desenvolvimento incompleto do órgão genital masculino**
-
-**Pergunta:** Um jovem de vinte anos, que ingressou na Fé em março de 1947, sofre em segredo, sem coragem de contar aos pais, pois seu órgão genital não se desenvolveu, permanecendo quase do mesmo tamanho de quando era criança. Ocasionalmente, seus gânglios linfáticos purificam, e ele sente dores no osso púbico. Fora isso, não há nada de anormal. Gostaria de saber se ele poderá se desenvolver recebendo Johrei e peço que nos ensineis o método correto.
-
-**Meishu-Sama:** A cura virá ministrando Johrei nos rins. Há um nódulo atrás dos rins.
-
-**010 Dor nos testículos**
-
-**Pergunta:** Há cerca de cinco dias, meus testículos incharam e começaram a doer. O que devo fazer? (Ingressei na Fé em setembro do ano passado).
-
-**Meishu-Sama:** Se ministrar Johrei em si mesmo, a cura será imediata. (Pode ocorrer em casos de cárie óssea, mas a causa aqui é a toxina medicamentosa, provavelmente de injeções).
-
-Eu mesmo, há três ou quatro anos, tive dores nos testículos. A intensidade da dor corresponde à quantidade de medicamento.
-
-**011 A causa da orquiepididimite tuberculosa**
-
-**Pergunta:** Desde outubro de 1946, sofro de uma inflamação nos testículos. O esquerdo começou a aumentar progressivamente e hoje está consideravelmente grande. Ingressei na Fé em novembro do ano passado e estou recebendo Johrei. Ele voltará ao seu tamanho normal? O médico diagnosticou como orquiepididimite tuberculosa.
-
-**Meishu-Sama:** Sim, voltará ao normal. Ministre Johrei a uma distância de doze a quinze centímetros.
-
-A inflamação testicular é oriunda de toxinas da gonorreia. É uma doença de cura relativamente fácil. Quando os médicos não conseguem curar, atribuem à tuberculose, mas não há tuberculose alguma aí. É algo que não pode existir.
-
-**012 Orquiepididimite tuberculosa**
-
-**Pergunta:** Estou ministrando Johrei em uma pessoa com orquiepididimite tuberculosa. Após um ano e meio de tratamento médico, um dos testículos foi removido cirurgicamente. Agora, o problema surgiu no outro. Rogo que me ensineis o método de Johrei.
-
-**Meishu-Sama:** A causa também são as toxinas solidificadas. Ministre Johrei intensamente na região. Essa história de “tuberculosa” é uma mentira; tudo o que não conseguem curar, eles chamam de tuberculose. Trata-se, na verdade, de uma orquite por toxinas medicamentosas, originadas pela gonorreia. Ministre Johrei nos testículos e na virilha.
-
-**013 Estreitamento da uretra e o gonococo**
-
-**Pergunta:** Um homem de setenta e três anos sofre de estreitamento da uretra há dez anos. Desde o verão passado, passou a ter dores lombares e incontinência urinária. Uma protuberância semelhante a um tumor surgiu logo abaixo do umbigo. Normalmente, ela é dura, mas, quando ele consegue urinar, torna-se macia e menor, como uma bola de borracha.
-
-**Meishu-Sama:** O estreitamento da uretra ocorre em pessoas que tiveram gonorreia no passado. O gonococo jamais desaparece por completo. Ministrando Johrei em direção à uretra, as toxinas se dissolverão pouco a pouco e serão eliminadas pela urina. Ministre Johrei especialmente nos rins. Quando a função renal for ativada, a cura virá sem dificuldade.
-
-**014 Gonorreia e sífilis**
-
-**Pergunta:** Uma senhora de trinta e cinco anos (ingressou na Fé em junho deste ano) tinha uma leve afecção pulmonar, mas ficou completamente curada após a adesão. Recentemente, um exame de sangue diagnosticou sífilis latente, e o médico recomendou injeções de penicilina (ela já havia tomado penicilina antes de ingressar, sem efeito). O bacilo da sífilis pode ser eliminado pelo Johrei?
-
-**Meishu-Sama:** O bacilo da sífilis é simples de eliminar.
-
-Como se costuma dizer: a gonorreia é dos que bebem; a sífilis, dos abstêmios.
-
-**015 A sífilis dura apenas uma geração**
-
-**Pergunta:** Uma mulher, hoje com trinta e três anos, teve o início de uma atrofia do nervo óptico de origem sifilítica em julho de 1944. Sua visão começou a turvar e, após consultar médicos e submeter-se a diversos tratamentos, como injeções oculares, injeções de mercúrio e Salvarsan, ficou completamente cega em janeiro de 1945. Desde agosto do ano passado, ela vem recebendo Johrei e seu estado geral de saúde melhorou. Quanto à visão, ela diz que, às vezes, parece ter a impressão de enxergar algo vagamente, talvez por efeito psicológico. Será possível que ela volte a enxergar? (Ela ainda não ingressou na Fé). Pedimos que nos ensineis o método de Johrei.
-
-**Meishu-Sama:** Fizeram de tudo para deixá-la cega. A cura é perfeitamente possível. Não se trata de sífilis nem de nada parecido. A própria sífilis é, em essência, toxina medicamentosa. A verdadeira sífilis limita-se a uma geração, não é hereditária. Foram os medicamentos injetados pelos médicos que causaram o problema. As injeções solidificam as toxinas, levando à cegueira. A eliminação de toxinas solidificadas nos olhos é um processo demorado. Ministre Johrei da cabeça para os ombros. Sendo perseverante, ela se curará.
-
----
-
-# Coleção de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Seção sobre a Consagração de Espíritos – Terceira Parte, 3 – 026-043: Ryûjin e Espíritos de Animais
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Coleção de Teses do Reverendo Jikan Okada – Pesquisa de Ensinamentos: Seção sobre a Consagração de Espíritos – Terceira Parte, 3 – 026-043: Ryûjin e Espíritos de Animais
-
-## 026 Método de Consagração de Espíritos de Animais
-
-Para transferir a um oratório o espírito de um animal que está a possuir uma pessoa, é suficiente entoar a Oração Amatsu-Norito e o Salmo Zenguensanshi?
-
-Em casos de possessão espiritual, tanto a Oração Amatsu-Norito quanto o Salmo Zenguensanshi são adequados. Primeiramente, deve-se rogar a Kannon-Sama, dizendo: "Pretendo agora consagrar em um oratório o espírito que me possui; rogo por Vossa proteção". Em seguida, dirige-se ao espírito com as seguintes palavras: "Possua meu corpo e, através dele, assente-se em seu oratório". Desta forma, o espírito é acomodado por meio de um ritual de pacificação da alma. Quanto ao objeto de veneração, basta que se escreva nele um nome apropriado. Alternativamente, é possível assentá-lo apenas com palavras, declarando: "Recitarei agora a oração; ao seu término, por favor, assente-se no oratório".
-
-## 027 A Forma de Consagrar Ryûjin, Jizô e Inari
-
-Em meu tokonoma, consagrava, juntas, três divindades: um Ryûjin, um Jizô-Sama e um Inari-Sama. Recentemente, recebi a Imagem de Komyô Nyôrai-Sama e, por essa razão, pretendo transferir o Jizô-Sama para o altar budista e o Inari-Sama para a área externa da casa. Este procedimento está correto? Ademais, gostaria de receber orientações sobre como e onde devo consagrar o Ryûjin-Sama.
-
-O Jizô deve, obrigatoriamente, ser levado para o exterior. A divindade Amida saiu para proteger o mundo externo; por conseguinte, deve ser consagrada do lado de fora.
-
-Quanto ao Inari, se for uma herança ancestral antiga, deve ser mantido dentro de casa. Se foi adquirido posteriormente, seu lugar é do lado de fora.
-
-O Ryûjin, igualmente, precisa ser consagrado em ambiente externo. É imprescindível que se lhe ofereça água, seja em um pequeno lago ou em um vaso. Esta providência deve ser tomada imediatamente, pois o corpo do Ryûjin gera um calor intenso, e ele sofre terrivelmente se não puder submergir em água cerca de três vezes ao dia. Embora engula os alimentos crus, seu calor corporal é tão forte que os dissolve. Portanto, todos devem ser consagrados na área externa.
-
-Para a instalação, empilhem-se pedras a uma altura de sessenta a noventa centímetros, e sobre essa base, erga-se o oratório. A direção deve ser tal que o oratório fique voltado para a Imagem de Komyô Nyôrai-Sama, se esta estiver consagrada. O Jizô, por sua vez, deve ser assentado sobre uma pedra natural, de preferência à beira de um caminho frequentado por pessoas.
-
-## 028 Doença Espiritual: Consagrar ou Não e Como Fazê-lo
-
-No caso de uma purificação de natureza espiritual, é aconselhável consagrar o espírito envolvido? Em caso afirmativo, qual o procedimento a ser seguido? (Nota: Refere-se tanto a espíritos humanos quanto a de animais).
-
-Existem casos em que a consagração não é necessária, e outros em que é recomendável. É possível realizar o procedimento mesmo que o espírito em questão não tenha relação direta com a pessoa. Geralmente, trata-se de espíritos de raposa ou de serpente, para os quais se deve construir um oratório na área externa.
-
-Consagrar um Inari dentro de casa invariavelmente atrai infortúnio para o morador. A raposa não é um animal que habita residências. No Mundo Espiritual, ao fazer isso, a casa se torna o solo, e o ser humano fica sob a terra, ou seja, no inferno. Consequentemente, nada de bom pode advir de tal ato. Consagrar um animal nos rebaixa a uma condição inferior à dele.
-
-O oratório deve ser direcionado para a Imagem de Komyô Nyôrai-Sama, para que seja perpetuamente banhado por Sua Luz. A altura não deve exceder a de uma pessoa sentada dentro de um cômodo. Para evitar que o vento o derrube, pode-se escavar uma pedra no formato do oratório e encaixá-lo nela. É fundamental que se atribua um nome, inscrito em uma placa de madeira branca, semelhante a um nome póstumo budista. Escreve-se "Fulano Myôjin", podendo-se utilizar o sobrenome da família. Para um Inari, utiliza-se "Fulano Inari Daimyôjin", sendo aceitável o nome da localidade. Para um Ryûjin, "Fulano Myôjin" ou "Fulano Daimyôjin". A consagração deve ser feita em um dia determinado.
-
-Aos espíritos que possuem pessoas, tanto os persistentes quanto os que o fazem esporadicamente, pode-se dizer: "Vou consagrá-lo em um oratório". O ritual de pacificação da alma também é válido; para isso, segura-se o polegar direito com a mão esquerda.
-
-No caso do Ryûjin, este aprecia oferendas de arroz cru, sal, água e também peixe cru. Verduras, frutas e outros itens são igualmente bem-vindos. A raposa, por sua vez, não necessita de arroz ou água; aprecia arroz glutinoso cozido no vapor, tofu frito e tempura.
-
-O procedimento deve ser realizado após a entronização da Imagem de Komyô Nyôrai-Sama. Na ausência de um espaço externo, o tokonoma pode ser utilizado, construindo-se um pequeno altar em um de seus cantos. Para o Ryûjin, deve-se cavar um pequeno lago, cuidando para que nunca lhe falte água; um lago é preferível a uma tigela.
-
-Recordo-me de uma senhora que, subitamente, desmaiou e disse: "Enquanto vocês vivem em uma casa tão bela, eu resido em um lugar coberto de fuligem. Se me ignorarem, não os perdoarei". Ao visitá-la, encontrei a esposa deitada de olhos fechados. Aconselhei que fizessem uma boa limpeza, pois o oratório de pedra que eu havia consagrado para ela estava coberto de fuligem e não tinha porta. Tratava-se de um espírito ancestral.
-
-Quando um Ryûjin conclui sua ascensão espiritual e deseja elevar-se aos Céus, o oratório pode ser removido.
-
-## 029 A Pacificação Espiritual de Ryûjin e Raposas
-
-A raposa é um ser de lealdade notável. Fica imensamente satisfeita quando é consagrada. Mesmo um simples aceno de cabeça em reverência ao passar por seu santuário a enche de alegria.
-
-Quando um Ryûjin solicita ser consagrado, deve-se declarar: "Através do meu corpo, peço que se assente neste receptáculo divino". Em seguida, unem-se as mãos em postura de pacificação da alma. Embora não ocorra uma mudança drástica, as mãos naturalmente se moverão em direção ao receptáculo. Se for um Ryûjin pequeno, as mãos se separam rapidamente; se for um de grande porte e comprimento, o processo leva mais tempo. Quando o espírito se assenta, as mãos se separam espontaneamente. Os dedos da mão direita devem ficar por baixo.
-
-O Ryûjin costuma sair pelo dedo indicador, enquanto a raposa, pelo polegar.
-
-Muitos creem que a salvação vem com a saída de um espírito possessor. Contudo, a remoção de um espírito que permaneceu por longo tempo pode levar à morte, especialmente se o corpo da pessoa estiver debilitado. Ademais, até mesmo o yakudoku, em certa medida, confere força para sustentar o corpo. Sua eliminação pode causar um colapso súbito. (24 de junho de 1948)
-
-## 030 A Oração para Inari e Ryûjin
-
-Ao consagrarmos Inari-Sama e Ryûjin-Sama, com que sentimento devemos entoar a oração? E que palavras de proteção e bênção devemos proferir?
-
-No momento da consagração, pode-se invocar o Grande Deus do Mundo Invisível. A Oração Amatsu-Norito é suficiente.
-
-## 031 A Divindade dos Oratórios de Ryûjin
-
-Os oratórios dedicados ao Ryûjin abrigam, na maioria das vezes, a divindade Benten-Sama. É recomendável, sempre que possível, mantê-los consagrados. Muitos deles atuam como guardiães da terra, sendo frequentemente encontrados em pântanos e lagos. (27 de junho de 1948)
-
-## 032 A Consagração de Múltiplos Ryûjin Já Existentes
-
-Na casa de um membro que já recebeu a Imagem de Komyô Nyôrai-Sama, o atual chefe da família, por recomendação de um asceta, consagrou juntos no tokonoma as divindades Hachi-Dai-Ryûjin, Haku-Ryûjin e Benzaiten. Do lado de fora da casa, já existe um santuário para Hakujin-Myôryû-Zenjin. Seria correto transferir os três Ryûjin mencionados para junto de Hakujin-Myôryû-Zenjin, na área externa?
-
-Todas essas divindades são servas de Komyô Nyôrai-Sama. Portanto, uma vez que a Imagem de Komyô Nyôrai-Sama esteja consagrada, não há necessidade de cultuar as demais. Consagrar divindades como o Ryûjin, nesse caso, pode, ao contrário, causar-lhes sofrimento. Seria preferível desfazer tais consagrações.
-
-Se for para manter o Ryûjin, que seja do lado de fora. Divindades de elevada estirpe não permanecem onde há outras de menor grau. Por essa razão, nada de bom advém dessa prática. Komyô Nyôrai-Sama é o elo principal; não há necessidade de se ligar a outros. (23 de outubro de 1949)
-
-## 033 A Consagração do Ryûjin
-
-Desejo consagrar um Ryûjin. Poderia me instruir sobre como proceder?
-
-É preferível, na medida do possível, não consagrar Ryûjin. Não se deve fazê-lo por motivos triviais. (25 de janeiro de 1949)
-
-## 034 Sobre Consagrar um Ryûjin Dentro de Casa
-
-Trata-se do caso da família de um membro chamado Yuhiko Yoshida. Há cerca de cem anos, um poço e um lago em sua propriedade foram soterrados. Posteriormente, um asceta da escola Nitiren afirmou que era necessário consagrar um Ryûjin e o fez, sob o nome de "Saijô Kôryû Tennô". Este Ryûjin continua consagrado dentro de casa até hoje. A família deseja transferi-lo para a área externa. Seria correto? Ou seria melhor consagrar os Ryûjin do lago e do poço separadamente, com novos nomes? O atual chefe da família, Yuhiko Yoshida, é o oitavo da linhagem e está prestes a receber a Imagem Sagrada.
-
-Um Ryûjin não deve ser consagrado dentro de casa. Embora possua força, sua posição é inferior à do ser humano; é uma espécie de animal. Além disso, o Ryûjin aprecia a chuva, de modo que se sente mais satisfeito ao ar livre.
-
-O nome pode ser mantido como está. Consagre-o em uma direção voltada para a Imagem de Komyô Nyôrai-Sama. (22 de janeiro de 1950)
-
-## 035 O Local para Consagrar Espíritos de Serpentes, Gatos, etc.
-
-Ao consagrar espíritos de serpentes ou gatos com os quais se teve alguma ligação cármica, qual o melhor local e por quanto tempo se deve fazê-lo?
-
-Um local apropriado e limpo no jardim, onde as pessoas não pisem, é o ideal.
-
-## 036 Nomes para Consagrar Múltiplos Ryûjin e Espíritos de Raposa
-
-Em um depósito de alvenaria, viviam uma serpente branca e muitas outras, mas o local foi incendiado durante a guerra. Como devo proceder com a consagração? Essa serpente branca tem uma posição superior à dos humanos? Quando é necessário consagrar mais de um Myôjin, como devo nomeá-los? E por quantos anos essa consagração deve ser mantida? Uma cerimônia anual é suficiente?
-
-Seja um Inari ou uma serpente, não importa quão magníficos ou importantes sejam, sua posição é sempre inferior à do ser humano. Pode haver casos de se consagrar dois Myôjin, como um Ryûjin e uma raposa. A raposa aprecia o título de "Shô-Ichii" (Primeiro Grau Supremo). É aconselhável consagrar a serpente do depósito.
-
-## 037 O Significado de Myôjin
-
-No dia 26 de junho, eu e meu filho ingressamos na fé. Somos da família Numano. Na tarde do nosso primeiro dia de aprimoramento, meu filho matou um casal de serpentes-azuis, com cerca de um metro e oitenta de comprimento cada, que viviam nos arredores da nossa casa há muito tempo. Seria aconselhável consagrar essas serpentes? E, nesse caso, devo criar dois nomes, um para cada uma do casal?
-
-Um único nome é suficiente. Chame-o Myôjin. O ideograma "Myô" (明) é composto por dois elementos, que simbolizam o masculino e o feminino. Acrescente o sobrenome da família, resultando em "Numano Myôjin". A consagração deve ser feita na área externa.
-
-Enterre as serpentes, entoe a oração, invoque o nome do Grande Deus do Mundo Invisível e rogue para que elas possam renascer como seres humanos o mais breve possível. Seria uma irreverência pedir isso ao Grande Deus Miroku. O Grande Deus do Mundo Invisível rege apenas o mundo invisível.
-
-Mesmo tendo sido morta, a serpente se regozija ao receber o procedimento para sua salvação, pois não deseja exibir sua aparência disforme. Atribuir títulos como "Daimyôjin" é uma falsidade. (22 de junho de 1949)
-
-## 038 Matar uma Serpente e a Forma de Consagração
-
-1.  É possível que a vida de uma criança seja ceifada por se ter matado uma serpente?
-2.  Nesse caso, até que ponto a consagração da serpente deve ser realizada?
-
-1.  Sem dúvida. A serpente, irada, busca vingança. Sapos também são frequentemente possuídos por espíritos. É melhor tratá-los com cuidado. Com exceção das antigas serpentes-azuis, as outras podem ser mortas. Eu mesmo costumo matar serpentes. Depois, eu as enterro e entoo a oração. Contrariamente ao que se pensa, a serpente se alegra. Ela considera sua forma disforme e deseja encerrar rapidamente uma vida de fealdade. Ao se rogar por ela, ela pode reencarnar mais depressa como ser humano, o que a deixa extremamente feliz. Nesses momentos, sinto uma grande leveza, pois a serpente está contente.
-
-2.  O ponto crucial é oferecer um recipiente com água. Em um pequeno oratório, escreva em uma placa de madeira branca, no formato de um nome póstumo: "...Myôjin".
-
-3.  Use o título Myôjin. Sobre uma base de pedras empilhadas a uma altura de sessenta a noventa centímetros, assente o oratório, fixando-o para que não seja movido pelo vento. Ofereça arroz cru e água. Peixe cru, verduras e outros itens também são adequados. Realize uma cerimônia uma vez por mês, de preferência no dia em que o animal foi morto. Entoe a Oração Amatsu-Norito e "Grande Deus do Mundo Invisível, protegei-nos e concedei-nos felicidade". Como a consagração é feita em reparação, peça também que a serpente se torne uma guardiã.
-
-## 039 Como Lidar com a Maldição de uma Serpente
-
-Trata-se de uma maldição de serpente. Consagre-a e rogue para que ela possa reencarnar como ser humano. Dessa forma, ela se sentirá apaziguada. No jardim, empilhe pedras a uma altura de sessenta a noventa centímetros, construa um oratório, prepare um objeto de veneração e dê-lhe o nome de "Fulano Myôjin". Cave um pequeno lago. Entoe a oração diariamente. Peça ao Grande Deus do Mundo Invisível que, em sua próxima encarnação, ela possa nascer como ser humano. A serpente, gradualmente, compreenderá a situação, e seu ressentimento se transformará em alegria. (1948)
-
-## 040 O Procedimento para uma Serpente Morta (Serpentes que Amaldiçoam)
-
-Uma serpente que vivia em minha casa há muitos anos morreu. Devo consagrá-la?
-
-Quando uma serpente morrer, cave um buraco em um local onde as pessoas não pisem e enterre-a. Em seguida, entoe a Oração Amatsu-Norito. Para um procedimento mais completo, erga sobre o local um pequeno monte de pedras ou, de improviso, escreva seu nome em uma placa de madeira e consagre-a. Rogue então ao Grande Deus do Mundo Invisível para que, em sua próxima vida, ela possa nascer como ser humano. Para a serpente, que possui uma forma disforme e é rejeitada pelas pessoas, renascer como humano após uma passagem rápida pelo Mundo Espiritual é infinitamente melhor, mas ela não consegue morrer por conta própria.
-
-Seres humanos que reencarnaram como serpentes podem lançar maldições, mas as serpentes que sempre foram serpentes não o fazem.
-
-## 041 Cegueira e a Consagração de Serpentes
-
-A membro Keiko Fukumura, de 24 anos, enquanto dançava uma dança folclórica de olhos vendados, perdeu completamente a visão. Com Johrei, ela chegou a enxergar parcialmente as estampas das roupas, mas depois voltou à cegueira anterior, e este ciclo se repete. Segundo seu pai, quando ele era criança, estava colhendo castanhas na montanha atrás de casa quando subitamente viu um casal de serpentes "yamakagashi". Assustado, ele as matou e as pendurou em uma árvore. Ao voltar para casa e ir ao banheiro, encontrou ali as mesmas serpentes que havia matado. Espantado, retornou à montanha e constatou que elas ainda estavam no mesmo lugar. Em outra ocasião, viu uma serpente-azul comendo o arroz oferecido ao altar xintoísta, pendurada na viga. Ele a derrubou e também a matou. Esses eventos ocorreram em sua infância. Haveria alguma relação espiritual? E como se deve proceder?
-
-É bom consagrá-las. As duas serpentes "yamakagashi" eram um casal. A serpente-azul é, quase certamente, um ancestral. Consagre primeiro a serpente-azul, para a qual o sobrenome da família é adequado. Para as "yamakagashi", use o nome da localidade ou da montanha, escrevendo ambos. Em frente ao oratório, construa um pequeno lago. As oferendas mais apropriadas são arroz cru, água e sal. (11 de setembro de 1949)
-
-## 042 A Consagração da Serpente-Azul
-
-Em certa casa, anos atrás, o patriarca matou uma enorme serpente-azul que apareceu no galinheiro. No dia seguinte, uma serpente idêntica surgiu no mesmo local, e ele pediu a um vizinho que a matasse. A partir do ano seguinte, seus cinco filhos faleceram um após o outro (dois deles por tuberculose), e o próprio patriarca também veio a falecer. Atualmente, o filho mais novo, de 25 anos, está acamado com tuberculose. Um exorcista lhes disse que se tratava de uma maldição da serpente e, seguindo suas instruções, eles consagraram dentro de casa um espelho como objeto de veneração, sob o nome de "Shirayama Myôjin". Recentemente, a família ingressou na fé e recebeu a Imagem de Komyô Nyôrai-Sama. Eles gostariam de transferir o Ryûjin de dentro de casa para o jardim. O objeto de veneração e o nome podem ser mantidos? Ou seria necessário criar um novo nome e um novo objeto? Ou, ainda, deveriam consagrar as duas serpentes juntas?
-
-Trata-se de um espírito ancestral. Portanto, acrescente o sobrenome da família, tornando-se "Fulano Myôjin". Melhor ainda seria utilizar o nome da localidade. Dessa forma, a entidade passará a proteger toda a região. (1 de outubro de 1949)
-
-## 043 A Criança com Paralisia Infantil e a Serpente-Azul que Subia na Sala
-
-Um menino de seis anos, que contraiu paralisia infantil por volta dos seis ou sete meses de idade, não firma o pescoço, tem os braços e pernas flácidos e não fala. Aparentemente, ele consegue ouvir. Ele avisa de alguma forma quando precisa urinar. Durante a gravidez da mãe, uma serpente-azul apareceu na sala onde o pai estudava. Ele a expulsou uma vez, mas ela retornou. Então, ele usou um bambu rachado para prender seu pescoço, jogou-a para fora e ela morreu. A mãe, por ter matado um ser vivo durante a gestação, sempre se preocupou com o ocorrido. Levaram o menino a médicos, mas sem resultado. Recorreram a templos, santuários e médiuns, que atribuíram o problema a uma maldição de um espírito ancestral. Fizeram diversos rituais, mas a criança não melhorou. Qual seria a causa dessa maldição? A criança pode ser curada pelo Johrei? E, se for uma maldição ancestral, existe um método para removê-la?
-
-A possessão por uma serpente pode deixar o corpo sem firmeza, como se não tivesse ossos. A maioria das serpentes-azuis são ancestrais que caíram no caminho das bestas e reencarnaram nessa forma. Por terem sido humanos, eles sentem o desejo de entrar nos cômodos da casa. A cura pelo Johrei, nesse caso, pode ser bastante demorada. É preciso fazer a criança ouvir a Oração e os Salmos o máximo possível.
-
-Em um pequeno oratório, escreva "Yamato Myôjin". Peça a proteção de Komyô Nyôrai-Sama e coloque o oratório à Sua esquerda ou à Sua direita. Faça uma reverência e diga: "Peço agora que o Ryûjin-Sama que se encontra na criança se assente neste oratório. Rogo que se transfira através do meu corpo". A postura de mãos em prece é uma forma de unificar o espírito. Faça o pedido ao Grande Deus do Mundo Invisível.
-
-A raposa entra e sai pelo polegar (direito), e o Ryûjin, pelo dedo indicador. O formato da placa com o nome deve ser semelhante ao de uma espada. A consagração talvez acelere o processo. Madeira de hinoki é a mais adequada. Por se tratar de um ancestral, o sobrenome da família é apropriado. "Yamato Myôjin" ou "Daimyôjin" também são aceitáveis. Um ministro é capaz de realizar este procedimento.
-
-Peça a proteção de Komyô Nyôrai-Sama e coloque o oratório sobre o altar, em frente à Imagem Sagrada. Espíritos que estão há muito tempo no corpo podem não se transferir imediatamente; alguns levam tempo para se mover. (16 de fevereiro de 1949)
-
----
-
-# Soluços e Mordeduras Peçonhentas
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Soluços e Mordeduras Peçonhentas
-
-## 046 A Causa dos Soluços
-Uma senhora de cinquenta anos sofre com soluços. Estes se manifestam sempre que a mão de outra pessoa toca qualquer parte de seu corpo. Gostaria de solicitar orientação sobre como ministrar Johrei neste caso.
-
-Os pontos são o diafragma, a nuca e a cabeça. Ela obterá a cura.
-
-## 047 Soluços e Presença de Sangue nas Fezes
-Trata-se de um membro de cinquenta e nove anos cujo peso, que já foi considerável, reduziu-se drasticamente. Em janeiro do ano passado, ele passou por uma purificação do fígado e, graças ao Johrei, recebeu grande proteção Divina. Atualmente, ele vivencia uma purificação semelhante, porém, desta vez, acompanhada de soluços e fezes com sangue. No início, os soluços eram frequentes, mas agora cessam imediatamente ao receber Johrei. Eles costumam ocorrer durante caminhadas ou, especialmente, ao usar o banheiro. A alimentação permanece normal. A febre atinge cerca de quarententa graus, duas vezes ao dia, e há expectoração abundante. Gostaria de saber se há alguma relação espiritual envolvida. Adicionalmente, rogo que nos esclareça sobre a causa e o processo de purificação dos soluços e que nos forneça Suas diretrizes para este caso.
-
-Não há interferência espiritual; trata-se de uma purificação. Os soluços comuns originam-se no diafragma. Falta pouco para que cessem por completo. Em breve, ele estará inteiramente recuperado. (25 de abril de 1950)
-
-## 048 Soluços Contínuos
-Um senhor de setenta anos, não membro, encontrava-se com um problema no peritônio. Pouco depois de começar a receber Johrei, ele teve vômitos e fezes com sangue de coloração enegrecida, mas vinha recuperando o vigor. Contudo, desde o dia 29 de abril, ele passou a ter soluços contínuos. Até hoje, sofre com o problema, havendo apenas breves intervalos de uma ou duas horas sem soluços ao longo do dia. A esposa dele, de quarenta e sete anos, está em seu segundo casamento. Ela se divorciou do primeiro marido por ser este um libertino, mas, como ele continuava a importuná-la, casou-se novamente para se afastar dele. Haveria alguma relação espiritual entre essa situação e os soluços de seu atual marido?
-
-Os soluços têm outra causa. Há casos de pessoas que soluçam por cento e setenta dias. É um processo que pode ser bastante longo. Basta ministrar Johrei no diafragma. (12 de maio de 1949)
-
-## 049 Pálpebras Abertas Durante o Sono
-Gostaria de solicitar um esclarecimento sobre a relação espiritual entre sonhar, falar durante o sono e dormir com as pálpebras abertas.
-
-Não há problema algum em dormir de olhos abertos. (1948)
-
-## 050 Sensação de Protuberância nas Costas ao Deitar-se de Barriga para Cima
-Ao deitar-me de barriga para cima, sinto uma protuberância nas costas, mas apenas durante a noite. Qual seria a razão para tal fenômeno?
-
-Isso ocorre porque as toxinas se acumulam nas costas. Ao deitar-se de barriga para cima, essas toxinas descem, causando a sensação de protuberância. (19 de outubro de 1948)
-
-## 051 As Diversas Posturas ao Dormir
-Gostaria de indagar sobre os diversos tipos de posturas ao dormir. Por exemplo, há pessoas que dormem de boca aberta, de bruços, encolhidas como um gato, ou que só conseguem dormir de lado. Há também aquelas a quem um único inseto impede o sono, e outras que dormem profundamente, alheias a tudo. Imagino que possa haver alguma relação espiritual nestes casos. Seria possível nos elucidar a respeito?
-
-Dormir de boca aberta indica um problema no nariz. A passagem nasal está obstruída, forçando a respiração pela boca. Pessoas que respiram pela boca não desenvolvem um nariz proeminente; ao contrário, a boca se projeta e o nariz permanece baixo. Isso pode ser corrigido com Johrei. O ronco também se deve à má passagem de ar pelo nariz.
-
-Dormir de bruços é um resquício de hábitos de espíritos de animais. A postura voltada para baixo é característica dos animais. A posição correta é de lado, especificamente com o lado direito para baixo. Esta é a forma natural de um ser humano vivo dormir, embora não seja algo de grande importância. O ideal é que cada um durma da maneira que lhe for mais confortável.
-
-Incomodar-se com um único inseto é sinal de uma natureza nervosa ou de falta de exercício físico.
-
-Quando há dor no corpo, a postura ao dormir tende a ser ruim.
-
-Dormir profundamente, alheio a tudo, é característico de quem não sente dores e não possui perturbações espirituais.
-
-Dormir de barriga para cima é a postura dos mortos.
-
-A insônia, por sua vez, ocorre por falta de sangue na cabeça. Um nódulo no bulbo direito torna o sangue na cabeça rarefeito, impedindo o sono. Portanto, nos casos de insônia, deve-se examinar o bulbo direito. (25 de novembro de 1949)
-
-## 052 O Rosto da Criança e do Adulto Durante o Sono
-O rosto de uma criança dormindo é belo, mas o de um adulto pode não o ser, chegando a ser até mesmo feio. Isso teria relação com o desenvolvimento da sabedoria, da virtude e com o estado espiritual?
-
-Isso se deve ao fato de que os adultos possuem muitos pensamentos impuros. A criança, por sua inocência, manifesta sua pureza tal como é.
-
-## 053 A Causa do Ronco
-Por que as pessoas roncam? Um ronco muito alto pode ser normalizado com Johrei? E em que pontos principais devemos nos concentrar ao ministrar? Solicito humildemente Suas elucidações.
-
-O problema está no nariz; a sinusite obstrui as fossas nasais. O Johrei deve ser ministrado no nariz. Nesse caso, as fossas nasais atuam de forma semelhante à garganta. (3 de julho de 1949)
-
-"Sou um membro que recebeu a graça de ingressar na Fé em 1946. Há cerca de trinta e cinco anos, passei por uma cirurgia de sinusite. Quinze anos depois, o problema retornou. Procurei um médico, mas ele afirmou que não havia nada de errado. Eu estava em dificuldades quando me ensinaram este Caminho. Ingressei na Fé e fui completamente curado. No entanto, meu ronco é extremamente alto, a ponto de incomodar as outras pessoas. Como não percebo enquanto durmo, não sei como controlá-lo e sinto-me constrangido. Trata-se de um problema espiritual? Qual seria a parte doente? Onde devo ministrar Johrei?"
-
-Isto não é de ordem espiritual. O problema se localiza entre a garganta e o nariz. Ainda há um nódulo na parte posterior do nariz, e também o adenoide, que fica entre a garganta e o nariz, está inchado, fazendo com que o ar vaze em direção à boca. Esse ar atinge as cordas vocais na garganta, o que produz o ronco. A origem do ronco está, portanto, na área entre a garganta e o nariz. Se ministrar Johrei mirando esse ponto, o problema será resolvido. A melhora será gradual. Trata-se de um resquício da sinusite.
-
-## 054 Veneno de Cão Raivoso e de Víbora
-Gostaríamos de receber Suas orientações sobre como ministrar Johrei em casos de mordida de cão raivoso, víbora e outros animais peçonhentos.
-
-Se o local da mordida for purificado com Johrei rapidamente, antes que o veneno se espalhe pelo corpo, a cura é certa. A recuperação é absolutamente garantida. (8 de fevereiro de 1950)
-
-## 055 A Raiva
-Sobre a raiva, trata-se de um fenômeno espiritual. É como uma doença mental nos cães, análoga às dos seres humanos. Quando o animal morde, libera um veneno. Um cão normal não faria isso. Quando um cão desenvolve essa doença mental, todo o seu sangue se altera. Com o Johrei, a cura é obtida sem dificuldade. O local da mordida é extremamente doloroso, e é ali que o Johrei deve ser concentrado. (29 de dezembro de 1948)
-
-## 056 A Causa da Raiva
-Qual é a razão do surgimento da raiva? Diz-se que, quando um ser humano ou animal é mordido, contrai a hidrofobia. Trata-se de um fenômeno espiritual, físico ou de ambos?
-
-Ambos os aspectos estão envolvidos. Um veneno potentíssimo, que é a materialização da doença específica do cão, manifesta o caráter do animal. A pessoa passa a imitar o cão e a sentir sede. Com Johrei, a cura é obtida sem dificuldade. O local da mordida dói intensamente. O veneno de víboras e abelhas também é neutralizado rapidamente. (3 de julho de 1949)
-
-## 057 Causa e Cura da Raiva
-Qual é a causa da raiva e qual o seu significado espiritual?
-
-É um tipo de toxina canina que penetra através dos dentes no momento da mordida. O espírito do cão pode, em alguns casos, encostar em seres humanos. Isso fica evidente durante o Johrei, no momento da dor. A cura é muito rápida, assim como nos casos de picadas de cobra. (8 de dezembro de 1949)
-
-"Quando alguém é mordido por um cão com raiva, o estado da pessoa se torna trágico. Que tipo de purificação é essa? E como devemos proceder nesses casos?"
-
-Se for logo no início, basta ministrar Johrei no local da mordida. A mordida causa inchaço e dor devido ao veneno que sai dos dentes do cão. Com o tempo, esse veneno se espalha pelo corpo; se isso acontecer, basta ministrar Johrei nos locais afetados, e não haverá problema algum. É exatamente como no caso de uma picada de víbora. Quando alguém é picado, o veneno se espalha gradualmente, e a pessoa morre se ele atingir todo o corpo. Ao purificarmos com Johrei, o problema é resolvido sem nenhuma dificuldade.
-
-## 058 Veneno de Víbora
-No caso de uma picada de víbora, é necessário aplicar um torniquete?
-
-Isso também é desnecessário. Com o Johrei, a cura é obtida facilmente. O veneno da víbora pode causar inchaço em todo o corpo e levar à morte. (3 de abril de 1949)
-
-## 059 Perna Amputada por Picada de Víbora
-Meu filho, aos seis anos de idade, foi picado por uma víbora, e sua perna direita necrosou e caiu; hoje ele anda de muletas. Aos nove anos, ele teve meningite e atualmente tem vinte e dois. A partir dos vinte, começou a apresentar sinais de epilepsia. Este ano, depois que entronizamos o Altar de Komyo Nyorai, as crises se tornaram mais frequentes. Como devo proceder? Em nossa família, há cerca de quarenta anos, houve um parente que morreu por enforcamento. Além disso, no passado, cortei uma cobra ao aparar folhas de amoreira. Haveria alguma relação com esses fatos?
-
-É provável que haja relação com a cobra. É possível que o espírito da cobra tenha encostado na víbora e a tenha feito morder seu filho. A perna caiu por causa do veneno das injeções. Há outros exemplos semelhantes. Certa vez, uma pessoa aplicou um remédio em um cancro de água, e sua bochecha caiu, deixando os dentes expostos. Ela não conseguia comer e se alimentava apenas de leite. O veneno da víbora causa inchaço por todo o corpo, mas com o Johrei, a cura é certa. As toxinas da meningite também permaneceram solidificadas. Ao receber Johrei ou entronizar o Altar de Komyo Nyorai, é comum que a frequência de purificações como a epilepsia aumente. (26 de dezembro de 1948)
-
-## 060 Morte Equivocadamente Atribuída à Picada de Víbora
-Uma membro chamada Misae Maeda, de trinta e oito anos, que ingressou na Fé em abril deste ano, foi picada no pé por uma víbora enquanto voltava para casa com seu assistente. O assistente imediatamente sugou o sangue do ferimento, cuspiu-o e fez um torniquete acima do local, enquanto ministrava Johrei. No entanto, a parte superior do pé começou a inchar. Apesar do Johrei contínuo, quatro dias depois o inchaço atingiu a virilha, e ela faleceu. Haveria algum carma especial envolvido neste caso?
-
-O erro foi ter sugado o sangue do ferimento. Foi isso que a levou à morte. O procedimento foi puramente materialista. Succionar o sangue fez com que a parte superior inchasse. Além disso, fizeram um torniquete. Tais atitudes demonstram falta de fé em Deus. Com o Johrei, a cura é obtida sem dificuldade. (1 de maio de 1950)
-
-## 061 O que é o Kamaitachi
-O que é o fenômeno conhecido como *kamakaze* ou *Kamaitachi (鎌鼬)*?
-
-Não sei ao certo, mas creio que se refira a um tipo de doninha feroz. Dizem que, quando ocorre uma rajada de vento, a pessoa de repente percebe que sua pele foi removida, sem sentir dor. O corte seria semelhante ao feito por uma foice, e a ferida não cicatrizaria. Ainda assim, penso que se trata de uma manifestação de um Deus-Dragão. É um espírito de natureza peculiar.
-
-"Qual é a razão espiritual para o fenômeno conhecido como *kamakaze* ou *Kamaitachi*?"
-
-Provavelmente, é uma maldição de um Deus-Dragão.
-
-## 062 A Verdadeira Natureza do Kamaitachi
-O fenômeno popularmente conhecido como *Kamaitachi* tem alguma relação com espíritos?
-
-Não o conheço bem. Creio que se trate de uma doninha de índole agressiva, do tipo que ataca as pessoas. Penso que não há relação com espíritos.
-
-## 063 Laceração por Kamaitachi
-Que tipo de fenômeno é o *Kamaitachi*? Solicito Seus esclarecimentos.
-
-Não existe tal coisa como *Kamaitachi*. O que ocorre é uma fissura na pele humana. As pessoas apenas imaginaram que uma doninha com uma foice (*kama*) lhes causou o ferimento. Isso acontece por deficiência de gordura ou de sangue no organismo, o que provoca a ruptura da pele. (18 de outubro de 1948)
-
-## 064 Kamaitachi e as Partes do Corpo que não Sangram
-Gostaria que nos ensinasse sobre o *Kamaitachi*.
-
-É um corte espontâneo que ocorre em áreas do corpo com deficiência de gordura. A ruptura acontece em locais que não sangram. O corpo humano possui partes que sangram e outras que não. As que não sangram são aquelas cujos tecidos são mais frágeis.
-
-## 065 Kamaitachi e Quedas
-O que se chama popularmente de *Kamaitachi*? Uma criança de doze ou treze anos caiu e fez um corte na coxa de aproximadamente nove centímetros de diâmetro e um centímetro e meio de profundidade. No entanto, quase não houve sangramento e ela não sentiu muita dor. O que seria isso?
-
-Existe algo conhecido como perturbação do espírito Konjin, que causa cortes sem que a pessoa caia. Em certos indivíduos, uma parte do corpo, geralmente na perna, torna-se propensa a se romper. Quando essa pessoa cai, a carne se abre. O ferimento se abre um pouco, mas, como a circulação sanguínea nessa área é deficiente, quase não há sangramento. (12 de julho de 1949)
-
-## 066 A Causa do Kamaitachi
-Um idoso da vizinhança, o Sr. Kagi Takagi, de setenta e cinco anos, caiu no jardim certo dia. Embora não houvesse nenhum obstáculo, ele sofreu um corte de cerca de nove centímetros. Um professor da escola disse que ele foi atacado por um *Kamaitachi*. Qual seria a explicação para isso?
-
-Não existe *Kamaitachi*. Trata-se de uma ruptura da carne. Isso ocorre quando o sangue está sobrecarregado e há nódulos de toxinas de remédios. O princípio é semelhante ao de um tecido que necrosa. Em suma, é uma laceração severa da carne. (7 de junho de 1949)
-
-## 067 Kamaitachi
-A ação purificadora do *Kamaitachi* possui algum significado espiritual?
-
-Isso é uma inverdade, um equívoco. Trata-se de uma ruptura da carne que ocorre quando há falta de gordura em uma determinada parte do corpo. (19 de agosto de 1949)
-
----
-
-# Estudos Espirituais: Doenças Espirituais (Parte II) - 042-053 Apoplexia
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Estudos Espirituais: Doenças Espirituais (Parte II) - 042-053 Apoplexia
-
-### 042 Espírito de Apoplexia
-
-Uma senhora de 69 anos foi acometida, há sete ou oito anos, por uma neurastenia da qual se recuperou gradualmente. Contudo, desde maio deste ano, seu pescoço começou a curvar-se para a frente, encostando-se ao peito e restringindo severamente seus movimentos. Imediatamente após a sétima sessão de Johrei, ela perdeu a capacidade de segurar os hashis. Cinco horas mais tarde, seu braço direito dobrou-se e ficou aderido ao tórax, e ela emudeceu. Embora suas pernas se movessem, não conseguia se manter de pé. Uma febre persistente, em torno de 40 graus, durou quatro dias, mas enfim cedeu. Durante o Johrei, seu braço voltou a se mover e, uma semana depois, boa parte de sua fala havia retornado. Todavia, ela ainda geme, incapaz de se virar de lado, e só consegue ingerir pequenas porções de alimento. A família acredita que seja uma forma branda de apoplexia.
-
-A filha desta paciente sofreu de uma doença cerebral na infância que a deixou com sequelas mentais, manifestando, por vezes, um comportamento violento. Haveria alguma relação espiritual entre mãe e filha? Rogo que nos elucide sobre a causa desta enfermidade e sobre o método de Johrei.
-
-Trata-se de um espírito que sofreu de apoplexia. Não há relação com a doença cerebral da filha. É preciso ter paciência e fazer com que ela ouça a oração o máximo possível. Ela melhorará gradualmente. (18 de setembro de 1949)
-
-### 043 Sintomas de apoplexia após vômito e diarreia
-
-O fiel Okabe Seiichi, de 27 anos, retornou do trabalho no dia 16, por volta das duas da tarde, com calafrios e uma neuralgia no lado esquerdo do rosto, tendo recebido Johrei. Naquela mesma noite, ele apresentou um leve quadro de vômito e diarreia, com febre generalizada e dores agudas na fronte, na têmpora esquerda e no bulbo raquidiano. No dia 17, seu estado permaneceu inalterado. À noite, ao tentar jantar, percebeu que não conseguia segurar os hashis e, desde então, sua mão direita perdeu a mobilidade, tal como ocorre na apoplexia. Por volta das seis da tarde, tentou ir ao banheiro, mas não conseguiu se levantar. Por volta da uma da madrugada, ao retornar do toalete, ele declarou subitamente: "Agora estou no primeiro nível do Inferno".
-
-No dia 18, ele dormiu normalmente até que, pela manhã, às nove horas, não conseguiu se levantar e evacuou duas vezes seguidas em uma comadre. A partir de então, sua língua enrolou e, embora consciente, ele perdeu a capacidade de falar. Por volta das dez para as onze da manhã, entrou em estado crítico. Solicitamos a Proteção Divina à unidade da Igreja e, por volta das duas da tarde, ele recobrou a consciência, mas a fala continuava comprometida. Depois disso, iniciou uma lenta recuperação. Contudo, às nove da noite, um médico veio e aplicou-lhe uma injeção, o que agravou seu estado. Embora tenha alguma consciência, ele permanece em condição crítica, com febre entre 38 e 39 graus, e não consegue se alimentar. Rogamos por sua nobre Proteção Divina.
-
-Trata-se da possessão por um espírito que morreu de apoplexia. Com Johrei administrado pacientemente, ele será curado. (19 de novembro de 1949)
-
-### 044 Sintomas causados por um espírito de apoplexia
-
-Uma senhora de 55 anos, no dia 3 de setembro, sentiu uma súbita pressão ascendente após uma refeição. Desde então, sua pressão arterial tornou-se extremamente elevada e seus membros perderam a mobilidade. Posteriormente, com tratamento médico, recuperou um pouco do movimento, mas sua cabeça parece pesada, como se pertencesse a outra pessoa, e ela só consegue dormir em noites alternadas. Ocasionalmente, ela sofre de fortes palpitações e tonturas, momentos em que agarra firmemente a mão da filha, implorando: "Sinto-me só, não me deixe".
-
-Seu marido sofreu uma apoplexia há 14 anos e faleceu sete anos depois. Ademais, sua maneira de falar assemelha-se à de uma pessoa insana, o que sugere a possessão por algum espírito. Haveria alguma relação espiritual nesse caso? Rogamos que nos instrua sobre o método de Johrei.
-
-Provavelmente, é o espírito do marido que teve apoplexia. A região direita do pescoço dela está enrijecida. Concentre o Johrei no pescoço e nas demais partes do corpo onde ela sente dor. Reze a oração para ela. (8 de novembro de 1949)
-
-### 045 Apoplexia e o apego material
-
-Uma jovem de 26 anos, no dia 18 de abril deste ano, foi subitamente acometida por uma paralisia no lado esquerdo do corpo, o que resultou no rompimento de seu noivado. Graças ao Johrei, ela agora consegue caminhar com dificuldade, mas sua mão continua sem movimento. Haveria alguma causa espiritual para isso? Por favor, ensine-nos.
-
-Provavelmente, um espírito que sofreu de apoplexia a possuiu. Ter essa doença aos 26 anos é algo muito precoce; geralmente, não ocorre antes dos 40. Com perseverança, ela será curada. A causa da apoplexia reside no apego aos bens materiais. É imperativo libertar-se desse apego. Por essa razão, o sintoma característico é fechar a mão, com o polegar para dentro, e pressioná-la contra o peito. Enquanto houver dinheiro obtido de forma ilícita, o dinheiro verdadeiro não virá. Eu mesmo sofri com dívidas por vinte anos. No momento em que desisti e entreguei tudo a Deus, os recursos começaram a chegar.
-
-### 046 Espírito que entra pelo polegar e causa sintomas de apoplexia
-
-Uma senhora de 57 anos relata que, há sete anos, durante a guerra, em uma reunião de bairro, sentiu algo percorrer seu corpo, desde o polegar do pé esquerdo até o alto da cabeça. No mesmo instante, seu joelho esquerdo cedeu. Ela permaneceu inconsciente por três dias e, ao despertar, seu lado esquerdo estava paralisado.
-
-Como informação adicional, seu pai, que trabalhava no ramo madeireiro, rogou por prosperidade nos negócios ao santuário San-kichi Inari, em Sendai. Seus negócios melhoraram consideravelmente e ele acumulou uma grande fortuna, mas jamais retornou para agradecer. Anos depois, ele faleceu de uma doença cardíaca. Os parentes acreditam tratar-se de uma maldição de um espírito de raposa. A paciente mantém a mão esquerda fechada, mas estica os dedos ao bocejar. Seria possível, através do Johrei, salvar seu espírito e seu corpo? E quais seriam os pontos vitais para a ministração?
-
-Não se trata de um espírito de raposa, mas sim de um espírito humano que morreu de apoplexia. Espíritos do Inferno entram pelo polegar do pé. O fato de sua mão esquerda permanecer fechada indica a possessão, o que torna o caso menos grave que o habitual. Espíritos de raposa entram pelo polegar da mão, e divindades-dragão, pelo dedo indicador. Reze a oração para ela. É importante que ela se torne membro da Igreja e consagre um altar. (17 de julho de 1949)
-
-### 047 Apoplexia causada por um espírito que morreu envenenado
-
-Nagashima Seiichi, de 48 anos, após sofrer uma leve apoplexia em novembro do ano passado, passou a secretar uma saliva doce e viscosa. Qualquer alimento que ele ingere tem exatamente o mesmo sabor, e tudo lhe parece delicioso. Ele não sente fome nem saciedade, e até mesmo água quente, fria ou saquê têm um gosto adocicado. Além disso, não consegue discernir a temperatura da água do banho. Seu lado direito do corpo está levemente dormente. Qual seria a causa desse quadro?
-
-Não se trata de uma apoplexia comum. Há um espírito o possuindo. É o espírito de alguém que morreu envenenado. Venenos à base de arsênico causam uma paralisia geral do sistema nervoso, o que leva à perda de sensibilidade. (18 de março de 1950)
-
-### 048 Apoplexia com dificuldade respiratória e língua para fora (gato)
-
-Uma senhora de 57 anos sofreu uma apoplexia no dia 7 de dezembro do ano passado. Ela apresenta um sintoma peculiar: durante a noite, em horários determinados, ela tem crises de dificuldade respiratória, que ocorrem duas a três vezes. Nesses momentos, ela põe a língua ligeiramente para fora para conseguir respirar e pede algo para comer. A própria paciente relata que, durante as crises, sente uma forte tensão nos dentes, como se eles estivessem "flutuando".
-
-Há trinta anos, ela matou um gato de rua travesso, amarrando-o a um poste do lado de fora de sua casa. Ela teme que possa ser uma maldição do animal. Se este for o caso, além do Johrei, haveria alguma forma especial de realizar uma cerimônia religiosa por ele?
-
-É a maldição do gato. Além da apoplexia, o espírito do gato a está possuindo. É recomendável que se reze a oração para ela. (3 de março de 1950)
-
-### 049 Paralisia infantil genuína
-
-Nos casos de paralisia infantil genuína, o espírito se materializa na forma de toxinas que comprimem os nervos e vasos sanguíneos dos braços e pernas, impedindo seu desenvolvimento? Rogo a Vossa Senhoria que nos elucide.
-
-A forma genuína é causada por um espírito que morreu de hemorragia cerebral ou algo semelhante. A materialização do espírito ocorre na medula espinhal... (18 de outubro de 1948)
-
-### 050 Paralisia infantil causada por espírito de hemorragia cerebral
-
-Um jovem de 15 anos, há cerca de três anos, apresenta o pescoço curvado para a direita, as costas arqueadas e o corpo inclinado. Suas mãos, embora não totalmente inertes, pendem frouxamente, e ele caminha de uma forma que lembra um caranguejo. Atualmente, ele está recebendo Johrei. Qual seria a causa de seu estado? Seu pai morreu atropelado por um trem, e seu avô faleceu de hemorragia cerebral.
-
-É o espírito daquele que morreu de hemorragia cerebral. Ele faleceu exatamente nessa posição. Ministre Johrei pacientemente, concentrando-se apenas nas áreas afetadas. É imprescindível consagrar a Imagem de Komyoh Nyorai. Sem isso, o espírito não poderá ser salvo.
-
-### 051 Espírito de apoplexia (incapaz de andar)
-
-Há cerca de quinze dias, venho ministrando Johrei a uma menina de nove anos da vizinhança, que sofre de paralisia infantil. O lado direito de seu corpo parece ser o mais afetado. De que maneira devo ministrar o Johrei para que ela possa voltar a andar mais rapidamente? O pai dela tornou-se membro quatro dias após o início do tratamento.
-
-Trata-se de um espírito que sofreu de apoplexia. Examine bem as pernas dela. Certamente há um ponto doloroso na sola de seu pé. Casos como este costumam apresentar uma boa recuperação. (7 de setembro de 1949)
-
-### 052 Criança com espírito de apoplexia
-
-Uma menina, hoje com nove anos, contraiu encefalite na primavera passada. Ela se recuperou completamente graças ao Johrei, mas, simultaneamente, desenvolveu uma paralisia em um lado do corpo. Ela continua recebendo a purificação, mas ainda não apresentou nenhuma melhora. Seu pai faleceu há seis anos em combate, nos mares do Sul. Qual seria a natureza desse quadro? Rogamos por sua orientação.
-
-É um espírito de apoplexia, um espírito que morreu de hemorragia cerebral. Os pontos são a cabeça, a nuca, a base do braço... (14 de março de 1949)
-
-### 053 Paralisia infantil espinhal
-
-Um menino de nove anos, por volta dos seis meses de idade, contraiu um resfriado e foi medicado. Em seguida, desenvolveu um quadro semelhante ao sarampo e, três dias depois, seu corpo ficou completamente flácido, como uma água-viva. Essa condição persistiu por três dias, após os quais ele começou a melhorar gradualmente. Cerca de quinze dias mais tarde, seu ombro esquerdo ficou como se estivesse deslocado. Ele consegue mover levemente as pontas dos dedos, mas não o braço para cima e para baixo. O diagnóstico do hospital da Cruz Vermelha foi paralisia infantil espinhal. Ele recebeu o Ohikari em outubro de 1947 e, desde então, vem recebendo Johrei continuamente, mas não houve mudanças significativas. Rogamos que nos elucide sobre a causa e o método de Johrei.
-
-Aparentemente, um espírito que sofreu de apoplexia o possuiu. Trata-se de um caso de paralisia infantil genuína. Com perseverança, ele será curado. Ministre Johrei na parte interna da região frontal da cabeça. Ministre também na base do braço. Ele melhorará gradualmente.
 
 ---
 

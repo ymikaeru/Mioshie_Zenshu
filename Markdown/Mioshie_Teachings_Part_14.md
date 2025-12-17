@@ -3,6 +3,7 @@
 # A Grande Revolução Agrícola: A Certeza do Aumento de 50% na Produção de Arroz em Cinco Anos
 
 **Categoria:** no | **Ano:** 昭和28(1953)年5月5日 | **Fonte:** 革命的増産のShizen Noho Kaisetsu
+**Título Original:** 農業の大革命 五カ年にして米の五割増産は確実 | **Status:** Published
 
 ## A Grande Revolução Agrícola: A Certeza do Aumento de 50% na Produção de Arroz em Cinco Anos
 
@@ -81,6 +82,7 @@ Publicado na revista Eikou (nº 141), em 30 de janeiro de 1952.
 # A Prevenção Definitiva da Hemorragia Cerebral
 
 **Categoria:** no | **Ano:** 昭和11(1936)年 | **Fonte:** 脳溢血は絶対予防し得る
+**Título Original:** 脳溢血は絶対予防し得る | **Status:** Unpublished
 
 ## A Prevenção Definitiva da Hemorragia Cerebral
 
@@ -101,6 +103,7 @@ Ademais, mesmo naqueles que não chegam ao ponto de sofrer uma hemorragia, a pos
 # A Grande Revolução na Agricultura: O Cultivo sem Fertilizantes para Hortas Caseiras
 
 **Categoria:** no | **Ano:** 昭和24(1949)年3月30日 | **Fonte:** -
+**Título Original:** 農業の大革命 清潔で心から楽しめる 家庭菜園の無肥科栽培 | **Status:** Published
 
 ## A Grande Revolução na Agricultura: O Cultivo sem Fertilizantes para Hortas Caseiras
 
@@ -159,6 +162,7 @@ Eis, pois, a grande revolução na agricultura e um verdadeiro evangelho para to
 # A Causa Espiritual de Enfermidades Comuns
 
 **Categoria:** no | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 脳貧血その他 未発表 | **Status:** Unpublished
 
 ## A Causa Espiritual de Enfermidades Comuns
 
@@ -199,6 +203,7 @@ Se as amígdalas forem removidas, as toxinas, sem ter para onde ir, serão forç
 # A Verdade por Trás das Inovações Agrícolas
 
 **Categoria:** no | **Ano:** 昭和25(1950)年1月14日 | **Fonte:** -
+**Título Original:** 農業の新発見に就て | **Status:** Published
 
 ## A Verdade por Trás das Inovações Agrícolas
 
@@ -213,6 +218,7 @@ Nesse sentido, a referida duplicação da colheita, na realidade, deve-se muito 
 # Elucidação sobre as Enfermidades Cerebrais
 
 **Categoria:** no | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 脳疾患 | **Status:** Published
 
 ## Elucidação sobre as Enfermidades Cerebrais
 
@@ -253,6 +259,7 @@ Para aferir a gravidade de qualquer doença relacionada ao cérebro, o vômito �
 # As Superstições na Agricultura
 
 **Categoria:** no | **Ano:** 昭和27(1952)年7月2日 | **Fonte:** Eikou
+**Título Original:** 農耕者の迷信に就て | **Status:** Published
 
 ## As Superstições na Agricultura
 
@@ -313,6 +320,7 @@ Pode-se dizer que minha motivação para a Agricultura Natural nasceu do pavor a
 # A Surpreendente Cura da Meningite
 
 **Categoria:** no | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 脳膜炎も訳なく治る 未発表 | **Status:** Unpublished
 
 ## A Surpreendente Cura da Meningite
 
@@ -333,6 +341,7 @@ Portanto, a simples reflexão sobre este ponto revela a assombrosa ofuscação d
 # Sobre as Enfermidades Cerebrais
 
 **Categoria:** no | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 脳疾患 | **Status:** Published
 
 ## Sobre as Enfermidades Cerebrais
 
@@ -366,7 +375,8 @@ Em suma, um ponto crucial a ser retido sobre as enfermidades cerebrais é que a 
 
 # Prece Divina
 
-**Categoria:** no | **Ano:** 昭和9(1934)年12月4日 | **Fonte:** 神言祝詞 （のりと） 不明、昭和9
+**Categoria:** no | **Ano:** 昭和9(1934)年12月4日 | **Fonte:** （のりと） 不明、昭和
+**Título Original:** 神言祝詞 | **Status:** Unknown
 
 ## Prece Divina
 
@@ -391,6 +401,7 @@ Prostrados, com os joelhos dobrados e a fronte rente ao solo, com o mais profund
 # Sobre as Enfermidades Cerebrais
 
 **Categoria:** no | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 脳疾患 ・主なる病気(一) 未発表 | **Status:** Unpublished
 
 ## Sobre as Enfermidades Cerebrais
 
@@ -419,6 +430,7 @@ Além das enfermidades mencionadas, existem sintomas como cefaleia crônica, sen
 # A Resposta Divina às Calúnias e Detratações
 
 **Categoria:** na | **Ano:** 昭和24(1949)年3月30日 | **Fonte:** -
+**Título Original:** 治るんだ | **Status:** Published
 
 ## A Resposta Divina às Calúnias e Detratações
 
@@ -447,6 +459,7 @@ Marchamos com determinação sob o grande objetivo de reconstruir um Novo Japão
 # Sobre o Consumo de Verduras Cruas
 
 **Categoria:** na | **Ano:** 昭和25(1950)年12月6日 | **Fonte:** Eikou
+**Título Original:** 生野菜 | **Status:** Published
 
 ## Sobre o Consumo de Verduras Cruas
 
@@ -461,6 +474,7 @@ Nesse sentido, quando se trata de uma alface cultivada pelo método da Agricultu
 # O Advento da Igreja Messiânica Mundial
 
 **Categoria:** na | **Ano:** 昭和25(1950)年3月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 何故救世教となった乎 | **Status:** Published
 
 ## O Advento da Igreja Messiânica Mundial
 
@@ -483,6 +497,7 @@ Nesse contexto, a principal preocupação dos fiéis será, naturalmente, compre
 # Relatos Anedóticos
 
 **Categoria:** na | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
+**Título Original:** ナンセンス | **Status:** Published
 
 ## Relatos Anedóticos
 
@@ -515,6 +530,7 @@ Para concluir, gostaria de relatar a obra-prima do disparate. Certa noite, no no
 # A Tragédia dos Mares do Sul e o Veneno Medicamentoso
 
 **Categoria:** na | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 南洋馬鹿 | **Status:** Published
 
 ## A Tragédia dos Mares do Sul e o Veneno Medicamentoso
 
@@ -533,6 +549,7 @@ Qualquer um que compreenda os princípios desta Arte Médica há de concordar qu
 # O Mal que Aflige os Nossos Jovens
 
 **Categoria:** na | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 南洋馬鹿 | **Status:** Published
 
 ## O Mal que Aflige os Nossos Jovens
 
@@ -549,6 +566,7 @@ A veracidade dos fatos aqui expostos, longe de ser um exagero, será prontamente
 # A Trindade dos Órgãos Internos e a Primazia do Coração
 
 **Categoria:** na | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 内臓の三位一体と心臓の重要性 | **Status:** Unknown
 
 ## A Trindade dos Órgãos Internos e a Primazia do Coração
 
@@ -593,6 +611,7 @@ Os pacientes com doenças cardíacas, por outro lado, representam o oposto: são
 # A Verdadeira Sede da Alma Humana
 
 **Categoria:** na | **Ano:** 昭和26(1951)年3月14日 | **Fonte:** Eikou
+**Título Original:** 何が欲しい 阿呆文学（六） | **Status:** Published
 
 ## A Verdadeira Sede da Alma Humana
 
@@ -621,6 +640,7 @@ Ah, Salve o Lótus-Buda-Amida, que assim seja! Toc, toc, toc.
 # A Puerilidade da Ciência Médica
 
 **Categoria:** na | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 何と医学の幼稚なる事よ 未発表 | **Status:** Unpublished
 
 ## A Puerilidade da Ciência Médica
 
@@ -637,6 +657,7 @@ Nesse sentido, impõe-se uma reflexão fundamental. Médicos, que são profissio
 # A Debilidade Mental Oriunda dos Mares do Sul
 
 **Categoria:** na | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 南洋馬鹿 | **Status:** Published
 
 ## A Debilidade Mental Oriunda dos Mares do Sul
 
@@ -652,7 +673,8 @@ Afirmo que os fatos aqui expostos não constituem qualquer exagero, e todo aquel
 
 # As Razões para a Criação Deste Método Terapêutico
 
-**Categoria:** na | **Ano:** 昭和11(1936)年 | **Fonte:** 何故、本療法を創めたか？
+**Categoria:** na | **Ano:** 昭和11(1936)年 | **Fonte:** Kenko
+**Título Original:** 何故 | **Status:** Unpublished
 
 ## As Razões para a Criação Deste Método Terapêutico
 
@@ -673,6 +695,7 @@ Contudo, mesmo que se saiba que a causa primordial de todas as doenças reside n
 # A Trindade dos Órgãos Internos e o Johrei
 
 **Categoria:** na | **Ano:** 昭和24(1949)年8月6日 | **Fonte:** -
+**Título Original:** 内臓の三位一体と浄霊 | **Status:** Published
 
 ## A Trindade dos Órgãos Internos e o Johrei
 
@@ -707,6 +730,7 @@ Portanto, sendo o corpo humano uma constituição trinitária, um método de cur
 # Peregrinação pela Arte Budista em Nara
 
 **Categoria:** na | **Ano:** 昭和27(1952)年5月14日 | **Fonte:** Eikou
+**Título Original:** 奈良美術行脚 | **Status:** Published
 
 ## Peregrinação pela Arte Budista em Nara
 
@@ -733,6 +757,7 @@ Gostaria, no entanto, de enaltecer um artista de nosso tempo: o escultor Sato Ge
 # A Verdadeira Senda da Fé
 
 **Categoria:** na | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 難行苦行 | **Status:** Published
 
 ## A Verdadeira Senda da Fé
 
@@ -755,6 +780,7 @@ Constata-se que, mesmo no Japão, ainda existem ascetas e religiosos que se dedi
 # Reminiscências sobre os Grandes Mestres do Naniwabushi
 
 **Categoria:** na | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 浪花亭愛造 自観叢書第5編 | **Status:** Published
 
 ## Reminiscências sobre os Grandes Mestres do Naniwabushi
 
@@ -781,6 +807,7 @@ Além desses, outros nomes permanecem vívidos em minha memória, como Naniwatei
 # A Realidade do Mundo de Miroku
 
 **Categoria:** mi | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** ミロクの世の実相 未発表 | **Status:** Unpublished
 
 ## A Realidade do Mundo de Miroku
 
@@ -803,6 +830,7 @@ Quanto à segunda forma de agressão, aquela que não provém da necessidade, ne
 # A Realidade do Mundo Espiritual
 
 **Categoria:** mi | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 未知の世界 | **Status:** Published
 
 ## A Realidade do Mundo Espiritual
 
@@ -819,6 +847,7 @@ O grande obstáculo, contudo, reside no fato de que o Mundo Espiritual não pode
 # Nosso Credo
 
 **Categoria:** mi | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
+**Título Original:** 五六七教教義 | **Status:** Published
 
 ## Nosso Credo
 
@@ -837,6 +866,7 @@ Cremos, finalmente, que o Paraíso Terrestre é o mundo que corporifica, em sua 
 # O Paradoxo do Progresso e a Ameaça à Sobrevivência Humana
 
 **Categoria:** mi | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** Asu no Ijutsu 第一篇
+**Título Original:** - | **Status:** Published
 
 ## O Paradoxo do Progresso e a Ameaça à Sobrevivência Humana
 
@@ -861,6 +891,7 @@ Portanto, qual o significado deste efeito reverso? Foi o sublime anseio de eluci
 # A Democratização da Arte
 
 **Categoria:** mi | **Ano:** 昭和28(1953)年7月8日 | **Fonte:** Eikou
+**Título Original:** 民主的美術館 | **Status:** Published
 
 ## A Democratização da Arte
 
@@ -875,6 +906,7 @@ Ouvir tais palavras me trouxe uma imensa satisfação, pois ele expressou, de fo
 # A Comprovação Científica do Espírito
 
 **Categoria:** mi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** - | **Status:** -
 
 ## A Comprovação Científica do Espírito
 
@@ -909,6 +941,7 @@ Além disso, outra via possível é o aprimoramento das chapas fotográficas. Re
 # A Cura de Três Graves Enfermidades Simultâneas em uma Única Ministração
 
 **Categoria:** mi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 三つの病併合の重症一回で治る 未発表 | **Status:** Unpublished
 
 ## A Cura de Três Graves Enfermidades Simultâneas em uma Única Ministração
 *Trecho da obra inédita “A Revolução da Medicina”, escrito em 1953*
@@ -924,6 +957,7 @@ Diante da manifestação contínua de milagres de tal magnitude, sem precedentes
 # A Revelação do Encontro Tríplice de Miroku
 
 **Categoria:** mi | **Ano:** - | **Fonte:** Bunmei no Sozo
+**Título Original:** 弥勒三会 未発表 | **Status:** Unpublished
 
 ## A Revelação do Encontro Tríplice de Miroku
 
@@ -942,6 +976,7 @@ Permitam-me agora expor um raciocínio fascinante. Kannon nasceu do budismo, o q
 # O Paradoxo do Progresso e o Declínio da Humanidade
 
 **Categoria:** mi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu第二篇
+**Título Original:** - | **Status:** -
 
 ## O Paradoxo do Progresso e o Declínio da Humanidade
 
@@ -968,6 +1003,7 @@ Sendo assim, qual o significado exato desse “efeito reverso”? Este livro nas
 # A Sublimidade da Escultura Budista Japonesa
 
 **Categoria:** mi | **Ano:** 昭和27(1952)年4月2日 | **Fonte:** Eikou
+**Título Original:** 三越の春日興福寺宝物展を観て | **Status:** Published
 
 ## A Sublimidade da Escultura Budista Japonesa
 
@@ -998,6 +1034,7 @@ Sempre afirmo que, embora outros gêneros artísticos tenham seu valor, a escult
 # O Deus Invisível se Fez Visível
 
 **Categoria:** mi | **Ano:** 昭和27(1952)年7月30日 | **Fonte:** Eikou
+**Título Original:** 見えざる神は見えた | **Status:** Published
 
 ## O Deus Invisível se Fez Visível
 
@@ -1061,6 +1098,7 @@ Adendo: A manifestação espiritual mencionada no texto foi de um espírito de r
 # A Construção do Mundo de Miroku
 
 **Categoria:** mi | **Ano:** 昭和24(1949)年7月16日 | **Fonte:** -
+**Título Original:** 五六七世界の建設 | **Status:** Published
 
 ## A Construção do Mundo de Miroku
 
@@ -1081,6 +1119,7 @@ Em suma, é nosso dever cultivar a devida postura interior para enfrentar o proc
 # A Edificação do Mundo de Miroku
 
 **Categoria:** mi | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 五六七世界の建設 (再録) 自観叢書12編 | **Status:** Published
 
 ## A Edificação do Mundo de Miroku
 
@@ -1103,6 +1142,7 @@ Em suma, o propósito deste artigo foi tão somente o de delinear a preparação
 # Um Sistema de Avaliação Democrático
 
 **Categoria:** mi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 民主的試験制度 | **Status:** Published
 
 ## Um Sistema de Avaliação Democrático
 
@@ -1127,6 +1167,7 @@ Contudo, afirmo que, por meio desta Arte Médica, isso é perfeitamente possíve
 # A Força Invisível
 
 **Categoria:** mi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 見えざる力 | **Status:** Published
 
 ## A Força Invisível
 
@@ -1159,6 +1200,7 @@ Gostaria de ressaltar mais uma vez que não menosprezo, de modo algum, o poder d
 # A Missão Messiânica e o Advento da Suprarreligião
 
 **Categoria:** mi | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
+**Título Original:** 五六七大祭 | **Status:** Published
 
 ## A Missão Messiânica e o Advento da Suprarreligião
 
@@ -1179,6 +1221,7 @@ Este é o ponto fundamental, e somente através de sua profunda compreensão é 
 # Ashita no Ijutsu
 
 **Categoria:** mi | **Ano:** 昭和18年 | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## Ashita no Ijutsu
 
@@ -1201,6 +1244,7 @@ Finalmente, cumpre acrescentar que esta terapia pode ser praticada por qualquer 
 # A Revelação do Mundo Espiritual
 
 **Categoria:** mi | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 未知の世界 | **Status:** Published
 
 ## A Revelação do Mundo Espiritual
 
@@ -1217,6 +1261,7 @@ Em um futuro muito próximo, porém, o mundo desconhecido se tornará um mundo c
 # A Formação de Doutores em Três Dias
 
 **Categoria:** mi | **Ano:** 昭和28(1953)年10月28日 | **Fonte:** Eikou
+**Título Original:** 三日間で博士が出来る | **Status:** Published
 
 ## A Formação de Doutores em Três Dias
 
@@ -1239,6 +1284,7 @@ Caros leitores, que empreendimento grandioso se descortina diante de nós
 # A Verdade sobre Miroku e a Transição para o Mundo do Dia
 
 **Categoria:** mi | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** ミロクの真相 | **Status:** Published
 
 ## A Verdade sobre Miroku e a Transição para o Mundo do Dia
 
@@ -1264,7 +1310,8 @@ Existem budistas que se mantêm passivos e despreocupados, apegando-se à ideia 
 
 # A Essência da Fé e a Justa Retribuição
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年12月11日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年12月11日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Essência da Fé e a Justa Retribuição
 
@@ -1319,6 +1366,7 @@ Em suma, constitui a verdade que alcança o justo equilíbrio em todas as coisas
 # A Ilusão da Cura Médica e a Realidade da Dívida Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年2月15日） | **Status:** Published
 
 ## A Ilusão da Cura Médica e a Realidade da Dívida Espiritual
 
@@ -1355,6 +1403,7 @@ Atualmente, a sociedade vê com bons olhos o fato de uma religião administrar u
 # A Verdadeira Cura e a Salvação pela Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年3月7日） | **Status:** Published
 
 ## A Verdadeira Cura e a Salvação pela Arte
 
@@ -1393,6 +1442,7 @@ Pois eu irei expor a tigela "Fuji" ao grande público. Perante Deus, monopolizar
 # A Super-Estultícia da Sociedade Moderna
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年9月15日） | **Status:** Published
 
 ## A Super-Estultícia da Sociedade Moderna
 
@@ -1463,6 +1513,7 @@ A origem de todo esse estelionato reside nos espíritos malignos. No Mundo Espir
 # A Luz que Dissipa o Terror Atômico
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西 巡教 御講話 （S29年4月11日） | **Status:** Published
 
 ## A Luz que Dissipa o Terror Atômico
 
@@ -1503,6 +1554,7 @@ Como já disse anteriormente, a região de Chukyo é de extrema importância par
 # O Propósito do Bem e do Mal
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月11日） | **Status:** Published
 
 ## O Propósito do Bem e do Mal
 
@@ -1524,6 +1576,7 @@ A verdade é que o mal desempenhou, até o presente momento, um papel de suma im
 # O Surpreendente Crescimento da Obra Divina e a Limitação do Conhecimento Humano
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月7日） | **Status:** Published
 
 ## O Surpreendente Crescimento da Obra Divina e a Limitação do Conhecimento Humano
 
@@ -1582,6 +1635,7 @@ O mesmo se aplica a todas as áreas. Seja na medicina ou na agricultura, as teor
 # A Soberania Divina e a Missão do Oitavo Salvador
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年4月7日） | **Status:** Published
 
 ## A Soberania Divina e a Missão do Oitavo Salvador
 
@@ -1612,6 +1666,7 @@ Eu pretendia discorrer também sobre as bombas atômica e de hidrogênio, mas de
 # A Retidão e a Beleza Interior
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月16日） | **Status:** Published
 
 ## A Retidão e a Beleza Interior
 
@@ -1652,6 +1707,7 @@ Essa é a razão pela qual afirmo que a Sekaikyuseikyou não é uma religião. N
 # A Natureza do Mal e a Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月16日） | **Status:** Published
 
 ## A Natureza do Mal e a Nova Era
 
@@ -1680,6 +1736,7 @@ Este outro texto, que trata do cinema, acabou por se tornar uma espécie de hist
 # A Realidade da Atuação dos Espíritos Malignos
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月15日） | **Status:** Published
 
 ## A Realidade da Atuação dos Espíritos Malignos
 
@@ -1706,6 +1763,7 @@ Podem observar: em breve, o mesmo ocorrerá com a penicilina e a estreptomicina.
 # Observações sobre o Mundo Pós-Guerra e a Condição do Japão
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月15日） | **Status:** Published
 
 ## Observações sobre o Mundo Pós-Guerra e a Condição do Japão
 
@@ -1752,6 +1810,7 @@ Atualmente, o câncer é uma das maiores aflições nos Estados Unidos, mas sua 
 # A Salvação do Budismo e a Cura das Doenças da Alma
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月7日） | **Status:** Published
 
 ## A Salvação do Budismo e a Cura das Doenças da Alma
 
@@ -1800,6 +1859,7 @@ O tratamento da tuberculose está detalhado no livro "Terapia pela Fé", mas ain
 # O Significado da Luz do Oriente
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月7日） | **Status:** Published
 
 ## O Significado da Luz do Oriente
 
@@ -1830,6 +1890,7 @@ Veja-se o caso das recentes eleições. Nos Estados Unidos, não se fala em “e
 # A Verdadeira Natureza da Doença e o Engano do Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月5日） | **Status:** Published
 
 ## A Verdadeira Natureza da Doença e o Engano do Mundo
 
@@ -1870,6 +1931,7 @@ Foi isso que procurei expressar de forma clara nestes escritos.
 # Sobre a Repurificação e a Expansão da Fé
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年5月15日） | **Status:** Published
 
 ## Sobre a Repurificação e a Expansão da Fé
 
@@ -1920,6 +1982,7 @@ Portanto, a falta de ar mais severa origina-se na lateral do tronco, próximo à
 # A Conduta do Crente e a Salvação pela Verdade
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月6日） | **Status:** Published
 
 ## A Conduta do Crente e a Salvação pela Verdade
 
@@ -1982,6 +2045,7 @@ Embora o tempo seja escasso, gostaria de acrescentar algo que lhes servirá de r
 # O Alvorecer do Mundo e os Perigos da Medicina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月17日） | **Status:** Published
 
 ## O Alvorecer do Mundo e os Perigos da Medicina
 
@@ -2019,7 +2083,8 @@ Agora, lerei um artigo que escrevi de uma forma um pouco mais interessante.
 
 # A Nova Metodologia Terapêutica
 
-**Categoria:** kouwa | **Ano:** 昭和13(1938)年1月26日 | **Fonte:** Gokowa 昭和13
+**Categoria:** kouwa | **Ano:** 昭和13(1938)年1月26日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Nova Metodologia Terapêutica
 
@@ -2034,6 +2099,7 @@ Anteriormente, eu concedia um ideograma caligrafado. Embora, em essência, seu u
 # A Purificação do Japão e o Cenário Político Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月17日） | **Status:** Published
 
 ## A Purificação do Japão e o Cenário Político Mundial
 
@@ -2074,6 +2140,7 @@ Tive a oportunidade de ler as primeiras vinte páginas do manuscrito e o achei m
 # Reflexões sobre o Cenário Político Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年3月5日） | **Status:** Published
 
 ## Reflexões sobre o Cenário Político Mundial
 
@@ -2108,6 +2175,7 @@ Agora, algo que sempre menciono, mas que peço que leiam por ser particularmente
 # O Despertar da Kannon Messiânica e a Religião da Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年5月1日） | **Status:** Published
 
 ## O Despertar da Kannon Messiânica e a Religião da Arte
 
@@ -2152,6 +2220,7 @@ Afinal, quanto mais esperança o ser humano tiver, melhor. Nesse sentido, o Yume
 # O Significado Oculto da Doença e a Missão da Igreja
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年3月5日） | **Status:** Published
 
 ## O Significado Oculto da Doença e a Missão da Igreja
 

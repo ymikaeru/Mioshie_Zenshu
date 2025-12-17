@@ -1,8 +1,989 @@
 # Mioshie_Teachings - Part 65
 
+# Queimaduras decorrentes de radiação atômica curadas pelo Johrei
+
+**Categoria:** ke | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
+**Título Original:** 原子放射能による火傷御浄霊によって癒ゆ | **Status:** Published
+
+## Queimaduras decorrentes de radiação atômica curadas pelo Johrei
+
+*Publicado na revista “Glória”, nº 155, em 7 de maio de 1952.*
+*Grande Igreja Koho, Província de Saga*
+*Hiwatari Zen’emon (46 anos)*
+
+Meishu-Sama, peço-lhe sinceras desculpas pela demora em apresentar este relato. Na condição de vítima da bomba atômica, e embora com palavras simples, venho respeitosamente registrar meu testemunho e expressar minha profunda gratidão. Rogo-lhe que me perdoe.
+
+Fui convocado para o serviço militar em 16 de junho de 1945, sendo incorporado ao antigo Comando da Fortaleza de Nagasaki. Após três semanas de treinamento básico, fui designado, em 9 de julho, juntamente com seis companheiros, para uma unidade agrícola encarregada de cultivar as terras do Monte Inasa. Cinco de nós atravessamos a cidade de Nagasaki para trabalhar em um campo localizado nos fundos de uma antiga bateria de artilharia, um local que, como vim a saber mais tarde, situava-se entre setenta e cem metros do epicentro da explosão. Trabalhávamos com afinco e, às dez e meia da manhã, fizemos uma pausa. Sentamo-nos à sombra de uma árvore, tiramos nossas camisas e descansávamos com o torso nu. De repente, o som de um avião inimigo nos pareceu estranho. No instante em que tentei me levantar, às dez horas e cinquenta e cinco minutos, um som sibilante e peculiar ecoou, e uma chuva de chamas amareladas e esbranquiçadas, do tamanho de favas, desabou sobre nós como uma tempestade de verão. Fui arremessado ao chão e perdi a consciência.
+
+Ao recobrar os sentidos, algum tempo depois, arrastei-me para um abrigo antiaéreo. Olhando para meus companheiros, vi que a pele do rosto, braços, peito, abdômen e costas de quatro de nós se descolava por completo, exalando um odor terrivelmente fétido. Apenas um dos soldados permaneceu ileso. “Com ferimentos assim, em uma semana estaremos curados”, dizíamos uns aos outros para nos encorajar, cerrando os dentes para suportar a provação.
+
+A dor, contudo, intensificava-se a um ponto que transcende qualquer descrição. Sob a ordem do nosso líder de esquadrão de “retornar ao alojamento antes do anoitecer, superando todas as dificuldades”, contornamos as áreas de incêndio, desviando por aqui e por ali, e apressamo-nos em direção ao Monte Inasa, a ponto de quase pisar nos corpos espalhados pelo caminho. Finalmente, às sete e meia da noite, chegamos ao nosso alojamento. Naquele momento, eu ardia em febre e era incapaz de ingerir qualquer alimento. Um frio intenso apossou-se de mim, enquanto as queimaduras ardiam incessantemente. Lá fora, o céu estava rubro, iluminado pelo fogo que consumia a cidade. Por volta da meia-noite, dentro do abrigo, um médico militar começou a nos tratar, mas os medicamentos acabaram após atender apenas ao líder do esquadrão. Nós três tivemos que aguardar o amanhecer sem qualquer cuidado, para então seguirmos ao hospital, já exaustos e com grande dificuldade para caminhar.
+
+Depois de uma longa espera, recebemos tratamento por volta das duas da tarde e retornamos ao quartel-general. A partir de então, fui tratado diariamente na enfermaria, mas a febre não cedia, a garganta doía e eu não conseguia usar as mãos. Meus companheiros precisavam me ajudar a comer o mingau, e o sofrimento físico e mental durante os alertas de ataque aéreo era imenso. Além disso, a troca dos curativos era uma tortura comparável a ter a pele arrancada; ainda hoje, ao recordar, um calafrio percorre meu corpo. No dia 16 de agosto, durante o tratamento, o médico militar me disse: “Não temos mais medicamentos aqui. Vou providenciar sua internação em um hospital”. Naquela mesma tarde, fui admitido. Lá, contudo, não recebi uma única consulta médica; apenas me davam as três refeições diárias. Minhas feridas, que pareciam ter melhorado um pouco no quartel, voltaram a doer. Incapaz de suportar, removi as ataduras e, com o corpo debilitado, passei três dias buscando água para lavar o pus e aplicando compressas frias com uma toalha.
+
+Às duas da manhã do dia 19 de agosto, veio a ordem: “Serão transferidos para Saga. Peguem seus pertences e desçam. Os veículos estão esperando. Rápido!”. Fomos levados à estação de Nagasaki e, às sete da noite do mesmo dia, dei entrada no Hospital do Exército de Saga. Três dias depois, pela primeira vez, consegui segurar um lápis, e a alegria que senti ao poder comer com as duas mãos foi imensa. O tratamento consistia na aplicação de uma pomada branca. Nos jornais, as notícias sobre o poder e o veneno letal da bomba atômica eram publicadas sucessivamente, e eu me preocupava com a quantidade de toxinas que meu corpo havia absorvido. No dia 29 de agosto, após uma avaliação médica, fui encaminhado para terapia em águas termais. Foi ao me olhar no espelho do balneário que me assustei com o quão emagrecido eu estava. Tomava banho duas vezes ao dia, pela manhã e à tarde, e parecia melhorar gradualmente. No entanto, minha cabeça pesava constantemente e, muitas vezes, ao me levantar de súbito, eu desmaiava. Enquanto a maioria das pessoas sofria de diarreia, eu padecia de uma constipação que durava até uma semana.
+
+Após três semanas, recebi alta e voltei para casa, mas minha debilidade física abriu portas para uma nevralgia. Com a chegada do frio, as cicatrizes voltaram a doer. Passei um longo período recorrendo a injeções e acupuntura. Também me esforcei para comer fígado de animais, pois diziam ser bom para aumentar os glóbulos brancos, mas a melhora não vinha. O tempo passou e, em abril e maio do ano seguinte, 1946, as cicatrizes começaram a coçar tanto que eu as feria até sangrar durante a noite.
+
+Certo dia, o senhor Higashijima, de Wakita, falou-me sobre os Ensinamentos, mas, apegado como eu era ao budismo e à medicina, não consegui acreditar. Ocorre que minha esposa também sofria de reumatismo e, ao retornar de uma sessão de acupuntura, ouviu de uma amiga sobre os mesmos Ensinamentos. Conversamos e, por fim, fomos orientados a frequentar a Igreja. Minha esposa foi primeiro e, ao voltar, transmitiu-me os relatos sublimes que ouvira sobre Komyo Nyorai-Sama. Após cerca de uma semana recebendo Johrei, ela relatou uma melhora progressiva. Quando a data da visita do reverendo Kihara foi marcada, o reverendo Inuzuka me incentivou a aproveitar a oportunidade para receber a formação inicial, o que prontamente solicitei.
+
+Vendo a melhora contínua da minha esposa, decidi, ainda que tardiamente, ir à Igreja para ouvir os Ensinamentos. Ali, pude compreender seus fundamentos. Contudo, logo chegou a época de maior trabalho no campo, e eu me dediquei às tarefas, suportando o mal-estar. Justamente no último dia do plantio de arroz, uma dor de cabeça violenta me acometeu, tornando insuportável continuar o trabalho. No dia seguinte, deixei tudo de lado e fui à Igreja. Recebi Johrei e senti um leve alívio, mas a dor retornava assim que eu chegava em casa.
+
+Foi quando me ensinaram que a doença é um processo de purificação. A partir dessa compreensão, tornei-me capaz de suportar um certo grau de sofrimento e decidi solicitar a formação inicial para ingressar na Fé. Durante as aulas, ouvi do reverendo Kihara palavras de imensa elevação, que me fizeram sentir vergonha do meu ceticismo anterior. Ao relatar-lhe minha história, ele disse: “Komyo Nyorai-Sama necessitava de sua vida e, por isso, salvou-o milagrosamente. Você deve Lhe render graças”. Naquele momento, minha cabeça, que se inclinou em reverência, não conseguia mais se erguer. Ele prosseguiu: “Sua doença atual é a segunda purificação. A primeira é como as nuvens; a segunda, como a chuva. Em breve, chegará o tempo em que o céu se abrirá”. Suas palavras encheram meu coração de alegria e coragem. Após dez dias recebendo Johrei, a melhora era diária, até que me senti verdadeiramente bem e apto a me dedicar ao trabalho com vigor.
+
+Desde então, as purificações que tive foram brandas: uma leve coceira no verão e uma pequena sensibilidade no inverno. No final daquele ano, eu já havia recuperado meu porte físico original e, a partir de 1948, não tive mais nenhum sintoma relacionado às queimaduras. Ocasionalmente, recebo purificações como um resfriado ou uma dor de estômago passageira. Já se passaram seis anos desde que ingressei na Fé, e toda a minha família vive sem depender de médicos ou remédios, desfrutando de dias de profunda gratidão.
+
+Meishu-Sama, muito obrigado por salvar a mim, que já não tinha mais vida. Agradeço-lhe do fundo do meu coração. De agora em diante, minha determinação é a de encaminhar o maior número de pessoas, o mais rápido possível, para servir-Lhe na construção do Paraíso Terrestre.
+
+(7 de maio de 1952)
+
+---
+
+# Fobia de Tuberculose (Excerto)
+
+**Categoria:** ke | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 結核恐怖症 〔抄〕 | **Status:** Published
+
+## Fobia de Tuberculose (Excerto)
+
+*Coletânea de Milagres da Sekaikyuseikyou*, publicado em 10 de setembro de 1953
+*Terapia da Fé para a Tuberculose*, publicado em 1º de dezembro de 1952
+
+Província de Osaka, Igreja Shinsei Naka
+Yamamoto Yoshio (32 anos)
+
+Fui um paciente de tuberculose. Ou, mais precisamente, sofria de uma crônica fobia da doença. Digo isso porque, a partir do instante em que os médicos me comunicaram seu taxativo diagnóstico de asma tuberculosa com infiltração em ambos os pulmões, minha mente, até então ingênua, passou a ser assediada unicamente pelo pavor da enfermidade.
+
+Até aquele momento, quer por não dedicar grande interesse ao assunto, quer pela imensa confiança que depositava na medicina, eu não considerava a tuberculose algo tão terrível. Contudo, uma vez recebido o veredito, tudo se tornou excessivamente pessimista. Minhas expectativas eram frustradas uma após a outra e, a cada decepção, o que me restava era um medo ainda maior. A despeito de não haver a mínima transgressão à teoria médica, o prognóstico teimava em seguir o curso inverso. Embora o médico me houvesse prometido, com um sorriso, a recuperação de minha saúde, a gélida realidade de meu corpo, que se esfacelava em sentido contrário à sua promessa, arrastou-me ao mais profundo abismo do desalento. Permitam-me relatar o período de minha lastimável fobia, a árdua batalha de quem desconhecia a Verdade, até o dia em que me foi revelada a real natureza da tuberculose.
+
+Ainda que seja uma história antiga, recordo-me que tudo começou quando eu era um estudante de dezoito anos. Foi nessa época que travei conhecimento com a tuberculose. Meu falecido pai, que Deus o tenha, preocupava-se mais comigo, seu filho único, do que consigo mesmo. Lembro-me com uma clareza que o tempo não apagou da comovente e trágica memória de seus esforços: ele abandonou suas atribuladas ocupações para me levar de um médico a outro, recorrendo a todos os contatos que conhecia na tentativa de me proteger da tuberculose.
+
+Sendo um intelectual com considerável posição social à época, meu pai certamente possuía vasto conhecimento sobre a doença. Naquele tempo, embora a questão não fosse tão propalada quanto hoje, já se falava ruidosamente na prevenção, e ele, sem dúvida, tinha plena consciência do quão terrível era a tuberculose. Justamente por isso, dedicou uma parcela considerável do apertado orçamento familiar ao meu tratamento, empenhando-se em me resguardar da enfermidade.
+
+Assim, na busca pelos melhores e mais modernos recursos, meu corpo foi submetido a exames repetidos e exaustivos, que o investigaram por todos os ângulos. Interrogatório, ausculta, percussão, reação à tuberculina, radioscopia, radiografia, velocidade de hemossedimentação, capacidade pulmonar, entre outros. Em meio a tantos procedimentos incômodos, minha intimidade física foi completamente exposta à ciência médica. A partir de então, seguindo as orientações de meu pai, minha rotina passou a incluir visitas diárias a um sanatório por ele escolhido. As injeções cotidianas jamais me foram agradáveis, mas perseverei por cerca de um ano.
+
+Dessa forma, em meu intelecto, até então praticamente ignorante sobre o assunto, foi martelado à força o conhecimento sobre a tuberculose, desde seus fundamentos. Simultaneamente, foi-me incutido o seu caráter assustador. Dia após dia, meu corpo e minha alma eram corroídos pela fobia da doença. Curiosamente, no entanto, essa fobia parece ter atuado de alguma forma, pois os tratamentos médicos, na medida do possível, surtiram efeito, e a tuberculose primária que havia acometido meu corpo pareceu, por um tempo, recuar. Gradualmente, recuperei o vigor. O médico, radiante, declarou: "Você está curado!". Meu pai e eu compartilhamos imensamente daquela alegria. Se a história terminasse aqui, seria um final feliz, mas há uma continuação. Peço que a escutem.
+
+Nos anos seguintes, recuperei minhas forças progressivamente e pude retomar minha vida normal, como se nada tivesse acontecido. Com o passar dos meses, o passado foi se desvanecendo de minha mente, como um pesadelo. Aparentemente, não havia sequelas, mas algo permaneceu como fruto daquela época de luta contra a doença: a fobia de tuberculose. "A terrível tuberculose", "a pavorosa doença que corrói a carne jovem e sepulta a juventude", "o mal assustador que pode atacar a qualquer momento, em qualquer lugar". Sem que eu percebesse, tornei-me um homem nervoso, com uma pureza doentia, inadequada para a minha idade. Tudo isso nascia do desejo obstinado de nunca mais ser atingido pela temível enfermidade. Fui doutrinado e passei a acreditar que agir dessa maneira era um método eficaz de prevenção e proteção contra a tuberculose.
+
+Passaram-se alguns anos. Meu corpo se manteve livre da doença. A situação do país me levou a ser convocado para o serviço militar, e fui considerado apto com louvor. Mesmo com uma dieta à base de arroz e cevada, consegui servir à pátria com grande dedicação. Contudo, a fobia de tuberculose permanecia intacta. Tendo se tornado um hábito, eu me sentia confiante e, mesmo sem uma atenção especial, parecia adotar inconscientemente medidas preventivas.
+
+Todavia, apesar de todo o meu zelo, vi-me diante de um fato avassalador que abalou minhas convicções pela raiz. Após um ano de vida militar, quando nada parecia errado, uma nova realidade surgiu em meu corpo. Em um dia de verão escaldante, sentindo-me indisposto devido a uma noite de insônia e ao rigor do treinamento, solicitei dispensa para ser avaliado pelo médico militar. Sem prever nada grave, pensei que fosse apenas cansaço. A expressão do médico, porém, era sugestiva, e ele ordenou uma radiografia. Com um pressentimento funesto, segui suas instruções e fui examinado no hospital militar. O resultado, tal como minha intuição indicava, foi uma ordem de internação que me lançou no desespero. Tentei refletir sobre aquele desfecho inesperado, mas minha mente parecia paralisada; sentia-me apenas atordoado. Entregue aos cuidados dos que me cercavam, sem compreender o que se passava, só tomei consciência de mim mesmo quando tudo já estava consumado: eu estava deitado em uma cama, vestindo um pijama branco de hospital.
+
+Era uma recidiva. Sim, a tuberculose que eu acreditava ter sido extirpada de meu corpo estivera, na verdade, latente por um longo tempo, aguardando uma nova oportunidade para me assaltar.
+
+O que se seguiu, não preciso detalhar. Seria repetir o mesmo ciclo infindável: repouso, injeções, medicamentos, nutrição, exames... uma sucessão de procedimentos enfadonhos. Minha juventude e minhas esperanças foram esmagadas. Meu corpo estava impregnado de um cheiro melancólico de remédios do qual não conseguia me livrar. Encontrava-me em um estado de resignação, apenas esperando que a hora do céu chegasse. No entanto, não posso negar que, por trás dessa resignação, havia outra parte de mim, um anseio contraditório e complexo que suplicava, que desejava, que buscava algo mais. Mas a realidade era, literalmente, a de um cadáver ambulante.
+
+Depois de uns dois anos de uma condição que oscilava entre melhoras e pioras, fui dispensado do serviço militar e recebi alta. Com uma aparência fantasmagórica, retornei para casa e deitei-me no leito que deveria ser acolhedor, mas meus dias seguiram-se em angústia, com um espírito sombrio e oprimido. O que seria de mim? O que eu deveria fazer? O que havia acontecido com minha saúde? Eu agonizava em sofrimento. Meu pai, que antes compartilhara de minhas preocupações e em quem eu me apoiava como um pilar, já havia falecido. Minha mãe, ao me receber com meus nervos à flor da pele, apenas se desesperava. Era uma tragédia completa.
+
+Para meu horror, a fobia de tuberculose se intensificou. Uma teimosia doentia, que não fazia parte de minha natureza, e uma personalidade fria foram forjadas sobre a base desse pavor. As orientações dos médicos, as diretrizes dos livros, os conselhos de outros pacientes, o senso comum, os alertas nos jornais e no rádio, a publicidade dos medicamentos, tudo, em uníssono, me empurrava cada vez mais para o terror da tuberculose. O caminho que eu trilhava era o caminho do inferno.
+
+Finalmente, tive uma hemoptise maciça. Minha alma foi tomada por uma violenta comoção, mas foi nesse momento que algo se manifestou com grande força em meu íntimo: o despertar do instinto. Quando tudo parece perdido, resta um único caminho, uma via que qualquer pessoa pode escolher a qualquer momento, e para a qual todos devem se dirigir quando esgotam todas as suas possibilidades. Para mim, essa foi a última carta que me foi concedida.
+
+Era o caminho da Verdade, o caminho para a Luz. Com receio, pronunciei o nome de Deus. Soou estranho e desajeitado, mas eu estava desesperado. Senti profundamente que a única forma de resolver a fobia de tuberculose, cultivada por mais de uma década, era me agarrar ao poder de Deus.
+
+Que ironia. Uma ironia suprema. A medicina, que deveria ser a principal solução para a tuberculose, apenas me proporcionou um medo ainda maior da doença. As diversas diretrizes, orientações e advertências, que deveriam curar-me, serviram apenas para me incutir mais terror, sem qualquer benefício. E essa fobia, assim criada, gerava mais tuberculose e alimentava a si mesma. Que ciclo terrível! E pensar que a chave para a solução está em Deus... Ah, o que mais posso dizer?
+
+Deus não me desamparou, e eu fui salvo. Fui acolhido como membro da Sekaikyuseikyou e, passados cinco anos, recebi a dádiva de um corpo verdadeiramente saudável e radiante. Evidentemente, a fobia de tuberculose se dissipou como a névoa, e o que restou dela não passa de um motivo para rir. Agora, tudo o que posso fazer é sorrir de mim mesmo.
+
+Chegando a este ponto da narrativa, posso finalmente respirar aliviado.
+
+Hino
+
+Vós que vagais na escuridão profunda,
+Sem cajado que vos guie o passo,
+Vinde e buscai a Terra da Luz.
+
+A jornada de um mundo de falsidades para um mundo de Verdade, através de inúmeros percalços, foi para mim uma valiosa experiência. A proteção Divina, que só conheci ao me apegar à Grande Misericórdia de Meishu-Sama, lavou e purificou por completo as máculas e impurezas da mentira que manchavam minha alma. E foi então que toda a Verdade me foi ensinada.
+
+Desejo bradar aos quatro ventos: se a arte médica não estiver alicerçada na fé, é impossível libertar-se do pavor da tuberculose. Enquanto se temer a doença, será absolutamente impossível curá-la. Somente aqueles a quem a Verdade foi revelada podem alcançar a saúde plena.
+
+Sinto uma dor profunda ao pensar nos incontáveis pacientes de tuberculose, dezenas de milhares, milhões, que ainda hoje, desconhecendo o mundo ilusório em que vivem, alimentam sonhos vãos. Ah, encerro esta retrospectiva rogando para que, o mais breve possível, chegue o dia em que eles despertem para a Verdade.
+
+Ao concluir, expresso minha mais profunda gratidão a Meishu-Sama. Finalizo este manuscrito com a esperança de que minhas memórias possam, de alguma forma, ser úteis aos meus companheiros que partilham da mesma doença e da mesma angústia.
+
+(1º de julho de 1950)
+
+---
+
+# Salva do Inferno da Tuberculose e da Fé (Hoje, resgatada da tuberculose e do inferno da fé, desfruto de uma vida paradisíaca)
+
+**Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核地獄と信仰地獄より救われて 〔結核と信仰地獄今は救われ天国生活〕 | **Status:** Published
+
+## Salva do Inferno da Tuberculose e da Fé (Hoje, resgatada da tuberculose e do inferno da fé, desfruto de uma vida paradisíaca)
+
+Sinto, com profunda convicção, que os versos sagrados "Que temor me assola ao recordar / Meu vaguear por sendas escuras, sem amparo" descortinam com exatidão o nosso passado.
+
+Ao refletir, recordo que nossa família, por longos anos, padeceu sob o jugo de uma afecção pulmonar e se debatia no que denomino um inferno da fé. Foi então que, de forma inesperada, fomos agraciados com o sublime poder de Meishu-Sama, o que nos permitiu, hoje, viver em um estado de gratidão diária. É com o propósito de expressar minha gratidão e relatar este fato que, ainda que por meio de uma escrita singela, tomo a liberdade de redigir estas linhas.
+
+Jamais me esquecerei do outono de 1946, quando, em virtude de um pequeno excesso de esforço, comecei a sentir febre e dores no peito. Naquela época, meu primeiro marido já se encontrava acamado há três anos, vitimado pela tuberculose intestinal. Havíamos tentado de tudo, mas ele definhava, reduzido a pele e ossos. Em meio ao desespero e após inúmeras hesitações, buscando uma forma de salvá-lo, passamos a devotar nossa fé a uma Divindade-Dragão. Graças a essa fé, ele chegou a se recuperar a ponto de poder trabalhar, o que levou toda a família a abraçar fervorosamente essa crença. Contudo, o alívio foi breve, pois meu marido adoeceu novamente, retornando ao leito. Apesar de nossas preces fervorosas, seu estado se agravou a tal ponto que precisou ser internado no hospital da cooperativa médica da cidade de Omagari. Continuamos a crer com todas as nossas forças, na esperança de salvá-lo, mas em janeiro de 1948, tivemos de enfrentar o infortúnio de seu falecimento.
+
+Eu me esforçava para aceitar o ocorrido como destino ou carma, tentando convencer a mim mesma de que essa resignação era uma forma de dignidade para quem possuía fé. Todavia, em maio do mesmo ano, a mãe de meu esposo também foi diagnosticada com pleurisia e, a despeito de nossas súplicas ardentes, veio a falecer. O esgotamento causado pelos cuidados com os doentes e pelas práticas religiosas, somado a este novo choque, debilitou meu corpo de forma irreversível, e logo também eu fui forçada a me acamar. Como se não bastasse, minha filha mais velha, Tomoko, com catorze anos, foi diagnosticada na escola com tuberculose pulmonar e recebeu ordens de repouso absoluto. A situação chegou ao ponto de termos de nos deitar lado a lado, mãe e filha, compartilhando o mesmo leito de dor. Era, em sua essência, o próprio inferno na Terra. Apesar de nossa devoção, havíamos perdido meu marido e minha sogra, e agora, eu e minha filha, acometidas pela mesma enfermidade, parecíamos destinadas a trilhar o mesmo caminho. Diante de tal quadro, é natural que surgisse em mim a dúvida torturante sobre a existência de Deus ou de qualquer poder superior. Ao perder o alicerce espiritual que me sustentava, minha condição de saúde deteriorou-se ainda mais, até que os médicos me deram uma sentença de morte.
+
+Foi precisamente nessa época que a senhora Toyama, que outrora compartilhara da mesma crença que eu, veio me visitar. Seu semblante, entretanto, estava tão radiante que mal a reconheci. Ela me explicou que nossa fé anterior não era a correta, falou-me sobre Meishu-Sama e ministrou-me Johrei. Imediatamente, senti um alívio no corpo que tanto me atormentava. Ouvir suas palavras enquanto contemplava seu rosto transformado e iluminado concedeu-me esperança e uma luz em meio ao meu profundo desespero.
+
+No dia 3 de agosto de 1948, por ocasião da visita do Reverendo Ministro à região de Akita, tive a permissão de ingressar na fé. Na cerimônia de outorga, uma frase proferida por ele gravou-se em minha alma: "Salvar o próximo é salvar a si mesmo". Naquele instante, compreendi quão equivocada havia sido minha fé anterior e percebi, com clareza, que, sem me dar conta, eu estivera a definhar em um verdadeiro inferno espiritual.
+
+É curioso notar que, a partir do momento em que recebi a Medalha da Luz, senti minhas forças retornarem e consegui me levantar. Desde então, mesmo que meu corpo fraquejasse, dediquei-me com fervor a transmitir este Ensinamento sublime a tantas pessoas quanto possível, desejando que também elas encontrassem a verdadeira felicidade. Assim, eu conversava e ministrava Johrei. E à medida que eu encaminhava três, cinco, dez pessoas à fé, sentia meu próprio corpo tornar-se mais leve. Ademais, quando recebi o Ensinamento de que a doença é um processo de purificação das toxinas do corpo, que alívio imenso senti em meu coração! A certeza de poder me amparar em um Deus de poder absoluto, cuja doutrina e cujas graças se manifestam em perfeita harmonia em todos os aspectos da vida, é uma força indescritível, que transcende palavras.
+
+Posteriormente, a cada pessoa que eu tinha a permissão de salvar, tanto minha filha quanto eu nos recuperávamos, até que alcançamos a saúde plena. Hoje, graças ao Reverendo Ministro, tive a permissão de me mudar da província de Akita para Atami, para viver aos pés de Meishu-Sama. Aqui, toda a minha família, imersa em uma vida de júbilo, se esforça, ainda que modestamente, para transmitir o "Evangelho do Paraíso" a toda a humanidade. Compreendo que este é o caminho natural da gratidão para alguém cuja vida preciosa foi salva.
+
+Meishu-Sama, muito, muito obrigada.
+
+---
+
+# Salva da Dermatite Tuberculosa e da Infiltração Pulmonar
+
+**Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核性皮膚炎と肺浸潤を救われて | **Status:** Published
+
+## Salva da Dermatite Tuberculosa e da Infiltração Pulmonar
+
+**Coleção de Artigos do Mestre Jikan Okada**
+Pesquisa de Ensinamentos | Relatos de Graça | Pesquisa de Materiais
+
+*Da obra "A Terapia Revolucionária da Tuberculose", publicada em 15 de agosto de 1951*
+*Da obra "Terapêutica da Fé para a Tuberculose", publicada em 1º de dezembro de 1952*
+
+**Asako Uemoto (53 anos)**
+**Igreja Shumei-Naka, Hyogo**
+
+Em abril de 1949, surgiram-me em ambas as pernas diversos nódulos do tamanho de um polegar. Eram dolorosos ao toque, mas, como não apresentavam outros transtornos, optei por não lhes dar atenção. Contudo, um dos nódulos na perna direita tornou-se avermelhado, inchou consideravelmente e passou a emanar calor. Procurei um médico das redondezas, que, suspeitando de um quadro de erisipela, administrou-me duas injeções de penicilina, as quais não surtiram efeito algum. Meus familiares, apreensivos por se tratar de algo indefinido, insistiram que deveria ser uma enfermidade grave, o que me deixou igualmente inquieta. Decidi, então, buscar um dermatologista em Osaka, onde recebi o diagnóstico de eritema endurecido de Bazin, uma manifestação de natureza tuberculosa. O médico aventou a possibilidade de haver também alguma anomalia no tórax e, de fato, a radiografia revelou uma infiltração no pulmão esquerdo.
+
+Iniciou-se, assim, um tratamento que consistia em pneumotórax para o pulmão e sessões de radioterapia para as pernas. Apesar de não sentir dores agudas, continuei a trabalhar, mas meu estado se agravava progressivamente. O inchaço nas pernas piorou, os nódulos cresceram e a área avermelhada acabou por se romper, formando uma úlcera. Em julho, o inchaço tornou-se tão severo que a panturrilha e o tornozelo adquiriram a mesma espessura. A úlcera expandiu-se e, para piorar, a pomada que me foi prescrita provocou uma reação alérgica, cobrindo a pele ao redor com bolhas e causando uma coceira insuportável. O médico da Universidade de Osaka advertiu-me de que o deslocamento diário de Itami até Osaka era imprudente. Recomendou-me repouso absoluto, com a perna elevada sobre almofadas, e que eu prosseguisse o tratamento com um profissional mais próximo.
+
+Como o hospital local não dispunha de equipamento de radioterapia, submeteram-me a aplicações de raios ultravioleta, enquanto eu continuava com o pneumotórax. Decidi afastar-me do trabalho por dois meses, agosto e setembro, dedicando-me inteiramente ao repouso. No final de setembro, a úlcera finalmente cicatrizou, mas os demais nódulos e o inchaço persistiam inalterados. Em outubro, em decorrência do pneumotórax, desenvolvi uma pleurisia exsudativa. A febre oscilava entre 38 e 39 graus, e acabei prostrada, incapaz de me mover. Meu apetite, que já vinha diminuindo desde julho, desapareceu por completo, e emagreci a ponto de ficar irreconhecível. Minha mãe, temendo por minha vida, cuidou de mim com uma dedicação extrema, e por volta de março de 1950, consegui finalmente sentar-me no leito.
+
+Nesse ínterim, foi minha mãe quem adoeceu. Acometida por algo semelhante a um derrame, perdeu os movimentos do corpo. Eu, por minha vez, continuava sem apetite e, para meu desespero, apesar de não forçar as pernas, novos nódulos começaram a surgir. Senti-me mergulhar em densas trevas. O médico sugeriu o uso de estreptomicina, mas não tínhamos recursos para tal tratamento. Com minha mãe acamada, eu, ainda fragilizada, tinha de arcar com todas as tarefas, temendo a cada instante que uma nova doença tuberculosa se manifestasse. A ansiedade e o desespero se tornaram insuportáveis.
+
+Foi precisamente nessa época que uma vizinha me falou sobre um ministro de nossa religião que estaria na região e me convidou a conhecê-lo. Foi assim que tive meu primeiro encontro com o Reverendo Koyama. Ouvi suas explanações, mas, a princípio, não consegui acreditar em nada do que dizia. Todavia, o anseio pela cura e o pavor de falecer antes de minha mãe eram avassaladores. Com o sentimento de quem se agarra a um fio de esperança, decidi-me a receber Johrei.
+
+Na noite em que o Reverendo Koyama me ministrou Johrei pela primeira vez, despertei duas vezes com uma sensação de formigamento, como uma corrente elétrica, que percorria meu pé a partir do dedo polegar. Percebi, então, que algo extraordinário estava ocorrendo. A partir daquele dia, o Reverendo Okada passou a ministrar-me Johrei assiduamente. Embora eu permanecesse em um estado de semi-incredulidade, fui gradualmente compreendendo que a doença é a manifestação do poder de purificação natural do ser humano e, portanto, uma bênção Divina. Senti com clareza em meu coração que seria um equívoco esperar a cura completa para ingressar na Fé. Abandonei, assim, a fé cega que depositava nos médicos e medicamentos, numa conversão de cento e oitenta graus, e no dia 17 de maio recebi a outorga da Medalha Sagrada. Desde então, tenho me dedicado a Deus com devoção e entrega.
+
+Cerca de dez dias após começar a receber Johrei, meu apetite e minha vitalidade retornaram de forma notável. E, mesmo sendo uma membro recente, Deus concedeu-me o Seu poder. Ministrei Johrei a uma vizinha que sofria de insônia, e ela pôde dormir profundamente após uma única sessão. Ao ministrar Johrei em minha mãe, ela teve uma manifestação espiritual, e compreendemos tratar-se da atuação de um espírito de raposa e de um espírito ancestral. Seu quadro de paralisia também melhorou progressivamente: passou a conseguir segurar os hashis, sua fala tornou-se mais clara e já podia ir ao banheiro sem auxílio.
+
+Em julho, o inchaço em minhas pernas desapareceu por completo, e os nódulos se desfizeram, tudo isso enquanto eu continuava a usar as pernas normalmente. Foi uma graça tão assombrosa que me faltam palavras para expressar minha gratidão a Deus. Em agosto, um rigoroso exame médico para o meu trabalho confirmou que a infiltração pulmonar havia melhorado consideravelmente. Meus dias transbordavam de gratidão. Fui abençoada também no aspecto financeiro e, em outubro, pude entronizar a Imagem da Luz Divina em meu lar. Nesse período, recebi graças indescritíveis, que me permitiram constatar vividamente o grandioso poder de Deus. Agradeço do fundo do coração a Meishu-Sama.
+
+No dia 21 de dezembro, tive uma nova purificação. A febre diária subia para 38 ou 39 graus, acompanhada de tosse intensa e grande quantidade de expectoração. As noites eram em claro, o apetite nulo, e eu fui debilitando-me a olhos vistos. Contudo, recebi Johrei do Reverendo Okada com um desvelo que transcende o cuidado familiar e, no primeiro dia do ano de 1951, já pude levantar-me. Meus familiares temiam uma recaída fatal, mas eu me apegava firmemente a Deus. Sentia que meu corpo e minha alma pertenciam a Ele, e agradecia por aquela nova purificação com imensa reverência.
+
+E, de fato, por volta de 10 de janeiro, meu apetite retornou de forma súbita. Surpreendia-me com o sabor delicioso de tudo o que comia e ganhei peso rapidamente. Antes da doença, meu peso era de aproximadamente 48 quilos; recentemente, ultrapassei os 54. Não sinto mais cansaço, e os nódulos e o inchaço que costumavam aparecer anualmente por volta de março não se manifestaram este ano. Sei que fui curada em minha essência. Vivo meus dias com alegria, gratidão e um profundo sentimento de ser imerecedora de tantas dádivas. Diante desta sublime proteção Divina, meu maior anseio é poder salvar o maior número possível de pessoas, como forma de retribuir uma ínfima parcela da imensa graça recebida, e assim, colaborar, ainda que modestamente, para a construção do Paraíso Terrestre.
+
+Meishu-Sama, muito obrigada.
+
+---
+
+# Cura Súbita da Tuberculose e a Graça de Ter um Filho
+
+**Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核忽ち治癒子宝まで授かる | **Status:** Published
+
+## Cura Súbita da Tuberculose e a Graça de Ter um Filho
+
+Publicado em "A Terapia Revolucionária da Tuberculose", 15 de agosto de 1951
+Publicado em "A Terapia da Fé para a Tuberculose", 1 de dezembro de 1952
+Yoko Takamiya (31 anos) - Igreja Haleluya [Hosho] Naka, Tóquio
+
+Eu, que jamais havia adoecido, vi a alegria pela minha formatura no conservatório de música, em 1942, ser efêmera. Pouco tempo depois, fui diagnosticada com catarro pulmonar no pulmão direito e derrame pleural no esquerdo. Mergulhei em profundo desalento. Com o anseio de me restabelecer o mais rápido possível, segui à risca as recomendações de três médicos: medicamentos, injeções, nutrição e repouso absoluto.
+
+Contudo, minha condição alternava entre breves melhoras e recaídas, e fui definhando gradualmente. Após dois anos, até os próprios médicos demonstravam perplexidade com meu caso. Conformada com a ideia de que a plenitude da minha juventude se esvairia em um leito, passei a me considerar a pessoa mais desafortunada do mundo. Minha natureza, antes otimista, tornou-se amarga, e eu já não conseguia enxergar senão o lado sombrio de todas as coisas. Foi nesse período que me apresentaram a Sekaikyuseikyou, mas recusei-me a dar ouvidos, desdenhando-a por completo com o pensamento de que não passava de uma superstição.
+
+Todavia, minha mãe, em seu desejo fervoroso de me ver curada, recebeu o Omamori em meu lugar. Ainda assim, persisti em minha obstinada oposição. Com a chegada do calor, porém, meu sofrimento tornou-se tão insuportável que, por fim, aceitei receber Johrei a título de experiência. Para minha surpresa, senti um bem-estar imediato. Embora ainda cética, fui levada à sede da Igreja de Tamagawa Naka e, em menos de uma semana, estava completamente restabelecida. Diante de tal evidência, até mesmo minha teimosia cedeu, e não tive outra escolha senão crer na graça absoluta do Ohikari.
+
+O resultado dos exames realizados na Universidade Imperial de Tóquio confirmou uma recuperação tão extraordinária que deixou atônito o doutor em medicina que me acompanhava. As manchas em minhas radiografias haviam desaparecido por completo. Posteriormente, mesmo durante os tempos difíceis dos bombardeios aéreos e do pós-guerra, mantive-me com uma vitalidade excepcional, a ponto de conseguir sair para fazer compras sem qualquer dificuldade.
+
+Nos seis anos que se seguiram, à medida que eu ministrava Johrei em meus familiares e conhecidos, minha fé se aprofundava a cada experiência. As preocupações com doenças desapareceram de nosso lar, que se encheu de luz e alegria. Vivemos dias que poderiam ser descritos como o Paraíso Terrestre isento de doença, pobreza e conflito, exatamente como Meishu-Sama nos ensina.
+
+Casei-me tempos depois. Segundo a medicina, uma mulher com meu histórico clínico deveria ter inúmeros cuidados durante a gestação, vivendo sob a constante ameaça de uma recidiva da doença. No entanto, no ano passado, fui abençoada com um menino robusto, de 3.562 gramas, sem sentir o menor traço de apreensão. Ademais, apesar de ser minha primeira gestação e de eu já ter passado dos trinta anos, o parto foi tão tranquilo que surpreendeu a parteira. Desde então, meu filho não teve um único problema de saúde e seu desenvolvimento supera em muito a média. Para o espanto de todos, ele já dá sinais de que andará antes mesmo de completar seu primeiro ano.
+
+Sou profunda e imensamente grata, pois sei que tudo isso se deve unicamente à sagrada proteção de Komyoniorai-Sama. Meu anseio, dia e noite, é que o maior número possível de pessoas possa conhecer estes sagrados Ensinamentos e este Poder Divino.
+
+---
+
+# Salvo da tuberculose, surpreendendo até mesmo os médicos
+
+**Categoria:** ke | **Ano:** 昭和29(1954)年3月10日 | **Fonte:** Eikou
+**Título Original:** 結核をお救い頂き医師も驚く | **Status:** Published
+
+## Salvo da tuberculose, surpreendendo até mesmo os médicos
+**Revista Glória, nº 251, publicada em 10 de março de 1954**
+**Kanagawa, Igreja Nakanihon**
+**Oikawa Haruji (39 anos)**
+
+Meishu-Sama, sou imensamente grato por Vossa constante Proteção Divina. Ainda que tardiamente, gostaria de relatar a graça da purificação de minha infiltração pulmonar e os motivos que me conduziram à Fé.
+
+Refletindo sobre o passado, tudo começou em 15 de setembro de 1950, quando, ao buscar emprego em uma base naval (o antigo Arsenal da Marinha), uma radiografia revelou uma infiltração em meu pulmão esquerdo. O diagnóstico do posto de saúde municipal de Yokosuka foi de que a condição era maligna, pois a lesão se estendia em direção ao hilo pulmonar, sendo-me recomendado o tratamento por pneumotórax. Embora relutante, fui informado de que poderia retornar ao trabalho após seis meses de tratamento, motivo pelo qual iniciei o procedimento em 11 de janeiro de 1951.
+
+No primeiro mês, o tratamento era realizado duas vezes por semana, passando a uma vez por semana a partir do segundo. Contudo, após cerca de dois meses em repouso absoluto, perdi completamente o apetite, sentia o corpo letárgico, meu semblante se abateu e perdi toda a vitalidade. Cheguei a pensar que meu fim estava próximo. Em março, meus filhos contraíram sarampo e coqueluche, o que me deixou extremamente preocupado. Todavia, a necessidade de cuidar deles me obrigou a movimentar-me aos poucos e, para minha surpresa, o apetite retornou e o sabor dos alimentos se tornou aprazível. A partir de então, decidi por conta própria abandonar o repouso médico e passei a ajudar nas tarefas domésticas, com o intuito de movimentar o corpo e recuperar minhas forças.
+
+Quando os tão esperados seis meses se completaram, perguntei ao médico: "Doutor, já posso voltar a trabalhar?". Sua resposta, porém, foi desoladora: "Senhor Oikawa, o tratamento causou uma aderência na parte inferior de seu pulmão. Será necessária uma cirurgia". Indignado, questionei: "Mas, doutor, isso contraria o que havíamos combinado! A promessa de que eu poderia trabalhar em seis meses era uma inverdade?". Ele retrucou: "Não seja insensato. Atualmente, o pneumotórax é o melhor tratamento disponível para a tuberculose". Insisti: "Mas este tratamento eliminará completamente a infiltração?". Sua explicação foi que o procedimento apenas "contrai a lesão para evitar que as bactérias se espalhem". Diante disso, resignado e encarando a situação como uma provação celestial, continuei o tratamento para preservar a vida, enquanto trabalhava modestamente.
+
+Por volta de outubro de 1952, um colega de trabalho, o senhor Ota, falou-me a respeito deste Caminho. No entanto, a história parecia tão extraordinária que não a levei a sério. Persistente, ele me emprestou exemplares do jornal "Glória" e o livro "Terapia da Fé para a Tuberculose", convidando-me a visitar a Igreja. Confesso, com certa vergonha ao recordar, que fui receoso, temendo ser pressionado a me filiar. Acompanhado pelo senhor Ota, em 11 de fevereiro de 1953, visitei a Sede de Zushi da Igreja Nakanihon, onde recebi Johrei do Ministro Responsável, Reverendo Taguchi, e ouvi diversas explanações sobre os Ensinamentos. As palavras sobre a importância de reverenciar os antepassados e sobre a verdadeira causa das doenças fizeram com que eu começasse a crer. A partir de então, passei a receber Johrei do senhor Ota cerca de três vezes por semana e a frequentar a Igreja semanalmente para o mesmo fim.
+
+Após três meses recebendo Johrei, realizei uma radiografia no Hospital Nacional. O médico, ao ver o resultado, perguntou: "O senhor fez este exame para fins de admissão em algum emprego?". Respondi: "Fiz tratamento de pneumotórax por dois anos, mas o interrompi nos últimos três meses e vim verificar minha condição". O médico, perplexo, comentou: "Hmm... É uma melhora espantosa. Que tipo de terapia o senhor seguiu?". "Recebi Johrei na Sekaikyuseikyou", expliquei. Ele então recomendou: "Por precaução, vá ao Hospital Kyosaikai e faça uma tomografia". Levei os novos exames ao médico que havia realizado o pneumotórax e relatei-lhe sobre o Caminho. Sua reação foi de incredulidade: "Melhorou tanto em apenas três meses? Por favor, não saia por aí dizendo que a Sekaikyuseikyou cura doenças. Volte para uma consulta por volta de outubro, se por acaso pegar um resfriado". Retruquei com convicção: "Doutor, não me importa se é religião ou qualquer outra coisa; se me concede a cura, eu creio. Ademais, ao recebermos o Ohikari da Sekaikyuseikyou, é-nos outorgado um poder maravilhoso, capaz de curar não apenas nossas enfermidades, mas também as de outras pessoas". Ele apenas murmurou um "Ah..." e ficou a me fitar.
+
+Em 23 de maio de 1953, na Sede de Zushi da Igreja Nakanihon, após receber a devida formação com o Ministro Responsável, Reverendo Taguchi, tive a honra de receber o Ohikari. No dia 5 de julho do mesmo ano, foi-me concedida a permissão para realizar a dedicação em Hakone, onde pude servir por um mês, concluindo a missão em segurança. Por tudo isso, minha gratidão a Meishu-Sama é imensurável. Peço perdão por minha caligrafia rudimentar ao expressar, por meio destas linhas, meu agradecimento por tão grandiosa Proteção Divina.
+
+---
+
+# A Derrota da Medicina Moderna (A Salvação de uma Enfermidade Pulmonar Considerada Incurável)
+
+**Categoria:** ke | **Ano:** 昭和28(1953)年9月16日 | **Fonte:** Eikou
+**Título Original:** 現代医学の敗北不治の肺病救わる | **Status:** Published
+
+## A Derrota da Medicina Moderna (A Salvação de uma Enfermidade Pulmonar Considerada Incurável)
+Publicado na revista Eikou, nº 240, em 16 de setembro de 1953
+Matsuo Kenzo (25 anos)
+Igreja Kohou – Fukuoka
+
+Tive a permissão de ingressar na Fé em 5 de janeiro do ano passado. Ao refletir sobre o ano que se completou desde então, sou tomado por um sentimento de imensa gratidão pelas inúmeras proteções divinas que recebi, a despeito de meu corpo repleto de máculas. É com profundo respeito que apresento este relato como forma de agradecimento.
+
+Em agosto de 1948, recebi de um médico o diagnóstico de "infiltração no pulmão esquerdo", com a recomendação de repouso e tratamento por pneumotórax por três meses. Contudo, meu corpo era a própria imagem da saúde. Até a véspera do diagnóstico, eu participara ativamente do campeonato de beisebol da empresa e me dedicava a toda sorte de esportes. Encarei a situação com leviandade, pensando que, após três meses de descanso, poderia retornar plenamente às minhas atividades esportivas. Estava convicto de que, nesse ínterim, o próprio médico se daria conta de seu equívoco no diagnóstico. Todavia, como precisaria me ausentar do trabalho, vi-me obrigado a seguir as prescrições médicas e submeter-me ao pneumotórax e às injeções. Após quatro ou cinco dias, realizei a primeira sessão. E qual não foi minha surpresa? Meu corpo, que até então nada sentia, e meu peito, agora sofriam. A respiração tornou-se difícil e dolorosa. É indescritível o que senti; foi naquele exato momento que me tornei, de fato, um doente de tuberculose. Hoje, por ter recebido a permissão de ingressar na Fé, compreendo o erro crasso da medicina. Naquela época, porém, sem sequer cogitar questionar, segui cegamente as orientações médicas, avançando por um caminho de equívocos.
+
+E assim, entre a vigésima e a trigésima sessão, desenvolvi uma dependência do procedimento; passei a sentir-me mal se não o realizasse, convicto de que apenas o pneumotórax me traria a cura. Cheguei ao ponto de, mesmo o médico indicando uma sessão a cada duas semanas, eu insistir em recebê-la semanalmente. Consequentemente, uma radiografia revelou que meu pulmão esquerdo havia encolhido ao tamanho de um punho. O médico, orgulhoso, chamava aquilo de "pneumotórax completo" e dizia aos outros pacientes: "Se vocês também atingissem este nível de perfeição, a recuperação seria mais rápida". Na ocasião, ouvir aquilo me encheu de satisfação. Hoje, ao recordar, sinto um arrepio na pele, uma sensação que está longe de ser cômica. Após cerca de dez meses, retornei ao trabalho. Contudo, com a chegada do calor, perdi completamente o apetite, passei a ter febre baixa e fui forçado a retroceder a uma vida de repouso.
+
+Que condição lastimável a minha! Enquanto pessoas saudáveis desfrutavam do mar e das montanhas, caminhando despreocupadas pelas ruas, eu passava as noites em claro, mergulhado em angústia. Quando questionei o médico, lembrando que sua previsão inicial fora de três meses e já se passara um ano, ele me deu uma resposta evasiva e displicente: "Não é nada grave, é apenas seu estado nervoso". Senti-me completamente desamparado. A partir de então, decidi não depender apenas da medicina e busquei auxílio na fé, visitando templos de Inari, a Tenrikyo e a Seicho-no-Ie. Ocorre que estudei em um colégio de orientação cristã, onde, mesmo durante as aulas sobre a Bíblia, jamais consegui crer nos diversos milagres de Cristo. Para mim, não passavam de contos de fadas, como as histórias de Urashima Taro ou Momotaro, dignas apenas de um sorriso de desdém. Por essa razão, todas as minhas incursões espirituais me pareciam ridículas, e concluí que não havia alternativa senão confiar novamente nos médicos e nos remédios. Determinado a, desta vez, me dedicar a um tratamento rigoroso, em agosto de 1949 dei entrada no Sanatório Yagatahara.
+
+Passei um ano internado. Durante todo esse tempo, minha temperatura matinal era de 37 graus, com o pulso a cem batimentos por minuto. Apesar disso, o diretor e outros dois médicos afirmavam em uníssono: "Como não houve alteração em um ano, não há motivo para preocupação". No momento de minha alta, chegaram a fazer uma declaração categórica: "Se você não se curar, será a derrota da medicina moderna. Se você não melhorar, ninguém mais com tuberculose o fará". A alegria da recuperação, contudo, foi efêmera. Seis meses depois, recebi o estigma de um novo diagnóstico: cárie vertebral. Meus dias se tornaram um tormento de angústia, amaldiçoando os céus e meu destino. Diante disso, perdi toda a esperança nos médicos. Passei a viver recluso e solitário, pensando que, se estivesse destinado a viver, viveria; se não, seria o meu fim. Abandonei completamente os tratamentos. Foi nesse período que a mãe de um amigo me visitou, acompanhada por um praticante da religião Mitakekyo. Embora cético, acedi ao seu conselho de que "sua doença melhorará com as preces" e pedi que realizasse uma oração.
+
+Passados pouco mais de três meses, sentindo uma leve melhora, o praticante retornou e me convidou: "Venha ao Monte Homan. Se passar uma noite em oração no cume, se sentirá ainda mais forte". Ponderei se meu corpo debilitado suportaria a escalada de uma montanha tão alta. Contudo, os médicos já não me ofereciam solução; meu único recurso era apelar a Deus. Tomei, então, uma decisão trágica, absolutamente trágica: se Deus de fato existisse, eu seria salvo; se não, meu corpo se tornaria pó daquela montanha. E assim, iniciei a subida. Jamais me esquecerei daquela data: 21 de dezembro do ano retrasado. Orei a Deus com todo o meu ser durante a noite inteira, mas, sem notar grande mudança, desci a montanha. Ao chegar a Dazaifu, fomos à casa de um conhecido do praticante. Lá, encontrei a irmã da esposa do anfitrião, que, por providência, era membro da Sekaikyuseikyou.
+
+Ouvi dela sobre o Johrei e sobre a Agricultura Natural, e um pensamento ressoou em minha mente: "É isto!". O que mais poderia ser, senão a condução de Deus, o fato de eu ouvir explanações tão profundas de uma completa estranha? Foi a prova de que Deus verdadeiramente existe neste mundo. Imediatamente, dirigi-me à Igreja para receber Johrei. Com o passar de três ou quatro dias, meu apetite retornou, e a cor de meu rosto melhorou visivelmente. O ambiente na Igreja era alegre e luminoso; ao ouvir os relatos de outros membros — "eu me curei disto", "eu passei por aquilo" —, a certeza de que eu também seria salvo encheu meu coração de uma alegria transbordante.
+
+Finalmente, em 2 de janeiro de 1952, tive a permissão de participar do curso de formação e de receber o sagrado Ohikari. Reflito sobre os três anos e meio em que fui prisioneiro da medicina e dos remédios, submetendo meu corpo repleto de máculas a cento e cinquenta sessões de pneumotórax, vinte injeções de estreptomicina, seis meses de Tibione, além de dezenas de doses de cálcio, vitaminas e incontáveis outros medicamentos. Ser salvo de tudo isso com apenas algumas sessões de Johrei e poder agora portar o Ohikari em meu peito é uma emoção indescritível. Doravante, rogo para que eu possa ser útil, ainda que minimamente, na Obra Divina de construção do Paraíso Terrestre.
+
+Meishu-Sama, muito obrigado. Minha gratidão é imensa e se multiplica infinitamente.
+
+---
+
+# Salvo da Doença da Bomba Atômica (Publicado na revista Eikou nº 154, em 30 de abril de 1952)
+
+**Categoria:** ke | **Ano:** 昭和27(1952)年4月30日 | **Fonte:** Eikou
+**Título Original:** 原爆症より救われて | **Status:** Published
+
+## Salvo da Doença da Bomba Atômica (Publicado na revista Eikou nº 154, em 30 de abril de 1952)
+
+**Província de Hiroshima, Igreja Daiko-Tyu**
+**Susumu Mukai (21 anos)**
+
+A bomba atômica! Que criação da ciência, ao mesmo tempo tão magnífica e aterradora. Embora tenhamos tido a sorte de sobreviver, nossos objetivos e nosso lar foram destruídos em seus alicerces. Naquele momento, mergulhados no mais profundo sofrimento da doença, da pobreza e do conflito, estávamos à beira da aniquilação. Qual teria sido o nosso destino se não fôssemos salvos pelo Johrei da Sekaikyuseikyou?
+
+A Vós, Meishu-Sama, minha eterna gratidão. Apresento este relato como prova de tal fato.
+
+A explosão atômica, embora se possa atribuí-la ao destino, foi de uma brutalidade indescritível. Meu pai, que orientava jovens estudantes em uma fábrica de munições, encontrou um fim trágico ao lado deles. Nossa residência, situada a cerca de dois quilômetros do epicentro, permitiu que o restante da família sobrevivesse; contudo, o telhado, o forro e os móveis foram arrancados pela força do vento, tornando o interior da casa um caos intransitável. Juntamente com os vizinhos, buscamos refúgio em um abrigo no vale da montanha aos fundos, onde passamos dias e noites em angústia ao lado de inúmeros feridos, a maioria com queimaduras tão severas que tinham o torso ou o corpo inteiro inchado ao dobro do tamanho, tornando-se irreconhecíveis.
+
+Nessas condições, médicos e medicamentos eram inúteis. As pessoas aplicavam óleo de cozinha ou o sumo de vegetais sobre as feridas. Um médico nos advertiu: "As vítimas de queimaduras anseiam por água, mas é terminantemente proibido dar-lhes em grande quantidade". Era uma cena de partir o coração. Todos, como se enlouquecidos, clamavam: "Água, água, deem-me água!". E nós respondíamos: "Só um pouco de cada vez, por favor, seja paciente". Pouco depois, eles se aquietavam e, ao cessarem os movimentos, seus corpos já estavam escurecidos pela morte. Ah, se iriam morrer de qualquer forma, como eu gostaria de lhes ter dado água até saciar sua sede. Soube mais tarde que aqueles a quem permitiram beber o quanto desejavam tiveram melhores resultados, e alguns até se salvaram por isso. No início, todos nos dedicamos com afinco aos cuidados, buscando qualquer maneira de aliviar o sofrimento e salvar vidas, mas, diante do espetáculo cruel de suas mortes, caímos em um estado de torpor e desalento. Ainda hoje, ao recordar aqueles momentos, a mão que segura esta caneta torna-se pesada e relutante.
+
+Muitos dos que foram expostos à radiação, embora sem ferimentos externos, começaram a vomitar um sangue escuro, a ter evacuações sanguinolentas e a perder todo o cabelo, que caía em tufos. Em seguida, tombavam subitamente. Espalhou-se o boato de que "gás venenoso foi usado junto com a bomba e ainda permanece na cidade, tornando-a perigosa". Diante disso, apressamo-nos a fugir para o nosso local de refúgio no interior.
+
+Pouco tempo depois, a guerra terminou. Ao ouvir a notícia extraordinária, fomos tomados por um sentimento indescritível. Mesmo em Hiroshima, transformada em ruínas, brotos verdejantes começaram a surgir. Assim, pudemos retornar à terra que julgávamos inabitável. Todavia, a alegria de vivermos para a construção de um novo e pacífico Japão foi breve. Minha mãe, que fora atingida pela radiação em seu lado esquerdo, começou a sentir dormência e peso naquela parte do corpo, e seu estado de saúde deteriorou-se.
+
+Eu também passei a adoecer com frequência, sentindo uma fadiga que me impedia de me concentrar no trabalho. Na época, chamava-se de "doença atômica", e o medo de ter o mesmo destino daqueles que sucumbiam subitamente nos consumia. Procuramos um médico local, que nos disse: "Seus pulmões estão bastante comprometidos. Se não seguir minhas instruções à risca, correrá perigo". Desconfiado, busquei outras opiniões, mas recebia diagnósticos conflitantes de cada médico. Por fim, desisti de me consultar e passei a tomar apenas os medicamentos que me davam.
+
+Entretanto, meu estado piorava gradualmente. A cabeça pesava, o sistema digestivo falhava e, sem forças para trabalhar, meu corpo definhava até me tornar uma figura espectral. Quanto mais ansiava por força e por uma rápida recuperação, mais meu estado se agravava. Buscando algum alento espiritual, recorri aos livros que meu pai deixara — a Bíblia, textos budistas, obras sobre disciplina espiritual —, mas já não possuía a capacidade mental para compreendê-los. Desisti de tudo, pensando: "Ah, sou um caso perdido, já não entendo mais nada". Nesse vazio, um demônio zombava de mim com um riso sinistro: "Deuses e Budas não existem. São invenções de pessoas fracas como você para adorar. Felicidade? Que piada!". Sem perceber, passei a acreditar nessas palavras e comecei a me transformar em um ser terrível, que cava a própria sepultura.
+
+Contudo, ao ver os rostos apreensivos de minha mãe e de meus jovens irmãos, que dependiam unicamente de mim, era atormentado por uma fúria indizível e pelo remorso da consciência. Incapaz de suportar o fardo da doença, da pobreza e do sofrimento espiritual, até mesmo minha resiliente mãe começou a dizer: "Acho que também vou sucumbir. Se as coisas chegaram a este ponto, teria sido melhor se todos tivéssemos morrido juntos na explosão da bomba atômica". O que nos restava era apenas isto: o desespero.
+
+**O Milagre**
+
+Era setembro de 1948. Minha mãe ouviu dizer que havia chegado à vizinhança uma pessoa que curava doenças por meio de um método peculiar. Após receber Johrei apenas três vezes, ela voltou com um semblante radiante, como eu não via há muito tempo. "Meu corpo está muito mais leve! É uma sensação maravilhosa, indescritível", disse ela, insistindo com entusiasmo: "Você também deveria pedir a ele. Disseram-me que qualquer doença pode ser curada". Como eu abominava esse tipo de prática, a princípio não lhe dei ouvidos. No entanto, decidi experimentar uma vez e, ao chegar lá, fiquei surpreso. Era um jovem cujas palavras eram completamente diferentes de tudo o que eu já havia ouvido. Senti-me inexplicavelmente atraído e, embora cautelosamente e ainda com desconfiança, continuei a receber Johrei por um mês. Ao fim desse período, minha severa enfermidade estomacal estava completamente curada.
+
+Os sintomas que afligiam o lado esquerdo do corpo de minha mãe também desapareceram. Ela, então, recebeu a Medalha da Luz. Convencido de que se tratava de uma religião nobre, pedi ao ministro para ingressar na fé e, em dezembro, tive a permissão de receber minha Medalha da Luz. A alegria tomou conta de toda a nossa família. Desde então, recebemos inúmeros milagres e purificações. Nossa fé, que por vezes fraquejava, foi fortalecida pela orientação vigorosa dos ministros. Hoje, três anos depois, recebemos uma vida saudável, tanto espiritual quanto fisicamente, e vivemos em um lar envolvido em Luz e gratidão.
+
+Para concluir, embora a ciência médica moderna tenha investido vastos recursos em inúmeras pesquisas sobre a doença da bomba atômica, nós, que vivenciamos essa realidade na própria pele, declaramos inequivocamente ao mundo inteiro: a única e verdadeira salvação para a doença da bomba atômica é o Johrei.
+
+Meishu-Sama, muito obrigado.
+
+(30 de abril de 1952)
+
+---
+
+# Ressuscitado da Agonia da Tuberculose
+
+**Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核の苦悩より甦った私 | **Status:** Published
+
+## Ressuscitado da Agonia da Tuberculose
+**(A Terapia Revolucionária da Tuberculose, 15 de agosto de 1951 | A Terapia da Tuberculose pela Fé, 1º de dezembro de 1952)**
+
+**Yoshikazu Kojima (32 anos)**
+**Igreja Miki-Naka, Hyogo**
+
+Ao término de mais um dia de trabalho, sento-me à escrivaninha e, com a mente serena, baforo meu cigarro. A fumaça arroxeada ondula e se dissipa no ar. Sou invadido por um sentimento de plenitude, de felicidade, enquanto diversas recordações do passado afluem ao meu peito. Como é extraordinário ter chegado até o dia de hoje! Ou melhor, como é surpreendente ter alcançado tamanha saúde! Ao rememorar a trilha de agonia que percorri, não consigo deixar de pensar assim. Eu, que fora marcado pelo estigma da tuberculose infantil, deixei Hokkaido, a terra onde meu pai servia, para frequentar como interno uma escola especial em Chigasaki, na região de Shonan. Logo após concluí-la, um hiato de oito anos de minha vida transcorreu em branco, confinado a um leito de enfermo.
+
+Após me decepcionar com todos os recursos da medicina, busquei amparo em toda sorte de fé e em tratamentos populares tidos como eficazes, mas a tristeza era ter de, ao final, retornar invariavelmente à própria medicina. Recordo-me de quando minha condição se agravou a ponto de me levar a uma agonia respiratória. Naquela ocasião, o senhor Moriyama, que hoje é o responsável pela Igreja Miki-Naka, morava na casa ao lado. Evidentemente, ele ainda desconhecia este sagrado Caminho e, em seu anseio de me ajudar, chegou ao ponto de liberar oxigênio industrial de um cilindro em meu quarto, pois a simples inalação já não era suficiente. Ao contrastar aquele episódio com a posição que ambos ocupamos hoje, percebemos a situação como um grande disparate, do qual não se consegue rir. Contudo, minha agonia naqueles momentos era absolutamente real e profunda.
+
+Quanto tempo de vida ainda me restaria? Se as coisas continuassem daquela forma, o fim estava próximo. O que aconteceria quando esta minha única vida se extinguisse? Será que este ser que chamo de “eu” desapareceria para todo o sempre do universo? E, afinal, existiria de fato uma vida após a morte? Para mim, à época, esta era uma questão de suma importância, que eu precisava resolver a todo custo. Se não houvesse uma existência para além do túmulo, eu seria esmagado por um indescritível sentimento de desolação. Terminar uma breve jornada de vinte anos sem realizar absolutamente nada, apenas como um fardo e uma fonte de preocupação para meus pais... Onde, indago, residiria o valor de minha existência?
+
+Por mais que eu perscrutasse os livros de inúmeras religiões ou passasse noites em claro a refletir, não encontrava solução para esse dilema. Seria a vida algo tão cruel? Certamente, muitas pessoas antes de mim haviam ponderado sobre as mesmas questões e sofrido com as mesmas angústias, neste que é um problema eternamente antigo e, ainda assim, sempre novo. Todavia, ninguém jamais me ofereceu uma solução definitiva. Ou, para ser mais preciso, mesmo que alguns apontassem uma direção, nenhum deles me forneceu um alicerce sólido sobre o qual firmar minha fé. E por mais habilmente que uma doutrina seja exposta, se carece de um fundamento crível, não passa de uma quimera. Mas, de certa forma, tais divagações eram um luxo de enfermo. Quando meu estado atingiu o ápice da gravidade, a dor física me subjugou por completo. Já não havia espaço para questões filosóficas; eu me contorcia em agonia, transformado na própria encarnação do desejo de viver.
+
+Foi justamente nesse momento que, de forma inesperada, recebi a Purificação Divina. À medida que eu vivenciava em meu próprio corpo, de modo irrefutável, o Ensinamento Divino de que “a doença é um processo de purificação”, tornou-se impossível para mim não crer em Deus. Conforme meu corpo se recuperava, como se vivesse um sonho, a paixão pelo conhecimento reacendeu-se em mim. Dediquei-me por dois anos até ser aprovado no exame de qualificação para escolas de nível superior, o que me permitiu concluir o curso na Escola Politécnica de Kobe e, finalmente, ingressar na sociedade como um homem plenamente saudável. Ademais, o milagre que se operou em mim foi o que motivou o senhor Moriyama, então um homem de negócios, a trilhar o caminho que o tornou o responsável de hoje. Por sua vez, a seriedade e o fervor com que ele buscou a Verdade inspiraram-me a me colocar na linha de frente do trabalho de difusão.
+
+Paralelamente à cura de meu corpo físico, os ensinamentos de nossa fé trouxeram, pela primeira vez, uma solução límpida para as questões sobre a dignidade e a perenidade da vida humana, bem como sobre o enigma da vida e da morte. Minha alma, enfim, despertou. Aquele problema que eu buscara incessantemente resolver desde que me entendo por gente, ao longo de todos os anos no leito, foi solucionado no momento em que o abandonei. Jamais poderei esquecer a imensa alegria que me inundou naqueles instantes.
+
+Vinde, vós que sofreis com a tuberculose! A chave para solucionar este que é um dos maiores flagelos da humanidade encontra-se unicamente nas mãos do Salvador, Meishu-Sama. Aqueles que, em meio ao sofrimento da doença, são capazes de crer em Meishu-Sama e reverenciá-Lo, encontrando esperança e luz, esses, em verdade, devem ser chamados de bem-aventurados.
+
+---
+
+# A salvação de tuberculose e de múltiplas enfermidades em apenas duas semanas
+
+**Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核始め全身的病気僅か二週間で救わる | **Status:** Published
+
+## A salvação de tuberculose e de múltiplas enfermidades em apenas duas semanas
+
+**Publicado na edição de 15 de agosto de 1951 de “Terapia Revolucionária para a Tuberculose”**
+Mitsue Hada (21 anos)
+Igreja Hikari no Michinaka, Província de Shimane
+
+Desejo registrar a imensa gratidão e a profunda emoção que sinto pelas inúmeras graças e proteções que venho recebendo desde o outono de 1949.
+
+No início de julho do ano passado, sofri um aborto espontâneo aos três meses de gestação. Talvez por ter negligenciado o repouso necessário, fui acometida simultaneamente por uma série de enfermidades: dores de cabeça, tonturas, uma afecção cardíaca, beribéri e, ainda, uma forma branda de tuberculose. Em suma, meu corpo inteiro adoeceu. Uma febre baixa e persistente me obrigava a permanecer em repouso absoluto, e houve um período em que meus pensamentos se voltavam unicamente para a melancolia da morte.
+
+Como na casa de meu marido vivíamos apenas meu sogro, ele e eu, sem outra presença feminina para auxiliar, temia-se que eu me sobrecarregasse. Por essa razão, fui enviada à casa de meus pais para me restabelecer. Contudo, no final de agosto, sob a alegação de que minha saúde debilitada representaria um fardo no futuro, meu divórcio foi consumado. Ah, a tristeza daquele momento e a revolta que sentia pela fragilidade de meu próprio corpo são indescritíveis.
+
+Eu, que até me casar sempre fora saudável e jamais adoecera, passei a sofrer de enfermidades recorrentes após o matrimônio. Apesar de ouvir constantemente que era fraca, perseverei e servi à minha família com toda a dedicação. Ser divorciada justamente após um aborto... Que terrível ironia do destino! Quantas foram as noites em que, prostrada no leito de enferma, chorei até o amanhecer. Lamentando minha impotência, ora me resignava, ora me recordava de tudo e amaldiçoava minha sorte. Ainda assim, em meio a essa tormenta, eu me esforçava para seguir com o tratamento.
+
+Durante dois meses, um médico me visitava em dias alternados. Embora parecesse haver uma ligeira melhora, a febre e as dores de cabeça persistiam, e as palpitações cardíacas continuavam tão intensas quanto antes. Impaciente por natureza, eu me via em um beco sem saída, sem saber a que mais recorrer. Meu único e mais profundo desejo era poder voltar a sorrir e viver meus dias com saúde. Tentei todos os tratamentos disponíveis; ingeri tantos remédios que parecia estar enchendo uma caixa de medicamentos. Contudo, meu estado não apresentava a menor alteração.
+
+A reviravolta ocorreu no dia 20 de setembro. Minha irmã mais velha foi acometida por uma estranha enfermidade e, por intermédio de um vizinho, ouviu falar de uma abençoada terapia espiritual. Convidou, então, o Sr. Fukumi Sawae, de Tota, na vila de Yasuda, para que lhe ministrasse Johrei. Naquela ocasião, minha irmã aproveitou para lhe relatar meu caso. Ao ouvir suas palavras, tão animadoras e convictas — “Com certeza ela será curada” —, pedi que fizesse o mesmo por mim.
+
+Após apenas duas ou três sessões de Johrei, minhas dores de cabeça cessaram, a insônia deu lugar a um sono tranquilo, o apetite retornou com vigor e meu estado de espírito melhorou imensamente. Em cerca de uma semana, a febre baixa havia desaparecido por completo. Diante de tão sublime graça, eu apenas conseguia me afogar em lágrimas de júbilo. A palidez de meu rosto foi substituída por um tom saudável e, ao final da segunda semana, aventurei-me a realizar trabalhos na lavoura, como a colheita de arroz. Para minha surpresa e de toda a minha família, que se encheu de alegria, consegui trabalhar de forma espantosa, apesar do longo período de inatividade.
+
+Ó, Deus, que em tão poucos dias curastes todas as enfermidades de meu corpo! Ó, Deus, que a mim, tão cheia de máculas e pecados, concedestes a luz de um novo porvir! Diante de Vossa sublime misericórdia, inclino a cabeça, com o coração transbordando de uma gratidão sem fim.
+
+Não fosse a salvação de Kannon (観音),
+Ainda hoje eu estaria a sofrer,
+Mergulhada num pântano sem fundo.
+
+Mas não falarei mais do que passou,
+Pois foi a minha própria insensatez
+A causa de todo o meu penar.
+
+Sempre que entoo o salmo acima, de meus olhos brotam apenas lágrimas de gratidão, e de meus lábios transborda uma única palavra: “Obrigada”.
+
+Desde que recebi a graça de ingressar na fé, em 1º de novembro, tenho vivido meus dias com saúde e alegria. E agora, oro noite e dia para que o maior número de pessoas que sofrem possa ser salvo, o mais breve possível, e adentrar o mundo da felicidade.
+
+---
+
+# A Cura em Meio ao Desdém – O Indubitável Poder de Deus
+
+**Categoria:** ke | **Ano:** 昭和25(1950)年4月1日 | **Fonte:** Kyusei
+**Título Original:** 軽蔑していて治る 疑うべからざる神の力 | **Status:** Published
+
+## A Cura em Meio ao Desdém – O Indubitável Poder de Deus
+Revista Kyusei, nº 56, publicada em 1º de abril de 1950
+Yasufuku Nakano (23), Igreja Jingen Chu, Província de Aichi
+
+Enquanto contemplava o gráfico de meu peso, que aumentava ano a ano, o sangue de minha juventude pulsava vigorosamente. Com o país em meio a um conflito, meus pensamentos se concentravam invariavelmente no serviço militar; almejava ser classificado como apto na categoria A e ter a honra de ingressar no exército. Foi então que, no inesquecível dia 15 de agosto, a surpresa ao ouvir o édito imperial que anunciava o fim da guerra foi avassaladora. O alimento que descia por meu esôfago estancou; o fervor que corria em minhas veias pareceu refluir. Meu futuro se viu subitamente envolto em trevas e pavor, e eu não sabia o que fazer.
+
+Justamente por essa época, meu estômago começou a apresentar problemas. Percebi que, embora meu apetite fosse maior que o de costume, meu peso, longe de aumentar, estava diminuindo. Sentia como se um obstáculo se houvesse instalado em meu abdômen. A isso, somou-se a constipação, e os dias que se seguiram foram de profunda melancolia.
+
+Minha aparência se deteriorou, e, ao trabalhar, sentia o corpo pesado e um cansaço avassalador que se instalava rapidamente, impedindo-me de acompanhar o ritmo dos demais. As faltas ao trabalho tornaram-se frequentes. Na primavera do ano retrasado, a enfermidade se agravou ainda mais, e, aos olhos alheios, meus movimentos pareciam os de um preguiçoso. A preocupação de minha família era evidente, e insistiam para que eu procurasse um médico. Contudo, eu acreditava que, para uma doença tão insidiosa e persistente, nem mesmo a medicina convencional ofereceria uma cura definitiva. Assim, eu vivia em um estado de inércia, realizando pequenas tarefas aqui e ali, para logo em seguida parar e descansar. Observar a vitalidade com que os outros trabalhavam era para mim um tormento, e eu me sentia digno de pena. Sem esperança, eu já me encontrava semidesistido, pensando que, se a morte viesse, que viesse.
+
+Por outro lado, embora minha alma ansiasse por uma solução, não encontrava caminho algum. Sentia-me desolado, a vagar por uma senda escura.
+
+Certo dia, uma tia veio me visitar e, preocupada com meu estado, falou-me longamente sobre o poder de Komyō Nyorai-sama. Explicou-me que, por Sua força, qualquer enfermidade poderia ser curada e que, ademais, era possível ser salvo da pobreza, recebendo graças maravilhosas. Todavia, ao ouvir as palavras "Komyō Nyorai-sama" e "religião", minha mente se fechou. Não dei margem a qualquer reflexão, pensando: "Se fosse tão simples assim, eu já teria sido curado pela medicina há muito tempo".
+
+Posteriormente, diante da crescente aflição de meus familiares, que insistiam na necessidade de um tratamento, acabei cedendo. Assim, mais para acalmar meus pais do que por convicção própria, e em um estado de ceticismo absoluto, decidi receber Johrei em uma igreja que ficava a cerca de uma légua de distância.
+
+Antes de iniciar o Johrei, o Ministro Hayashi juntou as mãos em oração diante de Komyō Nyorai-sama, mas eu sequer tive ânimo para imitar o gesto. Ao me sentar diante dele, tive a sensação de estar sendo ridicularizado, pois ele apenas movia a palma da mão em minha direção. Achei a situação cômica, pensando que até uma criança do primário seria capaz de fazer aquilo.
+
+Após ele ministrar Johrei em todo o meu corpo, ouvi, sem qualquer interesse, suas palavras sobre a grandiosidade de Komyō Nyorai-sama e voltei para casa. Embora me dissessem que eu seria curado, a fé me parecia inalcançável. Não obstante, no fundo de meu ser, o desejo ardente pela cura me impulsionou a continuar frequentando a igreja. Passada cerca de uma semana, comecei a compreender o significado de cada palavra que o ministro havia dito. Passei a sentir algo semelhante a uma energia espiritual que emanava de sua mão durante o Johrei, e ir à igreja tornou-se uma fonte de alegria. Compreendi, então, que a salvação viria através da entrega sincera e, a partir daquele momento, minhas orações passaram a brotar espontaneamente.
+
+As pessoas começaram a comentar que minha aparência havia melhorado. Eu mesmo sentia prazer em trabalhar novamente; o obstáculo em meu abdômen parecia ter encolhido, e meu corpo se tornou mais leve. Meu trânsito intestinal se regularizou e, ao cabo de um mês, eu já era capaz de trabalhar no mesmo ritmo que as outras pessoas.
+
+Se uma doença podia ser curada por um gesto tão simples como o de mover a palma da mão, eu também desejei ardentemente receber o Ohikari. Pedi ao ministro e fui outorgado com a medalha da fé. Em janeiro do ano passado, tive a graça de entronizar Komyō Nyorai-sama em meu lar. Por meio desta Luz sagrada e sublime, recuperei minha saúde. A alegria de poder auxiliar na cura do sofrimento alheio é, por sua vez, indescritível. A felicidade que senti ao ser curado é imensa, e, como forma de retribuir, ainda que minimamente, a essa graça inestimável, dedico-me a servir na Obra Divina.
+
+---
+
+# A Felicidade de Ser Salvo da Tuberculose (Do livreto ‘O Tratamento Revolucionário da Tuberculose’, publicado em 15 de agosto de 1951)
+
+**Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核を救われた幸福 | **Status:** Published
+
+## A Felicidade de Ser Salvo da Tuberculose (Do livreto ‘O Tratamento Revolucionário da Tuberculose’, publicado em 15 de agosto de 1951)
+
+**Província de Fukuoka | Grande Igreja Koho | Nakagawa Kiyomi (27 anos)**
+
+Tive a permissão de ingressar na Fé em 29 de agosto de 1950.
+
+Minha provação teve início em junho de 1949, quando, ao passar por um exame de saúde, fui diagnosticado com uma infiltração no pulmão esquerdo e, consequentemente, internado em um sanatório. Durante esse período, por insistente recomendação médica, submeti-me a uma terapia de pneumotórax. Meus dias transcorriam em uma rotina vazia, sem qualquer sinal de melhora. O tratamento se estendeu por aproximadamente um ano, ao longo de quarenta sessões. As sucessivas radiografias indicavam um pneumotórax completo, e hoje estremeço só de recordar tais circunstâncias.
+
+Embora tenha finalmente recebido alta, minha condição física era precária. Eu não conseguia, nem sentia ânimo para carregar objetos um pouco mais pesados. Em um meio de transporte, qualquer solavanco me preocupava, e era impensável para mim entrar em um trem lotado. Tampouco conseguia correr, o que me levou a abandonar a esperança de um dia voltar a praticar o beisebol, esporte que tanto amava.
+
+Contudo, o que mais me causou desalento foi a incapacidade de tocar minha gaita. Aquele instrumento, um querido companheiro que eu amava desde a infância, havia sido afastado de mim pela medicina moderna. Diante de tal quadro, que propósito haveria na vida? Que esperança poderia nutrir? O vigor que deveria vislumbrar um futuro promissor havia se extinguido, e eu vivia mergulhado em constante angústia.
+
+Foi então que, no auge do calor de agosto de 1950, enquanto tomava um banho de água fria para me refrescar, uma vizinha passou e comentou: “Deve estar entediado. Por que não vai à praia?”. Expliquei-lhe minha situação, dizendo: “Se eu fizesse algo assim, certamente morreria”. Foi nesse momento que ela me falou sobre a Sekaikyuseikyou. Decidimos ir juntos naquela mesma noite ao local de práticas da Fé, que na época se situava em Hakozaki Ameya-cho, na cidade de Fukuoka. Lá, fomos recebidos pela Mestra Shibuta Yoshiko, de quem ouvi preciosos esclarecimentos e recebi Johrei.
+
+Após dois ou três dias frequentando o local, senti meu corpo notavelmente mais leve e meu espírito mais alegre. Fui tomado por um impulso de saltar e correr, uma mudança que me pareceu extraordinária. Uma semana depois, participei do curso para ingresso na Fé e, a partir de então, minha recuperação foi contínua. Passei a carregar volumes sem qualquer dificuldade e, naturalmente, a correr. Minha vida retornou à completa normalidade, sem nenhuma restrição, como se nada tivesse acontecido.
+
+Minha gratidão pelo grandioso poder divino é imensa. Durante o Grande Ofício Religioso na Sede de Tosu, tive a permissão de tocar gaita, o que me proporcionou uma honra e uma alegria indescritíveis. Por tudo isso, expresso meu mais profundo agradecimento, pois devo esta graça unicamente a Meishu-Sama.
+
+Gostaria ainda de relatar uma experiência que tive ao ministrar Johrei. Em minha casa, vivia uma tia que estava sob a possessão de um espírito de raposa. Após eu lhe ministrar Johrei apenas duas vezes, ela adormeceu profundamente naquela noite. O espírito obsessor, ao entrar em contato com a Luz Divina, cessou suas manifestações, que antes ocorriam incessantemente, dia e noite. Assim, tive a permissão de vê-la retornar a um estado de completa normalidade.
+
+Inúmeros praticantes espirituais já haviam realizado preces por ela, sem obter qualquer resultado. Testemunhar um milagre dessa magnitude, alcançado com apenas duas ministrações de Johrei, deixou-me absolutamente maravilhado.
+
+Diante de um poder tão sublime, meu desejo é esforçar-me para que o maior número possível de pessoas possa conhecê-lo e banhar-se na Luz Divina.
+
+Ao observar a nobre conduta diária do Presidente, Mestre Kihara, e dos demais mestres, que se dedicam incessantemente a nos transmitir os Ensinamentos de Meishu-Sama com a máxima fidelidade, dei meu primeiro passo. Aspiro aproximar-me, ainda que minimamente, de seus exemplos e, com essa determinação, aprimorar-me no caminho da Fé.
+
+Com este relato, desejo expressar minha mais profunda gratidão pela imensurável e grandiosa graça que recebi.
+
+---
+
+# Extensa laceração na cabeça causada pela bomba atômica; hemorragia é estancada com Johrei
+
+**Categoria:** ke | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
+**Título Original:** 原爆によって頭部に四寸の裂傷 後浄霊にて出血止る | **Status:** Published
+
+## Extensa laceração na cabeça causada pela bomba atômica; hemorragia é estancada com Johrei
+
+*Eikō*, nº 155, publicado em 7 de maio de 1952
+Yamada Ikuko (28 anos), Igreja Daijo-Naka, Província de Fukui
+
+Gostaria de relatar a inestimável Proteção Divina que recebi durante a tragédia da bomba atômica em Nagasaki, há sete anos – um evento dantesco que, ainda hoje, me causa arrepios ao rememorar.
+
+Naquela época, eu havia sido evacuada para uma casa isolada, situada em meio a um pinhal numa pequena colina em um local chamado Michinoo, a aproximadamente quatro quilômetros do epicentro da explosão. A colina onde a casa se encontrava era alta o suficiente para que, subindo um pouco mais, se descortinasse uma vasta paisagem.
+
+No dia da tragédia, havíamos acabado de respirar aliviados com o fim do alarme de ataque aéreo quando, subitamente, um clarão trespassou o céu. Era semelhante a um raio de sol rompendo as nuvens, porém sua intensidade superava a do mais forte sol de verão ao meio-dia. No instante em que me perguntei o que seria aquilo, o chão a meus pés, dentro de casa, converteu-se em uma montanha de escombros. Em estado de choque, não consigo recordar como saí, mas sei que, de alguma forma, lancei-me para dentro do abrigo antiaéreo no exterior.
+
+Ao recuperar a compostura, percebi que minha blusa branca estava tingida de sangue. Tateando em busca do ferimento, descobri uma fenda aberta em diagonal, estendendo-se da testa até o alto da cabeça. A hemorragia era tão intensa que manchou por completo o tecido branco que eu pressionava contra o local.
+
+Enquanto minha sogra e as pessoas que por ali passavam se desesperavam diante da gravidade do ferimento, deitei-me sobre a esteira fria do abrigo e, com fervor, comecei a ministrar Johrei a mim mesma. Visualizei a fotografia de Meishu-Sama que vira na igreja de Tóquio – na época, chamada de casa de tratamento – e, invocando Seu nome como ‘Dai Sensei-sama’, conforme nos referíamos a Ele naqueles tempos, continuei a ministrar Johrei. Eu sabia que o ferimento era grave, mas só mais tarde, ao me olhar no espelho, compreendi sua real dimensão: uma laceração de aproximadamente doze centímetros, que se estendia da lateral da sobrancelha esquerda até o centro do crânio, tão profunda que nela caberiam dois dedos, como um romã que se abre. Naquele momento, porém, não senti qualquer temor pela própria vida; apenas supliquei com toda a força da minha alma. Logo, a hemorragia cessou. Improvisei uma bandagem com gaze e, ao examinar o resto do corpo, encontrei no braço direito uma ferida que parecia ter sido escavada com uma colher, além de outros arranhões menores. Ao ministrar Johrei nesses locais, por fim, um sangue denso e escuro fluiu e, em seguida, estancou por completo. Miraculosamente, apesar da gravidade, não senti dor alguma, e passadas três ou quatro horas, já estava arrumando os destroços da casa.
+
+A residência fora devastada: todas as paredes perpendiculares à onda de choque ruíram; no segundo andar, das portas de vidro restavam apenas as molduras, e as divisórias de papel haviam se desintegrado em estilhaços. Observando os finos fragmentos de madeira que entulhavam todos os cômodos, impedindo qualquer passagem, eu me perguntava, com profunda admiração, como fora possível escapar daquele caos. Nos dias que se seguiram, continuei a ministrar Johrei em mim mesma e, sem descansar um único dia, empenhei-me em intensas atividades físicas e mentais. Como um rastro deixado pela Luz, duas faixas estreitas de vegetação exibiam folhas completamente queimadas, encolhidas e marrons. Na vizinhança, havia áreas calcinadas que se estendiam por quase dois metros. Cerca de dez dias depois, viajei a Oiso, onde recebi do Reverendo Hara o papel com a Caligrafia Divina, que apliquei sobre o ferimento, além de receber Johrei diariamente. Em 10 de setembro, passei a frequentar o Johrei Center do Reverendo Hori, em Seijo. Do ferimento, chegou a sair uma quantidade considerável de pus espesso. Contudo, em seguida, o tecido começou a se regenerar. No final de novembro, a carne, que antes se projetava para fora, nivelou-se com a pele ao redor. A coloração rosada foi gradualmente atenuando-se. Em meados de dezembro, pude remover as bandagens em definitivo. Desde então, não tive mais qualquer sintoma perceptível e tenho vivido com saúde. Durante muito tempo, a metade esquerda da minha cabeça permaneceu dormente, a ponto de eu mal sentir o toque, mas recentemente essa dormência desapareceu quase por completo. A cicatriz, por sua vez, adquire paulatinamente a tonalidade da pele ao redor.
+
+Sempre que rememoro estes fatos, sinto uma gratidão renovada e avassaladora. Naquela época, eu era uma simples fiel que apenas havia recebido o Ohikari, sem ainda ter me dedicado a qualquer atividade na Obra Divina. Receber uma Proteção tão grandiosa nessas circunstâncias é algo pelo qual só posso expressar meu mais profundo agradecimento.
+
+Muito obrigada, Meishu-Sama. De agora em diante, desejo do fundo do coração poder dedicar-me, na medida de minhas forças, a servir em Sua Obra Divina.
+
+(7 de maio de 1952)
+
+---
+
+# Salvo da Tuberculose e Conduzido à Fé Após Dois Anos e Um Mês de Internação
+
+**Categoria:** ke | **Ano:** 昭和28(1953)年6月24日 | **Fonte:** Eikou
+**Título Original:** 結核で二年一カ月入院中を救われ入信す | **Status:** Published
+
+## Salvo da Tuberculose e Conduzido à Fé Após Dois Anos e Um Mês de Internação
+
+*Eikou*, nº 214, 24 de junho de 1953
+Fujimoto Suetarou (52 anos)
+Grande Igreja Shinsei, Província de Osaka
+
+Até os vinte e cinco anos, fui um jovem de conduta íntegra. Posteriormente, porém, ingressei em uma companhia de artes cênicas, e minha vida tornou-se itinerante, levando-me não apenas a percorrer todo o Japão, mas também a viajar pela Coreia, Manchúria, Taiwan e Sacalina. Em todos esses lugares, entreguei-me aos prazeres do álcool e das mulheres, e foi como um castigo divino que, em fevereiro de 1951, contraí o que parecia ser um simples resfriado. Ao procurar um médico da vizinhança, ele me recomendou: “É melhor que vá ao Hospital da Universidade de Osaka para fazer um raio-X e passar por uma avaliação completa”. Naquele momento, pareceu-me estranha a necessidade de tal exame, e com razão, pois até então jamais havia precisado de cuidados médicos, nem mesmo ficara acamado por mais de dois dias.
+
+Ainda assim, dirigi-me a contragosto ao hospital. Após realizar a radiografia e o exame de velocidade de hemossedimentação, o diagnóstico que ouvi do médico foi estarrecedor: “Ambos os seus pulmões apresentam uma infiltração severa, correspondente ao terceiro estágio da doença. Você precisará de um tratamento com estreptomicina e de repouso absoluto em um sanatório por, no mínimo, um ano”. A notícia me atingiu com um choque avassalador. Senti como se tivesse recebido uma sentença de morte; meu futuro se tornou um abismo de escuridão. No caminho de volta, uma febre intensa e vertiginosa me acometeu e, ao chegar em casa, recolhi-me imediatamente ao leito. Nos dias que se seguiram, a febre apenas aumentou, culminando em minha internação no Hospital Municipal Kita, em Osaka, no dia primeiro de março.
+
+Como meu quadro clínico não apresentava melhora, passei a frequentar, fora do hospital, as palestras da Seicho-no-Ie. Nesse ínterim, um paciente internado que era adepto da Tenrikyo e que percorria os leitos oferecendo a sua prática religiosa, insistentemente me exortava a recebê-la, e acabei por aceitar a sagrada outorga. Naquela altura, além da tuberculose, eu já sofria de uma neuralgia que havia imobilizado minhas mãos. Por aproximadamente um ano, recebi a outorga da Tenrikyo uma vez por semana, ao mesmo tempo em que seguia com as injeções e os medicamentos do hospital. Contudo, minha condição não apenas estagnou, como se agravou progressivamente. Cheguei a fazer uso de um novo fármaco, a hidrazida, que demonstrou grande eficácia no início, mas, com o tempo, as bactérias desenvolveram resistência e o tratamento perdeu todo o seu efeito. Assim se passaram dois anos e um mês.
+
+Foi então que um acontecimento notável mudou o curso de minha vida. Eu dividia o quarto com o senhor Tsutsumi, que estava internado há três meses a mais do que eu. No dia 25 de março daquele ano, ele viu no jornal Yomiuri Shimbun um anúncio sobre o livro da Sekaikyuseikyou intitulado "Tratamento da Tuberculose pela Fé". Imediatamente, adquiriu a obra e, após a leitura, comovido pelos relatos de cura, procurou o senhor Yoshio Yamamoto, da Igreja Chuo de Kansei, mencionado em um dos testemunhos. Após ouvir dele diversos esclarecimentos, no dia seguinte, encontrou-se com o reverendo Hayakawa, da Sede de Miyake, vinculada à Grande Igreja Shinsei. Recebeu Johrei e ouviu os valiosos Ensinamentos de Meishu-Sama. Para minha completa surpresa, ele retornou ao hospital anunciando que teria alta no dia seguinte.
+
+O senhor Tsutsumi sempre fora uma pessoa avessa a qualquer tipo de fé, extremamente zeloso com a higiene e um ferrenho adepto da medicina. Estava, inclusive, aguardando uma delicada cirurgia de ressecção pulmonar. Vê-lo, de repente, abandonar o leito, descartar médicos e remédios para seguir unicamente o caminho da fé, foi algo que me tocou profundamente. Diante de sua recomendação para que eu fizesse o mesmo, senti-me motivado, ainda que com certa desconfiança, a acompanhá-lo. Juntos, fomos ao Johrei Center, onde recebi Johrei do reverendo Hayakawa. Enquanto ouvia seus esclarecimentos, senti um profundo e inexplicável desejo de abraçar esta fé.
+
+Ao retornarmos ao hospital, ambos tomamos uma decisão que representou uma reviravolta de cento e oitenta graus em nossas vidas: deixaríamos o tratamento. Ao comunicarmos nossa intenção ao médico responsável, ele se opôs veementemente, o que era de se esperar, considerando a gravidade de nosso estado. Ainda assim, insistimos e deixamos o hospital à força. Já passava das nove da noite.
+
+Hoje, ao refletir, um calafrio percorre minha espinha ao pensar no propósito daqueles dois anos e um mês de internação. Todo aquele tempo de tratamento não apenas se mostrou inútil, como minha saúde apenas declinou, um padrão que eu via se repetir em todos os outros pacientes. Assustava-me ver aumentar, dia após dia, o número de pessoas que, após receberem alta com um laudo de cura completa e retornarem ao trabalho, sofriam uma recidiva em menos de um ano e voltavam ao hospital. Ficou absolutamente claro para mim a ignorância da medicina atual, que os médicos criam as doenças e que os tratamentos farmacológicos são incapazes de promover a cura definitiva.
+
+Posteriormente, no dia 14 de abril, tive a permissão de ingressar na fé. Embora meu tempo de prática seja curto, meus dias têm sido verdadeiramente plenos de alegria. A neuralgia que me atormentou por um ano foi curada em apenas quinze dias de Johrei, e a tuberculose melhora a cada dia. Durante a internação, a ordem era repouso absoluto, mas, desde o dia seguinte à minha alta, viajo diariamente até Senrioka para receber Johrei e ouvir os Ensinamentos com o reverendo Hayakawa. Ao retornar, dirijo-me ao antigo hospital para, com base no que aprendi, partilhar os preciosos Ensinamentos com os pacientes que conheci. Meu desejo é salvá-los, o mais rápido possível e no maior número que eu puder, do equívoco aterrador que é depender de médicos e medicamentos. Recentemente, cinco ou seis deles já decidiram abandonar seus leitos e ingressar na fé.
+
+Rogo pela contínua e imensa proteção de Meishu-Sama para que eu possa, daqui em diante, salvar cada vez mais pessoas das garras da doença, conduzi-las à fé e, assim, devotar-me com afinco à sagrada Obra Divina.
+
+Meishu-Sama, sou-lhe imensamente grato. Manifesto minha mais profunda gratidão.
+
+---
+
+# O salvamento de meu irmão, vítima da explosão de um projétil
+
+**Categoria:** tato | **Ano:** 昭和24(1949)年4月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 弾丸破裂傷の弟救はる | **Status:** Published
+
+## O salvamento de meu irmão, vítima da explosão de um projétil
+
+Do “Paraíso Terrestre”, nº 3, 20 de abril de 1949
+Da “Coletânea Jikan, vol. 4, ‘Narrativas de Milagres’”, 5 de outubro de 1949
+
+Miyaji Toshio (20 anos)
+Johrei Center de Kanaya, Associação Konohana, Igreja Kannon do Japão, Província de Shizuoka
+
+Por volta das cinco e meia da manhã de 11 de outubro de 1947, um estrondo pavoroso ecoou subitamente: “BUM!”. Saltei da cama em um sobressalto. Foi quando me deparei com meu irmão, coberto de sangue dos pés à cabeça. Embora o pavor me fizesse tremer, por já ter recebido os Ensinamentos, agi instintivamente: enquanto ministrava Johrei em desespero, corri em busca de um médico.
+
+Ao recuperar a compostura e observar meu irmão com mais atenção, fui novamente tomado de espanto. De seu rosto, brotavam sangue e fragmentos escuros em profusão; a região abaixo dos olhos estava intumescida, com uma coloração negro-arroxeada; ambas as mãos estavam completamente dilaceradas e, na esquerda, faltava a ponta de três dedos, a começar pelo polegar. Observei o médico proceder, enquanto meu irmão, talvez inconsciente ou com o corpo paralisado, não emitia um único som.
+
+De volta a casa, dediquei-me por horas a fio a ministrar-lhe Johrei, apegando-me unicamente ao Poder Divino. Eu temia que a dor o impedisse de dormir naquela noite; contudo, para minha surpresa, ele repousou tranquilamente, sem se queixar. Nas três noites e dias que se seguiram, continuei a ministrar-lhe Johrei por duas ou três horas, mesmo durante a madrugada. Com efeito, ele não apresentou febre alta nem se lamentou de dores, e sua melhora era tão evidente que se tornava clara aos olhos de todos. Que graça inestimável! Minha mãe e todos os demais choraram de alegria.
+
+Dia após dia, o inchaço e a coloração arroxeada de seu rosto foram desaparecendo, devolvendo-lhe a aparência normal. Quando o levamos ao senhor Kubota para receber Johrei, não tardou para que a carne dos dedos amputados começasse a se regenerar. Os três pontos que o médico havia dado caíram naturalmente e, em apenas um mês e meio, ele estava completamente recuperado. Tanto eu quanto minha família havíamos estimado que a recuperação levaria ao menos seis meses. Tudo se deve à sublime graça de Kannon (観音) e ao poder do Johrei.
+
+Posteriormente, ficamos sabendo da causa do acidente. Naquela manhã, meu irmão levantou-se cedo e, lembrando-se de um projétil que encontrara durante a guerra, resolveu cutucar seu orifício com um objeto, o que, inevitavelmente, provocou a detonação.
+
+Hoje, embora seus dedos sejam um pouco mais curtos, a diferença é quase imperceptível. Ele completou doze anos e, como insistiu com tanto fervor, recebeu a Medalha da Luz em dezembro do ano passado. Com o Ohikari sobre o peito, frequenta a escola com vigor e saúde.
+
+Sete meses após o ocorrido, no final de maio do ano passado, um fragmento que permanecera alojado em seu rosto saiu por entre seus dentes caninos enquanto ele estava na escola. Imediatamente, mostrei-o ao professor. Era uma pequena peça triangular e amarelada, de cerca de três ou quatro milímetros, que guardo comigo até hoje.
+
+Nem é preciso dizer que não apenas nós, mas também toda a vizinhança, ficamos maravilhados e proferimos palavras de profundo louvor ao testemunhar o grandioso poder de Kannon (観音). Com esta alegria no coração, toda a nossa família vive seus dias em gratidão, sob a constante proteção de Kannon (観音).
+
+---
+
+# O arrozal que não recebeu adubo orgânico obteve os melhores resultados (Da coletânea “Explicação sobre a Agricultura Natural”)
+
+**Categoria:** tato | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 堆肥を入れぬ田が最高の成績 | **Status:** Published
+
+## O arrozal que não recebeu adubo orgânico obteve os melhores resultados (Da coletânea “Explicação sobre a Agricultura Natural”)
+
+Toichi Yamazaki (54 anos)
+Igreja Hosho-Naka, Saitama
+
+Respeitosamente, apresento o relatório referente aos resultados do segundo ano de cultivo através da Agricultura Natural. Há dois anos, realizei a conversão de toda a minha lavoura e, tendo obtido um êxito superior ao esperado, dediquei-me à prática com plena confiança no ano que se seguiu.
+
+Em minha propriedade, dispomos de pouca mão de obra, sendo apenas três pessoas para todo o trabalho. Ademais, os arrozais encontram-se dispersos por uma vasta extensão, o que impede um manejo tão zeloso quanto o desejado. Por essa razão, uma porção considerável da lavoura foi cultivada sem a adição de qualquer fertilizante. Nas demais áreas, utilizei um pouco de palha e, contrariando o Ensinamento, apliquei certa quantidade de capim fresco.
+
+O desenvolvimento das mudas em seus canteiros transcorreu de forma mais satisfatória que no primeiro ano e, após o transplante, o crescimento continuou promissor. Contudo, de modo inesperado, toda a região foi acometida por doenças e pragas. As lavouras convencionais, que receberam adubo, sofreram uma quebra de produção de um e meio a dois fardos por área em comparação ao ano anterior. Graças às bênçãos Divinas, porém, minha colheita de arroz precoce atingiu a marca de quatro fardos e meio, ao passo que a produção das lavouras com adubo limitou-se a algo entre três e quatro fardos. Acredito que o rendimento do meu arroz precoce foi um pouco menor devido à sua lenta recuperação após a praga e ao seu ciclo naturalmente mais curto.
+
+No que tange à variedade de ciclo médio, a colheita foi de aproximadamente seis fardos, chegando a um máximo de sete e meio em algumas áreas, o que resultou em uma média de cinco fardos e meio. Nas lavouras adubadas, a média girava em torno de cinco fardos. Portanto, por essa graça Divina, obtive resultados que superaram os da agricultura convencional, e por isso expresso minha mais profunda gratidão.
+
+Tal como nos ensina Meishu-Sama, não devemos depender de palha ou capim; não há necessidade de forçar a natureza com a adição de compostos orgânicos. Em conformidade com Suas palavras, foi precisamente o arrozal onde nada adicionei que me permitiu colher os melhores resultados. Ademais, ao seguir Sua orientação de que os campos alagados devem ser dedicados exclusivamente ao cultivo do arroz, acredito que, ao adotar a monocultura, os resultados se elevarão a um novo patamar.
+
+Neste ano, preparo-me para realizar um cultivo perfeito em monocultura. Rogo humildemente por Sua constante proteção.
+
+(Relatório apresentado em 16 de fevereiro de 1953)
+
+---
+
+# Salvo da tuberculose intestinal, uma família torna-se um Lar de Luz
+
+**Categoria:** tato | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 腸結核より救われ光明一家に | **Status:** Published
+
+## Salvo da tuberculose intestinal, uma família torna-se um Lar de Luz
+Extrato de “A Terapia Revolucionária da Tuberculose”, publicado em 15 de agosto de 1951, e de “A Terapia da Fé para a Tuberculose”, publicado em 1º de dezembro de 1952.
+
+Província de Kagawa
+Igreja Oharachu
+Shirakawa Masakazu (33 anos)
+
+Diversas vezes ao dia, eu me via obrigado a suportar em silêncio uma dor lancinante no abdômen, como se agulhas o trespassassem. Apesar de meus esforços para manter uma dieta rigorosa, eu me perguntava com desânimo: "Será que hoje novamente serei atormentado por este mal?". Essa cólica, que se manifestava a cada três dias, me deixava desolado.
+
+De fato, quatro anos antes, no início de minha luta contra a tuberculose, um médico do exército já havia me alertado para os sintomas iniciais de uma tuberculose intestinal. Desde então, meu quadro clínico incluía diarreias mensais e a presença de sangue e pus nas fezes. Somava-se a isso a dor aguda no lado direito. Em setembro de 1946, sem vislumbrar outra cura e contrariando minha própria natureza, pois jamais apreciara tal método, vi-me forçado a iniciar um tratamento com moxabustão. Para minha imensa alegria, após dois ou três dias, os sintomas do lado direito cessaram por completo. Exultante, acreditei que em três meses estaria plenamente recuperado.
+
+Persisti no tratamento por um ano e meio, sem falhar um único dia, fosse na época de maior trabalho no campo ou nas gélidas manhãs de inverno. Contudo, contrariando minhas expectativas iniciais, a eficácia do método parecia diminuir gradualmente. Embora os sintomas estivessem controlados, bastavam dois ou três dias de interrupção para que o antigo sofrimento retornasse. A esperança que eu vislumbrava em meu horizonte começou a esvaecer-se, e, em meu íntimo, passei a me preparar para uma morte prematura.
+
+O ponto de virada ocorreu em 21 de fevereiro de 1948. Naquele dia, ao ouvir a pregação do jovem Reverendo Hikawa, transbordante de sinceridade, senti a dúvida e o desprezo que eu nutria inicialmente serem confinados a um canto de minha mente. Com a certeza de ter encontrado o caminho, declarei minha decisão de ingressar na fé. Naquele mesmo dia, abandonei a moxabustão e descartei todo o material relacionado.
+
+Em 14 de março daquele ano, recebi o Ohikari pelas mãos do Reverendo Ishihara. A partir daquela noite, comecei a ministrar Johrei a todos que encontrava. Ministrei Johrei em mim mesmo por cerca de cinco minutos diários durante uma semana, e meu sistema gastrointestinal foi completamente curado. Eu, que antes não conseguia dispensar uma faixa de lã na barriga nem mesmo no verão, passei a considerá-la um incômodo. As evacuações com sangue e pus cessaram. Desde então, passei a comer de forma irregular, seguindo apenas meu apetite, mas nenhum sintoma jamais retornou. Juntamente com a saúde do estômago e dos intestinos, a sensação de peso na cabeça que tanto me afligia foi erradicada, e meu estado de espírito se transformou por completo. Estremeço só de pensar no passado; se não tivesse conhecido este Ensinamento, a esta hora eu talvez já estivesse no outro mundo.
+
+Como não retribuir a esta graça divina,
+Ao ponderar a ventura deste corpo que vive?
+
+Dois anos se passaram desde então, e nosso lar tornou-se completamente independente de médicos e remédios. De modo especial, a disenteria de meu filho foi curada com uma única ministração de Johrei, e um quadro de meningite em seu estágio inicial foi sanado em apenas uma semana. Nossa família transborda de gratidão por essas graças indescritíveis.
+
+No último mês de março, toda a nossa família, composta por cinco pessoas, pôde ingressar na fé. Em 3 de julho, o presidente da Igreja conduziu a cerimônia de entronização da Imagem da Luz Divina em nosso lar, e em 22 de outubro, tivemos a honra da primeira visita do Reverendo Iwamatsu a Sanuki. Diante de tamanha glória, não podemos conter as lágrimas de emoção.
+
+Estes dois anos de vida na fé me permitiram compreender o profundo significado de minha sobrevivência. Apesar de todos os meus companheiros que padeciam da mesma enfermidade já terem partido para o outro mundo, eu, que apresentava o quadro mais grave, não apenas sobrevivi, como hoje desfruto de um corpo plenamente saudável. Pude sentir a atuação de uma força grandiosa que me amparou e me salvou todas as vezes em que vaguei na fronteira entre a vida e a morte. Agora, compreendo com clareza a natureza dessa força. O milagroso fenômeno espiritual que se manifestou no momento em que minha esposa foi resgatada das portas da morte; a infinita compaixão de Deus... tudo isso era, na verdade, a profunda Vontade Divina, que deseja se utilizar até mesmo de uma pessoa impura como eu para a grandiosa obra da construção do Paraíso na Terra. Neste momento, sinto essa verdade penetrar o mais fundo de minha alma. Quando reflito, vejo como fui indigno. Agora, mais do que nunca, é o momento de me devotar de corpo e alma a esta Obra Sagrada. Como poderia eu deixar de corresponder à sublime Vontade de Deus?
+
+Sem culpar este meu ser pecador,
+Concedestes-me, ó Deus, imensa e farta ventura.
+
+Ao Deus que me outorgou uma vida de espírito vibrante,
+Como não devotar meus dias em gratidão, até o fim de minha existência?
+
+---
+
+# O Boi Reencarnado Salvo pela Luz Divina
+
+**Categoria:** tato | **Ano:** 昭和25(1950)年12月6日 | **Fonte:** Eikou
+**Título Original:** 転生の牛御光に救わる | **Status:** Published
+
+## O Boi Reencarnado Salvo pela Luz Divina
+(Publicado na revista Eikou, n.º 81, em 6 de dezembro de 1950)
+
+Tanaka Kanamori (41 anos)
+Dai Kyokai Kohō – Província de Saga
+
+A senhorita Setsuko Tsutsui, de vinte e um anos, residente em minha comunidade, é uma de nossas membras mais fervorosas. Sua mãe foi libertada de espasmos estomacais crônicos que a afligiam há mais de duas décadas, e seu pai, por sua vez, foi salvo de uma grave inflamação na garganta, purificação tão intensa que o impediu de ingerir uma única gota de água por cinco dias. Após receberem a permissão de participar dos cursos de formação, ambos os pais, em abril deste ano, entronizaram a Imagem da Luz Divina em seu lar, e toda a família encontra-se imersa em profunda gratidão.
+
+Desde fevereiro deste ano, a família Tsutsui possui um boi preto. Ao chegar à propriedade, o animal apresentava um abdômen dilatado, mas seu corpo era esquálido. Recusava quase todo alimento que lhe era oferecido e definhava a olhos vistos. Diante disso, a jovem Setsuko, com fervorosa oração, passou a ministrar-lhe Johrei. Gradualmente, o apetite do boi retornou, e ele recuperou o vigor de forma surpreendente.
+
+Contudo, por volta do início de maio, sempre que recebia Johrei em sua casa, Setsuko começou a manifestar um movimento involuntário de oscilação do tronco para a frente. Com o tempo, tal condição passou a ocorrer mesmo em situações cotidianas. Durante a Cerimônia Mensal de 18 de maio, enquanto minha esposa ministrava Johrei à jovem, ela abriu desmesuradamente os olhos e começou a agitar o corpo com veemência, mas não conseguimos identificar a natureza da possessão espiritual.
+
+Posteriormente, no dia 23 do mesmo mês, por ocasião da primeira cerimônia em honra à Imagem da Luz Divina recém-entronizada na casa da senhora Tanaka Chiyono, outra membro de nossa fé, tive a oportunidade de ministrar Johrei a Setsuko. Nesse momento, um espírito se manifestou e disse: "Sei que minha presença deve surpreendê-los imensamente, mas sou o boi que serve à família Tsutsui. Fui salvo por esta jovem, que, por meio do Johrei, resgatou-me quando minha vida já se esvaía. Por essa razão, desejei manifestar-me através dela para expressar minha gratidão a Meishu-Sama. Meishu-Sama, muito obrigado. Peço perdão a todos por tê-los assustado", declarou, em tom de profundo agradecimento.
+
+Passados quatro ou cinco dias, o boi começou a apresentar um comportamento estranho. Quando Setsuko se dirigiu ao estábulo, o animal fez menção de atacá-la com os chifres. "Se for para ser tão violento, não quero mais saber de você", repreendeu-o ela, afastando-se. No entanto, ao se preparar para lavar os pés, seu corpo voltou a oscilar. Preocupada, retornou ao estábulo. Dessa vez, o boi aproximou-se e recebeu Johrei com aparente contentamento.
+
+Apesar disso, os movimentos no corpo de Setsuko não cessaram, levando-a a procurar nossa Igreja sob a chuva, em plena escuridão da noite. Ao receber Johrei, novamente um espírito se manifestou: "Em vida, fui um homem da província de Chikuzen chamado Hatakeyama Hachirōzaemon. Vivia de forma egoísta, preocupado apenas em beber saquê, até que faleci em decorrência de um derrame. Por meus atos, fui relegado ao plano animal e renasci como um boi. Ao ponderar sobre meu destino, a tristeza era tamanha que perdi a vontade de viver e cheguei a desejar a morte. Foi então que esta jovem, com sua bondade, me ministrou Johrei, e agora sinto uma emoção indescritível."
+
+Diante de seu relato, procurei esclarecê-lo: "Mesmo tendo sido relegado ao plano animal, você teve a ventura de ser acolhido por uma família que reverencia a presença de Kannon e de conhecer os ensinamentos de Meishu-Sama. Não há felicidade maior. Se você se apegar a Meishu-Sama e se dedicar de corpo e alma à Obra Divina, certamente receberá a permissão de renascer como ser humano em sua próxima vida." Ao ouvir minhas palavras, o espírito demonstrou imensa alegria, agradeceu e se retirou.
+
+Alguns dias depois, durante uma visita de Setsuko à Igreja, ministrei-lhe Johrei mais uma vez, e um espírito tornou a se manifestar. "Sou o boi da família Tsutsui. Recentemente, o tratamento excessivamente respeitoso que a família tem me dispensado me causa grande aflição. Embora eu tenha sido humano em uma vida pregressa, hoje sou um animal. Se não for tratado como tal, não conseguirei purificar meu carma. Rogo-lhes, portanto, que me tratem como o animal que sou. Este é o meu pedido." Assegurei-lhe que transmitiria seu desejo à família, e, tranquilizado, o espírito partiu.
+
+Desde esses acontecimentos, o boi passou a trabalhar com notável docilidade. Quando alguém se aproxima do estábulo com as rédeas, ele mesmo estende o pescoço para que lhas coloquem. Nos campos, durante os intervalos do trabalho, sua obediência é tamanha que nem precisa ser amarrado. Em cada gesto, parece expressar sua gratidão pela misericórdia de Meishu-Sama, determinado a servir à Obra Divina ainda que seu corpo se desfaça em pó.
+
+Ao nos ser permitido testemunhar de forma tão clara que a infinita graça de Meishu-Sama alcança até mesmo os seres relegados ao plano animal, como poderíamos nós permanecer inertes e indiferentes? Enquanto tivermos vida, almejamos retribuir, ainda que minimamente, uma ínfima parcela de tão grande favor.
+
+Relato este fato movido por uma avassaladora gratidão.
+
+---
+
+# A Honra de Obter Arroz de Primeira Classe com Aumento Anual da Colheita Através do Cultivo Natural
+
+**Categoria:** tato | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 逐年増収の自然栽培一等米の栄位を得る | **Status:** Published
+
+## A Honra de Obter Arroz de Primeira Classe com Aumento Anual da Colheita Através do Cultivo Natural
+(Incluído na coletânea *Explanação sobre a Agricultura Natural*)
+
+*Publicado na revista Eikou, n.º 198, de 4 de março de 1953*
+
+**Tokimoto Shigetoshi (39 anos)**
+**Igreja Meiwa-Naka, Província de Fukuoka**
+
+Há quatro anos, desde que recebi a permissão de portar o Ohikari, abandonei completamente os medicamentos. Conforme o Ensinamento de que todas as enfermidades são processos de purificação, vivo sem qualquer tipo de apreensão. Minha família, composta por nove pessoas, desfruta de uma saúde cada vez mais plena, o que me permite dedicar-me com afinco à agricultura.
+
+No que tange à agricultura, eu já havia tido a oportunidade de ouvir o Ensinamento de que é possível aumentar a colheita por meio do Cultivo Natural. Contudo, por se tratar de algo sem precedentes e em virtude das muitas máculas que ainda possuo, não conseguia romper com os velhos e arraigados costumes. A oposição de minha família também representava um obstáculo, e por isso hesitei em colocar o método em prática. Foi então que, graças à fervorosa orientação do ministro responsável, do Sr. Honda e de outros tantos orientadores, finalmente tomei a decisão de iniciar o cultivo em toda a minha propriedade de pouco mais de nove *tan*, a partir da safra de arroz de 1950.
+
+Minhas terras, devo ressaltar, são de baixa fertilidade e altamente dependentes de adubos. O solo é argiloso ou de terra vermelha, classificando-se entre os piores de nossa região. Em um ano comum, a produção mal alcançava cinco fardos de arroz por *tan*. Diante disso, meu pai chegou a sugerir: "Por que não esperamos uns dois ou três anos, usando bastante composto orgânico para fortalecer a terra primeiro?". Apesar de suas palavras, decidi resolutamente levar o plano adiante.
+
+No início, devido ao excesso de toxinas de adubos acumuladas no solo, o desenvolvimento das mudas foi precário. Mesmo após o transplante para o campo principal e passada a segunda capina, as plantas permaneciam amareladas e mirradas. A apreensão de minha família era imensa, e nossa situação tornou-se motivo de zombaria para todos no vilarejo.
+
+Todavia, graças à Divina Proteção, as plantas foram pouco a pouco readquirindo a cor e, no outono, surgiram belas espigas. Como o perfilhamento foi tardio e houve muitas ramificações improdutivas, eu esperava uma quebra considerável na safra. Para nossa surpresa, o resultado da colheita superou todas as expectativas. A qualidade do arroz também foi notável: enquanto os grãos cultivados com adubo eram, em sua maioria, classificados como de terceira ou quarta categoria, os nossos obtiveram a segunda classe. Profundamente gratos por essa imensa proteção, gravamos essa bênção em nossos corações, e toda a família celebrou com grande alegria.
+
+No ano de 1951, o desenvolvimento das mudas foi excelente desde o início. Enquanto os campos adubados da região sofriam com pragas e doenças, exigindo constantes e aflitivas desinfecções preventivas, em nossas terras, pela graça Divina, não tivemos tais preocupações. Os danos foram mínimos, e as risadas no vilarejo foram gradualmente silenciando.
+
+Já em 1952, nosso terceiro ano de Cultivo Natural, o vigor das mudas foi excepcional desde a semeadura. Após o transplante, seu crescimento não apresentava qualquer diferença em relação às lavouras adubadas. Aqueles que antes zombavam de nós passaram a nos observar com admiração, chegando a expressar sua inveja ao verem uma lavoura tão próspera sem o uso de um único grama de fertilizante.
+
+A variedade que cultivamos é a "Asahi". Tradicionalmente, ela é conhecida por uma perda considerável de grãos durante a colheita, motivo pelo qual muitos agricultores a evitam. No entanto, no ano passado, a debulha natural foi tão insignificante que até meu pai ficou assombrado.
+
+A qualidade dos grãos foi, ademais, incontestavelmente superior. No momento da entrega da produção, o presidente da cooperativa e os encarregados do armazém demonstraram grande surpresa e não pouparam elogios. O resultado da inspeção oficial confirmou essa superioridade: enquanto as lavouras adubadas mal conseguiam a classificação de segunda classe, nosso arroz destacou-se de forma excepcional, recebendo a honra da primeira classe. Atribuo essa conquista unicamente à dádiva do cultivo sem adubos e por ela expresso minha mais profunda gratidão.
+
+A seguir, apresento um breve relatório com a média anual de produção por *tan*:
+
+| Ano | Método | Classificação | Produção por *tan* |
+| :--- | :--- | :--- | :--- |
+| 1949 | Com Adubo | Terceira Classe | 2 *koku* |
+| 1950 | 1º ano de Cultivo Natural | Segunda Classe | 1,6 *koku* |
+| 1951 | 2º ano de Cultivo Natural | Terceira Classe | 1,85 *koku* |
+| 1952 | 3º ano de Cultivo Natural | Primeira Classe | 2,25 *koku* |
+
+Os dados acima representam a média de produção por *tan* em toda a área cultivada.
+
+Gostaria de acrescentar que, em todas as etapas do cultivo, jamais tive a intenção de desviar-me dos Ensinamentos. Contudo, reconheço que ainda há inúmeras falhas e negligências no aspecto técnico de meu trabalho, pelas quais peço sinceras desculpas.
+
+A alegria de ter recebido o dom da vida se intensifica a cada dia. Agraciados com saúde e com a permissão de vivermos nossos dias felizes, quão afortunados somos! Na agricultura, da mesma forma, as palavras me faltam para expressar a gratidão por me ser permitido colher safras cada vez maiores, ano após ano, por meio do Cultivo Natural. Meu coração transborda com o desejo de levar a notícia deste sagrado Caminho a todas as pessoas que sofrem no mundo e de compartilhar com elas os grandiosos resultados da Agricultura Natural.
+
+Ainda que de forma sucinta, apresento este relato.
+Meishu-Sama, minha mais profunda gratidão.
+
+*(Relato enviado em 16 de fevereiro de 1953)*
+
+---
+
+# A Graça da Recuperação dos Bens Furtados
+
+**Categoria:** tato | **Ano:** 昭和24(1949)年4月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 盗難品が出た御利益 | **Status:** Published
+
+## A Graça da Recuperação dos Bens Furtados
+*Paraíso Terrestre*, n.º 3, publicado em 20 de abril de 1949
+*Jikan Sosho*, 4.ª Coletânea, *Contos de Milagres*, publicado em 5 de outubro de 1949
+
+Arai Hana (38 anos) – Associação Yuukou Kai, Tochigi
+
+Em 24 de maio de 1948, durante uma noite chuvosa, fomos despertados pelos latidos estridentes de nosso cão na fábrica de tingimento de lã. Apesar de uma sensação de inquietação, nada encontramos de anormal e retornamos ao leito.
+
+Ao amanhecer, contudo, constatamos que a fábrica havia sido invadida por um ladrão. Com grande pesar, compreendemos que o alarme do cão marcara o momento exato da invasão. Uma inspeção revelou o local em desordem e o furto de uma considerável quantidade de fios de seda; havia, inclusive, um rastro de fios que se estendia da fábrica até a estrada. Embora eu já considerasse tudo perdido, dirigi-me imediatamente ao altar de Komyō Nyorai-Sama, entronizado em meu lar, e roguei para que nos salvasse desta calamidade.
+
+Para minha surpresa, poucas horas depois, recebemos um telefonema da polícia comunicando a captura do ladrão. Era um fato notório em nossa região que, apesar dos frequentes furtos de fios de algodão, os bens subtraídos jamais haviam sido recuperados. Dirigi-me prontamente à delegacia e, para minha imensa alegria, todos os dezessete fardos de seda foram restituídos às minhas mãos.
+
+Ademais, tive a oportunidade de conversar com o próprio ladrão, um homem de origem coreana. Ele me confessou que, embora já tivesse invadido diversas outras residências, sentiu um temor inexplicável ao entrar em nossa propriedade. Fiquei estarrecida quando ele revelou portar um punhal com a intenção de assassinar quem quer que aparecesse.
+
+Compreendi, então, a profundidade da proteção Divina: se alguém de nós houvesse saído para verificar o ruído, certamente teria sido morto ou, no mínimo, gravemente ferido. Transbordando de gratidão por essa sucessão de bênçãos, dirigi-me sem demora à Sede Central de Tamagawa para registrar meu mais profundo agradecimento.
+
+---
+
+# Salva por uma conversa ouvida no trem
+
+**Categoria:** tato | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 電車中で聞いた話から救わる | **Status:** Published
+
+## Salva por uma conversa ouvida no trem
+
+Publicado em “A Terapia Revolucionária da Tuberculose”, 15 de agosto de 1951.
+Sumiko Shimizu (29 anos), Igreja Kohō, Província de Fukuoka.
+
+Em fins de março do ano passado, tive a ventura de ouvir pela primeira vez sobre os Ensinamentos por meio do Sr. Miyabe, durante uma viagem de trem pela cidade de Okawa. Em princípios de abril, recebi a permissão de ingressar na fé. Naquela época, eu havia sido diagnosticada com tuberculose pulmonar; os médicos afirmaram que meu pulmão direito estava em estado gravíssimo e a doença, em fase ativa. Fui aconselhada a me internar imediatamente para tratamento, além de tomar diversas outras precauções. Contudo, a simples ideia de hospitalização, injeções e medicamentos me causava profunda aversão. Por essa razão, sentindo-me desmotivada, permaneci em casa, passando os dias sem rumo.
+
+Foi então que meu esposo, em um trem com destino a Ōtetta, encontrou providencialmente o mesmo Sr. Miyabe, a quem não conhecia, e ouviu dele os pormenores da Doutrina. Ao retornar, ele me relatou a conversa, e senti que aquilo era a orientação de Deus da Luz. Imediatamente, pedi que me levasse à Igreja de Okawa, e partimos sob uma chuva torrencial. Chegando lá, explicaram-nos que, por ser uma localidade distante e de difícil acesso, a viagem poderia ser prejudicial à minha saúde. Assim, recomendaram-nos a Sala de Reunião de Kokubu, na cidade de Kurume, para onde me dirigi no dia seguinte.
+
+Coincidentemente, era um dia de aprimoramento. Enquanto ouvia a palestra, recebia Johrei, e ao término dos três dias de seminário, minha respiração já se tornara notavelmente mais fácil e a febre começara a ceder, trazendo-me um alívio imenso. Desde então, passei a frequentar assiduamente a Sede Central em Tosu, sem faltar uma única vez. A cada visita, eu invariavelmente passava por purificações que duravam dois ou três dias, mas, após cada uma delas, sentia-me progressivamente melhor e mais revigorada.
+
+Nos três primeiros meses de fé, minha rotina permaneceu inalterada, ainda sem realizar grandes tarefas. No entanto, no final de junho, minha mãe faleceu subitamente e, como não havia outra mulher na casa, precisei assumir sozinha todas as responsabilidades domésticas. No início, a exaustão era tamanha que chegava a me privar do sono, mas, à medida que me habituava ao trabalho, sentia minhas forças se renovarem dia após dia. Hoje, realizo qualquer atividade sem dificuldade, experienciando apenas purificações leves e esporádicas. E, para coroar essa graça, estou grávida, uma bênção que aguardava há exatos dez anos.
+
+A alegria de meu esposo, pais e irmãos é indescritível. Desde a infância, minha saúde sempre foi frágil. Submeti-me a toda sorte de medicamentos, injeções e até mesmo a tratamentos de acupuntura e moxabustão. Meu corpo estava tão debilitado que eu mal conseguia conversar com outras pessoas por mais de duas horas diárias. O fato de ter me tornado tão saudável e ter sido abençoada com um filho, algo que tanto eu quanto os outros já havíamos descartado como impossível, e tudo isso em um período de apenas seis meses, parece um verdadeiro sonho.
+
+Sinto que me faltam palavras para expressar a gratidão por ter recebido uma graça tão grandiosa, sendo ainda tão nova na fé. Toda a minha família agradece do fundo do coração. Como minha saúde era tão precária até pouco tempo, as pessoas ao meu redor, de comum acordo, preocupam-se e me recomendam remédios e injeções supostamente benéficos para gestantes. A todos, respondo simplesmente: "Esta é uma criança que me foi concedida por Deus, por isso seguirei os Ensinamentos". E assim, entrego-me com total confiança ao poder de Deus da Luz.
+
+Atualmente, cada vez que sinto o bebê se mover, transborda em meu peito uma alegria que palavras não podem descrever. Sou imensamente grata.
+
+---
+
+# Salva da iminência da morte por tuberculose renal e meningite
+
+**Categoria:** tato | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 摘出の腎臓結核、脳膜炎で 死の一歩前より救わる | **Status:** Published
+
+## Salva da iminência da morte por tuberculose renal e meningite
+
+Publicado em "A Terapia da Fé para a Tuberculose", 1º de dezembro de 1952
+Fumiko Misasagawa (31 anos), Igreja Kyokko-Tyu, Hokkaido
+(Relato enviado em 16 de março de 1951)
+
+Com a mais profunda reverência, venho relatar a sublime graça que recebi e expressar minha sincera gratidão.
+
+Recebi a graça de ingressar na fé em fevereiro deste ano, mas minha jornada de sofrimento começou em 31 de junho de 1946, quando fui acometida por uma nefrite tuberculosa aguda. Fui imediatamente hospitalizada e submetida a uma cirurgia para a extração do rim esquerdo. Recebi alta em 10 de julho e, por um tempo, vivi sem maiores intercorrências.
+
+Contudo, em abril de 1949, cerca de seis meses após o nascimento de minha filha mais velha, comecei a sentir dores na bexiga ao urinar, e minha urina apresentava pus. Meus dias tornaram-se um tormento. Tentei um tratamento caseiro com fitoterapia chinesa, mas, quatro meses depois, em fevereiro de 1950, minha condição me forçou a retornar ao hospital municipal. Lá, fui submetida a tratamentos com medicamentos e injeções, todavia, sem resultados satisfatórios. Em dezembro do mesmo ano, procurei uma clínica particular, onde iniciei um tratamento com penicilina e outros antibióticos. Embora a dor na bexiga e o pus na urina tenham cessado, fui informada de que a região do hilo pulmonar já havia se agravado. Segui, então, resignadamente, o tratamento indicado pelos médicos.
+
+Nesse mesmo período, meu filho mais velho, Yoshiro, teve uma reincidência de otite média, o que nos levou a frequentar o hospital juntos. Com dois doentes na família, as despesas tornaram-se um fardo considerável. Aos três anos, ele contraiu sarampo e, em decorrência disso, desenvolveu uma otite que exigiu sua internação no hospital nacional. Naquela ocasião, ele se recuperou completamente em poucos dias. Por aproximadamente um ano e meio, tudo correu bem. Depois disso, porém, a cada resfriado, a otite retornava, acompanhada de secreção purulenta. As injeções interrompiam o problema temporariamente, mas bastava um novo resfriado para que o ciclo de pus e injeções se repetisse.
+
+Em dezembro de 1950, meu filho contraiu um resfriado e, desta vez, queixou-se de uma dor de cabeça sem precedentes, enquanto a secreção do ouvido fluía sem cessar. Recorremos novamente à penicilina, mas a cefaleia persistia. No início de fevereiro deste ano, ao retornar do hospital, passei pela casa de meus parentes, os Sakai. Eles me informaram que um ministro da Sekaikyuseikyou estava de visita e me incentivaram a subir ao segundo andar para ouvir o que ele tinha a dizer. Eu já havia estado em uma situação semelhante, mas na primeira vez, não dei muita atenção ao que ouvi. Desta vez, porém, eles insistiram, dizendo que eu poderia ouvir mesmo que duvidasse. Assim, acedi ao convite e subi as escadas.
+
+Ouvi as palavras do ministro, mas confesso que me parecia inconcebível que uma doença pudesse ser curada apenas pela imposição das mãos. Meus parentes, contudo, encorajaram-me: "Apenas experimente receber Johrei uma vez". Movida pela curiosidade, o ministro então se dirigiu a mim: "A senhora mencionou sentir dor na região do hilo pulmonar. Por favor, vire-se de costas". Ele canalizou Johrei por cerca de três minutos em minhas costas e, para meu espanto, a dor que se irradiava do meu ombro direito até a área pulmonar simplesmente desapareceu. Senti algo verdadeiramente extraordinário. Em seguida, o ministro nos falou sobre as sublimes virtudes de Komyô Nyorai-Sama e nos ensinou que a doença é um processo de purificação, uma abençoada graça divina. A partir daquele dia, tanto meu filho quanto eu passamos a receber Johrei regularmente.
+
+A aflitiva dor no hilo pulmonar desapareceu após três sessões de Johrei, e a cefaleia de meu filho foi curada com aproximadamente o mesmo número de ministrações. Um fato notável foi que minha urina, que se tornara clara durante o tratamento com antibióticos, voltou a apresentar pus logo no primeiro dia em que recebi Johrei. O ministro, ao ser consultado, esclareceu: "Os remédios solidificam as toxinas, enquanto o Johrei as dissolve para que sejam eliminadas. Não há motivo algum para preocupação". Seguindo seu conselho, continuei a receber Johrei diariamente e, a cada dia, sentia minhas forças se renovarem. Eu, que antes era incapaz de carregar objetos pesados e que jamais havia conseguido carregar minha filha nas costas desde o seu nascimento, tive a permissão de levá-la ao Ofício Religioso da Igreja em abril, carregando-a em minhas costas. Meu filho, por sua vez, também pôde voltar a frequentar a escola com vigor e alegria.
+
+Inicialmente, apenas meu filho e eu recebemos a graça da outorga, mas logo em seguida, meu marido também ingressou na fé, e tivemos a permissão de entronizar a Imagem de Komyô Nyorai-Sama em nosso lar. Em 28 de julho, um marco de nossa recuperação, a família inteira pôde ir à praia. Em nítido contraste com os anos anteriores, receber a graça de desfrutar de um passeio como esse juntos é uma alegria que palavras não podem expressar.
+
+Meishu-Sama, muito obrigada.
+
+Doravante, desejo me tornar uma serva de Deus, compartilhar a grandiosidade deste sagrado caminho com o maior número possível de pessoas e, assim, ser útil na Obra de construção do Paraíso Terrestre. Com estas linhas singelas, encerro meu relato e reitero minha mais profunda gratidão.
+
+(Relato enviado em 1º de setembro de 1951)
+
+---
+
+# A Muda que Não Tombou
+
+**Categoria:** tato | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
+**Título Original:** 倒れぬ苗 | **Status:** Published
+
+## A Muda que Não Tombou
+*Publicado na revista “Paraíso Terrestre” n.º 2, em 1 de março de 1949.*
+*Publicado na “Coletânea Jikan”, 2ª edição, “Método de Cultivo sem Adubos”, em 1 de julho de 1949.*
+
+Uichi Ojima (22 anos)
+Hozanso, Igreja Messiânica do Japão, Tóquio
+
+Os efeitos prodigiosos sobre o corpo humano já são do conhecimento de todos. Portanto, desejo relatar, com total fidelidade aos fatos, o grandioso poder de Kannon (観音) que tive a oportunidade de testemunhar no mundo vegetal.
+
+No final de abril do ano passado, as mudas de berinjela, que finalmente haviam ganhado vigor no canteiro, começaram a tombar uma após a outra. Contudo, para a plena compreensão do ocorrido, creio ser necessário descrever previamente as características dessas mudas.
+
+Segundo as teorias convencionais, as mudas de berinjela tombam quando expostas ao frio enquanto ainda estão no canteiro. Ao se examinar uma muda que tombou, observa-se que a parte inferior da raiz e o ponto de inserção no solo estão apodrecidos. Mesmo que o avanço da doença se contenha e uma muda aparente estar sã e vigorosa, permanece a incerteza de quando poderá tombar. Ainda que transplantada para o campo e atingindo o porte de frutificação, ela acaba sucumbindo e morrendo. Por conseguinte, quando as mudas começam a cair abruptamente no canteiro, por mais que muitas outras permaneçam de pé, a insegurança impede que sejam transplantadas para o campo. Essa é a realidade que enfrentamos.
+
+Pois bem, as mudas de minha família acabaram por contrair essa mesma enfermidade. Naquela época, os dias eram persistentemente nublados, então é possível que de fato tenham sofrido com o frio, conforme descrito. Meu pai e meu irmão mais velho, já sem esperanças, decidiram descartá-las e semear novas sementes diretamente no campo. Ao presenciar a cena, senti que era o momento de agir. Escolhi uma das mudas — uma que estava murcha, com a ponta completamente caída sobre a terra — e, com fervor, ministrei-lhe Johrei.
+
+Não sei precisar quanto tempo transcorreu, mas gradualmente a muda foi reavendo seu vigor, até que, por fim, se restabeleceu por completo. Em seguida, ministrei Johrei a todas as outras mudas que aparentavam estar sadias. O resultado foi que, a partir do dia seguinte, o tombamento, que vinha se intensificando diariamente, cessou de forma abrupta e total.
+
+Um milagre! Foi um verdadeiro milagre. A emoção foi tamanha que corri para casa e, esquecendo-me de tudo o mais, narrei com entusiasmo a grandiosidade do poder de Kannon (観音).
+
+Na época do transplante para o campo, nossas mudas pareciam um tanto inferiores em comparação com as de outros agricultores. Contudo, iniciaram um desenvolvimento notável e, de forma esplêndida, superaram todas as outras em porte e vitalidade.
+
+Quem, até hoje, poderia ter sequer imaginado algo assim? Seria possível que tal feito se realizasse sem o poder de Kannon (観音)? O poder de Kannon (観音) é verdadeiramente grandioso. É, portanto, com o coração pleno de gratidão que redijo estas palavras e apresento este relato.
+
+---
+
+# Inabalável ao Tufão: A Colheita de Mais de Nove Fardos por Tan
+
+**Categoria:** tato | **Ano:** 昭和25(1950)年11月22日 | **Fonte:** Eikou
+**Título Original:** 台風にも倒伏せず反当り九俵余の収穫 | **Status:** Published
+
+## Inabalável ao Tufão: A Colheita de Mais de Nove Fardos por Tan
+
+Publicado na revista Eikou nº 79, em 22 de novembro de 1950
+Relato contido na Coletânea de Artigos sobre a Agricultura Natural
+Tatsuo Kusugaya (38 anos)
+Igreja Eisho, Província de Shizuoka
+
+Venho, por meio deste relato, apresentar a experiência e as impressões que colhi ao praticar o cultivo natural do arroz. Confesso que, no instante em que recebi o Ensinamento sobre o método da Agricultura Natural, o que me assaltou o pensamento foi uma afirmação que, ouso dizer, era assustadora: “as plantas podem crescer sem adubo”. De fato, nós acreditávamos firmemente que o adubo era para as culturas o mesmo que o alimento é para o ser humano. Contudo, embora parecesse algo benéfico, era, na verdade, um equívoco que contrariava a Vontade da Grande Natureza, isto é, a Vontade de Deus.
+
+Uma vez que me foi concedido o Ensinamento de que, por meio da Agricultura Natural, seríamos abençoados com proteção contra toda sorte de intempéries, decidi aplicá-lo justamente em um arrozal de colheita única e solo fofo, onde, no ano anterior, cerca de dois terços da plantação havia tombado. Para o cultivo, selecionei a variedade “Taisho Akaho”, uma espécie de colheita tardia conhecida por sua alta estatura e suscetibilidade a doenças. Com a época da semeadura já próxima, preparei o canteiro com palha cortada em pedaços de aproximadamente três centímetros e, após ministrar Johrei às sementes, realizei o plantio em 7 de maio.
+
+O canteiro, sendo em campo alagado, viu as sementes germinarem após alguns dias. Contudo, as mudas estavam excessivamente ralas, e desde logo comecei a nutrir apreensões quanto ao futuro. Embora com o passar dos dias tenham ganhado algum volume, apresentavam uma tonalidade amarelada e, em meio a essa incerteza, a época do transplante se aproximava.
+
+A área do arrozal em questão era de aproximadamente trezentos metros quadrados, nos quais incorporei dez feixes de capim fresco. Recordo-me ainda hoje de como, enquanto me dedicava a essa tarefa, meu coração se enchia de uma serenidade inexplicável. A Providência Divina se manifestou com a chegada da estação chuvosa, e um dia de garoa fina proporcionou a oportunidade ideal para o transplante, que concluí sem percalços em 2 de junho. Ato contínuo, ajoelhei-me perante o Altar Divino e orei com fervor. O método consistiu em plantar as mudas em fileiras, espaçadas em cerca de quarenta centímetros, com quinze centímetros entre cada cova, utilizando majoritariamente uma única muda por ponto.
+
+Realizei a primeira capina em 3 de julho. Nessa época, meu arrozal não se distinguia do campo vizinho, que recebera adubação, e eu me preparava espiritualmente para a purificação que se avizinhava. Após essa primeira limpeza, apliquei aproximadamente duzentos e sessenta quilos de composto orgânico semicurado por tan, preparado com água limpa, no seu estágio mais aromático. Por volta de 10 de julho, as plantas começaram a amarelar gradualmente, atingindo o ápice da purificação perto do dia 20. Convencido de que aquele era um período de grande provação, passei a ministrar Johrei diariamente.
+
+Houve momentos em que minha fé vacilou e a tentação de usar adubo me assaltou. Contudo, em cada uma dessas ocasiões, eu me reconectava em espírito com Meishu-Sama, rememorando Seus Ensinamentos. Apegava-me à crença de que se tratava de uma purificação necessária para expelir as toxinas do adubo e, para não me desviar do caminho, evocava a imagem das ondas douradas da colheita vindoura. Efetuei a segunda capina em 23 de julho e, cerca de uma semana depois, as plantas começaram a readquirir seu vigor, retornando à sua cor verdejante e à aparência original da variedade Akaho.
+
+Gostaria de registrar aqui uma observação sobre o perfilhamento. Em 18 de julho, contei de dez a treze perfilhos por touceira; em 7 de agosto, já eram de quinze a vinte. Eu ouvira dizer que, no cultivo com adubo, os perfilhos tardios são improdutivos. Por isso, marquei uma touceira para verificar e, no momento da colheita, para minha surpresa, constatei que não houve um único perfilho inviável; todos haviam se desenvolvido e amadurecido plenamente.
+
+Com o fim de julho, os trabalhos de capina se encerraram, restando apenas a feliz expectativa pelo outono da colheita. Foi então que se iniciou a estação dos tufões, a mais temida pelos agricultores, e minhas preocupações se renovaram. Como previsto, um tufão atingiu a região, e por toda parte se viam plantações tombadas, chegando aos meus ouvidos os lamentos de outros agricultores. Quão imensa, porém, foi minha gratidão ao constatar que, em meu campo, nem uma única planta havia tombado, embora, em um cultivo com adubo, certamente tivessem sucumbido. As plantas mediam mais de um metro de altura. O fato de nenhuma delas ter tombado, se não é um milagre, o que mais poderia ser?
+
+O tempo das provações, quando eu capinava sob o sol escaldante do meio-dia, derramando suor, com o coração aflito ao ver as folhas amareladas, enfim ficara para trás. Chegou a estação da colheita, com suas manhãs e noites frescas. Ao brandir a foice para cortar os pés de arroz, surpreendi-me com a dureza de seus caules, que se assemelhavam aos do junco. Foi nesse momento que compreendi: com plantas assim, não há por que temer o tombamento, as pragas ou as doenças.
+
+A seguir, apresento os resultados da colheita:
+
+1.  **Variedade:** Taisho Akaho
+2.  **Canteiro de Mudas:**
+    a. Tipo: Canteiro em campo alagado
+    b. Densidade de Semeadura: Aproximadamente 180 ml por 3,3 m²
+    c. Área do Canteiro: Aproximadamente 40 m² por tan
+3.  **Composto Orgânico:** Aproximadamente 260 kg por tan (preparado com água limpa)
+4.  **Transplante:**
+    a. Método: Em fileiras, com 40 cm entre linhas e 15 cm entre covas
+    b. Data: 20 de junho
+    c. Número de Mudas: Uma a duas por cova
+5.  **Capina:** Primeira em 3 de julho; segunda em 22 de julho
+6.  **Perfilhamento:**
+    a. 18 de julho: 10 a 13 perfilhos
+    b. 7 de agosto: 15 a 20 perfilhos
+7.  **Colheita:**
+    a. Produção Bruta por 3,3 m²: 3,8 litros
+    b. Arroz Integral por 3,3 m²: 2,25 litros
+    c. Produção por tan: 9 fardos e 27 litros
+    d. Aumento em Relação à Maior Colheita Anterior: 2 fardos e 27 litros
+
+Os resultados acima descritos me deixaram estarrecido com o volume da colheita, que superou todas as expectativas. Creio que o fato de o rendimento ser superior à aparência se deve à maior rigidez dos caules em comparação com os do cultivo adubado. Consequentemente, mesmo com o peso dos grãos, as panículas não pendem, o que permite o amadurecimento completo de toda a espiga.
+
+Esta Agricultura Natural, que nos isenta das preocupações com intempéries, doenças e pragas, e ainda nos presenteia com uma colheita surpreendente, é, sem dúvida, o segredo concedido por Deus para o aumento da produção de alimentos. Sou levado a crer, com a mais profunda convicção, que é preciso, antes de tudo, “vivenciar”. A prática precede a teoria.
+
+Muito obrigado, Meishu-Sama.
+
+(Submetido em 22 de novembro de 1950)
+
+---
+
+# A Sublime Proteção Divina e a Insensatez da Medicina Moderna
+
+**Categoria:** tato | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
+**Título Original:** 尊き神様の御守護と現代医学の愚かさ | **Status:** Published
+
+## A Sublime Proteção Divina e a Insensatez da Medicina Moderna
+
+Publicado na revista Eikoh, nº 194, em 4 de fevereiro de 1953
+Igreja Minori Naka, Província de Shizuoka
+Tomiko Saitoh (42 anos)
+
+Meishu-Sama, sou imensamente grata por Suas inumeráveis proteções. Desejo, por meio deste relato, reportar uma parcela da purificação e da proteção divina concedidas ao senhor Kyuji Ozawa, de 39 anos, a quem tive a permissão de ministrar Johrei.
+
+Por volta do dia 10 de junho, soube que o senhor Kyuji estava acamado. Embora aparentasse ser uma pessoa robusta, ele frequentemente se queixava de dores de cabeça e se ausentava de suas atividades, recorrendo, ao que parece, a injeções de penicilina em cada uma dessas ocasiões. Com o desejo de auxiliá-lo em seu processo de salvação, fui visitá-lo sem demora.
+
+Ao me aproximar, perguntei: "Senhor Kyuji, como se sente?". Ele abriu os olhos ligeiramente e respondeu: "Na mesma, estou em apuros". Relatou que, se mantivesse os olhos abertos por muito tempo, o quarto parecia girar vertiginosamente. Removi a bolsa de gelo e, ao tocar sua testa, senti-a gélida; contudo, ele se queixava de que o gelo não surtia efeito. Apesar de coberto por três edredons, tremia e repetia que sentia muito frio. Naquele dia, ele não pareceu ter qualquer sensação durante a ministração do Johrei. Adverti-o, dizendo: "É preciso remover o gelo, caso contrário a vertigem se intensificará e o senhor não conseguirá se levantar". Em desânimo, ele desabafou, com palavras que contrastavam com sua habitual audácia: "O médico primeiro disse que era pneumonia, mas agora afirma que o problema é no peito. Fiquei tão debilitado... Devo ter pouco tempo de vida". Procurei encorajá-lo: "A questão do senhor Kyuji não é o peito; uma vez que sua cabeça melhore, tudo se resolverá. Vamos orar para que se recupere logo, mantendo a magnanimidade de sempre. Farei o possível para vir todos os dias".
+
+No caminho de volta, encontrei sua esposa. Com os olhos marejados, ela me contou, em uma situação verdadeiramente lastimável: "É muito difícil. Se fico em casa, ele se irrita, dizendo que o trabalho no campo ficará atrasado. Se vou para o campo, ele se queixa de que o estou abandonando e me atormenta, dizendo que vai para a montanha. Não quero voltar para casa, mas também não posso deixá-lo sozinho". Eu, por minha vez, ia visitá-lo apressadamente todos os dias após retornar do meu trabalho na montanha, mas, por ser uma época de intensa atividade agrícola, só conseguia ir ao anoitecer.
+
+Passada cerca de uma semana, a bolsa de gelo, antes tão desejada, já estava guardada em um lugar alto. Seu corpo havia se aquecido, e a palidez doentia de seu rosto dera lugar a uma aparência saudável. Ele passou, então, a aguardar minhas visitas com grande expectativa. O médico, que até então afirmava que "uma doença como esta não melhora tão rápido", ficou, segundo relatos, surpreso ao vê-lo tão bem.
+
+Em um dia chuvoso, ele me recebeu radiante, massageando o próprio braço, e disse: "O médico esteve aqui hoje e falou que não há mais necessidade de tirar um raio-X. Sinto que posso fazer qualquer coisa! Comi até dez bolinhos de arroz, dos quais tanto gosto". Aconselhei-o a não cometer excessos e, ao me despedir, senti uma alegria indescritível transbordar em meu peito, enquanto as palavras "Meishu-Sama, muito obrigada" brotavam repetidamente de meus lábios.
+
+No dia seguinte, após um trabalho exaustivo na montanha distante, pensei em descansar e não fazer a visita, pois já era tarde. Contudo, uma inquietação me dominou, e decidi perguntar a um vizinho sobre o estado do senhor Kyuji. "Pela manhã, ele estava ótimo, conversando animadamente", disse o vizinho. "Mas, depois do meio-dia, o médico passou por aqui e, pouco tempo depois, ele começou a gemer, queixando-se de mal-estar e dor de cabeça". Perguntei: "Parece que lhe deram uma injeção?". "Sim", ele confirmou, "e umas duas horas depois da injeção, ele disse que começou a se sentir mal". Sem pensar, deixei escapar: "Foi por isso que ele piorou!". Fui tomada por uma angústia dilacerante. Ontem ele estava tão feliz, e o próprio médico havia atestado sua melhora, dispensando o raio-X! Por que, então, aplicar uma injeção? Por um instante, pensei que aquela seria uma oportunidade para demonstrar qual dos dois era mais valioso: a sublime proteção de Deus ou o médico. Imediatamente, porém, arrependi-me desse pensamento e, em meu coração, pedi perdão a Meishu-Sama. Ainda assim, não consegui encontrar forças para ir até lá. Durante minha oração da noite, a imagem do doente não me saía da mente. Sentei-me para o jantar, mas o hashi parecia pesado em minhas mãos, e eu não tinha vontade de conversar.
+
+Ah, que sentimento avassalador... Em minha casa, sou a única a ter recebido a Luz Divina e, por diversas circunstâncias, ainda não tenho um Altar consagrado. Por isso, acalmava meu espírito turbulento diante da caligrafia "Nikko" (Luz do Sol), diante da qual realizo minhas orações matinais e noturnas. Pensei que talvez fosse ser despertada durante a noite e, mal havia adormecido, quando o som de batidas na porta me acordou. "Boa noite! Boa noite!". Era, inconfundivelmente, a voz da esposa do senhor Kyuji. "Perdoe-me por acordá-la", disse ela, "sei que é tarde e lamento muito, mas preciso de sua ajuda. Ele está em um estado terrível, gritando de dor de cabeça. Disse que, se eu não viesse buscá-la, ele mesmo viria. Pegou a bicicleta, mas acabou caindo e agora, em sua agonia, está descarregando sua fúria em tudo e em todos".
+
+Fui imediatamente com ela e me deparei com uma cena desoladora, completamente diferente da do dia anterior. Seus olhos estavam injetados e revirados, ele tremia violentamente de frio e gritava por bolsas de água quente. Era uma situação caótica. Entoei a Oração Amatsu-Norito e comecei a ministrar-lhe Johrei na cabeça, mas a purificação se intensificava a cada momento. Ele alternava entre momentos de delírio, em que balbuciava coisas sem nexo, e breves instantes de lucidez. De repente, levantou-se de um salto e bradou: "Minha cabeça vai se desintegrar no ar! Meu corpo está flutuando! Rápido, peguem um machado e rachem minha cabeça!". Em seguida, apontando para um canto, disse: "Meu pai, que morreu há três anos, veio me buscar. Ele está ali". E concluiu: "Não tem mais jeito". Nesse momento, nossos olhares se cruzaram.
+
+Foi então que me lembrei de ter-lhe emprestado um exemplar do livro *O Paraíso Terrestre*. Imediatamente, peguei o livro e posicionei a capa, com a imagem de Kannon (観音), de frente para seu leito, suplicando por proteção. Orei também no altar budista da família e, ao entoar a oração, a imagem de Meishu-Sama surgiu diante de meus olhos, sorrindo serenamente. Implorei: "Meishu-Sama, por favor, ajude-o!". A visão, porém, pareceu transmitir um sentimento de que aquilo era "interessante". Aproximei-me do doente. Ele então me disse: "Irmã, peço desculpas por lhe causar um transtorno que nem mesmo um parente causaria. Mas... minha visão está escurecendo, já não consigo enxergar". Dito isso, ele foi adormecendo aos poucos, ainda gemendo.
+
+O céu a leste começou a clarear, e logo o relógio marcou quatro horas da manhã. Preocupada, a esposa me pedia conselhos sobre o que fazer e, por fim, perguntou: "Posso chamar o médico?". Compreendendo que eu não poderia impor minha fé a ela, mesmo que eu mesma me apegasse unicamente a Deus, respondi: "Não há problema". Às cinco, quando os vizinhos começaram a chegar para a visita, decidi ir para casa.
+
+Durante minha oração da manhã, perguntei em meu coração: "Devo continuar a ministrar-lhe Johrei ou seria melhor parar? Por favor, ensinai-me o caminho". Novamente, a imagem de Meishu-Sama surgiu em minha mente, movendo a mão como se dissesse: "Continue a servi-lo". Prostrei-me em profunda gratidão. Meu desejo era ir até lá imediatamente, mas ponderei que, como mensageira deste sagrado Caminho, não deveria adotar uma atitude impositiva para com aqueles que ainda não o compreendem. Por isso, decidi visitá-lo à tarde.
+
+Ao chegar, encontrei-o ainda em sono profundo. Sua esposa me relatou: "Fui chamar o médico às seis da manhã, mas ele disse que não poderia vir hoje, pois precisa realizar uma autópsia. Sei que estou lhe pedindo muito, mas, por favor, nos ajude". Ao ouvir aquilo, fiquei maravilhada com a magnitude da proteção Divina.
+
+Graças a essa circunstância, a purificação intensa, com fortes diarreias e transpiração abundante, durou cerca de três dias, após os quais ele recuperou vigorosamente suas forças. E, misteriosamente, o médico nunca mais apareceu. Hoje, ele passa ocasionalmente por purificações leves, mas tem total liberdade para ir aonde desejar.
+
+Foi uma imensa felicidade que o médico não tenha vindo, pois essa ausência permitiu que ele fosse salvo por esta sublime proteção, que nos ensinou de forma inequívoca a diferença em relação à medicina moderna.
+
+Meu marido, que até então não compreendia, testemunhou tudo e decidiu receber a Luz Divina junto com o senhor Kyuji. Por esta dupla proteção, minha gratidão é imensa.
+
+Meishu-Sama, muito obrigada.
+
+(16 de outubro de 1952)
+
+---
+
+# A Transmutação do Infortúnio em Bênção
+
+**Categoria:** tato | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 転禍移福 | **Status:** Published
+
+## A Transmutação do Infortúnio em Bênção
+
+*Extraído de “A Terapêutica Revolucionária da Tuberculose”, publicado em 15 de agosto de 1951, e “A Terapêutica da Tuberculose pela Fé”, publicado em 1º de dezembro de 1952.*
+
+Kawakami Sakuichi (32 anos)
+Igreja Koyo Naka, Niigata
+
+Ao meditar serenamente sobre os últimos cinco anos, sou tomado por uma profunda emoção ao constatar a veracidade do ensinamento sobre a transmutação do infortúnio em bênção.
+
+Minha provação teve início em maio de 1946. O que eu supunha ser uma simples gripe que se agravara levou-me a um consultório médico, onde fui surpreendido pelo diagnóstico de pleurisia aguda. Aquele veredito me precipitou em um abismo de amargura e desespero. Após mais de três meses de repouso absoluto, que me deixaram tão debilitado a ponto de não conseguir me firmar sobre as pernas, as injeções e os cuidados médicos me proporcionaram uma melhora temporária.
+
+Todavia, a sensação de alívio foi efêmera. Com a chegada do frio invernal, a febre baixa, a dor no peito e um mal-estar constante retornaram, intensificando minha angústia. Naquela época, depositando fé inabalável na medicina materialista, busquei auxílio em hospitais universitários e médicos de renome, esgotando recursos em medicamentos raros e dispendiosos. Por fim, fui submetido a uma cirurgia para a raspagem da pleura. O diagnóstico era de abscesso peripleural, uma condição análoga à cárie das costelas. Foi uma intervenção de grande porte, com duração de cinco horas, e a dor que senti foi, de fato, a própria agonia da morte.
+
+O resultado de três meses de internação e tratamento, contudo, foi apenas o agravamento de meu estado e uma fraqueza cada vez maior. O médico então declarou: "Não há mais medicamentos que possamos utilizar. A única alternativa é uma nova cirurgia, três ou quatro vezes maior que a anterior". Mesmo que bem-sucedida, a operação me deixaria inválido. Naquele momento, compreendi que fora completamente desenganado. Foi a primeira vez que me dei conta da falibilidade da medicina e dos fármacos. Tomado pela desesperança, cheguei a cogitar seriamente o suicídio.
+
+Foi nesse ínterim que uma parente, a senhora Mine Kawakami, ao saber da iminente segunda cirurgia, falou-me com grande fervor sobre os ensinamentos da nossa Fé. Sem autorização, fugi do hospital e, transportado em um riquixá, dirigi-me ao Johrei Center de Maki. As palavras do reverendo Yamazaki, serenas e transbordantes de amor e compaixão, tocaram-me profundamente. Ali, tomei a firme decisão de não mais retornar ao hospital.
+
+Refletindo hoje, percebo que fui agraciado com a salvação no momento mais crítico, à beira do precipício. A cirurgia havia sido adiada por conveniência do médico; se eu não tivesse escapado naquele dia, teria sido transferido para o hospital universitário naquela mesma data. Diante da grandiosidade do misterioso Plano Divino, só me resta prostrar-me em reverência.
+
+Inicialmente, minha mãe ingressou na Fé e, enquanto frequentava a casa do reverendo, dedicava-se a ministrar-me Johrei assiduamente. Dois meses depois, eu já havia me recuperado o suficiente para também receber a Medalha da Luz. No entanto, no inverno de 1948, como se o Mundo Espiritual aguardasse o restabelecimento de minhas forças, teve início um processo de purificação em grande escala. Embora hoje eu compreenda que se tratava de uma eliminação de toxinas ideal, na época, a fraqueza de meu espírito e a intensidade do sofrimento fizeram-me, para minha vergonha, duvidar de Deus inúmeras vezes. Em cada uma dessas ocasiões, fui amparado pela orientação e pelo incentivo dos reverendos, o que me permitiu, ainda que aos tropeços, perseverar e alcançar a condição em que me encontro hoje.
+
+Essa purificação manifestou-se com uma drenagem de pus por todo o meu peito, que assumiu o aspecto de um favo de mel. A secreção era tão abundante que atravessava o algodão, a gaze e até mesmo um tecido absorvente que eu usava por cima, exigindo trocas duas ou três vezes ao dia. Ainda hoje, conservo as cicatrizes desse processo. Somou-se a isso uma diarreia que me levava ao banheiro mais de dez vezes por dia, um quadro que se estendeu do verão até a primavera seguinte. Além disso, sofri com tosse e uma expectoração tão intensa que o recipiente para o escarro precisava ser esvaziado duas vezes ao dia, uma provação que perdurou do outono até maio ou junho do ano subsequente.
+
+Nesse período, tive episódios recorrentes de sangue nas fezes e no escarro. Acompanhavam-me constantemente febre baixa, mal-estar, perda de apetite, dores abdominais e torácicas, e uma fraqueza extrema. Era, literalmente, um inferno em vida. Como não procurei auxílio médico, não houve um diagnóstico formal, mas os sintomas eram equivalentes aos da tuberculose pulmonar e intestinal, peritonite e cárie óssea, manifestando-se todos simultaneamente. Essa agonia prolongou-se por mais de um ano. Os vizinhos, minha família e até eu mesmo já havíamos nos resignado, acreditando que meu destino estava selado.
+
+Durante todo esse tempo, sempre que eu tendia ao pessimismo e à autodestruição, o reverendo Shiotani me amparava com um afeto que superava o de um pai. Mesmo diante das críticas e do sarcasmo de meu pai, que se opunha à minha fé, ele jamais demonstrou qualquer contrariedade. Vinha ministrar-me Johrei, oferecendo-me palavras de ânimo e consolo, e guiando-me pela mão. Faltam-me palavras para agradecer ao reverendo Shiotani, que foi para mim um verdadeiro emissário de Meishu-Sama.
+
+Minha gratidão se estende também à minha esposa, que, apesar do cansaço do trabalho, dedicou-se abnegadamente a cuidar de mim e a ministrar-me Johrei, jamais perdendo a esperança em minha recuperação. Não posso deixar de sentir um temor reverente diante da grandiosidade do Plano Divino, que se dignou a salvar alguém com tantas máculas como eu.
+
+Nesse ínterim, e apesar da oposição de meu pai, conseguimos entronizar em nosso lar a Imagem da Luz Divina e a Imagem de Kannon (観音). E hoje, tive a permissão de receber o Amuleto de Proteção.
+
+Assim, a enfermidade que me afligiu por cinco anos começou a ceder na primavera de 1950, com uma melhora gradual, porém constante. Atualmente, encontro-me em um estado de saúde que supera o que eu possuía antes de adoecer, e meu coração transborda de esperança ao pensar em me dedicar à Agricultura Natural e servir à Obra Divina a partir da próxima primavera.
+
+O elo que me uniu à Obra Divina foi, sem dúvida, a própria doença. Questiono-me sobre qual teria sido meu destino se não tivesse encontrado esta Fé. Foi uma encruzilhada decisiva em minha vida. Um infortúnio certamente teria gerado outros, arrastando minha família para uma tragédia e condenando minha esposa e filhos ao sofrimento. A mera suposição já é aterradora.
+
+A Meishu-Sama, que transmutou minha desgraça em felicidade, minha mais profunda e sincera gratidão. Muito obrigado.
+
+---
+
+# Total Ausência de Pragas e a Maior Cota de Entrega da Vila
+
+**Categoria:** tato | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 虫害皆無 超々過供出で村一番 イモチの被害に嘆く“有肥耕作者” | **Status:** Published
+
+## Total Ausência de Pragas e a Maior Cota de Entrega da Vila
+**O Lamento dos Agricultores que Utilizam Fertilizantes Diante dos Prejuízos da Brusone**
+*Revista Glória, nº 198, 4 de março de 1953*
+
+**Província de Toyama, Igreja Shinmei Naka**
+**Nagai Genji (31 anos)**
+
+Tive a graça de ingressar na fé em maio de 1948 e, desde então, tenho sido abençoado com inúmeras proteções divinas, pelas quais vivo meus dias e noites em profunda gratidão.
+
+Na época em que ingressei na fé, tive a oportunidade de assistir a uma explanação sobre a Agricultura Natural. Contudo, como em 1948 nossa região se dedica ao cultivo de arroz precoce, as mudas já haviam sido plantadas no início de abril. Assim, a partir do ano seguinte, 1949, iniciei a conversão de toda a minha terra cultivável ao método natural. Nesse período, fui agraciado com diversas proteções e, de modo especial, venho por meio desta relatar que, no ano de 1952, obtive uma colheita de produtividade média (cerca de 2,4 koku por tan), a despeito da péssima safra que assolou nossa localidade.
+
+No ano passado, nossa região foi assolada pela pior infestação de brusone de toda a província, resultando em uma situação desoladora. Segundo levantamento das autoridades, as perdas variaram de 35% a 80% da safra habitual. Em consequência, houve agricultores que, longe de conseguirem cumprir a cota de entrega ao governo, não tiveram arroz suficiente nem para o próprio sustento. Em virtude da quebra geral da safra, tornou-se inevitável um ajuste para reduzir a cota obrigatória, o que, por sua vez, agravou ainda mais as dificuldades financeiras das famílias rurais.
+
+Em contrapartida, as lavouras cultivadas pelo método da Agricultura Natural, conforme os Ensinamentos, permaneceram praticamente incólumes, embora tenha havido uma quantidade de grãos chochos superior à dos anos anteriores. O fato despertou a curiosidade dos demais moradores: muitos paravam para examinar as espigas com as próprias mãos e nos faziam inúmeras perguntas. Com efeito, nossa plantação tornou-se um referencial de qualidade na vila e o centro de todas as atenções.
+
+Pela graça divina, embora nossa estimativa inicial de entrega fosse conservadora e inferior à do ano anterior, o resultado final superou a cota estipulada pelas autoridades. Com isso, tivemos a honra de alcançar o melhor desempenho de toda a vila, com uma entrega que superou em mais de sete koku a própria meta excedente.
+
+Sinto-me imensamente grato por poder contribuir, ainda que minimamente, para a construção do Paraíso Terrestre, o magno projeto de Meishu-Sama. A Agricultura Natural, por meio desta grandiosa demonstração prática, provou seu valor inestimável tanto aos membros quanto aos não membros que ainda não a adotaram. Portanto, anseio proclamar a todos que este método é a chave para a paradisização das comunidades rurais e um verdadeiro evangelho para o mundo.
+
+Com este relato singelo, apresento uma parcela dos resultados concretos que obtivemos.
+
+Minha profunda gratidão a Meishu-Sama por Sua divina proteção.
+
+*(Relato enviado em 13 de fevereiro de 1953)*
+
+---
+
 # Salvo às Vésperas da Quinta Cirurgia de Tracoma
 
 **Categoria:** tato | **Ano:** 昭和27(1952)年4月2日 | **Fonte:** Eikou
+**Título Original:** トラホームで五回目の手術寸前に救わる | **Status:** Published
 
 ## Salvo às Vésperas da Quinta Cirurgia de Tracoma
 
@@ -43,6 +1024,7 @@ Meishu-Sama, muito obrigado.
 # O Pavor do Vício em Injeções: A Causa de Trinta Anos de Asma
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年3月25日 | **Fonte:** Kyusei
+**Título Original:** 注射中毒の恐ろしさ 三十年来の喘息の因 | **Status:** Published
 
 ## O Pavor do Vício em Injeções: A Causa de Trinta Anos de Asma
 
@@ -66,6 +1048,7 @@ Tendo recebido, mãe e filho, graças sobre graças, e com o profundo desejo de 
 # Coletânea de Milagres da Sekaikyuseikyo
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 谷へ転落一命救わる | **Status:** Published
 
 ## Coletânea de Milagres da Sekaikyuseikyo
 ## Salvo de uma Queda em um Precipício
@@ -107,6 +1090,7 @@ Meishu-Sama, muito obrigado. (Gassho)
 # Da Vida de Luta contra a Doença à Vida de Luz
 
 **Categoria:** tato | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 闘病生活より光明生活へ | **Status:** Published
 
 ## Da Vida de Luta contra a Doença à Vida de Luz
 
@@ -139,6 +1123,7 @@ Rendo-Lhe minha mais profunda e sincera gratidão.
 # Um Exemplo Concreto que Demonstra o Poder do Johrei
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
+**Título Original:** 台湾坊主治る 浄霊の威力示す実例 | **Status:** Published
 
 ## Um Exemplo Concreto que Demonstra o Poder do Johrei
 *Publicado na revista “A Salvação”, nº 49, em 11 de fevereiro de 1950*
@@ -163,6 +1148,7 @@ Os fios continuaram a crescer e, embora ainda não estejam compridos, hoje já s
 # Retrospectiva de treze anos de enfermidade
 
 **Categoria:** tato | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 闘病十三年間を顧みて | **Status:** Published
 
 ## Retrospectiva de treze anos de enfermidade
 Extraído das publicações "A Terapia Revolucionária da Tuberculose" (15 de agosto de 1951) e "A Terapia da Tuberculose pela Fé" (1 de dezembro de 1952)
@@ -223,6 +1209,7 @@ Oramos para que, tal como no Salmo, toda a humanidade seja banhada na Luz Divina
 # Coletânea de Artigos do Mestre Jikan Okada
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年4月1日 | **Fonte:** Kyusei
+**Título Original:** 注射の逆作用 次ぎ次ぎに病気になる | **Status:** Published
 
 ## Coletânea de Artigos do Mestre Jikan Okada
 Referência para consulta: Relatos de Graça
@@ -271,6 +1258,7 @@ Externo minha mais profunda e sincera gratidão.
 # Com Adubo de Três Mil Ienes, a Colheita Diminui; com a Agricultura Natural, Aumenta em Mais de Dois Fardos
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 反三千円の肥料で減収の有肥 自然栽培では二俵余の増収 | **Status:** Published
 
 ## Com Adubo de Três Mil Ienes, a Colheita Diminui; com a Agricultura Natural, Aumenta em Mais de Dois Fardos
 
@@ -298,6 +1286,7 @@ Nossa mais sincera gratidão, Meishu-Sama.
 # Salvação de uma infiltração pulmonar após cinco anos de luta (Medicina do Amanhã)
 
 **Categoria:** tato | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 闘病五年間の肺浸潤より救わる | **Status:** Published
 
 ## Salvação de uma infiltração pulmonar após cinco anos de luta (Medicina do Amanhã)
 
@@ -329,6 +1318,7 @@ Agradeço por Sua divina proteção.
 # Relato de Graça: Vida salva em queda de caminhão
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Eikou
+**Título Original:** トラック転落一命救わる | **Status:** Published
 
 ## Relato de Graça: Vida salva em queda de caminhão
 
@@ -364,6 +1354,7 @@ De agora em diante, renovo meu juramento de me dedicar com afinco ainda maior à
 # Dois anos de esforço e perseverança em meio ao escárnio: A experiência da Agricultura Natural que, enfim, pôde bradar seu hino de vitória
 
 **Categoria:** tato | **Ano:** 昭和27(1952)年1月30日 | **Fonte:** Eikou
+**Título Original:** 嘲笑に堪え努力の二年間 ついに凱歌を挙げ得た自然農法の体験 | **Status:** Published
 
 ## Dois anos de esforço e perseverança em meio ao escárnio: A experiência da Agricultura Natural que, enfim, pôde bradar seu hino de vitória
 
@@ -417,6 +1408,7 @@ Meishu-Sama, em nome de todos, expressamos nossa mais profunda e sincera gratid�
 # Cavidade do tamanho de um ovo regride subitamente (Revista Eikou, n.º 206, 29 de abril de 1953)
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年4月29日 | **Fonte:** Eikou
+**Título Original:** 卵大の空洞忽ち縮小 | **Status:** Published
 
 ## Cavidade do tamanho de um ovo regride subitamente (Revista Eikou, n.º 206, 29 de abril de 1953)
 
@@ -449,6 +1441,7 @@ Muito obrigado, Meishu-Sama.
 # O poder que se manifesta em curto período: A força da cura chega a uma vila sem médicos
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年3月4日 | **Fonte:** Kyusei
+**Título Original:** 短期間に威力示す 無医村に療病力を與う | **Status:** Published
 
 ## O poder que se manifesta em curto período: A força da cura chega a uma vila sem médicos
 
@@ -480,6 +1473,7 @@ Nossa aldeia possui trinta famílias e uma população de aproximadamente novece
 # O Imenso Poder da Natureza
 
 **Categoria:** tato | **Ano:** 昭和27(1952)年1月30日 | **Fonte:** Eikou
+**Título Original:** 大自然の偉力 穂に穂が咲くこの事実 | **Status:** Published
 
 ## O Imenso Poder da Natureza
 ## O fato de uma espiga brotar de outra
@@ -557,6 +1551,7 @@ Ano de 1951: 2,8 *koku* (previsão de 30% de aumento)
 # Desmoronamento e descarrilamento a cinco mil pés de profundidade: o milagre da dinamite
 
 **Categoria:** tato | **Ano:** 昭和27(1952)年3月26日 | **Fonte:** Eikou
+**Título Original:** 地下五千尺で落盤脱線、マイトの奇跡 | **Status:** Published
 
 ## Desmoronamento e descarrilamento a cinco mil pés de profundidade: o milagre da dinamite
 *Revista Eikou, nº 149, publicada em 26 de março de 1952*
@@ -591,6 +1586,7 @@ Meishu-Sama, profundamente agradecido.
 # Paralisia facial, agravada por injeções e eletroterapia, é curada pelo Johrei
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
+**Título Original:** 注射や電気療法で悪化 浄霊で顔面神経麻痺が治る | **Status:** Published
 
 ## Paralisia facial, agravada por injeções e eletroterapia, é curada pelo Johrei
 
@@ -615,6 +1611,7 @@ Embora este seja um relato singelo, desejo expressar minha mais sincera gratidã
 # A quem se confia uma vida preciosa: A maravilha da terapia pela fé de nossos ensinamentos
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
+**Título Original:** 尊い生命を委すもの 本教信仰療法の素晴しさ | **Status:** Published
 
 ## A quem se confia uma vida preciosa: A maravilha da terapia pela fé de nossos ensinamentos
 
@@ -642,6 +1639,7 @@ Em comparação com o passado, meu lar hoje é preenchido por uma luz indescrit�
 # Eliminar as toxinas! Da fé, nasce a Luz (Publicado na revista "Kyusei" nº 48, em 4 de fevereiro de 1950)
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
+**Título Original:** 毒素を排泄せよ！信ずるところから光明 | **Status:** Published
 
 ## Eliminar as toxinas! Da fé, nasce a Luz (Publicado na revista "Kyusei" nº 48, em 4 de fevereiro de 1950)
 
@@ -682,6 +1680,7 @@ Houve uma fase em que parte de seu rosto supurou, liberando um pus de odor muito
 # Inúmeros Milagres na Mina de Carvão (Publicado na Revista Eikou nº 192, de 21 de janeiro de 1953, e na Coletânea de Milagres da Sekaikyuseikyou, de 10 de setembro de 1953)
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年1月21日 | **Fonte:** Eikou
+**Título Original:** 炭鉱にての奇蹟の数々 | **Status:** Published
 
 ## Inúmeros Milagres na Mina de Carvão (Publicado na Revista Eikou nº 192, de 21 de janeiro de 1953, e na Coletânea de Milagres da Sekaikyuseikyou, de 10 de setembro de 1953)
 
@@ -764,6 +1763,7 @@ Agradeço, do fundo de meu coração, pelas inúmeras Proteções Divinas que me
 # O milagre recebido pelo Johrei diante do iminente rompimento de um dique em meio a um grande temporal
 
 **Categoria:** tato | **Ano:** 昭和27(1952)年10月8日 | **Fonte:** Eikou
+**Título Original:** 大豪雨堤防決壊寸前に浄霊にて奇蹟戴く | **Status:** Published
 
 ## O milagre recebido pelo Johrei diante do iminente rompimento de um dique em meio a um grande temporal
 *Revista Eikou, nº 177, 8 de outubro de 1952*
@@ -798,6 +1798,7 @@ Meishu-Sama, renovo-Lhe minha mais profunda gratidão.
 # O Milagre nas Enchentes de Quioto: Salvos da Torrente os Dois Filhos Amados
 
 **Categoria:** tato | **Ano:** 昭和26(1951)年9月5日 | **Fonte:** Eikou
+**Título Original:** 濁流に転落の愛児二人救わる 京都府下の水害の奇蹟 | **Status:** Published
 
 ## O Milagre nas Enchentes de Quioto: Salvos da Torrente os Dois Filhos Amados
 
@@ -848,6 +1849,7 @@ Meishu-Sama, muito, muito obrigado.
 # Eliminem o sangue tóxico – O parto tranquilo através da Grande Purificação (Revista Kyusei, nº 50, 18 de fevereiro de 1950)
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
+**Título Original:** 毒血を排除せよ 大浄化で安産できる | **Status:** Published
 
 ## Eliminem o sangue tóxico – O parto tranquilo através da Grande Purificação (Revista Kyusei, nº 50, 18 de fevereiro de 1950)
 
@@ -871,6 +1873,7 @@ Ao final desses oitenta dias de intensa purificação, o corpo e o espírito que
 # A Imagem Sagrada do Daikoumyo Nyorai-sama Atravessa um Corpo Humano e Aparece em Fotografia
 
 **Categoria:** tato | **Ano:** 昭和26(1951)年2月14日 | **Fonte:** Eikou
+**Título Original:** 大光明如来様の御神体 五尺離れた人体を透過して写真に写る | **Status:** Published
 
 ## A Imagem Sagrada do Daikoumyo Nyorai-sama Atravessa um Corpo Humano e Aparece em Fotografia
 
@@ -931,6 +1934,7 @@ Dois meses depois, a família tirou aquela fotografia como recordação. Por int
 # Uma proteção excepcional na instalação da linha telefônica
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年5月13日 | **Fonte:** Eikou
+**Título Original:** 電話引込みに格別の御守護 | **Status:** Published
 
 ## Uma proteção excepcional na instalação da linha telefônica
 
@@ -964,6 +1968,7 @@ Meishu-Sama, muito obrigado!
 # Filho tem a vida salva em trágico acidente com táxi que invadiu uma loja
 
 **Categoria:** tato | **Ano:** 昭和27(1952)年5月21日 | **Fonte:** Eikou
+**Título Original:** タクシー店頭に飛び込む惨事に息子の一命救わる | **Status:** Published
 
 ## Filho tem a vida salva em trágico acidente com táxi que invadiu uma loja
 
@@ -996,6 +2001,7 @@ Meishu-Sama, muito obrigada.
 # Liberto de uma Calamidade Fatal
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年3月18日 | **Fonte:** Eikou
+**Título Original:** 致命的災難を免る | **Status:** Published
 
 ## Liberto de uma Calamidade Fatal
 
@@ -1028,6 +2034,7 @@ Minha eterna gratidão, Meishu-Sama.
 # Curada da Tuberculose Intestinal, meu pai também tem a vida salva
 
 **Categoria:** tato | **Ano:** 昭和25(1950)年4月22日 | **Fonte:** Kyusei
+**Título Original:** 腸結核救わる 父も一命を助かる | **Status:** Published
 
 ## Curada da Tuberculose Intestinal, meu pai também tem a vida salva
 
@@ -1059,6 +2066,7 @@ Ao reverendo Omatsu, estendo igualmente minha mais profunda gratidão.
 # Aumento de Três Vezes na Colheita da Soja e de Uma Vez e Meia na de Arroz (Comentários sobre a Agricultura Natural)
 
 **Categoria:** tato | **Ano:** 昭和26(1951)年1月15日 | **Fonte:** Shizen Noho Kaisetsu
+**Título Original:** 大豆は三倍、米は一表半の増収 | **Status:** Published
 
 ## Aumento de Três Vezes na Colheita da Soja e de Uma Vez e Meia na de Arroz (Comentários sobre a Agricultura Natural)
 
@@ -1089,6 +2097,7 @@ Minha profunda gratidão.
 # Coletânea de Artigos do Reverendo Jikan Okada — Da Busca de Ensinamentos: Relatos de Graça
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** たのしい秋 | **Status:** Published
 
 ## Coletânea de Artigos do Reverendo Jikan Okada — Da Busca de Ensinamentos: Relatos de Graça
 
@@ -1130,6 +2139,7 @@ Meishu-Sama, muito, muito obrigado. Minha eterna gratidão. Rogo que continue a 
 # Salvo de um Câncer Retal
 
 **Categoria:** tato | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 直腸癌より救われて | **Status:** Published
 
 ## Salvo de um Câncer Retal
 
@@ -1162,6 +2172,7 @@ Meishu-Sama, muito obrigado por Vossa imensurável proteção. Reitero minha mai
 # Salvo por uma única ministração de Johrei (A Terapia Revolucionária da Tuberculose e A Terapia da Fé para a Tuberculose)
 
 **Categoria:** tato | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 唯一回の浄霊で救われる | **Status:** Published
 
 ## Salvo por uma única ministração de Johrei (A Terapia Revolucionária da Tuberculose e A Terapia da Fé para a Tuberculose)
 
@@ -1181,6 +2192,7 @@ Diante de um fato tão evidente, não restava mais espaço para dúvidas. O mini
 # A rápida salvação de uma paralisia causada por hemorragia cerebral
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 脳溢血で不自由の身を短時間に救わる | **Status:** Published
 
 ## A rápida salvação de uma paralisia causada por hemorragia cerebral
 Publicado na coletânea ‘Salvar a América’, em 1 de janeiro de 1953
@@ -1205,6 +2217,7 @@ Com filhos ainda pequenos em casa, minha enfermidade prolongada teria lançado n
 # Salvação de uma grave enfermidade, sem necessidade de cirurgia
 
 **Categoria:** nano | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
+**Título Original:** 難症免かる 手術せずに助かる | **Status:** Published
 
 ## Salvação de uma grave enfermidade, sem necessidade de cirurgia
 *Revista "Kyusei" nº 53, publicada em 11 de março de 1950*
@@ -1227,6 +2240,7 @@ Confesso que, a princípio, eu nutria grande ceticismo. Por ter aversão a prát
 # Curada de uma grave enfermidade após sete anos
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 七年間の重患癒えて | **Status:** Published
 
 ## Curada de uma grave enfermidade após sete anos
 
@@ -1265,6 +2279,7 @@ Muito obrigada, Meishu-Sama.
 # Conquista do Prêmio do Governador em Exposição de Produtos Agrícolas (Coletânea: Comentários sobre a Agricultura Natural)
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 農産品展示会に出品 知事賞を獲得 | **Status:** Published
 
 ## Conquista do Prêmio do Governador em Exposição de Produtos Agrícolas (Coletânea: Comentários sobre a Agricultura Natural)
 
@@ -1319,6 +2334,7 @@ Muito obrigado, Meishu-Sama. Através deste texto singelo, apresento meu relató
 # Automóvel Imóvel por Mais de Duas Horas Volta a Funcionar com Quinze Minutos de Johrei
 
 **Categoria:** nano | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
+**Título Original:** 二時間余も動かぬハイヤー 十五分の御浄霊で走る | **Status:** Published
 
 ## Automóvel Imóvel por Mais de Duas Horas Volta a Funcionar com Quinze Minutos de Johrei
 Revista Eikou, nº 155, 7 de maio de 1952
@@ -1357,6 +2373,7 @@ Meishu-Sama, muito obrigada. Com a mais profunda reverência, expresso minha gra
 # O cultivo duplo e o adubo de capim fresco não produzem resultados (A improdutividade da lavoura). A lavoura não é feita com adubo composto.
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 二毛作と生草堆肥〔で〕は駄目〔穫れぬ〕 堆肥で作るのではない | **Status:** Published
 
 ## O cultivo duplo e o adubo de capim fresco não produzem resultados (A improdutividade da lavoura). A lavoura não é feita com adubo composto.
 
@@ -1385,6 +2402,7 @@ Submeto, respeitosamente, o presente relatório.
 # Inúmeros casos de salvação de longos sofrimentos (Salvação dos padecimentos da doença e da pobreza)
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年6月6日 | **Fonte:** Eikou
+**Título Original:** - | **Status:** Published
 
 ## Inúmeros casos de salvação de longos sofrimentos (Salvação dos padecimentos da doença e da pobreza)
 
@@ -1423,6 +2441,7 @@ Meishu-Sama, muito obrigada. Dedicarei a Vós toda a minha vida.
 # Nem os ratos roeram a Sagrada Fotografia
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年11月4日 | **Fonte:** Eikou
+**Título Original:** 鼠も御写真丈は噛まず | **Status:** Published
 
 ## Nem os ratos roeram a Sagrada Fotografia
 
@@ -1447,6 +2466,7 @@ Diante da oportunidade de ter presenciado tal milagre, renovo meu desejo de, daq
 # A Colheita de 71 quilos de Batata-Doce a partir de uma Única Muda (Incluído na Coletânea ‘Comentários sobre a Agricultura Natural’)
 
 **Categoria:** nano | **Ano:** 昭和27(1952)年1月30日 | **Fonte:** Eikou
+**Título Original:** 苗一本から十九貫の甘藷収穫 | **Status:** Published
 
 ## A Colheita de 71 quilos de Batata-Doce a partir de uma Única Muda (Incluído na Coletânea ‘Comentários sobre a Agricultura Natural’)
 
@@ -1490,6 +2510,7 @@ Encerro aqui meu relato, com profundo respeito e gratidão. Agradeço-lhe sincer
 # Curada, em quatro ou cinco dias, uma cefaleia crônica de muitos anos
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 長年の慢性頭痛四、五日にて癒さる | **Status:** Published
 
 ## Curada, em quatro ou cinco dias, uma cefaleia crônica de muitos anos
 (Publicado em “Salvar a América”, 1º de janeiro de 1953)
@@ -1518,6 +2539,7 @@ A Meishu-Sama, reitero minha mais profunda e sincera gratidão. Muito obrigado.
 # Um Porco Desenganado pela Encefalite Renasce por um Milagre
 
 **Categoria:** nano | **Ano:** 昭和24(1949)年7月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 脳炎で絶望の豚が奇蹟蘇生す | **Status:** Published
 
 ## Um Porco Desenganado pela Encefalite Renasce por um Milagre
 
@@ -1564,6 +2586,7 @@ Dessa forma, em apenas dois dias desde o início da doença, o animal estava com
 # Reflexões sobre o Início da Minha Fé
 
 **Categoria:** nano | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 無肥料栽培法
+**Título Original:** 入信を顧みて 自観叢書第2篇 | **Status:** Published
 
 ## Reflexões sobre o Início da Minha Fé
 
@@ -1589,6 +2612,7 @@ No ano passado, por exemplo, em um período de ventos e chuvas intensos, as lavo
 # Retrospectiva de um ano de fé
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 入信一カ年の回顧 | **Status:** Published
 
 ## Retrospectiva de um ano de fé
 Publicado em "A Terapêutica Revolucionária da Tuberculose", 15 de agosto de 1951
@@ -1630,6 +2654,7 @@ Compreendi que, neste mundo, não há o que recear.
 # Coleção de Artigos do Mestre Jikan Okada – Testemunho de Fé e Relato de Graças: Ingressando na Fé, a Tuberculose é Imediatamente Curada
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 入信し忽ち肺病全治 | **Status:** Published
 
 ## Coleção de Artigos do Mestre Jikan Okada – Testemunho de Fé e Relato de Graças: Ingressando na Fé, a Tuberculose é Imediatamente Curada
 Publicado nas coletâneas “A Terapia Revolucionária para a Tuberculose” (15 de agosto de 1951) e “A Terapia da Fé para a Tuberculose” (1º de dezembro de 1952)
@@ -1662,6 +2687,7 @@ A Vós, Meishu-Sama, reitero meu mais sincero e profundo agradecimento.
 # A Ressurreição de uma Galinha
 
 **Categoria:** nano | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 無肥料栽培法
+**Título Original:** 鶏の甦生 自観叢書第2篇 | **Status:** Published
 
 ## A Ressurreição de uma Galinha
 
@@ -1692,6 +2718,7 @@ Com estas palavras singelas, registro minha gratidão pela imensurável proteç�
 # Salva de um Longo Inferno de Enfermidades
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年9月2日 | **Fonte:** Eikou
+**Título Original:** 長年の病気地獄より救われて | **Status:** Published
 
 ## Salva de um Longo Inferno de Enfermidades
 
@@ -1732,6 +2759,7 @@ Meishu-Sama, muito obrigada.
 # A Neta com Empiema que foi Salva (Terapia da Fé para a Tuberculose)
 
 **Categoria:** nano | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 膿胸の孫が救われて | **Status:** Published
 
 ## A Neta com Empiema que foi Salva (Terapia da Fé para a Tuberculose)
 Publicado em 1º de dezembro de 1952
@@ -1765,6 +2793,7 @@ Com estas palavras, ainda que redigidas de forma singela, procurei expressar a s
 # Salvo de ser envolvido por uma barra de ferro de 120 metros a 900 graus de temperatura
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 熱度九百度､長さ百二十米の 熱鉄に巻き込まれ一命を救わる | **Status:** Published
 
 ## Salvo de ser envolvido por uma barra de ferro de 120 metros a 900 graus de temperatura
 *Coletânea de Milagres da Sekaikyuseikyo*, publicação de 10 de setembro de 1953
@@ -1805,6 +2834,7 @@ Agradeço do fundo do coração ao magnânimo e misericordioso Meishu-Sama. Como
 # Remissão completa de um câncer de pele de vinte anos
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年6月10日 | **Fonte:** Eikou
+**Título Original:** 二十年来の皮膚癌全快 | **Status:** Published
 
 ## Remissão completa de um câncer de pele de vinte anos
 
@@ -1847,6 +2877,7 @@ Por Vossas inúmeras graças e por Vossa constante proteção, reitero minha mai
 # Rememorando o Início da Minha Fé: Um Relato de Proteção Divina (A Cura da Tuberculose pela Fé)
 
 **Categoria:** nano | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 入信当時を回顧して御守護報告 | **Status:** Published
 
 ## Rememorando o Início da Minha Fé: Um Relato de Proteção Divina (A Cura da Tuberculose pela Fé)
 
@@ -1884,6 +2915,7 @@ Perdoem-me pela escrita simples, mas a alegria que sinto me compeliu a compartil
 # A Graça Divina nas Lavouras
 
 **Categoria:** nano | **Ano:** 昭和23(1948)年12月1日 | **Fonte:** Chijo Tengoku
+**Título Original:** 農作物に関する御利益 | **Status:** Published
 
 ## A Graça Divina nas Lavouras
 
@@ -1918,6 +2950,7 @@ Neste ano, minha cota de fornecimento de batata-doce (colheita antecipada) foi d
 # A Salvação de Longos Anos de Padecimento
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年2月28日 | **Fonte:** Eikou
+**Título Original:** 永年の病苦より救われて | **Status:** Published
 
 ## A Salvação de Longos Anos de Padecimento
 *Eikou*, nº 93, publicado em 28 de fevereiro de 1951
@@ -1952,6 +2985,7 @@ Desejosa de compartilhar essa alegria e emoção com o maior número de pessoas,
 # Tuberculose que exigiu dois anos de repouso absoluto: a recuperação após quatro sessões de Johrei (A Terapia Revolucionária da Tuberculose e A Terapia da Tuberculose pela Fé)
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 二カ年間絶対安静の肺結核 四回の浄霊にて起き上る | **Status:** Published
 
 ## Tuberculose que exigiu dois anos de repouso absoluto: a recuperação após quatro sessões de Johrei (A Terapia Revolucionária da Tuberculose e A Terapia da Tuberculose pela Fé)
 
@@ -1989,6 +3023,7 @@ Por essa proteção divina, que as palavras são incapazes de descrever, renovo 
 # Alegria pela cura da varíola, quatro meses após ingressar na Fé
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年5月9日 | **Fonte:** Eikou
+**Título Original:** 入信四カ月で天然痘治癒した喜び | **Status:** Published
 
 ## Alegria pela cura da varíola, quatro meses após ingressar na Fé
 
@@ -2040,6 +3075,7 @@ Meishu-Sama, muito obrigada.
 # A Terapêutica Revolucionária da Tuberculose (15 de agosto de 1951)
 
 **Categoria:** nano | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 二年間の結核治り不安なき日々を送る | **Status:** Published
 
 ## A Terapêutica Revolucionária da Tuberculose (15 de agosto de 1951)
 **Relato de Nobuko Toge (25 anos) – Igreja Jinzu-Tyu, Província de Toyama**
@@ -2067,6 +3103,7 @@ Meishu-Sama, a minha mais sincera gratidão.
 # A salvação de meu amado cavalo, acometido de meningite — O desesperador prognóstico veterinário
 
 **Categoria:** nano | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 無肥料栽培法
+**Título Original:** 脳膜炎の愛馬救はる ――獣医の宣告は絶望―― 自観叢書第2篇 | **Status:** Published
 
 ## A salvação de meu amado cavalo, acometido de meningite — O desesperador prognóstico veterinário
 
@@ -2088,6 +3125,7 @@ A surpresa e a alegria que tomaram conta de todos eram tão grandes que era como
 # Salva das Chamas sob os Beirais
 
 **Categoria:** nano | **Ano:** 昭和24(1949)年10月5日 | **Fonte:** Kiseki Monogatari
+**Título Original:** 軒先迄燃え焼失を免る 自観叢書第4篇 | **Status:** Published
 
 ## Salva das Chamas sob os Beirais
 
@@ -2110,6 +3148,7 @@ Novamente com a ajuda de todos, trouxemos nossos pertences de volta para dentro.
 # As Inúmeras Proteções Divinas após a Outorga da Fé (Salva de um Incêndio)
 
 **Categoria:** nano | **Ano:** 昭和25(1950)年4月8日 | **Fonte:** Kyusei
+**Título Original:** 入信後の数々の御守護 火災を免る | **Status:** Published
 
 ## As Inúmeras Proteções Divinas após a Outorga da Fé (Salva de um Incêndio)
 Revista "O Salvador", nº 57, publicada em 8 de abril de 1950
@@ -2140,6 +3179,7 @@ Desde então, continuo a caminhar com perseverança e, embora minha força seja 
 # Sete anos de cefaleia crônica e apendicite curados — A sublime Purificação que me restituiu a saúde
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Eikou
+**Título Original:** 七年間の慢性頭痛､盲腸治る ―― 有難い御浄化により健康快復 ―― | **Status:** Published
 
 ## Sete anos de cefaleia crônica e apendicite curados — A sublime Purificação que me restituiu a saúde
 **Revista Glória, nº 217, 15 de julho de 1953**
@@ -2177,6 +3217,7 @@ Muito obrigada, Meishu-Sama.
 # De prematura de sete meses, desenganada pelos médicos, a uma jovem de plena saúde
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年5月27日 | **Fonte:** Eikou
+**Título Original:** 七カ月の早産児で 医師に見放された私がこんな健康に | **Status:** Published
 
 ## De prematura de sete meses, desenganada pelos médicos, a uma jovem de plena saúde
 **Revista Glória, nº 210, 27 de maio de 1953**
@@ -2205,6 +3246,7 @@ Expresso minha mais profunda e sincera gratidão.
 # O motor que agonizou por duas horas funciona com um minuto de Johrei
 
 **Categoria:** nano | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 二時間も四苦八苦の発動機 一分間の御浄霊で動く | **Status:** Published
 
 ## O motor que agonizou por duas horas funciona com um minuto de Johrei
 Extraído da “Coletânea de Milagres da Sekai Kyuseikyo”, publicada em 10 de setembro de 1953
@@ -2237,6 +3279,7 @@ Meishu-Sama, muito obrigado por Vossa proteção. Agradeço profunda e reiterada
 # Salvação de uma vida sentenciada a, no máximo, três anos
 
 **Categoria:** nano | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 「長くて三年」の生命救わる | **Status:** Published
 
 ## Salvação de uma vida sentenciada a, no máximo, três anos
 
@@ -2273,1028 +3316,6 @@ Ao entrar em contato com o poder infinito e ilimitado de Deus, minha vida, que j
 Meishu-Sama, muito, muito obrigado. Expresso minha mais profunda gratidão.
 
 (Relato enviado em 25 de janeiro de 1952)
-
----
-
-# Coleção de Artigos do Reverendo Jikan Okada – Relatos de Graça: Meu filho, em estado terminal após cair de um penhasco de vinte metros, é salvo
-
-**Categoria:** nano | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
-
-## Coleção de Artigos do Reverendo Jikan Okada – Relatos de Graça: Meu filho, em estado terminal após cair de um penhasco de vinte metros, é salvo
-*Revista Eikou, nº 169, publicada em 13 de agosto de 1952*
-
-Toshiko Inugami (35), Igreja Minori Naka, Hokkaido
-
-Em treze de outubro do vigésimo sexto ano da Era Showa, enquanto me preparava para sair, uma voz assustada me chamou: “Tia, tia, o seu filho caiu do penhasco!”. O susto que senti naquele momento foi imenso. Pensei que, na pior das hipóteses, ele poderia ter quebrado um braço ou uma perna e segui apressadamente quem me chamara. O local era onde as crianças costumavam brincar de Tarzan.
-
-Ao chegar à beira do precipício, com seus aproximadamente vinte metros de altura, compreendi a gravidade da situação. “É grave”, pensei, e um segundo choque me percorreu. Em desespero, desci a encosta íngreme. As outras crianças, que já estavam lá embaixo, disseram: “Tia, ele ainda está respirando de vez em quando”. Ao ouvir aquilo, quase desmaiei de pavor.
-
-Desesperada, ergui meu filho, que jazia de costas sobre uma pedra. “Keiwa! Keiwa!”, chamei, mas não obtive resposta. Havia apenas um suor gélido em seu rosto lívido e o sangue que ele vomitara, não sei quando. “Keiwa, Keiwa...” Ah, meu filho já não voltaria para mim. Compreendendo que nada poderia fazer sozinha, pedi ajuda a pessoas próximas e o levamos a um clínico, depois a um cirurgião e, por fim, a um especialista da cidade. A cada consulta, o veredito era o mesmo: “Não há mais nada que possamos fazer por esta criança”.
-
-Desespero! Desespero! A cada instante, seu estado se agravava. A hemorragia interna na parte posterior da cabeça se intensificava, provocando vômitos de sangue cada vez mais violentos. O médico foi taxativo: “É devido a um traumatismo na nuca. Com um impacto tão forte, é impossível que qualquer pessoa sobreviva”. A cabeça de meu filho inchava a olhos vistos, chegando a dobrar de tamanho, e ele expelia o que havia comido no café da manhã. Quando o médico nos declarou categoricamente que ele não passaria daquela noite, o sentimento que tomou conta de nós... meu menino morria por não ter seguido minhas advertências. Ainda assim, a compaixão era imensa, e eu desejava fazer algo, qualquer coisa. Chorando, implorei para que o aceitassem no hospital, apenas para poder cuidar dele da melhor forma possível até o fim.
-
-Todavia, o tratamento não passava de uma formalidade para justificar sua permanência, consistindo apenas em injeções de cânfora, enquanto aguardávamos o inevitável. (Ele recebeu três injeções antes de recebermos Johrei). Os vômitos de sangue tornaram-se ainda mais intensos. Perdoem-me, mas, diante da perspectiva de que, “mesmo que um em cem sobreviva a um ferimento como este, ficará com sequelas mentais”, cheguei a desejar sua morte. Ao mesmo tempo, ansiava por um milagre no qual nem eu mesma conseguia acreditar. Embora resignada, a esperança de um milagre era o único anseio do meu coração. Peço que me perdoem por esse sentimento tão audacioso, mas creio que, como mãe, era uma angústia compreensível.
-
-Amados leitores, é com imensa felicidade e alegria que agora tomo a pena para relatar o que se seguiu.
-
-Pois o milagre, finalmente, aconteceu.
-
-Fomos salvos pelo Deus Messias. Lembrei-me de que, em certa ocasião, havia ouvido falar sobre o Ohikari. Diante do meu filho, desenganado por todos os médicos, roguei para que, de alguma forma, pudéssemos receber essa graça milagrosa e imediatamente pedi ajuda a uma amiga.
-
-O Reverendo Komatsu, da Igreja de Otaru, atendeu prontamente ao nosso chamado. E, sem mais delongas, apenas estendeu a mão no espaço e ministrou-nos Johrei. A partir daquele instante, os milagres começaram a se manifestar, um após o outro. Contrariando a previsão médica de que a febre aumentaria ao entardecer, meu filho não apresentou alteração significativa na temperatura, embora os vômitos de sangue persistissem. Nós apenas suplicávamos a Deus. Após cerca de vinte minutos de Johrei, os batimentos cardíacos tornaram-se nítidos. O Reverendo Komatsu, que até então permanecera em silêncio, disse apenas: “Senhora Inugami, rogue a Dai-Komyo-Nyorai-Sama e entregue-se a Ele com toda a sua fé. O grandioso Deus Messias jamais abandona aqueles que Nele confiam”. Apenas isso.
-
-Ah, que palavra! Foi como encontrar a salvação em meio ao inferno. Nunca antes havia sentido uma presença tão divina em um ser humano. Num instante, fui elevada do mais profundo abismo de aflição a uma esfera de serenidade e aceitação do destino.
-
-Muito obrigada, Meishu-Sama.
-Muito obrigada, Dai-Komyo-Nyorai-Sama.
-
-Com o passar de uma, duas horas, os milagres se sucediam. Embora estivesse completamente inconsciente, meu filho urinava várias vezes, sem jamais se sujar. Graças ao Johrei ministrado durante toda a noite, ele pareceu ter superado o momento crítico. O Reverendo Komatsu retornou por volta das cinco da manhã para a oração matinal. Logo depois, quatro ou cinco membros vieram para continuar o Johrei. Naquele momento, meu filho dormia pacificamente, com uma respiração tranquila. Com o coração transbordando de gratidão, fizemos uma prece em reverência ao reverendo, enquanto ele se afastava.
-
-Por volta das nove horas, o reverendo retornou. Após nos transmitir diversos ensinamentos, tomamos a decisão de deixar o hospital. No momento da alta, ele mesmo, juntamente com outros membros, carregou a maca por um longo, longo caminho até a nossa casa. Reverendo, nossa eterna gratidão. Até o dia vinte e três, quando recebi a Outorga, meu filho recebeu Johrei diariamente, tanto do reverendo quanto dos membros.
-
-Sua melhora após deixar o hospital era surpreendente a cada dia. Era um verdadeiro milagre. Contudo, nesse período, a criança, que recebia a amável dedicação do reverendo e dos membros, começou a gritar coisas estranhas: “O Reverendo Komatsu é o maior demônio de Otaru, vou matá-lo a facadas!”, “A mão do reverendo é quente, parece que vai me queimar, eu não gosto!”, “Sai luz da mão dele e queima meu corpo!” ou “Não adianta me assustar, o reverendo não se abala. Eu perdi, vou embora!”.
-
-Esses episódios cessaram no dia dezenove, e ele se tornou muito mais calmo. A partir do dia vinte e um, começou a se lembrar da escola, algo que havia esquecido, e falava sobre o assunto com um ar de novidade. Após o dia vinte e três, quando fui outorgada, sua recuperação se acelerou ainda mais. Agora, ele já se levanta pela manhã e brinca o dia todo com o irmão mais novo. Recentemente, está em grande alvoroço com os preparativos para voltar à escola. E o mais sublime é que se tornou uma criança muito mais dócil e amável do que era antes. Acredito que faltam poucos dias para sua recuperação completa.
-
-Esta sucessão de milagres, esta sublime proteção divina que recebemos, nos enche de uma felicidade e uma gratidão que mal podemos expressar. Conforme nos ensinou o reverendo, não apenas nós fomos salvos, mas também nossos antepassados, o que torna nossa gratidão ainda mais profunda. De agora em diante, desejo ardentemente transmitir este Ensinamento ao maior número possível de pessoas que sofrem, para que também possam receber esta graça.
-
-O inchaço na cabeça de meu filho desapareceu completamente, e ele se alimenta mais do que o normal. Ele está, de fato, totalmente recuperado.
-
-Muito obrigada, Meishu-Sama. Expresso aqui minha mais profunda gratidão.
-
----
-
-# Recuperação de hemorragia cerebral em pouco mais de dois meses (Publicado na coletânea “Salvar a América”, em 1º de janeiro de 1953)
-
-**Categoria:** nano | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
-
-## Recuperação de hemorragia cerebral em pouco mais de dois meses (Publicado na coletânea “Salvar a América”, em 1º de janeiro de 1953)
-
-Província de Shizuoka, Igreja Aishin-Naka
-Tataragi Reiichi (60 anos)
-
-Desde que tive a permissão de ingressar na fé, em dezembro de 1947, venho recebendo inúmeras proteções Divinas. Desta vez, contudo, recebi a sublime purificação de uma hemorragia cerebral e, por ter conseguido me reerguer em pouco mais de sessenta dias, gostaria de relatar esta graça.
-
-No último dia 24 de janeiro, dirigia-me à Igreja, pleno de vigor, em minha bicicleta, para participar de uma reunião sobre Agricultura Natural. Todavia, assim que terminei minhas orações, perdi os sentidos e, tendo apenas uma vaga consciência de que meu corpo cedia, desfaleci perante o Altar Sagrado.
-
-Providencialmente, o ministro responsável, que se encontrava no local, ministrou-me Johrei de imediato, e em pouco mais de uma hora, recobrei a consciência. Naquele momento, pude compreender, com uma profundidade inédita, a grandiosidade do Johrei. Graças a isso, meu coração se acalmou e, após ser conduzido em um triciclo motorizado por um longo trajeto em uma estrada rural, retornei ao meu lar, chegando sem grande fadiga para repousar.
-
-A partir de então, confiei-me inteiramente a Deus e, com o Johrei dedicado dos ministros e dos demais membros da Igreja, minha recuperação progredia dia a dia. Contrariando os prognósticos da vizinhança, que afirmavam que meu restabelecimento levaria anos, minha melhora era gradual e contínua. A constipação que me afligia foi sanada e, após uma forte hemorragia nasal, senti um alívio imenso. Minha dicção, antes ininteligível, tornou-se visivelmente mais clara e, ao quadragésimo dia desde o ocorrido, já conseguia me sentar na cama.
-
-Prosseguindo em minha melhora, no quinquagésimo dia, já era capaz de caminhar amparando-me nos objetos. Agora, passados pouco mais de sessenta dias, o lado direito do meu corpo, que ficara paralisado, recuperou a sensibilidade, e o movimento de meus braços e pernas transcorre sem dificuldades. Com isso, voltei a desfrutar de deliciosas refeições na alegre companhia de meus familiares.
-
-Ao recordar os acontecimentos de dois meses atrás, tudo me parece um sonho. Estremeço ao pensar no que teria sido de mim se o mal súbito tivesse me acometido uma hora, ou mesmo dez minutos antes, em outro lugar.
-
-Quão afortunado fui por ter desfalecido perante o Altar Sagrado da Igreja e, de imediato, ter podido receber Johrei do ministro responsável! Ao ponderar que tal graça é, unicamente, uma dádiva da proteção e do poder absoluto de Meishu-Sama, as lágrimas de gratidão me vêm aos olhos.
-
-Muito obrigado, Meishu-Sama. A cada amanhecer e a cada anoitecer, sinto-me imerso em um profundo sentimento de felicidade.
-
-(6 de abril de 1952)
-
----
-
-# Cura de Diversas Enfermidades ao Longo de Sete Anos
-
-**Categoria:** nano | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
-
-## Cura de Diversas Enfermidades ao Longo de Sete Anos
-**Extraído da publicação “Terapia da Fé para a Tuberculose” – 1º de dezembro de 1952**
-**Hokkaido, Igreja Kyokko-Tyu – Sra. Take Kobayashi (35 anos)**
-
-Desde a mais tenra idade, minha constituição sempre foi frágil, e jamais conheci a alegria despreocupada das brincadeiras infantis. Por volta dos vinte anos, comecei a sentir uma forte rigidez nos ombros, o que me levou a recorrer a tratamentos como a moxabustão.
-
-Pouco tempo após meu casamento, no ano de 1943, fui acometida por uma pleurisia. A partir de 28 de maio de 1944, meus pulmões também foram atingidos e, como se não bastasse, desenvolvi uma peritonite. Mergulhei em dias de agonia incessante, buscando desesperadamente uma forma de me libertar de tamanho sofrimento. Segui todas as recomendações, recorrendo a médicos e a inúmeros medicamentos, mas nenhuma melhora se manifestava. Em meu desespero, cheguei a rogar a Deus, todavia, não obtive alívio algum; meu estado, ao contrário, apenas se agravava progressivamente.
-
-Enquanto vivia nesse estado, sem perspectiva de melhora, passei a sentir uma dor intensa na região lombar. Ao procurar um médico para saber a causa, recebi o diagnóstico de mal de Pott. Fiquei absolutamente desolada, e meu futuro se tornou uma completa escuridão. Com a doença no peito, o sofrimento da peritonite e a dor na coluna, eu vivia imersa em pensamentos sobre a morte.
-
-Contudo, para minha surpresa, o momento de ser resgatada deste sofrimento finalmente chegou.
-
-Em 28 de junho de 1949, uma vizinha me convidou, dizendo haver um Deus capaz de curar qualquer mal. Foi assim que, pela primeira vez, solicitei o sagrado Johrei à professora Yoshiko Kodama, que se encontrava em nossa região para difundir a Obra Divina. Durante a ministração do Johrei, senti uma purificação intensa, com dores que se manifestavam da cintura para baixo, a ponto de eu não conseguir conter os gemidos. Ao término, porém, sentia um alívio extraordinário. Diante de tal fato, não havia espaço para dúvidas. Nutrindo a esperança de que, desta vez, eu seria verdadeiramente salva, passei a frequentar a casa da professora diariamente. Ouvindo seus relatos, comecei a compreender, pouco a pouco, a grandiosidade desta religião.
-
-A cada purificação, que ocorria duas ou três vezes por mês, meu corpo se fortalecia. Em dezembro daquele ano, recebi o sagrado Ofício Divino. Eu, que antes passava os dias acamada, hoje, além de cuidar dos afazeres domésticos, tenho a permissão de ministrar Johrei às pessoas que sofrem com doenças na vizinhança, desfrutando de uma vida plena e feliz. Sinto uma alegria tão profunda que as palavras não são capazes de expressar.
-
-De agora em diante, oro para que este abençoado Caminho seja compreendido o quanto antes por mais pessoas, e me dedicarei de corpo e alma a servir na construção do Paraíso Terrestre.
-
-Meishu-Sama, muito obrigada.
-
-(Relato enviado em 2 de junho de 1951)
-
----
-
-# A Graça Diante dos Prejuízos Causados por Javalis Selvagens
-
-**Categoria:** nano | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 無肥料栽培法
-
-## A Graça Diante dos Prejuízos Causados por Javalis Selvagens
-Coleção Jikan, Volume II: "O Método de Cultivo sem Adubos"
-Publicado em 1º de julho de 1949
-
-Zensuke Takatsuji (44 anos)
-Igreja Kooei da Sekaikyuseikyou de Mie
-
-Em meu lar, temos a ventura de receber diariamente a abençoada proteção Divina, o que nos faz viver em um estado de profunda e constante gratidão. Desejo, por meio deste humilde relato, compartilhar convosco uma ou duas dessas bênçãos para que se tornem amplamente conhecidas.
-
-Nosso vilarejo é uma comunidade montanhosa, onde os arrozais se encontram dispersos pelos vales. Consequentemente, não apenas o arroz, mas todas as culturas, como o trigo, a batata e a batata-doce, são devastadas por javalis selvagens. Os agricultores se esgotam em esforços incessantes para proteger suas terras, mas, ao final, amargam enormes prejuízos, sentindo-se completamente desamparados.
-
-Dentre todas as dificuldades, a mais penosa é, sem dúvida, a proteção das plantações de arroz. Todos constroem cabanas de vigília à beira dos arrozais e, durante o longo período que vai do início de setembro até meados de novembro, passam as noites em vigília quase ininterrupta, sem faltar uma única vez, quer chovesse ou houvesse tempestade. E, ainda assim, era habitual que as plantações fossem atacadas justamente em noites chuvosas. Até o ano retrasado, eu mesmo me dedicava a essa proteção com um esforço sobre-humano, mas os ataques persistiam, deixando-me em uma situação aflitiva.
-
-No ano passado, contudo, ouvi dizer que seria possível obter a proteção de Kannon (観音) contra os javalis. Abandonei, portanto, os pernoites nas cabanas e, em vez disso, passei a ir todos os dias ao anoitecer até os arrozais para ministrar Johrei, nutrindo a esperança de que algo mudaria. Certa vez, ao passar por uma plantação que raramente visitava, notei que ela estava intacta. Meu coração se encheu de alegria, certo de que se tratava de uma graça Divina.
-
-Todavia, na segunda incursão, os animais devastaram precisamente o trajeto que haviam percorrido da primeira vez. Senti-me desolado. Era como se os vizinhos me observassem com olhos de águia, prontos para gargalhar de minha desgraça. Sentia uma vontade imensa de chorar.
-
-Em meio a essa angústia, participei de um ofício religioso no Johrei Center de Kuwana, onde relatei detalhadamente o ocorrido ao Reverendo Mizutani. Através de suas palavras, compreendi que de nada adiantaria tentar resolver a situação por minhas próprias forças. A partir de então, decidi entregar-me por completo a Kannon (観音), confiando-Lhe a totalidade do problema, e dedicar-me de corpo e alma ao serviço dos Sagrados Ensinamentos. Passei a ir aos campos apenas para verificar o nível da água e ministrar Johrei, abandonando por completo a vigília.
-
-No entanto, a calmaria foi breve. Os animais voltaram a atacar quase todas as noites, provocando a maior devastação que eu já vira. Fui alvo de comentários maldosos e do riso de muitas pessoas. Quando o grupo de agricultores da vizinhança veio inspecionar os campos, senti uma vergonha tão profunda que meu único desejo era o de me esconder em um buraco. Eu me mantinha atrás do grupo, sentindo-me diminuído, enquanto ouvia comentários de que duas ou três de minhas lavouras estavam completamente perdidas e que a colheita seria uma tarefa árdua e problemática. Interiormente, meu coração chorava de desespero.
-
-Contudo, quando finalmente iniciamos a colheita, o trabalho transcorreu com uma rapidez surpreendente. E mais, a quantidade de arroz parecia expressiva, considerando a extensão dos estragos. Uma centelha de esperança brotou em meu coração, embora eu soubesse que a verdadeira prova viria após a debulha. Mas a surpresa maior veio no momento da medição. Ao colocar o arroz na caixa de medida, fiquei absolutamente estarrecido. No ano anterior, quando quase não tive perdas, a colheita total fora cerca de duas sacas menor que a daquele ano!
-
-Dominado por um sentimento de assombro e alegria, dirigi-me imediatamente com minha esposa ao altar de Komyo Nyorai. Ali, com os olhos marejados, agradecemos profusamente a Kannon (観音) por Sua profunda e imensa compaixão e misericórdia. Agradeço a imensa alegria de ter compreendido que, ao orar e nos entregarmos de todo o coração, qualquer situação pode ser conduzida para o bem.
-
-Ademais, desde a noite do Setsubun, minha esposa passou por sucessivas purificações. A cada vez, recorríamos em oração por intermédio de nosso superior e as purificações transcorriam de forma branda. Através do corpo de minha esposa, pude aprender valiosas experiências, pelas quais sou imensamente grato. Nosso terceiro filho também passou por duas purificações de uma pneumonia grave, em meados de março e abril. Por cerca de três dias, sofreu com febre alta, ingerindo apenas um pouco de chá. Em ambas as ocasiões, recebemos a visita do reverendo para o ofício a Komyo Nyorai, e ele pôde ministrar Johrei ao menino. Na mesma noite, ele já começou a comer e, em dois ou três dias, estava mais forte e saudável do que antes. Sentimo-nos imersos nessa profunda graça, com lágrimas de gratidão. Os outros filhos também passaram por purificações, e eu mesmo, recentemente, purifiquei com uma febre alta decorrente de um resfriado, mas obtive a cura completa no dia seguinte a uma visita à Sede de Ichinomiya.
-
-Nossa família inteira tem vivenciado na própria pele essas inúmeras e abençoadas formas de proteção e graça, e por isso nossos dias são plenos de alegria e gratidão. Resta-nos apenas expressar nossa mais profunda e sincera gratidão e nos empenhar para retribuir, ainda que minimamente, uma ínfima parcela de tão grandes bênçãos. Já praticamos o cultivo sem adubos em todas as nossas plantações e nos esforçamos para que mais pessoas conheçam essa verdade o quanto antes. Oramos para que o verdadeiro símbolo da fé nos seja concedido.
-
-Perdoem-me pela simplicidade de minha escrita, incapaz de traduzir a plenitude de minha sincera gratidão. Embora seja um relato singelo, minha maior felicidade será se ele puder, de alguma forma, chegar ao conhecimento do maior número de pessoas.
-
----
-
-# Recebendo inúmeros milagres logo após ingressar na Fé (Publicado na revista Eikou, nº 132, em 28 de novembro de 1951)
-
-**Categoria:** nano | **Ano:** 昭和26(1951)年11月28日 | **Fonte:** Eikou
-
-## Recebendo inúmeros milagres logo após ingressar na Fé (Publicado na revista Eikou, nº 132, em 28 de novembro de 1951)
-
-**Fukuoka, Igreja Nyoirin | Morita Suteo (43 anos)**
-
-Eu, que tive a permissão de ingressar nesta Fé em 25 de fevereiro de 1951 e receber a sagrada Medalha da Luz Divina, venho por meio desta relatar, ainda que com minhas simples palavras, as diversas experiências que tive com o poder do Johrei. Fiquei tão assombrado com Sua força magnânima que senti o dever de compartilhar meu testemunho.
-
-Tudo começou quando ouvi falar desta nobre religião por intermédio de um parente, o senhor Hirokichi Sakata, que reside no mesmo vilarejo. Como eu próprio buscava uma religião de verdadeiro poder para os tempos atuais, no dia 21 de julho participei de uma cerimônia religiosa em sua residência. Na ocasião, recebi Johrei do reverendo Koyanagi e senti minha cabeça, que estava pesada por um leve resfriado, clarear instantaneamente. Diante disso, solicitei meu ingresso na Fé de imediato.
-
-No dia 25, após receber diversas orientações na Sede de Nagahama e ter a sagrada Medalha colocada em meu peito, retornei ao lar, exultante, e comecei a ministrar Johrei aos meus familiares. Minha esposa, que havia perdido por completo o olfato, recuperou-o com uma única ministração. Meu filho mais novo, Hisayoshi, de três anos, costumava ter crises de choro, durante as quais se contorcia e se atirava para trás. Suspeitando de verminose, ministrei Johrei em seu abdômen. Com apenas duas ou três ministrações, ele se tornou uma criança tranquila e dócil, e as crises cessaram.
-
-O milagre que se segue, contudo, foi particularmente assombroso. No dia 5 de agosto, enquanto minha esposa e eu serrávamos madeira para a fabricação de caixas, enfrentávamos dificuldades. Utilizávamos um motor de três cavalos de potência, insuficiente para as peças maiores. Ao tentarmos cortar uma viga de sete polegadas, a correia escapulia dezenas de vezes, tornando o trabalho impossível. Minha esposa sugeriu: “Por que não ministra Johrei?”. A princípio, hesitei, ponderando que não deveria importunar a Deus por um motivo tão corriqueiro. Todavia, diante de sua insistência, decidi suplicar: “Pois bem, vamos pedir a ajuda de Deus”. Ministrei Johrei ao motor e à serra por aproximadamente dois minutos e, em seguida, a madeira foi serrada com uma suavidade impressionante. Tanto minha esposa quanto eu ficamos estarrecidos com a magnitude desse poder. Compreendi, então, que Sua força é verdadeiramente incomensurável.
-
-Em 16 de agosto, durante uma viagem de negócios ao vilarejo de Doyanagi, deparei-me com outra situação. Em meio a uma reunião com cerca de vinte e cinco pessoas na casa do senhor Bungo Ogomori, o senhor Kai Nonaka queixou-se de um furúnculo doloroso no abdômen. Ministrei-lhe Johrei por cinco minutos, e a dor desapareceu diante de nossos olhos. Ele exclamou a todos: “Isto é um prodígio! O senhor Morita conhece uma técnica extraordinária!”. Em seguida, o senhor Ogomori, anfitrião do encontro, pediu minha ajuda, pois sofria de uma crise de lombalgia aguda há dez dias. Após quinze minutos de Johrei em sua cintura, a dor cessou por completo. Para testar, ele realizou alguns exercícios de alongamento e, ao constatar que não sentia mais dor, ficou imensamente feliz. A partir daí, formou-se uma fila de pedidos: “Eu também! Eu também!”. Acabei por ministrar Johrei a um total de oito pessoas com dores lombares, problemas nos braços e no estômago. Todos foram curados instantaneamente. A grandiosidade do Poder Divino deixou todos maravilhados, mas eu, que ministrava, fiquei ainda mais assombrado.
-
-No dia 19 de agosto, testemunhei a recuperação da ovelha do senhor Mikizo Higuchi, morador de meu bairro. O animal jazia prostrado há treze dias, incapaz de se levantar. Um veterinário aplicara-lhe uma injeção, mas declarara que não havia mais o que fazer, e a família já aguardava sua morte. Ao passar em frente à sua casa, a nora do proprietário me pediu que ministrasse Johrei. Após cerca de duas horas de ministração, a ovelha, que mantinha a cabeça caída no chão, ergueu-a para espantar as moscas. Dois dias depois, em 21 de agosto, realizei a segunda ministração por uma hora. Seus membros dianteiros começaram a se mover e ela tentou se levantar, mas não conseguiu se firmar sobre as patas traseiras. Contudo, voltou a comer e a beber água. Realizei a terceira ministração dois dias mais tarde, em 24 de agosto. Após uma hora e meia, finalmente, no décimo oitavo dia de enfermidade, a ovelha conseguiu se erguer sobre as patas traseiras e caminhar. A família Higuchi, atônita, chegou a me perguntar se eu não estaria usando alguma espécie de “ninjutsu”. Esclareci que não se tratava de tal coisa, mas sim do genuíno Poder Divino, e todos se maravilharam com essa grandiosa graça.
-
-Houve ainda outra ocorrência, um pouco antes desses fatos. Eu havia contratado três homens para o corte de cedros. Ao chegar à montanha, encontrei-os aflitos, pois haviam perdido um descascador de casca (uma espátula) e, apesar da busca exaustiva, não o encontravam. Eu lhes disse: “Pois bem, eu o encontrarei. Em troca, peço que se ajoelhem, apoiem as mãos no chão e orem perante a minha Medalha. Se o objeto for encontrado, deverão agradecer-lhe com a devida reverência”. Os três concordaram e oraram com fervor. Indaguei sobre o último local onde o utilizaram, ministrei um breve Johrei naquela direção, roguei ao Senhor da Luz e, após avançar apenas três passos, lá estava a espátula caída bem à minha frente. “É esta?”, perguntei, mostrando-a aos três. Eles ficaram estupefatos e exclamaram: “Mas nós procuramos dezenas de vezes nesse mesmo lugar!”. Maravilhados com a grandiosidade do poder deste Deus, expressaram sua profunda gratidão, felizes por poderem continuar o trabalho no dia seguinte.
-
-Eu mesmo, tendo ingressado há tão pouco tempo, tenho sido agraciado com inúmeros milagres. Ao testemunhar o Poder Divino de forma tão clara, minha fé se aprofunda cada vez mais. Atualmente, recebo de quatro a cinco pessoas por dia que vêm em busca de Johrei e, sucessivamente, elas relatam sua alegria pelas graças alcançadas. As preocupações com as enfermidades da família desapareceram; confiando plenamente em Deus, meu trabalho também progride de forma harmoniosa.
-
-Sinto uma gratidão imensurável por ter sido aceito nesta Fé. Desejo retribuir, ainda que minimamente, a essa imensa graça, guiando o maior número possível de pessoas a este caminho de felicidade. No dia 8 de agosto, fui à Igreja Intermediária e recebi a Imagem de Kannon (観音) de Biombo. No dia 10, o reverendo Koyanagi realizou o ofício de assentamento de nossos antepassados, e em 10 de setembro, o segundo ofício. Ao ouvir as valiosas explanações sobre a importância da elevação espiritual dos antepassados e dos ofícios religiosos, compreendi com total clareza que o Senhor da Luz está salvando não apenas a mim e meus descendentes, mas também a todos os meus antepassados.
-
-Anseio pelo dia em que poderei entronizar a Imagem do Senhor da Luz em meu lar. Peço escusas pela simplicidade de meu relato.
-
-Muito obrigado, Meishu-Sama.
-Sinto-me imensamente grato e honrado.
-
----
-
-# Curada de uma cefaleia crônica
-
-**Categoria:** nano | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
-
-## Curada de uma cefaleia crônica
-Publicado na edição de 1º de janeiro de 1953 do periódico “A Salvação da América”
-
-Sada Nagai (39 anos)
-Igreja Koseichu, Província de Chiba
-
-Sou uma simples camponesa que teve a honra de ingressar na Fé em 16 de abril de 1948. Era um dia chuvoso e ainda frio, apesar de já ser primavera. Naquele tempo, nossa unidade religiosa era denominada Filial Yoshio da Associação Daiwa, da Igreja Kannon do Japão.
-
-Desde que ingressei, tenho sido abençoada com inúmeras proteções divinas; contudo, sou uma pessoa tão simplória que não consigo expressar, seja pela escrita ou pela fala, nem a milésima parte de tudo o que sinto. Desejo, portanto, relatar singelamente duas ou três experiências, como forma de manifestar minha gratidão a Meishu-Sama, e rogo-lhe humildemente a benevolência de ler estas linhas.
-
-Minha cunhada já era membro da Igreja e, ao presenciar meu sofrimento constante com as dores de cabeça, insistia inúmeras vezes: "Irmã, ingresse na Fé. Com certeza, você será curada". Todavia, por alguma razão, eu não me sentia inclinada a aceitar. Eu padecia dia e noite com as cefaleias. A situação se agravou durante a primavera, na época da sericultura. A dor era tão contínua que os analgésicos já não surtiam efeito algum. Naturalmente, perdi o apetite, e as náuseas tornaram-se intensas. Meu único consolo naqueles dias era deitar-me em silêncio e tentar dormir após tomar algum remédio.
-
-Como os dias passavam sem que eu sentisse qualquer alívio, certo dia, decidi procurar um templo nas proximidades onde se realizavam consultas sobre o destino. Lá, foi-me dito: "Seu útero e ovários estão inchados. Mantenha o baixo-ventre sempre aquecido". Contudo, como esposa de um agricultor, minha rotina era implacável. Com um bebê de colo para cuidar, além das tarefas da lavoura, da criação do bicho-da-seda, das crianças e da lavagem de roupas, era-me impossível seguir tal recomendação, nem mesmo por um único dia. Assim, enfrentei inúmeros momentos de grande aflição.
-
-Em minha busca desesperada por uma cura, experimentei diversos medicamentos, mas a dor apenas se intensificava. Novamente, minha cunhada me incentivou a ingressar na Fé. Desta vez, ainda que cética, perguntei-lhe: "Será que esta dor de cabeça pode realmente ser curada?". Com grande fervor, ela me assegurou: "Sem dúvida alguma, será". Eu me questionava se uma pessoa inculta como eu seria capaz de cumprir os desígnios da Fé, pois, por desconhecê-la, imaginava que fosse um universo intelectualizado e rígido. Contudo, suas palavras me convenceram, e, acompanhada por ela, dirigi-me, um tanto receosa, à Filial Yoshio.
-
-Participei do curso de formação por dois dias, durante os quais ouvi, com imensa gratidão, os diversos ensinamentos ministrados. No terceiro dia, tivemos a honra de receber a orientação do ministro Otsuki, que viera de Kamakura especialmente para a ocasião, e por meio de quem me foi outorgada a sagrada Medalha da Luz Divina. Ah, que emoção indescritível! Naquele exato instante, senti como se um grande peso fosse removido, e minha cabeça tornou-se extraordinariamente leve e clara.
-
-Posteriormente, passei por diversas purificações e, a cada uma delas, sentia-me mais leve e revigorada. Neste ano, minha saúde é tamanha que sou como alguém que se esqueceu do que é uma dor de cabeça. Estou imersa em uma felicidade incomparável. Desde meu ingresso na Fé, minha maior alegria tornou-se frequentar a unidade religiosa para ouvir os Ensinamentos.
-
-Ao retornar para casa, nos intervalos do trabalho no campo, eu compartilhava com meu marido os diversos relatos que ouvia do ministro Fukasawa. A cada conversa, ambos nos sentíamos profundamente comovidos. Como resultado, em 29 de dezembro daquele mesmo ano, meu esposo também teve a honra de ingressar na Fé. A alegria que senti foi tão imensa que não pude conter as lágrimas, que corriam incessantemente pelo meu rosto. A partir daquele momento, decidimos que, como casal, viveríamos de mãos dadas, trilhando este Caminho e nos entregando unicamente a Ele.
-
-Desde então, a atitude de minha sogra para comigo transformou-se por completo. A atmosfera em nosso lar tornou-se diferente da de antes; uma harmonia serena passou a permear nosso cotidiano. De forma surpreendente, o trabalho tornou-se prazeroso, e um sentimento de felicidade e propósito nos envolve, permitindo que toda a família se dedique, com alegria, à produção de alimentos.
-
-No ano seguinte, em abril, tivemos a permissão de entronizar a imagem de Kannon (観音) e, em 16 de julho, a de Komyo Nyorai (光明如来). Posteriormente, por ocasião de uma purificação decorrente de um resfriado, minha sogra também ingressou na Fé. Meu pai, todavia, ainda não se decidiu, e embora eu rogue para que ele encontre este Caminho, sua obstinação tem sido, por ora, um desafio. Nossos quatro filhos, por Sua graça, gozam de plena saúde, a ponto de serem admirados pela vizinhança, e realizam suas orações matinais e vespertinas espontaneamente, cada um à sua maneira.
-
-Meishu-Sama, muito obrigada. Elevo-Lhe, do fundo do meu coração, uma prece de sincera gratidão...
-
-(21 de outubro de 1951)
-
----
-
-# Esta proteção divina até mesmo para as enfermidades mais graves (Extraído da publicação ‘A Terapia Revolucionária da Tuberculose’)
-
-**Categoria:** nano | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
-
-## Esta proteção divina até mesmo para as enfermidades mais graves (Extraído da publicação ‘A Terapia Revolucionária da Tuberculose’)
-
-**Publicado em 15 de agosto de 1951**
-**Igreja Seirei-Tyu, Província de Okayama**
-**Chieko Moriwaki (22 anos)**
-
-É com imensa gratidão que, por meio de minhas singelas palavras, desejo relatar uma parcela das bênçãos que tenho recebido diariamente. Graças à sublime misericórdia de Deus, fui salva de uma grave enfermidade e, ademais, tive a ventura de ser agraciada com a sagrada Força Divina.
-
-Rememorando os fatos, tudo começou por volta de julho do ano retrasado, com um mal-estar constante no abdômen. Gradualmente, meu quadro se agravou, evoluindo para diarreia, problemas duodenais, beribéri cardíaco e, por fim, uma infiltração no pulmão esquerdo. Mergulhada em profunda desesperança, meus únicos companheiros eram os jornais e as revistas, que me ajudavam a preencher os longos e solitários dias.
-
-Foi então que tomei conhecimento da terapia por pneumotórax e, seguindo à risca cada palavra do médico, comecei a melhorar pouco a pouco, a ponto de conseguir realizar novamente as tarefas domésticas, o que me encheu de alegria. Contudo, quando parecia que a recuperação completa estava próxima, os efeitos do tratamento estagnaram. Meu estado de ânimo passou a oscilar como o tempo, ora ensolarado, ora nublado, e perdi a perseverança para qualquer atividade, vivendo meus dias de forma quase inconsciente.
-
-Eis que, em um certo entardecer, minha vizinha, a senhora Nakamori, trouxe-me três ou quatro exemplares do jornal da Igreja. Ao lê-los de ponta a ponta, deparei-me com o relato de uma pessoa que havia sido completamente curada da mesma enfermidade que me afligia. Percebi, então, que inúmeras pessoas estavam sendo agraciadas com graças semelhantes e comecei a me perguntar se eu também poderia recebê-las. A simples ideia trouxe-me um certo alento.
-
-Essa esperança despertou em mim o desejo de procurar o ministro. E, por uma feliz coincidência, no dia 9 de agosto, a mesma vizinha informou-me que ele estava na região e que eu deveria aproveitar a oportunidade para ouvi-lo. Imediatamente, pedi que o convidasse a vir à minha casa.
-
-Passei a noite em claro, ouvindo ensinamentos como jamais havia escutado. O ministro, chamado Hirose, expunha suas ideias com tal clareza que toda a minha família, composta por cinco pessoas, assentia em concordância. Em seguida, ele me ministrou Johrei. De início, senti-me um tanto envergonhada e sem jeito, ajoelhando-me diante dele com certa apreensão. Após duas ou três aplicações, no entanto, percebi uma leveza nos ombros, como se tivessem se abrandado. O ministro explicou-me detalhadamente sobre a natureza da enfermidade e me recomendou que, a título de experiência, eu recebesse Johrei por uma semana.
-
-Embora eu vivesse no alto de uma montanha, a cerca de cinquenta minutos da estação, tomei a firme decisão de ir diariamente à Igreja provisória de Takahashi. Até então, o menor esforço deixava minha cabeça pesada e meu corpo exausto. Contudo, para minha surpresa, mesmo percorrendo o íngreme caminho todos os dias, durante uma, duas semanas, não senti dor alguma; pelo contrário, sentia-me cada vez mais vigorosa. Meus pais ficaram maravilhados ao testemunhar minha melhora dia após dia.
-
-Tendo conhecido este caminho em 9 de agosto, solicitei ao ministro permissão para ingressar na fé. Meus pais, compreendendo a situação, apoiaram a decisão, e no dia 21 daquele mês, minha irmã mais nova e eu fomos agraciadas com a sagrada Medalha da Luz. Com o tempo, passamos a compreender a profundidade da salvação, e meu irmão também recebeu seu amuleto. Posteriormente, tivemos a honra de entronizar o Altar em nosso lar. Naquela ocasião, o responsável pela Igreja, o ministro Hirose, o ministro Hara e muitos outros membros conduziram uma cerimônia solene, pela qual minha gratidão é indescritível.
-
-Desde aquele 9 de agosto, já nem me recordo de minha doença, dedicando-me ao trabalho todos os dias. Minha gratidão é imensa por meus dois irmãos e eu termos recebido a Medalha da Luz e, ainda, a permissão para ter o Altar Sagrado. Rogo para que chegue o dia em que meus pais também recebam seus amuletos, e toda a nossa família possa se unir na mesma fé.
-
-No outono do ano passado, tive a permissão de participar do Grande Culto de Outono com meus dois irmãos. Contemplar cada árvore, cada folha de relva e cada pedra do Paraíso Terrestre tocou-me o coração com uma emoção renovada.
-
-Diante da grandiosidade do Poder Divino que opera tamanha salvação, não sinto senão gratidão e uma profunda comoção. Faltam-me palavras para agradecer ao responsável pela Igreja e a todos os ministros pela orientação atenciosa que me ofereceram, e lamento não conseguir expressar meus sentimentos à altura do que recebi.
-
-Doravante, sob a orientação dos ministros, oro para que eu possa levar a salvação ao maior número possível de pessoas que sofrem e, assim, retribuir minimamente que seja a imensa graça que me foi concedida.
-
-Agradeço por toda a proteção divina.
-
----
-
-# A Cura da Tuberculose em Estágio Avançado no Período de uma Semana (A Terapia Revolucionária da Tuberculose)
-
-**Categoria:** nano | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
-
-## A Cura da Tuberculose em Estágio Avançado no Período de uma Semana (A Terapia Revolucionária da Tuberculose)
-
-**Publicado em 15 de agosto de 1951**
-**Igreja Meiwa, Província de Yamaguchi**
-**Teruo Yamaji (23 anos)**
-
-Em agosto do ano retrasado, fui salvo da tuberculose, até então considerada uma enfermidade incurável. Com o coração transbordando de gratidão pela imensa misericórdia de Deus, e almejando dedicar-me, ainda que minimamente, à Obra Divina, sirvo atualmente na Igreja Meiwa.
-
-Rememorando os fatos, foi por volta do final de maio daquele mesmo ano que meu estado de saúde se deteriorou, levando-me a procurar auxílio médico. Qual não foi minha surpresa ao receber um diagnóstico que jamais poderia imaginar: tuberculose, e já em seu segundo estágio. A angústia que se abateu sobre meus pais e irmãos foi imensa, mas como descrever a profundidade do meu próprio desalento?
-
-Para um jovem como eu, que acalentava grandiosos sonhos e estava repleto de esperança no porvir, a notícia soou como uma cruel sentença de morte. Todas as minhas aspirações, todos os ideais que eu vinha nutrindo com tanto vigor para o futuro, foram estilhaçados em um único instante pelo diagnóstico de tuberculose.
-
-Será que meu destino era perecer tão efemeramente, com apenas vinte e um anos? Tomado por uma angústia insuportável, meus dias transcorriam em um ciclo de lágrimas, do amanhecer ao anoitecer.
-
-Contudo, as palavras de alento de meus familiares me deram forças, e eu não abandonei um tênue fio de esperança, apegando-me à remota possibilidade de cura através do tratamento médico. Assim, prossegui com a terapia por um, dois meses. Ao final desse período, com o coração palpitante de expectativa, retornei ao consultório, ansiando por boas notícias. Mas, oh, que revés desolador! Longe de apresentar qualquer melhora, a doença havia se alastrado, comprometendo também meu pulmão direito, até então saudável. Em vez da cura, eu, sem o saber, me aproximava cada vez mais do limiar da morte.
-
-Naquele momento, toda a luz se extinguira. O último vislumbre de esperança se dissipara, e eu me resignara a aguardar a morte em um mundo de trevas, passando meus dias em completa solidão. Jazendo em meu leito, imerso em profunda melancolia, jamais imaginei que voltaria a encontrar a luz da vida. E, no entanto, quão imensa é a graça Divina! Por um desígnio da misericórdia de Deus, a luz que eu julgara perdida para sempre voltou a brilhar em meu caminho.
-
-O desfecho dessa angústia começou no início de agosto, quando um membro que eu conhecia passou por minha casa para pedir fogo para seu cigarro e, vendo meu estado, insistiu para que eu recebesse Johrei. "Você certamente irá melhorar", ele me assegurou. Embora eu já tivesse conhecimento sobre esta Fé, jamais havia cogitado recorrer a ela. Diante daquela recomendação, porém, um pensamento me ocorreu: "De fato, neste momento, tudo o que faço é aguardar passivamente a morte. Se existe algo que possa me salvar, quero me apegar a essa chance". E foi com o sentimento de quem se agarra à última esperança que decidi seguir seu conselho.
-
-Passados apenas um ou dois dias recebendo Johrei, qual não foi meu espanto ao sentir meu corpo revigorar-se de maneira extraordinária! A alegria daquele momento foi indizível. "Estou sendo salvo!", pensei. "Poderei ter meu corpo saudável novamente!". Movido por uma felicidade sem par, abandonei de imediato todos os tratamentos médicos para me entregar unicamente a este caminho. E assim, em apenas uma semana, minha saúde estava plenamente restabelecida. Ao me perguntar se aquele era realmente o mesmo homem que, dias antes, jazia resignado à morte em meio a pensamentos sombrios, só me restava a mais profunda e comovida gratidão pelo poder grandioso de Deus.
-
-Diante de tal evidência, como poderia eu não crer? Imediatamente, ingressei na Fé, recebendo o sagrado Ohikari das mãos do Reverendo Kito, e meu coração se inflamou com a firme determinação de retribuir, ainda que minimamente, por tão grandiosa graça, dedicando-me à Obra Divina.
-
----
-
-# Mesmo em dúvida, fui curado da tuberculose e, ao receber a fé, sucessivas graças se manifestaram
-
-**Categoria:** u | **Ano:** 昭和28(1953)年7月29日 | **Fonte:** Eikou
-
-## Mesmo em dúvida, fui curado da tuberculose e, ao receber a fé, sucessivas graças se manifestaram
-
-Revista Eiko, nº 219, 29 de julho de 1953
-Takao Mikamoto (36 anos)
-Igreja Seirei – Yamaguchi
-
-Quando ouvi dizer que havia chegado alguém que “curava enfermidades apenas com a imposição das mãos”, confesso que não senti nada de especial. Após uma vida acamada que se estendia por quase dez anos, eu já havia experimentado os mais diversos tratamentos e recorrido a praticamente tudo que me indicavam como eficaz. Cheguei ao ponto de ingerir lesmas. A partir de agosto do ano anterior, iniciei o uso de hidrazida, um novo medicamento para a tuberculose, mas, como não observei efeito algum – embora no início parecesse haver uma leve melhora, o quadro permaneceu inalterado –, acabei por interrompê-lo. Recebi do Havaí um novo remédio, tido como promissor, mas também foi em vão. Como se dez anos fossem um só dia, minha condição oscilava entre breves melhoras e recaídas, deixando-me completamente desalentado quando o Ano-Novo chegou.
-
-Foi logo no início do ano que ouvi falar sobre a pessoa que “curava doenças com a imposição das mãos”. Achei a história um tanto curiosa, mas a ignorei e continuei a ler o jornal. Foi então que meu irmão mais novo regressou e começou a me contar, com entusiasmo, o que havia apurado a respeito.
-
-Acontece que um morador de nosso vilarejo, que resolvera abrir uma casa de pachinko, contratara um homem de Hiroshima chamado Saito, que era membro da Igreja. Um carpinteiro local, o senhor Hayashi, notou o emblema que o senhor Saito usava e o questionou. Este lhe disse: “Experimente, mesmo que lhe pareça inacreditável”. Diante disso, o senhor Hayashi pensou: “Se uma enfermidade pode ser curada de forma tão simples, seria maravilhoso. E o que mais me agradou foi a permissão para duvidar”. Sem demora, enviou um familiar para solicitar que viessem à minha casa.
-
-Como a instalação das máquinas de pachinko o mantinha ocupado, tivemos de aguardar a conclusão do trabalho para que ele finalmente pudesse vir. Recebi, então, a primeira ministração de Johrei. Após uma conversa de cerca de duas horas e a ministração em si, surpreendi-me com a simplicidade do método. Disseram-me: “Não há necessidade de permanecer deitado”. Visto que até a dúvida era permitida, decidi fazer um teste: levantei-me, sentei-me junto ao kotatsu e comecei a ler o jornal. Para mim, aquilo era extraordinário. Até então, minha vida se resumia a um repouso absoluto; com exceção das idas ao banheiro, das refeições e de me lavar, eu não saía da cama. Uma única hora a menos de descanso era suficiente para que eu despertasse sentindo uma imensa fadiga.
-
-Qual não foi minha surpresa ao constatar que, após receber Johrei, eu podia passar o dia inteiro levantado sem sentir o menor traço de fadiga ao despertar. Pensei: “Isto é deveras estranho. Estará surtindo efeito? Ou será apenas sugestão da minha mente?”. Eu ainda duvidava. Lembrei-me de quando frequentava certa religião K e, ao questionar o responsável sobre o porquê de minha doença não se curar, ouvi: “Isso se deve à sua falta de fé, ao fato de não se empenhar com afinco”. Retruquei, à época: “Mas, a meu modo, estou me empenhando ao máximo. Poderia me apontar em que aspecto meu empenho é insuficiente?”. A resposta que recebi era, em suma, que a prova da minha falta de empenho residia no fato de eu não ter alcançado a cura. Depois disso, abandonei aquela religião.
-
-Agora, contudo, eu me encontrava diante de um ensinamento que me permitia duvidar. Recebi Johrei com o coração tranquilo e, como relatei, meu estado de saúde melhorou. Em meu íntimo, uma alegria discreta começou a brotar, e senti que poderia ser salvo. O senhor Saito, porém, estava atarefado com as máquinas e também cuidava de um doente em Okubo, pernoitando na casa do senhor Hayashi, de modo que suas visitas a mim se tornaram esporádicas. Ainda assim, meu corpo não dava sinais de piora com o passar dos dias. Decidi, então, tomar a iniciativa e sair de casa. Num dia de neve, aventurei-me a ir até ele e, para minha surpresa, consegui caminhar sem dificuldade. Senti-me revigorado e comecei a falar com as pessoas sobre o que estava vivenciando.
-
-A partir de então, a reputação da Sekaikyuseikyou começou a se espalhar. No dia 15 de janeiro, o senhor Hayashi, de Okubo, foi a Hiroshima e ingressou na fé. Logo depois, também recebi a permissão para me tornar membro. Ao ouvir que eu poderia “não apenas ser salvo, mas também salvar outras pessoas”, um novo ânimo me tomou. Para dar início à difusão em nossa localidade, recebemos o reverendo Tanahashi, da Igreja Central. Meu irmão, juntamente com outras cinco pessoas, também ingressou na fé.
-
-No dia 16 de fevereiro, foi possível entronizar a Imagem da Luz Divina na residência do senhor Yuiitsu Okamoto, em Usago, ocasião em que o reverendo Yaichi Ono, da Igreja Central, nos honrou com sua visita. Naquele dia, tivemos a alegria de receber seis novos membros. No mês seguinte, tive a graça de entronizar a Imagem da Luz Divina em meu próprio lar; minha mãe e minha irmã ingressaram na fé nesse mesmo dia, junto a outras sete pessoas. O número de fiéis continuou a crescer, e, ao testemunhar a salvação de tantas pessoas através das sucessivas graças, fico sem palavras, a não ser para dizer que é simplesmente maravilhoso.
-
-Em tão breve período, a entronização da Imagem da Luz Divina já se realizara em três lares, e o número de membros chegara a vinte e um. Para alguém de fé tão recente como eu, faltam-me palavras para expressar o que sinto. Impulsionado por uma imensa alegria e reverência, sigo as orientações dos reverendos, dedicando-me com fervor às atividades.
-
-Era o dia 1º de fevereiro. Eu havia ingressado na fé havia pouco tempo quando uma senhora chamada Teru Tamura me procurou, dizendo ter ouvido falar sobre os ensinamentos. Ela me contou que, após receber uma injeção de penicilina em uma clínica, seu corpo começou a apresentar um estranho mal-estar. Quando se dirigia a outro médico, ouviu sobre nosso movimento e decidiu me visitar. Explicou que, havia dois ou três dias, um grande furúnculo surgira em suas costas, causando-lhe um sofrimento atroz, e suplicou: “Por favor, ajude-me a curar isto”.
-
-Embora me houvesse sido outorgado o poder de curar, era a primeira vez que o exercia e, com o coração apreensivo, ministrei-lhe Johrei. Surpreendentemente, passados alguns dias, ela relatou que, durante a noite, transpirava a ponto de encharcar suas roupas e que tivera uma secreção vaginal que não ocorria há mais de uma década. Esse quadro se manteve por dois ou três dias. A partir daí, sua melhora foi rápida e, em cerca de uma semana, ela recebeu a graça da cura completa. Naquele momento, as palavras do reverendo, de que “só compreendemos verdadeiramente quando nós mesmos ministramos Johrei”, ressoaram em mim com profunda clareza. Meishu-Sama, sou-Lhe imensamente grato.
-
-Ademais, na manhã de 31 de janeiro, meu irmão mais novo, a caminho do trabalho, sofreu um acidente: caiu com sua bicicleta de uma altura de aproximadamente cinco metros e meio, em um local de rochas onde uma pessoa já havia morrido. No momento da queda, ele contou que, instintivamente, levou a mão ao peito. O resultado foi que sofreu apenas leves contusões na cintura e nas pernas, recebendo a graça de uma recuperação rápida. Um calafrio percorre meu corpo só de pensar que, se ele não houvesse ingressado na fé, poderia ter quebrado uma perna, um braço ou, na pior das hipóteses, perdido a vida. Diante de tal pensamento, não posso senão curvar a cabeça em profunda gratidão pela proteção divina.
-
-Recentemente, meu outro irmão foi à montanha cortar lenha. Durante o trabalho, por um descuido, desferiu um golpe de machado contra o próprio pé. Ele disse que, no instante em que se deu conta do ocorrido, pensou: “Pronto, me machuquei!”. No entanto, apesar de o golpe ter rasgado sua bota de trabalho num corte de quase dez centímetros, seu pé estava completamente ileso. Ele voltou correndo para casa, exultante, para nos contar a graça que recebera. Diante de tantas graças sucessivas, nossos corações transbordam, e toda a família expressa sua mais profunda gratidão.
-
-Atualmente, mesmo sob os gracejos de alguns que me julgam insensato, continuo a me dedicar à Obra Divina. Estou cuidando de Haruo Sadamori, um jovem de quatorze anos que está cego há oito. Seus globos oculares, que antes se projetavam para fora, retraíram-se, e agora ele já começa a dizer: “Em dias de sol, a claridade lá fora ofusca minha vista”. Seus pais estão radiantes de esperança de que, com a continuação do Johrei, ele recuperará a visão. É uma alegria imensa visitá-lo para ministrar Johrei. O pai do rapaz ingressou na fé em 18 de abril, e o lar deles, agora agraciado pela proteção divina, tornou-se um ambiente mais luminoso. No momento, ministro Johrei a cinco ou seis outras pessoas enfermas, e todas, uma após a outra, vêm recebendo graças e se enchendo de alegria. Sob a orientação de nossos reverendos, desejamos dedicar, ainda que seja uma ínfima parcela de nossos esforços, à Obra Divina.
-
-Meishu-Sama, por tantas e incontáveis graças, muito obrigado. Peço perdão pela demora em expressar minha gratidão até o dia de hoje e rogo, humildemente, que continue a nos agraciar com Sua proteção. Meishu-Sama, muito obrigado.
-
----
-
-# Braço preso sob uma rocha é liberado instantaneamente com Johrei
-
-**Categoria:** u | **Ano:** 昭和24(1949)年8月20日 | **Fonte:** -
-
-## Braço preso sob uma rocha é liberado instantaneamente com Johrei
-*Publicado na revista ‘Hikari’ nº 23, em 20 de agosto de 1949*
-
-**Relato do Sr. Tanaka Kasaburo (57 anos)**
-**Igreja Koho – Província de Nagasaki**
-
-O fato que passo a relatar refere-se a um incidente ocorrido em 6 de maio de 1949, período em que eu atuava como responsável pela obra de um túnel que ligava os distritos de Nishidomari e Kibachi, na cidade de Sasebo.
-
-Por volta das onze horas da manhã, uma súbita agitação e vozes alarmadas no canteiro de obras chamaram minha atenção. Ao me precipitar para o local, deparei-me com uma cena aflitiva: o operário Ozaka, enquanto realizava um trabalho de escoramento, tivera seu braço direito totalmente soterrado por um desmoronamento de terra e rochas. Sobre seu membro, caíra uma rocha de aproximadamente 45 centímetros de diâmetro, que o prendia de tal forma que era impossível movê-lo. O peso esmagador e a dor excruciante aumentavam sua agonia a cada instante. As tentativas de seus colegas para escavar ao redor com picaretas mostraram-se infrutíferas. A situação era tão crítica que se cogitava a amputação do membro ou, no pior dos cenários, a perda de sua vida.
-
-Foi nesse momento que uma inspiração fulminante me ocorreu: a Luz Divina de Meishu-Sama. Decidi, pois, suplicar a Ele. Em prece, com as mãos postas, roguei a Meishu-Sama e, diante daquela situação que transcendia a capacidade humana, com firme convicção, estendi a palma da mão em direção à imensa rocha e ministrei Johrei com o sentimento de que a Luz Divina penetrasse até o eixo da Terra.
-
-Transcorridos aproximadamente vinte minutos de ministração de Johrei, o braço, que antes se encontrava irremediavelmente preso, desprendeu-se com surpreendente facilidade. O operário, em estado de choque, mal se dava conta do ocorrido, mas meu coração transbordou de assombro e júbilo. Isto é, verdadeiramente, a manifestação do que se conhece por Nenpi Kannon Riki (念被観音力). Ademais, o braço resgatado não apresentava um único ferimento. Contudo, devido à forte compressão, encontrava-se dobrado em um ângulo agudo a partir do pulso e estava completamente gelado.
-
-Os presentes, em alvoroço, clamavam para que chamássemos um médico ou o levássemos a um hospital. Eu, porém, os tranquilizei, dizendo: "Não se preocupem, podem deixar comigo". Conduzi-o ao nosso escritório, a cerca de trezentos metros do local, e ali ministrei-lhe Johrei por cerca de uma hora. Gradualmente, o braço gelado foi recuperando o calor, a curvatura se desfez e o pulso readquiriu sua mobilidade. A dor cessou por completo e o membro retornou ao seu estado normal. Naquela mesma tarde, ele pôde retomar suas atividades como de costume e, no dia seguinte, não apresentava qualquer sequela.
-
-Aqueles que desconhecem a Luz Divina atribuem tais acontecimentos à mera sorte ou a um milagre fortuito e, assim, por indiferença, perdem a oportunidade de serem salvos. Ao refletir sobre como até mesmo uma pessoa insignificante como eu pode ser utilizada a serviço de Meishu-Sama, consolida-se em mim a convicção de que, sob Sua proteção, estaremos seguros independentemente do que ocorra neste mundo. Somente agora compreendo que sempre estive a bordo da grande embarcação de Meishu-Sama, e sinto-me envergonhado por minha até então insuficiente gratidão. Ao mesmo tempo, fortaleço minha determinação de que seria imperdoável não me devotar de corpo e alma a este sagrado Movimento de Construção do Paraíso Terrestre.
-
----
-
-# Uma nuvem de cigarrinhas detida por uma única divisa
-
-**Categoria:** u | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 無肥料栽培法
-
-## Uma nuvem de cigarrinhas detida por uma única divisa
-
-**Da Coletânea de Artigos do Mestre Okada Jikan – Série Jikan, Volume 2: “O Método da Agricultura sem Adubos”, publicado em 1º de julho de 1949**
-
-**Relato de Hisako Shimizu (32 anos), Igreja Seikokai, Província de Gifu**
-
-Com o desabrochar das flores de cerejeira, anunciando a chegada da primavera e de seus dias mais amenos, sinto o dever de expressar minha mais profunda e imediata gratidão a Meishu-Sama. Desejo transmitir-Lhe a imensa alegria e o reconhecimento que brotam do fundo de nossos corações.
-
-Ao recordar os acontecimentos, percebo que, desde que recebemos o Ohikari em fevereiro de 1946, fomos agraciados com inúmeras proteções divinas. É com um sentimento de profunda emoção que, dia e noite, temos nos dedicado a servir na Obra Divina, ainda que de forma humilde.
-
-O fato que passo a relatar ocorreu no outono passado. Nossa safra de arroz estava magnífica, e nós, agricultores, aguardávamos com grande expectativa a colheita. Após o término dos festivais de outono, dávamos início aos preparativos para a ceifa quando, subitamente, fomos surpreendidos por uma infestação de cigarrinhas – as chamadas unka (浮塵子) –, uma praga rara em nossa região, cuja dimensão foi amplamente noticiada pelos jornais.
-
-Autoridades da província, escritórios regionais, a prefeitura e a cooperativa agrícola enviaram inúmeros técnicos que, dia após dia, vinham inspecionar os danos e orientar sobre a aplicação de óleo para o extermínio da praga. Nossos vizinhos, por sua vez, lutavam incessantemente contra as cigarrinhas, que se multiplicavam sem parar. Foram dias de uma batalha extenuante, em que mal se dormia, como se toda a aldeia estivesse em guerra.
-
-Contudo, os esforços de todos se mostraram praticamente inúteis. A praga alastrava-se de um campo a outro, transformando a maior parte dos arrozais em um cenário desolador, com as plantas ressequidas e mortas. As cigarrinhas avançavam de tal forma que chegavam até a divisa dos campos de nossos membros, espalhados pela região. Que meio haveria para escapar de tal avanço?
-
-Nesse momento de aflição, as palavras do Ministro Takagi ressoaram em nossa mente: "Apeguem-se firmemente a Meishu-Sama". Atendendo a essa orientação, quantas e quantas vezes não entoamos a Oração Amatsu Norito diante do altar de Deus!
-
-O que se sucedeu só pode ser descrito como um milagre. Enquanto os arrozais ao redor estavam devastados, parecendo um tapete de palha ressequida, e seus proprietários lamentavam a impossibilidade de colher sequer a metade da safra, em nossos campos, algo extraordinário acontecia. A praga deteve-se exatamente na divisa de nossas terras. Nenhuma cigarrinha a ultrapassou. Nossas espigas, magnificamente cheias, começaram a pender, pesadas de grãos. À época da colheita, a densidade dos grãos era tamanha que todos se maravilharam.
-
-Enquanto a média de colheita na região foi inferior a cinco fardos de arroz, em nossa propriedade, tivemos a permissão de colher sete fardos e meio. E é crucial ressaltar: todos nós, membros da Igreja, praticávamos a agricultura sem adubos.
-
-Atribuímos este resultado inteiramente à divina proteção de Meishu-Sama, e todos os membros partilhamos dessa alegria com lágrimas nos olhos. Em nossa aldeia, que conta com sessenta famílias, apenas nós, as sete famílias que recebemos a Luz de Deus em nossos lares, fomos abençoados com idêntica proteção. Motivados por essa graça, seguimos firmes neste ano, empenhados no cultivo de trigo pelo método da agricultura sem adubos.
-
-Sinto-me imensamente honrada e feliz por, mesmo sendo uma pessoa tão simples, ter sido agraciada com a permissão de portar o Ohikari. Essa é a maior das glórias. Reafirmo, portanto, minha determinação em continuar servindo à Obra Divina com todas as minhas forças.
-
-Em nome de todos os fiéis, expresso nossa mais sincera gratidão.
-
-Cumpre ainda mencionar que, durante a inspeção governamental para a coleta de arroz, a produção de todas as famílias de membros foi classificada como de primeira qualidade, para a grande admiração dos fiscais.
-
----
-
-# A Salvação da Tuberculose e da Nefrite, a Despeito da Dúvida
-
-**Categoria:** u | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
-
-## A Salvação da Tuberculose e da Nefrite, a Despeito da Dúvida
-
-**Publicado em "A Terapia Revolucionária da Tuberculose" (15 de agosto de 1951) e "Terapia da Fé para a Tuberculose" (1º de dezembro de 1952)**
-**Morishita Toshio (23 anos)**
-**Igreja Koseichu, Província de Shizuoka**
-
-É com imensa gratidão que venho relatar o caminho que me conduziu à fé e a graça que transformou minha vida, resgatando-me do abismo do sofrimento para uma existência plena de alegria, graças à salvação que recebi de Deus.
-
-No ano de 1948, o que começou como um simples resfriado evoluiu para uma infiltração pulmonar. Ao buscar auxílio no hospital da Cruz Vermelha, o diagnóstico foi desolador: o exame radiográfico revelou sombras em ambos os pulmões, com o direito particularmente comprometido. O médico prescreveu repouso absoluto e proibiu-me até mesmo de tomar banho. Meu desalento era indescritível. Mergulhado em trevas, eu me atormentava diariamente, questionando qual seria o sentido de continuar a viver. Foi nesse exato momento que a misericórdia de Deus me alcançou.
-
-Um parente, o senhor Kuroda, visitou-me e ministrou-me Johrei. A princípio, incrédulo e convicto de que não haveria cura, aceitei recebê-lo. Para minha surpresa, a sensação foi de um bem-estar profundo. Após cerca de uma semana recebendo Johrei continuamente, a dor no peito e a tosse aliviaram consideravelmente. Todavia, mesmo diante dessa melhora, a dúvida persistia em meu coração. Eu atribuía a melhora a uma coincidência do tempo, mas, pouco depois, fui acometido por uma nefrite.
-
-Olhando em retrospecto, sinto um profundo remorso, pois, mesmo naquela situação, continuei apegado aos remédios, sem obter qualquer melhora. O senhor Kuroda novamente me visitou ao retornar da igreja e insistiu que eu fosse para sua casa. Lá, permaneci hospedado para receber Johrei intensivamente. No quinto dia após suspender toda a medicação, para meu espanto, o remédio que eu havia tomado para a nefrite foi expelido em duas fortes eructações! Foi então que, pela primeira vez, tomei consciência da terrível realidade do yakudoku. Posteriormente, certa noite, meu coração começou a palpitar violentamente, e o medo de que o pior acontecesse tomou conta de mim. Contudo, ao me apegar a Deus em oração, senti um alívio imediato e profundo. Muito obrigado. Eu, que antes negara a existência de Deus, pude finalmente crer. Em outra ocasião, torci o pulso direito a ponto de não conseguir segurar os hashis, mas, com uma única sessão de Johrei, recuperei o movimento.
-
-Fico verdadeiramente maravilhado com a sucessão de milagres e sou imensamente grato por tamanha misericórdia. Do fundo do meu coração, expresso minha mais profunda gratidão.
-
----
-
-# Eu, que duvidava, fui banhada pela Luz Divina
-
-**Categoria:** u | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
-
-## Eu, que duvidava, fui banhada pela Luz Divina
-
-Publicado em 'A Terapia Revolucionária da Tuberculose' em 15 de agosto de 1951
-Matsubara Kinuko (25 anos), Igreja Senshinchu, Província de Okayama
-
-Desde a primavera de meus dezoito anos, padeci durante três anos de uma grave afecção dos gânglios linfáticos do hilo pulmonar e da pleura. Após esgotar todos os recursos terapêuticos, quando enfim começava a recuperar minha saúde, a doença manifestou-se novamente em agosto do ano retrasado, deixando-me com febre baixa e dores no peito. Coincidentemente, nessa mesma época, minha mãe encontrava-se acamada, acometida por fortes dores abdominais.
-
-Por uma providencial orientação de nossos antepassados, no dia quinze do Obon, nosso festival de finados, minha irmã nos falou sobre a Sekaikyuseikyou. Prontamente, minha mãe dirigiu-se à Igreja para receber Johrei e relatou sentir um bem-estar imenso. No dia seguinte, eu também comecei a receber Johrei do Reverendo Hayashi, que na ocasião nos visitava vindo de Ogaki. Após duas ou três sessões, no dia dezoito, assisti a uma palestra do Reverendo Asano. Enquanto ouvia suas palavras, um desejo profundo de receber o Ohikari brotou em meu coração, e assim, minha mãe e eu o recebemos imediatamente.
-
-Posteriormente, sem que eu me desse conta, a lembrança da doença se dissipou por completo. Pouco tempo depois, tivemos a permissão de entronizar em nosso lar a Imagem da Luz Divina e o Ponto Focal Divino.
-
-Dessa forma, toda a nossa família foi acolhida no caminho da Sekaikyuseikyou. Contudo, mesmo envoltos diariamente em Suas inestimáveis graças, eu me via constantemente prestes a ser arrastada pela influência de Espíritos Malignos, e uma sucessão de dúvidas e incompreensões começou a surgir em minha mente.
-
-Todavia, ao ouvir as orientações dos reverendos, eu sempre reconsiderava minhas convicções. Noites e dias, eu era atormentada pela teimosia de meu próprio coração.
-
-No mês passado, recebi subitamente uma intensa purificação em todo o corpo. Por dois dias, minha cabeça foi acometida por uma dor lancinante, como se estivesse prestes a explodir; minhas costas doíam a ponto de cada passo ressoar por todo o corpo, e a dor na região lombar era tão forte que parecia me deixar sem forças. Foi, em verdade, uma purificação de sofrimento indizível.
-
-Graças ao Johrei que recebi ininterruptamente, comecei a melhorar gradualmente a partir do terceiro dia e, em cerca de uma semana, já estava completamente restabelecida.
-
-Após essa purificação, minha mente tornou-se muito mais clara, meu semblante adquiriu uma cor saudável e meu corpo adquiriu uma leveza surpreendente, a ponto de a subida por um caminho de quase quatro quilômetros nas montanhas parecer inacreditavelmente fácil. As dúvidas que até então me impediam de crer de todo o coração se dissiparam sem que eu percebesse, e a Luz Divina finalmente penetrou em meu ser.
-
-Pude compreender com total clareza que as doenças, tão temidas pelas pessoas, são na verdade abençoadas purificações quando somos conduzidos ao caminho da fé. E que, ao aliviarmos essas purificações por meio do Johrei, recebemos a permissão de purificar uma quantidade imensurável de máculas e pecados acumulados em nosso corpo.
-
-Desejo, portanto, conduzir o maior número possível de pessoas que se encontram em agonia e sofrimento a este estado de suprema alegria, profunda paz de espírito e exultante contentamento. É com esse sentimento que, dentro de minhas modestas capacidades, dedico-me a servir nesta Obra Divina.
-
----
-
-# Inúmeras Vezes Pensei na Morte
-
-**Categoria:** i | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** 結核と神霊療法
-
-## Inúmeras Vezes Pensei na Morte
-
-**Extraído da Coletânea de Ensaios de Jikan Okada, do livro “Tuberculose e a Terapia Divina”, 1ª Edição, publicado em 25 de junho de 1949.**
-
-**Fujie Iwagiri (28 anos)**
-**Nankokai, Igreja Miroku do Japão, Província de Miyazaki**
-
-Ao longo de cinco longos anos, fui flagelada por uma sucessão ininterrupta de enfermidades: pneumonia, nevralgia e uma grave afecção cardíaca. Eu vivia praticamente sem fôlego, e minha constituição era tão frágil que, a cada inverno, as pessoas comentavam: “Lá está ela doente outra vez”.
-
-Enquanto as pessoas sadias encerram seu dia com um banho reconfortante, que lhes lava o cansaço e lhes proporciona um repouso tranquilo, minha realidade era diametralmente oposta. O simples ato de banhar-me invariavelmente me levava a um resfriado que me prostrava no leito. Para agravar meu calvário, os médicos me desenganaram quanto à doença cardíaca, e meu horizonte se tingia de uma escuridão perene. Em meio a tamanha angústia, por diversas vezes amaldiçoei este mundo impiedoso e contemplei o suicídio como única libertação.
-
-Foi nesse momento de profundo desespero que minha mãe me aconselhou a suplicar o auxílio de Kannon (観音). Procurei, então, o senhor Nagamori, que é membro da fé, e lhe pedi que me ministrasse Johrei. Após a primeira e a segunda sessão, senti meu espírito serenar e passei a desfrutar de noites de sono repousante. Em menos de quatro semanas, a doença que fora considerada intratável dissipou-se como um sonho, e eu fiquei plenamente restabelecida. Meu coração transbordava de uma gratidão indescritível pelo imenso poder de Kannon (観音).
-
-Pouco tempo depois, recebi uma purificação. Embora tenha sido intensa e perdurado por três ou quatro dias, não senti, em momento algum, esgotamento físico. Pelo contrário, em junho do ano passado, durante o período de maior atividade agrícola, recebi a grandiosa graça de poder me dedicar ao plantio e à capina dos arrozais, para o espanto de todos os meus conterrâneos. Em abril daquele mesmo ano, fui outorgada com a Medalha da Luz Divina e, em janeiro deste ano, entronizei em meu lar a Imagem de Komyoh Nyorai. A felicidade indescritível de que tanto se fala parecia descrever exatamente meu estado de espírito.
-
-Posteriormente, a partir de novembro, passei por outra purificação, ocasião em que recebi Johrei do Reverendo Suzuki e do Reverendo Ono, entre outros. As graças que se seguiram foram tantas que, sendo eu uma pessoa de poucas letras, sinto-me incapaz de expressar em palavras sequer uma ínfima parcela de tudo o que recebi.
-
-Hoje, vivo meus dias com alegria, encontrando prazer no trabalho diário, alicerçada na firme convicção de que estou acolhida no seio da profunda virtude de Meishu-Sama.
-
-Conclamo a todos que também se amparem nas mãos salvadoras de Kannon (観音). Roguemos, juntos, pela pronta manifestação de um novo mundo de Verdade, Bem e Belo, onde a doença, a pobreza e o conflito sejam definitivamente erradicados.
-
----
-
-# Superação de um ano de infiltração pulmonar em apenas três dias
-
-**Categoria:** i | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
-
-## Superação de um ano de infiltração pulmonar em apenas três dias
-
-Terapia da Fé para a Tuberculose | Publicado em 1º de dezembro de 1952
-Igreja Meiwa-naka, Província de Fukuoka | Chizuko Kobayashi (18 anos)
-
-Na primavera de 1949, concluí meus estudos no colégio feminino, um período repleto de gratas recordações. Naquela época, meu coração transbordava com os anseios da juventude e ardia em ideais, e eu gozava de perfeita saúde. Os dias que se seguiram foram de pura alegria; dediquei-me por um ano aos estudos de costura japonesa e, em seguida, iniciei o aprendizado de alfaiataria ocidental. Contudo, após cerca de seis meses, comecei a sentir uma forte rigidez nos ombros, e minha condição física deteriorou-se gradualmente. A princípio, presumi tratar-se de um simples resfriado e não dei maior importância ao fato, mas como o mal-estar persistia, busquei o diagnóstico de um médico, que me alertou: "Há uma pequena alteração em seus pulmões, é preciso cautela." Atendendo à recomendação, abandonei as aulas e passei a permanecer em casa, sem atividades.
-
-Apesar do repouso, meu estado não apresentava melhora. Por essa razão, no início de outubro do ano passado, dirigi-me a um posto de saúde para realizar uma radiografia e um exame de sangue. O resultado foi desolador: "A doença progrediu para uma infiltração pulmonar", sendo-me, ademais, imposto repouso absoluto. O impacto dessa notícia é indescritível. Senti-me como se houvesse sido atirada ao fundo do inferno; tudo à minha frente escureceu subitamente. Desde então, vi-me confinada ao leito, com febre e tosse, causando imensa preocupação a meus pais. Eu mesma vivia uma existência sombria, como se estivesse em um abismo, perguntando-me diariamente quando conseguiria me libertar desse demônio da enfermidade. Durante esse período de um ano e um mês, submeti-me a inúmeros tratamentos: injeções de cálcio, vitaminas A, B, C e outras, e consumi seis caixas de PAS, totalizando mil e duzentos comprimidos. Nos primeiros vinte dias, pareceu haver uma ligeira melhora, chegando a me levantar ocasionalmente, mas logo em seguida meu quadro se agravou. Em meio ao desespero, ouvi dizer que a moxibustão era eficaz e, imediatamente, experimentei-a por cerca de um mês. Contudo, o tratamento apenas me causava dor pelo calor, sem trazer qualquer alívio à doença. Minha aparência tornou-se pálida, fantasmagórica, e meu corpo, apenas inchado e flácido como o de um suíno.
-
-Foi justamente nessa época que minha tia, residente na cidade de Moji, que havia sido salva por meio deste sagrado Caminho e recuperado plenamente sua saúde, insistiu para que eu recebesse o Johrei. Atendendo a seu conselho, solicitamos a visita do Reverendo Honda, da Igreja Daizato, em Moji. Quando recebi o Johrei pela primeira vez, confesso que senti certa desconfiança, pois o ministro apenas impunha a mão sobre mim. No entanto, à medida que ouvia suas palavras, uma forte convicção de que seria salva começou a brotar em meu coração. Ele me explicou que um grande nódulo que eu tinha no ombro era um acúmulo de toxinas e ministrou Johrei naquela área com especial atenção. Naquela noite, não consegui dormir um instante sequer e precisei me levantar de cinco a seis vezes para urinar, o que me deixou bastante aflita.
-
-Na manhã seguinte, para minha surpresa, apesar da noite em claro, sentia o corpo revigorado e leve. Pedi novamente que o ministro me ministrasse Johrei e, então, o milagre se manifestou! Que outra palavra poderia descrevê-lo? O proeminente nódulo que até ontem existia em meu ombro havia desaparecido por completo, sem deixar qualquer vestígio. Ao testemunhar de forma tão inequívoca o sublime poder de Deus, inclinei a cabeça em um gesto espontâneo de reverência.
-
-A partir daquele momento, minha recuperação foi extraordinariamente rápida. No terceiro dia, já me sentia forte o suficiente para, na companhia de minha tia e do ministro, realizar uma viagem de trem de três horas até Moji para visitar a Igreja. Pensar que, tendo sido diagnosticada com infiltração pulmonar e condenada ao repouso absoluto pelos médicos, eu pudesse me levantar em apenas três dias, parecia um verdadeiro sonho. Rezei para que, se fosse um sonho, eu jamais despertasse. Contudo, era a mais pura realidade: recebi essa imensa graça e fui restituída a uma saúde plena.
-
-Atualmente, resido com minha tia, frequento a Igreja para receber Johrei e já consigo auxiliar gradualmente nas tarefas domésticas. Não encontro palavras que possam traduzir a profundidade de minha gratidão. É uma graça imerecida. Ao refletir sobre a magnânima misericórdia que me foi concedida, mesmo antes de ingressar na fé, sinto-me perdida sobre como retribuir a tamanha proteção divina. Embora me reconheça como uma pessoa de poucos méritos, ao contrastar minha felicidade com o sofrimento de tantos que ainda gemem sob o fardo da doença, nasce em mim o desejo de guiar o maior número possível de pessoas a este sublime caminho de salvação. Anseio pelo dia em que poderei, o mais breve possível, ingressar na fé e dedicar-me a servir ao grandioso Deus.
-
-Apresento este relato, a despeito de minha escrita rudimentar.
-
-Muito obrigada, Meishu-Sama.
-
-(Relato enviado em 26 de dezembro de 1951)
-
----
-
-# Mulher desenganada pelos médicos é salva de convulsões que perduraram por três dias
-
-**Categoria:** i | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Eikou
-
-## Mulher desenganada pelos médicos é salva de convulsões que perduraram por três dias
-
-**Revista Eiko, nº 178, publicada em 15 de outubro de 1952**
-**Hiroshi Mamiya (23 anos), Igreja Kamiyamanaka, Província de Shizuoka**
-
-Venho por meio deste relatar a purificação da esposa do senhor Mizuo Sakuraba, que recentemente recebeu uma grandiosa graça.
-
-No último dia 10 de julho, ao retornar à igreja no trem noturno, fui informado de um telefonema urgente de Kambara. Era o senhor Sakuraba, relatando que sua esposa sofria de violentas convulsões. O médico que a examinou, diante da gravidade do quadro e da fraqueza de seu coração, sentenciou que ela provavelmente não sobreviveria até a manhã seguinte. Contudo, o que mais surpreendia era que a própria senhora Sakuraba se recusava a receber qualquer tratamento médico. Por um instante, fiquei consternado. Pensei que seria o seu fim. Recordei-me de que, em minha última visita à sua casa, ela me confessara, em tom profundo, que havia perdido a razão de viver, e me devolvera os Escritos Divinos que lhe havia emprestado por um longo tempo. Compreendi, então, que ela já se preparava para tal desfecho.
-
-De fato, a purificação cardíaca da senhora Sakuraba vinha se intensificando nos últimos tempos, e seu estado era tal que ela mal conseguia sobreviver a cada dia. Ao longo dos últimos dez anos, não houve um só dia em que não dependesse de tratamentos médicos, e pode-se dizer que não havia parte de seu corpo – cabeça, tórax, abdômen – que não estivesse enferma. Seu abdômen exibia as cicatrizes de duas cirurgias, e seu corpo, coberto de feridas, era o retrato de uma vítima exemplar dos danos causados pela medicina.
-
-Contudo, ao refletir sobre sua situação, admirei sua fé inabalável. Mesmo nas piores circunstâncias, ela demonstrou coragem e determinação ao rejeitar a medicina, entregando-se por completo a Deus. Tive a firme convicção de que ela certamente receberia a proteção Divina. “Sim, devo orar”, decidi. E com todo o fervor, roguei pela renovação de sua vida.
-
-Na manhã seguinte, impaciente com a demora do amanhecer, apressei-me para tomar o primeiro trem em direção à residência dos Sakuraba. Para minha grande felicidade, o presidente da igreja, senhor Ichino, também se dispôs a nos acompanhar.
-
-A senhora Sakuraba havia começado a sentir um mal-estar súbito por volta das sete horas da noite anterior, entrando em convulsão e perdendo a consciência, estado que se manteve até a nossa chegada. Relataram-nos que, embora estivesse inconsciente quando o médico chegou, no momento em que ele se preparava para aplicar uma injeção, ela subitamente agitou as mãos em um gesto de recusa.
-
-Chegando à casa por volta das sete horas, encontramos a enferma com o corpo enrijecido, os membros gelados e o rosto com a aparência de um cadáver; seu pulso era tão fraco que mal sustentava a vida. O marido e os demais presentes pareciam já ter perdido toda a esperança. O presidente Ichino iniciou imediatamente o Johrei. Seguiram-se minutos de grande tensão. Após cerca de uma hora, seu corpo começou a relaxar e ela pareceu recobrar um pouco a consciência. Essa melhora, todavia, foi breve. As convulsões retornaram e ela mergulhou em um sono profundo. Nesse momento, o presidente Ichino cogitou a possibilidade de uma forte interferência espiritual.
-
-Efetivamente, o primeiro marido da senhora Sakuraba havia morrido em combate, e seu espírito, em apego, a assediava constantemente, com a intenção de lhe ceifar a vida. Em seu estado de inconsciência, o fenômeno da possessão manifestou-se. Era, de fato, o espírito de seu ex-marido, que proferiu apenas uma frase: “Vou tirar a vida dela”.
-
-O presidente Ichino procurou, de várias maneiras, mostrar-lhe o seu erro, explicando-lhe com paciência o caminho para a salvação, mas o espírito se mostrava irredutível. O marido, que até então observava a cena com certo ceticismo e até desdém pela fé de sua esposa, finalmente compreendeu a grandiosidade da salvação da Igreja Messiânica e a realidade do Mundo Espiritual. Naquele instante, pareceu tomar uma firme decisão: “Sim, salvarei minha esposa através do Johrei”.
-
-Diante da obstinação do espírito, o presidente Ichino conversou com o marido, explicando-lhe a importância de consagrar uma tabuleta memorial para o espírito de seu antecessor. O senhor Sakuraba compreendeu e anuiu prontamente. Nesse exato momento, o estado da enferma mudou de forma drástica. Ela levantou-se de súbito e caminhou sozinha até o banheiro, para o espanto de todos. A alegria foi tamanha que choramos juntos. A causa fundamental do problema fora, enfim, resolvida.
-
-Após conversar por algum tempo com os que a rodeavam, as convulsões retornaram e ela mergulhou novamente em um sono profundo. Esse estado perdurou até a noite do dia 12, e a ansiedade voltou a nos consumir. Pensei que, embora a questão espiritual estivesse resolvida, seu corpo se encontrava extremamente debilitado.
-
-No dia 12, o marido partiu apressadamente para a cidade natal do primeiro esposo a fim de providenciar a tabuleta. Segundo nos contou, ao sair de casa, sentia a trágica certeza de que não tornaria a ver a esposa com vida. Ele retornou por volta das nove horas da noite, trazendo consigo o nome póstumo a ser inscrito. Exatamente nesse instante, embora a senhora Sakuraba estivesse inconsciente, seus olhos se encheram de lágrimas. O espírito do ex-marido, que tanto se opusera a ser reverenciado, fora certamente tocado pelo amor Mahayana e não teve alternativa senão corrigir seu equívoco.
-
-Naquela mesma noite, colocamos a nova tabuleta no altar familiar e realizamos uma cerimônia provisória diante do Pergaminho Sagrado de Kannon (観音). No exato instante em que íamos iniciar o ritual, a senhora Sakuraba recuperou a consciência e sentou-se. Juntamente conosco, entoou em voz alta a Oração Amatsu-Norito e os Hinos Divinos.
-
-Dessa forma, a grande purificação, que se estendeu por três dias e três noites ininterruptos, teve uma reviravolta súbita, e ela foi salva. Cumpriu-se exatamente o que diz o Hino Divino:
-
-*Prolongar a vida dos que foram desenganados*
-*É a minha Obra Divina, sem paralelo no mundo.*
-
-Recordando os fatos, ela havia sido sentenciada à morte pelo médico, e tanto o marido quanto os familiares já haviam perdido as esperanças. Quando noventa e nove por cento de sua vida já se esvaíra, o poder absoluto de Meishu-Sama concedeu-lhe uma sobrevida. Ademais, a nuvem espiritual que pairava sobre o casal e toda a família foi dissipada, e todos foram salvos, sendo conduzidos a um lar paradisíaco.
-
-Meishu-Sama, muito obrigado. Em nome da senhora Sakuraba, expresso minha mais profunda gratidão.
-
----
-
-# A cura de uma asma severa, considerada incurável pela medicina
-
-**Categoria:** i | **Ano:** 昭和27(1952)年11月12日 | **Fonte:** Eikou
-
-## A cura de uma asma severa, considerada incurável pela medicina
-
-Revista Eikou, nº 182, 12 de novembro de 1952
-Igreja Shinwa Naka, Hyogo
-Okamoto Yoshimitsu (30 anos)
-
-Ao recordar, vejo-me em agosto de 1945, retornando da guerra, grato por estar vivo. Reintegrei-me imediatamente ao meu posto na Ferrovia Nacional. Antes de me alistar, eu era um funcionário assíduo, jamais faltara um único dia; contudo, talvez pelos rigores da vida militar, passei a resfriar-me com frequência. Cada resfriado evoluía para uma severa dificuldade respiratória, e, após uma consulta, fui diagnosticado com bronquite aguda. Naquela época, como fervoroso adepto da medicina, minha vida passou a girar em torno de hospitais, pois para mim nada havia além dos médicos.
-
-No início, as crises ocorriam apenas uma ou duas vezes por mês. A sufocante dificuldade de respirar cessava instantaneamente com uma injeção de adrenalina, o que me levou a crer cegamente que essa substância era meu remédio milagroso, minha verdadeira tábua de salvação. A regra era simples: se a crise viesse, a solução era a adrenalina.
-
-Entretanto, cerca de um ano após o início da doença, a frequência das crises começou a aumentar. De mensais, tornaram-se quinzenais, depois semanais, até que me vi obrigado a procurar o hospital toda semana. Tornei-me um paciente tão habitual que, ao me ver, o médico simplesmente aplicava a injeção de adrenalina, dispensando até mesmo a consulta. Todavia, meu estado de saúde se deteriorava progressivamente. A dose de adrenalina, que no começo era de meio frasco, precisou ser elevada para um, depois para um e meio, sem que surtisse o mesmo efeito. Nessa altura, o diagnóstico já havia mudado de bronquite asmática aguda para crônica, e a doença me impedia de trabalhar, forçando-me a um longo e inevitável afastamento.
-
-No anseio de encontrar a cura, busquei a opinião de outros especialistas. Para minha confusão, um deles diagnosticou infiltração pulmonar, enquanto outro simplesmente descartou minhas preocupações, afirmando ser apenas asma. Essa divergência de diagnósticos gerou em mim uma profunda desconfiança, mas, sem vislumbrar alternativas, retornei ao meu médico habitual. Apesar da continuidade do tratamento, minha saúde apenas declinava. Certo dia, indaguei-lhe se a asma tinha cura definitiva. O médico silenciou por um instante e, talvez por já ter desistido do meu caso, respondeu-me com um tom de compaixão: ‘Na verdade, a medicina atual não dispõe de um método para a cura completa. O que podemos fazer é suprimir as crises com analgésicos ou sedativos. Dada a sua condição física, não é possível administrar injeções mais potentes. Como último recurso, existe um procedimento cirúrgico que consiste em uma incisão no pescoço para seccionar os nervos torácicos, mas nem mesmo essa é uma solução garantida, pois a doença pode retornar após um alívio temporário.’ Para mim, que até então acreditava na medicina como uma ciência absoluta e via os médicos como detentores do fio da vida, aquelas palavras soaram como uma sentença de morte.
-
-A partir de então, abandonei os consultórios médicos. Contudo, enquanto houvesse vida, havia a necessidade de buscar algo. Tentei terapias populares e, no desespero, apeguei-me à fé, recorrendo a divindades e templos, mas sem obter resultado satisfatório. Percorri, uma após outra, as mais renomadas clínicas de moxabustão em Quioto, Osaka e Himeji, mas tudo o que consegui foi a dor das agulhas em brasa, sem qualquer alívio real. Senti-me, enfim, resignado a aguardar a morte, que parecia se aproximar a cada dia. Foi nesse momento que uma corda de salvação me foi estendida.
-
-Em novembro de 1946, meu sobrinho falou-me sobre um método que curava doenças pela imposição das mãos. A princípio, não consegui acreditar. Parecia-me uma história absurda que uma doença incurável, resistente a tantos tratamentos, pudesse ser sanada por um gesto tão simples. Rejeitei a ideia não uma, mas duas vezes. No entanto, a insistência e o fervor de meu sobrinho tocaram meu coração. Além disso, comecei a ponderar que, se o ser humano é um fruto da Natureza, talvez existisse um método igualmente natural para curar suas enfermidades. Com o sentimento de quem se permite ser enganado só para ver o que acontece, decidi participar de um curso sobre o que na época era chamado de Terapia Purificadora do Japão.
-
-Durante o curso, recebi Johrei uma única vez. A partir do dia seguinte, as crises se intensificaram terrivelmente, e sofri por uma semana inteira. Contudo, passado esse período, a asma desapareceu por completo. Durante um ano inteiro, não tive um único chiado no peito e pude retornar ao trabalho normalmente. Vivi aquele tempo com certa leviandade, pensando apenas que ‘este tratamento realmente funcionou’. Hoje, ao recordar essa atitude, sinto um profundo arrependimento e um suor frio me percorre a espinha. Eu já havia sido orientado sobre a existência de novas purificações, e o momento chegou. Em outubro daquele ano, teve início um novo processo, que me concedeu um período para o aprimoramento espiritual и a autorreflexão.
-
-Minha purificação foi extremamente severa, condizente com uma asma que até os médicos haviam desenganado. A dor era tamanha que me sentia à beira da morte. As crises de tosse eram incessantes, a ponto de me privarem da respiração. Meu corpo ficava encharcado de suor frio, os lábios roxos e, por vezes, eu chegava a ter convulsões. Isso acontecia duas, três vezes ao dia, e em cada uma delas eu me preparava para o fim, pensando: ‘Desta vez, não escapo’. De outubro de 1947 a maio do ano seguinte, as crises foram contínuas, dia e noite, deixando-me cada vez mais debilitado, a ponto de não conseguir sequer ir ao banheiro sem auxílio.
-
-Contudo, esse período foi o ápice do processo. A partir de então, a cada Johrei que recebia, sentia minhas forças retornarem, como se finas camadas de uma enfermidade fossem sendo removidas uma a uma. Hoje, sete anos após o início da doença e pouco mais de cinco anos depois de ingressar na fé, já não tenho crises dignas de nota. Devido ao longo afastamento, precisei deixar meu emprego na Ferrovia Nacional, mas, desde dezembro de 1948, tive a permissão de me dedicar integralmente à Obra Divina, pelo que sou profunda e imensamente grato à Graça de Deus.
-
-Durante as purificações mais intensas, a quantidade de toxinas que expeli em forma de catarro era tamanha que, todas as noites, eu chegava a encher uma pequena bacia. Esse catarro exalava o cheiro dos remédios que eu havia tomado, o que me fez compreender, de forma visceral, o quão terríveis são as toxinas medicamentosas. Tal como se ensina, o corpo humano é um aglomerado de pus, e a purificação não cessava. Até hoje, já tive uma hemoptise, expelindo um volume considerável de sangue, e meu catarro frequentemente apresenta vestígios de sangue.
-
-Mesmo assim, uma asma tão severa e tida como incurável foi curada pela absoluta e compassiva força de Meishu-Sama. Sinto-me em um estado de reverente gratidão pela Graça Divina que me devolveu a vida, e do fundo do meu coração, tudo o que posso fazer é expressar meu mais profundo agradecimento.
-
-Meishu-Sama, muito, muito obrigado.
-Reiteradamente, muito obrigado.
-
----
-
-# Vítima da Superstição Médica, Salva pelo Caminho da Luz
-
-**Categoria:** i | **Ano:** 昭和28(1953)年5月13日 | **Fonte:** Eikou
-
-## Vítima da Superstição Médica, Salva pelo Caminho da Luz
-
-**Jornal Glória, nº 208, publicado em 13 de maio de 1953**
-**Igreja Johrei Center Shomei-Naka, Tóquio | Mieko Mori (25 anos)**
-
-Meishu-Sama, permiti-me, com a mais profunda reverência, relatar a graça que recebi.
-
-Em agosto de 1947, em meio ao calor sufocante que se arrastava dia após dia, uma lassidão extenuante se apossou de mim. Jamais poderia imaginar que seria diagnosticada com tuberculose. O assombro e a desolação que me tomaram quando o médico, após a primeira consulta, ordenou que eu abandonasse imediatamente o trabalho para iniciar um período de repouso absoluto, são sentimentos que ainda hoje não consigo esquecer.
-
-Desde então, por cerca de dois anos e meio, até abril de 1950, minha vida se resumiu a um tratamento ambulatorial. Seguindo à risca as orientações médicas, priorizei o repouso e me dediquei a uma terapia de fortalecimento baseada em nutrição, injeções e fármacos. Após me submeter também a complexas terapias ocupacionais, recebi com alegria o laudo de cura completa. Contudo, a realidade da vida cotidiana era outra. Eu não podia me exceder em nada. O sono de oito horas era uma regra inviolável; precisava interromper qualquer atividade ao primeiro sinal de cansaço para repousar. Além disso, vivia sob a constante recomendação de realizar exames periódicos e, sob nenhuma hipótese, contrair um resfriado. Era uma existência sufocante, que me privava de qualquer liberdade.
-
-Atemorizada pelo risco constante de uma recidiva, sentia-me como se manuseasse um objeto frágil, com o coração perpetuamente em sobressalto. Incapaz de me entregar ao trabalho com a determinação que desejava, eu observava com profunda inveja as pessoas que podiam se dedicar plenamente às suas atividades. Portanto, embora me dissessem que eu estava recuperada, não havia em meu peito um júbilo transbordante. Uma persistente sombra de melancolia pairava em minha alma.
-
-Como era de se esperar, um corpo tratado por uma medicina moderna que apenas suprime temporariamente os sintomas com terapias de enfraquecimento não poderia se manter saudável por muito tempo. Meu organismo, incapaz de suportar sequer as tarefas domésticas mais simples, acabou cedendo, e em abril do ano passado, a doença reincidiu. Naquele momento, uma pergunta me atormentava: por que a doença retornou, se segui com tanto zelo cada prescrição médica? Ao pensar em meu corpo, reduzido à condição de um inválido, sentia-me profundamente desolada. Lançada ao mais profundo abismo do desespero, lamentava-me em meu leito, amaldiçoando a crueldade do meu destino.
-
-Tratando-se de uma recidiva, era impensável que a medicina pudesse me oferecer uma cura definitiva. Parecia-me que, a menos que um medicamento revolucionário fosse descoberto de imediato, minha recuperação seria impossível. Mais do que meu próprio sofrimento físico, a angústia que eu causava a meus pais e irmãs era um tormento que me partia o coração. Inúmeras vezes, o pensamento de ceifar a própria vida para pôr um fim a tudo me ocorreu. Contudo, a consciência de que minha vida era sustentada pela profunda Vontade Divina me fazia recuar. A ideia de cometer o maior dos pecados era aterradora, e assim, eu lutava sozinha contra essa tentação, mergulhada em minha agonia.
-
-Acreditando que a vida regrada de um sanatório e a solidariedade entre os que padeciam da mesma enfermidade pudessem aliviar meu sofrimento espiritual, consultei meus pais sobre essa possibilidade. Foi nesse ínterim que, de forma inesperada, recebi da filha do Reverendo Ogusa alguns exemplares do jornal “Glória”. Era o dia 2 de agosto. Oh, Deus não havia abandonado a mim, uma pecadora, e estendia Sua mão de Luz em minha direção.
-
-Todavia, e peço sinceras desculpas por isso, naquela época, eu desprezava por completo qualquer religião que não fosse o cristianismo, considerando-as meras superstições e seitas heréticas. Eu acreditava piamente que sentir a menor atração por tais crenças seria sucumbir à tentação do demônio, e que o simples ato de tocá-las constituía um grave pecado contra Cristo. Por essa razão, não dei a menor atenção aos jornais “Glória” que me foram enviados; deixei-os de lado por cerca de uma semana, sem sequer olhar para eles.
-
-Apesar da minha relutância, Deus ainda não havia me desamparado. Certo dia, como que guiada por uma força misteriosa, peguei o jornal “Glória”. À medida que lia, deparei-me com inúmeras palavras de Meishu-Sama, como aquelas que afirmam que tentar crer no inacreditável é um autoengano, e que, ao buscar a cura de uma doença, é permitido duvidar o quanto se queira, pois Ele mostrará o milagre mesmo a quem não crê.
-
-Minha primeira reação foi de incredulidade. “Não pode existir uma religião tão conveniente assim”, pensei. Além disso, eu estava convicta de que nenhum ser, à exceção de Cristo, poderia possuir um poder tão grandioso. Portanto, era impossível para mim aceitar aquilo; via tudo como o discurso típico de uma das chamadas novas religiões. Os relatos de graça eram todos milagrosos, e eu não acreditava que pudessem ser concedidos a todas as pessoas, indiscriminadamente.
-
-Contudo, mesmo pensando que tais graças só poderiam ser alcançadas por uma ou duas pessoas em mil, comecei a nutrir uma tênue e frágil esperança: “E se eu fosse uma dessas pessoas?”. Foi nesse momento que o Reverendo Ogusa novamente me procurou, desta vez para me apresentar ao Presidente de Igreja, Sr. Horiuchi.
-
-Prontamente, o Sr. Presidente de Igreja teve a gentileza de me visitar à noite, ocasião em que me explicou detalhadamente os equívocos da medicina moderna e a essência dos Ensinamentos da Sekaikyuseikyou. Pela primeira vez, comecei a questionar a medicina na qual sempre depositara minha fé, e senti que cada ponto da teoria médica da Sekaikyuseikyou ressoava em mim com lógica e verdade. Pude ver com meus próprios olhos a figura incrivelmente saudável do Sr. Presidente de Igreja, que fora completamente curado de uma tuberculose intestinal que o afligiu por dez anos por meio deste Caminho. Fiquei simplesmente estarrecida diante de tão maravilhoso poder. Suas palavras, repletas de confiança – “Você ficará boa logo, pode deixar comigo” –, foram ditas com tal simplicidade que, a princípio, me custou acreditar.
-
-Logo em seguida, no final de agosto, recebi o Johrei pela primeira vez. Até então, eu estava acamada, mal conseguia tomar banho sem auxílio e sentia-me tão fraca que não suportava ficar de pé por muito tempo. Para minha surpresa, senti meu corpo se encher de vigor subitamente. Naquela noite, permaneci acordada até por volta das nove horas sem qualquer desconforto e, na manhã seguinte, levantei-me com uma sensação de leveza e disposição, capaz de me movimentar. O milagre foi tão espantoso que me levou a reconsiderar, do fundo do coração, o erro que cometia ao desdenhar e rotular o Ensinamento como uma “nova religião”. Perguntava-me se o efeito do Johrei poderia se manifestar de forma tão rápida. A alegria que senti naquele momento foi imensa, uma felicidade que jamais esquecerei.
-
-A cada nova ministração de Johrei, eu me sentia mais apta a cuidar de minhas tarefas pessoais. Minha família, ao observar minha melhora vertiginosa, desdenhava da situação, dizendo que era apenas o “fator psicológico” agindo fortemente, e não davam importância ao fato. Eu, contudo, não conseguia atribuir tudo a um simples estado de espírito. Sentia uma mudança física inegável e maravilhava-me com a grandiosidade deste Caminho. Convicta de que o Deus a quem eu deveria me apegar se encontrava unicamente aqui, decidi, em meados de setembro, ingressar na fé juntamente com minha mãe.
-
-No início de outubro, acompanhei o Sr. Presidente de Igreja em minha primeira peregrinação a Hakone. Apenas um mês após deixar o leito, pude fazer a viagem sentindo-me repleta de vigor, sem qualquer sinal de fadiga. A transformação em meu corpo era tão grande que parecia um sonho. Quando recordo o tratamento médico – os meses de terapia ocupacional baseada em radiografias, medições de temperatura e exames de escarro, e a constante ameaça de recidiva mesmo após ser declarada “curada” –, sinto a alegria da salvação com uma profundidade ainda maior. Graças à Sua Divina Proteção, pude também realizar as peregrinações a Atami no final do ano passado e no Ano Novo. Por tudo isso, Meishu-Sama, minha gratidão é imensa.
-
-Desde aquele primeiro Johrei, há cinco meses, jamais precisei voltar ao leito por causa de algum sofrimento, recebendo as purificações sem maiores percalços. Hoje, consigo frequentar a Igreja e dedicar na Obra Divina. No final de outubro, tive a permissão de entronizar a imagem de Kannon (観音) em biombo. Logo em seguida, em um sonho, foi-me revelada a alegria dos meus antepassados por terem sido salvos. Através dessa experiência, pude sentir profundamente a grandiosidade deste Caminho, que salva não apenas o Mundo Material, mas também o Mundo Espiritual. Esse sonho também me concedeu a certeza da imortalidade da alma e me fez compreender claramente que devemos servir nossos antepassados com a mesma dedicação que lhes devotaríamos em vida.
-
-Ademais, foi uma imensa alegria constatar que todos os membros, ao contrário do que sempre vivenciei, não faziam qualquer distinção ou demonstravam medo em relação a uma paciente com tuberculose, tratando-me com a mesma cordialidade dedicada a qualquer outra pessoa. Essa atitude me tocou profundamente, pois eu sempre havia sofrido com esse tipo de angústia espiritual.
-
-Após tantos anos, pude receber o Ano Novo com o coração leve e ardendo em esperança, pelo que expresso minha mais sincera gratidão.
-
-Agora que me foi permitido assimilar a verdade de que “a doença é um processo de purificação”, desejo firmemente, daqui por diante, jamais vacilar diante de qualquer grande purificação que venha a ocorrer. Anseio por devotar-me de corpo e alma ao avanço deste sagrado Caminho. Meishu-Sama, embora eu me sinta indigna de tal graça, sendo um ser repleto de máculas, rogo do fundo do meu coração que me permita ser útil em Sua Obra.
-
-(17 de janeiro de 1953)
-
----
-
-# Cura total de doença estomacal e infiltração pulmonar: Banhado pela Luz Divina, rumo a uma nova vida
-
-**Categoria:** i | **Ano:** 昭和25(1950)年5月27日 | **Fonte:** Kyusei
-
-## Cura total de doença estomacal e infiltração pulmonar: Banhado pela Luz Divina, rumo a uma nova vida
-
-Revista "A Salvação", nº 64, publicada em 27 de maio de 1950
-Hozaki Michinobu (45 anos)
-Igreja Hideaki, Província de Kyoto
-
-**Histórico da Enfermidade**
-
-Há mais de uma década, eu sofria de uma série de enfermidades gástricas crônicas, como atonia, gastroptose e dilatação estomacal. Meu quadro chegou a se agravar com úlceras que me levavam a expelir sangue. Apesar de recorrer a todos os meios disponíveis, desde a medicina convencional e seus fármacos até terapias como a moxabustão, a moxabustão com rádio e até mesmo tratamentos elétricos, meu estado não apresentava a menor melhora.
-
-Por fim, na primavera do ano passado, fui acometido por uma doença pulmonar que me prostrou em um leito de sofrimento. Meus braços, de tantas injeções de cálcio e outros medicamentos, assemelhavam-se a um alvo de arco e flecha, repletos de perfurações. A quantidade de remédios que ingeri era torrencial. Ademais, percorri o calvário habitual daqueles que padecem de males graves, experimentando remédios populares como alho cru e pó de serpente carbonizada.
-
-Encontrava-me em um terrível dilema: se repousava e me alimentava para nutrir o corpo, meu estômago piorava; se, por outro lado, adotava uma dieta restritiva, a debilidade resultante agravava a condição de meus pulmões. Consumido pela doença, tornei-me uma figura esquelética, fantasmagórica, e já me preparava secretamente para a despedida deste mundo.
-
-**O Motivo da Minha Salvação**
-
-No momento em que minha desilusão com as limitações da medicina moderna atingia o ápice, o destino me permitiu ouvir, por mero acaso, sobre o Johrei. Sendo eu uma pessoa que, por natureza, rechaçava tudo o que não pudesse ser comprovado cientificamente, minha reação normal teria sido de total indiferença.
-
-Contudo, uma recordação da infância emergiu em minha mente com grande vividez. Há mais de trinta anos, meu avô desenvolveu um tumor abdominal. Na época, recorremos ao Dr. Inoko, da Universidade de Kyoto, considerado a maior autoridade em oncologia, que, após examiná-lo, proferiu uma sentença de morte, declarando o caso sem esperanças. Quando toda a família já se resignara ao inevitável, um sacerdote de um templo local nos visitou. Ele simplesmente impôs os dedos sobre a área afetada e realizou um tratamento. Como resultado, meu avô passou a expelir um volume extraordinário de urina; o local do tumor avermelhou-se e inchou, até que finalmente se rompeu, drenando uma grande quantidade de pus. Ele se recuperou por completo e viveu uma longa vida até os oitenta anos.
-
-Eu, ainda criança, testemunhei esse fato com meus próprios olhos. A súbita lembrança desse acontecimento acendeu em mim uma chama de esperança: “Talvez haja uma chance para mim”. E assim, sem hesitar, tomei a decisão de receber Johrei.
-
-**O Processo de Cura**
-
-Passei, então, a receber Johrei do ministro Itsuo Ueba, da Igreja Hideaki, em Kyoto. Ele me orientou, dizendo que não havia problema em manter meu ceticismo, e explicou que a eficácia do Johrei é notável até mesmo em plantas e animais.
-
-Logo após a primeira sessão, naquela mesma noite, eu, que me orgulhava de quase nunca necessitar ir ao banheiro, vi-me obrigado a fazê-lo cinco vezes. Na manhã seguinte, tive uma evacuação abundante e, perdoem-me o detalhe, de um odor tão fétido que precisei tapar o nariz. Curiosamente, percebi um leve cheiro do alho que havia consumido no passado.
-
-Fiquei assombrado ao presenciar uma transformação tão expressiva com uma única ministração. A partir de então, minha melhora foi gradativa, como se finas camadas de um mal fossem sendo removidas uma a uma. Recebi também inúmeras e preciosas orientações do responsável pela Igreja Koyama. Hoje, passadas pouco mais de três semanas, meu apetite retornou, ganhei peso e minha compleição melhorou a tal ponto que surpreendo todos que vêm me visitar diariamente. A capacidade de poder comer qualquer alimento é uma bênção que parece um sonho, e meu coração transborda de gratidão.
-
-Foi somente então que compreendi, pela primeira vez, os malefícios causados pelos medicamentos e injeções nos quais depositava toda a minha confiança. Passei a ser grato até mesmo pelos sofrimentos que acompanharam o processo de purificação. Durante todo esse período, a dedicação do ministro Ueba foi a mais pura expressão de sinceridade. Além de ministrar Johrei, ele gentilmente me auxiliava em diversos assuntos domésticos, o que me comoveu profundamente. Adquiri a firme convicção de que serei salvo e, de agora em diante, estou determinado a me entregar unicamente a Deus com fé inabalável, independentemente das purificações que venham a se manifestar.
-
-**Ingresso na Fé**
-
-No final de junho, tive a honra de receber o Sagrado Omamori das mãos do ministro Iwamatsu. Aquele objeto sagrado, envolto em um papel imaculadamente branco, infundiu em mim um profundo sentimento de reverência e responsabilidade.
-
-Embora me tivessem explicado que qualquer pessoa que o recebesse poderia curar as enfermidades de outrem, eu me sentia inseguro, duvidando de minha própria capacidade. Foi nesse momento que, por sorte ou desventura, meu filho mais velho foi acometido por uma amigdalite, com febre alta de trinta e nove graus e meio.
-
-Imediatamente, ministrei-lhe Johrei. E, tal como me fora ensinado, ele passou a ir ao banheiro a cada trinta minutos. No dia seguinte, a febre havia cedido por completo, e ele estava totalmente recuperado. Essa foi a minha primeira experiência. Contrastava enormemente com as ocasiões anteriores, em que uma febre como essa exigia visitas ao médico, cauterizações na garganta e vários dias de medicação para ceder. A cura de meu filho, ocorrida em uma única noite, foi o marco inicial. Poucos dias após meu ingresso na Fé, pude testemunhar e proporcionar inúmeras outras graças, levando alegria a muitas pessoas.
-
-Ficou-me absolutamente claro que essa força não provém de mim, mas sim do poder grandioso do Supremo Deus, e não encontro palavras que possam expressar a minha gratidão. Eu, que sempre fui um homem sem fé, pude finalmente compreender, de forma profunda e inequívoca, a existência abençoada de Deus.
-
-Neste meu lar,
-outrora imerso nas trevas
-dos pecados e máculas,
-hoje, a Luz Divina
-começa a resplandecer.
-
-Salvo pelo Johrei,
-sento-me em alegria.
-Quão fresca a brisa!
-Purificado dia e noite,
-meu espírito se refrigera.
-
-Banhado na Graça
-magnânima de Deus,
-dia após dia,
-minha grave doença
-encontra a sua cura.
-
----
-
-# A Tuberculose que Aniquilou Cinco Membros de uma Família: Salvo às Portas da Morte
-
-**Categoria:** i | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
-
-## A Tuberculose que Aniquilou Cinco Membros de uma Família: Salvo às Portas da Morte
-
-Prefeitura de Kanagawa, Igreja Chosei-Naka
-Yutaka Yoshida (21 anos)
-
-Tuberculose! Não seria esta uma doença forjada para aqueles que, desconhecendo o Deus verdadeiro, tornaram-se cativos de espíritos malignos? Eu mesmo fui um deles. No final do ano de 1947, vi-me acometido por esse mal que ceifa a vida de tantos jovens. Peço que conjeturem o estado de meu espírito ao receber do médico o diagnóstico de infiltração no pulmão esquerdo. Senti-me como se houvesse sido arremessado ao mais profundo abismo do inferno.
-
-Era a mesma tuberculose que, qual peças de dominó tombando em sucessão, havia levado minha mãe, meu irmão e minhas irmãs. Ah, finalmente ela vinha para me abater. Desespero! Eis um nome de doença que jamais poderei esquecer por toda a minha vida. Todos eles, em meio à agonia e ao sofrimento, partiram para o outro mundo. O médico recomendara repouso e uma alimentação nutritiva, e nós seguimos à risca todas as suas indicações. O anseio de todos era um só: o desejo de viver e o de salvar. Contudo, qual foi o resultado? Os cinco vieram a falecer. E o que disseram os médicos na ocasião? "Faltou repouso, não havia resistência física, era o fim de sua vida". Apenas estas palavras. Quão gélidas podem ser as palavras? Nossa dedicação sincera, nosso esforço para salvar cinco vidas, fora assim, de modo tão cruel, espezinhado.
-
-Em sexto lugar, veio o meu diagnóstico. A dor que senti foi lancinante. Era mais claro que o dia que eu teria o mesmo destino dos demais. Durante um ou dois meses, continuei as visitas ao médico. Então, em uma noite de janeiro de 1948 — noite que jamais esquecerei —, tive uma súbita hemoptise. Vi algo brilhar nos olhos de meu pai, que me observava ao lado.
-
-Em seguida, ele se deitou e cobriu-se com o cobertor. Esquecendo-me de mim mesmo, não me restou alternativa senão unir as mãos em prece diante daquela figura adormecida. E se eu morresse? O que seria de meu velho pai, sem mais ninguém no mundo? Rejeitado pela vizinhança, que nos rotulava como "a família dos tuberculosos", iria ele para um asilo? Morreria ao relento? Tais pensamentos giravam em minha mente como as imagens de uma lanterna mágica, enquanto as lágrimas escorriam incessantemente por meu rosto. Na manhã seguinte, meu pai não se levantou. Que cena trágica: pai e filho, juntos em um mesmo leito, chorando abraçados.
-
-Talvez tenha sido ao ver a figura lastimável de meu pai que tomei a firme resolução de vencer a doença a qualquer custo, apenas para lhe trazer alegria. Todavia, minha enfermidade apenas se agravava. Busquei amparo em diversas crenças, uma após a outra: Ontake-kyo, Daishi, Jizo, Inari... mas, longe de melhorar, meu corpo apenas definhava. Passei a crer que até mesmo os deuses haviam me abandonado, e minha determinação para superar a doença murchou, tal como uma flor. Pela manhã, uma vizinha, preocupada por nossa porta não se abrir, veio nos visitar. Encontrou-nos assim, pai e filho, que havíamos passado a noite em claro, chorando abraçados.
-
-"Bom dia. Vim lhes trazer uma notícia, pois ouvi dizer que existe um tratamento excelente. Dizem que, pelo poder de Komyō Nyorai-sama, qualquer doença pode ser curada. Por que não experimenta?"
-
-Contudo, em meu estado, eu não tinha sequer condições de ponderar sobre tal proposta. "Não adianta, senhora. Eu tenho tuberculose."
-
-Ah, quanta coragem é necessária para admitir a própria condição abertamente diante de alguém! Ainda assim, fui capaz de dizê-lo, pois já sabia que a morte se avizinhava. Mas a vizinha insistiu: "Não tem problema. Parece que cura tudo, até mesmo as doenças do peito". Diante disso, cheguei a rir com desdém. Depois de ter tentado todos os tratamentos possíveis, da medicina convencional às terapias espirituais, e ter perdido cinco de meus entes queridos, como poderia o poder de Komyō Nyorai-sama ser diferente?
-
-Quando ela se foi, deitei-me e comecei a refletir. "Será que realmente existe cura? Eu quero ser curado. Por meu pai, pela família Yoshida, eu quero, eu preciso ser curado". Esse era meu único pensamento. Deveria tentar? Não saberei se não o fizer. Afirmar que o incurável tem cura é proferir uma mentira. Ninguém diria algo assim de forma leviana. Está bem. Eu vou. Vou receber o tratamento.
-
-Hesitantemente, troquei de roupa e saí. A cada passo, sentia uma dor aguda no peito, ora no lado direito, ora no esquerdo. Foi uma caminhada penosa, mas finalmente cheguei ao local. Ao entrar, fiquei perplexo. Vi apenas uma pessoa movendo a mão no ar, e um sentimento de desapontamento e desânimo tomou conta de mim. Contudo, já que havia chegado até ali, não poderia simplesmente ir embora. Dirigi-me ao ministro e perguntei: "Será que tenho cura?". Ele respondeu: "É muito simples. O senhor será curado, com toda a certeza."
-
-Imaginem a alegria que me invadiu naquele instante! Seria comparável à sensação de um recém-nascido ao encontrar o seio de sua mãe?
-
-Quando chegou a minha vez, recebi o Johrei quase em estado de transe. Que misterioso, que maravilhoso! Meu corpo se tornava cada vez mais leve. Por três vezes, as palavras brotaram de meus lábios: "Serei curado! Serei curado! Sou tão grato! Sou tão grato!". Era algo muito diferente de todas as crenças que eu havia seguido até então. Senti que ali havia algo de especial. Até aquele momento, nem uma única vez alguém havia me dito com tamanha convicção: "Você será curado". Era exatamente isso que eu buscava. Ao olhar para o semblante do ministro, vi que ele sorria serenamente. Seu rosto se assemelhava ao de Kannon (観音). Ao sair da igreja, a diferença entre o meu estado na chegada e na partida era abissal. Pela primeira vez na vida, eu experimentava o que era a verdadeira alegria.
-
-Ao voltar para casa, encontrei meu pai ainda deitado. "Pai!", chamei-o. Ele ergueu a cabeça, e ao ouvir minha voz, tão cheia de vigor como nunca antes, piscou os olhos, surpreso. Minutos depois, estávamos novamente abraçados, mas desta vez, as lágrimas que derramávamos eram de pura felicidade. Peço que imaginem a incomensurável diferença entre este pranto e o anterior!
-
-Naquela noite, tive uma sudorese noturna como nunca antes, e minha urina tornou-se branca como leite. Não há palavras para descrever tal fenômeno. Nos quinze dias que se seguiram, eu, um homem no terceiro estágio da tuberculose e desenganado pelos médicos, recuperei-me a ponto de ser admitido para trabalhar em uma empresa. Graças à proteção de Komyō Nyorai-sama, a alegria inundou a vida de meu pai e a minha, para o espanto de todos ao nosso redor. Eu fora, enfim, salvo.
-
-Como eu gostaria que minha mãe, meu irmão e minhas irmãs também pudessem ter vivenciado esta alegria... Eles foram vítimas do materialismo. Ah, quão terrível é a educação materialista! Quão terrível é a confiança cega nos remédios! Posteriormente, é claro, realizei uma radiografia. E, como era de se esperar, as sombras em meus pulmões haviam desaparecido por completo.
-
-Amaldiçoo e lamento a medicina que conduziu minha mãe, meu irmão e minhas irmãs à morte. E a Meishu-Sama, que me mostrou o verdadeiro caminho quando eu mesmo estava prestes a trilhar essa mesma senda para a perdição, ofereço minha gratidão e desejo bradar aos quatro ventos. A todos que sofrem, levo este evangelho! Que saibam que esta foi a vívida crônica infernal pela qual nossa família passou!
-
-Pouco tempo depois, tive a honra de receber o sagrado Ohikari. Desde então, sob a orientação do ministro Nishimura, venho me dedicando de corpo e alma ao caminho da salvação.
-
-Meishu-Sama, do fundo de meu coração, muito, muito obrigado.
-
-O sonho de uma longa era torna-se, enfim, realidade,
-E seus primeiros sinais já começam a despontar.
-
----
-
-# Relato de Quatro Anos de Experiência no Cultivo de Arroz pelo Método da Agricultura Natural (O arroz da Agricultura Natural laureado com o Prêmio de Honra)
-
-**Categoria:** i | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
-
-## Relato de Quatro Anos de Experiência no Cultivo de Arroz pelo Método da Agricultura Natural (O arroz da Agricultura Natural laureado com o Prêmio de Honra)
-
-*Revista Eikoh, nº 198, 4 de março de 1953*
-*Publicado na coletânea "Elucidações sobre a Agricultura Natural"*
-*Yasutaro Shimonou (53 anos)*
-*Igreja Toyama Central, Ishikawa*
-
-Iniciei na Agricultura Natural em 1949 e, ao longo de quatro anos, tive a permissão de acumular experiência. Contudo, por não ter alcançado resultados plenamente satisfatórios, sinto-me constrangido em apresentar este relato. Todavia, na esperança de que possa servir de alguma referência aos agricultores, permito-me, a seguir, expor uma parcela do que vivenciei.
-
-**I. Sobre minha família como cultivadora**
-
-Perdi meu pai ainda na infância e, como todos os nossos arrozais eram arrendados, eu não possuía absolutamente nenhuma experiência no cultivo de arroz. Minha mãe, embora de origem camponesa, já ultrapassou os oitenta anos e não tem condições de trabalhar na lavoura; minha esposa também é inexperiente. Após o fim da guerra, fui afastado de minhas funções e, sem alternativa, a partir de 1947, iniciei o cultivo de aproximadamente 0,7 hectare de arrozais, sendo um completo amador. Consequentemente, minhas ferramentas e equipamentos eram precários, e meu trabalho, deficiente.
-
-**II. Condições do local**
-
-Meu vilarejo situa-se junto às montanhas, na periferia leste da cidade de Kanazawa. A região se divide entre terras planas na bacia do rio Asano e campos em terraços nas encostas. O cultivo depende predominantemente do uso de dejetos humanos como fertilizante, provenientes da cidade de Kanazawa, mas, há vinte ou trinta anos, fertilizantes químicos também são empregados em quantidade considerável. A produtividade média em um ano normal é de seis fardos por *tan* (aproximadamente 3.600 kg/ha).
-
-Meus campos apresentam desníveis acentuados e, por conseguinte, a incidência de luz solar é desfavorável. Além disso, por se localizarem no ponto final do sistema de irrigação, trata-se de um terreno cujas condições não podem ser consideradas ideais para a Agricultura Natural. O solo é, em geral, franco-arenoso, e em muitos pontos, a camada de solo arável atinge a profundidade de um metro.
-
-Ademais, possuo três campos que são parcialmente alagadiços. Durante a prática do cultivo com adubos, a porção alagada sempre apresentava um desenvolvimento inferior, e as plantas não se uniformizavam sem uma considerável adubação de cobertura. No entanto, desde que adotei a Agricultura Natural, o crescimento tornou-se homogêneo em toda a área, o que considero um fenômeno surpreendente.
-
-**III. Sobre as sementes**
-
-Adotei parcialmente o método Kurosawa para a seleção das sementes. As espigas eram debulhadas manualmente pela metade superior e penduradas no teto do armazém de barro. Antes do plantio, por ocasião do Culto Mensal ou de uma cerimônia especial, eram oferecidas no Altar Divino para serem purificadas.
-
-**IV. Canteiros de mudas**
-
-Em meu vilarejo, a semeadura ocorre por volta de 15 de abril, em canteiros alagados convencionais, método que também adoto.
-
-Na Agricultura Natural, a fase dos canteiros de mudas parece ser a mais desafiadora. Embora eu note uma pequena melhora a cada ano, mesmo no quarto ano, muitas mudas ainda não haviam desdobrado completamente suas folhas. As mudas adubadas atingiam, em média, vinte e quatro centímetros de altura, ao passo que as minhas mediam apenas quinze. A espessura era proporcional, conferindo-lhes uma aparência bastante franzina e dificultando tanto o transplante quanto o plantio. Contudo, suas raízes eram extraordinariamente bem desenvolvidas. Apesar de serem alvo de zombaria, é gratificante constatar que, no momento da colheita, superam as do cultivo com adubo.
-
-**V. Campo principal**
-
-As práticas no campo principal são as mesmas adotadas pelos agricultores que utilizam adubo, e o plantio é feito, em geral, com três mudas por cova. Tentei plantar com sete ou oito mudas, mas os resultados pareceram ser piores. O espaçamento utilizado é de vinte e um por vinte e quatro centímetros.
-
-No primeiro ano, o perfilhamento médio foi de treze hastes (contra vinte e cinco a trinta no cultivo adubado), e a altura das plantas foi, em média, vinte centímetros menor. A aparência era, de fato, tão precária que compreendi por que me tornei alvo de zombaria. Para minha surpresa, porém, ao colher, a qualidade do arroz era excelente, e a produtividade foi apenas dez por cento inferior à de um ano normal.
-
-No segundo ano, a altura das plantas superou a das lavouras adubadas, e o perfilhamento dobrou em relação ao ano anterior. Consequentemente, a quantidade de palha também foi mais do que o dobro, mas a produção de grãos se manteve na média de um ano normal. Com essas duas experiências, aprendi na prática que, na Agricultura Natural, não há necessidade de nos deixarmos levar pela euforia ou pelo desânimo ao observar a aparência da lavoura.
-
-Nesse mesmo ano, com a passagem do tufão Jane, as lavouras adubadas sofreram danos tão severos que a ceifa se tornou impossível. Senti-me imensamente grato, pois minhas plantas apenas se inclinaram em um ângulo de quarenta e cinco a sessenta graus, o que, na verdade, facilitou a colheita.
-
-No terceiro ano, embora a altura e o perfilhamento tenham sido ligeiramente menores que no ano anterior, a coloração da lavoura tornou-se superior à das adubadas, adquirindo uma tonalidade vibrante e revigorante. A produção manteve-se na média. Como os campos vizinhos sofreram consideravelmente com pragas e doenças, o número de moradores que me observavam com admiração começou a aumentar.
-
-No quarto ano, as mudas se desenvolveram melhor que nos três anos anteriores, e parte delas chegou a rivalizar com as do cultivo adubado. Não houve falta de mudas, e eu tinha grandes expectativas de superar em muito a produção média. Contudo, o resultado foi, novamente, uma colheita normal. Talvez minha expectativa tenha sido excessiva, pois a região enfrentou uma quebra de safra sem precedentes. Até mesmo agricultores renomados tiveram perdas de mais da metade da produção, e a qualidade foi classificada como de quarta ou quinta categoria. Em contrapartida, eu, um amador, obtive uma colheita normal e, segundo a avaliação de um técnico da província, a qualidade do meu arroz foi integralmente classificada como de primeira categoria. Ao inscrevê-lo em um concurso, fui laureado com o Prêmio de Honra. Até mesmo aqueles que antes zombavam de mim passaram a me elogiar unanimemente e a ouvir com seriedade minhas explicações sobre a Agricultura Natural.
-
-Outro ponto que observei durante o trabalho no campo principal é que, à medida que o arroz se desenvolve melhor a cada ano, a quantidade de ervas daninhas diminui, facilitando o trabalho de capina.
-
-**VI. Colheita e secagem**
-
-Como os grãos da Agricultura Natural amadurecem plenamente, não há necessidade de uma secagem tão intensa quanto no método convencional. Secá-los da mesma forma pode, ao contrário, causar a quebra dos grãos durante a debulha. Procuro tomar cuidado para não secar em excesso, e mesmo assim, para a inspeção oficial, uma saca de arroz atinge o peso regulamentar com apenas sessenta e oito a setenta litros de grãos.
-
-Nossa região é muito chuvosa, e quando o tempo fecha na época ideal da colheita, a situação se complica. No entanto, o arroz da Agricultura Natural pode esperar uma semana ou dez dias sem problema algum. Em 1952, choveu sem parar por uma semana, justamente na época de colher a variedade Norin nº 1. Esperei tranquilamente a chuva passar e, graças a isso, obtive uma palha limpa e de ótima qualidade, incomparável à palha do cultivo adubado, que se apresentava semipodre. Além disso, ao debulhar, não houve nenhuma perda de grãos, enquanto nas lavouras adubadas, a perda era tão grande que os agricultores precisavam envolver as espigas em esteiras e amarrá-las com cordas para o transporte.
-
-Próximo à colheita, a coloração do meu arrozal se torna tão distinta que, quando visitantes vêm pela primeira vez e eu apenas indico a direção geral, eles conseguem identificar meu campo sem erro.
-
-**VII. Sobre a palha**
-
-No primeiro e no segundo ano, cortei a palha em quatro partes e a empilhei como se fosse composto para depois aplicá-la ao solo. No terceiro ano, cortei-a em pedaços de três a seis centímetros e a espalhei diretamente. Tentei aplicá-la dividida entre o fim do outono e a primavera, mas não observei diferença nos resultados. No quarto ano, recebemos a orientação de cortá-la em pedaços de três a seis milímetros. Fiz o possível para picá-la finamente, mas, sem uma máquina adequada e usando apenas um cortador manual, não consegui pedaços menores que um centímetro e meio. Também experimentei aplicar em grande quantidade e quase nada, mas não parece haver grande diferença na colheita.
-
-**VIII. A intoxicação espiritual pela mentalidade da adubação**
-
-Através destes quatro anos de experiência, surpreendi-me ao constatar que, para além da intoxicação do solo e das sementes, era a intoxicação em meu próprio coração a mais profunda. Até o terceiro ano, eu não conseguia me desapegar da mentalidade de depender da palha. Foi somente no quarto ano que finalmente me libertei dessa preocupação e passei a sentir que praticar a Agricultura Natural era o caminho óbvio. Deixei de me prender à aparência da lavoura e tornei-me capaz de trabalhar em um estado de serenidade.
-
-**IX. Sobre o Johrei**
-
-Não tenho uma rotina específica de percorrer os campos para ministrar Johrei. Em vez disso, procuro fazê-lo sempre que possível durante a irrigação e realizo as demais tarefas, como a manutenção dos diques e a capina, com a disposição de estar ministrando Johrei.
-
-**X. Conclusão**
-
-Os quatro anos em que pratiquei a Agricultura Natural foram marcados por um clima instável em nossa região. Enquanto até mesmo agricultores experientes e renomados sofriam com a quebra de safra e a queda na qualidade, um amador como eu, sem os custos e o trabalho com fertilizantes e agrotóxicos, obteve colheitas consistentemente superiores às dos vizinhos e uma qualidade indiscutivelmente superior, a ponto de atrair visitantes de localidades distantes. Isso é uma prova mais que suficiente da verdade absoluta deste método agrícola.
-
-Diante da imensa graça de Meishu-Sama, que nos concedeu um ensinamento de tão grandiosa verdade, só me resta chorar de gratidão. Anseio ardentemente que este método se dissemine o mais rápido possível.
-
-*(Relato submetido em 9 de fevereiro de 1953)*
-
----
-
-# Minha filha, salva da leucemia incurável pela medicina
-
-**Categoria:** i | **Ano:** 昭和28(1953)年4月22日 | **Fonte:** Eikou
-
-## Minha filha, salva da leucemia incurável pela medicina
-
-Revista Eikou, nº 205, 22 de abril de 1953
-Satomi Okusaka (39 anos)
-Igreja Seirei Naka, Província de Tokushima
-
-Agradeço sinceramente a Meishu-Sama pela Sua constante proteção divina. Recordo-me que foi em junho de 1952 que, pelo poder incomensurável de Deus, minha segunda filha, Mieko, foi resgatada de uma situação desesperadora, e desde então vivemos em um estado de profunda gratidão.
-
-Minha filha Mieko, que na época tinha seis anos e havia começado a frequentar o jardim de infância em abril, começou a apresentar um desânimo crescente em meados de maio. Seu apetite diminuía a cada dia, e embora continuasse a ir às aulas com persistência, seu enfraquecimento se acentuava, até que por fim perdeu toda a vontade de comparecer. Nesse período, ela passou a ter febre todas as noites. Ao tocar seu abdômen, surpreendia-me com o quão alta era a temperatura, o que nos levou a procurar um médico.
-
-Relatamos o quadro ao médico, que lhe administrou uma injeção de penicilina e nos forneceu um laxante para aplicarmos em casa. Após a aplicação, ela evacuou uma pequena quantidade e sentiu-se um pouco melhor. Tanto que, na manhã seguinte, insistiu em ir à escola. Contudo, quando retornou, sua palidez era acentuada e ela estava completamente sem energia. Naquela mesma noite, a febre retornou com intensidade, e ao verificar seu abdômen, constatei que a temperatura ultrapassava os quarenta graus. Pela manhã, a febre cedia, mas os picos noturnos deixavam seu rosto terrivelmente pálido, e a cor de seus lábios era tão desvanecida que mal parecia pertencer a uma pessoa viva. Tentamos variar sua alimentação de todas as formas, mas o apetite apenas se deteriorava.
-
-Extremamente preocupada, a família a levou novamente ao médico. Desta vez, o profissional a examinou com muito mais atenção e nos disse suspeitar de uma doença sanguínea. Explicou, no entanto, que não dispunha dos equipamentos necessários para um diagnóstico preciso e nos deu uma carta de encaminhamento para o hospital municipal, localizado a cerca de dois quilômetros de distância. Sem outra alternativa, seguimos imediatamente para o hospital. Ali, após uma bateria de exames detalhados — sangue, fezes, urina e radiografias —, recebemos o resultado: leucemia, uma enfermidade rara.
-
-O médico explicou que, nessa doença, as células que deveriam se tornar glóbulos vermelhos estavam se transformando em glóbulos brancos. Consequentemente, havia um excesso destes e uma grave deficiência daqueles, uma disparidade que só tendia a aumentar. Foi-nos dito também que, no momento, não existia um tratamento com garantia de sucesso. Naquele instante, toda a minha confiança na medicina se desfez, e fui tomada por um sentimento de desespero como nunca antes havia experimentado.
-
-Enquanto me encontrava completamente perdida, um vizinho me falou sobre a Luz Divina de Meishu-Sama. Em meio à aflição, decidi que deveria tentar e, já no dia seguinte, dirigi-me à residência do Reverendo Seisei Taguchi, a aproximadamente cinco quilômetros de distância. Lá, minha filha recebeu Johrei. Notei que, no caminho de volta, ela parecia ter mais vigor que o habitual. E o mais surpreendente foi que, a partir daquela noite, a febre que a acometia invariavelmente não retornou.
-
-Com isso, seu apetite também começou a melhorar gradualmente. Ao retornarmos da terceira visita, três dias depois, ela já voltava para casa cantarolando. Profundamente grata por essa proteção, passei a frequentar o local diariamente. Após uma semana, sua recuperação era tão notável que mal se podia reconhecê-la. Foi quando recebemos o sagrado Ohikari e, hoje, ela frequenta a escola com a mesma vitalidade de antes.
-
-Ocasionalmente, ela passa por purificações leves, mas, graças ao Johrei, recupera-se rapidamente, o que nos traz grande tranquilidade. O mesmo ocorre com os demais membros da família; ainda que passemos por purificações, temos a segurança de que o Johrei nos restabelecerá.
-
-Em setembro de 1952, recebemos a sagrada imagem de Kannon para entronizar em nosso lar. Diante de tamanha graça, firmo a determinação de dedicar minha humilde capacidade a serviço da grandiosa Obra Divina, a fim de que o maior número possível de pessoas possa conhecer a Vontade de Deus para a construção do Paraíso Terrestre.
-
-Muito obrigada, Meishu-Sama. Oro para que Sua proteção continue a nos amparar e, sem me preocupar com a simplicidade de minhas palavras, ofereço este relato como expressão da minha mais profunda gratidão.
-
-(6 de março de 1953)
-
----
-
-# O Despertar da Superstição na Medicina e a Salvação da Tuberculose Pulmonar
-
-**Categoria:** i | **Ano:** 昭和29(1954)年3月17日 | **Fonte:** Eikou
-
-## O Despertar da Superstição na Medicina e a Salvação da Tuberculose Pulmonar
-
-Revista Eikou, nº 252, 17 de março de 1954
-Kato Eiko (21 anos) – Igreja Kaimeichu, Província de Nagano
-
-Desejo expressar minha mais profunda gratidão a Meishu-Sama.
-
-Jamais me esquecerei daquele 13 de dezembro de 1952. Senti uma dor no peito que me levou a procurar um médico, e o diagnóstico de pleurisia mergulhou-me em completo desespero. O médico prescreveu repouso absoluto a partir daquele mesmo dia e aplicou-me duas injeções. No caminho de volta, atônita, as lágrimas corriam-me pelo rosto sem que eu percebesse, turvando a visão dos transeuntes, e retornei para casa imersa em profunda tristeza.
-
-Naquela noite, não consegui pregar os olhos. A partir de então, iniciou-se uma rotina extenuante de visitas diárias ao consultório médico, mesmo nos dias mais gélidos. O tratamento era invariavelmente o mesmo: injeções e medicamentos, repetidos sem cessar. Cada dia que passava era para mim como viver em um verdadeiro inferno.
-
-O rigoroso inverno deu lugar à brandura de junho, e já se passara meio ano desde que eu estava acamada. Os dias sucediam-se, monótonos, mas meu estado de saúde não apresentava qualquer sinal de melhora. Pelo contrário, sentia-me pior do que antes. Cheguei a questionar se não seria uma impressão causada pelo meu estado nervoso, mas, por mais que refletisse, a única conclusão possível era que minha condição estava, de fato, a agravar-se.
-
-Não havia um único dia sem remédios e injeções. Meu maior anseio era levantar-me da cama, ainda que fosse apenas para varrer o jardim de casa. Contudo, a doença em meu peito agravava-se continuamente. Ao observar meu corpo emagrecer a cada dia, eu me perguntava quando, afinal, chegaria a cura completa. Em meu estado, comecei a pensar que seria mais feliz se partisse para o outro mundo, e perdi a conta de quantas vezes me decidi por essa via.
-
-Certo dia, recebi a visita do senhor Ota, de Okaya, que viera propositadamente à minha casa. Durante nossa conversa, ele me falou sobre a existência de um Deus grandiosamente misericordioso e convidou-me a ingressar em Seu caminho. A princípio, não compreendi o significado de suas palavras. Indagava-me se seria apenas uma questão de erguer a mão para que dela emanasse uma luz; parecia-me algo misterioso e inconcebível.
-
-Refleti sobre o assunto durante toda a noite. Meu próprio corpo era a prova irrefutável de que nem os remédios nem as injeções surtiam efeito. Eu compreendia isso com absoluta clareza. Pensei, ademais, que mesmo se a medicina me curasse, seria uma melhora temporária, e eu jamais poderia trabalhar com a tranquilidade de quem está verdadeiramente são. Assim, tomei a firme decisão de visitar a sede da Igreja no dia seguinte, e assim o fiz.
-
-Ali, ouvi do Ministro Nakajima sobre o grandioso poder de Meishu-Sama, e senti como se todo o meu ser renascesse. Jamais sonhara que alguém como eu, sem fé nem devoção, pudesse ser digna da salvação de Deus. Qual não foi minha surpresa quando, após receber o terceiro Johrei, manifestou-se uma purificação extremamente intensa.
-
-A purificação foi tão violenta que me assustou, com acessos de tosse e expectoração. Todavia, a aflição era evidentemente passageira. Sofri por um breve período, mas, em seguida, senti um bem-estar profundo, e a opressão que sentia no peito desaparecera por completo. Refletindo agora, percebo com clareza: não são os medicamentos a própria origem das doenças, um terrível yakudoku (薬毒)? Enquanto eu me submetia ao tratamento médico, sentia falta de ar até para caminhar na rua e não conseguia sequer limpar um cômodo. E hoje? Hoje cuido do bebê de minha sobrinha, trabalho na cozinha e recuperei plenamente a saúde.
-
-No dia 12 de agosto de 1953, recebi a permissão para ingressar na fé e tive a honra de receber o sagrado Ohikari. A felicidade de ser salva após tanto tempo de sofrimento sob a superstição médica, essa alegria, esse sentimento de gratidão e emoção transbordava em meu coração.
-
-Posteriormente, em uma consulta médica, recebi a confirmação de minha cura total, um veredito incontestável. Em seguida, obtive a graça de conseguir um emprego. Hoje, vivo meus dias com alegria, luz e um profundo sentimento de segurança. A felicidade de ter sido conduzida a este caminho sagrado e as inúmeras proteções divinas que recebo, muito além do meu merecimento, são motivos de uma gratidão que as palavras não podem expressar.
-
-Meishu-Sama, muito obrigada por Vossa grandiosa proteção. Rogo que continue a guiar-me e a velar por mim.
-
----
-
-# A Terapia Revolucionária da Tuberculose (15 de agosto de 1951)
-
-**Categoria:** i | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
-
-## A Terapia Revolucionária da Tuberculose (15 de agosto de 1951)
-
-Um relato de Tatsuo Izumi (36 anos), da Igreja Miochu, em Hyogo.
-
-A imagem daquela noite de grande hemoptise, em que o esguicho de sangue tingiu de rubro o rosto de minha mãe enquanto eu me desculpava pela infelicidade de partir antes dela, permanece gravada em minha retina e é inesquecível. Recordo-me do sangue que jorrava a cada palavra que eu tentava proferir; já não sei se chorei, mas a serenidade com que minha mãe agiu, sem demonstrar qualquer perturbação, é uma visão que o tempo não apaga. Ocorrera em uma noite de 9 de setembro de 1941, quando a brisa do início do outono balançava o mosquiteiro azul.
-
-Este foi o estopim de um período de oito anos que me confinou a um leito em absoluto repouso, levando-me a lamentar que minha enfermidade não era tuberculose, mas sim a doença da hemoptise.
-
-Contudo, o início da doença remontava a um tempo ainda anterior. Em fevereiro de 1938, após sofrer um ferimento de guerra na província de Shandong, fui diagnosticado com infiltração pulmonar. Após mais de um ano de internação, retornei para casa e, no nono dia, tive uma pequena expectoração de sangue. Sem sequer imaginar que se tratava de uma hemoptise, assim que o sangramento cessou, dediquei-me à pesca, à natação e ao montanhismo, sob o sol causticante do verão, até minha pele escurecer. Em outubro, ocorreu um novo episódio, mas, como também cessou rapidamente, parti para Tóquio a fim de reassumir meu antigo posto de trabalho.
-
-Talvez ali tenha sido o ponto de inflexão em meu destino. Eu acreditara no médico da aldeia, que afirmara tratar-se de um mero sangramento na garganta, e por isso me levantava e retomava minhas atividades assim que o sangue parava. Se eu tivesse permanecido em minha terra natal por um ano, talvez o curso de minha vida tivesse sido completamente outro.
-
-O que me aguardava em meu retorno a Quioto, no entanto, eram os inúmeros exames de saúde, supostamente um benefício social. A cada sombra ínfima detectada em uma radiografia, os médicos, com grande alarde, inoculavam em mim um medo desproporcional. Tomado pela ansiedade, passei a me sobressaltar com a menor oscilação da febre e a me esconder no banheiro do trabalho para verificar a temperatura em segredo. Busquei refúgio em supostos suplementos nutricionais e depositei imensa esperança em medicamentos injetáveis, apenas para ver minhas expectativas sucessivamente frustradas.
-
-Foi então que compreendi que os dois episódios anteriores de sangramento haviam sido, de fato, hemorragias pulmonares. A partir daquele momento, passei a viver em um estado de pavor constante do sangue. Pensando em retrospecto, é curioso que o medo tenha se instalado somente depois dos fatos.
-
-Foi assim que, em um maio de folhas verdejantes, retornei à minha terra, uma sombra solitária, para receber este grande batismo de sangue. A hemoptise durou sete dias ininterruptos. Foram sangramentos de toda intensidade; cheguei a me perguntar como um corpo poderia conter tanto sangue. Dizem os que passaram por isso que chegam a expelir de uma só vez o equivalente a dois ou três jarros, mas há certo exagero nisso. A cor vívida do sangue, aliada ao pânico, cria uma ilusão que faz qualquer pequena quantidade parecer um volume imenso. Minha consciência ficou turva e, por quatro ou cinco dias, estive fora de mim, de modo que não sei ao certo o quanto perdi. Minha família tampouco quis comentar. Relataram apenas que a última hemoptise exalava um odor fétido, como o de vísceras de peixe em decomposição. Na ocasião, o médico, ao me ver, teria inclinado a cabeça, perplexo, indagando se eu ainda estava vivo, um episódio que até hoje é assunto entre os moradores da aldeia.
-
-Com o aprofundar do outono, meu corpo debilitado começou a reaver alguma força. Todavia, iniciou-se então um novo tormento: pequenas e frequentes hemoptises e expectoração com sangue. A simples tentativa de me sentar desencadeava um sangramento. Mal o repouso trazia algum alívio e a mancha vermelha ressurgia, mergulhando meu espírito em uma profunda prostração. Perdi a conta de quantas vezes chorei e lamentei. Foram oito anos de um ciclo incessante, o que justifica meu lamento de padecer da doença da hemoptise.
-
-Nem mesmo a fiel aplicação da terapia natural, baseada nos três grandes princípios de repouso, nutrição e ar puro, preconizados por Prausnitz e Trudeau, foi capaz de conter as hemorragias. Como membro de uma associação de tratamento à distância, eu descrevia detalhadamente meu estado ao Dr. Nukada, buscando sua orientação, mas suas respostas invariavelmente se resumiam a recomendar a prática rigorosa do repouso.
-
-Finalmente, em meio ao meu sofrimento, o destino me arrebatou minha melhor cuidadora: minha mãe. Em dezembro de 1942, ela encerrou sua vida de setenta anos, plena de provações, com uma última frase: "Queria ter morrido somente depois de conseguir andar ao menos um passo, até o jardim." Vindo de minha mãe, uma mulher que jamais se abalara diante das adversidades, ouvir aquelas palavras foi como ter o coração partido. Separados, ela no andar de baixo e eu no de cima, não pude sequer ver seu rosto uma última vez. O som dos pregos selando o caixão tornou-se a melodia de despedida entre mãe e filho. A partir de então, passei a ser cuidado por meu pai, um ancião de setenta e dois anos. Para ele, um homem de perfil acadêmico, as minuciosas tarefas domésticas que envolviam água devem ter sido um fardo imenso. A adversidade atrai mais adversidade. Em três anos, de 1943 a 1945, enfrentamos quatro grandes inundações que submergiram todos os nossos bens.
-
-A situação desfavorável da guerra logo se refletiu em minha rotina de convalescente. Houve dias em que não víamos um único grão de arroz. Carne, peixe e ovos haviam desaparecido de nossa mesa havia muito tempo. Minha fé na teoria da nutrição ruiu por completo. Éramos forçados a nos adaptar, sobrevivendo à base de legumes e ervas silvestres.
-
-Naquela época, li um ensaio do Dr. Rokuro Kono, então diretor do Departamento de Prevenção do Ministério da Saúde, que dizia: "Existe uma teoria segundo a qual, quando o ser humano chega a um estado de desnutrição extrema, a tuberculose não avança. Isso pode ser observado em crianças com debilidade congênita, que raramente contraem a doença. Aqueles sem vigor físico não a contraem. Em meio a esta situação alimentar, não haveria algum paciente disposto a se tornar cobaia? A tuberculose é como uma loteria. Ninguém sabe até onde ela irá ou quando a cura virá. Não se pode ser pessimista por estar em estado grave, nem otimista por ter um caso leve. Sendo assim, talvez este método possa ser a salvação." Ao ler esse texto, senti-me completamente perdido. E decidi que, se a medicina moderna já havia me desenganado, chegara a minha vez de desenganar a medicina.
-
-Contudo, talvez por fraqueza humana, mesmo sabendo de sua ineficácia, eu me apegava a um fio de esperança a cada remédio popular que irmãos e amigos, por gentileza, me traziam. A reação era imediata e invariavelmente se limitava a induzir estranhas hemoptises. Extenuado e desamparado, não me restava nada além de fitar o teto e soltar longos suspiros.
-
-Fracassado na "arte de lutar contra a doença" de Fuboku Kosakai e já sem confiança na terapia natural, que caminho me restava? Meus pensamentos giravam em círculos, num vazio infrutífero. Sentia-me uma pessoa de pouca fé. Mas talvez tudo isso fizesse parte do processo até que a afinidade com a salvação amadurecesse.
-
-O ensinamento da Igreja Messiânica chegou à minha aldeia. A salvação, porém, já estava sendo preparada para mim sem que eu o soubesse. No entanto, é difícil abandonar as hesitações e adentrar essa grande senda. Eu já havia conhecido diversos caminhos espirituais e me desapontado com todos. Em especial, um certo líder de orações, famoso por seus supostos poderes, havia me sentenciado a apenas mais um ano de vida. Como eu sobrevivi por mais seis anos após sua predição, sentia aversão a inclinar meu coração a Deus.
-
-Mas o grande Amor de Deus não abandona nem mesmo o menor de Seus filhos. No verão de 1949, com o ingresso de meu irmão mais velho na Fé, a luz começou a despontar em meu mundo de trevas. Todavia, cético como eu me tornara, o gesto de impor as mãos me parecia ridículo, e eu observava tudo com um olhar niilista, pensando que aquilo não poderia funcionar. Por outro lado, havia a fascinante psicologia humana: eu desejava a salvação, não importava como. Ao receber Johrei uma, duas vezes, senti uma vitalidade inundar meu corpo, mas ainda me faltava força de vontade para me levantar.
-
-"A doença é um processo de purificação. Não tema a hemoptise. Sua mãe desejava dar ao menos um passo. Rasteje até o túmulo dela se for preciso, e depois pode morrer. Não lhe parece que só isso já seria um ato de devoção filial para com sua mãe, que partiu com o coração pesado de preocupação? Não imagina o quão mais digno isso é do que definhar em uma doença repulsiva?" Com esse incentivo, finalmente encontrei a determinação para me erguer. Ainda tive as temidas hemoptises e a expectoração com sangue, mas, a cada vez, superava a crise com o Johrei.
-
-O milagre existe. Dizia-se que essa minha fragilidade para sangramentos era de natureza alérgica, ou talvez congestiva; fosse qual fosse a causa, o que importava era a cura. Os dias em que o escarro vermelho preenchia quase todo o mês foram gradualmente substituídos por dias em que o branco predominava, e minha saúde melhorou rapidamente.
-
-O arrebatamento de pisar a terra pela primeira vez é algo que jamais esquecerei. Quando saí a um lugar onde podia ser visto, as pessoas, que já quase me haviam apagado da memória, recebiam-me com um olhar de espanto, sem palavras. Para mim, a surpresa maior foi o crescimento das crianças. Ali, diante de meus olhos, vi materializados os oito anos que se passaram.
-
-Em uma tarde de outono, enquanto as folhas amareladas caíam das azinheiras em um farfalhar sobre a lápide, inclinei-me silenciosamente diante do túmulo de minha mãe, que agora se resumia àquele marco. As inscrições na pedra já começavam a se apagar com o tempo. Ao me curvar, uma torrente de recordações me invadiu, e os soluços vieram por si sós. Não sei quanto tempo permaneci ali, enquanto as folhas caíam incessantemente ao meu redor. Uma de minhas missões estava cumprida. Qual seria, a partir de agora, o caminho que eu deveria trilhar? Tomado por uma profunda emoção, desci lentamente a colina.
-
-Em dezembro daquele ano, recebi o Curso de Iniciação diretamente do Reverendo Moriyama e fui outorgado com o Ohikari. Recebendo Johrei de reverendos e membros, passei por purificações, mas minha saúde se fortalecia cada vez mais.
-
-Quanto mais vigoroso eu me tornava, mais sentia o desejo de levar a notícia deste mundo de alegria ao maior número de pessoas possível. Assim, tomei a liberdade de pedir ao Reverendo Moriyama que me permitisse auxiliar na Igreja Miochu. A alegria que senti quando ele prontamente me autorizou foi indescritível. Com a proteção divina, fiz a longa viagem do oeste da província de Shimane até Nishinomiya e cheguei em segurança à igreja.
-
-Pouco tempo depois, tive a permissão de peregrinar a Atami, e assim tenho vivido até hoje. Passei por altos e baixos, mas minha saúde continua a melhorar. A cada peregrinação, banho-me diretamente na Luz de Meishu-Sama, conheço a alegria de viver e saboreio profundamente a felicidade que me foi concedida. Agora, meu único anseio é devotar-me com toda a sinceridade à construção do Paraíso Terrestre, dedicando-me de corpo e alma para que a chegada desse dia seja antecipada o máximo possível.
-
----
-
-# A alegria da salvação de uma família fadada à extinção pela tuberculose
-
-**Categoria:** i | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
-
-## A alegria da salvação de uma família fadada à extinção pela tuberculose
-(Publicado originalmente nas coletâneas “A Terapia Revolucionária da Tuberculose”, de 15 de agosto de 1951, e “Terapia da Tuberculose pela Fé”, de 1º de dezembro de 1952)
-
-Igreja Nanko Naka, Província de Oita
-Fusamae Keisei (22 anos)
-
-Três membros de minha família fomos acometidos pela tuberculose. Sofrendo o extremo do pessimismo, mergulhados em padecimentos e privações indescritíveis, estávamos à beira do desespero. Todavia, pela inestimável virtude espiritual de Deus, fomos salvos da extinção. É com imensa alegria e em forma de agradecimento que venho relatar como nossa família, renascida em uma senda de luz, foi poupada.
-
-Em abril de 1946, minha mãe, que até então trabalhava com vigor, começou a se sentir mal. Ao consultar um médico, foi diagnosticada com bronquite. Apesar dos diversos tratamentos, em agosto ela desenvolveu uma pleurisia. Chegou a ser hospitalizada, mas o quadro apenas se agravava, e sem qualquer melhora, sua condição tornou-se irreversível. Para substituí-la, assumi as responsabilidades do negócio da família, mas em abril de 1948, sentindo-me fraco e exausto, procurei um médico e recebi o diagnóstico de infiltração pulmonar, o que me forçou a ficar de cama. Nesse ínterim, minha irmã mais velha, a única que ainda trabalhava, também adoeceu, sendo igualmente diagnosticada com um problema pulmonar. Com exceção de minha irmã e meu irmão mais novos, que frequentavam a escola, nós três — mãe, filha e filho — jazíamos acamados, lado a lado. Sem ninguém que pudesse prover nosso sustento, éramos atormentados dia e noite por todos os tipos de sofrimentos: dores de cabeça, fadiga, tosse e insônia. A doença e a pobreza se agravavam a cada dia, e nossa família atingiu o ápice da desolação.
-
-Naquela época, tentamos todos os tratamentos recomendados por terceiros, desde remédios e injeções até moxabustão. Por fim, perdendo a fé nos medicamentos, buscamos auxílio até mesmo em outras práticas religiosas, mas nada nos trouxe alívio. Desistindo de tudo, resignados de que não havia mais a que nos apegarmos neste mundo, passamos a aguardar passivamente pela morte.
-
-Contudo, em um dia que jamais esquecerei, 13 de março de 1948, veio nos visitar uma conhecida de minha mãe, que lhe falou longamente sobre os ensinamentos da Sekaikyuseikyou. E, para que compreendesse melhor, ministrou-lhe Johrei. Minha mãe sentiu-se tão bem que nos incentivou a recebê-lo também. Minha irmã, após a prática, comentou, feliz, que sentia o corpo estranhamente mais leve. Eu, por outro lado, escarnecia da ideia de que algo assim pudesse curar uma doença. Diante da situação, minha mãe pensou: “Já que nos desiludimos com tantas coisas, por que não nos desiludirmos mais uma vez?”. E assim, decidiu que minha irmã mais nova ingressaria na Fé. Ela o fez no dia 15 de março e passou a ministrar Johrei em minha mãe e em minha irmã mais velha.
-
-Irritado por vê-las se envolvendo no que eu julgava ser uma superstição tola, passei a criticá-las diariamente. Qual não foi minha surpresa, entretanto, ao perceber que, com o passar de dois, três dias, elas pareciam revigoradas. Uma semana depois, minha mãe, que não conseguia dar um passo para fora do leito, já era capaz de caminhar ao ar livre, e minha irmã, que mal cuidava de si própria, começou a cozinhar. Ah, que acontecimento extraordinário! Onde mais se poderia encontrar semelhante milagre? Mesmo eu, que me opusera com tanta obstinação, não tive escolha a não ser curvar-me diante da realidade daquela graça divina. Após ler o Evangelho do Paraíso, compreendi profundamente o erro de todos os tratamentos que havíamos seguido e percebi a insensatez de meus próprios esforços, que, na verdade, apenas me impediam de ser curado.
-
-A partir de então, com o Johrei, nossa recuperação era diária. O peso que eu sentia, como se carregasse uma carga imensa sobre os ombros, foi se aliviando gradativamente a cada Johrei recebido. Eu, que antes mal conseguia levantar-me para as tarefas mais simples, passei a ser capaz de trabalhar. A alegria que senti naquele momento é incomparável. Restava-me apenas prostrar-me em gratidão diante do Deus de infinita misericórdia e compaixão, que salvou até mesmo a mim, que tanto me opusera.
-
-Um ano depois, em abril de 1949, minha mãe partiu deste mundo em decorrência da purificação de longos anos de toxinas medicamentosas. Contudo, a serenidade em seu semblante ao falecer era a de quem parte em completa paz, como se adormecesse com a certeza de que seria acolhida no Mundo Espiritual. Que felicidade imensa, se comparada à agonia daqueles que partem sem fé e sem paz de espírito! Também nesse momento, pude sentir, com profunda intensidade, a grandiosidade da virtude espiritual de Deus.
-
-Minha irmã e eu, a cada purificação, víamos nossa saúde se fortalecer. Se não tivéssemos recebido esta salvação, certamente meus irmãos mais novos teriam adoecido em seguida, e nossa família teria trilhado o caminho da extinção. Assim, uma família assolada pela tuberculose foi, pela Divina Graça, transformada em uma família radiante de luz. Elevo minha mais profunda gratidão pela permissão de poder servir, ainda que humildemente, na Obra Divina de construção do Paraíso na Terra.
-
----
-
-# Recebendo a Sentença de Morte dos Médicos: A Cura da Hipertensão e da Cardiopatia
-
-**Categoria:** i | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
-
-## Recebendo a Sentença de Morte dos Médicos: A Cura da Hipertensão e da Cardiopatia
-
-Publicado na revista Eikou nº 191, em 14 de janeiro de 1953
-Publicado na Coletânea de Milagres da Sekaikyuseikyou, em 10 de setembro de 1953
-
-Igreja Minori-Naka, Hokkaido
-Sr. Gigorou Komatsu (28 anos)
-
-Com a mais profunda reverência, venho expressar minha gratidão pela divina proteção que recebi.
-
-Recordo-me de que, em meados de fevereiro de 1950, fui subitamente acometido por uma dor lancinante no peito que me levou ao colapso. No hospital da empresa onde trabalhava, fui diagnosticado com valvulopatia. A partir de então, dediquei-me com afinco a buscar a cura, consumindo todos os medicamentos que me pareciam eficazes. Contudo, em meio à ansiedade e à aflição, uma semana transcorreu num piscar de olhos, e meu estado de saúde deteriorou-se ainda mais. Ao ser reexaminado, o diagnóstico foi alarmante: duas novas patologias cardíacas haviam se somado à primeira. Diante disso, concluí que não havia outra alternativa senão a internação para um tratamento rigoroso. Ao expor minha decisão aos médicos, fui admitido sem restrições. Apeguei-me à esperança de uma plena recuperação e, seguindo fielmente as orientações médicas, iniciei um tratamento de repouso absoluto.
-
-Decorrida a primeira semana de internação, período que os médicos haviam inicialmente estipulado para minha melhora, fui submetido a uma nova e detalhada avaliação. O resultado, todavia, foi adverso: “Sua pressão arterial ultrapassou os 300 mmHg, sendo imperativo restringir sua alimentação”. Obedeci prontamente. Com a chegada de março, meu quadro agravou-se. Minha pulsação oscilava constantemente entre 100 e 120 batimentos por minuto, e os dias de mal-estar tornaram-se frequentes. Em 12 de março, data do aniversário de morte de meu irmão, sofri uma crise súbita, similar à que deu início a tudo, com o pulso disparando para 150 a 160. O médico ponderou: “Isso ocorre devido à pressão excessivamente alta. Uma sangria de 200 a 300 cc deve ajudar”. Submeti-me à sua recomendação, mas o procedimento teve um efeito devastador. Fui tomado por uma agonia tão intensa que tive a certeza de que morreria. Os médicos, espantados com um resultado tão diferente do esperado, entraram em pânico e, no intervalo de uma hora, injetaram-me dezoito ampolas de estimulante cardíaco. Talvez por essa razão, obtive uma melhora efêmera, mas as consequências foram funestas. Meu estado geral piorou drasticamente: o pulso se manteve entre 130 e 140, e a temperatura corporal caiu para 34,5 graus. A debilidade era tamanha que até mesmo caminhar dentro do quarto se tornou uma tarefa hercúlea.
-
-Nesse ponto, os próprios médicos começaram a demonstrar incerteza, meneando a cabeça. Quando os questionava, recebia respostas vagas como: “Precisamos observar por mais um tempo para ter certeza”. No final de março, ao insistir, ouvi: “Estamos administrando os mais potentes medicamentos para o coração que existem, mas, francamente...”. Para mim, em meu leito de enfermidade, essas palavras soaram como uma sentença: “Sua doença é incurável... você vai morrer... prepare-se para o fim”. A partir de então, a simples visão dos médicos me causava uma aversão que chegava a piorar meu estado físico. Ainda assim, movido por um desejo desesperado de viver, continuei a seguir suas ordens à risca, submetendo-me a medicamentos e injeções. Em abril, consumido pela incerteza quanto ao meu prognóstico, solicitei uma radiografia. O resultado lançou uma sombra ainda mais escura sobre minhas chances de sobrevivência: meus pulmões, rins, fígado e até a medula espinhal estavam comprometidos — algo que eu jamais imaginara. Para coroar o desastre, foram-me atribuídas oito patologias cardíacas distintas. E pensar que eu jamais havia questionado uma única ordem médica! Senti-me tomado por uma fúria impotente, uma amargura e uma desolação profundas. Confrontei o médico: “O senhor não pode curar minha doença?”. Irritado, ele retrucou: “Sugiro que chame seus parentes para discutir os preparativos finais”. Aquelas palavras me atingiram como um raio. Fiquei paralisado pela raiva. E assim, embora ainda apegado à vida, comecei a mergulhar num estado de desespero resignado, um sentimento de “que seja o que tiver de ser”.
-
-Meu enfraquecimento se acentuou. A temperatura corporal não passava de 34 graus, o pulso variava entre 140 e 150, e eu já não conseguia ingerir alimento algum. Era um homem que apenas aguardava a morte.
-
-No início de maio, recebi dos médicos a “sentença de morte” de forma explícita. Meus familiares vieram para a despedida, mas minha visão estava tão turva que eu mal conseguia distinguir seus rostos. Naquele momento, compreendi que meu fim era iminente e aceitei meu destino. Eu, que havia seguido com lealdade canina cada prescrição médica, senti um profundo ressentimento por eles em meus últimos momentos. Soube mais tarde que haviam dito à minha família que me restavam apenas dois dias de vida.
-
-Ah, mas então chegou um dia inesquecível: 10 de maio de 1950. Meu amigo Takatoshi Oku, que já era membro da Igreja, apareceu de súbito para me visitar. Com as mãos estendidas em minha direção, ele disse: “Komatsu, talvez você ache isto estranho”, e, como preâmbulo, explicou: “Foi assim que minha tuberculose foi curada”. Durante cerca de uma hora, enquanto canalizava Johrei, ele me falou sobre os maravilhosos ensinamentos da Sekaikyuseikyou. Fosse por sugestionamento ou não, senti meu corpo ficar mais leve. Ele então se ofereceu para, no dia seguinte, trazer o reverendo Yoshida, que estava em missão na região de Bibai. Aceitei de imediato.
-
-No dia 11, o reverendo Yoshida veio ao hospital e ministrou-me Johrei. Enquanto ouvia suas palavras, repletas de força e benevolência, comecei a compreender, ainda que nebulosamente, que tudo o que eu vinha fazendo até então apenas contribuía para a destruição do meu corpo. Naquele mesmo dia, decidi abandonar todos os medicamentos e confiar unicamente no Johrei. O mais surpreendente, contudo, foi o que se seguiu: após uma única sessão, eu, que não conseguia ingerir absolutamente nada, devorei com apetite a tigela de arroz da refeição comum servida pelo hospital. Foi uma sensação de renascimento. Senti como se já estivesse curado e, pela primeira vez em muitas semanas, uma alegria genuína inundou meu coração.
-
-Em contraste com as palavras irresponsáveis e cruéis dos médicos, a dedicação e o carinho do reverendo Yoshida, superiores aos de um familiar, fizeram com que, graças ao Johrei, minha grave enfermidade começasse a regredir dia após dia. A partir do momento em que comecei a receber Johrei, meus dias se tornaram um campo de batalha com a equipe médica. “Tome o remédio!”, “Se eu tomar isso, serei morto!”, “Você tem que tomar!”, “Em primeiro lugar, o senhor não foi capaz de me curar!”. Cansado dessa rotina, no final de maio, contrariando a forte oposição dos médicos, decidi deixar o hospital. Como ainda não conseguia andar, fui levado para casa em uma maca. Imediatamente, dirigi-me à Igreja para agradecer e tive a honra de receber o sagrado O-mamori.
-
-Após minha alta, a temperatura corporal normalizou-se e eu já conseguia passar o dia todo ativo, sem precisar me deitar. No final de junho, comecei a ir a pé para a Igreja. Era comum que eu desmaiasse uma ou duas vezes pelo caminho, mas, com fé absoluta na proteção divina, eu ministrava Johrei em meu próprio coração, entoava em voz alta a oração Zengen Sanshi e seguia em frente, imerso em meu propósito.
-
-Conforme continuei a frequentar a Igreja, meu corpo foi se fortalecendo gradativamente. Chegou o momento em que me tornei capaz de ministrar Johrei em outras pessoas por vinte ou trinta minutos, e a alegria que senti nessa ocasião permanece em minha memória como a maior de toda a minha vida.
-
-Minha gratidão pela virtude divina de Meishu-Sama é simplesmente imensurável.
-
-Em julho, com o corpo mais robusto, recebi intensas purificações: febres que ultrapassavam os 40 graus e crises de diarreia avassaladoras, que se repetiram até setembro. No passado, tal situação me deixaria em pânico; agora, porém, eu vivia em um estado de gratidão, compreendendo que Deus me concedia as mesmas purificações que as outras pessoas recebiam.
-
-No início de setembro, o reverendo Yamaguchi, que visitava Hokkaido em missão, incentivou-me a me dedicar à Obra Divina. Hesitei, pois não confiava em minha força física, mas o reverendo Yoshida também me aconselhou a fazê-lo. Naquela mesma manhã, recebi em sonho uma orientação de meus antepassados. Foi o sinal de que precisava: decidi, com firmeza, dedicar-me à Obra Divina.
-
-No final de dezembro, pedi demissão da empresa onde estive afastado por dez meses e fiz os preparativos para iniciar minha dedicação. Em janeiro de 1951, fui enviado como pioneiro para a localidade onde sirvo atualmente. Contrariando minhas apreensões, desde que iniciei a missão, meu corpo, sob a proteção divina, recuperou-se plenamente. Hoje, tenho a honra de ocupar um modesto lugar entre os ministros da sagrada Sekaikyuseikyou. Meishu-Sama, muito, muito obrigado.
-
-A mim, que tive a vida salva quando já não havia esperança, rogo que me permita servir a esta Obra de Salvação até o último suspiro. E peço, humildemente, que Vossa proteção continue a me amparar.
-
-(17 de agosto de 1952)
 
 ---
 

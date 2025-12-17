@@ -1,8 +1,1132 @@
 # Mioshie_Teachings - Part 84
 
+# Coletânea de Ensaios do Mestre Okada Jikanshi
+
+**Categoria:** sasshi | **Ano:** 昭和24(1949)年11月20日 | **Fonte:** 御Hikari話録
+**Título Original:** - | **Status:** -
+
+## Coletânea de Ensaios do Mestre Okada Jikanshi
+### Registro dos Ensinamentos de Luz, nº 14, publicado em 20 de novembro de 1949
+
+**Três de agosto**
+
+**P— O desenvolvimento do conhecimento acelera a evolução da alma? As pessoas que mais utilizam a mente tendem a viver mais porque, por meio disso, suas almas evoluem e, consequentemente, seu valor de existência no mundo físico aumenta?**
+
+R— Essa é uma linha de raciocínio plausível. Contudo, por outro lado, é a evolução da alma que permite o desenvolvimento do conhecimento. Portanto, não se pode afirmar categoricamente qual dos dois precede o outro. A ideia de que "a longevidade advém do valor de existência" tem, de fato, grande fundamento. O corpo humano beneficia-se da atividade, e a mente, em especial, por ser a soberana de todo o ser, desenvolve-se à medida que é utilizada, o que contribui para uma vida mais longa. Esse entendimento, aliás, contraria o que se pensava até então.
+
+É preciso ressalvar, contudo, que utilizar a mente com preocupações é prejudicial. Jogos como mahjong, go e shogi, por exemplo, exigem um esforço mental considerável, especialmente o go. No entanto, a dedicação a tais passatempos impede a produtividade. Eu mesmo os apreciava, mas percebi que, ao me envolver com eles, tornava-me incapaz de realizar qualquer outra coisa. (risos) Isso constitui o pecado da ociosidade, um pecado de grande peso. Viver sem nada fazer, em completa inércia, é um erro. O verdadeiro propósito do ser humano é o trabalho; sem ele, a vida se torna vã. (Consultar Registro dos Ensinamentos de Luz, nº 5).
+
+**P— Há Difusões que exigem a troca do Ohikari de membros transferidos de outras localidades. Tal procedimento é correto?**
+
+R— Trata-se de um equívoco absurdo. A Luz Divina é a mesma em qualquer Difusão. Adotar tal prática seria como admitir que existem diferenças entre elas.
+
+**P— Em velórios, existe o costume de cobrir o Altar Divino com uma folha de papel branco. Como devemos proceder?**
+
+R— Essa prática era adequada aos deuses de outrora, pois o Deus a quem servimos é diferente. (risos) Antigamente, a morte era vista como uma mácula, o que se devia à falta de poder daquelas divindades. Ora, a morte é um destino comum a todos, e até mesmo os deuses, em tempos remotos, tiveram a experiência de morrer. (risos) Longe de ocultar o Altar, seria mais apropriado que o falecido recebesse a Luz Divina.
+
+**P— Ministrar Johrei em estado de esgotamento por falta de sono ou após ingerir bebida alcoólica tem efeito? Não seria uma falta de respeito para com Deus?**
+
+R— A ideia de que a falta de sono causa esgotamento não corresponde à verdade. Eu mesmo procuro dormir o mínimo possível, pois isso aumenta minha capacidade de ação. A crença de que a privação de sono debilita a energia vital é fruto de uma forte doutrinação da medicina, que nos leva a sentir uma certa letargia. A realidade, porém, é outra. Observem as gueixas: são as que menos dormem e, no entanto, estão entre as mulheres mais inteligentes do Japão. (risos) Esse exemplo por si só já esclarece a questão. (Consultar Registro dos Ensinamentos de Luz, nº 5).
+
+Quanto à ingestão de álcool, a questão deve ser avaliada com flexibilidade, conforme a situação. Todavia, um fiel deste Caminho que se embriaga a ponto de perder a consciência demonstra que sua fé ainda é superficial e que seu espírito não se depurou. Com o aprofundamento da fé, torna-se naturalmente impossível beber além de um certo limite. Para os que não possuem fé, a embriaguez não acarreta maiores problemas.
+
+**P— Algumas pessoas afirmam que quem não possui ego nem apego tem uma aura espiritual mais forte. Isso procede?**
+
+R— De modo algum. O ego e o apego são indispensáveis. O segredo, contudo, é não os exteriorizar. (risos) No Ofudesaki da Oomoto, há uma passagem que diz: "O ego é necessário, mas bom é tê-lo e não o manifestar". É uma colocação de extrema felicidade. Sem o ego, tornar-nos-íamos tolos. (gargalhadas) A conduta ideal é manter o ego no âmago do ser e, sobre essa base, cultivar a docilidade.
+
+**P— Para nós, que conhecemos a grandiosidade deste Caminho e acreditamos na Grande Purificação, o ideal seria casar com alguém da mesma fé. Contudo, se porventura nos apaixonarmos por uma pessoa que não crê no Caminho nem na Grande Purificação, deveríamos considerar esse casamento como algo provisório? E no caso de um casamento com alguém que se recusa terminantemente a crer, como um médico ou um professor, que tipo de purificação esse casal receberá por ocasião da Grande Purificação?**
+
+R— Não se preocupem com tais questões. Se o amor surgir, casem-se. Pelo contrário, casar-se com alguém de quem não se gosta, mesmo que essa pessoa seja do Caminho, é um erro. Aqueles que hoje não creem, um dia crerão. O sentimento de amor é, em si, um sinal de que o casamento deve acontecer. Estão mais tranquilos agora? (gargalhadas)
+
+**P— Vemos casais que se dão mal terem bons filhos, enquanto outros, que vivem em harmonia, têm filhos problemáticos. Qual a análise espiritual para esses casos?**
+
+R— A índole dos filhos, seja boa ou má, está relacionada aos pecados dos pais e, portanto, não tem grande conexão com a harmonia conjugal. Contudo, alguma influência pode existir, pois a desavença no casal gera pensamentos negativos que, por sua vez, podem afetar os filhos.
+
+**P— Existem lares onde os filhos, cientes do ódio mútuo entre os pais, acabam por odiar a ambos. Embora isso possa parecer carma, devemos entender que Deus nos concede tais uniões para nos ensinar algo?**
+
+R— A questão não é de ensino, mas sim do nível espiritual da pessoa. Alguém que se encontra em determinado patamar espiritual naturalmente atrairá um cônjuge de nível semelhante. A humanidade atual, em sua maioria, vive em condições análogas às do inferno, daí tanto sofrimento. Essa situação não é carma, mas destino. Portanto, à medida que a pessoa se eleva espiritualmente, sua vida melhora.
+
+**P— Quando um casal é incompatível em termos de personalidade e conclui que a separação traria felicidade a ambos, o divórcio é uma opção aceitável?**
+
+R— Se o divórcio for consensual, não há problema. O divórcio unilateral, no entanto, gera ressentimento e pode causar interferências espirituais.
+
+**P— Por que os diabéticos sentem um desejo incontrolável de comer? É permitido que se alimentem conforme o apetite?**
+
+R— Na diabetes, as toxinas se acumulam no pâncreas, órgão responsável por processar o açúcar. Comprimido por essas toxinas, o pâncreas deixa de funcionar corretamente, e o açúcar, em vez de ser absorvido pelo corpo, é eliminado pela urina. Essa carência de açúcar gera uma nova demanda, o que desperta a vontade de comer. Assim, o ideal seria consumir doces, mas como outros alimentos contêm pouco açúcar, é preciso ingerir grandes quantidades para compensar. Portanto, o paciente deve, sim, comer.
+
+O método mais eficaz para curar a diabetes é, sem dúvida, eliminar as toxinas localizadas no pâncreas, o que se consegue facilmente com o Johrei. Mesmo na medicina, existe uma terapia que consiste em permitir a ingestão livre de açúcar, o que demonstra certa perspicácia.
+
+**P— Um rapaz de quinze anos, por volta dos dois anos de idade, teve a circulação de uma das pernas prejudicada por um elástico de meia muito apertado. No local, a pele ficou calva, como uma cicatriz de queimadura, e a perna não se desenvolveu bem, permanecendo mais fina do joelho para baixo. Ele anda sem grandes dificuldades, mas se cansa facilmente. Ainda há salvação para ele?**
+
+R— Sim, tem cura. O problema foi de fato o forte aperto. Se fosse apenas o aperto, não haveria maiores consequências, mas as toxinas foram atraídas para o local e se solidificaram. O corpo humano é um mecanismo complexo; ao pressionarmos um ponto, as toxinas tendem a se acumular ali.
+
+**P— Recentemente, muitas pessoas têm consumido bebidas alcoólicas sintéticas à base de metanol, e algumas perderam a visão como resultado. Qual a razão disso? O Johrei pode curar essa condição?**
+
+R— É melhor evitar tais bebidas. Como na peça de teatro, beber algo sabendo que é veneno... (risos) Contudo, mesmo a perda de visão é curável. A condição se torna irreversível por causa dos tratamentos equivocados. Ao ingerir metanol, suas toxinas se acumulam na parte posterior dos olhos. Se a pessoa, sob o efeito da bebida, ainda se dedica a atividades que forçam a visão, como o mahjong, as toxinas se concentram ainda mais nos olhos.
+
+A cura pode ocorrer mesmo sem tratamento, mas com o Johrei, a recuperação é, obviamente, muito mais rápida. O problema é que as pessoas geralmente recorrem a colírios, e a ação conjunta das toxinas do metanol e dos medicamentos agrava o quadro.
+
+**P— Como o saquê e a cerveja contêm conservantes, imagino que o doburoku (saquê caseiro não filtrado) seja uma opção melhor...**
+
+R— Certamente, o doburoku é melhor. Mas sua fabricação é rigorosamente controlada, não é? (risos) Se fosse possível produzi-lo abertamente, seria ótimo. Mas como não é o caso, não devemos fazer nada que infrinja a lei.
+
+**P— Ouvi dizer que a tuberculose óssea na coluna (Mal de Pott) é uma doença espiritual. Por que os locais de drenagem do pus variam?**
+
+R— O pus é expelido por onde encontra mais facilidade para sair, como em áreas de tecido mais mole. É nesses pontos que se formam as fístulas. Geralmente, elas aparecem ao redor da cintura.
+
+**P— Perto da minha casa, nasceu um ciclope (criança com um olho só). Qual seria a causa espiritual para isso?**
+
+R— Tais casos podem ser resultado de ressentimento ou de pecados cometidos contra Deus. Por exemplo, se uma pessoa foi assassinada sendo partida ao meio, pode ser que uma das metades não tenha se purificado completamente no Mundo Espiritual antes de reencarnar. Ofensas a Deus também podem resultar em punições divinas dessa natureza, pois os olhos representam a divindade, simbolizando o sol e a lua.
+
+**P— Imagino que matar deliberadamente animais como bois, cavalos, gatos e cobras gera pecado. Como devemos reverenciá-los após a morte? E no caso de morte natural?**
+
+R— Sim... Cobras podem ser mortas. Quando vejo uma, eu a mato, enterro-a em um local onde não será pisada, entoo a Oração Amatsu-Norito três vezes e peço ao Grande Deus do Mundo Espiritual que ela possa reencarnar como ser humano da próxima vez. A cobra se alegra em ser morta. Por isso, depois de realizar esse ritual, sinto um grande bem-estar. A razão é que a cobra considera sua própria forma hedionda e anseia por encerrar sua existência o quanto antes. Se, ao encontrar uma cobra, você lhe disser: "Não mostre uma forma tão feia aos humanos", ela não aparecerá mais. Outro dia mesmo, havia uma junto àquelas pedras; eu disse isso a ela, e nunca mais a vi.
+
+Contudo, existem muitas cobras que são, na verdade, seres humanos apegados que se transformaram. Matá-las pode atrair maldições. Em casas antigas, é comum encontrar a cobra-rateira-japonesa; não se deve matá-la, pois é um espírito ancestral. Gatos também não devem ser mortos. Bois, bem, matá-los é inevitável. O importante é realizar uma cerimônia em sua memória uma vez por ano. O procedimento é o mesmo, seja por morte natural ou por abate.
+
+**P— Diz-se que as miragens são causadas pela curvatura da luz. Poderia nos instruir sobre a verdadeira causa?**
+
+R— Não se trata de curvatura da luz. É um fenômeno frequentemente observado na costa do Mar do Japão, próximo a Niigata. O que ocorre é que paisagens da Coreia são refletidas, como um arco-íris. Não é curvatura, mas sim reflexo. Antigamente, quando havia castelos na Coreia, suas imagens eram projetadas, criando aquela visão que se assemelha a um palácio submarino. Hoje, talvez isso não aconteça mais.
+
+**Treze de agosto**
+
+**P— Ouvi dizer que o hinoki (cipreste japonês) é uma árvore sagrada. Se tivermos um em nosso jardim, podemos podar os galhos para manutenção?**
+
+R— Sim, não há problema algum.
+
+**P— Podemos cortar a copa da árvore?**
+
+R— Sim, pode. Mesmo que a árvore venha a secar por causa da poda, não há problema. O que é inadequado é usar a madeira de hinoki em construções comuns. Eu mesmo podo as minhas sem cerimônia.
+
+**P— Como um fiel do Caminho deve encarar o fato de sua esposa ter tido um relacionamento com outro homem antes do casamento?**
+
+R— Isso não tem a menor importância. (risos) Afinal, foi antes do casamento. Se fosse depois, seria um pecado. Mas antes, não há problema. Pode ser que ela pretendesse se casar com o outro homem, mas ele faleceu ou algo impediu a união, e por isso ela se casou com você.
+
+**P— E se ocorrer um triângulo amoroso após o casamento?**
+
+R— Isso é inaceitável. Mas se tal situação ocorrer, entregue-a nas mãos de Deus. (risos) Ele resolverá tudo da melhor maneira. Tentar solucionar com a inteligência humana jamais dará certo.
+
+**P— Gostaria de fazer mais algumas perguntas sobre a forma de cultuar os ancestrais (ihai). (1) No caso de uma mulher que se casou e foi para outra família, basta que ela culte uma placa geral com os dizeres "Antepassados de Gerações"?**
+
+R— O culto aos antepassados da família de origem deve ser feito pela própria família. Uma vez que a mulher se casa e entra em outra família, não precisa mais se preocupar com os ancestrais de seu lar de origem.
+
+**P— (2) Quando marido e mulher falecem, é melhor inscrever seus nomes póstumos em uma única placa ou em duas separadas?**
+
+R— Ambos os modos são válidos, mas uma única placa talvez seja mais prática. De qualquer forma, no Mundo Espiritual, marido e mulher seguem caminhos separados inicialmente. Apenas quando atingem um certo grau de salvação é que podem se reunir.
+
+**P— (3) O senhor nos orientou a colocar as placas de marido e mulher lado a lado. Se o falecido marido teve uma segunda esposa, onde a placa dela deve ser posicionada?**
+
+R— Isso se torna um triângulo amoroso no Mundo Espiritual. (risos) A placa deve ser colocada ao lado, mas a ordem correta deve ser respeitada. A ligação espiritual não se desfaz completamente, e os espíritos vêm quando são cultuados. Se a ordem estiver incorreta, eles podem sentir desconforto e até sofrer.
+
+**P— (4) Se um irmão mais velho faleceu na infância e o mais novo, na idade adulta, a placa do mais velho ainda deve ter precedência?**
+
+R— Sim, essa é a forma correta. Mesmo que tenha falecido ainda bebê, o irmão mais velho tem a primazia.
+
+**P— (5) Entre avós e pais, é natural que os avós ocupem a posição de honra (mais próximos ao centro), correto?**
+
+R— Sem dúvida.
+
+**P— (6) Entre as placas dos meus irmãos e as dos meus filhos, qual deve ter a precedência?**
+
+R— Os irmãos mais velhos vêm primeiro; os mais novos, depois dos seus filhos. A disposição correta no altar é: no centro, a placa dos "Antepassados de Gerações"; à direita (de quem olha), os avós; à esquerda dos antepassados, os pais. À direita dos avós, as placas dos seus irmãos. Se possível, à esquerda dos pais, pode-se colocar a placa dos "Antepassados de Gerações" da família da esposa.
+
+**P— Uma família secundária (bunke) deseja instalar um novo altar e iniciar o culto aos seus antepassados. Basta entoar a Oração Amatsu-Norito e a Zenguen-Sandji? Não é necessário chamar um monge budista?**
+
+R— Apenas as orações são suficientes. Não há necessidade de chamar um monge. Muitos espíritos já não apreciam os sutras e preferem que lhes sejam oferecidas a Zenguen-Sandji e os Salmos.
+
+**P— Uma mulher de 35 anos, que teve o útero removido há um ano devido a dores, ingressou na fé em novembro passado. Atualmente, sua perna direita está toda inchada, e ela tem no baixo-ventre um nódulo do tamanho da cabeça de um bebê, além de sentir algumas náuseas. Ela está recebendo Johrei. Qual a sua orientação?**
+
+R— Bem, o útero dela foi removido. O inchaço na perna é consequência disso. Câncer é algo raro; provavelmente trata-se de um acúmulo de outras toxinas. Além do mais, ela tem apenas 35 anos. O câncer geralmente se manifesta após os 40.
+
+**P— Devemos continuar com o Johrei?**
+
+R— Sim. Mas não posso garantir a cura.
+
+**P— Os parentes são contra, mas ela insiste em se apegar à fé...**
+
+R— Se ela se apega, devemos ajudá-la.
+
+**P— Se ela vier a falecer, não haveria o risco de isso prejudicar a expansão do Caminho?**
+
+R— Aja com flexibilidade. O importante é não prometer a cura.
+
+**P— Desde que começou a receber Johrei, ela passou a urinar com mais frequência.**
+
+R— Ótimo. Façam o tratamento por uma semana e observem se há alguma melhora, por menor que seja. Não posso garantir sua vida, mas a dor certamente desaparecerá.
+
+**P— Ela não sente dor alguma no momento.**
+
+R— Mas está inchada, não está?
+
+**P— Sim.**
+
+R— O inchaço é a dor.
+
+**P— Um fiel fervoroso, presidente de uma empresa, enfrentou dificuldades financeiras devido ao congelamento de créditos no ano passado e foi forçado a dissolver a companhia. Ele tentou iniciar vários outros negócios, mas todos fracassaram quando estavam prestes a se concretizar. Entendendo que isso não estava de acordo com a Vontade Divina, ele se resignou e passou a viver uma vida modesta, concentrando seus pensamentos em Komyio-Nyorai-Sama. Seus amigos, preocupados, consultaram um asceta, que disse que o avô do fiel, à beira da falência, fora salvo pela fé em uma certa divindade Inari. Desde então, a família a cultuava, mas o pai do fiel abandonou a prática. O asceta afirmou que o fracasso se devia a uma maldição de Inari e que o culto deveria ser retomado imediatamente. Devemos acreditar nisso? É possível remover essa interferência?**
+
+R— Essa história me parece um tanto estranha. Dizer que ele vive uma vida modesta e resignada porque seus negócios não dão certo é uma atitude errada. Assim, nada jamais dará certo. É preciso esforçar-se ao máximo. E mesmo que uma divindade Inari estivesse causando interferência, se ele se dedicasse a salvar pessoas por meio deste Caminho, Inari algum poderia tocá-lo. Qualquer divindade Inari, por mais poderosa que seja, não é nada diante de Kannon. (risos) Mas para isso, a pessoa precisa ter o devido merecimento.
+
+O maior de todos os pecados humanos é o da preguiça. Deus nos concedeu mente e mãos; não utilizá-los é um grande erro. Devemos usá-los ao máximo. Aos nossos olhos, um asceta como esse não passa de um aprendiz. Se esse fiel está dando ouvidos a ele, é porque, apesar de ter entrado no portão da fé, ainda hesita. É preciso ser mais resoluto. Ele deveria ter a postura de salvar o asceta, e não o contrário. Ser salvo por um asceta... isso o coloca abaixo de um mero aprendiz. (risos)
+
+**P— Os Kappa realmente existem?**
+
+R— Sim, eles existiram em grande número. Há muitas histórias sobre eles, e eu mesmo já os estudei. Alguns dizem que são doninhas transformadas, mas os Kappa de fato existiram. Parecem-se com humanos e possuem as mesmas emoções: alegria, raiva, tristeza e prazer. Se você ajuda um Kappa, ele lhe será grato. Sua aparência lembra muito a de um sapo. Sua pele é pegajosa e esverdeada ao toque. No topo da cabeça, têm um prato que, se secar, lhes causa grande sofrimento. Adoram lutar sumô e, mesmo que sejam derrubados, levantam-se e voltam a atacar incansavelmente. Eles não conhecem o cansaço, então é o oponente humano que acaba exausto. Enfim, há muitos detalhes, mas a existência dos Kappa é um fato.
+
+**Vinte e três de agosto**
+
+**P— Quando as lombrigas são expelidas pelo Johrei, seus ovos ainda permanecem no abdômen? Se sim, eles podem se desenvolver? E no caso dos oxiúros, por que eles saem às centenas, um após o outro?**
+
+R— Os oxiúros saem às centenas porque existem em grande quantidade. Sairão todos os que estiverem lá. Como são muito pequenos, duzentos ou trezentos deles cabem na palma da mão. Os ovos de lombriga entram no corpo através dos alimentos, mas com o Johrei, não há com que se preocupar. No entanto, se ovos anteriores permanecerem, eles podem crescer e ser expelidos mais tarde. Basicamente, os vermes se desenvolvem onde há impurezas. Os ovos, porém, são outra questão. O Johrei não purifica o corpo instantaneamente, então alguns ovos antigos podem se desenvolver.
+
+**P— Quando uma criança urina em uma minhoca, seu pênis costuma inchar. Há uma causa espiritual para isso?**
+
+R— É o espírito da minhoca que se irrita. A minhoca é um tipo de dragão divino; por isso, em japonês, se escreve "dragão da terra". Ela detesta ser suja e, ao mesmo tempo, possui um certo orgulho.
+
+**P— Um homem de 45 anos não tem desejo sexual há dez anos. Com o Johrei, ele pode voltar a ser como uma pessoa normal?**
+
+R— Sim, isso tem cura. A causa é a atrofia dos rins. O Johrei é mais eficaz que injeções de hormônio. (risos) Casos como este mostram o quão sublime é o Johrei. Há um nódulo na região dos rins; é preciso ministrar bastante Johrei ali. Aos 45 anos, ele ainda não deveria estar nessa condição, então pode ser otimista. (risos) É uma situação delicada. Existe também a frigidez feminina. Quando ministro Johrei e pergunto "Qual foi o resultado?", elas nunca dão uma resposta clara. (risos)
+
+**P— Ultimamente, tenho sofrido de uma amnésia terrível. Leio jornais e livros, mas não consigo reter o conteúdo. Que tipo de purificação é esta?**
+
+R— Isso ocorre porque as toxinas se acumularam em sua cabeça. Você mesmo pode ministrar Johrei com frequência na parte frontal da cabeça. Você ainda não tem idade para ficar senil. (risos)
+
+**P— Um bebê de um ano recebeu o Pergaminho da Fé (Kyoshu). Podemos dobrá-lo em um tamanho menor e pendurá-lo no pescoço da criança?**
+
+R— Isso não deve ser feito. A idade apropriada para receber o Pergaminho é a partir dos cinco anos. Nesses casos, basta que os pais recebam o Ohikari. Crianças pequenas podem urinar no Pergaminho, o que seria um desrespeito.
+
+**P— Mas ele já recebeu...**
+
+R— Se já recebeu, não há o que fazer. Guarde-o até que a criança cresça. A partir dos seis anos, mais ou menos, estará bem.
+
+**P— Se a pintura de uma estátua de Daikoku, consagrada por Meishu-Sama, descascar, podemos repintá-la?**
+
+R— Sim, pode ser repintada.
+
+**P— Nesse caso, é necessário que seja consagrada novamente, ou podemos mantê-la como está?**
+
+R— Desde que não se toque nos olhos, pode mantê-la como está.
+
+**P— Recentemente, durante o Johrei, tem sido comum os pacientes perderem a consciência e seus espíritos se manifestarem. Gostaria de receber uma orientação a respeito.**
+
+R— Isso ocorre porque a purificação no Mundo Espiritual se intensificou. Os espíritos não conseguem mais permanecer em paz e se manifestam em busca de salvação rápida. De agora em diante, casos como este aumentarão. Nessas situações, deve-se ministrar Johrei principalmente na parte frontal da cabeça.
+
+Se as manifestações forem muito frequentes, pode-se fazer um gesto de contenção com as mãos enquanto se diz: "Acalme-se, acalme-se". A força da palavra costuma ser eficaz. Mesmo quando a pessoa está semiconsciente e o espírito parece prestes a se manifestar, mas não consegue, dizer "Acalme-se, acalme-se" pode fazê-lo retornar ao seu estado normal.
+
+Quando o espírito que se manifesta é de uma raposa, a pessoa junta as mãos em oração e as balança para cima e para baixo. Se for o espírito de uma ave, o movimento é diferente (neste momento, Meishu-Sama demonstra o gesto, começando com as mãos em oração, depois assumindo uma postura de bater palmas e continuando o movimento, que se torna progressivamente maior, até finalmente estender os braços para os lados e movê-los para cima e para baixo, como uma ave voando). E então, a pessoa salta. Ela pode saltar trinta centímetros ou um metro sem dificuldade. Houve casos extremos em que a pessoa atravessou o teto.
+
+Não é bom fazer o espírito falar quando ele se manifesta. Isso é um desvio do caminho correto. A razão é que tal manifestação é uma cena vexatória, e não devemos permitir que o espírito passe por essa vergonha, pois Deus é amor. Portanto, não se deve permitir que ele fale. Contudo, há variações de caso para caso. Algumas pessoas começam a falar assim que perdem a consciência. Isso pode ser a Vontade de Deus ou uma ação do espírito guardião principal; nesses casos, permitir que fale pode ser apropriado.
+
+Quando o espírito começar a falar, pergunte: "Quem é você?" ou "Qual a sua identidade?". Ele dirá muitas coisas, e algumas podem ser mentiras. No entanto, não se deve duvidar desde o início; acredite no que ele diz. Uma vez identificada a sua origem, pergunte o motivo da manifestação: "Por que você se manifestou?". O espírito pode pedir para ser cultuado ou fazer outras solicitações. Se o pedido for razoável, atenda-o, e ele ficará feliz.
+
+Porém, alguns espíritos tentarão enganá-lo. Ouça o que eles dizem. Se um espírito afirmar: "Sou um ancestral de tantas gerações atrás, um guerreiro que morreu em tal batalha", pergunte: "Em que ano você nasceu?". Ele pode responder "Há duzentos anos". Então, continue: "Quem era o shógun naquela época?". Vá aprofundando as perguntas. Se for um espírito verdadeiro, responderá corretamente. Se for falso, como uma raposa, não conseguirá responder e acabará revelando sua verdadeira identidade. Por isso, é melhor não duvidar desde o começo. (Consultar Registro dos Ensinamentos de Luz, nº 7).
+
+(Após um membro relatar um caso de possessão espiritual, Meishu-Sama prosseguiu com as seguintes palavras:)
+
+Gostaria de fazer uma observação sobre a possessão espiritual. Espíritos de alto nível jamais se manifestam dessa forma; e Deuses, quase nunca. A natureza da possessão é essa. Embora existam manifestações legítimas, aquelas que são longas e insistentes são, invariavelmente, de raposas ou outros espíritos inferiores. Se fosse um Deus verdadeiro, a comunicação seria breve e simples. Eu mesmo passo por uma verdadeira possessão divina uma ou duas vezes por ano, quando preciso consultar sobre algo que me é absolutamente incompreensível, e nunca é um processo longo. Essa é a natureza da possessão. As pessoas comuns não discernem isso e acabam sendo enganadas. Até mesmo pessoas importantes caem nessa armadilha. Recentemente, um antigo assistente de ministro foi severamente iludido. Dei-lhe uma reprimenda enérgica, e ele despertou e se corrigiu.
+
+No entanto, como as manifestações podem ocorrer durante o Johrei, não podemos simplesmente ignorá-las. É preciso ter discernimento para julgar a situação. De qualquer forma, o que é prolixo e insistente não é bom. O mesmo se aplica aos seres humanos. Pessoas que falam sem parar, como uma matraca, geralmente são influenciadas por espíritos de raposa. Portanto, se em uma discussão o outro lado começar a falar incessantemente, recue. Seria como discutir com uma raposa. Não se envolva. Diga "Conversaremos em outra ocasião" e afaste-se.
+
+Quanto mais elevado o Deus, mais concisa é a comunicação. No Mundo Espiritual, os seres de mais alto nível comunicam-se apenas pelo pensamento. Um nível abaixo, usam-se algumas palavras. No nível seguinte, a comunicação se assemelha à fala humana. E os espíritos de animais falam sem parar. Portanto, quanto mais prolixa e longa a manifestação, maior a probabilidade de ser um espírito animal. É um conhecimento valioso a se ter. Com ele, não há como errar.
+
+**P— Recebi o Pergaminho da Fé em janeiro deste ano. Em março, recebi a Imagem de Komyio-Nyorai-Sama. No dia 30 de março, o dirigente da Difusão veio à minha casa para a Cerimônia Mensal, e novamente no dia 26 de abril. Na segunda ocasião, um copo d'água intacto, que estava sobre o oratório, partiu-se subitamente, e a água se derramou. Contudo, a Imagem da Kannon que estava no mesmo oratório não se molhou. Sinto que há um significado no fato de o copo ter se partido e a Imagem não ter se molhado. Qual seria?**
+
+R— Você fala em Cerimônia Mensal, mas a data não é fixa?
+
+**P— Sim, é fixa.**
+
+R— Qual é a data fixada?
+
+**P— Fixamos no dia 30 de março.**
+
+R— Não, eu pergunto qual é a data fixada para todos os meses.
+
+**P— Ah, bem...**
+
+R— Se é uma Cerimônia Mensal, deve haver um dia fixo todo mês, correto?
+
+**P— Sim, há.**
+
+R— Então, qual é o dia?
+
+**P— É dia 28.**
+
+R— Dia 28... mas as datas que você mencionou estão erradas, como o dia 30. Antecipar a data é aceitável, mas atrasá-la é extremamente grave. É algo que todos devem saber. Em todos os assuntos divinos, a antecipação é permitida, mas o atraso é inadmissível. Qual o motivo do atraso?
+
+**P— Foi por causa da agenda do dirigente da Difusão...**
+
+R— Se os assuntos de Deus são adiados por causa da conveniência de um dirigente, então o dirigente se coloca acima de Deus. É uma ofensa gravíssima. A cerimônia seguinte foi em 26 de abril, o que é muito cedo. Embora a antecipação excessiva também não seja ideal, é muito melhor do que o atraso. Qual a razão para essa antecipação? Foi novamente a conveniência do dirigente?
+
+**P— Não, creio que anotei a data errada. Em abril, a cerimônia foi no dia 28.**
+
+R— Foi um erro de anotação? De qualquer forma, se houver a firme determinação de realizar a Cerimônia Mensal na data estabelecida, a proteção divina garantirá que tudo corra bem. Mas se houver negligência no coração, surgirão obstáculos. O mesmo se aplica às peregrinações a Atami. Se você decidir firmemente: "No próximo dia tal, irei a Atami", poderá vir sem nenhum impedimento. Mas se pensar "Irei se for conveniente" ou "Depende das circunstâncias", certamente surgirão problemas. Os espíritos malignos estão sempre à espreita, buscando uma oportunidade para interferir. A negligência no coração abre brechas para eles. Com a determinação de ir "chova ou faça sol", nenhum espírito maligno poderá atrapalhar. Com uma decisão firme, não há erro.
+
+Você também mencionou "a Imagem da Kannon sobre o oratório". Por que a imagem está em um oratório desse tipo?
+
+**P— É que não tenho um altar budista, então a coloquei sobre esse oratório para cultuá-la.**
+
+R— Isso está errado. A Imagem deve ser colocada em um altar budista. Cultuá-la em outro lugar é um equívoco. Há uma forma correta, estabelecida por Deus, e ela deve ser seguida. Se não for para seguir as regras, é melhor não cultuar. Quando o ser humano altera o que foi determinado por Deus, ele se coloca acima de Deus. O copo ter se partido foi uma advertência divina contra essa conduta equivocada.
+
+**P— Um missionário de outra religião, vizinho meu, disse à minha esposa, que é minha segunda mulher: "Seu marido deve lhe obedecer cegamente, senão ficará cego" e "Se não entrarem para a nossa religião, ambos morrerão em breve". Esse missionário consegue adivinhar detalhes sobre a vida familiar das pessoas apenas olhando para elas, o que deixa minha esposa aterrorizada. O que devemos fazer?**
+
+R— Ameaças como "ficará cego" são absolutamente infundadas. Isso se chama fé coercitiva e é um erro gravíssimo. Quando uma religião recorre a ameaças, pode ter certeza de que se trata da ação de espíritos malignos, e não há nada a temer. Ameaçar é uma tática comum dos espíritos malignos. O verdadeiro Deus jamais é derrotado por eles, então não se preocupe com isso. Eu mesmo já perdi a conta de quantas vezes fui ameaçado ao longo da vida.
+
+A fé não é algo a ser imposto pela ameaça. É preciso ter cuidado com isso. E desconfie do que é prolixo e insistente. Deus é extremamente sucinto. "Deus não tem duas palavras", Ele fala apenas uma vez. Somente em ocasiões muito especiais eu consulto a Deus e, nessas horas, a resposta é uma única palavra. É algo de uma simplicidade impressionante. O mesmo se aplica aos seres humanos. Quando o Imperador emite um édito, ele não se repete. É algo como "Nós pensamos que...", de forma muito concisa. O que é insistente não é verdadeiro.
+
+Portanto, a divulgação deste Caminho deve ser feita de forma leve e natural. Fale de maneira simples. Se a outra pessoa não compreender, é porque ainda não chegou a sua hora ou ela não tem afinidade espiritual. Quando o momento certo chegar, ela mesma virá procurar, e então será a hora de explicar detalhadamente.
+
+**P— Minha irmã é missionária de outra religião, e por influência dela, eu também me tornei membro. No entanto, há dois anos, ingressei neste Caminho. Ainda mantenho em casa o altar da antiga religião. Meu marido detesta essa religião e insiste para que eu o devolva, mas ouvi dizer que devolver o altar pode trazer grandes desgraças para a família. Também ouvi que Kannon e a divindade daquela religião são a mesma coisa, por isso digo que não há problema em mantê-lo. O que devo fazer?**
+
+R— Você deve devolvê-lo. Manter as duas crenças é um erro. E quanto às ameaças de que "se sair desta religião, sua família será aniquilada", isso é absolutamente falso. Essa fé coercitiva, baseada na ameaça, está errada. Deus é pura compaixão e jamais agiria dessa forma. Essa não é a obra de um Deus justo. Certamente, trata-se da ação de um espírito maligno.
+
+No entanto, quando alguém abandona uma fé, acontece o seguinte: os espíritos malignos, que estão sempre buscando uma brecha para atormentar os seres humanos, antes não conseguiam agir por causa da proteção divina. Com o abandono da fé, essa brecha se abre, e eles causam infortúnios. Isso acaba parecendo um castigo divino.
+
+Forçar a fé por meio de ameaças é um erro. Quem faz isso acaba atraindo a desgraça para si mesmo. Em qualquer coisa, inclusive na fé, a retidão é a maior força. Uma pessoa correta, mesmo sem fé, não deveria sofrer infortúnios. Contudo, a verdadeira retidão só pode ser mantida através da fé. Sem acreditar no invisível, é impossível ser verdadeiramente justo. O ser humano é propenso a pensar: "Ninguém está vendo, então não há problema em fazer isso". Mas quem tem fé pensa: "Deus está vendo, não posso fazer isso". É por isso que a fé, a fé verdadeira, é indispensável.
+
+**P— Recentemente, apareceu em nossa região uma pessoa que cura doenças através da palavra, e ela se tornou muito famosa. Dizem que esse mestre treinou por vinte anos e que em seu centro de práticas, mudos, surdos e cegos são curados. O local vive lotado. O que é isso?**
+
+R— Isso é uma farsa, pura propaganda. A cura pela palavra não é exclusividade do Japão; existiu também nos Estados Unidos. Lá, os doentes repetiam para si mesmos: "Estou curado, estou curado", e isso gerava um efeito considerável. Foi bastante popular. Eu mesmo já tentei. A cura pela palavra é, na verdade, a cura pelo poder do som (kototama). Por exemplo, se você está com dor de barriga e diz "Dor de barriga, desapareça!", a dor some instantaneamente. Mas pouco depois, ela volta. Por isso, abandonei essa prática.
+
+Houve também um médico que curava com a palavra. Ele falava por uma ou duas horas, abordando temas espirituais e mentais, deixando a medicina em segundo plano e usando apenas medicamentos muito simples. Isso também tinha um certo efeito. E antigamente, havia um mestre que curava a tuberculose fazendo os doentes rirem com histórias engraçadas, como um comediante. Isso também trazia muitas melhoras.
+
+Não sei a qual categoria essa pessoa pertence, mas mesmo que cure, não será uma cura fundamental. A doença é purificação. Métodos como esse são temporários e não duram. E é absolutamente impossível que mudos, surdos e cegos sejam curados dessa forma. É propaganda para atrair pessoas. Afinal, como um surdo poderia ouvir a palestra? (gargalhadas)
+
+**P— Frequentemente se fala em "boa compatibilidade". Isso tem relação com a idade do homem e da mulher?**
+
+R— A compatibilidade é algo muito mais profundo do que se pode determinar pelos ciclos do zodíaco chinês. Além disso, o fato de um casal se dar bem não significa necessariamente que seja uma boa união. O excesso de harmonia pode ser tão prejudicial quanto a falta dela. O meio-termo é o ideal. Um casal que vive "grudado" o tempo todo acaba sendo improdutivo. (gargalhadas)
+
+Ademais, é Deus quem decide os casamentos, então essa questão não tem relevância. Se o espírito de uma pessoa é bom, ela não atrairá alguém de espírito ruim. No final, tudo depende do seu próprio merecimento. Não existe casamento entre pessoas de níveis espirituais tão distintos. A condição social também não importa muito. Seja um casamento por amor ou arranjado, se aconteceu naturalmente, está bom. Se após analisar o pretendente algumas vezes você concluir que está tudo bem, case-se logo. Decida após dois ou três encontros. Ficar escolhendo demais e esperando muito tempo não costuma dar certo.
+
+**P— Há problema em manter fotos de entes queridos falecidos em paredes ou no altar como recordação?**
+
+R— É melhor guardar as fotos dos falecidos por cerca de um ano. Olhar para a foto faz com que nos lembremos constantemente da pessoa, e ser lembrado é, invariavelmente, um incômodo para o espírito. Mesmo que ele esteja a caminho do Paraíso, cada vez que é lembrado, é puxado de volta para o mundo físico, o que atrasa sua ascensão. É um grande transtorno. Por outro lado, se você o esquecer completamente, ele pode pensar que você é uma pessoa ingrata. O ideal é lembrar-se na medida certa. (risos) Especialmente durante as cerimônias memoriais, concentre-se com toda a sinceridade. Mas lembrar-se o tempo todo não é bom. Ao orar diante de uma foto, o espírito do falecido é atraído para ela, o que também é incômodo para ele. Portanto, é melhor guardar a foto até que se passe o primeiro aniversário da morte. Depois disso, não há problema.
+
+É comum acontecer o seguinte: quando um filho morre, os pais pensam muito nele. Esse apego pode fazer com que a criança reencarne rapidamente. Muitas vezes, um novo filho nasce no ano seguinte ou no segundo ano, exatamente na data do falecimento do primeiro. Isso é uma clara evidência do fenômeno. É prejudicial, pois a criança reencarna sem ter se purificado o suficiente no Mundo Espiritual. Por isso, é melhor não se lembrar com tanta frequência.
+
+Contudo, existem exceções. Certa vez, um capitão da marinha teve um primeiro filho muito fraco e com dificuldades de aprendizado, o que causava grande preocupação. Ele ia mal na escola e faleceu por volta dos dez anos. No ano seguinte, exatamente no aniversário de sua morte, nasceu outro filho. Este cresceu muito inteligente, forte e obediente. No entanto, sua personalidade e aparência eram idênticas às do filho falecido. O que aconteceu foi que, ao morrer, o primeiro filho pensou com grande remorso: "Causei muita preocupação aos meus pais. Da próxima vez, quero nascer forte e bom para retribuir seu amor". Esse pensamento ficou tão arraigado que ele reencarnou em apenas um ano. Nesse caso, como a criança tinha consciência, foi positivo, mas é uma situação rara.
+
+**P— Mesmo nos casos de reencarnação rápida devido ao apego, o espírito secundário que acompanha a pessoa é diferente do da vida anterior?**
+
+R— Em princípio, é diferente. Mas se a reencarnação for muito rápida, pode acontecer de ser o mesmo. Isso não ocorre com bebês, mas com pessoas que morreram mais velhas, se reencarnarem logo, o mesmo espírito secundário pode acompanhá-las. Na verdade, isso não é bom. Se um espírito secundário cometeu um assassinato e logo se acopla a uma nova pessoa, esta terá um assassino como acompanhante, o que é extremamente perigoso.
+
+**P— Dizem que sonhar com incêndio durante a gravidez resulta em um filho com marcas de nascença, e que ter fé resulta em um bom filho. Isso é verdade?**
+
+R— Sonhar com incêndio durante a gravidez não causa problema algum. Marcas de nascença não têm uma causa tão simples. Isso é superstição. Já a afirmação de que a fé gera bons filhos é uma verdade absoluta. Com a fé, o coração se volta para Deus, e os maus pensamentos desaparecem. Os filhos são influenciados pelos pensamentos dos pais. Não em tudo, mas em certos aspectos, a influência é inegável. Portanto, uma criança concebida quando os pais estão em um bom estado de espírito tende a ser boa. A quantidade de pecados e máculas dos pais e seu estado mental têm uma enorme influência sobre os filhos. É cômico ver pais que cometem erros repreendendo seus filhos. Os pais são o tronco, e os filhos, os galhos. Se o tronco é frágil, não há como os galhos serem fortes. Primeiro, os pais devem acumular muitas virtudes. Assim, os filhos não se desviarão. É comum ver pais que mantêm amantes repreenderem os filhos por serem libertinos. Isso não adianta nada.
+
+O ser humano foi criado de forma que não consegue cometer erros impunemente. Todo erro gera uma consequência correspondente, que traz sofrimento para a própria pessoa. E o sofrimento vem com juros. Quanto mais se acumula, maiores os juros, e quando a cobrança chega de uma só vez, o golpe é terrível. Por isso, é preciso resolver as pendências o quanto antes.
+
+**P— Recebi o Pergaminho da Fé em dezembro de 1937. Uma semana depois, tive um sonho. Em um lugar do meu jardim onde não existia nada, havia um pinheiro. Enquanto eu o observava, maravilhado, o pinheiro se transformou em um dragão, que ascendeu aos céus. Qual o significado disso?**
+
+R— Um dragão divino que estava ligado a você foi salvo porque você ingressou na fé. Esse dragão já havia passado por um longo período de aprimoramento e estava prestes a concluir sua purificação. O fato de você ter recebido o Pergaminho removeu a última mácula que restava, permitindo sua ascensão. Ele se mostrou em sonho para lhe comunicar isso. É algo que acontece com frequência.
+
+**P— Uma mulher sonhou com seu filho falecido. O rosto era o mesmo de quando ele era vivo, mas do pescoço para baixo, o corpo era o de uma enguia de uns 20 centímetros de diâmetro e 3 metros de comprimento. Ele estava no mar, tentando desesperadamente ser abraçado pela mãe. A família era dona de uma peixaria na época em que o menino nasceu. Qual o significado disso?**
+
+R— Ah, isso foi a maldição de um congro ou de uma enguia... existem enguias marinhas. Um desses animais causou a interferência. Com três metros de comprimento, era bem grande. Mas seres como cobras são elásticos e podem se encolher. A cabeça de criança e o corpo de enguia indicam que a transformação de humano para animal não é instantânea; ela começa pela parte inferior do corpo. Com o tempo, a cabeça também se tornaria de enguia. Provavelmente, eles mataram e comeram o animal quando tinham a peixaria. Dragões divinos – e enguias e congros são tipos de dragão – são imprevisíveis, é preciso ter cuidado.
+
+**P— Uma mulher estava doente na cama quando viu uma lesma enorme ao lado de seu travesseiro. Após sua morte, uma lesma idêntica apareceu em seu túmulo...**
+
+R— Que história desagradável. (risos)
+
+**P— Mais tarde, a família preparou arroz festivo (sekihan) e o ofereceu a Deus. Do nada, surgiram inúmeras lesmas que cobriram completamente o arroz. Pouco depois, desapareceram todas. Há algum significado nisso?**
+
+R— Sim, há. Existe uma conexão entre a lesma e essa mulher. Provavelmente, um filho ou outro parente próximo dela se transformou em lesma. O espírito de um familiar se apossou de uma lesma. É comum que espíritos se apossem de lesmas, moscas, abelhas, borboletas e libélulas. O espírito dessa criança, então, trouxe seus subordinados para se banquetear com o arroz. Cobra, sapo e lesma formam um trio de seres que se paralisam mutuamente, e não são nada agradáveis. Essa pessoa provavelmente reencarnou como lesma uma vez e, depois, como criança, mas a conexão espiritual ainda não se desfez. É um fenômeno misterioso, mas acontece.
+
+**P— Uma pessoa com o Ohikari e outra com um amuleto de Amida tiraram uma foto ao lado de uma árvore. A que tinha o amuleto subiu na árvore, e a que tinha o Ohikari ficou embaixo. Na revelação, apenas a pessoa com o Ohikari apareceu; a outra não era visível (e o foco estava perfeito). Isso tem algum significado?**
+
+R— Sim, e muito. Como a outra pessoa estava no erro, foi apagada da foto. É um caso interessante. Traga a foto para publicarmos na revista. De fato, milagres acontecem em fotografias.
+
+**P— Por quantos anos devemos realizar as cerimônias memoriais de falecimento?**
+
+R— Por quantos anos quiser. Cerimônias de quinhentos ou mil anos, como se costuma fazer, são muito boas. Após tanto tempo, a maioria dos espíritos já reencarnou, então a cerimônia pode parecer desnecessária. No entanto, se o espírito já reencarnou e está vivo, a virtude da cerimônia se reverte para ele. A pessoa viva recebe um benefício. Mesmo após várias reencarnações, a conexão espiritual persiste, então realizar a cerimônia é sempre um ato de grande virtude. Às vezes, quando algo de bom nos acontece inesperadamente, pode haver uma relação com isso.
+
+**P— A lápide provisória de um túmulo quebrou, e ainda não construímos a definitiva. Posso eu mesmo fazer uma lápide e instalá-la?**
+
+R— Sim, sem problema. E é melhor fazê-lo logo. Sem uma lápide, não é possível prestar homenagens, pois o espírito não tem onde se manifestar. Faça uma, por mais simples que seja, o quanto antes.
+
+**P— Diz-se que as causas espirituais da tuberculose são gatos e cobras. Isso é verdade?**
+
+R— Não é que não haja relação, mas não é tão comum. A causa espiritual mais frequente são os irmãos. Quando um morre, ele sente solidão e muitas vezes vem buscar o outro, o que dá a impressão de contágio. Isso também pode acontecer entre marido e mulher. Entre pais e filhos, é muito raro. Gatos podem causar tosse, que é confundida com tuberculose, mas é uma tosse diferente da causada pela doença. Cobras podem causar dor intercostal, que as pessoas associam aos pulmões. Casos assim, de difícil diagnóstico, são frequentemente classificados como tuberculose.
+
+**P— Um assistente de ministro que ingressou na fé em maio do ano passado faleceu de tuberculose. Após a morte, seu corpo ficou rígido, dificultando a colocação no caixão. Até então, todos os corpos que recebiam Johrei amoleciam. Foi a primeira vez que isso não aconteceu. Qual a causa?**
+
+R— É um caso raro. Com o Johrei, o corpo sempre amolece. Deve haver uma razão muito forte para isso: ou um pecado muito grande, ou uma grande quantidade de medicamentos solidificados. Uma dessas duas coisas. Em situações assim, deve-se ministrar bastante Johrei na cabeça. Mas isso acontece talvez em uma a cada dez mil pessoas. Normalmente, apenas uma sessão já traz um grande alívio.
+
+**P— Aos 18 anos, tive endometrite e fiquei internada por seis meses, melhorando. Aos 24 e 26, tive novamente problemas no útero. Casei-me e hoje sou mãe de três filhos. Tenho vergonha de dizer, mas sou frígida e não sinto nada. Terei salvação?**
+
+R— Sim, tem cura. Isso se deve à atrofia dos rins; seu útero está como o de uma criança. Se ministrar Johrei nos rins, certamente se curará. Na região entre a coluna e as costelas, em forma de triângulo, há um nódulo de toxinas de medicamentos. Quando a parte posterior dos rins amolecer e o órgão, que estava murcho, se expandir e voltar a funcionar, o útero também aumentará de tamanho. É preciso ministrar Johrei também na cintura e no abdômen. Para uma recuperação rápida, é necessário um Johrei de grande poder espiritual, então procure um ministro com mais experiência.
+
+**P— Há treze anos, tive problemas no pós-parto que se tornaram crônicos ("caminho do sangue"). Desde janeiro do ano passado, venho recebendo Johrei e melhorei bastante. Como essa condição é considerada incurável, gostaria de saber se a cura total é possível.**
+
+R— Sim, a cura é certa. Os sintomas do "caminho do sangue" variam, mas a causa é, basicamente, o sangue que não foi completamente expelido após o parto e se desloca para as partes do corpo que são utilizadas. Se a mulher usa a cintura, ele se solidifica ali; se usa os olhos, o sono é prejudicado. As doenças mentais no pós-parto ocorrem porque esse sangue, devido a preocupações, sobe para a cabeça. Esse sangue é difícil de ser eliminado por meios comuns, por isso a condição é tida como incurável.
+
+É importante saber o seguinte: após o parto, a mulher deve ficar de cama por uma semana. Depois, levantar-se aos poucos e evitar esforços por 21 dias. A partir de 35 dias, pode retomar gradualmente as atividades normais. O ideal é voltar à rotina somente após 75 dias. Forçar o corpo no pós-parto é a origem de muitas doenças, então é preciso ter muito cuidado.
+
+(Nota do editor: Em ocasião anterior, Meishu-Sama nos orientou: "Mulheres com menos de 75 dias de pós-parto podem receber Johrei, mas não devem ministrar muito em outras pessoas, pois o sangue tóxico pode se acumular em seus braços e causar dores nevrálgicas no futuro." Adicionamos esta nota para referência.)
+
+**P— Recentemente, minha esposa engravidou e teve um aborto espontâneo, e depois disso, sua menstruação cessou. Pensamos que estava grávida novamente, mas a menstruação voltou. Qual a razão disso?**
+
+R— Não era uma gravidez real, mas sim uma gravidez psicológica. É um fenômeno comum. A mulher deseja tanto engravidar que sua menstruação para, e a barriga começa a crescer, geralmente por cinco ou seis meses. Isso mostra o imenso poder da mente humana. Mas como se trata apenas de sangue menstrual acumulado, assim que ele é expelido, a barriga murcha como um balão. Muitos casos de "aborto" são, na verdade, gravidezes psicológicas. Em um aborto real, sempre há um coágulo de sangue. Pessoas nessa situação, ao entrarem na fé e acumularem um pouco de virtude, conseguirão ter filhos saudáveis. Ela tem apenas 26 anos... não, essa é a sua idade. Então sua esposa deve ser ainda mais jovem. Com certeza ela conseguirá engravidar.
+
+**P— Tenho ouvido falar de meninas com cerca de três meses de idade que apresentam um sangramento semelhante à menstruação. Por que isso acontece?**
+
+R— Isso não é menstruação e dura pouco tempo. Ao nascer, o bebê ingere um pouco do sangue antigo da mãe, especialmente se ela tem um fluxo menstrual abundante. Por isso, é comum que o bebê sangre pela boca dois ou três meses após o nascimento. Os médicos diagnosticam como úlcera gástrica, mas é impossível que uma criança tão pequena tenha úlcera. É apenas a expulsão do sangue antigo, não é nada grave. No caso dessas meninas, o sangue antigo está sendo expelido por baixo. Logo voltará ao normal, não há motivo para preocupação.
+
+**P— O que a medicina chama de septicemia? Qual a sua causa e como tratá-la com Johrei?**
+
+R— A septicemia é a presença de sangue extremamente impuro no corpo. Esse sangue rompe os vasos sanguíneos. No início, costumam aparecer manchas na pele, que são o sangue vazando sob a derme. Se a pessoa se corta, o sangue não para de escorrer. Se extrai um dente, a hemorragia pode ser fatal. O sangue está terrivelmente impuro, e a causa são as toxinas de medicamentos muito fortes. Com o Johrei, a cura é rápida, pois a impureza do sangue diminui.
+
+**P— Ouvi dizer que a micose (pé de atleta) é causada pela possessão de espíritos de insetos. O mesmo se aplica a outras micoses, como a tinha? E por que a micose é mais comum nos pés?**
+
+R— A micose não é causada por possessão de espíritos de insetos. Os germes se proliferam. E eles se proliferam porque há toxinas, neste caso, de medicamentos. As toxinas mais pesadas tendem a se acumular na parte inferior do corpo. As mais pesadas de todas se concentram perto da sola dos pés. A micose se manifesta um pouco acima da sola, onde as toxinas de medicamentos se acumulam e os germes se desenvolvem. Portanto, quem não toma remédios não tem micose. É uma doença criada pelo próprio ser humano, uma doença artificial. O mesmo se aplica à tinha e outras micoses; a causa também são as toxinas de medicamentos.
+
+**P— A meia-lua na base da unha tem relação com a saúde da pessoa?**
+
+R— Sim, uma grande relação. Especialmente a do polegar. Quanto mais saudável a pessoa, mais branca e nítida é a meia-lua. Quando tive sarna, a minha desapareceu completamente. Agora está voltando, mas ainda não está como antes.
+
+**P— O umbigo tem alguma função após o crescimento?**
+
+R— Sim. O ser humano precisa de um centro, e esse centro é o umbigo. Ele desempenha uma função importantíssima, uma função invisível. O umbigo é a fonte da coragem e da determinação, correspondendo à alma rude (aramitama) do Xintoísmo. O ponto entre as sobrancelhas é chamado de "Imperador Celestial" (Tentei). O Imperador Celestial acima e o umbigo abaixo formam o céu e a terra. O Imperador Celestial corresponde à alma harmônica (niguitama); dele vem a sabedoria, e do umbigo, a coragem. Pensa-se com o Imperador Celestial e age-se com o umbigo. Ele é o centro.
+
+O Japão tem a forma de um dragão, e o Monte Fuji é o umbigo do país. Portanto, o Fuji não é apenas uma montanha alta e bonita; ele tem um significado de extrema importância. (Consultar Registro dos Ensinamentos de Luz, nº 4).
+
+**P— O senhor ensinou que as quatro estações são a respiração da Terra. A ciência, porém, explica que elas ocorrem porque a Terra gira em torno do Sol enquanto roda em seu próprio eixo. Como devemos entender isso?**
+
+R— A explicação da ciência está equivocada. Não é a Terra que orbita o Sol, mas o Sol que orbita a Terra. A razão é que o centro do universo é a Terra. Entre todos os corpos celestes, a Terra é o mais elevado. Na verdade, o Sol e a Lua são inferiores à Terra. E o que é de posição superior não deve se mover. Por isso eu digo que o mestre não deve se mover. Durante a guerra, o general Tojo vivia circulando pela cidade, inspecionando pessoalmente as frentes de batalha, abrindo tampas de lixeiras. Eu sempre dizia que isso era errado. Quanto mais elevada a posição de uma pessoa, mais ela deve permanecer imóvel. A Terra é a mestra; portanto, o correto é que todos os outros astros girem ao seu redor.
+
+**P— Na noite de 11 de maio, entre 22h30 e 23h, um anel de sete cores, de uma beleza extraordinária, formou-se ao redor da Lua. Nunca vi algo tão belo. Isso tem algum significado espiritual?**
+
+R— Eu já vi um anel semelhante, como um arco-íris, ao redor do Sol. Foi por volta do meio-dia e durou cerca de uma hora. Eu estava atravessando o Lago Kasumigaura, na província de Ibaraki, a caminho de Kashima e Katori. Era exatamente como o anel ao redor da Lua. O Sol ficou com um tom cinza e escurecido. A explicação é a seguinte:
+
+A luz do Sol é extremamente forte. Quando atinge a Lua, diferentes cores podem surgir. Quando a Lua está irradiando uma grande quantidade de umidade, ou seja, quando a luz do Sol e o hidrogênio estão ambos muito potentes, ocorre o fenômeno do arco-íris. A ocorrência de tal fenômeno indica que algo está para acontecer na Terra. Não é uma coincidência. Quando algo está para ocorrer no mundo material, antes ocorrem diversas mudanças no Mundo Espiritual, que se refletem nos corpos celestes, gerando fenômenos misteriosos. O que acontece no Mundo Espiritual não é visível, mas devemos observar com muita atenção as mudanças astronômicas, pois elas são um reflexo que se manifestará no mundo físico.
+
+---
+
+# Coleção de Ensaios do Mestre Jikan Okada — Registro da Perseguição Religiosa
+
+**Categoria:** sasshi | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** -
+**Título Original:** - | **Status:** -
+
+## Coleção de Ensaios do Mestre Jikan Okada — Registro da Perseguição Religiosa
+*Publicado em 30 de outubro de 1950*
+
+### Prefácio
+
+Este registro é o relato das experiências que vivenciei durante o nefasto incidente ocorrido em 8 de maio de 1950 e que teve seu desfecho parcial em 12 de julho do mesmo ano. Não nutro, em absoluto, a intenção de utilizar estas palavras para influenciar favoravelmente o processo judicial que ora enfrento. Tomei a liberdade de escrever apenas por temer que, com o passar do tempo, minhas memórias se esvaiam.
+
+Para mim, este episódio revelou-se uma experiência de valor inestimável. Senti profundamente que todos que respiram o ar da sociedade moderna devem estar cientes de que uma pequena desatenção, um equívoco ou a ignorância da lei podem acarretar calamidades inesperadas. Foi com a solícita preocupação de alertar o maior número possível de pessoas que redigi estas linhas.
+
+Ademais, gostaria de fazer um apelo às autoridades: para que o Japão se torne uma nação verdadeiramente democrática, é imperativo que se reconheçam as inúmeras questões que clamam por reforma no âmbito da administração judicial. Anseio que as autoridades, através deste relato, possam sentir essa necessidade. Este é o meu mais sincero desejo.
+
+A experiência que vivenciei ao longo de vinte e dois dias, submetido a interrogatórios por policiais e promotores, revelou um método de natureza tão antidemocrática que transcende a imaginação, sendo, ao que parece, quase desconhecido do público em geral. Se tamanha arbitrariedade for tolerada, é impossível mensurar quantos cidadãos inocentes serão vitimados e submetidos a sofrimentos atrozes no futuro. Cientes dessa realidade, sentimos o dever inalienável de agir em seu socorro.
+
+Por mais que se promulgue uma Constituição impecável, se a sua aplicação não for condizente, a liberdade e a democracia, tão arduamente conquistadas, serão espezinhadas na lama. É por sentir que um grande despertar se faz urgentemente necessário, e o mais rápido possível, que decido expor estes fatos sem rodeios, sob o risco de causar apreensão.
+
+Embora não sejamos especialistas, cremos que o pilar fundamental da lei deve ser o de incentivar o bem, punir o mal, construir uma sociedade melhor e concretizar a máxima felicidade para o maior número de pessoas. Esta, a nosso ver, deve ser a sua convicção basilar.
+
+Contudo, a conclusão a que cheguei, após vivenciar na pele cada detalhe deste incidente, é que a realidade se contrapõe frontalmente a esse propósito. Como é de vosso conhecimento, sou um religioso. A missão primordial da religião, não é preciso dizer, também visa à realização de uma sociedade humana mais elevada, incentivando o bem, punindo o mal e construindo um mundo ideal.
+
+Portanto, por mais que nos dediquemos à expansão da fé e almejemos uma sociedade livre e democrática, se aqueles que aplicam a lei permanecerem alheios a tais princípios, cabe-nos incitá-los ao despertar, rogando para que, sob uma percepção correta, alcancem os objetivos almejados. Se este registro puder servir, ainda que minimamente, como um subsídio para tal fim, sentir-me-ei imensamente afortunado.
+
+Dito isso, ao refletir sobre o ocorrido, não posso deixar de sentir o peso da autocrítica. Este incidente revelou quão negligente e desidiosa foi a nossa administração até hoje e quão falha foi a nossa supervisão. Se não fosse por este episódio, é possível que, inconscientemente, nossa complacência tivesse semeado as sementes de inúmeras outras calamidades. Assim, considero que uma grande desgraça foi transformada em um mal menor.
+
+Creio firmemente que foi Deus quem, utilizando as mãos das autoridades, nos concedeu a graça de uma grande purificação. Este imenso sofrimento, senão o açoite do amor de Deus, o que mais poderia ser? Profundamente introspecto, sinto apenas gratidão e emoção. E aos agentes da lei, que desempenharam o papel desse açoite, dedico também a minha mais profunda gratidão por seu labor.
+
+Embora tenha intitulado esta obra de “Registro da Perseguição Religiosa”, o termo pode não ser o mais preciso. Líderes como Cristo, Nitiren, Honen, Shinran e, mais recentemente, a fundadora da Tenrikyo, utilizaram a palavra “perseguição religiosa” (法難, hounan) em uma época em que não existia um sistema legal como o atual. O “hou” (法) de “hounan” provavelmente se origina do budismo e não corresponde à “lei” (法律, houritsu) de hoje. Originalmente, o budismo era chamado de “Bu-ppou” (仏法, Lei de Buda), termo que depois se transformou em “Bukkyo” (仏教, Ensinamento de Buda). Nesse sentido, o que Cristo sofreu deveria ser chamado de “paixão” ou “sofrimento”, e não de “perseguição religiosa”.
+
+O meu caso, por sua vez, não teve qualquer relação com a religião; o ponto central foi uma questão de sonegação fiscal. Portanto, seria mais apropriado chamá-lo de “infortúnio legal” em vez de “perseguição religiosa”. A propósito, consta que a Sra. Miki Nakayama, fundadora da Tenrikyo, foi presa mais de uma dezena de vezes. Apesar disso, sua religião alcançou a prosperidade que vemos hoje. Isso nos ensina que a perseguição religiosa é um elemento inerente à fé e que, por mais que as autoridades exerçam forte pressão, aquilo que possui verdadeiro valor jamais será aniquilado e, um dia, será reconhecido pela sociedade.
+
+Há ainda outro propósito de suma importância nesta obra. Como sabem, assim que o incidente eclodiu, a maioria dos jornais noticiou o fato com grande alarde, tratando-o como um furo de reportagem. Ao ler os artigos, porém, deparei-me com uma profusão de inverdades, o que me causou profunda preocupação com o equívoco que poderiam gerar na sociedade. Senti, pois, a necessidade de oferecer um esclarecimento.
+
+Como religioso, empenhado em corporificar a Vontade Divina e devotado à sagrada obra de salvação da humanidade, considero que expor a verdade e dissipar a nuvem de mal-entendidos é a medida mais urgente a ser tomada. É com essa intenção que escrevo. Nesse sentido, rogo para que compreendam a sinceridade de minhas palavras, apreendam a realidade desta chamada “perseguição religiosa” e façam um julgamento justo.
+
+Agosto de 1950
+O Autor
+
+### O Início
+*Mokiti Okada*
+
+### A Batida Policial
+
+Conforme mencionei no prefácio, na madrugada de 8 de maio de 1950, como um raio em céu azul, uma vasta operação de busca e apreensão foi deflagrada em seis edifícios da nossa organização em Atami e um em Odawara, totalizando sete locais. Diz-se que o contingente mobilizado foi de oitenta policiais, o que evidencia a magnitude da operação. Foi como uma grande captura ao raiar do dia. Ademais, todos portavam pistolas, um aparato intimidador que evocava a recente prisão de um grande chefe do crime organizado. Quem poderia imaginar que uma organização religiosa seria alvo de tal tratamento?
+
+Ainda guardamos na memória a grande repressão sofrida por religiões como a Oomoto e a Hito-no-Miti antes do fim da guerra. Naquela época, os casos envolvendo religiões geralmente se baseavam em acusações de lesa-majestade e questões envolvendo mulheres, o que se tornara um padrão. Contudo, o crime de lesa-majestade desapareceu sem deixar vestígios, e é do conhecimento geral que problemas de natureza erótica não existem em nossa Igreja. Sendo assim, sob qual suspeita estaríamos? Não tínhamos a menor ideia. Era, no mínimo, intrigante.
+
+Não nos restava outra alternativa senão tentar deduzir a situação pela maneira como a busca era conduzida. Assim, pedi a familiares e às pessoas que presenciaram a operação que me relatassem os detalhes.
+
+Por volta das cinco e tantas da manhã do dia 8 de maio, despertei subitamente. Ao ouvir um barulho vindo da cozinha, uma das empregadas entrou apressadamente no quarto e disse: “Muitos policiais acabaram de chegar para uma investigação”. Fiquei surpreso e extremamente perplexo. Minha esposa, que dormia no cômodo ao lado, abriu discretamente a porta de correr, aproximou-se e sussurrou: “Você não acha que são ladrões?”. Respondi: “Se fosse no meio da noite escura, talvez, mas agora que o dia amanheceu, é impossível. Com certeza são policiais”. Mal terminei de falar, senti a presença de alguém no cômodo contíguo. Minha esposa, que retornou apressadamente, parecia ainda não acreditar e perguntou ao indivíduo: “O senhor não é um ladrão?”. Ouvi uma voz responder: “Não, sou fulano de tal”, e aparentemente mostrou-lhe um mandado. Minha esposa então disse: “Nesse caso, por favor, procedam à investigação”.
+
+Percebendo a gravidade da situação, saltei da cama e abri a porta de correr. De fato, um homem com aparência de policial inspecionava o local com o olhar. Ele se dirigiu a mim, dizendo: “Não precisa se levantar, pode continuar deitado”. Compreendi que seria mais conveniente para a investigação se eu permanecesse na cama, então voltei a me deitar. Contudo, meu coração batia acelerado, e o sono era impossível. Embora não houvesse nada a temer em uma busca e apreensão, a inquietação é um sentimento comum a todos os seres humanos em tais circunstâncias.
+
+Quando o café da manhã ficou pronto, levantei-me e, com esforço, consegui comer uma tigela de arroz, embora a comida me parecesse insossa. Pude constatar como as preocupações afetam, antes de tudo, o apetite. Soube depois que doze ou treze policiais à paisana haviam invadido a casa. Eles vasculharam cada canto, apreendendo documentos, correspondências, cadernetas bancárias, dinheiro em espécie, centenas de cartões de visita e tudo o mais que pudesse servir como material de investigação, e então se retiraram.
+
+Segundo o relato de uma empregada, seis ou sete policiais passaram cerca de três horas revistando o seu quarto de seis tatames. É verdade que, por ser o quarto de várias empregadas, havia muitos pertences, mas a revista foi tão minuciosa que, segundo ela, examinaram tudo, peça por peça, desde as faixas de baixo do quimono até as roupas íntimas. Dizem que os oficiais repetiam constantemente: “Estranho, muito estranho”. Todos comentamos que isso provavelmente se devia ao fato de não terem encontrado os bens ocultos que tanto esperavam encontrar. A equipe inteira se retirou por volta das três da tarde, o que significa que, descontando o tempo para as refeições, a operação durou mais de oito horas.
+
+Isso ocorreu em minha residência. No anexo em Shimizu-tcho, Atami, chegaram a remover as vigas do armário embutido para inspecionar o espaço sob o assoalho, o que revela a magnitude de suas expectativas. Em minha antiga casa, em Higashiyama, Atami, havia um cofre que, por não ser usado há muito tempo, ninguém se lembrava da combinação. Os policiais o selaram e retornaram alguns dias depois, em um grupo de três, para finalmente abri-lo. Segundo o caseiro, ficaram muito desapontados por não encontrarem nada e foram embora.
+
+Posteriormente, em 30 de maio, cinquenta policiais invadiram o anexo em Gora, Hakone, e realizaram uma busca extremamente detalhada por várias horas. Nessa época, eu já estava detido, e só soube do ocorrido mais tarde.
+
+Apesar de uma busca e apreensão de tamanha envergadura, o resultado foi como na fábula da montanha que pariu um rato. Contudo, quanto mais penso, mais me pergunto por que uma investigação tão grandiosa foi realizada. É realmente incompreensível. A opinião unânime era de que eles esperavam encontrar uma quantidade considerável de bens ocultos. No entanto, o mandado mencionava suspeita de suborno relacionada a um senhor chamado Kuhei Kanahisa. Oitenta policiais armados para uma suspeita dessa natureza? A perplexidade só aumentava. E, para completar, meu secretário, Fukuo Inoue, e o encarregado das obras em Atami, Kuhei Kanahisa, também foram presos e detidos.
+
+Diante disso, as intenções das autoridades eram um completo mistério. Inevitavelmente, sentia-se uma atmosfera de apreensão. Obviamente, contratamos advogados para Inoue e Kanahisa. Preocupados com meu bem-estar, alguns fiéis também me indicaram ou trouxeram advogados conhecidos para me confortar. Chegamos a discutir medidas a serem tomadas, temendo que a situação pudesse se agravar. Pensávamos que Inoue e Kanahisa seriam liberados em dois ou três dias, mas uma semana, e depois duas, se passaram sem que eles retornassem. Tendo-os como subordinados por tanto tempo, eu sabia perfeitamente que não eram pessoas capazes de cometer crimes graves. Inoue, em particular, servia-me com lealdade há vinte anos e era tratado como um membro da família.
+
+Soube que, bem antes da prisão dos dois, um fiel chamado Jintaro Yamada, funcionário de um banco, também havia sido detido sob a acusação de empréstimos irregulares. Antigamente, ele me visitava com frequência, mas naquele ano nos encontramos apenas uma vez, e eu não tinha notícias suas. Portanto, eu desconhecia suas circunstâncias, mas, por ser um fiel, imaginei que não faria nada de muito errado. Contudo, essa questão também era um enigma.
+
+Havia também quem levantasse a hipótese de que um bando de extorsionistas estaria por trás da ação das autoridades. Sinto a necessidade de detalhar aqui a atuação desse grupo.
+
+### O Bando de Extorsionistas
+
+Esse bando de extorsionistas vinha mirando nossa Igreja há um ou dois anos, com o objetivo de obter uma vultosa quantia em dinheiro. Para tanto, empregavam toda sorte de estratagemas, assediando insistentemente a organização. Segundo rumores, um grupo de cerca de dez pessoas, incluindo alguns parlamentares, religiosos, aproveitadores ligados à antiga direita e opositores da nossa Igreja, urdia uma conspiração. Eles agiam junto às autoridades e até mesmo ao Comando Supremo das Forças Aliadas, pintando nossa Igreja como um covil de demônios. O plano era levá-la à beira da dissolução para, então, alegar que uma grande soma seria necessária para as despesas da campanha que a salvaria, extorquindo dezenas de milhões de ienes.
+
+Como propaganda para alcançar seus objetivos, eles disseminavam calúnias, afirmando que nossa Igreja difamava a medicina ou que a agricultura sem fertilizantes era um absurdo. Envolviam também questões de sonegação fiscal, suborno e outras diversas invenções e boatos. A alegação na qual mais se empenhavam era a da ocultação de bens. Afirmavam que escondíamos centenas de milhões em barras de ouro e diamantes, um material perfeito para instigar as autoridades. Além disso, utilizavam jornais e revistas de forma maliciosa, espalhando boatos para criar uma opinião pública desfavorável, fazendo com que a existência da nossa Igreja parecesse prejudicial à sociedade. Empregavam todos os meios desesperados para atingir seus fins, mostrando uma determinação implacável.
+
+Uma manifestação disso foi a aparatosa operação do CID no verão do ano anterior. Lembro-me bem: por volta das nove da noite de 25 de agosto, cerca de dez agentes chegaram de surpresa ao anexo de Gora, Hakone, para uma busca e apreensão. A suspeita era de que escondíamos uma grande quantidade de barras de ouro, platina e diamantes, o suficiente para encher um tambor. Pareciam estar bastante convictos. Durante dois dias, realizaram uma busca rigorosa, chegando a utilizar um radar e a escavar a terra sob o assoalho da casa. Contudo, também naquela ocasião, a montanha pariu um rato, e o caso foi encerrado sem incidentes. Ao questioná-los, disseram que a ação se baseou em denúncias e cartas anônimas. A habilidade com que esse bando de extorsionistas enganava e manipulava as autoridades era de impressionar.
+
+Assim, pessoas de bem, que nada fizeram de errado, são atormentadas para satisfazer interesses escusos, sem que os perpetradores sofram qualquer sanção legal. Eles continuam a agir livremente na sociedade, enquanto as vítimas se veem forçadas a sofrer em silêncio. O resultado é que os bons são prejudicados, e os maus se dão bem. Trata-se de uma falha no sistema legal ou em sua aplicação? De todo modo, é um problema que não pode ser ignorado. Ouvi muitas pessoas que se lembravam da operação do CID comentarem que as suspeitas de ocultação de bens eram notavelmente semelhantes.
+
+Como mencionei, a maioria dos advogados apresentados ou trazidos por fiéis opinava que não havia a menor possibilidade de o Mestre ser preso. Diante disso, eu também acreditava que, no máximo, poderia ser chamado para depor, mas que uma detenção estava absolutamente fora de questão.
+
+No entanto, em 29 de maio, vinte e um dias após a busca e apreensão do dia 8, fui subitamente acordado de madrugada. Um homem apresentou-me um cartão de visita que o identificava como Sr. K., chefe da divisão de investigação criminal da Delegacia de Ihara, na cidade de Shimizu, província de Shizuoka. Acompanhado por outro detetive, ele me disse: “O senhor deve nos acompanhar imediatamente”. Fiquei estarrecido. Aquilo era totalmente inesperado.
+
+Naquele momento, eu disse: “Meus subordinados estão sendo interrogados há tanto tempo, provavelmente porque há pontos que não foram esclarecidos. Eu já pensava que, se eu mesmo explicasse tudo detalhadamente, eles entenderiam. Portanto, esta é uma ótima oportunidade”. E consenti prontamente.
+
+Devido a problemas com o carro, chegamos com bastante atraso. Passava da meia-noite e meia quando cruzamos os portões da delegacia e fui levado para uma cela de detenção. Eu já havia tido a experiência da detenção em 1936, por duas vezes, e em 1940, uma vez. Na primeira, foram dois dias; na segunda, onze; na terceira, três. As duas primeiras foram por questões religiosas, e a terceira, por violação da Lei Médica. Em todos os casos, fui considerado inocente. Naquela época, os interrogatórios foram conduzidos pela Polícia Especial (Tokkō). Embora se imagine que os interrogatórios da Tokkō fossem extremamente feudais, em comparação com os desta vez, os atuais foram incomparavelmente mais rigorosos e implacáveis. Poderia resumi-los em uma palavra: aterrorizantes. Pretendo descrever tudo exatamente como aconteceu.
+
+### O Interrogatório
+#### O Primeiro Interrogatório
+
+No primeiro dia de detenção na delegacia, o interrogatório foi breve e terminou rapidamente. Foi no segundo dia. Assim que terminei o café da manhã, fui levado para uma sala de interrogatório no segundo andar. Além do chefe da divisão de investigação criminal K. e do chefe da divisão de investigação criminal M., um inspetor chamado S. havia sido enviado como reforço da sede da Polícia Nacional em Shizuoka naquela mesma manhã.
+
+Gostaria de registrar aqui minhas impressões sobre esses três homens. O Sr. K. era, de certa forma, uma pessoa de trato afável e acessível. Já o Sr. M. era o típico interrogador, severo e implacável. Poderíamos dizer que M. era a figura paterna, e K., a figura materna. O inspetor S. era um homem robusto, do tipo militar, cuja presença imponente exercia uma forte pressão sobre o réu.
+
+O interrogatório começou. Cercado pelos três, fui submetido a um bombardeio de perguntas. A primeira questão era sobre o Sr. Jintaro Yamada, funcionário do Banco de Shizuoka, agência de Numazu. Disseram-me para falar a verdade. Quando respondi o que sabia e o que não sabia, os três, em uníssono, gritaram: “É impossível que você não saiba! Se tentar se fazer de desentendido ou mentir, vai se arrepender! O que Inoue disse e o que Yamada disse coincidem. Se só você diz algo diferente, está claro que o errado é você!”. Fiquei atônito: “Por mais que eu pense, tenho certeza de que a minha versão é a correta”. Mas eles não se convenceram e continuaram a me pressionar.
+
+Fiquei chocado. Seria este o método de interrogatório da polícia democrática? Isso não era democrático, era o completo oposto. Comparado a isso, o tratamento da antiga Tokkō era incomparavelmente mais suportável. Por mais que eu contasse os fatos como eles eram, simplesmente não me davam ouvidos. Insistiam em impor a sua versão a todo custo. “Isso é terrível”, pensei. “O que devo dizer?” Eu não estava sendo interrogado; estava recebendo ordens. Dizer a verdade era, simplesmente, um ato de desobediência. Em meu desespero, cheguei a perguntar se deveria inventar uma história, ao que eles responderam: “Não diga tolices. Basta dizer a verdade”. Mas, quando eu dizia a verdade, eles a ignoravam por completo. Haveria no mundo tamanha contradição e incoerência? “Oh, Deus, o que devo fazer?”, eu suspirava.
+
+Quando terá começado esse tipo de interrogatório? Lembro-me de ter ouvido que o método soviético consiste em tratar o acusado como culpado desde o início e transformá-lo em culpado. Pensei que algo assim não poderia acontecer na polícia do Japão democrático de hoje, mas a realidade que eu enfrentava era exatamente essa. Enquanto eu refletia, os gritos dos três homens ecoavam em meus ouvidos, quase a ponto de rompê-los. Assim, não me lembro bem, mas o interrogatório daquele dia terminou com um depoimento confuso, e o registro deve ter ficado extremamente desleixado.
+
+No dia seguinte, fui interrogado novamente sobre o mesmo assunto pelos três, da mesma forma que no dia anterior. Como era impossível dar um depoimento claro, a investigação não progredia. Eles ficavam cada vez mais impacientes e me pressionavam. Ora falavam em tom ríspido, ora se acalmavam; ora se tornavam demônios, ora se faziam de budas. Era impossível prever suas reações.
+
+Naquele momento, veio-me à mente algo que ouvira após o fim da guerra, quando o Japão se tornou democrático sob a orientação americana: que um réu não deveria ser tratado como culpado até que sua culpa fosse provada. A realidade, no entanto, era muito diferente. Ali, eu era tratado como culpado desde o início. Embora eu, um homem indigno, seja reverenciado por trezentos mil fiéis como líder de uma religião, o tratamento que recebi não diferia em nada do dispensado a um criminoso preso em flagrante. A única diferença em relação ao passado era a linguagem um pouco mais polida. Não usavam termos como “desgraçado” ou “você”; era só isso. Nunca senti tanta saudade dos interrogatórios de antigamente.
+
+O aspecto mais angustiante do método atual era o interrogatório sobre a memória, que me forçava obstinadamente a recordar os fatos. Se fosse algo que eu tivesse feito ou aprovado, talvez conseguisse, de alguma forma, reavivar a memória. Mas tratava-se de ações realizadas por meus subordinados por conta própria, sem meu conhecimento. Embora eu procurasse ouvir os relatórios mais importantes, em dias de muito trabalho, podia deixar passar algo, e mesmo o que ouvia, geralmente esquecia logo em seguida.
+
+Aqui, faz-se necessário descrever minha personalidade e rotina diária. Tenho o hábito de delegar os pequenos detalhes e tomar decisões com base no panorama geral. De outro modo, seria impossível administrar um empreendimento de grande escala. Na época, eu publicava um jornal semanal e uma revista mensal, sendo responsável por quase toda a edição. Oitenta a noventa por cento dos artigos eram escritos por mim ou eram cartas de leitores que eu revisava. Além disso, eu escrevia e publicava vários livros por ano. Em Atami e Hakone, empregava mais de cem trabalhadores na construção de um protótipo do Paraíso Terrestre em grande escala. Escusado será dizer que o projeto e o estilo eram concebidos e orientados unicamente por mim. No tempo livre, caligrafava talismãs e outros escritos a pedido, totalizando milhares de peças por mês.
+
+Com exceção dos seis dias de folga mensais, eu me reunia diariamente com os fiéis por uma a uma hora e meia. Eram centenas, às vezes mais de mil pessoas. Eu respondia a suas perguntas e proferia sermões. Além disso, encontrava-me com dirigentes da Igreja, personalidades notáveis, pessoas influentes, jornalistas e outros visitantes especiais, totalizando várias pessoas por dia. Ocasionalmente, viajava a Tóquio, o que consumia o dia todo. Eu lia vários jornais diários e as revistas de meu interesse, mas, devido à presbiopia, pedia a um subordinado que lesse para mim todas as noites.
+
+Desde jovem, sou um grande apreciador de cinema. Para me proporcionar algum lazer, os fiéis se revezavam para organizar sessões de cinema no salão do anexo várias vezes por mês. Essas sessões também serviam de recreação para as dezenas de dedicantes. Gosto muito de rádio e tento ouvir o máximo possível, mas nunca ouço apenas o rádio; faço-o enquanto realizo alguma outra tarefa, de forma dual. É assim que valorizo o tempo. Este breve resumo já demonstra o quão atarefada é a minha vida. Costumo dizer que realizo o trabalho de dez pessoas, e não creio que seja um exagero.
+
+Diante de uma rotina tão intensa, eu delegava todas as questões financeiras aos meus subordinados. Nunca perguntei sobre as receitas ou despesas diárias. Além disso, como sou reverenciado pelos fiéis como um deus vivo, não só não há necessidade de me preocupar com dinheiro, como isso poderia diminuir minha dignidade. Por isso, evito deliberadamente tocar no assunto. E não sou o único. É comum que os fundadores e líderes de qualquer religião transcendam as questões mundanas, especialmente as financeiras.
+
+Por essa razão, eu apenas ouvia relatórios gerais sobre finanças e outros assuntos de tempos em tempos. Só prestava atenção a valores muito altos ou a questões especiais não financeiras, como referência. Fora do âmbito da fé, eu praticamente não dava ouvidos a assuntos seculares.
+
+Apesar disso, o interrogatório dos oficiais se concentrava unicamente em questões financeiras, sem uma única palavra sobre religião. Portanto, por mais que me pedissem para reavivar a memória, era uma tarefa impossível. Imagino que os oficiais soubessem disso, mas eles insistiam em questionar-me repetidamente apenas sobre finanças, e eu custava a entender suas verdadeiras intenções.
+
+Eles diziam: “Como líder da organização, é impossível que você não saiba das questões financeiras. Em primeiro lugar, se não sabe, isso é o cúmulo da irresponsabilidade”. Eu respondia: “Não sou o presidente de uma empresa comercial para poder responder a isso. E, mesmo que fosse, ouvi dizer que, em questões fiscais e contábeis, a responsabilidade recai sobre os subordinados encarregados, e não sobre o presidente. Quanto mais sobre o líder de uma religião”. No entanto, eles me detiveram, o líder religioso, e me interrogaram obstinadamente apenas sobre finanças, como já mencionei.
+
+Todas as vezes, eu dizia: “Sou diferente do presidente de uma empresa comercial. Se for sobre religião, responderei a qualquer pergunta, mas sobre finanças, é impossível”. Ao que eles retrucavam: “Que absurdo! Você está tentando jogar toda a culpa nos seus subordinados. Que covardia! O líder de uma religião deveria assumir a culpa de seus subordinados, não acha?”. Fiquei de queixo caído. Era um religioso recebendo um sermão de um policial. Senti a raiva crescer diante de tamanha incompreensão, mas, pensando que ofendê-los seria prejudicial, e interpretando aquilo como uma provação divina, contive-me e, engolindo em seco, fiz o possível para não desagradá-los, curvando-me humildemente em mais de uma ocasião.
+
+O inspetor S. foi embora depois de dois ou três dias. A partir de então, os senhores K. e M. continuaram o interrogatório, com paciência, nos intervalos de seus próprios trabalhos. Mesmo nos dias mais curtos, o interrogatório deve ter durado várias horas. Antes de começar, o Sr. M. invariavelmente proferia um sermão. As palavras eram sempre as mesmas, embora ele não parecesse notar. Era algo assim: “Você quer voltar para casa o mais rápido possível, não é? E seus subordinados estão presos há muito tempo. Você também quer libertá-los logo. Por isso, é melhor reavivar a memória e contar tudo de uma vez”.
+
+Outra vez, ele disse: “É impossível que você não se lembre de um caso tão claro. Até mesmo assassinos e ladrões se lembram bem de fatos de cinco anos atrás e confessam tudo sem rodeios. O seu caso é de apenas dois anos. Não tem como não se lembrar. Nesse ritmo, seja você um deus ou o que for, vai acabar sendo pior que um assassino ou um ladrão”. Eram esses os seus modos. Diante de tal humilhação, a tristeza me invadiu, e não pude conter as lágrimas.
+
+Naquele momento, pensei: “É verdade. Atos extraordinários como um assassinato ou um roubo são inesquecíveis, não apenas por cinco ou dez anos, mas por toda a vida. Mas o meu caso é totalmente infundado, portanto, não é uma questão de lembrar ou esquecer”. Será que ele não entendia algo tão óbvio, ou apenas fingia não entender? De qualquer forma, a pressão só aumentava.
+
+Ele também dizia com frequência: “Se você não quer reavivar a memória, não precisa. Para mim, não faz a menor diferença. Mas quem sai perdendo é você, não acha? Então, vamos mantê-lo aqui até que se lembre. É mais inteligente reavivar a memória logo e sair daqui o mais rápido possível. Pense bem”.
+
+#### A Fabricação de Memórias
+
+Cada vez que ouvia isso, eu ficava desesperado. O que eu poderia fazer? Era impossível reavivar uma memória que não existia. Mas, se não o fizesse, ficaria detido indefinidamente. Eu precisava encontrar uma solução. Cheguei a pensar que teria sido melhor ter cometido alguma pequena maldade no passado; assim, bastaria confessá-la para resolver a situação.
+
+Depois de muito refletir, concebi um plano: a fabricação de memórias. Ou seja, fingir que estava me lembrando de algo. Talvez fosse isso que ele chamava de “ser inteligente”. Com receio, tentei. Ele disse que estava completamente errado e não me deu ouvidos. Pensei novamente. Tentei extrair fragmentos de suas palavras para construir uma história, mas ele disse que isso seria um interrogatório indutivo e não permitiu.
+
+Sem alternativa, comecei a observar a sua expressão e a prestar atenção às suas palavras, construindo aos poucos um depoimento que, de alguma forma, tomou forma. Naquele momento, pensei que estava fazendo algo extremamente bizarro: diante de um policial, eu mesmo me esforçava arduamente para criar um crime do qual era inocente. Seria possível que algo tão irracional existisse em uma nação civilizada? Nunca imaginei nem ouvi falar de um esforço tão estranho e penoso.
+
+Quando meu depoimento continha elementos que poderiam incriminar-me, ele parecia satisfeito. Caso contrário, relutava em aceitá-lo. Contudo, mesmo ao criar um crime, fui cauteloso. Para cada item, inventava um ou dois detalhes, buscando sempre a pena mais leve possível. Mais tarde, ao consultar um advogado, ele me disse que, por ser leigo, minha fabricação foi muito malfeita. Isso fica evidente ao ler meus depoimentos.
+
+Além disso, ele falava constantemente em tom ríspido, quase sem me deixar falar. Isso era extremamente frustrante. Quando eu tentava dizer algo, ele me interrompia aos gritos. Sem opção, eu esperava por uma brecha em seu discurso incessante para inserir algumas palavras. Isso se arrastou por vários dias.
+
+Nessa época, um promotor chamado K. veio me interrogar. O promotor K. era um intelectual, e seu interrogatório foi calmo e compreensível. Senti-me aliviado. Por isso, consegui falar com mais fluidez. O problema é que os assuntos abordados por ele eram os mesmos da polícia, e eu precisava repetir o que já havia dito aos policiais. Naquela altura, eu já havia mentido, então adotei uma atitude de “que seja”, o que, em parte, me ajudou a inventar uma história que agradasse ao promotor.
+
+Dois ou três dias depois, um promotor de reforço, o Sr. Y., veio me interrogar. Prestei um depoimento semelhante ao que dei à polícia. O promotor Y. foi bastante incisivo, mas, de alguma forma, consegui amarrar as pontas e, aos trancos e barrancos, o depoimento foi concluído. Senti um alívio. Alguns dias depois, o promotor Y. retornou e me interrogou novamente. O teor foi o mesmo da vez anterior, é claro.
+
+#### A Tortura Mental
+
+Foi então que um evento marcante ocorreu. Aconteceu durante um interrogatório conduzido pelos senhores M. e K. Naquela ocasião, o Sr. M. estava no comando, e o assunto principal eram as despesas da campanha contra a acusação de sonegação fiscal, iniciada em 8 de novembro de 1948. Como eu não me lembrava de absolutamente nada, não conseguia responder. O Sr. M., no entanto, não aceitava minha resposta e repetia insistentemente que eu deveria “reavivar a memória”.
+
+De vez em quando, ele se ausentava por algum motivo, mas logo retornava e me pressionava: “Ainda não conseguiu se lembrar?”. Eu, como de costume, tentava inventar uma resposta, mas, por se tratar de números, ele rebatia dizendo que os valores estavam completamente errados ou que não faziam o menor sentido. Ele dizia: “É impossível que você não se lembre de um assunto tão claro. Você só está demorando porque tenta distorcer os fatos em vez de falar a verdade”. Eu ficava furioso. Não tinha a menor intenção de distorcer ou mentir. Como religioso, sempre ensinei aos fiéis que a mentira é o pior dos males. Como poderia eu mesmo mentir? Tentei explicar que, acima de tudo, não poderia mentir para Deus, mas não obtive qualquer reação. Era como falar com uma estátua de pedra.
+
+No entanto, ele continuava a insistir em um único ponto: que eu reavivasse a memória. Como o interrogatório girava em torno de números, era extremamente difícil inventar uma resposta. A ansiedade, a angústia, a raiva e o desespero se misturavam em minha mente, que chegou ao limite da confusão. Senti o ambiente ao meu redor girar em um grande vórtice. Uma violenta tontura se apossou de mim, perdi a visão, minha consciência ficou turva e, no instante em que pensei que enlouqueceria, perdi os sentidos e desfaleci no local.
+
+Felizmente, recuperei a consciência em um ou dois minutos, mas a tontura era insuportável, a ponto de me causar náuseas. Sem alternativa, eles suspenderam o interrogatório. Cerca de uma hora depois, consegui me levantar e, apoiando-me em uma bengala, arrastei-me de volta para a cela de detenção. No momento em que entrei, a cela me pareceu o paraíso. Normalmente, a simples imagem daquela cela escura, com uma pequena janela e grades de ferro, seria assustadora, mas o fato de me parecer o paraíso revela o quão terrível fora o interrogatório.
+
+Algumas horas depois, no décimo dia de detenção, recebi a primeira visita do meu advogado, pois até então as visitas estavam proibidas. Ele notou meu estado cambaleante e minha palidez e, ao saber que eu havia desmaiado, recomendou que eu consultasse um médico, o que eu aceitei. Logo depois, o médico da polícia veio e me diagnosticou com esgotamento nervoso.
+
+Gostaria de ressaltar que, após dez dias de detenção, o enfraquecimento é considerável. A perda de apetite, a falta de exercício, a mudança drástica no estilo de vida, o desconforto do ambiente e o sofrimento mental causado pela dureza do interrogatório levam qualquer pessoa não acostumada a um estado de extremo esgotamento nervoso. No meu caso, por ter sessenta e nove anos de idade e levar uma vida confortável, o enfraquecimento foi ainda mais acentuado.
+
+No dia seguinte, à tarde, quando eu já me sentia um pouco melhor, fui chamado novamente para o interrogatório. Desta vez, talvez por eles terem sido mais brandos, consegui passar pela sessão sem maiores problemas. No entanto, no dia seguinte, como eu estava ainda mais recuperado, fui chamado e interrogado novamente. E, mais uma vez, o assunto das despesas da campanha foi trazido à tona. Quando disse que ainda não conseguia me lembrar, eles não aceitaram e continuaram a me pressionar com o mesmo argumento de sempre. Diante de tamanha insistência, senti a raiva, a angústia e a ansiedade prestes a explodir e lutei com todas as minhas forças para contê-las.
+
+Então, a agonia e a confusão começaram a girar novamente em minha cabeça. Subitamente, perdi a consciência e desfaleci, da mesma forma que da outra vez. Foi talvez ainda pior que da primeira vez. Ao recobrar os sentidos, senti o corpo dormente e não conseguia me levantar. Cerca de uma hora depois, consegui finalmente ficar de pé, mas não conseguia andar. O Sr. M., vendo meu estado, carregou-me nas costas até a cela. Enquanto era carregado, não pude deixar de gritar: “Isto é tortura mental!”. A palavra “tortura” pareceu assustá-los.
+
+Desde então, a tontura piorou. Se eu tentava pensar em algo, tudo começava a girar. Senti que algo em meu cérebro havia se quebrado. “Isso é terrível”, pensei. Se eu fosse pressionado mais uma vez sobre a questão das despesas da campanha, meu cérebro seria completamente destruído. O resultado seria a loucura ou a demência. A sinistra premonição de que eu poderia me tornar um inválido pelo resto da vida me assombrava.
+
+No dia seguinte, fui chamado para o interrogatório, mas me recusei a ir. Contudo, não podia ficar protelando. Se o interrogatório não terminasse logo, eu não seria libertado. Era um beco sem saída. Foi então que, como um auxílio do Céu, recordei-me da técnica de comunicação espiritual, que eu praticava com frequência no passado. “É isso! Não há outra maneira de superar este obstáculo”, pensei.
+
+O cerne do problema era a questão financeira. Como o Sr. Tetsuo Asai era o principal responsável por esse assunto, ele deveria saber os detalhes. Pensei em invocar o seu espírito. Aproveitando o silêncio da noite, chamei o espírito do Sr. Tetsuo e tentei a técnica. Esse tipo de prática espiritual é comum entre ascetas desde os tempos antigos, mas é absolutamente impossível fazer com que uma terceira pessoa, sem conhecimento espiritual, a compreenda.
+
+De todo modo, ao consultar o espírito, as palavras fluíram da minha boca, e os números pareceram se tornar claros. Talvez até claros demais.
+
+#### A Ida para o Presídio
+
+No dia seguinte, como de costume, fui chamado à sala de interrogatório. Como sabia que os policiais não entenderiam nada sobre comunicação espiritual, pensei em várias maneiras de explicar e finalmente disse: “Na verdade, ontem à noite, em meu desespero, orei a Deus com toda a sinceridade. Graças a isso, minha memória tornou-se clara, e agora posso responder”. E comecei a falar com fluidez. Os senhores K. e M. me olhavam com uma expressão de quem não entendia nada, mas, como meu depoimento, diferentemente das outras vezes, era fluente, o registro foi concluído rapidamente. Para mim, o importante era escapar do sofrimento do interrogatório e sair daquele lugar. Senti-me como se tivesse escapado da boca de um crocodilo e respirei aliviado.
+
+Naquela mesma noite, o promotor K. veio, e o interrogatório começou como sempre. Relatei os fatos com a mesma fluidez com que havia falado aos policiais. O promotor K. disse: “Até agora, você só disse coisas incoerentes. É estranho que, de repente, tudo tenha se tornado tão claro, não acha?”. E me fez várias perguntas. De fato, o valor das despesas que eu havia mencionado até então era completamente aleatório: ora quinhentos ou seiscentos mil ienes, ora cerca de um milhão, ora mais de dois milhões. Isso por si só já demonstrava que eu não sabia de nada.
+
+Como achei que seria difícil fazê-lo entender, respondi que havia orado a Deus e que um milagre havia acontecido. Com isso, o interrogatório pareceu ter chegado ao fim. Senti um alívio e, por ter escapado da destruição do meu cérebro, consegui dormir profundamente naquela noite, algo que não acontecia há muito tempo.
+
+No entanto, no dia seguinte, por volta das dez da manhã, ouvi uma voz do lado de fora da cela dizendo para eu sair imediatamente. Pensei que, como o interrogatório havia terminado, eu seria libertado naquele dia. “Que alegria!”, pensei. Mas, quando a porta se abriu e eu saí, vi um policial que eu não conhecia. Achei estranho. Ele me disse: “Vamos para Shizuoka agora, prepare-se”. Fiquei duplamente surpreso.
+
+O guarda da detenção me ajudou a arrumar meus pertences, cobertores e o que mais eu conseguisse carregar. Acompanhado por dois policiais, entrei em um carro. Cerca de uma hora depois, o carro parou. Olhei e vi que estávamos em frente a um presídio. Fiquei chocado. Jamais imaginei que seria levado para um presídio.
+
+Presídio, presídio. Que nome terrível e abominável. Eu tinha a convicção de que jamais em minha vida seria colocado em um lugar como aquele. Naquele momento, lembrei-me das famosas palavras de Taira no Shigemori: “Ontem, pensei que era o destino dos outros; hoje, recai sobre mim”. Era exatamente isso. Que mal eu teria feito para ser mandado para um presídio? Eu não entendia. Mais uma dúvida se somou às outras. “Será que foi porque ontem, através da comunicação espiritual, meu depoimento foi claro demais e isso infringiu alguma lei? Será que estou indo para o presídio por causa disso?”, imaginei. Mas, mais tarde, soube por meu advogado que não era esse o motivo.
+
+Depois de passar pelos procedimentos de praxe, guiado por um policial, atravessei os sinistros edifícios do presídio. Após caminhar cerca de cem metros, fui levado para um prédio moderno, recém-construído, que em nada se parecia com um presídio, e colocado em uma cela individual. O cômodo era pequeno, mas tinha um banheiro, uma pequena pia e água encanada. As paredes eram brancas, a janela era grande e o ambiente era claro e agradável. Era incomparavelmente mais limpo que a cela escura e úmida da delegacia. Não me sentia como se estivesse em uma prisão. Senti-me salvo.
+
+Pela janela, via-se um pátio ajardinado, onde flores de hortênsia, provavelmente plantadas por prisioneiros, começavam a desabrochar. Embora cercado por um muro alto e severo de tijolos, eu podia ver cinco ou seis grandes árvores de um verde viçoso, desenhando seus contornos contra o céu azul acima do muro.
+
+Logo, trouxeram-me o almoço fornecido pela instituição. Fiquei surpreso. Era o famoso “mossou-meshi” (refeição simples de presídio). Cerca de setenta por cento de cevada e trinta por cento de arroz, servido em uma grande tigela de alumínio. Como acompanhamento, apenas duas pequenas ameixas em conserva. Tentei comer o arroz, mas, com o perdão da palavra, parecia que não desceria pela garganta. Então, o prisioneiro encarregado da distribuição de comida veio e disse: “Há uma refeição encomendada para o senhor, pode deixar a refeição da casa”. A delícia daquela refeição encomendada é um sabor que não esqueço até hoje. Senti como se tivesse chegado a um mundo completamente diferente.
+
+No entanto, o depoimento que prestei ao promotor K. na noite anterior, baseado na comunicação espiritual, começou a me preocupar. A comunicação espiritual consiste em invocar o espírito de uma pessoa viva para obter informações, e nem sempre é precisa. A consciência do médium pode se misturar, ou espíritos zombeteiros podem interferir, resultando em muitos erros. Por isso, eu havia parado de praticá-la há mais de dez anos. Além disso, o que fiz na noite anterior foi um ato de desespero, e eu não tinha confiança no resultado. Pensei que seria terrível se houvesse algum erro e que eu precisava explicar a situação e pedir a anulação do depoimento.
+
+Na manhã seguinte à minha chegada ao presídio, pedi ao chefe dos guardas para falar com o promotor K. Disseram-me que eu o veria à tarde, mas ele não apareceu naquele dia. No dia seguinte, pedi novamente, mas sem sucesso. Naquele dia, o advogado M. veio me visitar. Contei-lhe a história e pedi seu conselho. Ele concordou que seria melhor eu contar a verdade. Eu disse ao advogado: “Como foi um depoimento mediúnico, não posso garantir sua precisão. Foi uma invenção nascida do desespero, algo como um romance policial”.
+
+No dia seguinte, 18 de junho, o quarto dia no presídio, finalmente fui chamado à sala de interrogatório à noite. Foi meu primeiro interrogatório desde que cheguei. E foi então que sofri um choque que jamais esquecerei.
+
+Assim que entrei na sala e me sentei diante do promotor K., ele se levantou abruptamente, pálido, com os olhos injetados, e, tremendo, gritou para mim: “Nunca vi pessoa mais ultrajante que você! Você diz que o último interrogatório foi um romance policial?”. (Ah, ele soube pelo advogado, pensei.) “Eu preparei o registro com toda a seriedade! Pensei que sua memória havia se tornado clara e que um depoimento decente poderia ser feito. E agora você vem com essa de romance policial? Isso é um insulto a um promotor! É imperdoável!”. Ele me fuzilava com o olhar, com uma fúria de quem estava prestes a me atacar.
+
+Não foi um raio em céu azul; foi como se cem raios tivessem caído sobre mim de uma só vez. Encolhi-me, sem conseguir emitir um som. Com ele tão ofendido, e eu sem conhecimento jurídico, o medo do que poderia acontecer me paralisou. Senti-me como uma pedra, sem consciência da minha própria existência. Apenas me prostrei, pedindo desculpas incessantemente. “Sinto muitíssimo, por favor, me perdoe. Fui um tolo”, repeti várias vezes, enquanto as lágrimas corriam pelo meu rosto, incontroláveis.
+
+Naquele momento, o promotor também disse: “Se eu quiser destruir a sua organização, não preciso de muito esforço. Com a minha força, consigo acabar com ela em um dia”. Ao ouvir essas palavras, fiquei chocado. Pensei: “Hoje, a liberdade de religião é garantida. Se uma religião com trezentos mil fiéis pode ser destruída em um dia pela força de um único promotor, quão frágil é a religião!”. Eu, que me orgulhava de liderar a principal nova religião, estava, na verdade, dormindo em cima de um vulcão. Era um assunto de extrema gravidade, que exigia profunda reflexão. Esse foi um dos motivos que me levaram a renunciar ao cargo de líder da Sekai Kyusei Kyo. Além disso, como mencionei, meu cérebro havia sido gravemente abalado, e eu sentia que seria difícil continuar a cumprir minhas responsabilidades como líder.
+
+Diante do meu pedido de desculpas em prantos, até mesmo o promotor pareceu se acalmar um pouco, e o interrogatório voltou a um tom mais normal. Ainda assim, diferentemente das outras vezes, ele estava cheio de sarcasmo e tentava me encurralar. Respondi com apreensão e, se não me engano, o interrogatório terminou sem que um registro fosse feito.
+
+Logo após o fim daquela sessão, pensei: “Provavelmente, em mais de cinquenta anos, desde que me entendo por gente, nunca me curvei tanto diante de um ser humano, buscando as palavras mais humildes para me desculpar. E há décadas que eu não derramava uma lágrima, mas, naquela ocasião, elas fluíram sem parar”.
+
+“Que mal eu fiz?”, me perguntava. Eu não conseguia entender. Apenas disse que não sabia das questões financeiras porque as havia delegado aos meus subordinados. No fim, fui responsabilizado pelos erros deles. Já ouvi falar de funcionários que assumem a culpa de seus presidentes, mas nunca de um presidente que é forçado a assumir a culpa de seus funcionários. E, mesmo que meus subordinados tenham agido pensando no bem da Igreja e sem má-fé, não há lógica em o líder ser responsabilizado pelos erros deles. Além disso, meu caso é muito diferente do das pessoas comuns. Sou um religioso, o líder de uma religião. Acredito ser um representante de Deus. Portanto, minha missão é transmitir a Vontade Divina e pregar os ensinamentos. Nesse sentido, acredito que devo me manter alheio aos assuntos mundanos. Por isso, em relação a finanças, especialmente dinheiro, eu apenas ouço e logo esqueço. E creio que está certo assim. E não sou o único. Desde os tempos antigos até hoje, duvido que exista um único fundador ou líder religioso que se preocupe com questões financeiras. Pelo contrário, quanto mais afastado dos assuntos seculares, mais próximo se está do ideal de um verdadeiro religioso. Essa é a percepção comum da sociedade. E um promotor não poderia ignorar isso.
+
+Quanto mais eu pensava, menos eu entendia. Como sabem, a nova Constituição garante a liberdade de religião. Isso provavelmente se deve ao reconhecimento, por parte do Estado, da nobre missão da fé. Olhando para trás, há muitos exemplos de fundadores e líderes religiosos que sofreram perseguições, mas provavelmente nenhum por questões financeiras.
+
+Diante do exposto, é evidente que eu não poderia dar uma resposta satisfatória a suspeitas não relacionadas à religião. Além disso, devido ao interrogatório severo, equivalente a uma tortura mental, cheguei a desmaiar duas vezes. Para evitar essa terrível provação, que poderia levar à destruição do meu cérebro, recorri, como último recurso, a um meio espiritual para garantir minha segurança. Portanto, o que fiz foi em defesa da minha própria mente, e não há nada do que me envergonhar.
+
+Dito isso, como relatei uma inverdade como se fosse real, desejei corrigi-la imediatamente e transmiti minha intenção através do meu advogado.
+
+Analisando todo o percurso, onde estaria o meu erro? A que se deve tanta raiva, tantos gritos, tantos insultos e a necessidade de me desculpar em prantos? Não consigo encontrar uma razão. Hoje se fala em direitos humanos, mas onde eles estão? Não consigo aceitar que este seja o Japão democrático e que estes sejam os funcionários de uma nação civilizada. Diz-se que os funcionários públicos são servidores do povo, mas isso é um disparate. Aqui, o povo não passa de um escravo dos funcionários públicos. Não pude deixar de lamentar.
+
+No dia 19, à tarde, fui chamado novamente. O interrogatório começou, e, para minha surpresa, a atmosfera era completamente diferente. A calma que substituiu a fúria da noite anterior me deixou perplexo. Imaginei que talvez o Sr. Asai, que soube ter sido preso naquele dia, tivesse testemunhado que eu não tinha nenhuma relação com o caso de suborno.
+
+Desta vez, não houve perguntas forçadas. Eram, por assim dizer, questões secundárias, e pude responder com fluidez. O promotor disse que tinha um compromisso urgente e que continuaríamos à noite. Por volta das nove, fui chamado novamente. Fui questionado sobre alguns pontos restantes, que foram resolvidos rapidamente, e o registro parece ter sido concluído. Então, de repente, o promotor disse: “Você já pode ir”. Fiquei tão surpreso que demorei a entender. Finalmente, compreendi que estava sendo libertado e, por volta das onze da noite, deixei o presídio.
+
+#### O Engodo
+
+No contexto de um interrogatório, a palavra “kama wo kakeru” (armar uma cilada, enganar) é usada desde os tempos antigos. Desta vez, fui vítima dessa tática inúmeras vezes. Pode-se dizer que ela foi a espinha dorsal do interrogatório. A política de investigação recente parece abominar o interrogatório indutivo, mas o interrogatório por engodo é muito mais pernicioso. Isso porque o interrogatório indutivo tende a gerar menos falsidades. Enquanto o interrogatório indutivo é uma técnica verbal, o interrogatório por engodo é, em sua maioria, uma mentira fabricada. Tenta-se enganar o réu com mentiras habilmente disfarçadas de verdade. Por isso, pessoas honestas e inexperientes caem facilmente na armadilha, e os interrogadores usam e abusam dessa tática.
+
+Se alguém não cai, é porque é um veterano experiente. E veterano, nesse caso, significa reincidente. O resultado é que o réu primário cai na armadilha, e o reincidente escapa com habilidade. Assim, o bom se torna culpado, e o mau, inocente. A prova disso é que, neste caso, todos nós fomos indiciados porque caímos nesse tipo de interrogatório. Vou citar um exemplo.
+
+Após voltar para casa, ouvi o relato do meu secretário, Fukuo Inoue, um dos suspeitos. Ele sempre foi leal ao meu trabalho e me serviu por vinte anos. Conheço seu caráter e sua conduta melhor do que ninguém. Ele não é, de forma alguma, uma pessoa má. Muitos o descrevem como “um homem de bem de uma raridade ímpar, um verdadeiro buda”. Às vezes, eu o repreendia, dizendo: “Seu problema é ser bom demais”. Ele é extremamente dócil, faz tudo o que lhe pedem e é incapaz de se irritar, contrariar ou se opor.
+
+Um homem assim, vítima de um interrogatório por engodo, não teve a menor chance. Era a pessoa perfeita para isso. Por mais que dissesse que não se lembrava, os interrogadores não lhe davam ouvidos. Pressionado dia após dia, ele entrou em um estado de extremo esgotamento nervoso, a ponto de sua saúde geral ficar comprometida. Temendo por sua vida, e pensando que precisava sair dali o mais rápido possível, ele acabou concordando com tudo o que lhe diziam. Por isso, seus depoimentos eram incoerentes, o que, segundo consta, causou grandes dificuldades aos interrogadores. Interrogar um homem bom como Inoue é como torcer o braço de um bebê. Pensei que não há ninguém mais digno de pena do que um homem de bem.
+
+Aconteceu também o seguinte. Durante o meu interrogatório, o oficial costumava dizer: “Nós investigamos este caso a fundo por mais de seis meses. Não adianta tentar esconder nada agora. É melhor para você confessar tudo”. No entanto, a cada pergunta, eu me surpreendia com o quão fora da realidade eles estavam. Havia muitos assuntos sobre os quais eles pareciam não ter investigado quase nada. O fato de terem mobilizado oitenta policiais armados já demonstrava a falta de investigação. Se tivessem investigado a fundo, não haveria necessidade de tanto alarde; um simples interrogatório teria sido suficiente.
+
+Naquele momento, pensei também: “Teria sido muito melhor se tivessem usado vários espiões, infiltrados como fiéis, para investigar a fundo. Eles teriam se surpreendido com a nobreza da nossa religião e, em vez de investigar, o próprio Estado teria desejado nos apoiar”. Portanto, embora tenham investigado, foi certamente uma investigação superficial. A afirmação de que haviam investigado a fundo não passava de um tipo de engodo.
+
+Se, através do interrogatório por engodo, pessoas de bem são enganadas e transformadas em culpadas, este é um problema muito sério. Se esse método de interrogatório é o único aceito pelo sistema de promotoria atual, o povo só tem a sofrer. Se uma nuvem tão antidemocrática paira sobre a esfera da administração judicial, que deveria ser justa e imparcial, desejo ardentemente que ela seja dissipada o mais rápido possível, para que o mundo da lei se torne claro como um espelho.
+
+A respeito do interrogatório de Inoue, como ele e Kuhei Kanahisa me trouxeram suas declarações, decidi transcrevê-las a seguir.
+
+***
+
+### Declaração
+*Fukuo Inoue*
+
+Venho, por meio desta, apresentar minhas mais sinceras desculpas por ter prestado um depoimento extremamente falso sobre os dois casos pelos quais fui indiciado, causando-lhes grande transtorno. Desejo expor os fatos e rogar pela vossa compreensão.
+
+O mandado de prisão mencionava a “suspeita de, em dezembro de 1948, com o intuito de ocultar trezentos mil ienes do patrimônio de Mokiti Okada, ter doado dez mil ienes a Jintaro Yamada, do Banco de Shizuoka, agência de Atami”. Eu não tinha nenhuma lembrança de tal fato, mas, como havia um mandado de prisão, acreditei que existisse uma base sólida para a acusação. Além disso, eu tinha uma vaga lembrança de ter dado uma gratificação de cerca de dez mil ienes ao Sr. Yamada quando lhe pedi para preencher alguma declaração de impostos. Por isso, a princípio, admiti a acusação.
+
+No entanto, nos interrogatórios seguintes, fui pressionado a admitir que havia dado mais do que dez mil ienes. Eu neguei repetidamente, argumentando que, como cliente, não havia motivo para suborná-lo. Contudo, o investigador afirmou categoricamente: “É de bom senso dar uma gratificação de cerca de trezentos mil ienes, o que corresponde a dez por cento de três milhões”. Diante de sua insistência, não tive outra escolha a não ser declarar no registro que “talvez tenha dado trezentos mil ienes”.
+
+Na época da prisão, minha ciática crônica havia se manifestado. Somando-se a isso o sofrimento da detenção, que eu experimentava pela primeira vez, e a drástica mudança no estilo de vida, eu sofria dia e noite com a mente turva, dores nas costas, insônia e falta de apetite. Responder ao interrogatório incessante sobre fatos que eu desconhecia completamente era um tormento indescritível. Mesmo que esse seja o procedimento padrão da polícia, para mim, naquele momento, era o sofrimento de um inferno de torturas.
+
+Para entender a verdade sobre o caso, não me restava outra opção senão extrair do investigador informações sobre o depoimento do Sr. Yamada e, com base nisso, deduzir e responder. Cheguei ao ponto de pedir ajuda ao investigador para o meu depoimento, alegando perda de memória.
+
+Alguns dias depois, durante um interrogatório, aproveitando um momento de distração do investigador, consegui dar uma olhada em um memorando em sua mesa (escrito a caneta em papel de carta com linhas vermelhas). Vi os seguintes registros:
+
+- 23.10 (Outubro de 1948) Mokiti Okada 100.000,00
+- 23.12 (Dezembro de 1948) 200.000,00
+- Takehiko Nakajima 80.000,00 (aparentemente, o valor que o Sr. Nakajima deu ao Sr. Yamada)
+
+Acreditei que esse era o depoimento do Sr. Yamada e finalmente entendi a base para os trezentos mil ienes mencionados pelo investigador. A partir de então, passei a depor que havia dado cem mil ienes em outubro e duzentos mil em dezembro, deduzindo e inventando os detalhes e as circunstâncias. Enquanto insistia na minha declaração de cem e duzentos mil ienes, cheguei a acreditar que eu mesmo havia feito as doações.
+
+Admiti os trezentos mil ienes, em primeiro lugar, por profunda preocupação de que a suspeita recaísse sobre o Grande Mestre Okada, a quem venero como a um deus. Em segundo lugar, acreditei na tentação do oficial de que, se eu confessasse, seria libertado mais cedo. Pensei que, se meu depoimento coincidisse com o do Sr. Yamada, eu seria libertado daquele tormento injusto. Meu único desejo era sair da prisão o mais rápido possível, recuperar minha saúde e cumprir minhas importantes obrigações sociais.
+
+Quando a elaboração do registro sobre o suborno ao Sr. Yamada terminou, eu esperava ser libertado, exausto e debilitado. Foi então que, durante vários dias, fui cercado por cerca de sete detetives e submetido a um interrogatório rigoroso sobre as finanças da Sekai Kyusei Kyo e outras questões gerais. “Se não confessar algo, não será libertado”, “Se você não falar, traremos o Grande Mestre Okada”, “Vamos acabar com essa religião do mal, a Messias Kyo”. Fui atacado com todo tipo de ameaças, gritos que equivaliam a tortura e insultos vis. Senti tonturas devido à fraqueza, o coração apertar de medo e palpitações. O sofrimento físico e mental era indescritível, e temi por minha vida.
+
+Prevendo o pior, obtive um atestado médico e, ao mesmo tempo, para escapar daquela crise, fiz uma confissão fictícia sobre a ocultação de trinta milhões de ienes. Desde então, minha saúde piorou drasticamente, meu cérebro pareceu ter sido destruído e entrei em um estado de confusão, desespero e medo, enquanto o período de detenção era sucessivamente prorrogado. Durante o interrogatório intimidador do promotor, eu estava como que inconsciente, passei por tudo em um estado de torpor.
+
+Em suma, meu depoimento sobre o suborno ao Sr. Yamada, com exceção de uma vaga lembrança, não passa de um romance, uma obra de ficção que criei com base em minhas deduções, imaginação e no que vi no memorando. Isso pode ser confirmado pela incoerência do conteúdo do registro, que mudava constantemente.
+
+Após mais de vinte dias de detenção, senti um profundo enfraquecimento e uma alteração em minha constituição física. No início de junho, ao saber da detenção do Grande Mestre, por quem eu daria a vida, caí em desespero. Tremi de raiva ao pensar na brutalidade de tratar como criminoso um homem que fez uma contribuição tão monumental à cultura. Fiquei física e mentalmente arrasado, como um cadáver ambulante. Perdi até mesmo a força para negar a afirmação arbitrária do promotor Yanase de que “os trezentos mil ienes foram dados a Yamada como suborno, em acordo com o Grande Mestre”.
+
+Quando o escrivão do promotor me disse: “O Grande Mestre está dizendo que confiou trezentos mil ienes a Yamada para subornar e entreter os funcionários da Receita Federal de Atami. Vamos refazer o registro”, perdi até mesmo a coragem de negar, dizendo “desconheço totalmente”. Caí em um estado de apatia tal que cheguei a depor: “Se o Grande Mestre diz isso, então eu também devo ter combinado e dado o dinheiro”.
+
+Os quarenta e sete dias de detenção causaram um grande dano ao meu corpo e mente e encurtaram minha vida. Após a libertação, estive várias vezes à beira da morte devido a insuficiência cardíaca. O surgimento das várias doenças, conforme descrito no atestado médico anexo, pode dar uma ideia do meu sofrimento.
+
+Ademais, o depoimento de que, por volta de abril de 1948, quando o Grande Mestre Okada foi taxado em cinco milhões de ienes de imposto de renda, eu subornei um funcionário da Receita Federal de Atami através do Sr. Yamada também é infundado. Confundi esse fato com a declaração do imposto sobre o patrimônio do ano anterior. O fato de eu ter mudado meu depoimento várias vezes, mencionando cinquenta mil, cem mil, duzentos mil ienes, prova que não se tratava de uma lembrança, mas de mera imaginação ou suposição em resposta a um interrogatório indutivo.
+
+Assim, ambos os casos pelos quais fui indiciado são assuntos dos quais não tenho conhecimento. Hoje, com a mente se recuperando, o único fato que consigo reconhecer claramente é que, por volta de março ou abril de 1947, por ocasião da declaração do imposto sobre o patrimônio, dei ao Sr. Yamada uma gratificação de dez mil (com certeza) ou vinte mil ienes.
+
+As razões pelas quais prestei um depoimento falso e o mantive são as seguintes:
+1.  Mais dolorosa e triste que a morte foi a luta contra a terrível e malévola intenção do interrogatório de forçar a suspeita sobre o Grande Mestre, cuja grande virtude todos louvam, sem ter como retribuir.
+2.  Por ser totalmente ignorante sobre o mecanismo de investigação criminal, acreditei que, se admitisse a acusação, o caso seria resolvido imediatamente.
+3.  Desejava, o mais rápido possível, me libertar do medo causado pela doença.
+4.  Acreditei que fazer meu depoimento coincidir com o do Sr. Yamada aceleraria o trabalho do investigador e seria a única maneira de ser libertado rapidamente.
+5.  Era insuportavelmente doloroso ver tantos dias preciosos, tanto dinheiro público e tanto pessoal sendo mobilizados para nos transformar em criminosos, a nós que nos dedicamos de corpo e alma à construção de uma nação pacífica. Para uma rápida resolução do caso, não me importei em fazer um depoimento desfavorável.
+6.  Como eles acolhiam com grande satisfação a confissão de novos crimes, cheguei a desejar ter algo do gênero para confessar.
+7.  Como era investigado sob a premissa de ser culpado, e eles pareciam determinados a não parar até que eu confessasse um crime, se eu negasse algo do qual não tinha conhecimento, seria submetido a uma perseguição intensa e implacável, com todo tipo de táticas indutivas. Não tive outra escolha a não ser ceder. E desejava escapar do desconforto de repetir o mesmo esforço inútil, do tempo, do trabalho e da fadiga extrema.
+
+Como alguém que serve a Deus, o simples fato de ser alvo de tal suspeita já é uma prova da minha falta de fé. Diariamente, peço perdão a Deus e aos fiéis. Portanto, não tenho a menor intenção de escapar da punição devida através de um depoimento falso. No entanto, receber uma punição injusta com base em um depoimento infundado é algo que a essência da lei, em sua rigorosa justiça, não pode permitir.
+
+O que foi exposto acima é a verdade nua e crua, sem qualquer ficção ou embelezamento. Rogo para que, com um discernimento que ilumine meu coração como um espelho divino, seja proferido um julgamento justo e imparcial.
+
+*Atestado Médico*
+*Fukuo Inoue*
+Insuficiência cardíaca, hepatite, síndrome de esgotamento nervoso, ciática.
+Devido às doenças acima, requer repouso absoluto por um mês.
+1 de julho de 1950
+*Dr. Michikazu Okada*
+
+***
+
+A seguir, a declaração de Kuhei Kanahisa.
+
+### Declaração
+*Kuhei Kanahisa*
+
+Fui preso sob a acusação de suborno e questões agrárias e detido por quarenta e seis dias no presídio de Shizuoka. Descreverei aqui o interrogatório que sofri, marcado por tortura, ameaças, gritos e insultos vis, e submeto meu relato ao julgamento da sociedade.
+
+Jamais esquecerei. Às seis da manhã de 8 de maio de 1950, cinco detetives da sede da Polícia Nacional da província de Shizuoka vieram e me disseram: “Há um mandado de prisão contra o senhor. Pedimos que nos acompanhe até Shizuoka”. Eu perguntei: “Que mandado de prisão?”. Eles responderam: “Se lhe mostrarmos o mandado aqui, teremos que levá-lo algemado até Shizuoka, o que seria um problema para o senhor, não é?”.
+
+Como havia um mandado de prisão, acreditei que existisse uma base sólida. Além disso, como os membros da comissão agrária de Atami haviam sido presos, pensei que talvez tivesse dado uma gratificação de cerca de três mil ienes a um deles quando me ensinaram sobre os procedimentos da Lei Agrária. Por isso, fui a Shizuoka.
+
+No entanto, o detetive que me interrogou naquele dia era um homem de aparência assustadora. Ele me pressionou de forma categórica: “Você recebeu uma grande quantia do Grande Mestre e a deu ao prefeito So. Quanto você deu no total?”. Eu respondi: “Não dei absolutamente nada ao prefeito So”. Ele gritou: “Não minta! Até uma criança, quando ajuda em casa, pede alguma coisa, não é?”. Eu disse: “Mesmo que eu levasse, o prefeito não é do tipo que aceita. E a Igreja também não tem motivo para dar dinheiro”. Ele insistiu: “Mas ele lhe ajudou muito com a questão agrária. Você não deu nada em agradecimento?”.
+
+Eu respondi: “Aprendi muito sobre o que não sabia, mas não me lembro de ter recebido uma ajuda especial do prefeito. E também não houve um resultado excepcionalmente bom graças a ele. Por mais que me pressione, não dei nada”. Eu neguei repetidamente. Ele então disse: “Você nos subestima. Se falar a verdade, não executaremos este mandado de prisão e o deixaremos ir para casa hoje à noite. O que me diz?”. E me pressionou novamente.
+
+O relógio já marcava nove horas. Eu estava com a mente turva e sentia tonturas. Não tive outra opção a não ser implorar: “Por favor, deixe-me passar a noite aqui”.
+
+Foi então que me leram o mandado de prisão. A acusação era de suspeita de ter subornado o membro da comissão agrária Gosaburo Ueda com três mil ienes por volta de maio de 1947. A princípio, admiti a acusação.
+
+Passei uma noite inquieta. No dia seguinte, fui chamado da cela de detenção. O assustador detetive-chefe do dia anterior não estava lá. Reclamei com outro detetive sobre o interrogatório ameaçador, a pressão, os gritos e os insultos que havia sofrido. O detetive me disse que o nome do outro era Kurebayashi, que ele não investigava casos como o meu, mas sim crimes violentos, e que, como houvera um assassinato na noite anterior, ele não voltaria mais. Senti como se tivesse sido salvo do inferno. De fato, ele parecia um detetive de crimes violentos.
+
+No entanto, o interrogatório continuou a girar em torno do prefeito. Fui pressionado sobre o mesmo assunto inúmeras vezes. No terceiro dia, eu disse: “Se vocês têm uma base tão sólida para investigar, parece-me que talvez eu tenha dado cerca de dez mil ienes”. Ele respondeu: “Não foi tão pouco. Você está mentindo”. Eu disse: “É verdade”. Depois disso, ele raramente perguntava sobre o prefeito e não me pressionava mais.
+
+Naquele momento, eu disse ao detetive: “Ouvi dizer que as pessoas sofrem para mentir, mas na polícia, sofre-se terrivelmente para dizer a verdade”. Ele respondeu: “Se você não fez absolutamente nada, ótimo”. O assunto do prefeito terminou em cerca de uma semana, sem que nenhum registro fosse feito.
+
+O interrogatório seguinte também foi sobre a questão agrária. Fui ameaçado e torturado para admitir que havia subornado o secretário da comissão agrária com uma grande quantia. Eu neguei repetidamente, dizendo que não me lembrava de ter dado dinheiro algum. O detetive me pressionou: “Ueda lhe arranjou um terreno, não foi?”. Eu respondi: “Na verdade, comprei pouco mais de seiscentos tsubo de terra por intermédio de um conhecido de Ueda, um homem chamado Sugiyama”. Ele perguntou: “Quanto você deu a Ueda em agradecimento?”. Eu disse: “Não dei nenhuma gratificação específica nem a Ueda nem a Sugiyama”. Ele retrucou: “Você não tem bom senso! É um tolo por não agradecer a quem lhe ajuda”. Eu disse: “Então, por favor, me ensine quanto eu deveria ter dado”. Ele respondeu: “Você está nos subestimando, como fez na delegacia de Odawara”.
+
+Eu disse: “É um ultraje dizer que os estou subestimando. Pelo contrário, já se passaram dez dias nesta vida de detenção, que é uma reviravolta de cento e oitenta graus para mim. O interrogatório diário me deixou mentalmente exausto, a ponto de esquecer o que lhes disse ontem. Entendo perfeitamente o estado de espírito de quem confessa. No momento, por mais que eu diga a verdade, vocês a descartam como mentira. Estou sofrendo para encontrar uma mentira que os satisfaça. Mas vocês dizem que mentir não adianta, que há uma contraparte em tudo. Eu digo que, com o tipo de interrogatório que vocês me fazem, o que a contraparte disser também será mentira”. O detetive respondeu: “Nós sempre temos uma contraparte. O que importa é que o que você diz e o que a contraparte diz coincidam”.
+
+Eu já estava exausto, física e mentalmente, como se estivesse inconsciente. Diante do interrogatório diário, pensei que, se eu fizesse uma declaração falsa, a outra parte seria libertada mais cedo. A partir de então, não me restou outra opção senão me esforçar para extrair o conteúdo do depoimento da outra parte.
+
+Eu me mantive em silêncio durante o interrogatório. Então, eles disseram: “Você deu cento e cinquenta mil ienes pelo terreno que lhe arranjaram, não foi?”. Eu respondi: “É a primeira vez que ouço isso. Quando o negócio foi fechado, não se falou em gratificação. Como a proposta veio do corretor Sugiyama, presumi que ele já estivesse incluindo uma comissão de cinquenta ou sessenta mil ienes. Por isso, comprei o terreno por quinhentos mil ienes. Não me lembro de ter dado cento e cinquenta mil”. O detetive disse: “Ambos dizem que receberam o dinheiro com o seu consentimento”. Eu respondi: “Nunca ouvi falar disso e não acredito nisso agora”. Ele disse: “Não adianta esconder. Ueda e Sugiyama estão furiosos. Eles dizem que, se você tivesse confessado logo, eles já teriam saído. Você está sendo odiado por todos. Se você não confessar tudo logo, o caso vai se arrastar. Isso vai levantar suspeitas sobre o Grande Mestre. Isso não é nada de mais, confesse logo”.
+
+Devido ao esgotamento físico e mental, e acreditando que, se eu concordasse, o caso seria resolvido, vários registros com declarações que eu nem sequer imaginava foram feitos. Na noite do décimo segundo dia de detenção, um detetive veio me informar que, por dificuldade no interrogatório, minha detenção havia sido prorrogada por mais dez dias, a pedido do promotor. Pensei comigo mesmo: “Quatro detetives me interrogando todos os dias, e eles dizem que o interrogatório é difícil? Que engraçado”. Eles me pediam para dizer a verdade, mas, quando eu o fazia, diziam que era tudo mentira e não me davam ouvidos. Dizer a verdade era como falar com uma estátua de pedra. E, quando eu mentia em resposta ao interrogatório indutivo, eles ficavam satisfeitos.
+
+Um exemplo disso: um inspetor chamado Sawaguchi me disse: “Você deu dez mil ienes a Ueda porque ele lhe ajudou muito com o projeto do parque acima do Umezono, não foi?”. Eu respondi: “Não me lembro de nada disso”. Ele disse: “Mas Ueda diz que recebeu. Já lhe disse várias vezes: a polícia mantém vocês aqui até que as duas versões coincidam”. Como minha memória não é das melhores, eu disse: “Se Ueda diz que recebeu, então acho que dei”. Fiz uma declaração vaga. O detetive a registrou e, ao sair, me aconselhou: “Amanhã você será interrogado pelo promotor. O promotor investiga novamente o que nós investigamos preliminarmente. Se você negar ou se irritar, vai prejudicar a impressão do promotor e será pior para você”.
+
+Naquela noite, não consegui dormir, talvez por ter mentido. Na tarde do dia seguinte, fui chamado pelo promotor. Fui até ele com receio. Ele me perguntou: “Ontem você depôs que deu dez mil ienes a Ueda. Mas, ao interrogá-lo, Ueda disse, chorando, que não se lembra de ter recebido dez mil ienes de você. O que me diz?”. Eu respondi: “É verdade. Não me lembro de ter dado dez mil ienes. Mas o inspetor Sawaguchi disse que Ueda afirmava ter recebido e me pressionou a admitir, então fui induzido a dizer algo que não era verdade”. O promotor disse que corrigiria o registro.
+
+Pensei: “Será que a polícia democrática ao estilo americano consiste em tratar o suspeito como culpado em flagrante desde o início e negar de antemão a verdade durante o interrogatório? Assim, os bons choram, e os maus se dão bem”.
+
+A investigação prosseguiu. Acredito que foi por volta do décimo sexto ou décimo sétimo dia de detenção. Quatro detetives, o inspetor Sawaguchi, o subinspetor Kuriyama e os chefes Konagaya e Matsushima, vieram e me interrogaram sobre as gratificações que eu teria dado a funcionários por questões de construção. Eu declarei: “Em relação à construção, talvez eu tenha dado cerca de cinco mil ienes como gratificação ao Sr. Inaba, o despachante que me ajudou muito”. No dia seguinte, com base na minha vaga declaração, Inaba foi preso e detido.
+
+A partir de então, o detetive Matsushima ficou encarregado de nós dois. Ele ia e voltava, dizendo: “Inaba confessou isso e aquilo”. E, quando eu confessava para coincidir com a versão dele, ele ia até Inaba e dizia: “Kanahisa confessou isso e aquilo”. No final, vários registros foram feitos. Tudo começou com cinco mil ienes, e o valor, resultado do interrogatório por engodo de ambos os lados, chegou a cerca de setenta mil ienes. Eu fui acusado de tentativa de suborno, e Inaba, de apropriação indébita. O chefe Matsushima me torturava com gritos e insultos vis. Para que Inaba pudesse ser libertado o mais rápido possível, não tive outra escolha a não ser depor conforme o que o detetive dizia.
+
+### No Presídio
+
+Em 29 de maio, no final do período de detenção, fui transferido para o presídio, completamente exausto. Devido ao cansaço extremo, adormeci assim que cheguei. Acordei com o som do rádio, durante o noticiário das sete. E ouvi sobre a detenção do Mestre, por quem eu daria a vida. Caí em desespero, pensando que tudo estava perdido. Passei a noite tremendo de raiva.
+
+No dia seguinte, um guarda do presídio veio me chamar. Fui e encontrei o inspetor Sawaguchi, o subinspetor Kuriyama e os chefes Matsushima e Konagaya. De tão furioso, não disse uma palavra. O chefe Matsushima disse: “Kanahisa, você parece muito zangado hoje. Sabe que o Grande Mestre veio para cá?”. Eu disse: “Hoje não vou falar absolutamente nada”. Então, todos tentaram me acalmar. Disseram: “Não fomos nós que trouxemos o Grande Mestre por causa do seu depoimento. Como há uma contraparte, não há o que fazer. Você ainda tem muitas coisas para nos contar. A única maneira de mostrar sua lealdade como responsável é falar tudo o mais rápido possível para que o Grande Mestre possa voltar”.
+
+Eu disse apenas uma frase: “Vocês falam bonito, mas o resultado é desastroso. Não tenho mais nada a dizer”. Os detetives disseram: “Hoje Kanahisa está zangado, não adianta. Vamos embora”. E foram.
+
+Na prisão, conversei e ouvi os outros detentos com antecedentes criminais. Parece que os reincidentes sempre conseguem escapar. Quem chora são apenas os bons.
+
+Atualmente, estou indiciado e em casa. Como alguém que serve a Deus, o fato de ter chegado a essa situação é prova da minha falta de fé. Diariamente, peço perdão a Deus e a todos os fiéis.
+
+Agora, só me resta esperar pelo dia do verdadeiro julgamento. Acredito que muitos absurdos inesperados surgirão no tribunal.
+
+***
+
+### Após o Retorno para Casa
+
+Devo relatar também o que aconteceu após meu retorno. Encontrei-me com um certo advogado e lhe contei os detalhes do interrogatório. Ele me disse: “Que pena! O réu tem o direito de permanecer em silêncio. Você não precisava responder sobre o que não se lembrava. A lei estabelece que o silêncio não pode ser usado contra você. Portanto, no seu caso, não havia necessidade de tanto sofrimento. Bastava insistir que não sabia. Ao inventar uma história, você acabou se complicando com a lei. É realmente lamentável”.
+
+Fiquei chocado. Percebi que tudo aconteceu por minha ignorância da lei. Agora, de nada adiantava me arrepender. Imagino que haja muitas pessoas na sociedade que sofrem calamidades inesperadas por desconhecerem a lei. Senti que, mesmo um religioso, precisa ter um conhecimento básico da legislação.
+
+Mas não foi só isso. No meu caso, fui levado à beira de um colapso mental. Ainda hoje, sofro de esgotamento nervoso e de tonturas extremas, e me esqueço de muitas coisas, o que é um grande problema. Não consigo sair de casa como gostaria, nem suporto viagens longas de carro. Gosto de compor poemas tanka, mas, como isso exige muita concentração, ainda não consigo. Escrevi este manuscrito com grande esforço, mas, como não precisei pensar, apenas relatar minhas experiências recentes, não foi tão difícil.
+
+Cerca de dez dias após minha libertação, o promotor K., através do meu advogado, solicitou um novo interrogatório. Alegando que minha doença ainda não estava curada, apresentei atestados de dois médicos e pedi para ser interrogado em casa, mas meu pedido foi negado. Tive que ir, como eles queriam, da minha residência em Gora, Hakone, até a promotoria em Mishima. Como ainda era difícil fazer a viagem direta, fui primeiro para minha casa em Atami, onde pernoitei. No dia seguinte, talvez por compaixão, o promotor se deslocou até a sub-promotoria de Atami. Como era perto, eu fui.
+
+O interrogatório foi uma repetição dos assuntos já exaustivamente abordados na delegacia e no presídio. O promotor perguntou se o que eu havia declarado até então estava correto. Pensei que aquela era a oportunidade para dizer a verdade. Quando comecei a falar, o promotor K. ficou extremamente irritado e disse: “Não posso aceitar que você mude seu depoimento agora. Se insiste em fazer isso, teremos que recomeçar a investigação do zero. O que me diz?”.
+
+Fiquei chocado. Minha saúde mal havia se recuperado. Se eu fosse submetido novamente àquele severo interrogatório de memória, seria terrível. Havia o risco de meu cérebro, que mal começara a se curar, ser novamente danificado. Sem alternativa, respondi conforme o desejo do promotor. Com isso, ele se acalmou, e tudo terminou sem incidentes.
+
+Ao voltar para casa, contei ao advogado o que havia acontecido. Ele disse: “Que pena! Hoje era o ‘golpe de misericórdia’. Era a melhor oportunidade para corrigir os depoimentos errados. Se tivesse insistido na verdade, talvez o caso tivesse sido arquivado”. Arrependi-me de ter perdido uma oportunidade irrecuperável.
+
+Tenho uma natureza que me impede de contrariar os outros. Sou extraordinariamente fraco e sempre acabo concordando com o que me dizem, o que muitas vezes me irrita comigo mesmo. Naquela ocasião, o advogado perguntou como estava o promotor. Eu disse: “No início, ele estava estranho, mas no final pareceu se acalmar”. Ele respondeu: “Claro! Você deu a ele os motivos para o indiciamento que ele queria”.
+
+Isso me fez lembrar de uma frase de um romance de Saneatsu Mushanokoji que me impressionou muito: “Ele é fraco como um deus, forte como um deus”. Essas palavras se aplicam perfeitamente a mim naquela situação. Se trocarmos “ele” por “Okada”, a frase se encaixa. Naquele momento, eu fui “fraco como um deus”. Mas também tenho um lado “forte como um deus”: o lado que odeia a injustiça e luta contra o mal até a vitória.
+
+Após meu retorno, soube que, no dia da minha libertação, o alto dirigente da nossa Igreja, Sozaburo Shibui, havia sido preso em meu lugar. Fiquei chocado. Segundo informações, ele foi levado várias vezes do presídio para a promotoria, a algumas quadras de distância, para ser interrogado. Dizem que o fizeram caminhar por uma rua movimentada usando um chapéu de palha para esconder o rosto e algemas. Isso mostra a severidade do tratamento que recebeu.
+
+O Sr. Shibui tem mais de sessenta anos. Além disso, há dois anos, sofreu seu terceiro derrame cerebral. Do ponto de vista médico, um segundo derrame já representa risco de vida. Um terceiro é considerado quase sempre fatal. No entanto, quando ele teve o terceiro derrame, graças ao meu Johrei, sua vida foi salva. Embora tenha melhorado consideravelmente, ainda não está totalmente recuperado. Por isso, delegou todas as suas funções a um substituto. Seu cérebro ainda não pode ser sobrecarregado, e um interrogatório na promotoria é impossível para ele.
+
+Não sei se sabiam ou não de sua condição, mas o fato de o terem tratado como um criminoso perigoso é incompreensível. Para ele, não havia risco de fuga nem de resistência, o que é óbvio pelo bom senso. Além disso, ele é o mais alto dirigente da Igreja, respeitado por muitos fiéis, e sua condição cerebral é a que descrevi. Manter um homem assim detido em um presídio por mais de dez dias e interrogá-lo quase diariamente é não apenas irracional, mas cruel. É evidente que um registro preciso não poderia ser obtido. É lamentável que um homem semi-doente tenha recebido tal tratamento.
+
+No dia da minha libertação, o próprio promotor disse: “Shibui ainda está com a cabeça meio confusa”, o que significa que ele sabia da condição. Segundo o relato do Sr. Shibui após sua libertação, por mais que fosse interrogado, ele se esquecia de muitas coisas e dizia: “Minha cabeça está confusa, não entendo bem. Por favor, escrevam como acharem melhor”. Ao que o interrogador gritou: “Seu idiota!”.
+
+Isso está certo? Para mim, é completamente incompreensível.
+
+Não pretendo fazer nenhuma crítica a esses fatos. Apenas relatei o que ouvi, como ouvi. A crítica fica a cargo do leitor. Minha única pergunta é: por que agir de uma maneira tão cruel, que desafia o bom senso?
+
+A opinião de muitas pessoas sobre este incidente é unânime: apesar da aparatosa busca e apreensão, o resultado foi um esforço em vão. Para salvar as aparências, eles precisavam produzir alguns culpados. Por isso, entraram em pânico e forçaram a mão no interrogatório.
+
+Outros diziam: “Acusar uma religião tão conhecida como a Sekai Kyusei Kyo e obter sucesso seria um grande feito, um trampolim para a carreira. Por isso, eles se empenharam ao máximo para encontrar um crime, agindo com um rigor desnecessário. Mas isso não acontece só com a Sekai Kyusei Kyo; já houve muitos casos assim”. Eu mesmo, em algumas ocasiões, neguei tais hipóteses, dizendo: “Que absurdo!”.
+
+Analisando em detalhes os métodos de interrogatório, há muitos pontos de difícil compreensão. Primeiro, as perguntas são desnecessariamente minuciosas. Por exemplo: o dinheiro dado a fulano, quem deu a ordem, quem entregou, em maços de que notas, a que horas do dia, em que cômodo, o que foi dito, quem estava ou não no cômodo. Repetem as mesmas perguntas quase todos os dias. É verdade que esse método pode ter algum efeito para reavivar a memória, mas duvido que uma pessoa comum se lembre de tantos detalhes depois de dois ou três anos.
+
+Além disso, a natureza do caso não é de agressão ou crime violento. Um promotor deveria saber que não se trata de um crime de grande malícia. Pela minha experiência, um assunto que, na época da Tokkō, seria resolvido em três dias, hoje levaria trinta dias, e talvez nem assim. Isso causa uma queda drástica na eficiência das investigações, e acredito que há muito espaço para melhorias.
+
+Outro ponto que gostaria de ressaltar é a profunda falta de compreensão dos promotoores de hoje em relação à religião. Essa incompreensão se manifesta, acima de tudo, na falta de respeito pelos religiosos, que são tratados como pessoas comuns. Dizem que, até mesmo na era Tokugawa, os monges eram mais respeitados que o cidadão comum. Um policial me disse: “Em casa, você pode ser tratado como um deus, todos se curvam e o reverenciam. Mas aqui, não. Aqui, você é tratado como um ser humano igual a um batedor de carteira ou um ladrão. Esteja ciente disso. É assim que é justo”. Fiquei perplexo com tal grosseria.
+
+Gostaria de falar também sobre a prosperidade dos Estados Unidos hoje. É preciso analisar a fundo as suas causas. Escusado será dizer que o pensamento do povo americano tem como base o cristianismo, o que se reflete em todos os aspectos da vida. Recentemente, em uma declaração sobre a questão da Coreia, o General MacArthur disse: “Deus ajudará nosso propósito”. Essas palavras revelam a profundidade de sua fé. O fato de que o Presidente Truman e a classe instruída dos Estados Unidos são, em sua maioria, cristãos, e de que quase não há um lar americano sem uma Bíblia, demonstra que a democracia americana é uma manifestação do espírito cristão.
+
+E o Japão de hoje? O que me impressionou profundamente foi a falta de fé dos promotores. Talvez por isso, eles pareçam tão frios, desprovidos de compaixão e sentimento. E não sou o único a pensar assim. Durante o interrogatório, eu queria falar sobre fé, mas eles não demonstravam o menor interesse, e eu acabava interrompendo o assunto. O objetivo primordial de um promotor não é criar criminosos, mas eliminá-los. No entanto, a realidade parece ser o oposto. Com este incidente, senti fortemente que aqueles que lidam com criminosos precisam ter uma base religiosa para que a reforma e a reabilitação possam ser alcançadas.
+
+Ao tratar os religiosos, eles não apenas nos veem como pessoas comuns, mas talvez até como inferiores. Suponho que, em seus corações, eles considerem a religião como algo inútil. Alguns parecem até nutrir um sentimento de ódio. Aconteceu o seguinte: um de meus subordinados, preso neste caso, ficou detido por mais de trinta dias em uma cela com vários outros. Durante a detenção, ele contava aos companheiros de cela sobre o rigoroso interrogatório diário. Um prisioneiro, um ladrão e agressor com várias condenações, ficou surpreso e disse: “Nem nós fomos submetidos a um interrogatório tão severo por tanto tempo. Esse tipo de interrogatório dura um ou dois dias, depois volta ao normal”. Isso mostra o desprezo com que os religiosos são tratados.
+
+No entanto, talvez não seja justo culpar apenas as autoridades. Afinal, não são poucos os que usam a religião como fachada para praticar fraudes e estelionatos. Diante deste incidente, senti profundamente que nós também precisamos nos autoexaminar e conquistar a confiança da sociedade. Nesse sentido, pode-se interpretar que Deus nos deu esta nobre provação para nos despertar.
+
+#### O Que Esperamos das Autoridades
+
+Diante do que relatei em detalhes, nós, que fomos submetidos a um interrogatório tão frio, desprovido de compaixão e lágrimas, sentimos profundamente a necessidade de que aqueles encarregados das investigações tenham um coração religioso. Para levar um réu ao arrependimento, não basta pressioná-lo cegamente. O interrogador deve julgar com um olhar de sabedoria. Se encontrar um crime, que o persiga até o fim. Mas, se perceber que não há crime, deve abandonar a suspeita e libertar o inocente prontamente. E, se houver um crime leve, que aplique a punição correspondente. Esse seria o procedimento correto.
+
+Se reconhecermos nossa culpa, não teremos objeção em receber a punição devida. Mas não podemos, de forma alguma, aceitar uma culpa que não temos. O que quero dizer é que, durante um interrogatório rigoroso, se a pessoa consegue reconhecer alguma culpa em si mesma, é mais fácil suportar. Mas, quando não é o caso, o sofrimento mental de reprimir a frustração é imenso. Melhorar essas diversas irracionalidades é o dever de um povo democrático. Portanto, escrevo este registro impulsionado por um incontrolável senso de justiça, sem qualquer outra intenção.
+
+Por fim, gostaria de dar um conselho especial. É a palavra “sinceridade”, que sempre pregamos. E isso se aplica especialmente àqueles que lidam com criminosos. Sem sinceridade, por mais que se esforce na aparência, o resultado será nulo. E o que cultiva a sinceridade? É a força da fé correta. A causa do crime, escusado será dizer, é a filosofia materialista e ateísta de que o invisível não é crível. Portanto, a erradicação do materialismo é o método fundamental para reduzir o crime. Esta é uma verdade imutável.
+
+Em primeiro lugar, é preciso fazer com que as pessoas reconheçam e acreditem na existência de Deus. Para isso, aqueles encarregados de interrogar os criminosos devem, antes de tudo, reconhecer a existência de Deus e, então, tratar os criminosos com amor sincero. Sem isso, é impossível tocar o coração do outro. Em uma palavra, a verdadeira sinceridade nasce apenas do reconhecimento de Deus. Se nos aproximarmos dos criminosos com amor sincero, nossa sinceridade tocará suas almas, e seus corações começarão a se mover.
+
+Esta experiência me revelou, de forma inequívoca, a falta de fé das autoridades investigadoras. Escrevo este texto com o desejo de que o mundo da lei também reconheça a necessidade da fé. Originalmente, não há ninguém que não possua uma fé inata. Contudo, como resultado da educação materialista, da falta de poder das religiões tradicionais, que permanecem estagnadas, e do fato de que, com exceção de algumas, a maioria das novas religiões não oferece nada de substancial, as pessoas chegaram aos dias de hoje com um preconceito arraigado.
+
+Quando tentamos explicar a essência da fé, não só não conseguimos que as pessoas a experimentem, como somos vistos com desdém, como pobres coitados presos à superstição, e ignorados. Isso é especialmente verdadeiro entre os intelectuais. Embora haja um número considerável de intelectuais que aderiram à nossa Igreja, eles tendem a evitar recomendá-la a outros e a manter sua fé em segredo.
+
+Some-se a isso as notícias falsas da mídia, a antipatia dos materialistas e a incompreensão das autoridades. Tentar expandir a fé em meio a tudo isso é uma tarefa árdua. E não são poucos os que, por mais que tentemos convencê-los, negam categoricamente a existência de Deus, afirmando que tudo não passa de superstição. Do nosso ponto de vista, essas pessoas, que consideram superstição o que não é, são os verdadeiros supersticiosos e dignos de pena. Pois nós, os chamados supersticiosos, vivemos em um estado de paz de espírito e, em meio a esta sociedade perigosa, não temos nenhuma ansiedade e desfrutamos de uma vida feliz.
+
+Há outro ponto importante. É o terrível preconceito em relação às nossas atividades religiosas. Ao investigar nossa Igreja, eles olham apenas para o lado negativo e fecham os olhos para o lado positivo. É verdade que, como parte de suas funções, as autoridades de investigação se concentram apenas nos aspectos relacionados a crimes. Mas aqui, é preciso considerar que não é a lei que cria o Estado, mas o Estado que cria a lei. Ou seja, se o Estado é o principal, e a lei, o secundário, ao investigar nossa Igreja, eles deveriam olhar tanto para o lado negativo quanto para o positivo. O lado positivo é como nossa Igreja contribui para o bem do país.
+
+Pessoas desenganadas por grandes hospitais e vários médicos são salvas de forma milagrosa; pessoas com ideologias nefastas, criminosos perigosos e delinquentes juvenis se regeneram; a pobreza é solucionada. Inúmeros seres humanos “negativos” são transformados em seres humanos “positivos”. Esses são fatos vivos. Uma parte deles está publicada em nossos materiais, e qualquer um que os leia não terá dúvidas. Acima de tudo, o desenvolvimento sem precedentes da nossa Igreja é a maior prova disso.
+
+No entanto, em relação à nossa Igreja, eles não olham para o lado positivo e buscam apenas o negativo, procurando por alguma falha. Essa atitude ignora o interesse nacional e se baseia apenas em conveniências e interesses próprios. Como se costuma dizer, se batermos em um tatame, sairá poeira. Como nossa Igreja cresceu rapidamente, pode haver falhas de supervisão ou pontos que infringem a lei por ignorância. Mas isso representa talvez um por cento do todo. Se noventa por cento é branco e um por cento é preto, é evidente que apoiar os noventa por cento é o que beneficia o país.
+
+No entanto, as autoridades olham apenas para o um por cento e se recusam a ver os noventa. É como se pegassem o um por cento preto e o expandissem para apagar os noventa por cento brancos. Em vez de salvar os noventa insetos e matar um, eles salvam um e matam noventa. Essa parece ser a verdadeira causa deste incidente.
+
+Esse um por cento preto é, escusado será dizer, o resultado das ações do bando de extorsionistas que mira nossa Igreja, dos invejosos, daqueles que são prejudicados pelo nosso desenvolvimento e dos opositores que agem por rivalidade comercial. Isso foi propagado por jornais, revistas e boatos, e as autoridades, seguindo o ditado de que “não há fumaça sem fogo”, pensaram que devia haver algo de podre em nossa Igreja e decidiram investigar a fundo. Já sabíamos desse plano há vários meses. Alguns nos deram conselhos, mas, como estávamos realizando um trabalho nobre do qual não tínhamos do que nos envergonhar diante do Céu, confiamos que a verdade acabaria por vir à tona e não fizemos nada.
+
+No entanto, as autoridades, embora tenham investigado os bancos e outras instituições, não encontraram grandes depósitos. Concluíram, então, que o dinheiro havia sido convertido em ouro, prata e joias e habilmente oculto. Isso provavelmente levou à busca e apreensão de grande escala.
+
+Por outro lado, houve algo que aprofundou muito as suspeitas das autoridades. Desde o ano passado, notícias falsas sobre receitas de mais de dez milhões de ienes por dia e um patrimônio de bilhões de ienes vinham circulando em jornais e revistas. Embora as autoridades não as tenham engolido por completo, é provável que tenham dado algum crédito a elas. Além disso, o boato no qual o bando de extorsionistas mais se empenhou foi o da ocultação de uma grande quantidade de barras de ouro e diamantes. As autoridades devem ter pensado: “É isso!” e agido. E, uma vez que as autoridades levantam uma suspeita, mesmo que se prove errada, elas não desistem facilmente e parecem determinadas a levar sua ideia até o fim. Por isso, acabam sendo forçadas a dar uma importância exagerada a crimes menores.
+
+Outro ponto que gostaria de ressaltar é que nossa Igreja foi estabelecida como pessoa jurídica religiosa em agosto de 1947, há apenas dois anos e meio. Até então, nosso patrimônio era modesto. É impossível que, em um período tão curto e em um mundo tão difícil, tenhamos acumulado um patrimônio de bilhões de ienes. Isso é algo que se pode entender com um pouco de bom senso. Portanto, se as autoridades se deixaram levar por esses boatos e notícias falsas, nossa Igreja foi vítima de uma grande calamidade, o que é extremamente lamentável.
+
+Diante do exposto, peço que as autoridades, de agora em diante, julguem nossa Igreja de forma imparcial, olhando tanto para o lado positivo quanto para o negativo. Se o lado positivo for muito maior que o negativo, então, reconhecendo nosso valor, se não nos apoiarem, que ao menos nos protejam para que possamos atuar em paz. Em suma, é preciso abandonar uma visão mesquinha e adotar uma perspectiva ampla. Acredito que a liberdade de religião também se baseia nesse princípio.
+
+Diz-se que “árvores altas atraem o vento” ou “o prego que se destaca é martelado”. É exatamente isso. É comum ouvir que os japoneses têm uma mentalidade insular de se unirem para derrubar qualquer um que se destaque, o que é um problema. Os que têm discernimento sempre lamentam o quanto isso impede o progresso do país. Se não mudarmos esse ponto, jamais surgirá algo grandioso. Em contraste, ouvi dizer que nos Estados Unidos, quando alguém começa a se destacar, a sociedade o apoia para que se torne ainda maior. Assim, o Japão permanecerá para sempre encolhido em um canto da Ásia. Espero que percebamos isso e que o dia em que nos tornaremos uma grande nação cultural, contribuindo para a paz mundial, não tarde a chegar.
+
+#### A Violação dos Direitos Humanos
+
+É desnecessário dizer que a liberdade e a democracia começam com o respeito aos direitos humanos. Contudo, este incidente me fez perceber que, na prática, isso raramente acontece. O que me surpreendeu foi a atitude dos funcionários públicos, que violam os direitos humanos do povo com a maior naturalidade. A polícia prende e priva as pessoas de sua liberdade como se fosse a coisa mais normal do mundo. Pode-se dizer que eles formam uma classe privilegiada.
+
+Com base em uma simples denúncia, uma carta anônima, um relatório de um subordinado, eles convocam e detêm pessoas sem uma investigação adequada. E, mesmo na detenção, não se importam com o transtorno causado ao réu. Um interrogatório que poderia ser resolvido em um dia de detenção se arrasta por dois ou três dias. Neste caso, sob o pretexto de que várias pessoas estavam envolvidas, fomos detidos por mais de vinte, e até mais de quarenta dias. Pelo bom senso, a suspeita poderia ter sido esclarecida em uma ou duas semanas. Mas, como já disse, eles repetem a mesma coisa todos os dias, e o processo se arrasta. Isso não é democracia, é burocracia.
+
+O Japão viveu sob um longo regime feudal, e a mentalidade de “senhor feudal” das autoridades talvez seja difícil de erradicar. E o povo, por sua vez, com sua atitude de se curvar aos poderosos, acaba se submetendo a tudo. Sinto que ainda estamos longe de um Japão verdadeiramente democrático. Quando ouço sobre a relação entre funcionários públicos e o povo nos Estados Unidos, sinto uma profunda inveja e anseio para que o Japão chegue logo a esse ponto.
+
+É verdade que a polícia japonesa melhorou em relação ao passado. A linguagem rude e os termos desrespeitosos quase desapareceram, e a atitude em relação ao povo melhorou consideravelmente. Mas acredito que já é hora de acabar com os excessos que restringem desnecessariamente a liberdade de expressão do povo.
+
+A seguir, gostaria de descrever meu estado psicológico como réu durante o interrogatório. Talvez não seja inútil. Como já detalhei, é natural negar o que não se lembra em resposta às perguntas do interrogador. Mas isso parece irritá-lo, e o interrogatório se intensifica. Eles acabam nos ameaçando, se irritando, gritando e nos insultando. O réu também se torna emotivo e não consegue dizer o que quer. O interrogatório não flui. O resultado é uma enorme perda de tempo e energia para ambos os lados.
+
+Após ser libertado e recuperar a saúde e meu estado psicológico normal, refleti sobre a situação e passei a entender melhor o que aconteceu. “Por que eu não defendi minha posição com mais veemência naquela época?”, “Por que eu disse coisas que poderiam me complicar com a lei?”, “Por que inventei fatos e concordei com as armadilhas do interrogatório, mesmo sabendo que eram desfavoráveis?”. Foi um estado psicológico estranho. Mais tarde, ouvi dizer que, se eu tivesse mantido a verdade até o fim, talvez não tivesse sido indiciado. Arrependi-me, mas agora não há mais o que fazer. Tentarei descrever em detalhes meu estado psicológico daquela época.
+
+Em primeiro lugar, ao ser colocado na cela de detenção, o ambiente muda completamente. O quarto tem apenas uma pequena janela no alto, de onde nem se vê o céu azul. Fica-se sentado em silêncio, do amanhecer ao anoitecer, em um quarto escuro de cerca de três tatames. É como ser um cadáver vivo. O teto e as paredes são de tábuas brutas, e um dos lados é uma grande porta de grades. De vez em quando, um policial abre a porta com uma chave absurdamente grande. O som metálico e sinistro é suficiente para causar um esgotamento nervoso.
+
+Se a pessoa cometeu um crime, talvez consiga suportar. Mas, se não, é uma situação ridícula e deprimente. Como tenho fé, pensei que Deus estava me fazendo passar por aquilo para polir minha alma e consegui aguentar. Mesmo assim, é muito difícil, e quem não passou por isso não consegue entender. Lembrei-me da expressão “a liberdade de estar vivo” de um romance russo. É uma forma irônica de dizer que não há liberdade alguma. E era exatamente isso. O único espaço de liberdade eram os três tatames. O único exercício era caminhar de um lado para o outro, como um animal enjaulado. Nunca senti tanto a preciosidade da liberdade.
+
+A comida é servida três vezes ao dia para nos manter vivos. É só isso. Não se pode conversar, ler, fumar. O banheiro só pode ser usado em horários determinados. Nesse ponto, um animal é mais livre. Senti-me desqualificado como ser humano.
+
+Aos poucos, o apetite diminui. Dizem os experientes que o pior é depois de dez dias. Depende da pessoa, mas geralmente, depois de vinte dias, a pessoa se acostuma e fica mais fácil. Após dez dias consecutivos, a fadiga física, somada a um tipo de esgotamento nervoso, enfraquece enormemente a força mental. A pessoa perde a vontade de argumentar, por mais que o interrogador diga, e entra em um estado de desânimo, de “que seja”. Por mais que tente lutar, o corpo e a alma não obedecem. Foi por isso que desmaiei duas vezes.
+
+O medo de entrar na sala de interrogatório é imenso. Apresentar-se diante do interrogador é terrivelmente assustador. Eu sempre tive confiança na minha força mental, mas ali, a confiança se dissipou. A única coisa que ocupava minha mente era o desejo de escapar do interrogatório e sair daquele lugar. Se o que eu dissesse era crime ou não, isso não importava. A única coisa que me confortava era a certeza de que, como eu não havia feito nada de errado, acabaria sendo inocentado. Não havia espaço para pensar em mais nada. Esta é a minha confissão sincera.
+
+A violação dos direitos humanos pode assumir várias formas. Pensei que o procedimento das autoridades, como descrevi, também é uma forma de violação dos direitos humanos.
+
+#### O Presídio
+
+Devido a este incidente, fiquei cinco dias no Presídio de Shizuoka (que na verdade é um centro de detenção). Gostaria de relatar algo que senti profundamente naquela época.
+
+O presídio era um prédio recém-construído, com instalações modernas e bem equipadas. Tinha um ar cultural que em nada se assemelhava à imagem que eu fazia desse tipo de lugar. Os guardas eram muito gentis, e o ambiente era permeado por um espírito democrático. Os prisioneiros pareciam saudáveis e alegres, o que me causou uma boa impressão.
+
+O que lamentei, no entanto, foi a ausência de instalações para o espírito. E o que quero dizer com “instalações para o espírito”? É a educação religiosa. Gostaria de apresentar aqui uma proposta.
+
+Primeiro, construir um grande auditório. Duas vezes por dia, de manhã e à tarde, por trinta a sessenta minutos, convidar autoridades de diferentes religiões para proferir palestras, em sistema de rodízio. Tenho certeza de que eles aceitariam de bom grado, pois não há trabalho mais significativo para um religioso. Para os prisioneiros, seria uma mudança de rotina, um alimento para a alma. Inconscientemente, muitos reconheceriam seus erros e se arrependeriam.
+
+Há muito se discute a introdução da educação religiosa nas escolas, uma proposta que, lamentavelmente, ainda não foi implementada, provavelmente devido a questões complexas. Ao contrário do Ocidente, onde a religião é predominantemente o cristianismo, o Japão tem inúmeras escolas e seitas, o que torna a questão impraticável.
+
+Mas qual é a realidade do Japão de hoje? Como todos sabem, o número de criminosos aumentou drasticamente. As autoridades e as pessoas de bem sentem que algo precisa ser feito, que não se pode mais ignorar a situação. Se continuarmos assim, a instabilidade social só aumentará, e o futuro do Japão reconstruído será sombrio. É preciso tomar medidas urgentes. No entanto, ainda não se encontrou uma solução eficaz.
+
+Isso porque os olhos estão voltados apenas para o aspecto material, ignorando o espiritual. É sobre isso que quero falar. Por mais que a polícia e os tribunais estejam bem equipados e se esforcem na prevenção do crime, no fim, são métodos paliativos. Pois olham apenas para o resultado e fecham os olhos para a causa. É uma lei universal que tudo tem uma causa e um efeito. É algo óbvio, mas o fato de não se perceber essa obviedade é uma grande falha da cultura moderna. A razão para isso é a ênfase excessiva na educação materialista, uma cultura manca. Vejam: diz-se que a cultura progrediu, mas o crime, em vez de diminuir, aumenta. Essa é a maior prova.
+
+Os métodos atuais de prevenção do crime são multas e punições corporais. A punição pode ser necessária se não houver outra alternativa, mas esperar que apenas isso elimine o crime da sociedade é como esperar o rio Amarelo clarear. Leis e punições são como chicotes, jaulas e redes para animais. Apenas contêm sua ferocidade. Se houver uma brecha, o animal tentará escapar. Isso se aplica perfeitamente à sociedade humana. Leis cada vez mais rígidas são como apertar as malhas da rede. Isso mostra quantos homens-fera existem hoje.
+
+Nesse sentido, o verdadeiro progresso da cultura seria o aumento do número de pessoas que não precisam de perigo, mesmo sem leis ou jaulas. E criar essas pessoas, que não precisam ser tratadas como animais, é a missão fundamental da religião. Sem o reconhecimento disso, por mais que as instalações de prevenção materialistas sejam completas, é evidente que não se obterá o efeito desejado.
+
+Portanto, sugiro às autoridades que a educação religiosa para os prisioneiros é o método mais apropriado e eficaz, e que não requer grandes despesas.
+
+Por fim, gostaria de acrescentar algo. Seria bom ter uma Bíblia em cada cela. De todos os livros religiosos do mundo, não há nenhum com mais poder para levar ao arrependimento do que a Bíblia.
+
+#### O Absurdo
+
+Depois de tanto escrever sobre assuntos sérios, gostaria de relatar um ou dois episódios absurdos envolvendo jornalistas e outros.
+
+Quando fui levado pela primeira vez, pouco antes de chegarmos à Delegacia de Ihara, o chefe K., que estava no carro, disse: “Os jornalistas devem estar esperando no portão da frente, vamos entrar pelo de trás”. E estacionou o carro no portão dos fundos. Mas os jornalistas, que souberam da manobra, se aglomeraram assim que eu saí do carro. No caminho de cerca de vinte metros até a entrada, dos dois lados, os flashes dispararam mais de dez vezes.
+
+Assim que entrei na delegacia, fui levado para a sala de interrogatório no segundo andar. Enquanto eu passava por um breve interrogatório, houve uma confusão com um policial que tentava impedir um fotógrafo de abrir a porta da sala para me fotografar. O mais surpreendente foi ver alguém que havia subido em um poste de eletricidade com uma escada, apontando a lente pela janela do segundo andar. Um oficial percebeu, correu para fechar a cortina e, pouco depois, pensando que o perigo havia passado, abriu-a novamente. Mas então, encontraram outro fotógrafo que havia subido em uma árvore com uma escada, apontando a lente. Fecharam a cortina novamente, e todos riram. A dedicação deles ao trabalho se assemelhava à competição de um atleta em busca da pontuação máxima.
+
+Quando eu estava descendo as escadas para ir ao banheiro, de repente, uma multidão se juntou, vinda de todos os lados, tentando me fotografar. Um policial me pegou pela mão e me fez voltar às pressas. Depois disso, passei a usar o banheiro privativo dos policiais. Para chegar lá, eu descia silenciosamente por uma escada nos fundos.
+
+No terceiro dia, dia 31, fui levado ao tribunal de Shizuoka. Não me lembro bem, mas acho que um juiz me perguntou se eu admitia as acusações. O procedimento durou cerca de trinta minutos. Na volta para a delegacia, foi uma confusão. Ao sairmos, um oficial me avisou: “Hoje tem muitos jornalistas e curiosos esperando. Esteja preparado e entre no carro o mais rápido possível”. Vários policiais se desdobravam para organizar a multidão.
+
+No caminho do portão dos fundos até a rua, de cerca de vinte metros, uma fileira de câmeras e equipes de filmagem não deixava espaço. Ao sairmos do portão, a fileira de câmeras continuava. Eles estavam esperando, e os flashes disparavam incessantemente. Como minha consciência estava limpa, entrei no carro com calma. Quem viu os noticiários da época deve ter entendido bem a cena.
+
+A rua em frente à delegacia tinha cerca de catorze metros de largura e estava lotada de curiosos e fiéis. Devia haver centenas, talvez mil pessoas. Havia muitos fiéis, que eram fáceis de identificar porque estavam com as mãos em prece. O que me surpreendeu foi que, a algumas quadras da delegacia, um carro tentou nos ultrapassar em alta velocidade. Olhei e vi que eles estavam nos filmando de dentro do carro, emparelhando a velocidade. Fiquei muito surpreso.
+
+Cerca de uma hora depois, chegamos ao portão da frente do tribunal de Shizuoka. E lá estava outra fileira de câmeras. Equipes de filmagem e muitos outros esperavam. Fomos filmados na ida e na volta.
+
+E aqui também aconteceu algo engraçado. A algumas quadras do tribunal, um cinegrafista subiu na lataria do nosso carro em movimento e, pela janela aberta do motorista, tentou nos filmar. O policial que estava comigo percebeu, parou o carro e, depois de muita insistência, conseguiu convencê-lo a descer.
+
+Enquanto estive na delegacia, jornalistas locais vinham de vez em quando para fazer perguntas e tirar fotos.
+
+Agora, um absurdo da minha libertação. Foi por volta das onze da noite de 19 de junho. Um oficial sugeriu que saíssemos pelo portão dos fundos, pois muitos jornalistas esperavam na frente. Ele abriu um portão de emergência, raramente usado, e eu saí discretamente. Os jornalistas que esperavam na frente foram enganados. Dizem que ficaram furiosos quando descobriram. Só perceberam cerca de cinquenta minutos depois, quando já era tarde demais para me alcançar.
+
+No entanto, um jornalista do Mainichi deve ter avisado a sucursal de Atami por telefone. No Passo de Jikkoku, nosso carro cruzou com o dele, e um flash disparou de repente, o que me assustou um pouco. Por uma questão de estratégia, meus subordinados fizeram parecer que eu estava voltando para minha casa em Mizuguchi-cho, Atami. Mas, de repente, mudamos de direção e fomos para Hakone. Chegamos à casa de um conhecido em Sengokuhara por volta das três e meia da manhã. Essa batalha de astúcia com os jornalistas também foi, à sua maneira, divertida.
+
+Houve também outro incidente. Enquanto eu estava detido, um dia, vários policiais vieram à minha casa para uma busca e apreensão. Entraram debaixo do assoalho e subiram no telhado, investigando minuciosamente. Ao voltar, ouvi o relato e achei o método de busca muito estranho. Perguntei, mas ninguém soube me explicar. Lembrei-me então de quando eu era membro da Oomoto. A religião foi alvo de uma suspeita absurda: dizia-se que havia uma sala secreta no porão, usada para encontros amorosos, e que centenas de lanças de bambu estavam escondidas. Uma grande busca e apreensão foi realizada, causando um grande transtorno. Imaginei que algo semelhante, baseado em uma carta anônima, tivesse acontecido. Se for o caso, fico chocado ao pensar que existem pessoas no mundo que se dão ao trabalho de pregar peças tão elaboradas.
+
+E mais uma coisa engraçada. Há alguns anos, tive sarna, e isso deve ter se espalhado. Quando estava no presídio, fui examinado pelo médico da instituição. Após um exame cuidadoso, ele garantiu que eu estava completamente curado. O médico era um homem espirituoso e divertido. Ele começou a conversar comigo e, de repente, perguntou: “Com que idade o ‘O-Hikari-sama’ conheceu uma mulher?”. Fiquei desconcertado. “Acho que por volta dos dezoito ou dezenove anos”, respondi. A conversa enveredou por temas interessantes, como as relações entre homens e mulheres. Quando estávamos no auge do assunto, o médico foi chamado para um compromisso e se despediu. Foi como encontrar um buda no inferno; por um momento, senti meu coração se iluminar.
+
+Por fim, a obra-prima do absurdo. Foi durante o noticiário das nove da noite de 24 de julho. Ouviu-se a notícia de que o prefeito de Atami, Shuugetsu So, havia sido convocado pela promotoria de Shizuoka. A suspeita era de que ele teria recebido um suborno de cem mil ienes do “O-Hikari-sama” da Sekai Kyusei Kyo. Fiquei tão perplexo que não consegui dizer uma palavra. Não sei quem inventou essa história e a enviou à emissora, mas, se a emissora a divulgou sem a devida apuração, a falha é dela. E quem se responsabilizará por isso? Mas talvez isso seja apenas um dos dissabores de ser uma pessoa popular.
+
+#### Conclusão
+
+Analisando este incidente com calma, não me parece que o interrogatório tenha sido conduzido de forma justa. Gostaria de levantar alguns pontos de interrogação.
+
+Primeiro, a severidade do interrogatório e sua longa duração, desproporcionais à natureza da suspeita. Pela minha experiência, foi incomparavelmente mais longo que na época da Tokkō. Naquela época, por mais minucioso que fosse o interrogatório, um caso como este seria resolvido em dois ou três dias. Desta vez, demorou várias vezes mais. Eles repetiam a mesma coisa todos os dias, o que é extremamente ineficiente.
+
+Pensei: “É verdade que, em alguns casos, pode ser necessário prolongar a investigação. Mas este caso não é tão complexo. E os réus são todos pessoas de fé profunda, não são criminosos. Pelo contrário, são superiores ao cidadão comum”. E não sou só eu que digo isso; os próprios interrogadores os elogiaram. No entanto, o tratamento foi o mesmo dispensado a um criminoso perigoso.
+
+Além disso, o interrogatório parecia ser conduzido de forma a nos levar a dar respostas que infringissem a lei. Todos os meus subordinados que foram interrogados concordam com isso. Por mais que o réu contasse os fatos como eles eram, eles não aceitavam. Pensei que era porque não correspondia ao que eles queriam ouvir.
+
+Durante o interrogatório, eles nos intimidavam, nos levavam ao desespero, nos insultavam e nos provocavam. Usavam todo tipo de tática. Diferentemente do passado, a tortura física não é mais permitida, mas, em seu lugar, temos a tortura mental, verbal. E, com uma tática de resistência, eles nos esgotavam ao extremo, com a determinação de não nos soltar até que déssemos uma resposta que pudesse ser usada como crime.
+
+A tortura verbal, por não causar dor física, pode ser mais fácil de suportar para um verdadeiro criminoso. Mas, para um cidadão de bem, o sofrimento é tão profundo quanto o da tortura física, se não maior. Especialmente para quem desconhece a lei ou é fraco de espírito, a ansiedade e o medo extremos, somados à fadiga física, levam a um estado de exaustão e impotência espiritual e carnal. A maioria acaba entrando em um estado de desânimo.
+
+O resultado é que, mesmo aqueles que mantinham firmemente a verdade, acabam desistindo, pensando que não conseguirão resistir. Somado ao desejo de sair dali o mais rápido possível, eles se veem forçados a dar uma resposta que agrade aos interrogadores, contra a sua vontade. No meu caso, por ser idoso e líder de uma religião, houve alguma consideração. Mas imagino que, com meus subordinados, o tratamento tenha sido muito pior.
+
+Diante do exposto, não posso deixar de pensar que este caso foi uma ação planejada das autoridades. Como eu, todos os réus disseram que, quando davam uma resposta que poderia ser considerada crime, os interrogadores ficavam satisfeitos. Caso contrário, a atitude mudava, e a pressão aumentava. Chegamos a um ponto em que o importante era escapar da situação, mesmo que tivéssemos que inventar ou mentir.
+
+No entanto, os interrogadores diziam: “Não minta, diga a verdade”, enquanto eles mesmos usavam mentiras terríveis para nos enganar. Um exemplo: Inoue relatou que, durante o interrogatório, disseram-lhe: “Isso deve ter acontecido, conte-nos a verdade”. Ele, por não saber de nada, disse que não sabia. O interrogador então disse: “Se você não falar, vamos chamar Okada e perguntar a ele. Está bem?”. Inoue, para quem a ideia de me ver chamado era mais dolorosa que a morte, pensou que, se assumisse a culpa, eu seria poupado. E concordou com tudo o que o interrogador dizia. Pouco depois, soube que eu havia sido chamado, percebeu que fora enganado e chorou de remorso.
+
+Então, os interrogadores disseram a Inoue: “Okada foi preso e confessou tal e tal coisa. Você também deve saber”. Ele, sem perceber que era uma armadilha, disse: “Se o Mestre diz isso, deve ser verdade”. E confirmou. Depois, vieram a mim e disseram: “Inoue confessou tal e tal fato. Você também deve confirmar”. Foi um interrogatório circular. Eu disse: “Inoue é muito distraído, não se pode confiar nele”. Eles responderam: “Que absurdo! Ele é mais inteligente que você”. Fiquei perplexo, sem palavras.
+
+Isso mostra como os crimes são construídos, pouco a pouco, com mentiras, engodos, ameaças e resistência. Que coisa terrível! Em suma, o interrogador cria as perguntas, e nós criamos as respostas. E, nessa troca, perdemos dias e dias. O resultado é que tanto o interrogador quanto o réu desperdiçam tempo e energia, sem nenhum ganho. E o contribuinte, que paga por tudo isso, vê seu dinheiro sendo desperdiçado.
+
+Analisei este incidente de todos os ângulos. Não nego que tivemos nossas falhas, mas elas se devem unicamente ao nosso desconhecimento da lei. Nada mais.
+
+O cerne deste incidente é, sem dúvida, a sonegação fiscal. Mas acredito que há sérias dúvidas a serem levantadas sobre essa questão. Na época, nós, que nos dedicávamos às atividades religiosas sob o nome de Pessoa Jurídica Religiosa Nippon Kannon Kyodan, estávamos tranquilos, pois a lei isentava as pessoas jurídicas religiosas de impostos.
+
+No entanto, em 8 de novembro de 1948, de repente, a Receita Nacional fez uma busca e apreensão na sede da Associação 567, em Odawara, presidida por Sozaburo Shibui, que era, na época, a representação da nossa organização, e apreendeu todos os livros contábeis. Os livros, que estavam sob a responsabilidade de um contador, tinham os registros de receitas completos, mas os de despesas estavam apenas pela metade. Por que tamanha negligência? Foi a tranquilidade de saber que a pessoa jurídica era isenta de impostos.
+
+No entanto, o fiscal da Receita considerou a metade não registrada das despesas como renda pessoal, de acordo com a lei, e decidiu tributá-la. Ao saber disso, ficamos surpresos e tentamos explicar as despesas não registradas, mas eles se recusaram a aceitar, dizendo que não poderiam reconhecer o que não estava nos livros. Sem qualquer atitude conciliatória, eles tomaram uma decisão unilateral e arbitrária. O resultado foi que a tributação recaiu sobre mim e Sozaburo Shibui, sem que pudéssemos contestar. Achei aquilo extremamente irracional.
+
+Na época, o Sr. Shibui, indignado, disse: “Se o motivo foi a metade não registrada no momento da busca e apreensão, se a Receita tivesse vindo um pouco mais tarde, os livros estariam completos, e a questão da sonegação não teria surgido”.
+
+O Sr. Shibui pretendia contestar a decisão através de um processo administrativo. Mas, para isso, era preciso pagar o imposto imediatamente. Estimava-se que o valor não seria inferior a trinta milhões de ienes. Pagar uma quantia tão grande de uma só vez significaria a falência da organização. Ele expôs a situação ao falecido advogado Hasegawa, pedindo que negociasse uma redução do imposto e um parcelamento. O advogado Hasegawa, compadecido, disse que se esforçaria ao máximo e que podíamos confiar nele, que tinha certeza de que conseguiria um bom resultado. O Sr. Shibui, então, entregou todo o caso a ele. A partir daí, demos ao advogado Hasegawa todo o dinheiro que ele pedia.
+
+O Sr. Shibui, que havia entrado no mundo da fé há mais de dez anos e estava afastado da sociedade, não tinha interesse nem conhecimento sobre impostos. Além disso, pouco depois do incidente, ele sofreu seu terceiro derrame cerebral e teve que passar a responsabilidade do caso para seu irmão mais novo, Tetsuo.
+
+Como tudo estava nas mãos do advogado Hasegawa, não havia necessidade de nos preocuparmos com os métodos que ele usaria. E, como leigos, não adiantaria darmos nossa opinião. Os irmãos Shibui apenas esperavam que o caso fosse resolvido favoravelmente.
+
+O problema fiscal foi resolvido, de alguma forma, graças aos esforços do advogado (o valor final foi de 10,5 milhões de ienes para mim, incluindo 800 mil do ano anterior, e 7 milhões para o Sr. Shibui). O imposto foi pago, e eu, os irmãos Shibui, os outros dirigentes e os principais fiéis ficamos aliviados. Pensamos que não haveria mais problemas e esquecemos o assunto.
+
+No entanto, a promotoria resolveu desenterrar o caso e nos deteve, submetendo-nos a um interrogatório extremamente severo, como já relatei. Analisando todo o processo desde o início, vemos a atitude da Receita Nacional. A lei tributária democrática de hoje estabelece que a decisão deve ser tomada em acordo com o contribuinte, com o consentimento de ambas as partes. No entanto, eles não adotaram esse procedimento e determinaram a base da tributação de forma apressada. Foi um ato ilegal. E, como isso se tornou a causa deste incidente, mais de um ano depois, fomos vítimas de um método de cobrança de impostos antidemocrático.
+
+E não foi só isso. A tributação exorbitante imposta pela Receita Nacional serviu de base para os anos seguintes. Em 1949 e neste ano, uma grande renda pessoal foi arbitrariamente presumida a partir da receita da pessoa jurídica, resultando em uma tributação de seis a sete milhões de ienes. Como não tinha dinheiro, tive que pegar emprestado da organização para pagar. E, mesmo assim, disseram que não era suficiente e tentaram me impor uma cobrança adicional. Mas as finanças da Igreja não permitiram, e o caso está em negociação.
+
+Olhando para trás, se tivéssemos aceitado a tributação inicial, a organização teria entrado em colapso. Para evitar a crise, contratamos um advogado. E, devido à má conduta do advogado, nós, que não sabíamos de nada, fomos arrastados para este incidente. Onde está a nossa culpa?
+
+É verdade que, pelo resultado, a suspeita de suborno é inevitável. Mas, na prática, não temos culpa alguma. Jamais imaginamos que seríamos indiciados. Fomos perseguidos por uma política antidemocrática, e os danos só aumentam. Que governo terrível!
+
+Desde o início, não tivemos a intenção de sonegar. E, como religiosos, não teríamos a menor intenção de infringir a lei. Mesmo hoje, com essa acusação abominável pesando sobre nós, não temos nada do que nos envergonhar. Nossa consciência está limpa diante do Céu e da Terra.
+
+Gostaria de descrever os enormes danos que este incidente causou à nossa Igreja. Além do sofrimento físico e mental por dezenas de dias e da acusação infame, os jornais, não sei se por invenção dos repórteres, publicaram notícias falsas e exageradas, em letras garrafais, causando um grande abalo em nossa credibilidade social. O impacto espiritual sobre os trezentos mil fiéis também foi imenso.
+
+O ímpeto de crescimento da nossa Igreja foi freado. Desde então, nossa expansão foi reduzida a uma fração do que era, e as receitas diminuíram drasticamente. Fomos forçados a suspender as obras da Sede. Não se sabe quantos anos serão necessários para nos recuperarmos, restaurarmos nossa credibilidade e nos reerguermos.
+
+Se temos que sofrer tantos danos por um crime que não cometemos, sem ter a quem recorrer, e sermos forçados a engolir o choro, a política do Japão está certa? O justo seria que o Estado nos pedisse desculpas e nos indenizasse adequadamente. Mas, na prática, isso não acontecerá. O que nos resta é ansiar, do fundo do coração, pela rápida concretização de uma sociedade verdadeiramente democrática, onde possamos viver em paz, livres da ameaça do poder.
+
+Analisando a causa deste incidente, é evidente que não se trata apenas das falhas do sistema político atual. Os funcionários públicos abusam de seu poder, tratam o povo como escravos e, quando seus erros causam danos ao povo, eles os ignoram, sem assumir qualquer responsabilidade. Será esta a forma de uma política democrática? Gostaria de ouvir uma resposta responsável das autoridades.
+
+E não é só isso. Eu e quatro de meus subordinados fomos todos indiciados. O veredito será dado em um julgamento público. Mas, do início ao fim, as despesas com advogados e os prejuízos tangíveis e intangíveis que sofremos foram imensos, como já relatei.
+
+Eu esperava que o caso fosse arquivado. Pois o material básico para o indiciamento, o registro do interrogatório, é, como já disse, uma obra de ficção desleixada. E os próprios interrogadores devem saber disso. É verdade que um dos réus cometeu um crime leve, e seu indiciamento é inevitável. Mas, para os outros, os motivos para o indiciamento são não apenas frágeis, mas inexistentes. No entanto, fomos todos indiciados em um único pacote, o que é, no mínimo, arbitrário.
+
+Ouvi dizer que o julgamento de hoje se baseia em provas materiais ou no testemunho de testemunhas. No entanto, a base para o indiciamento, como já disse, não passa de um registro fabricado no desespero. O fato de que a busca e apreensão com oitenta policiais não produziu nenhuma prova material e de que nenhuma testemunha apareceu é a prova mais clara.
+
+Relatei os fatos como eles aconteceram, da forma mais detalhada possível. Se este registro puder contribuir, ainda que minimamente, para o bem-estar do povo, sentirei que o sofrimento que passamos não foi em vão.
+
+Por fim, como religioso, gostaria de dizer uma palavra. Até hoje, como aqueles que têm contato com nossa Igreja bem sabem, temos nos esforçado para eliminar o mal da sociedade e promover o bem. Por isso, nós mesmos nos policiamos para não cometer injustiças, seguir o caminho correto e evitar erros. O fato de termos sofrido tal provação parece muito estranho, mas, refletindo bem, o que mais poderia ser senão a profunda intenção de Deus?
+
+Acredito que esta foi uma grandiosa provação, concedida para que pudéssemos polir nossas almas e nos tornarmos úteis na grande obra de salvação no futuro. As inúmeras dificuldades que enfrentamos nos últimos anos me fazem crer que Deus nos fez conhecer todos os lados sombrios da sociedade.
+
+Hoje, a cultura do nosso país, por mais que pareça ter progredido em sua aparência externa, progrediu apenas no aspecto material e formal. Em seu conteúdo, a liberdade e a democracia são apenas palavras vazias, quase sem substância. A moralidade está em um nível inferior ao da era feudal, em um estado de pandemônio. Os políticos e a classe dirigente vivem o dia a dia, sem princípios nem convicções. O povo perdeu a esperança e luta para sobreviver. É uma realidade que não se pode encarar.
+
+Aqueles que se preocupam com o país e a sociedade são considerados ultrapassados e ignorados. Os sinceros são desprezados, os bons são enredados pela lei, e os maus a contornam. É natural que o número de maus aumente. Costuma-se dizer que os honestos são tolos. E nós também. Com este incidente, descobrimos pela primeira vez que os bancários também são funcionários públicos. Fiquei chocado com minha própria ingenuidade.
+
+Este mundo de escuridão e ignorância, sob o olhar de Deus, não pode durar muito. O Juízo Final, proclamado pelo grande Cristo há dois mil anos e que nós continuamos a anunciar, está próximo. Isso não é uma palavra vã. Crendo ou não, em um futuro próximo, Deus o mostrará. E então, será tarde demais para se arrepender. Com esta advertência, encerro meu relato.
+
+***
+
+**Registro da Perseguição Religiosa**
+*Publicado em 30 de outubro de 1950*
+*Formato B6, 94 páginas, não comercializável*
+*Autor: Jikan*
+*Editor: Masao Koyama*
+*Impressor e Editora: Departamento de Publicações Eiko-sha*
+
+---
+
+# Coleção de Ensaios do Mestre Okada Jikanshi
+
+**Categoria:** sasshi | **Ano:** - | **Fonte:** -
+**Título Original:** - | **Status:** -
+
+## Coleção de Ensaios do Mestre Okada Jikanshi
+## A Ascensão da Gravura Moderna (Por Fujikake Shizuya, Doutor em Letras)
+
+### A Expressão do Ukiyo-e e a Ascensão da Gravura Moderna
+
+Sendo a arte dos cidadãos de Edo, o *ukiyo-e* entrou em declínio com a queda do xogunato e a transformação da cidade em Tóquio. Tal decadência se deu porque a gravura passou a retratar questões factuais e eventos sociais, negligenciando sua vocação artística. Foi nesse ínterim, contudo, que surgiu Kobayashi Kiyochika. Ao incorporar técnicas ocidentais de representação, ele criou uma gravura renovada e adequada à nova era. De fato, entre suas obras do início do período Meiji, encontram-se peças de notável primor artístico.
+
+Embora o *ukiyo-e* tenha sucumbido às transformações de seu tempo, a gravura, como expressão da arte japonesa, não estava destinada a desaparecer. Pelo contrário, em meados do período Taisho, ela ressurgiu com um vigor surpreendente.
+
+### As Duas Vertentes da Gravura Moderna
+
+A gravura moderna, em sua presente ascensão, manifesta-se em duas vertentes principais. A primeira delas segue o legado das antigas gravuras *ukiyo-e*, em um processo colaborativo no qual o artista concebe o desenho original, que é então transferido para a madeira por um entalhador e impresso em cores por um impressor. Ao longo de todas as etapas, o artista supervisiona o trabalho para garantir que a obra final corresponda à sua visão.
+
+A segunda vertente é a da gravura de autoria integral, na qual o artista assume o controle de todo o processo. Ele não apenas concebe a imagem, mas também empunha a goiva, esculpindo a madeira enquanto reflete sobre a melhor forma de expressar sua intenção. Igualmente, é ele quem, com minuciosa atenção à harmonia cromática, aplica as cores com o *baren*, ajustando a intensidade de cada tom. Nesse método, o artista materializa sua obra de arte com absoluta liberdade, do início ao fim.
+
+Ambas as vertentes da nova gravura floresceram a partir de meados do período Taisho, embora suas raízes, naturalmente, remontem ao período preparatório de Meiji. Independentemente da escola a que pertençam, todos os artistas se dedicam com afinco ao objetivo de criar obras de arte primorosas. Consequentemente, seus trabalhos são uma expressão fiel da individualidade de cada criador; em vez de imitarem terceiros, eles desenvolvem uma linguagem artística singular. Em suma, é porque os artistas criam com genuíno deleite que suas obras atingem um elevado patamar artístico. O universo da gravura moderna, por estar em plena ascensão, exibe um espírito de efervescente vitalidade.
+
+### A Vertente da Gravura Ukiyo-e: Hashiguchi Goyo (橋口五葉)
+
+Foi Hashiguchi Goyo (1880-1921) quem, utilizando a técnica herdada do *ukiyo-e*, produziu uma nova e significativa gravura para a era moderna. Goyo apresentou sua primeira obra em 1915. Lamentavelmente, faleceu em 1921, deixando um legado de apenas catorze obras. Todas são de qualidade excepcional, abrangendo majoritariamente retratos de belas mulheres, mas também paisagens e representações de aves. Ele supervisionava pessoalmente, e com extremo rigor, os processos de entalhe e impressão, resultando em gravuras de um estilo único e inconfundível. Em seus trabalhos, pode-se observar o mais alto requinte da técnica.
+
+O artista seguinte é Ito Shinsui (伊東深水) (1898-1972). Sua primeira obra, de julho de 1916, intitulada *Ao Espelho*, é uma de suas obras-primas. Retratando uma mulher em vestes íntimas vermelhas a maquiar-se diante de um espelho, a peça demonstra de forma sublime a eficácia da gravura, com uma harmoniosa e bem-sucedida combinação de cores.
+
+Após *Ao Espelho*, Shinsui continuou a apresentar, uma após a outra, novas gravuras plenas da vitalidade da nova era. Séries como *Barco na Lama* e as *Oito Vistas de Omi* estão entre suas criações mais notáveis. Embora mais tarde tenha alcançado renome em exposições por suas pinturas de belas mulheres, Shinsui nunca deixou de produzir gravuras. Um exemplo é a obra de grande formato *O Capuz Okoso*, que retrata uma figura com um capuz púrpura-escuro e uma veste vermelha, segurando o cabo de um guarda-chuva. O quimono em tom de lilás e o guarda-chuva coberto de neve ao fundo criam um contraste cromático de grande efeito artístico.
+
+Em seguida a Shinsui, Kawase Hasui (川瀬巴水) (1883-1957) iniciou sua produção de gravuras em 1918, supostamente inspirado pela série *Oito Vistas de Omi* de seu predecessor. Hasui dedicou-se exclusivamente à representação de paisagens naturais, desenvolvendo um estilo único e característico. Pode-se dizer que seus passos o levaram a todos os cantos do Japão. Sendo um artista especializado em gravura, sua produção ultrapassa as quatrocentas obras. Seus trabalhos, de atmosfera serena e tonalidades suaves, retratam a beleza natural do Japão com grande fidelidade, sendo apreciados não apenas por japoneses, mas também por estrangeiros.
+
+A gravura do portão do Templo Zojoji na neve evoca o sentimento poético dos pinheiros cobertos de neve, complementado pela figura de uma bela mulher com seu guarda-chuva, lutando contra a nevasca. A combinação cromática entre o portão laqueado em vermelhão e a brancura da neve resulta em um efeito visual de grande impacto. Já em *Neve no Crepúsculo no Templo Kiyomizu*, obra de 1950, a composição é particularmente interessante; o primeiro plano escurecido realça a luminosidade da paisagem nevada ao fundo, criando uma atmosfera cativante.
+
+Além destes, outros artistas que se dedicaram à gravura de paisagem incluem Kasamatsu Shiro (笠松紫浪) (1898-1991) e Ito Takashi (伊藤孝之) (1894-1982). Takashi distingue-se por um realismo meticuloso em suas representações.
+
+Um nome que merece destaque especial entre os paisagistas é o de Yoshida Hiroshi (吉田博) (1876-1950). Se Goyo, Shinsui e Hasui são reconhecidos mundialmente como mestres da gravura, Yoshida Hiroshi é, entre eles, o mais amplamente conhecido.
+
+Yoshida Hiroshi viajou por todo o mundo, transformando-o em tema para suas gravuras. Em suas três viagens ao exterior, retratou cenários magníficos desde os Estados Unidos e a Europa até a Índia e a Manchúria, resultando em oito obras das Américas, onze da Europa e trinta e duas da Índia. No Japão, seus passos foram onipresentes, produzindo séries sobre os Alpes Japoneses (doze obras), os Alpes do Sul (seis obras), o Mar Interior de Seto (dezenove obras), o Monte Fuji (dez obras), Tóquio (doze obras), a região de Kansai (doze obras), entre outras. Incluindo as obras avulsas, seu catálogo soma duzentas e quarenta e uma gravuras. A obra *Manhã em Abuto no Mar Interior de Seto*, de 1930, exemplifica seu estilo. A vela do barco é impressa com um leve tom de sumi, enquanto sua sombra refletida na água é representada em anil, de forma simples. O céu e a água, em tons de verde, são esfumados a partir das margens superior e inferior. Por fim, um delicado matiz avermelhado da aurora foi aplicado sobre as montanhas distantes, também em anil, expressando com maestria a sensação de uma manhã no mar interior.
+
+As gravuras de Yoshida Hiroshi eram produzidas em seu próprio ateliê, onde mantinha entalhadores e impressores sob sua supervisão direta. Por atuar também como editor, desfrutava de total liberdade criativa, o que lhe permitiu um volume de produção expressivo. Por essa razão, não seria exagero afirmar que, entre os apreciadores da gravura japonesa no mundo, não há quem não possua uma obra de Yoshida.
+
+Yamamura Toyonari (山村豊成) (1885-1942), pseudônimo artístico de Yamamura Koka para suas gravuras, deixou obras notáveis no gênero de retratos de atores de kabuki. Ele retratava os rostos em grande escala, utilizando a técnica de impressão com mica (*kirazuri*), em um estudo das técnicas da era de Sharaku. Sua obra *Nizaemon XI no papel de Kakiemon* possui um encanto particular em sua expressão sóbria.
+
+Natori Shunsen (名取春仙) (1886-1960) dedicou-se primordialmente ao retrato de atores, criando uma coleção de mais de cinquenta obras. Peças como *Nakamura Utaemon como Yodo-gimi* e *Ichimura Uzaemon como Iriya Naozamurai* são consideradas obras-primas. A gravura *Utaemon como Yodo-gimi* é um exemplo de seu talento.
+
+### A Vertente da Gravura de Autoria Integral
+
+Dentre as correntes da gravura moderna, aquela com maior potencial de desenvolvimento e que suscita as mais elevadas expectativas para o futuro é, sem dúvida, a da gravura de autoria integral – concebida, entalhada e impressa pelo próprio artista. Suas origens remontam ao período Meiji, com precursores e pioneiros como Yamamoto Kanae e Tobari Kogan. A partir deles, essa nova forma de gravura floresceu, culminando na formação da Associação Japonesa de Gravura Criativa em 1918. O fato de a gravura moderna ter ascendido em meados do período Taisho deve-se, portanto, tanto ao surgimento dessa associação quanto à produção já consolidada de artistas da vertente do *ukiyo-e*, como Goyo e Shinsui.
+
+Na gravura de autoria integral, cada artista, com total liberdade, dedica-se a conceber composições que explorem o potencial da mídia, a revelar no entalhe o toque único de suas ferramentas e a manifestar, através da impressão, toda a beleza cromática da gravura. É precisamente por isso que a gravura moderna possui tão vasta dimensão artística e um futuro tão promissor.
+
+As gravuras *ukiyo-e*, produzidas sob a égide de editores comerciais, eram geralmente feitas em um formato padrão chamado *ōban nishiki-e*, por conveniência, sendo por vezes combinadas em dípticos ou trípticos. A gravura moderna, ao contrário, é criada no tamanho que o artista deseja, resultando em uma grande variedade de dimensões, com obras de grande formato que possuem uma força expressiva correspondente.
+
+O *ukiyo-e* foi concebido para ser apreciado de perto, nas mãos do espectador, em um ambiente interno. A gravura moderna, por sua vez, é feita para ser contemplada em paredes, como um quadro. Por essa razão, os artistas desenvolvem técnicas que consideram o efeito visual a distância.
+
+Os artistas da gravura de autoria integral empregam métodos singulares em todas as etapas do processo – desenho, entalhe e impressão –, sem imitar os outros, o que lhes confere uma forte originalidade. Digno de nota é também o fato de não emularem as técnicas da gravura ocidental. A seguir, apresentamos alguns dos principais expoentes dessa vertente.
+
+Onchi Koshiro (恩地孝四郎) (1891-1955)
+Um dos pilares da gravura moderna, Onchi possuía profundo conhecimento de poesia e música, o que o levou a destacar-se de forma singular na gravura abstrata e não figurativa. Seu postulado artístico era emancipar a gravura da imitação da pintura, estabelecendo para ela um domínio estético próprio. Contudo, também produziu retratos e paisagens de excelência.
+
+Tezuka Kunimitsu (手塚富雄) (1895-1976)
+A característica distintiva das gravuras deste artista reside na maestria do contraste entre o preto e o branco, obtido por meio de sua técnica de entalhe, que ele considerava o ápice da arte da gravura. Obras como a torre de cinco andares do Templo Horyu-ji em *Início de Outono em Ikaruga* e os *Budas de Pedra de Usuki* são excelentes exemplos. Ele também produziu trabalhos coloridos, que possuem um encanto peculiar. Recentemente, publicou o livro *Sanmai Hanga*.
+
+Maekawa Senpan (前川千帆) (1888-1960)
+As gravuras do senhor Maekawa são dotadas de um profundo senso de sátira social, mas ele também criou paisagens de grande elegância. Sua obra é rica em originalidade.
+
+Kawanishi Hide (川西英) (1894-1981)
+Residente em Kobe, sua marca registrada é a combinação de cores claras e simples. Ele utiliza com habilidade as cores primárias – como vermelho, amarelo e anil – para criar uma tonalidade intensa e simplificada. Seu filho, Yusaburo, também produz gravuras com uma tendência similar à do pai, com resultados notáveis.
+
+Koizumi Kishio (小泉癸己男) (1893-1945)
+Como fruto de seu esforço monumental, deixou a série *Cem Vistas de Tóquio*. Com a intenção de rivalizar com as *Trinta e Seis Vistas do Monte Fuji* de Hokusai, ele iniciou uma série homônima, mas faleceu após completar vinte e três das gravuras. Sua obra possui um estilo característico.
+
+Hashimoto Okiie (橋本興家) (1899-1993)
+Tornou-se famoso por retratar em gravura os castelos ainda existentes no Japão. Muitas de suas obras são de grande formato e possuem um interesse particular.
+
+Kawakami Sumio (川上澄生) (1901-1972)
+Este artista produz e exibe suas gravuras apenas em exposições, o que resulta em muitas obras de grande escala e valor artístico. Sua produção, no entanto, é limitada.
+
+Katsuhira Tokushi (勝平得之) (1904-1971)
+Residindo na cidade de Akita, ele foi o artista que melhor expressou as particularidades regionais em suas gravuras. Suas obras de grande formato horizontal, que retratam as quatro estações na vida de uma família de agricultores, e a série sobre os dez costumes de Akita são trabalhos excepcionais. *Lírios-aranha* é uma das peças mais notáveis desta última série.
+
+Munakata Shiko (棟方志功) (1903-1975)
+Um artista de talento genial, Munakata aborda temas relacionados ao budismo, expressando-os de forma audaciosa em preto e branco. Seu estilo é ao mesmo tempo simples, rústico e pleno de uma energia avassaladora, tendo criado uma linguagem artística única. Algumas de suas gravuras em preto e branco são coloridas pelo verso com pinceladas de cores fortes, o que, visto pela frente, produz uma tonalidade suave e interessante.
+
+Saito Kiyoshi (斎藤清) (1907-1997)
+Recentemente, tem apresentado uma sucessão de obras com uma nova sensibilidade, que atraíram a atenção de estrangeiros e receberam críticas favoráveis. Sua obra *Inverno em Aizu*, embora de uma tendência distinta, faz parte de uma série de nove gravuras. Utilizando apenas *sumi* escuro e claro, ele expressa a paisagem nevada com máxima eficácia.
+
+Shinagawa Takumi (品川工) (1908-2009)
+Um artista de fina sensibilidade, cria novas gravuras de caráter abstrato e é bastante promissor. Em *Budas de Pedra*, ele busca expressar a beleza da ruína, utilizando tons de amarelo e verde com grande riqueza artística.
+
+Sekino Junichiro (関野準一郎) (1914-1988)
+Além da xilogravura, destaca-se também na técnica da água-forte. Entre suas obras-primas em xilogravura estão os retratos de Takahama Kyoshi e Kichiemon, bem como *Bungo nos Bastidores*. Esta última é uma obra de grande formato, cuja composição, que combina o rosto do boneco e o do mestre manipulador Bungoro, é fascinante, e a harmonia geral das cores é excelente.
+
+Kitaoka Fumio (北岡文雄) (1918-2007)
+Um artista da nova geração, seu estilo varia consideravelmente, e ele possui obras dignas de apreciação.
+
+---
+
 # Coletânea de Teses do Mestre Okada Jikan — Registro de Ensinamentos, nº 15 (Publicado em 20 de dezembro de 1949)
 
 **Categoria:** sasshi | **Ano:** 昭和24(1949)年12月20日 | **Fonte:** 御Hikari話録
+**Título Original:** - | **Status:** -
 
 ## Coletânea de Teses do Mestre Okada Jikan — Registro de Ensinamentos, nº 15 (Publicado em 20 de dezembro de 1949)
 
@@ -441,6 +1565,7 @@ Faz exatamente um ano desde que publicamos a primeira edição do “Registro de
 # Coletânea de Ensaios do Mestre Jikan Okada — Registro das Sagradas Palavras, vol. 3
 
 **Categoria:** sasshi | **Ano:** - | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## Coletânea de Ensaios do Mestre Jikan Okada — Registro das Sagradas Palavras, vol. 3
 
@@ -827,6 +1952,7 @@ Sobre o falso Cristo, não é?
 # myoniti0
 
 **Categoria:** sasshi | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 Coletânea de Teses do Mestre Okada Jikan
 Publicado em 15 de maio de 1936
@@ -1144,6 +2270,7 @@ A era avança sem cessar. Continuar a confiar apenas na medicina ocidental, na q
 # — Coletânea de Ensaios do Mestre Jikan Okada —
 
 **Categoria:** sasshi | **Ano:** - | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## — Coletânea de Ensaios do Mestre Jikan Okada —
 
@@ -1418,6 +2545,7 @@ Esta imagem é reputada como uma obra-prima rara, com sua bela figura e gravura 
 # Coletânea de Ensaios do Mestre Jikan Okada
 
 **Categoria:** sasshi | **Ano:** 昭和25(1950)年9月21日 | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## Coletânea de Ensaios do Mestre Jikan Okada
 
@@ -1516,6 +2644,7 @@ Editora: Departamento de Publicações Eikosha
 # Coletânea de Teses do Mestre Okada Jikanshi — Organizada por Periódico
 
 **Categoria:** sasshi | **Ano:** 昭和27年6月30日 | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## Coletânea de Teses do Mestre Okada Jikanshi — Organizada por Periódico
 
@@ -1528,936 +2657,6 @@ Aparentemente, trata-se da tradução para o inglês do prospecto intitulado “
 A capa exibe uma vista panorâmica do Museu de Arte de Hakone, ao passo que a terceira página apresenta a fotografia do *ukiyo-e* pintado à mão, intitulado “Yuna”.
 
 Para a época, o material empregado é um papel de qualidade notavelmente superior. Ademais, a tipografia escolhida para o título na capa revela um esmero e uma sofisticação consideráveis.
-
----
-
-# Coletânea de Ensaios do Mestre Okada Jikanshi
-
-**Categoria:** sasshi | **Ano:** 昭和25(1950)年1月25日 | **Fonte:** 基督と自観師
-
-## Coletânea de Ensaios do Mestre Okada Jikanshi
-
-## Cristo e o Mestre Jikanshi
-
-Matsui Seikun, Membro Convidado do Departamento de Compilação da Nippon Kannon Kyodan
-Coleção Jikan, Volume 15: “Cristo e o Mestre Jikanshi”, publicado em 25 de janeiro de 1950
-
-### Prefácio
-
-O senhor Matsui Seikun, membro convidado do Departamento Editorial, demonstra nesta obra, de forma inequívoca, uma profunda erudição que abrange os mais diversos campos da religião, a começar pelo cristianismo e pelo budismo. Por essa razão, suas críticas a respeito de nossa Igreja, pautadas por um olhar agudo e uma retórica translúcida, revelam-no como um crítico religioso que já estabeleceu um estilo próprio.
-
-A comparação que ele estabelece entre minha pessoa e Cristo constitui, para mim, um dos acontecimentos mais gratificantes dos últimos tempos. Não a refuto com modéstia, tampouco a reafirmo com autolouvor; confio-a, simplesmente, ao julgamento do tempo.
-
-De todo modo, Cristo proclamou: “O Reino dos Céus está próximo”; eu, por minha vez, afirmo que o estabelecerei. Ao contemplarmos essas duas declarações, separadas por um intervalo de dois milênios, torna-se insofismável a existência de algum vínculo espiritual entre elas.
-
-Acrescento que, se esta obra for lida sob essa perspectiva, o leitor certamente tocará a misteriosa vontade de Deus.
-
-Dezembro de 1949
-Jikan
-
-### Um, Introdução
-
-Há dois milênios, na Nazaré da Palestina, nasceu Cristo, que bradou: “O Reino dos Céus está próximo”. Agora, no Japão, nasce o Mestre Okada Jikanshi, que anuncia: “Construirei o Reino dos Céus”, e prega: “O tempo já amadureceu”. Esses dois grandes brados leoninos, que ecoam através dos tempos e se correspondem entre Oriente e Ocidente, o que de fato significam e o que nos sugerem? Quando nos recolhemos para uma profunda reflexão, descobrimos uma infindável relação causal e compreendemos a assombrosa Providência Divina.
-
-Não me acusem de interpretação forçada, ó materialistas! Não me imputem conjecturas arbitrárias, ó avessos ao misticismo! Aos olhos dos materialistas, ainda imersos na grande ilusão de que todos os fenômenos do Universo — inclusive o corpo e a mente humana — são constituídos de matéria e dela se originam, tudo não passa de mero acaso. Por conseguinte, são incapazes de compreender a sublime verdade da causalidade. De igual modo, para aqueles que voltam as costas ao Mundo Espiritual e jamais buscam abrir seus portais, a grandiosa planificação desse mundo e a Providência Divina permanecem incognoscíveis. Eles tentam reger tudo segundo a própria cegueira e ignorância. Embora isso seja, em certo sentido, inevitável, cumpre dizer que é também uma condição digna de compaixão.
-
-Vejam! Não foram os próprios cientistas modernos que, há muito, subverteram e pulverizaram o princípio da indestrutibilidade da matéria, outrora o dogma inabalável dos materialistas? E não foram eles que afirmaram que a origem do Universo não reside na matéria, mas sim em uma existência imaterial — seja ela chamada de espírito ou de essência —, ou seja, uma existência espiritual?
-
-Contudo, um séquito de cientistas menores, cegos até mesmo a essa realidade no seio da ciência, ainda não despertou do sono letárgico do materialismo onipotente, que por duzentos anos impôs sua tirania sobre o mundo. Eles insistem em negar a existência do espírito, esforçam-se por depreciar o mistério e se comprazem em vociferar com desdém.
-
-Todavia, ao observarem aquele grupo de pessoas que, escondidas em uma gruta numa ilha remota do Pacífico Sul, ainda ignoram a derrota de sua pátria quatro anos após o ocorrido, talvez mesmo esses materialistas e antimísticos sintam compaixão. Sendo assim, chegará o dia em que eles também sentirão piedade de si mesmos, por não conseguirem escapar da fortaleza já em ruínas da indestrutibilidade da matéria. Nós apenas rogamos para que esse dia chegue o mais breve possível.
-
-Seja como for, tanto o brado de Cristo — “O Reino dos Céus está próximo” — quanto o desígnio do Mestre Jikanshi de edificar o Paraíso na Terra, o que poderiam ser senão a Vontade de Deus? Em outras palavras, quando o tempo ainda não havia amadurecido, Cristo preanunciou a aproximação do Reino dos Céus. Agora, quando o tempo finalmente amadurece, o Mestre Jikanshi inicia a construção do Paraíso Terrestre. Não deveríamos enxergar essa relação causal como a manifestação de uma Vontade Divina, misteriosa e insondável, que transcende três mil léguas de espaço e perpassa dois milênios de tempo?
-
-Ademais, tanto Cristo quanto o Mestre Jikanshi manifestam um notável poder espiritual de cura, sanando enfermidades, devolvendo a visão aos cegos e fazendo coxos andarem. Não apenas congregaram, inicialmente, muitos fiéis por meio da cura de doenças, como também partilham inúmeros outros pontos de semelhança. Assim como o célebre Sermão da Montanha de Cristo é, até hoje, reverenciado e aclamado como um tesouro de aforismos, também o Mestre Jikanshi tem apresentado uma extraordinária visão do Universo e da vida, oferecendo diretrizes à humanidade e atraindo a atenção de intelectuais com seu pensamento vigoroso.
-
-No tocante aos milagres, da mesma forma que os inúmeros prodígios de Cristo adornam as Escrituras, também os muitos milagres do Mestre Jikanshi capturam a atenção dos fiéis. Particularmente, enquanto se relata que Cristo expulsava demônios por meio de milagres, o Mestre Jikanshi remove espíritos malignos por meio da purificação espiritual, um paralelo digno de nota.
-
-Onde Cristo legou o ensinamento sobre o “Dia do Juízo”, o Mestre Jikanshi oferece uma instrução de profunda e sublime transcendência a respeito da invenção da bomba atômica e da descoberta da relação entre o núcleo atômico e os elétrons.
-
-Em suma, ao examinarmos Cristo e o Mestre Jikanshi, não só nos surpreendemos com a enorme quantidade de semelhanças, como também somos levados a vislumbrar uma especial relação de afinidade espiritual entre ambos. Como mencionado anteriormente, não existe acaso no mundo. Embora os materialistas tendam a observar todos os fenômenos, considerá-los acidentais e ignorá-los, para aqueles que despertaram para o espírito e perscrutam o mistério, não há coincidência nem na queda de uma folha, nem no rastro de uma estrela. Considerar, portanto, que entre homens de pensamentos tão notáveis, que realizaram grandiosas obras religiosas capazes de assombrar o mundo, não haja qualquer relação de causa e efeito e que cada um seja apenas um evento isolado, é algo que só podemos classificar como uma profanação da dignidade do mistério e um menosprezo à Vontade Divina. Mais ainda, ao observarmos que entre Cristo e o Mestre Jikanshi as semelhanças são extremamente numerosas e que seus ensinamentos e diretrizes seguem o mesmo rumo, torna-se impossível ver tudo isso como mero acaso. Pelo contrário, somos compelidos a contemplar aí uma profunda relação de afinidade e a nos comovermos com a sublimidade do mistério e a infinita vastidão da Vontade de Deus.
-
-### Dois, O Sermão da Montanha e o Mestre Jikanshi
-
-#### (1) A Verdade Intrínseca do Sermão
-
-O “Sermão da Montanha”, no cristianismo, é considerado a própria alma dos Evangelhos. Relata-se que Abraham Lincoln, o décimo sexto presidente americano, desde seus tempos como um simples advogado no interior, decidiu buscar uma solução fundamental para a questão do conflito entre o Norte e o Sul com base nesse sagrado ensinamento. Diz-se que, mesmo após assumir a presidência, quase toda a sua política se fundamentava em seus preceitos. É um fato célebre que, quando Lincoln contava cerca de trinta anos e era um político em ascensão no estado de Illinois, a rivalidade entre os estados do Sul, favoráveis à escravidão, e os do Norte, contrários a ela, se intensificava a ponto de prenunciar uma grande tormenta política. Naquele momento, ele se levantou com audácia para defender a abolição da escravatura. E como a tese fundamental de sua argumentação se baseava no espírito do Sermão, ela tocou profundamente o coração do povo, fazendo com que ele concentrasse em si o anseio de toda uma geração e conquistasse a coroa presidencial ao derrotar seu poderoso adversário político, Douglas. Com efeito, Lincoln apreendeu do Sermão o profundo significado da “paz” e da “paciência” e, segundo consta, persuadia as multidões citando constantemente o versículo:
-
-“Todo reino dividido contra si mesmo será assolado; e toda cidade ou casa dividida contra si mesma não subsistirá.”
-— Evangelho de Mateus (Capítulo 12) —
-
-Creio que os ensinamentos mais profundos só são verdadeiramente compreendidos e amplamente postos em prática por grandes homens, beneficiando assim as pessoas e o mundo. Os medíocres, contudo, costumam se limitar a críticas e análises, julgando-se superiores, e se esquecem do essencial: assimilar a essência e colocá-la em prática. Não só isso, ostentando seu conhecimento, alinham com presunção argumentos tolos, chegando ao ponto de profanar os ensinamentos dos santos, confundindo as pessoas e desencaminhando o mundo. Essa é uma grande falha comum à humanidade de todos os tempos e lugares, e por causa dela não houve santo que não fosse incompreendido e perseguido, tendo sua vida transformada em uma sucessão de tolerância e sofrimento. A verdade, porém, jamais perece; ela desperta incessantemente o coração humano e se propaga amplamente pelo mundo. Isso ocorre porque, em última análise, a própria origem do Universo é a verdade e, consequentemente, todas as coisas que dela emanam contêm a verdade em seu âmago. Assim como a lua que, por mais que as nuvens a encubram, brilha serena no alto do céu, a verdade irradia constantemente sua luz no âmago de todas as coisas, ainda que as nuvens ilusórias do carma negativo a ocultem, impedindo que seja compreendida. Apenas os homens comuns não a discernem; somente os santos a compreendem plenamente e a expõem conforme a época e a receptividade das pessoas. Por isso, as palavras dos santos são a verdade. Mesmo aqueles que não sabem o que é a verdade podem conhecê-la por meio de suas palavras. Embora a forma de expressão possa variar ligeiramente, conforme a época e a receptividade do público, a verdade que permeia o âmago de seus ensinamentos é a mesma, e apenas os de visão elevada são capazes de discerni-la. O grande brado dos mestres zen, “Visão penetrante!”, nada mais é do que um meio para que se atinja essa compreensão.
-
-De todo modo, o Sermão da Montanha é considerado a obra-prima dos quatro Evangelhos e descrito como o projeto para a construção do Reino dos Céus. O grande Tolstói chegou a afirmar: “O verdadeiro valor da Bíblia se manifesta no Sermão da Montanha”.
-
-O Sermão da Montanha é, em suma, a essência do grande sermão que Jesus proferiu um dia, quando subiu a uma montanha acompanhado de seus discípulos e das pessoas que, atraídas por ele, ali se reuniram. Sentado no cume, entre as nuvens que iam e vinham, com voz clara e ressonante, ele pregou:
-
-“Bem-aventurados os pobres de espírito, porque deles é o Reino dos Céus.”
-“Bem-aventurados os que choram, porque eles serão consolados.”
-“Bem-aventurados os mansos, porque eles herdarão a terra.”
-“Bem-aventurados os que têm fome e sede de justiça, porque eles serão fartos.”
-“Bem-aventurados os misericordiosos, porque eles alcançarão misericórdia.”
-“Bem-aventurados os puros de coração, porque eles verão a Deus.”
-“Bem-aventurados os pacificadores, porque eles serão chamados filhos de Deus.”
-“Bem-aventurados os que são perseguidos por causa da justiça, porque deles é o Reino dos Céus.”
-“Bem-aventurados sois vós, quando vos injuriarem e perseguirem e, mentindo, disserem todo o mal contra vós por minha causa. Alegrai-vos e exultai, porque é grande a vossa recompensa nos céus; porque assim perseguiram os profetas que foram antes de vós.”
-
-É o que se encontra no Evangelho de Mateus, capítulo 5 (versículos 3-12). São palavras de compaixão, preciosas como ouro e jade, que tocam profundamente o coração humano.
-
-#### (2) A Relação entre os Ideais do Mestre Jikanshi e o Sermão
-
-Primeiramente, ao falar dos “pobres de espírito”, Jesus rejeita a soberba e deixa claro que a atitude de esvaziar-se de si mesmo, com um coração sincero e aberto, e de seguir unicamente a Vontade de Deus é um requisito indispensável para a construção do Reino dos Céus.
-
-A confissão do Mestre Jikanshi — “Não sou eu quem realiza estas obras; a Grande e Misericordiosa Kannon habita em meu interior e tudo me indica, e eu apenas planejo segundo a Sua vontade e ajo segundo as Suas ordens” — demonstra o ápice da fé, que consiste em abandonar o ego, esvaziar-se e entregar tudo à Vontade Divina. Essa é a verdadeira imagem do “pobre de espírito” ensinada por Jesus.
-
-Quando contemplamos a figura do Mestre Jikanshi empenhado na construção do Paraíso Terrestre a partir dessa perspectiva e saboreamos estas palavras de ouro, não podemos deixar de pensar na profunda relação causal que aí existe.
-
-“Os que choram” devem ser aqueles que, exaustos e entristecidos pelas vicissitudes deste mundo, sofrem. Aqueles que se entristecem com as vicissitudes acabam por conhecer a Deus, são por Ele salvos e encontram um grande consolo. Em um poema do Mestre Jikanshi, lê-se:
-
-*Qual alga flutuante, meu coração sem rumo*
-*Foi salvo em sua aflição por Kannon.*
-
-Este, creio eu, é um verso magistral que expressa da melhor forma essa circunstância.
-
-*Não falarei mais das coisas passadas,*
-*Pois a culpa de minha insensatez era toda minha.*
-*Sem força, sem amparo, sem luz,*
-*Fui salvo agora pela graça de Deus.*
-
-Estes também são versos de autoria do Mestre Jikanshi. Através deles, podemos vislumbrar como ele, no auge da tristeza, foi banhado pela salvação e, como resultado, alcançou um imenso consolo.
-
-No que tange aos “mansos”, no capítulo “Não se Irrite” de sua obra “Crônicas da Fé”, o Mestre Jikanshi cita o antigo provérbio “A paciência possível, todos a têm; ter a paciência impossível é a verdadeira paciência” e o poema didático “Carregue sempre a bolsa da paciência ao pescoço; se rasgar, costure-a; se rasgar, costure-a de novo”. Ele confessa que sua própria ascese consistiu no sofrimento da paciência e das dívidas. E, assim como Jesus ensinou no Sermão da Montanha que os mansos herdarão a terra, hoje o Mestre está herdando a terra para nela construir o Reino dos Céus. A simples observação desse fato nos comove com o mistério da Providência.
-
-“Bem-aventurados os que têm fome e sede de justiça...”. Na obra “Crônicas da Fé”, do Mestre Jikanshi, os dois capítulos “A Expulsão do Mal” e “Deleitar-se no Bem” narram vividamente o quanto ele prezou e buscou a justiça. E agora, banhado pela graça de Deus e personificando a Sua vontade, ele a pratica.
-
-Que o Mestre Jikanshi é rico em compaixão e que a demonstra em seus atos é algo que muitas pessoas testemunharam e que se pode encontrar em inúmeras passagens de suas obras. É também fato notório que ele, agora imerso na compaixão divina, manifesta o poder de Deus e estende cada vez mais a salvação compassiva a toda a humanidade.
-
-“Bem-aventurados os puros de coração, porque eles verão a Deus...”. Diz-se que o Mestre Jikanshi teve a visão de Deus aos quarenta e três anos. Que desde o nascimento ele detestava o mal e amava o bem fica claro em suas reminiscências na obra “Crônicas da Fé”. Detestar o mal e amar o bem é consequência de um coração puro. No entanto, seria precipitado pensar que todos os que simplesmente detestam o mal e amam o bem verão a Deus. A visão de Deus só se torna possível quando se atinge o nível de um grande santo, alguém que, em todos os momentos da vida, reverencia um coração puro, possui grande compaixão, pratica atos de grande misericórdia e persevera em palavras e ações virtuosas. É claro que mesmo as pessoas comuns, quando se esforçam continuamente em pensamentos e atos virtuosos, estabelecem naturalmente uma sintonia com o mundo espiritual. Sem que percebam, são guiadas pela Vontade Divina a não fazer o que não deve ser feito e a serem impedidas pela Vontade Divina de fazer o que não é permitido, podendo assim levar uma vida de paz e felicidade, como reconhecem unanimemente os estudiosos do espiritualismo.
-
-“Bem-aventurados os pacificadores, porque eles serão chamados filhos de Deus...”. A razão pela qual o Mestre Jikanshi se empenha em eliminar a doença, a pobreza e o conflito como prioridade máxima é para trazer a paz ao mundo. O Paraíso Terrestre que ele planeja nada mais é do que a construção de um pacífico Reino de Deus sobre a Terra. Sua paixão pela paz pulsa em todas as páginas de suas obras “Crônicas da Fé” e “Coletânea de Hinos”.
-
-*Ceifando este mundo conturbado e caótico,*
-*Fará nascer esta bela Terra.*
-*Ainda não visto nos anais da antiguidade,*
-*Um Paraíso Terrestre está prestes a nascer.*
-*O Grande Deus, purificando Céu e Terra,*
-*Erguerá um mundo de cristal.*
-*O inverno já passou, as flores sorriem,*
-*E a primavera, com o canto de mil pássaros, chegou.*
-
-Esses diversos poemas são, sem dúvida, a expressão dos sinceros anseios do Mestre pela paz. Envolto na graça da Bodhisattva Kannon, que por meio dele busca realizar Sua sagrada obra, ele é venerado por duzentos mil fiéis em todo o país como uma manifestação da própria Bodhisattva. Isso nos parece, de fato, muito natural.
-
-As duas passagens “Bem-aventurados os que são perseguidos por causa da justiça, porque deles é o Reino dos Céus” e “quando vos injuriarem e perseguirem...” parecem ter sido proferidas por Cristo especialmente para o Mestre Jikanshi. Com efeito, atualmente, talvez não haja ninguém que seja tão perseguido e injuriado por causa do caminho quanto ele. Desde acusações falsas, calúnias e difamações até fraudes e extorsões, toda sorte de malfeitores utiliza todos os meios para atacá-lo. Quando ele não cede, imediatamente espalham insultos, numa persistência que é dolorosa até para quem observa de fora. E, no entanto, o Mestre permanece sereno, trabalhando diligentemente para trazer felicidade à humanidade, orando pela paz mundial e se dedicando à construção do Paraíso Terrestre. Quantas pessoas no mundo, com tamanha serenidade, assimilaram o espírito do Sermão da Montanha e, para colocá-lo em prática, trilham um caminho de provações? Este fato também não poderia ser visto como uma prova de que Cristo e o Mestre Jikanshi estão unidos por Deus, seguem a Vontade Divina e buscam expressá-la?
-
-Em seguida, Cristo incentiva seus discípulos com estas palavras: “Vós sois o sal da terra; e se o sal for insípido, com que se há de salgar? Para nada mais presta senão para se lançar fora, e ser pisado pelos homens. Vós sois a luz do mundo. (...) uma candeia ilumina a todos que estão na casa. Assim resplandeça a vossa luz diante dos homens, para que vejam as vossas boas obras e glorifiquem a vosso Pai, que está nos céus...”.
-
-O fato de o Mestre Jikanshi enviar inúmeros discípulos por todo o país para que, como sal, reduzam drasticamente os miasmas das doenças e, como luz, iluminem a vida sombria da pobreza e do conflito, conduzindo as pessoas a uma existência feliz; o fato de, com seu esforço dedicado, estar obtendo resultados sólidos; e o fato de as pessoas, ao verem isso, se comoverem com a grande compaixão de Kannon e o Grande Amor Universal começar a se manifestar de forma notável em todo o país — tudo isso deve ser visto como a mais grandiosa personificação dos ensinamentos de Cristo.
-
-#### (3) A Perspectiva do Mestre Jikanshi em Contraste com os “Cinco Mandamentos”
-
-O Mestre Jikanshi ensina que não apenas os seres humanos, mas todas as coisas, nascem de Deus, ou seja, do Grande Amor que é o espírito fundamental do Universo. Uma vez que retornamos ao coração paternal de Deus, todos somos vistos com a mesma benevolência. Que irmãos lutem e briguem entre si é o que mais aflige o coração de um pai. Em outras palavras, para o coração paternal, não há maior alegria do que ver os filhos viverem em harmonia, ajudarem-se mutuamente e desfrutarem juntos da felicidade concedida pelos céus. Este é o desejo de Deus, e é nisto que reside o verdadeiro propósito de Sua planificação. Quando contrastamos isso com a passagem do Sermão da Montanha que diz “...deixa ali diante do altar a tua oferta, e vai reconciliar-te primeiro com teu irmão e, depois, vem e apresenta a tua oferta...”, compreendemos que, em todos os tempos e lugares, o que os santos ensinam é uno, e que não existem duas verdades. Esta passagem é famosa como o ensinamento do primeiro dos cinco mandamentos: “Não te irritarás”. E, como mencionado anteriormente, o fato de na obra “Crônicas da Fé”, do Mestre Jikanshi, também haver um capítulo intitulado “Não se Irrite”, e de os ensinamentos de ambos se encaixarem perfeitamente, causa-nos uma impressão particularmente profunda.
-
-No mundo atual, geralmente se dá grande importância às ações. No entanto, um ato de caridade sem sinceridade de coração é rechaçado como hipocrisia. Quando uma pessoa morre e se torna um corpo espiritual, passando a residir no mundo astral, sua vida se torna uma existência puramente mental. Por isso, ela decai ou ascende de acordo com a bondade ou maldade de seus pensamentos. Ou seja, apenas a retidão ou a perversidade dos pensamentos decide o destino de cada um, não havendo o menor espaço para o engano, como na vida física do mundo material. À medida que se ascende, entrando no Mundo Espiritual e alcançando o Mundo Divino, o mundo se torna cada vez mais um domínio de pensamentos puros e translúcidos, e a importância da força do pensamento é sentida com mais intensidade. Portanto, é natural que os religiosos, que pregam ensinamentos que abrangem as três existências — passada, presente e futura —, deem ênfase ao pensamento, ou seja, ao coração.
-
-A passagem do Sermão da Montanha que diz: “Ouvistes que foi dito aos antigos: Não cometerás adultério. Eu, porém, vos digo, que qualquer que atentar numa mulher para a cobiçar, já em seu coração cometeu adultério com ela. Portanto, se o teu olho direito te escandalizar, arranca-o e atira-o para longe de ti, pois te é melhor que se perca um dos teus membros do que seja todo o teu corpo lançado na geena. E, se a tua mão direita te escandalizar, corta-a e atira-a para longe de ti, pois te é melhor que se perca um dos teus membros do que vá todo o teu corpo para a geena...”. Se virmos essas palavras como um ensinamento de um religioso que considera o coração como primordial e os atos físicos como secundários, e que busca enfatizar a primazia do espírito, talvez possamos tocar a verdadeira intenção de Cristo. Se assim for, o Mestre Jikanshi também sustenta que o que deve ser valorizado é o espírito, e não os atos formais. Portanto, no que tange à primazia do espírito, ele compartilha da mesma visão de Cristo. A única diferença, talvez, seja que a sociedade atual, diferente da época de Jesus, progrediu em cultura e o bom senso se desenvolveu. Assim, como é costume dos santos ensinarem de acordo com a receptividade das pessoas, um sermão tão veemente e extremo como o de Cristo seria considerado inadequado para os nossos tempos.
-
-Esta passagem do Sermão é considerada o ensinamento do segundo dos cinco mandamentos: “Não cometerás adultério”.
-
-No Sermão da Montanha, a passagem “...ouvistes que foi dito aos antigos: Não perjurarás, mas cumprirás os teus juramentos ao Senhor. Eu, porém, vos digo que de maneira nenhuma jureis; nem pelo céu, porque é o trono de Deus; nem pela terra, porque é o escabelo de seus pés; nem por Jerusalém, porque é a cidade do grande Rei; nem jurarás pela tua cabeça, porque não podes tornar um cabelo branco ou preto. Seja, porém, o vosso falar: Sim, sim; Não, não; porque o que passa disto é de procedência maligna” é o ensinamento do terceiro dos cinco mandamentos: “Não farás juramentos a outrem”. Ao examinarmos sua relação com o Mestre Jikanshi, também encontramos um ponto em comum. Ou seja, o Mestre diz: “Não fui eu que pedi a Bodhisattva Kannon; foi a própria Bodhisattva Kannon que, através de mim, executa a Sua vontade”. Em seus poemas, também lemos:
-
-*A vida que anima a alma pertence a Deus.*
-*Como se pode prosperar rebelando-se contra Ele?*
-*Saibam que o poder que salva o mundo neste tempo*
-*Reside unicamente na Vontade de Deus.*
-*Embora eu seja um ser sem poder,*
-*Com a força de Kannon que me envolve,*
-*Curarei as pessoas deste mundo.*
-
-Todos esses versos deixam claro que não há outra ação senão seguir a Vontade Divina e agir de acordo com ela. Nele, não se pode encontrar a atitude de confiar na própria força e fazer juramentos para, por meio desse mérito, obter o poder divino. Apenas, ao receber uma ordem de Deus, ele a acata com um “sim” e a segue; ao encontrar uma recusa de Deus, ele a aceita e, mesmo que seja algo que deseje, renuncia a isso sem pesar. Sua vida, a cada momento do dia, é uma existência de naturalidade espontânea. Portanto, é natural que o Mestre não tenha o comportamento egoísta e pretensioso, típico das pessoas comuns, de dizer “farei isto” ou “juro fazer aquilo”.
-
-Em relação ao quarto mandamento, “Não resistais ao mal”, e ao quinto, “Amai os vossos inimigos”, o Mestre Jikanshi não reconhece o mal fundamental. Ele vê a essência do ser humano, originada de Deus, ou seja, do Grande Amor Universal, como sendo o bem. Ele ensina que, como o ser humano se individualiza por meio do corpo astral, do corpo físico etc., ele acaba por se prender a apenas um aspecto de sua individualidade, esquecendo-se de sua origem fundamental — o Amor Universal, a imagem e o coração de Deus. Como resultado de viver constantemente com uma mentalidade de diferenciação entre “eu” e “o outro”, entre “isto” e “aquilo”, surge o que se chama de pecado, o desejo de beneficiar a si mesmo mesmo que isso prejudique os outros. Embora às vezes ele recorra a meios de subjugar o mal para manifestar a verdade, isso, em última análise, tem o propósito de fazer as pessoas despertarem para o coração de Deus, que é o amor fundamental, e nunca é feito com sentimentos de ódio ou ressentimento. Desse ponto de vista, em sua concepção fundamental, não há diferença em relação a Cristo. A única divergência reside no método de abordagem: enquanto Cristo prega uma política de não resistência a todo custo, o Mestre considera que, em certas ocasiões, é inevitável adotar medidas de subjugação do mal por compaixão.
-
-### Três, O Deus de Cristo e a Kannon do Mestre Jikanshi
-
-#### (1) A Divindade Anterior ao Surgimento do Cristianismo
-
-Para compreendermos o Deus do cristianismo, é preciso retroceder em suas origens até Javé-Jeová, a divindade cultuada pelos hebreus. Originalmente, este era um deus da natureza, que se acreditava residir no Monte Sinai. A fé em Javé era praticada entre os hebreus desde tempos antigos e, quando Moisés surgiu para liderá-los, ele forjou uma nação — os hebreus, a quem eles chamam de Israel — tendo como núcleo a fé nesse deus Javé. Foi assim que se estabeleceu um pensamento monoteísta.
-
-Contudo, por volta de 1100 a.C., os hebreus estabeleceram por um tempo sua capital em Jerusalém. Após a morte do famoso Rei Salomão, conhecido pelas gerações posteriores por sua glória e mencionado até nas Escrituras — “E por que andais ansiosos quanto ao vestuário? Olhai para os lírios do campo, como eles crescem; não trabalham nem fiam; E eu vos digo que nem mesmo Salomão, em toda a sua glória, se vestiu como qualquer um deles...” (Evangelho de Mateus, capítulo 6) —, a nação se dividiu, resultando na rivalidade entre o reino do norte, Israel, e o do sul, Judá. Israel foi destruído pela Assíria, e Judá, pela Babilônia. Mais tarde, quando a Pérsia subjugou a Babilônia, os judeus foram autorizados a retornar à sua terra natal, Israel, e a reconstruir o templo de Javé. Foi nesse contexto que nasceu o judaísmo, que é o precursor do cristianismo.
-
-Como já mencionado, o Deus do cristianismo é, originalmente, o Jeová cultuado pelos hebreus. A religião que nasceu tendo como núcleo a fé hebraica foi a religião dos judeus, um ramo dos hebreus, ou seja, o judaísmo, que é o predecessor do cristianismo. Portanto, é evidente que o hebraísmo constitui a origem do cristianismo. Embora não haja espaço aqui para detalhar as características do hebraísmo, o fato de que, entre mil e dois mil anos antes do nascimento de Jesus Cristo, numa época em que todas as outras nações praticavam o politeísmo, apenas o povo hebreu acreditava na existência de um Deus único e, ademais, um Deus pessoal e sem forma, e com base nessa convicção religiosa administrava toda a sua moral e política, é suficiente para imaginarmos quão talentoso e singular era esse povo.
-
-No entanto, naquela época, a religião era ainda extremamente simples e rudimentar, e naturalmente não se pode compará-la à complexa religião pregada pelo cristianismo posterior. Contudo, não há dúvida de que o deus Jeová em que acreditavam era considerado um Deus de justiça, que recompensava os bons e punia os maus, um Deus severo em suas recompensas e castigos. Isso pode ser inferido pelas palavras de Salomão, que expressavam diretamente a fé do povo hebreu: “O temor do Senhor é o princípio da sabedoria”.
-
-#### (2) O Amor do Deus Cristão e a “Parábola do Filho Pródigo”
-
-Contudo, quando Jesus nasceu e, aos trinta anos, após ser batizado pelo profeta João, começou a pregar, ele enfatizou que “Deus é amor”, provocando uma grande transformação na personalidade divina. Este é um fato de suma importância que não pode ser ignorado.
-
-“Amados, amemo-nos uns aos outros; porque o amor é de Deus; e qualquer que ama é nascido de Deus e conhece a Deus. Aquele que não ama não conhece a Deus; porque Deus é amor...” (Primeira Epístola de João, capítulo 4)
-
-“...Deus é amor; e quem está em amor está em Deus, e Deus nele.” (Idem)
-
-Assim, o ensinamento de que “Deus é amor” constitui o cerne da doutrina de Cristo, e por meio dele, Cristo buscou conduzir a vida humana ao amor e purificá-la com o amor. E como seu objetivo principal era purificar a alma humana e cultivar fundamentalmente os sentimentos, ele se alegrava com os puros de coração, com aqueles que eram puros e imaculados desde o fundo da alma, chegando a rejeitar como impuros até mesmo aqueles que cometiam adultério em seus corações.
-
-“...qualquer que atentar numa mulher para a cobiçar, já em seu coração cometeu adultério com ela...” (Evangelho de Mateus, capítulo 5, versículo 28)
-
-Como vimos, Cristo exigia condições extremamente rigorosas quanto à atitude de servir a Deus e à qualificação para entrar no Reino dos Céus. Mas que pensamento ele tinha sobre o amor de Deus? Ao abrirmos as Escrituras, descobrimos que ele é explicado de vários ângulos em toda a sua extensão, e somente assim podemos vislumbrar o quadro completo. A passagem que o explica de forma mais detalhada e com uma parábola engenhosa é o Evangelho de Lucas, capítulo 15, versículos 11-32.
-
-*“Um certo homem tinha dois filhos. E o mais moço deles disse ao pai: Pai, dá-me a parte dos bens que me pertence. E ele repartiu por eles a fazenda. E, poucos dias depois, o filho mais novo, ajuntando tudo, partiu para uma terra muito distante, e ali desperdiçou os seus bens, vivendo dissolutamente. E, havendo ele gastado tudo, houve naquela terra uma grande fome, e começou a padecer necessidades. E foi, e chegou-se a um dos cidadãos daquela terra, o qual o mandou para os seus campos, a apascentar porcos. E desejava encher o seu estômago com as alfarrobas que os porcos comiam, e ninguém lha dava. E, tornando em si, disse: Quantos jornaleiros de meu pai têm abundância de pão, e eu aqui pereço de fome! Levantar-me-ei, e irei ter com meu pai, e dir-lhe-ei: Pai, pequei contra o céu e perante ti; Já não sou digno de ser chamado teu filho; faze-me como um dos teus jornaleiros. E, levantando-se, foi para seu pai; e, quando ainda estava longe, viu-o seu pai, e se moveu de íntima compaixão e, correndo, lançou-se-lhe ao pescoço e o beijou. E o filho lhe disse: Pai, pequei contra o céu e perante ti, e já não sou digno de ser chamado teu filho. Mas o pai disse aos seus servos: Trazei depressa a melhor roupa; e vesti-lho, e ponde-lhe um anel na mão, e alparcas nos pés; E trazei o bezerro cevado, e matai-o; e comamos, e alegremo-nos; Porque este meu filho estava morto, e reviveu; tinha-se perdido, e foi achado. E começaram a alegrar-se.*
-*E o seu filho mais velho estava no campo; e quando veio, e chegou perto de casa, ouviu a música e as danças. E, chamando um dos servos, perguntou-lhe que era aquilo. E ele lhe disse: Veio teu irmão; e teu pai matou o bezerro cevado, porque o recebeu são e salvo. Mas ele se indignou, e não queria entrar. E saindo o pai, o convidava. Mas, respondendo ele, disse ao pai: Eis que te sirvo há tantos anos, sem nunca transgredir o teu mandamento, e nunca me deste um cabrito para alegrar-me com os meus amigos; Vindo, porém, este teu filho, que desperdiçou a tua fazenda com as meretrizes, mataste-lhe o bezerro cevado. E ele lhe disse: Filho, tu sempre estás comigo, e todas as minhas coisas são tuas; Mas era justo alegrarmo-nos e regozijarmo-nos; porque este teu irmão estava morto, e reviveu; e tinha-se perdido, e achou-se.”*
-
-Pode-se dizer que a parábola descreve o amor infinito de Deus com uma gentileza e uma minúcia insuperáveis. É especialmente interessante notar que sua concepção se assemelha muito à parábola do homem rico e seu filho pobre, encontrada no quarto capítulo do Sutra do Lótus, o capítulo da Fé e Compreensão.
-
-#### (3) Comparação com a “Parábola do Homem Rico e seu Filho Pobre” no Sutra do Lótus
-
-Apresentarei agora um resumo da parábola do homem rico e seu filho pobre. Faço isso porque ela não apenas permite comparar a percepção do Absoluto em ambas as religiões, cristianismo e budismo, mas também porque acredito que ela servirá como um excelente material de contraste para o exame da fé em Kannon do Mestre Jikanshi, que abordarei a seguir.
-
-**Sutra do Lótus da Lei Maravilhosa, Capítulo Quatro: Fé e Compreensão, Parábola do Homem Rico e seu Filho Pobre** = *“Havia um homem que, na infância, abandonou seu pai e fugiu, vivendo por cinquenta anos em terras estrangeiras. Pobre e aflito, ele vagava por toda parte em busca de comida e vestimenta, mas, sem sucesso, acabou, sem perceber, retornando à sua terra natal. Seu pai, no entanto, era um homem extremamente rico, com tesouros incalculáveis. Seus armazéns transbordavam de ouro, prata, lápis-lazúli, âmbar e pérolas. Ele era servido por servos, ministros e oficiais, e seus negócios com outros países faziam sua fortuna crescer dia após dia. Contudo, tendo perdido seu amado filho em tenra idade, ele sofria por anos em busca dele. E costumava dizer: ‘Possuo tesouros que transbordam de meus armazéns, mas já estou velho e decrépito, e me resta pouco tempo de vida. Se eu morrer, meus tesouros se dispersarão em vão’. Ao pensar nisso, sentia uma saudade imensa de seu único filho, que o havia abandonado e fugido cinquenta anos antes. ‘Se eu o encontrasse e lhe confiasse meus bens, poderia descansar em paz e felicidade’, pensava ele, angustiando-se dia e noite.*
-
-*Enquanto isso, o filho pobre perambulava de vilarejo em vilarejo em busca de trabalho. Inesperadamente, chegou a uma cidade magnífica e, na esperança de encontrar um emprego adequado, parou em frente a um portão para espiar o interior. Naquele momento, o que parecia ser o senhor do castelo estava sentado em um trono de leão, com os pés sobre um banco de tesouros, cercado por brâmanes, guerreiros e cidadãos que o serviam com temor e reverência. Oficiais e servos seguravam espanadores brancos e estavam de pé à sua direita e à sua esquerda. O lugar estava adornado com tapeçarias, estandartes de flores, o chão aspergido com água perfumada e decorado com flores raras, e uma variedade de tesouros estava exposta. A majestade da cena era imponente. O filho pobre, sem saber que o homem imponente que via no castelo era seu próprio pai, sentiu medo e se arrependeu de ter chegado ali. Pensou consigo mesmo: ‘Este deve ser um rei, ou alguém igual a um rei. Não é lugar para alguém como eu procurar trabalho. Seria melhor ir a um vilarejo pobre, onde seria mais fácil encontrar comida e roupas. Se eu ficar aqui, quem sabe que coisas terríveis podem me acontecer’. Pensando assim, não quis mais ficar ali nem por um momento e começou a fugir apressadamente. Naquele instante, o homem rico dentro do castelo avistou o filho pobre e, reconhecendo-o como seu único filho, que procurava há tantos anos, ficou imensamente feliz e ordenou a um de seus homens que o perseguisse e o trouxesse de volta.*
-
-*O filho pobre, porém, ignorando as intenções do homem rico, ficou apavorado e gritou: ‘Não cometi crime algum, por que estão me prendendo?’, tentando desesperadamente escapar. Como o servo o segurou à força, o filho pobre, aterrorizado, desmaiou e caiu no chão. O velho homem rico, que observava de longe do castelo, sentiu pena, mas não havia o que fazer. Chamou o mensageiro e ordenou: ‘Não preciso mais desse homem. Reanime-o rapidamente e mande-o embora’. Os mensageiros e os que estavam ao redor, naturalmente, não sabiam que o pobre era o único filho do homem rico, e assim o soltaram conforme as ordens. O filho pobre, mal escapando das mãos do mensageiro, sentiu como se tivesse sobrevivido por um triz e, novamente, foi para um vilarejo pobre, continuando a vagar em busca de sustento.*
-
-*No entanto, o homem rico não havia desistido do filho pobre ao deixá-lo partir; ele apenas o deixou seguir sua vontade por um tempo, planejando gradualmente uma maneira de trazê-lo para perto de si. Assim, o homem rico chamou dois homens de aparência abatida e sem imponência e lhes disse: ‘Vão até o filho pobre e digam-lhe isto: ‘Há um excelente trabalho por lá. O salário é o dobro do normal’’. Se ele concordar sem questionar, tragam-no. Se ele perguntar ‘Que tipo de trabalho é esse?’, digam-lhe: ‘É para limpar as latrinas conosco’’. Os dois mensageiros fizeram como o homem rico ordenou. Foram até o filho pobre e lhe falaram, e o filho, achando o trabalho adequado à sua condição, aceitou imediatamente e passou a limpar os excrementos na casa do homem rico. Um dia, o homem rico espiou pela janela e viu seu filho, magro e debilitado, coberto de sujeira e excrementos, em um estado lastimável. Então, o homem rico despiu suas belas vestes, vestiu roupas rasgadas e sujas, sujou-se com poeira e, segurando um utensílio para remover excrementos na mão direita, aproximou-se do filho pobre e, gentilmente, o consolou, dizendo: ‘Continue trabalhando aqui para sempre. Aumentarei seu salário gradualmente, então não fuja daqui. Pense em mim como seu pai e trabalhe com tranquilidade, pois não lhe farei mal’. E, a partir de então, o homem rico passou a chamar o filho pobre de ‘meu filho’. O filho pobre, recebendo um tratamento tão generoso, sentia-se grato, mas ainda se considerava apenas um humilde empregado. Assim, ele trabalhou limpando as latrinas na casa do homem rico por vinte longos anos.*
-
-*Nesse tempo, os corações do homem rico e do filho pobre se abriram gradualmente, e não havia mais dúvidas ou reservas entre eles. No entanto, o filho pobre ainda se via como um empregado. Acontece que o homem rico adoeceu e, sabendo que não lhe restava muito tempo de vida, decidiu confiar ao filho pobre a administração de todos os seus bens. O filho pobre, que havia começado limpando latrinas, agora tinha a liberdade de administrar a imensa fortuna do homem rico conforme seu próprio critério. Mesmo assim, sua mentalidade de empregado não desapareceu, e ele continuava a pensar que os bens pertenciam ao homem rico e que ele era apenas o administrador, e que, em sua origem, era um mendigo.*
-
-*Quando a vida do homem rico estava prestes a chegar ao fim, ele reuniu seus parentes, o rei, grandes médicos e cidadãos ilustres para uma cerimônia e apresentou o filho pobre à multidão, dizendo: ‘Senhores, este é meu filho de sangue. Ele me abandonou e fugiu, sofrendo privações e miséria por cinquenta anos. Procurei por meu filho por muitos anos e finalmente o reencontrei. Não há dúvida, ele é meu verdadeiro filho. Portanto, toda a minha fortuna pertence a ele. De agora em diante, tudo está à sua inteira disposição’. Ao ouvir a história do homem rico, o filho pobre finalmente conheceu sua verdadeira identidade e se rejubilou imensamente...*”. A escritura, ao descrever a alegria do filho pobre, diz: *“‘Eu, em meu coração, nunca busquei nada; agora, este tesouro chegou a mim naturalmente’”*.”
-
-Como fica claro na comparação entre o capítulo 15 de Lucas e a parábola do homem rico e seu filho pobre do capítulo quatro do Sutra do Lótus, tanto o amor de Deus pregado por Cristo quanto a compaixão de Buda ensinada por Xáquia podem ser compreendidos como o ápice do sentimento de um pai por seu filho. Por outro lado, pode-se ver que o amor puro e intenso de um pai por seu filho tem sua origem no amor de Deus e na compaixão de Buda.
-
-Sendo assim, como é com o Mestre Jikanshi? Ele, naturalmente, compartilha da visão de Cristo e de Xáquia de que a essência do Universo não é matéria, mas espírito. Além disso, ele vê o espírito fundamental do Universo como um Grande Amor Universal e ensina que todos os fenômenos da natureza nascem desse Grande Amor e por ele são vivificados.
-
-#### (4) A Teoria do Espírito Universal e a Posição da Ciência
-
-Em todos os tempos e lugares, não foram poucos os religiosos e filósofos que afirmaram que a essência do Universo é o espírito. Nos tempos modernos, no entanto, o número de cientistas que defendem a mesma teoria vem aumentando gradualmente. Foi há cerca de duzentos anos que Dalton (1766-1844) propôs a teoria atômica e completou o princípio da indestrutibilidade da matéria. Desde então, essa teoria dominou o mundo até os dias de hoje. Contudo, com o sucesso da fissão do átomo, a teoria da indestrutibilidade da matéria foi completamente refutada, e tornou-se inevitável compreender que a origem de todas as coisas não é a matéria, mas algo espiritual. Assim, surgiram entre os maiores cientistas do mundo aqueles que defendem a teoria do espírito universal.
-
-Vejamos, a título de exemplo, a opinião do engenheiro Tatsuo Tanaka.
-
-*“Vimos agora uma ciência que se arrepende e desperta. Não é a ciência desprezível que nega toda a vida espiritual. A ciência moderna, que se baseava na matéria eterna e indestrutível, que reverenciava a matéria e sua força, que negava a vida espiritual e promovia o materialismo onipotente, está agora perecendo. Os mais de oitenta elementos foram reduzidos a um único elétron, e o materialismo, que tentava explicar todos os fenômenos do Universo de forma material e mecânica, com a trindade de matéria, energia e éter, ruiu. Uma grandiosa e simples visão elétrico-material está prestes a substituí-lo. E quem o derrubou não foram os filósofos, mas os próprios cientistas. Foi o fruto dos esforços abnegados de muitos cientistas modernos. Eles não conhecem o éter no Universo, não conhecem a matéria, não conhecem a energia; eles colocam o elétron acima desses três e afirmam que não é a matéria que tem força, mas que a matéria só existe porque existe o elétron, que é espírito. Esta ciência renovada e, consequentemente, a visão de mundo que deve mudar, responde às necessidades do coração humano, ensina o verdadeiro significado da vida cultural material e os guia para desbravar um novo mundo.*
-*Este mundo, o visível e o invisível, tudo foi feito pelo poder invisível de Deus. Antigamente, pensávamos que esta Terra duraria para sempre, a menos que colidisse com outra estrela, mas isso era um erro. Se Deus, que lhe deu força, retirar a força desta Terra, a Terra e a Lua se dispersarão como fumaça em um instante. Não é a força que existe porque a matéria existe, mas a Terra que existe porque a alma existe. Deus ordenou uma vez, e este mundo se fez; se ordenar novamente, o Reino dos Céus certamente se fará. Este mundo não é o mundo final. Para as almas salvas, Deus preparará um novo céu e uma nova terra.*
-*Onde será o novo mundo? Onde será o Reino dos Céus? Perguntar isso é inútil; não é algo que se possa expressar em palavras. Mas uma coisa é certa. Quando os setenta milhões de compatriotas, os um bilhão e oitocentos milhões de irmãos dos quatro mares, considerarem este mundo uma sucursal do Reino dos Céus e passarem seus dias em respeito e amor mútuos, o Reino dos Céus descerá imediatamente sobre esta pequena e adorável Terra. Há pessoas no mundo que tentam definir a vida no Reino dos Céus com a lógica deste mundo. Isso é um esforço verdadeiramente inútil e trabalhoso, pois a lógica deste mundo é limitada a este mundo e não é suficiente para medir o Reino dos Céus. Mas verdadeiramente felizes são aqueles que, pela inspiração que lhes foi dada além de sua sabedoria e de seus sentimentos, podem ver o Reino dos Céus que transcende este mundo.*
-*Transpondo os confins visíveis do firmamento,*
-*Quero ver agora a face do Pai.*
-*No Princípio*
-*No princípio era Deus.*
-*Transcendendo tudo,*
-*O visível e o invisível.*
-*Transcendendo a divisão do tempo,*
-*Transcendendo tempo e espaço.*
-*Sem fim, sem fronteiras,*
-*O Infinito é o Supremo Absoluto.*
-*O Espírito do Universo*
-*O Espírito do Universo,*
-*Espelhando-se em seu próprio coração,*
-*Para dar à luz seus companheiros,*
-*Gerou o Espírito no Universo.*
-*O Deus que gerou era o Pai,*
-*E o que nasceu era o Espírito.*
-*O Deus Pai era Yang,*
-*E o Espírito nascido era Yin.*
-*O Espírito do Universo*
-*Enche e permeia todo o céu.*
-*Nele há vida, há luz.*
-*O Espírito*
-*No princípio era o Espírito.*
-*O Espírito estava com Deus.*
-*No Espírito há força, há vida.*
-*O Espírito Yang deu à luz o filho Yin,*
-*E se dividiram em Yin e Yang.*
-*O princípio de todas as coisas,*
-*A verdadeira força, manifesta-se no mundo.*
-*Vede, todas as coisas!*
-*A força invisível, as coisas visíveis,*
-*Por eles serão criadas.*
-*O Espírito tornou-se força, tornou-se matéria,*
-*E se manifestou nos vastos três mil mundos.*
-*O som, o aroma, o calor, a eletricidade, a luz,*
-*Todas as formas de atividade são obra do Espírito.*
-*Antes dos três mil mundos,*
-*O Espírito apareceu primeiro.*
-*E após ansiar por incontáveis eras,*
-*Deus, que tanto esperou,*
-*Hoje, quão feliz deve estar.*
-*A Essência do Espírito*
-*O Yin e o Yang do Espírito do Universo*
-*Geram e se movem incessantemente.*
-*Aproximam-se e se unem,*
-*Pensam um no outro, e seus corações se aquecem.*
-*O calor que arde chega a dezenas de milhares de graus.*
-*Circulam um em torno do outro por bilhões de anos.*
-*O que brilha por dentro é chamado de Yang,*
-*E o companheiro externo é chamado de Yin.*
-*O Grande Espírito se move e gera o Yang,*
-*Divide-se e gera o Yin.*
-*Yin e Yang são uma só unidade.*
-*O mundo primordial.*
-*No vasto universo dos três mil mundos,*
-*No meio da Via Láctea,*
-*A estrela chamada Theta Argon,*
-*Brilha em azul noite após noite.*
-*No centro desta estrela,*
-*Em torno de um próton,*
-*Um elétron.*
-*Cada vez que se unem em harmonia,*
-*Aquecem-se a vinte, trinta mil graus.*
-*Um próton e um elétron.*
-*A origem do que chamamos de hidrogênio.*
-*Nós o confirmamos,*
-*Confirmamos como a origem da matéria.”*
-
-Ao ler o texto do engenheiro Tanaka, compreendemos que a visão de universo dos cientistas mudou drasticamente, passando da teoria tradicional da matéria como essência para a teoria do espírito-essência, ou seja, a teoria do espírito-vida universal. É uma sensação de estar em outra era.
-
-#### (5) O Mestre Jikanshi e a Bodhisattva Kanzeon
-
-O Mestre Jikanshi considera que o estado de mútua atração e afinidade em que um elétron (yin) gira incessantemente em torno de um núcleo (yang), como descrito nas palavras do Dr. Tanaka, é a expressão do Grande Amor Universal em todas as coisas do Universo, desde o sistema solar, no macrocosmo, até um fio de cabelo, no microcosmo. É com base nisso que ele estabeleceu a tese de que todas as coisas nascem do Grande Amor e por ele são vivificadas. Sua perspicácia e discernimento são simplesmente espantosos. Não temos conhecimento de nenhum outro religioso ou filósofo no mundo que possua tal discernimento e que exponha uma visão do universo com base em fundamentos científicos. Não apenas isso, o Mestre, focando no fato de que o núcleo e o elétron nunca cessam sua atividade e estão em constante aprimoramento, estabeleceu sua visão da vida. Ele conclui que o propósito da vida consiste na contínua atividade e aprimoramento, e prega que o homem não trabalha para comer, mas come para trabalhar; que o homem não deve buscar o aprimoramento para satisfazer o desejo de fama ou status, mas que o aprimoramento é a essência da vida. Sua lógica é impecável e se harmoniza com as teorias éticas e morais. É, verdadeiramente, uma visão extraordinária, sem paralelo nos tempos antigos ou modernos. Comparada ao Sermão da Montanha de Cristo, não só não lhe é inferior em nada, como, por se basear em fundamentos científicos, possui uma particularidade moderna que dificilmente encontra espaço para oposição ou crítica por parte das pessoas de hoje, cuja cultura progrediu e cujo desejo de conhecimento é intenso. Isso merece ser louvado.
-
-O Dr. Seiroku Honda afirma: “A grande vida do Universo, que é o fundamento do ser humano, não é matéria, mas apenas um tipo de atividade, uma função, que chamamos provisoriamente de vida”. Embora ele reconheça que a base do Universo não é matéria e que ela é vida, ele rejeita a teoria de que seja espírito, Deus ou Buda. Mas será que, vendo-a apenas como uma mera função, é possível explicar satisfatoriamente o ciclo das estações, a beleza das flores, dos pássaros, da água e da lua, e até mesmo o sentimento genuíno de um pai por seu filho, satisfazendo o desejo de conhecimento e convencendo o coração humano? Qualquer pessoa terá que admitir que, em comparação com a visão de universo do Mestre Jikanshi, a sua carece de validade. Seja como for, o Dr. Honda também diz:
-
-*“Quando essa função chamada vida existe, ela se solidifica e se torna um átomo; e esse átomo, por sua vez, se dispersa e se torna energia vital. Em detalhes, o átomo é composto por um núcleo atômico e elétrons, mas como o núcleo atômico também é um tipo de elétron, a base do átomo, o elétron, é a função chamada vida. Por conveniência experimental científica, consideramos o átomo como a origem da vida.*
-*O tamanho de um átomo é de cerca de um centésimo de milionésimo de centímetro, um objeto minúsculo que não pode ser visto com nenhum microscópio, um fenômeno chamado de microscópico, que tradicionalmente era colocado fora da matéria e pertencia ao mundo espiritual ou divino.*
-*Esses átomos minúsculos se reúnem para formar os mais de noventa elementos, os elementos se reúnem para formar moléculas, e as moléculas se reúnem para formar todas as coisas. Assim, o átomo, que é a origem de todas as coisas, é uma atividade chamada vida, e como ele vive e cresce em movimento, todas as coisas estão vivas e pulsando. Apenas aquelas cuja forma de vida é fraca, ou seja, cujo crescimento e movimento são minúsculos, são tradicionalmente chamadas de matéria inorgânica ou inanimada, e aquelas cuja forma de vida é forte e cujo crescimento e movimento são intensos são chamadas de matéria orgânica ou seres vivos.*
-*O ser humano é o mais notável dos chamados seres vivos, crescendo e se movendo constantemente de forma acentuada. Quanto maior seu crescimento e movimento, mais ele se aproxima de uma vida plena e eficaz. Em outras palavras, o ser humano, por sua natureza instintiva, deve trabalhar constantemente; trabalho é vida. E a vida, através do trabalho constante, sempre se aprimora e progride, trilhando o caminho da felicidade. A felicidade na vida nunca é absoluta; pelo contrário, é relativa e progressiva. Qualquer felicidade, se durar inalterada, acabará por gerar apenas saciedade e tédio. Portanto, a verdadeira felicidade na vida é saboreada no processo de aprimorar e progredir na vida através do trabalho incessante.*
-*Então, o que é esse trabalho? É a ação criadora — seja ela tangível ou intangível — de criar algo novo, dar novas qualidades a algo, ou conceber algo, manifestando no exterior o que está no interior da vida. Isso é comumente chamado de trabalho ou labor. Portanto, viver a vida plenamente significa manifestar completamente esse poder de criar coisas através do trabalho, tornando a vida gratificante, valiosa, ou seja, feliz. Em suma, o trabalho é o que dá valor à vida, ou melhor, é a própria vida, e não um meio para obter dinheiro ou fama.*
-*Obter lucro financeiro ou fama através do trabalho é apenas o resultado desse trabalho, por assim dizer, o resíduo. Portanto, mesmo que o trabalho não renda um único centavo, o simples fato de ter trabalhado já manifestou a essência da vida, que é expressar a vida externamente. Assim, ele tem um valor admirável e foi plenamente gratificante. No entanto, esses casos são raros, e o trabalho é inevitavelmente recompensado.*
-*Mas a recompensa é algo dado por outros, não algo a ser buscado por si mesmo. Deve-se entender que ela é dada pela sociedade. A fama e o lucro buscados por si mesmo se tornarão sementes de sofrimento. A fama e o lucro dados por outros se tornarão sementes de mais fama e lucro. Portanto, as pessoas que trabalham não com o objetivo de fama e lucro, mas como uma atividade instintiva da vida, acabarão por encontrar prazer em seu trabalho e se tornarão felizes. É por pensar que se trabalha para obter dinheiro ou fama que o trabalho se torna desagradável e doloroso, e as disputas trabalhistas e questões salariais se tornam problemáticas.”*
-
-É digno de nota que, no ponto em que ele considera a atividade e o aprimoramento como a essência da vida, ele compartilha da mesma visão do Mestre Jikanshi.
-
-Creio ter delineado os pontos principais da visão fundamental do universo do Mestre Jikanshi. Tentei, em particular, ilustrar e explicar em que se baseia na ciência moderna e que relação existe entre as visões dos cientistas modernos e os ensinamentos do Mestre. A razão pela qual me aventurei em tal descrição é para comprovar quão excelente e sólido é o pensamento do Mestre, e também porque considero ser uma premissa indispensável para vislumbrar a totalidade de sua fé na Bodhisattva Kanzeon. Passemos, então, a descrever a fé em Kannon do Mestre Jikanshi.
-
-Para o Mestre Jikanshi, a Bodhisattva Kanzeon é uma emanação simbólica do Grande Amor Universal, ou seja, do Deus Supremo. Como Deus é o Amor Universal, a Bodhisattva Kanzeon, sendo Sua emanação, também possui um coração de grande amor e compaixão. Ela deseja salvar todos os seres, eliminar todos os sofrimentos e construir um mundo sem doença, pobreza e conflito, ou seja, o Paraíso Terrestre. O próprio Mestre Jikanshi tem a convicção de que ele não pode deixar de se empenhar na construção do Paraíso Terrestre, personificando essa Vontade. Além disso, a Bodhisattva Kanzeon que o Mestre vê é uma existência real e concreta, e não uma divindade imaginária e fantasiosa como a que muitas pessoas concebem. Isso se deve não apenas à sua percepção de que ela surge constantemente em sua inspiração espiritual, dia e noite, indicando-lhe “faça assim” e proibindo-o com um “não faça assim”, usando-o como um instrumento, mas também ao fato de que ela repetidamente se manifesta em forma visível a seus olhos. Para o Mestre, é absolutamente impossível não acreditar em sua existência real. Quão misteriosa é a semelhança com o fato de que Cristo via repetidamente a imagem de Deus, chamando-o constantemente de “meu Pai, meu Pai”, e falava e agia guiado pelo Espírito Santo, conforme as Suas indicações! Creio que, assim como Cristo apareceu no mundo como o filho amado de Deus e executou a Sua Vontade, o Mestre Jikanshi também surgiu no mundo pela graça de Deus para cumprir sua missão. Diz-se que Deus, de acordo com a época e a receptividade das pessoas, envia santos ao mundo para conduzir Sua planificação de forma adequada. A admiração pela profundidade e sutileza da Vontade Divina é infinita.
-
-### Quatro, Pontos em Comum entre o Cristianismo Americano e o Mestre Jikanshi
-
-#### (1) O Cristianismo Antes e Depois de sua Chegada à América
-
-O que é o cristianismo americano, sobre o qual Emerson, o grande expoente do liberalismo, declarou: “O verdadeiro cristianismo americano será construído nas grandes planícies do Novo Continente”? Como ele progrediu e mudou em comparação com o cristianismo primitivo? Antes de descrever isso, é preciso abordar o cristianismo antes de sua chegada à América e o curso que tomou depois.
-
-Por volta do ano 1400, cerca de mil anos após o estabelecimento do “sistema papal” da Igreja Católica Romana em 474, o cristianismo se dividia em duas grandes vertentes. A leste, havia a Igreja Grega — a Igreja Oriental —, que se estendia por países como Grécia, Rússia, Turquia, Sérvia, Romênia e Áustria. A oeste, havia a Igreja Romana — a Igreja Ocidental —, que governava, a partir de Roma, países como França e Espanha. Ambas apresentavam uma aparência imponente em sua organização, instalações e atividades. No entanto, um olhar mais atento ao seu interior revelaria que até mesmo aqueles chamados de altos clérigos estavam entregues à bebida e à luxúria, e que a promoção na hierarquia eclesiástica era decidida por suborno. A decadência moral era indescritível. Consequentemente, vozes de lamento e indignação contra essa situação começaram a surgir, e o número de pessoas que desejavam uma reforma aumentou. Foi nesse ambiente que se levantou com determinação o famoso Martinho Lutero.
-
-Martinho Lutero nasceu em 10 de fevereiro de 1483, em Eisleben, na Alemanha. Com uma ambição inabalável, ingressou na Universidade de Erfurt em 1501, onde se especializou em direito, graduando-se em 1505. Conta-se que, um dia, ao retornar de uma viagem para a universidade, foi subitamente atingido por um raio. Seu colega que o acompanhava morreu instantaneamente, e o próprio Lutero desmaiou por um tempo. A partir de então, sentindo a transitoriedade do mundo, ele decidiu dedicar sua vida a Deus.
-
-Para Lutero, que havia dedicado tudo a Deus, Roma deve ter sido uma cidade de especial anseio. No entanto, ao pôr os pés em Roma (em 1511), tudo o que viu e ouviu não foi senão a corrupção e a decadência da Igreja Romana e da Cúria Papal, o que o levou a exclamar: “O respeito que eu tinha até agora se transformou em indignação e desprezo”.
-
-Em 1512, Martinho Lutero, agora doutor em teologia, finalmente lançou seu brado pela “Reforma Religiosa” em 1515. Ele começou por atacar a irracionalidade das “indulgências” — a ideia de que os pecados poderiam ser redimidos com dinheiro — e listou noventa e cinco teses contra a Cúria Papal, afixando-as na porta da igreja do castelo de Wittenberg. Este é o famoso “Ato de Acusação contra o Papa de Roma”.
-
-Este ato de acusação, como esperado, provocou uma tempestade. A indignação do povo cresceu como uma onda furiosa, e a confusão do lado papal chegou ao extremo. Seguiram-se toda sorte de perseguições, que não cessaram até sua morte por doença, aos sessenta e quatro anos. Como resultado, a “liberdade de fé” se tornou uma palavra de ordem. Entre todos os cristãos, a tendência de se libertar do Papa de Roma e de toda a estrutura centrada nele, e de buscar uma relação direta com Deus através de Cristo, propagou-se como fogo em campo seco, abalando os países cristãos. Este movimento, por ter sido uma nova doutrina iniciada por Lutero em protesto contra o Papa de Roma, é chamado coletivamente de “Protestantismo”.
-
-Como descrito acima, os protestantes nascidos na Europa, há cerca de trezentos anos, cruzaram o Atlântico em uma avalanche e se precipitaram sobre o Novo Continente. Este grupo de imigrantes protestantes, deixando para trás a costa leste, atravessou os Montes Apalaches e avançou para o oeste, em direção à planície central, chegando finalmente a uma vasta pradaria de três mil milhas. Lá, havia apenas hordas de feras, uma imensa e desolada floresta, e os nativos, os índios, incultos e ignorantes. Não havia tradição, nem história e, consequentemente, nenhuma restrição. Eles puderam desfrutar plenamente do ar da liberdade como bem entendiam. Foi nesse paraíso de liberdade que os protestantes, que clamavam pela liberdade religiosa, chegaram, e foi ali que o cristianismo americano nasceu e cresceu.
-
-É claro que, mesmo após a chegada à América, o cristianismo não esteve isento de inúmeras disputas e conflitos, e passou por vários percalços. No entanto, após o período inicial e chegando à metade do século, a “teologia liberal” da facção unitarista e o cristianismo puramente americano de tendência progressista, que com ela simpatizava, tornaram-se a corrente principal do mundo religioso americano. Ao examinarmos o “credo” da facção unitarista, vemos que, em primeiro lugar, eles parecem considerar “Cristo” como “Jesus”, um mestre nascido para pregar o “Deus Único”, não diferente de um pastor de hoje. Sendo o Jesus humano, é natural que eles não aceitem a doutrina do pecado original de Adão, a doutrina da Trindade, nem a doutrina da expiação. E, por conseguinte, até mesmo a “ressurreição”, que pode ser considerada a vida do cristianismo, não é levada em conta.
-
-Por que não acreditam na “doutrina da Trindade”? Eles dizem que é uma contradição intolerável afirmar que “Deus” é uma única personalidade espiritual absoluta e que o “Filho” e o “Espírito Santo” são um com ele. Quanto à “expiação”, eles argumentam que considerar toda a humanidade como pecadora e dizer que Jesus morreu na cruz para redimir seus pecados não condiz com o amor vasto e infinito de Deus, que faz o sol brilhar e a chuva cair tanto sobre os bons quanto sobre os maus, tanto sobre os justos quanto sobre os injustos. A facção unitarista, por negar a “expiação”, também se opõe à doutrina do pecado original de Adão e à doutrina do castigo eterno do homem.
-
-Então, qual é o credo valorizado pela facção unitarista, que nega tantas crenças tradicionais? Eles pregam que o ensinamento de “amar a Deus e amar ao próximo”, registrado no Evangelho de Lucas, capítulo 10, versículo 27, são os dois grandes princípios do cristianismo, e enfatizam o respeito pelo livre pensamento e a veneração da personalidade individual. A base da democracia americana, deve-se entender, tem sua origem aqui.
-
-O principal proponente da teologia liberal unitarista foi Channing. A ele se juntou Emerson, conhecido como um grande literato de sua geração, e juntos eles guiaram o povo americano e contribuíram para a exaltação do liberalismo, o que é um fato notório. Em particular, a forma como Emerson, com sua teoria da supremacia humana, inspirou e encorajou o povo americano a construir um cristianismo americano humanista é um evento digno de nota na história da religião. É também amplamente conhecido que o grande literato britânico Carlyle lhe enviou uma carta de longe para louvá-lo.
-
-Com o desenvolvimento do cristianismo liberal, após a Primeira Guerra Mundial, houve uma ofensiva conjunta da antiga e da nova escola teológica, liderada pela facção conservadora pertencente à escola de teologia de Boston. Como resultado, as forças aliadas sofreram uma derrota retumbante, e a facção liberal, como corrente principal do cristianismo americano, prosperou ainda mais, chegando aos dias de hoje. Além disso, esta nova facção protestante, em oposição ao puritanismo dos “protestantes”, defende o “modernismo”, sendo chamada de a nova facção do protestantismo, ou seja, o “Novo Protestantismo”.
-
-Após o fim do conflito entre a antiga e a nova facção nos Estados Unidos, seguiu-se a batalha ideológica entre o cristianismo e a ciência. Este debate, centrado na narrativa do “Gênesis” do Antigo Testamento — Deus criando todas as coisas — e na teoria da evolução de Darwin, foi extremamente acirrado, chegando a sugerir uma crise para o cristianismo. No entanto, o resultado foi o surgimento de uma religião científica, que respondeu às críticas dos cientistas. O novo protestantismo chamado Ciência Cristã é um exemplo disso.
-
-A Ciência Cristã, fundada pela Sra. Glover [M. B. Eddy], é vista como uma conciliação entre religião e ciência. Ela estabelece três pilares — o “Deus Único”, “Cristo” e a “mente” —, pregando a sintonia entre a mente humana, Deus e Cristo, e afirmando que, por meio dessa sintonia, todas as doenças podem ser curadas. Atualmente, conta com trezentos mil adeptos e publica um grande jornal intitulado “Christian Science Monitor”, mantendo uma presença imponente e se esforçando em sua divulgação. Além disso, é um fato que não pode ser ignorado que a tendência de se basear nas ciências naturais e de organizar uma nova teologia por meio da ciência está se tornando cada vez mais forte.
-
-O cristianismo americano, sem se prender às tradições do antigo cristianismo, desenvolveu-se em uma terra de liberdade, com uma vontade livre, exibindo uma forte coloração liberal. Ele avança com o tempo, em harmonia com a ciência, e, adaptando-se à época, louva cada vez mais o amor de Deus, buscando mergulhar perpetuamente em Sua graça, demonstrando um frescor e uma vivacidade admiráveis, como descrito acima. Somos obrigados, mais uma vez, a admirar a excelente progressividade do povo americano. Somente assim uma religião pode preservar sua vida eternamente, adaptar-se a um mundo em constante mudança, corresponder à receptividade de um povo em contínua evolução e cumprir constantemente sua missão como religião. O estado atual do budismo, que tende a estagnar e perder sua vitalidade, mantendo-se inalterado e mal conseguindo subsistir apenas através de cerimônias fúnebres, é algo que exige nossa profunda reflexão.
-
-Mesmo uma religião, dependendo do caráter nacional do país onde é praticada, pode prosperar ou cair em estagnação. É natural que o povo americano, captando a verdadeira essência britânica, sem se deixar envenenar por elementos estranhos, sem se ater a regras fixas, vivificando seu espírito e adaptando-o ao fluxo do tempo, fazendo dele constantemente o alimento da alma, o alento da vida e a base da cultura e da civilização, esteja dando um exemplo magnífico como uma nação cristã imponente. Essa visão espetacular se deve inteiramente ao seu caráter nacional. Nós, como nação e como povo de um país budista, devemos refletir profundamente e aprender muito com isso.
-
-#### (2) Semelhanças entre os Ensinamentos do Mestre Jikanshi e a Doutrina Cristã Americana = A Cura de Doenças pelo Mestre Jikanshi e pela Ciência Cristã
-
-O Mestre Okada Jikanshi diz:
-
-“Uma religião, se não for adequada à sua época, não pode salvar as pessoas. Tentar aplicar aos dias de hoje o que foi adequado para as pessoas de uma época passada é um esforço inútil. É por essa razão que as religiões estabelecidas hoje não conseguem cumprir plenamente sua missão. Portanto, Deus, de acordo com cada época, escolhe o ambiente, envia um santo e, conforme a época e o ambiente, concede ensinamentos para salvar as pessoas e corrigir o mundo.”
-
-Parece que o Mestre, com base nessa perspectiva, organizou a Igreja e está difundindo seus ensinamentos. Por isso, o que ele mais enfatiza é a “paz”, a “liberdade” e a “felicidade”. Nesse ponto, ele é totalmente idêntico aos cristãos americanos.
-
-Ele se dedica à cura de doenças porque a maior infelicidade do ser humano é a doença. Ele busca eliminar a pobreza para que todos possam desfrutar de uma vida feliz, livre e igualitária. Ele busca eliminar o conflito para trazer a paz ao mundo.
-
-O que é especialmente digno de nota é que esses ensinamentos do Mestre emanam de seu pensamento e de sua fé, e não são meros expedientes para a propagação da doutrina. Como mencionado anteriormente, o Mestre sustenta a grandiosa ideia de que o único Deus que governa o universo é o próprio espírito universal, e que o espírito universal é o Grande Amor Universal. Portanto, tanto os seres vivos quanto os inorgânicos do mundo material, assim como os habitantes do mundo astral e espiritual, são todos originados do espírito do Grande Amor, o Deus governante. Sendo criações de Deus, do ponto de vista de Deus, são todos Seus filhos; e, do nosso ponto de vista, são irmãos e irmãs do mesmo pai. Quando despertamos para essa verdade e nos aprofundamos no Grande Amor do pai, é lógico que conflitos e lutas não podem surgir. Compreendemos que o único caminho para servir a Deus é abençoarmo-nos e ajudarmo-nos mutuamente, desfrutando da “paz”. Os ensinamentos do Mestre, de fato, aprofundam o espírito de paz e amor ao próximo pregado por Cristo.
-
-Quanto à doença, originalmente não deveria haver doença em nós, que fomos criados por Deus. O que chamamos de doença surge porque nos desviamos do Grande Amor de Deus. Quando despertamos para o amor de Deus, agradecemos a Ele e, pela Sua graça, varremos as nuvens de nossos próprios pensamentos, a perfeição original se manifesta e o fenômeno chamado doença desaparece. Quando dizemos “próprios pensamentos”, como o corpo humano é uma composição do corpo físico, do corpo astral e do corpo espiritual, os pensamentos do corpo astral e do corpo espiritual também devem ser purificados. Isso é o que o Mestre chama de purificação espiritual. Como a purificação apenas pela própria força não é fácil, o próprio Mestre Jikanshi, que recebeu um poder de purificação especial através da força do pensamento da Bodhisattva Kannon, realiza a purificação espiritual e também concede esse poder purificador aos fiéis. É impossível não se surpreender com a extraordinária semelhança entre essas doutrinas sobre a cura de doenças e as da Ciência Cristã.
-
-#### (3) A Posição do Mestre Jikanshi = “Unidade de Espírito e Corpo” e “Fusão de Deus e Riqueza”
-
-Um dos maiores dilemas que se encontram na base do cristianismo é o “conflito entre corpo e espírito” e o “conflito entre Deus e a riqueza”. A ênfase no espírito resultou no desprezo pelo corpo físico, e pregou-se que a espiritualidade e o desejo carnal eram irreconciliáveis, chegando ao ponto de se afirmar que, enquanto a natureza carnal não fosse cortada, a vida seria eternamente sombria, e que, ao exterminar a natureza carnal, a espiritualidade se manifestaria. Essa visão da natureza carnal como pecado também leva ao pessimismo e ao irrealismo.
-
-O monismo do conflito entre espírito e corpo também está presente no Sermão da Montanha: “...se o teu olho direito te escandalizar, arranca-o e atira-o para longe de ti, pois te é melhor que se perca um dos teus membros do que seja todo o teu corpo lançado na geena. E, se a tua mão direita te escandalizar, corta-a e atira-a para longe de ti, pois te é melhor que se perca um dos teus membros do que vá todo o teu corpo para a geena...” (Evangelho de Mateus, capítulo 5). Embora não haja dúvida de que esse era o pensamento de Jesus Cristo, ele parece ter sido enfatizado por Paulo, como em “...porque, se viverdes segundo a carne, morrereis; mas, se pelo Espírito mortificardes as obras do corpo, vivereis...” (Epístola aos Romanos, capítulo 8), e se tornou uma doutrina definitiva com Agostinho.
-
-Quanto à “relação entre Deus e a riqueza”, seu significado fundamental é esclarecido no “Sermão da Montanha”. A saber: “Ninguém pode servir a dois senhores; porque ou há de odiar um e amar o outro, ou se dedicará a um e desprezará o outro. Não podeis servir a Deus e a Mamom. Por isso vos digo: Não andeis cuidadosos quanto à vossa vida, pelo que haveis de comer ou pelo que haveis de beber; nem quanto ao vosso corpo, pelo que haveis de vestir...” (Evangelho de Mateus, capítulo 6) é uma excelente prova textual. E no Evangelho de Marcos, capítulo 10, diz: “Filhos, quão difícil é, para os que confiam nas riquezas, entrar no reino de Deus! É mais fácil passar um camelo pelo fundo de uma agulha, do que entrar um rico no reino de Deus”. Assim, o cristianismo detestava e via a riqueza como pecado.
-
-É claro que, na época do nascimento de Jesus, o reino da Judeia havia caído no excesso de valorização da matéria, buscando exclusivamente a riqueza e o prazer, e negligenciando o aspecto espiritual. Portanto, não é impossível ver que Jesus enfatizou o lado espiritual com particular força. No entanto, é um fato inegável que as duas grandes religiões estabelecidas, o cristianismo e o budismo, tenderam a desprezar o corpo e a detestar a riqueza. Isso, à medida que a inteligência humana avança e o nível cultural se eleva, tornou-se um grande obstáculo, impedindo sua propagação.
-
-Vejamos isso brevemente no budismo. O budismo chama os instintos humanos de “três venenos”, desprezando-os e rejeitando-os. Ele vê todos os sofrimentos humanos como originados desses três venenos, ou seja, dos “desejos mundanos”, e prega que somente ao extinguir esses desejos se pode alcançar a verdadeira paz de espírito, libertar-se do “sofrimento” e atingir o “Nirvana”. E essa visão foi enfatizada pelo próprio Xáquia. No entanto, com o passar dos anos, chegou-se a pregar que “os desejos mundanos são a própria iluminação”, que “a terra impura é a própria terra do deleite” e que “corpo e mente são um só”. Isso representa o progresso, o desenvolvimento e a transformação do budismo.
-
-O “conflito entre espírito e corpo” e o “antagonismo entre Deus e a riqueza” do cristianismo também sofreram um grande avanço com o cristianismo americano, mostrando uma transformação surpreendente. Vejam! Os cristãos americanos, ao mesmo tempo que não se esquecem de se curvar diante de Deus, apreciam vigorosamente os esportes e se dedicam a manter a saúde do corpo. Assim, o espírito do cristianismo primitivo, de conflito entre espírito e corpo, mudou completamente, tornando-se uma harmonia entre espírito e corpo, chegando-se a pensar que um espírito são habita em um corpo são.
-
-Quanto a Deus e à riqueza, o Sr. Carnegie, conhecido como um dos maiores magnatas do mundo, dedicou toda a sua fortuna à paz mundial, realizando o espírito de amor fraternal de Cristo através da riqueza. O Sr. Rockefeller também, enquanto acumulava uma fortuna que o classificava como um dos maiores magnatas do mundo, fazia doações generosas, promovendo o espírito cristão de amor ao próximo.
-
-Diz-se que oitenta por cento da riqueza mundial é detida por cidadãos americanos, e que o número de cristãos nos Estados Unidos ultrapassa cinquenta por cento da população total, atingindo cerca de setenta milhões de pessoas. Isso pode ser visto como um exemplo típico e magnífico de servir a Deus e à riqueza ao mesmo tempo.
-
-Como descrito acima, entre os cristãos americanos, não apenas a “unidade de espírito e corpo” e o “serviço simultâneo a Deus e à riqueza”, mas também a harmonia entre ciência e religião estão em progresso. Em termos extremos, eles estão se aproximando do ápice da religião.
-
-Os ensinamentos do Mestre Jikanshi, por se originarem da grandiosa ideia do espírito universal como amor universal, têm como base o “amor é Deus” e, naturalmente, dedicam sua principal força à exaltação da grande compaixão. Além disso, como consideram que todos os fenômenos da natureza são emanações do Grande Amor, ou seja, de Deus, é natural que preguem o amor ao próximo — a fraternidade universal — e se esforcem ao máximo para promover a felicidade de todos os povos e a vinda da paz mundial.
-
-Em um poema do Mestre, lê-se:
-
-*Sem o caminho do amor universal,*
-*Não há prática de Kannon. Atentai, todos.*
-*Poder, amor, compaixão.*
-*É o desejo incessante de salvar todos os seres.*
-
-Isso também é suficiente para vislumbrarmos o pensamento de amor — amor universal — do Mestre. No entanto, como já mencionei isso antes, evitarei a repetição aqui. Ao examinarmos como o Mestre Jikanshi trata da relação entre espírito e corpo, e entre Deus e a riqueza, vemos que ele prega a unidade de espírito e corpo e defende a fusão de Deus e a riqueza de forma extremamente clara. Isso, naturalmente, é uma conclusão lógica que parte de sua visão de universo. Em particular, o Mestre, que também tem profundo conhecimento no estudo dos fenômenos espirituais, esclarece a unidade de espírito e corpo através de explicações baseadas na comprovação desses fenômenos.
-
-Quanto à questão de Deus e da riqueza, no capítulo sobre a abstenção de desejos em sua obra “Crônicas da Fé”, lemos:
-
-*“Desde a antiguidade, pensava-se que, para se tornar um religioso exemplar, era necessário levar uma vida de abstinência, e isso era considerado o melhor método para alcançar a verdade e polir a alma. Eu, no entanto, sou contra. Explicarei a seguir de forma clara.*
-*Em primeiro lugar, todos os fenômenos do universo existem para o ser humano. Vejam as flores da primavera, as folhas de outono, o gorjeio dos pássaros, o canto dos insetos, as belas paisagens, o encanto das noites de luar e as fontes termais. É preciso pensar por que tudo isso existe.*
-*Não é preciso dizer que foram criados por Deus para o deleite do ser humano. Além disso, a bela voz humana ao cantar, a dança, a literatura e as artes, naturalmente, proporcionam prazer tanto a quem as pratica quanto aos outros. E não é só isso. Na vida humana, todos os alimentos deliciosos, assim como a arquitetura, os jardins, as roupas, não existem apenas por necessidade; eles contêm elementos para um maior deleite. Ao desfrutar da comida e da bebida, elas se tornam nutrição e a vida é mantida. Se a moradia, o vestuário e a alimentação tivessem apenas o propósito da necessidade, poderíamos nos contentar com coisas muito simples. E é desnecessário dizer que ter filhos não tem apenas o propósito da necessidade.*
-*Como visto acima, tanto a grande natureza quanto todas as coisas criadas pelo homem, e dado que Deus concedeu ao ser humano o instinto para desfrutá-las, o correto é desfrutá-las. A doutrina da abstinência, que rejeita isso e se contenta apenas com o necessário para a sobrevivência, é uma forma de pensar que se opõe à profunda graça de Deus.*
-*Olhando por outro lado, até hoje, os privilegiados careciam de um sentimento altruísta, dedicando-se exclusivamente ao prazer próprio e de seus familiares, sem consideração pela sociedade ou pelos outros. Faltava-lhes a expressão de um pensamento de amor pela humanidade, de desfrutar junto com todos. Isso equivale a monopolizar a graça de Deus. Nesse sentido, acredito que abrir os grandes jardins dos ricos, tornar públicas as obras de arte e desfrutá-las junto com todos é a maneira de corresponder à vontade de Deus.*
-*Refletindo, o fato de que os santos do passado levaram uma vida de extrema abstinência, com roupas e comida simples, dedicando suas preciosas vidas a um estilo de vida de ‘cinquenta anos em roupas de papel’, seria uma rebelião contra a graça de Deus. As pessoas do mundo, sem perceber isso, têm uma tendência lamentável de pensar que um religioso não é digno de respeito a menos que seja um abstinente.*
-*Como mencionei, sou contra a abstinência, por isso levo uma vida como a das pessoas comuns, e acredito que isso está de acordo com a vontade de Deus. Portanto, o Paraíso Terrestre é um mundo onde o padrão de vida de toda a humanidade se eleva e onde o deleite puro das artes e de outras coisas se desenvolve grandemente.*
-*Além disso, quando se fala de verdade, bem e belo, a verdade é a ausência de falsidade, o bem é a ação correta e o belo é a beleza. Em uma vida de abstinência, pode haver o bem, mas não apenas faltam a verdade e o belo, como isso também não impediria o progresso da cultura? Devemos considerar que a sociedade da Índia, por ter se concentrado apenas na vida espiritual, chegou à estagnação e ao atraso cultural que vemos hoje.”*
-
-Ao ler isso, podemos perceber claramente a opinião do Mestre.
-
-Em suma, é extremamente digno de nota que os ensinamentos do Mestre Jikanshi tenham pontos em comum e semelhanças que se harmonizam com o significado da Bíblia interpretado pelos cristãos americanos, ou seja, com o que poderia ser chamado de o novo espírito cristão. Estas são as religiões vivas e modernas, e somente através delas será possível se adaptar à avançada sociedade cultural de hoje, salvar as pessoas de nosso tempo e almejar a realização do mundo atual como Paraíso — este mundo impuro como a Terra da Luz Tranquila.
-
-### Cinco, O Espírito do Mestre Jikanshi Através de Seus Poemas
-
-Na “Coletânea de Hinos”, de autoria do Mestre Jikanshi, estão compilados poemas de sua autoria. É nesses poemas que seu espírito se manifesta mais claramente. Selecionarei agora mais de uma dezena deles e, através deles, examinarei seu espírito.
-
-*Cristo e Xáquia também louvarão,*
-*Lá do mundo espiritual, minha grandiosa obra divina.*
-*O Cristo cujo retorno todos esperavam,*
-*O Messias, o Miroku, penso que são o mesmo.*
-*Os ensinamentos de Xáquia, Confúcio e Jesus,*
-*Kannon-Sama almeja, enfim, plenamente vivificar.*
-
-O Mestre observa o espírito de Cristo e o pensamento de Xáquia de uma perspectiva ampla e elevada. Diferente de outros religiosos, ele não se prende a escrituras parciais ou a detalhes de frases, caindo na tolice de “cegos apalpando um elefante”. Ele sempre examina o todo para apreender a essência, possuindo um talento especial para tocar o verdadeiro espírito. O Mestre diz: “O que os santos de renome mundial pregam é uma única verdade. Apenas a maneira de pregar difere para se adaptar à época”.
-
-É a partir dessa perspectiva que ele estuda Cristo e examina Xáquia, e por isso consegue descobrir a verdade comum que flui no âmago dos ensinamentos de ambos. Portanto, para o Mestre, o que Cristo pregou, o que Xáquia ensinou e o que ele mesmo agora prega têm a mesma essência. Todos eles visam à “eliminação do sofrimento e concessão da alegria” para os seres humanos e à “paz e tranquilidade” — o Paraíso Terrestre, este mundo impuro como a Terra da Luz Tranquila — para o mundo. Ele compreende que, para alcançar esse desejo, é preciso aprofundar o Grande Amor de Deus — a Grande Compaixão de Buda. Os poemas do Mestre citados acima nada mais são do que a expressão desse espírito. Consequentemente, aos olhos do Mestre, não existe a menor sombra de conflito sectário. Nisto reside sua grandeza e excelência. Ele parece acreditar, na verdade, que possui a grande missão de realizar o que Cristo planejou e o que Xáquia desejou. Assim, ele chega a expressar essa verdadeira intenção em poemas como:
-
-*Eternamente, sobre esta terra, erguerei*
-*O paraíso dos sonhos, tão ansiosamente esperado.*
-
-*Contemplando a beleza de uma flor, reflito*
-*Quão profunda é a graça de Deus.*
-
-Este poema expressa, em trinta e uma sílabas, o mesmo estado de espírito de Cristo quando louvou a graça de Deus dizendo: “Olhai para as aves do céu, que nem semeiam, nem segam, nem ajuntam em celeiros; e vosso Pai celestial as alimenta” e “Olhai para os lírios do campo, como eles crescem; não trabalham nem fiam”. Só nos resta admirar o coração desses dois santos, banhados no Grande Amor de Deus. O estado de espírito do budista que cantou “o canto dos pássaros, o murmúrio do riacho, tudo é a voz de Buda” seria também assim? Pensando bem, quão lamentáveis são os homens comuns! Sem compreender o Grande Amor de Deus — a Grande Compaixão de Buda —, ressentem-se dos outros, queixam-se de si mesmos e passam os dias e as noites sem alegria. A Terra da Luz Tranquila que os santos veem é, para o homem comum, uma terra impura; o Paraíso é um inferno. A diferença de felicidade entre conhecer e não conhecer o amor de Deus é, de fato, abissal. O que se deve desejar é entrar na fé e mergulhar no Grande Amor de Deus o mais rápido possível. Através deste poema, ao tocarmos o estado de espírito de um santo, o que nos é sugerido é verdadeiramente grandioso.
-
-*Neste mundo, o mais forte é aquele*
-*Que, esquecendo-se de si mesmo, persevera no caminho da retidão.*
-
-Este poema ensina o valor da justiça. Deus, além de ser amor, se compraz na justiça. É um belo contraste com o fato de Cristo ter pregado a justiça em todos os lugares.
-
-*Se trilhares com sinceridade o caminho da verdade,*
-*Entrarás no portal da prática de Kannon.*
-
-“A sinceridade é o portal da prática de Kannon.” Para os devotos de Kannon, este é o melhor guia, e um golpe certeiro para aqueles que se apegam a Kannon sem sinceridade. Não há sintonia espiritual em um coração sem sinceridade. O ensinamento do Mestre, de que se deve invocar Kannon com sinceridade e entrar na prática de Kannon com sinceridade, é como uma mãe que admoesta seu filho, com um amor que flui incessantemente, inesgotável. Cristo diz:
-
-*“Amarás o Senhor teu Deus de todo o teu coração, e de toda a tua alma, e de todo o teu pensamento. Este é o primeiro e grande mandamento.”* (Evangelho de Mateus, capítulo 22)
-
-Isso também não significa servir a Deus com sinceridade? Em todos os tempos e lugares, a visão dos santos é uma só.
-
-*Quão nobre é o coração*
-*Que, deixando de lado os próprios assuntos, deseja o bem dos outros.*
-*Tornai-vos homens verdadeiros, que pensam incessantemente*
-*Apenas no bem do caminho, do mundo e das pessoas.*
-
-Nesses dois poemas, o espírito de amor ao próximo do Mestre pulsa vibrantemente. Têm o mesmo teor do sagrado ensinamento de Cristo: “Amarás o teu próximo” (Evangelho de Mateus, capítulo 5).
-
-*Ah, que alegria! Neste mundo onde perdi a esperança,*
-*Ao conhecer Kannon, um novo anseio brotou.*
-
-Paulo exclama: “Já não sou eu quem vive, mas Cristo vive em mim” (Epístola aos Gálatas, capítulo 2). Tanto o brado de Paulo quanto o poema do Mestre Jikanshi são melodias de feitio diferente que narram, em última análise, o mesmo estado de espírito. A imagem do santo que vive imerso na fé e pela fé se ergue vividamente diante de nossos olhos.
-
-*A fragilidade está no desejo infinito*
-*Do homem, cujo destino nem o amanhã conhece.*
-*Nas amarras do apego e do desejo infinito,*
-*O corpo e a alma perecem.*
-
-Ao compararmos o significado desses dois poemas do Mestre Jikanshi com o ensinamento de Cristo: “Não ajunteis tesouros na terra, onde a traça e a ferrugem tudo consomem, e onde os ladrões minam e roubam; Mas ajuntai tesouros no céu, onde nem a traça nem a ferrugem consomem, e onde os ladrões não minam nem roubam. Porque onde estiver o vosso tesouro, aí estará também o vosso coração...” (Evangelho de Mateus, capítulo 6), vemos que também aqui o espírito dos dois santos é exatamente o mesmo.
-
-### Seis, O Juízo de Cristo e o Mestre Jikanshi
-
-É do conhecimento de todos que no cristianismo existe o ensinamento do “Juízo de Deus”. O Mestre Jikanshi também possui um pensamento sobre o “Juízo”, como fica claro nos poemas de sua coletânea de hinos:
-
-*Purificai vosso corpo e espírito, para serdes*
-*Pessoas perdoadas no solene Juízo de Deus.*
-*Se não perceberdes o caminho e o coração errados,*
-*Perecereis em breve no Juízo de Deus.*
-
-No entanto, mais recentemente, o Mestre tem demonstrado uma visão espantosa e clama para que se ouça a advertência de Deus.
-
-O Mestre considera que o fato de os próprios cientistas, até então imersos no materialismo absoluto, terem descoberto que a origem do universo não é a matéria, mas o espírito, e, no processo dessa descoberta, terem fabricado a terrível bomba atômica, que agora se apresenta como uma grande ameaça ao mundo, causando um forte abalo em toda a humanidade, é uma advertência de Deus a respeito do Juízo.
-
-Em outras palavras, ele lamenta que, embora os cientistas tenham descoberto que a essência do universo é espiritual, ainda tentem ocultar esse fato, e que o mundo também se mostre extremamente indiferente a essa grande verdade. Ele busca corrigir a visão distorcida de que as pessoas, sem compreenderem que esse espírito universal é o Grande Amor Universal, concentram sua atenção apenas na fabricação da bomba atômica, uma descoberta derivada. Ele enfatiza veementemente que o espírito universal é o Grande Amor, ou seja, Deus. Ao mesmo tempo, ele afirma que este grande fato, em que Deus, por um lado, abre uma porta espiritual e mostra a imagem do Grande Amor, e, por outro, permite a invenção da bomba atômica para ensinar o trágico destino daqueles que, sem compreender o Grande Amor de Deus, se entregam à luta e obstruem a paz, é uma advertência divina. Ele brada que, se não se der atenção a essa advertência e se houver algo como lutar carregando bombas, isso significa ignorar a advertência de Deus e se apresentar voluntariamente ao tribunal do Juízo.
-
-Ah, será isso perspicácia, discernimento, inspiração espiritual ou revelação divina? Não são palavras de ouro que nos deixam atônitos?
-
-No entanto, que tristeza! Em nosso país, não apenas não há ninguém que tenha apresentado tal visão, como também são extremamente poucos os que se dispõem a dar ouvidos a palavras de ouro tão extraordinárias. Contudo, neste vasto mundo, é possível encontrar esporadicamente opiniões que se assemelham às palavras de ouro do Mestre.
-
-Com efeito, pouco antes de sua morte, o Dr. Nicholas Murray Butler, o renomado reitor da Universidade de Columbia, ao discutir a situação mundial e a possibilidade da “completa destruição da civilização alcançada ao longo dos últimos cinco mil anos”, disse o seguinte:
-
-*“Devemos ter esperança no futuro. No entanto, essa esperança em si se tornará desesperança, a menos que seja respaldada pela coragem e pela determinação de que o mundo de amanhã seja reconstruído sobre um fundamento moral, e que esse fundamento seja defendido e perpetuado para servir de apoio e guia para a humanidade através dos séculos vindouros. Caso contrário, o fim não tardará a chegar.”*
-
-Além disso, o Sr. Arthur S. Maxwell, dos Estados Unidos, disse, em suma, o seguinte:
-
-*“Houve uma época em que os líderes cristãos previram o fim do mundo. À medida que o ano 1000 d.C. se aproximava, a teoria de que Cristo retornaria e iniciaria seu reinado de mil anos (o Milênio) causou uma sensação em toda a Europa. Novamente, no início do século XIX, a teoria de que a segunda vinda de Cristo e o fim do mundo ocorreriam em 1843 se espalhou por todo o mundo cristão. A data fatídica foi então adiada para a primavera de 1844. E depois, para outubro de 1844. Os pregadores foram mal interpretados, as pessoas zombaram e descartaram o assunto como irracional.*
-*No entanto, a suposição de hoje é de natureza diferente. Ela não veio da igreja, mas do mundo. É feita por pessoas que não acreditam que o fim do mundo esteja ligado à segunda vinda de Cristo. Sem dúvida, a maioria delas negaria a doutrina da segunda vinda. No entanto, usando as palavras mais solenes, palavras que estranhamente se assemelham à profecia da segunda vinda, elas afirmam que o fim do mundo está próximo.”*
-
-Ademais, o Sr. Wesner Fallow, na edição de 25 de setembro de 1946 do “The Christian Century”, propôs a organização de grupos de estudo em todas as igrejas do mundo cristão para “educar cada cristão a compreender o significado do fim do mundo”. E ele faz a seguinte observação digna de nota:
-
-*“É normal que os cristãos deem importância à escatologia. Foi anormal tê-la ignorado por tanto tempo. No entanto, o dia 6 de agosto de 1945 os trouxe de volta ao caminho certo, por mais que pudessem ser envolvidos pelo tipo de medo que os crentes têm. A explosão da bomba atômica no Japão trouxe os cristãos de volta ao caminho devido, mas isso mostra que é correto não apenas meditar sobre o fim do mundo, mas também esperá-lo.”*
-
-O exposto acima são apenas alguns exemplos, mas o número de pessoas em todo o mundo que associam a bomba atômica ao Juízo de Deus e ao fim do mundo não é de forma alguma pequeno. No entanto, interpretar a comprovação científica de forma mística e expor uma verdade sublime e profunda de maneira extremamente simples é algo que, além do Mestre, ainda não encontramos em nenhum outro lugar. Isto, sim, deve ser proclamado como o orgulho de nosso Japão e uma maravilha para o mundo.
-
-— (Fim) —
-
-Coleção Jikan, Volume 15
-Cristo e o Mestre Jikanshi
-Publicado em 25 de janeiro de 1950
-Formato B6, 77 páginas
-Autor: Matsui Seikun
-Editor: Morinosuke Koizumi
-Editora: Nippon Gorokunana Kyo
-
----
-
-# Coleção de Ensaios do Mestre Okada Jikan
-
-**Categoria:** sasshi | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
-
-## Coleção de Ensaios do Mestre Okada Jikan
-## Discursos sobre o Mundo Espiritual (Coletânea Jikan, Volume 3)
-
-*Publicado em 25 de agosto de 1949*
-
-### Prefácio
-
-Esta obra consiste no registro, com a máxima precisão que me foi possível alcançar, dos fenômenos do Mundo Espiritual que perscrutei ao longo de mais de duas décadas, e posso asseverar que nela não há o menor vestígio de artifício ou exagero.
-
-Embora se alardeie, em nossos dias, o progresso do saber e da inteligência humana, trata-se de um avanço meramente material, ao passo que o progresso no campo metafísico permanece lamentavelmente estagnado. O verdadeiro valor do avanço de uma civilização reside na marcha compassada e simultânea tanto do plano metafísico quanto do material. A razão precípua pela qual a felicidade humana não acompanha o esplêndido desenvolvimento da civilização, a despeito de suas notáveis conquistas, reside precisamente nesse progresso claudicante. Em outras palavras, apenas a cultura material avançou, enquanto a cultura espiritual ficou para trás.
-
-Nesse sentido, é meu propósito, por meio de um salto qualitativo na cultura espiritual, promover um grande despertar na humanidade. Todavia, a natureza dos fenômenos espirituais, por ser inacessível aos cinco sentidos humanos, impõe uma dificuldade extraordinária à tarefa de fazer com que sua existência seja compreendida. Contudo, não busco afirmar a existência do que é inexistente, mas sim do que de fato existe. Por essa razão, tenho a firme convicção de que não há por que não atingir meu objetivo.
-
-Ademais, é por demais evidente o quão sublime é o princípio de felicidade que se pode apreender ao crer nesses fenômenos espirituais. Portanto, independentemente da fé que se professe, enquanto não houver um conhecimento profundo sobre tais questões, será impossível alcançar a verdadeira paz de espírito e a certeza sobre o próprio destino. Um fato a se ponderar a esse respeito, embora perfeitamente claro para todos, é que, apesar da certeza de que todo ser humano um dia morrerá, quase nada se sabe sobre o que ocorre após a morte. Reflitamos por um instante: ainda que um homem tenha uma vida longa, alcançando setenta ou oitenta anos, que existência efêmera seria a sua se tudo se encerrasse aí? Esse pensamento decorre unicamente da ignorância sobre a vida que prossegue no Mundo Espiritual após a morte. Se lograrmos compreender profundamente essa verdade, a vida se tornará prazerosa tanto no viver quanto no morrer, e seremos capazes de nos tornar seres eternamente felizes.
-
-Foi com esse propósito em mente que redigi esta obra.
-
-### A Existência do Mundo Espiritual
-
-Primeiramente, por que razão o ser humano nasce neste mundo? É fundamental que compreendamos essa questão. Deus criou os seres humanos a fim de construir na Terra o Mundo Ideal, que é o objetivo de Seu Plano Divino. Para tanto, conferiu a cada um sua respectiva missão, fazendo-os atuar segundo Sua Vontade. A própria evolução desde a era primitiva até a resplandecente civilização de hoje, bem como o desenvolvimento da inteligência humana em nosso tempo, não ocorreram por outro motivo. Com efeito, não apenas os seres vivos superiores como os homens, mas todos os demais seres vivos — e mais, as plantas, os minerais e toda matéria que possui forma — são constituídos por dois elementos: espírito e corpo. Qualquer matéria, por menor que seja, perece quando seu espírito se separa dela. Aqui, porém, limitar-me-ei a explicar o caso do ser humano.
-
-Quando o corpo carnal de um homem se torna inapto para o uso, seja pela senilidade, por doença ou por uma grande hemorragia, o espírito o abandona, desprendendo-se dele e rumando para o Mundo Espiritual. Ali, ele se torna um ser espiritual e dá início à sua vida espiritual. Esse processo é o mesmo para todos os povos do mundo. Um exemplo notável disso é a célebre obra de Sir Oliver Lodge, *A Sobrevivência Após a Morte*, que, após a Primeira Guerra Mundial, elevou o preço do papel na Inglaterra. A obra consiste no registro das inúmeras comunicações que o espírito de seu filho, morto em combate na Bélgica durante a guerra, enviou ao pai por diversos meios. Naquela época, pessoas de várias nações se apressaram a lê-la, o que serviu de estopim para que a pesquisa sobre o Mundo Espiritual florescesse subitamente. Com o crescente fervor investigativo, surgiram também médiuns de notável capacidade.
-
-Outro fato conhecido por todos que se dedicam a essa área é que o famoso literato belga, o falecido Maurice Maeterlinck, autor de *O Pássaro Azul*, ao tomar conhecimento da realidade do mundo dos espíritos, alterou por completo sua célebre visão sobre o destino e mergulhou com afinco na pesquisa como um estudioso da ciência espiritual. Posteriormente, com a publicação da renomada obra do Dr. L. V. H. Wardo, da França, intitulada *Relatos da Exploração do Mundo Espiritual*, a pesquisa anímica ganhou ainda mais vigor. A investigação do Dr. Wardo, em particular, foi extremamente aprofundada. Uma vez por semana, por cerca de uma hora, o doutor entrava em um estado de transe enquanto permanecia sentado em uma cadeira e viajava ao Mundo Espiritual. Nesses momentos, o espírito de seu tio paterno conduzia o espírito do Dr. Wardo, mostrando-lhe e instruindo-o detalhadamente sobre a realidade dos mais diversos recantos daquele mundo. A obra é o registro dessas experiências, nas quais espíritos de amigos e conhecidos também desempenharam papéis de orientação, enriquecendo sobremaneira o conhecimento do doutor. Trata-se de uma leitura deveras interessante e de grande valia para a compreensão da vida espiritual, razão pela qual recomendo que o leitor a procure.
-
-Naturalmente, existem diferenças consideráveis entre o Mundo Espiritual ocidental e o japonês, um ponto que não pode ser ignorado. Ao final desta obra, pretendo elucidar os fenômenos espirituais do Japão e do Ocidente (泰西) por meio de diversos exemplos práticos.
-
-Há mais de uma década, recebi uma correspondência da Inglaterra informando que centenas de sociedades de pesquisa anímica haviam sido criadas e atuavam vigorosamente naquele país, chegando-se a fundar uma universidade de estudos espirituais. Contudo, devido à Grande Guerra que se seguiu, gostaria de saber qual a situação atual de tais iniciativas.
-
-Pois bem, prossigamos com a explanação gradual sobre os múltiplos aspectos do Mundo Espiritual.
-
-*(Nota) 泰西 (Taisei): As nações do Ocidente.*
-
-### O Mundo Espiritual e o Mundo Material
-
-Para se aprofundar em qualquer religião, é imprescindível, antes de tudo, compreender a fundo a relação entre o Mundo Espiritual e o Mundo Material. A razão é simples: o objeto da fé religiosa são os deuses e budas, e estes são espíritos. Sendo invisíveis aos olhos carnais, tentar apreender sua realidade apenas por meio da teoria é a insensatez de procurar peixes em uma árvore. Contudo, como deuses e budas existem neste mundo de forma esplêndida, é evidentemente impossível negar sua presença. A dificuldade em fazer com que a maioria dos homens modernos reconheça a existência do espírito é, sem dúvida, análoga à dificuldade de fazer um selvagem reconhecer a existência do ar.
-
-Como premissa, buscarei explicar da forma mais detalhada possível a constituição do Mundo Espiritual e a vida de seus habitantes.
-
-O ser humano é constituído de dois elementos primordiais: o corpo carnal e o corpo espiritual. Quando um homem morre, ocorre a separação entre espírito e matéria; o espírito ingressa imediatamente no Mundo Espiritual e ali inicia sua nova vida. No momento da separação, o espírito dos extremamente virtuosos se desprende pela fronte; o dos extremamente perversos, pela ponta dos pés; e o das pessoas comuns, pela região central do abdômen, próximo ao umbigo. O budismo denomina a morte como *ōjō* (往生), que, sob a perspectiva do Mundo Espiritual, significa "partir para nascer". De modo semelhante, o termo *seizen* (生前), "antes da vida", refere-se ao período anterior à morte, enquanto o xintoísmo utiliza expressões como *kiyū* (帰幽), "retorno ao mundo oculto", e *tenki* (転帰), "retorno e transição", ambas fundamentadas no mesmo princípio.
-
-Ao se tornar um ser espiritual, a alma, como dizem as tradições, atravessa primeiro o Rio das Três Travessias e se dirige à Corte de Enma. Isso é um fato, corroborado pelo testemunho unânime de inúmeros espíritos com os quais me comuniquei. A Corte de Enma equivale a um tribunal do Mundo Material. É notável que, ao concluir a travessia do rio, a cor da mortalha do espírito se altera. A dos menos maculados por pecados e impurezas torna-se branca; em seguida, vêm as de cores claras, azul, amarela, vermelha e, por fim, preta, de acordo com a gravidade das máculas. A cor púrpura, no entanto, é reservada às vestes divinas.
-
-Na Corte de Enma, os deuses do portal da purificação presidem o julgamento, enquanto diversos oficiais do além interrogam a alma e determinam a recompensa ou a punição correspondente. Os extremamente virtuosos são encaminhados ao Paraíso ou à Terra Pura, ao passo que os extremamente perversos são lançados ao Inferno. As pessoas comuns, por sua vez, seguem para o Mundo Intermediário (中有界), denominado no xintoísmo como *Yachimata* (八衢), a "encruzilhada das oito-vias", e no budismo como *Rokudō no Tsuji* (六道の辻), a "encruzilhada dos seis caminhos". A grande maioria dos espíritos se dirige a esse mundo intermediário para passar por um período de aprimoramento. A primeira etapa desse processo consiste em ouvir os sermões de um instrutor espiritual. Aqueles que, por meio desses ensinamentos, alcançam a reforma do coração, seguem para o Paraíso; os que não o fazem, são destinados ao Inferno. Esse período de aprimoramento tem uma duração máxima de aproximadamente trinta anos, ao fim dos quais o destino da alma é selado. Os instrutores espirituais são mestres das diversas religiões.
-
-Quanto à constituição do Mundo Espiritual, ele se estrutura em três planos: superior, médio e inferior. Cada um desses planos se subdivide em outros três, totalizando nove níveis. O plano superior é o Paraíso; o médio, o Mundo Intermediário; e o inferior, o Inferno. O Mundo Material corresponde ao Mundo Intermediário. Por isso, a expressão budista "encruzilhada dos seis caminhos" refere-se às três vias que levam ao paraíso e às três que conduzem ao inferno. Já a "encruzilhada das oito-vias" do xintoísmo adiciona a essas o Paraíso Supremo, acima, e o Mundo Raiz, abaixo.
-
-Para descrever sucintamente a aparência do Paraíso e do Inferno, podemos dizer que, quanto mais se ascende ao Paraíso Supremo, mais intensas se tornam a luz e o calor, a ponto de a vida ali transcorrer em um estado de quase nudez. Como vemos em pinturas e esculturas antigas, os budas supremos são representados nus. Em contrapartida, quanto mais se desce ao Inferno ínfimo, mais rarefeitas se tornam a luz e o calor, até que o nível mais baixo é um estado de trevas, ignorância e congelamento. Diante de tal sofrimento, mesmo o espírito mais perverso e desumano é compelido à reforma do coração.
-
-O que acabo de expor é uma descrição bastante geral e talvez pareça ao homem moderno um relato absurdo e fantasioso. Contudo, esta é uma explanação que obtive ao longo de mais de vinte anos, por meio de investigações e pesquisas realizadas através de médiuns e de todos os outros métodos ao meu alcance, compilando os pontos de concordância entre inúmeros relatos de espíritos. Por isso, anseio que os leitores a recebam com um considerável grau de confiança. Creio firmemente que nem a doutrina do Inferno e da Terra Pura de Shaka nem a *Divina Comédia* de Dante são obras de mera ficção.
-
-Conforme o exposto, é possível ter uma ideia aproximada do destino do espírito — se para o plano superior, médio ou inferior — ao observar o semblante do falecido. Um rosto sereno, sem qualquer traço de agonia, corado como uma flor e com a aparência de quem ainda vive, indica um destino paradisíaco. Um aspecto sombrio e melancólico, de tonalidade pálida, branco-amarelada ou branco-azulada — o estado comum dos falecidos —, aponta para o Mundo Intermediário. Já uma expressão de intensa agonia, com uma coloração escura ou negro-azulada, denota, evidentemente, um destino infernal.
-
-As informações acima servem como conhecimento basilar sobre o Mundo Espiritual. A partir de agora, discorrerei sequencialmente sobre os fenômenos espirituais que pude constatar por meio de minhas próprias experiências em diversas áreas.
-
-### Os Antepassados e a Preparação para a Vida Após a Morte
-
-Como se dá o estado de separação do corpo espiritual no momento da morte? A esse respeito, existe um relato escrito por uma enfermeira que possuía o dom da visão espiritual, o qual descreve o processo com bastante clareza. Permitam-me transcrevê-lo.
-
-Este é um exemplo ocidental, pois tanto no Ocidente quanto no Japão existem, ocasionalmente, pessoas capazes de ver os espíritos. Embora tenha esquecido os pormenores, recordo-me dos pontos essenciais, que são os seguintes: "Certa vez, enquanto observava atentamente um paciente prestes a falecer, vi elevar-se de sua fronte um fio de uma substância semelhante a uma névoa esbranquiçada, que se expandia suavemente no espaço. Em pouco tempo, essa névoa se transformou em um grande aglomerado irregular e etéreo, como uma nuvem de fumaça. Logo depois, lenta e gradualmente, começou a tomar a forma de um corpo humano. Após alguns minutos, assumiu por completo a aparência que o paciente tinha em vida, flutuando no ar. O espírito fitava seu próprio cadáver e parecia querer que seus parentes, que se agarravam ao corpo em prantos, soubessem de sua presença. Contudo, talvez por se dar conta de que agora habitava um plano distinto, pareceu desistir. Após um instante, virou-se, dirigiu-se à janela e, com extrema leveza, saiu para o exterior". Essa descrição retrata com fidedignidade o instante da morte.
-
-O relato acima descreve a transição de uma pessoa comum da vida para a morte. O Mundo Espiritual ocidental é plano, enquanto o oriental é tridimensional. Isso pode ser compreendido pelo fato de que, no Japão, existem oitocentos miríades de deuses e santuários de portes grande, médio e pequeno, com diversas hierarquias, como os santuários imperiais, nacionais, provinciais, distritais e municipais, o que revela quão estratificada é sua estrutura. Em contrapartida, no Ocidente, pode-se dizer que existe praticamente uma única religião, o cristianismo. A diferença entre os dois mundos é, pois, tão clara quanto a diferença entre a longitude e a latitude. Por isso, o primeiro é dito politeísta, e o segundo, monoteísta.
-
-Após a morte de uma pessoa, os ritos budistas se encerram temporariamente no quadragésimo nono dia, e os xintoístas, no quinquagésimo. Isso ocorre porque, a partir dessa data, o espírito retorna em definitivo ao Mundo Espiritual. Até então, no budismo, o espírito permanece ligado a uma tabuleta fúnebre de madeira branca; no xintoísmo, a um objeto chamado *himorogi* (神籬), uma efígie humana feita de cânhamo.
-
-Aqui, há um ponto que merece atenção. É natural que, em meio à dor, as pessoas tenham dificuldade em esquecer o falecido. No entanto, é preciso refletir sobre essa atitude. Expressões como "o espírito não consegue seguir seu caminho" ou "não encontra a paz" se devem ao fato de que a obstinação dos familiares o retém. Por isso, após cerca de cem dias, deve-se esforçar para esquecer. É recomendável manter fotografias expostas até essa data e, depois, guardá-las por um tempo. Poderão ser novamente expostas quando a dor e o apego tiverem se abrandado.
-
-A seguir, explicarei brevemente o significado do altar budista. O interior do altar é uma representação da Terra Pura do Paraíso, para onde convidamos os espíritos dos antepassados. A Terra Pura do Paraíso é um lugar onde desabrocham miríades de flores, exalando um perfume suave. A música soa incessantemente, a comida e a bebida são abundantes, e os espíritos vivem em um estado de júbilo. Para espelhar essa realidade no mundo material, oferecemos flores, queimamos incenso e servimos alimentos e bebidas. O sino deve ser tocado duas vezes, pois funciona como um sinal para os antepassados no Mundo Espiritual. Ao ouvi-lo, inúmeros antepassados se reúnem instantaneamente no altar. Talvez se perguntem, com estranheza, como dezenas ou centenas de espíritos podem se acomodar lado a lado em um altar tão pequeno. A verdade é que os espíritos são dotados de elasticidade e, ao se reunirem em locais como o altar, assumem uma forma diminuta, proporcional ao espaço. Eles se dispõem em vários níveis, de forma ordenada e sequencial, segundo sua hierarquia espiritual — superior, média ou inferior —, e também saúdam respeitosamente as preces dos descendentes.
-
-Quando se oferecem alimentos, os antepassados absorvem o espírito da oferenda. Como o alimento espiritual é extremamente sutil, o que se oferece no altar costuma ser mais do que o necessário. O excedente é então doado aos espíritos famintos do inferno, e essa virtude eleva a condição dos próprios antepassados. Por isso, deve-se oferecer no altar, sempre que possível e mesmo no dia a dia, as primícias, as iguarias e tudo o que se considera saboroso, antes de qualquer outra pessoa. Há um provérbio antigo que diz: "Quando se quer ser filho devotado, os pais já não existem". Mas isso não é verdade. Pelo contrário, dedicar-se à devoção filial espiritual após a morte dos pais constitui um ato de grande piedade. Visitas ao túmulo, cerimônias memoriais e outros atos de reverência também são recebidos com imensa alegria pelos antepassados. Portanto, os familiares e conhecidos devem realizar esses rituais de sufrágio tanto quanto possível, pois por meio deles os espíritos se elevam, e o tempo para que escapem do inferno é abreviado.
-
-É comum pensar que apenas o primogênito precisa ter um altar, e que os demais filhos não necessitam. Isso é um grande equívoco. Imagine se os pais estivessem vivos: se apenas o filho mais velho os tratasse bem, enquanto os outros os tratassem com frieza ou nem mesmo os visitassem, não seria isso uma enorme falta de devoção filial? Nesses casos, os pais, que estão no Mundo Espiritual, utilizam diversos métodos para alertar os filhos. É preciso ter atenção, pois isso pode até mesmo causar doenças.
-
-Outro ponto que exige cautela é a conversão religiosa. Há casos em que se substitui o altar por um oratório xintoísta de determinada denominação, ou religiões que exigem a remoção do altar budista. Esses também são grandes erros. Mesmo que uma pessoa se converta, seus antepassados não aderirão de imediato e facilmente à nova religião. É o mesmo que ocorre com uma pessoa viva: se um membro da família se converte, não significa que todos os outros familiares concordarão instantaneamente. Por essa razão, alguns antepassados podem se enfurecer. Em repreensão, podem enviar diversos "avisos", que se manifestam como doenças, desastres e outros infortúnios. Certamente, haverá leitores deste texto que se identificarão com essa situação.
-
-Gostaria de escrever agora sobre as organizações no Mundo Espiritual. Assim como o Mundo Material, o Mundo Espiritual se divide em grandes, médias e pequenas organizações de diversas religiões e seitas. As mais de cinquenta escolas do budismo, as treze seitas do xintoísmo, o xintoísmo dos santuários, as diversas denominações do cristianismo, e assim por diante, todas mantêm uma vida comunitária semelhante à do mundo terreno. Após a morte, o espírito ingressa na organização à qual pertencia em vida. Aqueles que não tiveram nenhuma fé durante a vida, no entanto, não têm uma organização à qual pertencer. Tornam-se, por assim dizer, "sem-teto" espirituais e enfrentam grandes dificuldades. Por isso, é aconselhável filiar-se em vida a uma organização de confiança e fazer os preparativos para a vida após a morte.
-
-A esse respeito, há uma história interessante. Certa vez, em uma sessão de pesquisa mediúnica, o espírito de Tokutomi Roka se manifestou por meio de um médium. Para verificar sua autenticidade, a Sra. Roka foi convidada para identificar o espírito, e ela confirmou que se tratava, sem dúvida, de seu falecido marido. Durante a sessão, diversas perguntas foram feitas, mas o espírito de Roka demonstrava uma inteligência quase infantil, como se sofresse de demência. Os presentes ficaram surpresos com o inesperado. A razão para tal estado era que, em vida, ele negara a existência da vida após a morte e não possuía fé. Embora fosse um homem respeitável, que admirava o humanismo de Tolstói, sua descrença na existência do Mundo Espiritual o levou a essa condição.
-
-### Os Múltiplos Aspectos da Morte
-
-Existem diversas formas de morrer. Há casos em que a pessoa se torna subitamente um ser espiritual devido a uma hemorragia cerebral, um derrame, um ataque cardíaco ou uma morte violenta. Pessoas desavisadas costumam dizer que essas mortes são uma bênção, pois a pessoa não sente a dor da doença, mas isso é um tremendo engano. Na verdade, é a maior das infelicidades. Como não há preparação para a morte, mesmo ao chegar ao Mundo Espiritual, o espírito não acredita que morreu e continua a pensar que está vivo. Contudo, ao perceber que não tem um corpo físico, busca desesperadamente por um. Para isso, segue o cordão espiritual que o conecta aos seus. Mesmo após a morte, o laço de sangue permanece, e o espírito, guiado por esse cordão, tenta se apossar de um corpo humano. A possessão é mais fácil em pessoas debilitadas, mulheres anêmicas após o parto e, principalmente, em crianças. Por isso, na maioria das vezes, o espírito se apossa de uma criança. Essa é a causa da verdadeira paralisia infantil e também da epilepsia. A paralisia infantil apresenta muitos sintomas semelhantes aos de uma hemorragia cerebral por essa razão, e a epilepsia manifesta os sintomas do momento da morte. Por exemplo, espumar pela boca é característico de um espírito que morreu afogado; a epilepsia do fogo, cujas crises são desencadeadas pela visão do fogo, é causada por um espírito que morreu queimado. Outros casos manifestam as mesmas condições da morte violenta. O sonambulismo também se enquadra nessa categoria, e esses fenômanos podem, por vezes, ser a causa de doenças mentais.
-
-Há algo que se deve saber sobre a morte violenta. Os espíritos de vítimas de assassinato, suicídio e todas as formas de morte violenta são chamados de espíritos presos à terra e, por um tempo, não conseguem se afastar do local de sua morte. Geralmente, permanecem em um raio de alguns ou dezenas de metros e, tomados pela solidão, anseiam por companhia. É comum que em locais onde ocorreram atropelamentos em ferrovias, nas margens de rios onde houve suicídios por afogamento ou nos galhos de árvores onde ocorreram enforcamentos, novos incidentes se repitam. A razão reside nesse princípio. Normalmente, um espírito preso à terra permanece no local por trinta anos, mas esse período pode ser consideravelmente encurtado por meio das preces e oferendas dos familiares. Por isso, aos espíritos de mortes violentas devem ser oferecidos rituais de sufrágio especialmente fervorosos.
-
-Todos os falecidos, especialmente os suicidas, ao chegarem ao Mundo Espiritual, continuam a sentir a agonia do momento da morte e se arrependem profundamente. Isso ocorre porque o Mundo Espiritual é uma extensão do Mundo Material.
-
-Por esse princípio, mesmo uma pessoa virtuosa e notável, se sua morte for acompanhada de sofrimento, irá para o Mundo Intermediário ou para o Inferno. Da mesma forma, uma pessoa solitária em vida continuará solitária no Mundo Espiritual, e uma pessoa desafortunada permanecerá desafortunada. Contudo, há casos em que ocorre exatamente o oposto. Refiro-me àqueles que se tornaram ricos fazendo outros sofrerem, sendo avarentos ou agindo de forma desonesta. Ao chegarem ao Mundo Espiritual, seus pecados resultam no inverso de sua condição anterior: tornam-se extremamente pobres e se arrependem amargamente. Em contrapartida, aqueles que em vida despenderam seus bens em prol da sociedade e das pessoas, acumulando virtudes, tornam-se abastados e felizes no Mundo Espiritual.
-
-Há ainda outro fato. No Mundo Material, uma pessoa pode aparentar ser esplêndida, mas, alguns meses ou um ano após sua chegada ao Mundo Espiritual, sua fisionomia se transforma para refletir seus verdadeiros pensamentos. Isso acontece porque o Mundo Espiritual é o mundo do pensamento, onde não existe o anteparo do corpo físico. Pensamentos ignóbeis resultam em uma aparência ignóbil, enquanto uma pessoa virtuosa terá uma fisionomia correspondente. Isso demonstra a diferença em relação ao Mundo Material e revela o quão imparcial e justo é o Mundo Espiritual.
-
-Houve um caso, tempos atrás. Naquela época, um jovem chamado Yamada trabalhava sob minha supervisão. Certo dia, ele me disse: "Preciso de uma licença, pois surgiu algo que me obriga a ir a Osaka com urgência". Olhei para ele e notei que sua expressão e seu comportamento não eram normais. Perguntei-lhe o motivo, mas suas palavras foram vagas e obscuras. Decidi, então, investigá-lo espiritualmente, pois naquela época eu me dedicava com grande interesse à pesquisa espiritual. Pedi-lhe que se sentasse em postura formal e fechasse os olhos, e iniciei o método de investigação espiritual. Ele imediatamente começou a se contorcer, com uma expressão de extrema agonia. Em resposta às minhas perguntas, o espírito respondeu o seguinte: "Eu sou um amigo de Yamada. Enquanto trabalhava em uma empresa em Osaka, o diretor, acreditando nas palavras doces de alguém mal-intencionado, me demitiu. A amargura era insuportável e, em desespero, cometi suicídio tomando veneno. Eu pensava que, ao me matar, tudo se reduziria ao nada, mas, em vez disso, a agonia do momento da morte persiste eternamente. Arrependido de meu erro de cálculo e culpando aquele diretor por tudo, decidi me vingar, fazendo com que Yamada o assassinasse. Por isso, me apossei dele e estava tentando levá-lo a Osaka". Essas palavras foram proferidas de forma entrecortada, em meio ao sofrimento. Ele então me implorou que o livrasse de sua agonia. Expliquei-lhe seu equívoco e realizei o método para remover seu sofrimento. O espírito, sentindo-se muito aliviado, agradeceu-me profusamente, jurou abandonar seu plano homicida e partiu.
-
-Durante a possessão, Yamada estava em transe e não tinha a menor consciência do que havia dito. Após despertar, relatei-lhe as palavras do espírito. Ele ficou chocado e, ao mesmo tempo, feliz por ter sido salvo a um passo do perigo.
-
-Isso demonstra que, por maior que seja o sofrimento, o suicídio é um ato que jamais deve ser cometido.
-
-O que talvez surpreenda as pessoas é o caso do duplo suicídio por amor. Os amantes imaginam que, após a morte, irão para o Paraíso, sentar-se-ão em um trono de lótus e viverão felizes, mas isso é um grande engano. Deixem-me explicar em detalhes.
-
-Quando um casal se suicida abraçado, ao chegar ao Mundo Espiritual, seus espíritos permanecem unidos, sem conseguir se separar, o que lhes causa um transtorno indescritível. Além disso, expõem sua condição vergonhosa aos outros espíritos, o que os leva a um arrependimento imenso. Em outros casos de duplo suicídio por amor, dependendo dos pensamentos e das ações no momento da morte, os espíritos podem ficar presos costas com costas ou barriga com costas, privados de toda liberdade e em uma situação extremamente incômoda. Espíritos que em vida tiveram relações sexuais das mais sórdidas, como as chamadas práticas invertidas, ficam presos um ao outro de cabeça para baixo; quando um se levanta, o outro fica de ponta-cabeça. O desconforto e o sofrimento são inimagináveis.
-
-Naturalmente, relações impuras entre homens e mulheres que deveriam ser exemplos para os outros, como monges, sacerdotes xintoístas e educadores, recebem uma punição ainda mais severa do que a de pessoas comuns.
-
-*(Nota) 師表 (shihyō): Aquele que serve de exemplo, modelo para os outros.*
-
-### O Paraíso e o Inferno
-
-O Paraíso, como mencionei anteriormente, é constituído pelos três níveis superiores: o Primeiro Paraíso, o Segundo Paraíso e o Terceiro Paraíso. No Primeiro Paraíso residem os deuses mais elevados, que planejam incessantemente o governo do mundo. No Segundo Paraíso, os deuses atuam como assistentes dos deuses do Primeiro Paraíso, cada qual com suas respectivas funções. No Terceiro Paraíso, uma multidão de deuses trabalha continuamente para cumprir as missões que lhes foram designadas. Suas atividades, que abrangem todas as áreas do mundo, são, evidentemente, das mais variadas. Os deuses do Terceiro Paraíso são aqueles que ascenderam do Mundo Intermediário e alcançaram a divindade, sendo, portanto, os mais próximos dos seres humanos. São também conhecidos como anjos.
-
-O que descrevi acima é um esboço da constituição do Mundo Divino. Por aproximadamente três mil anos, durante o período de existência do budismo, a presença do Mundo Divino foi bastante sutil. Isso ocorreu porque a maioria dos deuses se manifestou como budas, e os que não o fizeram tornaram-se, em grande parte, deuses-dragões, aguardando o momento certo. Ademais, os deuses se empenharam na obra da salvação tendo o Mundo Búdico como pano de fundo. Esse período foi a Era da Noite. Com a transição para a Era do Dia, o Mundo Divino ressurgirá.
-
-A Terra Pura do Paraíso é um termo budista e se encontra dentro do Mundo Búdico. O nível mais alto da Terra Pura corresponde ao Segundo Paraíso do Mundo Divino, que no budismo é conhecido como o Céu de Tushita. Ali se encontram o Palácio Shibi-kyu (紫微宮), o complexo dos Sete Salões e pagodes de múltiplos tesouros. Miríades de flores desabrocham em profusão, exalando um perfume suave. Pássaros Kalavinka (迦陵頻伽) voam pelos céus, e em meio a esse cenário há um grande lago onde folhas de lótus flutuam dia e noite. Tartarugas de carapaça verde brincam alegremente. As folhas de lótus são tão grandes que podem transportar duas pessoas, e, ao subir nelas, o espírito é levado automaticamente para onde desejar, em uma experiência de indizível prazer. Há também um grande templo onde vivem numerosos fiéis budistas, todos de cabeça raspada, naturalmente. Eles se deleitam constantemente com poesia, música, dança, pintura, escultura, caligrafia, go, shogi e outras formas de entretenimento semelhantes às do Mundo Material. Ocasionalmente, há sermões, que são sua maior alegria. Os pregadores são os fundadores de cada seita, como Honen, Shinran, Rennyo, Dengyo, Kukai, Dogen, Daruma e Nichiren. Esses eminentes monges sobem periodicamente ao Palácio Shibi-kyu, onde se encontram com Shaka e recebem ensinamentos profundos e diversas instruções. O local onde se encontra o Palácio Shibi-kyu é tão resplandecente que mesmo os espíritos salvos na Terra Pura do Paraíso não conseguem contemplá-lo diretamente.
-
-Abaixo da Terra Pura do Paraíso encontra-se a Terra Pura, presidida pelo Buda Amida. Ele mantém uma estreita comunhão com o Buda Shaka, e ambos discutem sobre o governo do Mundo Búdico. Kannon Bosatsu, como Daikomyo Nyorai, ocupa o assento principal no Palácio Shibi-kyu e, com o auxílio dos Budas Shaka e Amida, está atualmente em intensa atividade para a construção do Paraíso Terrestre. Contudo, por necessidade da obra da salvação, até recentemente ela desceu à condição de Bosatsu e cedeu o lugar principal ao Buda Amida.
-
-No futuro próximo, com o desaparecimento do Mundo Búdico e em preparação para o Mundo Divino que será recém-formado, os diversos budas, bodhisattvas, divindades, veneráveis, mestres, santos, deuses-dragões, raposas brancas, tengus, e outros, estão gradualmente ascendendo à divindade e continuando suas atividades. A situação atual é de extrema ocupação.
-
-Em seguida, temos o Mundo do Inferno, que é o oposto do Paraíso. Nele, não há luz nem calor, e quanto mais se desce, mais profundas se tornam as trevas e a ignorância. O Inferno, como se diz desde a antiguidade, é um mundo de sofrimentos diversos e variados. Tentarei descrever seus principais aspectos.
-
-As principais categorias incluem a Montanha de Agulhas, o Lago de Sangue, o Caminho dos Espíritos Famintos, o Caminho das Bestas, o Caminho de Ashura, o Caminho da Luxúria, o Inferno Ardente, o Inferno das Serpentes, o Inferno das Formigas e o Inferno da Colmeia.
-
-A Montanha de Agulhas, como o nome sugere, é uma montanha coberta por uma floresta de inúmeras agulhas que os espíritos devem atravessar. O sofrimento é imenso. Esse é o castigo para aqueles que, em vida, monopolizaram grandes extensões de terra ou florestas, impedindo que outros as utilizassem.
-
-O Lago de Sangue é para os espíritos que morreram por causas relacionadas ao parto, como abortos ou partos difíceis. Salvei muitos espíritos desse tipo, e o método é bastante simples: entoa-se a Oração Amatsu-Norito três vezes e se roga ao Grande Deus do Mundo Invisível. Imediatamente, o espírito escapa do Lago de Sangue e é salvo, o que lhe causa grande alegria. Ao perguntar a um espírito sobre o estado do Lago de Sangue, ele descreveu o seguinte: "Como o nome indica, é um vasto lago de sangue no qual ficamos submersos até o pescoço por muitos anos. Na superfície do sangue flutuam inúmeras larvas, que sobem incessantemente pelo nosso rosto. Por mais que as afastemos, elas sempre voltam, e o sofrimento é insuportável". A causa disso é ter sido uma pessoa sem fé em vida, cujos pensamentos e ações pendiam mais para o mal.
-
-O Caminho dos Espíritos Famintos, como o nome indica, é um estado de fome constante, no qual os espíritos anseiam desesperadamente por satisfazer seu apetite. Por isso, tentam comer o espírito dos alimentos expostos em barracas e lojas, mas isso é considerado um furto e constitui um tipo de pecado. Sem alternativa, eles se apossam de seres humanos ou de cães e gatos para satisfazer sua fome. É comum encontrar doentes com um apetite surpreendentemente voraz; isso se deve à possessão por um espírito faminto como os que descrevi. Os espíritos que se apossam de cães e gatos acabam caindo gradualmente no Caminho das Bestas. Nesse caso, o espírito humano vai se fundindo com o do animal. Assim como a boa moeda é expulsa pela má, o espírito humano acaba se assimilando ao do animal. Por isso, desde a antiguidade se realizam rituais como o *Kawa-Segaki*, para o sufrágio dos espíritos dos afogados. Como muitos afogados não têm quem reze por eles, acabam caindo no Caminho dos Espíritos Famintos. Oferecer-lhes comida e permitir que ouçam sutras sagrados é um grande ato de sufrágio.
-
-As causas para se cair no Caminho dos Espíritos Famintos incluem levar uma vida de luxo sem se importar com a fome dos outros e desperdiçar comida. Por isso, o ser humano não deve jamais desperdiçar nem mesmo um único grão de arroz. O ideograma para "arroz" (米) é composto por "oitenta e oito" (八十八), o que significa que são necessários oitenta e oito processos para produzi-lo. Ao pensar nisso, é impossível desperdiçá-lo. Eu mesmo, ao beber chá após as refeições, tenho o cuidado de não deixar um único grão no fundo da tigela. O costume dos cristãos de juntar as mãos e fazer uma oração silenciosa antes das refeições é, de fato, um excelente hábito. É, naturalmente, um ato de gratidão pela comida, e o ser humano não deve esquecer a bênção que ela representa.
-
-O Caminho das Bestas é, obviamente, o estado em que um espírito humano se torna um animal. A razão para isso é que, em vida, seus pensamentos e ações se desviaram da natureza humana, assemelhando-se aos de um animal. Por exemplo, aquelas que exercem profissões que enganam as pessoas, como as prostitutas, tornam-se raposas. As concubinas, que são preguiçosas, se deleitam com belas roupas e comidas, seduzem os homens e levam uma vida fácil, tornam-se gatos. Aqueles que farejam os segredos dos outros para fins malignos, como os chantagistas, ou os que se envolvem em espionagem de guerra, bisbilhotando os segredos alheios em benefício próprio, tornam-se cães. Detetives e outros profissionais que previnem o mal em prol da sociedade são uma exceção. Pessoas que se dedicam unicamente à avareza, acumulando dinheiro, tornam-se ratos. Aqueles que evitam o trabalho, vivendo ociosamente sem dificuldades financeiras, tornam-se bois ou porcos. Os pais costumavam repreender os filhos dizendo que, se dormissem logo após comer, virariam bois; há uma certa verdade nisso. Pessoas de temperamento violento e agressivo, temidas pelos outros, como os yakuza e os marginais, tornam-se tigres ou lobos. Aqueles que são apenas dóceis, mas inúteis, tornam-se coelhos. Os de forte apego tornam-se serpentes. Os que trabalham arduamente apenas para si mesmos tornam-se cavalos. Jovens sem vigor, que agem como velhos e não realizam atividades dignas, tornam-se ovelhas. Os astutos e cheios de artimanhas tornam-se macacos. Aqueles que gostam de aventuras amorosas e se envolvem com qualquer mulher tornam-se galos. Os imprudentes e impulsivos, que não refletem sobre seus atos, tornam-se javalis. E os preguiçosos, que gostam de se fazer de desentendidos e de enganar os outros, tornam-se texugos ou guaxinins.
-
-Contudo, mesmo que se caia no Caminho das Bestas, é possível renascer como humano através do aprimoramento. O ciclo em que um humano cai no Caminho das Bestas, renasce como humano e cai novamente é o que o budismo chama de reencarnação. Há algo que se deve entender a esse respeito. Por exemplo, bois e cavalos, do ponto de vista humano, trabalham sob maus-tratos extremos. No entanto, é através desse sofrimento que seus pecados e impurezas são purificados, e eles obtêm a alegria do renascimento. Outro fato interessante é que bois e cavalos sentem um certo prazer em serem maltratados e, especialmente, gostam de ser açoitados. Portanto, julgar os animais com a mesma perspectiva que os humanos é, na verdade, um grande equívoco na maioria dos casos. Além disso, cães de guarda que previnem roubos, gatos que caçam ratos, e bois, ovelhas, porcos e galinhas que fornecem carne, leite e ovos, todos cumprem papéis importantes para a humanidade. Por meio disso, seus pecados e impurezas são extintos.
-
-Outro fato interessante é o amor entre homens e mulheres, que tem uma grande relação com os espíritos de aves e animais. Em geral, o amor puro e sincero está frequentemente associado a espíritos de aves, desde pequenos pássaros como o rouxinol e o olho-branco japonês até corvos, garças, patos e pavões, abrangendo todos os tipos. No caso do amor, são essas aves que se apaixonam umas pelas outras; os seres humanos são meramente utilizados como instrumentos para o amor entre elas. Nesse sentido, a dignidade humana fica um pouco diminuída. O amor entre espíritos de raposas também é muito comum, mas geralmente se trata de um amor ilícito. O amor entre texugos também existe, mas nele o desejo carnal predomina sobre o sentimento; os chamados "demônios da luxúria" se enquadram nessa categoria.
-
-As mulheres-dragão, que são reencarnações de deuses-dragões, preferem o amor espiritual e são indiferentes ao amor carnal, chegando a senti-lo com aversão. Muitos casos de frigidez se devem a isso. Consequentemente, elas evitam o casamento, não dão ouvidos a propostas e, quando um noivado está prestes a se concretizar, um dos noivos adoece ou até mesmo morre. Isso ocorre por serem reencarnações de mulheres-dragão ou por estarem sob a possessão de um deus-dragão. Mulheres notáveis, que alcançam fama social enquanto permanecem solteiras, são frequentemente mulheres-dragão, e, em casos raros, podem ser espíritos de tengus.
-
-Dessa forma, creio ter apresentado um panorama geral da constituição do Mundo Espiritual, da vida espiritual e dos diversos tipos de espíritos. A seguir, apresentarei relatos de minhas próprias experiências.
-
-*(Nota) 迦陵頻伽 (karyōbinga): Do sânscrito "kalavinka". Um pássaro imaginário que habita o Paraíso, cujo canto se assemelha à voz de Buda.*
-
-### O Espírito de Hirokichi
-
-Foi no início de minha jornada, quando comecei a combinar a pesquisa espiritual com a prática da cura. Eu estava tratando uma jovem de dezenove anos, em estágio avançado de tuberculose. Após duas sessões, uma leve melhora já era visível. Foi na terceira vez. Assim que iniciei o tratamento, a mãe da moça, a Sra. M, de cerca de cinquenta anos, que observava ao lado, levantou-se subitamente, meio curvada, com uma expressão terrível, como se fosse me atacar. Com uma voz masculina, ela gritou: "Seu... seu desgraçado! Quando eu estava a um passo de matar essa garota, você aparece do nada para salvá-la! Estou furioso! Vou fazer você se arrepender amargamente!". Fiquei chocado. Tentei acalmá-la: "Quem é você? Por favor, acalme-se". Com relutância, ele se sentou e disse:
-
-Ele: "Eu sou conhecido como 広吉 (Hirokichi)."
-Eu: "Qual a sua relação com este corpo?"
-Ele: "Sou Hirokichi, irmão do ancestral de quatro gerações desta casa."
-Eu: "E por que você se apossou desta moça para matá-la?"
-Ele: "Eu fugi de casa e morri sem deixar descendentes. Ninguém cuida de mim. Tentei alertar os membros desta família causando doenças e outros problemas, para que me oferecessem sufrágio, mas nenhum deles percebeu. Estou tão irritado que decidi matar esta garota. Assim, eles finalmente vão entender!"
-Eu: "Mas você veio do inferno, não é?"
-Ele: "Sim. Estive no inferno por muito tempo, mas já estou farto. Quero que cuidem de mim."
-Eu: "Mas você sabe que, se matar esta moça, cairá em um inferno ainda pior do que o anterior?"
-Ao ouvir isso, ele pareceu um pouco surpreso.
-Ele: "Isso é verdade?"
-Eu: "É a mais pura verdade. Eu realizo a obra de Deus e jamais diria uma mentira. Além disso, prometo que cuidarei de você e lhe oferecerei sufrágio."
-
-Após argumentar de várias formas, ele finalmente se convenceu e concordou em colaborar para curar a doença da moça. Seu comportamento e sua fala eram típicos de um cidadão de Edo: um homem de bom coração. Devia ser um comerciante do final do período Tokugawa. Durante a possessão, a Sra. M estava em transe completo, sem a menor consciência de si. Era, de fato, uma médium ideal.
-
-Depois disso, a doença da moça melhorou progressivamente. Certo dia, a Sra. M veio me visitar subitamente. "De uns dias para cá, sinto como se um espírito tivesse se apossado de mim. Gostaria que o senhor investigasse." Atendi ao seu pedido e iniciei imediatamente o método de investigação espiritual. Assim que a senhora se sentou em postura formal e fechou os olhos, entoei a oração. Ela entrou em estado de transe, e eu perguntei:
-
-Eu: "Quem é você?"
-Espírito: "Eu sou um deus."
-Eu: "Que deus?"
-Espírito: "Sou um deus que expulsa os demônios, mas não posso dizer meu nome."
-
-Pensei: "Já ouvi dizer que existem deuses verdadeiros e falsos, e que é preciso ter cuidado. Talvez seja um deus falso. Não posso me deixar enganar". Com essa cautela, continuei:
-
-Eu: "Por que motivo o senhor se manifestou?"
-Espírito: "A moça que você está curando está sendo alvo de um demônio. Vim ensinar como expulsá-lo."
-Eu: "E o que devo fazer?"
-Espírito: "Pela manhã e à noite, volte-se para a direção nordeste, espalhe sal e entoe a oração."
-
-Tentei perguntar sobre outras coisas, mas ele não respondeu. Apenas disse: "Basta que saiba isso" e partiu. A Sra. M despertou, parecendo surpresa, e me perguntou: "O senhor viu, Mestre?". Eu respondi: "O que? Não vi nada de especial". Então, ela relatou: "Quando o senhor começou a entoar a oração, ouvi um som estrondoso vindo de trás de mim e, de repente, alguém se sentou ao meu lado. Olhei e vi uma figura imensa, sentada, com a cabeça quase tocando o lintel da porta. O rosto não era nítido, mas tinha cabelos negros caídos para trás e usava uma faixa na testa. Suas vestes eram feitas de folhas finamente trançadas, que brilhavam em cinco cores, uma visão de grande beleza. Logo depois, senti que ele se apossou de mim e não me lembro de mais nada". Compreendi que se tratava de um deus verdadeiro e, após investigar, descobri que era o Deus Kunitokotachi-no-Mikoto.
-
-Dois ou três dias depois, a Sra. M me procurou novamente. "Sinto que algo está para se apossar de mim. Por favor, investigue." Iniciei a investigação espiritual, e desta vez foi completamente diferente. Perguntei: "Quem é você?". A resposta foi: "Sou um servo de Doryo Gongen, de Odawara". "Por que se apossou dela?", indaguei. "Vim pedir desculpas", disse ele. "Qual o motivo?". "Esta mulher é devota de Doryo Gongen, mas como a filha dela foi salva pelo poder de um deus irascível, fiquei com raiva e tentei atrapalhar. No entanto, minha intenção foi descoberta, e não tenho como me desculpar." Assim que terminou de falar, a senhora caiu de lado. Permaneceu de olhos fechados, com a respiração ofegante e gemendo. Após uns cinco minutos, abriu os olhos e disse: "Ah, que susto! Primeiro, senti algo preto entrar em meu corpo. Depois, alguém veio e começou a golpear essa coisa preta com algo parecido com um chicote. A coisa preta fugiu". Pensei: "Então este era o demônio sobre o qual o deus me alertou há alguns dias".
-
-A partir daí, a doença da moça melhorou dia após dia, até a recuperação completa. E eu cumpri minha promessa, oferecendo sufrágio ao espírito de Hirokichi.
-
-Antes disso, em certa ocasião, o espírito de Hirokichi se apossou da Sra. M e disse: "Graças a você, recentemente subi para um nível mais elevado do inferno e me sinto muito mais aliviado". Ele me agradeceu profusamente e acrescentou: "Tenho um pedido. Gostaria que, todas as manhãs, colocasse três grãos de arroz em uma pequena tigela de saquê no canto da pia da cozinha de sua casa". Perguntei o motivo, e ele explicou: "No Mundo Espiritual, três grãos de arroz por dia são suficientes. Além disso, minha condição atual só me permite ir até a cozinha".
-
-Tempos depois, ele disse: "Agora já consigo chegar até o pé da escada". Naquela época, o altar divino em minha casa ficava no segundo andar. Mais tarde, ele anunciou: "Já posso ir até o cômodo ao lado do altar". Então, pensei: "Agora já está bom" e realizei o sufrágio.
-
-Dois ou três dias depois, enquanto eu trabalhava no escritório, senti uma possessão. Era uma sensação de alegria tão intensa que as lágrimas me vieram aos olhos. Fui imediatamente para uma sala vazia e perguntei ao espírito. Era Hirokichi. Ele disse: "Vim hoje para agradecer. O senhor certamente compreende a minha felicidade". E continuou: "Tenho outro pedido". "Qual?", perguntei. "Estou muito satisfeito com a minha nova condição e gostaria de permanecer assim para sempre. Já estou farto do mundo dos vivos. Lá, é preciso trabalhar para comer, e a vida é cheia de sofrimento. É terrível. Por favor, peça a Deus para que eu não precise nascer novamente no mundo dos vivos." Após dizer isso, agradeceu-me profundamente e partiu.
-
-Por esses fatos, podemos deduzir que morrer não é algo de todo ruim, e que ir para o Mundo Espiritual também pode ser bom. Além disso, no Mundo Espiritual, a etiqueta é rigorosa: um espírito que foi ajudado sempre volta para agradecer. Às vezes, o agradecimento se manifesta de forma material, por meio de outras pessoas. É comum recebermos coisas que desejamos de lugares inesperados; o significado é esse.
-
-A Sra. M, como uma médium ideal, proporcionou-me muitos aprendizados. Certa vez, o espírito de um bebê se apossou dela. Ele chorava e se movia exatamente como um bebê. Fiz várias perguntas, mas, por ser um bebê, não conseguia falar. Sem alternativa, eu disse: "Escreva com letras". Com o polegar, ele escreveu em hiragana no tatame. A mensagem dizia: "Logo após nascer, fui enrolado em uma esteira e jogado em um rio, onde morri afogado. Desde então, não tenho quem reze por mim. Por favor, ofereça-me sufrágio". Assenti com o pedido, e ele partiu, feliz. As letras provavelmente foram escritas por alguém do Mundo Espiritual, guiando a mão do bebê.
-
-Em outra ocasião, um espírito se apossou dela, mas, por mais que eu perguntasse, ele não dizia uma palavra. Após tentar vários métodos, finalmente descobri que era o espírito de um pinheiro. No dia anterior, o dono da casa, um funcionário do governo, havia cortado um galho de um pinheiro no jardim de seu local de trabalho, levado para casa e oferecido no altar. Era o espírito que habitava aquele pinheiro. Seu pedido era: "Cave um buraco em um local onde as pessoas não pisem, enterre-me e entoe a oração". Fiz como ele pediu.
-
-### A Boneca Possuída
-
-Há uma história interessante sobre uma boneca possuída com a qual lidei no passado. Certo dia, um amigo veio me procurar e disse: "Há uma boneca que se manifesta, e estou com problemas. Quero que você resolva a situação". Movido pela curiosidade, decidi ir. Na época, eu morava em Tóquio e ardia de entusiasmo pela pesquisa espiritual. Acompanhei meu amigo imediatamente. O local era em Fukagawa. Fomos conduzidos a um cômodo no segundo andar da casa. Lá, de pé, em frente a nós, estava uma boneca de Okame em tamanho real. Era uma obra magnífica, claramente feita por um mestre artesão. Parecia ser do período Tokugawa médio. Estava vestida com um quimono de doze camadas e segurava um leque entreaberto em uma das mãos, em pose de dança.
-
-O dono da casa relatou: "Toda noite, por volta da meia-noite, quando todos estão dormindo, um rosto sorridente aparece através das varetas do leque. Em seguida, a boneca começa a andar, vai até o quarto do dono da casa, senta-se sobre sua barriga e aperta seu pescoço. Por causa disso, ela já passou por vários donos". Ao ouvir isso, minha curiosidade atingiu o ápice. Sentei-me em postura formal diante da boneca, fechei os olhos, entoei a oração e supliquei a ajuda divina, rogando para que o espírito que a possuía se manifestasse em mim. Imediatamente, senti a possessão: uma profunda tristeza me invadiu, e eu estava prestes a chorar. Despedi-me daquela casa e voltei para a minha. Na manhã seguinte, chamei a Sra. M. Ordenei ao espírito da boneca, que estava em mim desde a noite anterior: "Aposse-se da mulher à sua frente e conte o motivo e o objetivo de suas manifestações". O espírito prontamente se apossou da médium e relatou o seguinte:
-
-"Há cerca de quarenta anos, eu era uma prostituta em um bordel em Quioto. Apaixonei-me pelo dono da casa, e quando a esposa dele descobriu, ficou furiosa e começou a me maltratar. Se fosse só isso, tudo bem, mas até mesmo o próprio dono passou a me perseguir. De tão amargurada, cometi suicídio me jogando na água. A boneca foi um presente de um cliente, e eu a estimava muito. Após a morte, passei um tempo no inferno, mas não aguentei mais. Para me vingar, fugi de lá e voltei ao antigo bordel, mas o casal já havia morrido. Sem ter como aplacar meu ressentimento, decidi, em vez disso, atormentar os donos da boneca, mesmo que não tivessem nenhuma relação comigo, para assim descarregar meu rancor."
-
-Para uma pessoa do mundo material, isso pode parecer estranho. Pelo bom senso, se o alvo da vingança não existe mais, a pessoa deveria desistir. Levar o rancor a outros é ilógico. No entanto, já experimentei muitas vezes que a natureza dos espíritos é diferente da dos humanos. Quando um espírito se apega a algo, ele não muda de ideia e segue em frente de forma obstinada. A história continua:
-
-"Meu nome verdadeiro é Araii Saku. Em vida, eu era uma devota fervorosa do Santuário Inari Tsumakoi, em Quioto. Para concretizar minha vingança, supliquei a ajuda das raposas. O irmão mais novo da raposa daquele santuário e sua amante, uma raposa fêmea, juraram colaborar e me ajudar." Assim, descobri que as manifestações da boneca eram obra desses dois espíritos de raposa.
-
-Sempre antes de o espírito de Araii Saku se manifestar, a Sra. M o via. Quando ela dizia: "Saku-san chegou", eu perguntava: "Como ela está?". E ela respondia: "Está com muitos grampos de cabelo de casco de tartaruga na cabeça, vestindo um *uchikake* (manto de gueixa), e sentou-se aqui ao lado".
-
-Houve também outro incidente. Contei essa história a um amigo espiritual, e ele disse: "Eu também quero tentar uma investigação espiritual". Reunimos cerca de dez pessoas e fizemos uma espécie de sessão de pesquisa. Na ocasião, esse amigo, enquanto conduzia a investigação com a Sra. M, disse algo ofensivo. A raposa-espírito se enfureceu e disse: "Ora, não me subestime! Eu fui uma gueixa famosa em Gion, em Quioto, chamada Nani-ko, da casa Nani-nani-ya. Vou lhe mostrar minha elegância daquela época". Dizendo isso, levantou-se abruptamente, ajeitou a barra do quimono e, com gestos graciosos, começou a andar pelo cômodo. Eu disse: "Já chega, entendi. Sente-se", e a fiz sentar-se e despertar. Perguntei à Sra. M, e ela disse não se lembrar de nada. Ao despertar, ela me perguntou: "Há duas raposas aqui agora. O senhor consegue vê-las?". Eu disse: "Não vejo. Como são?". Ela respondeu: "Uma é amarela e a outra é branca, do tamanho de raposas de verdade. Estão sentadas aqui". Em seguida, exclamou: "Ah! As raposas entraram na boneca!". "Onde na boneca?", perguntei. "Estão sentadas direitinho no meio da barriga, olhando para cá e rindo", disse ela. Pensei, maravilhado, como a ação dos espíritos é verdadeiramente misteriosa.
-
-Decidi, então, separar os espíritos de raposa do de Saku. Enviei as raposas de volta ao seu antigo lar e me esforcei para salvar Saku, enviando-a ao paraíso, o que finalmente consegui. Vou relatar alguns pontos interessantes desse período.
-
-Certa vez, com a Sra. M à minha frente, eu disse em voz baixa: "Saku-san, por favor, manifeste-se". As mãos da Sra. M, que estavam unidas em oração, tremeram levemente, um sinal da possessão. Após várias perguntas e respostas, eu a despertei. A Sra. M disse: "Quando Saku-san chegou hoje, ela estava vestindo um *uchikake*, com muitos grampos de cabelo de casco de tartaruga, em trajes de cortesã. Eu a vi claramente".
-
-Houve também outra ocasião. Enquanto eu conversava com Saku, sua linguagem se tornou vulgar e sua atitude mudou. "Quem é você?", perguntei. "Sou a raposa", respondeu. Eu disse: "Não tenho assuntos com você. Saia e troque de lugar com Saku-san". Então, o espírito de Saku retornou. Humano e raposa se revezavam na possessão. Com o tempo, a raposa disse que voltaria para Quioto. Atendi prontamente a seus pedidos, e ela, satisfeita, finalmente partiu. O espírito de Saku foi consagrado no altar de minha casa, onde permanece até hoje. E assim, o caso da boneca possuída foi resolvido.
-
-Quanto à moça que adoeceu devido à possessão do espírito de Hirokichi, mencionada anteriormente, ela melhorou temporariamente, mas, cerca de um ano depois, faleceu. Um mês após sua morte, algo extraordinário aconteceu. O irmão mais velho da moça, um grande beberrão, estava sentado em seu quarto um dia, quando viu, a poucos metros de distância, algo como uma fumaça roxa e difusa descendo lentamente. Sobre essa fumaça, havia uma figura humana. Olhando com atenção, ele viu sua falecida irmã, vestida com algo semelhante a um quimono de doze camadas, com uma aparência esplêndida e uma aura sublime, como um anjo de uma pintura. A moça abriu a boca e disse: "Vim pedir-lhe, irmão, que pare de beber". Ao terminar de falar, ela subiu lentamente e desapareceu. Isso aconteceu mais uma vez e, na terceira ocasião, a nuvem roxa desceu como de costume, e sobre ela apareceu uma ponte laqueada de vermelho. A irmã, atravessando a ponte calmamente, disse: "Vim hoje pela última vez para aconselhá-lo a parar de beber. A permissão de Deus se encerra aqui". Depois disso, o fenômeno não se repetiu.
-
-Este irmão era uma pessoa sem a menor inclinação religiosa e, naturalmente, sem nenhum conhecimento espiritual. Portanto, não havia como ser uma manifestação de sua mente subconsciente. O relato é, pois, confiável e de grande valor como material para o estudo espiritual.
-
-A propósito, a moça foi, sem dúvida, salva no Paraíso. Como eu estava no início de minha vida de fé, o fato de ter conseguido salvar no Paraíso, em tão pouco tempo, uma jovem com tuberculose me fez agradecer profundamente pela imensa graça de Deus.
-
-*(Nota) 中啓 (chūkei): Um tipo de leque usado em cerimônias, cujas varetas externas se curvam para fora, fazendo com que o leque permaneça entreaberto mesmo quando fechado.*
-
-### Os Espíritos de Raposa e a Anciã
-
-Gostaria de relatar uma obra-prima entre os muitos casos que experimentei. Trata-se de uma anciã de mais de cinquenta anos, possuída por vinte ou trinta espíritos de raposa. Esses espíritos a atormentavam constantemente de várias maneiras. Por isso, eu a hospedei em minha casa para realizar um tratamento espiritual, que durou cerca de cinco ou seis meses. Essa anciã conseguia entender o que as raposas diziam e, além disso, as palavras das raposas saíam de sua própria boca.
-
-Certo dia, a anciã me disse: "Mestre, as raposas disseram: 'Hoje vamos matar esta velha, esteja preparada. Vamos parar o coração dela agora mesmo'. E agora sinto que elas entraram no meu coração e o estão revirando. Dói tanto que mal consigo respirar. Vou morrer logo. Quero ver minha família antes. Por favor, chame-os". Ela disse isso em meio a grande sofrimento. Fiquei alarmado e telefonei para sua família imediatamente. Seu marido e outros cinco ou seis familiares chegaram, cercaram a anciã e uma cena de luto, como a que precede a morte, se desenrolou. No entanto, com o passar do tempo, a dor foi diminuindo gradualmente e, duas ou três horas depois, ela estava completamente normal. A família, aliviada, foi embora. Fui totalmente enganado. Isso aconteceu mais duas ou três vezes, mas aprendi a lição e não me deixei mais enganar.
-
-Certa tarde, a anciã disse: "Mestre, esta manhã as raposas disseram: 'Hoje vamos impedir esta velha de urinar'. E desde então, não consigo urinar". Irradiei Johrei na região de sua bexiga e, em pouco tempo, ela conseguiu urinar normalmente.
-
-Em outro dia, ela disse: "Ultimamente, durante as refeições, as raposas dizem: 'Não vamos mais deixar você comer'. E sinto um nó no peito, a comida não desce de jeito nenhum". Eu disse: "Então, coma comigo". Sentamo-nos à mesa juntos. Logo ela disse: "Agora as raposas estão dizendo que não vão me deixar comer... Ah, a comida não passa mais!". Imediatamente, irradiei Johrei na comida e na região de seu esôfago. Ela conseguiu comer em seguida, e isso não aconteceu mais.
-
-Quando eu realizava o tratamento, apalpava a base de seu pescoço e suas axilas com os dedos e encontrava vários nódulos do tamanho de um grão de soja. Ao aplicar Johrei em cada um deles com a ponta do dedo, descobri que cada nódulo era um espírito de raposa. A cada aplicação, o espírito gritava, usando a boca da anciã: "Ah, droga, fui descoberto! Ah, que sofrimento, que dor! Socorro! Estou saindo, estou saindo!". E assim, um a um, eles saíram. Havia cerca de vinte ou trinta deles.
-
-Certa manhã, bem cedo, a anciã veio correndo pelo corredor em direção ao meu quarto, com uma expressão transtornada. Minha família me acordou e me alertou. Pulei da cama e vi a anciã, com um olhar estranho, a mão atrás das costas como se segurasse algo, aproximando-se de mim lentamente. Agarrei sua mão escondida e vi que ela segurava um cachimbo de metal. "O que você está fazendo?", perguntei. "Vim bater no senhor", respondeu ela. Eu a abracei e a levei de volta para seu quarto, fiz com que se sentasse e irradiei Johrei em sua testa. Aparentemente, havia muitos espíritos de raposa em sua testa, pois eles gritaram em uníssono: "Ah, é o fim! Fujam, fujam todos! Ah, não aguento! Que dor, que sofrimento!". Contive o riso e, após alguns minutos de tratamento, ela voltou ao normal.
-
-Em outra ocasião, a anciã me perguntou: "Mestre, eu tenho cabeça?". Eu toquei sua cabeça e disse: "Claro que sim, está bem aqui". Ela respondeu: "É que as raposas disseram: 'Hoje vamos derreter a cabeça da velha'. E estou muito preocupada". Desde então, ela andava sempre com um espelho de mão, olhando para sua cabeça refletida. Quando eu perguntava, ela dizia: "Estou preocupada que as raposas a derretam, por isso não consigo largar o espelho". Por mais que eu dissesse: "Que absurdo!", ela não acreditava, o que era um problema.
-
-Apesar de todos esses sintomas, no resto ela era normal. Certamente não era uma doente mental. Por isso, eu costumava dizer a ela: "A senhora é uma louca sã". Qual era a causa de tudo isso? Em uma vida passada, essa anciã havia sido algo como a dona de um bordel, que explorava muitas jovens. Como a profissão dessas jovens consistia em enganar os clientes, de forma semelhante às raposas, após a morte elas caíram no caminho das bestas e se tornaram espíritos de raposa. Culpando a anciã por sua condição, elas se apossaram dela para atormentá-la, em um ato de vingança. Por essa razão, a profissão que se exerce nesta vida determina o destino correspondente no além: prostitutas tornam-se raposas, gueixas tornam-se gatos, e assim por diante. Portanto, o ser humano deve, a todo custo, agir de uma forma que não o envergonhe como tal.
-
-### Um Caso Grotesco de Possessão Espiritual
-
-Este foi um caso de possessão espiritual bastante grotesco e interessante. Acredito que foi por volta de 1933. Um homem de quarenta e dois anos, que havia sido internado em um hospital psiquiátrico em Sendai sem apresentar melhora, veio a Tóquio para uma consulta no Hospital Keio. Os sintomas desse homem eram extremamente variados e grotescos. O mais notável era uma febre alta, nunca vista em uma pessoa normal. Assim que o termômetro era colocado, a temperatura subia instantaneamente para quarenta e três graus, o máximo do aparelho. E não era só isso; o termômetro frequentemente estourava, o que era um grande problema no hospital psiquiátrico. A febre, obviamente, ultrapassava os quarenta e três graus. Inicialmente, no Hospital Keio, aplicaram três injeções de antitérmico, sem nenhum efeito. Como continuar seria perigoso, suspenderam as injeções. Desistindo do tratamento médico, ele procurou outras terapias e, por acaso, ouviu falar de mim e veio me procurar.
-
-Assim que se sentou à minha frente, vi que era um homem grande, de cerca de um metro e setenta e cinco de altura. Ele começou a ter um calafrio terrível. A forma como tremia violentamente era algo que eu nunca tinha visto. Pensei: "Então esta é a febre que quebra termômetros". Fui para trás dele, abracei-o e irradiei a energia espiritual de todo o meu corpo em sua direção. O efeito foi imediato. O tremor cessou completamente em cerca de cinco minutos, e a febre baixou para um nível leve. Ele, como se visse uma luz na escuridão, exultou de alegria e me implorou que o deixasse ficar em minha casa. As várias histórias que ele contou eram um material excelente para a pesquisa espiritual, então eu concordei prontamente e atendi ao seu pedido. Os fenômenos espirituais que se seguiram foram de um interesse grotesco e profundo.
-
-Ocasionalmente, ele entrava em transe e gritava: "Minha cabeça dói, dói!". Quando eu irradiava Johrei, ele voltava ao normal em cerca de dez minutos. Ao perguntar, ele me contou que gostava de caçar e, certo dia, atirou em uma raposa. Ao se aproximar, viu que ela ainda estava viva. A raposa se levantou de repente e avançou em sua direção. Ele inverteu o rifle e, com a coronha, desferiu um golpe na testa da raposa, que morreu na hora. Era o espírito dessa raposa que o possuía. Durante a possessão, além da dor de cabeça, ele também apresentava sintomas de doença mental.
-
-Outras vezes, ele entrava em transe e gritava repetidamente: "Tire a árvore, tire a árvore!". Perguntei o que era aquilo, e ele contou que, quando esteve em Hokkaido, trabalhou como lenhador. Certa vez, ao derrubar uma grande árvore, havia um homem dormindo em uma cavidade sob a árvore, que desmaiou com o impacto. Sem saber se o homem estava vivo ou morto, ele desceu a montanha. Mais tarde, o homem recuperou a consciência, mas, ferido, não conseguiu mover a árvore e morreu. Era o espírito desse homem que o possuía.
-
-O espírito de um urso que ele havia matado também o possuía de vez em quando. Quando esse espírito se manifestava, ele sentia uma vontade enorme de comer. Certa vez, comeu onze arenques de uma só vez.
-
-Ele também tinha dois espíritos de cobra que o possuíam. Eram espíritos de cobras que ele havia matado. Uma delas ficava em seu estômago e, ocasionalmente, ele sentia uma dor como se estivesse sendo mordido. A outra se enrolava em seu pescoço, apertando sua garganta e tentando sufocá-lo. Cada vez que isso acontecia, eu irradiava Johrei e ele melhorava imediatamente.
-
-Por último, embora não seja um fenômeno espiritual, ele desenvolveu um edema generalizado e, às vezes, desmaiava no corredor. Sendo um homem grande, o inchaço o tornava ainda maior. Muitas vezes, eram necessários três homens para arrastá-lo de volta para o quarto. Na época, seus testículos incharam até o tamanho de uma pequena lanterna de papel e saíam para fora de seu yukata, tornando impossível escondê-los. Ele foi motivo de muitas risadas. Esse foi o último sintoma antes de sua recuperação completa, quando se tornou uma pessoa saudável.
-
-### Os Diversos Tipos de Espíritos Possessores
-
-Naquela época, havia um jovem de cerca de trinta anos chamado Koyama, que também era um médium de excelentes qualidades. Ele era um grande beberrão e, quando embriagado, perdia completamente o juízo, vagando pelos bares do bairro sem um tostão no bolso. Seu pai, que sempre tinha que arcar com as despesas, veio me pedir para curar esse mau hábito. Foi assim que o conheci. O interessante é que diversos fenômenos de possessão começaram a ocorrer com ele, fornecendo-me valioso material para a pesquisa espiritual. Vou relatar os casos mais curiosos.
-
-Certo dia, o espírito que o possuía era o do dono de um bar do bairro, que havia morrido alguns meses antes. Ele devia ser um grande fã de sumô, pois, assim que se manifestou, estufou o peito, bateu os pés no chão e bradou: "Vamos lá, pode vir quem quiser! Ninguém pode me vencer!". Um dos meus assistentes, irritado, o desafiou, mas foi arremessado ao chão com tal força que fraturou o cotovelo e levou mais de um ano para se recuperar. Em outra ocasião, foram necessários três homens fortes para contê-lo.
-
-Em outro dia, um espírito semelhante a um ancião se manifestou. Perguntei quem era, e ele respondeu: "Sou o tio deste corpo, um camponês da província de Saitama. Gosto tanto de saquê que não resisto, então me aposso deste corpo para beber". Ele pedia saquê. Eu disse: "Vou lhe dar saquê, mas você sairá deste corpo?". Ele respondeu: "Então, me dê uma dose bem grande. Se me der, saio na hora". Fiz como ele pediu, mas ele disse: "Mais uma". Servi-o novamente, e ele pediu: "Mais uma". Bebeu um total de três doses e deixou o corpo. Quando esse espírito se manifestou pela primeira vez, ele olhou ao redor do quarto com uma expressão confusa. Perguntei-lhe, e ele disse: "Onde estou?". Respondi: "Esta é a minha casa, em Omori, Tóquio". Ele disse: "É bem diferente do outro mundo de onde vim". Em seguida, disse: "Quero fumar". Dei-lhe um cigarro, mas ele reclamou: "Este cigarro não serve. Quero fumar em um cachimbo". Providenciei o cachimbo, e ele se levantou lentamente, com a postura de um ancião. Foi até a varanda, olhou o jardim e fumou com prazer. Perguntei: "No outro mundo há tabaco?". Ele respondeu: "Não há tabaco nem dinheiro, então não dá para fumar. Por isso, entramos no corpo de humanos para fumar". "Entendo", pensei.
-
-Assim que o ancião saiu, outro espírito pareceu se apossar dele, com uma atitude muito recatada. Perguntei quem era, e a resposta foi: "Sou a filha da dona da tabacaria aqui perto, fulana de tal. Morri há cerca de dois meses. Eu gostava do Take-chan (o nome do rapaz era Take-chan), por isso vim esta noite". "Você precisa de algo?", perguntei. "Estou com a garganta terrivelmente seca. Gostaria de um copo de água." Eu disse: "Sendo uma recém-falecida, devem lhe oferecer água todos os dias, não?". "Sim, oferecem, mas não consigo beber." Achei estranho e perguntei novamente. Ela explicou: "A pessoa que oferece a água não tem o sentimento de que quer que eu beba. Ela o faz por obrigação. E o que é oferecido com esse tipo de pensamento, não conseguimos beber." Com isso, entendi que "o Mundo Espiritual é o mundo do pensamento". Portanto, compreendi que oferecer alimentos no altar por meio de uma empregada ou fazê-lo pessoalmente, mas por mera formalidade, não tem nenhum valor. Dei água ao espírito dela, e ela bebeu três copos com aparente satisfação.
-
-### Transtorno Dissociativo da Personalidade
-
-Em geral, todos os loucos são pessoas com a personalidade alterada, mas este era um caso raro. Tratava-se de um homem de quarenta e poucos anos, que veio me procurar cinco ou seis anos após o início da doença. Sua atitude e sua maneira de falar não eram em nada diferentes das de uma pessoa normal. Era impossível considerá-lo um doente mental. O que ele me contou foi o seguinte:
-
-"Dentro da minha barriga, mora um deus chamado Fulano de Tal. O deus me diz: 'Vou fazer você passar por um aprimoramento até o limite. Portanto, deve suportar qualquer sofrimento. Primeiro, não vou deixar você ter dinheiro. Vou jogá-lo no fundo da pobreza, então esteja preparado'."
-
-Ele havia sido gerente de uma grande carvoaria, mas, durante uma crise econômica, mudou de ramo e, após vários anos de infortúnio, adoeceu. No início da doença, passou meses praticamente acamado. Seu corpo estava completamente rígido e, com exceção de ir ao banheiro e se alimentar, não conseguia se mover, como se estivesse amarrado à cama. Naquela época, o deus em sua barriga dizia: "Você precisa ficar deitado para o seu aprimoramento. Sou eu quem o está mantendo assim".
-
-Cerca de um ano depois, seu corpo começou a se soltar, e ele pôde sair de casa. No entanto, não conseguia fazer nada por vontade própria, apenas seguir as ordens do deus. Por exemplo, o deus dizia: "Hoje, vá a tal lugar", e ele ia. Mas, se tentasse ir para outro lugar, suas pernas simplesmente não se moviam. Ele era apenas uma marionete do deus. Por causa disso, suas economias foram se esgotando, e ele gradualmente caiu em dificuldades financeiras, a ponto de a família mal sobreviver com o trabalho de costura da esposa e o emprego dos filhos em uma fábrica.
-
-Com o tempo, a doença melhorou um pouco, e ele conseguiu voltar a trabalhar na carvoaria de seu antigo chefe. É aqui que a história fica interessante.
-
-Um amigo dele, funcionário de uma empresa, precisava de coque, e ele o ajudou a conseguir. O amigo, muito grato, convidou-o a um restaurante para agradecer e lhe entregou um envelope como recompensa. Dentro, estava escrito "quinhentos ienes". Pobre como estava, ele ficou feliz e ia aceitar, quando o deus em sua barriga o fez dizer palavras completamente opostas à sua vontade: "Eu não me esforcei esperando uma recompensa. Isso é uma grande ofensa. Há limites para subestimar as pessoas". O amigo, chocado, pediu desculpas e guardou o envelope. Ele ficou extremamente desapontado, mas não pôde fazer nada. Em seguida, ao tentar flertar com uma gueixa em outro cômodo, seu corpo ficou completamente rígido, e ele não conseguiu dizer uma palavra. Depois, ao sair do banheiro, caiu de repente na varanda. O deus disse: "Fiz isso para te castigar por querer dinheiro e flertar com gueixas".
-
-Certo dia, o chefe lhe disse: "Seu desempenho é excelente. Vou aumentar seu salário e promovê-lo a gerente". Ele ficou muito feliz e ia aceitar, quando o deus novamente o fez dizer o contrário: "Eu não me importo com salário. Recuso o aumento e também recuso o cargo de gerente". O chefe, achando estranho, retirou a oferta.
-
-Em outra ocasião, enquanto conversava com a filha do chefe, uma jovem de vinte e poucos anos, o deus o fez dizer algo completamente inesperado: "Senhorita, quer me dar um beijo?". Ele mesmo se assustou. A moça, claro, ficou apavorada e fugiu do cômodo. Por causa desses incidentes, ele foi demitido.
-
-Depois disso, por mais que procurasse emprego através de agências ou de conhecidos, sempre que conseguia uma vaga, acabava dizendo algo que irritava o empregador ou o ofendia. Desistindo de procurar trabalho, ele foi forçado a ficar em casa. Os vizinhos, sem saber de sua condição, diziam à esposa: "Como seu marido não está fazendo nada, gostaríamos que ele se tornasse um membro do conselho da associação de moradores". O deus dizia: "Isso de jeito nenhum". Se ele desobedecesse, era punido com a rigidez total do corpo, então não podia fazer nada e passava os dias ocioso. Ao reclamar com o deus, este dizia: "Você precisa sofrer ainda mais na pobreza". E assim, ele se tornou miseravelmente pobre.
-
-Por tudo isso, era difícil considerá-lo um doente mental, pois tinha pensamentos e bom senso como uma pessoa normal. A única diferença era que não conseguia falar ou agir de acordo com sua própria vontade. A causa disso é provavelmente um ato de vingança de alguém a quem ele causou profundo sofrimento em uma vida passada, que agora se manifestava nele, sua reencarnação. Recentemente, ele se recuperou completamente e veio à minha casa para agradecer.
-
-### Sonhos e Espíritos Malignos
-
-Certo dia, em abril de 1932, por volta das três da tarde, recebi um telefonema. Pediram que eu fosse imediatamente. Fui até a casa, que pertencia a uma família bastante abastada. Eu havia curado a esposa de uma doença grave pouco tempo antes. Ao me encontrar com ela, ela me disse: "Agora há pouco, enquanto cochilava, tive um sonho estranho. Uma figura completamente negra, parecida com um homem, me disse em tom severo: 'Você não deve se aproximar de Okada. Se continuar perto dele, ele acabará lhe tomando toda a fortuna. Afaste-se dele enquanto é tempo'. Eu respondi: 'Não, não posso fazer isso. Ele me curou de uma doença que me atormentou por mais de dez anos. Não há como me afastar'. Então, a sombra negra, furiosa, disse: 'Está bem, então vou fazer isto!' e apertou minha garganta. Acordei assustada e, para minha surpresa, a marca das unhas que ele usou para me apertar ainda dói". Olhei e, espantado, vi que as marcas das unhas estavam claramente visíveis e a área estava vermelha e inchada. O fato de uma pressão sentida em um sonho ter causado um ferimento real no corpo físico é, sem dúvida, algo extraordinário. Isso significa que o espírito agiu com a mesma força de um corpo. Senti um arrepio.
-
-Há outro exemplo semelhante. Certa manhã, bem cedo, recebi um telefonema pedindo que eu fosse imediatamente. Corri para a casa e encontrei a filha da família, uma jovem de vinte e poucos anos, deitada na cama. Eu a havia ajudado a recuperar a saúde, pois ela era muito frágil. O que ela me contou também era uma história estranha.
-
-A jovem disse: "De madrugada, tive um sonho. Nele, apareceu um jovem que eu conheci superficialmente e que morreu há alguns meses. No sonho, ele de repente atirou em mim com uma pistola, e eu acordei. E, estranhamente, meu corpo todo está dormente e não consigo me mover. Sinto como se a bala estivesse dentro do meu coração e como se estivesse perdendo muito sangue. Por favor, veja meu peito". Olhei, mas não havia nada. Realizei imediatamente o tratamento espiritual e extraí o espírito da bala de seu coração. Ela melhorou bastante, mas não completamente. Eu disse que ela melhoraria com o tempo e fui embora. Naquela noite, às cinco horas, haveria uma cerimônia em minha casa, e eu disse: "Venha se melhorar". Felizmente, por volta das cinco, ela estava completamente normal e veio participar da cerimônia, o que me deixou aliviado.
-
-Ambos os casos foram, sem dúvida, interferências de espíritos malignos. No primeiro, o objetivo era me afastar daquela pessoa; no segundo, impedi-la de participar da cerimônia.
-
-### Espíritos Vivos
-
-Houve também este caso. Contei a história de espíritos a um estudante universitário, mas ele se recusou a acreditar. "Então, investigue se há algum espírito me possuindo", disse ele. Iniciei imediatamente o método de investigação espiritual. Em pouco tempo, ele entrou em transe e começou a falar com a atitude de uma jovem. O espírito possessor era de uma moça que trabalhava em um bar no Parque de Asakusa. Ela havia se apaixonado pelo estudante, que a visitava ocasionalmente, e o possuía como um espírito vivo. O pedido do espírito era: "Ele não vem mais me ver, e sinto muita falta dele. Por favor, diga a ele para vir". Mesmo sendo um espírito vivo, eu me vi na posição de entregar um recado de uma mulher a seu amado, uma tarefa verdadeiramente trabalhosa. Ao despertar, ele parecia confuso. "Como foi?", perguntei. "Eu entrei em transe? Não percebi nada", respondeu ele. Contei-lhe a história da moça, e ele, chocado e envergonhado, coçou a cabeça, admitiu e finalmente confirmou a existência dos espíritos.
-
-Em outra ocasião, investiguei espiritualmente uma jovem gueixa. O espírito de seu patrono se manifestou. Fiz várias perguntas e descobri o seguinte. O espírito vivo era do dono de uma grande distribuidora de açúcar. Ele disse: "Eu tinha um encontro marcado com esta gueixa para esta noite, mas surgiu um imprevisto e não poderei ir. Por favor, diga a ela que nos encontraremos amanhã à noite". Sua fala e atitude eram as de um homem de quarenta ou cinquenta anos, sem margem para dúvidas. Ao contar a história à gueixa, ela ficou chocada. Ela não tinha a menor consciência do que havia dito durante o transe e confirmou que a promessa era exatamente como o espírito vivo havia dito.
-
-Uma jovem de vinte e poucos anos veio me procurar e se queixou: "Ultimamente, sinto como se estivesse com depressão. O mundo perdeu o sabor, e estou sofrendo". Eu disse: "Você, que parece tão saudável e é mais bonita que a média, dizer isso não faz sentido. Deve haver uma causa muito importante". Após insistir, finalmente descobri o motivo. Um jovem vizinho estava apaixonado por ela e, através de cartas e outros meios, tentava conquistá-la. "Mas eu não gosto dele e já o recusei várias vezes. Mesmo assim, ele fica sempre rondando minha casa, e tenho medo até de sair", disse ela. Expliquei-lhe que era o espírito vivo do rapaz que a estava possuindo. Ela finalmente entendeu e, a partir de então, começou a melhorar gradualmente, até se recuperar por completo. O alívio de saber que não era uma doença foi o que a curou.
-
-Já é difícil fazer as pessoas modernas reconhecerem a existência de espíritos de mortos, mas a de espíritos vivos é ainda mais difícil. No entanto, como são fatos inegáveis, peço que leiam com essa compreensão. Há muitos outros exemplos de espíritos vivos, mas creio que esses três são suficientes, então omitirei os demais. Quase todos os casos de espíritos vivos estão relacionados ao amor entre homens e mulheres.
-
-A depressão da jovem mencionada se devia ao seguinte: os pensamentos pessimistas do rapaz, decorrentes de seu amor não correspondido, eram transmitidos à moça através de um cordão espiritual, refletindo-se nela. Como os espíritos vivos refletem os pensamentos do outro, no caso oposto, quando ambos se amam, seus cordões espirituais se conectam, gerando uma sensação de grande prazer. A razão pela qual o amor entre homens e mulheres se torna uma relação da qual é difícil se separar é que esse prazer contribui muito para isso. Além disso, a possessão por um espírito de morto causa calafrios, enquanto a por um espírito vivo causa uma sensação de calor.
-
-Espíritos vivos inofensivos como esses não são um grande problema, mas também existem os que são temíveis. É o caso de esposas e amantes, ou de triângulos amorosos, em que duas mulheres disputam um homem. O ciúme se transforma em espíritos vivos que lutam entre si. Na maioria das vezes, a esposa vence. A razão é que é natural que o lado correto vença. Nesse caso, a obstinação da esposa faz com que a amante adoeça, morra ou fuja com outro homem, acabando por se separar do marido.
-
-Os espíritos vivos de humanos não são tão poderosos, mas há um que é verdadeiramente assustador: o espírito vivo da raposa-de-tubo (*kudagitsune*). Desde a antiguidade, são conhecidos como usuários de *izuna*, geralmente mulheres ascetas que aceitam pedidos para realizar vinganças. A raposa-de-tubo tem o tamanho de um melão pequeno, com pelos brancos e macios, sendo muito leve e fofa. Seu espírito obedece fielmente às ordens humanas e executa qualquer maldade. Esses usuários de *izuna* são comuns na região de Kansai desde a antiguidade, e dizem para não se casar com um deles, pois qualquer pequena ofensa pode resultar em retaliação.
-
-Os espíritos vivos de raposas também são comuns. O corpo físico da raposa permanece em um santuário Inari ou no campo, enquanto apenas seu espírito vivo atua.
-
-### Continuação sobre o Mundo do Inferno
-
-A seguir, escreverei de forma resumida sobre os outros reinos do inferno.
-
-O Caminho de Ashura é o sofrimento de "queimar em fúria", como se diz popularmente. Por exemplo, a angústia de ser derrotado em uma disputa e ansiar por vingança, ou a frustração de não conseguir satisfazer os próprios desejos. Esse tormento mental, que já existia em vida, persiste após a morte, levando a alma a cair no reino de Ashura. Tanto no mundo material quanto no espiritual, é um sofrimento do qual se pode ser salvo relativamente rápido por meio da fé.
-
-O Caminho da Luxúria, como o nome indica, é para aqueles que se tornaram demônios da luxúria. No caso dos homens, é o castigo por tratar muitas mulheres como objetos, violar sua castidade sem remorsos e levar inúmeras delas à infelicidade. No inferno, essas almas são atormentadas pelas mulheres que enganaram e maltrataram em vida. O sofrimento é terrível, e ninguém consegue escapar do arrependimento. A duração desse tormento é proporcional ao número de mulheres prejudicadas e à gravidade dos pecados, não sendo, portanto, uma pena leve. Isso demonstra que os homens devem se abster de atos que levem as mulheres à infelicidade em prol de seu próprio prazer. Embora esses pecados sejam mais comuns entre os homens, em casos raros também ocorrem com mulheres. Aquelas que vendem sua castidade por prazer ou desejo, cometem adultério ou atormentam os homens sem escrúpulos também caem, evidentemente, no caminho da luxúria e sofrem.
-
-O Inferno Ardente é o destino daqueles que cometeram incêndios criminosos ou, por negligência, causaram grandes incêndios que sacrificaram muitas vidas e bens.
-
-O Inferno das Serpentes é um lugar onde inúmeras serpentes se reúnem, causando um sofrimento indescritível. Este é o castigo para aqueles que, em prol de seu próprio lucro, prejudicaram muitas pessoas. Por exemplo, presidentes de grandes empresas ou bancos que, por ganância, cometeram fraudes e causaram prejuízos a muitos; políticos que, por má administração, levaram o povo ao sofrimento. O rancor dessas pessoas, bem como o rancor das vítimas de guerras contra seus instigadores, transforma-se em serpentes que buscam vingança.
-
-O Inferno das Formigas é o castigo pelo pecado de matar. Por exemplo, matar insetos, pássaros ou pequenos animais sem motivo. Esses seres se transformam em formigas e atormentam a alma. A esse respeito, há uma história que ouvi de uma testemunha ocular. Certa vez, uma cobra estava enrolada em uma árvore. Enquanto observava, vários pardais se aproximaram e começaram a bicar a cobra, que acabou caindo da árvore e morrendo. O corpo foi deixado ali e, após alguns dias, transformou-se em uma miríade de formigas. Essas formigas subiram em massa pelo tronco da árvore e atacaram os filhotes de pardal no ninho, que ainda não sabiam voar. Todos os filhotes, naturalmente, morreram. O narrador contou ter compreendido, então, a terrível obstinação da cobra.
-
-O Inferno da Colmeia é o sofrimento de ser picado por inúmeras abelhas. Há uma história a esse respeito. Uma cabeleireira que era minha discípula tinha uma amiga que, certo dia, foi possuída por um espírito. Elas procuraram um mestre religioso que, ao investigar, descobriu o seguinte. Uma gueixa, cliente da amiga, havia morrido e caído no Inferno da Colmeia. Ela estava sofrendo e se apossou da amiga para pedir ajuda. A mulher possuída era, na época, seguidora de uma determinada religião, e o espírito se apegou a isso. Segundo o espírito, ela estava presa em uma cabana do tamanho de uma pessoa, onde centenas de abelhas a atacavam por todo o corpo. O sofrimento era insuportável, e ela pedia socorro. Seu pecado foi, como gueixa, ter atormentado muitos homens. As esposas desses homens, ao chegarem ao mundo espiritual, transformaram-se em abelhas por ciúme e buscaram vingança.
-
-No mundo do inferno, como dizem as lendas, há guardas, demônios vermelhos e azuis, que carregam bastões de ferro com espinhos. Eles espancam os espíritos que violam as regras ou se rebelam. Dizem que a dor é maior do que a de ser espancado no corpo físico. A razão é que o corpo físico tem a pele e a carne para proteger os nervos, mas, no estado de espírito, o golpe atinge os nervos diretamente, sendo insuportável. Muitos espíritos do inferno dizem que, por mais que sofram, não conseguem cometer suicídio, o que é um grande tormento. De fato, como já estão mortos, não há como morrer novamente. Nesse ponto, o mundo espiritual é complicado. Dizem também que, para se locomoverem no inferno, os condenados usam uma carruagem de fogo. Os espíritos do inferno se elevam gradualmente através de seu próprio aprimoramento ou das preces e oferendas de seus descendentes. Portanto, os descendentes não devem negligenciar o sufrágio.
-
-Certa vez, salvei um espírito e realizei seu sufrágio. Pouco tempo depois, ele se manifestou em mim e disse: "Vim hoje para agradecer e fazer um pedido. Graças a você, fui salvo e cheguei ao paraíso. Estou imensamente feliz. O senhor certamente compreende minha alegria". De fato, assim que o espírito se apossou de mim, senti uma alegria indescritível me invadir. O pedido do espírito era: "Por favor, peça a Deus para que eu não precise nascer novamente como humano". Achei o pedido estranho e perguntei o motivo. Ele respondeu: "O paraíso é um mundo de júbilo, sem preocupações com o sustento. Em contraste, no mundo dos vivos, por mais que se trabalhe, mal se consegue comer. Já estou farto". Por isso, parece que ir para o mundo espiritual não é de todo ruim, e que morrer também pode ser uma alegria. No entanto, para isso, é preciso acumular boas ações em vida e adquirir as qualificações para ir ao paraíso.
-
-A seguir, descreverei brevemente a condição de outros espíritos além dos humanos.
-
-### O Mundo dos Tengus
-
-Como existências especiais no Mundo Espiritual, existem o Mundo dos Tengus e o Mundo dos Deuses-Dragões. Falarei sobre eles.
-
-Primeiramente, o Mundo dos Tengus se localiza no plano espiritual das regiões montanhosas. Os tengus são responsáveis pela proteção de suas respectivas montanhas. O Mundo dos Tengus também possui uma hierarquia de níveis superior, médio e inferior. A divindade que o preside é Sarutahiko-no-Mikoto, entronizado no Monte Kurama.
-
-Existem dois tipos de tengus: os humanos e os pássaros. Os tengus humanos são espíritos de pessoas que, em vida, foram eruditos, literatos, advogados, educadores, sacerdotes xintoístas, monges budistas ou, antigamente, guerreiros. Após a morte, eles ingressam no Mundo dos Tengus. Os tengus pássaros são espíritos de aves. Após a morte, todas as aves ingressam no Mundo dos Tengus e atuam sob as ordens dos tengus humanos.
-
-Entre os tengus pássaros, as aves de rapina, como águias e falcões, exercem um poder considerável no Mundo dos Tengus. Certa vez, tive a oportunidade de examinar a manifestação da divindade principal de Doryo Gongen, de Odawara, em uma mulher. Tratava-se de uma águia gigante de milhares de anos. Segundo a águia, "antigamente, eu era muito ativa, mas nos últimos anos, feri uma das minhas asas e não consigo mais agir como gostaria", lamentou ela.
-
-Os Karasu Tengu (tengus corvos) são, naturalmente, espíritos de corvos. No Mundo dos Tengus, eles realizam principalmente atividades divinas e são considerados uma classe especialmente sagrada. Os chamados Konoha Tengu (tengus de folha) são espíritos de pequenos pássaros e atuam como mensageiros e emissários.
-
-Desde a antiguidade, os tengus são conhecidos por terem narizes longos, o que é representado em pinturas e máscaras. Isso é um fato. Seus rostos também são representados como vermelhos, porque os tengus gostam de saquê.
-
-Quanto à vida dos tengus, sua atividade preferida é o debate. Isso porque, ao vencer uma discussão, sua posição hierárquica se eleva. Consequentemente, aqueles que, no mundo material, exercem profissões como parlamentares e advogados, são reencarnações de tengus ou estão sob a possessão de um deles. Depois dos debates, o que mais gostam é de go e shogi. Um tengu me ensinou o shogi do Mundo dos Tengus, que é bastante diferente do nosso. Eles também apreciam a caligrafia, a pintura e a poesia, mas nada se compara ao prazer que sentem ao beber saquê.
-
-A linguagem do Mundo dos Tengus é muito diferente da nossa, sendo baseada nos sons "sa, shi, su, se, so". A comunicação se dá pela variação da duração e da entonação desses sons. Ao observar um tengu falar, nota-se que ele move muito os lábios, aponta a ponta da língua e quase não emite som. A troca de ideias se dá pelo movimento intenso dos lábios superior e inferior, o que é interessante de se ver.
-
-O voo dos tengus é único. Eles costumam sequestrar crianças e levá-las para lugares distantes voando. O voo de Torakichi, descrito na famosa obra de Atsutane Hirata, "Contos de Torakichi", é extraordinário. Os feitos do tengu Sanshakubo, do Santuário de Akiba, também são um registro interessante. Os tengus gostam de se apossar de pessoas e têm prazer em surpreendê-las. A forma como o jovem Ushiwakamaru brincou com Benkei na ponte Gojo e, mais tarde, como Yoshitsune, saltou de barco em barco como um pássaro na batalha de Dan-no-ura, são feitos de alguém possuído por um tengu. Durante seu treinamento no Monte Kurama, ele provavelmente recebeu um tengu de alta classe como guardião de Sarutahiko-no-Mikoto. Outros exemplos incluem guerreiros que, após se retirarem para as montanhas e se submeterem a treinamentos, adquiriram técnicas de voo de tengu, ou a agilidade de Miyamoto Musashi, todos resultados da possessão por um tengu.
-
-Há também muitas histórias de ascetas que se retiram para as montanhas, submetem-se a práticas rigorosas como jejum e abluções em água fria, e adquirem poderes sobrenaturais ou de cura. Isso também ocorre pela possessão por um tengu. Esses tengus têm uma certa ambição e desejam usar o ser humano como marionete para obter fama ou bens materiais no mundo e desfrutar de grande prestígio. No entanto, essa não é uma possessão divina no sentido correto. Por um tempo, eles podem manifestar poderes consideráveis e se tornar famosos, mas, com o passar do tempo, seus poderes enfraquecem e tudo volta a ser como antes. A possessão espiritual é mais fácil quando o corpo e a mente estão enfraquecidos por jejum, doença ou outros fatores.
-
-Casos de pessoas analfabetas que, de repente, são possuídas por um deus e passam a escrever poemas e caligrafias com maestria também são exemplos de possessão por tengu.
-
-Gostaria de relatar uma experiência minha com um espírito de tengu. Certa vez, subi o Monte Mitsumine, na província de Musashi. Passei a noite em um templo no cume e, na manhã seguinte, enquanto entoava a oração, um espírito se apossou de mim. Perguntei quem era, e ele disse ser um espírito que havia ingressado no Mundo dos Tengus há cerca de duzentos anos e que, em vida, fora um sacerdote do Santuário Miho, na província de Suruga. Perguntei por que havia se apossado de mim, e ele disse que queria que eu lesse para ele os escritos de uma certa religião que eu estava lendo com devoção na época. Li o máximo que pude para ele. Após cerca de seis meses, ele me agradeceu profundamente e voltou para a montanha.
-
-A personalidade dos tengus é argumentativa, arrogante, avessa a posições subalternas e ávida por estar no topo. Eles insistem em suas opiniões até o fim e preferem que os outros ouçam o que eles têm a dizer em vez de ouvir os outros. Os possuídos por tengus pássaros manifestam características de pássaros: a boca é pontuda, a voz é um som monótono como o de um pássaro, e a natureza é dócil e avessa a conflitos, o que os torna apreciados pelas pessoas. Pessoas que sonham frequentemente que estão voando também são possuídas por tengus pássaros.
-
-### O Mundo dos Deuses-Dragões
-
-Falar do Mundo dos Deuses-Dragões pode parecer um disparate para as pessoas de hoje, mas ele existe de fato. Vou começar relatando minha própria experiência. Foi no início de minha jornada de pesquisa religiosa e espiritual. Certo dia, enquanto praticava a concentração, entrei em um estado estranho. Minha boca se abriu enormemente, como se estivesse rasgada até as orelhas. Meus olhos brilhavam, e senti como se chifres estivessem crescendo em ambos os lados da minha testa. Um rugido terrível, como o de uma fera, saiu naturalmente de mim. Fiquei chocado, mas, como já havia ouvido falar de possessão espiritual, pensei: "É isto". Imaginei que o espírito fosse de um tigre, leopardo ou leão, mas esses animais não têm chifres, então não poderia ser. Perguntei a um orientador mais experiente na época, e ele me disse que era, sem dúvida, o espírito de um deus-dragão. Naquela época, eu não tinha certeza se os deuses-dragões existiam, mas, ao ouvir aquilo, pensei: "Faz sentido". Além disso, durante a possessão, eu sentia como se os ossos da parte superior da minha coluna se projetassem, o que é uma característica dos dragões.
-
-Isso aconteceu várias vezes. Com o tempo, outra entidade começou a falar de dentro de mim. Era o espírito do dragão que, por se apossar de mim, aprendeu a falar a língua humana. Ele me agradeceu e me contou várias histórias. Segundo ele, "Eu sou o deus guardião de Konohanasakuya-hime-no-mikoto, que reside no Monte Fuji. Sou Kuzuryu Gongen, que reside no santuário Kusushi-no-miya".
-
-Anos depois, tentei escalar o Monte Fuji pela primeira vez. Até então, eu pensava que o santuário Kusushi-no-miya, mencionado pelo dragão, ficasse no sopé da montanha. Procurei, mas não o encontrei. Finalmente, subi até o cume do Fuji. À direita da entrada do cume, há um grande santuário. Olhei e vi que estava escrito "Santuário Kusushi". "Ah, é este!", pensei. Compreendi que as palavras do dragão não eram falsas.
-
-Há muitos mistérios sobre este deus-dragão, que pretendo revelar em outra obra. Com esse evento, passei a conhecer a existência dos deuses-dragões. Através de várias considerações, compreendi que, no início da formação desta terra, quando o solo era frágil como um mar de lama, foram miríades de deuses-dragões que o solidificaram. Após perderem seus corpos, seus espíritos continuaram a atuar em diversas áreas da sociedade humana, incluindo a astronomia, e ainda o fazem. Após os deuses-dragões solidificarem a terra, veio a era dos mamutes, como propõem os cientistas, que devem ter compactado a terra correndo sobre ela com seus corpos gigantescos. Os ossos de dinossauros encontrados ocasionalmente no interior da Manchúria hoje em dia devem ser dos últimos dragões.
-
-Existem muitos tipos de dragões. Os principais são: Dragão Celestial, Dragão Dourado, Dragão Prateado, Dragão-Serpente, Dragão Branco, Dragão da Terra, Dragão da Montanha, Dragão do Mar, Dragão da Água, Dragão do Fogo, Dragão Vermelho, Dragão Amarelo, Dragão Azul, Dragão Negro e Dragão da Madeira. Segundo a lenda, o deus guardião de Kannon Bosatsu é um dragão dourado. É por isso que o Templo de Kannon em Asakusa é chamado de "Templo Senso-ji da Montanha do Dragão Dourado". O dragão branco também é conhecido como Benzaiten. O dragão vermelho é provavelmente o "Satanás, o dragão vermelho" mencionado na Bíblia. Os dragões amarelo e azul são os dragões da China, e o dragão negro é o rei dos mares. O dragão da madeira é um dragão que habita as árvores.
-
-Por que os deuses-dragões existem? Cada um deles tem uma função específica, ordenada pelo deus que os governa, e por isso atuam incessantemente. Os fenômenos celestes, como vento, chuva e trovões, são de responsabilidade de seus respectivos deuses-dragões, que agem sob o comando dos quatro deuses do portal da purificação. Sua principal função é a purificação entre o céu e a terra. Além disso, oceanos, lagos, rios e até mesmo lagoas e poços são habitados e protegidos por deuses-dragões de portes grande, médio e pequeno. Por isso, quando se aterra uma lagoa, pântano ou poço, desastres misteriosos costumam ocorrer em sequência, como muitos sabem.
-
-A natureza dos deuses-dragões é extremamente irascível. Quando sua morada é destruída, eles se enfurecem. É uma forma de alertar os humanos para que lhes consigam uma nova morada. Portanto, basta oferecer-lhes uma substituta, mesmo que pequena, e realizar o procedimento de transferência. Os dragões não podem viver sem água, então um pequeno lago ou mesmo um vaso com água é suficiente. Os deuses-dragões, mesmo como espíritos, têm um calor interno e anseiam por água.
-
-Como já mencionado, a transformação de um humano em deus-dragão após a morte se deve ao apego. Através do aprimoramento no mundo espiritual, eles renascem como humanos. O famoso Sugawara no Michizane, após a morte, por seu apego à vingança contra Fujiwara no Tokihira e outros caluniadores que o atormentaram em vida, tornou-se um dragão de fogo. Ele os matou um a um com raios e, por fim, um raio atingiu até mesmo o Palácio Shishinden, e o desastre estava prestes a atingir o imperador. Por isso, decidiram consagrá-lo como um deus. Esse é o Santuário Tenmangu de hoje. Desde então, nada mais aconteceu. Esta é uma história famosa na história, com a qual a ciência dificilmente pode competir.
-
-Outra história, do período Meiji ao Taisho. No terreno do Ministério das Finanças, em Kasumigaseki, havia o túmulo de Taira no Masakado. Como ninguém havia percebido, desastres misteriosos começaram a ocorrer sucessivamente com os funcionários do ministério. Após investigações, suspeitou-se que fosse obra do espírito de Masakado. Realizaram uma grande cerimônia, e desde então, nada mais aconteceu. Este também é um caso em que o espírito de Masakado se tornou um deus-dragão e causou uma maldição. Não apenas os deuses-dragões, mas todos os espíritos anseiam muito por cerimônias e sufrágios. A razão é que, através deles, seu apego diminui e sua posição no mundo espiritual se eleva.
-
-Os deuses-dragões geralmente têm a forma retratada em pinturas e esculturas. Existem os com e sem chifres. Os deuses-dragões de alta classe são extremamente grandes, com comprimentos que podem chegar a dezenas de quilômetros. Os famosos Oito Grandes Reis Dragões são os oito deuses e deusas mencionados no Kojiki: cinco homens e três mulheres. Segundo a lenda, Shaka confinou os Oito Grandes Reis Dragões no oceano e lhes disse para esperarem até um certo tempo. Segundo minha pesquisa, esse tempo é até a transição do mundo da noite para o mundo do dia. A propósito, os Oito Grandes Reis Dragões já reencarnaram como humanos e estão atualmente trabalhando para a construção do mundo de luz.
-
-Desde a antiguidade, diz-se que o treinamento de um deus-dragão dura mil anos no mar, mil anos na montanha e mil anos na aldeia. Parece haver algum fundamento nisso. No entanto, esse período pode ser encurtado pelas preces e boas ações das pessoas relacionadas. Quando o treinamento termina, o deus-dragão ascende aos céus. Nesse momento, ele invoca as nuvens, provoca uma tempestade, o chamado "tornado", e eleva a água do mar ou do lago a uma grande altura, subindo ao céu. Muitas pessoas já presenciaram isso. A esse respeito, ouvi uma história de um discípulo meu. Certa vez, uma cobra de verdade, não um espírito, estava enrolada em um pinheiro. Observando atentamente, a cobra subiu gradualmente até o topo da árvore e, de repente, se soltou e voou para o céu, subindo cada vez mais alto até desaparecer. Como se trata de um fato real, acho interessante. É uma história que parece impossível, mas que também pode ser possível.
-
-É possível identificar uma pessoa que é a reencarnação de um deus-dragão por sua fisionomia. O tipo dragão tem as maçãs do rosto altas, a testa quadrada, veias azuis salientes nas têmporas, olhos geralmente fundos e o queixo quadrado. Uma característica marcante é que sentem muita sede. Sua natureza é orgulhosa, avessa a se submeter aos outros e cheia de ambição, por isso muitos se destacam na vida. Se observarmos atentamente o tipo dragão, a sensação de "dragão" é claramente expressa, sendo fácil para qualquer um identificá-lo com atenção.
-
-*(Nota) 顴骨 (kankotsu): Osso zigomático, localizado abaixo e na diagonal dos olhos, em ambos os lados do rosto. Maçã do rosto.*
-
-### Espíritos Divinos, Búdicos e Humanos
-
-Gostaria de descrever aqui os vários aspectos do Mundo Divino e do Mundo Búdico no Japão.
-
-Primeiramente, quanto aos espíritos divinos, quanto mais elevados, maiores são, e sua aparência é semelhante à dos humanos. No entanto, há diferenças de acordo com o status. Geralmente, vestem trajes cerimoniais da corte. Os deuses de classe mais alta usam uma túnica roxa sobre uma calça-saia vermelha, e suas coroas têm longas fitas pendentes. Os padrões das vestes incluem flores, pássaros, nuvens e dragões, em uma grande variedade. Os deuses de classe média usam uma túnica verde-bambu, uma calça-saia escarlate e uma coroa sem fitas. Os deuses de classe inferior usam uma túnica branca sobre uma calça-saia branca, e sua coroa tem a forma de um chapéu de corte. As deusas usam trajes semelhantes a um quimono de doze camadas, de uma beleza indescritível. No entanto, esses são os trajes formais; no dia a dia, eles se vestem de várias maneiras, de acordo com seus pensamentos.
-
-Suas moradias, no Japão, são construídas com madeira de cipreste, no estilo dos palácios divinos. Nos aposentos, há cortinas de bambu. Para chegar aos aposentos de um grande deus, sobe-se vários degraus e atravessa-se um longo corredor, passando por vários cômodos. Os servos andam pela varanda externa, que é cercada por um parapeito. O ambiente é puro e refrescante. O jardim é amplo, com árvores, plantas, pedras e água, compondo um cenário de beleza e clareza.
-
-Quanto aos espíritos búdicos, os fundadores e mestres residem em grandes templos que podem acomodar centenas ou milhares de pessoas. Eles se sentam em tronos esplêndidos em locais elevados, vestindo mantos magníficos, e ocasionalmente proferem sermões. Os espíritos que vão para o mundo búdico, tanto homens quanto mulheres, têm a cabeça raspada, naturalmente. Eles se divertem constantemente com poesia, música instrumental, go, shogi, música e dança. Ao ar livre, há um grande lago com folhas de lótus flutuando, grandes o suficiente para duas pessoas, que se movem na direção desejada.
-
-Há uma pequena diferença entre o Paraíso e a Terra Pura. O Paraíso é banhado por uma luz branca e brilhante, mas a área é menor e o número de espíritos búdicos é pequeno. Em contraste, a Terra Pura é banhada por uma luz dourada e suave. Se o Paraíso é a manhã, a Terra Pura corresponde à luz do entardecer. Diz-se que é a "Terra Pura da Luz Serena", e é exatamente assim.
-
-Quando os espíritos de deuses e budas se movem, eles se tornam esferas de luz e se deslocam pelo espaço com uma velocidade imensa, como um reflexo. Quanto mais elevado o espírito, mais forte a luz e mais rápida a velocidade, sendo impossível para os olhos humanos captá-los. Em contrapartida, os espíritos humanos têm uma luz fraca, de um branco-acinzentado e difuso, e sua velocidade é lenta. Por isso, podem ser vistos pelos olhos humanos; são os fogos-fátuos. Todos os espíritos são elásticos e podem entrar e sair até mesmo pelo buraco de uma agulha. Quanto mais inferior o espírito, menor seu tamanho. Os espíritos do inferno geralmente medem de quinze a trinta centímetros. Já vi várias fotografias de espíritos humanos de pé sobre os ombros de pessoas.
-
-### A Estrutura Hierárquica do Mundo Espiritual
-
-A constituição do Mundo Espiritual, como já mencionei, consiste em três planos — Paraíso, Mundo Intermediário e Inferno —, que se subdividem em três, totalizando nove níveis. Cada um desses níveis se divide em vinte, e cada uma dessas subdivisões, em três, resultando em sessenta subníveis por plano. Três vezes sessenta são cento e oitenta. A essa estrutura, dou o nome de Estrutura Hierárquica do Mundo Espiritual (霊層界). Acima de tudo, reside o Deus Supremo, o Senhor do Universo. É interessante notar que o ideograma para "Senhor" (主) é composto por três traços horizontais (一, 二, 三) atravessados por uma linha vertical, com um ponto no topo.
-
-Vou explicar detalhadamente a relação entre os seres humanos e os espíritos. O ser humano possui um espírito essencial, que tem a mesma forma do corpo físico. No centro desse espírito, está o coração, e no centro do coração, a alma. É uma estrutura tripla, de grande, médio e pequeno. Essa alma é um dom de Deus e é a própria consciência. O lugar de origem dessa alma, seu registro fundamental, por assim dizer, pertence a um dos cento e oitenta níveis mencionados. A isso, dou o nome de alma primordial (幽魂).
-
-Essa alma primordial e a alma presente no ser humano estão conectadas por um cordão espiritual. Os pensamentos e as ações do ser humano são constantemente transmitidos à alma primordial, e através dela, a Deus. Da mesma forma, as ordens de Deus são transmitidas ao ser humano através da alma primordial e do cordão espiritual. Um exemplo disso: quantas vezes uma pessoa traça planos, se esforça para atingir seus objetivos, mas as coisas tomam um rumo inesperado e ela se depara com um destino imprevisto? Ao refletir sobre isso, a maioria das pessoas já teve a sensação de que há um governante invisível que as manipula. Esse governante é a vontade de Deus, transmitida pela alma primordial. Portanto, quando se age contra a vontade de Deus, por mais que se esforce, o resultado será o oposto do desejado. O ser humano deve, pois, refletir profundamente para saber se seus pensamentos estão em harmonia com a vontade divina.
-
-No entanto, a presença de desejos egoístas e pensamentos malignos obstrui a transmissão da vontade de Deus. Por um tempo, as coisas podem parecer ir bem, mas, no final, o fracasso é inevitável. Por esse princípio, ao traçar um plano, é preciso examinar a si mesmo profundamente e questionar se o objetivo é bom e se servirá à sociedade e à humanidade. O interessante é que, quando se fracassa e se cai em dificuldades por não seguir a vontade de Deus devido a pensamentos malignos, esse sofrimento serve para expiar os pecados que causaram esses pensamentos. Como resultado, a alma é purificada, passa a estar em harmonia com a vontade divina e o sucesso se torna possível. É comum ver pessoas que, após um fracasso, alcançam o sucesso, e especialmente aqueles que fracassaram muitas vezes se tornam grandes realizadores. A razão reside neste princípio.
-
-Sendo assim, o único caminho para a felicidade é elevar a alma primordial aos níveis mais altos da Estrutura Hierárquica Espiritual. A posição da alma não é fixa; ela está constantemente subindo e descendo. Isso porque, quanto mais leve, mais alto sobe; quanto mais pesada, mais baixo desce. A causa dessa leveza ou peso reside na bondade ou maldade das ações humanas. Praticar o bem e acumular virtudes diminui os pecados e impurezas, tornando a alma mais leve. Praticar o mal e acumular pecados aumenta os pecados e impurezas, tornando-a mais pesada. A expressão "o peso do pecado" é muito apropriada. Como os pensamentos, as palavras e as ações, sejam boas ou más, são transmitidas diretamente a Deus pelo cordão espiritual, ao compreender este princípio, não há como não se tornar uma pessoa virtuosa.
-
-Como mencionado, a vida, a morte e o destino do ser humano são determinados pela ordem de Deus. Por isso, o ideograma para "vida" (命) é o mesmo de "ordem" (命令). A morte, portanto, é a revogação dessa ordem por Deus. Isso ocorre quando a pessoa se torna um veneno para o mundo ou perde o valor de sua existência. O ser humano deve, pois, se esforçar para ser amado por Deus e útil à sociedade, para que sua ordem não seja revogada. Sem isso, não há como obter longevidade e felicidade.
-
-Nos níveis mais altos da Estrutura Hierárquica Espiritual, não há sofrimentos como doença, pobreza e conflito. Ali, desfruta-se de uma saúde vibrante, de moradia, vestuário e alimentação abundantes e belos, e de uma vida de júbilo. A felicidade da alma primordial que ali reside é transmitida diretamente ao ser humano no mundo material através do cordão espiritual, tornando-o feliz. O oposto também é verdadeiro: a alma primordial que se encontra nos níveis inferiores da Estrutura Hierárquica reflete-se no ser humano, que passa a vida em um sofrimento infernal e infeliz.
-
-Muitas pessoas se preocupam com a influência da casa ou da direção, mas aqueles cuja alma reside nos níveis superiores da Estrutura Hierárquica, ao se mudarem ou construírem, naturalmente se dirigem para uma boa direção e uma casa auspiciosa. Em contrapartida, aqueles cuja alma está nos níveis inferiores, por mais que se esforcem, acabam se mudando para uma má direção e uma casa desfavorável. O mesmo princípio se aplica ao casamento, seja para uma boa ou má união. Isso se baseia no princípio da unidade entre espírito e matéria, e nenhum ser humano pode resistir a essa força absoluta.
-
-Gostaria de dizer uma palavra sobre sina e destino. A sina é o que está determinado desde o nascimento. Ela se limita a uma das três esferas da Estrutura Hierárquica — superior, média ou inferior —, sendo impossível sair dela. O destino, no entanto, permite que, dentro da esfera da sina, se alcance o nível mais alto ou se caia ao mais baixo, dependendo do esforço. Portanto, enquanto a sina é imutável, o destino oferece um certo grau de liberdade.
-
-Consequentemente, o ser humano deve constantemente acumular virtudes, reduzir seus pecados e impurezas, e fazer com que sua alma primordial habite os níveis mais altos da Estrutura Hierárquica Espiritual. É preciso saber que não há outro caminho para a felicidade senão este.
 
 ---
 

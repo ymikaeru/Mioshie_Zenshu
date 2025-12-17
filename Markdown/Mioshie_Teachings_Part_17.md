@@ -3,6 +3,7 @@
 # A Estratégia Divina e a Edificação do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月5日） | **Status:** Published
 
 ## A Estratégia Divina e a Edificação do Paraíso Terrestre
 
@@ -39,6 +40,7 @@ Aquilo que já está formado em minha mente nascerá por volta do ano que vem, e
 # O Avanço da Obra Divina e a Natureza dos Povos
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月6日） | **Status:** Published
 
 ## O Avanço da Obra Divina e a Natureza dos Povos
 
@@ -95,6 +97,7 @@ Enfim, parece não haver outro caminho senão o de passar por todas essas prova�
 # O Alvorecer da Era do Dia
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年7月1日） | **Status:** Published
 
 ## O Alvorecer da Era do Dia
 
@@ -127,6 +130,7 @@ E aumentarão ainda mais. Pois, a partir deste ano, tem início a Era do Dia no 
 # A Tragédia da Medicina e a Verdadeira Salvação
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月5日） | **Status:** Published
 
 ## A Tragédia da Medicina e a Verdadeira Salvação
 
@@ -177,6 +181,7 @@ A causa, mais uma vez, reside na medicina e em seus venenos. Pretendo explorar e
 # Diálogo sobre Arte e o Acervo do Museu
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年7月1日） | **Status:** Published
 
 ## Diálogo sobre Arte e o Acervo do Museu
 
@@ -453,6 +458,7 @@ Aquele com o guarda-rios, que parece um corvo – é esse. O *bokuseki* é perfe
 # A Diferença entre o Poder Divino e o Poder Humano
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年11月1日S） | **Status:** Published
 
 ## A Diferença entre o Poder Divino e o Poder Humano
 
@@ -485,6 +491,7 @@ Todavia, nos assuntos do mundo, tudo se baseia em uma confiança excessiva no po
 # A Insuperável Maestria da Arte Japonesa
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年3月6日） | **Status:** Published
 
 ## A Insuperável Maestria da Arte Japonesa
 
@@ -517,6 +524,7 @@ Haveria muito mais a dizer sobre este assunto, mas, devido à limitação do tem
 # O Desígnio dos Solos Sagrados e a Transição para o Mundo do Dia
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S27年9月27日） | **Status:** Published
 
 ## O Desígnio dos Solos Sagrados e a Transição para o Mundo do Dia
 
@@ -569,6 +577,7 @@ Ademais, estou redigindo um outro texto, como já mencionei, sobre o alarmante n
 # A Causa do Sucesso no Exterior e a Purificação do Japão
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月27日） | **Status:** Published
 
 ## A Causa do Sucesso no Exterior e a Purificação do Japão
 
@@ -607,6 +616,7 @@ Embora seja uma pessoa de certo renome nos círculos religiosos, até mesmo ele 
 # Visões do Paraíso Terrestre e a Erradicação do Mal
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S26年9月27日） | **Status:** Published
 
 ## Visões do Paraíso Terrestre e a Erradicação do Mal
 
@@ -671,6 +681,7 @@ Se o tempo permitisse, eu leria para vocês meu artigo “A Origem do Budismo”
 # A Postura da Fé e a Urgência da Agricultura Natural
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月27日） | **Status:** Published
 
 ## A Postura da Fé e a Urgência da Agricultura Natural
 
@@ -735,6 +746,7 @@ Como podem ver, a difusão progride em ritmo constante. Creio que, até o próxi
 # A Expansão da Agricultura Natural e a Revolução na Medicina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月27日） | **Status:** Published
 
 ## A Expansão da Agricultura Natural e a Revolução na Medicina
 
@@ -787,6 +799,7 @@ O que almejo, em última instância, é poder ir a um grande hospital para minis
 # Diretriz sobre a Edição Especial de Agricultura
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月8日） | **Status:** Published
 
 ## Diretriz sobre a Edição Especial de Agricultura
 
@@ -803,6 +816,7 @@ Este é o referido ensaio. Nele, a questão é elucidada em sua totalidade.
 # A Revolução da Verdadeira Cultura
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S28年3月23日） | **Status:** Published
 
 ## A Revolução da Verdadeira Cultura
 
@@ -833,6 +847,7 @@ A exposição de Ukiyo-e também será, provavelmente, a maior e melhor já real
 # A Missão da Arte e o Poder da Verdadeira Salvação
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月27日） | **Status:** Published
 
 ## A Missão da Arte e o Poder da Verdadeira Salvação
 
@@ -867,6 +882,7 @@ Já iniciei a escrita de uma nova e interessante obra, intitulada *Minha Histór
 # A Fé Celestial e a Fé Infernal
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年2月25日） | **Status:** Published
 
 ## A Fé Celestial e a Fé Infernal
 
@@ -911,6 +927,7 @@ Atualmente, muito se fala sobre a liberdade de expressão. No entanto, embora es
 # A Perspectiva Ampla e o Ponto Essencial
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月21日） | **Status:** Published
 
 ## A Perspectiva Ampla e o Ponto Essencial
 
@@ -960,7 +977,8 @@ Contudo, tudo o que acabo de expor pertence à lógica do mundo. Sob a perspecti
 
 # A Manifestação do Poder Divino
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年12月21日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年12月21日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Manifestação do Poder Divino
 
@@ -1025,6 +1043,7 @@ Para eliminar crimes como assassinato e estelionato, não há outro caminho sen�
 # Reflexões sobre o Budismo e a Senda do Zen
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月25日） | **Status:** Published
 
 ## Reflexões sobre o Budismo e a Senda do Zen
 
@@ -1043,6 +1062,7 @@ Na minha última estada em Quioto, tive a oportunidade de ver no Daitoku-ji a ma
 # O Museu de Arte como Protótipo do Paraíso
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年5月25日） | **Status:** Published
 
 ## O Museu de Arte como Protótipo do Paraíso
 
@@ -1097,6 +1117,7 @@ Curar uma doença ou salvar alguém não significa apenas restaurar-lhe a saúde
 # Reflexões sobre a Expansão da Obra Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月25日） | **Status:** Published
 
 ## Reflexões sobre a Expansão da Obra Divina
 
@@ -1127,6 +1148,7 @@ Dito isso, a conclusão da obra ainda não está finalizada e pode conter alguma
 # Preleção do Culto de Outono - 25 de setembro de 1953
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S28年9月25日） | **Status:** Published
 
 ## Preleção do Culto de Outono - 25 de setembro de 1953
 
@@ -1186,7 +1208,8 @@ Ainda haveria muito a dizer, mas o tempo se esgotou. Por ora, encerro minhas pal
 
 # Um Breve Pronunciamento em Minha Recuperação
 
-**Categoria:** kouwa | **Ano:** 昭和30(1955)年2月4日 | **Fonte:** 資料検索 ： Risshun Sai明主様御言葉
+**Categoria:** kouwa | **Ano:** 昭和30(1955)年2月4日 | **Fonte:** Risshun Sai
+**Título Original:** 資料検索 | **Status:** Unpublished
 
 ## Um Breve Pronunciamento em Minha Recuperação
 
@@ -1203,6 +1226,7 @@ Sendo assim, e dada a minha incapacidade de me prolongar, concluirei minhas pala
 # As Dimensões Divinas de Kannon
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月5日） | **Status:** Published
 
 ## As Dimensões Divinas de Kannon
 
@@ -1237,6 +1261,7 @@ Nosso trabalho consiste precisamente em salvar e levar o esclarecimento a essas 
 # O Mal Necessário e a Transição para a Era de Miroku
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月26日） | **Status:** Published
 
 ## O Mal Necessário e a Transição para a Era de Miroku
 
@@ -1273,6 +1298,7 @@ Em outras palavras, o aumento do Elemento Fogo intensifica o processo de purific
 # O Despertar Espiritual do Mundo e a Nossa Missão
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月5日） | **Status:** Published
 
 ## O Despertar Espiritual do Mundo e a Nossa Missão
 
@@ -1299,6 +1325,7 @@ Mudando de assunto, visitei recentemente as exposições “Inten” e “Seiryu
 # Arte, Arquitetura e o Plano Divino
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月26日） | **Status:** Published
 
 ## Arte, Arquitetura e o Plano Divino
 
@@ -1351,6 +1378,7 @@ Recentemente, nosso nome tem se tornado bastante conhecido em todo o Japão, e t
 # O Mecanismo da Purificação e a Cultura do Ponto Central
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年3月1日） | **Status:** Published
 
 ## O Mecanismo da Purificação e a Cultura do Ponto Central
 
@@ -1387,6 +1415,7 @@ Por essa razão, Meishu (明主) significa o Mestre do Sol e da Lua. Isso se tor
 # Relatos da América e a Natureza das Purificações
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年5月5日） | **Status:** Published
 
 ## Relatos da América e a Natureza das Purificações
 
@@ -1415,6 +1444,7 @@ Agora, permitam-me ler um artigo interessante.
 # A Salvação na Transição da Era de Buda
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月17日） | **Status:** Published
 
 ## A Salvação na Transição da Era de Buda
 
@@ -1467,6 +1497,7 @@ As hemorroidas também são causadas por toxinas na parte posterior da cabeça. 
 # A Sincronicidade entre o Mundo Espiritual e o Mundo Material
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年4月17日） | **Status:** Published
 
 ## A Sincronicidade entre o Mundo Espiritual e o Mundo Material
 
@@ -1539,6 +1570,7 @@ Escrevi um artigo a esse respeito.
 # A Visão Abrangente e o Legado Divino
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月6日） | **Status:** Published
 
 ## A Visão Abrangente e o Legado Divino
 
@@ -1591,6 +1623,7 @@ Quanto ao futuro museu de Atami, ele terá o dobro do tamanho do de Hakone. Util
 # A Providência Divina e o Advento da Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月2日） | **Status:** Published
 
 ## A Providência Divina e o Advento da Nova Era
 
@@ -1629,6 +1662,7 @@ Comparadas a essa visão, as outras religiões parecem absolutamente ingênuas, 
 # Esclarecimentos sobre a Febre, a Paz Mundial e a Hierarquia Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月17日） | **Status:** Published
 
 ## Esclarecimentos sobre a Febre, a Paz Mundial e a Hierarquia Divina
 
@@ -1673,6 +1707,7 @@ Agora, gostaria que lessem este artigo, que também considero bastante interessa
 # A Missão Espiritual do Museu de Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月6日） | **Status:** Published
 
 ## A Missão Espiritual do Museu de Arte
 
@@ -1733,6 +1768,7 @@ A exposição com estas quinze peças está acontecendo no museu, em Tóquio. Va
 # A Verdadeira Postura Diante do Mal
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （28年8月1日） | **Status:** Published
 
 ## A Verdadeira Postura Diante do Mal
 
@@ -1813,6 +1849,7 @@ Lembro-me de uma família cujo filho mais velho era um boêmio que gastava o din
 # A Arte, a Medicina e a Transição para o Mundo de Miroku
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （28年4月1日） | **Status:** Published
 
 ## A Arte, a Medicina e a Transição para o Mundo de Miroku
 
@@ -1909,6 +1946,7 @@ Na verdade, o mercado de ações é um reflexo da verdade. Eu mesmo operei basta
 # Reflexões Sobre a Nova Era e a Vontade Divina
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月2日） | **Status:** Published
 
 ## Reflexões Sobre a Nova Era e a Vontade Divina
 
@@ -1965,6 +2003,7 @@ Pois bem, o elemento fogo do Johrei é o mesmo princípio da bomba atômica. A b
 # O Despertar da Primavera Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 立春祭御講話 （S27年2月5日） | **Status:** Published
 
 ## O Despertar da Primavera Divina
 
@@ -2023,6 +2062,7 @@ Encerro aqui minhas palavras e ofereço, para nossa diversão, uma breve e incis
 # O Discernimento da Verdade na Arte, na Agricultura e na Saúde
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月1日） | **Status:** Published
 
 ## O Discernimento da Verdade na Arte, na Agricultura e na Saúde
 
@@ -2071,6 +2111,7 @@ Isso me leva a uma digressão. A razão pela qual o Imperador Go-Daigo sofreu aq
 # A Obra Divina e o Juízo Final da Medicina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年11月1日） | **Status:** Published
 
 ## A Obra Divina e o Juízo Final da Medicina
 

@@ -3,6 +3,7 @@
 # Revelações sobre o Mundo Espiritual e o Destino da Humanidade
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年4月16日） | **Status:** Published
 
 ## Revelações sobre o Mundo Espiritual e o Destino da Humanidade
 
@@ -70,7 +71,8 @@ Escrevi um pouco a esse respeito.
 
 # A Vontade de Kannon e o Advento do Mundo de Miroku
 
-**Categoria:** kouwa | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** 大日本Kenko協会発会式Gokowa 昭和11
+**Categoria:** kouwa | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Kenko
+**Título Original:** 大日本健康協会発会式御講話 | **Status:** Unknown
 
 ## A Vontade de Kannon e o Advento do Mundo de Miroku
 
@@ -139,6 +141,7 @@ Em linhas gerais, este é o significado de Miroku.
 # O Crepúsculo do Budismo e a Aurora da Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月16日） | **Status:** Published
 
 ## O Crepúsculo do Budismo e a Aurora da Nova Era
 
@@ -175,6 +178,7 @@ Condições como o espasmo vaginal, em que um simples toque provoca uma dor lanc
 # Diretrizes sobre Johrei e a Situação Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月16日） | **Status:** Published
 
 ## Diretrizes sobre Johrei e a Situação Mundial
 
@@ -214,6 +218,7 @@ Observar o desenrolar dos acontecimentos sob essa ótica é fascinante. Ao conhe
 # O Alvorecer da Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月3日） | **Status:** Published
 
 ## O Alvorecer da Nova Era
 
@@ -272,6 +277,7 @@ Estas foram, em linhas gerais, as explanações sobre os planos e o rumo dos aco
 # O Significado Divino do Museu de Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月7日） | **Status:** Published
 
 ## O Significado Divino do Museu de Arte
 
@@ -316,6 +322,7 @@ Comecei a escrever um folheto sobre o museu para ser distribuído aos visitantes
 # A Transição para a Era do Dia e a Construção do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年6月15日 | **Fonte:** 箱根日Hikari殿増築落成祝賀式Gokowa 昭和26
+**Título Original:** 箱根日光殿増築落成祝賀式御講話 | **Status:** Unknown
 
 ## A Transição para a Era do Dia e a Construção do Paraíso Terrestre
 
@@ -346,6 +353,7 @@ Seja como for, o trabalho se torna cada vez mais gratificante e fascinante. Até
 # O Alvorecer de 1954 e o Poder da Luz Divina
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月3日） | **Status:** Published
 
 ## O Alvorecer de 1954 e o Poder da Luz Divina
 
@@ -388,6 +396,7 @@ Se a causa das doenças são as nuvens no espírito, é evidente que a cura deve
 # A Verdade sobre as Fotografias Espirituais
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年8月11日 | **Fonte:** Hikari明世界
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Verdade sobre as Fotografias Espirituais
 
@@ -470,6 +479,7 @@ Há, contudo, uma exceção. Pode ocorrer de um ancestral ter regredido ao reino
 # A Construção do Paraíso e a Inauguração do Museu de Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 神仙郷完成兼美術館開館記念祝賀式典御講話１ | **Status:** Published
 
 ## A Construção do Paraíso e a Inauguração do Museu de Arte
 
@@ -544,6 +554,7 @@ Embora não planejasse realizar Johrei hoje, atenderei democraticamente aos inú
 # O Mal como Instrumento do Plano Divino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月27日） | **Status:** Published
 
 ## O Mal como Instrumento do Plano Divino
 
@@ -586,6 +597,7 @@ Por ora, encerro minhas palavras.
 # Sobre Meus Próximos Escritos
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年8月18日） | **Status:** Published
 
 ## Sobre Meus Próximos Escritos
 
@@ -602,6 +614,7 @@ Posteriormente, abordarei os mais variados campos do saber, como a política, a 
 # A Concretização do Paraíso e o Princípio do Johrei
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月27日） | **Status:** Published
 
 ## A Concretização do Paraíso e o Princípio do Johrei
 
@@ -636,6 +649,7 @@ Creio que mesmo membros com bastante tempo de fé possam ter dificuldade em comp
 # A Superstição dos Fertilizantes e a Crise do Japão
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月26日） | **Status:** Published
 
 ## A Superstição dos Fertilizantes e a Crise do Japão
 
@@ -672,6 +686,7 @@ Ainda haveria muitos outros pontos a serem abordados e textos a serem lidos, mas
 # As Manifestações da Intensificação da Luz Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S28年9月24日） | **Status:** Published
 
 ## As Manifestações da Intensificação da Luz Divina
 
@@ -711,6 +726,7 @@ A execução deste projeto seguirá uma ordem, ocorrendo somente após a conclus
 # A Manifestação da Vontade Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月26日） | **Status:** Published
 
 ## A Manifestação da Vontade Divina
 
@@ -767,6 +783,7 @@ Sinto o anseio de esclarecer a todos o mais rápido possível, mas, como tudo é
 # A Vontade Divina por Trás do Rancor Humano
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月25日） | **Status:** Published
 
 ## A Vontade Divina por Trás do Rancor Humano
 
@@ -801,6 +818,7 @@ Mudando de assunto, gostaria de fazer uma observação sobre a prática do Johre
 # A Força Absoluta e a Grande Transição
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月25日） | **Status:** Published
 
 ## A Força Absoluta e a Grande Transição
 
@@ -839,6 +857,7 @@ Até agora, todo o pensamento tem sido puramente materialista. Não há necessid
 # A Superstição da Ciência e a Verdade Revelada
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月25日） | **Status:** Published
 
 ## A Superstição da Ciência e a Verdade Revelada
 
@@ -902,7 +921,8 @@ Outro ponto é que os cremes atuais contêm diversos produtos químicos, cada ve
 
 # O Desvelar do Plano Divino
 
-**Categoria:** kouwa | **Ano:** 昭和25(1950)年3月5日 | **Fonte:** Gokowa
+**Categoria:** kouwa | **Ano:** 昭和25(1950)年3月5日 | **Fonte:** Kyusei
+**Título Original:** 御講話 | **Status:** Unpublished
 
 ## O Desvelar do Plano Divino
 
@@ -925,6 +945,7 @@ O Plano de Deus, por sua vez, é de uma magnitude grandiosa. Anteontem, tratamos
 # A Urgência e o Propósito Divino da Agricultura Natural
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月26日） | **Status:** Published
 
 ## A Urgência e o Propósito Divino da Agricultura Natural
 
@@ -963,6 +984,7 @@ Encerrando por ora o assunto da agricultura, escrevi um artigo interessante que 
 # A Superstição do Sofrimento e a Expansão da Obra Divina
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月26日） | **Status:** Published
 
 ## A Superstição do Sofrimento e a Expansão da Obra Divina
 
@@ -1009,6 +1031,7 @@ Sendo assim, é fundamental que todos compreendam os malefícios da medicina chi
 # A Restauração do Emplastro Espiritual e a Síntese das Civilizações
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月8日） | **Status:** Published
 
 ## A Restauração do Emplastro Espiritual e a Síntese das Civilizações
 
@@ -1047,6 +1070,7 @@ Nesse sentido, é fundamental entender os princípios Vertical e Horizontal. O c
 # Sobre o Johrei e a Divulgação da Verdade Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月27日） | **Status:** Published
 
 ## Sobre o Johrei e a Divulgação da Verdade Divina
 
@@ -1079,6 +1103,7 @@ A "Conclusão" deste ensaio, que será lida em outra oportunidade, foi redigida 
 # A Construção do Paraíso e a Dissolução dos Sofrimentos Humanos
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S26年9月26日） | **Status:** Published
 
 ## A Construção do Paraíso e a Dissolução dos Sofrimentos Humanos
 
@@ -1107,6 +1132,7 @@ No que tange a Atami, os jardins estarão, em sua maior parte, concluídos até 
 # O Protótipo do Paraíso Terrestre e o Desvelar do Plano Divino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S27年9月26日） | **Status:** Published
 
 ## O Protótipo do Paraíso Terrestre e o Desvelar do Plano Divino
 
@@ -1177,6 +1203,7 @@ A forma de evitar isso está no ensinamento central da Igreja Messiânica: “En
 # A Providência Divina e a Racionalidade da Fé
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年5月27日） | **Status:** Published
 
 ## A Providência Divina e a Racionalidade da Fé
 
@@ -1219,6 +1246,7 @@ O vencedor do ano passado era da província de Kagawa. Como a marca a ser supera
 # Visões do Paraíso Terrestre e a Missão Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S27年3月23日） | **Status:** Published
 
 ## Visões do Paraíso Terrestre e a Missão Divina
 
@@ -1259,6 +1287,7 @@ Encerrarei minhas palavras por aqui. Eu não pretendia ministrar Johrei no dia d
 # Sobre o Inestimável Valor da Arte Japonesa
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年2月27日） | **Status:** Published
 
 ## Sobre o Inestimável Valor da Arte Japonesa
 
@@ -1294,7 +1323,8 @@ Ainda haveria muito a dizer, mas nosso tempo se esgotou.
 
 # O Nascimento da Igreja Gorokushichi e o Advento do Mundo do Dia
 
-**Categoria:** kouwa | **Ano:** 昭和23(1948)年11月1日 | **Fonte:** 五六七教会発会式御言葉 昭和23
+**Categoria:** kouwa | **Ano:** 昭和23(1948)年11月1日 | **Fonte:** 昭和
+**Título Original:** 五六七教会発会式御言葉 | **Status:** Unknown
 
 ## O Nascimento da Igreja Gorokushichi e o Advento do Mundo do Dia
 
@@ -1345,6 +1375,7 @@ O nascimento da Igreja Gorokushichi é, em minha convicção, o primeiro passo p
 # Sobre os Tufões, a Expansão da Fé e o Ponto de Encontro entre Ciência e Religião
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S28年9月27日） | **Status:** Published
 
 ## Sobre os Tufões, a Expansão da Fé e o Ponto de Encontro entre Ciência e Religião
 
@@ -1405,6 +1436,7 @@ Ao se aprofundar a questão, chega-se à conclusão de que religião e ciência 
 # A Grande Revolução da Agricultura Japonesa
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月25日） | **Status:** Published
 
 ## A Grande Revolução da Agricultura Japonesa
 
@@ -1439,6 +1471,7 @@ Com o avanço gradual da Obra, a partir do próximo ano, grandes transformaçõe
 # O Embate entre o Dragão Dourado e o Dragão Negro
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年8月21日） | **Status:** Published
 
 ## O Embate entre o Dragão Dourado e o Dragão Negro
 
@@ -1469,6 +1502,7 @@ Quanto ao “Relato da Perseguição Religiosa” original, produzimos apenas de
 # A Ciência em seu Limite e a Verdade sobre a Purificação
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月26日） | **Status:** Published
 
 ## A Ciência em seu Limite e a Verdade sobre a Purificação
 
@@ -1527,6 +1561,7 @@ Dessa forma, como os cosméticos são também uma forma de toxina, não é preci
 # A Edificação do Sagrado e a Purificação do Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月25日） | **Status:** Published
 
 ## A Edificação do Sagrado e a Purificação do Mundo
 
@@ -1579,6 +1614,7 @@ Para os fiéis, portanto, a disenteria deve ser encarada como um processo bem-vi
 # A Sabedoria Divina no Veredito Judicial
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月26日） | **Status:** Published
 
 ## A Sabedoria Divina no Veredito Judicial
 
@@ -1610,6 +1646,7 @@ Sobre o Johrei: quando os dedos estão separados, cria-se um espaço entre eles;
 # A Comprovação da Agricultura Natural e sua Ampla Divulgação
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月25日） | **Status:** Published
 
 ## A Comprovação da Agricultura Natural e sua Ampla Divulgação
 
@@ -1662,6 +1699,7 @@ Creio que já me estendi o suficiente sobre a agricultura. Embora o tempo seja e
 # A Purificação no Indivíduo e na Sociedade
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月25日） | **Status:** Published
 
 ## A Purificação no Indivíduo e na Sociedade
 
@@ -1694,6 +1732,7 @@ Por fim, redigi um texto que esclarece a verdadeira natureza dos medicamentos, u
 # O Protótipo do Paraíso e o Desígnio Divino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S27年9月25日） | **Status:** Published
 
 ## O Protótipo do Paraíso e o Desígnio Divino
 
@@ -1758,6 +1797,7 @@ Contudo, como a palestra já se estendeu e temos o Johrei a seguir, encerrarei p
 # A Materialização do Paraíso e a Erradicação do Sofrimento
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S26年9月25日） | **Status:** Published
 
 ## A Materialização do Paraíso e a Erradicação do Sofrimento
 

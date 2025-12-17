@@ -3,6 +3,7 @@
 # A Superstição Médica nos Estados Unidos
 
 **Categoria:** he | **Ano:** 昭和27(1952)年6月4日 | **Fonte:** Eikou
+**Título Original:** 米国の医学迷信 | **Status:** Published
 
 ## A Superstição Médica nos Estados Unidos
 
@@ -135,6 +136,7 @@ Peço perdão pela simplicidade deste relato, que serve como meu último relató
 # A Ilusão da Cirurgia de Apendicite
 
 **Categoria:** mo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 盲腸炎など此通り 未発表 | **Status:** Unpublished
 
 ## A Ilusão da Cirurgia de Apendicite
 
@@ -152,7 +154,8 @@ Contudo, conforme demonstram os relatos de graças alcançadas, é possível obt
 
 # O Desvario do Mundo Contemporâneo
 
-**Categoria:** mo | **Ano:** 昭和10(1935)年 | **Fonte:** 目下戦争準備中 滑稽阿呆文学
+**Categoria:** mo | **Ano:** 昭和10(1935)年 | **Fonte:** 滑稽阿呆文学
+**Título Original:** 目下戦争準備中 | **Status:** Unpublished
 
 ## O Desvario do Mundo Contemporâneo
 
@@ -179,6 +182,7 @@ Ao observar todo esse cenário, a sincera devoção dos militares, que se aflige
 # A Ignorância da Medicina Perante a Purificação
 
 **Categoria:** mo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 盲目的医学 未発表 | **Status:** Unpublished
 
 ## A Ignorância da Medicina Perante a Purificação
 
@@ -190,7 +194,8 @@ Todavia, ainda que cinco médicos o tenham examinado, o diagnóstico foi de caus
 
 # O Esclarecimento sobre a Sekaikyuseikyou
 
-**Categoria:** mo | **Ano:** 昭和25(1950)年10月 | **Fonte:** 問題の世界Kyusei教とは何か 講演会チラシ、昭和25
+**Categoria:** mo | **Ano:** 昭和25(1950)年10月 | **Fonte:** Kyusei
+**Título Original:** 問題の世界救世教とは何か | **Status:** Unknown
 
 ## O Esclarecimento sobre a Sekaikyuseikyou
 
@@ -265,6 +270,7 @@ Ministros de Categoria B: 2.244
 # E se o Mal Desaparecesse do Mundo?
 
 **Categoria:** mo | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Eikou
+**Título Original:** 若しもこの世界から「悪」がなくなったら | **Status:** Published
 
 ## E se o Mal Desaparecesse do Mundo?
 
@@ -293,6 +299,7 @@ O que esbocei até agora é apenas um vislumbre do que se pode imaginar. Aquele 
 # Sobre o discernimento da essência das coisas
 
 **Categoria:** mo | **Ano:** 昭和25(1950)年8月15日 | **Fonte:** Chijo Tengoku
+**Título Original:** 物を識るという事 | **Status:** Published
 
 ## Sobre o discernimento da essência das coisas
 
@@ -338,6 +345,7 @@ Nos tempos modernos, aponto o falecido ator Ichikawa Danjuro como um homem que c
 # A Cegueira Tem Cura
 
 **Categoria:** mo | **Ano:** 昭和25(1950)年5月13日 | **Fonte:** Kyusei
+**Título Original:** 盲目は治る | **Status:** Published
 
 ## A Cegueira Tem Cura
 
@@ -370,6 +378,7 @@ Nós, os demais membros, estamos convictos de que a recuperação total da visã
 # A Insignificância da Apendicite
 
 **Categoria:** mo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 盲腸炎など何でもない 未発表 | **Status:** Unpublished
 
 ## A Insignificância da Apendicite
 
@@ -384,6 +393,7 @@ Em contrapartida, é verdadeiramente assombroso constatar que, através do Johre
 # A Literatura de um Tolo
 
 **Categoria:** mo | **Ano:** 昭和10(1935)年3月4日 | **Fonte:** Hikari明世界
+**Título Original:** 目下罪障消滅中 阿呆文学 | **Status:** Published
 
 ## A Literatura de um Tolo
 
@@ -432,6 +442,7 @@ Fazendo-o, receberão prontamente a graça de atingir a iluminação ainda nesta
 # O Renascimento da Medicina Japonesa
 
 **Categoria:** ni | **Ano:** 昭和11(1936)年4月15日 | **Fonte:** 新日本医術書
+**Título Original:** 日本医術新生の時期 | **Status:** Unknown
 
 ## O Renascimento da Medicina Japonesa
 
@@ -470,6 +481,7 @@ Essa arte de curar, que hoje parece um sonho, constituirá a base da cultura jap
 # A Concepção Materialista do Homem
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年8月13日 | **Fonte:** -
+**Título Original:** 人間は物質か 寸評（光22号） 白光生 | **Status:** Published
 
 ## A Concepção Materialista do Homem
 
@@ -486,6 +498,7 @@ Está compreendido?
 # Uma Análise Espiritual da Etnia Japonesa – Parte Final
 
 **Categoria:** ni | **Ano:** 昭和26(1951)年5月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 日本人種の霊的考察（下） | **Status:** Published
 
 ## Uma Análise Espiritual da Etnia Japonesa – Parte Final
 
@@ -524,6 +537,7 @@ Por fim, quanto à proporção de cada um dos quatro povos, a linhagem Tenson é
 # A Mentalidade de Dependência do Povo Japonês
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年3月25日 | **Fonte:** Kyusei
+**Título Original:** 日本人の依存性 | **Status:** Published
 
 ## A Mentalidade de Dependência do Povo Japonês
 
@@ -550,6 +564,7 @@ Em suma, desejo advertir que, neste momento, não há solução mais eficaz para
 # A Longevidade Natural e a Falácia da Medicina
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 人間の寿命 未発表 | **Status:** Unpublished
 
 ## A Longevidade Natural e a Falácia da Medicina
 
@@ -564,6 +579,7 @@ Antigamente, falava-se em quatrocentas e quatro doenças; hoje, dizem que seu n�
 # A Encefalite Japonesa e o Equívoco da Transmissão por Mosquitos
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年10月8日 | **Fonte:** -
+**Título Original:** 日本脳炎は果して蚊の媒介か？ | **Status:** Published
 
 ## A Encefalite Japonesa e o Equívoco da Transmissão por Mosquitos
 
@@ -590,6 +606,7 @@ Pelo exposto, torna-se evidente que a encefalite japonesa não possui qualquer r
 # Sobre a Saúde dos Lactentes e da Primeira Infância
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年5月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 乳幼児の健康 | **Status:** Published
 
 ## Sobre a Saúde dos Lactentes e da Primeira Infância
 
@@ -612,6 +629,7 @@ Adicionalmente, minha experiência demonstra que a aplicação excessiva de inje
 # A Problemática da Mortalidade Infantil
 
 **Categoria:** ni | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 乳幼児の死亡率問題 | **Status:** Published
 
 ## A Problemática da Mortalidade Infantil
 
@@ -732,6 +750,7 @@ O Criador gerou a humanidade nesta Terra para que ela se perpetuasse eternamente
 # A Via Bestial Após a Morte
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年12月6日 | **Fonte:** Eikou
+**Título Original:** 人間の死後と畜生道 | **Status:** Published
 
 ## A Via Bestial Após a Morte
 
@@ -782,6 +801,7 @@ Ao testemunharmos de forma tão clara que até mesmo aqueles que decaíram à Vi
 # A Afinidade entre o Pensamento e o Destino
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
+**Título Original:** 人間は想念次第 寸評（光25号） 白光生 | **Status:** Published
 
 ## A Afinidade entre o Pensamento e o Destino
 
@@ -796,6 +816,7 @@ Nesse sentido, um adágio dos ensinamentos da Oomoto-kyo expressa esta verdade c
 # A Enfermidade Mental e sua Origem Espiritual
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 日本人と精神病 自観叢書10編 | **Status:** Published
 
 ## A Enfermidade Mental e sua Origem Espiritual
 
@@ -842,6 +863,7 @@ Para concluir, apresentarei o método para a solução fundamental do problema. 
 # A Senda para o Mistério Divino
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 入信以後 自観叢書第9篇 | **Status:** Published
 
 ## A Senda para o Mistério Divino
 
@@ -858,6 +880,7 @@ Nesse sentido, movido pela convicção de que para desvendar os mistérios era i
 # Afecções Cerebrais
 
 **Categoria:** ni | **Ano:** 昭和10(1935)年7月25日 | **Fonte:** Hikari明世界
+**Título Original:** 日本医学の建設 （三） | **Status:** Published
 
 ## Afecções Cerebrais
 
@@ -894,6 +917,7 @@ Ademais, não são poucos os pacientes cujos quadros, embora não fossem graves,
 # A Primazia do Espírito na Arte da Cura
 
 **Categoria:** ni | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
+**Título Original:** 日本式医術 | **Status:** Published
 
 ## A Primazia do Espírito na Arte da Cura
 
@@ -916,6 +940,7 @@ Por este motivo, a arte médica destinada a salvar toda a humanidade deve ser, n
 # A Medicina que Trata o Ser Humano como Objeto
 
 **Categoria:** ni | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 人形医学 未発表 | **Status:** Unpublished
 
 ## A Medicina que Trata o Ser Humano como Objeto
 
@@ -956,6 +981,7 @@ Como já expliquei anteriormente, a doença nada mais é do que a solidificaçã
 # A Perspectiva Espiritual sobre a História do Povo Japonês
 
 **Categoria:** ni | **Ano:** 昭和26(1951)年4月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 日本人種の霊的考察（中） | **Status:** Published
 
 ## A Perspectiva Espiritual sobre a História do Povo Japonês
 
@@ -990,6 +1016,7 @@ Quanto às outras religiões, como a Konkokyo, a Myoreikyo e a Kurozumikyo, não
 # A Missão Singular da Cultura Japonesa
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年1月1日 | **Fonte:** -
+**Título Original:** 日本文化の特異性 | **Status:** Published
 
 ## A Missão Singular da Cultura Japonesa
 
@@ -1016,6 +1043,7 @@ Atualmente, a humanidade anseia pela paz e teme a guerra com uma intensidade jam
 # A Verdadeira Causa da Fragilidade Infantil
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 乳幼児の健康 自観叢書10編 | **Status:** Published
 
 ## A Verdadeira Causa da Fragilidade Infantil
 
@@ -1042,6 +1070,7 @@ Ademais, minha experiência demonstra que a aplicação excessiva de injeções 
 # A Verdade sobre a Existência Humana
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年11月20日 | **Fonte:** 世界Kyusei教早わかり
+**Título Original:** 人間 | **Status:** Published
 
 ## A Verdade sobre a Existência Humana
 
@@ -1088,6 +1117,7 @@ Já que recebemos a graça de nascer como seres humanos, como poderíamos nos ex
 # A Superioridade da Agricultura Natural
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年5月27日 | **Fonte:** Eikou
+**Título Original:** 日本一米作に就いて | **Status:** Published
 
 ## A Superioridade da Agricultura Natural
 
@@ -1104,6 +1134,7 @@ Sua força reside no fato de a colheita aumentar ano após ano. Para ilustrar, n
 # O Incomparável Orgulho do Japão
 
 **Categoria:** ni | **Ano:** 昭和29(1954)年1月1日 | **Fonte:** Eikou
+**Título Original:** 日本の誇り | **Status:** Published
 
 ## O Incomparável Orgulho do Japão
 
@@ -1120,6 +1151,7 @@ Sendo assim, é inevitável que esta verdade venha a ser compreendida por todos.
 # Uma Análise Espiritual sobre o Povo Japonês (Parte I)
 
 **Categoria:** ni | **Ano:** 昭和26(1951)年3月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 日本人種の霊的考察 （上） | **Status:** Published
 
 ## Uma Análise Espiritual sobre o Povo Japonês (Parte I)
 
@@ -1166,6 +1198,7 @@ Mudando de assunto, a vinda de Ninigi-no-Mikoto (瓊瓊杵尊) ao Japão parece 
 # Um Milagre que Enaltece o Japão
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 日本の誇り 未発表 | **Status:** Unpublished
 
 ## Um Milagre que Enaltece o Japão
 
@@ -1178,6 +1211,7 @@ Um milagre de cura de tal magnitude é, naturalmente, um feito sem precedentes n
 # Reflexões sobre a Exposição Nitten
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年11月25日 | **Fonte:** Eikou
+**Título Original:** 日展を観て | **Status:** Published
 
 ## Reflexões sobre a Exposição Nitten
 
@@ -1206,6 +1240,7 @@ Exponho aqui, simplesmente, as ideias que me ocorreram.
 # Os Princípios da Alimentação Saudável
 
 **Categoria:** ni | **Ano:** 昭和10(1935)年8月16日 | **Fonte:** Toho no Hikari
+**Título Original:** 日本医術に依る健康法の提唱 （三） | **Status:** Published
 
 ## Os Princípios da Alimentação Saudável
 
@@ -1229,7 +1264,8 @@ Analisando os alimentos de origem vegetal, os cereais são Yin, e as hortaliças
 
 # O Século XXI
 
-**Categoria:** ni | **Ano:** 昭和23(1948)年 | **Fonte:** 二十一世紀
+**Categoria:** ni | **Ano:** 昭和23(1948)年 | **Fonte:** Chijo Tengoku
+**Título Original:** 二十一世紀 | **Status:** Unpublished
 
 ## O Século XXI
 *Manuscrito inacabado, redigido em 1948.*
@@ -1335,6 +1371,7 @@ A estrutura econômica se divide em duas categorias. A primeira é composta por 
 # Propósito e Estatuto da Associação para a Divulgação da Terapia Johrei do Japão
 
 **Categoria:** ni | **Ano:** 昭和21(1946)年 | **Fonte:** 日本浄化療法普及会主旨及会則
+**Título Original:** 日本浄化療法普及会主旨及会則 | **Status:** Published
 
 ## Propósito e Estatuto da Associação para a Divulgação da Terapia Johrei do Japão
 
@@ -1434,6 +1471,7 @@ Os nomes dos Consultores e dos membros da Secretaria serão anunciados em breve.
 # O Japão é Civilizado ou Bárbaro?
 
 **Categoria:** ni | **Ano:** 昭和27(1952)年6月4日 | **Fonte:** Eikou
+**Título Original:** 日本は文明か野蛮か | **Status:** Published
 
 ## O Japão é Civilizado ou Bárbaro?
 
@@ -1458,6 +1496,7 @@ Como primeiro passo, estamos apontando e expondo os inúmeros equívocos ocultos
 # A Questão da Mortalidade Infantil
 
 **Categoria:** ni | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 乳幼児の死亡率問題 | **Status:** Published
 
 ## A Questão da Mortalidade Infantil
 
@@ -1577,6 +1616,7 @@ O Criador gerou a humanidade nesta Terra para que ela prosperasse eternamente. S
 # A Verdadeira Causa da Encefalite Japonesa
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 日本脳炎は果して蚊の媒介か 自観叢書10編 | **Status:** Published
 
 ## A Verdadeira Causa da Encefalite Japonesa
 
@@ -1603,6 +1643,7 @@ Pelo exposto, torna-se evidente que a encefalite japonesa não possui qualquer r
 # Diretrizes para a Reconstrução do Japão
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
+**Título Original:** 日本再建の指針 | **Status:** Published
 
 ## Diretrizes para a Reconstrução do Japão
 
@@ -1633,6 +1674,7 @@ Creio que, com esta explanação, a essência do meu pensamento foi compreendida
 # O Japão: A Oficina de Montagem da Cultura
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
+**Título Original:** 日本は文化の組立工場 | **Status:** Published
 
 ## O Japão: A Oficina de Montagem da Cultura
 
@@ -1659,6 +1701,7 @@ Por fim, gostaria de acrescentar mais uma observação. Existem nações que, po
 # A Cura Definitiva do Reumatismo
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 二十年間のリョウマチ簡単に治る 未発表 | **Status:** Unpublished
 
 ## A Cura Definitiva do Reumatismo
 
@@ -1673,6 +1716,7 @@ Nesse sentido, o caso desta senhora é emblemático: após permanecer em um esta
 # A Missão Divina da Doença
 
 **Categoria:** ni | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 人間と病気 未発表 | **Status:** Unpublished
 
 ## A Missão Divina da Doença
 
@@ -1699,6 +1743,7 @@ Com base no que foi apresentado, compreende-se que a doença é, em verdade, a m
 # O Caminho para a Salvação do Japão
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年9月2日 | **Fonte:** Eikou
+**Título Original:** 日本の危機 | **Status:** Published
 
 ## O Caminho para a Salvação do Japão
 
@@ -1719,6 +1764,7 @@ Essa superstição médica não só é a causa de dificuldades financeiras e da 
 # A Gênese de Minha Missão
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 入信の動機 自観叢書第9篇 | **Status:** Published
 
 ## A Gênese de Minha Missão
 
@@ -1745,6 +1791,7 @@ Este era um momento de suma importância. Uma decisão monumental precisava ser 
 # Manual dos Seminários da Igreja Kannon do Japão
 
 **Categoria:** ni | **Ano:** 昭和22(1947)年7月1日 | **Fonte:** 日本観音教団講習要項
+**Título Original:** 日本観音教団講習要項 | **Status:** Unknown
 
 ## Manual dos Seminários da Igreja Kannon do Japão
 
@@ -1797,6 +1844,7 @@ Este manual entra em vigor a partir de 1º de julho de 1947.
 # A Sabedoria de Não Despertar Inimizades
 
 **Categoria:** ni | **Ano:** 昭和26(1951)年7月18日 | **Fonte:** Eikou
+**Título Original:** 憎まれる勿れ | **Status:** Published
 
 ## A Sabedoria de Não Despertar Inimizades
 
@@ -1813,6 +1861,7 @@ Portanto, como sempre afirmo, a sentença "Ó tolo, teu nome é malfeitor" revel
 # Sobre a Dieta e a Nutrição
 
 **Categoria:** ni | **Ano:** 昭和10(1935)年6月 | **Fonte:** Toho no Hikari
+**Título Original:** 日本式健康法の提唱 （二） | **Status:** Published
 
 ## Sobre a Dieta e a Nutrição
 
@@ -1839,6 +1888,7 @@ Se esta nova dieta que proponho for amplamente adotada, representará também um
 # O Plano Divino para a Salvação da Humanidade
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
+**Título Original:** 日本観音教団教義 | **Status:** Published
 
 ## O Plano Divino para a Salvação da Humanidade
 
@@ -1853,6 +1903,7 @@ Cremos que o Mestre Okada Jikan, orientador de nossa Igreja, é um homem de gran
 # A Proposição de um Método de Saúde Japonês (I)
 
 **Categoria:** ni | **Ano:** 昭和10(1935)年4月8日 | **Fonte:** Toho no Hikari
+**Título Original:** 日本式健康法の提唱 （一） | **Status:** Published
 
 ## A Proposição de um Método de Saúde Japonês (I)
 
@@ -1881,6 +1932,7 @@ A seguir, abordarei cada um desses tópicos em detalhe.
 # A Relação entre o Ser Humano e os Animais
 
 **Categoria:** ni | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 人間と動物との関係 | **Status:** Published
 
 ## A Relação entre o Ser Humano e os Animais
 
@@ -1899,6 +1951,7 @@ Portanto, a causa do daltonismo reside na reencarnação ou na possessão por um
 # A Decadência da Classe Política
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年3月4日 | **Fonte:** Kyusei
+**Título Original:** 日本の議員 | **Status:** Published
 
 ## A Decadência da Classe Política
 
@@ -1923,6 +1976,7 @@ Por fim, gostaria de acrescentar uma palavra sobre a educação religiosa. A exc
 # O Japão, a Nação da Madeira e do Espírito
 
 **Categoria:** ni | **Ano:** 昭和28(1953)年4月8日 | **Fonte:** Eikou
+**Título Original:** 日本は木の国 | **Status:** Published
 
 ## O Japão, a Nação da Madeira e do Espírito
 
@@ -1939,6 +1993,7 @@ Haveria ainda muitos outros exemplos, mas os que apresentei devem ser suficiente
 # O Ser Humano, um Receptáculo de Saúde
 
 **Categoria:** ni | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 人間は健康の器 自観叢書10編 | **Status:** Published
 
 ## O Ser Humano, um Receptáculo de Saúde
 
@@ -1963,6 +2018,7 @@ Até aqui, esbocei em linhas gerais os equívocos antinaturais relacionados aos 
 # As Enfermidades da Infância e da Criança
 
 **Categoria:** ni | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 乳幼児及び小児病 | **Status:** Published
 
 ## As Enfermidades da Infância e da Criança
 
@@ -1999,6 +2055,7 @@ Permitam-me citar um exemplo. Uma criança de uns dez anos não conseguia apoiar
 # A Gênese das Doenças Gástricas
 
 **Categoria:** ni | **Ano:** 昭和10(1935)年5月21日 | **Fonte:** Hikari明世界
+**Título Original:** 日本医学の建設 （二） | **Status:** Published
 
 ## A Gênese das Doenças Gástricas
 
@@ -2027,6 +2084,7 @@ Para dissolver o acúmulo de pus aquoso, a aplicação de eletroterapia parece a
 # A Medicina de Marionetes e a Verdadeira Medicina do Ser Humano
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
+**Título Original:** 人形医学 ・医学談片集 | **Status:** Published
 
 ## A Medicina de Marionetes e a Verdadeira Medicina do Ser Humano
 
@@ -2043,6 +2101,7 @@ Isto, em sua mais pura expressão, é a autêntica medicina do ser humano.
 # A Excelência do Povo Japonês
 
 **Categoria:** ni | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 日本人の優秀性 | **Status:** Published
 
 ## A Excelência do Povo Japonês
 
@@ -2073,6 +2132,7 @@ Este fato geológico, a meu ver, converge de maneira perfeita com a verdade de q
 # A Doença Mental e o Povo Japonês
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年9月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 日本人と精神病 | **Status:** Published
 
 ## A Doença Mental e o Povo Japonês
 
@@ -2121,6 +2181,7 @@ Resta esclarecer a natureza da rigidez. Sua essência, como é sabido, é o *yak
 # A Questão da Mortalidade Infantil e Sua Verdadeira Causa
 
 **Categoria:** ni | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 乳幼児の死亡率問題 | **Status:** Published
 
 ## A Questão da Mortalidade Infantil e Sua Verdadeira Causa
 
@@ -2243,6 +2304,7 @@ O Criador gerou a humanidade sobre a Terra para que ela se multiplicasse eternam
 # Minha Concepção Anterior à Fé
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 入信以前の私 自観叢書第9篇 | **Status:** Published
 
 ## Minha Concepção Anterior à Fé
 
@@ -2269,6 +2331,7 @@ As pessoas ao meu redor, porém, diziam que era inútil ajudar alguém com tuber
 # As Origens da Sabedoria e da Insensatez Humana
 
 **Categoria:** ni | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 人間の賢愚 | **Status:** Published
 
 ## As Origens da Sabedoria e da Insensatez Humana
 
@@ -2305,6 +2368,7 @@ Outros medos, como a fobia de água, de altura, de multidões ou de certos anima
 # Uma Advertência aos que Julgam sem Conhecer
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
+**Título Original:** 人間を愚にするな | **Status:** Published
 
 ## Uma Advertência aos que Julgam sem Conhecer
 
@@ -2325,6 +2389,7 @@ Pelas razões expostas, o que nós vos pedimos é que removam os óculos escuros
 # A Propensão Japonesa à Submissão Resignada
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年5月31日 | **Fonte:** -
+**Título Original:** 日本人の泣寝入癖 | **Status:** Published
 
 ## A Propensão Japonesa à Submissão Resignada
 
@@ -2339,6 +2404,7 @@ Em nações como os Estados Unidos, todavia, o cenário é distinto. Relata-se q
 # A Devoção Religiosa como Alicerce Nacional
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年12月17日 | **Fonte:** -
+**Título Original:** 日本人と宗教心 | **Status:** Published
 
 ## A Devoção Religiosa como Alicerce Nacional
 
@@ -2353,6 +2419,7 @@ Conforme evidencia a declaração do presidente Truman, o fato de os Estados Uni
 # O Senso de Justiça como Medida do Valor Humano
 
 **Categoria:** ni | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Eikou
+**Título Original:** 人間の価値は正義感 | **Status:** Published
 
 ## O Senso de Justiça como Medida do Valor Humano
 
@@ -2377,6 +2444,7 @@ Todas essas experiências me provam que, no mundo que conhecemos até agora, dom
 # A Dor de Cabeça Sob a Ótica da Purificação
 
 **Categoria:** ma | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 慢性頭痛持 | **Status:** Published
 
 ## A Dor de Cabeça Sob a Ótica da Purificação
 
@@ -2389,6 +2457,7 @@ Nesse sentido, a dor é o próprio processo de cura. Portanto, se a pessoa simpl
 # O Criador do Ser Humano
 
 **Categoria:** ni | **Ano:** 昭和11(1936)年 | **Fonte:** 人間の造り主
+**Título Original:** 人間の造り主 | **Status:** Unpublished
 
 ## O Criador do Ser Humano
 
@@ -2403,6 +2472,7 @@ Ora, se o ser humano detém em si o poder sublime de criar o corpo físico, não
 # A Experiência de Canalização Divina Pós-Iniciação
 
 **Categoria:** ni | **Ano:** 昭和24(1949)年10月5日 | **Fonte:** Kiseki Monogatari
+**Título Original:** 入信後の神懸り 自観叢書第4篇 | **Status:** Unknown
 
 ## A Experiência de Canalização Divina Pós-Iniciação
 
@@ -2443,6 +2513,7 @@ Através dessa experiência, compreendi a magnitude da missão para a qual nasci
 # Sobre a Sinceridade
 
 **Categoria:** ma | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 誠 | **Status:** Published
 
 ## Sobre a Sinceridade
 
@@ -2461,6 +2532,7 @@ Oh, Sinceridade! Quão sublime é a Sinceridade! Humanidade, compreendei: a úni
 # Sobre o Orgulho e a Deturpação da Fé
 
 **Categoria:** ma | **Ano:** 昭和26(1951)年7月4日 | **Fonte:** Eikou
+**Título Original:** 慢心取り違い | **Status:** Published
 
 ## Sobre o Orgulho e a Deturpação da Fé
 
@@ -2479,6 +2551,7 @@ Discorri sobre esses dois pontos cruciais. Aquele que for capaz de compreendê-l
 # Os Perigos da Devoção Equivocada
 
 **Categoria:** ma | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 間違い信仰 自観叢書第9篇 | **Status:** Published
 
 ## Os Perigos da Devoção Equivocada
 
@@ -2499,6 +2572,7 @@ Os exemplos supracitados demonstram que a ideia de que basta orar a qualquer div
 # A Propósito da Demissão do General MacArthur
 
 **Categoria:** ma | **Ano:** 昭和26(1951)年5月2日 | **Fonte:** Eikou
+**Título Original:** マッカーサー元帥 | **Status:** Published
 
 ## A Propósito da Demissão do General MacArthur
 
@@ -2519,6 +2593,7 @@ Portanto, em memória do legado deixado pelo General, desejo ardentemente que os
 # Um Novo Esclarecimento aos Leitores
 
 **Categoria:** ma | **Ano:** 昭和9(1934)年10月 | **Fonte:** 松風
+**Título Original:** 又々お詫び | **Status:** Published
 
 ## Um Novo Esclarecimento aos Leitores
 
@@ -2531,6 +2606,7 @@ No que concerne ao futuro, não me é possível, no momento, fazer quaisquer pre
 # O Mistério dos Números
 
 **Categoria:** ma | **Ano:** 昭和25(1950)年4月8日 | **Fonte:** Kyusei
+**Título Original:** 又しても奇蹟 | **Status:** Published
 
 ## O Mistério dos Números
 
@@ -2545,6 +2621,7 @@ Com efeito, os fiéis estão bem cientes de que a atuação dos números é um a
 # Satisfação e Insatisfação
 
 **Categoria:** ma | **Ano:** 昭和28(1953)年3月18日 | **Fonte:** Eikou
+**Título Original:** 満足と不満 | **Status:** Published
 
 ## Satisfação e Insatisfação
 
@@ -2565,6 +2642,7 @@ Nesse cenário, conclui-se que nem a satisfação plena nem a insatisfação con
 # A Glória da Última Posição
 
 **Categoria:** ma | **Ano:** 昭和7(1932)年11月 | **Fonte:** 松風
+**Título Original:** まけをしみ ・巻頭言 | **Status:** Published
 
 ## A Glória da Última Posição
 
@@ -2581,6 +2659,7 @@ Afirmo, pois, que cada poema, ainda que único, é uma joia cintilante, fruto de
 # A Causa da Bronquite Crônica
 
 **Categoria:** ma | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 慢性気管支炎 | **Status:** Published
 
 ## A Causa da Bronquite Crônica
 
@@ -2597,6 +2676,7 @@ Portanto, também esta é uma doença que, se entregue ao seu curso natural, inv
 # A Teoria da Origem Única de Todas as Doenças
 
 **Categoria:** ma | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
+**Título Original:** 十二、万病一元論 | **Status:** Unknown
 
 ## A Teoria da Origem Única de Todas as Doenças
 
@@ -2617,6 +2697,7 @@ O exposto demonstra o quão temíveis são os medicamentos. Com efeito, quando o
 # A Arte do Maki-e e o Gênio Japonês
 
 **Categoria:** ma | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 蒔絵 ･日本美術とその将来（3） 自観叢書第5編 | **Status:** Published
 
 ## A Arte do Maki-e e o Gênio Japonês
 
@@ -2637,6 +2718,7 @@ Neste ponto, é imperativo fazer uma menção especial a Hakusan Shosai (白山�
 # O Discernimento da Sinceridade
 
 **Categoria:** ma | **Ano:** 昭和25(1950)年1月28日 | **Fonte:** -
+**Título Original:** 誠の有る無し | **Status:** Published
 
 ## O Discernimento da Sinceridade
 
@@ -2655,6 +2737,7 @@ Portanto, para aquele que é fiel a Deus, a observância rigorosa dos compromiss
 # O Depoimento de um Tuberculoso
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核患者の告白 未発表 | **Status:** Unpublished
 
 ## O Depoimento de um Tuberculoso
 
@@ -2669,6 +2752,7 @@ Nesse sentido, tal relato nos permite aquilatar a monumental tarefa que represen
 # Uma Estratégia Abrangente para a Erradicação da Tuberculose e a Construção de um Japão Saudável
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年6月15日 | **Fonte:** Kenko
+**Título Original:** 結核撲滅の大方策と健康日本の建設 | **Status:** Published
 
 ## Uma Estratégia Abrangente para a Erradicação da Tuberculose e a Construção de um Japão Saudável
 
@@ -2753,6 +2837,7 @@ Ademais, mesmo que se obtenha uma melhora temporária ao expulsar o espírito ma
 # O Princípio Divino da Saúde
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 健康の真理 自観叢書10編 | **Status:** Published
 
 ## O Princípio Divino da Saúde
 
@@ -2785,6 +2870,7 @@ Se o corpo humano é, de fato, essa grandiosa obra-prima de Deus, devemos nos qu
 # A Verdadeira Natureza da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 顕微鏡検査 | **Status:** Published
 
 ## A Verdadeira Natureza da Tuberculose
 
@@ -2813,6 +2899,7 @@ Nesse sentido, enquanto não se apresentar a prova concreta de que, em comparaç
 # A Tuberculose é uma Doença de Fácil Cura
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核は治りいい病気 未発表 | **Status:** Unpublished
 
 ## A Tuberculose é uma Doença de Fácil Cura
 
@@ -2829,6 +2916,7 @@ Se esse indivíduo tivesse insistido nos tratamentos médicos, sua condição te
 # Uma Análise Filosófica da Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年6月18日 | **Fonte:** Eikou
+**Título Original:** 現代医学に対する哲学的考察 | **Status:** Published
 
 ## Uma Análise Filosófica da Medicina Moderna
 
@@ -2850,7 +2938,8 @@ Por conseguinte, mesmo entre os especialistas, aqueles de mente mais aberta já 
 
 # A Religião Viva e as Graças Imediatas
 
-**Categoria:** ke | **Ano:** - | **Fonte:** 現当利益と生きた宗教
+**Categoria:** ke | **Ano:** - | **Fonte:** Kyusei
+**Título Original:** 現当利益と生きた宗教 | **Status:** Unpublished
 
 ## A Religião Viva e as Graças Imediatas
 
@@ -2871,6 +2960,7 @@ Nesse sentido, nossa Sekai Kyusei Kyo tem como alicerce a manifestação de gra�
 # Sobre os Novos Fármacos para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年8月6日 | **Fonte:** Eikou
+**Título Original:** 結核新薬 | **Status:** Published
 
 ## Sobre os Novos Fármacos para a Tuberculose
 
@@ -2909,32 +2999,6 @@ Fiquei maravilhado com o poder de Deus, sobre o qual tanto ouvia durante o Johre
 Desde então, continuo a receber Johrei e a ouvir os valiosos Ensinamentos, e passei a compreender o verdadeiro significado da felicidade. Rogo para ser digno de um lugar no mundo dos felizes, o Paraíso Terrestre, e não encontro palavras para expressar minha gratidão. Nesta sociedade tão deturpada, que imensa alegria é poder conhecer a existência de Deus e viver com a convicção de que a vitória pertence àqueles que trilham o caminho da retidão.
 
 Muito obrigado por tudo, Meishu-Sama. Muito obrigado, Daikoomyoo Nyorai-Sama.
-
----
-
-# Conclusão sobre o Problema da Tuberculose e sua Solução
-
-**Categoria:** ke | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
-
-## Conclusão sobre o Problema da Tuberculose e sua Solução
-
-Conforme exposto até aqui, procurei elucidar detalhadamente as causas da tuberculose, os verdadeiros motivos de sua crescente incidência e a eficácia desta arte médica. Confio, portanto, que o leitor tenha podido desvendar a verdadeira natureza da tuberculose e, concomitantemente, compreender que não há absolutamente nada a temer nessa doença.
-
-Sintetizando os pontos principais, a doença é, em sua essência, um processo de purificação. A tuberculose, em particular, representa uma purificação de grande intensidade, razão pela qual se manifesta comumente na juventude, período de máxima vitalidade. Ademais, o bacilo da tuberculose não é, em hipótese alguma, contagioso, e a cura plena é sempre uma certeza.
-
-A medicina ocidental, por desconhecer o princípio da purificação, adota terapias cujo único propósito é solidificar novamente as toxinas que o organismo se esforçava por dissolver. Nada mais fazem além disso. Seu objetivo resume-se a restaurar o indivíduo a um estado de saúde ilusória, anterior ao início do processo purificador. Por essa razão, o risco de reincidência é, na maioria dos casos, uma consequência inevitável. Adicionalmente, os métodos utilizados para essa solidificação — como o repouso absoluto, o uso de medicamentos e outros procedimentos — demandam vultosos recursos financeiros e longos períodos de tratamento, impondo um fardo desmedido tanto ao indivíduo quanto à nação.
-
-Prossigamos: quando, durante a infância ou a adolescência, o organismo inicia a purificação de toxinas congênitas, a intervenção médica convencional interrompe esse processo, solidificando-as e, pior, acrescentando novas toxinas medicamentosas. Isso culmina no desenvolvimento de uma constituição que a medicina denomina "escrofulosa". Consequentemente, ao atingir a juventude, período de pujança vital, manifesta-se uma purificação abrupta e intensa, ou então, um processo persistente e tenaz. Nesses casos, os diagnósticos e tratamentos equivocados da medicina conduzem, na maioria das vezes, a desfechos trágicos.
-
-Além disso, tornou-se comum nos últimos tempos a prática de inocular substâncias estranhas na corrente sanguínea, sob o pretexto de "vacinação preventiva". Por ação do processo purificador, essas substâncias se acumulam e se solidificam em determinada parte do corpo. Ocorre que, quando o indivíduo é submetido a trabalhos extenuantes, como os treinamentos físicos militares ou os regimes de trabalho forçado, inicia-se uma purificação sobre essas massas solidificadas, o que acarreta o surgimento de febre. É então que, a pretexto de "diagnóstico precoce", os exames médicos identificam essas pessoas febris e as rotulam como "suspeitas de tuberculose" ou "pacientes com tuberculose aberta", submetendo-as a tratamento ou isolamento. Tal procedimento obstrui a produção, esgota nossos recursos humanos e, em suma, exerce uma influência extremamente nefasta sobre os objetivos da nação em tempos como os atuais.
-
-Acrescente-se a isso a crença equivocada de que o bacilo, um micro-organismo de geração espontânea e sem qualquer risco de contágio, é transmissível. Essa premissa falsa dá origem a métodos de prevenção extremamente complexos e onerosos. Tais medidas não só geram insegurança na vida das pessoas e reduzem sua produtividade, como também levam o país inteiro a incorrer em despesas e a construir instalações completamente desnecessárias.
-
-Quando se compreende a verdade dos fatos, como aqui exposto, torna-se evidente que estamos diante de um problema de magna importância para a nação, um problema que não pode ser negligenciado sequer por um único dia. Na verdade, a situação é tão grave que me é impossível não sentir profunda apreensão.
-
-Contudo, apresentei neste trabalho a medida capaz de solucionar por completo a questão da tuberculose. A tarefa de divulgá-la e aplicá-la em benefício de toda a população, entretanto, cabe às autoridades governamentais, aos especialistas de renome e aos líderes de cada setor. Portanto, rogo incessantemente para que essas personalidades, movidas pelo mais elevado espírito de amor à pátria, se dediquem com afinco ao estudo e à prática desta arte médica.
-
-(Setembro de 1942)
 
 ---
 

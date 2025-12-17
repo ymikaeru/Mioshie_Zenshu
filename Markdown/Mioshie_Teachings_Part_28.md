@@ -1,8 +1,155 @@
 # Mioshie_Teachings - Part 28
 
+# O Novo Sentido do Patriotismo
+
+**Categoria:** a | **Ano:** 昭和27(1952)年12月3日 | **Fonte:** Eikou
+**Título Original:** 新しい愛国心 | **Status:** Published
+
+## O Novo Sentido do Patriotismo
+
+Poucas palavras no mundo serão tão universais quanto “patriotismo”. Dificilmente haverá nação que não o tenha como um de seus princípios fundamentais. No Japão, até o final da guerra, um fervoroso patriotismo, raramente visto em outros países, permeava toda a nação. A causa, evidentemente, residia em parte no sistema imperial, que tinha o Imperador como símbolo do povo, reverenciado como um deus manifesto. Tal fato é ainda nítido em nossa memória, e essa veneração a uma linhagem imperial tida como ininterrupta por eras naturalmente moldou o sentimento popular. Contudo, é sabido por todos que homens ambiciosos e detentores do poder também se valeram da educação e da propaganda para inflamar ao máximo esse sentimento, manipulando-o conforme suas próprias conveniências.
+
+Em consequência, forjou-se um Estado de caráter singular, sem paralelo no exterior, que, autoproclamando-se uma nação divina, tornou-se ensimesmado e agiu como um jovem presunçoso, embora não desfrutasse de tamanha opulência. Para agravar o quadro, figuras como os eruditos a serviço do governo exacerbaram habilmente o orgulho nacional com argumentos históricos e lógicos, tornando a situação avassaladora. A ideologia de lealdade ao trono e amor à pátria dominou o país de tal forma que os cidadãos passaram a considerar o sacrifício da própria vida em nome do país e de Sua Majestade como um ato de nenhuma importância; este era tido como o mais elevado padrão de moralidade.
+
+Com a derrota na guerra, entretanto, essa presunção foi espetacularmente pulverizada, dando lugar, inclusive, a um complexo de inferioridade. Somou-se a isso a declaração do próprio Imperador — “Não sou um deus, sou um ser humano” —, que surpreendeu a nação. Com o nascimento de uma nova Constituição, o Japão transformou-se em uma democracia onde a soberania reside no povo, um evento revolucionário e sem precedentes em sua história. Foi, de fato, a maior reviravolta desde o início dos tempos. A posterior abdicação do Imperador agravou o cenário e, com exceção dos mais esclarecidos, o futuro das massas populares, agora desorientadas, tornou-se sombrio. Como todos sabem, essa incerteza sobre que rumo tomar persiste até os dias de hoje.
+
+Nesse contexto, ocorreu um fato interessante. Logo após o fim da guerra, muitos que me encontravam diziam, com semblante desapontado: “Afinal, o vento divino não soprou, não é mesmo?”. Eu lhes respondia: “Que equívoco! O vento divino soprou, e com toda a certeza. Vocês é que o interpretaram mal. A Vontade Divina consiste em amparar o bem e punir o mal. Sendo o Japão a parte que representava o mal, sua derrota era inevitável. Na verdade, deveríamos ser gratos, a ponto de celebrar, mas me contenho por ora. Chegará o dia em que compreenderão”. Ao ouvirem isso, eles diziam: “Agora compreendi perfeitamente”, e partiam com o semblante aliviado.
+
+Este episódio demonstra que, até então, quando se tratava de assuntos de Estado, os japoneses relegavam o bem e o mal a um plano secundário, pautando seus pensamentos unicamente pelo interesse próprio. Chegaram a entoar lemas absurdos como o *Hakko Ichiu* (八紘一宇), sob a premissa de que, contanto que sua própria nação prosperasse, o destino das demais era irrelevante. Isso era considerado lealdade e patriotismo, e assim avançaram cegamente, como cavalos de tiro com antolhos. As terríveis sementes da calamidade já estavam, desde então, sendo semeadas.
+
+Diante do exposto, é imperativo compreender que o patriotismo deve não apenas adequar-se aos tempos, mas também fundamentar-se nos conceitos de bem e mal, de certo e errado. Sem essa base, será impossível traçar um grande plano para o futuro da nação. Descreverei, portanto, como deve ser o patriotismo condizente com a nova era. Em suma, trata-se de uma transição fundamental: abandonar a perspectiva restrita que o Japão adotava por uma visão ampla e altruísta. Em uma palavra, é o amor internacional, o amor pela humanidade. Ou seja, ama-se o mundo precisamente porque se ama o Japão. Isso se deve ao fato de que, hoje, tudo se tornou internacional; o isolamento e a indiferença são meros sonhos de um passado distante.
+
+Sendo assim, o patriotismo futuro pode ser delineado de forma concreta. A prioridade absoluta é, evidentemente, a segurança de nossos noventa milhões de compatriotas, mas também o é nos tornarmos uma nação moral e justa, que conquiste o respeito do mundo. Nesse sentido, surge a questão do rearmamento, hoje intensamente debatida. Há muito tempo argumentos prós e contras se contrapõem, e é preocupante que não se chegue a uma solução. De meu ponto de vista, porém, não se trata de uma questão tão complexa. A resposta torna-se clara ao analisá-la de modo prático.
+
+“Se houver a garantia absoluta de que nenhuma nação invadirá o Japão, o rearmamento deve ser abandonado. Caso contrário, um rearmamento condizente com a força da nação faz-se necessário.”
+
+Esta única sentença deveria ser suficiente para o entendimento.
+
+---
+
+# Oração Amatsu Norito
+
+**Categoria:** a | **Ano:** - | **Fonte:** 天津祝詞・善言讃詞
+**Título Original:** 天津祝詞 ・ 救世（メシヤ）教版 折本 | **Status:** Published
+
+## Oração Amatsu Norito
+(Versão da Igreja Messiânica Mundial)
+
+Uma reverência, duas vênias, três palmas
+
+Aos Deuses Kamurologi e Kamuromi, que habitam a Planície Celestial, por cujo desígnio o Venerável e Divino Progenitor, Izanagi no Mikoto, ao realizar o sagrado rito de purificação em Ahagihara, na foz do rio Tachibana, em Himuka de Tsukushi, fez nascer as Grandes Divindades Purificadoras.
+
+Suplicamos que todas as transgressões, pecados e máculas sejam purificados e extintos.
+
+Que os Deuses Celestes, os Deuses Terrestres e a miríade de Divindades ouçam esta súplica com a máxima atenção. É o que com temor e profundo respeito declaramos.
+
+Miroku Oomikami, protegei-nos e concedei-nos felicidade.
+Grande Deus do Sol, da Lua e da Terra, protegei-nos e concedei-nos felicidade.
+(Recitar duas vezes)
+
+Que o Vosso Espírito Divino se manifeste e nos abençoe.
+(Recitar duas vezes)
+
+Três palmas
+Prece
+Três palmas, duas vênias, uma reverência
+
+---
+
+# Quantas Amaterasu Omikami Existem?
+
+**Categoria:** a | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
+**Título Original:** 天照大神は幾柱あるか | **Status:** Published
+
+## Quantas Amaterasu Omikami Existem?
+
+A célebre Jikōson (璽光尊) alega que o espírito de Amaterasu Omikami se encontra manifestado em si. De forma semelhante, a senhora Kitamura Sayo, da chamada “religião dançante”, profere asserções análogas.
+
+Certa vez, uma praticante espiritual veio a mim e declarou: “Tenho imensa compaixão por Amaterasu Omikami”. Ao indagá-la sobre o motivo de tal sentimento, ela me explicou: “Amaterasu Omikami está manifestada em mim, contudo, estou em uma situação aflitiva. Resido em um quarto alugado do qual estou sendo despejada e não tenho para onde ir”.
+
+Diante disso, ponderei com ela: “Se de fato se trata de Amaterasu Omikami, estamos a falar da mais nobre e suprema Divindade. Seria, portanto, inconcebível que Ela enfrentasse dificuldades com moradia. Pelo contrário, em virtude de Seu magnânimo poder e virtude, Ela deveria residir em uma esplêndida mansão, sendo reverenciada por uma multidão de seguidores”. Após ouvir minhas palavras, a mulher retirou-se em silêncio e visivelmente constrangida.
+
+Ademais, desde aquele episódio, encontrei diversas outras mulheres que se autoproclamavam Amaterasu Omikami. Isso me leva a crer que o número de pessoas que se arrogam tal identidade no Japão é consideravelmente alto. Nesse sentido, poderíamos até mesmo afirmar que vivemos em uma era na qual se tornou moda declarar-se Amaterasu Omikami.
+
+---
+
+# O Assombro dos Descrentes
+
+**Categoria:** a | **Ano:** 昭和27(1952)年7月23日 | **Fonte:** Eikou
+**Título Original:** アレヨアレヨ | **Status:** Published
+
+## O Assombro dos Descrentes
+
+Com a recente conclusão do Shinsenkyo (神仙郷) e a inauguração de seu Museu de Arte, temos o primeiro e diminuto protótipo do Paraíso Terrestre, nosso lema maior. Ele materializa o pilar da Beleza, um dos componentes da trindade Verdade, Bem e Belo. Indubitavelmente, este protótipo se expandirá gradualmente até alcançar uma escala mundial; não há a menor margem para dúvida. Do mesmo modo, a Verdade e o Bem, embora ainda imateriais, também se manifestarão de forma concreta no devido tempo. É fundamental que todos estejam cientes dessa realidade vindoura.
+
+Dessa forma, o Plano Divino, embora invisível aos olhos humanos, avança a passos largos no Mundo Espiritual. Portanto, quando seus três grandes objetivos finalmente se manifestarem na face da Terra, todos, sem exceção, ficarão estupefatos, de tal modo que não conseguirão sequer fechar a boca.
+
+Atingido esse ponto, muitos reconhecerão: "Ah, como pude viver tanto tempo em um equívoco tão colossal! Ignorava que a salvação definitiva residia nos ensinamentos de Meishu-Sama. Quanta insensatez da minha parte!". Contudo, mesmo diante da evidência, muitos se sentirão orgulhosos demais para admitir o erro e buscar o caminho. Rangerão os dentes, frustrados por sua própria teimosia. E o que é ao mesmo tempo lastimável e curioso é que tal comportamento será mais comum entre os intelectuais e jornalistas, aqueles que se julgam superiores.
+
+À primeira vista, pode parecer que Deus age com ironia, mas a verdade é que não há ironia alguma em Seus desígnios. São os próprios seres humanos que criam as ironias da vida e, por conseguinte, sofrem com elas. Aos olhos de Deus, não passam de pobres cordeiros.
+
+Por essa razão, em breve, os poderosos de todo o mundo — e em especial os do Japão — ficarão absolutamente atônitos. Olharão para os céus, estarrecidos e sem reação, em um estado de completo assombro. Isso será, ao mesmo tempo, gratificante e digno de compaixão. É justamente para essa legião de assombrados que, desde já, dou esta pequena alfinetada, como um alerta.
+
+---
+
+# O Expurgo do Mal
+
+**Categoria:** a | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 悪の追放 | **Status:** Published
+
+## O Expurgo do Mal
+
+O que é o mal? Consiste, intrinsecamente, nos atos que, visando ao benefício próprio, intimidam e afligem o próximo, corrompendo assim a sociedade. O prejuízo que o mal acarreta, tanto ao indivíduo quanto à coletividade, é decerto imensurável. Com efeito, em todas as esferas da vida, não há uma única pessoa que, em maior ou menor grau, não tenha se tornado vítima de suas ações.
+
+Basta observar nosso cotidiano para constatar essa realidade. Para nos protegermos de ladrões, somos forçados a instalar janelas menores, que prejudicam a ventilação, e a trancar nossas portas com rigor. Mesmo no auge do calor, mantemo-nos encerrados, e ao nos ausentarmos, precisamos deixar alguém de vigia. Uma proposta vantajosa logo desperta a suspeita de estelionato, obrigando-nos a encarar tudo com um olhar de desconfiança. Notícias sobre assaltos na vizinhança ou nos jornais nos privam de um sono tranquilo, e caminhar sozinho à noite, especialmente para mulheres e crianças, tornou-se uma atividade de extremo perigo. Nos trens e bondes, é preciso estar atento aos batedores de carteira; no ambiente de trabalho, há empregados desonestos, e no comércio, a vigilância contra furtos é incessante. Enumerando tantos exemplos, sentimo-nos como se estivéssemos cercados por indivíduos ardilosos, o que evidencia a triste realidade de nossa sociedade: é impossível viver com a mente em paz.
+
+Todavia, o problema não se detém aí. Quando os filhos atingem certa idade, surgem os temores das más influências. A esposa se aflige com a possibilidade de o marido se entregar a divertimentos mundanos ou a relações extraconjugais, ao passo que o marido pode sentir-se inseguro quanto à fidelidade de sua esposa. No mundo dos negócios, os prejuízos inesperados causados por atos malignos são uma constante. Some-se a isso o vultoso dispêndio do erário público com a manutenção de órgãos como a polícia e o sistema judiciário. Nas empresas, a desconfiança exige a construção de cofres robustos, a implementação de complexos sistemas de contabilidade e a exigência de inúmeros carimbos e assinaturas. Nas fábricas, é preciso vigiar o roubo de matéria-prima, prevenir fraudes na expedição de produtos e nos pagamentos, além de combater a produção de itens defeituosos, o deliberado baixo rendimento e as greves de má-fé. Até mesmo a busca desmedida pelo lucro por parte dos capitalistas, em suma, não há praticamente nenhum desses problemas que não tenha o mal como sua causa fundamental.
+
+Ademais, a corrupção, antes velada, hoje é praticada quase abertamente. Práticas que envolvem suborno por meio de bebidas, banquetes, mulheres, dinheiro e lisonja tornaram-se comuns. Ouve-se dizer que o sucesso no ingresso escolar depende do montante oferecido. Comenta-se que as licenças governamentais jamais são concedidas sem que haja alguma manobra nos bastidores. Em praticamente todos os setores, a retidão é algo extremamente raro. A verdade, conhecida por todos, é que o mundo se afundou em tamanha escuridão e ilegalidade que a própria sobrevivência parece impossível sem recorrer a meios escusos.
+
+Ao se analisar o mundo sob a ótica do bem e do mal, torna-se evidente que a presença do mal é muitas vezes superior à do bem. Por conseguinte, os prejuízos, as perdas e a insegurança gerados por ele são de uma magnitude incalculável. Fica claro, portanto, que o avanço da cultura e a construção de um novo Japão dependem fundamentalmente da redução do mal. Nesse sentido, governantes, educadores e intelectuais deveriam dedicar-se de corpo e alma a diminuir a força do mal em nosso meio. Ouso afirmar, sem qualquer hesitação, que não existe outro caminho.
+
+Qual seria, então, esse caminho? É, sem dúvida, a prática da fé verdadeira.
+
+---
+
+# A Edificação do Paraíso Terrestre
+
+**Categoria:** a | **Ano:** 昭和22(1947)年8月 | **Fonte:** Chijo Tengoku
+**Título Original:** 愛和会趣意書 | **Status:** Unknown
+
+## A Edificação do Paraíso Terrestre
+
+O que nos narra, em sua essência, a história da humanidade ao longo dos últimos milênios? Embora por vezes surjam guerras e calamidades naturais, mergulhando o ser humano em eras de obscuridade e desespero, ao mergulharmos o pensamento e observarmos o curso da história, percebemos com clareza os traços de um progresso célere e incessante. É, portanto, inegável que a humanidade avança continuamente em direção a um objetivo predeterminado. Qual seria, então, esse Magno Objetivo? Cremos ser o Desígnio de Deus, o Soberano do Universo: a concretização de um mundo ideal, o Paraíso na Terra. As palavras de Cristo, “Arrependei-vos, porque é chegado o Reino dos Céus”, referem-se, provavelmente, a este momento.
+
+A questão crucial, contudo, é o “quando”. E nós estamos convictos de que essa hora se aproxima vertiginosamente, pois logramos obter a chave que torna tudo isso possível.
+
+Se fôssemos definir o Paraíso Terrestre de forma sucinta, diríamos ser um mundo isento das três grandes calamidades: a doença, a pobreza e o conflito. Evidentemente, qualquer pessoa pode conceber tal ideal, mas é provável que ninguém deixe de considerá-lo irrealizável. Nós, todavia, cremos em sua concretização sem qualquer sombra de dúvida. Exporemos aqui, de forma resumida, os fundamentos dessa nossa convicção.
+
+A raiz primordial dessas três grandes calamidades é, sem dúvida, a doença. A causa da guerra, em grande medida, reside na escassez de recursos, e essa escassez, por sua vez, origina-se do enfraquecimento causado pela doença. Tal princípio aplica-se tanto ao indivíduo quanto à nação. Ademais, é um fato incontestável que a degradação do pensamento também tem como causa a falta de saúde.
+
+Todos sabem da luta mortal que a humanidade trava há milênios contra a doença, fonte de toda a infelicidade. Ao constatarmos, porém, que até hoje não se vislumbra sequer o início de uma solução, a ideia de sua completa erradicação pareceria nada mais que um delírio.
+
+Contudo, eis que surge uma descoberta monumental e assombrosa: uma nova arte terapêutica, criada pelo Sr. Mokichi Okada, denominada Terapêutica Purificadora Japonesa. Trata-se de uma prática de efeitos tão prodigiosos que se torna difícil crer em sua veracidade apenas por meio de explicações escritas. Para se convencer, não há outro caminho senão a experiência direta ou a observação de seus resultados. São justamente os que foram curados de enfermidades graves e os que testemunharam tais curas que, diante de sua eficácia assombrosa, sentem o desejo de aprender essa arte.
+
+Aqueles que se dedicam a seu aprendizado tornam-se capazes, em poucos meses, de curar pacientes desenganados por doutores e portadores de moléstias crônicas de mais de uma década. A partir disso, pode-se aquilatar a natureza extraordinária dessa terapêutica. E como ela prescinde de medicamentos ou aparelhos, será fácil levá-la às regiões mais remotas e inóspitas do mundo, estendendo seus benefícios a todos os povos.
+
+Ao imaginarmos uma sociedade na qual essa Terapêutica Purificadora esteja difundida, podemos afirmar categoricamente que as diversas doenças infecciosas seriam reduzidas a menos de um quinto, a tuberculose a menos de um terço e, na média, as demais enfermidades também diminuiriam para menos de um quinto de sua incidência atual. De fato, é praticamente inexistente o número de praticantes desta terapêutica que contraem doenças infecciosas. Ademais, quanto mais uma pessoa aprofunda seus conhecimentos e sua prática, mais sua saúde se fortalece, o que nos leva à conclusão natural de que o número de doentes na humanidade diminuirá progressivamente.
+
+O que foi exposto é um fato isento de qualquer exagero. Por ser uma arte terapêutica sem precedentes na história humana, é natural que encontremos diversas dificuldades no que tange aos aspectos legais. Entretanto, em uma época como a atual, de proliferação de doentes, este é um problema da mais alta gravidade, que não pode ser negligenciado um dia sequer. Por isso, em nome de toda a humanidade, rogamos encarecidamente que a questão seja tratada com uma perspectiva magnânima, que transcenda a rigidez da letra da lei.
+
+É com base nesses objetivos que nossa associação se propõe a iniciar um movimento de paradisização. Primeiramente, paradisizar o indivíduo; em seguida, os vilarejos e as cidades; depois, a nação, até, por fim, paradisizar o mundo, concretizando o Paraíso Terrestre. Este processo certamente demandará muitos anos. Contudo, seremos felizes se, por meio desta sagrada obra, pudermos contribuir ainda que minimamente para a elevação da humanidade. E nossa alegria será infinita se conseguirmos, em alguma medida, corresponder à missão que nos foi confiada por Deus.
+
+Nossa associação avançará apoiada em três pilares: o Departamento Religioso, o Departamento Terapêutico e o Departamento de Ação Social. No que tange à religião, não nos fixaremos em uma única vertente; haverá liberdade para a prática de qualquer credo.
+
+(Agosto de 1947)
+
+---
+
 # A Deplorável Condição do Homem Moderno
 
 **Categoria:** a | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
+**Título Original:** 哀れむべき現代人 | **Status:** Published
 
 ## A Deplorável Condição do Homem Moderno
 
@@ -68,6 +215,7 @@ Muito obrigada, Meishu-Sama. Rogo para que Vossa orientação e proteção imut�
 # Infortúnio, teu nome é intelectual
 
 **Categoria:** a | **Ano:** - | **Fonte:** 哀れなるものよ汝の名は文化人なり
+**Título Original:** 哀れなるものよ汝の名は文化人なり | **Status:** Unpublished
 
 ## Infortúnio, teu nome é intelectual
 
@@ -92,6 +240,7 @@ Nesse sentido, nosso objetivo é insuflar vida nesta cultura imperfeita, ensinar
 # O Relato de um Oftalmologista
 
 **Categoria:** a | **Ano:** 昭和24(1949)年11月5日 | **Fonte:** -
+**Título Original:** ある眼科医の話 医学談片集 | **Status:** Published
 
 ## O Relato de um Oftalmologista
 
@@ -110,6 +259,7 @@ Diante de tal declaração, restou-me apenas um profundo espanto.
 # A Ambiguidade das Antigas Escrituras
 
 **Categoria:** a | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 暗中模索 | **Status:** Published
 
 ## A Ambiguidade das Antigas Escrituras
 
@@ -138,6 +288,7 @@ A essência dos sutras budistas e a verdade da Bíblia, apesar dos esforços de 
 # A Falácia da Medicina
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼医学なるもの 未発表 | **Status:** Unpublished
 
 ## A Falácia da Medicina
 
@@ -156,6 +307,7 @@ Ao observar essa situação, vejo uma notável semelhança com o infortúnio daq
 # A Ilusão da Medicina Contemporânea
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼医学というもの 未発表 | **Status:** Unpublished
 
 ## A Ilusão da Medicina Contemporânea
 
@@ -175,7 +327,8 @@ Esta é, pois, a situação atual. Posso, contudo, afiançar que essa esperança
 
 # O Sutra dos Insensatos
 
-**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 阿呆陀羅経 第三編
+**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 第三編
+**Título Original:** 阿呆陀羅経 | **Status:** Unpublished
 
 ## O Sutra dos Insensatos
 
@@ -198,6 +351,7 @@ Tantaracá poc poc poc.
 # O Desconhecimento da Prática Médica
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 噫々医療というもの 未発表 | **Status:** Unpublished
 
 ## O Desconhecimento da Prática Médica
 
@@ -214,6 +368,7 @@ Ademais, quando, em vez da cirurgia, opta-se por tratamentos como a radioterapia
 # A Aldeia Iluminada e a Aldeia Sombria
 
 **Categoria:** a | **Ano:** 昭和24(1949)年8月6日 | **Fonte:** -
+**Título Original:** 明るい村と暗い村 寸評（光21号） 白光生 | **Status:** Published
 
 ## A Aldeia Iluminada e a Aldeia Sombria
 
@@ -224,6 +379,7 @@ Relataram-me, há pouco, um fato notável: as comunidades onde um número expres
 # O Equívoco das Terapias com Toxinas
 
 **Categoria:** a | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 誤れる毒素療法 | **Status:** Unknown
 
 ## O Equívoco das Terapias com Toxinas
 
@@ -246,6 +402,7 @@ Por fim, no caso da hemoptise na tuberculose pulmonar, administram-se injeções
 # A Verdadeira Paz de Espírito
 
 **Categoria:** a | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
+**Título Original:** 安心立命 | **Status:** Published
 
 ## A Verdadeira Paz de Espírito
 
@@ -266,6 +423,7 @@ Pois bem, essa conquista é plenamente possível, e nisto reside sua extraordin�
 # Oh, este Milagre!
 
 **Categoria:** a | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
+**Título Original:** 嗚呼この奇蹟 | **Status:** Published
 
 ## Oh, este Milagre!
 
@@ -321,7 +479,8 @@ Meishu-Sama, muito obrigada.
 
 # A Exortação para Comer Fezes, Lamber Traseiros e Cheirar Flatulências
 
-**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 阿呆陀羅経 第二編
+**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** Kenko
+**Título Original:** 阿呆陀羅経 | **Status:** Unpublished
 
 ## A Exortação para Comer Fezes, Lamber Traseiros e Cheirar Flatulências
 
@@ -340,6 +499,7 @@ E com esse ímpeto, com grande fervor e determinação, prosseguem em sua marcha
 # O Mal e o Espírito Guardião
 
 **Categoria:** a | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 悪と守護霊 未発表 | **Status:** Unpublished
 
 ## O Mal e o Espírito Guardião
 
@@ -394,6 +554,7 @@ Dessa forma, o Deus Supremo permitiu que deuses benévolos e espíritos malignos
 # Pleurisia e Peritonite
 
 **Categoria:** ro | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 肋膜及び腹膜炎 | **Status:** Published
 
 ## Pleurisia e Peritonite
 
@@ -412,6 +573,7 @@ A peritonite, de modo semelhante à pleurisia, apresenta-se nas formas úmida e 
 # O Propósito da Obra "Salvar a América"
 
 **Categoria:** a | **Ano:** 昭和28(1953)年1月24日 | **Fonte:** アメリカを救う
+**Título Original:** - | **Status:** Published
 
 ## O Propósito da Obra "Salvar a América"
 
@@ -427,7 +589,8 @@ A causa, por certo, reside nos equívocos da medicina. O propósito deste livro 
 
 # A Urgência de Renovar a Mente
 
-**Categoria:** a | **Ano:** 昭和27(1952)年1月7日 | **Fonte:** 頭を新しくせよ
+**Categoria:** a | **Ano:** 昭和27(1952)年1月7日 | **Fonte:** Dougi
+**Título Original:** 頭を新しくせよ | **Status:** Unpublished
 
 ## A Urgência de Renovar a Mente
 
@@ -446,6 +609,7 @@ Nesse sentido, a nova ideologia que proponho chega a ser o oposto do pensamento 
 # Esboço de uma Audiência Judicial
 
 **Categoria:** a | **Ano:** 昭和26(1951)年8月10日 | **Fonte:** 或る日の公判スケッチ
+**Título Original:** 或る日の公判スケッチ | **Status:** Published
 
 ## Esboço de uma Audiência Judicial
 
@@ -519,6 +683,7 @@ Portanto, embora eu lamente pelos senhores promotores, se este incidente servir 
 # A Proteção Divina dos Espíritos Heroicos de Attu
 
 **Categoria:** a | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** アッツの英霊 | **Status:** Published
 
 ## A Proteção Divina dos Espíritos Heroicos de Attu
 
@@ -573,6 +738,7 @@ Tratava-se, provavelmente, da unidade que realizara a operação de desembarque 
 # A Pleurisia e a Peritonite
 
 **Categoria:** ro | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 肋膜炎及び腹膜炎 ・病患と医学の誤謬四 | **Status:** Published
 
 ## A Pleurisia e a Peritonite
 
@@ -603,6 +769,7 @@ Ouso afirmar que praticamente todas as pessoas possuem, em maior ou menor grau, 
 # Pleurisia e Peritonite
 
 **Categoria:** ro | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 肋膜炎と腹膜炎 未発表 | **Status:** Unpublished
 
 ## Pleurisia e Peritonite
 
@@ -621,6 +788,7 @@ Já na peritonite purulenta, as toxinas medicamentosas se convertem em pus e se 
 # Um Relato Experimental sobre a Questão Trabalhista
 
 **Categoria:** ro | **Ano:** 昭和24(1949)年12月17日 | **Fonte:** -
+**Título Original:** 労働問題実験記 | **Status:** Published
 
 ## Um Relato Experimental sobre a Questão Trabalhista
 
@@ -643,6 +811,7 @@ O que descrevi representa o modelo das relações entre capital e trabalho no Mu
 # Esclarecimentos sobre a Pleurisia e a Peritonite
 
 **Categoria:** ro | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
+**Título Original:** 肋膜炎及び腹膜炎 | **Status:** Published
 
 ## Esclarecimentos sobre a Pleurisia e a Peritonite
 
@@ -683,6 +852,7 @@ Pessoas com nódulos purulentos no peritônio invariavelmente apresentam uma má
 # O Triunfo sobre o Mal
 
 **Categoria:** a | **Ano:** 昭和26(1951)年4月18日 | **Fonte:** Eikou
+**Título Original:** 悪に勝つ | **Status:** Published
 
 ## O Triunfo sobre o Mal
 
@@ -715,6 +885,7 @@ Embora tenha me alongado, a conclusão é a seguinte: o objetivo primordial da r
 # Sobre a Pleurisia e a Peritonite
 
 **Categoria:** ro | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 肋膜炎及び腹膜炎 | **Status:** Published
 
 ## Sobre a Pleurisia e a Peritonite
 
@@ -753,6 +924,7 @@ Aqueles que possuem pus solidificado no peritônio invariavelmente apresentam um
 # Pleurisia e Peritonite
 
 **Categoria:** ro | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 肋膜炎及び腹膜炎 | **Status:** Published
 
 ## Pleurisia e Peritonite
 
@@ -781,6 +953,7 @@ Na realidade, posso afirmar que a peritonite purulenta é uma condição que, em
 # A Temível Superstição Médica
 
 **Categoria:** o | **Ano:** 昭和27(1952)年5月21日 | **Fonte:** Eikou
+**Título Original:** 恐るべき医学迷信 | **Status:** Published
 
 ## A Temível Superstição Médica
 
@@ -826,6 +999,7 @@ Meishu-Sama, receba a minha mais profunda e sincera gratidão.
 # A Pleurisia e a Peritonite
 
 **Categoria:** ro | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 肋膜炎及び腹膜炎 ・病患と医学の誤謬四 | **Status:** Published
 
 ## A Pleurisia e a Peritonite
 
@@ -864,6 +1038,7 @@ Ademais, quem possui pus solidificado no peritônio invariavelmente apresenta um
 # O Imenso Poder do Ohikari
 
 **Categoria:** o | **Ano:** 昭和26(1951)年1月17日 | **Fonte:** Eikou
+**Título Original:** 御守の偉力 | **Status:** Published
 
 ## O Imenso Poder do Ohikari
 
@@ -904,6 +1079,7 @@ Ao ouvir aquele testemunho, inconscientemente, minha mão apertou com firmeza o 
 # A Temível Liberdade de Imprensa
 
 **Categoria:** o | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
+**Título Original:** 恐しき新聞の自由 | **Status:** Published
 
 ## A Temível Liberdade de Imprensa
 
@@ -922,6 +1098,7 @@ Como religiosos, relutamos profundamente em recorrer às vias legais. Entretanto
 # Um Esclarecimento sobre a Terapia Espiritual Divina
 
 **Categoria:** o | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
+**Título Original:** 岡田道一先生に物申す ――そこひと神霊療法に就て | **Status:** Published
 
 ## Um Esclarecimento sobre a Terapia Espiritual Divina
 
@@ -940,6 +1117,7 @@ O exposto acima é um retrato fiel da realidade. Sendo assim, a tese do mestre O
 # A Postura Mental do Terapeuta
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 上巻 （四） | **Status:** Unknown
 
 ## A Postura Mental do Terapeuta
 
@@ -1044,6 +1222,7 @@ Em suma, narrei estes fatos como referência para que saibam que os espíritos d
 # A Verdadeira Salvação em Contraste com a Medicina
 
 **Categoria:** o | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 | **Status:** Published
 
 ## A Verdadeira Salvação em Contraste com a Medicina
 
@@ -1100,6 +1279,7 @@ Em uma só frase, poderíamos dizer: "Ó infelizes, vosso sofrimento advém de i
 # A Terrível Tuberculose nos Vilarejos Rurais
 
 **Categoria:** o | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
+**Título Original:** 恐るべき農村結核 | **Status:** Published
 
 ## A Terrível Tuberculose nos Vilarejos Rurais
 
@@ -1141,6 +1321,7 @@ Atualmente, o vilarejo de Iinoya empenha todos os seus esforços para se livrar 
 # A Grandeza do Johrei Ante as Limitações da Ciência
 
 **Categoria:** o | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 科学に先行の浄霊 | **Status:** Published
 
 ## A Grandeza do Johrei Ante as Limitações da Ciência
 
@@ -1214,6 +1395,7 @@ A medicina é um método solidificante, e este paciente é um exemplo claro do q
 # Pontos de Máxima Atenção
 
 **Categoria:** o | **Ano:** 昭和27(1952)年5月14日 | **Fonte:** Eikou
+**Título Original:** 大いに注意すべき事 | **Status:** Published
 
 ## Pontos de Máxima Atenção
 
@@ -1256,6 +1438,7 @@ A esposa do presidente me esclareceu que, muito provavelmente, os espíritos de 
 # O Mistério da Luz Divina no Omamori
 
 **Categoria:** o | **Ano:** 昭和28(1953)年8月26日 | **Fonte:** Eikou
+**Título Original:** 御守から出る光波 | **Status:** Published
 
 ## O Mistério da Luz Divina no Omamori
 
@@ -1330,6 +1513,7 @@ Muito obrigado. Rogo para que continue a nos proteger sempre.
 # O Alerta aos Descrentes
 
 **Categoria:** o | **Ano:** 昭和8(1933)年7月16日 | **Fonte:** お筆先
+**Título Original:** お筆先 | **Status:** Unpublished
 
 ## O Alerta aos Descrentes
 
@@ -1344,6 +1528,7 @@ Portanto, se houver o anseio pelo arrependimento, que ele se manifeste agora. Es
 # O Diagnóstico pelo Pulso e as Afecções Cardíacas
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 下巻 （三） | **Status:** Unknown
 
 ## O Diagnóstico pelo Pulso e as Afecções Cardíacas
 
@@ -1486,6 +1671,7 @@ Por fim, a icterícia é causada por uma massa na região do fígado; basta trat
 # A Superioridade do Jyorei Demonstrada pelos Fatos
 
 **Categoria:** o | **Ano:** 昭和25(1950)年3月18日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 事実が示す浄霊の優越性 | **Status:** Published
 
 ## A Superioridade do Jyorei Demonstrada pelos Fatos
 
@@ -1557,6 +1743,7 @@ A explicação para o histórico desta paciente é a seguinte: a doença ocular 
 # A Sobrescelente Terapia Divina
 
 **Categoria:** o | **Ano:** 昭和25(1950)年3月25日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 卓越せる神療法 | **Status:** Published
 
 ## A Sobrescelente Terapia Divina
 
@@ -1655,6 +1842,7 @@ Ademais, durante todo esse processo, a dor é inteiramente suprimida, eliminando
 # Recordações de uma Travessia de Okunikko a Shiobara
 
 **Categoria:** o | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 奥日光から塩原へ 自観叢書第5編 | **Status:** Published
 
 ## Recordações de uma Travessia de Okunikko a Shiobara
 
@@ -1685,6 +1873,7 @@ Nessa viagem, enfrentei duas situações de grande perigo. A primeira foi a qued
 # Palavras de Meishu-Sama sobre o Palácio de Cristal e a Estrutura da Igreja
 
 **Categoria:** o | **Ano:** 昭和30(1955)年1月1日 | **Fonte:** Eikou
+**Título Original:** 御取次 執事 阿部晴三 | **Status:** Published
 
 ## Palavras de Meishu-Sama sobre o Palácio de Cristal e a Estrutura da Igreja
 
@@ -1709,6 +1898,7 @@ Estas são as palavras que me coube transmitir.
 # Uma Análise sobre os Méritos e Deméritos da Prática Médica
 
 **Categoria:** o | **Ano:** 昭和24(1949)年11月19日 | **Fonte:** -
+**Título Original:** おかげ話から何を掴んだか | **Status:** Published
 
 ## Uma Análise sobre os Méritos e Deméritos da Prática Médica
 
@@ -1741,6 +1931,7 @@ Por tudo o que foi exposto, o Grande Amor de Deus, na iminência do Fim da Era, 
 # A Restauração Miraculosa de um Dedo Amputado
 
 **Categoria:** o | **Ano:** 昭和25(1950)年5月27日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 | **Status:** Published
 
 ## A Restauração Miraculosa de um Dedo Amputado
 
@@ -1823,6 +2014,7 @@ Este relato contém dois significados de grande importância. O primeiro é o fa
 # Tratamento de Enfermidades da Cabeça, Pescoço e Tórax
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 下巻 （二） | **Status:** Unknown
 
 ## Tratamento de Enfermidades da Cabeça, Pescoço e Tórax
 
@@ -2025,6 +2217,7 @@ Existe também a broncopneumonia, que ocorre quando o pus acumulado na parte inf
 # A Superioridade do Johrei em Relação à Medicina
 
 **Categoria:** o | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
+**Título Original:** おかげ批判 浄霊と医療の優劣現る | **Status:** Published
 
 ## A Superioridade do Johrei em Relação à Medicina
 
@@ -2096,6 +2289,7 @@ Ademais, desconhecendo a causa, ele recorreu a uma injeção para uma dor e febr
 # A Genialidade de Ogata Korin e sua Influência Mundial
 
 **Categoria:** o | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 尾形光琳 自観叢書第5編 | **Status:** Published
 
 ## A Genialidade de Ogata Korin e sua Influência Mundial
 
@@ -2114,6 +2308,7 @@ Até hoje, não há registro de outro japonês cujas realizações tenham impact
 # Sobre o Senhor Ooya Souichi
 
 **Categoria:** o | **Ano:** 昭和26(1951)年11月7日 | **Fonte:** Eikou
+**Título Original:** 大宅壮一という人 | **Status:** Published
 
 ## Sobre o Senhor Ooya Souichi
 
@@ -2130,6 +2325,7 @@ Então, por que ele divulgou tamanha inverdade a um jornal? A razão parece ser 
 # A Superioridade do Johrei Evidenciada pelos Fatos
 
 **Categoria:** o | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 事実が示す浄霊の優越性 | **Status:** Published
 
 ## A Superioridade do Johrei Evidenciada pelos Fatos
 
@@ -2234,6 +2430,7 @@ A eficácia da Terapia Divina, que curou em poucos meses um sofrimento de cinco 
 # A Resposta do Mestre ao Conto "Dois Hakama"
 
 **Categoria:** o | **Ano:** 昭和25(1950)年3月18日 | **Fonte:** Kyusei
+**Título Original:** お伺いロマンス 二人袴 | **Status:** Published
 
 ## A Resposta do Mestre ao Conto "Dois Hakama"
 
@@ -2474,6 +2671,7 @@ Que rumo deveria tomar?
 # O Milagre Não é Acaso, Sua Origem Reside no Mundo Espiritual
 
 **Categoria:** o | **Ano:** 昭和25(1950)年6月3日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 | **Status:** Published
 
 ## O Milagre Não é Acaso, Sua Origem Reside no Mundo Espiritual
 
@@ -2525,6 +2723,7 @@ Uma das grandes razões para a expansão de nossa Fé reside, precisamente, na i
 # A Imprensa como Instrumento de Interesses Particulares
 
 **Categoria:** o | **Ano:** 昭和25(1950)年1月14日 | **Fonte:** -
+**Título Original:** 己れの利害を本位とし、社会の公器性を失う 読売新聞へ再抗議文 | **Status:** Published
 
 ## A Imprensa como Instrumento de Interesses Particulares
 
@@ -2557,6 +2756,7 @@ Acrescentamos, por fim, o desejo de que, no futuro, quaisquer suspeitas sejam ob
 # A Essência da Saúde e da Cura
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 上巻 （三） | **Status:** Unknown
 
 ## A Essência da Saúde e da Cura
 
@@ -2689,6 +2889,7 @@ Os medicamentos de uso tópico penetram na pele, impurificam o sangue e enfraque
 # Alarmantes Erros de Diagnóstico e Tratamento
 
 **Categoria:** o | **Ano:** 昭和11(1936)年4月16日 | **Fonte:** 新日本医術書
+**Título Original:** 驚く可き誤診と誤療 | **Status:** Unknown
 
 ## Alarmantes Erros de Diagnóstico e Tratamento
 
@@ -2729,6 +2930,7 @@ Caso os profissionais mencionados nestes exemplos desejem averiguar os fatos, te
 # As Razões de Meu Desligamento da Oomoto
 
 **Categoria:** o | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 大本教脱退の理由 自観叢書第9篇 | **Status:** Published
 
 ## As Razões de Meu Desligamento da Oomoto
 
@@ -2749,6 +2951,7 @@ Foi no sétimo ano da era Showa (1932) que tomei a decisão de me afastar. Após
 # O Temível Perigo da Fitoterapia Chinesa
 
 **Categoria:** o | **Ano:** 昭和28(1953)年5月6日 | **Fonte:** Eikou
+**Título Original:** 恐るべき漢方薬 | **Status:** Published
 
 ## O Temível Perigo da Fitoterapia Chinesa
 
@@ -2765,109 +2968,6 @@ Acima de tudo, a intensidade da intoxicação por fitoterápicos chineses é mai
 Para ilustrar, recordo-me do caso de uma pessoa que tratei há tempos. Por mais de vinte anos, ela ingerira diariamente um preparado em pílulas chamado Kiougan, indicado para a constipação. Em decorrência disso, desenvolveu uma tuberculose renal e foi desenganada pelos médicos. A despeito de meus esforços, a carga de toxinas em seu organismo era tamanha que, por fim, seu quadro se tornou irreversível.
 
 Esta realidade, aliás, é de conhecimento geral e nos permite inferir a provável causa da tez pálido-amarelada, tão característica em muitos chineses: uma consequência direta da intoxicação crônica por esses mesmos fitoterápicos.
-
----
-
-# O Alicerce das Minhas Provações
-
-**Categoria:** o | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
-
-## O Alicerce das Minhas Provações
-
-Chegara o momento de me lançar de corpo e alma, a fim de seguir unicamente a Vontade Divina. Nesse estado, em que a intenção de Deus e a minha própria consciência se mesclavam, eu me sentia, por um lado, mais fortalecido que um homem comum, mas, por outro, mais desamparado. Evidentemente, eu não dispunha de grandes recursos financeiros; possuía apenas o suficiente para me manter por alguns meses, sem qualquer perspectiva de renda fixa. Era, em verdade, uma existência de extrema instabilidade. Contudo, o fascínio dos milagres e das revelações divinas que se sucediam ininterruptamente era tão grande que me fazia esquecer por completo a insegurança material. Em realidade, era uma vida de júbilo. Dediquei-me, portanto, com afinco e sem desvios, à pesquisa espiritual e à cura de doenças.
-
-Ao mencionar a cura de doenças, é preciso esclarecer que não sou versado em medicina. Minha experiência provém do fato de ter padecido de inúmeras enfermidades: por três vezes estive internado em hospitais e, por duas vezes, fui desenganado pelos médicos devido à gravidade do meu estado. Até por volta dos quarenta anos, passei mais tempo doente do que com saúde, tornando-me um verdadeiro repositório de moléstias. Em cada uma dessas ocasiões, eu me entregava à leitura voraz de livros de medicina. Para que se tenha uma ideia, até os doze ou treze anos, eu era o que se chama de criança de constituição escrofulosa e saúde frágil, vivendo em constante familiaridade com remédios. Ainda assim, de alguma forma consegui concluir o ensino primário, embora sentisse profunda inveja das outras crianças saudáveis. Curiosamente, meu desempenho escolar era excelente; eu estava quase sempre em primeiro ou segundo lugar na classe. Aos catorze anos, concluí a escola primária e, com o objetivo de me tornar pintor, ingressei no curso preparatório da Escola de Belas-Artes. Contudo, poucos meses depois, fui acometido por uma enfermidade ocular que me forçou a abandonar os estudos. Durante dois anos, peregrinei por consultórios de oftalmologistas renomados, mas, sem obter a cura, acabei por desistir. Pouco depois, contraí pleurisia e fui internado na clínica de caridade de um hospital universitário. Realizaram uma punção para drenar o líquido, da qual se extraíram mais de duzentos gramas. A recuperação levou cerca de seis meses, mas, um ano depois, a doença reincidiu. Submeti-me a diversos tratamentos, mas meu quadro piorava progressivamente, e após mais um ano, a doença evoluiu para uma tuberculose pulmonar. Na época, fui diagnosticado pelo célebre Dr. Tatsukichi Irisawa, que me sentenciou como incurável. Foi então que, por meio de uma dieta vegetariana, alcancei a cura completa.
-
-Nos anos que se seguiram, abandonei todas as outras atividades e me dediquei à recuperação da saúde. À medida que me restabelecia, recuperei a confiança e, aos vinte e cinco anos, empreendi meu próprio negócio: uma pequena loja de armarinhos. Sendo um leigo no ramo e vivendo apenas com minha mãe e uma prima em uma casa alugada de fachada estreita, eu era o único responsável por absolutamente todas as tarefas da loja. Para ilustrar a situação da época, basta dizer que, desde a limpeza matinal até a compra e venda de mercadorias, tudo estava sob minha responsabilidade, o que era um grande desafio. Ademais, minha inexperiência era total, a ponto de desconhecer até mesmo a utilidade dos produtos, e a cada instante eu precisava perguntar à minha mãe: "Qual o nome disto? Em que parte da cabeça se usa?". De cosméticos a óleos e fitas para prender o cabelo, a variedade de itens era imensa, como se costuma dizer das lojas de armarinhos, e memorizar tudo não era tarefa fácil. Enquanto isso, os clientes não paravam de chegar. Naqueles dias, um vidro de óleo para cabelo ou um maço de fitas custavam um *sen*, e a cada cliente, mesmo por uma compra ínfima, eu agradecia e curvava a cabeça, o que era extenuante. Em consequência disso, após cerca de seis meses, fui acometido por uma grave anemia cerebral. O mal era tamanho que, ao caminhar por uma rua com bondes, o ruído me causava vertigens e eu chegava a desmaiar; após conversar com alguém por apenas dez minutos, eu perdia a capacidade de falar. O sofrimento era atroz. Depois de dois ou três meses de tratamento médico sem resultados, por recomendação de um conhecido, iniciei uma terapia de moxabustão, que me trouxe algum alívio. O terapeuta me aconselhou a praticar exercícios, e passei a caminhar mais de quatro quilômetros em dias de bom tempo. O método surtiu efeito, e em dois ou três meses eu estava praticamente curado.
-
-Para compensar o tempo perdido, dediquei-me com vigor redobrado e, somando-se a isso a experiência que adquiri no comércio, o negócio prosperou enormemente. Vislumbrando um futuro mais promissor no atacado do que no varejo, investi o pouco que havia lucrado e iniciei essa nova fase. A transição ocorreu de forma muito auspiciosa, e em cerca de dez anos, tornei-me um atacadista de primeira linha. Todavia, mesmo durante esse período, eu adoecia várias vezes ao ano. Dentre as enfermidades, a febre tifoide foi tão severa que cheguei a redigir meu testamento; foram três meses de internação até a recuperação. Também estive hospitalizado por um mês devido a hemorroidas hemorrágicas. Além disso, sofri de moléstias gástricas, reumatismo, uretrite, amigdalites frequentes, esgotamento nervoso, dores de cabeça e um violento catarro intestinal, entre tantos outros males que seria impossível enumerar.
-
-Pouco tempo depois, sofri um revés nos negócios, o que me conduziu à fé, conforme relatei em outra ocasião. Gostaria de registrar aqui algumas memórias de minha infância. Nasci em um bairro de extrema pobreza chamado Hashiba, em Asakusa, na cidade de Tóquio. Lembro-me vagamente de que meu pai era um negociante de antiguidades e nossa casa se resumia a dois cômodos: a loja, com cerca de cinco metros quadrados, e um aposento de sete. Todas as noites, ele ia montar uma barraca na feira noturna do Parque Asakusa, que ficava a quase dois quilômetros de distância. Depois que cresci, ouvi muitas vezes meu pai contar que, se não lucrassem algo na noite, no dia seguinte não teriam o que comer. Assim, desde que não chovesse, meu pai empilhava algumas quinquilharias em um pequeno carrinho de mão, e minha mãe, comigo às costas, ajudava a empurrá-lo. Nossa penúria era tamanha que minha mãe, sofrendo do que hoje chamaríamos de desnutrição, mal produzia leite. Por isso, ela me levava para ser amamentado pela esposa do sacerdote do templo Renshuji, nas proximidades. Quando concluí a escola primária, nossa situação financeira havia melhorado um pouco, o que permitiu que eu ingressasse na Escola de Belas-Artes. Assim, tanto na infância quanto no início da vida adulta, a experiência da pobreza se enraizou profundamente em mim, ensinando-me o verdadeiro valor do dinheiro. Essa lição se revelou de imensa valia, pois até hoje sou incapaz de praticar o desperdício ou a ostentação. Por essa razão, sou profundamente grato às adversidades daquele tempo.
-
-Permitam-me agora relatar outra enfermidade que me acometeu, bem como as dores de dente, a endocardite e a sarna que, como mencionei, me causaram grande sofrimento. O tormento com a dor de dente foi particularmente terrível, como descrevo a seguir.
-
-Há cerca de trinta e cinco anos, padeci de uma dor de dente crônica. Se a dor em um único dente já é um tormento, imaginem o sofrimento de ter quatro dentes doendo simultaneamente, dia após dia. Fui tratado por um renomado dentista que exercera a profissão por muitos anos nos Estados Unidos. Durante quase um ano, ele aplicou todos os medicamentos de que dispunha, mas meu estado, longe de melhorar, apenas se agravava. Certo dia, ele me disse: "Já utilizei todos os medicamentos que conheço, sem sucesso. Não há mais nada que eu possa fazer. No próximo mês, um amigo meu retornará da América e talvez traga alguns remédios novos. Nossa única esperança é experimentá-los".
-
-Por meio de uma certa descoberta acidental, compreendi que a causa de tamanha aflição era o yakudoku (薬毒), ou seja, a intoxicação medicamentosa. Imediatamente, suspendi por completo o uso de fármacos. A partir de então, a dor começou a ceder gradualmente, até desaparecer por completo. Naquela época, o sofrimento era tão atroz que perdi a conta de quantas vezes cogitei o suicídio. Essa descoberta, sobre a qual detalharei em outra oportunidade, foi o que verdadeiramente salvou a minha vida.
-
----
-
-# A Cura do Tifo pela Força de Deus
-
-**Categoria:** o | **Ano:** 昭和26(1951)年1月31日 | **Fonte:** Eikou
-
-## A Cura do Tifo pela Força de Deus
-
-É fato notório que, anualmente, o tifo exantemático suscita grande apreensão na população e mobiliza as autoridades em campanhas preventivas. Felizmente, contudo, recebemos o relato verídico que se segue e decidimos publicá-lo. Nele, evidencia-se que a taxa de cura obtida pelo Johrei de nossa Igreja apresenta resultados de tal magnitude que se torna incomparável à da medicina. Ademais, o fato de as injeções, ao contrário do que se espera, agravarem a enfermidade é uma realidade que merece a mais séria atenção. Dado que a situação desde o final do ano passado indica sinais de uma epidemia considerável para este ano, mais do que um simples alerta, apresentamos este artigo como uma exortação e um referencial a ser considerado.
-
-### A Grandiosa Terapêutica Divina: Cem por cento de cura do tifo exantemático
-
-**Serizawa Kyujukyu (39 anos)**
-**Igreja Aishin Tyu, Província de Shizuoka**
-
-Sou um fiel que recebeu a sagrada formação há cerca de nove anos e, desde então, sob a milagrosa proteção Divina, tenho tido a permissão de servir na salvação de inúmeras pessoas.
-
-Nesta oportunidade, gostaria de relatar a experiência que vivenciei com o tifo exantemático na Manchúria, após o término da guerra.
-
-Imediatamente após o conflito, por volta do final de 1945, uma cepa maligna de tifo, que surpreendeu até mesmo a população local, alastrou-se pela Manchúria. A cidade de Fentian, onde eu residia, encontrava-se em meio ao caos, agravado pela chegada de dezenas de milhares de refugiados japoneses vindos da região norte. O pavor era indescritível. Em um piscar de olhos, milhares de pessoas adoeceram. Escolas foram transformadas em hospitais de isolamento improvisados, onde centenas de médicos e cirurgiões militares lançaram mão de todos os recursos disponíveis, mas quase nada se mostrava eficaz. Diariamente, dezenas de pessoas, ou talvez mais, pereciam tragicamente em estado de delírio.
-
-No complexo residencial de nossa empresa, onde viviam cerca de vinte e cinco famílias, a angústia era constante. Por fim, um senhor de aproximadamente vinte e sete ou vinte e oito anos adoeceu. Os hospitais, naturalmente, estavam lotados. Médicos civis e militares o visitavam diariamente para aplicar injeções e compressas de gelo, mas seu estado não melhorava, e ele veio a falecer após uma semana, ainda delirante. Certa vez, fui visitá-lo. Desejei ardentemente ministrar-lhe Johrei, mas os médicos e enfermeiros permaneciam a seu lado incessantemente, o que me tornou impossível qualquer intervenção.
-
-Poucos dias depois, foi a vez de um jovem casal, os Sano, que adoeceu quase simultaneamente. As pessoas do complexo, que haviam testemunhado a morte atroz de seu vizinho, sequer se aproximavam para visitá-los. As únicas exceções éramos eu e o Sr. Goto, um companheiro que, um ano antes, fora curado de uma tuberculose com hemoptise após receber Johrei algumas vezes e que, ao retornar ao Japão para se casar, havia recebido a formação.
-
-Inicialmente, encarei a doença com certo desdém, pensando: “O que é o tifo? Não passa de uma purificação com febre alta e erupções cutâneas”. Com base em minhas experiências anteriores, eu tinha a convicção de que qualquer febre, por mais elevada que fosse, cederia em três dias.
-
-Contudo, passados três dias, a febre persistia. Eu ministrava Johrei três a quatro vezes por dia; a temperatura baixava logo após a ministração, mas, em trinta minutos, voltava a subir com ainda mais intensidade. Ao quinto dia, desenvolveram um distúrbio cerebral e perderam completamente a razão. Durante cinco dias, não ingeriram alimento algum, apenas um pouco de água. Deitados lado a lado, ambos deliravam. A esposa entoava canções da infância, enquanto o marido balbuciava palavras sem nexo. Seus olhos pareciam não enxergar, fitando o teto com um olhar vazio. Para agravar a situação, piolhos começaram a ser vistos em sua cama. Sentei-me inúmeras vezes naquele leito infestado, e a ideia de que eu também poderia ser contagiado me ocorreu. Contudo, tranquilizei-me ao pensar que o Sr. Goto, que também recebera a formação, estava ali. Mas, para meu desespero, o Sr. Goto e sua esposa também adoeceram juntos.
-
-Restávamos apenas eu e minha mulher. Fiz um pacto solene com ela: “Se eu adoecer e enlouquecer, não chame um médico por nada. Não importa o que digam, apenas ministre-me Johrei”.
-
-Nesse ínterim, as críticas da vizinhança se intensificaram. Alguns, com uma falsa gentileza, aconselhavam: “Provavelmente não há mais o que fazer, mas se você chamar um médico ao menos uma vez, terá uma justificativa para dar aos familiares deles quando voltar ao Japão”. Eu, porém, recusava todas as sugestões, afirmando: “Ficarão bem, não se preocupem”.
-
-Em meio à exaustão por cuidar de quatro pacientes com tifo simultaneamente, e vendo os sintomas se agravarem a cada dia, contrariando minhas expectativas iniciais, fui assaltado por terríveis dúvidas na calada da noite, enquanto contemplava os enfermos delirantes. “Será que meu Johrei perdeu a eficácia? Ou talvez não funcione contra o tifo? Se assim for, a responsabilidade por esta tragédia é inteiramente minha. Será que todos os quatro morrerão em meio à loucura?” Imediatamente, porém, uma força interior rechaçava tais pensamentos: “Isso é impossível. Se eu ministrar Johrei com toda a sinceridade de meu coração, certamente chegará o momento em que me reconhecerão e dirão: ‘É o senhor, Sr. Serizawa’”. Sentindo que não poderia falhar com Meishu-Sama, voltei meu pensamento ao longínquo Oriente e orei, prosseguindo com o Johrei. De tempos em tempos, eu aproximava meu rosto do dos doentes, mas não havia qualquer reação.
-
-Jamais me esquecerei do oitavo dia desde o início da doença. Após o café da manhã, sentei-me à cabeceira da cama. Então, com um olhar ainda fraco, o paciente fitou meu rosto e disse: “É o senhor, Sr. Serizawa, não é? Minha cabeça está estranha... Onde está minha esposa? Por favor, quero curry de arroz e água”. Eram exatamente as palavras que eu havia antecipado. A alegria que senti naquele momento... creio que nenhuma outra, dentre as inúmeras graças que recebi, jamais a superou. Lágrimas afluíram aos meus olhos e, instintivamente, uni as mãos em prece a Meishu-Sama, na direção de minha pátria distante.
-
-“Agora tenho certeza absoluta da vitória”, pensei. Com forças renovadas, dediquei-me ao Johrei, e, de forma impressionante, uma espessa secreção nasal começou a fluir, e a clareza mental do paciente retornava hora após hora. Sua esposa seguiu um processo de recuperação semelhante, e, embora estivessem debilitados, era evidente para todos que estavam curados. Eu havia recuperado a confiança absoluta. Naquele momento, o casal Goto ainda delirava intensamente, mas eu já não sentia medo. Ministrava-lhes Johrei sorrindo, entretendo-os em meio a seus desvarios, e eles também se recuperaram completamente pelo mesmo processo. A Sra. Goto estava grávida de oito meses na época e, mais tarde, deu à luz um menino grande e forte; mãe e filho gozavam de excelente saúde.
-
-Durante esse período, outras seis pessoas em nosso complexo residencial adoeceram. Cinco delas recorreram a médicos, e quatro morreram. A sexta pessoa sobreviveu, mas isso ocorreu em uma fase posterior da epidemia, quando já se havia tornado de conhecimento geral que as injeções pareciam aumentar a taxa de mortalidade; por isso, simplesmente a deixaram repousar. Contudo, essa pessoa levou dois meses para recuperar as forças. Em contrapartida, aqueles que foram curados pelo Johrei estavam totalmente restabelecidos em vinte dias. Diante da grandiosidade do poder de Deus, não me restava senão a mais profunda admiração.
-
-Descobriu-se, após milhares de vítimas, que os pacientes submetidos a injeções e compressas de gelo apresentavam os piores resultados, e que aqueles que recebiam menos injeções tinham uma taxa de sucesso muito maior. Com a gradual redução do uso de injeções, a taxa de mortalidade do tratamento médico, que era superior a setenta por cento no início, parece ter diminuído para trinta por cento no final da epidemia. Eu ministrei Johrei a cerca de dez pacientes com tifo, e todos se recuperaram, uma taxa de cura de cem por cento. Além disso, a recuperação de suas forças após a doença foi notavelmente mais rápida em comparação com o tratamento convencional.
-
-Os sintomas do tifo na época consistiam em febre contínua acima de quarenta graus, uma dor de cabeça lancinante e o aparecimento de uma leve erupção cutânea por todo o corpo após cerca de dois dias, que desaparecia em outros dois. Por volta do quinto dia, surgia o distúrbio cerebral, e o paciente, invariavelmente, enlouquecia. Testemunhar a piora progressiva de alguém, até a perda da razão, enquanto se ministra Johrei com toda a fé, é uma experiência verdadeiramente assustadora, a ponto de me fazer querer fugir. A experiência, contudo, ensinou-me que o distúrbio cerebral não é um sintoma a ser temido, mas sim uma etapa da purificação que se resolve de forma simples com a ministração de Johrei na região frontal, resultando na eliminação de secreção nasal.
-
-Quando os efeitos milagrosos do Johrei começaram a ser mais amplamente reconhecidos, a terrível epidemia chegou ao fim. A partir de então, recebi solicitações de muitas pessoas e tive a permissão de ministrar Johrei em doentes com diversas enfermidades até minha repatriação, acumulando valiosas experiências e testemunhando resultados notáveis.
-
-Este é o meu testemunho sobre o tifo exantemático. Ofereço este relato em profunda gratidão a Meishu-Sama, que concedeu este poder absoluto a alguém tão insignificante como eu, e com a sincera esperança de que possa servir, ainda que minimamente, de referência para todos.
-
-(1º de janeiro de 1951)
-
----
-
-# A Matriz da Corrupção
-
-**Categoria:** o | **Ano:** 昭和29(1954)年3月3日 | **Fonte:** Eikou
-
-## A Matriz da Corrupção
-
-É provável que todos se sintam exaustos com a sucessão de escândalos de corrupção que, recentemente, têm vindo à tona em série, um após o outro. Creio que jamais na história presenciamos uma sobreposição de tantos casos de improbidade de uma só vez. Embora o rigoroso julgamento da justiça venha a esclarecer os fatos, a importância deste problema reside em algo que transcende a mera punição dos culpados. Afinal, ainda que os eventos atuais sejam singulares, esse tipo de escândalo tornou-se quase um ritual anual em nossa nação. Punir apenas os casos que emergem não constitui uma solução fundamental; portanto, é imperativo que promovamos uma erradicação completa e definitiva de suas causas. A situação assemelha-se a um depósito de dejetos onde proliferam larvas: a única solução verdadeira é a assepsia do próprio depósito. Não há outra forma de resolver a questão em sua raiz, e certamente essa é também a grande aspiração do povo. O entrave, contudo, é que a causa primária, o ponto nevrálgico do problema, permanece ignorada.
-
-Mas qual seria, então, esse ponto nevrálgico? Trata-se justamente da concepção teísta, tão veementemente rechaçada pela elite intelectual. A verdade incômoda é que a matriz geradora da corrupção é o exato oposto: o pensamento ateísta. A mentalidade ateísta, como se sabe, resume-se na perniciosa crença de que um ato desonesto, contanto que não seja descoberto pelos olhos humanos, é perfeitamente aceitável. Ademais, à medida que a inteligência humana avança, essa prática se torna cada vez mais sofisticada, sendo até mesmo considerada, em nossos dias, um pré-requisito para a ascensão social. Ao aplicarmos essa lógica à realidade, porém, deparamo-nos com o mistério de sua inevitável falência. Por mais que, por um tempo, o ardil pareça bem-sucedido, cedo ou tarde a máscara invariavelmente cai, como bem demonstram os recentes acontecimentos.
-
-Apesar disso, mesmo os implicados talvez compreendam a situação apenas superficialmente. Crendo firmemente que Deus não existe, falta-lhes o entendimento profundo que brota do âmago da alma. Assim, mesmo diante das consequências de seus atos, quantos serão capazes de um arrependimento genuíno? É duvidoso. A maioria provavelmente concluirá que o fracasso se deveu a uma falha na execução ou à falta de astúcia. Pensarão em aprimorar suas táticas para uma próxima oportunidade, de modo a jamais serem apanhados. Essa é, afinal, a lógica natural daquele que não crê em Deus. Por conseguinte, para reformar essa índole em sua essência, o único caminho é cultivar a noção da existência de Deus por meio da religião. Não há, em absoluto, método mais eficaz.
-
-Enquanto indivíduos de tal estirpe ateísta ocuparem as altas esferas do poder, tanto o setor governamental quanto o empresarial assemelhar-se-ão a um lago estagnado, cujo fundo acumula água pútrida, lodo e detritos. Onde quer que se cutuque, emergem bolhas de um gás nauseabundo, e a análise da trajetória dos escândalos recentes apenas reforça essa impressão. Portanto, o que foi revelado até agora talvez seja apenas a ponta de um iceberg, e os prejuízos infligidos à nação e o transtorno causado ao povo são certamente imensuráveis. Mais grave ainda, a influência deletéria sobre o pensamento popular não pode ser subestimada. Afinal, se as classes dirigentes cometem atos tão vis em segredo para se deleitarem no luxo, e se o dinheiro que partidos e políticos esbanjam provém dos impostos pagos com o sangue e o suor do povo, o cidadão honesto naturalmente perderá o ânimo para o trabalho.
-
-Nesse sentido, por mais eloquentes que sejam os discursos das autoridades, o povo passará a pensar: “não me deixarei enganar novamente”. A reverência de outrora se converterá em desprezo, o sentimento de nação se enfraquecerá e a estrutura social se tornará frouxa. O impacto negativo de tudo isso sobre o destino do país será, a meu ver, muito maior do que se imagina.
-
-Como afirmei desde o início, a raiz de todo este problema reside no pensamento ateísta. Por essa razão, a chave para a solução é, antes de tudo, a erradicação dessa mentalidade. Para tanto, é fundamental a atuação dos religiosos, a fim de que as pessoas reconheçam a existência real de Deus. É preciso incutir nelas a firme convicção de que, embora se possa enganar os olhos dos homens, jamais se poderá enganar os Olhos de Deus. Se essa crença se generalizar, escândalos de corrupção sequer terão chance de ocorrer. Os protagonistas dos recentes acontecimentos são, na sua totalidade, homens de grande prestígio, detentores de alta formação, posição social, renome e inteligência. Surge, então, a pergunta: por que fizeram o que fizeram? A resposta só pode ser o pensamento ateísta, o que demonstra que formação acadêmica e senso moral são esferas distintas. O fato de que os planos, elaborados com o máximo de engenho por homens tão ilustres, tenham sido expostos a partir de uma única fresta, expandindo-se até se tornarem um problema colossal, só pode ser interpretado como um julgamento Divino.
-
-Há aqui outro ponto de suma importância. O Japão se vangloria de ser um país regido por leis, mas, se refletirmos profundamente, perceberemos que isso é um grave equívoco. Se a lei for o único instrumento de controle, os mais ardilosos encontrarão brechas para se isentar da culpa, e os mais desonestos acabarão por levar vantagem. Trata-se, em essência, de conter os homens em uma jaula legal, o que equivale a relegá-los à condição de animais. A dignidade do ser humano, o apogeu da criação, é assim vilipendiada. Se a isso chamamos de nação civilizada, a própria civilização deveria chorar. Costumo dizer que vivemos em uma era semibárbara e semicivilizada, e duvido que alguém possa negar tal afirmação.
-
-Para ilustrar, imagine uma carteira caída à sua frente. Se ninguém estiver olhando, uma pessoa comum talvez a guardasse para si. Aquele que, em tal situação, jamais a tocaria, o faz por crer na existência real de Deus. A missão de formar pessoas assim pertence à religião. No entanto, tanto as autoridades quanto a imprensa demonstram uma notável indiferença a esse respeito, tratando a religião como algo supérfluo ou, pior, como uma superstição fraudulenta, numa atitude que afasta o povo e se revela verdadeiramente incompreensível. Com isso, tornam-se aliados do ateísmo e, consequentemente, uma das causas mais potentes para a proliferação da corrupção.
-
-Diante do exposto, é imperativo que os governantes, nesta ocasião, abram豁然mente os seus olhos espirituais e tomem as devidas providências. Do contrário, este problema abominável jamais será erradicado, e não é preciso dizer o quão gravemente ele obstruirá o progresso da nação. Se, contudo, mesmo após lerem estas palavras, os responsáveis as ignorarem, como de costume, quem poderá garantir que não chegará o dia em que hão de se arrepender amargamente?
-
-Atualmente, o Estado investe em educação e em diversas outras instituições, esforçando-se para desenvolver a inteligência e aprimorar o caráter das pessoas. Todavia, enquanto a questão fundamental – a erradicação do pensamento ateísta – não for enfrentada, todo esse esforço será como carregar água em um cesto. O conhecimento adquirido será, inevitavelmente, mais utilizado para o mal do que para o bem, e a tolice dessa abordagem é indescritível. A tendência do aumento dos crimes de colarinho branco à medida que a cultura avança é a prova cabal disso. É por essa razão que ouso dirigir esta advertência aos homens de saber do nosso tempo.
 
 ---
 

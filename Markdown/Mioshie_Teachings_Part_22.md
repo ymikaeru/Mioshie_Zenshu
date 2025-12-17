@@ -3,6 +3,7 @@
 # A Gênese dos Micróbios e a Verdadeira Cura
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年2月26日） | **Status:** Published
 
 ## A Gênese dos Micróbios e a Verdadeira Cura
 
@@ -65,6 +66,7 @@ Eu mencionei tudo isso apenas para ilustrar o quão preciosas são as obras de a
 # A Estrutura dos Novos Ensinamentos e a Natureza Humana
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年9月8日） | **Status:** Published
 
 ## A Estrutura dos Novos Ensinamentos e a Natureza Humana
 
@@ -93,6 +95,7 @@ Por essa razão, ele será extirpado. A Igreja Messiânica surgiu precisamente c
 # O Poder Infinito e os Novos Rumos da Salvação
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S28年9月26日） | **Status:** Published
 
 ## O Poder Infinito e os Novos Rumos da Salvação
 
@@ -131,6 +134,7 @@ Para viabilizá-lo, a questão prioritária é o acesso que atravessará o terre
 # A Salvação da América e a Missão do Povo Japonês
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月26日） | **Status:** Published
 
 ## A Salvação da América e a Missão do Povo Japonês
 
@@ -161,6 +165,7 @@ A razão de o povo japonês possuir tais características... Se eu a explicasse 
 # A Destreza Divina em Todas as Obras
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年5月26日） | **Status:** Published
 
 ## A Destreza Divina em Todas as Obras
 
@@ -219,6 +224,7 @@ Caso um de nossos praticantes obtenha o primeiro lugar no concurso do Asahi, a A
 # A Batalha Incessante e o Fortalecimento da Obra Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月25日） | **Status:** Published
 
 ## A Batalha Incessante e o Fortalecimento da Obra Divina
 
@@ -243,6 +249,7 @@ A malícia com que manipulou as autoridades para que agissem é algo impressiona
 # A Ciência Espiritual e o Advento do Mundo do Dia
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月25日） | **Status:** Published
 
 ## A Ciência Espiritual e o Advento do Mundo do Dia
 
@@ -276,7 +283,8 @@ As obras avançam gradualmente, e o local se chamará “Paraíso Terrestre de A
 
 # A Providência Divina em Tamagawa e a Harmonia entre o Espírito e a Matéria
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年9月21日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年9月21日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Providência Divina em Tamagawa e a Harmonia entre o Espírito e a Matéria
 
@@ -315,6 +323,7 @@ Em última análise, seja qual for o nome que se dê — terapia purificadora ou
 # A Orquestração Divina por Trás dos Conflitos Mundiais
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月16日） | **Status:** Published
 
 ## A Orquestração Divina por Trás dos Conflitos Mundiais
 
@@ -355,6 +364,7 @@ Em seguida, escrevi um texto de natureza um pouco mais leve, abordando, sob dive
 # A Missão da Arte na Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年8月11日） | **Status:** Published
 
 ## A Missão da Arte na Nova Era
 
@@ -383,6 +393,7 @@ Todos esses acontecimentos são um claro sinal de que a Era de Miroku se aproxim
 # Princípios da Salvação pela Ciência Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月16日） | **Status:** Published
 
 ## Princípios da Salvação pela Ciência Divina
 
@@ -417,6 +428,7 @@ Quanto às glândulas linfáticas, o calor gerado nelas se transmite imediatamen
 # A Concretização do Plano Divino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月7日） | **Status:** Published
 
 ## A Concretização do Plano Divino
 
@@ -471,6 +483,7 @@ Temos também as graças recebidas durante o bombardeio atômico; já reunimos c
 # Discernimentos sobre a Missão Mundial e a Falácia da Medicina Moderna
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月7日） | **Status:** Published
 
 ## Discernimentos sobre a Missão Mundial e a Falácia da Medicina Moderna
 
@@ -515,6 +528,7 @@ Há dois dias, um comentarista de notícias no rádio apresentou um segmento int
 # A Edificação em Atami e o Princípio da Força
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月15日） | **Status:** Published
 
 ## A Edificação em Atami e o Princípio da Força
 
@@ -563,6 +577,7 @@ Eliminar essa força é, na verdade, bastante difícil. À medida que a purifica
 # A Missão do Japão e dos Estados Unidos na Transição para a Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年9月15日） | **Status:** Published
 
 ## A Missão do Japão e dos Estados Unidos na Transição para a Nova Era
 
@@ -605,6 +620,7 @@ Este é o segredo do mundo, o segredo da humanidade, que acabo de lhes revelar.
 # Sobre a Construção do Museu e a Prática do Johrei
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月15日） | **Status:** Published
 
 ## Sobre a Construção do Museu e a Prática do Johrei
 
@@ -655,6 +671,7 @@ Portanto, o principal treinamento no Johrei é o de aprender a não usar a forç
 # A Religião que Produz a Pobreza
 
 **Categoria:** kouwa | **Ano:** 昭和10(1935)年7月11日 | **Fonte:** Hikari明世界
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Religião que Produz a Pobreza
 
@@ -731,6 +748,7 @@ Tudo se organizará segundo o princípio de três, seis e nove. A cerimônia do 
 # A Ineficácia da Medicina e o Advento da Era do Dia
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年9月15日） | **Status:** Published
 
 ## A Ineficácia da Medicina e o Advento da Era do Dia
 
@@ -775,6 +793,7 @@ Enfim, à medida que o Elemento Fogo aumentar e a purificação do Mundo Espirit
 # A Nova Ordem Mundial e a Prova da Existência de Deus
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年3月7日） | **Status:** Published
 
 ## A Nova Ordem Mundial e a Prova da Existência de Deus
 
@@ -825,6 +844,7 @@ Existem muitos outros relatos, mas, como o tempo é escasso, encerrarei por aqui
 # Esclarecimentos sobre a Verdade Divina
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年3月7日） | **Status:** Published
 
 ## Esclarecimentos sobre a Verdade Divina
 
@@ -861,6 +881,7 @@ Percebendo essa distorção, decidi adquirir exclusivamente as pinturas a pincel
 # Sobre os Acontecimentos Mundiais e a Natureza dos Milagres
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月15日） | **Status:** Published
 
 ## Sobre os Acontecimentos Mundiais e a Natureza dos Milagres
 
@@ -909,6 +930,7 @@ Existem diversos tipos de fitoterápicos. Meu pai faleceu aos cinquenta e seis a
 # A Construção do Paraíso e a Expansão Mundial da Fé
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S28年11月11日） | **Status:** Published
 
 ## A Construção do Paraíso e a Expansão Mundial da Fé
 
@@ -957,6 +979,7 @@ Sinto, pois, que o longo período em que fomos oprimidos, rechaçados e agredido
 # A Direção do Mundo e a Raiz dos Desvios Morais
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月15日） | **Status:** Published
 
 ## A Direção do Mundo e a Raiz dos Desvios Morais
 
@@ -1011,6 +1034,7 @@ Por fim, em meu artigo "Eu Confesso", volto a abordar o tema da medicina, sobre 
 # A Verdadeira Causa da Diarreia e a Intensificação da Purificação Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月7日） | **Status:** Published
 
 ## A Verdadeira Causa da Diarreia e a Intensificação da Purificação Divina
 
@@ -1061,6 +1085,7 @@ Este é o tema que abordei no livro "A Criação da Civilização", no capítulo
 # A Providência Divina na Re-purificação e na Difusão
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年5月17日） | **Status:** Published
 
 ## A Providência Divina na Re-purificação e na Difusão
 
@@ -1111,6 +1136,7 @@ De pé sobre esse novo platô, a vista da longa muralha de pedra é verdadeirame
 # Sobre a Sabedoria Perdida e o Feudalismo Médico
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （28年9月1日） | **Status:** Published
 
 ## Sobre a Sabedoria Perdida e o Feudalismo Médico
 
@@ -1153,6 +1179,7 @@ A questão se resume à inteligência: a parte que efetuou a prisão foi mais sa
 # A Divulgação nos Estados Unidos e os Planos Divinos para Quioto
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月17日） | **Status:** Published
 
 ## A Divulgação nos Estados Unidos e os Planos Divinos para Quioto
 
@@ -1174,7 +1201,8 @@ A propósito, o terreno que adquirimos inicialmente em Saga possui uma área de 
 
 # A Alvorada do Mundo do Dia
 
-**Categoria:** kouwa | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Gokowa 昭和11
+**Categoria:** kouwa | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Published
 
 ## A Alvorada do Mundo do Dia
 
@@ -1237,6 +1265,7 @@ A partir deste ano, divulgaremos nossa Obra em larga escala. O poder de cura de 
 # A Vitória que Reside na Derrota
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月5日） | **Status:** Published
 
 ## A Vitória que Reside na Derrota
 
@@ -1269,6 +1298,7 @@ Com a intensificação da purificação do Mundo Espiritual, a vacina BCG, que a
 # A Visão Abrangente e a Lógica da Verdade
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年6月6日） | **Status:** Published
 
 ## A Visão Abrangente e a Lógica da Verdade
 
@@ -1317,6 +1347,7 @@ Poderia continuar a falar sobre esses assuntos indefinidamente, mas vou parar po
 # Arte, Medicina e a Alvorada da Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月5日） | **Status:** Published
 
 ## Arte, Medicina e a Alvorada da Nova Era
 
@@ -1355,6 +1386,7 @@ Assim, a única religião proeminente que não constrói hospitais é a Igreja M
 # Discernimento sobre a Época e a Prática da Fé
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月5日） | **Status:** Published
 
 ## Discernimento sobre a Época e a Prática da Fé
 
@@ -1413,6 +1445,7 @@ A dificuldade em ambos os casos reside no fardo que representam para as pessoas 
 # Esclarecimentos sobre o Mundo Espiritual e a Missão Divina
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年4月5日） | **Status:** Published
 
 ## Esclarecimentos sobre o Mundo Espiritual e a Missão Divina
 
@@ -1465,6 +1498,7 @@ Escrevi um breve ensaio a esse respeito.
 # A Liberdade da Saúde e a Expansão da Obra Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月5日） | **Status:** Published
 
 ## A Liberdade da Saúde e a Expansão da Obra Divina
 
@@ -1501,6 +1535,7 @@ Atualmente, dedico-me de corpo e alma à escrita do “Livro da Revolução da M
 # A Ilusão da Medicina e a Causa Primordial do Sofrimento Humano
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月6日） | **Status:** Published
 
 ## A Ilusão da Medicina e a Causa Primordial do Sofrimento Humano
 
@@ -1557,6 +1592,7 @@ Isso contraria o senso comum, e por isso muitos erram. Estamos habituados a faze
 # O Princípio da Salvação e a Construção do Paraíso
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月6日） | **Status:** Published
 
 ## O Princípio da Salvação e a Construção do Paraíso
 
@@ -1599,6 +1635,7 @@ O jornalista americano que nos visitou recentemente, o senhor Grilli, ressaltou 
 # A Missão do Belo e a Salvação pela Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年2月17日） | **Status:** Published
 
 ## A Missão do Belo e a Salvação pela Arte
 
@@ -1661,6 +1698,7 @@ Em breve, os senhores Matsui, Suzuki, Momomi, Kihara, Azabu e Shugetsu partirão
 # A Causa Primordial e a Expressão Divina na Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年3月5日） | **Status:** Published
 
 ## A Causa Primordial e a Expressão Divina na Arte
 
@@ -1697,6 +1735,7 @@ Como nosso tempo se esgotou, encerrarei minhas palavras por aqui.
 # A Avaliação de Pessoas e Acontecimentos sob a Ótica Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年10月1日） | **Status:** Published
 
 ## A Avaliação de Pessoas e Acontecimentos sob a Ótica Divina
 

@@ -30,7 +30,8 @@ def extract_dates():
     # Capture up to newline or <br> (but get_text() removes tags so just look for newline or long gaps)
     # Actually get_text() might merge lines.
     # We will look for "資料検索\s*[：:]\s*(.*)"
-    source_marker_pattern = re.compile(r'資料検索\s*[：:]\s*([^(\n\r]*)')
+    # Update: Don't exclude '(', just exclude newlines. If text is huge, we'll slice it later.
+    source_marker_pattern = re.compile(r'資料検索\s*[：:]\s*([^\n\r]*)')
 
     # Romaji Mapping Table
     romaji_map = {
@@ -181,49 +182,77 @@ def extract_dates():
                                 # print(f"  Found date for {item.get('title')}: {found_date}")
                                 modified = True
 
-                        # --- Extract Publication Source ---
-                        # Often "publication" is explicitly requested.
+                        # --- Extract Publication Source, Title, and Status ---
+                        # --- Extract Publication Source, Title, and Status ---
                         found_source = None
+                        jp_title = None
+                        status = None
                         
-                        # Strategy 1: Look for 『Book Name』 in the chunk
-                        match_bracket = source_bracket_pattern.search(search_chunk_clean)
-                        if match_bracket:
-                            found_source = match_bracket.group(1)
+                        match_marker = source_marker_pattern.search(search_chunk_clean)
+                        if match_marker:
+                            # Full text after "Data Search :"
+                            full_metadata = match_marker.group(1).strip()
+                            
+                            # 1. Extract Status
+                            if "未発表" in full_metadata:
+                                status = "Unpublished"
+                            elif "発行" in full_metadata or "号" in full_metadata:
+                                status = "Published"
+                            else:
+                                status = "Unknown"
+
+                            # 2. Extract Source (Text in brackets or identified previously)
+                            match_bracket = source_bracket_pattern.search(full_metadata)
+                            if match_bracket:
+                                found_source = match_bracket.group(1).strip()
+                                # Prepare to find title: It's usually BEFORE the bracket
+                                parts = full_metadata.split('『')
+                                if len(parts) > 0:
+                                    potential_title = parts[0].strip()
+                                    if potential_title and len(potential_title) < 50:
+                                         jp_title = potential_title
+                            else:
+                                # No brackets. Structure might be: "Title Status Date"
+                                separators = [r'\s+', r'、', r',']
+                                split_text = re.split('|'.join(separators), full_metadata)
+                                if split_text:
+                                    candidate_title = split_text[0].strip()
+                                    if candidate_title and len(candidate_title) < 50:
+                                        jp_title = candidate_title
+
+                            # If source was not in brackets, use previous logic or candidates
+                            if not found_source:
+                                # Try to find a known source in the full string
+                                for jp_src in romaji_map.keys():
+                                    if jp_src in full_metadata:
+                                        found_source = jp_src
+                                        break
+                                
+                                # If still not found, fallback to the cleanup logic
+                                if not found_source and jp_title:
+                                     rest = full_metadata.replace(jp_title, "").strip()
+                                     if rest:
+                                         candidate = re.sub(r'未発表.*', '', rest).strip()
+                                         candidate = re.sub(r'\d.*', '', candidate).strip() 
+                                         if len(candidate) > 1:
+                                             found_source = candidate
+
+                        # --- Update JSON ---
+                        if jp_title:
+                            item['jp_title'] = jp_title.strip(" 、")
+                            modified = True
                         
-                        # Strategy 2: Look for '資料検索 ： ...'
-                        if not found_source:
-                            match_marker = source_marker_pattern.search(search_chunk_clean)
-                            if match_marker:
-                                candidate = match_marker.group(1).strip()
-                                # Clean up candidates: often extracted text includes the date or other noise
-                                # e.g. "西洋医学の大革命 未発表、昭和11..."
-                                # We should truncate at typical separators like "、" or " " before a date
-                                # But sometimes the title is long.
-                                # If extracted date is in candidate, remove it?
-                                if candidate:
-                                    # Heuristic: split by space or comma and take first part if it looks like a title
-                                    # But sometimes the title is long.
-                                    # If extracted date is in candidate, remove it?
-                                    if found_date and found_date in candidate:
-                                        candidate = candidate.replace(found_date, "").strip()
-                                    
-                                    # Remove "未発表" (Unpublished) if it's the start found (unlikely to be title alone)
-                                    # Actually "未発表" (Unpublished) is often a status, not source.
-                                    candidate = re.sub(r'未発表.*', '', candidate).strip() # specific cleanup
-                                    found_source = candidate
+                        if status:
+                            item['status'] = status
+                            modified = True
 
                         if found_source:
                             found_source = found_source.strip()
-                            # Sanity check
                             if len(found_source) > 1 and len(found_source) < 100:
-                                # Clean garbage from source
-                                # e.g. "、" at end or start
                                 found_source = found_source.strip("、 　")
-                                
-                                # Convert to Romaji
                                 romaji_source = to_romaji(found_source)
-                                
                                 item['publication'] = romaji_source
+                                found_sources.add(found_source)
                                 modified = True
                             
                 except Exception as e:

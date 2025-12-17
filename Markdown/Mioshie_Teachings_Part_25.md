@@ -3,6 +3,7 @@
 # Sobre o Avanço da Obra Divina e a Missão da Beleza
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月6日） | **Status:** Published
 
 ## Sobre o Avanço da Obra Divina e a Missão da Beleza
 
@@ -45,6 +46,7 @@ A propósito, o *Chicago Tribune* possui quatro mil e duzentos funcionários, su
 # O Paraíso é o Mundo do Belo
 
 **Categoria:** te | **Ano:** 昭和26(1951)年7月11日 | **Fonte:** Eikou
+**Título Original:** 天国は美の世界 | **Status:** Published
 
 ## O Paraíso é o Mundo do Belo
 
@@ -71,6 +73,7 @@ Para concluir, gostaria de tecer um comentário sobre o comunismo. Embora essa i
 # O Propósito Divino dos Materiais
 
 **Categoria:** te | **Ano:** 昭和28(1953)年1月7日 | **Fonte:** Eikou
+**Título Original:** 鉄剤 ・医学断片集（25） | **Status:** Published
 
 ## O Propósito Divino dos Materiais
 
@@ -89,6 +92,7 @@ Nesse sentido, quando todas as coisas são julgadas à luz do bom senso, sua fin
 # Uma Análise Filosófica da Arte da Cura
 
 **Categoria:** te | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 哲学的に観たる本医術 | **Status:** Published
 
 ## Uma Análise Filosófica da Arte da Cura
 
@@ -125,6 +129,7 @@ O resultado, portanto, é verdadeiramente singular: a medicina em que depositava
 # A Composição do Céu e do Inferno
 
 **Categoria:** te | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 天国と地獄 自観叢書第3編 | **Status:** Published
 
 ## A Composição do Céu e do Inferno
 
@@ -163,6 +168,7 @@ Creio ter abordado, de forma geral, a constituição do Mundo Espiritual, a vida
 # Céu e Inferno
 
 **Categoria:** te | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 天国と地獄 未発表 | **Status:** Unpublished
 
 ## Céu e Inferno
 
@@ -179,6 +185,7 @@ Esse equívoco resulta na perda de vidas que poderiam ser salvas, demonstrando q
 # A Impropriedade do Tratamento Paliativo
 
 **Categoria:** te | **Ano:** 昭和27(1952)年12月17日 | **Fonte:** Eikou
+**Título Original:** 手当 医学断片集（24） | **Status:** Published
 
 ## A Impropriedade do Tratamento Paliativo
 
@@ -193,6 +200,7 @@ Poder-se-ia conjecturar que seu significado remeta a práticas como afagar ou ma
 # Relatos sobre a fé e a cura
 
 **Categoria:** te | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 天理教 自観叢書第9篇 | **Status:** Published
 
 ## Relatos sobre a fé e a cura
 
@@ -213,6 +221,7 @@ Nesse momento, porém, a mesma reflexão me ocorreu. Se eu a levasse à cura com
 # Sobre o Advento do Messias
 
 **Categoria:** te | **Ano:** 昭和23(1948)年 | **Fonte:** 天降説
+**Título Original:** 天降説 | **Status:** Unpublished
 
 ## Sobre o Advento do Messias
 
@@ -231,6 +240,7 @@ Sendo uma tese tão inverossímil, foi-me de todo impossível aceitá-la. Tal eq
 # Um Caso de Epilepsia e sua Origem Espiritual
 
 **Categoria:** te | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 癲癇 自観叢書第9篇 | **Status:** Published
 
 ## Um Caso de Epilepsia e sua Origem Espiritual
 
@@ -247,6 +257,7 @@ A identidade do espírito que atormentava esta serviçal era a de um recém-nasc
 # É Possível Sanar a Deficiência Intelectual
 
 **Categoria:** te | **Ano:** 昭和25(1950)年1月14日 | **Fonte:** -
+**Título Original:** 低能児は治る | **Status:** Published
 
 ## É Possível Sanar a Deficiência Intelectual
 
@@ -267,6 +278,7 @@ Permitam-me apresentar outro exemplo. Observa-se que, quanto mais nos aproximamo
 # A Verdadeira Causa da Epilepsia
 
 **Categoria:** te | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 癲癇 | **Status:** Published
 
 ## A Verdadeira Causa da Epilepsia
 
@@ -291,6 +303,7 @@ O espírito que atua nesta jovem é o de um recém-nascido. Sua avó concebeu um
 # A Origem das Crianças-Prodígio
 
 **Categoria:** te | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
+**Título Original:** 天才児童はどうして出来るか | **Status:** Published
 
 ## A Origem das Crianças-Prodígio
 
@@ -311,6 +324,7 @@ Contudo, é preciso salientar que nem todas as crianças-prodígio alcançam o p
 # O Princípio da Purificação e as Epidemias
 
 **Categoria:** te | **Ano:** 昭和27(1952)年7月9日 | **Fonte:** Eikou
+**Título Original:** 伝染病恐るるに足らず | **Status:** Published
 
 ## O Princípio da Purificação e as Epidemias
 
@@ -333,6 +347,7 @@ Uma vez compreendido este princípio, as doenças contagiosas não apenas deixam
 # A Gênese do Mundo e a Vontade Divina
 
 **Categoria:** te | **Ano:** 昭和25(1950)年11月20日 | **Fonte:** 世界Kyusei教早わかり
+**Título Original:** 天地創造記 | **Status:** Published
 
 ## A Gênese do Mundo e a Vontade Divina
 
@@ -355,6 +370,7 @@ Tendo proferido estas palavras, Ele ascendeu aos Céus sobre uma nuvem e partiu.
 # Sobre a Epilepsia
 
 **Categoria:** te | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 癲癇 ・病気と霊三 | **Status:** Published
 
 ## Sobre a Epilepsia
 
@@ -377,6 +393,7 @@ Sua resposta significa que ele não encontra outro corpo humano para onde se dir
 # O Capítulo do Paraíso
 
 **Categoria:** te | **Ano:** 昭和27(1952)年1月1日 | **Fonte:** Eikou
+**Título Original:** 天国篇 ・ミロクの世の実相 | **Status:** Published
 
 ## O Capítulo do Paraíso
 
@@ -409,6 +426,7 @@ Quanto à segunda modalidade de invasão, a que não é motivada pela necessidad
 # A Verdade sobre a Varíola e sua Cura
 
 **Categoria:** te | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 天然痘 | **Status:** Published
 
 ## A Verdade sobre a Varíola e sua Cura
 
@@ -460,6 +478,7 @@ Meishu-Sama, muito obrigada.
 # Impressões sobre o Cenário Artístico Contemporâneo
 
 **Categoria:** te | **Ano:** 昭和25(1950)年9月20日 | **Fonte:** Eikou
+**Título Original:** 展覧会を観て（上） | **Status:** Published
 
 ## Impressões sobre o Cenário Artístico Contemporâneo
 
@@ -490,6 +509,7 @@ Gosu aka-e (呉須赤絵): Estilo de cerâmica com esmalte vermelho produzido em
 # A Questão da Tenri Honmichi
 
 **Categoria:** te | **Ano:** 昭和25(1950)年3月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 天理本道に就て | **Status:** Published
 
 ## A Questão da Tenri Honmichi
 
@@ -512,6 +532,7 @@ Cabe agora reexaminarmos a referida profecia do senhor Onishi. O evento da abdic
 # A Origem Humana das Calamidades Climáticas
 
 **Categoria:** te | **Ano:** 昭和24(1949)年9月24日 | **Fonte:** -
+**Título Original:** 低気圧は人災なり | **Status:** Published
 
 ## A Origem Humana das Calamidades Climáticas
 
@@ -538,6 +559,7 @@ Pelo exposto, fica evidente que o único meio de prevenir as perturbações atmo
 # A Edificação do Paraíso e a Questão da Saúde
 
 **Categoria:** te | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
+**Título Original:** 天国化と健康問題 | **Status:** Published
 
 ## A Edificação do Paraíso e a Questão da Saúde
 
@@ -556,6 +578,7 @@ Reconheço que a argumentação aqui exposta pode ter sido excessivamente franca
 # A Evidência da Cura da Varíola
 
 **Categoria:** te | **Ano:** 昭和26(1951)年5月9日 | **Fonte:** Eikou
+**Título Original:** 天然痘はこの通り治る | **Status:** Published
 
 ## A Evidência da Cura da Varíola
 
@@ -602,6 +625,7 @@ Muito obrigada, Meishu-Sama.
 # A Verdade sobre as Doenças Contagiosas e os Micróbios
 
 **Categoria:** te | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 伝染病と黴菌 | **Status:** Published
 
 ## A Verdade sobre as Doenças Contagiosas e os Micróbios
 
@@ -672,6 +696,7 @@ Por essa razão, considero que o termo “indução” é mais apropriado que �
 # A Missão Purificadora das Doenças Infecciosas
 
 **Categoria:** te | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 伝染病 | **Status:** Published
 
 ## A Missão Purificadora das Doenças Infecciosas
 
@@ -694,6 +719,7 @@ Ademais, após a recuperação de uma disenteria, a capacidade intelectual melho
 # O Mundo dos Tengu e sua Natureza Espiritual
 
 **Categoria:** te | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 天狗界 自観叢書第3編 | **Status:** Published
 
 ## O Mundo dos Tengu e sua Natureza Espiritual
 
@@ -730,6 +756,7 @@ Já os indivíduos sob a influência de um Tengu de origem aviária manifestam t
 # A Construção do Paraíso e a Expulsão do Mal
 
 **Categoria:** te | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
+**Título Original:** 天国建設と悪の追放 | **Status:** Published
 
 ## A Construção do Paraíso e a Expulsão do Mal
 
@@ -752,6 +779,7 @@ Com o exposto, creio que o significado fundamental do bem e do mal ficou claro. 
 # Uma Perspectiva Filosófica sobre a Verdadeira Medicina
 
 **Categoria:** te | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 哲学的に観たる本医術 | **Status:** Published
 
 ## Uma Perspectiva Filosófica sobre a Verdadeira Medicina
 
@@ -782,6 +810,7 @@ E aqui, chegamos a um ponto crucial. A esmagadora maioria dos que nos procuram o
 # A Religião Loja de Departamentos
 
 **Categoria:** te | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
+**Título Original:** デパート教 | **Status:** Published
 
 ## A Religião Loja de Departamentos
 
@@ -802,6 +831,7 @@ Eis, em linhas gerais, o significado do termo “Religião Loja de Departamentos
 # Os Sistemas de Baixa Pressão São Calamidades de Origem Humana
 
 **Categoria:** te | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 低気圧は人災なり (再録) 自観叢書12編 | **Status:** Published
 
 ## Os Sistemas de Baixa Pressão São Calamidades de Origem Humana
 
@@ -830,6 +860,7 @@ Pelo exposto, fica evidente que o caminho para a prevenção dos sistemas de bai
 # O Paraíso é o Mundo da Arte
 
 **Categoria:** te | **Ano:** 昭和25(1950)年10月4日 | **Fonte:** Eikou
+**Título Original:** 天国は芸術の世界 | **Status:** Published
 
 ## O Paraíso é o Mundo da Arte
 
@@ -850,6 +881,7 @@ Portanto, tanto a nossa prática de curar doenças quanto a reforma que promovem
 # A Concretização da Profecia do Paraíso
 
 **Categoria:** te | **Ano:** 昭和25(1950)年3月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 天国予言の具体化 | **Status:** Published
 
 ## A Concretização da Profecia do Paraíso
 
@@ -866,6 +898,7 @@ Nesse sentido, a obra que atualmente realizamos já foi profetizada há dois mil
 # A Edificação do Paraíso Terrestre
 
 **Categoria:** te | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 天国篇 未発表 | **Status:** Unpublished
 
 ## A Edificação do Paraíso Terrestre
 
@@ -886,6 +919,7 @@ Passarei, então, a descrever em detalhes e de forma ordenada como será, concre
 # A Verdade sobre a Força de Resistência
 
 **Categoria:** te | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
+**Título Original:** 抵抗力 | **Status:** Published
 
 ## A Verdade sobre a Força de Resistência
 
@@ -902,6 +936,7 @@ Fica evidente, nesse sentido, o erro colossal em que a medicina incorre.
 # Uma Resposta à Angústia dos Conversos
 
 **Categoria:** te | **Ano:** 昭和24(1949)年12月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 転向者の悩みに応う | **Status:** Published
 
 ## Uma Resposta à Angústia dos Conversos
 
@@ -934,6 +969,7 @@ A fé autêntica é aquela que brota espontaneamente do fundo da alma, um impuls
 # A Epilepsia e as Enfermidades Mentais
 
 **Categoria:** te | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 癲癇と精神病 未発表 | **Status:** Unpublished
 
 ## A Epilepsia e as Enfermidades Mentais
 
@@ -950,6 +986,7 @@ Somente este fato já demonstra que o nosso lema de salvar toda a humanidade nã
 # Reflexões sobre a Decadência da Arte
 
 **Categoria:** te | **Ano:** 昭和25(1950)年9月27日 | **Fonte:** Eikou
+**Título Original:** 展覧会を観て（下） | **Status:** Published
 
 ## Reflexões sobre a Decadência da Arte
 
@@ -972,6 +1009,7 @@ Para concluir, dirijo-me a todos os pintores deste mundo com uma palavra final. 
 # O Discernimento sobre as Religiões Inferiores
 
 **Categoria:** te | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 低級宗教 | **Status:** Published
 
 ## O Discernimento sobre as Religiões Inferiores
 
@@ -994,6 +1032,7 @@ Existe, ademais, outra categoria, que consiste na veneração de raposas, tengus
 # O Paraíso é o Mundo da Arte
 
 **Categoria:** te | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
+**Título Original:** 天国は芸術の世界なり | **Status:** Published
 
 ## O Paraíso é o Mundo da Arte
 
@@ -1010,6 +1049,7 @@ Pelo exposto, cumpre-nos compreender que o Mundo de Miroku, o Paraíso na Terra,
 # Regulamento da Associação Tennenkai
 
 **Categoria:** te | **Ano:** 昭和6(1931)年7月10日 | **Fonte:** 天国の花
+**Título Original:** 天人会規約 （以印刷換謄写） | **Status:** Published
 
 ## Regulamento da Associação Tennenkai
 
@@ -1053,6 +1093,7 @@ Shofuso (松風荘), Hakkeien, Omori, Tóquio
 # A Edificação do Paraíso e a Expulsão do Mal
 
 **Categoria:** te | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 天国建設の順序と悪の追放 未発表 | **Status:** Unpublished
 
 ## A Edificação do Paraíso e a Expulsão do Mal
 
@@ -1081,6 +1122,7 @@ Com base no que foi explanado, o significado fundamental do bem e do mal deve es
 # A Religião do Paraíso e as Religiões do Inferno
 
 **Categoria:** te | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 天国的宗教と地獄的宗教 | **Status:** Published
 
 ## A Religião do Paraíso e as Religiões do Inferno
 
@@ -1115,6 +1157,7 @@ Diante da verdade aqui exposta, seria natural que qualquer pessoa celebrasse e e
 # Fé, Ceticismo e a Verdadeira Cura
 
 **Categoria:** te | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 哲学的に観たる本医術 | **Status:** Published
 
 ## Fé, Ceticismo e a Verdadeira Cura
 
@@ -1151,6 +1194,7 @@ Este fato, por si só, demonstra a inquestionável diferença no poder de cura. 
 # A Esfera dos Tengu
 
 **Categoria:** te | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 天狗界 | **Status:** Published
 
 ## A Esfera dos Tengu
 
@@ -1195,6 +1239,7 @@ Por outro lado, os possuídos por Tengu-pássaros manifestam as características
 # A Distinção entre Ujigami e Ubusunagami
 
 **Categoria:** u | **Ano:** 昭和24(1949)年7月30日 | **Fonte:** -
+**Título Original:** 氏神に就て | **Status:** Published
 
 ## A Distinção entre Ujigami e Ubusunagami
 
@@ -1209,6 +1254,7 @@ Ademais, ao se edificar um santuário Ubusuna, havia outras práticas. Em certos
 # Religião Paradisíaca e Religião Infernal
 
 **Categoria:** te | **Ano:** 昭和26(1951)年10月24日 | **Fonte:** Eikou
+**Título Original:** 天国的宗教と地獄的宗教 | **Status:** Published
 
 ## Religião Paradisíaca e Religião Infernal
 
@@ -1251,6 +1297,7 @@ E eu afirmo que essa religião é a nossa, a Igreja Messiânica. A razão para i
 # Sobre Predestinação e Destino
 
 **Categoria:** u | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 運命と自由主義 | **Status:** Published
 
 ## Sobre Predestinação e Destino
 
@@ -1267,6 +1314,7 @@ Portanto, quando se ultrapassa essa esfera, viola-se a liberdade alheia, e o ind
 # A Verdadeira Natureza do Universo
 
 **Categoria:** u | **Ano:** 昭和27(1952)年6月4日 | **Fonte:** Eikou
+**Título Original:** 宇宙は地球以外に生物なし | **Status:** Published
 
 ## A Verdadeira Natureza do Universo
 
@@ -1283,6 +1331,7 @@ Em virtude desses princípios, a astronomia, da qual os cientistas tanto se orgu
 # A Transformação do Destino
 
 **Categoria:** u | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 運命の転換 自観叢書第9篇 | **Status:** Published
 
 ## A Transformação do Destino
 
@@ -1314,6 +1363,7 @@ De fato, em minhas peregrinações a diversos santuários, vivenciei muitas situ
 # A Superstição dos Intelectuais
 
 **Categoria:** u | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 疑い結構 未発表 | **Status:** Unpublished
 
 ## A Superstição dos Intelectuais
 
@@ -1330,6 +1380,7 @@ Este fato demonstra claramente que o verdadeiro supersticioso é aquele que, ape
 # A Religião Covarde
 
 **Categoria:** i | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
+**Título Original:** 意気地のない宗教 | **Status:** Published
 
 ## A Religião Covarde
 
@@ -1343,7 +1394,8 @@ Em suma, sua empreitada assemelha-se à do louva-a-deus que tenta deter uma carr
 
 # A Prédica do Verme
 
-**Categoria:** u | **Ano:** 昭和8(1933)年10月16日 | **Fonte:** 蛆虫の説
+**Categoria:** u | **Ano:** 昭和8(1933)年10月16日 | **Fonte:** Kyusei
+**Título Original:** 蛆虫の説 | **Status:** Unpublished
 
 ## A Prédica do Verme
 
@@ -1370,6 +1422,7 @@ Portanto, despertem o quanto antes! Limpem bem os seus ouvidos e venham a mim. T
 # A Falácia da Medicina Moderna e o Princípio da Purificação
 
 **Categoria:** i | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 医学と自然 | **Status:** Published
 
 ## A Falácia da Medicina Moderna e o Princípio da Purificação
 
@@ -1394,6 +1447,7 @@ Sendo assim, tanto a saúde quanto a doença do ser humano devem ser compreendid
 # O Destino Pode Ser Livremente Moldado
 
 **Categoria:** u | **Ano:** 昭和27(1952)年2月27日 | **Fonte:** Eikou
+**Título Original:** 運命は自由に作れる | **Status:** Published
 
 ## O Destino Pode Ser Livremente Moldado
 
@@ -1418,6 +1472,7 @@ Para tanto, não há outro caminho senão a fé. É preciso ressaltar, contudo, 
 # A Ilusão das Curas Médicas Temporárias
 
 **Categoria:** i | **Ano:** - | **Fonte:** 医学の発見に就て
+**Título Original:** 医学の発見に就て | **Status:** Unpublished
 
 ## A Ilusão das Curas Médicas Temporárias
 
@@ -1440,6 +1495,7 @@ O que se pode depreender de tudo isso é que, ao testarem um novo fármaco, os p
 # A Mentira e a Felicidade
 
 **Categoria:** u | **Ano:** 昭和39(1964)年2月1日 | **Fonte:** Chijo Tengoku
+**Título Original:** 嘘と幸福 未発表、年代不詳 | **Status:** Unpublished
 
 ## A Mentira e a Felicidade
 
@@ -1468,6 +1524,7 @@ Há uma história a esse respeito. O célebre Kato Takaaki, que conquistou a adm
 # A Medicina é Incapaz de Diagnosticar as Doenças
 
 **Categoria:** i | **Ano:** 昭和27(1952)年9月10日 | **Fonte:** Eikou
+**Título Original:** 医診では病気は分らない | **Status:** Published
 
 ## A Medicina é Incapaz de Diagnosticar as Doenças
 
@@ -1511,6 +1568,7 @@ Muito obrigada, Meishu-Sama.
 # A Supersticiosa Crença na Mentira
 
 **Categoria:** u | **Ano:** 昭和26(1951)年9月5日 | **Fonte:** Eikou
+**Título Original:** 嘘吐き迷信 | **Status:** Published
 
 ## A Supersticiosa Crença na Mentira
 
@@ -1545,6 +1603,7 @@ Se não conseguem crer em uma verdade tão manifesta, é porque estão aprisiona
 # O Homicídio de Boa-Fé Praticado pela Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年6月17日 | **Fonte:** Eikou
+**Título Original:** 医学の恐ろしさ | **Status:** Published
 
 ## O Homicídio de Boa-Fé Praticado pela Medicina
 
@@ -1583,6 +1642,7 @@ Muito obrigada, Meishu-Sama.
 # A Falácia da Medicina Moderna
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 医学迷信 | **Status:** Published
 
 ## A Falácia da Medicina Moderna
 
@@ -1630,6 +1690,7 @@ Quando penso que, no momento do Juízo Final da humanidade, que se aproxima a pa
 # A Verdade sobre a Irresponsabilidade Médica
 
 **Categoria:** i | **Ano:** 昭和28(1953)年1月21日 | **Fonte:** Eikou
+**Título Original:** 医師の無責任という言葉 医学断片集（27） | **Status:** Published
 
 ## A Verdade sobre a Irresponsabilidade Médica
 
@@ -1644,6 +1705,7 @@ Situações como as descritas são ouvidas com frequência. Onde reside, portant
 # A Aterradora Realidade da Medicina e do Yakudoku
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医療と薬毒の恐怖 未発表 | **Status:** Unpublished
 
 ## A Aterradora Realidade da Medicina e do Yakudoku
 
@@ -1656,6 +1718,7 @@ Ao observar tais situações, anseio ardentemente que os próprios médicos, mai
 # A Grandiosidade do Johrei
 
 **Categoria:** i | **Ano:** 昭和28(1953)年12月9日 | **Fonte:** Eikou
+**Título Original:** 偉大なる哉浄霊 | **Status:** Published
 
 ## A Grandiosidade do Johrei
 
@@ -1695,6 +1758,7 @@ Meishu-Sama, muito obrigada.
 # As Escusas da Medicina
 
 **Categoria:** i | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
+**Título Original:** 医者の遁辞 | **Status:** Published
 
 ## As Escusas da Medicina
 
@@ -1709,6 +1773,7 @@ A esse respeito, recordo-me do desabafo de um certo doutor em medicina. Ele conf
 # A medicina como geradora de doenças: um caso real
 
 **Categoria:** i | **Ano:** 昭和27(1952)年8月20日 | **Fonte:** Eikou
+**Título Original:** 医学が病気を作る実例 | **Status:** Published
 
 ## A medicina como geradora de doenças: um caso real
 
@@ -1749,6 +1814,7 @@ Muito obrigado, Meishu-Sama.
 # Uma Espécie de Crime
 
 **Categoria:** i | **Ano:** 昭和26(1951)年3月14日 | **Fonte:** Eikou
+**Título Original:** 一種の罪悪 | **Status:** Published
 
 ## Uma Espécie de Crime
 
@@ -1769,6 +1835,7 @@ No entanto, se a questão se limitasse a isso, não seria tão problemática. O 
 # Uma Enfermidade de Causa Desconhecida pela Medicina
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 医学不明の流行病 | **Status:** Published
 
 ## Uma Enfermidade de Causa Desconhecida pela Medicina
 
@@ -1785,6 +1852,7 @@ Este quadro sintomático manifesta-se com maior frequência em pessoas das class
 # Uma Revolução na Medicina
 
 **Categoria:** i | **Ano:** 昭和26(1951)年11月7日 | **Fonte:** Eikou
+**Título Original:** 医学の革命 | **Status:** Published
 
 ## Uma Revolução na Medicina
 
@@ -1801,6 +1869,7 @@ Em suma, o primeiro passo de Deus é a reforma da medicina moderna. Diferentemen
 # A Impotência da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Eikou
+**Título Original:** 医学の無力 | **Status:** Published
 
 ## A Impotência da Medicina
 
@@ -1840,6 +1909,7 @@ Rogo humildemente que continue a nos proteger, a nós, que ainda carregamos tant
 # O Engano da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月18日 | **Fonte:** Eikou
+**Título Original:** 医学の迷蒙 | **Status:** Published
 
 ## O Engano da Medicina
 
@@ -1891,6 +1961,7 @@ Meishu-Sama, muito obrigado.
 # Os Médicos Iludidos pela Medicina
 
 **Categoria:** i | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
+**Título Original:** 医学に欺されてる医師 | **Status:** Published
 
 ## Os Médicos Iludidos pela Medicina
 
@@ -1923,6 +1994,7 @@ Por conseguinte, as pessoas que depositam uma fé cega e absoluta na medicina oc
 # A Verdadeira Gênese do Budismo
 
 **Categoria:** i | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 伊都能売神 未発表 | **Status:** Unpublished
 
 ## A Verdadeira Gênese do Budismo
 
@@ -1953,6 +2025,7 @@ Contudo, o nome Kanzeon encerra um profundo mistério, sobre o qual passarei a d
 # A Religião Viva
 
 **Categoria:** i | **Ano:** 昭和28(1953)年11月4日 | **Fonte:** Eikou
+**Título Original:** 生きてる宗教 | **Status:** Published
 
 ## A Religião Viva
 
@@ -1987,6 +2060,7 @@ Isso me faz recordar o célebre filósofo americano William James e sua doutrina
 # Um Exemplo da Superstição Médica
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
+**Título Original:** 医学迷信の一例 | **Status:** Published
 
 ## Um Exemplo da Superstição Médica
 
@@ -2032,6 +2106,7 @@ A Meishu-Sama, meu eterno e mais profundo agradecimento.
 # O Exemplo Típico do Crente na Superstição Médica
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学迷信者の典型的実例 未発表 | **Status:** Unpublished
 
 ## O Exemplo Típico do Crente na Superstição Médica
 
@@ -2048,6 +2123,7 @@ A esse respeito, cumpre advertir: será muito mais sensato que o façam o quanto
 # A Ineficácia da Medicina e a Verdadeira Salvação da Tuberculose
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 医学関係者よ | **Status:** Published
 
 ## A Ineficácia da Medicina e a Verdadeira Salvação da Tuberculose
 
@@ -2127,6 +2203,7 @@ Em minhas palavras finais, expresso minha mais profunda gratidão a Meishu-Sama.
 # A Origem Espiritual do Câncer de Estômago
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 胃癌・ 病気と霊五 | **Status:** Published
 
 ## A Origem Espiritual do Câncer de Estômago
 
@@ -2147,6 +2224,7 @@ No caso do câncer aparente, embora a condição da área afetada possa parecer 
 # Os Equívocos Fundamentais da Medicina Moderna
 
 **Categoria:** i | **Ano:** 昭和26(1951)年9月26日 | **Fonte:** Eikou
+**Título Original:** 医学の考え方 | **Status:** Published
 
 ## Os Equívocos Fundamentais da Medicina Moderna
 
@@ -2176,7 +2254,8 @@ Para concluir, o pensamento que norteou a medicina até hoje esteve focado exclu
 
 # Um Mundo de Embustes
 
-**Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** インチキ世界 滑稽阿呆文学
+**Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** 滑稽阿呆文学
+**Título Original:** インチキ世界 | **Status:** Unpublished
 
 ## Um Mundo de Embustes
 
@@ -2199,6 +2278,7 @@ Todavia, há algo que me inspira uma admiração ainda maior: a previsão do tem
 # O Que se Espera da Medicina
 
 **Categoria:** i | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
+**Título Original:** 医学に望む | **Status:** Published
 
 ## O Que se Espera da Medicina
 
@@ -2219,6 +2299,7 @@ Nesse sentido, o que almejamos é que a medicina progrida, o mais brevemente pos
 # O Engano da Medicina e a Salvação Final
 
 **Categoria:** i | **Ano:** 昭和27(1952)年11月12日 | **Fonte:** Eikou
+**Título Original:** 医学被害者の例 | **Status:** Published
 
 ## O Engano da Medicina e a Salvação Final
 
@@ -2266,6 +2347,7 @@ Reitero a minha gratidão.
 # A Anatomia da Superstição
 
 **Categoria:** i | **Ano:** 昭和24(1949)年5月14日 | **Fonte:** -
+**Título Original:** 所謂、迷信の解剖 信仰は飽く迄冷静に | **Status:** Published
 
 ## A Anatomia da Superstição
 **A fé deve ser, acima de tudo, serena**
@@ -2293,6 +2375,7 @@ Há mais um ponto a ser observado: a fé deve ser mantida com a mais absoluta se
 # A Ilusão da Ciência e o Milagre do Johrei
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月18日 | **Fonte:** Eikou
+**Título Original:** 医療ナンセンス | **Status:** Published
 
 ## A Ilusão da Ciência e o Milagre do Johrei
 
@@ -2336,6 +2419,7 @@ Com estas palavras, encerro este artigo, louvando a virtude divina de Meishu-Sam
 # Os Médicos como Colaboradores de Nossa Fé
 
 **Categoria:** i | **Ano:** 昭和26(1951)年10月17日 | **Fonte:** Eikou
+**Título Original:** 医師は本教の協力者 | **Status:** Published
 
 ## Os Médicos como Colaboradores de Nossa Fé
 
@@ -2358,6 +2442,7 @@ Podemos traçar um paralelo: a lei se faz necessária pela existência dos crimi
 # Um Caso Concreto de Doenças Criadas pela Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学が病気を作る実例 未発表 | **Status:** Unpublished
 
 ## Um Caso Concreto de Doenças Criadas pela Medicina
 
@@ -2370,6 +2455,7 @@ Certamente, os próprios médicos se deparam constantemente com situações aná
 # Esclarecimento Acerca de Falsas Acusações em Ashikaga
 
 **Categoria:** i | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
+**Título Original:** 医薬に反対せず 足利にまた本教中傷事件 | **Status:** Published
 
 ## Esclarecimento Acerca de Falsas Acusações em Ashikaga
 
@@ -2406,6 +2492,7 @@ Telefone: Odawara 453
 # A Superstição da Medicina Contemporânea
 
 **Categoria:** i | **Ano:** 昭和26(1951)年10月31日 | **Fonte:** Eikou
+**Título Original:** 医学迷信 | **Status:** Published
 
 ## A Superstição da Medicina Contemporânea
 
@@ -2448,6 +2535,7 @@ No momento do Juízo Final da humanidade, que se aproxima a passos largos, imagi
 # A Impotência da Medicina e o Poder Magnífico do Johrei
 
 **Categoria:** i | **Ano:** 昭和28(1953)年11月4日 | **Fonte:** Eikou
+**Título Original:** 医学の無力と浄霊の偉力 | **Status:** Published
 
 ## A Impotência da Medicina e o Poder Magnífico do Johrei
 
@@ -2482,6 +2570,7 @@ Meishu-Sama, receba nossa mais profunda e sincera gratidão.
 # Uma Dissecação das Falácias da Medicina
 
 **Categoria:** i | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 医学の解剖 | **Status:** Published
 
 ## Uma Dissecação das Falácias da Medicina
 
@@ -2514,6 +2603,7 @@ Pois bem, passemos finalmente à explanação detalhada sobre os equívocos da m
 # A Profunda Falácia do Ditado "Até a Cabeça da Sardinha é Objeto de Fé"
 
 **Categoria:** i | **Ano:** 昭和10(1935)年 | **Fonte:** 鰯の頭も信心とは大いなる誤りである
+**Título Original:** 鰯の頭も信心とは大いなる誤りである | **Status:** Unpublished
 
 ## A Profunda Falácia do Ditado "Até a Cabeça da Sardinha é Objeto de Fé"
 
@@ -2546,6 +2636,7 @@ Em suma, é imprescindível que os japoneses compreendam que a fé mais isenta d
 # A Dor e a Febre
 
 **Categoria:** i | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 痛みと熱 | **Status:** Unknown
 
 ## A Dor e a Febre
 
@@ -2576,6 +2667,7 @@ Resta ainda a preocupação de que a febre agrave o estado de fraqueza do doente
 # Acerca das Substâncias Estranhas ao Organismo
 
 **Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 異食物に就て | **Status:** Published
 
 ## Acerca das Substâncias Estranhas ao Organismo
 
@@ -2602,6 +2694,7 @@ Portanto, como expliquei anteriormente, o verdadeiro alimento humano é sempre s
 # A Essência da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
+**Título Original:** 医学の本体 | **Status:** Published
 
 ## A Essência da Medicina
 
@@ -2661,6 +2754,7 @@ Meishu-Sama, muito obrigado. Agradeço e reitero minha gratidão por Sua imensa 
 # Os Absurdos da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Eikou
+**Título Original:** 医学の出鱈目 | **Status:** Published
 
 ## Os Absurdos da Medicina
 
@@ -2711,6 +2805,7 @@ Meishu-Sama, muito obrigada.
 # A Disciplina de Não se Irritar
 
 **Categoria:** i | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 怒る勿れ | **Status:** Published
 
 ## A Disciplina de Não se Irritar
 
@@ -2735,34 +2830,6 @@ Portanto, após esgotar todas as pesquisas e chegar a uma certeza absoluta sobre
 Há mais um ponto ao qual gostaria de atentar: não sejam gananciosos. Conforme ensina o antigo provérbio, “a grande cobiça equivale à ausência de cobiça”. A causa de oito ou nove em cada dez prejuízos reside no excesso de ganância. Pessoas frequentemente se aproximam com propostas que soam boas demais para ser verdade. No mundo, não existem facilidades dessa natureza. Portanto, é preciso ter cautela com propostas excessivamente vantajosas; por outro lado, aquelas que parecem modestas podem, na verdade, conter um grande potencial futuro.
 
 Para ilustrar esses pontos, contarei uma experiência pessoal. Na época em que eu desejava ardentemente quitar minhas dívidas e, ao mesmo tempo, sentia a necessidade de investir na gestão de nossas atividades religiosas, eu ansiava por recursos financeiros. Contudo, quanto mais eu os desejava, menos eles apareciam. Por fim, resignado, entreguei o assunto a Deus e passei a não mais pensar em dinheiro. Foi a partir desse momento que os recursos começaram a afluir de fontes inesperadas. Isso me fez compreender que os assuntos do mundo, em verdade, não podem ser decifrados pela lógica humana.
-
----
-
-# A Essência da Medicina
-
-**Categoria:** i | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
-
-## A Essência da Medicina
-
-Indubitavelmente, a Medicina tem por finalidade curar todas as enfermidades, aprimorar a saúde da nação e, por conseguinte, contribuir para o progresso do país. É precisamente por essa razão que o governo lhe concede um tratamento privilegiado, situando-a entre os mais importantes setores da estrutura nacional. Ademais, considerando que a Medicina detém a chave para a solução da premente questão dos recursos humanos, a magnitude de sua missão é, pois, indiscutível.
-
-Até o presente momento, vali-me da teoria e da comprovação prática para apontar a totalidade dos equívocos da medicina ocidental. Contudo, subsiste uma questão que não pode ser negligenciada, a qual já abordei anteriormente: a saúde dos próprios médicos e de seus familiares. Em meu entender, se a medicina moderna tivesse de fato evoluído em seu sentido mais autêntico, essa evolução deveria manifestar-se por meio de evidências concretas. Por mais que se elaborem teorias acadêmicas, que se anunciem novas teses ou que se exalte o avanço de medicamentos, equipamentos e métodos, tudo isso se esvazia de significado se não demonstrar eficácia na prática.
-
-Portanto, sustento que, se a medicina verdadeiramente progrediu, ela tem o dever de apresentar ao mundo as provas concretas desse avanço, compelindo ao silêncio críticos como nós. Caso se mostre incapaz de fazê-lo, a expressão "progresso da medicina" não passará de uma fórmula vazia. E, sendo assim, não seria o caso de dissolver a medicina ocidental e reconstruí-la sobre os alicerces de uma nova teoria, fundamentada nos fatos? Minhas palavras podem soar extremas, mas não as lanço ao vento. Há razões sólidas para tal postulado, as quais passarei a dissecar sem reservas.
-
-A prova mais contundente para atestar o valor da medicina ocidental seria, como já mencionei, demonstrar que a saúde dos médicos e de seus familiares se encontra em um patamar superior à média da população. No entanto, ao observarmos a realidade, encontramos indícios que sugerem justamente o contrário: um padrão de saúde inferior ao do cidadão comum. Refiro-me à curta expectativa de vida dos doutores em medicina, à alta taxa de morbidade entre os próprios médicos, à fragilidade de seus familiares e, ainda, à elevada proporção de filhos de médicos acometidos pela tuberculose. É de se supor que os médicos, zelando pela própria vida, adotem as mais meticulosas precauções. Da mesma forma, ao se depararem com um familiar enfermo, certamente lhe dispensariam o melhor tratamento desde os primeiros sinais, não havendo, em tese, margem para agravamentos por diagnóstico tardio. Se, apesar de tudo isso, os fatos são os que apresentei, o conceito de medicina preventiva, tão difundido ultimamente, revela-se desprovido de sentido, pois os próprios médicos já demonstraram, em si mesmos, a dificuldade de prevenir as doenças.
-
-Sendo assim, para que a medicina ocidental demonstre à sociedade seu genuíno progresso, o passo fundamental seria exibir um nível de saúde entre os médicos e suas famílias que fosse muito superior ao da população em geral. Ao testemunhar tal fato, o povo não teria como deixar de reconhecer o avanço da medicina ocidental. Isso, porém, é provavelmente impossível. Não obstante, as autoridades e os especialistas insistem em apontar a falta de conhecimento de higiene da população e tentam impor vacinas e outros métodos de forma coercitiva. O fato de haver uma parcela considerável da nação que evita ou ignora tais medidas é a prova cabal de que o povo não deposita confiança irrestrita na medicina ocidental. Por conseguinte, os responsáveis deveriam, antes de tudo, refletir sobre essa realidade.
-
-Mesmo as massas sabem o quão preciosa é a vida. Como mencionado, quando os cidadãos percebem que a saúde dos médicos e de suas famílias é precária, e quando chegam a seus ouvidos casos, ainda que raros, de morte súbita após vacinas contra febre tifoide, ou de estados de quase morte por vacina contra difteria, é natural que nutram um sentimento de apreensão. Acrescente-se a isso o número não desprezível de vidas ceifadas por erros cirúrgicos. Anos atrás, ouvi dizer que um certo cirurgião de renome operava seus pacientes com prazer, mas jamais realizava cirurgias em seus próprios familiares e parentes, por receio de cometer um erro.
-
-Tudo isso ocorre porque a medicina ocidental não demonstra eficácia de modo concreto. Na verdade, talvez seja mais correto dizer que ela é incapaz de demonstrá-la. Como resultado, é inevitável que a moxabustão e as terapias populares floresçam nos dias de hoje. É um fato inegável que, atualmente, aqueles que prezam a teoria recorrem à medicina, enquanto os que prezam os resultados práticos buscam as terapias populares.
-
-Não há necessidade de nos estendermos. Enquanto a medicina ocidental não comprovar que possui eficácia garantida contra todas as doenças e que está isenta de quaisquer efeitos adversos, será impossível obter a confiança plena da nação. Se, porventura, tal eficácia se tornasse realidade, o próprio povo passaria a solicitar as vacinas e qualquer hesitação diante de uma cirurgia se dissiparia. Naturalmente, tanto o método da moxabustão, criado pelos antigos indianos, quanto a medicina chinesa, desenvolvida há mais de dois mil anos, bem como as atuais terapias populares, desapareceriam por completo. A realidade, contudo, é o exato oposto, e ainda assim se continua a discursar sobre o progresso da medicina ocidental. Eis um paradoxo que permanece sem solução.
-
-Cumpre-me abordar mais um ponto de suma importância: as atuais campanhas de saúde pública e as diretrizes de combate à tuberculose. Visto que ambas se baseiam exclusivamente em métodos da medicina ocidental, quais serão seus resultados? Creio que não será possível alcançar um desempenho superior ao padrão de saúde observado nas famílias dos próprios médicos. Afinal, se os familiares, que são as pessoas mais próximas dos profissionais da medicina, não conseguem superar o nível de saúde da população em geral, a conclusão é lógica. Resta-me apenas nutrir a fervorosa esperança de que o vultoso dispêndio do tesouro nacional e a alocação de inúmeros recursos humanos para tais iniciativas não terminem em vão.
-
-Entretanto, ao se conhecer esta Arte Médica Japonesa, a saúde no lar eleva-se a um patamar muito superior à média, permitindo a construção de lares com saúde ideal. Isto é um fato. Em outras palavras, enquanto a medicina ocidental é extrínseca, esta Arte Médica é intrínseca. Nesse sentido, faço um apelo às autoridades: que não dependam exclusivamente da medicina ocidental, mas que investiguem e estudem todas as terapias populares, a fim de estabelecer uma política de saúde pública que tenha como pilar os resultados práticos.
 
 ---
 

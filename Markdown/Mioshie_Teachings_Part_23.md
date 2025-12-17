@@ -3,6 +3,7 @@
 # O Encontro dos Três Miroku (弥勒三会)
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月1日） | **Status:** Published
 
 ## O Encontro dos Três Miroku (弥勒三会)
 
@@ -55,6 +56,7 @@ Deus é verdadeiramente meticuloso e providencia tudo, do princípio ao fim. Sem
 # A Realidade Espiritual e a Ilusão do Mundo Material
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年9月17日） | **Status:** Published
 
 ## A Realidade Espiritual e a Ilusão do Mundo Material
 
@@ -121,6 +123,7 @@ Em Los Angeles, as pessoas estão sendo curadas em grande número apenas por par
 # A Purificação da Gripe e a Batalha Espiritual contra a Medicina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月26日） | **Status:** Published
 
 ## A Purificação da Gripe e a Batalha Espiritual contra a Medicina
 
@@ -163,6 +166,7 @@ Nosso método, ao contrário, dissolve e expulsa, promovendo a cura real. Por es
 # A Missão do Havaí e a Alvorada da Verdadeira Civilização
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月25日） | **Status:** Published
 
 ## A Missão do Havaí e a Alvorada da Verdadeira Civilização
 
@@ -213,6 +217,7 @@ Contudo, a Obra Divina é, em si, extremamente célere. A edição mais recente 
 # A Perspicácia Estrangeira e a Limitação Japonesa
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月26日） | **Status:** Published
 
 ## A Perspicácia Estrangeira e a Limitação Japonesa
 
@@ -269,6 +274,7 @@ Isso poderia levar à conclusão de que tais coisas são necessárias. Contudo, 
 # O Plano Divino da Vertical e da Horizontal
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月21日） | **Status:** Published
 
 ## O Plano Divino da Vertical e da Horizontal
 
@@ -299,6 +305,7 @@ Assim sendo, o Plano Divino é de uma profundidade imensa, que se tornará cada 
 # A Nova Etapa da Obra Divina e a Construção do Paraíso
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S27年3月25日） | **Status:** Published
 
 ## A Nova Etapa da Obra Divina e a Construção do Paraíso
 
@@ -339,6 +346,7 @@ Minha intenção era não realizar Johrei durante os dias do culto, mas, devido 
 # Sobre a Inteligência e a Causa da Infelicidade
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年6月26日） | **Status:** Published
 
 ## Sobre a Inteligência e a Causa da Infelicidade
 
@@ -374,7 +382,8 @@ Este último artigo também está relacionado ao tema. Trata das doenças contag
 
 # O Grande Julgamento e a Missão Divina
 
-**Categoria:** kouwa | **Ano:** 昭和11(1936)年1月21日 | **Fonte:** Gokowa 昭和11
+**Categoria:** kouwa | **Ano:** 昭和11(1936)年1月21日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## O Grande Julgamento e a Missão Divina
 
@@ -474,7 +483,8 @@ A Europa, com seu poderio militar consolidado, é um alvo difícil. Portanto, a 
 
 # A Providência Divina dos Números, Símbolos e Lugares Sagrados
 
-**Categoria:** kouwa | **Ano:** 昭和23(1948)年 | **Fonte:** Gokowa 五六七教会小田原別院において 昭和23
+**Categoria:** kouwa | **Ano:** 昭和23(1948)年 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Providência Divina dos Números, Símbolos e Lugares Sagrados
 
@@ -525,6 +535,7 @@ O ouro representa o Japão, que é conhecido como o País do Ouro. Kannon (観�
 # A Essência do Grande Veículo na Fé
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年4月25日） | **Status:** Published
 
 ## A Essência do Grande Veículo na Fé
 
@@ -583,6 +594,7 @@ Por essa razão, o comunismo teve seu apogeu enquanto Stalin estava vivo. E a Am
 # Uma Mensagem aos Fiéis
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月26日 | **Fonte:** Eikou
+**Título Original:** 明主様御言葉 | **Status:** Published
 
 ## Uma Mensagem aos Fiéis
 
@@ -632,6 +644,7 @@ Portanto, rogo que, agora mais do que nunca, todos se unam como um só corpo par
 # O Discernimento entre o Verdadeiro e o Falso
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月25日） | **Status:** Published
 
 ## O Discernimento entre o Verdadeiro e o Falso
 
@@ -666,6 +679,7 @@ Por fim, quando estive em Quioto no mês passado, os deuses dos santuários daqu
 # A Expansão da Fé e a Revolução da Medicina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年11月25日） | **Status:** Published
 
 ## A Expansão da Fé e a Revolução da Medicina
 
@@ -711,7 +725,8 @@ Médicos e farmacêuticos serão os sacrifícios dessa revolução. No entanto, 
 
 # A Estrutura Trina do Universo e a Nova Era da Luz
 
-**Categoria:** kouwa | **Ano:** 昭和15(1940)年5月4日 | **Fonte:** 特別講習会Gokowa 昭和15
+**Categoria:** kouwa | **Ano:** 昭和15(1940)年5月4日 | **Fonte:** Gokowa
+**Título Original:** 特別講習会御講話 | **Status:** Unknown
 
 ## A Estrutura Trina do Universo e a Nova Era da Luz
 
@@ -818,6 +833,7 @@ Assim, a compreensão da relação indissociável entre o espírito e o corpo é
 # O Avanço da Obra Divina e a Alvorada do Mundo do Dia
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S28年3月27日） | **Status:** Published
 
 ## O Avanço da Obra Divina e a Alvorada do Mundo do Dia
 
@@ -880,6 +896,7 @@ A arte do Ukiyo-e desperta grande interesse entre os estrangeiros que vivem no J
 # O Progresso da Obra Divina e as Revelações da Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S29年3月27日） | **Status:** Published
 
 ## O Progresso da Obra Divina e as Revelações da Nova Era
 
@@ -934,6 +951,7 @@ Ademais, como mencionei, os fundadores das diversas religiões e outros grandios
 # A Observância da Natureza e o Discernimento da Verdade
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月27日） | **Status:** Published
 
 ## A Observância da Natureza e o Discernimento da Verdade
 
@@ -1002,6 +1020,7 @@ A este respeito, estou escrevendo agora sobre o Juízo Final, o Fim do Mundo, qu
 # A Superioridade Artística Japonesa e a Civilização Vindoura
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月27日） | **Status:** Published
 
 ## A Superioridade Artística Japonesa e a Civilização Vindoura
 
@@ -1040,6 +1059,7 @@ No entanto, em termos de magnitude, seu poder é tão extraordinário quanto o d
 # A Essência da Agricultura Natural e a Construção do Paraíso em Quioto
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月27日） | **Status:** Published
 
 ## A Essência da Agricultura Natural e a Construção do Paraíso em Quioto
 
@@ -1084,6 +1104,7 @@ Ainda haveria muito a dizer, mas o tempo é escasso. Queria apenas compartilhar 
 # O Protótipo do Paraíso e a Transição Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S27年9月23日） | **Status:** Published
 
 ## O Protótipo do Paraíso e a Transição Mundial
 
@@ -1138,6 +1159,7 @@ Com isto, encerro minhas palavras. Sei que muitos aguardam ansiosamente, então 
 # A Concretização da Obra Divina e o Advento do Mundo Ideal
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S26年9月23日） | **Status:** Published
 
 ## A Concretização da Obra Divina e o Advento do Mundo Ideal
 
@@ -1184,6 +1206,7 @@ Por fim, gostaria de falar sobre o Johrei. Até hoje, os senhores tinham o costu
 # O Milagre da Regeneração e o Desapego
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月25日） | **Status:** Published
 
 ## O Milagre da Regeneração e o Desapego
 
@@ -1230,6 +1253,7 @@ As pessoas com ombros rígidos podem aplicar esse princípio a si mesmas. Certa 
 # A Missão da Estirpe do Sol
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月26日） | **Status:** Published
 
 ## A Missão da Estirpe do Sol
 
@@ -1272,6 +1296,7 @@ A tarefa mais urgente para os japoneses é expandir essa visão tacanha, transfo
 # A Essência da Agricultura Natural e a Missão da Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月26日） | **Status:** Published
 
 ## A Essência da Agricultura Natural e a Missão da Arte
 
@@ -1324,6 +1349,7 @@ Para ilustrar um ponto, permitam-me relatar uma ocorrência de quase vinte anos 
 # A Extensão da Vida e a Verdadeira Abundância da Terra
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月25日） | **Status:** Published
 
 ## A Extensão da Vida e a Verdadeira Abundância da Terra
 
@@ -1374,6 +1400,7 @@ Recentemente, na província de Ehime, em Shikoku, se não me engano, uma galinha
 # A Necessidade do Discernimento e da Retidão
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月26日） | **Status:** Published
 
 ## A Necessidade do Discernimento e da Retidão
 
@@ -1420,6 +1447,7 @@ Creio que acharão este trecho interessante.
 # A Batalha da Verdade na Medicina e na Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月21日） | **Status:** Published
 
 ## A Batalha da Verdade na Medicina e na Arte
 
@@ -1484,6 +1512,7 @@ Seja como for, chegará o dia em que todos compreenderão que o que digo é a ve
 # A Missão de Quioto e a Nova Era Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S27年4月30日） | **Status:** Published
 
 ## A Missão de Quioto e a Nova Era Mundial
 
@@ -1526,6 +1555,7 @@ A Igreja Messiânica não se dedica a obras sociais convencionais, como a constr
 # A Verdade sobre o Bem, o Mal e a Agricultura
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月8日） | **Status:** Published
 
 ## A Verdade sobre o Bem, o Mal e a Agricultura
 
@@ -1546,6 +1576,7 @@ Em casos extremos, como o de certa localidade na província de Shizuoka, a quebr
 # A Missão em Saga e a Salvação do Mundo Búdico
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S28年4月8日） | **Status:** Published
 
 ## A Missão em Saga e a Salvação do Mundo Búdico
 
@@ -1584,6 +1615,7 @@ Há mais um ponto que desejo ressaltar: a espantosa celeridade com que Deus atua
 # A Alvorada da Nova Civilização
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S28年3月26日） | **Status:** Published
 
 ## A Alvorada da Nova Civilização
 
@@ -1623,7 +1655,8 @@ A partir de junho, teremos a exposição de Ukiyo-e. Todas as obras já foram re
 
 # O Advento da Civilização Verdadeira
 
-**Categoria:** kouwa | **Ano:** 昭和26(1951)年5月22日 | **Fonte:** 真文明とはなにか 東京日比谷公会堂における講演会講話
+**Categoria:** kouwa | **Ano:** 昭和26(1951)年5月22日 | **Fonte:** 東京日比谷公会堂における講演会講話
+**Título Original:** 真文明とはなにか | **Status:** Unpublished
 
 ## O Advento da Civilização Verdadeira
 
@@ -1692,6 +1725,7 @@ Há muitos outros significados para o batismo de fogo, mas como o tempo avançou
 # As Transformações do Mundo Espiritual e seus Reflexos no Plano Terreno
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S29年3月26日） | **Status:** Published
 
 ## As Transformações do Mundo Espiritual e seus Reflexos no Plano Terreno
 
@@ -1745,7 +1779,8 @@ Antes, a Sekaikyuseikyou era vista com desconfiança: “aquilo é estranho”, 
 
 # A Cura pelo Equilíbrio: A Essência do Caminho de Kannon
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年11月21日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年11月21日 | **Fonte:** Kenko
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Cura pelo Equilíbrio: A Essência do Caminho de Kannon
 
@@ -1778,6 +1813,7 @@ Kannon não é masculino nem feminino e, no entanto, é ambos. Kannon abrange os
 # A Clareza da Verdade na Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年9月18日） | **Status:** Published
 
 ## A Clareza da Verdade na Nova Era
 

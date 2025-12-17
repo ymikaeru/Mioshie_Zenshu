@@ -1,8 +1,649 @@
 # Mioshie_Teachings - Part 57
 
+# Palestra do Culto de Outono (24 de setembro de 1952)
+
+**Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話（S27年9月24日） | **Status:** Published
+
+## Palestra do Culto de Outono (24 de setembro de 1952)
+
+Aproximando-se este Grande Culto, tenho uma excelente notícia a compartilhar: conseguimos adquirir em Quioto um terreno exatamente como o que havíamos idealizado. Na primavera deste ano, cheguei a visitar um local em Saga, Quioto — em um ponto distinto de Hirosawa. Naquela ocasião, o lugar me agradou, mas o preço era tão elevado que a aquisição se mostrava inviável. Pensei que não haveria outra solução senão aguardar o momento oportuno, confiando que Deus, de alguma forma, providenciaria o necessário. Recentemente, contudo, a oportunidade surgiu, e o terreno pôde ser adquirido por um valor bastante razoável. Há, nesse desfecho, um profundo mistério.
+
+Em Saga, existe o templo Shaka-do, famoso desde a antiguidade como o Templo de Shakyamuni de Saga. Guardo uma lembrança muito vívida desse lugar de cerca de quarenta anos atrás. Eu tinha por volta de vinte e sete ou vinte e oito anos, e, levado por um conhecido de Quioto, visitei os pontos turísticos da cidade. Fomos então ao Shaka-do para ver a pintura de um dragão que Seiho acabara de concluir no teto, o que me deixou uma impressão marcante. No ano passado, na primavera, durante minha primeira visita a Quioto, retornei ao Shaka-do. Na volta, creio que a caminho de uma palestra no templo Honen-in, passei de carro pelo lago de Hirosawa, que ficava à minha esquerda. Pensei como aquela região era bela e, a partir de então, senti ser imperativo construir ali o Paraíso Terrestre de Quioto, pois aquele local me parecia o que melhor expressava a alma da cidade. Se fôssemos adquirir uma propriedade, deveria ser ali. Eis que, exatamente um ano depois, na primavera deste ano, pouco antes de minha viagem a Quioto, recebi a notícia de que havia um terreno à venda naquela mesma área e me pediram para avaliá-lo. Foi assim que tudo se desenrolou. A área total é de dezoito mil tsubo. Eu havia solicitado algo maior, com mais de trinta mil tsubo, mas, como certamente haverá expansões futuras, o terreno se tornará ainda maior.
+
+O mais interessante é que a propriedade se localiza precisamente entre o Shaka-do e o Honen-in. O Honen-in, assim nomeado por ter sido o templo onde residiu o monge Honen, abriga uma imponente e magnífica estátua de Amitabha. Sendo um Tesouro Nacional, é uma obra de arte primorosa, talvez a maior escultura de seu gênero. Foi Honen quem mais difundiu os ensinamentos de Amitabha — o Namu Amida Butsu —, propagando a invocação do nome sagrado de seis caracteres. Seu discípulo, Shinran, deu grande impulso à disseminação de seus ensinamentos. Mais tarde, o sexto sucessor, Rennyo, expandiu a escola por todo o país, construindo templos em diversas localidades. A raiz da escola Shinshu, portanto, está em Honen, o que torna o Honen-in o centro devocional a Amitabha. Desse modo, Kannon (観音) se posiciona exatamente no centro, entre Shakyamuni e Amitabha. Kannon, ao centro, tem à sua direita Shakyamuni e, à sua esquerda, Amitabha. Nesta configuração, Amitabha representa o princípio masculino, e Shakyamuni, o feminino. A terra que adquirimos assume justamente essa posição. Como Quioto é o modelo do Mundo Búdico, o centro desse mundo — Kannon, Amitabha e Shakyamuni — se estabelece em Saga. O kotodama da palavra "Saga" também remete a "Shaka". Isso assinala o início da abertura do Mundo Búdico, e a abertura do Mundo Búdico significa, em verdade, o fim do budismo como o conhecemos. Assim, com a construção de nosso protótipo em Quioto, certamente ocorrerão diversas transformações no âmbito do budismo.
+
+Ampliando essa perspectiva, Hakone corresponde ao número "cinco". Por ser montanha e Fogo, representa o cinco. Atami corresponde ao "seis", por ter montanhas mais baixas e o mar. Quioto, por sua vez, será o "sete", que corresponde à Terra. A ordem é, portanto, esta. O cinco é Deus, ou seja, o Mundo Divino. O seis é o Mundo Material, que em essência é a civilização científica. O mundo até hoje foi, pois, o mundo do seis, o mundo da Água. E o sete é o Mundo Búdico. É possível compreender dessa forma. Quioto, portanto, está intrinsecamente ligado ao sete, que representa a "terra", um lugar que deve ser plano. O próprio nome Quioto carrega esse significado. Com a construção do Paraíso Terrestre em Quioto, teremos Hakone, Atami e Quioto como cinco, seis e sete, formando a trindade que representa a materialização do Mundo de Miroku. Vemos, assim, que o plano de Deus se desenrola com precisão absoluta, em conformidade com a época.
+
+Curiosamente, algo relacionado a isso ocorreu. Eu não planejava ir a Quioto no próximo mês, mas o Museu de Arte de Quioto, que estava sob requisição, foi finalmente devolvido. Para comemorar, decidiram organizar uma exposição de Ukiyo-e e vieram me solicitar algumas obras emprestadas. Representantes do Museu Nacional de Tóquio e do jornal Kyoto Shimbun — creio que o editor-chefe — vieram pessoalmente pedir as gravuras. Concordei em ceder quatro ou cinco peças, e isso despertou em mim um grande desejo de visitar a exposição, de modo que decidi ir. Então, de forma inesperada, veio a notícia de que o terreno finalmente era nosso, e meu anseio de vê-lo o quanto antes se intensificou. Nesses pormenores, a providência Divina é de uma sutileza notável.
+
+Para o local, escolhi o nome de "Heian-kyo" (平安郷). Quioto é conhecida desde a antiguidade como a capital da paz e da tranquilidade (Heian), e seu apogeu cultural ocorreu justamente durante o Período Heian. Além disso, era fundamental que o caractere "hei" (平), de plano, estivesse presente. Sendo o número sete, o local precisa ser plano. Portanto, Heian-kyo é o nome mais apropriado. Havia também uma casa de considerável beleza na propriedade, à qual dei o nome de "Shunju-an" (春秋庵). Shunju significa "primavera e outono". Hakone e Atami representam o inverno e o verão; logo, este novo local representa a primavera e o outono. Assim, com a Shunju-an, as quatro estações climáticas se completam. Desta vez, tanto nos jardins quanto nas construções, pretendo criar algo puramente japonês, sem qualquer vestígio de influência ocidental. Já em Atami, a ideia é seguir um estilo puramente ocidental, sem traços da estética japonesa. Como mencionei, o número seis representa a civilização material, a civilização do Ocidente. Portanto, é mais coerente que Atami adote um estilo ocidental. Hakone, por sua vez, é o centro de ambos, a origem de tudo. Como diz o poema que recitei para este Grande Culto, Hakone é o elo fundamental entre as culturas do Oriente e do Ocidente, incorporando elementos de ambas as partes. Em Atami, por outro lado, tanto o novo salão quanto o mirante e o museu serão inteiramente de estilo ocidental.
+
+Em Quioto, como disse, tudo será feito no estilo japonês. Contudo, embora a cidade pareça abrigar toda a gama da cultura japonesa, a meu ver, a verdadeira essência do Japão se manifesta apenas em fragmentos, sem que haja uma única obra que a sintetize em sua totalidade. A arte do antigo Período Nara, por exemplo, é uma arte religiosa, budista. Trata-se de algo específico, destinado à veneração, e não ao deleite do povo. Era a Meca da época, centrada no ato de reverenciar. Posteriormente, a cultura do Período Heian, da era Fujiwara, era uma cultura aristocrática. Embora extremamente refinada e bela, não havia uma arte voltada para o usufruto do cidadão comum. Em seguida, no Período Kamakura, a cultura floresceu em Kamakura. Já na era Ashikaga, surgiu uma forma que mesclava a cultura budista com a cultura aristocrática de Heian. É o que chamamos de cultura Higashiyama. Sob forte influência da cultura chinesa, foram construídos edifícios como o Kinkaku-ji e o Ginkaku-ji, que bem exemplificam essa fusão. Sua forma é, em grande parte, chinesa, mas neles se percebe uma harmonização com a estética budista do Período Nara até a era Konin, bem como com o estilo palaciano da nobreza Fujiwara. Na pintura, também durante a era Ashikaga, surgiu o estilo de pintura a nanquim de Higashiyama, nascido na China. Foi a partir do estudo da pintura chinesa que se desenvolveram escolas de pintura japonesa como a Escola Kano. Mesmo assim, ainda não havia uma arte que o povo pudesse apreciar.
+
+Foi no Período Momoyama que, sob a liderança de um grande homem como Hideyoshi, nasceu a arte Momoyama. No entanto, essa arte se caracterizava pela suntuosidade e pela ostentação. O maior exemplo talvez seja o Castelo de Nijo. Embora seja uma construção magnífica, sua forma final foi concluída apenas na época do segundo xogum. É imponente, mas o efeito obtido não corresponde ao investimento empregado; falta-lhe dignidade. Transmite uma impressão rústica. Outro exemplo é o Templo Hongan-ji, onde o Taiko Hideyoshi realizava suas reuniões. Também é suntuoso, mas não passa de uma decoração dourada com pinturas de cores vibrantes, desprovida de requinte. Chega a ser, falando abertamente, de mau gosto. Ao entrar em seus salões, não se sente nem tranquilidade, nem profundidade, nem qualquer traço de elegância. Em meio a essa cultura exuberante do Período Momoyama, surgiu, em contrapartida, a estética do chá. Essa foi uma grande contribuição. Um homem de extraordinário talento chamado Rikyu, com o apoio de Hideyoshi, criou a cerimônia do chá, estabelecendo uma estética do *wabi*, o oposto do ornamental. Isso é louvável, mas reflete uma cultura de extremos.
+
+Posteriormente, no Período Genroku, a arte e a cultura, que até então eram criadas para o deleite exclusivo dos xoguns e dos soberanos da época, começaram a se tornar acessíveis ao povo. Os ricos daquele tempo, para seu próprio prazer, impulsionaram o desenvolvimento de pinturas da Escola Rinpa, do Ukiyo-e e de tecidos como os de Nishijin. As peças de laca *makie* expostas em nosso museu, por exemplo, datam em sua maioria de antes e depois do Período Genroku. Nessa época, porém, jardins e arquitetura ainda eram inacessíveis ao povo. Os cidadãos comuns não podiam construí-los. Afinal, por criarem tecidos um pouco mais sofisticados, considerados excessivamente luxuosos, muitos artesãos foram condenados à prisão domiciliar ou ao exílio. O luxo se limitava, portanto, a utensílios, tecidos e adornos. A arquitetura e os jardins permaneciam como monopólio dos governantes e dos senhores feudais. A arquitetura da época, derivada dos templos, era suntuosa, com pilares grossos e salões vastos de dezenas ou centenas de tatames, seguindo um formato rígido com *tokonoma* e *chigai-dana*, sem qualquer evolução. No ano passado, visitei o Templo Hongan-ji, que é um exemplo representativo da arquitetura daquele tempo. Os jardins também seguiam um padrão fixo: um grande lago ao centro, com pedras e árvores dispostas nas margens. Não havia nenhum progresso.
+
+Por essa razão, desta vez, em Heian-kyo, pretendo criar uma obra que sintetize os melhores aspectos parciais de nossa tradição de jardins e arquitetura, manifestando um senso estético genuinamente japonês. Embora Quioto pareça ter tudo isso, uma análise mais atenta revela que não há. Existem apenas obras parciais. Isso se deve às excessivas mudanças políticas e de outra natureza, que impediram o surgimento de longos períodos de paz. Foi somente com o Período Tokugawa que a paz se estabeleceu, mas, antes disso, a instabilidade não permitiu tal florescimento. Assim, meu objetivo agora é dar origem a um novo senso da arte japonesa. Futuramente, construiremos um museu de arte, mas será algo completamente diferente dos museus de Hakone e Atami. Tenho vários planos a esse respeito, mas ainda é cedo para anunciá-los. Farei isso gradualmente, a seu devido tempo.
+
+Atualmente, um fenômeno curioso é o surgimento de várias novas religiões. As mais proeminentes, sem dúvida, são as do sistema Oomoto, ou seja, a Igreja Messiânica e a Seicho-no-Ie. Recentemente, surgiu a Ananai-kyo, que também vem se expandindo consideravelmente. Além delas, a atividade das facções da seita Nichiren é notável. A Rissho Kosei-kai, por exemplo, tem grande vigor. Todas as ramificações da Reiyukai, em particular, estão em plena expansão. Recentemente, a Rissho Kosei-kai realizou uma peregrinação comemorativa ao Templo Ryuko-ji, em Enoshima, cujo nome se escreve com os ideogramas de "boca do dragão". Este ano se comemora o 700º aniversário da fundação da seita Nichiren, e o número de peregrinos foi imenso. A Rissho Kosei-kai levou trinta e duas mil pessoas, um número inédito na história do templo. Foram mais de cinquenta ônibus. A atividade das facções da seita Nichiren é realmente impressionante, e isso tem um significado profundo. Trouxe uma lista das principais que estão ativas hoje:
+
+Nichiren-shu, Hokke-shu, Nakayama Myoshu, Honge Myoshu Renmei, Honmon Butsuryu-shu, Kempon Hokke-shu, Kokuchu-kai, Reiyukai Kyodan, Shishin-kai, Rissho Kosei-kai, Kuon Myoshu, Dai Nippon Shishiku-kai, Busshi Dojo, Reizan-kai, Myochi-kai, Bussho Gonen-kai, Honmon Hokke-shu, Rissho Kanko Kyokai, Showa Honshu, Jofu-kai, Honmon Kyoo-shu, Kodo Kyodan, Kannnonkaku Kyodan, Rissho Ankoku-kai, entre outras.
+
+Estas são apenas as principais; há muitas outras. Por que a seita Nichiren está tão ativa? A razão é a seguinte: o vigésimo quinto capítulo do Sutra de Lótus é o "Capítulo sobre o Portal Universal do Bodhisattva Kannon". A seita Nichiren, como explico em meus escritos, foi criada para fazer florescer a Flor da Lei (*Hokke*) e frutificar. Em outras palavras, sua missão é dar à luz Kannon. Podemos dizer, portanto, que Shakyamuni e Amitabha são os pais de Kannon. Do pai e da mãe nasce o filho, Kannon. O Mundo de Miroku é também chamado de Mundo da Realidade (*Jisso Sekai*). O "real" aqui é o ideograma de "fruto" (実). Até o nascimento do fruto, Kannon, o mundo era um mundo transitório, o *shaba*. Kannon nasceu na era de Shakyamuni, mas de uma forma budista. Agora, no fim dos tempos, Kannon deve nascer no mundo fenomênico em escala global. Para isso, a Flor da Lei, o Sutra de Lótus, deve ser amplamente difundida, para que a flor desabroche esplendorosamente. O que vemos agora é precisamente o desabrochar dessa flor. Em breve — e isso é algo que só posso dizer aqui entre nós —, as flores se dispersarão. E então, Kannon nascerá. Observem, e verão que essa é a forma que os acontecimentos tomarão. Como Kannon nascerá no Mundo Búdico, e o Mundo Búdico é o Japão, a Igreja Messiânica se expandirá grandemente por todo o país.
+
+Há ainda outro ponto. A seita Nichiren, dentro do budismo, representa algo novo. Todo o budismo até então era um ensinamento da Lua. A Terra Pura da Luz Serena é a Lua. O Namu Amida Butsu também é a Lua. O nascimento de Nichiren, há setecentos anos, representou o primeiro alvorecer do Sol no Mundo Búdico. Naquele momento, nas profundezas do Mundo Espiritual, raiou a aurora. A Igreja Messiânica tem por missão criar o Mundo do Dia, a Civilização do Dia. Ela é, portanto, a primeira religião do Dia. No budismo, porém, a seita Nichiren foi a primeira em que o Sol nasceu. Ela é, por assim dizer, o budismo do Dia. Embora o budismo como um todo seja uma religião da noite, um ensinamento da Lua, dentro dele, o Sol nasceu. A grande atividade da seita Nichiren hoje pode ser compreendida também sob essa perspectiva.
+
+A esse respeito, há outro fato interessante que li no jornal de ontem — no *Yomiuri*, no *Asahi* ou no *Mainichi*. A notícia, bem detalhada, falava sobre o acentuado declínio da Grã-Bretanha. Em todos os aspectos, desde as finanças, o país enfraqueceu de forma alarmante, talvez até mais que o Japão. O artigo dizia que algo precisa ser feito, pois isso afetará gravemente as outras nações. Para nós, isso é natural. Como sempre digo, a Grã-Bretanha representa a Lua. À medida que a Lua se põe no mar a oeste, sua luz desaparece. Conforme a Grã-Bretanha declina, os Estados Unidos ganham proeminência mundial. Isso porque, quando a Lua se oculta, no mundo da noite, apenas as estrelas são visíveis. O mundo passa a ser, então, o mundo da estrela. É por isso que os Estados Unidos hoje dominam o cenário mundial.
+
+Quando o Sol nascer, a cultura japonesa inevitavelmente se tornará mundial. E o ideograma para "estrela" (星) é composto pelos caracteres de "Sol" (日) e "nascer" (生). São os Estados Unidos que, desde o final do Período Tokugawa, têm ajudado o Japão a se projetar no mundo. E, novamente, são os Estados Unidos que hoje auxiliam o Japão a se reerguer e a recuperar sua posição de nação de primeira grandeza. Recentemente, o Japão tem melhorado gradualmente, e isso se insere nesse grande plano. A transição para o Mundo do Dia está se manifestando de forma clara em escala global. Se observarmos com serenidade, podemos compreender perfeitamente.
+
+Por hoje, encerraremos aqui. Como somos muitos, dedicarei um pouco mais de tempo ao Johrei.
+
+---
+
+# A Alma de Izunome (伊都能売の身魂)
+
+**Categoria:** i | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 伊都能売の身魂 | **Status:** Published
+
+## A Alma de Izunome (伊都能売の身魂)
+
+Embora eu já tenha discorrendo e escrito inúmeras vezes sobre a Alma de Izunome (伊都能売), poucos parecem ser capazes de verdadeiramente praticá-la, talvez por a considerarem de uma dificuldade extrema. Contudo, não se trata de algo tão complexo. Uma vez compreendidos seus fundamentos e transformada em um hábito, sua prática se revela surpreendentemente acessível. A incapacidade de executá-la reside, em grande parte, na ideia preconcebida de sua extrema dificuldade. Soma-se a isso a impressão de que muitos não lhe atribuem a devida importância. Por esses motivos, sinto-me compelido a abordar o tema novamente.
+
+Em poucas palavras, Izunome é o princípio da imparcialidade, o ato de trilhar o Caminho do Meio. Não é Hinayana nem Mahayana e, ao mesmo tempo, é ambos. Significa não pender para os extremos, evitando decisões precipitadas. Naturalmente, aquilo que exige uma definição deve ser definido, e é nessa capacidade de discernimento que reside a aparente complexidade. Pode-se compará-la à arte da culinária, na qual o sabor ideal não é excessivamente doce nem salgado, mas perfeitamente equilibrado. Da mesma forma, assemelha-se ao clima durante o equinócio: uma estação amena, nem quente, nem fria, que proporciona o mais profundo bem-estar. Quando o coração e as ações de uma pessoa alcançam esse estado, é natural que ela seja apreciada por todos e que seus empreendimentos prosperem.
+
+Todavia, qual é a realidade do ser humano contemporâneo? Observa-se uma notável inclinação à parcialidade, manifestada de forma explícita na esfera política. Fações de direita e de esquerda defendem, desde o início, ideologias tendenciosas. Seu modo de pensar é extremista e, somado a uma obstinada autoafirmação, resulta em conflitos incessantes. Essa conjuntura representa, por conseguinte, um grande prejuízo para a nação e seu povo. Nesse sentido, é evidente que a própria política deveria adotar o estilo de Izunome. Contudo, ao que parece, ainda não surgiram políticos ou partidos conscientes dessa necessidade. Digo isso, pois o número daqueles que se aproximam de nossos ensinamentos é verdadeiramente exíguo. As causas da guerra, aliás, não são diferentes: elas brotam precisamente do embate ideológico que busca impor um desses dois extremos.
+
+Também os conflitos no âmbito da fé, quando analisados a fundo, revelam uma origem semelhante: a divergência entre o que se pode chamar de Hinayana e Mahayana, ou seja, entre a emoção e a razão. Nesses casos, a solução harmoniosa se torna possível quando cada lado cede metade de sua posição; assim, os pontos se encontram. Portanto, ao refletir com serenidade, percebe-se que a reconciliação não é uma tarefa tão árdua.
+
+A esse respeito, é comum observar em qualquer campo a presença de conservadores e progressistas, e a religião não é exceção. Os primeiros, geralmente membros mais antigos, são rígidos e apegados à tradição, avessos a inovações — poderíamos classificar sua fé como uma "crença do coque samurai". Os segundos, embora progressistas, inclinam-se ao extremo oposto, desejando rejeitar tudo o que é antigo em favor da novidade. Daí surge a discórdia de opiniões que leva ao confronto. Contudo, também essas disputas podem ser resolvidas sem dificuldade pelo método de Izunome. O ponto fundamental é que mesmo a religião precisa compreender profundamente o espírito de sua época.
+
+No entanto, os religiosos demonstram, com frequência, uma forte tendência à indiferença em relação aos tempos atuais, chegando a considerar tal atitude uma virtude. Tratam tradições de centenas ou milhares de anos como dogmas inabaláveis. É certo que a fé, por ser de natureza espiritual, representa o eixo vertical, a verdade eterna e imutável, e, como tal, não pode ser alterada. Todavia, o mesmo não se aplica ao Plano Divino. Este corresponde ao aspecto material e, portanto, deve, por natureza, transformar-se em conformidade com cada era. É necessária a atuação plena de ambas as esferas, a espiritual e a material. Em outras palavras, tudo deve seguir o caminho de Izunome.
+
+Nessa perspectiva, é desnecessário dizer que, nos dias de hoje, tentar cativar a alma do homem moderno aplicando os ensinamentos e métodos da época de Buda ou de Cristo exatamente como eram é uma tarefa fadada ao fracasso. A estagnação das religiões estabelecidas reside precisamente nesse ponto. Em suma, basta que se compreenda que o princípio de Izunome é a verdade fundamental que rege todas as coisas. É por essa razão que eu sempre explico o significado de Izunome, e desejo que todos os membros compreendam plenamente este ponto.
+
+---
+
+# Feudalismo da Medicina (Este texto é um dos capítulos do livro 'A Revolução da Medicina')
+
+**Categoria:** i | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
+**Título Original:** 医学封建 | **Status:** Published
+
+## Feudalismo da Medicina (Este texto é um dos capítulos do livro 'A Revolução da Medicina')
+
+O termo “feudalismo da medicina” soará, por certo, inédito, e à primeira vista pode não ser compreendido. Contudo, não haverá quem, após a leitura, não reconheça a sua pertinência. Isso porque, como é sabido em nossos dias, não apenas a variedade de doenças é vasta, como também o número de enfermos é assombroso. Ademais, em nove de cada dez casos, trata-se de enfermidades crônicas ou de alta complexidade, para as quais a cura definitiva é praticamente inexistente — fato que os próprios médicos conhecem bem. E embora se esforcem continuamente para curar os pacientes da forma mais rápida e eficaz, empregando as terapias mais recentes e envidando todos os seus esforços, os resultados raramente correspondem às expectativas. No diagnóstico inicial, é comum que estabeleçam um prognóstico de semanas ou meses para a recuperação, mas dificilmente um caso se resolve dentro do prazo previsto. Isso ocorre porque, ainda que determinado medicamento ou método, em tese, devesse levar à cura, a realidade se impõe, e a melhora não se concretiza — uma experiência frustrante e recorrente tanto para os pacientes quanto para os médicos.
+
+Nesse sentido, ainda que se observe uma melhora temporária que parece confirmar a teoria médica, ela invariavelmente não se sustenta. Com o passar do tempo, seja ele breve ou longo, a doença ressurge ou, então, transforma-se em outra moléstia. Os médicos, por certo, já presenciaram inúmeros casos assim e compreendem essa dinâmica. Portanto, não é difícil imaginar a dúvida e a angústia que constantemente os afligem. A verdade é que a medicina não progrediu tanto quanto se acredita; a percepção de seu avanço não passa de uma ilusão. Em razão disso, vivem esmagados pela contradição entre a teoria e a prática. E, embora sejam reverenciados por uma sociedade alheia a essa realidade, ocupando uma sólida posição social, o tormento que carregam em seu íntimo deve ser extraordinário. Contudo, em minha opinião, eles apenas se apegam à vaga esperança de que, um dia, o avanço da medicina trará a solução, uma espécie de consolo para si mesmos. Se a leitura deste ensinamento lhes remover o véu da dúvida, a luz da verdade, clara como o dia, certamente revelará o erro, e eles despertarão estarrecidos. Essa cegueira, todavia, representa um imenso obstáculo ao progresso da civilização. É por essa razão que, apesar de todo o avanço científico, a felicidade da humanidade não aumenta, mas ninguém se dá conta disso. Por esse motivo, sem sequer analisar minhas palavras, eles as rechaçam, rotulando-as de anticientíficas por emanarem de um religioso e por contrariarem as teorias da ciência, que avança a passos largos. A verdade é que usam os óculos escuros da superstição científica, o que os impede de enxergar com clareza.
+
+Mas o que são esses óculos escuros? É a mentalidade fundamental dos médicos, que desde o início nivela a vida humana à de outras coisas, acreditando que a doença pode ser solucionada pela ciência. No entanto, o que aprendi por revelação divina é que, embora essa premissa seja válida para quase tudo o que existe, somente o ser humano é fundamentalmente diferente e, por isso, não pertence ao domínio da ciência. Prova disso são as características exclusivas da nossa espécie, como o gosto pessoal, as emoções de alegria, ira, tristeza e prazer, o amor, a intelectualidade, a arte, a espiritualidade e o pensamento elevado do amor altruísta — atributos completamente ausentes nos demais animais. Mesmo essa simples observação já evidencia a grande diferença. Assim, o grave defeito da ciência é ignorar essa particularidade humana, tratando o homem como um simples animal. E, uma vez que essa é a filosofia basilar da medicina, ela se entrincheirou nos limites da ciência, incapaz de enxergar o mundo que existe além.
+
+Analisando por outro prisma: se o nível humano fosse o horizonte, tudo o que estivesse abaixo dele representaria o mundo material, e o que estivesse acima, o próprio homem. Essa é a lei do Universo. Por esse princípio, tudo o que está abaixo do horizonte pode ser controlado pelo homem; o que está acima, ao contrário, não pode. Logo, é evidentemente impossível que a ciência, criada pelo homem, controle a vida humana. A maior prova disso é que não conseguimos, por nossa própria vontade, ter uma vida livre de doenças ou prolongá-la indefinidamente. Sendo assim, a tentativa do homem de curar as doenças de seus semelhantes é uma insubordinação, uma inversão de hierarquia e uma violação do domínio divino. Por essa razão, por mais que os maiores sábios do mundo se esforcem, seus esforços não passarão de um trabalho inútil. A medicina atual, sem se dar conta disso, corre desenfreadamente por um caminho equivocado. Sua ignorância é, de fato, digna de compaixão. Eu diria que os médicos de hoje são reféns da ciência, com uma psicologia semelhante à dos adeptos de crendices e falsas religiões. Pensemos na era feudal: o código do samurai era tido como a mais elevada moral. Para eles, o ato de matar em nome de seu senhor não apenas era aceitável, como os maiores assassinos em massa, a serviço de seu clã, eram louvados e honrados. Do ponto de vista atual, isso não pode ser descrito senão como barbárie. Em outras palavras, o crime era publicamente incentivado. Se aplicarmos essa analogia à medicina, a questão se torna ainda mais clara.
+
+Com base no que foi exposto, a postura de considerar a ciência como o método supremo para a cura das doenças era uma cegueira, presa à estreita casca do feudalismo. Eu, porém, descobri a existência de um mundo novo e maravilhoso, até então desconhecido, onde reside a verdadeira arte médica, capaz de curar as doenças por completo. É para difundir este grande evangelho a todos os povos que, como premissa, apresento este ensinamento aos médicos do mundo inteiro.
+
+---
+
+# Feudalismo Médico
+
+**Categoria:** i | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
+**Título Original:** 医学封建 | **Status:** Published
+
+## Feudalismo Médico
+
+Este artigo constitui um capítulo da obra *A Revolução da Medicina*.
+
+A expressão “Feudalismo Médico” certamente soará inédita e, à primeira vista, talvez não se possa aquilatar seu significado. Contudo, estou certo de que, ao final desta leitura, não haverá quem não reconheça sua pertinência. Isso porque, como é notório em nossos dias, o número de enfermidades e de doentes é verdadeiramente assombroso. Ademais, em oito ou nove de cada dez casos, trata-se de doenças crônicas ou de moléstias graves e complexas, para as quais raramente se encontra uma cura definitiva, fato que os próprios médicos conhecem muito bem.
+
+Apesar de se empenharem em curar os pacientes da forma mais rápida e eficaz possível, empregando as terapias mais modernas e envidando todos os esforços, os resultados não correspondem às expectativas. No momento do diagnóstico inicial, é comum que estabeleçam um prognóstico, informando ao paciente que a cura levará algumas semanas ou meses; todavia, raramente essa previsão se cumpre. O motivo reside no fato de que, embora determinado medicamento ou método devesse, em tese, produzir a cura segundo os preceitos científicos, a realidade prática, como médicos e pacientes constantemente experimentam, é outra.
+
+Por essa razão, ainda que momentaneamente o paciente pareça melhorar em conformidade com a teoria, tal melhora não se sustenta. Com o tempo, seja ele curto ou longo, a doença invariavelmente reincide ou se converte em outra enfermidade. Os médicos, por certo, já presenciaram essa realidade inúmeras vezes e a compreendem. Consequentemente, não é difícil imaginar a dúvida e a perplexidade que constantemente os assaltam diante de tal fato. A verdadeira causa é que a medicina, ao contrário do que se crê, não progrediu tanto assim; a percepção desse progresso não passa de uma ilusão.
+
+Dessa forma, os médicos encontram-se perpetuamente no dilema gerado pela contradição entre a teoria e a prática. Embora a sociedade os reverencie e lhes conceda uma sólida posição social, alheia a essa realidade, a angústia e o tormento que carregam em seu íntimo devem ser imensos. Na minha visão, eles apenas se apegam à tênue esperança de que, um dia, o avanço da ciência médica trará a solução, um pensamento que não passa de mero consolo.
+
+Portanto, se a leitura deste artigo remover o véu de dúvida que os encobre, a verdade, resplandecente como a luz do dia, exporá o erro, e eles despertarão, estou certo, em um sobressalto. Ocorre que essa ofuscação representa um imenso obstáculo ao avanço da civilização. É por isso que, mesmo com todo o progresso científico, a felicidade da humanidade não aumenta, mas ninguém parece se dar conta disso.
+
+Nesse sentido, eles sequer se dispõem a analisar minha tese. Por ser de um líder religioso, rotulam-na de anticientífica e a descartam, convictos de que ela contradiz as teorias da ciência, que avança a passos largos. Em suma, eles enxergam o mundo através das lentes escuras da superstição científica, o que os impede de ver com clareza.
+
+Mas o que são essas lentes escuras? É a premissa fundamental dos médicos de que a vida humana está no mesmo patamar que as demais coisas e de que as doenças podem ser solucionadas pela ciência. Contudo, o que aprendi por revelação divina é que, embora essa premissa seja válida para todo o resto, o ser humano, e somente ele, é essencialmente distinto, encontrando-se fora do domínio da ciência.
+
+Basta observar, por exemplo, as preferências e os gostos humanos, as emoções como alegria, ira, tristeza e prazer, o amor, o intelecto, a arte, a mística e os elevados ideais como o altruísmo – características totalmente ausentes nos outros animais. Apenas isso já evidencia quão diferentes somos. Assim, o grande defeito da ciência é ignorar essa natureza singular do ser humano, tratando-o como um simples animal. E como esse se tornou o princípio basilar da medicina, ela se entrincheirou no reduto da ciência, incapaz de enxergar o que existe além dele.
+
+Analisando por outro ângulo, se o plano da existência humana fosse o horizonte, tudo o que está abaixo dele corresponderia ao mundo material, e o que está acima, ao próprio homem. Esta é uma lei do Universo. Por essa lógica, o ser humano pode dominar tudo o que se encontra abaixo do horizonte, mas o oposto se aplica ao que está acima. Logo, é naturalmente impossível que a ciência, uma criação humana, possa controlar a vida humana. A prova mais evidente disso é que não conseguimos, por nossa própria vontade, viver sem doenças ou prolongar nossa vida indefinidamente.
+
+Sendo assim, a tentativa do homem de curar as doenças de outro homem é um ato de insubordinação, uma subversão da ordem natural e uma transgressão ao domínio divino. Por essa razão, por mais que os maiores sábios do mundo se esforcem, seus intentos no que tange à vida humana não passam de labor inútil. A medicina atual, sem se dar conta disso, corre obstinadamente por um caminho equivocado, e sua ignorância é, de fato, digna de compaixão.
+
+Em minha opinião, os médicos de hoje são escravos da ciência, com uma mentalidade análoga à dos adeptos de uma heresia supersticiosa. Recordemos a era feudal, quando o Bushido era tido como a moral suprema. Naquela época, o ato de matar em nome de um senhor feudal não apenas era tolerado, como os responsáveis por massacres em larga escala eram louvados e recebiam honrarias. Visto de hoje, tal conduta não pode ser classificada senão como bárbara. Em outras palavras, o mal era abertamente incentivado.
+
+Se aplicarmos essa analogia à medicina, o quadro se torna ainda mais nítido. A convicção de que a ciência é o método supremo para a cura das doenças era uma forma de cegueira, uma mentalidade aprisionada em uma estreita carapaça feudal. Ocorre que eu descobri a existência de um mundo maravilhoso e desconhecido, onde reside a verdadeira arte médica, capaz de curar as enfermidades por completo. É com o propósito de difundir este grande evangelho a todos os povos que apresento esta tese, como preâmbulo, aos médicos do mundo inteiro.
+
+---
+
+# Sermão
+
+**Categoria:** o | **Ano:** 昭和27(1952)年8月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 御説教 | **Status:** Published
+
+## Sermão
+
+Desde tempos imemoriais, as instituições denominadas religiões têm, invariavelmente, os preceitos como seu pilar, os quais são elucidados por meio de sermões, fato do conhecimento de todos. Contudo, no que concerne à nossa Igreja Messiânica, é igualmente sabido entre os fiéis que o número de sermões é notavelmente reduzido. Talvez isso suscite certas dúvidas em algumas pessoas, e caso sejam inquiridas por não membros, será necessário apresentar a devida justificativa. Dedico-me, pois, a esclarecê-la.
+
+O propósito de uma religião, como é evidente, reside em corrigir as falhas e avançar no caminho do bem (改過遷善, kaikazensen)¹, o que torna imperativa a remoção das maculações da alma. Uma vez que a alma se encontre purificada, a prática do mal torna-se impossível, e o indivíduo se converte em um ser humano exemplar, que realiza o bem em prol da sociedade e da humanidade.
+
+Nesse sentido, o sermão constitui um meio de purificar a alma através da audição, ao passo que as escrituras, como a Bíblia, os sutras e os Ofudesaki, cumprem essa função por meio da visão e do poder da palavra. Embora a nossa Igreja também se utilize de ensinamentos para os ouvidos, os olhos e o espírito da palavra, tais métodos são secundários. O nosso meio principal é o Johrei. A razão para tanto é que a purificação mediada pelos cinco sentidos representa uma abordagem indireta, um método físico aplicado à alma invisível, cuja eficácia é, naturalmente, limitada.
+
+O Johrei da nossa Igreja, todavia, atua de modo distinto: ele purifica a alma infundindo-lhe diretamente a Luz Espiritual, e seus efeitos são, portanto, incomparáveis aos de qualquer método externo. A veracidade dessa afirmação torna-se manifesta ao observarmos a cura das doenças: enfermidades que persistem refratárias a inúmeros outros tratamentos são sanadas com simplicidade e em curto espaço de tempo.
+
+Em vista do exposto, e como sempre afirmo, nossa Igreja não é uma religião, mas o que se poderia denominar uma suprarreligião. A palavra "religião", em sua etimologia, designa os "ensinamentos do fundador", tendo como premissa a salvação das pessoas por meio de doutrinas. Como mencionado, porém, nossa Igreja posiciona os ensinamentos em segundo ou terceiro plano, promovendo a elevação do ser humano através do Johrei. Consequentemente, alcançamos uma eficácia absoluta, sem despender grandes esforços ou tempo. Em verdade, não seria exagero algum afirmar que nossa obra está acima das religiões.
+
+Por essa razão, não havendo ainda uma designação apropriada, adotamos provisoriamente o nome "Igreja Messiânica". A ausência de um nome definitivo é compreensível, visto que uma salvação tão sublime jamais existiu até hoje. Se fosse compelido a nomeá-la, não encontraria palavras mais adequadas que "Luz da Salvação".
+
+***
+
+(Nota)
+¹改過遷善 (kaikazensen): Arrepender-se dos erros e tornar-se bom. O termo é uma junção de "kaika" (改過), do capítulo *Gakuji* dos *Analectos de Confúcio*, e "senzen" (遷善), do capítulo *Gan'en*.
+
+---
+
+# O Espírito de Izunome
+
+**Categoria:** i | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 伊都能売の身魂 | **Status:** Published
+
+## O Espírito de Izunome
+
+Revista "Paraíso Terrestre", nº 35, 25 de abril de 1952
+
+Já abordei por inúmeras vezes, tanto em palavras como em escritos, o tema do espírito de Izunome (伊都能売). Contudo, aparentemente por considerá-lo de grande dificuldade, são raros aqueles que verdadeiramente o praticam. Não se trata, todavia, de algo tão complexo assim. Uma vez compreendidos seus fundamentos e incorporados como um hábito, sua execução torna-se surpreendentemente simples. A incapacidade de colocá-lo em prática decorre da ideia preconcebida de sua extrema dificuldade. Soma-se a isso a aparente falta de percepção sobre sua real importância, motivo pelo qual me vejo compelido a discorrer sobre o tema reiteradamente.
+
+Em suma, Izunome é o princípio da imparcialidade, o ato de trilhar o Caminho do Meio. Não é o Pequeno Veículo nem o Grande Veículo e, ao mesmo tempo, é tanto o Pequeno quanto o Grande Veículo. Significa não incorrer em extremos nem tomar decisões precipitadas. Evidentemente, aquilo que precisa ser decidido deve sê-lo, mas a dificuldade reside nesse discernimento. Pode-se compará-lo à arte da culinária, em que o sabor ideal não é nem doce nem salgado em demasia. É como o clima aprazível da primavera ou do outono, quando não faz calor nem frio, a estação mais agradável de todas. Da mesma forma, quando o coração e as ações do ser humano atingem esse equilíbrio, é natural que ele seja benquisto por todos e que tudo em sua vida transcorra de modo favorável.
+
+Todavia, o que se observa no homem contemporâneo? Uma notável inclinação à parcialidade. Isso se manifesta com clareza no cenário político, onde correntes de direita e de esquerda defendem, desde o início, ideologias parciais. Seu modo de pensar é extremista e, somado à obstinação, os conflitos tornam-se incessantes, o que acarreta um enorme prejuízo à nação e ao seu povo. Nesse sentido, é evidente que até mesmo a política deveria nortear-se pelo princípio de Izunome, contudo, não parece provável o surgimento de políticos ou partidos conscientes dessa necessidade. Isso se constata pela ínfima quantidade de pessoas com essa percepção que se aproximam de nós. A gênese das guerras, aliás, não é diferente: elas são o resultado de ideologias que buscam impor seus pontos de vista extremados.
+
+De igual modo, ao analisarmos detidamente as disputas no campo da fé, percebemos que elas também derivam da divergência entre o Pequeno e o Grande Veículo, ou seja, do conflito entre a emoção e a razão. Em tais situações, se cada lado cedesse metade de sua posição, o ponto de encontro seria alcançado, possibilitando uma resolução pacífica. Portanto, refletindo-se com atenção, a reconciliação não se revela uma tarefa tão árdua. A esse respeito, é comum observarmos o seguinte fenômeno.
+
+Com efeito, em qualquer esfera, invariavelmente existem as correntes conservadora e progressista, e a religião não é exceção. A primeira é composta por fiéis mais antigos, apegados de forma rígida à tradição e avessos a inovações — poderíamos classificá-la como uma fé anacrônica. A segunda, embora progressista, pende para o extremo da novidade, buscando rechaçar tudo o que é antigo. É nesse ponto que surgem as discordâncias e se instalam os conflitos. Contudo, também essas querelas podem ser facilmente solucionadas pelo método de Izunome. O mais crucial, mesmo no âmbito religioso, é compreender profundamente o espírito de cada época. No entanto, os religiosos demonstram, em geral, uma forte tendência à indiferença em relação aos tempos atuais, chegando a considerar tal postura como algo positivo. Tratam tradições de centenas ou milhares de anos como dogmas inabaláveis. É verdade que a fé, por sua natureza espiritual, constitui o eixo vertical, a verdade imutável que não pode ser alterada. Todavia, o mesmo não se aplica à Providência Divina. Esta, por pertencer à esfera material, deve naturalmente transmutar-se conforme a época. Em outras palavras, é na atuação perfeita e conjunta do espírito e da matéria que o princípio de Izunome deve ser invariavelmente aplicado.
+
+Sob essa ótica, é desnecessário dizer que, se pensarmos que os dias de hoje são idênticos à era de Buda ou de Cristo e tentarmos aplicar seus ensinamentos e práticas de forma literal, será absolutamente impossível cativar a alma do homem moderno. É preciso reconhecer que a estagnação das religiões estabelecidas reside precisamente neste ponto. Em suma, basta que se compreenda que a atuação de Izunome é, em si, a verdade fundamental que rege todas as coisas. É por essa razão que eu sempre me dedico a elucidar o significado de Izunome, e desejo que todos os fiéis o compreendam em sua total profundidade.
+
+---
+
+# osekkyo
+
+**Categoria:** o | **Ano:** 昭和27(1952)年8月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 御説教 | **Status:** Published
+
+Desde tempos imemoriais, as instituições que se denominam religiões têm, invariavelmente, os preceitos como seu pilar, e os difundem por meio de sermões, como todos sabem. Contudo, no que concerne à nossa Igreja Messiânica, é notório entre os fiéis que os sermões são bastante raros. É natural que tal fato suscite dúvidas em algumas pessoas. Ademais, ao sermos inquiridos por não-membros, torna-se necessário esclarecer o motivo. Por essa razão, discorrerei a respeito.
+
+O objetivo da religião, como é sabido, reside em corrigir as falhas e conduzir o ser humano ao bem. Para tanto, é imprescindível remover as máculas da alma. Uma vez que a alma se encontre purificada, a prática do mal se torna impossível, e a pessoa se converte em um ser humano virtuoso, que age para o bem do mundo e da humanidade.
+
+Nesse sentido, o sermão é o meio de purificar a alma por intermédio da audição. Já as escrituras sagradas, como a Bíblia, os sutras e as Revelações Divinas, cumprem essa função por meio da visão e do espírito da palavra. Nossa Igreja, naturalmente, também emprega a purificação pelos ouvidos, pelos olhos e pelo espírito da palavra; todavia, esses são métodos secundários. O método principal é o Johrei.
+
+A razão para tal é que a purificação por meio dos cinco sentidos constitui um método indireto, uma abordagem, por assim dizer, material a uma alma invisível. Consequentemente, sua eficácia é, por natureza, limitada. O Johrei de nossa Igreja, por outro lado, atua diretamente sobre a alma, purificando-a pela infusão da Luz espiritual. Seu efeito, portanto, é incomparavelmente superior a qualquer método externo. A veracidade disso se torna manifesta ao observarmos a cura de enfermidades. Doenças que resistiram a inúmeros outros tratamentos são sanadas com facilidade e em curto espaço de tempo.
+
+Pelo exposto, como sempre afirmo, nossa Igreja não é uma religião, mas algo que poderíamos denominar suprarreligião. A palavra "religião" remete aos "ensinamentos do fundador", e seu princípio fundamental é salvar o coração das pessoas por meio da doutrina. Contudo, conforme mencionei, em nossa Igreja os ensinamentos ocupam uma posição secundária. Nós conduzimos as pessoas ao bem por meio do Johrei. Desse modo, o processo exige menos esforço e tempo, alcançando cem por cento de eficácia. Decerto, não seria um exagero afirmar que se trata de algo que transcende a religião.
+
+Por esse motivo, na ausência de um nome apropriado, designamo-la provisoriamente como Igreja Messiânica. Isto se deve ao fato de que uma salvação tão sublime jamais existiu e, consequentemente, não havia um termo para nomeá-la, o que torna a situação inevitável. Se fôssemos forçados a encontrar uma expressão, talvez nenhuma fosse mais adequada que "Luz da Salvação".
+
+(Nota) Kaikazenzen (改過遷善): expressão que significa "arrepender-se dos erros e tornar-se uma pessoa de bem". Originária dos Analectos de Confúcio, a partir dos termos Kaika (do capítulo Gakuji) e Senzen (do capítulo Ganen).
+
+---
+
+# Palavras de Lançamento (Jornal "Luz", Edição nº 1, 8 de março de 1949)
+
+**Categoria:** so | **Ano:** 昭和24(1949)年3月8日 | **Fonte:** -
+**Título Original:** 創刊の辞 | **Status:** Published
+
+## Palavras de Lançamento (Jornal "Luz", Edição nº 1, 8 de março de 1949)
+
+Lançamos, nesta ocasião, o jornal intitulado “Luz”, que servirá, como é evidente, de órgão oficial da Nippon Kannon Kyodan. Nossa Igreja é uma organização religiosa que atua com o sublime objetivo de construir o Paraíso Terrestre: um mundo isento de doença, pobreza e conflito.
+
+Ao refletirmos, é inegável que toda e qualquer religião tem por meta a erradicação do sofrimento humano e a construção de um mundo ideal. O ponto crucial, todavia, reside na capacidade de concretização. Por mais nobres que sejam as palavras proferidas ou escritas, se não houver a possibilidade de torná-las realidade, estas não passarão, em última análise, de letra morta.
+
+Não nos move a menor intenção de difamar outras instituições; apenas expomos os fatos como eles são, algo que, aliás, é de amplo conhecimento.
+
+A obra que nossa Igreja vem realizando consiste em solucionar, no plano individual, os flagelos da doença e da pobreza e, por conseguinte, extinguir os conflitos que deles decorrem. Como resultado, concretiza-se a formação de lares paradisíacos. É natural que muitos pensem ser impossível que algo tão sublime possa existir neste mundo tão adverso. Tal ceticismo, contudo, é compreensível, pois, em verdade, desde o início da história, a humanidade jamais havia testemunhado a manifestação de um poder salvador de tamanha magnitude.
+
+Contudo, sendo os fatos irrefutáveis, qualquer pessoa que tome contato com nossa Igreja poderá se convencer por si mesma. Nosso propósito primordial é divulgar amplamente este grandioso poder salvador e, assim, formar o maior número possível de pessoas felizes. Cremos que, dessa forma, estamos correspondendo à Vontade de Deus, que nos confiou a magna obra da salvação da humanidade.
+
+Diante desta sociedade imersa em trevas e ignorância, projetaremos a “Luz” e, com a inabalável convicção de que ela dissipará instantaneamente a escuridão, dando origem ao Paraíso, seguiremos em frente. Estas são, pois, as palavras que marcam o lançamento desta publicação.
+
+---
+
+# Prefácio da Edição Inaugural
+
+**Categoria:** so | **Ano:** 昭和24(1949)年3月8日 | **Fonte:** -
+**Título Original:** 創刊の辞 | **Status:** Published
+
+## Prefácio da Edição Inaugural
+
+Decidimos, nesta ocasião, publicar o pequeno periódico intitulado “Luz”, que atuará, como é de se esperar, como o órgão oficial da Igreja Kannon do Japão. Com efeito, nossa organização religiosa atua com o desiderato de concretizar o Paraíso Terrestre: um mundo isento de doença, pobreza e conflito.
+
+Em uma análise mais ampla, é inegável que o objetivo de qualquer religião consiste em extirpar o sofrimento humano e concretizar um mundo ideal. O ponto crucial, todavia, reside no poder de efetivamente realizar tais desígnios. Por mais sublimes que sejam as palavras proferidas ou escritas, se lhes falta a possibilidade de materialização, em última análise, não passam de letra morta.
+
+Não temos a mínima intenção de difamar outras doutrinas; limitamo-nos, tão somente, a expor os fatos como eles são — uma verdade, aliás, por todos conhecida.
+
+Aquilo que nossa Igreja presentemente efetiva consiste, no plano individual, na superação da doença e da pobreza e, por conseguinte, na dissolução dos conflitos que lhes são inerentes. Como resultado, concretiza-se o lar paradisíaco. É natural que todos pensem ser impossível a existência de uma promessa tão alvissareira em um mundo tão adverso. Todavia, tal ceticismo é compreensível, pois, desde os primórdios da História, a humanidade jamais experienciou a manifestação de um poder salvífico de tamanha magnitude.
+
+Contudo, os fatos são irrefutáveis, e qualquer pessoa que tome contato com nossa Igreja certamente se convencerá de sua veracidade. Nosso mais profundo anseio é difundir universalmente este grandioso poder salvador, a fim de formar um número cada vez maior de pessoas felizes. Cremos que essa é a maneira de corresponder a Deus, que nos confiou a sublime missão de salvar a humanidade.
+
+Em direção a esta sociedade imersa em trevas e ignorância, lançaremos os fachos de “Luz”. Avançaremos com a firme convicção de que a escuridão se dissipará de imediato, dando lugar à alvorada do Paraíso. Estas são, pois, as palavras que marcam a presente publicação.
+
+---
+
+# O Juízo Final
+
+**Categoria:** sa | **Ano:** 昭和10(1935)年5月21日 | **Fonte:** Hikari明世界
+**Título Original:** 最後の審判 | **Status:** Published
+
+## O Juízo Final
+
+O Poder de Kannon (観音), ou seja, a "Luz do Oriente", expandir-se-á gradativamente com o passar dos dias e dos meses. Quando isso ocorrer, o mundo se transformará de maneira natural, e não por artifícios humanos. Em todas as esferas, as práticas equivocadas e as ações pertencentes ao mal se tornarão inexequíveis.
+
+Toda a confusão será dirimida, e todas as inversões de valores, corrigidas, de modo que pessoas e coisas retornarão à sua verdadeira forma. Tomemos como exemplo a política: se um partido estiver equivocado, tornando-se uma existência nociva e inútil, ele inevitavelmente se dissolverá. Contudo, se tomar consciência de seus erros, retornar à sua correta e primordial missão e passar a ser uma presença benéfica para a sociedade em geral, poderá evitar sua dissolução.
+
+Aproveitando o ensejo, gostaria de tecer um breve comentário. Tanto a política constitucional quanto a partidária são sistemas de organização notavelmente bem elaborados, fruto de longos anos de estudo e aprimoramento por parte da humanidade. Todavia, o coração daqueles que os operam está equivocado, o que faz com que essa estrutura, por si só excelente, pareça extremamente imperfeita. Por essa razão, cremos que a forma é secundária; a prioridade reside na reforma do coração humano. E essa transformação do espírito não pode ser efetuada por órgãos legislativos; ela é, por excelência, uma incumbência dos religiosos.
+
+É, portanto, verdadeiramente lamentável que os religiosos da atualidade demonstrem total indiferença a esse respeito. Essa situação, entretanto, também será retificada pela Luz de Kannon.
+
+Ademais, como até hoje tudo se encontrava em desordem, há inúmeros casos de pessoas ocupando posições incompatíveis com suas verdadeiras qualificações. Essa distorção também será corrigida. Por exemplo, um indivíduo com aptidão para o cargo de diretor que, por meios ilícitos, tenha ascendido à posição de ministro, inevitavelmente descerá ao seu posto original. Inversamente, um diretor que possua as qualificações para se tornar ministro, assim o será, sem que para isso necessite de manobras de bastidores.
+
+O mesmo se aplica às religiões: aquelas que se valem de estelionato e inverdades perecerão sucessivamente. Contudo, se tomarem consciência de seus erros, corrigirem o mal e retornarem ao bem, voltarão a prosperar.
+
+Não há necessidade de que os homens julguem tais acontecimentos de fora, pois as coisas serão julgadas por si mesmas. Esta é a grandiosa manifestação do Poder de Kannon. Portanto, ao confiarmos tudo à Senhora Kannon, o mal, como mencionei, se dissipará naturalmente.
+
+Ainda que existam muitos erros que perduraram por centenas, e até milhares de anos, desta vez não serão perdoados.
+
+Ocorrerá a resolução definitiva entre o bem e o mal. Em uma perspectiva mundial, tomemos o caso da Grã-Bretanha, que até hoje dominou livremente a Índia e outras colônias. Para que estas retornem ao seu estado original, será imperativo que lhes seja concedida a independência ou que se permita que sigam sua própria livre vontade. Na verdade, a nação dominadora deverá se desculpar por seus pecados passados e pagar as devidas reparações. A Índia, por exemplo, teve suas riquezas exploradas em um montante que ultrapassa, no mínimo, dez bilhões, e tal fortuna deverá lhe ser restituída para que a dívida seja perdoada.
+
+O Japão, por sua vez, possui a missão de unificar o mundo, e Sua Majestade o Imperador do Japão se tornará o centro dessa unificação. Isso se dará em prol da grande paz mundial, pois, enquanto as nações permanecerem divididas, os conflitos serão incessantes. É natural, portanto, que a unificação se realize em torno de um centro. Assim, aproxima-se o tempo em que se procederá a um grande acerto de contas, uma purificação em escala global. Na verdade, trata-se da depuração de todos os débitos acumulados ao longo de nove mil anos. Sobre esse período de nove milênios, pretendo falar detalhadamente em outra oportunidade.
+
+Como resultado, quando todas as coisas do universo encontrarem seu devido tempo, lugar e posição, retornando ao seu estado original, surgirá o Mundo de Miroku, o Grande Mundo de Luz. A partir de então, reinará a paz eterna e se estabelecerá o Paraíso Terrestre, onde todos os povos viverão em harmonia e felicidade.
+
+Falei-vos com audácia sobre o futuro, mas estas palavras não provêm de conjecturas humanas nem de um capricho meu. Trata-se da manifestação do que já foi determinado pelo Deus Supremo desde a remota Era dos Deuses. O tempo chegou, e nada pode ser feito para impedir seu curso. Portanto, não há outro caminho senão abandonar o mal e retornar ao bem o mais depressa possível.
+
+A respeito do Poder de Kannon, tratarei de seus aspectos mais amplos em outra ocasião. Contudo, para dar um pequeno exemplo, menciono esta imagem de Daikoku-sama aqui presente. Estava determinado que ela chegaria a este lugar no dia 31 de dezembro do ano passado. Por essa razão, por mais que o senhor Yamada, que a venerava, tentasse retê-la, ou ainda que um grande magnata oferecesse centenas de milhares por ela, nada poderia ser feito para mudar seu destino.
+
+Tudo é conduzido por essa força absoluta, diante da qual o poder humano é impotente. Sendo assim, não há, em milhares de anos, obra mais digna e com maior sentido para a vida do que se tornar, o quanto antes, um membro da organização do Mundo de Luz e participar da honrosa e grandiosa tarefa de Construção do Grande Mundo de Luz.
+
+Por essa razão, o lado demoníaco, considerando a situação insuportável, empenha-se ao máximo para criar obstáculos. As conspirações dos maçons, por exemplo, não podem ser subestimadas. Contudo, fui informado de que, ao final, até mesmo os maçons se arrependerão e unirão suas forças à construção deste Mundo de Luz.
+
+Anseio para que esse dia chegue o mais breve possível.
+
+(Jinsai)
+
+---
+
+# O Juízo Final
+
+**Categoria:** sa | **Ano:** 昭和10(1935)年5月21日 | **Fonte:** Hikari明世界
+**Título Original:** 最後の審判 | **Status:** Published
+
+## O Juízo Final
+(Publicado em 21 de maio de 1935, na revista “Komyō Sekai” nº 3)
+
+O Poder de Kannon (観音), ou seja, a “Luz do Oriente”, expandir-se-á gradualmente com o passar do tempo. Quando isso ocorrer, o mundo se transformará de maneira natural, e não por intervenção humana. Tal transformação abrangerá todas as esferas, tornando impossível a prática de equívocos e de tudo aquilo que pertence à malignidade.
+
+Toda a confusão cessará, todas as anomalias serão corrigidas, e tanto os seres humanos quanto a matéria retornarão à sua forma original e verdadeira.
+
+Tomemos a política como exemplo: se um partido político estiver equivocado e sua existência for prejudicial e inútil, ele será inevitavelmente dissolvido. Contudo, se seus membros tomarem consciência de seus erros, retornarem à sua nobre e correta missão e se tornarem uma presença benéfica para a sociedade, não haverá necessidade de sua dissolução.
+
+A esse respeito, permitam-me um breve aparte. Tanto o sistema constitucional quanto a política partidária, em sua estrutura, são notavelmente bem elaborados, pois resultam de longos anos de estudo e aprimoramento por parte da humanidade. Todavia, é o coração equivocado dos homens que os operam que faz com que essas admiráveis estruturas pareçam extremamente imperfeitas. Portanto, em nossa visão, a forma é secundária; a prioridade reside na reforma do coração humano. E essa transformação do espírito não pode ser alcançada por órgãos legislativos; é uma responsabilidade que cabe, inegavelmente, aos religiosos.
+
+É verdadeiramente lamentável que os religiosos de hoje demonstrem total indiferença a essa esfera de atuação. Contudo, também essa realidade será transformada pela Luz de Kannon.
+
+Ademais, como até hoje tudo se encontrava em desordem, há inúmeros casos de pessoas ocupando cargos incompatíveis com suas verdadeiras qualificações. Tais situações também serão corrigidas. Por exemplo, um indivíduo com aptidão para o cargo de diretor que, por meios ilícitos, tenha se tornado ministro, descerá de sua posição e retornará ao posto de diretor que lhe é devido. Por outro lado, um diretor com as qualificações para ser ministro ascenderá a essa posição, mesmo sem recorrer a manobras de bastidores.
+
+Da mesma forma, as religiões alicerçadas no estelionato ou em equívocos declinarão inexoravelmente. Se, contudo, tomarem consciência de suas falhas, corrigirem o mal e retornarem ao bem, poderão florescer novamente.
+
+Não é necessário que o ser humano se interponha para julgar; as coisas serão julgadas por si mesmas. Essa é a grandiosa manifestação do Poder de Kannon. Portanto, ao confiarmos tudo a Kannon-Sama, aquilo que é mau será naturalmente dissolvido, como acabo de descrever.
+
+Embora muitos erros tenham persistido por centenas e até milhares de anos, desta vez não haverá mais tolerância. O conflito entre o bem e o mal terá seu desfecho. Em escala mundial, tomemos o exemplo da Grã-Bretanha, que até hoje dominou livremente a Índia e outras colônias. Para que o estado original seja restabelecido, será necessário conceder-lhes a independência ou permitir que sigam sua livre vontade. Na verdade, é provável que as nações poderosas tenham de se desculpar por seus pecados passados para com suas colônias e pagar-lhes as devidas indenizações. No caso da Índia, que teve suas riquezas exploradas em um valor que ultrapassa, no mínimo, dez bilhões, a restituição será uma condição inegociável para o perdão.
+
+O Japão, por sua vez, detém a missão de unificar o mundo, e o Imperador do Japão se tornará o centro dessa unificação. O propósito de tal evento é a instauração da Grande Paz Mundial, pois, enquanto as nações permanecerem divididas, os conflitos serão incessantes. É, portanto, natural e necessário que a unificação se realize em torno de um eixo central. Assim, aproxima-se o tempo em que ocorrerá este grande e definitivo Ajuste de Contas mundial. Em verdade, trata-se de um ajuste que abrange um período de nove mil anos de história. A respeito desses nove mil anos, pretendo falar detalhadamente em outra oportunidade. Como resultado, quando toda a Criação encontrar seu devido tempo, lugar e posição, e retornar ao seu estado original, esse será o advento do Mundo de Miroku, o Grande Mundo de Luz.
+
+A partir de então, reinará a paz eterna, e o Paraíso Terrestre de harmonia e felicidade para toda a humanidade se concretizará.
+
+Falo com audácia sobre o futuro, mas minhas palavras não são fruto de conjecturas humanas ou de um capricho meu. Trata-se de algo que já foi decretado pelo Deus Supremo (主神) na remota Era dos Deuses e que, finalmente, começa a se manifestar. Chegou o tempo em que nada pode ser feito para impedir seu avanço. Sendo assim, não há outra escolha senão abandonar o mal e retornar ao bem o mais rapidamente possível.
+
+A respeito do Poder de Kannon, abordarei seus aspectos mais amplos em outra ocasião. Por ora, permitam-me um pequeno exemplo: esta imagem do Daikoku-Sama que aqui se encontra. Já estava determinado que ela chegaria a este lugar no dia 31 de dezembro do ano passado. Por isso, por mais que o Sr. Yamada, que a venerava, tentasse retê-la, ou mesmo que um magnata oferecesse centenas de milhares por ela, nada pôde ser feito.
+
+Tudo se realiza por meio desse poder absoluto, diante do qual a força humana é inútil. Sendo assim, não há, em milhares de anos, tarefa mais sublime e gratificante do que se tornar, o quanto antes, um membro da organização do Mundo de Luz e participar desta honrosa e grandiosa obra de “Construção do Grande Mundo de Luz”. É por essa razão que o lado demoníaco, considerando tal avanço insuportável, tenta obstruí-lo com todas as suas forças.
+
+As conspirações dos Maçons [Franco-maçons], por exemplo, não devem ser subestimadas. Fui informado, todavia, de que, no final, até mesmo eles se converterão e cooperarão com a construção deste Mundo de Luz.
+
+Anseio para que este dia chegue o mais breve possível.
+
+(Jinsai)
+
+---
+
+# A Grande Depuração dos Três Mil Mundos
+
+**Categoria:** sa | **Ano:** 昭和10(1935)年 | **Fonte:** 昭和
+**Título Original:** 三千世界の大清算――世界最後の大審判はあるか？――未発表 | **Status:** Unpublished
+
+## A Grande Depuração dos Três Mil Mundos
+**Haverá o Grande Juízo Final do Mundo?**
+Texto inédito, redigido por volta de 1935
+
+Desde a antiguidade, temas como o fim do mundo e o Juízo Final estão presentes em escrituras sagradas, mas, ao que parece, ninguém jamais os elucidou em profundidade. Sobre este assunto, não posso tecer afirmações categóricas, mas permito-me dissertar sobre ele, talvez como quem narra um sonho, situando-me em uma perspectiva onde tanto se pode admitir sua ocorrência quanto negá-la. Não sou um adivinho, mas peço que recebam minhas palavras como um provérbio antigo: “oráculos podem ou não se confirmar”. Contudo, se a possibilidade fosse nula, não haveria razão para escrever. Partamos, pois, do pressuposto de que tal evento ocorrerá.
+
+Conforme sempre menciono, o Mundo da Noite está chegando ao fim para dar lugar ao Mundo do Dia, ou seja, ao momento em que o Sol se erguerá com seu brilho resplandecente. Gostaria, nesse sentido, de convidá-los a imaginar as transformações que essa transição do noturno para o diurno acarretará sobre todas as coisas do Universo.
+
+A diferença mais fundamental entre a noite e o dia é, sem dúvida, a que existe entre a escuridão e a claridade. Sabidamente, os atos pecaminosos não são praticados à luz do dia, em público. O segredo e o pecado são transações que se consumam nas sombras, fato que todos conhecem. Sendo assim, qual teria sido a duração desse Mundo da Noite? Minhas estimativas apontam para um período entre três mil e dez mil anos. Para efeito deste texto, consideremo-lo como um período de alguns milênios. De fato, ao revisitarmos a história desses milênios, é inegável que estivemos imersos no Mundo da Noite. Praticamente não houve era isenta de segredos, crimes e conflitos entre nações e povos. Observada pelos olhos de Deus — e até mesmo por nós, meros mortais —, essa época não pode ser descrita senão como uma era de trevas. A inconstância na ascensão e queda de nações e indivíduos assemelha-se às fases da Lua no céu noturno. Ao testemunharmos na história a prosperidade, ainda que temporária, dos iníquos e a opressão dos justos, sentimo-nos diante de um mundo onde os espíritos malignos grassam livremente.
+
+Diante de um mundo tão impregnado de pecado, de uma era de trevas que se estendeu por milênios, é compreensível que até os mais eminentes eruditos de qualquer época fiquem cativos de uma perspectiva meramente histórica. Eles acabam por fundamentar todas as suas críticas e definições nesse padrão. É por essa razão que expressões como “sobrevivência do mais apto” e “a lei do mais forte” ressoam como se fossem verdades absolutas.
+
+Todavia, o que aconteceria se nos elevássemos a um ponto de observação muito superior, transcendendo em vários níveis a análise histórica? Dessa perspectiva elevada, torna-se imperativo e inevitável que este mundo, onde o pecado se acumulou por milênios, passe por uma depuração completa. É evidente, contudo, que tal tarefa está muito além da capacidade humana, pois são os próprios seres humanos que se encontram do lado a ser purificado. Portanto, se essa depuração de fato ocorrer, é um axioma que somente Deus poderá realizá-la. Ouso, pois, com o devido respeito, imaginar o método que Deus utilizará para tal feito. Como já reiterei, trata-se da chegada do Mundo do Dia, um mundo banhado pelo brilho do Sol. Trata-se da irradiação da Luz Divina.
+
+Sei que, ao ouvir isso, muitos argumentarão: “Mas o Sol não nasce todos os dias? Que outro Mundo do Dia poderia existir?”. O que menciono, porém, refere-se ao Mundo Espiritual. A relação entre o Mundo Espiritual e o Mundo Material será detalhada em outra oportunidade; por ora, peço que prossigam a leitura aceitando incondicionalmente a existência do Mundo Espiritual.
+
+Permitam-me agora abordar o tema sob uma nova ótica, recorrendo a fatos de outra natureza. Em meu trabalho diário com doentes, utilizo um método diagnóstico singular, distinto do da medicina convencional, e os resultados que observo são verdadeiramente assombrosos. Refiro-me à imensa quantidade de impurezas — para usar um termo polido, pois na verdade se trata de pus e sangue tóxico — que se acumula no interior do corpo de todas as pessoas. É um fato quase inimaginável que cada indivíduo, sem exceção, retenha em sua carne e em seus vasos sanguíneos um volume tão expressivo dessas substâncias. Observando o ser humano de hoje, chego a me perguntar como ele consegue se manter vivo. Naturalmente, isso é esperado nos doentes, mas o que surpreende é que mesmo as pessoas sadias, que examino em grande número, apresentam um acúmulo de pus que pouco difere do dos enfermos. A única diferença é que ainda não se sabe quando uma doença grave se manifestará. Ao constatar essa realidade, não há outra conclusão senão a de que este é o resultado do acúmulo de máculas, decorrente de termos respirado a atmosfera do Mundo da Noite por milênios. Em outras palavras, o ser humano atual está adaptado à escuridão noturna, e por isso sobreviveu até hoje. Mas o que lhe acontecerá quando for exposto à Luz resplandecente do Sol? A simples imaginação desse cenário é aterradora.
+
+O que acontece, por exemplo, com as bactérias que proliferam na escuridão quando são expostas à luz solar? Da mesma forma, enquanto as imundícies e a poeira não são claramente visíveis à noite, a claridade do dia as revela de modo implacável, tornando impossível qualquer dissimulação.
+
+Por esses motivos, a luz do Sol, a claridade do dia, purificará compulsoriamente toda a sordidez. O estelionato não poderá mais ser ocultado. Os segredos serão instantaneamente desvelados. O mal se tornará impraticável. A injustiça se eclipsará, e os conflitos serão cessados. Assim, todos os desvios serão corrigidos, a estrutura social funcionará de maneira racional, cada pessoa obterá a posição justa que lhe corresponde no tempo e no espaço, o Bem prosperará, e advirá uma era em que toda a humanidade desfrutará da vida.
+
+Aqueles, contudo, que não conseguirem crer neste Mundo de Luz, por não se adaptarem à nova era, não terão outro caminho senão o de trilhar um destino de declínio. Quer se creia, quer não, quer se queira, quer não, essa era se aproxima a passos largos. Qual será, então, a condição daqueles que não conseguem crer? Os pecados, segredos e injustiças que até agora mantiveram ocultos virão à tona, um após o outro. Seu corpo, repleto de máculas, inevitavelmente entrará em colapso, tal como as bactérias perecem sob a luz do Sol. Dessa forma, é possível antever a chegada de uma era cujas regras serão fundamentalmente distintas das do Mundo da Noite que conhecemos.
+
+No que tange às nações, se duas estiverem em conflito e ambas representarem o mal, ambas perecerão. Apenas o que for justo, apenas aqueles que estiverem em conformidade com a Vontade de Deus, subsistirão e prosperarão. Ao observarmos as atuais relações internacionais, vemos que o mundo inteiro está prestes a mergulhar em um vórtice de grandes conflitos e turbulências, e nenhuma nação pode afirmar com certeza que não será arrastada para ele. Creio ser impossível não interpretar tal cenário como o prelúdio para o colapso do Mundo da Noite.
+
+Eu sou um daqueles que anseiam fervorosamente para que esta grande depuração mundial, esta transição da Noite para o Dia, ocorra da forma mais pacífica e serena possível, sem os eventos abomináveis do colapso e da destruição, e que o Mundo de Luz possa finalmente alvorecer.
+
+---
+
+# Seres Humanos Bacterianos
+
+**Categoria:** English | **Ano:** - | **Fonte:** HUMAN BEINGS Eikoh , No.
+**Título Original:** BACTERIAL | **Status:** Unknown
+
+## Seres Humanos Bacterianos
+
+Eikoh, n.º 183, 19 de novembro de 1952
+
+As bactérias, como causa de doenças, talvez representem o maior temor do homem contemporâneo. Contudo, qual seria a razão da existência das bactérias? A verdade surpreendente é que elas não apenas são indispensáveis à saúde humana, como também é o próprio ser humano quem as cria. Após uma leitura atenta do que será exposto a seguir, o leitor certamente se convencerá.
+
+Para começar, todas as coisas que existem neste mundo são, sem exceção, necessárias ao ser humano e, ao mesmo tempo, são por ele produzidas; esta é a lei da natureza. A ciência, até os dias de hoje, não possuiu a capacidade de compreender tal profundidade. Em vez disso, a humanidade tem se contentado com teorias nascidas de seu raciocínio superficial e de sua presunção. Este princípio não se aplica somente à esfera das doenças humanas, mas igualmente às pragas na agricultura e aos crimes na sociedade. A seguir, dissertarei detalhadamente sobre a verdadeira natureza desses fenômenos.
+
+Primeiramente, no que tange à origem dos germes: conduzido por pensamentos equivocados, o ser humano comete atos pecaminosos. Estes, por sua vez, convertem-se em impurezas que se acumulam, manifestando-se como nuvens no plano espiritual e como sangue impuro no plano físico. Diante da necessidade de purificar esse sangue maculado, surgem os germes com a finalidade de restituir-lhe a pureza. Dessa forma, os germes proliferam com o propósito de eliminar as impurezas. E, como existem muitos tipos de impurezas, nascem também germes correspondentes a cada uma delas, atuando como verdadeiros agentes de limpeza.
+
+Portanto, como já exposto, em todas as coisas a purificação ocorre porque as impurezas se acumulam; é assim que a natureza provê uma solução perfeita. Consequentemente, se a humanidade almeja erradicar os germes do mundo, não há outro caminho senão o de purificar este mundo, de modo que os germes se tornem desnecessários. Este é o princípio fundamental. É lamentável, todavia, que, por ignorância desse princípio, os seres humanos, fechando os olhos para suas próprias falhas, tratem os germes como os únicos culpados e se esforcem unicamente para exterminá-los.
+
+Esse mesmo princípio se aplica aos fertilizantes. A prova disso é a tendência recente de aumento anual das pragas agrícolas. Assim como os medicamentos, os fertilizantes contaminam o solo, e por isso surgem os insetos nocivos, que atuam como agentes de limpeza. Portanto, são os próprios seres humanos que os fazem proliferar. Ademais, o aumento recente na variedade de pragas se deve ao aumento na variedade de fertilizantes. A razão pela qual o ser humano começou a usar fertilizantes é que, tal como os narcóticos, seu uso proporciona um rendimento muito maior a princípio. Seduzidos por esse resultado inicial, os homens os adotaram como método único e caíram numa verdadeira superstição. Embora hoje se vejam atormentados pelas pragas, não percebem a verdadeira situação.
+
+Assim, iludidos por um desempenho temporário, enfraquecem o solo, envenenam as sementes e permitem que as pragas se multipliquem à vontade, enquanto a colheita diminui. Que estupidez! Como resultado, o país mal consegue escapar da fome graças ao arroz importado, como vemos hoje. Esta é a situação atual. Em que triste estado se tornou “a Terra das Planícies de Juncos Abundantes e das Férteis Espigas de Arroz”!
+
+Consequentemente, impelidos pelo desespero, os agricultores se debatem em esforços irrelevantes — com melhorias de terras, intercâmbio e consolidação de propriedades, seleção de sementes, pesticidas e o problema da aquisição de fertilizantes —, uma situação que mal consigo suportar observar. Ademais, embora o governo invista uma soma colossal em planos plurianuais para o aumento de alimentos básicos, tudo se resume a “muito barulho por nada”, pois, na melhor das hipóteses, o resultado é, no máximo, uma safra mediana.
+
+A seguir, passemos aos crimes. Como todos sabem, seu número aumentou sobremaneira nos últimos tempos, a ponto de tanto as autoridades quanto os intelectuais não terem alternativa senão suspirar. Isso também ocorre porque estão aumentando os seres humanos que se assemelham a dejetos. Para que a natureza os limpe, são necessários “seres humanos bacterianos”, e como há muitos deles por toda parte, a natureza permite que eles mesmos realizem a limpeza. O método de limpeza consiste em atormentar as pessoas e infligir-lhes danos físicos. Por isso, frequentemente há quem se lamente, pensando apenas em si mesmo, dizendo não compreender por que se tornou uma pessoa tão infeliz, apesar de ter trilhado o caminho da retidão, ou que não deveria sofrer tanto com doenças. Isso acontece porque não compreendem a verdadeira situação. Se Deus observasse tais pessoas, certamente esboçaria um sorriso amargo.
+
+E, curiosamente, o próprio método para limpar os seres humanos bacterianos consiste em cometer um crime. Para limpar este novo crime, outro ser humano bacteriano se faz necessário, formando um círculo vicioso. Assim, este mundo tornou-se algo semelhante a um lodaçal.
+
+Contudo, o tempo finalmente chegou. E este artigo é o meio pelo qual Deus revela radicalmente essa realidade. Portanto, desejo que o leiam com os olhos bem abertos, pois este é o primeiro e o melhor caminho para reduzir o número de seres humanos bacterianos.
+
+---
+
+# Os Homens-Bactéria
+
+**Categoria:** English | **Ano:** - | **Fonte:** HUMAN BEINGS Eikoh , No.
+**Título Original:** BACTERIAL | **Status:** Unknown
+
+## Os Homens-Bactéria
+
+Revista Eikoh, n.º 183, 19 de novembro de 1952
+
+O que o homem contemporâneo mais teme, indubitavelmente, são as bactérias como causa das doenças. Contudo, para que propósito elas existem? Surpreendentemente, elas não são apenas essenciais à saúde humana, como é o próprio ser humano quem as cria. Uma leitura atenta do que se segue o levará, por certo, a uma profunda concordância.
+
+Para começar, todas as coisas que existem neste mundo são, sem exceção, necessárias ao ser humano e, ao mesmo tempo, por ele originadas. Esta é a Lei da Natureza. A ciência, até hoje, não logrou alcançar a profundidade de tal conhecimento, e a humanidade tem se contentado, meramente, com teorias nascidas de sua sabedoria superficial e de sua arrogância. Este princípio se aplica não apenas à esfera das enfermidades, mas também às pragas na agricultura e aos crimes na sociedade. Escreverei, pois, sobre a verdadeira natureza desses fenômenos de forma exaustiva.
+
+Primeiramente, quanto à origem dos germes: levados por pensamentos equivocados, os seres humanos cometem atos pecaminosos. Tais atos se convertem em máculas que, ao se acumularem, transformam-se em nuvens no aspecto espiritual e em sangue impuro no aspecto físico. Diante da necessidade de purificar esse sangue, surgem os germes, com a missão de torná-lo limpo. Dessa maneira, os germes proliferam com o objetivo de eliminar as impurezas; e como existem muitos tipos de impurezas, nascem também diferentes espécies de germes — isto é, agentes de limpeza adequados a cada uma delas.
+
+Portanto, em todas as coisas, a purificação ocorre porque impurezas se acumulam, e a Natureza, desse modo, provê uma solução perfeita. Consequentemente, se a humanidade almeja erradicar os germes do mundo, não há outro caminho senão o de purificar este mundo a tal ponto que eles não sejam mais necessários. Este é o princípio fundamental. É lamentável, todavia, que, por ignorar tal princípio, o homem, fechando os olhos para suas próprias faltas, trate os germes como se fossem os culpados e se esforce unicamente para exterminá-los.
+
+Este mesmo princípio se aplica aos fertilizantes. A prova disso é a tendência recente de aumento das pragas agrícolas ano após ano. Assim como os medicamentos, os fertilizantes contaminam o solo, e, por essa razão, as pragas surgem como agentes de limpeza. Logo, são os próprios seres humanos que as fazem proliferar. Ademais, o aumento recente na variedade de pragas se deve ao aumento na variedade de fertilizantes. A razão pela qual o homem começou a usar fertilizantes é que, tal como um narcótico, seu uso inicialmente promove um grande aumento na produção. Fascinados por esse resultado, os homens passaram a considerá-los o único método eficaz, caindo em uma superstição. Embora hoje sejam atormentados pelas pragas, não se dão conta da verdadeira situação. É, pois, uma grande tolice deixar-se iludir por um desempenho temporário, enquanto o solo se enfraquece, as sementes se envenenam, as pragas se multiplicam à vontade e a colheita diminui. Como resultado, o país mal escapa da fome graças ao arroz importado, como vemos hoje. Em que triste estado se encontra a nação outrora conhecida como "a Terra das Planícies Férteis e dos Vastes Arrozais" [Toyoashihara no Mizuho no Kuni (豊葦原瑞穂の国)]! Consequentemente, levados pelo desespero, os agricultores se debatem em esforços irrelevantes — melhorias de terras, intercâmbio e consolidação de propriedades, seleção de sementes, pesticidas e o problema da aquisição de fertilizantes —, um cenário que mal consigo suportar observar. Ademais, embora o governo invista somas vultosas em planos plurianuais para o aumento da produção de alimentos básicos, tudo não passa de muito alarde para pouco resultado, obtendo-se, na melhor das hipóteses, uma colheita mediana.
+
+A seguir, abordemos a criminalidade. Como é sabido, o número de crimes aumentou sobremaneira nos últimos anos, a ponto de autoridades e intelectuais não terem alternativa senão suspirar em desolação. Isso também ocorre porque o número de seres humanos análogos a dejetos está aumentando. Para que a Natureza os limpe, os homens-bactéria se tornam necessários, e como eles existem em abundância por toda parte, a Natureza permite que realizem a limpeza por conta própria. Seu método de limpeza consiste em atormentar as pessoas e infligir-lhes danos corporais. Por isso, frequentemente há quem se lamente, pensando apenas em si mesmo, dizendo não compreender por que se tornou tão infeliz apesar de ter trilhado o caminho da retidão, ou que não deveria sofrer tanto com doenças. Tais queixas nascem da ignorância sobre a real situação. Se Deus observasse essas pessoas, certamente esboçaria um sorriso amargo.
+
+E o mais interessante é que o próprio método de limpeza dos homens-bactéria — o crime — também gera máculas. Para purificá-las, outro homem-bactéria se faz necessário, formando um círculo vicioso que transformou este mundo em algo semelhante a um lodaçal. Contudo, o tempo finalmente chegou. E é neste artigo que Deus revela radicalmente essa realidade. Desejo, portanto, que o leiam com os olhos bem abertos. Este é o primeiro e mais excelente caminho para reduzir o número de homens-bactéria.
+
+---
+
+# A Grande Purificação dos Três Mil Mundos – Haverá o Juízo Final do Mundo?
+
+**Categoria:** sa | **Ano:** 昭和10(1935)年 | **Fonte:** 昭和
+**Título Original:** 三千世界の大清算――世界最後の大審判はあるか？――未発表 | **Status:** Unpublished
+
+## A Grande Purificação dos Três Mil Mundos – Haverá o Juízo Final do Mundo?
+(Ensaio não publicado, acredita-se ter sido escrito por volta de 1935)
+
+Desde tempos imemoriais, noções como o fim do mundo e o Juízo Final encontram-se nas Escrituras Sagradas, mas, ao que parece, ninguém jamais as elucidou em profundidade. Embora não possa afirmá-lo categoricamente, tentarei discorrer sobre o assunto, quiçá como quem narra uma fantasia, a partir de uma perspectiva em que tanto se pode admitir sua existência quanto negá-la. Não sou um vidente, e basta que o leitor encare minhas palavras como um palpite, que tanto pode se confirmar quanto falhar. Contudo, se tal evento fosse de todo inexistente, não haveria razão para escrever a seu respeito. Portanto, partirei do pressuposto de que ele de fato ocorrerá.
+
+Conforme sempre menciono, o Mundo da Noite está chegando ao fim para dar lugar ao Mundo do Dia, ou seja, ao momento em que o Sol se erguerá com radiante esplendor. Gostaria de vos convidar a imaginar a transformação que se operará em todas as coisas durante essa transição da noite para o dia.
+
+Escusado será dizer que a distinção mais fundamental entre a noite e o dia reside na escuridão e na claridade. A maldade, por sua própria natureza, não é algo a ser praticado abertamente, à luz do dia. É de conhecimento geral que o segredo e o crime são transações que se realizam nas sombras. Sendo assim, qual teria sido a duração desse Mundo da Noite? Segundo minhas conjecturas, estimo um período de três mil a dez mil anos. Por ora, vamos nos referir a ele como um período de milênios. De fato, ao revisitarmos a história desses milênios, é inegável que vivíamos no Mundo da Noite. Praticamente não houve era em que nações e povos estivessem livres do segredo, da maldade e do conflito. Se o próprio Deus observasse tal cenário com Seu olhar divino – e até mesmo para nós, meros mortais –, não haveria outra forma de descrevê-lo senão como uma era de trevas.
+
+O panorama de nações e indivíduos, em sua inconstância de glórias e reveses, assemelha-se às fases da lua no céu noturno. Ao contemplarmos o curso da história, onde os perversos triunfam, ainda que temporariamente, e os justos são oprimidos, o mundo se revela um palco para a livre ação de espíritos malignos.
+
+Diante de um mundo tão repleto de iniquidade, de uma era de trevas que se estendeu por milênios, é compreensível que até os mais eminentes eruditos de qualquer época fiquem cativos a uma visão puramente histórica. Eles acabam por tomar essa realidade como padrão para todas as suas críticas e definições. É por essa razão, talvez, que expressões como “a sobrevivência do mais apto” e “a lei do mais forte” ressoam com a força de uma verdade incontestável.
+
+Todavia, o que aconteceria se nos elevássemos a um patamar muito superior – saltando não apenas um ou dois, mas vários degraus acima dessa perspectiva histórica de milênios – e de lá observássemos o panorama? Sob essa nova ótica, torna-se imperativo que este mundo, onde a iniquidade se acumulou ao longo de milênios, passe por uma purificação definitiva e absoluta. É evidente, contudo, que tal feito é impossível de ser realizado pela força humana, pois são os próprios seres humanos que se encontram na posição de serem purificados. Portanto, se porventura essa purificação vier a ocorrer, é um axioma que somente Deus poderá realizá-la. É esse método, a ser empregado por Deus, que eu, com o mais profundo respeito, desejo agora perscrutar.
+
+Esse método, como já reiterei, consiste na transição para o Mundo do Dia, um mundo resplandecente sob a luz do Sol. É a iluminação que tudo revelará. Nesse ponto, muitos poderão objetar, dizendo: “Mas o Sol não nasce todos os dias? Que outro Mundo do Dia poderia existir além deste?”. Contudo, refiro-me aqui ao Mundo Espiritual. A relação entre o Mundo Espiritual e o mundo fenomênico será detalhada em outra oportunidade; por ora, não me resta alternativa senão pedir ao leitor que prossiga com a leitura aceitando incondicionalmente a existência do Mundo Espiritual.
+
+Permitam-me agora abordar a questão sob uma outra perspectiva, fundamentada em fatos que observo em meu cotidiano. Lidando diariamente com enfermos, utilizo um método de diagnóstico singular, distinto da medicina convencional, e o que constato ao examinar cada indivíduo é verdadeiramente assombroso. Refiro-me à matéria impura – para usar um eufemismo, pois na verdade se trata de pus – que se encontra estagnada no corpo de todas as pessoas. É um fato inimaginável que tanto o pus quanto o sangue intoxicado estejam presentes em quantidades alarmantes nos tecidos e vasos sanguíneos de qualquer ser humano. Ao observar o homem de hoje, chego a me surpreender que consiga se manter vivo. É certo que examino muitos indivíduos saudáveis, além dos enfermos, mas a acumulação de pus em seus corpos não difere muito da que se encontra nos doentes. A única diferença é que uma enfermidade grave ainda não se manifestou. Diante dessa realidade, não há outra conclusão senão a de que tal acúmulo de impurezas é o resultado de milênios respirando a atmosfera do Mundo da Noite, um sedimento material dos pecados e máculas da humanidade. Se os seres humanos são um reflexo da escuridão da noite, puderam sobreviver até hoje. Mas o que lhes aconteceria se fossem banhados pela luz radiante do Sol? A simples imaginação me causa um arrepio de pavor.
+
+Tomemos como exemplo o que ocorre com os germes que proliferam na escuridão quando são expostos à luz solar. E da mesma forma que as imundícies e a poeira, embora não sejam claramente visíveis à noite, não podem de forma alguma ser dissimuladas sob a claridade do dia.
+
+Com base nesses exemplos, compreende-se que a luz do Sol, a claridade do dia, purificará inexoravelmente toda a imundície. O estelionato não poderá mais ser ocultado. Os segredos serão instantaneamente desvelados. A prática do mal se tornará inviável. A injustiça se recolherá às sombras e os conflitos serão ceifados. Consequentemente, todos os desvios serão corrigidos, a engrenagem social passará a funcionar de modo racional, cada pessoa encontrará seu justo lugar no tempo e no espaço, o bem florescerá e advirá uma era em que toda a humanidade desfrutará da vida.
+
+Entretanto, aqueles que não conseguirem crer neste Mundo de Luz, por não se adaptarem a ele, não terão outro destino senão o declínio antes de sua chegada. Quer se creia, quer não, quer se deseje, quer não, essa nova era se aproxima. Qual será, então, a condição daqueles que não conseguem nela acreditar? Os crimes, os segredos e as injustiças que até agora puderam ser ocultados virão à tona, um após o outro. E seus corpos, repletos de máculas, não terão outra alternativa senão desintegrar-se, tal como os germes que perecem sob a luz do Sol. Assim, pode-se antever a chegada de uma era de natureza completamente distinta da do Mundo da Noite que a precedeu. As nações que se engajarem em conflito, caso ambas estejam erradas, perecerão juntas. Apenas o que for justo, apenas aqueles que estiverem em conformidade com a Vontade de Deus, subsistirão e prosperarão. Ao observarmos as atuais relações internacionais, vemos o mundo inteiro prestes a mergulhar em um vórtice de grandes conflitos e convulsões, uma situação em que não se pode afirmar que alguma nação sairá ilesa. De fato, é impossível não enxergar nesses acontecimentos o prelúdio para o colapso do Mundo da Noite.
+
+Pessoalmente, sou alguém que anseia ardentemente para que esta Grande Purificação – a transição do Mundo da Noite para o Mundo do Dia –, se de fato ocorrer, transcorra de forma pacífica e serena, livre de colapsos e devastações, e que o advento do Mundo de Luz se concretize da maneira mais tranquila possível.
+
+---
+
+# Sobre a Racionalidade da Fé
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年6月17日 | **Fonte:** Eikou
+**Título Original:** 信仰の合理性に就いて | **Status:** Published
+
+## Sobre a Racionalidade da Fé
+
+Já abordei nesta coluna o tema da racionalidade da fé, e creio que o assunto tenha ficado claro. Todavia, recebi recentemente de um certo presidente de Igreja uma nova pergunta relacionada a essa questão, e gostaria de discorrer sobre ela.
+
+O caso refere-se a uma fiel que ingressou na fé há cerca de dois anos, motivada pela cura de uma infiltração pulmonar de seu marido. Em fevereiro deste ano, contudo, seu filho, de apenas dois anos, contraiu pneumonia. Ela consultou o responsável de Johrei Center, que lhe assegurou: "Eu o curarei". A partir de então, ele dedicou-se a ministrar Johrei com grande empenho. O quadro, entretanto, não evoluiu favoravelmente, e a criança chegou a correr perigo de vida. Foi nesse momento, há poucos dias, que recebi uma ligação solicitando minha intercessão. A partir daquele momento, a criança apresentou uma melhora considerável, mas a mãe, ainda apreensiva, recorreu ao presidente de Igreja, trazendo o filho consigo e suplicando por orientação sobre como proceder.
+
+Minha resposta foi a seguinte: Uma enfermidade como a pneumonia não deveria prolongar-se por tanto tempo. Há, indubitavelmente, algum equívoco em sua conduta. Existem duas causas para isso. Uma delas, embora também represente um grande erro, é de natureza pessoal, e por isso a manterei em sigilo. A outra, contudo, é ainda mais grave, e, por julgar importante que o presidente de Igreja também a ouvisse, explanei-a detalhadamente. O ponto é que, sendo o pai e a mãe membros há um ou dois anos, uma pneumonia no próprio filho é algo que eles mesmos deveriam tratar por meio do Johrei. Procedendo dessa forma, a cura teria sido alcançada. No entanto, em vez disso, a mãe, interpretando mal a situação, mal ministrou Johrei e importunou o responsável do Johrei Center. Tal atitude é desprovida de lógica. Por sua vez, o responsável também errou ao deslocar-se repetidamente para ministrar Johrei. Portanto, ambos estão completamente equivocados. A função primordial de um responsável de Johrei Center é a de pioneirismo, ou seja, de difundir a fé a não membros. Aqueles que já são fiéis, uma vez que receberam de Deus a permissão para curar, devem ministrar Johrei em seus próprios familiares. Recorrer ao responsável nessas circunstâncias significa obstruir suas atividades missionárias. Ademais, cabia ao responsável orientar a família a esse respeito. O fato de ele não ter percebido isso demonstra uma notável falta de discernimento. Em casos excepcionais, é permissível que ele ministre Johrei por um breve período, após solicitar a devida permissão a Deus, mas não deve ir além disso.
+
+Em suma, quando as ações não estão em conformidade com a lógica Divina, não se pode receber a graça. Por conseguinte, presidentes de Igreja, responsáveis de Johrei Center, ministros e demais dirigentes devem ter plena consciência de suas respectivas posições e responsabilidades, agindo com cautela para não incorrer em práticas irracionais. Nesse sentido, se tiverem o hábito de se dedicar à leitura dos Escritos Divinos, aprimorando sua sabedoria e seu discernimento espiritual, serão capazes de perceber essas nuances em qualquer circunstância.
+
+Para tanto, é fundamental não se esquecer da distinção entre o Grande Veículo e o Pequeno Veículo. A prioridade absoluta deve ser sempre o progresso da Obra Divina; as questões pessoais devem ser relegadas a segundo ou terceiro plano. Agindo assim, tudo transcorrerá em harmonia. Em outras palavras, ao ponderar sobre o bem maior e agir racionalmente, é possível receber graças ilimitadas. Se, por outro lado, as atitudes interferem, ainda que minimamente, na Obra Divina, é natural que os resultados não sejam os esperados. Afinal, estamos falando da extraordinária missão de salvar toda a humanidade, e Deus, ademais, tem extrema urgência. É imperativo que reflitam profundamente sobre esse ponto.
+
+---
+
+# Obra Social e Obra Religiosa
+
+**Categoria:** shi | **Ano:** 昭和27(1952)年3月5日 | **Fonte:** Eikou
+**Título Original:** 社会事業と宗教事業 | **Status:** Published
+
+## Obra Social e Obra Religiosa
+
+Ao observarmos o mundo em nossos dias, nota-se que as pessoas parecem não se dar conta da confusão que fazem entre obra social e obra religiosa. Para tanto, contudo, há uma razão, a qual passarei a expor. Tomemos como exemplo o cristianismo e, mais recentemente, as religiões tradicionais do Japão: todas as que alcançaram considerável dimensão administram hospitais. Isso ocorre unicamente porque a fé que professam não é capaz de curar as doenças. Embora se possa argumentar que tal medida seja inevitável, a verdade é que não o é. Com efeito, se a fé fosse mais eficaz que a medicina para curar enfermidades, seria evidente que não haveria motivo algum para se construir hospitais.
+
+Portanto, falando sem rodeios, tais religiões estão, na prática, confessando a superioridade da medicina sobre a fé, o que significa colocar a ciência acima da religião. Se assim o é, seria mais coerente que as pessoas deixassem de lado o Deus ou o Buda que tanto reverenciavam e, em seu lugar, colocassem a fotografia de um médico no altar para cultuá-la dia e noite. Afinal, são os médicos os salvadores de suas vidas.
+
+Em contrapartida, declaro categoricamente que a nossa Igreja, por maior que venha a se tornar, jamais construirá hospitais. Tal afirmação por certo surpreenderá o homem moderno, mas a razão é evidente: o poder de cura de nossa fé é incomparavelmente superior ao da medicina. É precisamente por esse motivo que sempre me refiro a uma revolução no campo da medicina.
+
+Há outro ponto que desejo abordar. As diversas obras sociais existentes, como orfanatos, asilos e programas de auxílio aos pobres, não passam, a meu ver, de caridade paliativa. E por que digo isso? Porque o surgimento de tantas pessoas em situação de infortúnio indica a existência de uma causa fundamental em algum ponto da sociedade. A verdadeira solução, portanto, não consistiria em identificar essa causa e extirpá-la em sua raiz? Todavia, por lamentavelmente a desconhecerem, as pessoas continuam a recorrer a medidas provisórias, que apenas tratam os sintomas.
+
+Nossa Igreja, entretanto, por conhecer a causa de todos esses infortúnios, vem estendendo, passo a passo, a mão da salvação. Tendo como missão a construção do Paraíso Terrestre, não recorremos a meios insensatos que apenas represam momentaneamente o fluxo do sofrimento. Ademais, não há sequer necessidade de fazê-lo.
+
+Aqueles que desconhecem os fatos aqui expostos por vezes questionam por que nossa Igreja parece indiferente às obras sociais. Sirvam, portanto, estas palavras como o devido esclarecimento.
+
+---
+
+# A Fé é Confiança
+
+**Categoria:** shi | **Ano:** 昭和24(1949)年6月18日 | **Fonte:** -
+**Título Original:** 信仰は信用なり | **Status:** Published
+
+## A Fé é Confiança
+
+Publicado na revista Hikari n.º 13, em 18 de junho de 1949
+
+Embora existam inúmeros religiosos no mundo, os praticantes da verdadeira fé são, em verdade, muito raros. Sendo assim, discorrerei sobre o que define um verdadeiro fiel.
+
+Por mais que alguém se considere um fiel exemplar, a mera percepção subjetiva é desprovida de significado. A fé genuína só pode ser aferida por um olhar objetivo, e para se tornar um fiel com tais predicados, é primordial compreender o caminho a ser seguido. O princípio para tanto é simples: consiste em conquistar a confiança das pessoas. Trata-se de ser alguém de quem se diz: "Suas palavras são infalíveis", "Conviver com ele é garantia de que nada de mal acontecerá" ou, ainda, "Ele é uma pessoa admirável".
+
+Como, então, conquistar tal confiança? A resposta também é singela. Acima de tudo, não proferir mentiras e priorizar o benefício alheio em detrimento do próprio. Em outras palavras, ser o tipo de pessoa que inspira pensamentos como: "Fui salvo graças a ele", "Relacionar-se com ele não traz prejuízo algum", "Que pessoa genuinamente gentil", "Sempre me sinto bem ao encontrá-lo". Quando alguém alcança esse patamar, é certo que será amado e reverenciado por todos. Basta uma breve reflexão sobre nós mesmos para que isso se torne evidente. Afinal, ao conhecer alguém com tais qualidades, é natural o desejo de estreitar os laços, de lhe confiar qualquer assunto e, com o tempo, desenvolver uma amizade profunda e sincera. Há mais um ponto que desejo ressaltar: qualquer que seja a bondade praticada, ela não pode ser efêmera. A virtude deve ser como o arroz branco: à primeira vista, pode parecer insípido, mas, quanto mais se mastiga, mais sabor se revela. Da mesma forma que o ser humano não consegue prescindir do arroz em seu dia a dia, costumo dizer que as pessoas precisam se tornar "seres-arroz".
+
+Contudo, ao observarmos o mundo, constatamos que há um número excessivo de pessoas que agem de maneira diametralmente oposta. São indivíduos que, com naturalidade, praticam atos que minam sua própria credibilidade. Acima de tudo, contam mentiras cuja falsidade logo se revela. Uma vez proferida a mentira, por mais admiráveis que sejam as demais ações de uma pessoa, sua credibilidade se desfaz por completo. Trata-se do cúmulo da insensatez. Existem aqueles que, por mais que se empenhem e trabalhem arduamente, jamais prosperam. Ao investigarmos a causa de tal infortúnio, invariavelmente descobrimos que ela reside na perda de confiança decorrente da mentira. Para isso, não há exceção. A confiança é, de fato, um patrimônio. Quem a possui jamais enfrentará dificuldades financeiras, pois sempre haverá quem lhe estenda crédito de bom grado.
+
+Até aqui, tratei da confiança no âmbito das relações humanas. Todavia, é preciso dar um passo adiante e abordar a confiança depositada por Deus, pois esta é a mais sublime de todas. Aquele que conquista a confiança Divina verá todos os seus caminhos se abrirem e poderá desfrutar de uma vida imersa em júbilo.
+
+---
+
+# O Excelso Significado do Shinsenkyo, o Protótipo do Paraíso Terrestre
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年7月8日 | **Fonte:** Eikou
+**Título Original:** 神仙郷地上天国の大いなる意義 | **Status:** Published
+
+## O Excelso Significado do Shinsenkyo, o Protótipo do Paraíso Terrestre
+
+*Coletânea de ensaios de Okada Jikan-shi. Publicado na revista Eiko nº 216, em 8 de julho de 1953.*
+
+Finalmente, foi concluído o tão esperado Shinsenkyo, protótipo do Paraíso Terrestre, localizado em Kanrei (¹) . Escusado será dizer que este Jardim Divino é uma obra como, creio eu, jamais existiu, não apenas no Japão, mas em todo o mundo. Sobre uma montanha de tal altitude, foram dispostas, com maestria, incontáveis rochas e pedras de formas singulares. Entre seus vãos e fendas, foram harmoniosamente arranjados diversos tipos de árvores, flores e plantas alpinas. Aqui e acolá, o murmúrio dos riachos que serpenteiam o terreno deleita os ouvidos, proporcionando uma profunda apreciação da beleza natural. Todos que o visitam não poupam elogios, afirmando que a atmosfera do local os faz sentir como se estivessem no Paraíso, libertos da poeira do mundo secular. Ademais, coroando a composição, ergue-se o resplandecente Templo da Beleza. Em sua totalidade, a obra harmoniza a beleza natural e a artificial, constituindo uma obra de arte da qual podemos, com justiça, nos orgulhar.
+
+Contudo, a descrição acima reflete uma apreciação meramente humana. Sob uma perspectiva espiritual, oculta-se nela um significado de uma magnitude inimaginável. Ao explicá-lo em detalhe, será possível vislumbrar quão profundo, sutil e insondável é o Plano Divino, e quão grandioso e transcendente ele é em relação à inteligência humana. Conforme sempre afirmo, o Plano Divino possui uma natureza profundamente misteriosa: inicia-se em uma escala mínima para, gradualmente, expandir-se até abranger o mundo inteiro. Este princípio também se aplica ao mundo material. Quando os seres humanos desejam criar algo grandioso, primeiro elaboram um protótipo para depois dar início à obra principal. Portanto, o Shinsenkyo recém-concluído deve ser compreendido como uma prefiguração do futuro Paraíso Terrestre em escala mundial. Nesse sentido, explicarei o profundo significado da escolha da montanha de Hakone para este empreendimento.
+
+Do ponto de vista espiritual, o centro do mundo é o Japão, e o Monte Fuji é o seu grande pilar. Observem sua forma: uma silhueta de beleza singular, sem paralelo no mundo. Desde a antiguidade, é reverenciado como Montanha Divina ou Pico Sagrado, sendo considerado pelos estrangeiros um símbolo do Japão. O profundo significado oculto nisso reside no fato de que este país está destinado a se tornar o centro do Paraíso Terrestre, conforme foi estabelecido por Deus desde a Criação do Céu e da Terra. Contemplem a beleza de suas paisagens, a imensa variedade de sua flora, os cenários que se transformam a cada estação e as mudanças em seus costumes e tradições. Sua abundância de dádivas celestiais confere-lhe, por si só, uma beleza paradisíaca. Não é de se espantar que o antigo imperador chinês Qin Shi Huang tenha se referido a estas terras como a ilha paradisíaca de Horai, no Oriente. Ademais, a especial sensibilidade do nosso povo para a beleza é um fato reconhecido pelos estrangeiros, a um nível que nenhuma outra nação do mundo pode igualar. É também um mistério o fato de que, desde tempos remotos, obras de arte de todas as nações foram aqui reunidas e preservadas. Assim, este afortunado Japão já possui, por Vontade Divina, os elementos constitutivos do Paraíso. É por essa razão que sempre afirmo que o Japão é o parque e o museu do mundo.
+
+Se, como exposto, todo o território japonês é o parque e o centro do mundo, então o parque do Japão é Hakone. Ademais, Hakone se localiza no centro geográfico entre o leste e o oeste do Japão, sendo evidente que a leste se estende a região de Kanto e, a oeste, a de Kansai. Do ponto de vista cultural, tampouco haverá outra nação que tenha assimilado tão completamente as culturas oriental e ocidental. O Japão tem a missão de harmonizá-las para dar origem a uma cultura de paz ideal. Recentemente, ouvi dizer que alguns intelectuais nos Estados Unidos começaram a defender essa mesma tese, o que me parece bastante plausível. Sendo assim, Hakone é o centro do Japão, e o centro de Hakone é Gora. De lá, ao olharmos para o alto, avistamos o Monte Sounzan, e por trás dele se eleva o Monte Kamiyama, o pico mais alto da cordilheira de Hakone e o seu verdadeiro centro. Desse modo, é desnecessário dizer que esta montanha constitui o ponto de bifurcação entre o leste e o oeste do Japão. Isto é verdadeiramente misterioso, e o nome Kamiyama (Montanha Divina) mostra-se, portanto, perfeitamente apropriado.
+
+Por conseguinte, o ideal seria construir o Paraíso Terrestre no cume do Monte Kamiyama, mas, sendo isso impossível, escolhemos este local. A primeira residência que tive ao chegar a Gora foi por mim denominada Shinzanso em alusão ao Monte Kamiyama. De igual modo, o local onde hoje se ergue o Templo Nikko-den foi batizado na época de Soun-ryo, em referência ao Monte Sounzan. Outro fato interessante é que o desenvolvimento original de Gora foi realizado pela companhia do trem de montanha. A empresa criou a área onde hoje se encontra o Shinsenkyo sob o nome de “Parque Japonês”, e, misteriosamente, o nível inferior, o atual Parque Gora, foi concebido como um parque de estilo ocidental. Analisando sob essa ótica, se o Japão é o parque do mundo, Hakone é o parque do Japão, e Gora é o parque de Hakone, então o Shinsenkyo, como centro de Gora, torna-se o verdadeiro centro do mundo.
+
+Nesse sentido, a conclusão do Shinsenkyo, o Protótipo do Paraíso Terrestre, significa que o Paraíso Terrestre finalmente nasceu no centro do mundo. Trata-se, por assim dizer, do nascimento do Paraíso Terrestre, o que o torna o evento mais auspicioso desde o início dos tempos e uma data a ser celebrada por toda a eternidade. O dia 15 de junho será, no futuro, a data de comemoração do nascimento do Paraíso Terrestre. Neste ponto, desejo anunciar algo de suma importância. A partir de hoje, a atividade espiritual será acelerada e, a partir deste centro, um grandioso redemoinho em movimento espiralado se expandirá gradualmente pelo mundo, trazendo uma transformação sem precedentes. Esta é a Reforma e Reconstrução do Mundo.
+
+(1) Kanrei, outro nome para a montanha de Hakone.
+
+---
+
+# Vinte Anos de Dívidas
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Eikou
+**Título Original:** 借金二十年 | **Status:** Published
+
+## Vinte Anos de Dívidas
+
+Durante mais de vinte anos, do oitavo ano da Era Taisho ao décimo sexto da Era Showa, fui atormentado por dívidas. Ou melhor, fui subjugado por elas. Jamais me esquecerei do que ocorreu no oitavo ano de Taisho, quando eu tinha trinta e oito anos. Os preparativos para meu casamento com minha atual esposa estavam concluídos e, logo após escolhermos uma data auspiciosa, recebi uma visita inesperada: pela primeira vez em minha vida, três oficiais de justiça – uma estirpe de homens verdadeiramente desagradável – irromperam em minha casa. Apresentaram-me um estranho documento para que eu lesse, mas, como alguém que jamais passara por tal experiência, apenas pude arregalar os olhos, atônito. Enquanto eu permanecia paralisado, eles inspecionavam cômodo por cômodo, afixando apressadamente pequenos selos de papel nos móveis e utensílios de maior valor. Em seguida, pediram que eu lesse uma notificação, do tamanho de meia folha de papel, que detalhava os motivos da penhora, e a colaram na lateral de uma cômoda antes de se retirarem. Ao examinar o documento mais de perto, deparei-me com diversos artigos legais, mas uma cláusula em particular me deixou estarrecido: os bens confiscados não poderiam ser movidos e a remoção dos selos afixados constituiria uma violação a um determinado artigo do Código Penal.
+
+Para minha consternação, o pequeno selo de papel havia sido colado de modo a prender a gaveta da cômoda à sua estrutura, impedindo sua abertura. Evidentemente, o intuito era proibir o acesso, mas eu precisava pegar minhas roupas. Após diversas tentativas, consegui descolar com cuidado a parte do selo que estava na estrutura, e, mantendo-o preso à gaveta, finalmente logrei abri-la. Foi um grande alívio.
+
+A razão pela qual me encontrava nessa situação aflitiva é a que passo a narrar. Conforme já escrevi anteriormente, eu havia alcançado grande sucesso com meu comércio de miudezas e, partindo praticamente do nada, amealhara um patrimônio de centenas de milhares de ienes. A soberba, então, tomou conta de mim. Acariciava o antigo sonho de fundar um jornal e, ao investigar o assunto, descobri que seria necessário um capital de um milhão de ienes, uma soma vultosa para a época. Determinado a levantar essa quantia, envolvi-me em diversas especulações financeiras. Foi nesse período que travei conhecimento com um certo senhor Yoshikawa, um indivíduo de astúcia notória e vasta experiência mundana. Naqueles dias, eu era alvo da admiração e da inveja de meus pares no comércio, o que me levou a ter uma visão ingênua do mundo. Deixei-me levar pela lábia do referido senhor e, aproveitando a febre especulativa que se seguiu à Primeira Guerra Mundial, iniciei um negócio de financiamento para corretores da bolsa.
+
+O negócio parecia infalível. Graças ao meu crédito, os bancos me adiantavam os valores mediante cheques pré-datados, e eu podia cobrar juros exorbitantes dos tomadores. Era, em suma, um lucro fácil, que não exigia nenhum investimento de minha parte. O montante, entre dinheiro e cheques, logo ultrapassou a casa das centenas de milhares de ienes. Ocorre que o Soko Ginkou, o banco que intermediava essas operações, faliu subitamente. Yoshikawa ocultou-me esse fato e, para piorar, descontou os cheques com agiotas, o que tornou a situação calamitosa. Os juros altíssimos acumularam-se a ponto de ele não ter mais como arcar com o compromisso, e, por fim, veio confessar-me tudo, prostrando-se diante de mim. Para mim, foi como um raio em céu azul. Como medida de emergência, não tive outra alternativa senão solicitar ao meu banco que sustasse o pagamento de todos os cheques emitidos. Naturalmente, isso enfureceu os agiotas. Eles não apenas tomaram as medidas de penhora que descrevi, como também moveram uma ação judicial contra mim por estelionato, o que me levou a ser intimado pela promotoria e submetido a um interrogatório rigoroso. Após suplicar a vários dos credores, consegui finalmente fechar um acordo por oitenta mil ienes, cerca de dois terços do valor total, sendo metade à vista e a outra metade em parcelas mensais. A partir daquele momento, teve início meu longo calvário para saldar essa dívida.
+
+Devido a esse incidente, meu casamento tornou-se inviável. Decidi, então, expor toda a verdade à família de minha noiva. Para minha surpresa, em vez de reprovação, recebi elogios. Disseram-me que era raro encontrar um homem tão íntegro, a ponto de confessar algo que a maioria manteria em segredo, e insistiram para que o casamento se realizasse. Lembro-me até hoje de pensar em como o mundo é, de fato, um lugar curioso. Esse duro golpe financeiro, contudo, restringiu severamente minhas atividades comerciais. Reorganizei a loja como uma sociedade anônima, o que me proporcionou um alívio temporário, mas logo veio a inesquecível crise econômica de março do nono ano de Taisho. A queda abrupta dos preços das mercadorias e a inadimplência generalizada representaram um segundo revés. E a este se somou um golpe ainda mais devastador: o Grande Terremoto de Kanto, em 1º de setembro do décimo segundo ano de Taisho. Minha loja em Kyobashi e todo o seu estoque foram consumidos pelo fogo, e os empréstimos que havia concedido tornaram-se irrecuperáveis. Por um momento, pensei que tudo estava perdido, mas, de alguma forma, consegui manter o negócio em funcionamento. Diante de tantas adversidades, criei uma profunda aversão à busca pelo lucro e passei a procurar na religião um novo sentido para a vida. Investiguei diversas crenças, mas nenhuma realmente me tocou, até que encontrei a Oomoto. Senti-me imediatamente atraído e ingressei na fé.
+
+Omitirei os detalhes sobre minha jornada espiritual, pois já os relatei em outra ocasião, e me concentrarei apenas na questão da dívida. Tendo abandonado a busca por lucros, tornou-se impossível saldar minhas obrigações. Consequentemente, os agiotas vinham, um após o outro, executar a penhora de meus bens. Os donativos que eu recebia em gratidão pelas curas espirituais eram modestos, de modo que precisei reduzir minhas despesas ao extremo, subsistindo com o mínimo indispensável. Com grande perseverança, fui pagando a dívida aos poucos, mas o progresso era lento. Felizmente, com o tempo, minhas atividades religiosas prosperaram e meus rendimentos aumentaram consideravelmente, até que, no décimo sexto ano da Era Showa, finalmente consegui quitar a última parcela. Ao todo, foram exatos vinte e dois anos de tormento. Senti um alívio imenso, como se um fardo pesado tivesse sido subitamente retirado de minhas costas.
+
+Gostaria de ressaltar aqui um ponto de suma importância. Enquanto estive submerso em dívidas, meu coração vivia obcecado pelo desejo de ter dinheiro. Todavia, à medida que minha fé se aprofundava, passei a compreender que as finanças são uma concessão de Deus. Uma vez saldada toda a dívida, meu espírito encontrou a serenidade. Ironicamente, a partir de então, quantias que eu jamais poderia imaginar começaram a afluir, e o volume só aumentava a cada ano. Diante disso, cheguei a uma profunda conclusão: o dinheiro, essa entidade curiosa, não se aproxima de quem o deseja ardentemente; ele surge quando já nos esquecemos de sua busca. Esta é a ‘filosofia da dívida’ que extraí de mais de duas décadas de experiência. Talvez pareça estranho que um líder religioso escreva sobre tais assuntos, mas fi-lo por acreditar que esta reflexão possa, de alguma forma, ser útil para alguém.
+
+(Nota) *Aisu* é uma gíria para agiota. A palavra é um trocadilho originado da homofonia com o termo *kōrigashi* (氷菓子), que significa “doce gelado” (sorvete).
+
+---
+
+# Acerca da Racionalidade da Fé
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年6月17日 | **Fonte:** Eikou
+**Título Original:** 信仰の合理性に就いて | **Status:** Published
+
+## Acerca da Racionalidade da Fé
+Publicado na revista Eikou n.º 213, em 17 de junho de 1953
+
+Creio que o tema da racionalidade na fé ficou claro no artigo que publiquei recentemente nesta coluna. Todavia, uma nova pergunta relacionada ao assunto foi-me dirigida por um determinado chefe de Igreja, e sobre ela discorrerei.
+
+Trata-se do caso de uma fiel que ingressou na Fé há cerca de dois anos, motivada pela cura da infiltração pulmonar de seu marido. Ocorre que, em fevereiro deste ano, seu filho de dois anos contraiu uma pneumonia. Ao consultar o chefe de uma unidade religiosa, este lhe garantiu que se encarregaria da cura. A partir de então, ministrou-lhe Johrei com grande empenho, mas o quadro não apresentava melhora. A criança, por fim, encontrou-se em estado crítico. Foi quando, há alguns dias, recebi um telefonema solicitando minha intercessão para a proteção divina. A partir daquele momento, o menino melhorou consideravelmente. Contudo, ainda apreensiva, a mãe, amparando-se no chefe de Igreja, veio ao meu encontro, trazendo a criança, para suplicar por orientação.
+
+Minha resposta foi a seguinte: uma enfermidade como a pneumonia não deveria se prolongar por tanto tempo. Há, indubitavelmente, algum equívoco. As causas são duas. Uma delas, embora também represente um grande erro, é de natureza pessoal, razão pela qual a manterei em sigilo. A outra, contudo, é de maior gravidade, e fiz questão de expô-la em detalhes para que o chefe de Igreja também a ouvisse.
+
+Sendo os pais da criança membros há um ou dois anos, a pneumonia do filho deveria ter sido tratada por meio do Johrei ministrado por eles mesmos. Com isso, a cura teria sido alcançada. Contrariar esse princípio, abstendo-se de ministrar Johrei e, em vez disso, importunar o chefe de unidade, é uma atitude desprovida de lógica. O chefe de unidade, por sua vez, também incorreu em grave erro ao se deslocar repetidamente para ministrar Johrei. Assim, ambos estão completamente equivocados. A função primordial de um dirigente de unidade consiste em pioneirar a difusão junto aos não membros. Aqueles que já são fiéis, uma vez que receberam de Deus a permissão para curar, devem ser os responsáveis por ministrar Johrei aos seus familiares. Recorrer a ele para tal finalidade significa obstruir suas atividades. Ademais, era dever do dirigente orientá-los nesse sentido. O fato de não ter percebido isso revela uma notável falta de discernimento. Evidentemente, em casos excepcionais, pode-se solicitar a permissão de Deus para ministrar Johrei por um breve período, mas nada além disso.
+
+Em suma, por terem agido de maneira ilógica, não puderam receber a graça divina. Portanto, é imperativo que chefes de Igreja, dirigentes de unidade, instrutores e demais responsáveis compreendam plenamente suas respectivas posições e atribuições, a fim de evitar ações desprovidas de racionalidade. Para tanto, é essencial a leitura assídua dos Ensinamentos Divinos, pois, ao aprimorar a sabedoria e a percepção espiritual, torna-se possível discernir a atitude correta em qualquer circunstância.
+
+Nesse sentido, não se deve esquecer a distinção entre o Mahayana, o Grande Veículo, e o Hinayana, o Pequeno Veículo. A expansão da Obra Divina deve ser sempre a prioridade máxima, relegando-se os assuntos pessoais a um plano secundário. Agindo dessa forma, tudo transcorrerá em harmonia. Em outras palavras, ao considerar o bem do todo e agir com lógica, é possível receber graças ilimitadas. Por outro lado, se as ações interferem, ainda que minimamente, no andamento da Obra Divina, é natural que os resultados não sejam os esperados. Afinal, estamos empenhados na grandiosa tarefa de salvar toda a humanidade, e Deus tem extrema urgência em sua realização. É fundamental, portanto, refletir profundamente sobre esse ponto.
+
+---
+
+# Vinte Anos de Dívidas
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Eikou
+**Título Original:** 借金二十年 | **Status:** Published
+
+## Vinte Anos de Dívidas
+
+Padeci com dívidas por mais de vinte anos, do oitavo ano da Era Taisho ao décimo sexto da Era Showa. Ou melhor, fui atormentado por elas. Jamais me esquecerei do que ocorreu no oitavo ano da Era Taisho, quando eu tinha trinta e oito anos. Os preparativos para meu casamento com minha atual esposa haviam sido concluídos e, logo após a escolha de uma data auspiciosa, fui surpreendido pela visita intempestiva de três indivíduos de uma categoria que eu jamais vira: oficiais de justiça. Eles me apresentaram uma estranha notificação para que eu a lesse, mas, como nunca havia passado por tal experiência, tudo o que pude fazer foi encará-los com os olhos arregalados. Enquanto eu permanecia atônito, eles inspecionaram cada cômodo e começaram a afixar pequenos selos de papel nos móveis e utensílios de maior valor. Em seguida, pediram que eu lesse um documento, do tamanho de meia folha de papel, que detalhava os motivos da penhora, afixaram-no na lateral de uma cômoda e se retiraram. Ao examiná-lo, vi diversos artigos legais, mas um deles me chocou profundamente: a advertência de que os bens penhorados não poderiam ser movidos e que a violação dos selos acarretaria uma punição prevista em determinado artigo do Código Penal.
+
+O problema, contudo, era que um desses selos fora colado de modo a prender uma das gavetas da cômoda, unindo-a à sua divisória. O objetivo era, obviamente, impedir sua abertura, mas isso me colocava em um impasse, pois eu precisava ter acesso às roupas guardadas ali. Após diversas tentativas, consegui descolá-lo cuidadosamente de um dos lados, o suficiente para abrir a gaveta. Só então pude respirar aliviado. A razão pela qual me vi em tal situação foi a seguinte: como já escrevi anteriormente, obtive grande sucesso como proprietário de uma loja de armarinhos. A partir do nada, acumulei um patrimônio de mais de cem mil ienes, o que me tornou deveras presunçoso. Acariciava o antigo desejo de ingressar no ramo jornalístico e, após investigar o assunto, descobri que seria necessário um capital de um milhão de ienes. Determinado a levantar essa quantia, envolvi-me em diversos empreendimentos. Foi nesse período que travei conhecimento com um indivíduo de nome Yoshikawa, um homem astuto e calejado pelas experiências da vida. Naquela época, eu era alvo da inveja de meus concorrentes e, por isso, passei a encarar o mundo com excessiva ingenuidade. Influenciado por Yoshikawa, em meio à efervescência da bolsa de valores que se seguiu à Primeira Guerra Mundial, iniciei um negócio de financiamento para corretores da bolsa. Graças à minha reputação, eu conseguia obter empréstimos bancários com cheques pré-datados, que por sua vez eram repassados a tomadores mediante uma taxa de juros diária de cinco centavos. Era um lucro irresistível, obtido sem a necessidade de investir um único centavo de meu próprio bolso. Com o tempo, minhas transações, somando dinheiro e cheques, chegaram a mais de cem mil ienes. No entanto, o banco que intermediava essas operações, o Soko Ginko, faliu repentinamente. Yoshikawa ocultou-me esse fato e descontou os cheques com agiotas, o que resultou em uma situação insustentável, com os juros se acumulando vertiginosamente. Finalmente, ele confessou tudo, prostrando-se diante de mim. Para mim, foi como um raio em céu azul. Como medida de emergência, não tive escolha senão solicitar ao banco que recusasse o pagamento de todos os cheques, o que enfureceu os agiotas. Eles prontamente tomaram as medidas de penhora já mencionadas e, ademais, moveram uma ação judicial contra mim por estelionato. Fui intimado a comparecer à promotoria, onde passei por um interrogatório rigoroso. Por fim, após suplicar a vários dos agiotas, consegui firmar um acordo para quitar a dívida por oitenta mil ienes – aproximadamente dois terços do valor total –, pagando metade à vista e o restante em parcelas mensais. A partir daí, teve início meu longo sofrimento para honrar esse compromisso.
+
+Em virtude desse incidente, o casamento que havíamos combinado tornou-se inviável. Decidi, então, expor toda a verdade à família de minha noiva. Sua reação, no entanto, foi surpreendente: em vez de reprovarem a situação, elogiaram minha honestidade por revelar um assunto que, normalmente, seria mantido em segredo, e insistiram na realização do matrimônio. Lembro-me até hoje de ter pensado em como o mundo pode ser curioso. Esse duro golpe impôs severas restrições ao meu negócio. Embora a transformação da loja em uma sociedade anônima tenha trazido um alívio temporário, fui atingido por uma segunda catástrofe: o pânico financeiro de março do ano seguinte, o nono da Era Taisho. A essa calamidade, somou-se o Grande Terremoto de Kanto, em primeiro de setembro do décimo segundo ano da Era Taisho. Minha loja em Kyobashi e todo o estoque foram consumidos pelo fogo, e todos os meus créditos se tornaram irrecuperáveis. Por um momento, pensei que seria o fim, mas, de alguma forma, consegui manter o negócio em funcionamento. Diante de tantos reveses, desenvolvi uma profunda aversão ao ato de ganhar dinheiro e passei a buscar na religião um caminho para a vida. Explorei diversas fés, mas nenhuma me pareceu ser o que eu buscava, até encontrar a Oomoto-kyo, que cativou meu coração e à qual aderi sem demora. Os acontecimentos que se seguiram já foram por mim relatados em outra ocasião, portanto, me concentrarei aqui apenas na questão da dívida. Com minha decisão de abandonar a busca por lucros, a quitação tornou-se impossível. Consequentemente, os agiotas voltaram a aparecer, um após o outro, para executar novas penhoras. As gratidões que eu recebia pela cura de doenças por meio da fé eram modestas; assim, adotei um estilo de vida extremamente austero e perseverei com o mínimo necessário. Embora eu conseguisse fazer pagamentos parciais, o progresso era muito mais lento do que eu desejava. Felizmente, com o tempo, minhas atividades prosperaram e meus rendimentos aumentaram consideravelmente, permitindo-me, enfim, saldar a totalidade de minhas dívidas no décimo sexto ano da Era Showa. Ao todo, foram exatos vinte e dois anos de tormento. Senti como se um pesado fardo tivesse sido subitamente retirado de minhas costas, e uma imensa sensação de alívio tomou conta de mim.
+
+É fundamental ressaltar que, enquanto estive endividado, minha mente estava completamente dominada pelo desejo incessante de obter dinheiro, dia e noite. Contudo, à medida que minha fé se aprofundava, compreendi que o dinheiro é algo concedido por Deus. Com a dívida integralmente paga, meu espírito se tornou sereno. Ironicamente, foi a partir desse momento que uma quantia inimaginável de dinheiro começou a afluir para mim, aumentando ano após ano. Isso me levou a uma profunda reflexão: o dinheiro, essa entidade peculiar, não se aproxima enquanto o desejamos ardentemente; ele surge quando já nos esquecemos dele. Esta é a filosofia sobre as dívidas que extraí de mais de duas décadas de experiência. Sei que pode parecer estranho um líder religioso escrever sobre tais assuntos, mas decidi fazê-lo por acreditar que esta vivência possa servir de referência para alguém.
+
+(Nota)
+Ice: Gíria para agiota. A palavra é um trocadilho com "ice cream" (sorvete), pois o termo japonês para agiota, "kourigashi" (高利貸), tem sonoridade semelhante à palavra para "doce gelado", "kourigashi" (氷菓子).
+
+---
+
+# O Sublime Significado do Paraíso Terrestre de Shinsenkyo
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年7月8日 | **Fonte:** Eikou
+**Título Original:** 神仙郷地上天国の大いなる意義 | **Status:** Published
+
+## O Sublime Significado do Paraíso Terrestre de Shinsenkyo
+
+Finalmente, foi concluído o tão esperado protótipo do Paraíso Terrestre de Shinsenkyo, nas montanhas de Kanrei. Escusado será dizer que este Jardim Divino é uma obra de arte como, creio eu, jamais existiu, não apenas no Japão, mas em qualquer outra nação. A forma magistral como se utilizou uma profusão de rochas e pedras de beleza singular em uma montanha de tamanha altitude; o modo como, entre suas fendas, foram dispostas inúmeras árvores, flores e plantas alpinas; e os riachos que serpenteiam por toda parte, cujo som murmurante nos envolve em um sentimento idílico de profunda apreciação pela natureza... todo esse panorama leva-nos a sentir que nos apartamos das impurezas do mundo para passear no Paraíso. É o que, em uníssono, exaltam todos os que o visitam. Como se não bastasse, tal qual uma flor a adornar o brocado, um resplandecente Templo da Beleza também se faz presente, complementando o conjunto. Assim, considero que esta obra, que harmoniza a beleza natural e a beleza artificial, é uma peça de arte da qual podemos nos orgulhar.
+
+Contudo, a impressão que descrevi até aqui corresponde a uma análise sob a ótica humana. Quando o observamos sob uma perspectiva espiritual, revela-se um significado de uma magnitude inimaginável. Explicarei agora em detalhe, e, ao compreenderem, certamente perceberão quão profundo, sutil e insondável é o Plano Divino, uma grandiosidade que transcende por completo o intelecto humano. Como sempre afirmo, o Plano de Deus, em sua essência, é um mistério sublime: inicia-se em uma escala diminuta para, gradualmente, expandir-se até abranger o mundo inteiro. Este princípio aplica-se igualmente ao plano material. Quando o ser humano almeja construir algo grandioso, primeiro elabora um protótipo para depois dar início à obra principal. Portanto, basta pensarmos que este Paraíso Terrestre de Shinsenkyo, agora concluído, prefigura o futuro Paraíso Terrestre de âmbito mundial. A esse respeito, abordarei o profundo significado por trás da escolha das montanhas de Hakone.
+
+Sob um prisma espiritual, o centro do mundo é o Japão, e o Monte Fuji é o grande pilar central da Terra. Observem sua forma: uma silhueta de beleza sublime, sem paralelo no mundo. Desde tempos imemoriais, é reverenciado como Montanha Divina ou Pico Espiritual, sendo considerado pelos estrangeiros o próprio símbolo do Japão. Eis aí um significado profundo que se oculta. O futuro desta nação é tornar-se o centro do Paraíso Terrestre, algo já determinado por Deus no momento da Criação. Contemplem a beleza de suas montanhas e rios, a imensa variedade de sua flora, as paisagens de cada uma das quatro estações que se revelam com as mudanças do clima. Suas abundantes bênçãos celestiais já lhe conferem uma beleza paradisíaca, o que torna perfeitamente compreensível que, na antiguidade, o imperador Qin Shi Huang da China se referisse a estas terras como a lendária ilha de Hōrai, no Oriente. Ademais, que a sensibilidade estética do nosso povo seja particularmente apurada é um fato reconhecido até mesmo pelos estrangeiros, a ponto de nenhuma outra nação do mundo poder se equiparar. É igualmente um mistério que, desde eras remotas, obras de arte de todos os países tenham sido reunidas e preservadas no Japão. Por conseguinte, este país de inúmeras venturas já possui, por desígnio Divino, os elementos constitutivos do Paraíso. É por essa razão que sempre afirmo que o Japão é o parque e o museu do mundo.
+
+Se partirmos do princípio de que todo o território japonês é o parque e o centro do mundo, então o parque do Japão seria Hakone. Sua localização no centro geográfico do país, sendo o marco que separa a região leste, Kanto, da região oeste, Kansai, torna este fato evidente. No âmbito cultural, tampouco há outra nação que tenha assimilado tão completamente as culturas oriental e ocidental; e é justamente o Japão que detém a missão de harmonizá-las para dar origem a uma cultura de paz ideal. Soube recentemente que alguns intelectuais nos Estados Unidos começaram a defender essa mesma tese, o que me parece natural. Dessa forma, Hakone é o centro do Japão. Seu ponto central, por sua vez, é Gora, e de lá, avistando-se ao fundo o Monte Sounzan, ergue-se imponente o Monte Kamiyama. Sendo o pico mais elevado da cordilheira de Hakone, ele representa o verdadeiro centro. É desnecessário dizer, portanto, que esta montanha constitui o ponto de bifurcação entre o leste e o oeste do Japão. Isso é, de fato, um grande mistério, e creio que o nome Kamiyama (神山), ou "Montanha Divina", é deveras apropriado.
+
+Sendo assim, a rigor, o Paraíso Terrestre deveria ser construído sobre o Monte Kamiyama, mas, por ser impossível, escolhemos este local. A primeira residência que tive ao chegar a Gora, denominei-a Shinzanso (神山荘), como uma representação do Monte Kamiyama. Já o local onde hoje se encontra o Templo Nikko, chamei-o na época de Sounryo (早雲寮), em alusão ao Monte Sounzan. Outro fato interessante é que a Companhia de Trem de Hakone, que originalmente desenvolveu a área de Gora, criou este terreno de Shinsenkyo sob o nome de "Parque do Japão". E o nível inferior, o atual Parque de Gora, foi projetado em estilo ocidental, o que encerra em si um mistério. Ao analisarmos essa sequência, compreendemos que, se o Japão é o parque do mundo e Hakone é o parque do Japão, Gora é o parque de Hakone. E sendo Shinsenkyo o centro de Gora, conclui-se que Shinsenkyo é o verdadeiro centro do mundo.
+
+Sob essa ótica, a conclusão do Paraíso Terrestre de Shinsenkyo significa que o Paraíso Terrestre finalmente nasceu no centro do mundo. Trata-se, em suma, do nascimento do Paraíso Terrestre, o que o torna o maior e mais auspicioso evento desde a aurora dos tempos, um dia de magna celebração mundial por toda a eternidade. Por essa razão, o dia 15 de junho se tornará, no futuro, a data de comemoração do nascimento do Paraíso Terrestre. E neste momento, desejo fazer um anúncio de suma importância. A partir de hoje, a atividade no Mundo Espiritual será impulsionada. Tendo este local como epicentro, um grande redemoinho, sob o ritmo em que o espiritual avança e o material retrocede, irá gradualmente se expandir pelo mundo, trazendo consigo uma transformação sem precedentes. Eis, em verdade, a Reconstrução do Mundo.
+
+---
+
+# A Fé é Credibilidade
+
+**Categoria:** shi | **Ano:** 昭和24(1949)年6月18日 | **Fonte:** -
+**Título Original:** 信仰は信用なり | **Status:** Published
+
+## A Fé é Credibilidade
+*Publicado na revista Hikari n.º 13, em 18 de junho de 1949*
+
+Embora existam inúmeros religiosos no mundo, os verdadeiros fiéis são, de fato, uma ínfima minoria. Sendo assim, discorrerei sobre o que caracteriza uma pessoa de fé autêntica.
+
+Por mais que alguém se considere um fiel exemplar, sua autopercepção, por si só, não tem valor algum. A autenticidade de sua fé só pode ser confirmada por uma avaliação objetiva. Portanto, o primeiro passo para se tornar um verdadeiro fiel é compreender como alcançar tal condição. O princípio para tanto é simples: conquistar a confiança das pessoas. É ser alguém de quem se diz: “A palavra dele é inquestionável”; “Na sua companhia, jamais ocorrerá algo de mau”; “Ele é uma pessoa admirável”.
+
+Ora, como é possível obter tamanha credibilidade? A resposta, novamente, é descomplicada. Consiste, primordialmente, em jamais proferir inverdades e em priorizar o bem-estar alheio em detrimento do próprio interesse. Se as pessoas ao redor expressam sentimentos como: “Graças a ele, fui salvo”; “Estando a seu lado, jamais saímos perdendo”; “É uma pessoa genuinamente gentil”; “Sempre me sinto bem ao encontrá-lo”, indubitavelmente, qualquer um nutrirá afeição e reverência por tal indivíduo. Basta uma breve reflexão sobre nós mesmos para que isso se torne evidente: ao conhecer alguém com tais qualidades, é natural o desejo de estreitar os laços, de poder confiar-lhe qualquer assunto e, com o tempo, desenvolver uma amizade de profunda sinceridade.
+
+Contudo, há mais um ponto a ser ressaltado: essa conduta não pode ser passageira. Deve assemelhar-se ao arroz branco, que, embora pareça insípido a princípio, revela um sabor cada vez mais profundo à medida que é mastigado. Assim como o ser humano não pode viver um dia sequer sem o arroz, costumo dizer que todos nós devemos nos tornar pessoas com a natureza do arroz.
+
+No entanto, ao observarmos o mundo, constatamos que é excessivo o número de pessoas que agem de modo diametralmente oposto. Cometem, com indiferença, atos que minam a própria credibilidade, proferindo mentiras frágeis, que logo são desmascaradas. Uma vez dita uma inverdade, por melhores que sejam todas as outras atitudes, a confiança se desfaz por completo. Isso é o cúmulo da insensatez. Existem indivíduos que, por mais que trabalhem arduamente e se esforcem, jamais prosperam. Ao investigarmos a causa, descobrimos invariavelmente que é por faltarem com a verdade e, assim, perderem a confiança alheia. Para esta regra, não há exceções. A credibilidade é, em si, um patrimônio. Quem a possui jamais passará por dificuldades financeiras, pois todos, de bom grado, lhe estenderão auxílio.
+
+Tudo o que foi exposto até aqui diz respeito à confiança no âmbito das relações humanas. Todavia, existe um patamar ainda mais elevado: ser digno da confiança de Deus. Este é o bem mais sublime, pois, uma vez que se obtenha a confiança Divina, tudo na vida fluirá harmoniosamente, permitindo uma existência plena de júbilo.
+
+---
+
 # Ashita no Ijutsu (Reedição), Volume I
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 序論 | **Status:** Published
 
 ## Ashita no Ijutsu (Reedição), Volume I
 
@@ -101,6 +742,7 @@ Mas o que significa esse “efeito reverso”? Expor e elucidar completamente es
 # Obra Social e Obra Religiosa
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年3月5日 | **Fonte:** Eikou
+**Título Original:** 社会事業と宗教事業 | **Status:** Published
 
 ## Obra Social e Obra Religiosa
 *Publicado na revista Eikou, n.º 146, em 5 de março de 1952*
@@ -120,6 +762,7 @@ Como algumas pessoas, por desconhecerem esses fatos, questionam por que nossa Ig
 # O Desaparecimento dos Grandes Mestres (Parte 1)
 
 **Categoria:** me | **Ano:** 昭和28(1953)年1月7日 | **Fonte:** Eikou
+**Título Original:** 名人の失くなった理由(一) | **Status:** Published
 
 ## O Desaparecimento dos Grandes Mestres (Parte 1)
 
@@ -148,6 +791,7 @@ Oozatsuma (大薩摩): Abreviação de Oozatsuma-bushi. Trata-se de um antigo es
 # O que são os Milagres? (Da Coletânea de Milagres da Sekaikyuseikyou)
 
 **Categoria:** ki | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 奇蹟とは何ぞや | **Status:** Published
 
 ## O que são os Milagres? (Da Coletânea de Milagres da Sekaikyuseikyou)
 
@@ -166,6 +810,7 @@ O meu caso, todavia, não apenas se assemelha a esse processo, como o supera, po
 # O motivo do desaparecimento dos grandes mestres (I)
 
 **Categoria:** me | **Ano:** 昭和28(1953)年1月7日 | **Fonte:** Eikou
+**Título Original:** 名人の失くなった理由(一) | **Status:** Published
 
 ## O motivo do desaparecimento dos grandes mestres (I)
 
@@ -197,6 +842,7 @@ Oozatsuma (大薩摩): Abreviação de Oozatsuma-bushi. Um dos estilos do ko-jor
 # O Que é um Milagre?
 
 **Categoria:** ki | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 奇蹟とは何ぞや | **Status:** Published
 
 ## O Que é um Milagre?
 Do “Livro de Milagres da Sekaikyuseikyou”, publicado em 10 de setembro de 1953
@@ -214,6 +860,7 @@ No meu caso, contudo, o processo não foi meramente análogo; foi, na verdade, s
 # Introdução
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 序論 | **Status:** Published
 
 ## Introdução
 Ashita no Ijutsu (Reimpressão) – Primeira Parte
@@ -280,7 +927,8 @@ Mas o que significa esse “efeito reverso”? O grande e sagrado voto de expor 
 
 # A Era do Terror (Medicina do Amanhã)
 
-**Categoria:** ki | **Ano:** 昭和23(1948)年4月28日 | **Fonte:** 恐怖時代
+**Categoria:** ki | **Ano:** 昭和23(1948)年4月28日 | **Fonte:** 昭和
+**Título Original:** 恐怖時代未発表 | **Status:** Unpublished
 
 ## A Era do Terror (Medicina do Amanhã)
 
@@ -331,7 +979,8 @@ Este texto é uma revisão com acréscimos e correções, realizada no pós-guer
 
 # A Era de Terror
 
-**Categoria:** ki | **Ano:** 昭和23(1948)年4月28日 | **Fonte:** 恐怖時代
+**Categoria:** ki | **Ano:** 昭和23(1948)年4月28日 | **Fonte:** 昭和
+**Título Original:** 恐怖時代未発表 | **Status:** Unpublished
 
 ## A Era de Terror
 (Inédito, 28 de abril de 1948)
@@ -383,6 +1032,7 @@ Ah, verdadeiramente grandiosa é a minha missão salvífica!
 # O Fator Primordial para a Expansão de Nossa Igreja
 
 **Categoria:** ho | **Ano:** 昭和28(1953)年9月30日 | **Fonte:** Eikou
+**Título Original:** 本教発展の主因 | **Status:** Published
 
 ## O Fator Primordial para a Expansão de Nossa Igreja
 
@@ -401,6 +1051,7 @@ Por tudo isso, pode-se ter uma ideia da magnitude das graças concedidas por nos
 # A Nossa Fé e a Revolução Cultural
 
 **Categoria:** ho | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 本教と文化革命 | **Status:** Published
 
 ## A Nossa Fé e a Revolução Cultural
 (Publicado em "Paraíso Terrestre", nº 33, de 25 de fevereiro de 1952)
@@ -424,6 +1075,7 @@ Por conseguinte, aqueles que desconhecem tais fatos talvez me julguem uma espéc
 # O Fator Primordial para a Expansão de Nossa Igreja
 
 **Categoria:** ho | **Ano:** 昭和28(1953)年9月30日 | **Fonte:** Eikou
+**Título Original:** 本教発展の主因 | **Status:** Published
 
 ## O Fator Primordial para a Expansão de Nossa Igreja
 
@@ -444,6 +1096,7 @@ Por tudo isso, pode-se imaginar quão assombrosas são as Graças Divinas conced
 # Nossa Doutrina e a Revolução Cultural
 
 **Categoria:** ho | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 本教と文化革命 | **Status:** Published
 
 ## Nossa Doutrina e a Revolução Cultural
 (Publicado na revista “Paraíso Terrestre” nº 33, em 25 de fevereiro de 1952)
@@ -459,6 +1112,7 @@ Surge, contudo, a dúvida se um empreendimento de tal magnitude, que beira o fan
 # A Via Conjugal (Miscelânea da Fé, p. 87, 5 de setembro de 1948)
 
 **Categoria:** hu | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 夫婦の道 | **Status:** Published
 
 ## A Via Conjugal (Miscelânea da Fé, p. 87, 5 de setembro de 1948)
 
@@ -483,6 +1137,7 @@ Ofereço este breve ensaio a todos os cônjuges deste mundo.
 # Não Julgueis o Próximo
 
 **Categoria:** hi | **Ano:** 昭和27(1952)年5月21日 | **Fonte:** Kyusei
+**Título Original:** 人を裁く勿れ | **Status:** Published
 
 ## Não Julgueis o Próximo
 
@@ -508,6 +1163,7 @@ Portanto, ao mesmo tempo que se deve observar a máxima "Não julgueis o próxim
 # O Caminho do Casal (Extraído de 'Crônicas da Fé', p. 87, publicado em 5 de setembro de 1948)
 
 **Categoria:** hu | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 夫婦の道 | **Status:** Published
 
 ## O Caminho do Casal (Extraído de 'Crônicas da Fé', p. 87, publicado em 5 de setembro de 1948)
 
@@ -534,6 +1190,7 @@ Ofereço este artigo aos homens e mulheres casados de nosso tempo.
 # Coletânea de Teses do Mestre Okada Jikan
 
 **Categoria:** hi | **Ano:** 昭和10(1935)年7月25日 | **Fonte:** Hikari明世界
+**Título Original:** 貧乏製造宗　　　　　阿呆文学 | **Status:** Published
 
 ## Coletânea de Teses do Mestre Okada Jikan
 ## A Seita que Produz a Indigência (Literatura do Insensato)
@@ -571,6 +1228,7 @@ Este Corvo Matutino Insensato deseja despertar, aos brados de "Insensatos! Insen
 # Não Julgueis o Próximo
 
 **Categoria:** hi | **Ano:** 昭和27(1952)年5月21日 | **Fonte:** Kyusei
+**Título Original:** 人を裁く勿れ | **Status:** Published
 
 ## Não Julgueis o Próximo
 
@@ -585,6 +1243,7 @@ Portanto, ao mesmo tempo que se deve observar fielmente o preceito "Não julguei
 # O Milagre da Reunião das Obras de Arte
 
 **Categoria:** hi | **Ano:** 昭和28(1953)年7月22日 | **Fonte:** Eikou
+**Título Original:** 美術品蒐集の奇蹟 | **Status:** Published
 
 ## O Milagre da Reunião das Obras de Arte
 
@@ -620,6 +1279,7 @@ Rogo a Vossa Senhoria que considere este relato e o aceite como meu relatório e
 # A Seita que Fabrica a Pobreza: Literatura de um Tolo
 
 **Categoria:** hi | **Ano:** 昭和10(1935)年7月25日 | **Fonte:** Hikari明世界
+**Título Original:** 貧乏製造宗　　　　　阿呆文学 | **Status:** Published
 
 ## A Seita que Fabrica a Pobreza: Literatura de um Tolo
 
@@ -658,6 +1318,7 @@ E é para anunciar a existência desta fé tão magnífica e simples que este Co
 # O Milagre da Coleção de Obras de Arte
 
 **Categoria:** hi | **Ano:** 昭和28(1953)年7月22日 | **Fonte:** Eikou
+**Título Original:** 美術品蒐集の奇蹟 | **Status:** Published
 
 ## O Milagre da Coleção de Obras de Arte
 
@@ -688,6 +1349,7 @@ Rogo a Vossa benevolente consideração sobre o exposto e, com este relato, cump
 # O tratamento pelo Poder de Kannon não é uma terapia mental
 
 **Categoria:** ka | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Toho no Hikari
+**Título Original:** 観音力療病は観念療法に非ず | **Status:** Published
 
 ## O tratamento pelo Poder de Kannon não é uma terapia mental
 
@@ -718,6 +1380,7 @@ Em suma, o que temos é um fato concreto e vivo: um tratamento que não é medic
 # O Movimento de Kannon é a cura de toda e qualquer enfermidade
 
 **Categoria:** ka | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Toho no Hikari
+**Título Original:** 観音運動は一切の病気治しなり | **Status:** Published
 
 ## O Movimento de Kannon é a cura de toda e qualquer enfermidade
 — Apresentando, outrossim, este texto aos religiosos das crenças estabelecidas
@@ -739,6 +1402,7 @@ Portanto, nosso objetivo último é edificar um corpo saudável, um pensamento s
 # A Purificação através da Palavra Impressa
 
 **Categoria:** ka | **Ano:** 昭和27(1952)年11月26日 | **Fonte:** Eikou
+**Título Original:** 活字の浄霊 | **Status:** Published
 
 ## A Purificação através da Palavra Impressa
 (Revista Eikou, nº 184, 26 de novembro de 1952)
@@ -758,6 +1422,7 @@ Exponho aqui as reflexões que me ocorreram sobre o tema.
 # A Ciência é incapaz de curar as doenças (Do livro inédito “A Revolução da Medicina”, escrito em 1953)
 
 **Categoria:** ka | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 科学で病気は治らない 未発表 | **Status:** Unpublished
 
 ## A Ciência é incapaz de curar as doenças (Do livro inédito “A Revolução da Medicina”, escrito em 1953)
 
@@ -784,6 +1449,7 @@ Quando este conhecimento se difundir pelo mundo, provocará uma comoção sem pr
 # A Purificação Espiritual pela Palavra Impressa
 
 **Categoria:** ka | **Ano:** 昭和27(1952)年11月26日 | **Fonte:** Eikou
+**Título Original:** 活字の浄霊 | **Status:** Published
 
 ## A Purificação Espiritual pela Palavra Impressa
 Revista Eikou, nº 184, 26 de novembro de 1952
@@ -803,6 +1469,7 @@ Escrevi estas linhas conforme as ideias me ocorreram.
 # A Ciência Não Cura Doenças (Da obra inédita “A Revolução da Medicina”, de 1953)
 
 **Categoria:** ka | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 科学で病気は治らない 未発表 | **Status:** Unpublished
 
 ## A Ciência Não Cura Doenças (Da obra inédita “A Revolução da Medicina”, de 1953)
 
@@ -829,6 +1496,7 @@ Expressão célebre do I Ching chinês. O universo, em sua máxima grandeza, nã
 # A Cura pelo Poder de Kannon não é uma Terapia Mental (Revista Luz do Oriente, nº 9, 1º de janeiro de 1936)
 
 **Categoria:** ka | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Toho no Hikari
+**Título Original:** 観音力療病は観念療法に非ず | **Status:** Published
 
 ## A Cura pelo Poder de Kannon não é uma Terapia Mental (Revista Luz do Oriente, nº 9, 1º de janeiro de 1936)
 
@@ -855,6 +1523,7 @@ Apresento aqui estes fatos com o intuito de inquirir os especialistas e intelect
 # A Relação entre Deus e Eu
 
 **Categoria:** ka | **Ano:** 昭和29(1954)年2月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 神様と私との関係 | **Status:** Published
 
 ## A Relação entre Deus e Eu
 Revista Paraíso Terrestre, n.º 57, 25 de fevereiro de 1954
@@ -874,6 +1543,7 @@ Ao compreender essa realidade, percebi que o ato de inquirir a Deus, como descre
 # O Movimento de Kannon (観音) é, em sua essência, a cura de todas as enfermidades
 
 **Categoria:** ka | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Toho no Hikari
+**Título Original:** 観音運動は一切の病気治しなり | **Status:** Published
 
 ## O Movimento de Kannon (観音) é, em sua essência, a cura de todas as enfermidades
 #### — Apresentando este Ensaio aos Religiosos do Mundo Contemporâneo —
@@ -903,6 +1573,7 @@ Nosso objetivo último é, portanto, a concretização de um corpo sadio, de um 
 # A Relação entre Deus e Eu
 
 **Categoria:** ka | **Ano:** 昭和29(1954)年2月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 神様と私との関係 | **Status:** Published
 
 ## A Relação entre Deus e Eu
 
@@ -921,6 +1592,7 @@ Compreendi, então, a partir dessa vivência, que o ato de “consultar a Deus�
 # O Segredo da Felicidade
 
 **Categoria:** ko | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
+**Título Original:** 幸福の秘訣 | **Status:** Published
 
 ## O Segredo da Felicidade
 (Jornal *Hikari*, nº 29, publicado em 1º de outubro de 1949)
@@ -946,6 +1618,7 @@ Para que este artigo não se alongue em demasia, encerrarei por aqui. Contudo, s
 # A Preponderância do Espírito sobre a Matéria
 
 **Categoria:** re | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 霊主体従 | **Status:** Published
 
 ## A Preponderância do Espírito sobre a Matéria
 
@@ -962,6 +1635,7 @@ Todavia, este equívoco não se restringe unicamente ao campo da medicina; ele s
 # O Segredo da Felicidade
 
 **Categoria:** ko | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
+**Título Original:** 幸福の秘訣 | **Status:** Published
 
 ## O Segredo da Felicidade
 
@@ -986,6 +1660,7 @@ Para não me estender demasiadamente, encerrarei por aqui. Contudo, se refletire
 # A Luz do Oriente
 
 **Categoria:** to | **Ano:** 昭和27(1952)年11月12日 | **Fonte:** Eikou
+**Título Original:** 東方の光 | **Status:** Published
 
 ## A Luz do Oriente
 
@@ -1018,6 +1693,7 @@ Em suma, trata-se de purificar, de uma só vez, as águas turvas que até hoje j
 # A Primazia do Espírito sobre a Matéria
 
 **Categoria:** re | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 霊主体従 | **Status:** Published
 
 ## A Primazia do Espírito sobre a Matéria
 
@@ -1036,6 +1712,7 @@ Como fica evidente por esses dois grandes fatos, a causa fundamental de tais pro
 # A Luz do Oriente
 
 **Categoria:** to | **Ano:** 昭和27(1952)年11月12日 | **Fonte:** Eikou
+**Título Original:** 東方の光 | **Status:** Published
 
 ## A Luz do Oriente
 
@@ -1068,6 +1745,7 @@ Como descrevi, o movimento fundamental da cultura seguiu até hoje um curso inve
 # A Minha Pessoa
 
 **Categoria:** wa | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** Chijo Tengoku
+**Título Original:** 私というもの | **Status:** Published
 
 ## A Minha Pessoa
 **Publicado na revista Paraíso Terrestre, volume 7, em 30 de agosto de 1949**
@@ -1091,6 +1769,7 @@ Ademais, o artigo "O eu que observei" foi publicado na edição anterior da revi
 # Espírito e Matéria (Da “Coletânea de Milagres da Sekaikyuseikyou”, publicação de 10 de setembro de 1953)
 
 **Categoria:** re | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 霊と体 | **Status:** Published
 
 ## Espírito e Matéria (Da “Coletânea de Milagres da Sekaikyuseikyou”, publicação de 10 de setembro de 1953)
 
@@ -1119,6 +1798,7 @@ Agora, entretanto, o tempo predestinado finalmente chegou. O Deus Supremo manife
 # O Espírito e o Corpo
 
 **Categoria:** re | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** 霊と体 | **Status:** Published
 
 ## O Espírito e o Corpo
 
@@ -1135,6 +1815,7 @@ O tempo, entretanto, finalmente chegou. O Deus Supremo manifesta agora Seu poder
 # Sobre a minha pessoa (Reapresentação)
 
 **Categoria:** wa | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 私というもの(再録)自観叢書12編 | **Status:** Published
 
 ## Sobre a minha pessoa (Reapresentação)
 Da Coletânea Jikan, Vol. 12, "Coletânea de Colóquios de Jikan", publicado em 30 de janeiro de 1950.
@@ -1155,6 +1836,7 @@ Entendo que meu objetivo supremo, o Paraíso Terrestre, consiste na partilha e e
 # A Visão que Tenho de Mim Mesmo (Reedição)
 
 **Categoria:** wa | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 私の観た私 (再録) 自観叢書12編 | **Status:** Published
 
 ## A Visão que Tenho de Mim Mesmo (Reedição)
 
@@ -1204,6 +1886,7 @@ O que aqui foi exposto é a realidade de mim mesmo, sob minha própria ótica.
 # Coletânea de Artigos do Mestre Okada Jikan – Busca nos Ensinamentos: Ajuda / Busca nos Documentos: Eu Visto por Mim Mesmo
 
 **Categoria:** wa | **Ano:** 昭和24(1949)年7月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 私の観た私 | **Status:** Published
 
 ## Coletânea de Artigos do Mestre Okada Jikan – Busca nos Ensinamentos: Ajuda / Busca nos Documentos: Eu Visto por Mim Mesmo
 
@@ -1240,6 +1923,7 @@ O que acabo de expor é, em sua essência, a imagem de mim mesmo, vista por meus
 # A Natureza do Meu Ser (Revista Paraíso Terrestre, nº 7 – 30 de agosto de 1949)
 
 **Categoria:** wa | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** Chijo Tengoku
+**Título Original:** 私というもの | **Status:** Published
 
 ## A Natureza do Meu Ser (Revista Paraíso Terrestre, nº 7 – 30 de agosto de 1949)
 
@@ -1260,6 +1944,7 @@ O Paraíso Terrestre, meu objetivo maior, consiste, a meu ver, na universalizaç
 # Minha Forma de Pensar
 
 **Categoria:** wa | **Ano:** 昭和27(1952)年6月25日 | **Fonte:** Eikou
+**Título Original:** 私の考え方 | **Status:** Published
 
 ## Minha Forma de Pensar
 Revista Glória, nº 162, 25 de junho de 1952
@@ -1285,6 +1970,7 @@ Nesse sentido, detesto a fixação em um único trabalho e alterno constantement
 # A Meu Respeito (Reedição)
 
 **Categoria:** wa | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 私というもの(再録)自観叢書12編 | **Status:** Published
 
 ## A Meu Respeito (Reedição)
 
@@ -1307,6 +1993,7 @@ Meu objetivo supremo, a construção do Paraíso Terrestre, consiste na partilha
 # Minha Forma de Pensar
 
 **Categoria:** wa | **Ano:** 昭和27(1952)年6月25日 | **Fonte:** Eikou
+**Título Original:** 私の考え方 | **Status:** Published
 
 ## Minha Forma de Pensar
 Publicado em 25 de junho de 1952, na revista Eikou, n.º 162
@@ -1332,6 +2019,7 @@ Nesse sentido, detesto me fixar em um único trabalho e prefiro alternar constan
 # O Eu que Vi (Reedição)
 
 **Categoria:** wa | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 私の観た私 (再録) 自観叢書12編 | **Status:** Published
 
 ## O Eu que Vi (Reedição)
 
@@ -1366,6 +2054,7 @@ O que descrevi acima é a realidade do eu que vi.
 # A Visão que Tenho de Mim Mesmo
 
 **Categoria:** wa | **Ano:** 昭和24(1949)年7月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 私の観た私 | **Status:** Published
 
 ## A Visão que Tenho de Mim Mesmo
 
@@ -1400,6 +2089,7 @@ Esta é, em sua essência, a visão que tenho de mim mesmo.
 # Relato sobre as Condições Atuais de Meishu-Sama
 
 **Categoria:** kikou | **Ano:** 昭和29(1954)年10月6日 | **Fonte:** Eikou
+**Título Original:** 明主様の御近況 理事 阿部晴三 | **Status:** Published
 
 ## Relato sobre as Condições Atuais de Meishu-Sama
 Diretor Seizo Abe
@@ -1428,6 +2118,7 @@ Ademais, Meishu-Sama declarou que, ao retornar a Atami este ano, instalar-Se-á 
 # Até a Concretização do Paraíso Terrestre
 
 **Categoria:** ti | **Ano:** 昭和25(1950)年9月21日 | **Fonte:** Chijo Tengoku出来るまで
+**Título Original:** 地上天国出来るまで | **Status:** Published
 
 ## Até a Concretização do Paraíso Terrestre
 
@@ -1460,6 +2151,7 @@ Procurei relatar em linhas gerais os acontecimentos desde o início até o prese
 # (Quatro) O Espírito do Pinheiro
 
 **Categoria:** kikou | **Ano:** - | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## (Quatro) O Espírito do Pinheiro
 
@@ -1490,6 +2182,7 @@ Verdadeiramente temível é a cristalização de conceitos preestabelecidos e eq
 # O Estado Atual de Meishu-Sama
 
 **Categoria:** kikou | **Ano:** 昭和29(1954)年10月6日 | **Fonte:** Eikou
+**Título Original:** 明主様の御近況 理事 阿部晴三 | **Status:** Published
 
 ## O Estado Atual de Meishu-Sama
 
@@ -1519,6 +2212,7 @@ Ademais, Meishu-Sama declarou Sua intenção de se instalar no Suisho-den (水�
 # Coleção de Teses do Reverendo Okada Jikanshi — Pesquisa de Ensinamentos: Pesquisa de Documentos: Pronunciamento no Culto do Natalício de Meishu-Sama — Presidente Naoyoshi Okusa, Revista Glória, nº 290, publicada em 5 de janeiro de 1955
 
 **Categoria:** kikou2 | **Ano:** - | **Fonte:** Eikou
+**Título Original:** 明主様御降誕祭 御挨拶 管長 大草直好 | **Status:** Published
 
 ## Coleção de Teses do Reverendo Okada Jikanshi — Pesquisa de Ensinamentos: Pesquisa de Documentos: Pronunciamento no Culto do Natalício de Meishu-Sama — Presidente Naoyoshi Okusa, Revista Glória, nº 290, publicada em 5 de janeiro de 1955
 
@@ -1547,6 +2241,7 @@ Embora breves, que estas palavras sirvam como minha saudação nesta solene cele
 # Até a Concretização do Paraíso Terrestre
 
 **Categoria:** ti | **Ano:** 昭和25(1950)年9月21日 | **Fonte:** Chijo Tengoku出来るまで
+**Título Original:** 地上天国出来るまで | **Status:** Published
 
 ## Até a Concretização do Paraíso Terrestre
 
@@ -1595,6 +2290,7 @@ Além do culto, planejamos oferecer, como entretenimento, apresentações diári
 # O Mistério do Nascer do Sol
 
 **Categoria:** kikou2 | **Ano:** - | **Fonte:** Eikou
+**Título Original:** 日の出の神秘　　本部　三尋木光治郎 | **Status:** Published
 
 ## O Mistério do Nascer do Sol
 
@@ -1616,989 +2312,6 @@ Embora possa parecer um simples acontecimento, o que senti naquele momento foi d
 Ademais, no instante em que emergiu do oceano, o sol, a entrada do Salão Messiânico e o Altar alinharam-se em uma reta perfeita. A posição e a dimensão desses três elementos harmonizavam-se com uma precisão absoluta, sem o menor desvio.
 
 Ao testemunhar o que descrevi, reflito sobre como a Luz Divina resplandecerá de forma cada vez mais intensa no porvir. Fui levado, ademais, a sentir profundamente que nas construções projetadas por Deus não existe a mínima falha.
-
----
-
-# Saudação por Ocasião do Culto do Natalício de Meishu-Sama
-
-**Categoria:** kikou2 | **Ano:** - | **Fonte:** Eikou
-
-## Saudação por Ocasião do Culto do Natalício de Meishu-Sama
-**Presidente Naoyoshi Okusa**
-*Publicado na revista 'Glória', nº 290, em 5 de janeiro de 1955*
-
-Hoje é o auspicioso dia do Natalício de Meishu-Sama. Poder participar desta cerimônia e ter a honra de contemplar a face de nosso Mestre é motivo de indizível júbilo para todos nós. Portanto, uno-me a todos os senhores para externar minhas congratulações e minha profunda gratidão.
-
-O estado de saúde de Meishu-Sama apresenta melhoras a cada dia, e creio que o momento de sua plena recuperação está próximo.
-
-Embora hoje não tenhamos Suas palavras diretas, estou certo de que, uma vez restabelecido, Ele nos agraciará com abundantes Ensinamentos, conforme as circunstâncias. Juntamente com todos os fiéis, aguardemos com grande expectativa por essa ocasião.
-
-Refletindo sobre nossa trajetória, observo que, nos sete anos desde a fundação de nossa Igreja, o número de Ohikari outorgados por Meishu-Sama já ascende a centenas de milhares, e continua a crescer em consonância com a expansão de nossa Obra. E cada uma dessas pessoas tem sido agraciada com o sagrado e imensurável Poder Divino.
-
-O magno propósito de Meishu-Sama é a salvação de toda a humanidade, a erradicação da doença, da pobreza e do conflito, e a construção de um mundo belo e pacífico. Em outras palavras, trata-se da edificação do Paraíso na Terra, que constitui o Plano Divino de Deus. Este Plano Divino, por sua vez, tem avançado firmemente, sem jamais se deter. Compreendemos essa verdade ao contemplarmos os "protótipos" que nos foram revelados, pois, como Meishu-Sama sempre nos ensina, Ele "realiza tudo por meio de protótipos". Exemplos disso são a conclusão do Shinsenkyo (神仙郷) de Gora, em Hakone, a finalização do Palácio de Cristal, em Atami, e o Salão Messiânico.
-
-Nesse sentido, nós, fiéis agraciados com o sublime Poder de Meishu-Sama, pudemos saudar este dia de júbilo. Daqui por diante, sob a égide de Seus Ensinamentos e fazendo de Seu Coração o nosso, temos a missão de utilizar o Poder que nos foi concedido para salvar o maior número de pessoas possível. Creio firmemente que este é o caminho para retribuirmos, ainda que em parte, a imensa graça que d'Ele recebemos.
-
-Embora hoje celebremos o Natalício de Meishu-Sama, considero que, para nós, fiéis, esta data representa o nosso verdadeiro Ano-Novo. Sendo assim, devemos tomar este dia como um marco de transição e, com o mesmo espírito com que se saúda um novo ano, avançar com pensamentos e determinação renovados.
-
-O Salão Messiânico, onde os senhores se encontram, está, como podem ver, praticamente concluído. O fato de podermos realizar a cerimônia de hoje neste recinto é, também, motivo de imensa alegria.
-
-Ademais, no último dia onze, presenciamos a finalização do Palácio de Cristal, para onde Meishu-Sama transferiu Sua morada, um acontecimento que considero de profundo significado.
-
-Interpreto a transferência de Meishu-Sama para o Palácio de Cristal como a revelação, para o mundo inteiro, do protótipo do Mundo de Cristal. Trata-se de um evento sobre o qual devemos meditar profundamente. Em outras palavras, para que possamos adentrar o novo mundo, é imperativo que abandonemos tudo o que é antigo e iniciemos uma nova jornada.
-
-Embora breves, sirvam estas palavras como minha saudação por ocasião da magna celebração do Natalício de Meishu-Sama.
-
----
-
-# O Mistério do Nascer do Sol
-
-**Categoria:** kikou2 | **Ano:** - | **Fonte:** Eikou
-
-## O Mistério do Nascer do Sol
-
-**Coleção de Artigos do Mestre Okada Jikanshi**
-**Mitsujiro Miki, Sede Central**
-**Revista Eikou nº 290, 5 de janeiro de 1955**
-
-No dia 23 de dezembro de 1954, por ocasião das comemorações do Natalício de Meishu-Sama, tive a sublime permissão de servir como membro da Sede Central. Gostaria de relatar um acontecimento que presenciei nesse dia tão auspicioso.
-
-Minha atribuição na cerimônia era a de cuidar do salão principal. Os fiéis que chegavam nos primeiros trens da manhã dirigiam-se ao Salão Messias ainda na escuridão da madrugada. Além do frio, soprava um vento bastante forte. Imaginando que, por essas razões, a entrada no recinto estivesse sendo permitida mais cedo, dirigi-me ao local para verificar a situação, chegando por volta das seis e meia. Desci do carro ao pé da Escadaria Inazuma e adentrei o salão por sua entrada principal.
-
-Precisamente nesse instante, o Sol começava a emergir do oceano. Ao chegar ao portal e volver o olhar, contemplei-o, já com metade de seu disco visível no horizonte. Cerca de setenta ou oitenta fiéis já reverenciavam o nascer do Sol, e suas vozes, exclamando "Que maravilha! Que esplendor!", ecoavam pelo local. Foi ao som dessas exclamações que adentrei o recinto.
-
-Foi então que, ao avançar para o centro do salão, deparei-me com uma cena extraordinária: a luz solar incidia perfeitamente sobre todo o espaço destinado ao Altar. Para que se possa ter uma ideia, a imagem assemelhava-se à de um projetor de cinema: o Sol era a fonte de luz; a abertura do portal de entrada do Salão Messias, a lente; e o espaço do Altar, a tela, precisamente na área branca onde a imagem é projetada.
-
-Ao constatar que a luz do Sol preenchia, com exatidão milimétrica, apenas o espaço do Altar, fui tomado por um profundo assombro. Virei-me instintivamente na direção do Sol e, para minha surpresa, deparei-me com outro fenômeno igualmente misterioso. O astro-rei estava perfeitamente centralizado na moldura do portal de entrada, compondo uma imagem idêntica à da bandeira do Japão, o *Hinomaru*. Naquele momento, senti a presença de algo verdadeiramente místico.
-
-Ainda que possa parecer um simples acontecimento, o significado que percebi foi de uma profundidade imensa. Em primeiro lugar, o fato de a luz solar ter banhado por completo o espaço do Altar ocorreu justamente no dia em que celebramos o Natalício de Meishu-Sama e, mais ainda, no local exato onde, poucas horas depois, a Imagem Sagrada seria entronizada.
-
-Adicionalmente, impressionou-me o alinhamento perfeito e retilíneo entre o Sol, no momento em que se erguia do mar, o portal do Salão Messias e o espaço do Altar. A posição e a dimensão desses três elementos harmonizavam-se com uma precisão absoluta, sem a mais ínfima margem de erro.
-
-Ao testemunhar tais fatos, fortaleceu-se em mim a convicção de que a Luz Divina resplandecerá com intensidade cada vez maior no porvir. Senti, com profunda clareza, que nas construções projetadas por Deus não existe o menor desvio, pois tudo obedece a um plano de perfeição absoluta.
-
----
-
-# Diário de Visões Espirituais (Segunda Parte)
-
-**Categoria:** kikou2 | **Ano:** 昭和27(1952)年10月29日 | **Fonte:** Eikou
-
-## Diário de Visões Espirituais (Segunda Parte)
-
-**Igreja Go-San-Naka | Yoshiko Ibaraki**
-*Revista Eikou nº 180, publicada em 29 de outubro de 1952*
-
-**24 de agosto**
-
-Dirigi-me à cidade de Toyooka, distante cerca de quatro quilômetros de minha casa, para realizar uma incumbência. No retorno, já a meio caminho, iniciou-se uma intensa purificação em minha cabeça. A dor tornou-se insuportável e, instintivamente, levei a mão ao pescoço para ministrar Johrei, momento em que me sobressaltei ao perceber a ausência de meu Ohikari. Recordei-me, então, de que o havia deixado sobre o Altar Divino ao trocar de roupa antes de sair.
-
-Elevei minhas preces a Meishu-Sama, suplicando-lhe perdão e rogando: “Por favor, concedei-me Vossa proteção até este ponto”. Enquanto orava e ministrava Johrei, meu Ohikari surgiu-me em visão no Altar de minha casa. A pequena bolsa que o continha abriu-se com presteza e, de seu interior, um facho de luz alva projetou-se como uma flecha, com um ímpeto esplêndido. Ao alcançar a mão que eu mantinha sobre a cabeça, senti uma vibração percorrer-me o corpo. A velocidade daquela luz era verdadeiramente prodigiosa, algo em torno de quinze metros por segundo. Fui agraciada com essa proteção por aproximadamente dez minutos, e, tão logo cessou, a luz se desvaneceu por completo.
-
-**27 de agosto**
-
-Ao entoar a Oração Amatsu Norito diante do Altar Divino, um mar de um negrume profundo manifestou-se diante de meus olhos e, de sua superfície, um dragão emergiu serenamente.
-
-Com o início da Oração Zengen Sanji, desvelou-se a cena de um festival de uma beleza indescritível. Panos vermelhos e brancos ornavam todas as colunas, e ao redor havia belíssimos ornamentos pendentes, semelhantes a delicados arranjos florais. Pude ver o transporte de um palanquim. As pessoas se reuniam no que parecia ser o local provisório da celebração, onde também se viam adornos com lindas lanternas floridas. Na parte da frente do recinto, diversos rolos de tapeçaria *donsu* em tom de marrom-claro estavam alinhados, compondo um ambiente verdadeiramente suntuoso. Como de costume, o responsável da Igreja iniciou sua palestra, e, no momento em que se principiou a leitura do trecho “Deus e Buda”, da Coletânea de Palestras sobre a Fé, visualizei numerosos sacerdotes budistas, trajando vestes de cores variadas como púrpura, amarelo e branco, adentrarem o recinto e se porem a ouvir com reverência.
-
-**28 de agosto**
-
-Com a entoação da Oração, novamente um dragão emergiu em silêncio, desta vez das águas da maré, em um local de beleza cênica, repleto de rochas e pedras. Em terra firme, em meio a um bambuzal, vi uma criatura indefinível, de cor marrom-escura, que não se assemelhava a um cavalo ou a qualquer outro animal. Possuía cinco ou seis cabeças, que devoravam toda sorte de coisas. Pouco depois, findo o repasto, as cabeças se fundiram em uma só e a criatura adormeceu subitamente. Era uma visão deveras peculiar.
-
-Ao entoar a Oração Zengen Sanji, surgiu a visão de um imponente edifício de um azul-claro, como jamais vira, cujo teto já estava concluído. Era uma construção suntuosa. Em seu interior, trabalhadores moviam-se com diligência, transportando diversos materiais. Observei um grande caldeirão repleto de um *amazake* branco, que imaginei ser o banquete destinado a esses servidores. Em seguida, um grande *torii* surgiu, revelando um santuário xintoísta repleto de uma multidão vibrante.
-
-**31 de agosto**
-
-Pela manhã, na Igreja, enquanto ministrava Johrei em uma menina do primário, cujo olho esquerdo se encontrava turvo devido à toxina urêmica, assemelhando-se ao olho sem vida de um peixe, tive a visão espiritual de uma senhora de meia-idade ao seu lado. Ela jazia em grande sofrimento por uma enfermidade em seu olho esquerdo, que se encontrava em decomposição, vertendo pus de forma contínua. Era esta entidade que se agarrava à criança. Por essa razão, bastam dois ou três dias sem receber Johrei para que sua condição regrida ao estado original. Refleti sobre o assombro que se apossaria das pessoas, especialmente dos médicos, se pudessem testemunhar tal fenômeno.
-
-**31 de agosto**
-
-Ultimamente, ao receber Johrei nas costas, visualizo a cerca de um metro à minha frente um contorno amarelado com a minha própria silhueta. Através dele, vejo com clareza a radiação da Luz Divina perpassá-lo, em conformidade com o pensamento do ministrante. É algo verdadeiramente sublime.
-
-Ademais, em manhãs serenas, durante o recebimento de Johrei, a figura de Meishu-Sama se manifesta espiritualmente por trás do ministrante, ministrando-me diretamente. Essa visão se prolonga, nítida, e a emoção e a gratidão que sinto são tão avassaladoras que me levam às lágrimas. Outrora, tal visão era concedida apenas a alguns poucos, mas recentemente parece que a maioria dos membros mais antigos é agraciada com a presença de Meishu-Sama durante a ministração, embora a nitidez e a vivacidade de Sua imagem variem conforme a profundidade da fé de cada um. Quando o ministrante elimina o ego e o apego, tornando-se um verdadeiro instrumento de Meishu-Sama, ele atua, naquele momento, como um representante do Deus Supremo. Tenho aprendido, de forma quase palpável, o quanto a Luz se intensificou e quão nítido é o Mundo do Pensamento. Acredito firmemente que se aproxima o tempo em que a sobrevivência só será permitida àqueles cujo corpo e alma se tornarem puros como o cristal.
-
-**1º de setembro**
-
-Ao meio-dia, a caminho do Santuário Onnashiro Daigu para prestar minhas homenagens, avistei a figura da deusa de minha visita anterior, que me recepcionava a uma distância de aproximadamente cem metros. Ao me prostrar no salão de orações e entoar a Oração Amatsu Norito, a deusa já não se fazia presente. Em seu lugar, vi o sacerdote e sua esposa, ambos trajando vestes azul-claras com delicados padrões em carmesim. O sacerdote realizava oferendas e a apresentação do ramo sagrado. No pátio do santuário, tal como no mundo material, um número incontável de fiéis prestava suas reverências.
-
-Passado algum tempo, em um patamar mais elevado à frente do salão, manifestou-se um Deus de aparência nobre e idosa, com longas barbas brancas. Sentado em uma cadeira, trajava um suntuoso brocado de ouro e empunhava um bastão dourado, que movia incessantemente. Sua aparência era semelhante à dos reis que vemos nos livros de ilustrações. Pude ver também a criança da visão anterior, amparada por uma aia, a brincar com um balão vermelho.
-
-**3 de setembro**
-
-Neste dia, finalmente entronizei a fotografia de Meishu-Sama que havia recebido no dia 25 de agosto. A atuação dessa fotografia é verdadeiramente sublime.
-
-Primeiro: Ao redor do rosto de Meishu-Sama, na fotografia, é possível ver inúmeras divindades que realizam as mais diversas atividades. Elas atuam como a Kannon (観音) de mil braços, de forma viva e dinâmica. Não se trata de uma simples fotografia.
-
-Segundo: Ao entoar a Oração diante da imagem, uma bandeira se manifestou, permanecendo visível por um longo tempo. Tinha fundo púrpura com o emblema de Meishu-Sama — dois *tomoe* brancos girando para a direita, como os de seu *haori* —, e sua borda era adornada com franjas douradas. Pensei se seria possível que uma bandeira assim viesse a existir.
-
-Terceiro: Tive a visão de uma bela residência, ornamentada e envolta por magníficas flores douradas, onde muitas pessoas desfrutavam de grande paz e tranquilidade. Parecia ser uma cena do mundo que está por vir.
-
-Quarto: Durante a leitura dos Escritos Divinos, por vezes minha voz se transformava na própria voz de Meishu-Sama. Nesses momentos, uma imensa felicidade me invade, uma alegria tão grande que parece inflar meu peito.
-
-**7 de setembro**
-
-Enquanto recebia Johrei diante do Altar Divino, descortinou-se-me uma belíssima paisagem, com lindas lanternas de papel, folhas verdes, flores brancas e lampiões alvos pendurados. Em seguida, visualizei o interior de uma grande igreja católica à frente do Altar. Inúmeros fiéis estavam sentados em bancos, e, entre eles, uma jovem senhora americana, usando véu e uma cruz, fazia suas preces. Era uma cena de grande pureza. Certamente, virá o dia em que também os cristãos buscarão o socorro de Meishu-Sama.
-
-**7 de setembro**
-
-Ao reverenciar o altar dos antepassados, estes se apresentaram em três fileiras de cinco ou seis pessoas para nos saudar respeitosamente. Eu lhes retribuí a saudação. Com a entoação da Oração Zengen Sanji, uma fina cortina se abriu de repente, revelando uma multidão de dezenas de milhares de pessoas. Ao lado, corria um límpido riacho, em cujas margens peixes saltitavam vigorosamente. A água, de um tom azul-cobalto, formava uma espuma branca. A cena se transformava como em um belo sonho, e uma sensação de êxtase e bem-estar me invadiu. Em seguida, vi um grande salão repleto de homens e mulheres em trajes de festa, que ouviam uma palestra com extrema compostura. De repente, a cena mudou: cerca de quinhentas ou seiscentas donzelas, vestidas com trajes leves e esvoaçantes, semelhantes a vestidos de noite, estavam reunidas. Contudo, em meio àquela cena esplendorosa, surgiu um monstro de aparência gigantesca, o que as fez fugir em pânico. Foi uma grande pena, pois certamente algum belo espetáculo de dança estava prestes a começar.
-
-Ao final da cerimônia, recebi a saudação de um grupo restrito de espíritos ancestrais, cujas imagens foram se tornando gradualmente tênues e indistintas até desaparecerem. Concluído o ofício, durante a leitura dos Escritos Divinos, visualizei um local com teto de vidro, radiantemente iluminado, e, abaixo, um lago de nenúfares envolto por belíssimas cores naturais. Logo acima do lago, havia caramanchões cobertos por diversas trepadeiras. Senti um imenso desejo de passar o dia todo brincando em um lugar tão aprazível.
-
-A cena mudou novamente, e nesta sala onde estávamos em cinco ou seis pessoas, uma multidão incontável, como uma montanha de gente, veio para ouvir a palestra. Fiquei surpresa com a maneira como ouviam, com uma ordem e um silêncio muito diferentes dos do mundo material. Essas paisagens naturais que descrevi se assemelhavam às pinturas em rolo que vi em um museu, com cores e harmonias tão esplêndidas que nenhum artista seria capaz de reproduzir. Tive vontade de poder mostrá-las por meio de uma fotografia espiritual.
-
-**13 de setembro**
-
-Durante a cerimônia em honra a Daikoku, surgiram inúmeros samurais, todos com suas espadas à cintura. Em seguida, apareceram muitos sacerdotes budistas, que se reuniram diante do Altar Divino. Entre eles, pude ver alguns que caíam ao solo, em processo de purificação.
-
-**17 de setembro**
-
-Pude ver a radiação da Luz do Ohikari de um fiel projetando-se de seu peito, passando pelos joelhos e se estendendo sobre o tatame como um feixe de luz amarela de cerca de três centímetros de largura por mais de um metro de comprimento.
-
-No dia 12 de setembro, enquanto ouvíamos no Altar Divino a explanação de que o mundo búdico deixaria de ser o Mundo Espiritual, o Imperador Meiji e a Imperatriz Shoken apareceram diante do Altar e permaneceram por um tempo a ouvir atentamente. Depois, um pássaro dourado, batendo as asas, guiou-me o caminho até uma câmara repleta de tesouros, como guirlandas de pérolas e joias de jade, de uma beleza estonteante.
-
-**18 de setembro**
-
-Durante o Culto Mensal, visualizei dezenas de milhares de fiéis, incontáveis, em diferentes níveis, mais altos e mais baixos, todos com a mão direita estendida. Era uma visão sublime. Em um plano elevado, Meishu-Sama acenava com seu chapéu em resposta.
-
-Durante a cerimônia no altar dos antepassados, ao entoar a Oração Zengen Sanji, surgiu um tablete memorial (*ihai*) negro, rodeado por grupos de vinte a trinta, ou até cinquenta a sessenta espíritos. Eles ouviam alinhados de maneira muito respeitosa. O grupo mais numeroso era o do *ihai* que representava os espíritos das gerações da linhagem principal.
-
-Esta noite, Daikoku balançava seu martelo para todos os lados. Havia uma multidão de pessoas estendendo as mãos, ansiosas por recebê-lo, mas ele parecia brincar com todos, movendo-se com total liberdade, e acabou por entregá-lo à pessoa mais serena. Parece que ele não o concede aos gananciosos.
-
-Com isto, apresento o segundo relato de meu diário de visões espirituais a Meishu-Sama. Houve ainda duas ou três outras visões maravilhosas, mas deixá-las-ei para um próximo relatório. Os Escritos de Meishu-Sama são verdadeiramente sublimes. De cada ideograma que Ele escreve, emana uma luz resplandecente. Desejo obter o maior número possível deles para purificar meu corpo e minha alma.
-
-Devido à grande quantidade de yakudoku (薬毒) em meu organismo, ultimamente (como ocorre todos os anos) tenho recebido intensas purificações a cada três horas, com dores agudas no estômago, abdômen, costas e cabeça, que me levam às lágrimas. Não posso deixar de sorrir amargamente ao pensar como os remédios são a matéria-prima para tanto sofrimento. Rogo a Meishu-Sama que me conceda Sua proteção durante as purificações, para que eu possa cumprir minha missão.
-
-Agradeço imensamente por Vossa constante proteção. Gostaria muito de ter participado do último Grande Culto e ter tido a visão espiritual da cerimônia, mas, por causa dos compromissos com a escola, foi impossível, o que lamento profundamente. Em dezembro, durante as férias, pretendo realizar uma peregrinação de agradecimento. Se tiver outras visões singulares até lá, voltarei a relatar.
-
----
-
-# Diário de Visões Espirituais (Segunda Parte)
-
-**Categoria:** kikou2 | **Ano:** 昭和27(1952)年10月29日 | **Fonte:** Eikou
-
-## Diário de Visões Espirituais (Segunda Parte)
-
-**24 de agosto**
-
-Dirigi-me à cidade de Toyooka, que dista cerca de quatro quilômetros de minha casa, para realizar uma tarefa. No caminho de volta, quando já me encontrava a meio percurso, iniciou-se uma intensa purificação em minha cabeça. A dor tornou-se insuportável, e instintivamente levei a mão ao pescoço para ministrar Johrei, momento em que me dei conta, com um sobressalto, da ausência de meu Omamori. Recordei-me de que o havia deixado sobre o Altar Divino ao trocar de roupa antes de sair. Pedi perdão a Meishu-Sama em meu coração e, enquanto orava “Rogo que Vossa proteção me alcance até aqui”, comecei a ministrar Johrei a mim mesma.
-
-Nesse instante, tive a visão de meu Omamori manifestando-se subitamente no Altar Divino de minha casa. Do seu interior, um facho de luz alva irrompeu com ímpeto formidável, deslocando-se como uma flecha em direção à minha mão, que estava postada sobre meu corpo. Ao me alcançar, senti uma corrente percorrer-me. Sua celeridade era notável, atingindo aproximadamente quinze metros por segundo. Recebi essa divina proteção por cerca de dez minutos, ao fim dos quais a luz se desvaneceu tão subitamente quanto surgira.
-
-**27 de agosto**
-
-Ao entoar a Oração Amatsu Norito diante do Altar Divino, um oceano de águas escuras materializou-se diante de meus olhos, e de sua superfície, um dragão emergiu serenamente.
-
-Em seguida, ao recitar a Oração Zenguen Sandji, surgiu a cena de uma cerimônia em algum lugar, de uma beleza extraordinária. Tecidos rubros e alvos envolviam cada um dos pilares, e por toda parte pendiam ornamentos delicados, semelhantes a enfeites de cabelo floridos. Pude vislumbrar um palanquim sendo transportado. As pessoas se reuniam no que parecia ser um local provisório para a celebração. Belas lanternas de papel, adornadas com flores, também decoravam o ambiente. Na parte frontal do recinto, diversos rolos de pergaminho em brocado de tom castanho-claro estavam alinhados, conferindo ao local uma atmosfera de grande solenidade. Tal como de costume, o responsável pela Igreja iniciou sua explanação. Contudo, ao começar a leitura do Ensinamento “Deus e Buda”, percebi a presença de inúmeros monges budistas no recinto, trajados com vestes de cores variadas – púrpura, amarelo e branco –, que ouviam atentamente.
-
-**28 de agosto**
-
-Enquanto entoava a Oração, um dragão elevou-se lentamente das águas salgadas, em um cenário pitoresco com muitas rochas e pedras. Em terra firme, em meio a um bambuzal, vi uma criatura estranha: um animal de cor castanho-escura, de aspecto indefinível, que possuía cinco ou seis cabeças. Cada uma delas se alimentava de coisas distintas e, após terminarem, fundiram-se em uma única cabeça, e a criatura adormeceu subitamente. Ao iniciar a Oração Zenguen Sandji, começou a se descortinar diante de mim um edifício imponente, de um azul-claro resplandecente, como nunca antes vira. Seu teto, de uma suntuosidade ímpar, já estava concluído. Em seu interior, operários moviam-se para cima e para baixo, transportando diversos materiais, em uma cena de grandiosa construção. Havia um grande caldeirão repleto de *amazake* branco (provavelmente um deleite para esses trabalhadores). Logo depois, um grande portal torii surgiu, seguido por um santuário xintoísta repleto de pessoas, em um ambiente de grande animação.
-
-**31 de agosto**
-
-Pela manhã, na Igreja, ao ministrar Johrei em uma menina do primário, cujo olho esquerdo, afetado por toxinas urêmicas, estava turvo e sem vida como o de um peixe morto, tive uma visão espiritual. Ao lado dela, havia a figura de uma mulher de meia-idade, também com o olho esquerdo doente, deitada em grande sofrimento. Seu olho estava em decomposição, vertendo pus continuamente. Era essa entidade que estava apegada à menina. Bastavam dois ou três dias sem Johrei para que o estado da criança regredisse ao que era antes. Pensei em como ficariam estarrecidos, especialmente os médicos, se pudessem testemunhar tal cena.
-
-**31 de agosto**
-
-Recentemente, quando recebo Johrei nas costas, percebo, a cerca de um metro à minha frente, uma silhueta de cor amarelo-clara, com o mesmo contorno do meu corpo. Através dela, pude ver nitidamente a Luz Divina atravessá-la, guiada pela intenção de quem ministrava o Johrei. É algo verdadeiramente sublime.
-
-Ademais, durante as manhãs tranquilas, ao receber Johrei, consigo ver, de forma clara e persistente, a figura de Meishu-Sama ministrando Johrei diretamente, posicionado atrás da pessoa que o aplica. A gratidão e o sentimento de indignidade diante de tamanha graça me comovem às lágrimas. Antigamente, essa visão era concedida a poucas pessoas, mas, ultimamente, parece que a maioria dos membros mais antigos é agraciada com a presença de Meishu-Sama durante a ministração de Johrei. A clareza e a vivacidade de Sua imagem variam conforme a profundidade da fé de cada um. Se aquele que ministra o Johrei eliminar seu ego e seus apegos, tornando-se um verdadeiro intermediário de Meishu-Sama, ele se torna, naquele momento, um representante do Deus Supremo. Tenho aprendido, de maneira palpável, o quão intensa a Luz se tornou e quão nítido é o mundo do pensamento. Creio que, infalivelmente, chegará o tempo em que somente aqueles cujo corpo e alma se tornarem como cristal terão a permissão de existir.
-
-**1º de setembro**
-
-Passava do meio-dia quando me dirigi ao Santuário Onashiro Daidjingu. No caminho, vi a deusa que havia encontrado em minha visita anterior vir ao meu encontro, de um ponto distante cerca de cem metros. Ao me prostrar no salão de orações e entoar a Amatsu Norito, a deusa já não estava mais visível. Em seu lugar, vi o sacerdote e sua esposa, ambos trajando vestes azul-claras com delicados padrões em tom carmesim. O sacerdote realizava oferendas e o ritual do *tamagushi*. No pátio do santuário, assim como no mundo material, um número incontável de paroquianos prestava suas homenagens. Pouco depois, em um local elevado em frente ao salão principal, vi uma divindade de idade avançada e porte imponente, com uma longa barba branca, trajando suntuosas vestes de brocado dourado. Estava sentado em uma cadeira e segurava na mão direita uma espécie de bastão dourado, que movia incessantemente. Assemelhava-se aos reis representados nos livros ilustrados. A criança que eu vira anteriormente estava brincando com um balão de borracha vermelho, sob os cuidados de sua babá.
-
-**3 de setembro**
-
-Hoje, finalmente, entronizei a fotografia de Meishu-Sama que recebi no dia 25 de agosto. A atuação dessa fotografia é verdadeiramente sublime.
-
-Primeiro: Ao redor do semblante de Meishu-Sama na fotografia, é possível vislumbrar inúmeras divindades que realizam as mais diversas obras. Elas realizam a mesma Obra de Kannon (観音) de Mil Braços, pois estão vivas e atuantes. Não se trata de uma mera fotografia.
-
-Segundo: Enquanto eu entoava as orações diante da fotografia, uma bandeira de fundo púrpura, ostentando o emblema de Meishu-Sama – duas vírgulas brancas girando no sentido horário –, com uma franja dourada em suas bordas, permaneceu visível de forma nítida por um longo tempo. Fiquei a me perguntar se uma bandeira como essa seria confeccionada um dia.
-
-Terceiro: Tive a visão de uma bela residência, ornamentada com magníficas flores douradas, em cujo interior muitas pessoas viviam em um estado de serena felicidade. Parecia uma cena do mundo que se aproxima.
-
-Quarto: Ao ler os Ensinamentos Divinos, por vezes minha voz se transformava na própria voz de Meishu-Sama. Nesses momentos, uma felicidade imensa me invade, tamanha que sinto meu peito se expandir.
-
-**7 de setembro**
-
-Enquanto recebia Johrei diante do Altar Divino, uma cena belíssima surgiu em minha visão: lanternas de papel adornadas, folhagens verdes e flores brancas suspensas. Em seguida, vi o interior de uma grande igreja católica, com muitos fiéis sentados em seus bancos. Entre eles, uma jovem senhora norte-americana, usando véu e um crucifixo, orava devotamente. Era uma visão serena e inspiradora. Certamente, o dia em que também os cristãos buscarão refúgio em Messias-Sama chegará.
-
-**7 de setembro**
-
-Ao orar diante do altar dos antepassados, meus antepassados, alinhados em três fileiras de cinco a seis pessoas, surgiram para nos saudar respeitosamente. Eu retribuí a saudação. Quando comecei a entoar a Oração Zenguen Sandji, uma fina cortina se abriu, revelando um local repleto de dezenas de milhares de pessoas. Ao lado, corria um riacho límpido, em cujas margens peixes saltitavam vigorosamente. A água, de um azul-cobalto, formava uma espuma alva. O cenário transformava-se como em um sonho belíssimo, e uma sensação de êxtase e bem-estar me envolveu. Vi também um grande salão, onde homens e mulheres, trajando esplêndidas vestes de cerimônia, ouviam uma preleção com a mais perfeita compostura. A cena se transformou, revelando uma assembleia de quinhentas a seiscentas donzelas, vestidas com trajes leves e esvoaçantes, semelhantes a vestidos de noite. Contudo, quando um monstro de aparência colossal surgiu, elas fugiram apavoradas. Foi uma grande pena, pois certamente uma bela apresentação de dança estava prestes a começar. Ao final da cerimônia, vi os espíritos de antepassados mais próximos se despedirem, suas imagens tornando-se gradualmente tênues até desaparecerem.
-
-Terminada a oração, durante a leitura de um Ensinamento, surgiu a visão de um lugar coberto por vidro transparente, de onde se via um céu límpido, e abaixo, um lago de nenúfares de uma beleza natural indescritível. Sobre o lago, havia caramanchões cobertos por diversas trepadeiras. Senti um desejo imenso de passar um dia inteiro naquele lugar paradisíaco. A cena mudou novamente, e vi que, nesta sala onde estávamos em cinco ou seis pessoas, uma multidão incontável se reunia para ouvir a explanação. Sua postura, diferente da do mundo material, era de uma compostura e silêncio admiráveis. Essas paisagens naturais que presenciei assemelhavam-se às pinturas em rolos que contemplei em museus, mas possuíam uma harmonia de formas e uma riqueza cromática que nem o mais talentoso dos pintores seria capaz de reproduzir. Sinto um profundo desejo de poder captar tais cenas em uma fotografia espiritual para poder mostrá-las.
-
-**13 de setembro**
-
-Durante a cerimônia dedicada ao deus Daikoku, muitos samurais, todos com espadas à cintura, apareceram. Em seguida, surgiram numerosos monges, que se reuniram diante do Altar Divino. Pude ver alguns deles caírem, em processo de purificação.
-
-**17 de setembro**
-
-Pude ver a irradiação de Luz do Omamori de um fiel, que partia de seu peito, passava pelos joelhos e se estendia pelo tatame como um feixe amarelo de cerca de três centímetros de largura por mais de um metro e oitenta de comprimento. No dia 12 de setembro, enquanto ouvíamos no Altar Divino que o mundo búdico deixaria de ser o Mundo Espiritual, o Imperador Meiji e a Imperatriz Shoken apareceram e permaneceram por um tempo, ouvindo atentamente. Em seguida, um pássaro dourado guiou-me esvoaçando até uma câmara repleta de tesouros, como guirlandas de pérolas e joias de jade, de uma beleza deslumbrante.
-
-**18 de setembro**
-
-Durante o Culto Mensal de Agradecimento, a visão de incontáveis fiéis com as mãos direitas estendidas, em diferentes níveis e locais, é verdadeiramente sublime. Vi Meishu-Sama, de um lugar elevado, acenando com seu chapéu em resposta. Ao entoar a Oração Zenguen Sandji no altar dos antepassados, uma tabuleta ancestral negra surgiu, e ao seu redor, grupos de vinte a sessenta espíritos se alinhavam de forma muito respeitosa para ouvir. A tabuleta que reunia o maior número de espíritos era a das gerações mais antigas da linhagem principal.
-
-Esta noite, o deus Daikoku agitava seu martelo para todos os lados, enquanto uma multidão estendia as mãos, cobiçando seus tesouros. Contudo, ele parecia brincar com todos, iludindo-os com seus movimentos, até finalmente entregar o tesouro à pessoa mais serena e despretensiosa. Parece que Ele não concede Suas dádivas aos avarentos.
-
-Com isto, encerro o segundo relato de minhas visões espirituais para Meishu-Sama. Houve outras duas ou três experiências maravilhosas, mas deixá-las-ei para um próximo relatório.
-
-Os Ensinamentos de Meishu-Sama são de um valor inestimável. Das letras que Ele escreve, emana uma luz resplandecente. Desejo obter o maior número possível deles para purificar meu corpo e minha alma.
-
-Devido à grande quantidade de yakudoku (薬毒) em meu organismo, tenho recebido purificações com dores agudas no estômago, no abdômen, nas costas e na cabeça, que se manifestam a cada três horas (um padrão anual) e me levam às lágrimas. Chego a sorrir amargamente ao pensar em como os remédios são a matéria-prima para tanto sofrimento. Rogo a Meishu-Sama que me proteja durante essas purificações, para que eu possa cumprir minha missão. Agradeço por Sua constante proteção.
-
-Desejava imensamente ter participado do último Grande Culto e ter a visão espiritual da cerimônia, mas, por conta das aulas na escola, não foi possível, o que lamento profundamente. Espero poder fazer uma peregrinação de agradecimento durante as férias de dezembro. Caso eu tenha outras visões dignas de nota, voltarei a relatá-las.
-
----
-
-# Deus castiga e Deus abençoa (II)
-
-**Categoria:** jorei | **Ano:** 昭和29(1954)年7月15日 | **Fonte:** Chijo Tengoku
-
-## Deus castiga e Deus abençoa (II)
-
-**Coletânea de artigos de Okada Jikanshi — Por Kaiansei**
-*Paraíso Terrestre*, nº 60, publicado em 15 de julho de 1954
-
-**Relatos de quem recebeu a recompensa e a punição de Deus**
-
-Ao ouvir que o senhor Ishida Kyusaku havia prontamente doado dois mil ienes para o Fundo de Construção da Sede Central, confesso que fiquei estupefato. “Então até ele...”, pensei. Naturalmente, a atitude que se espera de um fiel é a de admiração perante um donativo ofertado com alegria. Contudo, minha surpresa se deu por um motivo simples: eu já conhecia a índole do senhor Kyusaku.
-
-O senhor Kyusaku é um grande agricultor de uma província ao norte, conhecida como um celeiro do país, onde hoje cultiva três hectares de arrozais. No entanto, quando foi adotado pela família, era o camponês mais pobre da aldeia. Relata-se que vivia em condições deploráveis, numa casa de telhado arqueado, sem assoalho nem tatames, chegando a repousar sobre esteiras estendidas no chão de terra batida, mesmo em noites de nevasca. Sua ascensão à próspera condição atual deve-se, sem dúvida, à sua notável diligência, um testemunho de que sua perseverança diante das adversidades frutificou.
-
-Seu ingresso na fé ocorreu há cerca de três anos, quando sua mãe adotiva, desenganada pelos médicos em virtude de uma grave enfermidade, foi salva pelo ministro da filial. Essa experiência tornou-se o elo para que ele e, posteriormente, toda a sua família adotassem o caminho da fé. Todavia, seu modo de crer não parecia, ainda, ter alcançado a essência da Doutrina.
-
-Seria ele, então, um membro displicente? Longe disso. Seja ao sair para o campo ou ao se dirigir à cidade para resolver pendências, jamais deixava de levar consigo um exemplar da revista *Eikou*, mergulhando em sua leitura à menor oportunidade e chegando a compartilhar os Ensinamentos com os aldeões, incentivando-os a ingressar na fé. Poderia, portanto, ser considerado um membro zeloso. Encontrei-me com o senhor Kyusaku em duas ocasiões, durante suas visitas à Sede Central, e apreciei sua personalidade, de uma simplicidade cativante. O único ponto que me parecia lamentável era sua tênue noção de gratidão e retribuição a Deus. Na verdade, mais do que tênue, seria mais apropriado dizer que essa noção lhe era ausente.
-
-É bem verdade que a criatura humana, em geral, tende ao apego material, buscando sempre reduzir ao máximo seus gastos e maximizar seus ganhos, numa lógica egoísta. Não seria justo, pois, apontar apenas o senhor Kyusaku. Contudo, sua situação era particular: sua subsistência dependia exclusivamente da colheita anual de arroz, sem outras fontes de renda. Para não diminuir os lucros obtidos com a venda da safra, a única alternativa era restringir drasticamente as despesas. Por essa razão, mesmo quando recebia a graça da cura de enfermidades através do Johrei, ele se esquivava de materializar sua gratidão, mantendo-se irredutível quanto aos donativos.
-
-A filosofia de fé do senhor Kyusaku parecia se resumir à seguinte premissa: “Se Deus me conceder primeiro uma graça, então poderei Lhe devolver uma parte dela”. Infelizmente, esse tipo de pensamento parece aninhar-se na mente de muitas pessoas, que creem, talvez, que basta reverenciar o altar para que Deus deposite um maço de notas em seu travesseiro todas as manhãs, ainda que negligenciem seus próprios afazeres. Ninguém espera que o arroz ou o trigo brotem sem que se semeie a terra; contudo, quando o assunto é Deus, não são poucos os que Lhe impõem exigências absurdas.
-
-Essa tendência de tratar Deus como uma mera ferramenta a serviço dos homens revela uma atitude de suma insolência, que se agrava ainda mais entre os descrentes. É comum ouvi-los proferir disparates como: “Se Deus existe, que refaça o mundo inteiro em uma noite!” ou “Cure este doente terminal, enfraquecido por um longo sofrimento, com uma única sessão de Johrei!”.
-
-Diante disso, creio que o leitor compreenderá por que minha reação foi de espanto ao saber que o senhor Kyusaku, adepto da filosofia de “colher sem semear”, oferecera, de bom grado e sem hesitar, dois mil ienes como parte do Fundo de Construção. O mais notável é que o donativo foi feito antes da colheita do arroz, período em que os agricultores enfrentam a maior escassez de recursos do ano. É justamente por isso que a graça que ele viria a receber de Deus resplandece com um brilho ainda mais intenso.
-
-Mal terminara a extenuante colheita, e sem sequer um momento para descanso, o senhor Kyusaku deu início à produção de cordas de palha. Sua experiência de anos lhe ensinara que, se as vendesse antes que os outros agricultores começassem a produzi-las, enquanto o mercado ainda estava ocupado com a safra, obteria um preço melhor. Impelido também por um certo anseio de lucro, dedicou-se com afinco à tarefa.
-
-Antes de começar, ministrou Johrei à sua máquina de fazer cordas. Para sua surpresa, até o ruído do equipamento se alterou, tornando-se um zumbido suave e contínuo, como o de um mecanismo de precisão operando em alta velocidade. Em dezoito dias, produziu mil *kan* de cordas, obtendo um lucro de quarenta mil ienes. Embora o costume fosse o produtor arcar com o frete, a escassez do produto na época lhe rendeu um bônus de mil ienes para o transporte.
-
-“Quarenta e um mil ienes em dezoito dias!”, relatou ele na filial. “Normalmente, não consigo nem a metade disso. Foi graças a Deus. Fiquei assombrado ao ver como o desempenho da máquina mudou depois que ministrei Johrei, como o senhor me ensinou”.
-
-O ministro, satisfeito, respondeu-lhe: “É a primeira vez que ouço de sua boca a palavra ‘graça’. Isso ocorreu porque, há pouco tempo, você serviu a Deus, e a retribuição veio de imediato”.
-
-Com um sorriso sem graça, o senhor Kyusaku admitiu: “Finalmente entendi. Para colhermos as graças, precisamos primeiro semear”.
-
-A notícia de que o senhor Kyusaku produzira mil *kan* de cordas e faturara quarenta e um mil ienes em dezoito dias rapidamente se espalhou pela aldeia. Dois homens da comunidade, incrédulos, foram averiguar a veracidade da história. Como de costume, o senhor Kyusaku lhes explicou: “Isso só foi possível porque ministrei Johrei na máquina”.
-
-“Que disparate!”, zombaram eles. “Deus até para fazer cordas? É por isso que todos o ridicularizam”. E, sem sequer lhe darem ouvidos, foram embora cuspindo desdém.
-
-De fato, por algum motivo, o senhor Kyusaku era constantemente menosprezado e marginalizado pelos outros aldeões, e essa hostilidade pareceu intensificar-se depois que ele começou a falar sobre a fé. Se lhes perguntassem o porquê de tanto desprezo, talvez nem eles soubessem responder. Incomodava-os seu modo de trabalhar, sua ascensão de camponês miserável a grande agricultor; em suma, tudo a seu respeito lhes era desagradável. Há um provérbio conhecido apenas nas zonas rurais que diz: “Quando o vizinho constrói um celeiro, o outro sente raiva”. Essa estranha psicologia parece ser a raiz da repulsa que sentiam por Kyusaku e, por extensão, pelo Deus em quem ele acreditava.
-
-“Se você consegue, eu também consigo! Que Deus o quê!”, disseram os dois homens. Decididos a não serem superados por Kyusaku, puseram-se imediatamente a fabricar cordas. Contudo, mal haviam produzido alguns feixes, e uma desgraça se abateu sobre ambos.
-
-Um deles ouviu a correia de sua máquina romper-se e, antes que pudesse reagir, ela se enroscou em alguma parte do mecanismo, arremessando o equipamento contra o teto. A máquina, impulsionada pela força do impacto, foi projetada de volta ao chão, onde se espatifou em mil pedaços.
-
-O outro homem, que também zombara de Kyusaku — e, portanto, de Deus —, teve a manga de sua roupa de trabalho tragada pela máquina junto com a palha. Seu braço direito foi puxado até a segunda articulação, sofrendo um grave acidente com esmagamento dos ossos. O diagnóstico médico previa quarenta dias de internação e a provável necessidade de amputação do membro.
-
-“Foi o castigo por desrespeitarem a Deus”, disse o senhor Kyusaku ao ministro, acrescentando que guardaria essa convicção para si, em consideração aos seus conterrâneos. Concordo com seu pensamento prudente, para que não atraia ainda mais o ódio dos aldeões.
-
-Com essa experiência, o senhor Kyusaku parece ter compreendido claramente como receber as bênçãos de Deus. Quanto aos dois homens que sofreram a punição, é improvável que algum dia associem seu infortúnio à ação Divina. Seja como for, o que todos nós almejamos são as graças de Deus, e não Sua punição.
-
----
-
-# Deus tanto pune quanto abençoa (II) Por Kaiansei
-
-**Categoria:** jorei | **Ano:** 昭和29(1954)年7月15日 | **Fonte:** Chijo Tengoku
-
-## Deus tanto pune quanto abençoa (II) Por Kaiansei
-
-**A história daqueles que receberam a recompensa de Deus e daqueles que incorreram em Sua repreensão**
-
-Ao saber que o senhor Kyusaku Ishida doara, de bom grado, dois mil ienes para o fundo de construção da Sede, confesso que minha primeira reação foi de surpresa: “Ora, justo ele?”. Embora a atitude natural de um fiel seja admirar um donativo feito com alegria, meu espanto devia-se ao fato de eu já conhecer de antemão a índole do senhor Kyusaku.
-
-O senhor Kyusaku é um agricultor de uma região setentrional do país, conhecida como um celeiro de grãos, e atualmente cultiva três hectares de arrozais, o que o torna um grande lavrador. Contudo, quando foi adotado pela família, esta era a mais pobre da aldeia. Relata-se que a casa, de telhado inclinado, não possuía assoalho nem tatames, e que sua vida era tão dura que, mesmo em noites de nevasca, ele dormia sobre esteiras estendidas no chão de terra. Sua ascensão à condição de grande proprietário deve-se ao fato de ser um trabalhador fora do comum, cujo esforço e dedicação incessantes finalmente renderam frutos. Sua conversão à fé ocorreu há cerca de três anos, quando sua mãe adotiva, desenganada pelos médicos devido a uma grave enfermidade, foi salva por um ministro de Johrei. Esse acontecimento marcou o início de sua jornada, e hoje, toda a sua família segue o caminho da fé. Todavia, sua prática religiosa parece não ter alcançado a verdadeira essência dos Ensinamentos. Isso não significa que lhe falte zelo. Pelo contrário, seja para ir ao campo ou à cidade a negócios, ele sempre leva consigo um exemplar da revista *Eikō* e, em qualquer tempo livre, mergulha em sua leitura. Chega a ponto de falar do Caminho aos seus conterrâneos, incentivando-os a ingressar na fé. Desse modo, não seria incorreto considerá-lo um membro fervoroso.
-
-Tive a oportunidade de me encontrar com o senhor Kyusaku por duas vezes, quando ele veio em peregrinação à Sede, e afeiçoei-me à sua personalidade simples e cativante. No entanto, o que me parecia lamentável era a sua escassa noção de gratidão e retribuição a Deus. Na verdade, mais do que escassa, seria mais apropriado dizer que essa noção lhe era ausente. É verdade que o ser humano, em geral, tende a ser uma criatura avara, buscando sempre dar o mínimo possível — cada centavo conta — e receber o máximo. Essa lógica desproporcional e cobiçosa parece ser a norma, de modo que não é necessário apontar o dedo apenas para o senhor Kyusaku. Contudo, seu caso é particularizado por seu meio de vida: dependente exclusivamente de uma única colheita anual de arroz, sem outras fontes de renda. Para não diminuir o valor recebido uma vez por ano pela venda da produção, a única saída é, naturalmente, conter ao máximo os gastos. Por essa razão, mesmo que fosse curado de uma enfermidade pelo Johrei, ele se esquivava de fazer uma oferenda, resistindo firmemente a qualquer donativo de gratidão.
-
-A filosofia de fé do senhor Kyusaku, ao que parece, residia na ideia de que, se Deus lhe concedesse primeiro uma graça, ele poderia, então, devolver-Lhe uma pequena parte dela. Este modo de pensar, aliás, parece estar surpreendentemente arraigado na mente de muitas pessoas, como se acreditassem que, bastando reverenciar o Deus entronizado em seu lar, ainda que negligenciando um pouco seus afazeres, Ele lhes deixaria maços de dinheiro ao pé da cama todas as manhãs. Ninguém imagina que o arroz ou o trigo brotarão por si sós, sem que se semeie a terra. No que tange a Deus, todavia, encontramos pessoas que Lhe impõem exigências absurdas e descabidas. Essa tendência sacrílega, de enxergar Deus como uma ferramenta a serviço do homem, é ainda mais acentuada entre os não crentes, que não hesitam em proferir absurdos como: “Se Deus existe, que transforme o mundo inteiro da noite para o dia” ou “Faça com que este doente terminal, debilitado por uma longa enfermidade, levante-se com um único Johrei”.
-
-Nesse contexto, compreende-se a minha surpresa ao ouvir que o senhor Kyusaku, o homem cuja máxima era colher sem antes semear, prontamente oferecera dois mil ienes como parte do fundo de construção. Ademais, o donativo foi feito antes da colheita do arroz, período do ano em que os agricultores dispõem de menos dinheiro. É precisamente por isso que a graça que o senhor Kyusaku recebeu de Deus resplandece com um brilho ainda maior.
-
-Mal havia terminado a atarefada colheita, e sem sequer um momento para descansar, o senhor Kyusaku começou a produzir cordas. Ele sabia, pela experiência de anos anteriores, que o preço da corda era mais alto quando vendida antes que os outros agricultores, ocupados com a colheita, começassem a sua produção. Assim, motivado também pelo lucro, dedicou-se arduamente à tarefa. Primeiramente, ministrou Johrei à sua máquina de fazer cordas. Ao fazê-lo, até o som do equipamento se alterou, tornando-se um zumbido suave, como o de uma máquina de precisão girando em alta velocidade. Uma unidade de corda pesa 3,5 *kan*, mas com a palha nova do outono, chega a 4 *kan*. Em dezoito dias, o senhor Kyusaku produziu mil *kan*, obtendo um lucro de quarenta mil ienes. Embora o costume fosse o produtor arcar com o frete, a escassez do produto na época permitiu que ele recebesse um adicional de um iene por *kan*, totalizando mil ienes extras pelo transporte.
-
-— Quarenta e um mil ienes em dezoito dias! Normalmente, não consigo produzir nem a metade disso. Tais ganhos só podem ser graças a Deus. Fiquei espantado ao ver como o desempenho da máquina mudou depois que lhe ministrei Johrei, como o ministro me ensinou — relatou o senhor Kyusaku na Sede da Igreja.
-— É a primeira vez que ouço a palavra “graça” sair de sua boca — respondeu o ministro, satisfeito. — Isso se deve ao fato de você ter servido a Deus recentemente. Por isso, recebeu prontamente esta bênção.
-
-— Finalmente entendi que, para receber uma graça, é preciso primeiro plantar a semente — disse o senhor Kyusaku, sorrindo com um ar encabulado.
-
-A notícia de que o senhor Kyusaku produzira mil *kan* de corda e ganhara quarenta e um mil ienes em dezoito dias espalhou-se rapidamente pela aldeia. Dois homens de seu povoado, querendo verificar a veracidade da história, foram procurá-lo. Como de costume, ele lhes explicou que tudo se devia ao Johrei ministrado na máquina e começou a falar sobre o Caminho.
-— Ora... Não seja ridículo! Usar Deus para fazer cordas? É por isso que todo mundo zomba de você — disseram os dois, cuspindo as palavras sem sequer dar ouvidos à sua explicação.
-De fato, por alguma razão, o senhor Kyusaku era constantemente menosprezado e evitado pelos demais moradores, e essa atitude pareceu intensificar-se depois que ele começou a falar sobre o Caminho. Se lhes fosse perguntado o motivo de tanto desprezo, nem eles mesmos saberiam explicar. Não gostavam de seu modo de trabalhar, tampouco de sua ascensão de camponês miserável a grande agricultor. Em suma, pareciam não gostar de absolutamente nada que se referisse a ele. Existe um provérbio, compreendido apenas por quem vive no campo, que diz: “Quando o vizinho ergue um celeiro, o outro se enche de raiva”. Essa estranha psicologia parecia estar por trás da repulsa que sentiam pelo senhor Kyusaku e, por extensão, pelo Deus em quem ele acreditava.
-
-— Se você consegue, eu também consigo! Que tolice é essa de Deus? — disseram os dois, e, decididos a não serem superados pelo senhor Kyusaku, puseram-se imediatamente a fabricar cordas.
-Contudo, mal haviam produzido alguns feixes, e ambos se viram em uma situação terrível.
-Um deles viu a correia de sua máquina se romper. Antes que pudesse reagir, a correia partida enroscou-se em alguma parte do mecanismo, e a máquina foi arremessada contra o teto. Em seguida, com a força do impacto, foi projetada de volta ao chão, onde se espatifou em mil pedaços.
-O outro homem que zombara do senhor Kyusaku — e, portanto, de Deus — teve a manga de sua roupa de trabalho sugada pela máquina junto com a palha. Seu braço direito foi puxado até a segunda articulação, sofrendo uma fratura gravíssima com esmagamento dos ossos. O médico diagnosticou que a recuperação levaria pelo menos quarenta dias e que, devido à gravidade da fratura, a amputação do braço seria provavelmente necessária.
-
-— Foi o castigo por viverem zombando de Deus — comentou o senhor Kyusaku com o ministro. Contudo, acrescentou que guardaria essa convicção para si, a fim de não atrair ainda mais o ódio dos seus conterrâneos. Concordo com essa sua sábia e prudente reflexão.
-
-Com este episódio, o senhor Kyusaku parece ter compreendido claramente como se pode receber as bênçãos de Deus. Os dois homens que sofreram a repreensão divina, por outro lado, dificilmente associarão sua desgraça a Deus. Seja como for, o que fica é o anseio de jamais incorrer na repreensão de Deus, mas, sim, de sermos sempre dignos de receber Suas graças.
-
----
-
-# 015 - O filho que não frequenta a escola (por influência de um antepassado)
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## 015 - O filho que não frequenta a escola (por influência de um antepassado)
-
-Meu quarto filho, de doze anos, que recebeu o Ohikari no dia 28, há cerca de dez dias não vai à escola. Em casa, ajuda de bom grado, mas não brinca com os amigos, e mesmo que o levemos até a escola, ele foge e volta para casa. Qual seria a razão para tal comportamento?
-
-Pode ser que um espírito ancestral o esteja influenciando por desejar a própria salvação. Não é nada de grave. Alternativamente, pode ser um aviso de que algum antepassado está insatisfeito com algo. Façam com que ele ouça a oração Amatsu-Norito e leia os Ensinamentos.
-
-## 016 - A postura dos pais diante da falta de dedicação dos filhos aos estudos
-
-Quando um filho não demonstra vontade de estudar, os pais também carregam uma parcela de responsabilidade. Primeiramente, deve-se considerar que isso é um processo de purificação. Em vez de repreendê-lo com excessiva severidade, os pais devem se dedicar com fervor à fé, refletir sobre si mesmos e buscar a proteção Divina. Admoestações podem gerar um efeito contraproducente. (26.09.1948)
-
-## 017 - O sofrimento de ter uma filha com comportamento anômalo
-
-Minha filha de catorze anos, desde que retornou da casa de seus avós maternos em agosto do ano passado, começou a apresentar um comportamento estranho. Chegou a abandonar a escola e, certo dia, queixou-se de dores intensas no ouvido, afirmando que alguém estava entrando ali. Contudo, o médico disse que não havia nada de errado. Viemos, então, rogar a Kannon (観音) e, com uma única ministração de Johrei, a dor no ouvido cessou. Preocupados e desejando que ela se tornasse uma menina inteligente, recebemos a permissão de servir e continuamos a ministrar-lhe Johrei com toda a sinceridade.
-
-Antes, ela dormia até tarde e se tornava agressiva quando a acordávamos; essa agressividade diminuiu e ela passou a conversar um pouco. Recentemente, porém, come de uma só vez o equivalente a uma tigela de arroz por dia. Será que poderemos contar com a proteção Divina? Rogo por seu esclarecimento.
-
-A mãe precisa acumular virtude. É por meio dessa virtude que a filha se tornará uma boa menina. Apenas o Johrei e as preces não são suficientes. Além disso, é imprescindível que a fé ocupe o lugar central. A causa fundamental é a existência de máculas; para eliminá-las, é necessário acumular virtude.
-
-## 018 - O filho com cleptomania
-
-Sou viúva de guerra e, junto ao meu único filho, dedico-me inteiramente à Obra Divina. Tendo recebido a fé no outono retrasado, e com a abertura de uma nova região em novembro do ano passado, parti para a difusão, deixando meu filho aos cuidados de minha irmã e de seu antigo empregador. Ocorre que, desde então, meu filho desenvolveu o hábito de furtar, fato que já chegou ao conhecimento de alguns membros. Ele sofre muito com isso, e eu, sem poder trazê-lo para perto, encontro-me em uma situação aflitiva. Devo simplesmente deixar a criança como está? Rogo por seu esclarecimento.
-
-O melhor é deixá-lo como está e se dedicar de corpo e alma à sua missão na fé. A preocupação que a senhora sente existe porque há máculas em seu espírito. Esqueça-se dos problemas do filho e, sem se deixar abater por eles, continue a acumular virtude. (05.05.1950)
-
-## 019 - A irmã de índole perversa
-
-Minha irmã mais nova, Mitsuko, de dezessete anos, aparenta ser uma filha devotada à nossa mãe, mas furta o dinheiro das doações a Komyō Nyorai-Sama e também o da casa, não importa onde o escondamos. Além disso, esquiva-se de qualquer trabalho (exceto cozinhar) e, quando nossa mãe a repreende, imediatamente se aborrece e não faz mais nada. Também costuma comer sozinha as melhores iguarias e é extremamente hábil em mentir. Qual seria a causa para tal comportamento? Peço, por favor, que me ilumine.
-
-Isso é obra do espírito guardião secundário. Como a mãe possui máculas e impurezas, as fontes de preocupação não cessam. (06.05.1950)
-
-## 020 - A filha de temperamento obstinado
-
-Minha filha, atualmente com doze anos, desde os dez tornou-se extremamente obstinada; uma vez que decide algo, jamais volta atrás em sua palavra. Quando algo a contraria, ela tem um acesso de fúria e chora sem parar. Esse estado se repete diariamente. Quando tais crises ocorrem, ela sempre se tranca no quarto onde está o altar de Komyō Nyorai-Sama ou no cômodo escuro dos fundos, cobre-se com um futon e grita em prantos. Por mais que tentemos acalmá-la, ela não nos dá ouvidos e grita ainda mais alto, a ponto de todos na casa não saberem mais o que fazer. Recentemente, essas crises se intensificaram. Trata-se de um fenômeno espiritual? Rogo por seu esclarecimento. E, se possível, peço que nos ensine como proceder com o Johrei.
-
-Mais do que uma questão espiritual, o problema está no nome dela. Suemi torna-se "shi", que significa morte.
-
-Ministre Johrei na parte frontal da cabeça, pois há febre ali. (16.09.1949)
-
-## 021 - Pedido de devolução da criança com asma (A Kishimojin dos dias atuais)
-
-Esta menina de doze anos nasceu em um templo da seita Shingon e, desde os dois anos, venho criando-a como minha tia, pois sua mãe adoeceu. Por volta dos cinco anos, a criança começou a ter crises de asma. A partir de janeiro deste ano, os ataques se tornaram diários, durando da meia-noite às seis da manhã. O médico chegou a dizer que ela não passaria dos dezessete anos. Todavia, em meados de março, começamos a receber Johrei, e em cerca de um mês ela ficou bem.
-
-Agora, os pais biológicos insistem que eu a devolva. Contudo, o afeto que nutro por ela é profundo e, como não tenho outros filhos, recuso-me a entregá-la. Ademais, os pais consideram nossa fé uma superstição e insistem em tratamentos médicos.
-
-Parte de nossa propriedade está sobre o terreno onde antigamente se localizava o telhado de um templo dedicado a Daishi-sama (大師様). Dizem-me que o próprio Daishi-sama deseja ser cultuado e se manifesta através da criança. Por isso, preparei um altar em casa e ofereço-lhe chá. Também fiz o voto de visitar o Templo Daishi, para onde ele foi transferido, todo dia 21, durante dez anos, e tenho cumprido essa peregrinação mensal. Além disso, fiz um voto à deusa Kishimojin (鬼子母神) pela proteção da menina e recebi um pergaminho sagrado com sua imagem.
-
-Como devo proceder em relação à criança, à peregrinação a Daishi-sama e ao culto a Kishimojin? Rogo por sua orientação.
-
-A questão da criança depende dos sentimentos de ambas as partes, portanto, não posso decidir. Se receberem a proteção Divina, encontrarão uma solução harmoniosa para todos. Quanto à peregrinação a Daishi-sama, é melhor cessá-la.
-
-Kishimojin retornou à Índia e, em seu lugar, espíritos de raposas e outros animais se apossaram da imagem. Cultuá-la, portanto, é prejudicial. Se a menina estivesse sob cuidados médicos, sua vida poderia, de fato, se limitar aos dezessete anos, mas através do Johrei, isso não ocorrerá. (06.05.1949)
-
-## 022 - A separação do filho mais velho
-
-Recebi o Ohikari em março do ano passado e, desde então, vivo em gratidão por ter sido salva de uma tuberculose óssea considerada incurável. Ocorre que meu filho mais velho fora adotado pelo irmão de meu marido, mas agora ele, sua esposa e seus quatro filhos foram repudiados e retornaram, sob o pretexto de que a nora não agradava aos pais adotivos. (Meu segundo filho é o herdeiro de nossa casa). Desde então, nosso negócio de tecidos não vai bem, a casa vive em desordem e não consigo me dedicar plenamente à sagrada Obra Divina, o que me aflige. O filho mais velho e sua esposa manifestaram o desejo de morar em uma casa separada. Como devo proceder? (O filho mais velho também já recebeu o Ohikari).
-
-A separação é a melhor solução. Assim, tudo se encaminhará bem. (26.10.1949)
-
-## 023 - A filha desaparecida
-
-Uma estudante de dezenove anos, que recebeu a fé em abril do ano passado, desapareceu do dormitório há dois meses. Ela não frequenta mais as aulas e seu paradeiro é desconhecido, o que causa grande angústia à sua família em sua terra natal. Lá, sua madrasta e sua irmã mais velha receberam a fé, entronizaram a Imagem Divina e são membros devotados. Contudo, o pai biológico ainda não ingressou na fé. Como membro deste Caminho, qual a melhor forma de proceder na busca por essa jovem? Rogo por seu esclarecimento.
-
-Sendo uma madrasta, é questionável se a relação entre elas era verdadeiramente harmoniosa.
-
-Entreguem o assunto a Deus. Com certeza, o desfecho não será desfavorável. (21.06.1949)
-
-## 024 - O filho que saiu de casa
-
-Meu marido e eu não temos filhos biológicos. Criamos uma menina que adotamos aos oito anos (hoje com vinte e sete) e um filho adotivo, Osamu, que foi oficialmente registrado. Eles tiveram um filho, mas no final do ano passado, Osamu foi a Nagoya e não retornou. Ele tem um temperamento explosivo e, quando se exalta, precisa sair para dar uma volta até se acalmar. Também já o vi chorando sozinho quando se sentia solitário. Minha filha adotiva, por sua vez, não sabe como agradar as pessoas e sua instrução se limita a conseguir escrever uma carta. A fuga de Osamu se deve à incompatibilidade de gênios do casal? E ele retornará? Peço sua orientação.
-
-Isso dependerá se, ao ingressar na fé e receber graças, o retorno dele será benéfico ou não. (16.07.1949)
-
-## 025 - O retorno do filho
-
-Ingressei na fé recentemente. Meu marido faleceu de tifo em 1946, e meu primogênito morreu em combate na Birmânia, em 1944. Meu único filho restante, o segundo, Toshio, foi enviado para a Manchúria e, por meio de cartas, soube que ele se encontra na Sibéria. A situação social me preocupa. Ele conseguirá retornar? E o que devo fazer até que ele volte?
-
-Ele retornará. Não haverá nenhum infortúnio.
-
-Ajude o maior número de pessoas que puder. Através da virtude acumulada pela mãe, o retorno dele será antecipado. (17.08.1949)
-
-## 026 - Primeira filha, segundo filho
-
-Diz-se que, para ter filhos, o ideal é "primeiro uma menina, depois um menino". Há algum significado nisso? Rogo que me esclareça.
-
-Meninas são mais fáceis de criar. Os meninos são, por natureza, mais frágeis e propensos a cometer erros. O corpo feminino é mais saudável e resistente; os homens, por exemplo, adoecem com mais facilidade. Por isso, para o primeiro parto, é preferível uma menina, cuja criação é mais tranquila. (A ideia é que, quando os pais estiverem mais experientes, venha o menino). (28.12.1948)
-
-## 027 - O tolo do primogênito
-
-Há um ditado que diz "o tolo do primogênito". Parece contraditório que o primogênito, nascido quando o amor do casal é mais intenso, seja um "tolo", enquanto os filhos mais novos, que nascem quando o afeto parece ter se estabilizado ou diminuído, sejam mais capazes. Qual a razão disso?
-
-O que ocorre é que, no nascimento do primeiro filho, os pais são jovens e carecem de sabedoria e experiência; em certo sentido, os "tolos" são os pais. O primogênito tende a ser excessivamente mimado, enquanto o amor dos pais se distribui mais com a chegada dos outros filhos. Pessoas notáveis costumam surgir de famílias com muitos irmãos. Uma criança que é muito amada raramente se torna grandiosa. (03.02.1950)
-
----
-*Nota do Editor: Trechos de Sermões de Meishu-Sama*
-
-(Sermão de fevereiro de 1950, publicado na Coletânea de Sermões, nº 18, em 23 de abril de 1950)
-
-> — Existe o ditado "o tolo do primogênito". Por que o filho nascido quando o casal é jovem e o amor é intenso resulta em um "tolo", enquanto os filhos mais novos, nascidos quando os pais são mais velhos e o amor mais sereno, são mais capazes?
->
-> Não é bem assim. O ponto é que, quando o primeiro filho nasce, o casal geralmente ainda é jovem e tem pouca experiência de vida. Portanto, pode-se dizer que os pais é que são os "tolos" (risos). Com o tempo, eles enfrentam dificuldades, acumulam vasta experiência, e os filhos que nascem depois acabam sendo melhores. Além disso, o primeiro filho é invariavelmente mimado em demasia, e isso é prejudicial. À medida que mais crianças nascem, não é que o carinho diminua, mas ele se torna mais distribuído, e a atenção individual se torna menor. Contudo, isso é benéfico para a criança, pois fomenta a independência. É por isso que, como escrevi anteriormente no jornal, pessoas grandiosas surgem de famílias com muitos irmãos. Por terem muitos irmãos, elas não são mimadas. Em suma, elas desenvolvem a independência. A convicção de que devem ajudar a si mesmas é fortalecida. Filhos únicos raramente se tornam pessoas notáveis. Portanto, uma criança que é constantemente mimada não se tornará grandiosa. Na verdade, é melhor não ser tão amado.
-
-(Sermão de 13 de março de 1949, publicado na Coletânea de Sermões, nº 5)
-
-> — Parece que, em muitos casos, os filhos mais novos são mais brilhantes que os mais velhos. Qual a razão para isso?
->
-> Os filhos são um reflexo dos pais. Na época em que nasce o filho mais novo, os pais já acumularam mais experiência e sabedoria em comparação com a época do primogênito. Isso se reflete na criança, que se torna mais inteligente. Outro fator é que o primeiro filho, por não ter estímulos, tende a ser mais apático. Daí o ditado "o tolo do primogênito". Embora não existam estatísticas sobre isso no Japão, no Ocidente há dados que mostram que pessoas extraordinárias tendem a vir de famílias com muitos irmãos. Isso ocorre porque, em uma família numerosa, o tratamento pode ser menos favorável, o que acaba por lapidar o caráter.
-
-## 028 - Distinção entre irmãos gêmeos
-
-Gostaria de perguntar como se distingue o irmão mais velho do mais novo no caso de gêmeos, e qual a base fundamental dessa distinção.
-
-Não se trata de uma questão de grande importância. O que nasceu primeiro deve ser considerado o mais velho.
-
-## 029 - Doença mental do filho causada pelos pais
-
-Meu irmão mais novo, hoje com vinte e dois anos, por volta dos catorze, voltou da escola queixando-se de dor de cabeça. Depois disso, começou a faltar às aulas, trancou-se em um quarto, passou a evitar sair e a odiar ver o rosto dos familiares. Alimentava-se sozinho, somente após todos terem terminado, e passava os dias vagando pelas montanhas, retornando apenas ao anoitecer. Por fim, ficou acamado. Cerca de um ano depois, um dia, após o café da manhã, ele desapareceu. Procuramos por toda parte e o encontramos em frente ao Santuário Ookawa, a cerca de quinze quilômetros de distância. Essa situação perdurou por um ano, após o qual ele se tornou progressivamente violento, atirando para fora de casa os móveis e objetos que encontrava, destruindo utensílios do oratório budista e do altar xintoísta. Por fim, começou a agir com violência até mesmo contra propriedades alheias, a derrubar lápides no cemitério e a brincar com fogo, tornando-se um perigo iminente. Sem alternativa, construímos um cômodo para confiná-lo. Anos depois, em 1948, ingressei nesta fé e, desde então, tenho ministrado Johrei e entoado orações, mas não houve qualquer mudança. Entronizei a Imagem de Komyō Nyorai-Sama e me dedico com afinco a auxiliar na Obra da Salvação, mas gostaria de saber se ele poderá se recuperar nessas condições. Rogo que me ilumine.
-
-Ele se recuperará. O que impede a melhora é o fato de os pais não praticarem a fé. Quem sofre são eles. É preciso que os pais ingressem na fé o mais rápido possível. (17.05.1950)
-
-## 030 - Solução para o desentendimento dos pais
-
-Meus pais não se dão bem. É o que se costuma chamar de "relação fadada ao fracasso", e suas constantes discussões são um problema. (Ambos ingressaram na fé em janeiro deste ano). Meu pai tem alguns problemas de ordem mental, e minha mãe também já esteve doente. Recentemente, meu pai tem falado em se divorciar. Por favor, ensine-me um método para dissolver essa relação conflituosa.
-
-Ambos possuem muitas máculas e impurezas, razão pela qual as purificações ocorrem. Se o filho ajudar as pessoas e acumular virtude, eles se tornarão harmoniosos. O casal é como o fogo e a água; suas personalidades são opostas. (27.02.1949)
-
-## 031 - Como proceder com uma pessoa desaparecida
-
-Meu pai, de sessenta e um anos, saiu de casa na manhã de 14 de janeiro deste ano e, apesar de buscas exaustivas, continua desaparecido. Oráculos indicam que ele já faleceu. Realizamos um funeral simbólico. Podemos deixar a situação como está?
-
-Podem deixar como está. É melhor não se preocupar. (06.07.1949)
-
----
-
-# iju09012
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-— Coletânea de Teses do Mestre Okada Jikan —
-
-## 012 A Proliferação de Doenças no Início da Primavera
-**Pergunta:** Afirma-se que as doenças são mais frequentes no início da primavera. Qual seria a razão para tal fenômeno? Rogo por vossa orientação.
-
-**Meishu-Sama:** O desabrochar da primavera de fato propicia o surgimento de enfermidades, e há um significado nisso. A primavera é a estação em que tudo ascende. Conforme consta em meus Escritos, a respiração do planeta manifesta-se nas quatro estações. A primavera corresponde à expiração, o que faz com que tudo o que estava latente no interior venha à tona. Por essa razão, muitas das doenças que se manifestam nesse período são erupções cutâneas, que se assemelham a um musgo que brota na superfície. (18 de janeiro de 1949)
-
-## 013 As Estações e a Incidência de Doenças Mentais e Suicídios
-**Pergunta:** As estatísticas revelam um aumento no número de casos de doenças mentais e de suicídios durante a primavera. Haveria alguma relação com a estação do ano?
-
-**Meishu-Sama:** Sim, há uma relação com a estação. Na primavera, tudo se inflama e ascende. Da mesma forma, o ser humano tende a se exaltar, o que facilita a manifestação de tais condições. O outono, por sua vez, é um período em que o espírito se serena. Como a atmosfera se torna mais límpida, o espírito humano também se acalma e se aquieta. Contudo, é preciso compreender que esses são fatores indutores ou secundários, não a causa fundamental. A pessoa que está predestinada a passar por essa situação passará por ela de qualquer forma; a primavera apenas acelera o processo.
-
-## 014 A Razão das Diferenças de Resistência ao Frio e ao Calor
-**Pergunta:** Existem pessoas com grande resistência ao frio e ao calor, enquanto outras são mais sensíveis. Qual seria a razão para essa diferença? Solicito vosso esclarecimento.
-
-**Meishu-Sama:** Isso se deve a fatores como a robustez da saúde, a força de vontade e o grau de treinamento de cada um. Espiritualmente, também há influência da estação do nascimento, se no verão ou no inverno. (9 de fevereiro de 1949)
-
-## 015 A Intensificação da Purificação a Partir da Tarde
-**Pergunta:** Nos processos de purificação, por que a febre e outros sintomas se intensificam no período da tarde e da noite? Qual a causa desse fenômeno?
-
-**Meishu-Sama:** Ao despertar pela manhã, o corpo esteve em repouso, e por isso a purificação está atenuada. Com o início das atividades, o corpo entra em movimento, e esse dinamismo desencadeia o processo purificador. É por essa razão que os médicos recomendam repouso absoluto, pois a imobilidade enfraquece a purificação. Ademais, durante o dia, quando o sol brilha, há maior abundância do elemento fogo no Mundo Espiritual, o que intensifica a purificação. À noite, com a diminuição desse elemento, a tendência é de solidificação, e, consequentemente, a purificação se torna mais branda. (22 de janeiro de 1949)
-
-## 016 A Variação de Sintomas e Crises em Pacientes Graves
-**Pergunta:** Um paciente em estado grave costumava sofrer mais a partir da tarde, sentindo alívio ao amanhecer. Contudo, à medida que seu quadro melhora, a situação se inverteu: as manhãs se tornaram difíceis, e as tardes, mais tranquilas. Qual seria a razão para essa mudança? Peço que nos elucide.
-
-**Meishu-Sama:** Tais quadros estão sujeitos a diversas alterações e, embora haja uma explicação para cada uma delas, não se trata de algo de maior importância. A influência do yakudoku também pode ser um dos fatores. (8 de agosto de 1949)
-
-## 017 Dores que Ocorrem Apenas ao Entardecer
-**Pergunta:** Minha esposa, grávida de oito meses, há cerca de dez dias vem sentindo dor no ouvido e também no dente inferior do mesmo lado esquerdo. Curiosamente, a dor surge invariavelmente entre as seis e as sete horas da noite. Há quatro ou cinco dias, começou a sair pus do ouvido, mas a dor, acompanhada de febre, persiste. Qual a razão para que essa dor se manifeste em um horário tão específico?
-
-**Meishu-Sama:** Trata-se de uma purificação comum. Quando o ser humano se levanta e inicia suas atividades, o metabolismo se torna mais vigoroso. Por volta das quatro horas da tarde, ele atinge seu ápice. Tenha certeza de que ela irá se recuperar. (28 de abril de 1949)
-
-## 018 Estranha Doença Endêmica em uma Região
-**Pergunta:** Na região montanhosa de Kamiukena, na província de Ehime, ocorreu um surto coletivo de bócio. Uma equipe de investigação médica foi enviada ao local para analisar as causas, mas não obteve qualquer resultado e acabou por desistir do caso. Gostaria de saber a causa dessa doença, o motivo de sua ocorrência restrita a essa região e o método de Johrei indicado.
-
-**Meishu-Sama:** Trata-se do Mal de Basedow, mas sua origem é provavelmente espiritual. Algum espírito tem um propósito, como o desejo de ser devidamente reverenciado, e para isso ordena a seus seguidores que atuem. Essa é a causa. É possível discerni-la a partir do estado da doença. (25 de junho de 1949)
-
-## 019 Região com Alta Incidência de Doenças Pulmonares
-**Pergunta:** No bairro de Karasu-cho, localizado no delta do rio Kumozu, na província de Mie, há um número excepcionalmente alto de pessoas com doenças pulmonares. Haveria alguma causa ligada a essa localidade?
-
-**Meishu-Sama:** É uma região de delta. No Santuário Karasu, reverencia-se a Princesa Wakahime. Ainda que houvesse uma causa espiritual, o número de doentes é excessivo. A causa deve estar relacionada ao uso em larga escala de algum medicamento específico ou a algum alimento.
-
-## 020 Localidade com Grande Número de Doenças Oculares
-**Pergunta:** Um membro que orientei, e que hoje atua como instrutor, precisou se ausentar por um tempo para se dedicar à difusão em uma região distante, deixando em casa sua esposa, mãe e duas filhas. Durante sua ausência, as oferendas ao altar dos antepassados não podem ser realizadas. Isso representa um problema perante os antepassados? Duas ou três vezes por mês, ele se reveza com a filha para retornar e realizar as cerimônias. Seria esta a forma correta? Na nova localidade onde ele atua, há muitas pessoas com doenças oculares. Haveria alguma relação espiritual com aquele lugar?
-
-**Meishu-Sama:** Pode ser tracoma ou algo similar, causado pela aplicação de colírios. Aqueles que usam medicamentos nos olhos invariavelmente acumulam as toxinas na cabeça. Posteriormente, essas toxinas se dissolvem e se dirigem aos olhos. Certos analgésicos agem de maneira semelhante. (8 de novembro de 1949)
-
-## 021 Surtos de Paralisia Infantil
-**Pergunta:** Recentemente, em junho, o jornal Asahi noticiou a ocorrência de surtos de paralisia infantil em diversas localidades do norte do Japão. O Instituto Nacional de Saúde Preventiva atribui o fenômeno ao contágio. Qual seria a relação com o Mundo Espiritual para que uma doença de origem espiritual se manifeste de forma coletiva? Rogo por vosso ensinamento.
-
-**Meishu-Sama:** Quando muitos casos surgem simultaneamente, é natural que se pense em contágio. (21 de julho de 1949)
-
-## 022 Múltiplas Enfermidades em Criança por Iatrogenia
-**Pergunta:** Meu filho, que completou um ano de idade, foi diagnosticado em maio de 1949 com beribéri infantil e submetido a quarenta dias de tratamento médico. Seu desenvolvimento, contudo, é precário. Ele apresenta no pescoço o que parecem ser nódulos de yakudoku: três grandes e inúmeros do tamanho de um grão de arroz. Sofre também de hérnia, e seu umbigo, duro e do tamanho do polegar de um adulto, projeta-se como uma pequena fruta, parecendo que vai se romper quando ele chora. Ao receber Johrei, suas fezes saem esverdeadas e misturadas com uma substância semelhante a catarro. Ele também parece ter dificuldade de audição, seus olhos se movem lentamente e, quando deitado, permanece em silêncio o dia todo. Há seis anos, meu pai se enforcou devido a conflitos familiares. O caso do meu filho teria uma causa espiritual? Se sim, seria apropriado que minha família de origem recebesse o Omamori e entronizasse a imagem de Kannon (観音) em um biombo? Rogo por vossa proteção.
-
-**Meishu-Sama:** A criança foi deixada nesse estado pelos médicos. A causa é o yakudoku. Os nódulos são decorrentes do yakudoku dos pais; a febre e a falta de vitalidade também. A hérnia é causada pela pressão de um nódulo no abdômen. Trata-se do yakudoku de pais e filho. (29 de março de 1950)
-
-## 023 O Johrei para o Antraz (Doença Local)
-**Pergunta:** O antraz que está ocorrendo atualmente na região de Hokuriku corresponde à purificação de que parte do corpo? Onde devemos concentrar o Johrei?
-
-**Meishu-Sama:** Trata-se da purificação do yakudoku de algum medicamento ou injeção específica que as pessoas dessa região utilizaram. Ministrem Johrei nos rins. (6 de agosto de 1949)
-
-## 024 Surto de Paralisia Infantil
-**Pergunta:** Peço que nos elucide sobre a causa espiritual da paralisia infantil que está se alastrando em surtos na região de Hachinohe, na província de Aomori, e sobre o método de Johrei apropriado.
-
-**Meishu-Sama:** A verdadeira paralisia infantil é extremamente rara. Geralmente, o problema se manifesta nas pernas. Nos casos em que a pessoa não consegue andar, há um acúmulo de toxinas na sola dos pés. A chamada paralisia infantil em surtos é, na verdade, o resultado de toxinas de vacinas muito fortes que se acumularam nessa região. A origem pode estar na criança ou na mãe. (8 de julho de 1949)
-
-## 025 Pontos Vitais Próximos ao Osso Nasal
-**Pergunta:** Diz-se que cirurgias em furúnculos na região da testa podem ser fatais. Contudo, há casos de morte súbita em cirurgias em outras partes do rosto. Qual seria a causa?
-
-**Meishu-Sama:** Dizem que não apenas na linha central, mas também nas laterais do rosto existem pontos extremamente perigosos. É comum ocorrerem mortes em cirurgias para remover as toxinas da sinusite. Deve haver alguma glândula de vital importância nessa área, próxima ao osso lateral do nariz. Lembro-me do caso do Dr. Kodama, que, ao realizar uma cirurgia nasal na Faculdade de Medicina de Niigata, cortou um ponto por engano. O paciente começou a correr descontroladamente pela sala e morreu. (28 de junho de 1949)
-
-## 026 Sons Durante a Cura (Ossos e Pus)
-**Pergunta:** Uma senhora membro da Igreja, que desde a infância apresentava propensão ao reumatismo articular, teve seu quadro agravado após os cinquenta anos. Atualmente, tem dificuldade para caminhar, sente dores à noite, e suas pernas se dobram sozinhas. Ao tentar esticá-las, as articulações estalam. Haveria alguma causa espiritual? Onde devemos ministrar Johrei?
-
-**Meishu-Sama:** Todas as doenças, ao serem curadas, produzem algum tipo de som. Com a eliminação do pus, cria-se um espaço vazio, e o atrito entre as partes gera o estalo. Posteriormente, elas se unem e a cura se completa. O som ocorre nessa fase intermediária. (28 de setembro de 1949)
-
-## 027 Calos, Morte e a Sutileza do Corpo Humano
-**Pergunta:** Diz-se que, quando um calo surge na parte interna do pé, um familiar falece, e quando surge na parte externa, um parente morre. Afirma-se também que o calo desaparece no momento da morte. Haveria algum significado espiritual nisso?
-
-**Meishu-Sama:** O calo, nesse caso, é um aviso do espírito protetor primordial. Pelo Princípio da Concordância, diversos fenômenos se correspondem. É por isso que a leitura da fisionomia, por exemplo, possui certo grau de acerto. Um estudo aprofundado revelaria uma precisão considerável. A região acima e abaixo dos olhos, por exemplo, representa os antepassados e os descendentes, respectivamente, e os pensamentos relacionados a eles se manifestam de alguma forma. A análise de retratos observa atentamente esses sinais, nos quais até mesmo o apego dos antepassados pode se revelar. O corpo humano é, de fato, algo de uma sutileza extraordinária. (1 de fevereiro de 1949)
-
-## 028 A Diferença de Compleição Física entre Japoneses e Anglo-Americanos
-**Pergunta:** Gostaria de ser elucidado sobre os motivos pelos quais a compleição física dos japoneses é inferior à dos anglo-americanos.
-
-**Meishu-Sama:** O ambiente exerce grande influência. O costume de se sentar no chão e a medicina chinesa são fatores determinantes. Se os japoneses passassem a usar cadeiras e a não tomar medicamentos, sua estatura aumentaria consideravelmente. Abandonando esses dois hábitos, é possível que os japoneses se tornassem ainda maiores que os ocidentais. (23 de fevereiro de 1949)
-
-## 029 Os Cinco Órgãos e as Seis Vísceras
-**Pergunta:** O que são os "cinco órgãos e as seis vísceras"?
-
-**Meishu-Sama:** Os cinco órgãos são o coração, os pulmões, o pâncreas, o fígado e os rins (às vezes incluindo o baço). As seis vísceras são o estômago, os intestinos, o cérebro, a vesícula biliar, o útero e os testículos. É uma classificação um tanto imprecisa. (23 de fevereiro de 1949)
-
-## 030 A Ação da Consciência no Despertar
-**Pergunta:** Quando preciso acordar em um horário específico na manhã seguinte e, antes de dormir, mentalizo isso a Deus, acontece de eu despertar exatamente na hora marcada, sem um minuto de diferença. Acredito que, dependendo da pessoa ou da natureza de seu trabalho, seja um espírito divino ou um espírito comum que nos desperta. Qual seria a explicação? Em outras situações, excetuando-se os casos em que dormimos tarde ou estamos em purificação, mesmo que ainda estejamos com sono ou tenhamos tempo de sobra, o momento em que abrimos os olhos subitamente pela manhã seria o mais adequado para nos levantarmos? Naturalmente, é normal sentir um pouco de sono, que se dissipa ao levantar. No entanto, há dias em que, mesmo depois de levantar, a sonolência persiste, o corpo fica indisposto o dia todo e o trabalho é prejudicado. O que causa isso? Rogo por vossa orientação.
-
-**Meishu-Sama:** É o espírito protetor primordial que o desperta. É uma bênção tão grande que chega a ser um mistério. Ao abrir os olhos pela manhã, o melhor é se levantar. Isso não prejudicará seu dia. A causa é nervosa; uma crença supersticiosa é o que o prejudica. A ideia de que "não se deve dormir pouco" é o que lhe causa mal. A diferença reside na concepção de cada pessoa. (1 de dezembro de 1949)
-
-## 031 Os Dentes Perdidos Voltarão a Nascer?
-**Pergunta:** Na Era de Miroku, os dentes perdidos voltarão a nascer?
-
-**Meishu-Sama:** Os dentes não voltarão a nascer. Se os idosos rejuvenecessem, o que seria do mundo?
-
-Nota: [Extraído de “Coletânea de Diálogos com Meishu-Sama (Edição Especial de Maio de 1949)” da publicação “Registro dos Diálogos com Meishu-Sama”, n.º 8, de 30 de maio de 1949]
-— “Na Era de Miroku, os dentes que perdemos voltarão a nascer?” (Risos)
-“Não, não voltarão. (Risos) Se os dentes voltassem a nascer, as rugas também teriam de desaparecer, não é mesmo? Nesse caso, os idosos se tornariam jovens novamente. E se tivéssemos tantos jovens assim, seria um inconveniente, não acham? (Risos) Se isso acontecesse, os jovens teriam de se tornar bebês. (Risos) E os bebês teriam de retornar para antes do nascimento... (Gargalhadas)”
-
-## 032 Tatuagem
-**Pergunta:** As tatuagens também podem ser apagadas pelo Johrei?
-
-**Meishu-Sama:** A tatuagem não pode ser apagada. (4 de fevereiro de 1949)
-
-## 033 O Corpo Humano e o Universo
-**Meishu-Sama:** Sim, há uma correspondência. O Sol representa o espírito; a Lua, a matéria... Como um modelo do plano celestial, o centro do Universo, o corpo humano possui a cabeça, e o umbigo corresponde ao plano celestial terrestre. Nele também se encontram o calor do fogo e o frio da água. Tudo se corresponde perfeitamente.
-
-## 034 A Cor do Rosto de Homens e Mulheres
-**Pergunta:** Mesmo em tempos de escassez de alimentos, por que a cor do rosto das mulheres costuma ser melhor que a dos homens? Solicito vosso esclarecimento.
-
-**Meishu-Sama:** O homem se mostra como é. As mulheres de hoje usam blush.
-
----
-
-# Divindades e Budas
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Divindades e Budas
-
-### 055 As Divindades no Período Pré-Imperial
-
-Solicito um esclarecimento sobre a religião e a cultura do Japão em período anterior à Era Imperial.
-
-Antes da Era Imperial, reinava Susanoo-no-Mikoto, e antes dele, Amaterasu-Oomikami. Este ponto converge com os Ensinamentos de Meishu-Sama.
-(03/03/1950)
-
-### 056 A Inexistência de Budas na Antiguidade do Ocidente e da China
-
-Aprendemos que a história do Egito remonta a sete mil anos e a da China, a cinco mil. Se a transição entre o Mundo Divino e o Mundo Búdico ocorreu há três milênios, significa que culturas prósperas já existiam no Egito e na China antes desse marco. Gostaria de saber se, nesse período, o Mundo Divino e o Mundo Búdico já existiam nessas nações. Ademais, de que forma se deu a transição entre esses dois mundos no Japão? Rogo por vosso esclarecimento.
-
-Tanto na China quanto no Egito, não havia Budas; existiam apenas Deuses. No Egito, por exemplo, cultuava-se Alá. Na China, o primeiro a governar foi Bankoshinou, que se tornou o ancestral dos chineses e corresponde a Amaterasu-Oomikami.
-
-No Japão, predominava o Xintoísmo Antigo, mas, com a chegada do Budismo no décimo terceiro ano do reinado do Imperador Kinmei, sua expansão gradual corroeu a influência do Xintoísmo.
-(08/09/1949)
-
-### 057 O Príncipe Shotoku como Divindade Protetora dos Artesãos
-
-O Príncipe Shotoku é frequentemente reverenciado como a divindade protetora dos artesãos. Ele possui alguma atribuição especial nesse sentido?
-
-O Príncipe Shotoku foi um homem que criou os mais variados objetos; portanto, é perfeitamente compreensível que os artesãos o venerem como sua divindade guardiã. O Templo Horyu-ji, por exemplo, é a mais antiga construção de sua autoria. Foi, de fato, uma figura notável. Contudo, devido à devastação da guerra, ele se encontra em uma situação aflitiva.
-
-Em uma nota correlata, a deusa Benten rege as artes e aprecia a música, sendo simbolizada pela serpente branca. É sabido que as serpentes se sentem atraídas pelo som da flauta, como se pode observar nas cobras que balançam a cabeça e dançam ao ritmo da melodia.
-(23/01/1949)
-
-### 058 As Divindades Kunitzukuri-no-Kami
-
-A divindade consagrada no Santuário de Aso é chamada de Kunitzukuri-no-Kami. Gostaria de saber qual a sua relação com o Santuário Usa Hachimangu e também com Kannon.
-
-Existem muitas divindades Kunitzukuri-no-Kami em diversos locais. São os deuses que auxiliaram na construção do país, sendo que a divindade que de fato o construiu foi Kunitokotachi-no-Mikoto.
-
-A relação com Kannon (観音) é mais intensa no que tange a Hikohohodemi-no-Mikoto.
-(28/04/1949)
-
-### 059 A Divindade Progenitora de Wakahimegimi-no-Mikoto
-
-Gostaria de saber em que época surgiu a divindade Wakahimegimi-no-Mikoto.
-
-Ela é a terceira filha de Amaterasu-Oomikami. Sua aparição não remonta a uma era tão antiga. Há aproximadamente três mil anos, quando o Imperador Amaterasu foi subjugado por Susanoo-no-Mikoto, ele foi forçado a fugir, deixando para trás apenas a Imperatriz. Sendo ela uma mulher, Susanoo-no-Mikoto a perdoou.
-
-No futuro, revelarei todos os detalhes, mas o momento ainda não é oportuno.
-(27/06/1949)
-
-### 060 Sobre o Divino Neto, Ninigi-no-Mikoto
-
-Gostaria de receber um esclarecimento a respeito do Divino Neto, Ninigi-no-Mikoto.
-
-Ninigi-no-Mikoto foi um herói entre o povo Han da China. Aparentemente, ele era judeu. Uma das doze tribos de Judá partiu para o Oriente e seu paradeiro se tornou desconhecido. Havia doze correntes, mas hoje restam apenas onze. Uma delas migrou para a China durante a Dinastia Han Anterior, mas, por pertencer a uma etnia distinta, não foi bem acolhida e acabou por se dirigir ao Japão. Acredito que esse povo corresponda a Ninigi-no-Mikoto. Durante as eras de Ugayafukiaezu-no-Mikoto e do Imperador Jinmu, nota-se uma forte influência da cultura judaica. O crisântemo, por exemplo, que pode ser visto em museus, é um emblema judaico. Ademais, percebe-se a introdução de conceitos semelhantes à opinião pública ocidental. O motivo pelo qual essa figura seria especificamente Ninigi-no-Mikoto encerra um mistério.
-
-Na verdade, a linhagem de Ninigi-no-Mikoto descende de Amaterasu-Oomikami; a teoria de que o Ninigi-no-Mikoto que veio da China seria de origem judaica é, portanto, outra questão. Nisto reside um profundo mistério.
-(04/07/1948)
-
-### 061 A Divindade do Sete
-
-O número sete representa Bankoshinou, uma divindade da linhagem da Terra, que governou o Japão até os dias de hoje. A celebração do Shichi-Go-San (Sete-Cinco-Três) existe justamente por estarmos na era da Terra.
-
-Shaka é a mãe de Kannon (観音).
-(1948)
-
-### 062 Deus e o Bem e o Mal: A Perspectiva de Izunome e do Mahayana
-
-Mesmo entre os deuses, existem aqueles que foram expurgados como criminosos de guerra, assim como os que participaram de batalhas contra a própria vontade. Estes, contudo, são deuses de hierarquia inferior.
-
-Existem Deuses Verdadeiros e Espíritos Malignos, mas o Deus Supremo transcende o bem e o mal. As pessoas más são necessárias. Da perspectiva de um indivíduo mau, os bons não passam de um obstáculo. O Deus Supremo criou tanto os maus quanto os bons — embora isto seja uma suposição. Portanto, não há discriminação entre o bem e o mal. Esta é a explanação segundo o Mahayana, a qual, se ensinada a pessoas de baixa capacidade espiritual, pode ser prejudicial, razão pela qual não é difundida abertamente.
-
-O Mahayana, ou Outro-Poder, corresponde a Cristo e ao elemento Água. O Hinayana, ou Budismo, originalmente baseado nos sutras, corresponde ao Auto-Poder. Na verdade, ambos estão equivocados. Até hoje, o Mahayana e o Hinayana permaneceram separados, o que é um erro. A união de ambos é o que chamamos de Izunome, e no centro dessa cruz se posiciona o ser humano, que pode se tornar bom ou mau, vertical ou horizontal. Esta é a atuação livre e desimpedida de Kannon (観音). Quando o vertical e o horizontal se unem, o poder se manifesta.
-
-Quanto a esse poder, a força espiritual avança pela esquerda e recua pela direita, enquanto a força material, a do corpo, avança pela direita e recua pela esquerda.
-
-Os Estados Unidos representam a Água, enquanto o Japão e o comunismo representam o Fogo. Por conseguinte, em um conflito entre os Estados Unidos e a União Soviética, esta última seria derrotada.
-
-A união da cruz (十) que se abre resulta em dezoito. Isso corresponde a Miroku (五六七) e também a Sanrokugu (三六九). O Monte Fuji é chamado de Montanha Hachisu, que significa o ideograma para oito (八) e o som "su".
-
-Quem tornará o Japão um bom país serão os Estados Unidos. O Japão é o Sol (日), e os Estados Unidos, a Estrela (星).
-(24/06/1948)
-
-### 063 Sobre os Deuses da Guerra e a Religião até Agora (A Purificação Vindoura)
-
-A ideia de "deuses da guerra" é um completo disparate. Quem promove a guerra são os demônios; Deus jamais cometeria assassinatos em massa. A percepção sobre os criminosos de guerra não está clara, e não há religião que aborde isso com veracidade. Sob a ótica americana, a tentativa de erradicar as religiões japonesas é compreensível. A moralidade japonesa está, em sua totalidade, equivocada. Seria melhor renová-la por completo. É imperativo construir uma nova ética. O cristianismo também possui suas falhas; portanto, devemos criar algo ainda mais isento de defeitos. Dentre as religiões existentes, o cristianismo é a melhor, mas seu ponto fraco é a incapacidade de curar doenças. Suas palavras são nobres, mas carecem de poder. Nossa missão é solucionar o problema das doenças por meio da força espiritual e mostrar que Deus deseja conceder uma salvação ainda maior.
-
-Antigamente, quando se tomava uma injeção, a força purificadora era fraca e a substância se espalhava pelo corpo todo. Hoje, porém, essa força se tornou tão intensa que, ao entrar no organismo, o corpo tenta eliminá-la imediatamente. É por isso que surgem manchas, semelhantes a hemorragias internas.
-(25/11/1948)
-
-### 064 A Reorganização dos Deuses da Guerra e Outros (O Pecado de Venerar o Indigno)
-
-Considerando o pecado de venerar aquilo que não deve ser venerado, e o de levar outros a fazê-lo, qual é a relação atual entre os fiéis e seus deuses tutelares da terra natal, como os deuses-fera ou os deuses da guerra?
-
-Venerar o que não é digno de veneração, acreditando sinceramente estar fazendo o bem, não constitui um pecado grave. Contudo, não se pode dizer que seja algo totalmente isento de culpa; uma pequena parcela de pecado existe. A questão do deus tutelar da terra natal é diferente, pois é uma circunstância inevitável. Tais divindades existem por uma necessidade da época e funcionam como uma subprefeitura; no âmbito divino, são como administradores públicos. Portanto, mais do que uma questão de bem ou mal, sua existência é indispensável.
-
-Criminosos de guerra e outros seres indignos foram venerados por gerações. Aqueles que não deveriam ocupar posições elevadas estiveram no topo.
-
-A prática de levar as pessoas a venerar deuses da guerra foi a raiz da desordem, e agora tudo isso será devidamente reorganizado. O que estava em desacordo com o tempo, o lugar e a posição será corrigido. Estamos no momento de demolir a casa velha para construir uma nova.
-
-### 065 Sobre o Ato de Discorrer sobre os Deuses
-
-Procuro não mencionar os nomes de diversas divindades. Deus não salva apenas o Japão; Ele salva toda a humanidade. Falar apenas do Japão soa desagradável. Discutir sobre qual deus fez isto ou aquilo não passa de um jogo de palavras, uma espécie de mitologia que não convence o homem moderno. O declínio das religiões estabelecidas se deve justamente à sua incompatibilidade com a mentalidade atual. Confiar nelas hoje seria como abandonar um automóvel para andar de palanquim.
-
-A religião não deve apenas salvar o homem contemporâneo, mas também dar um passo à frente para guiá-lo. Como tudo se inicia no Mundo Espiritual, o Plano Divino deve vir primeiro. Por isso, rompo com os moldes tradicionais da religião, e tanto minha forma de ensinar quanto meus métodos são diferentes. É preciso guiar o mundo de uma maneira que todos possam compreender.
-
-Discorrer sobre as particularidades de cada deus não tem aplicação prática na vida cotidiana. Esses eram assuntos para a época de Shaka, quando as dificuldades de subsistência não eram tão prementes. Hoje, por mais que se trabalhe, mal se consegue comer. Se alguém passasse metade do dia meditando, seria consumido pela luta pelo sustento. Foi por essa razão que criei o Zengensanji.
-
-Deus se alegra ao ver as mulheres dançando em belos trajes.
-(1948)
-
-### 066 Sobre Amaterasu-Oomikami, Kunitokotachi-no-Mikoto e o Conhecimento Mitológico
-
-Qual a relação entre Amaterasu-Oomikami e Kunitokotachi-no-Mikoto?
-
-Tenho por princípio não responder a esse tipo de pergunta, pois pertence ao domínio do Xintoísmo. Nossa Igreja é uma religião progressista, destinada a salvar a humanidade na era vindoura, e tais questões não têm relevância para essa missão. Saber a resposta não impacta o pensamento moderno nem a vida social; não passa de um passatempo intelectual.
-
-Esses conceitos foram utilizados para nutrir a ideologia do "país dos deuses", instrumentalizada pelos militares japoneses. Se isso se tornasse conhecido no exterior, causaria uma má impressão, levantando suspeitas de que tal pensamento arrogante ainda persiste.
-
-Mesmo que o Paraíso Terrestre se concretize, saber ou não sobre isso não fará diferença alguma. É mais proveitoso conhecer as questões verdadeiramente cruciais.
-
-Tudo deve ser abordado sob uma perspectiva universalista.
-
-### 067 O Nome e a Bandeira do Japão
-
-Aos olhos de Deus, o nome "Japão" (Nihon) possui algum significado especial? Há também a teoria de que a bandeira Hinomaru simboliza a conquista. Qual é o verdadeiro significado da bandeira nacional? Solicito vossa orientação.
-
-O Japão se localiza no Extremo Oriente, e como o Sol nasce no leste, o nome "Nihon" (日の本) pode ser interpretado como "a origem do Sol". Consequentemente, a bandeira Hinomaru foi criada com esse mesmo significado. Ela não é tão antiga; foi concebida inicialmente pelo clã Shimazu de Satsuma, um pouco antes da Era Meiji. Frequentemente, a lenda de Amaterasu-Oomikami foi usada para propagar a ideia de que o Japão, sendo a origem do Sol, era uma nação sagrada. Contudo, isso não procede, pois implicaria que o Sol ilumina apenas o Japão e não o resto do mundo. Foi uma lógica forçada, usada de forma egoísta pelos militares.
-(18/01/1949)
-
----
-
-# Compêndio de Milagres e Fenômenos Singulares: Animais e Plantas
-
-**Categoria:** kouwa | **Ano:** - | **Fonte:** -
-
-## Compêndio de Milagres e Fenômenos Singulares: Animais e Plantas
-
-**124. O rouxinol que adentrou o recinto (Um fenômeno ocorrido à época da inauguração do Templo Oujin-dou)**
-
-*Pergunta:* Na residência de minha irmã, um rouxinol entrou voando no quarto. Nós o soltamos, mas, dias depois, ele retornou e não quis mais partir. Haveria algum significado nisso?
-
-*Resposta:* Trata-se de um acontecimento sobremaneira auspicioso. Significa que, no Mundo Espiritual, o Paraíso se manifestou. Em ocasiões anteriores, já houve relatos de se ouvir o canto de um rouxinol sem que houvesse pássaro algum por perto.
-
-Foi exatamente o que ocorreu quando o Grande Mestre inaugurou o primeiro Johrei Center em Koujimachi. É, sem dúvida, um excelente presságio.
-
-**125. O faisão branco e o bom presságio**
-
-*Pergunta:* Segundo o jornal Nihon Keizai Shimbun de 24 de dezembro de 1949, moradores de uma aldeia no distrito de Nishiyatsushiro, na província de Yamanashi, descobriram três faisões brancos, entre machos e fêmeas, vivendo em harmonia na floresta. Os aldeões, muito contentes, interpretaram o fato como um sinal de que “algo bom certamente acontecerá”. Um ancião local, recordando o episódio histórico em que o imperador Koutoku mudou o nome da era ao avistar um faisão branco, sugeriu que talvez fosse o momento de mudar também a era “Showa”. Haveria alguma relação espiritual entre o faisão branco e os bons augúrios? (Adendo: No mesmo mês, ocorreu um grande incêndio no distrito de Yatsushiro).
-
-*Resposta:* Tudo o que é branco é benéfico. Por essa razão, o faisão branco é igualmente um sinal alvissareiro. O mesmo se aplica a serpentes, raposas e cavalos brancos. A cor branca é invariavelmente um bom presságio.
-
-**126. O santuário incendiado por uma galinha**
-
-*Pergunta:* Na casa da senhora Shizu Uwahakada, cuja família foi de grandes agricultores, uma galinha pegou um graveto em chamas e o levou até o santuário do deus protetor, que era cultuado há gerações, incendiando-o por completo. A família, que antes era de seis filhos, hoje se resume à filha mais nova, Shizu, que é viúva, não tem filhos e cujo filho adotivo fugiu. Sua vida é de extrema infelicidade. Qual seria a relação entre a galinha que ateou fogo e o deus protetor?
-
-*Resposta:* O espírito de um antepassado reencarnou como galinha. O ato foi praticado com o propósito de apagar seus pecados, sendo, portanto, algo positivo. Havia na família pecados de tal magnitude que justificavam a extinção de sua linhagem.
-
-**127. A queda dos caquis, a morte do coelho e as dores de estômago da família (A misteriosa morte do coelho)**
-
-*Pergunta:* Na casa de um fiel, existe o costume de ofertar caquis e castanhas no período de Finados. Certo dia, após a oferenda, dois caquis caíram. Pouco depois, um terceiro caiu, atingiu a borda do prato e partiu-se ao meio. Quando os dois primeiros frutos caíram, dois filhotes de coelho morreram; após a queda do terceiro, morreu mais um. Na mesma data, três pessoas da família sentiram, uma após a outra, fortes dores de estômago. Duas se recuperaram sem maiores problemas, mas uma menina de catorze anos continua com dores persistentes. O sofrimento alivia com Johrei, mas retorna em seguida, e essa situação já dura uma semana, com pouca vontade de se alimentar. (No oratório familiar, cultuamos a imagem da Kannon (観音) em biombo e todos os antepassados que devem ser cultuados. No entanto, ao lado, há uma estátua de Kannon (観音) de metal e um livro com ofudas da Kannon (観音) colecionados pelo avô em suas peregrinações. O chefe da família e outras quatro pessoas receberam a permissão de ministrar Johrei). Qual seria a explicação para esses acontecimentos?
-
-*Resposta:* Existe uma relação entre os caquis e os coelhos. Um antepassado reencarnou como coelho, e a queda dos frutos foi um sinal para comunicar que não se tratava de um animal comum. Como a família não compreendeu a mensagem, surgiram as dores de estômago. A dor da menina de catorze anos é causada pela influência de um espírito com forte apego.
-
-A estátua de Kannon (観音) feita de metal não deve ser colocada no oratório familiar; deve ser consagrada em um local externo.
-
-Os antepassados foram todos salvos e renasceram como seres humanos. O ocorrido foi uma forma de expressarem sua gratidão. O livro de ofudas da Kannon (観音) deve ser posicionado do lado direito do altar.
-
-**128. A lebre e o luar**
-
-*Pergunta:* Como se explica o fato de uma lebre, mesmo trancada em uma caixa, conseguir desaparecer em noite de lua cheia se um único raio de luar a atingir? (Consta que isso ocorre apenas com lebres selvagens, e não com coelhos domésticos).
-
-*Resposta:* É a primeira vez que ouço tal relato. Não sei dizer. Com as serpentes, contudo, o fenômeno ocorre, pois elas possuem a capacidade de se expandir e contrair livremente, algo que eu mesmo presenciei em minha infância. O mesmo acontece com as raposas, que podem espiritualizar a matéria e materializar o espírito com liberdade.
-
-Diz-se que a lua e os coelhos possuem uma conexão, o que é verdade. Todavia, não tenho certeza se o fato narrado é verídico ou não. A rigor, não deveria ser algo possível. As serpentes, de fato, expandem-se e contraem-se livremente, podendo também se espiritualizar.
-
-**129. Gatos de estimação não prosperam**
-
-*Pergunta:* Gosto muito de gatos e sempre recolho animais abandonados para criar, mas, após cerca de seis meses, eles acabam morrendo ou desaparecendo. Qual seria o motivo?
-
-*Resposta:* Em uma vida passada, a pessoa esteve no mundo das bestas, na condição de gato. Pode haver algo desagradável no ambiente, ou talvez exista um espírito que, por ciúme, se oponha ao carinho dedicado aos felinos. É também possível que um espírito avesso a gatos os expulse. Provavelmente, trata-se de circunstâncias espirituais complexas dessa natureza.
-
-**130. Lugar onde capinar causa furúnculos (O espírito de um inseto)**
-
-*Pergunta:* Sempre que capino a grama de um determinado local, invariavelmente me aparece um furúnculo que causa grande sofrimento. Qual seria a razão?
-
-*Resposta:* Creio que nesse local habita um espírito semelhante a um inseto que, contrariado com a remoção da relva, causa esse mal. A solução para o problema virá se, antes de iniciar o trabalho, for entoada a oração Amatsu-Norito.
-
-**131. Lesmas no leito de morte, no túmulo e no arroz festivo (Reencarnação)**
-
-*Pergunta:* Quando a esposa de um senhor estava em seu leito de enfermidade, uma lesma de grande porte apareceu junto a seu travesseiro. Após o falecimento dela, ao visitarem o túmulo, encontraram uma lesma idêntica à que estava no quarto. Em outra ocasião, ao prepararem arroz com feijão para oferendar a Deus, uma multidão de lesmas cobriu completamente o alimento. Pouco tempo depois, todas haviam desaparecido. Haveria algum significado nisso?
-
-*Resposta:* A lesma e a falecida senhora estão relacionadas. Um filho ou parente dela se encontra na condição de lesma. O espírito de um familiar incorporou no animal. A lesma, que é o espírito dessa criança, possui subordinados no mundo das lesmas e os trouxe para se alimentarem do arroz. Em suma, ou o espírito da criança renasceu como lesma, ou, mesmo tendo renascido como ser humano, não conseguiu se desvencilhar de seu carma ligado a esses animais e, por isso, incorporou em um deles.
-
-**132. O bagre que cura os dentes**
-
-*Pergunta:* Em certo santuário, cria-se um bagre, e dizem que capturá-lo ou matá-lo atrai uma maldição. O local é famoso porque as preces ali feitas curam dores de dente. Em outro lugar, comenta-se que enterrar uma serpente morta previne dores de dente, e há quem se alegre por ter comprovado sua eficácia. Haveria alguma relação entre serpentes, bagres e dores de dente?
-
-*Resposta:* Encontrar uma serpente morta é algo praticamente impossível, de modo que, mesmo que o método fosse eficaz, seria impraticável. Quanto ao bagre, trata-se de um ser humano que reencarnou nessa forma e está sendo venerado. Provavelmente, foi um funcionário do governo ou algo do gênero. Por meio da virtude de ajudar as pessoas, ele poderá renascer como ser humano. É por essa razão que concede graças. A especialidade desse bagre é a cura de enfermidades dentárias. Contudo, fenômenos dessa natureza não perduram. É um caso semelhante ao do Togenuki Jizou, de Sugamo, em Tóquio.
-
-**133. A chegada da carpa e o desaparecimento dos peixes-dourados**
-
-*Pergunta:* No dia 21 de maio deste ano, notei algo se debatendo na base de um pinheiro em meu jardim e, ao verificar, vi que era uma carpa. Imediatamente a coloquei no poço. No entanto, desde então, quase todos os peixes-dourados que ali viviam morreram. Agora, apenas a carpa nada vigorosamente. Isso teria algum significado?
-
-*Resposta:* Os peixes-dourados foram subjugados pela carpa. A carpa não é um peixe comum; ela é o dragão do mundo dos peixes. Trata-se de um acontecimento sobremaneira auspicioso. Foi uma ação de um antepassado.
-
-Existe uma representação chamada Touryuu Kannon (登龍観音). A carpa é a Kannon (観音) dos peixes.
-
-**134. Enguias que preferem cestas de uso funerário**
-
-*Pergunta:* Na região de Mutsiai, na província de Yamanashi, utiliza-se um apetrecho chamado “yana” para capturar enguias que descem o rio. Diz-se que, se uma tabuleta funerária de madeira flutuar para dentro da armadilha, a pesca de enguias é garantida. Afirma-se também que as cestas feitas com bambu utilizado em funerais são excepcionalmente eficazes. Em contrapartida, se no caminho para a pescaria o pescador se deparar com uma celebração, a captura será malograda. Qual seria a relação espiritual por trás desses fatos?
-
-*Resposta:* Aparentemente, as enguias são atraídas pelo odor da morte e se reúnem em sua presença.
-
-**135. Ameixeira floresce no dia 18 (Após ingressar na Fé)**
-
-*Pergunta:* Ingressei na Fé em 16 de novembro do ano passado. O motivo foi que, após sofrer por seis meses com diversas doenças que nem os médicos conseguiam resolver, melhorei visivelmente com o Johrei. Dois dias após meu ingresso, no dia 18, um único botão de ameixa vermelha desabrochou no jardim. Posteriormente, em 18 de dezembro, em outra ameixeira, desabrochou uma única flor de ameixa branca. O que significa uma única flor desabrochar por duas vezes justamente no dia de Kannon (観音)?
-
-*Resposta:* No Mundo Espiritual, os antepassados se regozijam e celebram. Eles ponderaram sobre diversas formas de manifestar essa alegria e fizeram com que a ameixeira florescesse. Há casos em que se ouve o canto de um rouxinol sem que haja pássaro algum. É deveras singular que uma única flor vermelha tenha desabrochado primeiro, em novembro. Foi uma grande celebração. Em breve, algo bom acontecerá.
-
-**136. A segunda floração da ameixeira**
-
-*Pergunta:* Tenho uma ameixeira plantada à direita, na frente de casa. Ela floresceu em meados de fevereiro, e as flores caíram. Recentemente, contudo, dois ou três botões de flores brancas e de pétalas duplas desabrocharam. Normalmente, as flores dessa árvore são cor-de-rosa. Além disso, um pessegueiro nos fundos, que também já havia florescido e perdido suas flores, ostenta agora uma única e magnífica flor solitária. A flor do pessegueiro parece ser tardia, mas as da ameixeira são de um tipo completamente diferente. Haveria algum significado nisso?
-
-*Resposta:* Trata-se de um bom presságio. A ameixeira é uma árvore de natureza espiritual e, quando algo auspicioso está para ocorrer, ela sempre o anuncia. Todas as árvores são seres vivos.
-
----
-
-# Coleção de ensaios do Reverendo Jikan Okada
-
-**Categoria:** kouwa | **Ano:** 昭和27(1952)年3月25日 | **Fonte:** Chijo Tengoku
-
-## Coleção de ensaios do Reverendo Jikan Okada
-### Busca de Ensinamentos: Compêndio da Fé (Edição Especial) 1 | 001-015
-
-## 001 O Verdadeiro Espírito Japonês (O Espírito Mundial e a Antiga Moralidade das Nações)
-
-Em que consiste o verdadeiro espírito japonês?
-
-Até o presente, o verdadeiro espírito japonês não existia. Ele surgirá a partir de agora. O ideograma de “Yamato” (大和) é composto por “grande” e “harmonia”. Contudo, a prática da guerra revela um espírito de “grande conflito”. Cada nação possui, efetivamente, seu próprio espírito: os Estados Unidos têm o espírito americano, a Alemanha tem o espírito alemão. O espírito japonês, tal como foi concebido até hoje, é perigoso, excessivamente.
-
-O Bushido, por exemplo, não passou de uma criação dos detentores do poder para a manutenção de seus postos. Propagava-se que o vínculo entre pais e filhos dura uma geração; entre marido e mulher, duas; e entre senhor e servo, três, estabelecendo a relação de suserania como a mais profunda de todas. Exaltava-se o ato de morrer diante do cavalo de seu senhor. Embora haja uma lógica nisso, pois o senhor provia o sustento por toda uma vida, não há qualquer nobreza em tal ato. Na verdade, as vinganças são ainda piores. Trata-se de um ciclo vicioso no qual se consome uma vida inteira com o único propósito de cometer um assassinato. Nada pode ser mais equivocado. A paz jamais será alcançada enquanto não se erradicar a ideologia da vingança. No entanto, tal mentalidade foi imposta como o mais elevado código moral. O chamado espírito japonês foi instrumentalizado para esse fim, utilizado para incitar e encorajar o povo.
-
-Sempre nutri aversão por histórias como o *Chushingura* e por figuras como Kusunoki Masashige e Yoshida Shoin. Considero-as excessivamente tolas. Embora Kusunoki possa ter tido boas intenções, o resultado de seus atos foi nefasto, algo já previsível. Mesmo que se trate de lealdade, foi uma lealdade desprovida de sabedoria.
-
-De agora em diante, o que se faz necessário é um espírito mundial. Até então, o espírito japonês era como a moeda do Japão, de circulação restrita. É imperativo que ele se torne universal. (23 de outubro de 1949)
-
-Nota: Em “O Espírito do Pinheiro”, do livro “Paraíso Terrestre” nº 34 (25 de março de 1952), consta o seguinte relato: “Naquela época, Meishu-Sama visitava com frequência a residência do Sr. Ryuzo Ochi, em Oimachi, para proferir palestras. Guardo até hoje na memória palavras inesquecíveis que ouvi em uma dessas ocasiões. Alguém Lhe perguntou: ‘O que é o espírito Yamato?’, ao que Ele respondeu prontamente: ‘O espírito Yamato é o espírito do pinheiro. O espírito do pinheiro é o espírito que aguarda a estação certa e representa uma sinceridade que jamais muda’. Ao ouvir essa resposta, fui tomado por uma profunda impressão, como se a essência da fé tivesse sido revelada em uma única frase.”
-
-## 002 O Verdadeiro Espírito Japonês (O Crisântemo no Portão Selado de Jerusalém)
-
-Qual seria a natureza do verdadeiro espírito japonês?
-
-Até hoje, embora tenha existido, manifestou-se apenas em uma ínfima parcela, a ponto de se poder afirmar que era praticamente inexistente. O povo Yamato é, por essência, avesso à guerra e detesta o porte de armas. Eu mesmo sinto repulsa ao ver uma arma. Atualmente, em cada cem japoneses, não há sequer dez de linhagem pura; os demais são de etnia chinesa e coreana. Estes povos têm inclinação para o conflito. Dificilmente se encontra um militar de origem genuinamente japonesa. Constitui, portanto, um grande estelionato ter definido tal índole como o “espírito japonês”. Foram os imigrantes que transformaram o Japão em uma nação derrotada. A dinastia de Izumo... Ninigi-no-Mikoto... eram do povo Han da China. Esta é uma consideração pessoal, que não afirmo ser conclusiva, mas, das doze tribos de Israel, uma delas partiu em direção ao Oriente. Em Jerusalém, há portões nos quatro pontos cardeais, mas um deles permanece selado, e sobre ele se encontra um brasão com um crisântemo de dezesseis pétalas. Creio que esse povo chegou à China durante a dinastia Han Anterior e, não encontrando espaço para expandir sua influência, migrou para o Japão. Evidência disso são as armas da antiguidade, semelhantes às do Ocidente. O verdadeiro espírito japonês emergirá a partir de agora. É um povo pacífico, que ama profundamente a paz e a arte. (13 de abril de 1949)
-
-## 003 Sobre a Concretização
-
-A concretização não significaria o início de um declínio subsequente?
-
-A concretização plena não existe; existem apenas obras inacabadas. O que há é uma concretização temporária, condicionada pelo tempo. (A concretização eterna existe para Deus, mas não para o ser humano). Nada criado pelo homem é eterno. A criação e a destruição se repetem ciclicamente, e é por meio desse processo que ocorre o progresso.
-
-As criações de Deus, contudo, são eternas, como é o caso do pinheiro. (23 de fevereiro de 1949)
-
-## 004 O Indivíduo Verdadeiramente Saudável e a Perfeição
-
-Qual é a diferença entre o ser humano perfeito e o indivíduo verdadeiramente saudável?
-
-Não há diferença. Quando falamos em saúde, não nos referimos apenas ao corpo físico. O ser humano perfeito — e aqui reside a lógica — deve ser saudável não apenas na carne, mas também no espírito. A aparente distinção surge porque se observam corpo e espírito separadamente. Um assaltante, por exemplo, pode ter um corpo robusto, mas seu espírito é o de um doente.
-
-É impossível tornar-se um ser humano perfeito, mas o esforço para se aproximar dessa perfeição, passo a passo, representa o que há de mais sublime na condição humana. E isso é suficiente. Aquele que possui tal disposição mental comete poucos erros.
-
-A perfeição absoluta é inatingível. É no esforço de se aproximar dela, passo a passo, que reside o progresso e a transformação. Se a perfeição fosse alcançada, o avanço cessaria, e a humanidade talvez até se extinguisse, pois o progresso cultural também desapareceria.
-
-Se os seres humanos consumissem apenas nutrientes perfeitos, pereceriam. O organismo humano foi projetado para transformar o imperfeito em perfeito; portanto, se ingerisse apenas o que já é perfeito, ele se anularia. A atividade de transformar o imperfeito em perfeito é a própria essência da vida. A nutrição moderna, contudo, segue o caminho inverso. Uma mãe sem leite, por exemplo, é orientada a beber leite. Ora, quem se alimenta de nutrientes "perfeitos" enfraquece. Certa vez, a medicina realizou um experimento com galinhas, alimentando-as com uma ração nutricionalmente completa, e elas morreram em dois dias. (4 de novembro de 1948)
-
-## 005 O Caminho que Mais Agrada a Deus
-
-Como devo proceder para ser mais estimado por Kannon-Sama?
-
-O caminho é salvar o maior número possível de pessoas. Como o ser humano não possui poder para tal, deve conduzi-las ao local onde a salvação lhes é concedida.
-
-A melhor maneira é incentivar muitas pessoas a receber os cursos de formação. Em seguida, deve-se empenhar a própria força em atividades que propiciem a salvação de muitos. Agindo assim, você agradará imensamente a Kannon (観音), que lhe concederá uma grande recompensa. E as recompensas de Kannon (観音) são imensas.
-
-## 006 O Mistério das Oferendas e o que Agrada a Deus
-
-Gostaria de fazer uma pergunta a respeito do Eixo de Luz Divina de Komyō Nyorai que recebi em 1941.
-1. Todas as vezes que preparo arroz com feijão azuki e o oferto, algo ruim acontece.
-2. O mesmo ocorre quando oferto algo raro ou especial.
-3. Quando oferto flores a Kannon-Sama, sonho todas as noites que as estou comendo.
-4. Certa vez, sonhei que duas serpentes brancas saíam do ventre de Kannon-Sama, e, depois disso, tive uma sucessão de dias ruins. Posteriormente, durante uma reforma em casa, passei a entronizar o Eixo de Luz enrolado até a altura do abdômen da imagem, e os acontecimentos ruins cessaram. Desde então, recebi boas notícias e diversas outras comunicações.
-5. Desejo muito agradar a Kannon-Sama. Como devo proceder?
-
-Que tipo de coisas boas ocorreram? É comum que tais fatos precedam acontecimentos positivos. Se algo ruim acontecer, relate-o. Existem diversos tipos de ocorrências, boas e ruins, mas o importante é que, no cômputo geral, sua vida esteja melhorando passo a passo.
-
-Fundamentalmente, o que mais agrada a Kannon (観音) é salvar o maior número possível de pessoas.
-
-Embora seja delicado dizer, ofertar donativos para a Obra de Kannon (観音) também é uma boa prática. (5 de junho de 1949)
-
-## 007 A Fé Utilitarista e a Virtude Oculta
-
-Uma pessoa que, partindo de uma fé utilitarista, almeja o autoaperfeiçoamento pode, por vezes, obter bons resultados ao salvar outras pessoas. Qual será a condição espiritual dessa pessoa no Mundo Espiritual após a morte?
-
-A fé utilitarista, evidentemente, não é a forma genuína de crença, mas, ainda assim, se os resultados forem benéficos, ela tem seu valor.
-
-A fé praticada por tais pessoas, contudo, não lhes confere mérito no Mundo Espiritual. Isso ocorre porque o benefício utilitário já constitui a recompensa no mundo material. É a virtude oculta — ou seja, o bem praticado sem o conhecimento alheio — que se torna grandiosa no Mundo Espiritual. Placas de doação em templos, por exemplo, são louvadas pelos homens e já representam uma recompensa, de modo que seu valor no Mundo Espiritual é diminuto. (24 de outubro de 1948)
-
-## 008 A Virtude Oculta
-
-Qual o significado de acumular virtude, ou virtude oculta?
-
-Virtude é agir em prol do próximo e da sociedade. Praticar muitos atos dessa natureza significa acumular virtude.
-
-Realizar caridade com dinheiro é uma boa ação, mas não é algo sustentável e não concede a felicidade eterna que perdura após a morte.
-
-Quando se acumula virtude, uma miríade de espíritos agradecidos se aproxima, e o espírito da pessoa se fortalece. No Xintoísmo, isso é chamado de *fuyu*, que significa o fortalecimento da alma.
-
-À medida que a alma se fortalece, sua luz aumenta. Consequentemente, a pessoa ascende a níveis mais elevados no Mundo Espiritual e alcança a felicidade.
-
-A virtude oculta consiste em praticar o bem sem que ninguém saiba. As placas com nomes de doadores em templos e santuários são uma virtude manifesta. Pelo bem praticado em segredo, Deus concede uma recompensa.
-
-O ser humano tem uma natureza que o faz sentir-se mal se suas boas ações não forem reconhecidas. Todavia, pela virtude oculta, Deus concede uma recompensa muitas vezes maior.
-
-## 009 Solução para a Timidez, Fortalecimento da Alma: Virtude Oculta e o Caminho para Receber Graças
-
-Sou um estudante de 27 anos, e desde que nasci sou tímido e tenho medo de interagir com as pessoas. Recebi a formação inicial em dezembro de 1944, mas essa característica da minha personalidade parece incorrigível. Haveria alguma forma de me tornar mais forte?
-
-A timidez é um sinal de que a alma é tênue e fraca. Quando diversas influências chegam por meio das linhas espirituais, a alma se amedronta.
-
-O ideal é acumular virtude oculta para fortalecer a alma.
-
-Uma árvore com raízes profundas não teme ventos fortes; da mesma forma, se a alma for forte e robusta, não se intimidará. Conforme a fé se aprofunda, esse problema desaparece. Quando a pessoa deixa de confiar em si mesma e passa a confiar firmemente em Deus, a timidez cessa.
-
-É preciso fortalecer a alma ajudando as pessoas e recebendo sua gratidão.
-
-Apenas ingressar na fé não resolve nada. Ingressar na fé significa aprender o método para salvar pessoas; é apenas cruzar o portão de entrada. É necessário adentrar os aposentos principais. Somente ao salvar o próximo é que se recebem as verdadeiras graças.
-
-## 010 A Verdade Espiritual sobre a Recompensa das Boas Ações e as Duas Formas de Purificação do Pecado
-
-Quando praticamos boas ou más ações no mundo físico, a recompensa se manifesta apenas aqui ou ela primeiro se reflete em nossos antepassados no Mundo Espiritual para depois retornar a nós como virtude ou infortúnio?
-
-Existem diversas maneiras, mas, em geral, o fato chega ao conhecimento de Deus. Em seguida, uma ordem é transmitida aos antepassados ou ao espírito protetor principal (que geralmente é um espírito ancestral). Dependendo da magnitude do ato — grande, médio ou pequeno —, a comunicação pode ir diretamente a Deus ou a uma de Suas hierarquias. Existem divindades responsáveis pelos fenômenos naturais, outras pelos assuntos humanos, e o curso normal é que a informação chegue ao encarregado dos assuntos humanos, que então emite uma ordem. A relação entre o Mundo Espiritual e o mundo material funciona, em linhas gerais, da seguinte forma: um ato ruim gera uma mácula, uma impureza, e então um processo de purificação se inicia naturalmente. Esse processo pode ser desencadeado por Deus ou ocorrer por uma ação natural. É um assunto complexo, pois as questões do Mundo Espiritual são verdadeiramente sutis e misteriosas.
-
-## 011 Deus não Castiga; Ele Apenas Retira Sua Proteção Diante da Rebeldia (Sobre a Retórica da Fé Coercitiva)
-
-Gostaria de saber se o seguinte exemplo de fé coercitiva é correto: “Você é livre para abandonar esta fé. Contudo, se o fizer, não sei quais serão as consequências. Apenas Deus sabe. Pense bem.” Isso dito a um fiel que constantemente ouve de seu orientador e de membros mais antigos que, ao se rebelar contra Deus, receberá tal e qual castigo.
-
-Essa abordagem tem pontos corretos e incorretos.
-
-Afirmar que a fé é uma escolha livre está certo, mas a advertência sobre as consequências, embora um tanto fria, não está equivocada; é apenas ríspida.
-
-O equívoco reside na ideia de que Deus impõe castigos, pois Ele não o faz. O que ocorre é que, com a perda da proteção Divina, a pessoa se torna vulnerável à influência de espíritos malignos. É essa vulnerabilidade que se assemelha a um castigo. Kannon-Sama é a própria personificação da misericórdia; Ela jamais recrimina alguém por seus atos, sejam bons ou maus.
-
-Contudo, ao lhe darmos as costas, Sua proteção se retira. Por essa razão, a pessoa fica suscetível ao ataque de outras entidades malignas. Portanto, quem inflige o castigo é esse outro lado, o lado do mal. (28 de outubro de 1948)
-
-## 012 Sobre a Repreensão das Divindades (Processo de Purificação)
-
-As lesões ou doenças que por vezes sofremos devido à repreensão das diversas divindades devem ser consideradas um processo de purificação ou têm um significado distinto?
-
-A ideia de “repreensão das diversas divindades” é equivocada. Na maioria das vezes, trata-se de uma repreensão do próprio espírito protetor.
-
-O espírito protetor atua como um representante dos antepassados e, para impedir que seus descendentes acumulem mais pecados, ele os repreende, a fim de que não repitam o erro.
-
-Contudo, à medida que a fé avança, tais ocorrências se tornam cada vez mais raras. O espírito protetor também atua para reduzir gradualmente os muitos pecados acumulados.
-
-## 013 A Provação Divina (O Desapego na Desilusão Amorosa)
-
-Durante a Era da Noite, a vida era repleta de sofrimentos. Podemos considerar que isso não se devia apenas ao fato de ser a “Era da Noite”, mas também a provações divinas impostas aos seres humanos? Ademais, na “Era do Dia”, continuarão a existir, de alguma forma, sofrimentos e tristezas como provações de Deus para o aprimoramento humano — como a dor de uma desilusão amorosa —, a fim de nos conferir profundidade e sensibilidade?
-
-Na verdade, não existe algo como “provação divina”. Essa é uma justificativa criada pelos seres humanos. Quando Deus deseja conceder algo bom a uma pessoa, mas seu recipiente está sujo, Ele primeiro o limpa. A dor sentida durante essa limpeza é o que se chama de provação, mas, na realidade, trata-se de purificação.
-
-A sua segunda suposição está incorreta. O sofrimento de uma desilusão amorosa é um tormento autoinfligido (semelhante ao de quem comete suicídio). A pessoa sofre por apego. Basta que ela se liberte desse apego. (Quanto mais elevado o espírito, mais rapidamente ele se liberta do apego. Eu, por exemplo, sou rápido em me conformar. Não há nada que se possa fazer sobre o que já passou; o importante é ter cuidado daqui para frente).
-
-A desilusão amorosa é um sofrimento que a própria pessoa se impõe por meio do apego, não sendo, portanto, uma questão digna de nota. (8 de janeiro de 1949)
-
-## 014 O Método Divino: O Princípio da Constância e o Método dos Fracassados
-
-O método de Deus é extremamente ordenado. O progresso ocorre de forma gradual, como o crescimento de uma planta.
-
-As pessoas que fracassam são, em sua maioria, aquelas que buscam resultados imediatos e grandiosos. Quando ouço seus planos, percebo que sempre envolvem empreendimentos de grande escala.
-
-É preciso seguir o princípio da constância e do trabalho diligente. Observe um lenhador: ele trabalha sem pressa.
-
-Pessoas que começam com grande ímpeto logo se cansam e desistem. (24 de outubro de 1949)
-
-## 015 Quanto Mais Lento, Melhor (Uma Verdade Universal)
-
-Este ano, três pessoas semearam trigo no mesmo campo de um hectare: um membro antigo, um membro recente e uma pessoa que não pertence à nossa Fé. Os brotos da sementeira da pessoa de fora da Fé germinaram primeiro, seguidos pelos do membro recente e, por último, pelos do membro antigo. Qual a explicação para esse fato?
-
-É melhor que não germine rapidamente. Tudo o que brota depressa demais não é bom. A diferença se tornará evidente na fase de crescimento. No trabalho também, pessoas que compreendem as coisas de forma apressada não são confiáveis. Um provérbio britânico diz: “Devagar e sempre”, uma máxima de grande sabedoria. Eu mesmo sou adepto da deliberação cuidadosa seguida pela ação decidida. Essa verdade é comum a todas as coisas. O mesmo se aplica às colheitas. (27 de dezembro de 1949)
 
 ---
 

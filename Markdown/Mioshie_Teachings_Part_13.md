@@ -1,8 +1,24 @@
 # Mioshie_Teachings - Part 13
 
+# A Natureza da Cultura Contemporânea
+
+**Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 現代文化とは 未発表 | **Status:** Unpublished
+
+## A Natureza da Cultura Contemporânea
+
+Conforme explanei até este momento, o leitor já deve ter compreendido que a raiz do equívoco da medicina reside em sua negligência para com as leis da Natureza. Afinal, a doença, como já mencionado, nada mais é que um processo natural destinado a expelir as toxinas que obstruem o bom funcionamento do organismo. Sendo esta uma criação Divina, o correto seria que o ser humano se submetesse a ela. Um paralelo pode ser traçado com fenômenos como as tempestades de vento e chuva ou os raios. Quando as impurezas se acumulam e adensam no mundo material e no Mundo Espiritual, geram-se miasmas nocivos aos seres vivos, desencadeando, assim, um processo de purificação. O vento dispersa tais impurezas, a chuva as lava, o sol as seca e, em casos específicos, o fogo dos raios as consome por completo. A doença humana é uma manifestação deste mesmo princípio em menor escala. Portanto, ao compreender esta lógica, torna-se evidente quão contrário à Natureza é o ato de suprimir uma enfermidade.
+
+Neste ponto, devo discorrer pormenorizadamente sobre o equívoco na relação entre a ciência e a enfermidade. Originalmente, o propósito da ciência é satisfazer as aspirações humanas, tornando a existência mais conveniente e aprazível, enriquecendo o intelecto e promovendo a felicidade. Seu domínio de atuação, contudo, é intrinsecamente delimitado. A ciência pertence ao âmbito do tangível, do material; a vida humana, por sua vez, é uma existência de natureza metafísica, que transcende o campo de estudo científico. Em outras palavras, a verdade é que a ciência opera no domínio materialista, enquanto a vida humana se encontra na esfera espiritual. Todavia, com o assombroso avanço científico da era moderna, a humanidade deixou-se iludir, caindo em uma confiança excessiva na ciência, acreditando que por meio dela tudo poderia ser solucionado. Foi assim que a ciência extrapolou suas fronteiras e invadiu o domínio do espírito, passando a tratar a própria vida humana como um objeto passível de manipulação. A medicina nasceu dessa mentalidade de insubordinação — uma verdadeira subversão da ordem natural (下剋上) — e, por conseguinte, é desnecessário reiterar que ela está fundamentalmente equivocada em sua própria concepção.
+
+Conforme o exposto, a vida humana pertence ao domínio espiritual, e quem governa essa esfera é Deus. Portanto, o extraordinário poder de cura que manifesto origina-se d’Ele, sendo natural que possa sanar qualquer enfermidade. Nisto não reside milagre algum. Contudo, o homem moderno, ao testemunhar tais curas, considera-as milagrosas, um fato verdadeiramente digno de riso. É como estar de cabeça para baixo e enxergar como torto aquilo que está perfeitamente reto. O método de cura divino que pratico é, de fato, algo sem precedentes (破天荒), jamais visto ou ouvido. Por essa razão, sua aceitação não é imediata e, a princípio, causa perplexidade. No entanto, à medida que a pessoa passa a compreender seus fundamentos, o sonho de uma longa noite subitamente se dissipa. A ilusão da medicina torna-se clara, e ela finalmente alcança um estado de paz e segurança espiritual. Sendo assim, se mesmo após a leitura desta obra, alguém ainda hesitar, vacilar e não despertar, pode-se afirmar que tal pessoa se encontra em extremo perigo, à beira do abismo da perdição.
+
+---
+
 # A Questão da Tuberculose e sua Trajetória
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 結核問題とその趨勢 | **Status:** Published
 
 ## A Questão da Tuberculose e sua Trajetória
 
@@ -132,6 +148,7 @@ Tudo isso, em última análise, decorre da falta de compreensão do povo em rela
 # O Espírito que Aprecia a Arte
 
 **Categoria:** ke | **Ano:** 昭和10(1935)年7月11日 | **Fonte:** 紫苑
+**Título Original:** 芸術 | **Status:** Published
 
 ## O Espírito que Aprecia a Arte
 
@@ -144,6 +161,7 @@ Ademais, é quando a vastidão, a elevação, a beleza e a pureza desse espírit
 # A Relação entre a Saúde e a Debilidade
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 健康と弱体 | **Status:** Unknown
 
 ## A Relação entre a Saúde e a Debilidade
 
@@ -162,6 +180,7 @@ Por fim, a quarta categoria abrange aqueles que, apesar de aparentarem uma saúd
 # O Poder Divino e a Cura das Enfermidades
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核は浄霊以外治す方法ない 未発表 | **Status:** Unpublished
 
 ## O Poder Divino e a Cura das Enfermidades
 
@@ -180,6 +199,7 @@ O equívoco fundamental da civilização moderna reside precisamente na incapaci
 # A Essência dos Benefícios Imediatos na Fé
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年5月14日 | **Fonte:** -
+**Título Original:** 現当利益 | **Status:** Published
 
 ## A Essência dos Benefícios Imediatos na Fé
 
@@ -206,6 +226,7 @@ Oh, quão ansiosamente aguardamos o dia em que a ignorância desses obstinados s
 # A Causa Espiritual da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年10月21日 | **Fonte:** Eikou
+**Título Original:** 結核の霊的原因 | **Status:** Published
 
 ## A Causa Espiritual da Tuberculose
 
@@ -245,6 +266,7 @@ Meishu-Sama, muito, muito obrigada.
 # A Necessidade da Educação Religiosa nos Presídios
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
+**Título Original:** 刑務所 | **Status:** Published
 
 ## A Necessidade da Educação Religiosa nos Presídios
 
@@ -275,6 +297,7 @@ Por fim, gostaria de acrescentar um ponto. Em cada cela do presídio, deveria ha
 # A Urgência de uma Nova Força Espiritual
 
 **Categoria:** ke | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 結論 | **Status:** Published
 
 ## A Urgência de uma Nova Força Espiritual
 
@@ -299,6 +322,7 @@ Neste ponto da história, creio não ser o único a pensar que, se não emergir 
 # A Tuberculose Não é Absolutamente Contagiosa
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 結核は絶対に伝染しない | **Status:** Published
 
 ## A Tuberculose Não é Absolutamente Contagiosa
 
@@ -339,6 +363,7 @@ Qual das duas vias devemos escolher? Evidentemente, a segunda. A formação de t
 # A Iminente Revolução na Arte de Curar
 
 **Categoria:** ke | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
+**Título Original:** 結論 | **Status:** Published
 
 ## A Iminente Revolução na Arte de Curar
 
@@ -367,6 +392,7 @@ Meu mais profundo desejo é que os médicos aprendam esta terapia e a apliquem e
 # A Influência Mental na Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 結核と精神作用 | **Status:** Published
 
 ## A Influência Mental na Tuberculose
 
@@ -395,6 +421,7 @@ Esses exemplos, portanto, permitem-nos avaliar quão poderosa é a influência d
 # O Paradoxo dos Medicamentos Modernos
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 結核と特効薬 | **Status:** Published
 
 ## O Paradoxo dos Medicamentos Modernos
 
@@ -413,6 +440,7 @@ O fato de eu ter sido capaz de desvelar uma verdade de tamanha magnitude é o si
 # A Prática da Humildade
 
 **Categoria:** ke | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 下座の行 | **Status:** Published
 
 ## A Prática da Humildade
 
@@ -431,6 +459,7 @@ Em locais de grande concentração de pessoas, como nos transportes públicos, a
 # A Verdadeira Natureza da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 結核の原因 | **Status:** Published
 
 ## A Verdadeira Natureza da Tuberculose
 
@@ -476,6 +505,7 @@ O artigo supracitado corrobora inegavelmente a minha tese. Fica demonstrado que 
 # A Arte Deve Ser Pura e Sincera
 
 **Categoria:** ke | **Ano:** 昭和8(1933)年2月 | **Fonte:** 松風
+**Título Original:** 芸術は純真なれ ・巻頭言 | **Status:** Published
 
 ## A Arte Deve Ser Pura e Sincera
 
@@ -492,6 +522,7 @@ O que verdadeiramente almejamos, e nisto penso constantemente, são obras que no
 # A Diarreia sob a Ótica da Ação Purificadora
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 下痢 | **Status:** Published
 
 ## A Diarreia sob a Ótica da Ação Purificadora
 
@@ -506,6 +537,7 @@ Passemos agora à diarreia crônica, cujos episódios podem se estender por mese
 # A Verdadeira Causa da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核と薬毒 未発表 | **Status:** Unpublished
 
 ## A Verdadeira Causa da Tuberculose
 
@@ -520,6 +552,7 @@ Tomado de espanto, e para se certificar, submeteu-se por duas vezes a exames em 
 # A Relação entre o Mundo Visível e o Invisível
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 顕幽の関係 | **Status:** Published
 
 ## A Relação entre o Mundo Visível e o Invisível
 
@@ -546,6 +579,7 @@ A seguir, abordarei outros reinos que compõem o Mundo Espiritual. Além dos Rei
 # A Tuberculose Jamais se Transmite por Contágio
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 結核は絶対に感染しない | **Status:** Published
 
 ## A Tuberculose Jamais se Transmite por Contágio
 
@@ -584,6 +618,7 @@ Por fim, talvez não exista outra doença para a qual tenham surgido tantos "med
 # A Verdadeira Natureza do Escarro Sanguinolento e da Hemoptise
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 血痰及び喀血 | **Status:** Published
 
 ## A Verdadeira Natureza do Escarro Sanguinolento e da Hemoptise
 
@@ -604,6 +639,7 @@ Nesse sentido, há um conhecimento fundamental a ser observado. Nos casos comuns
 # A Saúde como Alicerce para o Paraíso Terrestre
 
 **Categoria:** ke | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 健康による天国化 自観叢書10編 | **Status:** Published
 
 ## A Saúde como Alicerce para o Paraíso Terrestre
 
@@ -626,6 +662,7 @@ Diante desse quadro, tanto a medicina, com todos os seus avanços, quanto as rel
 # A Solução Definitiva para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 結核解決策 | **Status:** Published
 
 ## A Solução Definitiva para a Tuberculose
 
@@ -652,6 +689,7 @@ Por fim, declaro categoricamente: a solução para o problema da tuberculose só
 # A Ineficácia Absoluta dos Novos Fármacos para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和29(1954)年2月17日 | **Fonte:** Eikou
+**Título Original:** 結核新薬は悉く無力なり | **Status:** Published
 
 ## A Ineficácia Absoluta dos Novos Fármacos para a Tuberculose
 
@@ -685,6 +723,7 @@ Agradeço-Lhe do fundo do coração, Meishu-Sama, pela salvação que me concede
 # A Tuberculose e os Fármacos de Efeito Extraordinário
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 結核と特効薬 未発表 | **Status:** Unpublished
 
 ## A Tuberculose e os Fármacos de Efeito Extraordinário
 
@@ -705,6 +744,7 @@ A descoberta desta verdade fundamental, que me foi concedida, é o sinal inequí
 # O Derradeiro Desfecho do Avanço da Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年9月12日 | **Fonte:** Eikou
+**Título Original:** 現代医学進歩の窮極 | **Status:** Published
 
 ## O Derradeiro Desfecho do Avanço da Medicina Moderna
 
@@ -725,6 +765,7 @@ Eis a grande crise que se avizinha para as nações civilizadas. Quando esse mom
 # O Antagonismo entre o Tratamento Médico e o Johrei
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核に対する医療と浄霊 未発表 | **Status:** Unpublished
 
 ## O Antagonismo entre o Tratamento Médico e o Johrei
 
@@ -737,6 +778,7 @@ Este exemplo nos leva a uma profunda reflexão: despender vultosas somas em hosp
 # Sobre a Questão da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 結核問題 | **Status:** Published
 
 ## Sobre a Questão da Tuberculose
 
@@ -805,6 +847,7 @@ A sensação de fadiga decorre do enfraquecimento geral do organismo, causado pe
 # Manifestações Secundárias da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 結核付随病 | **Status:** Published
 
 ## Manifestações Secundárias da Tuberculose
 
@@ -836,7 +879,8 @@ Estou convicto de que, por meio destas explanações detalhadas, os senhores mé
 
 # Cântico à Saúde
 
-**Categoria:** ke | **Ano:** 昭和11(1936)年6月18日 | **Fonte:** Kenkoの歌
+**Categoria:** ke | **Ano:** 昭和11(1936)年6月18日 | **Fonte:** Kenko
+**Título Original:** 健康の歌 | **Status:** Unpublished
 
 ## Cântico à Saúde
 
@@ -863,6 +907,7 @@ Ergamos bem alto o grande estandarte e marchemos
 # Sobre o Tratamento Discriminatório da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核地獄の追放 未発表 | **Status:** Unpublished
 
 ## Sobre o Tratamento Discriminatório da Tuberculose
 
@@ -881,6 +926,7 @@ Nesse sentido, a medicina do Johrei, ao se opor frontalmente à segregação imp
 # A Saúde como Alicerce de Tudo
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年11月12日 | **Fonte:** Eikou
+**Título Original:** 健康は一切なり | **Status:** Published
 
 ## A Saúde como Alicerce de Tudo
 
@@ -907,6 +953,7 @@ Diante do exposto, torna-se claro que qualquer campo do saber – seja a religi�
 # A Terapia da Fé para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Eikou
+**Título Original:** 結核信仰療法に就いて | **Status:** Published
 
 ## A Terapia da Fé para a Tuberculose
 
@@ -927,6 +974,7 @@ Sendo o próprio Deus Supremo o autor deste plano sem precedentes, é evidente q
 # Conclusão sobre os Erros da Medicina Moderna
 
 **Categoria:** ke | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 結論 | **Status:** Published
 
 ## Conclusão sobre os Erros da Medicina Moderna
 
@@ -997,6 +1045,7 @@ Decidi que este livro não será comercializado. A razão é que julgo ser ainda
 # Sobre a comemoração da redução da mortalidade por tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年6月18日 | **Fonte:** Eikou
+**Título Original:** 結核半減記念祝いに就て | **Status:** Published
 
 ## Sobre a comemoração da redução da mortalidade por tuberculose
 
@@ -1025,6 +1074,7 @@ Em contrapartida, o Johrei de nossa Igreja atua dissolvendo e expelindo as toxin
 # Conclusão sobre Ashita no Ijutsu
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 結論 | **Status:** Published
 
 ## Conclusão sobre Ashita no Ijutsu
 
@@ -1097,6 +1147,7 @@ Por fim, decidi que esta obra não será comercializada. A razão é que conside
 # O Percurso da Tuberculose e os Equívocos Terapêuticos
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 結核の経路 | **Status:** Published
 
 ## O Percurso da Tuberculose e os Equívocos Terapêuticos
 
@@ -1113,6 +1164,7 @@ Quando um quadro febril dessa natureza se prolonga por muitos dias, o paciente d
 # A Libertação
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年1月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 解脱 | **Status:** Published
 
 ## A Libertação
 
@@ -1129,6 +1181,7 @@ O ser humano deve resignar-se quando for o momento de fazê-lo e perseverar quan
 # A Tuberculose e o Cavalo de Carroça
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年10月3日 | **Fonte:** Eikou
+**Título Original:** 結核と馬車馬 | **Status:** Published
 
 ## A Tuberculose e o Cavalo de Carroça
 
@@ -1145,6 +1198,7 @@ Portanto, se persistirem em galopar por essa senda equivocada, é certo que um d
 # A Comprovação da Cura Total da Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 結核も此通り全治する 未発表 | **Status:** Unpublished
 
 ## A Comprovação da Cura Total da Tuberculose
 
@@ -1161,6 +1215,7 @@ Todavia, como sempre afirmo, pelo fato de se tratar de uma religião, uma conqui
 # A Verdadeira Dimensão da Tuberculose no Japão
 
 **Categoria:** ke | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
+**Título Original:** 結核患者現在四百万人 | **Status:** Published
 
 ## A Verdadeira Dimensão da Tuberculose no Japão
 
@@ -1187,6 +1242,7 @@ Com base nessa projeção, a estimativa anterior de um milhão e quinhentos mil 
 # A Falácia dos Novos Medicamentos para Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和27(1952)年4月2日 | **Fonte:** Eikou
+**Título Original:** 結核新薬を嗤う | **Status:** Published
 
 ## A Falácia dos Novos Medicamentos para Tuberculose
 
@@ -1213,6 +1269,7 @@ Decorre desse princípio que, ainda que se extermine a totalidade dos micróbios
 # A Purificação Através da Diarreia
 
 **Categoria:** ke | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 下痢 | **Status:** Published
 
 ## A Purificação Através da Diarreia
 
@@ -1229,6 +1286,7 @@ Passemos agora à diarreia crônica, uma afecção que pode perdurar por meses o
 # A Edificação do Paraíso por meio da Saúde
 
 **Categoria:** ke | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
+**Título Original:** 健康による天国化 | **Status:** Published
 
 ## A Edificação do Paraíso por meio da Saúde
 
@@ -1253,6 +1311,7 @@ Acreditamos que a missão celestial que nos foi confiada é precisamente a de an
 # A Tuberculose e o Mito do Contágio
 
 **Categoria:** ke | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 結核は絶対に感染しない | **Status:** Published
 
 ## A Tuberculose e o Mito do Contágio
 
@@ -1305,6 +1364,7 @@ Qual dos caminhos devemos escolher? Evidentemente, o de formar o segundo tipo de
 # A Limitação da Medicina Moderna
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年4月9日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 医学断片集（６） | **Status:** Published
 
 ## A Limitação da Medicina Moderna
 
@@ -1317,6 +1377,7 @@ Houve, ademais, outra reportagem sobre um caso tido como raríssimo: a recupera�
 # O Esplendor da Nova Folhagem
 
 **Categoria:** mu | **Ano:** 昭和10(1935)年4月26日 | **Fonte:** 紫苑
+**Título Original:** 無題 （紫苑2号） | **Status:** Published
 
 ## O Esplendor da Nova Folhagem
 
@@ -1331,6 +1392,7 @@ Aproveitemos, pois, esta época sublime para enriquecer grandemente nosso espír
 # A Solução Desconcertante para a Tuberculose
 
 **Categoria:** ke | **Ano:** 昭和26(1951)年2月7日 | **Fonte:** Eikou
+**Título Original:** 結核なんか何でもない 阿呆文学 | **Status:** Published
 
 ## A Solução Desconcertante para a Tuberculose
 
@@ -1385,6 +1447,7 @@ Chegará o dia em que esta minha teoria será aclamada no mundo inteiro como uma
 # O Triunfo do Cultivo Natural e a Solução para a Crise Alimentar
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年12月10日 | **Fonte:** -
+**Título Original:** 無肥料栽培の勝利 悩みの食糧問題一挙に解決せん | **Status:** Published
 
 ## O Triunfo do Cultivo Natural e a Solução para a Crise Alimentar
 
@@ -1431,6 +1494,7 @@ Por fim, gostaria de ressaltar mais um ponto: nosso método de cultivo natural n
 # O incrédulo que se curva diante do milagre
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年6月20日 | **Fonte:** Eikou
+**Título Original:** 無信仰者シャッポを脱ぐ | **Status:** Published
 
 ## O incrédulo que se curva diante do milagre
 
@@ -1468,6 +1532,7 @@ Em seu nome, transmito o mais profundo agradecimento.
 # A Comprovação da Agricultura da Natureza
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年3月4日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 | **Status:** Published
 
 ## A Comprovação da Agricultura da Natureza
 
@@ -1505,6 +1570,7 @@ Apresento, a seguir, um resumo dos resultados.
 # O Edema e a Sudorese Noturna
 
 **Categoria:** mu | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 浮腫及び盗汗 | **Status:** Published
 
 ## O Edema e a Sudorese Noturna
 
@@ -1529,6 +1595,7 @@ Aproveitando o ensejo, discorrerei sobre a transpiração em geral. Via de regra
 # A Verdadeira Causa do Edema e dos Suores
 
 **Categoria:** mu | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 浮腫及び盗汗 | **Status:** Published
 
 ## A Verdadeira Causa do Edema e dos Suores
 
@@ -1551,6 +1618,7 @@ Aproveitando a oportunidade, discorrerei também sobre a transpiração em geral
 # A Gênese Espiritual dos Micróbios
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 無機から有機へ | **Status:** Published
 
 ## A Gênese Espiritual dos Micróbios
 
@@ -1577,6 +1645,7 @@ No entanto, ao examinarem as centenas de exemplos verídicos que se seguem, quem
 # O Empreendimento Cinematográfico que Deus Não Permitiu
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年 | **Fonte:** 私物語
+**Título Original:** 無信仰時代２ 未発表 | **Status:** Unpublished
 
 ## O Empreendimento Cinematográfico que Deus Não Permitiu
 
@@ -1603,6 +1672,7 @@ Ao refletir hoje sobre esses acontecimentos, compreendo com clareza que Deus, ci
 # As Religiões do Passado e a Religião do Presente
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年7月9日 | **Fonte:** -
+**Título Original:** 昔の宗教と今の宗教 | **Status:** Published
 
 ## As Religiões do Passado e a Religião do Presente
 
@@ -1621,6 +1691,7 @@ Em sua essência, o Paraíso Terrestre é o próprio mundo da arte. Eis a razão
 # A Melodia da Construção do Paraíso Terrestre
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 | **Status:** Published
 
 ## A Melodia da Construção do Paraíso Terrestre
 
@@ -1683,6 +1754,7 @@ Decidi que participarei da construção deste Paraíso Terrestre. Meu ideal de d
 # A Conduta Diante da Purificação da Tuberculose
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 医学断片集（19） | **Status:** Published
 
 ## A Conduta Diante da Purificação da Tuberculose
 
@@ -1697,6 +1769,7 @@ Somente após a febre ter desaparecido por inteiro, deve-se reintroduzir, paulat
 # O Elo entre a Ciência e o Mundo Espiritual
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 無機質界 未発表 | **Status:** Unpublished
 
 ## O Elo entre a Ciência e o Mundo Espiritual
 
@@ -1731,6 +1804,7 @@ Passemos, agora, à relação entre o mundo inorgânico e o mundo material.
 # O Primor das Tangerinas Cultivadas sem Adubo por Quarenta Anos
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年12月5日 | **Fonte:** Eikou
+**Título Original:** 無肥四十年の蜜柑 | **Status:** Published
 
 ## O Primor das Tangerinas Cultivadas sem Adubo por Quarenta Anos
 
@@ -1751,6 +1825,7 @@ Que lhes parece? Exorto os membros a darem início a essa nobre empreitada o qua
 # A Revolução da Agricultura sem Adubos
 
 **Categoria:** mu | **Ano:** 昭和23(1948)年12月1日 | **Fonte:** Chijo Tengoku
+**Título Original:** 無肥料栽培 | **Status:** Published
 
 ## A Revolução da Agricultura sem Adubos
 
@@ -1815,6 +1890,7 @@ Os inúmeros relatos de experiências práticas que se seguem a este artigo comp
 # A Origem Fundamental das Epidemias
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年8月29日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 | **Status:** Published
 
 ## A Origem Fundamental das Epidemias
 
@@ -1837,6 +1913,7 @@ Os fiéis conhecem bem estas verdades, mas, por serem de difícil compreensão p
 # A Evidência Divina do Milagre
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 無神論者よ 未発表 | **Status:** Unpublished
 
 ## A Evidência Divina do Milagre
 *Trecho inédito de “O Livro da Revolução da Medicina”, redigido em 1953*
@@ -1850,6 +1927,7 @@ Nesse sentido, sempre afirmo ser fundamental compreender, com o âmago do ser, q
 # A Condição dos que Têm Fé e dos que Não a Têm
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年3月20日 | **Fonte:** -
+**Título Original:** 無信仰と有信仰 | **Status:** Published
 
 ## A Condição dos que Têm Fé e dos que Não a Têm
 
@@ -1880,6 +1958,7 @@ Um poder salvador tão extraordinário é algo sem precedentes na história da h
 # A Rendição do Ateu
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 無神論者忽ち兜を脱ぐ 未発表 | **Status:** Unpublished
 
 ## A Rendição do Ateu
 
@@ -1896,6 +1975,7 @@ Por essa razão, a conversão de um único médico será suficiente para salvar 
 # A Causa Primordial dos Sofrimentos Sociais
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年9月26日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 | **Status:** Published
 
 ## A Causa Primordial dos Sofrimentos Sociais
 
@@ -1918,6 +1998,7 @@ Apenas externei os pensamentos que me ocorreram ao ouvir a referida transmissão
 # Sobre as Dificuldades Iniciais da Agricultura Natural
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年7月1日 | **Fonte:** 無肥料栽培法
+**Título Original:** 無肥栽培の報告を読んで 自観叢書第2篇 | **Status:** Published
 
 ## Sobre as Dificuldades Iniciais da Agricultura Natural
 
@@ -1940,6 +2021,7 @@ Esta é a agricultura da Era de Miroku (五六七の代) e este é o estado de v
 # A Queda do Capacete da Incredulidade
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
+**Título Original:** 無信仰者のカンカン兜を脱ぐ | **Status:** Published
 
 ## A Queda do Capacete da Incredulidade
 
@@ -2025,6 +2107,7 @@ Conforme nos é ensinado, doravante, empenharemos o pouco que valemos e juramos 
 # Uma Breve Análise sobre as Críticas à Agricultura sem Adubos
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年8月13日 | **Fonte:** -
+**Título Original:** 無肥料栽培の非難 寸評（光22号） 白光生 | **Status:** Published
 
 ## Uma Breve Análise sobre as Críticas à Agricultura sem Adubos
 
@@ -2039,6 +2122,7 @@ Portanto, não é equivocado considerar tais críticas como nada mais do que uma
 # A Superstição do Ateísmo e a Corrupção Social
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
+**Título Original:** 無神迷信 | **Status:** Published
 
 ## A Superstição do Ateísmo e a Corrupção Social
 
@@ -2067,6 +2151,7 @@ Resta-nos questionar por que eles caíram em tal equívoco. A resposta é clara:
 # Observações sobre o Mundo Poético
 
 **Categoria:** mu | **Ano:** 昭和6(1931)年10月1日 | **Fonte:** 瑞Hikari
+**Título Original:** 紫の焔 | **Status:** Published
 
 ## Observações sobre o Mundo Poético
 
@@ -2109,6 +2194,7 @@ E quanto à maneira de recitar os poemas? Não se poderia aprimorá-la? Algumas 
 # Proposição de um Movimento pela Ausência de Doenças
 
 **Categoria:** mu | **Ano:** - | **Fonte:** 無病運動を起せ
+**Título Original:** 無病運動を起せ | **Status:** Unpublished
 
 ## Proposição de um Movimento pela Ausência de Doenças
 
@@ -2125,6 +2211,7 @@ Se, como resultado, o número de membros crescer gradualmente para dezenas de mi
 # A Capitulação de um Ateu Irredutível
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年1月28日 | **Fonte:** Eikou
+**Título Original:** 無神論のカチカチ遂に往生す | **Status:** Published
 
 ## A Capitulação de um Ateu Irredutível
 
@@ -2181,6 +2268,7 @@ Este é o relato, ainda que redigido de forma singela, da primeira experiência 
 # Sobre o Ateísmo
 
 **Categoria:** mu | **Ano:** 昭和29(1954)年1月6日 | **Fonte:** Eikou
+**Título Original:** 無神論に就いて | **Status:** Published
 
 ## Sobre o Ateísmo
 
@@ -2215,6 +2303,7 @@ Minha missão é, portanto, extirpar essa animalidade de tais pessoas e elevá-l
 # O Perigo da Demagogia e o Desvio da Mídia
 
 **Categoria:** mu | **Ano:** 昭和24(1949)年 | **Fonte:** 〔無題〕
+**Título Original:** 〔無題〕 | **Status:** Unpublished
 
 ## O Perigo da Demagogia e o Desvio da Mídia
 
@@ -2241,6 +2330,7 @@ Cumpre-me acrescentar, a propósito, que sou um cidadão comum, sem qualquer fil
 # A Superstição dos Fertilizantes
 
 **Categoria:** mu | **Ano:** 昭和29(1954)年1月27日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 | **Status:** Published
 
 ## A Superstição dos Fertilizantes
 
@@ -2261,6 +2351,7 @@ Em contrapartida, observou-se um fenômeno surpreendente: as lavouras que, por d
 # A Onipresença das Toxinas Medicamentosas
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年10月1日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 医学断片集（22） | **Status:** Published
 
 ## A Onipresença das Toxinas Medicamentosas
 
@@ -2277,6 +2368,7 @@ Portanto, se até mesmo comigo ocorre dessa forma, é possível deduzir qual sej
 # A Descoberta que Revoluciona a Ciência e a Religião
 
 **Categoria:** mu | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 無機質界 | **Status:** Published
 
 ## A Descoberta que Revoluciona a Ciência e a Religião
 
@@ -2301,6 +2393,7 @@ Passemos, então, a examinar a relação entre o mundo anímico e o mundo materi
 # Da Matéria ao Espírito: A Conversão de um Materialista
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年4月30日 | **Fonte:** Eikou
+**Título Original:** 無神と有神 | **Status:** Published
 
 ## Da Matéria ao Espírito: A Conversão de um Materialista
 
@@ -2353,6 +2446,7 @@ Rogo para que as pessoas do mundo despertem o quanto antes e se entreguem aos br
 # Sobre o Edema e os Suores Noturnos
 
 **Categoria:** mu | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 浮腫及び盗汗 | **Status:** Published
 
 ## Sobre o Edema e os Suores Noturnos
 
@@ -2371,6 +2465,7 @@ Aproveitando o ensejo, discorrerei sobre a transpiração de modo geral. Via de 
 # A Semente da Fé em Meio à Descrença
 
 **Categoria:** mu | **Ano:** 昭和27(1952)年 | **Fonte:** 私物語
+**Título Original:** 無信仰時代１ 未発表 | **Status:** Unpublished
 
 ## A Semente da Fé em Meio à Descrença
 
@@ -2395,6 +2490,7 @@ Mesmo naquela época, quando eu era um descrente absoluto, um materialista arrai
 # A Complexa Questão do Pacifismo
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** 新宗教新聞
+**Título Original:** 難しい問題 | **Status:** Published
 
 ## A Complexa Questão do Pacifismo
 
@@ -2414,6 +2510,7 @@ Por todas essas razões, nós, religiosos, não podemos simplesmente brandir a b
 # Sobre o Edema e a Sudorese
 
 **Categoria:** mu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 浮腫及び盗汗 | **Status:** Published
 
 ## Sobre o Edema e a Sudorese
 
@@ -2432,6 +2529,7 @@ Uma vez que a sudorese noturna já foi abordada no capítulo sobre a tuberculose
 # A Ilusão dos Tratamentos Médicos Passageiros
 
 **Categoria:** mu | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
+**Título Original:** 〔無題〕 医学断片集（29） | **Status:** Published
 
 ## A Ilusão dos Tratamentos Médicos Passageiros
 
@@ -2451,7 +2549,8 @@ Muitos hão de se recordar que, há mais de uma década, houve uma moda passagei
 
 # Uma Reflexão sobre os Grandes Fundadores de Religiões
 
-**Categoria:** mu | **Ano:** - | **Fonte:** 〔無題〕
+**Categoria:** mu | **Ano:** - | **Fonte:** Kyusei
+**Título Original:** 〔無題〕 | **Status:** Unpublished
 
 ## Uma Reflexão sobre os Grandes Fundadores de Religiões
 
@@ -2466,6 +2565,7 @@ Todavia, é de se lamentar que, inegavelmente, lhes tenha faltado o poder para a
 # O Milagre da Meningite
 
 **Categoria:** no | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 脳膜炎の奇蹟 未発表 | **Status:** Unpublished
 
 ## O Milagre da Meningite
 
@@ -2482,6 +2582,7 @@ Se a isso se dá o nome de progresso da medicina, então é forçoso concluir qu
 # A Origem do Banco Nonto
 
 **Categoria:** no | **Ano:** 昭和10(1935)年2月23日 | **Fonte:** Toho no Hikari
+**Título Original:** ノントー銀行 阿呆文学 | **Status:** Published
 
 ## A Origem do Banco Nonto
 
@@ -2498,6 +2599,7 @@ Eis, portanto, a verdadeira história e as circunstâncias que deram origem ao c
 # A Grande Revolução Agrícola
 
 **Categoria:** no | **Ano:** 昭和25(1950)年5月20日 | **Fonte:** Kyusei
+**Título Original:** 農業の大革命 飯米十割増産は易々たり | **Status:** Published
 
 ## A Grande Revolução Agrícola
 
@@ -2531,6 +2633,7 @@ Há mais um ponto que desejo elucidar. Ao divulgarmos esta grande boa-nova ao mu
 # As Enfermidades Cerebrais e os Equívocos da Medicina
 
 **Categoria:** no | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 脳疾患 ・病患と医学の誤謬七 | **Status:** Published
 
 ## As Enfermidades Cerebrais e os Equívocos da Medicina
 
@@ -2571,6 +2674,7 @@ Para se avaliar a gravidade de qualquer enfermidade relacionada ao cérebro, o v
 # A Grande Revolução na Agricultura
 
 **Categoria:** no | **Ano:** 昭和27(1952)年1月30日 | **Fonte:** Kyusei
+**Título Original:** 農業の大革命 五カ年にして米の五割増産は確実 メシヤ教々主（明主）岡田茂吉 | **Status:** Published
 
 ## A Grande Revolução na Agricultura
 
@@ -2675,6 +2779,7 @@ Isso explica a considerável variação nos resultados apresentados nos relatór
 # As Enfermidades Cerebrais e os Equívocos da Medicina
 
 **Categoria:** no | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 脳疾患 ・病患と医学の誤謬七 | **Status:** Published
 
 ## As Enfermidades Cerebrais e os Equívocos da Medicina
 
@@ -2727,6 +2832,7 @@ Para avaliar a gravidade de qualquer doença cerebral, a frequência dos vômito
 # Prece de Louvor na Consagração do Protótipo do Paraíso
 
 **Categoria:** no | **Ano:** 昭和25(1950)年10月4日 | **Fonte:** Eikou
+**Título Original:** 祝詞 | **Status:** Published
 
 ## Prece de Louvor na Consagração do Protótipo do Paraíso
 
@@ -2758,6 +2864,7 @@ Seguindo a Vossa Vontade, que nosso espírito prospere em felicidade
 # A Cura Milagrosa e a Cegueira do Mundo
 
 **Categoria:** no | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** ノーベル賞的偉効 未発表 | **Status:** Unpublished
 
 ## A Cura Milagrosa e a Cegueira do Mundo
 

@@ -1,8 +1,176 @@
 # Mioshie_Teachings - Part 30
 
+# O Perigo da Intoxicação Medicamentosa
+
+**Categoria:** ya | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
+**Título Original:** 十一、薬剤中毒 | **Status:** Unknown
+
+## O Perigo da Intoxicação Medicamentosa
+
+Geralmente, acredita-se que as doenças são curadas por meio de medicamentos, mas isso constitui um grave equívoco. A função dos fármacos limita-se a aliviar a dor. Contudo, conforme mencionei no tópico anterior, a própria dor é o mecanismo pelo qual a cura se processa. Portanto, mitigar o sofrimento equivale a adiar a recuperação da saúde.
+
+E os problemas não se detêm aí. A substância medicamentosa que alivia a dor acaba por se imiscuir na corrente sanguínea. Originalmente, o sangue possui a natureza de se manter em estado de pureza absoluta. Como já explanado, quando o sangue se mantém puro, seu poder bactericida é extraordinariamente forte, e o corpo não é acometido por males. Ademais, uma pessoa com o sangue puro possui grande resistência às adversidades externas, suportando com mais facilidade tanto o frio do inverno quanto o calor do verão, mantendo-se sempre jovial e plena de vigor.
+
+Atualmente, a alta incidência de distúrbios como a neurastenia tem por causa a contaminação do sangue. Em grande parte, tal contaminação é decorrente do consumo de carne, do uso de medicamentos e da aplicação de injeções. Minha longa experiência permite-me constatar tal fato com clareza ao observar a pele daqueles que, por anos a fio, fizeram uso de medicamentos ou receberam injeções frequentes. À primeira vista, sua pele apresenta uma tonalidade amarelada, desprovida de brilho e elasticidade. Aos trinta ou quarenta anos, já se assemelha à pele de um idoso.
+
+Indivíduos nessas condições vivem em um estado de melancolia e apatia. Mesmo sem um diagnóstico definido, sentem um mal-estar constante. Consequentemente, mantêm uma relação de dependência com os remédios ao longo de todo o ano, convictos de que a saúde só pode ser restaurada por meio deles. Passam, então, a peregrinar por hospitais, buscando e experimentando os mais diversos fármacos. A cada ano que passa, seu enfraquecimento se acentua, até que, por fim, perdem a própria vida.
+
+Ah, é com pesar que observo a tendência crescente de intoxicados por medicamentos. Trata-se de um mal mais temível que a tuberculose ou as doenças contagiosas. E, no entanto, o fato de que ninguém se dá conta de sua gravidade constitui um problema de enormes proporções para a sociedade humana. A esses pacientes, procuro ensinar quão terrível é a intoxicação medicamentosa. Felizmente, aqueles que acreditam em minhas palavras e as colocam em prática, com o passar do tempo, veem a intoxicação desaparecer naturalmente. Sua circulação sanguínea melhora, o sistema gastrointestinal se revigora e a saúde geral é restabelecida.
+
+É preciso dedicar atenção especial aos casos de desenvolvimento infantil deficiente e diarreia crônica. Tais quadros, na quase totalidade das vezes, são fruto da intoxicação medicamentosa. Outro fenômeno assustador é a estagnação do desenvolvimento em bebês. Ocasionalmente, deparamo-nos com lactentes cujo crescimento é extremamente precário: passado um ano, ainda não lhes nasceram os dentes ou não ganharam peso, permanecendo em um estado de desenvolvimento praticamente paralisado. Frequentemente ouço dizer que os médicos não conseguem identificar a causa, mas meu diagnóstico aponta, invariavelmente, para a intoxicação por medicamentos. Recém-nascidos não devem ingerir nada além do leite materno, e, por essa razão, os fármacos exercem sobre eles uma ação extremamente nociva. A prova irrefutável disso é que, ao se proibir o uso de medicamentos, o bebê gradualmente retoma seu desenvolvimento normal.
+
+Outro ponto interessante a ser observado é o surgimento frequente de furúnculos do tamanho de um grão de feijão ou de uma ameixa em conserva, principalmente nos pés. Embora ninguém ainda se tenha dado conta, a verdadeira causa reside nas diversas vacinas e injeções preventivas. Uma vez que a substância injetada se mistura ao sangue, com o passar do tempo, o processo de purificação contínuo e inerente ao próprio sangue concentra essas impurezas em um local específico. À medida que a purificação avança, tal concentração de impurezas finalmente se converte em pus. O esforço desse pus para ser expelido do corpo resulta na formação do furúnculo. Portanto, se o deixarmos evoluir naturalmente, a pele se romperá, o pus será drenado e a cura ocorrerá de forma espontânea.
+
+Contudo, por desconhecerem esse princípio, as pessoas se alarmam e buscam tratamento médico. O médico, também ignorante da causa, realiza uma incisão. Nesse momento, ao aplicar uma injeção de anestésico, por exemplo, introduz-se no corpo outra substância que, inevitavelmente, se transformará em pus, dando origem a um novo furúnculo. Este, por sua vez, será novamente operado, e assim o ciclo se repete. Dessa forma, o desafortunado paciente torna-se vítima de sucessivos erros de diagnóstico. Por fim, diante da reincidência dos furúnculos, o médico levanta a suspeita de sífilis e inicia um tratamento para a doença, utilizando-se de terapias como o Salvarsan ou compostos de mercúrio.
+
+Esses novos fármacos, com o tempo, também se convertem em pus ou em sangue impuro, que, por sua natureza, tende a se acumular na região das omoplatas e do pescoço. Muitas pessoas que sofrem cronicamente de rigidez nos ombros, torcicolo e dores de cabeça têm aí a origem de seus padecimentos. Quando um paciente nessas condições passa por uma preocupação ou um esforço mental excessivo, pode experimentar confusão mental, cefaleia e vertigem. Nesse ponto, o diagnóstico médico frequentemente aponta, de maneira equivocada, para a sífilis cerebral.
+
+Ao receber um veredito de sífilis cerebral, o paciente encara-o como um prenúncio da loucura. Tomado pelo pavor, abandona seu trabalho e passa a levar uma vida de invalidez. Ah, meus senhores, isto não é ficção nem um romance. É a mais pura realidade. É a origem das enfermidades de inúmeros pacientes que pude conhecer por meio do poder de Kannon (観音). Em outras palavras, uma única injeção preventiva pode, ao fim, transformar uma pessoa em um paciente diagnosticado com sífilis cerebral e condenado a uma existência de prostração. Quão trágico é esse cenário!
+
+Talvez o que exponho lhes pareça por demais insólito. Contudo, por se tratar da verdade, nada posso fazer senão revelá-la. O movimento para despertar a sociedade para estas verdades é a missão fundamental e mais urgente para a salvação da humanidade — uma questão de magnitude muito superior à da política ou da economia.
+
+---
+
+# Sobre a Amnésia dos Profissionais da Imprensa
+
+**Categoria:** yo | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
+**Título Original:** 読売記者の健忘症 | **Status:** Published
+
+## Sobre a Amnésia dos Profissionais da Imprensa
+
+Com grande espanto, tomamos conhecimento de uma matéria publicada no editorial do jornal Yomiuri, em 3 de novembro último, Dia da Cultura, intitulado “Cultivemos uma cultura autêntica”. O artigo mencionava o caso de “uma senhora casada que se suicidou por sua devoção a Ohikari-sama”.
+
+A nossa surpresa advém do fato de que uma notícia de teor idêntico já havia sido veiculada em detalhes na edição de Shizuoka do mesmo jornal, em 20 de julho deste ano. Naquela ocasião, nossa Igreja, por não poder negligenciar tal alegação, conduziu uma investigação minuciosa e constatou que a história era totalmente desprovida de fundamento. Diante disso, apresentamos um protesto formal ao referido periódico, que prontamente publicou uma nota de retratação, admitindo, portanto, a ausência de veracidade dos fatos.
+
+Nesse sentido, a republicação da mesma notícia agora é algo verdadeiramente incompreensível. Reutilizar uma matéria já reconhecida como falaciosa e formalmente retratada só pode ser consequência do esquecimento por parte do jornalista responsável.
+
+Não quero crer que se trate de uma sórdida retaliação ao artigo que publicamos recentemente neste jornal, no qual exortávamos o referido periódico a uma reflexão sobre suas notícias difamatórias. Foi, muito provavelmente, um descuido ocasionado por uma falha de memória. Se assim for, o que os profissionais da imprensa devem, com o máximo rigor, precaver-se é contra a amnésia.
+
+---
+
+# O Absurdo do Sofrimento pela Doença
+
+**Categoria:** ya | **Ano:** 昭和28(1953)年7月29日 | **Fonte:** Eikou
+**Título Original:** 病は簡単に治るもの | **Status:** Published
+
+## O Absurdo do Sofrimento pela Doença
+
+Eis o caso de um homem que, após sofrer de tuberculose por quase uma década, viu-se curado em aproximadamente uma semana. Surpreendido com o ocorrido, ingressou em nossa Fé e, desde então, tem sido agraciado com o poder de curar diversas enfermidades. Provavelmente, um milagre de tal magnitude parecerá, a muitos, simplesmente inacreditável.
+
+Contudo, ao se examinar o processo de sua cura e os fatos que se sucederam após ele receber a graça de curar, não há outra reação senão o assombro. Trata-se, em verdade, de um milagre sem precedentes desde o alvorecer da humanidade, constituindo um dos grandes enigmas do século XX. Diante de tais evidências, a medicina se encontra em uma conjuntura inelutável: a de ser revolucionada, quer queira, quer não.
+
+Para nós, o ato de sofrer por uma doença chega a ser um despropósito. Senhores médicos, o que pensam ao ler este artigo? Se ainda assim não conseguirem crer, não há outra forma de o descrever senão como uma insensibilidade à própria realidade dos fatos.
+
+***
+
+## Curado da Tuberculose em Meio à Dúvida, Encontro a Fé e Testemunho Sucessivas Graças Divinas
+
+Miekawa Takao (36 anos)
+Igreja Seirei-Tyu / Província de Yamaguchi
+
+Quando ouvi dizer que havia chegado alguém que “curava doenças apenas com a imposição das mãos”, não senti, a princípio, qualquer reação. Minha vida, há quase uma década, resumia-se a um leito de enfermidade. Já havia tentado os mais diversos tratamentos, seguindo todas as recomendações que me pareciam promissoras, chegando ao ponto de ingerir até lesmas. Em agosto do ano anterior, iniciei o uso do novo medicamento para tuberculose, a hidrazida, mas, após um período, interrompi o tratamento por não observar melhora significativa, apesar de uma aparente recuperação inicial. Também recebi e tomei um novo remédio enviado do Havaí, mas minha condição permanecia estagnada, com dias bons e ruins, em um ciclo que me deixava completamente exausto.
+
+Foi em meio a esse desalento que, no início do ano, ouvi novamente sobre o homem que “curava com as mãos”. Achei a ideia um tanto interessante, mas a ignorei e continuei lendo o jornal. Pouco depois, meu irmão chegou e me contou com mais detalhes o que havia descoberto. Acontece que um morador de nosso vilarejo decidiu abrir uma casa de pachinko e contratou um homem de Hiroshima, o senhor Saito, que era membro de nossa Igreja. Um carpinteiro local, o senhor Hayashi, notou o emblema que o senhor Saito usava e o questionou a respeito. Foi assim que tudo começou.
+
+“Experimente, como se estivesse sob um feitiço”, disseram-lhe. Pensei comigo: “Se uma doença pudesse ser curada tão facilmente, seria maravilhoso. E o que mais me agradou foi a permissão para duvidar”. Imediatamente, pedi a um familiar que fosse em meu nome solicitar uma visita. O senhor Saito estava ocupado com a instalação das máquinas e, somente após terminar o serviço, pôde finalmente vir à minha casa para a primeira ministração de Johrei.
+
+Após cerca de duas horas de conversa e da ministração do Johrei, surpreendi-me com a simplicidade de tudo. “Não há necessidade de permanecer deitado”, foi-me dito. Como me permitiam duvidar, resolvi fazer um teste: levantei-me, sentei-me junto à mesa aquecida e comecei a ler o jornal. Até então, minha rotina era de repouso absoluto; eu só deixava a cama para me lavar, comer e ir ao banheiro. Qualquer redução de uma hora no meu tempo de descanso já era suficiente para que eu acordasse exausto na manhã seguinte.
+
+Qual não foi minha surpresa ao constatar que, mesmo permanecendo de pé o dia inteiro, não sentia o menor sinal de cansaço ao despertar! Achei aquilo muito estranho. Seria possível? Estaria realmente funcionando ou seria apenas autossugestão? Eu ainda duvidava.
+
+Essa experiência contrastava fortemente com a de uma antiga religião que frequentei, a Kyoukai K. Lá, ao questionar o sacerdote sobre a razão de minha doença não se curar, a resposta era sempre a mesma: “É porque sua fé é insuficiente; você não se dedica com afinco”. “Mas eu me dedico da minha maneira. Onde, exatamente, Vossa Reverência acredita que minha dedicação falha?”, eu retrucava, apenas para ouvir uma resposta que, em suma, significava: “A prova de que sua dedicação não é suficiente é o fato de que você não se cura”. Por essa razão, deixei de frequentar aquele local.
+
+Portanto, a liberdade de poder duvidar foi um alívio, e continuei a receber Johrei com o coração mais tranquilo, observando uma melhora constante. Eu me sentia secretamente feliz, pensando: “Estou sendo salvo”. Contudo, o senhor Saito continuava ocupado com as máquinas e também atendia a outros doentes na região de Okubo, hospedando-se na casa do senhor Hayashi, de modo que suas visitas à minha casa tornaram-se esporádicas. Apesar disso, meu estado de saúde não regrediu.
+
+Então, tomei uma decisão: resolvi sair. Em um dia de neve, aventurei-me a caminhar e, para minha surpresa, consegui fazê-lo sem dificuldades. Senti-me com mais energia e comecei a conversar com as pessoas. A partir daí, a reputação da Sekaikyuseikyou começou a se espalhar. Em 15 de janeiro, o senhor Hayashi, de Okubo, foi o primeiro a ir a Hiroshima para receber o Ohikari. Logo em seguida, eu também recebi a permissão para me tornar membro. Ao ouvir que “não apenas você pode ser salvo, mas também pode salvar os outros”, recebi em nossa localidade o Reverendo Tanahashi, da Igreja Central, para dar início à difusão. Meu irmão e outras cinco pessoas também ingressaram na Fé conosco.
+
+Em 16 de fevereiro, foi realizada a consagração da Imagem da Luz Divina na residência do senhor Kazui Okamoto, em Usago, com a presença do Reverendo Yaichi Ono, da Igreja Central. Naquele dia, mais seis pessoas se tornaram membros. No mês seguinte, tive a honra de consagrar a Imagem da Luz Divina em minha própria casa, ocasião em que minha mãe e minha irmã também ingressaram na Fé, juntamente com outras sete pessoas. O número de membros continuou a crescer, e ver as pessoas sendo salvas por meio das sucessivas graças divinas é algo que só posso descrever como maravilhoso.
+
+Em um período tão curto, termos três locais de consagração da Imagem e vinte e um novos membros é uma graça tão imensa que eu, com minha fé ainda incipiente, não encontro palavras para expressar. Simplesmente transbordo de alegria e reverência, dedicando-me ativamente conforme as orientações do reverendo.
+
+No dia 1º de fevereiro, pouco depois de me tornar membro, uma senhora chamada Teru Tamura procurou-me. Ela explicou: “Ouvi falar sobre a Igreja e vim porque não me sinto bem desde que tomei uma injeção de penicilina em uma clínica. Estava a caminho de outro médico quando soube de vocês”. Relatou que, há alguns dias, um grande furúnculo havia surgido em suas costas, causando-lhe dor intensa, e me pediu que a ajudasse a se curar.
+
+Embora me tivessem dito que eu recebera o poder de curar, confesso que me senti inseguro por ser meu primeiro caso. Mesmo assim, impus-lhe as mãos. Após alguns dias, ela me contou que, durante a noite, transpirou abundantemente e teve uma secreção vaginal que não ocorria há mais de dez anos. Esse processo de purificação durou alguns dias e, em aproximadamente uma semana, ela estava curada. Naquele momento, compreendi as palavras do reverendo: “Você só entenderá de verdade quando impuser as mãos você mesmo”. Meishu-Sama, muito obrigado.
+
+Além disso, em 31 de janeiro, meu irmão mais novo, a caminho do trabalho, sofreu uma queda de bicicleta em um barranco de cerca de três metros. O local era notoriamente perigoso, com um fundo rochoso onde uma pessoa já havia falecido. Contudo, ele foi salvo em pouco tempo, sofrendo apenas ferimentos leves na cintura e na perna. Ele contou que, no momento da queda, instintivamente levou a mão ao peito. Sinto um calafrio ao pensar no que poderia ter acontecido se ele não tivesse ingressado na Fé: uma perna ou um braço quebrado, ou, na pior das hipóteses, a perda da vida. Diante da grandiosidade dessa proteção divina, só posso inclinar a cabeça em gratidão.
+
+Mais recentemente, meu segundo irmão estava na montanha cortando lenha quando, por um descuido, atingiu o próprio pé com o machado. Ele disse que pensou: “Pronto, me machuquei”. A bota de trabalho foi rasgada por cerca de três centímetros, mas, para sua surpresa, o pé estava intacto. Ele voltou correndo para casa, feliz, para nos contar que havia recebido uma grande graça. Com tantas graças sucessivas, nossos corações se enchem de gratidão, e toda a família agradece do fundo da alma.
+
+Atualmente, mesmo sendo alvo de zombarias e chamado de louco por alguns, dedico-me com alegria a este sagrado trabalho. Na minha vizinhança, há um jovem de catorze anos, Sadamori Haruo, cego há oito anos. Seus globos oculares, que eram salientes, já começaram a se retrair e ele agora diz: “Em dias de sol, a luz lá fora ofusca minha vista”. Seus pais estão radiantes, acreditando que, com essa graça, ele voltará a enxergar. É uma alegria visitar sua casa para ministrar-lhe Johrei. O pai do jovem ingressou na Fé em 18 de abril, e a família tem recebido muitas graças, tornando-se um lar mais feliz.
+
+Neste momento, ministro Johrei a cinco ou seis pessoas enfermas, e todas estão recebendo graças e se alegrando. Sob a orientação do reverendo, desejamos dedicar o máximo de nossos esforços a esta Obra Divina.
+
+Meishu-Sama, sou-lhe imensamente grato por Vossas inúmeras graças e proteções. Peço-lhe perdão pela demora em expressar esta gratidão e rogo humildemente que continue a nos conceder Vossa proteção.
+
+Meishu-Sama, muito obrigado.
+
+---
+
+# O Flagelo do Veneno dos Remédios
+
+**Categoria:** ya | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Eikou
+**Título Original:** 薬毒の体験 | **Status:** Published
+
+## O Flagelo do Veneno dos Remédios
+
+A que ponto a humanidade se encontra encurralada em um abismo de sofrimento devido à superstição em torno dos medicamentos é uma verdade que se torna dolorosamente clara ao observarmos os doentes à nossa volta. Tal como reza o antigo provérbio que o amor nos cega aos defeitos, o homem moderno está completamente apaixonado pelos remédios, reverenciando-os enquanto, na realidade, padece de seus terríveis malefícios sem a menor consciência, o que constitui um problema de enormes proporções. E, ainda que atormentados por essa calamidade, os ditos intelectuais das nações civilizadas a exaltam e a incentivam. Quanto mais se reflete sobre sua ignorância e obscurantismo, mais assombroso tudo parece.
+
+O relato de graça que se segue pode ser considerado o diário de uma experiência com a superstição do veneno dos remédios. E, se houver quem, mesmo após esta leitura, não compreenda, sua mente, embora revestida pela aparência de um homem civilizado, não se diferencia em essência da de um selvagem.
+
+### Uma Experiência com o Sofrimento Gerado pelo Veneno dos Remédios
+
+**Kagawa, Igreja Jissei Naka**
+**Saeki Shigemi (29 anos)**
+
+Recordo-me que em setembro de 1947, após mais de vinte anos de vida neste mundo, durante os quais sempre tive absoluta confiança em meu corpo e era considerado por mim e pelos outros um paradigma de saúde, o espectro da enfermidade me assaltou subitamente. Eu, que até então desconhecia o padecimento de uma doença, senti uma tristeza indescritível. Tinha, contudo, a convicção absoluta de que bastaria consultar um médico para ter um diagnóstico e tomar um remédio para ser curado. Assim, dirigi-me de imediato ao hospital mais próximo e, após o exame, embora não houvesse clareza sobre o mal que me acometia, recebi uma medicação e retornei para casa. Esse foi o início da minha jornada pela medicina, que me transformou em alguém incapaz de passar um dia sequer sem remédios por cinco longos anos.
+
+Nesse período, no anseio de recuperar a saúde o mais rápido possível, percorri inúmeros hospitais. Suportando remédios amargos e injeções dolorosas, segui à risca as orientações médicas. No entanto, longe de melhorar, minha condição se deteriorava a cada ano, e meu corpo emagrecia sem cessar. No hospital A, diagnosticaram-me um mal hepático; no B, uma gastrite crônica. Fiquei sem saber ao certo qual era o meu problema. Além disso, a fé que eu depositara nos médicos se esvaía à medida que minha saúde piorava. Embora me sentisse desamparado, continuei a tomar os medicamentos, consolando a mim mesmo com a esperança de que um dia melhoraria.
+
+Buscando outras alternativas, por recomendação, iniciei uma terapia de acupuntura e moxabustão. No princípio, o efeito foi notável e senti um alívio considerável, mas, com o tempo, a eficácia diminuiu e retornei ao estado original. Tendo esgotado todos os recursos sem obter melhora, fui então acometido por um pavor avassalador da morte, chegando a pensar que meu caso não tinha mais salvação e a perder a esperança de continuar a viver. Naturalmente, a visão de pessoas felizes intensificava minha tristeza. Tornei-me avesso a conversar, irritadiço por qualquer motivo e obcecado unicamente com minha condição física, vivendo em um tormento diário.
+
+Foi então que, em junho de 1952, no meu local de trabalho, ouvi do senhor Yoshitomi explanações sobre a Sekaikyuseikyou. Senti algo tocar profundamente meu coração e, com o sentimento de quem se afoga e se agarra a qualquer fiapo de esperança, decidi ir à Igreja. Lá, o reverendo Shimazu explicou-me detalhadamente: “A doença é uma ação purificadora; os remédios são venenos, e a medicina moderna é uma terapia que interrompe a purificação, ou seja, um método que solidifica as toxinas no corpo. A medicina de Deus, por sua vez, por meio do Johrei, remove as máculas do espírito, dissolve as toxinas do corpo e as expele, curando a doença em sua raiz.” Confesso que fiquei atônito, pois tudo aquilo era o completo oposto da medicina convencional.
+
+Inúmeras dúvidas assaltaram meu espírito: “Será que conseguiria abandonar os remédios assim, de imediato? Se o fizesse, a doença certamente se agravaria. Seria possível que uma enfermidade se curasse apenas com a imposição das mãos? Se fosse tão simples, não haveria necessidade de hospitais ou medicamentos.” Hoje, ao recordar tais pensamentos, sinto-me profundamente indigno e arrependido. Contudo, refleti que, por cinco anos, seguira os médicos e tomara remédios sem melhora alguma, apenas piorando. Tomei, pois, uma firme resolução e despedi-me de um ciclo de cinco anos de dependência medicamentosa.
+
+A partir daquele momento, embora sentisse um vazio antes e depois das refeições, passei a frequentar a Igreja e a receber Johrei diariamente. E qual não foi minha surpresa? Eu, que estava convencido de que minha condição pioraria progressivamente ao deixar os remédios, via-me, milagrosamente, melhorar a cada dia que passava. Sentindo uma imensa gratidão, ingressei na fé um mês depois, em julho. Mesmo assim, a hesitação entre a crença e a dúvida por vezes me abalava, causando-me grande sofrimento. Todavia, à medida que lia os Escritos Divinos, o jornal *Chijo Tengoku* e o *Eiko*, passei a compreender a verdade deste Caminho de uma perspectiva científica. Hoje, pela graça divina, alcancei um abençoado estado de paz e segurança interior, encontrei um novo sentido em minha vida e fui verdadeiramente conduzido de um mundo de trevas para um mundo de luz.
+
+Transbordando desta alegria indizível, agradeço a Meishu-Sama e anseio ardentemente que o maior número possível de pessoas, que, como eu no passado, acreditam na medicina moderna como o único método de cura e sofrem noite e dia com o agravamento de seus males enquanto introduzem em seus corpos o terrível veneno dos remédios, possam compreender o quanto antes esta medicina divina e suprascientífica.
+
+Quando penso que, se a monumental descoberta de Meishu-Sama sobre o veneno dos remédios não tivesse ocorrido, as inúmeras pessoas salvas até hoje pela Sekaikyuseikyou teriam sido vítimas desse mesmo veneno, compreendo que a verdade sobre o `yakudoku` é absoluta e que ela certamente suplantará a medicina moderna. Do contrário, a humanidade inteira estará fadada à aniquilação. Não é algo verdadeiramente aterrador? Quando reflito sobre a terrível medicina moderna, que, crendo que os remédios curam, trata o nosso corpo como uma espécie de máquina na qual se despeja óleo, administrando medicamentos com absoluta indiferença, não posso senão curvar a cabeça em reverência diante da grandiosidade da Obra Divina de Meishu-Sama.
+
+Peço perdão pela simplicidade de minhas palavras, escritas ao sabor das memórias de meus erros passados, e expresso minha mais profunda admiração pelos grandiosos Ensinamentos de Meishu-Sama.
+
+Meishu-Sama, muito obrigado por me salvar.
+
+*Quão difícil é a Obra de Salvação*
+*Que revela estar nos remédios a causa da doença.*
+
+*A medicina criada pelo homem não é ciência,*
+*Ciência, sim, é a Obra de cura realizada por Deus.*
+
+(Salmos de Meishu-Sama)
+
+(23 de dezembro de 1952)
+
+---
+
+# A Cura da Tuberculose Lombar
+
+**Categoria:** yo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 腰椎カリエス治る 未発表 | **Status:** Unpublished
+
+## A Cura da Tuberculose Lombar
+
+Na atualidade, esta enfermidade é tida como incurável, não apenas pela medicina, mas por quaisquer outras terapias e, inclusive, pela fé. O desespero dos pacientes, portanto, é algo profundamente lastimável.
+
+O caso desta jovem senhora, aqui sucintamente apresentado, ilustra essa realidade. Destinada a findar seus dias como um cadáver vivente, ela foi, todavia, salva por meio do Johrei. Representa, portanto, uma bênção e um mérito extraordinários.
+
+---
+
 # O Pavoroso Mal das Toxinas Medicamentosas
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年1月16日 | **Fonte:** Eikou
+**Título Original:** 薬毒の恐ろしさ （１） | **Status:** Published
 
 ## O Pavoroso Mal das Toxinas Medicamentosas
 
@@ -58,6 +226,7 @@ Reitero a Vós, Meishu-Sama, meus mais profundos agradecimentos. Do fundo do meu
 # Nossa Resposta aos Desafios do Jornal Yomiuri
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
+**Título Original:** 読売紙の挑戦に応う | **Status:** Published
 
 ## Nossa Resposta aos Desafios do Jornal Yomiuri
 
@@ -76,6 +245,7 @@ Naturalmente, sob a ótica humana, um empreendimento de tal magnitude pode parec
 # A Ilusão da Ciência Farmacêutica
 
 **Categoria:** ya | **Ano:** 昭和29(1954)年3月31日 | **Fonte:** Eikou
+**Título Original:** 薬剤は科学？ | **Status:** Published
 
 ## A Ilusão da Ciência Farmacêutica
 
@@ -104,6 +274,7 @@ Tratando-se de algo que concerne à vida humana, de importância capital, tal si
 # Os medicamentos são inimigos da humanidade
 
 **Categoria:** ya | **Ano:** 昭和29(1954)年4月21日 | **Fonte:** Eikou
+**Título Original:** 薬剤は人類の敵 | **Status:** Published
 
 ## Os medicamentos são inimigos da humanidade
 
@@ -144,6 +315,7 @@ A Vós, Meishu-Sama, minha eterna gratidão.
 # A Glória Efêmera e a Prudência
 
 **Categoria:** yo | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Eikou
+**Título Original:** 吉田さん | **Status:** Published
 
 ## A Glória Efêmera e a Prudência
 
@@ -162,6 +334,7 @@ A própria História nos ensina esta lição. Vemos que mesmo as mais notáveis 
 # O Flagelo das Toxinas Medicamentosas
 
 **Categoria:** ya | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 薬毒 | **Status:** Published
 
 ## O Flagelo das Toxinas Medicamentosas
 
@@ -198,6 +371,7 @@ Portanto, não é exagero afirmar que a raiz da infelicidade e dos conflitos hum
 # Diálogo com a Escritora Nobuko Yoshiya
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年5月 | **Fonte:** 吉屋信子女史と語る
+**Título Original:** 吉屋信子女史と語る | **Status:** Unpublished
 
 ## Diálogo com a Escritora Nobuko Yoshiya
 
@@ -220,6 +394,7 @@ O que acabo de relatar são apenas minhas impressões gerais sobre a ocasião. A
 # A Cultura Noturna e a Cultura Diurna
 
 **Categoria:** yo | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 夜と昼 | **Status:** Published
 
 ## A Cultura Noturna e a Cultura Diurna
 
@@ -260,6 +435,7 @@ Nesse sentido, queiram ou não, a noite que precede a depuração da medicina oc
 # Uma Interpelação ao Jornal Yomiuri sobre o Incidente em Saitama
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
+**Título Original:** 読売新聞に質す 埼玉の投書事件に就て | **Status:** Published
 
 ## Uma Interpelação ao Jornal Yomiuri sobre o Incidente em Saitama
 
@@ -282,6 +458,7 @@ Desnecessário dizer que nosso propósito fundamental é afirmar o certo como ce
 # Exigimos a Retratação do Jornal "Yomiuri"
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年8月13日 | **Fonte:** -
+**Título Original:** 「読売」の反省を求む 事実無根の教団誹謗記事 | **Status:** Published
 
 ## Exigimos a Retratação do Jornal "Yomiuri"
 *Artigo sobre a matéria caluniosa e infundada contra a Igreja*
@@ -324,6 +501,7 @@ Portanto, independentemente de quem seja o adversário, é nossa política despe
 # Esclarecendo a Verdade por Trás da Conjura Difamatória
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月15日 | **Fonte:** -
+**Título Original:** 読売紙の記事に就て 真相を究明せよ 中傷の蔭に躍る一派 | **Status:** Published
 
 ## Esclarecendo a Verdade por Trás da Conjura Difamatória
 
@@ -346,6 +524,7 @@ Por fim, o ponto mais lamentável da matéria é a alegação de que a receita d
 # A Vacinação e a Tuberculose
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 予防接種と結核 自観叢書10編 | **Status:** Published
 
 ## A Vacinação e a Tuberculose
 
@@ -376,6 +555,7 @@ Ah, como é árdua a tarefa de promover tal esclarecimento! A razão para tal di
 # Uma admoestação aos intelectuais do mundo
 
 **Categoria:** yo | **Ano:** 昭和28(1953)年8月5日 | **Fonte:** Eikou
+**Título Original:** 世のインテリ族に物申す | **Status:** Published
 
 ## Uma admoestação aos intelectuais do mundo
 
@@ -400,6 +580,7 @@ Escrevi o que me veio à mente, e peço que compreendam que o fiz por minha prof
 # As Diversas Manifestações das Toxinas dos Remédios
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 薬毒の種々相 未発表 | **Status:** Unpublished
 
 ## As Diversas Manifestações das Toxinas dos Remédios
 
@@ -446,6 +627,7 @@ Tanto as toxinas de injeções quanto as de desinfetantes possuem diferentes “
 # Sobre a Alimentação Infantil
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
+**Título Original:** 幼児の食物に就て | **Status:** Published
 
 ## Sobre a Alimentação Infantil
 
@@ -464,6 +646,7 @@ O ponto central, no entanto, não é que o espinafre seja particularmente nocivo
 # Retratação do Jornal Yomiuri e o Novo Protesto do Prefeito
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年12月31日 | **Fonte:** -
+**Título Original:** 読売紙から謝罪文 市長さらに抗議す | **Status:** Published
 
 ## Retratação do Jornal Yomiuri e o Novo Protesto do Prefeito
 
@@ -478,6 +661,7 @@ Ademais, soubemos que o prefeito, ao ler a referida carta, considerou-a desprovi
 # A Medicina Infantil
 
 **Categoria:** yo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 幼稚なる医学 未発表 | **Status:** Unpublished
 
 ## A Medicina Infantil
 
@@ -492,6 +676,7 @@ Ainda que a motivação seja boa, se o resultado é nefasto, não pode haver per
 # A Escola Yamabiko e a Sombra do Comunismo
 
 **Categoria:** ya | **Ano:** 昭和26(1951)年12月12日 | **Fonte:** Eikou
+**Título Original:** 山彦学校は共産思想培養の学校？ | **Status:** Published
 
 ## A Escola Yamabiko e a Sombra do Comunismo
 
@@ -710,6 +895,7 @@ Contudo, esta grande religião, tão esperada por todos, que se preocupa com o s
 # A Alvorada do Mundo do Dia e o Juízo Final
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年12月31日 | **Fonte:** -
+**Título Original:** 夜の終り近づけり汝等悔改めよ | **Status:** Published
 
 ## A Alvorada do Mundo do Dia e o Juízo Final
 
@@ -730,6 +916,7 @@ Na qualidade de executor desta salvação final, e por delegação divina, cumpr
 # O Ambicioso Desprovido de Ambição
 
 **Categoria:** yo | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
+**Título Original:** 欲張ったヨクのない人 | **Status:** Published
 
 ## O Ambicioso Desprovido de Ambição
 
@@ -746,6 +933,7 @@ Diante disso, é imperativo compreender que qualquer empreendimento estará fada
 # A Causa do Resfriado e o Método Terapêutico por Mim Descoberto
 
 **Categoria:** yo | **Ano:** 昭和10(1935)年2月4日 | **Fonte:** Hikari明世界
+**Título Original:** 余が発見せる風邪の原因と其療法 | **Status:** Published
 
 ## A Causa do Resfriado e o Método Terapêutico por Mim Descoberto
 
@@ -778,6 +966,7 @@ A esse respeito, cumpre mencionar que as teorias do Dr. Shionoya, de Shibuya, qu
 # A Batalha de Yomotsuhirasaka
 
 **Categoria:** yo | **Ano:** 昭和24(1949)年10月5日 | **Fonte:** Kiseki Monogatari
+**Título Original:** 黄泉比良坂の戦 自観叢書第4篇 | **Status:** Unknown
 
 ## A Batalha de Yomotsuhirasaka
 
@@ -808,6 +997,7 @@ Isso decerto corresponde ao episódio da batalha de Yomotsuhirasaka, no qual o e
 # O Evangelho do Paraíso
 
 **Categoria:** yo | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 夜昼転換 | **Status:** Published
 
 ## O Evangelho do Paraíso
 
@@ -848,6 +1038,7 @@ Se admitimos a existência da Transição da Noite para o Dia, quando, então, o
 # Reflexões sobre a Vacinação Compulsória
 
 **Categoria:** yo | **Ano:** 昭和27(1952)年1月16日 | **Fonte:** Eikou
+**Título Original:** 予防注射 | **Status:** Published
 
 ## Reflexões sobre a Vacinação Compulsória
 
@@ -933,6 +1124,7 @@ Aquelas palavras trouxeram um alívio imediato à nossa tensão acumulada.
 # Diálogo com um Materialista
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年4月18日 | **Fonte:** -
+**Título Original:** 唯物主義者との問答 | **Status:** Published
 
 ## Diálogo com um Materialista
 
@@ -961,6 +1153,7 @@ A: De fato.
 # Um Diálogo sobre Profecias e a Fé Verdadeira
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年6月3日 | **Fonte:** Kyusei
+**Título Original:** ある客との対談 | **Status:** Published
 
 ## Um Diálogo sobre Profecias e a Fé Verdadeira
 
@@ -983,6 +1176,7 @@ Pelas razões que acabo de expor, reafirmo que em nossa Igreja não há, em abso
 # O Futuro Luminoso de Todos os Fiéis
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
+**Título Original:** 神仙郷緑蔭縦横談 | **Status:** Published
 
 ## O Futuro Luminoso de Todos os Fiéis
 
@@ -1025,6 +1219,7 @@ Religião é, em sua essência, crer em milagres. Os materialistas, por sua vez,
 # A Doença e a Obra de Salvação
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
+**Título Original:** ある客との対談 | **Status:** Published
 
 ## A Doença e a Obra de Salvação
 
@@ -1053,6 +1248,7 @@ Dizendo isso, o visitante retirou-se.
 # A Caligrafia Expressa a Personalidade
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
+**Título Original:** 書は人格を表現する ある客との御対談より | **Status:** Published
 
 ## A Caligrafia Expressa a Personalidade
 
@@ -1081,6 +1277,7 @@ Existem diversas categorias na caligrafia: a habilidosa, a cativante, a destra e
 # A Missão da Religião frente ao Aumento da Criminalidade
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年5月8日 | **Fonte:** -
+**Título Original:** ある日の対談 | **Status:** Published
 
 ## A Missão da Religião frente ao Aumento da Criminalidade
 
@@ -1107,6 +1304,7 @@ Com essas palavras, o visitante partiu.
 # A Missão da Arte na Construção do Paraíso
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年6月3日 | **Fonte:** Eikou
+**Título Original:** 明主様と谷川徹三氏との御対談 (一) | **Status:** Published
 
 ## A Missão da Arte na Construção do Paraíso
 
@@ -1176,7 +1374,8 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 
 # Diálogo com a Rádio NHK
 
-**Categoria:** taidan | **Ano:** 昭和24(1949)年7月17日 | **Fonte:** ＮＨＫアナウンサーとの御対談 ＮＨＫ録音盤より、昭和24
+**Categoria:** taidan | **Ano:** 昭和24(1949)年7月17日 | **Fonte:** Chijo Tengoku
+**Título Original:** ＮＨＫアナウンサーとの御対談 | **Status:** Unknown
 
 ## Diálogo com a Rádio NHK
 
@@ -1497,6 +1696,7 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 # Um Diálogo sobre Nomes, Personalidades e a Ciência Divina
 
 **Categoria:** taidan | **Ano:** 昭和26(1951)年4月11日 | **Fonte:** Eikou
+**Título Original:** 明主様 夢声氏対談記 （ 下 ） | **Status:** Published
 
 ## Um Diálogo sobre Nomes, Personalidades e a Ciência Divina
 
@@ -1555,6 +1755,7 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 # A Natureza do Oculto e a Salvação do Mundo
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年10月25日 | **Fonte:** Eikou
+**Título Original:** 実談、虚談 神懸りな話 未発表、昭和27(1952)年10月25日 | **Status:** Unpublished
 
 ## A Natureza do Oculto e a Salvação do Mundo
 
@@ -1685,6 +1886,7 @@ Cabe ressaltar que o senhor Tanigawa Tetsuzo foi quem proferiu o discurso de con
 # Reflexões sobre um ano de lutas e a expansão da Obra Divina
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
+**Título Original:** 人類幸福の道拓けん 本紙一周年を記念して | **Status:** Published
 
 ## Reflexões sobre um ano de lutas e a expansão da Obra Divina
 
@@ -1757,6 +1959,7 @@ Nossa Igreja investiu uma quantia vultosa nesta construção. Tenho a certeza de
 # O Significado e a Missão do Nascimento da Igreja Messiânica Mundial
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
+**Título Original:** 人類の救済と世界平和に貢献 世界救世教誕生の意義と使命 | **Status:** Published
 
 ## O Significado e a Missão do Nascimento da Igreja Messiânica Mundial
 
@@ -1823,6 +2026,7 @@ Creio que nossa nova Igreja, em sintonia com o Cristianismo, deve devotar toda a
 # O Terror da Bomba Atômica e a Primazia do Espírito
 
 **Categoria:** taidan | **Ano:** 昭和29(1954)年8月4日 | **Fonte:** Eikou
+**Título Original:** 明主様と御対談 （完） | **Status:** Published
 
 ## O Terror da Bomba Atômica e a Primazia do Espírito
 
@@ -1961,6 +2165,7 @@ Creio que nossa nova Igreja, em sintonia com o Cristianismo, deve devotar toda a
 # Um Diálogo Oportuno
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年4月30日 | **Fonte:** -
+**Título Original:** ある日の対話 | **Status:** Published
 
 ## Um Diálogo Oportuno
 
@@ -1981,6 +2186,7 @@ O fato de nossa Igreja se encontrar no centro de tão grandes debates é, em si,
 # Meishu-Sama Concede Audiência à Imprensa
 
 **Categoria:** taidan | **Ano:** 昭和29(1954)年11月24日 | **Fonte:** Eikou
+**Título Original:** 明主様 新聞関係人に御面会賜る ＜メシヤ会館において＞ | **Status:** Published
 
 ## Meishu-Sama Concede Audiência à Imprensa
 
@@ -2020,6 +2226,7 @@ Cumpre registrar que, entre as dez redações presentes, encontravam-se os três
 # Diálogo entre Meishu-Sama e o Dr. Braden
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年7月9日 | **Fonte:** Eikou
+**Título Original:** 明主様とブレーデン博士 御対談 | **Status:** Published
 
 ## Diálogo entre Meishu-Sama e o Dr. Braden
 
@@ -2116,6 +2323,7 @@ Aproveitando a oportunidade, gostaria de acrescentar algo. A civilização até 
 # A Missão da Luz Divina
 
 **Categoria:** taidan | **Ano:** 昭和29(1954)年7月28日 | **Fonte:** Eikou
+**Título Original:** 明主様と御対談 (二) | **Status:** Published
 
 ## A Missão da Luz Divina
 
@@ -2364,6 +2572,7 @@ Quando uma pessoa acumula máculas por meio de seus pecados, sua alma decai aos 
 # Diálogo com um Doutor em Medicina
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年1月28日 | **Fonte:** -
+**Título Original:** 某医博との対談 | **Status:** Published
 
 ## Diálogo com um Doutor em Medicina
 
@@ -2386,6 +2595,7 @@ Após essas palavras, a conversa derivou para amenidades.
 # Diálogo entre Meishu-Sama e o Sr. Tanigawa Tetsuzo
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年6月24日 | **Fonte:** Eikou
+**Título Original:** 明主様と谷川徹三氏との御対談 （完） | **Status:** Published
 
 ## Diálogo entre Meishu-Sama e o Sr. Tanigawa Tetsuzo
 
@@ -2526,6 +2736,7 @@ Após essas palavras, a conversa derivou para amenidades.
 # Um Diálogo com Meishu-Sama
 
 **Categoria:** taidan | **Ano:** 昭和29(1954)年7月21日 | **Fonte:** Eikou
+**Título Original:** 明主様と御対談 (一) | **Status:** Published
 
 ## Um Diálogo com Meishu-Sama
 
@@ -2684,6 +2895,7 @@ Assim, entendi que a doença também tem sua origem no espírito. Ou seja, quand
 # Um Encontro com Meishu-Sama: Diálogos sobre a Fé, a Arte e a Salvação
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年12月10日 | **Fonte:** Eikou
+**Título Original:** 明主様をお訪ねして語る 文芸春秋誌顧問 日置昌一氏 同 編集局次長 近藤利弥氏 ××木原記者 | **Status:** Published
 
 ## Um Encontro com Meishu-Sama: Diálogos sobre a Fé, a Arte e a Salvação
 
@@ -2860,6 +3072,7 @@ Há poucos dias, um japonês que reside há muitos anos nos Estados Unidos estev
 # Diálogo com Madeleine David no Museu de Arte de Hakone
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年10月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 美術館三階の日本間における 明主様とダヴィッド女史 ジャーナリスト会見記 | **Status:** Published
 
 ## Diálogo com Madeleine David no Museu de Arte de Hakone
 
@@ -3109,6 +3322,7 @@ Conforme noticiado na edição 173 da revista Eiko, a Sra. Madeleine David, vice
 # Um Diálogo sobre a Alma na Arte
 
 **Categoria:** taidan | **Ano:** 昭和26(1951)年4月4日 | **Fonte:** Eikou
+**Título Original:** 明主様 夢声氏対談記 （上） | **Status:** Published
 
 ## Um Diálogo sobre a Alma na Arte
 
@@ -3173,6 +3387,7 @@ No dia 21, quarto dia do Grande Culto da Primavera, Meishu-Sama devotou aproxima
 # Apreciações sobre Utensílios de Chá
 
 **Categoria:** taidan | **Ano:** 昭和28(1953)年6月17日 | **Fonte:** Eikou
+**Título Original:** 明主様と谷川徹三氏との御対談 (三) | **Status:** Published
 
 ## Apreciações sobre Utensílios de Chá
 
@@ -3261,6 +3476,7 @@ A esse respeito, tenho um relato interessante. No ano passado, o *chawan* Fuzan,
 # A Origem das Doações e o Progresso da Obra Divina
 
 **Categoria:** taidan | **Ano:** 昭和25(1950)年1月21日 | **Fonte:** -
+**Título Original:** ある日の対談 | **Status:** Published
 
 ## A Origem das Doações e o Progresso da Obra Divina
 
@@ -3283,6 +3499,7 @@ Nesse sentido, os recursos arrecadados são prontamente revertidos para as despe
 # Um Diálogo sobre a Política e a Fé
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年8月27日 | **Fonte:** -
+**Título Original:** ある政客との対談 | **Status:** Published
 
 ## Um Diálogo sobre a Política e a Fé
 
@@ -3355,6 +3572,7 @@ O político, o presidente do jornal e o repórter, em uníssono, declararam: "Es
 # A Construção do Paraíso na Terra e a Salvação pela Alegria
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年7月9日 | **Fonte:** Eikou
+**Título Original:** 明主様 レモン・カルティエ氏夫妻と御対談 | **Status:** Published
 
 ## A Construção do Paraíso na Terra e a Salvação pela Alegria
 ### Diálogo com o Senhor e a Senhora Raymond Cartier
@@ -3550,6 +3768,7 @@ A senhora Cartier, observando as peças de cerâmica, apontou para uma delas e d
 # Diálogo sobre a Defesa da Nação
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年9月17日 | **Fonte:** -
+**Título Original:** ある客との対談 | **Status:** Published
 
 ## Diálogo sobre a Defesa da Nação
 
@@ -3570,6 +3789,7 @@ Todavia, o cerne da questão é que, se o indivíduo possuir um corpo saudável,
 # Um Diálogo com Meishu-Sama: A Gênese da Fé e a Realidade do Mundo Espiritual
 
 **Categoria:** taidan | **Ano:** 昭和26(1951)年5月6日 | **Fonte:** 週刊朝日
+**Título Original:** 問答有用 徳川夢声 連載対談 | **Status:** Published
 
 ## Um Diálogo com Meishu-Sama: A Gênese da Fé e a Realidade do Mundo Espiritual
 
@@ -3829,6 +4049,7 @@ Nascido em dezembro de 1882 em Asakusa, Tóquio, com 68 anos de idade. Desde ced
 # Prefácio da Edição Inaugural
 
 **Categoria:** so | **Ano:** 昭和10(1935)年2月11日 | **Fonte:** 紫苑
+**Título Original:** 創刊の辞 | **Status:** Published
 
 ## Prefácio da Edição Inaugural
 
@@ -3841,6 +4062,7 @@ Contudo, mesmo para nós, que almejamos uma imersão constante no sublime estado
 # Sobre as Críticas Imaginárias
 
 **Categoria:** so | **Ano:** 昭和24(1949)年5月8日 | **Fonte:** -
+**Título Original:** 想像による批判 | **Status:** Published
 
 ## Sobre as Críticas Imaginárias
 
@@ -3857,6 +4079,7 @@ Afirmo categoricamente que não existe método mais eficaz para conter a crescen
 # A Religião dos Benefícios Imediatos e o Ideal da Paz Mundial
 
 **Categoria:** taidan | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** -
+**Título Original:** 自観大先生との対談 | **Status:** Published
 
 ## A Religião dos Benefícios Imediatos e o Ideal da Paz Mundial
 
@@ -3927,6 +4150,7 @@ Em suma, o capitalismo é necessário, o socialismo é necessário e o comunismo
 # taidan25
 
 **Categoria:** taidan | **Ano:** 昭和27(1952)年11月19日 | **Fonte:** Eikou
+**Título Original:** 明主様と文学 | **Status:** Published
 
 Revista Eikou, nº 183, publicada em 19 de novembro de 1952.
 
@@ -3999,233 +4223,6 @@ No último dia 12 de outubro, recebemos a visita do senhor H., promissor escrito
 **Meishu-Sama:** Para tal, passei por um treinamento muito intenso. Um treinamento como raramente se vê.
 
 **Senhor H.:** Agradeço imensamente pelo seu tempo.
-
----
-
-# O Destino do Mundo, a Revolução da Medicina e a Agricultura Natural
-
-**Categoria:** taidan | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
-
-## O Destino do Mundo, a Revolução da Medicina e a Agricultura Natural
-
-**Um diálogo com o Sr. Shiro Takeuchi e outros dois cavalheiros (Parte II)**
-*Publicado na revista Eikou, nº 194, em 4 de fevereiro de 1953*
-
-### O devir do mundo
-
-**Sr. Takeuchi:** Mestre, o senhor não faz profecias?
-
-**Meishu-Sama:** Não é que eu não as faça. Contudo, por ser uma questão que envolve minha credibilidade, abstenho-me de falar, a menos que se trate de algo indubitavelmente certo e seguro. Todavia, na edição de Ano-Novo da revista Eikou, a de número 189, escrevi sobre a guerra em um artigo intitulado “Sonho de um Mundo Futuro”. Nele, apresentei cerca de dois terços dos acontecimentos na forma de uma suposição, mas, na verdade, tenho pleno conhecimento de todo o desenrolar dos fatos, até sua conclusão.
-
-Por exemplo, no que tange à China Comunista, ela será completamente derrotada pelos Estados Unidos, e Chiang Kai-shek retornará ao poder. Entretanto, também escrevi que o governo não será exercido por ele, mas sim por um de seus subordinados ou alguém de sua linhagem.
-
-Quanto à Terceira Guerra Mundial, também tenho conhecimento, mas considero prematuro discorrer sobre o assunto no momento. Se ouvissem o que sei, ficariam estarrecidos. Igualmente, sei o que advirá ao mundo após o desfecho desse conflito.
-
-**Sr. Takeuchi:** A propósito, a Terceira Guerra Mundial de fato ocorrerá?
-
-**Meishu-Sama:** Sim, inevitavelmente.
-
-**Sr. Takeuchi:** E, caso ocorra, será em um futuro próximo?
-
-**Meishu-Sama:** Podemos esperar que aconteça nos próximos anos. E será, certamente, uma guerra com bombas atômicas.
-
-**Sr. Takeuchi:** Stalin não morrerá antes disso?
-
-**Meishu-Sama:** É provável que ele viva por um tempo considerável, mas não posso afirmá-lo com certeza.
-
-Recentemente, escrevi um livro intitulado “A Salvação da América”. Fi-lo porque, em caso de guerra, os Estados Unidos também sofrerão danos severos e precisarão ser reerguidos. Minha obra trata da questão da medicina, e senti a necessidade de escrevê-la para salvar aquele país antes que os estragos se tornem demasiadamente graves. Pretendo traduzi-la para o inglês e distribuí-la a políticos, profissionais da área médica e outras personalidades influentes nos Estados Unidos.
-
-**Sr. Kosaka:** Se uma guerra atômica tiver início, isso não significará a aniquilação da humanidade?
-
-**Meishu-Sama:** O conflito se restringirá aos Estados Unidos e à União Soviética; as outras nações não serão significativamente afetadas. Creio que o Japão poderá assistir aos acontecimentos de uma posição segura.
-
-**Sr. Kosaka:** Mas será possível manter-se em tal posição?
-
-**Meishu-Sama:** Creio que sim, pois será um assunto entre americanos e soviéticos. A guerra na China também se intensificará, mas o Japão estará a salvo. Stalin não intervirá, mesmo que a China Comunista seja derrotada. Seus planos vão muito além de simplesmente ajudar os chineses.
-
-**Servo Abe:** O Mestre devota Seus pensamentos a questões de tamanha magnitude que outros assuntos menores se tornam irrelevantes.
-
-**Sr. Takeuchi:** Ao ponto de escrever um livro como “A Salvação da América”, de fato, faz todo o sentido.
-
-**Servo Abe:** Nenhuma outra organização religiosa se ocupa de tais questões.
-
-**Meishu-Sama:** É por isso que afirmo não liderar uma religião. Se a salvação pudesse ser alcançada por meio das religiões, já deveríamos ter sido salvos há muito tempo, dada a quantidade delas que já surgiram.
-
-### A revolução fundamental da medicina
-
-**Sr. Kosaka:** A capa deste livro, “A Salvação da América”, é realmente impressionante.
-
-**Servo Abe:** Mesmo exposta em uma livraria, ela chama a atenção imediatamente.
-
-**Sr. Kosaka:** Com certeza atrairá muitos olhares.
-
-**Meishu-Sama:** Pretendo distribuí-lo a todas as personalidades influentes de lá, a começar pelo presidente.
-
-**Sr. Kosaka:** Mestre, recentemente, doenças estranhas têm se manifestado no Japão. Por exemplo, ouve-se falar de resfriados que causam hemorragias nasais e da penicilina, que antes era eficaz, mas que agora parece não surtir mais efeito. A medicina parece perplexa e impotente diante dessas enfermidades que ela não consegue decifrar.
-
-**Meishu-Sama:** Tenho falado constantemente sobre isso. Se as coisas continuarem como estão, surgirão doenças ainda mais singulares. Os médicos dizem não compreender a razão das hemorragias nasais que acompanham um simples resfriado, mas, sob nossa ótica, a explicação é bastante clara. O ser humano moderno utiliza excessivamente a mente e, ao mesmo tempo, consome medicamentos e injeções de forma contínua. Consequentemente, essas substâncias sobem para a cabeça. Como todos os remédios são, em sua essência, toxinas, o cérebro fica saturado. Quando a febre se manifesta, ela dissolve essas toxinas acumuladas, que são então expelidas sob a forma de sangramento nasal. A medicina, por desconhecer esse princípio, tenta suprimir a hemorragia. Contudo, mesmo que consiga detê-la, trata-se apenas de um adiamento do problema, que acabará por se agravar. É para corrigir esses erros fundamentais da medicina que estou escrevendo “O Livro da Revolução da Medicina”. A medicina ocidental precisa ser completamente abolida.
-
-**Sr. Kosaka:** Então, em última análise, a culpa é da proliferação da medicina ocidental.
-
-**Meishu-Sama:** Exato. Pode-se até dizer que a medicina ocidental cria as doenças. Nesse aspecto, a tuberculose é uma de suas criações mais bem-sucedidas.
-
-**Sr. Kosaka:** E pensar que, com o advento das “micinas”, dizia-se que a tuberculose estava sob controle.
-
-**Meishu-Sama:** Isso apenas adiou o momento da manifestação da doença. O avanço da medicina proporcionou somente um prolongamento temporário da vida dos doentes. Sendo algo provisório, as consequências futuras serão terríveis.
-
-Optei por escrever “A Salvação da América” por considerar mais eficaz persuadir os americanos do que os japoneses. A razão é simples: os japoneses tendem a reverenciar e aceitar inquestionavelmente tudo o que provém dos Estados Unidos. No livro, explico que a causa de toda a infelicidade humana reside na doença; portanto, basta eliminá-la.
-
-Mesmo aqueles que promovem guerras são, em essência, doentes espirituais. Uma vez que o ser humano se torne saudável de espírito e corpo, a ideia de tirar a vida de outrem por cobiça ou conflito se tornará tão aterradora que será impossível de ser concebida. Para uma pessoa com sentimentos normais, tal ato é impensável, pois a compaixão o impede. O estado mental que permite tais atos não é humano, é bestial. Portanto, para erradicar esses pensamentos, basta que o homem se torne plenamente saudável, de espírito e corpo. Em suma, a salvação do mundo se resume a eliminar a doença da humanidade; todo o resto se resolverá por si só.
-
-**Servo Abe:** Nesse sentido, o jornal Hochi Shimbun planeja aumentar sua edição em duas páginas, criando uma seção dedicada ao lar. A prioridade será a saúde humana, com ênfase especial em uma coluna intitulada “A Nova Religião e a Saúde”.
-
-**Meishu-Sama:** É uma excelente iniciativa. O essencial para eliminar as doenças é, antes de tudo, impedir que elas surjam. Apenas isso já seria suficiente. Ora, quem se ocupa dessa tarefa é a medicina moderna. A julgar pelos resultados, se ela fosse verdadeiramente correta, o número de doentes diminuiria ano a ano, e em vinte ou trinta anos, as doenças teriam sido erradicadas. O fato de a realidade ser o oposto disso é a prova de que a medicina moderna não é a verdadeira medicina.
-
-**Sr. Konishi:** Li seu ensaio sobre esportes e achei notável sua observação sobre o fortalecimento dos atletas negros e o enfraquecimento dos brancos. Certa vez, discuti isso com um diretor de esportes. Nos Estados Unidos, por exemplo, a maioria dos atletas de destaque é negra, o que nos leva a crer que, em breve, todos os recordes mundiais serão quebrados por eles. Isso é particularmente evidente no boxe. Embora no atletismo tenha surgido Zatopek, na maratona, a maioria dos demais atletas é negra. Penso que seria excelente publicar ensaios sobre esportes como esse. O Hochi Shimbun é um jornal especializado no assunto e certamente seria lido por muitas pessoas.
-
-**Meishu-Sama:** Perfeitamente. E seria interessante acrescentar o tema da religião a essa discussão.
-
-**Sr. Konishi:** Penso o seguinte: não é necessário dizer explicitamente “a Sekaikyuseikyou é assim”. Bastaria divulgar que em Atami existem obras tão magníficas e que aqui se realizam atividades culturais de alto nível. Com isso, as pessoas compreenderiam que esta é uma nova religião, adequada ao homem moderno.
-
-### Não aprecio religiões
-
-**Meishu-Sama:** De modo geral, não aprecio religiões.
-
-**Sr. Konishi:** Jamais encontrei um líder espiritual como o senhor. Conheci muitos outros, mas a maioria recorria a intimidações baratas ou, subitamente, exclamava “Namu Myoho Renge Kyo”, o que me deixava perplexo.
-
-**Meishu-Sama:** Detesto profundamente essa figura do líder ou fundador religioso que se apresenta de maneira excêntrica. É muito mais confortável e, a meu ver, mais autêntico, não ser em nada diferente de uma pessoa comum. Afinal, por mais que seja um religioso, ele não deixa de ser um ser humano.
-
-**Sr. Takeuchi:** Quando o encontrei pela primeira vez, em Gora, imaginei que o senhor estaria vestindo algum traje peculiar. Contudo, o encontrei fumando um cigarro com a maior naturalidade, e a partir daquele momento, tudo se tornou fascinante para mim. Observando sua personalidade, Mestre, percebo que a Sekaikyuseikyou não recorre a artifícios para intimidar as pessoas e não possui aquela atmosfera sombria. Isso, para mim, é algo extremamente positivo.
-
-**Meishu-Sama:** Em suma, não temos aquele ar de religião, não é mesmo?
-
-**Sr. Takeuchi:** De fato, não há nenhum ranço clerical.
-
-**Meishu-Sama:** Para mim, isso não tem importância. O que verdadeiramente fala por si é o trabalho que realizamos. Se ele de fato salva as pessoas e contribui para o bem do mundo, é o que basta.
-
-**Sr. Takeuchi:** O que aprecio na Sekaikyuseikyou é sua dimensão cultural e sua solidez.
-
-### A urgência de romper com a superstição dos fertilizantes
-
-**Servo Abe:** Que tal o jornal abordar também a Agricultura Natural? É certo que, em cinco anos, ela proporciona um aumento de 50% na produção. Se esse método se difundisse entre os agricultores em geral, seria algo extraordinário.
-
-**Meishu-Sama:** Em um dos relatórios recentes, houve um caso de treze fardos de arroz por tan.
-
-**Servo Abe:** Talvez isso seja ainda mais fácil de compreender do que a cura de doenças.
-
-**Diretor Kihara:** Se a seção acabar se chamando “Lar e Religião”, a Agricultura Natural será um tema indissociável.
-
-**Meishu-Sama:** Exato. E, nesse caso, os agricultores não terão como não ler o jornal. Além do mais, o sabor do arroz e dos vegetais cultivados por esse método é excepcional. Quem os prova não consegue mais comer outros. Laranjas e caquis cultivados sem adubo também são deliciosos. Ou seja, obtêm-se alimentos saborosos e em maior quantidade. Além disso, elimina-se o custo com fertilizantes, e as perdas por desastres naturais, como ventos e enchentes, são mínimas. Isso ocorre porque, sem adubo, o número de raízes aumenta consideravelmente, tornando a planta mais firme e resistente a tombamentos. E, mesmo que tombe, ela se reergue. O mais importante, contudo, é a ausência de pragas. Os insetos surgem por causa dos fertilizantes. O recente aumento na variedade de pragas é consequência direta do aumento na variedade de adubos.
-
-Há apenas um ponto a ser observado ao se implementar a Agricultura Natural. Ao fazer a transição de um arrozal que utilizava adubos, a plantação, no primeiro ano, parecerá extremamente frágil. A situação é análoga à de um dependente químico que, ao abandonar a droga, passa por um período de profunda debilidade. O mesmo ocorre com o solo. Ao suspender os fertilizantes, ele entra temporariamente nesse estado, o que assusta a todos. Contudo, com paciência, ao chegar o outono, a plantação se recupera, e a produção é quase a mesma do ano anterior. No segundo ano, a melhora é visível, embora no início ainda não seja exuberante. A partir do terceiro e quarto anos, a melhora é progressiva, e no quinto ano, alcança-se um aumento de 50% na produção. Recentemente, até mesmo pessoas que não são membros de nossa Igreja têm começado a imitar e a praticar esse método.
-
-Em última análise, o ser humano moderno está acorrentado a superstições: a superstição dos fertilizantes e a superstição dos venenos travestidos de remédios. É nosso dever romper com elas.
-
-Mudando de assunto, recebi um relato impressionante de um homem que, trabalhando em uma mina de carvão, escapou de situações de perigo por quatro ou cinco vezes. Ele escreveu que os mineiros não tinham outra alternativa senão acreditar que se tratava da proteção Divina. Seria bom publicar algo assim no jornal. Se esse princípio for compreendido em profundidade, os acidentes em minas de carvão diminuirão drasticamente. Se houver quatro ou cinco membros em uma única mina, o número de acidentes cairá vertiginosamente. O relato mencionava que algo que deveria ter explodido simplesmente não explodiu.
-
-**Sr. Takeuchi:** Qual seria a razão para isso?
-
-**Meishu-Sama:** A explicação para isso reside no plano espiritual, o que talvez lhes pareça inacreditável. Contudo, trata-se de uma ciência autêntica. Eu a denomino Ciência Divina, e seus fenômenos podem ser elucidados cientificamente. Pretendo escrever sobre isso no futuro. Gradualmente, tenciono esclarecer por completo todos os fenômenos até hoje considerados inexplicáveis, como os milagres. Será, por assim dizer, uma ciência muito avançada. Poderíamos chamá-la de a ciência do século XXI.
-
-**Todos:** Mestre, agradecemos imensamente por nos conceder seu precioso tempo.
-
----
-
-# O Suplício do Prurido
-
-**Categoria:** so | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
-
-## O Suplício do Prurido
-
-O suplício da dor no corpo humano é conhecido por todos; todavia, o tormento do prurido só pode ser verdadeiramente compreendido por aqueles que o vivenciaram. Com efeito, o prurido patológico é um sofrimento que em nada é inferior à dor. As causas dessa enfermidade são de três naturezas: toxinas medicamentosas, toxinas da varíola e intoxicação alimentar. Comecemos por elucidar a primeira delas.
-
-A manifestação mais conhecida de doença pruriginosa é, sem dúvida, a urticária. A causa de tal moléstia reside, na quase totalidade dos casos, na aplicação de injeções de cálcio. Aqueles que se submetem a esse tratamento invariavelmente apresentam, em maior ou menor grau, episódios de urticária. A erupção pode manifestar-se em um período relativamente curto de um ano após a injeção, mas comumente surge após dois ou três anos, podendo tardar até cinco ou seis anos. Paradoxalmente, a medicina, ao tratar a urticária, recorre a novas injeções de cálcio. Embora se observe algum alívio temporário, a reincidência é inevitável com o passar do tempo. Em essência, diante de um quadro de intoxicação, o uso da própria substância causadora pode gerar um efeito paliativo transitório, de modo análogo ao que ocorre com um dependente de morfina, que encontra alívio momentâneo em seu sofrimento ao utilizar a mesma droga — um fato amplamente conhecido. Por conseguinte, a urticária nada mais é do que o processo pelo qual as toxinas medicamentosas são expelidas através da pele por meio da ação purificadora. Bastaria, portanto, suportar o desconforto por um determinado período e abster-se de qualquer intervenção para que a cura se processasse naturalmente. Embora os sintomas da urticária variem de pessoa para pessoa, o prurido é um tormento sempre presente, o que facilita seu diagnóstico. Outras causas, como a intoxicação por antipirina e certos medicamentos injetáveis, também podem desencadear o quadro, mas, em todos esses casos, a cura sobrevém de forma espontânea.
-
-Ademais, existe uma outra doença eruptiva, semelhante à urticária, mas distinta dela. Enquanto na urticária as lesões são diminutas, como grãos de milhete, nesta outra afecção as pústulas são maiores, podendo atingir o tamanho de um grão de soja nos casos mais severos. Nas formas brandas, a erupção é localizada; contudo, nos quadros graves, pode disseminar-se por todo o corpo. O suplício do prurido é atroz, acompanhado por uma exsudação contínua de uma matéria purulenta rala e, em raras ocasiões, pelo acúmulo dessa secreção em áreas específicas, causando inchaço. A enfermidade prolonga-se por um período considerável, que pode variar de seis meses, nos casos mais breves, a vários anos. Nos pacientes em estado gravíssimo, o sofrimento é de tal monta que alguns chegam a cogitar o suicídio, revelando a terrível natureza desta doença. Mesmo após a aparente cura, focos da enfermidade frequentemente persistem em certas áreas, e a recuperação completa pode demandar muitos anos.
-
-A etiologia desta doença reside exclusivamente na toxina da varíola em estado yin. Em contraste com a varíola propriamente dita, que é uma doença aguda, esta poderia ser descrita como uma varíola crônica. Trata-se, evidentemente, de uma consequência do enfraquecimento da capacidade purificadora do organismo, provocado pela vacinação. De fato, ao se observar a pele de um paciente no auge de um quadro severo, a semelhança com a varíola é notável.
-
-Por fim, há manifestações sintomáticas semelhantes às da urticária que decorrem da intoxicação por peixes e frutos do mar. Nesses casos, observa-se rubor localizado ou generalizado, febre, erupções cutâneas e intenso prurido, mas o quadro se resolve invariavelmente em dois ou três dias. Trata-se, naturalmente, de uma intoxicação alimentar relacionada ao sistema intestinal. O equívoco da medicina reside em presumir, erroneamente, que a urticária causada pela intoxicação por cálcio também possui uma origem intestinal. Assim, aplicam uma terapêutica voltada para os intestinos que, por não se dirigir à verdadeira causa, não produz qualquer efeito.
-
----
-
-# As Intenções Soviéticas
-
-**Categoria:** so | **Ano:** 昭和11(1936)年4月11日 | **Fonte:** 観音のHikari
-
-## As Intenções Soviéticas
-
-Recentemente, em virtude da súbita e enérgica atividade militar empreendida pela União Soviética na fronteira manchu-mongol, tanto o governo quanto inúmeras autoridades no assunto parecem enfrentar dificuldades para compreender quais seriam seus verdadeiros desígnios. A esse respeito, desejo expor nossa perspectiva.
-
-O intento soviético de buscar um desfecho para a questão por meio de um conflito com o Japão em um futuro próximo é plenamente perceptível. O momento oportuno para tal empreitada, ao que tudo indica, coincidirá com a conclusão da duplicação da Ferrovia Transiberiana e da construção da nova Ferrovia Baikal-Amur. Essa etapa, por sua vez, marcará o término do Segundo Plano Quinquenal.
-
-Contudo, como parte de seu planejamento estratégico, é provável que primeiro busquem atrair e concentrar o máximo possível de tropas japonesas na Manchúria, em uma manobra diversionista. O objetivo seria desguarnecer o território japonês para, então, desencadear subitamente o conflito. O ataque principal, nesse cenário, consistiria em um bombardeio aéreo em larga escala, executado por uma vasta frota de aeronaves. Tal suposição encontra respaldo nas declarações audaciosas feitas recentemente por Stálin a correspondentes estrangeiros.
-
-Ademais, a drástica expansão do orçamento militar soviético alcançou cifras surpreendentes. Segundo relatório de nosso Ministério da Guerra, o montante que em 1934 era de aproximadamente 1,8 bilhão de rublos saltou, em apenas dois anos, para 14,8 bilhões no corrente ano. Trata-se, com efeito, de um aumento de quase dez vezes em comparação com o biênio anterior.
-
-Acresce a isso a recente declaração do alto comando do Exército soviético, segundo a qual os preparativos bélicos no Extremo Oriente estariam praticamente concluídos. Nesse sentido, suas últimas ações ofensivas podem ser compreendidas como um reflexo natural dessa prontidão militar.
-
-Atualmente, o contingente soviético posicionado no Extremo Oriente ultrapassa duzentos mil homens. Caso prossigam com suas atividades de provocação, seremos compelidos a deslocar, no mínimo, cem mil de nossos soldados para a Manchúria. Todavia, se o plano de nosso adversário é, de fato, desguarnecer as defesas internas do Japão, torna-se imperativo que estabeleçamos contramedidas adequadas para fazer face a essa estratégia.
-
----
-
-# A Medicina que se Rebela contra o Criador
-
-**Categoria:** so | **Ano:** 昭和24(1949)年10月8日 | **Fonte:** -
-
-## A Medicina que se Rebela contra o Criador
-
-Ao se deparar com este título, o leitor porventura o julgará estranho. Contudo, não há como negá-lo, pois se trata de uma realidade irrefutável.
-
-A medicina contemporânea orgulha-se de seus avanços cirúrgicos; todavia, dificilmente haveria equívoco maior. Tomemos como exemplo o caso da apendicite. A medicina prontamente extirpa o apêndice vermiforme. A justificativa apresentada é a de que “o apêndice é um órgão supérfluo para a saúde humana, e sendo a causa da apendicite, o melhor a fazer é removê-lo”. Tal raciocínio é, em verdade, assustador.
-
-Isto porque o Criador, que deu origem a todas as coisas, jamais teria concebido um único elemento inútil no corpo humano, obra que se pode considerar a mais primorosa de Suas criações. Desde uma única unha até um só fio de cabelo, nada é desprovido de propósito; cada parte desempenha uma função útil e específica. Decretar algo como inútil revela apenas um profundo desconhecimento sobre os fundamentos das funções corporais. Sendo assim, não seria exagero afirmar que a medicina cirúrgica moderna se resume a uma única palavra: barbárie. Nesse sentido, a verdadeira medicina consiste em eliminar por completo a causa da enfermidade — o pus e o sangue com toxinas —, sem lesar a mais ínfima parte funcional do organismo, preservando sua forma original intacta. Avançar progressivamente nessa direção é o caminho que a genuína arte de curar deve trilhar.
-
-Portanto, a cirurgia moderna não é propriamente medicina, mas um mero expediente para o alívio temporário do sofrimento. Ademais, o resultado dessa mitigação passageira é o enfraquecimento sistêmico do indivíduo, levando, invariavelmente, à abreviação de sua vida. Trata-se, em suma, de uma agressão à obra do Criador, configurando um verdadeiro ato de rebelião contra Ele.
-
-Sob essa ótica, pode-se afirmar, sem a menor presunção, que o Johrei de nossa Igreja representa a plena sintonia com a vontade do Criador, sendo, por conseguinte, a autêntica medicina.
-
----
-
-# O Ábaco e a Eficiência
-
-**Categoria:** so | **Ano:** 昭和26(1951)年12月26日 | **Fonte:** Eikou
-
-## O Ábaco e a Eficiência
-
-Ao observar os japoneses de hoje, desejo, no momento, dirigir-lhes uma advertência sobre o descaso para com o ábaco e a notória indiferença em relação à eficiência. Naturalmente, ambos os temas estão intimamente interligados, razão pela qual os abordo em conjunto. E quando me refiro ao ábaco, não aludo apenas ao seu uso em questões financeiras, mas a uma aplicação muito mais ampla. Trata-se de um ponto de importância insuspeitada, e atentar para ele trará, sem dúvida, imensos benefícios à condução da própria vida. Nesse aspecto, os japoneses demonstram uma surpreendente displicência: possuem uma vaga noção do tempo, carecem de planejamento e, em sua maioria, agem de forma impulsiva e ao sabor das circunstâncias.
-
-Consequentemente, a negligência com o cálculo gera desperdícios que, por sua vez, afetam a eficiência, resultando em perdas consideráveis. O trabalho torna-se desagradável, gerando impaciência, e este descontentamento volta a impactar negativamente a produtividade, criando um ciclo de prejuízos que passam despercebidos.
-
-Observemos, em contrapartida, os americanos. Provavelmente, não existe povo que utilize o cálculo com tanta maestria. Tomemos a guerra como exemplo. Eles empregam o poderio das máquinas ao extremo, com o objetivo primordial de preservar vidas humanas. Na recente Guerra da Coreia, a comparação das perdas humanas entre aliados e inimigos é assombrosa: para mais de um milhão de baixas do lado adversário, as forças aliadas sofreram menos de cem mil. Comparemos, ademais, com a Guerra do Pacífico. Enquanto os japoneses demonstravam um espantoso desprezo pela vida, lançando seus próprios corpos como projéteis contra navios inimigos em ataques suicidas com aviões ou treinando com lanças de bambu, qual era a abordagem americana? Com apenas alguns técnicos, eles eram capazes de lançar um único avião carregando uma bomba atômica e aniquilar uma cidade inteira. A disparidade é tamanha que dispensa comentários. Tudo isso se resume à diferença fundamental entre calcular e não calcular, um ponto que merece profunda reflexão.
-
-A causa para tal comportamento parece residir nos resquícios de uma antiga mentalidade de samurai, ainda presente no povo japonês, que tende a desprezar o cálculo. É desnecessário discorrer sobre o quão desvantajosa essa atitude se torna nos tempos atuais e vindouros. Ademais, persiste entre os japoneses uma tendência excessiva de se prender a conceitos vazios como a manutenção da honra, a obstinação estoica ou as aparências. O prejuízo que tal postura acarreta, tanto para o indivíduo quanto para a nação, é considerável.
-
-Nesse ponto, permito-me escrever um pouco sobre mim mesmo. Embora seja um líder religioso, adotei como princípio jamais negligenciar o cálculo, algo que se torna evidente ao se observar meus métodos. Seja para os cursos de aperfeiçoamento, para os talismãs sagrados ou para as diversas contribuições, procuro sempre estabelecer valores fixos. Dessa forma, quem contribui o faz com tranquilidade, livre do constrangimento gerado por doações de valor subjetivo, tão comuns em outras religiões. A única exceção são os donativos voluntários, que aceitamos, mas cuja política é jamais coagir. Essa abordagem, provavelmente rara entre as religiões até hoje, tem sido, indiscutivelmente, um fator preponderante para o desenvolvimento de nossa Igreja.
-
-Apesar de tudo o que foi dito, devo esclarecer que não me refiro a cálculos mesquinhos e detalhistas, que seriam apenas maçantes. O que busco manter em mente é uma perspectiva ampla, que avalia os prós e os contras de cada situação. Muitos, ao observarem meu modo de trabalhar, comentam que ele é “americanizado”, e eu mesmo concordo com essa avaliação. A razão é que atribuo o mais alto valor ao cálculo e à eficiência.
-
-No meu cotidiano, por exemplo, estabeleço um plano geral para cada dia. Se surge algum imprevisto, procuro compensá-lo na tarefa seguinte, cuidando para que a programação original seja alterada o mínimo possível. É por essa razão que consigo concluir em cerca de uma hora tarefas que uma pessoa comum levaria um dia inteiro para realizar. A velocidade com que trabalho é tamanha que meus subordinados, que me auxiliam, ficam constantemente atônitos e chegam a clamar em desespero. Eles se lamentam, dizendo: “Meishu-Sama é um ser especial; é impossível sequer tentarmos imitá-lo”.
-
-Contudo, essa forma de pensar está fundamentalmente equivocada. Evidentemente, talvez não consigam agir exatamente como eu, mas dependendo da determinação de cada um, é possível alcançar resultados surpreendentes. É preciso empenhar-se ao máximo, com o espírito de que “a ação resoluta faz até os deuses e demônios se afastarem”.
-
----
-
-# O Tormento do Prurido
-
-**Categoria:** so | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
-
-## O Tormento do Prurido
-
-Todos reconhecem que o prurido, em comparação com a dor, representa um sofrimento que não deve ser subestimado. Sua origem, evidentemente, reside em três tipos de toxinas: as medicamentosas, as congênitas e as provenientes da intoxicação alimentar. As manifestações mais conhecidas desse processo são a sarna e a urticária. A primeira é causada, em sua maioria, por toxinas congênitas, ao passo que a segunda resulta do uso de injeções de cálcio, iodo e outras substâncias.
-
-A sarna, na verdade, é um processo de purificação das toxinas congênitas latentes, originadas pela vacina contra a varíola. Diferentemente da varíola, que é uma doença aguda, a sarna pode ser compreendida como uma "varíola crônica", cuja duração pode variar de alguns meses a até mesmo vários anos.
-
-No que tange à urticária, é comum o recurso a injeções de cálcio. Embora proporcionem um alívio temporário, com o passar do tempo, elas invariavelmente levam à agravação e à reincidência do quadro. Ademais, mesmo quando as injeções de cálcio são administradas com outras finalidades, é certo que, futuramente, a urticária se manifestará. Contudo, essa é uma enfermidade que, se deixada evoluir naturalmente, alcançará a cura completa.
-
-Existem diferentes tipos de urticária. A forma comum se apresenta como inúmeras partículas diminutas na superfície da pele, mas também há manifestações em forma de manchas ou com aspecto geográfico. Inicialmente, as lesões exibem uma coloração avermelhada, que se transforma em negra à medida que a cura progride. Naturalmente, o prurido intenso ocorre na fase avermelhada e desaparece conforme as lesões escurecem. O mesmo processo ocorre com a sarna.
-
-Além disso, certas injeções e intoxicações, como as causadas por antipirina ou pelo consumo de peixes, também podem gerar sintomas semelhantes aos da urticária. Em geral, são quadros temporários, que se resolvem em um ou dois dias nos casos leves e em poucos dias nos mais severos. A única exceção, todavia, é a intoxicação por antipirina, que pode deixar manchas escuras residuais na pele, capazes de persistir por vários anos.
 
 ---
 

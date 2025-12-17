@@ -3,6 +3,7 @@
 # A Missão do Museu de Arte na Providência Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年6月27日） | **Status:** Published
 
 ## A Missão do Museu de Arte na Providência Divina
 
@@ -31,6 +32,7 @@ Embora breve, foi sobre isso que escrevi um pouco.
 # A Edificação do Paraíso em Quioto e a Missão do Povo Japonês
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S27年10月20日） | **Status:** Published
 
 ## A Edificação do Paraíso em Quioto e a Missão do Povo Japonês
 
@@ -67,6 +69,7 @@ Ainda haveria muito a dizer, mas, para não me estender em assuntos desarticulad
 # A Bomba de Hidrogênio e a Salvação da Humanidade
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西 巡教 御講話 （S29年4月12日） | **Status:** Published
 
 ## A Bomba de Hidrogênio e a Salvação da Humanidade
 
@@ -113,6 +116,7 @@ O tempo se esgotou, então encerrarei por aqui. O que acabo de lhes expor é de 
 # A Edificação do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 春季大祭御講話 （S27年3月24日） | **Status:** Published
 
 ## A Edificação do Paraíso Terrestre
 
@@ -155,6 +159,7 @@ Haveria muito mais a dizer. Gostaria de falar sobre o Museu de Arte, mas o tempo
 # Palavras por Ocasião do Aniversário Natalício
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御誕生祭御講話 （S28年12月23日） | **Status:** Published
 
 ## Palavras por Ocasião do Aniversário Natalício
 
@@ -197,6 +202,7 @@ Ademais, nossa missão não se restringe à religião; nosso objetivo é constru
 # A Purificação, a Medicina e o Grande Drama Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月27日） | **Status:** Published
 
 ## A Purificação, a Medicina e o Grande Drama Mundial
 
@@ -237,6 +243,7 @@ De agora em diante, os acontecimentos se tornarão fascinantes. Apenas a Sekaiky
 # A Perspectiva de um Jornalista Estrangeiro
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月27日） | **Status:** Published
 
 ## A Perspectiva de um Jornalista Estrangeiro
 
@@ -295,6 +302,7 @@ Sendo assim, neste momento, tanto o Solo Sagrado de Atami quanto o Museu de Arte
 # A Luz Divina na Era da Cegueira
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年9月16日） | **Status:** Published
 
 ## A Luz Divina na Era da Cegueira
 
@@ -337,6 +345,7 @@ O maior dano advindo de tais práticas é o descrédito que lançam sobre a pró
 # A Essência do Johrei e a Origem dos Males
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月7日） | **Status:** Published
 
 ## A Essência do Johrei e a Origem dos Males
 
@@ -377,6 +386,7 @@ Desde ontem, estou com uma dor de dente e um leve inchaço. Trata-se da dissolu�
 # A Ciência do Johrei e a Edificação do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月7日） | **Status:** Published
 
 ## A Ciência do Johrei e a Edificação do Paraíso Terrestre
 
@@ -421,6 +431,7 @@ Resta-me acrescentar um último ponto. Quando o Paraíso Terrestre se tornar um 
 # O Museu de Arte de Hakone e o Alerta sobre a Tuberculose
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年2月16日） | **Status:** Published
 
 ## O Museu de Arte de Hakone e o Alerta sobre a Tuberculose
 
@@ -473,6 +484,7 @@ Por ora, encerro minhas palavras.
 # A Origem do Mal e a Criação da Civilização
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月15日） | **Status:** Published
 
 ## A Origem do Mal e a Criação da Civilização
 
@@ -515,6 +527,7 @@ Por todas essas razões, pretendo registrar estas observações por escrito para
 # A Bomba de Hidrogênio e a Missão Divina
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年5月26日 | **Fonte:** Eikou
+**Título Original:** 御講話 （於奈良公会堂） | **Status:** Published
 
 ## A Bomba de Hidrogênio e a Missão Divina
 
@@ -561,6 +574,7 @@ Dessa forma, a união entre a cultura da latitude, representada pela América, e
 # A Verdadeira Beleza: A Purificação do Corpo e do Espírito
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月15日） | **Status:** Published
 
 ## A Verdadeira Beleza: A Purificação do Corpo e do Espírito
 
@@ -608,7 +622,8 @@ A fragilidade do senso de justiça hoje é um problema global. Predomina um opor
 
 # Sobre a Edificação do Solo Sagrado e a Missão de Salvação no Tempo Presente
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年9月11日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年9月11日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## Sobre a Edificação do Solo Sagrado e a Missão de Salvação no Tempo Presente
 
@@ -678,7 +693,8 @@ Kannon (観音) é extremamente meticulosa e não aprecia o erro. Portanto, quan
 
 # A Origem da Doença e o Poder Divino dos Novos Amuletos
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年5月11日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年5月11日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Origem da Doença e o Poder Divino dos Novos Amuletos
 
@@ -781,6 +797,7 @@ Relatar as graças por meio de discussões e raciocínios lógicos vai contra o 
 # A Essência da Fé e a Lei Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年5月16日） | **Status:** Published
 
 ## A Essência da Fé e a Lei Divina
 
@@ -836,6 +853,7 @@ A maioria de vocês já deve ter visitado o Museu de Arte de Hakone. Estamos nos
 # O Orgulho Nacional e a Transição para a Era do Dia
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月16日） | **Status:** Published
 
 ## O Orgulho Nacional e a Transição para a Era do Dia
 
@@ -868,6 +886,7 @@ A estirpe de Yamato pertence à linhagem do Sol. O mundo, até o presente moment
 # O Juízo Divino e a Purificação
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月28日） | **Status:** Published
 
 ## O Juízo Divino e a Purificação
 
@@ -902,6 +921,7 @@ Além disso, há a questão da vacina BCG. Li recentemente no jornal uma histór
 # A Interpretação Correta dos Ensinamentos e o Discernimento Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年6月7日） | **Status:** Published
 
 ## A Interpretação Correta dos Ensinamentos e o Discernimento Espiritual
 
@@ -967,7 +987,8 @@ Bem, as conversas sobre este assunto não têm fim, portanto, encerrarei por aqu
 
 # A Missão da Nova Medicina Japonesa
 
-**Categoria:** kouwa | **Ano:** 昭和21(1946)年11月3日 | **Fonte:** 療術師組合結成式 祝辞 昭和21
+**Categoria:** kouwa | **Ano:** 昭和21(1946)年11月3日 | **Fonte:** 祝辞 昭和
+**Título Original:** 療術師組合結成式 | **Status:** Unknown
 
 ## A Missão da Nova Medicina Japonesa
 
@@ -994,6 +1015,7 @@ Conselheiro da Associação dos Terapeutas de Tóquio
 # A Crítica da Arte e a Missão do Museu
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月1日） | **Status:** Published
 
 ## A Crítica da Arte e a Missão do Museu
 
@@ -1032,6 +1054,7 @@ Quando falo sobre este assunto, acabo me empolgando.
 # A Ilusão do Heroísmo e a Lei Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （28年7月1日） | **Status:** Published
 
 ## A Ilusão do Heroísmo e a Lei Espiritual
 
@@ -1052,6 +1075,7 @@ Sem a menor dúvida. Aliás, para um imperador, o pecado é ainda mais pesado. Q
 # Sobre a Postura da Fé e a Perspectiva Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年12月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年12月1日） | **Status:** Published
 
 ## Sobre a Postura da Fé e a Perspectiva Divina
 
@@ -1188,6 +1212,7 @@ Os Estados Unidos, a União Soviética e o Japão, por outro lado, adotaram a va
 # A Salvação que Transcende a Religião
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月5日） | **Status:** Published
 
 ## A Salvação que Transcende a Religião
 
@@ -1230,6 +1255,7 @@ Por hoje, encerro minhas palavras.
 # Reflexões sobre a Obra em Quioto e sua Expansão Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 関西巡教御講話 （S28年11月10日） | **Status:** Published
 
 ## Reflexões sobre a Obra em Quioto e sua Expansão Mundial
 
@@ -1282,6 +1308,7 @@ Resta o Japão, cujo problema central é o arroz. Uma vez que isso seja resolvid
 # A Natureza da Purificação e o Advento do Juízo Final
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月6日） | **Status:** Published
 
 ## A Natureza da Purificação e o Advento do Juízo Final
 
@@ -1322,6 +1349,7 @@ Eles admitiram nunca terem visto muitas das obras de nossa coleção, sejam laca
 # Reflexões sobre a Morte de Stalin e a Providência Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年3月6日） | **Status:** Published
 
 ## Reflexões sobre a Morte de Stalin e a Providência Divina
 
@@ -1352,6 +1380,7 @@ O próximo lançamento será a “Coletânea de Milagres da Sekaikyuseikyou”. 
 # O Advento do Messias e o Rejuvenescimento Divino
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年6月5日 | **Fonte:** 明主様御言葉
+**Título Original:** 明主様御言葉 | **Status:** Unpublished
 
 ## O Advento do Messias e o Rejuvenescimento Divino
 
@@ -1369,7 +1398,8 @@ Gostaria de me aprofundar em diversos assuntos, todavia, como ainda sou, por ass
 
 # O Significado da Peregrinação e a Missão do Movimento de Kannon
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年11月1日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年11月1日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## O Significado da Peregrinação e a Missão do Movimento de Kannon
 
@@ -1428,6 +1458,7 @@ Por tudo isso, sempre que me deparo com casos assim, penso em como é desafortun
 # O Desespero dos Espíritos Malignos e o Avanço da Luz Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月5日） | **Status:** Published
 
 ## O Desespero dos Espíritos Malignos e o Avanço da Luz Divina
 
@@ -1492,6 +1523,7 @@ A razão para isso é que o número de relatos de graças tem aumentado tanto qu
 # A Essência da Salvação e a Visão da Verdade
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年3月6日） | **Status:** Published
 
 ## A Essência da Salvação e a Visão da Verdade
 
@@ -1544,6 +1576,7 @@ A estrutura é como uma pirâmide, com o ápice representando o estado de Kenshi
 # Sobre a Providência Divina e o Discernimento Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月6日） | **Status:** Published
 
 ## Sobre a Providência Divina e o Discernimento Espiritual
 
@@ -1614,6 +1647,7 @@ Contudo, para que a redenção seja efetiva, é preciso que exista a figura do "
 # Análise da Conjuntura Mundial e a Missão da Fé
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月17日） | **Status:** Published
 
 ## Análise da Conjuntura Mundial e a Missão da Fé
 
@@ -1660,6 +1694,7 @@ Embora o tempo seja escasso, gostaria de ler mais um artigo interessante.
 # O Mundo dos Tengu
 
 **Categoria:** te | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 天狗界 | **Status:** Published
 
 ## O Mundo dos Tengu
 
@@ -1698,6 +1733,7 @@ A personalidade do Tengu é caracterizada por seu gosto pela argumentação, sua
 # A Superioridade da Luz Divina sobre a Ciência
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月17日） | **Status:** Published
 
 ## A Superioridade da Luz Divina sobre a Ciência
 

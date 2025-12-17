@@ -3,6 +3,7 @@
 # Esclarecimentos sobre a Fé
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年12月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 妙智之光 | **Status:** Published
 
 ## Esclarecimentos sobre a Fé
 
@@ -97,6 +98,7 @@ Quanto à pronúncia característica da região de Tohoku, ela se deve a razões
 # Respostas a Dúvidas dos Fiéis
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年2月28日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S25年1月**日） | **Status:** Published
 
 ## Respostas a Dúvidas dos Fiéis
 
@@ -207,6 +209,7 @@ R: Ah, essa é uma dúvida que todos têm, inclusive eu. Este Grande Universo é
 # Consultas e Orientações Divinas
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年1月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## Consultas e Orientações Divinas
 
@@ -247,6 +250,7 @@ R: Ah, essa é uma dúvida que todos têm, inclusive eu. Este Grande Universo é
 # O Despertar da Capacidade de Visão Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年1月1日 | **Fonte:** -
+**Título Original:** 霊視能力の実例 信仰に入ると能力発揮 五六七教青心会 佐々木牧子 | **Status:** Published
 
 ## O Despertar da Capacidade de Visão Espiritual
 
@@ -273,6 +277,7 @@ Ademais, a presença de pessoas com essa sensibilidade é de grande valia, pois 
 # Perguntas e Respostas sobre a Fé e a Conduta Humana
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S25年3月3日） | **Status:** Published
 
 ## Perguntas e Respostas sobre a Fé e a Conduta Humana
 
@@ -365,6 +370,7 @@ Existem diversas simpatias desde a antiguidade. Contudo, elas parecem ser mais c
 # Esclarecimentos sobre Questões da Fé e do Espírito
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年12月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## Esclarecimentos sobre Questões da Fé e do Espírito
 
@@ -459,6 +465,7 @@ Não há nenhuma relação espiritual. Tudo é decorrente das toxinas medicament
 # Esclarecimentos sobre a Prática da Fé e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年3月28日） | **Status:** Published
 
 ## Esclarecimentos sobre a Prática da Fé e o Mundo Espiritual
 
@@ -537,6 +544,7 @@ O fato de alguém se olhar no espelho de mão ou de suas narinas tremerem não s
 # Elucidações sobre a Fé e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年2月28日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年12月**日） | **Status:** Published
 
 ## Elucidações sobre a Fé e o Mundo Espiritual
 
@@ -767,6 +775,7 @@ Além disso, uma situação equivocada como essa não pode continuar por muito t
 # A Origem das Enfermidades e a Influência Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年10月18日） | **Status:** Published
 
 ## A Origem das Enfermidades e a Influência Espiritual
 
@@ -825,6 +834,7 @@ Quanto ao ramo familiar extinto, sim, seria muito bom consagrar uma tabuleta mem
 # A Sabedoria que Soluciona o Insolúvel
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年4月8日 | **Fonte:** -
+**Título Original:** 妙智の業 | **Status:** Published
 
 ## A Sabedoria que Soluciona o Insolúvel
 
@@ -941,6 +951,7 @@ Nesse sentido, o ocorrido em 7 de março deste ano foi verdadeiramente assombros
 # Esclarecimentos sobre a Fé e a Prática da Salvação
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年1月8日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S23年11月28日） | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e a Prática da Salvação
 
@@ -1021,6 +1032,7 @@ R: O Mundo Espiritual existe onde os seres humanos vivem. Ele se estende até um
 # Esclarecimentos sobre Enfermidades e Questões Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S27年1月27日） | **Status:** Published
 
 ## Esclarecimentos sobre Enfermidades e Questões Espirituais
 
@@ -1083,6 +1095,7 @@ Isso tampouco é gonorreia. Trata-se de um furúnculo que se formou na uretra, e
 # O Significado do Obon e Outros Esclarecimentos Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月21日 | **Fonte:** 会報
+**Título Original:** 妙智の鍵 日光分会 | **Status:** Published
 
 ## O Significado do Obon e Outros Esclarecimentos Espirituais
 
@@ -1173,6 +1186,7 @@ Antigamente, em tempos de guerra, os clãs hasteavam bandeiras para se identific
 # Orientações sobre Purificações e Fenômenos Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年8月8日） | **Status:** Published
 
 ## Orientações sobre Purificações e Fenômenos Espirituais
 
@@ -1325,6 +1339,7 @@ Entendo, mas vivendo no andar de baixo, é absolutamente impossível entronizar 
 # Esclarecimentos sobre a Purificação e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月12日 | **Fonte:** 御Hikari話要旨
+**Título Original:** 御光話要旨 神和会 | **Status:** Unknown
 
 ## Esclarecimentos sobre a Purificação e o Mundo Espiritual
 
@@ -1490,6 +1505,7 @@ Todo ser humano possui três tipos de Espíritos Guardiães, dentro e fora de se
 # Esclarecimentos Divinos
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S26年12月8日） | **Status:** Published
 
 ## Esclarecimentos Divinos
 
@@ -1922,6 +1938,7 @@ Também se fala de Ame no Torifune no Mikoto, que teria viajado a outros países
 # A Vontade Divina e as Aflições Terrenas
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年8月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## A Vontade Divina e as Aflições Terrenas
 
@@ -2040,6 +2057,7 @@ Não há relação espiritual neste caso. A doença, se tivesse sido deixada evo
 # Esclarecimentos sobre a Vida, a Morte e os Costumes
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月10日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年5月13日） | **Status:** Published
 
 ## Esclarecimentos sobre a Vida, a Morte e os Costumes
 
@@ -2180,6 +2198,7 @@ Quanto a isso, não sei dizer. Provavelmente, o que as pessoas viram foi a forma
 # Esclarecimentos sobre a Fé e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** 実生分会ニュース
+**Título Original:** ご存じですか 実生分会 | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -2232,6 +2251,7 @@ O ginkgo, por sua vez, é frequentemente chamado de “ginkgo assombrado”. Diz
 # Orientações Divinas
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S27年7月1日） | **Status:** Published
 
 ## Orientações Divinas
 
@@ -2380,6 +2400,7 @@ Se perseverarem com paciência no tratamento, a cura virá.
 # Respostas aos Questionamentos da Fé
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S26年7月1日） | **Status:** Published
 
 ## Respostas aos Questionamentos da Fé
 
@@ -2490,6 +2511,7 @@ Isso não é verdade. Não se trata de ser ruim; ao contrário, é um nome bom e
 # Esclarecimentos sobre a Fé e a Vida Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 妙智の光 | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e a Vida Espiritual
 
@@ -2581,6 +2603,7 @@ Isso não é verdade. Não se trata de ser ruim; ao contrário, é um nome bom e
 # Esclarecimentos sobre a Fé e a Prática
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S28年12月1日） | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e a Prática
 
@@ -3025,6 +3048,7 @@ Deus criou o erro, os homens maus e os homens bons, e permitiu que tudo isso aco
 # Diretrizes Divinas para a Fé e a Vida Cotidiana
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年5月18日） | **Status:** Published
 
 ## Diretrizes Divinas para a Fé e a Vida Cotidiana
 
@@ -3113,6 +3137,7 @@ Até mesmo a decisão de nos tornarmos uma organização religiosa não partiu d
 # Esclarecimentos sobre o Mundo Espiritual e a Vida Cotidiana
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年4月23日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年4月） 大成会以外の御面会日の御光話の中から適宜選択、載録 | **Status:** Published
 
 ## Esclarecimentos sobre o Mundo Espiritual e a Vida Cotidiana
 
@@ -3323,6 +3348,7 @@ Injeções frequentemente causam inchaços e abscessos nos pés. Isso se cura co
 # Orientações sobre Purificações e Influências Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S27年3月6日） | **Status:** Published
 
 ## Orientações sobre Purificações e Influências Espirituais
 
@@ -3419,6 +3445,7 @@ Está ótimo, a evolução é favorável. Ela será curada. De fato, o problema 
 # Esclarecimentos sobre a Fé e a Obra Divina
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年9月18日） | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e a Obra Divina
 

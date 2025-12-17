@@ -2,7 +2,8 @@
 
 # A Trajetória da Minha Fé
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年1月11日 | **Fonte:** 私の信仰の経路 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年1月11日 | **Fonte:** 昭和
+**Título Original:** 私の信仰の経路 | **Status:** Unknown
 
 ## A Trajetória da Minha Fé
 
@@ -119,6 +120,7 @@ A missão de Deus é nos salvar.
 # A Natureza da Purificação e a Construção do Destino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年10月6日） | **Status:** Published
 
 ## A Natureza da Purificação e a Construção do Destino
 
@@ -159,6 +161,7 @@ Como o tempo é curto, peço que leiam um artigo breve.
 # O Alvorecer do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月1日） | **Status:** Published
 
 ## O Alvorecer do Paraíso Terrestre
 
@@ -203,6 +206,7 @@ Para que a humanidade, a começar pelos povos do Japão e dos Estados Unidos, qu
 # O Museu de Arte e a Providência Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年7月5日） | **Status:** Published
 
 ## O Museu de Arte e a Providência Divina
 
@@ -249,6 +253,7 @@ Temos também um biombo Nanban, da era de Oda Nobunaga. Um especialista de outro
 # A Missão do Museu de Arte na Elevação Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 神仙郷完成兼美術館開館記念祝賀式典御講話３ | **Status:** Published
 
 ## A Missão do Museu de Arte na Elevação Espiritual
 
@@ -348,7 +353,8 @@ Embora eu não pretendesse realizar Johrei nesta ocasião, diante dos muitos ped
 
 # A Verdade Divina e os Equívocos do Mundo Moderno
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年9月1日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年9月1日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Verdade Divina e os Equívocos do Mundo Moderno
 
@@ -407,6 +413,7 @@ Ao final de tudo, o Japão prosperará imensamente. No entanto, está previsto q
 # O Alvorecer da Expansão da Obra Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月1日） | **Status:** Published
 
 ## O Alvorecer da Expansão da Obra Divina
 
@@ -449,6 +456,7 @@ Deus, com Sua sabedoria, conduzirá tudo com maestria. Portanto, a partir deste 
 # A Manifestação do Plano Divino
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月17日） | **Status:** Published
 
 ## A Manifestação do Plano Divino
 
@@ -484,6 +492,7 @@ A esse respeito, há uma história sobre a fundadora da Oomoto-kyo. Certo dia, D
 # A Perspectiva da Justiça e a Sabedoria Divina
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月5日） | **Status:** Published
 
 ## A Perspectiva da Justiça e a Sabedoria Divina
 
@@ -524,6 +533,7 @@ Este é um ponto crucial na fé, embora muitas vezes subestimado. O budismo, por
 # A Vitória que Emerge da Derrota
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月17日） | **Status:** Published
 
 ## A Vitória que Emerge da Derrota
 
@@ -554,6 +564,7 @@ Não que eu esteja imitando Ibsen, pois há diferenças substanciais, mas o prin
 # A Edificação do Belo: O Museu de Hakone e a Visão para o Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 講話 （S27年2月6日） | **Status:** Published
 
 ## A Edificação do Belo: O Museu de Hakone e a Visão para o Paraíso Terrestre
 
@@ -596,6 +607,7 @@ Sei que minhas palavras podem soar como fanfarronice, mas falo com total convic�
 # A Lógica Divina em Nossos Atos e Pensamentos
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年9月6日） | **Status:** Published
 
 ## A Lógica Divina em Nossos Atos e Pensamentos
 
@@ -631,7 +643,8 @@ Permitam-me, para concluir, tecer algumas considerações sobre a doença. Atual
 
 # A Transição para a Segunda Fase da Obra Divina
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年5月1日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年5月1日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Transição para a Segunda Fase da Obra Divina
 
@@ -748,6 +761,7 @@ Portanto, o que parece mentira se tornará realidade, e a organização da socie
 # A Edificação do Belo e a Expansão da Arte
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S27年6月1日） | **Status:** Published
 
 ## A Edificação do Belo e a Expansão da Arte
 
@@ -900,6 +914,7 @@ Sim, propagaremos as melhores variedades de musgo.
 # A Construção do Protótipo do Paraíso Terrestre
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月16日） | **Status:** Published
 
 ## A Construção do Protótipo do Paraíso Terrestre
 
@@ -946,6 +961,7 @@ Como o tempo é escasso, encerrarei minhas palavras por aqui.
 # A Terapia Divina e a Causa das Doenças
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unpublished
 
 ## A Terapia Divina e a Causa das Doenças
 
@@ -1037,7 +1053,8 @@ O beribéri é uma intoxicação pelo arroz branco, por isso é comum em jovens 
 
 # A Terapêutica Divina e a Alvorada de uma Nova Era
 
-**Categoria:** kouwa | **Ano:** 昭和15(1940)年11月9日 | **Fonte:** 特別講習会Gokowa 昭和15
+**Categoria:** kouwa | **Ano:** 昭和15(1940)年11月9日 | **Fonte:** Gokowa
+**Título Original:** 特別講習会御講話 | **Status:** Unknown
 
 ## A Terapêutica Divina e a Alvorada de uma Nova Era
 
@@ -1244,6 +1261,7 @@ O batismo de fogo... purificar o espírito com o espírito. Fui incumbido por De
 # O Discernimento Verdadeiro
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月16日） | **Status:** Published
 
 ## O Discernimento Verdadeiro
 
@@ -1274,6 +1292,7 @@ Isso nos reconduz ao que mencionei anteriormente: pela falta de um discernimento
 # A Natureza Humana e a Missão Divina em Meio às Crises Mundiais
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月7日） | **Status:** Published
 
 ## A Natureza Humana e a Missão Divina em Meio às Crises Mundiais
 
@@ -1340,6 +1359,7 @@ Por fim, o rearmamento do Japão ganhará grande impulso a partir do próximo an
 # A Lógica Espiritual por Trás dos Acontecimentos
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月7日） | **Status:** Published
 
 ## A Lógica Espiritual por Trás dos Acontecimentos
 
@@ -1392,6 +1412,7 @@ Pessoas com o abdômen inchado certamente têm problemas renais. Além disso, a 
 # Perspectivas para um Mundo em Transição
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月3日） | **Status:** Published
 
 ## Perspectivas para um Mundo em Transição
 
@@ -1448,6 +1469,7 @@ Deus não afirma que salvará toda a humanidade. Ele ensina que haverá os que s
 # A Inauguração do Mundo do Dia e a Manifestação do Poder Divino
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 箱根地上天国完成記念祭御講話 （S28年6月15日） | **Status:** Published
 
 ## A Inauguração do Mundo do Dia e a Manifestação do Poder Divino
 
@@ -1487,7 +1509,8 @@ Em suma, para tratar a tuberculose, deve-se focar o Johrei nos ombros, na regiã
 
 # O Plano Divino e a Missão dos Pioneiros
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年11月11日 | **Fonte:** 玉川郷秋季大祭Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年11月11日 | **Fonte:** Gokowa
+**Título Original:** 玉川郷秋季大祭御講話 | **Status:** Unknown
 
 ## O Plano Divino e a Missão dos Pioneiros
 
@@ -1536,6 +1559,7 @@ Assim, a obra de Kannon (観音) progride e avança, passo a passo.
 # A Essência do Discernimento
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年3月16日） | **Status:** Published
 
 ## A Essência do Discernimento
 
@@ -1582,6 +1606,7 @@ Para aprofundar ainda mais, quando se coloca um arranjo diante de um pergaminho,
 # O Avanço da Obra Divina e a Missão da Arte
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年3月16日） | **Status:** Published
 
 ## O Avanço da Obra Divina e a Missão da Arte
 
@@ -1610,6 +1635,7 @@ Outro ponto digno de nota é que, até agora, as exposições em lojas de depart
 # A Verdadeira Ciência e a Ilusão das Superstições
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月15日） | **Status:** Published
 
 ## A Verdadeira Ciência e a Ilusão das Superstições
 
@@ -1634,6 +1660,7 @@ O próximo tema também é bastante interessante, e já o comentei em outra opor
 # A Raiz dos Grandes Males da Sociedade
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月11日） | **Status:** Published
 
 ## A Raiz dos Grandes Males da Sociedade
 
@@ -1662,6 +1689,7 @@ Em suma, a solução virá. Para tanto, basta que as pessoas saibam que Deus exi
 # A Batalha entre o Bem e o Mal e a Divulgação da Verdade
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年8月16日） | **Status:** Published
 
 ## A Batalha entre o Bem e o Mal e a Divulgação da Verdade
 
@@ -1688,6 +1716,7 @@ Ao fazer isso, o público tomará conhecimento de como funciona o nosso sistema 
 # Discurso Proferido no Festival de Risshun
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 立春祭御講話 （S29年2月4日） | **Status:** Published
 
 ## Discurso Proferido no Festival de Risshun
 
@@ -1778,6 +1807,7 @@ Com isso, delineei os principais movimentos que estão por vir.
 # O Progresso da Obra Divina e a Alvorada da Nova Civilização
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月16日） | **Status:** Published
 
 ## O Progresso da Obra Divina e a Alvorada da Nova Civilização
 
@@ -1824,6 +1854,7 @@ Iniciei a escrita de uma nova obra, “A Criação da Civilização”, e a abor
 # Sobre a Discriminação Espiritual e a Eficiência Divina
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年11月18日） | **Status:** Published
 
 ## Sobre a Discriminação Espiritual e a Eficiência Divina
 
@@ -1854,6 +1885,7 @@ Todavia, é fundamental não forçar as situações. Haverá momentos em que pod
 # A Edificação do Mundo Ideal
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 秋季大祭御講話 （S26年9月24日） | **Status:** Published
 
 ## A Edificação do Mundo Ideal
 
@@ -1896,6 +1928,7 @@ Quanto ao livro “A Criação da Civilização”, a seção sobre a ciência e
 # O Significado Espiritual da Sentença Judicial
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月27日） | **Status:** Published
 
 ## O Significado Espiritual da Sentença Judicial
 
@@ -1921,7 +1954,8 @@ Gostaria ainda de fazer uma pequena advertência. Na tentativa de não aplicar f
 
 # A Gênese da Purificação Mundial e a Questão Coreana
 
-**Categoria:** kouwa | **Ano:** 昭和25(1950)年 | **Fonte:** Gokowa 朝鮮問題の真意義 ユダヤ文化の清算
+**Categoria:** kouwa | **Ano:** 昭和25(1950)年 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unpublished
 
 ## A Gênese da Purificação Mundial e a Questão Coreana
 
@@ -1950,6 +1984,7 @@ Todavia, sob a perspectiva de Deus, os méritos não anulam os pecados. É por e
 # A Supremacia do Espírito sobre a Ciência Materialista
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月27日） | **Status:** Published
 
 ## A Supremacia do Espírito sobre a Ciência Materialista
 
@@ -2008,6 +2043,7 @@ Tudo isso se deve à superstição de que o rosto se torna feio sem maquiagem. M
 # A Batalha Contra os Espíritos Malignos
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年9月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年8月8日S） | **Status:** Published
 
 ## A Batalha Contra os Espíritos Malignos
 

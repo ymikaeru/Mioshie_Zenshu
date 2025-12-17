@@ -1,8 +1,86 @@
 # Mioshie_Teachings - Part 27
 
+# A Questão das Substâncias Estranhas ao Organismo
+
+**Categoria:** i | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 異食物に就て | **Status:** Published
+
+## A Questão das Substâncias Estranhas ao Organismo
+
+Embora eu já tenha discorrido detalhadamente sobre a nocividade das toxinas medicinais e dos alimentos inadequados, sinto a necessidade de aprofundar ainda mais o assunto. A função digestiva do ser humano, ao que tudo indica, não é capaz de processar integralmente qualquer substância que não tenha sido provida pela Natureza como alimento para o homem. Nesse sentido, os fármacos, sejam da medicina ocidental ou oriental, não constituem alimentos concedidos pelo Céu. São, por assim dizer, substâncias não alimentares, corpos estranhos ao organismo. De igual modo, engolir serpentes, lesmas, minhocas ou beber o sangue cru de outros seres vivos a título de remédio são práticas que introduzem igualmente corpos estranhos, cujas toxinas permanecem no organismo.
+
+Ademais, nos últimos tempos, tem-se recomendado a ingestão de ossos sob o pretexto de suplementar o cálcio; contudo, é desnecessário dizer que tal prática é um equívoco. Em relação a qualquer peixe, o natural é que se consuma sua carne e se descartem as espinhas, a cabeça e a cauda. A evidência disso se encontra na própria constituição da dentição humana, inapta para roer estruturas como os ossos. Por conseguinte, a Natureza determinou que ossos e afins sejam o alimento dos felinos. É preciso que se desperte o quanto antes para a falácia por trás de teorias simplistas como a de comer ossos para nutrir os ossos ou de beber sangue para aumentar o volume sanguíneo. A seguir, apresentarei alguns exemplos concretos que ilustram o que foi exposto.
+
+Certa vez, ouvi o relato de uma senhora que por muitos anos atuou como enfermeira-chefe em um hospital. Um homem de pouco mais de quarenta anos faleceu subitamente sem causa aparente. Ao submeterem o corpo à autópsia para investigar a causa do óbito, descobriu-se um grande acúmulo de pequenos grânulos escuros em seu intestino, o que foi identificado como a causa da morte. Tratava-se de pílulas laxativas que ele havia ingerido ao longo de muitos anos para combater a constipação intestinal. Pode-se supor que o óbito tenha sido causado por uma obstrução intestinal ou pela paralisia do movimento peristáltico, mas o fato inegável é que a causa da morte foi o acúmulo das pílulas laxativas.
+
+Houve também o caso de um homem de aproximadamente cinquenta anos que faleceu de forma súbita por uma razão semelhante. A única diferença residia na natureza da substância: não se tratava de um laxante, mas sim do uso contínuo de um pó digestivo, semelhante a um antiácido. O resultado da autópsia revelou um depósito maciço desse pó no fundo do estômago e ao longo do trato intestinal.
+
+Outro caso refere-se a um paciente com uma enfermidade gástrica que foi tratado por um de meus discípulos. Ele apresentava pequenos nódulos na parte inferior do estômago, que lhe causavam um desconforto constante. Pouco tempo após iniciar o nosso tratamento, o paciente teve diversos episódios de vômito. Com isso, os referidos nódulos desapareceram, e a sensação de mal-estar cessou.
+
+Ocorre que, durante o vômito, ele expeliu uma substância viscosa com um odor característico de lesmas. O homem então se recordou de que, mais de uma década antes, havia engolido algumas lesmas, as quais, evidentemente, permaneceram sem ser digeridas em seu organismo.
+
+De forma análoga, há o relato de uma cantora profissional que, na esperança de aprimorar sua voz, engoliu duas lesmas. Passados alguns anos, surgiu um pequeno nódulo, semelhante a um tumor, do lado esquerdo de seu estômago, o qual se expandia gradualmente. Diante disso, ela foi internada e submetida a uma cirurgia. Para a surpresa de todos, constatou-se que uma das lesmas estava morta, solidificada em uma massa endurecida, enquanto a outra permanecia viva e havia crescido enormemente dentro de seu corpo.
+
+Esses exemplos demonstram que é um fato inquestionável que as substâncias estranhas ao organismo humano são de difícil digestão, podendo permanecer por anos no corpo e se tornar a origem de doenças.
+
+Portanto, conforme afirmei anteriormente, todo alimento destinado ao ser humano possui sabor e, ao ser consumido com prazer, é integralmente digerido, o que permite a manutenção da saúde. Contudo, por ignorância, há quem considere que substâncias de gosto ou odor desagradáveis são remédios e as ingere com sacrifício. Quando tal atitude se converte na causa de enfermidades que, além de grande sofrimento, chegam a ceifar a própria vida, não há palavras para descrever tamanha insensatez.
+
+---
+
+# O Equívoco da Medicina e o Milagre da Salvação
+
+**Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学を救う 未発表 | **Status:** Unpublished
+
+## O Equívoco da Medicina e o Milagre da Salvação
+
+A natureza aterradora da medicina moderna torna-se cada vez mais evidente à medida que se aprofunda na leitura destes relatos. Contudo, diante do fluxo incessante de testemunhos que chegam a mim, sinto-me impelido a tecer breves comentários sobre cada caso.
+
+O relato a seguir trata de uma senhora que, em decorrência de uma cesariana, passou a sofrer de enurese noturna. Na tentativa de curá-la, submeteram-na à extração do útero e dos ovários, mas o problema persistiu. Após dezenove anos de contínuo sofrimento, ela foi completamente curada com uma única ministração de Johrei. Trata-se, pois, de um verdadeiro milagre entre os milagres.
+
+O que pensaria um médico ao ler tal testemunho? Faltar-lhe-iam, provavelmente, as palavras. Essa mulher é o exemplo emblemático de uma vítima da medicina equivocada.
+
+É desnecessário dizer que a gestação é um processo natural. Se entregue à sua própria natureza, o parto transcorreria sem percalços, pois o Criador assim o determinou em Sua sabedoria. No entanto, a necessidade da cirurgia deveu-se, evidentemente, ao acúmulo de toxinas medicamentosas. Como consequência, ela desenvolveu a enurese e, na tentativa de sanar este novo mal, removeram-lhe os órgãos mais preciosos para uma mulher: o útero e os ovários.
+
+Ainda assim, a cura não veio. Em desespero, buscou amparo na fé, recorrendo a outras religiões, porém, em vão. Foi então que chegou à nossa Igreja. Este percurso de imenso sofrimento é uma narrativa que não se pode ler sem lágrimas.
+
+Ademais, em nossos dias, são inúmeras as pessoas que partilham de semelhante destino. Caso a nossa Igreja Messiânica Mundial não houvesse surgido, não se pode sequer imaginar por quanto tempo este mundo infernal perduraria.
+
+---
+
+# Uma Análise sobre as Enfermidades Gástricas
+
+**Categoria:** i | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 胃疾患 | **Status:** Published
+
+## Uma Análise sobre as Enfermidades Gástricas
+
+Entre os japoneses, as enfermidades gástricas figuram entre as mais prevalentes. Ainda que, em sua maioria, se iniciem com sintomas leves, a aplicação de terapias inadequadas e os equívocos no regime de vida e na alimentação acabam, gradualmente, por cronificá-las. Dessa forma, a maior parte dos casos evolui por um percurso de altos e baixos, culminando em um quadro de gravidade acentuada.
+
+Inicialmente, manifestam-se sintomas brandos como indigestão, azia e dores estomacais. A causa subjacente reside na pressão exercida por toxinas solidificadas na parte externa do estômago. Contudo, o verdadeiro problema emerge do tratamento convencional: o uso de digestivos e a ingestão de alimentos de fácil digestão. Tais métodos, embora ofereçam alívio temporário, promovem, com o uso contínuo, o enfraquecimento do estômago. Isso cria um ciclo vicioso: o paciente recorre novamente aos medicamentos, o estômago se debilita ainda mais e, por fim, a dependência dos digestivos se instala, cronificando a condição. Ademais, o uso prolongado de medicamentos torna a parede estomacal excessivamente flexível. Quando alimentos sólidos entram em contato com essa superfície fragilizada, podem ocorrer fissuras e sangramentos, configurando a úlcera gástrica. Portanto, sendo o uso contínuo de medicamentos a causa primordial da maioria das úlceras, a suspensão desses fármacos, aliada a uma dieta branda, conduz gradualmente à recuperação.
+
+Há também casos em que tumores na parede do estômago provocam sangramentos, que, com o tempo, manifestam-se em fezes com sangue ou vômitos sanguinolentos. Nessas situações, não é raro que os médicos diagnostiquem equivocadamente o quadro como úlcera gástrica. Tal condição, no entanto, pode ser completamente curada através de um processo de purificação natural. A alta incidência de úlceras em pessoas que consomem álcool em excesso deve-se menos ao álcool em si e mais aos medicamentos frequentemente utilizados após a sua ingestão. As toxinas medicamentosas exercem um efeito particularmente nocivo sobre a parede estomacal já congestionada pelo álcool.
+
+Passemos agora ao espasmo gástrico, caracterizado por dores agudas. Existem duas modalidades: a primeira ocorre quando a solidificação das toxinas se intensifica durante o primeiro processo de purificação, comprimindo o estômago; a segunda, quando as toxinas se dissolvem, no segundo processo de purificação. A primeira transcorre sem febre, ao passo que a segunda é acompanhada de febre e de mais fácil resolução. A origem de ambos os quadros reside em medicamentos que, ingeridos ao longo do tempo, retornam ao estômago, convertem-se em um tipo de toxina e ali se solidificam. A hiperacidez gástrica, por sua vez, também é consequência do uso de digestivos e das alterações químicas que estes provocam.
+
+Uma das enfermidades mais temidas pela sociedade é o câncer de estômago. É preciso distinguir, no entanto, entre o câncer gástrico genuíno e o pseudo-câncer. O primeiro, em sua maioria, possui causas espirituais, as quais abordarei posteriormente. Neste momento, debruçar-me-ei sobre os aspectos físicos de ambas as manifestações.
+
+Nos estágios iniciais do câncer gástrico, percebe-se um pequeno nódulo na parte superior externa do estômago ou na região epigástrica, conhecida como boca do estômago. O apetite pode diminuir um pouco, mas não há outras dores ou desconfortos. Diante desse quadro, a medicina frequentemente suspeita de câncer e recorre à remoção cirúrgica. Contudo, ainda que se observe uma melhora temporária após a cirurgia, a recidiva é comum. As estatísticas médicas revelam que, após a intervenção, a sobrevida média não ultrapassa dois anos e meio. Quando a cirurgia não é uma opção, o tratamento médico convencional recorre à radioterapia com rádio. Todavia, conforme já explanado em outras ocasiões, este método não apenas destrói o tecido canceroso, mas também os órgãos internos, resultando, na prática, em uma agravação do quadro.
+
+Com o avanço do câncer genuíno para seus estágios terminais, as toxinas cancerosas se alastram do estômago para o peritônio, a região dos rins e, nos casos mais severos, podem comprometer toda a parte superior do corpo. O paciente passa a vomitar abundantemente uma secreção viscosa e característica, ao mesmo tempo que o apetite diminui drasticamente, levando-o à morte por debilidade extrema. Essa secreção é o traço distintivo do câncer genuíno. Embora a progressão seja geralmente lenta, em alguns indivíduos pode ser assustadoramente rápida. Há casos raros em que a enfermidade acomete metade do corpo em apenas um ou dois dias.
+
+O câncer genuíno, quando em seu estágio inicial, pode ser completamente curado por meio de nossa arte, mas a partir de sua fase intermediária, a recuperação torna-se improvável. Uma característica marcante desta doença é a rápida perda de peso desde o início, chegando, em casos extremos, a uma redução de quase quatro quilos por mês. A pele perde o brilho e a elasticidade, e o paciente desenvolve uma anemia profunda, embora, paradoxalmente, sinta relativamente pouco desconforto ou dor. Esses sintomas permitem um diagnóstico preciso; no entanto, a medicina convencional, ao empregar seus diversos métodos de análise física, muitas vezes não consegue chegar a uma conclusão com facilidade.
+
+A medicina classifica a tuberculose como uma enfermidade consuntiva e o câncer como uma enfermidade proliferativa. Considera-se, também, que as toxinas do câncer são de natureza peculiar, distintas do pus, e, por isso, afirma-se que o câncer não possui germes. Sendo o câncer genuíno de origem espiritual, a medicina materialista é incapaz de identificar sua verdadeira causa e, consequentemente, de estabelecer um tratamento eficaz.
+
+Já o pseudo-câncer é causado pela solidificação de pus e sangue tóxico. Em seus estágios iniciais, assemelha-se ao câncer genuíno, com o surgimento de um nódulo que se estende progressivamente ao peritônio e à região dos rins. No entanto, sua cura é relativamente fácil, e a recuperação completa é a norma, desde que a debilidade do paciente não tenha ultrapassado um certo limite.
+
+---
+
 # O Erro da Medicina e a Salvação pela Fé
 
 **Categoria:** i | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Eikou
+**Título Original:** 医学の正体 | **Status:** Published
 
 ## O Erro da Medicina e a Salvação pela Fé
 
@@ -72,6 +150,7 @@ Muito obrigado, Meishu-Sama.
 # Uma Certa Forma de Atentado aos Direitos Humanos
 
 **Categoria:** i | **Ano:** 昭和25(1950)年12月27日 | **Fonte:** Eikou
+**Título Original:** 一種の人権蹂躪 | **Status:** Published
 
 ## Uma Certa Forma de Atentado aos Direitos Humanos
 
@@ -118,6 +197,7 @@ Para concluir, permitam-me apontar um disparate. Na fala do promotor, afirma-se 
 # O prolongamento da vida
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
+**Título Original:** 生命の継ぎ足し | **Status:** Published
 
 ## O prolongamento da vida
 
@@ -170,6 +250,7 @@ Graças a essa imensa dádiva, fui salva. Meishu-Sama, renovo meus mais profundo
 # A Influenza em Voga e o Processo de Purificação
 
 **Categoria:** i | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
+**Título Original:** 今流行のインフルエンザ | **Status:** Published
 
 ## A Influenza em Voga e o Processo de Purificação
 
@@ -184,6 +265,7 @@ Ademais, a presente gripe, por ser uma purificação superficial do corpo humano
 # O Homicídio de Boa-Fé da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学の罪悪３ 未発表 | **Status:** Unpublished
 
 ## O Homicídio de Boa-Fé da Medicina
 
@@ -196,6 +278,7 @@ Tal fato é uma consequência inevitável do estado primitivo em que a medicina 
 # A Tragédia da Medicina e a Salvação Divina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 偉大なる哉我浄霊 未発表 | **Status:** Unpublished
 
 ## A Tragédia da Medicina e a Salvação Divina
 
@@ -218,6 +301,7 @@ Pois, ao compreenderem-na em sua totalidade, serão os senhores os primeiros a s
 # Esclarecimentos sobre a Cobertura da Imprensa
 
 **Categoria:** i | **Ano:** 昭和24(1949)年10月22日 | **Fonte:** -
+**Título Original:** 一千万円の渦紋どちらが正しいか 朝日が読売の報道を覆す | **Status:** Published
 
 ## Esclarecimentos sobre a Cobertura da Imprensa
 
@@ -234,6 +318,7 @@ O erro fundamental do jornalismo contemporâneo reside em sua tendência de anal
 # Uma Advertência aos Profissionais da Área Médica
 
 **Categoria:** i | **Ano:** 昭和29(1954)年4月21日 | **Fonte:** Eikou
+**Título Original:** 医業者に警告する | **Status:** Published
 
 ## Uma Advertência aos Profissionais da Área Médica
 
@@ -256,6 +341,7 @@ Ademais, trata-se de uma questão crucial que envolve vidas humanas. Diante do n
 # A Superstição Médica dos Doutores
 
 **Categoria:** i | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** Eikou
+**Título Original:** 医師の医学迷信 | **Status:** Published
 
 ## A Superstição Médica dos Doutores
 
@@ -278,6 +364,7 @@ Sendo assim, e falando sem rodeios, essa atitude revela que são os próprios do
 # A Medicina Começa a Reconhecer Nossos Ensinamentos
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月2日 | **Fonte:** Eikou
+**Título Original:** 医学が私の説を採入れ始めた？ | **Status:** Published
 
 ## A Medicina Começa a Reconhecer Nossos Ensinamentos
 
@@ -302,6 +389,7 @@ Com efeito, o corpo possui um mecanismo intrínseco de combate: quando uma anoma
 # O Parto Seguro como Atestado da Cura Divina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医療に反抗しつつ安産 未発表 | **Status:** Unpublished
 
 ## O Parto Seguro como Atestado da Cura Divina
 
@@ -316,6 +404,7 @@ Este relato ilustra com clareza não apenas a impotência da medicina, mas tamb�
 # O Equívoco da Medicina na Criação da Tuberculose
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 医学が結核を作る | **Status:** Published
 
 ## O Equívoco da Medicina na Criação da Tuberculose
 
@@ -367,6 +456,7 @@ A descoberta da estreptomicina e de outros agentes quimioterápicos está promov
 # A Impotência da Medicina e o Grandioso Poder do Johrei
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学の無力と浄霊の偉力 未発表 | **Status:** Unpublished
 
 ## A Impotência da Medicina e o Grandioso Poder do Johrei
 
@@ -385,6 +475,7 @@ Contudo, um mundo imerso em tamanha cegueira e surdez espirituais não pode perd
 # A Cura da Pele e a Beleza Natural
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学で治らない頑固な皮膚病も此通り 未発表 | **Status:** Unpublished
 
 ## A Cura da Pele e a Beleza Natural
 
@@ -401,6 +492,7 @@ Ademais, elas não apenas deixam de gastar com cosméticos, como também economi
 # A Medicina de Nossos Dias
 
 **Categoria:** i | **Ano:** 昭和26(1951)年10月31日 | **Fonte:** Eikou
+**Título Original:** 今の医学 | **Status:** Published
 
 ## A Medicina de Nossos Dias
 
@@ -421,6 +513,7 @@ Por tudo o que foi dito, torna-se claro que a medicina atual ainda não progredi
 # O Suicídio Familiar e a Medicina
 
 **Categoria:** i | **Ano:** 昭和11(1936)年6月17日 | **Fonte:** 一家心中と医療
+**Título Original:** 一家心中と医療 | **Status:** Unpublished
 
 ## O Suicídio Familiar e a Medicina
 
@@ -441,6 +534,7 @@ Ah, como anseio que esta Arte Terapêutica se generalize e alcance a todos, o ma
 # Uma Reflexão sobre a Ciência Médica
 
 **Categoria:** i | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 医学に望む 自観叢書10編 | **Status:** Published
 
 ## Uma Reflexão sobre a Ciência Médica
 
@@ -459,6 +553,7 @@ Soubemos, ademais, que até hoje a medicina desconhece a causa do resfriado, a m
 # Uma Comparação entre a Medicina e a Terapia Messiânica
 
 **Categoria:** i | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
+**Título Original:** 医学と本療法との比較 | **Status:** Published
 
 ## Uma Comparação entre a Medicina e a Terapia Messiânica
 
@@ -497,6 +592,7 @@ Aos homens de saber deste mundo, rogo que, antes de nos atacarem com críticas v
 # Teria a Medicina Regredido?
 
 **Categoria:** i | **Ano:** 昭和11(1936)年6月10日 | **Fonte:** 新日本医術書
+**Título Original:** 医学は退歩したか | **Status:** Unknown
 
 ## Teria a Medicina Regredido?
 
@@ -561,6 +657,7 @@ Creio que, com o exposto, fica clara a resposta à pergunta do título: "Teria a
 # Um Caso de Superação da Superstição Médica
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学迷信から目醒めた例 未発表 | **Status:** Unpublished
 
 ## Um Caso de Superação da Superstição Médica
 
@@ -577,6 +674,7 @@ Contudo, mesmo padecendo de tão grande sofrimento, a recusa do paciente em rece
 # Refutando o Estigma de Fraude
 
 **Categoria:** i | **Ano:** 昭和24(1949)年11月19日 | **Fonte:** -
+**Título Original:** インチキの名を返上する | **Status:** Published
 
 ## Refutando o Estigma de Fraude
 
@@ -595,6 +693,7 @@ Pelo exposto, devolvemos aqui, de forma categórica, o estigma de fraude que nos
 # O Johrei e o Alvorecer da Salvação
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月2日 | **Fonte:** Eikou
+**Título Original:** 医学の被害を救う浄霊 | **Status:** Published
 
 ## O Johrei e o Alvorecer da Salvação
 
@@ -631,6 +730,7 @@ Muito obrigada, Meishu-Sama.
 # Sobre as Ditas Superstições e Falsas Doutrinas
 
 **Categoria:** i | **Ano:** 昭和24(1949)年3月8日 | **Fonte:** -
+**Título Original:** いわゆる迷信邪教 病貧争絶無の理想 日本観音教の真髄 | **Status:** Published
 
 ## Sobre as Ditas Superstições e Falsas Doutrinas
 
@@ -647,6 +747,7 @@ Trata-se, na verdade, de um expediente que explora as falhas da estrutura social
 # A Anatomia dos Equívocos da Medicina
 
 **Categoria:** i | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 医学の解剖 未発表 | **Status:** Unpublished
 
 ## A Anatomia dos Equívocos da Medicina
 
@@ -679,6 +780,7 @@ Pois bem, comecemos finalmente a análise detalhada dos equívocos da medicina.
 # Uma Modalidade de Tentativa de Suicídio
 
 **Categoria:** i | **Ano:** - | **Fonte:** 一種の自殺未遂者
+**Título Original:** 一種の自殺未遂者 | **Status:** Unpublished
 
 ## Uma Modalidade de Tentativa de Suicídio
 
@@ -697,6 +799,7 @@ Contudo, por uma imensa graça, ao mesmo tempo em que me foi concedido o conheci
 # A Disparidade entre a Medicina e o Johrei
 
 **Categoria:** i | **Ano:** 昭和27(1952)年2月20日 | **Fonte:** Eikou
+**Título Original:** 医療〔学〕と浄霊 | **Status:** Published
 
 ## A Disparidade entre a Medicina e o Johrei
 
@@ -732,6 +835,7 @@ Meishu-Sama, muito obrigado. Desde então, temos recebido inúmeras outras graç
 # A Natureza Espiritual do Câncer de Estômago
 
 **Categoria:** i | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 胃癌 | **Status:** Published
 
 ## A Natureza Espiritual do Câncer de Estômago
 
@@ -754,6 +858,7 @@ Por meio desta arte médica, a cura é possível, desde que a debilidade do paci
 # Seriam os médicos verdadeiramente irresponsáveis?
 
 **Categoria:** i | **Ano:** 昭和26(1951)年7月25日 | **Fonte:** Eikou
+**Título Original:** 医者は果して無責任か | **Status:** Published
 
 ## Seriam os médicos verdadeiramente irresponsáveis?
 
@@ -772,6 +877,7 @@ Essa superstição em torno da medicina representa, em verdade, a maior de todas
 # O Terror da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学の恐ろしさ 未発表 | **Status:** Unpublished
 
 ## O Terror da Medicina
 
@@ -788,6 +894,7 @@ A esse respeito, conforme um recente relato que recebi de um membro de nossa fil
 # A Ilusão do Progresso na Terapia da Tuberculose
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医学と結核 未発表 | **Status:** Unpublished
 
 ## A Ilusão do Progresso na Terapia da Tuberculose
 
@@ -804,6 +911,7 @@ Ademais, some-se a esse quadro o fardo de despesas médicas exorbitantes e longo
 # A Revolução na Medicina
 
 **Categoria:** i | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 医学の革命 | **Status:** Published
 
 ## A Revolução na Medicina
 
@@ -826,6 +934,7 @@ Nossa intenção não é, de modo algum, criticar a medicina por mero diletantis
 # A Verdadeira Natureza da Prática Médica
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月3日 | **Fonte:** Eikou
+**Título Original:** 医療とは | **Status:** Published
 
 ## A Verdadeira Natureza da Prática Médica
 
@@ -850,6 +959,7 @@ Ora, a realidade não nos mostra exatamente o contrário? Tal constatação nos 
 # Uma Categoria de Crime
 
 **Categoria:** i | **Ano:** 昭和26(1951)年11月7日 | **Fonte:** Eikou
+**Título Original:** 一種の罪悪 | **Status:** Published
 
 ## Uma Categoria de Crime
 
@@ -876,6 +986,7 @@ Nesse contexto, a conduta dos jornalistas que impede a salvação de vidas que p
 # O Grave Equívoco da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 医療の恐怖 未発表 | **Status:** Unpublished
 
 ## O Grave Equívoco da Medicina
 
@@ -888,6 +999,7 @@ Diante de tal panorama, que ninguém, até os dias de hoje, tenha logrado descob
 # A Superstição da Medicina Moderna
 
 **Categoria:** i | **Ano:** 昭和27(1952)年12月26日 | **Fonte:** 医学迷信
+**Título Original:** 医学迷信 | **Status:** Unpublished
 
 ## A Superstição da Medicina Moderna
 
@@ -914,6 +1026,7 @@ Como exposto, a medicina moderna constitui a maior superstição em escala globa
 # A Incomparável Grandeza da Arte Médica Espiritual
 
 **Categoria:** i | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 偉大なる哉神霊医術 未発表 | **Status:** Unpublished
 
 ## A Incomparável Grandeza da Arte Médica Espiritual
 
@@ -928,6 +1041,7 @@ Com isso, não pretendo afirmar minha própria grandeza. A verdade é que a gra�
 # Uma Epidemia de Causa Ignorada pela Medicina
 
 **Categoria:** i | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 医学不明の流行病 | **Status:** Published
 
 ## Uma Epidemia de Causa Ignorada pela Medicina
 
@@ -950,6 +1064,7 @@ Observa-se que esta condição é mais frequente entre as pessoas das classes m�
 # O Johrei que Salva das Calamidades Médicas
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月2日 | **Fonte:** Eikou
+**Título Original:** 医学の被害を救う浄霊 | **Status:** Published
 
 ## O Johrei que Salva das Calamidades Médicas
 
@@ -995,6 +1110,7 @@ Muito obrigada, Meishu-Sama.
 # A Ausência da Genuína Arte de Curar
 
 **Categoria:** i | **Ano:** 昭和11(1936)年6月14日 | **Fonte:** 医術なるものは一つもない
+**Título Original:** 医術なるものは一つもない | **Status:** Unpublished
 
 ## A Ausência da Genuína Arte de Curar
 
@@ -1015,6 +1131,7 @@ Embora exposto de forma sucinta, o que foi apresentado até aqui torna manifesta
 # Advertência à Comunidade Médica
 
 **Categoria:** i | **Ano:** 昭和27(1952)年8月27日 | **Fonte:** Eikou
+**Título Original:** 医学関係者に警告する | **Status:** Published
 
 ## Advertência à Comunidade Médica
 
@@ -1033,6 +1150,7 @@ Sei que, neste momento, minhas palavras podem parecer inacreditáveis para um ob
 # A Divindade Izunome e a Gênese do Budismo
 
 **Categoria:** i | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 伊都能売神 | **Status:** Published
 
 ## A Divindade Izunome e a Gênese do Budismo
 
@@ -1059,6 +1177,7 @@ Posteriormente, o Bodhisattva Kanjizai teve Seu nome alterado para Kanzeon Bosat
 # O Crepúsculo da Pintura Japonesa
 
 **Categoria:** i | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Eikou
+**Título Original:** 今や亡びんとする日本画 | **Status:** Published
 
 ## O Crepúsculo da Pintura Japonesa
 
@@ -1101,6 +1220,7 @@ Prolonguei-me em demasia, mas o que desejo é que, ao menos no campo da arte, ab
 # A Superstição da Lógica
 
 **Categoria:** ri | **Ano:** 昭和24(1949)年10月8日 | **Fonte:** -
+**Título Original:** 理屈の迷信 | **Status:** Published
 
 ## A Superstição da Lógica
 
@@ -1119,6 +1239,7 @@ Em suma, essa atitude de se apegar à teoria e ignorar a realidade é, inequivoc
 # A Possessão por um Espírito de Dragão
 
 **Categoria:** ri | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 龍神の憑依 自観叢書第9篇 | **Status:** Published
 
 ## A Possessão por um Espírito de Dragão
 
@@ -1135,6 +1256,7 @@ Por essa razão, sempre que me perguntam com quem aprendi a curar as doenças, m
 # A Ineficácia da Medicina
 
 **Categoria:** i | **Ano:** 昭和28(1953)年9月30日 | **Fonte:** Eikou
+**Título Original:** 医学の無力 | **Status:** Published
 
 ## A Ineficácia da Medicina
 
@@ -1165,6 +1287,7 @@ Em 25 de maio de 1949, orientada pelo Reverendo Nozoe, tive a permissão de rece
 # A Superstição da Lógica
 
 **Categoria:** ri | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 理屈の迷信 (再録) 自観叢書12編 | **Status:** Published
 
 ## A Superstição da Lógica
 
@@ -1187,6 +1310,7 @@ Portanto, a atitude de se apegar à lógica a ponto de ignorar a realidade é, i
 # A Natureza do Mundo Espiritual
 
 **Categoria:** ri | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 輪廻転生 | **Status:** Published
 
 ## A Natureza do Mundo Espiritual
 
@@ -1209,6 +1333,7 @@ Certa vez, li no livro de uma célebre personalidade do mundo religioso, ainda e
 # Sobre a Real Existência dos Deuses Dragão
 
 **Categoria:** ri | **Ano:** 昭和27(1952)年2月13日 | **Fonte:** Eikou
+**Título Original:** 龍神はある？ | **Status:** Published
 
 ## Sobre a Real Existência dos Deuses Dragão
 
@@ -1252,6 +1377,7 @@ A propósito, a jovem Maejima apresentou uma melhora súbita e, hoje, já conseg
 # A Distinção entre a Terapia Divina e a Massagem Convencional
 
 **Categoria:** ri | **Ano:** 昭和12(1937)年8月4日 | **Fonte:** 療術行為届・施術方法
+**Título Original:** 療術行為届・施術方法 | **Status:** Unpublished
 
 ## A Distinção entre a Terapia Divina e a Massagem Convencional
 
@@ -1272,6 +1398,7 @@ Portanto, quando utilizada em conjunto com tratamentos médicos, esta terapia n�
 # O Reumatismo e a Terapêutica Divina
 
 **Categoria:** ri | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** リョウマチス ・病患と医学の誤謬一三 | **Status:** Published
 
 ## O Reumatismo e a Terapêutica Divina
 
@@ -1286,6 +1413,7 @@ Em contrapartida, por meio de nossa terapêutica, quando o tratamento é iniciad
 # O Espírito de Texugo e a Caveira Amaldiçoada
 
 **Categoria:** ri | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 狸霊と髑髏 | **Status:** Published
 
 ## O Espírito de Texugo e a Caveira Amaldiçoada
 
@@ -1364,6 +1492,7 @@ Dizem que, em virtude dessa experiência, a Sra. S, como se despertasse de um lo
 # O Reumatismo e o Equívoco da Medicina
 
 **Categoria:** ri | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** リョウマチス ・病患と医学の誤謬十三 | **Status:** Published
 
 ## O Reumatismo e o Equívoco da Medicina
 
@@ -1378,6 +1507,7 @@ Por meio de nosso método, entretanto, se o tratamento for iniciado na fase agud
 # A Cura do Reumatismo
 
 **Categoria:** ri | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** リョウマチス | **Status:** Published
 
 ## A Cura do Reumatismo
 
@@ -1396,6 +1526,7 @@ Mesmo nos casos em que a articulação já se encontra enrijecida devido a trata
 # Esclarecimentos sobre o Reumatismo
 
 **Categoria:** ri | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** リョウマチス | **Status:** Published
 
 ## Esclarecimentos sobre o Reumatismo
 
@@ -1412,6 +1543,7 @@ A medicina, por vezes, recorre a intervenções cirúrgicas. Todavia, para os pa
 # A Relação entre Dragões Divinos e as Enfermidades
 
 **Categoria:** ri | **Ano:** 昭和26(1951)年3月21日 | **Fonte:** Eikou
+**Título Original:** 龍神と病気との関係 | **Status:** Published
 
 ## A Relação entre Dragões Divinos e as Enfermidades
 
@@ -1445,6 +1577,7 @@ Desde então, ambos os meninos esbanjam saúde, brincando todos os dias com as o
 # A Religião Teórica e a Religião da Ação
 
 **Categoria:** ri | **Ano:** 昭和24(1949)年4月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 理論宗教と行動宗教 | **Status:** Published
 
 ## A Religião Teórica e a Religião da Ação
 
@@ -1467,6 +1600,7 @@ O segundo objetivo é de outra natureza. Consiste em um centro de terapia pela f
 # Anúncio de Abertura do Consultório Oujin-dou
 
 **Categoria:** ri | **Ano:** 昭和9(1934)年5月1日 | **Fonte:** 応神堂開業ビラ
+**Título Original:** 稟告 | **Status:** Published
 
 ## Anúncio de Abertura do Consultório Oujin-dou
 
@@ -1517,6 +1651,7 @@ Telefone: Kudan 613
 # As Enfermidades da Cabeça e seus Pontos Focais
 
 **Categoria:** a | **Ano:** 昭和27(1952)年7月30日 | **Fonte:** Eikou
+**Título Original:** 頭の病気 医学断片集（17） | **Status:** Published
 
 ## As Enfermidades da Cabeça e seus Pontos Focais
 
@@ -1529,6 +1664,7 @@ O diagnóstico é simples: ao posicionar a palma da mão sobre os locais mencion
 # Declaração de Prática Terapêutica
 
 **Categoria:** ri | **Ano:** 昭和16(1941)年 | **Fonte:** 療術行為届２
+**Título Original:** 療術行為届２ | **Status:** Unpublished
 
 ## Declaração de Prática Terapêutica
 
@@ -1589,7 +1725,8 @@ Nesse sentido, e em consonância com o propósito exposto, caso seja solicitado 
 
 # As Qualificações do Agente de Cura
 
-**Categoria:** ri | **Ano:** 昭和11(1936)年5月17日 | **Fonte:** 療病者の資格
+**Categoria:** ri | **Ano:** 昭和11(1936)年5月17日 | **Fonte:** Kenko
+**Título Original:** 療病者の資格 | **Status:** Unpublished
 
 ## As Qualificações do Agente de Cura
 
@@ -1612,6 +1749,7 @@ Sendo assim, até que chegue o tempo em que tais condições se tornem viáveis,
 # A Falibilidade da Medicina e a Obra Divina
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼医療とは 未発表 | **Status:** Unpublished
 
 ## A Falibilidade da Medicina e a Obra Divina
 
@@ -1628,6 +1766,7 @@ Todavia, um caso considerado tão intratável alcançou a cura completa por meio
 # A Superstição da Ciência Materialista
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼此奇蹟 未発表 | **Status:** Unpublished
 
 ## A Superstição da Ciência Materialista
 
@@ -1642,6 +1781,7 @@ Não compreender a verdade, mesmo quando os fatos se apresentam de forma tão cl
 # Uma Lógica Incontestável
 
 **Categoria:** ri | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
+**Título Original:** 理屈ならぬ理屈 | **Status:** Published
 
 ## Uma Lógica Incontestável
 
@@ -1662,6 +1802,7 @@ Diante desse quadro, é forçoso concluir que deve haver um grande equívoco em 
 # O Espírito do Tanuki e a Caveira
 
 **Categoria:** ri | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 狸霊と髑髏 | **Status:** Published
 
 ## O Espírito do Tanuki e a Caveira
 
@@ -1754,6 +1895,7 @@ Dizem que, após essa experiência, a senhora S. despertou como de um sonho e pa
 # O Pergaminho do Rikutō Sanryaku
 
 **Categoria:** ri | **Ano:** 昭和26(1951)年8月29日 | **Fonte:** Eikou
+**Título Original:** 六韜三略の巻 | **Status:** Published
 
 ## O Pergaminho do Rikutō Sanryaku
 
@@ -1772,6 +1914,7 @@ Todavia, ao analisarmos a peça sob uma perspectiva religiosa, descobrimos que e
 # A Falência da Medicina e a Salvação do Mundo
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼医学 未発表 | **Status:** Unpublished
 
 ## A Falência da Medicina e a Salvação do Mundo
 
@@ -1788,6 +1931,7 @@ Reitero: aqueles que se tornaram cativos da superstição científica, mesmo ao 
 # O Desalento Gerado pela Medicina Moderna
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼結核医学 未発表 | **Status:** Unpublished
 
 ## O Desalento Gerado pela Medicina Moderna
 
@@ -1804,6 +1948,7 @@ Todavia, uma irracionalidade tão grande não pode ser tolerada por muito tempo.
 # A Crise da Doença e da Pobreza: Um Testemunho Revelador
 
 **Categoria:** a | **Ano:** 昭和24(1949)年9月10日 | **Fonte:** -
+**Título Original:** 或質屋の話 | **Status:** Published
 
 ## A Crise da Doença e da Pobreza: Um Testemunho Revelador
 
@@ -1824,6 +1969,7 @@ Causa estranheza o fato de que, recentemente, ao participar do programa de rádi
 # O Mundo dos Dragões Divinos
 
 **Categoria:** ri | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 龍神界 自観叢書第3編 | **Status:** Published
 
 ## O Mundo dos Dragões Divinos
 
@@ -1852,6 +1998,7 @@ Desde a antiguidade, diz-se que o ascetismo dos Dragões Divinos dura mil anos n
 # A Real Existência dos Deuses-Dragão
 
 **Categoria:** ri | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 龍神界 | **Status:** Published
 
 ## A Real Existência dos Deuses-Dragão
 
@@ -1890,6 +2037,7 @@ Portanto, para que possam se casar, é necessário que as mulheres com essa linh
 # O Dinheiro Mal Adquirido Não Permanece
 
 **Categoria:** a | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
+**Título Original:** 悪銭身に着かず | **Status:** Published
 
 ## O Dinheiro Mal Adquirido Não Permanece
 
@@ -1912,6 +2060,7 @@ Há outro ponto que merece nossa atenção: o fato de edifícios religiosos sere
 # Sobre o Mundo dos Deuses-Dragão
 
 **Categoria:** ri | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 龍神界 | **Status:** Published
 
 ## Sobre o Mundo dos Deuses-Dragão
 
@@ -1948,6 +2097,7 @@ Visto que me perguntam com frequência sobre a forma correta de cultuar os Deuse
 # O Relato de uma Enfermeira-Chefe
 
 **Categoria:** a | **Ano:** 昭和24(1949)年11月5日 | **Fonte:** -
+**Título Original:** ある看護婦長の話 医学談片集 | **Status:** Published
 
 ## O Relato de uma Enfermeira-Chefe
 
@@ -1964,6 +2114,7 @@ Por fim, o oficial teve alta, plenamente recuperado. Tal desfecho, no entanto, a
 # A Política da Ambiguidade
 
 **Categoria:** a | **Ano:** 昭和10(1935)年4月8日 | **Fonte:** Toho no Hikari
+**Título Original:** 曖昧模糊政治 阿呆文学 | **Status:** Published
 
 ## A Política da Ambiguidade
 
@@ -1974,6 +2125,7 @@ Na recente sexagésima sétima sessão do Parlamento, deparamo-nos com a seguint
 # O Senso de Justiça Americano e o Futuro do Japão
 
 **Categoria:** a | **Ano:** 昭和28年 | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## O Senso de Justiça Americano e o Futuro do Japão
 
@@ -1990,6 +2142,7 @@ Em contrapartida, voltando nosso olhar para o Japão, ao observarmos os discurso
 # A Verdadeira Paz de Espírito
 
 **Categoria:** a | **Ano:** 昭和25(1950)年3月4日 | **Fonte:** Kyusei
+**Título Original:** 安心立命 | **Status:** Published
 
 ## A Verdadeira Paz de Espírito
 
@@ -2018,6 +2171,7 @@ Nossa Igreja, em contrapartida, tem como objetivo a salvação de toda a humanid
 # O Prodígio da Cura e o Enigma do Século
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 噫々此奇蹟 未発表 | **Status:** Unpublished
 
 ## O Prodígio da Cura e o Enigma do Século
 
@@ -2033,7 +2187,8 @@ Do mesmo modo, se os médicos tomassem conhecimento dessa realidade e passassem 
 
 # O Sutra do Tolo
 
-**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 阿呆陀羅経 第一編
+**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** Kyusei
+**Título Original:** 阿呆陀羅経 | **Status:** Unpublished
 
 ## O Sutra do Tolo
 
@@ -2067,6 +2222,7 @@ Shicharaka poku poku poku.
 # A Tragédia Gerada pelos Tratamentos Médicos
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼悲惨なり医療の結果 未発表 | **Status:** Unpublished
 
 ## A Tragédia Gerada pelos Tratamentos Médicos
 
@@ -2083,6 +2239,7 @@ Ao analisarmos este fato com isenção, percebemos que o infortúnio gerado pela
 # A Evidência do Poder Divino na Cura
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼偉大なるかな浄霊 未発表 | **Status:** Unpublished
 
 ## A Evidência do Poder Divino na Cura
 
@@ -2101,6 +2258,7 @@ Portanto, uma vez que se compreenda a verdadeira natureza destes fatos, perceber
 # Amanhã será Tarde Demais
 
 **Categoria:** a | **Ano:** 昭和27(1952)年6月11日 | **Fonte:** Eikou
+**Título Original:** 明日では遅すぎる | **Status:** Published
 
 ## Amanhã será Tarde Demais
 
@@ -2148,6 +2306,7 @@ Enquanto gozam de saúde, no momento em que sentirem o chamado em seus coraçõe
 # O Enigma da Reação Médica
 
 **Categoria:** a | **Ano:** 昭和27(1952)年8月20日 | **Fonte:** Eikou
+**Título Original:** 噫々不可解なる哉 | **Status:** Published
 
 ## O Enigma da Reação Médica
 
@@ -2184,6 +2343,7 @@ Meishu-Sama, Dai Komyo Nyorai, minha gratidão é verdadeiramente infinita.
 # O Bocejo e a Purificação Espiritual
 
 **Categoria:** a | **Ano:** 昭和28(1953)年2月11日 | **Fonte:** Eikou
+**Título Original:** 欠伸 医学断片集（30） | **Status:** Published
 
 ## O Bocejo e a Purificação Espiritual
 
@@ -2198,6 +2358,7 @@ De modo análogo, é comum que ocorram arrotos, cujo fenômeno se rege pelo mesm
 # A Verdade sobre o Contágio da Tuberculose
 
 **Categoria:** a | **Ano:** 昭和24(1949)年10月29日 | **Fonte:** -
+**Título Original:** ある未亡人の話 医薬断片集 | **Status:** Published
 
 ## A Verdade sobre o Contágio da Tuberculose
 
@@ -2214,6 +2375,7 @@ Na verdade, dramas semelhantes a este ocorrem por toda parte. Uma vez acometida 
 # A Urgência da Obra Divina
 
 **Categoria:** a | **Ano:** 昭和25(1950)年1月21日 | **Fonte:** -
+**Título Original:** 或質問者への応答 | **Status:** Published
 
 ## A Urgência da Obra Divina
 
@@ -2232,6 +2394,7 @@ Contudo, por saber que muitos membros partilham de uma mentalidade semelhante, j
 # A Súplica Amatsu Norito
 
 **Categoria:** a | **Ano:** - | **Fonte:** 祝詞・神言祝詞・善言讃詞
+**Título Original:** 天津祝詞 ・観音会版 手書折本 | **Status:** Unknown
 
 ## A Súplica Amatsu Norito
 
@@ -2255,6 +2418,7 @@ Que a Vossa Vontade Divina se manifeste, multiplicando as bênçãos espirituais
 # Uma Religião que não Prega a Resignação
 
 **Categoria:** a | **Ano:** 昭和28(1953)年11月18日 | **Fonte:** Eikou
+**Título Original:** 諦めを説かない宗教 | **Status:** Published
 
 ## Uma Religião que não Prega a Resignação
 
@@ -2269,6 +2433,7 @@ Contudo, a realidade mostrou-se contrária às expectativas. É inegável que, n
 # A Expulsão do Mal
 
 **Categoria:** a | **Ano:** 昭和27(1952)年9月10日 | **Fonte:** Eikou
+**Título Original:** 悪の追放 | **Status:** Published
 
 ## A Expulsão do Mal
 
@@ -2289,6 +2454,7 @@ O que o veneno chamado remédio faz é apenas suprimir temporariamente a doença
 # O Acerto de Contas com os Insensatos
 
 **Categoria:** a | **Ano:** 昭和8(1933)年 | **Fonte:** 阿呆陀羅経
+**Título Original:** 阿呆陀羅経 | **Status:** Unpublished
 
 ## O Acerto de Contas com os Insensatos
 
@@ -2313,6 +2479,7 @@ Todavia, o mundo é feito de pessoas diversas. Os mais apressados ou, talvez, os
 # A Malignidade como Enfermidade Espiritual
 
 **Categoria:** a | **Ano:** 昭和26(1951)年11月21日 | **Fonte:** Eikou
+**Título Original:** 悪人は病人なり | **Status:** Published
 
 ## A Malignidade como Enfermidade Espiritual
 
@@ -2339,6 +2506,7 @@ O mais lamentável é que nem mesmo as grandes personalidades de hoje ou as auto
 # O Renascimento Através do Johrei
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼此悲劇 未発表 | **Status:** Unpublished
 
 ## O Renascimento Através do Johrei
 
@@ -2353,6 +2521,7 @@ Essa enfermidade, considerada um caso intratável pela medicina atual, foi, por 
 # O Sussurro do Demônio
 
 **Categoria:** a | **Ano:** 昭和11(1936)年4月19日 | **Fonte:** 悪魔の囁き
+**Título Original:** 悪魔の囁き | **Status:** Unpublished
 
 ## O Sussurro do Demônio
 
@@ -2387,6 +2556,7 @@ Aqueles que foram verdadeiramente salvos devem atentar-se muito bem a este ponto
 # Uma Ascensão aos Alpes Japoneses
 
 **Categoria:** a | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** アルプス紀行 自観叢書第5編 | **Status:** Published
 
 ## Uma Ascensão aos Alpes Japoneses
 
@@ -2421,6 +2591,7 @@ Finalmente, cheguei à pousada Shimizu-ya, também conhecida como Gosenjaku Onse
 # O Método para Discernir os Maus
 
 **Categoria:** a | **Ano:** 昭和24(1949)年7月9日 | **Fonte:** -
+**Título Original:** 悪人を見別ける法 | **Status:** Published
 
 ## O Método para Discernir os Maus
 
@@ -2435,6 +2606,7 @@ Passemos agora aos homens de bem. Em minha longa experiência, observei que, ent
 # A Realidade da Medicina Ocidental
 
 **Categoria:** a | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 或記事 | **Status:** Published
 
 ## A Realidade da Medicina Ocidental
 
@@ -2457,6 +2629,7 @@ Ainda assim, não se deve, nem em sonho, pensar em ter pena das pessoas que sofr
 # A Gênese do Mal e a Doença
 
 **Categoria:** a | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 悪の発生と病 未発表 | **Status:** Unpublished
 
 ## A Gênese do Mal e a Doença
 
@@ -2483,6 +2656,7 @@ Pelo exposto, o propósito fundamental da medicina era criar o mal e debilitar a
 # O Desvario da Ciência Médica
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼医学の迷蒙 未発表 | **Status:** Unpublished
 
 ## O Desvario da Ciência Médica
 
@@ -2503,6 +2677,7 @@ Diante de tais fatos, maiores comentários se tornam desnecessários. A causa fu
 # Corrigindo os Malfeitores
 
 **Categoria:** a | **Ano:** 昭和27(1952)年2月20日 | **Fonte:** Eikou
+**Título Original:** 悪人をひねる | **Status:** Published
 
 ## Corrigindo os Malfeitores
 
@@ -2517,6 +2692,7 @@ Ao escrever estas palavras, é possível que alguns pensem que Meishu-Sama, de u
 # Esclarecimentos sobre um Acontecimento Místico
 
 **Categoria:** a | **Ano:** 昭和26(1951)年6月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 或る神秘 読後のお言葉 | **Status:** Published
 
 ## Esclarecimentos sobre um Acontecimento Místico
 
@@ -2577,6 +2753,7 @@ Diante disso, percebemos quão profundo e longínquo é o Plano Divino, muito al
 # Os Perversos e os Virtuosos
 
 **Categoria:** a | **Ano:** 昭和25(1950)年4月29日 | **Fonte:** Kyusei
+**Título Original:** 悪人と善人 | **Status:** Published
 
 ## Os Perversos e os Virtuosos
 
@@ -2591,6 +2768,7 @@ Não se trata de ressentimento, mas, embora existam aqueles que nos difamam e cr
 # A Transformação de Atami em Paraíso Terrestre
 
 **Categoria:** a | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** -
+**Título Original:** 熱海の天国化 | **Status:** Published
 
 ## A Transformação de Atami em Paraíso Terrestre
 
@@ -2621,6 +2799,7 @@ Historicamente, os visitantes estrangeiros não demonstram o mesmo interesse dos
 # O Relato de Certa Senhora
 
 **Categoria:** a | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** ある婦人の話 自観叢書第9篇 | **Status:** Published
 
 ## O Relato de Certa Senhora
 
@@ -2645,6 +2824,7 @@ Atualmente, aquela senhora vive como viúva, criando seus dois filhos e desfruta
 # A Indignação contra o Mal
 
 **Categoria:** a | **Ano:** 昭和26(1951)年2月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 悪に対する憤激 | **Status:** Published
 
 ## A Indignação contra o Mal
 
@@ -2667,6 +2847,7 @@ Por tais razões, o ideal é que uma pessoa seja capaz de se indignar perante a 
 # O Lamentável Homem Moderno
 
 **Categoria:** a | **Ano:** 昭和25(1950)年1月7日 | **Fonte:** -
+**Título Original:** 憐むべき現代人 | **Status:** Published
 
 ## O Lamentável Homem Moderno
 
@@ -2683,6 +2864,7 @@ Esse mesmo raciocínio se aplica à recomendação médica de se comerem espinha
 # A Ilusória Prática da Medicina
 
 **Categoria:** a | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
+**Título Original:** 噫〔々〕医学よ | **Status:** Published
 
 ## A Ilusória Prática da Medicina
 
@@ -2747,6 +2929,7 @@ Eu, que tive minha vida, já sem esperança, salva por Vós, desejo dedicar-me �
 # Retratos da Degradação Humana
 
 **Categoria:** a | **Ano:** 昭和8(1933)年9月16日 | **Fonte:** 穴かしこ
+**Título Original:** 穴かしこ | **Status:** Unpublished
 
 ## Retratos da Degradação Humana
 
@@ -2767,6 +2950,7 @@ Contudo, no momento em que Deus Se manifestar, todos esses infelizes serão toma
 # O Motivo Pelo Qual o Mal é Sempre Exposto
 
 **Categoria:** a | **Ano:** 昭和26(1951)年12月26日 | **Fonte:** Eikou
+**Título Original:** 悪は何故暴露するか | **Status:** Published
 
 ## O Motivo Pelo Qual o Mal é Sempre Exposto
 
@@ -2789,6 +2973,7 @@ Sendo esta a verdade absoluta, não existe outra solução fundamental senão cr
 # O Equívoco Fundamental da Medicina e Suas Vítimas
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼医学の犠牲者 未発表 | **Status:** Unpublished
 
 ## O Equívoco Fundamental da Medicina e Suas Vítimas
 
@@ -2805,6 +2990,7 @@ Ademais, como as vítimas dessa prática médica são hoje criadas em número in
 # Um Mundo Dominado pelo Mal
 
 **Categoria:** a | **Ano:** 昭和27(1952)年9月17日 | **Fonte:** Eikou
+**Título Original:** 悪の世の中 | **Status:** Published
 
 ## Um Mundo Dominado pelo Mal
 
@@ -2836,7 +3022,8 @@ Dentre todas as angústias, a maior é, sem dúvida, a doença. É possível pre
 
 # A Proclamação do Insensato Divino
 
-**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 阿呆陀羅経 第四編
+**Categoria:** a | **Ano:** 昭和9(1934)年 | **Fonte:** 第四編
+**Título Original:** 阿呆陀羅経 | **Status:** Unpublished
 
 ## A Proclamação do Insensato Divino
 
@@ -2869,6 +3056,7 @@ E aqui estou eu, a proclamar com tanto fervor todas estas coisas... Que grande i
 # O Abismo entre o Johrei e a Medicina
 
 **Categoria:** a | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 嗚呼偉大なり浄霊の業 未発表 | **Status:** Unpublished
 
 ## O Abismo entre o Johrei e a Medicina
 
@@ -2883,146 +3071,6 @@ Procedendo-se dessa forma, tanto médicos quanto pacientes serão salvos e, natu
 O princípio fundamental para essa transformação é que todas as pessoas conheçam esta verdade e a transmitam umas às outras. Apenas com isso, este mundo infernal se converterá em um Mundo Paradisíaco.
 
 O obstáculo, todavia, reside no fato de que tal revelação soa tão fantástica quanto um sonho, tornando-se de difícil aceitação, o que é deveras lamentável.
-
----
-
-# O Novo Sentido do Patriotismo
-
-**Categoria:** a | **Ano:** 昭和27(1952)年12月3日 | **Fonte:** Eikou
-
-## O Novo Sentido do Patriotismo
-
-Poucas palavras no mundo serão tão universais quanto “patriotismo”. Dificilmente haverá nação que não o tenha como um de seus princípios fundamentais. No Japão, até o final da guerra, um fervoroso patriotismo, raramente visto em outros países, permeava toda a nação. A causa, evidentemente, residia em parte no sistema imperial, que tinha o Imperador como símbolo do povo, reverenciado como um deus manifesto. Tal fato é ainda nítido em nossa memória, e essa veneração a uma linhagem imperial tida como ininterrupta por eras naturalmente moldou o sentimento popular. Contudo, é sabido por todos que homens ambiciosos e detentores do poder também se valeram da educação e da propaganda para inflamar ao máximo esse sentimento, manipulando-o conforme suas próprias conveniências.
-
-Em consequência, forjou-se um Estado de caráter singular, sem paralelo no exterior, que, autoproclamando-se uma nação divina, tornou-se ensimesmado e agiu como um jovem presunçoso, embora não desfrutasse de tamanha opulência. Para agravar o quadro, figuras como os eruditos a serviço do governo exacerbaram habilmente o orgulho nacional com argumentos históricos e lógicos, tornando a situação avassaladora. A ideologia de lealdade ao trono e amor à pátria dominou o país de tal forma que os cidadãos passaram a considerar o sacrifício da própria vida em nome do país e de Sua Majestade como um ato de nenhuma importância; este era tido como o mais elevado padrão de moralidade.
-
-Com a derrota na guerra, entretanto, essa presunção foi espetacularmente pulverizada, dando lugar, inclusive, a um complexo de inferioridade. Somou-se a isso a declaração do próprio Imperador — “Não sou um deus, sou um ser humano” —, que surpreendeu a nação. Com o nascimento de uma nova Constituição, o Japão transformou-se em uma democracia onde a soberania reside no povo, um evento revolucionário e sem precedentes em sua história. Foi, de fato, a maior reviravolta desde o início dos tempos. A posterior abdicação do Imperador agravou o cenário e, com exceção dos mais esclarecidos, o futuro das massas populares, agora desorientadas, tornou-se sombrio. Como todos sabem, essa incerteza sobre que rumo tomar persiste até os dias de hoje.
-
-Nesse contexto, ocorreu um fato interessante. Logo após o fim da guerra, muitos que me encontravam diziam, com semblante desapontado: “Afinal, o vento divino não soprou, não é mesmo?”. Eu lhes respondia: “Que equívoco! O vento divino soprou, e com toda a certeza. Vocês é que o interpretaram mal. A Vontade Divina consiste em amparar o bem e punir o mal. Sendo o Japão a parte que representava o mal, sua derrota era inevitável. Na verdade, deveríamos ser gratos, a ponto de celebrar, mas me contenho por ora. Chegará o dia em que compreenderão”. Ao ouvirem isso, eles diziam: “Agora compreendi perfeitamente”, e partiam com o semblante aliviado.
-
-Este episódio demonstra que, até então, quando se tratava de assuntos de Estado, os japoneses relegavam o bem e o mal a um plano secundário, pautando seus pensamentos unicamente pelo interesse próprio. Chegaram a entoar lemas absurdos como o *Hakko Ichiu* (八紘一宇), sob a premissa de que, contanto que sua própria nação prosperasse, o destino das demais era irrelevante. Isso era considerado lealdade e patriotismo, e assim avançaram cegamente, como cavalos de tiro com antolhos. As terríveis sementes da calamidade já estavam, desde então, sendo semeadas.
-
-Diante do exposto, é imperativo compreender que o patriotismo deve não apenas adequar-se aos tempos, mas também fundamentar-se nos conceitos de bem e mal, de certo e errado. Sem essa base, será impossível traçar um grande plano para o futuro da nação. Descreverei, portanto, como deve ser o patriotismo condizente com a nova era. Em suma, trata-se de uma transição fundamental: abandonar a perspectiva restrita que o Japão adotava por uma visão ampla e altruísta. Em uma palavra, é o amor internacional, o amor pela humanidade. Ou seja, ama-se o mundo precisamente porque se ama o Japão. Isso se deve ao fato de que, hoje, tudo se tornou internacional; o isolamento e a indiferença são meros sonhos de um passado distante.
-
-Sendo assim, o patriotismo futuro pode ser delineado de forma concreta. A prioridade absoluta é, evidentemente, a segurança de nossos noventa milhões de compatriotas, mas também o é nos tornarmos uma nação moral e justa, que conquiste o respeito do mundo. Nesse sentido, surge a questão do rearmamento, hoje intensamente debatida. Há muito tempo argumentos prós e contras se contrapõem, e é preocupante que não se chegue a uma solução. De meu ponto de vista, porém, não se trata de uma questão tão complexa. A resposta torna-se clara ao analisá-la de modo prático.
-
-“Se houver a garantia absoluta de que nenhuma nação invadirá o Japão, o rearmamento deve ser abandonado. Caso contrário, um rearmamento condizente com a força da nação faz-se necessário.”
-
-Esta única sentença deveria ser suficiente para o entendimento.
-
----
-
-# Oração Amatsu Norito
-
-**Categoria:** a | **Ano:** - | **Fonte:** 天津祝詞・善言讃詞
-
-## Oração Amatsu Norito
-(Versão da Igreja Messiânica Mundial)
-
-Uma reverência, duas vênias, três palmas
-
-Aos Deuses Kamurologi e Kamuromi, que habitam a Planície Celestial, por cujo desígnio o Venerável e Divino Progenitor, Izanagi no Mikoto, ao realizar o sagrado rito de purificação em Ahagihara, na foz do rio Tachibana, em Himuka de Tsukushi, fez nascer as Grandes Divindades Purificadoras.
-
-Suplicamos que todas as transgressões, pecados e máculas sejam purificados e extintos.
-
-Que os Deuses Celestes, os Deuses Terrestres e a miríade de Divindades ouçam esta súplica com a máxima atenção. É o que com temor e profundo respeito declaramos.
-
-Miroku Oomikami, protegei-nos e concedei-nos felicidade.
-Grande Deus do Sol, da Lua e da Terra, protegei-nos e concedei-nos felicidade.
-(Recitar duas vezes)
-
-Que o Vosso Espírito Divino se manifeste e nos abençoe.
-(Recitar duas vezes)
-
-Três palmas
-Prece
-Três palmas, duas vênias, uma reverência
-
----
-
-# Quantas Amaterasu Omikami Existem?
-
-**Categoria:** a | **Ano:** 昭和24(1949)年10月1日 | **Fonte:** -
-
-## Quantas Amaterasu Omikami Existem?
-
-A célebre Jikōson (璽光尊) alega que o espírito de Amaterasu Omikami se encontra manifestado em si. De forma semelhante, a senhora Kitamura Sayo, da chamada “religião dançante”, profere asserções análogas.
-
-Certa vez, uma praticante espiritual veio a mim e declarou: “Tenho imensa compaixão por Amaterasu Omikami”. Ao indagá-la sobre o motivo de tal sentimento, ela me explicou: “Amaterasu Omikami está manifestada em mim, contudo, estou em uma situação aflitiva. Resido em um quarto alugado do qual estou sendo despejada e não tenho para onde ir”.
-
-Diante disso, ponderei com ela: “Se de fato se trata de Amaterasu Omikami, estamos a falar da mais nobre e suprema Divindade. Seria, portanto, inconcebível que Ela enfrentasse dificuldades com moradia. Pelo contrário, em virtude de Seu magnânimo poder e virtude, Ela deveria residir em uma esplêndida mansão, sendo reverenciada por uma multidão de seguidores”. Após ouvir minhas palavras, a mulher retirou-se em silêncio e visivelmente constrangida.
-
-Ademais, desde aquele episódio, encontrei diversas outras mulheres que se autoproclamavam Amaterasu Omikami. Isso me leva a crer que o número de pessoas que se arrogam tal identidade no Japão é consideravelmente alto. Nesse sentido, poderíamos até mesmo afirmar que vivemos em uma era na qual se tornou moda declarar-se Amaterasu Omikami.
-
----
-
-# O Assombro dos Descrentes
-
-**Categoria:** a | **Ano:** 昭和27(1952)年7月23日 | **Fonte:** Eikou
-
-## O Assombro dos Descrentes
-
-Com a recente conclusão do Shinsenkyo (神仙郷) e a inauguração de seu Museu de Arte, temos o primeiro e diminuto protótipo do Paraíso Terrestre, nosso lema maior. Ele materializa o pilar da Beleza, um dos componentes da trindade Verdade, Bem e Belo. Indubitavelmente, este protótipo se expandirá gradualmente até alcançar uma escala mundial; não há a menor margem para dúvida. Do mesmo modo, a Verdade e o Bem, embora ainda imateriais, também se manifestarão de forma concreta no devido tempo. É fundamental que todos estejam cientes dessa realidade vindoura.
-
-Dessa forma, o Plano Divino, embora invisível aos olhos humanos, avança a passos largos no Mundo Espiritual. Portanto, quando seus três grandes objetivos finalmente se manifestarem na face da Terra, todos, sem exceção, ficarão estupefatos, de tal modo que não conseguirão sequer fechar a boca.
-
-Atingido esse ponto, muitos reconhecerão: "Ah, como pude viver tanto tempo em um equívoco tão colossal! Ignorava que a salvação definitiva residia nos ensinamentos de Meishu-Sama. Quanta insensatez da minha parte!". Contudo, mesmo diante da evidência, muitos se sentirão orgulhosos demais para admitir o erro e buscar o caminho. Rangerão os dentes, frustrados por sua própria teimosia. E o que é ao mesmo tempo lastimável e curioso é que tal comportamento será mais comum entre os intelectuais e jornalistas, aqueles que se julgam superiores.
-
-À primeira vista, pode parecer que Deus age com ironia, mas a verdade é que não há ironia alguma em Seus desígnios. São os próprios seres humanos que criam as ironias da vida e, por conseguinte, sofrem com elas. Aos olhos de Deus, não passam de pobres cordeiros.
-
-Por essa razão, em breve, os poderosos de todo o mundo — e em especial os do Japão — ficarão absolutamente atônitos. Olharão para os céus, estarrecidos e sem reação, em um estado de completo assombro. Isso será, ao mesmo tempo, gratificante e digno de compaixão. É justamente para essa legião de assombrados que, desde já, dou esta pequena alfinetada, como um alerta.
-
----
-
-# O Expurgo do Mal
-
-**Categoria:** a | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
-
-## O Expurgo do Mal
-
-O que é o mal? Consiste, intrinsecamente, nos atos que, visando ao benefício próprio, intimidam e afligem o próximo, corrompendo assim a sociedade. O prejuízo que o mal acarreta, tanto ao indivíduo quanto à coletividade, é decerto imensurável. Com efeito, em todas as esferas da vida, não há uma única pessoa que, em maior ou menor grau, não tenha se tornado vítima de suas ações.
-
-Basta observar nosso cotidiano para constatar essa realidade. Para nos protegermos de ladrões, somos forçados a instalar janelas menores, que prejudicam a ventilação, e a trancar nossas portas com rigor. Mesmo no auge do calor, mantemo-nos encerrados, e ao nos ausentarmos, precisamos deixar alguém de vigia. Uma proposta vantajosa logo desperta a suspeita de estelionato, obrigando-nos a encarar tudo com um olhar de desconfiança. Notícias sobre assaltos na vizinhança ou nos jornais nos privam de um sono tranquilo, e caminhar sozinho à noite, especialmente para mulheres e crianças, tornou-se uma atividade de extremo perigo. Nos trens e bondes, é preciso estar atento aos batedores de carteira; no ambiente de trabalho, há empregados desonestos, e no comércio, a vigilância contra furtos é incessante. Enumerando tantos exemplos, sentimo-nos como se estivéssemos cercados por indivíduos ardilosos, o que evidencia a triste realidade de nossa sociedade: é impossível viver com a mente em paz.
-
-Todavia, o problema não se detém aí. Quando os filhos atingem certa idade, surgem os temores das más influências. A esposa se aflige com a possibilidade de o marido se entregar a divertimentos mundanos ou a relações extraconjugais, ao passo que o marido pode sentir-se inseguro quanto à fidelidade de sua esposa. No mundo dos negócios, os prejuízos inesperados causados por atos malignos são uma constante. Some-se a isso o vultoso dispêndio do erário público com a manutenção de órgãos como a polícia e o sistema judiciário. Nas empresas, a desconfiança exige a construção de cofres robustos, a implementação de complexos sistemas de contabilidade e a exigência de inúmeros carimbos e assinaturas. Nas fábricas, é preciso vigiar o roubo de matéria-prima, prevenir fraudes na expedição de produtos e nos pagamentos, além de combater a produção de itens defeituosos, o deliberado baixo rendimento e as greves de má-fé. Até mesmo a busca desmedida pelo lucro por parte dos capitalistas, em suma, não há praticamente nenhum desses problemas que não tenha o mal como sua causa fundamental.
-
-Ademais, a corrupção, antes velada, hoje é praticada quase abertamente. Práticas que envolvem suborno por meio de bebidas, banquetes, mulheres, dinheiro e lisonja tornaram-se comuns. Ouve-se dizer que o sucesso no ingresso escolar depende do montante oferecido. Comenta-se que as licenças governamentais jamais são concedidas sem que haja alguma manobra nos bastidores. Em praticamente todos os setores, a retidão é algo extremamente raro. A verdade, conhecida por todos, é que o mundo se afundou em tamanha escuridão e ilegalidade que a própria sobrevivência parece impossível sem recorrer a meios escusos.
-
-Ao se analisar o mundo sob a ótica do bem e do mal, torna-se evidente que a presença do mal é muitas vezes superior à do bem. Por conseguinte, os prejuízos, as perdas e a insegurança gerados por ele são de uma magnitude incalculável. Fica claro, portanto, que o avanço da cultura e a construção de um novo Japão dependem fundamentalmente da redução do mal. Nesse sentido, governantes, educadores e intelectuais deveriam dedicar-se de corpo e alma a diminuir a força do mal em nosso meio. Ouso afirmar, sem qualquer hesitação, que não existe outro caminho.
-
-Qual seria, então, esse caminho? É, sem dúvida, a prática da fé verdadeira.
-
----
-
-# A Edificação do Paraíso Terrestre
-
-**Categoria:** a | **Ano:** 昭和22(1947)年8月 | **Fonte:** 愛和会趣意書 未定稿、昭和22
-
-## A Edificação do Paraíso Terrestre
-
-O que nos narra, em sua essência, a história da humanidade ao longo dos últimos milênios? Embora por vezes surjam guerras e calamidades naturais, mergulhando o ser humano em eras de obscuridade e desespero, ao mergulharmos o pensamento e observarmos o curso da história, percebemos com clareza os traços de um progresso célere e incessante. É, portanto, inegável que a humanidade avança continuamente em direção a um objetivo predeterminado. Qual seria, então, esse Magno Objetivo? Cremos ser o Desígnio de Deus, o Soberano do Universo: a concretização de um mundo ideal, o Paraíso na Terra. As palavras de Cristo, “Arrependei-vos, porque é chegado o Reino dos Céus”, referem-se, provavelmente, a este momento.
-
-A questão crucial, contudo, é o “quando”. E nós estamos convictos de que essa hora se aproxima vertiginosamente, pois logramos obter a chave que torna tudo isso possível.
-
-Se fôssemos definir o Paraíso Terrestre de forma sucinta, diríamos ser um mundo isento das três grandes calamidades: a doença, a pobreza e o conflito. Evidentemente, qualquer pessoa pode conceber tal ideal, mas é provável que ninguém deixe de considerá-lo irrealizável. Nós, todavia, cremos em sua concretização sem qualquer sombra de dúvida. Exporemos aqui, de forma resumida, os fundamentos dessa nossa convicção.
-
-A raiz primordial dessas três grandes calamidades é, sem dúvida, a doença. A causa da guerra, em grande medida, reside na escassez de recursos, e essa escassez, por sua vez, origina-se do enfraquecimento causado pela doença. Tal princípio aplica-se tanto ao indivíduo quanto à nação. Ademais, é um fato incontestável que a degradação do pensamento também tem como causa a falta de saúde.
-
-Todos sabem da luta mortal que a humanidade trava há milênios contra a doença, fonte de toda a infelicidade. Ao constatarmos, porém, que até hoje não se vislumbra sequer o início de uma solução, a ideia de sua completa erradicação pareceria nada mais que um delírio.
-
-Contudo, eis que surge uma descoberta monumental e assombrosa: uma nova arte terapêutica, criada pelo Sr. Mokichi Okada, denominada Terapêutica Purificadora Japonesa. Trata-se de uma prática de efeitos tão prodigiosos que se torna difícil crer em sua veracidade apenas por meio de explicações escritas. Para se convencer, não há outro caminho senão a experiência direta ou a observação de seus resultados. São justamente os que foram curados de enfermidades graves e os que testemunharam tais curas que, diante de sua eficácia assombrosa, sentem o desejo de aprender essa arte.
-
-Aqueles que se dedicam a seu aprendizado tornam-se capazes, em poucos meses, de curar pacientes desenganados por doutores e portadores de moléstias crônicas de mais de uma década. A partir disso, pode-se aquilatar a natureza extraordinária dessa terapêutica. E como ela prescinde de medicamentos ou aparelhos, será fácil levá-la às regiões mais remotas e inóspitas do mundo, estendendo seus benefícios a todos os povos.
-
-Ao imaginarmos uma sociedade na qual essa Terapêutica Purificadora esteja difundida, podemos afirmar categoricamente que as diversas doenças infecciosas seriam reduzidas a menos de um quinto, a tuberculose a menos de um terço e, na média, as demais enfermidades também diminuiriam para menos de um quinto de sua incidência atual. De fato, é praticamente inexistente o número de praticantes desta terapêutica que contraem doenças infecciosas. Ademais, quanto mais uma pessoa aprofunda seus conhecimentos e sua prática, mais sua saúde se fortalece, o que nos leva à conclusão natural de que o número de doentes na humanidade diminuirá progressivamente.
-
-O que foi exposto é um fato isento de qualquer exagero. Por ser uma arte terapêutica sem precedentes na história humana, é natural que encontremos diversas dificuldades no que tange aos aspectos legais. Entretanto, em uma época como a atual, de proliferação de doentes, este é um problema da mais alta gravidade, que não pode ser negligenciado um dia sequer. Por isso, em nome de toda a humanidade, rogamos encarecidamente que a questão seja tratada com uma perspectiva magnânima, que transcenda a rigidez da letra da lei.
-
-É com base nesses objetivos que nossa associação se propõe a iniciar um movimento de paradisização. Primeiramente, paradisizar o indivíduo; em seguida, os vilarejos e as cidades; depois, a nação, até, por fim, paradisizar o mundo, concretizando o Paraíso Terrestre. Este processo certamente demandará muitos anos. Contudo, seremos felizes se, por meio desta sagrada obra, pudermos contribuir ainda que minimamente para a elevação da humanidade. E nossa alegria será infinita se conseguirmos, em alguma medida, corresponder à missão que nos foi confiada por Deus.
-
-Nossa associação avançará apoiada em três pilares: o Departamento Religioso, o Departamento Terapêutico e o Departamento de Ação Social. No que tange à religião, não nos fixaremos em uma única vertente; haverá liberdade para a prática de qualquer credo.
-
-(Agosto de 1947)
 
 ---
 

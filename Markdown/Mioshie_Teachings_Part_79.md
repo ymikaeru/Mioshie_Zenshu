@@ -1,8 +1,1287 @@
 # Mioshie_Teachings - Part 79
 
+# sosyo12
+
+**Categoria:** sasshi | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** - | **Status:** -
+
+――― Coleção de Ensaios do Mestre Jikan Okada ―――
+Coletânea de Discursos de Jikan
+Coleção Jikan, volume 12
+『Coletânea de Discursos de Jikan』
+Publicado em 30 de janeiro de 1950
+
+## Prefácio
+
+Esta obra consiste em uma seleção de artigos publicados no jornal Hikari e na revista Chijo Tengoku, ambos editados por nossa Igreja. Para compô-la, selecionei apenas os textos mais cativantes e significativos, que pudessem servir como alimento para a alma.
+
+Ademais, muitos trechos foram consideravelmente revisados e complementados, em um esforço para alcançar a máxima perfeição. Portanto, mesmo aqueles que já tiveram contato com estes escritos certamente experimentarão uma nova e profunda impressão.
+
+Naturalmente, os temas abordam assuntos da atualidade, religião, ética, preceitos para a vida, entre outros saberes indispensáveis ao ser humano. Nesse sentido, esta obra pode ser lida como um guia para a jornada da vida e, também, como uma nova filosofia existencial.
+
+Janeiro de 1950
+O Autor
+
+## Verdade e Não Verdade
+
+Desde a antiguidade, muito se fala sobre a verdade; contudo, parece que pouco se menciona a não verdade, ou seja, a inverdade. Todavia, ao examinarmos as questões práticas da vida, é imperativo compreender que existe uma distinção entre ambas, pois o resultado de nossas ações depende fundamentalmente dessa percepção. Observo constantemente que, com notável frequência, a inverdade é confundida com a verdade; a maioria das pessoas simplesmente não se dá conta desse equívoco.
+
+A inverdade e a verdade manifestam-se na religião, na filosofia, na ciência, na arte e na educação. Em qualquer campo, a inverdade, após alguns anos, décadas ou séculos, acaba por ruir, enquanto a verdade permanece eterna e imutável.
+
+Quando algo novo é descoberto, as pessoas tendem a acolhê-lo como a verdade suprema. Não obstante, é muito comum que, com o surgimento de novas teorias, essa suposta verdade venha a desmoronar. Da mesma forma, quem pode garantir que mesmo as grandes religiões não desaparecerão após centenas ou milhares de anos? Isso não significa que elas se extinguirão por completo. É natural que apenas a sua faceta inverídica desapareça, enquanto os aspectos verdadeiros que contêm permaneçam. E mesmo que nada reste, elas terão cumprido o seu papel como uma etapa no avanço da civilização, não merecendo, portanto, serem alvo de críticas. É lógico supor, ademais, que quanto mais próxima da verdade for uma inverdade, mais longa será a sua existência, e quanto mais distante, mais efêmera será a sua duração.
+
+A rigor, a responsabilidade de discernir corretamente entre a verdade e a inverdade recai sobre os intelectuais e precursores de cada época. A realidade, porém, é que são extremamente raras as pessoas dotadas de uma visão tão extraordinária. Contudo, mesmo uma inverdade pode perdurar por um tempo considerável. Ideologias como o absolutismo e o pensamento feudal, por exemplo, já foram tratadas como verdades. Em tempos mais recentes, o fascismo de Mussolini, o nazismo de Hitler e o Hakkō Ichiu (八紘一宇) de Tojo tiveram destinos efêmeros, mas é espantoso que, na época, ninguém percebesse a sua natureza falaciosa. Assim, mesmo sendo inverdades, essas doutrinas foram capazes de convencer seus povos de que eram a verdade, a ponto de a vida humana ser tratada com desdém. As lembranças das inúmeras e desafortunadas vítimas desse tipo de ilusão permanecem vivas em nossa memória, revelando quão temível pode ser a inverdade.
+
+É um fato inegável que as inverdades são especialmente abundantes no campo da religião. Inúmeras pequenas religiões surgem e desaparecem. Algumas, apesar de um início promissor, têm uma vida curta e se extinguem sem deixar vestígios, precisamente por serem religiões inverídicas.
+
+Portanto, uma religião que possua o mesmo valor da verdade, ainda que sofra forte opressão por um tempo, inevitavelmente se reerguerá e se tornará uma grande religião. As grandes religiões existentes hoje confirmam essa premissa.
+
+(Nota) Hakkō Ichiu (八紘一宇): "O mundo sob um mesmo teto". Slogan usado durante a Guerra do Pacífico para justificar a expansão imperialista do Japão.
+
+## A Explanação das Cinco Sabedorias
+
+A palavra “sabedoria” abrange diversas categorias. Gostaria de classificá-las da seguinte forma: no ápice, encontra-se a Sabedoria Divina; em seguida, vêm a Sabedoria Sutil, a Sabedoria Iluminada, a Sagacidade e, por fim, a Sabedoria Maligna. Dividem-se, em suma, em cinco níveis, os quais denomino as Cinco Sabedorias. Passo a explicá-las uma a uma.
+
+A Sabedoria Divina é a mais elevada de todas e não pode ser alcançada por pessoas comuns. É uma sabedoria concedida por Deus a indivíduos especiais, a quem Ele confia uma missão de suma importância. Um antigo ditado a descreve com perfeição: “O conhecimento adquirido pelo estudo chama-se sabedoria humana; o conhecimento adquirido sem estudo chama-se Sabedoria Divina”.
+
+A Sabedoria Sutil, também conhecida como o poder da Sutil Sabedoria de Kannon, pode ser considerada a sabedoria búdica, em contraste com a Sabedoria Divina. Se a Sabedoria Divina é masculina, a Sabedoria Sutil pode ser vista como feminina. É interessante notar que o ideograma para “sutil” (妙) contém o radical de “mulher” (女).
+
+A Sabedoria Iluminada é aquela manifestada por seres humanos de grande discernimento. No budismo, expressões como “a sabedoria que leva à iluminação” ou simplesmente “sabedoria” referem-se a ela. No mundo de hoje, contudo, são verdadeiramente raras as pessoas capazes de empregar sequer essa Sabedoria Iluminada. A razão, evidentemente, é que os pensamentos impuros dificultam o julgamento correto das coisas. Permitam-me ilustrar com um exemplo. Atualmente, quando políticos e intelectuais se reúnem para debater uma questão, mesmo que seja de pequena monta, precisam de horas de deliberação entre muitas pessoas para chegar a uma conclusão. Em se tratando de um problema maior, dezenas de indivíduos se debruçam sobre ele em discussões acaloradas, reunindo-se por vários dias e sessões sem conseguir chegar a um consenso. Isso revela a letargia de seu intelecto.
+
+Pensemos bem: qualquer que seja o problema, a solução é sempre uma só; jamais existem múltiplas conclusões. O fato de serem necessários tantos cérebros e tantos dias para encontrá-la é, em uma palavra, lamentável. Isso ocorre porque lhes falta por completo a Sabedoria Iluminada; a falta de Sabedoria Iluminada, por sua vez, deve-se a uma mente obscurecida; a mente obscurecida é fruto de pensamentos impuros; os pensamentos impuros nascem da adesão ao materialismo; a adesão ao materialismo provém da negação da existência de Deus; e a negação da existência de Deus resulta da ausência de uma religião capaz de fazer as pessoas crerem Nele. Conclui-se, assim, que a verdadeira religião viva é aquela que ensina, de forma manifesta, a existência de Deus. A necessidade de uma explanação tão detalhada demonstra o quanto a mente do homem moderno se deteriorou.
+
+Nesse sentido, uma pessoa dotada de Sabedoria Iluminada é capaz de encontrar a solução para qualquer problema em questão de minutos, ou no máximo, em algumas dezenas de minutos. Por essa razão, instruo meus subordinados a limitar as discussões para encontrar uma conclusão a cerca de trinta minutos. Se o debate se estender por mais de uma hora, a reunião deve ser suspensa e remarcada para outra data, ou então eles devem consultar-se diretamente comigo.
+
+Embora me seja penoso falar sobre mim mesmo, sou capaz de encontrar a conclusão para qualquer problema, por mais complexo que seja, em poucos minutos. Ocasionalmente, há casos em que a solução não surge de imediato. Nesses momentos, não forço a mente, apenas adio a questão. Pouco depois, invariavelmente, a conclusão aflora em minha mente como uma inspiração.
+
+A seguir, temos a Sagacidade. Como todos sabem, trata-se de uma sabedoria superficial, uma astúcia aparente. Embora possa funcionar momentaneamente, com o tempo, invariavelmente leva ao fracasso e à perda de credibilidade. Poderíamos também chamá-la de sabedoria tola ou obtusa.
+
+Por fim, a Sabedoria Maligna, como o próprio nome indica, é uma sabedoria perversa, maligna. Infelizmente, ela é bastante comum no mundo e está presente inclusive entre as classes intelectuais e dirigentes, o que impede a melhoria da sociedade. Somente quando os japoneses se livrarem dessa sabedoria maligna é que uma sociedade radiante poderá surgir e nossa nação se tornará grandiosa. Haveria, então, um método para erradicar essa perversidade? A resposta é simples: basta eliminar a sua fonte. E o único meio para isso é a atuação de uma religião com o poder de fazer crer na existência de Deus.
+
+## A Filosofia da Intuição
+
+Em minha juventude, senti grande afinidade com as teorias do falecido filósofo francês Henri Bergson, muito aclamado na época. Ainda hoje recordo com frequência seus ensinamentos, pois eles trazem enormes benefícios também do ponto de vista da fé. Por essa razão, decidi discorrer sobre eles.
+
+Os pilares de sua filosofia são, creio eu, a doutrina do fluxo universal, a teoria da intuição e o conceito do “eu do momento”. O que mais me impressionou foi a filosofia da intuição. Segundo Bergson, é assim que ela se define.
+
+Quando observamos algo, não é fácil percebê-lo exatamente como é, sem a menor distorção. A apreensão da realidade de um objeto é, de fato, extremamente difícil. Qual seria a razão para isso?
+
+Originalmente, todo ser humano carrega, de forma latente, um conjunto de noções provenientes da educação, tradição, costumes e outros fatores, que se integram como um “bastão”. Raramente nos damos conta da existência desse bastão, mas é ele que interfere em nossa percepção das coisas. Por exemplo, ao nos depararmos com uma nova religião, o bastão nos impede de vê-la com clareza, pois partimos do pressuposto de que todas as novas religiões são supersticiosas, heréticas e fraudulentas. O homem de hoje está constantemente exposto às opiniões dos jornalistas por meio de jornais e revistas, e às de outras pessoas através do rádio e dos boatos. Com isso, seu bastão se torna cada vez mais grosso e rígido. Mesmo que testemunhe o milagre de uma doença incurável pela medicina ser curada pela fé, ele é incapaz de aceitar o fato com simplicidade. A primeira reação é a dúvida, e isso se deve ao bastão. A ideia de que as doenças só podem ser curadas pela medicina constitui o núcleo desse bastão. E se a cura de fato ocorreu, ele imediatamente encontra justificativas, como “era a hora de a pessoa sarar”. Assim, o bastão distorce a realidade com diversos argumentos, algo que vivenciamos constantemente.
+
+A filosofia da intuição visa corrigir esse erro tão comum ao ser humano. Trata-se de, ao observar algo, livrar-se da interferência do bastão, tornando-se um “eu” de mente aberta e receptiva, como uma folha de papel em branco. Para tanto, é preciso tornar-se o “eu do momento”. A impressão captada no instante em que se vê algo, a intuição imediata, é o que permite apreender a realidade do objeto sem erro. Portanto, se vimos com nossos próprios olhos o fato de que uma doença grave foi curada, devemos simplesmente acreditar nisso. Essa é a maneira correta de ver. Pensar “isso é impossível” ou “como algo que máquinas e remédios não curam poderia ser curado por uma força invisível, semelhante ao nada?” já é um sinal da interferência do bastão. Se, nesse momento, alguém diz: “Isso é superstição, que história absurda!”, significa que o bastão de outra pessoa veio reforçar a interferência. Devemos, portanto, estar muito atentos a esse ponto. O que descrevi é apenas um breve esboço da filosofia da intuição.
+
+Em seguida, temos a doutrina do fluxo universal, que postula que tudo está em constante mudança, sem um único instante de pausa. Por exemplo, o meu eu de ontem não é o mesmo de hoje. Na verdade, o meu eu de cinco minutos atrás já difere do meu eu atual. O mundo de ontem não é idêntico ao de hoje. O mesmo se aplica, evidentemente, à sociedade, à cultura e às relações internacionais. Assim, nossa maneira de ver as coisas e a própria mudança deve ser clara e precisa. Essa é a perspectiva correta. Seguindo essa lógica, nossa visão sobre religião e cultura também deveria se transformar. No entanto, as pessoas criticam as novas religiões com base em conceitos religiosos de centenas ou milhares de anos atrás, o que, naturalmente, as impede de obter um conhecimento acurado. Essa é a essência da doutrina do fluxo universal.
+
+## A Superstição da Lógica
+
+Atualmente, a palavra “superstição” é usada para criticar e depreciar, o que é um tanto problemático, especialmente porque essa atitude é comum entre os intelectuais. Sendo assim, creio ser necessário esclarecer as causas que dão origem à superstição.
+
+Ao observarmos a vida humana, percebemos que este mundo está repleto de acontecimentos que desafiam a lógica. Quantas vezes planejamos fazer algo, imaginando que o resultado será de uma determinada maneira, para depois nos depararmos com um desfecho completamente contrário às nossas expectativas? Todos já passamos por isso. Se as coisas não acontecem conforme a lógica, não seria o caso de a própria lógica estar equivocada? É fundamental que nos atentemos a esse ponto.
+
+Evidentemente, a infelicidade humana decorre do fato de que nem tudo ocorre segundo a lógica. Se tudo seguisse a lógica, seríamos felizes.
+
+Diante disso, é crucial reavaliar nossa forma de pensar e a mente que constrói essa lógica. É a partir daí que devemos recomeçar. De fato, ao olharmos para o mundo, podemos dizer que a maioria das pessoas é composta de fracassados. Se a lógica aceita pela maioria está equivocada, então a lógica oposta a essa lógica deve ser a verdadeira. O paradoxo a que sempre me refiro consiste exatamente nisto: ao priorizarmos os fatos em detrimento da lógica, raramente falhamos. Por exemplo, é comum ouvirmos dizer que o Johrei de nossa Igreja não faz sentido lógico, mas cura milagrosamente, enquanto a medicina faz sentido lógico, mas não cura de forma satisfatória.
+
+Há também outro ponto. Ao saírem da escola e ingressarem na sociedade, as pessoas descobrem uma enorme discrepância entre a lógica aprendida nos bancos escolares e a realidade. Isso é consequência de uma educação que prioriza a lógica em detrimento dos fatos, um problema especialmente acentuado no Japão. Recentemente, sob a influência da educação americana, tornamo-nos um pouco mais práticos, mas sinto que ainda estamos longe de uma verdadeira conscientização. Um exemplo trivial: mesmo depois de estudar ciências na escola, muitos formados não sabem consertar um simples defeito elétrico. Da mesma forma, muitas mulheres, após concluírem o ensino secundário, não sabem sequer preparar uma conserva de farelo de arroz. Isso ocorre porque lhes foi ensinada apenas a lógica da teoria, e não o conhecimento prático.
+
+Conclui-se, portanto, que a atitude de se apegar à lógica e ignorar a realidade pode, sem dúvida, ser chamada de uma superstição da lógica.
+
+## A Materialização da Verdade
+
+Qual é o verdadeiro propósito da religião? É, sem dúvida, a materialização da verdade. E o que é a verdade? É, naturalmente, a própria Natureza em seu estado original. O fato de o Sol nascer no leste e se pôr no oeste, de os seres humanos nascerem e um dia morrerem — o que o budismo chama de *shōja hitsumetsu* (os que vivem certamente morrerão) e *esha jōri* (os que se encontram certamente se separarão) —, e o fato de vivermos respirando o ar e nos alimentando, tudo isso é, evidentemente, a verdade. A necessidade de afirmar algo tão óbvio revela o quão caótica se tornou a condição humana.
+
+Diante do caos, dos conflitos, da desordem e da criminalidade que permeiam a sociedade atual, é inegável que as condições para a infelicidade humana superam as condições para a felicidade. Sendo assim, devemos refletir sobre a origem desse estado de coisas. A meu ver, a causa fundamental é que tudo se afastou demasiadamente da verdade. Isso é muito claro, mas as pessoas simplesmente não se dão conta desse distanciamento. Qual seria a razão para tal? Na verdade, o homem moderno já não consegue sequer discernir o que é a verdade. Talvez a pressão dos problemas existenciais não lhe dê tempo para refletir sobre isso. Ademais, até mesmo a religião, que deveria ser a guardiã da verdade, por muito tempo não a apresentou com clareza, pregando inverdades como se fossem a verdade. Se a verdade tivesse sido verdadeiramente ensinada, a sociedade humana estaria em uma condição muito melhor do que a atual. Talvez o Paraíso Terrestre já estivesse, em certa medida, realizado.
+
+Contudo, chegou o tempo celestial, e a Vontade Divina se manifestou. Através de mim, Deus passou a elucidar a verdade e a executar a sua materialização. Portanto, as palavras que profiro são a própria verdade, proclamada da forma mais compreensível a todos. Se o leitor as acolher com uma mente aberta e receptiva, como uma folha de papel em branco, e refletir profundamente sobre elas, a verdade emergirá gradualmente.
+
+Começarei pelo mais próximo de nós: o fato de o ser humano adoecer indica que há algo em sua vida que se desviou da verdade. A medicina, incapaz de curá-lo, também está, por conseguinte, desviada da verdade. Os problemas na política e no pensamento, o aumento da criminalidade e o sofrimento causado pela crise econômica, inflação e deflação, tudo isso ocorre porque algo se afastou da verdade. Se não houvesse desvio, as coisas justas se realizariam conforme os anseios humanos, pois foi assim que Deus criou a sociedade. Portanto, a concretização de uma sociedade ideologicamente bela e a possibilidade de os seres humanos viverem em felicidade e alegria não são tarefas difíceis. É nisto que reside a viabilidade do Paraíso Terrestre que eu prego.
+
+Por essa razão, muitos talvez achem minhas palavras bastante singulares, mas, na realidade, elas não têm nada de incomum; são o mais puro bom senso. A percepção de que são diferentes surge de uma visão baseada na inverdade. Quanto mais minhas ideias parecerem singulares, mais singular é a realidade da sociedade.
+
+Deus concedeu ao ser humano uma liberdade infinita. Esta é a verdade. Aos animais e plantas, foi concedida uma liberdade limitada. Aí reside a nobreza do homem. O que é, então, a liberdade humana? O ser humano existe em uma posição intermediária entre dois extremos: ao se elevar, pode tornar-se um deus; ao decair, pode tornar-se uma fera. Partindo desse princípio, podemos concluir que, dependendo de suas ações, o homem pode transformar este mundo em um paraíso de deleite ou, ao contrário, em um inferno de miséria.
+
+Esta é a verdade. Sendo assim, qual dos dois caminhos o ser humano deve escolher? A menos que seja um demônio por natureza, é óbvio que desejará o primeiro.
+
+Se assim é, a realização do mundo paradisíaco é o objetivo último da humanidade, e a única forma de alcançá-lo é através da materialização da verdade. E como essa é a missão original da religião, eu, tanto pela palavra escrita quanto pela falada, ensino a verdade e, como materializador da verdade, dedico-me incansavelmente a essa obra, dia após dia.
+
+## O que é o Poder de Kannon?
+
+Desde a antiguidade, fala-se do “poder da Sutil Sabedoria” ou do “poder de Kannon”, termos que, evidentemente, possuem o mesmo significado. É curioso que não existam expressões como “poder de Amida”, “poder de Shakyamuni” ou “poder de Daruma”, e que apenas Kannon (観音) Bodhisattva seja associado a um “poder”. Deve haver uma razão para isso. Não há, contudo, registros literários nem tradições orais a esse respeito. Há muito tempo eu nutria essa dúvida, mas, com o avanço da minha fé, a resposta se tornou muito clara. Gostaria, então, de explicá-la.
+
+Há outra questão relacionada a este tema, que é frequentemente levantada: Kannon (観音) Bodhisattva é uma deidade masculina ou feminina? Este ponto está intimamente ligado ao poder de Kannon. Na verdade, a deidade é tanto masculina quanto feminina; possui, por assim dizer, ambas as naturezas.
+
+Como se sabe desde a antiguidade, o homem é yang e a mulher é yin. Em termos de fogo e água, o homem é fogo e a mulher é água. O fogo queima na vertical, e a água flui na horizontal. Chegou o momento em que essa vertical e essa horizontal finalmente se unem.
+
+A luz é a união íntima do fogo e da água. Quanto maior a proporção do elemento fogo, mais intensa se torna a luz. É por isso que, no Mundo do Dia, a luz se torna mais forte com o aumento do elemento fogo. Essa é a razão pela qual a atuação de Kannon (観音) Bodhisattva se manifesta como Komyo Nyorai (Buda da Luz).
+
+O ponto mais importante é que a união da vertical e da horizontal gera o verdadeiro poder. O ideograma para “poder” (力) é formado por uma haste vertical e uma haste horizontal que se cruzam e se curvam, com a ponta projetada para cima. Isso significa que, através da união, surge uma força rotacional que avança pela esquerda e recua pela direita, em um movimento vibrante. Isso nos faz refletir sobre a profunda significância dos ideogramas. Assim, o fato de apenas Kannon (観音) Bodhisattva possuir as naturezas vertical e horizontal se deve à geração de poder através de sua união. Eis o motivo pelo qual se fala especificamente do “poder de Kannon”.
+
+Aproveito para registrar outro ponto de suma importância. Kannon (観音) Bodhisattva manifesta-se como Komyo Nyorai e, em seguida, atua como Miroku ou Messias. Como mencionei, a luz é composta de fogo e água. Com a adição do solo, a atuação passa a ser de fogo, água e solo. Originalmente, fogo e água representam apenas a atuação espiritual, sem um corpo. Com a adição do solo, a força da trindade fogo-água-solo pode, pela primeira vez, ser manifestada. Esta é a Joia que Realiza os Desejos, a Joia de Mani. O fogo corresponde ao número cinco, a água ao seis, e o solo ao sete. Assim, a sequência numérica cinco-seis-sete (go-roku-shichi) é lida como “Miroku”. A profecia de Shakyamuni sobre o advento do mundo de Miroku após cinquenta e seis億 setenta milhões de anos refere-se, na verdade, ao surgimento de um mundo onde a ordem correta de fogo, água e solo — cinco, seis, sete — se estabelecerá.
+
+Ademais, por maior profeta que fosse Shakyamuni, que necessidade haveria de prever um futuro com um número astronômico como cinquenta e seis億 setenta milhões de anos? Tal previsão não teria qualquer significado prático. O valor de uma profecia reside em sua aplicabilidade, abrangendo, no máximo, alguns milhares de anos. A profecia de Cristo para dois mil anos depois é um exemplo de um período muito mais apropriado.
+
+O Miroku de Kannon (観音) Bodhisattva é o Miroku Encarnado, conforme ensinado no budismo. De agora em diante, devemos observar com máxima atenção as inúmeras e variadas atuações deste Miroku Encarnado.
+
+Tanto a soma dos números cinco, seis e sete quanto a de três, seis e nove resulta em dezoito. O dez representa a união, e o oito, a abertura. Desde a antiguidade, se estabeleceu que a imagem principal de Kannon (観音) Bodhisattva é de ouro e mede um *sun* e oito *bu* (aprox. 5,45 cm), e que seu templo principal tem dezoito *ken* (aprox. 32,7 m) de lado. Tudo isso encerra um profundo significado.
+
+## O Ideograma "Shu"
+
+Sempre digo que é preciso corrigir a ordem das coisas. O ideograma que representa essa ordem em uma única letra é “Shu” (主), que significa “principal” ou “mestre”. Vamos analisar este ideograma.
+
+As três linhas horizontais, de cima para baixo, representam céu-terra-homem, sol-lua-terra, cinco-seis-sete, ou mundo divino-mundo espiritual-mundo material. Uma linha vertical as atravessa, e no topo há um pequeno traço. Esta é a ordem correta. Seja na política, na economia, na educação, na religião ou no lar, tudo deve seguir este modelo para prosperar.
+
+No entanto, até hoje, em quase todas as áreas, a vertical e a horizontal estiveram separadas. O exemplo mais significativo é a separação entre o pensamento oriental (vertical) e o pensamento ocidental (horizontal). Agora, porém, o tempo chegou, e eles finalmente se unirão em forma de cruz. O centro do ideograma “Shu” (主) é o ideograma para “dez” (十), que tem a forma de uma cruz. As linhas horizontais superior e inferior representam o céu e a terra. O mundo humano, estando entre o céu e a terra, é onde essa união em cruz ocorrerá. Esta é a imagem do Paraíso Terrestre, o mundo de Deus em forma de cruz. A própria palavra “Deus”, em japonês, *Kami*, carrega esse significado. *Ka* é fogo, e *mi* é água. O fogo queima na vertical, e a água flui na horizontal. A união de ambos forma *Kami*. Como dizem as expressões *Kamimusuhi* (nascimento divino) e *Takamimusuhi* (nascimento sublime), a obra de Deus é a união. Já a palavra para Buda, *Hotoke*, tem a sonoridade de *hodokeru*, que significa “desatar”. O grande ponto de transição que se aproxima é, portanto, a união, por Deus, do mundo que estava desatado. A cruz que os cristãos traçam no peito é um prenúncio disso, e a suástica budista tem um significado semelhante. A diferença é que, na suástica, cada um dos braços da cruz está curvado, o que indica que, ao se unirem em cruz, um movimento de rotação se inicia.
+
+Por essa razão, tudo deve ter três níveis para funcionar bem. O ideograma mostra a parte superior e a inferior firmemente unidas pela cruz central, que sustenta as hastes de cima e de baixo. Isso também pode ser interpretado como o papel da classe média em harmonizar as classes alta e baixa. E, no topo, senta-se o líder, que preside a tudo. Seguindo o modelo do ideograma “Shu” (主), tudo prospera sem rupturas. Seja na política, na gestão de uma empresa ou na administração de uma organização, o princípio é o mesmo. Esta é a imagem do mundo de Miroku que sempre pregamos.
+
+## A Construção do Mundo de Miroku
+
+Estou atualmente escrevendo sobre a verdadeira natureza do mundo de Miroku (cinco-seis-sete) que pregamos, e pretendo publicá-la em breve. Aqui, porém, gostaria de abordar brevemente o processo que levará à sua construção.
+
+O mundo de Miroku é, naturalmente, o paraíso profetizado por Cristo e o mundo de Miroku anunciado por Shakyamuni. E este mundo ideal está prestes a nascer.
+
+De acordo com minha percepção espiritual, as fundações do mundo de Miroku já foram lançadas no Mundo Espiritual. Portanto, não há dúvida de que, em um futuro próximo, ele se manifestará de forma muito concreta neste plano terrestre. Em que época abençoada nascemos! Ao pensar nisso, transbordamos de alegria.
+
+É preciso compreender que, para construir um edifício grandioso, a casa antiga que ocupava o terreno precisa ser demolida. Naturalmente, os materiais aproveitáveis da construção antiga são selecionados, limpos, aplainados e reutilizados na nova obra. Da mesma forma, na construção do mundo de Miroku, um processo análogo ocorrerá.
+
+Diante disso, muitos dos acontecimentos futuros poderão parecer ilógicos, inúteis ou destrutivos aos olhos humanos, mas é preciso saber que eles fazem parte de uma grande purificação da imundície. Como tudo é a materialização da Vontade Divina, não nos cabe julgar com nossa visão limitada. Devemos, portanto, adotar uma atitude de profunda humildade e nos adaptar a todas as transformações. Nós, que tivemos o privilégio de conhecer isso através da percepção espiritual, devemos nos precaver para não interpretar mal a grandiosa Vontade Divina. Com uma correta visão de Deus, devemos habitar no estado de paz de espírito que nos foi concedido como um privilégio da fé, desfrutando da vida e aguardando o momento, independentemente de quais eventos extraordinários ou processos de desintegração a humanidade venha a experimentar.
+
+Se me expresso de forma um tanto vaga, é porque a profunda e secreta Vontade Divina não me permite, no momento, revelá-la em detalhes concretos.
+
+Em suma, meu objetivo aqui foi apenas delinear a preparação mental necessária para enfrentar o processo que inevitavelmente precederá a realização do mundo de Miroku.
+
+## A Super-religião
+
+A maioria das pessoas provavelmente considera a construção de um mundo livre de doença, pobreza e conflito — o Paraíso Terrestre, lema de nossa Igreja — como um mero sonho de um tolo. De fato, Cristo disse: “O Reino dos Céus está próximo”, mas não disse que o construiria. Shakyamuni previu o advento do mundo de Miroku após sua morte, mas referiu-se a um futuro absurdamente distante, de cinquenta e seis億 setenta milhões de anos; não disse que o mundo de Miroku estava iminente. Os judeus anseiam pela vinda do Messias, mas não sabem quando ocorrerá. A lenda milenar da Índia sobre o surgimento do Bodhisattva da Roda do Tesouro, o mundo do Kanrodai da Tenrikyo, o mundo de Gino da doutrina de Nitiren, o mundo de Matsu pregado pelo fundador da Oomoto — nenhuma dessas profecias especificou o tempo de sua realização. É preciso refletir profundamente sobre isso.
+
+Embora todas essas previsões tenham cumprido um papel importante, o fato de não terem sido acompanhadas por uma declaração de execução ou um plano de realização deve ser entendido como um sinal de que o tempo ainda não era oportuno. Os ensinamentos e práticas de cada um desses fundadores serviram de base para as diversas religiões que conhecemos hoje.
+
+Naturalmente, para se adequarem aos diferentes povos e nações do mundo, os fundadores estabeleceram doutrinas, formas e métodos que, sob a égide do Deus Supremo, foram adaptados às necessidades de cada época, região, povo, tradição e costume. Foi assim que o espírito de harmonia foi cultivado, permitindo o florescimento da esplêndida cultura que temos hoje. Se as religiões não tivessem surgido nos diversos países, a proliferação do mal teria sido incontrolável, e o mundo talvez já tivesse sido destruído. Ao considerarmos isso, por mais que se enalteçam os méritos dos fundadores e santos que surgiram até hoje, jamais será um exagero.
+
+Contudo, embora o poder das religiões existentes tenha impedido a destruição do mundo, é questionável se elas continuarão a ser úteis para o mundo de hoje e do futuro. Afinal, ao observarmos a realidade atual, vemos a humanidade imersa em um sofrimento infernal. Para conter esse sofrimento e elevá-la a um estado paradisíaco, o poder das religiões existentes é insuficiente, como bem demonstra sua incapacidade de salvar sequer o presente. De fato, os benefícios da brilhante cultura de hoje estão restritos a uma pequena parcela da humanidade. A causa disso é a excessiva falta de espírito de harmonia e a entrega demasiada aos conflitos.
+
+Ao analisar o mundo atual, as almas mais sensíveis não podem deixar de esperar pelo surgimento de uma grande luz capaz de dissipar essa escuridão e ignorância. Refiro-me a um poder de salvação super-religioso.
+
+É com a consciência de que nos foi confiada essa missão super-religiosa que estamos, passo a passo, colocando-a em prática e alcançando resultados surpreendentes.
+
+## Nossa Fé e o Princípio do Grande Caminho
+
+Ao observarmos o mundo de hoje, vemos um alvoroço constante: “sou de esquerda”, “sou de direita”, ou ainda, “não sou nem de esquerda nem de direita, sou de centro”. O apego obstinado a uma ideologia ou pensamento limitado inevitavelmente gera atritos. É claro que há quem tenha o atrito e o conflito como objetivo, mas isso é outra história.
+
+Após o fim da guerra, a meta da nação passou a ser, indiscutivelmente, a democracia. O objetivo da democracia é, naturalmente, a maior felicidade para o maior número de pessoas. No entanto, se cada um se aferrar à sua própria ideologia, o resultado será o conflito, que, em vez de trazer a maior felicidade para a maioria, acabará por gerar a maior infelicidade para a maioria.
+
+Não sou apenas eu quem diz isso; a realidade da sociedade atual o demonstra de forma inequívoca. Vejamos os partidos políticos. Dentro de um mesmo partido, facções com ideologias distintas vivem em constante atrito, correndo o risco de cisões e dissoluções. Qualquer um que não concorde com suas ideias é imediatamente visto como inimigo. Mal um novo governo é formado, e já se planeja derrubá-lo. Passados apenas dois ou três meses, cobra-se a execução de promessas de campanha, acusando-o de emitir cheques sem fundo. Por essa razão, os governos no Japão se sucedem com tal frequência que mal têm tempo de aquecer o assento. Nesse aspecto, somos muito parecidos com a França. Lembro-me de que, no primeiro ano do governo trabalhista no Reino Unido, os resultados foram surpreendentemente ruins. Se fosse no Japão, teria havido um clamor de críticas. No entanto, a tolerância do povo britânico foi notável: eles confiaram a tarefa a Attlee e permaneceram em silêncio, o que, para nós, foi um espanto.
+
+O mesmo se observa nos Estados Unidos. O mandato de quatro anos do presidente permite a implementação de políticas ousadas. A grandiosa proeza de terem vencido a Segunda Guerra Mundial e, mesmo no pós-guerra, terem a capacidade de socorrer a Europa e a Ásia Oriental, deve-se ao fato de Franklin Roosevelt ter sido eleito quatro vezes, governando por dezesseis anos e implementando medidas arrojadas com grande sucesso.
+
+A situação atual do Japão, como descrevi, é resultado de uma mentalidade insular que ainda não foi superada. Por isso, é de suma importância que todo o povo japonês cultive, neste momento, um espírito de grande tolerância. Esta é a tarefa mais urgente que temos pela frente.
+
+Se o objetivo da religião é criar uma sociedade livre de conflitos, é primordial que abandonemos a estreiteza de espírito que nos leva a rejeitar os outros por um sentimento de superioridade moral. Nesse sentido, nossa Igreja não se inclina nem para a direita nem para a esquerda, nem se prende ao centro. Propomo-nos a avançar sob o estandarte de um grande ideal, uma ideologia mundial que abrange todas as correntes de pensamento e controla todas as coisas. É a isso que chamamos de Princípio do Grande Caminho.
+
+(Nota) Cultivar (涵養): Nutrir e desenvolver gradualmente, como a água que se infiltra naturalmente na terra.
+
+## A Religião Mahayana
+
+É de conhecimento geral que, na religião, especialmente no budismo, existe a distinção entre Mahayana (Grande Veículo) e Hinayana (Pequeno Veículo). Contudo, parece-me que, até hoje, essa distinção não foi plenamente compreendida. Gostaria de expor meu ponto de vista a respeito.
+
+Em sua essência, Mahayana significa a Grande Natureza. E a Grande Natureza, como é sabido, refere-se ao processo de geração e desenvolvimento de todas as coisas do universo. Portanto, o Mahayana abrange tudo, sem deixar nada de fora. Nesse sentido, o Mahayana que eu prego não é o budismo Mahayana, mas sim o Grande Caminho Mahayana. Ele engloba a religião, a filosofia, a ciência, a política, a educação, a economia e a arte. E não apenas isso; inclui também, naturalmente, a guerra e a paz, o bem e o mal.
+
+Ao observarmos atentamente a atividade de tudo o que existe, vislumbramos o caminho da Natureza. É claro que o valor de um verdadeiro ser humano reside em sua capacidade de reconhecer que, ao seguir esse caminho, tudo progride harmoniosamente. Por essa razão, quando nos desviamos do caminho, surge a dissonância, que inevitavelmente causa obstáculos e, por fim, leva à estagnação ou à destruição. A realidade deste mundo é que, quando se está em conformidade com o caminho, há criação; quando se desvia dele, há destruição. É como um trem ou bonde: enquanto permanece nos trilhos, avança; se descarrila, para.
+
+Portanto, tudo o que perece, perece por uma razão, e tudo o que nasce, nasce por uma razão. Nada é por acaso; tudo é inevitável. Nesse sentido, no campo do pensamento, se há uma inclinação para a esquerda, a direita surge; se há uma inclinação para a direita, a esquerda surge. Deve-se avançar nos trilhos, sem pender para nenhum dos lados, assim como se dirige um automóvel. Por essa lógica, o capitalismo, o socialismo, o comunismo, os conservadores, os progressistas, o positivismo, o negativismo e todas as outras correntes surgem por necessidade e se extinguem por necessidade. O mesmo se aplica, evidentemente, à religião: ela surge porque há uma razão para seu surgimento.
+
+No entanto, a maioria das pessoas observa o mundo a partir de seu próprio ponto de vista e tende a considerar tudo o que lhe é alheio como heresia. Isso ocorre porque veem através das pequenas lentes do seu “eu”, como no ditado: “olhar o teto através de um canudo de junco”. Mas, aos olhos de Deus, que governa esta Terra, a pequenez dos seres humanos, que se digladiam sobre a concha de um caracol, deve provocar um sorriso de resignação.
+
+Toda matéria que é desnecessária ao ser humano é naturalmente eliminada; a que é necessária, por mais que o homem tente eliminá-la, permanece. Por exemplo, quando surgem uma nova religião ou uma nova ideologia, mesmo que pareçam supersticiosas e heréticas aos olhos humanos, se forem necessárias à humanidade, elas prosperarão; se forem desnecessárias, serão eliminadas. Portanto, até certo ponto, devemos deixar que a Natureza siga seu curso.
+
+Se algo possui verdadeira vida e valor, quanto mais for reprimido pela força humana, mais se fortalecerá. O maior exemplo disso é o cristianismo. Apesar de seu fundador, Cristo, ter sido condenado à morte, seu florescimento atual fala por si.
+
+Escrevi este texto para exortar o homem moderno a refletir sobre o erro de sua visão excessivamente estreita e imediatista.
+
+(Nota) A disputa sobre a concha de um caracol (蝸牛角上の争い): Uma alegoria do filósofo chinês Zhuangzi. Refere-se a uma guerra entre um país no chifre esquerdo de um caracol e outro no chifre direito. Simboliza conflitos insignificantes.
+
+## As Portas do Mistério Foram Abertas
+
+Pode-se dizer que a maioria dos ensinamentos que exponho é inédita na história da humanidade. Imagino que isso suscite, em muitas pessoas, uma dúvida salutar. Por isso, gostaria de explicar brevemente a razão de ser assim.
+
+Eu sempre prego a construção do Paraíso Terrestre, mas esta não é uma ideia concebida por mim. Com a chegada do tempo celestial, Deus revelou-me o plano e a forma de sua realização, concedendo-me um poder imensurável para cumprir esse objetivo. A manifestação do poder de conhecer as coisas, que faz parte dessa força, torna-se os ensinamentos que transmito. Assim, os enigmas que até hoje estiveram envoltos em um véu de escuridão e as verdades que se encontravam obscurecidas pela névoa refletem-se com clareza em minha percepção espiritual. Eu simplesmente transcrevo o que vejo. Chegou, portanto, o tempo em que tudo será esclarecido.
+
+Até agora, vivíamos no Mundo da Noite. Na escuridão da noite, a invisibilidade é natural, e mesmo sob o luar, não é possível enxergar com nitidez. Essa era a realidade do mundo até então.
+
+Contudo, por volta de meados de 1931, entramos na era da aurora. A partir desse marco, o Sol começou a se elevar gradualmente, e adentramos o Mundo do Dia. Agora, o Mundo da Luz está para chegar, e o Paraíso Terrestre está para se manifestar. Nesse sentido, todos os enigmas, segredos e males sociais serão expostos à luz. A opacidade se tornará transparência, e o mal não terá mais onde se esconder.
+
+Se a causa dos três grandes sofrimentos da humanidade — doença, pobreza e conflito — reside no mal, não é de se espantar que, com a expulsão do mal, surja um mundo livre desses flagelos.
+
+O principal desses três sofrimentos é, naturalmente, a doença. Portanto, é lógico que a origem das enfermidades também se torne clara, e assim, um mundo sem doenças se realizará.
+
+Até hoje, a religião, a filosofia, a educação, o pensamento e todos os outros campos do saber consideravam impossível uma interpretação que fosse além de um certo nível, sendo incapazes de tocar o cerne profundo das questões. Diz-se que Shakyamuni, aos setenta e dois anos, alcançou o *kenshinjitsu* (a visão da verdade), e que Nitiren, com pouco mais de cinquenta anos, também o alcançou. *Kenshinjitsu* significa ter tocado esse cerne a que me referi. Foi assim que se tornou clara para Shakyamuni a profecia sobre o *hōmetsujin* (o declínio da lei búdica) e o *Miroku geshō* (a vinda de Miroku), e para Nitiren, a previsão de que, seiscentos e cinquenta anos depois, o Bodhisattva Jogyo apareceria e o mundo de Gino se estabeleceria. Cristo não proferiu a palavra *kenshinjitsu*, mas sua afirmação de que “o Reino dos Céus está próximo” e sua profecia sobre a “Segunda Vinda de Cristo” não poderiam ser conhecidas sem essa visão. Pode-se imaginar que, ao longo da história, outros santos, embora não tenham alcançado o *kenshinjitsu* pleno, chegaram perto dele.
+
+Para facilitar a compreensão, alcançar o *kenshinjitsu* é como subir ao topo de uma pirâmide. De pé no ápice, ao olhar para baixo, quanto mais alto se está, mais amplo é o campo de visão e mais se pode ver.
+
+Neste ponto, não posso deixar de falar de mim mesmo. Alcancei o *kenshinjitsu* aos quarenta e cinco anos. Nesse estado, pode-se conhecer com clareza tudo o que se refere ao passado, presente e futuro. Naturalmente, todos os erros do passado emergem, e o mundo futuro, bem como a condição humana nesse tempo, podem ser vistos com nitidez.
+
+No entanto, não me é permitido, por ora, revelar tudo o que conheci, pois Satanás, Devadatta e os fariseus ainda continuam a criar obstáculos. Sou, portanto, forçado a revelar apenas uma parte, o que me causa a aflição de não poder ser totalmente explícito. Mas, do ponto de vista do Plano Divino, isso é inevitável. Ainda assim, mesmo o que revelei até agora já demonstra uma diferença notável em relação ao que foi dito por meus predecessores, como devem ter percebido todos os que leem meus escritos.
+
+Como diz o título, as portas do mistério já foram abertas.
+
+(Nota) *Hōmetsujin* (法滅尽): O declínio e desaparecimento da lei búdica.
+*Miroku geshō* (弥勒下生): Ensinamento segundo o qual, 5.670.000.000 de anos após a morte de Shakyamuni, o Bodhisattva Miroku descerá a este mundo para salvar todos os que não foram salvos pelos ensinamentos de Shakyamuni.
+Mundo de Gino (義農の世): Um mundo ideal, semelhante ao governado pelos soberanos mitológicos da antiga China, Fuxi e Shennong.
+Devadatta (提婆): Primo de Shakyamuni. Embora muito talentoso, por ressentimento, perseguiu obstinadamente Shakyamuni e sua comunidade.
+Fariseus (パリサイ人): Grupo do judaísmo. Desempenharam um papel central na hostilização e perseguição a Cristo.
+
+## A Defasagem do Saber Acadêmico
+
+Embora se fale genericamente em “saber acadêmico”, existe o saber vivo e o saber morto. Pode parecer uma afirmação estranha, mas, para ser claro, o saber pelo saber é morto, enquanto o saber aplicado à sociedade é vivo. O saber que visa à busca da verdade, no entanto, é outra questão e tem um valor inestimável.
+
+O que é, afinal, o saber acadêmico? Hoje, nas escolas de todos os níveis, os alunos aprendem com os professores, tendo os livros didáticos como o eixo vertical e a prática como o eixo horizontal. Os métodos de ensino atuais foram construídos a partir do esforço e da pesquisa de inúmeros filósofos do passado, resultando na forma de saber que conhecemos hoje. Novas descobertas e teorias surgiram e desapareceram, foram apresentadas e refutadas, e apenas as parcelas de maior valor permaneceram e se acumularam ao longo do tempo. Aquilo que em uma época foi aceito como verdade e considerado um princípio inabalável, pode ter sido completamente extinto pelo surgimento de novas teorias e descobertas. Por outro lado, há conhecimentos que mantêm sua vitalidade e continuam a servir à sociedade e à humanidade. O tempo é o juiz de todas as coisas.
+
+Nesse sentido, mesmo o que hoje consideramos uma verdade absoluta e imutável pode, a qualquer momento, ser derrubado por uma nova teoria proposta por alguém. Quando surge uma nova descoberta, é natural que ela não se encaixe nos moldes do saber estabelecido. É justamente nessa ruptura que reside o seu valor. Em uma palavra, ela quebra paradigmas, e quanto maior a ruptura, maior o seu valor. O fato de uma suposta verdade ser descartada significa que uma verdade superior nasceu. É assim que ocorre o progresso incessante da cultura.
+
+Gostaria de aprofundar um pouco mais essa questão. A educação formal se baseia em um sistema bem-estruturado, consolidado ao longo de muitos anos. No entanto, o rápido avanço da cultura está se desvencilhando desse sistema rígido a uma velocidade impressionante. Recentemente, ouvi o desabafo do presidente de uma grande empresa. Ele disse: “Hoje em dia, mesmo os talentos formados em universidades há mais de dez anos muitas vezes não conseguem se adaptar aos problemas práticos. Isso porque o conhecimento que adquiriram naquela época está muito defasado em relação aos tempos atuais. É uma defasagem entre o tempo e o saber, especialmente notável entre os técnicos.” Como se pode ver, se a teoria acadêmica, que se baseia nos padrões de sua época, não acompanhar o progresso da cultura, ela se torna obsoleta.
+
+Vejamos outro exemplo. Diz-se que os políticos de hoje têm uma visão muito limitada. Quase não se encontram políticos de grande envergadura, capazes de agir com astúcia e sutileza. Os ministros atuais parecem desprovidos de estratégia, ocupando-se apenas em resolver os problemas imediatos, de forma totalmente previsível. Qual a razão para isso? A maioria dos ministros de hoje é formada em universidades públicas e tende a se prender a teorias antigas, baseando-se unicamente na lógica e desconhecendo a lógica que transcende a lógica. É como tentar puxar uma carroça em uma era de automóveis: aprenderam a conduzir a carroça, mas não sabem dirigir o carro.
+
+O saber acadêmico serve para desenvolver o intelecto e construir uma base, assim como o alicerce de uma construção. Sobre essa base, deve-se erguer um novo edifício, ou seja, aplicar e desenvolver o conhecimento para criar algo novo. É preciso acompanhar o ritmo da cultura, que avança a passos largos. Mais do que isso, é preciso estar à frente, assumindo um papel de liderança. Esse é o saber vivo. O presidente americano Harry Truman declarou recentemente que, por volta de 1921, era dono de uma pequena loja de miudezas. Sua experiência prática na sociedade o levou a ser quem é hoje.
+
+Há mais de dez anos, venho propondo uma nova teoria sobre a medicina. Ao publicá-la em livro, ela foi imediatamente proibida. Isso aconteceu três vezes, e por ora, desisti. A razão alegada é que minha teoria se opõe fundamentalmente à medicina atual. No entanto, em termos de resultados práticos, meus métodos são dezenas de vezes mais eficazes que os da medicina moderna, e a cura não é temporária, mas fundamental. Isso é um fato, sem o menor exagero. Em meus livros, escrevi que estava sempre disposto a comprovar minhas teorias, mas as autoridades e os especialistas sequer me deram atenção. Nada pude fazer.
+
+O objetivo da medicina é curar todas as doenças, promover a saúde e prolongar a vida. Que outro propósito poderia haver? Por mais que se discuta a teoria, por mais que se aprimorem as instalações materialistas e a sofisticação das máquinas, se o objetivo principal não for alcançado, tudo perde o sentido. O fato de minha teoria ser ignorada e desconsiderada apenas por ser diferente da teoria médica estabelecida é uma atitude que não escapará da crítica de ser uma traição ao progresso cultural. E como o governo deposita confiança absoluta nessa medicina, o homem moderno não passa de um cordeiro digno de pena.
+
+Qual a razão para minhas afirmações tão audaciosas? Não sou um louco. Não as faria se não tivesse certeza absoluta. Descobri que a medicina, que se orgulha de seu progresso, esconde uma falha terrível e monumental. Essa descoberta supera qualquer outra grande descoberta da história, pois nada é mais importante que a solução do problema da vida humana. Portanto, afirmo categoricamente que, enquanto não despertar para essa grande falha, a medicina moderna não terá uma existência útil.
+
+Ao olharmos para as ruas, vemos a inundação de pessoas que sofrem com doenças graves e intratáveis por causa de uma medicina equivocada. Diante dessa cena, não podemos permanecer de braços cruzados.
+
+Neste momento, tudo o que posso fazer é orar a Deus para que despertem o mais rápido possível para essa medicina equivocada.
+
+(Nota) Princípio inabalável (金科玉条): Literalmente, "leis de ouro e jade". Refere-se a regras ou leis de extrema importância, que devem ser seguidas à risca.
+
+## O Sol e a Lua
+
+Gostaria de explicar o significado do Sol e da Lua do ponto de vista religioso. É um tema de grande mistério e profundidade, e pode parecer, em alguns pontos, uma interpretação forçada. No entanto, por se tratar da verdade, peço que leiam com a mente serena.
+
+Na antiguidade japonesa, havia os Três Tesouros Sagrados: a joia, a espada e o espelho. A joia representa o Sol, a espada representa a Lua e a terra é simbolizada pelo espelho. A joia tem a forma do Sol; a espada, a forma da Lua crescente; e o espelho, conhecido como o Espelho de Oito Lados (*Yata no Kagami*), é dividido em oito protuberâncias, que representam as oito direções: leste, oeste, norte, sul, nordeste, sudeste, sudoeste e noroeste. Dentre os três, o significado da terra é óbvio e não requer explicação. Já o Sol e a Lua possuem um profundo significado, que passarei a descrever.
+
+Para facilitar a compreensão, tomarei emprestada uma interpretação da Tenrikyo, que diz que “lua” (*tsuki*) significa “empurrar” (*tsuki*), e “sol” (*hi*) significa “puxar” (*hiku*). Acho essa uma interpretação muito interessante. No Mundo da Noite, tudo tende a ser feito através do “empurrar”. Em grande escala, os países se empurram mutuamente; a guerra é um exemplo disso. O conflito também é um “empurrar” mútuo. Nas guerras antigas, era evidente que se lutava empurrando com espadas. Essa ideia se transferiu para as relações sociais, que também são chamadas de *tsukiai* (relacionamento), um jogo de palavras com o mesmo som de “empurrar-se”. A palavra “avançar” (*tsukisusumu*) implica vitória. Tudo isso é claramente uma manifestação da Lua, que representa o Mundo da Noite.
+
+Em contraste, “puxar” (*hiki*, *hiku*) significa recuar. “Atrair”, “recuar as tropas”, “ser derrotado”, “ser humilde” — tudo é o oposto da Lua. Por essa razão, no Mundo do Dia, tudo se rege pelo princípio do “puxar”. Portanto, a derrota é vista como algo bom. No ser humano, manifesta-se como a humildade. Sendo assim, não há como surgir conflito. Nós, por exemplo, consideramos positivo “pegar” (*hiku*) um resfriado. O objetivo de nossa Igreja é criar um mundo livre de doença, pobreza e conflito. A eliminação do conflito pode ser compreendida a partir dessa perspectiva. Como nossa Igreja se baseia principalmente na atividade do Sol, ou seja, do elemento fogo, devemos agir tendo em mente o princípio do “puxar”, e não o da Lua. É assim que muitas pessoas serão atraídas a nós.
+
+Ademais, como o Sol é a joia, é natural que devamos ser harmoniosos, serenos e flexíveis.
+
+## A Cultura que Ignora a Natureza
+
+Por que, apesar do progresso cultural no Japão de hoje, enfrentamos impasses em diversas áreas, e as coisas não saem como o esperado? A meu ver, há um grande equívoco na raiz de tudo, do qual a maioria das pessoas parece não se dar conta.
+
+Vejamos o campo da política. Mesmo quando o governo elabora um plano e o parlamento o aprova, na hora da execução, oito ou nove em cada dez políticas fracassam, como noticiado constantemente nos jornais. Não seria exagero dizer que a seção de política dos jornais é quase um registro de fracassos políticos. Qual a razão para esses insucessos contínuos? Em uma palavra, é o resultado do desprezo pela Natureza. E isso não se limita à política. O homem moderno, em todas as áreas, acredita que a intervenção artificial é sempre melhor, e está firmemente convencido de que isso é progresso e cultura. Eis o problema. Por isso, na política, elaboram-se e executam-se políticas desnecessárias, que, na verdade, chegam a ser prejudiciais. Uma manifestação disso é a criação excessiva de regras. Regulamenta-se tudo. Hoje, todos falam em liberalismo, mas, por experiência própria, posso dizer que o povo era muito mais livre nas eras Meiji e Taisho. Em comparação, a vida hoje é extremamente restritiva. Isso se deve, como mencionei, ao excesso de regulamentação. O povo está amarrado pelas cordas das regras e mal consegue se mover. O curioso é que não apenas o povo, mas os próprios funcionários públicos se veem amarrados e em apuros por causa das regras. A prova disso são as queixas que frequentemente ouvimos dos funcionários: “Pelo bom senso e pela humanidade, não seria um grande problema, mas a regra não permite. Nós também sofremos com as regras.” Alguém disse uma vez que o Japão é provavelmente o país com o maior número de leis do mundo, e é exatamente isso. Há um ditado que diz: “Quanto mais leis, mais crimes”, e sinto que ele se aplica perfeitamente ao Japão de hoje.
+
+Ao investigarmos as causas dessa situação, encontramos diversas razões, mas uma das mais fortes é a Grande Guerra. Naquela época, houve um grande esforço para mecanizar o povo. Uma máquina é colocada em um lugar fixo e opera de uma maneira fixa. Não há liberdade para a máquina; basta lubrificá-la de vez em quando e girar as engrenagens. O ser humano foi tratado exatamente como essa máquina. Não se podia dizer o que se queria, não havia liberdade de ação, não se podia comer o que se desejava — assim foi criada a máquina humana. Para mecanizar as pessoas, é necessário um molde. Esse molde são as regras. A economia controlada, que ainda persiste, é um desses moldes.
+
+Para mecanizar o povo, são necessários muitos funcionários. Durante a guerra, surgiram sucessivamente diversos órgãos e agências governamentais, e o número de funcionários aumentou drasticamente, multiplicando-se várias vezes. Esses funcionários excedentes permanecem até hoje. Só a folha de pagamento do funcionalismo público chega a trinta bilhões de ienes por ano, um número espantoso. Mas se fosse só isso, ainda seria tolerável. Há um grande problema que passa despercebido: o excesso de funcionários gera um excedente de mão de obra. Como não podem ficar ociosos, precisam encontrar algo para fazer. E o que chama a atenção dos funcionários é a reforma das regras. Isso é um grande problema. Por quê? Porque, uma vez que uma nova lei entra em vigor, o trabalho ao qual estavam acostumados se torna obsoleto. Surgem novos métodos e procedimentos para se adequar à nova lei e, quando finalmente se adquire prática e tudo flui bem, o trabalho que levava uma semana passa a ser feito em três dias. Com isso, os funcionários ficam com tempo livre, o que os leva a pensar em reformar as regras novamente. É preciso, portanto, despertar para esse problema e reduzir o número de funcionários. Para isso, a única solução é uma grande e corajosa reforma administrativa.
+
+As perdas diretas e indiretas que essa situação acarreta para o país são, sem dúvida, imensas. É comum ouvir que, no Reino Unido e nos Estados Unidos, muitas pessoas permanecem na mesma profissão por décadas, algo raro no Japão. Isso porque talvez não haja outro país no mundo onde tudo mude de forma tão vertiginosa quanto no Japão. A meu ver, a causa fundamental disso é que o japonês de hoje ignora demasiadamente a Natureza. Acredita-se que intervir artificialmente em tudo é um sinal de progresso cultural.
+
+Até aqui, falei principalmente da política, mas há muito a ser dito sobre outras áreas. Por exemplo, o cultivo sem fertilizantes que venho defendendo e que tem apresentado excelentes resultados. Desde a primeira edição deste jornal, temos publicado relatos de seus efeitos práticos. Com apenas os nutrientes do solo e o composto orgânico, obtêm-se resultados surpreendentes em qualidade e quantidade. O princípio fundamental é a conformidade com a Natureza. Os agricultores que não percebem isso há muito tempo consideram os fertilizantes artificiais como a melhor opção, gastando enormes quantias de dinheiro e esforço, matando o solo, gerando pragas e sofrendo com os resultados insatisfatórios. É uma tolice sem tamanho. Tudo isso é resultado do desprezo pela Natureza. O fato de nosso método agrícola valorizar o composto orgânico se deve a que folhas secas e capim são elementos naturais.
+
+Como outro exemplo do prejuízo de se ignorar a Natureza, falarei sobre a medicina. A ocorrência de doenças no ser humano é um processo de purificação de toxinas acumuladas por diversas causas. Portanto, a doença é uma função fisiológica natural e extremamente necessária. As excreções que a acompanham, como febre, tosse, escarro, coriza e suores noturnos, purificam o corpo e promovem a saúde. Assim, a doença é uma providência para o aprimoramento da saúde, uma grande graça de Deus. No entanto, a medicina atual interpreta isso de forma oposta e considera correto interromper o processo de eliminação de toxinas. O erro é gritante. A forma mais simples de eliminação de toxinas é o resfriado. Ao contrair um resfriado, pode-se evitar a pneumonia e a tuberculose pulmonar. Se o resfriado fosse incentivado, é mais claro que o fogo que a incidência de tuberculose e pneumonia diminuiria drasticamente. No entanto, a medicina, alheia a isso, age de forma contrária: no caso de um resfriado, adota medidas para interromper a eliminação de toxinas. A prova disso é que a tuberculose e a pneumonia, longe de diminuírem, mostram até uma tendência de aumento. É evidente que tudo isso se deve ao desprezo pela Natureza.
+
+## A Luz da Sabedoria
+
+Embora se fale genericamente em “sabedoria”, existem diversos tipos, com diferentes níveis de profundidade. Gostaria de explicar sobre eles.
+
+A Sabedoria Divina, a Sabedoria do Bem e a Sabedoria Iluminada são as mais elevadas. Devemos nos empenhar na fé para aprimorar essas sabedorias, pois elas só brotam do reconhecimento de Deus e de um coração sincero e correto. Agindo e nos esforçando com base na Sabedoria do Bem, jamais falharemos e poderemos alcançar a verdadeira felicidade.
+
+Em contrapartida, as sabedorias que nascem do mal são a Sabedoria Maligna, a Sagacidade e a Sabedoria Perversa. Todos os criminosos são detentores dessas sabedorias. Os crimes de colarinho branco, como o estelionato, são cometidos pelos mais habilidosos nesse campo. Nesse sentido, os heróis e os homens de sucesso efêmero da história nada mais são do que indivíduos com um grande domínio dessa sabedoria maligna.
+
+O interessante é que, quanto mais profunda é a Sabedoria do Bem, mais rasa é a sabedoria do mal. Isso fica evidente ao observarmos a trajetória dos malfeitores, do passado aos dias de hoje. Por mais que seus planos pareçam engenhosos, sempre há uma falha em algum lugar. É essa brecha que leva à ruína, à descoberta e ao fracasso. Portanto, para se alcançar uma glória duradoura, e não apenas momentânea, é preciso que a sabedoria profunda atue. E como a sabedoria profunda brota da força da sinceridade, a conclusão é que é indispensável ser uma pessoa de fé correta.
+
+Compreendendo essa lógica, os males da sociedade atual se tornam simples de entender. Eles são fruto da superficialidade do pensamento do homem moderno, que se manifesta em todos os setores. Os políticos, por exemplo, pensam apenas no imediato e, quando surge um problema, agem apressadamente para resolvê-lo. Nisso, assemelham-se muito à medicina sintomática. No entanto, os problemas surgem porque há uma causa para eles; jamais ocorrem por acaso. Com uma sabedoria superficial, é impossível prever o futuro e, portanto, elaborar políticas verdadeiras. É como no jogo de go ou shogi: o mestre vence porque consegue antever cinco ou dez jogadas, enquanto o amador, que mal enxerga duas ou três jogadas à frente, está fadado à derrota.
+
+Diante do exposto, é preciso compreender que, sem cultivar a Sabedoria do Bem e sem a atuação da Sabedoria Iluminada, nada pode dar certo. E a única maneira de alcançá-las é através da fé.
+
+## As Depressões Atmosféricas são Desastres Humanos
+
+Desde a antiguidade, tufões, tempestades e inundações são considerados desastres naturais, fenômenos inevitáveis com os quais nos resignamos. No entanto, do nosso ponto de vista, não se trata de desastres naturais, mas sim de desastres humanos. Passo a explicar.
+
+Hoje, a ciência se esforça no avanço da meteorologia para tentar mitigar esses desastres. O Japão, naturalmente, investe anualmente grandes somas e implementa todas as instalações possíveis, mas será que os resultados são satisfatórios? Parece que estamos longe de alcançar o objetivo desejado. Vejamos: a cada ano, os prejuízos causados por esses fenômenos atingem cifras astronômicas. Recentemente, o tufão Kitty, apenas em números oficiais, causou uma perda de 2,14 milhões de *koku* de arroz, a destruição de 4.229 casas, e um total de 144 mortos e desaparecidos, com dezenas de milhares de feridos. Somando-se os danos às lavouras, a destruição de estradas e diques, e os prejuízos a residências e outras instalações, o governo estima um prejuízo de 87 bilhões de ienes, o que demonstra a magnitude do desastre. E se adicionarmos os danos das várias tempestades, grandes e pequenas, que ocorrem ao longo do ano, as perdas, tangíveis e intangíveis, atingem um valor incalculável.
+
+Sendo assim, mesmo que não seja possível eliminar completamente esses desastres, devemos nos esforçar para minimizar ao máximo os danos. É claro que tanto o governo quanto a população tomam todas as medidas possíveis, mas, com a falta de orçamento e outros fatores, os resultados não chegam a uma fração do planejado. Não podemos continuar assim. A situação atual, em que contamos apenas com a pesquisa meteorológica, não oferece uma solução imediata. É como esperar cem anos para que o Rio Amarelo se aclare. A pesquisa científica é materialista; ela observa apenas a superfície das coisas, sem conseguir desvendar seu interior. A única solução definitiva é apreender a causa fundamental que reside no âmago dos fenômenos.
+
+Como, então, podemos conhecer essa causa fundamental? É sobre isso que queremos falar.
+
+O que é, afinal, uma depressão atmosférica? É um processo de limpeza do espaço sobre a Terra, ou seja, do que chamamos de Mundo Espiritual. Assim como no mundo material, a sujeira também se acumula no Mundo Espiritual, da mesma forma que a poeira se acumula nas cidades e nas casas. A única diferença é que, por ser invisível, o acúmulo de impurezas no Mundo Espiritual não é percebido pelos seres humanos, e por isso, até hoje, passou despercebido. Isso também é um reflexo do erro da ciência, que até agora se dedicou apenas ao materialismo, negligenciando a pesquisa do espiritual. Como sempre afirmamos, esta é a maior falha da humanidade. Sem reconhecer e pesquisar a existência do Mundo Espiritual, o princípio das depressões atmosféricas jamais será facilmente compreendido.
+
+Fazer com que as pessoas reconheçam a existência real, embora negada, do Mundo Espiritual é a missão primordial da religião. No entanto, as religiões estabelecidas até hoje têm sido extremamente tímidas, para não dizer indiferentes, a esse respeito, o que é no mínimo intrigante.
+
+Deixando de lado as digressões, se a impureza se acumula no Mundo Espiritual, é natural que um processo de limpeza ocorra espontaneamente. O vento varre e a água lava: isso é a depressão atmosférica. Não difere em nada do processo de limpeza do mundo material. Portanto, a chave para a solução definitiva é identificar a origem dessa impureza. E o que é essa impureza? São as máculas criadas pelos pensamentos, palavras e ações dos seres humanos. Ou seja, os corações, palavras e atos malignos das pessoas afetam o Mundo Espiritual, que é invisível, gerando máculas. O fato de grandes tempestades nos atingirem com frequência revela o quanto os corações humanos se deterioraram e o quanto abundam as palavras e ações malignas.
+
+Existe, porém, um método para eliminar essas máculas? Sim, e é extremamente simples: basta fazer o oposto. Ou seja, purificar os corações e praticar boas palavras e ações. A mácula no Mundo Espiritual, criada pelo mal, deve ser dissipada pelo bem. Nesse caso, o bem se torna luz e dissolve a mácula. Os hinos no cristianismo, a recitação de sutras no budismo e as preces no xintoísmo são todas palavras de bem e louvor, e, portanto, contribuem de alguma forma para a purificação do Mundo Espiritual. Se não existissem essas boas palavras e louvores, depressões atmosféricas ainda maiores ocorreriam.
+
+Assim, a verdade é que as depressões atmosféricas são criadas pelos seres humanos, que depois sofrem com elas. A Natureza é, de fato, muito bem-feita. É o mesmo princípio do corpo humano: quando a sujeira se acumula, ocorre um processo de purificação chamado doença.
+
+Diante do exposto, a única medida para prevenir as depressões atmosféricas é tomar consciência desse princípio, corrigir o mal e praticar o bem. Não há outra solução fundamental.
+
+(Nota) Materialista (形而下): Aquilo que tem forma. Os fenômenos da natureza em geral.
+Tímido (微温的): Morno. Refere-se a algo que é incompleto, que não vai a fundo.
+
+## A Terceira Religião
+
+Embora seja inevitável que nossa Igreja seja vista como mais uma religião entre as já existentes, a verdade é que ela possui diferenças notáveis que a tornam incomparável a elas. Em primeiro lugar, nossa fé abrange o xintoísmo, o budismo, o cristianismo, a filosofia, a ciência e a arte. Abrange também a esquerda e a direita, o capitalismo, o socialismo e o comunismo. Qualquer pessoa que leia os livros, revistas e jornais publicados por nossa Igreja concordará com isso.
+
+O objeto de nosso culto, que chamamos de Imagem Sagrada, são os ideogramas para Komyo Nyorai (Buda da Luz). Sendo um *Nyorai*, é um nome búdico, mas nós o chamamos de Imagem Sagrada. Além disso, entoamos uma oração que é ao mesmo tempo uma prece e um sutra, chamada Ensinamento de Louvor, que foi composta por mim. Trata-se de uma condensação do Sutra de Kannon, adaptada ao formato de uma prece xintoísta. A razão para isso é que a recitação completa do Sutra de Kannon leva mais de trinta minutos, o que não se adequa à vida social do Japão de hoje. A oração matinal precisa ser concluída em até cinco minutos, para que não haja o risco de se negligenciar o trabalho em caso de imprevistos no transporte.
+
+Meus diversos escritos abordam a essência de todas as religiões, astronomia, geografia, o espírito da palavra, o I Ching, filosofia, literatura, política, economia, arte, relatos do Mundo Espiritual, e até mesmo teatro e cinema, o que surpreende as pessoas. Especialmente a medicina espiritual revelada por Deus e a manifestação do poder divino são consideradas sem precedentes na história mundial. Isso fica evidente no fato de que, em nossa Igreja, o número de fiéis doentes é extremamente baixo. Além disso, em todos os assuntos humanos, qualquer problema, por mais complexo ou peculiar que seja, pode ser solucionado.
+
+Em nossa Igreja, os preceitos existem e não existem ao mesmo tempo. A salvação não discrimina entre o bem e o mal, mas, por outro lado, a distinção entre bem e mal é um pilar inabalável. Sendo nossa fé o Grande Caminho Mahayana, acreditamos que o capitalismo promove a indústria, o socialismo corrige a distribuição desigual de riquezas, o comunismo melhora o bem-estar da classe trabalhadora, que constitui a maioria da população, e a democracia impede o surgimento de classes privilegiadas. A hierarquia natural se forma apenas com base na virtude. A base de tudo é uma ideologia mundial e humanitária, e o objetivo de nossas atividades é a prosperidade comum da humanidade.
+
+Naturalmente, em nossa Igreja, ao mesmo tempo que pregamos uma profunda filosofia religiosa, apelamos às massas, defendendo que “religião é vida” e nos esforçando para que a vida cotidiana se torne uma expressão da fé. Consequentemente, não há a rigidez encontrada nas religiões existentes, e não damos grande importância às formalidades religiosas. Pode-se dizer que somos liberalistas, democráticos e radiantes. Nossas cerimônias também são extremamente simples e bem-adaptadas à vida moderna.
+
+Gostaria de destacar, em especial, o fato de que, em nossa Igreja, os milagres são extraordinariamente abundantes. Provavelmente, não há paralelo na história para uma religião como a nossa.
+
+O que descrevi é um resumo, mas, em suma, nossa fé não pode ser compreendida pela perspectiva religiosa tradicional. É por isso que a chamamos de Terceira Religião.
+
+## Tipos de Fé
+
+Embora se fale genericamente em “fé”, existem diversos tipos. Eis alguns deles: (1) Fé Interesseira; (2) Fé Conforme a Ocasião; (3) Fé Agradecida; (4) Fé Utilitarista; (5) Fé Mediúnica; (6) Fé Egoísta; (7) Fé Carente; (8) Fé Ausente; (9) Fé Inconstante; (10) Fé Caprichosa; (11) Fé Parasitária; (12) Fé Falsa. E assim por diante. Passo a explicar cada uma delas.
+
+(1) Fé Interesseira: O único objetivo é receber graças. O bem de Deus ou do mundo fica em segundo plano; o que importa é o próprio bem-estar. É uma fé egoísta, comum entre pessoas de classe média para cima. Sabem como usar a fé, mas não sabem como agradecer e servir a Deus. Ao usar a fé, colocam-se acima de Deus. No entanto, é ao reverenciar e servir a Deus que se recebem as bênçãos. Portanto, essa fé interesseira acaba por afastar as graças e não dura muito.
+
+(2) Fé Conforme a Ocasião: Enquanto a religião está no anonimato, mostram-se muito pouco fervorosos. Mas, assim que ela se torna conhecida e começa a ser comentada, de repente, como se tivessem se lembrado, aproximam-se de Deus e querem trabalhar.
+
+(3) Fé Agradecida: Vivem dizendo “sou grato, sou grato” e, objetivamente, parecem fiéis exemplares. No entanto, não possuem uma visão ampla do grande objetivo de Deus, que é a salvação da humanidade. É uma fé extremamente individualista, e por isso, não realizam nenhum trabalho. São como árvores secas que apenas fazem volume na floresta.
+
+(4) Fé Utilitarista: Aproximam-se da religião com a intenção de lucrar ou com alguma ambição oculta. São pessoas muito astutas. Quando percebem que não podem mais se aproveitar, desaparecem rapidamente.
+
+(5) Fé Mediúnica: Adoram fenômenos de possessão divina e se dedicam a eles, querendo saber sobre o Mundo Espiritual. Não é algo necessariamente ruim, mas não é o caminho principal. É o tipo de trabalho de um centro de estudos espiritualistas. Tendem a acreditar nas mensagens de espíritos de baixo nível e a valorizar previsões triviais e imprecisas. É um caminho desviado.
+
+(6) Fé Egoísta: Praticam a fé movidos unicamente pelo desejo. É o tipo comum de pessoa que faz peregrinações mensais a algum santuário, oferece dinheiro e oferendas em troca de benefícios e nunca pensou na infelicidade da sociedade ou do próximo. É o tipo mais comum.
+
+(7) Fé Carente: Querem se impor, querem receber, querem ser bem-vistos, bem-falados e elogiados. É uma fé muito superficial, que não consegue se desapegar do amor-próprio. Também se enquadra na categoria de fé de baixo nível.
+
+(8) Fé Ausente: Aparecem quando já tínhamos nos esquecido deles. Ficam tanto tempo sem dar notícias que pensamos que abandonaram a fé, mas não é o caso. De repente, como se tivessem se lembrado de algo, surgem como fantasmas. Seria melhor que abandonassem a fé de vez.
+
+(9) Fé Inconstante: Não conseguem se manter em uma única fé. Querem experimentar diversas crenças. São como plantas aquáticas que flutuam de uma margem a outra. Por isso, jamais recebem as verdadeiras graças. Mas, ao mesmo tempo, sentem-se vazios sem alguma crença. São excessivamente indecisos. Basta ouvir alguém falar, e logo se convencem. São pessoas infelizes.
+
+(10) Fé Caprichosa: São extremamente volúveis e, assim como os de fé inconstante, não conseguem se dedicar a uma única crença. Mudam constantemente. São peregrinos religiosos. Esse tipo tende a ser mais comum entre os intelectuais.
+
+(11) Fé Parasitária: Usam Deus e a fé como pretexto para satisfazer seus próprios desejos. É o mesmo que a fé egoísta. É um tipo comum em organizações religiosas, especialmente entre líderes e intelectuais.
+
+(12) Fé Falsa: Aparentemente, parecem fiéis, mas, no fundo, não reconhecem a Deus. E são justamente esses os que têm uma lábia incrível, enganando a todos no início. Mas Deus não permite que isso dure muito, e, no fim, a máscara cai e eles fogem.
+
+Se a sua fé não se enquadra em nenhuma dessas categorias, então é uma fé correta.
+
+## Ó Homens de Bem, Tornai-vos Fortes!
+
+Ao observar atentamente a sociedade de hoje, vejo que os maus estão se excedendo. Por causa disso, os homens de bem são oprimidos e sofrem imensamente, como todos sabem. Gostaria de expor a causa fundamental desse problema.
+
+Desde a antiguidade, os bons são considerados fracos, e os maus, fortes. Isso faz com que os malfeitores ajam com cada vez mais audácia. Antigamente, as leis não eram tão completas e não havia órgãos de repressão à violência como hoje. Assim, os bons não podiam reagir à violência dos maus e acabavam por se resignar. Na classe dos comerciantes, os mais fortes e destemidos prevaleciam. Na classe dos samurais, os maus usavam a força de suas espadas, e os comerciantes, temerosos, não podiam reagir. A história e as narrativas estão repletas de exemplos disso, uma realidade muito diferente da de hoje. Após a Restauração Meiji, o Japão entrou na era da civilização e do progresso, as leis foram se aprimorando e a sociedade como um todo caminhou na direção da negação da violência, até chegarmos aos dias de hoje. Infelizmente, porém, a violência ainda não foi erradicada de nossa sociedade. Antes do fim da guerra, os militares e os nacionalistas de direita usavam a violência como uma arma secreta, empregando-a quando lhes convinha.
+
+Após o fim da guerra, com o desmantelamento das facções militares e a repressão da direita, a situação melhorou consideravelmente. No entanto, os malfeitores de hoje começaram a usar métodos mais sutis que a violência para atormentar os bons, visando, naturalmente, o dinheiro. Que métodos são esses? É o que se pode chamar de extorsão legal. Eles agem no limite da lei, de forma a não serem pegos. Além dos casos de chantagem e extorsão que publicamos neste jornal, há também vários processos judiciais que não divulgamos. Nesses casos, eles usam mentiras e falsificações para abusar da lei e alcançar seus objetivos. O mais lamentável é que muitos deles são pessoas de classe média para cima. Há décadas que eu mesmo não tenho um momento de paz sem processos judiciais, o que evidencia essa realidade. Isso porque, desde a antiguidade, mantenho um princípio.
+
+Esse princípio é que o homem de bem não pode perder para o homem do mal. O bem que é mais forte que o mal é o verdadeiro bem. O fato de os bons perderem para os maus é o que faz com que os maus prevaleçam, e essa é a principal razão pela qual o mal social não pode ser erradicado. Esse problema é especialmente comum entre as classes mais altas, nos chamados crimes de colarinho branco. Quando um homem de bem é oprimido por um homem do mal, ele sabe que pode denunciar ou protestar, mas teme retaliações e considera o processo judicial caro e demorado, achando que não vale a pena e acaba por desistir. Os que me processam o fazem pensando que sou um homem de bem e que desistirei. No entanto, por causa do meu princípio de não perder para o mal, eu luto até vencer. Por isso, muitos processos se arrastam por muito tempo. O mais longo deles já dura onze anos. O fato de ainda existirem chefões locais e de os escândalos de corrupção entre funcionários públicos não cessarem é de conhecimento de todos.
+
+Citei vários exemplos, mas, em uma palavra, a causa do mal social é a fraqueza dos homens de bem. Um homem de bem que é fraco não é um verdadeiro homem de bem. É, na verdade, um covarde. Falta-lhe a indignação contra o mal. É um homem de bem passivo. Mesmo que o número desses homens de bem aumente, eles não têm coragem de praticar o mal, o que é bom, mas, por desejarem apenas a própria segurança, permitem a proliferação do mal, tornando-se, de certa forma, covardes. Para ser claro: quando os homens do mal perceberem que não podem vencer os homens de bem, que os homens de bem são, na verdade, muito fortes e difíceis de lidar, e que é melhor abandonar o mal e se juntar aos bons, então o mal social diminuirá drasticamente, e teremos um mundo radiante e agradável de se viver.
+
+Se concordamos com essa lógica, mesmo que os homens de bem se indignem, sozinhos não podem fazer nada. O que fazer, então? Primeiro, os homens de bem devem se unir e formar uma liga. Poderia se chamar Liga pela Erradicação da Imoralidade, por exemplo. Eu proponho essa ideia, pois acredito que seja o meio mais eficaz para a melhoria da sociedade.
+
+(Nota) Agir com audácia (跳梁跋扈): Saltar e pular descontroladamente. Refere-se a malfeitores que agem livremente.
+
+## O Eu Visto por Mim
+
+Ao ler este título, o leitor talvez o ache estranho, mas, à medida que a leitura avançar, certamente concordará.
+
+Não creio que exista uma existência mais singular que a minha, pois não há registros de alguém como eu na história da humanidade. Ao escrever este artigo, pretendo fazê-lo da forma mais objetiva possível, evitando o subjetivismo. Peço que o leiam com isso em mente.
+
+Começarei pelo meu trabalho. Meu objetivo é, naturalmente, a salvação da humanidade, e cada um de meus atos está alinhado com essa meta. A atividade à qual dedico a maior parte de meus esforços atualmente é escrever ideogramas em papel. Ou seja, a caligrafia. Faço-o para atender aos pedidos de inúmeros fiéis, esforçando-me para satisfazê-los ao máximo. Eles usam essas caligrafias como amuletos, pendurando-as no pescoço ou guardando-as no peito, e, a uma distância de alguns metros, impõem as mãos sobre os doentes, irradiando uma força espiritual. Com isso, sem exceção, o sofrimento da doença é aliviado. Doentes desenganados por vários médicos, à beira da morte, são curados por fiéis que ingressaram na fé há poucos meses, recuperam a saúde e voltam a viver em sociedade. Exemplos como esse ocorrem aos milhares todos os dias. Aqueles que testemunham esses milagres de ressurreição ficam, compreensivelmente, maravilhados. O prolongamento da vida humana, algo considerado impossível por qualquer pessoa ao longo da história, torna-se uma realidade. Este é, provavelmente, um grande problema mundial. A gratidão e a emoção dos que são salvos são imensuráveis, e os relatos e cartas de agradecimento se acumulam em minha mesa. Ao lê-los, meus olhos se enchem de lágrimas inúmeras vezes.
+
+E não é só isso. O método de guardar o amuleto no peito e impor as mãos, que chamamos de Johrei, faz com que ladrões prestes a arrombar uma casa fujam. Há inúmeros casos de pessoas que caíram de penhascos, foram atropeladas por trens ou carros e saíram ilesas, ou que foram salvas de incêndios. Na agricultura, os milagres são notáveis. Plenatações de trigo prestes a secar revivem com o Johrei; pragas são eliminadas e, sem exceção, a produção aumenta. Não são raros os casos de cavalos e bois desenganados por veterinários que ressuscitam. Além disso, pessoas em situação de pobreza se libertam de seu sofrimento, e lares sombrios se tornam radiantes. O destino começa a mudar para melhor no momento em que se coloca o amuleto no peito. Esses inúmeros milagres são publicados no jornal Hikari e na revista Chijo Tengoku. Uma leitura lhes dará uma ideia, ainda que parcial.
+
+Ao examinarmos a vida de grandes santos e fundadores de religiões, encontramos milagres de cura de doentes, um a um. Há também casos de curas obtidas através da fé e de intermediários que manifestaram o poder de cura. No entanto, o poder notável do Johrei praticado pelos intermediários de hoje é, provavelmente, incomparavelmente diferente.
+
+Muitas pessoas relatam que, ao olharem para os ideogramas que escrevi, veem a forma das letras se transformar em luz e se dispersar, dançando no ar. Há também quem veja uma pequena bola de luz, do tamanho de uma bola de borracha, em meu ventre. Muitas pessoas viram luz sair de minhas mãos. A projeção de ondas de luz dessa bola de luz já foi capturada em fotografia, assim como a expansão da luz da bola até preencher todo o cômodo.
+
+Todos os dias, reservo uma hora para me encontrar com centenas de fiéis. Eu lhes digo de antemão que podem me fazer qualquer pergunta, por mais complexa ou estranha que seja. Em dias movimentados, chego a receber dezenas de perguntas nessa única hora, e raramente há uma que eu não consiga responder. Naturalmente, as perguntas são diferentes a cada dia. Ocasionalmente, há algo que não sei, mas, ao me deparar com a pergunta, a resposta imediatamente aflora em minha mente e sai pela minha boca. É um fenômeno curioso, em que eu mesmo aprendo comigo.
+
+Pessoas de fora, que não são fiéis, costumam dizer que meu estilo de vida é luxuoso. Diante da escassez de hoje, é uma observação compreensível, mas eu nunca desejei tal vida. Os muitos fiéis que receberam graças me presenteiam com todo tipo de bens como sinal de gratidão, e eu me esforço para acolher sua sinceridade. No que diz respeito ao dinheiro, quando necessário para a obra da salvação, a quantia exata se reúne naturalmente, o que é um mistério. A expansão da fé ocorre dia após dia, como os fiéis podem ver.
+
+Assim, tudo não é feito segundo a minha vontade, mas sim segundo a Vontade de Deus, que me utiliza livremente como Seu instrumento. Sinto que sou apenas um marionete de Deus. Por isso, observo a mim mesmo com curiosidade, perguntando-me o que Deus me fará fazer a seguir. É um fato extraordinariamente singular.
+
+Minhas diversas atividades são acompanhadas por meus hobbies, que também são muitos, talvez sem precedentes. Descrevê-los-ei a seguir.
+
+Sou um religioso, é claro, mas não me sinto como um. Se me perguntassem o que sou, talvez a expressão mais adequada, ainda que um pouco estranha, fosse “agente da salvação”. Meus muitos discípulos salvam inúmeras pessoas todos os dias e manifestam milagres, sendo reverenciados como deuses vivos. Ao ouvir isso, costumo rir e dizer: “Então eu sou um fabricante de deuses vivos”.
+
+Eu pinto, faço caligrafia, componho poemas e versos satíricos, escrevo livros, romances, letras de música, artigos para revistas e jornais, e também os edito. Com o objetivo de criar um pequeno modelo do Paraíso Terrestre, projeto e supervisiono construções, jardins, cultivo de flores, decoração de interiores e agricultura. Quem já viu o Jardim Divino em Gora, Hakone, entenderá.
+
+Quanto aos meus hobbies, aprecio a arte, tanto antiga quanto moderna, e admiro as obras de grandes artistas desde os meus catorze ou quinze anos. Na música, tenho interesse tanto pela japonesa quanto pela ocidental, e sou quem mais ouve rádio em casa. Tenho grande interesse por política, economia, educação, filosofia, literatura e problemas sociais, e não deixo de estudá-los. Pretendo publicar gradualmente meus conhecimentos sobre esses temas em livros.
+
+Em suma, se fosse para me classificar por profissão, eu seria religioso, pesquisador de política, economia e educação, escritor, crítico da civilização, médico especialista, poeta, pintor, calígrafo, arquiteto, paisagista, agricultor, crítico de arte e música, e assim por diante. Sou, de fato, multifacetado.
+
+Diz-se que Kannon de Mil Braços tem quarenta braços, e que cada um realiza vinte e cinco tipos de trabalho, salvando a todos com um total de mil braços. Eu sempre penso que talvez Deus me esteja fazendo realizar o trabalho de Kannon de Mil Braços. Ainda há muito que eu gostaria de escrever, mas, para não me alongar, deixo o resto à imaginação do leitor e encerro aqui.
+
+Esta é a imagem do eu visto por mim.
+
+## Aquilo que Sou
+
+Recentemente, escrevi um artigo intitulado “O Eu Visto por Mim”. Diferentemente daquela abordagem objetiva, desta vez, gostaria de descrever meu estado de espírito de forma subjetiva, tal como ele é.
+
+Sinto profundamente que não há ninguém mais feliz do que eu no momento presente, e meu coração transborda de gratidão a Deus. Qual seria a causa disso? É verdade que sou diferente das pessoas comuns, pois recebi de Deus uma missão de grande importância e me dedico dia e noite a cumpri-la, salvando inúmeras pessoas, como todos os fiéis sabem. No entanto, existe um segredo para a felicidade que pode ser facilmente praticado mesmo por pessoas comuns, que não têm uma missão especial como a minha. Gostaria de escrevê-lo, mas, para isso, preciso primeiro expor o estado de espírito que constantemente nutro.
+
+Desde jovem, gosto de fazer os outros felizes, a ponto de ser quase um passatempo. Estou sempre pensando em como todos podem se tornar felizes. A esse respeito, há algo interessante. Ao acordar, a primeira coisa que me preocupa é o humor de minha família. Se uma única pessoa não está de bom humor, eu também me sinto mal. Nisso, sou o oposto da maioria. Geralmente, as pessoas se preocupam primeiro com o humor do chefe da família. Eu sou o contrário, o que me parece, ao mesmo tempo, estranho e lamentável. Por essa razão, nada me é mais penoso do que ouvir gritos e ofensas, ou queixas e lamentos. Também me é muito difícil ouvir a mesma coisa repetidamente. Desejo, acima de tudo, a paz, a felicidade e detesto o apego. Essa é a minha natureza.
+
+Essa minha forma de ser é um dos fatores que me tornam uma pessoa feliz. Por isso, sempre digo: “Não se pode ser feliz sem fazer os outros felizes.”
+
+O Paraíso Terrestre, meu objetivo maior, é, em minha opinião, a expansão e a partilha desse meu sentimento. Este texto pode parecer um tanto autoelogioso, o que me deixa constrangido, mas ficarei muito feliz se ele puder ser de alguma utilidade.
+
+## A Ciência que Cria a Superstição
+
+Os jornalistas, como se tivessem aprendido uma única lição, continuam a rotular todas as novas religiões como supersticiosas e heréticas. Dizem: “É um absurdo que, aproveitando-se da confusão mental do pós-guerra, religiões supersticiosas e heréticas se proliferem, confundindo as pessoas.” E param por aí, sem investigar as causas desse fenômeno, sem se darem ao trabalho de analisá-lo. Colocam todas as novas religiões no mesmo saco, considerando-as heréticas com base em boatos e em seu próprio julgamento. A simplicidade de seu raciocínio é estarrecedora. Por isso, sinto fortemente a necessidade, como parte de nossa missão, de esclarecê-los.
+
+No entanto, não pretendemos negar totalmente a atitude deles, pois sua visão se baseia em uma perspectiva materialista. Eles, naturalmente, consideram superstição tudo o que é invisível. Se estivéssemos na mesma posição, certamente diríamos o mesmo. Mas, se negássemos a existência do invisível, o que seria do mundo? O resultado de uma perspectiva puramente materialista seria desastroso. O afeto, o amor, os laços entre pais e filhos, tudo seria decidido com base em interesses e cálculos, e a sociedade se tornaria fria como uma prisão de pedra. Certamente, nem mesmo eles desejariam tal sociedade. Sendo assim, o pensamento deles é incompleto e carece de profundidade.
+
+Vejamos agora a realidade de forma objetiva. É surpreendente o fato de que a superstição seja comum entre os intelectuais, pessoas com alta escolaridade. Certa vez, vi uma pesquisa sobre os tipos de superstição em vários países do mundo. A Alemanha, o país onde a educação científica é mais difundida, era o que apresentava o maior número de superstições. É notável que a superstição seja diretamente proporcional à ciência. Qual a causa disso? A nosso ver, é a seguinte: por terem sido doutrinados por anos com uma educação materialista, que se baseia na lógica, ao saírem da escola e ingressarem na sociedade, deparam-se com uma realidade que desafia a lógica e, na maioria das vezes, caem no ceticismo. Isso porque, quanto mais se age segundo a lógica, piores são os resultados. Os mais perspicazes, então, refletem. Decidem aprender uma nova disciplina, a “sociologia prática”, mas, como não há escolas para isso, começam a estudar por conta própria. Levam anos, às vezes décadas, para se formar. É um segundo aprendizado. Embora seja o oposto do primeiro, que tanto se esforçaram para aprender, ele é prático e confiável, e, ao aplicá-lo na vida, as coisas começam a dar certo. Os mais brilhantes se tornam doutores em sociologia prática, pessoas experientes que conhecem os altos e baixos da vida. No entanto, quando atingem esse nível, já estão na velhice, e a maioria acaba tendo uma vida comum, sem grandes realizações. Claro, existem alguns doutores excepcionais. O atual primeiro-ministro Yoshida é um deles. Sua atitude experiente e, por vezes, zombeteira, e sua hábil capacidade política são manifestações disso.
+
+Diante do exposto, a causa da superstição deve ter ficado clara. Em uma palavra, ao aplicar uma teoria acadêmica na qual se acreditava piamente e fracassar, cai-se no ceticismo. Nesse momento, muitos tendem a recorrer a religiões supersticiosas e heréticas, pois é raro encontrar uma religião que ofereça uma solução verdadeira. A culpa, portanto, reside na teoria acadêmica desvinculada da realidade. Por essa razão, pode-se dizer que a própria educação científica moderna é, em parte, criadora de superstições.
+
+Para finalizar, gostaria de acrescentar mais um ponto. Reconhecemos que a proliferação de religiões supersticiosas e heréticas de que falam é, de fato, uma realidade. O erro, no entanto, está em generalizar. Entre as muitas superstições, certamente existem algumas que não o são. Sendo assim, rotular de superstição aquilo que não é superstição é também uma forma de superstição. É sobre isso que queremos alertá-los. Portanto, o que pedimos aos jornalistas é que critiquem veementemente as religiões supersticiosas e heréticas, mas que também estejam cientes do perigo de confundir o que não é superstição com superstição. Pois isso se torna um obstáculo ao progresso da cultura.
+
+## A Teoria do Método e a Teoria do Resultado
+
+A terapia de Johrei para doenças, praticada por nossa Igreja, tende a ser mal compreendida. Gostaria, portanto, de esclarecer alguns pontos.
+
+A notável eficácia do Johrei na cura de doenças tem se tornado mais conhecida recentemente, mas ainda percebo que há um grande mal-entendido por parte de muitas pessoas, especialmente de um grupo de especialistas. Escrevo este texto para dissipar essa ignorância.
+
+Ao ouvir as críticas, noto que nenhuma delas afirma que nossos resultados são inferiores aos da medicina. Onde reside, então, a crítica? No método, que consideram errado por ser anticientífico e supersticioso. E por que o consideram assim? Porque não utilizamos instrumentos ou medicamentos, ou seja, matéria.
+
+Isso é compreensível, pois, enquanto eles veem o corpo humano, objeto da terapia, como um animal, uma matéria, nós o vemos como algo mais. Para nós, o ser humano não é apenas matéria; possui um espírito, invisível aos olhos, e é constituído por elementos espirituais e materiais. Além disso, o espírito é o principal, e o corpo se move de acordo com a vontade do espírito. A diferença reside, portanto, na interpretação materialista versus a interpretação espiritualista; em suma, na visão de que o corpo comanda o espírito versus a visão de que o espírito comanda o corpo.
+
+Assim, eles tratam a matéria com a matéria, enquanto nós tratamos o espírito com o espírito. Para decidir qual dessas duas visões é a correta, qual critério nos permitiria chegar a uma conclusão precisa? A resposta a essa pergunta é a chave para a solução do problema. A única maneira de se ter uma certeza absoluta é através dos resultados práticos.
+
+Nesse aspecto, a interpretação materialista, por lidar com a matéria visível, é facilmente compreendida por todos. Já a interpretação espiritualista, por lidar com o invisível, semelhante ao vazio, tem a desvantagem de não ser facilmente compreendida. Aproveitando-se disso, eles sempre nos criticam com base apenas no método, sem nunca mencionar os resultados. Como o método é visível, suas críticas são facilmente assimiladas.
+
+No entanto, a realidade é que, enquanto doenças que não são curadas por mais que se apliquem instrumentos e medicamentos são curadas por nós, sem o auxílio de nenhum desses recursos, apenas com a imposição das mãos. Em suma, de um lado, temos algo que faz sentido lógico, mas não cura; do outro, algo que não faz sentido lógico, mas cura. Um prioriza o método, o outro, o resultado. É preciso atentar para essa diferença. Qual dos dois, a teoria do método ou a teoria do resultado, está correta? A resposta é mais do que óbvia.
+
+Aprofundando essa lógica, chegamos à seguinte conclusão: se um método, ainda que científico, não tem resultados positivos, ou seja, não é útil na prática, ele não pode ser considerado uma ciência verdadeira. Por outro lado, se os resultados são positivos, mesmo que o método não seja convencional, trata-se de uma ciência verdadeira e útil. A única diferença é a visibilidade: o primeiro é uma não ciência visível, e o segundo, uma ciência invisível.
+
+Sendo assim, se minha argumentação estiver equivocada, que seja refutada. Mas, se não puder ser refutada, não seria mais correto abandonar a teoria do método e debater a medicina materialista e a medicina espiritualista com base unicamente na teoria do resultado? É assim que podemos esperar o desenvolvimento de uma nova cultura que verdadeiramente sirva à humanidade.
+
+## A Religião Progressista
+
+Ao observar a sociedade atual, vemos que, em uma época de progresso constante, nada está alheio a essa evolução. Curiosamente, porém, o campo da religião, que tem a mais profunda relação com a humanidade, não mostra o menor sinal de progresso, permanecendo estagnado, ou até mesmo regredindo. A maior prova disso é a frase que as religiões estabelecidas costumam dizer: “Voltemos ao caminho original”, ou seja, ao ponto de partida do fundador. Se o objetivo é retornar ao caminho original porque se desviaram, e se esse processo se repete, não há progresso algum. É uma contradição com o avanço da cultura. O fato de as religiões estabelecidas não terem mais o poder de atrair as pessoas e se esforçarem apenas para manter o status quo o demonstra claramente.
+
+É verdade que todas as religiões existentes hoje, com exceção do cristianismo, em sua época de fundação, embora tenham enfrentado perseguições e opressões, como é o destino de toda nova religião, tiveram um período de desenvolvimento vibrante e glorioso, impulsionadas por um novo fôlego. Com o passar dos anos, porém, a maioria delas entrou em um processo de estagnação. É preciso, portanto, investigar as causas disso.
+
+A razão é, evidentemente, o fato de não acompanharem o progresso dos tempos. Ao se apegarem aos ensinamentos do fundador como a um dogma, acabaram se distanciando da realidade. Com o tempo, o abismo se tornou tão grande que hoje são alvo da crítica de serem impotentes. Se tudo tem uma causa e um efeito, as religiões estabelecidas deveriam refletir profundamente. Elas não podem permanecer alheias para sempre.
+
+Diante disso, o princípio fundamental de nossa Igreja é ser progressista em tudo, estar em sintonia com os tempos. O fato de ignorarmos as formalidades religiosas tradicionais e evitarmos o tempo e os custos que elas exigem se deve a isso. Na prática, o fardo das formalidades não traz nenhum benefício e, certamente, não agrada a Deus ou a Buda.
+
+Nesse sentido, a verdadeira missão da religião é melhorar a vida do homem moderno e desempenhar um papel de liderança. Em uma palavra, a religião progressista é a única que tem valor para salvar o homem de hoje.
+
+Coleção Jikan, 12º Volume
+Coletânea de Discursos de Jikan
+Título original: “Coletânea de Ensaios de Jikan”
+Publicado em 30 de janeiro de 1950
+Formato B6, 77 páginas
+Distribuição interna
+Autor: Jikan Okada
+Editor: Morisuke Koizumi
+Editora: Nippon Goroku-shichi Kyo
+
+---
+
+# sosyo04
+
+**Categoria:** sasshi | **Ano:** 昭和24(1949)年10月5日 | **Fonte:** Kiseki Monogatari
+**Título Original:** - | **Status:** -
+
+--- Coletânea de Ensaios do Mestre Okada Jikan ---
+## Relatos de Milagres
+Coletânea Jikan, Volume IV, “Relatos de Milagres”
+Publicado em 5 de outubro de 1949 (Ano 24 da Era Showa)
+
+## Prefácio
+Minha constante afirmação é que a essência da religião reside nos milagres. Poder-se-ia até mesmo asseverar que religião e milagre são uma só coisa. Pois, por mais profundas que sejam as teorias apresentadas, de nada valem se não forem capazes de curar uma única enfermidade. Há quem critique a busca por benefícios imediatos, todavia, trata-se de um profundo equívoco. Embora possa parecer uma indelicadeza de minha parte, tal argumento soa meramente como uma tese elaborada por religiões desprovidas de benefícios concretos, com o intuito de justificar seu próprio valor.
+
+Ouso dizer que a motivação de quase todos os que ingressam em nossa Fé origina-se da busca por benefícios imediatos. Por conseguinte, a teoria religiosa que professamos só vem a ser conhecida por eles após sua adesão à Fé. Diante disso, a questão que se impõe é: por que ocorrem tantos milagres em nossa Fé? Visto que este é um ponto de grande interesse para todos, tentarei elucidá-lo brevemente a seguir.
+
+Embora nossa Fé tenha surgido há pouco tempo, a verdade é que sua concepção não partiu de mim. Foi a Bodhisattva Kannon (観世音菩薩) que, chegada a hora, começou a utilizar meu corpo físico, com o qual possui um profundo elo espiritual. Portanto, foi a própria Bodhisattva quem, na realidade, fundou esta Obra. Nesse sentido, Ela manifesta o Poder de Kannon através de mim, de forma livre e desimpedida, e prossegue com a grandiosa Obra de Salvação do Mundo, tornando a ocorrência de milagres um fato natural. Assim, para aquele que crê no que acabo de expor, tudo poderá ser compreendido e aceito sem hesitação.
+
+No início deste livro, relatei diversas experiências milagrosas que vivenciei. Foi, sem dúvida, graças a esses milagres que pude forjar uma fé inabalável. Em seguida, apresento uma seleção dos inúmeros relatos enviados pelos fiéis.
+
+## A Bodhisattva Kannon e Eu
+Muitos desejam conhecer a natureza do elo espiritual que me une à Bodhisattva Kannon (観世音菩薩), e decidi, pois, expô-la aqui.
+
+É inesquecível o oitavo ano da Era Taisho, quando iniciei minha fé na Oomoto. Após um hiato de quatro ou cinco anos, motivado por certas circunstâncias, retomei minha prática no décimo terceiro ano da mesma era. Passados cerca de seis meses, certo dia, recebi a visita de um homem — um cartógrafo de profissão — que desejava ouvir sobre a Oomoto, uma religião em voga na época. Em meio à nossa conversa, ele, fitando-me intensamente, perguntou: “A Oomoto tem alguma relação com Kannon-Sama?”. Respondi: “Não, a Oomoto é xintoísta, e Kannon-Sama é uma entidade budista, portanto, não há relação”. Ele, contudo, retrucou: “No entanto, à sua direita, visualizo uma imagem de Kannon-Sama, em tamanho natural”. Naquele momento, sua visão espiritual se abrira.
+
+Permitam-me uma breve explicação sobre a visão espiritual. Certas pessoas possuem, para além dos cinco sentidos, dons de percepção e faculdades espirituais, que lhes permitem enxergar os espíritos do Mundo Espiritual. Aquele homem, dotado de tal capacidade, pôde ver Kannon-Sama. Ele prosseguiu, dizendo: “Quando o senhor se levantou para ir ao toalete, Kannon-Sama o seguiu. E, quando o senhor se sentou, Ela também Se sentou”. Questionado, acrescentou: “Kannon-Sama está de olhos fechados, e Sua fisionomia e corpo são idênticos aos representados em pinturas e esculturas”. Mais tarde, ele me contou que, sempre que tencionava visitar-me, a imagem de Kannon-Sama surgia subitamente diante de seus olhos. Fiquei deveras intrigado. Até então, eu jamais cogitara devotar fé a Kannon-Sama. Contudo, diante daquele acontecimento, pensei: “Devo ter algum elo espiritual com Kannon-Sama”.
+
+A partir de então, uma sucessão de fenômenos misteriosos começou a ocorrer. Certa vez, um fiel da Oomoto relatou: “Vejo um redemoinho sobre sua cabeça, com Kannon-Sama em seu centro e uma cruz em suas costas”. Na ocasião, não compreendi plenamente o significado, mas, tempos depois, ao sofrer uma grande perseguição religiosa que me lançou ao fundo do abismo do sofrimento, finalmente entendi: tal como na visão, eu fora colocado no centro de um turbilhão e obrigado a carregar uma cruz.
+
+Pouco depois, passei por um período de possessão divina que durou cerca de três meses. Diversas divindades, tanto xintoístas quanto budistas, manifestaram-se através de mim. Entre elas, a divindade Izunome (いずのめ), a essência original de Kannon-Sama, revelou-me minha missão: Kannon-Sama utilizaria meu corpo para realizar a grande obra de salvação da humanidade. Revelou-me também diversos elos do passado, como o fato de que, há 2.600 anos, na era de Buda Sakyamuni, Ela habitara o Monte Potalaka, na Índia, como a Bodhisattva Avalokiteshvara, ensinando o caminho da salvação. São relatos de profundo interesse, que pretendo expor quando o momento for oportuno. Por ora, contarei um fato curioso a respeito da Divindade Dragão Dourado, o espírito guardião da Bodhisattva Kannon.
+
+Recordo-me vividamente de abril de 1928 (Ano 4 da Era Showa). Naquela época, eu mantinha uma fé fervorosa na Oomoto. O Grande Festival da Primavera, um dos rituais anuais da religião, estava sendo realizado em Kameoka, na província de Tanba. Creio que no dia dezenove daquele mês, houve uma cerimônia no Santuário de Obata — que consagra o príncipe do Imperador Shomu — localizado em Anafu, no distrito de Sogabe, terra natal do líder da Oomoto, Mestre Onisaburo Deguchi. Decidi comparecer. A distância de Kameoka era de aproximadamente oito quilômetros, então aluguei um automóvel. No exato momento em que eu e um amigo de fé, cujo nome parecia um amuleto, “Kamimori”, estávamos para partir, a esposa do Sr. Wataru Shiga, então deputado pelo partido Seiyukai, que acabara de chegar da província de Saitama, pediu para nos acompanhar. Achando oportuno, permiti que se juntasse a nós, e partimos.
+
+Naquele momento, senti que havia algo de místico no sobrenome Shiga. Pensei: “Ah, o Lago Biwa, em Omi, também é conhecido como Lago de Shiga (origem do nome da província de Shiga)”. Intuí, então, que poderia haver alguma relação entre o Lago Biwa e a cerimônia daquele dia.
+
+De fato, assim que o ritual terminou, o Mestre Deguchi partiu de carro em direção ao Lago Biwa. Na época, havia um famoso restaurante à beira do lago, cujo nome me foge à memória. O Mestre dirigiu-se para lá, pois o proprietário era seu seguidor. Soube mais tarde que, na manhã seguinte, dia vinte, ao deixar o local para retornar, o Mestre Deguchi escrevera os ideogramas “Dotou Chuten” (怒涛沖天), que significam “ondas furiosas que se erguem aos céus”. O mais surpreendente foi que, no dia seguinte, vinte e um, uma violenta tempestade assolou o Lago Biwa, causando o naufrágio de quarenta e sete barcos de pesca — um desastre noticiado em todos os jornais da época.
+
+Segundo as revelações divinas, o motivo de tal evento foi a ascensão da Divindade Dragão Dourado, espírito guardião da Bodhisattva Kannon, que esteve submersa no fundo daquele lago por milhares de anos. Ao perceber a aparição do Dragão Dourado, que tanto temia, o Dragão Vermelho (no Apocalipse bíblico, consta que Satanás é um dragão vermelho) veio apressadamente para aniquilá-lo. Travou-se uma grande batalha nos céus sobre o lago, na qual o Dragão Vermelho foi finalmente derrotado e fugiu para o norte. Foi esse conflito que se manifestou como a tempestade. Um mês depois, na residência onde eu morava, no distrito de Ota, em Tóquio (na época, Omori Hakeien), uma grande tempestade com trovões se formou sobre a casa por volta do meio-dia. A partir daquele momento, a Divindade Dragão Dourado tornou-se meu espírito guardião.
+
+Três anos mais tarde, na primavera de 1932 (Ano 7 da Era Showa), num dia cuja data exata não recordo, um jovem desconhecido, fiel da Oomoto, visitou-me subitamente. Ele disse: “Neste momento, há um grande problema na Oomoto por sua causa. Dizem que o senhor está confeccionando e distribuindo aos fiéis os amuletos e ‘ohineri’, que são considerados de suma importância na Oomoto. Isso é um ato de grande desrespeito para com Deus. É inaceitável que um simples fiel faça tal coisa. Não podemos permitir a existência de um herege como o senhor. Pelo bem da Oomoto, puniremos este traidor de Deus. Se não cessar, sacrificarei minha vida para tirar a sua”. Dito isso, sacou uma adaga do bolso e cravou-a no tatame.
+
+Observei seu rosto e pescoço, tingidos de um rubor anormal, e seus olhos, injetados de sangue, brilhavam com intensidade. Tive uma intuição: “Ah, o Dragão Vermelho possuiu este jovem e veio para me destruir”. O Dragão Vermelho, usando um ser humano, viera para um confronto decisivo contra o Dragão Dourado. “Certo”, pensei, “não posso perder para Satanás”, e, com firmeza, recusei sua exigência.
+
+A cor de seu rosto mudou abruptamente e, no instante em que parecia prestes a agir, ele subitamente caiu de bruços, gemendo de dor. Perguntei-lhe o que havia, e ele respondeu: “Sinto uma dor de estômago insuportável”. Eu disse: “Pois bem, eu o curarei. Deite-se”. Assim que lhe ministrei Johrei, ele se recuperou instantaneamente. Sua atitude mudou por completo; tornou-se sereno e pediu que eu o acompanhasse a Kameoka, na província de Quioto, sede da Oomoto, para se encontrar com o Mestre Deguchi. Concordei de bom grado e partimos na manhã seguinte. Ele queria confirmar o que eu lhe dissera: que a confecção dos amuletos e ‘ohineri’ tinha a aprovação do Mestre Deguchi.
+
+Encontramo-nos com o Mestre Deguchi imediatamente. Ele declarou: “Nem mesmo eu tenho permissão para confeccionar amuletos. Somente a Terceira Líder Espiritual, Naohi (esta senhora era a filha mais velha do Mestre Deguchi, chamada de ‘Sanda-sama’ pelos fiéis), recebeu a permissão de Deus para fazê-lo. Portanto, um fiel não pode confeccioná-los. Contudo, o Sr. Okada é uma pessoa especial, então peço que os faça de forma discreta”. Diante disso, o jovem não teve outra alternativa senão silenciar, e o problema foi, por ora, resolvido.
+
+## Minha Confissão
+Uma suposição que frequentemente me apresentam, quase como um lugar-comum, é: “Imagino que o senhor, Grande Mestre, deve ter sido um devoto extremamente fervoroso de Kannon”. É provável que a maioria dos fiéis partilhe dessa ideia, e mais ainda aqueles que não pertencem à nossa Fé. Contudo, para surpresa de todos, a verdade é que eu não possuía fé alguma em Kannon. Apenas nutria uma certa simpatia por Sua figura, de beleza serena e semblante pleno, e pelo fato de ser reverenciada em diversas tradições religiosas, sem sectarismo ou parcialidade.
+
+Entretanto, como relatei no início do capítulo anterior, fiquei espantado ao saber que o espírito de Kannon-Sama me acompanhava constantemente. Esse foi o marco a partir do qual os milagres relacionados a Ela começaram a se manifestar. Pretendo divulgá-los gradualmente, mas foi por essa via que vim a saber que a essência original de Kannon-Sama é uma divindade chamada Izunome (いずのめ). Compreendi também que a Bodhisattva Kannon foi uma manifestação temporária para a salvação da humanidade e que, no final, Ela retornaria à Sua condição divina original, quando chegasse o tempo.
+
+A partir de 1926 (Ano 1 da Era Showa), Kannon-Sama passou a se manifestar constantemente através de meu corpo, ensinando-me, ordenando-me e utilizando-me com total liberdade. Ela me utiliza como um instrumento para salvar todos os seres vivos.
+
+Sendo assim, não foi por eu ter fé em Kannon que as coisas se tornaram o que são hoje. Foi, na verdade, Kannon-Sama que me escolheu como Seu instrumento. Por essa razão, creio que se pode dizer que sou um representante de Kannon-Sama. O Mestre, que é Kannon-Sama, utiliza-me conforme Sua vontade, de modo que não possuo liberdade alguma. Por outro lado, o poder da sabedoria divina que Kannon-Sama exerce é livre e desimpedido, o que torna a questão um tanto diferente. Em suma, possuo menos liberdade que uma pessoa comum, e ao mesmo tempo, uma liberdade muito maior. É um estado de espírito de difícil explicação, pois uma pessoa comum sequer consegue imaginá-lo.
+
+Outro ponto que considero peculiar em mim é que os fundadores e santos do passado tendiam a envolver tudo em mistério. Dificilmente se encontrará um exemplo de alguém que tenha exposto seu estado de espírito de forma tão transparente. É possível que agir assim conferisse um maior ar de venerabilidade. Contudo, não aprecio tal método. Talvez seja também uma questão de época. Hoje em dia, as pessoas não dão seu assentimento a menos que tudo, seja Deus ou a fé, seja cientificamente elucidado. Vivemos uma realidade em que a sociedade é liderada por intelectuais, tornando extremamente difícil fazer-se compreender por meio do mistério e do oculto. Kannon-Sama, ciente disso, provavelmente optou por um método como o que adoto.
+
+A esse respeito, há um episódio interessante. Não faz muito tempo, um indivíduo declarou que destruiria nossa organização para atingir certos objetivos, e empregou diversas artimanhas para tal. Havia também quem me informasse frequentemente sobre suas ações. Cada vez que ouvia, eu não conseguia conter o riso. Afinal, tratava-se de alguém que pretendia contender com a própria Kannon-Sama; faltam-me palavras para qualificar tal ato, se audacioso, imprudente ou tolo. Certa vez, cheguei a dizer a um de seus emissários: “Faça como bem entender. Serei um mero espectador”.
+
+Inúmeras foram as pessoas que nutriram ambições ou mantiveram equívocos a respeito de nossa organização. Hoje, o número diminuiu consideravelmente, mas houve um tempo em que, devido à rápida notoriedade que nossa Fé alcançou, éramos procurados por uma miríade de pessoas, tanto bem como mal-intencionadas, gerando um estado de grande alvoroço — um fenômeno transitório e inevitável. Contudo, mesmo no centro desse turbilhão, meu coração permanecia sereno. Isso porque eu nutria um profundo interesse em observar de que maneira Kannon-Sama solucionaria cada uma daquelas situações.
+
+Outro fato fascinante é que os acontecimentos importantes — sejam eles a conjuntura mundial, as transformações sociais ou o destino dos indivíduos — são-me revelados antecipadamente de diversas formas, o que é deveras interessante. Parte disso eu chego a divulgar, mas não posso fazê-lo de maneira explícita, pois se trata de assuntos políticos, de grandes personalidades mundiais, de desastres naturais, do destino de religiões estabelecidas, e assim por diante, o que poderia gerar múltiplos mal-entendidos.
+
+Ainda há muito que gostaria de escrever, mas encerrarei este capítulo por aqui.
+
+## A Singularidade da Salvação de Nossa Fé
+A missão de nossa Fé é salvar as pessoas que sofrem no inferno, conduzindo-as ao Paraíso, e, por meio disso, transformar a sociedade em um paraíso. Nesse sentido, para salvar alguém e levá-lo ao Paraíso, é preciso, antes, ascender ao Paraíso e tornar-se um ser celestial, para então resgatar as massas. Ou seja, estamos estendendo uma escada do inferno ao Paraíso e, de mão em mão, ajudamos as pessoas a subir degrau por degrau. Este é o ponto que nos distingue de todas as religiões até hoje; na verdade, nosso método é praticamente o oposto.
+
+Como é sabido, desde a antiguidade, os religiosos se contentavam com vestes rudes, uma dieta frugal e uma vida mínima, submetendo-se a rigorosas austeridades. Tentavam salvar a humanidade enquanto eles próprios se encontravam em um estado infernal. É como usar a escada ao contrário. Em vez de puxar de cima, empurravam de baixo, o que, como se pode imaginar, exigia um esforço imensamente maior.
+
+A verdade, porém, é que naquelas épocas, o Paraíso ainda não existia, então não havia outra alternativa. Naturalmente, era cedo demais, pois o Mundo Espiritual vivia na Era da Noite. Contudo, a partir de 1931 (Ano 6 da Era Showa), o Mundo Espiritual iniciou sua transição gradual para a Era do Dia, tornando a construção do Paraíso uma tarefa mais fácil. Na verdade, não são os homens que o constroem, mas sim Deus. Portanto, com o avanço do tempo, a obra progride naturalmente, e aos seres humanos cabe apenas agir em conformidade com a Vontade Divina. Ou seja, Deus projeta, supervisiona e emprega inúmeras pessoas com total liberdade. Meu papel pode ser comparado ao de um supervisor de obras. Como parte disso, estamos atualmente construindo um protótipo do Paraíso, como bem sabem os senhores fiéis.
+
+Sendo assim, surgem pessoas querendo vender terrenos em locais e momentos que eu jamais esperaria. Imediatamente, compreendo: “Ah, é Deus me dizendo para comprar este lugar”. E, sem grande esforço, a quantia necessária se reúne. Da mesma forma, os arquitetos, engenheiros e materiais mais adequados surgem na medida exata da necessidade, como se tivessem sido encomendados. Uma única árvore para o jardim pode ser trazida subitamente por alguém, e haverá um local perfeito para ela. Às vezes, recebo dezenas de árvores de uma só vez e fico perplexo, mas, como sei que é obra de Deus, observo o jardim e as planto em sequência, e elas se encaixam perfeitamente, sem faltar nem sobrar. A cada vez, compreendo com mais clareza que tudo é realizado por Deus. Se penso que preciso de uma pedra ou árvore específica para um determinado local, em um ou dois dias, ela aparece. Se isso não é um milagre, o que seria?
+
+Poderia escrever sobre isso infindavelmente, e o farei no futuro, mas, por ora, revelei apenas um vislumbre. Escrevi este texto para que compreendam que nada disso é obra humana. Somos apenas instrumentos da Providência Divina. Diante de tais fatos, torna-se mais do que evidente que a Vontade de Deus é construir um protótipo do Paraíso Terrestre como primeiro passo.
+
+Contudo, não se trata apenas do protótipo. Cada ser humano deve tornar-se um habitante do Paraíso. Aliás, a era em que isso é possível já chegou. Naturalmente, o lar também se tornará paradisíaco, e viveremos uma vida celestial. Somente então poderemos resgatar as massas que sofrem no inferno. Por isso, sempre digo aos fiéis que devem se esforçar ao máximo para criar um ambiente livre de sofrimento, pois isso está em conformidade com a Vontade Divina. Em outras palavras, sem a erradicação dos três grandes sofrimentos — doença, pobreza e conflito —, não é possível salvar verdadeiramente as pessoas. Embora isso fosse impossível no Mundo da Noite, é preciso saber que hoje já se tornou possível. A era do “mundo de sofrimento” pregada por Sakyamuni já terminou. Se a verdade profunda deste fato for compreendida, a alegria que se sentirá será de uma magnitude jamais experimentada pela humanidade.
+
+## A Possessão Divina Após o Ingresso na Fé
+Após ingressar na fé, esforcei-me para adquirir o máximo de conhecimento possível, dedicando todo o meu tempo livre à leitura das publicações da Oomoto. Naquela época, a escritura sagrada por excelência da Oomoto era o Ofudesaki, escrito pela fundadora, a Sra. Nao Deguchi. Assim como os demais fiéis, mergulhei em sua leitura com grande afinco. O Ofudesaki foi escrito ao longo de aproximadamente vinte anos, a partir do Ano Novo de 1892 (Ano 25 da Era Meiji), quando a Sra. Deguchi tinha cinquenta e cinco anos e a divindade ancestral, Kunitokotachi-no-Mikoto (国常立尊), se manifestou através dela, até sua ascensão ao Mundo Espiritual. Trata-se, evidentemente, de um tipo de fenômeno mediúnico conhecido como escrita automática. Cada revelação ocupava algumas folhas de papel, e o conjunto totalizava cerca de dez mil volumes, uma obra verdadeiramente monumental. O texto era inteiramente escrito no silabário iroha, com uma caligrafia tão peculiar que, sem uma decifração, uma pessoa comum mal conseguiria compreender metade do sentido. O fato de a fundadora ser uma mulher analfabeta, somado à misteriosa caligrafia, conferia ainda mais valor à obra. Foi o sucessor da fundadora, o Sr. Onisaburo Deguchi, quem compilou os trechos essenciais do Ofudesaki, transcrevendo-os em escrita corrente com o uso de kanji, tornando-os acessíveis a todos, de forma semelhante a uma tradução para a linguagem moderna.
+
+O conteúdo do Ofudesaki abrange a verdade do mundo divino no passado, presente e futuro, além de doutrinas, profecias, preceitos morais e visões sobre a vida, tratando de todos os aspectos da existência humana. Embora a linguagem seja simples, há nele um mistério e uma profundidade que transcendem a capacidade humana.
+
+Suas profecias são surpreendentemente precisas. Entre as previsões feitas entre 1892 e 1897, encontram-se a guerra do Japão contra o mundo, a extrema escassez de alimentos, a queda do Imperador e das classes privilegiadas, o colapso dos conglomerados financeiros (zaibatsu), o fim do feudalismo, a democratização do Japão e a realização de um mundo de paz. Pode-se dizer que quase todas se concretizaram. Não tenho a intenção de promover a Oomoto, mas não posso distorcer os fatos. Olhando com imparcialidade, penso que, se as autoridades japonesas tivessem dado a devida atenção a este Ofudesaki, talvez aquela guerra imprudente pudesse ter sido evitada.
+
+Contudo, o Ofudesaki também apresenta um ponto fraco: a considerável influência da consciência pessoal da fundadora. O texto é excessivamente dogmático e nacionalista, exaltando a ideologia do “país divino”, comum entre os xintoístas. De todo modo, a maioria das profecias já se cumpriu, restando para o futuro apenas a concretização do mundo ideal de paz perpétua.
+
+Aqui, sinto a necessidade de dizer algumas palavras sobre o Mestre Deguchi. Embora possuísse qualidades sobre-humanas notáveis, carecia, infelizmente, de certas aptidões como líder religioso. Sua natureza excessivamente livre e indisciplinada o levou a negligenciar a moralidade à medida que a organização crescia, sendo incapaz de conter a desordem interna. Além disso, suas palavras e ações, que continham um forte teor de desrespeito à figura imperial — algo extremamente perigoso na conjuntura da época —, provavelmente o levaram a sofrer aquela perseguição legal. Tendo-o considerado meu mestre por um tempo, reluto em criticá-lo. No entanto, escrevo estas linhas como uma advertência aos futuros líderes religiosos, na esperança de que lhes seja de alguma valia. Acredito que, no Mundo Espiritual, o próprio Mestre ficará satisfeito com isso.
+
+Deixando de lado a crítica à Oomoto, retorno ao meu relato pessoal. Lembro-me como se fosse hoje. Era dezembro de 1926 (Ano 1 da Era Showa). Certa noite, por volta da meia-noite, uma sensação estranha e inédita tomou conta de mim. Senti uma euforia indescritível e um impulso irresistível de falar. Tentava parar, mas era inútil; uma força brotava de minha boca. Deixei-a fluir, e as primeiras palavras foram: “Prepare papel e pincel”. Pedi à minha esposa que o fizesse, e então, palavras jorraram incessantemente, tratando de assuntos que eu jamais poderia imaginar.
+
+Começou com o que poderia ser chamado de história primitiva do Japão, uma crônica da sua criação há mais de quinhentos mil anos. O foco era a vida humana daquela era. Feras e serpentes venenosas vagavam por toda parte, e o combate diário contra elas era uma tarefa essencial. A vida era predominantemente em cavernas, onde mantinham o fogo aceso continuamente, sempre alertas a ataques. A primeira arma criada foi o arco e flecha, feito de bambu com uma corda de videira. Praticavam atirar nos olhos das grandes serpentes, e a expressão japonesa “janome” (olho de serpente) originou-se daí. A comunicação evoluiu dos gestos para a articulação da língua. O uso do fogo foi descoberto relativamente cedo, por meio da fricção de madeiras ou do choque entre pedras.
+
+No início, havia poucas espécies de plantas, e o solo era muito mais macio que o atual, com muitas áreas pantanosas. O arroz, por exemplo, produzia apenas algumas poucas espigas no começo; com o tempo, passou a dar dezenas, até chegar às centenas de grãos de hoje, um crescimento diretamente proporcional ao aumento da população. Os seres humanos daquela época eram gigantescos, medindo em média mais de três metros de altura, com os mais altos chegando a quase cinco metros e meio.
+
+Com o progresso, a variedade de alimentos aumentou e as vestimentas começaram a ser confeccionadas. As primeiras roupas eram feitas de folhas unidas por cipós, oferecendo uma proteção mínima contra o frio.
+
+Com o gradual aumento da população, a ameaça de feras e serpentes diminuiu, mas, em seu lugar, surgiram os conflitos entre os próprios seres humanos. Com a formação de aldeias e povoados, iniciaram-se disputas por terras e o rapto de mulheres e crianças. As armas se desenvolveram, e habitações simples tornaram-se mais numerosas.
+
+Poderia escrever detalhadamente sem fim, mas relatarei aqui duas ou três histórias de interesse. Uma delas é sobre o grande terremoto do Japão. A população da época não passava de algumas dezenas de milhares, mas, devido ao cataclismo, que causou um grande afundamento de terras, a população foi reduzida a cerca de um centésimo. Foi esse terremoto que formou o atual Mar do Japão. A costa do Pacífico também afundou em grande parte, e, desde então, o território japonês foi reduzido a aproximadamente um terço de seu tamanho original. A divindade que me possuía descreveu a cena do terremoto vista do céu; a grandiosidade era indescritível. Em particular, o Monte Fuji, que antes media dezenas de milhares de metros, afundou de uma só vez, tornando-se uma fração de sua altura anterior, chegando ao tamanho que tem hoje. A escala dessa alteração na crosta terrestre é inimaginável. Com aquele grande terremoto, foi como se a terra do Japão perdesse toda a sua carne, restando apenas os ossos. Diz-se que isso ocorreu há cerca de cem mil anos.
+
+Contarei outra história interessante. Há dezenas de milhares de anos, durante o apogeu da Índia, um grande exército veio ao Japão com o intuito de conquistá-lo. Desembarcaram em Kyushu e avançaram gradualmente, conquistando cerca de metade da região de Sanyo. Então, em uma mobilização nacional, como diríamos hoje, todas as forças foram reunidas para o combate. O inimigo foi finalmente derrotado e fugiu pelo mar. No caminho, encontraram uma tempestade, e uma parte deles desembarcou em Taiwan. Seus descendentes são os aborígenes de lá, conhecidos hoje como o povo Takasago. O fato de a Índia ter tentado conquistar o Japão é provavelmente desconhecido por todos.
+
+Essa possessão divina narrou a história até cerca de sete mil anos atrás, quando cessou abruptamente. Durou aproximadamente três meses. Os registros, escritos em papel de carta, somavam umas trezentas ou quatrocentas páginas. Eu os guardava com muito cuidado, mas, devido às repetidas repressões das autoridades e às buscas e apreensões em minha casa, tive que colocá-los em uma lata de metal e enterrá-los. Ainda assim, sem me sentir seguro, acabei por queimá-los. O motivo era o grande número de passagens relativas à Família Imperial, o que era extremamente perigoso naqueles tempos.
+
+Entre os registros, havia um número considerável de previsões sobre o futuro, que ainda não posso divulgar por não ser o momento oportuno. O Incidente da Manchúria, a Guerra do Pacífico e a atual situação mundial manifestaram-se exatamente como me foi revelado. Da mesma forma, conheço o futuro do mundo, mas é uma grande lástima não poder revelá-lo.
+
+Através desses acontecimentos, compreendi a magnitude da missão com a qual nasci, o que provocou uma grande transformação em minha consciência. Percebi que não podia mais ficar inerte. Decidi, então, dedicar-me de corpo e alma a esta sagrada obra. No dia 4 de fevereiro de 1928, dia do Setsubun (início da primavera), cedi gratuitamente meu negócio ao meu gerente e iniciei minha vida dedicada à fé.
+
+(Nota)
+Seiban (生蕃): Povo que habita Taiwan desde tempos remotos. Linguisticamente, estima-se que pertençam ao grupo malaio-polinésio, e anteriormente eram chamados de povo Takasago (termo usado durante a ocupação japonesa). Entre os povos nativos anteriores à migração dos chineses Han, a maioria dos que viviam nas montanhas não se submeteu ao domínio de outros povos e foi chamada de “seiban” (selvagens). Por outro lado, aqueles que aceitaram a cultura Han foram chamados de “jukuban” (selvagens domesticados), sendo ambos os grupos discriminados. A designação oficial atual é “Povos Originários”.
+
+## Fotografia Espiritual
+Como mencionei, o dia 4 de fevereiro de 1928, o Setsubun, marca o dia em que abandonei todas as minhas ocupações anteriores para me dedicar à vida de fé. Foi uma decisão tomada após compreender minha missão por meio das revelações divinas e obter a convicção através de inúmeros milagres, o que me compeliu a me entregar de corpo e alma. A partir de então, e até 1º de maio de 1934, quando aluguei uma pequena casa em Hirakawacho, no distrito de Kojimachi, em Tóquio, para abrir uma clínica de tratamento popular, passaram-se seis anos e três meses. Durante esse período, por meio de extensas pesquisas espirituais, compreendi a verdadeira natureza dos três mundos — Divino, Espiritual e Material — e, através de uma grande descoberta sobre a doença e a saúde humanas, obtive a certeza de que o tratamento espiritual é o método absoluto para a concretização de um mundo sem doenças.
+
+Nesse ano, contudo, um grande milagre se manifestou, e é sobre ele que escreverei agora. Lembro-me como se fosse hoje: em 11 de outubro daquele ano, um homem me procurou pela primeira vez, apresentando um cartão de visita com o nome Mitsuo Azuma. O nome me interessou e decidi recebê-lo. Sua história era a seguinte:
+
+“Há cerca de vinte anos, viajei pelo interior da China. Na ocasião, tornei-me um seguidor do Taoísmo, uma antiga e influente religião chinesa. Certo dia, entrei em estado de possessão divina, e o oráculo revelou: ‘Daqui a vinte anos, aparecerá no Japão uma pessoa com o Poder de Kannon’. Retornei ao Japão, mas continuei acreditando no oráculo e aguardei discretamente. Na primavera deste ano, recebi outra revelação: a pessoa com o Poder de Kannon já havia aparecido a leste de minha casa. Como moro em Shibuya, a direção leste corresponderia à região de Akasaka a Kojimachi. Comecei a procurar e, por acaso, um conhecido em Kojimachi, ao ouvir minha história, disse-me: ‘Recentemente, em Hirakawacho, surgiu uma pessoa que cura doenças com o poder de Kannon-Sama. Tente visitá-la’. E foi assim que vim até aqui.”
+
+Ao ouvi-lo, eu disse: “Provavelmente sou eu”. Conversamos por duas ou três horas, principalmente sobre religião, e, na hora de sua partida, ele pediu: “Permita-me tirar uma fotografia sua”. Eu consenti. Ele pediu que eu me sentasse no “tokonoma” (alcova ornamental), e assim o fiz. No dia seguinte, ele retornou com a chapa fotográfica, dizendo: “Veja que foto extraordinária obtive”.
+
+Olhei e fiquei espantado. Do meu flanco, emanava uma fumaça branca, como uma nuvem, que se erguia quase até o teto. E, cerca de trinta a sessenta centímetros acima de minha cabeça, via-se a figura da Kannon de Mil Braços. Fiquei boquiaberto com tamanha maravilha. No dia anterior, ao ser fotografado, tive o pressentimento de que algo extraordinário seria registrado, mas jamais imaginei que a própria Kannon-Sama apareceria.
+
+Observando atentamente, vi que era uma imagem magnífica. Certamente, era uma pintura existente em algum lugar que, no instante em que o magnésio foi aceso, transcendera o espaço e, na velocidade da luz, se manifestara na chapa. Eu já havia visto diversas fotografias espirituais, tanto estrangeiras quanto japonesas, mas eram, em sua maioria, de espíritos de falecidos. Vi uma foto estrangeira com a imagem de Cristo, mas era evidente que se tratava de um truque. Nunca vira uma fotografia espiritual tão impressionante.
+
+E que magnificência era aquela minha fotografia espiritual! Além disso, o poder de manifestar em uma foto, num piscar de olhos, uma pintura que se encontrava, sem dúvida, a uma grande distância. Que outro poder seria esse senão o Poder de Kannon? Ao refletir sobre a grandiosidade desse poder, não conseguia sequer imaginar que outras manifestações ele ainda traria. “Ah, quão abençoado sou!”, pensei, inebriado por um sentimento de esperança que brotava de meu interior.
+
+Antes disso, eu havia curado uma senhora que residia em Akasaka. Emocionada, ela construiu no terceiro andar de sua casa um cômodo de seis tatames dedicado a Kannon-Sama. O quarto foi adornado com uma imagem de Kannon que eu pintei e diversas caligrafias minhas. Fiquei feliz com a gratidão daquela senhora.
+
+Na época em que o quarto ficou pronto, senti um desejo irresistível de pintar uma imagem da Kannon de Mil Braços. Comecei a esboçar a composição em um grande papel de um metro e meio de largura por um metro e oitenta de comprimento. O quarto onde eu pintava, porém, era pequeno, com apenas quatro tatames e meio de comprimento, e não havia outro local adequado. A senhora, percebendo minha dificuldade, sugeriu: “Que tal usar o quarto de Kannon-Sama que acabei de construir no terceiro andar da minha casa?”. Achei uma excelente ideia e decidi continuar o trabalho no quarto de Kannon.
+
+Quando cerca de um terço da pintura estava concluído, o marido daquela senhora, um grande beberrão, chegou em casa certa noite completamente embriagado. Não sei o que lhe deu na cabeça, mas ele pegou uma faca e retalhou a pintura da Kannon de Mil Braços. Fui informado por telefone e, ao chegar, fiquei chocado com a cena. A pintura estava terrivelmente destruída. Por um momento, fiquei atônito, com vontade de chorar.
+
+Foi então que me lembrei da fotografia espiritual da Kannon de Mil Braços, tirada alguns dias antes. Refletindo melhor, compreendi: Kannon-Sama, por meio daquela foto, estava me mostrando como a pintura deveria ser, e não como a primeira versão. Portanto, foi a própria Kannon-Sama quem permitiu que a pintura fosse destruída. “Na verdade, devo ser grato”, pensei.
+
+Recomecei imediatamente do zero. A pintura resultante é a imagem da Kannon de Mil Braços que se encontra na Sede da Igreja Miroku, em Odawara, e também é a imagem usada nos biombos de altar. Havia três diferenças em relação ao esboço inicial. A primeira era que, no original, a auréola circundava apenas o rosto, enquanto na nova versão, ela envolvia todo o corpo. A segunda é que a primeira imagem tinha barba, e a nova não, apresentando uma aparência mais jovem. A terceira é que, na primeira, Kannon estava sobre nuvens, e na nova, sobre rochas. Ou seja, a auréola se tornara maior, a imagem, mais jovem, e Ela descera das nuvens para realizar a obra de salvação na Terra. “Entendo”, pensei, concordando com a mudança.
+
+Dez dias após aquela fotografia espiritual, em 21 de outubro, outra imagem extraordinária foi obtida. Fui convidado para uma cerimônia de consagração de Kannon-Sama no mesmo quarto do terceiro andar. Pressenti que outra foto espiritual poderia ser tirada e pedi a Mitsuo Azuma que fotografasse. Ele novamente me pediu para sentar no tokonoma. Queria um incensário, mas como não havia, colocamos uma bacia de porcelana branca em seu lugar. Ele me pediu para sentar em zazen e juntar as mãos em oração, e eu o fiz.
+
+A fotografia tirada nesse momento foi, pode-se dizer, sem precedentes. O interior do quarto apareceu turvo, com uma forte luz branca e brilhante no centro. No meio dessa auréola, meu rosto aparecia sutilmente, assim como minhas mãos em oração. A almofada e a bacia de água eram visíveis, embora tênues, mas nada mais foi registrado. Isso ocorreu porque, naquele momento, uma poderosa onda de luz emanou da auréola e preencheu o ambiente, obstruindo a visão dos objetos. Para evitar qualquer suspeita, pedi que as sete ou oito pessoas presentes testemunhassem o ato, pois, na fotografia anterior, a única testemunha fora a dona da casa.
+
+Naquela mesma noite, mais uma fotografia espiritual foi tirada. Senti um forte sono e deitei o rosto sobre a mesa à minha frente para cochilar. Mitsuo Azuma aproveitou o momento para fotografar. Nas duas vezes anteriores, ele usara magnésio, mas, como eu estava imóvel, desta vez usou a luz da lâmpada. O resultado foi, novamente, surpreendente. Como eu estava de bruços, apenas minha cabeça apareceu. Mas, sobre ela, via-se um dragão com a cabeça erguida e o corpo enrolado em espiral, de grande comprimento. Do corpo do dragão, emanavam vários raios de luz. Contei cinco raios, e como eram dourados, não havia dúvida de que se tratava de um Dragão Dourado. Era a confirmação de que meu espírito guardião era o Dragão Dourado.
+
+Aqui, direi algumas palavras sobre Mitsuo Azuma. De tempos em tempos, ele entrava em um estado de possessão divina serena. Nessas ocasiões, fechava os olhos e parecia dialogar consigo mesmo, recebendo inspirações. Sobre aquele dia, ele disse: “O senhor é protegido por uma divindade dragão. Digo isso porque, sempre que me encontro com o senhor, chove um pouco. É a prova da proteção do dragão. Hoje à noite, como começou a chover, pensei que talvez o dragão aparecesse na foto, e foi o que aconteceu”. Suas palavras fizeram sentido para mim.
+
+A fotografia espiritual no início deste livro é a da Kannon de Mil Braços, uma das três que mencionei.
+
+## A Batalha de Yomotsu Hirasaka
+Visto que me perguntam com frequência sobre este título, farei uma breve explicação. A história, claro, vem do Kojiki (Crônicas de Assuntos Antigos), e aqui descrevo como a vivenciei.
+
+Há cerca de vinte anos, fui convidado à casa de um certo visconde. A residência ficava em um beco na lateral da avenida que leva ao Santuário Meiji, a partir de Aoyama. O local exato era no ponto mais baixo da encosta suave da avenida, a uns dois terços do caminho da entrada do santuário. O visconde estava em uma situação financeira precária, e havia iniciado, havia pouco, uma prática religiosa de cunho xintoísta. Com um pequeno número de seguidores, parecia não conseguir cobrir as despesas. A divindade central de seu culto era Kunitokotachi-no-Mikoto (国常立尊). Naquela ocasião, senti que havia algo de místico ali e, após uma longa conversa sobre fé, prometi-lhe uma ajuda considerável.
+
+Naquele momento, por inspiração espiritual, soube que aquela casa se tornaria o local de Yomotsu Hirasaka (黄泉比良坂). Yomi (黄泉) significa “senhor do mundo”, ou seja, o Imperador. O xogunato, que detinha o poder, foi derrubado, e quem o sucedeu foi o Imperador Meiji. Portanto, a avenida do Santuário Meiji, sendo uma encosta plana (hirasaka), representa “a planície do senhor do mundo”.
+
+Curiosamente, após nos tornarmos próximos, o visconde e eu trocamos várias visitas. Por fim, convidei-o para jantar, e ele veio com sua esposa. O presente que trouxeram era algo extremamente místico, um tesouro de família. Durante esse tempo, surgiu entre nós uma espécie de conflito, cujos detalhes, por serem muito complexos, omitirei aqui. O convite foi feito após chegarmos a uma forma de reconciliação.
+
+Analisando todo o percurso, do início ao fim, não consigo pensar em outra coisa senão em uma pequena réplica da batalha de Yomotsu Hirasaka. E, naquela noite, tendo vencido a batalha, o inimigo provavelmente trouxe aquele tesouro como uma forma de indenização ou tributo.
+
+Assim, ao refletir sobre a sequência dos acontecimentos, só posso concluir que se tratou de uma representação da batalha de Yomotsu Hirasaka.
+
+Alguns anos depois, em 1938, algo extraordinário aconteceu. Foi assim: em 1934, aluguei um espaço em Hirakawacho, Kojimachi, para um consultório de tratamento popular baseado na fé. Em menos de um ano, o negócio prosperou enormemente, e decidi me dedicar exclusivamente à religião. Foi quando o terreno e a casa do atual Hozanso, em Kaminoge, Tamagawa, foram colocados à venda, e eu os comprei.
+
+Dizer isso faz parecer que foi um grande negócio, mas a realidade é que o preço pedido era de cem mil ienes, e eu só tinha cinco mil. Não havia o que fazer, mas eu desejava ardentemente aquele lugar. Contei minha situação ao vendedor e, para minha surpresa, ele estava atolado em dívidas e queria se livrar da propriedade o mais rápido possível. Diferente de hoje, naquela época quase não havia compradores, e os credores o pressionavam. Ele disse que, se eu desse uma entrada de dez mil ienes, ele desocuparia o imóvel imediatamente, e o restante poderia ser pago em parcelas. Peguei cinco mil ienes emprestados, completei os dez mil e me mudei em 1º de outubro de 1935.
+
+Mudei-me, mas os problemas começaram em seguida. De uma compra de cem mil ienes, eu só havia pago dez mil. Três meses depois, tive que pagar a segunda parcela, de mais de vinte mil ienes, pegando dinheiro emprestado de sete lugares diferentes. A propriedade estava hipotecada ao Banco Kangin, e o vendedor não havia pago uma única prestação, algo que ele escondeu de mim e que só descobri depois da compra. Arrependi-me de minha imprudência, mas já era tarde. O banco levou a propriedade a leilão. A dívida, com juros, chegava a cerca de cinquenta mil ienes.
+
+No primeiro leilão, o preço inicial do banco era de cinquenta e cinco mil ienes, mas não houve lances. No segundo, o preço foi de quarenta e cinco mil. Fui um pouco ganancioso e decidi esperar pelo terceiro leilão, achando que o preço cairia ainda mais. No entanto, para minha surpresa, um comprador apareceu no segundo leilão, e a propriedade foi arrematada por ele. Fiquei chocado com a notícia, mas não havia mais volta. Consultei um advogado, que me disse que eu tinha uma semana até a confirmação do leilão para apresentar uma objeção, o que me deu um fio de esperança.
+
+E aqui, um milagre aconteceu. No último dia do prazo, o advogado, ao sair de minha casa, passou por um certo lugar. Lá, alguém comentou: “O prazo da objeção do leilão do Sr. Okada não seria por hoje?”. O advogado se deu conta: “Meu Deus, é verdade, o prazo é hoje!”. Ele correu para o escritório, preparou os documentos e os levou ao tribunal. Eram onze horas da noite. Se tivesse passado mais uma hora, a propriedade teria se tornado permanentemente do outro comprador. Que hora crucial! Foi nesta casa que os alicerces de nossa Fé foram estabelecidos. Se eu tivesse falhado naquela época, o desenvolvimento que temos hoje não teria sido possível.
+
+Naquele momento, percebi algo: o depósito de garantia necessário para a objeção, que era uma quantia considerável, foi obtido milagrosamente a tempo. E era em notas de cem ienes. Cem (百) se lê “momo”, que também significa pêssego. Portanto, as notas de cem ienes representavam os frutos do pessegueiro. Na batalha de Yomotsu Hirasaka, o exército divino, inicialmente derrotado, recebeu pêssegos da divindade Izanagi-no-Mikoto (伊邪諾尊) e os atirou contra o exército demoníaco, revertendo o curso da batalha e alcançando a vitória. Foi esse, sem dúvida, o significado daquele acontecimento.
+
+(Nota)
+Nanatokoro-gari (七所借り): Ação de tomar empréstimos de diversos lugares.
+
+## Testemunhos de Graça
+**Salva do Coração do Inferno de Chamas**
+Keiko Yamamoto
+Sede da Igreja Gogoshichi Kyo do Japão
+945 Asahimachi, Atami, Shizuoka
+
+Este relato de uma experiência imensuravelmente sagrada é o registro do dia em que meu bom senso superficial e minha tola lógica de ex-atea desmoronaram em um instante.
+
+A forma como ideologias equivocadas podem trazer tragédias devastadoras está gravada dolorosamente em nossos corações, mesmo hoje, cinco anos após o fim da guerra. O terror e a aversão daquele período ainda ressurgem vividamente em minha mente. Refiro-me ao dia do grande ataque aéreo a Tóquio, em 9 de março, há quatro anos. Com a queda de dezenas, centenas de bombas incendiárias, toda a área central da cidade, em meio à imundície e ao caos, foi consumida pelas chamas em um instante. O fogo se alastrou violentamente para a casa da frente e para a casa ao lado.
+
+Percebendo o perigo, retirei às pressas o pergaminho sagrado do tokonoma e, com o livro “Ashita no Ijutsu” em mãos, saí com minha família de sete pessoas em busca de um refúgio. O que vi lá fora me deixou estarrecida. Um violento tornado, gerado pelo incêndio, levantava poeira e detritos, enrolando as chamas em redemoinhos furiosos. As pessoas corriam em confusão, chorando e gritando, arrastadas para um destino incerto pelo vento irresistível. Em meio a essa dança de fogo, mal havíamos andado cem metros quando perdemos de vista minha mãe e minha irmã. Restamos meu pai, minha irmã mais nova, meu irmão e eu. Gritamos por elas, mas o uivo do vento zombava de nossa impotência, não nos permitindo parar nem por um instante.
+
+Para não sermos arrastados, nós quatro nos abraçamos com força. Quando chegamos ao cruzamento da prefeitura, fomos encurralados por um mar de fogo à nossa frente. Olhamos para trás em pânico, e as chamas carmesim avançavam, lambendo o ar sinistramente. Pela esquerda e pela direita, pessoas aterrorizadas, quase sem alma, fugiam em desordem, gritando palavras incompreensíveis. Era o fim.
+
+Mas, naquele momento, uma voz em meu coração, em meio ao desespero, ordenou: “Avance!”. Encorajando os outros três, que hesitavam, mergulhamos resolutamente no meio das chamas. O calor abrasador queimava meu rosto, e minha garganta secava. Eu estava quase inconsciente.
+
+Foi então que aconteceu. Em meio ao fogo, onde nenhum líquido deveria existir, uma névoa refrescante, como um orvalho, começou a cair sobre nós. Ah, que milagre! E essa névoa milagrosa envolveu nós quatro, guiando-nos para fora do túnel de chamas. Oh, minha emoção foi tamanha que, esquecendo que estava no meio do fogo, corri em um estado de semi-êxtase.
+
+Após escapar do primeiro perigo, corremos por cerca de duzentos metros. As chamas já haviam se espalhado em todas as direções, e nos vimos novamente encurralados, sem poder avançar nem recuar.
+
+Caída naquele inferno de fogo, percebi pela primeira vez que minha vida já não me pertencia. A punição implacável para os que blasfemam contra Deus se manifestava como um tornado feroz, ameaçando nos engolir enquanto ignorava os gritos de agonia. Mas, por alguma razão, meu coração estava estranhamente calmo. Meu pai sugeriu que nos refugiássemos em uma escola próxima. Era uma escola designada como abrigo, com mais de duzentos soldados da defesa civil. Milagrosamente, fomos guiados ao porão e passamos uma noite incrivelmente tranquila.
+
+Ao amanhecer, saímos do porão e demos um grito de espanto. Oh, até onde a vista alcançava, tudo era um campo de cinzas. A defesa desesperada dos soldados havia, por pouco, salvado aquele único prédio do incêndio voraz. Nas ruas, corpos carbonizados se empilhavam, criando uma cena de miséria indescritível que nos fazia cobrir os olhos. Que milagre! Que proteção! Não consegui dizer uma palavra. Meu corpo tremia com uma onda de gratidão que me subia à alma, e eu repetia sem cessar: “Kannon-Sama, Kannon-Sama”.
+
+Naquela manhã, um sol laranja e sinistro surgiu no céu, como um olho amaldiçoado. O vento ainda soprava forte e quente, e os escombros fumegavam. Sentindo náuseas com o cheiro adocicado da morte, procuramos desesperadamente por minha mãe e minha irmã. Nós quatro nos separamos e andamos até onde nossas pernas aguentavam, serpenteando entre os corpos carbonizados, chamando por elas até ficarmos roucos, mas não encontramos nenhum sinal delas. Após dois dias e duas noites de busca infrutífera, com a última esperança, chegamos à casa de minha tia em Kanagawa, mas elas não estavam lá. Acreditando que nunca mais as veríamos neste mundo, caímos em desespero.
+
+Contudo, dias depois, a notícia de que minha mãe estava viva, em um lugar inesperado, nos trouxe uma alegria indescritível. Elas haviam sido arrastadas para Hiranomachi, o epicentro do incêndio, onde, em meio ao desespero, encontraram uma série de milagres que lhes permitiram sobreviver. Após uma noite de terror, a cena que viram ao amanhecer era um verdadeiro inferno. Duas vidas se moviam, solitárias, em meio a pilhas e pilhas de corpos queimados.
+
+No momento de alívio, liberada da tensão indescritível, minha mãe sentiu uma dor lancinante nas mãos. Olhou e viu que estavam gravemente queimadas. Alguns dedos estavam em carne viva, outros repuxados de forma dolorosa. O anelar e o mindinho da mão esquerda estavam derretidos e colados. Ela rapidamente começou a ministrar Johrei em suas mãos. Meio mês depois, quando nossa família se reuniu novamente para o jantar, os dedos de minha mãe, enquanto ela contava, com os olhos marejados, a história de terror e gratidão, estavam perfeitos, sem nenhuma cicatriz.
+
+Enquanto uns contavam e outros ouviam, todos nós, que havíamos vagado na fronteira entre a vida e a morte, celebramos as vidas que nos foram devolvidas e oferecemos orações de gratidão a Deus. Mas devo mencionar mais um milagre. Cerca de um mês após o desastre, um funcionário do Ministério da Agricultura e Florestas nos informou que uma maleta de couro havia sido encontrada nos escombros. Era uma maleta que meu pai preparara para o caso de um ataque aéreo, contendo cadernetas de poupança, apólices de seguro contra incêndio e outros documentos importantes. Minha mãe a carregava naquele dia, mas a perdeu em algum lugar.
+
+Na alegria de estarmos vivos, ninguém se lembrava da maleta. Que uma maleta de couro não tivesse queimado naquele grande incêndio, que derreteu casas, pessoas e até vidro e metal como se fossem doce, e que tivesse sido devolvida a nós em meio àquela confusão, era algo que superava a imaginação.
+
+Hoje, quando reflito sobre aquele dia, mal consigo acreditar que a pessoa que se movia naquele cenário infernal seja a mesma pessoa pacífica que sou hoje. Naquela época, eu era uma recém-convertida, ainda cética. Mas aquele dia me colocou face a face com o coração de Kannon, imensamente magnânimo e, ao mesmo tempo, absolutamente rigoroso. Diante Dele, eu apenas pude me curvar em temor. Mesmo que hoje, nos jornais e no rádio, nossa existência seja motivo de controvérsia e alvo de calúnias de pessoas mal-intencionadas, cada um de nós nesta organização é um felizardo que experimentou o poder absoluto de Kannon neste mundo. Portanto, não importa que tempestades enfrentemos, nossa fé se tornará cada vez mais sólida, e nosso desenvolvimento infinito é inegável.
+
+**Cai do Telhado, mas Sai Ilesa**
+Hisako Ono (40)
+Shinko-kai, Igreja Tengoku-kai, Igreja Kannon do Japão
+Imamachi, Mitsu-gun, Okayama
+
+Era por volta das onze da manhã do dia 9 de dezembro do ano passado. Subi no telhado de casa para pegar alguns caquis secos que estavam pendurados para dar aos meus filhos. Peguei os que estavam do lado sul e, para arrumar o restante, decidi passá-los para o lado norte do telhado. A manhã estava muito fria, e a geada derretida havia deixado as telhas molhadas. Fui com cuidado, mas, depois de dois ou três passos, meu pé escorregou de repente. Gritei “Ah!” e perdi a consciência no mesmo instante.
+
+Enquanto estava desacordada, tive um sonho em que uma mulher havia caído e estava sendo guiada de volta por Kannon-Sama. Nesse ínterim, de alguma forma, eu já estava de volta em minha casa. Por alguns minutos, fiquei delirando. Meus pais, muito preocupados, correram para o Johrei Center para pedir ajuda.
+
+Quando o Ministro Nakaya chegou, eu já havia recuperado a consciência, mas ele me ministrou Johrei mesmo assim. Minha cabeça clareou e minha mente ficou lúcida. Apenas meu ombro esquerdo doía um pouco, e eu não conseguia levantar o braço completamente, mas fora isso, não havia nada de errado. O lugar onde caí era um riacho estreito. Como consegui subir, como voltei para casa, não sei. Voltei em estado de choque. Por mais que eu pense, não consigo entender. Foi um verdadeiro milagre, não há outra explicação senão que minha vida foi salva pelo poder milagroso. Hoje, nove dias depois, já consigo levantar bem o braço e tenho muito mais liberdade de movimento. Passo meus dias agradecendo pela graça de Kannon-Sama. Escrevo este relato como um relatório e um agradecimento.
+
+**Escapo da Morte por um Fio**
+Hidejiro Kobayashi, Ministro
+Presidente da Meisei-kai, Igreja Kannon do Japão
+2-224 Shin-dama, Odawara, Kanagawa
+
+Reverenciando a virtude espiritual do Grande Mestre, e sem me importar com minha falta de erudição, apresento aqui minha experiência. Lamento, porém, não ser capaz de expressar nem uma ínfima parte de Sua virtude.
+
+Em 18 de abril de 1940, recebi a formação diretamente do Grande Mestre em sua residência em Tamagawa (na época, era a Terapia Purificadora Okada). Desde então, eu e minha família recebemos inúmeras e imensuráveis graças. Antes mesmo de poder retribuir uma mínima fração dessa benevolência, fui novamente banhado por uma graça vasta e infinita, e só posso chorar de gratidão. Ficarei imensamente feliz se esta minha preciosa experiência puder ser de alguma ajuda ao seu trabalho na Obra Divina.
+
+O evento de purificação ocorreu na estação de Odawara, às 6h32 da manhã de 27 de março deste ano. Foi um acontecimento extraordinário, inimaginável para o homem moderno materialista! As pessoas apenas repetem a palavra “inacreditável”.
+
+Fui solicitado a ministrar uma formação e, após partir de Odawara em 23 de março e cumprir minha missão, embarquei de volta na estação de Tango-Kannō no dia 26. Viajei por quinze horas em um trem lotado, com três baldeações, quase sempre em pé. Somado a isso, a falta de sono de quatro dias me deixou exausto. De repente, acordei na estação de Hayakawa. Pensei em me preparar para descer após cruzar o rio Hayakawa, mas adormeci novamente. Com um solavanco violento, acordei e percebi que o trem já estava saindo da estação de Odawara. “Meu Deus!”, pensei. Levantei-me, peguei minha bagagem e fui para a plataforma do vagão.
+
+Nesse exato momento, um jovem tentava embarcar no trem em movimento, o que o atrasou por dois ou três segundos, fazendo com que a velocidade aumentasse. Com a bagagem na mão esquerda e a direita segurando o corrimão, corri uns cinco ou seis passos junto com o trem. Do final da plataforma, ouvi gritos: “Cuidado! Cuidado! Solte a mão! Solte a mão!”. Mas, por alguma razão, minha mão não soltava. Quando finalmente consegui soltar, caí de bruços e, ao mesmo tempo, minhas coxas foram sugadas para o vão entre o trem e a plataforma. Fui arrastado por uma volta e meia antes de ser expelido.
+
+A distância entre o trem e a plataforma era de apenas uns dez ou quinze centímetros. Minhas coxas, com meus oitenta quilos de peso, foram arrastadas por uma volta e meia, e meu corpo foi lançado para a diagonal traseira do trem. Foi um milagre absoluto. O trem, claro, parou bruscamente, mas antes que qualquer funcionário se aproximasse, eu me sentei e olhei para minhas pernas. O sapato esquerdo estava rasgado da base dos dedos até o peito do pé, como se tivesse sido cortado por uma lâmina afiada. O peito do pé também estava rasgado por uns três centímetros, e os ilhoses haviam voado. A cena era horrível! Ao ver a ponta do meu pé através do rasgo, pensei: “Perdi”. Mas, ao pressionar suavemente os dedos, para minha surpresa, a meia estava intacta e não havia ferimento, nem dor.
+
+“É a virtude espiritual! É a proteção divina! Ah, que graça!”, pensei. Naquele instante, senti todo o meu ser convulsionar como se tivesse levado um choque elétrico. Levantei-me imediatamente e bati a poeira da roupa. Minha mão direita entrou por um rasgo na coxa direita, e só então percebi que a calça estava rasgada. Fiquei atônito e, mais uma vez, maravilhado com a imensa virtude espiritual que me salvara da morte. A gratidão era tamanha que as lágrimas não vinham.
+
+Ao chegar em casa e me ajoelhar diante da Imagem da Luz Divina, finalmente caí em mim. As lágrimas de gratidão e emoção rolaram sem cessar, molhando meus joelhos. Minha família, atônita, chorou comigo, e juntos agradecemos na direção do Grande Mestre.
+
+Na tarde daquele dia, embora soubesse que era uma grande indelicadeza, fui à residência do Grande Mestre em Atami para agradecer, vestindo as mesmas roupas do acidente. Mesmo estando Ele a caligrafar Imagens da Luz Divina, tive a honra de ser recebido e relatei todos os detalhes do ocorrido. O Grande Mestre disse: “Ah, que perigo! Que bom que está bem”. A emoção daquele momento é indescritível para mim. Que afortunado eu sou! Jamais imaginei que eu, uma pessoa com tantas máculas, pudesse receber uma graça tão grande. É com orgulho que publico este relato, acreditando ser o homem mais afortunado do Japão.
+
+**Atingido por um Trem — Salvo sem um Arranhão**
+Kazuichi Taniguchi
+Shingen-kai, Igreja Gogoshichi Kyo do Japão
+Kuhei, Okada-machi, Chita-gun, Aichi
+
+Recebi a Luz em agosto de 1946. Sou motorista de caminhão. Em 20 de janeiro deste ano, a pedido de uma fábrica em Okada, fui a Nisshin, no distrito de Aichi, com dois passageiros para transportar carvão. Na volta, por volta das duas da tarde, estávamos parados em uma passagem de nível perto da estação de Odaka, na linha Tokaido, esperando um trem passar. Após a passagem do trem, a cancela se levantou, e presumi que o caminho estava livre. Comecei a cruzar os trilhos junto com outras pessoas que esperavam.
+
+No entanto, naquele exato momento, vi a fumaça de um trem se aproximando em alta velocidade. Na minha frente, havia uma pessoa com um carrinho de bebê. Num impulso, acelerei para tentar escapar. Mas era tarde demais. Nós três gritamos: “Não vai dar!”. Senti um forte impacto. A cabine do motorista ficou intacta, mas o resto do caminhão, junto com o carvão, foi pulverizado. Um grande poste telegráfico foi arrancado pela raiz e caiu sobre a locomotiva, sendo arrastado por cerca de quarenta metros. O trem era um expresso, e a cena do desastre era assustadora. Um calafrio percorreu minha espinha ao pensar como havíamos sobrevivido.
+
+O carrinho de bebê havia desaparecido, mas, para meu alívio, a pessoa estava sã e salva no meio da multidão. Naquele momento, compreendi a grandeza da salvação de Kannon-Sama, e os outros dois, que não conheciam esta fé, choraram de emoção comigo. Quando um carro de resgate nos levou para casa em segurança, parecia que eu estava flutuando em um sonho.
+
+Prostrei-me diante da Imagem da Luz Divina em meu altar e, em seguida, diante da Imagem da Luz Divina no Johrei Center do Ministro Tsuneharu Takeuchi. Com lágrimas de gratidão e emoção, agradeci por ter minha vida, algo insubstituível, salva. As contusões que sofri na cabeça e na cintura foram tratadas com Johrei, e no dia seguinte já pude voltar ao trabalho.
+
+Soube depois que o acidente foi causado por pura negligência do guarda da passagem de nível. O carvão que eu transportava foi lançado a mais de seis metros de altura e atingiu uma casa próxima, mas, milagrosamente, nem uma vidraça se quebrou. Ao ler o capítulo “Milagres” no livro “Zats話 (Diálogos sobre a Fé)”, sinto na pele a experiência que vivi. Esta grande força e proteção são indescritíveis, e só posso me prostrar em agradecimento.
+
+**O Fogo Chega ao Beiral da Casa, mas a Salvação Acontece**
+Tatsu Kanaya (52)
+Keiko-kai, Igreja Gogoshichi Kyo do Japão
+3705 Matsuyama, Matsuyama-machi, Hiki-gun, Saitama
+
+Era por volta de 1h40 da manhã de 22 de janeiro. Fui acordada subitamente por minha filha mais velha, que dormia ao meu lado, gritando: “Fogo!”. Instintivamente, olhei para a frente e, pela fresta de uns três centímetros da porta de correr, vi o shoji (painel de papel) da sala da frente, que dá para a rua, completamente vermelho. Abri o shoji imediatamente e alertei os vizinhos em voz alta. Com o barulho, minhas outras duas filhas, que dormiam no andar de baixo, acordaram, subiram e começaram a entoar a oração Amatsu Norito diante da Imagem da Luz Divina. Eu e minha filha mais velha nos juntamos a elas em oração fervorosa.
+
+O fogo estava perigosamente perto, em um sobrado do outro lado da rua, a apenas sete ou oito metros de distância. Era madrugada, poucas pessoas apareceram, e as chamas se espalharam com uma rapidez assustadora, atingindo o segundo andar do prédio bem em frente à minha casa. Os sinos de alarme da vizinhança finalmente começaram a tocar freneticamente. Tudo pareceu durar apenas alguns minutos, embora talvez não tenha sido tão rápido. Eu já me resignara com o fato de que minha casa seria consumida pelo fogo. Com apenas mulheres em casa e minha filha mais velha doente, não havia nada que pudéssemos fazer. Decidi entregar tudo nas mãos da Imagem da Luz Divina, continuei a orar e a ministrar Johrei em direção ao fogo.
+
+As chamas atingiram seu auge e se espalharam por todo o beiral da minha casa. As vidraças quebravam, uma após a outra. Ouvi alguém no andar de baixo gritar que o fogo havia atingido a “Tomodaya” (o nome de nossa casa). Naquele momento, não pude conter um abalo, mas, àquela altura, não havia mais o que fazer. Fortaleci minha fé em Deus e continuei a ministrar Johrei.
+
+Nesse instante, em um acontecimento que só posso descrever como um milagre, o fogo que lambia o beiral da minha casa se afastou, deixando para trás apenas o som do vidro se quebrando. As portas da casa estavam todas fechadas, então ninguém havia entrado. Mas, impacientes, várias pessoas arrombaram a porta dos fundos e entraram, dizendo: “Vamos tirar as coisas mais importantes”. Pedi que me ajudassem a retirar os pertences, e minha terceira filha ficou de guarda. Com a ajuda de todos, a retirada dos bens transcorreu sem problemas.
+
+O fogo começou a diminuir, e as bombas dos bombeiros que chegaram começaram a jogar água. As pessoas diziam que minha casa não queimaria mais. Senti uma profunda gratidão pelo poder da Imagem da Luz Divina, e minha fé se fortaleceu ainda mais. Lamento profundamente pelas três casas do outro lado da rua estreita que foram perdidas. Tudo aconteceu em cerca de quarenta ou cinquenta minutos, como um sonho.
+
+Com a ajuda das pessoas, colocamos os pertences de volta em casa. Felizmente, nada se perdeu. Quando tudo terminou, as únicas palavras que as pessoas trocavam eram: “Foi um milagre, foi um milagre”. Naquele momento, não encontrei as palavras certas para lhes explicar, pois seus corações ainda não estavam serenos. Mas acredito que o dia em que muitas dessas pessoas serão salvas por este poder sagrado está próximo. Por favor, imaginem a alegria de nossa família, salva das chamas.
+
+**Escapo de uma Inundação**
+Yasuyo Konishi
+Daiei-kai, Igreja Gogoshichi Kyo do Japão
+Kashio, Ryogen-mura, Muko-gun, Hyogo
+
+A chuva torrencial que caiu por dois dias se intensificou na madrugada do dia 21, com trovoadas, assolando toda a província de Hyogo. Os rios da região, geralmente com pouco volume de água, subiram rapidamente, e as barragens se romperam em vários lugares.
+
+Na aldeia de Ryogen, onde moro, há um lago chamado Benten, com cerca de dez mil metros quadrados. A topografia aqui é íngreme, e o lago fica em um local relativamente alto. As águas turvas que desciam da montanha fizeram o lago transbordar, com redemoinhos e um barulho ensurdecedor. Apesar dos esforços desesperados dos moradores, acordados pela tempestade, para construir barreiras de areia, o dique finalmente cedeu, abrindo uma brecha de quinze metros.
+
+A casa de uma membro da igreja, a Sra. Urayama, fica a cerca de cem metros da minha, em um terreno mais baixo, a uns cinquenta metros do lago Benten. Vendo o perigo, fui ajudá-la a evacuar. Primeiro, levamos seus pertences para um lugar seguro. Quando voltei, já não era mais possível entrar na casa dela. Fui imediatamente para minha casa, e a água já chegava à entrada.
+
+O nível da água continuava a subir, então me ajoelhei diante da Imagem da Luz Divina e orei com todo o meu coração. Depois, fui para a varanda e ministrei Johrei com fervor. Pouco tempo depois, milagrosamente, a água que chegava à entrada começou a recuar. Feliz, continuei a observar o recuo da água. A torrente que transbordou do lago Benten, carregando terra, areia e árvores, engoliu a aldeia de Ryogen em um instante.
+
+Mais tarde, quando a água baixou, soube que Ryogen havia sido o epicentro da inundação. Em meio a tudo isso, minha casa não sofreu nenhum dano, e escapamos ilesos da catástrofe. Só posso agradecer à graça milagrosa de Kannon-Sama. No dia 23, conforme instruído pelo Ministro Nakaya de Wakayama, a quem sempre recorro para orientação, relato com alegria e gratidão esta salvação da inundação.
+
+**Salva de um Terremoto**
+Kimiko Yoshizaki (25)
+Filial de Fukui, Koho-kai, Igreja Kannon do Japão
+Shimokawabata, Nakagawa-mura, Imadate-gun, Fukui
+
+Recebi a formação em 23 de maio de 1947 e fui curada de cárie óssea. Em 28 de junho de 1948, um dia inesquecível, durante o grande terremoto de Fukui, eu estava assistindo a um filme no Cinema Internacional, em Katamachi, na cidade de Fukui. Fui soterrada pelos escombros, e quase todos os espectadores morreram esmagados ou queimados (segundo os jornais, de cerca de mil espectadores, apenas quinze ou dezesseis sobreviveram). Em meio a essa tragédia, escapei da morte por um fio. Com minha escrita inábil, relato aqui a experiência da proteção que recebi.
+
+Eu e minha amiga estávamos sentadas nas últimas cadeiras. Durante o intervalo de cinco minutos, alguém gritou: “Terremoto!”. Dei dois ou três passos e, nesse instante, as paredes e o prédio desabaram. As duas ou três pessoas na minha frente caíram, e as outras foram caindo em sequência. Naquele momento, instintivamente, juntei as mãos e chamei: “Grande Mestre!”. Fiquei imóvel por cerca de cinco minutos.
+
+Um homem atrás de mim puxou minha perna e disse: “Há um buraco bem na sua frente, saia por aí!”. Olhei e vi um pequeno buraco. Em desespero, empurrei as tábuas e telhas para cima e consegui sair. Quando me vi do lado de fora, senti um grande alívio. Olhei para meu corpo e tinha apenas um pequeno arranhão na mão. Naquele momento, agradeci do fundo do meu coração: “Grande Mestre, muito obrigada pela Sua proteção”.
+
+Olhei ao redor e vi que o prédio estava completamente destruído. Pensei que minha casa certamente teria desabado. Enquanto caminhava para casa, resignada, uma pessoa que vinha de Sabae em direção a Fukui disse: “Se você é de Shimokawabata, já era”. Senti o mundo escurecer à minha volta. Como cheguei em casa, não sei dizer.
+
+No entanto, ao chegar, vi que todos em casa estavam a salvo, protegidos, e a casa ainda estava de pé. Naquele instante, voltei-me para a fotografia na casa do Ministro Yamada, em Mizuochi, e agradeci em lágrimas: “Grande Mestre, muito obrigada pela Sua proteção”.
+
+Sempre que me lembro daquele dia, sinto uma profunda gratidão pela proteção recebida. De agora em diante, como fiel, desejo servir ainda mais.
+
+**O Milagre do Acidente de Trânsito**
+**Atropelado por um Automóvel, sem um Arranhão**
+Koukichi Takeuchi, Ministro Assistente
+Chosei-kai, Igreja Kannon do Japão
+Yoshidajima-mura, Ashigara-gun, Kanagawa
+
+Aconteceu em meados de abril de 1944. Era um domingo, e eu fui ajudar meu tio na fazenda. Ele me pediu para levar o cavalo para trocar as ferraduras. Enquanto caminhava por uma estrada larga, um caminhão que vinha em alta velocidade por trás assustou o cavalo, que se empinou. Ao tentar acalmá-lo, caí no chão junto com o cavalo e, em um piscar de olhos, fomos atingidos pelo caminhão.
+
+Não sei dizer se fui atingido depois de cair ou se caí ao ser atingido. Meu flanco, onde caí, funcionou como um freio para o veículo. No entanto, não sofri um único arranhão, e o cavalo apenas arranhou um pouco o couro do quadril na queda. Meu tio, que passava por ali, pensou que tínhamos sido atropelados. Mais tarde, o motorista do caminhão disse: “Naquele momento, pensei que tinha atropelado o homem e o cavalo. Foi um milagre o caminhão ter parado”. Tanto eu, que caí, quanto o motorista e as testemunhas, todos pensaram que eu havia sido atropelado. Era para eu ter sido completamente esmagado, mas sobrevivi milagrosamente. Foi um verdadeiro milagre.
+
+Isso foi, sem dúvida, a proteção de Kannon-Sama. Aconteceu dezesseis dias depois de eu ter recebido a formação e me tornado um fiel. Esse evento foi o que me motivou a me tornar um devoto fervoroso de Kannon-Sama. Hoje, com minhas humildes forças, trabalho para que o mundo sem doença, pobreza e conflito, o ideal do Grande Mestre, chegue o mais rápido possível.
+
+**A Pesca Milagrosa**
+Masano Maeda (25), Ministra
+Wako-kai, Igreja Gogoshichi Kyo do Japão
+Nakasu, Toyohama-cho, Chita-gun, Aichi
+
+*“Se não fosse a salvação de Kannon,*
+*Ainda hoje eu estaria sofrendo*
+*Em um pântano sem fundo.”*
+
+Este poema do Grande Mestre está sempre gravado em minha mente, e as lágrimas de alegria me sobem ao peito.
+
+Lembro-me de que minha mãe sofreu de problemas gastrointestinais por cerca de um ano e meio. Íamos ao hospital e seguíamos à risca as instruções do diretor, a ponto de parentes e amigos rirem de nossa dedicação. No entanto, o resultado foi um enfraquecimento extremo. A preocupação da família era ainda maior que a do doente, e nosso lar se tornava cada dia mais sombrio.
+
+Foi quando o Ministro Okazaki nos guiou, e em agosto de 1944, fomos à casa do Ministro Watanabe em Chukyo e recebemos o poder divino. A partir de então, nossa família de oito pessoas renasceu, tornando-se um lar feliz banhado pela Luz. Meu pai é pescador desde criança, mas nunca houve um ano tão próspero como o passado. O período de meados a final de outubro é a melhor época para a pesca. Todas as manhãs e tardes, ele ora a Kannon-Sama antes de sair para o mar.
+
+Houve dias em que, na maré da manhã, não havia peixes, e ele pensava que não pescaria nada. Mas, na volta, conseguia uma grande quantidade. É sempre um milagre, ele sempre pesca muito. Às vezes, ele volta tarde, por volta das seis ou sete da noite. A família o espera ansiosamente, e ele chega carregando um peso enorme. Meu pai e meu irmão, sorrindo, dizem: “Poder de Kannon, Poder de Kannon”. Quando abrem o cesto, ficamos surpresos. Uma pesca abundante, como se tivesse sido feita com rede. Naquela noite, agradecemos a Kannon-Sama, e eles nos contaram sobre a pesca daquele dia.
+
+Naquela manhã, eles saíram um pouco mais tarde que os outros. Os cinco ou seis barcos vizinhos haviam mudado de local, dizendo: “No lugar de sempre, os tubarões estão roubando os peixes, não dá para pescar”. Meu irmão quis ir para o outro local também, mas meu pai insistiu em ir para o lugar de sempre, onde não havia ninguém, e lançou o anzol.
+
+Depois de pescar dois ou três peixes, meu irmão gritou: “Ah, um tubarão pegou!”. Imediatamente, ele ministrou Johrei em direção ao mar. A partir de então, nem um único peixe foi roubado. Eles pescaram aqui, pescaram ali, mudaram de lugar e continuaram a pescar. Para onde quer que o barco fosse, os peixes mordiam o anzol. Foi um dia agitado e milagrosamente produtivo.
+
+Os outros pescadores, que estavam em cinco ou seis barcos, foram atormentados pelos tubarões e, por mais que mudassem de lugar, não conseguiam pescar nada. Meu pai, pescando no local infestado de tubarões, onde normalmente não se pescaria nada, conseguiu uma quantidade inesperadamente grande. Os outros pescadores olhavam, atônitos. Alguns diziam: “Pescando perto do barco do Jinzo, a gente pega mais peixe”, e se aproximavam. Meu pai lhes dizia: “Kannon-Sama nos cura das doenças e ainda nos dá muitos peixes. Não há nada mais gratificante, não é?”. Ele nos mostrou, sem dúvida, o Poder de Kannon. É uma história que nos deixa maravilhados com a grandeza de Seu poder.
+
+Houve dias em que meu pai pescou cerca de setenta e cinco quilos, enquanto os outros pescavam de dezenove a vinte e três quilos. Nosso lar, antes sombrio, hoje é um lugar onde a família vive sorrindo. Só podemos chorar de alegria, sem palavras. De agora em diante, nossa família se dedicará ainda mais a servir, com nossas humildes forças. Muito obrigada.
+
+**Johrei no Forno de Telhas — Resultado Superior, sem Peças Defeituosas**
+Hiroko Hosono (23)
+Seirei-kai, Igreja Gogoshichi Kyo do Japão
+Yamato-mura, Ibi-gun, Gifu
+
+Lembro-me de que, em agosto de 1946, minha mãe sofreu um ataque de cólica estomacal e foi salva diante de meus olhos. Maravilhada com esse grande poder e com o desejo de salvar o maior número possível de pessoas do sofrimento, recebi a formação em setembro e ingressei na fé.
+
+Nosso negócio é a fabricação de telhas de barro, que mantemos há mais de vinte anos. No entanto, só conseguimos produzir telhas de boa qualidade duas ou três vezes por ano. Após ouvir as explicações do ministro sobre o Johrei, em janeiro deste ano, ministrei Johrei no forno de telhas pela primeira vez. Primeiro, orei a Kannon-Sama e, em um estado de total desapego, ministrei Johrei no forno.
+
+Era dia de queima, e as telhas são retiradas quatro dias depois. Durante esses quatro dias, levantei-me mais cedo que o habitual e ministrei Johrei. No quarto dia, não consegui mais esperar e corri para o forno. Meus pais estavam abrindo o forno com grande concentração. E qual não foi a minha surpresa! O forno, que tem capacidade para mil telhas, costumava render, em média, seiscentas telhas de primeira qualidade, trezentas de segunda e cem defeituosas. Desta vez, o resultado foi extraordinário: setecentas telhas de primeira, duzentas e noventa de segunda e apenas quatro defeituosas. Na segunda vez, não houve nenhuma peça defeituosa.
+
+Ficamos maravilhados e gratos com esse milagre. Agora, toda a família é membro da igreja e vivemos uma vida de alegria. Com essa grande graça, podemos vender as telhas a um preço mais acessível e compartilhar a alegria com todos. Contei essa felicidade aos outros fabricantes da aldeia, e passamos nossos dias louvando a virtude espiritual de Kannon-Sama, em um estado de gratidão e alegria.
+
+**Graça na Produção Florestal — Sucesso na Produção de 38 Sacos de Carvão, mesmo sendo Amador**
+Kujuku Ono (52)
+Kiitsu-kai, Igreja Gogoshichi Kyo do Japão
+Yokogawa, Kawaragi-mura, Minamiamabe-gun, Oita
+
+Desde que ingressei na fé em dezembro de 1947, tenho recebido inúmeras e indescritíveis proteções. Gostaria de relatar um exemplo da proteção que recebi na produção florestal.
+
+Primeiro, sobre a produção de carvão. Nosso forno tem 2,4 metros de profundidade por 2,7 metros de largura. A lenha, de carvalho e outras madeiras, tem de 1,2 a 1,65 metros de comprimento, e a quantidade necessária de lenha verde é de cerca de 1.575 a 1.612 quilos. No início deste ano, como o carvão para uso doméstico estava acabando, decidi queimar umas duas ou três cargas. Fui ao forno, que não era usado há dez anos, e o encontrei bastante danificado.
+
+Depois de consertá-lo, pensei que, como não tinha muita experiência com carvão e o forno era velho, seria difícil. Mas, lembrando das palavras do Ministro Onishi, da sede, e do presidente da sub-filial, o Sr. Kourin, de “ministrar Johrei com um coração puro”, coloquei a lenha no forno e ministrei Johrei pela abertura. Fornos velhos costumam ser difíceis de acender, mas este acendeu sem problemas.
+
+Enquanto eu estava no forno, um carvoeiro experiente da aldeia, conhecido como Kogoro, apareceu e disse: “Se você conseguir tirar vinte sacos daí, já será um grande feito” (na produção de carvão, o resultado de duas queimas em um forno frio é medido em sacos). Mas, para minha surpresa, a produção foi de trinta e oito sacos!
+
+Como a graça foi tão grande, queimei mais duas ou três cargas, e em todas elas, consegui de quatro a cinco sacos a mais por fornada. Mesmo sendo um amador, conseguir uma produção tão grande me deixou maravilhado e sem palavras para agradecer. Os primeiros trinta e oito sacos foram entregues à nossa cooperativa agrícola.
+
+A todos que trabalham na produção de carvão no Japão, tenho certeza de que, se um especialista fizesse isso, os resultados seriam ainda mais extraordinários. Tenho a convicção, mesmo sendo um completo amador, de que a produção aumenta e a qualidade é absoluta.
+
+Em seguida, gostaria de relatar sobre o cultivo de cogumelos shiitake. Nossos troncos foram cortados em 15 de março de 1946. Em 20 de março do mesmo ano, recebi os “koma” (pequenos pinos de madeira inoculados com o micélio do shiitake) distribuídos pela cooperativa. Ministrei Johrei nos troncos de 1,2 a 1,5 metros e inseri os koma. Normalmente, os troncos são mergulhados em água em vales nas montanhas, mas pulei essa etapa. Em janeiro de 1947, coloquei os troncos inoculados em um bosque de cedros. De vez em quando, quando passava por perto, ministrava Johrei.
+
+No outono passado, a produção, que normalmente seria de, no máximo, 1,8 quilo (peso seco), foi de 5,6 quilos, três vezes mais. Foi um resultado verdadeiramente surpreendente. O que quero enfatizar aqui é que, sem mergulhar os troncos na água, economizei muito trabalho, e a qualidade e a quantidade superaram em muito o método de cultivo convencional. Sinto uma gratidão cada vez maior pela graça de Kannon-Sama.
+
+**Salva da Doença e da Pobreza — Agora, uma Vida Iluminada e de Gratidão**
+Shinako Ishizu (36)
+Shinmei-kai, Igreja Gogoshichi Kyo do Japão
+1378 Nishitake, Sato-cho, Hamamatsu, Shizuoka
+
+Sou mãe de quatro filhos. Desde 1943, sofro de reumatismo. Todo verão, a dor ataca diferentes partes do meu corpo: peito, mãos, pés. No ano passado, no final de junho, meu joelho esquerdo inchou, e o sofrimento era indescritível. Tentei vários tratamentos — médicos, moxabustão, eletroterapia, acupuntura —, mas, embora melhorasse por um tempo, a dor voltava assim que eu usava um pouco mais a perna. Eu não sabia mais o que fazer e perdi completamente a confiança.
+
+Meu marido morreu na guerra, no norte da China, em 1944. Agora, somos uma família de seis pessoas: eu, meus quatro filhos e minha avó de setenta e oito anos. Sem saúde e com uma grande responsabilidade, eu me sentia sobrecarregada pela rotina diária e não sabia como sobreviver. Estava sempre irritada, e meus filhos se tornavam cada vez mais difíceis. “Ah, assim não dá”, eu pensava, mas não conseguia fazer nada. Quanto mais me desesperava, mais meu coração se entregava ao desânimo.
+
+No final de setembro, no fim do verão, uma vizinha me falou sobre Kannon-Sama. Pedi a ela, e logo a Ministra Takeno Miura, de Aioi-cho, Hamamatsu, veio me visitar e começou a cuidar de mim. Minha perna, que mal conseguia mover, melhorou a cada dia. Em menos de uma semana, eu já conseguia caminhar perfeitamente até a casa da ministra, a umas seis quadras de distância. Senti como se, de repente, um longo, escuro e frio inverno tivesse dado lugar a uma primavera quente.
+
+A cada visita, eu ouvia histórias edificantes e, quando tinha purificação, pedia Johrei à ministra. Recentemente, para minha surpresa, nosso negócio de confeitaria também ficou muito movimentado. A saúde de minha família e o sucesso nos negócios, tudo isso é graça do poder de Kannon-Sama, e vivemos em um estado de gratidão diária. De manhã e à noite, toda a família se reúne para entoar a oração Amatsu Norito em honra aos antepassados. Estamos nos esforçando para receber a Imagem da Luz Divina e entronizá-la o mais rápido possível. E aguardo com ansiedade o dia em que poderei agradecer pessoalmente ao Grande Mestre que nos concedeu este poder maravilhoso. Ao final, prostro-me em agradecimento por esta graça indescritível.
+
+**Até Nisso!**
+Kiyo Yoshimura (40)
+Koho-kai, Igreja Kannon do Japão
+2-chome, Yoshizuka-machi, Fukuoka
+
+Gostaria de compartilhar uma história de proteção. Eu sofria de uma purificação terrível na cabeça. Não conseguia dormir nem de dia nem de noite, e até o som dos tamancos de alguém andando ao longe ecoava em minha cabeça. Em meio a esse sofrimento, com grande reverência, pedi proteção em 6 de janeiro e recebi uma salvação milagrosa. Sou alguém que hoje agradece pela alegria de ter saúde.
+
+Naquela época, eu ainda estava muito fraca, mas desejei ardentemente ir a Tosu para agradecer, e consegui. Naquela noite, por travessura de meu filho, o cofre não abria. Meu marido me disse: “A combinação do cofre não funciona, tente você”. Eu respondi “sim”, mas minha cabeça ainda não estava clara. Tentei girar a combinação uma vez, mas não abriu. Meu marido me apressava. Com grande reverência, concentrei-me por um momento e, ao girar a combinação novamente, o cofre se abriu suavemente.
+
+Receber uma proteção tão grande até em uma coisa tão pequena me encheu de lágrimas de alegria, e agradeci a Kannon-Sama. Sem me importar com minha escrita desajeitada, relato esta pequena parte da proteção que recebi, movida pela alegria.
+
+**Graça na Recuperação de Bens Roubados**
+Hana Arai (38)
+Yuko-kai, Igreja Gogoshichi Kyo do Japão
+1 Midori-cho, Ashikaga, Tochigi
+
+Em 24 de maio de 1948, um dia chuvoso, por volta da meia-noite, os cães da fábrica de tingimento de seda começaram a latir furiosamente. Um membro da família acordou, mas como não viu nada de anormal, voltou a dormir, embora com uma sensação de inquietação. Ao amanhecer, descobrimos que um ladrão havia entrado na fábrica. “Então foi naquela hora”, pensamos, lamentando. Ao inspecionar a fábrica, vimos que estava revirada e vários quilos de fio de seda haviam sido roubados. Havia um rastro de fio da fábrica até a rua.
+
+Pensei que tudo estava perdido, mas imediatamente orei à Imagem da Luz Divina em meu altar, pedindo que nos salvasse dessa calamidade. Algumas horas depois, a polícia telefonou para informar que o ladrão havia sido pego. Naquela região, já haviam ocorrido muitos roubos de fio de algodão, mas nunca um caso havia sido solucionado.
+
+Fui imediatamente à delegacia e, ao falar com o oficial, soube que dezessete quilos de fio de seda haviam sido recuperados e me foram devolvidos.
+
+Além disso, conversei com o ladrão, que era coreano. Ele disse: “Já entrei em várias outras casas, mas, na sua, senti um medo estranho ao entrar. Eu estava com uma adaga e, se alguém da casa aparecesse, eu o mataria”. Fiquei chocada. Se tivéssemos acordado e saído, alguém poderia ter sido morto ou ferido. Com essa dupla graça, senti uma imensa gratidão e fui imediatamente à sede em Tamagawa para agradecer.
+
+**O Coração de Kannon e o Coração do Ladrão**
+Shizue Yamanishi
+Igreja Gogoshichi Kyo do Japão
+7392 Megamijima-ku, Saeki-gun, Oita
+
+Foi por volta de setembro de 1947, pouco depois de eu ter ouvido que a organização havia se tornado uma igreja. Ao acordar de manhã, encontrei cerca de duzentos e vinte ou trinta ienes em notas espalhados sobre uma almofada perto do braseiro. Achei estranho, mas pensei que talvez meu marido tivesse esquecido o troco de alguma compra, e guardei o dinheiro sem dar muita importância.
+
+Pouco depois, meu marido pediu dinheiro para comprar cigarros. Abri a gaveta da cômoda, mas os dois mil e novecentos ienes que deveriam estar lá não estavam. Perguntei a ele, mas ele não sabia de nada. “Havia duzentos e vinte ou trinta ienes na almofada esta manhã, era seu?”, perguntei, e ele disse que não. Pensei que talvez tivéssemos sido roubados. Naquela época, ainda não tínhamos a Imagem Sagrada em casa, então orei com fervor a Kannon-Sama no Johrei Center. Pedi perdão por meu descuido e tentei não me preocupar muito.
+
+Três dias depois, vi pegadas de pés descalços na escada. “Que estranho. O que será que aconteceu? Fomos roubados de novo?”, pensei. Ao verificar, encontrei mil e quinhentos ienes sobre a estante de livros na escrivaninha. A consciência do ladrão deve ter pesado, e ele não conseguiu ficar com o dinheiro, então o devolveu.
+
+Naquele momento, senti a graça de Kannon-Sama como nunca antes. Meu marido também ficou surpreso com o milagre e disse: “Vou me tornar membro imediatamente”. Ele recebeu seu amuleto e, a partir de então, passou a cooperar muito mais.
+
+Dois meses depois, em fevereiro, o ministro nos disse que, se ministrássemos energia espiritual, pescaríamos mais. Meu marido gostava de pescar à noite e costumava trazer cerca de três ou quatro quilos de peixe. Contei a ele, mas ele disse: “Por mais grato que eu seja, não acredito que se possa pescar mais ministrando energia espiritual”. Eu respondi: “Mas foi o ministro que disse, não pode estar errado. Vamos tentar”.
+
+Acompanhei-o na pescaria, purifiquei o barco e ministrei energia espiritual com fervor em direção ao mar. Naquela noite, pegamos um linguado de quase quatro quilos, sargos de seis quilos, enguias e vários outros peixes, totalizando quinze quilos. Fiquei tão grata e maravilhada que, no dia seguinte, levamos os peixes ao Johrei Center para agradecer.
+
+**Dias de Gratidão**
+Kono Shishido (47)
+Johrei Center de Isobe, Shinai-kai, Igreja Gogoshichi Kyo do Japão
+Kamishinden, Ujiie-machi, Shioya-gun, Tochigi
+
+Foi no dia 22 de maio, dia do festival esportivo da Escola Primária de Ujiie. Enquanto a família de Tadakichi Yoshinari, de Oaza Oonaka, Ujiie, estava na escola entregando o almoço, um ladrão entrou em sua casa. Ao retornarem, descobriram que cerca de vinte peças de roupa haviam sido roubadas. Chocado, o Sr. Yoshinari foi imediatamente à polícia. Sua esposa, que conhecia a graça da Imagem da Luz Divina desde que a Sra. Kono Shishido a entronizou em sua casa, correu para pedir ajuda a ela.
+
+Naqueles tempos difíceis, a família Yoshinari mal conseguia comprar uma única peça de roupa para os filhos, e o roubo foi um golpe terrível. Ao ouvir a história, a Sra. Shishido imediatamente se apegou ao poder da sabedoria divina de Kannon-Sama e entoou fervorosamente a oração Amatsu Norito. Na noite seguinte, um policial em patrulha informou ao Sr. Yoshinari que dois grandes embrulhos de pano estavam escondidos em um arbusto na plataforma da estação de Yaita.
+
+O Sr. Yoshinari correu para o local e verificou os pacotes. Eram todos seus pertences. E o que ele pensava serem vinte peças eram, na verdade, quase quarenta. Extasiado de alegria, ele e a Sra. Shishido foram ao Johrei Center para agradecer.
+
+Todos ficaram comovidos com a grande graça de Kannon-Sama, e desde então vivem dias de gratidão ainda maior.
+
+**O Riquixá Devolvido**
+Seiichi Watanabe
+Tengoku-kai, Igreja Kannon do Japão
+Yunoki, Fuji-cho, Shizuoka
+
+Nós entronizamos a Imagem da Luz Divina, e em nossa família de seis pessoas, quatro de nós, exceto minha avó e meu irmão, temos o amuleto.
+
+Em 16 de agosto de 1948, minha avó, que geralmente fica de guarda, estava na casa de parentes para um festival do deus da água. Por volta da meia-noite, o riquixá ainda estava lá. Mas, na manhã seguinte, às 4h30, percebemos que havia sido roubado. Procurei pelo lado oeste, mas não o encontrei. Já estava me conformando, pensando que hoje em dia coisas roubadas não são recuperadas. Mas minha esposa sugeriu que eu procurasse também pelo lado leste.
+
+Fui ver e, na terra macia da nova estrada Tokaido, vi as marcas claras do riquixá. Segui as marcas por cerca de um quilômetro e meio, até chegar à estrada de Fujinomiya, onde as perdi. Naquele momento, lembrei-me de um amigo que morava por perto, Fusakichi Suzuki, e contei-lhe a história. Ele disse: “Deve ter sido uma mulher”, e eu fiquei surpreso.
+
+Ele me contou que, na noite de 16 de agosto, ele estava na casa de parentes e, por volta das 3h30 da manhã, ao chegar a uma passagem de nível da linha Minobu, viu uma mulher puxando um riquixá no escuro. Pensando que ela estava indo para os campos na montanha, ele disse: “Bom dia, cedo, hein? Vai para a montanha?”. Ela não respondeu. Ele achou estranho, mas seguiu em frente. Pouco depois, ouviu um barulho e, ao olhar para trás, viu que a roda do riquixá estava presa nos trilhos, e a mulher o empurrava e puxava.
+
+Ele achou estranho que o riquixá ficasse preso nos trilhos andando em linha reta. Continuou observando e viu a mulher entrar no quintal da casa de um tal de Okumura. Ele se perguntou o que ela estaria fazendo tão cedo naquela casa, onde moravam jogadores e várias outras famílias. Voltou para casa e, como ainda era cedo, tirou um cochilo. Foi quando eu cheguei.
+
+Fomos imediatamente ao quintal da casa e, embora o riquixá não estivesse lá, as marcas de entrada e saída eram claras. Mas não podíamos simplesmente invadir a casa, então pedimos ajuda a um vereador chamado Tamura. Primeiro, perguntamos na casa vizinha, dos Makino, e soubemos que a mulher que saiu com o riquixá por volta das cinco da manhã era Kume Oishi, de cerca de cinquenta anos, que era como uma amante de Okumura.
+
+Fomos à casa de Okumura, e sua esposa disse: “Ela não veio, não sei de nada”. Mas o marido, que estava ao lado, disse: “Ela veio. Minha memória é ruim, não sei a hora, mas ela pegou cento e cinquenta ienes meus e foi para a casa de parentes em Omiya. Vou ligar para lá agora”. Ele saiu e, pouco depois, voltou, pedindo encarecidamente que não tornássemos o caso público e resolvêssemos amigavelmente. “Mesmo que esteja nas mãos de outra pessoa, eu o recuperarei”, disse ele, desculpando-se profusamente. “Vou buscá-la agora”, disse ele, e saiu com seu filho de uns treze anos.
+
+Pouco depois, misteriosamente, Kume Oishi, que deveria estar em Fujinomiya, voltou e desabou no chão, adormecendo. Soubemos que ela era viciada em morfina e, quando não se injetava, roubava indiscriminadamente. Depois da injeção, sentia-se bem e dormia. O marido de Okumura também era viciado.
+
+Quando ela acordou, perguntamos sobre o riquixá, e ela disse que o havia deixado na casa de sua família, em Gokenya. Colocamos a mulher na bicicleta e fomos buscar o riquixá. No entanto, o pai e o filho que foram a Fujinomiya foram pegos roubando no mesmo dia, e a notícia de “pai e filho ladrões” se espalhou, aparecendo até nos jornais. Kume Oishi passou a noite em sua casa, depois voltou para a casa de Okumura e, na manhã seguinte, roubou tudo o que pôde do dono da casa e desapareceu.
+
+Receber uma proteção tão grande em apenas dois dias e ver a recompensa e a punição distribuídas de forma tão clara para o bem e o mal me deixou sem palavras para agradecer.
+
+**Salvo do Roubo no Último Instante**
+Takejiro Hasegawa
+Igreja Gogoshichi Kyo do Japão
+Kogawa, Notogawa-cho, Kanzaki-gun, Shiga
+
+Em 24 de outubro de 1948, eu estava voltando de uma viagem de negócios a Wakayama. Passei em um cliente em Izumi-Omiya, na linha Nankai, e embarquei no trem pouco depois das dez da manhã. Cerca de quarenta minutos depois, na estação de Shichido, recebi um milagre extraordinário que me deixou chocado. Relato aqui os fatos.
+
+Naquele dia, minha pasta continha documentos importantes, a valiosa quantia de doze mil ienes e outros pertences pessoais. Como eram itens de extrema importância, eu a segurava na mão. Mas, como estava um pouco pesada, coloquei-a no bagageiro, mantendo-a sempre sob meu olhar. No entanto, devido ao cansaço dos últimos dias e à falta de sono da noite anterior, na parada da estação de Shichido, acho que fechei os olhos por uns vinte segundos.
+
+Assim que o trem partiu, uma senhora em pé na minha frente me alertou: “Aquela pasta no bagageiro não é sua?”. Olhei e vi que minha pasta não estava lá. Levantei-me chocado e pulei do trem em movimento, caindo no chão. Levantei-me imediatamente e procurei por toda a plataforma, mas não a encontrei. Naquele instante, tive a intuição de que o ladrão havia fugido, e meu mundo escureceu.
+
+Nesse momento, o trem parou bruscamente, e o condutor veio até mim e disse: “O ladrão é este homem. Vou trazer sua pasta, por favor, espere neste trem”. Vi-o pegar a pasta, que estava nos trilhos a uns cinquenta metros de distância, e trazê-la para mim. Recebi a pasta e, na estação seguinte, Suminoe, o condutor entregou a mim e ao ladrão ao chefe da estação, e o trem partiu. Juntei as mãos e agradeci à senhora que me avisou.
+
+Na estação de Suminoe, houve uma discussão acalorada entre o chefe da estação e o ladrão. Mas, como eu já tinha minha pasta de volta e não havia testemunhado o roubo, decidi não acusá-lo. Feliz com a graça da Imagem da Luz Divina, contei a história às pessoas ao redor e segui para Namba. Eram 10h05 da manhã. Após desembarcar em Namba, fui imediatamente agradecer ao condutor. O ladrão ainda estava discutindo, mas, graças às minhas palavras, ele foi liberado.
+
+Cheguei em segurança à estação de Notogawa pouco depois das quatro da tarde e contei a todos sobre a graça da Imagem da Luz Divina. O que mais me impressionou foi que, ao pular do trem, machuquei levemente o pulso esquerdo, mas não sangrou e mal doeu. As portas eram automáticas e geralmente estavam fechadas, mas naquela hora estavam um pouco abertas. O trem parou, o condutor agiu com rapidez, e a senhora me avisou. Se qualquer uma dessas coisas tivesse atrasado um segundo, eu teria perdido a oportunidade.
+
+Este milagre foi, sem dúvida, uma dádiva de Deus, e sinto uma profunda gratidão.
+
+**A Força da Rebeldia se Mostra Vã**
+Yasujiro Ono (30), Ministro
+Seirei-kai, Igreja Gogoshichi Kyo do Japão
+Kume-cho, Sakaide, Kagawa
+
+A derrota do Japão, a rendição incondicional... Com notícias tão tristes, a miséria de hoje contrastava com o dia de ontem. Com as memórias de onze anos de vida colonial, éramos como cordeiros perseguidos por tigres e dragões, sofrendo violência, saques, sequestros e outras tragédias indescritíveis, enquanto caminhávamos, passo a passo, de volta à nossa pátria. Em meio ao sofrimento da repatriação, eu me perguntava: “Existe Deus? Existe Buda? Por que temos que sofrer tanto?”. “Que se dane Deus e Buda”, pensei. Com a derrota na guerra, minha fé desapareceu. A morte de meu filho durante a repatriação fortaleceu ainda mais esse sentimento.
+
+Ao chegar à nossa amada pátria, nossa casa, destruída pela guerra, não passava de um monte de escombros e pedras de fundação. O estado de espírito daquela época é difícil de imaginar.
+
+Naquele tempo, meu irmão mais velho era membro da Igreja Kannon e, dia após dia, tentava me ensinar sobre a fé. Às vezes, ele me arrastava para o Johrei Center de Shimizu para ouvir o ministro e receber Johrei. Mas, para mim, que não acreditava na existência de Deus ou Buda, suas palavras de ouro eram como vento nos ouvidos. Sentia pena de meu irmão e irmã, que me tratavam com tanta bondade, mas, acreditando que a fé era uma escolha livre, quanto mais gentis eles eram, mais eu argumentava contra.
+
+Quando nos mudamos para nossa residência atual em Shikoku, por insistência do ministro, minha esposa recebeu a formação em junho de 1946. Em Shikoku, minha esposa ministrou Johrei em uma erupção cutânea de uma senhora. Em vez de curar, a erupção piorou e infeccionou, e a senhora ficou furiosa. Aproveitando a oportunidade, gritei com minha esposa: “O objetivo do Johrei é fazer as pessoas felizes, mas você só piorou as coisas e a deixou com raiva. Sua gentileza se voltou contra você. Não importa o que meu irmão e irmã digam, pare com isso!”. Minha esposa, de fé fraca e obediente ao marido, guardou seu Ohikari em uma mala.
+
+Por dois anos, nós dois caímos em um sono profundo. Cartas de incentivo e conselhos de meu irmão e irmã chegavam, dizendo: “Como vai o Johrei? Seja firme”. Mas nunca respondemos, descartando-as com um sorriso de escárnio.
+
+No ano passado, em abril, voltamos para nossa cidade natal para um festival. A conversa sobre a igreja surgiu novamente, e fui forçado a ouvir o Ministro Shimizu e a ir ao Johrei Center. Após várias discussões, cedi, dizendo: “É o que meu irmão quer”. Fui com minha esposa, relutante, ao Johrei Center e ouvi a palestra. Mas, no caminho de volta, olhei para o céu e suspirei, pensando: “Se balançar as mãos resolvesse os problemas da doença e da sociedade, não precisaríamos de médicos nem de remédios. Se Deus e Buda existem, por que sofremos tanto desde a repatriação?”. Reclamei por ter perdido um dia precioso de minha visita.
+
+Ao chegar em casa, meu irmão disse: “Que tal? Vou a Shikoku uma vez e mostrarei as graças diante de seus olhos. Por enquanto, cuide de mim”. Fiquei sem palavras, mas como estava sob seus cuidados, aceitei a contragosto.
+
+Meu filho tinha uma ou duas espinhas na cabeça, então recebeu Johrei. Em dois ou três dias, as espinhas se espalharam por toda a cabeça, ele teve diarreia intensa e uma quantidade enorme de remela e secreção nasal. Vendo isso, pensei que, mesmo sendo Johrei, era demais. Fui à farmácia, comprei um remédio e tentei dá-lo ao meu filho secretamente, sem que meu irmão soubesse. Minha esposa insistiu: “Isso é uma falta de respeito com seu irmão”, e brigamos várias vezes.
+
+Mas, ao ver meu irmão, que havia abandonado sua profissão para salvar as pessoas, vindo até a desconhecida Shikoku e se esforçando dia após dia, andando quilômetros para encontrar doentes; ao ver a filha que sofreu por oito anos e estava praticamente morta em vida, e a senhora que havia recebido uma sentença de morte dos médicos e até feito seu testamento, melhorando a cada dia e se enchendo de esperança, meu coração, antes uma fortaleza, finalmente despertou.
+
+Sinto um profundo remorso por minhas ações e pensamentos passados. Pedi perdão a Kannon-Sama. E sinto uma imensa gratidão por meu irmão, que, mesmo com raiva, nunca me abandonou e, sacrificando sua própria vida, me mostrou a verdade.
+
+Após dez meses desde que ingressei na fé na primeira formação em Sakaide, e com a orientação amorosa do Ministro Watanabe, do Ministro Shimizu e de muitos outros, tive a honra de ser recebido pelo Grande Mestre cinco vezes. Recentemente, recebi a Imagem da Luz Divina, e minha alegria é indescritível. Com a ajuda de muitos colaboradores, estou me empenhando para estabelecer a primeira filial na província de Kagawa o mais rápido possível.
+
+Salvo da escuridão para a luz, não encontro palavras para expressar minha gratidão.
+
+**Atravessando a Linha da Morte Várias Vezes**
+Teruko Nihongi (41), Presidente
+Nihon-kai, Igreja Kannon do Japão
+58 Wakamatsu-cho, Yokosuka, Kanagawa
+
+Na primavera de meus dezenove anos, um dia inesquecível, 15 de março, escorreguei e caí do terceiro degrau da escada. Foi o que desencadeou a cárie espinhal. Por dezesseis longos anos, dia e noite, desejei ardentemente recuperar minha saúde. O sofrimento da dor intensa e da angústia mental, ao me lembrar daquela época, ainda me causa arrepios.
+
+Nos primeiros três anos, a dor era relativamente menor. Fiquei internada por seis meses e, após a alta, seguindo os conselhos médicos, fui a todas as fontes termais recomendadas para a cárie, cuidando-me de todas as formas possíveis.
+
+Com o tempo, por volta do quarto ano, comecei a sentir os joelhos dobrarem subitamente enquanto caminhava, e tropeçar em uma pequena pedra reverberava por todo o meu corpo, causando uma dor que me deixava sem ar. Caminhar se tornou cada vez mais difícil, e eu me sentia constantemente cansada, passando a maior parte do tempo deitada. Usei um colete de gesso e tomei injeções diárias, dependendo totalmente dos médicos.
+
+Na noite de Ano Novo de meus vinte anos, comecei a sentir dor na cintura. Na manhã seguinte, não conseguia mais me levantar. Fiquei apavorada e chamei o médico. Ele não pôde fazer nada além de me dar uma injeção. Passei dias em desespero. Dez dias depois, finalmente consegui me sentar na cama. Pedi à minha irmã que massageasse minhas costas e, para meu horror, percebi que a espinha, que não era tão saliente antes, estava cerca de um centímetro mais alta. Eu havia me tornado corcunda.
+
+A partir desse momento, percebi que não podia mais depender apenas da medicina. Comecei a procurar desesperadamente por terapias alternativas: eletroterapia, shiatsu, acupuntura, moxabustão, remédios chineses. Lia os anúncios nos jornais todos os dias e encomendava todos os remédios para cárie que encontrava. Os médicos me ordenavam repouso absoluto, mas, sempre que ouvia falar de um bom hospital ou tratamento, eu ia, não importava a distância, em um carro, com grande dificuldade, apenas para voltar sempre desapontada.
+
+Na ânsia de me curar, me perdi em várias coisas. Meus pais, irmãos e amigos me aconselhavam a não me perder tanto, mas eu era teimosa e tinha uma forte convicção de que, se Deus ou Buda existissem, um dia eu encontraria um milagre e seria salva. Decidi aceitar tudo até encontrar a verdade. Tentei várias crenças, mas não recebi nenhuma graça.
+
+Eu estava tão perdida que as pessoas que me visitavam perguntavam: “Encontrou algum remédio ou tratamento novo?”. O tempo passava, e a doença piorava.
+
+Aos trinta e dois anos, em meados de fevereiro, contraí pneumonia aguda e pielonefrite. Fiquei gravemente doente e extremamente fraca. Ao sair de casa em uma maca, tanto eu quanto as pessoas ao meu redor pensamos: “Desta vez, não voltarei viva”. Senti uma solidão insuportável.
+
+Após ser internada, fiquei inconsciente por cinco dias. A alegria de meus pais e irmãos quando recuperei a consciência foi indescritível. Por cerca de um mês, quase não recebi visitas. Um dia, ouvi alguém no corredor perguntar: “Ainda não pode receber visitas?”. Fiquei chocada e pedi que retirassem a placa de “proibido visitas”. Mesmo depois disso, estive em estado crítico três vezes. Mais tarde, o diretor e o vice-diretor do hospital me disseram: “Às vezes, pacientes se recuperam milagrosamente, mas foi a primeira vez que vimos um paciente como você sobreviver”.
+
+Soube depois que os médicos disseram à minha família: “Parece que ela melhorou, mas é temporário. Ela não viverá muito”. De qualquer forma, após cinco meses, forcei a alta e voltei para casa com uma enfermeira. Após dois meses de tratamento em casa, a enfermeira não era mais necessária. Minha alegria durou pouco. Vinte dias depois, ao me levantar para ir ao banheiro, senti um estalo na cintura. Agarrei-me a uma cadeira e não consegui mais me mover, nem para ir ao banheiro nem para voltar para a cama. Qualquer movimento, por menor que fosse, reverberava por todo o meu sistema nervoso, causando uma dor excruciante. Demorei mais de duas horas para conseguir me deitar. O sofrimento que se seguiu é indescritível.
+
+Nenhum médico conseguia me examinar, nem mesmo tocar em mim. Mover um único dedo causava uma dor como um choque elétrico, que me deixava sem ar. Os médicos não podiam fazer nada. Fui abandonada por todos e caí em um estado de desespero absoluto. Pela reação de minha família, percebi que os médicos já haviam me dado uma sentença de morte. Minha vida terminaria aos trinta e dois anos. Meu futuro era escuridão.
+
+Mas a vida humana é frágil e, ao mesmo tempo, forte. Não consegui morrer. Dia e noite, eu não encontrava como escapar de um sofrimento indescritível. Era uma dor pior que a morte. O mais difícil era não poder rir.
+
+As pessoas que me visitavam, na tentativa de me consolar, contavam histórias engraçadas para me fazer rir. Eu sempre as avisava de antemão, mas às vezes me deixava levar pela conversa e tentava rir. Era terrível. Um pequeno riso afetava todo o meu sistema nervoso, e a dor era tão intensa que eu sentia que ia parar de respirar. Esse sofrimento é inimaginável para quem não o viveu.
+
+Essa agonia durou quatro anos. Eu era um cadáver ambulante. E esse cadáver era um amontoado de sofrimento. Meus pais, irmãos, amigos, todos que me conheciam se maravilhavam de eu ainda estar viva. Eu me tornei o assunto da cidade. Diziam que eu devia ter um coração especial e me apelidaram de “coração forte”. Eu era uma doente misteriosa.
+
+Houve momentos em que pensei que era o fim. Aos trinta e cinco anos, no verão de 1942, dezesseis anos após o início da doença, a notícia de que meu fim estava próximo se espalhou entre os parentes. Eu já havia me conformado com tudo e esperava a morte. No dia 27 daquele mês, uma tia distante veio me visitar e disse: “Há uma boa terapia manual, por que não tenta?”. Eu, que já havia tentado todas as terapias de shiatsu sem nenhum efeito, e que nunca havia recusado uma sugestão, desta vez recusei categoricamente, pois já havia desistido de tudo.
+
+No dia seguinte, a tia voltou e insistiu: “Meu neto, um estudante universitário de vinte e dois anos, tinha cárie nas costelas e ia ser operado. Com duas sessões de tratamento, o inchaço diminuiu e ele se curou sem cirurgia. Tente mais uma vez, como se estivesse sendo enganada”. Não consegui recusar e concordei em receber o tratamento, com a intenção de dispensá-lo após uma ou duas sessões.
+
+Naquela noite, ela trouxe o Ministro Hayashi. Recebi o tratamento por obrigação para com a pessoa que me recomendou. Após cerca de trinta minutos, o ministro disse: “Tente virar de lado”. Fiquei chocada. Eu, que sentia uma dor terrível ao menor movimento, tentei me mover com medo e, para minha surpresa, consegui virar de lado com apenas uma leve dor. Ah, que milagre! Pensei que era um sonho. O desejo de poder virar de lado, que eu acalentara por tantos anos na cama, foi realizado em apenas trinta minutos de um tratamento simples. Senti que não era uma terapia de shiatsu comum.
+
+Quando o ministro estava saindo, na minha alegria, sentei-me na cama para agradecê-lo. Minha irmã e a empregada, surpresas, disseram: “Nossa, você conseguiu sentar!”. Só então percebi que estava sentada e fiquei chocada pela segunda vez. A pessoa que me recomendou o tratamento também ficou muito feliz. Mas, ao tentar me deitar novamente, senti uma dor terrível e tive dificuldade. Não consegui virar de lado de novo. No entanto, como a dor diminuía durante o tratamento, decidi tentar mais uma vez.
+
+Na segunda sessão, consegui mover meu corpo com menos dor. Achei ainda mais estranho e perguntei ao ministro: “Este tratamento não é apenas pela força humana, há outra força em ação, não é?”. Ele pareceu um pouco surpreso, bateu no peito esquerdo e disse, sorrindo: “Na verdade, está aqui”, e foi embora.
+
+Pensei que ele havia dito algo sobre ter um dispositivo no coração, e achei muito estranho. Na terceira sessão, eu disse: “Ministro, com uma condição tão grave, não acho que vou melhorar, mas ficaria tão feliz se pudesse pelo menos ir ao banheiro sozinha por dez dias antes de morrer”. Ele respondeu, sério: “Não só irá ao banheiro, como, dependendo de sua atitude, poderá recuperar sua saúde original”. Fiquei chocada.
+
+Por dezesseis anos, sempre que eu perguntava a médicos ou terapeutas se poderia ser curada, a resposta era: “Houve casos de cura, vamos tentar”. Nunca pensei que pudesse me curar. Mas as palavras fortes do Ministro Hayashi, “Você vai se curar”, ecoaram em meu peito. Eu disse: “Ministro, por favor, me diga claramente, esta terapia não é apenas shiatsu, não é? Acredito que seja pela ação de um forte espírito, seja de Deus ou de Buda”. Ele olhou para os muitos livros religiosos ao lado de minha cama e disse: “É mais fácil de entender para quem tem um coração religioso. Na verdade, é o poder de Kannon-Sama que cura, não o meu”.
+
+Naquele momento, senti o mundo à minha frente se iluminar. Ah, que alegria eu nunca havia sentido antes! No meio da escuridão e do desespero, no limiar da morte, um raio de luz se acendeu. Na alegria infinita de contemplar essa luz, eu disse, em um transe: “Acredito em suas palavras e me apegarei a Kannon-Sama com todo o meu coração. Seguirei suas instruções, por favor, me guie”.
+
+A partir de então, melhorei a cada dia, como se uma fina camada de papel fosse removida de cada vez. Cerca de vinte dias após o início do tratamento, consegui me firmar sobre as pernas e, finalmente, realizar o sonho de ir ao banheiro, apoiando-me nas coisas. A emoção daquele momento é indescritível.
+
+Fiquei maravilhada com a grandeza da graça de Kannon-Sama. Em 28 de outubro, o Ministro Shibui (atual presidente da Igreja Gogoshichi-kai do Japão) entronizou uma imagem de Kannon-Sama no segundo andar, e eu subi para prestar minhas homenagens. Ao ver pela primeira vez a imagem de Kannon-Sama caligrafada pelo Grande Mestre, as lágrimas rolaram incessantemente. A gratidão era tamanha que a expressão “emoção indescritível” parecia ter sido criada para aquele momento.
+
+Naquela ocasião, fiz a promessa audaciosa de ir à casa do Ministro Shibui em Yodobashi, Tóquio, no dia 10 do mês seguinte (10 de novembro) para receber a formação. Decidi firmemente que iria, e orei a Kannon-Sama com fervor. Milagrosamente, comecei a andar sozinha, um passo, dois passos, e no dia prometido, fui com minha irmã. Meu coração batia forte, eu tinha dor de cabeça e tontura. Minha aparência era a de um fantasma. Mesmo assim, fui de Yokosuka por três dias e, no quarto dia, como não conseguia mais ir e vir, fiquei em uma pousada e concluí a formação de uma semana. A alegria de receber o amuleto foi, mais uma vez, indescritível. Minha irmã também recebeu a formação.
+
+A partir desse dia, apeguei-me a Kannon-Sama com todas as minhas forças, recebendo Sua proteção e graça. Sete anos se passaram, e recebi inúmeras graças até hoje.
+
+Lembro-me de ter recebido várias sentenças de morte e de ter me preparado para morrer. Eu, que era literalmente um cadáver ambulante, recebi um corpo saudável novamente pela grande compaixão de Kannon-Sama. A felicidade de poder viajar para qualquer lugar para difundir a fé é algo pelo qual, por mais que eu agradeça, não consigo retribuir nem uma ínfima parte da graça recebida.
+
+*“Já sou feliz por ter minha vida de volta,*
+*E ainda me foi permitida a obra da cura.”*
+
+Entoando este poema sagrado, e chorando de emoção pela infinita compaixão de Kannon-Sama, dedico minhas humildes forças ao caminho da difusão, para transmitir a alegria de minha própria salvação ao maior número possível de pessoas, em um estado de gratidão diária.
+
+**Cárie Óssea Curada — Um Poder que Supera a Medicina Moderna**
+Sayoko Ishizaki (33)
+Kinrin-kai, Igreja Gogoshichi Kyo do Japão
+Yoichi Shinbo, Oshino-mura, Ishikawa-gun, Ishikawa
+
+Grande Mestre, recebi Sua imensa e infinita proteção, e não sei como expressar minha gratidão. Tremendo de emoção e gratidão, relato aqui os detalhes de minha salvação e ofereço meus mais profundos agradecimentos.
+
+Aos dezenove anos, em setembro, contraí cárie óssea. Sofri com um corpo frágil e dias sombrios. Aos vinte e cinco anos, fiquei acamada. Tentei hospitais (usei três coletes de gesso), shiatsu, moxabustão, terapia de energia e quiropraxia, tudo o que ouvia dizer que era bom. Nada funcionou. No início, era apenas cárie na coluna torácica, mas depois se espalhou para a cervical e a lombar, e os problemas se multiplicaram por todo o corpo. Fiquei extremamente fraca e não tinha mais forças para me levantar.
+
+Mesmo sabendo que a doença era incurável, na esperança de me curar, fiz todos os esforços e suportei tudo para lutar contra a doença. Aos vinte e nove anos, no outono, perdi todas as forças e desisti da esperança de recuperação. Haverá algo mais trágico para um ser humano do que desistir de uma doença incurável?
+
+Caí em desespero e passei dias e noites em angústia e aflição, vivendo na escuridão. O sofrimento era tanto que pensei em suicídio várias vezes.
+
+Um dia, minha irmã me falou sobre a maravilha do Johrei. Mas, como todas as minhas tentativas anteriores haviam falhado, não consegui acreditar. Pensei que seria inútil, como tudo o mais. Mas minha irmã insistiu tanto que concordei em experimentar. Para minha surpresa, a dor diminuiu e consegui me sentar um pouco. O Ministro Hayashi me explicou a causa fundamental da doença: “A doença é um processo fisiológico natural para promover a saúde, uma grande graça de Deus”. Ouvi muitas outras explicações gentis, e a ansiedade e o medo da doença, que nunca me abandonavam, desapareceram. A partir daquele dia, levantei-me.
+
+Meu coração se iluminou, minha mente se acalmou, meu apetite aumentou. Recebendo o Johrei dos ministros, que me guiaram com sinceridade, melhorei rapidamente. Não foi apenas a doença. Meu corpo e minha alma renasceram. Que graça maravilhosa!
+
+Agora, sob os cuidados do Ministro Nakata, recebendo seu Johrei sincero, melhoro a cada dia, vivendo um hoje cheio de esperança.
+
+Quando olho para o passado, para o sofrimento infernal deste mundo, para este corpo que, tanto para mim quanto para os outros, não tinha outro destino senão a morte, fui salva pela mão da grande compaixão. Esta alegria é incomparável. Ah, quando penso naqueles tempos e na minha salvação de hoje, as lágrimas rolam sem cessar, e a caneta treme. Sou apenas eu, prostrada diante da Imagem da Luz Divina, sufocada por lágrimas de gratidão.
+
+Ah, que poder de sabedoria divina surpreendente! Que força de salvação maravilhosa! A cárie óssea, considerada uma doença incurável pela medicina moderna, que tem como único tratamento o repouso absoluto, está sendo curada pela radiação espiritual do poder da sabedoria de Kannon, sem repouso. E não é só a cárie. Vi com meus próprios olhos doenças consideradas incuráveis pela medicina serem curadas com grande facilidade. Através desta grande alegria, compreendi que a “felicidade”, o objetivo maior e final que toda a humanidade busca há milênios, pode ser alcançada ao ingressar nesta religião.
+
+Ah, não posso deixar de louvar o advento de uma religião tão grandiosa! Choro de gratidão pela graça do Grande Mestre. Desejo transmitir ao maior número possível de pessoas que, através da obra da cura, todos os sofrimentos podem ser resolvidos em sua raiz, e que elas podem mergulhar na alegria. E desejo ajudar na construção do mundo sem doença, pobreza e conflito. Meu desejo é apenas esse. A cada dia, esse desejo se torna mais forte. Lamento não poder expressar nem uma ínfima parte da gratidão que transborda em meu coração, e encerro aqui minha escrita.
+
+**Salva de Seis Anos de Cárie Óssea**
+Mutsu Masuda
+Filial de Nikko, Tengoku-kai, Igreja Kannon do Japão
+Oshima, Takasu-mura, Shida-gun, Shizuoka
+
+Eu sofri por muito tempo de cárie espinhal. Nos últimos seis anos, consultei muitos médicos e, por fim, usei um colete feito na Cruz Vermelha de Shizuoka por quatro anos e dois meses.
+
+No ano passado, em 11 de novembro, tive uma complicação de pneumonia. Na manhã dos dias 6 e 7, tive um sangramento nasal abundante. A respiração se tornou muito difícil, e consultei um médico imediatamente. Fui diagnosticada como em estado grave e ordenada a manter repouso absoluto. A tristeza da família era indescritível. Eu também sabia que minha morte estava próxima e, em um desespero frenético, debati meu corpo imóvel, sem conseguir conter as lágrimas que transbordavam.
+
+Minha mãe, com o coração partido, na manhã do dia 10, de repente me disse: “Faz três dias que não consigo engolir arroz. Que tal nos apegarmos a Kannon-Sama?”. E, na tarde do dia 11, ela foi à casa do Sr. Jusukichi Sone para pedir ajuda.
+
+Que orientação divina! Soubemos que uma formação começaria em Ozu no dia seguinte. Com uma alegria como a chegada da primavera, minha mãe voltou para casa. A partir do dia 12, recebi Johrei do Sr. Sone duas vezes por dia, de manhã e à noite. E minha mãe, na esperança de minha rápida recuperação, saía cedo de casa para participar da formação.
+
+Três dias depois, no dia 14, consegui retirar o colete que pensei que usaria para o resto da vida. A alegria, a felicidade, todos nós choramos de emoção diante da majestade de Kannon-Sama. Concluí os três dias de formação e, a partir do dia 15, o Sr. Sone veio me ministrar Johrei com grande dedicação, dia e noite. A febre, que não baixava de 39 graus, começou a ceder por volta do dia 19. No dia 25, recebemos a Imagem de Kannon em biombo e realizamos a cerimônia em honra aos antepassados. Eu e toda a família pudemos orar juntos.
+
+Com este grande poder, nossa família foi salva. Eu, que estava à beira da morte, tive minha vida salva, retirei o colete e fui curada sem remédios. A graça é mais alta que as montanhas e mais profunda que o mar. A emoção é tanta que não tenho palavras para agradecer. Agradeço profundamente ao Grande Mestre e ao Ministro Higuchi, cuja proteção e orientação tornaram possível receber este grande poder.
+
+Minha saúde melhorou progressivamente. Em 18 de dezembro, fui com minha mãe à casa do Sr. Sone para agradecer e orar diante da Imagem Sagrada. Senti meu corpo cansado, com calafrios e dor no peito. Pensei que era uma recaída da pneumonia e voltei para casa. Fui ao altar, orei a Kannon-Sama com fervor e entoei a oração Amatsu Norito sete vezes. Deitei-me e minha mãe me ministrou Johrei.
+
+Na noite do dia 22, sonhei que recebia Johrei de Kannon-Sama. Foi uma proteção imensamente reverente. Em 24 de dezembro, recebi a formação com meu irmão mais velho, e em 26 de janeiro, meu irmão mais novo também ingressou na fé. Nosso lar transborda de alegria primaveril. Em fevereiro, entronizamos a Imagem Sagrada.
+
+Apegando-me a este poder gratificante, de agora em diante me dedicarei com todas as minhas forças ao caminho da salvação, com a determinação de guiar o maior número possível de pessoas que sofrem como eu sofri para o caminho da felicidade radiante.
+
+**Doença Mental Curada — Um Repatriado que Retomou sua Vida**
+Hideo Inoue (28)
+Hakko-kai, Igreja Gogoshichi Kyo do Japão
+Hojo-machi, Onsen-gun, Ehime
+
+Fui repatriado em junho de 1947. Após três anos e meio no sul, meu corpo estava fraco e meu cabelo, ralo. Voltei para casa sem energia e passei os dias sem fazer nada. Sofria de insônia, não tinha apetite, e minha cabeça estava confusa. Vivendo em um estado de desconforto, minha cabeça ficava cada vez mais pesada, meu julgamento se tornou impreciso, e eu não conseguia mais pensar. Sentia que estava enlouquecendo a cada dia.
+
+Saía sozinho para a praia, sentava-me olhando a lua no meio da noite sem conseguir dormir, e sofria continuamente. “Não tem mais jeito para mim, é melhor morrer”, pensei várias vezes. Um dia, enquanto ajudava no negócio da família, minha cabeça ficou insuportável e explodiu.
+
+A partir de então, eu olhava ao redor e não entendia mais nada. Não conseguia ficar parado em um lugar, andava em círculos pela casa e, ao sair, ia e voltava pela mesma rua. Sentia que ia enlouquecer a qualquer momento. Disse aos meus pais: “Vou enlouquecer hoje ou amanhã, por favor, façam alguma coisa”. Naquela noite, vomitei e me senti extremamente mal, agonizando de dor. Meus pais, preocupados, me deram remédios, mas não fizeram efeito.
+
+Pensei que seria curado se fosse a um hospital psiquiátrico e fui internado com meus pais. No hospital, disseram que eu não tinha problemas mentais, mas uma doença que me impedia de organizar os pensamentos. Acabei em um quarto para pacientes com doenças mentais leves. Disseram-me: “Não saia deste quarto até melhorar. Não fale. Apenas deite na cama ou olhe pela janela”.
+
+Eu o fiz, mas ficar sozinho aumentava minha dor e ansiedade, e meus nervos ficavam à flor da pele. Várias vezes, fugi do quarto e fui até os enfermeiros. Por fim, disseram que sair do quarto não ajudaria na minha recuperação, trancaram a porta e me mandaram aguentar. Suportei a dor por um mês.
+
+Durante cerca de meio mês, tomei remédios e, na outra metade, fiz tratamento com eletrochoque. A insônia me deixou extremamente fraco, e eu não melhorei nada. A hora do eletrochoque era aterrorizante. Eu ficava inconsciente e não sabia o que acontecia por horas. Decidi ter alta.
+
+Voltei para casa, e os vizinhos se preocuparam. Mas eu odiava conversar. Dizia uma palavra e fugia. Eu repetia a mesma coisa várias vezes, já estava com uma doença mental.
+
+Foi quando minha mãe me falou de um Ministro chamado Koda, em Hojo, que curava qualquer doença. “Vá pedir ajuda a ele hoje”, ela disse. Fui imediatamente receber Johrei do Ministro Koda. Naquele momento, eu andava como se estivesse em um sonho, mal conseguindo entender o que as pessoas me diziam.
+
+Ao voltar para casa após a quinta sessão de Johrei, senti como se algo na parte de trás da minha cabeça tivesse desmoronado e descido. Ao mesmo tempo, a dor de cabeça que me atormentava aliviou muito, e meu julgamento clareou. Contei ao ministro, e ele disse: “As toxinas acumuladas em sua cabeça se dissolveram e desceram, por isso você se sentiu melhor”.
+
+Continuei o tratamento com dedicação. A urina ficou turva, tive secreção nasal e diarreia, e melhorei a cada dia. Um mês e meio depois, já conseguia trabalhar, o que antes era impossível. Recebi purificações sucessivas, com muito catarro e secreção nasal, e diarreia por cerca de quatro meses, sendo o primeiro mês o mais intenso.
+
+Quando a purificação terminou, meu apetite aumentou, passei a dormir profundamente, minha mente clareou e meu corpo se fortaleceu. Eu estava prestes a passar a vida com uma doença mental, mas fui salvo pelo poder de Kannon-Sama.
+
+Esta alegria é indescritível com palavras. Recebi a formação e agora ajudo na Obra de Kannon, para retribuir, mesmo que minimamente, a graça que recebi. Pedi ao Ministro Koda para ajudar.
+
+No mundo, há muitas pessoas sofrendo com doenças como a minha. Rezo para que elas se apeguem a Kannon-Sama e recebam Johrei o mais rápido possível. Minha família também foi salva. Meu pai teve uma doença respiratória tão grave que pensamos que ele não sobreviveria, mas foi salvo. Meu irmão também sofria de problemas na cabeça e foi salvo com a orientação do Ministro Koda. A segunda purificação de meu pai terminou, e agora ele trabalha com vigor. Toda a família recebeu a formação e entronizamos a Imagem da Luz Divina.
+
+Nosso lar, que se tornara sombrio desde a minha doença, tornou-se um lar iluminado com a orientação do Ministro Koda, e vivemos dias de gratidão.
+
+**Salvo da Paralisia Infantil**
+Ryo Haraki
+Tengoku-kai, Igreja Kannon do Japão
+Ikarumi, Fujieda-machi, Shida-gun, Shizuoka
+
+Ingressei na fé em julho de 1947 e, enquanto aguardo o retorno de meu marido da guerra, rezo pelo crescimento de meus dois filhos, vivendo dias de gratidão. Sou uma mãe. Com minha escrita inábil, relato aqui a salvação de meu filho da paralisia infantil.
+
+No ano passado, no dia 9 de janeiro, pouco depois das decorações de Ano Novo serem retiradas, por volta do meio-dia, ouvi uma voz do lado de fora gritando: “Rápido, rápido!”. Corri e vi meu filho mais velho, Takashi, de nove anos, desfalecido nos braços de nosso vizinho. Quase perdi os sentidos. Imediatamente, o Sr. Mori, um vizinho fervoroso, e o Ministro Ikegaya, do Johrei Center, vieram.
+
+Até a noite, ele teve duas convulsões, com os olhos revirados e a boca cerrada. Por mais que eu o chamasse, não adiantava. Por dois dias, seu estado oscilou. Vendo meu filho transformado, preocupei-me com o que aconteceria e continuei a orar.
+
+Ao amanhecer do terceiro dia, ele começou a falar, chamando: “Mamãe, mamãe”. Eu acariciava seu rosto e sussurrava em seu ouvido: “A mamãe está aqui, Takashi, com você”. Mas, por mais que eu repetisse, ele não entendia. Meu filho, que não via nem ouvia, chamava pela mãe em sua solidão, chorando e gritando. A cena era dolorosa, e meu coração parecia que ia se partir.
+
+Meu tio, que veio visitá-lo, disse: “É porque amo o Takashi que estou dizendo isso. Kannon-Sama, Kannon-Sama... Tudo bem, mas pense melhor. Chame um médico logo. Se ele morrer enquanto o pai está fora, sem nem ter sido visto por um médico, você não se sentirá culpada?”. Naquele momento, fiquei perdida. Mas decidi me apegar a Kannon-Sama. “Haverá um momento em que ele entenderá. Vou tentar dizer mais uma vez”, pensei.
+
+“Tio, entendo perfeitamente sua preocupação. Mas vou me apegar a Kannon-Sama até o fim. Se este menino morrer, ficarei satisfeita se ele partir purificado”. Ele se levantou, dizendo asperamente: “Se a própria mãe pensa assim, não há nada a fazer”.
+
+Em desespero, orei: “Por favor, Kannon-Sama, salve-o. Pelo menos os olhos ou os ouvidos, por favor, salve-o o mais rápido possível”. Aos poucos, ele começou a responder ao que eu dizia. A alegria daquele momento foi indescritível, cheia de gratidão. Logo depois, ele começou a enxergar e até a sorrir. À tarde, comeu uma maçã.
+
+No entanto, o lado esquerdo de seu corpo continuava paralisado. O Ministro Ikegaya me aconselhou a me tornar membro efetivo para salvar os antepassados. “É verdade. Preciso me apegar com mais seriedade”, pensei. Na manhã do quarto dia, pedi ao Ministro Ikegaya que fosse ao Johrei Center para fazer os trâmites. Cerca de uma hora depois, de repente, seus braços e pernas começaram a se mover.
+
+Fiquei tão surpresa que pensei que estava sonhando. As pessoas presentes também diziam que parecia mentira, e ficaram chocadas, conversando entre si. Foi quando o Ministro Ikegaya chegou, trazendo a imagem de Kannon-Sama. Ele nos contou que a hora em que os membros de meu filho se tornaram livres coincidiu exatamente com a hora em que ele concluiu os trâmites de membro efetivo e recebeu a imagem de Kannon-Sama no Johrei Center. Fiquei ainda mais surpresa.
+
+Entronizamos a imagem imediatamente e, ao nos sentarmos diante do altar para agradecer, meu peito se encheu de emoção. Tudo o que consegui dizer foi: “Muito obrigada, muito obrigada”. No quinto dia, ele já queria sair para brincar. Com dificuldade, consegui mantê-lo em casa. No sexto dia, ele brincou com as crianças da vizinhança, e no nono dia, ao vê-lo ir para a escola, pensei que parecia um sonho que aquele fosse o mesmo menino que, quatro ou cinco dias antes, estava entre a vida e a morte.
+
+Meu tio, que tanto se opusera, ficou completamente chocado com o que aconteceu. Ele recebeu a formação imediatamente e, hoje, vivemos juntos uma vida de fé tranquila.
+
+Ao ver meu filho saudável neste Ano Novo, lembro-me de sua imagem lastimável de um ano atrás, e a emoção me invade. Não tenho palavras para agradecer ao Grande Mestre, ao Ministro Nakajima e ao Ministro Higuchi. Sinto-me impotente por não conseguir expressar o que sinto em meu coração. De agora em diante, só me resta salvar o maior número possível de pessoas neste caminho gratificante, para retribuir, mesmo que minimamente, a graça que recebi. É o que sempre tenho em mente.
+
+**Pelo Poder Divino, um Morto Ressuscita**
+Chieko Takayanagi
+Tengoku-kai, Igreja Kannon do Japão
+Tsuboi Shinden, Shinohara-mura, Hamana-gun, Shizuoka
+
+Enquanto tantas pessoas no mundo continuam seus dias de insegurança e angústia em meio à doença, pobreza e conflito, nós, que fomos guiados ao caminho sagrado de Deus, recebemos a luz em nosso futuro e vivemos com grande esperança, só podemos agradecer pela proteção que recebemos dia e noite.
+
+Desta vez, recebemos o poder da Imagem da Luz Divina e testemunhamos um grande milagre, que relatamos com reverência.
+
+Em 22 de dezembro do ano passado, por volta das sete da manhã, enquanto trabalhava no campo em frente à minha casa, notei uma aglomeração de pessoas na estrada Tokaido. Aproximei-me para ver o que estava acontecendo e encontrei um homem caído, como se estivesse morto, com quarenta ou cinquenta pessoas ao redor, em alvoroço.
+
+Ao ver aquilo, esqueci de mim mesma, abri caminho pela multidão e, primeiro, peguei sua mão esquerda para sentir o pulso. Não consegui sentir nada. Suas articulações estavam rígidas e seu corpo, frio. Era como um cadáver.
+
+Compreendi que, para manifestar a existência de Deus e Seu poder absoluto em meio a uma multidão de ateus, aquele homem nos fora entregue, a mim e a meu marido. Chorando de emoção pela compaixão e graça de Kannon-Sama, e orando para receber Seu poder sagrado, meu marido começou a entoar a oração Amatsu Norito, e eu continuei a ministrar Johrei.
+
+Do meio da multidão de ateus, surgiram vozes: “O que estão fazendo com um morto?”, “Bando de tolos”, “Casal de loucos”. Naquele momento, já havia mais de cem pessoas, e funcionários da prefeitura e da polícia também haviam chegado. Mas nós, sem nenhuma apreensão, apegamo-nos ao poder absoluto de Deus, continuamos a ministrar Johrei e a entoar a oração Amatsu Norito. Foi na quarta vez que entoávamos a oração Dounen Hikanzeonriki.
+
+O jovem gemeu, e sua respiração começou a voltar ao normal. A alegria que sentimos, por favor, imaginem. A nobreza, a graça e o poder de Deus, misturados com a alegria, encheram nosso peito. Não conseguimos dizer uma palavra, apenas as lágrimas de gratidão fluíam sem cessar.
+
+Em quinze minutos, ele se recuperou completamente e começou a contar sua história. Era um jovem cego de vinte anos, de Quioto.
+
+Manifestar o grande poder diante dos olhos dos ateus fez com que as pessoas da aldeia e os funcionários da prefeitura refletissem profundamente.
+
+Tendo recebido a grande virtude divina, relatamos este fato com reverência.
+
+**Uma Doença em um Milhão — A Doença de Bechterew é Curada**
+Goichi Asano
+Senshin-kai, Igreja Gogoshichi Kyo do Japão
+2-chome, Shinmachi, Ogaki, Gifu
+
+Por volta de outubro de 1937, comecei a sofrer de dor lombar. Fui diagnosticado com neuralgia e recebi tratamento com injeções por seis meses, mas a dor não passou e o sofrimento só aumentou. Desisti do tratamento médico e deixei a natureza seguir seu curso. Melhorei um pouco.
+
+Em julho de 1939, fui convocado para o serviço militar e enviado para o norte da China. A dor lombar me impedia de cumprir minhas obrigações, e passei um ano recebendo tratamento com injeções.
+
+Fui dispensado e voltei para casa, mas por um ano não consegui trabalhar direito. Fui convocado novamente e, após meio mês de treinamento intenso, a dor voltou. Fui diagnosticado não com neuralgia, mas com a “Doença de Bechterew” e internado. Fiquei dois meses no hospital anexo do campo de treinamento de Nagoya, tomando aspirina e remédios para o estômago.
+
+Mas a dor lombar nunca desaparecia. Tive alta e fui dispensado, mas não conseguia trabalhar. Consultei vários médicos, mas todos disseram que não havia cura. Era uma doença que afetava uma em mil, ou uma em dez mil pessoas. Fui convocado para o trabalho obrigatório duas vezes, mas fui reprovado devido à doença. Fui reprovado também no exame de saúde para o serviço militar. Senti como se tivesse recebido uma sentença de morte.
+
+Foi quando, em julho de 1946, fui salvo pela mão compassiva de Kannon-Sama. Naquela época, o Ministro Hiroshige Kawabata, atual presidente da Senshin-kai, estava difundindo a fé em Ogaki. Ouvi dizer que balançar as mãos resolvia os problemas de doença, pobreza e conflito. Eu era muito cético, mas, seguindo suas instruções, recebi Johrei e ingressei na fé. Comecei a ministrar Johrei em outras pessoas e elas ficaram muito felizes.
+
+Após ingressar na fé, ministrei Johrei em um paciente com apendicite que os médicos haviam considerado “inoperável por ter demorado demais”. Ele melhorou rapidamente. Senti profundamente que aquilo não era obra humana.
+
+Continuei a me dedicar ao Johrei, sob a orientação calorosa do Ministro Watanabe e do Ministro Kawabata. A dor lombar que me atormentava, não sei quando nem como, desapareceu completamente. Fui abençoado com uma vida alegre e iluminada. Tudo isso é graças à grande compaixão de Kannon-Sama, e só posso chorar de gratidão.
+
+Olhando para o passado, percebo que a “Doença de Bechterew”, que a medicina não conseguiu resolver, foi uma provação que Kannon-Sama me deu. Sinto apenas gratidão.
+
+Nos ensinamentos do Grande Mestre, está escrito: “O homem bom é aquele que acredita no invisível; o homem mau é aquele que não acredita no invisível”. A alegria que sinto hoje por acreditar no invisível é indescritível com palavras. Minha família também está muito feliz.
+
+Dedicar-me a esta obra sagrada é, acima de tudo, fazer com que o maior número possível de pessoas compreenda a obra de salvação da humanidade.
+
+**Profunda Gratidão aos Ensinamentos — Salva de “Convulsões” de Causa Desconhecida**
+Take Uchiyama
+Filial de Futamata, Taisei-kai, Igreja Kannon do Japão
+Akasa-mura, Hamana-gun, Shizuoka
+
+Ontem e hoje, minha irmã reclamou de dor de cabeça e, ao voltar da escola, foi direto para a cama. Essa situação continuou por cinco dias, uma semana.
+
+Final de maio é a melhor época do ano, não é tempo de pegar um resfriado. Mas, por volta do décimo dia, ela começou a não enxergar do olho esquerdo. No dia seguinte, reclamou de aperto no peito. O médico da aldeia a examinou várias vezes, mas não conseguiu dar um diagnóstico claro. A saúde de minha irmã só piorava.
+
+Ela estava no último ano do ensino fundamental e, sendo estudiosa e determinada, não queria faltar à escola. Vendo seu sofrimento, decidi trocar de médico. Forcei minha irmã, que estava se preparando para ir à escola, a ficar em casa e a levei ao Sanatório Nacional Tenryuso.
+
+Como a doença não tinha nome, médicos de todas as especialidades — clínica geral, cirurgia — a examinaram, mas nenhum conseguiu dar um diagnóstico. A causa foi um acidente trivial: na escola, enquanto brincava de pular corda com um elástico fino, ela aparentemente bateu metade do corpo. Por cerca de meio mês, não houve grandes mudanças, mas depois de vinte dias, um mês, a situação chegou a este ponto.
+
+Sem um diagnóstico do sanatório, voltamos para casa com o coração pesado. A doente também estava muito desanimada. Mal se passou uma hora e ela começou a ter convulsões. Era final de maio, época da colheita do trigo em nossa fazenda, e todos da família estavam no campo. Sozinha, cuidando dela, senti-me desamparada. Chamei os vizinhos, que correram para buscar médicos e remédios.
+
+A cada dia, as convulsões pioravam, e sua respiração se tornava ofegante e difícil, a ponto de parecer que ia morrer a qualquer momento. Eu e minha mãe ficamos com medo de ficar ao seu lado. Metade de seu corpo ficou dormente, e passávamos o tempo todo massageando seus braços e pernas. A dor de cabeça era intensa. Chamamos vários médicos, e às vezes ela recebia catorze ou quinze injeções de uma só vez. As injeções aliviavam por um tempo, mas depois de duas ou três horas, tudo voltava ao normal, e ela reclamava de dor.
+
+Manhã, tarde e noite, por uma semana, dez dias, vinte dias, naquele junho quente, fechávamos o quarto e a cobríamos com dois ou três cobertores grossos de inverno. Eu ficava deitada com ela, abraçando-a. A febre oscilava em torno de 38 graus, mas seus pés e mãos estavam frios. As convulsões contínuas a deixavam inconsciente, e ela delirava. Quando recuperava a consciência, sentia-se muito solitária e não me deixava sair de debaixo do mesmo cobertor, mesmo quando se sentia bem.
+
+Após um mês, e depois de ter consultado sete ou oito médicos sem grandes resultados, as convulsões se tornaram incessantes. Parentes se reuniram no quarto ao lado e começaram a criticar os médicos. “Com uma doente sofrendo tanto, não há um médico melhor?”, diziam. “Parece que o cérebro foi afetado, vamos levá-la a um hospital psiquiátrico?”, “Vamos buscar um bom médico de longe?”. Era um alvoroço. A doente respirava com dificuldade. Nós nos sentíamos piores que ela. Se pudéssemos, dividiríamos seu sofrimento.
+
+Desesperados, e depois de muita hesitação, entramos no caminho de uma fé. Mas, no mundo, existem pessoas más que se aproveitam do nome da religião. Caímos nas mãos de um membro de uma certa seita que usava espíritos de raposa e sofremos muito.
+
+Um dia, a mãe do Ministro Ichikawa, da filial de Futamata da Igreja Kannon, veio nos visitar e nos ensinou pela primeira vez sobre a Igreja Kannon. A partir de então, ela vinha todos os dias, sem se importar com chuva ou vento.
+
+No início, não conseguíamos romper com os médicos e, sem um conhecimento claro da Igreja Kannon, não podíamos abandonar os remédios. Passamos dias em angústia. Mas, após cinco dias, uma semana, as convulsões diminuíram e ela melhorou a cada dia. Nós, que havíamos sido lançados no fundo do desespero, temendo que ela ficasse com sequelas mentais ou uma doença grave para o resto da vida, e que toda a família sofreria, vimos que, após receber o Ohikari, seu apetite aumentou e as convulsões praticamente desapareceram.
+
+No entanto, a doente, que ficara tanto tempo na cama, esqueceu-se de como se levantar. Maio, junho, julho, agosto passaram, as férias de verão terminaram, e o segundo semestre começou. As pessoas são estranhas. Alguns difamavam uma doente em estado tão grave. Na esperança de que ela recuperasse sua energia e voltasse para a escola o mais rápido possível, recebemos a formação e começamos a ministrar Johrei de manhã e à noite.
+
+A mãe do Ministro Ichikawa, por três longos meses — julho, agosto, setembro —, continuou a nos visitar sem nunca mostrar um rosto contrariado. Sua imagem era algo que queríamos reverenciar.
+
+No início, foi difícil fazer a doente sair da cama. Depois de repreendê-la e persuadi-la, ela finalmente se levantou. Uma vez fora da cama, recuperou as forças inesperadamente e, ao contrário, não queria mais deitar.
+
+Aquela menina de treze anos, com seu lindo cabelo chanel, entoando a oração de manhã e à noite, parecia outra pessoa. Vendo-a tão saudável, esquecemos os tempos difíceis, e a alegria voltou para nossa casa. Agora, até a criança de cinco anos junta as mãos e se apega a Deus.
+
+Eu, que experimentei na pele os ensinamentos gratificantes da Igreja Kannon, sinto vontade de gritar bem alto para os ateus.
+
+Coletânea Jikan, Volume IV
+Relatos de Milagres (Título revisado de “Testemunhos de Graça”)
+Publicado em 5 de outubro de 1949
+Formato B6, 78 páginas, Preço: 50 ienes
+Autor: Okada Jikan
+Editor: Shunnosuke Nishiyama
+Editora: Nijuseiki Shuppan Insatsu Goshi Gaisha
+
+---
+
 # O que é a Medicina?
 
 **Categoria:** sasshi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu第二篇
+**Título Original:** - | **Status:** -
 
 ## O que é a Medicina?
 
@@ -1033,480 +2312,6 @@ Portanto, se for como este médico diz, a reza ou a raposa têm um efeito curati
 Exemplos como este são numerosos demais para serem contados, e o resto pode ser deduzido. Há também este caso: um médico, quando acha que um paciente é difícil de tratar, o encaminha para meu discípulo. Naturalmente, ele sabe que o que a medicina moderna não pode curar, esta Terapia pode. Mesmo acreditando até esse ponto, ele não se dedica à pesquisa, o que também acho estranho. Talvez seja por temer que isso crie uma situação complexa com a associação médica, mas ao se pensar na missão de um médico, isso não apenas vai contra o progresso da cultura, como também trai a sagrada missão de lidar com a vida humana.
 
 No entanto, acredito que, em relação a esta Arte Médica, não se deve hesitar, mas sim mergulhar e pesquisar. Se, como
-
----
-
-# Coletânea de Artigos do Mestre Okada Jikan — Registro dos Ensinamentos Orais, vol. 12
-
-**Categoria:** sasshi | **Ano:** - | **Fonte:** -
-
-## Coletânea de Artigos do Mestre Okada Jikan — Registro dos Ensinamentos Orais, vol. 12
-
-*Publicado em 21 de setembro de 1949*
-
-**Três de junho**
-
-*Sobre a reverência e a entoação da Oração Amatsu-Norito*
-
-— (1) Fomos informados de que podemos entoar a Oração Amatsu-Norito para pessoas com enfermidades de ordem espiritual. Seria correto, durante as cerimônias, entoá-la também diante do Altar?
-
-Sim, perfeitamente. Podem entoar a oração.
-
-Quanto às palmas, também são permitidas, mas peço que o façam de maneira mais suave, quase imperceptível. Bater palmas com força é ruidoso e inadequado. Pessoas de fé profunda batem palmas suavemente, ao passo que as de fé superficial tendem a fazê-lo com vigor... É curioso, mas observa-se essa tendência. Quando muitas pessoas batem palmas juntas, o som se torna intenso. Em vizinhanças densamente povoadas, isso certamente incomodará os moradores. Portanto, é preciso habituar-se a bater palmas de forma leve e discreta. Procedendo assim, não há objeção.
-
-— (2) Nos casos de manifestações espirituais, a Oração Amatsu-Norito por si só é suficiente?
-
-Sim, a Oração Amatsu-Norito é suficiente.
-
-— (3) Durante a reverência, realizamos a seguinte sequência: uma vênia, duas prostrações, três palmas, uma prostração; a partir dessa postura, entoamos a oração; ao final, retornando da prostração, batemos três palmas, fazemos duas prostrações e uma vênia. Em seguida, repetimos: uma vênia, duas prostrações, três palmas, uma prostração; a partir dessa postura, entoamos a Oração Zengen Sanji; ao final, retornando da prostração, batemos três palmas, duas prostrações e uma vênia. Por fim, uma vênia, duas prostrações, uma vênia, e entoamos os Salmos. Concluímos com uma vênia, duas prostrações e uma vênia. Atualmente, procedemos dessa maneira. Gostaria de saber se este ritual está correto.
-
-É bastante complicado, não é mesmo? (risos) Ora, não precisa ser tão rígido. Usem o bom senso e ajam de modo a não faltar com o devido respeito; isso é o suficiente.
-
-— Antes, aproveitávamos o momento da prostração para fazer nossos pedidos, mas agora não há mais tempo para isso. Como devemos proceder?
-
-Quando há muitas pessoas, é melhor abster-se de fazer pedidos, pois tomaria um tempo excessivo. Façam seus pedidos em momentos oportunos, no dia a dia, quando sentirem necessidade.
-
-Nossa fé não é xintoísta, de modo que não é preciso seguir formalidades sacerdotais com tanto rigor. Este Caminho abrange tanto o xintoísmo quanto o budismo. Vejam, por exemplo, que os monges budistas não batem palmas. Portanto, ajam conforme as circunstâncias. Apenas se cuidem para não quebrar a forma da reverência.
-
-— Antigamente, fazíamos uma vênia e uma prostração. Duas prostrações seria o mais apropriado?
-
-Uma vênia e duas prostrações é o ideal. Uma prostração apenas não é adequado. Os chineses, por exemplo, realizam o ritual de três prostrações e nove reverências, o que demonstra uma formalidade notável.
-
-— (4) Ao final da Oração Amatsu-Norito, entoamos as palavras: "Deus Supremo, Senhor do Sol, da Lua e da Terra, protegei-nos e concedei-nos felicidade". Contudo, ao final da Oração Zengen Sanji, não entoamos: "Daikomyo Nyorai, protegei-nos e concedei-nos felicidade". Haveria algum significado nisso?
-
-Ao final da Oração Zengen Sanji, também é preciso pronunciar essas palavras. O procedimento atual está equivocado.
-
-— Então, seria melhor que o fizéssemos?
-
-Sim, sem dúvida.
-
-— (5) É permitido bater palmas diante do oratório budista familiar?
-
-Sim, é permitido. Desde que o façam suavemente, não há problema.
-
-— Li em um artigo do jornal *Hikari* que o senhor costuma receber massagens em seu dia a dia. Gostaria que nos instruísse sobre os benefícios da massagem e seu uso em conjunto com o Johrei. Estamos cientes, naturalmente, de que um ministro não deve utilizar o contato físico na área afetada, mas apenas o Johrei. Contudo, ao tratar de outras partes do corpo ou de pessoas que sentem apenas fadiga, muitos de nós ainda nos sentimos atraídos pelos métodos da antiga Terapia Purificadora e acabamos por utilizar o corpo. Peço desculpas pela impertinência da pergunta.
-
-Isso é um equívoco. No Johrei, é absolutamente proibido usar o corpo. Agindo assim, a prática deixa de ser religiosa e se converte em uma terapia popular. É um erro gravíssimo. Quanto à massagem, se a pessoa se sente bem, pode recebê-la. Eu a recebo porque me proporciona bem-estar. É muito agradável quando estou com os músculos enrijecidos. Depois, posso receber Johrei. Além do mais, não há quem me ministre Johrei. (risos)
-
-Ademais, eu me dedico à caligrafia, e isso enrijece meus músculos. Consigo escrever cem Ohikari com o ideograma "Hikari" (Luz) em dez minutos. Em uma hora, ultrapasso quinhentos facilmente. Para caligrafias comuns, levo trinta minutos para cem folhas. Como ainda possuo uma quantidade considerável de yakudoku, meus músculos se contraem. Embora tenha diminuído muito recentemente, ainda há resíduos.
-
-— Parece-nos racional pensar que a massagem movimenta e dispersa as toxinas e que, nesse estado, o Johrei as dissolveria com maior eficácia. O que o senhor pensa a respeito?
-
-Essa abordagem é excelente, de fato. Para a rigidez nos ombros, por exemplo, a combinação de ambos os métodos potencializa o efeito.
-
-— Nesse caso, seria um uso combinado?
-
-Não se trata de um uso combinado. A massagem não é aplicada com o intuito de curar. Não se deve confundir massagem com Johrei. São coisas distintas: uma coisa é massagear, outra é curar.
-
-— As massagens convencionais, ao aplicarem estímulos, não acabam por concentrar as toxinas no local?
-
-Sim, quando feitas por profissionais. Eu mesmo passei por isso. Quando recebia massagem de um profissional, meu estado piorava. Se for um amador, não há problema. Portanto, a massagem deve ser recebida pelo bem-estar que proporciona, e não com a intenção de curar uma doença. A cura fundamental de uma enfermidade só ocorre quando o espírito é purificado.
-
-Não se deve pensar em nada de forma rígida. Por outro lado, pensar sem fazer as devidas distinções também é um erro. É preciso distinguir o que deve ser distinguido e, feito isso, não pensar de maneira excessivamente rígida.
-
-— Parece-nos que justamente esse ponto é difícil... (risos)
-
-Não é difícil, é simples. O ser humano, por ter praticado o erro por tanto tempo, agora acha difícil o que é natural. Na culinária, por exemplo, muitos dizem que acertar o tempero é extremamente difícil, pois a comida pode ficar salgada ou doce demais. Eu, porém, afirmo que é fácil. Nem doce, nem salgado; por isso mesmo, é fácil. (risos) Tudo depende da perspectiva.
-
-— (1) Que tipo de pecado as gueixas, prostitutas e "pan-pan" cometeram em suas vidas passadas? Do ponto de vista espiritual, que tipo de entidade se torna uma pessoa assim? E mais, ao levar esse tipo de vida, seus pecados são atenuados ou agravados?
-
-De forma alguma seus pecados são atenuados. Se assim fosse, vocês também poderiam se dedicar a isso à vontade. (gargalhadas)
-
-— Pensei que, no sentido de alegrar as pessoas, talvez houvesse alguma forma de redenção...
-
-As pessoas podem se alegrar, mas logo em seguida se entristecerão. Se fosse uma alegria eterna, seria ótimo. Contudo, essa alegria jamais perdura. Depois vêm as doenças venéreas, como a sífilis e a gonorreia. (risos) E se a esposa descobre o relacionamento com uma gueixa, instala-se um conflito familiar. Não há nada mais insensato. Uma hora de prazer pode se transformar em um ano de sofrimento. A diversão custa dinheiro, o que gera dívidas, compromete os negócios e traz dificuldades. É algo verdadeiramente tolo.
-
-— Isso não teria relação com o fato de que bois e cavalos sentem prazer ao serem açoitados e espancados, e que isso também atenua seus pecados?
-
-Ora, gueixas e prostitutas não são bois nem cavalos; são seres humanos, certo? (risos) Não se pode igualar um ser humano a um quadrúpede. Na verdade, é o oposto. Os animais são regidos pelo espírito guardião secundário, enquanto os seres humanos estão sob a égide de Deus; portanto, a lógica se inverte. Tais atos são cometidos por influência de espíritos animais, como raposas, texugos e gatos. A pessoa sucumbe a esses espíritos. Em outras palavras, o espírito guardião primordial é subjugado pelo espírito guardião secundário. Quando o secundário prevalece, a pessoa invariavelmente comete pecados. Trata-se de uma transgressão, algo que jamais deve ser feito. O espírito guardião primordial é derrotado porque está enfraquecido. E por que está fraco? Porque a pessoa possui muitos pecados e, consequentemente, muitas máculas. Quando há muitas máculas, o espírito guardião secundário atua com mais força. Há os pecados da vida anterior, os pecados dos antepassados... E, ao cometer tais atos, a pessoa se maculará ainda mais. Isso leva à ruína imediata. É algo terrível.
-
-Nisso reside a necessidade da religião. A religião consiste em, através da fé, receber a Luz e apagar os pecados. Portanto, é necessário fazer o oposto de tais coisas. Isso é a fé. Praticar esses atos é um suicídio lento. É como se atirar voluntariamente no fundo do abismo. Pode-se dizer que é um atalho para o inferno.
-
-— (2) Do ponto de vista espiritual, o que são os indivíduos com perversões sexuais?
-
-São espíritos animais. O masoquismo, por exemplo, em que a pessoa sente prazer em ser espancada ou cortada com lâminas, é análogo ao gosto que bois e cavalos têm em ser maltratados por humanos. Trata-se da possessão por um espírito animal.
-
-— (3) Qual é a atuação espiritual por trás da homossexualidade? Esse ato constitui uma profanação a Deus?
-
-Na homossexualidade, uma das partes possui um espírito masculino, e a outra, um espírito feminino. Por isso, em um casal homossexual, os dois indivíduos invariavelmente apresentam personalidades masculina e feminina. Isso também é uma espécie de carma: em uma vida passada, um homem e uma mulher se amaram, mas não puderam ficar juntos. O homem daquela vida renasce como mulher na vida atual. Como a inclinação da vida anterior permanece impregnada, eles se apaixonam. É evidente que isso está equivocado, mas, por ser carma, nada se pode fazer. Às vezes, cometem suicídio a dois, o que, naturalmente, não é correto.
-
-Tudo no universo se rege pelo princípio do yin e yang. A homossexualidade, sendo yin-yin, está fadada ao erro. Se todo o Japão se tornasse homossexual, a nação japonesa se extinguiria. (risos) É porque sexos opostos se amam que a espécie humana se multiplica. Bernard Shaw disse que "o amor existe para a preservação da espécie", uma observação bastante arguta. Há literatos que enaltecem o amor, dizendo que "o amor é sagrado", mas se ele não gera descendentes, seu valor não é tão grande assim. (risos)
-
-— (4) Diz-se que "heróis são amantes das paixões carnais", e de fato existem pessoas com um vigor sexual excepcional. Qual a explicação espiritual para isso?
-
-Isso se deve simplesmente a uma energia vital mais intensa. Quem tem muita energia vital, também possui um forte desejo sexual. É por essa razão que os heróis se enquadram nesse dito. Há uma grande complexidade nesse ponto... Contudo, existem inúmeros exemplos de heróis que fracassaram por se entregarem a paixões carnais. Seria muito longo e complexo explicar todos os detalhes, mas, independentemente de se gostar ou não de tais prazeres, o fato é que, quando um ser humano se envolve em um amor impuro, ele comete um pecado. E como terá de expiar esse pecado, inevitavelmente sobrevirá algum tipo de sofrimento.
-
-— Sobre o milagre de São Francisco Xavier... Diz-se que, na época de sua morte, a cor e o viço de seu corpo eram como os de uma pessoa viva, e que até hoje seu braço é diferente de uma múmia comum. Qual a razão para isso?
-
-Sim, ouve-se falar sobre isso. Quando o espírito está purificado, tais fenômenos ocorrem. Um espírito denso leva muitos anos para se desprender do corpo e, durante esse período, o corpo permanece em um estado semelhante ao da vida. Não é algo particularmente raro. Existem múmias com cinco mil anos. O cabelo, por exemplo, pode permanecer intacto por um tempo extraordinariamente longo.
-
-Contudo, atos como o que fizeram com o braço de Xavier são, a meu ver, deploráveis. Trata-se de uma divergência de opiniões, e certamente haverá quem aprove. No entanto, acredito que, se é possível instilar o sentimento religioso nas pessoas sem recorrer a atos tão cruéis, esse seria o melhor caminho.
-
-— Um ministro de outra filial disse a um de meus formandos: "Você é da linhagem do dragão, por isso, se colocar em seu Ohikari uma das duas caligrafias do 'Dragão Dourado' que recebi especialmente, sua doença se curará imediatamente". Isso é verdade?
-
-Isso está errado. Quem disse uma coisa dessas?
-
-— Aparentemente, foi em uma filial da minha região.
-
-É inadmissível, um completo equívoco. Por favor, diga a essa pessoa que tal prática é absolutamente proibida. Ser ou não da linhagem do dragão não tem a menor relação com o Ohikari. É lamentável que as pessoas façam julgamentos por conta própria.
-
-— Em todas as épocas e lugares, tanto no Mundo Espiritual quanto no Mundo Material, o número de almas permanece constante ou sofre alterações?
-
-Claro que sofre alterações. Mas não se trata de aumento e diminuição; o número apenas aumenta. As almas se multiplicam na mesma proporção em que a humanidade cresce.
-
-— Se considerarmos que o aumento da população se deve à reencarnação, o número de almas não permaneceria inalterado?
-
-Há reencarnações, mas também são criadas novas almas.
-
-— Quando uma alma reencarna, o número de almas no Mundo Espiritual não diminui?
-
-Não, não diminui. As almas se multiplicam. Como já escrevi anteriormente em meus livros, o corpo espiritual do ser humano reside no Mundo Espiritual, que é a sua morada de origem...
-
-— A multiplicação das almas é diferente da divisão do espírito?
-
-A divisão do espírito refere-se a Deus. Embora se possa dizer que os seres humanos também dividem seu espírito ao gerarem filhos, no sentido mais profundo, é Deus quem realiza a verdadeira divisão do espírito. Os seres humanos são, por assim dizer, ramos. (Vide *Registro dos Ensinamentos Orais*, vol. 11)
-
-— Um menino de três anos sente um medo terrível ao ver a cor vermelha. Por quê?
-
-Provavelmente, trata-se de um espírito que, ao morrer, viu algo vermelho ou foi morto por algo vermelho. Por exemplo, pode ter sido estrangulado com uma faixa vermelha. Dificilmente teria sido com a saia íntima de uma mulher, (risos)... mas, embora seja raro hoje em dia, antigamente praticava-se o infanticídio, sufocando os recém-nascidos. É possível que, em um desses casos, o bebê tenha sido estrangulado com uma saia vermelha. Se a morte ocorreu sob um medo intenso da cor vermelha, essa impressão permanece impregnada no espírito mesmo após o renascimento. Provavelmente é este o caso, pois não vejo outra explicação plausível.
-
-— É comum que o primogênito homem, chamado Ichiro, acabe vivendo separado dos pais depois de adulto. Isso se deve ao ideograma "ichi" (um)? Se for o caso, o nome deveria ser mudado?
-
-Sim, do ponto de vista da energia das palavras, é isso que acontece. "Ichi" significa "origem", "o primeiro". Por isso, espiritualmente, a pessoa tende a se afastar dos pais mais cedo. Pelo Kotodama, o som "su" tem o mesmo efeito, como em "Sumiko".
-
-— E nomes como "Suzu"?
-
-"Suzu" também. O som "su" pode ser escrito com o ideograma que significa "sozinho". Portanto, a pessoa não se contenta enquanto não for a primeira, a principal. Tende a querer ser a mais autoritária da casa. Observem e verão que geralmente é assim. Como "Ichiro" também significa ser o primeiro, ele não consegue permanecer por muito tempo ao lado dos pais. Sente a necessidade de se tornar o chefe de sua própria casa.
-
-— O senhor disse: "Em meu ventre há uma esfera de Luz". Essa esfera é algo físico ou puramente espiritual?
-
-É uma questão de difícil explicação. Essa esfera é a joia que realiza todos os desejos. Ela é, na verdade, uma Luz que me é enviada por Deus através de uma linha espiritual. Não se pode dizer que seja o corpo divino de Deus, mas a própria Luz. Originalmente, essa esfera deveria ser utilizada pelos seres humanos, pois é através dela que o poder divino se manifesta. O poder de Kannon (観音) provém dela. Contudo, até hoje, ninguém a utilizou, pois a hora ainda não havia chegado. Durante a Era da Noite, havia excesso de hidrogênio, e a esfera estava envolta por ele. Com a chegada da Era do Dia, o hidrogênio diminuiu, e, consequentemente, a Luz da esfera se intensificou. É um ponto bastante complexo.
-
-— Então, do ponto de vista do Mundo Material, o senhor seria o principal e a esfera, o secundário?
-
-Não se pode afirmar isso. Sou principal e secundário, secundário e principal. Antigamente, houve uma batalha pela posse da esfera entre Deus e os espíritos malignos. Em certa ocasião, a esfera foi tomada por eles. Vemos frequentemente imagens de dragões segurando uma esfera, não é? É exatamente isso. O deus-dragão tomou a esfera. Isso ocorreu durante a Era da Noite.
-
-— Se o poder não se manifesta sem passar por um corpo físico, podemos entender que o Deus Supremo se manifesta através do senhor para exercer Seu poder?
-
-Se eu afirmar tal coisa agora, serei importunado por uma multidão e não conseguirei mais trabalhar. Com Cristo foi o mesmo. Ele recebeu poder de Jeová para realizar sua obra. E dizia ser filho de Deus, nascido por ordem de Jeová.
-
-Em linhas gerais, é assim que funciona. As pessoas comuns se esforçam ao máximo para parecerem grandiosas. Eu, ao contrário, nem imaginam o esforço que faço para não parecer grandioso. Se uma multidão se aglomerasse ao meu redor, eu não conseguiria mais trabalhar. Preciso registrar por escrito todos os mistérios do universo... Por isso, estou escrevendo incessantemente. Creio que levarei todo o próximo ano para concluir. Então, será algo grandioso. Essa é a hora certa.
-
-Existe um antigo ditado: "Wakou Doujin" (和光同塵), que significa "suavizar a própria luz e misturar-se à poeira do mundo". É exatamente isso.
-
-— A purificação pode ocorrer através do sofrimento espiritual, mesmo sem o Johrei?
-
-A purificação não "pode ocorrer", ela já está ocorrendo. É através do sofrimento que somos purificados. Todo sofrimento, seja espiritual ou físico, é purificação. Por meio dele, as máculas são removidas. Contudo, com o Johrei, a purificação ocorre e as máculas espirituais são eliminadas sem a necessidade de sofrer. Portanto, trata-se de uma imensa graça divina.
-
-Antigamente, havia a prática dos brâmanes, que se submetiam a severas penitências e austeridades. A religião bramânica era, em essência, baseada nessas práticas. Buda, por exemplo, veio dessa tradição. Diz-se que Bodhidharma passou nove anos meditando de frente para uma parede. Ao fazer isso, suas máculas foram removidas. Até então, era através do sofrimento que os seres humanos diminuíam suas máculas. Por isso, recebemos uma purificação valiosa através de sofrimentos como calamidades e doenças. O quanto se sofre em vida, tanto mais se terá paz após a morte. No caso das doenças, porém, as pessoas recorrem a tratamentos médicos para aliviar o sofrimento. Mas, ao fazer isso, estão apenas adiando a purificação.
-
-— Um homem de 42 anos apresenta um tremor sutil nos globos oculares, que parece ser de natureza espiritual. Ele não sente desconforto, mas gostaria de saber se isso pode ser curado com Johrei.
-
-Sim, pode. Há músculos que sustentam os globos oculares, e um acúmulo de toxinas está pressionando esses músculos. A medicina chama isso de nervo oculomotor. Eu mesmo já fui diagnosticado com paralisia do nervo oculomotor. O estrabismo também se enquadra nisso.
-
-— Dizem que aplicar um cataplasma de batata e farinha de trigo em furúnculos provoca uma grande drenagem de pus e não deixa cicatriz. Qual a razão para isso?
-
-Isso dispensa explicações. A razão é simples: o Johrei cura muito melhor. Se a mistura de batata e farinha de trigo curasse melhor que o Johrei, significaria que a farinha e os vegetais são mais poderosos que Deus. (risos)
-
-— Ministrei Johrei em um homem de 47 anos com câncer de estômago. No sexto dia, ele teve uma crise de espasmos, o nódulo no estômago diminuiu e o abdômen inferior ficou inchado. Desde então, sua evolução tem sido boa, mas a purificação não avança. O que devo fazer?
-
-Ao ministrar Johrei em casos de câncer de estômago, o abdômen inferior invariavelmente incha. Isso ocorre porque as toxinas dissolvidas são muito densas e, não conseguindo ser expelidas, acumulam-se no abdômen. Portanto, ministre Johrei intensamente nessa região. Os rins também devem ser bem tratados.
-
-— Quando eu ia consertar um muro, uma pessoa me disse que não deveria, pois neste ano um antepassado que retorna a cada dez anos está na direção sudeste. O que devo pensar disso?
-
-Isso é superstição. Conserte o muro o mais rápido possível. (risos)
-
-— Quando há um sangramento anal volumoso, ocorre anemia. Isso significa que, junto com o sangue impuro, sai também um pouco de sangue puro?
-
-Sim, um pouco de sangue puro também sai, umedecido. Mas a quantidade é ínfima; a maior parte é sangue impuro. Contudo, mesmo sendo impuro, uma perda súbita e volumosa causa um certo abatimento. Certa vez, fiz uma analogia: mesmo uma pessoa má e problemática, quando se vai, deixa uma sensação momentânea de vazio. É algo parecido. (risos) O sangue impuro que sai pelo ânus provém, em grande parte, da cabeça. Portanto, após o sangramento, a mente fica mais clara. O sangue desta região (parte central posterior da cabeça, um pouco acima) é expelido em grande quantidade.
-
-— Para realizar um ofício em memória dos antepassados ou para consagrar uma nova placa memorial, podemos fazê-lo em um dia que não seja o aniversário de falecimento? E no caso de se adquirir um novo oratório para a consagração?
-
-O ideal é que seja no aniversário de falecimento. A data de falecimento de um antepassado conhecido é a mais apropriada. Outra boa data é durante o equinócio. Uma dessas duas opções.
-
-— Em sua obra *Shobogenzo*, o mestre zen Dogen nega a imortalidade da alma. Em que estado se encontra uma pessoa assim no Mundo Espiritual?
-
-Bem, por um tempo, o mestre Dogen deve ter permanecido confuso e sem salvação no Mundo Espiritual. Contudo, pessoas assim acabam por alcançar a iluminação no Mundo Espiritual. Ao se corrigirem, sua condição melhora. Portanto, os seguidores da escola Soto que morreram naquela época provavelmente ficaram sem um destino definido. Hoje, porém, já devem ter formado uma comunidade considerável no Mundo Espiritual, e é para lá que se dirigem.
-
-— Assim como no Mundo Material os familiares se entristecem com a partida de um ente querido, no Mundo Espiritual, quando uma alma reencarna no mundo físico, os espíritos ao seu redor também sentem tristeza?
-
-Não, no Mundo Espiritual não se sente tristeza por isso. Renascer como ser humano é algo muito positivo. Além do mais, no Mundo Espiritual, a morada de cada espírito é diferente. As comunidades de fé são distintas, os pensamentos também, de modo que espiritualmente não há uniformidade. A distância é tão grande que, normalmente, não se sabe quem está renascendo. Se soubessem, seria motivo de celebração. Ademais, o renascimento ocorre por ordem de Deus, então não há o que fazer. E a celebração não é efusiva; é mais um sentimento de "que bom".
-
-— Sou proprietário de uma fábrica de vidro. Em março deste ano, consagrei o Altar Sagrado e, no dia 30 de abril, o poço de gás natural parou subitamente de funcionar. Rogo pela Vossa proteção para que o gás volte a fluir como antes. Este poço é novo, e é um mistério que tenha parado tão cedo. Seria algum tipo de maldição?
-
-Provavelmente, é obra dos antepassados. Teremos de esperar mais um pouco para ter certeza. Recentemente, ocorreu um caso semelhante. Havia uma família que, por mais que criasse gado, todos os animais morriam. Nas outras casas, nada acontecia, mas naquela, os animais não sobreviviam. Eu disse à pessoa que aquilo era um sinal para que abandonasse sua profissão atual e se dedicasse exclusivamente à obra da fé. Ela compreendeu, aceitou com alegria e está se dedicando. Talvez este seja um caso parecido.
-
-— Além de o poço ter secado, certa vez quase morri em um acidente no poço de gás.
-
-Ah, então pode ser mesmo um sinal para que você pare. Eu também tive uma experiência assim. Quando jovem, eu queria ser pintor, mas tive problemas de visão e desisti. Ainda apegado à arte, comecei a fazer laqueado com pó de ouro. Então, finalmente, Deus me tirou o movimento dos tendões da mão. Meus outros dedos dobram, mas este (o indicador da mão direita) não. Assim, tornei-me incapaz de segurar o pincel e fui forçado a abandonar a arte. O laqueado exige o uso intenso justamente deste dedo, então não havia mais o que fazer. Foi um sinal para que eu desistisse e cumprisse minha missão de servir a Deus.
-
-— Foi-nos ensinado que os japoneses são da linhagem do fogo, portanto, yang, e por isso apreciam o yin. Os seres humanos têm uma tendência a gostar do seu oposto. Contudo, a natureza humana em si não busca a claridade? O fato de as pessoas se reunirem em cidades e mercados movimentados não seria uma manifestação desse gosto pela claridade? Gostaria que nos instruísse sobre a diferença entre o gosto pelo "sabi" e pela quietude (presentes na poesia, waka, haiku, etc.) e o gosto pela claridade.
-
-Essa parte sobre o "sabi" está um pouco confusa. Dizer que os seres humanos gostam do oposto significa que o yang aprecia o yin, e o yin, o yang. No entanto, dentro desse yin e yang, existe o bem e o mal. O gosto dos japoneses pelo "sabi" é um apreço pelo yin em seu bom sentido, portanto, é algo positivo. O yin negativo seria, por exemplo, praticar más ações em lugares escuros.
-
-Claridade e quietude não são conceitos tão opostos. A atração por lugares movimentados é um anseio de toda a humanidade, não se restringe aos japoneses. Por serem yang, os japoneses apreciam a quietude. A música japonesa, por exemplo, é serena e acalma o espírito do ouvinte. A ocidental, por outro lado, possui um ritmo que tende a excitar os ânimos. A música norte-americana é um exemplo notório disso, pois os americanos são os mais yin. Refletindo um pouco sobre isso, o discernimento vem rapidamente.
-
-Há ainda outro fator. Antigamente, o Japão vivia sob um rigoroso sistema feudal, e o povo era extremamente oprimido. Como não havia para onde canalizar a tristeza e o sofrimento, as pessoas encontravam uma válvula de escape no apreço por tragédias no teatro e em outras artes. Isso lhes trazia consolo. Naquela época, as tragédias eram muito populares, especialmente o teatro de marionetes Gidayu. O ser humano se sente muito consolado ao ver situações semelhantes às suas. Quando uma tragédia retrata uma tristeza parecida com a sua, a pessoa se sente profundamente atraída.
-
-**Treze de junho**
-
-*Sobre as palavras e o Kotodama (a energia espiritual das palavras)*
-
-— (1) Quando acreditamos que nossas palavras podem beneficiar o interlocutor, é permitido proferir mentiras, expressar raiva ou concordar com lamentações?
-
-A mentira, às vezes, é inevitável. Se alguém pergunta: "Como está a minha doença?", e você responde: "A sua doença não tem a menor chance de cura", a pessoa ficará desolada. (risos) Dizer "Você vai se curar, fique tranquilo" é uma mentira, mas uma boa mentira.
-
-A raiva, se for em prol da nação e do bem comum, é aceitável. A raiva por motivos pessoais, no entanto, não é. E, naturalmente, expressá-la em ações é inadmissível. Em primeiro lugar, não traz benefício algum. Muitas pessoas batem nos filhos, mas essa criança acabará por bater em outras. Contudo, há momentos em que é impossível não se irritar. Reprimir essa emoção pode levar a doenças mentais. (risos) Algumas mulheres, ao serem repreendidas ou incompreendidas pelo pai, por exemplo, podem ficar atônitas. Portanto, é preciso agir com flexibilidade, conforme a situação.
-
-Mentiras e raiva, em princípio, são aceitáveis se tiverem uma função positiva. Contudo, ao divulgar este Caminho para atrair pessoas à fé, há quem acredite que os fins justificam os meios. Isso é inaceitável. Os assuntos de Deus devem ser tratados sempre com retidão. A pessoa deve aderir à fé por ser algo verdadeiro e sublime; essa é a forma correta.
-
-O ideal, na verdade, é chegar ao ponto de não conseguir mais mentir.
-
-Quanto a concordar com lamentações, sim, deve-se fazê-lo, pois serve de consolo para a pessoa. Mas tudo com moderação. Se ficarmos apenas concordando, acabaremos por nos sobrecarregar. Nessas horas, o melhor é nos anteciparmos e apontarmos o ponto crucial da questão. Assim, o interlocutor também cessa as lamúrias.
-
-Em suma, se vocês se entregarem a Deus com sinceridade, as palavras certas e adequadas surgirão no momento oportuno. Portanto, não há necessidade de se preocupar.
-
-— (2) Mesmo sem saber se algo é bom ou mau aos olhos de Deus, qual é a energia espiritual das palavras quando expressamos nossas próprias convicções?
-
-Dizer "aos olhos de Deus" também é uma questão de grau. Mesmo que não se saiba se é bom ou mau, na maioria das vezes, o bom senso e a sinceridade nos darão a resposta. O que pode gerar confusão é a diferença entre o bem Mahayana (de grande veículo) e o bem Hinayana (de pequeno veículo). Focar apenas no Mahayana também é problemático. Os preceitos, por exemplo, são Hinayana. Não praticar o mal apenas por causa dos preceitos não é a verdadeira virtude. É como não praticar o mal por medo da polícia; equivale a um animal que não ataca porque está enjaulado. A verdadeira virtude é não atacar mesmo sem a jaula. Mas como a humanidade ainda não chegou a esse nível, não podemos eliminar as jaulas.
-
-— (3) E quanto a elogios, palavras de ostentação ou de autodepreciação?
-
-Elogios são bons, pois fazem o interlocutor se sentir bem. A bajulação, no entanto, é condenável. O que é apenas superficial não é verdadeiro. Muitos ministros dizem que não conseguem novos fiéis porque não sabem falar bem. Se fosse uma questão de oratória, bastaria contratar um contador de histórias. (risos) Não é a fala, mas a nossa sinceridade que toca o coração do outro. Por isso, há pessoas que, mesmo sem eloquência, conseguem muitos fiéis. Aliás, creio que são a maioria. O que sempre me impressiona é como os chantagistas são bons de lábia. E, como a lábia de fato funciona para eles, continuam a usá-la. Em contrapartida, quem tem dificuldade em se expressar provavelmente busca demonstrar seu valor por meio de ações e resultados.
-
-A ostentação é reprovável. O ser humano precisa se livrar da afetação. Como diz o ditado: "O missô que cheira a missô não é missô de qualidade".
-
-A autodepreciação é positiva, é a "prática da humildade". Praticá-la até certo ponto é bom. A arrogância, ao contrário, é desprezível. A humildade excessiva também pode parecer estranha, mas é raro de se ver. Até eu me sinto bem quando alguém se dirige a mim com humildade.
-
-— (4) Acredito que a linguagem deva ser concisa. Contudo, qual é a energia espiritual de conversas triviais e piadas usadas para suavizar o ambiente, dependendo da ocasião?
-
-Boas piadas são bem-vindas; se não fizerem as pessoas rirem, não são realmente boas. Uma piada bem-feita de fato suaviza o ambiente. Para assuntos administrativos, a concisão é melhor, mas no dia a dia, as piadas são ótimas.
-
-— Sobre a forma de reverência, tenho uma imagem de Kannon, esculpida em madeira, que recebeu a cerimônia de abertura dos olhos, entronizada logo à frente do Altar. Isso é correto?
-
-Se a imagem de Kannon estiver posicionada à frente da imagem de Komyo Nyorai, não há problema.
-
-— Durante a reverência, ao venerar o Altar, entendo que estou expressando respeito também a Kannon. Por isso, não faço uma reverência específica à imagem. Está correto?
-
-Sim, está correto. A reverência se estende a ambos.
-
-— Contudo, nesse caso, sinto que é um pouco estranho reverenciar a imagem de Daikoku e não a de Kannon. O que o senhor pensa?
-
-Não há problema. A razão é que Komyo Nyorai e Kannon são um só. Pensar neles separadamente é que é um equívoco.
-
-— Durante a reverência, algumas pessoas viram as palmas das mãos para cima para não sujar as mãos recém-purificadas. Qual é a forma correta, para cima ou para baixo?
-
-Tanto faz. Ao oferecer alimentos, como as mãos podem tocar em lugares sujos, virá-las para cima transmite uma sensação de maior limpeza. Mas virá-las para baixo não constitui desrespeito. Os sacerdotes xintoístas, ao que parece, viram as palmas para cima ao oferecer algo a Deus.
-
-— Um membro, por ocasião do lançamento de um novo barco, gostaria de consagrar o Altar em sua residência e, ao mesmo tempo, pendurar uma caligrafia sagrada na cabine do capitão. Isso é permitido?
-
-No barco, não. As pessoas inevitavelmente pisarão no convés.
-
-— E um quadro?
-
-Um quadro também não. O capitão pode receber um Ohikari. E a família pode consagrar a imagem de Komyo Nyorai em casa. No dia do lançamento, basta orar: "Hoje realizaremos a cerimônia de lançamento. Rogamos pela Vossa proteção".
-
-— Ouvi de outra pessoa que o senhor disse: "O estilo de Edo não é bom, seja como o de Ise". Qual o significado disso?
-
-Eu nunca disse tal coisa. (risos) Pelo contrário, eu diria: "O estilo de Ise não é bom". E por quê? Porque são mesquinhos e avarentos mesmo quando deveriam gastar dinheiro. (risos) Já o estilo de Edo é superficial. Falta-lhes ardor, são muito desapegados. Portanto, para certas coisas, o estilo de Edo não serve. Contudo, não parece haver muitos malfeitores entre eles. Por outro lado, há muitos que são covardes, incapazes de fazer o mal. No fim, o equilíbrio é o melhor.
-
-— Recentemente, tenho recebido pedidos para ministrar Johrei a pessoas internadas em hospitais. Sinto que no hospital o efeito é menor. O que o senhor pensa?
-
-De fato, o efeito é menor. É uma situação complicada. O melhor é evitar, se possível. Mas, se a pessoa insistir muito, vá e ministre. Como não tocamos no paciente, não há problema, mesmo que um médico veja. Contudo, nossa prática é o oposto da medicina, então, mesmo que comecemos a curar, o tratamento médico pode destruir nosso trabalho. É como tentar encher um cesto de bambu com água. Mas, ocasionalmente, há pessoas em quem o efeito é notável. Algumas apresentam uma melhora tão grande após uma única sessão que recebem alta imediatamente. Portanto, ajam conforme a situação.
-
-— Por que a possessão por espíritos de raposas e texugos é comum, enquanto a por espíritos de cães e macacos é rara?
-
-Raposas e texugos têm facilidade em possuir seres humanos. A raposa é a que possui com mais facilidade; sua personalidade é a mais semelhante à humana. Por isso, os espíritos dos antepassados costumam usar raposas para transmitir mensagens. A raposa fala em nome do antepassado. Nesses casos, a mensagem contém tanto verdades quanto coisas estranhas, e às vezes é difícil discernir se é o antepassado ou a raposa quem está falando. Uma boa regra é considerar que as palavras sérias são do antepassado, e as estranhas, da raposa. Possessões por cães e gatos são raras, assim como por macacos e cavalos. Ratos e porcos também raramente possuem. O fato de os porcos, mesmo sendo abatidos em tão grande número, não possuírem ninguém, talvez indique que seu espírito é bastante insensível. (risos) Afinal, a missão do porco é fornecer sua carne para a alimentação humana. Na Tenrikyo, diz-se que não se deve comer carne de boi, mas a de porco é permitida. De fato, o boi é útil ao ser humano, puxando carroças, mas nunca se viu um porco fazendo isso. (risos)
-
-— As doenças de animais e plantas também são processos de purificação de máculas de seus respectivos espíritos?
-
-Quando você diz "animais", refere-se aos não-humanos, certo? Os acadêmicos complicam as coisas ao incluírem os humanos na categoria de animais. (risos) Há uma diferença entre animais e plantas. As plantas não têm doenças no sentido de purificação, pois não têm pecados. Da mesma forma, os animais inferiores, como cães e gatos, também não têm pecados. Apenas os seres humanos os têm. Isso porque ao ser humano foi concedida a liberdade. É graças a essa liberdade que o plano divino na Terra pode ser executado. O ser humano pode utilizar os animais, e é aí que reside a possibilidade de cometer pecados.
-
-Portanto, as plantas não deveriam ter purificação. O surgimento de pragas e outros problemas se deve aos pecados humanos que se manifestam nas plantas. A praga que atualmente ataca os pinheiros em todo o país, por exemplo, foi criada pelo homem, que agora lamenta suas consequências. Quando o homem macula o Mundo Espiritual, surgem insetos nocivos. Tudo gira em torno do ser humano. Portanto, tanto o bem quanto o mal na Terra são, em última análise, obra do homem.
-
-— E quando as árvores de uma propriedade secam?
-
-A personalidade do dono da casa pode fazer com que as árvores enfraqueçam ou sequem. Quando a família prospera, quando ali vive alguém que acumula virtudes, até o vigor das árvores é diferente. Observando as árvores e as plantas de um jardim, pode-se conhecer a personalidade de quem ali vive.
-
-— A sensibilidade varia conforme a espécie da árvore?
-
-Sim, varia. O pinheiro, por exemplo, é uma das árvores de maior sensibilidade. As plantas não evoluem espiritualmente; tudo existe em função do ser humano.
-
-— Uma menina de dois anos, que começou a andar por volta de abril deste ano, manca da perna esquerda. Uma radiografia revelou que o osso do quadril está deslocado. Isso pode ser curado com Johrei? Seus tios maternos tiveram o mesmo problema desde a infância e ainda mancam um pouco. Haveria uma ligação espiritual?
-
-Isso provavelmente não é de natureza espiritual. E o diagnóstico de deslocamento do quadril também está errado. O problema é que há uma toxina em algum ponto da perna esquerda. Por isso, a criança sente dor ao pisar e evita usar a perna, o que impede a cura.
-
-— Mas a radiografia mostra o osso deslocado.
-
-Claro que mostra. Mas é porque ela manca. Portanto, não é o deslocamento que causa o mancar; é o mancar que causa o deslocamento. (risos) Quando se leva um caso assim a um médico, o diagnóstico costuma ser paralisia infantil.
-
-Recentemente, atendi uma criança que nasceu com a coxa deslocada e grudada ao joelho, sem conseguir separá-los. Parecia evidente que o problema estava no joelho e na coxa. Na verdade, a causa estava na sola do pé. Como sentia dor ao pisar, a criança não conseguia apoiar o pé, e por isso o joelho ficou colado à coxa. Ministrei Johrei na sola do pé, e a coxa começou a se soltar. É algo realmente curioso. O mancar também pode ter sua causa na sola do pé. Dedos dos pés curvados para baixo também indicam um acúmulo de toxinas na base dos dedos, na sola do pé. A dor ao pisar é o que causa o mancar. É importante ter esse conhecimento. Portanto, o caso dessa menina também pode estar na sola do pé. Quando ela conseguir apoiar o pé, o mancar desaparecerá.
-
-— A perna dela está muito magra e fina...
-
-É porque ela não a movimenta. Como não há movimento, não há desenvolvimento, e por isso a perna fica fina. Quando ela começar a andar, isso se corrigirá.
-
-— O jornal *Chubu Nippon Shimbun* publicou recentemente o seguinte artigo. O que são as "ondas cerebrais" mencionadas no texto?
-
-*Segurança no trânsito com ondas cerebrais*
-
-*Embora a causa exata ainda seja desconhecida, o cérebro humano emite externamente ondas cerebrais (um tipo de onda elétrica). Essas ondas oscilam duas vezes por segundo. A análise dessas ondas revela que, quando a pessoa está pensando em algo, a amplitude da onda diminui. Quando está de olhos fechados e relaxada, a onda é maior. E, ao sentir sonolência, a onda se torna ainda maior. Conectando-se essa corrente cerebral a uma campainha especial, ela não soa quando a pessoa está desperta, mas toca quando a sonolência surge, pois a onda cerebral se torna maior. Embora seja apenas este o fenômeno, diz-se que nos Estados Unidos já está sendo implementado um método para prevenir acidentes de trânsito causados pela sonolência, instalando-se tais campainhas na cabeça de motoristas de trens, ônibus e pilotos de avião.*
-
-Isso não é nada de especial. O espírito humano está constantemente se expandindo e se concentrando. Ao trabalhar, ele se concentra. Ao dormir, como não é necessário, ele se expande. Quando o espírito de uma pessoa se projeta e possui outra, a pessoa sente sono e geralmente dorme. A prática do "chinkon" (apaziguamento da alma) faz com que os espíritos que estão dispersos se reúnam. É bom praticar o chinkon quando se está ansioso, e também acalma a mente quando não se consegue dormir. É a isso que eles chamam de ondas cerebrais. E não se limita à cabeça, embora seja ali que a atividade é mais intensa.
-
-— Um homem de 21 anos, albino de nascença, tem o corpo todo branco, especialmente a cabeça. Seus olhos, porém, são vermelhos, e a luz do sol o ofusca tanto que ele tem dificuldade para andar. Seu avô era caçador e costumava caçar muitos coelhos. Isso teria uma causa espiritual?
-
-É o espírito de um coelho. É uma maldição de coelho. O corpo branco e os olhos vermelhos são as características. O coelho gosta do escuro e, em lugares claros, corre rapidamente. Normalmente, albinos são reencarnações de cobras brancas, mas este é um caso raro. (Vide *Registro dos Ensinamentos Orais*, vol. 10)
-
-— Os membros em geral também podem consagrar a imagem de Daikomyo Nyorai?
-
-Sim, a imagem de Daikomyo Nyorai pode ser consagrada por qualquer pessoa. Contudo, o Altar deve ser escolhido de acordo com a casa. Em uma casa grande e imponente, consagra-se Daikomyo Nyorai. Em uma casa pequena no interior, consagra-se Komyo Nyorai.
-
-— Mesmo quem não é ministro?
-
-Sim, pode. Já o Ohikari "Daikomyo" é restrito a quem tem qualificação.
-
-— O Ohikari "Daikomyo" pode ser outorgado a ministros assistentes?
-
-Sim, a ministros assistentes também. Aos membros em geral, não.
-
-— As grandes religiões mundiais, como o judaísmo, o budismo e o cristianismo, já há dois ou três mil anos descreveram com impressionante precisão a situação e a mentalidade do mundo atual. Dentre suas profecias, a mais importante e ainda não realizada é o "Juízo Final". Diz-se que, nessa ocasião, dois terços da humanidade serão peneirados, e apenas um terço poderá entrar na Câmara do Rei da Grande Pirâmide. Se for assim, esse julgamento se manifestará de diversas formas, como doenças, catástrofes naturais e guerras. Qual delas será a mais severa? E quando ocorrerá?
-
-Não existe profecia de que dois terços morrerão e um terço será salvo. Isso é um engano. O budismo fala da "vinda da era da extinção do Darma", mas não fica claro se é o budismo que se extinguirá ou o próprio Buda. É algo de grande magnitude. O cristianismo chama isso de "fim do mundo" ou "Juízo Final", mas não dá detalhes concretos. Quanto à data, o budismo fala em 5 bilhões e 670 milhões de anos. Cristo disse que ocorreria aproximadamente dois mil anos depois, e que ele retornaria nessa ocasião. Já escrevi sobre isso em diversos lugares. A data, porém, não posso revelar. Mesmo que eu soubesse, não poderia. O valor reside justamente em não se saber. É como o ser humano que, por não saber o dia de sua morte, trabalha arduamente. Não saber é melhor. E se eu dissesse que o Juízo Final será em tal dia e tal hora, poderiam surgir pessoas dizendo: "Bem, ainda tenho tempo, é cedo para me corrigir". (risos)
-
-As profecias não devem ser reveladas, pois confundem as pessoas. O "fim do mundo" é algo que o cristianismo já anuncia, então pode ser discutido abertamente. Contudo, é certo que o tempo se aproxima. E por que digo isso? Porque o poder do Johrei tem se intensificado. Como se pode ver nos relatos de graças, os milagres estão se tornando mais frequentes, e as curas, mais rápidas. Isso se deve ao aumento do elemento fogo no Mundo Espiritual. Com mais fogo, a purificação se intensifica, e o resultado final é que tudo será purificado. Não apenas as doenças. Com um pouco de imaginação, é possível compreender...
-
-— Em minha região, no dia de Ano Novo deste ano, tivemos chuva e um trovão considerável, algo que não acontecia há décadas nessa data. Se o destino do ano se define no primeiro dia, o que isso prenuncia?
-
-Sim, o que acontece no primeiro dia do ano tem relação com o destino do ano inteiro. Algo deve acontecer este ano. (risos)
-
-— Gostaria de perguntar sobre o significado de Hakone.
-
-Já falei bastante sobre Hakone. A missão do Japão é se tornar o parque do mundo. E o parque do Japão é Hakone, que fica no centro entre o leste e o oeste. O parque de Hakone é Gora, que antigamente se chamava Parque do Japão, e cujo centro é o atual Kanzantei. Portanto, é a partir daqui que o Paraíso Terrestre se expandirá.
-
-Kannon une o vertical e o horizontal. E eu nasci neste mundo para unir essa trama. Até agora, o vertical e o horizontal estavam separados. Por isso, as religiões de até então, como o budismo e o cristianismo, não possuíam o verdadeiro poder. Mas finalmente chegou a hora de esse poder se manifestar. É por isso que o Ohikari com o ideograma "Hikari" (Luz), que eu caligrafo, tem o poder de salvar as pessoas. ... (trecho omitido) ...
-
-Observando o ideograma de "poder" (力), vemos que ele une o vertical e o horizontal em um movimento de avanço pela esquerda e recuo pela direita. Significa também a união das civilizações oriental e ocidental. O fato de Kannon ser homem, mulher e também andrógino tem esse significado. Assim, a leste de Hakone fica a região de Kanto, e a oeste, Kansai. O ponto central que une Kanto e Kansai é Hakone, e seu centro é o Monte Kamiyama. Foi por isso que chamei a casa lá em cima de Shinsenkyo. Em frente ao Monte Kamiyama fica o Monte Sounzan, por isso chamei o alojamento de Soun-ryo. O Hozan-so também fica na divisa entre Tóquio e Kanagawa, separado pelo rio Tama.
-
-Do ponto de vista do Kotodama, "Ha" em Hakone significa abrir, fogo; "Ko" significa condensar, solidificar; e "Ne" significa raiz, fundamento. Portanto, o significado é "a raiz da massa de fogo". Hakone é fogo, e Atami é água. E o fogo e a água se unem no Passo de Jikkoku. Dizem que se chama Passo de Jikkoku porque de lá se avistam dez províncias, mas o verdadeiro significado é a união do vertical e do horizontal em dez direções. Hakone é fresca no verão, e Atami é quente no inverno. Ao passar pelo Passo de Jikkoku, a temperatura já muda. Deus realmente criou tudo de forma magistral...
-
-**Vinte e três de junho**
-
-— A moralidade, até certo ponto, se adapta à época e à situação social. Durante a guerra, políticos, militares e industriais que serviram à nação acreditavam estar no caminho certo, e muitas vezes não tinham escolha a não ser agir daquela forma. Aos olhos de Deus, essas ações também constituem pecado? Por outro lado, ao levar o Japão à derrota, eles fizeram com que o país retornasse à sua verdadeira essência, o que poderia ser considerado um mérito. Como devemos ponderar esses méritos e deméritos?
-
-A resposta depende se pensamos do ponto de vista Hinayana ou Mahayana. As pessoas que serviram à nação durante a guerra foram boas pessoas no sentido Hinayana. Dizer que o Japão foi salvo pela derrota é um pensamento Mahayana. No dia seguinte ao fim da guerra, eu disse a quem me visitou: "Na verdade, deveríamos celebrar esta derrota". Os políticos daquela época não agiam corretamente. Pensavam que, desde que o Japão estivesse bem, não importava que outros povos sofressem. Era um pensamento extremamente japonês, e um erro gravíssimo. É preciso ter uma visão mundial, de amor à humanidade. Se levássemos o "Caminho Imperial" do Japão para a Rússia, por exemplo, provavelmente ninguém o seguiria. Aí está o problema. Com tal pensamento, não se pode salvar o mundo. Ideologias egocêntricas são inaceitáveis.
-
-Os militares treinavam para matar outros povos em massa. Portanto, sua condenação à forca no Tribunal de Tóquio foi justa. Os industriais buscaram lucrar imensamente com a guerra; foram como cúmplices de ladrões. A derrota fez com que despertassem, o que foi muito bom.
-
-— A preocupação com uma futura guerra mundial e uma consequente guerra civil não depende da vontade individual, e a situação social acabará por pender para a direita ou para a esquerda. Em um momento de grande purificação mundial, não seria permitido seguir um caminho fácil apenas por conveniência. Em uma situação em que se deva escolher um dos lados, que atitude devemos tomar?
-
-Não há motivo para temer uma guerra civil. E a situação não penderá definitivamente para um dos lados. Como foi dito na coluna "Suntetsu", o mundo é como um balanço. Ora vai para a esquerda, ora para a direita. Quem compreende isso, torna-se maduro. Portanto, é preciso amadurecer logo. (risos)
-
-Dirigir um carro é a mesma coisa. Se você virar o volante demais para um lado, bate. É porque você o gira para a direita e para a esquerda, com atenção, que o carro segue em frente. O progresso da civilização é igual. Nós, que observamos esse avanço oscilante, estamos um nível acima. Aqueles que se dedicam intensamente à direita ou à esquerda estão realizando um trabalho inferior ao nosso.
-
-E o "caminho fácil" é permitido. Se a pessoa tem poucos pecados e máculas espirituais, seu caminho naturalmente será fácil. Se tiver muitos, será arrastada para o turbilhão da grande purificação e sofrerá. No fim, a causa está em si mesma. Se você não tiver pecados, não sofrerá.
-
-Portanto, não é preciso se envolver nessas questões. É como observar bêbados brigando. (risos) É divertido ser espectador. Eles são os demolidores, e nós, os construtores. Agora é a era da destruição. Portanto, por enquanto, devemos nos dedicar aos preparativos para a construção. Deixemos a demolição para os demolidores. Hitler, por exemplo, era o mestre dos demolidores. (risos)
-
-— O ponto na testa das estátuas de Buda tem algum significado?
-
-Aquilo se chama "byakugo". A parte mais importante do ser humano fica acima das sobrancelhas, uma área chamada "tentei". É por ali que a linha espiritual de Deus se conecta. O byakugo é um símbolo disso.
-
-— Em que medida podemos confiar em obras como "A História da Princesa Kozakura", de Wasaburo Asano, e "O Mundo do Além-Túmulo", do Dr. Ward?
-
-Pode-se confiar plenamente. Esses relatos do Mundo Espiritual são fatos. O do Dr. Ward também. Em breve, publicaremos na revista "Paraíso Terrestre" a "História de Torakichi", que também é verídica. É algo superior à obra do Dr. Ward. Trata-se de um ser humano vivo que se espiritualiza e viaja entre Edo e Hitachi. Ele se torna espírito, voa pelos céus em um instante e, ao chegar ao destino, volta a ser humano. Ele até coloca uma criança em um pequeno pote, que seu pai carrega enquanto voa. Comparado a isso, o avião é algo bárbaro. (risos) Essa história foi pesquisada por Atsutane Hirata. Consegui uma cópia e publicarei em cerca de cinco edições na revista. É uma leitura necessária.
-
-— Um membro, dono de um prostíbulo, melhorou muito de um derrame graças a este Caminho e expressa profunda gratidão pela proteção recebida. Ele deseja se dedicar de corpo e alma ao Caminho e pensa em abandonar sua profissão atual, mas hesita devido a dificuldades. O que ele deve fazer?
-
-Ele deve abandonar essa profissão. Primeiramente, precisa tomar a firme decisão de parar. É claro que, ao parar, deve usar a sabedoria para fazê-lo de forma a não ter prejuízos. Se ele avançar gradualmente com essa intenção, tudo dará certo.
-
-— Gostaria de receber orientação sobre a prática comercial do ponto de vista religioso. No comércio, é comum haver negociações, concorrência e, com o atual sistema de registro, surgem muitos ressentimentos devido à competição. Para apagar essas máculas, seria bom praticar muitas boas ações sociais?
-
-Exatamente. Um certo grau de negociação é inevitável, pois o objetivo é o lucro. Desde que seja com moderação, não há problema.
-
-A concorrência também é inevitável. Tentar ativamente derrubar um concorrente gera pecado, então é melhor não fazê-lo. Por exemplo, à medida que meus ensinamentos se expandem, outras religiões podem ser afetadas e até desaparecer. Mas isso é inevitável; se pensássemos assim, nada poderia ser feito. É por isso que digo: "O grande bem é acompanhado do pequeno mal". Não há como evitar. Se 900.000 pessoas são salvas, mas 100.000 não o são por causa disso, é inevitável. Está bem assim. Bem, não que esteja "bem", mas se o saldo for positivo, é o que importa.
-
-E, ao fazer negócios, se tiver tempo e dinheiro de sobra, pratique o bem. A melhor coisa a fazer é usar esses recursos em prol desta fé.
-
-— Sobre a epilepsia: (1) Por que as crises ocorrem em ciclos? (2) Por que estão relacionadas a emoções como alegria e raiva? (3) Quando a pessoa se cura, o espírito obsessor também é salvo?
-
-As crises cíclicas ocorrem devido à possessão por um espírito. Se a possessão se torna contínua, a pessoa desenvolve uma doença mental. O ciclo ocorre, por exemplo, quando o espírito de alguém que morreu à meia-noite possui uma pessoa; a crise ocorrerá à meia-noite. Naquela hora, o espírito se recorda e possui o indivíduo. O espírito sobe até o topo da cabeça, causando a crise epiléptica. Como não consegue permanecer ali por muito tempo, ele desce novamente. Certa vez, conheci uma pessoa em Tóquio que sempre tinha crises à noite. Durante a crise, ela via um incêndio à sua frente, com as chamas se aproximando. Era o espírito de alguém que morreu queimado que a possuía.
-
-Quando uma pessoa se exalta, as células cerebrais se tornam mais tênues. Com isso, o espírito consegue chegar ao topo da cabeça, desencadeando a crise. A histeria feminina é semelhante. Quando a mulher se enfurece, as células espirituais no topo da cabeça se rarefazem, e uma raposa sobe até ali e provoca diversos comportamentos descontrolados.
-
-E sim, o espírito obsessor é salvo. É bom entoar a oração por ele. Os espíritos também costumam se manifestar no aniversário de sua morte.
-
-— Sou professor e gostaria de perguntar sobre os seguintes pontos: (1) O método de educação democrática atual. (2) Como um educador deve lidar com a medicina.
-
-(1) A educação atual é muito superior à da época da guerra. Não há comparação. A educação anterior foi moldada pelo expansionismo, com o objetivo de educar o povo para engrandecer a nação. Todo o seu foco estava em dedicar a vida ao imperador e em fortalecer o Japão. A nova educação amplia esse objetivo para a paz e a felicidade da humanidade, o que a torna mais Mahayana.
-
-(2) Este é um ponto delicado, sobre o qual é difícil me pronunciar. Se eu disser a verdade, serei demitido. Se disser mentiras, estarei enfraquecendo as pessoas e até tirando-lhes a vida. Não são apenas os educadores que sofrem com esse dilema; eu sou quem mais sofre. Portanto, o melhor é agir com discrição, de forma a não ser criticado. Recentemente, um doutor em farmácia de uma universidade, que se curou e entrou para este Caminho, estava aflito. Ele me disse que, ao lecionar farmácia na universidade, não sabia o que dizer.
-
-A maioria dos sistemas educacionais tenta transformar as crianças em adultos, o que é um erro. O correto é deixar a criança ser criança. A educação deve ser adequada à idade da criança. Mas como os professores não podem se opor a isso, não há outra alternativa a não ser agir com bom senso.
-
-— Fomos informados de que caqui e berinjela aceleram o processo de purificação. A ideia de consumi-los constantemente como se fossem remédios está errada?
-
-Sim, está errada. Se for gostoso, coma. Não se deve pensar que é remédio. A berinjela, por exemplo, é abundante no outono. Se há muita, é para ser comida em abundância. Algumas pessoas evitam a berinjela, dizendo que faz mal para o catarro, mas isso é um engano. Por outro lado, não se pode comer apenas berinjela. (risos) É preciso moderação.
-
-O mesmo se aplica ao caqui. A maioria das pessoas gosta de caqui, então podem comer à vontade. Não se deve comer pensando que é remédio. Não existem remédios no mundo. Se existisse algum, seria o arroz. Pode-se comer arroz à vontade, que não causa intoxicação.
-
-— Dizem que o caqui faz mal para doenças ginecológicas...
-
-Isso é um absurdo. Provavelmente dizem isso porque comer caqui aumenta a diurese. Mas urinar mais significa que os rins estão funcionando, então é algo bom.
-
-— Se não existe acaso no mundo, devemos entender que os milagres também têm alguma causa desconhecida?
-
-Claro, não existe acaso. A causa de tudo está no Mundo Espiritual. Os milagres, um dia, serão explicados cientificamente. E é isso que estou fazendo agora.
-
-— Parece que há mais mulheres que permanecem solteiras do que homens. Haveria alguma causa social ou física específica para isso?
-
-Sim, há uma causa específica. A principal é, provavelmente, a emoção. A mulher é mais emotiva e, por isso, é mais seletiva na escolha de um parceiro. Já os homens, em sua maioria, são mais "assanhados". (gargalhadas) Para muitos deles, basta ser mulher. Consequentemente, é mais difícil para a mulher encontrar um parceiro. Há também razões econômicas.
-
-— O ciclo menstrual também parece influenciar...
-
-Acho que não. O ciclo menstrual não dura o ano todo, não é? (risos) Além disso, as mulheres costumam ser sexualmente mais retraídas e, portanto, mais passivas. Nesse ponto, o homem é mais ativo. Mas foi Deus quem os fez assim...
-
-— Para cerimônias fúnebres e memoriais, é melhor realizá-las em casa ou no templo? E alguns fiéis sentem uma contradição em recitar o Nembutsu. O que fazer?
-
-Tanto faz. O que importa é a sinceridade da pessoa. É a sinceridade de quem oferece a cerimônia que se reflete. Mas, se possível e se as condições financeiras permitirem, o templo é melhor. O templo é um local especializado para isso. A casa é a morada dos vivos.
-
-Os espíritos não gostam do Nembutsu. O Buda Amida já retornou para a Índia. Mas, se o monge recita o Nembutsu, não há o que fazer. Um fiel deste Caminho pode, após o Nembutsu, "limpar a boca" com a Oração Zengen Sanji. (gargalhadas)
-
-— Uma pessoa que sofria terrivelmente com uma doença mental ficou como que renascida após uma terapia de eletrochoque, na qual uma corrente de 90 volts foi aplicada em sua testa por dois segundos. A purificação espiritual pode ser realizada pela ciência?
-
-Isso é temporário. Eles promovem intensamente um efeito momentâneo. Por exemplo, anunciam que um novo remédio acabará com tal doença. Mas, geralmente, em um ou dois anos, às vezes em um ou dois meses, o efeito desaparece. Tudo é temporário. Esse é o grande problema.
-
-Uma corrente de 90 ou 100 volts não causa dano, pois apenas atravessa o corpo. Eu mesmo já experimentei. A eletricidade também tem um efeito passageiro. Também já pratiquei a técnica do "kiai", que também funciona por um tempo. Quando se sente dor em algum lugar, ao gritar "Dor, desapareça!", a dor cede por um instante. Pensei que era um método excelente, mas também não funciona a longo prazo. No final, se o espírito não for purificado pelo Johrei, se suas máculas não forem removidas, não há cura fundamental.
-
-A eletricidade é usada em doenças mentais porque o espírito obsessor a detesta, e por isso há uma melhora temporária. Seria eficaz se fosse aplicada continuamente, mas isso é impossível, pois o corpo apodreceria. Algo interessante é que, se você der um banho em um doente mental agitado, ele se acalma. Isso porque a raposa detesta banho. Por isso, alguns bebês choram desesperadamente ao serem colocados na água; são os que têm uma raposa apegada.
-
-— As árvores frutíferas parecem dar mais frutos em anos alternados. Qual a razão para isso?
-
-Isso não se limita às árvores frutíferas. É uma lei cíclica. Para entender a fundo, teríamos de perguntar ao Criador.
-
-Tudo acontece em gerações alternadas, em dias alternados. A hanseníase, por exemplo, não afeta os filhos, mas sim os netos.
-
-— Nesse caso, a toxina passa para o neto sem que a purificação tenha ocorrido?
-
-Exatamente. Por isso, os filhos se parecem mais com os avós do que com os pais. Entre as frutas, o caqui é um exemplo notável. As doenças também melhoram e pioram em dias alternados, o que também é uma manifestação da lei cíclica.
-
-— Uma mulher de 62 anos, que teve um derrame cerebral, sofre de um tremor contínuo em todo o corpo, exceto quando dorme. O tremor é especialmente intenso na boca e nas mãos. Por quê?
-
-O tremor é comum após um derrame. O caso mais grave que conheci tremia com uma amplitude de uns dez centímetros. O sintoma mais grave do derrame é o tremor. Em seguida, vem o estado em que a mão fica fechada e presa ao peito. Depois, o braço se afasta um pouco do peito, e a mão permanece com o polegar cerrado. Em um estágio mais leve, o braço está quase normal e a palma se abre, mas as pontas dos dedos permanecem curvadas. Em geral, são esses os estágios.
-
-Portanto, o caso dessa senhora é bastante grave. Certa vez, tratei uma pessoa que ficava com as mãos na posição de quem está agarrando algo. Eu lhe disse: "Isso é porque você é muito gananciosa". (risos)
-
-— Por que o volume de urina aumenta quando sentimos frio?
-
-Isso é natural. O ser humano é fogo e está sempre eliminando umidade pela pele. O suor é a forma mais concentrada dessa umidade. No frio, essa eliminação pela pele diminui. Assim como a água vira vapor com o calor e se condensa com o frio, no frio, a umidade que sairia pela pele é eliminada como urina.
-
-— Um homem que morava perto de mim, e que não era meu parente, faleceu e, desde então, aparece frequentemente em meus sonhos para conversar. Após os sonhos, não sinto nenhuma alteração de humor. Esta é a queixa de uma fiel. Qual a relação?
-
-O falecido nutria sentimentos por essa pessoa. A fiel em questão é uma mulher, certo?
-
-— Sim.
-
-Ele a amava, estava apaixonado por ela. E, mesmo no Mundo Espiritual, não consegue esquecê-la. Que atrevimento. (gargalhadas)
 
 ---
 

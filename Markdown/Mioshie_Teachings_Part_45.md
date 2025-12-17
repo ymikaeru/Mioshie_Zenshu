@@ -1,8 +1,714 @@
 # Mioshie_Teachings - Part 45
 
+# Orientações sobre a Agricultura Natural
+
+**Categoria:** to | **Ano:** 昭和26(1951)年5月2日 | **Fonte:** Eikou
+**Título Original:** 読後のお言葉 自然農法体験者座談会 | **Status:** Published
+
+## Orientações sobre a Agricultura Natural
+
+A seguir, transmitimos uma importante orientação de Meishu-Sama a respeito do tema.
+
+É preferível não alterar as sementes. A continuidade do cultivo com a mesma variedade promove um aprimoramento gradual, pois as toxinas dos adubos são progressivamente eliminadas. Ademais, a noção de que uma semente é ou não compatível com determinado tipo de solo é um equívoco. Ao se perseverar no cultivo de uma única variedade em um mesmo local, é o próprio solo que, paulatinamente, se transforma para se harmonizar com a semente. Em suma, tanto as sementes quanto o solo contêm uma grande quantidade de toxinas provenientes dos adubos, sendo imperativo que estas sejam eliminadas com a maior brevidade possível. O aumento da colheita será diretamente proporcional à purificação dessas toxinas.
+
+No que tange à dificuldade no cultivo de melancias, a causa reside, indubitavelmente, na presença de toxinas dos adubos tanto nas sementes quanto no solo. Uma vez eliminadas tais impurezas, qualquer hortaliça, sem exceção, produzirá resultados excelentes, tanto em quantidade quanto em qualidade.
+
+**Mesa-Redonda com Praticantes da Agricultura Natural**
+
+**Data:** 13 de março de 1951
+**Local:** Sede da Igreja Korin de Nagoia
+**Moderador:** Katsutoshi Egawa
+**Transcrição:** Minoru Kawagoe
+**Convidados Especiais:** Seiichi Momomi, Eisaku Shimizu, Kinnosuke Gotō, Hiroshige Kawabata
+
+**Agricultores Participantes (Região de Chukyo):**
+
+(Quarto ano de prática) Toshio Mori (30)
+(Terceiro ano de prática) Den Anyaku (33), Taro Hiramatsu (49), Kōichi Yamamoto (32), Tomotaka Takekoshi (25), Shinji Miyagi (43), Tameo Shiraki (55), Kaichirō Tanaka (48), Eikichi Hada (54), Jōichi Gotō (45), Zenichi Takai (55), Toyohachi Sakai (41), Shigeyoshi Sakuragi (44), Shinji Tabata (25), Masahisa Hayashi (24)
+(Segundo ano de prática) Yasutarō Shiga (53), Hajime Katō (40), Tokumatsu Sakai (35), Kyūtarō Onoda (31), Seiichi Ikehara (30), Taeko Sakai (32), Kōichi Shirai (27), Teruo Yamamoto (33), Onoe Hori (44), Machiko Ōno (42), Hiroshi Inoue (48), Masayuki Hirose (42), Kazuo Fujii (26), Nobuyoshi Tanaka (32), Kōten Ogawa (34)
+(Primeiro ano de prática) Toshio Hiramitsu (20), Tōru Usui (37), Kikuharu Takeo (44)
+Total: 38 participantes
+
+**Moderador:** Agradeço imensamente a presença de todos, que gentilmente reservaram um tempo em suas agendas atarefadas para participar deste encontro. A Agricultura Natural, preconizada por Meishu-Sama, vem alcançando resultados notáveis em todo o país, demonstrando plenamente o seu verdadeiro valor. O propósito de reuni-los hoje, senhores que por longos anos se dedicam a esta prática e dela se tornaram peritos, é que suas experiências possam, de alguma forma, beneficiar os agricultores de todo o Japão, especialmente os iniciantes. Sinto-me afortunado por esta oportunidade. Peço, portanto, que exponham suas opiniões e dúvidas sobre qualquer questão com total franqueza e sinceridade. Sem mais delongas, iniciemos com o balanço da colheita de arroz do ano passado.
+
+*Apesar dos Prejuízos, a Colheita Supera em Muito a da Agricultura com Adubos*
+
+**Miyagi (Terceiro ano):** Meu campo possui um solo pobre, e, com o uso de adubos, a média de colheita sempre foi de cinco a cinco fardos e meio. No primeiro ano de prática da Agricultura Natural, apesar dos danos causados por um tufão, colhi cerca de seis fardos. No segundo ano, a colheita aumentou para sete fardos. Já no terceiro ano, houve uma pequena queda, provavelmente em decorrência de outro tufão e da intensificação da purificação das toxinas do solo. A avaliação preliminar por amostragem indicava uma colheita de apenas cinco fardos, mas o resultado final foi de aproximadamente seis. Mesmo assim, os campos vizinhos que utilizaram adubos obtiveram entre cinco e cinco fardos e meio.
+
+**Shiga (Segundo ano):** Em meu caso, tanto no primeiro quanto no segundo ano, tive um aumento de cerca de um fardo por ano.
+
+**Takekoshi (Terceiro ano):** Em minha região, conhecida como Higashi-Mikawa, a colheita aumentou consecutivamente no primeiro, segundo e terceiro anos. No terceiro ano, por exemplo, atingi a marca de oito fardos e um to, enquanto a média local é de seis a sete fardos. Na agricultura com adubos, obter sete fardos já é considerado um excelente resultado.
+
+**Moderador:** E o senhor Mori, em seu quarto ano de prática, quais foram seus resultados?
+
+**Mori (Quarto ano):** Moro em Takayama, na região de Hida, uma área de cultivo único. No ano passado, a colheita foi superior à do terceiro ano. A expectativa era de um aumento entre 20% e 30% em relação ao ano anterior, mas o resultado real foi um pouco menor. A média de colheita em nossa região é de cinco fardos e meio a seis. Em meu terceiro ano, creio ter colhido cerca de dez fardos. A diferença entre a expectativa e o resultado se deve, em grande parte, aos danos causados pelo tufão. A colheita efetiva no quarto ano foi de aproximadamente onze fardos.
+
+**Moderador:** E qual era a aparência das espigas na época da colheita?
+
+**Mori:** A colheita ocorre por volta do dia dez de outubro. Nessa época, é comum que as espigas, já maduras, tombem e que os caules se quebrem. Contudo, em meu campo, os caules eram tão robustos que as espigas se curvavam em um arco gracioso. Ao tomar uma delas em minhas mãos, contemplei uma beleza indescritível.
+
+**Moderador:** E quanto ao número de grãos e ao perfilhamento?
+
+**Mori:** A variedade Mino-Asahi apresentou de cem a cento e setenta grãos por espiga, com vinte e dois a vinte e três perfilhos. Já a Aikoku nº 20 produziu de cem a duzentos e sessenta grãos.
+
+**Moderador:** Agora, gostaria de saber sobre as variedades que os senhores estão cultivando. Acredito que o ideal seja não as alterar, correto?
+
+**Ando (Terceiro ano):** No ano passado, realizei uma colheita por amostragem e pude constatar que há, de fato, diferenças significativas entre as variedades. Creio que as mais antigas, adaptadas à região há vinte ou trinta anos, apresentam os melhores resultados. As variedades atualmente recomendadas pelo governo são inferiores.
+
+**Kawabata:** No último ano, as variedades Norin nº 36 e nº 38 parecem ter sofrido danos particularmente severos.
+
+**Miyagi:** Eu cultivo a Norin nº 38 e, curiosamente, apenas em meu campo as espigas se desenvolveram de forma sinuosa, como serpentes, ou com uma aparência que lembrava as patas de uma rã. Apesar disso, os caules eram notavelmente fortes e grandes.
+
+**Takekoshi:** Minhas espigas, por outro lado, eram tão esplêndidas que poderiam ser descritas como "telhados de ouro". A variedade é a Asahi-Senbon.
+
+**Mori:** Eu cultivo as variedades Mino-Asahi e Aikoku nº 20. As variedades realmente mudam muito de acordo com a localidade.
+
+**Hayashi (Terceiro ano):** Cultivo as variedades Aikoku e Shiro-Mochi, e todos os anos planto as mesmas sementes, sem alterá-las. No ano passado, a variedade Aikoku teve uma pequena quebra de safra devido às tempestades, mas a Shiro-Mochi, cuja média é de seis fardos, rendeu cerca de oito. Acredito que não mudar a variedade contribui para o aumento da produção.
+
+**Miyagi:** Eu troquei de variedade, mas, ainda que se trate da mesma área de cinco tan, penso que a variedade mais adequada às características do solo local é sempre a melhor escolha.
+
+**Moderador:** Segundo os relatórios, a classificação predominante do arroz foi de terceira classe, com pouquíssimos lotes de segunda. Poderiam explicar o motivo? O arroz da Agricultura Natural, na pior das hipóteses, é de terceira classe, nunca sendo desclassificado.
+
+**Ando:** A principal causa são os danos generalizados provocados por tempestades e inundações. Além disso, a diferença de preço para o arroz de segunda classe é ínfima, cerca de setenta ienes, e o custo de utilização da máquina selecionadora de grãos é muito superior a esse valor. Portanto, seria um prejuízo tentar classificá-lo como de segunda classe, e por isso o comercializamos como de terceira.
+
+**Usui (Primeiro ano):** O arroz da Agricultura Natural também dispensa muitas etapas, como a secagem, o que permite uma comercialização mais rápida e direta.
+
+**Hirose (Segundo ano):** Como a Agricultura Natural ainda não é amplamente conhecida, levei uma amostra para avaliação. No município, meu arroz recebeu a classificação de primeira classe, mas, no âmbito da província, foi rebaixado para segunda. Ainda assim, toda a quantidade que submeti à avaliação foi classificada como de segunda classe, o que me gerou lucro. O restante da colheita, envasei diretamente em fardos e vendi como de terceira classe.
+
+**Kawabata:** Em nossa região, houve uma grande quantidade de arroz desclassificado (quinta classe), mas o arroz da Agricultura Natural obteve, no mínimo, a terceira classe, sem nenhum caso de desclassificação total.
+
+**Moderador:** Passemos agora para a cultura de inverno.
+
+*A Cultura de Inverno Apresenta Desafios, mas a Colheita Aumenta com a Prática Contínua*
+
+**Mori:** Acredito que a dificuldade no cultivo do trigo está relacionada à época do plantio. Como estou em uma região montanhosa, semeio uma semana ou dez dias antes do período habitual. Para os senhores das planícies, a menos que pratiquem a monocultura, isso deve ser um desafio.
+
+**Hirose:** Exato. Nas planícies, a situação é diferente da das montanhas. Devido a fatores climáticos e outros pontos, é impossível adiantar a semeadura em um sistema de cultura dupla. O arroz da Agricultura Natural amadurece bem mais tarde que o da agricultura com adubos, e o tempo entre a colheita e a semeadura do trigo é muito curto. Não há margem para antecipar o plantio. Se fosse monocultura, seria possível. Ademais, se o trigo for semeado cedo demais, as condições climáticas podem fazê-lo crescer abruptamente cerca de quatro sun, aumentando o risco de fracasso.
+
+**Shimizu:** Em última análise, é preciso compreender que, durante o primeiro e o segundo ano, o trabalho consiste em eliminar as toxinas do solo. Portanto, seria irrealista esperar colheitas abundantes desde o início. Mesmo que os resultados não sejam expressivos no primeiro ano, o verdadeiro valor da prática se manifesta a partir do segundo e do terceiro. O aumento da produção é uma certeza.
+
+**Gotō (Segundo ano):** No primeiro ano, tive uma colheita normal. No ano passado, em uma área cuja média é de 2,4 a 2,6 koku, colhi 3 koku. Este ano ainda é cedo para dizer, mas o desenvolvimento parece mais lento e menos vigoroso que o da agricultura com adubos, embora o perfilhamento seja maior. Utilizei uma variedade de Owari que me foi cedida, mas, de fato, é melhor plantar uma semente já adaptada ao solo, assim como no cultivo do arroz. Acredito que tudo depende da qualidade da terra.
+
+*O Aumento na Produção de Leguminosas é Notável*
+
+**Ogawa (Segundo ano):** A produção de leguminosas aumentou consideravelmente. Este é o meu segundo ano de prática.
+
+**Ando:** As leguminosas se desenvolvem bem porque não acumulam tantas toxinas dos adubos.
+
+**Gotō:** A Agricultura Natural é excelente para hortaliças folhosas e nabos, mas parece não surtir muito efeito em culturas como a melancia.
+
+**Ando:** Para as hortaliças, incorporar a capina de verão ao solo funciona muito bem. O espinafre, por exemplo, se desenvolve esplendidamente.
+
+**Moderador:** Com isso, gostaria de encerrar nossa mesa-redonda de hoje. Agradeço sinceramente a todos por dedicarem seu tempo e por compartilharem conosco tantos relatos significativos. Que todos, sob a sagrada orientação de Meishu-Sama, continuem se empenhando com ainda mais afinco, incorporando o espírito Divino à técnica agrícola, a fim de alcançar grandes colheitas e estabelecer a estabilidade da economia rural. De nossa parte, assumimos o compromisso de utilizar estas valiosas experiências para levar as boas-novas aos agricultores de todo o país, difundindo com o coração o verdadeiro valor da autêntica Agricultura Natural. Muito obrigado.
+
+---
+
+# A Purificação de Toxinas Acumuladas por Cinquenta Anos
+
+**Categoria:** to | **Ano:** 昭和26(1951)年6月6日 | **Fonte:** Eikou
+**Título Original:** 毒結五十年 | **Status:** Published
+
+## A Purificação de Toxinas Acumuladas por Cinquenta Anos
+
+Aos dezoito anos, fui acometido por uma pleurisia. Naquela ocasião, submeteram-me a uma punção na lateral do tórax, por meio da qual foram drenados cerca de duzentos gramas de líquido. Descobri, recentemente, que o yakudoku (薬毒) proveniente de duas fontes – o antisséptico utilizado nesse procedimento e os medicamentos que ingeri por ocasião de uma reincidência da doença, um ano mais tarde – havia se solidificado em um ponto localizado aproximadamente entre as costas e a axila.
+
+Decidido a dissolver esse acúmulo, comecei a ministrar Johrei a mim mesmo. Embora o nódulo de toxinas estivesse, a princípio, bastante enrijecido, ele foi se abrandando e se dissolvendo gradualmente. Era notável que, invariavelmente, cada vez que uma porção se dissolvia, eu tinha diarreia. O processo ocorria sem dores significativas e com uma precisão tão exata que chegava a ser surpreendente. Essa experiência demonstra que os nódulos de toxinas podem permanecer no organismo por muitos anos sem se desfazerem. Como atualmente tenho sessenta e oito anos, conclui-se que essas toxinas permaneceram solidificadas em meu corpo por exatos cinquenta anos. Portanto, caso eu não conhecesse o Johrei, elas teriam sido, de fato, “hóspedes” que jamais partiriam.
+
+À medida que esses nódulos se dissolviam e eram expelidos por meio da diarreia, eu experimentava uma notável melhora em meu bem-estar. Eu não havia me dado conta disso por um longo tempo, pois considerava meu estado anterior como normal. Contudo, ao perceber a mudança, fui tomado por uma sensação de vitalidade tão inesperada e profunda que me senti imensamente feliz. Sinto como se minha expectativa de vida tivesse se prolongado em vinte ou trinta anos. Ademais, minha mente tornou-se muito mais clara, o que me permitiu escrever meus manuscritos com uma fluidez que antes não possuía.
+
+Fica evidente, portanto, que, na ausência do Johrei, o yakudoku (薬毒) pode de fato permanecer no corpo por toda uma vida.
+
+Como sempre ensino, a origem da diarreia encontra-se, na maioria das vezes, em nódulos de toxinas localizados na cabeça e nas costas. Existem duas causas principais para esse sintoma: uma é a dissolução desses nódulos, cujas toxinas se acumulam temporariamente no abdômen antes de serem expelidas; a outra é a intoxicação alimentar. Quando a purificação se origina na cabeça, é comum que haja uma eliminação considerável de sangue. Se esse sangue é expelido diretamente pelo ânus, o quadro é conhecido como hemorragia hemorroidária. Todavia, se ele se acumula no abdômen antes de ser liberado, manifesta-se como disenteria.
+
+Nesse sentido, a bactéria da disenteria cumpre a função natural de auxiliar na expulsão desse sangue impuro. Por essa razão, se uma pessoa com disenteria permitir que o processo siga seu curso, o sangue tóxico será expelido de maneira ordenada, e a cura se dará naturalmente. Contudo, a medicina, por desconhecer este princípio, emprega todos os recursos para impedir essa eliminação, o que acaba por agravar o quadro. Sinto um profundo pesar ao refletir sobre quantas vidas poderiam ser salvas se a ciência médica compreendesse esta verdade.
+
+---
+
+# O equívoco da confiança humana
+
+**Categoria:** to | **Ano:** 昭和28(1953)年8月19日 | **Fonte:** Eikou
+**Título Original:** 取違いの例 | **Status:** Published
+
+## O equívoco da confiança humana
+
+*Publicado na coluna “Exemplos de equívocos” do Jornal Eikou, nº 222, de 19 de agosto de 1953 (Ano 28 da Era Showa).*
+
+O relato de graça que se segue é um exemplo recorrente. Contudo, decidi acrescentar este comentário porquanto Deus, por meio dele, nos revela um ensinamento de profunda importância. Em uma única sentença, tal ensinamento pode ser resumido da seguinte forma: “Confie em Deus, e não no homem”.
+
+A razão para tanto é que, uma vez que recebemos o poder do Johrei, o correto é que curemos nossas próprias enfermidades. Reflitamos: se nos foi concedido o poder de curar as doenças de outrem, não há razão para que não possamos curar as nossas. É precisamente essa convicção o ponto fundamental.
+
+Devemos compreender que as graças divinas jamais se manifestam em situações que contrariam a lógica e o bom-senso. Portanto, é imperativo que todas as nossas ações se pautem pela retidão do princípio, pois, do contrário, incorreremos em grande esforço para nenhum resultado, apenas prolongando sofrimentos desnecessários.
+
+Em suma, a convicção é o elemento crucial, e este é um ponto que todos devem gravar profundamente em seus corações.
+
+***
+
+### Salva da Apendicite por Meio da Graça Divina
+
+**Hidaka Sachiko (32 anos)**
+*Igreja Nanko-Tyu, Província de Kumamoto*
+
+Gostaria de expressar minha mais profunda gratidão a Meishu-Sama por Sua constante proteção. Nesta oportunidade, desejo relatar a graça que recebi durante uma purificação de apendicite, bem como apresentar meu sincero pedido de perdão.
+
+No dia 18 de maio, seria realizado o Culto Mensal da Sede Regional de Kumamoto. Na véspera, ao partir para a cerimônia, meu marido me pediu que fosse ministrar Johrei ao senhor Yoshikawa Shigehiko, um membro que estava purificando. Assim, na tarde do dia 18, dirigi-me à sua residência e tive a permissão de servi-lo. Em seguida, atendi também a família do senhor Sasaki, que morava ao lado. Retornei para casa e elevei minha oração de gratidão diante do Altar já passava das sete horas da noite.
+
+Pouco tempo depois, comecei a sentir uma dor no lado direito do baixo-ventre, que gradualmente se estendeu para a nuca e a região lombar, tornando-se cada vez mais intensa. Reconheci a dor como uma purificação e senti-me grata. Acreditava que, se repousasse diante do Altar e ministrasse Johrei a mim mesma, a melhora seria rápida e simples. Contudo, a dor apenas se intensificava.
+
+Apendicite! A dor era aguda, como uma agulhada, concentrada na região do apêndice, e havia uma febre intensa que se irradiava para o lado direito da cintura. Logo, uma dor lancinante tomou conta de todo o meu baixo-ventre.
+
+Eu já possuía a experiência de ter auxiliado na cura de apendicite de várias pessoas por meio do Johrei. Lembro-me do caso de um jovem chamado Oshita, a quem os médicos haviam diagnosticado com apendicite e indicado cirurgia de emergência. Seus pais me procuraram ao entardecer e, após ministrar-lhe Johrei três ou quatro vezes durante a noite, na manhã seguinte, quando despertei, ele já estava de pé, completamente curado. Outro jovem, de nome Tamotsu, também se recuperou de tal forma que, ao terceiro dia, já podia trabalhar normalmente. No outono do ano passado, na noite anterior à minha partida para o Culto Mensal da Sede Regional, meu próprio marido purificou com apendicite. Ministrei-lhe Johrei algumas vezes durante a noite, e, no dia seguinte, ele pôde receber o auxílio de outros membros, restabelecendo-se a ponto de retomar suas atividades de difusão três dias depois.
+
+No entanto, justamente naquela noite, meu marido, em quem eu tanto confiava, estava ausente. Minha irmã Naoko, que me auxilia, e os demais membros também não estavam presentes. Minha filha Miyoko, de apenas oito meses, chorava por leite, mas a dor só aumentava. Percebi que a noite já ia alta e que eu nem sequer havia fechado a porta de entrada, mas não conseguia me mover.
+
+Enquanto pressionava as mãos sobre o abdômen, abri os olhos em meio à dor excruciante e, subitamente, meu olhar fixou-se na fotografia de Meishu-Sama no tokonoma (床の間). Nesse instante, a palavra que meu marido frequentemente mencionava ao ministrar Johrei — *sounen (想念)* — surgiu com nitidez em minha mente.
+
+Foi então que compreendi com absoluta clareza algo que, embora óbvio, eu havia esquecido: a minha confiança não deveria estar depositada em meu marido, em minha irmã ou nos outros membros, mas unicamente em Meishu-Sama. Percebi não apenas o equívoco de minhas horas de aflição, mas também como, no dia a dia, eu havia me acostumado às grandiosas graças divinas e tendia a interpretar os Ensinamentos de forma egoísta e limitada. Inúmeros erros como esses afloraram em minha consciência, e pedi perdão a Meishu-Sama com todo o meu ser.
+
+Enquanto suplicava por perdão, sem me dar conta, adormeci. Despertava por breves momentos e ainda sentia a dor, mas percebi que ela diminuía gradualmente.
+
+No dia seguinte, recebi Johrei de um membro e, ao entardecer, meu marido retornou do Culto e também me ministrou. Graças a essa bênção, ao terceiro dia, eu já estava apta a realizar as tarefas domésticas.
+
+Sou-Lhe imensamente grata, Meishu-Sama, não apenas por ter curado minha apendicite, mas, sobretudo, por me ter feito enxergar o equívoco em meu *sounen (想念)*. Por essa razão, apresento meu mais profundo pedido de perdão e reitero minha eterna gratidão.
+
+Meishu-Sama, muito, muito obrigada.
+
+---
+
+# A Cura do Aneurisma
+
+**Categoria:** to | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 動脈瘤なんか何でもない 未発表 | **Status:** Unpublished
+
+## A Cura do Aneurisma
+
+Embora não seja uma enfermidade de grande incidência, o aneurisma figura entre as doenças mais temidas pela humanidade. Os médicos, em particular, nutrem um pavor excepcional por essa condição, chegando a proferir diagnósticos desesperançosos. Para nós, contudo, trata-se de uma moléstia de cura notavelmente simples.
+
+Sua causa reside no acúmulo e na solidificação de toxinas nas proximidades de uma artéria, o que resulta na compressão do vaso sanguíneo. A medicina, para remover esse enrijecimento, dispõe apenas da intervenção cirúrgica. Todavia, tal procedimento torna-se inviável a depender da localização do problema.
+
+Nesse sentido, a sublime terapia do Johrei revela seu valor inestimável, pois, mediante a simples imposição das mãos à distância do corpo físico, a massa solidificada se dissolve e é naturalmente expelida do organismo, alcançando-se, assim, a cura completa e definitiva.
+
+A simples análise deste fato é suficiente para demonstrar a impotência da medicina frente à magnificência do Johrei. Em outras palavras, a primeira representa um método bárbaro, ao passo que a segunda constitui uma abordagem civilizada. A verdade é que a primeira é anticientífica, e a segunda, genuinamente científica.
+
+[Exemplos práticos omitidos]
+
+---
+
+# A Anatomia das Toxinas
+
+**Categoria:** to | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 毒素の解剖 | **Status:** Published
+
+## A Anatomia das Toxinas
+
+Passemos, pois, à explanação sobre as toxinas. Em essência, as toxinas são o que se pode denominar sangue impuro, o qual, por sua vez, representa as máculas do espírito, conforme já exposto. Tais máculas, naturalmente, originam-se do pecado e da impureza decorrentes de atos malignos. Essa concepção de pecado e impureza tem sido, por muito tempo, uma espécie de monopólio da religião. Todavia, é lamentável que a abordagem tradicional se limite a uma exortação simplista, do tipo "não se deve praticar o mal porque isso gera pecado e impureza". Para o homem de outrora, talvez fosse suficiente; contudo, para a mente intelectual e científica do homem moderno, tal argumento é de todo inaceitável. Portanto, é imprescindível apresentar uma teoria solidamente estruturada em uma lógica sistemática e corroborada por evidências concretas.
+
+Ora, este mundo é constituído pela conjugação do Mundo Espiritual e do Mundo Material. De modo análogo, o ser humano é composto de espírito e corpo, duas partes que mantêm entre si uma relação íntima e indissociável, na qual vigora o princípio da unicidade entre espírito e corpo. Por conseguinte, quando as máculas do espírito se projetam no corpo, manifestam-se como sangue impuro; inversamente, o sangue impuro, ao se projetar no espírito, converte-se em máculas. Este é o ponto de maior relevância, e rogo que o leitor prossiga com essa premissa em mente.
+
+Analisemos, primeiramente, sob a perspectiva espiritual. Quando um indivíduo pratica um ato maligno, o pecado correspondente converte-se em uma mácula em seu espírito. Ao atingir um certo grau de acúmulo, essas máculas desencadeiam um processo de purificação. Tal processo manifesta-se sob a forma de doenças, calamidades ou sanções penais previstas em lei. Aquilo que porventura escape a essas vias purificadoras será objeto de uma punição espiritual, regida pela Lei Divina. E ainda que alguém consiga, com astúcia, evadir-se das punições humanas, a sanção Divina, por ser absoluta, inevitavelmente se refletirá no corpo, acarretando imenso sofrimento. As enfermidades que surgem nesse contexto são, naturalmente, de natureza maligna e, em muitos casos, fatais.
+
+Ademais, quanto mais cedo o mal é punido, mais branda é a pena, de modo análogo a uma dívida que, não sendo quitada, acumula juros. Existem, ainda que raramente, malfeitores que logram esquivar-se com destreza de ambas as punições, a humana e a Divina. Estes, no entanto, ao partirem para o Mundo Espiritual após a morte, são arrastados pelo peso de seus pecados às profundezas do inferno, onde se veem forçados ao arrependimento. Esse lugar corresponde ao que o budismo denomina *Avīci* (inferno da dor incessante), ao que o xintoísmo chama de *Nenokuni* (o país da raiz profunda) e ao purgatório descrito no "Inferno" de Dante Alighieri. Trata-se de um mundo de trevas impenetráveis, desprovido de luz e calor, onde tudo permanece em estado de congelamento por centenas de anos. Diante de tal realidade, até o mais perverso dos homens é compelido a se render. Sei que, ao descrever tais fatos, o homem moderno poderá considerá-los de difícil aceitação. Contudo, asseguro que não há um ponto sequer de inverdade no que digo, pois se trata de relatos que ouvi diretamente de inúmeros espíritos durante minhas pesquisas sobre o Mundo Espiritual. Peço, portanto, que depositem confiança absoluta em minhas palavras.
+
+Retomando o fio da explanação, o remorso que surge como consequência de uma má ação é, em si, uma forma branda de purificação. Seria ideal que nesse momento houvesse o arrependimento, mas nem sempre isso ocorre; com frequência, a pessoa volta a acumular novos pecados. Naturalmente, a densidade da mácula é proporcional à gravidade do pecado, mas há também um fator extrínseco a ser considerado. Quando se inflige sofrimento a outrem, a pessoa atormentada nutre sentimentos de ira ou ressentimento. Esses pensamentos, por meio de uma espécie de onda espiritual, são transmitidos ao corpo espiritual do agressor, onde se convertem em máculas. Em contrapartida, ao se promover a alegria e praticar o bem, o sentimento de gratidão do beneficiado é transmitido como uma luz, que por sua vez atenua as máculas existentes. Nesse sentido, quanto mais discreta for a boa ação — a ponto de o próprio beneficiado não saber quem a praticou —, maior será a recompensa Divina. Esta é uma Lei Celestial rigorosa e imutável. O exposto acima descreve o funcionamento do Mundo Espiritual. Sendo esta a verdade absoluta, ao ser humano não resta outra alternativa senão crer nela e a ela se conformar. Se, como vimos, o processo de purificação das máculas é a causa das doenças e de outras calamidades, aquele que almeja a felicidade deve, impreterivelmente, abandonar o mal, praticar o bem e zelar para que seu espírito permaneça imaculado.
+
+Passemos agora à abordagem sob o aspecto físico. A causa primordial do sangue impuro, que é a origem das doenças, reside no veneno medicamentoso, ou yakudoku. Em sua essência, todos os fármacos são substâncias tóxicas. O equívoco de interpretá-los como algo benéfico por tanto tempo decorre, precisamente, do desconhecimento da verdade fundamental de que a doença é um processo de purificação. Explanarei a seguir, com base em minha experiência prática, o princípio do veneno medicamentoso.
+
+Ocorre, por vezes, que um paciente, uma vez curado pelo Johrei, sofra uma recaída após algum tempo. A esse fenômeno, denominamos "repurificação". A razão para tanto é que o primeiro Johrei dissolve apenas a porção de toxinas que se manifestava ativamente no processo de purificação. Com isso, o paciente melhora temporariamente. Contudo, ao retomar suas atividades e trabalho, sua vitalidade já recuperada impulsiona a manifestação de uma purificação ainda mais vigorosa. Em outras palavras, a pessoa se torna saudável pela purificação e, por estar mais saudável, uma nova purificação se inicia. É através da repetição desse ciclo que a saúde é gradualmente restaurada. Nessa fase de repurificação, por ser um processo bastante intenso, surgem febres altas e tosses severas. Isso se deve à expectoração de um catarro antigo e solidificado, facilmente identificável por sua consistência espessa e pelo odor de medicamentos. Naturalmente, esses sintomas vêm acompanhados de inapetência e debilidade, podendo, em raras ocasiões, levar ao óbito.
+
+De acordo com as estatísticas que compilamos até hoje, a proporção é a seguinte: de cada cem pessoas que alcançam a cura completa pelo Johrei, sete vêm a falecer durante o processo de repurificação. Os noventa e três restantes, por sua vez, tornam-se pessoas de saúde plena e hoje se encontram em plena atividade. Frente a essa extraordinária taxa de cura, há um fato ainda mais assombroso: a quase totalidade dos pacientes que nos procuram são casos graves, que já tentaram sem sucesso todos os métodos — da medicina convencional às terapias populares e de base religiosa —, chegando até nós à beira da morte. Que, mesmo diante desse quadro, tenhamos alcançado resultados tão expressivos é algo que, para muitos, pode parecer inacreditável. Ademais, mesmo no caso dos sete por cento que não obtiveram sucesso, a causa invariavelmente reside na quantidade excessiva de venenos medicamentosos que haviam ingerido. O Johrei é, em suma, um método para a eliminação do yakudoku. Isso fica evidente ao se observar que a melhora do paciente é diretamente proporcional à redução dessas toxinas.
+
+Sendo assim, transformar o Japão em uma nação livre da tuberculose não é uma tarefa hercúlea. O objetivo pode ser plenamente alcançado por meio de duas medidas: a abolição completa dos fármacos e o incentivo à manifestação de resfriados.
+
+O Criador, ao conceber o ser humano como o protagonista deste planeta, proveu-o com alimentos suficientes para o sustento da vida e dotou-o do paladar. Portanto, se cada um simplesmente desfrutar dos alimentos que deseja consumir, isso basta para a manutenção da saúde, sem a necessidade de se preocupar com questões complexas como a nutrição. O princípio é análogo ao do desejo sexual: o objetivo não é a procriação, mas, como resultado do ato que visa a outro fim, a criança é concebida de forma natural. Depreende-se, pois, que o ser humano não deve introduzir em seu corpo nenhuma substância estranha que não seja o alimento a ele destinado. Substâncias sem sabor ou amargas, por exemplo, indicam, por sua própria natureza, que não devem ser ingeridas. O desconhecimento dessa verdade levou à criação de antigos ditados como "o bom remédio é amargo na boca", o que constitui um erro crasso.
+
+Dessa forma, como o aparelho digestivo foi projetado para processar apenas os alimentos designados, os fármacos, por serem corpos estranhos, não são devidamente metabolizados. Permanecem, assim, acumulados no organismo, tornando-se a matriz das doenças. Este princípio tem uma profunda relação com a varíola, tema que abordarei no próximo capítulo.
+
+---
+
+# O Equívoco da Medicina e a Verdadeira Causa da Doença
+
+**Categoria:** to | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 毒素とは何か 未発表 | **Status:** Unpublished
+
+## O Equívoco da Medicina e a Verdadeira Causa da Doença
+
+A causa das doenças reside no sofrimento decorrente da dissolução e eliminação de toxinas medicamentosas solidificadas no corpo. A medicina, todavia, interpreta equivocadamente esse processo e, em vez de o favorecer, busca solidificar novamente as toxinas que estão em vias de dissolução, introduzindo novos venenos no organismo com o propósito de debilitá-lo. Isso ocorre porque o processo de eliminação de toxinas — a purificação — é tanto mais vigoroso quanto mais saudável for o indivíduo. Portanto, para interromper a purificação, é preciso minar a saúde da pessoa.
+
+Desconhecendo esse princípio, o ser humano, desde tempos remotos, buscou tais venenos. Ao ingeri-los, seu corpo se enfraquecia, a purificação diminuía e o sofrimento se atenuava. Isso o levou à conclusão errônea de que estava sendo curado. Passou, então, a reverenciar essas substâncias, nomeando-as "remédios" e recorrendo a elas como única solução para as enfermidades. A esse respeito, as palavras do célebre médico da tradição sino-japonesa, Sugita Genpaku, são dignas de nota: "O remédio é um veneno. Administrá-lo para tratar uma doença é controlar um veneno com outro veneno". Trata-se de uma afirmação de grande acerto. Contudo, carece de uma precisão fundamental: seria mais exato dizer que se utiliza um veneno para impedir que outro veneno seja expelido.
+
+Em virtude desse princípio — o de paralisar a eliminação de toxinas por meio de outras toxinas —, um novo acúmulo de venenos se sobrepõe ao antigo. O conglomerado tóxico original passa a ser envolvido por novas camadas, o que torna o processo de purificação subsequente ainda mais penoso e severo. Diante desse quadro, mais venenos são administrados, avolumando progressivamente a carga tóxica no organismo. O corpo, assim, torna-se cada vez mais debilitado, e com ele a força purificadora se esvai.
+
+O indivíduo que chega a essa condição apresenta uma compleição pálida, contrai resfriados com facilidade, carece de vigor e vive imerso em um ciclo de médicos e medicamentos. Assemelha-se a um cadáver vivente, que atravessa seus dias em constante sofrimento, incapaz de realizar plenamente suas atividades. É uma figura digna de compaixão.
+
+Mesmo nesse estado deplorável, por não compreender a causa de seu mal, continua a peregrinar de médico em médico, buscando novos fármacos, recorrendo a moxabustão, a sortilégios, a terapias populares e até a diversas práticas de fé. Todavia, por ignorar a raiz do problema, após despender fortunas, acaba por fazer sua passagem para o outro mundo em meio a grande agonia. A causa primordial de tal infortúnio reside no equívoco da medicina. Seu erro constitui um crime de proporções assustadoras e aterradoras; analisando seus resultados, não seria exagero afirmar que a medicina se tornou uma fábrica de tragédias.
+
+Exponho estes fatos de forma deliberadamente franca e direta, ciente de que, ao lê-los, alguns profissionais da área médica poderão sentir-se ultrajados. Contudo, tal atitude é indispensável para a salvação de toda a humanidade. Corresponde a sacrificar o interesse menor em prol do bem maior, um ato que, em sua essência, manifesta o Grande Amor de Deus. Por essa razão, em vez de ressentimento, deveriam ser gratos por esta dádiva.
+
+Se, como resultado, o número de pessoas livres de doenças aumentar, como se tornará este mundo? O mundo infernal que conhecemos se transformará, inevitavelmente, em um Paraíso Terrestre, um mundo de suprema felicidade. A simples imaginação de tal realidade é suficiente para fazer brotar em nós a esperança de uma era de alegria e bem-aventurança.
+
+---
+
+# Um Apelo à Consciência das Autoridades
+
+**Categoria:** to | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
+**Título Original:** 当局に望む | **Status:** Published
+
+## Um Apelo à Consciência das Autoridades
+
+Após sermos submetidos a um interrogatório de crueldade extrema, desprovido de qualquer compaixão ou benevolência, torna-se para nós uma convicção inabalável a de que os responsáveis por tais funções necessitam, fundamentalmente, de um coração religioso. Como é evidente, para conduzir um acusado ao arrependimento, a mera acusação impetuosa e desmedida é ineficaz. O investigador deve, com um olhar de sabedoria, discernir os fatos. Se constatar a existência de um delito, é justo que o persiga até as últimas consequências. Contudo, se ficar provado que não há crime, ele deve abandonar a obstinação em suas suspeitas, retratar-se com hombridade e proceder à imediata absolvição do inocente. Se, porventura, houver uma falta de menor gravidade, basta que se aplique a sanção correspondente à sua natureza, pois este seria o procedimento correto.
+
+Nós mesmos não teríamos a menor objeção em receber a punição devida, caso reconhecêssemos a existência de alguma culpa. Todavia, aceitar resignadamente a pecha por um crime não cometido é algo que, sob qualquer hipótese, se mostra para nós inaceitável. O que desejo ressaltar aqui é que, ao enfrentar um interrogatório implacável, se a pessoa consegue admitir, ainda que minimamente, alguma parcela de culpa, o fardo se torna mais suportável. Quando isso não ocorre, o sofrimento espiritual para reprimir a insatisfação é, decerto, extraordinário. Perante as diversas irracionalidades que expus, creio ser um dever do povo democrático buscar a sua retificação. Portanto, o ato de redigir este registro emana de um incontido impulso por justiça, e peço que se compreenda a ausência de qualquer outra intenção.
+
+Por fim, há uma advertência que gostaria de fazer com especial ênfase. Refiro-me ao princípio da sinceridade, que incessantemente apregoamos, e que se reveste de importância ainda maior para aqueles que lidam com criminosos. Em qualquer circunstância, sem sinceridade, por mais que se empreendam esforços externos, o resultado será, em última análise, a mais absoluta ineficácia. Se assim é, de que maneira se pode cultivar essa sinceridade? A resposta reside na força da fé verdadeira. A origem da criminalidade, como é sabido, reside fundamentalmente no pensamento materialista e ateu, que prega a descrença em tudo o que é invisível. Portanto, a erradicação do materialismo constitui o método fundamental para a diminuição da delinquência, e esta é uma verdade imutável.
+
+Desse modo, é primordial que se faça reconhecer e crer na existência de Deus. Para tanto, é imprescindível que os próprios encarregados de interrogar os criminosos primeiramente reconheçam essa existência e, só então, possam abordar os acusados com sincero amor. Sem isso, é absolutamente impossível tocar o coração do outro. Em uma palavra, a verdadeira sinceridade só pode nascer do reconhecimento da existência de Deus. Quando se lida com um delinquente com base no amor sincero, essa sinceridade invariavelmente tocará sua alma, e só então seu coração começará a se mover.
+
+A experiência recente revelou-nos, de forma inequívoca, a ausência de fé por parte das autoridades investigadoras. Foi com o anseio de lhes fazer reconhecer a necessidade do espírito religioso também no mundo da lei que redigi este texto. Originalmente, não há quem não possua uma fé inata. Contudo, como resultado da educação materialista, da inércia e da falta de poder das religiões tradicionais, e do fato de que, à exceção de poucas, a maioria das novas religiões não apresenta nada de extraordinário, a sociedade chegou aos dias de hoje com uma aversão preconcebida. Não raro, quando expomos a alguém a quintessência da fé, não apenas a pessoa se recusa a experimentá-la, como também nos olha com desdém, como pobres almas aprisionadas pela superstição, não nos concedendo a menor atenção.
+
+Isso é particularmente verdadeiro entre os intelectuais, que parecem crer que discutir religião é algo que lhes fere a dignidade. Prova disso é que, embora tenhamos um número considerável de intelectuais que ingressaram em nossa fé, eles se abstêm de recomendá-la a outros, tendendo a mantê-la em segredo. Some-se a isso as notícias difamatórias veiculadas pela imprensa, a antipatia dos materialistas e a incompreensão das autoridades. Tentar expandir nossa obra em meio a esse cenário é, de fato, uma tarefa hercúlea. E por mais que nos esforcemos, não são poucos os que negam categoricamente a existência de Deus neste mundo, afirmando ser tudo mera superstição. A nosso ver, porém, são essas pessoas as verdadeiras supersticiosas, por tomarem como superstição aquilo que não o é. Sentimos, ao contrário, compaixão por elas, pois nós, os chamados supersticiosos, vivemos em um estado de serenidade e paz interior e, mesmo em meio a esta sociedade de contornos tão nefastos, desfrutamos de uma vida feliz e livre de qualquer ansiedade.
+
+Há ainda outra questão de suma importância: o preconceito aterrador contra nossas atividades religiosas. Ao investigar nossa Igreja, as autoridades focam apenas nos aspectos negativos, fechando os olhos para seus aspectos benéficos. É compreensível que, por dever de ofício, a promotoria concentre sua atenção somente nos fatos relacionados a crimes. No entanto, é preciso ponderar que não é a lei que precede a Nação; é a Nação que precede a lei. Ou seja, sendo a Nação o principal e a lei, o acessório, ao se investigar nossa Igreja, seria necessário observar tanto seus pontos negativos quanto os positivos. E os pontos positivos de nossa fé demonstram o quanto ela tem contribuído para o bem da Nação. São fatos concretos e vivos: pessoas desenganadas por grandes hospitais e por vários doutores que se recuperam de forma milagrosa; indivíduos de má índole, criminosos perigosos e jovens delinquentes que se regeneram; problemas de pobreza que são solucionados. Em suma, inúmeros seres humanos que representavam um fardo para a sociedade transformam-se em elementos positivos. Parte desses relatos está publicada em nossos impressos e, após a leitura, creio que não restará margem para dúvidas. Acima de tudo, o desenvolvimento sem precedentes de nossa Igreja é o maior testemunho disso.
+
+Contudo, em vez de enxergarem o lado bom de nossa obra, as autoridades buscam apenas por seus defeitos, questionando-se se não haverá alguma falha. Essa atitude ignora os interesses da Nação, priorizando unicamente a própria conveniência e vantagem. É verdade que se costuma dizer que é natural que, ao se esquadrinhar qualquer organização, alguma poeira se levante. Devido ao nosso rápido crescimento, é possível que existam algumas falhas de supervisão ou, por desconhecimento, pontos que infrinjam a lei, mas isso representaria, talvez, uma parte em dez. Se nove partes são brancas e uma é negra, é evidente que amparar as nove partes reverteria em benefício para o país. As autoridades, entretanto, fixam-se apenas na única parte e se recusam a ver as outras nove. Em outras palavras, expandem a parte negra para aniquilar as nove partes brancas. Seria compreensível salvar nove insetos matando um, mas o que ocorre é o oposto: salva-se um inseto para matar nove. Essa, provavelmente, é a verdadeira causa do incidente em questão.
+
+Essa "única parte negra" foi, evidentemente, fabricada por quadrilhas de extorsão que miram nossa Igreja, por indivíduos movidos pela inveja e pelo ciúme, por aqueles que se sentem prejudicados por nosso progresso e por opositores que nos veem como rivais comerciais. Suas invenções foram propagadas por jornais, revistas e pelo boca a boca, ganhando grandes proporções. Diante disso, as autoridades, sob o pretexto de que "onde há fumaça, há fogo", devem ter presumido que havia algo suspeito em nossa organização e planejado uma investigação a fundo. Estávamos cientes desses planos há vários meses. Embora alguns nos tenham feito diversas sugestões, estávamos convictos de que a verdade viria à tona, pois realizamos um trabalho digno, do qual não temos do que nos envergonhar perante os Céus, e por isso nada fizemos.
+
+As autoridades, por sua vez, investigaram bancos e outras instituições, mas, não encontrando depósitos vultosos, devem ter presumido que o dinheiro havia sido convertido em ouro, prata e joias e engenhosamente ocultado, o que teria motivado a busca e apreensão de grande envergadura a que fomos submetidos. Por outro lado, a suspeita das autoridades foi grandemente aprofundada pelas notícias difamatórias que, desde o ano passado, vinham preenchendo as páginas de jornais e revistas, alardeando que nossa receita diária ultrapassava dez milhões de ienes e que nossos ativos chegavam a bilhões. Embora não tenham acreditado em tudo, é de se imaginar que tenham dado certo crédito a tais boatos. Ademais, a calúnia na qual as quadrilhas mais se empenharam foi a de que escondíamos grande quantidade de barras de ouro e diamantes. Supõe-se, então, que as autoridades, pensando ter encontrado o fio da meada, tenham partido para a ação. E, uma vez lançada a suspeita, mesmo que se perceba o equívoco, parece que as autoridades relutam em desistir e insistem em levar sua intenção até o fim. Como resultado, veem-se forçadas a superdimensionar delitos de pequena monta.
+
+Gostaria de acrescentar que nossa Igreja foi constituída como pessoa jurídica religiosa em agosto de 1947, ou seja, há apenas dois anos e meio. Até então, nossos ativos eram insignificantes. Seria possível, neste mundo tão adverso, acumular um patrimônio fantástico de bilhões em um período tão curto? Basta o simples bom senso para compreender a impossibilidade disso. Portanto, se as autoridades de fato se deixaram levar por tais boatos e calúnias, significa que nossa Igreja foi vítima de uma calamidade atroz, o que é, de fato, profundamente lamentável.
+
+Diante do exposto, esperamos que, de agora em diante, as autoridades analisem nossa organização com imparcialidade, avaliando tanto seus aspectos positivos quanto os negativos. Se concluírem que os primeiros superam em muito os segundos, deverão reconhecer nosso valor e, mesmo que não nos apoiem, ao menos nos proteger, para que possamos desenvolver nossas atividades em paz. Em suma, trata-se de abandonar uma visão mesquinha por uma perspectiva magnânima, e creio que a liberdade religiosa não significa outra coisa.
+
+Desde a antiguidade, costuma-se dizer que árvores altas atraem mais vento e que o prego que se destaca é martelado. É exatamente assim. Lamenta-se com frequência a mentalidade insular dos japoneses, que se unem para abater qualquer um que comece a se sobressair. Os homens de discernimento suspiram constantemente, pois sabem o quanto essa atitude obstrui o progresso da nação. Enquanto esse aspecto não for corrigido, será impossível que algo de grandioso floresça em nosso país. Em contrapartida, ouvimos dizer que, nos Estados Unidos, quando alguém demonstra talento, a sociedade o apoia para que ele possa crescer ainda mais. Se as coisas continuarem como estão, o Japão permanecerá para sempre atrofiado em um canto da Ásia Oriental. Ansiamos ardentemente pelo dia em que essa consciência desperte, para que possamos, o mais rápido possível, edificar uma grandiosa nação cultural e contribuir para a paz mundial.
+
+---
+
+# Afinal, o que é superstição?
+
+**Categoria:** to | **Ano:** 昭和25(1950)年10月11日 | **Fonte:** Eikou
+**Título Original:** どちらが迷信だ | **Status:** Published
+
+## Afinal, o que é superstição?
+
+Basta mencionar a palavra superstição para que ela seja imediatamente associada à religião. Contudo, a verdade é que a superstição não se restringe ao campo religioso; ela permeia absolutamente todas as áreas da atividade humana, apenas não nos damos conta de sua presença. Com efeito, há superstições na ciência, na política, na filosofia, na educação e nas artes. Na verdade, são tantas que chegam a ser um problema. É incalculável o grau de sofrimento e infortúnio que essas inúmeras superstições têm infligido à humanidade.
+
+Dentre todas, a maior superstição é, sem dúvida, o pensamento materialista. Seus adeptos, orgulhosos, norteiam-se pelo preceito de que não se deve crer no invisível, aceitando apenas aquilo que os olhos podem ver. É justamente essa ideologia que gera criminosos, que destrói a saúde e que condena tantos à pobreza. Ademais, foi nesse terreno fértil que o comunismo floresceu, a ponto de se tornar, como vemos no cenário atual, a própria causa de uma Terceira Guerra Mundial. O mundo inteiro, nação por nação, encontra-se hoje atemorizado por essa ameaça. Isto, por si só, revela a terrível natureza da superstição materialista.
+
+Reflitam, caros leitores: desejariam ser cidadãos da União Soviética, ateia e comunista, ou dos Estados Unidos, cristãos e democráticos? A simples reflexão sobre essa escolha deveria bastar para que compreendam a questão.
+
+Conforme é de vosso conhecimento, tenho apresentado opiniões revolucionárias sobre a doença, a saúde e a agricultura. Mantenho pontos de vista igualmente transformadores a respeito de todas as demais manifestações culturais e pretendo expô-los gradualmente. No entanto, a tarefa é sobremaneira difícil. Por exemplo, temas relacionados à política são considerados vedados à religião. É verdade que, diferentemente do passado, hoje nos é reconhecida a liberdade de expressão, mas ela possui limites. Esses limites são definidos pelo ordenamento jurídico vigente, o qual, por sua vez, foi moldado com base na cultura estabelecida. Portanto, ainda que essa cultura contenha falhas supersticiosas, revelá-las não é algo que se permita com facilidade. Nesses casos, as autoridades costumam alegar a necessidade de manter a ordem social. A verdade, porém, é que nossas ideias seriam imensamente mais úteis para a preservação dessa mesma ordem.
+
+Se, porventura, eu tecer uma crítica à medicina e tentar alertar a sociedade sobre suas deficiências, deparo-me com uma porta de ferro, representada por acusações de violação da Lei Médica ou de obstrução ao exercício da profissão. Por mais notável e superior que seja uma opinião divergente, essa porta permanece intransponível. Sendo assim, a luta para erradicar as superstições fica restrita a certas esferas, e, por ora, não nos resta alternativa senão a paciência.
+
+Todavia, não alimento o menor pessimismo. A razão é simples: se Deus está a empregar Sua força para a salvação do mundo, tudo é apenas uma questão de tempo. Quando o momento certo chegar, aqueles que nos viam como supersticiosos perceberão que, na realidade, a superstição estava com eles. Tenho a mais firme convicção de que o dia em que virão buscar os ensinamentos de nossa Fé certamente chegará. Até lá, resta-nos apenas aguardar.
+
+---
+
+# O Deus do Tempo
+
+**Categoria:** to | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 時の神様 | **Status:** Published
+
+## O Deus do Tempo
+
+Absolutamente tudo o que concerne à humanidade e ao universo é governado pelo Deus do Tempo; não há, porventura, um único evento que escape ao Seu domínio. As vicissitudes da história, com seus ciclos de ascensão e queda, bem como o discernimento entre o bem e o mal, o certo e o errado, são realidades que não existem apartadas Dele. Nesse sentido, o que hoje é considerado um bem, anos mais tarde pode se tornar um mal; a verdade de hoje pode ser abandonada no futuro como uma inverdade; e o que hoje floresce pode, com o tempo, seguir o inexorável rumo da decadência. O legado da história narra essa realidade de forma irrefutável. Por conseguinte, afirma-se que não existe o bem absoluto, tampouco o mal absoluto, e a antiga máxima de que o bem e o mal são, em essência, uma só coisa, é, indubitavelmente, verdadeira.
+
+Tomemos um exemplo recente. Antes do fim da guerra, os japoneses acreditavam que a lealdade ao imperador e o amor à pátria eram valores supremos, a ponto de tratarem a própria vida com leviandade. Qual é a sua situação hoje? O resultado que se seguiu foi uma completa antítese dos objetivos de outrora, e ao observarmos a nação agonizar sob um destino trágico, ficou profundamente gravado na mente do povo o quão equivocados estavam. Essa transformação, súbita como o virar da palma da mão, ocorreu com o fim da guerra e foi, sem qualquer dúvida, uma deliberação do próprio Tempo.
+
+Ademais, em nossa história mais recente, há outros exemplos notáveis que não podem ser ignorados. Consideremos a era de apogeu do clã Tokugawa. Com o marco da Restauração Meiji, os daimyos e hatamotos, que até então detinham o poder, sofreram uma queda vertiginosa. Em contrapartida, simples estudantes, antes anônimos, ascenderam a postos de ministros e conselheiros de Estado. Tal cenário guarda notável semelhança com a conjuntura atual. A derrocada das classes privilegiadas do pré-guerra — membros da família imperial, da nobreza e os grandes magnatas — como será percebida aos olhos do povo? É evidente que tal fato se deve, inequivocamente, à atuação do Deus do Tempo. Nos escritos da fundadora da Oomoto, há uma passagem que diz: “Nem mesmo Deus pode se opor ao tempo oportuno”. Trata-se de uma afirmação de uma perspicácia extraordinária. Portanto, podemos afirmar sem receio que o governante supremo de tudo sobre a Terra é, de fato, o Deus do Tempo.
+
+Diante do exposto, torna-se imperativo que o ser humano dedique a máxima atenção a essa entidade absoluta que é o Tempo.
+
+---
+
+# A Expressão “Lutar Contra a Doença”
+
+**Categoria:** to | **Ano:** 昭和27(1952)年3月12日 | **Fonte:** Eikou
+**Título Original:** 闘病という言葉 医学断片集（２） | **Status:** Published
+
+## A Expressão “Lutar Contra a Doença”
+
+Não existe expressão mais equivocada do que esta. Ela denota uma mentalidade que encara a doença como uma inimiga, e a mais ínfima parcela de tal sentimento é o bastante para dificultar sobremaneira a recuperação.
+
+Como nossos membros bem sabem, a doença constitui o mais sublime método para a obtenção da saúde. Por essa razão, deve ser recebida não apenas com profunda gratidão, mas também com sincero acolhimento. Paradoxalmente, quanto mais o ser humano se permite passar pelas enfermidades, mais robusta se torna sua saúde, até que, por fim, ele cessa de adoecer.
+
+Escrevo estas linhas por ter me deparado, recentemente, com a expressão “luta contra a doença” no relato de graças de um de nossos membros.
+
+---
+
+# A Inviabilidade da Conquista Lunar
+
+**Categoria:** tu | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
+**Título Original:** 月世界 寸評（光25号） 白光生 | **Status:** Published
+
+## A Inviabilidade da Conquista Lunar
+
+Recentemente, chegou-me ao conhecimento que certos acadêmicos na Grã-Bretanha realizam estudos e preparativos com o intuito de viabilizar uma viagem à Lua.
+
+Contudo, tal empreendimento é uma impossibilidade absoluta. Ainda que um milhão de anos transcorram, ele permanecerá irrealizável.
+
+Diante disso, gostaria de lhes fazer uma recomendação: que direcionem seus valiosos esforços para outros campos de pesquisa.
+
+---
+
+# Um Apelo às Autoridades Fiscalizadoras
+
+**Categoria:** to | **Ano:** 昭和24(1949)年12月24日 | **Fonte:** -
+**Título Original:** 取締当局に要望する | **Status:** Published
+
+## Um Apelo às Autoridades Fiscalizadoras
+
+A história nos demonstra que, em todas as épocas, a proliferação de crenças espúrias e heréticas é um fato recorrente. O período atual, em especial no pós-guerra, não é exceção; pelo contrário, essa proliferação tornou-se ainda mais acentuada, com novas doutrinas surgindo uma após a outra, de maneira incessante. Se nos propuséssemos a examinar quantas dessas novas religiões possuem valor genuíno e uma autêntica razão de existir, o resultado seria, decerto, irrisório. Naturalmente, compete às autoridades fiscalizadoras exercer um controle rigoroso sobre os movimentos de índole duvidosa, e é seu dever profissional manter um olhar atento e um critério justo para não incorrer em equívocos.
+
+Contudo, se a tolerância for excessiva, corre-se o risco de que grupos suspeitos se multipliquem e atuem de forma descontrolada, razão pela qual a vigilância não pode ser negligenciada. Nesse contexto, torna-se quase inevitável que o ceticismo recaia sobre todas as novas religiões, que acabam sendo generalizadas e vistas sob a mesma ótica de desconfiança. Todavia, é um equívoco presumir que toda nova manifestação religiosa seja, por definição, herética. E é precisamente neste ponto que reside a questão fundamental.
+
+Basta observar as religiões já estabelecidas: as mais recentes contam com décadas de história, enquanto as mais antigas remontam a milênios. É fácil imaginar que, ao longo de sua trajetória, elas também foram confundidas com doutrinas questionáveis e superaram períodos de grande adversidade. Portanto, é lícito afirmar que as instituições que hoje perduram representam o que há de mais valioso, tendo sido postas à prova pelo tempo. Seguindo essa mesma lógica, não seria surpreendente que, entre os inúmeros movimentos que surgem atualmente, alguns poucos, dotados de valor e vitalidade, também venham a subsistir.
+
+Certamente, as autoridades devem levar esse aspecto em consideração. O que lamentamos, contudo, é a tendência de se fixarem apenas nos pontos negativos, restringindo sua análise à mera conformidade com os regulamentos e leis vigentes.
+
+Embora essa seja, compreensivelmente, a sua função, nosso mais sincero anseio é que voltem seu olhar também para o lado oposto da questão. Referimo-nos aos resultados práticos de nossa Igreja: o quanto ela tem contribuído para a melhoria da saúde do povo, para a elevação moral da sociedade e para a solução de problemas sociais que nem as leis nem a educação conseguem resolver. Esses são os aspectos positivos. Lidamos constantemente com questões complexas, cuja solução se mostra inviável por qualquer outro meio que não o religioso.
+
+Sendo assim, solicitamos que, dentre as inúmeras religiões existentes, a análise comparativa seja feita tendo como critério fundamental o seu valor prático. Ao adotar tal diretriz, não apenas a névoa da suspeita se dissipará, como também cessarão os prejuízos causados por artigos difamatórios veiculados em jornais e revistas.
+
+Dessa forma, nós, religiosos, poderemos nos dedicar em paz e com afinco à nossa missão de salvação da humanidade.
+
+Ousamos expor, com toda a franqueza, os anseios que nutrimos em nosso coração.
+
+---
+
+# Seria Tóquio uma capital estrangeira?
+
+**Categoria:** to | **Ano:** 昭和10(1935)年4月8日 | **Fonte:** Toho no Hikari
+**Título Original:** 東京は外国の都か 阿呆文学 | **Status:** Published
+
+## Seria Tóquio uma capital estrangeira?
+
+Outro dia, este simplório dirigiu-se ao restaurante de um teatro e pediu à garçonete que lhe servisse doces ocidentais. A resposta que obteve foi uma pergunta: “O senhor por acaso se refere a um *cake*?”.
+
+Foi então que este tolo se deteve a pensar por um instante: um japonês, na capital do Japão, utilizando o idioma pátrio, não conseguiu ser compreendido por um compatriota.
+
+Houve ainda outro episódio. Sendo eu um grande apreciador de biscoitos de arroz salgados para acompanhar o chá, pus-me a procurá-los durante um passeio por Ginza. Contudo, por mais que buscasse, não encontrei um único estabelecimento do gênero.
+
+Por toda parte, havia apenas cafés com sua fragrância exótica, onde se sorve café adocicado e se consomem guloseimas igualmente doces.
+
+Parece, com efeito, que os japoneses já não podem saborear os alimentos genuinamente nipônicos no coração de sua própria capital. Ah, em verdade, o que se convencionou chamar de "o espírito do tempo" é algo deveras temível.
+
+---
+
+# A Raiz da Moralidade
+
+**Categoria:** to | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 道徳の根源 | **Status:** Published
+
+## A Raiz da Moralidade
+
+Há um antigo ditado sobre aqueles que, embora versados nos Analectos de Confúcio, não os compreendem em sua essência. Tal adágio, evidentemente, refere-se à futilidade de ler obras admiráveis e ouvir nobres sermões sem, contudo, aplicá-los em nossa própria conduta. Contudo, proponho-me a elucidar a razão pela qual, mesmo sentindo-se profundamente comovidos ao ler e ouvir tais ensinamentos, os seres humanos se mostram incapazes de vivenciá-los.
+
+A causa para tanto reside na ignorância quanto à existência do espírito e do Mundo Espiritual. Tal desconhecimento se deve, em grande medida, à ausência, até os dias de hoje, de obras capazes de revelar essa verdade de forma autêntica. Decerto, a razão primordial é que em nenhuma das obras das grandes religiões — para não mencionar outros textos de filosofia e moral —, essa questão jamais foi exposta de maneira cabal e definitiva. Se nos perguntarmos por que assim o foi, a resposta é simples: vivíamos na Era da Noite, um período em que era impossível que a verdade plena viesse à luz.
+
+Nesse sentido, com o advento da Era do Dia, um tempo em que a Luz se difunde por toda parte, todos os fenômenos que no passado permaneciam obscuros passam a ser desvelados com uma clareza meridiana, tão nítida como a palma de nossa mão.
+
+Portanto, é agora, pela primeira vez, que o fundamento da moralidade pôde ser estabelecido. Consequentemente, adentramos um tempo em que ninguém, seja quem for, poderá se eximir de colocar em prática aquilo que aprende.
+
+Passarei, a seguir, a discorrer sobre esses pontos de forma ordenada.
+
+---
+
+# O Dever de Seguir a Razão Divina
+
+**Categoria:** to | **Ano:** 昭和25(1950)年11月20日 | **Fonte:** 世界Kyusei教早わかり
+**Título Original:** 道理に従う | **Status:** Published
+
+## O Dever de Seguir a Razão Divina
+
+A essência da fé, em uma única palavra, consiste em seguir a Razão Divina. Este termo é composto pelos ideogramas *Dou* (道), que significa Caminho, e *Ri* (理), que significa Princípio ou Razão. Dentre os dois, não há ideograma mais profundo que o de Caminho.
+
+Sob a perspectiva da ciência do *Kotodama*, o princípio espiritual das palavras, o som *mi* representa a água e o corpo, ao passo que o som *chi* representa o sangue e o espírito. *Mi* também se refere ao feminino, e *chi*, ao masculino, configurando assim a dualidade Yin e Yang. Do ponto de vista do ideograma, o caracter *kubi* (首), que significa “cabeça”, é acompanhado do radical *shinnyou*, que denota movimento. Se tomarmos o corpo humano como analogia, a cabeça é o seu componente mais vital. Pode-se sobreviver à perda de braços e pernas, mas a vida cessa no instante em que a cabeça é decepada. É curioso notar que a expressão japonesa para demitir um funcionário é, literalmente, “ter o pescoço cortado”. Sendo a cabeça um elemento de tamanha importância, a adição do radical de movimento confere a este ideograma um significado de extraordinária profundidade.
+
+Ademais, o Caminho é aquilo que permeia absolutamente tudo. Nenhum meio de transporte, onda de rádio, raio de luz ou interação humana pode existir sem ele. Até mesmo o movimento do Sol, da Lua e das estrelas segue uma órbita definida, ou seja, um Caminho. Sendo o Caminho o fundamento de todas as coisas, compreende-se quão grave é o erro de dele se desviar.
+
+Prossigamos para a análise do ideograma *Ri* (理). No *Kotodama*, os sons da família do “ra” aludem a uma espiral (*rasen*), que, em sua forma, se assemelha a um vórtice (*uzumaki*). Todo vórtice possui um centro, a partir do qual se origina um movimento de expansão e contração. Um giro para a esquerda gera uma força centrípeta, enquanto um giro para a direita gera uma força centrífuga. Tomemos como exemplo o centro de nossa Igreja, Hakone Gora (箱根強羅). O ideograma *go* (強) corresponde ao número cinco e ao elemento Fogo. *Ra* (羅), por sua vez, simboliza o vórtice. Assim, o nome “Gora” expressa o sentido de um ponto de Fogo que se expande de forma centrífuga. A tradicional forma do *tomoe* (巴), que representa a transição de um giro à esquerda para um giro à direita, é verdadeiramente mística. O *kotodama* das sílabas *ra, ri, ru, re, ro* corresponde à atuação das Divindades-Dragão (*Ryuujin*), e o próprio nome dragão, *ryuu* (龍), evoca este som. Quando inerte, o dragão assume a forma de um vórtice. A título de curiosidade, quem experimentar verificará que pessoas cujos nomes contêm esses sons frequentemente pertencem ao tipo Divindade-Dragão. Contudo, para não nos estendermos indefinidamente, encerremos aqui esta explicação.
+
+Analisemos agora o ideograma de *Ri* (理). O radical à esquerda, *ou* (王), que significa “rei”, simboliza os planos Celestial, Intermediário e Terrestre, assim como os elementos Fogo, Água e Terra, todos interligados por um eixo vertical. A parte direita é o caracter *sato* (里), que significa “aldeia”. Este, por sua vez, é formado por *ta* (田), “campo de arroz”, e *tsuchi* (土), “terra”. O ideograma *ta* representa um círculo contendo uma cruz, enquanto *tsuchi* é a junção de dez e um, simbolizando a unificação. Portanto, o significado de *Ri* é a atividade fundamental de todo o Universo; é a própria perfeição. Nesse sentido, o nome da religião Tenrikyo é muito bem escolhido.
+
+Frequentemente encontramos a palavra *rihou*, a Lei da Razão. Aproveitemos a oportunidade para decifrar também o ideograma de Lei, *Hou* (法). No *Kotodama*, *ho* representa o Fogo, e *o*, a Água. Segundo esta ciência, o som *o* está contido em *ho*, significando que o Fogo arde continuamente graças à presença da Água. Quanto ao ideograma, ele é composto pelos elementos “água” (水) e “partir” (去る). A água, por fluir na horizontal, traz consigo o risco da desordem. Consequentemente, ao se anular a ação da água, resta apenas o eixo vertical, que denota uma estabilidade rigorosa e imutável. Eis o motivo pelo qual se diz que a Lei não deve ser violada.
+
+Ao unirmos o significado de cada um desses ideogramas, a profundidade do termo Razão Divina torna-se evidente. Sendo um conceito de tamanha magnitude e significado, é imperativo que o ser humano o siga. Podemos, portanto, afirmar que a Razão Divina é o próprio Deus. Segui-la é seguir a Deus. Qualquer que seja a circunstância, o homem deve reverenciar a Razão Divina, pautar-se por ela e jamais dela se desviar.
+
+---
+
+# Os Prejuízos das Denúncias e Cartas Anônimas
+
+**Categoria:** to | **Ano:** 昭和24(1949)年11月12日 | **Fonte:** -
+**Título Original:** 投書密告による被害 | **Status:** Published
+
+## Os Prejuízos das Denúncias e Cartas Anônimas
+
+É compreensível que as autoridades valorizem denúncias anônimas como pistas para a investigação de crimes, e nós mesmos não hesitaríamos em manifestar nosso apoio a elas, desde que fossem feitas com seriedade e boas intenções. Contudo, é imperativo ter a máxima cautela com aquelas que são fruto de má-fé e conspiração, meras invenções e calúnias. Tentar obter satisfação pessoal por tais meios é, na verdade, um ato demoníaco.
+
+Nesse sentido, nossa Igreja tem sido uma vítima constante. Em especial, desde a questão fiscal do último outono, que nos tornou amplamente conhecidos e resultou na imposição de vultosos impostos, multiplicou-se drasticamente o número de indivíduos que visam nosso patrimônio. Desde então, eles nos importunam incessantemente, apresentando toda sorte de problemas forjados. Ao analisarmos cada um desses casos, constatamos que, sem exceção, não passam de engenhosas tentativas de extorsão.
+
+Quando tais esquemas atingem grande escala, os métodos empregados são de uma astúcia tão refinada que suas maquinações criativas chegam a ser dignas de espanto. É alarmante constatar que, entre as pessoas manipuladas por eles, encontram-se não apenas personalidades conhecidas, mas até mesmo parlamentares, que chegam a mobilizar a grande imprensa a seu favor. Diz-se que despendem somas consideráveis em suas manobras, agitando-se dia e noite em seus propósitos, algo que uma pessoa comum jamais poderia conceber.
+
+Diante desse cenário, a estratégia habitual desses indivíduos para mobilizar as autoridades são as denúncias e as cartas anônimas. Curiosamente, antes de enviá-las, eles por vezes nos procuram para vender o dossiê, um manuscrito com centenas de páginas, exigindo valores exorbitantes. Contudo, se cedêssemos uma única vez, a notícia se espalharia entre seus comparsas, e logo surgiriam outros tentando vender suas próprias versões. Cientes disso, adotamos a política de recusar firmemente tais propostas. Como retaliação, eles então partem para uma ação em larga escala, enviando as denúncias a diversas autoridades competentes. Nessas cartas, enumeram acusações calculadas para despertar o máximo interesse investigativo. Embora as autoridades, naturalmente, não acreditem em tudo de imediato, uma semente de dúvida é plantada, dando início a um processo de averiguação. É nesse momento que os malfeitores, agindo por vias inesperadas, nos ameaçam com a iminência de uma repressão oficial, na tentativa de nos extorquir dinheiro para supostamente intermediar a situação. É impossível não se espantar com a gravidade de suas conspirações.
+
+Tais ações, que sobrecarregam as autoridades e nos causam enormes transtornos, não podem ser classificadas senão como atos demoníacos. Conforme mencionei, esses grupos agem de forma coordenada, por meio de uma vasta rede de contatos. É de se supor que pessoas com algo a esconder, ao se tornarem alvo deles, acabem sendo extorquidas em altas somas. Todavia, em se tratando de nós, que somos, acima de tudo, religiosos com a missão de promover o bem na sociedade, não há qualquer motivo para que tenhamos a menor conduta reprovável. Portanto, é natural que não cedamos, por mais que eles conspirem. Como uma nova religião que alcançou um desenvolvimento extraordinário e conquistou a confiança absoluta de centenas de milhares de fiéis, a menor mácula em nossa reputação teria um impacto devastador sobre toda a organização.
+
+Pelo exposto, ao se determinar a veracidade de denúncias e cartas anônimas, rogamos encarecidamente que os responsáveis pelo seu discernimento atuem com um olhar aguçado e uma atitude de extrema prudência.
+
+---
+
+# O Princípio Vertical e Horizontal
+
+**Categoria:** to | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 東洋と西洋 | **Status:** Published
+
+## O Princípio Vertical e Horizontal
+
+É de conhecimento universal que todas as coisas existentes entre o Céu e a Terra possuem os aspectos Yin e Yang. Eu, por minha vez, classifico esses dois princípios em um eixo vertical e um eixo horizontal. Nessa perspectiva, Yang corresponde ao vertical, e Yin, ao horizontal. Permitam-me, pois, apresentar uma classificação destes dois eixos, conforme se segue:
+
+**Eixo Vertical** – Sol, Fogo, Oriente, Espírito, Homem, Budismo, Vermelho, Montanha, Dia.
+**Eixo Horizontal** – Lua, Água, Ocidente, Matéria, Mulher, Cristianismo, Branco, Mar, Noite.
+
+A classificação apresentada é, por certo, um esboço. A partir dela, explicarei como todas as coisas manifestam esses eixos vertical e horizontal. O Oriente, por exemplo, sendo de natureza vertical, fundamenta-se na reverência aos antepassados, na exaltação da lealdade e da devoção filial, na preocupação em legar prosperidade aos descendentes e em uma estrutura social de hierarquia rigorosa. Em contrapartida, o Ocidente, de natureza horizontal, parte do amor conjugal como alicerce, expandindo-se para o amor ao próximo e, por fim, evoluindo até alcançar o amor universal pela humanidade. Trata-se, portanto, de uma expansão infinita no plano horizontal.
+
+Ademais, no Oriente, reconhece-se a autoridade absoluta do homem, sendo a mulher vista como sua seguidora. No Ocidente, contudo, os direitos da mulher são afirmados, e a isonomia entre os sexos é considerada um preceito fundamental.
+
+Conforme exposto, até os dias de hoje, o Oriente apegou-se firmemente à sua linha vertical, enquanto o Ocidente contentou-se com a linha horizontal. Todavia, é imperativo que, em algum momento, esses dois eixos se unam, formando uma cruz. Essa união representa nada menos que a fusão da civilização espiritual do Oriente com a civilização material do Ocidente. Será por meio dessa junção que a humanidade adentrará, pela primeira vez, uma era de cultura ideal. A cruz do Cristianismo é uma alusão a essa verdade, e a suástica do Budismo, o *manji* (卍), certamente possui um significado análogo.
+
+Nesse sentido, o eixo vertical representa o espírito, e o horizontal, a matéria. De sua união, origina-se a força, ou *chikara* (力). Na ciência espiritual da palavra, *chi* corresponde ao sangue, que é o espírito, e *kara* representa o invólucro, o corpo, o receptáculo do espírito. O sangue, que é o espírito, circula verticalmente no corpo humano. Quando o espírito, o *chi*, se retira, o corpo torna-se um invólucro vazio, um *kara* (空); daí a palavra japonesa para despojos, *nakigara*. O próprio termo para corpo, *karada*, remete a essa ideia de receptáculo. De modo semelhante, a palavra *hito*, que significa “ser humano”, deriva de *hi*, espírito, e *to*, que significa “pousar” ou “permanecer”. Logo, o ser humano é aquele em quem o espírito pousou e permanece.
+
+Enquanto o ser humano está vivo, ele se mantém em uma posição vertical, pois o sangue — a materialização do espírito, que é vertical — flui em seu interior. Com a morte, o espírito se evade, restando apenas o corpo material, horizontal, que então é deitado. Existe ainda outra correspondência: o corpo na vertical é quente, mas, ao se deitar, esfria, necessitando de agasalho. Isso ocorre porque, no Mundo Espiritual, o elemento fogo movimenta-se verticalmente, enquanto o elemento água flui no sentido horizontal.
+
+A esse respeito, gostaria de tecer algumas considerações sobre a forma da cruz. Até o fim da guerra, o Japão, sob a influência de seu sistema feudal, era excessivamente vertical. A rigidez de sua estrutura hierárquica tornou-se uma das causas do conflito e da imensa aflição imposta ao povo. Foi então que Deus, para salvar o povo japonês, atuou por meio da força horizontal da democracia. Simplificando, Ele introduziu no Japão, o eixo vertical, o modelo americano, que é o eixo horizontal. Dessa forma, o vertical e o horizontal se uniram, e uma nova cultura em forma de cruz nasceu.
+
+Quem compreende este princípio percebe que a recente derrota do Japão deve ser motivo de alegria. Nossa nação tornou-se, de fato, um país abençoado. Por isso, creio que nós, japoneses, devemos ter essa consciência, olhar com esperança para o futuro e nos esforçar para construir uma nação tão admirável que venha a ser reverenciada por todo o mundo.
+
+---
+
+# A Origem da Dor e do Sofrimento
+
+**Categoria:** tu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 痛苦 | **Status:** Published
+
+## A Origem da Dor e do Sofrimento
+
+Conforme já explanei anteriormente, a dor, ou o sofrimento, origina-se do processo de purificação. Quando as toxinas solidificadas são dissolvidas e se liquefazem pela febre purificadora, esta matéria liquefeita busca uma via de escape. O movimento em direção a essa saída estimula os nervos dos músculos, gerando a sensação dolorosa.
+
+As manifestações da dor são, de fato, multiformes, abrangendo enfermidades como apendicite, peritonite aguda, nefrite aguda, espasmos gástricos e intestinais, cefaleias, dores de dente, otite média, reumatismo e as mais diversas nevralgias. Contudo, a grande maioria desses padecimentos decorre do princípio que acabo de expor.
+
+Adicionalmente, a causa das dores relacionadas aos ossos, como a periostite, a osteomielite e a cárie das costelas, reside nas toxinas solidificadas na membrana do periósteo. Durante o processo de purificação e dissolução, essas toxinas tentam exsudar para a superfície, criando inúmeras e minúsculas perfurações no próprio osso. É este processo que ocasiona uma dor lancinante. O mesmo princípio se aplica a afecções como a periodontite e a otite média. É importante ressaltar que, uma vez sanada a enfermidade, essas perfurações se regeneram prontamente, retornando o osso ao seu estado original. Nesses casos, os médicos frequentemente afirmam que o osso está se decompondo, o que constitui um grave equívoco.
+
+Consideremos, em seguida, a dor excruciante do panarício e da gangrena. Nessas condições, a área afetada incha, adquire uma coloração arroxeada e escura, e se expande gradualmente. Sua aparência, que se assemelha à de um tecido em putrefação, leva os médicos a diagnosticar necrose e a recomendar a amputação imediata como a melhor solução. Todavia, trata-se de outro equívoco monumental. A prova disso reside no fato de que tal expansão invariavelmente cessa após atingir um determinado ponto, o que demonstra, de forma inequívoca, que não se trata de um processo de decomposição.
+
+Existem ainda os casos de queimaduras, cortes e contusões. Diferentemente das doenças, essas lesões possuem um processo de cura natural. Contudo, é extremamente comum que a aplicação de antissépticos e outros medicamentos dificulte e retarde essa recuperação. Nessas situações, ao abandonar o uso de fármacos e apenas lavar a área afetada com água limpa, a cura ocorre de maneira natural e eficiente.
+
+Portanto, como já afirmado, a causa primordial de todo sofrimento reside nas toxinas medicamentosas. A existência de uma vasta gama de dores corresponde, consequentemente, à vasta gama de medicamentos que as originam.
+
+Por meio desta arte de cura, o sofrimento é sanado com celeridade. Mesmo as dores mais lancinantes, como as do panarício e da gangrena, cessam após uma a três ministrações, para o assombro e a alegria dos pacientes.
+
+---
+
+# O ser humano, uma massa de toxinas
+
+**Categoria:** to | **Ano:** 昭和28(1953)年9月16日 | **Fonte:** Eikou
+**Título Original:** 毒塊人間 | **Status:** Published
+
+## O ser humano, uma massa de toxinas
+
+Costumo afirmar que o ser humano moderno é uma massa de toxinas. Embora possa parecer uma colocação deveras severa, trata-se de uma realidade inegável. Como todos os fiéis bem sabem, qualquer pessoa hoje em dia transformou-se em uma verdadeira massa de toxinas, em virtude de duas naturezas de venenos medicinais: os congênitos, herdados dos antepassados, e os adquiridos após o nascimento. Minha experiência de mais de duas décadas, ao tratar de dezenas de milhares de pessoas, comprova que não há uma única exceção. Poder-se-ia dizer que, quase sem exceção, são massas de toxinas com forma humana. É verdade que, por meio do Johrei, essas toxinas são facilmente dissolvidas e eliminadas, e a saúde melhora a ponto de não haver mais risco de vida. Contudo, a remoção completa de todas as toxinas medicinais é uma tarefa que dificilmente se concluiria em toda uma existência.
+
+Diante de tal realidade, torna-se quase cômico observar essas massas de toxinas em forma humana agindo com arrogância e proferindo argumentos pretensiosos. É natural, portanto, que delas não emane nenhuma sabedoria genuína. Isto ocorre porque, segundo a Lei Espiritual, as toxinas tendem a se acumular e solidificar nas áreas onde a atividade nervosa é mais intensa. Visto que o homem moderno utiliza o cérebro em demasia, as toxinas se concentram e se solidificam na região que vai do pescoço aos ombros. Qualquer pessoa pode constatar essa verdade ao apalpar tal área, onde certamente encontrará nódulos e enrijecimentos de diversos tamanhos.
+
+A purificação desses nódulos manifesta-se como o resfriado. Se o processo seguir seu curso natural, as toxinas são expelidas sem percalços e a cura se estabelece. A medicina, em sua ignorância, contudo, utiliza medicamentos e outros meios para interromper essa eliminação, solidificando ainda mais as toxinas. Ademais, como novos venenos medicinais são administrados nesse processo, os nódulos tóxicos aumentam de volume. Consequentemente, a pessoa se torna uma massa de toxinas ainda maior, o que, por sua vez, torna as purificações mais frequentes, resultando no elevado número de doentes que vemos hoje. Como o cérebro é a área mais afetada, o número de indivíduos com raciocínio debilitado só aumenta. Pode-se afirmar que quase ninguém está isento de sofrimentos como dores de cabeça, sensação de peso na cabeça, confusão mental, irritabilidade e tonturas. Em decorrência disso, a capacidade de julgamento se torna obtusa, a ponto de não se conseguir mais distinguir o certo do errado. A falta de bom senso, o declínio da inteligência, a lentidão de raciocínio e a insensibilidade são manifestações evidentes, como cada um pode perceber ao observar a si mesmo, levando as pessoas a agirem de forma imediatista. Portanto, é espantoso o número de ocorrências nefastas — doenças, crimes, miséria, conflitos —, que transformam a sociedade em um verdadeiro painel do inferno.
+
+Nesse sentido, desejo ressaltar particularmente o baixo nível dos intelectuais. As teses que defendem são repletas de contradições, desprovidas de convicção ou princípios, e carecem de lógica. Não passam de um mero alinhamento de palavras impressas, cujo propósito, na maioria das vezes, parece ser apenas o de preencher páginas para garantir o sustento. De fato, ao lermos os artigos de opinião recentes, raramente encontramos algo que permaneça na memória. Para ilustrar, citarei alguns exemplos, começando pelos religiosos. Seus sermões nada mais são do que doutrinas antiquadas, de centenas ou milhares de anos, às quais se deu uma nova roupagem, sem apresentar, contudo, qualquer elemento de novidade. Naturalmente, é quase impossível que consigam inspirar ou comover as pessoas.
+
+Vejamos o caso dos políticos. Questões que uma mente comum resolveria em no máximo trinta minutos são debatidas por grandes comitês durante dias, meses e até anos, sem que se chegue a uma conclusão. Tal fato revela o grau de deterioração de suas mentes. A questão do rearmamento, por exemplo, cujos prós e contras são de uma clareza meridiana, permanece até hoje em um infindável impasse, o que corrobora minha afirmação. Isso se deve, provavelmente, à ausência de líderes sábios e confiáveis, o que é deveras lamentável. A esse respeito, costumo orientar meus subordinados a encerrar qualquer reunião ou deliberação que se estenda por mais de trinta minutos. Se, ainda assim, um consenso não parece próximo, não raro exerço minha autoridade e resolvo a questão com uma única palavra. É por essa razão que, em nossa Igreja, tudo se desenvolve com grande celeridade.
+
+Passemos ao mundo econômico, cujos integrantes também denotam uma inteligência excessivamente precária. Como é de conhecimento geral, desde os líderes do governo e do setor financeiro até os comerciantes e industriais japoneses, todos vivem atormentados por dívidas. Provavelmente, não há no mundo nação mais assolada pela inflação de débitos do que o Japão. A causa primordial para tal situação reside na incompetência em equilibrar lucros e juros, na incapacidade de prever os ciclos de prosperidade e declínio dos negócios, e na falta de visão para antecipar as tendências mundiais e os rumos da economia nacional. Tudo isso se deve, evidentemente, à obtusidade de suas mentes, quadro que é ainda mais agravado pela angústia gerada pelo endividamento.
+
+Haveria muito mais a dizer, mas creio que o exposto já seja suficiente para a compreensão do quadro geral. Gostaria, no entanto, de acrescentar um último ponto: a alarmante proliferação de problemas nefastos em todos os setores da sociedade. Acidentes de trânsito, incêndios, desastres em minas, assassinatos e agressões, suicídios, pactos suicidas, litígios judiciais, além de tufões, inundações e pragas na agricultura... Em suma, a totalidade desses males é consequência da falta de clareza mental, cuja causa fundamental são as toxinas medicinais. Sinto, pois, a urgência de despertar a humanidade para esta verdade. Falando sem rodeios, a sociedade atual não me parece outra coisa senão um aglomerado de seres humanos-toxina que se acotovelam e se agitam em desordem. Ao ponderar sobre isso, não posso deixar de imaginar o quão imenso é o trabalho de Deus para purificar semelhante estado de coisas.
+
+---
+
+# A Diferença entre o Tratamento Médico e o Johrei em Relação a Acidentes por Queda
+
+**Categoria:** tu | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 墜落に対する医療と浄霊との相違 未発表 | **Status:** Unpublished
+
+## A Diferença entre o Tratamento Médico e o Johrei em Relação a Acidentes por Queda
+
+É desnecessário discorrer sobre a impotência da medicina frente a lesões e traumas decorrentes de quedas. Contudo, ao observar a evolução do caso desta criança [omitido], até a pessoa mais cética compreenderá a magnificência do Johrei. A medicina, por sua vez, estabelece terapias distintas para cada enfermidade e adota procedimentos para lesões externas que divergem sobremaneira dos métodos da medicina interna. Tal fragmentação ocorre porque os médicos desconhecem por completo a essência do corpo humano e ignoram totalmente sua natureza como uma existência mística. Diante dessa ignorância, é perfeitamente natural que as doenças não sejam curadas.
+
+Nesse sentido, a Medicina Espiritual distingue-se radicalmente, pois adota um método único para toda e qualquer enfermidade. Em outras palavras, curamos todas as doenças por meio de um único princípio. Visto que este princípio constitui a Verdade, a cura é, mais uma vez, uma consequência inevitável.
+
+Portanto, é verdadeiramente lastimável a condição do ser humano na atualidade, que deposita confiança absoluta em uma arte médica tão rudimentar. Falando abertamente, de um lado temos aqueles que vivem dias de extrema apreensão; de outro, os que desfrutam de uma vida inteiramente livre de inquietações. Os fatos, conforme este escrito os narra, atestam essa realidade. Sendo assim, a escolha entre um caminho e outro dispensa qualquer deliberação.
+
+---
+
+# A Origem do Pecado é o Remédio
+
+**Categoria:** tu | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
+**Título Original:** 罪の因は薬 | **Status:** Published
+
+## A Origem do Pecado é o Remédio
+
+O título deste artigo certamente causará grande espanto em quem o ler. Afinal, a ideia de que o pecado e os remédios possuam qualquer relação parece, à primeira vista, inconcebível. Contudo, a verdade é que essa relação existe e é profunda, a ponto de soar fantástica e extraordinária.
+
+Passarei a expor essa verdade. Conforme sempre ensino, o remédio é uma toxina. Quando introduzido no corpo, ele impurifica o sangue. O sangue impuro, por sua vez, obscurece o espírito; e um espírito obscurecido gera no ser humano uma sensação de mal-estar. Esse mal-estar é o verdadeiro algoz. Como resultado, a pessoa torna-se impaciente e irritadiça, predispondo-se com facilidade a conflitos. Com efeito, quando estamos de bom humor, somos capazes de relevar uma observação descabida com um simples sorriso. Todavia, quando o mal-estar nos domina, a menor trivialidade é suficiente para despertar a nossa ira. Dessa forma, o estado de espírito pode tanto iluminar quanto obscurecer a vida de uma pessoa. E, por estar intimamente ligado à boa ou à má sorte, não deve jamais ser subestimado.
+
+A importância das emoções na vida humana é inegável, pois delas dependem inúmeros aspectos do nosso cotidiano. O sucesso de funcionários públicos e empregados de empresas privadas, que conquistam o apreço e a confiança de seus superiores; a harmonia no relacionamento com colegas; o prestígio de um comerciante junto à sua clientela; e até mesmo o desempenho de técnicos e o aproveitamento de estudantes são, como todos sabem, profundamente influenciados pelo estado emocional. Os exemplos citados são comuns, mas, quando essa dinâmica se agrava, as consequências podem ser devastadoras.
+
+A menos que possua um elevado grau de aprimoramento espiritual, a pessoa comum, ao sentir-se mal, buscará algum tipo de estímulo para aliviar seu desconforto. Nesse sentido, o álcool é o refúgio mais frequente, seguido pelos jogos de azar. A popularidade recente de modalidades como as corridas de bicicleta e o *pachinko* ilustra bem esse fenômeno. Há também aqueles que, ao obterem alguma estabilidade financeira ou posição social, buscam o estímulo da vida luxuosa e da companhia de mulheres. Como tais prazeres exigem dinheiro, muitos acabam recorrendo a meios ilícitos para obtê-lo. Desvios de verba, estelionatos e atos de corrupção nascem dessa busca. O mais assustador, contudo, é a frequência com que vemos indivíduos que chegam a cometer assassinato por quantias irrisórias. Diante disso, costuma-se dizer que por trás de todo crime há uma mulher. Eu, porém, gostaria de afirmar que, por trás da mulher, há o remédio.
+
+Assim, na ânsia de aplacar o mal-estar, as pessoas procuram estímulos cada vez mais intensos, o que fomenta a proliferação de centros de entretenimento de natureza corruptora. Somam-se a isso o desenvolvimento dos meios de transporte, que tornam o acesso a esses locais extremamente fácil, e o colapso das antigas estruturas sociais. O resultado é a mentalidade que hoje prevalece em nossa sociedade: a de que levar uma vida íntegra é tolice.
+
+Até aqui, descrevi apenas um dos aspectos do problema. Vejamos agora o seu lado mais sombrio, que é igualmente grave. A causa principal, evidentemente, é a doença. O homem moderno, ao consumir remédios e aplicar injeções de forma indiscriminada, apenas agrava seu estado, multiplicando as enfermidades e, consequentemente, o número de pessoas que vivem em constante mal-estar. Surgem então as dificuldades financeiras, decorrentes das despesas médicas e da perda de renda pelos dias de trabalho perdidos. Para contorná-las, a pessoa contrai dívidas e acaba por causar transtornos a terceiros. A vida torna-se cada vez mais amarga e desinteressante. Além disso, como a medicina convencional apenas suprime temporariamente os sintomas sem jamais curar a raiz do mal, as doenças se prolongam indefinidamente. Encurralada, sem ver qualquer saída, a pessoa desesperada pode recorrer ao roubo. As de índole mais fraca chegam a atentar contra a própria vida ou a cometer o suicídio familiar.
+
+Tragédias como essas estampam diariamente as páginas dos jornais, sendo particularmente numerosas aquelas relacionadas à tuberculose. Analisando a questão sob essa perspectiva, compreende-se que a causa dos crimes é o mal-estar que aflige o ser humano e que a causa desse mal-estar, por sua vez, é o remédio. Creio que, assim, o significado do título deste artigo se tornou perfeitamente claro.
+
+---
+
+# A Surdez, a Constipação e a Difteria Sob a Ótica Espiritual
+
+**Categoria:** tu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 聾耳、便秘、ジフテリヤ | **Status:** Published
+
+## A Surdez, a Constipação e a Difteria Sob a Ótica Espiritual
+
+A surdez, em muitos casos, origina-se de causas espirituais. A primeira reside na perda do tímpano em decorrência de uma morte violenta em vida anterior; o espírito, não se recuperando plenamente no Mundo Espiritual, renasce prematuramente com essa condição. A segunda refere-se à reencarnação ou à obsessão por um espírito de árvore, conhecido como *Mokuryu*. Conforme já mencionado, o *Mokuryu* é o espírito obsessor de uma árvore e, quando esta é derrubada, seu espírito pode vir a obsidiar os descendentes da pessoa responsável pelo ato. Todavia, a surdez causada por um *Mokuryu* é das mais difíceis de se curar. É digno de nota que o ideograma para surdez (聾) é formado pelos caracteres “dragão” e “ouvido”, o que sugere que os antigos detinham esse conhecimento.
+
+Prosseguindo, a constipação de origem espiritual restringe-se aos lactentes. Existem casos em que a criança já manifesta a condição desde o nascimento. A causa reside na reencarnação de um espírito que, em sua vida anterior, veio a falecer sofrendo de constipação. É possível identificar tais bebês com facilidade, pois suas feições assemelham-se às de um adulto, particularmente às de um idoso. Portanto, se o quadro não for interferido, a condição geralmente se normaliza após um ou dois meses e, a essa altura, a fisionomia da criança adquire os traços próprios de um bebê. Nesse sentido, ao observarmos atentamente o rosto dos recém-nascidos, notamos que muitos possuem uma aparência envelhecida. Tal fato constitui uma evidência da reencarnação humana, tornando-a inquestionável.
+
+Por fim, a difteria é frequentemente causada pela obsessão do espírito de um gato morto. Nesses casos, existe um método para discernir se a origem é ou não espiritual. Primeiramente, ao se projetar energia espiritual em direção ao nariz do paciente, se ele emitir espirros ou miados semelhantes aos de um felino, fica comprovado tratar-se do espírito de um gato.
+
+---
+
+# A Origem Espiritual da Surdez, da Constipação e da Difteria
+
+**Categoria:** tu | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 聾耳及び便秘とジフテリヤ ・病気と霊八 | **Status:** Published
+
+## A Origem Espiritual da Surdez, da Constipação e da Difteria
+
+A surdez possui causas tanto espirituais quanto físicas. Abordemos, primeiramente, o aspecto espiritual.
+
+No âmbito espiritual, sua origem reside na possessão pelo que denomino espírito-dragão arbóreo. Como já elucidei, trata-se do espírito de uma árvore que, ao ser derrubada, aloja-se nos descendentes daquele que a cortou. A surdez decorrente desta causa específica é a mais refratária ao tratamento. O próprio ideograma para surdez é composto pelos elementos de "dragão" e "ouvido", o que me leva a crer que os antigos já possuíam tal conhecimento.
+
+Prossigamos. Há casos em que um recém-nascido já apresenta constipação intestinal desde o seu primeiro dia de vida. Embora seja um bebê, a evacuação ocorre apenas a cada três ou cinco dias. Qual seria a causa de tal fenômeno? Trata-se de um indivíduo que, em sua vida pregressa, faleceu sofrendo de constipação e agora renasceu com essa mesma condição. Por essa razão, a fisionomia de tais bebês não é pueril; assemelha-se à de uma pessoa de meia-idade ou até mesmo de um idoso, o que os torna facilmente identificáveis. Contudo, não há motivo para preocupação. Se o quadro for deixado a evoluir naturalmente, em um ou dois meses, a função intestinal da criança se normalizará, equiparando-se à dos demais bebês. Naturalmente, à medida que a evacuação se regulariza, suas feições também adquirem a aparência característica de um recém-nascido. Este fenômeno constitui uma prova irrefutável da reencarnação humana. De fato, a existência de recém-nascidos com semblante de idoso, algo que se observa com certa frequência, é mais uma evidência que corrobora a realidade da regeneração espiritual.
+
+Finalmente, abordemos a difteria. Sua causa, em grande parte dos casos, é a possessão pelo espírito de um gato falecido. Nessas circunstâncias, o choro da criança pode soar notavelmente semelhante ao miado de um felino. Ademais, ao projetarmos energia espiritual em direção ao nariz da criança, ela passa a espirrar repetidamente, de maneira análoga a um gato.
+
+---
+
+# O Equívoco da Reação à Tuberculina
+
+**Categoria:** tu | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** ツベルクリンの注射 | **Status:** Published
+
+## O Equívoco da Reação à Tuberculina
+
+Elucidarei, a seguir, os motivos pelos quais a injeção de tuberculina resulta em reações positivas e negativas.
+
+Conforme mencionei anteriormente, o corpo humano se encontra em um processo ininterrupto de purificação. Por conseguinte, ao se injetar subitamente uma substância estranha ou um veneno, desencadeia-se de imediato uma ação purificadora no local. É por essa razão que a área apresenta vermelhidão ou inchaço. A título de ilustração, o princípio é o mesmo que ocorre quando somos picados por um mosquito, um inseto venenoso ou uma abelha, e o local incha. Trata-se do acúmulo de sangue, que aflui rapidamente com o propósito de neutralizar a toxina.
+
+Isso por si só demonstra que o próprio sangue possui uma capacidade desintoxicante. Em contrapartida, o indivíduo que apresenta reação negativa é aquele cuja força desintoxicante do sangue é tênue, impedindo a ocorrência do inchaço; em outras palavras, seu sangue carece de vitalidade. Contudo, quando a injeção de tuberculina é aplicada pela segunda ou terceira vez, a reação finalmente se converte em positiva. Isso ocorre porque, com a duplicação ou triplicação da substância estranha injetada, a própria capacidade de desintoxicação do sangue — ainda que débil — acaba por aumentar na mesma proporção, tornando o indivíduo positivo.
+
+Diante do exposto, fica evidente que as reações positiva e negativa nada mais são do que uma manifestação da intensidade da força purificadora frente à inoculação de uma substância estranha. Sendo assim, a injeção de tuberculina não possui qualquer relação com a tuberculose. Apesar disso, a interpretação da medicina, que a considera como o único método para diagnosticar a doença, afigura-se-me incompreensível. Por tal motivo, não posso deixar de lamentar o quão fútil é o dispêndio de tantos recursos e esforços na aplicação de uma injeção desprovida de qualquer significado.
+
+Permitam-me, ademais, apontar outro ponto da teoria médica sobre a injeção de tuberculina que considero extremamente ilógico. A medicina postula que o inchaço ocorre porque o indivíduo, já tendo sido infectado pela bactéria viva da tuberculose, desenvolveu antitoxinas. Todavia, essa é uma interpretação inversa da realidade. Ora, se as referidas antitoxinas são elementos gerados para a defesa contra bactérias vivas, não haveria necessidade de produzi-las em resposta a bactérias mortas.
+
+Outro ponto digno de nota é o seguinte: se o postulado da medicina estivesse correto, qual seria a explicação para o intenso inchaço que ocorre quando uma pessoa é picada por uma abelha pela primeira vez na vida? Seguindo a lógica médica, seria preciso concluir que ela já possuía e mantinha em seu organismo antitoxinas contra o veneno da abelha. É, de fato, uma história deveras absurda.
+
+Vejamos outro caso: quando os japoneses são picados por percevejos, o local invariavelmente incha. Já os chineses não apresentam qualquer reação. Isso se deve, evidentemente, ao fato de que, por serem picados desde a tenra infância, desenvolveram uma grande quantidade de antitoxinas. O mesmo ocorre com as picadas dos borrachudos que se encontram em campos e matas. No início, elas provocam um inchaço considerável, mas, à medida que a pessoa se acostuma a ser picada, o inchaço acaba por não mais ocorrer. Falo por experiência própria.
+
+Portanto, os inúmeros fatos supracitados demonstram que, quanto maior a produção de antitoxinas, menor é a reação. Por outro lado, quando o organismo ainda é, por assim dizer, "virgem" em relação à toxina, a reação se manifesta de forma acentuada. Sendo assim, já não resta dúvida de que a interpretação da medicina é o exato oposto da realidade.
+
+A conclusão, portanto, é a seguinte: a reação negativa significa que o indivíduo já foi contaminado pela bactéria e, por possuir antitoxinas, não apresenta inchaço. A reação positiva, por sua vez, indica que o organismo, por ser um "corpo virgem" ainda não contaminado, reage com veemência, produzindo uma grande quantidade de antitoxinas e, consequentemente, provocando o inchaço.
+
+---
+
+# A Prodigiosa Cura da Disenteria Infantil
+
+**Categoria:** e | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 疫痢は簡単に治る 未発表 | **Status:** Unpublished
+
+## A Prodigiosa Cura da Disenteria Infantil
+
+A julgar pelos sintomas do paciente [...], trata-se de um caso inequívoco de disenteria infantil. Que a cura completa tenha se dado com tamanha facilidade, no mesmo dia, demonstra a eficácia do Johrei, que não pode ser descrita senão como prodigiosa.
+
+Sob a ótica da medicina, a disenteria infantil é considerada uma das enfermidades mais perigosas. Sua taxa de mortalidade é elevada, razão pela qual, como é de conhecimento geral, os médicos a tratam com extrema cautela.
+
+Contudo, a mãe da criança, mesmo ao ser alertada pelo marido sobre a provável enfermidade, não esboçou a menor perturbação. Tal serenidade revela a profundidade de sua fé na eficácia do Johrei. Por conseguinte, a tranquilidade que sentia era imensa.
+
+Nesse sentido, podemos refletir sobre uma questão crucial: as doenças infantis surgem de forma inesperada, e nem sempre é simples convocar um médico com urgência, sobretudo durante a noite. Acresce que, tratando-se de uma moléstia em que cada minuto é decisivo, a angústia dos pais torna-se, compreensivelmente, avassaladora.
+
+Todavia, quando a cura pode ser alcançada com simplicidade, pelas mãos da própria mãe, a serenidade que se obtém é indescritível. Isto, em sua essência, é a grandiosa bênção concedida unicamente aos seguidores de nossa Fé.
+
+---
+
+# O Solo como Manancial de Nutrientes
+
+**Categoria:** tu | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
+**Título Original:** 土は肥料の塊り | **Status:** Published
+
+## O Solo como Manancial de Nutrientes
+
+O autor do referido artigo ainda não compreendeu a Agricultura Natural em sua plenitude. E, por considerar que esse modo de ver é bastante comum, farei uma breve advertência. Afirma-se que a elevada colheita inicial de quinze fardos se deveu ao uso abundante de composto, mas a verdade é justamente o contrário. O excesso de adubo orgânico interfere na força vital do solo e, por conseguinte, acaba por prejudicar a safra. Essa perspectiva denota a persistência da superstição em torno dos fertilizantes. Ademais, julgar a qualidade da lavoura pela aparência dos campos ainda verdes é uma atitude precipitada. O veredito deve ser dado com base nos resultados da colheita.
+
+Por fim, quando se fala em “processo de fracasso”, é preciso entender que, na Agricultura Natural, o fracasso é inexistente. Se, porventura, ocorre um revés, este se deve unicamente à purificação das toxinas de adubos anteriormente utilizados. Em essência, basta compreender que o próprio solo é um manancial de nutrientes.
+
+## Considerações sobre a Prática da Agricultura Natural
+
+Gostaria de registrar algumas reflexões que surgiram da minha experiência na difusão da Agricultura Natural.
+
+A tendência humana de analisar as coisas com parcialidade é natural; todavia, essa falha, na qual é fácil incorrer, representa um surpreendente obstáculo à nossa missão. As pessoas de fora costumam comparar nossos resultados mais modestos com seus exemplos mais bem-sucedidos. Isso talvez se origine de um sentimento tradicionalista, uma relutância em aceitar este novo método de cultivo. Por outro lado, nós mesmos, ao apresentar nossos resultados, cometemos o erro da negligência sem nos darmos conta. Nesse sentido, creio ser fundamental que, antes de tudo, reconheçamos as inclinações do pensamento geral. Citemos como exemplo o caso de alguém que anuncia uma colheita de quinze fardos. Ao investigar a fundo, descobre-se que o cultivo foi realizado em uma área ínfima, onde se aplicou composto orgânico à vontade, e o resultado foi então extrapolado para estimar o rendimento de uma área maior. Visto de fora, a reação será: “Qualquer um consegue isso em um espaço tão pequeno. Os registros dos centros de pesquisa são ainda mais expressivos”.
+
+Recentemente, visitei um campo de práticas agrícolas com dezenas de membros. À direita da nossa plantação, havia um campo adubado cujo estado era lastimável, com danos severos. À esquerda, outro campo adubado, porém, com danos bem menos acentuados. A maioria dos presentes, contudo, agrupou-se instintivamente do lado direito, começando a exaltar a Agricultura Natural em comparação com o campo em péssimas condições. Foi quando um dos membros bradou: “Os senhores estão equivocados! De nada adianta comparar com o que está ruim; é com o bom que devemos nos medir!”. Só então todos caíram em si e passaram a fazer a comparação com a lavoura em melhor estado, à esquerda.
+
+Esse tipo de comportamento, embora possa parecer uma reação humana perdoável, gera, na verdade, um efeito contraproducente. Ele acaba por fornecer aos críticos material para nos rechaçar e afastar possíveis interessados, obstruindo, assim, o avanço da difusão. A observação e o relato preciso dos fatos são, portanto, de suma importância.
+
+Outro ponto crucial é a nossa atitude em relação à pesquisa. Tomemos como exemplo o cultivo do arroz. Enfatizamos uma colheita de oito fardos, com qualidade superior à dos campos adubados vizinhos. Contudo, se a nossa pesquisa sobre a cultura de inverno, o trigo, for insuficiente, ouviríamos objeções como: “O arroz pode até vingar sem muito adubo, mas o trigo não crescerá dessa forma. Ele exige um fertilizante especial”. De fato, na cultura de inverno do trigo, a Agricultura Natural exige um período de maturação mais longo em comparação com o método que utiliza adubos. Se esse ponto não for bem compreendido, o resultado pode ser bastante insatisfatório. Isso não apenas gera críticas severas, como também pode levar o próprio praticante a perder o entusiasmo, sufocado pela pressão externa. Tenho observado diversos casos em que as pessoas simplesmente iniciam a prática, propagandeiam um aumento garantido na produção, começam pelo cultivo de inverno e acabam por enfrentar um fracasso retumbante e inesperado.
+
+Neste ponto, é imperativo que meditemos novamente sobre as palavras de Meishu-Sama: “Na Agricultura Natural, o fracasso é absolutamente inexistente. Quando os resultados não são bons, as causas são apenas duas: (1) a prática não está em conformidade com a verdadeira Agricultura Natural (pelo uso de esterco, semeadura tardia, entre outros fatores); ou (2) trata-se de um processo de purificação das toxinas dos adubos”. O segundo ponto é uma etapa natural e inevitável. Já o primeiro ponto nos oferece um vasto campo para estudo. Ocorre que, diante de um resultado aquém do esperado, alguns, por um sentimento equivocado em relação à sua própria fé, ocultam zelosamente esse valioso fracasso em vez de aprender com ele. Tal atitude, ao final, apenas semeia a dúvida sobre o método e não produz benefício algum. Considerando que o próprio Meishu-Sama nos ensina a duvidar ao máximo, a atitude correta do pesquisador pioneiro não seria justamente encarar esses fracassos com olhar lúcido e destemido, a fim de compreender a fundo a Agricultura Natural e, a partir daí, desenvolver métodos adequados a cada tipo de solo e a cada situação?
+
+Da mesma forma, ao recebermos os relatos, percebo que há uma grande demanda não por simples histórias de sucesso, mas sim por narrativas sobre os fracassos, a análise que se seguiu a eles e o processo de superação. É isso que servirá de guia para os praticantes atuais e futuros, poupando-os de esforços inúteis e permitindo uma difusão harmoniosa do método. Conforme orientado em comunicado da Sede Central, reitero o pedido para que os relatórios contenham uma comparação com plantações vizinhas, do mesmo tipo e em terrenos de mesma categoria, e que sejam sempre acompanhados das observações e opiniões do agricultor.
+
+---
+
+# A Essência da Dor
+
+**Categoria:** tu | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 痛苦 | **Status:** Published
+
+## A Essência da Dor
+
+A dor, em sua essência, origina-se de um processo específico. Conforme já elucidei anteriormente, o calor gerado pela Ação Purificadora dissolve as toxinas solidificadas. Uma vez liquefeitas, essas toxinas buscam uma via de eliminação e, ao se movimentarem, estimulam os nervos dos músculos. Esta é a causa fundamental da dor comum.
+
+Os sintomas dolorosos decorrentes desse mecanismo manifestam-se em uma vasta gama de enfermidades, como apendicite, peritonite aguda, nefrite aguda, cefaleias, dores de dente, otite média, reumatismo e as mais diversas nevralgias.
+
+No que tange às dores ósseas, classificadas como periostite, sua causa reside na dissolução, pela purificação, de toxinas solidificadas no periósteo. Ao se deslocarem em direção aos músculos, estas estimulam os nervos. Ademais, existe outro processo: as toxinas solidificadas na parte interna do periósteo, ao serem dissolvidas, buscam uma saída para a superfície, abrindo microperfurações no próprio osso. A quantidade dessas perfurações varia conforme o volume de toxinas e, evidentemente, quanto maior o seu número, mais intensa é a dor. É o que ocorre em casos de cárie das costelas, otite média, dores de dente e em outras afecções conhecidas como osteomielite. Diante dessas inúmeras perfurações, a medicina diagnostica o osso como "apodrecido", o que constitui um equívoco. A razão é simples: uma vez que as toxinas são dissolvidas e eliminadas, o osso se regenera e retorna ao seu estado original de perfeição.
+
+Existem, ainda, dores de natureza especial, como as do panarício nos dedos das mãos, da gangrena nos dedos dos pés e em suas adjacências, e das fístulas anais. Estas, inquestionavelmente, também resultam da eliminação de toxinas solidificadas pela Ação Purificadora, mas a dor é excruciante por se tratar de venenos de altíssima virulência. Nesses casos, não se aguarda a primeira purificação; a primeira e a segunda ocorrem simultaneamente, sendo mais comuns em jovens, cujo poder purificador é vigoroso. A medicina, diante de tais quadros, afirma que o tecido se decompõe e a necrose se alastra para as áreas vizinhas, o que representa outro diagnóstico completamente equivocado.
+
+Com base em minha vasta experiência, posso afirmar que, uma vez que as toxinas se acumulam até um certo ponto, sua concentração cessa. A partir daí, o inchaço atinge seu ápice, ocorre uma perfuração natural, e o pus e o sangue com toxinas são expelidos, resultando na cura completa. Contudo, como a aparência do sintoma de fato se assemelha à decomposição, é provável que a medicina tenha incorrido nesse erro. Em decorrência disso, realizam-se intervenções cirúrgicas de amputação, que acabam por mutilar o indivíduo. Repito e declaro categoricamente, com o respaldo de meus longos anos de experiência: a gangrena e o panarício não são processos de decomposição.
+
+A dor oriunda das cólicas estomacais, por sua vez, possui uma natureza distinta. Como já abordei este tema na seção sobre as doenças do estômago, irei omiti-lo aqui.
+
+Existem também as dores provenientes de queimaduras e ferimentos, mas estas não são doenças e, com o passar do tempo, curam-se naturalmente. Se a dor persistir ou a cicatrização não ocorrer, a causa reside no uso de antissépticos e outros medicamentos. Nesse caso, basta suspender a aplicação de tais substâncias e lavar a área afetada apenas com água limpa para que a cura natural se concretize.
+
+Conforme exposto, o sofrimento originado pelas doenças manifesta-se de inúmeras formas. Todavia, a causa fundamental da maioria delas reside nas toxinas medicamentosas. O tipo de dor e os sintomas variam de acordo com a natureza de cada toxina.
+
+Com base em minha experiência, as toxinas da medicina oriental caracterizam-se por provocar uma dor surda e difusa. Já as da medicina ocidental distinguem-se por causar dores agudas e localizadas, que se manifestam de formas diversas: como um relâmpago, como uma pontada de agulha ou como uma broca perfurando. É digno de nota que as toxinas medicamentosas provenientes de injeções frequentemente se tornam a causa de dores lancinantes.
+
+Além das toxinas medicamentosas, existem também as dores causadas por toxinas urêmicas, que, em geral, são de baixa intensidade. As toxinas congênitas, por outro lado, quase não produzem dor, e esta talvez seja a razão pela qual a medicina as confunde erroneamente com a sífilis congênita.
+
+---
+
 # A Origem da Dor e do Sofrimento
 
 **Categoria:** tu | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 痛苦 | **Status:** Published
 
 ## A Origem da Dor e do Sofrimento
 
@@ -33,6 +739,7 @@ Além das toxinas medicamentosas, existem também as dores oriundas de toxinas u
 # A Natureza da Dor e do Sofrimento
 
 **Categoria:** tu | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 痛苦 | **Status:** Published
 
 ## A Natureza da Dor e do Sofrimento
 
@@ -65,6 +772,7 @@ Além do yakudoku (薬毒), existe a dor causada pelo veneno urêmico, que, no e
 # A Transição do Mundo e a Crise da Medicina
 
 **Categoria:** e | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** Ｘの説明 未発表 | **Status:** Unpublished
 
 ## A Transição do Mundo e a Crise da Medicina
 
@@ -89,6 +797,7 @@ Será então que as pessoas, em busca de um caminho para escapar dessa calamidad
 # A Magnificência do Solo
 
 **Categoria:** tu | **Ano:** 昭和26(1951)年1月15日 | **Fonte:** Shizen Noho Kaisetsu
+**Título Original:** 土の偉力 | **Status:** Published
 
 ## A Magnificência do Solo
 
@@ -131,6 +840,7 @@ Para finalizar, gostaria de abordar um último ponto. Ao criar bichos-da-seda al
 # A Comédia da Nutrição
 
 **Categoria:** e | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 栄養の喜劇 自観叢書10編 | **Status:** Published
 
 ## A Comédia da Nutrição
 
@@ -167,6 +877,7 @@ Esforcei-me para explicar esta lógica da forma mais clara possível. Quando ref
 # Memórias de um Cinéfilo
 
 **Categoria:** e | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 映画 自観叢書第5編 | **Status:** Published
 
 ## Memórias de um Cinéfilo
 
@@ -203,6 +914,7 @@ O que é digno de louvor, no entanto, é o desempenho dos atores de hoje, que de
 # A Materialização do Paraíso Terrestre
 
 **Categoria:** e | **Ano:** 昭和27(1952)年 | **Fonte:** 天国の苑
+**Título Original:** 映画 | **Status:** Unknown
 
 ## A Materialização do Paraíso Terrestre
 
@@ -219,6 +931,7 @@ Profundamente consternado com essa lacuna, decidi criar um museu de arte cujo fo
 # O Jardineiro da Feira Religiosa
 
 **Categoria:** e | **Ano:** 昭和10(1935)年2月23日 | **Fonte:** Toho no Hikari
+**Título Original:** 縁日の植木屋 阿呆文学 | **Status:** Published
 
 ## O Jardineiro da Feira Religiosa
 
@@ -241,6 +954,7 @@ O jardineiro, um homem chamado Suzuki, respondeu:
 # Uma Reflexão sobre a Disenteria Infantil
 
 **Categoria:** e | **Ano:** 昭和24(1949)年7月30日 | **Fonte:** -
+**Título Original:** 疫痢 寸評（光20号） 白光生 | **Status:** Published
 
 ## Uma Reflexão sobre a Disenteria Infantil
 
@@ -253,6 +967,7 @@ Tal suposição, todavia, é absolutamente infundada. A disenteria consiste, em 
 # Uma Nova Perspectiva sobre a Nutrição
 
 **Categoria:** e | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 栄養学 | **Status:** Published
 
 ## Uma Nova Perspectiva sobre a Nutrição
 
@@ -307,6 +1022,7 @@ Por fim, é um erro dar óleo de fígado de bacalhau às crianças em nome da nu
 # O Equívoco da Ciência Nutricional
 
 **Categoria:** e | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** 栄養食 | **Status:** Published
 
 ## O Equívoco da Ciência Nutricional
 
@@ -323,6 +1039,7 @@ Consequentemente, ao prover esses elementos externamente, suprime-se a necessida
 # O Grande Equívoco da Nutrição Moderna
 
 **Categoria:** e | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 栄養 | **Status:** Published
 
 ## O Grande Equívoco da Nutrição Moderna
 
@@ -363,6 +1080,7 @@ Para concluir, gostaria de apontar o erro mais grave da nutrição moderna: a in
 # O Engano da Ciência da Nutrição
 
 **Categoria:** e | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 栄養学 | **Status:** Published
 
 ## O Engano da Ciência da Nutrição
 
@@ -439,6 +1157,7 @@ Por fim, a título de nutrição, é comum dar óleo de fígado de bacalhau às 
 # Memórias da Perseguição Religiosa
 
 **Categoria:** to | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
+**Título Original:** 取調べの模様 | **Status:** Published
 
 ## Memórias da Perseguição Religiosa
 
@@ -587,6 +1306,7 @@ Resta-me apenas aguardar o dia do julgamento verdadeiro. Creio que, no tribunal,
 # A Falácia da Nutrição Moderna
 
 **Categoria:** e | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 栄養学 | **Status:** Published
 
 ## A Falácia da Nutrição Moderna
 
@@ -659,6 +1379,7 @@ Por fim, a título de nutrição, é comum dar óleo de fígado de bacalhau às 
 # Acerca da Morte dos Heróis
 
 **Categoria:** e | **Ano:** 昭和28(1953)年4月22日 | **Fonte:** Eikou
+**Título Original:** 英雄の死に就いて | **Status:** Published
 
 ## Acerca da Morte dos Heróis
 
@@ -677,6 +1398,7 @@ Em contrapartida, nós, que cremos em Deus e nos dedicamos a salvar o maior núm
 # A Falácia da Nutrição Moderna
 
 **Categoria:** e | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 栄養学 | **Status:** Published
 
 ## A Falácia da Nutrição Moderna
 
@@ -745,6 +1467,7 @@ Por fim, a título de nutrição, é comum dar óleo de fígado de bacalhau às 
 # O Grande Equívoco da Ciência Nutricional
 
 **Categoria:** e | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 栄養 未発表 | **Status:** Unpublished
 
 ## O Grande Equívoco da Ciência Nutricional
 
@@ -775,6 +1498,7 @@ Por fim, há um dos maiores equívocos da ciência nutricional: a injeção de n
 # A Verdade sobre a Nutrição e a Tuberculose
 
 **Categoria:** e | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 栄養 | **Status:** Published
 
 ## A Verdade sobre a Nutrição e a Tuberculose
 
@@ -839,6 +1563,7 @@ Meishu-Sama, meu eterno e mais profundo agradecimento.
 # A Primazia do Espírito sobre a Matéria
 
 **Categoria:** re | **Ano:** 昭和28(1953)年11月18日 | **Fonte:** Eikou
+**Título Original:** 霊科学 | **Status:** Published
 
 ## A Primazia do Espírito sobre a Matéria
 
@@ -876,6 +1601,7 @@ Oh, Meishu-Sama, muito obrigado por Vossa grandiosa proteção. Com a mais profu
 # A Comédia da Nutrição
 
 **Categoria:** e | **Ano:** 昭和24(1949)年6月18日 | **Fonte:** -
+**Título Original:** 栄養の喜劇 | **Status:** Published
 
 ## A Comédia da Nutrição
 
@@ -910,6 +1636,7 @@ Procurei, com as palavras acima, expor meu raciocínio da forma mais clara poss�
 # Uma Crítica à Nutrição Moderna
 
 **Categoria:** e | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 栄養学 | **Status:** Published
 
 ## Uma Crítica à Nutrição Moderna
 
@@ -988,6 +1715,7 @@ Por fim, a título de nutrição, é comum dar óleo de fígado de bacalhau às 
 # A Existência do Mundo Espiritual
 
 **Categoria:** re | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 霊界の存在 自観叢書第3編 | **Status:** Published
 
 ## A Existência do Mundo Espiritual
 
@@ -1012,6 +1740,7 @@ Feitas essas considerações, passarei a discorrer paulatinamente sobre as diver
 # O Caso da Enfermidade Pulmonar de Causa Espiritual
 
 **Categoria:** re | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 霊的肺患 自観叢書第9篇 | **Status:** Published
 
 ## O Caso da Enfermidade Pulmonar de Causa Espiritual
 
@@ -1032,6 +1761,7 @@ O referido espírito permanece, até os dias de hoje, assentado no altar de meu 
 # Filosofia do Amor
 
 **Categoria:** re | **Ano:** 昭和25(1950)年1月21日 | **Fonte:** -
+**Título Original:** 恋愛哲学 | **Status:** Published
 
 ## Filosofia do Amor
 
@@ -1056,6 +1786,7 @@ Eis, em linhas gerais, nossa filosofia sobre o amor.
 # O Perigo da Possessão por Espíritos
 
 **Categoria:** re | **Ano:** 昭和26(1951)年12月5日 | **Fonte:** Eikou
+**Título Original:** 霊憑りに就て | **Status:** Published
 
 ## O Perigo da Possessão por Espíritos
 
@@ -1094,6 +1825,7 @@ Aproveito a ocasião para ensinar um método de discernimento entre o bem e o ma
 # O Julgamento no Mundo Espiritual
 
 **Categoria:** re | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 霊界の審判 | **Status:** Published
 
 ## O Julgamento no Mundo Espiritual
 
@@ -1122,6 +1854,7 @@ Kaikasenzen (改過遷善): Arrepender-se dos erros e tornar-se uma pessoa de be
 # Uma Explanação sobre a Luz Espiritual
 
 **Categoria:** re | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
+**Título Original:** 三、霊光の説明 | **Status:** Unknown
 
 ## Uma Explanação sobre a Luz Espiritual
 
@@ -1142,6 +1875,7 @@ Portanto, esta minha luz assemelha-se a uma fusão entre a luz do Sol e a da Lua
 # Uma Análise Crítica da Nutrição Moderna
 
 **Categoria:** e | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
+**Título Original:** 栄養学 | **Status:** Published
 
 ## Uma Análise Crítica da Nutrição Moderna
 
@@ -1220,6 +1954,7 @@ Por fim, em nome da nutrição, é comum dar óleo de fígado de bacalhau às cr
 # Um Exemplo de Enfermidade de Ordem Espiritual
 
 **Categoria:** re | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
+**Título Original:** 霊的病気の一例 | **Status:** Published
 
 ## Um Exemplo de Enfermidade de Ordem Espiritual
 
@@ -1263,6 +1998,7 @@ Aproveito para registrar minha profunda gratidão ao reverendo Mizoguchi e ao se
 # O Imposto sobre o Mundo Espiritual
 
 **Categoria:** re | **Ano:** 昭和24(1949)年5月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 霊に税金がかかる | **Status:** Published
 
 ## O Imposto sobre o Mundo Espiritual
 
@@ -1287,6 +2023,7 @@ Contudo, ao refletirmos, percebemos que a política atual se fundamenta em leis 
 # A Verdadeira Natureza da Tuberculose
 
 **Categoria:** re | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
+**Título Original:** レントゲン写真 | **Status:** Published
 
 ## A Verdadeira Natureza da Tuberculose
 
@@ -1303,6 +2040,7 @@ Ademais, há outro ponto crucial que não pode ser negligenciado. A sombra exter
 # O Espírito, o Sangue e a Fé Autêntica
 
 **Categoria:** re | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 霊と血と正しき信仰 | **Status:** Unknown
 
 ## O Espírito, o Sangue e a Fé Autêntica
 
@@ -1331,6 +2069,7 @@ Pode-se afirmar que entre os membros de nossa associação não há doentes, nem
 # A Realidade do Mundo Espiritual
 
 **Categoria:** re | **Ano:** 昭和26(1951)年9月19日 | **Fonte:** Eikou
+**Título Original:** 霊界は在りや | **Status:** Published
 
 ## A Realidade do Mundo Espiritual
 
@@ -1376,6 +2115,7 @@ A Meishu-Sama, minha mais profunda e eterna gratidão.
 # A Veste Espiritual e a Lei da Fortuna
 
 **Categoria:** re | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 霊波と霊衣 付録霊科学 | **Status:** Published
 
 ## A Veste Espiritual e a Lei da Fortuna
 
@@ -1418,6 +2158,7 @@ Diante de toda esta lógica, fica claro que acumular virtudes e praticar o bem p
 # A Situação Atual do Mundo Espiritual
 
 **Categoria:** re | **Ano:** 昭和28(1953)年3月11日 | **Fonte:** Eikou
+**Título Original:** 霊界の現在 | **Status:** Published
 
 ## A Situação Atual do Mundo Espiritual
 
@@ -1458,6 +2199,7 @@ Meishu-Sama, muito, muito obrigada.
 # As Camadas do Mundo Espiritual e o Destino Humano
 
 **Categoria:** re | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 霊層界 | **Status:** Published
 
 ## As Camadas do Mundo Espiritual e o Destino Humano
 
@@ -1482,6 +2224,7 @@ Aqueles que recebem tais ensinamentos relatam, em uníssono, que, no aspecto esp
 # A Ilusão da Cura Materialista
 
 **Categoria:** re | **Ano:** 昭和25(1950)年2月11日 | **Fonte:** Kyusei
+**Título Original:** 霊的には無解決 「脳外科療法に革命」に就て | **Status:** Published
 
 ## A Ilusão da Cura Materialista
 
@@ -1504,6 +2247,7 @@ Ah, como despertar a medicina de seu equívoco? Eis, sem dúvida, a grande quest
 # A Teoria da Energia Espiritual
 
 **Categoria:** re | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 霊気説 | **Status:** Published
 
 ## A Teoria da Energia Espiritual
 
@@ -1544,6 +2288,7 @@ Observemos, agora, as políticas médico-sanitárias que o nosso Japão vem impl
 # As Diversas Manifestações dos Espíritos
 
 **Categoria:** re | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 霊の種々相 | **Status:** Published
 
 ## As Diversas Manifestações dos Espíritos
 Do livro “A Arte da Cura do Amanhã, vol. 3”, publicado em 23 de outubro de 1943
@@ -1563,6 +2308,7 @@ Na véspera, o chefe da família, um funcionário do Ministério da Agricultura 
 # Os Fundamentos do Mundo Espiritual
 
 **Categoria:** re | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 霊界と現界 自観叢書第3編 | **Status:** Published
 
 ## Os Fundamentos do Mundo Espiritual
 
@@ -1581,553 +2327,6 @@ Sei que, para o homem moderno, tais explanações podem soar fantasiosas ou inve
 Em consonância com o que foi exposto, é possível ter uma noção do destino de um espírito ao observar a fisionomia do falecido. Aqueles cujo semblante não exibe qualquer sinal de agonia, apresentando uma coloração rosada e uma aparência vívida, como se ainda estivessem vivos, destinam-se ao Paraíso. Aqueles cuja face é sombria e melancólica, com tons pálido-azulados ou amarelados — a aparência comum de um corpo sem vida —, seguem para o Mundo Intermediário. Por fim, aqueles cujo rosto expressa agonia acentuada e exibe uma coloração escura ou negro-azulada, rumam, indubitavelmente, para o Inferno.
 
 O exposto até aqui constitui o conhecimento fundamental sobre o Mundo Espiritual. A partir de agora, passarei a relatar, sucessivamente, os fenômenos espirituais que pude constatar por meio de minhas próprias experiências nas mais diversas áreas.
-
----
-
-# A Estrutura do Mundo Espiritual
-
-**Categoria:** re | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## A Estrutura do Mundo Espiritual
-
-A distinção mais proeminente que permeia o Céu, o Mundo Intermediário e o Inferno é, sem dúvida, a que se estabelece pela luz e pelo calor. Com efeito, o Céu é um mundo de luz e calor, ao passo que o Inferno é um mundo de trevas e ausência de calor. O Mundo Intermediário, por sua vez, representa um estado mediano, equiparando-se, nesse aspecto, ao mundo em que vivemos.
-
-Por essa razão, no Céu mais elevado, ou Primeiro Céu, a intensidade da luz e do calor é tamanha que os seres celestiais que ali habitam vivem em um estado de seminudez. Podemos vislumbrar tal realidade ao observarmos as representações de Nyorais e Bodhisattvas na arte búdica, que frequentemente os retratam com o torso desnudo. Naturalmente, à medida que se desce ao Segundo e ao Terceiro Céu, a luz e o calor tornam-se progressivamente mais tênues.
-
-Portanto, ainda que se tentasse elevar um espírito do Inferno ao Céu, ele seria ofuscado pela luz e incapaz de suportar o sofrimento causado pelo calor, acabando por retornar ao seu lugar de origem. Tal como, no mundo terreno, um homem de origem humilde elevado a um alto cargo se sentiria tolhido e incapaz de suportar as formalidades. No Mundo Espiritual, em particular, onde todos os movimentos de união e separação se regem pelo princípio da afinidade, tais desfechos são inevitáveis.
-
-Cumpre agora voltar nossa atenção a um ponto de suma importância: a composição do Céu no Mundo Espiritual e a vida coletiva que ali se desenvolve. Em linhas gerais, ele se divide em Mundo Divino e Mundo Búdico. O primeiro corresponde ao Céu, e o segundo, ao Paraíso da Terra Pura. Sendo o Mundo Divino hierarquicamente superior ao Mundo Búdico, o Primeiro Céu é exclusivamente divino, enquanto o Mundo Búdico se localiza no Segundo Céu.
-
-A Divindade Regente do Primeiro Céu é a Grande Deusa do Sol, Amaterasu Sume Omikami (天照皇大御神), e a do Segundo Céu é o Grande Deus da Lua, Susanoo-no-Mikoto (素盞嗚尊). No Mundo Búdico, a regência cabe ao Bodhisattva Kannon (観世音菩薩), ou seja, a Komyō Nyorai. Ademais, assim como no plano terreno, existem no Mundo Espiritual diversas organizações, como as treze escolas do Xintoísmo e as mais de cinquenta escolas do Budismo. A título de exemplo, a Taishakyo tem como Divindade Regente Okuninushi-no-Mikoto (大国主尊); a Mitakekyo, Kunitokotachi-no-Mikoto (国常立尊); e a Tenrikyo, Izanagi-no-Mikoto (伊弉册〔諾〕尊). O mesmo ocorre no Mundo Búdico, onde a Shinshu se reúne em torno de Amida Nyorai; a Zen, do mestre Bodhidharma; e a Hokkeshu, do venerável Nichiren.
-
-Torna-se, por conseguinte, uma verdade autoevidente que aqueles que em vida professaram alguma fé desfrutam de uma felicidade imensamente superior à dos descrentes após a morte, pois são acolhidos por suas respectivas comunidades. Os que não possuem fé, contudo, veem-se em grande dificuldade, pois não têm um grupo ao qual pertencer, assemelhando-se aos desabrigados do mundo material. A antiga expressão "perder-se no estado intermediário" refere-se precisamente a esses espíritos sem filiação, que vagueiam desnorteados no plano intermediário.
-
-Ademais, aqueles que ignoram a existência do Mundo Espiritual e não creem na vida após a morte, uma vez transpostos para essa dimensão, não encontram paz. Sem conseguir se estabelecer e, ao mesmo tempo, impossibilitados de retornar ao plano terreno, perdem-se no mundo intermediário. Cito como exemplo um experimento espiritual que realizei há alguns anos, durante o qual o espírito do escritor Tokutomi Roka (徳富蘆花) se manifestou por meio de um médium. Convidamos imediatamente sua viúva, que, ao presenciar as palavras e os gestos do espírito, confirmou tratar-se, inequivocamente, de seu falecido esposo. No entanto, ao ser submetido a diversas perguntas, suas respostas careciam de nexo e clareza, assemelhando-se ao balbuciar de uma mente senil. Tal estado era consequência direta de sua descrença na existência do Mundo Espiritual durante sua vida terrena. O fato de um homem tão notável como Roka ter se encontrado em tal condição demonstra a imperiosa necessidade de crer na existência do Mundo Espiritual e de nos prepararmos, ainda em vida, para a jornada póstuma.
-
-Mas, afinal, como são o Céu e o Paraíso? E mais, será que esses mundos de fato existem? A maioria das pessoas talvez os considere nada mais que projeções idealizadas, nascidas da imaginação dos antigos. Contudo, cheguei ao conhecimento de que tanto o Céu quanto o Paraíso da Terra Pura são realidades perfeitamente concretas. Sendo assim, é natural que todos anseiem por conhecer sua verdadeira natureza. Todavia, sei que uma explanação baseada em meras suposições ou impressões mediúnicas seria dificilmente aceita pelo homem moderno. Por isso, apresentarei diversas experiências comprobatórias, a fim de oferecer ao leitor subsídios para seu próprio discernimento.
-
-Durante minha época de terapeuta, fui chamado para atender a esposa de um diretor de uma grande empresa. A senhora, de trinta anos, encontrava-se em estado grave, já desenganada pelos médicos. Seus familiares e parentes suplicavam que eu a salvasse. Como a residência do casal ficava a uma distância de quase dez léguas da minha, o deslocamento diário seria inviável. Sugeri, então, que a trouxessem de automóvel para a minha casa. Ciente do risco que a viagem representava para a vida da paciente, seu marido a acompanhou. Durante todo o trajeto, fui amparando-a com uma das mãos e aplicando-lhe Johrei com a outra, e, felizmente, chegamos em segurança.
-
-Na madrugada seguinte, porém, fui despertado pela acompanhante. Dirigi-me imediatamente ao quarto e encontrei a paciente segurando minha mão com força, sem soltá-la. Ela me disse: "Sinto algo saindo do meu corpo e estou apavorada. Por favor, deixe-me segurar sua mão. Tenho a terrível sensação de que vou morrer hoje. Peço que chame minha família com urgência". Telefonei imediatamente, e, pouco mais de uma hora depois, chegaram de carro o marido, os vários filhos e o médico da empresa. Naquele momento, a paciente estava em coma, com o pulso quase imperceptível. O diagnóstico do médico confirmou que era apenas uma questão de tempo.
-
-Cercada pela família, ela permaneceu em estado de coma, mas sua respiração não cessou. A noite chegou, e sua condição se mantinha inalterada. Por volta das sete horas, ela abriu os olhos subitamente e começou a observar o ambiente com uma expressão de assombro. "Há pouco", disse ela, "estive em um lugar de uma beleza indescritível. Era um jardim onde desabrochavam, em profusão exuberante, as mais variadas flores. Havia muitos seres celestiais belíssimos e, ao longe, uma figura sublime, semelhante ao Bodhisattva Kannon que vemos nas pinturas, olhou para mim e sorriu. Instintivamente, prostrei-me diante dela... e, nesse momento, despertei. Agora, sinto-me extremamente bem, uma sensação que não experimentava desde que adoeci." A partir do dia seguinte, de fato, todos os seus padecimentos desapareceram. Ela estava completamente curada, restando-lhe apenas a debilidade física, da qual se recuperou em cerca de um mês, retomando sua saúde habitual.
-
-O ocorrido, evidentemente, foi a separação temporária de seu espírito, que ascendeu ao Céu e teve suas máculas espirituais purificadas. Tratava-se, muito provavelmente, do Mundo Búdico, no Segundo Céu.
-
-Em outra ocasião, nos primórdios de minhas pesquisas sobre o espírito e a terapia, tratei uma jovem de aproximadamente vinte anos que sofria de tuberculose em terceiro grau. Ela chegou a se curar, mas, cerca de um ano depois, teve uma recaída e veio a falecer. Como eu na época também me dedicava a atividades religiosas, passei a cultuar seu espírito. A jovem tinha um irmão mais velho que era um grande problema para a família, dado seu vício em álcool e sua indolência. Cerca de dois ou três meses após a morte da irmã, certo dia, enquanto estava sentado em seu quarto, ele viu surgir diante de si, a poucos metros de altura, algo semelhante a uma névoa púrpura. À medida que essa nuvem descia lentamente, ele pôde ver, sobre ela, a figura de sua irmã, que deveria estar morta. Sua aparência era muito mais bela do que em vida, e ela trajava vestes magníficas, como as de uma princesa da corte, irradiando uma nobreza que antes não possuía. A irmã lhe disse: "Vim para aconselhá-lo a deixar a bebida. Por favor, pelo bem da família e por si mesmo, pare de beber". Após proferir essas palavras com insistência, ela subiu novamente na nuvem púrpura e desapareceu em direção ao céu. O fenômeno se repetiu alguns dias depois e, mais uma vez, passados outros tantos dias. Na terceira aparição, surgiu diante dele uma bela ponte de traços curvos e laqueada de vermelho. Como das outras vezes, o espírito da irmã desceu sobre a ponte em sua nuvem púrpura e, atravessando-a serenamente, disse: "Hoje é a terceira e última vez. Não terei mais a permissão de Deus para voltar. Vim para uma despedida". E, novamente, aconselhou-o a abandonar o vício. Depois disso, as aparições cessaram. O que ocorreu, sem dúvida, foi uma abertura temporária de sua visão espiritual.
-
-Este caso serve como um excelente exemplo de um ser celestial que desce do Céu ao mundo terreno. O mais interessante é que o irmão era um homem completamente cético, sem qualquer traço de fé, o que descarta a possibilidade de o fenômeno ter sido produto de sua imaginação ou de seu subconsciente.
-
-Relatarei agora um acontecimento de alguns anos atrás, durante minhas pesquisas espirituais. Tratava-se de um jovem de pouco mais de vinte anos que não sofria de uma doença física, mas sim de uma enfermidade, por assim dizer, espiritual. Na época, ele estava obcecado por uma mulher do mundo do entretenimento noturno e chegou ao ponto de planejar um suicídio a dois. No último instante, porém, consegui salvá-lo de forma milagrosa. Após o resgate, decidi investigar seu caso espiritualmente. Descobri que um espírito de raposa o havia influenciado a tomar aquela atitude drástica. Dirigi-lhe uma advertência e, em cerca de vinte minutos, o trabalho foi concluído.
-
-Contudo, mesmo após o término, o jovem permaneceu de olhos fechados e mãos postas — a postura adotada durante o procedimento —, com a cabeça inclinada para a esquerda. Passados três ou quatro minutos, ele abriu os olhos, ainda com a cabeça inclinada e uma expressão de espanto. "Vi algo extraordinário", relatou ele. "Ao meu lado, havia alguém tocando um instrumento parecido com um koto. A melodia era de uma elegância tão sublime que me deixei levar por ela. Olhando ao redor, percebi que estava dentro de um santuário imenso. Ao fundo, havia uma escadaria, e no topo, entrevi uma cortina de bambu. Então, o senhor, trajado com o *ikan-sokutai* [veste cerimonial da corte], caminhou serenamente, subiu os degraus e adentrou o recinto atrás da cortina." Eu o questionei: "Se me viu de costas, não poderia ser outra pessoa?". Ele respondeu com convicção: "Não, tenho certeza de que era o senhor". Ao perguntar sobre a vestimenta, ele a descreveu com precisão: um chapéu com um adereço pendente, uma túnica azul e calças vermelhas por cima.
-
-Isso não foi um sonho; a visão espiritual do rapaz se abriu momentaneamente, permitindo-lhe enxergar o Mundo Espiritual, um fenômeno que, embora raro, acontece. O fato de ele ser um simples balconista de loja, sem qualquer crença ou conhecimento espiritual, confere ainda mais credibilidade ao seu relato. Acredito que o santuário que ele viu se localizava no Terceiro Céu e que, naquele momento, meu corpo espiritual habitava aquele recinto.
-
-Penso que os três exemplos apresentados servem como referência para compreendermos o aspecto exterior e interior do Céu, bem como a forma como os seres celestiais podem descer ao nosso plano.
-
-Como exemplo notável de visão espiritual, mencionarei um episódio da famosa Batalha do Mar do Japão, durante a Guerra Russo-Japonesa. Enquanto a Frota do Báltico se aproximava do Japão, o então Capitão de Fragata Akiyama Saneyuki (秋山真之), chefe de estado-maior do Almirante Togo, fitava um mapa quando, subitamente, viu com clareza a imagem de vários navios inimigos passando sobre ele. É uma história célebre que ele relatou imediatamente o milagre ao Almirante Togo, o que possibilitou a esmagadora vitória japonesa. O relatório da batalha, como era de se esperar, mencionava "auxílio e proteção divinos". É também fato notório que, motivado por essa experiência milagrosa, o Capitão Saneyuki dedicou-se posteriormente ao estudo de diversas religiões.
-
-A seguir, descreverei o estado do Paraíso no Mundo Búdico. Há mais de dez anos, por meio de uma médium, tive a oportunidade de obter informações sobre essa dimensão. A médium era uma jovem pura de dezoito anos, o que me leva a depositar grande confiança em seu relato.
-
-O espírito que se manifestou era o de um ancestral da moça, um samurai que morrera em batalha mais de duzentos anos antes. Fervoroso seguidor da escola Shingon, ele ingressou na comunidade de Kobo Daishi pouco depois de sua morte. Eis o que ele respondeu às minhas perguntas:
-
-"Quando cheguei, havia aqui centenas de pessoas, mas, com o passar dos anos, o número de espíritos que reencarnam é maior do que o dos que chegam, de modo que agora somos apenas cerca de cem. Nossa vida cotidiana transcorre em um grande templo. Não temos um trabalho específico; dedicamo-nos às artes, como koto, shamisen, flauta e tambor, e a outros entretenimentos semelhantes aos do mundo terreno, como pintura, escultura, caligrafia, go e shogi. De tempos em tempos, o mestre Kobo Daishi ou outro venerável (cujo nome esqueci) nos oferece seus sermões, e ouvi-los é nossa maior alegria. Kobo Daishi visita ocasionalmente a morada de Shakyamuni Nyorai, um lugar hierarquicamente superior a este Paraíso, onde a luz é tão intensa que ofusca a visão. Fora do templo, há um lago imenso, onde flutuam incontáveis folhas de lótus, cada uma grande o suficiente para acomodar duas pessoas. Geralmente, são casais que passeiam nelas, e as folhas se movem na direção desejada sem que precisemos remar. Não existe noite; é sempre dia. A claridade é um pouco mais suave que a de um dia ensolarado no mundo terreno, com uma luz dourada, macia e agradável."
-
-Esta descrição corresponde, provavelmente, ao Paraíso da Luz Serena.
-
-O Céu, como mencionado, possui três níveis principais, e cada um deles se subdivide em superior, médio e inferior. Assim, no Segundo Céu, por exemplo, o nível superior é regido pelo Bodhisattva Kannon; o médio, por Amida Nyorai; e o inferior, por Shakyamuni Nyorai. Os demais seres celestiais benevolentes habitam, naturalmente, os planos correspondentes às suas respectivas posições hierárquicas. Kobo Daishi, por sua vez, deve residir no nível superior do Terceiro Céu.
-
-Passemos agora a descrever o Inferno e suas condições. O Mundo Espiritual tem como centro o Mundo Intermediário, ou Yachimata (八衢), a partir do qual se elevam três níveis de Céu e se aprofundam três níveis de Inferno. Quanto mais se desce, mais distante se fica da luz e do calor. O nível mais profundo do Inferno, chamado no Xintoísmo de "País das Raízes" e no Budismo de "Inferno do Frio Extremo", é um mundo de completa escuridão e ausência de luz, um reino de gelo eterno. É um estado de congelamento onde nada se vê ou se ouve. Os espíritos que ali caem podem permanecer por anos, décadas ou séculos, em um sofrimento tão atroz que desafia qualquer descrição. Sei disso por ter ouvido o relato de um espírito que esteve lá, portanto, não creio estar enganado. A obra *Divina Comédia*, de Dante, em sua seção sobre o Inferno, também descreve esse inferno de gelo, o que confirma sua veracidade.
-
-O nível mais superficial do Inferno é o de sofrimento leve, um lugar de transição para aqueles que já cumpriram suas penas e estão prestes a seguir para o Mundo Intermediário. Os espíritos que ali se encontram realizam trabalhos, como transportar os alimentos oferecidos nos oratórios xintoístas e budistas das residências, além de outras tarefas de comunicação e transmissão de mensagens.
-
-Aqui, é preciso compreender algo sobre esses alimentos oferecidos. Os espíritos também sentem fome e precisam se alimentar. O alimento espiritual consiste em absorver, mais do que comer, a energia vital de toda e qualquer comida. Diferentemente dos seres humanos, porém, eles se satisfazem com uma quantidade ínfima; para um espírito, três grãos de arroz são suficientes para um dia inteiro. Assim, os alimentos oferecidos são mais do que suficientes para muitos espíritos ancestrais. O excedente é distribuído por espíritos encarregados dessa tarefa aos que padecem de fome. Graças a essa virtude, a elevação espiritual dos ancestrais da família que faz as oferendas é acelerada. Por isso, oferecer alimentos aos antepassados é um ato de grande mérito.
-
-Consequentemente, quando uma família negligencia as oferendas, seus antepassados, atormentados pela fome, acabam por roubar comida. Como resultado, eles caem do Mundo Intermediário para o Mundo dos Espíritos Famintos ou passam a incorporar em animais como cães e gatos para satisfazer seu apetite — o que constitui a queda no Mundo das Bestas. Quando um espírito humano incorpora em um animal, ele vai gradualmente se fundindo com o espírito animal, até que ambos se tornem um só. Ao reencarnar, esse espírito humano-animal nasce como um animal. Evidentemente, ele é diferente de um verdadeiro espírito animal. É comum encontrarmos cavalos, cães, gatos, raposas e outros animais que compreendem a linguagem humana; são, na verdade, esses espíritos fundidos.
-
-Os exemplos são inúmeros. Citarei um ou dois casos que presenciei. Certa vez, ao visitar uma casa para realizar um tratamento, notei um cão de porte considerável. A família me contou: "Este é um cão muito estranho. Ele nunca sai de casa e vive praticamente dentro dos cômodos. Só se senta em almofadas de seda da melhor qualidade. Atende ao chamado dos familiares, mas ignora os empregados. É extremamente exigente com a comida, recusando-se a comer qualquer coisa que não seja refinada. Ele entende o que falamos, detesta quartos simples e a cozinha, e só se sente à vontade no melhor cômodo da casa. Em tudo, ele é diferente de um cão comum". A família me perguntou a razão de tal comportamento, e eu expliquei: "Um de seus antepassados caiu no Mundo das Bestas e reencarnou como cão. Devido a esse laço de afinidade, ele veio a ser criado por sua família e, por isso, exige ser tratado como um ancestral". Eles compreenderam perfeitamente.
-
-O próximo relato é um fato testemunhado por um de meus discípulos, que hoje atua como terapeuta. Há mais de dez anos, em Yokohama, ele ouviu falar de uma mulher de meia-idade que sofria um tormento peculiar. Movido pela curiosidade, foi visitá-la. Ao encontrá-la, viu que ela usava um pano branco enrolado no pescoço. Quando o retirou, qual não foi sua surpresa ao ver uma serpente enrolada em sua garganta. A serpente entendia a linguagem humana. Na hora das refeições, a mulher precisava pedir permissão à serpente, dizendo se comeria uma ou duas tigelas. Se a serpente consentisse, ela afrouxava o aperto, permitindo que a mulher se alimentasse. Contudo, se ela tentasse comer um pouco mais do que o combinado, a serpente apertava-lhe a garganta, impedindo-a de continuar. A própria mulher explicou a causa: "Pouco depois de me casar e vir para esta casa, minha sogra adoeceu. Desejando que ela morresse logo, eu não lhe dava comida, e ela acabou falecendo praticamente de inanição. Seu espírito vingativo se transformou nesta serpente para me atormentar". E acrescentou: "Meu desejo é que o maior número possível de pessoas veja meu sofrimento, para que compreendam a gravidade do pecado e, assim, eu possa gerar algum mérito para o bem do mundo".
-
-Aproveitando a explicação sobre as oferendas, falarei sobre o significado das flores e do incenso. O interior do altar budista deve corresponder ao Paraíso da Terra Pura. Sendo este um mundo de beleza e bondade, a comida e a bebida são abundantes, as flores desabrocham por toda parte, fragrâncias pairam no ar e uma música sublime é entoada. Por esse princípio, oferecemos flores e queimamos incenso como uma representação, ainda que modesta, desse paraíso. O ato de tocar o tambor de madeira e os címbalos durante a recitação de sutras nos templos tem o sentido de música, assim como os instrumentos de sopro utilizados em cerimônias budistas mais elaboradas. O sino que se toca ao apresentar as oferendas no altar serve como um sinal para os espíritos.
-
-Agora, gostaria de esclarecer um equívoco comum sobre o tratamento aos animais. As pessoas tendem a projetar seus próprios sentimentos neles. Embora o ato de maltratar um animal nos pareça extremamente doloroso, a realidade é outra. Animais como bois e cavalos, por natureza, gostam de ser maltratados; chegam a sentir prazer com isso. Quando um boi ou cavalo anda devagar e o chicoteamos, ele acelera. Isso não acontece porque ele foge da dor, mas porque, desejando a sensação prazerosa do açoite, ele deliberadamente retarda o passo. Se quisesse evitar o sofrimento, ele deveria correr continuamente para não ser chicoteado. Os bois, em particular, param de andar repetidamente, como se pedissem para ser açoitados. A este respeito, conhecemos a perversão denominada masoquismo, na qual uma pessoa sente prazer em ser agredida ou ferida fisicamente por outra. A medicina não consegue explicar sua causa, mas, na verdade, trata-se da influência de espíritos de animais que gostam de ser maltratados.
-
-Nesse sentido, movimentos de proteção e prevenção contra a crueldade animal perdem seu significado.
-
-O Inferno intermediário é onde se encontram os diversos castigos descritos desde a antiguidade, como a Montanha de Agulhas, o Lago de Sangue, a Câmara das Abelhas, o Inferno das Serpentes, o Inferno das Formigas, o Inferno Ardente, o Mundo da Cólera, o Mundo da Luxúria, o Mundo dos Espíritos Famintos, entre outros. A Montanha de Agulhas, como o nome sugere, obriga os espíritos a caminhar sobre incontáveis agulhas, uma dor que podemos apenas imaginar. O Lago de Sangue é o destino inevitável de todos os espíritos que morreram durante a gravidez ou o parto. Certa vez, um espírito do Lago de Sangue se manifestou por meio de uma médium com quem eu trabalhava. Ele contou que estava imerso naquele lago há cerca de trinta anos. Era um poço de sangue puro, que lhe chegava ao pescoço, e estava repleto de insetos que subiam constantemente por seu rosto, uma sensação terrivelmente aflitiva.
-
-Quanto à Câmara das Abelhas, o espírito de uma gueixa, que em vida fora amiga de uma jovem aprendiz de uma famosa esteticista de minha época, manifestou-se na própria aprendiz. Em seu apelo a um intérprete espiritual, o espírito descreveu o tormento: era aprisionado em uma caixa do tamanho de um ser humano, onde inúmeras abelhas o picavam por todo o corpo, sem trégua, um sofrimento verdadeiramente indizível.
-
-O Inferno Ardente é exatamente o que o nome indica, destino daqueles que se atiram na cratera de um vulcão como o Mihara ou morrem em incêndios. Certa vez, tratei um caso de epilepsia atípica. Os ataques ocorriam invariavelmente durante a noite. O paciente relatava: "Enquanto durmo, vejo um fogo queimando a certa distância. À medida que ele se aproxima, tenho a convulsão. Nesse instante, meu corpo fica quente como brasa e eu perco a consciência". A doença começou no ano seguinte ao Grande Terremoto de Kanto, o que me leva a crer que se tratava da influência de um espírito que morreu queimado na catástrofe.
-
-O Mundo da Luxúria é, evidentemente, o inferno para onde caem aqueles que se envolvem em relações impuras, com diferentes níveis de sofrimento de acordo com a gravidade do ato. Por exemplo, no caso de um suicídio por amor, os espíritos do casal ficam presos um ao outro. Isso ocorre devido ao pensamento de permanecerem juntos mesmo no outro mundo, o que, no Mundo Espiritual, se torna um grande obstáculo para a locomoção e uma fonte de dor, levando a um profundo arrependimento. Se morreram abraçados, permanecem nessa mesma posição, o que expõe sua condição e lhes causa uma vergonha insuportável. Se cometeram suicídio em locais diferentes, ficam presos um ao outro, costas com costas. Os casos, por vezes noticiados em jornais, de gêmeos siameses que nascem com partes do corpo unidas são, sem dúvida, a reencarnação de suicidas por amor. Espíritos que cometeram atos considerados antinaturais, como relações incestuosas entre pais e filhos ou irmãos, ficam presos em posições invertidas: um na vertical e o outro de cabeça para baixo. O transtorno, a dor e a humilhação resultantes são extremos. Já os espíritos de adúlteros sofrem punições de uma crueldade atroz.
-
-Diante disso, é preciso compreender quão equivocada é a ideia de que amantes que cometem suicídio viverão felizes no Céu. O Mundo Espiritual é um lugar de absoluta justiça e imparcialidade, onde não há o menor desvio. Sabendo disso, enquanto estivermos vivos neste mundo, devemos nos abster ao máximo de atos desonestos e injustos e vigiar para não cairmos no erro.
-
-Há outro ponto que devemos conhecer. No mundo terreno, não é raro encontrarmos pessoas ricas que são extremamente avarentas. Apesar de possuírem uma vasta fortuna, seu pensamento é de constante carência, e seus corações vivem ansiosos por acumular ainda mais dinheiro. Sua mentalidade e seu modo de vida não diferem dos de um pobre. Portanto, embora sejam ricos por fora, seus corpos espirituais são de pobres. Ao partirem para o Mundo Espiritual, essas pessoas se tornam pobres, de acordo com seu estado mental, e caem em uma situação de miséria.
-
-Em contrapartida, uma pessoa de vida modesta, de classe média ou baixa, mas que vive com um coração satisfeito e grato, sabendo apreciar o que tem, e que, sempre que possível, pratica o bem em prol da sociedade e do próximo, ao chegar ao Mundo Espiritual, torna-se rica e desfruta de uma vida feliz.
-
-No entanto, a maioria das pessoas conhece apenas o mundo terreno e ignora o Mundo Espiritual, construindo suas vidas com base unicamente na realidade material. É preciso que compreendam quão tolas e desafortunadas são. Somente aqueles que conhecem e creem nas verdades do Mundo Espiritual podem alcançar a felicidade eterna. Por essa razão, enquanto tivermos vida, devemos praticar o bem, acumular virtudes e nos preparar para o mundo póstumo.
-
----
-
-# Sobre os Laços Espirituais
-
-**Categoria:** re | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
-
-## Sobre os Laços Espirituais
-
-O termo "laço espiritual" parece ter sido pouco empregado até os dias de hoje. A razão para tal reside no desconhecimento de sua fundamental importância, por se tratar de algo invisível e mais rarefeito que o próprio ar. Todavia, a influência exercida por esses laços sobre os mais diversos assuntos humanos é algo que não se pode subestimar, tornando-se a própria causa da felicidade ou da desdita dos homens e, em maior escala, repercutindo até mesmo no curso da História. Portanto, é imperativo que o ser humano compreenda o significado dos laços espirituais.
-
-Antes de adentrar a explanação sobre a natureza desses laços, cumpre-me esclarecer de antemão que este conhecimento constitui, a um só tempo, ciência, religião e a base para a erudição do futuro. Com efeito, desde a teoria da relatividade e os raios cósmicos até os mais variados problemas que afligem a sociedade e o indivíduo, não há absolutamente nada que não esteja desvinculado dos laços espirituais. Comecemos, pois, por discorrer sobre a relação entre o ser humano e esses laços.
-
-Consideremos um indivíduo qualquer; o leitor pode, inclusive, pensar em si mesmo. Essa pessoa está conectada a um número incalculável de laços espirituais — sejam algumas dezenas, centenas ou milhares. Tais laços variam em espessura e comprimento, podendo ser de natureza positiva ou negativa, e exercem sobre o ser humano uma influência e uma transformação constantes. Não seria exagero afirmar, portanto, que a própria existência humana é sustentada por eles.
-
-Dentre esses vínculos, o laço que une os cônjuges é o mais espesso, seguido pelo que une pais e filhos. Depois, em ordem decrescente de espessura, vêm os laços entre irmãos, tios, sobrinhos, primos, amigos e conhecidos. Expressões antigas como "fio do destino" ou "unir os laços" provavelmente se referiam a essa realidade. Ademais, os laços espirituais estão em constante mutação, tornando-se mais espessos ou mais finos. Quando um casal vive em harmonia, seu laço se torna mais grosso e luminoso; durante um conflito, ele se afina e perde o brilho. O mesmo princípio se aplica às relações entre pais, filhos, irmãos e demais pessoas.
-
-Além desses, novos laços espirituais podem ser formados. Isso ocorre quando se estabelecem novas amizades e, de forma particular, nos relacionamentos amorosos. À medida que o amor atinge seu apogeu, os laços que unem o casal se avolumam sem limites, promovendo uma intensa troca espiritual entre ambos. Essa interação, ao mesmo tempo que lhes proporciona uma sensação de prazer sutil e indescritível, também faz com que compartilhem sentimentos de tristeza e solidão. Por fim, os laços se fortalecem a um ponto extremo, tornando a separação praticamente impossível. É por essa razão que, em tais circunstâncias, a persuasão de terceiros não apenas se mostra ineficaz, como frequentemente intensifica ainda mais a paixão, como é do conhecimento de todos. O amor recíproco assemelha-se ao contato dos polos positivo e negativo da eletricidade, que gera energia; nesse caso, os laços espirituais desempenham o papel dos fios condutores.
-
-Certa vez, tive a oportunidade de salvar duas estudantes que, envolvidas em um amor homossexual, estavam prestes a cometer suicídio juntas. O que fiz foi extinguir espiritualmente o polo positivo de uma delas. Em cerca de uma semana, obtive sucesso: a paixão da jovem de polaridade positiva arrefeceu e ela retornou à sua condição normal, o que, por consequência, fez com que a outra também voltasse à normalidade. Contudo, embora seja possível romper os laços espirituais com outras pessoas, os laços de sangue são indissolúveis.
-
-No que tange aos laços entre pais e filhos, há um ponto que merece atenção especial. Como os pais pensam constantemente nos filhos e os filhos nos pais, há uma mútua influência. Através dos laços espirituais, a índole dos filhos absorve a dos pais. Assim, se os pais desejam aprimorar o caráter de seus filhos, devem, antes de tudo, aprimorar o próprio coração. É por isso que, no mundo, de pouco adianta pais com conduta questionável repreenderem seus filhos.
-
-Entretanto, não são raras situações que nos causam estranheza, como a de um filho de mau-caráter, apesar de ter pais tão admiráveis. Isso ocorre porque tais pais, embora pareçam virtuosos exteriormente, são o que chamo de "pessoas de bem por conveniência", cujas almas estão enevoadas, e essa condição se reflete nos filhos. Há também o caso de irmãos em que um é bom e o outro é mau. Qual seria a explicação para isso? Existem duas causas: a relação de vidas passadas e os pecados dos pais. Explicarei a seguir.
-
-Para discorrer sobre este assunto, é preciso antes elucidar o princípio da reencarnação humana. De forma sucinta, após a morte, o ser humano segue para o Mundo Espiritual — em outras palavras, nasce no Mundo Espiritual. O termo budista "ōjō" significa literalmente "ir para nascer", o que faz todo o sentido sob a perspectiva daquele mundo. Ali, a alma passa por um processo de purificação para se redimir das diversas máculas e pecados cometidos no mundo físico. A reencarnação ocorre quando um certo grau de purificação é atingido.
-
-Nesse sentido, uma pessoa que foi um malfeitor em sua vida anterior pode, no momento da morte, seja por castigo ou outras circunstâncias, arrepender-se profundamente e pensar com veemência: "O homem jamais deveria praticar o mal. Na próxima vez que eu renascer, serei, sem falta, uma pessoa de bem". Ao reencarnar, essa alma se empenha grandemente em praticar boas ações. Por essa lógica, uma pessoa virtuosa nesta vida pode muito bem ter sido um grande pecador em sua existência pregressa.
-
-Ademais, como muitos não acreditam na existência de um mundo após a morte, ao chegarem ao Mundo Espiritual, não encontram paz e, por seu apego à vida terrena, reencarnam com a purificação incompleta. Como resultado, máculas e pecados remanescentes persistem, e o processo de purificação terá de ocorrer no mundo físico. Sendo a purificação um processo de sofrimento, compreende-se por que pessoas inerentemente boas enfrentam infortúnios. Existem também aqueles que nascem com deficiências, como cegueira, surdez, mudez ou deformidades. Tais casos decorrem de mortes violentas na vida anterior, em que os ferimentos sofridos não foram totalmente purificados antes da reencarnação.
-
-Ainda sobre a reencarnação, gostaria de apontar um fato notável. É comum que recém-nascidos apresentem uma fisionomia semelhante à de um idoso. Isso ocorre porque se trata de um ancião que reencarnou. Somente após dois ou três meses é que o bebê adquire feições verdadeiramente infantis, um fato que aqueles com experiência certamente reconhecerão.
-
-Outra possibilidade é que o coração injusto dos pais se reflita em um dos filhos, tornando-o mau, enquanto a consciência virtuosa se reflete em outro, tornando-o bom. Há também um fenômeno bastante comum: quando um pai acumula uma fortuna por meios ilícitos, os espíritos ancestrais determinam que essa riqueza injusta seja dissipada para que a família possa prosperar. Como meio para tal, fazem com que um dos filhos se torne um esbanjador, gastando dinheiro como se fosse água, até que nada mais reste. Nesse caso, o filho escolhido para ser o pródigo está, na verdade, desempenhando um nobre papel para salvar sua família. As pessoas, ignorantes dessa realidade, o veem como um patife que arruinou o patrimônio familiar, quando, na verdade, ele é digno de compaixão.
-
-Os laços espirituais não se restringem às pessoas vivas e próximas. Eles também nos conectam a espíritos que habitam o Mundo Espiritual. Existem laços que nos ligam a Deus e aos espíritos benignos, e outros que nos ligam aos espíritos malignos. Naturalmente, os primeiros nos incentivam ao bem, enquanto os últimos nos instigam ao mal; o ser humano está constantemente sob a influência de uma dessas forças. Aqueles que atingem um certo nível de purificação no Mundo Espiritual são designados como espíritos protetores e, através dos laços espirituais, velam pelos seres humanos. Quando uma pessoa está prestes a enfrentar um perigo, eles enviam sinais de alerta para salvá-la. Um exemplo seria alguém que, por chegar atrasado ou por algum imprevisto, perde um trem. Mais tarde, descobre que o trem que perdeu sofreu um acidente com inúmeras vítimas. Tais eventos são fruto da atuação dos espíritos protetores, que preveem o destino dos encarnados e buscam alertá-los por diversos meios.
-
-O número de laços espirituais varia conforme a posição social de cada um. Pessoas com muitos laços incluem, por exemplo, o chefe de uma família, que se conecta aos familiares, empregados, parentes e conhecidos; o presidente de uma empresa, a todos os seus funcionários; e os ocupantes de cargos públicos — prefeitos, governadores, primeiros-ministros, presidentes, monarcas —, que estão ligados a todos os habitantes de sua jurisdição. Quanto mais elevada a posição, maior o número de laços. Por essa razão, a integridade de caráter daqueles que ocupam posições de liderança é de suma importância. Se a alma de um líder estiver maculada, essa condição se refletirá em muitas pessoas, corrompendo o pensamento da coletividade. Assim, o primeiro-ministro de uma nação, por exemplo, deve ser uma pessoa de grande caráter, dotada de sabedoria e discernimento, que governe com a máxima sinceridade. Quando o pensamento de um povo se degrada, a moralidade decai e os crimes se multiplicam, a responsabilidade recai sobre os governantes.
-
-Os educadores, em particular, ao compreenderem que sua índole se reflete em seus alunos através dos laços espirituais, devem se empenhar em polir constantemente sua própria alma, a fim de se tornarem exemplos dignos de serem seguidos.
-
-Especial atenção deve ser dada aos religiosos. Um fundador, líder ou mestre de uma religião, sendo venerado por inúmeros fiéis como uma divindade encarnada, possui um poder de influência espiritual extraordinário e, por isso, deve ser extremamente zeloso. Caso se aproveite de sua elevada posição para cometer atos reprováveis, essa conduta se refletirá em todos os seus seguidores, levando, inevitavelmente, sua religião ao colapso, como tantos exemplos históricos já demonstraram.
-
-Os laços espirituais não emanam apenas dos seres humanos; Deus e as divindades também os estendem até nós. A diferença reside em que os laços divinos são feitos de luz. Os laços de pessoas de alma elevada podem ter um brilho tênue, mas a maioria dos seres humanos possui laços acinzentados e sem luz. Quanto mais perversa a pessoa, mais escuros se tornam seus laços. No convívio social, as pessoas sabiamente buscam a companhia de indivíduos virtuosos, pois sabem que, ao se associarem ao bem, tornam-se boas, e ao se associarem ao mal, tornam-se más. Isso se deve inteiramente à influência dos laços espirituais.
-
-Mesmo no âmbito divino, existem entidades do bem e do mal. Os laços provenientes de Deus e dos espíritos benignos são de luz, e, ao reverenciá-los constantemente, nossa alma se purifica. Já dos espíritos malignos, em vez de luz, recebemos uma espécie de energia deletéria que corrompe nossos pensamentos e nos conduz à infelicidade. Portanto, ao se praticar a fé, é crucial discernir a verdadeira natureza das divindades. Além disso, mesmo entre as divindades do bem, a intensidade da luz varia conforme sua hierarquia. Quanto mais elevada a divindade, mais forte é a luz de seus laços espirituais, e, por consequência, mais milagres ocorrem entre seus fiéis.
-
-Até aqui, esbocei o significado dos laços espirituais no que concerne ao ser humano. Contudo, sua atividade se estende a outros âmbitos. Eles nos conectam também às nossas moradias e aos objetos que usamos e estimamos no dia a dia. Quanto maior o apreço por um objeto, mais espesso é o laço que nos une a ele, o que se aplica igualmente a roupas e acessórios.
-
-Há um relato interessante que li em uma revista espírita americana. Contava a história de uma senhora com uma habilidade extraordinária: ao observar um objeto, ela era capaz de discernir a fisionomia, a idade e as ações recentes de seu dono. Segundo ela, ao fixar o olhar no objeto, essas informações surgiam em sua superfície como uma fotografia. Isso nada mais é do que uma impressão gravada por meio do laço espiritual, o que nos revela quão misteriosa e sutil é a sua atuação.
-
-Recentemente, a ciência tem se dedicado a estudar os chamados raios cósmicos. A meu ver, eles são, na realidade, os laços espirituais que conectam os astros ao nosso planeta. A Terra se mantém estável no espaço porque é tracionada pelos laços espirituais dos corpos celestes que a circundam. O número desses laços é incalculável, na casa dos milhões ou bilhões, e eles penetram até o centro do nosso planeta. Aproveitando a oportunidade, gostaria de tecer alguns comentários sobre a relação entre os corpos celestes e a Terra.
-
-O Cosmos e a Terra se relacionam como espelhos postos um diante do outro. Os astros são de dois tipos: luminosos e escuros. Os astros escuros, por não emitirem luz, são invisíveis ao olho humano, mas, com o passar dos anos, transformam-se em astros luminosos, aumentando seu número. Essa transformação ocorre devido a um processo de solidificação da matéria cósmica; ao atingir o ponto máximo de endurecimento, a matéria começa a irradiar brilho. É o mesmo princípio que faz do diamante, o mineral mais duro da Terra, o mais cintilante.
-
-Consequentemente, na época da criação da Terra, havia pouquíssimos astros, como as estrelas da alva. O aumento do número de astros e o crescimento da população humana na Terra são diretamente proporcionais. Assim, é impossível mensurar o quanto ambos ainda aumentarão no futuro. Quando os astrônomos anunciam a descoberta de uma "nova estrela", trata-se, na verdade, de um astro escuro que se tornou luminoso e passou a ser visível aos olhos humanos. Os meteoros, por sua vez, são resultado da fragmentação de um astro, e os meteoritos são seus destroços.
-
-Existem inúmeros astros de diferentes tamanhos, incluindo os cinco gigantes — Júpiter, Marte, Saturno, Vênus e Mercúrio —, e todos eles exercem influência sobre a humanidade. A existência desses cinco grandes planetas corresponde, em cada época, à existência de cinco grandes personalidades no mundo. Acho interessante que, ao nos referirmos a pessoas notáveis, usemos metáforas astrais como "o surgimento de um novo astro" ou "a queda de um astro".
-
-Houve no Ocidente uma época em que a astrologia floresceu grandemente. Os monges a praticavam e a utilizavam para prever a sorte e o azar, bem como para diagnosticar doenças, e sua influência marcou uma era, como registram os fatos históricos. Na China, a arte do I Ching também se baseia nos Nove Astros. Creio que o interesse dos povos antigos pelos astros não era, de modo algum, desprovido de significado.
-
-Quanto à teoria da existência de vida em Marte, trata-se de um engano. Segundo meu entendimento, a vida existe apenas neste planeta. A Terra é o centro do grande universo, e tudo o que existe foi criado para servir à humanidade. Diante disso, devemos refletir sobre quão sublime é a existência humana.
-
----
-
-# Os Fundamentos da Terapêutica Espiritual
-
-**Categoria:** re | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## Os Fundamentos da Terapêutica Espiritual
-
-Tenho explanado, sob diversas perspectivas, que o Mundo do Dia se rege pelo princípio da primazia do espírito sobre a matéria. Ao aplicarmos esse conceito ao corpo humano, compreendemos que as toxinas, a causa fundamental das doenças, são substâncias acumuladas no corpo físico. Nesse caso, qual seria a condição do corpo espiritual? Onde quer que existam toxinas no corpo físico, há uma mácula correspondente no corpo espiritual.
-
-Nesse sentido, a tentativa de eliminar as toxinas atuando unicamente sobre o corpo físico resulta em um alívio meramente temporário, pois, com o tempo, elas ressurgirão. Isso ocorre devido à lei da primazia do espírito sobre a matéria. Portanto, o método fundamental para a eliminação das toxinas exige, impreterivelmente, a dissolução das máculas do corpo espiritual. Este é o único caminho correto para se atingir plenamente o objetivo da cura.
-
-Contudo, todas as terapias existentes até hoje têm o corpo físico como seu único objeto de estudo, e seus métodos se restringem a eliminar ou solidificar as toxinas. Naturalmente, seus resultados são passageiros e não constituem uma cura fundamental, fato eloquentemente demonstrado pela própria existência do termo "recaída". No âmbito da medicina, existem basicamente dois métodos para a eliminação de toxinas: a solidificação e a remoção cirúrgica. Já nas terapias populares, empregam-se técnicas como a eletroterapia ou a fototerapia para solidificá-las, ou ainda a moxabustão, que provoca queimaduras para concentrar e expelir o pus.
-
-Em contrapartida, esta terapêutica fundamenta-se na dissolução das máculas do corpo espiritual. O método consiste na irradiação, a partir dos dedos do terapeuta, de uma espécie de onda espiritual cujo componente principal é o Elemento Fogo. A essa onda, darei o nome provisório de Linha Mística. Cumpre notar que todo ser humano possui essa luz mística em certa medida. Mais precisamente, essa luz preenche de forma infinita não apenas o espaço terrestre, mas todo o Mundo Espiritual.
-
-Neste ponto, é imperativo questionar por que um método de cura capaz de dissolver as máculas por meio de ondas espirituais não foi descoberto até hoje. A razão, como mencionei anteriormente, é que vivíamos no Mundo da Noite. O Mundo da Noite é um mundo de escuridão, cuja luz equivale apenas à do luar, sendo, portanto, impossível obter uma Linha Mística com poder suficiente para dissolver as máculas. Naturalmente, isso não significa que tal poder fosse de todo inexistente. Prova disso são certos religiosos e ascetas que praticavam métodos de cura e obtinham algum resultado, o que lhes conferiu, bem como às suas religiões e fundadores, considerável renome, como é de conhecimento geral. Todavia, como a luz do luar tem o Elemento Água como componente principal, seu poder curativo se restringia a certas doenças e seus efeitos eram apenas temporários. Isso se deve à natureza fria do Elemento Água, que atua como uma terapia de solidificação.
-
-Esta Arte Médica Japonesa, ao contrário, tem o Elemento Fogo como seu principal componente, sendo capaz de dissolver qualquer acúmulo de toxinas e, por conseguinte, produzir efeitos notáveis. Assim, a motivação fundamental para a descoberta do meu método de cura reside em dois fatores essenciais. O primeiro foi a percepção de que o Mundo da Noite está em transição para o Mundo do Dia. O segundo foi a compreensão de que, no Mundo do Dia, as partículas do Elemento Fogo se intensificam e, ao serem concentradas e transmitidas através do corpo humano, geram uma potente luz curativa que, irradiada sobre as áreas afetadas, manifesta um extraordinário poder de cura.
-
-Gostaria de esclarecer, neste momento, que tais práticas podem ser facilmente associadas à religião, pois se assemelham aos atos realizados por Cristo e por fundadores de diversas seitas no passado. No entanto, desejo, a todo custo, evitar que sejam rotuladas como religiosas. A razão é que, ao serem conduzidas em um contexto religioso, elas inevitavelmente seriam vistas pela sociedade como mera superstição. Isso se deve não apenas aos inúmeros casos de pessoas que sofreram e caíram em desgraça por se envolverem com crenças supersticiosas e religiões malignas, mas também ao fato de as próprias autoridades exercerem um controle rigoroso para prevenir tais males. Ademais, é provável que fiéis de todas as religiões, sejam xintoístas, budistas ou cristãs, ao se verem afligidos por doenças, hesitem em receber um tratamento que contenha o menor componente religioso.
-
-Ademais, classificar este método como religioso implicaria, conforme expliquei, que seus efeitos curativos dependem do auxílio da fé, um conceito de "força própria" do paciente. Isso seria, na prática, uma confissão de que o poder de cura intrínseco é fraco. É inegável que algo semelhante ocorre, em certa medida, no campo da medicina. Títulos como "Doutor em Medicina", "Professor Universitário", "Diretor de um grande hospital", ou o status de "autoridade em sua especialidade" e "médico da alta sociedade", naturalmente inspiram no paciente um considerável sentimento de reverência e confiança antes mesmo de iniciar o tratamento. A força proveniente dessa convicção, por certo, adiciona um grau de eficácia ao processo, o que demonstra haver um ponto em comum com a fé devotada à religião.
-
-Nesta minha arte médica, todavia, o auxílio de tais convicções é absolutamente desnecessário. Por essa razão, não apenas inexiste a necessidade de conferir-lhe um caráter religioso, como tal atitude acarretaria as inúmeras desvantagens já mencionadas. Portanto, insisto em afirmá-la como ciência e é como ciência que pretendo apresentá-la ao mundo. Trata-se, em suma, da ciência do futuro, a ciência mais avançada, e almejo que se torne uma arte médica de alcance mundial, inaugurada por um japonês.
-
----
-
-# O Princípio da Precedência do Espírito sobre a Matéria
-
-**Categoria:** re | **Ano:** 昭和26(1951)年2月21日 | **Fonte:** Eikou
-
-## O Princípio da Precedência do Espírito sobre a Matéria
-
-Este ensaio é de suma importância. Embora eu tenha a sensação de que sua publicação ainda seja um tanto prematura, decidi-me, corajosamente, a escrevê-lo.
-
-Inicialmente, abordemos a guerra que se trava atualmente entre as Coreias do Norte e do Sul. Como é de vosso conhecimento, o exército norte-coreano, em seu avanço inicial, demonstrou um ímpeto avassalador, empurrando as forças do Sul até a cidade de Busan. No momento em que a Coreia do Sul parecia prestes a sucumbir, a intervenção das forças americanas reverteu o quadro drasticamente. Estas não apenas repeliram o inimigo, como também cruzaram o Paralelo 38 sem grandes dificuldades.
-
-Contudo, quando já se aproximavam da fronteira com a Manchúria, surgiu subitamente o colossal exército da China Comunista. Sendo a sua superioridade numérica de uma magnitude totalmente diferente, as forças aliadas foram, lamentavelmente, rechaçadas em uma avassaladora contraofensiva, fazendo com que a situação retornasse ao seu ponto de partida e a vitória inicial se tornasse vã. Todavia, mais uma vez, a estratégia de grande envergadura do General MacArthur logrou êxito, e a pressão contínua das forças aliadas levou ao colapso a tática de ondas humanas do exército comunista. Agora, com Seul em perigo iminente, é provável que este se veja obrigado a recuar para dentro do Paralelo 38.
-
-O que descrevi até aqui é o aspecto aparente do conflito. Vejamos, agora, qual seria a sua interpretação sob uma perspectiva espiritual. Sempre tenho ensinado que todas as coisas são regidas pelo Princípio da Precedência do Espírito sobre a Matéria, e tal preceito se manifesta claramente nesta guerra. No que tange às direções cardeais, o Leste e o Norte representam o espírito, ao passo que o Oeste e o Sul correspondem à matéria. Portanto, avançar do Sudoeste para o Nordeste é mover-se na contramão do fluxo espiritual; assemelha-se a navegar contra o vento: um esforço hercúleo, com o risco iminente de ser repelido. Por essa razão, afirmei, desde o início, que as forças americanas não alcançariam a vitória a menos que realizassem uma operação de desembarque no ponto mais a nordeste da Coreia, através do Mar do Japão. E, de fato, foi o que se confirmou.
-
-Analisemos alguns exemplos históricos que corroboram essa lei. Na Segunda Guerra Mundial, as tropas alemãs, após avançarem até Moscou e estarem a um passo da vitória, foram forçadas a uma retirada que culminou com o exército soviético sendo o primeiro a invadir Berlim. Napoleão Bonaparte conheceu destino semelhante. O mesmo se aplica à Guerra Civil Americana, vencida pelos estados do Norte, e às disputas do Período das Cortes do Norte e do Sul em nosso país.
-
-Existem, contudo, exceções. Estas ocorrem unicamente nos conflitos que opõem o justo ao injusto. Um raro exemplo é a Guerra Russo-Japonesa.
-
-Nesse ponto, gostaria de relatar algo sobre minha própria trajetória. Nasci em Hashiba, no bairro de Asakusa, em Tóquio. O Leste do Japão é Tóquio; o Leste de Tóquio é Asakusa; e o Leste de Asakusa é Hashiba, que margeia o Rio Sumida, constituindo assim o extremo Leste da cidade. Entretanto, desde os meus cinco ou seis anos de idade, fui me mudando progressivamente para o Oeste. Minha primeira mudança foi para o bairro de Senzoku-cho, ainda em Asakusa. Em seguida, para Naniwa-cho, em Nihonbashi; depois para Kobiki-cho, em Kyobashi; posteriormente para Omori, e após uma breve estadia de seis meses em Kojimachi, transferi-me para minha atual residência, Hozanso, em Tamagawa. Este local representa o extremo Oeste de Tóquio e foi onde permaneci por mais tempo.
-
-Após esse período, mudei-me simultaneamente para Hakone e Atami. Mesmo em Atami, meu percurso seguiu o mesmo padrão: residi primeiro em Higashiyama, no extremo Leste da cidade; depois em Shimizu-cho, na região central; e por fim, em minha morada atual, no bairro de Minakuchi-cho, que se localiza no extremo Oeste. Como se pode notar, desde tenra idade, desloquei-me gradativamente do Leste para o Oeste. É como se eu seguisse a trajetória do Sol. Considerando que meu objetivo é construir o Mundo do Dia, podemos dizer que essa jornada é parte do meu destino.
-
-Há aqui um fato interessante, que muitas vezes passa despercebido. Até hoje, no Japão, a cultura, a religião e o pensamento fluíram invariavelmente do Oeste para o Leste. Deixando de lado as influências estrangeiras, tanto o Budismo quanto o Xintoísmo nasceram no Oeste e se propagaram rumo ao Leste. A única exceção notável é o Budismo de Nichiren, que surgiu no Leste. Isso também é curioso: o Budismo é, em sua essência, um ensinamento da Lua, mas, em seu desfecho, surgiu um único ensinamento do Sol. Sendo do Sol, é natural que tenha emergido do Leste. O fato de seu fundador ter entoado o mantra *Namu Myoho Renge Kyo* voltado para o sol nascente no alto do Monte Kiyosumi, marcando o início da propagação de sua doutrina, é algo repleto de significado.
-
-Fora esses exemplos, a única outra religião a seguir tal padrão é a nossa, a Igreja Messiânica. Diante do exposto, o futuro reservado a esta Obra Divina não é difícil de imaginar.
-
----
-
-# Os Mistérios do Mundo Espiritual
-
-**Categoria:** re | **Ano:** 昭和24(1949)年10月25日 | **Fonte:** Chijo Tengoku
-
-## Os Mistérios do Mundo Espiritual
-
-O Mundo Espiritual é, em verdade, uma dimensão de existência sutil e misteriosa, cuja natureza é sobremaneira difícil de ser compreendida pelo juízo e pelo bom-senso dos homens. Nesse sentido, buscarei elucidar de que maneira os pensamentos humanos reverberam nessa esfera.
-
-Sendo o Mundo Espiritual um universo puramente regido pelo pensamento, o nada pode dar origem ao ser, e o ser pode retornar ao nada, em um processo de infinitas metamorfoses. Tomemos como exemplo a criação de imagens de devoção a Deus ou aos budas, por meio da pintura ou da escultura. Acontece que, dependendo da nobreza de caráter do artista, o nível do espírito divino ou búdico que ali se manifesta será, por si só, mais elevado ou mais baixo. Isso ocorre porque a própria personalidade do autor assim o determina. No caso mais sublime, um espírito divino de alta hierarquia, correspondente à elevação do artista, descerá sobre a obra. Por conseguinte, mesmo que a forma seja idêntica, se o caráter do criador for de baixo nível, um espírito substituto ou uma manifestação secundária, de acordo com essa condição, ali se alojará.
-
-Ademais, quando um objeto sagrado, alvo de veneração, é reverenciado com sinceridade e súplicas que brotam do coração, o poder de seu espírito, ou seja, sua Luz, manifesta-se com grande vigor. Em contrapartida, se o pensamento do fiel for meramente formal, desprovido de uma fé e de um respeito genuínos, o poder do espírito divino diminui na mesma proporção. De igual modo, quanto maior for o número de fiéis a reverenciá-lo, com mais fulgor o poder divino irradiará sua Luz.
-
-Há um antigo ditado que diz: "Pela fé, até a cabeça de uma sardinha se torna sagrada". O que isso significa? Suponhamos que um indivíduo de pouca virtude e sem qualquer qualificação crie um objeto de culto e, por meio de uma propaganda astuciosa, consiga atrair, por um tempo, um número considerável de fiéis. Pela força do pensamento desses devotos, uma forma divina ou búdica é plasmada no Mundo Espiritual. Consequentemente, essa forma passa a manifestar certo poder e a conceder graças, o que não passa de um fenômeno produzido pela ação do pensamento humano — algo que só se pode classificar como verdadeiramente prodigioso. Contudo, embora tais cultos possam prosperar por algum tempo, eles não são autênticos. Sendo criações temporárias e ilusórias, estão fadados a desaparecer. Como todos sabem, não são poucos os exemplos desse fenômeno, que dá origem ao que se costuma chamar de "deuses da moda".
-
-Até aqui, tratei dos espíritos divinos. Explicarei agora o seu oposto: os espíritos malignos.
-
-O que mais se vê no mundo é o número excessivo de pessoas imorais que, para satisfazer seus próprios desejos, causam transtornos ao próximo, afligem-no e o conduzem à desgraça. Evidentemente, tais atitudes são fruto do pensamento materialista, que não acredita naquilo que é invisível, como sempre apontamos. No entanto, sob uma perspectiva espiritual, essa realidade revela-se estranha, pavorosa e aterradora.
-
-Se uma pessoa inflige sofrimento a outrem, a vítima inevitavelmente sentirá rancor, ódio e o desejo de vingança. Tais pensamentos, por meio de elos espirituais, atingem diretamente o agressor. Observados espiritualmente, esses pensamentos assumem a forma de semblantes terríveis de fúria e ressentimento. Fosse possível enxergá-los, nem o mais perverso dos homens resistiria; sucumbiria de imediato.
-
-Agora, imaginemos que as vítimas não sejam apenas uma ou duas, mas milhares ou dezenas de milhares. A congregação de tantos pensamentos hostis dá origem a monstros ainda mais pavorosos e grotescos, que assumem as mais diversas formas para assediar o malfeitor e levá-lo à aniquilação. É uma situação insustentável. Por isso, por mais heroico ou audacioso que seja o indivíduo, ele não terá outra saída senão perecer sob um destino miserável. Se observarmos as grandes figuras da História, veremos que, sem exceção, todas trilharam um destino semelhante.
-
-Isso se torna ainda mais claro quando analisamos as tragédias de políticos corruptos, a ruína de novos-ricos, o fim daqueles que iludiram e fizeram de inúmeras mulheres um joguete, ou o destino de agiotas de índole perversa.
-
-Em contrapartida, aquele que pratica o bem e recebe os pensamentos de gratidão e o profundo apreço de muitas pessoas, verá esses pensamentos se converterem em Luz. Essa Luz o envolve, tornando-o cada vez mais virtuoso. Assim, os Espíritos Malignos e as forças do mal, temendo essa Luz, não conseguem se aproximar, e ele se torna uma pessoa de imensa felicidade. O halo de luz que frequentemente se vê nas representações de Deus e dos budas é justamente um símbolo desse fenômeno.
-
-Pelo que foi exposto, pode-se compreender a imensa importância que devemos atribuir aos pensamentos humanos.
-
----
-
-# O Amor e a Influência Espiritual
-
-**Categoria:** re | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## O Amor e a Influência Espiritual
-
-É fundamental compreender que o sentimento amoroso tem, em sua origem, a influência espiritual. A esse respeito, apresentarei dois exemplos elucidativos.
-
-O primeiro ocorreu na época em que eu ainda me dedicava aos negócios. Uma jovem estudante de Belas-Artes, com cerca de vinte anos, atuava em meu escritório. Visto que minhas atividades comerciais envolviam obras de arte, ela se encarregava dos trabalhos de design. Para fins de relato, chamemo-la de T. Certo dia, ela recebeu a visita de uma amiga, U, colega de escola com seus dezoito ou dezenove anos. Como T estava ocupada com suas tarefas, pedi que a visitante aguardasse na sala de visitas. Ao observar casualmente a jovem U, sua aparência excessivamente melancólica despertou em mim uma certa apreensão. Inquieto, não pude permanecer indiferente e dirigi-me discretamente à sala de T para indagá-la sobre o comportamento da amiga.
-
-Inicialmente, ela relutou em revelar a verdade, mas, diante da minha insistência, acabou por confessar toda a situação. Acontece que T e U mantinham um relacionamento homoafetivo há um tempo considerável. Recentemente, a mãe de T descobrira o fato e, repreendendo-a com severidade, impôs-lhe um ultimato: ou rompia a relação com U, ou seria forçada a abandonar os estudos. Pressionadas, as duas haviam deliberado cometer um suicídio por amor naquela mesma noite, e a presença de U ali se devia a esse propósito: viera buscá-la para o pacto fatal.
-
-Surpreso, procedi imediatamente a uma investigação espiritual em T. De súbito, um espírito obsessor manifestou-se e começou a falar. Tratava-se do espírito de um pato, que assim confessou: “Aposssei-me de T há alguns meses. O espírito que obsidia U é o de um rouxinol, e eu o acho irresistivelmente encantador”. Compreendi, então, a origem do problema. Repreendi e admoestei o espírito do pato, logrando, por fim, que ele se desprendesse. Como resultado, o amor que T sentia por U desapareceu por completo, e ela passou a vê-la apenas como uma simples amiga, tal como antes. Naturalmente, foi necessário realizar o procedimento de investigação espiritual por diversas vezes. Este caso, todavia, ensinou-me algo importante: para solucionar um problema amoroso dessa natureza, basta tratar apenas uma das partes envolvidas.
-
-Houve ainda outra ocasião exemplar. Durante o período em que me aprofundava nos estudos espirituais, encontrei em certo lugar um estudante universitário, com quem iniciei uma conversa que derivou para um debate sobre a existência ou não dos espíritos. Ao final, ele me solicitou que lhe fizesse uma investigação espiritual. Assenti prontamente e dei início ao procedimento. Em pouco tempo, ele entrou em transe, pois, como era de se esperar, um espírito obsessor se manifestara.
-
-Indaguei:
-“Quem é você?”
-
-O espírito respondeu:
-“Sou [nome omitido], uma criada que trabalha no estande de tiro ao alvo [nome omitido], no Parque de Asakusa. Gosto tanto deste rapaz que anseio por sua visita, mas como ele não vem, apossei-me dele. Por favor, peça-lhe você também que venha me ver”.
-
-Como eu lhe desse minha palavra, o espírito, satisfeito, retirou-se. No mesmo instante, o rapaz despertou, com o olhar perplexo. Perguntei-lhe de imediato:
-“O senhor conhece uma mulher chamada [nome omitido], do estabelecimento [nome omitido]?”
-
-Ele, atônito, retrucou:
-“Mestre, como o senhor sabe da existência dela?”
-
-Repliquei:
-“Acabei de ouvir de você mesmo”.
-
-Espantado, ele declarou:
-“Assim que o senhor iniciou a investigação, perdi completamente a consciência. Não tenho a menor recordação do que possa ter dito”.
-
-É desnecessário dizer que, diante de tal evidência, sua convicção materialista desmoronou por completo.
-
-O caso acima é um exemplo de atuação de um espírito vivo. Em minhas pesquisas, deparei-me frequentemente com tais espíritos, e constatei que sua obsessão ocorre, na maioria das vezes, em decorrência de relações amorosas. Portanto, é natural que esse fenômeno seja mais comum entre homens e mulheres de grande beleza. A possessão por um espírito vivo possui características distintas: enquanto a de um espírito de um morto provoca calafrios ou uma sensação de frio, a do espírito vivo gera um calor por todo o corpo, especialmente na região do peito, e uma aceleração dos batimentos cardíacos. Ademais, quando o espírito vivo é de alguém por quem se nutre aversão, a sensação é de profundo desconforto; se, ao contrário, pertence a alguém amado, a sensação é de extremo prazer.
-
-Costuma-se dizer que o amor é como uma febre. De fato, quando o sentimento atinge seu ápice, os amantes não suportam ficar separados nem por um minuto, e o trabalho e as demais obrigações perdem o sentido. A pessoa se torna como um ser esvaziado, alheio a tudo. Isto ocorre porque os espíritos vivos de ambos se possessam mutuamente, fazendo com que suas almas fiquem como que ocas. Nesse estado, o tempo de separação converte-se em um sofrimento atroz, que pode, em última instância, conduzir ao suicídio por amor.
-
-De acordo com minhas pesquisas, o amor sublime e de natureza pura está frequentemente associado a espíritos de aves. Por outro lado, o amor ilícito, como nas relações adúlteras, é em geral obra de espíritos de raposas, um fato que inúmeras experiências tornaram evidente.
-
----
-
-# O Amor e a Religião
-
-**Categoria:** re | **Ano:** 昭和24(1949)年7月9日 | **Fonte:** -
-
-## O Amor e a Religião
-
-Frequentemente sou inquirido a respeito do amor, e minha resposta é a que se segue: o amor, em sua essência, constitui a maior das graças que Deus concedeu à humanidade. Ademais, afirma-se que sua culminância é o casamento, o que é uma verdade inquestionável.
-
-Por essa razão, o amor exige sabedoria e autorreflexão. Os romances desregrados, tão comuns no mundo, constituem uma perversão e configuram um pecado, que, em última análise, deverá ser expiado por meio de um sofrimento muitas vezes superior à transgressão cometida.
-
----
-
-# A Transição do Dia e da Noite no Mundo Espiritual
-
-**Categoria:** re | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
-
-## A Transição do Dia e da Noite no Mundo Espiritual
-
-O acontecimento de suma importância a que me refiro é a grande transição do dia e da noite no Mundo Espiritual. Afirmar que se trata de uma alternância entre a noite e o dia pode parecer um disparate, pois qualquer um diria que ambos já ocorrem no ciclo de um único dia. Todavia, refiro-me ao ciclo do Grande Universo. A compreensão desse fato permite alcançar o entendimento de um profundo mistério, que a inteligência humana é incapaz de conceber, e, por meio dele, discernir o rumo dos acontecimentos mundiais e antever, com considerável precisão, o futuro.
-
-Conforme mencionei anteriormente, este mundo é constituído por três elementos primordiais: o Mundo Material, o Mundo Atmosférico e o Mundo Etéreo. O ciclo diurno e noturno de um dia corresponde aos dois primeiros – o material e o atmosférico –, que podem ser percebidos pelos cinco sentidos humanos e medidos por instrumentos. Em contrapartida, o ciclo do Mundo Etéreo é, para nós, como o nada, algo impossível de ser captado. Portanto, mesmo para aqueles que leem este texto, será difícil acreditar de imediato no que exponho. Até eu mesmo, se não conhecesse a Deus, pensaria como uma pessoa comum. Contudo, por possuir esta importante missão e manter uma relação íntima e inseparável com a Divindade, posso conhecer tais verdades com absoluta certeza.
-
-Segundo o que me foi revelado, assim como no Mundo Material existe um ciclo de dia e noite em 24 horas, no Mundo Espiritual existem ciclos de dez, cem, mil e até dez mil anos. Consequentemente, cada uma dessas transições se reflete no mundo da humanidade. Embora no plano espiritual essa alternância seja absolutamente precisa, ao ser transposta para o plano material, uma certa defasagem é inevitável. Tendo isso em mente, ao observarmos a longa trajetória da história, as diversas transformações – grandes, médias e pequenas – que presenciamos são manifestações desse fenômeno.
-
-O que pretendo abordar agora, entretanto, são os pontos principais relativos à grande transição mundial. Antes de mais nada, o período dessa magna transformação teve início em 15 de junho de 1931 e uma primeira fase se encerrará em 15 de junho de 1961, completando um ciclo de trinta anos. Para a mente humana, trinta anos podem parecer um longo período; todavia, no âmbito da Providência Divina no Grande Universo, não passam de um instante. Ademais, embora se fale em trinta anos, a mudança no Mundo Material não ocorre de forma abrupta, mas avança gradualmente. Se somarmos os períodos anterior e posterior a esses trinta anos, o processo todo demandará mais de sessenta anos, pois são necessários tempo para a preparação e para a organização subsequente à transição.
-
-O significado dessa transição é que, até o presente, vivíamos no Mundo da Noite e, por assim dizer, sob o domínio da Lua. Agora, com o iminente advento do Mundo do Dia, a situação se desenrola exatamente como foi profetizado pelos dois grandes fundadores de religiões do mundo, Shakyamuni e Cristo. Primeiramente, segundo as escrituras budistas, após Shakyamuni afirmar ‘Aos setenta e dois anos, alcancei a visão da verdade’, ele foi visto, pouco tempo depois, com uma expressão de melancolia incomum. Preocupado, seu discípulo, o Venerável Ananda, perguntou-lhe: ‘Venerável Mestre, hoje pareces mais abatido que o usual. Haveria algo que Vos preocupe?’. Shakyamuni respondeu prontamente: ‘Até hoje, dediquei minha vida a estabelecer a Lei Búdica, esforçando-me imensamente para salvar todos os seres. Contudo, recebi hoje do Grande Buda uma revelação inesperada. Segundo ela, chegará um tempo em que minha Lei perecerá, o que me causou uma grande desolação’. Em seguida, o Mestre acrescentou: ‘Pela visão da verdade, compreendi que muitos dos sutras que preguei até agora contêm não poucos erros. A partir de hoje, pregarei a verdade, portanto, buscai diligentemente a iluminação correta por meio dela’. Assim, é certo que os sutras ensinados a partir desse momento constituem a verdadeira essência da Lei Búdica, sendo eles os vinte e oito capítulos do Sutra de Lótus, o Sutra da Extinção da Lei e o Sutra da Vinda de Maitreya.
-
-Foi Nichiren Shonin quem descobriu esse fato. Com base nessa descoberta, ele concluiu que todas as demais doutrinas religiosas eram anteriores à visão da verdade de Buda e, portanto, não eram verdadeiras. Afirmando que somente o Sutra de Lótus continha a quintessência da Lei Búdica, ele negou veementemente todas as outras escolas e, com fervor, proferiu seu grande ‘rugido de leão’. Diante disso, sua declaração audaciosa e intransigente não pode ser levianamente condenada.
-
-A esse respeito, interpretemos o significado dos vinte e oito capítulos do Sutra de Lótus. O vigésimo quinto capítulo, o ‘Fumon-hon’ ou Capítulo do Portal Universal de Kannon (観音), encerra um profundo mistério. O nome Sutra de Lótus significa ‘a Flor da Lei’, e, ao final, essa flor precisa desabrochar. O lugar designado para tal é o Japão, e a pessoa, Nichiren Shonin. Foi por essa forte convicção que ele, empunhando o Sutra de Lótus, não se curvou diante de nenhuma provação e se dedicou resolutamente a propagá-lo por todo o país. Originalmente, como expliquei, a Lei Búdica é o ensinamento da Lua; é *yin*, é feminina. A afirmação de Shakyamuni, ‘Sou uma mulher transmutada’, provavelmente se refere a isso.
-
-Ademais, a conduta de Nichiren Shonin foi inovadora e sem precedentes. É famosa a história de que, ao concluir seu treinamento ascético no Monte Kiyosumi, em sua terra natal, Awa, ele entoou em alta voz os cinco ideogramas de ‘Myo-Ho-Ren-Ge-Kyo’ voltado para o sol nascente no leste, marcando o início de sua grande obra de propagação do Sutra de Lótus. Isso também é significativo, pois, até então, todas as escolas budistas entoavam os seis ideogramas de ‘Na-Mu-A-Mi-Da-Butsu’. O número cinco representa o Sol, enquanto o seis representa a Lua. O budismo no Japão, que até então era notoriamente passivo (*yin*), com o surgimento da escola Nichiren, passou a manifestar uma natureza extremamente ativa (*yang*): o rufar dos tambores, os arranjos de flores, a entoação dos sutras em voz alta – tudo exalava uma vibrante energia solar. A flor do budismo, de fato, desabrochou. A expressão popular que se refere a essa escola como ‘o Lótus de uma geração’ talvez se deva ao fato de que uma flor, após desabrochar, murcha, indicando que, embora seu apogeu seja belo, sua glória não é duradoura.
-
-Há ainda outro mistério: o número de vinte e oito capítulos do Sutra de Lótus. O número vinte e oito representa as vinte e oito mansões lunares. O fato de o Capítulo do Portal Universal estar na vigésima quinta posição significa que vinte e cinco (cinco vezes cinco), sendo cinco o número do Sol e da origem, representa o nascer do Sol. É um símbolo do nascimento do Sol no seio do mundo búdico da Lua. Em outras palavras, nesse momento, nos recônditos mais profundos do Mundo Espiritual da Noite, a luz tênue da alvorada já começava a despontar. Curiosamente, enquanto todas as outras escolas budistas se originaram no Oeste, somente a escola Nichiren surgiu no Leste. E o Monte Kiyosumi, em Awa, sendo o ponto mais oriental do Japão, encerra um grande mistério, como expliquei de forma geral em meu livro ‘Coletânea Jikan – Relatos de Milagres’, que pode ser consultado para referência. Em suma, esse local é o ponto de partida do Mundo do Dia na segunda dimensão do Mundo Espiritual.
-
-Resta explicar por que a flor da Lei Búdica precisava desabrochar justamente no Japão. Oculto nesse fato há um profundo desígnio secreto: se a flor não desabrocha, o fruto não pode nascer. Esse fruto é o Mundo da Realidade, e a semente desse fruto é a atuação de Nyoirin Kannon (観音). Como sempre afirmo, Kanzeon é o Maitreya do Sol; Amida, o Maitreya da Lua; e Shakyamuni, o Maitreya da Terra. Juntos, esses três Budas formam a Tríade de Maitreya. Assim, enquanto Amida e Shakyamuni tiveram suas missões durante o período do Mundo da Noite, Kannon (観音) manifesta Seu poder na fronteira, no exato momento em que o mundo está prestes a se tornar o Mundo do Dia. Essa Providência Divina foi estabelecida desde os primórdios do budismo, na antiga Índia.
-
-O fato de nossa Igreja ter sido fundada, inicialmente, com o nome de ‘Nihon Kannon Kyodan’ (Igreja Kannon do Japão), de eu pintar a imagem de Kannon (観音) para ser venerada como Objeto de Culto e de o espírito de Kannon (観音) me acompanhar constantemente não é outra coisa senão o reflexo dessa predestinação. No entanto, por estarem presas ao título de ‘Bodhisattva’ de Kanzeon, algumas escolas religiosas consideravam Kannon (観音) inferior a Amida e a Shakyamuni, que eram ‘Nyorai’ (Tathagatas). Quem compreende a predestinação que descrevi, porém, percebe o equívoco dessa visão. Posteriormente, Sua posição foi elevada, e Ela Se tornou Komyō Nyorai (Tathagata da Luz). Portanto, como os fiéis bem sabem, Sua atuação no presente se dá como Komyō Nyorai.
-
----
-
-# A Estrutura do Mundo Espiritual e o Destino Humano
-
-**Categoria:** re | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
-
-## A Estrutura do Mundo Espiritual e o Destino Humano
-
-Conforme já expus, a constituição do Mundo Espiritual se dá em três grandes planos — o Paraíso, o Plano Intermediário e o Inferno. Estes, por sua vez, são tripartidos, totalizando nove estágios, que se subdividem até alcançarem o número de cento e oitenta níveis. A esse conjunto, denominei Mundo das Camadas Espirituais. Acima de toda essa estrutura, reside o Deus Supremo, regente do Universo. É curioso notar a própria grafia do ideograma para "Supremo" (主), no qual uma linha vertical atravessa três linhas horizontais, encimada por um pequeno traço.
-
-Para explicar em detalhes a relação entre o ser humano e o espírito, podemos conceber uma estrutura em três níveis concêntricos: o ser humano possui um corpo espiritual, idêntico ao seu corpo carnal; em seu centro, encontra-se a mente, e no centro da mente, a alma. Esta alma, outorgada por Deus, é a própria essência da consciência. A origem dessa alma, sua morada primordial, por assim dizer, pertence a um dos cento e oitenta níveis já mencionados. A essa entidade dou o nome de Espírito Primordial. O Espírito Primordial e a alma encarnada no homem estão conectados por uma linha espiritual, por meio da qual os pensamentos e as ações humanas são continuamente transmitidos ao Espírito Primordial e, através deste, chegam a Deus. De modo análogo, as ordens divinas percorrem o caminho inverso, passando pelo Espírito Primordial e pela linha espiritual até alcançar o indivíduo.
-
-Como exemplo, consideremos as situações em que, apesar de todo o esforço empenhado na consecução de um objetivo, os acontecimentos tomam um rumo inesperado ou nos deparamos com um fado surpreendente. Nesses momentos, ao refletir profundamente, a maioria das pessoas já experimentou a sensação de ser guiada por um poder invisível que a manipula. Esse poder dominante é, precisamente, a Vontade Divina, transmitida pelo Espírito Primordial. Portanto, quando as ações humanas se opõem à Vontade Divina, por mais que se esforce, o resultado será invariavelmente adverso. É imperativo, pois, que o ser humano examine constantemente seus próprios pensamentos para discernir se estão em harmonia com os desígnios de Deus.
-
-Contudo, a presença de egoísmo e de pensamentos impuros obstrui a transmissão da Vontade Divina. Embora possa haver uma aparência de sucesso momentâneo, o fracasso final é inevitável. Por essa razão, ao se planejar qualquer empreendimento, é crucial fazer uma autoanálise criteriosa, questionando profundamente se o objetivo é nobre e se servirá ao bem da sociedade e da humanidade. O aspecto mais interessante reside no fato de que, quando alguém mergulha em dificuldades por se desviar da Vontade Divina, o sofrimento resultante atua como um processo purificador. Por meio dessa provação, as máculas que originaram os pensamentos impuros são atenuadas, e a alma é polida. Como resultado, a pessoa torna-se capaz de se alinhar à Vontade Divina e, então, alcançar o sucesso. Isso explica por que é comum vermos pessoas que, após um grande fracasso, obtêm êxito, e por que, especialmente, aqueles que enfrentaram inúmeras adversidades se tornam indivíduos de notável sucesso.
-
-Diante do exposto, o único caminho para se tornar uma pessoa afortunada é elevar a morada de seu Espírito Primordial aos níveis superiores do Mundo Espiritual. A posição do espírito não é fixa; ele está em constante movimento ascensional ou descendente. Quanto mais leve, mais ele se eleva; quanto mais pesado, mais ele desce. A causa dessa leveza ou peso reside na natureza dos atos humanos: a prática de boas ações e a acumulação de virtudes diminuem as máculas e pecados, tornando o espírito mais leve. Inversamente, a prática de atos malignos e o acúmulo de transgressões aumentam as máculas, tornando-o mais pesado. Não é sem razão que, desde a antiguidade, se fala no "fardo do pecado". Sendo assim, as intenções, palavras e ações, sejam elas boas ou más, são comunicadas diretamente a Deus pela linha espiritual. Aquele que compreende essa verdade não tem outra escolha senão tornar-se uma pessoa virtuosa.
-
-Como mencionado, não apenas o destino, mas a própria vida e a morte do ser humano são determinadas por ordem de Deus. Nesse sentido, a palavra japonesa para "vida" utiliza o mesmo ideograma de "ordem" ou "comando". A morte, portanto, nada mais é do que a revogação desse comando divino, que ocorre quando o indivíduo passa a disseminar o mal ou quando sua existência perde o valor. Para que seu comando de vida não seja revogado, o ser humano deve se esforçar para ser amado por Deus e útil à sociedade. Sem isso, a longevidade e a felicidade são inalcançáveis.
-
-Nos níveis mais elevados do Mundo das Camadas Espirituais, não existem sofrimentos como doença, pobreza e conflito. Seus habitantes desfrutam de saúde vibrante, de moradia, vestuário e alimento plenos de abundância, beleza e bem, vivendo em um estado de júbilo constante. A felicidade desses Espíritos Primordiais é transmitida diretamente, pela linha espiritual, ao ser humano no plano terreno, tornando-o igualmente feliz. Em contrapartida, o Espírito Primordial que habita os níveis inferiores reflete sua condição sobre a pessoa, que passa a vida a agonizar em meio a um sofrimento infernal, terminando seus dias na infelicidade.
-
-No mundo, há pessoas que se preocupam sobremaneira com a orientação de suas casas ou com a direção para a qual se mudam. A verdade, porém, é que aquele cujo espírito se encontra em um nível elevado, ao se mudar ou construir, será naturalmente guiado para uma localidade e uma residência de boa configuração. Ao passo que aquele cujo espírito está em um nível inferior, por mais que se esforce, acabará por se instalar em um local desfavorável. O mesmo princípio se aplica ao matrimônio, definindo se a união será afortunada ou desafortunada. Isso decorre do princípio da correspondência entre o espírito e a matéria. Trata-se de uma força absoluta, à qual nenhum ser humano pode se opor.
-
-Gostaria de acrescentar uma palavra sobre predestinação e destino. A predestinação é aquilo que é determinado desde o nascimento. Ela limita o ser humano a uma das três grandes esferas do Mundo Espiritual — superior, intermediária ou inferior —, sendo impossível transcendê-la. O destino, por outro lado, refere-se à jornada dentro dessa esfera predeterminada. Alcançar o ponto mais alto ou cair ao ponto mais baixo depende unicamente do esforço individual. Assim, enquanto a predestinação é imutável, o destino concede um certo grau de liberdade.
-
-Portanto, o ser humano deve se empenhar constantemente em acumular virtudes e atenuar suas máculas e pecados, a fim de que seu Espírito Primordial possa habitar os níveis mais elevados do Mundo Espiritual. É preciso compreender que, fora desse caminho, não existe absolutamente nenhum outro meio de alcançar a verdadeira felicidade.
-
----
-
-# O Julgamento no Mundo Espiritual
-
-**Categoria:** re | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## O Julgamento no Mundo Espiritual
-
-Originalmente, os seres humanos deveriam cumprir integralmente a missão celestial que lhes foi confiada nesta vida. No entanto, a grande maioria julga as coisas apenas por sua aparência e, em busca de seus objetivos, acaba por praticar, mesmo sem se dar conta, atos de natureza maligna. Com o passar dos anos, essas ações se acumulam como máculas de pecado, obscurecendo o corpo espiritual. Isso talvez seja inevitável, visto que desconheciam a existência do Mundo Espiritual. Consequentemente, quando o ser humano se torna um habitante do Mundo Espiritual após a morte, a purificação dessas máculas é realizada com absoluto rigor. A seguir, passarei a detalhar esse processo.
-
-Por meio de médiuns, realizei uma investigação tão detalhada quanto possível sobre os fenômenos do Mundo Espiritual, colhendo o relato de inúmeros espíritos. Ao fazê-lo, evitei os pontos que me pareceram errôneos ou inverídicos, e escrevo com base na síntese dos testemunhos convergentes de múltiplos espíritos. Portanto, creio que o que aqui exponho está, em sua essência, isento de equívocos.
-
-Uma vez que o ser humano adentra o Mundo Espiritual, a vasta maioria é encaminhada para o que o Xintoísmo denomina *Chūukai* (中有界) ou *Yachimata* (八衢), o Budismo chama de *Rokudō no Tsuji* e o Cristianismo, de Mundo dos Espíritos. Cabe aqui uma ressalva importante: o Mundo Espiritual japonês possui uma estrutura tridimensional, ao passo que o ocidental é plano. A presente análise se debruça sobre o Mundo Espiritual japonês, e peço que o leitor tenha isso em mente. Esse referido *Yachimata* constitui, pois, uma zona intermediária. A rigor, a constituição do Mundo Espiritual se dá em nove níveis, a saber: três níveis de Paraíso, três de *Yachimata* e três de Inferno.
-
-Após a morte, o destino comum é se tornar um habitante de *Yachimata*. Contudo, as pessoas de extrema bondade ascendem diretamente ao Paraíso, enquanto as de extrema maldade são lançadas ao Inferno. O estado no momento da morte costuma ser um indicativo claro do destino. O espírito que ascenderá ao Paraíso não experimenta o menor sofrimento em seu passamento; reúne seus entes queridos, despede-se de cada um com suas últimas palavras e parte com a serenidade de quem conhece a própria hora. Em contrapartida, o espírito destinado ao Inferno enfrenta a morte com uma angústia atroz, sofrendo o que se conhece como a agonia do último instante. Aqueles que não se enquadram em nenhum desses extremos, padecendo de um sofrimento comum, seguem para *Yachimata*. Naturalmente, este último grupo constitui a esmagadora maioria.
-
-A fisionomia do corpo após o falecimento também oferece uma indicação bastante precisa. Aquele destinado ao Paraíso parece ainda vivo, por vezes exibindo até mesmo uma coloração rosada, com uma expressão serena que em nada lembra a morte. Já o que ruma ao Inferno apresenta um semblante escurecido, de tons enegrecidos ou azulados, contorcido pela agonia, chegando a ser, em certos casos, verdadeiramente aterrador. Por fim, o espírito que segue para *Yachimata* deixa um corpo com o aspecto habitual da morte, geralmente de tonalidade amarelada, com variações de intensidade.
-
-Iniciarei a explanação pelos espíritos destinados a *Yachimata*. Logo ao chegar, deparam-se com uma entidade conhecida no Budismo como *Datsuiba* (脱衣婆), que lhes retira as vestes terrenas. Em seguida, devem atravessar o rio *Sanzu* (三途). Existem duas versões sobre essa travessia: uma sustenta que se cruza uma ponte comum, enquanto outra afirma não haver ponte, e que os espíritos caminham sobre a superfície da água. Esta última teoria, contudo, postula que o rio não contém água, mas sim inúmeros dragões que se contorcem em seu leito, criando a aparência de um fluxo aquático, e que a travessia se dá sobre o dorso desses seres. Há ainda outra interpretação, segundo a qual *Datsuiba* substitui as vestes do mundo físico por túnicas brancas do Mundo Espiritual. Diz-se que, ao final da travessia da ponte, essas túnicas brancas se tingem de diferentes cores: o preto para aqueles com grande acúmulo de máculas; em seguida, o azul, o vermelho e o amarelo. Apenas os espíritos com o mínimo de impurezas permanecem com as vestes brancas.
-
-Superada essa etapa, o espírito se apresenta perante o tribunal de *Enma* (閻魔), onde receberá seu julgamento. Diferentemente do que ocorre no mundo terreno, esse tribunal é de uma retidão e imparcialidade absolutas, isento de qualquer favoritismo ou erro de juízo. A aparência de *Enma* varia conforme quem o contempla. Para os iníquos, seus olhos brilham como espelhos, sua boca se rasga até as orelhas e de sua língua brotam chamas, uma visão verdadeiramente aterradora. À medida que a maldade do espírito diminui, seu semblante se torna mais suave. Para uma pessoa de bem, ele se revela com uma fisionomia dócil e, ao mesmo tempo, plena de dignidade, inspirando espontaneamente sentimentos de reverência e familiaridade. Durante o julgamento, fatos indicam que se utilizam recursos como o espelho de *Jōhari* (浄玻璃), que projeta as ações da vida pregressa, e os registros de *Enma*, onde a trajetória do indivíduo já se encontra detalhada. Essa verificação é conduzida pelos oficiais do mundo espiritual, sob a supervisão das divindades da purificação, conhecidas no Xintoísmo como *Haraido no Kami* (祓戸の神).
-
-Uma vez que o julgamento determina o volume das máculas de um espírito, ele é encaminhado ao nível do Paraíso ou do Inferno correspondente à sua condição espiritual. Contudo, o objetivo de Deus não é criar pecadores, mas sim cidadãos do Paraíso. Por essa razão, os espíritos destinados ao Inferno são, na maioria dos casos, enviados primeiramente a *Yachimata* por um período de aprimoramento, visando à sua elevação espiritual. Nesse local, existem instrutores, análogos aos pregadores do mundo terreno, que se empenham em conduzir os espíritos à reforma íntima. Esses instrutores são, com frequência, almas que em vida foram mestres religiosos e que, após a morte, recebem essa nobre missão. O período de aprimoramento em *Yachimata* é estabelecido em trinta anos. Aqueles que não conseguem se regenerar dentro desse prazo são, enfim, enviados ao Inferno.
-
----
-
-# A Cura Espiritual das Doenças
-
-**Categoria:** re | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Eikou
-
-## A Cura Espiritual das Doenças
-
-O relato de fé que se segue é um milagre no qual uma vida foi salva por meio da resolução de uma questão espiritual. Este testemunho, por si só, revela a magnitude de nossa fé. Com efeito, creio que em nenhuma outra religião se encontram exemplos de graças tão manifestas e concedidas em tão curto espaço de tempo, como as que são vivenciadas pelos seguidores de nossos ensinamentos.
-
-Nesse sentido, o tratamento de doenças em nossa fé constitui, sob a ótica científica, uma terapia de eliminação de toxinas e, sob a perspectiva religiosa, um método para a resolução de questões espirituais. Trata-se, portanto, de uma salvação que se alicerça tanto na religião quanto na ciência, devendo ser designada como a salvação completa.
-
-## Mulher Desenganada pelos Médicos é Salva de Três Dias de Convulsões
-
-**静岡県 神山中教会 間宮 博（23）**
-
-Gostaria de relatar a purificação da esposa do Sr. Mizuo Sakuraba, que recentemente recebeu uma imensa graça divina.
-
-No dia dez de julho, ao retornar à igreja no último trem, fui informado de um telefonema urgente de Kambara. O Sr. Sakuraba relatava que sua esposa estava sofrendo de espasmos e que o médico, ao examiná-la, declarou que, devido à intensidade das convulsões e à fraqueza de seu coração, ela provavelmente não sobreviveria até o dia seguinte. A informação crucial era que a própria paciente se recusava a receber tratamento médico.
-
-Por um instante, fiquei consternado, pensando que o fim de sua esposa havia chegado. Recordei-me de que, ao visitar sua residência naquele mesmo dia, na hora da partida, ela me confidenciou, em tom profundo, palavras que expressavam ter perdido a razão de viver. Lembrei-me também que ela havia me devolvido um Livro Divino que lhe emprestara há muito tempo. Compreendi, então, que ela já se preparava para o que estava por vir.
-
-De fato, nos últimos tempos, a purificação cardíaca da senhora vinha se intensificando, e ela vivia, por assim dizer, um dia de cada vez. Ao longo dos últimos dez anos, não houve um só dia em que não dependesse de cuidados médicos; praticamente não havia parte de seu corpo que não estivesse doente, desde a cabeça ao peito e ao abdômen. Duas cicatrizes de cirurgias marcavam seu ventre. Seu corpo era um testemunho de feridas; poderíamos considerá-la um exemplo clássico das vítimas dos tratamentos médicos.
-
-Contudo, refleti sobre sua fé inabalável. Mesmo na mais grave das situações, ela teve a bravura e a determinação de recusar a medicina, entregando-se por completo a Deus. Acreditei firmemente que ela seria protegida. “Sim, vou orar”, decidi, e passei a suplicar com fervor pela sua recuperação.
-
-Na manhã seguinte, ansioso, peguei o primeiro trem, mal esperando o dia clarear, e me apressei para a casa do Sr. Sakuraba. Para nossa grande alegria e amparo, o chefe da igreja, Sr. Ichino, também se fez presente.
-
-A senhora havia começado a sentir um mal-estar súbito na noite anterior, por volta das sete horas, seguido de convulsões que a deixaram inconsciente, estado no qual permaneceu até nossa chegada. Disseram-nos que, embora estivesse inconsciente quando o médico chegou, ela agitou os braços e o rechaçou no momento em que ele tentou aplicar-lhe uma injeção.
-
-Ao chegarmos à residência, encontramos a enferma com o corpo inteiramente rígido, os membros gelados, o rosto com a aparência de um cadáver e o pulso tão fraco que mal sustentava a vida. O marido e os demais presentes pareciam já ter perdido toda a esperança. O chefe da igreja iniciou imediatamente o Johrei. Seguiram-se minutos de tensão, cinco, dez... Após cerca de uma hora, seu corpo começou a amolecer e ela pareceu recobrar um pouco a consciência. Mas foi por pouco tempo; logo as convulsões retornaram, e ela mergulhou em um sono profundo.
-
-Nesse momento, o chefe da igreja ponderou que a situação poderia ter uma profunda relação com o mundo espiritual. Efetivamente, o primeiro marido da senhora havia morrido na guerra, e seu espírito apegado a ela a assediava constantemente, com a intenção de lhe tirar a vida.
-
-Em seu estado de inconsciência, manifestou-se um fenômeno de possessão espiritual. Era, de fato, o espírito do primeiro marido. Ele dizia apenas uma frase: “Vim para levar a vida dela”. O chefe da igreja tentou, de várias maneiras, fazê-lo compreender seu erro, explicando-lhe com paciência o caminho da salvação, mas o espírito se mostrava irredutível. O marido, que até aquele momento observara tudo com certa incredulidade, contrastando com a profunda devoção de sua esposa, pôde finalmente compreender a grandiosidade da salvação da Igreja Messiânica e a realidade do Mundo Espiritual. Naquele instante, pareceu ter tomado uma firme decisão: “Sim, salvarei minha esposa através do Johrei”.
-
-O chefe da igreja, diante da obstinação do espírito, explicou ao marido a importância de salvar aquele espírito, providenciando e consagrando uma tabuleta memorial para o primeiro esposo. O marido concordou plenamente. Nesse instante, seu estado de saúde mudou drasticamente. Ela se levantou de repente e foi sozinha ao banheiro, para o espanto de todos. A alegria foi tão grande que choramos juntos. O problema fundamental fora resolvido.
-
-Ela conversou por algum tempo com as pessoas ao redor. Contudo, pouco depois, voltou a ter convulsões e mergulhou novamente em um sono profundo, que se estendeu até a noite do dia doze. A ansiedade voltou a crescer. Pensávamos que, embora a questão espiritual estivesse resolvida, seu corpo se encontrava extremamente debilitado.
-
-No dia doze, o marido partiu apressadamente para a cidade natal do primeiro esposo a fim de providenciar a tabuleta memorial. Segundo ele, partiu com o sentimento trágico de que não voltaria a encontrá-la com vida. Ele retornou por volta das nove horas da noite, trazendo o nome póstumo budista. No exato momento de seu retorno, a esposa, ainda inconsciente, tinha os olhos repletos de lágrimas. Compreendemos que o espírito do primeiro marido, que tanto se opusera a ser reverenciado, fora tocado pelo Grande Amor e não teve alternativa senão reconhecer seu erro.
-
-Naquela noite, colocamos a nova tabuleta no altar da família e realizamos uma cerimônia provisória de consagração da Imagem de Kannon (観音) em biombo. No instante em que íamos iniciar a cerimônia, a esposa subitamente recuperou a consciência, sentou-se e entoou em voz alta, junto conosco, a Oração Zengen Sanji e os Hinos Divinos.
-
-Assim, a grande purificação, que se estendeu por três dias e três noites, teve uma reviravolta súbita, e ela foi salva.
-
-O milagre reflete precisamente o Hino Divino:
-
-*Desenganada, a vida humana eu prolongo.*
-*Eis Minha obra divina, sem par no mundo.*
-
-Quando pensamos no ocorrido, lembramo-nos de que ela havia sido desenganada pelo médico, e que seu marido e familiares já haviam desistido. No último instante, quando restava apenas um sopro de esperança, o poder absoluto de Meishu-Sama prolongou sua vida. E assim, a nuvem espiritual que pairava sobre o casal e a família se dissipou, guiando-os para a formação de um lar paradisíaco.
-
-Meishu-Sama, muito obrigado. Em nome da família, expresso nossa mais profunda gratidão.
-
----
-
-# A Conquista do Dr. Yukawa sob a Perspectiva Espiritual
-
-**Categoria:** re | **Ano:** 昭和24(1949)年12月3日 | **Fonte:** -
-
-## A Conquista do Dr. Yukawa sob a Perspectiva Espiritual
-
-A recente conquista do Prêmio Nobel no campo da ciência teórica pelo Dr. Yukawa, como o primeiro e único japonês a receber tal honraria, é um acontecimento que nos enaltece perante o mundo inteiro. Sentimos uma alegria indescritível pelo fato de que seu feito tenha restaurado, ainda que em parte, a credibilidade do povo japonês, tão abalada após a Guerra do Pacífico.
-
-Com efeito, a razão de tal láurea reside na descoberta da teoria fundamental da ciência atômica, que o Dr. Yukawa realizou com a surpreendente clarividência de seus vinte e oito anos. Sua teoria, que culminou na identificação do méson, postula que esta partícula gera uma força ao se combinar com o elétron. Posteriormente, os físicos americanos Anderson e Neddermeyer, durante a observação de raios cósmicos, descobriram fortuitamente em chapas fotográficas o rastro de partículas que correspondiam ao méson de Yukawa, conferindo assim uma comprovação experimental à sua teoria. A esse respeito, gostaria de expor minha própria perspectiva.
-
-Em sua essência, o méson é um elemento primordial resultante da união do elemento Fogo e do elemento Água; ou seja, é uma partícula diminuta composta pela essência do Sol e pela essência da Lua. As cinco variedades de mésons hoje confirmadas — os mésons mu e pi, ambos com cargas positiva e negativa, e o méson neutro — correspondem, respectivamente, às duas essências do Sol e da Lua, à partícula de sua união, e às essências da Terra e dos astros. Naturalmente, o méson é a sede dessa força.
-
-Devo ressaltar a particular importância desta descoberta para os meus ensinamentos. A partícula de Yukawa, por assim dizer, representa um elemento intermediário entre a matéria e o espírito. Com o avanço da ciência, chegamos a uma etapa em que será possível descobrir a mais ínfima das partículas: a partícula espiritual. Embora seja um tanto prematuro revelá-lo agora, devo explicar que esta partícula espiritual se manifesta em três estágios. O que será descoberto após o méson é a partícula espiritual de terceiro grau; em seguida, virá a de segundo grau e, por fim, a de primeiro grau. Esta última, a partícula espiritual de primeiro grau, é precisamente a partícula emanada do Espírito do Deus Supremo, sendo a fonte do poder que hoje exerço e com o qual manifesto milagres sem precedentes — poder este também conhecido como Força de Kannon (観音). É por meio dessa força que venho demonstrando uma capacidade de cura dezenas, ou melhor, centenas de vezes superior à da medicina contemporânea. Eis o motivo pelo qual costumo me referir à minha terapia como a medicina do século XXI. Portanto, a recente descoberta do méson é motivo de grande satisfação para mim, pois significa que a ciência teórica finalmente alcançou esta etapa intermediária em sua jornada de descobertas.
-
-A esse respeito, é sabido que, até hoje, a Religião e a Ciência têm sido consideradas esferas dificilmente conciliáveis, o que resultou em críticas mútuas e constantes. Tal conflito decorre, evidentemente, da existência de divergências que impediam a identificação de um ponto de convergência. A causa disso reside não apenas no fato de a ciência ainda não ter avançado ao ponto de descobrir a referida partícula espiritual, mas também no fato de que, na Religião, o tempo para a manifestação do Poder Divino Supremo ainda não havia chegado.
-
-Gostaria de acrescentar mais um ponto. O fato de o méson presente nos raios cósmicos ter sido confirmado por meio de uma fotografia corrobora o que expliquei anteriormente em minhas “Crônicas sobre a Fé”. Conforme escrevi na ocasião, os raios cósmicos são linhas espirituais emanadas de incontáveis astros celestes que não só atraem a Terra, mas também lhe enviam um fluxo contínuo de nutrição, uma vitalidade que sustenta o planeta. A descoberta do Dr. Yukawa, que identifica o méson como uma força, é perfeitamente natural, visto que ele é encontrado em abundância nos raios cósmicos. E a força que enriquece esses mésons é, em verdade, a irradiação da partícula espiritual.
-
-Por fim, não raro me dizem que a medicina que revelei é digna do Prêmio Nobel e que eu deveria apresentá-la. A isso, respondo da seguinte forma: o nível acadêmico do comitê do Nobel, que toma a medicina moderna como padrão, é insuficiente para compreendê-la. Quando a ciência tiver progredido exponencialmente no futuro, talvez minhas teorias possam ser entendidas. Até que esse tempo chegue, não há outra alternativa senão esperar. E, dizendo isso, dou uma sonora gargalhada.
-
----
-
-# A Luz Espiritual Livre e Desimpedida
-
-**Categoria:** re | **Ano:** 昭和27(1952)年12月17日 | **Fonte:** Eikou
-
-## A Luz Espiritual Livre e Desimpedida
-
-Embora já tenhamos publicado nesta coluna casos em que a luz do Omamori impede a captura de radiografias, o relato a seguir apresenta um milagre com uma particularidade distinta, motivo pelo qual acrescento este comentário. O extraordinário ocorreu quando, mesmo após a remoção do Omamori para a fotografia, uma forma quadrada e branca, correspondente ao seu contorno exato, manifestou-se no centro do tórax. Trata-se de um fenômeno assombroso, no qual a própria luz do Omamori ficou impressa na chapa.
-
-Ademais, como a obtenção do emprego dependia da perfeita realização do exame, o jovem suplicou a Deus e, em uma nova tentativa, a radiografia foi tirada com sucesso, permitindo que seu desejo se concretizasse. Tal ocorrência demonstra que a grandiosidade do poder protetor de Deus, em sua atuação livre e desimpedida, transcende qualquer descrição em palavras.
-
-**Radiografia obstruída pelo Omamori e a proteção divina para o emprego**
-
-*Ikeo Iota (19 anos), Igreja Naka de Saiko, província de Hiroshima*
-
-A Meishu-Sama, expresso minha mais profunda e respeitosa gratidão pela Vossa proteção.
-
-Minha mãe, que se encontrava em um estado desenganado, foi curada de sua enfermidade. Contemplar a alegria de meus pais ao receberem a graça de ingressar na Fé e a leitura de publicações como o jornal *Eikô* e a coletânea *Chijô Tengoku* despertaram em mim um anseio profundo de também receber este sagrado Omamori. Finalmente, no dia 23 de julho de 1952, meu desejo tão esperado foi concretizado com minha outorga.
-
-Recentemente, ao candidatar-me a um cargo na Ferrovia Nacional do Japão, dirigi-me ao Hospital Ferroviário de Hiroshima para um exame médico. No momento de realizar a radiografia do tórax, desvesti a parte superior do corpo e, com todo o cuidado, depositei meu Omamori sobre o paletó que havia retirado.
-
-Contudo, qual não foi minha surpresa ao constatar que a imagem não se formou justamente na área mais crucial: o centro do meu peito aparecia como um quadrado em branco. O médico, repetindo "que estranho, que estranho", tentou por mais duas vezes, sem sucesso. Enquanto as radiografias dos demais pacientes saíam perfeitas, a minha, por alguma razão, não se completava.
-
-Eu já havia ouvido o ensinamento de que a luz que emana do Omamori é ainda mais potente que a radiação da bomba atômica. Imediatamente, compreendi que Deus me concedia a visão de um milagre, mas preferi manter-me em silêncio no hospital.
-
-Como essa situação me impediria de ser contratado, o que representaria um grande problema, retornei à estação ferroviária e relatei o ocorrido ao funcionário responsável. Ele então me aconselhou: "Se foi Deus quem impediu que a chapa fosse gravada, então peça a Ele que permita que seja". Naquele instante, dei-me conta: "É verdade, eu havia me esquecido disso!". Sem demora, dirigi-me à Igreja e roguei a Meishu-Sama por Sua proteção. No dia seguinte, retornei para uma nova tentativa.
-
-E qual foi o resultado desta vez? A radiografia saiu perfeita. Graças a isso, consegui o emprego e, hoje, trabalho diariamente com vigor e saúde.
-
-Normalmente, a impossibilidade de obter uma imagem nítida do tórax resultaria na desclassificação imediata do candidato. O fato de me terem concedido uma nova oportunidade no dia seguinte é, por si só, uma dádiva da proteção divina, pela qual sou imensamente grato.
-
-Ainda que minhas forças sejam limitadas, rogo para que me seja permitido dedicar-me a esta Obra Sagrada.
-
-Muito obrigado, Meishu-Sama.
-
-(17 de fevereiro de 1952)
-
----
-
-# Os Planos Espirituais e o Destino Humano
-
-**Categoria:** re | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## Os Planos Espirituais e o Destino Humano
-
-Conforme já explanei detalhadamente, o Mundo Espiritual se estrutura em três grandes planos: o Céu, a Zona Intermediária e o Inferno. O que pretendo elucidar agora é a íntima relação que essa estrutura possui com o destino humano.
-
-Essa divisão em três planos representa, contudo, uma classificação ampla. Se analisada em pormenor, cada plano se subdivide em sessenta níveis, totalizando cento e oitenta. Por se tratar de uma estrutura estratificada, denominei-a de “níveis espirituais”. A seguir, passarei a explicar, de forma sequencial, qual a relação que esses níveis mantêm com o ser humano.
-
-Anteriormente, discorri sobre a união indissociável entre o corpo físico e o corpo espiritual do ser humano. O corpo espiritual, todavia, não é uma entidade autônoma; ele possui uma conexão com outra essência, à qual denomino Espírito Primordial. Pode-se dizer que o Espírito Primordial é o espírito do espírito. Desse modo, assim como o corpo espiritual governa o corpo físico, o Espírito Primordial governa o corpo espiritual. Nesse sentido, é lícito afirmar que a verdadeira fonte da vida humana reside no próprio Espírito Primordial.
-
-O Espírito Primordial é, em sua essência, um habitante do Mundo Espiritual. Por essa razão, quando uma pessoa morre, seu corpo espiritual é imediatamente atraído pelo Espírito Primordial, unindo-se a ele de forma indissolúvel, em um processo análogo à união que mantinha com o corpo físico durante a vida terrena. Naturalmente, o Espírito Primordial pertence a um dos cento e oitenta níveis espirituais. Sua posição, contudo, não é estática; ele se movimenta constantemente, ascendendo e descendendo dentro de uma determinada faixa. Em raras ocasiões, pode ultrapassar esses limites, o que se manifesta no plano físico como uma reviravolta abrupta no destino do indivíduo.
-
-O destino humano, ou seja, a sua felicidade ou infortúnio, é determinado pelo nível espiritual em que se encontra o seu Espírito Primordial. Essa determinação é, de fato, irrefutável.
-
-Como já foi mencionado, no Mundo Espiritual há um Deus Supremo e milhões de divindades que atuam em suas respectivas esferas de responsabilidade. Ordens são incessantemente transmitidas por eles aos Espíritos Primordiais. Consequentemente, o cumprimento dessas missões reverbera no corpo espiritual e, por sua vez, no corpo físico, que passa a se mover em conformidade com tais desígnios.
-
-Qualquer pessoa, por mais convicta que seja, certamente já experimentou a frustração de ver seus planos e empreendimentos não se concretizarem como o esperado. A ocorrência de reveses inesperados e resultados surpreendentes se deve, na verdade, a uma lei fundamental: as expectativas e os pensamentos dos seres humanos estão subordinados ao destino de seu Espírito Primordial. De fato, a maioria das pessoas nutre a sensação de que uma força superior e invisível rege constantemente suas vidas. Essa força regente é, precisamente, o poder que governa no Mundo Espiritual, ou seja, Deus. Os níveis superiores desse mundo constituem um reino de saúde, prosperidade e paz; em contrapartida, à medida que se desce, adentra-se um mundo de sordidez, marcado pela incessante presença da doença, da pobreza e do conflito. A Zona Intermediária, que corresponde exatamente ao plano terreno, é o motivo pelo qual o nosso mundo, como todos bem sabem, é uma mescla de felicidade – expressa na saúde, na prosperidade e na harmonia – e de infortúnio – manifesto na doença, na carência e nos litígios.
-
-Pelo princípio exposto, a felicidade e o infortúnio na vida terrena são definidos pelo nível que o Espírito Primordial ocupa. Eis a razão pela qual os esforços meramente humanos para alcançar a felicidade tantas vezes se mostram infrutíferos. Há, contudo, uma situação peculiar que podemos observar neste mundo: a do indivíduo abastado que, por não conhecer o contentamento, vive em uma avareza comparável à de um indigente. Tais pessoas alcançaram uma prosperidade transitória, fruto de seu empenho e sacrifício puramente humanos. Na realidade, seu Espírito Primordial reside em um nível inferior e, por conseguinte, ao partirem para o Mundo Espiritual, elas se tornarão tão pobres quanto o seu espírito, o que lhes causará profundo arrependimento.
-
-Portanto, para quem almeja a verdadeira felicidade, não há outro caminho senão o de elevar seu Espírito Primordial aos planos superiores. Resta, então, a pergunta fundamental, que todos deveriam conhecer: por qual método isso é possível?
-
-A razão pela qual os Espíritos Primordiais se distribuem entre os níveis superior, intermediário e inferior reside em um princípio simples: seu peso espiritual. Quanto mais leve, mais alto ele ascende; quanto mais pesado, mais baixo ele se destina. A leveza é sinônimo de pureza, ao passo que o peso decorre da densidade e da impureza. Essa impureza, por sua vez, origina-se das máculas e dos pecados. Portanto, para purificar o Espírito Primordial, é imperativo eliminar tais máculas. E o que são as máculas e os pecados? São, evidentemente, o acúmulo de atos malignos gerados pelo amor egoísta – atos que, por meio da injustiça e da falsidade, infligem sofrimento ao próximo e envenenam o mundo. Sendo assim, a única forma de eliminá-los é praticar o seu oposto: multiplicar as boas ações, fundamentadas no amor altruísta, na justiça e na verdade, a fim de proporcionar felicidade às pessoas e contribuir para o bem da nação e da sociedade. Trata-se, obviamente, de uma lei celestial rigorosa, sobre a qual o poder humano não tem qualquer domínio.
-
-Nesse sentido, aqueles que compreendem a mútua relação entre o mundo físico e o espiritual que aqui exponho, e que conseguem crer nela do fundo de seus corações, podem se considerar pessoas que deram o primeiro passo rumo ao portal da felicidade.
-
-Ainda sobre os planos espirituais, há mais alguns pontos a serem abordados. Os níveis superiores, que correspondem ao Céu, são permeados por uma energia vital vibrante de saúde, prosperidade e harmonia, a qual se intensifica à medida que se ascende. Talvez essa descrição soe como uma hipótese concebida por minha imaginação, mas de modo algum o é. Provarei que se trata de um fato.
-
-Ao longo de minha vasta experiência com esta arte de cura, observei que, quando os doentes são curados, não apenas recuperam a saúde, mas também passam por uma notável transformação de caráter. Eles começam a sentir aversão a conflitos, tornando-se mais cordiais e otimistas. Essa mudança se acentua, sobretudo, após participarem do curso de formação, pois, ao compreenderem a doença e os fenômenos espirituais a ela relacionados, sua visão de mundo se altera por completo, e fenômenos extraordinários começam a ocorrer. Além da saúde, eles passam a ser abençoados com os bens materiais de que necessitam, alcançando a prosperidade. E o mais notável é que isso não acontece por esforço humano, mas de forma providencial e milagrosa, vindo de fontes inesperadas. Trata-se de um relato unânime entre todos os que concluem o curso, o que atesta sua veracidade. Ademais, ouço com frequência inúmeras histórias de pessoas que se reconciliaram com antigos desafetos, passaram a ser mais respeitadas e a receber apoio, realizaram seus desejos, aumentaram a eficiência no trabalho ou foram aprovadas em exames – uma sucessão de acontecimentos felizes.
-
-Qual a explicação para tais ocorrências? Quando uma pessoa é curada de sua doença, especialmente aquela que participou do curso, sua alma, antes cega, desperta subitamente ao compreender a verdade sobre a saúde e a vida. Esse despertar é análogo ao que o Buda Shakyamuni descreveu como os estágios da iluminação, nos quais se atinge a condição de Buda, Bodhisattva ou Tathagata. Sendo assim, os formados no curso alcançam um primeiro grau de iluminação, tornando-se Budas ainda neste corpo. Sua posição espiritual se eleva, e eles são transferidos para um nível superior no Mundo Espiritual. É por essa razão que passam a ser agraciados com tantas bênçãos.
-
----
-
-# As Múltiplas Facetas das Doenças de Causa Espiritual
-
-**Categoria:** re | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
-
-## As Múltiplas Facetas das Doenças de Causa Espiritual
-
-As enfermidades de origem espiritual apresentam-se, na verdade, sob as mais diversas e incontáveis formas. Permitam-me descrever um ou dois casos particularmente singulares.
-
-O primeiro é o de um homem de aproximadamente quarenta anos que, uma ou duas vezes ao dia, era acometido por uma rigidez súbita e generalizada. Seu corpo tornava-se imóvel como uma estátua de pedra, sem que pudesse mover qualquer de seus membros; os olhos e a boca permaneciam abertos, e essa condição se estendia por várias dezenas de minutos. Trata-se, evidentemente, da possessão por um espírito de morto, manifestando o exato instante de sua passagem. A causa provável seria um suicídio por envenenamento, possivelmente com uma substância à base de arsênico.
-
-Outro caso notável é o de um jovem de quinze ou dezesseis anos que, há alguns anos, foi acometido por febre e convulsões, as quais provocaram uma drástica alteração em sua fisionomia. Seu rosto adquiriu o semblante de um ancião de sessenta ou setenta anos, com uma expressão de agonia tão atroz que se torna intolerável ao olhar. Por essa razão, o paciente não apenas evita sair de casa, como também se recusa a encontrar pessoas. Este também parece ser o reflexo do instante da morte de um idoso que teria agonizado intensamente. Há ainda o caso de uma criança de dez anos, cuja condição é congênita. Seu corpo se mantém em uma posição cruzada, como se tivesse mãos e pés atados, e seu semblante revela um sofrimento indizível. Presume-se que seja a manifestação de alguém que teve uma morte trágica nessas mesmas circunstâncias.
-
-Gostaria de tecer agora um breve comentário sobre os espíritos vivos, pois, além da possessão por espíritos de mortos, existe também a por espíritos de pessoas vivas. Na maioria das vezes, a causa reside nos relacionamentos afetivos, podendo manifestar-se de duas naturezas: benéfica ou maléfica.
-
-No que tange à manifestação benéfica, esta se origina do amor puro. Quando um homem ama uma mulher, por exemplo, e seu espírito vivo a influencia, ela experimenta uma singular sensação de prazer, pois o sentimento é correspondido. Contudo, se ela não o ama, a influência do espírito vivo desse amor unilateral provocará, ao contrário, uma sensação de profundo desconforto. Eis a diferença entre o amor correspondido e o unilateral. No primeiro caso, os pensamentos de amor fluem reciprocamente através de um laço espiritual, tornando o anseio irrefreável e a angústia da separação, insuportável. Em decorrência disso, os envolvidos podem chegar a perder a razão, culminando em fugas ou até mesmo em suicídios por amor. Nessas circunstâncias, qualquer conselho ou advertência produzirá um efeito contrário, com o risco de ocasionar uma tragédia irreparável. Portanto, o mais sensato é não interferir. Afinal, essa comunicação espiritual é efêmera e jamais perdura, o que confirma a veracidade do dito popular de que o amor é como uma febre ardente. Já no amor unilateral, o espírito vivo da pessoa rejeitada passa a influenciar a outra, que passa a sentir exatamente o que aquela sente: solidão, desânimo e uma melancolia insuportável.
-
-Quanto às manifestações maléficas, os casos mais frequentes envolvem o conflito espiritual entre a esposa legítima e a amante. Ocorrem situações em que uma amaldiçoa a outra, ou em que ambas se amaldiçoam mutuamente, estabelecendo um verdadeiro inferno de hostilidades. Como resultado dessas maldições, a pessoa atingida pode desenvolver uma doença caracterizada por um estado de apatia e prostração, que a medicina convencional é, obviamente, incapaz de diagnosticar. Em casos graves, a condição pode evoluir e até mesmo ceifar a vida da pessoa. Ademais, quando um espírito nessas condições parte para o Mundo Espiritual, não raro busca vingança e consegue vitimar a rival que permaneceu na Terra. Embora se trate de questões espirituais e invisíveis, o pecado de um homem que se desvia do caminho matrimonial e mantém uma amante, chegando a sacrificar a vida de uma mulher, não é de modo algum leve. É uma conduta da qual se deve abster com o máximo rigor.
-
-Cumpre ressaltar, por fim, que a possessão por espíritos de mortos geralmente provoca calafrios, ao passo que a influência de espíritos vivos, ao contrário, gera uma sensação de calor.
 
 ---
 

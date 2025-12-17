@@ -72,13 +72,16 @@ def export_teachings():
                 category = item.get('category', 'Geral')
                 year = item.get('year', '-')
                 publication = item.get('publication', '-')
+                jp_title = item.get('jp_title', '-')
+                status = item.get('status', '-')
                 
                 if not content:
                     continue
                 
                 # Format the article block
                 block = f"# {title}\n\n"
-                block += f"**Categoria:** {category} | **Ano:** {year} | **Fonte:** {publication}\n\n"
+                block += f"**Categoria:** {category} | **Ano:** {year} | **Fonte:** {publication}\n"
+                block += f"**Título Original:** {jp_title} | **Status:** {status}\n\n"
                 block += f"{content}\n"
                 
                 all_articles.append({
@@ -146,13 +149,16 @@ def export_teachings_jp():
                 category = item.get('category', 'Geral')
                 year = item.get('year', '-')
                 publication = item.get('publication', '-')
+                jp_title = item.get('jp_title', '-')
+                status = item.get('status', '-')
                 
                 if not content:
                     continue
                 
                 # Format the article block
                 block = f"# {title} ({item.get('id', '')})\n\n"
-                block += f"**Category:** {category} | **Year:** {year} | **Source:** {publication}\n\n"
+                block += f"**Category:** {category} | **Year:** {year} | **Source:** {publication}\n"
+                block += f"**Original Title:** {jp_title} | **Status:** {status}\n\n"
                 block += f"{content}\n"
                 
                 all_articles.append({

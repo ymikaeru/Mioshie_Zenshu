@@ -1,8 +1,115 @@
 # Mioshie_Teachings - Part 29
 
+# O Alicerce das Minhas Provações
+
+**Categoria:** o | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 大森時代 自観叢書第9篇 | **Status:** Published
+
+## O Alicerce das Minhas Provações
+
+Chegara o momento de me lançar de corpo e alma, a fim de seguir unicamente a Vontade Divina. Nesse estado, em que a intenção de Deus e a minha própria consciência se mesclavam, eu me sentia, por um lado, mais fortalecido que um homem comum, mas, por outro, mais desamparado. Evidentemente, eu não dispunha de grandes recursos financeiros; possuía apenas o suficiente para me manter por alguns meses, sem qualquer perspectiva de renda fixa. Era, em verdade, uma existência de extrema instabilidade. Contudo, o fascínio dos milagres e das revelações divinas que se sucediam ininterruptamente era tão grande que me fazia esquecer por completo a insegurança material. Em realidade, era uma vida de júbilo. Dediquei-me, portanto, com afinco e sem desvios, à pesquisa espiritual e à cura de doenças.
+
+Ao mencionar a cura de doenças, é preciso esclarecer que não sou versado em medicina. Minha experiência provém do fato de ter padecido de inúmeras enfermidades: por três vezes estive internado em hospitais e, por duas vezes, fui desenganado pelos médicos devido à gravidade do meu estado. Até por volta dos quarenta anos, passei mais tempo doente do que com saúde, tornando-me um verdadeiro repositório de moléstias. Em cada uma dessas ocasiões, eu me entregava à leitura voraz de livros de medicina. Para que se tenha uma ideia, até os doze ou treze anos, eu era o que se chama de criança de constituição escrofulosa e saúde frágil, vivendo em constante familiaridade com remédios. Ainda assim, de alguma forma consegui concluir o ensino primário, embora sentisse profunda inveja das outras crianças saudáveis. Curiosamente, meu desempenho escolar era excelente; eu estava quase sempre em primeiro ou segundo lugar na classe. Aos catorze anos, concluí a escola primária e, com o objetivo de me tornar pintor, ingressei no curso preparatório da Escola de Belas-Artes. Contudo, poucos meses depois, fui acometido por uma enfermidade ocular que me forçou a abandonar os estudos. Durante dois anos, peregrinei por consultórios de oftalmologistas renomados, mas, sem obter a cura, acabei por desistir. Pouco depois, contraí pleurisia e fui internado na clínica de caridade de um hospital universitário. Realizaram uma punção para drenar o líquido, da qual se extraíram mais de duzentos gramas. A recuperação levou cerca de seis meses, mas, um ano depois, a doença reincidiu. Submeti-me a diversos tratamentos, mas meu quadro piorava progressivamente, e após mais um ano, a doença evoluiu para uma tuberculose pulmonar. Na época, fui diagnosticado pelo célebre Dr. Tatsukichi Irisawa, que me sentenciou como incurável. Foi então que, por meio de uma dieta vegetariana, alcancei a cura completa.
+
+Nos anos que se seguiram, abandonei todas as outras atividades e me dediquei à recuperação da saúde. À medida que me restabelecia, recuperei a confiança e, aos vinte e cinco anos, empreendi meu próprio negócio: uma pequena loja de armarinhos. Sendo um leigo no ramo e vivendo apenas com minha mãe e uma prima em uma casa alugada de fachada estreita, eu era o único responsável por absolutamente todas as tarefas da loja. Para ilustrar a situação da época, basta dizer que, desde a limpeza matinal até a compra e venda de mercadorias, tudo estava sob minha responsabilidade, o que era um grande desafio. Ademais, minha inexperiência era total, a ponto de desconhecer até mesmo a utilidade dos produtos, e a cada instante eu precisava perguntar à minha mãe: "Qual o nome disto? Em que parte da cabeça se usa?". De cosméticos a óleos e fitas para prender o cabelo, a variedade de itens era imensa, como se costuma dizer das lojas de armarinhos, e memorizar tudo não era tarefa fácil. Enquanto isso, os clientes não paravam de chegar. Naqueles dias, um vidro de óleo para cabelo ou um maço de fitas custavam um *sen*, e a cada cliente, mesmo por uma compra ínfima, eu agradecia e curvava a cabeça, o que era extenuante. Em consequência disso, após cerca de seis meses, fui acometido por uma grave anemia cerebral. O mal era tamanho que, ao caminhar por uma rua com bondes, o ruído me causava vertigens e eu chegava a desmaiar; após conversar com alguém por apenas dez minutos, eu perdia a capacidade de falar. O sofrimento era atroz. Depois de dois ou três meses de tratamento médico sem resultados, por recomendação de um conhecido, iniciei uma terapia de moxabustão, que me trouxe algum alívio. O terapeuta me aconselhou a praticar exercícios, e passei a caminhar mais de quatro quilômetros em dias de bom tempo. O método surtiu efeito, e em dois ou três meses eu estava praticamente curado.
+
+Para compensar o tempo perdido, dediquei-me com vigor redobrado e, somando-se a isso a experiência que adquiri no comércio, o negócio prosperou enormemente. Vislumbrando um futuro mais promissor no atacado do que no varejo, investi o pouco que havia lucrado e iniciei essa nova fase. A transição ocorreu de forma muito auspiciosa, e em cerca de dez anos, tornei-me um atacadista de primeira linha. Todavia, mesmo durante esse período, eu adoecia várias vezes ao ano. Dentre as enfermidades, a febre tifoide foi tão severa que cheguei a redigir meu testamento; foram três meses de internação até a recuperação. Também estive hospitalizado por um mês devido a hemorroidas hemorrágicas. Além disso, sofri de moléstias gástricas, reumatismo, uretrite, amigdalites frequentes, esgotamento nervoso, dores de cabeça e um violento catarro intestinal, entre tantos outros males que seria impossível enumerar.
+
+Pouco tempo depois, sofri um revés nos negócios, o que me conduziu à fé, conforme relatei em outra ocasião. Gostaria de registrar aqui algumas memórias de minha infância. Nasci em um bairro de extrema pobreza chamado Hashiba, em Asakusa, na cidade de Tóquio. Lembro-me vagamente de que meu pai era um negociante de antiguidades e nossa casa se resumia a dois cômodos: a loja, com cerca de cinco metros quadrados, e um aposento de sete. Todas as noites, ele ia montar uma barraca na feira noturna do Parque Asakusa, que ficava a quase dois quilômetros de distância. Depois que cresci, ouvi muitas vezes meu pai contar que, se não lucrassem algo na noite, no dia seguinte não teriam o que comer. Assim, desde que não chovesse, meu pai empilhava algumas quinquilharias em um pequeno carrinho de mão, e minha mãe, comigo às costas, ajudava a empurrá-lo. Nossa penúria era tamanha que minha mãe, sofrendo do que hoje chamaríamos de desnutrição, mal produzia leite. Por isso, ela me levava para ser amamentado pela esposa do sacerdote do templo Renshuji, nas proximidades. Quando concluí a escola primária, nossa situação financeira havia melhorado um pouco, o que permitiu que eu ingressasse na Escola de Belas-Artes. Assim, tanto na infância quanto no início da vida adulta, a experiência da pobreza se enraizou profundamente em mim, ensinando-me o verdadeiro valor do dinheiro. Essa lição se revelou de imensa valia, pois até hoje sou incapaz de praticar o desperdício ou a ostentação. Por essa razão, sou profundamente grato às adversidades daquele tempo.
+
+Permitam-me agora relatar outra enfermidade que me acometeu, bem como as dores de dente, a endocardite e a sarna que, como mencionei, me causaram grande sofrimento. O tormento com a dor de dente foi particularmente terrível, como descrevo a seguir.
+
+Há cerca de trinta e cinco anos, padeci de uma dor de dente crônica. Se a dor em um único dente já é um tormento, imaginem o sofrimento de ter quatro dentes doendo simultaneamente, dia após dia. Fui tratado por um renomado dentista que exercera a profissão por muitos anos nos Estados Unidos. Durante quase um ano, ele aplicou todos os medicamentos de que dispunha, mas meu estado, longe de melhorar, apenas se agravava. Certo dia, ele me disse: "Já utilizei todos os medicamentos que conheço, sem sucesso. Não há mais nada que eu possa fazer. No próximo mês, um amigo meu retornará da América e talvez traga alguns remédios novos. Nossa única esperança é experimentá-los".
+
+Por meio de uma certa descoberta acidental, compreendi que a causa de tamanha aflição era o yakudoku (薬毒), ou seja, a intoxicação medicamentosa. Imediatamente, suspendi por completo o uso de fármacos. A partir de então, a dor começou a ceder gradualmente, até desaparecer por completo. Naquela época, o sofrimento era tão atroz que perdi a conta de quantas vezes cogitei o suicídio. Essa descoberta, sobre a qual detalharei em outra oportunidade, foi o que verdadeiramente salvou a minha vida.
+
+---
+
+# A Cura do Tifo pela Força de Deus
+
+**Categoria:** o | **Ano:** 昭和26(1951)年1月31日 | **Fonte:** Eikou
+**Título Original:** おかげばなし批判 | **Status:** Published
+
+## A Cura do Tifo pela Força de Deus
+
+É fato notório que, anualmente, o tifo exantemático suscita grande apreensão na população e mobiliza as autoridades em campanhas preventivas. Felizmente, contudo, recebemos o relato verídico que se segue e decidimos publicá-lo. Nele, evidencia-se que a taxa de cura obtida pelo Johrei de nossa Igreja apresenta resultados de tal magnitude que se torna incomparável à da medicina. Ademais, o fato de as injeções, ao contrário do que se espera, agravarem a enfermidade é uma realidade que merece a mais séria atenção. Dado que a situação desde o final do ano passado indica sinais de uma epidemia considerável para este ano, mais do que um simples alerta, apresentamos este artigo como uma exortação e um referencial a ser considerado.
+
+### A Grandiosa Terapêutica Divina: Cem por cento de cura do tifo exantemático
+
+**Serizawa Kyujukyu (39 anos)**
+**Igreja Aishin Tyu, Província de Shizuoka**
+
+Sou um fiel que recebeu a sagrada formação há cerca de nove anos e, desde então, sob a milagrosa proteção Divina, tenho tido a permissão de servir na salvação de inúmeras pessoas.
+
+Nesta oportunidade, gostaria de relatar a experiência que vivenciei com o tifo exantemático na Manchúria, após o término da guerra.
+
+Imediatamente após o conflito, por volta do final de 1945, uma cepa maligna de tifo, que surpreendeu até mesmo a população local, alastrou-se pela Manchúria. A cidade de Fentian, onde eu residia, encontrava-se em meio ao caos, agravado pela chegada de dezenas de milhares de refugiados japoneses vindos da região norte. O pavor era indescritível. Em um piscar de olhos, milhares de pessoas adoeceram. Escolas foram transformadas em hospitais de isolamento improvisados, onde centenas de médicos e cirurgiões militares lançaram mão de todos os recursos disponíveis, mas quase nada se mostrava eficaz. Diariamente, dezenas de pessoas, ou talvez mais, pereciam tragicamente em estado de delírio.
+
+No complexo residencial de nossa empresa, onde viviam cerca de vinte e cinco famílias, a angústia era constante. Por fim, um senhor de aproximadamente vinte e sete ou vinte e oito anos adoeceu. Os hospitais, naturalmente, estavam lotados. Médicos civis e militares o visitavam diariamente para aplicar injeções e compressas de gelo, mas seu estado não melhorava, e ele veio a falecer após uma semana, ainda delirante. Certa vez, fui visitá-lo. Desejei ardentemente ministrar-lhe Johrei, mas os médicos e enfermeiros permaneciam a seu lado incessantemente, o que me tornou impossível qualquer intervenção.
+
+Poucos dias depois, foi a vez de um jovem casal, os Sano, que adoeceu quase simultaneamente. As pessoas do complexo, que haviam testemunhado a morte atroz de seu vizinho, sequer se aproximavam para visitá-los. As únicas exceções éramos eu e o Sr. Goto, um companheiro que, um ano antes, fora curado de uma tuberculose com hemoptise após receber Johrei algumas vezes e que, ao retornar ao Japão para se casar, havia recebido a formação.
+
+Inicialmente, encarei a doença com certo desdém, pensando: “O que é o tifo? Não passa de uma purificação com febre alta e erupções cutâneas”. Com base em minhas experiências anteriores, eu tinha a convicção de que qualquer febre, por mais elevada que fosse, cederia em três dias.
+
+Contudo, passados três dias, a febre persistia. Eu ministrava Johrei três a quatro vezes por dia; a temperatura baixava logo após a ministração, mas, em trinta minutos, voltava a subir com ainda mais intensidade. Ao quinto dia, desenvolveram um distúrbio cerebral e perderam completamente a razão. Durante cinco dias, não ingeriram alimento algum, apenas um pouco de água. Deitados lado a lado, ambos deliravam. A esposa entoava canções da infância, enquanto o marido balbuciava palavras sem nexo. Seus olhos pareciam não enxergar, fitando o teto com um olhar vazio. Para agravar a situação, piolhos começaram a ser vistos em sua cama. Sentei-me inúmeras vezes naquele leito infestado, e a ideia de que eu também poderia ser contagiado me ocorreu. Contudo, tranquilizei-me ao pensar que o Sr. Goto, que também recebera a formação, estava ali. Mas, para meu desespero, o Sr. Goto e sua esposa também adoeceram juntos.
+
+Restávamos apenas eu e minha mulher. Fiz um pacto solene com ela: “Se eu adoecer e enlouquecer, não chame um médico por nada. Não importa o que digam, apenas ministre-me Johrei”.
+
+Nesse ínterim, as críticas da vizinhança se intensificaram. Alguns, com uma falsa gentileza, aconselhavam: “Provavelmente não há mais o que fazer, mas se você chamar um médico ao menos uma vez, terá uma justificativa para dar aos familiares deles quando voltar ao Japão”. Eu, porém, recusava todas as sugestões, afirmando: “Ficarão bem, não se preocupem”.
+
+Em meio à exaustão por cuidar de quatro pacientes com tifo simultaneamente, e vendo os sintomas se agravarem a cada dia, contrariando minhas expectativas iniciais, fui assaltado por terríveis dúvidas na calada da noite, enquanto contemplava os enfermos delirantes. “Será que meu Johrei perdeu a eficácia? Ou talvez não funcione contra o tifo? Se assim for, a responsabilidade por esta tragédia é inteiramente minha. Será que todos os quatro morrerão em meio à loucura?” Imediatamente, porém, uma força interior rechaçava tais pensamentos: “Isso é impossível. Se eu ministrar Johrei com toda a sinceridade de meu coração, certamente chegará o momento em que me reconhecerão e dirão: ‘É o senhor, Sr. Serizawa’”. Sentindo que não poderia falhar com Meishu-Sama, voltei meu pensamento ao longínquo Oriente e orei, prosseguindo com o Johrei. De tempos em tempos, eu aproximava meu rosto do dos doentes, mas não havia qualquer reação.
+
+Jamais me esquecerei do oitavo dia desde o início da doença. Após o café da manhã, sentei-me à cabeceira da cama. Então, com um olhar ainda fraco, o paciente fitou meu rosto e disse: “É o senhor, Sr. Serizawa, não é? Minha cabeça está estranha... Onde está minha esposa? Por favor, quero curry de arroz e água”. Eram exatamente as palavras que eu havia antecipado. A alegria que senti naquele momento... creio que nenhuma outra, dentre as inúmeras graças que recebi, jamais a superou. Lágrimas afluíram aos meus olhos e, instintivamente, uni as mãos em prece a Meishu-Sama, na direção de minha pátria distante.
+
+“Agora tenho certeza absoluta da vitória”, pensei. Com forças renovadas, dediquei-me ao Johrei, e, de forma impressionante, uma espessa secreção nasal começou a fluir, e a clareza mental do paciente retornava hora após hora. Sua esposa seguiu um processo de recuperação semelhante, e, embora estivessem debilitados, era evidente para todos que estavam curados. Eu havia recuperado a confiança absoluta. Naquele momento, o casal Goto ainda delirava intensamente, mas eu já não sentia medo. Ministrava-lhes Johrei sorrindo, entretendo-os em meio a seus desvarios, e eles também se recuperaram completamente pelo mesmo processo. A Sra. Goto estava grávida de oito meses na época e, mais tarde, deu à luz um menino grande e forte; mãe e filho gozavam de excelente saúde.
+
+Durante esse período, outras seis pessoas em nosso complexo residencial adoeceram. Cinco delas recorreram a médicos, e quatro morreram. A sexta pessoa sobreviveu, mas isso ocorreu em uma fase posterior da epidemia, quando já se havia tornado de conhecimento geral que as injeções pareciam aumentar a taxa de mortalidade; por isso, simplesmente a deixaram repousar. Contudo, essa pessoa levou dois meses para recuperar as forças. Em contrapartida, aqueles que foram curados pelo Johrei estavam totalmente restabelecidos em vinte dias. Diante da grandiosidade do poder de Deus, não me restava senão a mais profunda admiração.
+
+Descobriu-se, após milhares de vítimas, que os pacientes submetidos a injeções e compressas de gelo apresentavam os piores resultados, e que aqueles que recebiam menos injeções tinham uma taxa de sucesso muito maior. Com a gradual redução do uso de injeções, a taxa de mortalidade do tratamento médico, que era superior a setenta por cento no início, parece ter diminuído para trinta por cento no final da epidemia. Eu ministrei Johrei a cerca de dez pacientes com tifo, e todos se recuperaram, uma taxa de cura de cem por cento. Além disso, a recuperação de suas forças após a doença foi notavelmente mais rápida em comparação com o tratamento convencional.
+
+Os sintomas do tifo na época consistiam em febre contínua acima de quarenta graus, uma dor de cabeça lancinante e o aparecimento de uma leve erupção cutânea por todo o corpo após cerca de dois dias, que desaparecia em outros dois. Por volta do quinto dia, surgia o distúrbio cerebral, e o paciente, invariavelmente, enlouquecia. Testemunhar a piora progressiva de alguém, até a perda da razão, enquanto se ministra Johrei com toda a fé, é uma experiência verdadeiramente assustadora, a ponto de me fazer querer fugir. A experiência, contudo, ensinou-me que o distúrbio cerebral não é um sintoma a ser temido, mas sim uma etapa da purificação que se resolve de forma simples com a ministração de Johrei na região frontal, resultando na eliminação de secreção nasal.
+
+Quando os efeitos milagrosos do Johrei começaram a ser mais amplamente reconhecidos, a terrível epidemia chegou ao fim. A partir de então, recebi solicitações de muitas pessoas e tive a permissão de ministrar Johrei em doentes com diversas enfermidades até minha repatriação, acumulando valiosas experiências e testemunhando resultados notáveis.
+
+Este é o meu testemunho sobre o tifo exantemático. Ofereço este relato em profunda gratidão a Meishu-Sama, que concedeu este poder absoluto a alguém tão insignificante como eu, e com a sincera esperança de que possa servir, ainda que minimamente, de referência para todos.
+
+(1º de janeiro de 1951)
+
+---
+
+# A Matriz da Corrupção
+
+**Categoria:** o | **Ano:** 昭和29(1954)年3月3日 | **Fonte:** Eikou
+**Título Original:** 汚職の母体 | **Status:** Published
+
+## A Matriz da Corrupção
+
+É provável que todos se sintam exaustos com a sucessão de escândalos de corrupção que, recentemente, têm vindo à tona em série, um após o outro. Creio que jamais na história presenciamos uma sobreposição de tantos casos de improbidade de uma só vez. Embora o rigoroso julgamento da justiça venha a esclarecer os fatos, a importância deste problema reside em algo que transcende a mera punição dos culpados. Afinal, ainda que os eventos atuais sejam singulares, esse tipo de escândalo tornou-se quase um ritual anual em nossa nação. Punir apenas os casos que emergem não constitui uma solução fundamental; portanto, é imperativo que promovamos uma erradicação completa e definitiva de suas causas. A situação assemelha-se a um depósito de dejetos onde proliferam larvas: a única solução verdadeira é a assepsia do próprio depósito. Não há outra forma de resolver a questão em sua raiz, e certamente essa é também a grande aspiração do povo. O entrave, contudo, é que a causa primária, o ponto nevrálgico do problema, permanece ignorada.
+
+Mas qual seria, então, esse ponto nevrálgico? Trata-se justamente da concepção teísta, tão veementemente rechaçada pela elite intelectual. A verdade incômoda é que a matriz geradora da corrupção é o exato oposto: o pensamento ateísta. A mentalidade ateísta, como se sabe, resume-se na perniciosa crença de que um ato desonesto, contanto que não seja descoberto pelos olhos humanos, é perfeitamente aceitável. Ademais, à medida que a inteligência humana avança, essa prática se torna cada vez mais sofisticada, sendo até mesmo considerada, em nossos dias, um pré-requisito para a ascensão social. Ao aplicarmos essa lógica à realidade, porém, deparamo-nos com o mistério de sua inevitável falência. Por mais que, por um tempo, o ardil pareça bem-sucedido, cedo ou tarde a máscara invariavelmente cai, como bem demonstram os recentes acontecimentos.
+
+Apesar disso, mesmo os implicados talvez compreendam a situação apenas superficialmente. Crendo firmemente que Deus não existe, falta-lhes o entendimento profundo que brota do âmago da alma. Assim, mesmo diante das consequências de seus atos, quantos serão capazes de um arrependimento genuíno? É duvidoso. A maioria provavelmente concluirá que o fracasso se deveu a uma falha na execução ou à falta de astúcia. Pensarão em aprimorar suas táticas para uma próxima oportunidade, de modo a jamais serem apanhados. Essa é, afinal, a lógica natural daquele que não crê em Deus. Por conseguinte, para reformar essa índole em sua essência, o único caminho é cultivar a noção da existência de Deus por meio da religião. Não há, em absoluto, método mais eficaz.
+
+Enquanto indivíduos de tal estirpe ateísta ocuparem as altas esferas do poder, tanto o setor governamental quanto o empresarial assemelhar-se-ão a um lago estagnado, cujo fundo acumula água pútrida, lodo e detritos. Onde quer que se cutuque, emergem bolhas de um gás nauseabundo, e a análise da trajetória dos escândalos recentes apenas reforça essa impressão. Portanto, o que foi revelado até agora talvez seja apenas a ponta de um iceberg, e os prejuízos infligidos à nação e o transtorno causado ao povo são certamente imensuráveis. Mais grave ainda, a influência deletéria sobre o pensamento popular não pode ser subestimada. Afinal, se as classes dirigentes cometem atos tão vis em segredo para se deleitarem no luxo, e se o dinheiro que partidos e políticos esbanjam provém dos impostos pagos com o sangue e o suor do povo, o cidadão honesto naturalmente perderá o ânimo para o trabalho.
+
+Nesse sentido, por mais eloquentes que sejam os discursos das autoridades, o povo passará a pensar: “não me deixarei enganar novamente”. A reverência de outrora se converterá em desprezo, o sentimento de nação se enfraquecerá e a estrutura social se tornará frouxa. O impacto negativo de tudo isso sobre o destino do país será, a meu ver, muito maior do que se imagina.
+
+Como afirmei desde o início, a raiz de todo este problema reside no pensamento ateísta. Por essa razão, a chave para a solução é, antes de tudo, a erradicação dessa mentalidade. Para tanto, é fundamental a atuação dos religiosos, a fim de que as pessoas reconheçam a existência real de Deus. É preciso incutir nelas a firme convicção de que, embora se possa enganar os olhos dos homens, jamais se poderá enganar os Olhos de Deus. Se essa crença se generalizar, escândalos de corrupção sequer terão chance de ocorrer. Os protagonistas dos recentes acontecimentos são, na sua totalidade, homens de grande prestígio, detentores de alta formação, posição social, renome e inteligência. Surge, então, a pergunta: por que fizeram o que fizeram? A resposta só pode ser o pensamento ateísta, o que demonstra que formação acadêmica e senso moral são esferas distintas. O fato de que os planos, elaborados com o máximo de engenho por homens tão ilustres, tenham sido expostos a partir de uma única fresta, expandindo-se até se tornarem um problema colossal, só pode ser interpretado como um julgamento Divino.
+
+Há aqui outro ponto de suma importância. O Japão se vangloria de ser um país regido por leis, mas, se refletirmos profundamente, perceberemos que isso é um grave equívoco. Se a lei for o único instrumento de controle, os mais ardilosos encontrarão brechas para se isentar da culpa, e os mais desonestos acabarão por levar vantagem. Trata-se, em essência, de conter os homens em uma jaula legal, o que equivale a relegá-los à condição de animais. A dignidade do ser humano, o apogeu da criação, é assim vilipendiada. Se a isso chamamos de nação civilizada, a própria civilização deveria chorar. Costumo dizer que vivemos em uma era semibárbara e semicivilizada, e duvido que alguém possa negar tal afirmação.
+
+Para ilustrar, imagine uma carteira caída à sua frente. Se ninguém estiver olhando, uma pessoa comum talvez a guardasse para si. Aquele que, em tal situação, jamais a tocaria, o faz por crer na existência real de Deus. A missão de formar pessoas assim pertence à religião. No entanto, tanto as autoridades quanto a imprensa demonstram uma notável indiferença a esse respeito, tratando a religião como algo supérfluo ou, pior, como uma superstição fraudulenta, numa atitude que afasta o povo e se revela verdadeiramente incompreensível. Com isso, tornam-se aliados do ateísmo e, consequentemente, uma das causas mais potentes para a proliferação da corrupção.
+
+Diante do exposto, é imperativo que os governantes, nesta ocasião, abram豁然mente os seus olhos espirituais e tomem as devidas providências. Do contrário, este problema abominável jamais será erradicado, e não é preciso dizer o quão gravemente ele obstruirá o progresso da nação. Se, contudo, mesmo após lerem estas palavras, os responsáveis as ignorarem, como de costume, quem poderá garantir que não chegará o dia em que hão de se arrepender amargamente?
+
+Atualmente, o Estado investe em educação e em diversas outras instituições, esforçando-se para desenvolver a inteligência e aprimorar o caráter das pessoas. Todavia, enquanto a questão fundamental – a erradicação do pensamento ateísta – não for enfrentada, todo esse esforço será como carregar água em um cesto. O conhecimento adquirido será, inevitavelmente, mais utilizado para o mal do que para o bem, e a tolice dessa abordagem é indescritível. A tendência do aumento dos crimes de colarinho branco à medida que a cultura avança é a prova cabal disso. É por essa razão que ouso dirigir esta advertência aos homens de saber do nosso tempo.
+
+---
+
 # As Artes Musicais
 
 **Categoria:** o | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 音曲 自観叢書第5編 | **Status:** Published
 
 ## As Artes Musicais
 
@@ -27,6 +134,7 @@ Ademais, também no Manzai (漫才) houve mestres. A falecida Miss Wakana foi, i
 # O Terrível Flagelo dos Medicamentos
 
 **Categoria:** o | **Ano:** 昭和27(1952)年10月29日 | **Fonte:** Eikou
+**Título Original:** 恐るべき薬害 | **Status:** Published
 
 ## O Terrível Flagelo dos Medicamentos
 
@@ -62,6 +170,7 @@ Meishu-Sama, por Vossa sagrada proteção, muito, muito obrigado. Do fundo de me
 # Uma Reflexão sobre Meus Anos na Religião Omoto
 
 **Categoria:** o | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 大本信者時代の私 自観叢書第5編 | **Status:** Published
 
 ## Uma Reflexão sobre Meus Anos na Religião Omoto
 
@@ -78,6 +187,7 @@ Passo agora a elucidar as razões subjacentes a essa dinâmica. A fundadora, Deg
 # A Ilusão do Progresso Médico e a Verdadeira Cura
 
 **Categoria:** o | **Ano:** - | **Fonte:** -
+**Título Original:** - | **Status:** -
 
 ## A Ilusão do Progresso Médico e a Verdadeira Cura
 
@@ -108,6 +218,7 @@ E o mais grave é que esse caminho é superestimado como sendo o do progresso. P
 # Ó, insensatos! Vosso nome é perversidade
 
 **Categoria:** o | **Ano:** 昭和24(1949)年4月30日 | **Fonte:** -
+**Título Original:** 愚かなる者よ！ 汝の名は悪人なり | **Status:** Published
 
 ## Ó, insensatos! Vosso nome é perversidade
 
@@ -130,6 +241,7 @@ Dessa forma, seja sob a ótica da fé, seja por um simples cálculo pragmático,
 # Aos Nossos Leitores
 
 **Categoria:** o | **Ano:** 昭和9(1934)年7月 | **Fonte:** 松風
+**Título Original:** おことわり | **Status:** Published
 
 ## Aos Nossos Leitores
 
@@ -142,6 +254,7 @@ Tenham a certeza de que estou envidando todos os esforços para encontrar uma so
 # Uma Resposta ao Senhor Oya Soichi
 
 **Categoria:** o | **Ano:** 昭和24(1949)年4月8日 | **Fonte:** -
+**Título Original:** 大宅壮一君に与う | **Status:** Published
 
 ## Uma Resposta ao Senhor Oya Soichi
 
@@ -164,6 +277,7 @@ Para concluir, gostaria de afirmar o seguinte: se a totalidade dos jornalistas d
 # O Testemunho das Graças Alcançadas
 
 **Categoria:** o | **Ano:** 昭和24(1949)年7月2日 | **Fonte:** -
+**Título Original:** お蔭話を読んで | **Status:** Published
 
 ## O Testemunho das Graças Alcançadas
 
@@ -186,6 +300,7 @@ Reflito constantemente: se uma pessoa lê estes relatos e, ainda assim, suas dú
 # A Lição Contida nos Relatos de Graça
 
 **Categoria:** o | **Ano:** 昭和26(1951)年10月10日 | **Fonte:** Eikou
+**Título Original:** 御蔭話から何を得る | **Status:** Published
 
 ## A Lição Contida nos Relatos de Graça
 
@@ -212,6 +327,7 @@ Portanto, a cada relato de graça que lemos, sentimos mais intensamente o dever 
 # A Surpreendente Realidade dos Equívocos no Diagnóstico da Tuberculose Pulmonar
 
 **Categoria:** o | **Ano:** 昭和11(1936)年5月3日 | **Fonte:** 驚くべき肺結核診断の誤診
+**Título Original:** 驚くべき肺結核診断の誤診 | **Status:** Unpublished
 
 ## A Surpreendente Realidade dos Equívocos no Diagnóstico da Tuberculose Pulmonar
 
@@ -252,6 +368,7 @@ A notável eficácia desse método tem sido comprovada por minhas experiências 
 # Nota de Desculpas
 
 **Categoria:** o | **Ano:** 昭和9(1934)年4月 | **Fonte:** 松風
+**Título Original:** お詫び ・巻頭言 | **Status:** Published
 
 ## Nota de Desculpas
 
@@ -266,6 +383,7 @@ Doravante, empenhar-nos-emos ao máximo para que tal situação não volte a oco
 # A Verdadeira Causa das Doenças
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 上巻 （二） | **Status:** Unknown
 
 ## A Verdadeira Causa das Doenças
 
@@ -408,6 +526,7 @@ Nesse caso, a cura do corpo físico se manifestou vários dias após a cura do c
 # O Princípio da Terapia Purificadora
 
 **Categoria:** o | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 岡田式指圧療法の原理 | **Status:** Unknown
 
 ## O Princípio da Terapia Purificadora
 
@@ -434,6 +553,7 @@ Diante de tais fatos, podemos afirmar sem hesitação que se aproxima a era em q
 # Sobre a Entrega a Deus
 
 **Categoria:** o | **Ano:** 昭和26(1951)年11月28日 | **Fonte:** Eikou
+**Título Original:** 御任せする | **Status:** Published
 
 ## Sobre a Entrega a Deus
 
@@ -464,6 +584,7 @@ Assim, grande parte dos acontecimentos neste mundo se desenrola de maneira parad
 # A Ilusão da Cura Médica e a Verdadeira Salvação
 
 **Categoria:** o | **Ano:** 昭和27(1952)年4月9日 | **Fonte:** Eikou
+**Título Original:** 御蔭話を読んで | **Status:** Published
 
 ## A Ilusão da Cura Médica e a Verdadeira Salvação
 
@@ -492,6 +613,7 @@ Contudo, tudo está sujeito ao tempo oportuno. Foi-me revelado que, segundo o Pl
 # A Intoxicação Oculta nos Cosméticos
 
 **Categoria:** o | **Ano:** 昭和28(1953)年3月18日 | **Fonte:** Eikou
+**Título Original:** 恐るべき化粧品中毒 | **Status:** Published
 
 ## A Intoxicação Oculta nos Cosméticos
 
@@ -530,6 +652,7 @@ Embora eu seja uma pessoa repleta de máculas, estou determinada a me esforçar 
 # O Grande Envoltório da Salvação
 
 **Categoria:** o | **Ano:** 昭和26(1951)年5月2日 | **Fonte:** Eikou
+**Título Original:** 大風呂敷 阿呆文学（十） | **Status:** Published
 
 ## O Grande Envoltório da Salvação
 
@@ -550,6 +673,7 @@ Com a parca sabedoria que possuem, é certo que jamais conseguirão compreender.
 # Palestra sobre a Arte da Terapia Espiritual
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 上巻 （一） | **Status:** Unknown
 
 ## Palestra sobre a Arte da Terapia Espiritual
 
@@ -794,6 +918,7 @@ O casamento entre seres humanos segue o mesmo princípio. O marido e a mulher se
 # Sobre os Espíritos Vingativos e os Prisioneiros da Terra
 
 **Categoria:** o | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 怨霊及び地縛の霊 | **Status:** Published
 
 ## Sobre os Espíritos Vingativos e os Prisioneiros da Terra
 
@@ -818,6 +943,7 @@ Contudo, os espíritos prisioneiros da terra podem se libertar em um prazo de at
 # A Imperiosa Leitura dos Escritos Divinos
 
 **Categoria:** o | **Ano:** 昭和25(1950)年11月29日 | **Fonte:** Eikou
+**Título Original:** 大いに神書を読むべし | **Status:** Published
 
 ## A Imperiosa Leitura dos Escritos Divinos
 
@@ -838,6 +964,7 @@ Aproveitando o ensejo, gostaria de abordar mais um ponto. No que tange à práti
 # A Barbárie da Medicina Contemporânea
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 薬毒の恐怖 未発表 | **Status:** Unpublished
 
 ## A Barbárie da Medicina Contemporânea
 
@@ -850,6 +977,7 @@ Contudo, diante de tamanhas tragédias, o governo, os médicos e os órgãos de 
 # A Medicina Aterradora
 
 **Categoria:** o | **Ano:** 昭和28(1953)年9月9日 | **Fonte:** Eikou
+**Título Original:** 恐るべき医療 | **Status:** Published
 
 ## A Medicina Aterradora
 
@@ -901,6 +1029,7 @@ Meishu-Sama, por Vossa incessante proteção, nossa mais profunda gratidão.
 # A Origem Espiritual das Fobias
 
 **Categoria:** ra | **Ano:** 昭和27(1952)年8月13日 | **Fonte:** Eikou
+**Título Original:** 雷火恐怖症 | **Status:** Published
 
 ## A Origem Espiritual das Fobias
 
@@ -936,6 +1065,7 @@ Muito obrigado, Meishu-Sama.
 # A Terrível Superstição da Ciência
 
 **Categoria:** o | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** 恐るべき科学迷信
+**Título Original:** 恐るべき科学迷信 | **Status:** Unpublished
 
 ## A Terrível Superstição da Ciência
 
@@ -983,6 +1113,7 @@ Tendo sido eu o escolhido para conduzir este magno Plano Divino, afirmo categori
 # O Pavor das Toxinas Medicinais
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年9月10日 | **Fonte:** Eikou
+**Título Original:** 薬毒の恐怖 | **Status:** Published
 
 ## O Pavor das Toxinas Medicinais
 
@@ -995,6 +1126,7 @@ Tal realidade pode parecer assustadora, justamente por ser algo que a maioria da
 # O Terrível Veneno dos Medicamentos
 
 **Categoria:** ya | **Ano:** 昭和24(1949)年9月10日 | **Fonte:** -
+**Título Original:** 薬剤亡国論 薬毒怖るべし | **Status:** Published
 
 ## O Terrível Veneno dos Medicamentos
 
@@ -1021,6 +1153,7 @@ Ah, como anseio que a sociedade em geral reconheça quão pavoroso é o yakudoku
 # A Nocividade dos Medicamentos
 
 **Categoria:** ya | **Ano:** 昭和11(1936)年 | **Fonte:** 新日本医術書
+**Título Original:** 薬剤の害毒 | **Status:** Unknown
 
 ## A Nocividade dos Medicamentos
 
@@ -1043,6 +1176,7 @@ O mesmo princípio se aplica à constipação e a outras enfermidades, motivo pe
 # O Indubitável Poder de Deus
 
 **Categoria:** o | **Ano:** 昭和25(1950)年4月1日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 | **Status:** Published
 
 ## O Indubitável Poder de Deus
 
@@ -1173,6 +1307,7 @@ Quanto aos notáveis resultados da agricultura sem adubos, a resistência à tem
 # O Milagre da Vida: A Salvação de Meu Filho Desenganado
 
 **Categoria:** o | **Ano:** 昭和25(1950)年4月22日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 | **Status:** Published
 
 ## O Milagre da Vida: A Salvação de Meu Filho Desenganado
 
@@ -1243,6 +1378,7 @@ Em contrapartida, o Johrei de nossa Igreja atua de maneira oposta: dissolve as s
 # O Mal Gerado pelos Medicamentos
 
 **Categoria:** ya | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 薬毒 | **Status:** Published
 
 ## O Mal Gerado pelos Medicamentos
 
@@ -1279,6 +1415,7 @@ Portanto, não é um despropósito afirmar que a raiz da infelicidade e dos conf
 # O Terror das Toxinas dos Medicamentos
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年5月6日 | **Fonte:** Eikou
+**Título Original:** 薬毒は戦争より恐ろしい | **Status:** Published
 
 ## O Terror das Toxinas dos Medicamentos
 
@@ -1335,6 +1472,7 @@ Meishu-Sama, muito obrigada. Rendo-lhe minha mais profunda gratidão. Humildemen
 # A Verdadeira Natureza dos Medicamentos e suas Consequências
 
 **Categoria:** ya | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 薬毒 | **Status:** Published
 
 ## A Verdadeira Natureza dos Medicamentos e suas Consequências
 
@@ -1377,6 +1515,7 @@ Por meio da teoria e dos exemplos aqui apresentados, espero que o leitor tenha p
 # A Terapêutica Divina para as Enfermidades da Face
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 下巻 （一） | **Status:** Unknown
 
 ## A Terapêutica Divina para as Enfermidades da Face
 
@@ -1519,6 +1658,7 @@ No final do ano passado, tratei uma senhora cujo rosto estava tão deformado que
 # O Veneno dos Remédios: A Causa Primordial do Sofrimento
 
 **Categoria:** ya | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 薬毒 | **Status:** Published
 
 ## O Veneno dos Remédios: A Causa Primordial do Sofrimento
 
@@ -1561,6 +1701,7 @@ Portanto, não é um excesso dizer que a raiz da infelicidade e dos conflitos hu
 # A Causa e a Cura das Principais Enfermidades
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 下巻 （五） | **Status:** Unknown
 
 ## A Causa e a Cura das Principais Enfermidades
 
@@ -1839,6 +1980,7 @@ Através de nossa terapia, a dissolução dessa obstrução leva à cura complet
 # A Luz Divina que Supera a Ciência
 
 **Categoria:** o | **Ano:** 昭和28(1953)年8月26日 | **Fonte:** Eikou
+**Título Original:** 御守から出る光波 | **Status:** Published
 
 ## A Luz Divina que Supera a Ciência
 
@@ -1917,6 +2059,7 @@ Muito obrigado. Rogo que continue a me agraciar com Vossa divina proteção.
 # A Ação Inversa dos Medicamentos
 
 **Categoria:** ya | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
+**Título Original:** 十五、薬剤の逆作用 | **Status:** Unknown
 
 ## A Ação Inversa dos Medicamentos
 
@@ -1937,6 +2080,7 @@ A pretensão de que os medicamentos, desenvolvidos pela ciência de laboratório
 # A Intoxicação Medicamentosa
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 薬剤中毒 未発表 | **Status:** Unpublished
 
 ## A Intoxicação Medicamentosa
 
@@ -1953,6 +2097,7 @@ Todavia, uma dificuldade ainda maior reside nos medicamentos de uso oral. Embora
 # A Superioridade do Johrei Demonstrada pelos Fatos
 
 **Categoria:** o | **Ano:** 昭和25(1950)年3月4日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 事実が示す浄霊の優越性 | **Status:** Published
 
 ## A Superioridade do Johrei Demonstrada pelos Fatos
 
@@ -2069,6 +2214,7 @@ Este é um exemplo de alguém que, mesmo sentindo os efeitos do Johrei, se recus
 # A Terapia Divina e sua Excelência
 
 **Categoria:** o | **Ano:** 昭和25(1950)年3月11日 | **Fonte:** Kyusei
+**Título Original:** おかげばなし批判 卓越せる神療法 | **Status:** Published
 
 ## A Terapia Divina e sua Excelência
 
@@ -2184,6 +2330,7 @@ Com tudo isso, percebi que eu estava matando não apenas meu próprio corpo, mas
 # A Verdade sobre Yakushi Nyorai
 
 **Categoria:** ya | **Ano:** 昭和25(1950)年2月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 薬師如来 | **Status:** Published
 
 ## A Verdade sobre Yakushi Nyorai
 
@@ -2204,6 +2351,7 @@ Este é precisamente o Poder de Kannon (観音力) que venho manifestando.
 # Acerca do Veneno Contido nos Remédios
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 薬毒に就いて 未発表 | **Status:** Unpublished
 
 ## Acerca do Veneno Contido nos Remédios
 
@@ -2226,6 +2374,7 @@ Tais exemplos históricos e lendários demonstram que, se o ser humano não reco
 # A Comprovação de um Mundo sem Doenças
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年7月1日 | **Fonte:** Eikou
+**Título Original:** 病なき世界 | **Status:** Published
 
 ## A Comprovação de um Mundo sem Doenças
 
@@ -2259,6 +2408,7 @@ Meishu-Sama, muito obrigado.
 # A Ilusão do Progresso Farmacêutico
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
+**Título Original:** 薬剤に科学性はない | **Status:** Published
 
 ## A Ilusão do Progresso Farmacêutico
 
@@ -2275,6 +2425,7 @@ Nesse sentido, pode-se prever, sem grande margem de erro, que os atuais e aclama
 # Elucidação sobre as Enfermidades
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 下巻 （四） | **Status:** Unknown
 
 ## Elucidação sobre as Enfermidades
 
@@ -2461,6 +2612,7 @@ Independentemente do tipo ou da malignidade da afecção hemorroidária, nossa t
 # O Veneno Oculto nos Remédios
 
 **Categoria:** ya | **Ano:** 昭和26(1951)年1月24日 | **Fonte:** Eikou
+**Título Original:** 薬毒 | **Status:** Published
 
 ## O Veneno Oculto nos Remédios
 
@@ -2503,6 +2655,7 @@ Revista Eikou nº 88, 24 de janeiro de 1951
 # O Tratamento das Enfermidades e o Exame do Paciente
 
 **Categoria:** o | **Ano:** 昭和11(1936)年7月 | **Fonte:** 岡田先生療病術講義録
+**Título Original:** 岡田先生療病術講義録 上巻 （五） | **Status:** Unknown
 
 ## O Tratamento das Enfermidades e o Exame do Paciente
 
@@ -2741,6 +2894,7 @@ Se tratada no início, a meningite tem cura garantida. Tenho um exemplo de um me
 # A longevidade centenária pela eliminação do yakudoku
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年5月7日 | **Fonte:** Eikou
+**Título Original:** 薬毒皆無になれば百歳以上生きる 医学断片集（８） | **Status:** Published
 
 ## A longevidade centenária pela eliminação do yakudoku
 
@@ -2755,6 +2909,7 @@ O passamento dar-se-ia por morte natural; isto é, tal como uma árvore que, ao 
 # A Inevitabilidade da Imperfeição
 
 **Categoria:** ya | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
+**Título Original:** 厄介な世の中 寸評（光25号） 白光生 | **Status:** Published
 
 ## A Inevitabilidade da Imperfeição
 
@@ -2769,6 +2924,7 @@ Trata-se de uma artimanha contra a qual devemos manter-nos sumamente vigilantes.
 # Da Gentileza e do Recato
 
 **Categoria:** ya | **Ano:** 昭和25(1950)年10月25日 | **Fonte:** Eikou
+**Título Original:** 優しさと奥床しさ | **Status:** Published
 
 ## Da Gentileza e do Recato
 
@@ -2787,6 +2943,7 @@ Analisando a questão por outro prisma, vemos que o turismo é hoje aclamado com
 # A Verdadeira Medicina
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 真の医学とは
+**Título Original:** 薬害の実例 | **Status:** Published
 
 ## A Verdadeira Medicina
 
@@ -2824,6 +2981,7 @@ Muito obrigada, Meishu-Sama. Expresso minha mais profunda gratidão.
 # A Barbárie da Medicina
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 野蛮なる医学 未発表 | **Status:** Unpublished
 
 ## A Barbárie da Medicina
 
@@ -2842,6 +3000,7 @@ Entretanto, é verdadeiramente insondável que a sociedade, alheia a essa patent
 # O Engano dos Remédios e a Verdadeira Causa das Doenças
 
 **Categoria:** ya | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 薬毒の害 未発表 | **Status:** Unpublished
 
 ## O Engano dos Remédios e a Verdadeira Causa das Doenças
 
@@ -2880,6 +3039,7 @@ A seguir, passarei a dissertar sobre as principais doenças, iniciando pelas tr�
 # A Origem Interior das Aflições
 
 **Categoria:** ya | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
+**Título Original:** 病は内から外へ ・医学談片集 | **Status:** Published
 
 ## A Origem Interior das Aflições
 
@@ -2898,6 +3058,7 @@ Exorto-os, portanto, a refletir profundamente sobre o significado do que foi exp
 # Um Exemplo Concreto do Veneno dos Remédios
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 薬毒の一実例 未発表 | **Status:** Unpublished
 
 ## Um Exemplo Concreto do Veneno dos Remédios
 
@@ -2916,6 +3077,7 @@ Ah, o anseio de levar esta verdade a toda a humanidade, com a máxima urgência,
 # A Civilização Bárbara
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年3月25日 | **Fonte:** Eikou
+**Título Original:** 野蛮なる文明 | **Status:** Published
 
 ## A Civilização Bárbara
 
@@ -2948,6 +3110,7 @@ O que expus até aqui, de forma espontânea e sem maiores delongas, já é sufic
 # A Revelação Divina sobre a Saúde
 
 **Categoria:** ya | **Ano:** 昭和25(1950)年4月20日 | **Fonte:** 神示のKenko法
+**Título Original:** 薬毒 自観叢書10編 | **Status:** Published
 
 ## A Revelação Divina sobre a Saúde
 
@@ -2974,6 +3137,7 @@ Pelo princípio exposto, quando uma pessoa adoece, se simplesmente deixar a natu
 # A Verdadeira Natureza das Doenças Causadas por Medicamentos
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 薬毒（ 二） 未発表 | **Status:** Unpublished
 
 ## A Verdadeira Natureza das Doenças Causadas por Medicamentos
 
@@ -2994,6 +3158,7 @@ Vejamos agora a formação dos cálculos biliares. O processo se inicia quando a
 # A Natureza Venenosa dos Remédios
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 薬毒（一） 未発表 | **Status:** Unpublished
 
 ## A Natureza Venenosa dos Remédios
 
@@ -3016,6 +3181,7 @@ Adicionalmente, enfermidades que acometem ambos os sexos, como espasmos estomaca
 # A Aterradora Realidade do Yakudoku
 
 **Categoria:** ya | **Ano:** 昭和28(1953)年4月1日 | **Fonte:** Eikou
+**Título Original:** 薬毒の恐ろしさ （２） | **Status:** Published
 
 ## A Aterradora Realidade do Yakudoku
 
@@ -3080,6 +3246,7 @@ Se não conhecêssemos este Caminho, a vida de meu pai já teria sido ceifada pe
 # A Eficácia Transitória dos Medicamentos
 
 **Categoria:** ya | **Ano:** 昭和25(1950)年5月6日 | **Fonte:** Kyusei
+**Título Original:** 薬効短見論 | **Status:** Published
 
 ## A Eficácia Transitória dos Medicamentos
 
@@ -3090,168 +3257,6 @@ Diante do exposto, fica evidente que a eficácia dos medicamentos é meramente t
 A verdadeira medicina consiste em não utilizar medicamento algum, mas sim em promover a capacidade de cura inata ao ser humano. Deixo aqui o alerta de que, fora desse princípio, é impossível obter qualquer efeito curativo radical.
 
 (Nota) Orizanina: designação atual da vitamina B1. Em 1910, Umetaro Suzuki foi o primeiro no mundo a descobrir e extrair do farelo de arroz um componente eficaz na prevenção da beribéri, nomeando-o "Orizanina". Um ano depois, o polonês Casimir Funk descobriu a mesma substância, e o nome "vitamina", por ele cunhado, tornou-se de uso geral.
-
----
-
-# O Perigo da Intoxicação Medicamentosa
-
-**Categoria:** ya | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
-
-## O Perigo da Intoxicação Medicamentosa
-
-Geralmente, acredita-se que as doenças são curadas por meio de medicamentos, mas isso constitui um grave equívoco. A função dos fármacos limita-se a aliviar a dor. Contudo, conforme mencionei no tópico anterior, a própria dor é o mecanismo pelo qual a cura se processa. Portanto, mitigar o sofrimento equivale a adiar a recuperação da saúde.
-
-E os problemas não se detêm aí. A substância medicamentosa que alivia a dor acaba por se imiscuir na corrente sanguínea. Originalmente, o sangue possui a natureza de se manter em estado de pureza absoluta. Como já explanado, quando o sangue se mantém puro, seu poder bactericida é extraordinariamente forte, e o corpo não é acometido por males. Ademais, uma pessoa com o sangue puro possui grande resistência às adversidades externas, suportando com mais facilidade tanto o frio do inverno quanto o calor do verão, mantendo-se sempre jovial e plena de vigor.
-
-Atualmente, a alta incidência de distúrbios como a neurastenia tem por causa a contaminação do sangue. Em grande parte, tal contaminação é decorrente do consumo de carne, do uso de medicamentos e da aplicação de injeções. Minha longa experiência permite-me constatar tal fato com clareza ao observar a pele daqueles que, por anos a fio, fizeram uso de medicamentos ou receberam injeções frequentes. À primeira vista, sua pele apresenta uma tonalidade amarelada, desprovida de brilho e elasticidade. Aos trinta ou quarenta anos, já se assemelha à pele de um idoso.
-
-Indivíduos nessas condições vivem em um estado de melancolia e apatia. Mesmo sem um diagnóstico definido, sentem um mal-estar constante. Consequentemente, mantêm uma relação de dependência com os remédios ao longo de todo o ano, convictos de que a saúde só pode ser restaurada por meio deles. Passam, então, a peregrinar por hospitais, buscando e experimentando os mais diversos fármacos. A cada ano que passa, seu enfraquecimento se acentua, até que, por fim, perdem a própria vida.
-
-Ah, é com pesar que observo a tendência crescente de intoxicados por medicamentos. Trata-se de um mal mais temível que a tuberculose ou as doenças contagiosas. E, no entanto, o fato de que ninguém se dá conta de sua gravidade constitui um problema de enormes proporções para a sociedade humana. A esses pacientes, procuro ensinar quão terrível é a intoxicação medicamentosa. Felizmente, aqueles que acreditam em minhas palavras e as colocam em prática, com o passar do tempo, veem a intoxicação desaparecer naturalmente. Sua circulação sanguínea melhora, o sistema gastrointestinal se revigora e a saúde geral é restabelecida.
-
-É preciso dedicar atenção especial aos casos de desenvolvimento infantil deficiente e diarreia crônica. Tais quadros, na quase totalidade das vezes, são fruto da intoxicação medicamentosa. Outro fenômeno assustador é a estagnação do desenvolvimento em bebês. Ocasionalmente, deparamo-nos com lactentes cujo crescimento é extremamente precário: passado um ano, ainda não lhes nasceram os dentes ou não ganharam peso, permanecendo em um estado de desenvolvimento praticamente paralisado. Frequentemente ouço dizer que os médicos não conseguem identificar a causa, mas meu diagnóstico aponta, invariavelmente, para a intoxicação por medicamentos. Recém-nascidos não devem ingerir nada além do leite materno, e, por essa razão, os fármacos exercem sobre eles uma ação extremamente nociva. A prova irrefutável disso é que, ao se proibir o uso de medicamentos, o bebê gradualmente retoma seu desenvolvimento normal.
-
-Outro ponto interessante a ser observado é o surgimento frequente de furúnculos do tamanho de um grão de feijão ou de uma ameixa em conserva, principalmente nos pés. Embora ninguém ainda se tenha dado conta, a verdadeira causa reside nas diversas vacinas e injeções preventivas. Uma vez que a substância injetada se mistura ao sangue, com o passar do tempo, o processo de purificação contínuo e inerente ao próprio sangue concentra essas impurezas em um local específico. À medida que a purificação avança, tal concentração de impurezas finalmente se converte em pus. O esforço desse pus para ser expelido do corpo resulta na formação do furúnculo. Portanto, se o deixarmos evoluir naturalmente, a pele se romperá, o pus será drenado e a cura ocorrerá de forma espontânea.
-
-Contudo, por desconhecerem esse princípio, as pessoas se alarmam e buscam tratamento médico. O médico, também ignorante da causa, realiza uma incisão. Nesse momento, ao aplicar uma injeção de anestésico, por exemplo, introduz-se no corpo outra substância que, inevitavelmente, se transformará em pus, dando origem a um novo furúnculo. Este, por sua vez, será novamente operado, e assim o ciclo se repete. Dessa forma, o desafortunado paciente torna-se vítima de sucessivos erros de diagnóstico. Por fim, diante da reincidência dos furúnculos, o médico levanta a suspeita de sífilis e inicia um tratamento para a doença, utilizando-se de terapias como o Salvarsan ou compostos de mercúrio.
-
-Esses novos fármacos, com o tempo, também se convertem em pus ou em sangue impuro, que, por sua natureza, tende a se acumular na região das omoplatas e do pescoço. Muitas pessoas que sofrem cronicamente de rigidez nos ombros, torcicolo e dores de cabeça têm aí a origem de seus padecimentos. Quando um paciente nessas condições passa por uma preocupação ou um esforço mental excessivo, pode experimentar confusão mental, cefaleia e vertigem. Nesse ponto, o diagnóstico médico frequentemente aponta, de maneira equivocada, para a sífilis cerebral.
-
-Ao receber um veredito de sífilis cerebral, o paciente encara-o como um prenúncio da loucura. Tomado pelo pavor, abandona seu trabalho e passa a levar uma vida de invalidez. Ah, meus senhores, isto não é ficção nem um romance. É a mais pura realidade. É a origem das enfermidades de inúmeros pacientes que pude conhecer por meio do poder de Kannon (観音). Em outras palavras, uma única injeção preventiva pode, ao fim, transformar uma pessoa em um paciente diagnosticado com sífilis cerebral e condenado a uma existência de prostração. Quão trágico é esse cenário!
-
-Talvez o que exponho lhes pareça por demais insólito. Contudo, por se tratar da verdade, nada posso fazer senão revelá-la. O movimento para despertar a sociedade para estas verdades é a missão fundamental e mais urgente para a salvação da humanidade — uma questão de magnitude muito superior à da política ou da economia.
-
----
-
-# Sobre a Amnésia dos Profissionais da Imprensa
-
-**Categoria:** yo | **Ano:** 昭和24(1949)年11月26日 | **Fonte:** -
-
-## Sobre a Amnésia dos Profissionais da Imprensa
-
-Com grande espanto, tomamos conhecimento de uma matéria publicada no editorial do jornal Yomiuri, em 3 de novembro último, Dia da Cultura, intitulado “Cultivemos uma cultura autêntica”. O artigo mencionava o caso de “uma senhora casada que se suicidou por sua devoção a Ohikari-sama”.
-
-A nossa surpresa advém do fato de que uma notícia de teor idêntico já havia sido veiculada em detalhes na edição de Shizuoka do mesmo jornal, em 20 de julho deste ano. Naquela ocasião, nossa Igreja, por não poder negligenciar tal alegação, conduziu uma investigação minuciosa e constatou que a história era totalmente desprovida de fundamento. Diante disso, apresentamos um protesto formal ao referido periódico, que prontamente publicou uma nota de retratação, admitindo, portanto, a ausência de veracidade dos fatos.
-
-Nesse sentido, a republicação da mesma notícia agora é algo verdadeiramente incompreensível. Reutilizar uma matéria já reconhecida como falaciosa e formalmente retratada só pode ser consequência do esquecimento por parte do jornalista responsável.
-
-Não quero crer que se trate de uma sórdida retaliação ao artigo que publicamos recentemente neste jornal, no qual exortávamos o referido periódico a uma reflexão sobre suas notícias difamatórias. Foi, muito provavelmente, um descuido ocasionado por uma falha de memória. Se assim for, o que os profissionais da imprensa devem, com o máximo rigor, precaver-se é contra a amnésia.
-
----
-
-# O Absurdo do Sofrimento pela Doença
-
-**Categoria:** ya | **Ano:** 昭和28(1953)年7月29日 | **Fonte:** Eikou
-
-## O Absurdo do Sofrimento pela Doença
-
-Eis o caso de um homem que, após sofrer de tuberculose por quase uma década, viu-se curado em aproximadamente uma semana. Surpreendido com o ocorrido, ingressou em nossa Fé e, desde então, tem sido agraciado com o poder de curar diversas enfermidades. Provavelmente, um milagre de tal magnitude parecerá, a muitos, simplesmente inacreditável.
-
-Contudo, ao se examinar o processo de sua cura e os fatos que se sucederam após ele receber a graça de curar, não há outra reação senão o assombro. Trata-se, em verdade, de um milagre sem precedentes desde o alvorecer da humanidade, constituindo um dos grandes enigmas do século XX. Diante de tais evidências, a medicina se encontra em uma conjuntura inelutável: a de ser revolucionada, quer queira, quer não.
-
-Para nós, o ato de sofrer por uma doença chega a ser um despropósito. Senhores médicos, o que pensam ao ler este artigo? Se ainda assim não conseguirem crer, não há outra forma de o descrever senão como uma insensibilidade à própria realidade dos fatos.
-
-***
-
-## Curado da Tuberculose em Meio à Dúvida, Encontro a Fé e Testemunho Sucessivas Graças Divinas
-
-Miekawa Takao (36 anos)
-Igreja Seirei-Tyu / Província de Yamaguchi
-
-Quando ouvi dizer que havia chegado alguém que “curava doenças apenas com a imposição das mãos”, não senti, a princípio, qualquer reação. Minha vida, há quase uma década, resumia-se a um leito de enfermidade. Já havia tentado os mais diversos tratamentos, seguindo todas as recomendações que me pareciam promissoras, chegando ao ponto de ingerir até lesmas. Em agosto do ano anterior, iniciei o uso do novo medicamento para tuberculose, a hidrazida, mas, após um período, interrompi o tratamento por não observar melhora significativa, apesar de uma aparente recuperação inicial. Também recebi e tomei um novo remédio enviado do Havaí, mas minha condição permanecia estagnada, com dias bons e ruins, em um ciclo que me deixava completamente exausto.
-
-Foi em meio a esse desalento que, no início do ano, ouvi novamente sobre o homem que “curava com as mãos”. Achei a ideia um tanto interessante, mas a ignorei e continuei lendo o jornal. Pouco depois, meu irmão chegou e me contou com mais detalhes o que havia descoberto. Acontece que um morador de nosso vilarejo decidiu abrir uma casa de pachinko e contratou um homem de Hiroshima, o senhor Saito, que era membro de nossa Igreja. Um carpinteiro local, o senhor Hayashi, notou o emblema que o senhor Saito usava e o questionou a respeito. Foi assim que tudo começou.
-
-“Experimente, como se estivesse sob um feitiço”, disseram-lhe. Pensei comigo: “Se uma doença pudesse ser curada tão facilmente, seria maravilhoso. E o que mais me agradou foi a permissão para duvidar”. Imediatamente, pedi a um familiar que fosse em meu nome solicitar uma visita. O senhor Saito estava ocupado com a instalação das máquinas e, somente após terminar o serviço, pôde finalmente vir à minha casa para a primeira ministração de Johrei.
-
-Após cerca de duas horas de conversa e da ministração do Johrei, surpreendi-me com a simplicidade de tudo. “Não há necessidade de permanecer deitado”, foi-me dito. Como me permitiam duvidar, resolvi fazer um teste: levantei-me, sentei-me junto à mesa aquecida e comecei a ler o jornal. Até então, minha rotina era de repouso absoluto; eu só deixava a cama para me lavar, comer e ir ao banheiro. Qualquer redução de uma hora no meu tempo de descanso já era suficiente para que eu acordasse exausto na manhã seguinte.
-
-Qual não foi minha surpresa ao constatar que, mesmo permanecendo de pé o dia inteiro, não sentia o menor sinal de cansaço ao despertar! Achei aquilo muito estranho. Seria possível? Estaria realmente funcionando ou seria apenas autossugestão? Eu ainda duvidava.
-
-Essa experiência contrastava fortemente com a de uma antiga religião que frequentei, a Kyoukai K. Lá, ao questionar o sacerdote sobre a razão de minha doença não se curar, a resposta era sempre a mesma: “É porque sua fé é insuficiente; você não se dedica com afinco”. “Mas eu me dedico da minha maneira. Onde, exatamente, Vossa Reverência acredita que minha dedicação falha?”, eu retrucava, apenas para ouvir uma resposta que, em suma, significava: “A prova de que sua dedicação não é suficiente é o fato de que você não se cura”. Por essa razão, deixei de frequentar aquele local.
-
-Portanto, a liberdade de poder duvidar foi um alívio, e continuei a receber Johrei com o coração mais tranquilo, observando uma melhora constante. Eu me sentia secretamente feliz, pensando: “Estou sendo salvo”. Contudo, o senhor Saito continuava ocupado com as máquinas e também atendia a outros doentes na região de Okubo, hospedando-se na casa do senhor Hayashi, de modo que suas visitas à minha casa tornaram-se esporádicas. Apesar disso, meu estado de saúde não regrediu.
-
-Então, tomei uma decisão: resolvi sair. Em um dia de neve, aventurei-me a caminhar e, para minha surpresa, consegui fazê-lo sem dificuldades. Senti-me com mais energia e comecei a conversar com as pessoas. A partir daí, a reputação da Sekaikyuseikyou começou a se espalhar. Em 15 de janeiro, o senhor Hayashi, de Okubo, foi o primeiro a ir a Hiroshima para receber o Ohikari. Logo em seguida, eu também recebi a permissão para me tornar membro. Ao ouvir que “não apenas você pode ser salvo, mas também pode salvar os outros”, recebi em nossa localidade o Reverendo Tanahashi, da Igreja Central, para dar início à difusão. Meu irmão e outras cinco pessoas também ingressaram na Fé conosco.
-
-Em 16 de fevereiro, foi realizada a consagração da Imagem da Luz Divina na residência do senhor Kazui Okamoto, em Usago, com a presença do Reverendo Yaichi Ono, da Igreja Central. Naquele dia, mais seis pessoas se tornaram membros. No mês seguinte, tive a honra de consagrar a Imagem da Luz Divina em minha própria casa, ocasião em que minha mãe e minha irmã também ingressaram na Fé, juntamente com outras sete pessoas. O número de membros continuou a crescer, e ver as pessoas sendo salvas por meio das sucessivas graças divinas é algo que só posso descrever como maravilhoso.
-
-Em um período tão curto, termos três locais de consagração da Imagem e vinte e um novos membros é uma graça tão imensa que eu, com minha fé ainda incipiente, não encontro palavras para expressar. Simplesmente transbordo de alegria e reverência, dedicando-me ativamente conforme as orientações do reverendo.
-
-No dia 1º de fevereiro, pouco depois de me tornar membro, uma senhora chamada Teru Tamura procurou-me. Ela explicou: “Ouvi falar sobre a Igreja e vim porque não me sinto bem desde que tomei uma injeção de penicilina em uma clínica. Estava a caminho de outro médico quando soube de vocês”. Relatou que, há alguns dias, um grande furúnculo havia surgido em suas costas, causando-lhe dor intensa, e me pediu que a ajudasse a se curar.
-
-Embora me tivessem dito que eu recebera o poder de curar, confesso que me senti inseguro por ser meu primeiro caso. Mesmo assim, impus-lhe as mãos. Após alguns dias, ela me contou que, durante a noite, transpirou abundantemente e teve uma secreção vaginal que não ocorria há mais de dez anos. Esse processo de purificação durou alguns dias e, em aproximadamente uma semana, ela estava curada. Naquele momento, compreendi as palavras do reverendo: “Você só entenderá de verdade quando impuser as mãos você mesmo”. Meishu-Sama, muito obrigado.
-
-Além disso, em 31 de janeiro, meu irmão mais novo, a caminho do trabalho, sofreu uma queda de bicicleta em um barranco de cerca de três metros. O local era notoriamente perigoso, com um fundo rochoso onde uma pessoa já havia falecido. Contudo, ele foi salvo em pouco tempo, sofrendo apenas ferimentos leves na cintura e na perna. Ele contou que, no momento da queda, instintivamente levou a mão ao peito. Sinto um calafrio ao pensar no que poderia ter acontecido se ele não tivesse ingressado na Fé: uma perna ou um braço quebrado, ou, na pior das hipóteses, a perda da vida. Diante da grandiosidade dessa proteção divina, só posso inclinar a cabeça em gratidão.
-
-Mais recentemente, meu segundo irmão estava na montanha cortando lenha quando, por um descuido, atingiu o próprio pé com o machado. Ele disse que pensou: “Pronto, me machuquei”. A bota de trabalho foi rasgada por cerca de três centímetros, mas, para sua surpresa, o pé estava intacto. Ele voltou correndo para casa, feliz, para nos contar que havia recebido uma grande graça. Com tantas graças sucessivas, nossos corações se enchem de gratidão, e toda a família agradece do fundo da alma.
-
-Atualmente, mesmo sendo alvo de zombarias e chamado de louco por alguns, dedico-me com alegria a este sagrado trabalho. Na minha vizinhança, há um jovem de catorze anos, Sadamori Haruo, cego há oito anos. Seus globos oculares, que eram salientes, já começaram a se retrair e ele agora diz: “Em dias de sol, a luz lá fora ofusca minha vista”. Seus pais estão radiantes, acreditando que, com essa graça, ele voltará a enxergar. É uma alegria visitar sua casa para ministrar-lhe Johrei. O pai do jovem ingressou na Fé em 18 de abril, e a família tem recebido muitas graças, tornando-se um lar mais feliz.
-
-Neste momento, ministro Johrei a cinco ou seis pessoas enfermas, e todas estão recebendo graças e se alegrando. Sob a orientação do reverendo, desejamos dedicar o máximo de nossos esforços a esta Obra Divina.
-
-Meishu-Sama, sou-lhe imensamente grato por Vossas inúmeras graças e proteções. Peço-lhe perdão pela demora em expressar esta gratidão e rogo humildemente que continue a nos conceder Vossa proteção.
-
-Meishu-Sama, muito obrigado.
-
----
-
-# O Flagelo do Veneno dos Remédios
-
-**Categoria:** ya | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** Eikou
-
-## O Flagelo do Veneno dos Remédios
-
-A que ponto a humanidade se encontra encurralada em um abismo de sofrimento devido à superstição em torno dos medicamentos é uma verdade que se torna dolorosamente clara ao observarmos os doentes à nossa volta. Tal como reza o antigo provérbio que o amor nos cega aos defeitos, o homem moderno está completamente apaixonado pelos remédios, reverenciando-os enquanto, na realidade, padece de seus terríveis malefícios sem a menor consciência, o que constitui um problema de enormes proporções. E, ainda que atormentados por essa calamidade, os ditos intelectuais das nações civilizadas a exaltam e a incentivam. Quanto mais se reflete sobre sua ignorância e obscurantismo, mais assombroso tudo parece.
-
-O relato de graça que se segue pode ser considerado o diário de uma experiência com a superstição do veneno dos remédios. E, se houver quem, mesmo após esta leitura, não compreenda, sua mente, embora revestida pela aparência de um homem civilizado, não se diferencia em essência da de um selvagem.
-
-### Uma Experiência com o Sofrimento Gerado pelo Veneno dos Remédios
-
-**Kagawa, Igreja Jissei Naka**
-**Saeki Shigemi (29 anos)**
-
-Recordo-me que em setembro de 1947, após mais de vinte anos de vida neste mundo, durante os quais sempre tive absoluta confiança em meu corpo e era considerado por mim e pelos outros um paradigma de saúde, o espectro da enfermidade me assaltou subitamente. Eu, que até então desconhecia o padecimento de uma doença, senti uma tristeza indescritível. Tinha, contudo, a convicção absoluta de que bastaria consultar um médico para ter um diagnóstico e tomar um remédio para ser curado. Assim, dirigi-me de imediato ao hospital mais próximo e, após o exame, embora não houvesse clareza sobre o mal que me acometia, recebi uma medicação e retornei para casa. Esse foi o início da minha jornada pela medicina, que me transformou em alguém incapaz de passar um dia sequer sem remédios por cinco longos anos.
-
-Nesse período, no anseio de recuperar a saúde o mais rápido possível, percorri inúmeros hospitais. Suportando remédios amargos e injeções dolorosas, segui à risca as orientações médicas. No entanto, longe de melhorar, minha condição se deteriorava a cada ano, e meu corpo emagrecia sem cessar. No hospital A, diagnosticaram-me um mal hepático; no B, uma gastrite crônica. Fiquei sem saber ao certo qual era o meu problema. Além disso, a fé que eu depositara nos médicos se esvaía à medida que minha saúde piorava. Embora me sentisse desamparado, continuei a tomar os medicamentos, consolando a mim mesmo com a esperança de que um dia melhoraria.
-
-Buscando outras alternativas, por recomendação, iniciei uma terapia de acupuntura e moxabustão. No princípio, o efeito foi notável e senti um alívio considerável, mas, com o tempo, a eficácia diminuiu e retornei ao estado original. Tendo esgotado todos os recursos sem obter melhora, fui então acometido por um pavor avassalador da morte, chegando a pensar que meu caso não tinha mais salvação e a perder a esperança de continuar a viver. Naturalmente, a visão de pessoas felizes intensificava minha tristeza. Tornei-me avesso a conversar, irritadiço por qualquer motivo e obcecado unicamente com minha condição física, vivendo em um tormento diário.
-
-Foi então que, em junho de 1952, no meu local de trabalho, ouvi do senhor Yoshitomi explanações sobre a Sekaikyuseikyou. Senti algo tocar profundamente meu coração e, com o sentimento de quem se afoga e se agarra a qualquer fiapo de esperança, decidi ir à Igreja. Lá, o reverendo Shimazu explicou-me detalhadamente: “A doença é uma ação purificadora; os remédios são venenos, e a medicina moderna é uma terapia que interrompe a purificação, ou seja, um método que solidifica as toxinas no corpo. A medicina de Deus, por sua vez, por meio do Johrei, remove as máculas do espírito, dissolve as toxinas do corpo e as expele, curando a doença em sua raiz.” Confesso que fiquei atônito, pois tudo aquilo era o completo oposto da medicina convencional.
-
-Inúmeras dúvidas assaltaram meu espírito: “Será que conseguiria abandonar os remédios assim, de imediato? Se o fizesse, a doença certamente se agravaria. Seria possível que uma enfermidade se curasse apenas com a imposição das mãos? Se fosse tão simples, não haveria necessidade de hospitais ou medicamentos.” Hoje, ao recordar tais pensamentos, sinto-me profundamente indigno e arrependido. Contudo, refleti que, por cinco anos, seguira os médicos e tomara remédios sem melhora alguma, apenas piorando. Tomei, pois, uma firme resolução e despedi-me de um ciclo de cinco anos de dependência medicamentosa.
-
-A partir daquele momento, embora sentisse um vazio antes e depois das refeições, passei a frequentar a Igreja e a receber Johrei diariamente. E qual não foi minha surpresa? Eu, que estava convencido de que minha condição pioraria progressivamente ao deixar os remédios, via-me, milagrosamente, melhorar a cada dia que passava. Sentindo uma imensa gratidão, ingressei na fé um mês depois, em julho. Mesmo assim, a hesitação entre a crença e a dúvida por vezes me abalava, causando-me grande sofrimento. Todavia, à medida que lia os Escritos Divinos, o jornal *Chijo Tengoku* e o *Eiko*, passei a compreender a verdade deste Caminho de uma perspectiva científica. Hoje, pela graça divina, alcancei um abençoado estado de paz e segurança interior, encontrei um novo sentido em minha vida e fui verdadeiramente conduzido de um mundo de trevas para um mundo de luz.
-
-Transbordando desta alegria indizível, agradeço a Meishu-Sama e anseio ardentemente que o maior número possível de pessoas, que, como eu no passado, acreditam na medicina moderna como o único método de cura e sofrem noite e dia com o agravamento de seus males enquanto introduzem em seus corpos o terrível veneno dos remédios, possam compreender o quanto antes esta medicina divina e suprascientífica.
-
-Quando penso que, se a monumental descoberta de Meishu-Sama sobre o veneno dos remédios não tivesse ocorrido, as inúmeras pessoas salvas até hoje pela Sekaikyuseikyou teriam sido vítimas desse mesmo veneno, compreendo que a verdade sobre o `yakudoku` é absoluta e que ela certamente suplantará a medicina moderna. Do contrário, a humanidade inteira estará fadada à aniquilação. Não é algo verdadeiramente aterrador? Quando reflito sobre a terrível medicina moderna, que, crendo que os remédios curam, trata o nosso corpo como uma espécie de máquina na qual se despeja óleo, administrando medicamentos com absoluta indiferença, não posso senão curvar a cabeça em reverência diante da grandiosidade da Obra Divina de Meishu-Sama.
-
-Peço perdão pela simplicidade de minhas palavras, escritas ao sabor das memórias de meus erros passados, e expresso minha mais profunda admiração pelos grandiosos Ensinamentos de Meishu-Sama.
-
-Meishu-Sama, muito obrigado por me salvar.
-
-*Quão difícil é a Obra de Salvação*
-*Que revela estar nos remédios a causa da doença.*
-
-*A medicina criada pelo homem não é ciência,*
-*Ciência, sim, é a Obra de cura realizada por Deus.*
-
-(Salmos de Meishu-Sama)
-
-(23 de dezembro de 1952)
-
----
-
-# A Cura da Tuberculose Lombar
-
-**Categoria:** yo | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-
-## A Cura da Tuberculose Lombar
-
-Na atualidade, esta enfermidade é tida como incurável, não apenas pela medicina, mas por quaisquer outras terapias e, inclusive, pela fé. O desespero dos pacientes, portanto, é algo profundamente lastimável.
-
-O caso desta jovem senhora, aqui sucintamente apresentado, ilustra essa realidade. Destinada a findar seus dias como um cadáver vivente, ela foi, todavia, salva por meio do Johrei. Representa, portanto, uma bênção e um mérito extraordinários.
 
 ---
 

@@ -1,8 +1,495 @@
 # Mioshie_Teachings - Part 37
 
+# Um Diálogo que Transcende a Religião e a Ciência
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年9月23日 | **Fonte:** Eikou
+**Título Original:** 宗教と科学を超越しての会合 | **Status:** Published
+
+## Um Diálogo que Transcende a Religião e a Ciência
+
+**Palavras do repórter:**
+
+Atendendo ao desejo de Meishu-Sama de “divulgar amplamente ao mundo” o sublime milagre apresentado na edição 218 da revista *Eikou*, sob o título “O Supermilagre”, foi promovido, pela diligência do Dr. Michikazu Okada, um encontro para a troca de opiniões com a presença de seis médicos doutores.
+
+O evento teve início às 15 horas do dia 15 de agosto, com uma saudação do Superintendente Okusa. Em seguida, a equipe médica iniciou sua inquirição sobre as circunstâncias do acometimento da doença, dando origem a um diálogo com os representantes da Igreja que, gradualmente, avançou para os pontos cruciais da questão.
+
+Meishu-Sama adentrou o recinto às 15h40. Após cada um dos médicos apresentar os resultados de seu diagnóstico, Sua Senhoria nos agraciou com Suas palavras.
+
+A seguir, apresentamos a transcrição das palavras de Meishu-Sama e dos diagnósticos dos médicos. Cabe registrar que, na ocasião, estiveram presentes dois repórteres do jornal *Sangyo Keizai Shimbun* e um do *Hochi Shimbun*. (Kihara Michiharu)
+
+**Palavras de Meishu-Sama**
+
+Gostaria de proferir algumas palavras. O fato de eu, um religioso, convidar médicos para apresentar-lhes um acontecimento tão extraordinário, transcende o âmbito da medicina e da religião. Meu intuito é dar a conhecer ao mundo inteiro a existência de um fato como este e, desse modo, oferecê-lo como matéria de estudo não apenas aos acadêmicos, mas a todos aqueles que nutrem interesse por tais assuntos. O ponto fulcral desta questão reside em discernir se o que havia desaparecido por completo foi de fato regenerado, ou se, porventura, uma função vital que se encontrava temporariamente retraída apenas retornou.
+
+De minha perspectiva, afirmo com certeza que se trata de uma regeneração. Naturalmente, a ideia de que algo desaparecido possa ressurgir contraria a lógica, e é por essa razão que o fenômeno é classificado como um milagre. Afinal, um milagre é a ocorrência do que se julga impossível. O termo “impossível”, todavia, costuma ser empregado para definir aquilo cuja possibilidade ainda não foi descoberta. Destarte, creio que a ciência ainda não progrediu o suficiente para oferecer uma explicação plausível para este fato. Estou convicto de que, com o avanço científico, chegará o dia em que tais ocorrências serão consideradas naturais e perfeitamente lógicas. Em meu entendimento, a completa restauração de algo que havia deixado de existir é um processo natural e nada tem de misterioso.
+
+Contudo, compreendo que uma simples afirmação como essa dificilmente encontrará crédito. Atualmente, dedico-me a escrever uma obra intitulada “O Livro da Revolução da Medicina”, na qual abordo detalhadamente os fundamentos desses pontos. Sei, porém, que seria inútil expor o assunto de forma abrupta, pois sua compreensão é absolutamente inviável sem o conhecimento prévio necessário. Desvendar um mistério de tamanha profundidade exige uma base de conhecimento considerável. Portanto, é totalmente impossível para o homem moderno, com sua mentalidade científica atual, assimilar tal verdade. Embora o termo “conhecimento prévio” possa soar peculiar, a explanação deve seguir uma ordem lógica para que se possa alcançar um entendimento geral. O grau de compreensão varia de pessoa para pessoa, e são raros os que conseguem apreender a totalidade, mas acredito que a maioria será capaz de intuir: “Ah, então é assim que as coisas são”.
+
+Pode parecer uma afirmação audaciosa, mas é certo que a ciência, em seu ápice de desenvolvimento, chegará a essa mesma conclusão. Seria como tentar explicar a bomba atômica antes de seu lançamento; ninguém compreenderia. A minha intenção é expor o que se encontra muito além da física teórica. O Dr. Yukawa disserta, hoje, sobre a teoria das propriedades da matéria, que derivou da descoberta do méson. Contudo, há um estágio subsequente, e foi sobre ele que escrevi detalhadamente. Se aprofundarmos a ciência atual até sua essência mais recôndita, a regeneração completa de testículos e de um pênis que haviam sido perdidos não parecerá tão extraordinária.
+
+Reluto em aprofundar-me em temas que poderiam ser erroneamente interpretados como uma jactância absurda. No entanto, fiz esta explanação por acreditar que ela servirá como uma valiosa indicação quando, futuramente, os senhores lerem meu livro e se recordarem destas palavras. Quando menciono uma “revolução da medicina”, não me refiro a algo que eu mesmo esteja a promover, mas sim a um caminho inevitável pelo qual a humanidade deverá trilhar. Esse é o verdadeiro progresso da civilização; é o curso natural dos acontecimentos.
+
+**Um Diálogo que Transcende a Religião e a Ciência**
+
+**Presentes (títulos de cortesia omitidos):**
+
+**Representantes da Igreja**
+Superintendente: Naoyoshi Okusa
+Diretor-Presidente: Yoshihiko Kihara
+Diretor: Seizo Abe
+Diretor: Seiichi Momomi
+Diretor: Mitsuhiko Onuma
+Diretor: Utaro Nagamura
+Diretor: Akira Kito
+Chefe de Setor: Hideo Kojima
+Hiroshi Sukuwa
+Takushi Sukuwa
+
+**Corpo Clínico Convidado (em ordem alfabética japonesa)**
+Dr. Kiyoshi Ikeda, Doutor em Medicina – Dermatologista, Urologista, Diretor do Hospital Ikeda
+Dr. Chikahiro Yukifuki, Doutor em Medicina – Técnico da Prefeitura de Tóquio, Diretor do Hospital Yoshiwara
+Dr. Saburo Hamada, Doutor em Medicina – Técnico do Ministério da Saúde e Bem-Estar, Diretor do Hospital de Cirurgia Ortopédica de Yugawara
+Dr. Fujiro Nakabachi, Doutor em Medicina – Funcionário Técnico do Ministério da Saúde e Bem-Estar, Diretor da filial Ninomiya do Primeiro Hospital Nacional de Tóquio
+Dr. Mamoru Okada, Bacharel em Medicina – Assistente de Cirurgia Ortopédica do Hospital Keio
+Dr. Michikazu Okada, Doutor em Medicina
+Dr. Yutaka Kobayashi, Doutor em Medicina – Chefe de Urologia do Hospital Metropolitano de Aso-Hiroo, Tóquio
+
+**Dr. Hamada**
+Creio que se tratava, muito provavelmente, de um cálculo vesical. Subsequentemente, sobreveio um catarro vesical, que evoluiu para uma infiltração urinária. O pênis e os testículos são órgãos capazes de uma contração notável; os testículos, por exemplo, podem retrair-se a ponto de parecerem ter sido puxados para cima. Imagino, portanto, que, no estado de retração, a infiltração urinária tenha provocado o desprendimento da pele superficial, dando a impressão de que os órgãos haviam desaparecido por completo. Ao examiná-lo agora, constato uma excelente recuperação. A pele ao redor do pênis apresenta certa irregularidade devido ao processo inflamatório. O testículo direito é evidente, mas o esquerdo, por mais que eu o procure, não o encontro; talvez tenha se desprendido. Como não presenciei o quadro na época, não posso afirmar com certeza, mas os animais não possuem a capacidade de regenerar sua forma original; a cura, se ocorre, se dá por outros mecanismos. Na cirurgia, por vezes nos perguntamos se não seria possível restaurar a forma original de algo, mas o pressuposto de que isso é impossível nos leva a desistir. Considerando esse ponto, conjecturo que os órgãos permaneceram suspensos e retraídos, o que levou à suposição de que haviam desaparecido.
+
+**Dr. Kobayashi**
+Em minha opinião, trata-se de um cálculo uretral. Geralmente, os cálculos se formam nos rins, mas neste caso, devem ter ficado presos na uretra. O médico que o atendeu mencionou uma “injeção para dissolver a pedra”, mas, até o momento, não existe tal descoberta. Também foi dito que “a ausência de micção por mais de oito horas é perigosa”, mas, em minha experiência, há casos de pacientes que sobrevivem por até uma semana sem urinar. O fato de os testículos e o pênis terem apresentado um inchaço avermelhado em 1º de março sugere que o cálculo obstruiu a passagem, causando vazamento de urina pela ferida. Essa urina, ao infiltrar-se nos tecidos adjacentes, propiciou a proliferação de bactérias, resultando em uma infiltração urinária. A menção a convulsões e estado de morte aparente em 4 de dezembro indica o início de um quadro de uremia. A ausência total de urina, como ocorre na uremia anúrica causada por nefrite, por exemplo, apresenta sintomas semelhantes. No entanto, neste caso, a urina estava, de fato, sendo produzida pelos rins e se acumulando na bexiga. Como os rins estavam funcionais, tentavam expelir a urina sem sucesso. Consequentemente, os resíduos excretados retornavam à corrente sanguínea, causando a uremia. Nós utilizamos o termo “retenção urinária” para essa condição. Na anúria, os rins são incapazes de produzir urina, o que não parece ter sido o caso aqui. Trata-se, portanto, de uma uremia por retenção, que classificamos como pseudo-uremia.
+
+Essencialmente, a eliminação da urina alivia a dor e traz conforto. Contudo, na presença de infiltração urinária, os tecidos da região entram em necrose — em termos simples, começam a apodrecer. Os vasos sanguíneos também se decompõem, e o tecido necrosado, impregnado de toxinas, acaba por se desprender. O relato de que o paciente urinou em 5 de março indica que, por algum mecanismo, o cálculo foi expelido. Por volta de 7 de dezembro, a área necrosada pela infiltração urinária começou a se desprender, e pus emergiu da base do pênis. Presumo que os testículos também tenham sofrido um processo inflamatório. O documento afirma que o pênis e os testículos se desprenderam e desapareceram por completo. Tecidos como a pele podem se regenerar, mas se os testículos e, como foi dito há pouco, a glande, realmente se desprenderam e retornaram ao estado atual, estaríamos diante de um evento raríssimo. Se assim foi, não encontro explicação. Seria, de fato, um milagre extraordinário. Todavia, como não observei o quadro na época, não posso emitir um parecer definitivo.
+
+**Dr. Yukifuki**
+Como não presenciei o quadro clínico na época, minha avaliação não passa de uma suposição. Acredito que se tratava de um caso de pseudo-uremia bastante grave. O fato de a criança ter superado a fase crítica e conseguido urinar após vários dias em estado de risco pode ser considerado um golpe de sorte para um menino de cinco ou seis anos. O diagnóstico médico sobre o desprendimento do tecido local devido à supuração já foi apresentado pelo Dr. Kobayashi, e concordo que se trata de uma alteração necrótica decorrente da infiltração urinária. Ao observar o paciente agora, vejo que a lesão cicatrizou, deixando uma pequena marca. Ainda persiste um pequeno orifício por onde vaza um pouco de urina, mas o fato de uma alteração necrótica tão severa ter resultado numa cicatriz tão pequena é, sem dúvida, um desfecho muito feliz. O testículo presente no lado direito está inchado e não se assemelha ao de uma pessoa saudável, localizando-se na região inguinal intermediária, entre o abdômen e o pênis. É difícil determinar se este é o órgão original ou um novo, mas inclino-me a pensar que a bolsa escrotal se desprendeu, mas o testículo, felizmente, permaneceu. O testículo esquerdo não é palpável. Em nossa prática, observamos que, com a contração do escroto, os testículos podem se alojar no abdômen, tornando-se impalpáveis. A condição atual é precisamente essa: o escroto está extremamente contraído devido à formação da cicatriz e não constitui uma bolsa, o que pode ter empurrado o testículo esquerdo para a cavidade abdominal. Talvez, com o tempo e com a maior elasticidade da pele que forma o escroto, o testículo esquerdo volte a ser palpável. Contudo, sem acompanhar a evolução, não posso afirmar nada. Quanto à glande do pênis, ao tocá-la, não consigo discernir se é um tecido regenerado ou o original. Se algo que se desprendeu foi regenerado, só podemos considerar isso um milagre de enormes proporções. No entanto, em casos de infiltração urinária, o pênis pequeno de uma criança pode ficar quase que totalmente envolto pelos tecidos. Se esses tecidos necrosam e se desprendem, mesmo que o pênis em si permaneça intacto internamente, a aparência é a de que o órgão inteiro se soltou. É compreensível que se tenha tido essa impressão. De todo modo, deixando de lado, por ora, a hipótese de regeneração e baseando-me apenas no estado residual, considero que um quadro tão grave ter evoluído para a condição atual, com uma cicatriz tão pequena, representa um curso clínico excepcionalmente afortunado.
+
+**Dr. Nakabachi**
+Sou pediatra e, por não ter uma relação tão direta com a doença em si, gostaria de abordar a questão sob outra perspectiva. Esta é uma enfermidade que acomete crianças e idosos, sendo praticamente inexistente em jovens e adultos. As crianças afetadas são, em geral, frágeis e de constituição nervosa; não se observa tal quadro em crianças saudáveis, cheias de vigor e com desenvolvimento físico e mental equilibrado. Ao observar este menino agora, percebo que, embora pareça ter uma compleição delicada, imagino que antes fosse mais travesso e desobediente. Hoje, ele demonstra uma notável compreensão, sentado tranquilamente entre os adultos, adaptado à atmosfera do ambiente. Creio que sua transformação é extraordinária. O que mais me chamou a atenção neste panfleto foi o intervalo de dois anos entre a conversão do pai e o surgimento da doença. Sinto um profundo pesar por este fato. Meu desejo era que, nesses dois anos após a conversão do pai, a fé tivesse atuado de forma preventiva, evitando que a doença se manifestasse. Para mim, a virtude e o efeito da religião residem em proporcionar estabilidade espiritual, em levar o indivíduo a uma compreensão profunda dos assuntos do mundo, permitindo-lhe trabalhar com todo o seu potencial em um estado de grande paz interior, tanto no âmbito familiar quanto no social. O efeito sobre a criança é visível no fato de ela ter se tornado mais forte após a conversão do pai. Contudo, eu realmente gostaria que a doença tivesse sido evitada. Com a devida vênia, era isso que desejava expressar.
+
+**Dr. Okada (Mamoru)**
+Após as palavras dos eminentes colegas, pouco me resta a acrescentar. No que tange ao diagnóstico médico, concordo com as opiniões já expressas. Contudo, o fato de esta criança ter recuperado o vigor e alcançado o estado robusto em que se encontra hoje, apesar de um quadro que se supõe ter sido gravíssimo, é notável. Em nossa prática diária com pacientes que seguem um curso clínico semelhante, os desfechos infelizes são, infelizmente, mais comuns. Penso que a conversão do pai e a ministração de Johrei podem ter exercido alguma influência em sua recuperação. Por fim, gostaria de dizer que, independentemente do que ocorreu até agora, nossas observações se concentraram no presente e no futuro próximo. Meu interesse, daqui para frente, será observar o grau de funcionalidade que estes testículos e este pênis, que parecem ter sido regenerados, apresentarão. Em que medida possuirão uma função normal? Eis o que me desperta grande curiosidade.
+
+**Dr. Okada (Michikazu)**
+Ao refletir sobre como esta criança sobreviveu, penso em dois fatores: primeiro, a vigorosa força vital da criança e, segundo, a capacidade de regeneração inerente ao ser humano. Os diagnósticos já foram esclarecidos pelos distintos colegas, mas me pergunto o que teria acontecido se o caso tivesse sido confiado a um cirurgião convencional. Tenho minhas dúvidas se medicamentos e outros métodos teriam alcançado a cura. Felizmente, apenas com Johrei, a recuperação foi tão completa que se pode falar em regeneração. A prova definitiva de sua cura, no entanto, virá quando ele se tornar adulto e puder ter filhos, quando seus órgãos forem verdadeiramente funcionais. Isso, mais do que surpreendente, é verdadeiramente misterioso.
+
+**Dr. Ikeda**
+Cheguei um pouco atrasado e pensei que não conseguiria participar, mas felizmente pude ouvir as palavras do Líder Espiritual (Nota do repórter: o pronunciamento do Dr. Ikeda ocorreu após as palavras de Meishu-Sama). A questão de ter havido ou não uma regeneração suscita opiniões distintas entre um médico e um religioso, mas, de qualquer forma, o caso pode ser considerado um milagre. Do ponto de vista médico, há formas de explicá-lo, mas o Líder Espiritual defende a tese da regeneração, e eu, como médico, tenho uma opinião ligeiramente diferente. A questão da regeneração me causa certa dúvida, e como desconheço a profundidade da opinião do Líder Espiritual, gostaria de, havendo oportunidade, conversar longamente com ele a esse respeito. Embora seja possível oferecer uma explicação do ponto de vista médico, creio que ela, por si só, teria suas insuficiências.
+
+(Responsabilidade pelo texto: O Repórter)
+
+---
+
+# A Solução para o Problema Populacional
+
+**Categoria:** shi | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 人口問題と本療法 | **Status:** Published
+
+## A Solução para o Problema Populacional
+
+A difusão generalizada desta Terapia possibilitará a solução do grave problema do declínio populacional, que atualmente tanto aflige a nação.
+
+Qual é, em sua essência, a causa da infertilidade? Conforme já elucidei em outra oportunidade, a atrofia renal acaba por gerar uma deficiência hormonal. Essa carência hormonal, por sua vez, acarreta um enfraquecimento da função sexual, o que resulta na diminuição da capacidade de concepção. Evidentemente, tal condição não se restringe às mulheres, afetando os homens de igual maneira.
+
+No caso específico das mulheres, a atrofia renal provoca o enrijecimento de toxinas urêmicas no peritônio, as quais passam a comprimir as trompas de Falópio ou a deslocar o útero de sua posição natural, causando retroflexão ou anteflexão. Tais fatores, por conseguinte, criam obstáculos à fecundação.
+
+Diante do exposto, a frigidez e a aversão ao cônjuge, manifestadas por certas mulheres, são, invariavelmente, consequências da atrofia renal. Da mesma forma, a condição que a medicina denomina "hipoplasia uterina", ou subdesenvolvimento do útero, tem, sem dúvida, sua origem na mesma causa.
+
+Portanto, uma vez que os rins recuperem sua plena saúde, a mulher certamente se tornará fértil e, ademais, a harmonia conjugal será restabelecida. Consequentemente, é inevitável que problemas execráveis como os litígios familiares e o divórcio diminuam drasticamente.
+
+Sou compelido a afirmar, ainda que pareça autoelogio: fora desta arte terapêutica, a chave para a solução do problema populacional jamais será encontrada
+
+---
+
+# A Piorreia, a Paralisia Facial e os Equívocos da Medicina
+
+**Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 歯槽膿漏及顔面麻痺 ・病患と医学の誤謬一一 | **Status:** Published
+
+## A Piorreia, a Paralisia Facial e os Equívocos da Medicina
+
+Dentre as enfermidades que se têm disseminado em tempos recentes, encontra-se a piorreia. Embora a medicina ainda a considere de causa desconhecida, minhas pesquisas revelam que sua origem fundamental reside nos rins. As toxinas urêmicas geradas por esses órgãos acumulam-se primeiramente nos ombros e, em seguida, deslocam-se para a região dos gânglios linfáticos cervicais. É por meio de um processo de purificação que o organismo tenta exsudar e expelir tais toxinas através das gengivas. A presença de sangue nesse processo ocorre porque as toxinas se misturam à corrente sanguínea para serem eliminadas. A veracidade desta explanação torna-se manifesta ao observar que, durante o tratamento, ao atuar externamente sobre os rins, os ombros, a área dos gânglios linfáticos, as bochechas e o contorno das gengivas, logrei a cura completa de todos os pacientes.
+
+Em decorrência da piorreia, as gengivas se enfraquecem e os dentes amolecem, levando à sua extração, o que constitui outro grave equívoco. Os dentistas supõem que a causa do problema esteja nos próprios dentes, mas a verdade é exatamente o oposto: os dentes não são a origem da aflição. O amolecimento dentário ocorre devido ao acúmulo de toxinas em suas raízes. Portanto, para se obter a cura da piorreia, basta friccionar as gengivas todas as manhãs com uma escova de cerdas duras, a fim de expelir o máximo possível de pus sanguinolento, o que infalivelmente levará à recuperação. De modo análogo, a antiga prática de massagear as gengivas com sal na ponta dos dedos produz efeito idêntico.
+
+Abordemos, em seguida, a paralisia do nervo facial. Tal enfermidade se manifesta quando um dos lados dos lábios ou dos olhos se contrai, por vezes fazendo com que o globo ocular pareça projetar-se. A aparência torna-se de fato grotesca e, nos casos mais severos, a deformidade é penosa de se contemplar. Contudo, se deixada à própria sorte, a aflição geralmente se resolve por si mesma em algumas dezenas de dias ou em poucos meses. A despeito disso, a medicina recorre à eletroterapia, um procedimento prejudicial. A razão é simples: a causa dessa doença reside no enrijecimento de toxinas em um ou mais pontos da face, o que impede a contração e o relaxamento dos músculos. A eletroterapia, por sua vez, apenas agrava o quadro, pois solidifica ainda mais essas toxinas. Em contrapartida, por meio da terapia natural, as referidas toxinas são gradualmente eliminadas através de um lento processo de purificação — manifestado como secreção nasal, escarro e remela —, culminando na cura.
+
+Existe ainda a nevralgia facial, que se caracteriza por uma dor em um dos lados do rosto. Todavia, também neste caso, o sofrimento resulta do processo de purificação das toxinas solidificadas no local da dor, sendo, portanto, igualmente curável por meio da terapia natural.
+
+---
+
+# A Incomparável Eficácia do Johrei
+
+**Categoria:** shi | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 浄霊の偉効 未発表 | **Status:** Unpublished
+
+## A Incomparável Eficácia do Johrei
+
+É um fato inconteste que, ao conhecer o Johrei, o ser humano se liberta da apreensão com as enfermidades, e o relato a seguir constitui um exemplo elucidativo dessa verdade. A dermatose que acometia este paciente é uma enfermidade bastante comum na sociedade. Contudo, trata-se de uma moléstia que, mesmo com os recursos da medicina atual e as mais diversas terapias, jamais alcança a cura definitiva. Por essa razão, é incalculável o número de pessoas que padecem por longos e penosos anos com esse mal.
+
+No entanto, essa pessoa não apenas obteve a cura completa em meros três meses, como também, posteriormente, diversos males que afligiam seus familiares foram igualmente sanados. Em razão disso, a família inteira se rejubila, afirmando que seu lar se transformou em um paraíso. Diante de tais fatos, torna-se evidente que a magnitude deste poder salvador transcende por completo a compreensão da lógica humana.
+
+É deveras preocupante, e uma situação que não se pode observar passivamente, que em nosso mundo existam tantas pessoas que, por ojeriza, rejeitam um tratamento de magnitude tão sublime, taxando-o de mera superstição. Assemelham-se àqueles que, enquanto almejam o Paraíso, precipitam-se a passos largos pela senda que conduz ao inferno.
+
+---
+
+# O Despertar para a Realidade Espiritual
+
+**Categoria:** shi | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 序文 (霊界叢談） 自観叢書第3編 | **Status:** Published
+
+## O Despertar para a Realidade Espiritual
+
+Esta obra, que redigi buscando a máxima precisão, condensa os fenômenos do Mundo Espiritual que investiguei ao longo de mais de duas décadas, e asseguro que está isenta de qualquer artifício ou exagero.
+
+Embora se afirme que o saber e a inteligência humana tenham avançado nos dias de hoje, tal progresso restringe-se ao plano material. O desenvolvimento no âmbito metafísico, em contrapartida, tem sido extremamente moroso. O verdadeiro valor do progresso cultural reside, pois, no avanço harmônico e simultâneo de ambas as esferas. A razão pela qual a felicidade humana não acompanha a notável evolução da civilização reside precisamente nessa assimetria; trata-se, como mencionei, de um progresso claudicante. Em outras palavras, deve-se ao fato de apenas a cultura material ter se desenvolvido, enquanto a cultura espiritual permaneceu estagnada.
+
+Nesse sentido, almejo, por meio de um salto evolutivo na cultura espiritual, impelir a humanidade a um grande despertar. Todavia, os fenômenos espirituais são, por sua própria natureza, imperceptíveis aos cinco sentidos, o que acarreta enormes dificuldades para demonstrar sua existência. Contudo, uma vez que meu propósito não é postular o que é inexistente, mas sim revelar o que de fato existe, tenho a firme convicção de que é impossível não atingir tal objetivo.
+
+É por demais evidente que, ao crer nestes fenômenos espirituais, o ser humano se torna capaz de apreender o princípio da felicidade suprema. Portanto, independentemente do credo que se professe, sem um conhecimento profundo sobre a realidade espiritual, é impossível alcançar a verdadeira paz de espírito.
+
+A esse respeito, cumpre ponderar sobre um fato inegável: embora todos saibam que um dia hão de morrer, quase ninguém compreende o que sucede após a morte. Reflitamos: ainda que se viva uma vida longa, alcançando os setenta ou oitenta anos, que existência vã e efêmera seria a nossa se tudo terminasse aí?
+
+Essa percepção desoladora advém unicamente da ignorância sobre a vida que prossegue no Mundo Espiritual. Ao se obter uma compreensão profunda desse fato, tanto o viver quanto o morrer se tornam fontes de alegria, e o indivíduo pode, enfim, alcançar a felicidade perene.
+
+Foi com este propósito que redigi a presente obra.
+
+---
+
+# A Forja da Espada de Mestre
+
+**Categoria:** me | **Ano:** 昭和24(1949)年 | **Fonte:** 御神書 (宗教編)
+**Título Original:** 名刀を作る 出展不明 | **Status:** Published
+
+## A Forja da Espada de Mestre
+
+Antigamente, para se forjar uma espada de mestre, o metal era aquecido no fogo, malhado à martelo e mergulhado na água, em um ciclo que se repetia incessantemente. A isso se chama forja. O que considero verdadeiramente fascinante é que este mesmo princípio se aplica à existência humana.
+
+À medida que nossa Igreja se desenvolve desde sua fundação, com frequência nos vemos diante de críticas e louvores, somos submetidos a duros golpes, a provações escaldantes e a súbitos mergulhos em águas gélidas.
+
+Muitos me questionam sobre a razão de tais acontecimentos. Em resposta, apresento-lhes a analogia da espada de mestre, e a compreensão se torna imediata.
+
+Desde tempos imemoriais, aqueles que se dedicam a obras grandiosas invariavelmente enfrentam provações comparáveis às da forja. Sob o ponto de vista espiritual, isso ocorre porque Deus concede os maiores sofrimentos àqueles com as maiores missões. Portanto, em vez de lamentar, devemos nos regozijar diante de tais desafios.
+
+---
+
+# A Reforma da Classe Dominante
+
+**Categoria:** shi | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 支配階級の改心 | **Status:** Published
+
+## A Reforma da Classe Dominante
+
+As mazelas sociais e a infelicidade são, na sua totalidade, meras consequências, conforme explanei no ensinamento sobre o socorro meramente paliativo. O princípio é idêntico ao de um rio cujas águas se tornam turvas porque sua nascente está poluída. Portanto, para que a corrupção da sociedade seja sanada, é imprescindível que a classe alta, a quem cabe a liderança do povo, se purifique. Do contrário, seria o mesmo que esperar em vão por um milênio que as águas de um rio se limpem por si sós.
+
+Vemos ministros de Estado sendo detidos, escândalos incessantes nas assembleias municipais e provinciais, a prevaricação de educadores, a degeneração de religiosos... a lista de exemplos é infindável. Diante desse quadro, é natural que os esforços das entidades moralizadoras e as atividades das religiões estabelecidas se mostrem completamente infrutíferos.
+
+Com efeito, que os próprios criadores das causas do mal social se dediquem a erradicá-lo assemelha-se à atitude de um pai que, entregue ao adultério e à devassidão, prega lições de ética e moral a seu filho.
+
+É imperativo haver mais seriedade e retidão. Se o governo de fato almeja salvar as finanças do país neste momento de crise, deveria, em primeiro lugar, dar o exemplo, renunciando a uma parcela de seus próprios salários e ofertando-a à nação. Os mais abastados, por sua vez, poderiam tornar públicos seus lucros e destinar cerca da metade como fundo para a defesa nacional. E que tal se cada empresa, ao obter dividendos acima de certo patamar, oferecesse uma fração ao Estado para a cobertura do déficit?
+
+A busca por uma reforma eleitoral é louvável, todavia, recorrer apressadamente aos sacerdotes xintoístas para apoiar tal movimento constitui um remédio tardio e improvisado.
+
+A verdadeira solução reside, antes de tudo, em entronizar permanentemente no Gabinete o Espírito Divino de Amaterasu Omikami, prestando-Lhe reverência antes e depois das reuniões ministeriais e entoando-Lhe súplicas com o devido respeito. Indo além, o mesmo deveria ser feito em cada repartição pública, escola, empresa e fábrica, consagrando o Espírito da Divina Antepassada e realizando orações antes e depois do trabalho. Quão purificada a sociedade se tornaria com tais práticas! Assim, sem a necessidade de medidas como a reforma eleitoral, as eleições transcorreriam com absoluta lisura, disso não tenho a menor dúvida.
+
+Por conseguinte, a condição fundamental para eliminar a infelicidade e o crime da sociedade é a reforma do coração da classe dominante. Declaro categoricamente que, à parte dessa reforma, não existe outro caminho.
+
+---
+
+# As Diversas Esferas do Mundo Infernal
+
+**Categoria:** shi | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 地獄界の続き 自観叢書第3編 | **Status:** Published
+
+## As Diversas Esferas do Mundo Infernal
+
+A seguir, descreverei de forma sucinta as demais esferas do Mundo Infernal.
+
+O Reino da Cólera e da Luta, conhecido popularmente como o tormento que “incendeia a alma em fúria”, resulta da persistência, após a morte, de angústias nutridas em vida. Sentimentos como a ânsia de vingança após uma derrota ou a frustração excruciante por desejos insatisfeitos não se dissipam, e o espírito acaba por precipitar-se nessa dimensão. Aqueles que se encontram nesse estado podem, contudo, alcançar a salvação com relativa presteza por meio da fé, tanto no Mundo Material quanto no Mundo Espiritual.
+
+O Domínio da Luxúria, como o próprio nome indica, destina-se àqueles que se tornaram espectros da volúpia. Nele precipitam-se os homens que, em vida, trataram as mulheres como meros objetos de prazer, profanando sua dignidade sem qualquer remorso e arrastando inúmeras delas à desventura. No Mundo Infernal, esses homens são atormentados pelas almas das mulheres a quem enganaram e submeteram a terríveis sofrimentos. O tormento é de uma intensidade atroz, compelindo até o mais empedernido dos espíritos ao arrependimento. Ademais, a expiação não é simples, pois a duração e a severidade do sofrimento são proporcionais ao número de vítimas e à gravidade das faltas cometidas. Diante disso, é imperativo que os homens se abstenham de tais condutas, que sacrificam a felicidade feminina em prol do próprio deleite. Embora os pecados mencionados sejam mais frequentes entre os homens, é mister notar que também existem mulheres que incorrem em faltas semelhantes: mulheres que, movidas pelo prazer ou pela ambição, vendem a própria honra, praticam o adultério ou deliberadamente causam aflição aos homens. Elas, inevitavelmente, também decaem para o Domínio da Luxúria, onde padecem de grandes sofrimentos.
+
+O Inferno de Fogo Abrasador é o destino daqueles que cometeram o crime de incêndio premeditado ou que, por grave negligência, provocaram grandes catástrofes ígneas, ceifando vidas e destruindo patrimônios.
+
+No Inferno das Serpentes, o espírito é assediado por uma miríade de cobras, um tormento de indescritível agonia. Este suplício destina-se aos que, movidos pela cobiça, prejudicaram um grande número de pessoas. O ressentimento das vítimas materializa-se em serpentes que buscam vingança. É o caso de presidentes de grandes corporações ou diretores de bancos que, por meio de atos ilícitos, causam prejuízos a multidões; de políticos cuja má governança mergulha o povo em sofrimento atroz; ou ainda das almas vitimadas por guerras, cujo rancor se volta contra os seus instigadores.
+
+O Inferno das Formigas é reservado aos que cometeram o pecado da matança indiscriminada. Espíritos que, sem justificativa, tiraram a vida de insetos, pássaros e outros pequenos animais são atormentados por essas mesmas creatures, que se transformam em formigas. A esse respeito, relatei um episódio que me foi contado por uma testemunha ocular. Certo dia, essa pessoa observava uma serpente enrolada nos galhos de uma árvore quando um bando de pardais se aproximou e começou a bicá-la incessantemente. Finalmente, a serpente, vencida, despencou e morreu. O corpo foi deixado no local e, passados alguns dias, transformou-se por completo em uma miríade de formigas. Essas formigas, em um só exército, subiram pelo tronco da árvore e atacaram os filhotes de pardal que, ainda incapazes de voar, se encontravam no ninho. Como era de se esperar, nenhum dos filhotes sobreviveu. A testemunha concluiu seu relato afirmando ter compreendido, naquele momento, a terrível força que reside no rancor de uma serpente.
+
+O Inferno do Enxame consiste no suplício de ser incessantemente ferroado por inúmeras abelhas. Para ilustrar, cito o seguinte relato. Havia, entre minhas seguidoras, uma cabeleireira cuja amiga foi, certa vez, acometida por uma possessão espiritual. Recorreram a um religioso versado em investigações espirituais, que desvendou a origem do fenômeno. Tratava-se do espírito de uma gueixa, antiga cliente da mulher possuída, que havia falecido e caído no Inferno do Enxame. Em seu desespero, buscava auxílio para ser salva. O espírito a escolhera por saber que ela era fiel a uma determinada religião, à qual se apegava em busca de socorro. Segundo o relato do espírito, ela fora confinada em uma cela do tamanho de um corpo humano, onde enxames com centenas de abelhas a atacavam por toda parte, sem trégua. A dor era insuportável, e a alma suplicava por libertação. Seu pecado, em vida, fora o de, como gueixa, ter causado grande sofrimento a muitos homens. As esposas desses homens, após chegarem ao Mundo Espiritual, transformaram-se em abelhas e, movidas pelo ciúme, passaram a exercer sua vingança.
+
+Ademais, no Mundo Infernal, tal como narram as lendas, existem carrascos — demônios vermelhos e azuis — que portam bastões de ferro eriçados de espinhos. Com eles, golpeiam os espíritos que transgridem as regras ou oferecem resistência. Diz-se que essa dor supera em muito a de um golpe no corpo físico. A razão para tal é que, no corpo carnal, os nervos são protegidos pela pele e pelos músculos; no estado espiritual, contudo, o impacto atinge diretamente a essência nervosa, tornando o sofrimento verdadeiramente insuportável. Outro tormento frequentemente relatado pelas almas do inferno é a frustração de não poderem recorrer ao suicídio, por mais atroz que seja a sua agonia. Naturalmente, uma vez que já estão mortas, não lhes é possível morrer novamente. Nesse aspecto, a existência no Mundo Espiritual revela-se particularmente implacável.
+
+Diz-se, ainda, que para se locomoverem pelo Mundo Infernal, os condenados viajam em carros de fogo. A ascensão gradual de um espírito do inferno depende de dois fatores: seu próprio esforço em se aprimorar e as preces e oferendas de seus descendentes. Portanto, é um dever dos descendentes jamais negligenciar os ofícios em memória de seus antepassados.
+
+Certa vez, após salvar um espírito e oficiar sua pacificação, fui por ele visitado em meu próprio corpo. Ele me disse: “Vim hoje para agradecer e fazer um pedido. Graças ao senhor, fui salvo e elevado ao Paraíso, e minha felicidade é imensa. Certamente o senhor pode compreender a alegria que sinto”. De fato, no momento em que o espírito se manifestou, uma sensação de júbilo indescritível tomou conta de mim. Seu pedido, porém, era surpreendente: “Rogo-lhe que peça a Deus para que eu jamais precise retornar à condição humana”. Inquiri sobre o motivo de tal desejo, ao que ele respondeu: “O Paraíso é um mundo de genuína alegria, livre das preocupações com o sustento. Em contraste, o mundo terreno é um lugar onde, por mais que se trabalhe, mal se consegue o necessário para viver. Estou farto de tudo isso”.
+
+Essa experiência revela que a jornada para o Mundo Espiritual não é, de todo, algo a se temer; a morte pode até mesmo se tornar um evento auspicioso. Contudo, para que isso ocorra, é fundamental que a pessoa, ainda em vida, acumule méritos e virtudes, conquistando assim o direito de ingressar no Reino do Céu.
+
+A seguir, delinearei em linhas gerais a condição dos espíritos não humanos.
+
+---
+
+# A Verdadeira Natureza das Doenças Renais e do Diabetes
+
+**Categoria:** shi | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 腎臓及び糖尿病 ・病患と医学の誤謬三 | **Status:** Published
+
+## A Verdadeira Natureza das Doenças Renais e do Diabetes
+
+Prosseguindo, entre as enfermidades mais comuns, destaca-se a doença renal. Ela se manifesta nas formas aguda e crônica, embora a grande maioria dos casos diagnosticados na sociedade corresponda à modalidade crônica, sendo a aguda de ocorrência raríssima. Os sintomas da forma aguda incluem febre alta, próxima dos quarenta graus, e dor lancinante na região dos rins, seja em ambos os lados ou em apenas um. Nesse quadro, a intensidade da dor impossibilita qualquer movimento do quadril, e muitos pacientes chegam a curvar o corpo, gemendo de dor. Adicionalmente, uma quantidade expressiva de proteína é expelida juntamente com a urina. Contudo, mesmo por meio da recuperação natural, a cura se processa de maneira satisfatória em uma ou duas semanas.
+
+Já os sintomas da doença renal crônica, como é de conhecimento geral, consistem na eliminação de proteína na urina, acompanhada de edemas, dores lombares e sensação de fadiga. Nos casos em que há edema, o volume urinário tende a diminuir. A medicina convencional interpreta a progressão da doença em proporção direta à quantidade de proteína eliminada. Nesse sentido, buscando zerar a presença de proteína, os médicos proíbem a ingestão de sal, recomendam o consumo de grandes volumes de leite e prescrevem diuréticos. Todavia, todos esses métodos são completamente equivocados. A seguir, exporei o princípio que descobri.
+
+A razão pela qual a proteína é eliminada na urina em quadros de doença renal permanece, ao que parece, um mistério para a medicina. O que seria, então, a proteína? Na realidade, trata-se de toxinas medicamentosas ou uremia que se solidificam na região dorsal, sobre os rins. Por meio de uma febrícula – tão sutil que não é registrada pelo termômetro, mas perceptível ao toque da palma da mão –, essas toxinas se dissolvem, transformando-se em uma substância líquida que se infiltra nos rins e é expelida com a urina. Este é, evidentemente, um processo de purificação. Portanto, quanto maior a eliminação de proteína, maior o alívio da enfermidade.
+
+A prova disso se manifesta quando trato pacientes com essa condição. Ao aplicar o tratamento para dissolver as toxinas acumuladas, surge uma febrícula e, temporariamente, a eliminação de proteína aumenta de forma considerável. Gradualmente, porém, a quantidade diminui até que a urina se torna completamente isenta de proteína, selando a cura completa. Todos os pacientes que tratei de doenças renais seguiram essa mesma trajetória rumo à recuperação integral.
+
+Contudo, há um ponto que exige máxima atenção: a existência de doença renal mesmo em quadros de ausência de proteína na urina. Como os médicos determinam a presença da enfermidade unicamente pela análise proteica, eles concluem que, sem proteína, não há doença. Consequentemente, já ouvi inúmeros relatos de casos em que, diante de um paciente sem proteína na urina mas com edemas, a causa do inchaço permanece um enigma, impedindo um diagnóstico preciso. Esta é, certamente, uma situação com a qual os próprios médicos se deparam com frequência.
+
+Qual seria, então, a natureza da doença renal sem presença de proteína? A resposta reside na ausência do processo de purificação das toxinas solidificadas sobre os rins. Por essa razão, um paciente com urina isenta de proteína encontra-se, sem dúvida, em uma condição mais grave do que aquele que a elimina. A área afetada, nesse tipo de quadro, está invariavelmente sem febre. É justamente essa ausência de febre que impede a dissolução das toxinas solidificadas e, por conseguinte, a eliminação de proteína.
+
+Cumpre ressaltar, neste ponto, os efeitos nefastos causados por essas toxinas solidificadas na região renal. Elas pressionam os rins, levando-os a atrofiar, o que resulta no quadro conhecido como rim atrofiado. Em virtude dessa atrofia, a função renal de processar a urina fica comprometida. O descarte completo da urina torna-se difícil, e parte dela acaba por se infiltrar para fora dos rins. Esse excesso de urina, por sua vez, acumula-se e se solidifica em diversas partes do corpo. O local de maior acúmulo são os ombros, originando a popular “rigidez nos ombros”. Também é comum seu acúmulo na região do peritônio, o que se torna causa de peritonite, apendicite, doenças gástricas, asma, pleurisia, da chamada tuberculose pulmonar, linfadenite, piorreia, torcicolo, doenças oculares e cerebrais. Na verdade, esse fenômeno está na origem de toda sorte de enfermidades.
+
+Há notícias de que um estudioso na Alemanha defende a teoria de que todas as doenças provêm do ácido úrico, o que encerra uma verdade parcial. Por isso, a atrofia renal deve ser curada por completo, e como a cura se dá unicamente pela eliminação da proteína, sua expulsão é o fator mais crucial.
+
+A medicina, por desconhecer esse princípio, teme a eliminação de proteína. Por essa razão, proíbe o sal, mas o corpo humano enfraquece notavelmente sem ele. O consumo de leite e a terapia do repouso também agravam a debilidade. Quando esses três métodos são aplicados, o paciente se enfraquece a tal ponto que o processo de purificação é interrompido. A febrícula na região renal cessa, a urina se torna isenta de proteína, e isso é erroneamente interpretado como cura. Todavia, por não se tratar de uma cura verdadeira, uma vez que alguém desenvolve a doença renal, ela se torna crônica, seguindo um curso de altos e baixos, no qual a recuperação plena é um evento raro. Com base nesse princípio, para se alcançar uma cura rápida, o ideal é praticar exercícios vigorosos, provocar febre alta e eliminar grande quantidade de proteína. Esse é o melhor método de tratamento e, naturalmente, a alimentação pode ser a de costume.
+
+Passemos agora à tuberculose renal. Trata-se de uma condição extremamente rara, sendo os erros de diagnóstico mais frequentes que a própria doença. Diante de um paciente com essa suspeita, a medicina recomenda a extração de um dos rins. Contudo, mesmo que a cirurgia tenha um prognóstico favorável, a vitalidade geral do indivíduo diminui, tornando difícil sua reintegração às atividades de uma pessoa comum. Aparentemente, os médicos baseiam o diagnóstico de tuberculose na presença de sangue na urina.
+
+Minha experiência, no entanto, demonstra que a hematúria pode ter outras causas, não relacionadas aos rins. Qual seria a explicação? Na maioria das vezes, a causa é uma pielonefrite que gera uma febre baixa ou moderada na parte superior das glândulas inguinais. Essa febre aquece constantemente a região dos ureteres, fazendo com que a urina se torne quente ao descer por eles. Ao passar pela uretra, essa urina quente provoca queimaduras na mucosa de pessoas mais sensíveis. É da lesão resultante dessa queimadura que o sangue se infiltra, gerando a hematúria. Ao dissolvermos as toxinas na área febril mencionada, a cura completa geralmente ocorre de forma fácil, em poucos dias.
+
+Ressalvo que, em casos raros, existe de fato a tuberculose renal autêntica. Nessa condição, a dor se inicia nos rins, migra para a bexiga e, a partir da próstata, pode chegar até os testículos. Trata-se de uma modalidade maligna, de extremo sofrimento e de tratamento dificílimo.
+
+Abordemos, por fim, o diabetes. A medicina o considera uma doença do pâncreas. A causa, segundo ela, seria a insuficiência de uma substância produzida por esse órgão, a insulina. O tratamento consiste em injeções de insulina, que produzem um efeito considerável por um tempo, mas não representam uma cura fundamental, levando a recidivas frequentes e tornando a recuperação plena impossível. Para essa doença, a medicina impõe restrições alimentares extremas. Além da óbvia proibição do açúcar, prescreve-se o consumo de alimentos variados, o que acarreta grande sofrimento e um fardo financeiro considerável para o paciente. Ademais, a restrição se estende até ao consumo de arroz, o que é um transtorno imenso para o povo japonês.
+
+Segundo minhas pesquisas, essa doença ocorre porque um acúmulo de toxinas pressiona o pâncreas e a parte inferior do fígado. Ao dissolvermos essas toxinas, a cura completa é alcançada. Durante o meu tratamento, o paciente se recupera com uma alimentação comum, não havendo necessidade de qualquer restrição. Recentemente, ouve-se dizer que alguns médicos já estão permitindo uma dieta normal, o que demonstra que eles estão despertando para a verdade.
+
+---
+
+# As Religiões Novas e as Tradicionais
+
+**Categoria:** shi | **Ano:** 昭和24(1949)年3月30日 | **Fonte:** -
+**Título Original:** 宗教の新店と老舖 | **Status:** Published
+
+## As Religiões Novas e as Tradicionais
+
+Ao contemplar atentamente a sociedade, percebo que no comércio há duas espécies de estabelecimentos: as lojas novas e as tradicionais. Como é de conhecimento geral, as lojas novas, impulsionadas pelo anseio de prosperar, irradiam um vigor contagiante. Contudo, carecem ainda de credibilidade, pois o cliente, naturalmente, questiona-se sobre a excelência dos produtos e a justeza dos preços. Por conseguinte, suas compras tendem a ser meramente experimentais ou para suprir uma necessidade imediata.
+
+Em contrapartida, os estabelecimentos tradicionais desfrutam da confiança absoluta de sua clientela. A certeza de que “o produto de tal loja, em tal bairro, é garantia de qualidade” é inabalável. Em vez de se arriscarem em um negócio novo e incerto, os consumidores não hesitam em percorrer distâncias maiores para comprar com tranquilidade, especialmente quando se trata de aquisições mais vultosas. Este fenômeno é, inegavelmente, fruto do renome consolidado ao longo de muitos anos de dedicação. Diante disso, a realidade é que as lojas novas precisam empenhar um esforço sobre-humano para atrair para si uma parcela, ainda que pequena, dos clientes fiéis às casas tradicionais. Tal fato é de domínio público e dispensa maiores explanações.
+
+O que torna essa analogia fascinante, todavia, é sua perfeita aplicação ao universo da religião. Como sabem, quando se trata de uma religião nova, a situação é muito mais severa do que a de um simples comerciante. De antemão, ela é rotulada como superstição, heresia ou estelionato espiritual, uma realidade verdadeiramente desoladora. Decerto, muitas novas religiões podem se enquadrar nessas descrições, mas é imperativo que se saiba que, entre elas, existem raras e autênticas joias.
+
+Nesse sentido, impõe-se uma reflexão: todas as religiões hoje consagradas como tradicionais foram, em sua origem, “estabelecimentos novos”. Foi somente com o transcorrer dos anos que elas se consolidaram e alcançaram o status de que hoje desfrutam. Da mesma forma, uma religião recém-fundada, desde que se dedique com afinco, ofereça ensinamentos de valor e demonstre sua veracidade, poderá um dia tornar-se tradicional. Portanto, julgar indiscriminadamente todas as novas religiões como fraudulentas ou heréticas é, à luz do que foi exposto, um equívoco manifesto.
+
+Pelas razões apresentadas, creio que a postura correta para aqueles que se colocam na posição de críticos seria examinar profundamente as novas religiões, a fim de discernir a verdade da falsidade. Somente após formarem um juízo fundamentado nos fatos, deveriam eles tomar da pena para se manifestar. A meu ver, esta é a única atitude verdadeiramente íntegra e responsável.
+
+---
+
+# O Terror da Medicina Supersticiosa
+
+**Categoria:** me | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 迷信医学の恐ろしさ 未発表 | **Status:** Unpublished
+
+## O Terror da Medicina Supersticiosa
+
+Conforme sempre afirmo, a dimensão aterradora do sofrimento infligido pela medicina supersticiosa torna-se evidente ao observarmos o exemplo do paciente a que me referi anteriormente. Vítimas dessa natureza contam-se aos milhares, quiçá dezenas de milhares, somente no Japão de hoje. Se a isto se pode chamar de progresso da medicina, o que será da humanidade se ela avançar ainda mais por esse caminho? A simples cogitação de tal cenário é tão pavorosa que me emudece.
+
+No dia em que o mundo inteiro tomar conhecimento desta terrível transgressão, certamente haverá uma comoção sem precedentes. Todavia, esse dia não está em um futuro distante. Arrisco-me a dizer que ele chegará antes do que se imagina.
+
+Isso porque Deus, com o desígnio de revelar esta verdade, primeiramente me outorgou Sua Ordem e vem manifestando milagres profusamente, a fim de que todos a compreendam. Quando comparados a esta questão, os danos de uma guerra, por mais devastadores que sejam, são limitados a um período de tempo e, portanto, de proporções conhecidas. O problema da medicina, contudo, é de uma magnitude incomensurável, pois acarreta um sofrimento eterno para a humanidade. Nesse sentido, compreende-se claramente que a missão de nossa Igreja, ao desvelar esta realidade, constitui, na mais pura acepção da palavra, a Obra de Salvação do Mundo.
+
+---
+
+# Imunidade e Resistência
+
+**Categoria:** me | **Ano:** 昭和26(1951)年5月9日 | **Fonte:** Eikou
+**Título Original:** 免疫と抵抗力 | **Status:** Published
+
+## Imunidade e Resistência
+
+A ciência médica postula que, ao se recuperar de doenças infecciosas como o sarampo, a febre tifoide ou a disenteria, o indivíduo adquire uma imunidade que impede a reincidência da enfermidade. Tal fenômeno é atribuído ao desenvolvimento de uma força de resistência contra o agente patogênico específico. Contudo, sob nossa ótica, essa interpretação constitui um equívoco fundamental. Nesse sentido, passarei a expor a elucidação segundo a Medicina Divina.
+
+Em sua essência, as doenças infecciosas constituem um processo destinado a eliminar as toxinas malignas presentes na corrente sanguínea humana. Trata-se de uma ação purificadora natural do sangue, uma autêntica bênção de Deus. O fato de algumas pessoas contraírem a doença após a invasão de germes, enquanto outras permanecem ilesas, deve-se precisamente à quantidade de toxinas que possuem. Naturalmente, aquele que adoece é portador de um elevado acúmulo de toxinas. Uma vez que os germes penetram na corrente sanguínea, eles imediatamente começam a se alimentar dessas toxinas, que são seu sustento, e se multiplicam em velocidade vertiginosa.
+
+Ocorre, todavia, um fato providencial: ao mesmo tempo em que se multiplicam, os germes que já cumpriram sua função perecem sucessivamente. A cura da doença se concretiza quando a totalidade das toxinas é consumida por esse processo. Consequentemente, a pessoa se torna um indivíduo de sangue purificado e, por essa razão, desaparece o risco de contrair novamente a mesma enfermidade. A este estado denominamos imunidade. Esta é a verdadeira natureza do fenômeno. A teoria médica, que atribui a imunidade ao desenvolvimento de resistência, não passa de uma conjectura, elaborada a partir da mera observação dos resultados.
+
+A prova irrefutável disso reside no fato de que, invariavelmente, após se recuperar de uma doença infecciosa, a pessoa desfruta de uma saúde mais robusta do que antes. Se este princípio fosse compreendido em sua totalidade, as doenças infecciosas deixariam de ser temidas; ao contrário, deveriam ser até mesmo acolhidas com gratidão.
+
+Portanto, quando o quadro de um paciente se agrava ou o leva ao óbito, deve-se considerar que isso ocorre pela aplicação de tratamentos que contrariam frontalmente este princípio divino.
+
+---
+
+# A Vertigem e a Insônia
+
+**Categoria:** me | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 眩暈及び不眠 | **Status:** Published
+
+## A Vertigem e a Insônia
+
+A vertigem é uma aflição bastante comum, mas que a medicina considera de origem indeterminada. Todavia, sua causa é sobremaneira simples. O motivo mais frequente reside em um acúmulo de toxinas solidificadas na região direita do bulbo raquidiano, o qual comprime os vasos sanguíneos responsáveis pela irrigação dos globos oculares. Uma vez que essa compressão ocorre de maneira intermitente, o nervo óptico é levado a oscilar. Há ainda outra causa, observada durante episódios de febre alta, na qual a vertigem resulta do processo de purificação de toxinas acumuladas nas proximidades dos globos oculares. O princípio é análogo ao que se experimenta em estado de embriaguez ou quando se encara diretamente o fogo de um aquecedor.
+
+A causa da insônia, por sua vez, é praticamente idêntica à da vertigem. Ela decorre da compressão vascular provocada pelo referido acúmulo de toxinas na região direita do bulbo raquidiano, o que acaba por gerar uma espécie de anemia cerebral. Consequentemente, manifesta-se um quadro de hipersensibilidade nervosa, que leva o indivíduo a um fluxo incessante de pensamentos, um após o outro. Ademais, existem casos em que a insônia se origina da purificação de toxinas localizadas nas porções frontal e central do cérebro.
+
+---
+
+# A Prova Irrefutável do Milagre
+
+**Categoria:** me | **Ano:** 昭和28(1953)年2月18日 | **Fonte:** Eikou
+**Título Original:** 救世教奇蹟集 序文 （第１稿） | **Status:** Published
+
+## A Prova Irrefutável do Milagre
+
+Temos a satisfação de anunciar a futura publicação da obra intitulada *Coletânea de Milagres da Sekaikyuseikyo*. Como prévia, apresentamos nesta coluna o seu prefácio.
+
+**Prefácio da Coletânea de Milagres da Sekaikyuseikyo**
+
+Ao longo da história, inúmeras religiões surgiram e, ao cumprirem suas respectivas missões, prestaram contribuições relevantes à sociedade. Contudo, analisando-as com isenção, é forçoso reconhecer que não manifestaram um poder de salvação verdadeiramente expressivo. Acima de tudo, praticamente não existiu uma religião com valor suficiente para que lhe pudéssemos depositar confiança absoluta sem qualquer arrependimento. A prova disso é que, se uma religião tão magnífica tivesse surgido, todas as outras teriam convergido para ela, e não teríamos, como hoje, um número incontável de seitas e doutrinas. Com todo o respeito, não passam de uma equiparação de medianias.
+
+Todavia, se desde o princípio o mundo não tivesse conhecido a existência da religião, a situação seria calamitosa; a humanidade poderia ter se transformado em um mundo de feras. O mérito das religiões em controlar a cobiça humana, refrear a degeneração, inspirar esperança aos bons e preservar a ordem social é, de fato, grandioso e digno dos mais altos louvores. Apesar disso, o ideal de um paraíso celestial na Terra permanece como uma miragem distante, e todos hão de concordar que a força das religiões estabelecidas é manifestamente incapaz de concretizá-lo. Em suma, seu mérito reside em ter evitado a completa infernização do mundo, mas carecem de uma força proativa para ir além disso.
+
+Diante do exposto, torna-se uma consequência lógica e manifesta a necessidade do surgimento de algo de natureza suprarreligiosa, dotado de um poder superior. Tal advento não apenas corresponde à esperança de toda a humanidade, como também podemos sentir que o momento propício para sua manifestação se aproxima. Nesse sentido, é imperativo mencionar o Plano Divino do Deus Supremo, o qual, embora invisível aos olhos humanos, avança de forma sólida e contínua no plano espiritual. Naturalmente, em um futuro próximo, esse progresso se tornará visível a todos. Fui escolhido como o responsável por esta magnânima obra, e nossa religião, a Sekaikyuseikyo, foi fundada como o instrumento para sua realização. Compreendo que, por se tratar de um feito sem precedentes, possa ser difícil acreditar. No entanto, mesmo as maiores dúvidas se dissipam diante da evidência material, e ninguém pode negar os fatos. Essa evidência é, precisamente, o milagre singular de nossa religião.
+
+Cem argumentos não se equiparam a um único fato, e os maravilhosos milagres manifestados pela Sekaikyuseikyo são a personificação dessa verdade. Não seria exagero afirmar que, em toda a história, jamais existiu uma religião tão fértil em milagres. Aquele que tiver um único contato com nossos ensinamentos compreenderá isso de imediato. Naturalmente, esta é a prova máxima da grandiosidade do poder de Deus. Observando o mundo até os dias de hoje, a história revela que divindades de todos os tipos concederam graças na medida de seu poder. Contudo, essas manifestações sempre tiveram um limite, e podemos afirmar que não houve uma única religião capaz de proporcionar um estado de verdadeira paz de espírito e segurança existencial. Assim como há uma hierarquia entre os deuses, com os de maior proeminência possuindo um poder correspondente, a abundância e a magnificência dos milagres em nossa religião atestam a sublime envergadura da Divindade que a rege. Por conseguinte, a felicidade desfrutada por nossos fiéis é igualmente grandiosa. Milagres menores ou comuns são tão frequentes que aqueles que deixariam o público em geral estarrecido, nossos membros consideram-nos ocorrências do dia a dia. Com efeito, são tantos os fenômenos que transcendem a lógica que nos deixam simplesmente atônitos, e seria impossível enumerá-los.
+
+Permitam-me explicar por que os milagres se manifestam. A mente do homem moderno é moldada pelo academicismo e por conceitos tradicionais. Contudo, as pessoas não se dão conta da grande superstição que impera em uma área crucial como a medicina, à qual devotam confiança absoluta, a ponto de tê-la convertido em senso comum. Em contrapartida, através do nosso Johrei, doentes desenganados por grandes hospitais e renomados doutores, considerados absolutamente incuráveis e que apenas aguardavam a morte, obtêm resultados que se assemelham a uma ressurreição. Diante de tais fatos, só lhes resta curvar a cabeça em assombro. Há ainda outro ponto: nossas publicações expõem de forma contundente os pontos cegos da medicina, tratando-a como uma existência negativa. Apesar disso, passados mais de dez anos, o fato de que, até hoje, nenhum especialista tenha apresentado uma única refutação ou questionamento, nos parece sumamente incompreensível.
+
+Como se pode depreender do que foi exposto, é impossível justificar racionalmente os milagres de nossa religião. Diante dos fatos, até mesmo os mais céticos são forçados a render-se. Na realidade, porém, a verdadeira lei do universo é que não existem milagres; aquilo que parece ilógico apenas o é porque a lógica utilizada está equivocada. Tratando-se de uma lógica forjada pela sabedoria e pela ciência humanas, plenas de imperfeições, tal equívoco é inevitável. Portanto, no futuro, quando a ciência alcançar um grau de desenvolvimento muito superior, a palavra "milagre" certamente desaparecerá. Ademais, como os milagres de nossa religião emanam integralmente do poder do Espírito Divino, para os ateus, a compreensão torna-se ainda mais inalcançável. Assim, tudo o que a razão não consegue explicar é convenientemente rotulado com a palavra "milagre".
+
+Por essas razões, nossa vida e nosso trabalho, tanto no presente quanto no futuro, transcorrem com uma fluidez admirável, impulsionados por uma sucessão de milagres. Chegamos ao ponto, por vezes, de até mesmo antecipar a ocorrência de um milagre. Embora em raras ocasiões ele possa não se concretizar no momento esperado, frequentemente, o adiamento resulta em um milagre de proporções ainda maiores. Desse modo, tudo se desenrola de forma muito mais favorável do que o previsto, perigos são evitados e situações complexas se resolvem milagrosamente, o que nos permite viver em um estado de verdadeira paz de espírito e segurança existencial. Nós, de fato, desfrutamos de uma vida alicerçada em milagres.
+
+Deixando a teoria de lado, seria lamentável permitir que os registros dos inúmeros milagres ocorridos em nossa religião caíssem no esquecimento. Decidimos, portanto, compilá-los em um único volume, que resultou nesta obra. Exorto os leitores a que leiam e reflitam profundamente sobre estes fatos vivos, pois, ao fazê-lo, terão dado o primeiro passo em direção à felicidade.
+
+---
+
+# A Sabedoria na Alimentação
+
+**Categoria:** shi | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
+**Título Original:** 八、食餌の方法 | **Status:** Unknown
+
+## A Sabedoria na Alimentação
+
+Discorrer sobre um método de alimentação é, em si, um verdadeiro disparate; não há método nem firula alguma. Bastaria comer com seus utensílios quando se tem fome. No entanto, com o avanço da cultura em nossos dias, surgiram inúmeros equívocos a esse respeito, o que me leva a expor o verdadeiro modo de se alimentar.
+
+Comer porque se tem fome é a verdade primordial; contudo, hoje não é mais assim. Multiplicam-se as pessoas que se forçam a comer sem apetite, transformando alimentos saborosos em algo desagradável. É igualmente surpreendente o número de indivíduos ditos “cultos” que, em uma inversão paradoxal, privam-se do que desejam para se obrigarem a consumir o que lhes é repulsivo.
+
+A rigor, não há erro maior do que predeterminar os horários das três refeições diárias, a não ser, talvez, o de fixar a quantidade de alimento a ser consumida. Basta uma simples reflexão para compreender a questão: o tempo de digestão dos mais variados alimentos jamais é constante; cada um possui um ritmo distinto. Alguns são processados em três horas, enquanto outros exigem mais de cinco. Portanto, ao estabelecer intervalos fixos entre as refeições, é natural que ora se sinta fome em demasia, ora fome de menos. Quando se está faminto, ótimo. O problema reside em ser obrigado a comer apenas porque o horário chegou, mesmo sem apetite, o que corresponde exatamente à situação que mencionei: comer contra a própria vontade. Da mesma forma, não seria mais natural e racional que a quantidade de alimento ingerida fosse maior quando a fome é intensa e menor quando não o é? A lógica é a mesma que nos leva a vestir um casaco e nos aquecer junto ao fogo no frio, e a usar uma veste leve e beber água gelada no calor. Assim, percebe-se que nada na vida pode ser rigidamente estabelecido; a própria tentativa de fixar regras imutáveis é um equívoco. Diante disso, quão equivocada se revela a orientação médica atual que preconiza horários e porções definidos?
+
+Todavia, para aqueles que, como os assalariados, não podem se dar ao luxo de ter horários irregulares, a única alternativa é, ao menos, flexibilizar as porções. Contudo, garanto que todos aqueles cuja situação lhes permita seguir meus preceitos desfrutarão de um estômago mais saudável e de um notável incremento em sua saúde.
+
+Em seguida, observo que as pessoas de hoje cometem um erro crasso no que tange aos alimentos. Elas tendem a evitar o que lhes apetece e a se forçar a ingerir o que lhes desagrada, baseando-se em noções sobre o que é “remédio” ou “veneno”. Pior ainda, muitas vezes essas crenças estão completamente desprovidas de fundamento. Na sua origem, todos os alimentos foram criados por Deus para nutrir o ser humano, e para tal, Ele lhes conferiu os mais diversos elementos necessários. Esses elementos se manifestam em diferentes formas e sabores. Sendo assim, não cabe ao homem determinar arbitrariamente o que é benéfico e o que é nocivo. Em verdade, o alimento que se deseja em determinado momento é precisamente aquele de que o corpo necessita, tornando-se, para aquela pessoa, o remédio daquela ocasião. É como desejar água quando se tem sede, um sinal de que o corpo carece de hidratação. Por outro lado, o que não se tem vontade de comer ou se considera insípido é simplesmente algo de que o corpo não precisa. Ingerir tal alimento à força o transformará em veneno, jamais em remédio. Portanto, o método ideal de alimentação consiste em comer o que se deseja, quando se deseja e na quantidade desejada. Ao menos os doentes deveriam se permitir seguir este princípio.
+
+Passemos agora à questão da mastigação. A crença popular, compartilhada pela maioria, de que quanto mais se mastiga, melhor, também está incorreta. Sobre isso, realizei um experimento pessoal há mais de uma década. Havia, na época, um americano chamado Fletcher, criador do “Fletcherismo”, um método de alimentação que preconizava mastigar o alimento até que perdesse a forma e se tornasse uma pasta. Essa prática gozou de grande notoriedade em seu tempo, e decidi segui-la por um mês. No início, os resultados pareceram excelentes, mas, com o passar dos dias, comecei a sentir meu estômago enfraquecer gradualmente e, por conseguinte, uma certa debilidade no corpo. Compreendendo que aquilo não me fazia bem, retornei ao meu método anterior e, de imediato, recuperei o vigor. Essa experiência me ensinou que a mastigação excessiva, ao contrário do que se pensa, debilita o estômago e constitui um erro grave. Qual seria, então, o ponto ideal? A minha conclusão é que mastigar o alimento apenas pela metade é o mais benéfico. Seguindo essa prática, mantenho meu sistema gastrointestinal em excelente estado de saúde.
+
+A título de exemplo, mencionarei alguns alimentos. No verão, consumo em abundância berinjela em conserva e edamame. A berinjela provoca uma notável expectoração, pois possui a propriedade de purificar o organismo. Deus fez com que esse vegetal frutificasse em grande quantidade justamente para que as pessoas o consumissem amplamente. O edamame, por sua vez, é uma vagem típica do verão, igualmente concedida por Deus para ser consumida em fartura nessa estação. Já no outono, o ideal é comer o máximo possível de caquis. Diz-se que o caqui “esfria” o corpo, mas isso é um equívoco. O que ele faz, na verdade, é uma lavagem interna, e por essa razão provoca um aumento no volume de urina.
+
+(Nota) Fletcherismo: Proposta feita em 1899 pelo comerciante americano Horace Fletcher, que se resumia em “mastigue bem os alimentos”. Fletcher era tão obeso que tivera seu pedido de seguro de vida negado. Motivado por isso, ele desenvolveu um método de saúde centrado na mastigação prolongada para reduzir sua ingestão calórica a cerca de 1.600 calorias. Na década de 1930, devido à situação alimentar do Japão na época, “a importância de mastigar bem” tornou-se um lema nacional e ganhou imensa popularidade, embora sua origem fosse apenas um método para prevenção da obesidade.
+
+---
+
+# A Necessária Elevação da Arte Poética
+
+**Categoria:** me | **Ano:** 昭和8(1933)年5月 | **Fonte:** 松風
+**Título Original:** 明光調 ・巻頭言 | **Status:** Published
+
+## A Necessária Elevação da Arte Poética
+
+Com o propósito de perscrutar as tendências do cenário poético contemporâneo, dediquei-me, desde o ano passado, a examinar dezenas de milhares de poemas publicados em incontáveis revistas especializadas. Embora tenha encontrado um número considerável de obras compostas com notável destreza e apurada técnica, as quais me causaram admiração, percebi, no conjunto, uma carência deplorável. Falta-lhes nobreza de espírito; ignora-se a envergadura da alma em favor de um apego excessivo ao virtuosismo técnico.
+
+Contudo, em meio a essa paisagem, apenas três mestres verdadeiramente cativaram meu apreço. São eles: Onoue Shibafune, por sua nobreza sublime e inconfundível; Maeda Yugure, por sua, por assim dizer, densidade expressiva; e Oyama Tokujiro, por seu desprendimento transcendental.
+
+É nesse sentido que despertei em mim o veemente desejo de atuar. Anseio por infundir no cenário poético atual, tão eivado de vulgaridade, o estilo característico da Sociedade Poética Meiko, nossa matriz. Que sua essência luminosa, sua fragrância sumamente refinada e sua substância abundante possam servir como um bálsamo revigorante para a arte.
+
+---
+
+# A Causa da Vertigem e da Insônia
+
+**Categoria:** me | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 眩暈及び不眠症 | **Status:** Published
+
+## A Causa da Vertigem e da Insônia
+
+A vertigem é uma enfermidade de grande incidência, todavia, é considerada pela medicina uma condição de causa totalmente desconhecida. Contudo, sua origem é, na verdade, notavelmente simples e clara.
+
+A vertigem se origina de duas causas. A primeira reside na existência de nódulos de toxinas localizados na região postero-cervical direita, nas proximidades da medula oblonga. Tais nódulos exercem pressão sobre os vasos sanguíneos que irrigam os globos oculares. O ato de enxergar, em essência, é uma função do nervo óptico, cuja energia para operar provém do fluxo sanguíneo que o nutre ininterruptamente. Contudo, quando os vasos responsáveis por essa irrigação são comprimidos pelos nódulos de toxinas, o volume de sangue diminui. Nesse exato instante de redução do fluxo sanguíneo, o nervo óptico enfraquece, resultando em um momentâneo desvanecimento da visão.
+
+A solidificação desses nódulos de toxinas é intensificada pelo processo de purificação primária. Como essa ação purificadora se dá de maneira inconstante, a acuidade visual oscila a cada vez que ela ocorre, ora enfraquecendo, ora se restabelecendo. É precisamente essa alternância momentânea e intermitente que se manifesta como o sintoma da vertigem, sendo esta, aliás, a sua causa mais frequente.
+
+A segunda causa está associada ao processo de purificação de toxinas acumuladas na região frontal e ao redor dos globos oculares, o qual gera um estado febril sutil e constante. Tal estado perturba a capacidade visual, seguindo um princípio análogo ao da vertigem que se manifesta em episódios de febre, dores de cabeça, estado de embriaguez ou ao nos expormos diretamente ao calor de um aquecedor ou fogueira. Todavia, esta etiologia é consideravelmente mais rara.
+
+Passemos agora à insônia, cuja causa é igualmente simples e clara. Ela é praticamente idêntica à da vertigem, com uma diferença fundamental: enquanto no caso da vertigem a compressão exercida pelos nódulos é intermitente, na insônia essa pressão sobre os vasos sanguíneos se dá de forma contínua, ocasionando uma anemia cerebral. A anemia cerebral decorrente dessa condição provoca um estado de hipersensibilidade nervosa, que, por sua vez, desencadeia um fluxo contínuo e irrefreável de pensamentos. Por essa razão, na época em que eu realizava tratamentos, ao dissolver os referidos nódulos de toxinas, obtinha a plena recuperação dos pacientes de forma precisa e em um curto espaço de tempo, alcançando o sucesso em todos os casos, sem uma única exceção.
+
+---
+
+# A Surpreendente Cura das Enfermidades Oculares
+
+**Categoria:** me | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 眼の傷害も此通り 未発表 | **Status:** Unpublished
+
+## A Surpreendente Cura das Enfermidades Oculares
+
+É comum que, ao ferir acidentalmente os olhos, as pessoas se apressem em procurar um oftalmologista. Contudo, a recuperação costuma ser morosa, prolongando-se por vários meses mesmo nos casos mais favoráveis. Se o problema se resumisse apenas à demora, não seria tão grave; todavia, não raro o desfecho é a perda total da visão.
+
+A esse respeito, há um relato interessante. Ocorrido há mais de vinte anos, no início de minhas atividades com a terapia espiritual, certo dia, recebi a visita de um médico idoso, que clinicava em sua localidade e atuava como médico escolar há três décadas. Ele me contou que, seis meses antes, enquanto tomava banho, água com sabão entrou em um de seus olhos, causando-lhe uma dor lancinante. A partir de então, seu quadro clínico só se agravou. Seu filho, felizmente, era oftalmologista em um renomado hospital universitário e, por isso, aplicou-lhe todos os mais modernos tratamentos disponíveis. Longe de apresentar melhora, contudo, sua condição deteriorou-se progressivamente, levando-o à iminência da cegueira. Foi nesse momento que, tendo ouvido falar sobre meu trabalho, ele decidiu me procurar.
+
+Seu estado era, de fato, grave como descrevera. No entanto, após apenas algumas ministrações de Johrei (浄霊), ele se recuperou por completo, para seu absoluto espanto. Dias depois, o médico retornou para expressar sua gratidão. Naquela ocasião, fiquei atônito ao ouvir dele que mantinha sua cura em segredo absoluto de seus familiares. Incrédulo, questionei o motivo, e ele explicou: “Se souberem disso, serei expulso da associação médica, demitido do cargo de médico escolar e não consigo nem imaginar a fúria de minha família”. Sua justificativa deixou-me perplexo, embora eu deva reconhecer que, naqueles tempos, o clima social era muito diferente do de hoje e propiciava tais reações.
+
+Decidi registrar este relato por tê-lo recordado subitamente. O ponto fundamental é que, mesmo em uma época em que minha própria prática ainda era incipiente, foi possível alcançar um resultado tão extraordinário. Isso demonstra o quão suscetíveis as enfermidades oculares são à cura.
+
+[Omissão de outros exemplos]
+
+---
+
+# A Gênese da Superstição
+
+**Categoria:** me | **Ano:** 昭和24(1949)年9月24日 | **Fonte:** -
+**Título Original:** 迷信と科学 | **Status:** Published
+
+## A Gênese da Superstição
+
+A afirmação de que a superstição nasce, na verdade, da própria ciência certamente causaria espanto geral. Permitam-me, contudo, elucidar o porquê.
+
+O homem moderno tende a crer que a ciência é capaz de solucionar todas as questões, crença esta ainda mais arraigada entre aqueles com formação acadêmica superior. Todavia, ao se depararem com a realidade da vida, eles percebem uma profunda dissonância entre o conhecimento adquirido nos bancos escolares e a prática, compreendendo que a teoria, por si só, é insuficiente. Nesse sentido, passam a buscar algo que transcenda o âmbito científico.
+
+Ademais, infortúnios inesperados sobrevêm, e empreendimentos tidos como certos podem culminar em resultados diametralmente opostos. Em verdade, o mundo está repleto de eventos que desafiam a lógica e a previsibilidade. Diante desse cenário, poucos são os que escapam de um sentimento de desilusão e de incerteza quanto ao futuro. É por essa razão que um número surpreendente de intelectuais, às ocultas, recorre à quiromancia, à fisionomia e aos oráculos proferidos por médiuns.
+
+Pelo que foi exposto, fica evidente que é a abundância de fenômenos que a ciência não consegue elucidar que, em última análise, impele as pessoas em direção à superstição. Portanto, a afirmação inicial de que a superstição é, em grande parte, uma criação da própria ciência dificilmente pode ser refutada.
+
+---
+
+# Uma Mensagem em Meu Lugar
+
+**Categoria:** shi | **Ano:** 昭和27(1952)年5月28日 | **Fonte:** Eikou
+**Título Original:** 舌に代えて (九州地方) | **Status:** Published
+
+## Uma Mensagem em Meu Lugar
+
+Eu sou Mokichi Okada, Líder da Igreja Messiânica. Desejaria imensamente falar-lhes pessoalmente, mas como as circunstâncias não o permitem, lamento ter de recorrer a este manuscrito, que será lido em meu lugar. Rogo, portanto, que o escutem com essa consciência.
+
+Para começar, nossa Igreja Messiânica é, como sabem, a mais recente das religiões. É, ao mesmo tempo, aquela que se desenvolve sob a mais grandiosa das missões: a criação de um mundo isento de doença, pobreza e conflito — em outras palavras, a construção do Paraíso sobre a Terra.
+
+Certamente, esta não é uma tese inédita. Tanto o Cristo, ao anunciar a proximidade do Reino dos Céus, quanto Shakyamuni, com sua profecia sobre a futura Era de Miroku, assim como inúmeros outros homens santos, predisseram algo semelhante. Contudo, sou eu quem vem para concretizar tais profecias; venho para edificar, de fato, esse mundo ideal. Afinal, se ninguém o fizesse, essas duas grandes predições se tornariam meras palavras vãs. Nesse caso, Shakyamuni e o Cristo teriam sido mentirosos, e a humanidade, por mais de dois milênios, teria sido ludibriada. Não seriam considerados santos, mas sim grandes impostores. Todavia, é inconcebível que uma falsidade de tal magnitude permanecesse oculta por um período tão longo. Apenas por essa constatação, a razão para o advento de nossa Igreja e a chegada do tempo oportuno para sua missão não encerram mistério algum.
+
+Há outro ponto que é imperativo que compreendam. Embora se afirme que a civilização atual tenha progredido, tal progresso é meramente exterior. Sua essência, por outro lado, é vazia, desprovida de alma. Em termos simples, avançamos materialmente, mas não se observa qualquer avanço no campo espiritual, como os fatos o demonstram com clareza. A prova maior reside em que, apesar de todo o alardeado progresso cultural, a felicidade humana não acompanhou essa evolução. O sofrimento da humanidade é incessante, tornando o mundo um verdadeiro inferno. E qual a razão para tal quadro? Como mencionei, é o resultado de uma ênfase desmedida na ciência materialista, que nos fez esquecer a ciência espiritual. Essa civilização assemelha-se, portanto, a um corpo hemiplégico; uma civilização deficiente, incapaz, por sua própria natureza, de construir uma sociedade feliz.
+
+Ninguém pode negar que este mundo foi criado pelo Artífice do Universo, isto é, por Deus. E, ao criá-lo, o propósito divino sempre foi conduzi-lo a um estado de progresso que culminasse em um mundo ideal, pleno de Verdade, Bem e Belo. Para tanto, em uma primeira etapa de Seu Plano, Ele permitiu o desenvolvimento da cultura material. Agora, contudo, que o aspecto material atingiu um certo grau de perfeição, chegou o momento de impulsionar, de uma só vez, a cultura espiritual, para que ambas avancem em uníssono. É neste ponto que adentramos a fase da concretização do Mundo Paradisíaco.
+
+Para facilitar a compreensão, permitam-me usar uma analogia. Em tempos antigos, palavras como "plano" ou "projeto" continham o ideograma que significa "desenhar" ou "pintar". De modo semelhante, sob um Plano Divino grandioso, Deus veio pintando, ao longo de incontáveis eras, uma obra-prima cujo tema é o próprio mundo. Naturalmente, uma variedade de cores foi necessária, e podemos percebê-las ao observar as nações: os Estados Unidos representam o amarelo; a Inglaterra, o púrpura; a União Soviética, o vermelho; o Japão, o branco; a Alemanha, a cor de cáqui; a França, o azul-celeste; a Itália, o preto; a China, o anil; e a Coreia, o cinza. Utilizando-se dessas cores, Deus brandiu Seu pincel conforme Sua vontade e finalizou a pintura do mundo. Entretanto, a obra, apenas pintada, não tem serventia. É preciso infundir-lhe uma alma para que ganhe vida, e, para isso, é necessário inserir os olhos. Mais especificamente, as pupilas. E quem as inserirá? Aquele que vos fala: eu.
+
+Permitam-me explicar brevemente o significado da palavra "pupila" — *hitomi* em japonês. Segundo o princípio do espírito da palavra, o som *hi-to-mi* decompõe-se em *hi* (fogo) e *mi* (água), que simbolizam o Sol e a Lua e, por sua vez, correspondem aos olhos. Ademais, o fogo arde na vertical, e a água flui na horizontal. Temos, assim, a trama e a urdidura de um tecido. Somente quando esses dois eixos se entrelaçam é que os dois olhos podem funcionar em perfeita harmonia. Traduzindo esta imagem, a linha vertical representa a civilização espiritual, e a horizontal, a civilização material. Apenas da união de ambas poderá nascer o Mundo Paradisíaco. A vertical é o pai; a horizontal, a mãe. De sua união, nasce um filho sublime chamado Miroku. Embora esta explanação seja bastante abstrata, creio que lhes tenha transmitido o conceito essencial.
+
+Como explanei, a cultura que existiu até hoje era deficiente. Tudo era superficial, sem substância, o que resultou em um mundo repleto de equívocos. É nesse cenário que surge a nossa Igreja, para revelar com clareza a causa fundamental de todos esses erros e, ao mesmo tempo, ensinar o caminho verdadeiro. No plano individual, ao abraçar este ensinamento, a pessoa experimenta uma extraordinária reviravolta em seu destino. Aqueles que sofrem com doenças são curados e alcançam a saúde plena, podendo assim trabalhar com vigor. Consequentemente, a pobreza é erradicada, e os conflitos, como é natural, desaparecem, transformando o lar em um paraíso. À medida que o número de lares paradisíacos aumenta, forma-se uma sociedade paradisíaca e, por fim, o Mundo Paradisíaco se concretiza na Terra.
+
+Sei que, ao ouvir apenas isso, a promessa pode parecer boa demais para ser verdade, uma sorte inesperada e, portanto, difícil de acreditar de imediato. Isso é natural, pois jamais existiu até hoje uma salvação tão esplêndida. Contudo, o que lhes apresento é a verdade plena, sem um pingo de exagero ou subterfúgio. Àqueles que ainda abrigam a menor dúvida, eu os convido a colocar estes ensinamentos à prova na prática. Se constatarem que é verdade, não lhes restará alternativa senão crer. Se, por outro lado, for uma farsa, deverão me repudiar sem hesitação. Eu, porém, recuso-me terminantemente a cometer um ato suicida tão terrível. Como representante de Deus, prossigo com absoluta convicção na Obra da Salvação.
+
+Para não me alongar mais, não direi que ponho um fim à minha escrita, mas sim que encerro aqui a voz de meu porta-voz.
+
+---
+
 # O Problema Populacional
 
 **Categoria:** shi | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 人口問題 | **Status:** Published
 
 ## O Problema Populacional
 
@@ -104,6 +591,7 @@ Por essa razão, as recentes Diretrizes para o Estabelecimento da Política Popu
 # A Verdade sobre as Doenças Oculares
 
 **Categoria:** me | **Ano:** 昭和27(1952)年7月23日 | **Fonte:** Eikou
+**Título Original:** 眼にゴミが入る 医学断片集（16） | **Status:** Published
 
 ## A Verdade sobre as Doenças Oculares
 
@@ -118,6 +606,7 @@ Sob essa perspectiva, torna-se evidente que a medicina é uma grande geradora de
 # O Advento da Civilização da Luz
 
 **Categoria:** me | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 明の世界 | **Status:** Published
 
 ## O Advento da Civilização da Luz
 
@@ -134,6 +623,7 @@ Em verdade, toda a trajetória da história humana nada mais foi que o Plano Div
 # A Senda Principal da Obra Divina
 
 **Categoria:** me | **Ano:** 昭和30(1955)年1月1日 | **Fonte:** Eikou
+**Título Original:** 明主様御言葉 水晶殿御遷座 昭和二十九年十二月十一日 | **Status:** Published
 
 ## A Senda Principal da Obra Divina
 
@@ -152,6 +642,7 @@ Era o que tinha a lhes comunicar.
 # A Importância do Havaí no Plano Divino
 
 **Categoria:** me | **Ano:** 昭和28(1953)年9月16日 | **Fonte:** Eikou
+**Título Original:** 明主様「ハワイの重要性」についてお語りになる | **Status:** Published
 
 ## A Importância do Havaí no Plano Divino
 
@@ -176,6 +667,7 @@ Ademais, chegará o dia em que também construiremos um Paraíso Terrestre no Ha
 # Sobre o Hábito de Lavar os Olhos
 
 **Categoria:** me | **Ano:** 昭和24(1949)年9月10日 | **Fonte:** -
+**Título Original:** 眼を洗う 寸言（光26号） | **Status:** Published
 
 ## Sobre o Hábito de Lavar os Olhos
 
@@ -190,6 +682,7 @@ Que tempos desconcertantes estes em que vivemos.
 # Superstição e Fé Verdadeira
 
 **Categoria:** me | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 迷信と正信 未発表 | **Status:** Unpublished
 
 ## Superstição e Fé Verdadeira
 
@@ -206,6 +699,7 @@ Todavia, nada disso ocorre. Obstinadamente, tanto os médicos quanto o próprio 
 # Palavras de Gratidão no Ano-Novo
 
 **Categoria:** me | **Ano:** 昭和30(1955)年1月12日 | **Fonte:** Eikou
+**Título Original:** 明主様御言葉 昭和三十年一月一日 | **Status:** Published
 
 ## Palavras de Gratidão no Ano-Novo
 
@@ -220,6 +714,7 @@ Por hoje, entretanto, limitar-me-ei a estas breves palavras alusivas à auspicio
 # Superstição e Verdade
 
 **Categoria:** me | **Ano:** 昭和29(1954)年4月26日 | **Fonte:** Eikou
+**Título Original:** 迷信非迷信 | **Status:** Published
 
 ## Superstição e Verdade
 
@@ -244,6 +739,7 @@ E isto não é mera conjectura. Segundo me relatou um proeminente jornalista ame
 # A Verdade sobre a Tuberculose e a Falácia da Medicina
 
 **Categoria:** shi | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 事実は雄弁なり | **Status:** Published
 
 ## A Verdade sobre a Tuberculose e a Falácia da Medicina
 
@@ -341,6 +837,7 @@ Casos como este são recorrentes. Se houvesse nesses profissionais uma consciên
 # A Verdadeira Natureza da Superstição
 
 **Categoria:** me | **Ano:** 昭和25(1950)年10月18日 | **Fonte:** Eikou
+**Título Original:** 迷信の定義 | **Status:** Published
 
 ## A Verdadeira Natureza da Superstição
 
@@ -360,7 +857,8 @@ Dessarte, a verdade é que não existe superstição absoluta, tampouco Fé Verd
 
 # Acerca da Superstição e das Doutrinas Heréticas
 
-**Categoria:** me | **Ano:** 昭和24(1949)年2月28日 | **Fonte:** 迷信邪教について
+**Categoria:** me | **Ano:** 昭和24(1949)年2月28日 | **Fonte:** Kenko
+**Título Original:** 迷信邪教について | **Status:** Unpublished
 
 ## Acerca da Superstição e das Doutrinas Heréticas
 
@@ -375,6 +873,7 @@ O fato de termos conquistado mais de cem mil fiéis em apenas um ano e meio é u
 # A Perspicácia do Célebre Dr. Irizawa
 
 **Categoria:** me | **Ano:** 昭和24(1949)年8月20日 | **Fonte:** -
+**Título Original:** 名医・故入沢博士 寸評（光23号） 白光生 | **Status:** Published
 
 ## A Perspicácia do Célebre Dr. Irizawa
 
@@ -396,6 +895,7 @@ O remédio que aos homens ministrei, agora o tomo."
 # A Origem do Nome Sekai Kyusei Kyo
 
 **Categoria:** me | **Ano:** 昭和25(1950)年2月18日 | **Fonte:** Kyusei
+**Título Original:** 救世教の名に就て | **Status:** Published
 
 ## A Origem do Nome Sekai Kyusei Kyo
 
@@ -410,6 +910,7 @@ Portanto, cumpre esclarecer que o termo "Messias" foi adotado unicamente por seu
 # A Obstinação da Superstição Médica
 
 **Categoria:** me | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 迷信打破の困難 未発表 | **Status:** Unpublished
 
 ## A Obstinação da Superstição Médica
 
@@ -424,6 +925,7 @@ A obstinação com que as pessoas se apegam à superstição médica é, de fato
 # A Verdadeira Natureza das Enfermidades Comuns
 
 **Categoria:** me | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 眼、耳、鼻、口 ・主なる病気(二) 未発表 | **Status:** Unpublished
 
 ## A Verdadeira Natureza das Enfermidades Comuns
 
@@ -468,6 +970,7 @@ Por fim, há as doenças causadas por vermes, como a lombriga, o ancilóstomo, a
 # A Elucidação sobre a Vertigem e a Insônia
 
 **Categoria:** me | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 眩暈及び不眠症 | **Status:** Published
 
 ## A Elucidação sobre a Vertigem e a Insônia
 
@@ -484,6 +987,7 @@ Passemos agora à insônia, cuja causa é igualmente simples e clara. Sua origem
 # Os Cientistas e os Religiosos Convencionais como Fabricantes de Superstição
 
 **Categoria:** me | **Ano:** 昭和11(1936)年2月1日 | **Fonte:** 内外公論
+**Título Original:** 迷信を製造する科学者と既成宗教家 | **Status:** Published
 
 ## Os Cientistas e os Religiosos Convencionais como Fabricantes de Superstição
 
@@ -518,6 +1022,7 @@ E para onde vão as multidões, desiludidas com a ineficácia das religiões tra
 # O Desaparecimento dos Grandes Mestres (II)
 
 **Categoria:** me | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
+**Título Original:** 名人の失くなった理由 （二） | **Status:** Published
 
 ## O Desaparecimento dos Grandes Mestres (II)
 
@@ -540,6 +1045,7 @@ Creio que a situação geral ficou clara. Resta agora explicar por que essa tend
 # A Vertigem e a Insônia
 
 **Categoria:** me | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 眩暈及び不眠症 | **Status:** Published
 
 ## A Vertigem e a Insônia
 
@@ -558,6 +1064,7 @@ Destarte, na época em que me dedicava aos tratamentos, ao dissolver as referida
 # Discernindo a Verdadeira Fé
 
 **Categoria:** me | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 迷信邪教 | **Status:** Published
 
 ## Discernindo a Verdadeira Fé
 
@@ -578,6 +1085,7 @@ A verdadeira fé nasce do desejo de se filiar a uma doutrina por reconhecer a gr
 # A Era da Semicivilização
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 半文明時代 | **Status:** Published
 
 ## A Era da Semicivilização
 
@@ -602,6 +1110,7 @@ Nesse sentido, é imperativo que promovamos o salto desta civilização parcial 
 # A Era da Superstição
 
 **Categoria:** me | **Ano:** 昭和28(1953)年8月12日 | **Fonte:** Eikou
+**Título Original:** 迷信時代 | **Status:** Published
 
 ## A Era da Superstição
 
@@ -624,6 +1133,7 @@ E isso é natural, pois a verdadeira causa fundamental das doenças permanece co
 # A Primazia de Saber Ouvir
 
 **Categoria:** ha | **Ano:** 昭和10(1935)年3月4日 | **Fonte:** Hikari明世界
+**Título Original:** 話上手より聞上手 | **Status:** Published
 
 ## A Primazia de Saber Ouvir
 
@@ -638,6 +1148,7 @@ Ademais, em qualquer interação, é crucial que nos coloquemos em uma posição
 # O que é a Sekaikyuseikyou
 
 **Categoria:** me | **Ano:** 昭和29(1954)年3月24日 | **Fonte:** Eikou
+**Título Original:** 救世教とは何ぞや | **Status:** Published
 
 ## O que é a Sekaikyuseikyou
 
@@ -658,6 +1169,7 @@ Portanto, esta obra é um compêndio que elucida, por meio da sabedoria Divina, 
 # As Razões do Desaparecimento dos Grandes Mestres (III)
 
 **Categoria:** me | **Ano:** 昭和28(1953)年1月21日 | **Fonte:** Eikou
+**Título Original:** 名人の失くなった理由 （三） | **Status:** Published
 
 ## As Razões do Desaparecimento dos Grandes Mestres (III)
 
@@ -682,6 +1194,7 @@ Creio que o exposto até aqui tenha elucidado os pontos principais e, sendo assi
 # Prefácio ao Relato da Perseguição Religiosa
 
 **Categoria:** ha | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
+**Título Original:** はしがき | **Status:** Published
 
 ## Prefácio ao Relato da Perseguição Religiosa
 
@@ -706,7 +1219,8 @@ Agosto de 1950
 
 # Relatos sobre a Realidade da Superstição
 
-**Categoria:** me | **Ano:** 昭和10(1935)年 | **Fonte:** 迷信の実例
+**Categoria:** me | **Ano:** 昭和10(1935)年 | **Fonte:** Kenko
+**Título Original:** 迷信の実例 | **Status:** Unpublished
 
 ## Relatos sobre a Realidade da Superstição
 
@@ -743,6 +1257,7 @@ Pensemos por um instante: apesar de crerem tão fervorosamente no Buda, a jovem 
 # O Ensinamento da Derrota
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年1月25日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 敗戦の教訓 | **Status:** Published
 
 ## O Ensinamento da Derrota
 
@@ -765,6 +1280,7 @@ O primeiro passo para a salvação dessas pessoas é o reconhecimento de que a p
 # O Aumento da Criminalidade e sua Solução
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
+**Título Original:** 犯罪増加と其解決策 | **Status:** Published
 
 ## O Aumento da Criminalidade e sua Solução
 
@@ -797,6 +1313,7 @@ Pelo que foi exposto, torna-se claro que não há outro caminho para conter o al
 # Prefácio à Coletânea de Milagres da Sekaikyuseikyou
 
 **Categoria:** me | **Ano:** 昭和28(1953)年4月1日 | **Fonte:** Eikou
+**Título Original:** 救世教奇蹟集 序文 （第２稿） | **Status:** Published
 
 ## Prefácio à Coletânea de Milagres da Sekaikyuseikyou
 
@@ -815,6 +1332,7 @@ Com efeito, o famoso “fim do mundo” mencionado por Cristo refere-se ao fim d
 # Os Tumores e o Equívoco da Intervenção Cirúrgica
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第二編
+**Título Original:** 腫物とその切開に就て ・病患と医学の誤謬二十 | **Status:** Published
 
 ## Os Tumores e o Equívoco da Intervenção Cirúrgica
 
@@ -833,6 +1351,7 @@ Sendo assim, no tratamento de tumores, é imperativo que se respeite o curso nat
 # A Natureza dos Tumores e o Equívoco da Incisão Cirúrgica
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 腫物とその切開に就て ・病患と医学の誤謬二○ | **Status:** Published
 
 ## A Natureza dos Tumores e o Equívoco da Incisão Cirúrgica
 
@@ -853,6 +1372,7 @@ Portanto, no tratamento de tumores, deve-se ter o máximo cuidado para seguir a 
 # O Sarampo Não é Nada a Temer
 
 **Categoria:** ha | **Ano:** 昭和28(1953)年4月22日 | **Fonte:** Eikou
+**Título Original:** 麻疹なんか何でもない | **Status:** Published
 
 ## O Sarampo Não é Nada a Temer
 
@@ -871,6 +1391,7 @@ Ademais, quando se recorre ao Johrei, o ponto crítico da enfermidade é superad
 # A Verdadeira Causa da Dor de Dente
 
 **Categoria:** ha | **Ano:** 昭和27(1952)年6月4日 | **Fonte:** Eikou
+**Título Original:** 歯の痛み 医学断片集（11） | **Status:** Published
 
 ## A Verdadeira Causa da Dor de Dente
 
@@ -887,6 +1408,7 @@ Sendo assim, tal substância não atua como um desinfetante, mas, ao contrário,
 # O Homem-Micróbio
 
 **Categoria:** ha | **Ano:** 昭和27(1952)年11月19日 | **Fonte:** Eikou
+**Título Original:** 黴菌人間 | **Status:** Published
 
 ## O Homem-Micróbio
 
@@ -909,6 +1431,7 @@ O mais interessante é que os próprios métodos utilizados para depurar os "hom
 # As Afecções Pulmonares e o Veneno dos Remédios
 
 **Categoria:** ha | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 肺患と薬毒 未発表 | **Status:** Unpublished
 
 ## As Afecções Pulmonares e o Veneno dos Remédios
 
@@ -925,6 +1448,7 @@ Para concluir, abordarei a razão pela qual a tuberculose, em comparação a out
 # O Paradigma da Contaminação e a Missão dos Micróbios
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
+**Título Original:** 黴菌及び伝染病 | **Status:** Published
 
 ## O Paradigma da Contaminação e a Missão dos Micróbios
 
@@ -997,6 +1521,7 @@ E erradicar seu alimento significa tornar-se uma pessoa de sangue puro. Para tan
 # A virtude da honestidade
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 馬鹿正直 自観叢書第5編 | **Status:** Published
 
 ## A virtude da honestidade
 
@@ -1013,6 +1538,7 @@ Desde aquele tempo até os dias de hoje, mantive-me fiel a essa conduta. Relato 
 # Relatos do Mundo Espiritual: A Boneca Assombrada
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年8月25日 | **Fonte:** Reikai Sodan
+**Título Original:** 化人形 自観叢書第3編 | **Status:** Published
 
 ## Relatos do Mundo Espiritual: A Boneca Assombrada
 
@@ -1062,6 +1588,7 @@ Chūkei (中啓): Leque utilizado em cerimônias. A ponta das varetas externas �
 # A Construção do Paraíso por Meio das Flores
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年5月8日 | **Fonte:** -
+**Título Original:** 花による天国化運動 | **Status:** Published
 
 ## A Construção do Paraíso por Meio das Flores
 
@@ -1084,6 +1611,7 @@ Em consonância com o exposto, a Divisão Social de nossa Igreja já deu início
 # A Anatomia da Febre
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
+**Título Original:** 発熱 | **Status:** Published
 
 ## A Anatomia da Febre
 
@@ -1144,6 +1672,7 @@ Assim, a pessoa toma um antitérmico porque tem febre, e a febre volta a subir j
 # O Caminho para a Luz
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** はしがき 自観叢書第9篇 | **Status:** Published
 
 ## O Caminho para a Luz
 
@@ -1160,6 +1689,7 @@ Todavia, aquela idade marcou também o meu segundo nascimento. A partir de entã
 # Prefácio de "A Fonte do Riso"
 
 **Categoria:** ha | **Ano:** 昭和26(1951)年1月30日 | **Fonte:** 笑の泉
+**Título Original:** はしがき | **Status:** Published
 
 ## Prefácio de "A Fonte do Riso"
 
@@ -1181,6 +1711,7 @@ O Editor
 # A Verdadeira Causa da Tuberculose e o Equívoco da Medicina Moderna
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 肺結核 | **Status:** Published
 
 ## A Verdadeira Causa da Tuberculose e o Equívoco da Medicina Moderna
 
@@ -1247,6 +1778,7 @@ Por fim, os suores noturnos são a melhor forma de purificação. As toxinas, di
 # Sobre os Tumores e o Equívoco da Incisão
 
 **Categoria:** ha | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 腫物とその切開に就て | **Status:** Published
 
 ## Sobre os Tumores e o Equívoco da Incisão
 
@@ -1263,6 +1795,7 @@ Nesse sentido, é crucial atentar para o seguinte: ao se realizar uma incisão c
 # A Gênese dos Micróbios
 
 **Categoria:** ha | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 黴菌の発生 | **Status:** Published
 
 ## A Gênese dos Micróbios
 
@@ -1289,6 +1822,7 @@ Mesmo após toda esta exposição, sei que a crença pode ser difícil. Mas, afi
 # Um Comentário sobre a Agricultura Natural
 
 **Categoria:** ha | **Ano:** 昭和26(1951)年1月15日 | **Fonte:** Shizen Noho Kaisetsu
+**Título Original:** はしがき | **Status:** Published
 
 ## Um Comentário sobre a Agricultura Natural
 
@@ -1311,6 +1845,7 @@ Foi com essa determinação que decidi realizar uma ampla campanha de divulgaç�
 # A Urgência de uma Nova Concepção de Saúde
 
 **Categoria:** ha | **Ano:** 昭和11(1936)年6月15日 | **Fonte:** Kenko
+**Título Original:** 発刊の辞 | **Status:** Published
 
 ## A Urgência de uma Nova Concepção de Saúde
 
@@ -1342,6 +1877,7 @@ Okada Jinsai
 # A Obesidade Patológica
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 馬鹿肥りは病的だ 自観叢書第5編 | **Status:** Published
 
 ## A Obesidade Patológica
 
@@ -1367,7 +1903,8 @@ Diante do exposto, é imperativo que se abandone o hábito de reprimir a vontade
 
 # Palavras de Celebração pela Inauguração da Sede do Havaí
 
-**Categoria:** ha | **Ano:** 昭和29(1954)年2月26日 | **Fonte:** ハワイ教会落成式に賜った御言葉 パンフレット、昭和29
+**Categoria:** ha | **Ano:** 昭和29(1954)年2月26日 | **Fonte:** Chijo Tengoku
+**Título Original:** ハワイ教会落成式に賜った御言葉 | **Status:** Published
 
 ## Palavras de Celebração pela Inauguração da Sede do Havaí
 
@@ -1394,6 +1931,7 @@ Com estas palavras, encerro minha mensagem de congratulações.
 # Prefácio
 
 **Categoria:** ha | **Ano:** 昭和25(1950)年11月20日 | **Fonte:** 世界Kyusei教早わかり
+**Título Original:** はしがき | **Status:** Published
 
 ## Prefácio
 
@@ -1417,6 +1955,7 @@ O Autor
 # A Medicina que Produz a Tuberculose Pulmonar
 
 **Categoria:** ha | **Ano:** 昭和11(1936)年5月25日 | **Fonte:** 肺結核を作る医療
+**Título Original:** 肺結核を作る医療 | **Status:** Unpublished
 
 ## A Medicina que Produz a Tuberculose Pulmonar
 
@@ -1467,6 +2006,7 @@ Ao terminar de escrever este artigo, deparei-me com a seguinte notícia em um jo
 # A Tuberculose e a Ação dos Espíritos
 
 **Categoria:** ha | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 肺結核 | **Status:** Published
 
 ## A Tuberculose e a Ação dos Espíritos
 
@@ -1489,6 +2029,7 @@ Ao vivenciar exemplos concretos como os que acabo de relatar, torna-se impossív
 # A Origem das Pragas nos Adubos Artificiais
 
 **Categoria:** ha | **Ano:** 昭和28(1953)年2月28日 | **Fonte:** 東京日々新聞
+**Título Original:** 腹の虫は人為肥料から ・法話（五） | **Status:** Published
 
 ## A Origem das Pragas nos Adubos Artificiais
 
@@ -1519,6 +2060,7 @@ Embora tenha me alongado, creio que, com esta explanação, o essencial foi comp
 # A Verdade sobre os Germes e as Doenças Contagiosas
 
 **Categoria:** ha | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
+**Título Original:** 黴菌及び伝染病 | **Status:** Published
 
 ## A Verdade sobre os Germes e as Doenças Contagiosas
 
@@ -1567,6 +2109,7 @@ Qual seria, então, o método apropriado para se atingir o objetivo de eliminar 
 # O Processo de Cura da Tuberculose
 
 **Categoria:** ha | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 肺結核治癒の過程 | **Status:** Published
 
 ## O Processo de Cura da Tuberculose
 
@@ -1595,6 +2138,7 @@ Assim, reitero que, por meio de um tratamento focado nos rins, a tuberculose pod
 # A Pneumonia e a Pleurisia como Processos de Purificação
 
 **Categoria:** ha | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
+**Título Original:** 肺炎と肋膜炎 | **Status:** Published
 
 ## A Pneumonia e a Pleurisia como Processos de Purificação
 
@@ -1619,6 +2163,7 @@ Já na forma purulenta, acumula-se pus em vez de líquido. A medicina recorre à
 # A Verdade sobre a Tuberculose e a Ação dos Espíritos
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 肺結核 ・病気と霊一 | **Status:** Published
 
 ## A Verdade sobre a Tuberculose e a Ação dos Espíritos
 
@@ -1649,6 +2194,7 @@ Naquele momento, refleti profundamente sobre quão deplorável é que o ser huma
 # A Origem dos Parasitas Intestinais
 
 **Categoria:** ha | **Ano:** 昭和11(1936)年 | **Fonte:** 腹の虫
+**Título Original:** 腹の虫 | **Status:** Unpublished
 
 ## A Origem dos Parasitas Intestinais
 
@@ -1665,6 +2211,7 @@ Este princípio, contudo, não se restringe apenas ao organismo, pois correspond
 # A Gênese de uma Coletânea de Poemas
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年12月23日 | **Fonte:** 山と水
+**Título Original:** はしがき | **Status:** Published
 
 ## A Gênese de uma Coletânea de Poemas
 
@@ -1687,6 +2234,7 @@ Akimaro
 # A Origem da Pneumonia e da Tuberculose e o Equívoco da Medicina
 
 **Categoria:** ha | **Ano:** 昭和26(1951)年8月15日 | **Fonte:** 結核の革命的療法
+**Título Original:** 肺炎と結核 | **Status:** Published
 
 ## A Origem da Pneumonia e da Tuberculose e o Equívoco da Medicina
 
@@ -1719,6 +2267,7 @@ Gostaria, neste ponto, de chamar a atenção para uma questão crucial a respeit
 # Desmascarando a Conspiração
 
 **Categoria:** ha | **Ano:** 昭和24(1949)年12月31日 | **Fonte:** -
+**Título Original:** 暴露の暴露 | **Status:** Published
 
 ## Desmascarando a Conspiração
 
@@ -1737,6 +2286,7 @@ Em suma, para que se possa compreender a natureza deste conflito, basta encará-
 # Os Sintomas das Enfermidades e sua Elucidação
 
 **Categoria:** ha | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 発熱 | **Status:** Published
 
 ## Os Sintomas das Enfermidades e sua Elucidação
 
@@ -1795,6 +2345,7 @@ Cria-se, assim, um ciclo vicioso: administra-se o remédio porque há febre, e a
 # A Verdadeira Natureza dos Micróbios e das Doenças Infecciosas
 
 **Categoria:** ha | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 黴菌及び伝染病 | **Status:** Published
 
 ## A Verdadeira Natureza dos Micróbios e das Doenças Infecciosas
 
@@ -1863,6 +2414,7 @@ Aqui, há uma questão que gostaria de ressaltar. Segundo minhas pesquisas, as b
 # O Processo de Cura da Tuberculose Pulmonar
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 肺結核治癒の過程 | **Status:** Published
 
 ## O Processo de Cura da Tuberculose Pulmonar
 
@@ -1899,6 +2451,7 @@ Conforme exposto, ao centralizar o tratamento nos rins, a tuberculose pode ser c
 # O Despertar para a Arte do Ukiyo-e
 
 **Categoria:** ha | **Ano:** 昭和28(1953)年 | **Fonte:** 浮世絵の栞
+**Título Original:** はしがき | **Status:** Published
 
 ## O Despertar para a Arte do Ukiyo-e
 
@@ -1920,6 +2473,7 @@ Diretor do Museu de Arte de Hakone
 # A Verdade sobre a Tuberculose Pulmonar
 
 **Categoria:** ha | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 肺結核 | **Status:** Published
 
 ## A Verdade sobre a Tuberculose Pulmonar
 
@@ -1988,6 +2542,7 @@ No entanto, a medicina considera os suores noturnos um resultado da fadiga e ten
 # O Papel dos Germes e a Verdadeira Natureza das Doenças Contagiosas
 
 **Categoria:** ha | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 黴菌及び伝染病 | **Status:** Published
 
 ## O Papel dos Germes e a Verdadeira Natureza das Doenças Contagiosas
 
@@ -2036,476 +2591,6 @@ Sinto a necessidade de abordar novamente a questão da tuberculose e de outras d
 Sendo assim, qual seria o método apropriado para se atingir o objetivo de eliminar os micróbios? A resposta é: tornar impossível a sua proliferação. Ou seja, eliminar a causa de sua multiplicação. Em outras palavras, o único método eficaz é erradicar sua fonte de alimento, levando-os à inanição. E eliminar o alimento significa tornar-se uma pessoa de sangue puro. Para se ter sangue puro, é preciso não utilizar medicamentos. A medicina atual, portanto, empenha-se em combater a proliferação dos micróbios ao mesmo tempo que lhes fornece a matéria-prima para seu sustento, um esforço fadado, naturalmente, ao fracasso. Vendo-se sem saída, dedica seus esforços a métodos de prevenção meramente paliativos.
 
 Há um ponto importante a ser ressaltado. Segundo minhas pesquisas, os micróbios da tuberculose possuem uma natureza completamente distinta da de agentes como o cólera, a disenteria ou a febre tifoide. Sendo assim, é uma tese que defendo que, enquanto estes últimos são contagiosos, o primeiro não o é. Consequentemente, neste sentido, os primeiros exigem medidas de prevenção epidemiológica, mas o segundo não requer qualquer tipo de desinfecção.
-
----
-
-# A Verdadeira Natureza da Tuberculose e sua Solução
-
-**Categoria:** ha | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
-
-## A Verdadeira Natureza da Tuberculose e sua Solução
-
-A atual tendência desta enfermidade no Japão revela um quadro de extrema gravidade. Caros leitores, por que a tuberculose pulmonar prolifera de maneira tão alarmante? Segundo o que logrei descobrir, a causa reside, uma vez mais, nos equívocos da medicina moderna. Isto ocorre porque as próprias medidas preventivas adotadas por ela geram um efeito reverso: o aumento do número de doentes.
-
-Em termos diretos, todos os métodos da medicina contemporânea se limitam a um alívio temporário do sofrimento. Seus praticantes não percebem que esse mesmo alívio se converte, futuramente, na causa do agravamento do mal. Daí o nome “tratamento sintomático”, termo que, por sua natureza, designa uma abordagem que lida apenas com as manifestações externas da doença, sem jamais tocar em sua raiz fundamental.
-
-Atualmente, os pacientes diagnosticados com tuberculose pulmonar, sobretudo em estágio inicial, na verdade não apresentam qualquer anomalia nos pulmões. A esmagadora maioria desses diagnósticos, portanto, constitui um erro. O diagnóstico médico se ampara em diversos exames, como a ausculta de estertores crepitantes (os ruídos de bolhas), a reação de Mantoux, a velocidade de hemossedimentação, o exame microscópico do bacilo e as radiografias. Os sintomas considerados incluem febre persistente, tosse, expectoração, escarro com sangue, hemoptise, emaciação, sudorese noturna, distúrbios gastrointestinais e sensação de fadiga. Analisemos, pois, cada um desses pontos.
-
-Conforme detalhei no capítulo sobre a verdadeira causa das doenças, a supressão de resfriados leva ao acúmulo e à condensação de toxinas naturais, urêmicas e medicamentosas em diversas partes do corpo. Embora a tendência seja uma distribuição generalizada, esses acúmulos se concentram em locais bem definidos. São eles: a região cervical em torno do bulbo raquidiano, os gânglios linfáticos do pescoço, os ombros (especialmente o esquerdo), as axilas, a base dos braços, as costelas e suas adjacências (parcial ou totalmente), a borda inferior do diafragma, a área que vai do estômago ao peritônio, os gânglios linfáticos da virilha (principalmente à direita), a borda inferior das omoplatas (sobretudo a esquerda), ambos os lados da medula espinhal e a região dorsal dos rins. Minha vasta experiência no tratamento de pacientes com tuberculose revela que a maioria apresenta acúmulos de toxinas na região dos rins e no peritônio, especificamente ao redor do umbigo. São justamente esses acúmulos que causam febre, tosse, perda de apetite e fadiga. Ao tratarmos tais áreas, os sintomas atribuídos à tuberculose diminuem consideravelmente. Isto demonstra que muitos pacientes, sentenciados pelos médicos como portadores de tuberculose, sofrem, na realidade, de nefrite crônica e peritonite supurativa crônica. Aparentemente, os médicos são incapazes de detectar esses nódulos de toxinas na região renal e peritoneal.
-
-Ademais, quando as toxinas solidificadas dessa peritonite supurativa crônica se dissolvem pela febre e provocam uma diarreia persistente, os médicos a diagnosticam como tuberculose intestinal.
-
-As toxinas acumuladas nesses diversos locais podem se restringir a dois ou três pontos nos casos leves, mas chegam a se espalhar por todas as áreas mencionadas nos quadros mais graves. O processo de eliminação se inicia com a febre, manifestação do segundo estágio purificador, que dissolve as toxinas solidificadas, transformando-as em expectoração. Esta, por sua vez, é expelida pela tosse. Nesse trajeto, o escarro invariavelmente atravessa os pulmões para alcançar a traqueia e a garganta. Se o processo seguir seu curso natural, o fluxo de toxinas líquidas, ou seja, a expectoração, transita pelos pulmões sem percalços e é devidamente eliminado. Contudo, durante essa passagem, o escarro permanece por um breve momento nos alvéolos pulmonares, aguardando a ação expulsora da tosse. O som que se ouve nesse instante são os estertores. Nessa fase, reitero, os pulmões em si não apresentam qualquer problema. É com base nesse sintoma, no entanto, que os médicos levantam a suspeita de uma doença pulmonar e a confirmam por meio de diversos exames mecânicos. O verdadeiro problema reside na terapia que se segue a esse diagnóstico.
-
-Como já afirmei reiteradamente, a totalidade dos tratamentos médicos consiste na supressão do processo purificador. Consequentemente, a expectoração, que estava prestes a ser naturalmente expelida através dos pulmões, tem seu fluxo interrompido e passa a se acumular no interior do órgão.
-
-Para começar, a medicina recomenda o repouso absoluto. Dificilmente haverá algo que enfraqueça mais o sistema gastrointestinal. Basta imaginar: mesmo um indivíduo saudável, se submetido a um mês de repouso absoluto, terá suas funções gástricas adormecidas e sofrerá um enfraquecimento generalizado. Em segundo lugar, administram-se medicamentos, seja por via oral ou injetável. Sendo também toxinas, estes apenas aceleram o processo de debilitação. Além disso, incentiva-se a ingestão de alimentos ditos nutritivos, como carnes de peixe, aves e outros animais, ou dietas industrializadas, o que igualmente enfraquece a função dos órgãos internos (discorrerei em detalhe sobre a teoria nutricional em outra oportunidade). A terapia de ar puro, embora recomendada, tem seus benefícios anulados pelos demais métodos equivocados. Recentemente, os banhos de sol em sanatórios também ganharam popularidade, mas esta é uma prática com vantagens e desvantagens. O natural para o ser humano é realizar atividades leves em ambientes internos, longe da luz solar, e exercícios vigorosos ao ar livre, sob o sol. Estar sob a luz solar direta pede movimento intenso — como caminhar ou trabalhar até transpirar —, pois isso se alinha à lei da Natureza. Portanto, permanecer sob o sol em um estado ainda mais estático do que se estaria dentro de casa é antinatural e, por conseguinte, não pode ser benéfico.
-
-Diante da aplicação desses métodos, que em geral promovem o enfraquecimento do corpo, o processo purificador é suprimido, e os sintomas patológicos diminuem. É compreensível, portanto, o equívoco de se acreditar que o paciente está a caminho da cura. Contudo, não se trata de uma cura verdadeira. O que de fato ocorre é o seguinte: a expectoração, que deveria ser expelida ao atravessar os pulmões, acaba por estagnar dentro deles. Isso acontece porque a tosse, o mecanismo de expulsão, torna-se fraca ou inexistente devido ao debilitamento geral do organismo. Além disso, como um fluxo contínuo, ainda que mínimo, de nova expectoração continua a se infiltrar nos pulmões, o volume de toxinas estagnadas aumenta gradualmente. O resultado é a formação de massas de expectoração solidificada no interior dos pulmões, o que, por sua vez, origina a dificuldade respiratória.
-
-A função primordial dos pulmões é absorver, por meio do movimento respiratório, a quantidade de ar necessária à vida. Se massas sólidas se formam em seu interior, a capacidade de absorção de ar é proporcionalmente reduzida. Consequentemente, a respiração precisa se tornar mais frequente para compensar essa deficiência e suprir a demanda do corpo. A título de exemplo, se a necessidade é de dez unidades de ar, mas um obstáculo de duas unidades permite a absorção de apenas oito, será preciso respirar doze vezes e meia, em vez das dez habituais, para obter o volume necessário de cem unidades.
-
-Quando os médicos diagnosticam essas massas de expectoração solidificada, atribuem-lhes nomes como tuberculose, gangrena pulmonar ou câncer de pulmão. Essa costuma ser a trajetória comum de um paciente de tuberculose. Observando esse processo, fica claro que um indivíduo cujos pulmões eram inicialmente sadios se transforma em um autêntico doente de tuberculose como resultado de uma terapia equivocada, chegando a ter sua vida posta em risco. Portanto, a conclusão inevitável, dita de forma direta, é que a medicina moderna está, na verdade, aumentando o número de pacientes com tuberculose.
-
-Ademais, quando um paciente de tuberculose, submetido ao repouso absoluto, fica sem febre, basta um mínimo de exercício para que a febre retorne imediatamente. O médico, alarmado, proíbe o movimento, mas essa é outra recomendação baseada em uma teoria equivocada e inversa à realidade. A ausência de febre se deve ao enfraquecimento causado pelo repouso e à consequente interrupção da purificação. Logo, é natural que o exercício reative o processo purificador e, com ele, a febre.
-
-É por isso que os médicos não dizem que curam a tuberculose, mas que a “solidificam” — um fato de conhecimento geral. Todavia, a verdadeira cura de qualquer enfermidade consiste em dissolver as toxinas solidificadas que constituem a origem do mal, eliminando-as por completo, sem deixar qualquer resíduo. Quando um paciente é curado dessa maneira, pode se dedicar a qualquer atividade após sua recuperação, sem jamais sofrer uma recaída. Na medicina moderna, contudo, por se tratar de uma terapia de solidificação, mesmo após a suposta cura, o temor da reincidência persiste, impedindo o paciente de retornar ao trabalho por meses ou até anos. Não são raros, como muitos sabem, os casos trágicos de pacientes que, após um longo período seguindo à risca as orientações médicas de solidificação, comemoram a recuperação para, pouco tempo depois, sofrerem uma recidiva súbita, sendo forçados a recomeçar todo o tratamento. Isso é, inequivocamente, um resultado da terapia de solidificação.
-
-Gostaria de explicar agora a chamada infiltração pulmonar. Essa denominação é dada ao processo em que as toxinas acumuladas nas costelas e em suas adjacências se dissolvem pelo calor, penetram nos pulmões a partir da pleura e se preparam para ser expelidas como expectoração. Portanto, se deixado evoluir naturalmente, o quadro se resolveria com a eliminação total das toxinas e a consequente cura. No entanto, médicos e pacientes, temendo ser o início da tuberculose, recorrem a diversos tratamentos que, em essência, suprimem o processo purificador, acabando por transformar a condição em uma enfermidade de difícil tratamento.
-
-Analisando, em seguida, os pacientes diagnosticados com catarro apical ou linfadenopatia hilar, constato que a causa, em quase todos os casos, reside na rigidez do pescoço e dos ombros. Essa rigidez, que é uma manifestação do primeiro estágio purificador, desencadeia a febre do segundo estágio, apresentando sintomas semelhantes aos da tuberculose. Nesses casos, tampouco há qualquer anormalidade nos pulmões. Se o processo for deixado em paz, as toxinas se dissolverão, infiltrar-se-ão nos pulmões a partir do ápice, transformar-se-ão em expectoração e serão eliminadas, resultando na cura. Embora a rigidez nos ombros seja comumente associada a idosos, recentemente tenho observado sua alta incidência em jovens e até mesmo em crianças pequenas.
-
-Há outro ponto de suma importância a ser esclarecido. A teoria médica atual considera o excesso de trabalho como uma das principais causas da tuberculose, sob o pretexto de que ele enfraquece a resistência do organismo. Essa interpretação, no entanto, é o exato oposto da verdade. Vejamos por quê: o esforço físico intenso, a ponto de ser considerado excessivo, na verdade desencadeia o processo purificador. Aqui, é preciso explicar o que é a fadiga. Ela nada mais é que o resultado da febre, uma manifestação natural do processo purificador ativado pelo exercício. Portanto, a fadiga é benéfica para a saúde; é, por assim dizer, um método para acelerar a purificação. A própria medicina não incentiva o exercício para a promoção da saúde? Ocorre que ela recomenda o “exercício moderado”, referindo-se, provavelmente, a um nível de esforço que não ative a purificação. Tal moderação, porém, produz poucos resultados. Na verdade, o ideal é atingir o ponto em que o processo purificador se inicia. A febre indica a presença de toxinas em alguma parte do corpo, e sua manifestação as reduz, o que é excelente. Assim, quanto mais toxinas uma pessoa possui, mais facilmente ela terá febre e, consequentemente, sentirá fadiga. Seguindo esse princípio, ao sentir fadiga repetidas vezes por meio do exercício, as toxinas são gradualmente eliminadas, e a saúde, aprimorada. Chega a ser cômica a teoria acadêmica que atribui a fadiga à produção de um tipo de toxina gerada pelo exercício excessivo.
-
-Em virtude desse princípio, uma pessoa com um processo purificador vigoroso, ou seja, alguém que se fatiga e tem febre com facilidade, possui, na verdade, uma grande força de resistência. Portanto, a teoria médica, que afirma que pessoas com baixa resistência são mais suscetíveis à tuberculose, contradiz a realidade. Se assim fosse, os idosos, que se cansam mais facilmente, deveriam ser os mais acometidos pela doença. No entanto, os fatos mostram que a incidência é maior entre os jovens, justamente porque a juventude é o período em que o processo purificador se manifesta com maior vigor.
-
-Podemos aplicar este mesmo raciocínio à situação atual na Europa. A razão pela qual há tantos casos de tuberculose entre os japoneses é que nossa constituição física ainda é mais vigorosa que a dos ocidentais, o que facilita a ocorrência do processo purificador. Como expliquei repetidas vezes, os sintomas iniciais da tuberculose surgem da purificação; logo, é natural que sejam mais comuns entre os jovens. No caso dos ocidentais, a diminuição de sua força vital torna seu processo purificador tão fraco que a tuberculose sequer chega a se manifestar. A causa disso é a implementação da vacinação contra a varíola, que ocorreu décadas antes no Ocidente do que no Japão. Em termos simples, os jovens ocidentais se tornaram como idosos, incapazes de manifestar os sintomas da tuberculose. O exemplo mais extremo é a França. O povo francês, que na era de Napoleão era tão vigoroso, perdeu seu dinamismo e vitalidade juvenil, passando a viver como anciãos em busca de conforto e prazer. É fato notório que essa foi uma das causas de sua derrota na recente guerra. O Japão, por ter adotado a vacinação mais tardiamente, felizmente ainda preserva seu poder purificador, e essa é a verdadeira razão da alta incidência de tuberculose em nosso país. As autoridades, contudo, interpretam a redução da doença no Ocidente como um sucesso das medidas preventivas e insistem em aplicar as mesmas políticas aqui.
-
-Como prova do que digo, gostaria de fazer uma pergunta aos médicos: na guerra que travamos atualmente, por que os soldados japoneses, que provêm de um povo com alta incidência de tuberculose, são mais fortes que os soldados ocidentais, oriundos de povos com poucos casos da doença? Creio que não seriam capazes de oferecer uma explicação satisfatória. Utilizando a teoria que apresentei, entretanto, a resposta se torna bastante simples.
-
-Atualmente, no Ocidente, considera-se que os idosos são mais propensos à tuberculose do que os jovens. Isso ocorre porque, como afirmo, a constituição física deles foi se debilitando gradualmente devido à vacinação. Assim, os idosos, por terem sofrido menos o impacto da vacinação que os jovens, ainda retêm alguma capacidade purificadora. Portanto, se nos alegrarmos com a suposta redução da tuberculose por meio de políticas médicas ocidentais, é evidente que, sem que percebamos, nos tornaremos um povo debilitado como os ocidentais de hoje.
-
-A seguir, analisarei os métodos de diagnóstico da medicina. Já expliquei os estertores, então passemos à reação de Mantoux, ou seja, à injeção da solução de tuberculina. Segundo a interpretação médica, se a área injetada apresentar vermelhidão, inchaço, bolhas ou úlceras, a reação é positiva, indicando que o indivíduo já foi infectado. A ausência desses sinais caracteriza a reação negativa. Eles ainda afirmam que, ao se injetar uma solução mais concentrada, a reação pode se tornar positiva, e que mesmo entre os positivos, há os que estão curados e os que não estão. E que um indivíduo negativo não está infectado, mas pode se infectar e se tornar positivo. Como se vê, é uma explicação extremamente ambígua. Minha interpretação, porém, é outra: ao se injetar uma substância estranha no sangue, o processo purificador é imediatamente ativado para neutralizá-la, o que provoca o inchaço e a vermelhidão no local. O princípio é o mesmo de uma picada de inseto ou de abelha. Portanto, a reação positiva indica um processo purificador vigoroso, enquanto a negativa revela um organismo debilitado, incapaz de purificar. Somente com uma dose mais concentrada do veneno — a solução injetada — é que a purificação consegue se manifestar. Quanto à velocidade de hemossedimentação, a presença de toxinas no sangue o torna turvo. Quanto maior a quantidade de toxinas, maior o seu peso e, portanto, mais rápida a velocidade de sedimentação. Desse modo, pessoas com o sangue turvo são mais propensas a manifestar o processo purificador, ou seja, a adoecer.
-
-No que tange ao bacilo da tuberculose, afirmo que ele não é de forma alguma contagioso, como explicarei em detalhe no próximo capítulo.
-
-Vejamos agora a questão das radiografias. Os médicos costumam diagnosticar a tuberculose pulmonar com base na simples presença de uma sombra opaca na imagem, o que é uma atitude extremamente precipitada. Por quê? Porque a radiografia é uma imagem plana, sendo impossível distinguir entre as toxinas localizadas no interior dos pulmões e aquelas situadas do lado de fora, ou seja, nas costelas ou em suas proximidades. Minha experiência demonstra que, na maioria dos pacientes em estágio inicial, as toxinas que originam a doença não estão dentro dos pulmões, mas sim do lado de fora, sob a pele do tórax ou do dorso, perto das costelas. Ademais, é possível diferenciar se essas toxinas são de origem natural, urêmica ou medicamentosa, algo que a radiografia não revela. Contudo, pelo método de diagnóstico pela ponta dos dedos, que eu desenvolvi, essa distinção pode ser feita com precisão.
-
-A hemoptise, por sua vez, é um excelente sinal, pois representa a expulsão de sangue impuro por meio do processo purificador. A própria medicina reconhece que a tuberculose hemoptísica é de fácil cura. O local da hemorragia não é fixo. Geralmente, o sangue impuro se acumula em um ponto fora dos pulmões ou se infiltra neles e, ao ser dissolvido pela febre, é expelido. É importante ressaltar que, no momento em que ocorreria um derrame cerebral, o corpo pode desviar o processo e manifestá-lo como hemoptise. Muitos médicos diagnosticam erroneamente o quadro como uma hemorragia pulmonar, sem se darem conta de que, na verdade, o paciente acaba de ser salvo de um derrame cerebral.
-
-A sudorese noturna é outra manifestação purificadora das mais benéficas. Por meio dela, as toxinas, dissolvidas pela febre alta e transformadas em um líquido diluído, são eliminadas pelos capilares da pele, o que acelera enormemente a cura. Em minha experiência, os pacientes que apresentam sudorese noturna espontaneamente ou a desenvolvem durante o tratamento obtêm, sem exceção, excelentes resultados. O princípio é idêntico ao do resfriado, que melhora com a baixa da febre após a transpiração. A medicina, entretanto, considera a sudorese noturna um sinal de esgotamento e tenta suprimi-la, o que é um erro. Ela não decorre da fadiga, mas sim de um vigoroso processo purificador.
-
-Recentemente, alguns médicos têm recomendado a terapia do pneumotórax. Como é sabido, esse procedimento consiste em perfurar a cavidade pleural para injetar ar, cuja pressão paralisa temporariamente a atividade pulmonar. Trata-se de mais uma forma de suprimir o processo purificador, fazendo com que as toxinas que já começavam a se dissolver nos pulmões se solidifiquem novamente. Com isso, os sintomas diminuem um pouco, o que é erroneamente interpretado como um sinal de eficácia. Contudo, por ser apenas mais uma modalidade da terapia de solidificação, o processo purificador voltará a se manifestar. Não se trata, evidentemente, de uma cura verdadeira, mas apenas de um adiamento dela.
-
----
-
-# O Poder Redentor do Riso
-
-**Categoria:** ha | **Ano:** 昭和6(1931)年7月10日 | **Fonte:** 天国の花
-
-## O Poder Redentor do Riso
-
-Basta observar os semblantes das pessoas nos trens, nos parques e nas ruas. Quantas fisionomias não revelam uma angústia febril, um cansaço insatisfeito e uma expressão de profundo desalento!
-
-O riso desapareceu. Ou melhor, seria esta a explosão de um sofrimento social tão intenso que impede até mesmo o desejo de rir? É a agonia do cotidiano! O inferno do desemprego! A recessão mundial! Estamos imersos em um vórtice de desânimo e amargura. Em tal cenário, como poderia haver espaço para o riso?
-
-Na era em que vivemos, contudo, existe algo infinitamente mais valioso que o ouro, que os grandes estadistas, que os aviões capazes de cruzar os céus a mil milhas por hora. Esse algo é o riso! Sim, verdadeiramente, o riso. O riso é a fonte da saúde para toda a humanidade e o segredo do rejuvenescimento.
-
-A felicidade não pode ser encontrada em semblantes de falsa sabedoria. E, no entanto, que tempos são estes, repletos de fisionomias excessivamente calculistas! Libertemo-nos, pois, do sofrimento que é fingir uma inteligência restritiva e sufocante. Para tanto, proponho que comecemos por nós mesmos, tornando-nos “tolos alegres”, dispostos a viver com mais leveza e brilho.
-
-A vitalidade do indivíduo,
-O amor entre os cônjuges,
-A felicidade da família,
-A paz do mundo,
-A alegria da humanidade...
-Tudo se soluciona com o riso.
-O riso é o próprio Salvador!
-Riam! Riam com toda a alma!
-É preciso rir para, então, trabalhar com vigor.
-
-Foi com este propósito que nasceu este modesto livreto.
-
-1º de junho de 1931
-Mestre da Vila Shofuso
-Omori Hakkeien
-
----
-
-# O Significado do Princípio de Hakkou Iu
-
-**Categoria:** ha | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## O Significado do Princípio de Hakkou Iu
-
-É de conhecimento geral que a expressão Hakkou Iu (八紘為宇) é a forma abreviada do venerável decreto divino proferido pelo Imperador Jimmu nos primórdios da fundação de nossa nação: "Cobrir os oito cantos do mundo e fazer deles um só lar não seria, porventura, uma nobre missão?". Desejo, no entanto, sem considerar minha indignidade e com a mais profunda reverência, oferecer uma interpretação espiritual para estas palavras divinas, que expressam um Plano Divino de magnitude e grandiosidade ímpares. Se, por meio desta análise, eu puder contribuir, ainda que minimamente, para a elucidação da essência de nossa nação, considerare-lo-ei uma felicidade suprema.
-
-Primeiramente, sinto-me na obrigação de apresentar uma interpretação espiritual do termo "Oomi-izu", a Grande Majestade Divina. Compreendo, com a devida vênia, que "Oomi-izu" representa a expansão do Manto Espiritual de Sua Majestade o Imperador. O fato de que, após o Incidente da China e a Grande Guerra da Ásia Oriental, o prestígio de nossa nação se eleva cada vez mais, significa, em minha humilde percepção, que o Manto Espiritual de nosso soberano se expande incessantemente. Escusado será dizer que isto nada mais é do que o prenúncio da iminente chegada do auspicioso tempo do Princípio de Hakkou Iu.
-
-Conforme afirmei anteriormente, o Mundo do Dia representa a manifestação de Amaterasu Omikami, a Grande Deusa do Sol. Por esse motivo, o Manto Espiritual de nosso soberano se expande amplamente, e chegou o momento propício para que sua luz cubra todo o orbe terrestre. É nisto que consiste, a meu ver, a consumação do Princípio de Hakkou Iu.
-
-Eu já disse que o ritmo do dia é um movimento centrípeto. Em virtude desse princípio, quando o Manto Espiritual — ou seja, a Grande Virtude Divina — iluminar o mundo inteiro, é uma consequência inevitável que os povos de todas as nações reverenciarão nosso soberano e a ele se submeterão com júbilo. Será um movimento análogo ao do mundo inteiro que se volta para o Sol, a verdadeira imagem da unificação.
-
-As profecias do Reino dos Céus na Terra, de Cristo; do Mundo de Miroku, de Buda; e do Mundo de Ginou, proclamado por Nichiren, não se referem, em minha opinião, a outra coisa senão a este grandioso porvir.
-
----
-
-# O Processo de Cura da Tuberculose
-
-**Categoria:** ha | **Ano:** 昭和17(1942)年12月13日 | **Fonte:** 結核問題ト其解決策
-
-## O Processo de Cura da Tuberculose
-
-Nos estágios iniciais da tuberculose, o primeiro e o segundo, manifestam-se sintomas como febre baixa, tosse, expectoração, sudorese noturna, sensação de fadiga e uma leve perda de apetite. Uma enfermidade nesse grau pode, de fato, ser superada por meio da cura natural. Para tanto, recomenda-se a prática de exercícios físicos em um nível que não cause sofrimento. Naturalmente, essa prática intensificará, a princípio, as manifestações mencionadas. Contudo, tal agravamento representa a aceleração do processo de purificação, indicando que a doença está, na verdade, abrandando e caminhando para a cura. Quanto à alimentação, uma dieta vegetariana é a mais indicada.
-
-Permitam-me relatar minha própria experiência a esse respeito. Aos quinze anos, fui acometido por uma pleurisia e, após cerca de um ano de tratamento médico, obtive a cura completa. Desfrutei de boa saúde por um tempo, mas a doença reincidiu. Desta vez, porém, a evolução não foi favorável; meu estado piorou gradualmente e, depois de mais de um ano, aos dezoito anos, fui finalmente diagnosticado com tuberculose em terceiro estágio. O último médico a me examinar, o falecido Dr. Tatsukichi Irasawa, após uma avaliação minuciosa, declarou que não havia mais esperança de cura.
-
-Diante disso, tomei uma firme resolução. Se meu destino era morrer, teria de buscar um método extraordinário, algo que pudesse operar uma cura milagrosa. Naquela época, meu único consolo era a pintura. Certo dia, ao folhear antigos catálogos de arte, deparei-me com um livro que ilustrava diversas ervas medicinais utilizadas na farmacopeia chinesa. Foi então que uma súbita clareza me assaltou. Até aquele momento, eu vinha consumindo uma grande quantidade de alimentos de origem animal, seguindo à risca as recomendações médicas da época, que associavam nutrição exclusivamente a essa fonte. Chegava ao ponto de cozinhar meu mingau de arroz com leite, em vez de água.
-
-Contudo, ao examinar aquele livro, compreendi que os vegetais também possuem propriedades medicinais e nutritivas. Refleti que, no antigo Período dos Estados Combatentes, a alimentação era predominantemente vegetariana, e ainda assim, a história registra o surgimento de heróis e guerreiros de valor inestimável. Ponderei que talvez uma dieta vegetariana fosse, de fato, benéfica, especialmente para o povo japonês, e decidi-me, de forma irredutível, a colocá-la em prática.
-
-Todavia, agindo com prudência, experimentei a dieta vegetariana por apenas um dia. Senti um bem-estar notável. Continuei por um segundo, um terceiro dia, e a melhora se acentuava cada vez mais. Nesse ponto, o engano da medicina ocidental tornou-se patente para mim e, ao fim de uma semana, abandonei por completo os medicamentos. Passado um mês nessas condições, eu estava praticamente curado. Mantive a dieta vegetariana por três meses. O resultado foi que me tornei mais saudável do que era antes de adoecer. Desde então, embora tenha contraído outras moléstias, jamais apresentei qualquer sintoma relacionado à tuberculose, o que evidencia minha plena recuperação. Hoje, com mais de sessenta anos, gozo de uma saúde robusta que supera a de muitos jovens, um fato que por si só demonstra que a tuberculose não é uma doença a ser temida.
-
-Creio que este relato possa servir de referência aos que sofrem de tuberculose.
-
-O que descrevi acima é o processo da cura natural. Nem é preciso dizer que, ao aplicar a nossa terapia, esse tempo é abreviado em muitas vezes.
-
-A seguir, passarei a discorrer sobre a tuberculose a partir do terceiro estágio.
-
-O processo de cura da tuberculose apresenta uma particularidade que não se observa em outras enfermidades, e que se restringe, pode-se dizer, aos pacientes a partir do terceiro estágio.
-
-Quando um paciente nesse estágio avançado recebe nossa terapia, ele manifesta resultados excelentes em um curto espaço de tempo. Toda a sintomatologia da doença abranda, e ele se enche de alegria, pressentindo a proximidade da cura total. É então que, subitamente, para sua surpresa, manifesta-se um quadro de febre alta, tosse, expectoração e perda de apetite. Essa reincidência sintomática costuma ser bastante persistente. O problema reside no fato de que, embora a terapia promova a eliminação do veneno e o alívio dos sintomas, a debilidade física do paciente se acentua. Consequentemente, não são raros os casos em que, apesar da significativa melhora do quadro patológico, a pessoa acaba por sucumbir devido à fraqueza extrema.
-
-A razão para tal fenômeno é a seguinte: o processo de purificação inicial do paciente tuberculoso foi suprimido por tratamentos médicos. Com isso, a força purificadora enfraquece gradualmente, e a doença entra em um curso de avanços e recuos, sem uma perspectiva clara de melhora. É geralmente nesse ponto que muitos recorrem à nossa terapia. O tratamento, então, dissolve as toxinas que se acumularam após a purificação inicial, gerando um efeito positivo temporário. O paciente recupera o apetite e, pouco a pouco, volta a se exercitar, o que faz com que sua força purificadora latente se restabeleça, recriando as condições do início do processo. Se o paciente estivesse com a mesma vitalidade daquela época, seu corpo suportaria a purificação até o fim e ele alcançaria a cura. Contudo, como seu organismo se encontra debilitado por um longo período de tratamento equivocado, ele é incapaz de suportar a intensidade da nova e vigorosa purificação, vindo a falecer por esgotamento.
-
-Vejamos, portanto, como proceder no tratamento de pacientes com tuberculose a partir do terceiro estágio para evitar esse desfecho adverso.
-
-Quando, após uma melhora inicial, ocorre a repurificação, a sintomatologia é invariavelmente a seguinte: observa-se um inchaço acentuado em um dos lados da medula oblonga, seja o direito ou o esquerdo, acompanhado de febre alta localizada. Se o inchaço estiver no lado direito, haverá um grande endurecimento no rim direito; se estiver no esquerdo, o endurecimento estará no rim esquerdo. Pode-se afirmar que quase não existem pessoas com a região da medula oblonga perfeitamente simétrica. Naturalmente, quando há um endurecimento em um dos rins, o outro também apresentará algum grau de rigidez, ainda que menor. Ademais, a presença de endurecimentos renais é sempre acompanhada por uma peritonite purulenta, que é, aliás, a causa da perda de apetite, algo especialmente acentuado em pacientes tuberculosos.
-
-Portanto, ao se manifestar a repurificação, a primeira medida é concentrar-se na dissolução e redução do endurecimento nos rins. À medida que isso ocorre, as concreções tóxicas na medula oblonga e no peritônio se tornam muito mais fáceis de dissolver. Assim, deve-se priorizar o tratamento dos rins, seguido pela medula oblonga e pelo peritônio, e depois por áreas como o estômago e o fígado. Se necessário, o tratamento pode ser realizado várias vezes ao dia. Seguindo esse método, obtêm-se resultados excelentes, e o processo de cura transcorre de forma harmoniosa, levando à recuperação completa mesmo nos casos de terceiro estágio.
-
----
-
-# Prefácio à obra "A Confissão de um Fiel"
-
-**Categoria:** ha | **Ano:** 昭和26(1951)年6月15日 | **Fonte:** 一信者の告白
-
-## Prefácio à obra "A Confissão de um Fiel"
-
-Recentemente, tive a oportunidade de ler os originais que me foram enviados por um fiel chamado Miyamoto Kinji. Em seu texto, ele descreve, sem qualquer adorno, toda a sua trajetória até ingressar em nossa Igreja, bem como as impressões que se seguiram à sua filiação. O relato é de uma sinceridade notável e, à medida que se avança na leitura, a sua narrativa revela-se profundamente comovente.
-
-O que se torna ainda mais digno de nota é o fato de que, em menos de dois anos de fé, o autor logrou apreender o âmago de nosso Ensinamento e, mais importante, vem diligentemente vivenciando-o na prática. O seu testemunho, que expõe o estado de espírito de quem foi resgatado de uma profunda adversidade para se tornar uma pessoa feliz, afigura-se, a meu ver, uma obra sobremodo apropriada para ser lida por aqueles que ainda não conhecem nossa Fé. Foi por essa razão que decidi publicá-la.
-
-Portanto, recomendo que este pequeno livro seja amplamente utilizado como uma valiosa ferramenta destinada ao público ainda não filiado à nossa Igreja.
-
-Jikan
-
----
-
-# Prefácio
-
-**Categoria:** ha | **Ano:** 昭和26(1951)年5月28日 | **Fonte:** Sanka-shu（改訂版）
-
-## Prefácio
-
-*Coletânea de Hinos (Edição Revisada)*
-*Publicada em 28 de maio de 1951*
-
-A presente coletânea de hinos é uma nova edição, revisada e reorganizada, daquela que publicamos em agosto de 1948. A razão para tal empreendimento é que, tendo sido a versão anterior compilada durante a era da Igreja Kannon do Japão, muitos de seus poemas tornaram-se inadequados ao momento presente, com o advento da Igreja Messiânica Mundial. Ademais, a premência com que a primeira coletânea foi preparada resultou em certos aspectos que não me satisfaziam plenamente. Portanto, a presente obra foi elaborada com esmero e dedicação, recebendo uma fisionomia inteiramente renovada.
-
-No Japão, existe desde tempos imemoriais uma forma literária singular conhecida como *waka*. Esta arte poética detém um poder extraordinário: é capaz de expressar, em apenas trinta e uma sílabas, sentimentos e pensamentos que mil palavras não conseguiriam traduzir. Possui, ademais, a força de comover o coração humano de maneira surpreendente.
-
-Foi nesse espírito que selecionei e compilei a presente obra, reunindo poemas que compus esporadicamente ao longo do tempo. Nela, encontram-se poemas de reflexão, de ensinamento, hinos sacros, cantos líricos e odes à natureza, entre outros.
-
-Não sendo um poeta de ofício, não me preocupei excessivamente com o virtuosismo técnico. Procurei antes expressar, com naturalidade, aquilo que brotava de meu íntimo. Contudo, dediquei especial atenção a três princípios: a clareza, para que todos pudessem compreender; a elevação, para que mantivessem a nobreza de espírito; e a manifestação do sublime poder do kotodama (言霊), a alma da palavra. Ao entoar estes hinos, pela manhã e ao entardecer, os fiéis naturalmente receberão influxos benéficos, e nem é preciso dizer que sua fé se aprofundará.
-
-Maio de 1951
-O Autor
-
----
-
-# O Sarampo e seu Tratamento
-
-**Categoria:** ha | **Ano:** 昭和25(1950)年3月25日 | **Fonte:** Kyusei
-
-## O Sarampo e seu Tratamento
-
-Visto que a época do sarampo se aproxima, julgo oportuno oferecer um alerta, pois, na verdade, a medicina parece ainda não ter compreendido a sua real natureza. O equívoco fundamental reside no emprego de compressas frias, o que constitui a pior das práticas. Em consequência desse resfriamento, as erupções cutâneas são suprimidas, fazendo com que a toxina do sarampo, impedida de se manifestar externamente, seja forçada a retroceder e se concentre nos órgãos internos. É precisamente essa a origem de complicações frequentemente associadas à doença, como a pneumonia e a otite média.
-
-A antiga crença popular de que é prejudicial expor-se a correntes de ar durante a enfermidade fundamenta-se no mesmo princípio: o vento resfria o corpo e, por conseguinte, obstrui a plena manifestação das erupções.
-
-Afinal, o sarampo é, em sua essência, uma espécie de doença de pele e, portanto, uma enfermidade de natureza branda. Quando alguém a contrai, basta que a pessoa permaneça em repouso, sem que se tente resfriar ou aquecer seu corpo artificialmente, para que a cura ocorra de forma simples e natural. Evidentemente, a ministração de Johrei acelera ainda mais a recuperação.
-
-Um ponto que merece atenção, todavia, é a pneumonia. Ela se manifesta quando as erupções do sarampo se formam nos alvéolos pulmonares. Com isso, o volume interno dos pulmões diminui, reduzindo a capacidade de absorção de ar e, consequentemente, tornando a respiração mais ofegante. Contudo, trata-se de um quadro que se resolve naturalmente em um ou dois dias.
-
-De modo semelhante, a otite e a conjuntivite representam apenas tentativas do organismo de expelir a toxina do sarampo através daquelas vias. Por essa razão, mesmo que não se realize nenhuma intervenção, a cura é certa e inevitável.
-
----
-
-# O Processo de Cura da Tuberculose
-
-**Categoria:** ha | **Ano:** 昭和18(1943)年5月5日 | **Fonte:** 結核問題と其解決策（再版）
-
-## O Processo de Cura da Tuberculose
-
-Inicialmente, os sintomas característicos do primeiro e do segundo estágio da tuberculose são febre baixa, tosse, expectoração, sudorese noturna, sensação de fadiga e uma leve perda de apetite. Nesses estágios, a enfermidade pode ser superada até mesmo pela cura natural. O método consiste em praticar exercícios físicos em um nível que não cause sofrimento. Naturalmente, tal prática intensificará os sintomas mencionados. Contudo, isso representa a aceleração do processo de purificação e, por conseguinte, conduz ao alívio e à cura da doença. Nesse sentido, a alimentação deve ser, na medida do possível, vegetariana.
-
-Gostaria de relatar minha própria experiência a esse respeito. Aos quinze anos, contraí pleurisia. Após aproximadamente um ano de tratamento médico, obtive a cura completa e desfrutei de boa saúde por um tempo, até sofrer uma recaída. Desta vez, entretanto, a evolução não foi favorável; meu quadro piorou gradualmente e, passado pouco mais de um ano, fui finalmente diagnosticado com tuberculose em terceiro estágio. Eu tinha dezoito anos na época. O último especialista a me examinar foi o falecido Dr. Tatsukichi Irisawa, que, após uma avaliação minuciosa, sentenciou que não havia mais esperança de cura.
-
-Diante disso, tomei uma decisão. Se meu destino era morrer, a única alternativa seria buscar um método extraordinário, capaz de operar uma cura milagrosa. E assim, comecei minha busca. Naquele período, meu único prazer era a pintura. Certo dia, ao folhear antigos álbuns de arte, deparei-me com um livro que ilustrava diversas ervas medicinais utilizadas na farmacopeia chinesa. Foi nesse momento que tive uma súbita revelação. Até então, minha dieta era rica em alimentos de origem animal. Além de carnes bovina e de frango, chegava a cozinhar o mingau de arroz com leite. Evidentemente, eu seguia as orientações dos médicos da época, que preconizavam que a nutrição se resumia a produtos de origem animal. Contudo, ao ler aquele livro, compreendi que os vegetais também possuem propriedades medicinais e nutritivas. Isso me fez refletir que, no antigo Período dos Reinos Combatentes, a alimentação era predominantemente vegetariana e, ainda assim, surgiram heróis e homens notáveis em profusão, como atestam os registros históricos. Pensei que essa poderia ser uma abordagem benéfica, especialmente para os japoneses, e resolvi adotá-la de forma decidida.
-
-Todavia, por precaução, decidi experimentar a dieta vegetariana por apenas um dia. Senti-me tão bem que continuei por um segundo, um terceiro, e a melhora se acentuava a cada dia. Foi então que percebi o equívoco da medicina ocidental e, por volta do sétimo dia, abandonei todos os medicamentos. Após cerca de um mês seguindo esse regime, eu estava praticamente curado. Mantive a dieta vegetariana por três meses e, como resultado, tornei-me mais saudável do que era antes de adoecer. Desde então, embora eu tenha contraído outras doenças, jamais voltei a apresentar sintomas relacionados à tuberculose, o que comprova minha recuperação plena. Hoje, com mais de sessenta anos, passadas mais de quatro décadas, meu vigor e saúde superam os de muitos jovens. Este fato demonstra que a tuberculose não é, de modo algum, uma doença a ser temida.
-
-Creio que este meu relato possa servir de referência para os portadores de tuberculose.
-
-O que descrevi foi um processo de cura natural. É desnecessário dizer que, ao receber o nosso tratamento, esse período é encurtado em muitas vezes.
-
-Há mais um ponto que merece atenção: existe um método extremamente eficaz contra os sintomas de hemoptise, que é a adoção da dieta vegetariana. Inúmeros casos práticos já demonstraram, de forma inequívoca, que mesmo os quadros mais severos de expectoração com sangue respondem a essa dieta de maneira decisiva. Recentemente, até mesmo um número considerável de especialistas tem defendido essa prática. Consequentemente, tornou-se também evidente o fato de que o consumo de carne, ao contrário, pode induzir à hemoptise.
-
-A seguir, abordarei os casos de tuberculose a partir do terceiro estágio. O processo de cura dessa doença apresenta uma particularidade que não se observa em outras enfermidades, e que se manifesta, pode-se dizer, exclusivamente em pacientes nessa fase avançada. Quando um paciente com tuberculose a partir do terceiro estágio começa a receber nosso tratamento, ele manifesta resultados notáveis em um curto período. Todos os sintomas diminuem, levando-o a crer, com grande alegria, que a recuperação total está próxima. Subitamente, porém, para sua surpresa, ressurgem sintomas como febre alta, tosse, expectoração e perda de apetite.
-
-Esses sintomas recorrentes são bastante persistentes. E embora o tratamento promova a eliminação das toxinas e o alívio dos sintomas, surge um grave problema: o avanço da debilidade física. O resultado é que, por vezes, apesar da significativa melhora da doença em si, o paciente acaba por sucumbir devido ao enfraquecimento.
-
-Qual a razão para isso ocorrer? Quando o processo de purificação se manifesta pela primeira vez no paciente com tuberculose, os tratamentos médicos convencionais o suprimem. Com isso, a força purificadora torna-se gradualmente mais fraca, e a doença entra em um ciclo de avanços e recuos, sem perspectiva de melhora. É geralmente nesse ponto que muitos procuram o nosso tratamento. Ao recebê-lo, as toxinas que se acumularam desde a primeira purificação começam a ser dissolvidas, o que gera um efeito positivo temporário. Consequentemente, o apetite do paciente melhora e ele volta a se exercitar, ainda que de forma gradual. Isso permite que a força purificadora se restabeleça, e o corpo retorna a um estado semelhante ao da primeira manifestação da purificação. Contudo, se na primeira vez o paciente possuía vigor suficiente para suportar o processo até o fim e alcançar a cura, agora seu corpo está debilitado por um longo período de tratamentos equivocados. Assim, mesmo com a melhora temporária, ele não consegue resistir à intensidade da nova e vigorosa purificação, vindo a falecer por esgotamento.
-
-Portanto, ao tratar um paciente com tuberculose a partir do terceiro estágio, o que fazer para evitar esse desfecho adverso? Explicarei a seguir. Primeiramente, quando a melhora inicial cede lugar a uma nova purificação, esta apresenta, invariavelmente, os seguintes sintomas: um inchaço acentuado em um dos lados da região da medula oblonga, acompanhado de febre alta localizada. Se o inchaço estiver do lado direito, haverá uma grande solidificação na região do rim direito; se estiver do lado esquerdo, a solidificação estará no rim esquerdo. Pode-se dizer que quase não há pessoas com essa região perfeitamente simétrica. Naturalmente, quando há uma solidificação em um dos rins, o outro também apresentará alguma, ainda que em menor grau. Além disso, a presença de solidificações renais está sempre associada à peritonite purulenta, que é particularmente acentuada nos pacientes com tuberculose e constitui uma das causas da perda de apetite. Assim, quando a segunda purificação se manifesta, a prioridade é a região dos rins. À medida que as solidificações renais se dissolvem e diminuem, as toxinas acumuladas na medula oblonga e no peritônio tornam-se muito mais fáceis de dissolver. Seguindo essa ordem – primeiro os rins, depois a medula oblonga e o peritônio, e em seguida o estômago, o fígado etc. –, e ministrando o tratamento várias vezes ao dia conforme o caso, obtêm-se resultados excelentes. O processo de cura transcorrerá de forma harmoniosa, e mesmo os casos de terceiro estágio poderão alcançar a recuperação completa.
-
----
-
-# O Homem Contemporâneo Portador de uma Bomba
-
-**Categoria:** ha | **Ano:** 昭和27(1952)年11月26日 | **Fonte:** Eikou
-
-## O Homem Contemporâneo Portador de uma Bomba
-
-Este título, à primeira vista, possa parecer um tanto alarmista. Contudo, trata-se de uma tese honesta e desprovida de qualquer exagero, e rogo que seja lida sob essa perspectiva.
-
-Nossos membros já o sabem bem, mas ao examinarmos o homem contemporâneo, que aparenta trabalhar com saúde, descobrimos, sem exceção, que seu corpo está repleto de nódulos de toxinas medicamentosas. Quando, porventura, uma dessas acumulações inicia seu processo de dissolução — o que é prontamente diagnosticado como doença —, a pessoa busca de imediato um médico. Após o exame, o profissional declara: “Isto é sério. Embora não pareça grave no momento, pode ser o prenúncio de uma enfermidade maior”, e empenha-se em solidificar novamente as toxinas. Os meios para essa solidificação são os mais variados, a começar pelos próprios medicamentos. Viver em uma sociedade que considera terapias avançadas aquelas que melhor endurecem tais impurezas é, de fato, algo lamentável.
-
-Por conseguinte, o homem de hoje acumula toxinas ilimitadamente, solidificando-as com esmero. Por isso, uma compleição que aparenta ser robusta e saudável é, na verdade, um sinal de grande perigo. Eu costumava gracejar, dizendo que o que vemos por aí são “acúmulos de pus a proferir discursos arrogantes”. Naturalmente, a situação não apenas persiste, como se agrava a cada dia. Prova disso é que não há criatura mais suscetível a doenças do que o ser humano de nossa era, o que gera um sem-fim de recomendações enfadonhas: “Cuidado com a higiene!”, “Não pegue resfriado!”, “Evite excessos à mesa!”, “Coma alimentos nutritivos!”, “Não passe frio!”, “Não se canse!”, “Durma o suficiente!”, “Lave as mãos!”, “Faça gargarejos!”. O corpo humano passou a ser tratado como um objeto extremamente frágil. Falando sem rodeios, poderíamos classificar a época atual como uma era de pavor.
-
-Todavia, ainda que fosse possível manter esse estado de coisas indefinidamente, um fator imutável o impede: a transmutação no Mundo Espiritual. Essa mudança se manifesta na crescente dificuldade de as toxinas permanecerem solidificadas. Por mais avançados que sejam os tratamentos e os novos fármacos, o poder de dissolução se tornará preponderante. Assim, é uma certeza tão clara quanto a luz do dia que as pessoas começarão a sucumbir em massa. É provável que, ao ler estas palavras, a maioria das pessoas as descarte como um disparate, dizendo: “Que absurdo! Isso é apenas uma tentativa de amedrontar”. No entanto, foi exatamente isso que Cristo profetizou há dois milênios: o Fim dos Tempos.
-
-Aqueles que não desejam crer não precisam fazê-lo. Porém, quando chegar a agonia final, de nada valerá o arrependimento tardio, e clamarão para si mesmos: “Ah, se eu soubesse! Fui tantas vezes alertado, que tolo fui por não dar ouvidos”. Portanto, para quem almeja a salvação, a hora é agora. E o que se deve fazer? Não há grande dificuldade. O perigo de vida reside na dissolução abrupta e simultânea de todas as toxinas; a salvação, por sua vez, está em dissolvê-las de forma gradual e controlada.
-
-Este é precisamente o método de Johrei ensinado por nossa Igreja. Sua simplicidade é tamanha que, para alguns, beira o inacreditável; reside aí, contudo, o seu imenso valor. À medida que a purificação do Mundo Espiritual se intensifica dia após dia, chegará o momento em que nem mesmo a medicina será capaz de impedir a dissolução das toxinas. É imperativo, pois, despertar o quanto antes e buscar o caminho de nossa Igreja.
-
-Em suma, o homem contemporâneo carrega, de fato, uma bomba de toxinas em seu interior.
-
----
-
-# A Anatomia dos Sintomas das Enfermidades
-
-**Categoria:** ha | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
-
-## A Anatomia dos Sintomas das Enfermidades
-
-Primeiramente, ao nos debruçarmos sobre os sintomas das enfermidades, podemos classificá-los, em linhas gerais, da seguinte maneira: febre, dor, prurido, mal-estar, vômito, diarreia, edema (inchaço), sudorese noturna, vertigem, insônia, melancolia, paralisia, tosse, rubor facial (sensação de calor na cabeça), zumbido, calafrios e constipação. Analisemos, pois, cada uma dessas manifestações sob a ótica da nossa arte de cura.
-
-No que tange à febre, a teoria médica vigente atribui sua causa a um suposto centro termorregulador localizado no cérebro, que seria ativado por algum tipo de estímulo. Contudo, as explicações para febres decorrentes de fadiga por exercício físico ou de desordens hepáticas, renais e gastrointestinais permanecem vagas e imprecisas. Conforme já elucidei anteriormente, tal centro termorregulador simplesmente não existe no corpo humano. Há, todavia, uma noção que não pode ser ignorada: a teoria de que a temperatura corporal é gerada pela combustão dos alimentos. Esse raciocínio simplista, de uma ingenuidade atroz, provavelmente surge da analogia que se faz entre o processo digestivo e um fogão, e entre a digestão dos alimentos e a queima de carvão.
-
-Ao expor a verdadeira causa da febre, fruto de minhas pesquisas, peço ao leitor que se despoje de pré-conceitos e se dedique a uma reflexão atenta e profunda, pois a verdade que apresento difere radicalmente do conhecimento convencional.
-
-Fundamentalmente, tudo no Universo, em sua vasta e complexa manifestação, constitui-se de três elementos primordiais: Fogo, Água e Terra. O Elemento Fogo é a essência do Sol; o Elemento Água, a essência da Lua; e o Elemento Terra, a essência do nosso planeta. Essa estrutura se organiza em três planos: o Mundo Celestial, associado ao Sol; o Mundo Intermediário, à Lua; e o Mundo Terreno, à Terra. Tal ordenamento torna-se claramente visível durante um eclipse solar.
-
-Essa organização vertical, no entanto, reflete-se igualmente em uma dimensão horizontal. Trata-se de uma interconexão tridimensional, um princípio que se aplica perfeitamente ao corpo humano.
-
-Nesse sentido, o organismo humano possui três órgãos vitais: o coração, os pulmões e o estômago. A atividade desses três centros de força sustenta a vida por meio da absorção dos elementos primordiais: o coração absorve o Elemento Fogo; os pulmões, o Elemento Água; e o estômago, o Elemento Terra.
-
-Ocorre que a ciência moderna, embora já compreenda os Elementos Água e Terra, desconhece por completo o Elemento Fogo. A razão para tal é que, enquanto o Elemento Água é semimaterial e o Elemento Terra é material, o Elemento Fogo é de natureza imaterial.
-
-Aprofundemos esse princípio. O Elemento Fogo, imaterial, preenche o espaço terrestre, constituindo um plano que denomino Mundo Espiritual. De forma análoga, o Elemento Água preenche o mesmo espaço, formando o Mundo Atmosférico. Assim, o coração absorve o Elemento Fogo do Mundo Espiritual, e seu movimento é a pulsação. Os pulmões, por sua vez, absorvem o Elemento Água do Mundo Atmosférico, no ato da respiração. Por fim, o estômago absorve os alimentos, que são produtos do Elemento Terra, fato conhecido por todos.
-
-Com base nesse princípio, a temperatura corporal é o Elemento Fogo continuamente absorvido do Mundo Espiritual através da pulsação cardíaca. A febre, portanto, nada mais é do que a absorção intensificada desse elemento, necessária para promover a dissolução de toxinas solidificadas no organismo. A aceleração dos batimentos cardíacos durante um estado febril ocorre justamente por essa razão. Sob essa mesma lógica, após a morte, o sangue coagula rapidamente porque o Elemento Fogo retorna ao Mundo Espiritual; o corpo resseca porque o Elemento Água retorna ao Mundo Atmosférico; e o cadáver se decompõe porque, sendo matéria, retorna ao Elemento Terra.
-
-É crucial observar também que, embora as pessoas acreditem que a febre seja um fenômeno generalizado, na maioria dos casos ela é, na verdade, localizada. Em quadros de febre alta, por exemplo, ao se apalpar o corpo com a ponta dos dedos em busca do epicentro do calor, é possível encontrar um pequeno nódulo, do tamanho da ponta de um dedo, que irradia uma temperatura intensa, semelhante a uma brasa. Ao dissolvermos esse foco, a febre cede de imediato em todo o corpo. Tal fato demonstra, de forma inequívoca, a inexistência de qualquer centro termorregulador. Ademais, o termômetro, no qual as pessoas depositam tanta confiança, não é um instrumento preciso. Se o foco febril estiver próximo à axila, o aparelho registrará uma temperatura elevada; se estiver distante, como na cabeça ou nos membros inferiores, a leitura será proporcionalmente mais baixa. Isso ocorre porque o calor se irradia a partir do epicentro, diminuindo de intensidade à medida que se distancia dele. Prova disso é que, frequentemente, ao se medir a temperatura em ambas as axilas de uma mesma pessoa, encontram-se diferenças de cinco a seis décimos de grau.
-
-Outro procedimento comum, o de aplicar gelo para baixar a febre alta, é extremamente prejudicial. A temperatura corporal ideal para o ser humano, em torno de 36 graus Celsius, é aquela que permite o funcionamento ótimo de todas as suas funções. O gelo, a zero grau, ao ser aplicado, compromete severamente a atividade da região resfriada, podendo até mesmo cessá-la por completo, induzindo um estado de paralisia por congelamento. Em minha experiência, observei inúmeros casos de hemorragia cerebral, pneumonia, febre tifoide e outras doenças febris graves em que a causa do óbito não foi a enfermidade em si, mas sim a aplicação de gelo.
-
-A esse respeito, recordo-me de um caso. Certa vez, fui chamado a um hospital para atender um estudante universitário em estado grave. Ele havia sido internado com um quadro de diarreia intensa, sem outras queixas. Quando o examinei, porém, encontrei-o em condição crítica: apresentava uma anemia cerebral severa, estava com a mente confusa, sofria de vômitos frequentes, não tinha apetite e demonstrava um enfraquecimento acentuado. A explicação era a seguinte: devido à febre alta inicial, decorrente de um catarro, a equipe médica aplicou-lhe gelo na cabeça por mais de vinte dias consecutivos. Esse procedimento desencadeou a grave anemia cerebral. A diarreia, motivo da internação, já havia sido curada, mas agora o paciente agonizava por uma nova doença, criada por um tratamento equivocado. Expliquei a situação à família, mas, devido à sua fé cega na medicina, não conseguiram interromper o uso do gelo. Sem outra opção, retirei-me. Passados dois ou três dias, recebi a notícia de seu falecimento.
-
-Ah, não posso senão lamentar quão terrível é o equívoco da medicina ao empregar o resfriamento com gelo!
-
-Por fim, é preciso estar ciente dos perigos do uso contínuo de antitérmicos. Geralmente, após uma semana ou mais de uso ininterrupto, muitos pacientes começam a apresentar um efeito rebote. Manifesta-se, então, uma febre persistente e refratária, que os médicos frequentemente diagnosticam como "febre de origem indeterminada".
-
----
-
-# Reflexões sobre Bernard Shaw
-
-**Categoria:** ha | **Ano:** 昭和25(1950)年11月15日 | **Fonte:** Eikou
-
-## Reflexões sobre Bernard Shaw
-
-Bernard Shaw, o notável literato de renome mundial recentemente falecido, a quem muitos reverenciavam como um dos grandes vultos da humanidade, foi alguém por quem nutri, desde a juventude, profunda admiração. Sendo assim, gostaria de registrar aqui algumas das diversas recordações que guardo sobre o velho mestre.
-
-Ao tecerem críticas a Shaw, a maioria das pessoas limita-se a apontar sua ironia e seu talento para os aforismos. Contudo, sempre lamentei que essa avaliação, embora capture uma de suas facetas singulares, obscureça todo o restante de sua genialidade. A meu ver, dificilmente haverá quem se iguale a ele na capacidade de apreender a essência dos fatos e expressá-la de forma tão precisa e direta. Ele era capaz de proferir, em meio ao humor e à ironia, epigramas concisos e agudíssimos, que atingiam o cerne da questão numa única sentença. Essa é uma qualidade própria de um religioso de estirpe.
-
-Dentre as obras que me vêm à memória, relatarei brevemente sobre algumas. Existe uma peça famosa de sua autoria, intitulada “O Discípulo do Diabo”, a qual tive a oportunidade de assistir no teatro. Foi uma experiência fascinante e profundamente comovente. A trama se passa em uma pequena cidade inglesa, onde vive um pastor. Certo dia, durante a ausência dele, oficiais de polícia irromperam na residência com o intuito de prendê-lo sob determinada acusação. Diante da ausência do pastor, comunicaram o motivo da visita à sua esposa, que, tomada por espanto e temor, não sabia como reagir.
-
-Ocorre que, pouco antes, chegara à casa um homem, um jovem de má reputação conhecido em toda a cidade pela alcunha de “discípulo do diabo”, o que por si só dispensa maiores explicações. Incapaz de permanecer como mero espectador do desespero da esposa do pastor, que tremia diante dos policiais, o “discípulo do diabo” tomou uma atitude inesperada. Dirigindo-se aos oficiais, declarou: “O culpado por esse crime sou eu. Levem-me em seu lugar”. Os policiais, conhecendo a fama do rapaz, não duvidaram de suas palavras e o conduziram imediatamente à delegacia.
-
-Pouco tempo depois, o pastor retornou e, ao ouvir o relato de sua esposa, seu semblante se transformou. O tormento espiritual que o assolou tornou-se evidente, pois, atormentado pela culpa, ele vinha dia e noite arquitetando uma forma de escapar de sua responsabilidade. Sua índole covarde fora confrontada pelo ato de um outro homem. Como a zombar de sua pequenez, o nobre sacrifício fora protagonizado justamente por aquele a quem a sociedade rotulava como “discípulo do diabo”. Diante daquela coragem sublime, quase santa, e daquela manifestação de amor, o pastor foi tomado por uma vergonha avassaladora. Como poderia ele, um apóstolo do sagrado Deus, ser inferior ao discípulo de um demônio? Após confessar sua fraqueza à esposa, correu à delegacia para esclarecer os fatos. O crime, ao que parece, era de menor gravidade, e o jovem foi prontamente libertado, retornando com o pastor para casa. Ali, recebeu não apenas o agradecimento, mas também o louvor por seu ato. A cena marcou-me de tal forma que a recordo vividamente até hoje.
-
-Outra de suas obras é a novela “As Armas e o Homem”, também conhecida como “O Soldado de Chocolate”. Escrita após a Primeira Guerra Mundial, é uma sátira pacifista. A história retrata um soldado que, enquanto estava aquartelado em uma aldeia, dedicava seu tempo livre a cuidar das crianças locais, presenteando-as sempre com chocolates. Lembro-me de que a obra continha aforismos mordazes sobre a natureza da guerra.
-
-Há também o romance “Século XX”, que descreve o pensamento vigente na Inglaterra do pós-guerra. O protagonista é um coronel do Exército, aposentado, de índole feudal e intransigente, que personificava o pensamento conservador britânico. Sua mentalidade era um resquício de outra era, tal como o penteado *chonmage* que ainda se via no Japão da era Meiji. Sua teimosia e arrogância tornavam o ambiente familiar sombrio e opressivo, mas, às suas costas, a família o ridicularizava. O filho, por vezes, tentava persuadi-lo com ideias modernas, mas em vão. No entanto, após uma série de acontecimentos, o velho coronel gradualmente cedeu e, ao final, rendeu-se. Como muitos anos se passaram, é possível que minha memória me traia em alguns pormenores, mas a essência da trama é a que descrevi.
-
-Deixando de lado seus romances, abordarei agora alguns de seus ensaios e epigramas. Sua visão sobre a comédia era a seguinte: o objetivo, naturalmente, é provocar o riso, e para isso existe um método: o desencanto. Por exemplo, se um homem de aparência distinta, com uma bela barba, atravessa o palco montado em um cavalo com ar imponente e, na cena seguinte, reaparece completamente nu sobre o mesmo animal, o público não consegue conter o riso diante do desencanto. O segredo da comédia, segundo ele, reside em desnudar por completo as aparências, os embustes e as tradições da sociedade, expondo a realidade nua e crua.
-
-Com efeito, sua ironia e seus aforismos têm como eixo central essa mesma perspectiva. Em outras palavras, ele desnudava a realidade sem meias-palavras, revelando-a em sua total honestidade. Sua personalidade refletia essa mesma característica. Creio que jamais existiu um literato tão sincero quanto ele. Por isso, sua ironia não era um mero artifício; era a própria exposição da realidade que se tornava irônica.
-
-Certa vez, em uma palestra para uma grande plateia, ele iniciou seu discurso da seguinte forma: “As mentes dos que aqui se reuniram hoje provavelmente não compreenderão o que estou prestes a dizer”. Para o espanto de muitos, o auditório irrompeu numa estrondosa gargalhada. Nisto reside seu peculiar encanto. Normalmente, tal insulto provocaria a ira do público, mas a reação foi oposta, o que demonstra o imenso afeto que as massas nutriam por ele.
-
-Em outra ocasião, uma célebre escritora lhe propôs: “Imagine que uma pessoa com uma mente brilhante como a sua se casasse com alguém como eu. Certamente teríamos um filho maravilhosamente inteligente!”. Shaw respondeu de pronto: “De modo algum. O mais provável é que um filho nascido de alguém com um rosto peculiar como o meu e de alguém com uma mente tão comum como a sua não servisse para grande coisa”.
-
-O aforismo que considero mais interessante, contudo, é sua definição do amor: uma necessidade outorgada por Deus para a preservação da espécie. Quão libertador não seria este pensamento?
-
-Sua autoconfiança era, quiçá, inigualável. Consta que ele dizia frequentemente: “É verdade que Shakespeare é considerado o maior da Inglaterra, mas, para ser sincero, eu sou maior do que ele”. Tais palavras não provinham da arrogância ou da ostentação; eram apenas a expressão honesta do que ele realmente pensava. O fato de que afirmações que em outros soariam como delírios de grandeza eram recebidas com naturalidade quando proferidas por ele revela a sua magnitude. Em seus últimos anos, personalidades influentes da Inglaterra recorriam a ele para ouvir suas opiniões sobre os mais variados problemas, o que demonstra a imensa importância de sua figura. Ele deve, sem dúvida, ser contado entre os grandes vultos do século XX.
-
-### O Segredo da Longevidade: O Vegetarianismo
-
-Mudando de assunto, a causa direta de sua morte foi atribuída a uma cirurgia renal. Sobre isso, gostaria de expor meu pensamento. Shaw sofreu uma queda no jardim e fraturou o fêmur, o que o levou a uma primeira cirurgia, a qual, em si, não representava risco de vida. Contudo, uma doença renal crônica que ele possuía manifestou-se, e foi a intervenção cirúrgica para tratar essa condição que resultou em seu falecimento.
-
-Na verdade, a crise renal foi uma consequência temporária do trauma da fratura. Tenho a convicção de que, se o problema tivesse sido deixado a seu curso natural, a recuperação seria certa. A medicina da época, todavia, carecia desse discernimento e optou pela operação. Portanto, sua morte foi um sacrifício a um erro médico. Shaw tornou-se uma vítima da medicina de sua época.
-
-Tenho a convicção de que, sem a cirurgia, ele teria vivido por muito mais tempo, pois, contrariando o costume ocidental, era um vegetariano convicto há muitos anos. O vegetarianismo é o maior segredo para a longevidade, e sua perda, nessas circunstâncias, é verdadeiramente lamentável.
-
----
-
-# O Processo de Cura da Tuberculose
-
-**Categoria:** ha | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第二編
-
-## O Processo de Cura da Tuberculose
-
-Nos estágios iniciais da tuberculose, o primeiro e o segundo, manifestam-se sintomas como febre baixa, tosse, expectoração, sudorese noturna, fadiga e inapetência. Nesse quadro, a cura pode ser alcançada por meios naturais. Um método para tal consiste em praticar exercícios leves, na medida em que não causem sofrimento. Naturalmente, tal prática intensificará, em um primeiro momento, os referidos sintomas. Contudo, esse processo acelera a ação purificadora, de modo que, gradualmente, o quadro clínico se atenua, conduzindo à plena recuperação. Adicionalmente, uma dieta predominantemente vegetariana é sobremaneira benéfica.
-
-A esse respeito, permitam-me relatar minha própria experiência.
-
-Aos quinze anos, fui acometido por uma pleurisia. Após cerca de um ano de tratamento médico, obtive a cura completa e desfrutei de boa saúde por algum tempo, até que a doença reincidiu. Desta vez, contudo, a evolução não foi favorável; meu estado se agravou progressivamente e, ao fim de pouco mais de um ano, recebi o diagnóstico definitivo de tuberculose pulmonar em terceiro estágio. Tinha então dezoito anos. O último médico a me examinar foi o falecido Dr. Tatsukichi Irisawa, que, após uma avaliação minuciosa, declarou não haver mais esperança de cura.
-
-Diante disso, tomei uma resolução. Se estava fadado a morrer seguindo pelo mesmo caminho, não me restava alternativa senão buscar um método distinto, capaz de operar uma cura milagrosa. Nessa época, meu único deleite era a pintura e, ao folhear antigos álbuns de arte, deparei-me com um livro que ilustrava diversas ervas medicinais utilizadas na farmacopeia chinesa. Foi nesse momento que uma ideia fulgurante me ocorreu.
-
-Até então, eu vinha consumindo uma grande quantidade de alimentos de origem animal. Além de carnes de boi e de frango, chegava a cozinhar o mingau de arroz com leite. Os médicos daquela época preconizavam que a nutrição se resumia a esse tipo de alimento, e eu seguia rigorosamente tal recomendação. No entanto, aquele livro me fez ponderar que os vegetais também possuem propriedades medicinais e nutritivas. Refletindo sobre isso, lembrei-me de que, durante a era dos Reinos Combatentes no Japão, a alimentação era quase que inteiramente vegetariana. E foi nesse período que surgiram inúmeros heróis e homens notáveis, conforme narram os registros históricos. Isso me levou a crer que o vegetarianismo poderia ser, de fato, benéfico, especialmente para o povo japonês. Assim, decidi firmemente colocar essa ideia em prática.
-
-Para proceder com cautela, experimentei a dieta vegetariana por apenas um dia e senti um bem-estar notável. Continuei por mais dois, três dias, e a melhora se acentuou. Compreendi, então, o equívoco da medicina ocidental e, ao cabo de uma semana, abandonei todos os medicamentos. Transcorrido cerca de um mês, eu estava praticamente curado. Mantive a dieta por três meses e, como resultado, tornei-me mais saudável do que era antes de adoecer. Desde então, embora tenha contraído outras enfermidades, jamais voltei a apresentar sintomas relacionados à tuberculose. O fato de que hoje, com mais de sessenta anos, passadas mais de quatro décadas, gozo de uma saúde vigorosa que supera a de muitos jovens, é a prova inequívoca de que a tuberculose pode ser completamente curada.
-
-Creio que este relato possa servir de referência aos que sofrem dessa doença. Cumpre ressaltar que o processo que descrevi se refere à cura natural; desnecessário dizer que, com a aplicação da nossa terapia, esse tempo é reduzido a uma pequena fração.
-
-Passarei a discorrer, agora, sobre o tratamento da tuberculose a partir do terceiro estágio.
-
-A cura da tuberculose, nesse nível, apresenta uma particularidade não observada em outras doenças, a qual se restringe, pode-se dizer, aos pacientes em estágio três ou superior. Quando um paciente nessa fase recebe nosso tratamento, manifesta uma melhora notável, e em pouco tempo todos os sintomas da doença se atenuam. Ele se rejubila, acreditando estar próximo da recuperação total, quando, subitamente, é surpreendido pelo surgimento de febre alta, tosse, expectoração e inapetência. Este quadro reincidente costuma ser bastante obstinado, e embora o tratamento promova a eliminação das toxinas e o alívio dos sintomas, não são raros os casos em que o paciente sucumbe devido ao esgotamento.
-
-Qual a razão para tal fenômeno? Ocorre que a ação purificadora inicial, que surge naturalmente no organismo do tuberculoso, é suprimida pelos tratamentos médicos convencionais. A força purificadora torna-se gradualmente mais fraca, criando uma aparência de melhora que, na verdade, não corresponde a uma cura genuína. O paciente entra, assim, em um ciclo de altos e baixos, sem perspectiva clara de recuperação. Em geral, é nesse ponto que muitos recorrem à nossa terapia. O tratamento, então, dissolve as toxinas que se acumularam após a supressão daquela purificação inicial, gerando um efeito positivo temporário.
-
-Consequentemente, o apetite do paciente melhora, e ele volta a se movimentar gradualmente, o que restabelece sua força purificadora latente. Isso desencadeia um novo processo purificador, com intensidade semelhante ao que ocorrera no princípio da doença. Contudo, há uma diferença crucial: na primeira vez, o paciente possuía vigor físico suficiente para suportar a purificação até o fim e alcançar a cura. Agora, debilitado por um longo período de tratamentos equivocados, ainda que tenha experimentado uma melhora passageira, seu corpo não consegue resistir a uma purificação tão intensa, levando-o à morte por esgotamento.
-
-Portanto, para evitar esse desfecho trágico no tratamento de pacientes com tuberculose em estágio avançado, é preciso adotar o procedimento que descreverei a seguir.
-
-Quando a purificação secundária se manifesta, ela invariavelmente apresenta os seguintes sinais: um inchaço acentuado e febril em um dos lados da região do bulbo raquidiano. Se o lado direito estiver inchado, significa que há uma grande concentração de toxinas solidificadas na região do rim direito; se o inchaço for no lado esquerdo, a concentração se encontra no rim esquerdo. É raro que ambos os lados estejam equilibrados. Ademais, a presença de toxinas em um dos rins implica, via de regra, a existência de uma quantidade menor no outro. Onde há toxinas renais, há também, invariavelmente, peritonite purulenta, um quadro especialmente acentuado em pacientes tuberculosos e que constitui uma das causas da inapetência.
-
-Nesse sentido, ao eclodir a purificação secundária, a prioridade absoluta é dissolver e reduzir a solidificação de toxinas na região dos rins. À medida que se obtém êxito nessa tarefa, as toxinas localizadas no bulbo e no peritônio tornam-se muito mais fáceis de dissolver. A sequência correta do tratamento é, portanto: em primeiro lugar, a região dos rins; em seguida, o bulbo e o peritônio; e, posteriormente, as áreas do estômago, fígado e outras. Dependendo do caso, o tratamento pode ser aplicado várias vezes ao dia. Seguindo esse método, obtêm-se resultados excelentes e o processo de cura transcorre de forma harmoniosa, possibilitando a recuperação completa mesmo em casos de terceiro estágio.
-
-Como exposto, o tratamento focado nos rins é o que permite a cura completa da tuberculose. Se, porventura, os resultados não corresponderem às expectativas, isso indica que a dissolução das toxinas renais foi insuficiente. Nesse caso, é imperativo intensificar o tratamento nessa área específica até que o êxito almejado finalmente se manifeste.
-
----
-
-# Reflexões sobre uma Trajetória Singular
-
-**Categoria:** ha | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
-
-## Reflexões sobre uma Trajetória Singular
-
-Segundo o cômputo oriental, conto este ano sessenta e oito anos de vida, e creio ter esgotado o cálice de todas as amarguras e vicissitudes que o mundo pode oferecer. Provavelmente, poucos terão trilhado um caminho tão singular e repleto de reviravoltas quanto o meu.
-
-Em um momento, sentia-me alçado ao cume de uma alta montanha, para, no instante seguinte, ser abruptamente atirado ao fundo de um vale. E, quando menos esperava, era novamente elevado às alturas. Trata-se, com efeito, de um destino que se desdobrou em incontáveis transformações, uma trajetória que em nada se assemelhou à das pessoas comuns. Conheci alegrias muito mais intensas que as da maioria, mas, em contrapartida, enfrentei sofrimentos e provações igualmente superlativos.
-
-Foi a partir do cerne dessas vivências que extraí os relatos que pudessem ser de maior interesse e servir como nutrimento para a alma, e os compilei nesta obra, registrando-os à medida que afluíam à minha memória. Serei afortunado se este livro puder, de alguma forma, servir de auxílio aos leitores em sua jornada pela vida.
-
----
-
-# O Paradoxo do Poder Legislativo
-
-**Categoria:** ha | **Ano:** 昭和24(1949)年8月6日 | **Fonte:** -
-
-## O Paradoxo do Poder Legislativo
-
-O Parlamento é conhecido como Poder Legislativo, e com razão, pois a cada ano se dedica a promulgar novas leis e regulamentos. Tal fato, todavia, não constitui motivo de louvor. Na realidade, a necessidade de novas leis reflete unicamente a proliferação das mazelas sociais.
-
-Ora, se o número de homens virtuosos na sociedade aumentasse, as leis se tornariam supérfluas e, por conseguinte, a própria atividade de legislar perderia sua razão de ser. Portanto, o verdadeiro avanço da civilização não reside na criação de leis, mas no advento de uma era em que o Parlamento possa se converter em um “Poder Revogador”, cuja nobre função seja extinguir o ordenamento jurídico que se tornou obsoleto.
-
----
-
-# A Alvorada da Verdade Absoluta
-
-**Categoria:** ha | **Ano:** 昭和11(1936)年1月25日 | **Fonte:** Hikari明世界
-
-## A Alvorada da Verdade Absoluta
-
-Até hoje, existiram inúmeras religiões, mas todas continham graves equívocos. Isso ocorreu porque, no âmbito do Plano Divino para o mundo, ainda não era chegado o momento de Deus revelar a Verdade em sua plenitude. Por essa razão, por mais que as pessoas se esforçassem, não conseguiam compreendê-la. A ausência de compreensão, por sua vez, gerava toda sorte de dúvidas e confusões, e estas impediam que a sociedade humana se aprimorasse. Em suma, a humanidade, até o presente, foi mantida na ignorância a respeito dos fatos essenciais. As doutrinas e escrituras sagradas de todas as religiões eram de caráter provisório; eram, por assim dizer, ensinamentos e teorias preparatórias. Eis o motivo pelo qual as pregações de todos os sábios e vultos ilustres, desde Buda Shakyamuni, não surtiram o efeito definitivo.
-
-Com efeito, a maioria desses homens, considerados santos e grandes vultos da história, pereceu em estado de dúvida, sem jamais ter conhecido a verdade última. Toma-se como exemplo Daruma, que, segundo se narra, alcançou a iluminação após nove anos de árdua meditação diante de uma parede; contudo, a verdadeira profundidade de seu satori permanece incerta. O mais próximo de conhecer a essência foi Buda Shakyamuni; ainda assim, a verdade suprema não foi revelada em seus sutras.
-
-O fato de terem surgido, e continuarem a proliferar, inúmeras religiões, grandes e pequenas, é a prova cabal de que o verdadeiro ensinamento ainda não havia se manifestado. Se uma doutrina de valor absoluto já tivesse sido revelada, não haveria espaço para o surgimento de tantas outras. O mesmo se aplica, por exemplo, aos medicamentos: a contínua criação de novos remédios se deve ao fato de os anteriores não serem plenamente eficazes. Se surgisse um medicamento de cura definitiva, a questão estaria resolvida e não haveria mais necessidade de novas drogas. Outro exemplo é a vacina contra a varíola. Desde a sua invenção, nenhuma outra foi criada, pois aquela única solução resolveu o problema em definitivo. Da mesma forma, no campo dos ensinamentos, uma vez que o verdadeiro seja revelado, ele se tornará o único. A miríade de seitas e credos perderá sua razão de existir, e tampouco haverá lugar para o aparecimento de novas religiões. A existência de tantas denominações até hoje é a evidência de que o absoluto ainda não havia chegado.
-
-Ademais, um fato curioso é que nunca existiu uma sede central da "Seita Kannon" ou uma "Religião de Kannon". Isso faz parte do profundo desígnio Divino, que constituía, na verdade, uma preparação para a futura unificação de todas as religiões.
-
-Agora, finalmente, manifesta-se o ensinamento de Kannon. Ou melhor, não seria correto chamá-lo de ensinamento, pois o que se manifesta é o próprio Poder de Kannon (観音). Por meio desse poder, chegou o tempo da unificação de todas as religiões. Nesse sentido, a doutrina de Kannon (観音) é extremamente simples. Conforme mencionei anteriormente ao falar do Sol, a sua essência é precisamente o Sol.
-
-Há pouco, o senhor Shimizu mencionou-me que a ocultação da lua de Ananai e o surgimento da Luz do Oriente significam que as cortinas da noite se fecham para dar lugar ao dia. Se aplicarmos esta analogia ao mundo, a lua de Ananai corresponde à civilização ocidental, e o despontar da Luz do Oriente indica que o ciclo da civilização ocidental chegará ao seu término.
-
-Até agora, a principal das religiões era o Budismo. Seus sutras, em número de oitenta e quatro mil, são uma obra monumental; contudo, sempre pensei que não haveria necessidade de tantos escritos. Foi justamente essa vastidão que impediu as pessoas de alcançarem a iluminação e, por não a alcançarem, muitas permaneceram em estado de confusão.
-
-A Verdade, por sua natureza, deve ser extremamente simples. Afinal, se não fosse simples, como poderia a grande maioria da humanidade ser salva?
-
-Então, por que foi necessário utilizar um volume tão extenso de palavras? Permitam-me ilustrar este ponto com a analogia da luz. Para iluminar um ambiente com velas, é preciso acender um grande número delas; para clarear um único cômodo, seriam necessárias dezenas. É por essa mesma razão que os sutras, a Bíblia e outras escrituras sagradas se utilizam de tantos termos. O fato de seus textos serem sobremaneira complexos é também um mistério. E o mais cômico é a ideia de que o valor de um texto reside em sua dificuldade de compreensão. Meus caros, porventura haveria alguém que, ao assistir a uma peça de teatro, a considerasse interessante por não entender o enredo? Se houvesse, tal pessoa seria, decerto, um alienado mental. O princípio é o mesmo.
-
-Até o despontar do Sol, não havia outra alternativa senão resignar-se à penumbra, iluminada por inúmeras velas e lâmpadas.
-
-O caminho de Kannon (観音), todavia, é de uma simplicidade extrema: basta volver-se em direção ao Sol. Para iluminar uma casa, basta abrir as portas. Ao ser humano, basta abrir as janelas do coração. Antigamente, como nos foi relatado há pouco pelo senhor Okaba na história de Sawachi de Tsubosaka, era necessário devotar-se com tamanho afinco para receber uma graça. Hoje, vivemos uma era verdadeiramente abençoada, pois, em nossa fé, ao reverenciar a Imagem Sagrada, recebida pela módica quantia de um iene e cinquenta sen, muitas doenças são curadas.
-
-Há dois ou três dias, uma senhora veio à minha casa, subiu ao segundo andar e relatou-me o seguinte: "Mestre, a imagem de Kannon (観音) exposta no andar de baixo está viva, não é mesmo? Enquanto orava, percebi que da imagem emanava uma luz e, simultaneamente, Ela moveu as sobrancelhas, piscou os olhos e, por fim, abriu a boca num sorriso. Fiquei assombrada quando a imagem, que estava de pé, começou a caminhar! Ela andou para a direita e depois retornou ao seu lugar original. Sempre ouvi as antigas histórias sobre as esculturas de Hidari Jingoro que ganhavam vida, andavam e voavam, e agora vejo que não eram meras fábulas".
-
-Ao que respondi: "Naturalmente. Se uma imagem de Kannon (観音) não fosse capaz de tal prodígio, como poderia Ela salvar o mundo inteiro?".
-
----
-
-# A Verdade sobre a Pneumonia e a Tuberculose
-
-**Categoria:** ha | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
-
-## A Verdade sobre a Pneumonia e a Tuberculose
-
-Dentre as enfermidades que mantêm um vínculo mais íntimo com o resfriado, destacam-se, inequivocamente, a pneumonia e a tuberculose. Considerando que, no Japão de hoje, estas representam as duas maiores aflições da nação, torna-se imperativo elucidar detalhadamente suas naturezas.
-
-A gênese tanto da pneumonia quanto da tuberculose reside, fundamentalmente, no resfriado. Conforme explanei no capítulo anterior, no exato momento em que o processo purificador do resfriado se manifesta, a medicina emprega todos os meios para detê-lo. Dentre as diversas estratégias utilizadas, as mais nefastas são, sem dúvida, o uso de fármacos e de compressas de gelo.
-
-Originalmente, o que são os fármacos? Em sua totalidade, substâncias tóxicas. Questiona-se, então, por que toxinas passaram a ser utilizadas como medicamentos. A resposta, já abordada, é simples: por sua notável eficácia em paralisar o processo de purificação.
-
-Nesse ponto, cumpre elucidar a natureza intrínseca do processo purificador. Trata-se, como mencionado, da capacidade inata que possuímos desde o nascimento para expelir as toxinas acumuladas no organismo. A intensidade dessa força natural, por conseguinte, determina o vigor da purificação. Com efeito, o fato de a tuberculose incidir com maior frequência entre os jovens deve-se precisamente à sua vigorosa capacidade purificadora. A razão pela qual a doença decresce da meia-idade para a velhice é a mesma, assim como é análoga a razão pela qual diversas enfermidades infecciosas acometem mais crianças e adolescentes.
-
-Quando uma doença — ou seja, um processo purificador — se manifesta, a medicina busca detê-la a qualquer custo. Para tanto, o método por excelência consiste em debilitar o organismo. A única via concebida para tal fim foi a introdução de substâncias tóxicas no corpo, pois, ao enfraquecê-lo, a purificação também perde força e os sintomas da doença são mitigados.
-
-Questiona-se, outrossim, por que as compressas de gelo são prejudiciais. A resposta é que elas arrefecem o calor febril necessário para dissolver as toxinas. Como resultado, a purificação enfraquece, as toxinas voltam a se solidificar e o sofrimento diminui temporariamente. O mesmo princípio se aplica aos cataplasmas, com uma ligeira diferença: o corpo humano respira continuamente também através dos capilares da pele, e, ao obstruí-los, o cataplasma sufoca a área, interrompendo a purificação local e aliviando os sintomas. As injeções, que gozam de errônea popularidade nos tempos recentes, seguem a mesma lógica: por serem substâncias de alta toxicidade, cujo consumo oral acarretaria risco de envenenamento, são introduzidas diretamente através da pele.
-
-Sempre que um resfriado é suprimido por meio de toxinas medicamentosas ou outros métodos, uma pequena parte das toxinas corporais é eliminada, mas a maior parte remanesce, solidificando-se novamente. A cada novo resfriado suprimido, novas toxinas medicamentosas se somam às já existentes. Esse processo culmina no momento em que, atingido um certo limiar de acúmulo, um grandioso e simultâneo processo purificador é deflagrado. Eis o que é a pneumonia, fenômeno que se assemelha à metáfora da dívida que expliquei anteriormente.
-
-A principal característica da pneumonia é o acúmulo de grande volume de escarro nos pulmões, o que provoca um intenso sibilo. Esse ruído respiratório nada mais é do que o som do escarro vibrando a cada movimento dos alvéolos pulmonares. A dificuldade para respirar, por sua vez, ocorre porque o volume de escarro reduz o espaço útil nos pulmões, obrigando o doente a respirar de forma mais frequente para absorver a quantidade de ar necessária.
-
-Seguindo essa lógica, caso a pneumonia fosse deixada à sua evolução natural, sem qualquer intervenção terapêutica, todo o escarro seria expelido e a cura se daria de forma plena e sem percalços. A medicina, todavia, intervém com todos os recursos para paralisar essa purificação, empregando, sobretudo no caso da pneumonia, medicamentos de alta potência. A força desses fármacos reside em sua elevada toxicidade, que lhes confere grande poder para suprimir a purificação. Disso resulta um atrito violento entre a intensa purificação natural e a vigorosa tentativa de detê-la, gerando um sofrimento atroz. A perda de apetite e a extenuação causada pela febre alta se somam, levando o paciente a um definhamento que culmina em morte. O equívoco da medicina, nesse caso, é de uma magnitude indescritível.
-
-A pneumonia, como visto, é um processo purificador intenso que ocorre em organismos de grande vitalidade. Em pessoas com o corpo debilitado, a purificação manifesta-se de forma lenta e gradual. A isso se dá o nome de tuberculose.
-
-No diagnóstico de um novo paciente, entre os vários métodos, a radiografia é hoje considerada a prova decisiva. Ela revela opacidades ou cavidades nos pulmões, o que leva o médico a sentenciar o diagnóstico de tuberculose. A medicina, contudo, desconhece a etiologia dessas formações. Descrevo, portanto, sua verdadeira causa: como explicado na seção sobre o resfriado, toxinas liquefeitas primeiramente adentram e se alojam nos pulmões. Em decorrência da supressão forçada da purificação, o escarro não é expelido, permanecendo no interior do órgão, onde, com o passar do tempo, se solidifica. Essa massa endurecida é a opacidade que se vê na radiografia; pode-se dizer que é uma consequência direta da intervenção humana. Por isso, no momento inicial da infiltração líquida, os pulmões não apresentam qualquer anormalidade. Quando esse escarro solidificado se localiza na parte superior dos pulmões, recebe o nome de cátarro apical ou linfadenopatia hilar. Um quadro semelhante é a infiltração pulmonar, que ocorre quando toxinas solidificadas na pleura ou na região das costelas se dissolvem para serem expectoradas, mas a medicina novamente intervém para solidificá-las, impedindo a cura. Todas essas condições, se deixadas à sua evolução natural, caminhariam para uma cura plena e sem percalços.
-
-Uma vez diagnosticada a tuberculose, a medicina, assim como no resfriado, empenha-se em paralisar a purificação. O método mais preconizado e considerado mais eficaz nos últimos tempos é a terapia do repouso absoluto. Contudo, tal prática é, em si, um ardil nefasto. Se uma pessoa saudável permanecer em repouso absoluto por apenas um mês, a falta de exercício resultará em perda de apetite e de força, palidez por falta de ar livre e dispneia ao menor esforço, levando-a a um enfraquecimento visível. Se isso acontece com alguém saudável, o que dizer de um doente? Além disso, o paciente recebe toxinas medicamentosas e é incentivado a consumir grande quantidade de proteína animal sob o pretexto de "nutrição". Todos esses procedimentos apenas agravam a debilidade, de modo que o paciente de tuberculose irá, inelutavelmente, definhar.
-
-Como resultado dessa estratégia de enfraquecimento, atinge-se o objetivo esperado: a força purificadora diminui drasticamente, os sintomas se abrandam, a febre cessa e a tosse e a expectoração desaparecem. O paciente se alegra, acreditando ter se recuperado. Mal sabe ele que, na realidade, apenas regrediu ao estado anterior à purificação, com o agravante de ter mais toxinas medicamentosas e um corpo ainda mais fraco. O que se alcançou foi uma trégua instável, e não uma cura verdadeira. Por essa razão, é muito comum que, em alguma ocasião, a doença se agrave subitamente, levando o paciente a um estado crítico e, por fim, à morte. Os próprios médicos certamente têm vasta experiência com esse desfecho. Não é à toa que, na medicina, nunca se fala em "curar" a tuberculose, mas sim em "solidificar" a lesão.
-
-Durante o tratamento, se o paciente porventura se exercita um pouco, a febre retorna de imediato. O médico, alarmado, o repreende, mas esse é, na verdade, um bom sinal, pois indica que a purificação, antes suprimida, está tentando se reacender. Também é frequente o caso de pessoas que, após um longo tratamento, são consideradas curadas, mas, assim que retomam a vida normal, têm uma recidiva e retornam à estaca zero. Isso ocorre porque as toxinas, que levaram anos para serem solidificadas, subitamente começam a se dissolver novamente. Os fatos expostos demonstram quão equivocada é a medicina atual. Sem rodeios, não seria um exagero afirmar que é a própria medicina que prolifera a tuberculose.
-
-Neste ponto, há uma questão de suma importância a ser esclarecida: o bacilo da tuberculose. A medicina o teme como um agente contagioso. Embora a transmissão possa ocorrer, a maior parte dos casos é de geração espontânea. Conforme exposto, o escarro primeiro se infiltra nos pulmões. A medicina, então, o solidifica para impedir sua saída. Com o tempo, essa matéria orgânica se putrefaz, dando origem a micro-organismos: eis o bacilo da tuberculose. O escarro nessas condições exala mau odor e possui alta viscosidade.
-
-Basta uma simples reflexão: qualquer substância, ao envelhecer, se decompõe, e da decomposição surgem micro-organismos. É um princípio da matéria, ainda mais quando auxiliado pela condição propícia da temperatura corporal. Fica evidente, portanto, que se o escarro acumulado nos pulmões durante o resfriado inicial tivesse sido completamente expelido, o problema estaria resolvido. No entanto, com o empenho para que ele não saísse, permitiu-se que apodrecesse, que gerasse bacilos e que a corrosão causada por eles chegasse a formar cavidades. Em suma, trata-se de um ato de agressão praticado com boas intenções. Enquanto a humanidade não despertar para essa verdade, é impossível prever quantas mais vítimas serão sacrificadas.
 
 ---
 

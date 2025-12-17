@@ -1,8 +1,370 @@
 # Mioshie_Teachings - Part 7
 
+# Elucidações sobre o Destino, a Purificação e a Fé
+
+**Categoria:** situmon | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S29年3月1日） | **Status:** Published
+
+## Elucidações sobre o Destino, a Purificação e a Fé
+
+Hoje não tenho um tema específico a abordar, portanto, podemos começar diretamente com as perguntas.
+
+**“Gostaria de apresentar minhas escusas e solicitar uma orientação. O ocorrido envolve o professor Motokichi Hayashi, de quarenta e dois anos. No dia vinte e seis de fevereiro, enquanto dormia, a fotografia de Meishu-Sama caiu e os estilhaços de vidro causaram-lhe quatro ferimentos: no ombro direito, no lado esquerdo do peito e mais abaixo, à direita. Pedimos sinceras desculpas. Ele próprio veio hoje apresentar suas escusas. Ao inspecionar o cordão, verifiquei que não estava fraco a ponto de se romper, nem apresentava qualquer sinal de desgaste. Trata-se de algum tipo de aviso?”**
+
+Sim, de fato é um aviso. Quando essa pessoa ingressou na Fé?
+
+**“Na primavera de 1948. Creio que a fotografia foi outorgada no outono de 1949.”**
+
+O cordão era trançado?
+
+**“Sim, era.”**
+
+Existem diversas razões para tal acontecimento, mas não se trata de um mau presságio. Não há motivo para preocupação; basta substituí-la e não haverá problema algum.
+
+**“A esse respeito, trouxemos hoje a referida fotografia. Seria melhor que ela recebesse uma purificação ou que a substituíssemos por uma nova?”**
+
+Uma nova é preferível. Quanto à antiga, após expressar a devida gratidão e pedir perdão, deve ser incinerada.
+
+Desde esta manhã, o assunto tem sido divulgado no jornal “Shizuoka Minpō”. Ainda não li a matéria, apenas o manuscrito, mas creio que a forma como o tema foi abordado despertará grande interesse.
+
+O número de peregrinos aumentou subitamente hoje… Há alguma razão especial para isso?
+
+**“Acredito que muitos membros antigos também vieram em peregrinação.”**
+
+**“Em um de seus Escritos, o senhor nos orienta que ‘há o filho pródigo que dissipa a fortuna acumulada pelos pais, mas também há o filho zeloso; contudo, sob a perspectiva de Deus, não se pode determinar o bem ou o mal em cada caso’. Sendo assim, qual seria, afinal, o destino do filho zeloso e do filho pródigo? Como se define se suas vidas tomarão um rumo positivo ou negativo?”**
+
+Não é algo que se possa explicar de forma simples. Todavia, o filho pródigo, ao assumir o papel, pouco admirado pelos homens, de purificar os pecados de seus antepassados, acaba por acumular méritos que, por sua vez, lhe trarão coisas boas.
+
+**“Mesmo que ele viva na prodigalidade?”**
+
+Exato. O seu destino se transforma. Há casos de pessoas que são extremamente ajuizadas na juventude e se tornam devassas na idade madura, assim como o inverso: são pródigas quando jovens e se tornam ajuizadas com o passar dos anos. Diante disso, talvez seja até preferível ter sido pródigo. A maioria dos abastados acumula uma quantidade considerável de pecados, e é justamente essa fortuna que o filho dissipa…
+
+**“Sendo assim, seria o caso de investigar o histórico dos pais antes de se entregar à prodigalidade…?”**
+
+Ainda que não se investigue, no Mundo Espiritual as coisas se desenrolam de maneira perfeitamente lógica e ajustada.
+
+**“A imagem de Komyō Nyorai que cultuo atualmente foi recebida de outra pessoa. Recentemente, isso tem me causado certa inquietação espiritual, e desejo receber uma nova…”**
+
+De fato, essa é a melhor decisão.
+
+É imprescindível que compreendam o seguinte: certas coisas que eram aceitáveis no passado tornar-se-ão inadmissíveis daqui para a frente. Isso ocorre porque o rigor de Deus se intensificou. Antigamente, num estado que se pode denominar de união com o mundo profano para a salvação, Deus, em Sua Vasta Misericórdia, relevava muitas coisas. Contudo, com o avanço da Era, tudo se tornará cada vez mais nítido e definido. Por conseguinte, muitas condutas antes toleradas deixar-se-ão de sê-lo. Portanto, daqui em diante, é fundamental conduzir todos os assuntos com meticulosidade e clareza crescentes.
+
+**“Foi-nos ensinado que a Sekaikyuseikyou é uma religião de salvação. Poderíamos, então, interpretar o Grande Amor de Deus como uma força que, por vezes, ceifa a vida de quem tem seu tempo determinado e, por outras, prolonga a existência de quem já não a teria?”**
+
+Na verdade, a pessoa não é morta por Deus; ela própria cria um destino que a conduz à própria ruína. As circunstâncias variam imensamente de indivíduo para indivíduo, sendo de uma complexidade extrema e impossíveis de serem elucidadas de maneira simplista. Além disso, existe a influência dos espíritos ancestrais. Quando os pecados acumulados por uma linhagem são excessivos, torna-se necessário que alguém seja oferecido em sacrifício. Há ainda outra possibilidade: dependendo da natureza dos pecados dos antepassados, pode ser que atuar no Mundo Espiritual purifique as máculas mais rapidamente do que atuar no Mundo Material.
+
+Assim, seja para servir de sacrifício ou para atuar no Mundo Espiritual, os antepassados, dentre os muitos descendentes, escolhem um representante. Em situações em que os próprios espíritos ancestrais rogam a Deus para que seus pecados sejam purificados o quanto antes, o sacrifício de um descendente torna-se a melhor alternativa. Portanto, as variáveis são muitas. Contudo, o ponto essencial é que, quando um sacrifício ocorre após o ingresso na Fé, há sempre uma razão extremamente positiva.
+
+Num relato de graças que li ontem à noite, havia um caso exatamente assim. Uma criança faleceu, e a mãe, em profundo luto, chegou a nutrir um certo ressentimento para com Deus. Tempos depois, um espírito ancestral manifestou-se e revelou-lhe todos os motivos por trás daquele acontecimento. Somente então ela compreendeu que fora um grande bem e sentiu uma imensa gratidão. Como podem ver, há significados muito complexos e uma variedade de fatores envolvidos, o que impede uma explicação superficial. Consequentemente, após ingressar na Fé, qualquer acontecimento, por mais adverso que pareça, é uma manifestação para o seu bem, e deve ser recebido com alegria. Com o passar do tempo, a razão invariavelmente se tornará clara.
+
+**“Através do Johrei, é possível curar, ainda em vida, doenças ou deficiências físicas, sejam elas congênitas ou adquiridas?”**
+
+Algumas sim, outras não. A deficiência física, na maioria dos casos, é um reflexo do estado em que a pessoa se encontrava no momento da morte em sua vida anterior, reaparecendo em seu renascimento. Creio já ter escrito sobre isso. Ocorre quando a pessoa renasce sem ter tido tempo suficiente para se recuperar plenamente no Mundo Espiritual. Isso se dá porque a mãe, ou algum outro ente, sentindo a perda de um filho que morreu em decorrência de um ferimento ou acidente, anseia por seu retorno rápido. Mesmo quem não conhece essa lei, ao desejar intensamente ter outro filho ou rever aquele que partiu, cria um apego que impede uma longa permanência no Mundo Espiritual, apressando o renascimento.
+
+Por exemplo, uma morte causada por uma queda ou colisão, cujos ferimentos não foram completamente curados, é a causa da vasta maioria das deficiências físicas no renascimento. Como o estado do corpo no momento da morte era debilitado e a permanência no Mundo Espiritual foi breve, a deficiência manifesta-se com maior gravidade na nova vida. Para que a cura se processe, é preciso que o apego dos pais seja rapidamente eliminado ou que se pratiquem boas ações, cujo mérito resulte na salvação. Tudo ocorre de forma perfeitamente racional.
+
+Também ocorre com frequência o seguinte: uma criança nasce com uma deficiência e, ao ser submetida a diversos tratamentos médicos, acaba por ter sua salvação inviabilizada. Tais situações decorrem do excesso de máculas da família ou dos pais, que recebem graças e proteção Divina na medida correspondente. Quando o carma negativo supera o positivo, a salvação não é possível. Portanto, ao compreender essa lógica, se um filho nasce com alguma deficiência, a maneira mais eficaz de promover sua cura é os pais se empenharem ao máximo em acumular virtudes.
+
+Há ainda outra situação. Quando uma criança sem chances de salvação está destinada a uma vida de infelicidade, que por sua vez também causará sofrimento aos pais, Deus permite que ela parta mais cedo. Com isso, os pais se veem livres de sua angústia, o que lhes traz um grande alívio. Isso constitui uma profunda manifestação da misericórdia Divina. Diante da incerteza entre a cura e a morte, a situação se torna insustentável para os pais. Nesses casos, quando uma criança, cujo destino já está selado, é submetida a cirurgias e outros procedimentos médicos que apenas confirmam a impossibilidade de salvação, Deus a acolhe prontamente no Mundo Espiritual. Assim, os pais encontram uma definição, e essa também é uma forma da virtude Divina se manifestar. O desenlace, seja pela cura ou pela partida, ocorre de forma mais rápida.
+
+**“No Ensinamento de dois de janeiro, consta que ‘a irradiação do Elemento Fogo queima as partículas tóxicas. O Johrei, por não ser matéria, queima o espírito’. Já no de três de janeiro, lê-se que ‘o hidrogênio impuro é o aglomerado de partículas tóxicas e venenos medicamentosos solidificados’. Em outro de seus Escritos, é dito que ‘são aniquilados pelo Elemento Fogo e absorvidos pelo fluido seroso’. Minha dúvida é: o fluido seroso, as partículas tóxicas e o hidrogênio impuro são de natureza espiritual ou física?”**
+
+Ambos. A explicação é a seguinte: ao ouvir um programa de ciência no rádio, soube que a ciência recente não consegue definir se um vírus é matéria inorgânica — um ser inanimado — ou um ser vivo, orgânico. Existem teorias de ambos os lados, embora a que o classifica como inanimado pareça prevalecer atualmente. Contudo, não há uma conclusão definitiva. Isso ilustra perfeitamente o que venho explicando. O ser inanimado, que não tem vida, corresponde ao espírito. O ser vivo, orgânico, corresponde ao corpo. O vírus situa-se, portanto, na fronteira entre o espírito e a matéria.
+
+Dessa forma, o espírito se materializa. Conforme escrevo, quando a mácula espiritual se adensa, surgem as bactérias por geração espontânea. À medida que se desenvolvem, elas se tornam matéria orgânica, transformando-se em micróbios. Não há, portanto, uma fronteira nítida; é uma transmutação gradual. O queimar pelo Johrei significa queimar as bactérias. O estágio anterior às bactérias é a partícula de mácula, que ainda não se tornou matéria de forma alguma.
+
+Escrevi anteriormente sobre o finito e o infinito. A ciência hoje afirma ser capaz de detectar partículas de um décimo de milionésimo, mas a verdade é que existem partículas de um centésimo de milionésimo, ou mesmo de um bilionésimo de milionésimo. Isso significa que o tamanho dos micróbios diminui progressivamente, sem um limite, o que nos leva ao conceito de infinito. Portanto, aquilo que se observa hoje ao microscópio são, na verdade, organismos de tamanho considerável. Os cientistas se regozijam por terem capturado algo minúsculo, mas ainda existem incontáveis partículas invisíveis a qualquer microscópio. Em última análise, a limitação está no olho humano que observa através do aparelho. A realidade é infinita. Ao aceitar o infinito, a lógica se estabelece perfeitamente. Qualquer tentativa de interpretação finita será sempre ilógica e fadada ao fracasso.
+
+Nesse universo infinito, as duas forças primordiais são o fogo e a água, ou seja, a essência do Sol e a essência da Lua, que possuem naturezas opostas. Da palma da mão, irradia-se o Elemento Fogo, que é a essência da energia solar; mais do que denso, é uma “energia sutil”, um “ki”. Poderia ser chamado de “espírito”, mas “energia sutil” é mais apropriado. Ao ministrarmos Johrei, a energia do fogo, a energia espiritual do fogo, é irradiada, queimando as partículas tóxicas contidas no hidrogênio. Assim se pode compreender. A palavra japonesa para doença, byōki, utiliza o ideograma “ki”, que significa precisamente “energia sutil”. A raiz da doença é “ki”, e o Johrei também é “ki”, a energia sutil do Sol. Na verdade, é tudo muito simples e fácil de entender.
+
+**“Sendo assim, podemos considerar que a matéria, ao se tornar infinitamente pequena, transforma-se em espírito?”**
+
+Exato. Nesse sentido, a afirmação de Buda de que “tudo é vazio” é uma expressão muito feliz. “Vazio” significa que a matéria, em última instância, se tornará vácuo. É uma definição do estado primordial. Nós, seres humanos, um dia nos tornaremos cadáveres. O corpo, enterrado na terra, decompõe-se gradualmente e assimila-se ao solo, até que nada reste. Mesmo pedras e metais, com o passar dos anos, transformam-se. O ouro, por ser o mais duradouro, leva mais tempo, mas mesmo ele desaparecerá ao longo de dezenas ou centenas de milhares de anos. E a partir daí, novas coisas nascem, o novo se forma. O “nada” e o “algo” — o “real” e o “vazio” — alternam-se incessantemente, e essa é a verdadeira face do Universo.
+
+**“Em conexão com o que acaba de ser dito, se a energia sutil é a base, ao passo que o Johrei atenua as toxinas, não poderia ocorrer, pela lei de que energias semelhantes se atraem, que as máculas espirituais de uma pessoa com toxinas e impurezas aumentassem ainda mais? Ou seja, o veneno atrairia mais veneno, e a energia maligna, mais energia maligna?”**
+
+Isso não ocorre. Contudo, não se trata de um chamado, mas sim de uma afinidade: quando o espírito de uma pessoa está maculado, espíritos malignos correspondentes se ligam a ela. Pode parecer que ela os atrai, mas não é um chamado nem uma ausência de chamado; é uma espécie de preceito, as coisas simplesmente funcionam assim. De nossa perspectiva, parece um chamado. Da perspectiva deles, parece uma aproximação. Não é por capricho, mas também não é um convite. Os espíritos malignos pensam: “Aquele é fácil de influenciar, vamos nos ligar a ele”. E assim o fazem. Por outro lado, eles estão sempre à procura de pessoas com máculas, pensando: “É prazeroso influenciar aquele ali. Se quisermos que ele faça o mal, ele fará; se quisermos que se entregue aos vícios, ele o fará”.
+
+Hoje em dia, há muitos casos assim. Os envolvidos nos escândalos de corrupção, que praticam o suborno, estão todos sob influência de espíritos que pensam: “Vamos fazer este aqui ganhar muito dinheiro para que ele se entregue aos prazeres e faça o que bem entender. Ele obedece bem às minhas ordens”. Todavia, quando a pessoa conhece as Leis Divinas, o espírito não consegue dominá-la e acaba por se afastar. Foi por isso que escrevi o artigo “A Matriz da Corrupção”, pois tudo nasce do pensamento ateu. A raiz da corrupção é o ateísmo.
+
+**“Foi explicado que as partículas tóxicas podem ser consideradas tanto físicas quanto espirituais. Nesse caso, quando são queimadas pelo Elemento Fogo, as toxinas espirituais se tornam cinzas, que por sua vez se transformam em matéria física?”**
+
+Uma vez reduzidas a cinzas, não se transformam. A transformação ocorre com o que está vivo; o que está morto chega ao seu fim. As cinzas jamais se tornarão fogo novamente. No entanto, aquilo que extinguiu o fogo pode, através do calor, voltar a ser fogo. É preciso conhecer essa distinção.
+
+**“Então, as cinzas são absorvidas pelo fluido seroso?”**
+
+As cinzas não são absorvidas. Elas são expelidas através das fezes, da urina e do catarro. Após o Johrei, é comum haver diarreia, expectoração ou outras formas de excreção. Isso são as cinzas.
+
+**“As partículas tóxicas espirituais se transformam em cinzas, que gradualmente se aglomeram e se tornam fezes e urina?”**
+
+Exatamente.
+
+**“A respeito da queima do hidrogênio impuro pelo Johrei, eu havia entendido da vez anterior, mas minha compreensão atual parece diferir daquela. Naquela ocasião, o senhor disse que ‘as toxinas são como nuvens cirrocumulus; um pouco é bom, mas em excesso faz mal’. Agora, entendi que elas se tornam físicas, que o fluido seroso… e que os glóbulos vermelhos envelhecidos se tornam glóbulos brancos…”**
+
+Isso eu desconheço. Seria uma explicação médica.
+
+**“Que o vermelho envelhece e se torna branco, e também que as toxinas se transformam em pus sanguinolento…”**
+
+Isso está correto.
+
+**“E que o fluido seroso é a parte aquosa do sangue…”**
+
+O fluido seroso é toda a parte aquosa. Portanto, ele também constitui a parte aquosa do sangue.
+
+**“Então, o pus que flui no fluido seroso se solidifica onde os nervos são mais utilizados, tornando-se toxina. E há a parte que se coagula no sangue e a parte que se mistura ao fluido seroso…”**
+
+Tanto o sangue quanto o pus se transformam em fluido seroso. O sangue, ao envelhecer, torna-se pus. Mas tanto na fase de sangue quanto na de pus, ambos são compostos de fluido seroso. Nada pode se separar do fluido seroso.
+
+**“O sangue dentro dos vasos sanguíneos também se torna fluido seroso?”**
+
+Sim. Com ou sem vasos sanguíneos, tudo é fluido seroso. A água compõe cerca de setenta por cento do corpo humano. Pode-se pensar no corpo como sendo água; pertence ao elemento água. Já o espírito pertence ao elemento fogo. Assim, o ser humano é composto de fogo e água. Se dividirmos em corpo espiritual e corpo físico, podemos dividi-los em fogo e água.
+
+**“Na minha jurisdição, metade das unidades realiza sua cerimônia mensal antes da cerimônia da Igreja, e a outra metade, depois. Recentemente, as unidades que realizam a cerimônia antes, apesar de seus esforços, não têm progredido de forma satisfatória. Seria por causa da inversão da ordem?”**
+
+Sem dúvida. A Igreja deve realizar sua cerimônia primeiro. Essa inversão é um erro gravíssimo.
+
+**“Mas mesmo as unidades que realizavam a cerimônia antes obtinham resultados consideráveis…”**
+
+Isso não é correto. A ordem está completamente invertida. A razão é a seguinte: quando a Igreja realiza a cerimônia primeiro, ela se torna o principal. O que vem a seguir torna-se o subordinado. A unidade, que deveria ser subordinada, acaba se tornando a principal. Para explicar de forma mais clara, isso não se aplica apenas às questões Divinas, mas a tudo na vida. O primeiro a ser visitado ou realizado torna-se o principal. O seguinte torna-se secundário. Portanto, se uma pessoa vai primeiro prestar reverência a Deus e depois cuida de seus outros afazeres, não há problema. Mas se ela cuida de outros assuntos primeiro e deixa a reverência a Deus para depois, a ordem está invertida e nada correrá bem. As coisas não fluirão harmoniosamente. É preciso definir claramente o que é principal e o que é secundário. Assim, tudo prosperará.
+
+**“Com relação à ordem das cerimônias mensais entre a Igreja e as unidades, se determinarmos a ordem com base nos resultados…”**
+
+Se for com base nos resultados, haverá momentos bons e ruins, o que exigiria mudanças constantes. Nesses casos, o critério deve ser a antiguidade. A unidade fundada há mais tempo deve realizar sua cerimônia primeiro. Assim, o critério se torna justo.
+
+**“Algumas Igrejas realizam a cerimônia mensal no dia em que o dirigente recebeu o Ohikari, enquanto outras o fazem no dia em que a Igreja recebeu seu nome. Qual seria a forma correta?”**
+
+O correto é comemorar o dia em que a Igreja recebeu sua permissão de funcionamento. A razão é que uma Igreja é parte de uma organização maior, enquanto o recebimento do Ohikari tem um caráter individual. Há uma diferença aí. No entanto, não é uma questão de grande importância. Se tem sido feito de uma forma, pode continuar. Mas se a questão é qual o mais correto, a data da permissão da unidade é a data certa, pois a partir do momento em que Deus concede a permissão, significa que as atividades da unidade estão autorizadas.
+
+**“Se a permissão foi concedida no dia vinte e cinco do mês, a cerimônia mensal da Igreja seria no dia vinte e cinco. Nesse caso, não haveria como realizá-la no início do mês…”**
+
+Exato. Se for fixado no início do mês, isso pode criar conflitos, pois é um período em que todos estão ocupados.
+
+**“Em situações como esta, sempre surgem perguntas e questionamentos depois. Muitos de nós realizamos as cerimônias mensais da Igreja em dias como dezoito, por ser o dia de Kannon, ou vinte e três, por ser o dia do Seu nascimento…”**
+
+Quando o número de unidades é pequeno, não há problema. Mas quando aumenta, pode se tornar inconveniente.
+
+**“Creio que não devemos nos preocupar com o fato de realizar a cerimônia mais cedo ou mais tarde. O pensamento é o mais importante, então penso que está bom realizá-la em um dia auspicioso.”**
+
+O dia dezoito é um dia excelente. Se for possível continuar a realizar a cerimônia nesse dia, está ótimo. Porém, se isso se tornar inconveniente, e se houver muitas unidades, tornando impossível visitar todas no mesmo dia, então a ordem de fundação das unidades deve ser seguida.
+
+**“O dia primeiro é reservado para audiências especiais, e também temos as peregrinações a cada dez dias, então temos procurado pensar de forma racional.”**
+
+Correto.
+
+**“A cerimônia da unidade deve ser, por princípio, conduzida por um representante da Igreja ou da Igreja Matriz? Ou, como temos feito por conveniência, podemos delegar aos responsáveis das unidades mais distantes?”**
+
+Não há problema em delegar.
+
+**“Penso que a cerimônia da unidade deve ser conduzida pelo seu responsável. Se houver mais de trinta unidades, mesmo visitando uma por dia, o dirigente da Igreja não conseguiria percorrer todas em um mês.”**
+
+É verdade… isso implicaria que não se pode ter mais de trinta unidades…
+
+**“Gostaria de perguntar de forma mais concreta. A cerimônia da minha Igreja é no dia vinte e um. As unidades, seguindo a ordem de fundação, têm cerimônias nos dias vinte e três, vinte e cinco, e até no mês seguinte, nos dias três, cinco, dez e onze. Como devo considerar essa situação?”**
+
+Haverá casos em que a cerimônia da unidade ocorrerá antes. Por isso, a princípio, a cerimônia da Igreja deveria ser realizada primeiro, talvez todas no dia primeiro. O princípio é que a Igreja venha sempre antes.
+
+O ideal seria proceder da seguinte forma: a cerimônia da Igreja seria fixada, por exemplo, no dia dezoito. As cerimônias das unidades ocorreriam subsequentemente, de modo que a cerimônia que deveria ser neste mês acabe sendo realizada no mês seguinte.
+
+**“É que o nome e o sentimento acabam influenciando… No meu caso, penso em realizar a cerimônia da Igreja no dia três.”**
+
+Isso é melhor. A cerimônia da Igreja deve ser realizada o mais cedo possível no mês.
+
+**“Um membro do interior precisa enviar seu Quadro da Caligrafia para ser emoldurado. Por morar longe, não consegue levá-lo no trem, a não ser que esteja vazio, e ir a pé é inviável. Seria permitido enviá-lo por transporte de carga, tomando o devido cuidado para não o danificar?”**
+
+Sim, é permitido. É preciso ter em mente o seguinte: Deus considera como pecado o que se pode fazer e não se faz. No entanto, o que não pode ser feito de outra maneira é perdoado. Por exemplo, se os moradores da casa sobem no telhado acima do Altar para observar o tempo ou um incêndio, isso é pecado. Mas se o telhado está danificado e chove dentro, e o telhadista sobe para consertá-lo, isso é permitido e não é pecado, pois não há outra forma de o fazer. Desde que haja uma lógica coerente, não há problema. É por isso que sempre digo que tudo o que for lógico e racional é permitido. Fazer algo de uma maneira quando se poderia fazer de outra mais adequada denota negligência humana ou, mais gravemente, desrespeito a Deus. Se não há outra alternativa a não ser enviar pelo trem, então está correto. Nós mesmos enviamos Ohikari constantemente para a América; como não há outro meio, Deus jamais nos repreenderia por isso.
+
+**“Gostaria de perguntar sobre a relação entre Meishu-Sama, Kannon e Kunitokotachi-no-Mikoto.”**
+
+Não há relação, pois são o mesmo Ser. O papel muda de acordo com a situação. É como um ator, que pode interpretar uma mulher, um homem, uma pessoa boa ou uma pessoa má. No caso de Deus, porém, a maldade é sempre em prol do bem. Eu mesmo sou alvo de muito ressentimento. Aos olhos dos farmacêuticos e médicos, sou um inimigo, pois nego suas práticas. Para os malfeitores, sou o maior dos vilões.
+
+**“Gostaria de perguntar sobre o espírito-raposa (Inari). Durante a guerra, quando minha família se refugiou no interior de Ibaraki, meu irmão passou a cultuar um Inari. Ele consultava um praticante espiritual da vizinhança, que acertou algumas previsões, e por isso acreditava que o espírito era muito poderoso. A pedido dele, o praticante lhe deu uma imagem de Inari de cerâmica, que foi entronizada em casa, à direita do altar xintoísta. No ano passado, após receber uma intensa purificação, fui curado instantaneamente com Johrei, ingressei na Fé e recebi a Imagem Divina. Desde então, as travessuras do Inari se tornaram explícitas. O que devo fazer?”**
+
+O Inari deve ter ficado zangado. Quando o Altar foi entronizado?
+
+**“Ingressei na Fé no ano passado e o recebi logo em seguida.”**
+
+E então a raposa começou a fazer travessuras. Isso acontece com frequência. O Inari está se considerando superior a Deus. É natural que ele faça algo assim. A ordem está invertida.
+
+Em que cômodo está a imagem de Komyō Nyorai?
+
+**“No segundo andar. O Inari está no andar de baixo.”**
+
+Nesse caso, não há problema. A razão deve ser outra. O segundo andar é, certamente, o tokonoma (alcova)?
+
+**“Sim, é.”**
+
+Que tipo de travessuras ele faz?
+
+**“Quando vou ministrar Johrei em alguém, a notícia chega imediatamente à pessoa que me deu o Inari, e ela vem me dizer que se eu continuar curando as pessoas com essa tal de Sekaikyuseikyou, elas morrerão de derrame cerebral.”**
+
+Quem está ministrando o Johrei?
+
+**“Sou eu. E quando o faço, a pessoa que me deu o Inari fica sabendo imediatamente.”**
+
+Mas você não tem relação com o Inari, tem? O Inari saberá que você está ministrando Johrei, mas mesmo que saiba, não há problema, certo?
+
+**“Ele diz para não recebermos Johrei.”**
+
+Pode dizer o que quiser. É apenas uma raposa falando, não precisa dar crédito.
+
+**“A pessoa está muito preocupada.”**
+
+Se está preocupada, é porque ainda não ingressou de fato na Fé. Se tivesse fé, entenderia que é apenas a raposa pregando peças.
+
+**“Eu já expliquei que é a raposa pregando peças.”**
+
+Então está bem assim.
+
+**“O local onde o altar xintoísta está entronizado pode permanecer o mesmo?”**
+
+Sim.
+
+**“Atualmente, parece que oferecem arroz e água pela manhã, em dias determinados. Não fazem cerimônias.”**
+
+Assim a raposa se sentirá solitária. É preciso oferecer também油揚 (abura-age - tofu frito), senão é uma pena. Quando esse Inari foi entronizado?
+
+**“Por volta de 1947 ou 1948.”**
+
+De onde é o talismã? Qual o nome do Inari?
+
+**“Dizem ser de Fushimi Inari.”**
+
+Entendo. Fushimi Inari. Eles costumam fazer esse tipo de coisa. Entre as raposas, as de Fushimi Inari são as mais arrogantes.
+
+As travessuras se resumem a isso?
+
+**“Ele também tenta constantemente causar desavenças na família. Ultimamente, tem agido de forma explícita.”**
+
+Esse membro lê os Escritos Divinos?
+
+**“Acho que sim…”**
+
+Então, incentive-o a ler em voz alta o máximo possível. Assim, a raposa irá se sentir gradualmente intimidada.
+
+**“Seria melhor realizar uma cerimônia uma vez por mês, em dia fixo?”**
+
+Sim, seria melhor. E não se deve agir com pressa. Quando chegar a hora… Em que mês do ano passado a imagem de Komyō Nyorai foi entronizada?
+
+**“Em dezembro.”**
+
+Então, após pelo menos um ano, o altar do Inari deve ser transferido para o jardim.
+
+**“Nesse caso, devemos construir um pequeno santuário de madeira?”**
+
+Exato. Em princípio, não se deve viver sob o mesmo teto que um Inari.
+
+**“Até lá, devemos realizar uma cerimônia mensal?”**
+
+Tanto antes quanto depois. Quanto ao dia, o ideal é que seja no mesmo dia da cerimônia de Komyō Nyorai. Após a cerimônia para Komyō Nyorai, realize a cerimônia para o Inari. Assim, a raposa se sentirá cada vez mais desconfortável e o lugar se tornará inóspito para ela. Ela começará a pensar: “Não aguento mais, quero voltar para Fushimi”. Nesse momento, ao transferir o altar para o jardim, a situação se aliviará bastante. Pouco tempo depois, ela retornará a Fushimi ou irá para outro lugar.
+
+As travessuras dos Inari podem ser bem severas. Tive uma experiência em que um deles empurrou a dona da casa escada abaixo. Em outra, atirou longe as flores que lhe eram oferecidas. Era também um espírito de Fushimi. No entanto, até mesmo o Inari de Fushimi se amedronta diante do Deus da Sekaikyuseikyou. Certa vez, expulsei um espírito chamado Nōyō Inari, de Fushimi. Mas também existem bons espíritos em Fushimi Inari. A deidade principal de lá é boa; é Toyouke-no-Ōmikami. O problema são os muitos servos malignos. Procedam como orientei, e tudo se resolverá.
+
+**“Uma jovem de dezenove anos, dois meses após ingressar na Fé, foi vender a edição especial sobre agricultura e encontrou uma senhora cega há três anos. Decidindo pedir a Deus por ela, ministrou-lhe Johrei por quatro ou cinco minutos, e a senhora voltou a enxergar. A idosa relatou ter tido uma visão, entre o sonho e a vigília, de uma pessoa de cujo corpo emanava luz, vindo para salvá-la. Contudo, ao vir à minha casa e cruzar a soleira da porta, ela voltou a ficar cega. Ao ministrar-lhe Johrei novamente, um espírito vivo se manifestou, ressentido com a idosa. Após ser esclarecido, o espírito partiu e a visão dela retornou imediatamente. É um caso muito claro: quando o espírito se manifesta, ela fica cega; quando ele se afasta, ela enxerga.”**
+
+Casos assim existem. Sendo um espírito vivo, seu corpo físico está em algum lugar, certo?
+
+**“Parece ser a mãe do noivo de sua nora. Ela guarda ressentimento porque a nora se divorciou e voltou para casa.”**
+
+Então é por isso o ressentimento. É preciso salvar também o espírito vivo. Um oftalmologista jamais conseguiria entender um caso desses.
+
+**“Agora ela já vem sozinha em peregrinação.”**
+
+É fundamental que ela ingresse na Fé. Ao ingressar, o espírito vivo não conseguirá mais se ligar a ela, e ela estará segura. O ressentimento é algo a ser temido.
+
+**“Um membro recém-ingresso na Fé deixou cair seu Ohikari sobre o peito do pé no ambulatório de seu local de trabalho. Pedimos desculpas.”**
+
+No ambulatório… Foi ao se despir para uma consulta?
+
+**“Exato. E mais um caso: um Quadro da Caligrafia caiu sobre o tatame em um local de representação. Apresentamos nossas escusas. Trata-se de algum tipo de alerta?”**
+
+Sem dúvida é um alerta, mas a própria pessoa, ao refletir, poderá compreender o significado.
+
+**“Como devemos proceder com a purificação?”**
+
+O Altar está entronizado, certo? Basta pedir perdão sinceramente. Quanto ao Ohikari, o responsável da unidade deve pedir perdão e purificá-lo. Purificar significa colocá-lo sobre um suporte de oferendas diante do Altar e pedir perdão. Isso é suficiente.
+
+**“Como devemos proceder com a placenta após o parto?”**
+
+Não há uma regra específica.
+
+**“Até hoje, costumava-se guardá-la por muito tempo.”**
+
+Alguns guardam, outros enterram. Se for enterrar, que seja em um local onde não será pisada. É comum enterrá-la sob a varanda. Fora de casa, as pessoas podem pisar. Para evitar problemas, enterra-se sob a varanda.
+
+**“O daltonismo tem cura?”**
+
+Sim, tem.
+
+**“Qual o ponto focal do Johrei nesse caso?”**
+
+A cabeça.
+
+**“O topo da cabeça?”**
+
+A cabeça toda, mas o centro é o mais importante. Deve-se mirar o centro pela parte da frente e pelas laterais. O bulbo raquidiano é o centro de tudo. Depois, ministre na cabeça inteira.
+
+**“Qual a vestimenta correta para o sepultamento? Geralmente, usam-se trajes brancos, mas alguns dizem que vestir o falecido com roupas finas o beneficiará no Mundo Espiritual.”**
+
+Isso é uma formalidade budista, não há uma regra absoluta. Depende da religião da família, portanto, o melhor é consultar o monge responsável.
+
+**“Como um gesto de respeito, seria apropriado colocar no caixão os acessórios que a pessoa usava em vida?”**
+
+É melhor retirá-los. Colocá-los junto não é bom. Se fosse algo positivo, representaria uma perda econômica tremenda para a nação. O que acompanha o corpo devem ser coisas sem valor, que se decomponham.
+
+**“E quanto a dentaduras de ouro?”**
+
+Isso é de pouca monta.
+
+**“Alguns as recolhem após a cremação.”**
+
+Isso não tem grande importância. Eu me refiro a anéis e joias. De todo modo, mesmo que a família não retire os dentes de ouro, os coveiros o farão. É uma fonte de renda considerável para eles.
+
+**“No artigo ‘Relato de um Coveiro’, na edição 56 da revista ‘Tijō Tengoku’, dizia-se que ‘as pessoas que receberam Johrei queimam de forma serena e sem sofrimento, enquanto as mulheres da vida noturna, que enganaram muitos homens, são as que mais sofrem…’. Qual a razão disso?”**
+
+A razão é essa mesma. A dificuldade na cremação, o fato de o processo ser demorado, indica a presença de máculas.
+
+**“Seria porque o espírito não se desprendeu completamente… que ainda resta espírito?”**
+
+O espírito permanece apenas por um breve período. Alguns se desprendem mais rápido, outros mais devagar, mas isso não é o cerne da questão. Mesmo que demore um pouco, ele não permanece indefinidamente. A permanência se deve ao apego. Há espíritos que se agarram ao corpo até o último instante antes da cremação, num esforço desesperado para não morrer, para continuar vivendo. Mas, uma vez cremado, ele se desprende. Dependendo do apego, o espírito pode ficar próximo ao cadáver. A forma como os restos mortais são tratados pode enfurecê-lo. O que mais perturba um espírito é quando seus ossos não são devidamente sepultados, mas deixados de lado. Por isso, não é bom deixar as cinzas guardadas em templos; é preciso dar-lhes um destino final o mais rápido possível. Enquanto restar qualquer vestígio da forma física, o espírito pode se apegar a ela. Após a cremação, isso não ocorre mais.
+
+**“A cremação lenta ou irregular se deve a uma vida de impurezas?”**
+
+Exato. É porque há muitas máculas. A queima das máculas leva tempo. Pessoas ligadas à vida noturna, por exemplo, têm muitas máculas, pois cometeram muitos pecados, ou melhor, criaram muitos pecados.
+
+**“Na província de Miyazaki, dizem que os cemitérios comunitários estão lotados e que, sempre que um novo cemitério é construído, o número de mortes aumenta vertiginosamente. Um de nossos membros está envolvido na construção de um novo cemitério. Isso é superstição?”**
+
+É superstição. No entanto, é fácil se enganar com isso. É comum ouvir que, ao se construir um novo altar budista, ou comprar um templo, ou construir um novo cemitério, alguém morre logo em seguida. O que ocorre é que o anjo da guarda da pessoa que está para falecer já sabe disso de antemão e providencia para que o cemitério ou o altar sejam renovados antes da partida dela. Objetivamente, a impressão é a que você descreveu, mas a vida humana não é algo tão simples. Uma pessoa com muito tempo de vida não morrerá só porque um novo cemitério foi construído. Isso significaria que o homem é dominado pelo cemitério, quando é o homem quem deve dominar o cemitério. Tal ideia contraria a Verdade.
+
+**“No caso da criança que nasce com uma deficiência devido ao apego da mãe, o amor que essa mãe sente pelo filho falecido é algo que, aos olhos de Deus, seria amplamente perdoado. O fato de esse amor causar sofrimento a ambos nesta vida se deve apenas ao apego?”**
+
+Não se deve apenas ao apego. Uma família com poucos pecados e máculas é uma família que pratica o bem. Em qualquer religião, a prática do bem e a ajuda ao próximo atraem auxílio, e esse auxílio dissolve o apego. Em certos momentos, recebemos graças dessa natureza. O fato de o apego persistir indefinidamente indica a presença de máculas. Tudo ocorre segundo a devida razão. Quantas vezes pessoas são salvas em situações extremas porque um pai ou um avô ajudou alguém no passado? Esse bem se manifesta de forma positiva para os descendentes. Essa é uma das leis do mundo. Nem o bem nem o mal ficam sem retorno. Invariavelmente, serão recompensados de alguma forma. Essa é a Lei da Causa e Efeito.
+
+**“Ao renascermos no Mundo Material, vamos para um lugar com o qual temos afinidade?”**
+
+Exato.
+
+**“Poderíamos dizer que isso ocorre na maioria dos casos?”**
+
+Sim. Sem afinidade, isso não acontece. O ditado “até mesmo o roçar de mangas é fruto de uma afinidade de vidas passadas” é muito sábio. É algo muito profundo. Se, gerações atrás, alguém ajudou uma pessoa, o ajudado sentirá a necessidade de retribuir essa graça. Se não encontrar o benfeitor, procurará seu filho; se não o encontrar, seus descendentes. Se o benfeitor tiver caído no inferno e não puder sair por um tempo, a retribuição tardará, mas um dia, invariavelmente, ocorrerá.
+
+Por exemplo, uma pessoa A morre e recebe orações de um membro da nossa Igreja. Se a pessoa A já tiver reencarnado, a graça da oração (baseada nos registros espirituais que existem enquanto a alma está no Mundo Espiritual) é direcionada, através desses registros, à pessoa viva. E essa pessoa viva recebe algo bom. Ela pode pensar: “Por que algo tão bom me aconteceu?”, “Por que ganhei na loteria?”. A razão é que, em algum lugar, alguém está orando por seu espírito ou tentando retribuir uma graça. Ganhar na loteria não é por acaso; sempre há um motivo.
+
+Por outro lado, ganhar em corridas de cavalos tem um significado diferente. Pode ser que os antepassados precisem que a fortuna da família seja dissipada. Para isso, escolhem um descendente que goste de jogos e o incentivam a apostar. No início, ele ganha, fica obcecado e acaba perdendo tudo. Então os antepassados pensam: “Finalmente a fortuna da nossa casa foi dissipada e os pecados foram purificados. Agora os descendentes poderão prosperar”.
+
+Portanto, tudo o que se manifesta, todas as pessoas com quem nos relacionamos, até mesmo o lugar onde vivemos, tudo está ligado por laços cármicos. Mesmo em assuntos aparentemente triviais, se não seguirmos o fluxo, as coisas darão errado. Muitas pessoas tentam forçar a própria vontade, mas isso raramente acaba bem. Isso é o ego. Dizer “Eu decidi assim e vou até o fim, não importa o que digam ou as circunstâncias” é muito perigoso. O melhor é tentar; se não der certo, desista. Pode parecer falta de convicção, mas não é. É ser submisso e dócil ao destino. Esse é o melhor caminho, e não há erro nele. Se não há erro, tudo corre bem. O problema é que o ser humano tende a seguir o lema de que “com determinação, tudo é possível”, e reluta em ser dócil.
+
+Eu mesmo já disse que é preciso ter força no abdômen, mas na verdade não se deve ter. Mesmo um mestre de artes marciais que tensiona o abdômen ainda não atingiu a verdadeira maestria. Com o abdômen tenso, ele não consegue reagir com a versatilidade necessária a um ataque súbito do inimigo. Sem essa tensão, ele pode se mover de mil maneiras, adaptando-se à situação e ao momento. Portanto, planejar rigidamente como agir nunca funciona. O melhor princípio é: se está frio, vista-se com algo quente; se está calor, com algo fresco. No passado, eu também era um grande adepto do “com determinação, tudo é possível”, mas percebi que não é o caminho certo. Antes de conhecer as Leis Divinas, eu agia assim. Mas, ao compreendê-las, percebi que o ser humano é, na verdade, uma criatura muito frágil. Somos, na verdade, insignificantes como um mosquito, que pode ser esmagado por uma ventania. Apenas se estivermos seguros por Deus estaremos a salvo; do contrário, nossa existência é extremamente perigosa.
+
+Vejam agora todos esses homens cheios de si, convictos de seu próprio poder e grandeza, sendo presos um após o outro nos escândalos de corrupção.
+
+Por outro lado, não se pode simplesmente viver à deriva. É aí que a sabedoria se faz necessária. A sabedoria é o ponto crucial. É preciso polir a sabedoria e a percepção da Verdade. Para isso, a mente é fundamental, e ela não pode estar maculada. As pessoas de hoje têm a mente obscurecida, anêmica, e por isso sua sabedoria não funciona bem. Se compreendessem de verdade, veriam que uma pessoa sem fé não tem salvação. Foi por isso que escrevi o artigo “A Matriz da Corrupção”, que publicarei três vezes seguidas na revista “Eikō”. Pretendo levar essa questão às últimas consequências. O mundo político do Japão precisa, impreterivelmente, passar por uma grande purificação.
+
+---
+
 # Esclarecimentos Divinos sobre Sofrimentos e Práticas Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年8月1日） | **Status:** Published
 
 ## Esclarecimentos Divinos sobre Sofrimentos e Práticas Espirituais
 
@@ -77,6 +439,7 @@ Nossa missão é justamente esclarecer as pessoas sobre essas contradições. O 
 # Orientações sobre Purificações e Influências Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年12月6日） | **Status:** Published
 
 ## Orientações sobre Purificações e Influências Espirituais
 
@@ -169,6 +532,7 @@ A morte por tuberculose não pode ser vista de forma simplista. A verdade é que
 # Esclarecimentos sobre o Mundo Espiritual e a Purificação
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年8月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S27年8月1日） | **Status:** Published
 
 ## Esclarecimentos sobre o Mundo Espiritual e a Purificação
 
@@ -546,6 +910,7 @@ O nível mais elevado não é dourado, é branco. O seguinte é o dourado. O bra
 # Esclarecimentos sobre a Fé e a Vida Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S27年4月1日） | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e a Vida Espiritual
 
@@ -646,6 +1011,7 @@ R: Decerto, trata-se de algo incomum.
 # Esclarecimentos sobre a Prática da Fé
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S26年4月1日） | **Status:** Published
 
 ## Esclarecimentos sobre a Prática da Fé
 
@@ -828,6 +1194,7 @@ R: Isso ocorre em solos que se compactam com facilidade, como a argila vermelha.
 # O Discernimento sobre a Atuação Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S25年4月8日） | **Status:** Published
 
 ## O Discernimento sobre a Atuação Espiritual
 
@@ -880,6 +1247,7 @@ Vejam... Isso apenas confirma o sofrimento do espírito.
 # Esclarecimentos sobre a Purificação
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年9月5日） | **Status:** Published
 
 ## Esclarecimentos sobre a Purificação
 
@@ -941,6 +1309,7 @@ Recentemente, li no jornal "Sun" sobre uma senhora de cento e cinco anos. Reunin
 # A Sabedoria Divina em Todas as Coisas
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S28年11月1日） | **Status:** Published
 
 ## A Sabedoria Divina em Todas as Coisas
 
@@ -1099,6 +1468,7 @@ Se vivêssemos em um mundo onde as más ações fossem descobertas imediatamente
 # Esclarecimentos sobre a Verdade e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年6月18日） | **Status:** Published
 
 ## Esclarecimentos sobre a Verdade e o Mundo Espiritual
 
@@ -1185,6 +1555,7 @@ Seria bom estabelecer um dia fixo, uma vez por mês, para realizar a cerimônia.
 # A Grande Purificação e Outros Esclarecimentos Doutrinários
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年10月28日A） | **Status:** Published
 
 ## A Grande Purificação e Outros Esclarecimentos Doutrinários
 
@@ -1285,6 +1656,7 @@ A chamada “água dos últimos momentos” é oferecida por outras pessoas, nã
 # Orientações sobre o Culto aos Antepassados e a Vida Cotidiana
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年7月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## Orientações sobre o Culto aos Antepassados e a Vida Cotidiana
 
@@ -1317,6 +1689,7 @@ A chamada “água dos últimos momentos” é oferecida por outras pessoas, nã
 # Esclarecimentos Divinos sobre o Destino e a Vida Cotidiana
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年8月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## Esclarecimentos Divinos sobre o Destino e a Vida Cotidiana
 
@@ -1411,6 +1784,7 @@ O Mundo Material, em seus aspectos fenomênicos, não sofrerá as alterações q
 # Esclarecimentos Divinos sobre a Fé e a Purificação
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年12月11日） | **Status:** Published
 
 ## Esclarecimentos Divinos sobre a Fé e a Purificação
 
@@ -1443,6 +1817,7 @@ Não há problema. A aplicação é apenas local (na região do dente). Não há
 # Diálogos sobre a Verdade Divina
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年10月8日） | **Status:** Published
 
 ## Diálogos sobre a Verdade Divina
 
@@ -1497,6 +1872,7 @@ Quando não é possível assentar o Eixo Sagrado no segundo andar, podemos fazê
 # A Função dos Gânglios Linfáticos e o Ponto Vital na Cura
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S27年1月15日） | **Status:** Published
 
 ## A Função dos Gânglios Linfáticos e o Ponto Vital na Cura
 
@@ -1533,6 +1909,7 @@ Se a tivessem deixado em paz, já estaria curada há muito tempo. Em vez disso, 
 # Elucidações sobre Sofrimentos de Origem Espiritual e a Ação da Purificação
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年8月16日） | **Status:** Published
 
 ## Elucidações sobre Sofrimentos de Origem Espiritual e a Ação da Purificação
 
@@ -1576,6 +1953,7 @@ Portanto, remova-as o mais rápido possível. No início, o desconforto causado 
 # A Lei do Espírito e a Realidade do Cotidiano
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年2月8日） | **Status:** Published
 
 ## A Lei do Espírito e a Realidade do Cotidiano
 
@@ -1628,6 +2006,7 @@ O mundo de hoje é um ciclo vicioso de ressentimentos. O amor praticamente inexi
 # A Essência da Fé e as Falsas Profecias
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年4月18日） | **Status:** Published
 
 ## A Essência da Fé e as Falsas Profecias
 
@@ -1677,6 +2056,7 @@ Eu também escreverei um artigo para a publicação. Peçam ao Sr. Nonoyama que 
 # Esclarecimentos Divinos: Perguntas e Respostas
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年7月30日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年7月） 大成会以外の御面会日の御光話の中から適宜選択、載録 | **Status:** Published
 
 ## Esclarecimentos Divinos: Perguntas e Respostas
 
@@ -2017,6 +2397,7 @@ Não é necessário. A batata se desenvolve bem em climas relativamente frios, p
 # Esclarecimentos a Respeito de Várias Questões
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年4月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## Esclarecimentos a Respeito de Várias Questões
 
@@ -2095,6 +2476,7 @@ Não é necessário. A batata se desenvolve bem em climas relativamente frios, p
 # Esclarecimentos sobre Perturbações Espirituais e Purificação
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S27年2月6日） | **Status:** Published
 
 ## Esclarecimentos sobre Perturbações Espirituais e Purificação
 
@@ -2124,6 +2506,7 @@ Para evitar um enfraquecimento abrupto, deve-se interromper o Johrei temporariam
 # Esclarecimentos sobre Fenômenos Espirituais e Físicos
 
 **Categoria:** situmon | **Ano:** 昭和23(1948)年12月10日 | **Fonte:** 実生分会ニュース
+**Título Original:** ご存じですか 実生分会 | **Status:** Published
 
 ## Esclarecimentos sobre Fenômenos Espirituais e Físicos
 
@@ -2176,6 +2559,7 @@ A causa física dos soluços reside em um ponto no centro do diafragma. Para ces
 # Questões sobre a Fé e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年11月28日A） | **Status:** Published
 
 ## Questões sobre a Fé e o Mundo Espiritual
 
@@ -2268,6 +2652,7 @@ O Mundo Espiritual coexiste com o mundo em que vivemos. Ele se estende até uma 
 # A Ordem Divina e a Missão para a Nova Era
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年8月18日） | **Status:** Published
 
 ## A Ordem Divina e a Missão para a Nova Era
 
@@ -2292,6 +2677,7 @@ O grande número de jovens em nossa organização se deve ao fato de que o Ensin
 # Esclarecimentos de Meishu-Sama
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S27年6月1日） | **Status:** Published
 
 ## Esclarecimentos de Meishu-Sama
 
@@ -2536,6 +2922,7 @@ Aproveitando o assunto, gostaria de dizer que o sucessor não precisa ser o prim
 # Esclarecimentos Divinos
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年4月20日 | **Fonte:** 実生分会ニュース
+**Título Original:** 妙智の鍵 実生分会 | **Status:** Published
 
 ## Esclarecimentos Divinos
 
@@ -2574,6 +2961,7 @@ As aves e as tartarugas também se manifestam como espíritos de ressentimento. 
 # Esclarecimentos sobre a Prática da Fé
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年11月20日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年8月13日） | **Status:** Published
 
 ## Esclarecimentos sobre a Prática da Fé
 
@@ -2668,6 +3056,7 @@ R: Sim, os kappa de fato existiram em grande número. Há muitos relatos sobre e
 # Esclarecimentos sobre a Vigilância, a Salvação e o Espírito Japonês
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年4月13日） | **Status:** Published
 
 ## Esclarecimentos sobre a Vigilância, a Salvação e o Espírito Japonês
 
@@ -2724,6 +3113,7 @@ A verdade é que, se praticarem o método sem adubos, nada disso será necessár
 # Orientações para a Vida de Fé
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S25年4月13日） | **Status:** Published
 
 ## Orientações para a Vida de Fé
 
@@ -2764,6 +3154,7 @@ No caso do reparo do telhado, é ainda melhor se fizerem uma breve comunicação
 # As Razões do Progresso e da Estagnação Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年5月30日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年5月） 大成会以外の御面会日の御光話の中から適宜選択、載録 | **Status:** Published
 
 ## As Razões do Progresso e da Estagnação Espiritual
 
@@ -3065,6 +3456,7 @@ Tenho uma história interessante. O dia 5 de maio de 1930 foi o ano do Cavalo, o
 # Esclarecimentos sobre a Purificação e a Cura Divina
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年9月8日） | **Status:** Published
 
 ## Esclarecimentos sobre a Purificação e a Cura Divina
 
@@ -3173,259 +3565,6 @@ Os furúnculos do tamanho de um grão de soja nas costas são muito positivos, p
 Quanto à evacuação, é melhor não forçar. Criar esse hábito pode agravar a constipação. Se ela puder suportar, deixem a natureza agir, seja por meio mês ou por um mês inteiro. Em algum momento, a evacuação ocorrerá, pois essa é a função natural do corpo. Com paciência, a melhora virá gradualmente. No entanto, sem conhecer a natureza e a quantidade dos medicamentos utilizados, é impossível prever a duração do tratamento. O que se pode afirmar é que, à medida que o Johrei for ministrado, a melhora, ainda que lenta, será constante.
 
 Além disso, é necessário que ela entronize a imagem de Komyoo Nyorai-Sama, mas sem forçar a situação. Também é importante que leia os Ensinamentos. Assim, ela compreenderá a Verdade e, quando o desejo de ter o altar surgir naturalmente, deverá fazê-lo. Dessa forma, ao final, ela encontrará a salvação.
-
----
-
-# Elucidações sobre o Mundo Espiritual e as Tradições
-
-**Categoria:** situmon | **Ano:** 昭和24(1949)年6月15日 | **Fonte:** 神Hikari
-
-## Elucidações sobre o Mundo Espiritual e as Tradições
-
-**P: Os festivais de três de março e de cinco de maio são considerados misteriosos. Qual é o significado oculto por trás dessas datas? Gostaria de receber seus ensinamentos.**
-
-R: O número três representa a água e o feminino, ao passo que o cinco simboliza o fogo e o masculino. A Divindade Izunome congrega em si os princípios vertical e horizontal, sendo, portanto, uma manifestação divina masculina e feminina, que no budismo corresponde a Kannon (観音). A escolha do pêssego provavelmente se deu por evocar, em sua estação, a imagem de uma jovem donzela. Quanto às bonecas do altar, que hoje representam o Imperador e a Imperatriz, eram originalmente confeccionadas em papel e tornaram-se progressivamente mais suntuosas a partir do Período Tokugawa.
-
-Já no festival de cinco de maio, celebramos a futura ascensão social dos meninos com diversos ornamentos. A carpa da flâmula, por exemplo, é um peixe que simboliza o sucesso na vida. Existem muitos outros significados, mas, por ora, esta explicação é suficiente.
-
-**P: De primeiro a quinze de março, ocorre no Templo Nigatsudo de Todai-ji, em Nara, o ritual de Omizutori. Durante esse período, o frio se intensifica, e diz-se que o tempo volta a aquecer somente após o término do evento. De fato, todos os anos o clima esfria. Haveria algum significado espiritual nisso?**
-
-R: Em tempos remotos, os Deuses Dragões atuavam em tais ocasiões, e sua força de fato influenciava o clima. Contudo, nos dias de hoje, esse fenômeno não mais ocorre. A coincidência se deve unicamente ao fato de o ritual transcorrer no auge da estação fria.
-
-**P: Dizem que, quando três pessoas tiram uma fotografia juntas, aquela que fica no meio morre. Há algum fundamento nisso?**
-
-R: Trata-se de uma crença popular bastante difundida e que, por vezes, parece se confirmar. No entanto, não passa de uma superstição. Se houvesse veracidade nisso, tal crença existiria também no Ocidente, onde o assunto sequer é cogitado. Mesmo que admitíssemos a possibilidade de tal ocorrência, para aqueles que ingressaram na fé, a Divina Proteção os isenta da necessidade de se preocupar com assuntos dessa natureza.
-
-**P: Aprendemos que o Mundo Espiritual é o mundo do pensamento. Sendo assim, de que forma se dá a comunicação? Não existem palavras?**
-
-R: As palavras não são de todo inexistentes, mas seu uso é extremamente limitado. Na maioria das vezes, a comunicação se estabelece pelo olhar, por meio do qual a vontade é transmitida diretamente. Nessas circunstâncias, o corpo físico revela-se, na verdade, um obstáculo. Outra forma de compreensão se dá por meio do sentimento, uma sensibilidade tanto mais aguçada quanto mais elevado for o espírito.
-
-O mesmo ocorre no mundo material: há pessoas que compreendem a essência de um assunto com uma ou duas palavras, enquanto outras necessitam de explicações prolixas. Existem aqueles que, ao ouvir um, compreendem cem, e aqueles que, ouvindo cem, não compreendem sequer um.
-
-**P: Foi-nos ensinado que pessoas que riem excessivamente ou que sofrem de riso convulsivo podem estar sob a influência de um espírito de tanuki. No caso daquelas que choram em demasia, qual seria o espírito atuante?**
-
-R: O riso descontrolado não é causado apenas por espíritos de tanuki. Pode ocorrer também pela possessão de um espírito humano que, por sua vez, estava possuído por um tanuki. Já o choro excessivo é provocado pela possessão de espíritos de pessoas que morreram em meio a lamentos e prantos.
-
-**P: Como funcionam a pulsação e a respiração no Mundo Espiritual? Ocorrem da mesma forma que no mundo material?**
-
-R: Certamente, ocorrem de maneira análoga ao mundo material. Sem essas funções, não se trataria de um ser vivo.
-
-**P: O corpo de fiéis que falecem costuma permanecer aquecido por um longo tempo após o passamento. Qual a razão para isso?**
-
-R: Ao ingressar na fé, a condição espiritual da pessoa se altera. O Elemento Fogo aumenta, tornando o espírito mais denso. Mesmo após a morte, essa energia permanece no corpo físico, mantendo-o aquecido. A ausência de rigidez cadavérica também se deve à abundância de Elemento Fogo. O mesmo princípio explica por que sentimos calor ao nos aproximarmos de uma pessoa de virtude elevada: ela possui grande quantidade de Elemento Fogo, pois o amor gera esse elemento.
-
-**P: Por que os dias nublados costumam ser mais quentes que os dias ensolarados?**
-
-R: O fogo arde pela ação da água, e a água se movimenta pela ação do fogo. Em dias ensolarados, há menos Elemento Água na atmosfera, de modo que a combustão do Elemento Fogo é mais fraca, resultando em frio. Em dias nublados, a presença de Elemento Água é maior, o que intensifica a combustão do Elemento Fogo, gerando calor.
-
-**P: É comum inscrever patentes militares e títulos de nobreza no verso das tabuletas memoriais e nas lápides. Essa prática é incorreta?**
-
-R: As hierarquias e condecorações do mundo material não têm qualquer validade no Mundo Espiritual. A questão não é se isso é certo ou errado; simplesmente não possui o menor valor. Portanto, inscrevê-las é inútil. Pelo contrário, muitos daqueles que foram altos dignitários ou homens abastados na Terra levam uma vida de extrema penúria no Mundo Espiritual.
-
-**P: Em certa região de Tanba, os túmulos não são construídos no local do sepultamento, mas sim nos terrenos dos templos. Isso é apropriado? E há algum lugar específico onde os túmulos devam ser erguidos?**
-
-R: O túmulo deve ser erigido no local onde o corpo foi sepultado. Ademais, o próprio sepultamento deve ocorrer em um lugar designado para tal fim. Cada terreno possui uma missão específica: há terras para o cultivo agrícola, terras para o plantio de árvores e produção de madeira, e terras que servem como cemitérios. Devemos, portanto, utilizar cada local de acordo com sua finalidade.
-
-**P: Em meu oratório budista, tenho imagens de Fudo e de Kannon. Após entronizar o pergaminho de Kannon, posso manter as outras duas imagens como estão?**
-
-R: Embora a imagem de Kannon (観音) possa permanecer, a de Fudo, por pertencer a uma hierarquia espiritual distinta, deveria, a rigor, ser cultuada separadamente. Se for imprescindível mantê-las no mesmo local, posicione a imagem de Fudo em um nível inferior. Caso contrário, será o próprio Fudo quem sofrerá com essa disposição.
-
-**P: Um filho que fora adotado por outra família faleceu. Ao cultuar seu espírito na casa de seus pais biológicos, a tabuleta memorial deve ser colocada em um nível inferior, por ele pertencer a outro clã?**
-
-R: Ele deve ser tratado da mesma forma que os outros filhos da casa.
-
-**P: Há casos de recém-nascidos que vêm ao mundo com a coluna curvada, como um camarão, condição conhecida como "ebiko". Existe alguma explicação espiritual para isso?**
-
-R: Trata-se da reencarnação de um idoso. O estado físico do avô ou da avó de sua vida anterior ainda se manifesta no novo corpo.
-
-**P: Em uma parte da região de Enshu, existe uma antiga crença de que, quando alguém morre, uma entidade chamada "kasha" desce para levar o corpo. O que seria o "kasha"? Dizem também que, para protegê-lo, o cortejo fúnebre leva um dossel em forma de dragão, pois, se o "kasha" aparecer, basta cobrir o falecido com ele para que a entidade se afaste. Esse dossel tem alguma relação espiritual?**
-
-R: O "kasha" deve ser a carruagem de fogo do inferno. De fato, é comum que entidades infernais venham buscar os mortos, e frequentemente os espíritos do inferno são transportados em "carruagens de fogo". O dossel, por sua vez, representa o Paraíso, adornado com figuras como Deuses Dragões. Seu propósito é invocar o poder dessas divindades para que o falecido possa seguir para um lugar um pouco melhor que o inferno.
-
-**P: Entre as Sete Maravilhas de Enshu, há um carvalho centenário na aldeia de Kumakiri, com um tronco de cerca de um metro e meio de diâmetro. Seu tronco se bifurca, e os galhos de cada lado brotam em anos alternados. Qual a razão para tal fenômeno?**
-
-R: Um dragão de madeira habita essa árvore. Trata-se de um casal de Deuses Dragões. Como não possuem força suficiente para fazer ambos os lados brotarem simultaneamente, eles se alternam para regular sua energia.
-
-**P: A cerca de seiscentos metros da costa de Sagara, em Enshu, há uma rocha chamada Aita, da qual brota água doce. Como isso é possível?**
-
-R: A rocha possui uma abertura através da qual a água de um lençol freático submarino jorra. Por essa razão, a água doce não se mistura com a salgada.
-
-**P: Costuma-se falar na "Hora do Boi" (Ushimitsudoki), entre duas e quatro da manhã. Existe alguma relação especial entre os espíritos e os seres humanos nesse horário?**
-
-R: O ciclo de dia e noite corresponde ao movimento de respiração da Terra. A "Hora do Boi" é o momento em que a expiração se completa, e a atividade de todas as coisas atinge seu estado de maior quietude. É o período em que, como se diz, "até as plantas dormem", e os seres humanos podem desfrutar do sono mais profundo. Trata-se de uma bênção concedida por Deus.
-
-**P: Durante períodos de seca, os agricultores fazem preces por chuva acendendo fogueiras à beira de lagos e rios. Essa prática tem algum efeito?**
-
-R: Sim, possui um certo efeito. Ocorre pelo mesmo princípio que faz chover após uma grande queima de fogos de artifício ou do uso intenso de artilharia em uma guerra. Acender o fogo atrai a umidade, o que pode induzir a precipitação.
-
-**P: Foi-nos dito que a frieira é causada pela possessão de espíritos de insetos. Por que eles se manifestam especificamente nos pés? O mesmo se aplica a outras afecções de pele, como a tinha?**
-
-R: A frieira, assim como a tinha e outras infecções fúngicas, é causada pelo yakudoku (薬毒). As toxinas medicamentosas mais densas tendem a se acumular nas partes inferiores do corpo. As mais pesadas de todas se depositam na sola dos pés, onde propiciam o surgimento de germes.
-
-**P: Em uma determinada família, as mãos das imagens de Amida e Fudo que estavam no oratório se romperam há sete anos. Desde então, nove filhos morreram sucessivamente de tuberculose, e a última filha, de trinta anos, está agora em estado terminal com câncer de estômago. Haveria alguma perturbação espiritual? E como proceder?**
-
-R: Se as imagens de Amida e Fudo estivessem habitadas por espíritos, é possível que eles estivessem causando perturbações como um apelo para que seus braços danificados fossem consertados. Nesses casos, basta levar as imagens a uma loja de artigos budistas, onde o reparo é feito de forma simples. Recomendo que o faça o quanto antes.
-
-Ademais, os espíritos de pessoas que morrem de tuberculose geralmente vivem em solidão no Mundo Espiritual e, movidos pela saudade, costumam se apegar a seus irmãos, gerando doenças de difícil cura. Quanto ao câncer de estômago, é uma doença que raramente acomete pessoas com menos de quarenta anos; é provável que seja um diagnóstico equivocado.
-
-**P: Certa senhora adotou um genro para dar continuidade à família, mas seu filho primogênito morreu na guerra e seu marido desapareceu. Posteriormente, ela passou a viver com outro homem, com quem teve dois filhos, mas este também faleceu. Qual é a maneira correta de cultuar os espíritos nesse caso?**
-
-R: O primeiro marido deverá ser reverenciado como falecido, ainda que possa estar vivo. O segundo consorte deve ser cultuado em uma posição subsequente.
-
----
-
-# Elucidações sobre a Purificação e o Mundo Espiritual
-
-**Categoria:** situmon | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
-
-## Elucidações sobre a Purificação e o Mundo Espiritual
-
-**Inquérito:** Trata-se do caso de Haruaki, cinco anos, filho mais velho de Itsurō Furuta. Desde o nascimento, seus olhos eram de um azul-escuro turvo e opaco. Embora não parecesse completamente cego, por volta dos três anos de idade, precisava aproximar os livros ilustrados rente ao rosto, e mesmo assim, havia momentos em que mal conseguia distinguir o vermelho do branco. Nessa época, inúmeros pontos surgiram no centro de seus globos oculares. Com a ministração de Johrei, o centro dos olhos inchou, adquirindo uma aparência esbranquiçada e edemaciada, dando a impressão de que bastaria remover uma fina película para que ele enxergasse. Após receber Johrei do nosso presidente de igreja e visitar a Sede Anexa de Chukyo, apresentou alguma melhora; passou a discernir vultos de objetos grandes a uma distância de aproximadamente sessenta centímetros. Inicialmente, só conseguia dormir de bruços, e a luz do sol o ofuscava, fazendo-o manter o olhar sempre para baixo, mas recentemente seu estado melhorou consideravelmente. Gostaríamos de receber orientações sobre o método de Johrei e como proceder daqui em diante. Haveria alguma relação de ordem espiritual? Nós, o casal, ingressamos na fé em julho de 1946 e temos entronizados em nosso lar o Kōmyō Nyorai-Sama e o Byōbu Kannon-Sama. Ademais, ele foi submetido a uma única consulta médica por causa dos olhos, mas jamais utilizou qualquer tipo de medicamento desde que nasceu. Rogamos a Vossa orientação sobre o exposto.
-
-**Orientação Divina:** Este caso tem cura, sim. Trata-se de toxinas solidificadas nos olhos, que já estão em processo de dissolução e eliminação. Fiquem tranquilos, pois ele se recuperará por completo. Existe, de fato, uma influência espiritual, mas, mais do que isso, trata-se de um processo de remissão de máculas. Provavelmente, algum antepassado ludibriou ou prejudicou a visão de outra pessoa, gerando um profundo ressentimento. O espírito ressentido manifesta-se, por assim dizer, na forma de pus. O Johrei deve ser ministrado nos olhos e na região central da nuca. Ademais, verifiquem se há nódulos ao redor do pescoço e concentrem o Johrei nesses pontos. Procedendo dessa forma, a cura se concretizará.
-
-**Inquérito:** Sou Kaneyuki Ito, de trinta e oito anos. Em fevereiro de 1950, fui acometido por um distúrbio mental, e toda a minha família, composta por nove pessoas, ingressou na fé. Entronizamos a Imagem Divina Daikōmyō Nyorai-Sama e, graças ao Johrei ministrado pelo nosso dirigente de igreja, obtive uma melhora significativa. Contudo, a partir do período da Perseguição Religiosa, a oposição de nossos parentes tornou-se ferrenha. Cheguei a fugir de casa e a me atirar em um rio. Meu irmão mais novo também foi internado por nove meses em um hospital psiquiátrico, onde recebeu quarenta injeções de penicilina e outros tratamentos, sem apresentar melhora alguma; ao contrário, seu corpo inteiro ficou edemaciado. Ele teve alta no final de maio do ano passado e, desde então, vem recebendo Johrei continuamente. O inchaço cedeu, o apetite normalizou-se e hoje ele também se dedica fervorosamente à fé. Quanto a mim, ultimamente tornei-me extremamente taciturno e sinto uma forte vontade de me isolar em nosso depósito (um antigo armazém de saquê). Quando meus familiares saem para as atividades religiosas, fico inquieto, escondo-me no depósito e apresento um comportamento que sugere ideação suicida. Desde criança, tenho uma saúde frágil, tendo padecido de pneumonia, apendicite, nefrite, úlcera duodenal e espasmos gástricos. Antes de ingressar na fé, recebi tratamento com Salvarsan. Após o ingresso, tive uma purificação de sarna e, desde então, trabalhei com vigor até a manifestação do distúrbio mental. Recentemente, durante uma conversa com outro membro, um espírito se manifestou através dele, declarando ser uma serpente do armazém de saquê. O espírito afirmou que vinha tentando me perturbar ao máximo, mas que não conseguia mais fazê-lo. Após esse episódio, tornei-me mais sereno e passei a dormir bem. No entanto, a vontade de ir para o depósito ainda surge ocasionalmente. Haveria alguma relação com a serpente? Solicitamos vossa orientação sobre os pontos a serem observados na ministração de Johrei.
-
-**Orientação Divina:** Trata-se do espírito de uma serpente. Era uma serpente que habitava o armazém de saquê, e por essa razão o paciente sente o desejo de ir para lá. É o ressentimento do animal por ter sido morto. A cura está próxima, pois o espírito da serpente já enfraqueceu consideravelmente, motivo pelo qual ele passou a dormir melhor. As doenças mentais geralmente se iniciam com um período de agitação, seguido por um estado de mutismo, para só então entrarem na fase de recuperação. Portanto, o processo está seguindo seu curso natural. Além da influência da serpente, o tratamento com Salvarsan foi extremamente prejudicial. A administração de Salvarsan frequentemente causa distúrbios mentais. Os médicos atribuem o problema à sífilis, mas, na verdade, a causa é o próprio medicamento utilizado para tratá-la. O espírito já está bastante debilitado, falta pouco para a resolução. O Johrei deve ser focado na parte frontal da cabeça, pois é o principal ponto de atuação dos espíritos. A região do pescoço também é fundamental, pois certamente existem nódulos ali. Com Johrei nesses locais, ele se curará por completo. Todavia, é preciso compreender que a recuperação total levará um tempo considerável, algo em torno de três a cinco anos. A consciência retornará em breve, mas mesmo depois de recuperá-la, o espírito poderá atuar esporadicamente. A cura definitiva é um processo que demanda alguns anos.
-
-**Inquérito:** Sou Noriyoshi Yasuda, ministro, de quarenta e quatro anos. Por volta de 10 de janeiro deste ano, comecei a sentir calafrios por todo o corpo. A região anal apresentou um inchaço avermelhado e disforme. No dia 23, ocorreu uma espantosa eliminação de pus por três orifícios perto do ânus e dois na região genital. O odor era tão fétido que as pessoas ao meu redor sentiam náuseas. A drenagem de grandes volumes de pus continuou, e, devido à febre alta e à falta de apetite, fiquei bastante debilitado. Em fevereiro, perdi a mobilidade da perna direita. Diariamente, por volta das três da manhã, eu era assediado por inúmeros espíritos e sofria convulsões generalizadas, transpirando em bicas. Contudo, ao entoar a Oração Amatsu-Norito, a dor cessava. Posteriormente, tive sangramento nasal, minha visão enfraqueceu e meu estado tornou-se crítico. No dia 10 de fevereiro, implorei pela proteção Divina e, após eliminar um pus filamentoso, senti grande alívio. Na ocasião, considerando a possibilidade de falecer, consultei um médico, que me diagnosticou com septicemia e abscesso perianal. Atualmente, consigo mover um pouco a perna direita e, após as eliminações, meu apetite melhorou, consumindo uma tigela e meia de arroz. Minha visão voltou ao normal. A eliminação de pus, ora branco, ora avermelhado e de consistência gelatinosa, continua, e os orifícios de drenagem começaram a cicatrizar. Há três dias, sinto um calor estranho na sola do pé esquerdo. Trata-se da eliminação de pus de cárie óssea decorrente de uma fístula anal? Solicitamos orientação sobre os pontos de Johrei e como devemos proceder. Ingressei na fé há oito anos e tenho a Imagem Divina Kōmyō Nyorai-Sama entronizada.
-
-**Orientação Divina:** Abscesso perianal não é um diagnóstico, é apenas uma descrição, pois é evidente que o problema se localiza ao redor do ânus. Ademais, não existe cárie óssea decorrente de fístula; cárie e fístula são patologias distintas. O que está ocorrendo é excelente. As toxinas de todo o seu corpo estão se concentrando na região anal e adjacências para serem expelidas. É uma bênção imensa. O ponto crítico da purificação já foi superado; agora, a melhora será gradual e contínua. A febre e a perda de apetite são consequências naturais do processo. Tenha paciência, pois em breve se sentirá muito melhor. A fístula anal, em sua origem, é causada por toxinas medicamentosas da cabeça que descem e tentam ser eliminadas pelo ânus. Se o processo purificador não for interrompido, a fístula não se forma. Na verdade, a fístula é uma criação médica. Eles fazem uma incisão, e então um novo abscesso se forma ao lado. Nova incisão, novo abscesso. O resultado final se assemelha a um favo de mel. Além disso, os antissépticos aplicados após a cirurgia se tornam um novo fator de intoxicação. É uma doença fabricada pela medicina. A cárie óssea não drena pus pelo ânus, mas sim por regiões como os rins ou a virilha.
-
-**Inquérito:** Sou Sumiko, trinta e três anos, esposa do ministro Masanori Kani. Antes de ingressar na fé, eu era usuária contumaz de Norshin. Em 1947, fui submetida a uma cirurgia para remover um cisto ovariano purulento. Engravidei antes de estar totalmente recuperada, o que me causou enjoos matinais severos e grande debilidade física, levando-me a fazer um aborto cirúrgico. Em seguida, fui diagnosticada com pleurisia e passei dois anos em tratamento, sem sucesso. Seguindo conselhos, recorri a diversos métodos, chegando a ingerir por dois meses um preparado feito com ossos humanos pulverizados. Recebi dezenas de injeções de Salvarsan e vitaminas, que me proporcionaram um alívio temporário. Contudo, meu marido foi acometido por asma, e foi a partir de então que voltamos a receber Johrei. Sob a proteção Divina, meu marido deixou seu emprego na receita federal para se dedicar à Obra Divina. Entronizamos o Daikōmyō Nyorai-Sama e o Byōbu Kannon-Sama. Pela primeira vez, ajudei nos trabalhos agrícolas e, milagrosamente, consegui trabalhar. No entanto, surgiram inúmeros nódulos em meu pescoço, que supuraram várias vezes e agora, embora os nódulos permaneçam, os orifícios se fecharam. Em outubro de 1951, recebi o talismã “Daikōmyō” e tive uma purificação com sangramento hemorroidário. Em fevereiro deste ano, uma dor intensa acometeu minha mão esquerda; a pele adquiriu a coloração de uma figura de cera, pálida, e meu corpo ficou instável. Embora receba Johrei diariamente, tenho oscilado entre melhoras e recaídas, com dores nevrálgicas na mão, dores abdominais, inchaço, dor no peito e purificação nas pernas. No início de fevereiro, o sangramento hemorroidário cessou e passei a evacuar duas vezes ao dia, sentindo-me mais leve. No dia 11 de fevereiro, ao receber o Pergaminho Sagrado “Daijōkō”, tive uma purificação estomacal, com tosse e eliminação de grande quantidade de uma substância gelatinosa, semelhante a saliva ou catarro, e um líquido amargo. Senti uma opressão no coração e precisei me deitar. Atualmente, sinto a cabeça pesada, o peito oprimido, o estômago vazio, a boca amarga e uma fraqueza nas pernas e na lombar que me deixa instável. Ao receber Johrei, tenho febre e tosse, mas sofro por não conseguir expectorar o catarro. Consigo comer uma tigela rasa de arroz, três vezes ao dia. A diurese e a evacuação estão normais. Rogo vossa orientação.
-
-**Orientação Divina:** Trata-se de uma purificação de toxinas medicamentosas. As diversas substâncias que foram introduzidas em seu corpo estão sendo eliminadas de várias formas. Durante esse processo, é preciso ter paciência, e a melhora virá gradualmente. Casos como este melhoram aos poucos, quase sem que se perceba. Portanto, basta perseverar. Não é uma doença específica; é simplesmente o corpo expelindo o que foi ingerido. A dificuldade em expectorar o catarro indica que o Johrei não está sendo ministrado no ponto correto. É preciso investigar melhor. A própria pessoa pode apalpar seu corpo para localizar os pontos de febre, de onde o catarro se origina. Se não conseguir encontrar, pode pedir ao marido que a ajude. Ela já superou o ponto crítico da purificação; falta pouco para a recuperação.
-
-**Inquérito:** Sou Fusako Ito, de vinte e um anos. No dia 1º de agosto do ano passado, após as orações do festival de Finados, passei a ter calafrios e arrepios diariamente, por volta das nove da manhã, com duração de uma hora. O Johrei trazia alívio, mas o estado se repetia. Em setembro, ingressei na fé e melhorei consideravelmente, embora meu apetite continuasse reduzido. A partir de janeiro deste ano, comecei a definhar visivelmente. Em fevereiro, precisei ficar de cama e, recentemente, a parte inferior do meu corpo emagreceu tanto que tenho dificuldade para caminhar. Tenho febre baixa, mas não sinto grande sofrimento, apenas tosse e catarro por volta das três da manhã. Minha alimentação se resume a uma tigela de arroz por refeição. No passado, tratei uma otite média com algumas injeções de penicilina. Três de meus tios faleceram de tuberculose. Recentemente, o dirigente da igreja nos informou que não possuíamos o altar para o meu tio, primogênito, que faleceu de tuberculose aos vinte e um anos. Providenciamos imediatamente a sua entronização. Haveria alguma relação espiritual?
-
-**Orientação Divina:** Há um espírito que faleceu de tuberculose atuando sobre ela. É fundamental que ela leia os Ensinamentos Divinos o máximo possível. Se não for viável, alguém pode ler para ela. O objetivo é salvar esse espírito, e assim, ela se curará. Os sintomas que ela apresenta, como a dificuldade de locomoção, são um reflexo do padecimento do espírito. Portanto, é preciso salvá-lo sem demora. Conforme mencionei, a leitura dos Ensinamentos é crucial. O Johrei deve ser concentrado no centro da parte frontal da cabeça, no peito e nas costas. Com isso, ela melhorará gradualmente. Seria bom que, em uma próxima oportunidade, vocês descrevessem novamente o estado dela em uma nova pergunta, para que eu possa orientar os próximos passos.
-
-**Inquérito:** Sou Izaemon Yoneyama, de sessenta e seis anos. Por volta de dezembro de 1950, comecei a sentir dores na boca. Após consulta e exames de sangue, os testes de Wassermann e de hemossedimentação apresentaram forte reação positiva. Até julho de 1951, recebi dez injeções de Salvarsan e vinte e duas de penicilina. A dor tornou-se tão excruciante que eu não conseguia ingerir nem alimentos líquidos. Debilitado, não conseguia dormir à noite por causa do sofrimento. O médico declarou que não era mais possível administrar injeções e me submeteu a oito sessões de radioterapia, que não surtiram efeito algum. Meu definhamento se acentuou, e por fim, fui diagnosticado com câncer de língua. A partir de então, passei a tomar doses consideráveis de soníferos potentes para aplacar a dor. Foi quando um parente distante me falou sobre nossa religião. Comecei a receber Johrei imediatamente e, aos poucos, fui melhorando. Em setembro, as dores haviam desaparecido, eu já me alimentava normalmente com a família e ia de bicicleta à igreja. Ingressei na fé sem tardar, mas logo em seguida, meu estado piorou novamente. Atualmente, a parte interna da minha bochecha esquerda e parte da língua estão ulceradas. Há um nódulo endurecido sob a orelha esquerda. O maxilar está dormente, e o lado esquerdo da cabeça e o ombro esquerdo estão enrijecidos. A borda dos olhos também está ferida. Tenho apetite, mas não consigo comer adequadamente, sobrevivendo à base de alimentos semilíquidos, o que me deixou magro e fraco. Elimino pela boca, incessantemente, uma secreção gelatinosa de odor característico e tenho dificuldade para articular as palavras. Recebo Johrei de um membro da igreja e também em casa, mas não tenho notado grandes mudanças ultimamente. Vale mencionar que, em 1947, derrubamos uma antiga cânfora de quase dois metros que havia nos fundos da casa. Rogo vossa orientação.
-
-**Orientação Divina:** Forte reação positiva na hemossedimentação... Oito sessões de radioterapia... Neste caso, a doença foi fabricada pelos médicos. É uma verdadeira calamidade. Este homem é uma vítima da medicina. Sua condição não é de natureza espiritual; é puramente toxina medicamentosa. Todo o veneno se acumulou do lado esquerdo, em toda esta região (indicando a metade esquerda do rosto). Com o tempo, essa área inchará e, em algum ponto, um orifício se abrirá para a drenagem do pus. Assim, ele se curará. Não é, portanto, uma doença de difícil tratamento. Quem está ministrando o Johrei?
-
-*“O dirigente da igreja e também em casa. Como o caso se arrasta, pensamos que poderia ser a influência de um espírito-dragão.”*
-
-Não é um espírito-dragão, são toxinas medicamentosas. A dor é um bom sinal. Não há nenhuma área avermelhada?
-
-*“Por dentro está avermelhado, mas por fora não.”*
-
-Ele consegue abrir a boca?
-
-*“Às vezes, sim, e sai pus.”*
-
-Isso é ótimo. Não é câncer, é um furúnculo comum. A força espiritual de quem está ministrando o Johrei é fraca. Com uma força espiritual potente, as toxinas se dissolvem e são eliminadas gradualmente. Quando a força espiritual é intensa, não há dor. E para intensificá-la, é preciso não aplicar força física. Quanto mais relaxado, maior a força espiritual. Talvez quem ministra o Johrei ainda o faça com tensão. O princípio é o inverso: aplicar força física enfraquece a força espiritual. Quanto às feridas na língua e na boca, elas surgem porque, ao tomar medicamentos, as substâncias se infiltram na mucosa. Esse acúmulo se transforma em abscessos. Eu mesmo, por exemplo, sinto uma dor no fundo da boca. Minha fala soa um pouco diferente, não? São resquícios de remédios que tomei há quarenta anos, cujas toxinas impregnaram a mucosa e, de vez em quando, purificam, causando dor. Assim é o quão terríveis são os medicamentos. Podem ter a certeza de que todas as feridas bucais têm essa mesma origem.
-
----
-
-# Elucidações sobre Kannon e a Obra Divina
-
-**Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
-
-## Elucidações sobre Kannon e a Obra Divina
-
-— O lactente de um ano tem a perna esquerda cerca de um centímetro e meio mais curta; parece ser uma luxação...
-Se a perna não está solta e balançando, não se trata de uma luxação. Será curado.
-
-— Um jovem de doze anos que teve pleurisia e se recuperou plenamente, recentemente passou a sentir dores na região lombar. O médico diagnosticou cárie óssea, perfurou o local e está drenando o pus. Eu, contudo, acredito que não seja cárie, mas sim as toxinas remanescentes da pleurisia que estão sendo expelidas.
-O seu diagnóstico está mais correto que o do médico. É, de fato, uma purificação da pleurisia. O preocupante seria se ele estivesse com pouco apetite.
-
-— Uma moça de dezesseis anos não conseguia erguer a cabeça, mantendo-a sempre baixa. Após algum tempo em tratamento médico, seu estado piorou. Desde o dia dois deste mês, iniciamos o tratamento espiritual, e ela melhora a cada sessão. A própria jovem afirma que isso lhe aconteceu por ter se esquecido da graça de Deus.
-Alguém nessas condições, se continuar sob os cuidados da medicina, acabará morrendo. É uma pessoa de índole tímida. Há algum espírito a ela apegado.
-
-— Desde que nos tornamos uma religião, os fiéis demonstram grande anseio por compreender a atuação de Kannon e da Grande Divindade Nichigetsu-chi.
-Kannon é o Bodhisattva Kannon. No budismo, costuma-se explicar que *kan* (観) significa ver – observar objetivamente –, e *on* (音) se refere aos sons do mundo. Assim, o nome significaria “aquele que vê os sons do mundo”. Trata-se, contudo, de uma interpretação bastante peculiar, como se os olhos possuíssem ouvidos. É, a bem da verdade, uma conjectura forçada. Antigamente, Kannon viajou para a Índia, onde ascendeu ao Monte Fudarakusan (布咀落迦山) para ali habitar. Em Nikko, no Japão, existe a Odake Kannon. A montanha local, Futara-san, é a mesma Fudarakusan, estabelecendo-se aí uma profunda conexão predestinada. O Monte Fudarakusan situava-se próximo à costa, com o oceano ao sul. No cume dessa montanha, foi erigida uma edificação semelhante a um templo, em cujo jardim se estabeleceu o assento do Dharma Adamantino, de onde Kannon pregava. As escrituras sagradas relatam que, como Kanjizai Bosatsu, Grande Mestre dos Mares do Sul, Ela pregou a Zenzai Doji e outros, acompanhada de suas Vinte e Oito Legiões de seguidores. Naquela época, a Índia era governada por Daizizaiten. O nome Kanjizai Bosatsu significa “aquele que vê o mundo de Daizizaiten”, e por essa razão também é chamada de Kanzeon. O título “Bodhisattva” corresponde à mais baixa categoria, análoga a “Venerável”. Na hierarquia indiana, é provável que um “Ten” (deus) estivesse acima de um Nyorai (Buda). Os nomes terminados em “Ten” denotam uma posição na hierarquia da Índia.
-
-O Sutra Kegon (華厳経) relata que, no Monte Fudarakusan, habitava Kanzeon Bosatsu, e que Zenzai Doji e outros O ouviam pregar os ensinamentos da Grande Compaixão. Entre seus numerosos discípulos, destacavam-se as Vinte e Oito Legiões que O serviam, compostas por divindades como Daibenzaiten, Daibontenno, Taishakutenno, o Pavão Dourado, Bishamonten, Ashura-o, além dos irmãos Narayana Kongo e Waderabani Kongo (conhecidos como os Reis Nio), entre outros deuses. Essa descrição torna evidente que o próprio Shakyamuni recebeu ensinamentos de Kannon.
-
-Até mesmo na mandala de Nichiren, encontramos a figura de Daizizaiten, enquanto Amaterasu-Oomikami é representada em tamanho reduzido, na parte inferior, o que encerra múltiplos significados. A divindade Izunome-no-Ookami, quando se encontrava no Japão, sofreu perseguições e foi forçada a fugir. Para ocultar Sua identidade, cobriu a cabeça com um capuz e envolveu o corpo em vestes, e é essa a imagem que vemos retratada em Suas representações. O *Kojiki* A descreve como a divindade que purificará o mundo. Ela deixou o Japão, atravessou a China e chegou à Índia, onde estabeleceu um refúgio e Se tornou Kanjizaiten. Sim, Kannon é uma divindade japonesa. Por essa razão, enquanto Shakyamuni e Amida possuem cabelos encarapinhados, os de Kannon não o são. O motivo de Sua fuga foi a ameaça de morte por parte de Susanoo-no-Mikoto. A esposa de Susanoo era Otohime, também chamada de Oto-hime ou Oroyo-no-hime. Susanoo-no-Mikoto descera na montanha Soshimori (蘇尸茂梨) na Coreia — conforme consta no *Kojiki* [e no *Nihon Shoki*] — e de lá veio ao Japão para tomar o poder, dando início à dinastia de Izumo.
-
-Izunome-no-Ookami é uma divindade da era de Amaterasu-Oomikami, ou talvez anterior. Susanoo-no-Mikoto, por sua vez, expandiu seus domínios pelo mundo, chegando até a Judeia, onde se tornou o ancestral do povo judeu. Em seu lugar, reinou Otohime. O nome Kannon (観音) significa, portanto, “Aquele que vela por Otohime” (音姫). Izunome aguardava o momento propício para retornar ao Japão e reaver o poder usurpado por Susanoo. A imagem de Senju Kannon, a Kannon de Mil Braços, simboliza essa determinação. Até então, era Otohime quem detinha os tesouros. As histórias sobre os deuses são entremeadas de fatos e alegorias, mas não são meras invenções. Otohime, apegada aos bens materiais, transformou-se em um dragão e submergiu no mar de Ryugu-kai, na província de Tango. Quando o tempo chegar, ela passará pelo sofrimento dos três invernos e três verões e, finalmente, se redimirá perante Kunitokotachi-no-Mikoto. Esta é a divindade que outrora detinha o poder sobre o mundo, mas que, na noite do Setsubun, foi confinada na direção do portal demoníaco, tornando-se o deus Ushitora-no-Konjin. Kunitokotachi-no-Mikoto se torna Izunome-no-Ookami. No Mundo Espiritual, Kunitokotachi-no-Mikoto assumiu o papel de Rei Enma, o juiz das almas. Contudo, como Seu julgamento era excessivamente rigoroso e penoso, Ele Se dividiu: uma metade permaneceu como Rei Enma, e a outra se tornou Kannon. Os deuses são severos, mas os budas são compassivos. Assim, Izunome-no-Ookami tornou-se Kannon no mundo búdico, manifestando uma compaixão que não distingue entre o bem e o mal. A antiga teoria do Honji Suijaku está equivocada; seu verdadeiro significado reside no retorno ao Japão para salvar todos os seres. As divindades podem se desdobrar espiritualmente – não se trata de esquizofrenia. A teoria de Freud, na verdade, descreve o fenômeno da possessão espiritual, como bem se pode compreender em obras como “O Médico e o Monstro”.
-
-Izunome-no-Ookami transformou-se em um deus-dragão; Seu espírito reside no cume do Monte Fuji (no Santuário Kusushi, guardião de Sua irmã Konohanasakuya-hime), enquanto Seu corpo aguarda o momento certo no Lago Biwa. Os deuses-dragão possuem uma força imensa, e a Grande Divindade assumiu essa forma para poder se contrapor à interferência dos espíritos malignos. A atuação de Izunome-no-Ookami se manifesta como *Izu* (火 - Fogo) e *Mizu* (水 - Água). Costuma-se dizer *Mi-izu*, que é a ordem inversa. Fogo e Água, juntos, geram a Luz. Durante a Era da Noite, não havia o verdadeiro fogo, apenas a luz da lua. Diz-se que o sol possui sessenta vezes mais luz que a lua; eis a razão pela qual, até hoje, as preces a Kannon alcançavam benefícios limitados. *Izu* corresponde a cinco e *Mizu* a três. Mesmo assim, era insuficiente. A essa união, acrescenta-se agora a força da Terra, originando o poder de Nichigetsu-chi (Sol, Lua e Terra). Até então, dispúnhamos apenas de *Niroku* (二力 - duas forças). Durante a Noite, os três mundos (celestial, intermediário e terrestre) eram predominantemente compostos de Água. A vibração era 6, 6, 6. Agora, passamos para 5, 6, 7 (Miroku). O número seis, celestial, desce à Terra, e a força do solo é adicionada. É o poder indestrutível como o diamante, o poder absoluto, que torna todas as coisas possíveis. A joia de Mani, mencionada no Xintoísmo, é a joia da perfeição. O que se segue adentra o campo do mistério, e será revelado conforme o tempo se mostrar propício.
-
-Iniciei esta Obra no terceiro ano da Era Showa (1928). Por seis anos, até o nono ano (1934), me dediquei à cura. Por mais seis anos, até o décimo quinto ano (1940), atuei em Kaminoge. E por outros seis anos, até o vigésimo primeiro ano (1946), realizei a construção dos alicerces. Meu treinamento se concluiu. Desde o ano passado, adentramos a Era de Miroku. A força da Grande Divindade Nichigetsu-chi, vinda do Mundo Espiritual, atua sobre as pessoas através do meu corpo. Os próximos três anos serão dedicados à construção dos alicerces no mundo material. Findo esse período, a Obra se expandirá mundialmente. O pequeno ponto no amuleto sagrado significa "desceu do Céu à Terra". Como consta na Oração, Komyō Nyorai (Luz-Fogo e Água) Se manifesta no corpo de Nichigetsu-chi. Isso significa atuar de forma adequada a cada pessoa e, em uma escala maior, em harmonia com o mundo. A arrogância é um impedimento. É preciso agir em conformidade com a sociedade em que se vive; do contrário, seremos tratados como loucos, a exemplo de Jikōson. A própria Divindade Nichigetsu-chi possui três níveis. Em relação ao mundo material, Ela atua como Komyō Nyorai. Os três níveis são, portanto: Nichigetsu-chi, Komyō Nyorai e Kannon. Seria preciso explicar isso exaustivamente, mas ainda não é o momento.
-
-— O que é o Amatsu Kanagi (天津金木)?
-Isso também só posso explicar parcialmente. Antes do Imperador Jinmu, o imperador da época reverenciava esse objeto no Ano Novo para conhecer os desígnios, bons e maus, para o ano que se iniciava. Era uma espécie de oráculo. Foi transmitido de geração em geração, chegando às mãos de Hieda no Are (稗田阿礼). O povo japonês, subjugado pelo Imperador Jinmu, preservou essa tradição oralmente, até que ela chegou a Are, um camponês que vivia em Tanba. Foi O no Yasumaro (太安萬侶) quem registrou seus relatos, dando origem ao *Kojiki*. O Amatsu Kanagi contém a profecia do Paraíso Terrestre. Falarei mais sobre isso no futuro. Quando todas as demais religiões desaparecerem, ele voltará a ser reverenciado.
-
----
-
-# Sobre a Arte e a Descoberta da Verdadeira Grandeza do Japão
-
-**Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
-
-## Sobre a Arte e a Descoberta da Verdadeira Grandeza do Japão
-
-**Poemas de Ano-Novo do Mestre**
-
-Quanta alegria em saudar o limiar do novo ano, com as aflições enfim dissipadas.
-
-Ao receber o novo ano, meu corpo e minha alma se revigoram, pois sou uno com Deus.
-
-Sinto que o caminho de trevas enfim se findou, e meus pés trilham os primeiros passos na senda da Luz.
-
-Emerge o Grande Deus Miroku, plenamente dotado do poder da Trindade do Sol, da Lua e da Terra.
-
-(Os poemas acima foram cantados pelo compositor Sugiyama Haseo, com acompanhamento do senhor Fukui Shusuke)
-
-Ficou muito bem-feito; possui um estilo que remete à música da corte imperial. É muito superior à música budista. A esta falta vivacidade; soa como se fôssemos arrastados para o mundo astral. Isso talvez se deva ao fato de seus intérpretes serem monges.
-
-Na música ocidental, o “Messias” de Handel é magnífico. Mesmo naquele nível, já é algo notável. Havia também as obras de Mendelssohn, não é mesmo?
-
-―― E também as de Haydn.
-
-Ah, é verdade. E a sua composição, “Defune”, é frequentemente interpretada por Fujiwara Yoshie.
-
-―― Foi o senhor Fujiwara que praticamente a divulgou.
-
-Ser compositor é algo esplêndido.
-
-―― Contudo, a pobreza é um grande entrave.
-
-Ora, obter êxito em ambos os campos é um desafio.
-
-―― Quem conseguiu prosperar foi Nakayama Shinpei.
-
-Ele não tem composto muito ultimamente, não é?
-
-―― Parece que ele se recolheu.
-
-No campo da música, é fundamental que os próprios japoneses reconheçam o que há de bom no Japão. Na música japonesa, o koto é o instrumento supremo. Não existe nada tão maravilhoso no Ocidente. A música japonesa é estática, enquanto a ocidental é dinâmica. Aí reside a diferença. O Ocidente também possui muitas canções de ninar, mas nenhuma cumpre seu propósito tão bem quanto as japonesas. Ao ouvir uma canção japonesa, o sono vem naturalmente; já com uma ocidental, quando o sono está prestes a chegar, acabamos por despertar. Seria excelente se do Japão surgisse uma música verdadeiramente grandiosa.
-
-A música é, de fato, algo admirável... Todavia, para ser sincero, consigo apreciar apenas uma parte do que Beethoven representa. A totalidade de sua obra me escapa. Compreendo bem Chopin, Schubert e Mozart, mas na música ocidental, prefiro as obras mais antigas. As composições recentes me parecem demasiado cerebrais. O mesmo se aplica ao *nagauta*: as melhores peças são as clássicas. As que surgiram após a Era Taisho não têm o mesmo valor.
-
-―― As peças “Echigo-jishi” e “Kappore” são verdadeiras obras-primas.
-
-Aprecio as obras de arte, mas, para mim, as antigas são mais novas. As criações recentes carecem de uma autêntica novidade. Imagino que o mesmo ocorra na música. É um fenômeno verdadeiramente misterioso.
-
-Quanto ao jazz, confesso que não o compreendo. Creio que seja uma música feita para dançar. Não consigo apreciá-la como música em si.
-
-―― É uma música de bebida e mulheres.
-
-Deve ser isso mesmo.
-
-Os americanos possuem uma dualidade interessante: por um lado, têm notáveis qualidades humanitárias; por outro, um gosto um tanto bárbaro. Isso talvez se deva ao fato de os primeiros colonos, vindos da Inglaterra, terem se miscigenado com os nativos. Esse gosto primitivo parece se manifestar no jazz. Algo desprovido de profundidade, que reflete a natureza selvagem dos americanos, tal como seus filmes de faroeste...
-
-―― A melodia do jazz tem um toque negro. Por sua vez, o nosso *bakabayashi* — que de ‘tolo’ só tem o nome — é magnífico. O ritmo é extraordinário.
-
-É o jazz do Japão, por assim dizer.
-
-Em breve, os japoneses descobrirão o próprio Japão. É como a história do Pássaro Azul. O Japão possui coisas maravilhosas. Na pintura, por exemplo, a verdadeira arte é a pintura japonesa. A pintura a óleo não é bem pintura; é apenas um ato de esfregar tinta. A arte japonesa é simples e, ao mesmo tempo, profunda. Já a pintura a óleo tornou-se ainda mais estranha depois do surgimento do Impressionismo.
-
-Até hoje, o brilhantismo do povo japonês esteve reprimido por forças feudais. Chegou, enfim, o momento de manifestarmos nossa genialidade.
-
-Na arquitetura, por exemplo, apenas os japoneses se atentam à beleza dos veios da madeira. Ocidentais e chineses simplesmente cobrem tudo com tinta.
-
-―― Um americano visitou a casa do senhor Asakura Fumio e ficou maravilhado com a arquitetura projetada por ele. O senhor Asakura é um defensor do tradicionalismo japonês e educa os próprios filhos em casa, por considerar que as escolas estão contaminadas pela ocidentalização.
-
-Não é preciso ser tão extremista. Contudo, há uma exceção: o arquiteto americano Wright é esplêndido. Foi ele quem projetou o Hotel Imperial. Soube que, no campo da música, discos antigos de boa qualidade estão sendo exportados para que estrangeiros possam estudá-los. A ópera “Madame Butterfly”, por exemplo, incorpora melodias japonesas.
-
-A pintura ocidental só se libertou do realismo puro depois que as obras de Ogata Kōrin foram exportadas para o Ocidente. A arte e a escultura em todo o mundo receberam a influência de Kōrin. Foi ele quem demoliu o estilo renascentista. Creio que, em breve, um “Kōrin” também surgirá na música. Quanto à religião e à medicina, estas, obviamente, são nossa missão.
-
-Atualmente, a maioria dos intelectuais acredita que tudo o que é bom precisa, necessariamente, vir do Ocidente. O “tradicionalismo japonês” da era militarista também foi um problema, pois eles exaltaram apenas os aspectos do Japão que eram convenientes para a guerra. O resultado de tudo isso foi o equivalente a uma lança de bambu.
-
-A verdadeira grandeza do Japão reside nos seus aspectos pacíficos. No futuro, os estrangeiros descobrirão essa grandeza. E quando isso acontecer, os próprios japoneses ficarão surpresos. Será como aquele que vai à Itália, compra macarrão como lembrança e, ao voltar para casa, descobre que o produto era fabricado no Japão.
 
 ---
 

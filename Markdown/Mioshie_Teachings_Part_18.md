@@ -3,6 +3,7 @@
 # A Realidade Espiritual por Trás dos Acontecimentos do Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月17日） | **Status:** Published
 
 ## A Realidade Espiritual por Trás dos Acontecimentos do Mundo
 
@@ -67,6 +68,7 @@ Nos relatos de graças alcançadas, frequentemente surgem casos que correspondem
 # A Providência Divina e a Missão de Salvação
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年6月2日） | **Status:** Published
 
 ## A Providência Divina e a Missão de Salvação
 
@@ -119,6 +121,7 @@ Deus preparou tudo isso há dezenas, centenas de milhares de anos. É algo inexp
 # O Ponto Vital e a Ordem Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年9月5日） | **Status:** Published
 
 ## O Ponto Vital e a Ordem Divina
 
@@ -171,6 +174,7 @@ No Mundo Espiritual, contudo, existem diversos Espíritos Malignos e espíritos 
 # A Construção do Museu de Arte e as Revelações para a Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年12月28日） | **Status:** Published
 
 ## A Construção do Museu de Arte e as Revelações para a Nova Era
 
@@ -256,7 +260,8 @@ Sobre pintura, creio que seja o suficiente por hoje. Ainda não falei sobre escu
 
 # O Advento do Juízo Final e a Nova Medicina
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年12月1日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年12月1日 | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## O Advento do Juízo Final e a Nova Medicina
 
@@ -299,6 +304,7 @@ Penso que, ao ouvirem este relato, os senhores terão um valioso recurso para o 
 # O Paradoxo da Fraqueza e o Despertar pelo Poder Divino
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年3月17日） | **Status:** Published
 
 ## O Paradoxo da Fraqueza e o Despertar pelo Poder Divino
 
@@ -341,6 +347,7 @@ A esse respeito, há algo interessante escrito no artigo “Poder”.
 # Uma Análise da Arte Clássica Japonesa
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年11月15日） | **Status:** Published
 
 ## Uma Análise da Arte Clássica Japonesa
 
@@ -377,6 +384,7 @@ Por fim, apresento um tema de natureza distinta. Pretendo desenvolvê-lo com mai
 # Sobre o Juízo Humano e a Construção do Belo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年4月15日） | **Status:** Published
 
 ## Sobre o Juízo Humano e a Construção do Belo
 
@@ -423,6 +431,7 @@ Por ora, encerro minhas palavras.
 # A Verdadeira Causa do Sofrimento e a Luz Salvadora de Kannon
 
 **Categoria:** kouwa | **Ano:** - | **Fonte:** Gokowa
+**Título Original:** 御講話 | **Status:** Unpublished
 
 ## A Verdadeira Causa do Sofrimento e a Luz Salvadora de Kannon
 
@@ -499,6 +508,7 @@ Com Kannon (観音), nada disso importa. Não há restrição quanto à religiã
 # A Degenerescência do Mundo Atual e a Missão Divina
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月7日） | **Status:** Published
 
 ## A Degenerescência do Mundo Atual e a Missão Divina
 
@@ -545,6 +555,7 @@ Ademais, há uma divergência entre cirurgiões e clínicos. Quando um cirurgiã
 # A Dualidade da Era de Transição
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年9月11日） | **Status:** Published
 
 ## A Dualidade da Era de Transição
 
@@ -581,6 +592,7 @@ Até hoje, a humanidade esteve estruturada como uma pirâmide, e o estado de Ken
 # A Revolução da Agricultura Natural
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月7日） | **Status:** Published
 
 ## A Revolução da Agricultura Natural
 
@@ -645,6 +657,7 @@ Assim, quanto mais intangível for algo, como a religião, mais forte será o se
 # A Concretização do Paraíso Terrestre e o Advento do Mundo de Miroku
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月16日） | **Status:** Published
 
 ## A Concretização do Paraíso Terrestre e o Advento do Mundo de Miroku
 
@@ -687,6 +700,7 @@ Outro sintoma é a falta de ar. Suas causas são diversas, mas a principal é a 
 # A Ordem Divina nos Assuntos Políticos e Espirituais
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年3月15日） | **Status:** Published
 
 ## A Ordem Divina nos Assuntos Políticos e Espirituais
 
@@ -737,6 +751,7 @@ Em todas as coisas, a ordem é fundamental. Para isso, devemos aprender com a Gr
 # A Purificação e a Proliferação dos Insetos Nocivos
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年9月7日） | **Status:** Published
 
 ## A Purificação e a Proliferação dos Insetos Nocivos
 
@@ -794,6 +809,7 @@ O fato de as variedades de remédios aumentarem é, em si, estranho. Uma pessoa 
 # A Verdadeira Ciência e a Sublimidade da Arte Japonesa
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年4月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年3月15日） | **Status:** Published
 
 ## A Verdadeira Ciência e a Sublimidade da Arte Japonesa
 
@@ -852,6 +868,7 @@ Um jornalista americano chegou a sugerir que, em vez de "Museu de Arte de Hakone
 # Próximas Publicações e Esclarecimentos
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月17日） | **Status:** Published
 
 ## Próximas Publicações e Esclarecimentos
 
@@ -872,6 +889,7 @@ Ademais, publiquei recentemente na revista Eikou um artigo sobre as pinturas de 
 # A Missão Divina de Salvar o Mundo
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年8月15日） | **Status:** Published
 
 ## A Missão Divina de Salvar o Mundo
 
@@ -914,6 +932,7 @@ A este ritmo, dentro de mais cinco anos, nossa expansão mundial será uma certe
 # O Discernimento entre a Verdade e a Ilusão
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月16日） | **Status:** Published
 
 ## O Discernimento entre a Verdade e a Ilusão
 
@@ -962,6 +981,7 @@ Contudo, não disponho de tempo para me dedicar a apontar tantos desvios, de mod
 # A Manifestação do Deus Primordial e a Nova Era
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月7日） | **Status:** Published
 
 ## A Manifestação do Deus Primordial e a Nova Era
 
@@ -1011,6 +1031,7 @@ A propósito do Paraíso Terrestre, os jornalistas americanos, e outros formador
 # Sobre a Purificação, a Agricultura e a Conjuntura Mundial
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月7日） | **Status:** Published
 
 ## Sobre a Purificação, a Agricultura e a Conjuntura Mundial
 
@@ -1063,6 +1084,7 @@ Mas deixemos este assunto por ora. Gostaria de lhes ler um ensaio interessante.
 # O Avanço do Plano Divino na Terra
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年2月6日） | **Status:** Published
 
 ## O Avanço do Plano Divino na Terra
 
@@ -1111,6 +1133,7 @@ A seguir, darei continuidade à leitura do meu manuscrito, "O Livro da Revoluç�
 # A Nova Era Espiritual a Partir do Setsubun
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年2月6日） | **Status:** Published
 
 ## A Nova Era Espiritual a Partir do Setsubun
 
@@ -1156,6 +1179,7 @@ A incompreensão dos jornalistas, por conseguinte, também se faz necessária. Q
 # A Ilusão da Vacinação e a Transformação do Mundo Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S26年10月28日） | **Status:** Published
 
 ## A Ilusão da Vacinação e a Transformação do Mundo Espiritual
 
@@ -1198,6 +1222,7 @@ Embora tenha evitado que os rostos ficassem marcados por cicatrizes, a vacinaç�
 # A Intensificação da Ação Purificadora
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年10月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年9月6日） | **Status:** Published
 
 ## A Intensificação da Ação Purificadora
 
@@ -1246,6 +1271,7 @@ Por fim, escrevi também sobre a Terceira Guerra Mundial, o que considero de gra
 # A Conduta Razoável e a Postura do Fiel
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年6月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （28年6月1日） | **Status:** Published
 
 ## A Conduta Razoável e a Postura do Fiel
 
@@ -1456,6 +1482,7 @@ Pois bem, podem fazer suas perguntas.
 # A Missão Divina Revelada na Arte Budista e a Cegueira da Medicina Moderna
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年6月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年5月6日） | **Status:** Published
 
 ## A Missão Divina Revelada na Arte Budista e a Cegueira da Medicina Moderna
 
@@ -1498,6 +1525,7 @@ Ademais, como o próprio relato evidencia, é comum que as opiniões de cirurgi�
 # A Grande Descoberta da Agricultura Natural e o Princípio Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年11月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年10月6日） | **Status:** Published
 
 ## A Grande Descoberta da Agricultura Natural e o Princípio Espiritual
 
@@ -1570,6 +1598,7 @@ Os japoneses são, em suma, a cabeça do mundo.
 # O Significado do Paraíso Terrestre e a Purificação pelo Fogo
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年7月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年6月17日） | **Status:** Published
 
 ## O Significado do Paraíso Terrestre e a Purificação pelo Fogo
 
@@ -1622,6 +1651,7 @@ Anteriormente, eu havia recomendado ministrar Johrei em pacientes com tuberculos
 # A Agricultura Natural como Solução para a Crise Nacional
 
 **Categoria:** kouwa | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
+**Título Original:** 御講話 （S26年12月1日S） | **Status:** Published
 
 ## A Agricultura Natural como Solução para a Crise Nacional
 
@@ -1654,6 +1684,7 @@ Exatamente. Pois se trata apenas de uma medida paliativa. Inclusive, estou escre
 # Diretrizes para o Novo Ano
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年1月1日） | **Status:** Published
 
 ## Diretrizes para o Novo Ano
 
@@ -1742,6 +1773,7 @@ Mas creio que já falei o suficiente. Como o dia está primaveril, não lerei ne
 # O Ponto Vital
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年8月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年7月5日） | **Status:** Published
 
 ## O Ponto Vital
 
@@ -1804,6 +1836,7 @@ Portanto, o ser humano precisa desenvolver uma mente capaz de descobrir o ponto 
 # O Planejamento da Sede Sagrada e do Museu de Arte de Hakone
 
 **Categoria:** kouwa | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年3月16日） | **Status:** Published
 
 ## O Planejamento da Sede Sagrada e do Museu de Arte de Hakone
 
@@ -1830,6 +1863,7 @@ Como podem ver, há um volume considerável de trabalho a ser feito, envolvendo 
 # Sobre a Conjuntura Mundial e a Decadência da Arte
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S27年12月5日） | **Status:** Published
 
 ## Sobre a Conjuntura Mundial e a Decadência da Arte
 
@@ -1889,7 +1923,8 @@ Para concluir com um tema distinto, eu não reverencio a Deus da maneira convenc
 
 # A Saúde como Alicerce da Verdadeira Salvação
 
-**Categoria:** kouwa | **Ano:** 昭和10(1935)年4月11日 | **Fonte:** Gokowa 昭和10
+**Categoria:** kouwa | **Ano:** 昭和10(1935)年4月11日 | **Fonte:** Kenko
+**Título Original:** 御講話 | **Status:** Unknown
 
 ## A Saúde como Alicerce da Verdadeira Salvação
 
@@ -1938,6 +1973,7 @@ Apesar de tudo, o homem se gaba de sua civilização e se sente grato por ela. V
 # A Consciência Intrínseca da Natureza e a Ordem Espiritual
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S29年1月15日） | **Status:** Published
 
 ## A Consciência Intrínseca da Natureza e a Ordem Espiritual
 
@@ -1982,6 +2018,7 @@ Aproveito para apresentar um texto que escrevi sobre religião, abordando um tem
 # O Milagre da Regeneração e o Avanço da Obra Divina
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年8月16日） | **Status:** Published
 
 ## O Milagre da Regeneração e o Avanço da Obra Divina
 
@@ -2036,6 +2073,7 @@ O erro está em aplicar gelo e tomar outras medidas para impedir a eliminação,
 # A Mais Profunda Vingança
 
 **Categoria:** kouwa | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年1月15日） | **Status:** Published
 
 ## A Mais Profunda Vingança
 
@@ -2058,6 +2096,7 @@ Por todas essas razões, dei início a este trabalho. Nele, exponho de forma min
 # A Perspicácia da Visão Estrangeira
 
 **Categoria:** kouwa | **Ano:** 昭和29(1954)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御講話 （S28年12月7日） | **Status:** Published
 
 ## A Perspicácia da Visão Estrangeira
 

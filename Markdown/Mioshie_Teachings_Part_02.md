@@ -1,8 +1,38 @@
 # Mioshie_Teachings - Part 2
 
+# A Conquista da Saúde Absoluta e o Caminho para a Longevidade
+
+**Categoria:** se | **Ano:** 昭和10(1935)年 | **Fonte:** 日本医術講義録
+**Título Original:** 六、絶対健康の可能と長寿法 | **Status:** Unknown
+
+## A Conquista da Saúde Absoluta e o Caminho para a Longevidade
+
+Provavelmente, não há um único ser humano que não almeje a saúde absoluta e uma vida longa. Contudo, em sua busca por esses ideais, a humanidade tem recorrido invariavelmente à ciência, e esta é a causa fundamental de um equívoco primordial. Fosse o corpo humano uma criação da ciência, a situação seria outra; mas, não sendo o caso, como poderia ser curado por medicamentos e equipamentos que são produtos do engenho científico? Sendo o ser humano uma criação de Deus, é natural que o mistério da vida e a sua estrutura, de uma sutileza e complexidade admiráveis, transcendam por completo o alcance do conhecimento acadêmico atual.
+
+Nesse sentido, assemelha-se à nossa incapacidade de decifrar plenamente o crescimento das plantas, a verdadeira natureza da luz solar ou de prever o tempo com exatidão. O mesmo se aplica às causas das doenças. Isso se torna evidente quando consideramos que, até hoje, a origem de um simples resfriado permanece um mistério. Quando hoje se fala em doenças pulmonares, gástricas, ou nas diversas formas de tuberculose e inflamações, tais diagnósticos apenas nomeiam um fenômeno manifesto, ou seja, o resultado de uma causa subjacente, e não a causa em si.
+
+Tomemos como exemplo a tuberculose. A explicação corrente é que a doença surge porque a pessoa inalou o bacilo. Todavia, todos nós inalamos diariamente dezenas de milhares de micróbios, mas, misteriosamente, alguns adoecem e outros não. A medicina argumentará que o indivíduo adoece por possuir uma constituição pulmonar frágil. Todavia, se questionarmos a razão pela qual essa pessoa nasceu com tal fragilidade, a ciência emudece. O mesmo ocorre com o surgimento de um câncer de estômago: sua causa primordial é desconhecida.
+
+É comum ouvir relatos de crianças que contraem disenteria após consumirem bananas, mas não se trata de uma regra absoluta. Há crianças que as comem o ano inteiro e jamais adoecem, assim como uma mesma criança pode consumi-las sem problemas em certas ocasiões e adoecer em outras. Certamente não se pode alegar que existam bananas com e sem o referido micróbio. Como a fruta é consumida após se remover a casca, sua polpa deveria ser essencialmente a mesma em todos os casos. Apesar dessas inconsistências, a teoria médica vigente sustenta que a disenteria é transmitida por um agente microbiano.
+
+Portanto, embora a infecção por micróbios seja um fato, a tentativa de evitar por completo o contato com eles na complexa sociedade em que vivemos é uma meta inatingível. A prevenção sanitária tem seus limites e, para além deles, torna-se impraticável.
+
+Imaginemos uma viagem em um transporte público. Quem pode garantir que um portador de tuberculose não se sentará ao nosso lado? Durante o inverno, em um vagão lotado e com as janelas fechadas, é quase certo que haverá cinco ou dez portadores da doença entre os passageiros. Após vinte ou trinta minutos em tais condições, devemos presumir que inalamos dezenas de milhares de bacilos da tuberculose.
+
+Consideremos, ainda, o dinheiro que manuseamos diariamente. Tanto as cédulas quanto as moedas podem ter acabado de ser manuseadas por portadores de tuberculose ou sífilis. É absolutamente impossível desinfetá-las a cada transação. Os comerciantes, que lidam com dinheiro dezenas de vezes por dia, não podem higienizar as mãos a cada momento. Consequentemente, é natural que utilizem as mesmas mãos para comer ou pegar um doce. Observe um confeiteiro: ele recebe o dinheiro do cliente, calcula o troco e, com as mesmas mãos, sem qualquer higienização, embala o alimento que será vendido ao cliente seguinte.
+
+Diante dessas situações do cotidiano, a prevenção absoluta é impraticável, a menos que ocorra uma transformação radical no modo de vida da humanidade. Se evitar o contágio é impossível, não seria o ideal forjar um corpo com a resistência do aço, capaz de permanecer saudável independentemente dos micróbios que o invadam? Se existe um método capaz de criar um corpo praticamente invulnerável, haveria evangelho mais grandioso do que este? Afirmo que tal feito é plenamente possível por meio da prática da medicina e da higiene de estilo japonês por mim estabelecidas.
+
+Aquele que se torna imune a qualquer tipo de micróbio estará, por consequência, isento de doenças e infortúnios. Assim, é lógico que poderá viver até que a velhice chegue e sua longevidade natural se cumpra. A longevidade natural do ser humano pode perfeitamente estender-se dos noventa aos cem anos, ou até mais, satisfazendo, assim, o anseio por uma vida longa.
+
+Dessa forma, o método para a saúde absoluta e a conquista da longevidade possuem um vínculo indissociável.
+
+---
+
 # A Cura do Câncer e a Purificação Pós-cirúrgica
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年9月1日） | **Status:** Published
 
 ## A Cura do Câncer e a Purificação Pós-cirúrgica
 
@@ -37,6 +67,7 @@ A senhora é uma vítima da medicina. É uma situação realmente lamentável.
 # Consultas e Orientações
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## Consultas e Orientações
 
@@ -123,6 +154,7 @@ Não há nenhum significado particular. Conforme sempre ensino, a imagem de Kann
 # Diálogos sobre a Agricultura Natural e a Prática da Fé
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年2月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S28年2月1日） | **Status:** Published
 
 ## Diálogos sobre a Agricultura Natural e a Prática da Fé
 
@@ -175,6 +207,7 @@ Li no jornal Asahi de hoje, se não me engano, uma notícia sobre um concurso de
 # A Verdade sobre a Doença Mental e a Epilepsia
 
 **Categoria:** se | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 精神病と癲癇 未発表 | **Status:** Unpublished
 
 ## A Verdade sobre a Doença Mental e a Epilepsia
 
@@ -211,6 +244,7 @@ Aproveitando o ensejo, discorrerei sobre a paralisia infantil autêntica. Na mai
 # Orientações sobre Diversos Assuntos
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年8月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S27年9月1日） | **Status:** Published
 
 ## Orientações sobre Diversos Assuntos
 
@@ -539,6 +573,7 @@ Por outro lado, devido aos danos físicos causados pela cirurgia, é provável q
 # Questões do Cotidiano à Luz dos Ensinamentos Divinos
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録 （補）
+**Título Original:** 御光話 （S23年11月18日A） | **Status:** Published
 
 ## Questões do Cotidiano à Luz dos Ensinamentos Divinos
 
@@ -621,6 +656,7 @@ Quanto às verrugas, algumas podem ser removidas e outras não. Elas também sã
 # Esclarecimentos sobre a Fé e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年7月18日） | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -687,6 +723,7 @@ Um adendo importante sobre a ministração do Johrei: é um grande equívoco con
 # Esclarecimentos sobre a Fé e a Vida Cotidiana
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S27年5月1日） | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e a Vida Cotidiana
 
@@ -795,6 +832,7 @@ Um adendo importante sobre a ministração do Johrei: é um grande equívoco con
 # Esclarecimentos sobre a Fé e a Purificação
 
 **Categoria:** situmon | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S29年2月1日） | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e a Purificação
 
@@ -1065,6 +1103,7 @@ Sem dúvida. O Albasil parece ser muito eficaz para tirar a vida. A pessoa simpl
 # O Veneno dos Remédios e o Processo de Purificação
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年8月5日） | **Status:** Published
 
 ## O Veneno dos Remédios e o Processo de Purificação
 
@@ -1117,6 +1156,7 @@ Recentemente, porém, talvez por causa do calor, ela se sente indisposta, o apet
 # Esclarecimentos sobre a Vontade Divina
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月25日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S26年5月1日） | **Status:** Published
 
 ## Esclarecimentos sobre a Vontade Divina
 
@@ -1263,6 +1303,7 @@ Em 23 de dezembro de 1933, celebrei meu aniversário pela primeira vez, e naquel
 # Respostas a Diversas Indagações
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年1月 | **Fonte:** 会報
+**Título Original:** 信仰余話 直心分会 | **Status:** Published
 
 ## Respostas a Diversas Indagações
 
@@ -1333,6 +1374,7 @@ Os "Três Venenos" referem-se à ganância, à ira e à ignorância. Os "Cinco D
 # Esclarecimentos Diversos
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S25年3月18日） | **Status:** Published
 
 ## Esclarecimentos Diversos
 
@@ -1369,6 +1411,7 @@ Mesmo uma condição como essa pode ser curada com Johrei, administrado com paci
 # Questões da Fé Dirimidas por Meishu-Sama
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年11月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 神智の光 | **Status:** Published
 
 ## Questões da Fé Dirimidas por Meishu-Sama
 
@@ -1483,6 +1526,7 @@ Oportunamente, nossa Igreja estabelecerá um formato próprio para cerimônias f
 # A Profundidade da Fé Diante das Provações Divinas
 
 **Categoria:** situmon | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Gosuiiji録
+**Título Original:** 御垂示 （S28年10月1日） | **Status:** Published
 
 ## A Profundidade da Fé Diante das Provações Divinas
 
@@ -1861,6 +1905,7 @@ A solução é simples: quem tem o Ohikari pode confeccionar sua própria bolsa 
 # Esclarecimentos Divinos de 7 de março de 1952
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年4月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S27年3月7日） | **Status:** Published
 
 ## Esclarecimentos Divinos de 7 de março de 1952
 
@@ -1911,6 +1956,7 @@ Geralmente, no início, tais espíritos guardam ressentimento, mas, com o tempo,
 # Esclarecimentos Divinos
 
 **Categoria:** situmon | **Ano:** 昭和25(1950)年3月20日 | **Fonte:** Chijo Tengoku
+**Título Original:** 妙智之光 | **Status:** Published
 
 ## Esclarecimentos Divinos
 
@@ -1999,6 +2045,7 @@ Geralmente, no início, tais espíritos guardam ressentimento, mas, com o tempo,
 # Orientações Divinas sobre Doenças e Questões Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年10月15日） | **Status:** Published
 
 ## Orientações Divinas sobre Doenças e Questões Espirituais
 
@@ -2053,6 +2100,7 @@ Há outro ponto a ser considerado. O desejo intenso de curar o enfermo, embora n
 # A Natureza das Purificações e a Correta Prática do Johrei
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年3月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S27年2月15日） | **Status:** Published
 
 ## A Natureza das Purificações e a Correta Prática do Johrei
 
@@ -2123,6 +2171,7 @@ Sim, pode. Casos como o dele são comuns, especialmente com o uso de remédios d
 # Esclarecimentos sobre Destino, Rituais e Fenômenos Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年3月23日 | **Fonte:** 会報
+**Título Original:** 妙智の鍵 光明分会 | **Status:** Published
 
 ## Esclarecimentos sobre Destino, Rituais e Fenômenos Espirituais
 
@@ -2185,6 +2234,7 @@ A causa reside no centro do diafragma, e o tratamento consiste em purificar a re
 # Elucidações de Meishu-Sama
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年12月20日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年9・10月） | **Status:** Published
 
 ## Elucidações de Meishu-Sama
 
@@ -2625,6 +2675,7 @@ Completamos exatamente um ano desde a publicação da primeira edição da "Cole
 # A Origem das Enfermidades e a Salvação pelo Johrei
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年12月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年11月11日） | **Status:** Published
 
 ## A Origem das Enfermidades e a Salvação pelo Johrei
 
@@ -2783,6 +2834,7 @@ Não é nada grave. Ele melhorará progressivamente. Não há motivo para preocu
 # A Enfermidade Mental e a Influência Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年1月15日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年12月18日） | **Status:** Published
 
 ## A Enfermidade Mental e a Influência Espiritual
 
@@ -2831,6 +2883,7 @@ Ainda que houvesse, nada se pode fazer. O melhor a fazer é entregar a situaçã
 # A Terapêutica Divina e suas Aplicações
 
 **Categoria:** situmon | **Ano:** 昭和26年 | **Fonte:** 御Hikari話録（補）
+**Título Original:** 御光話 （S23年1月28日） | **Status:** Published
 
 ## A Terapêutica Divina e suas Aplicações
 
@@ -2877,6 +2930,7 @@ Portanto, no tratamento da peritonite, é crucial ministrar Johrei intensamente 
 # Sobre as Purificações e as Influências Espirituais
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年6月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 教えの光 | **Status:** Published
 
 ## Sobre as Purificações e as Influências Espirituais
 
@@ -3015,6 +3069,7 @@ Indubitavelmente, as flores desabrocham para celebrar o Natalício. A flor de am
 # Esclarecimentos sobre a Fé e o Mundo Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年8月1日 | **Fonte:** 会報
+**Título Original:** 妙智の鍵 光明分会 | **Status:** Published
 
 ## Esclarecimentos sobre a Fé e o Mundo Espiritual
 
@@ -3183,6 +3238,7 @@ R: Ao ingressar na Fé, é comum ter sonhos como esse. Significa que o espírito
 # Orientações sobre a Purificação
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年9月20日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年8月25日） | **Status:** Published
 
 ## Orientações sobre a Purificação
 
@@ -3284,6 +3340,7 @@ O inchaço na medula e nas glândulas parótidas... pode haver, sim, uma causa e
 # Esclarecimentos Divinos sobre Enfermidades e Suas Causas
 
 **Categoria:** situmon | **Ano:** 昭和27(1952)年2月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S27年1月26日） | **Status:** Published
 
 ## Esclarecimentos Divinos sobre Enfermidades e Suas Causas
 
@@ -3332,6 +3389,7 @@ Isso também tem cura. Em geral, olhos que se tornam brancos podem ser curados, 
 # Esclarecimentos sobre a Verdade, a Fé e a Vida
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年3月1日 | **Fonte:** Chijo Tengoku
+**Título Original:** 妙智之光 | **Status:** Published
 
 ## Esclarecimentos sobre a Verdade, a Fé e a Vida
 
@@ -3454,6 +3512,7 @@ Portanto, enquanto a fé permanecer inabalável, a pessoa não sofrerá tanto e 
 # Diálogos e Esclarecimentos do Mestre
 
 **Categoria:** situmon | **Ano:** 昭和24(1949)年10月21日 | **Fonte:** 御Hikari話録
+**Título Original:** 御光話 （S24年7月13日） | **Status:** Published
 
 ## Diálogos e Esclarecimentos do Mestre
 
@@ -3836,6 +3895,7 @@ Exato.
 # Esclarecimentos sobre a Purificação e a Influência Espiritual
 
 **Categoria:** situmon | **Ano:** 昭和26(1951)年10月25日 | **Fonte:** Mioshie-shu
+**Título Original:** 御教え （S26年9月21日） | **Status:** Published
 
 ## Esclarecimentos sobre a Purificação e a Influência Espiritual
 

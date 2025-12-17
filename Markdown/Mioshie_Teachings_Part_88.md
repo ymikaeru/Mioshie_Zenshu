@@ -1,8 +1,3834 @@
 # Mioshie_Teachings - Part 88
 
+# Coletânea de Teses do Mestre Jikan Okada — Registro de Ensinamentos, nº 3
+
+**Categoria:** gosuiji | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
+
+## Coletânea de Teses do Mestre Jikan Okada — Registro de Ensinamentos, nº 3
+
+Publicado em 25 de novembro de 1951.
+Registro de Ensinamentos, nº 3 (Ano 26 da Era Showa – 1951)
+
+[1º de outubro]
+
+“Gostaria de fazer uma pergunta a respeito do Johrei. Anteriormente, Vossa Reverência nos revelou que, em princípio, o Johrei deveria ser ministrado de uma pessoa para outra, individualmente, mas...”
+
+Naquela época, sim.
+
+“Contudo, quando as purificações se manifestavam com grande intensidade, observávamos que várias pessoas o ministravam simultaneamente...”
+
+O tempo avança, e os métodos não podem permanecer estagnados. À medida que o tempo progride, as práticas também se alteram. O mais correto é adotar o procedimento que melhor se ajusta a cada momento. Não há necessidade de se prender a regras tão rígidas; o ideal é adaptar-se às circunstâncias.
+
+O que digo a uma pessoa pode ser diferente do que digo a outra. O erro reside em aplicar a orientação dada a um, de forma indiscriminada, a todos os demais. Isso ocorre com frequência e é um ponto que exige reflexão. A Igreja Messiânica, por sua natureza, realiza um trabalho de grande magnitude em um curto espaço de tempo, o que a leva a evoluir com extrema rapidez. Nesse aspecto, ela difere fundamentalmente das outras religiões. Os nomes se alteram, o método de Johrei se aprimora, o amuleto sagrado se modifica; em um breve período, alcançamos um progresso imenso. O que levaria mil anos, realizamos em cerca de dez. Na verdade, o ritmo é ainda mais célere.
+
+Eu me mudei para Atami no ano dezenove da Era Showa (1944). No ano vinte (1945), a guerra terminou, e no ano vinte e dois (1947), a Igreja foi oficialmente registrada como instituição religiosa. Desde então, passaram-se os anos vinte e três, vinte e quatro, vinte e cinco e vinte e seis. Este é o quarto ano desde o registro. Nesse ínterim, expandimos de Hakone para Atami. Embora essa expansão tenha se iniciado um pouco antes, durante a guerra as ações eram limitadas. O verdadeiro impulso veio a partir do ano vinte e dois. Essa trajetória, por si só, é praticamente um marco histórico, e as pessoas ficam assombradas. O avanço é, de fato, notavelmente rápido e se tornará ainda mais veloz e grandioso. É impossível prever o que teremos nos tornado daqui a dois ou três anos. Ao comparar o dia a dia, o desenvolvimento é surpreendente. E tudo isso ocorre em meio a perseguições das autoridades e ataques da imprensa; prosseguir sob tamanha pressão é um feito extraordinário.
+
+Entre as novas religiões, a Tenrikyo se destaca no oeste do Japão, enquanto a Igreja Messiânica o faz no leste. A Tenrikyo, contudo, já é uma religião centenária. A nossa, por sua vez, foi fundada cerca de dez anos após o falecimento da fundadora da Tenrikyo. Se considerarmos desde o início, a Tenrikyo já conta com cento e quarenta ou cento e cinquenta anos de história. Nós começamos no ano nove da Era Showa (1934), há apenas dezessete anos, e já somos mencionados em pé de igualdade com eles. É um avanço prodigioso. Doravante, o ritmo será ainda mais acelerado. Nós a ultrapassaremos e seguiremos muito além. Não há precedentes para algo assim. A partir do próximo ano, a velocidade será verdadeiramente impressionante.
+
+Quanto à estátua de Kannon (観音) no Templo Hase, em Kamakura, creio que meça três *jo* e três *sun*. Contudo, as imagens de Kannon são mais eficazes quando menores; o tamanho ideal é de um *sun* e oito *bu*. Uma estátua de três *jo* e três *sun* é um exagero. No final das contas, embora existam muitos planos, tudo depende de recursos financeiros. Com dinheiro suficiente, poderíamos dar um salto monumental e alcançar de forma decisiva a classe intelectual. Aliás, já noto um interesse crescente por parte dos intelectuais.
+
+Uma pessoa que acabou de me visitar relatou que cerca de dez escritores de renome, como Masajiro Kojima, Ton Satomi, Yasunari Kawabata, Musei Tokugawa e Eiji Yoshikawa, cogitam lançar alguma publicação. Recentemente, Yasunari Kawabata esteve em Hakone por um tempo e sugeriu que seria interessante editar algo de maior interesse para o público em geral. O senhor Kosaka, da antiga “Hikari Shimbunsha”, também havia proposto a criação de um jornal com essa mesma finalidade. Todavia, essas pessoas não compreendem a verdadeira natureza da questão. Se uma publicação de interesse geral tiver o menor aroma religioso, o público perde o interesse, pois a considera mera propaganda. Por outro lado, se o conteúdo for demasiadamente secular, os membros o acharão desinteressante. É preciso definir claramente o público-alvo: ou os membros, ou o público em geral. Tentar agradar a ambos, embora pareça uma boa ideia, na prática, está fadado ao fracasso. Já houve tentativas semelhantes no passado, mas nenhuma obteve sucesso. A religião Omoto, por exemplo, teve o jornal “Taisho Hibi Shimbun”, que também não prosperou. É uma empreitada muito difícil. Se não precisássemos nos preocupar com as finanças, seria diferente, mas ainda não temos essa folga.
+
+No que tange ao desenvolvimento das montanhas, já temos convicção suficiente para esperar um bom retorno financeiro a partir do próximo ano, mas até o final deste, a situação permanecerá apertada. Afinal, temos de adquirir obras de arte, construir edifícios e o museu. E surgem peças artísticas únicas, que não aparecerão novamente, tornando imperativa a sua aquisição. No entanto, os recursos são escassos. Embora estejamos administrando a situação com habilidade, a questão fundamental é o dinheiro.
+
+Já estabelecemos as bases para o projeto das montanhas a um ponto que nos inspira grande confiança. Percebe-se que Deus vinha preparando tudo de antemão, e os milagres acontecem para que tudo corra bem. Em Minakami, por exemplo, faltava-nos alojamento, quando surgiu um senhor de Tóquio que havia construído uma casa para se refugiar da guerra e agora desejava vendê-la a qualquer preço. São cento e dezessete *tsubo* de área construída, com um terreno de vinte *tsubo*, por setenta ou oitenta mil ienes. Creio que possamos negociar por setenta ou setenta e cinco mil. Segundo ele, com uma semana de reparos, o local estará habitável. Isso é, sem dúvida, um milagre. Além disso, a construção em Atami precisa ser acelerada. Deus conduz tudo da maneira mais apropriada.
+
+Há uma montanha onde pretendem instalar um teleférico. Parece que vão nivelar cerca de metade dela para construir a estação. Como não quisemos vender nossa parte, eles devem estar negociando com a área destinada a residências populares, nos fundos. De minha parte, desejo adquirir aquele terreno a qualquer preço. Ele se tornará uma estância termal que atrairá os visitantes de Hakone. Meu plano é criar ali a mais perfeita estância termal, um hotel que será o melhor do Japão. Um ambiente de absoluta pureza, sem a presença de mulheres de conduta duvidosa; um verdadeiro paraíso de águas termais, frequentado majoritariamente por nossos membros. Quero criar um modelo de como uma estância termal deve ser. A topografia do local é ideal para esse propósito.
+
+Até pouco tempo atrás, tremíamos de frio, mas aqui o clima é ameno. É impressionante como a temperatura pode variar tanto em um trajeto de menos de uma hora. Em lugares comuns, para encontrar uma diferença climática semelhante, seria preciso viajar de Akita ou Aomori até Shikoku, uma distância de mais de duzentos *ri*.
+
+“Eu vim de Kyushu e, de fato, sinto que aqui é mais quente.”
+
+Então a diferença é comparável à de Taiwan.
+
+“O frio parece com o de Yamagata.”
+
+Entre Yamagata e Kyushu, a distância deve ser de uns trezentos *ri*, então.
+
+A topografia deste lugar é verdadeiramente misteriosa, embora muitas vezes não nos demos conta disso.
+
+“Estando em Gora, quando vamos a outros lugares, percebemos claramente o quanto são impuros.”
+
+Quem está lá não sente vontade de ir a lugar nenhum. Outros locais parecem sujos, imundos; a impureza se torna muito evidente.
+
+Em Atami, o local destinado ao Paraíso Terrestre possui a paisagem mais bela. Quando vim para cá, pesquisei bastante e concluí que a melhor área é, sem dúvida, entre Izusan e Atami. Depois das recentes intervenções, ontem fui observar e a paisagem já está diferente.
+
+“Izusan e este local, em japonês, contêm os números cinco (*izu*) e três (*mizu*)...”
+
+Sim, é verdade. Cinco e três.
+
+“Fazia três meses que eu não vinha e fiquei espantado com o que vi.”
+
+E mudará muito mais ainda. A área dos fundos se transformará de forma espetacular. O projeto para construir ali o Salão Messiânico é bastante complexo. Pretendo que a arquitetura seja de nível mundial. Existe uma revista de arquitetura que mostra projetos americanos no estilo Le Corbusier, com propostas bastante arrojadas. Penso em construir um salão e um museu que deixarão todos boquiabertos. Na América, há construções muito audaciosas, com formas bastante irregulares. Quando o nosso estiver pronto, será um espanto. O de Atami será construído até o ano retrasado. Quando estiver concluído, pessoas do mundo inteiro virão ao Japão para visitá-lo. Criaremos algo tão grandioso que, ao virem ao Japão, dirão: “Pode-se deixar de ver Nikko, mas não se pode deixar de ver este lugar”. A arquitetura não terá o ar antiquado dos templos antigos da China ou do Japão, tampouco seguirá o moderno estilo Le Corbusier. Teremos que criar algo que não seja nem um nem outro.
+
+“No estágio final de uma purificação com febre alta, quando surgem soluços, a medicina afirma que o paciente sobrevive por apenas dois ou três dias. No entanto, em minha experiência, a pessoa resistiu por dez dias. Qual a relação por trás disso?”
+
+Há tanto o fator espiritual quanto o físico.
+
+“Devemos desistir nesses casos?”
+
+De forma alguma. Não é algo tão grave.
+
+“Às vezes, os soluços duravam cerca de duas horas.”
+
+Onde você ministra o Johrei?
+
+“Da cabeça à medula oblongata.”
+
+É na medula oblongata e também no diafragma.
+
+“No momento do falecimento, a pessoa teve soluços por dez dias, as sardas de suas mãos desapareceram e seu rosto ficou com uma cor avermelhada, como a do Kintoki. Em agosto, durante um caso de encefalite japonesa, a febre não cedia, o pulso estava trêmulo e, por cerca de duas horas, um suor branco apareceu em faixas pelo corpo. Depois disso, ela melhorou.”
+
+É preciso observar a medula oblongata.
+
+“Quando a febre está baixa, o pulso fica muito acelerado.”
+
+Isso é sinal de debilidade.
+
+“Este foi o terceiro caso de soluços que presenciei, e os resultados não foram bons.”
+
+Até agora, a eficácia do Johrei era mais branda, mas de agora em diante, isso não ocorrerá mais. Por essa razão, insisto para que não apliquem força. A causa de tudo é o yakudoku.
+
+“Sobre a picada de abelha mencionada hoje, o veneno desaparece após alguns dias?”
+
+Em cinco minutos. Se eu ministrar Johrei, em dois. Se vocês o fizerem, em cerca de dez minutos. É algo muito simples; desaparece rapidamente. Deve ter sido uma mutuca. O veneno da mutuca é muito mais forte, não se compara ao da abelha. No entanto, a área ficou avermelhada depois, não foi? Isso é o veneno se dissolvendo para ser expelido. Aplicaram um colírio, e isso foi um erro, pois impediu a saída do que precisava ser eliminado. Se tivessem deixado, teria se transformado em remela, saído e curado.
+
+“Na época da Omoto, ouvi dizer que as mutucas eram mensageiras da fundadora e as abelhas, do Seishi-Sama.”
+
+Isso não é verdade. É um disparate. Na Tenrikyo, por exemplo, dizem coisas estranhas como: “Se você não responde (*hento shinai*), desenvolve amigdalite (*hentosen*)”.
+
+“Com relação a nomes pessoais, o que significa dizer que há um momento certo para mudá-los?”
+
+Ocorre que, às vezes, quando me pedem para mudar um nome, simplesmente não consigo encontrar um adequado. Isso indica que ainda é cedo. O “momento certo” está relacionado à quantidade de nuvens espirituais da pessoa. É uma transição no destino. Contudo, o simples fato de desejar a mudança já é um sinal de que o momento se aproxima. Há casos em que a mudança de nome acaba sendo prejudicial. Recentemente, faleceu alguém cujo nome fora alterado por um certo mestre. Era um nome muito ruim. As pessoas não sabem, mas isso não deve ser feito. É preciso ter convicção. Nomes como Sentaro, por exemplo, não são bons. Deus me impede de criar nomes, mas não há problema em ajudar na escolha. Se a pessoa me trouxer várias opções, posso selecionar a melhor.
+
+“Até agora, por ser um assunto de grande responsabilidade, não o mencionei aos membros. No entanto, alguns ouvem a respeito por outras vias e se preocupam. Como devo proceder? Não sei como mudar nomes, devo deixar como está?”
+
+Deixe como está. Ao se tornar um instrutor, a pessoa adquire uma posição espiritual, o que no budismo seria o estado de *kakusha*, o iluminado. Com isso, ela recebe a devida proteção. Os membros em geral ainda não atingiram esse nível e precisam praticar para alcançá-lo. A verdade é que nomes não devem ser mudados levianamente. Muitas vezes, a mudança pode piorar a situação da pessoa; isso acontece com frequência. O compositor Kosaku Yamada está doente. Quando ele adicionou o radical de “grama” ao seu nome, pensei: “Que coisa infeliz ele fez”. Pouco depois, adoeceu. É um mau presságio. Se ao “cultivar” (*ko*) um campo, “nasce grama” (*kusa*), nada prosperará. Ao lavrar um arrozal, se o mato cresce, tudo está perdido. As pessoas desconhecem a arte da onomancia. O famoso onomancista Keno Kumazaki, por exemplo, adicionou o ideograma de “ancião” (*okina*) ao seu nome, o que é negativo. Limita sua capacidade de ação, como se estivesse se aposentando.
+
+“Um membro relata que, desde o dia 3 de abril do ano passado e, neste ano, desde 4 de abril até agora, sempre que passa perto da cozinha ou do galinheiro, sente um forte cheiro de incenso.”
+
+Isso se deve ao estado do Mundo Espiritual naquele local. Estão queimando incenso lá, o que indica a presença de um falecido, um espírito de morto. Essa pessoa deve ter o olfato muito sensível.
+
+Ainda sobre nomes, comentei outro dia com alguém que, muitas vezes, um nome bom demais acaba sendo prejudicial. O nome deve corresponder ao espírito da pessoa. Se for excessivamente elevado, não haverá harmonia. Por exemplo, usar o ideograma “Céu” (*ten*) certamente trará infortúnio. “Céu” representa uma posição espiritual muito elevada. O Imperador o utiliza, mas, para uma pessoa comum, é um nome bom demais, sem a devida distância. Nós atuamos no plano terrestre, não no celestial. O ideograma “Céu” invariavelmente trará problemas.
+
+O ideograma “Grande” (*dai*) também é desfavorável. Ele possui uma grande hierarquia espiritual e é formado pelos caracteres “um” e “pessoa”. Refere-se a Deus como o Único, ao Deus Supremo, ao Imperador, aos líderes. Não deve ser usado por pessoas comuns. Por outro lado, há pessoas de sucesso com nomes aparentemente ruins ou sem valor. Nesses casos, o nome está em harmonia com a alma da pessoa, e por isso funciona.
+
+“E o nome Asako Ishida?”
+
+Seria melhor mudá-lo. “Ishida” começa com o som da vogal “a”. “Asa” também. A vogal “a” corresponde ao fogo. Se a parte de cima é fogo, a de baixo deve ser água. “Ishida” é fogo, portanto, não é um bom nome. É preciso ter um conhecimento prévio para dar nomes. A vogal “a” representa o céu, então a parte de baixo deve representar a terra, o que significa incluir algo relacionado à água.
+
+O “i” de hoje é o ideograma de “pessoa”. O radical de pessoa se diz *ninben* (亻). O traço (ノ) é o céu, e o traço (ヽ) é a terra. Metade-metade. Pelo *tamagaeshi* do Kototama, entende-se rapidamente. Em “Okada”, o som final é “da”, ou seja, “a”. Não é o “o” que governa tudo. Em “Mokichi”, o som é “mi”. Assim, “Okada Mokichi”, pelo *tamagaeshi*, torna-se “ami”. Em “Nakajima”, o primeiro som é “a”. Em “Kise”, é “ke”. É preciso saber disso. As pessoas cujos nomes seguem essa lógica são diferentes; são mais inteligentes, progridem na vida. Além disso, nomes que contêm os sons da série “ma, mi, mu, me, mo” não passam por dificuldades materiais. O ano da Serpente (*mi*) também é muito materialista. E, como sempre digo, pessoas com os sons “sa, shi, su, se, so” no nome tendem a querer impor sua vontade. Nomes com “ma, mi, mu, me, mo” são mais femininos. O sobrenome também não deve ser dissonante. A pronúncia deve ser fluida. Na época da escola, havia um colega com o nome interessante de Tatsutobi Taniyama, mas ele faleceu.
+
+“O ideograma ‘um’ no final do nome é ruim?”
+
+De forma alguma.
+
+Os nomes que eu dou têm um significado preciso. Atami é chamada de Zuiun-kyo. “Zui” contém o ideograma de “água”, a água da lua, pois Atami é a “Capital da Lua”. O outro local é Shinsenkyo, o Palácio Nikko-den, representando fogo e água. É preciso haver correspondência.
+
+“Sobre o carma, sei que existe o cármico, que é predestinado, e o relacionado ao destino...”
+
+Isso está explicado nos livros. A raiz de tudo é o carma, que gera o destino. Essa seria a segunda acepção. A palavra japonesa para carma, *innen*, é muito bem-feita.
+
+“Um membro tem uma imagem de Kannon (観音) de pedra exposta à chuva. Seria apropriado entronizá-la dentro de casa?”
+
+Isso não é correto. Não se deve fazer imagens de Kannon em pedra. As pessoas fazem isso por ignorância. Contudo, sendo de pedra, não há outro lugar para colocá-la senão do lado de fora. Não se pode exibi-la em um cômodo, pois não seria apropriado. É como entrar em casa vestindo uma capa de palha. Como não se pode destruí-la, deixe-a como está.
+
+“A mãe de um membro aprendeu a ‘cortar o bicho da irritabilidade infantil’. O método consiste em escrever o ideograma ‘Purificação’ (浄) três vezes sobre a criança irritada e pedir a Komyô Nyorai-Sama para remover o ‘bicho’. Com isso, um fio branco sai das articulações ou dos dedos, e a criança se acalma instantaneamente. Recentemente, as crianças vêm procurá-la e, mesmo que ela diga que fará o procedimento mais tarde, por estar ocupada, os fios já começam a sair sozinhos.”
+
+Que interessante. De fato, existem casos de filamentos brancos, semelhantes a pelos, que saem dos dedos das pessoas. Devem ser mesmo bichos. A palavra escrita também tem poder. Havia um mestre que curava com ideogramas, escrevendo coisas como “a dor cessa”. E surtia algum efeito. Eu mesmo escrevo “Luz” no Ohikari. É o poder da palavra. É formidável que a escrita tenha tal poder. É perfeitamente possível que um bicho saia ao se escrever um ideograma, especialmente em crianças. Não se trata de superstição; há um fundamento real nisso. No entanto, é um método trabalhoso. O Johrei é mais simples e eficaz.
+
+“Não seria a materialização de um espírito?”
+
+Não creio que seja materialização de um espírito. Mas há pessoas de quem isso sai. Com o Johrei, sai com frequência.
+
+“Em adultos não acontece.”
+
+Acontece em adultos também. Há quem os puxe com os dedos.
+
+“Seria um tipo de toxina?”
+
+É um bicho, um bicho que nasce das toxinas.
+
+“Vossa Reverência nos ensinou que, no caso dos alcoólatras, há um espírito no ventre. Como se dá a questão do espírito secundário?”
+
+Pode ser o espírito guardião secundário que bebe, um espírito visitante ou um espírito secundário. Quando é o guardião secundário, o vício é bastante arraigado. Certa vez, o espírito de um idoso alcoólatra se manifestou, dizendo: “Eu queria tanto beber... Naquela época, não conseguia comprar saquê”.
+
+“Um menino começou a fazer previsões sobre sua própria morte. Quando lhe perguntaram ‘O que você vai fazer quando morrer?’, ele respondeu: ‘Vou para o céu’. ‘Mas você não poderá voltar’, disseram. ‘Eu renascerei. Onde será que vou renascer?’, ele se perguntava. Antes disso, quando lhe ofereceram sapatos novos, ele disse: ‘Eu não preciso’. Quem o faz dizer essas coisas?”
+
+É o seu espírito guardião primordial.
+
+“A purificação era muito intensa e não se acalmava com o Johrei. O pulso desapareceu, o rosto ficou pálido e, sem saber mais o que fazer, desdobramos uma Imagem da Luz Divina sobressalente sobre o doente, e ele se curou.”
+
+Se for uma Imagem Sagrada que não está entronizada, uma sobressalente, não há problema. Contudo, isso indica que a força espiritual de quem ministra o Johrei é fraca. Nem precisa desdobrá-la; pode-se colocá-la enrolada sobre o abdômen do doente, fazendo uma prece. Com o método atual, sem aplicação de força, a pessoa se curaria sem a necessidade de tal recurso.
+
+“A faixa abdominal que usei no parto está muito suja pelo uso prolongado. Posso lavá-la? E o que devo fazer com ela depois?”
+
+Pode lavá-la. Depois, guarde-a. Quando tiver outro parto, poderá usá-la novamente. Coloque-a sobre um suporte de oferendas e diga: “Peço permissão para utilizá-la novamente”, e então use-a.
+
+“Vossa Reverência nos ensinou que Izunome-no-Kami se torna Kanzeon, e Kannon se torna Dainichi Nyorai. No livro ‘Diálogos sobre a Fé’, consta que Dainichi Nyorai é Amaterassu Oomikami. E também que o filho mais velho é Izunome-no-Kami e a filha mais velha, Amaterassu Oomikami...”
+
+Correto. Izunome-no-Kami protege Amaterassu Oomikami. Em outras palavras, a atuação do fogo está contida em Izunome-no-Kami. Izunome-no-Kami engloba fogo e água. A parte do fogo se torna Amaterassu Oomikami, e a parte da água, Tsukuyomi-no-Mikoto.
+
+Atualmente, existem muitas “Amaterassu Oomikami”. A deusa que dança é Amaterassu, e Jiko-son também. São possessões de espíritos de raposa, que declaram: “Esta é Amaterassu Oomikami”. E todos se deixam enganar. Para impressionar os japoneses, esse é o melhor nome, pois Amaterassu Oomikami tem um grande valor de utilização. Hoje em dia, o nome Amaterassu Oomikami se tornou banal. É uma confusão total. Se alguém estivesse verdadeiramente possuído por Amaterassu Oomikami, jamais diria ser ela. Jamais.
+
+“Qual a razão para o pulso estar acelerado quando a febre está baixa?”
+
+Bem, embora não seja uma questão crucial, a explicação é a seguinte: a febre ocorre quando o coração trabalha intensamente, como uma bomba em alta frequência. Nesse caso, embora a frequência seja alta, a dissipação do calor é lenta, por assim dizer. A dissolução das toxinas é deficiente. O coração acelera para gerar calor porque o calor é necessário para expelir as toxinas mais rapidamente. Acredito que a dissolução esteja sendo ineficaz. Essa é a razão.
+
+“Em casos de tuberculose, há pacientes cujo pulso não está muito acelerado, mas a respiração é rápida...”
+
+Isso ocorre porque a capacidade de contração dos pulmões está enfraquecida. Eles conseguem absorver apenas metade do ar. As toxinas se solidificam nos pulmões, comprometendo sua atividade.
+
+“Certa vez ouvi que Izanagui-no-Mikoto é o ancestral da humanidade...”
+
+Isso não é verdade. Os ancestrais da humanidade são muito mais antigos. Izanagui-no-Mikoto pertence a um estágio muito mais evoluído. Contudo, algumas vertentes do xintoísmo afirmam isso. Eu escrevo apenas o que é necessário. De nada adianta discorrer sobre tempos tão remotos, como fazem os antropólogos e arqueólogos. Escrevo somente o essencial. O que importa são as questões do presente, os sofrimentos que as pessoas enfrentam. Isso é o fundamental. Procuro não me aprofundar em história antiga, pois isso acaba se tornando uma espécie de passatempo.
+
+“Ao se entronizar uma nova Imagem Sagrada, além das Orações e da Salmodia, é excessivo recitar também a Oração de Consagração?”
+
+Não somos xintoístas. No xintoísmo, a recitação de orações é indispensável, mas para nós, não é uma necessidade. Não há mal em recitá-la, portanto, quem desejar pode fazê-lo. Não que alguém não queira, mas, em termos de necessidade, não é obrigatório. Entronizar a Imagem e orar pela manhã e à noite é suficiente.
+
+“É apropriado recitar a Salmodia diante do oratório budista?”
+
+Isso o igualaria a Deus, o que seria uma falta de respeito. É preciso haver uma distinção. Em cerimônias especiais, pode-se fazê-lo, mas, no dia a dia, não se deve, como já orientei. No mundo Divino, não há igualdade; as hierarquias são muito bem definidas.
+
+[5 de outubro]
+
+“Um homem foi diagnosticado com câncer de estômago e teve cerca de oito *sun* de seu epigástrio removidos. Atualmente, ele se alimenta apenas de líquidos e deseja recorrer à Igreja Messiânica. Qual seria a perspectiva?”
+
+Após uma cirurgia como essa, a expectativa de vida média é de dois anos e meio. Na melhor das hipóteses, poderia se estender para três ou quatro anos. Nesses casos, o Johrei não surte muito efeito. Uma vez que o órgão foi removido, não há o que fazer. É um crime médico.
+
+“Com o Johrei, não haveria uma extensão da vida?”
+
+Com sorte, talvez cinco anos, e isso já seria um caso excepcional. Com uma remoção tão extensa, é difícil que chegue a três anos; provavelmente, viverá um ou dois. São casos para a medicina. Nós não podemos intervir. A melhor salvação para essas pessoas é aprofundar o conhecimento sobre o Mundo Espiritual e se preparar para a morte.
+
+“O médico disse que ele teria cerca de dois meses de vida e, por isso, realizou a cirurgia.”
+
+Esse médico está equivocado. Trata-se, em essência, de um crime de benevolência. Um americano, ao ler um de meus artigos, elogiou-o muito, mas fez uma ressalva: “A única coisa que me parece superstição é a ideia de expulsar um espírito de raposa”. Tive vontade de lhe dar uma resposta à altura. Ele disse isso porque escrevi sobre a expulsão de raposas. Contudo, a existência de raposas e a forma de expulsá-las são coisas distintas. Ele considera bárbaro expulsá-las com pancadas. Mas remover um câncer com uma cirurgia não é ainda mais bárbaro? Bater para expulsar é preferível. Ele não percebe o quão selvagem é cortar para remover. Isso é o que me espanta. Se deixado em paz, o paciente poderia viver três ou cinco anos, mas a cirurgia abrevia sua vida. A medicina interpreta isso de forma invertida. Assim, um médico se opôs à cirurgia, mas o outro, por meio de intimidação, a realizou. É obra de um demônio.
+
+“Um menino de três anos, após se recuperar parcialmente de coqueluche, desenvolveu um prolapso retal. O intestino foi saindo gradualmente, e agora, cerca de dois *sun* e meio estão para fora do ânus.”
+
+Isso não é hérnia.
+
+“O escroto também está um pouco inchado.”
+
+Inchaço no escroto é comum.
+
+“Ao colocá-lo no banho e empurrar o intestino para dentro, inicialmente ele voltava ao lugar, mas ao fazer força, saía novamente.”
+
+Isso é prolapso retal.
+
+“Ele sente muita dor. Estamos ministrando Johrei, mas o intestino não retorna. Apesar disso, ele está muito bem, com bom apetite, e corre pela sala, embora não consiga se sentar direito por causa da dor.”
+
+Isso se cura com Johrei. O Johrei amolece a região do ânus, mesmo em casos de prolapso.
+
+“Devo ministrar Johrei principalmente no ânus?”
+
+Sim, principalmente ali. O abdômen dele é macio?
+
+“Logo ao nascer, acumulou água nos testículos, que foi drenada. Quando começou a andar, teve uma hérnia que não regredia, então fizeram uma cirurgia no peritônio. Até hoje, o abdômen é muito grande na parte superior e pequeno na inferior.”
+
+Existem abdomes com essa conformação.
+
+“Ele tem um orifício logo acima do ânus, que é de nascença. Parece que o prolapso sai por ali.”
+
+Pode ser uma má-formação. Crianças geralmente não têm prolapso retal.
+
+“O intestino deixou de retornar após a coqueluche.”
+
+Foi por causa do esforço. Antes da coqueluche, ele não tinha isso, certo?
+
+“Isso mesmo.”
+
+Então, vai se curar.
+
+“Atualmente, está saindo muito muco do local do prolapso.”
+
+Isso é um ótimo sinal.
+
+“A pele está como se estivesse assada.”
+
+Isso é toxina. Continue ministrando Johrei com paciência. Ele vai se curar. O prolapso também é causado por toxinas. Elas se acumulam ao redor do reto, e o Johrei as amolece.
+
+Na realidade, os fenômenos espirituais não são o que há de mais assustador. O verdadeiramente terrível é o yakudoku. É por causa dele que os espíritos se encostam. Se não houvesse yakudoku, os espíritos não teriam como atuar. O que devemos temer é o yakudoku. Eu mesmo estou com dor de dente e ministrando Johrei. É um medicamento de trinta e seis anos atrás. De vez em quando dói, mas já estou acostumado. Então, percebi algo aqui na lateral do meu abdômen. Ao ministrar Johrei nesse ponto, a dor diminuiu pela metade. É uma pleurisia de cinquenta anos atrás. A toxicidade dos medicamentos é, de fato, algo pavoroso.
+
+“Em algumas regiões, as pessoas bebem chá de ‘habuso’ (erva de fedegoso).”
+
+A “habuso” não é tão problemática. A pior é a “gen-no-shoko” (erva de São Roberto). O “arubajiru” também é perigoso; há quem morra por causa dele. Se os medicamentos desaparecessem, a humanidade melhoraria imensamente.
+
+O yakudoku não desaparece rapidamente. Leva duas ou três gerações. Assim como o corpo leva cerca de três anos para se livrar das toxinas dos fertilizantes, os medicamentos levam umas três gerações para serem quase totalmente eliminados.
+
+O médico que se opôs à cirurgia que mencionei há pouco está adotando minhas teorias; ele deve ter lido meus livros. Ele diz que tanto cirurgias quanto medicamentos são prejudiciais. Este ano, afirmou que a encefalite japonesa não é causada apenas por mosquitos, mas também pela exposição da cabeça ao sol escaldante. Essa é a minha teoria.
+
+“Recebi uma imagem de Kannon (観音) nº 1. Como devo proceder? Devo purificá-la?”
+
+O que é a nº 1?
+
+“É a maior das imagens.”
+
+Ela não é um objeto de adoração. A Imagem Sagrada é a caligrafia da Komyô Nyorai-Sama. Não há problema em pendurá-la, mas não há necessidade de purificação ou rituais do tipo.
+
+“Sobre a Agricultura Natural, na época do plantio de arroz na primavera, cerca de sessenta por cento da lavoura se perdeu. Relatei o ocorrido a Meishu-Sama...”
+
+Foi no primeiro ou no segundo ano?
+
+“No terceiro. Fizemos a inversão do solo...”
+
+Inversão do solo?
+
+“Revolvemos a terra, trazendo a camada inferior para a superfície. Creio que, por isso, o solo ácido subiu.”
+
+Essa foi a causa.
+
+“Ministrei Johrei na parte que restou, e a lavoura se tornou tão boa quanto a que usava adubo. Recentemente, já não se nota diferença. Cada vez que eu vinha em peregrinação, ao voltar para casa, em dois ou três dias as plantas cresciam vigorosamente, o que me deixava espantado.”
+
+As toxinas dos fertilizantes se infiltram mais profundamente no solo. A camada superficial é lavada pela chuva.
+
+“Ao ler o Registro de Ensinamentos, vi que não é bom ter dois oratórios budistas em uma mesma casa. Ocorre que meu senhorio faleceu e...”
+
+Em circunstâncias como essa, não há o que fazer. Na verdade, é até bom. Não precisa ser para sempre. Após um certo tempo, talvez uns três anos, você poderá unir os ancestrais no seu oratório.
+
+“No Registro de Ensinamentos, Vossa Reverência menciona a palavra ‘meguri’. Qual o seu significado?”
+
+Significa pecados e impurezas. É um termo que aparece nos Escritos Divinos da Omoto.
+
+“Nos Escritos Divinos, consta a frase: ‘O céu é seis, o mundo intermediário é seis, e a terra é seis’. O que isso significa?”
+
+Significa que o mundo era o da noite. O céu era noite, e a terra também. É uma metáfora interessante. Não é mentira que, quando o espírito de *ichirin* desceu do céu, o céu se tornou cinco e a terra, sete.
+
+A história do espírito de *ichirin* é curiosa. Cerca de vinte anos atrás, na época da Omoto, uma pessoa me deu moedas antigas: uma de um *rin*, uma *tenpo-sen* e uma de ouro. A moeda de ouro era do quarto ano da Era Meiji (1871). A fundadora da Omoto nasceu na Era Tenpo, e o mestre, o Seishi-Sama, no quarto ano de Meiji. Ele era a moeda de ouro. E eu era o *ichirin*. Tudo se encaixou perfeitamente. Na época, pensei que era um aviso de Deus e guardei as moedas com muito cuidado.
+
+Nos Escritos Divinos, está escrito: “noventa e nove por cento e um por cento”. Os espíritos malignos tiveram sucesso em noventa e nove por cento de seus planos. Com apenas um por cento, nós revertemos a situação. A medicina representa esses noventa e nove por cento. Não há ninguém no mundo que não acredite nela. E eu, com um por cento, virei o jogo. É exatamente como nos Escritos.
+
+“O espírito de *ichirin* se manifesta pela primeira vez desde o início do mundo?”
+
+Não, esta é a segunda vez. Por isso, nos Escritos Divinos, fala-se da “segunda abertura do Iwato celestial”. Tudo assume a forma de uma segunda vez. O que quer que seja, acontece pela segunda vez. A primeira atuação do *ichirin* não foi a verdadeira e, por isso, fracassou. A segunda é a verdadeira.
+
+“Na Omoto, quem eles acreditam que seja o espírito de *ichirin*?”
+
+Eles não sabem. Há diversas opiniões. Alguns pensam que é a terceira líder, outros que é Hidemaro. Está escrito: “O detentor do poder virá do leste” e “Não haverá mais esconderijo para o mal”. Em breve, a Omoto virá se curvar a nós. Está tudo nos Escritos.
+
+“Dizem que a terceira líder esteve aqui...”
+
+Sim, ela deu um passo em nossa direção. O poder, o verdadeiro poder de Deus, ainda não havia se manifestado até agora.
+
+“De manhã estava nublado, e quando ela foi embora, choveu...”
+
+O espírito da fundadora está com ela.
+
+Agora, o verdadeiro poder se manifestará. Diz-se que o fio vertical e o horizontal se unem. É no ponto de união que a atividade acontece. Portanto, quando o vertical e o horizontal se unirem de verdade, começará o movimento de “avanço pela esquerda, recuo pela direita”. Até agora, era “avanço pela direita, recuo pela esquerda”. Com a mudança, os espíritos malignos ficarão de mãos e pés atados. Até o momento, os fios não estavam unidos; estavam separados.
+
+“No Registro de Ensinamentos, há uma passagem sobre tuberculose que diz que, em casos um pouco mais graves, é melhor ministrar Johrei em dias alternados. No entanto, quando recebo Johrei diariamente, o catarro fica mais ralo e fácil de expelir. Se pauso por dois dias, ele se torna espesso e difícil de sair. Como devo proceder?”
+
+Nesse caso, é melhor receber Johrei todos os dias. É preciso adaptar-se às circunstâncias. O problema é que, embora pareça bom expelir todo o catarro de uma vez, isso pode levar à debilidade, o que é perigoso. O mais importante é evitar o enfraquecimento do paciente. Dependendo do caso, ministra-se Johrei uma vez por semana. Em suma, é melhor não forçar a dissolução. O processo deve ser gradual. Hoje em dia, há pessoas em quem a dissolução ocorre mais rapidamente. É preciso agir conforme a situação.
+
+“Sou a pessoa que teve os gânglios linfáticos removidos, como mencionei hoje. No momento do parto, a nova parteira disse para resfriar o abdômen.”
+
+Nesse momento, o útero se contrai enquanto a mulher está deitada de costas, o que pode fazer com que o sangue desça para a região lombar. É melhor que a contração seja mais lenta. Se for rápida demais, o útero se fecha com sangue ainda dentro. Que tolice. O problema no útero se resolve rapidamente, assim que as toxinas se dissolvem. O que persiste é o problema nos gânglios.
+
+“Um membro tem, em um dos nomes dos filhos, um ideograma com quatro traços e outro com o caractere ‘Grande’. Ele gostaria que Meishu-Sama mudasse o nome.”
+
+Para um membro comum, não é aconselhável. Se for um instrutor, tudo bem. Em breve, ensinarei sobre nomes, apenas os pontos essenciais.
+
+“Sobre a bromidose (odor nas axilas), um não-membro fez uma cirurgia que removeu o odor, mas depois suas hemorroidas pioraram, e agora ele sofre com isso. Qual é a causa da bromidose?”
+
+É sangue de animal. A pessoa foi um animal em uma vida passada e reencarnou como ser humano. O odor da bromidose é o mesmo de um animal; é como estar em um zoológico. Não é o sangue em si, mas a sua essência que é expelida. Como a saída pelas axilas foi bloqueada, a secreção desceu.
+
+“O Johrei deve ser focado apenas na área afetada?”
+
+Sim, apenas no local. A essência do sangue animal está concentrada ali. As pessoas desconhecem isso.
+
+Há outro aspecto a ser considerado. A bromidose é comum entre os ocidentais, mas não porque tenham sido animais. Ocorre porque consomem carne, e o sangue animal se mistura ao deles, causando o odor. Eu, por exemplo, em minha vida anterior, fui uma mulher, embora já fosse humano. Por isso, não sou peludo. Minhas mãos parecem as de uma mulher. Antigamente, quando as comparava com as das empregadas, as minhas eram mais bonitas. Meu corpo não tem muitos pelos; é liso. Assim sei que fui mulher na vida passada.
+
+“Quando Meishu-Sama se refere à vida passada, é a imediatamente anterior? Ou a anterior a essa?”
+
+A imediatamente anterior.
+
+“Então, entre Yoshitsune e esta vida...”
+
+Eu reencarnei muitas vezes.
+
+“Ao ler os Escritos Sagrados, vejo que quanto mais tempo se permanece no Mundo Espiritual, melhor. Meishu-Sama reencarnou diversas vezes, então...”
+
+Não, não. Por causa dos pecados da vida anterior, sofri muito. Tinha mais pecados que uma pessoa comum e, por isso, sofri mais. Deus é justo. Na verdade, quanto mais elevada a alma, mais intensa é a purificação, pois a punição é mais severa. Contudo, reencarnar várias vezes é o melhor. Quanto mais antiga a linhagem, melhor. Eu sou da mais pura estirpe Yamato, o tronco da etnia. Estive na base por cerca de três mil anos.
+
+“Nascer sempre como mulher indica um grande acúmulo de pecados?”
+
+Não creio que existam casos assim.
+
+“Entre os instrutores, há um que, por não gostar de seu chefe de núcleo, está convencendo outros a se mudarem com ele. Qual a sua opinião sobre isso?”
+
+Isso é um erro. Essa pessoa ainda não compreendeu a fé. Ela não acredita em Deus. Tudo é conduzido por Deus. Mesmo que o chefe de núcleo tenha falhas, existe um laço cármico que os une. Se o chefe estiver errado, ou será removido, ou será corrigido. Julgar alguém como totalmente inadequado é invadir o domínio de Deus. Já está escrito que os seres humanos não conseguem discernir o bem e o mal. Quem diz que o chefe de núcleo está errado não compreende a fé.
+
+“O chefe que o acolheu também não compreende?”
+
+Isso não sabemos, pois não somos Deus. A pessoa que diz que o outro chefe está errado é que não compreende. Eu, por exemplo, mesmo que um subordinado cometa um erro, nunca digo que ele está errado. Deixo tudo nas mãos de Deus. Se ele estiver realmente errado, será afastado ou esmagado. O que aos olhos humanos parece um erro, para Deus, tem alguma necessidade. Houve um caso semelhante com um certo indivíduo. Embora eu dissesse que Deus estava no comando, ele acabou adoecendo, foi para o hospital e faleceu. Se Deus não tivesse poder para resolver essas coisas, seria melhor não acreditar. Agora, sobre aquela pessoa em tal lugar, dizem que precisa ser removida. Mas é Deus quem está agindo, e se fosse necessário, Ele já o teria tirado de lá num piscar de olhos. Se ele ainda está lá, é porque há uma necessidade.
+
+A pessoa que faleceu realizou um grande feito, um bom trabalho. Sou-lhe grato até hoje. Ele fez o bem, mas foi interrompido porque começaria a fazer o mal. Ele foi necessário por um tempo. Os desígnios de Deus são profundos. Se pudessem ser compreendidos pelos olhos humanos, que tipo de Deus seria esse? Qualquer pessoa, por pior ou mais tola que seja, é usada quando há necessidade. Geralmente, com o tempo, entendemos. No grande teatro dos três mil mundos, há papéis de vilão, de herói, há todo tipo de função. Existem muitos vilões, mas sem eles, não haveria peça. Se todos fossem bons... Portanto, entre trancos e barrancos, o importante é que a obra progrida. Afinal, este é o mundo do mal.
+
+E há também os espíritos malignos. Eles se infiltram na nossa organização. Todos os membros são alvos deles. Não se pode baixar a guarda um instante sequer. Algumas pessoas passam por situações terríveis por causa deles, mas isso é uma purificação. Sem ser atacado por espíritos malignos, não é possível se purificar.
+
+Há quem pergunte se a Terceira Guerra Mundial pode ser evitada ou o que acontecerá com Stálin. Em vez de se preocupar com Stálin, deveriam olhar para a América e os outros países livres. Como eles acumularam muita sujeira, Stálin está sendo usado para fazer a limpeza. Ele está removendo a imundície deles. Stálin foi posto nessa posição para que o mundo inteiro tremesse de medo. E o mundo treme porque está completamente sujo. Quando expliquei isso, a pessoa ficou atônita; ela não conseguiu entender o significado. Em resumo, a guerra é uma grande purificação. É como uma doença. O mundo está doente, e a grande guerra é a grande purificação. Ela ocorre porque existem toxinas. E como uma doença comum não seria suficiente para eliminá-las, a Terceira Guerra Mundial se torna necessária. Se não querem a guerra, primeiro mudem seus próprios corações. É inútil querer escapar da guerra enquanto se continua a praticar o mal e a desonestidade.
+
+“Comparando a fase de desenvolvimento harmonioso com a situação atual, sinto que estamos sendo muito influenciados por espíritos malignos. Seria um sinal de que as impurezas estão aflorando devido à purificação? Estaríamos um passo antes da purificação?”
+
+Estamos sendo purificados, justamente por meio dos espíritos malignos. O crescimento rápido de antes foi como o florescer de uma flor. Agora não será mais assim, pois estamos na fase de frutificação. Avançaremos de forma sólida e constante. Os desígnios de Deus são profundos. Como digo com frequência, e escreverei em um próximo artigo, são os médicos que estão fazendo a Igreja Messiânica crescer. É porque a medicina está errada que nós progredimos. Se a medicina estivesse certa, ninguém viria até nós. É o erro da medicina que impulsiona o nosso desenvolvimento.
+
+“Li no jornal que importaram cinco milhões e quinhentos mil dólares em algum tipo de ‘micina’.”
+
+Ótimo. Mas esse medicamento não é tão terrível, pois é derivado de um fungo.
+
+“Dizem que é mais problemático que a penicilina.”
+
+A penicilina é um fungo puro. Esse deve ser um derivado modificado, não de origem mineral.
+
+“Um membro de Taisha, durante o incidente da perseguição religiosa, ficou indignado e jogou seu Ohikari no mar. Mais tarde, ao ir para a montanha, encontrou-o lá, intacto e desdobrado. Mesmo após dois ou três meses, não estava rasgado.”
+
+É algo completamente diferente.
+
+No relato de graças de ontem, havia o caso de uma pessoa cuja família inteira, exceto ela, era contra a fé e insistia para que ela procurasse um médico e fizesse uma cirurgia. O abscesso, no entanto, não amolecia de jeito nenhum. Ela se recusou a ir ao médico. Colou um pedaço de papel com a caligrafia sagrada sobre o local e, na manhã do terceiro dia, ao retirá-lo, uma grande quantidade de pus jorrou, e ela se curou. Vou publicar isso no jornal “Eiko”. Outros papéis, ao entrarem em contato com o pus, se desfazem, mas aquele papel sagrado permaneceu intacto. Ela então tentou queimar o material contaminado. Queimou-o duas ou três vezes, mas o papel sagrado não se consumiu. Ela concluiu que Deus lhe mostrou isso por causa de sua fé vacilante e, a partir de então, se dedicaria de corpo e alma. Seu relato era um pedido de desculpas, e ela enfatizou muito o fato de o papel não ter queimado.
+
+Antigamente, uma senhora foi a um passeio e, ao passar de uma barca para o navio, caiu na água e afundou. Logo depois, emergiu e foi resgatada. Completamente encharcada, começou a tirar as roupas molhadas e percebeu que o pacotinho de oferendas que carregava estava seco. Foi isso que a salvou. Se não tivéssemos esse poder, não poderíamos curar doenças.
+
+“Uma pessoa ingressou na fé há cerca de três anos e recebeu muitas graças, mas depois se afastou. Recentemente, adoeceu, e um sacerdote da Mitake-kyo e um praticante do Budismo de Nitiren a visitaram. Disseram que ela estava mal por usar ‘aquilo’ e a fizeram retirar o Ohikari. Ao jogá-lo no fogo, no exato instante em que ele terminou de queimar, ela deu o último suspiro.”
+
+Essa pessoa tinha um nível espiritual muito baixo. Para começar, dar ouvidos a um sacerdote da Mitake-kyo já é um grande problema.
+
+“Quando o Ohikari de uma pessoa falecida é trazido para a igreja...”
+
+Deve-se respeitar o desejo do falecido. Se não houver um desejo específico, a família pode embrulhá-lo em papel e guardá-lo em um lugar digno.
+
+“A pessoa havia abandonado a fé.”
+
+Nesse caso, traga-o para a igreja e guarde-o. No futuro, os descendentes virão se desculpar, então é bom mantê-lo guardado.
+
+“Um membro, por acidente, deixou o Ohikari cair no vaso sanitário, talvez porque o cordão arrebentou ou porque estava sem a bolsinha. O que deve ser feito?”
+
+Não há o que fazer. Obviamente, deve-se obter um novo.
+
+“Para queimá-lo, em vez de fazer no jardim, o que seria um desperdício, posso usar um braseiro?”
+
+Não, de forma alguma. O jardim, por mais simples que seja, está acima do banheiro.
+
+“Meu marido guardava o Ohikari no bolso da camisa. A esposa, sem saber, lavou a roupa com ele dentro. Quando percebeu, trouxe-o para mim, pedindo desculpas. Tentamos secá-lo, mas ele não seca. Já faz mais de seis meses, e ainda está úmido.”
+
+É preciso pedir perdão sinceramente. A atitude dessa pessoa está errada, e isso foi um aviso. O correto é usar o Ohikari pendurado no pescoço, por baixo da roupa. Guardá-lo no bolso revela uma atitude negligente. É preciso pedir perdão e colocá-lo diante do Altar. Tratá-lo como um objeto qualquer demonstra falta de consideração.
+
+“Ao abrir um Johrei Center, seria apropriado fazer anúncios para divulgá-lo?”
+
+Anúncios são desnecessários. Quem traz os novos membros são os próprios membros. As pessoas que se tornam membros vêm até nós. Elas são trazidas por Deus ou pelos seus antepassados. Portanto, quem deve vir, virá, mesmo sem ver um anúncio. Esse tipo de divulgação, na verdade, é uma profanação a Deus. É o mesmo método usado para anunciar a abertura de um consultório de massagem ou de odontologia. É um exemplo extremo, mas um membro da Konkokyo, que era radicalmente contra anúncios ou qualquer tipo de propaganda, dizia: “Deus os trará”. Por dois anos, ninguém apareceu. Então, veio uma pessoa, depois outras, e o local prosperou imensamente. Embora seja um extremo, acho interessante do ponto de vista da confiança em Deus.
+
+Por isso, não tenho a menor intenção de fazer propaganda em jornais ou proselitismo religioso. A única razão pela qual publico textos como “A Nova Violência” é porque muitas pessoas sofrem com torturas e maus-tratos devido a equívocos generalizados. Quando publiquei o “Diálogos sobre a Fé” pela primeira vez, anunciei no jornal para testar a repercussão. Em breve, faremos o mesmo com o livro sobre a tuberculose, mas o objetivo é salvar as pessoas que sofrem com essa doença, pois a situação é muito grave. O título será algo como “O Tratamento Revolucionário da Tuberculose” ou “O Tratamento Religioso da Tuberculose”.
+
+Os membros se curam, divulgam a Obra e trazem outras pessoas. Estas, por sua vez, trazem mais gente. Esse é o método mais sólido e eficaz. Embora invisível aos olhos humanos, Deus sabe de tudo. A ordem de quem será salvo já está definida no Mundo Espiritual. Portanto, se não for a hora de uma pessoa, ela não ingressará na fé, mesmo que a convidemos.
+
+“Às vezes pensamos que, se uma pessoa importante entrar, a difusão se expandirá, mas não é o que acontece.”
+
+Não funciona assim. A Tenrikyo tem um ditado: “eruditos e ricos, para o final da fila”. E há um fundo de verdade nisso. Em breve, teremos muitos membros intelectuais, mas há um tempo para tudo. Os intelectuais se guiam apenas pela lógica. No entanto, quando a purificação se intensificar, a lógica não será mais suficiente, pois os problemas se tornarão reais e concretos.
+
+Até agora, quando um médico aplica uma injeção, geralmente há uma melhora temporária. Em breve, porém, muitos morrerão logo após recebê-la. Os próprios médicos ficarão com medo de aplicar seus tratamentos e começarão a procurar desesperadamente por uma alternativa. Será fácil. Para que isso aconteça, no entanto, nossa organização e preparação precisam estar completas. Se muitas pessoas quisessem ser salvas agora, não teríamos capacidade para atendê-las. Por isso, eu mesmo sou discreto. Se eu me declarasse abertamente o Messias, o Cristo, pessoas do mundo todo viriam, e eu não conseguiria mais trabalhar, nem escrever “A Criação da Civilização”. Deus está conduzindo tudo da maneira mais apropriada. Ele me informa o que acontecerá em seguida, e eu sei de tudo. Deus age com perfeição. Em breve, escreverei um artigo de alcance mundial e direi: “Eu não sou o Messias. Contudo, observem minha obra, os resultados práticos de salvar o mundo, que são exclusivos de um Messias. Se, com base nisso, quiserem me considerar o Messias, que assim seja”. Se eu realizar a obra de um Messias, poderei ser chamado assim. Não adianta nada ficar dizendo desde o início: “Eu sou isso, eu sou aquilo”. É o que chamam de *wako-dojin*, ocultar a própria luz para se misturar ao mundo. Que expressão sábia. Estamos nos aproximando. A partir do próximo ano, acontecerão coisas notáveis.
+
+“Ultimamente, quando as pessoas adoecem e vão ao médico, se elas mencionam a possibilidade de procurar a Igreja Messiânica, os médicos não se opõem e até incentivam. Antes, opunham-se ferrenhamente, mas agora, quando não conseguem resolver o caso, dizem que não há problema.”
+
+Sim. As pessoas gastam muito dinheiro durante muito tempo sem obter a cura. Quando perguntam ao médico o que fazer, ele, sem ter para onde correr, usa a Igreja como uma válvula de escape para se isentar da responsabilidade. Mas também existem médicos conscienciosos, que realmente desejam ajudar. Aos poucos, mais pessoas no mundo compreenderão a verdade, e a atmosfera mudará.
+
+Outro ponto importante: com a perseguição que sofremos no ano passado, qualquer outra organização teria sido destruída. No entanto, continuamos firmes, inabaláveis. Isso faz com que as pessoas pensem: “Não se pode subestimar essa organização. Deve ter um valor considerável, uma certa autoridade”. Muitos estão reavaliando sua opinião sobre nós. A história mostra que a maioria das novas religiões, após ataques tão severos da justiça e da imprensa, ou se desfaz ou leva anos para se recuperar. Nós, contudo, não nos abalamos; pelo contrário, mostramos sinais de crescimento. Isso os faz repensar. Por isso, foi bom termos realizado o Culto do Outono no ano passado. Se tivéssemos nos recolhido ou demonstrado abatimento, as pessoas poderiam pensar que havia algo de errado conosco. Agindo com naturalidade, mostramos que não há nada a temer, o que é a pura verdade.
+
+“O fato de um Johrei Center mudar de endereço constantemente significa que a purificação é insuficiente?”
+
+Pelo contrário, é ótimo. Quanto mais mudar, melhor. Se há a necessidade de mudança, que assim seja. A própria Sede mudou bastante e continuará mudando.
+
+“Alguns dizem que isso acontece por causa de muitas nuvens espirituais, o que impede a estabilidade.”
+
+Exato. A mudança ocorre para eliminar as nuvens. Ninguém está livre delas.
+
+“A mudança seria na pessoa que pratica a fé?”
+
+Tanto em quem pratica quanto em quem não pratica, no responsável, na casa, todos têm nuvens.
+
+“Mas a opinião pública considera isso algo negativo.”
+
+Não se importe. É Deus quem providencia as mudanças.
+
+Nosso jornal também mudou de nome várias vezes: primeiro “Hikari” (Luz), depois “Kyusei” (Salvação) e agora “Eiko” (Glória). Não há outra publicação com tantas mudanças de título. É obra de Deus, não há o que fazer. A razão é que nossa religião é totalmente diferente das anteriores. As outras, por pertencerem ao mundo da noite, duraram muito tempo. O que elas levaram mil anos para fazer, eu, ou melhor, Deus através de mim, pretendo realizar em cerca de dez.
+
+“Seria melhor manter a continuidade, sem mudanças?”
+
+O ideal é entregar tudo a Deus. Se a mudança vier com a condição favorável de “não se preocupe, tudo correrá bem”, então mude. É esse o significado de se entregar a Deus. Comigo, isso acontece com frequência. Quando encontro um obstáculo e sinto que devo seguir por outro caminho, entendo que é a vontade de Deus e mudo de rumo. Nesses momentos, o que parece um avanço lento, na verdade, é extremamente rápido.
+
+Atualmente, estou investindo em mineração e adquiri uma mina excelente. Cerca de três meses atrás, trouxeram-me uma pedra e disseram que a mina estava à venda. Eu disse: “Compre”. No dia seguinte, foram inspecioná-la e, convictos de que encontrariam minério, fecharam o negócio imediatamente. O trabalho está progredindo e, em breve, teremos os resultados. Quando as coisas têm que ser rápidas, são muito rápidas. Quando comprei o Kanzanso em Hakone, o proprietário era Aiichiro Fujiyama. Eu disse: “Assim que souberem o preço, me avisem”. Era cento e sessenta mil ienes. Mandei fechar o negócio na hora. Isso também é obra de Deus. Sendo assim, não se deve tentar definir ou controlar as coisas com o pensamento humano. É o que se chama de “mil transformações, liberdade irrestrita”. As ordens de Deus podem ser surpreendentes, coisas que nunca sonharíamos. E é assim que deve ser.
+
+Além disso, quando uma boa ideia não surge, não se deve forçar a ação. Significa que o tempo ainda não chegou. Por outro lado, quando uma boa ideia aparece, é um sinal de Deus para agir. Nesse ponto, há uma beleza sutil, difícil de expressar em palavras. Ora pareço lento, ora extremamente rápido; meu modo de agir é muito diferente do convencional. Sou muito rápido em meu trabalho, tenho inúmeras tarefas, mas não sou nem um pouco apressado. Há momentos em que ajo com muita calma. Portanto, seja para si mesmo ou para um núcleo, quando os planos não saem como o esperado, não se deve desanimar. É uma questão de tempo, um desígnio de Deus. Em outros momentos, o desenvolvimento é vertiginoso. E quando pensamos “aonde isso vai parar?”, de repente, tudo para. E está tudo bem. Comparando com um ou dois anos atrás, o progresso é imenso. Se, ainda assim, não há desenvolvimento, é porque se está fora do caminho, fora dos trilhos. É preciso orar a Deus para que Ele mostre o erro. Nos momentos de ócio, deve-se pensar: “Esta é uma oportunidade para ler os Escritos Sagrados”. É um ponto indescritível.
+
+[8 de outubro]
+
+Ontem, ouvi no rádio um debate sobre patriotismo. Falavam de um “novo patriotismo”, diferente daquele de antes da guerra, e discutiam como o patriotismo deveria ser. Tive vontade de fazê-los ler meu artigo “Sede um Cidadão do Mundo”. Falam em amor à pátria, quando o ideal seria o amor ao mundo.
+
+“A pessoa mencionada na consulta da manhã decidiu aprender o ascetismo da humildade trabalhando como gerente de hotel. Entrou em uma pousada em Izusan e, após um período de prática, acabou se envolvendo com uma mulher.”
+
+Não sei que tipo de prática foi essa. Foi a prática da queda. Ele foi reprovado.
+
+“Um jovem se apaixona ardentemente. Depois que a paixão esfria, ele se apaixona novamente. Isso é considerado um pecado?”
+
+Ele se casou na primeira vez?
+
+“Não, mas houve relação carnal.”
+
+Então ele usou a outra pessoa como um brinquedo. Isso não é um pecado? É uma conduta ultrajante. Usar o amor como divertimento é uma violação da Lei Celestial. O correto é amar com a intenção de casar, casar-se e ponto final. Qualquer outro tipo de amor é pecado. Não há como justificar isso, embora hoje em dia as pessoas criem desculpas engenhosas, escrevendo artigos e tudo mais.
+
+“Mas é possível gostar de alguém sem a intenção de casar.”
+
+Sim, acontece muito. Mas não se pode amar apenas por gostar. Na verdade, amar sem a intenção de casar é uma mentira. Não é amor verdadeiro. É algo passageiro, e a pessoa que o faz é um covarde que já sabe que a paixão vai esfriar. Ele está usando a mulher como um objeto. Na minha juventude, eu também era assim, mas nunca me envolvi em situações do tipo. Eu me perguntava: “Tenho a intenção de me casar com esta mulher ou não?”. Se não tinha, sabia que a faria infeliz, o que seria um pecado, e por isso me afastava. Naquela época, eu não conhecia nem a sombra da palavra “Deus”.
+
+“No caso de Meishu-Sama, isso não seria possível...”
+
+Claro, como Meishu-Sama, não. Mas mesmo quando eu era um jovem impetuoso de vinte e poucos anos, não conseguia fazer essas coisas. Deus não permitia. Sempre que surgia uma situação perigosa, algo acontecia para me impedir. Eu costumava pensar que tinha azar. Hoje, entendo que era Deus me protegendo.
+
+“Quando se está apaixonado, perde-se a razão e tudo parece maravilhoso.”
+
+Eu não perco a razão. O correto é não perdê-la. Quem perde a razão está, na verdade, sendo dominado por um espírito maligno. No mundo de até agora, os espíritos malignos usavam esse tipo de pessoa. De agora em diante, surgirão pessoas diferentes, pois os espíritos malignos estão enfraquecendo. Portanto, a mentalidade e as atitudes do passado não são mais aceitáveis. Nisso reside a excelência da Igreja Messiânica.
+
+“As mulheres podem ficar tranquilas se casarem com um membro da Igreja Messiânica, pois Meishu-Sama é sempre muito rigoroso nesse ponto.”
+
+Não é bem assim. Se for alguém que segue meus ensinamentos, sim. Mas é uma situação mais perigosa que o ascetismo da humildade. Deus nos testa. E quem não passa no teste é expulso. Não é a pessoa que decide sair; é Deus quem a expulsa. Ele tem poder absoluto e, se a pessoa não for má a ponto de ser eliminada, Ele simplesmente a impede de continuar.
+
+“A paralisia se manifesta no lado oposto do pescoço. E no caso das pernas?”
+
+Não afeta apenas as pernas. A mão e a perna direitas são afetadas juntas. Não ocorre de a mão direita e a perna esquerda serem paralisadas. O problema está na mão; se a mão está mal, a perna também estará.
+
+“E os tremores extremos na paralisia?”
+
+É um caso grave. Os tendões estão contraídos.
+
+“E quando apenas o pescoço treme constantemente?”
+
+Os tendões estão contraídos.
+
+“Não tem relação com paralisia?”
+
+Não. É uma rigidez no pescoço.
+
+“Algumas pessoas emolduraram a foto de Vossa Reverência no discurso de Hibiya. Como devem proceder?”
+
+Coloquem-na no lugar mais puro da casa.
+
+“Em um porta-retrato? Ou pode ser na viga sobre as portas corrediças?”
+
+Desde que não seja um lugar inadequado, tudo bem.
+
+“Na prateleira ornamental (*chigaidana*)?”
+
+Na prateleira ornamental, não.
+
+“Na viga?”
+
+Pendurada, certo? Nesse caso, pode.
+
+“Como devemos cumprimentá-la?”
+
+Apenas uma reverência é suficiente. Em caso de doença ou necessidade, pode-se fazer uma prece. No dia a dia, não é necessário tanto.
+
+“Ampliamos nosso oratório budista. Podemos dar o antigo, que é menor, a um membro que o queira?”
+
+Sim, pode. É um item que não tem mais uso para vocês.
+
+“Nas igrejas em geral, é permitido ministrar Johrei antes ou depois do culto mensal?”
+
+Sim, é permitido. O ideal é que seja depois. Não há problema em muitas pessoas virem para receber Johrei; apenas é melhor que seja depois do culto.
+
+Voltando à questão do amor, há um tempo para tudo. De agora em diante, Deus se tornará mais rigoroso. Muitas coisas que foram permitidas no passado não o serão mais. É preciso ter atenção.
+
+“Em uma casa de campo, o segundo andar é usado para a criação de bicho-da-seda. Como a vista de lá é boa, gostaríamos de reformá-lo para entronizar a Imagem Sagrada. Seria apropriado?”
+
+Perfeitamente apropriado.
+
+“Como devo arranjar o *tokonoma* (alcova)?”
+
+Faça-o de acordo com o estilo do cômodo.
+
+“Ele fica voltado para o sul.”
+
+A direção não importa. O importante é que seja o melhor lugar do cômodo, ou seja, o mais distante da entrada. E não deve ser um local de passagem para outros cômodos. Ao entrar na sala, pode ser na parede oposta ou em uma parede lateral.
+
+“Normalmente, o *tokonoma* é metade prateleira ornamental, metade alcova. A Imagem pode ficar no meio?”
+
+Sim, está correto. E, ao dividir o espaço, a prateleira ornamental fica mais perto da entrada, e a alcova, mais distante. A alcova fica na parte mais profunda. Assim, a posição de honra fica naturalmente definida.
+
+“Na minha casa é o contrário.”
+
+Existem muitos casos assim.
+
+“A alcova fica perto do corredor, e a prateleira ornamental, mais distante.”
+
+Não é o corredor, é a entrada. A alcova pode dar para um corredor, não há problema. É pela entrada que as pessoas entram e saem. Pelo corredor, não tanto. Portanto, deve ser o lado mais distante da entrada.
+
+“O fato de o local de entronização no andar de cima ficar sobre a entrada do andar de baixo tem alguma importância?”
+
+Não, o segundo andar é independente do primeiro. Basta se preocupar com a disposição do segundo andar.
+
+“Há dois meses, uma pessoa adoeceu. Consultou quatro médicos, mas nenhum descobriu a doença. Recebeu injeções. Ouviu falar do Johrei nas proximidades e, ao recebê-lo, sentiu um leve alívio. Sua filha ingressou na fé em 23 de agosto e lhe ministrava Johrei com dedicação. O responsável da igreja também o fazia, embora não diariamente. Houve uma melhora temporária, mas depois o abdômen inchou. Parentes contrários à fé trouxeram um médico, que disse que seria preciso drenar o líquido, mas não se responsabilizaria pela vida do paciente. Em 27 de setembro, a Imagem Sagrada foi entronizada. Naquela noite, a pessoa estava feliz, mas faleceu na tarde do dia 29. O médico se recusou a fornecer o atestado de óbito se a Imagem não fosse queimada. Com pesar, os parentes opositores a queimaram.”
+
+A entronização foi precipitada. Deve-se entronizar a Imagem Sagrada depois que a doença for curada. O responsável da igreja errou ao permitir a entronização sem saber se a pessoa se curaria ou não. Em princípio, entroniza-se a Imagem por gratidão pela cura, com o desejo de não mais adoecer e de ajudar outras pessoas. A ideia de que a entronização acelera a cura não é correta; é como tratar a Imagem Sagrada como um aparelho terapêutico. A entronização deve ser feita com prudência. Foi por isso que Deus permitiu que a queimassem. Quem a queimou agiu corretamente. Você pode até agradecê-los.
+
+“O atestado de óbito foi obtido sem problemas.”
+
+Então foi o melhor que poderia ter acontecido. É isso que ocorre. As pessoas pensam: “Ele até entronizou a Imagem e mesmo assim morreu. Deus não é confiável”. Isso abala a fé e, no fim, atrapalha a Obra Divina. Ocasionalmente, uma entronização precoce pode trazer graças, mas devemos pensar da seguinte forma: se a doença não apresenta risco de vida, pode-se entronizar mais cedo. Se há risco, jamais se deve apressar. Como já expliquei muitas vezes. É assim que funciona. Portanto, em caso de doença grave, entroniza-se quando a pessoa estiver curada e fora de perigo. Dessa forma, até os parentes concordam e não se opõem. Se, mesmo assim, se opuserem, o mal está com eles, e Deus os punirá devidamente.
+
+“Havia uma família com uma péssima relação entre pais e filhos. Falei-lhes sobre a salvação, e eles entronizaram a Imagem Sagrada. Depois disso, não vieram mais em peregrinação, e o filho rasgou a Imagem. Isso foi há cerca de três anos.”
+
+O pai é membro?
+
+“Sim.”
+
+Por que ele entrou para a fé?
+
+“A família não se dava bem, e eu sugeri a fé para resolver o problema. Depois que o filho cometeu o ato de vandalismo, sugeri que entronizassem uma nova Imagem. Ele disse que queria, mas como a situação em casa não se resolvia, eu mesmo a consagrei em meu lar. Devo esperar que eles me procurem?”
+
+Com certeza. Desde o início, a entronização foi forçada. Como eu disse, usaram Deus como uma ferramenta para reconciliação. Se a pessoa tivesse ingressado na fé, lido os Escritos, compreendido a grandiosidade da religião e pedido sinceramente para entronizar a Imagem, seria diferente. Mas fazer com que alguém a entronize sem um entendimento real, quase por imposição, é uma falta de respeito para com Deus. É quando a pessoa sente uma profunda gratidão e o desejo ardente de venerar esse Deus que a entronização se torna significativa, e Deus se sente... como um ser humano, satisfeito. Nós também preferimos ir a um lugar onde somos desejados, onde pedem sinceramente nossa ajuda. Ir a um lugar sem esse sentimento, como um vendedor insistente, não gera um acolhimento sincero. E, sem sinceridade, a Luz não se manifesta com força. Quando uma pessoa entroniza a Imagem e a reverencia com verdadeira devoção, a Luz se intensifica. Por isso, quando toda a família se une para entronizá-la no lugar mais puro da casa, a Luz é diferente. Tratá-la de forma inferior, morando em um andar acima dela, por exemplo, impede que a Luz se manifeste. É assim que funciona.
+
+“Uma pessoa adoeceu e, ao consultar alguém, foi-lhe dito: ‘Há uma imagem de Kannon (観音) guardada em algum lugar. Se você a encontrar, sua dor de cabeça será curada’. Ela procurou no ‘ama’...”
+
+O que é “ama”?
+
+“Em casas de fazenda, é o sótão onde se guarda lenha. Ela encontrou a imagem e, desde que a entronizou como objeto de adoração, entrou em estado de possessão. Ela diz ‘Namu Kanzeon Bossatsu’ e esfrega a área doente com um rosário até doer, afirmando que a doença só se cura se o pus for expelido. Essa prática se tornou popular.”
+
+Essa Kannon parece um pouco suspeita. Esfregar com a mão para extrair o pus é algo que qualquer um pode fazer, com ou sem a ajuda de uma divindade. Se esfregar até doer, o pus sairá.
+
+“O irmão de um membro ficou com uma doença mental há dois anos. Continuamos ministrando Johrei, mas, com uma grande purificação, ele ficou acamado, sem conseguir falar direito, apenas rindo. Como não havia progresso, recorremos a essa pessoa. Ela disse: ‘Em dez dias ele estará falando, e em vinte, andando’. Esfregou o ombro esquerdo dele com força para extrair o pus. No décimo dia, ele falou, mas logo voltou ao estado anterior. No vigésimo, não andou. Que tipo de entidade é essa que se diz Kannon?”
+
+É uma falsa Kannon. É uma raposa disfarçada.
+
+“Mas um parente nosso melhorou com ela.”
+
+Casos leves melhoram. O que está ao alcance do poder da raposa, ela cura. Por isso, prospera. Mas contra espíritos superiores ou oponentes mais fortes, ela não tem poder.
+
+“A pessoa gostaria de receber Johrei novamente.”
+
+Pode ministrar.
+
+“Parece que há muitas pessoas com essa predisposição mediúnica no Japão, mas não há médiuns excepcionais, dignos de serem apresentados no exterior.”
+
+Não é bem assim. Existem, mas no exterior, o fenômeno é estudado de forma acadêmica, científica, o que lhe confere um ar de seriedade. No Japão, a ambição toma conta rapidamente, e surgem figuras como Jiko-son e as religiões dançantes, e tudo se perde. A culpa é da sociedade japonesa, da baixa qualidade espiritual do povo. As pessoas se encantam com pequenos milagres e são facilmente enganadas por raposas. No exterior, o nível educacional é mais científico, e as pessoas não acreditam em nada que não seja preciso, o que leva a uma abordagem mais acadêmica.
+
+“Se o *tokonoma* (alcova) da casa for invertido, posso pendurar outras caligrafias que não sejam a Imagem Sagrada?”
+
+Não há problema.
+
+“Posso pendurar uma foto de Meishu-Sama na viga mais ao fundo, em vez de na alcova?”
+
+Sim, pode.
+
+O *tokonoma* invertido, que serve de passagem, deve ser corrigido. Mude-o para uma parede lateral ou para a parede do fundo. Um *tokonoma* de passagem é sempre ruim. É possível consertá-lo.
+
+“Uma membro chamada Ueda, muito devota, teve um filho com a doença de Little, semelhante à paralisia infantil. Ele não enxergava nem falava. Cerca de um mês antes de falecer, vários espíritos de antepassados se manifestaram, dizendo: ‘Daqui a um mês, vamos levá-lo para o Mundo Espiritual para salvá-lo. Com isso, o casal também ficará bem’. Depois, seu filho mais velho, de dezessete anos, que usa o Ohikari, gostava de ir a uma igreja cristã para cantar hinos. Em agosto, o espírito da esposa se manifestou, dizendo: ‘Este rapaz tem uma missão no Mundo Espiritual. Não é uma expiação, mas vamos levá-lo’. A partir de então, o filho adoeceu. Fiz a avaliação espiritual, e um espírito se manifestou com grande reverência, dizendo: ‘Sou um deus subordinado aos Oito Grandes Reis Dragões e às Três Deusas. É imprescindível que ele cumpra uma missão de salvação da humanidade no Mundo Espiritual. Com isso, seu pai compreenderá e ingressará na fé. E ele também será usado na Terra. Não é uma purificação; vamos levá-lo para o Mundo Espiritual, e o pai entenderá imediatamente’. Quando perguntei sobre a data do falecimento, ele respondeu: ‘Hoje’. Mesmo que eu volte após consultar Meishu-Sama, não chegarei a tempo. Isso é verdade?”
+
+Sim, deve ser verdade.
+
+“Perguntei se o aviso prévio da morte não seria para causar sofrimento, como uma forma de purificação. Ele respondeu: ‘Não é purificação. Como a fé dela é profunda, avisamos da morte para que ela se prepare’.”
+
+Assim, ela não se entregará ao desespero.
+
+“Ela diz: ‘Seja como for, o importante é ser salvo por Deus. Sou grata. Fora isso, não penso em mais nada’.”
+
+É uma atitude excelente. Dependendo do carma da família, há pessoas que precisam passar por isso. Nesses casos, não há o que fazer, pois já está determinado. Não é um espírito maligno, é verdadeiro. Há muitos significados espirituais profundos. Cada pessoa é diferente. Aqueles escolhidos por Deus não são como as pessoas comuns. Pessoas assim, cujo protagonista tem uma missão muito importante, mas cuja linhagem espiritual carrega um grande pecado... Embora digam que não é uma expiação, em um sentido amplo, é. Mesmo que não seja, o pai, após perder dois filhos, finalmente ingressará na fé. E para que ele possa cumprir sua verdadeira missão, pecados de três mil anos atrás, dos quais ele nem tem conhecimento, precisam ser eliminados. É por isso que essas coisas acontecem. Falamos de pecados e impurezas de três gerações, mas também existem os de três mil anos. É preciso purificar tudo.
+
+“Na audiência especial do dia cinco, Meishu-Sama disse que reencarnou muitas vezes e que, por isso, tem uma grande missão, mas também grandes pecados.”
+
+Isso mesmo.
+
+“Que tipo de pecados uma pessoa tão elevada como Meishu-Sama poderia ter?”
+
+Quando nasci como Yoshitsune, matei muitas pessoas. Deus é justo. Meus pecados são, na verdade, mais pesados que os de uma pessoa comum.
+
+“A mão esquerda de uma estátua de Kannon (観音) está quebrada. O que devo fazer?”
+
+Isso não é bom. Conserte-a o mais rápido possível. Depois de restaurada, você deve entronizá-la em sua casa.
+
+“Onde devo colocá-la?”
+
+À direita da Imagem da Komyô Nyorai-Sama, de quem olha para a alcova.
+
+“Eu já tenho uma imagem de Daikoku-Sama.”
+
+Coloque Daikoku à esquerda.
+
+“O oratório também está quebrado.”
+
+Então conserte o oratório também. Uma simples restauração é suficiente.
+
+“Um membro, no momento de ingressar na fé, adquiriu de forma misteriosa três estátuas de Kannon (観音): uma de bronze, uma de cerâmica e uma de coral. Como deve entronizá-las?”
+
+Coloque a maior atrás e as outras na frente, em ordem.
+
+“Posso colocá-las na alcova do andar de baixo?”
+
+Sim, pode. As três.
+
+“No segundo andar, tenho a Imagem da Dai-Komyô Nyorai-Sama, e no de baixo, a da Komyô Nyorai-Sama.”
+
+O ideal seria junto à Dai-Komyô Nyorai-Sama. Na verdade, não é muito apropriado colocar Daikoku na alcova; a prateleira ornamental seria melhor. Colocar Daikoku e Kannon lado a lado também não é bom, pois, em termos de hierarquia, Daikoku está muito abaixo. Colocá-los no mesmo nível de um servo não é correto. Como é o segundo andar?
+
+“É um armário embutido.”
+
+Há um cômodo anexo?
+
+“Sim, mas não tem alcova.”
+
+Qual o tamanho de Daikoku?
+
+“Cerca de um *shaku*.”
+
+Tem um pedestal?
+
+“Tem uma tábua fina.”
+
+E as Kannon?
+
+“Não têm.”
+
+Então, mande fazer um pedestal para as Kannon. Um retangular.
+
+“Para as três?”
+
+Sim. Assim, as hierarquias ficam distintas, o que é bom. Na mesma altura, pareceria que estão no mesmo nível, o que é inadequado. Você encontrará pedestais à venda se procurar. Deixe Daikoku diretamente sobre a superfície. Pode colocar uma almofada sob ele.
+
+“Tenho uma Kannon (観音) que recebeu a consagração no centro, Daikoku à direita e um arranjo de flores à esquerda.”
+
+No centro está bom, mas é preciso colocar um pedestal.
+
+“No caso anterior, como devo dispor as flores?”
+
+Coloque um arranjo baixo na frente de Kannon. Assim fica bom. Lado a lado não é adequado.
+
+“A de coral tem cerca de um *sun* e ficará escondida.”
+
+Então, afaste-a um pouco para que fique visível.
+
+“Ao fazer um arranjo grande, a Imagem Sagrada fica coberta. Há algum problema?”
+
+Não há problema.
+
+“Tenho uma Kannon (観音) de madeira sobre a prateleira ornamental. É inadequado?”
+
+Sim, é inadequado.
+
+“É uma peça chinesa de boa qualidade, mas tem uma rachadura na frente.”
+
+Se for muito visível, não é bom. Leve-a a um antiquário para consertar.
+
+“Devo pedir a consagração e entronizá-la diante do Altar?”
+
+Sim. Se for uma Kannon antiga, eu mesmo posso examiná-la e consertá-la. Tenho um especialista para isso.
+
+“Dentro do oratório budista, tenho uma imagem de Senju Kannon de madeira laqueada a ouro, uma de Dainichi Nyorai, uma de Amida e uma Kannon (観音) de um *sun* e oito *bu*. Posso deixá-las no oratório?”
+
+Sim, é excelente. Elas protegerão os espíritos dos antepassados. Coloque a Kannon de um *sun* e oito *bu* no centro, Dainichi Nyorai à direita e Amida à esquerda.
+
+“E a Senju Kannon?”
+
+Coloque-a na frente da Kannon biombo.
+
+“Posso pedir a consagração da Kannon (観音) e entronizá-la diante do Altar? Ou devo deixá-la no oratório budista?”
+
+Depende do tamanho. Se couber, pode deixá-la no oratório. Se já estava lá por tradição familiar, mantenha como está.
+
+“A entronização deve ser separada?”
+
+Pode ser junto com os antepassados. Você sabe como cultuá-los, certo? Não precisa mudar nada.
+
+“Se eu colocar Daikoku-Sama na prateleira ornamental, acima há um armário superior. Deixarei o armário vazio.”
+
+Não há problema. Daikoku é diferente.
+
+“Eu cultuava Fushimi Inari de forma muito devota. Há um ano, ingressei na fé e depois entronizei a Kannon biombo. Meu marido insistiu em devolver a imagem de Inari e o fez. Um mês depois, ele faleceu. Desde então, uma raposa tem se manifestado, dizendo que veio para extinguir a família, mas foi descoberta pela Luz, e agora age com violência.”
+
+Que terrível. Por que você não interveio? Está escrito em meus livros. Depois de entronizar a Imagem da Komyô Nyorai-Sama, deve-se manter a outra divindade por um ou dois anos e só então tomar uma providência.
+
+“Eu o avisei.”
+
+O procedimento foi equivocado. Agora, não há o que fazer. As raposas são irascíveis e muito rancorosas. Normalmente, espera-se cerca de três anos. Nesse tempo, elas enfraquecem e decidem ir embora por conta própria. Só então se deve removê-las. Caso contrário, elas se revoltam. Reinstale a imagem e peça perdão à raposa. Diga ao Inari: “Cometi uma grande falha. Por favor, perdoe-me. Fiz por ignorância”. Converse com ela para que entenda. “Entronizei a Imagem da Komyô Nyorai-Sama, como pode ver. Se quiser ficar, fique. Se não, pode partir quando desejar”. Fale de forma que ela se convença. E peça a Komyô Nyorai-Sama: “Por favor, proteja-me para que o Inari se converta”. Peça perdão à raposa e tente convencê-la, como expliquei. Se, mesmo assim, ela continuar violenta, a culpa será dela, e Komyô Nyorai-Sama a punirá severamente.
+
+“Tenho a Imagem da Komyô Nyorai-Sama no segundo andar e o Inari no de baixo.”
+
+Fushimi Inari é um dos melhores. Por um tempo, ele mostrará apego e causará alguns problemas, mas aos poucos se acalmará.
+
+“Vossa Reverência disse que seria bom ir ao santuário do deus protetor local para agradecer.”
+
+Não apenas para agradecer, mas também para pedir.
+
+“Nessa ocasião, ao recitar a oração, como devo finalizar?”
+
+“Ubusunagami, mamori tamae, sakihae tamae” (Deus Protetor Local, protegei-nos e abençoai-nos).
+
+“Para entronizar um deus dragão, devo pedir a Kunitokotachi-no-Mikoto?”
+
+Não entronize um deus dragão. Se já houver um na família, mantenha-o.
+
+“Ao fechar um poço, posso pedir a Kunitokotachi-no-Mikoto?”
+
+Sim, pode.
+
+“A esposa é muito dedicada à fé e traz a doação de gratidão escondida do marido. Há algum problema?”
+
+Não há problema algum. É uma atitude louvável. O marido é quem está errado. É como as autoridades me perseguindo. Elas estão erradas; eu estou certo.
+
+“Meu terreno tem o formato de uma batata-doce. Isso é ruim?”
+
+Formato de batata-doce? Como é?
+
+“Originalmente, era quadrado, mas uma enchente o levou em parte, e ficou comprido e fino.”
+
+Formato de Taiwan.
+
+“É o terreno.”
+
+Pensei que fosse a casa. O terreno pode ter o formato que for.
+
+“Uma casa triangular é ruim?”
+
+No interior, isso não deve existir. Em cidades como Tóquio, por falta de espaço, às vezes se constroem casas assim, mas no campo, provavelmente não.
+
+“Vossa Reverência nos ensinou a não balançar as mãos ao ministrar Johrei. Qual a distância ideal?”
+
+Normalmente, de um a dois *shaku*. Dependendo do caso, pode ser de cinco *shaku*. E, no método sem aplicação de força, pode ser bem perto. É totalmente flexível.
+
+“Um bebê ri enquanto dorme. Por quê?”
+
+Deve ser um sonho.
+
+“Bebês também sonham?”
+
+Sim, sonham.
+
+“É um sonho feliz?”
+
+Se ele está rindo, deve ser um sonho feliz.
+
+“Ao ministrar Johrei, é melhor esticar o braço?”
+
+Se esticar, aplicará força. É preciso dobrá-lo um pouco. A mão também não pode ficar tensa. Mantenha-a relaxada.
+
+“Vossa Reverência nos ensinou que, ao comer carne de animais, se orarmos para que eles reencarnem como seres humanos, acumulamos virtude. Isso realmente acontece?”
+
+Sim, mas a pessoa que ora precisa ter qualificação espiritual. Não é qualquer um que pode fazer isso. É uma permissão concedida por Deus com base nessa qualificação.
+
+“Eles já foram humanos em uma vida passada?”
+
+A maioria já foi. E, nesse caso, acabam sendo criados por descendentes de sua antiga linhagem.
+
+“O negócio da minha família é o abate de gado. Minha filha ingressou na fé. Meus pais não se opõem, mas não são membros. Gostaria de fazer uma cerimônia em memória dos bois. Como devo proceder?”
+
+Em termos de formalidade?
+
+“Isso.”
+
+Ao fazer a cerimônia, prepare uma tabuleta memorial de madeira branca ou algo semelhante e escreva “Espíritos dos Bois”. Coloque-a em um pedestal, um nível abaixo da Imagem da Komyô Nyorai-Sama. Ofereça alimentos e ore a Komyô Nyorai-Sama, explicando seu desejo de salvar os espíritos dos bois e pedindo Sua proteção. Coloque a tabuleta um pouco à esquerda de quem olha para a Imagem, recite as orações e a Salmodia. Eles ficarão felizes. Ore para que os humanos que renasceram como bois possam voltar a ser humanos. Existem tanto os humanos que se tornaram bois quanto os bois originais. Os primeiros são poucos. Mas mesmo os bois originais, ao serem abatidos, guardam ressentimento. E o acúmulo de ressentimento se torna um pecado, que lhes causa sofrimento. Fazendo isso, ambos serão salvos. É uma ótima ação.
+
+“Na casa de Meishu-Sama, não há animais de criação, nem mesmo pássaros.”
+
+Dão muito trabalho.
+
+“É comum as pessoas abandonarem ninhadas de cães e gatos. O que pensa a respeito?”
+
+Isso não é correto. É um pecado. Abandonar já é ruim, mas matar é pior. Torna-se um pecado. Mesmo ao abandonar, é preciso conversar com eles. “Gostaríamos de criá-los, mas não temos condições. Vou pedir a Deus para que encontrem um bom lar”. E então, ore a Komyô Nyorai-Sama: “Por tal e tal motivo, não podemos criá-los. Por favor, proteja-os para que encontrem um bom dono”. Assim, eles irão para um bom lugar.
+
+“Posso manter as velas, o incenso e o sino do oratório budista?”
+
+Sim, pode.
+
+“Quantos bastões de incenso devo acender?”
+
+Não há um número definido, mas três costuma ser o suficiente. Não há um significado especial. É uma oferenda de aroma para recriar a atmosfera da Terra Pura. Pode ser incenso em bastão ou em pó, como se usa em cerimônias fúnebres.
+
+“No caso dos bois, a família, que tem uma fazenda de gado, perdeu muitos animais e entronizou uma imagem escrita ‘Gozu Kanzeon’ (Kannon com cabeça de boi). Está correto?”
+
+Sim, está correto. Se existe “Bato Kanzeon” (com cabeça de cavalo), pode haver “Gozu Kanzeon”.
+
+“Ao ir orar no santuário do deus protetor local, encontrei uma grande cobra-rateira azul no meio do caminho. Pensei que, por ser uma cobra-rateira, deveria ter algum significado e recitei a oração ali mesmo. Depois, tive uma manifestação espiritual. Um espírito me informou que, perseguido por um espírito maligno, ele se refugiou no santuário e estava sofrendo, pedindo para ser cultuado com oferendas. Agora, cultuamos o deus protetor e o Dragão Azul. O que é o Dragão Azul?”
+
+É um antepassado, o deus protetor da sua família. As cobras-rateiras azuis são quase sempre antepassados. Os antepassados decaem para o estado de dragão. Portanto, deve ser tratado como um antepassado. Ofereça-lhe arroz cru, água e sal. É do que ele mais gosta. Ele está pedindo para ser cultuado separadamente, o que significa que é um grande ancestral, o mais imponente de todos.
+
+“Há uma montanha que pertence a um grupo de trinta pessoas. Nela, há um pequeno templo de Kannon (観音) e uma árvore de ginkgo de cerca de um *jo* e cinco *shaku*. Queremos cortá-la para usar a madeira na reforma do templo. O que Vossa Reverência acha?”
+
+Não façam isso. A árvore de ginkgo jamais deve ser cortada. Haverá uma maldição. Ela é diferente das outras árvores; sempre há um espírito habitando-a, e um espírito de alto nível.
+
+“Cortei uma árvore de cerca de dois *shaku* para fazer uma estátua de Yakushi Nyorai e a entronizei. Não aconteceu nada.”
+
+Que ato de violência. Qual era o diâmetro?
+
+“De sete ou oito *sun* a um *shaku*.”
+
+Você teve sorte por ter feito uma estátua de Buda. Do contrário, teria sido amaldiçoado. Quando foi isso?
+
+“Há uns três anos.”
+
+Se nada aconteceu, é porque o espírito consentiu.
+
+“Não se deve cortar as árvores de templos e santuários.”
+
+Não se deve, de forma alguma. É melhor cercá-las com uma corda sagrada para que ninguém se aproxime.
+
+“Tenho um pequeno santuário para Konjin no portão do demônio (*kimon*). Posso mantê-lo?”
+
+Sim, pode. Sendo o Konjin do portão do demônio, não há problema.
+
+---
+
+# Registro das Orientações Divinas, nº 19 (Ano 28 da Era Showa)
+
+**Categoria:** gosuiji | **Ano:** 昭和28(1953)年4月15日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
+
+## Registro das Orientações Divinas, nº 19 (Ano 28 da Era Showa)
+
+[1º de abril]
+
+A partir do dia catorze, a loja de departamentos Mitsukoshi promoverá uma exposição intitulada “Em Memória das Gerações Kenzan”. Recebi a visita de seus representantes, que me trouxeram um catálogo com o intuito de solicitar o empréstimo de algumas obras. Naturalmente, uma mostra dedicada às gerações Kenzan deve incluir artistas como Korin, Koetsu e Sotatsu. Embora seja possível reunir peças de diversas proveniências, meu acervo concentra um número expressivo de suas obras, o que facilita sobremaneira o trabalho dos curadores. Diante disso, solicitaram-me o empréstimo de mais de dez peças, e eu consenti.
+
+“A respeito daquela obra que saiu no jornal de Atami como Tesouro Cultural de Grande Importância, que peça era aquela?”
+
+Trata-se de uma obra de Gottan, um monge chinês da dinastia Song. Aliás, possuo diversas outras obras que poderiam receber tal designação. Uma delas é o biombo de Yojin Shinraku. Há também um pergaminho suspenso de Hotei, que, segundo me informaram, igualmente será designado como Tesouro. Contudo, os trâmites burocráticos são bastante morosos. Adicionalmente, dois pergaminhos de Iwasa Matabei também estão cotados para receber o título. Com o tempo, as obras de arte se tornam cada vez mais raras e, consequentemente, seus preços atingem patamares exorbitantes. Acabo de saber que um fragmento de cinquenta linhas do *Inga-kyo* foi colocado à venda. Conheço a peça e imagino que alcançará um valor astronômico.
+
+“Ontem tive a oportunidade de ver a reprodução do *Inga-kyo* feita pela Otsuka Kogeisha, e ela é de excelente fatura.”
+
+De fato, é uma reprodução primorosa. Certamente venderá muito bem, pois obras dessa natureza têm apelo internacional. A repercussão em torno da obra *Yuna* (湯女) também é imensa. No universo do *ukiyo-e*, as três obras-primas são o “Biombo de Hikone”, o “Biombo de Matsuura” e *Yuna*. E, entre essas três, diz-se que *Yuna* é a mais sublime, o que a torna uma peça de relevância mundial. Soube que sua fama já chegou aos Estados Unidos.
+
+“Quando a obra deverá retornar ao Japão?”
+
+A exposição lá dura o ano todo, então, na melhor das hipóteses, voltará no final do ano, mas o mais provável é que retorne na próxima primavera. O valor das obras de arte que possuo é incalculável. Desde o início, minha estratégia foi adquirir apenas peças de primeira categoria. Hoje, as obras da escola Rinpa, por exemplo, atingiram valores extraordinários. Como não se pode mais produzir algo semelhante, uma vez que uma peça é adquirida por uma coleção, torna-se inacessível. O apreço pela arte tornou-se um fenômeno global. A recente exposição de *ukiyo-e* reuniu exemplares magníficos. Prevejo que as grandes obras desse gênero também alcançarão valores notáveis. Curiosamente, as pinturas originais de *ukiyo-e*, conhecidas como *nikuhitsu*, eram mais baratas que as gravuras, o que é um contrassenso. Percebendo isso, concentrei-me em adquirir as pinturas enquanto seus preços ainda eram acessíveis. Agora, no entanto, seu valor já aumentou consideravelmente.
+
+Isso é obra de Deus; é verdadeiramente misterioso. Recentemente, começaram a chegar até mim peças do Egito, da Grécia e da Pérsia, e a preços surpreendentemente baixos. Acredito, porém, que seu valor aumentará com o tempo. Afinal, estamos falando de esculturas com três mil anos, muito mais antigas que as obras japonesas dos períodos Tenpyo e Nara.
+
+“Quando essas peças teriam chegado ao Japão?”
+
+Não sei ao certo, mas provavelmente foram trazidas na Era Meiji por japoneses que, ao viajarem para o exterior, as adquiriram por sua raridade. Não devem ter existido no Japão durante o período Tokugawa. É provável que, após a Restauração Meiji, viajantes as tenham importado. O Egito, por sua vez, proibiu estritamente a exportação de tais artefatos, então não é mais possível adquiri-los. Muitas dessas peças foram descobertas em tumbas egípcias, escavadas ao longo do tempo. São objetos com mais de três mil anos, pertences amados que eram enterrados com seus donos. Da mesma forma, na China, o governo comunista começou no ano passado a escavar tumbas em busca de metais preciosos para reforçar suas finanças. No Egito, as tumbas dos faraós dentro das pirâmides também guardam tesouros de qualidade excepcional, incluindo cerâmicas de uma beleza notável, que pretendo expor em nosso museu.
+
+Temos também um vaso grego com mais de dois mil anos. Nela, há o desenho de uma mulher nua dançando. Pelo visto, já existiam *strippers* naquela época – quem pensa que é uma invenção moderna está redondamente enganado. O desenho é muito bem executado. Sobre um fundo preto, a figura dançante em cor de pele parece tão vívida que poderia ter sido pintada hoje. Seria interessante usar uma fotografia dessa imagem em alguma publicação, com o título “Uma *stripper* de dois mil anos atrás”.
+
+Há dois ou três meses, adquiri uma Tríade de Amida em pedra, da dinastia chinesa das Seis Dinastias, de aproximadamente mil e quinhentos anos. A peça tornou-se objeto de debate acadêmico e, após investigações, os especialistas a classificaram como uma obra de altíssimo nível, não apenas no Japão, mas uma peça de primeira categoria em escala mundial. Eles se propuseram a escrever um livro inteiro dedicado à sua pesquisa e me pediram para publicá-lo. Respondi-lhes, em tom de brincadeira, que não tinha interesse em ler tais coisas. Mas, de fato, é uma obra magnífica.
+
+Outra peça que será exposta no museu é um livro sagrado persa, escrito em pele de carneiro com letras persas em ouro. A caligrafia é tão perfeita que parece impressa. São dezenas de páginas de uma beleza ímpar. É um objeto fascinante; imagino que sua tradução revelaria um conteúdo muito significativo. Ele veio acondicionado em um estojo esplêndido, ricamente esculpido e com incrustações de ouro.
+
+A partir de hoje, está em cartaz no Parque Ueno a exposição da Kofukai, a mais antiga associação de pintura a óleo do Japão. Pediram-me algumas peças como referência, e emprestei três: uma escultura em pedra de um arqueiro e o vaso grego. São obras excelentes. O vaso tem desenhos de animais que parecem ter sido feitos hoje, de tão modernos. Esteticamente, é uma peça impecável, com cerca de dois mil e tantos anos.
+
+“O Museu de Arte Bridgestone está expondo as obras que o Sr. Matsukata trouxe da França. Disseram-me que seria muito bom se o Senhor pudesse visitá-la.”
+
+Com certeza irei. Contudo, deve ser apenas uma parte da coleção. A maior parte ainda está retida pelo governo francês e deve chegar mais tarde. O que veio agora é apenas uma fração do acervo. Soube que o preço das pinturas a óleo mais antigas, do pós-impressionismo, é algo assombroso.
+
+“Ouvi falar em valores como sete milhões e meio de ienes.”
+
+Isso é o mais barato, quase de graça. Nos Estados Unidos, obras semelhantes custam entre trinta e quarenta milhões de ienes e são vendidas rapidamente. Peças de dez milhões são comuns. E, de fato, seu valor é justificável. Recentemente, visitei o Museu de Arte Moderna em Kyobashi, que também tem obras emprestadas da coleção Bridgestone. Vi um retrato de Cézanne que é simplesmente magistral. Diante daquilo, a pintura ocidental feita no Japão parece trabalho de criança. Cézanne, Gauguin e os pós-impressionistas eram de uma habilidade extraordinária. Contudo, por mais habilidosos que sejam, sua arte provém de Korin. Seus estilos derivam de Sharaku e Utamaro, cuja origem remonta a Korin. Portanto, se uma pintura daquelas vale trinta milhões, uma obra de Korin, futuramente, valerá de cinquenta a sessenta milhões. E, de fato, a arte de Korin é superior.
+
+A exposição “Em Memória das Gerações Kenzan” na Mitsukoshi, a propósito, foi organizada por um motivo especial. O ceramista britânico Bernard Leach, um profundo admirador de Kenzan, expressou o desejo de ver essas obras, e o evento foi criado para atendê-lo. Soube que Leach trouxe várias de suas próprias criações, e todas foram vendidas. A cerâmica de Kenzan é o objeto de sua veneração. Emprestei cinco ou seis peças de Kenzan do meu acervo para a mostra. No fundo, o trabalho de Leach é uma emulação de Kenzan. Isso demonstra como a arte japonesa está sendo gradualmente compreendida pelo mundo. Reuni recentemente um número considerável de pinturas originais de *ukiyo-e*, e sua qualidade é sublime. Diante delas, qualquer pintura ocidental empalidece. Hokusai também tem obras magistrais. Pretendo expô-las no museu oportunamente; são verdadeiramente esplêndidas. Iwasa Matabei e Miyagawa Choshun também produziram obras de uma beleza rara. Por enquanto, seus preços ainda são modestos, mas, quando forem reconhecidas mundialmente, tornar-se-ão valiosíssimas. Após a guerra, devido a impostos sobre o patrimônio e outras questões, muitas peças foram vendidas a preços baixos. Hoje, valem de dez a vinte vezes mais.
+
+Do ponto de vista financeiro, demonstrei ter um talento considerável. Contudo, jamais adquiri essas peças com a intenção de lucrar. Meu único critério sempre foi reunir o que há de melhor, as obras-primas, e essa abordagem se provou acertada. Obras de terceira ou quarta categoria não se valorizam tanto; pelo contrário, podem até ter se desvalorizado. Já as peças únicas, de qualidade suprema, continuam a subir de preço. Mesmo no caso de fragmentos de caligrafia, um campo que desconheço por completo, fiz boas escolhas. Minha avaliação era puramente estética; a qualidade da montagem me atraía, sem me importar com o poema em si. No entanto, com o tempo, percebi que uma montagem de excelência geralmente acompanha uma caligrafia de igual valor. Afinal, um bom poema merece uma boa apresentação. Assim, nunca fiz um mau negócio. Minha predileção sempre foi por obras de Korin, Kenzan e Ninsei, e foram essas que busquei adquirir. Coincidentemente, são as mais apreciadas pelo público.
+
+Outro item interessante são as mandalas. Geralmente, apresentam-se em pares de pergaminhos, representando o Mundo do Diamante e o Mundo do Ventre. Estes correspondem ao Sol e à Lua, respectivamente: o Mundo do Diamante é o Sol, e o Mundo do Ventre é a Lua. No Museu de Hakone, temos uma mandala primorosamente confeccionada em ouro. As mais antigas datam dos períodos Fujiwara e início do Kamakura. Observando-as, nota-se a minúcia dos detalhes. Há cinco ou seis anos, um pergaminho desses, dos mais caros, custaria entre sessenta e setenta mil ienes. Hoje, uma peça de qualidade inferior, do período Ashikaga, chega a valer quinhentos mil.
+
+A conversa tomou o rumo de um antiquário. Creio que não sairá daqui nenhum ensinamento sobre a fé, então encerremos este assunto por aqui. Podem fazer suas perguntas.
+
+“Já houve alguma repercussão sobre os livros *Salvando a América* e *Terapêutica da Fé para a Tuberculose*?”
+
+“O jornal Asahi de hoje, na seção de artes e cultura, publicou um artigo intitulado ‘A Sociedade Vista pela Neurologia’. O autor afirma: ‘Eles criticam a medicina com uma teoria infantil e risível que chamam de *yakudoku*. Não podemos ignorar isso’. E acrescenta: ‘Contudo, o fato de lhes termos dado voz é algo que a própria medicina precisa ponderar’.”
+
+Não importa o que digam, desde que o assunto se torne um debate. Se houver debate, surgirá o interesse em investigar e, ao final, a verdade será compreendida. O artigo teve destaque?
+
+“Sim, teve bastante destaque. Além disso, o Conselho de Investigação sobre Superstições do Ministério da Educação realizou uma pesquisa com quatro mil pessoas, perguntando se, em caso de doença, recorriam à fé para se curar. Dois por cento responderam que não procuram médicos. O artigo menciona que essa questão também precisa ser analisada.”
+
+“Estou acompanhando as vendas do livro *Terapêutica da Fé para a Tuberculose* nas livrarias. Embora nossos esforços estejam concentrados em *Salvando a América*, e os dados ainda não sejam conclusivos, os livreiros afirmam que as pessoas estão comprando o livro após lerem o título, o que é um bom sinal. Acredito que, se continuarmos nesse ritmo, o tema se tornará um grande debate.”
+
+Certamente, o livro sobre a tuberculose venderá muito mais em número de exemplares.
+
+“O problema é que os distribuidores tentam impor o livro às livrarias, e estas relutam em aceitá-lo. Os motivos são a credibilidade da Kyuseikyo, a resistência geral a livros religiosos e o fato de o conteúdo ser considerado muito excêntrico. Precisamos encontrar uma forma de esclarecer os livreiros a esse respeito.”
+
+Está ótimo. De qualquer forma, quando lerem os relatos de graças, ficarão sem palavras. São fatos, e contra fatos não há argumentos. Como venho dizendo há muito tempo, o confronto com a medicina é inevitável. Não há como evitar que isso se torne uma grande questão.
+
+“No caso de *Salvando a América*, por mais que insistíssemos, as livrarias não aceitavam os exemplares. Já com *Terapêutica da Fé para a Tuberculose*, eles aceitaram sem que precisássemos pedir. As duas livrarias de minha região pegaram o livro.”
+
+Entendo. Por isso eles publicam esse tipo de justificativa. Em breve, será o governo que ficará em apuros. O fato de uma nova religião causar tanto impacto demonstra as falhas da medicina. Não há outra explicação. Eles serão forçados a refletir. A questão será: o que fazer? É por isso que, ultimamente, eles têm investido tanto na propaganda de medicamentos.
+
+“No entanto, ao observar os anúncios recentes de remédios, vejo que muitos deles corroboram o que dizemos. Há alguns dias, um anúncio de um remédio para asma afirmava que a medicina moderna não conhece a causa da doença e que o medicamento foi desenvolvido com foco em simplesmente suprimir as crises.”
+
+Ontem ou anteontem, um jornal noticiou a descoberta de um tratamento para a asma. Segundo eles, a causa é o acúmulo de catarro na garganta, e teriam descoberto um remédio para evitar essa formação. De qualquer modo, o fato de o assunto vir à tona e se tornar conhecido do público é o mais importante. O artigo do Asahi, ao levantar a questão, funciona melhor que qualquer propaganda. É Deus quem está conduzindo tudo da melhor forma.
+
+“Muitos jornalistas do Asahi têm lido nossos livros, então creio que estão achando o tema interessante.”
+
+Para o Mundo dos Espíritos Malignos, representamos uma ameaça formidável. Eles enganaram a todos por completo e, no momento crucial em que estavam prestes a atingir seu objetivo, a verdade emergiu, o que para eles é um desastre. Eles conseguiram enfraquecer a população das nações civilizadas a este ponto... Os povos europeus, por exemplo, estão quase todos debilitados. Se a União Soviética iniciasse uma guerra, a Europa não ofereceria resistência. Apenas os Estados Unidos ainda não se enfraqueceram a tal ponto, e por isso são um obstáculo. A habilidade com que usaram o veneno chamado remédio, fazendo com que as pessoas confiassem nele e se debilitassem, é notável. Por meio da medicina, um método para enfraquecer os seres humanos, eles os ludibriaram e tomaram controle de suas vidas. A confiança que hoje depositam na medicina e nos medicamentos significa que entregaram completamente suas vidas nas mãos deles. Isso já atingiu noventa e nove por cento da humanidade. É algo evidente.
+
+O ponto de origem foi a Grã-Bretanha; a causa primordial do enfraquecimento foi criada lá. Naquela época, a Inglaterra era uma potência. Ela representa a Lua. Conforme a Grã-Bretanha enfraquecia, os Estados Unidos, que representam as estrelas, ascendiam à hegemonia mundial. Na escuridão que se segue ao apagar da Lua, as estrelas brilham. Agora, porém, surge a Luz do Oriente. Quando ela se manifestar plenamente, tanto a Lua quanto as estrelas perderão seu brilho. A publicação de todos esses livros significa que a luz do Sol está se difundindo por toda parte. Aqueles que até agora usavam velas, lamparinas e luz elétrica, ao criticarem o Sol, apenas revelam o quão imersos na escuridão estavam. Por mais que tentem deter a luz do Sol, nada poderão fazer. O mundo ficará cada vez mais claro e, por mais que a Lua e as estrelas se vangloriem, será em vão. É o Deus Absoluto quem está no comando, e isso é inelutável. Portanto, esta é uma obra de magnitude colossal.
+
+Falemos um pouco sobre a situação mundial. A questão do armistício, que está em pauta, foi proposta pelo lado chinês, com alguma condição sobre os prisioneiros de guerra. O mundo inteiro comemora, acreditando que o cessar-fogo será um sucesso, mas o raciocínio dessas pessoas é completamente equivocado. Mesmo que se chegue a um armistício, isso não significa o fim da guerra, mas apenas uma pausa temporária, o que não resolve o problema. A Coreia continuaria dividida. Como diz Dulles, a primeira condição deve ser a retirada total das tropas da península. Diante desse cenário, fica claro que a intenção da China Comunista é, na verdade, ganhar tempo. No armistício anterior, eles se aproveitaram da confusão para protelar, até que os americanos, perdendo a paciência, decidiram que não poderiam continuar assim e que uma ação decisiva era necessária, o que levou à ascensão de Eisenhower. Agora, os chineses sabem que uma ofensiva americana seria desastrosa, então buscam adiá-la a todo custo. Quem insiste em outras soluções é a Europa, cujos povos, enfraquecidos, temem a guerra e buscam um consolo momentâneo. Eisenhower está ciente disso e não irá afrouxar os preparativos militares por causa dessas conversas. O futuro será marcado por inúmeras reviravoltas. De um lado, a China tentará ganhar tempo; do outro, os Estados Unidos tentarão impedir essa manobra, e disso surgirá um grande conflito. Para a China, depois de tanto esforço na Coreia, uma simples retirada significaria que tudo foi em vão.
+
+Quanto ao mercado de ações, ele ainda vai cair. Como diz o provérbio: “Quanto mais alta a montanha, mais profundo o vale”. Depois de uma subida vertiginosa, a queda também será acentuada. Esses antigos ditados são muito sábios. “Quanto mais alta a montanha, mais profundo o vale” expressa uma verdade em poucas palavras. Há também um *dodoitsu* que diz: “Se vendes, sobe o dobro; se compras, cai o triplo. Assim é o ritmo do mercado.” E é exatamente assim que funciona. O sistema é feito para que as pessoas percam.
+
+“No Mundo de Miroku, esse tipo de economia deixará de existir?”
+
+Sim, o mercado de ações desaparecerá. Não haverá necessidade de lucrar, pois o lucro se tornará irrelevante. Basicamente, as pessoas terão fartura de dinheiro e os bens serão superabundantes, trazendo uma vida de tranquilidade. Atualmente, o mundo se empenha em criar a pobreza. É o mesmo que tomar remédios para criar doenças. Se não fizessem nada, as pessoas estariam perfeitamente saudáveis. Da mesma forma, insistem em usar fezes como adubo, impedindo que o arroz cresça bem. Todos se esforçam arduamente para criar seu próprio sofrimento. Contudo, isso também foi uma necessidade dentro do Plano Divino, então era inevitável.
+
+Na verdade, o mercado de ações é um reflexo da verdade. Eu mesmo operei bastante e aprendi muito. Quando o mercado está para cair, invariavelmente surgem notícias ruins. A queda corresponde aos fatores negativos, assim como a alta corresponde aos fatores positivos. É como a sucessão das estações: o verão precede o outono e o inverno. Esse movimento se manifesta em três níveis: grande, médio e pequeno. O grande ciclo ocorre de uma forma, o médio de outra, e o pequeno de outra. A situação mundial segue o mesmo padrão. Há guerra e há paz. Três níveis, três etapas. Isso é Miroku. Por isso, Miroku pode ser escrito com os números três, seis e nove (三六九). A obra de Deus é verdadeiramente grandiosa e profunda.
+
+“Já ouvi o Senhor dizer que o albinismo (*shirako*) está relacionado a algum tipo de pecado. Qual seria a causa espiritual por trás disso?”
+
+Creio que já respondi a uma pergunta semelhante. O *shirako* é a reencarnação de uma serpente branca, um dragão branco. A purificação ainda não foi completa a ponto de se tornar um ser humano pleno, e esse resquício permanece.
+
+“Quando contemplo as obras de arte, sinto uma emoção sublime que me eleva espiritualmente. Esse sentimento é diferente daquele que uma pessoa sente quando, por cobiça, um espírito se apossa dela?”
+
+A essência é a mesma. A arte, em seu mais alto grau, possui um elemento que atrai e deleita as pessoas. Portanto, os artistas que criam obras de tamanha qualidade possuem um espírito elevado. Há dois ou três dias, recebi uma pintura de Kannon (観音) que fiz há dez anos, agora com uma nova montagem. Olhando-a com imparcialidade, posso dizer que dificilmente se encontrará uma pintura tão bem executada. Existem muitas representações de Kannon, mas esta é inegavelmente diferente. Qualquer um que a veja dirá o mesmo. Isso significa que, se uma pessoa atinge um determinado nível espiritual, tudo o que ela fizer, seja na pintura ou em qualquer outra atividade, terá um valor correspondente. Em última análise, tudo depende do ser humano e da elevação de seu espírito. Por isso, o mais importante é purificar-se para elevar o nível espiritual.
+
+No caso de uma igreja, é a elevação espiritual do Johrei Center responsável que atrai as pessoas. O que chamamos de virtude de uma pessoa é, em essência, isso. O fundamento da fé é o amor. Quanto mais forte o pensamento de querer ajudar e fazer os outros felizes, e quanto mais qualidades uma pessoa possuir, mais ela prosperará. Tais pessoas irradiam uma luz mais intensa, e estar perto delas proporciona bem-estar.
+
+É preciso pensar de forma ampla, Mahayana. A Kyuseikyo, por exemplo, atrai muitos recursos financeiros, e algumas pessoas podem interpretar isso erroneamente, como se estivéssemos visando o lucro – embora essa percepção tenha mudado bastante após a construção do museu. A verdade é que, para salvar o maior número possível de pessoas, precisamos de instalações e uma estrutura à altura. Para salvar muitas pessoas, precisamos de uma organização ampla, e para isso, o dinheiro é necessário em qualquer quantidade. Desse ponto de vista, ser ambicioso é correto. O desprezo pelo dinheiro, algo especialmente comum entre os japoneses, vem do fato de ele ser usado para fins negativos. O dinheiro em si está maculado. No entanto, quando usado para o bem, não há nada mais conveniente e poderoso. É por isso que também me envolvo com mineração e sou bastante perspicaz nos negócios. Mas esse dinheiro tem o propósito de salvar o maior número de pessoas, e essa é a maneira mais eficaz de fazê-lo. Por exemplo, quando alguém vê um templo e jardins magníficos, pensa: “Isso deve ser algo grandioso, de grande valor”, e, ao entrar, essa pessoa é salva. O modelo do monge mendigo, como antigamente, pode ser válido para alguém que busca o reconhecimento muitos anos após sua morte, mas para salvar a humanidade rapidamente, esse método não funciona. Essa é a diferença entre o pensamento Hinayana (restrito) e o Mahayana (amplo). Até agora, predominou o pensamento Hinayana. O Japão, sendo uma sociedade vertical, era extremamente hierárquico e restrito. Já os Estados Unidos são Mahayana; lá, acredita-se que se pode alcançar qualquer objetivo investindo dinheiro, e foi por isso que se desenvolveram tanto. É preciso harmonizar ambos os aspectos. Tanto o vertical quanto o horizontal são necessários. A verdadeira senda é a que os equilibra, e essa harmonização é a Kyuseikyo.
+
+“Trata-se de uma moça de dezenove anos que perdeu a audição aos quinze. Ela foi ao médico e, após um tratamento de insuflação, o formato de seu nariz mudou e sua fala ficou comprometida. Posteriormente, frequentou uma religião emergente local e voltou a ouvir em uma semana, mas, por certas circunstâncias, teve que retornar para casa. Um parente dela recebeu uma graça em nossa Igreja e, desde que a moça começou a servir em nosso Johrei Center, sua audição piorou drasticamente. Ao receber Johrei, as convulsões que tinha foram se tornando mais sutis, até que todo o seu corpo passou a tremer. À noite, quando vai dormir, ela sente um cheiro forte de cobra. O tio paterno dela matava cobras, especialmente um tio que matou um grande número delas, incluindo uma cobra branca. Mesmo quando lhe dizemos que vamos assentar o espírito através do Kototama, ela apenas treme, e os tremores cessam quando o Johrei é interrompido. Ao construírem a casa, sentiram um cheiro estranho vindo de baixo de um pilar ou de algum outro lugar, mas o odor desapareceu após receberem Johrei. Ela tem zumbido e quase não ouve. Consegue ouvir o som de aviões, mas as vozes das pessoas soam distorcidas. A cobra branca foi assentada como a deidade Hakuryu Myojin. Atualmente, ela continua recebendo Johrei.”
+
+O assentamento foi feito no jardim?
+
+“Ela está trabalhando como empregada temporária, então fizeram um pequeno altar para ela no quarto ao lado.”
+
+Há água no altar?
+
+“Sim, há. Ela começou a receber Johrei há menos de um ano.”
+
+A insuflação é um procedimento comum, mas é terrível. Se não tivesse feito isso, ela já estaria curada. É por causa desse tratamento que ela não melhora. Vocês examinaram a medula oblongata?
+
+“Está sempre muito quente.”
+
+Além da insuflação, que outros tratamentos ela fez?
+
+“Apenas colírios comuns.”
+
+Você diz “apenas colírios comuns”, mas isso é gravíssimo. É preciso dissolver e eliminar o *yakudoku* da medula oblongata. Com perseverança, ela ficará curada.
+
+“Os pais dela virão de Noto em breve e pretendem ingressar na fé. Se isso acontecer, gostaria que eles fizessem o assentamento formalmente. É permitido que tanto a filha quanto os pais cuidem do altar?”
+
+Sim, perfeitamente. Quanto mais pessoas cuidarem, melhor. Contudo, o novo assentamento deve ser feito do lado de fora da casa, não dentro.
+
+“Estamos ministrando Johrei com ela usando um tímpano artificial. O tímpano pode se regenerar completamente?”
+
+O tímpano foi removido, não é?
+
+“Sim, foi.”
+
+Algumas pessoas conseguem regenerar o tímpano, outras não. Mas, com tantas intervenções, as chances são mínimas. Não há necessidade de perfurar o tímpano. O procedimento é feito porque há acúmulo de pus no ouvido interno, e a perfuração é a maneira mais rápida de drená-lo. No entanto, é isso que causa o dano permanente.
+
+“O procedimento foi feito por um otorrinolaringologista famoso.”
+
+O problema está justamente no “famoso”. Um médico menos conhecido seria melhor. Os tratamentos feitos em grandes universidades, seja qual for a doença, geralmente não dão certo. Já os feitos por médicos de bairro, considerados medíocres, costumam ter bons resultados. O médico de bairro, se cometer um erro, arrisca sua reputação, então ele age com extrema cautela e só faz o que tem certeza. Na universidade, mesmo que errem, não perderão o emprego, então se sentem seguros. No fundo, eles usam os pacientes para pesquisa.
+
+“A audição dela oscila; às vezes ouve, às vezes não.”
+
+Ela ouve na medida em que o tímpano remanescente permite. Pode ter sobrado um terço ou dois terços. Se restarem dois terços, geralmente é possível recuperar. Quanto mais tiver sobrado, melhor, mas se a maior parte foi removida, não há o que fazer.
+
+“Com a dissolução tão controversa do parlamento para esta eleição geral, sinto-me tentado a me abster de votar. Como um membro da fé, qual seria a atitude correta?”
+
+Aja de acordo com seus próprios sentimentos.
+
+“No campo conservador, Hatoyama, Yoshida e o Partido Progressista são todos farinha do mesmo saco. Penso que seria melhor uni-los em um único bloco, deixando a outra opção como sendo a ala esquerda do Partido Socialista.”
+
+Isso tornaria as coisas mais claras. O modelo americano é preferível. O sistema atual, baseado em personalidades, é confuso. Um sistema baseado em partidos é o ideal, pois qualquer um pode entender. O modelo americano, com o Partido Republicano e o Democrata, é muito mais definido. O Japão, nesse aspecto, se parece com a França.
+
+“A ala esquerda parece ser comunista.”
+
+É comunista. É por isso que Mosaburo Suzuki defende que o Japão se submeta ao domínio soviético. Segundo ele, isso eliminaria a necessidade de rearmamento, o que, de certa forma, é verdade.
+
+“Espiritualmente, eles estão sob essa influência?”
+
+Sim, estão. No fim das contas, a escolha é entre se aliar aos Estados Unidos ou à União Soviética. E, sem dúvida, a vida sob a influência americana é mais feliz. Mesmo que não nos tornemos uma colônia no sentido literal – um termo que a União Soviética usa como propaganda –, viver sob a esfera americana é melhor.
+
+“Se fôssemos dominados pelos soviéticos, não sobraria uma única virgem no Japão.”
+
+Exato. Nem ricos, nem virgens. E é justamente por saberem disso que a ala esquerda existe. Para as virgens seria terrível, mas para quem está do lado que as desonra, seria divertido.
+
+“A propaganda certamente tem seu papel, mas parece que a situação interna da China Comunista tem melhorado.”
+
+Sim, há aspectos positivos. Por isso, a União Soviética e a China Comunista são diferentes. A China, na verdade, está utilizando a União Soviética para seus próprios fins. Mao Tsé-Tung é uma figura de calibre superior. Já disse anteriormente que a China e a União Soviética irão se separar. A questão é se a China Comunista resistirá até lá. Provavelmente, será esmagada pelos Estados Unidos, e o regime deixará de existir. Contudo, Mao Tsé-Tung e Zhou Enlai são astutos; pode ser que mudem de lado repentinamente e se aliem aos americanos. Se fossem inteligentes o suficiente para transformar a China em uma democracia, anexar a Coreia e conceder a Chiang Kai-shek uma nação sob o Governo Nacionalista, tudo correria bem. Mas isso não acontecerá. As máculas e pecados da China são imensos, e uma grande purificação é necessária.
+
+“A julgar por suas fotografias, Chiang Kai-shek não parece ser uma pessoa de grande força.”
+
+Isso porque Chiang Kai-shek é um homem bom, não um vilão. Tudo, no final, é obra de Deus. Não que Ele use os demônios, mas Ele permite que suas ações ocorram. Em breve, haverá uma Sede da Igreja Messiânica Mundial na China. Ela será estabelecida em Pequim e Tianjin. Até lá, Deus fará uma limpeza completa, e essa limpeza significa a destruição pela guerra. As Coreias do Norte e do Sul serão unificadas, e ali também teremos uma sede. O líder para essa missão já está designado. Eu me encontrei com ele e lhe disse para aguardar o momento certo. É um plano grandioso, e Deus já preparou tudo. Não posso revelar seu nome, pois seria perigoso. Pode ser que ele já seja um de nossos membros.
+
+“Tenho três filhos, de catorze, sete e dois anos. A situação financeira é difícil, mas o pai diz que não quer dar os filhos para ninguém até se casar novamente.”
+
+Ele não quer dar o filho de dois anos?
+
+“Exato. No entanto, ele disse que, se for para um membro da nossa Igreja, ele não se opõe. O que o Senhor pensa a respeito?”
+
+Seria melhor que não fosse para um membro.
+
+“Ele diz que pessoas de fora dariam remédios à criança, e ele não suportaria essa ideia.”
+
+No entanto, a mentalidade de resolver tudo apenas entre os membros não é a correta. Isso acaba se tornando uma atitude Hinayana, restrita. Acaba-se formando um grupo fechado. É melhor expandir. O ideal seria entregar a criança a uma família não-membro e, através disso, convertê-la à fé. Mas tudo depende das circunstâncias. Se a família em questão, embora ainda não seja membro, for composta por pessoas de bem, que no futuro possam compreender os ensinamentos de Deus, então não há problema. Contudo, se for um caso em que, como se diz, “o santo não bate”, é melhor evitar. Tudo depende da outra parte. Não é preciso se limitar a membros da Igreja.
+
+“O pai de quarenta e um anos ingressou na fé há cerca de dez anos. Antes disso, ele fez uma cirurgia para sinusite. Desde antes da cirurgia, ele via pequenas esferas, como grãos de feijão, uma em cada olho. Após entrar para o nosso caminho, isso continuou por cerca de três anos, mas recentemente ele passou a ver essas esferas como cobras de dois a três polegadas. Devido às fortes injeções que recebeu na época da cirurgia, ele agora tem pólipos nasais. Isso é de natureza espiritual ou é causado por *yakudoku*?”
+
+Depende de como ele enxerga. Se há manchas nos globos oculares que causam essa visão constante, ou se os olhos estão normais e é uma visão puramente...
+
+“Parece não haver nada nos globos oculares dele.”
+
+Isso não é certo. Ocorre em ambos os olhos, certo? Provavelmente, o *yakudoku* da cirurgia se solidificou no fundo de ambos os olhos. A forma da cobra não deve ser nítida, imagino. Não é uma imagem fixa; ela muda de forma.
+
+“Na era Bunsei, um ancestral meu cultuava uma deidade Inari. A propriedade ficava a cerca de meio quarteirão da minha casa atual e hoje é uma plantação. O altar de Inari, feito de pedra, permanece na antiga propriedade, e uma vez por mês, como se fosse um aniversário de falecimento, fazemos oferendas. Recentemente, sempre que mexo na terra daquela plantação, sinto dormência nas mãos e nos pés. O que devo fazer?”
+
+Você deve assentar a deidade no terreno de sua própria casa. Ela está enviando esses sinais para que você o faça. Nesse caso, um altar de pedra não é adequado; precisa ser de madeira. O invólucro externo pode ser de pedra, mas o santuário interno deve ser de madeira. Para divindades-dragão não há problema, mas as deidades Inari não gostam de pedra.
+
+“Os pescadores costumam dizer que as convulsões em crianças são mais intensas na maré alta e também ocorrem na maré baixa. Fora desses períodos, não acontecem. Qual seria a razão para isso?”
+
+Que interessante. É o rancor dos peixes. Se vocês construírem um pequeno santuário e os cultuarem devidamente, o problema cessará. Essa é a verdadeira solução.
+
+“No caso do cultivo natural de mexericas, como deve ser feita a poda dos galhos?”
+
+Pode continuar como sempre foi feito.
+
+“Em vez de palha, posso usar casca de arroz?”
+
+Não se deve usar casca de arroz. Os resultados serão piores. Em meus livros, não há nenhuma recomendação para usar casca de arroz, certo?
+
+“Uma mulher teve uma gravidez ectópica e passou por cirurgia. Depois, diagnosticaram um mioma e ela foi operada novamente, removendo os ovários e as trompas de Falópio. Como ela tem apenas um lado do útero, fez um procedimento contraceptivo. Onde o útero foi removido, ocorreu uma aderência no peritônio, e a partir daí ela engravidou e também menstrua. A parte superior do útero foi cortada.”
+
+Então restou apenas uma fração, imagino. O procedimento contraceptivo consiste em ligar as trompas.
+
+“Qual é a sua orientação sobre este caso?”
+
+Não posso dar uma resposta definitiva. Isso porque os médicos alteraram drasticamente o que foi concedido pelo Céu. O corpo criado por Deus é perfeito, e eu o compreendo. Mas o que foi modificado pelos médicos, não posso dizer com certeza. Não é impossível que ela engravide, mas provavelmente a gestação não irá adiante. O útero não conseguirá se expandir, e ela sofrerá um aborto espontâneo em algum momento. O fato de ela menstruar indica que o fluxo sanguíneo para o útero está normal. Se há menstruação, a concepção é possível. Contudo, sem um útero completo, a criança não pode se desenvolver. Durante a gravidez, o útero se expande, mas se houver uma falha estrutural, isso não acontecerá. Uma vez que o útero é cortado, ele não volta ao normal. Com o útero seccionado, a incidência de abortos é alta. Portanto, embora a gravidez não seja impossível, é quase certo que não terá sucesso. Ela deve se conformar. É uma vítima da medicina. É de suma importância que todos saibam disso. Estamos ajudando nessas situações, mas, neste caso, é inevitável.
+
+“Despejamos os dejetos humanos na horta, mas como temos pouca terra, não há espaço. Posso jogar as cinzas de palha no rio?”
+
+Sim, pode.
+
+“Para o viveiro de mudas de arroz, qual é melhor: o viveiro em terra seca ou o em campo alagado?”
+
+Não se deve plantar arroz em terra seca.
+
+“Então, o campo alagado é o mais adequado?”
+
+É o natural. Se o arroz é de várzea, o viveiro também deve ser.
+
+“No que tange à Agricultura Natural, qual a importância da técnica?”
+
+A técnica é importante, mas não precisa ter o mesmo peso que tinha antes. No passado, como a produção era baixa e o conhecimento limitado, dava-se muita importância à técnica, aos fertilizantes e à qualidade das sementes. Agora, a solução fundamental é não usar fertilizantes, o que simplifica todo o resto. Basta seguir o bom senso. Além disso, cada local tem suas particularidades. Há lugares onde se pode semear mais cedo e outros onde se deve semear mais tarde, dependendo do clima. Em regiões quentes, semeia-se mais cedo; em regiões frias, mais tarde. O tipo de solo também influencia. Na região de Kanto, por exemplo, há cinzas da antiga erupção do Monte Fuji, e o solo é diferente. Solos com muita cinza vulcânica são ótimos para hortas. Culturas de raiz, como batata, nabo e cenoura, se desenvolvem bem, pois o solo não se compacta. Em solos comuns, a argila vermelha é a que mais endurece. No entanto, com o cultivo ano após ano, ela se transforma em terra preta. Por isso, em solos argilosos, o aumento da produção não é imediato. É preciso trabalhar a terra até que ela não se compacte mais.
+
+Solos que receberam muito fertilizante demoram a apresentar bons resultados com a Agricultura Natural. Nesses casos, a adição de terra de outra área é uma boa medida, pois essa terra nova não contém veneno de adubo. Os agricultores, no entanto, interpretam isso de forma equivocada. Dizem: “Ultimamente, minha plantação tem produzido muito. É porque as culturas esgotaram os nutrientes do solo, então eu adicionei terra nova”. De fato, a adição de terra garante bons resultados por dois ou três anos. Eles concluem: “A terra nova é boa porque tem muitos nutrientes. O solo antigo ficou ruim porque as plantas sugaram todos os seus nutrientes”. Isso é fruto da superstição do fertilizante. A verdade é o oposto: a terra nova produz bem porque não tem nutrientes de adubo.
+
+O mesmo erro ocorre com as sementes. Falam em variedades como “Asahi nº X” ou “Norin nº Y”, mas o ideal são sementes de locais com pouco fertilizante. Com a agricultura sem adubo, obtêm-se as melhores sementes, resolvendo o problema. Como escrevi recentemente, recomendei que os membros usem sementes de suas próprias lavouras sem adubo. As estações de pesquisa agrícola testaram o cultivo sem adubo e concluíram que não funciona, mas isso acontece porque as sementes que eles usam são inadequadas. É natural que, nos primeiros um ou dois anos, a produção seja inferior à anterior. Foi por isso que o método sem adubo nunca se popularizou: eles não conheciam a verdadeira causa.
+
+“Vivemos em uma região de cultivo duplo, e como plantamos trigo, a água para o arroz chega tarde. Por isso, fazemos o viveiro em terra seca. É correto continuar assim?”
+
+Isso é uma prática artificial.
+
+“Poderíamos fazer o viveiro em outro local?”
+
+Não precisa de tanto. Basta parar com o cultivo duplo.
+
+“Mas todos na região fazem assim, então a água não chega a tempo.”
+
+Nesse caso, é preciso encontrar uma solução criativa.
+
+“Poderíamos cavar um poço?”
+
+É uma excelente ideia.
+
+“E poderíamos trazer mudas de uma região de cultivo único?”
+
+Não é recomendável. As mudas devem ser cultivadas localmente. Quando se planta algo em um determinado solo, a terra gradualmente libera os nutrientes necessários para aquela cultura. Se você levar sementes de Saitama para Nagano, elas não se desenvolverão bem, pois estão adaptadas ao solo de Saitama. Levar sementes para um solo com características diferentes é como começar do zero, por isso é melhor evitar grandes distâncias.
+
+“Na região sul de Hokkaido, os viveiros são feitos em canteiros aquecidos na horta, mas no ano passado todas as mudas morreram. O que devemos fazer?”
+
+Isso é uma tarefa difícil. Procurem um local bem ensolarado e construam uma barreira ao norte para proteger do vento. Isso deve resolver.
+
+“Dizem que as batatas de lugares frios ou de terras altas, quando transplantadas para terras mais baixas, são melhores. Isso tem a ver com fertilizantes?”
+
+Para a batata, o clima frio ou quente não faz diferença. A fama das batatas de Hokkaido se deve ao fato de que, por ser uma região vasta, o uso de fertilizantes não era generalizado.
+
+“Recentemente, as regiões produtoras tradicionais estão entrando em declínio.”
+
+“Em regiões frias, existe um método de viveiro com aquecimento e proteção, onde se irriga um pouco, semeia-se e depois se cobre com papel oleado para acelerar o crescimento.”
+
+Isso é bom. O papel oleado não libera fertilizantes.
+
+As batatas cultivadas pelo método natural são deliciosas. São bem brancas e têm um aroma maravilhoso.
+
+“Parece que, com as batatas, o aumento da produção é imediato, chegando a dobrar ou triplicar.”
+
+Exatamente.
+
+---
+
+# Coletânea de Ensinamentos – Goshijiroku nº 8
+
+**Categoria:** gosuiji | **Ano:** 昭和27(1952)年4月25日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
+
+## Coletânea de Ensinamentos – Goshijiroku nº 8
+Goshijiroku nº 8, publicado em 25 de abril de 1952 (Ano 27 da Era Showa)
+
+### Goshijiroku nº 8 (Ano 27 da Era Showa)
+
+**[1º de março]**
+
+A título de referência, gostaria de iniciar com um breve relato. Tenho um nódulo na nuca, cuja causa remonta a um medicamento que apliquei em um dente. Gradualmente, essa substância se deslocou e solidificou nesta região (nuca), e, por conseguinte, venho sentindo um mal-estar constante na cabeça. Percebi a sua existência no ano retrasado e comecei a ministrar Johrei. Com o tempo, o nódulo foi se dissolvendo e hoje já se reduziu a, aproximadamente, metade do seu tamanho original. Era de uma dureza tal que parecia osso. Cheguei a pensar: "Ora, que estranho um osso neste lugar...", pois, mesmo ao pressioná-lo, não sentia dor alguma.
+
+Recentemente, à medida que o nódulo diminuía, comecei a sentir vertigens, tonturas bem fortes. Achei aquilo peculiar e me pus a investigar a causa. Acontece que a dissolução do nódulo na nuca provocou uma purificação de equilíbrio na parte da frente da cabeça. "Ah, então é isso!", concluí. Ao ministrar Johrei nesta região (fronte), a vertigem melhorou consideravelmente. Em seguida, porém, senti um enjoo no peito e, desde esta manhã, passei a purificar esta área (peito). O que ocorreu foi que a toxina dissolvida na fronte desceu para o estômago, causando o mal-estar. Assim, concentrei o Johrei ali (estômago). Logo depois, antes de sair, senti necessidade de ir ao banheiro, e com isso me senti completamente bem.
+
+Recordo-me de que, ao dissolver o nódulo da nuca, também senti náuseas, mas o enjoo de hoje se deveu à purificação da fronte. A toxina desceu para o estômago e, de lá, foi eliminada. A evacuação foi, de fato, de uma matéria fétida e amolecida. Constata-se, portanto, a trajetória da toxina: da nuca para a fronte e, então, para o estômago. Este é um processo que pode ocorrer com qualquer pessoa. Ao dissolvermos as toxinas da cabeça, sentimos um alívio no peito, sinal de que a matéria tóxica da fronte desceu. Quando se dissolve uma parte, outras áreas da cabeça iniciam uma purificação de equilíbrio, e a toxina resultante desce. O corpo humano é, de fato, convenientemente projetado. Após a dissolução do nódulo, meu apetite aumentou extraordinariamente, o que revela uma surpreendente relação entre a cabeça e o apetite.
+
+"Ultimamente, tenho passado por uma forte purificação, e, ao apalpar meu corpo, sinto dor em todos os lugares."
+
+Quanto mais forte a purificação, mais rápida é a cura. Portanto, seja em nós mesmos ou em outras pessoas, sempre haverá uma causa em algum lugar. Basta descobri-la. Ao fazê-lo, o alívio virá. Muitas vezes, o progresso não ocorre como esperado porque ministramos Johrei sem identificar o ponto vital, atuando fora do foco da purificação.
+
+"Sobre a toxina do Salvarsan 606, parece que ela não é eliminada completamente em uma única geração..."
+
+O Salvarsan 606 é de fato muito forte. As toxinas mais potentes são as do Salvarsan 606 e as dos desinfetantes. Da medicina chinesa, destaca-se o gerânio. É impressionante como utilizam esse medicamento, o Salvarsan, mesmo sem grande eficácia. Quanto ao gerânio, seu nome em japonês, *gen-no-shoko*, soa como "a prova em pessoa".
+
+"Minha mãe passou por uma grande purificação e, quando sua vida esteve em perigo, ela recebeu uma imensa proteção Divina. O médico também a atendeu. O lóbulo de sua orelha ficou vermelho-vivo, inchado e muito dolorido. Não entendíamos a causa, mas recentemente, já recuperada, ela nos contou que, trinta e cinco anos atrás, havia ferido a orelha. Compreendemos, então, que se tratava da purificação daquele ferimento. A orelha ficou roxa e expeliu pus."
+
+As toxinas medicamentosas podem permanecer no corpo por trinta ou quarenta anos sem sofrer qualquer alteração. No meu caso, o que estou purificando agora é uma toxina de cinquenta anos, um medicamento que tomei para pleurisia aos dezoito anos. Já melhorou bastante, mas ainda há uma massa endurecida na região entre a lateral do abdômen e as costas, exatamente onde inseriram uma agulha para drenar líquido. Quanto à toxina do dente, na minha nuca, ela está completando trinta e sete anos.
+
+"As pessoas em geral tomam vacinas preventivas, e nos dizem que um segundo de atraso representa uma perda de um segundo..."
+
+É algo terrível. A humanidade de hoje é verdadeiramente digna de pena. As pessoas não passam de vítimas da medicina. Ouvi ontem no rádio que, nos Estados Unidos, desenvolveram um medicamento extraordinário que mata o bacilo da tuberculose. Dizem que todos os bacilos morrem em um curto período. Anunciaram que o remédio levará de seis meses a um ano para chegar ao Japão, e afirmam que, com a morte dos bacilos, a tuberculose será curada rapidamente. Contudo, mencionaram também que há efeitos colaterais, um certo problema que o torna perigoso.
+
+A questão é que, mesmo que se consiga matar os bacilos da tuberculose, eles continuarão a surgir. É preciso impedir que surjam. É isso que não compreendem. Por essa razão, estou escrevendo agora sobre a "Cultura de Su". Até hoje, a cultura era representada apenas pelo círculo (○). Ao se adicionar um ponto, torna-se a Cultura de Su (○ com um ponto no centro). Até agora, todos os esforços se concentravam em matar o bacilo da tuberculose, em evitar que surgissem criminosos. Era apenas o círculo (○). O ponto (ヽ) atinge a origem do bacilo, de modo que ele não possa mais surgir. Para os malfeitores e os infelizes, atinge-se firmemente a sua origem, e eles deixam de existir. Essa é a Cultura de Su, a cultura do centro. Até agora, o centro era vazio; havia apenas a forma, sem o ponto. A Igreja Messiânica representa, portanto, o centro. É o "ponto". É com esse ponto que salvamos. Daí vem o ideograma de "sol" (日), que contém esse ponto (ヽ). É uma cultura centrada nesse ponto. Assim, o Mundo do Dia – a Cultura do Dia – encerra esse significado. A Cultura de Su: o círculo (○) representa a ação da lua, e o ponto (ヽ) representa a ação do sol. Juntos, formam "sol e lua". O círculo (○) é a ação horizontal, e o ponto (ヽ) é a ação vertical. Assim, Meishu significa o Mestre do Sol e da Lua. Isso se torna Izunome (いづのめ). "Hi" (fogo/sol) é *izu*, e "mizu" (água/lua) é *me*. Fogo e água formam Izunome.
+
+"Das estátuas budistas que se encontram nos museus, ou mesmo as que são Tesouros Nacionais, qual a porcentagem aproximada de autênticas obras de arte?"
+
+Todas são obras de arte. São arte budista. Naturalmente, entre elas, há variações de qualidade, uma hierarquia de excelência.
+
+"Elas se enquadrariam nos critérios de possuir Verdade, Bem e Belo?"
+
+Todas se enquadram.
+
+"Na exposição de Korin, ao lado da tigela de chá *Fuji*, havia uma chamada *Amagumo* (Nuvem de Chuva). Ela também é uma obra de arte?"
+
+É uma magnífica obra de arte. Falarei a respeito. A *Amagumo*, se não me engano, pertence à família Mitsui. É uma bela tigela, mas tem um toque um tanto sombrio, razão pela qual não a considero tão extraordinária. Melhor que ela, em minha opinião, é a tigela chamada *Kamiya*, que estava ao seu lado. Aquela sim, é excelente, de um tom castanho-avermelhado. Já a *Fuji* é absolutamente superior. É a obra-prima entre as tigelas de Koetsu, uma peça muito famosa. Pertence a um conde chamado Sakai Tadamasa. Talvez seja possível pedi-la emprestada; se conseguirmos, poderemos exibi-la em nosso museu. É uma obra excepcional. Naquela ocasião, o Sr. Sakai havia se recusado a emprestá-la ao museu. No entanto, como a Imperatriz Viúva estaria presente, insistiram para que a cedesse. Ele então concordou em emprestá-la por dois dias. Por isso, somente quem foi ao museu naqueles dias pôde vê-la. Depois, estenderam o empréstimo por mais um dia. É assim que ele a valoriza. É de fato uma peça primorosa, uma verdadeira obra-prima. Talvez seja a melhor tigela de chá do Japão. As do tipo *Ido* são coreanas, e as *Tenmoku* são chinesas. Entre as de fabricação japonesa, a *Fuji* de Koetsu é provavelmente a número um. Depois, há as do estilo *Raku*, de Chojiro. A melhor delas é a *Toyobo*, mas, comparada à *Fuji*, não há nem como comparar.
+
+"Qual é o tipo de cerâmica?"
+
+É, essencialmente, uma cerâmica *Raku* feita por Koetsu. Embora o mestre original do estilo *Raku* seja Chojiro, Koetsu desenvolveu sua própria técnica de queima, um estilo *Raku* que lhe é peculiar. É uma tigela de fato esplêndida.
+
+Quanto às estátuas budistas, aquelas que hoje estão nos museus e são designadas como Tesouros Nacionais pertencem à nova classificação. Houve uma revisão, e as obras mais extraordinárias dentre os antigos Tesouros Nacionais e as Obras de Arte de Importância foram selecionadas para a nova categoria de Tesouro Nacional. Não são muitas, talvez duas ou três. São magníficas, do Período Fujiwara. As melhores estátuas budistas são dessa época.
+
+"Ao observar a tigela *Fuji*, imaginei que a imagem do Monte Fuji apareceria como uma figura oculta em um livro infantil, mas não a vi. Ao me afastar, tive a sensação de que ela simbolizava a montanha."
+
+Com obras desse tipo, é sempre assim. A tigela *Amagumo* (Nuvem de Chuva), por exemplo, transmite uma sensação de melancolia.
+
+"Vi uma estátua de Fudomyo e senti uma aversão. Como eu tinha devoção a ele no passado, senti que era uma falta de respeito, mas penso que algo que provoca aversão não pode ser uma obra de arte. Qual a sua opinião?"
+
+Isso significa que sua mente ainda não atingiu o nível necessário para apreciar a arte. Fudomyo também é uma obra de arte.
+
+"Esse sentimento desagradável vem de mim...?"
+
+Exatamente. Sua capacidade de apreciação é pequena. Precisa se expandir. Com o tempo, você passará a ver Fudomyo com bons olhos. As boas esculturas dele são admiráveis; eu gosto muito. Em nosso museu, também teremos uma estátua de Fudomyo. Bishamon também é excelente. E depois de amanhã, irei à loja de departamentos Mitsukoshi para ver uma estátua de Ashura (阿修羅). Ashura é um demônio, mas, do ponto de vista artístico, isso não tem a menor importância. A arte transcende o bem e o mal. Por isso, é bom observar tudo sob uma ótica artística. Quando se trata de arte, deve-se esquecer a fé e outras considerações e focar apenas na beleza. O objetivo é extrair a beleza.
+
+Voltando ao assunto dos Tesouros Nacionais, hoje temos os novos e os antigos Tesouros Nacionais. Acontece que, entre os antigos, havia um número considerável de obras que não eram tão admiráveis. Desta vez, a seleção foi extremamente rigorosa, e os novos Tesouros Nacionais foram escolhidos dentre os antigos. A seleção anterior foi, de certa forma, descuidada. Agora, as obras são escolhidas com extremo critério. As antigas Obras de Arte de Importância foram reclassificadas como Bens Culturais de Importância ou algo semelhante.
+
+"A estátua de Ashura entrará na nova classificação de Tesouro Nacional?"
+
+Quem sabe? Certamente se tornará um novo Tesouro Nacional. É que os trâmites para essas coisas costumam ser lentos.
+
+Contudo, a escultura budista japonesa em madeira é algo notável. É realmente excepcional, a melhor do mundo. Dizem que as estátuas do Período das Seis Dinastias da China são boas, mas as do Período Suiko do Japão são superiores. As esculturas em madeira do Período Tenpyo... Rodin não chega nem aos seus pés. É algo extraordinário. As pessoas simplesmente não sabem disso e fazem um grande alarde por outras coisas, mas a verdade é que a escultura em madeira do Período Nara é formidável. No futuro, quando o museu em Atami estiver pronto, pretendo realizar uma exposição de arte budista. Quero reunir todas as magníficas esculturas dos templos de Quioto e Nara, pedindo-as emprestadas para uma grande mostra. Pretendo divulgá-la mundialmente e mantê-la por cerca de seis meses, para apresentá-la ao mundo. Não creio que seja impossível. As imagens principais de adoração dos templos não podem ser emprestadas, mas as outras, sim. E, na verdade, as imagens principais raramente são as melhores. As obras mais valiosas costumam ser as outras. É algo que pretendo realizar.
+
+"Disseram que a estátua de Ashura vale cem milhões de ienes..."
+
+Isso foi o que saiu no jornal. E quem publicou foi o Mainichi Shimbun, que é o patrocinador do evento. Naturalmente, escreveram de forma a valorizá-la. Mas estátuas budistas grandes como aquela não têm compradores. Em geral, elas ocupam muito espaço, e nossas casas são pequenas. Obras como essa perdem o valor se forem exibidas em um ambiente abarrotado de coisas. É preciso espaço ao redor.
+
+"Dizem que as obras de Takamura Koun se tornarão Tesouros Nacionais no futuro..."
+
+Precisariam ser melhores. Mesmo as estátuas do Período Kamakura são superiores às de Takamura Koun. As melhores obras são de um nível que ele nem sequer se aproxima. Nem mesmo eu fico muito impressionado com suas obras. Falta-lhes volume.
+
+"E quanto a Gengen?"
+
+Ele é, sem dúvida, um mestre do Período Kamakura em diante.
+
+"Suas obras são extremamente raras..."
+
+É verdade.
+
+"A loja Mitsukoshi está se empenhando em promovê-lo..."
+
+Mas mesmo Gengen tem seus pontos fracos.
+
+"Qual a razão pela qual no passado se criavam obras de arte tão boas e hoje não mais?"
+
+A razão é econômica. Mesmo hoje existem artistas talentosos, mas, se ficarem hesitando muito, a cozinha fica vazia. Por isso, não podem se dar ao luxo de trabalhar com calma e dedicação. Isso lhes tira a energia. As pessoas de hoje não têm energia. E a principal causa da falta de energia é a vacina contra a varíola. As pessoas acabam cedendo no meio do caminho, fazendo concessões. Falta-lhes a perseverança para ir até o fim.
+
+"No fim, é a toxina medicamentosa..."
+
+É a toxina medicamentosa. É a vacina. Por isso, todas as formas de arte... a música também. Costumo ouvir *nagauta*, e não há nenhuma composição nova que se destaque. As que realmente quero ouvir são as clássicas, como *Benkei* ou *Kanjincho*. Na música ocidental, Schubert, Beethoven, Strauss... todos são de mais de cem anos atrás. Na música moderna, não parece haver nenhuma obra-prima de renome, não é mesmo?
+
+"Meu avô, há vinte anos, cavou dois poços que se comunicam no fundo por um túnel. Agora, pretendemos cobrir os poços e construir uma casa sobre eles. Um ficará exatamente sob o aposento onde consagraremos Daikoomyoo Nyorai-Sama, e o outro, sob o armário do quarto ao lado. Uma tubulação levará a água para o banheiro. Desde que entrei na fé, tenho tido pólipos nasais. Haveria alguma relação?"
+
+Apenas pólipos nasais?
+
+"Fora isso, não há nada de muito diferente."
+
+Então, não há problema. Os deuses-dragão dos poços... eles têm naturezas diversas. Alguns são espíritos de antepassados; outros são mais irritadiços. Há também aqueles que pensam: "Não há o que fazer", e outros que, por serem antepassados, decidem tolerar a situação. Se nada mais aconteceu, está tudo bem. Os pólipos nasais não têm relação com os deuses-dragão.
+
+"Ocasionalmente, sinto uma raiva súbita..."
+
+Isso é dos nervos, um efeito psicológico. Se um deus-dragão estivesse insatisfeito e quisesse que algo fosse feito, haveria manifestações mais claras, como infortúnios. Se não há nada disso, é porque o deus-dragão consentiu, então está tudo bem. É melhor utilizar a água. Para o deus-dragão também é bom. Se o poço fosse aterrado, aí sim ele ficaria em apuros. Como não foi aterrado, ele tem onde ficar. A diferença é apenas uma questão de se sentir um pouco mais ou menos confortável. Depende do deus-dragão, mas podem deixar como está.
+
+"Se nos mudarmos para outra casa e os novos moradores, sem saber da situação, aterrarem o poço, quem sofrerá as consequências?"
+
+Aquele que aterrar o poço.
+
+"Uma única flor no altar murchou. No verão passado, minha filha de quinze anos e meu pai tiveram problemas gastrointestinais. Assim que se curaram, começaram a comer arroz cru, sentiam dores por todo o corpo e fugiam."
+
+É um deus-dragão.
+
+"Quando essa filha tinha cinco anos, ao subir as escadas, viu uma pequena cobra e gritou. Outra pessoa a matou e a jogou no lago em frente. Imediatamente, fizemos um pequeno altar no jardim e pedimos perdão. No entanto, assim que a dor no corpo dela passava, ela começava a agitar os braços e a se debater. Quando a trouxe para receber Johrei, ela, de repente, disse ser um tanuki. Havia um tanuki que deveria ter sido consagrado, mas foi negligenciado, e um vizinho quebrou o santuário e o jogou no rio. Resolvemos isso também, mas agora ela pede para ser levada diante de Daikoomyoo Nyorai-Sama, sofre terrivelmente e, aproveitando qualquer descuido, tenta rasgar o Ohikari."
+
+É a raposa que está sofrendo.
+
+"Ela começou a se parecer com uma raposa. Enquanto eu estava vindo para cá, ela faleceu, sem que soubéssemos ao certo qual era o espírito..."
+
+Aconteceu o seguinte: primeiro, o deus-dragão se manifestou. Depois que o consagraram, o corpo ficou "vago", e o tanuki entrou. Quando este saiu, ficou "vago" novamente, e a raposa se apossou. Foi essa a sequência.
+
+"Desde então, meu pai, minha mãe e meus cinco filhos também passaram a gostar de comer arroz cru."
+
+Os companheiros vieram. Toda a família e parentes da cobra vieram. Todas essas cobras são filhotes, e estão perdidos.
+
+"Era uma cobra pequena..."
+
+Contudo, com cobras não se sabe o tamanho. As grandes podem se tornar pequenas. Quando ingressou na fé?
+
+"Há cerca de quatro anos. Nossa casa serve como uma igreja."
+
+A cobra-mãe que está sendo cultuada deseja salvar todos os seus filhos. Nesses casos, apossar-se de um ser humano é o caminho mais rápido. Deixem como está e façam com que ouçam a Oração Amatsu-Norito e os Ensinamentos. Assim, eles irão melhorando gradualmente. Vocês têm Daikoomyoo Nyorai-Sama consagrado, certo? Peçam a Ele proteção para que as cobras, os deuses-dragão, possam renascer como seres humanos o mais rápido possível. E, como eu disse, utilizem ao máximo o Kototama (言霊), a Oração e os Ensinamentos. O fato de terem caído na condição de cobras significa que possuem máculas. À medida que as máculas desaparecem, eles inevitavelmente renascerão como seres humanos. É uma transformação gradual.
+
+"Basta cultuar o santuário uma vez por mês?"
+
+Uma vez por mês é suficiente. E como essas diversas cobras têm relação com seus antepassados, isso também contribui para a salvação deles.
+
+"Não há movimentos espirituais."
+
+Exato. Afinal, eles não têm más intenções. O que desejam é serem salvos.
+
+"Ao preparar o canteiro para as sementes de arroz, se o fizermos fundo e alto, como no método da agricultura natural o período no canteiro é curto, fica muito difícil transplantar as mudas. Por isso, pensei em fazer um sulco de quatro shaku e três sun de largura, usar a terra para elevar o canteiro e ali..."
+
+Quatro shaku e três sun é o tamanho do canteiro?
+
+"Sim. Dizem que assim as raízes se desenvolvem melhor e se soltam com mais facilidade..."
+
+Reduzindo a quantidade de água, certo?
+
+"Exato."
+
+Isso não tem importância, pode fazer de qualquer uma das formas. Não é uma questão relevante. São detalhes secundários; qualquer método serve. O problema fundamental é o adubo. O importante é eliminá-lo. Outro ponto crucial sobre adubos são as sementes. Isso é de extrema importância. A diferença entre sementes com e sem toxinas de adubo é enorme. As pessoas costumam pegar sementes de produtores ou de fontes comuns sem dar a devida atenção, mas esse é um aspecto fundamental. Se utilizarem sementes com toxinas de adubo, não obterão resultado algum. Nos campos de testes agrícolas, quando compararam o cultivo com e sem adubo, disseram que o sem adubo teve um desempenho inferior. A razão está nas sementes. Utilizar variedades como Norin nº X ou Asahi pode, na verdade, ser pior, pois as sementes já estão intoxicadas com veneno de adubo.
+
+"Atualmente, temos sementes de quatro anos, que estão sendo distribuídas para cada igreja."
+
+Isso é excelente. Há outra coisa que não estão fazendo como eu orientei. Vocês colocam capim nos arrozais, mas isso não é bom. Eu disse para usarem palha de arroz, não disse? Apenas palha é suficiente. Na verdade, adicionar capim comum é prejudicial. Além disso, quando digo para cortar a palha em pedaços pequenos, como de uma ou cinco polegadas, também não é o ideal. O correto é cortá-la em pedaços de um ou dois *bu* (aprox. 3 a 6 mm).
+
+"Temos um cortador de palha motorizado que pode cortar em pedaços de até cinco *rin* (aprox. 1,5 mm)."
+
+Não precisa ser tão fino. Cerca de um ou dois *bu* é suficiente.
+
+"Por que o composto de capim é ruim?"
+
+Porque está em desacordo com a lógica. O capim é adubo para a horta. Quando colocado no arrozal, ele flutua, é levado pela água e não se mistura com a terra.
+
+"A mãe é parteira. Uma menina de uns quatro anos se recusava a receber Johrei e se debatia. Como ela estava resfriada, a mãe a segurou à força e ministrou. Pouco depois, a criança desenvolveu algo parecido com pneumonia e passou a detestar o Johrei. A família da mãe é da seita Nitiren. A parteira, embora tenha entrado na fé, continua a cultuar a seita Nitiren. A aversão da criança ao Johrei tem relação com isso?"
+
+Sim. Uma raposa da seita Nitiren está manifestada na criança. Como o Johrei a faz sofrer, ela o rejeita. É melhor parar. Ministrar Johrei à força é um erro. Do ponto de vista de Deus, forçar alguém que se recusa é um equívoco tremendo. É melhor não o fazer. Se a parteira ingressou na fé, mas continua a cultuar a seita Nitiren, é melhor que ela pare.
+
+"Mas a criança já foi salva antes por meio do Johrei..."
+
+Se, mesmo assim, ela não compreende, não há necessidade de continuar. Pelo contrário, é uma ofensa a Deus. O missionário da Igreja Messiânica que fez isso deve pedir perdão por ter agido de forma errada. Se a família disser: "Queremos que ela seja salva, por isso vamos abandonar a seita Nitiren", então podem ministrar o Johrei.
+
+"Soube disso recentemente por uma carta..."
+
+Assim que souber, diga-lhe para parar imediatamente.
+
+"Em Hokkaido, tenho sessenta cavalos, e eles estão morrendo de uma doença chamada *denpin* (anemia infecciosa). Dizem que é transmitida por mosquitos e moscas. Em que parte do corpo de um cavalo com essa doença devemos ministrar Johrei?"
+
+É a primeira vez que ouço falar de *denpin*. Certamente deve haver alguma causa.
+
+"É por usarem palha de arroz cultivada com adubos químicos..."
+
+Claro, essa é uma das causas... Eles não recebem alguma injeção depois que nascem?
+
+"Recebem vacinas preventivas."
+
+Aí está a causa. Em condições normais, isso jamais aconteceria. Deus os criou para que crescessem saudáveis. Se ficam doentes, é porque o ser humano criou a causa. São as vacinas preventivas. Quais são os sintomas?
+
+"Ficam letárgicos e querem dormir o tempo todo."
+
+Então, o foco é a cabeça do cavalo, da cabeça até a crina.
+
+"No meu caso, ministrei Johrei na cabeça e no corpo todo, e o cavalo se curou em um mês."
+
+Então, esse é o procedimento correto.
+
+"O nome da doença é anemia infecciosa equina."
+
+Agora entendi. Sim, esse é o caminho. Concentrem-se na cabeça.
+
+"A linhagem da minha família se extinguiu há cem anos, e o altar está na casa de um missionário. Soube que havia uma promessa de que um novo lar seria estabelecido para eles. Eu disse que as promessas devem ser cumpridas..."
+
+Seria muito bom restabelecer a linhagem. Eles ficariam muito felizes.
+
+"A família principal não tem herdeiros. Uma mulher da família secundária foi para lá e se casou..."
+
+Então, a família principal não tem sucessor.
+
+"A família secundária tem um filho homem."
+
+Entendo. Contudo, não é absolutamente necessário que ele suceda a família principal. A família secundária se tornaria, nesse caso, a fundadora de uma nova linhagem. Não há problema nisso.
+
+"Então, se a família secundária der continuidade, está tudo bem?"
+
+Sim, está tudo bem.
+
+"Já se passaram seis anos desde que estabeleci uma igreja em minha casa, mas tenho enfrentado muitas interferências. Tenho um enteado, filho da primeira esposa do meu marido, e também netos. Toda a família ingressou na fé. No entanto, meu enteado chega a rasgar a imagem de Daikoomyoo Nyorai-Sama. A cada purificação que ele recebe, ele melhora, mas depois volta a acontecer. Ele não quer que eu fique na igreja com ele e me diz para ir embora."
+
+Um espírito se manifesta nele. Quando você se casou, a primeira esposa já havia falecido, certo? Quanto tempo depois do falecimento dela?
+
+"Nesse intervalo, ele teve outras três esposas."
+
+Não foram todas separações em vida, foram?
+
+"Sim, todas foram separações em vida."
+
+Não seria a mãe desse filho que se opõe a você, ou alguma outra, que está causando isso? O apego dela ainda não se desfez. Essa mãe está sendo cultuada, ou não se sabe dela?
+
+"Ela está no mesmo túmulo da minha família, e nós a cultuamos."
+
+Ela está sendo cultuada junto aos seus antepassados. Nesse caso, a situação melhorará gradualmente. Portanto, você deve evitar ao máximo repreender ou advertir seu enteado. Deixe-o em paz.
+
+"Meu marido sugere que, se morarmos separados, talvez não haja tantas interferências. Qual seria a melhor atitude a tomar?"
+
+Como eu disse, evite interferir o máximo possível. Deixe que ele aja como quiser. Quanto à sugestão de seu marido de morarem separados, é uma excelente ideia.
+
+"Eu penso: 'Não vou me dar por vencida', e me esforço ao máximo..."
+
+Aí está o erro. Essa sua mentalidade não está correta. Você deve ceder o máximo possível.
+
+"Eles chegam a convocar reuniões de família e me acusam de várias coisas."
+
+Quando disserem isso, responda: "O que o senhor diz faz todo o sentido. Eu também gostaria muito que fosse assim, mas, por alguma razão, as coisas não se resolvem dessa forma. Realmente, não sei o que fazer".
+
+"É assim que tenho respondido."
+
+Aja dessa forma, como um salgueiro ao vento, e espere o momento certo.
+
+"Mesmo após a cerimônia de 23 anos de falecimento, ela ainda não se elevou?"
+
+É isso mesmo. Não se elevou.
+
+"Pensei que pudesse ser carma ou máculas..."
+
+É uma combinação de carma e máculas. Portanto, faça como eu lhe disse.
+
+"Tenho uma estufa e, até agora, não usei adubo. As plantas estão morrendo. Os tomates, quando atingem o tamanho de uma bola de gude, simplesmente caem."
+
+Isso é intoxicação por adubo.
+
+"Com que estado de espírito devo proceder?"
+
+Basta não usar adubo. Assim, as plantas se fortalecerão.
+
+"Estou usando água de poço..."
+
+A água pode ser de poço ou de qualquer outra fonte, não importa. Tente cultivar sem adubo e veja o resultado. Será esplêndido.
+
+"Seria melhor adicionar terra de outra fonte e plantar melões? A safra de tomates não chega nem à metade."
+
+Se não usar adubo, as plantas melhorarão gradualmente. Elas já devem ter crescido bastante com o cultivo sem adubo, certo? Continue assim e ministre Johrei.
+
+"Ao ministrar Johrei na terra, a toxina do adubo desaparece?"
+
+Ministre na terra. O Johrei é um método para eliminar as toxinas dos adubos.
+
+"Ele elimina os adubos aplicados anteriormente?"
+
+Sim, elimina. Se ministrar bastante Johrei na terra, não haverá problemas.
+
+"As estufas de hoje me parecem antinaturais, mas ainda assim é melhor não usar adubo?"
+
+Você parece um pouco confuso. A estufa não é antinatural. Ela apenas altera o clima. É completamente diferente do adubo. O adubo é como dar veneno às plantas. Os seres humanos também usam aquecedores no inverno, não é? O aquecedor não causa problemas. Mas, da mesma forma, os seres humanos não devem tomar veneno.
+
+"Ao adicionar palha, qual a quantidade adequada?"
+
+Uma quantidade razoável é suficiente. A palha não é adubo, entende? Sua função é apenas aquecer as raízes.
+
+"Devo ir diminuindo a quantidade de palha gradualmente?"
+
+Use-a sempre. À medida que o clima muda, ajuste a quantidade. Em lugares quentes, não se usa muito. Quanto mais frio o lugar, mais palha se usa, para aquecer.
+
+"A água com alto teor de ferro é imprópria para consumo?"
+
+Se for potável, não há problema. Os médicos, aliás, até a consideram benéfica, por conter ferro.
+
+"Quando a filtramos com areia, ela fica limpa..."
+
+Nesse caso, é melhor filtrá-la.
+
+"Há uma pessoa com paralisia nervosa há cerca de dez anos, que melhorou muito com o Johrei. Ela possui um pergaminho com uma pintura de um dragão a nanquim. Em uma consulta anterior, o senhor me orientou que poderia haver uma relação e que ela deveria colocá-lo diante do altar. Eu transmiti a orientação, mas, após cerca de uma semana, ela decidiu que não havia motivo para se preocupar e o guardou em uma caixa. Recentemente, ela me pediu para olhar o pergaminho e, ao fazê-lo, senti uma energia sinistra. Eu disse que seria melhor seguir a orientação que lhe fora dada. Quando entoei a oração, o Goshintai, mesmo sem haver vento, afastou-se da parede cerca de cinco a sete sun (15 a 21 cm) e balançou violentamente por uns quinze minutos."
+
+Inicialmente, eu disse para colocar o pergaminho do dragão diante do altar de Daikoomyoo Nyorai-Sama, correto? E, uma semana depois, ela o guardou na caixa? Isso foi um erro gravíssimo. Você deve fazer com que essa pessoa peça perdão. Se eu tivesse dito que era apenas por uma semana, tudo bem, mas eu não disse isso, disse? Eu disse apenas para deixá-lo lá. O correto seria, após seis meses ou um ano, perguntar-me novamente. O erro foi seu por não ter feito isso. É seu dever perceber isso e orientá-la. Quando se age por conta própria, desobedecendo ao que eu disse, há uma reprimenda Divina. Portanto, se eu disse para colocar diante do altar, é para deixar lá. É sua responsabilidade explicar isso claramente à pessoa e orientá-la a pedir perdão a Daikoomyoo Nyorai-Sama. O pergaminho deve ficar lá por um bom tempo e, quando for o momento de guardá-lo, o correto é me consultar antes.
+
+"Pode ficar enrolado?"
+
+Sim, pode ficar enrolado, sobre algum tipo de suporte.
+
+"Sou a segunda esposa. A primeira faleceu após o divórcio, e não havia ninguém para cultuá-la. Sua irmã a cultua segundo os ritos cristãos, mas eu me sinto incomodada com isso..."
+
+É melhor que você a cultue.
+
+"Devo providenciar um novo nome póstumo?"
+
+Pode pedir a um monge budista. No entanto, o culto à primeira esposa deve ser feito de forma discreta, sem muito esplendor. Um culto muito suntuoso pode fazer com que o espírito sofra.
+
+"Cerca de um ano depois, meu filho teve paralisia infantil. Após uns três anos, melhorou um pouco, mas no ano passado, parece que um espírito diferente se manifestou, e ele regrediu, agindo como um bebê. Ele, que conseguia falar um pouco, emudeceu."
+
+É o espírito de um bebê.
+
+"A esposa do meu cunhado, irmão mais velho do meu marido, faleceu no parto. O feto era grande e a bacia dela, pequena. No hospital, tentaram retirar a criança em pedaços, e ambos morreram. Gostaria de cultuá-los..."
+
+Isso é excelente. É preciso cultuá-los.
+
+"Não sei se era menino ou menina. Que tipo de tabuleta memorial devo usar?"
+
+Parece ter sido um menino. Pode cultuá-lo como um menino.
+
+"Dando-lhe um nome masculino?"
+
+Isso mesmo. Peça a um monge.
+
+"Quando a casa fica menor, é permitido trocar o altar budista que já existia por um menor?"
+
+É apropriado que o altar seja condizente com o espaço.
+
+"Posso vender o altar antigo, que era maior?"
+
+Não há problema. Se não for mais necessário, sim.
+
+"Sobre o Goshintai que foi danificado por uma goteira, sobre o qual perguntei anteriormente, conversei com os membros e decidimos queimá-lo..."
+
+Isso é ainda melhor. Agradeçam-lhe devidamente.
+
+"Agradecemos diante do altar da igreja e o queimamos..."
+
+Está perfeito.
+
+"Sou dentista. No caso dos membros, ao extrair um dente, não uso medicamentos..."
+
+Não se deve usar medicamentos. A dor retornará.
+
+"E no caso de o nervo estar exposto?"
+
+O nervo é necrosado, não é? Com ácido arsenioso. Isso pode ser feito. E a injeção de anestésico também.
+
+"Após a remoção do nervo, posso preencher o espaço com Goryoshi?"
+
+Não é preciso. Basta não usar medicamentos. O importante é não usar desinfetantes nesse momento.
+
+"Água oxigenada e álcool também não são permitidos?"
+
+Álcool não há problema. Água oxigenada, não.
+
+"E no caso de não membros?"
+
+Para não membros, o procedimento é o mesmo. Exatamente como eu disse.
+
+"Alguns pacientes, após o inchaço, deixam de vir quando ministro Johrei."
+
+Não é ótimo? Eles param de vir porque estão curados, certo? Ah, entendi, eles acham estranho e não voltam? Nesses casos, é melhor não insistir. Contudo, para não membros que sentem muita dor, você pode dizer: "Conheço um método para aliviar a dor que é diferente dos medicamentos". Você pode se recusar a usar os métodos convencionais. A dor ocorre porque a toxina solidificada está se dissolvendo. Quanto mais incha, melhor. É preciso fazê-los entender isso. Se não compreenderem, não há o que fazer.
+
+"Cortamos um grande olmo, e um praticante da seita Nitiren nos disse que um Tengu habitava a árvore e que deveríamos cultuá-lo. Assim o fizemos. Depois que passamos a consagrar Daikoomyoo Nyorai-Sama, movemos o altar do Tengu, que estava no *tokonoma*, para uma prateleira na varanda. Tenho uma filha cujo braço direito é fino. Com o Johrei, ela está melhorando. Haveria alguma relação com a forma de culto não estar adequada?"
+
+Não se pode dizer que não haja, mas não é nada grave. De qualquer forma, sempre que se corta uma árvore, o melhor a fazer é plantar outra em seu lugar, da mesma espécie. No caso, um olmo. E pedir ao espírito que se mude para a nova árvore.
+
+"O braço dela ficará normal à medida que ela crescer?"
+
+Ficará. Agora, plantem o olmo e, depois, podem se desfazer do altar. O espírito ficará mais feliz assim.
+
+"Podemos nos desfazer do altar?"
+
+Sim. Depois de dizer: "Plantamos uma árvore substituta aqui", podem se desfazer dele, queimando-o.
+
+"Ao lado do Kannon do Biombo, havia uma raposa parecida com um brinquedo, dentro de uma caixa de vidro. Em uma gaveta, havia um nome póstumo escrito em um papel. Junto a ele, encontrei o corpo mumificado de um rato. Quando tirei a raposa do altar budista, meu filho de três anos gritou e teve uma convulsão terrível, que foi curada com Johrei."
+
+O rato não tem relação com os antepassados. Alguém deve ter fechado a gaveta e matado o rato que entrou ali.
+
+"E a raposa?"
+
+A raposa está manifestada. Não é bom que ela fique dentro do altar budista. Há quanto tempo o Kannon do Biombo está consagrado?
+
+"Há uns três anos."
+
+Se estivesse fora do altar, ao lado, não haveria problema. Algumas raposas são extremamente apegadas. E Daikoomyoo Nyorai-Sama, desde quando?
+
+"Há uns quatro anos."
+
+Então não é nada grave. Nesse caso, basta falar com a raposa antes. Diga: "Até hoje, nós o cultuamos aqui, mas agora consagramos Daikoomyoo Nyorai-Sama e o Kannon do Biombo. Gostaríamos de pedir que retorne ao seu lugar de origem". Certamente vocês devem ter tido fé em Toyokawa Inari ou Fushimi Inari no passado. Agradeçam e se desfaçam do objeto. Se não fizerem isso, ela ficará zangada.
+
+"Não sabemos de onde veio nem quem a trouxe..."
+
+Isso não importa. Basta dizer essas palavras.
+
+"No caso de úlcera e ptose gástrica, quando o calafrio não passa mesmo após mais de uma hora de Johrei..."
+
+Onde estão ministrando o Johrei?
+
+"Entre a omoplata e a coluna vertebral, na parte de trás do estômago."
+
+É um pouco mais abaixo. Na parte de trás, certamente há uma massa endurecida. É possível senti-la mesmo por cima da roupa. Haverá um ponto que é o mais quente; é ali que a toxina se concentra. Ministrem Johrei nesse local. Vocês estão ministrando no lugar errado. Mesmo por cima da roupa, há um ponto mais quente. É ali que devem ministrar.
+
+"O calafrio tem alguma outra causa?"
+
+A causa do calafrio está nesse ponto.
+
+"A febre baixa pode estar em vários lugares?"
+
+Sim, em vários. Essa pessoa tem toxinas em outros locais, mas a causa principal está ali.
+
+"Em quantos minutos a febre deve ceder?"
+
+Varia. Pode ceder em cinco minutos, ou pode levar trinta. Depende da quantidade e da intensidade da toxina.
+
+"Passei pela purificação de uma úlcera gástrica e, graças à proteção Divina, já conseguia me alimentar, mas acabei falecendo de tuberculose laríngea. Toda a minha família estava entregue à fé, mas os parentes disseram: 'A fé é boa, mas se não recorrerem também aos medicamentos, não podemos aceitar', e trouxeram um médico. Cedemos um passo e combinamos o tratamento médico com..."
+
+Absolutamente não. Se você tem um pensamento tão indeciso, é melhor que você mesma abandone a fé. Combinar o tratamento médico com o Johrei é como tentar encher um cesto de palha com água. É uma ofensa gravíssima a Deus. É absolutamente proibido. Contudo, dependendo das circunstâncias, pode não ser possível evitar. Por exemplo, se a pessoa está hospitalizada e pedem com insistência, pode acontecer de ambos os tratamentos ocorrerem. Mas, se houver conflito com os parentes, afaste-se. Se toda a família concordar e pedir, você pode ajudar, mas, caso contrário, é melhor se retirar.
+
+"Ao tentar colocar seus ensinamentos em prática, enfrento sucessivos fracassos. Penso que devo pedir perdão a Deus e me esforçar para conseguir, mas não vejo resultados."
+
+Poderia dar um exemplo? Dito de forma tão abstrata, não consigo compreender.
+
+"No trabalho, torno-me ineficiente. Não consigo praticar os princípios do Daijo e do Shojo, e acabo gerando antipatia nas pessoas."
+
+E qual o problema nisso? Se um ser humano conseguisse, desde o início, que tudo saísse como deseja, sua vida terminaria. A existência humana consiste em, constantemente, tentar fazer com que as coisas que não saem como queremos passem a sair. Se tudo ocorresse como desejamos, o mundo não teria graça. Para começar, não se trata dos outros; nós mesmos não conseguimos agir como gostaríamos. Quem consegue controlar a si mesmo perfeitamente é alguém extraordinário. A vida consiste em tentar fazer com que as coisas aconteçam como queremos, então está tudo bem. Não há motivo para preocupação. No fim, tudo se torna conforme a Vontade de Deus. É justamente no esforço para superar as dificuldades e fazer com que as coisas aconteçam que reside o valor de uma pessoa.
+
+"Meu filho faleceu, e, como moro longe e não tenho condições financeiras de ir até lá, posso construir um novo túmulo?"
+
+Sim, pode. Se há uma razão como essa, sim.
+
+"Posso colocar meu filho no mesmo túmulo do meu marido?"
+
+Isso seria ainda melhor.
+
+"Logo depois que entrei na fé, desfiz-me de um santuário de Inari..."
+
+Isso não foi bom.
+
+"Ele estava vazio por dentro."
+
+Isso acontece. Nesse caso, não há problema. Se estava vazio, tudo bem.
+
+"Uma pessoa que faleceu de tuberculose, antes de morrer, pediu um Ohikari de 'Koomyoo'. Na ocasião, não foi possível providenciar, mas agora a família conseguiu um e gostaria de colocá-lo na tabuleta memorial. Como devem proceder?"
+
+Sim, devem obter o Ohikari e colocá-lo ao lado da tabuleta memorial. Deve ficar lá até o primeiro aniversário de falecimento, por um ano. Façam isso por ele. Há um apego, e isso ajudará a desfazê-lo.
+
+"Uma pessoa que teve um natimorto gostaria que um missionário da Igreja Messiânica desse um nome à criança..."
+
+Isso não é permitido. Nós ainda não temos essa atribuição.
+
+"Deve ser de um templo budista?"
+
+Isso mesmo. Assim está correto.
+
+"Em alguns lugares, quando ocorre um natimorto, apenas se faz o registro do óbito."
+
+É preciso cultuá-lo. Eu tenho ensinado que, a partir do quinto mês de gestação, a criança deve ser cultuada.
+
+"Minha sogra diz que isso é desnecessário, mas ainda assim é preciso cultuá-lo?"
+
+Sim. Do contrário, haverá consequências no futuro.
+
+"No caso de tuberculose óssea na coluna, é melhor remover o gesso mesmo sem ministrar Johrei?"
+
+Sim. Usar esse tipo de imobilização é um grande erro. Se a pessoa se recusa a tirar, então é melhor não ministrar Johrei.
+
+"Ao apreciar obras de arte, quando a pessoa não se satisfaz em apenas olhar de fora, seria permitido que pessoas verdadeiramente especiais as tomassem nas mãos?"
+
+Isso não é bem assim. As peças que se aprecia tomando nas mãos são os utensílios de chá. Para isso, os praticantes da cerimônia do chá têm seus próprios encontros, em dias e horários determinados, para desfrutar dessa experiência. É um costume à parte. Portanto, embora eu possa, eventualmente, promover algo assim, não é a prática de um museu.
+
+"Como o senhor construirá um salão de estilo japonês no terceiro andar, pensei que seria para esse fim..."
+
+Talvez eu o faça, mas o propósito fundamental do salão japonês no terceiro andar é permitir que os estrangeiros apreciem a arte em um ambiente japonês, para que possam vivenciar a atmosfera de um cômodo tradicional. Contudo, como você mencionou, pode ser que, em algum momento, eu promova encontros para pessoas com conhecimento da cerimônia do chá, mas não posso afirmar com certeza. Isso se aplica apenas às tigelas de chá. Há pessoas que não se satisfazem se não puderem tocá-las, os verdadeiros apreciadores.
+
+"Uma estátua de Daikoku, que recebeu a consagração espiritual, rachou, e o fardo de arroz que ela carrega se partiu em dois."
+
+Basta consertá-la.
+
+"E ao lado da orelha?"
+
+Conserte. Peça para que preencham com madeira e a restaurem.
+
+"No meio do rosto."
+
+Deve ser o nariz. No meio do rosto, há o nariz. O nariz deve ser reparado com especial cuidado. É o pilar do rosto.
+
+"A estátua de Ashura na loja Mitsukoshi está com a unha do dedo mais baixo de um dos braços quebrada..."
+
+Deve ter se quebrado por ser antiga.
+
+"Em termos de valor..."
+
+É melhor que não esteja quebrada. Uma peça íntegra é sempre melhor.
+
+"Ao receber o Goryoshi, devemos pegá-lo em três, representando o significado de fogo, água e terra?"
+
+Não, não é necessário. Um é suficiente.
+
+"Como devo descartar o Goryoshi que usei para hemorroidas?"
+
+Basta queimá-lo.
+
+"Quando usamos o Goryoshi, a purificação se acelera e a toxina se concentra com mais força. No caso do rosto, podem ficar marcas. O que fazer?"
+
+As marcas são temporárias.
+
+**[1º de abril]**
+
+"Recentemente, os fenômenos espirituais têm ocorrido com grande frequência no mundo, e seu estudo tem se difundido. Dentro da nossa Igreja, também se ouvem relatos de fenômenos espirituais. Nesses casos, parece-me que raramente se trata da manifestação de um espírito correto. E, mesmo que um se manifeste, nem sempre é um espírito correto, o que torna a questão do discernimento de espíritos, o *saniwa* (審神), de suma importância. Contudo, isso não tem sido praticado em nossa Igreja. Como exemplo, há casos em que a própria pessoa se ilude, acreditando ser um espírito correto, e outros, ao ouvirem isso, propagam palavras e ações contrárias aos princípios da Igreja, ameaçando criar dissensões. Gostaria de receber uma orientação de Meishu-Sama a esse respeito."
+
+Eu já escrevi sobre isso. Se lerem, compreenderão bem a questão da possessão espiritual. Escrevi diversas vezes. Não se pode dizer que a possessão seja totalmente errada, nem que seja sempre boa. Há casos bons e casos ruins. O ponto é que, se a fé da pessoa for sólida, um espírito maligno não se manifestará. E, mesmo que um espírito maligno se manifeste em alguém próximo para tentar enganá-lo, não terá sucesso, pois o espírito sabe muito bem disso e não o fará. Portanto, se alguém é enganado por um espírito maligno, é porque sua fé é superficial ou sua mentalidade está equivocada. Ser enganado e passar por diversas situações é, na verdade, uma forma de purificação. No fim, a pessoa acaba melhorando. Como é Deus quem está agindo, o erro está em interpretar e julgar o que é bom e o que é ruim. Se fosse algo verdadeiramente mau, eu interviria imediatamente. Em última análise, o que importa é ler os Ensinamentos e solidificar a fé. Com isso, não haverá mais erros.
+
+"Alguns dizem: 'Não é preciso dar dinheiro, basta oferecer a vida. Portanto, os dirigentes que pedem dinheiro estão possessos por espíritos malignos'. Ou ainda: 'Primeiro, seus lares devem se tornar o Paraíso Terrestre, e só depois devem servir. É natural que ensinem após seus próprios lares se tornarem um modelo de Paraíso'. Essas ideias estão causando dissensões. Eu argumento que Cristo disse 'O Reino dos Céus está próximo', e Buda pregou a 'extirpação do sofrimento e a concessão da alegria', mas Meishu-Sama está construindo o Paraíso Terrestre, por isso o dinheiro é necessário. No entanto, meu argumento não os convence. Dizem que, mais do que Meishu-Sama..."
+
+Vou explicar detalhadamente. As pessoas vivem dizendo que vão dar a vida, que vão oferecer a vida, mas isso é um grande incômodo. Receber a vida delas não serve para nada. O dinheiro é muito mais útil que a vida. É por estarem vivas que podem servir. Portanto, gostaria que parassem com essa ideia de oferecer a vida. Quero que sirvam sem oferecê-la. Esse discurso de "oferecer a vida" é uma relíquia do militarismo. Foi o exército que criou essa moralidade de "oferecer a vida".
+
+Quanto ao dinheiro, a ideia de doar apenas o que for possível dentro do que sobra também está correta. Não há problema nisso. Mas, para alguns, apenas isso não basta. Pensar: "Recebi tantas graças que gostaria de oferecer até mesmo a minha vida" também não é errado. O desejo de servir à Igreja com uma contribuição financeira, por menor que seja, também é bom. Economizar em outras coisas para poder doar também é correto. Nenhuma das posturas está errada. Cada um deve agir conforme seus sentimentos. O erro está em decidir que "isto está errado" e "isto está certo". A forma de pensar varia de acordo com a profundidade da fé de cada um, e está tudo bem. Apresentar um lar materialmente estável e em boas condições é algo excelente.
+
+Contudo, embora ambas as formas de pensar sejam boas, não se deve ir a extremos. É preciso agir com equilíbrio, com Izunome. Se alguém deseja fazer um donativo, mas sua família está passando por dificuldades, e mesmo assim o faz, as pessoas de fora verão e pensarão: "Passando por tantas dificuldades... não há como frequentar a Igreja Messiânica". Não se deve chegar a esse ponto. Por outro lado, se a pessoa pensa apenas: "Vou servir com o que sobrar", isso não corresponde à imensa graça recebida. A doação em dinheiro é uma forma de agradecimento a Deus. A rigor, se considerarmos que recebemos de volta uma vida que estava perdida, poderíamos doar tudo o que temos. Comparem: se perguntassem "O que é melhor, seus bens ou sua vida?", todos diriam que é a vida. De que adianta ter bens sem ter vida? Isso também é lógico. Por outro lado, se a doação fizer com que os parentes comentem, de forma equivocada, "Não adianta nada receber a vida de volta para viver assim", isso também não é bom. Portanto, a moderação é fundamental. O ideal é encontrar o justo meio.
+
+Ademais, todos carregam o pesado fardo de seus pecados. Ajudar os doentes é esplêndido, e servir com dinheiro para acelerar a construção do Paraíso Terrestre também é esplêndido. O segredo está no equilíbrio. É difícil, mas cada um deve agir de acordo com o que considera ser o seu melhor, o seu dever. As questões e os princípios da fé devem ser aprimorados lendo os Ensinamentos, e os missionários, por sua vez, devem me fazer perguntas e ouvir minhas palavras. Além disso, devem aprender com seus superiores, os ministros, fazendo-lhes perguntas e ouvindo suas orientações.
+
+O pior de tudo é dizer: "Aquela pessoa não deveria agir assim" ou "Aquela pessoa está errada". Isso é o que não se deve fazer. Os seres humanos não têm a capacidade de saber o que é bom ou ruim nos outros. Somente Deus sabe. Dizer que alguém é um espírito maligno ou está possesso por um espírito maligno é usurpar o papel de Deus, o que é algo gravíssimo. Portanto, não olhem para os outros, olhem para si mesmos. Perguntem-se se vocês estão errados ou não. Essa é a verdadeira sinceridade. As pessoas pensam que é bom repreender ou advertir alguém que está agindo mal, mas isso é um erro tremendo. Na sociedade em geral, pode ser aceitável, mas, uma vez que se tornaram membros desta Igreja, não é permitido. Se alguém estiver errado, Deus o corrigirá. É simples. Se não fosse assim, o ser humano estaria se colocando acima do poder de Deus. Escrevi sobre isso e publicarei no jornal. Nesse ponto, somos muito diferentes do mundo em geral. Esse é o segredo da fé.
+
+Em suma, o erro está em julgar tudo. Quem julga, erra. Há coisas que não podem ser julgadas. Portanto, a regra geral é não julgar, e julgar apenas o que for absolutamente necessário. As situações variam, e decidir que "não se deve julgar" de forma absoluta também é um erro. É aí que reside o estado de infinita transformação, de profunda e sutil complexidade. Aquele que se aproxima, ainda que minimamente, desse estado, está verdadeiramente polindo seu espírito. Isso não existia nas fés do passado. É uma fé elevada. A fé de uma pessoa assim não contém erros, pois essa é a Verdade.
+
+Quando se pensa com essa mentalidade, tudo se torna interessante. Ao observar o mundo com essa perspectiva, compreende-se tudo com grande clareza. Isso é o que se chama de Daijo. O caminho do Daijo é o cerne. No entanto, pregar o Daijo para uma pessoa de mentalidade Shojo muitas vezes leva a erros. Por isso, não se pode pregar o Daijo indiscriminadamente. É preciso agir com discernimento. Se a pessoa o compreende por si mesma, é algo grandioso.
+
+Por exemplo, dizem que o comunismo é ruim e que a União Soviética é deplorável. No entanto, o Japão de hoje está sendo salvo graças à União Soviética. A eclosão da Guerra da Coreia reanimou a economia japonesa, que estava estagnada. Graças a isso, o Japão está sendo tratado com benevolência pelos Estados Unidos. Um tratado de paz tão favorável e sem precedentes como este não existiria sem a União Soviética. Os Estados Unidos estão ajudando o Japão para evitar que ele seja atraído para a esfera soviética. E quanto à União Soviética? É deplorável, pois invade outros países. Para a Coreia, é um demônio terrível, mas para o Japão, está prestando um grande favor. Sendo assim, como julgar o que é certo e o que é errado? Este é o caminho do Daijo.
+
+Dentro da Igreja, também há pessoas equivocadas e de todos os tipos. Se fosse algo realmente grave, eu as advertiria. Mas minhas advertências não são do tipo "não faça isso" ou "pare com isso". Mesmo que alguém cometa um erro, pode ser que, através desse erro, a pessoa aprenda. Por isso, eu a deixo "bater a cabeça". Assim, ela pode despertar e pensar: "Ah, eu estava errado". Aqueles que não compreendem lendo os Ensinamentos sofrem por si mesmos, e assim podem alcançar o despertar. É bom deixá-los cometer seus erros. As pessoas dizem: "Fulano está fazendo tal coisa, é preciso adverti-lo". Mas eu respondo: "Ele vai bater a cabeça em breve, é melhor falar com ele depois disso". E, de fato, eu o deixo bater a cabeça. Por outro lado, há pessoas que conseguem despertar sem passar por esse sofrimento. Portanto, não se pode julgar o bem e o mal com base nas ações de uma pessoa. Isso é o Daijo. Quando a fé se aprofunda a esse ponto, eu falo sobre muitas coisas.
+
+Antigamente, quando me diziam: "Fulano está falando mal de você" ou "Fulano disse tal coisa", eu caía na gargalhada. Achava graça, não conseguia evitar. Eu mesmo me surpreendia. Falar mal de mim me diverte. O natural seria sentir raiva, mas eu não sinto. Sinto pena da outra pessoa, mas acho graça. E, quando eu rio, a outra pessoa perde o ímpeto. Há quem sinta prazer em intimidar os outros. Mas, quando se trata de mim, eu simplesmente rio. Não lhes dou importância. Se a pessoa se importa, por pouco que seja, com o que os outros falam dela, sua fé ainda é superficial. Porque nós não lidamos com os seres humanos, lidamos com Deus. O importante é agradar a Deus. Os seres humanos são incapazes de compreender a verdade. Esforçar-se e não ser reconhecido é algo comum na sociedade humana. Não se preocupe com isso; preocupe-se em agradar a Deus. E o que significa agradar a Deus? É salvar as pessoas. Salvar um doente que seja, torná-lo saudável. Se salvar uma pessoa já O agrada, imaginem dez, cem. Basta se dedicar a isso. Se pensarmos de forma complicada, tudo se torna complicado; se pensarmos de forma simples, tudo se torna simples.
+
+Temos muitos membros, e o número continuará a crescer. Entre eles, haverá pessoas equivocadas e pessoas problemáticas. É natural em um grupo grande. Mas Deus os reúne – são pessoas com elo espiritual. Falarei sobre isso também. E então, Ele os seleciona. Como resultado dessa seleção, haverá alguns que são inúteis, pessoas que seria melhor não existirem, que não têm o direito de viver. Então, é preciso remover essas pessoas da Igreja. Se a Igreja as expulsa, elas guardam ressentimento, e esse ressentimento se torna um obstáculo. Para que não guardem ressentimento, Deus cria uma situação de erro. Isso é o elo espiritual. A pessoa a ser removida acredita nessa situação. Assim, Deus age da maneira mais conveniente. As pessoas se preocupam, dizendo: "Fulano está se afastando da Igreja, que pena". Mas Deus precisa disso e cria um líder para remover essas pessoas da Igreja.
+
+É interessante também que, desde muito tempo, eu perco dinheiro. É o dinheiro do suor e do sangue dos membros, e tento não desperdiçá-lo, mas, sem que eu perceba, ele desaparece. De repente, sou enganado. Digo enganado, mas todos os anos gasto dinheiro de forma tola e inútil. O que acontece é que os donativos dos membros chegam, e, quando os purificamos, surgem impurezas, coisas sujas. Não é que uma nota específica esteja suja e outra não. Deus seleciona todo o dinheiro, o purifica. E sobram resíduos. Essa parte, de forma alguma, pode ser usada para construir o Paraíso Terrestre. É inevitável. O caso do automóvel recentemente foi isso. Esta é uma explicação do ponto de vista do Daijo. Do ponto de vista do Daijo, há muitas coisas que não podem ser compreendidas facilmente pelo julgamento humano. Por isso, quando algo acontece, é preciso pensar de uma perspectiva ampla, geral, para se ter uma compreensão aproximada.
+
+Até hoje, mesmo quando me dizem: "Aquela pessoa é má, é preciso ter cuidado", eu continuo a utilizá-la, a me encontrar com ela e a interagir de várias formas. Afinal, de uma perspectiva mais ampla, ela está sendo útil de alguma maneira. Nas escrituras da Oomoto, há uma passagem que diz: "Desta vez, será a grande peça de teatro dos três mil mundos". Isso é muito interessante. É, de fato, uma peça de teatro. E uma peça não funciona apenas com personagens bons. É preciso haver vilões. O herói sendo atormentado pelo vilão é parte do enredo. Desse ponto de vista – embora não haja vilões na Igreja –, a pessoa age pensando que está fazendo o bem, que é para o bem dos membros, para o bem de Deus. No entanto, por falta de sabedoria, ela acaba considerando como bom algo que, na verdade, é um erro. É a sabedoria que falta. A pessoa pensa que está agindo para o bem de Deus, mas, na verdade, está atrapalhando. A sabedoria é necessária, mas não se pode obtê-la sem um treinamento considerável.
+
+Além disso, quando ouço as discussões entre as pessoas, percebo que, muitas vezes, ambos os lados têm razão. Eles estão desempenhando seus papéis na peça. Por isso, como eu disse antes, o pior de tudo é julgar. As pessoas vivem dizendo "espírito maligno, espírito maligno", e isso é o que há de pior. Não se deve pronunciar essa palavra. Até os espíritos malignos têm uma função útil; são necessários para Deus. O importante é não se tornar um espírito maligno. Não se preocupe com os espíritos malignos dos outros. É um excesso de zelo. Eu escrevi sobre isso desta vez: há quem chame os outros de espíritos malignos. Essa pessoa está se colocando no lugar de Deus, usurpando Sua posição. Quem diz isso está em uma posição muito séria, pois se coloca no lugar de Deus. Não que se torne Deus, mas se coloca acima d’Ele, o que significa que essa pessoa é que está verdadeiramente possessa por um espírito maligno. Em primeiro lugar, não é possível saber se alguém é ou não um espírito maligno. Dizem que, por ter uma raposa manifestada, é um espírito maligno. Mas existem raposas admiráveis. Se não fossem necessárias, Deus as eliminaria. Elas existem porque são necessárias. Julgar o bem e o mal é algo muito difícil.
+
+Você pode pensar: "Aquele sujeito está possesso por um espírito maligno". Pensar isso não há problema, mas dizer a outra pessoa: "Aquele sujeito é um espírito maligno, cuidado" – isso se torna um pecado. "Aquela mulher, estou apaixonado por ela. Que mulher bonita". Apenas isso não há problema, é inevitável. No cristianismo, isso seria o pecado da luxúria, mas, enquanto não houver contato físico, não há pecado. Falar sobre isso não teria fim, então vamos parar por aqui.
+
+Vocês viram os minerais? Quem não tem conhecimento de mineralogia pode achá-los magníficos, mas não compreende sua real qualidade. Há vinte anos, tenho interesse em mineração e, de vez em quando, me envolvi com isso. Houve períodos em que parei, outros em que retomei, mas posso afirmar que um minério como este provavelmente não existe em nenhum outro lugar. É algo realmente extraordinário. Este contém três tipos de metal: chumbo, cobre e zinco. A parte que brilha intensamente e forma cristais é a blenda de zinco. A parte preta e brilhante é o chumbo, também chamado de galena. E a parte amarelada, que parece pó de latão, é a calcopirita, a forma mais comum de minério de cobre. O cobre aparece em outras formas, como a bornita, mas a calcopirita é a mais frequente. Este é um minério formidável, e também foi preparado por Deus. A mina fica em Minakami, uma localidade famosa por suas fontes termais. O local fica a apenas trezentos metros da estação. Creio que não haja nenhuma outra mina no Japão tão perto de uma estação. Geralmente, as minas ficam a quilômetros da estação, por estradas provinciais, e depois mais quilômetros por estradas rurais para entrar na montanha. A trezentos metros da estação... é como se fosse uma pousada. De um lado, as fontes termais de Minakami; do outro, a montanha. Comprei esta montanha no ano passado. A mina de Akita já estava em operação e continua, com planos grandiosos devido ao tamanho da montanha. Acredito que também se tornará uma grande mina.
+
+No outono passado, trouxeram-me um pedaço de minério do tamanho de um punho, da montanha de Minakami. Ao vê-lo, percebi que era algo extraordinário e decidi comprá-la imediatamente. Normalmente, não se compra uma mina apenas olhando para o minério. É preciso enviar alguém para inspecionar a montanha ou ir pessoalmente, fazer análises e pesquisas. Nesses assuntos, sou muito rápido. É que, da parte de Deus, recebo certas indicações. Começamos a trabalhar em pequena escala e, no outono passado, fui visitar a montanha. Havia um veio fino que estava sendo explorado aos poucos, mas eu senti que não era ali. Disse que precisávamos cavar mais abaixo. Acontece que, mais abaixo, havia uma antiga galeria, com cerca de vinte metros de comprimento. Mandei que explorassem o local, mas, como havia sido escavada trinta anos antes, mais da metade estava soterrada por desmoronamentos. Como já existia a galeria, o trabalho progrediu bem. Era uma galeria de tamanho padrão, com cinco pés de largura por seis de altura. Avançamos cerca de oitenta a noventa metros. Faltava pouco para chegarmos abaixo do veio fino que eu havia visto. Eu sabia que, abaixo do veio fino, ele se tornaria mais grosso. E, ao avançarmos um pouco mais, a apenas um metro e meio de onde os antigos exploradores haviam parado, encontramos o minério.
+
+Isso é um verdadeiro milagre. Os primeiros exploradores investiram muito dinheiro e, no fim, desistiram. É comum isso acontecer em mineração. Geralmente, as pessoas contraem dívidas. Ninguém explora uma mina com capital próprio. Os capitalistas e as grandes empresas compram minas já descobertas, investem muito dinheiro, montam uma grande operação e obtêm sucesso. As pessoas com poucos recursos contraem dívidas na esperança de encontrar algo e vender para um capitalista. Os exploradores da mina de Minakami desistiram quando não podiam mais continuar. E o minério estava a apenas um metro e meio de distância. Deus os impediu de continuar. Por isso, todos na aldeia diziam que não havia nada naquela montanha. Muitos haviam trabalhado lá. Diziam: "É estranho, investimos tanto dinheiro e não encontramos nada". Agora, eles vêm visitar e ficam espantados. Dizem que o que Deus faz é diferente.
+
+É algo realmente extraordinário. Mostrei o minério a um engenheiro da mina de Kamioka, e ele disse que é o melhor do Japão. Portanto, esta montanha tem três "números um". O minério é o número um do Japão. A logística de transporte também. A base de operações é excelente. Vamos instalar um teleférico da montanha direto para a estação. Normalmente, o transporte até a estação é uma grande dificuldade. São dezenas de quilômetros de caminhão. Em Akita, o transporte de uma tonelada até a estação custa vinte mil ienes. O minério precisa ser muito bom para compensar. Em Minakami, é simples, o número um do Japão. E, no momento, estamos construindo os alojamentos. A maioria dos mineiros será composta por membros voluntários. Para cada dez voluntários, precisaremos de um ou dois profissionais. O custo da mão de obra também será praticamente nulo. O minério é o número um, o transporte é o número um, e o custo da mão de obra é o número um. Por isso, é algo formidável.
+
+Não existe um minério como este em todo o Japão. Por isso, pensei: "Isto é, de fato, obra de Deus". É algo impressionante. Geralmente, o minério é uma mistura de minerais na rocha. Mas o de Minakami é o contrário: é rocha misturada no minério.
+
+Mudando de assunto, Kichiji, o garimpeiro, era um mestre em encontrar ouro. Yoritomo o convocou à força, ameaçando-o de morte se não fosse. Ele o levou para Kamakura e o fez encontrar a mina de ouro de Oohito, em Izu. Foi com o ouro que Yoritomo conquistou o poder. A base do Monte Amagi tem ouro; ainda há. Desde a antiguidade, quem conquistou o poder o fez com ouro. Hideyoshi também. E os Tokugawa, com o ouro de Sado. Quando o ouro de Sado se esgotou, os Tokugawa caíram. Se ainda houvesse ouro em Sado, a Restauração Meiji não teria acontecido.
+
+Eu penso que, mesmo sendo uma religião, o dinheiro é fundamental. Aliás, para salvar o mundo através da religião, é preciso mais dinheiro do que para conquistar o poder pela guerra. Várias religiões surgiram ao longo da história, mas, talvez por a cultura não ser tão avançada, elas ignoraram muito o dinheiro. O dinheiro se tornou algo como um pecado. Isso se deve à fé Shojo. A fé Shojo diz que o dinheiro é um pecado. Mas, se for usado para o bem, não há problema. Para publicar, para viajar, para tudo é preciso dinheiro. Portanto, o dinheiro é muito necessário. No entanto, contando apenas com as doações dos membros, a menos que sejam muito generosas, é difícil realizar o trabalho como se deseja. Para salvar o mundo, é preciso uma grande soma de dinheiro. Por isso, comecei a exploração mineral. Tudo isso também foi preparado por Deus. Há coisas sobre a mina de Minakami que ainda não posso revelar, mas o que Deus preparou é extraordinário. Este minério que surgiu é apenas o começo. O veio continua. Escavamos apenas cerca de vinte metros do veio. Nos veios de cobre, existem os veios regulares e os bolsões de cobre. O de Minakami é um veio regular. E os veios regulares costumam ser longos. Podem ter trezentos metros. Mesmo os mais curtos têm cento e cinquenta a duzentos metros. Vinte metros são cerca de sessenta pés. Se o veio tiver duzentos metros, ainda temos dez vezes mais para explorar. E a profundidade de um veio regular de cobre costuma ser de cento e cinquenta a duzentos metros nos mais profundos, e noventa a cento e vinte nos mais rasos. E a zona mais rica fica a cerca de dois terços da profundidade.
+
+Há cerca de vinte anos, estudei bastante sobre mineração. Como não podia frequentar uma escola, estudei livros, comprei amostras de rochas, pedi minérios de várias minas e visitei algumas montanhas pessoalmente. Assim, adquiri um conhecimento básico sobre o assunto. Do ponto de vista de Deus, a geologia atual está completamente equivocada, assim como a medicina e a agricultura. Eu analiso tudo com base na minha própria "geologia". Por isso, geralmente, consigo ter uma boa ideia apenas olhando para a forma da montanha e para o minério. Há muitos pontos em que minha visão é o oposto da geologia acadêmica. Portanto, para mim, a mineração não tem segredos. Consigo encontrar minério com facilidade. Para quem não é da área, pode ser difícil de entender, mas a diferença fundamental em relação à ciência é o que chamo de "princípio da solidificação". A teoria científica diz que o magma, um líquido que se torna mineral, sobe da terra. As fissuras nas rochas são preenchidas por esse magma, que se solidifica e se torna mineral. Minha visão é diferente. É um processo de solidificação. A terra, ao se solidificar, torna-se pedra. E o processo de solidificação é um processo de concentração, assim como as toxinas no corpo humano. Quando há toxinas, à medida que a purificação avança, elas se concentram em algum lugar. É o mesmo princípio. O pus, por exemplo, vai endurecendo. Os minerais também: a terra se solidifica e se torna pedra, e a pedra se torna metal. O chumbo é argila solidificada. Por isso, tem uma cor parecida com a da argila. A limonita é terra vermelha solidificada. O cobre... mesmo sendo avermelhado, vem da terra branca. Ou seja, cinza vulcânica. A cinza vulcânica é acinzentada. Quando se solidifica, forma o que na geologia se chama de tufo. No tufo, há pontos pretos. No início, são finos como pó, mas depois se tornam pontos. Com o tempo, eles se juntam e se transformam em chumbo, estanho e outros metais. Com mais uma etapa de solidificação, tornam-se cobre. E, com mais uma, ouro. Se o ouro se solidificar ainda mais, torna-se platina. O Japão não produz platina porque é um país jovem. Eu já escrevi sobre isso, não? Quanto mais antigo o país, mais ouro e diamantes ele possui. O diamante é a substância mais solidificada. É quartzo solidificado. O diamante e a platina têm naturezas diferentes. O diamante é quartzo solidificado. O quartzo se solidifica e se torna cristal; se se solidificar mais, torna-se diamante. Como o Japão é um país recente, produz cristal, mas não diamante. O xintoísmo diz que o Japão é o país mais antigo, mas isso é um erro. A cultura japonesa tem dois mil anos. O Egito tinha uma cultura há cinco ou seis mil anos. E os países jovens progridem mais rápido. A Igreja Messiânica, por ser a mais jovem, é a que tem mais força. Se o que é antigo fosse necessariamente bom, o budismo deveria ter muito mais força.
+
+Mas divaguei. Enfim, os minerais são assim. O calor da terra está sempre atuando. O calor do sol ilumina por baixo, e o calor da terra sobe. O calor do sol, embora seja calor, é de qualidade superior, tem uma energia muito mais forte. É mais rarefeito. O Johrei que ministramos é o calor do sol. O calor da terra é o espírito da terra. As plantas crescem graças ao espírito da terra. Esse espírito, quando se torna matéria, é o nitrogênio. As pessoas usam nitrogênio como adubo, mas não tem muito efeito, pois é a matéria. É preciso ser o espírito. Esse espírito está sempre sendo emitido, e é ele que causa a solidificação. O espírito penetra na crosta terrestre. A crosta terrestre, antigamente, era algo como lama que foi se solidificando, dando origem aos minerais. A intensidade da solidificação depende do espírito da terra. Quando as rochas se fissuram, um espírito da terra mais forte emana dali, causando uma solidificação mais intensa. E também a pressão. Tudo o que é pressionado endurece. É como o *takuan* (conserva de nabo). O nabo se torna aquela conserva crocante graças à pressão das pedras. E o centro da montanha. O pico da montanha é onde há mais pressão, então, abaixo dele, a pressão é maior. É ali que estou mandando cavar, em direção ao centro.
+
+"Se isso se tornar de conhecimento público, será um problema..."
+
+Mesmo que eu ensine, não fará grande diferença. Se Deus não permitir, não conseguirão encontrar nada.
+
+"Uma pessoa que trabalha com mineração há trinta anos, ao ouvir sua palestra outro dia, ficou espantada e disse: 'Pela minha própria experiência, é incrível como ele sabe tanto'..."
+
+Com certeza. De fato, quanto mais fundo se vai, mais cobre há. Mais acima, há chumbo, depois zinco, e então cobre. Por isso, estou mandando cavar um poço vertical.
+
+"A sulfetação costuma acompanhar, mas as naturezas são diferentes..."
+
+As naturezas são completamente diferentes. Embora diferentes, as moléculas da terra têm pontos em comum, em sua essência. Mas a base é diferente. A sulfetação está relacionada ao ferro, enquanto aqui se trata de cobre. Por isso, quanto mais fundo se vai, em qualquer montanha, mais cobre há. Assim, em uma mina de chumbo, à medida que se desce, encontra-se cobre.
+
+"Dizem que as montanhas boas não têm muitas árvores..."
+
+Isso é muito verdade. Há quem observe por esse aspecto. A montanha parece careca. Isso indica a presença de minerais. É o espírito do mineral que é emitido. Dizem que uma montanha "queimada" certamente tem minerais. No entanto, não se pode generalizar, pois em solos com cinza vulcânica as árvores não crescem muito. Em Hakone, as árvores são baixas por causa da antiga cinza vulcânica. Por isso, na região em torno do Monte Fuji, não há grandes florestas. O Fuji expeliu muita cinza vulcânica. Depende também do tipo de cultivo. A batata-doce, por exemplo, se dá bem em cinza vulcânica. Por isso, a região de Kanto é boa para batata-doce. E, quando o Fuji entrou em erupção, o vento soprava do sul, então a maior parte da cinza caiu ao norte de Kanto. Em Saitama, há muitos campos com bastante cinza vulcânica. Hoje, acabei falando demais. Agora, as perguntas.
+
+"Um pastor disse que, no dilúvio de Noé, após Noé e sua família serem salvos, houve uma grande tempestade que soterrou as grandes florestas, e que isso se tornou o carvão. E que as carcaças dos animais se tornaram o petróleo."
+
+As carcaças dos animais se tornarem petróleo... mesmo que contenham óleo. Mas, quanto ao carvão, é verdade, é madeira. O carvão são grandes florestas que foram soterradas.
+
+"Ele também disse que a água do dilúvio penetrou na terra, e a água atraiu o fogo, causando uma grande explosão."
+
+Isso faz sentido. Quando a água penetra na terra, a força do fogo aumenta muito, e ocorre uma explosão. Antes de se tornar carvão, é linhito. O linhito é quase como madeira. Enquanto a cultura humana não estava desenvolvida, a única forma de gerar energia era queimando carvão. O carvão está sendo esgotado. Os cientistas estimam que se esgotará em algumas centenas de anos. É natural. Então, surgirá uma nova fonte de energia. E essa fonte é a energia atômica. Ela se tornará a principal fonte de energia. Os Estados Unidos estão pesquisando intensamente. No entanto, a energia atômica também precisa de urânio, e o urânio não é abundante. Se o mundo todo o utilizasse, não seria suficiente. Por isso, será inventada uma forma de transformar outros minerais em urânio. Tudo isso faz parte do Plano de Deus, que está sendo conduzido da melhor maneira.
+
+"Ao comprar um terreno para um túmulo..."
+
+Da mesma forma de sempre, pagando por ele.
+
+"Até agora, era o pedreiro que cuidava disso..."
+
+Pode continuar assim.
+
+"E se não houver uma lápide?"
+
+É melhor providenciar uma o mais rápido possível.
+
+"E se eu construir uma lápide maior que a dos meus antepassados?"
+
+Para um recém-falecido, não é bom. Deve ser menor.
+
+"O túmulo do meu pai desapareceu, e ele quer comprar um em algum lugar. Pode ser em qualquer lugar?"
+
+É melhor que seja em um lugar com o qual haja algum elo espiritual. Em vez de ser algo que surgiu do nada, é melhor que seja perto da casa da família ou no local de origem. Os antepassados se alegram com isso.
+
+"Uma árvore cresceu debaixo da lápide e está saindo para fora. A tradição diz que se deve remover a lápide para..."
+
+É melhor cortar a árvore. Do contrário, a árvore se sobreporá. É melhor cortá-la o mais perto possível da raiz.
+
+"Duas irmãs em idade de casar tinham seus enxovais prontos. A mais nova adoeceu do peito e faleceu. Mais tarde, a mais velha se casou e, ao tentar usar as coisas da irmã, o espírito da falecida se manifestou em uma prima, dizendo: 'Minha irmã vai se casar e levar minhas coisas, mas eu não vou deixar de jeito nenhum', e se debateu. As roupas não foram usadas e continuam oferecidas diante do altar budista. Seria melhor queimá-las?"
+
+Guarde-as. Queimá-las, de jeito nenhum. É melhor guardá-las em um armário. Porque, no Mundo Espiritual, ela usa essas roupas. Ela se enfeita no Mundo Espiritual. Se não as tiver, não poderá se vestir e ficará em apuros. Se as guardar no armário, ela as usará, e estará tudo bem.
+
+"O senhor ensinou que, se uma massa se move dentro da barriga, é o espírito de uma cobra..."
+
+Não necessariamente uma cobra, mas é o caso mais comum.
+
+"Quando ministro Johrei, faz um som borbulhante e muda de lugar. E o que é esse som?"
+
+Há dois tipos de som. A cobra vai para onde há toxina. Então, o som é uma combinação do som da toxina se dissolvendo e da cobra se movendo. Primeiro, a cobra se move pela barriga, e esse movimento produz som. Nos casos mais simples, há pouca toxina. Mesmo que se dissolva, enquanto houver toxina, ela voltará, e o som retornará. E a dor?
+
+"Não há. Eu mesma ministro Johrei em mim, com o sentimento de que estou salvando o espírito. É correto proceder assim?"
+
+Varia. Algumas pessoas sentirão o desejo de salvar, outras sentirão raiva.
+
+"Qual dos dois é melhor?"
+
+O desejo de salvar é melhor.
+
+"Sinto que, em um caso como esse, preciso ter um sentimento diferente do dos outros membros..."
+
+É um pouco diferente, sim. Mas, se continuar ministrando com perseverança, o espírito irá enfraquecendo.
+
+"Tenho apetite, mas, quando vou comer, sinto o peito cheio e não consigo engolir."
+
+O "senhor" que está aí dentro ainda não se arrependeu. Casos assim levam tempo.
+
+"Sou a pessoa que recebeu orientação sobre o câncer de mama. Depois, o Reverendo Kihara me perguntou se não seria mesmo possível consagrar Daikoomyoo Nyorai-Sama. Após analisar a situação, percebi que a viga do teto era baixa, pedi perdão e realizei a consagração. Desde então, meu apetite voltou e me sinto melhor. Depois disso, algo duro sobe e aperta meu coração, causando sofrimento, mas, quando recebo Johrei, sinto alívio. Seria o mesmo espírito de que acabamos de falar?"
+
+Os espíritos variam muito. Há os que se arrependem e os que não, os que guardam ressentimento e os que desejam ser salvos.
+
+"Eu sofro muito."
+
+O sofrimento indica um espírito que guarda ressentimento. Ele também sofre.
+
+"Eu dormia no segundo andar e agora consigo descer para o primeiro..."
+
+O "sujeito" está enfraquecendo.
+
+"Meu filho de dois anos, ao tentar pegar um brinquedo no altar, arranhou a letra 'Myo' do Goshintai com uma vareta. Pensei em trocá-lo imediatamente, mas, como meu marido e meu filho não compreendem, não pude realizar a cerimônia de agradecimento."
+
+Isso não é bom. Não se pode deixar o Goshintai arranhado. É melhor enrolá-lo imediatamente e esperar o momento certo. Situações como essa ocorrem quando ainda é muito cedo. A consagração deve ser feita quando toda a família estiver pronta. Como ainda era cedo demais, isso aconteceu. Portanto, enrole-o, peça perdão e espere o momento certo. O correto é que os opositores, no caso, o chefe da família, ingressem na fé e, então, realizem a consagração.
+
+"Penso que o *tokonoma* talvez não seja adequado."
+
+Isso também pode ser um fator, mas o essencial é que o chefe da família ingresse. A oposição da esposa não é um grande problema, mas a do chefe da família, sim. Ele é o centro. Mesmo que consagrem a imagem, Deus não virá.
+
+"Ele não se opõe, mas não ingressa na fé."
+
+Mesmo assim, não é bom. É preciso que ele ingresse.
+
+"Nasci com uma costela a mais. Há dez dias, comecei a receber Johrei por dez minutos, e algo como uma agulha começou a sair. A cada Johrei, ela se movia, e no sétimo dia, saiu. Seria um espírito animal de uma vida passada?"
+
+De fato, não é algo comum.
+
+Quanto ao que eu estava dizendo, que ficou incompleto: se vendermos este minério agora, seremos explorados e pagaremos muito pouco. Porque, se o zinco, o chumbo e o cobre estivessem separados, poderíamos vendê-los pelo preço de mercado. Mas, estranhamente, as mineradoras são especializadas: cobre é cobre, chumbo é chumbo. Um minério que contenha grandes quantidades dos três, como este, nunca existiu. Então, eles o classificam como um ou outro. Mas este tem quantidades significativas dos três. Se o levarmos a uma mineradora de cobre, eles considerarão apenas o cobre e desvalorizarão o resto. Se formos a uma de chumbo, olharão apenas para o chumbo e farão o mesmo. Por isso, pagariam menos. O cobre está em falta agora e com um bom preço, mas o chumbo está em baixa. É que, durante a Guerra da Coreia, eles liberaram todos os estoques. Com o arrefecimento do conflito, a compra diminuiu. Mas, eventualmente, o Japão se rearmará. É melhor guardar o minério até lá. A opinião da mina de Kamioka é a mesma. O preço vai subir, é melhor esperar. Por isso, estou focando no cobre. Quero ir mais fundo e extrair o cobre.
+
+De qualquer forma, é preciso separar os minerais. Já providenciei parte do equipamento de beneficiamento, mas ainda não está completo. Estou apressando o processo. A instalação deve levar mais um mês, e com os ajustes, prevejo que estará pronto no final do próximo mês. Então, poderemos separar e vender o zinco, o cobre e o chumbo separadamente, obtendo o valor total. Nesta mina, cinco pessoas conseguem extrair cerca de uma tonelada por dia. Com cem pessoas, podemos extrair vinte toneladas diárias. Estou planejando ter cem trabalhadores. Para isso, precisamos construir alojamentos. O primeiro já está pronto, para cerca de vinte pessoas. Ainda pretendo construir o segundo e o terceiro. Os carpinteiros são membros da Igreja. O objetivo é ter cem pessoas. Este mês, construiremos dois alojamentos, e no próximo, mais dois. Precisaremos de membros voluntários para trabalhar como mineiros. Será um trabalho pesado, certamente mais exigente que o do Paraíso Terrestre. Por isso, gostaria que pensassem em pessoas que possam se dedicar por, no mínimo, três meses. Precisamos de cem pessoas, mas não de uma só vez. É melhor ir aumentando o número mensalmente.
+
+Assim, se o plano de uma tonelada para cada cinco pessoas, ou duas para cada dez, se concretizar, devemos considerar que a produção final será metade disso, pois, no processo de beneficiamento, selecionaremos o melhor material. Se o minério bruto tiver 2% de cobre, após o beneficiamento, chegará a cerca de 20%. O minério de Minakami é de alta qualidade, então o processo é mais simples. O minério bruto tem 40% de chumbo e zinco, e mais de 8% de cobre. Dobrar essa concentração é fácil. Assim, vinte toneladas de minério bruto se tornarão dez toneladas de concentrado. O cobre vale trezentos mil ienes por tonelada; o chumbo, cento e cinquenta a cento e sessenta mil; e o zinco, cento e setenta a cento e oitenta mil. Talvez um pouco mais, mas acredito que os preços se estabilizarão nesse patamar. E como os custos de transporte e mão de obra são muito baixos, mesmo após deduzir todas as despesas, o lucro deve ser de, no mínimo, cem mil ienes por tonelada. Se tudo correr como planejado, com cem trabalhadores, teremos um lucro de vinte a trinta milhões de ienes rapidamente. Acredito que isso acontecerá a partir do outono. Temos muitos projetos em Hakone e Atami que precisam ser realizados. E em Quioto também, está nos planos de Deus construir um Paraíso Terrestre.
+
+Por isso, não pensem que, porque a mina deu certo, as doações não são mais tão necessárias ou urgentes. Ainda não chegamos a esse ponto. E, embora no futuro a mina vá gerar uma grande receita e a situação financeira se tornará muito mais confortável, o ato de servir com dinheiro, do ponto de vista espiritual, é uma forma de pagar a dívida que todos temos com Deus por causa de nossos pecados e máculas. Quanto mais se acumula a dívida, mais juros ela gera, então é vantajoso pagá-la o mais rápido possível. O donativo apaga os pecados e as máculas. Falar muito sobre dinheiro não é algo que me agrada, e prefiro não o fazer, mas é bom que conheçam o princípio.
+
+Por essas razões, acredito que a situação financeira da Igreja não será muito folgada até o verão. Mas, quando começar a entrar receita, o Plano de Deus também avançará. Ainda há muitas coisas por vir. De qualquer forma, Deus fará tudo da melhor maneira. No ano passado, a situação da mina ainda não estava clara, embora já estivesse nos planos. Por isso, quando construímos o Salão Messiânico, eu disse que, embora não tivéssemos o dinheiro na época, Deus o proveria quando chegasse o momento. E, de fato, na hora certa, Deus sempre provê.
+
+Quando eu começar a atuar em escala mundial, precisarei de, no mínimo, dez bilhões de ienes. No futuro, construiremos obras magníficas também no exterior. Na China, pretendo construir algo grandioso no Palácio de Pequim. E em Jerusalém. Isso Deus já preparou há dois mil anos. Serão obras magníficas. Só no Japão, um bilhão não será suficiente. Mas Deus proverá o necessário, não há com o que se preocupar.
+
+O museu de Hakone, por exemplo. Começamos a preparar o terreno no ano passado, mas a construção só começou em novembro. O orçamento era de vinte a trinta milhões. Deus tem muita pressa. E, de fato, arrecadamos cerca de trinta milhões. Acho isso extraordinário. A construção custou cerca de vinte milhões. Com algumas alterações e despesas extras, o custo deve aumentar em uns dois milhões. As vitrines, umas cinquenta ou sessenta, custarão de cinco a seis milhões. Com os arredores e outros detalhes, o custo total será de exatamente trinta milhões. É impressionante como, no momento necessário, o dinheiro sempre chega. Diferente do que o ser humano faz, não há quase nenhuma preocupação.
+
+A mina também, a partir deste ano, começará a se manifestar de verdade. É preciso criar a forma. E há também o seguinte: o Paraíso Terrestre de Hakone será concluído este ano. O de Atami, pretendo terminar no próximo ano. Quando estiverem prontos, o mundo mudará drasticamente. E a Igreja se expandirá enormemente. A construção desses locais expandirá a fé na mesma proporção. À medida que eles crescerem, a fé se expandirá ainda mais, e nossa força aumentará. Não adianta apenas o espírito; é preciso salvar os seres humanos vivos. Por isso, estou apressando a construção do Paraíso Terrestre. Quando o Paraíso Terrestre estiver pronto, construiremos a Sede Geral de que falei. E, com a Sede Geral, nossa atuação se tornará mundial. O Paraíso Terrestre tem um alcance mais nacional. A Sede Geral, sua forma e tudo mais, já está pronta em minha mente. É apenas uma questão de tempo. De agora em diante, tudo será muito rápido. Há muitas coisas misteriosas, mas falarei sobre elas gradualmente.
+
+---
+
+# Coletânea de Ensinamentos nº 28 (Publicado em 15 de fevereiro de 1954)
+
+**Categoria:** gosuiji | **Ano:** 昭和29(1954)年2月15日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
+
+## Coletânea de Ensinamentos nº 28 (Publicado em 15 de fevereiro de 1954)
+
+### Ensinamento de 1º de fevereiro
+
+Recentemente, conversei com um jornalista americano chamado Grilli e com outro colega seu, ligado ao setor de turismo. Na ocasião, foi-me dito que, uma vez concluído o Paraíso Terrestre de Atami, ele será incluído nos roteiros turísticos. Até hoje, os destinos no leste do Japão se resumiam a Nikko, Kamakura e Hakone, com Atami ficando de fora. Agora, contudo, a cidade passará a integrar esse circuito.
+
+Durante nossa conversa, mencionaram que, para os americanos que visitam o Canadá, as Cataratas do Niágara são uma parada obrigatória. Disseram-me então: “De agora em diante, quem vier ao Japão sentirá a obrigação de conhecer o Paraíso Terrestre de Atami. O senhor Okada talvez não imagine a dimensão que isto tomará, mas é o que inevitavelmente acontecerá”. Na verdade, era exatamente isso que eu previa desde o início. Sempre afirmei que construiria algo capaz de causar assombro nos americanos. Há, inclusive, conjecturas sobre o futuro da manutenção do local: a ideia seria constituir um conselho de apoio com embaixadores e ministros de diversas nações, de modo que os países pacíficos colaborassem para sua preservação perpétua.
+
+Uma vez finalizado, não há dúvida de que o complexo alcançará uma projeção mundial incontestável. O que se vê hoje é apenas uma fração do projeto; sua escala será imensamente ampliada, tornando-se algo verdadeiramente esplêndido. Creio que causará uma surpresa extraordinária não apenas no exterior, mas também no próprio Japão. Indiscutivelmente, estamos criando algo sem precedentes na história japonesa, tanto em concepção quanto em execução.
+
+Somente este fato já será suficiente para que as pessoas reavaliem a Sekaikyuseikyou. Aqueles que até então nos viam como apenas mais uma nova religião, um pouco mais desenvolvida que as demais, serão forçados a abandonar essa visão superficial. Creio que se tornarão incapazes de não reconhecer a grandiosidade de nossa Obra.
+
+No próximo ano, daremos início à construção do Museu de Arte. Sua arquitetura seguirá o estilo moderno de Le Corbusier, porém imbuída de uma nobreza e requinte superiores aos do Auditório. Buscaremos um equilíbrio, inserindo toques clássicos em uma estrutura vanguardista. Ademais, incorporaremos elementos da estética chinesa e nuances do período Nara japonês, resultando em uma obra que transcende a imaginação. Em síntese, reuniremos o que há de mais belo no mundo. O entorno do museu será projetado para evocar a atmosfera de um paraíso celestial, uma sensação que palavras dificilmente conseguem descrever. Será preciso presenciar para compreender.
+
+Acredito que o terreno estará preparado até o final deste ano. E mesmo apenas o terreno já transmitirá uma impressão distinta, de uma escala monumental, muito superior à que se tem ao observar o Auditório e o mirante. Se os americanos já se impressionam com o que existe hoje, imagine o que sentirão no futuro. O outro jornalista que mencionei já visitou o local três vezes, o que demonstra seu notável interesse. Em contrapartida, é raro um jornalista japonês se dar ao trabalho de vir aqui sequer uma vez. De todo modo, quando estiver pronto, será um acontecimento formidável.
+
+Paralelamente, parece que as obras da estrada turística de Atami finalmente começaram, iniciando pelo trecho entre Atami e Yugawara. O projeto consiste em uma via panorâmica à beira-mar, uma extensão da nova estrada já existente na entrada da praia de Yugawara. Com a eliminação das curvas, o trajeto será praticamente retilíneo, permitindo um deslocamento muito mais rápido. Atualmente, a viagem entre as duas cidades leva no mínimo trinta minutos; com a nova estrada, esse tempo será reduzido pela metade. Concluída essa fase, seguir-se-á o trecho entre Yugawara e Odawara. Hoje, leva-se uma hora para chegar a Odawara, tempo que também será cortado pela metade.
+
+O Passo Jukkoku também passará por melhorias. Já está decidida a pavimentação do trecho que vai da estrada pedagiada até Atami, embora a retificação das curvas ainda não esteja confirmada. Pretendo, contudo, resolver essa questão futuramente. Com isso, no porvir, será possível criar uma rota mais curta e eficiente de Moto-Hakone a Gora, vindo pela direção oposta. Em suma, com as estradas adequadas, o percurso da minha residência até Gora poderá ser feito em apenas trinta minutos.
+
+Tal desenvolvimento impulsionará ainda mais a região de Hakone e Atami. Sem dúvida, tudo isso faz parte de um plano divino. Ao conectar Hakone e Atami em uma viagem de trinta minutos, será possível criar em larga escala um único Paraíso Terrestre unificado. Nesse tempo, o Passo Jukkoku também se tornará um lugar magnífico. Hakone representa o eixo vertical, e Atami, o horizontal; o ponto que os une é o Passo Jukkoku – daí o uso do ideograma para "dez nações". As coisas se transformarão gradualmente nesse sentido e, ao final, caberá a mim a condução desses projetos.
+
+Portanto, o Paraíso Terrestre de Atami que vemos hoje é apenas o prelúdio, o primeiríssimo passo. Quando estiver concluído, é certo que países como os Estados Unidos desejarão ter algo semelhante em seu território. Nesse caso, pretendo elaborar os projetos para eles. Contudo, como a viagem seria um tanto incômoda, creio que bastará enviar as instruções por meio de plantas e desenhos, sem a necessidade de inspecionar o local pessoalmente. E, antes disso, certamente construiremos um no Havaí.
+
+Encerro por aqui minhas palavras. Passemos às perguntas.
+
+**“Sou um membro que ingressou na fé em fevereiro de 1950. Em meados de novembro do ano passado, enquanto trabalhava no campo, perdi meu Amuleto Sagrado ‘Kōmyō’. Só percebi uma hora depois. O Amuleto estava sujo de terra. Pedi profundas desculpas e voltei a usá-lo, mas minha consciência pesa. O que devo fazer? A propósito, essa pessoa, que estava cega, foi salva pelo Johrei e, embora ainda não consiga ler jornais, já pode caminhar sem dificuldades.”**
+
+Por que não perguntou na ocasião? E esteve usando o Amuleto todo esse tempo?
+
+**“Sim, esteve.”**
+
+Questões como essa exigem uma resposta imediata. Deveria ter sido consultado no mesmo instante. Além disso, usá-lo e só depois pensar em purificá-lo é, na prática, um procedimento ilógico, totalmente equivocado. Portanto, não há outra alternativa senão receber um novo Amuleto. Se a consulta tivesse sido feita imediatamente, poderíamos ter considerado a purificação, mas tê-lo usado por tanto tempo... foi um ato impensado.
+
+Guarde esse Amuleto com zelo e, futuramente, poderá até mesmo emoldurá-lo. Como proteção para uso pessoal, contudo, é imprescindível receber um novo.
+
+Quando diz que o Amuleto arrebentou, refere-se ao cordão ou à parte que o prende? O cordão não deveria ser tão velho a ponto de se romper.
+
+**“Era um cordão de náilon. Parece que endureceu e partiu-se ao ser dobrado.”**
+
+Então o cordão de náilon é frágil. Nesse caso, é melhor não o usarmos mais. Os cordões tradicionais não apresentam esse problema. É preciso selecionar os materiais com mais critério.
+
+**“O Amuleto Sagrado vertical pode ser emoldurado?”**
+
+Sim, pode. Também pode ser montado como um pergaminho para pendurar, o que é até melhor, pois pode ser enrolado e guardado com segurança, sendo exibido em ocasiões especiais.
+
+**“Notei na Imagem Sagrada, do lado esquerdo, uma mancha de cerca de dois centímetros que parece ser sangue de mosquito. Pensei se isso indicaria algum erro em minha dedicação na Obra Divina. Qual seria a razão?”**
+
+Certamente, algo ocorreu, mas de pequena monta. Peça a um restaurador de arte sacra que a limpe.
+
+**“Consultei um restaurador, e ele disse que manchas de sangue não podem ser removidas.”**
+
+Nesse caso, peça a ele que cubra a mancha com um pequeno pedaço de papel. Um bom restaurador fará o trabalho com tal perícia que se tornará imperceptível.
+
+**“Sou um membro que ingressou em junho. Por volta de outubro, ao visitar uma loja de saquê de um conhecido, vi no cômodo dos fundos uma Imagem Sagrada de ‘Kōmyō Nyorai-sama’ entronizada. Perguntei ao dono se ele era membro, e ele negou. Insisti, apontando para a Imagem, e ele explicou: ‘Não sou eu quem a cultua. Uma pessoa, que parecia ser das redondezas, trouxe-a e pediu que eu a comprasse, então a adquiri e a pendurei’. Expliquei-lhe, então, o quão sagrada era aquela Imagem. Diante disso, ele disse: ‘Nesse caso, minha casa não é digna dela. Por favor, leve-a consigo’. E assim a trouxe comigo. Como devo proceder?”**
+
+Basta que seja purificada.
+
+**“Sou um membro que, desde o início, tinha uma Imagem de Daikōmyō Nyorai-sama entronizada. Agora, porém, desejo receber a Imagem de Kōmyō Nyorai-sama. Teria a permissão?”**
+
+Sim, tem a permissão. Guarde a Imagem de Daikōmyō Nyorai-sama e, quando chegar o momento oportuno de entronizá-la novamente, poderá fazê-lo.
+
+**“Há outros membros na mesma situação.”**
+
+Então, você mesmo pode orientá-los.
+
+**“Desde novembro de dois anos atrás, meu irmão tem apresentado um quadro de doença mental. Chegou a ter problemas com a polícia e foi internado. Saiu do hospital em novembro do ano passado, mas teve uma recaída e foi internado novamente. Atualmente, parece estar melhor e até lhe dão tarefas para fazer no hospital, que sugere que ele poderia receber alta. Meu irmão mais velho, contudo, teme uma nova crise e pediu que eu consultasse Meishu-Sama.”**
+
+O irmão mais velho vive com ele?
+
+**“Sim.”**
+
+Ele é membro?
+
+**“Sim. A família tem uma Imagem de Daikōmyō Nyorai-sama entronizada.”**
+
+Trata-se, indubitavelmente, de uma purificação. Qual é a profissão deles?
+
+**“São agricultores.”**
+
+E como é a fé que praticam?
+
+**“Até agora, encaminhou apenas umas cinco ou seis pessoas, dedica-se um pouco e chegou a enviar o irmão mais novo para servir em dedicação.”**
+
+Em qualquer circunstância, seja um infortúnio ou uma preocupação, a causa reside em máculas existentes, e o sofrimento é a sua purificação. Se a pessoa se empenhar ao máximo e acumular méritos, será purificada. Assim, o problema se resolverá por si só, mesmo que não se faça nada. Enquanto a purificação persistir, significa que ainda há impurezas a serem eliminadas, e por isso as preocupações não se dissipam facilmente. A raiz da questão está aí.
+
+Internar no hospital, curar com Johrei, buscar uma solução... tudo isso é secundário. A questão fundamental é servir a Deus da melhor forma possível. Ao fazê-lo, as máculas são eliminadas. E, uma vez que as impurezas desaparecem, a cura acontece naturalmente.
+
+**“O pai deles faleceu há dois anos de angina. Na época do pai, a família era bastante dedicada. Desde que o irmão mais velho assumiu, não encaminharam mais ninguém.”**
+
+Sendo assim, não há o que fazer. Terão que sofrer mais. Explique-lhes a razão. Se eles compreenderem, ótimo. Caso contrário, é melhor que sofram ainda mais, pois assim a purificação será mais rápida. O centro da família é o irmão mais velho?
+
+**“Sim.”**
+
+Então, é ele quem mais se preocupa e é mais afetado?
+
+**“Sim.”**
+
+Nesse caso, é esse irmão quem precisa se empenhar ao máximo. Ele lê os Ensinamentos?
+
+**“Atualmente...”**
+
+Quase não lê, não é? Pois bem, transmita-lhe o que acabei de dizer. Se ele compreender, ótimo. Se não, não resta alternativa senão aguardar o tempo certo.
+
+**“Um casal, ex-membros do cristianismo, veio até nós em 11 de janeiro após ler a coletânea de milagres. A pessoa sofria de uma doença no peito e se recuperou com o Johrei. No dia 30, em minha ausência, ao preencherem dois envelopes de donativo, um com os dizeres ‘Donativo pelo Johrei’ e outro ‘Gratidão pelo Johrei’, notaram que as mesmas palavras apareceram escritas em branco ao lado direito. A caligrafia da pessoa é inclinada para cima, mas as letras brancas que surgiram eram inclinadas para baixo. Um servidor da igreja também as viu da mesma forma. Eu também consigo ver, mas apenas as palavras ‘Donativo’. Qual o significado disso?”**
+
+Com certeza foi Cristo quem as escreveu. Ele compreende bem as coisas e, portanto, manifestou um milagre como um sinal de sua presença.
+
+**“O irmão dessa pessoa também é cristão e estuda em uma universidade cristã nos Estados Unidos. Ao ouvir sobre a Sekaikyuseikyou, a pessoa disse, com entusiasmo, que chamará o irmão de volta e o fará abandonar os estudos.”**
+
+Não há problema em fazê-lo abandonar os estudos. O máximo que ele obteria lá seria o domínio de um idioma. De todo modo, os cristãos são protegidos por Cristo. E Cristo é meu discípulo. Como seu mestre está prestes a iniciar Sua obra em escala mundial, ele não pode ficar de braços cruzados. Em suma, todos os grandes sábios e santos do passado estão agora trabalhando em uníssono. Um ser humano não seria capaz de tal milagre, mas para Cristo, é perfeitamente possível.
+
+**“Gostaria de perguntar sobre a consagração das estátuas de Daikoku. Há uma em que a consagração foi feita nas pálpebras superior e inferior. O entalhe do escultor não foi bom, e a localização dos olhos...”**
+
+Sim, é verdade. Fui eu quem me equivoquei. Existem algumas estátuas em que é difícil distinguir os olhos das pálpebras. Contudo, uma vez realizada a consagração, aquela parte se torna o olho, portanto, não há problema algum.
+
+**“A pessoa estava muito preocupada com isso.”**
+
+Pois a razão é essa que acabo de explicar.
+
+**“Uma pessoa que foi membro antigamente trouxe, em dezembro passado, uma estátua de Daikoku à nossa unidade, insistindo que a entronizássemos. Ela já havia sido consagrada por Meishu-Sama.”**
+
+Como souberam que fui eu quem a consagrou?
+
+**“A própria pessoa disse.”**
+
+Excelente.
+
+**“Precisamos purificá-la novamente?”**
+
+Não é necessário. Pode permanecer como está.
+
+**“Trata-se de um homem de 31 anos da província de Shiga. Há cerca de um ano, quando ora diante do Altar, ele entra em estado mediúnico. Embora não saiba ler nem escrever bem, se lhe dermos uma folha de papel grande, ele imediatamente desenha e compõe poemas. Uma vez, na presença dele diante do Altar, perguntamos a Deus quem se manifestava, e a resposta foi ‘Mestre Kenshin’, o que nos faz pensar que seja Shinran Shōnin. Ele desenha sobre o Céu e o Inferno, o estado da Grande Purificação e, recentemente, tem feito desenhos sobre a necessidade absoluta de se converter à Agricultura Natural. Ele também desenha sobre a grande praga de brusone que teremos este ano. Seus desenhos são feitos de forma rápida e bela, mas têm um toque ingênuo, assim como seus poemas.”**
+
+É precisamente por ser ingênua que se trata de Shinran Shōnin. Se a arte fosse refinada, o espírito seria de um pintor.
+
+**“Ele tem muitos desenhos. Poderia submetê-los à apreciação de Meishu-Sama?”**
+
+Sim.
+
+**“Ademais, ele não demonstra nenhum comportamento fora do comum. Normalmente, é uma pessoa com quem não se consegue conversar de igual para igual, mas, nesses momentos, ele exibe os desenhos e os explica para uma multidão.”**
+
+Realmente, deve ser Shinran Shōnin.
+
+**“Como a região tem muitos seguidores da escola Shin, todos estão surpresos e felizes.”**
+
+Esse homem deve ter alguma afinidade espiritual com o Mestre Shinran. Por isso essa manifestação especial.
+
+**“Quando estive na província de Nagano, soube de um ritual de Ano Novo nos Santuários Suwa e Togakushi, no qual são recebidos oráculos sobre a agricultura daquele ano. No ano passado, o presságio foi muito ruim, indicando uma colheita inferior à metade do normal e de apenas um terço para as amoreiras. Esse tipo de previsão pode ter, até certo ponto, um fundo de verdade?”**
+
+Sim, até certo ponto. Espíritos daquele nível são capazes de prever tais acontecimentos.
+
+No fim das contas, as enchentes do ano passado causaram poucos danos. Segundo as estatísticas do Ministério da Agricultura, a região com a maior produção foi Kyushu, com 97% da meta, seguida por Shikoku, com 94%. As demais regiões tiveram quedas drásticas. É uma grande ironia que as áreas mais afetadas pelas enchentes tenham tido as melhores colheitas. A principal causa da quebra de safra foi, na verdade, a infestação de pragas. Mesmo que se culpe o frio, a Agricultura Natural sofreu pouco com ele. Portanto, o problema foram as pragas. E como as pragas são resultado do veneno dos adubos, conclui-se que foram os fertilizantes que causaram a má colheita. Enquanto não despertarem para essa realidade, a situação piorará a cada ano.
+
+**“Nas áreas atingidas pelas enchentes, o veneno dos adubos é levado pela água e uma nova camada de terra é depositada, o que melhora a produção.”**
+
+Exatamente. É isso. Muitos se enganam, dizendo que a água da enchente contém nutrientes. Não é verdade. A melhora ocorre porque o veneno dos adubos é eliminado. Em um dos próximos relatos de graças, há o caso de uma plantação em Kyushu que foi inundada. O agricultor, sem outra opção, plantou novas sementes e acabou colhendo mais que a média anual. Como já escrevi certa vez, a enchente é um meio pelo qual Deus purifica o veneno dos adubos do solo. É graças a enchentes e chuvas fortes que ainda conseguimos colher arroz. Se não fossem por elas, a produção de arroz seria praticamente nula.
+
+**“A respeito da Agricultura Natural, este ano todos os membros estão arando o solo profundamente, trazendo à superfície a terra impregnada com o veneno dos adubos para que sofra a ação do tempo. Ouvi dizer que lavar o solo com água corrente o limpa e traz ótimos resultados, e tenho incentivado essa prática. É correto?”**
+
+Sim, é correto. É como uma enchente artificial. Qualquer método que reduza o veneno dos adubos é válido. A propósito, sobre o caso da colheita de treze fardos e três medidas em Oita, o senhor Ozaki está presente? O relatório não especifica as medidas menores, o que é um problema. Nos concursos do jornal Asahi, os números são detalhados. Um relatório com números arredondados pode parecer impreciso para as pessoas de hoje. É improvável que o resultado seja um número exato como cinco fardos e cinco medidas; as frações também precisam ser informadas.
+
+**“Peço desculpas. Já estamos apurando a informação.”**
+
+De agora em diante, as sessões de perguntas e respostas sobre o Paraíso Terrestre serão suspensas. Questões dessa natureza deverão ser encaminhadas pelos ministros e chefes de unidade, que as apresentarão a mim nos dias de audiência especial.
+
+**“Uma família, devota da Tenrikyō por gerações, teve um de seus membros curado de esgotamento nervoso, recuperando a saúde. Agora, desejam ingressar na fé e entronizar a Imagem Sagrada. Como eles possuem um altar da Tenrikyō, qual seria o procedimento correto?”**
+
+O ideal seria se desfazer dele.
+
+**“E se o devolverem à igreja de origem?”**
+
+Devolver não é uma boa ideia. Eles perguntarão o motivo e, se a pessoa for honesta e disser que se converteu à Sekaikyuseikyou, a Tenrikyō guardará ressentimento. É sempre melhor evitar gerar animosidade. Portanto, a devolução é a pior opção, pois chama a atenção. O melhor é guardá-lo em casa.
+
+**“É um altar bem grande.”**
+
+Mantenham-no guardado por um tempo e, no momento oportuno, queimem-no. Seria ótimo se o deus da Tenrikyō ficasse feliz em ser incinerado, mas, no lugar de divindades assim, às vezes há espíritos de índole inferior. Nesses casos, um descarte precipitado pode gerar retaliações. O ideal é esperar que esse espírito se regenere ou se afaste. Agindo assim, evitam-se transtornos. Guardem o altar em casa por um tempo e, quando sentirem que não haverá mais consequências, poderão queimá-lo.
+
+**“Um ministro da Tenrikyō esteve lá realizando práticas, mas não houve nenhuma graça. Comigo, a cura veio em cerca de uma semana.”**
+
+Casos como esse se tornarão cada vez mais comuns, não apenas com a Tenrikyō, mas com todas as religiões. Os líderes pensarão: "O número de fiéis tem diminuído... deve ser por causa daquela gente da Sekaikyuseikyou", e seus espíritos podem vir a nos perturbar. É fundamental minimizar esse tipo de ressentimento.
+
+Curiosamente, quando fui condenado injustamente, muitos que me odiavam disseram: "Bem feito para aquele da Sekaikyuseikyou! Sinto um alívio na alma!". Isso, para nós, foi extremamente positivo. Espiritualmente, esses espíritos hostis se afastaram e pararam de nos atrapalhar, o que nos deu mais liberdade para atuar.
+
+O ser humano deve sempre evitar ser invejado ou odiado. Não é preciso forjar uma aparência de sofrimento, mas é vantajoso que os outros pensem que estamos sempre enfrentando dificuldades. O que importa é que, na realidade, estejamos bem. As pessoas, por vaidade, tendem a querer parecer bem-sucedidas aos olhos dos outros, mas o resultado final é o oposto. É bom ter isso sempre em mente.
+
+A queda de quem ascende rapidamente, por exemplo, embora possa ter várias causas, muitas vezes se deve à inveja e a outros sentimentos negativos. A atuação desses espíritos é muito forte sobre aqueles que, mesmo em seu apogeu, acabam em desgraça.
+
+A comparação entre Hideyoshi e Ieyasu ilustra bem este ponto. Hideyoshi, filho de camponês, teve uma ascensão meteórica, alcançando o posto supremo de regente imperial e ostentando grandemente seu sucesso. Tokugawa, por outro lado, manteve-se sempre discreto, recuando e evitando os holofotes, até que, por fim, conquistou o poder. O método de Tokugawa foi mais astuto, enquanto o de Hideyoshi foi mais franco. Essa astúcia, contudo, é valiosa.
+
+A Sekaikyuseikyou também enfrenta situações semelhantes, mas, em nosso caso, a gratidão das pessoas que salvamos anula grande parte do ressentimento. O espírito de gratidão tem uma ação benéfica, neutralizando os espíritos de inveja e ódio. No momento, porém, os espíritos negativos são mais numerosos que os de gratidão, e acabamos perdendo em quantidade. Se os espíritos negativos são cem, os de gratidão são apenas um ou dois.
+
+Contudo, à medida que avançarmos, o número de pessoas que abandonam outras religiões para se juntar a nós aumentará consideravelmente, o que gerará um imenso ressentimento por parte delas. Este é o ponto que exige mais atenção. Quando as pessoas perceberem que a Sekaikyuseikyou oferece a verdadeira salvação, todas se converterão, e as outras religiões entrarão em colapso. Dirão: "Essa gente da Sekaikyuseikyou, apesar de nova, levou todos os nossos fiéis!". É por isso que é melhor crescermos discretamente, até que, um dia, nos tornemos grandes.
+
+Ademais, quando nos tornarmos tão proeminentes que seja impossível nos atacar, as pessoas simplesmente desistirão. Mas, até lá, o ressentimento gerado pelo nosso crescimento gradual será intenso. É melhor agir com discrição até o momento em que os outros se resignem e pensem: "Não adianta lutar contra eles, estão em outro patamar". A raiz de tudo é espiritual, e a interferência de espíritos é o que há de mais temível. A interferência física é limitada e passageira.
+
+Muitos seres humanos entendem a lógica, mas são dominados pela emoção. E aquele que consegue agir segundo a razão é uma pessoa de grande valor. Os ignorantes são fáceis de lidar, mas os piores são aqueles que entendem e, ainda assim, agem como se não entendessem.
+
+**“A montagem da Imagem Sagrada da nossa unidade é muito simples, e isso me incomoda.”**
+
+Então, providencie uma montagem melhor.
+
+**“Enquanto isso, podemos entronizar outra Imagem Sagrada que recebemos?”**
+
+Sim, podem.
+
+**“Sou um membro que ingressou em janeiro do ano passado. Desejo entronizar a Imagem Sagrada, mas o segundo andar da casa é muito baixo, com cerca de 90 centímetros de altura nas extremidades. Seria apropriado elevar uma parte do telhado, na largura do tokonoma, em cerca de 90 centímetros?”**
+
+Sim, seria apropriado.
+
+**“No caso de um familiar desaparecido ou cujo paradeiro e estado (vivo ou morto) são desconhecidos por estar no exterior, é correto entronizar uma tabuleta com seu nome no altar budista?”**
+
+Sim, é correto.
+
+**“Mesmo que a pessoa esteja viva?”**
+
+Sim, mesmo que esteja viva.
+
+**“Devemos usar um nome póstumo?”**
+
+Use o nome verdadeiro.
+
+**“Muitas vezes se escrevem as datas.”**
+
+Não é necessário. Se a pessoa estiver viva e retornar, o fato de ter sido reverenciada lhe trará graças. Quando alguém exibe minha foto e ora, está, de certa forma, tratando-me como a um falecido. O interessante é que, se oramos por um espírito que já reencarnou, as preces se dirigem à pessoa viva em que ele se transformou. Nesses casos, por ter praticado o bem em vidas passadas, a pessoa pode receber bênçãos inesperadas.
+
+Ademais, quanto mais lares cultuarem os antepassados, melhor. No interior, e mesmo nas cidades, costuma-se dizer que apenas o filho mais velho deve fazê-lo, e que o segundo e o terceiro não precisam. Isso não é verdade. Quanto mais pessoas os cultuarem, maior será o mérito. Até mesmo um parente distante que cultua um espírito ancestral o deixará feliz.
+
+Ontem à noite, li um relato de graças que será publicado na próxima edição da revista Paraíso Terrestre. Nele, uma esposa membro da Igreja é visitada sucessivamente pelos espíritos de parentes falecidos, que são salvos através dela. A descrição é muito vívida. Um espírito diz: "Quero beber chá". A família oferece, mas ele não bebe, explicando: "Não posso beber, pois não tenho permissão". Ele diz que só lhe é permitido beber água. Com as orações da família e a entoação da Oração Amatsu-Norito e da Oração Zenguen-Sandji, ele finalmente consegue beber o chá. Esses detalhes são narrados com grande precisão. Em seguida, os filhos, irmãos e outros parentes falecidos da família aparecem, todos expressando sua alegria por terem sido salvos. Não há falsidade alguma no relato; é a pura verdade. Ele revela claramente a condição do Mundo Espiritual e como a Sekaikyuseikyou proporciona a salvação.
+
+Um espírito falecido há treze anos pede chá, pois não bebia há treze anos. A família oferece, mas ele não consegue beber. Eu já relatei experiências semelhantes. Em um caso que acompanhei, o espírito não conseguia beber porque o chá era servido por uma empregada, sem o sentimento de oferenda a um antepassado. Quando a família oferece com o coração, desejando que o ancestral beba, ele consegue saborear. Caso contrário, não consegue. Após beber uma xícara de chá para cada ano, ele disse, na décima terceira, que já era suficiente. É fascinante pensar que lhe foi permitido beber uma xícara de chá por ano. Isso nos mostra que o Mundo Espiritual é um mundo de sentimento e que nada acontece sem a permissão de Deus.
+
+**“Em loteamentos de terrenos, às vezes encontram-se ossos em antigos cemitérios. O que fazer?”**
+
+Na verdade, não se deve construir casas em tais lugares. Se for possível evitar, é melhor não construir. Caso haja espíritos ali, eles detestam ser pisados. Portanto, deve-se evitar pisar naquele local específico. Contudo, se a casa for de um membro da Sekaikyuseikyou, os espíritos serão salvos, então não há problema. Nesse caso, coloquem uma tabuleta no altar familiar e eles receberão oferendas matinais e noturnas. Assim, a construção é permitida.
+
+**“Que nome devemos colocar na tabuleta nesses casos?”**
+
+Quando se trata apenas de ossos, pode-se escrever "Todos os Espíritos". Em muitos lugares, vemos inscrições como "Para o sufrágio de todos os espíritos dos três mundos". Isso se refere à salvação de todos os espíritos perdidos e sem destino. Antigamente, o budismo tinha poder para isso, mas hoje não tem mais força alguma e tais práticas são ineficazes.
+
+**“Sou um membro que ingressou em novembro de 1950. Um pouco antes de entrar para a fé, comecei a sentir a cabeça confusa. Após receber Johrei, as pontas dos meus dedos começaram a formigar. Como o Johrei não parecia surtir o efeito desejado, por insistência de parentes, fui internado no Hospital Universitário de Nagoya. Fui diagnosticado com esclerose por atrofia muscular, considerado incurável, e recebi alta. Desde então, tenho me dedicado fervorosamente à fé. Meu corpo todo está dormente e, hoje, não consigo me mover. Acredito que possa haver uma causa espiritual.”**
+
+Quais dedos começaram a formigar primeiro?
+
+**“As pontas de todos os dedos. Primeiro a primeira falange, depois a segunda e a terceira.”**
+
+É um problema espiritual. Trata-se do espírito de um suicida que se envenenou. Venenos potentes causam dormência total no corpo. Esse espírito se apossou da pessoa. No início, o indivíduo ainda tem sua própria força vital, mas, com o tempo, vai se assimilando ao espírito, até atingir o mesmo estado em que este se encontrava no momento da morte.
+
+Não é incurável. O principal ponto a receber Johrei é a cabeça. Com paciência, é possível purificar o veneno do espírito do morto. Os médicos, obviamente, não compreendem isso. Já tive um caso semelhante. O espírito se manifestava intermitentemente e, quando o fazia, o corpo da pessoa paralisava completamente. Por exemplo, se eu estivesse assim, e o espírito se apossasse, eu ficaria imóvel nesta mesma posição. Se estivesse de pé, ficaria de pé; deitado, deitado; sentado, sentado. Quando o espírito não estava presente, a pessoa agia normalmente. No início, aplicavam-lhe injeções, que traziam um alívio temporário, mas os períodos de paralisia foram se tornando cada vez mais longos. Preocupada, a pessoa veio me procurar. Na época, eu estava no início da prática do Johrei e não compreendia bem o fenômeno. Houve uma pequena melhora, mas depois perdi o contato e não sei se ela faleceu. Só mais tarde compreendi que se tratava de um espírito suicida por envenenamento.
+
+**“Nesse caso em que a injeção trazia um alívio temporário, o que acontecia com o espírito?”**
+
+É o corpo físico que sofre a alteração. A dormência é um fenômeno do corpo; o espírito em si não fica dormente. Quando a influência espiritual se reflete no corpo, o medicamento exerce alguma ação sobre ele. Isso é comum no Ocidente desde antigamente. Há pessoas que, ao terem uma crise, precisam ter sempre um remédio à mão. Em romances ocidentais, há personagens que desmaiam se não tomam uma injeção ou um comprimido.
+
+**“Esse medicamento agiria forçando a dilatação dos vasos sanguíneos?”**
+
+Não é isso. No Conde de Monte Cristo, não há uma droga que, ao ser ingerida na prisão, causa uma perda temporária de consciência? O mecanismo de ação dessas substâncias é desconhecido.
+
+**“Essa parte me parece misteriosa...”**
+
+Deve ser algo do gênero. Talvez seja como mascar mostarda para espantar o sono. É algo comum no Ocidente. O medicamento para a dormência que mencionei se enquadra nessa categoria. Se existem drogas que causam dormência, é natural que existam outras que a anulem temporariamente. Foi assim que nasceu a superstição em relação aos remédios. E eles de fato funcionam... A eficácia dos medicamentos é notável. O problema é que eles não curam, apenas oferecem um alívio temporário.
+
+**“A eletroconvulsoterapia, usada em psiquiatria, segue o mesmo princípio?”**
+
+Exatamente. É o princípio da ciência materialista. Na juventude, tomei antipirina e a intoxicação foi terrível. O corpo coçava tanto que eu não conseguia ficar parado, era uma agonia insuportável, como se eu fosse saltar a qualquer momento. Sofri muito durante a noite e, pela manhã, fui ao médico. Ele disse: "Entendi", e me deu um remédio. Em vinte ou trinta minutos, a coceira desapareceu completamente. Naquele momento, pensei que os remédios eram, ao mesmo tempo, terríveis e milagrosos.
+
+**“Sobre o yakudoku, conversei ontem com um médico. Ele admitiu que os médicos sabem da existência do yakudoku. A idade com que as pessoas morrem de hipertensão e câncer tem diminuído, o que indica que o sangue está mais impuro. Normalmente, os rins deveriam filtrar e purificar o sangue, mas as pessoas morrem mesmo sem ter problemas renais. Isso significa que há algo que sobrecarrega a função renal e suja o sangue. Eu disse a ele que esse algo é o yakudoku. Ele argumentou que a impureza do sangue também pode vir da alimentação, e que os hábitos alimentares devem ter mudado recentemente. No entanto, eles não mudaram. O que mudou foram os remédios. A medicina reconhece o yakudoku, mas alega que ele é eliminado do corpo em um determinado período. A conversa então derivou para a constituição física. Algumas pessoas podem beber um litro de saquê sem problemas, enquanto outras ficam tontas com duas ou três doses. O mesmo remédio age de forma mais intensa em alguns e quase não tem efeito em outros. Ele me perguntou como explicar isso. Eu senti que, do ponto de vista religioso, isso se relaciona com as impurezas do espírito. E as impurezas do espírito remetem às máculas da pessoa, que incluem as de vidas passadas, as dos antepassados e as cometidas na vida atual. O remédio agiria sobre essa base.”**
+
+Sua premissa está fundamentalmente equivocada. A ideia de que certos medicamentos são eliminados do corpo é o erro central. Nenhum remédio é completamente expelido; uma parte sempre permanece, embora a quantidade diminua com o tempo. Quanto às impurezas, as herdadas dos antepassados são insignificantes em comparação com o yakudoku, que é imensamente maior. É o yakudoku que, em sua esmagadora maioria, macula o espírito. Nos relatos de graças, as pessoas frequentemente dizem: "Eu, uma pessoa cheia de pecados e impurezas...", mas esses pecados são poucos. O yakudoku é dez, vinte vezes maior.
+
+**“O médico então disse que a purificação do yakudoku é concebível, mas que seu efeito varia de pessoa para pessoa...”**
+
+De fato, há diferenças de constituição, mas a questão é: por que as constituições não são uniformes? Onde está a causa disso?
+
+**“O yakudoku acumulado no passado geraria essas alterações...”**
+
+Exato. Além disso, a constituição humana é, em essência, a mesma para todos. E por que é a mesma? Porque o método de cura pelo Johrei é o mesmo para todos. Poder-se-ia argumentar que o Johrei funciona para alguns e não para outros, mas não é o caso. O Johrei funciona igualmente para todos. A única diferença é o tempo que leva para a cura, que depende da quantidade de yakudoku. Mas a manifestação da cura pelo Johrei é a mesma para qualquer um. Não existe uma dor que o Johrei cure em uma pessoa e não em outra. Portanto, a constituição física é fundamentalmente a mesma, assim como todos têm cabeça, braços e pernas.
+
+**“E a herança genética da constituição, como uma constituição fraca ou forte?”**
+
+Isso existe. Quem tem mais yakudoku é mais fraco; quem tem menos é mais forte.
+
+**“Mas quando se fala que esse yakudoku vem dos remédios que os pais tomaram, os médicos não conseguem compreender.”**
+
+Exato. Hoje em dia, até a lepra já não é mais considerada hereditária pela medicina. A medicina é extremamente primária, não alcança esse nível de compreensão.
+
+**“O ponto central da discussão é se o yakudoku permanece ou não no corpo.”**
+
+A discussão é desnecessária; é um fato. Se o yakudoku não tivesse influência ou se os remédios fossem benéficos, os seres humanos de antes dos remédios teriam sido extremamente frágeis, e os de hoje, extremamente fortes. Se os remédios realmente curassem, já não haveria mais doentes no mundo, pois nossos antepassados os tomaram por gerações. Ou, se a questão for que ainda não se tomaram remédios o suficiente, então que se internem as pessoas nos hospitais e as saturem de medicamentos. Se eles funcionassem, alguém que os tomasse por três anos deveria estar curado. Alguém que tomou por três meses ainda não tomou o bastante. Se os remédios fossem eficazes, os doentes teriam desaparecido há muito tempo.
+
+**“Tenho feito uma estatística com os obituários dos jornais. Os médicos morrem entre os quarenta e cinquenta anos, enquanto outras pessoas morrem aos sessenta, setenta.”**
+
+Pois é. Os doutores são os que morrem mais cedo. Quando questionei um médico sobre isso, ele disse que é porque eles lidam com doentes e, portanto, têm mais chances de se contaminar.
+
+**“Em outubro do ano passado, não havia mortes na faixa dos quarenta anos, mas em novembro e dezembro, elas se tornaram mais frequentes. A evidência é clara.”**
+
+É como eu digo. O ser humano tem uma capacidade fantástica de enganar, mas também uma enorme capacidade de ser enganado. Há muitos enganadores e muitos enganados. É assim que se deve ver as coisas.
+
+**“Existe uma linhagem ou padrão na longevidade das pessoas?”**
+
+Sim. O principal fator que define essa linhagem é a quantidade de yakudoku. Existem também tipos específicos de yakudoku. A predisposição a derrames cerebrais é hereditária. Quem tem pai ou avô que sofreu um derrame, certamente terá também. Isso se deve a uma grande quantidade de yakudoku e a tipos específicos de venenos. Mesmo na medicina tradicional chinesa, há diferenças. Há o gerânio, entre outras plantas. O tipo de medicamento que a pessoa tomou define sua constituição. Mas, em uma visão mais ampla, tudo é yakudoku e, portanto, a mesma coisa, embora de tipos diferentes.
+
+**“No caso de angina, o uso de Albargin causa o aparecimento de manchas arroxeadas.”**
+
+É porque o yakudoku está concentrado ali. O sangue tóxico se solidificou.
+
+**“Quando uso os remédios que o médico me dá, às vezes as manchas aparecem, às vezes não. Mas quando eu mesmo provo e sinto que tem Albargin, as manchas aparecem na mesma noite. Nesses casos, o que estava acumulado se dissolve e sai?”**
+
+Pode ser o que estava acumulado saindo, ou pode ser o novo remédio saindo imediatamente. Também depende do tipo de Albargin. Há formulações feitas para serem expelidas rapidamente e outras não, assim como há as mais concentradas e as mais diluídas. De qualquer forma, muitas pessoas morrem por causa do Albargin. Hoje em dia, quase não o fabricam mais, de tão perigoso que é. Como ele proporciona um alívio temporário, as pessoas se viciam.
+
+**“É o uso excessivo de Albargin que causa os sintomas de angina?”**
+
+Sem dúvida. O Albargin parece ser muito eficaz para a vida. Ele acaba com ela. Já ouvi falar de muitas pessoas que morreram por causa do Albargin.
+
+---
+
+# Coletânea de Teses do Mestre Jikan Okada
+
+**Categoria:** gosuiji | **Ano:** 昭和28(1953)年9月15日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
+
+## Coletânea de Teses do Mestre Jikan Okada
+### Registro de Ensinamentos, nº 24, publicado em 15 de setembro de 1953 (Showa 28)
+
+**Registro de Ensinamentos, nº 24 (Ano 28 da Era Showa)**
+
+**[1º de setembro]**
+
+Hoje, não preparei nenhum tema específico para discorrer. A razão para tal é que recebi a visita de representantes de uma emissora de rádio que desejavam realizar uma transmissão. Contudo, devido a um equívoco anterior por parte da emissora, minha intenção inicial era recusar a proposta. Cheguei a externar minha indisposição, afirmando que haviam cometido um grave erro em suas práticas. Todavia, o professor que me procurou demonstrou grande diplomacia, apresentando sinceras desculpas e um apelo fervoroso, o que me levou a consentir.
+
+Como não havia me preparado para a gravação, minhas palavras foram improvisadas e, francamente, não me agradaram. Propus, então, que regravássemos caso o resultado não fosse satisfatório, e ficou acertado que retornariam na tarde de hoje para uma nova sessão. Dediquei-me, portanto, a redigir o manuscrito para essa ocasião. Tenho por hábito escrever textos dessa natureza entre meia-noite e meia e duas da manhã, e estive ocupado com os últimos retoques. Por ter a mente absorvida por essa tarefa, não concebi nenhum tema para o nosso encontro de hoje. Sendo assim, iniciaremos diretamente com as perguntas, pois talvez delas surja algum assunto a ser aprofundado.
+
+"Temos um membro que trabalha em uma madeireira. Durante o transporte de toras em uma montanha, ele caiu em um desfiladeiro. Porém, graças à Proteção Divina, sobreviveu. Contudo, na parte superior de seu braço esquerdo, os músculos e vasos sanguíneos foram seccionados. As pessoas que o acompanhavam, por não serem membros, aplicaram-lhe um torniquete imediatamente e, após quatro horas, levaram-no a um hospital em Kanazawa. Lá, os médicos afirmaram que a amputação era inevitável, mas o próprio membro se opôs e o procedimento não foi realizado. Cerca de uma semana depois, a área entre a ponta dos dedos e o pulso tornou-se completamente negra, como se gangrenada, e os médicos, insistindo na cirurgia, amputaram a mão."
+
+Isso não é nada de mais. Trata-se de uma hemorragia interna que se acumulou no local. Submeter-se a uma amputação nessas condições significa não ser um verdadeiro fiel.
+
+"Três semanas depois, como o local começou a putrefazer..."
+
+Não se trata de putrefação. Apenas a aparência é semelhante à de tecido em decomposição.
+
+"...o braço foi amputado acima do cotovelo. Posteriormente, o membro expressou profundo arrependimento."
+
+Nessas circunstâncias, ser levado ao hospital é compreensível; em uma situação como essa, não há alternativa. O erro, contudo, foi a amputação. A coloração arroxeada ou enegrecida que surge avança gradualmente pelo membro. Isso ocorre porque a hemorragia interna, inicialmente concentrada na ponta dos dedos, acumula-se paulatinamente. A extensão que a mancha escura alcançará — se permanecerá no local ou subirá pelo membro — depende unicamente do volume de sangue extravasado. A aparência é semelhante à de tecido em putrefação, pois o sangue de uma hemorragia interna é impuro e, ao envelhecer, adquire uma tonalidade escura. Portanto, o fenômeno não apresenta mistério algum. Por que não consultaram o responsável pelo Johrei Center em tal situação?
+
+"Porque ele estava hospitalizado."
+
+Mesmo hospitalizado, bastava dizer não. Estar em um hospital não equivale a uma sentença de morte. Quem é o responsável pelo Johrei Center?
+
+"É a senhora Tamaki Muramoto."
+
+A responsável pelo Johrei Center também agiu de maneira questionável. Ademais, permitir a amputação a partir do cotovelo demonstra uma postura idêntica à de um não membro; já não se pode considerá-lo um fiel. É algo que venho ensinando-lhes rotineiramente. A aparência é muito semelhante à de um processo de decomposição. Não expliquei isso nos artigos sobre gangrena e panarício? O mecanismo é o mesmo. No caso do panarício, as impurezas acumuladas no corpo se dirigem para a ponta do dedo. Recentemente, uma de minhas assistentes domésticas desenvolveu panarício. Eu ministrei Johrei apenas em seu pescoço, sem tocar nos dedos, e ela se curou.
+
+Este caso não requer maiores explicações. É um caso de causa e consequência. Sua fé vacilou e, quando a fé se esvai, o resultado é inevitável. Não há o que fazer. Se alguém sofre apesar de sua fé, eu o salvo a qualquer custo. Mas neste caso, Deus foi completamente ignorado. É justamente em momentos como esse que, ao recebermos o socorro divino, compreendemos o valor e a grandiosidade da fé. Ele, no entanto, em meio a uma crise, esqueceu-se por completo de Deus. É uma situação sem remédio. Em suma, a responsável pelo Johrei Center também tem sua parcela de responsabilidade. Ela está presente hoje?
+
+"Sou eu, Tamaki Muramoto. Peço-lhe sinceras desculpas. Eu disse a ele para entregar a Deus..."
+
+Não era necessário nem mesmo entregar. Bastava deixar como estava, e a cura viria.
+
+"Havia muitos parentes presentes, e eles insistiam que deixar as coisas como estavam não resolveria nada."
+
+Compreendo que, para você, seria difícil resistir à pressão de tantos parentes. Fundamentalmente, porém, o erro foi do próprio indivíduo. Cabia a ele recusar-se de forma categórica.
+
+"Ele se recusou veementemente por um tempo."
+
+Contudo, a recusa deveria ter sido absoluta.
+
+"Como devemos proceder com a parte do osso que foi amputada?"
+
+Disponham dela como bem entenderem. É como um devedor que, após declarar falência sem quitar suas dívidas, vem pedir auxílio a seus credores. A culpa é de quem não honrou seu compromisso. Tal atitude é um desrespeito. Para a responsável do Johrei Center, diante da pressão de tantos parentes, talvez não houvesse muito a fazer, mas isso revela que a fé do próprio membro não estava verdadeiramente consolidada.
+
+Muitas vezes, as pessoas justificam suas ações dizendo que foram influenciadas por outros ou que cederam à insistência alheia. Isso nada mais é do que transferir a própria responsabilidade. Nosso corpo é nossa posse, não algo que nos foi confiado por terceiros. A hesitação diante da opinião alheia denota que a fé ainda não está profundamente arraigada, permitindo que a dúvida se instale. Quando todos ao redor opinam, a pessoa acaba por ceder. Se fosse uma criança, seria compreensível, mas tratando-se de um adulto, se ele se mantivesse firme em sua convicção, ninguém poderia forçá-lo a nada.
+
+"Uma pergunta sobre a Agricultura Natural. À medida que as impurezas dos adubos são eliminadas do solo, os métodos de cultivo convencionais tornam-se inadequados. Por exemplo, o espaçamento tradicional entre as mudas parece muito próximo. Seria recomendável adotar um plantio mais espaçado?"
+
+O plantio mais espaçado é excelente. Como o perfilhamento é maior, o espaçamento pode ser ampliado. Vocês devem adaptar os métodos conforme a conveniência, da maneira que julgarem melhor. Eu ensinei o princípio fundamental; não detalhei métodos de plantio ou espaçamento entre as mudas. Tais aspectos devem ser ajustados conforme a necessidade. Além disso, o solo e o clima variam de lugar para lugar, portanto, a prática deve se adequar a essas condições.
+
+"Esse princípio se aplica a todas as culturas?"
+
+Sim. É como nas regiões tropicais, onde se pode andar sem roupas, enquanto nas regiões polares é preciso agasalhar-se intensamente. Deve-se agir de acordo com a situação, adaptando-se.
+
+"Ser mordido por um cão com raiva resulta em um estado extremamente trágico. Que tipo de purificação seria essa? E como devemos proceder em tal caso?"
+
+Se o tratamento for iniciado logo, basta ministrar Johrei no local da mordida. A mordida causa inchaço e dor devido à toxina presente nos dentes do cão. Com o tempo, essa toxina se espalha pelo corpo. Nesse caso, basta ministrar Johrei nos locais para onde ela se disseminou, e não haverá problema algum. O processo é idêntico ao de uma picada de víbora. Quando alguém é picado por uma víbora, o veneno se espalha gradualmente e, se atingir todo o organismo, leva à morte. Com o Johrei, contudo, o problema é resolvido sem dificuldades.
+
+"Ainda sobre a Agricultura Natural, na propriedade do senhor Ino, na província de Gifu, este ano participamos do concurso agrícola do jornal Asahi Shimbun. O regulamento exige uma área mínima de três tan, mas como só possuíamos dois, adquirimos mais um."
+
+Então se trata de uma terra com impurezas de adubos. Isso é um tanto...
+
+"Sim, mas ministramos Johrei e realizamos outros cuidados. Hoje, a produção nesse terreno é tão esplêndida que mal se distingue daquela obtida em nosso campo cultivado pelo método da Agricultura Natural há cinco anos, o que nos enche de alegria."
+
+Isso é ótimo. Este ano, a safra em geral deve sofrer uma quebra considerável. Discute-se se a produção ficará abaixo dos sessenta milhões de koku. Quando Hirokichi Hirokawa era Ministro da Agricultura, estabeleceu um plano para aumentar a produção em 20% em cinco anos, plano que ainda está em execução. No entanto, naquela época, a produção era de sessenta e três milhões de koku. O plano de aumento resultou, na verdade, em uma redução. Naquela ocasião, achei a situação risível. Recentemente, eles têm proposto projetos de recuperação de terras, como aterrar lagos e áreas costeiras, mas isso é um erro fundamental. É o mesmo que tentar curar doenças criando novos medicamentos; o resultado será o oposto do esperado. É imperativo quebrar essa superstição.
+
+Atualmente, estou escrevendo uma tese intitulada "O Feudalismo Médico". A situação é análoga ao pensamento feudal. Por mais que se descubra um novo método capaz de curar doenças, se ele não pertencer à medicina, será rejeitado. Esse apego cego à medicina, que condena tudo o que lhe é externo, é idêntico ao pensamento feudal. É o mesmo que ocorreu na era dos samurais com coque, quando tentaram a todo custo impedir a entrada da civilização ocidental. Os membros do Shinpuren (神風連), ao passarem sob os fios elétricos, erguiam seus leques para não se "contaminarem" com a impureza. Da mesma forma, os intelectuais de hoje, que consideram a cura de doenças por meio de "novas religiões" um absurdo a ser evitado, agem como o Shinpuren. Eles não estão meramente aprisionados na gaiola da ciência; eles se enclausuram voluntariamente nela, esforçando-se para ignorar qualquer mundo que exista fora de seus limites. É o mesmo que diz o provérbio: "O sapo no poço não conhece a vastidão do oceano". Os médicos são esses "sapos no poço".
+
+O livro que estou escrevendo, "O Livro da Revolução Médica", aborda o assunto de forma exaustiva. Nele, analiso criticamente cada um dos relatos de graças recebidas, de modo que, ao lê-lo, creio que não haverá contra-argumentos. Escrevi de forma minuciosa e detalhada para demonstrar que a medicina constitui um crime de graves proporções. No recente relatório da carta da senhora Higuchi, ela menciona que, nos Estados Unidos, é muito comum as mulheres se submeterem à remoção do útero e dos ovários, e que as doenças subsequentes a essas cirurgias são as mais frequentes. Considerar benéfica a extração de órgãos tão essenciais para a mulher como o útero e os ovários... a mentalidade por trás de tal prática é, no mínimo, insensata. A causa fundamental é a incapacidade de curar as doenças; por isso, removem os órgãos afetados.
+
+A verdade é que eles não compreendem verdadeiramente a Força Curativa Natural inerente ao corpo humano. Sabem, de forma vaga, que o corpo possui um instinto de cura e que, se deixado em paz, pode se recuperar, mas não têm uma compreensão clara disso. Consequentemente, sentem-se inseguros e incapazes de simplesmente deixar uma doença seguir seu curso. Estão convencidos de que, uma vez que uma doença se manifesta, ela inevitavelmente piorará até levar à morte. Sentem a necessidade de "fazer alguma coisa", e a única solução que encontram é extirpar a parte doente. Desconhecem o princípio de que, mesmo que o útero esteja doente, se for deixado em paz, ele se curará.
+
+Quando "O Livro da Revolução Médica" estiver pronto, mandarei traduzi-lo para o inglês e o distribuirei não apenas nos Estados Unidos, mas em toda a Europa, na Ásia, enfim, no mundo inteiro. Pretendo enviá-lo a todas as universidades e associações médicas de cada país. Farei com que todos o leiam. É como está escrito na Bíblia: "E este evangelho do Reino será pregado em todo o mundo, em testemunho a todas as nações, e então virá o fim". Se, mesmo depois disso, eles não derem ouvidos, as consequências serão terríveis. Deus é sumamente justo: Ele primeiro notifica a todos e, aqueles que não obedecem, arcam com as consequências de seus próprios atos.
+
+O problema com o pensamento humano atual é que a superfície se tornou ardilosamente inteligente, enquanto o cerne se esvaziou. Como resultado, as pessoas se tornaram intelectualmente obtusas. Reflito muito sobre isso e concluo que as pessoas de antigamente eram verdadeiramente inteligentes. Como mencionei outro dia, a capacidade de dar respostas argutas e imediatas é algo que falta ao homem moderno.
+
+Recentemente, falávamos sobre trocadilhos, algo que aprecio e que, modestamente, me sai com naturalidade. Não os construo deliberadamente; eles simplesmente surgem. As pessoas de antigamente, no entanto, possuíam uma capacidade notável para esse tipo de sagacidade, o que demonstra sua inteligência aguçada. Sorori Shinzaemon, figura frequente nas narrativas históricas, era dono de uma mente brilhante. Shokusanjin, que viveu em Edo no final do período feudal, também era extremamente inteligente. Seus poemas, muitos no estilo cômico do senryu e do kyoka, são primorosos. Creio que nenhum dos muitos literatos de hoje seria capaz de imitá-lo.
+
+Há uma história famosa sobre Shokusanjin. Certa vez, enquanto conversava, viu passarem ao longe um cortejo nupcial e um cortejo fúnebre. Imediatamente, ele comentou: "Um cortejo nupcial e um cortejo fúnebre seguem adiante. Um se dirige ao seu enlace; o outro, ao seu desenlace". Nenhum escritor atual conseguiria tal feito. Em outra ocasião, ele arranjou o casamento de uma mulher que era cega de um olho. Durante a cerimônia, ele declamou: "Uma esposa de bela aparência é um deleite para os dois olhos da casa. Uma de feições modestas, contudo, é o pilar que a firma". A forma como ele empregou as palavras "dois olhos" e "pilar que a firma" é, a meu ver, genial.
+
+Ele também bebia muito e, em certo momento, decidiu parar. Compôs um poema sobre sua abstinência do qual me esqueci da primeira parte, mas a segunda dizia: "...é como um lenço rasgado". Pouco tempo depois, no entanto, ele voltou a beber. Quando um admirador o questionou sobre ter quebrado a promessa, ele compôs: "Minha abstinência se tornou um manto de palha esfarrapado; então, beba um gole, beba mais outro!". A genialidade reside no final, pois as palavras para "beba um gole" e "beba mais outro" soam como os termos para remendar um manto, unindo a imagem da promessa rompida à ação de voltar a beber. Não existem mais pessoas com uma mente tão perspicaz hoje em dia. Acredito que isso se deva ao acúmulo de toxinas medicamentosas no cérebro, o que prejudica sua capacidade de funcionamento. Por isso, tudo se restringe à superfície. A medicina e a agricultura atuais também se limitam a melhorias e progressos superficiais. Tornam-se cada vez mais detalhistas, mas, em contrapartida, esquecem-se do fundamento, do que é verdadeiramente essencial.
+
+"Notícias recentes nos jornais falam sobre a questão entre a Iugoslávia e a Itália, e problemas envolvendo a Inglaterra e Hokkaido. Esses eventos possuem algum significado especial?"
+
+O conflito entre a Iugoslávia e a Itália é uma questão menor. A Iugoslávia é um país pequeno, pouco maior que a ilha de Shikoku no Japão, e sua população é reduzida. Três quartos dos habitantes daquela região são italianos, e apenas um quarto é iugoslavo. Portanto, não seria de se estranhar se ficassem sob o domínio da Itália. O caso de Hokkaido parece ser um incidente de espionagem, também de pouca importância. Casos como esse são numerosos; este apenas veio à tona porque os espiões foram capturados. Há muitos deles não só em Hokkaido, mas no coração de Tóquio. Só não sabemos porque não são presos. Neste caso, quem os capturou foi mais inteligente. Quem não consegue capturá-los é menos inteligente. Até hoje, sete líderes do Partido Comunista não foram presos. Isso significa que eles são mais astutos.
+
+"Ouvi dizer que o tempo ruim acelera a purificação. É verdade?"
+
+Isso é o que diziam os antigos. Coisas como "o tempo está ruim, cuide da sua saúde".
+
+"Não no sentido de agravar uma doença, mas nesse conceito, a purificação se altera?"
+
+Há alguma influência, mas não é significativa. Não é isso que causa as doenças. Apenas torna o surgimento delas mais perceptível. A influência do sistema nervoso é imensa. Alguém pode estar perfeitamente bem, mas se você lhe disser: "A comida que você acabou de ingerir estava envenenada", é possível que ele comece a sentir dores de estômago imediatamente.
+
+"Sobre a relação entre a alma, o sistema nervoso e o corpo... minha mente é um pouco confusa, não consigo expressar bem a pergunta."
+
+Escrevi em meus livros que essa estrutura é composta por três níveis. Se você os ler, compreenderá.
+
+"Mesmo considerando o sistema nervoso como a atividade da mente..."
+
+Seu entendimento está incompleto. A atividade nervosa é uma travessura do Espírito Guardião Secundário. Por exemplo, se você pensa: "Acho que a comida que comi me fez mal", pode começar a sentir náuseas. Quem lhe instiga esse pensamento é o Espírito Guardião Secundário. Quando você pensa assim, ele acha divertido e provoca a dor de estômago. Como o Espírito Guardião Secundário é um espírito animal, ele se diverte com essas coisas. No entanto, se nesse momento você pensar: "Que bobagem, isso é impossível", ele perde o interesse na brincadeira e para.
+
+"E quanto à memória, ao raciocínio e ao juízo?"
+
+A memória é uma função cerebral. Quando há toxinas no cérebro, elas impedem o bom funcionamento dos órgãos, resultando em uma memória fraca. No entanto, basta que a memória retenha o que é necessário; o ideal é esquecer o resto. Ter uma memória excessivamente boa e lembrar-se de tudo pode ser um problema.
+
+O antigo estadista Okuma Shigenobu tinha uma memória prodigiosa. Certa vez, alguém lhe perguntou: "Tenho uma memória fraca e esqueço as coisas. O que devo fazer?". Ele respondeu: "Sinto inveja de sua capacidade de esquecer. Eu sofro por não conseguir esquecer. Não é maravilhoso poder esquecer como você? Gostaria de ser assim, mas infelizmente não consigo". Como se vê, embora uma boa inteligência seja desejável, uma memória excessivamente boa pode ser um fardo. Há coisas que é bom lembrar e outras que é melhor esquecer.
+
+"A respeito desses conceitos, ouvi de um membro mais antigo que um centésimo do corpo se torna mente, e um centésimo da mente se torna alma."
+
+Isso é um disparate. Longe de ser um centésimo, o corpo inteiro é mente. Se fosse assim, haveria partes do corpo desprovidas de mente.
+
+"Então, qual a relação entre a mente e os nervos?"
+
+Não há "relação". A mente em si é o sistema nervoso. Os nervos são a mente dividida em partes infinitesimais. Em essência, os nervos são como os fios de um cabo elétrico. A alma, por sua vez, é muito menor que um centésimo; é talvez um milésimo ou um décimo de milésimo, um tamanho imensurável. No entanto, é ela que governa o todo. Poderíamos dizer que essa é a magnitude da alma. Afinal, um ser humano começa sua existência como um minúsculo espermatozoide. E essa partícula ínfima se transforma em um ser humano de grande porte.
+
+"Quando dizemos 'alma', geralmente nos referimos ao Espírito Guardião Principal?"
+
+Sim, exatamente.
+
+"A razão e a emoção estariam relacionadas ao Espírito Guardião Principal e ao Espírito Guardião Secundário, respectivamente?"
+
+Há uma relação, mas não se pode afirmar isso de forma categórica. Como sempre digo, a razão opera na parte frontal do cérebro, enquanto a emoção reside na parte posterior. A síntese de ambas gera um pensamento. Não se deve pender para nenhum dos lados, e normalmente não se pende. Ocasionalmente, porém, ocorre um desequilíbrio. O ato de matar alguém, por exemplo, é um domínio total da emoção. Do ponto de vista da razão, cometer tal ato é um prejuízo imenso. O incidente em que o primeiro-ministro Yoshida chamou alguém de "idiota" é outro exemplo: a emoção tomou conta de tudo, e a razão foi relegada a um canto. Tenho certeza de que, mais tarde, quando a razão voltou a atuar, ele pensou: "Cometi um erro terrível".
+
+"E qual é a função do instinto?"
+
+O instinto é o desejo do indivíduo. Existe o instinto do Espírito Guardião Principal e o do Espírito Guardião Secundário. Ambos são instintos, mas um corresponde ao bem e o outro, ao mal. O desejo de se tornar um membro, de ajudar a humanidade, de socorrer os que sofrem, também é um instinto, mas um instinto justo, que emana do Espírito Guardião Principal. Por outro lado, o desejo de beber álcool, de cobiçar uma mulher que não seja a própria esposa, de jogar, são instintos do Espírito Guardião Secundário. Portanto, existem diversos tipos de instinto.
+
+"O instinto de sobrevivência, o apetite e o desejo sexual se enquadram em qual categoria?"
+
+Esses pertencem à categoria justa. Sem comer, não se pode viver. Isso é mais do que justo, é absoluto. E sem o desejo sexual, a espécie se extinguiria. No entanto, é preciso analisar o resultado. Mesmo que algo provenha do Espírito Guardião Principal, se o resultado não for bom, não é algo verdadeiro. Por exemplo, se o avanço da medicina resultasse na diminuição do número de doentes e no aumento de pessoas saudáveis, seria algo verdadeiro, a julgar pelos resultados. Mas como o número de doentes não só não diminui, como aumenta, o resultado final é mau. Em meu próximo livro, escrevo que a medicina está fundamentalmente equivocada. O mesmo se aplica à fé. Não adianta dizer que a fé de alguém é exemplar se essa pessoa não consegue formar novos membros. Por outro lado, mesmo que digam que a fé de outra pessoa é falha ou desinteressante, se ela consegue atrair e multiplicar o número de membros, então está no caminho certo. O que importa é o resultado. Entre uma pessoa que é apenas tida como "bondosa e respeitável" e outra que, apesar de "um pouco estranha", lhe oferece uma refeição ou algum dinheiro, qual delas é melhor?
+
+"Quando a mente está em atividade, os três espíritos guardiões estão agindo em conjunto?"
+
+Estão todos juntos, mas pode acontecer de um dos três atuar com mais intensidade. O momento perigoso é quando o Espírito Guardião Secundário predomina; nessas horas, raramente se faz algo de bom. Contudo, o trabalho do Espírito Guardião Secundário também tem seus aspectos admiráveis, então não se pode dizer que seja inteiramente ruim.
+
+"A afinidade da alma — se ela é limpa ou impura — com o Espírito Guardião Principal é o que determina a atuação do Espírito Guardião Principal e do Secundário?"
+
+Não é bem assim. É uma questão de preponderância. Quando se pensa em coisas boas, o Espírito Guardião Secundário se retrai, não se manifesta com força. Mas essa dinâmica está em constante mudança; ao longo de um dia, ou mesmo de um minuto, o Espírito Guardião Principal pode se fortalecer ou enfraquecer. Por exemplo, você pode estar absorto em bons pensamentos e, de repente, ter uma ideia má. Não é algo fixo. O importante é que, em qualquer situação, o Espírito Guardião Principal prevaleça. Essa é a força da alma. A força da alma é luz. Por isso, quem usa o Omamori está seguro, pois dele emana luz, e o Espírito Guardião Secundário inevitavelmente sucumbe à luz, não conseguindo se impor. Aqueles que cometem crimes geralmente têm o Espírito Guardião Principal extremamente enfraquecido. No entanto, em um determinado momento ou por algum gatilho, o Espírito Guardião Principal pode despertar e voltar a atuar. Quando isso acontece, a pessoa sente um profundo remorso e se arrepende.
+
+"Há pessoas que nascem com um talento especial. A qual das almas isso corresponde?"
+
+Não se pode atribuir a uma alma específica. O Espírito Guardião Secundário pode atuar intensamente nesses casos. Os artistas, por exemplo, são regidos pelo Espírito Guardião Secundário. Comediantes e contadores de histórias que fazem o público rir... isso não é algo que o Espírito Guardião Principal faria; é obra do Secundário. No entanto, se esse talento for usado para o mal, significa que o Espírito Guardião Secundário está se aproveitando da situação, e o Principal está adormecido. Portanto, não se pode definir de forma estrita, pois isso levaria a erros. É algo extremamente sutil.
+
+"As deformidades físicas estão relacionadas a qual alma?"
+
+Isso está menos relacionado à alma em si. Imagine, por exemplo — e isso está explicado em meus livros —, que uma pessoa morra em sua vida anterior ao cair de um lugar alto, quebrando uma perna ou um braço. Se essa lesão não for completamente purificada no Mundo Espiritual antes de ela reencarnar, o resquício permanecerá. Pela Lei da Precedência do Espírito sobre a Matéria, o corpo físico manifestará essa condição.
+
+"Ao irmos para o Mundo Espiritual, os três espíritos guardiões se separam?"
+
+Sim, a tendência é que se separem.
+
+"Sendo assim, no caso de uma deformidade, é possível que os mesmos Espírito Guardião Principal e Secundário da vida anterior se unam novamente?"
+
+Pode acontecer de serem os mesmos, ou podem ser outros. Mas isso não tem relação com o Espírito Guardião Principal ou Secundário. A questão é uma mácula no espírito do corpo físico que não foi completamente removida antes do nascimento.
+
+"Quando alguém cai no inferno e passa por provações, os três espíritos estão juntos?"
+
+Isso não tem relação com essa questão. Trata-se da mácula do próprio indivíduo. O sofrimento do inferno é o processo de purificação dessa mácula. Contudo, pode-se dizer que foi o Espírito Guardião Secundário quem criou essa mácula, mas não se pode afirmar isso de forma definitiva.
+
+"Seria uma responsabilidade solidária?"
+
+Não se pode dizer isso, pois existem níveis superior, médio e inferior. Se fossem todos iguais, sim, mas há hierarquias. Poderíamos chamar de responsabilidade conjunta ou integrada. Se pensarmos de forma complexa, torna-se difícil de entender, mas se pensarmos de forma simples, a compreensão é imediata. E há coisas, no âmago mais profundo, que não podem ser explicadas com palavras. São mais um sentimento. A isso se chama iluminação.
+
+Em suma, é algo de uma sutileza imensa. Por isso, não pode ser totalmente expresso em palavras ou na escrita. Creio que, em todo o mundo, sou o único que compreende isso. As outras pessoas provavelmente não entendem. Mas, desde que cumpram sua missão, não precisam compreender tudo. Seria como se uma estrela dissesse: "Aquele Sol, brilhando tanto, me irrita. Quero brilhar como ele". Não adiantaria nada. A estrela possui apenas a luz que lhe é própria. Se pensarmos a fundo, é algo verdadeiramente misterioso e sublime. E se tudo fosse compreendido, perderia a graça. O encanto reside no que não se compreende. Deus é, de fato, um mistério indescritível.
+
+O caminho mais seguro é não tentar definir as coisas. O erro nasce no ato de definir. Dito isso, se não definirmos nada, a situação se torna estranha. É preciso definir o que deve ser definido, o que pode ser definido. E aquilo que não pode ser definido, deve ser deixado como está. Apressar-se ou angustiar-se para definir o indefinível é um prejuízo.
+
+Existe também o fator tempo. Em um determinado momento, é melhor agir de uma forma; com a mudança do tempo, essa ação se torna inadequada, e é preciso seguir outro caminho. É preciso decidir sem decidir, e, sem decidir, tomar uma decisão. Nisso reside algo de sublime e sutil, indescritível. Há também o saber sem saber, e o não saber sabendo. Se ambos fossem a mesma coisa, nos perderíamos na confusão, então é preciso optar por um lado. Há casos em que é bom manter uma decisão até certo ponto e, depois, deixá-la em aberto. E há situações em que uma decisão só é boa por uma hora. Uma decisão que seria excelente se mantida por uma hora, torna-se péssima se mantida por um dia. As pessoas não compreendem esse limite. Mas se não compreendermos nada, não saberemos de nada, então é preciso ter um certo grau de compreensão.
+
+Buda disse que "tudo é vazio". Dizer isso é infalível, mas é uma afirmação um tanto irresponsável. A Seicho-no-Ie costuma dizer coisas semelhantes. Eles pregam a teoria de que "a doença existe porque você pensa nela como doença; se pensar que ela não existe, ela desaparecerá". Isso também é uma forma de definição. Mesmo que se defina que não existe, quando dói, dói. Por mais que se pense que não dói, a dor está lá. Isso porque o ser humano não vive apenas como espírito; ele possui um corpo físico.
+
+O estado de iluminação é o que os monges, desde a antiguidade, buscam alcançar através de diversas práticas ascéticas, como no Budismo Esotérico Shingon. Não há absolutamente nada. Então, o mestre pergunta: "Você compreendeu?". O discípulo responde: "Compreendi". "Ótimo", e está feito. Ninguém sabe o que foi ou não foi compreendido. Mas dizem que o mestre sabe. Na verdade, não é impossível saber. Pelas palavras e ações da pessoa, pode-se ter uma ideia do seu nível de compreensão. Quando um sumo sacerdote vai conferir um ensinamento, ele pensa: "Aquele ali já progrediu bastante em sua prática, deve estar pronto". Então ele pergunta: "Você compreendeu?". O discípulo diz: "Compreendi". "Ótimo", e lhe confere o título de Ajari. O título de Ajari não é algo tangível. É conferido com base em algo etéreo como fumaça.
+
+"Miyamoto Musashi atingiu o estado de unidade entre a espada e o zen, onde não se busca derrotar o oponente nem se proteger, um estado de 'mente vazia'. Isso é eficaz?"
+
+É eficaz. Mas não é bem "mente vazia". O ser humano não consegue atingir um estado de mente vazia. Usaram essa expressão por falta de outra melhor. O que acontece é que o estado da alma se eleva. Musashi obteve sua inspiração inicial do monge Takuan Soho, com quem se aconselhava constantemente. Mas ele já nasceu com uma posição espiritual elevada. Por isso, quando pintava, produzia obras de arte tão magníficas. Isso se refletia em tudo o que fazia; assim como era na espada, era em todas as outras áreas.
+
+"No fundo, trata-se de eliminar os pensamentos impuros?"
+
+Se o objetivo for "eliminar" os pensamentos impuros, já não funciona. "Eliminar" pressupõe a existência deles. Se não houvesse pensamentos impuros, não haveria necessidade de eliminá-los. O erro está em tentar se livrar deles. Eles já não existem, então tal pensamento é desnecessário. É por haver algum resquício que surge a vontade de eliminar.
+
+Eu pinto, faço caligrafia, componho poemas, projeto construções, e tudo o que faço atinge o mais alto nível. No final, é tudo a mesma coisa. Quando se atinge um certo nível em uma área, atinge-se o mesmo nível em todas as outras.
+
+Outro dia, ensinei algo a um jardineiro. Quando as folhas de uma planta começam a secar, perdem a cor ou o vigor, o jardineiro tende a adicionar mais terra. Trocar a terra seria o ideal, mas nem sempre é possível. Em condições normais, a quantidade de nutrientes absorvida do solo e o número de folhas e galhos estão em equilíbrio. Mas se houver uma rocha ou outro obstáculo impedindo a absorção, os nutrientes não chegam a toda a planta, e ela seca ou enfraquece. Nesses casos, basta reduzir o número de galhos e folhas para que a planta recupere o vigor. Eu costumo podar as plantas observando a cor e o estado das folhas. A poda permite que os nutrientes se espalhem por toda a planta, e ela se revigora.
+
+Basta compreender um único princípio, como o das doenças humanas, para que todos os outros se tornem claros. A Agricultura Natural, por exemplo, foi inspirada no tratamento das doenças. O objetivo é tornar as plantas saudáveis. A razão pela qual as colheitas não são abundantes é que as plantas não têm força suficiente. No ser humano, o excesso de toxinas medicamentosas no corpo impede que a energia flua. As toxinas medicamentosas são como os adubos químicos.
+
+Basta compreender uma única verdade para que todas as outras coisas se revelem com o mesmo significado. Se encararmos tudo o que é doloroso e ruim como um processo de purificação, entenderemos imediatamente que os desastres naturais, como inundações e tufões, também são purificações. Pode parecer estranho dizer que toxinas no ar o poluem, mas os pensamentos e palavras dos seres humanos são de suma importância. Quando as pessoas têm pensamentos negativos, o Mundo Espiritual se obscurece. As ações também o obscurecem, assim como a poluição do solo. Para limpar essa sujeira, ocorrem grandes inundações que lavam a terra. Para limpar o Mundo Espiritual, sopram ventos que varrem as impurezas. Tudo segue o mesmo princípio. Se aplicarem essa lógica, compreenderão.
+
+Portanto, o que eu digo e ensino é uma nova ciência. E é a verdadeira ciência. O conhecimento que existia até hoje está todo equivocado. Ou melhor, é um conhecimento de nível inferior. Uma cultura rudimentar. Eu estou promovendo seu avanço e desenvolvimento. Meu conhecimento é de um nível superior. Tudo o que vocês aprenderam até agora é como o ensino primário. O que eu prego é o conhecimento do ensino médio e da universidade. A humanidade em geral, no entanto, considera o conhecimento do ensino primário como o mais elevado e, quando ouve uma aula de nível universitário, diz que está errado, que é superstição. É natural que pensem assim, pois com o conhecimento do ensino primário não se pode compreender uma aula universitária. Mas os fatos não mentem. A medicina do ensino primário não cura as doenças, mas a do nível universitário, sim. Aos poucos, eles compreenderão, e não haverá outra saída. É assim que as coisas são. As religiões até hoje são como o ensino primário superior. Por isso, não diferem muito da ciência.
+
+"A intoxicação por chumbo dos cosméticos parece ser mais comum em homens do que em mulheres. Por quê?"
+
+Isso se aplica aos atores de teatro. As mulheres não usam esse tipo de maquiagem.
+
+"Não há um significado espiritual?"
+
+Não, não há. Os homens têm a pele mais escura que as mulheres, então usam uma maquiagem muito mais espessa. Eles precisam aplicar uma camada grossa para que o rosto pareça branco. Antigamente, a base da maquiagem branca era quase toda de chumbo. Hoje em dia, quase não se usa mais, então não há intoxicação por chumbo, mas no passado era comum.
+
+"O comediante Enoken parecia sofrer de intoxicação por chumbo."
+
+Não foi o caso. Ele desenvolveu gangrena na perna. Com Johrei, a cura seria rápida, mas como ele se submeteu a uma amputação, a recuperação foi longa. Enoken não interpretava papéis femininos, então não se intoxicaria com chumbo.
+
+"Dizem que os atores não suam no palco porque a maquiagem branca obstrui os poros, e por isso usam uma quantidade enorme."
+
+Sim, é verdade. Hoje em dia a situação melhorou bastante, mas antigamente era muito pior.
+
+"Ao dar um nome a uma criança, devemos considerar o número de traços dos ideogramas?"
+
+O número de traços tem sua importância.
+
+"Como devemos proceder?"
+
+Existem números pares e ímpares. O ímpar é yin, o par é yang. O ideal é que os nomes do marido, da esposa e dos filhos se harmonizem nesse aspecto. Um casal em que um nome é ímpar e o outro é par tende a permanecer junto. Quando ambos são yin ou ambos são yang, a separação é mais provável. Aprendi isso há muito tempo e, ao observar, constatei que quase sempre se confirma. Quando uma criança nasce, é bom que seu nome seja o oposto (yin/yang) do da mãe. Assim, a criança se apega à mãe e cresce bem. Se o nome for o oposto do do pai e igual ao da mãe, o vínculo com a mãe será fraco, e a criança acabará sendo criada pelo pai. Isso é um fato.
+
+"Poderia explicar de forma mais concreta o que significa 'harmonia'?"
+
+É o equilíbrio entre yin e yang. É natural que yin e yang se harmonizem. Pense na água morna: é uma combinação de fogo e água, na medida certa. Apenas fogo seria insuportavelmente quente.
+
+"Mas o sobrenome é o mesmo."
+
+O sobrenome não pode ser mudado, então não há o que fazer. A questão está no primeiro nome. Há muitos outros aspectos. A partir do espírito das palavras (Kototama), também há influências, mas não é algo simples. O fundamento do Kototama são as vogais "a, i, u, e, o". A linha "a, ka, sa, ta, na, ha, ma, ya, ra, wa" é a linha do céu, portanto, corresponde ao Fogo. A linha "o, ko, so, to, no, ho, mo, yo, ro, wo" é a linha de baixo, da Terra. O meio é a Água. Portanto, se o sobrenome for Fogo, o primeiro nome deve ser Água, e vice-versa, para que haja harmonia. "Okada", por exemplo, pertence à linha "a". Embora a primeira sílaba seja "o", pela regra da "reversão do Kototama", a última sílaba prevalece, tornando-o da linha "a". "Mokichi", pela mesma regra, corresponde a "mi" (linha "i", Água). Assim, Fogo e Água se harmonizam perfeitamente. Conhecer isso é muito útil ao escolher um nome.
+
+Existem muitas nuances relacionadas aos ideogramas e ao Kototama. Pretendo escrever sobre a reversão do Kototama e o significado dos ideogramas, mas parece que Deus não permite. Quando começo a escrever, sinto um certo desânimo. É que, se isso for revelado, todos os mistérios serão desvendados. E, até um certo momento, não é bom que os mistérios sejam excessivamente compreendidos.
+
+"Dizem que uma criança nascida na maré baixa não se desenvolve bem."
+
+Isso não tem fundamento algum. A maioria das crianças nasce na maré alta, mas isso não altera significativamente seu destino. Não digo que não haja influência alguma, mas ela é limitada a um certo período; depois disso, tudo se iguala.
+
+"O mesmo é dito sobre a hora da morte."
+
+Sim, as pessoas tendem a falecer na maré baixa. Portanto, há alguma influência.
+
+"O destino humano se restringe a um dos três níveis — superior, médio ou inferior —, sem possibilidade de subir ou descer. No entanto, vemos pessoas passarem de um sofrimento infernal para um estado celestial. Sinto uma contradição nisso."
+
+Sua interpretação está equivocada. Quando falo de destino, não me refiro a um "destino infernal" ou "destino celestial". O destino, nesse contexto, é uma questão de hierarquia, não tem relação com paraíso ou inferno. Por exemplo, aqueles destinados a liderar, a serem chefes ou figuras de destaque, já nascem com essa predisposição. E quem tem destino de chefe, inevitavelmente se tornará um. Mesmo que se torne um mendigo, será o chefe dos mendigos. Por outro lado, há pessoas que, por mais brilhantes que sejam, não nasceram para liderar; elas se tornarão gerentes ou administradores. Isso é predeterminado, é o destino. E é somente dentro dessa estrutura que a pessoa pode expressar seu verdadeiro potencial.
+
+No reino vegetal, existem as trepadeiras, que precisam de um suporte para crescer. O mesmo ocorre com os seres humanos. Se a trepadeira não encontrar um bambu ou algo similar para se enroscar, não consegue sobreviver. Da mesma forma, há pessoas que só conseguem viver se puderem se apoiar em alguém. E há outras que, por mais que passem por dificuldades, estão destinadas a serem líderes, a servirem de suporte. Esse é o seu destino. Portanto, quando alguém sem esse destino tenta forçar a liderança, fracassa.
+
+Desde sempre, para onde quer que eu vá, as pessoas se tornam minhas seguidoras. Nunca acontece de alguém me promover ou me amparar. Eu já desisti, pois entendi que não tenho a capacidade de ser amparado. Não consigo me apoiar em nada. No início, posso ter uma relação de igualdade com alguém, mas com o tempo, a pessoa acaba vindo me pedir conselhos. Mesmo antes de ingressar na fé, eu nunca fui capaz de pedir conselhos a ninguém. Com o tempo, o outro sempre acabava se colocando em uma posição inferior. Isso porque meu destino é ser como uma grande árvore. Isso é o destino. É algo com que se nasce. Um trabalhador que ascende socialmente, se não tiver o destino correspondente, acabará caindo. E pessoas que subiram um pouco na vida olham para os trabalhadores e se perguntam: "Por que eles não se esforçam para subir também?". Mas não é assim. Aquela pessoa está satisfeita onde está. Esse é o seu destino.
+
+No entanto, dentro desse destino, é possível subir ou descer. Isso é a sorte. A sorte, nós mesmos podemos mudar, mas o destino não pode ser rompido. O destino é um quadro limitado. A sorte, por sua vez, pode nos levar ao ponto mais alto dentro desse destino. O ápice para quem nasceu para servir aos outros é se tornar gerente ou diretor de uma loja; é a posição mais alta entre os subordinados. Alcançar esse ponto máximo depende da sorte. Portanto, a sorte pode ser mudada, mas o destino, não.
+
+"A aptidão para o comércio ou para a agricultura, a vocação profissional, também está relacionada ao destino?"
+
+Sim, isso é o destino. E mesmo entre os agricultores, alguns prosperam e outros não. Tornar-se um arrendatário ou um proprietário de terras, isso é a sorte.
+
+"O destino e a felicidade estão relacionados?"
+
+Sim. Por exemplo, nascer em uma família abastada e manter uma boa posição social por toda a vida significa viver sem grandes sofrimentos, o que é uma forma de felicidade. Essa pessoa possui um destino afortunado. Por outro lado, pode haver alguém que tenha apenas uma boa posição social, mas cuja vida seja extremamente infeliz. Isso significa que sua sorte é ruim.
+
+---
+
+# Coletânea de Teses do Reverendo Okada Jikanshi — Registro de Orientações Divinas, nº 29
+
+**Categoria:** gosuiji | **Ano:** 昭和29(1954)年3月15日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
+
+## Coletânea de Teses do Reverendo Okada Jikanshi — Registro de Orientações Divinas, nº 29
+*Publicação de 15 de março de 1954 (Ano 29 da Era Showa)*
+
+**Registro de Orientações Divinas, nº 29 (Ano 29 da Era Showa)**
+
+**[1º de março]**
+
+Como hoje não tenho um tema específico a abordar, gostaria de iniciar ouvindo suas perguntas.
+
+“Gostaríamos de apresentar nossas escusas e solicitar uma Orientação Divina. O fato ocorreu com o professor Motokichi Hayashi, de quarenta e dois anos, durante seu sono, na noite de vinte e seis de fevereiro. A fotografia de Meishu-Sama caiu e, com os estilhaços do vidro, feriu-o em cerca de quatro pontos: no ombro direito, no peito esquerdo e na parte inferior direita do corpo. Apresentamos nossas mais sinceras desculpas. O próprio professor veio hoje para se desculpar pessoalmente. Ao inspecionarmos o cordão, notamos que não estava fraco a ponto de se romper, nem parecia desgastado. Seria este um tipo de aviso?”
+
+Sim, de fato é um aviso. Quando essa pessoa ingressou na Fé?
+
+“Foi na primavera de 1948, e creio que a outorga da fotografia ocorreu no outono de 1949.”
+
+O cordão era trançado?
+
+“Sim, era.”
+
+Existem diversas razões para tal ocorrência, mas ela não encerra um mau presságio. Não há motivo para preocupação; basta substituir a fotografia, e tudo estará em ordem.
+
+“A esse respeito, trouxemos hoje a referida fotografia. Seria melhor que ela fosse purificada ou que providenciássemos uma nova?”
+
+Uma nova é preferível. Quanto à antiga, devem pedir sinceras desculpas e, em seguida, incinerá-la.
+
+Hoje pela manhã, foi publicado um artigo no jornal “Shizuoka Minpo”. Ainda não o li, mas tive acesso ao manuscrito e creio que a forma como o tema foi abordado despertará grande interesse.
+(Nota: rattail) Início da série “A Luz sobre a Terra” no Shizuoka Minpo.
+
+O número de peregrinos aumentou subitamente hoje… Haveria alguma razão especial para isso?
+
+“Acredito que membros mais antigos também vieram prestar suas reverências.”
+
+“Em um de seus ensaios, o senhor nos orienta que ‘há filhos pródigos que dissipam a fortuna construída pelos pais, assim como há filhos virtuosos, mas, sob a perspectiva de Deus, não se pode determinar o bem e o mal nisso’. Gostaríamos de compreender, afinal, qual será o destino de um filho virtuoso e de um filho pródigo… Eles prosperarão ou decairão?”
+
+Não é algo que se possa explicar de forma simples. Contudo, o filho pródigo assume o papel de purificar os pecados de seus ancestrais, uma função que não costuma atrair a admiração das pessoas. Em virtude desse mérito, contudo, ele também será abençoado com boas dádivas.
+
+“Mesmo que leve uma vida desregrada?”
+
+Exatamente. O destino se transforma. Há aqueles que são extremamente virtuosos na juventude e se tornam pródigos na velhice, assim como há os que são pródigos quando jovens e se tornam virtuosos com a idade. Sendo assim, talvez seja até melhor ter sido pródigo. A maioria dos ricos acumula uma quantidade considerável de pecados, e seus herdeiros dissipam essa fortuna…
+
+“Então, deveríamos primeiro investigar o histórico dos nossos pais antes de nos tornarmos pródigos…”
+
+Não há necessidade de investigar. No Mundo Espiritual, as coisas se ajustam de maneira perfeitamente lógica.
+
+“O Altar de Komyo Nyorai que cultuamos atualmente foi recebido de outra pessoa. Recentemente, isso tem me causado uma inquietação espiritual, e eu gostaria de receber um novo…”
+
+De fato, essa é a melhor decisão.
+
+É preciso que compreendam o seguinte: certas coisas que eram aceitáveis no passado já não o são mais. Em outras palavras, Deus tornou-se mais rigoroso. Antigamente, por meio de um princípio conhecido como *Wako Dojin*, Deus tolerava a maior parte das coisas. Todavia, com o avanço do tempo, tudo se torna mais claro e definido. Consequentemente, muitas condutas que antes eram perdoadas, de agora em diante, não o serão. Portanto, é fundamental que passemos a tratar de todos os assuntos com crescente meticulosidade e clareza.
+
+“Aprendemos que a Sekaikyuseikyou é uma religião de salvação. Nesse sentido, podemos interpretar o Grande Amor de Deus como algo que, em certos momentos, ceifa a vida de quem tem tempo de vida e, em outros, prolonga a existência de quem não o tem?”
+
+Na verdade, as pessoas não são mortas por Deus; elas mesmas criam um destino que as conduz à ruína. As circunstâncias variam para cada indivíduo, e a questão é de uma complexidade extrema, não podendo ser explicada de maneira simplista. Além disso, há a influência dos espíritos ancestrais. Quando os pecados acumulados desde os antepassados são muito numerosos, torna-se necessário que alguém seja oferecido em sacrifício. Há ainda outra possibilidade: dependendo da natureza dos pecados dos antepassados, atuar no Mundo Espiritual pode purificá-los mais rapidamente do que atuar no Mundo Físico.
+
+Portanto, para acelerar a purificação dos pecados ancestrais, os próprios espíritos ancestrais podem solicitar a Deus que um de seus descendentes seja escolhido como representante, seja para ser sacrificado, seja para atuar no Mundo Espiritual. Nestes casos, o sacrifício torna-se um bem. Como veem, as variáveis são muitas. Em suma, porém, quando um sacrifício ocorre após o ingresso na Fé, há sempre uma razão muito positiva para isso. No relato de graças que li ontem à noite, havia um caso exatamente assim. Uma criança faleceu, e a mãe, em profundo lamento, chegou a nutrir certo ressentimento contra Deus. Com o tempo, o espírito de um ancestral ou outra entidade manifestou-se e lhe explicou detalhadamente as razões daquele acontecimento. Só então ela compreendeu que fora um grande bem e sentiu uma imensa gratidão. Portanto, há significados muito complexos e diversas circunstâncias envolvidas, o que impede uma explicação superficial. Após ingressar na Fé, qualquer que seja o acontecimento, ele representa uma forma de se alcançar um bem maior e, por isso, deve ser recebido com alegria. Com o passar do tempo, seu significado invariavelmente se revelará.
+
+“Através do Johrei, é possível curar, ainda em vida, doenças ou deficiências físicas, sejam elas congênitas ou adquiridas?”
+
+Algumas sim, outras não. A deficiência física, na maioria das vezes, é o reflexo do estado em que a pessoa se encontrava no momento da morte em sua vida anterior. Creio já ter escrito sobre isso. A pessoa reencarna antes de estar completamente curada no Mundo Espiritual. Isso ocorre porque a mãe, ou algum outro ente querido, lamentando a perda da criança que morreu em um acidente ou por outras causas, deseja ardentemente seu rápido retorno. Mesmo quem não tem esse conhecimento pode nutrir um forte desejo de ter outro filho ou de reencontrar aquele que partiu. Devido a esse apego, o espírito não permanece o tempo necessário no Mundo Espiritual e reencarna prematuramente. Assim, a causa da morte, seja uma queda ou uma colisão, se não for plenamente curada, manifesta-se como uma deficiência na nova vida. Essa é a origem da maioria dos casos.
+
+A gravidade da deficiência está, portanto, relacionada ao estado no momento da morte e ao pouco tempo de permanência no Mundo Espiritual. Para que a cura ocorra, é preciso que o apego dos pais seja rapidamente eliminado ou que se pratiquem boas ações, cujo mérito traga a salvação. Tudo se desenrola de maneira perfeitamente lógica. O que também ocorre com frequência é o seguinte: uma criança nasce com uma deficiência, os pais recorrem a médicos e a diversos tratamentos, e, por causa disso, a criança acaba por não sobreviver. Isso acontece porque, quando as máculas da família ou dos pais são numerosas, as bênçãos e a proteção divina são proporcionais. Se o lado negativo for maior que o positivo, a salvação não é possível. Logo, ao compreenderem essa lógica, quando um filho nasce com alguma deficiência, a principal via para a sua cura é que os pais se empenhem ao máximo em acumular virtudes.
+
+Há ainda outra situação. Quando a vida de uma criança que não pode ser salva resultaria em infelicidade tanto para ela quanto para seus pais, Deus permite que ela parta mais cedo. Com isso, os pais se veem livres do sofrimento, o que representa uma imensa virtude divina. Para eles, é insuportável não saber se a criança será curada ou se perderá a vida. Nesses casos, quando os médicos realizam cirurgias e outros procedimentos e se determina que a criança não sobreviverá, Deus a encaminha prontamente para o Mundo Espiritual. Isso traz uma resolução para os pais, o que também é uma virtude divina. Desse modo, a definição sobre a cura ou o falecimento acontece mais rapidamente.
+
+“De acordo com o ensinamento de dois de janeiro, ‘a irradiação do elemento fogo queima as partículas de toxinas. O Johrei, não sendo matéria, queima o espírito’. Já no ensinamento de três de janeiro, consta que ‘o hidrogênio impuro é o conjunto de partículas tóxicas e toxinas medicamentosas solidificadas’. Em outro ensinamento, lemos que ‘pelo elemento fogo, elas são aniquiladas e absorvidas pelo fluido vital’. Gostaríamos de saber se esse fluido vital, essas partículas tóxicas e esse hidrogênio impuro são de natureza espiritual ou material.”
+
+São de ambas. A explicação é a seguinte: ao ouvir um programa de ciências no rádio, notei que a ciência recente afirma que, para a medicina, não se pode classificar o vírus nem como matéria inorgânica — um ser não vivo —, nem como matéria orgânica — um ser vivo. Existem teorias de ambos os lados entre os estudiosos, embora a teoria de que seja um ser não vivo pareça ser a mais difundida atualmente. Contudo, não há uma definição conclusiva. Ora, isso corrobora o que venho dizendo. O que é não vivo — sem vida — é espírito. Já o que é vivo — um ser orgânico — constitui a matéria. Portanto, o vírus se encontra entre o espírito e a matéria. Desse modo, o espírito se torna matéria.
+
+Conforme escrevi, quando as máculas do espírito se adensam, surgem as bactérias por geração espontânea. À medida que se desenvolvem, elas se tornam matéria orgânica, transformando-se em micróbios. Não há uma fronteira definida; é uma transformação gradual. O Johrei queima as bactérias. O estágio anterior às bactérias corresponde às partículas de mácula, as quais ainda não se tornaram matéria.
+
+Escrevi anteriormente sobre o finito e o infinito. A ciência afirma que hoje é possível detectar partículas de um décimo milionésimo com um microscópio. No entanto, existem partículas de um centésimo milionésimo, ou mesmo de um bilionésimo. O tamanho dos micróbios diminui progressivamente, e essa diminuição é infinita. Portanto, aquilo que se observa hoje com o microscópio é, na verdade, algo consideravelmente grande. Os cientistas se alegram por terem detectado algo pequeno, mas ainda existem partículas tão ínfimas que nenhum microscópio é capaz de captar. Em última análise, a limitação está no olho humano que observa através do microscópio. Trata-se do infinito. Se compreendermos o infinito, a lógica se torna perfeita. Uma interpretação finita, por outro lado, será sempre ilógica e, por isso, fadada ao fracasso.
+
+Dentro desse infinito, as forças primordiais são o fogo e a água, ou seja, a essência do Sol e a essência da Lua, cujas naturezas são distintas e opostas. Da palma da mão, emana o elemento fogo, que é a energia essencial do Sol. Mais do que uma densidade, é propriamente uma energia, um “ki”. Poderíamos chamá-lo de “espírito”, mas “ki” é o termo mais adequado. Assim, irradia-se a energia do fogo, o espírito do fogo, que queima as partículas tóxicas contidas no hidrogênio impuro. Isso torna tudo compreensível. A palavra japonesa para doença, *byoki* (病気), utiliza um ideograma muito apropriado, o “ki” (気). A raiz da doença é o “ki”, e a energia do Johrei também é “ki”, a energia essencial do Sol. Na verdade, é tudo muito simples e fácil de entender.
+
+“Sendo assim, podemos considerar que a matéria, ao se tornar infinitamente pequena, transforma-se em espírito?”
+
+Exatamente. Nesse sentido, a afirmação de Buda Shakyamuni de que “tudo é vazio” é uma expressão muito feliz. “Vazio” significa que, em última instância, a matéria se tornará vazia. É uma visão do princípio fundamental. Nós, seres humanos, um dia nos tornaremos cadáveres. Se um cadáver for enterrado, ele se decompõe gradualmente e acaba por se assimilar à terra, desaparecendo por completo. Até mesmo pedras e ouro se transformam com o passar do tempo. O ouro, sendo um dos materiais mais resistentes, leva muito mais tempo, mas, após dezenas ou centenas de milhares de anos, também desaparece. A partir disso, novas coisas nascem, novas criações surgem. Portanto, a alternância entre o “nada” e o “ser” — o “substancial” e o “vazio” — é a verdadeira natureza do Universo.
+
+“Em conexão com o tema, se o ‘ki’ é a base, quando o Johrei diminui as toxinas, não poderia ocorrer, pela lei da afinidade, que a existência de toxinas e máculas em uma pessoa atraísse ainda mais máculas espiritualmente? Ou seja, onde há toxina, mais toxina se acumula; onde há energia maligna, mais energia maligna é atraída?”
+
+Isso não acontece dessa forma. Não se trata de atrair, mas sim de que, quando o espírito de uma pessoa está maculado, um espírito maligno correspondente se acopla a ela. Embora possa parecer que a pessoa o atrai, não é nem que ela o atraia, nem que não o atraia. É uma espécie de princípio definido, algo que simplesmente acontece. De nossa perspectiva, parece que o atraímos. Da perspectiva do espírito, parece que ele vem até nós. Não é por acaso, mas também não é um chamado. O espírito pensa: “Aquele ali é fácil de influenciar, vou me acoplar a ele”. E assim ele o faz. Por outro lado, os espíritos malignos estão sempre à procura de pessoas maculadas, pensando: “É prazeroso me acoplar àquele. Se eu quiser que ele faça o mal, ele fará; se eu quiser que se entregue aos vícios, ele o fará”.
+
+Atualmente, há muitos casos assim. Os envolvidos nos escândalos de corrupção, que dão e recebem subornos, são todos influenciados por espíritos. O espírito pensa: “Vou fazer este sujeito ganhar muito dinheiro para que ele se entregue aos vícios e faça o que bem entender. Ele obedece bem às minhas ordens”. No entanto, quando a pessoa conhece a existência de Deus, o espírito não consegue controlá-la livremente e acaba se afastando. Foi por isso que escrevi o artigo “A Matriz da Corrupção”, pois tudo nasce do pensamento ateísta. A raiz da corrupção é o ateísmo.
+
+“O senhor explicou que as partículas tóxicas podem ser consideradas tanto materiais quanto espirituais. Sendo assim, quando queimadas pelo elemento fogo, as toxinas espirituais se transformam em cinzas. Essas cinzas, por sua vez, tornam-se matéria?”
+
+Uma vez que se tornam cinzas, não se transformam mais. A transformação ocorre com o que está vivo; o que está morto chegou ao fim. As cinzas jamais se tornarão fogo novamente. Já aquilo cujo fogo foi extinto poderá, eventualmente, voltar a ser fogo através do calor. É preciso compreender essa distinção.
+
+“Então, as cinzas são absorvidas pelo fluido vital?”
+
+As cinzas não são absorvidas. Elas são expelidas através das fezes, da urina e do catarro. Após o Johrei, ocorrem purificações como diarreia ou expectoração. Isso são as cinzas.
+
+“As partículas de toxinas espirituais se tornam cinzas, que gradualmente se acumulam e são eliminadas como fezes e urina?”
+
+Isso mesmo.
+
+“Ainda sobre o hidrogênio impuro ser queimado pelo Johrei, quando questionei sobre isso anteriormente (nesta publicação, edição nº 20), pareceu-me ter compreendido. Contudo, minha compreensão atual difere daquela. Naquela ocasião, o senhor disse que ‘as toxinas são como nuvens *altocumulus*; um pouco é bom, mas em excesso, não’. Agora, o senhor fala do aspecto material, do fluido vital… e de que os glóbulos vermelhos envelhecidos se tornam glóbulos brancos…”
+
+Isso eu desconheço. Seria uma explicação médica.
+
+“O senhor disse que o vermelho, ao envelhecer, torna-se branco, e que as toxinas se transformam em pus sanguinolento…”
+
+Isso está correto.
+
+“E que o fluido vital é a parte aquosa do sangue…”
+
+O fluido vital é toda a parte aquosa. Portanto, ele também compõe a parte aquosa do sangue.
+
+“Então, o pus que flui no fluido vital se solidifica nos locais onde usamos os nervos, tornando-se toxina. Haveria, então, uma parte que se coagula e permanece no sangue e outra que se mistura ao fluido vital…”
+
+Tanto o sangue quanto o pus se originam do fluido vital. O sangue, ao envelhecer, torna-se pus. Mas tanto na fase de sangue quanto na fase de pus envelhecido, ambos são parte do fluido vital; jamais se separam dele.
+
+“O sangue dentro dos vasos sanguíneos também é fluido vital…”
+
+Sim, torna-se fluido vital. Com ou sem vasos sanguíneos, tudo é fluido vital. A água compõe cerca de setenta por cento do corpo humano. Podemos pensar no corpo humano como água, pertencente ao elemento água. Já o espírito pertence ao elemento fogo. Portanto, o ser humano é composto de fogo e água. Se o dividirmos em espírito e matéria, podemos dividi-lo em fogo e água.
+
+“Em minha jurisdição, metade das Igrejas realiza seu culto mensal de gratidão antes do culto da Igreja Sede, e a outra metade, depois. Recentemente, as Igrejas que realizam o culto antes, apesar de seus esforços, não têm progredido de forma satisfatória. Seria isso um erro de precedência?”
+
+Certamente. O correto é que a Igreja Sede realize o culto primeiro. Isso é um erro gravíssimo.
+
+“Mas as Igrejas que realizavam o culto antes também apresentavam resultados consideráveis…”
+
+Isso não é aceitável. A ordem está completamente invertida. A razão é a seguinte: quando a Igreja Sede realiza o culto primeiro, ela se torna o principal. O que vem depois torna-se o secundário. A Igreja, que deveria ser secundária, está se colocando como principal. Para explicar de forma mais clara, isso não se aplica apenas às questões divinas, mas a tudo na vida. O primeiro a ser visitado torna-se o principal; os seguintes, os secundários, uma consequência. Suponhamos o seguinte, e isso se aplica a pessoas e eventos, mas especialmente a Deus: se você primeiro visita a Deus e depois cuida de seus outros afazeres, não há problema. Contudo, se você prioriza outros afazeres e deixa a visita a Deus para depois, a ordem está invertida e as coisas certamente não correrão bem. Nada fluirá harmoniosamente. Portanto, é preciso distinguir claramente entre o principal e o secundário. Assim, tudo prosperará.
+
+“Com relação aos cultos mensais da Igreja Sede e das Igrejas, se a ordem for definida com base nos resultados…”
+
+Se for com base nos resultados, haverá momentos bons e ruins, e a ordem teria de ser alterada constantemente. O melhor é definir pela antiguidade. A Igreja estabelecida há mais tempo deve ser a primeira. Assim, será justo.
+
+“Existem casos em que o culto mensal é realizado no dia em que o ministro da Igreja Sede recebeu a Medalha da Luz, e outros em que é no dia em que a Igreja Sede recebeu seu nome. Qual seria o correto?”
+
+O correto é comemorar o dia em que a permissão para a Igreja Sede foi concedida. Isso porque a Igreja Sede representa uma organização maior, enquanto o recebimento da Medalha da Luz tem um caráter individual. Há uma diferença aí. No entanto, não é uma questão de grande importância. Se já está sendo feito de uma forma, pode continuar. Mas, se me perguntam qual é o correto, é o dia da permissão da Igreja. A partir do momento em que Deus outorga a permissão, a Igreja está autorizada a realizar suas atividades.
+
+“Se a permissão foi concedida no dia vinte e cinco, o culto mensal da Igreja Sede seria no dia vinte e cinco. Nesse caso, não seria possível realizá-lo no início do mês…”
+
+Exato. Se for fixado no início do mês, surgirão conflitos, pois é um período em que todos estão ocupados.
+
+“Em situações como esta, sempre surgem perguntas posteriores. Muitos de nós realizamos o culto da Igreja Sede no dia dezoito, por ser o dia de Kannon (観音), ou no dia vinte e três, por ser o dia do nascimento de Meishu-Sama.”
+
+Quando há poucas Igrejas, não há problema. Mas, quando o número aumenta, pode se tornar inconveniente.
+
+“Creio que não devemos nos preocupar se o culto foi realizado antes ou depois. O pensamento é o mais importante, então penso que está bom realizá-lo em um dia auspicioso.”
+
+O dia dezoito é o melhor dos dias, portanto, se for possível continuar assim, ótimo. Contudo, se isso se tornar impraticável, por exemplo, se houver tantas Igrejas que não seja possível visitar todas no dia dezoito, a ordem de fundação das Igrejas deve ser seguida.
+
+“O dia primeiro é reservado para as audiências especiais, e também temos as visitas a cada decêndio, então temos procurado pensar de forma racional.”
+
+Correto.
+
+“O culto da Igreja é algo que deve ser presidido pelo responsável da Igreja Sede ou da Sede Central? Ou, por conveniência, podemos delegar aos responsáveis das Igrejas em locais distantes, como temos feito?”
+
+Não há problema.
+
+“Creio que a Igreja deve ser presidida pelo seu responsável. Se uma jurisdição tiver mais de trinta Igrejas, mesmo visitando uma por dia, o presidente não conseguiria visitar todas em um mês.”
+
+É verdade… Nesse caso, seria impossível ter mais de trinta Igrejas…
+
+“Gostaria de perguntar de forma concreta. O culto da minha Igreja Sede é realizado no dia vinte e um. As Igrejas, seguindo a ordem de fundação, realizam seus cultos nos dias vinte e três e vinte e cinco do mesmo mês, e nos dias três, cinco, dez e onze do mês seguinte. Como devo proceder, concretamente?”
+
+Haverá casos em que a Igreja realizará o culto antes. Em princípio, a Igreja Sede deve ser a primeira. A melhor solução seria a seguinte: o culto da Igreja Sede é fixado, por exemplo, no dia dezoito. Os cultos das Igrejas ocorrerão subsequentemente, mesmo que o culto que deveria ser neste mês acabe acontecendo no mês seguinte.
+
+“Contudo, há uma questão de nome e sentimento… Eu gostaria de realizar o culto da minha Igreja Sede no dia três.”
+
+Nesse caso, é melhor. O culto da Igreja Sede deve ser realizado o mais cedo possível no mês.
+
+“Um membro do interior gostaria de enviar seu Pergaminho Sagrado para emoldurar, mas, por morar longe, não consegue transportá-lo no trem, a não ser em horários de pouco movimento, e não é viável ir a pé. Seria permitido enviá-lo por frete, tomando o devido cuidado para não o danificar?”
+
+Sim, é permitido. É preciso ter em mente o seguinte: Deus considera como pecado deixar de fazer algo que é possível, mas perdoa quando não há outra maneira de realizá-lo. Por exemplo, se alguém da casa sobe no telhado sobre o Altar para observar o tempo ou um incêndio, comete um pecado. Contudo, se o telhado está danificado e há goteiras, e um telhadista sobe para consertá-lo, isso é permitido e não constitui pecado, pois é a única forma de fazer o reparo. Desde que haja uma lógica válida, não há problema. É por isso que sempre digo que tudo o que for lógico e racional é permitido. Fazer algo de uma maneira quando há outra melhor constitui negligência ou desrespeito a Deus. Se não há outra forma a não ser enviar pelo trem, então está correto. Nós mesmos enviamos Okyos para os Estados Unidos constantemente. Como não há outro meio, Deus jamais nos repreenderia por isso.
+
+“Gostaria de perguntar sobre a relação entre Meishu-Sama, Kannon (観音) e Kunitokotachi-no-Mikoto.”
+
+Não há uma relação; são o mesmo ser. O papel muda de acordo com a situação. É como um ator, que pode interpretar uma mulher, um homem, um mocinho ou um vilão. No caso de Deus, porém, Ele se torna o mal em prol do bem. Eu mesmo sou alvo de muito ressentimento. Aos olhos dos farmacêuticos e médicos, sou odiado por negar suas práticas. Para os malfeitores, sou o maior dos vilões.
+
+“Gostaria de perguntar sobre Inari. Durante a guerra, quando estava refugiado no interior de Ibaraki, meu irmão cultuava Inari e consultava um asceta local, que acertou algumas previsões. Crendo nos grandes benefícios, ele pediu ao asceta que lhe conseguisse uma imagem de cerâmica de Inari e a entronizou em casa, à direita do altar xintoísta. No ano passado, ele passou por uma purificação e foi curado instantaneamente com Johrei. Desde então, ingressou na Fé e recebeu o Altar. Contudo, a partir daí, as travessuras de Inari se tornaram explícitas. O que devemos fazer?”
+
+Inari deve ter se zangado. Quando o Altar foi consagrado?
+
+“Ele ingressou na Fé no ano passado e o recebeu logo em seguida.”
+
+E então a raposa começou a aprontar, não é? Isso acontece com frequência. É porque Inari foi colocado acima de Deus. Nesse caso, é inevitável que ela faça algo do tipo. A ordem está invertida. Onde está o Altar de Komyo Nyorai?
+
+“No segundo andar. Inari está no térreo.”
+
+Então não há problema quanto a isso. A razão deve ser outra. O segundo andar é, certamente, o *tokonoma* (alcova principal), correto?
+
+“Sim, correto.”
+
+Que tipo de travessuras ela faz?
+
+“Quando vou ministrar Johrei, a informação chega imediatamente à pessoa que me deu a imagem de Inari. Ela vem até minha casa e diz: ‘Se você for curado nesse tal de Sekaikyuseikyou, vai morrer de derrame cerebral’.”
+
+Quem ministra o Johrei?
+
+“Sou eu. E, enquanto ministro, a pessoa que me deu a imagem fica sabendo imediatamente.”
+
+Mas você não tem relação com Inari, tem? É natural que a imagem de Inari saiba que você está recebendo Johrei. Mas, mesmo que saiba, qual o problema?
+
+“Ela diz para não recebermos Johrei.”
+
+Deixe que diga. É só uma raposa falando, não precisa dar crédito.
+
+“Mas a pessoa está muito preocupada.”
+
+Estar preocupado significa não ter entrado na Fé. Se tivesse fé, entenderia que é apenas a raposa pregando peças.
+
+“Eu já expliquei que é a raposa pregando peças.”
+
+Então está bom assim.
+
+“O local onde o altar xintoísta está consagrado pode permanecer como está?”
+
+Sim, pode.
+
+“Atualmente, parece que eles oferecem arroz e água em dias fixos, pela manhã, mas não realizam cerimônias.”
+
+Assim a raposa se sentirá solitária. É preciso oferecer também tofu frito, senão é uma pena. Quando essa imagem de Inari foi consagrada?
+
+“Por volta de 1947 ou 1948.”
+
+De onde é o talismã? Toda raposa tem sua origem em algum templo Inari…
+
+“Dizem que é do Santuário Fushimi Inari.”
+
+Entendo, Fushimi Inari. Eles costumam fazer esse tipo de coisa. Entre as raposas, as de Fushimi são as mais arrogantes. As travessuras se resumem a isso?
+
+“Ela também tenta constantemente causar desordem na casa. Recentemente, tem agido de forma explícita.”
+
+Esse membro lê os Escritos Divinos?
+
+“Acho que sim…”
+
+Então diga a ele para lê-los em voz alta o máximo possível. Com isso, a raposa começará a se sentir intimidada.
+
+“Seria melhor, então, realizar uma cerimônia uma vez por mês, em um dia fixo?”
+
+Sim, seria melhor. Além disso, não se deve agir de forma precipitada, mas, quando chegar o momento certo… Quando o Altar de Komyo Nyorai foi consagrado?
+
+“Em dezembro do ano passado.”
+
+Então, após pelo menos um ano, a imagem de Inari deve ser transferida para um altar no jardim.
+
+“Nesse caso, devemos construir um pequeno santuário de madeira?”
+
+Exato. Em geral, não se deve viver sob o mesmo teto que Inari.
+
+“E até lá, devemos realizar uma cerimônia uma vez por mês…”
+
+Tanto antes quanto depois. Quanto a fixar um dia, o ideal é o mesmo dia do culto a Komyo Nyorai. Após a cerimônia a Komyo Nyorai, realize a cerimônia para Inari. Com o tempo, a raposa se sentirá cada vez menos à vontade e desconfortável. Ela pensará: “Já não aguento mais, quero voltar para Fushimi”. Nesse momento, ao transferi-la para o jardim, o alívio será grande. Pouco depois, ela retornará a Fushimi ou irá para outro lugar.
+
+As travessuras de Inari podem ser bem severas. Tive uma experiência em que uma raposa empurrou a esposa de uma família escada abaixo. Em outra ocasião, atirou longe as flores que lhe foram ofertadas. Eram travessuras desse tipo, e a origem também era Fushimi. Contudo, até mesmo o Inari de Fushimi se espanta com o Deus da Sekaikyuseikyou. Certa vez, expulsei uma raposa chamada Notaka Inari, de Fushimi. Mas também existem boas entidades em Fushimi Inari. A divindade principal de Fushimi Inari é boa. Trata-se de Toyouke-no-Okami, mas entre seus servos há muitos que são maus. Sigam as instruções que dei, e tudo ficará bem.
+
+“Uma jovem de dezenove anos, dois meses após ingressar na Fé, foi vender a edição especial sobre agricultura e encontrou uma senhora cega há três anos. Decidiu orar a Deus por ela e, após ministrar Johrei por quatro ou cinco minutos, a senhora voltou a enxergar. Essa senhora relatou ter tido uma visão, entre o sonho e a vigília, de uma pessoa de cujo corpo emanava luz vindo para salvá-la. Ao vir à minha casa e cruzar a soleira da porta, ela ficou cega novamente. Ao ministrar mais Johrei, um espírito vivo se manifestou, ressentido com a senhora. Após conversarmos com ele, o espírito se retirou, e a visão dela retornou imediatamente. Quando o espírito vivo se acopla, ela fica cega; quando ele se afasta, ela enxerga. É um fenômeno muito claro.”
+
+Isso acontece. Sendo um espírito vivo, o corpo original está em algum lugar, certo?
+
+“Dizem que é a mãe da nora dela. Ela se divorciou do filho e mandou a nora embora…”
+
+E por isso ela guarda ressentimento. Nesse caso, devem salvar também o espírito vivo. Um oftalmologista jamais conseguiria entender um caso desses.
+
+“Agora ela vem sozinha para as reuniões.”
+
+É fundamental que ela ingresse na Fé. Ao ingressar, o espírito vivo não conseguirá mais se acoplar, e ela ficará em paz. Por isso, ser alvo de ressentimento é algo assustador.
+
+“Um membro recém-convertido deixou cair sua Medalha da Luz sobre o peito do pé na clínica do trabalho. Pedimos desculpas.”
+
+Na clínica? Foi ao tirar a roupa para uma consulta?
+
+“Sim. Além disso, o Pergaminho Sagrado de Eixo Vertical caiu sobre o tatame do posto de difusão. Pedimos desculpas. Seriam estes avisos?”
+
+Certamente são avisos, mas são coisas que a própria pessoa pode compreender ao refletir.
+
+“Como devemos proceder com a purificação?”
+
+O Altar está consagrado, certo? Basta pedir sinceras desculpas. Quanto à Medalha, o responsável pela Igreja deve pedir desculpas e purificá-la. Para purificá-la, coloque-a sobre o *sanpo* (bandeja cerimonial), ofereça-a diante de Deus e peça perdão. Isso é suficiente.
+
+“Qual é o procedimento correto para o descarte da placenta de um recém-nascido?”
+
+Pode ser feito de qualquer forma.
+
+“Até agora, parece que costumavam guardá-la por muito tempo.”
+
+Alguns guardam, outros enterram. Mas, ao enterrar, deve ser em um local onde não se pise. Muitas vezes, enterra-se sob o assoalho da varanda, pois do lado de fora as pessoas podem pisar.
+
+“O daltonismo tem cura?”
+
+Sim, tem.
+
+“Qual é o ponto vital para o Johrei?”
+
+A cabeça.
+
+“O topo da cabeça?”
+
+A cabeça toda, mas o centro. Ministro de frente, visando o centro, e também pelas laterais, visando o centro. O bulbo é o ponto central. Em seguida, a cabeça toda.
+
+“Qual é a vestimenta correta para um funeral? Geralmente, veste-se branco, mas alguns dizem que vestir a pessoa com roupas finas a beneficiará no Mundo Espiritual.”
+
+Isso é um formalismo budista, não há uma forma “correta”. Depende da religião da família, então o melhor é consultar o monge responsável.
+
+“Como uma formalidade, é apropriado incluir no caixão os objetos de adorno que a pessoa usava ao falecer?”
+
+É melhor retirá-los. Incluí-los não é bom. Se fosse algo positivo, representaria uma perda enorme para a economia nacional. O que acompanha o corpo devem ser coisas sem valor, que se decomponham.
+
+“E quanto a dentaduras de ouro?”
+
+Isso é insignificante.
+
+“Há quem as recupere após a cremação.”
+
+Isso não tem grande importância. Eu me refiro a anéis. Mas, mesmo que a família não retire os dentes, o cremador o fará. É uma fonte de renda considerável para eles.
+
+“No artigo ‘A História do Cremador’, na edição 56 da revista ‘Paraíso Terrestre’, diz-se que ‘quem recebeu Johrei queima de forma serena e sem sofrimento, enquanto mulheres que enganaram muitos homens na vida noturna são as que mais sofrem…’. Qual a razão para isso?”
+
+A lógica é essa mesma. A dificuldade na cremação, o fato de dar muito trabalho, indica a presença de máculas.
+
+“Seria porque o espírito não se desprendeu completamente… que ainda resta espírito?”
+
+A permanência do espírito é breve. Alguns se desprendem mais rápido, outros mais devagar, mas isso não é o problema. Mesmo que demore, é por pouco tempo, não fica para sempre. O que o prende é o apego, e alguns espíritos permanecem junto ao corpo até o último instante, agarrados a um desejo desesperado de não morrer, de continuar vivendo. Mas, com a cremação, eles se desprendem. Contudo, dependendo do apego, podem permanecer próximos aos restos mortais e se enfurecer com a forma como são manuseados. O maior apego ocorre quando os ossos não são devidamente sepultados e ficam abandonados. Isso os perturba muito. Por isso, não é bom deixar os restos mortais guardados em templos; devem ser dispostos o mais rápido possível. Enquanto houver qualquer vestígio físico, o espírito pode se agarrar a ele. Com a cremação, isso não acontece.
+
+“A cremação ser lenta ou difícil se deve a uma vida de impurezas?”
+
+Exatamente. É porque há muitas máculas. E queimar essas máculas dá trabalho. Pessoas do mundo do entretenimento noturno, por exemplo, têm muitas máculas, o que significa que cometeram mais pecados. Melhor dizendo, que criaram mais pecados.
+
+“Na província de Miyazaki, dizem que os cemitérios comunitários estão lotados e que, quando se constrói um novo, o número de mortes aumenta vertiginosamente. Um membro está envolvido na construção de um desses cemitérios. Isso é superstição?”
+
+Sim, é superstição. Mas é fácil se enganar com isso. Dizem que construir um novo altar budista ou comprar um templo ou um novo cemitério causa mortes. Na verdade, o espírito guardião da pessoa que está destinada a morrer já sabe disso e providencia a construção antes do falecimento. Visto de fora, parece que uma coisa causou a outra. Contudo, a vida humana não é algo tão simples. Uma pessoa que teria uma vida longa não morrerá só porque construiu um novo cemitério. Isso significaria que os cemitérios dominam os homens, quando são os homens que devem dominar os cemitérios. Seria contrário à verdade.
+
+“No caso da criança que nasce com uma deficiência devido ao apego da mãe, o amor dela pelo filho falecido não seria algo compreensível aos olhos de Deus? O sofrimento de ambos nesta vida se deve apenas ao apego?”
+
+Não é apenas pelo apego. Uma família com poucos pecados e máculas é uma família que praticou o bem. Mesmo em outras fés, praticar o bem e ajudar os outros atrai auxílio, o que faz com que o apego se dissipe. Em certos momentos, recebemos graças como essa. A persistência do apego indica a presença de máculas. É uma questão de merecimento. Muitas vezes, uma pessoa é salva de uma situação crítica porque seus pais ou avós ajudaram alguém no passado, e essa boa ação se manifesta como uma bênção para seus descendentes. Essa é uma das leis do mundo. Nenhuma boa ou má ação fica sem retorno. Ela será, invariavelmente, recompensada de alguma forma. Essa é a Lei da Causa e Efeito.
+
+“Ao reencarnarmos, vamos para um lugar onde temos laços?”
+
+Exato.
+
+“Podemos dizer que isso acontece na maioria dos casos?”
+
+Sim. Sem um laço, isso não ocorre. O ditado “até o roçar de mangas é um laço de vidas passadas” é muito sábio. É algo muito profundo. Se você ajuda alguém, essa pessoa, gerações atrás, sentirá a necessidade de retribuir essa graça. Se a pessoa que ajudou não estiver mais lá, a retribuição vai para seu filho; se o filho não estiver, para seus descendentes. Se a pessoa que ajudou caiu no inferno e não pode sair por um tempo, a retribuição se atrasa, mas um dia ela certamente acontecerá. Por exemplo, uma pessoa A morre e recebe orações de um membro da nossa Igreja. Se a pessoa A já reencarnou (mas enquanto ela estava no Mundo Espiritual, havia um registro, uma espécie de arquivo), a graça, através desse registro, chega à pessoa que está viva. E essa pessoa viva recebe uma bênção. Ela pensa: “Por que algo tão bom me aconteceu?”, “Por que ganhei na loteria?”. É porque, em algum lugar, alguém está orando por seu espírito ou tentando retribuir uma graça. Ganhar na loteria não é um acaso; sempre há uma razão.
+
+Por outro lado, ganhar em corridas de cavalos tem um significado diferente. Pode ser que os ancestrais precisem que a fortuna da família seja dissipada. Para isso, eles influenciam um descendente que gosta de jogos de azar, fazendo-o ir às corridas. No início, ele ganha, fica obcecado e acaba perdendo tudo. Então, os ancestrais pensam: “Finalmente a fortuna foi dissipada e os pecados e máculas foram purificados. Agora os descendentes poderão prosperar”.
+
+Portanto, tudo o que se manifesta, todas as pessoas com quem nos relacionamos, até o lugar onde vivemos, tudo está ligado por laços cármicos. Mesmo em coisas aparentemente triviais, se não seguirmos esse fluxo, as consequências serão negativas. Tentar impor a própria vontade é um erro. É o ego. A atitude de “não importa o que digam, farei como eu quero” ou “não importam as circunstâncias, levarei até o fim” é perigosa. O melhor é tentar algo e, se não der certo, simplesmente desistir. Pode parecer falta de convicção, mas não é. É ser dócil, submisso ao destino. Esse é o melhor caminho, e não há erro nele. Se não há erro, tudo corre bem. Contudo, o ser humano tende a seguir o lema “com determinação, nada é impossível” e resiste a ser dócil.
+
+Eu já disse antes que as pessoas acreditam que devem contrair o abdômen para ter força, mas não devem. Mesmo um mestre de artes marciais que contrai o abdômen ainda não atingiu a verdadeira maestria. Com o abdômen contraído, ele não consegue reagir instantaneamente à miríade de movimentos de um adversário. Sem essa contração, ele se torna capaz de reagir a qualquer mudança, adaptando-se à situação e ao seu corpo. Portanto, planejar rigidamente o que fazer levará, invariavelmente, ao fracasso. O melhor princípio é: se está frio, vista-se com algo quente; se está calor, com algo fresco. No passado, eu também seguia fervorosamente o lema da determinação, mas percebi que não é o caminho certo. Antes de conhecer a Deus, eu agia assim. Depois que compreendi, vi que o ser humano é, na verdade, uma criatura frágil, como um mosquito que pode ser esmagado por uma rajada de vento. Apenas segurando-se em Deus estamos seguros; sem Ele, estamos em constante perigo. Agora, vemos todos esses indivíduos que se achavam poderosos sendo presos por corrupção. Eles tinham certeza de si mesmos, acreditavam ser admiráveis…
+
+No entanto, isso não significa que devemos viver de forma leviana. É aí que entra a sabedoria. A sabedoria é crucial. Por isso, devemos aprimorar nossa sabedoria e discernimento. Para isso, a mente é fundamental, e ela não pode estar maculada. As pessoas de hoje têm a mente maculada, sofrem de anemia espiritual, e por isso sua sabedoria não funciona bem. Na verdade, quando se compreende de verdade, vê-se que uma pessoa sem fé não tem salvação. Foi por isso que escrevi o artigo “A Matriz da Corrupção”, que publicarei três vezes seguidas na revista “Eiko”, para tratar do assunto a fundo. O mundo político do Japão precisa, indispensavelmente, de uma grande purificação.
+
+(Nota: rattail) Publicado em sequência na revista “Eiko”: “A Matriz da Corrupção”, “Novamente, a Matriz da Corrupção” e “Os Escândalos Também São uma Purificação”.
+
+---
+
+# Registro dos Sagrados Ensinamentos, nº 4 (Showa 26 - 1951)
+
+**Categoria:** gosuiji | **Ano:** 昭和26(1951)年12月10日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
+
+## Registro dos Sagrados Ensinamentos, nº 4 (Showa 26 - 1951)
+
+**Coletânea de Teses do Mestre Okada Jikan**
+*Registro dos Sagrados Ensinamentos, nº 4, publicado em 10 de dezembro de 1951 (Showa 26)*
+
+**[1º de novembro]**
+
+**Pergunta: Em Quioto, o senhor mencionou que nos daria uma lembrança. Ao ouvir suas palavras, refleti sobre mim mesmo e compreendi a diferença entre o poder humano e o Poder Divino. Sinto-me imensamente grato por esse ensinamento.**
+
+Esqueci de mencionar algo há pouco, mas é um ponto bastante crucial. Costuma-se dizer que, no Johrei, quanto menos força aplicarmos, melhor o resultado. Esse mesmo princípio se aplica a todas as outras coisas. Para explicar de forma mais simples, suponhamos que o senhor deseje ardentemente algo. Se tentar atrair esse objeto para si com sua própria força, ele não virá. Quando o desejo é intenso e repetitivo, invariavelmente o objeto não se aproxima. O mesmo ocorre com um doente: se pensarmos que, ao curá-lo, teremos uma grande força de divulgação e nos empenharmos obstinadamente, ele não se curará. Contudo, se não dermos importância a tais pensamentos e agirmos com naturalidade, a cura acontece.
+
+Isso ocorre porque o desejo insistente de curar a todo custo gera apego, e assim, apenas a ação humana se manifesta. Quando, ao contrário, abandonamos tais pensamentos e entregamos a questão a Deus, o apego se dissolve. Então, a ajuda Divina flui. O apego humano — o pensamento direcionado — obstrui o caminho para a atuação de Deus. Doentes que afirmam: “Não serei derrotado por esta doença! Vou curá-la com minha força de vontade!”, em geral, acabam por falecer. Por outro lado, aqueles que se resignam, pensando: “Seja feita a Vontade de Deus”, são salvos. Por isso, muitos se recuperam justamente depois que lhes é dito: “Não há mais esperança, resigne-se”. Diante de questões complexas, o melhor é entregar tudo nas mãos de Deus. Agindo assim, as coisas surpreendentemente se resolvem. Eu mesmo enfrento situações complicadas com frequência; nesses momentos, simplesmente entrego tudo a Deus. Quando me vejo em um dilema, no qual favorecer um lado prejudica o outro, ao confiar a questão a Deus, tudo se encaminha da melhor forma, superando até minhas expectativas.
+
+Existe uma expressão muito apropriada: “O Grande Caminho de Viver Conforme a Vontade Divina”. A palavra japonesa para “conforme a Vontade Divina”, *kaminagara*, é excelente. Significa avançar segundo o desígnio de Deus, um termo de grande beleza e profundidade.
+
+**Comentário: Quando recebemos um ensinamento como esse, sentimo-nos mais tranquilos e com maior serenidade.**
+
+Exatamente. Surge uma folga, uma leveza. Isso é especialmente verdadeiro em relação ao dinheiro. Quando se deseja dinheiro ardentemente, ele jamais aparece. No entanto, quando nos tornamos indiferentes a ele, o dinheiro flui. O grande problema do mundo é que as pessoas superestimam a força humana. Veja as guerras: todos os planos elaborados, como os que o Japão traçou, pensando em como agir para vencer de uma só vez, resultaram em fracasso.
+
+**Comentário: Antigamente, eu me considerava muito importante, vivia em constante agitação e sempre fracassava. Contudo, ao receber palavras como as suas, sinto-me mais sereno e tudo corre bem.**
+
+Sim, a vida se torna mais serena. Naturalmente, isso não se aplica àquele que é excessivamente dependente e preguiçoso. O segredo está em agir até o limite de suas capacidades e, depois, entregar. A expressão “Fazer tudo o que está ao alcance humano e aguardar a Vontade Divina” é muito sábia. Ademais, o Deus a quem nos entregamos precisa ser poderoso; de nada adiantaria confiar em uma divindade sem força. O Deus da Sekaikyuseikyou, contudo, possui poder absoluto.
+
+**Pergunta: Sobre o que se poderia chamar de superstição religiosa, é comum ouvir as pessoas se referirem a Daikoomyoo Nyorai-Sama. Eu, porém, em qualquer circunstância, sinto-me mais à vontade ao invocar o nome de Meishu-Sama.**
+
+É que Daikoomyoo Nyorai-Sama está realizando meu trabalho, manifestando-se como um Buda.
+
+Entregar-se a Deus é algo bom, mas ser negligente, pensando que tudo é Vontade Divina, é um erro. Se nos limitarmos a pensar “isto deve ser o desígnio de Deus” em todas as situações, acabaremos fracassando. É nesse ponto que a sabedoria se torna necessária. Em última análise, não devemos nos prender a uma única coisa, nem mesmo ao poder humano. O caminho é harmonizar todos os elementos. A isso se refere o conceito de Izunome: não ser apenas a trama vertical nem apenas a trama horizontal, mas ser ambas simultaneamente. Desse entrelaçamento, surge algo inefável. No budismo, isso é chamado de *myochi*, a sabedoria sutil.
+
+**Pergunta: Acredito que, ao agirmos com fé em Deus, não há como praticar o mal. Portanto, quando as coisas fluem suavemente, seria correto pensar que estamos no caminho certo?**
+
+Não, isso seria um erro. Mesmo quando as coisas fluem suavemente, pode ser perigoso, pois essa fluidez também pode ser obra de espíritos malignos. É aí que a sabedoria é fundamental, a visão Mahayana. Fluir suavemente com uma visão Hinayana é arriscado. E o que seria a visão Mahayana? Suponhamos que precisemos ajudar uma pessoa. Como a força humana é limitada, talvez não seja possível salvar a todos. Devemos, então, ponderar qual causa é maior. A maior de todas as causas é a salvação da humanidade. Se nossas ações contribuem para esse fim, não há erro. Foi nesse sentido que escrevi o artigo “Sejamos Cidadãos do Mundo”. Se todos os habitantes da Terra se tornassem cidadãos de uma única nação, as guerras desapareceriam. Embora isso não fosse tão premente no passado, daqui para frente, tudo deverá assumir uma dimensão global.
+
+**Comentário: Até hoje, eu tinha uma forte consciência de grupo. Após ler seu artigo, compreendi que nossa Igreja deve se tornar uma instituição grandiosa para o bem do mundo.**
+
+Aí reside a diferença entre a visão Hinayana e a Mahayana. Por isso, a lealdade cega ao soberano e o patriotismo exacerbado são equivocados. A nação com a maior população acaba por invadir as outras, pois, com o crescimento demográfico, a expansão territorial se torna uma necessidade, o que leva ao uso da força militar. O erro está em buscar o bem-estar exclusivo do próprio país.
+
+**Comentário: É o mesmo princípio de desejar o bem do próximo…**
+
+Exatamente. Em uma escala maior, isso se aplica às nações.
+
+Em Quioto, falei sobre o comunismo. Um sistema que beneficia apenas seu próprio grupo não tem como prosperar. O modelo americano é superior. Por essa razão, os Estados Unidos devem, inevitavelmente, se tornar a nação líder.
+
+**Pergunta: Entendo que o Johrei não apenas cura doenças, mas, ao purificar o coração, também elimina a pobreza e os conflitos. Essa interpretação está correta?**
+
+Sim, está correta.
+
+**Pergunta: Ao ministrar Johrei, não devemos usar nossa própria vontade, mas o desejo de curar está presente. No caso da pobreza, devemos ministrá-lo com o pensamento de eliminá-la?**
+
+Sim, perfeitamente. Esse tipo de apego é um apego virtuoso. Contudo, saiba que, quando a doença é curada, a pobreza e os conflitos também desaparecem. A cura da doença pela Sekaikyuseikyou abrange igualmente a miséria e o sofrimento. Ao eliminar as máculas que devem ser purificadas, o sofrimento da pobreza e dos conflitos também cessa. Basta interpretar de forma ampla. A base de tudo é o Johrei, que purifica o espírito. E, uma vez que o espírito é purificado, a pobreza também desaparece. Por isso, sempre digo que não se trata apenas da doença dos homens, mas da doença do país e do mundo.
+
+O Japão está doente; está empobrecido. O mundo também está doente. O sofrimento causado pelo comunismo é como uma tuberculose.
+
+**Pergunta: Em Quioto, há um artista chamado Sakakibara que não tem mestre nem discípulos, e vive satisfeito pintando seus quadros em meio à pobreza. De modo geral, existem pessoas que se contentam em viver na miséria. Do ponto de vista social, isso seria inadequado? Ou, por outro lado, seria algo a ser tolerado?**
+
+Um número reduzido de pessoas assim não representa um problema. Se todos fossem flexíveis e pragmáticos, o mundo também seria complicado. Veja o caso das mulheres que entram para conventos. Elas renunciam à maternidade, um dom que lhes foi concedido. Deus nos deu o amor e o desejo sexual. Contudo, uma pequena parcela que segue esse caminho é aceitável. Há pessoas que não suportam a vida mundana ou que carregam o carma de terem condenado alguém à solidão em vidas passadas. Para elas, encontrar paz em um lugar assim é uma bênção. O caso do pintor não é o ideal, mas, em pequena escala, é tolerável. Por outro lado, há uma questão de habilidade: se ele fosse verdadeiramente talentoso, não seria deixado de lado.
+
+Existe um romance chamado “Uma Pedra à Beira do Caminho”. Mesmo uma pedra à beira do caminho é necessária. Embora pareça inútil ali, caída, ela serve a algum propósito. Muitas pedras juntas formam o cascalho. Da mesma forma, há plantas que não dão flores nem frutos úteis, mas, quando secam, tornam-se matéria-prima para o composto orgânico. Entre os seres humanos, também existem pessoas com essa função. Deus arranjou tudo de forma muito engenhosa.
+
+Escrevi um artigo afirmando que “o mal é necessário”, mas a explicação não se esgota aí. A leitura completa do texto revela a lógica por trás dessa afirmação. À medida que a cultura humana evoluiu, desde a era da barbárie, em cada época surgiram os elementos necessários para cumprir uma determinada função. Na era em que a Terra precisava ser solidificada, existiram dinossauros e mamutes para compactar o solo; hoje, eles não são mais necessários. Da mesma forma, os homens maus foram necessários até agora. Daqui para frente, não serão mais. No passado, o conflito entre o bem e o mal impulsionou o progresso da civilização. Agora, essa necessidade cessou; seria até melhor que o mal não existisse. Os tempos mudam. As religiões também: o xintoísmo e o budismo cumpriram seu papel, mas, daqui em diante, não são mais necessários. Sua missão terminou.
+
+**Comentário: É como a relação entre o arroz e a água no cozimento. Uma vez que o arroz está pronto, a água não é mais necessária, mas as pessoas continuam apegadas a ela, pensando que ainda é útil.**
+
+Exatamente por não compreenderem isso é que se apegam ao que já cumpriu sua função, acreditando que ainda é indispensável. É uma mudança que acompanha a transformação dos tempos. É importante discernir o que pode ser dispensado e o que é imprescindível. A isso se chama “enxergar a verdade”.
+
+**Pergunta: No ensinamento de hoje, foi mencionado o Imperador Go-Daigo. Eu acreditava que ele usava a religião para criar exércitos de monges-guerreiros e fortalecer seu poderio militar, e que não possuía verdadeira fé. Estaria eu enganado?**
+
+Sim, está enganado. Ele foi um devoto sincero do Mestre Daito Kokushi.
+
+**Pergunta: Mas ele não teria feito de seu filho um monge para se opor ao clã Hojo?**
+
+Não creio que tenha sido assim. Talvez alguns de seus vassalos tenham agido dessa forma, mas não ele. Uma visita ao templo Daitoku-ji revela sua genuína devoção ao Mestre Daito Kokushi. Daitoku-ji foi erguido graças ao apoio do Imperador Go-Daigo. A menção a brâmanes pode sugerir um viés materialista, algo que talvez o imperador não tenha compreendido plenamente. É provável que ele aspirasse ao trono enquanto mantinha sua fé, sem ter alcançado a iluminação completa sobre essa dualidade. Contudo, seu caminho espiritual se desenrolou dessa forma, e não havia como ser diferente. É um ponto complexo. A contradição reside em ser salvo pela fé e, ao mesmo tempo, nutrir ambições mundanas.
+
+Muitos dizem que os Estados Unidos utilizam o cristianismo para seus próprios fins no Japão, mas não creio que seja o caso. Os pastores agem com a convicção de que a salvação virá através do cristianismo. O governo pode ou não se aproveitar disso, mas a religião em si não tem essa intenção. Durante a guerra, os militares japoneses usaram o xintoísmo, mas os sacerdotes não tinham a menor intenção de apoiar uma guerra de agressão. Eles apenas seguiram as ordens das autoridades militares para evitar perseguições.
+
+**Pergunta: Em minha região, alguns agricultores que praticam a agricultura natural estão obtendo resultados inferiores aos do ano passado. Ao investigar a causa, descobri que, por não terem como processar o excremento humano, eles o entregam a agricultores convencionais em troca de palha, que depois usam como composto. Essa prática constitui uma transgressão?**
+
+Sim, é um erro. É como dar a alguém um remédio que se sabe ser prejudicial, apenas por achar um desperdício jogá-lo fora. Receber a palha não seria um problema, mas trocá-la por excremento é incorreto.
+
+**Pergunta: Ao usar essa palha, que veio de uma lavoura adubada, as toxinas do fertilizante…**
+
+Sem dúvida, elas afetam a plantação.
+
+**Pergunta: Então, utilizar essa palha…**
+
+A palha que absorveu fertilizantes é, evidentemente, prejudicial.
+
+**Pergunta: Então eles estão cometendo um equívoco…**
+
+Sim, um grande equívoco.
+
+Como sempre digo, as toxinas do solo precisam ser eliminadas. Se, ao mesmo tempo, introduzimos as toxinas de fertilizantes, todo o esforço é em vão. Assim como uma pequena quantidade de toxina medicamentosa pode desencadear uma purificação, uma pequena quantidade de toxina de fertilizante também causa seus efeitos.
+
+**Pergunta: Há quem diga o seguinte: após dois ou três anos de agricultura natural, ao se aplicar Johrei no solo, assim como no corpo humano, as toxinas endurecidas podem se dissolver. É possível que o Johrei dissolva os fertilizantes químicos que estavam solidificados no solo?**
+
+Sim, isso pode ocorrer se a quantidade de fertilizante aplicada tiver sido muito grande. Como o fertilizante se dissolve, a toxina se espalha por todo o solo e causa danos. Nesse caso, basta continuar a cultivar por mais um ano, e o problema se resolverá.
+
+**Pergunta: E a ideia de que a dissolução ocorre após três anos?**
+
+Isso não procede. O processo leva, no máximo, um ano.
+
+**Pergunta: Na região de Ohata, a colheita, que era de 2,4 *koku* por *tan*, foi registrada como 3,4 *koku* por *tan*. Parece-me um rendimento excessivo. Seria devido à qualidade do solo?**
+
+A natureza original do solo certamente influencia. A questão não é tanto a quantidade de fertilizante, mas se o solo se compacta ou não. Um solo compactado não é ideal, pois dificulta o desenvolvimento das raízes. Na agricultura natural, as raízes crescem livremente, expandindo-se bastante, o que resulta em colheitas muito melhores. O solo argiloso vermelho é o que mais se compacta, embora existam variações. Já o solo escuro não se compacta e, por isso, é excelente. Antigamente, pensava-se que adicionar fertilizantes transformava o solo vermelho em escuro, o que era considerado bom, mas as toxinas presentes acabavam por prejudicar a colheita. O composto orgânico também escurece o solo, e seus efeitos são notáveis. Em geral, a província de Tochigi possui um solo de boa qualidade, rico em húmus, que é excelente para o cultivo.
+
+**Pergunta: Em Ibaraki, o solo é muito ruim, e a colheita mal chega a dois *koku*. Com a agricultura sem adubos, porém, o rendimento aumenta em cerca de 30%.**
+
+Entendo. E em Saitama, como é? A província de Shizuoka não tem um solo bom; a incidência de pragas é muito alta, provavelmente devido à influência das cinzas vulcânicas do Monte Fuji, que ainda devem estar presentes em grande quantidade.
+
+**Pergunta: Se a palha de outra propriedade for utilizada, é possível que haja uma redução na colheita no primeiro ano?**
+
+Não é possível afirmar isso de modo conclusivo. Depende se a palha contém muitas toxinas de fertilizantes, bem como da qualidade do solo. Contudo, é certo que essa palha será pior que a comum, por conter toxinas. Além disso, embora as pessoas deem grande importância à palha, seu papel não é tão central assim. A principal função da palha é aquecer o solo. A forma como é cortada também é relevante. Alguns a cortam em pedaços grandes, mas o correto é cortá-la em fragmentos bem pequenos, com menos de um *bu* (cerca de 3 mm). Já vi palha cortada em pedaços de um *sun* (cerca de 3 cm). O ideal seria transformá-la em pó, mas como isso é muito trabalhoso, um corte de um *bu* é suficiente.
+
+No cultivo de arroz, a eliminação das toxinas de fertilizantes é mais rápida, pois a presença constante de água, somada às chuvas, ajuda a lavar o solo. Nas hortas, por outro lado, as toxinas se acumulam, exigindo mais atenção.
+
+**Pergunta: Então, com o Johrei, os fertilizantes químicos contidos no solo vêm à superfície?**
+
+Eles não vêm à superfície, eles se dissolvem.
+
+**Pergunta: Mas parece que eles sobem…**
+
+O que acontece é o seguinte: há toxinas antigas e novas. As novas se dissolvem. O espírito do fertilizante se enfraquece. O fertilizante químico é uma impureza, e sua quantidade diminui.
+
+**Pergunta: As substâncias que estão mais profundas não podem vir à superfície?**
+
+Isso pode acontecer quando a concentração de fertilizante é muito alta e ele se precipita. Nesses casos, parte pode subir à superfície. Contudo, isso se resolve em cerca de um ano e ocorre apenas em solos que foram excessivamente adubados. Normalmente, não é o caso.
+
+**Pergunta: Nas palestras, quando se explica que os fertilizantes químicos são prejudiciais à saúde humana, as pessoas ficam muito impressionadas. No entanto, quando apenas nós falamos, o efeito não é o mesmo. Seria muito importante se o senhor, Meishu-Sama, fizesse uma declaração a esse respeito.**
+
+Eu já não escrevi sobre isso? Bem, então escreverei de forma mais enfática da próxima vez. O material do Sr. Rodale não é suficiente?
+
+**Comentário: As pessoas ficam surpresas ao saber que os fertilizantes químicos têm causas tão profundas. Parece que, até agora, não havia uma palavra direta de Meishu-Sama sobre o assunto.**
+
+De fato. Contudo, há um plano para usar os resultados deste ano como base para a criação de um livro abrangente, que será amplamente divulgado. Pretendo escrever sobre isso nesse material.
+
+**Comentário: Sobre a purificação das toxinas de fertilizantes, os produtos químicos parecem ser eliminados mais rapidamente na agricultura natural, mas o excremento humano demora mais. Onde se usa excremento humano, a purificação leva cerca de um ano. É como um remédio da medicina chinesa.**
+
+Exatamente. O excremento humano é extremamente prejudicial, pois é um resíduo, um concentrado do que há de pior nos alimentos.
+
+**Pergunta: Há um caso de um agricultor que pratica a agricultura natural e cujos vizinhos se recusam a lhe fornecer água. Contudo, os campos que recebem água abundante das partes mais altas correspondem a apenas 30% da área. Paradoxalmente, a falta de água dos vizinhos resultou na melhor colheita. No ano passado, colheu apenas quatro fardos; este ano, foram cerca de seis. Ademais, a parte do campo por onde a água com fertilizantes escorria teve o pior desempenho.**
+
+Isso significa que ele estava constantemente recebendo água contaminada com toxinas de fertilizantes. No fim, Deus é verdadeiramente irônico.
+
+**Pergunta: Nas áreas montanhosas de Niigata, os resultados não são bons. A água é muito fria e o solo é de cascalho.**
+
+É uma condição desfavorável.
+
+**Pergunta: A adição de solo de outra região (*kyakudo*) ajudaria?**
+
+Sim. Se o solo sempre foi de cascalho, a condição não mudou.
+
+**Comentário: A colheita geralmente é inferior a dois *koku*. Os agricultores usavam grandes quantidades de fertilizantes para conseguir produzir.**
+
+Exatamente. Por causa da má qualidade do solo, eles precisavam usar mais fertilizantes que o normal. Consequentemente, a eliminação dessas toxinas levará mais tempo que o usual. Nas montanhas, a adição de solo é uma tarefa fácil, então é uma boa solução. E, uma vez que parem de usar fertilizantes, a melhora será notável.
+
+**Relato: Em uma área montanhosa onde as colheitas não são muito expressivas, e onde o ano passado também foi ruim, sugeri que a causa poderiam ser as toxinas de fertilizantes e que talvez adicionar argila vermelha ajudasse. Ele espalhou uma camada de cerca de cinco *bu* de espessura e a colheita foi excelente. Um vizinho, ao ver isso, pediu para aprender o método, atraído pela ideia de trabalhar menos, sem usar fertilizantes. Contudo, a colheita dele não foi boa. Eu lhe disse: “Você não conhece isto (o Johrei), precisa ingressar na fé”. Parece que ele vai receber o Ohikari.**
+
+Isso acaba se tornando uma ótima forma de divulgação.
+
+**Relato: Recentemente, em Nishikanbara, na província de Niigata, os resultados têm sido excelentes. Enquanto as lavouras em geral sofrem com pragas, as nossas estão protegidas. Os líderes locais estão dizendo: “Se com o Ohikari se colhe sem fertilizantes, vocês também deveriam reduzir a quantidade que usam. Vocês estão exagerando”.**
+
+Situações como essa estão surgindo em vários lugares. A opinião pública de que se deve evitar o excesso de fertilizantes está se espalhando.
+
+**Relato: Quando o tufão passou, eu nem percebi que as telhas da minha casa haviam se movido. Do outro lado de um pequeno rio, ou pulando apenas uma casa, a residência dos membros não sofreu dano algum, enquanto as outras foram severamente atingidas. Estou pensando em organizar uma reunião de testemunhos sobre os milagres durante o tufão.**
+
+É uma excelente ideia.
+
+**Relato: Na agricultura natural, o que mais impressiona os leigos é a diferença de brilho em comparação com a lavoura vizinha, que usa adubos.**
+
+Sim. A cor é mais agradável, mais reconfortante. Em termos humanos, seria como ter uma boa aparência. O arroz sem brilho é como um rosto sujo e descuidado. É o resultado do sofrimento e do esforço de quem toma remédios e se aflige.
+
+**Relato: Uma camareira de um hotel em Hakone comentou: “Todos os membros da Sekaikyuseikyou têm os olhos muito límpidos”. Eu respondi que isso era natural. Ela então perguntou: “Mas por que, mesmo vindo em grupos tão grandes e com tanta frequência, vocês não falam sobre sua fé?”. Eu lhe disse: “Pense no motivo pelo qual viemos desde o extremo de Kyushu. Estranho é vocês não perguntarem”. De fato, até mesmo outras pessoas percebem a diferença em nosso olhar.**
+
+Eu mesmo, ao caminhar pelas ruas ou esperar o bonde, vejo cinco, sete pessoas, e seus rostos têm feições desagradáveis, um olhar incômodo. Na Sekaikyuseikyou, isso não existe. Há algo de afável em todos, uma sensação agradável. É por isso que, ao se tornar membro, uma pessoa que antes era rejeitada passa a ser querida, a despertar simpatia.
+
+**Pergunta: Mesmo que eu fale sobre a fé, as pessoas não ingressam imediatamente. Isso acontece porque ainda não receberam a permissão de Deus?**
+
+Exatamente. Tentar forçar a entrada de quem não compreende é um grande erro. É preciso deixá-los em paz. O ideal é que a pessoa compreenda e ingresse de forma natural e espontânea.
+
+**Pergunta: Em Quioto, durante a apreciação de caligrafias e pinturas, quando o senhor observava o *Kankinbō* do Mestre Daito Kokushi, o senhor repetia que estava cansado. Pensei que talvez o elevado espírito do Mestre estivesse, de alguma forma, em ressonância com o seu, causando um fenômeno espiritual.**
+
+O que acontece é que a própria caligrafia emana uma energia espiritual. Eu sinto a pressão dessa energia. Tenho em minha casa uma peça de cerâmica celadon da dinastia Song, de novecentos anos atrás. Olhar para ela me deixa cansado. O espírito do mestre artesão está impregnado na peça e permanece ali. Por isso, ao observá-la, sinto um impacto que me deixa exausto. É um fenômeno curioso. Aquela peça de cerâmica realmente me afeta.
+
+**Pergunta: A obra do Mestre Daito Kokushi também contém seu espírito?**
+
+Sim. Um espírito bom e forte. Eu o sinto com grande intensidade.
+
+**Comentário: Imaginei que a Verdade, o Bem e o Belo estivessem plenamente manifestados na obra.**
+
+A manifestação da Verdade, do Bem e do Belo ocorre porque o espírito é elevado.
+
+**Comentário: A seriedade com que o senhor aprecia as obras é tão intensa que até nós, que estamos ao lado, nos cansamos.**
+
+É natural.
+
+**Pergunta: O espírito do criador também pode estar presente em uma estátua de Buda feita de metal fundido?**
+
+É a mesma coisa. Mesmo uma peça fundida passa por processos de polimento e outros acabamentos.
+
+**Comentário: Se causa cansaço, não se poderia dizer que a obra não é a expressão perfeita da Verdade, do Bem e do Belo?**
+
+O tipo de cansaço é diferente. Olhar para algo desagradável também cansa. Neste caso, foi um cansaço agradável, muito diferente do esgotamento após uma briga.
+
+**Comentário: É como a exaustão que se sente diante de uma arte de uma beleza quase dolorosa.**
+
+Exatamente.
+
+**Comentário: Na coleção Hakutsuru, havia peças de grande qualidade.**
+
+Sim, havia. Obras esplêndidas.
+
+**Pergunta: A família Hakutsuru ainda possui muitas outras peças de valor?**
+
+O que foi exibido representa a maior parte. O restante não é tão significativo.
+
+**Comentário: Havia caracteres muito difíceis de ler.**
+
+São os nomes dos objetos. Como não existem caracteres japoneses para eles, usam-se os chineses. Um vaso de flores, por exemplo, é descrito com um único caractere. É incompreensível para mim, pois não estudo esses detalhes. Havia, de fato, peças excelentes.
+
+**Pergunta: E a caligrafia de um artista chamado Miyata?**
+
+É uma obra notável. É uma caligrafia digna de alguém de alta posição. Havia um artista com um estilo semelhante, Nakamura Fusetsu, mas a de Miyata é muito superior. Por não ter sido divulgada, permaneceu como um tesouro oculto. É uma caligrafia transcendente, livre de qualquer traço de vulgaridade.
+
+**Comentário: Para mim, é completamente incompreensível.**
+
+É preciso ver muitas obras para educar o olhar.
+
+**Pergunta: Existem obras de arte russas no Japão?**
+
+Não se trata da Rússia, mas do Oriente. Do Tibete. Daquela região que não seguiu para a Europa.
+
+**Comentário: Ao norte do Mar Negro…**
+
+Isso, exatamente.
+
+**Pergunta: A Rússia não possui obras desse tipo?**
+
+Não possui nada. A cultura grega se difundiu e, gradualmente, chegou à China e à Índia — embora a Índia tenha uma linhagem um pouco diferente. Um ramo se separou e foi para a Índia. Em última análise, a arte mundial tem suas raízes na Grécia.
+
+**Pergunta: Dizem que sementes de couve e nabo plantadas após as três da tarde não atraem insetos, enquanto as plantadas pela manhã são atacadas. Isso é verdade?**
+
+Isso não é verdade. Contudo, podemos analisar da seguinte forma: sementes plantadas pela manhã, em um local quente e com muito sol, tendem a secar mais. Já as plantadas às três da tarde, com a chegada da noite, não secam tanto. A questão dos insetos pode estar relacionada a essa diferença de umidade. Por isso, o ideal é semear em dias nublados, de preferência com uma chuva fina. O pior que pode acontecer a uma semente recém-plantada é secar.
+
+**Comentário: A incidência de insetos também afeta o crescimento de forma diferente.**
+
+Quando se pratica a agricultura sem adubos, essas questões se tornam irrelevantes.
+
+**Relato: Na província de Chiba, um membro que pratica a agricultura natural e já era comentado na vila, decidiu, por conta própria, erguer uma placa indicando "Primeiro Ano". Aqueles que o fizeram com sinceridade obtiveram bons resultados, enquanto os que o fizeram a contragosto tiveram colheitas ruins. As placas são visíveis do trem. Algumas pessoas se espantam, outras riem, e outras perguntam com interesse. A expectativa é de um aumento de um fardo e meio por *tan*. A história se espalhou pela vila e, graças a isso, cinco ou seis pessoas ingressaram na fé.**
+
+A determinação faz toda a diferença. Quando se hesita, a energia não flui. O arrozal também é um ser vivo e, com essa atitude, ele também responde com vigor.
+
+**Comentário: Eu ergui a placa acreditando que, se a Palavra tem poder, a escrita também deve ter.**
+
+Com certeza. O Johrei também é feito com a escrita. O que estava escrito na placa?
+
+**Comentário: “Método de Agricultura Natural da Sekaikyuseikyou - Ano X”, com o nome do agricultor.**
+
+Escreveu tudo. É preciso usar o poder da palavra (*kototama*): “Arrozal, produza muitos frutos!”, “Conto com você!”, “Sim!”.
+
+**Comentário: Eu também disse ao arrozal: “Não vou te dar adubo!”.**
+
+Isso alegra as plantações. Elas sofreram o indizível por causa dos fertilizantes. Queriam produzir abundantemente, mas eram obstruídas.
+
+**Comentário: Eu digo aos outros: “Mesmo usando só um pouco de adubo, o cheiro das redondezas já me incomoda”.**
+
+Mesmo em um teste, é preciso fazer corretamente.
+
+**Relato: Um agricultor, mesmo tendo ouvido várias explicações sobre a agricultura natural, decidiu fazer apenas um teste. Acontece que sua filha tinha uma falha de cabelo na cabeça. Como ele dedicou apenas um sulco de um campo de um *tan* ao método, eu lhe disse: “Provavelmente, um nono do cabelo dela crescerá. Se você converter todo o campo, o cabelo todo crescerá”. Hoje, ela é uma moça com uma bela cabeleira. Mesmo sendo um teste, se a pessoa já viu os resultados em outros lugares, deveria se dedicar por completo.**
+
+Ainda assim, mesmo um teste já é válido para a maioria das pessoas. No final, elas compreendem.
+
+**Pergunta: A palha pode ser incorporada ao solo durante o inverno?**
+
+Sim. Quanto antes, melhor, então o inverno é uma boa época.
+
+**Comentário: Como as pessoas não conseguem se livrar da mentalidade do adubo, mesmo quando se diz que a palha serve para aquecer o solo, elas parecem continuar a vê-la como um fertilizante.**
+
+Sim, essa mentalidade existe. Ela será superada gradualmente.
+
+**Relato: No dia 11, recebi uma orientação sobre o caso de possessão espiritual de uma garçonete de um café em Yudanaka. Um espírito vivo a estava possuindo, dizendo: “Eu deixei dinheiro aqui. Devolva-o. Estava na cômoda”. Houve também manifestações espirituais de um policial exigindo a devolução. Após receber suas palavras, no dia 12, o próprio espírito vivo se manifestou dizendo: “Arrependi-me. Peço mil desculpas. De agora em diante, serei uma pessoa honrada e irei me desculpar pessoalmente”.**
+
+Eu estive em Yudanaka por um tempo. Conheço as termas de Shibu, Yoro, e a região de Kanbayashi.
+
+**Pergunta: No planalto de Shiga, há locais chamados Lagoa da Paz, Takamagahara e Monte Ryu-o. Eles têm algum significado espiritual?**
+
+Certamente. Há deuses-dragão nesses locais. Eu passei por Shiga a caminho do Monte Togakushi.
+
+**Relato: Durante um tufão, a casa de uma membro estava prestes a ser destruída. Como o marido estava ausente, a esposa se refugiou com os dois filhos na casa de um vizinho. As venezianas da casa foram arrancadas, o Altar de Deus também se soltou, e tudo ficou encharcado pela chuva, com uma veneziana caída sobre ele.**
+
+É preciso levar o Altar a um restaurador para que seja consertado. Quando estiver pronto, tragam-no a mim. Eu o purificarei devidamente e depositarei novamente o espírito.
+
+**Pergunta: Uma pessoa, ao dormir, fica com os olhos entreabertos, e os globos oculares se movem rapidamente. Seria um fenômeno espiritual?**
+
+Sim, é espiritual.
+
+**Pergunta: Seria a ação de um espírito humano?**
+
+Pode ser, mas na maioria das vezes são espíritos de animais. Geralmente, manifestações durante o sono são, em grande parte, causadas por espíritos de animais. Às vezes, um espírito humano e um de animal atuam juntos. Contudo, com o Johrei, isso se resolve. Espíritos de pessoas que morreram de olhos abertos podem causar esse tipo de fenômeno.
+
+**Pergunta: A esposa do diretor de um hospital tem se dedicado com afinco e lhe pediram para ministrar Johrei na sobrinha do diretor, em uma enfermeira, no motorista e em alguns pacientes.**
+
+Excelente. Que ela o faça.
+
+**Comentário: A sobrinha expressou o desejo de servir à Obra Divina.**
+
+De qualquer forma, a medicina como a conhecemos está destinada a desaparecer. Quanto antes isso acontecer, melhor. É bom que ela prossiga, mas sem exageros. As coisas estão, pouco a pouco, tomando esse rumo.
+
+**Relato: O diretor diz: “Se eu fizer isso, serei punido por Deus, então vá procurar a pessoa do Ohikari”. Ele parece ser um médico consciente e diz que tratará os pobres de graça até o fim. No entanto, segundo nossos ensinamentos, tratar de graça não é correto, não é?**
+
+Da parte de Deus, a graça é mais do que gratuita.
+
+**Pergunta: A família de um senhor chamado Toraquiti Arao tem sofrido infortúnios sucessivos. Recentemente, o próprio senhor adoeceu gravemente com tuberculose. Sua filha mais velha, viúva, voltou a morar com ele. O filho de seu primogênito falecido parece ter epilepsia e tem a capacidade mental de uma criança de três anos. Na era Meiji, o local onde havia um santuário de Inari foi deslocado para um terreno mais alto para a construção de uma estrada. Além disso, o avô era caçador.**
+
+Há várias questões espirituais envolvidas. A capacidade mental de três anos indica a presença do espírito de uma criança falecida, que não foi devidamente cuidada ou que teve uma morte irregular.
+
+**Comentário: Durante as crises de epilepsia, o rosto dele fica escuro.**
+
+Casos assim são difíceis de curar. Não é impossível, mas levará bastante tempo. A família ainda não consagrou o Altar de Koomyoo Nyorai-Sama, certo?
+
+**Comentário: Certo.**
+
+Se consagrarem o Altar, tiverem fé fervorosa e se dedicarem a ajudar o próximo, a situação melhorará gradualmente.
+
+**Pergunta: Em uma região da província de Gifu, um antigo senhor feudal aboliu os templos budistas e os converteu ao xintoísmo. Recentemente, uma família dessa região ingressou na Sekaikyuseikyou e pergunta se deve comprar um oratório budista. A família segue o xintoísmo de santuário.**
+
+Trata-se do deus protetor da localidade ou algo assim? É estranho abandonar o budismo por causa do xintoísmo de santuário. Isso aconteceu há muito tempo?
+
+**Comentário: Há cerca de cem anos.**
+
+**Comentário: O senhor feudal ordenou a remoção de todos os símbolos budistas. Algumas famílias antigas ainda os guardam escondidos. Isso ocorreu na era Meiji.**
+
+Sim, na era Meiji houve a ordem de separação entre o xintoísmo e o budismo, uma época de perseguição ao budismo. Mas isso foi feito por ordem do senhor feudal? Quando é uma imposição, geralmente não há grandes retaliações espirituais. Contudo, se a decisão foi voluntária, os espíritos se ressentem.
+
+**Comentário: Eu disse a eles que, por não se lembrarem de sua antiga religião, isso é um sinal de que, no futuro, poderão seguir a forma de culto da Sekaikyuseikyou.**
+
+Está correto. No entanto, é importante criar um altar para os antepassados. Basta uma tabuleta ancestral e uma imagem da Kannon (観音) em biombo. Os espíritos, mesmo que salvos, precisam de um lugar para repousar, e é isso que o altar proporciona.
+
+**Pergunta: No caso de uma família com tradições xintoísta e budista, ouvi dizer que é melhor separar os altares.**
+
+Sim, sem dúvida é melhor separar.
+
+**Pergunta: E a imagem da Kannon em biombo, onde deve ser colocada?**
+
+A Kannon em biombo pertence tanto ao xintoísmo quanto ao budismo, então deve servir a ambos. No entanto, como os mundos espirituais na parte inferior do altar são distintos, é melhor que haja uma divisória.
+
+**Pergunta: Se a religião da família mudou e a original é desconhecida, o que se deve fazer?**
+
+É improvável que não se saiba. De quando data essa mudança?
+
+**Comentário: Desde a geração dos pais. Eles não têm interesse nenhum no assunto e não sabem os nomes.**
+
+E os parentes?
+
+**Comentário: Então é preciso investigar a fundo?**
+
+Sim. Se a família era da seita Shinshu, existe um mundo espiritual correspondente; se era da Nichiren, o mesmo acontece. Um desencontro seria desfavorável.
+
+**Pergunta: Dizem que, quando a cerimônia de 49 dias após o falecimento abrange três meses, ela deve ser antecipada para o 39º dia.**
+
+Isso não é verdade. A cerimônia é de 49 dias.
+
+**Pergunta: O marido é xintoísta e a esposa é budista. Eles precisam cultuar a filha mais velha que faleceu. O que devem fazer?**
+
+Basta consagrar a imagem da Kannon em biombo no centro. Isso será suficiente.
+
+**Pergunta: Uma família cristã há duas ou três gerações ingressou na Sekaikyuseikyou e pergunta como deve cultuar seus antepassados. Certamente, no passado, eles eram budistas, mas não sabem a qual seita pertenciam.**
+
+Se não souberem a seita, podem adotar a Shingon. Isso porque Kobo-Daishi está no Paraíso, enquanto Shinran e Nichiren... bem, é diferente.
+
+**Pergunta: Então, eles podem pedir que o nome póstumo seja feito segundo a tradição Shingon?**
+
+Sim. De outra forma, os espíritos não terão um lugar para repousar. No Ocidente, a prática é diferente, mas no Oriente é assim que deve ser feito.
+
+**Pergunta: Sobre o caso de Toraquiti Arao, o santuário da vila foi transferido na era Meiji para dar passagem a uma estrada nacional.**
+
+E ele ainda existe?
+
+**Comentário: O santuário da vila está abandonado, não é cuidado.**
+
+Provavelmente era consagrado ao deus protetor da localidade. O espírito de Inari deve estar sofrendo muito. Diferente de um espírito de raposa comum, um que alcançou tal status e depois foi rebaixado não esquece facilmente. Atualmente, existe um santuário protetor na localidade?
+
+**Comentário: Não sei.**
+
+É novo?
+
+**Comentário: Não é oficial, foi construído por voluntários da vila.**
+
+Claro, voluntários também podem construir, mas de quando data?
+
+**Comentário: Não sei.**
+
+Investigue isso. Algo precisa ser feito. Se resolverem a questão, a família será grandemente abençoada, como forma de gratidão. O espírito poderia ser consagrado dentro do santuário atual ou mesmo na casa da família. A família já consagrou o Altar de Koomyoo Nyorai-Sama?
+
+**Comentário: Ainda não.**
+
+Após a consagração, o espírito ficaria feliz em ser acolhido na casa.
+
+**Comentário: Atualmente, o pequeno templo está fora da casa.**
+
+Ele deve ser trazido para o jardim da casa. Assim, se tornará um deus guardião da família e terá uma nova missão. Outra opção seria consultar os voluntários e pedir que o espírito seja consagrado em uma parte do santuário protetor. Contudo, as pessoas de hoje têm pouca fé e podem achar complicado. Se houver espaço no jardim de sua casa, o melhor é transferi-lo para lá.
+
+**[5 de novembro]**
+
+**Relato: Tenho me dedicado com afinco à agricultura natural e este é o quarto ano. No primeiro ano, colhi cinco fardos. Os grãos eram poucos, entre noventa e cem por espiga, mas a qualidade foi considerada a melhor da vila. No segundo ano, os resultados foram excelentes: cinco fardos e três *to*, um *to* a mais que a média, e a qualidade também foi muito boa. No terceiro ano, cada touceira produziu de doze a dezoito perfilhos, com mais de cento e vinte grãos por espiga, totalizando uma colheita de seis fardos e um *to*. Neste quarto ano, ainda não tenho os números exatos, mas a colheita certamente será de, no mínimo, sete fardos.**
+
+Os resultados correspondem exatamente ao que eu tenho dito. Este ano, a qualidade também está excelente. Se apresentar esses resultados à cooperativa agrícola, eles ficarão surpresos. Dessa forma, com o aumento progressivo a cada ano, a meta de um acréscimo de 50% em cinco anos é perfeitamente alcançável. No próximo ano, o aumento de 50% será uma realidade. Este ano, a incidência de pragas foi alta, mas como a agricultura natural não sofre com isso, o resultado é extraordinário. Se a produção aumentar 50% em cinco anos, o problema alimentar do Japão estará resolvido. Ademais, há a economia com fertilizantes e mão de obra. Pretendo usar os resultados deste ano para promover uma grande campanha de divulgação em todo o país.
+
+**Relato: No sopé do Monte Norikura, em Hida, uma região fria a oitocentos metros de altitude e com irrigação deficiente, estamos no quinto ano da prática. Embora os números ainda não sejam definitivos, no ano passado, em uma área onde a média é de cinco a cinco fardos e meio, a colheita foi de onze fardos e um *to*. Este ano, a expectativa é de cerca de treze fardos, mas ainda aguardamos a confirmação.**
+
+Relate esses casos detalhadamente.
+
+Pretendo distribuir o material a todos, desde o primeiro-ministro, ministros e parlamentares até as redações de jornais. Organizaremos palestras por todo o país para que o Japão inteiro tome conhecimento de uma só vez. A Sekaikyuseikyou resolverá o problema alimentar do Japão em um único golpe. Será uma ação salvadora. Atualmente, o maior problema do Japão é a questão do arroz. Por mais que se façam diversas coisas, a produção este ano diminuirá em relação ao ano passado. Fala-se em importar alimentos, o que custará mais de cem bilhões de ienes. Se resolvermos essa questão de uma vez, não haverá mais problema. E, uma vez que o Japão compreenda, a divulgação se tornará mundial.
+
+**Relato: A produção de batata-doce também é melhor onde não se utiliza excremento humano.**
+
+A batata-doce dobra de produção em um ou dois anos. Isso ocorre porque os agricultores já sabem que o excesso de fertilizantes não é bom para ela, e por isso os resultados são positivos. Em seguida, vêm os feijões.
+
+**Relato: Nos arredores de Nagoya, como se usa muito fertilizante, no primeiro ano a colheita é praticamente nula. Mas, com perseverança, os resultados melhoram.**
+
+Nesses casos, a adição de solo de outra região é uma boa solução. Mas, mais do que isso, o Johrei é eficaz. Os fertilizantes são impurezas, como o sangue impuro no corpo humano. Com o Johrei, as toxinas se dissolvem. A batata-doce, que antes era alongada, torna-se arredondada com a agricultura sem adubos. Ela engorda, e seu peso pode até dobrar.
+
+**Comentário: Antigamente, quando as guardávamos, elas apodreciam.**
+
+Sim, apodrecem facilmente por causa das toxinas. O armazenamento da batata-doce cultivada sem adubos é muito mais simples.
+
+**Comentário: O arroz também é muito diferente.**
+
+Sim, é verdade.
+
+**Comentário: Dizem que a batata-inglesa de Hokkaido é a melhor.**
+
+Isso se deve aos fertilizantes. Como Hokkaido é muito grande, não se pode usar fertilizantes em excesso. É um raciocínio tolo. A batata prefere climas quentes. Dizer que a de Hokkaido é a melhor... As cultivadas sem adubos são excelentes.
+
+**Comentário: Muitas vezes me perguntam se o solo de lá é mais adequado.**
+
+A questão não é o solo. Quando se compreende a causa fundamental, os equívocos em diversas áreas se tornam evidentes.
+
+Ao consumir arroz cultivado sem adubos, as toxinas não entram no corpo humano, as máculas diminuem, o sangue impuro se reduz e as doenças deixam de surgir. Claro que, se a pessoa tomar remédios, o efeito é anulado. O ser humano se torna muito mais pacífico e deixa de gostar de guerras; consequentemente, as guerras desaparecem. Como mencionei em meu artigo, o mal foi necessário para o desenvolvimento da civilização material, mas a guerra não é mais necessária. Assim como os dinossauros e mamutes foram necessários para compactar a Terra quando ela ainda era mole, mas se tornaram obsoletos quando o solo se solidificou e desapareceram. O que é necessário, existe; o que não é, deixa de existir. O mal e a guerra foram necessários até agora, mas não são mais. Na verdade, é melhor que não existam. Para que isso aconteça, é preciso mostrar que Deus existe. E não se pode fazer isso apenas com teorias. Na Sekaikyuseikyou, por mais teimosa que a pessoa seja, a doença é curada, e ela acaba por se curvar. Se esse ponto for claramente compreendido, tudo se torna simples. Minha missão é essa: apresentar provas concretas, seja com a cura de doenças, seja com as colheitas. O princípio é o mesmo.
+
+**Relato: A sericicultura também é um trabalho muito árduo. Dizem que, se não se adubar as amoreiras, o trabalho se torna muito mais fácil. Além disso, a qualidade da seda melhora.**
+
+Sim, a qualidade da seda também melhora. Se as pessoas compreenderem isso, será uma revolução. O Japão virará de cabeça para baixo. Todos os japoneses não terão outra opção a não ser se curvar.
+
+O livro “Criação da Civilização” já está cerca de dois terços ou três quartos concluído. A próxima parte será sobre o Paraíso, abordando as diversas estruturas do Mundo de Miroku. Meu trabalho é multifacetado: escrevo para jornais e revistas, caligrafo Ohikari e Imagens Sagradas, oriento a construção do Paraíso Terrestre, estudo e coleciono obras de arte, entre muitas outras coisas. Tenho trabalho demais. Dizem que há homens de sete ofícios, mas eu devo ter uns dez. Acontece que sou rápido em tudo o que faço. Por exemplo, no outro dia, no museu de Quioto, observei cinco ou seis biombos de seis folhas em cerca de cinco minutos.
+
+Além disso, em qualquer trabalho, existe um ponto vital. A habilidade está em descobri-lo rapidamente. Para cortar esta mesa, se eu identificar o ponto vital, basta atuar sobre ele. É preciso treinar para encontrar rapidamente esse ponto. Lapidar a alma significa justamente isso. O resultado é um enorme aumento de eficiência. Com um doente, é a mesma coisa: descobrir onde está o ponto vital da doença. Basta tratar ali. Muitas vezes, porém, o tratamento se desvia do ponto vital, e a cura leva dias.
+
+**Pergunta: Gostaria de pedir proteção para Tokuji Funabashi. Suspeito que ele não tenha câncer de estômago, mas ele usou muitos bactericidas e, na juventude, um tratamento para gonorreia, ficando internado no exército por cerca de um ano e recebendo injeções de arvarsan.**
+
+Arvarsan é terrível. A intoxicação por arvarsan pode ser fatal.
+
+**Comentário: A massa está na região do fígado.**
+
+É toxina de remédio.
+
+**Comentário: Há também algo no estômago, e ele sente muita dor quando começo o Johrei. Depois de um tempo, a dor desce e ele se sente melhor. A eliminação, tanto de fezes quanto de urina, é considerável. Ele tem febre baixa contínua, falta de apetite e está enfraquecido. Devo continuar a ministrar Johrei nessa massa?**
+
+Sim. Faça-o sem aplicar muita força. É toxina de remédio. O problema é o enfraquecimento. Se a recuperação da fraqueza superar a velocidade de dissolução da toxina, ele ficará bem. Concentre-se especialmente nas costas.
+
+**Pergunta: Devo ministrar Johrei nas costas, na região correspondente à massa?**
+
+Exato. A origem dessa massa está nas costas. Ela se dissolve e se desloca para a região do fígado.
+
+**Comentário: Durante a guerra, ele usou creosoto.**
+
+É um produto para evitar o apodrecimento da madeira, usado em postes telegráficos. É uma loucura ingerir algo assim.
+
+**Comentário: Ao deitar-se, ele sente como se estivesse caindo em um abismo. Nesse momento, ele pede que eu pressione o topo de sua cabeça com o polegar e solte quando ele começar a adormecer. Parece haver uma relação entre a cabeça e as costas.**
+
+A toxina do remédio se solidificou em sua cabeça. Quando pensamos ou nos preocupamos, as toxinas das costas se movem para a cabeça, causando uma purificação geral. A dissolução na cabeça provoca a dissolução nas costas. A cabeça é um local onde as toxinas se solidificam facilmente. Nesses casos, a região mais afetada é a nuca.
+
+**Comentário: Nessas condições, parece difícil encontrar o ponto vital, como se ele estivesse em todos os lugares.**
+
+Embora pareça estar em todos os lugares, existe um ponto principal. A causa são as toxinas de remédios ingeridos por via oral. A pessoa deita-se de costas, e a toxina não se solidifica no estômago, mas nas costas. Raramente se solidifica no estômago, talvez no fundo. Ela se infiltra através da parede estomacal e, como a pessoa está deitada, se desloca e se solidifica nas costas, onde permanece, pois a estrutura é diferente. Quando atinge um certo acúmulo, ocorre uma purificação, e a toxina retorna ao estômago, tornando-se extremamente venenosa e solidificando-se ali. Uma vez solidificada, curiosamente, não é eliminada. O que vem das costas se solidifica por completo, e muito rapidamente. Dependendo da pessoa, essa massa pode se formar na parte inferior do abdômen ou perto do umbigo. O câncer é sempre assim.
+
+**Comentário: Ele sente algo subindo pelo esôfago.**
+
+Isso é a purificação. A massa sólida se dissolve e aumenta de volume. Em vez de descer, provoca o vômito. A passagem do estômago para o intestino é o piloro. A substância viscosa da toxina medicamentosa obstrui o piloro. Parte desce, mas a maior parte sobe. É uma estenose pilórica. As toxinas ao redor do piloro o comprimem, e o conteúdo gástrico, sem poder passar, é forçado a subir. Por isso, a estenose pilórica causa vômitos crônicos.
+
+**Comentário: O abdômen está inchado, como se fosse peritonite.**
+
+É porque o conteúdo não passa pelo piloro e se espalha para outros locais. As pessoas não imaginam o quão prejudiciais são os remédios. Elas não dão a menor importância aos medicamentos comuns. Algumas até dizem que nunca tomaram remédios, pensando apenas nos medicamentos ocidentais e ignorando os remédios chineses que tomam cronicamente, como a swertia e o gerânio. Quando pergunto sobre chás medicinais, elas admitem que tomaram. Também não consideram os desinfetantes usados em queimaduras e ferimentos. Esses desinfetantes penetram na pele e se tornam uma causa grave de doenças. O Sr. Inoue, por exemplo, que sofria de dores constantes na nuca e, uma vez por ano, tinha problemas nos pés, teve um furúnculo nas costas que precisou ser operado. A causa não foi um remédio ingerido, mas um desinfetante. A dor constante que ele sentia nas costas subia para a cabeça e descia para os pés.
+
+**Pergunta: Um membro de Okayama comprou, há dezesseis anos, uma casa que pertenceu a um sacerdote xintoísta. A casa fica em frente a um santuário de Inari da vila. Há quinze anos, ele consagrou nesse local um Fushimi Inari como Gosha Daimyojin. Sua esposa faleceu de febre tifoide há dezesseis anos. A filha mais velha teve epilepsia, mas agora está quase totalmente curada. Os quatro irmãos trabalham no setor naval, mas não se dão bem, o que causa grande aflição. Seria pelo fato de a casa estar em frente ao santuário? Ou seria um desequilíbrio espiritual por ter pertencido a um sacerdote? Ou o problema seria o culto a Inari? Eles ainda não consagraram o Altar de Koomyoo Nyorai-Sama nem a Kannon em biombo. O que devo orientá-los a fazer?**
+
+A causa não é o fato de a casa ter pertencido a um sacerdote nem de estar em frente a um santuário. O problema é o culto a Inari. O motivo pelo qual o culto a Inari é prejudicial está explicado em livros antigos. Essencialmente, Inari era uma divindade para que os agricultores pedissem proteção às suas colheitas de arroz, nada mais. Por isso, Inari deve ser cultuado do lado de fora, em um local limpo no meio dos campos, onde se ergue um pequeno santuário. Não é uma divindade para ser cultuada dentro de casa. Quando se cultua Inari dentro de casa, como a raposa é um ser que anda pelo chão, espiritualmente, a casa se torna um inferno. Se a raposa cultuasse o ser humano, tudo bem, mas quando o ser humano cultua a raposa, ele se rebaixa a um nível inferior ao dela e seu destino se torna condizente. Por isso, quem cultua uma raposa invariavelmente atrai a infelicidade.
+
+Como já expliquei, a origem de Inari remonta a quando a população do Japão começou a crescer e Amaterasu Oomikami ordenou a Toyouke Myojin que distribuísse sementes de arroz por todo o país. Toyouke Myojin, por sua vez, ordenou às raposas que levassem as sementes na boca. Por isso, Toyouke Myojin é representado montado em uma raposa que carrega uma espiga de arroz. Os agricultores, em agradecimento, construíam santuários para pedir proteção às colheitas. Contudo, a raposa extrapolou suas funções. Como possui poder espiritual, acabou se aliando a Nichiren Shonin, que utilizou o poder das raposas para expandir sua seita. Assim, as raposas ganharam grande poder, e surgiram os cultos a Toyokawa Inari, Fushimi Inari, entre outros.
+
+Cultuar uma raposa dentro de casa significa rebaixar-se espiritualmente. No entanto, não se deve simplesmente mandá-la embora ou se desfazer do altar, pois ela se irritará. Como a raposa também concede alguns benefícios, os humanos se apegam. Mas isso é temporário, e gradualmente eles são arrastados para o inferno, o que atrai a desgraça.
+
+A família deve consagrar o Altar de Koomyoo Nyorai-Sama e, após pelo menos um ano, realizar uma cerimônia formal para pedir que o espírito de Inari se retire. Diferente das raposas selvagens, as de Fushimi são mais compreensivas. Com a consagração do Altar de Koomyoo Nyorai-Sama, o Deus Supremo, o mundo espiritual da família se elevará ao Paraíso, as desgraças cessarão e apenas coisas boas acontecerão.
+
+**Pergunta: Na casa de um membro que consagrou o Altar de Daikoomyoo Nyorai-Sama, devido à estrutura do imóvel, o oratório budista está voltado para o leste e para o sul, não sendo possível voltá-lo para o norte.**
+
+Não há problema. A direção não importa.
+
+**Pergunta: Ao chegar a um Johrei Center para uma atividade, devo fazer uma oração imediatamente? Ou devo esperar pela uma ou duas da tarde, quando a maioria dos membros chega, e orar junto com eles?**
+
+Ao chegar, você vai diretamente para a casa, certo? Então, ore imediatamente. Quanto mais cedo, melhor. Entoe a Oração Amatsu-Norito.
+
+**Pergunta: Não há problema em orar junto com os membros?**
+
+Não há problema algum, é excelente. Os significados são diferentes. Ao chegar, você ora para agradecer e pedir proteção para o trabalho que irá realizar. Ao orar com os membros, você ora pela proteção e agradecimento deles. Com as coisas de Deus, é preciso ser meticuloso.
+
+**Pergunta: E na hora de ir embora?**
+
+Ao ir embora, naturalmente, você agradece pela proteção durante sua estadia e pede pela proteção contínua dos membros. Não há problema. Se, ao chegar, os membros já estiverem reunidos, pode orar junto com eles. Mas se estiver sozinho, o correto é fazer uma oração separada.
+
+**Pergunta: Minha igreja fica bem ao lado do templo Toyokawa Inari, e há também um santuário Gosha Inari nas proximidades. Alguns membros eram, anteriormente, frequentadores desses locais. O fato de eles transitarem por ali pode trazer alguma desgraça para a minha igreja?**
+
+De forma alguma. Não há necessidade de se preocupar com isso. O poder de Koomyoo Nyorai-Sama é imensamente superior ao das raposas. No início, elas podem tentar interferir, mas, em determinado momento, serão completamente subjugadas. Mesmo uma raposa, se se redimir, pode se tornar um ser notável e realizar um grande trabalho. Existem raposas que servem a Deus. É preciso transformá-las nesse tipo de ser.
+
+**Pergunta: Uma mulher de 28 anos tentou suicídio ingerindo trinta comprimidos de Adorm e outros dez de outro medicamento. Cerca de cinco horas depois, foi encontrada. Quando me chamaram, um médico já estava no local e havia aplicado cinco ou seis injeções, preparando-a para ser internada. A medicina a considerava um caso perdido, mas, após dois dias, ela recobrou a consciência e sobreviveu. A família a levou para casa, e ela está se recuperando bem com Johrei. Nesses casos, onde devo ministrar o Johrei?**
+
+Como ela ingeriu os comprimidos, as toxinas não foram para as costas, mas para o estômago e os intestinos.
+
+**Comentário: Ela se queixa de mal-estar na cabeça.**
+
+A intoxicação pode afetar a cabeça. Nesse caso, ministre Johrei na cabeça. E a consciência dela?
+
+**Comentário: Já se recuperou quase totalmente.**
+
+Então não há problema. A intoxicação é um estado temporário. Seja por metanol ou qualquer outra substância, é passageiro. O metanol também afeta a cabeça.
+
+**Pergunta: A toxina não pode ficar estagnada e causar problemas de saúde mais tarde?**
+
+Não, isso não acontece. Absolutamente não. Não sei se foi bom ou ruim, mas como a intenção dela era morrer, ela deve se sentir constrangida por ter sido salva. Qual foi a causa?
+
+**Comentário: Uma desilusão amorosa.**
+
+Sim, quando a pessoa se desespera por uma desilusão amorosa, pode chegar a esse ponto. Devemos ter grande compaixão por ela.
+
+**Pergunta: Em casos de queimadura, o Johrei às vezes causa uma dor muito intensa, semelhante à de uma contusão. Aplicar água fria antes do Johrei alivia a dor. Posso fazer isso?**
+
+Sim, pode. É uma ótima medida. Imediatamente após a queimadura, é bom aplicar água fria para aliviar e reduzir a extensão do dano.
+
+**Pergunta: Na edição 29 da revista “Paraíso Terrestre”, na seção “Luz do Ensinamento”, há uma menção ao Imperador Ojin. Qual seria o significado?**
+
+A resposta dada no artigo está correta.
+
+**Comentário: Mas anteriormente foi dito que o Imperador Ojin foi uma vida passada de Meishu-Sama.**
+
+Há uma relação.
+
+**Comentário: Então, é estranho que ele tenha agido como um opositor.**
+
+Isso acontece. Eu mesmo não fui sempre como sou hoje. Fui um ateu convicto. Pensei que, se ficasse rico, ajudaria o comunismo, me tornaria um simpatizante. A fé em Deus me irritava. Eu pensava: “Que gente tola”. Contudo, eu nunca pratiquei o mal; sempre quis fazer o bem, pois acreditava que era o correto. Mas a ideia de Deus... eu achava que era uma invenção.
+
+Por isso, os opositores, quando compreendem, podem se tornar excelentes membros. Opositores ferrenhos, quando entendem, o fazem com grande profundidade. Os indiferentes são os mais problemáticos. Quem se opõe, o faz por ter uma convicção, por acreditar que o outro está errado. É a força dessa vontade que, se for revertida, se torna poderosa. O pior é aquele que não se opõe nem concorda, o indeciso. É esse tipo que, quando se fala em fé, responde: “A fé é uma coisa maravilhosa, maravilhosa”.
+
+**Comentário: Então a questão é ser sincero e direto…**
+
+Também. Geralmente, são pessoas que aprenderam a se virar na vida. Elas não acreditam que uma fé tão grandiosa possa existir. Pensam que é algo para os fracos de espírito se apegarem.
+
+**Pergunta: Um homem de 29 anos, membro desde 1949. Na época, tinha problemas pulmonares, que melhoraram com o Johrei. Atualmente, trabalha em uma fábrica e, várias vezes ao dia, vê uma bola de fogo vermelha à sua frente. Às vezes, ela tem o diâmetro de dois ou três *sun*, às vezes é menor. Qual seria a causa? Ele já consagrou o Altar de Koomyoo Nyorai-Sama, mas ainda não tem a Kannon em biombo.**
+
+Ele a vê ocasionalmente ou constantemente?
+
+**Comentário: Recentemente, tem sido constante.**
+
+Isso começou depois que ele consagrou o Altar?
+
+**Comentário: Sim.**
+
+Trata-se de um antepassado dele que alcançou um certo grau de divindade e o está protegendo. Normalmente, esse espírito se manifesta na forma de uma esfera de luz. Ele poderia assumir outra forma, se quisesse, mas geralmente aparece como uma esfera. E seu protegido consegue vê-la.
+
+**Relato: Ao fechar os olhos, vejo uma bola de fogo, também com dois ou três *sun* de diâmetro, de cor amarela, que depois brilha em tons de roxo. Isso acontece quando estou ministrando Johrei, com os olhos levemente fechados. Certa vez, quando entoei a Oração Amatsu-Norito, ela desapareceu. Qual seria o motivo?**
+
+É natural. A esfera se retrai, pois o espírito inclina a cabeça em reverência. A Oração é a mais elevada de todas, e o espírito a escuta com alegria e devoção.
+
+**Pergunta: O significado seria o mesmo do caso anterior?**
+
+Sim, o mesmo. A cor da esfera varia de acordo com sua natureza. Os espíritos alcançam diferentes graus divinos, pertencendo à linhagem do sol ou da lua. Há esferas esbranquiçadas. As vermelhas são da linhagem do sol; as brancas, da lua; e as amarelas, de Izunome. Muitos espíritos ancestrais de membros ascendem à posição de deuses guardiões, enquanto outros atuam como protetores auxiliares. Se for um antepassado da família, ele se empenhará em ajudar as pessoas para diminuir o carma de sua linhagem, enviando diversos sinais ao membro, como salvá-lo de perigos iminentes. É esse espírito que o protege. Ele o acompanha constantemente e possui um poder considerável. Ao ingressar na Sekaikyuseikyou, o poder desses deuses guardiões aumenta drasticamente.
+
+**Pergunta: Gostaria de pedir proteção para Minequiti Inokado, sobre quem já consultei no mês passado. Graças à sua proteção, ele melhorou muito. A filha dele, quando pequena, era fraca, e a família consultou um asceta que disse haver uma pedra que deveria ser encontrada e cultuada. Eles a cultuam até hoje como Jizo-san, protetor das crianças. Após consagrarem o Altar de Koomyoo Nyorai-Sama, eles colocaram a pedra do Jizo-san em frente ao altar, há cerca de um ano. O que devem fazer?**
+
+Eles realizam alguma cerimônia para a pedra?
+
+**Comentário: Não, nenhuma em especial.**
+
+Então podem deixar como está. Por enquanto, não é preciso fazer nada. Manter a pedra ali gera méritos, pois ela também oferece uma forma de proteção. Jizo-san não é uma entidade maligna; é boa.
+
+**Pergunta: Algumas pessoas, ao ingressarem na fé, dizem que é algo maravilhoso e que gostariam de se dedicar exclusivamente a isso. No entanto, mesmo após dois ou três anos de dedicação exclusiva, elas enfrentam dificuldades financeiras. Isso se deve a um grande número de máculas?**
+
+Pode ser por excesso de máculas ou por algum desvio na fé, ou ambos. A pessoa ainda não entrou na órbita correta. Uma vez que entre, tudo fluirá bem.
+
+**Comentário: Às vezes, penso que não tenho qualificação para isso.**
+
+Isso não existe. Nenhum ser humano é desqualificado. O problema é o desvio. É preciso ler muito os Escritos Divinos. Se a pessoa consegue curar doenças, deveria ter tanta gente a procurando que mal daria conta. E, ao receberem graças, as pessoas sentiriam o desejo de agradecer.
+
+**Comentário: Nas áreas rurais, as pessoas dizem que, se a Sekaikyuseikyou cura, então podem ser curadas por Deus sem precisar gastar dinheiro.**
+
+No início, é assim. Mas, se receberem uma graça verdadeira, não conseguirão manter essa atitude. Isso indica um desvio na fé. Vemos que algumas pessoas progridem muito, enquanto outras não. As que progridem estão em sintonia. As que não progridem precisam refletir e se corrigir. Geralmente, nesses casos, a pessoa tem uma fé Hinayana, e a fé Hinayana não leva ao progresso. É preciso ter uma fé Mahayana. Pessoas de espírito pequeno não progridem; pessoas de espírito grande, sim. A grandeza de espírito corresponde a uma alma de grande calibre e, consequentemente, a igreja que ela dirige também prospera. O espírito pequeno se encolhe, e a igreja também se apequena. Na Sekaikyuseikyou, pode-se ter os pensamentos mais grandiosos possíveis. Quando falamos em salvar o mundo inteiro, não é uma promessa vazia; estamos obtendo resultados concretos.
+
+**Pergunta: Nesse caso, confiar em Deus significa entregar-se. Mas, se a própria pessoa ainda não alcançou esse estágio e não consegue confiar, e tenta se forçar a acreditar…**
+
+Isso é um erro. A atitude correta é: “Acredite ou não, a escolha é sua”. Não precisamos que acreditem em nós.
+
+**Comentário: A fé deve brotar de dentro…**
+
+Exato. A pessoa deve sentir um desejo irresistível de acreditar. Aí sim, ela deve crer. Pedir para que acreditem… Como mencionei antes, alguns disseram que meu jeito era muito informal, que eu deveria ser mais imponente para ser mais reverenciado. Eu respondi que, se não gostassem do meu jeito, que fizessem como quisessem. Eu ajo da forma que considero correta, e quem achar que é a forma certa, que acredite. Quando se diz “acredite”, espiritualmente, a pessoa se rebaixa. Claro que não se deve ser arrogante. É preciso ser autêntico, apresentar as coisas como são. Não se deve ser excessivamente humilde nem excessivamente orgulhoso. É preciso se adequar à pessoa.
+
+**Comentário: Refletindo sobre minha abordagem Hinayana, percebo que dou dicas de forma excessivamente solícita.**
+
+Isso não é um problema, mas é preciso evitar ser rígido e dogmático, como se estivesse impondo regras morais. Um pouco de moralidade é bom, mas não se pode ficar preso a ela. É algo que não se pode expressar em palavras. Além disso, a abordagem deve variar de acordo com a pessoa. Não se pode tratar a todos da mesma forma. Dependendo do interlocutor, a mensagem pode ser transmitida de forma mais simples, intermediária ou grandiosa. Essa é a manifestação da capacidade de adaptação. A fé também deve ser transmitida de uma forma que o outro possa compreender. Para os intelectuais, de forma intelectual; para as pessoas comuns, de forma simples; para mulheres e crianças, com histórias claras e diretas. É preciso se adaptar. Esse é o treinamento.
+
+O pior de tudo é fixar conceitos. Quando se diz “é assim” e se fecha a questão, afasta-se da verdade. Por outro lado, não se pode ser completamente indefinido e aleatório. O que deve ser definido, define-se; o que não deve, não se define. É preciso agir com flexibilidade, adaptando-se a cada situação. Isso é ser livre e desimpedido. As leis, por serem fixas, criam os criminosos. Ao se definir o que é crime, o que não está previsto na lei passa a não ser crime, e as pessoas encontram brechas. Na medicina, também se erra ao fixar um tratamento para cada doença. A verdade é uma só. Por isso, não pode ser fixada, mas também não pode ser completamente indefinida. É preciso definir e, ao mesmo tempo, não definir. Falar de forma clara e, ao mesmo tempo, não falar. É algo que parece incompreensível. É nesse ponto que se encontra o segredo, a fé suprema. E, ao se chegar a esse ponto, as palavras se tornam quase desnecessárias. É a iluminação.
+
+**Pergunta: Há cerca de dois anos e meio, em uma entrevista para a revista “Mugen”, o senhor falou sobre um balanço. Disse que o movimento amplo é o do homem comum, e o seu é pequeno, mas, embora pequeno, não está parado, está em movimento.**
+
+Exato. É como dirigir um carro. Se você vira para um lado, bate; se vira para o outro, também bate. Como nenhuma das opções serve, você segue em frente. A direção de um carro é a melhor analogia. Esse é o ápice da fé. As religiões antigas não ensinaram isso, ou o fizeram de forma muito vaga.
+
+**Comentário: Olhando para o meu passado, chego a pensar que aqueles que se opõem à fé são, na verdade, os mais autênticos.**
+
+Sim. Porque eles têm força, têm vontade. É uma questão complexa e, ao mesmo tempo, fascinante. É algo inefável. A isso se chama “sutil”. É o poder da sabedoria sutil. No artigo de hoje, falei sobre o mal, algo que nunca havia sido explicado antes: a necessidade do mal. Contudo, ele não é eterno. Chegará um momento em que desaparecerá. Mesmo no Mundo de Miroku, ele não desaparecerá por completo. O bem prevalecerá sobre o mal. Até agora, o bem era derrotado pelo mal. Não uma derrota completa, pois em certo momento ele vencia, mas demorava. Algumas pessoas foram subjugadas pelo mal por toda uma vida. Mas, gradualmente, o bem passará a vencer. A diferença será pequena. Basta que o bem vença por uma pequena margem. Se o mal for 49%, e o bem, o resto, estará tudo bem. O ser humano, por ter desejos carnais, sempre sentirá atração por mulheres, jogos de azar, corridas, pachinko. É da natureza humana. O importante é não ultrapassar os 50%. Se ficar em 49%, os 50% do bem o conterão. Diz-se que o poder dos espíritos malignos chega a 99%, mas o de Deus é 100%. O mal pode chegar a 99%, mas a diferença de 1% a favor de Deus é decisiva.
+
+**Pergunta: O mal é inevitável na era atual. Sobre a questão dos impostos, parece-me que há uma causa fundamental para os problemas que gera.**
+
+Sim, há. O Estado gasta o dinheiro de forma equivocada e, em dificuldades, recorre ao povo. A causa é a Guerra do Pacífico. O objetivo daquela guerra foi diferente das guerras sino-japonesa e russo-japonesa. Naquelas, o Japão lutou para não ser subjugado, e por isso venceu. Foi legítima defesa. Desta vez, não. A guerra foi travada sob o pretexto de unir os oito cantos do mundo sob um mesmo teto. O resultado foi o que vimos. Por terem cometido esse erro e gasto tanto dinheiro, a única solução que encontraram foi extorquir o povo com impostos abusivos.
+
+**Pergunta: O mal não surge da sonegação, da decisão de pagar ou não os impostos?**
+
+É inevitável. Mesmo a sonegação. Este ano, a arrecadação de impostos deve ultrapassar 800 bilhões de ienes. Na realidade, para administrar o país, 400 bilhões — a metade — seriam suficientes. O Estado desperdiça dinheiro. Veja o meu caso: investigaram-me sem motivo algum, mobilizando um grande número de pessoas, um desperdício. O Estado opera no vermelho por causa disso. Então, quem é cobrado não tem outra opção a não ser sonegar. É como trancar a porta porque há ladrões. Os Estados Unidos fabricam a bomba atômica não para dominar o mundo, mas em legítima defesa, porque a União Soviética tem essa intenção. Até a chegada do Mundo de Miroku, não há o que fazer.
+
+**Pergunta: No Mundo de Miroku, os impostos serão abolidos?**
+
+Sim, como escrevi. No Mundo de Miroku, tudo seguirá o princípio do três-seis-nove. Todos os lucros serão divididos em três partes: um terço para o Estado, um terço para o capitalista e um terço para o trabalhador. Mas isso só funcionará quando o coração das pessoas se tornar bom, pois, do contrário, haverá engano. Pensando que não serão fiscalizados, alguns declarariam apenas um sexto. Os trabalhadores entrariam em greve. Por isso, a mentalidade precisa mudar de verdade. Só quando o desejo de enganar desaparecer é que isso será possível. Com um terço dos lucros, o Estado se sustentará perfeitamente. Portanto, os impostos não serão necessários. A administração fiscal também será desnecessária, tornando tudo mais simples e agradável. Os hospitais e tribunais desaparecerão. Pequenos delitos poderão ocorrer, mas crimes hediondos e grandes criminosos não existirão mais. Grandes processos judiciais como os de hoje se tornarão obsoletos. Sem médicos e remédios, a mão de obra humana será excedente. As pessoas trabalharão apenas meio período, pela manhã, e o resto do tempo poderão se dedicar ao que quiserem. A arte florescerá. Esse é o Mundo de Miroku.
+
+**Pergunta: O ápice da fé seria o ápice da paz de espírito e do contentamento com o destino. Sobre a arte de manipular as pessoas…**
+
+Não se trata de manipulação. Pensar assim transforma a fé em uma técnica, uma artimanha. Não é isso. É algo natural.
+
+**Pergunta: Então, a capacidade de se adaptar é a forma mais elevada de fé, e dela decorre a paz de espírito?**
+
+Sim. Mas é um pouco diferente de simplesmente ter paz de espírito. Através dessa capacidade de adaptação, ajudamos muitas pessoas e servimos a Deus. Com isso, nossos próprios pecados e máculas são extintos. Quando não houver mais nada a purificar em nós, os infortúnios e sofrimentos desaparecerão. Só então alcançaremos a verdadeira paz de espírito e poderemos nos entregar a Deus. Alcançar a paz de espírito de imediato é difícil; a pessoa precisa estar purificada. Contudo, se alguém compreende e acredita verdadeiramente nisso, já alcançou a paz de espírito. Não se abalará por nada que aconteça. Mesmo que algo ruim ocorra, entenderá que é uma purificação que está eliminando toxinas. De modo geral, quem ingressa na Sekaikyuseikyou alcança a paz de espírito. Apenas quando a purificação é muito intensa, alguns podem vacilar e se perguntar por que estão passando por aquilo, o que é natural. Mas, se compreenderem a causa fundamental, superarão o sofrimento com mais facilidade. Eu mesmo, no ano passado, quando fui perseguido pela polícia, cheguei a pensar: “Deus, não precisava ser tão duro assim”. Mas, por outro lado, eu pensava: “Tenho uma missão de extrema importância, então é natural que eu sofra mais que as pessoas comuns”.
+
+**[8 de novembro]**
+
+**Comentário: Pensando que o senhor residiu nesta sala…**
+
+O número de pessoas qualificadas também deve estar aumentando gradualmente, não é? Espiritualmente, já entramos em uma fase de grande desenvolvimento. Os frutos estão começando a amadurecer. Até agora, éramos apenas o caule. Agora, a forma do fruto já se delineia. Por melhor que algo seja, é preciso um certo tempo para amadurecer. Ainda assim, nosso progresso é rápido. Cristo, por exemplo… foi só uns cem anos após sua morte que as coisas começaram a se desenvolver. E ele não teve uma morte serena como a de Buda. Com uma morte como a de Cristo, as pessoas pensavam: “Ele devia ser um homem muito mau, um grande malfeitor”. E, por isso, não conseguiam compreender a verdade.
+
+**Comentário: O que saiu no jornal de Obama foi realmente…**
+
+Os espíritos malignos estão, pouco a pouco, perdendo sua força e só conseguem atuar em pequena escala. Coisas assim continuarão a acontecer até o fim. Mas eles se tornarão cada vez menores e mais fracos.
+
+**Pergunta: No artigo de hoje, “Bem e Mal”, o senhor diz que o instinto de autopreservação nos é dado, mas que, naquilo que o excede…**
+
+Exceder…
+
+**Comentário: No sentido de proteger…**
+
+“Proteger” não é o termo adequado. Não se trata de preservação, mas de progresso. Sem competição, não há progresso.
+
+**Pergunta: Isso é permitido ao indivíduo ou a um grupo?**
+
+Não é que seja permitido, é que não é necessário. Se há um ladrão, protegemos nossos bens. Se não houvesse ladrões, poderíamos deixar tudo aberto.
+
+**Pergunta: O mal nasceu daí?**
+
+Não nasceu daí. Deus o criou por ser necessário. Quando a Terra ainda não estava solidificada, Ele permitiu que mamutes e dragões a pisoteassem para compactá-la. Se existissem hoje, seria um desastre; destruiriam nossas casas. Mas eles existiram porque eram necessários. O mal é um animal em forma de homem. Agora, o homem em forma de animal não é mais necessário. Por isso, animais dóceis, como os de criação, permanecem, enquanto tigres e lobos diminuem gradualmente. Serpentes gigantes estão desaparecendo. Antigamente, Tawara no Tota Hidesato confundiu uma com um pinheiro, de tão grande que era. Mas o animal em forma de homem desaparecerá.
+
+**Comentário: Então, foi necessário para a humanidade…**
+
+Deus o criou. Portanto, dizer que foi “necessário” é até uma simplificação. O deus guardião secundário cumpria essa função, pois é um animal. Diz-se também que o homem, ao se degenerar, se torna um animal — não um animal doméstico, mas um animal feroz. Hoje, a maioria das pessoas é como animais; apenas seus métodos se tornaram mais astutos.
+
+**Pergunta: O ego e o apego são causados pelo espírito secundário?**
+
+Não se pode afirmar isso de forma tão categórica. Existem apegos bons e maus. Nos assuntos do mundo, o apego ao mal é muito mais comum. Meu apego em salvar as pessoas através do bem e em criar um mundo melhor é um bom apego. Penso nisso do amanhecer ao anoitecer, é um apego tremendo. Mas é um bom apego. Como, até hoje, o apego sempre esteve ligado ao mal, a palavra adquiriu uma conotação negativa.
+
+**Pergunta: Na difusão, o apego parece se tornar um obstáculo.**
+
+Isso porque não é um apego verdadeiro; é Hinayana. Diz-se que o bem Hinayana se torna o mal Mahayana. Pessoas muito dedicadas e fervorosas muitas vezes se colocam em situações perigosas ou se tornam um obstáculo. Isso porque sua visão é Hinayana. É como a lealdade ao imperador e o patriotismo de antes da guerra. Foi por herdar o pensamento de ancestrais como Kusunoki Masashige e Yoshida Shoin que a guerra começou. Visto por esse prisma, o que eles praticavam era o bem Hinayana. Foi por isso que publiquei o artigo “Sejamos Cidadãos do Mundo”. É preciso ver todos os povos do mundo da mesma forma. Assim, não haveria necessidade de guerras de agressão. As guerras e os conflitos internacionais até hoje ocorreram porque o mundo inteiro praticava o bem Hinayana: cada um buscava a felicidade apenas para seu próprio país, para seu próprio povo. Por isso, todos entraram em conflito. Os chineses pensavam assim, os coreanos também. O Japão, com sua população crescente, precisava se expandir. Ao tentar entrar na China, que é vasta, os chineses o impediram com força militar. O Japão, por sua vez, tentou entrar à força. Isso se tornou uma guerra. O verdadeiro bem Mahayana seria que, se um dos três países tivesse um aumento populacional, os outros dissessem: “Vocês estão com dificuldades por causa do aumento da população. Como temos espaço de sobra, por favor, entrem”.
+
+**Pergunta: Tentar se livrar do apego pode se tornar um apego em si?**
+
+Sim. O próprio ato de “tentar se livrar” é um apego. Se a pessoa precisa tentar, é sinal de quão forte é seu apego. Se fosse fácil de se livrar, não seria preciso nem pensar nisso.
+
+**Comentário: Então, os fertilizantes químicos e os remédios fomentavam o mal…**
+
+Exato. Eles turvavam o espírito. O sangue se tornava impuro, e o espírito também se anuivava. Com isso, os espíritos de animais ganhavam força e praticavam o mal. A causa fundamental está aí. Não usar fertilizantes e não usar remédios: essa é a base.
+
+**Pergunta: Com o avanço, o mal Mahayana… a necessidade do mal deixará de existir?**
+
+Não, mesmo o mal Mahayana, o mal continua sendo mal.
+
+**Pergunta: O mal não será mais necessário?**
+
+Isso mesmo. O mal Hinayana permanecerá por alguns séculos. O mal não desaparecerá em um curto período. O importante é que o bem supere o mal, mesmo que por uma pequena margem. Se o mal for 99%, basta que o bem seja 100%. O importante é que o mal não ultrapasse seus limites. Desejar ardentemente uma mulher não há problema, mas se você segurar a mão dela, já cruzou a linha.
+
+**Pergunta: E se ela consentir?**
+
+Mesmo que ela consinta. E se sua esposa visse?
+
+**Pergunta: E se não forem casados?**
+
+Ainda assim, deve haver a intenção de casar.
+
+**Comentário: Se a pessoa não considera um ato como mau, não estaria tudo bem?**
+
+É pecado. O ato em si é o problema. O ato é um pecado maior que o sentimento. O princípio fundamental é fazer o outro feliz. Se o ato fizesse sua esposa feliz, estaria tudo bem. Mas, mesmo que ambos colaborem e sintam prazer, não pode ser algo passageiro; deve ser eterno.
+
+**Pergunta: Um período de namoro antes do casamento é aconselhável?**
+
+Não é uma questão de certo ou errado. Se ambos desejam, tudo bem.
+
+**Comentário: Como pai, fico apreensivo.**
+
+Contudo, na prática, ter relações antes do casamento aumenta a chance de o noivado ser desfeito. O ser humano, não apenas o homem, anseia pelo mistério. É bom preservar o mistério até o casamento. Se o mistério é revelado antes, o homem pode pensar: “Não quero me casar com essa mulher”. O ideal é manter a pureza até o casamento.
+
+**Pergunta: É aconselhável que o casal se relacione para ver se seus ideais e pensamentos são compatíveis?**
+
+Sim, é bom que se compreendam.
+
+**Comentário: Nesse caso, como pai, sinto um certo perigo.**
+
+Sim. Mas não é possível controlar tudo. Algumas situações de risco ocorrerão. Sem a fé, isso gera preocupação, mas com a fé, não é um problema. Deus cuidará de tudo.
+
+**Pergunta: Até que grau de parentesco o casamento é permitido?**
+
+Entre pais e filhos e entre irmãos não é permitido. Fora isso, é permitido. Primos de primeiro ou segundo grau, não há problema.
+
+**Pergunta: Mesmo que os pais sejam irmãos?**
+
+Não há problema. No início da humanidade, os casamentos eram entre irmãos. Izanagui e Izanami, e seus filhos, eram todos irmãos e se casaram entre si. Do contrário, a humanidade não teria se multiplicado. Isso é a teoria, mas na prática, casamentos consanguíneos não geram filhos com deficiências ou problemas mentais. São pessoas perfeitamente normais.
+
+Certa vez, fui a Yunishikawa, em Nikko. Era um refúgio de cerca de trinta sobreviventes do clã Heike. Como eram perseguidos por toda parte, eles se esconderam em um local tão remoto nas montanhas que ninguém conseguia chegar. No início, sobreviveram comendo apenas raízes de inhame selvagem, o que é um feito notável. Depois, começaram a cultivar arroz. Hoje, a população é de novecentas pessoas, em seiscentas casas. Para que trinta pessoas se multiplicassem a esse ponto, certamente houve casamentos consanguíneos. E, no entanto, a moça da pousada que nos explicava tudo, com seus vinte e dois ou vinte e três anos, era extremamente inteligente. Tudo o que eu perguntava, ela respondia sem contradições, antecipando minhas dúvidas.
+
+Mudando de assunto, é difícil encontrar uma pessoa em cem que consiga responder adequadamente a uma pergunta. A maioria, mesmo que não se contradiga, não é precisa. A inteligência de uma pessoa pode ser avaliada pela forma como ela responde, pelo tempo que leva para fazê-lo. A moça da pousada era notavelmente precisa. Fiquei muito impressionado. E isso em uma vila de casamentos consanguíneos. Além disso, não há doentes lá. Claro, não há médicos. Perguntei se havia algum doente entre as novecentas pessoas. Disseram que havia um: um velho que ficou debilitado de tanto beber. Fora ele, ninguém. O dono da pousada é também o chefe da vila, juiz, conselheiro e policial. Ele resolve tudo sozinho, e todos o seguem. Há um rio chamado Yunishikawa, com peixes como o *ayu* e o *yamame*, mas como ninguém nunca os comeu, ninguém tem vontade de comê-los. Fomos em um grupo de dez pessoas e queríamos comer frango, mas não havia uma única ave na vila. Nem um ovo. Felizmente, eu havia levado alguns, pensando que eram doces. A tempura era toda de vegetais. Havia flores de crisântemo, que estavam deliciosas.
+
+Com isso, compreendi que o casamento consanguíneo não é um problema. As pessoas são saudáveis e inteligentes. O fato de não haver doentes é notável. Quando os médicos vêm para aplicar a vacina contra a febre tifoide, todos na vila fogem. Eles também não gostam dos médicos. A ordem é para vacinar a todos, então os médicos vêm, almoçam nas termas de Kawaji e depois atravessam uma ponte para uma jornada de quatro *ri* que leva seis horas de carro de boi. Por isso, pouca gente vai até lá, e eles conseguem preservar suas tradições. É um ótimo exemplo, mas os médicos tentam esconder esse tipo de coisa. A vacina os deixa de cama por três dias, com febre, e eles têm medo disso. Como não há febre tifoide lá, não há necessidade de vacinação.
+
+Há também a vila de Hirakawa, acessível a partir de Takayama, em Hida, que também foi fundada pelo clã Heike e tem alguns milhares de habitantes. Vi uma pesquisa que foi feita lá e que concluiu que não há nenhuma influência negativa do casamento consanguíneo. Recentemente, mesmo no Ocidente, a teoria de que o casamento consanguíneo não é prejudicial tem ganhado cada vez mais força.
+
+**Pergunta: Alguns membros dedicados adoecem de tuberculose. No estágio final da purificação, a febre se torna muito alta e só cede com Johrei. Dizem que o ideal é ministrar duas vezes por semana.**
+
+Isso não pode ser fixado. Depende do estado da pessoa. Se o sofrimento for intenso, pode ser necessário ministrar Johrei todos os dias. Se não for tão intenso, uma ou duas vezes por semana é suficiente. O tratamento deve se adaptar à condição física. Exagerar não é bom. É preciso ajustar à condição da doença.
+
+**Pergunta: Eles continuam a difundir a fé até o fim, dizendo que é pela Obra Divina. Mas, no estágio final, isso não acaba piorando a situação?**
+
+Isso é um erro. Mostrar-se assim aos outros é errado. É preciso mostrar uma saúde vibrante. Mostrar-se doente é fazer propaganda negativa. É uma forma de agir de espíritos malignos, uma fé completamente equivocada.
+
+**Pergunta: O sacerdote do santuário local me pediu para purificar o local. Posso fazê-lo com a Oração Amatsu-Norito?**
+
+Sim. Ele está pedindo que você entoe a Oração. Existem diferentes tipos de santuários locais, e alguns precisam de uma grande purificação.
+
+**Pergunta: Houve uma goteira sobre a letra “Dai” do Altar de Daikoomyoo Nyorai-Sama.**
+
+Isso não é bom.
+
+**Pergunta: Se eu levar para um removedor de manchas, ele usará produtos químicos. Posso fazer isso?**
+
+Não, removedores de manchas também não são permitidos. Se a mancha estivesse apenas no papel, sem tocar nas letras, um restaurador poderia consertar. Mas se tocou nas letras, não há o que fazer. O Altar deve ser trocado.
+
+**Pergunta: E o que faço com o antigo?**
+
+Guarde-o. Não, o melhor é queimá-lo. Peça perdão devidamente. Certamente, houve algum erro.
+
+**Comentário: No dia em que minha avó faleceu, realizei minha cerimônia de casamento e a cerimônia de consagração do Altar de Daikoomyoo Nyorai-Sama. Ela dizia que não poderia morrer sem ver isso.**
+
+Aí está o erro. Por isso, peça perdão e queime-o.
+
+**Relato: Ontem, meu marido voltou de uma festa e enrolou o Altar de Daikoomyoo Nyorai-Sama. Devo esperar o momento certo, pedir perdão e pendurá-lo novamente?**
+
+Guarde-o e espere o momento certo. O próprio marido sentirá o desejo de cultuá-lo. Então, você poderá pendurá-lo novamente. Isso significa que ainda não era o momento; foi precipitado. Não deve haver oposição dentro de casa. A família inteira deve desejar o Altar. Especialmente se o chefe da família se opõe, não se deve insistir.
+
+**Comentário: Normalmente, ele não se opõe.**
+
+Ele não se opõe, mas também não deseja. E o espírito secundário dele teme o Altar.
+
+**Pergunta: O Altar de Daikoomyoo Nyorai-Sama mencionado anteriormente está guardado na igreja. Como devo proceder para queimá-lo?**
+
+Peça perdão: “Peço permissão para queimar este Altar Sagrado”. Depois, com ele ainda enrolado, coloque-o no *tokonoma*.
+
+**Comentário: Em um braseiro ou algo assim?**
+
+Pode ser no jardim.
+
+**Comentário: Devo entoar a Oração Amatsu-Norito?**
+
+Não, não é necessário.
+
+**Pergunta: Dizem que o uso da faixa abdominal durante a gravidez é um costume apenas japonês. Qual a sua opinião sobre isso?**
+
+Tanto faz. Se a mulher quiser usar, que use. A origem do costume é a crença de que a faixa ajuda a criança a não crescer demais, facilitando o parto. Sem ela, a criança cresceria livremente, e o parto seria mais difícil. Contudo, não se deve apertá-la demais, pois isso pode causar aborto, o que é muito comum. A pressão força o feto para baixo. Os mais velhos insistem no uso da faixa. O ideal é usá-la com uma tensão moderada. Ela também ajuda na hora de trabalhar, pois firma o abdômen.
+
+**Pergunta: Quando uma missionária dá à luz, depois de quanto tempo ela pode retomar suas atividades na Obra Divina?**
+
+É importante saber isso. O ideal são 75 dias, mas, dependendo da pessoa, após 35 dias já é possível. Antes disso, é melhor evitar. Antes do parto, pode-se trabalhar até o último dia. Após o parto, enquanto houver sangramento, o esforço de ministrar Johrei afeta o braço e o sistema nervoso. A regra geral é que, após 35 dias, a mulher já pode retomar as atividades.
+
+**Pergunta: E para vir em peregrinação?**
+
+Cerca de três semanas. Mas se o sangramento (loquiação) for intenso, não é aconselhável. É preciso esperar que o sangramento diminua bastante, até se tornar esporádico.
+
+**Pergunta: Onde o medicamento 606 (Salvarsan) se manifesta no corpo?**
+
+A característica mais marcante é o efeito na cabeça. Sem exceção, ele prejudica a cabeça, causando distúrbios mentais. A pessoa começa a dizer coisas estranhas, seus pensamentos se desviam. A concentração do medicamento varia entre os médicos; se for mais diluído, o número de aplicações é maior. Antigamente, o tratamento se limitava a doze injeções, mas hoje, com a diluição, chegam a cinquenta ou sessenta. Embora eu não tenha aplicado, sei que o principal efeito é na cabeça.
+
+**Comentário: Quando criança, tive uma inflamação na medula espinhal. O exame de sangue não mostrou nenhuma toxina, mas o médico presumiu que havia e me aplicou treze injeções.**
+
+Presumir é um absurdo, não tem lógica.
+
+**Comentário: Ele disse que nunca havia usado o medicamento para inflamação na medula, mas que, se o resultado fosse bom, poderia ajudar muitas pessoas.**
+
+Você foi usado como cobaia. E ainda pagou por isso. Ele é que deveria te pagar.
+
+**Comentário: Ele disse que era para parar o pus, mas o pus não parou. A inflamação aumentou e durou cerca de dez anos.**
+
+Isso foi bom para você. Se o pus tivesse sido suprimido, teria sido um desastre. O medicamento 606 provavelmente foi eliminado junto com o pus. A solidificação do 606 no corpo leva muitos anos. Em casos como o seu, a eliminação é mais fácil.
+
+Quando o 606 chegou ao Japão, um jovem com calvície foi diagnosticado por um médico como tendo sífilis, e o medicamento foi aplicado em sua cabeça. O nome dele era Matsushita. Pouco tempo depois, ele enlouqueceu. A história está no livro “O Evangelho do Paraíso”.
+
+**Comentário: Eu também perdi todo o meu cabelo por um tempo.**
+
+Parece que sua cabeça não foi afetada. Talvez tenha sido afetada e depois se recuperou. Nesse caso, não há mais perigo.
+
+**Pergunta: Um casal que deseja muito ter filhos, mas não consegue, cogita a inseminação artificial. Isso, claro, é errado…**
+
+Sim, é errado.
+
+**Pergunta: Se o casal, de comum acordo, decide que o marido terá um filho com outra mulher, como Deus vê essa situação?**
+
+Do ponto de vista de Deus, é errado. Contudo, há uma questão a ser considerada. O mundo de hoje não é um mundo verdadeiro, mas um mundo em desordem. É como a existência do seguro: em um mundo ideal, sem desastres, o seguro não seria necessário. A incapacidade de ter filhos se deve a algum impedimento espiritual. Como uma solução paliativa, existem a adoção e outros arranjos. Espiritualmente, a questão é a linhagem. Os antepassados, para não deixar a linhagem se extinguir, tentam fazer com que seus descendentes tenham filhos. Se um descendente não pode ter filhos por causa de um carma, eles podem buscar uma linhagem próxima. A situação que você descreveu é uma forma mais direta de resolver isso. O Imperador Meiji fez isso, e assim nasceu o Imperador Taisho. Mas foi por ter cometido esse erro que as coisas terminaram como terminaram. Tentar perpetuar a linhagem dessa forma é um erro.
+
+**Pergunta: Qual opção alegraria mais os antepassados?**
+
+Os antepassados se alegram com a continuidade da linhagem. Mas eles não compreendem a verdade. Antes da Sekaikyuseikyou, eles foram educados por religiões como o budismo, que não detinham a verdade completa. É um milagre que a linhagem imperial japonesa tenha durado tanto tempo. Mas era o Mundo da Noite. Com a aproximação do Mundo do Dia, o apego à matéria e à forma, ignorando o espírito, se revela espiritualmente falso. Se isso fosse permitido, um homem rico e sem filhos poderia ter quantas amantes quisesse, o que levaria o mundo a uma desordem ainda maior.
+
+**Pergunta: Li que, na educação dos filhos, repreender é bom, mas se irritar é ruim.**
+
+Não há diferença. A repreensão nasce da irritação. Seria estranho alguém que conseguisse separar as duas coisas. Se a criança faz algo que merece ser repreendido, é natural que os pais se irritem. Quem escreveu isso está enganado. O ser humano não é tão versátil assim. É como dizer para não rir quando algo é engraçado. O importante é a moderação. Irritar-se quando é preciso e repreender quando é necessário, tudo bem. Mas há pais que se irritam por qualquer coisinha. Não se deve pender para nenhum extremo. Isso faz parte do treinamento, do polimento da alma.
+
+**Pergunta: As portas do oratório budista devem ficar abertas ou fechadas?**
+
+É melhor que fiquem sempre abertas. À noite, podem ser fechadas para evitar a entrada de ratos ou insetos, mas durante o dia, devem ficar abertas.
+
+**Pergunta: Ouvi dizer que, se as portas do oratório budista estiverem abertas durante o culto mensal, não é preciso fazer uma cerimônia separada para os antepassados depois.**
+
+Isso não é verdade. O objetivo do culto mensal é cultuar Koomyoo Nyorai-Sama. É diferente dos antepassados. É preciso fazer a distinção.
+
+**Pergunta: Uma membro se casou, teve um filho, mas o marido começou a chegar em casa às duas ou três da manhã. Ela se separou e voltou para a casa dos pais. Como ela quer muito o filho, parece que vai ficar com a guarda. Ela pergunta se pode dar seu sobrenome à criança.**
+
+Não há problema.
+
+**Comentário: Ela diz que, como ele nasceu como o filho mais velho do marido…**
+
+Isso não importa.
+
+**Pergunta: Ela pergunta se deve orar ao filho no aniversário de sua morte, e se deve orar primeiro no Altar Divino.**
+
+Trata-se da cerimônia fúnebre. O correto é orar primeiro no Altar. Deve-se dizer a Daikoomyoo Nyorai-Sama: “Hoje, realizaremos a cerimônia fúnebre de tantos anos de fulano. Rogo por sua proteção”. Assim, quando o espírito do antepassado vier, ele receberá ainda mais a Luz de Daikoomyoo Nyorai-Sama.
+
+**Pergunta: Se, durante o culto mensal, um membro mais antigo estiver presente, quem deve conduzir a cerimônia?**
+
+Quem a conduziu da primeira vez? A pessoa que consagrou o Altar. Se ela não puder estar presente, pode-se pedir a outra pessoa que seja considerada adequada.
+
+**Pergunta: Acredito que o correto seria realizar um culto mensal para a Kannon em biombo também.**
+
+Isso não é necessário. O culto aos espíritos ancestrais já é realizado. Durante o culto mensal, quando se ora pelos antepassados, a oração é feita diante da Kannon em biombo, pedindo pela proteção dos espíritos. Isso é suficiente.
+
+**Pergunta: O representante dos membros de uma igreja está passando por uma purificação financeira. Ele mora na casa do meio de um conjunto de três casas geminadas e está preocupado porque o banheiro fica no “portão do demônio” dos fundos.**
+
+Morar na casa do meio é até bom. Antigamente, dizia-se que não era bom, pois se um dos vizinhos estivesse em uma posição superior, a pessoa do meio seria subjugada. Mas nós vencemos, então podemos nos orgulhar. Na verdade, podemos até compartilhar a Luz com os vizinhos. O “portão do demônio” dos fundos não é extremamente ruim, mas também não é bom. Se puder ser modificado, melhor. O “portão do demônio” da frente é absolutamente proibido e deve ser corrigido o mais rápido possível.
+
+**Pergunta: É por isso que se diz que não se deve tirar fotos em trio?**
+
+Sim, por esse motivo.
+
+**Pergunta: Uma pessoa sofreu uma queimadura no dedão do pé. A carne já está se regenerando, mas o osso…**
+
+Quando foi isso?
+
+**Comentário: Em julho.**
+
+Ainda é cedo. Espere um ano e verá. A ferida se fechará completamente. Mesmo que o osso esteja exposto, a carne crescerá sobre ele e não se notará mais nada.
+
+**Pergunta: Uma mulher que teve tuberculose óssea na infância está grávida. A parteira diz que ela não conseguirá dar à luz e que o parto deve ser antecipado. Mas ela tem muita fé e acredita que será protegida. O que fazer nesse caso?**
+
+Ela ficará bem. Conseguirá dar à luz. Dizem que a pélvis é pequena, mas os ossos se expandem. O que os médicos medem é uma coisa, mas a realidade é que eles se expandem. Se a pélvis fosse realmente pequena, ela não teria engravidado. É como eu sempre digo.
+
+**Pergunta: Em Kanto, o nome do bebê é dado no sétimo dia, mas em Kansai, no sexto. Em caso de falecimento, a contagem da primeira semana também começa no dia da morte. Há alguma razão para isso?**
+
+Em Kansai, usam-se números pares. Deve haver uma razão, mas não é algo com que se deva preocupar.
+
+**Pergunta: E o ditado “Homens de Kanto, mulheres de Quioto”?**
+
+Os homens de Kanto são mais viris, mais diretos. As mulheres de Quioto são mais gentis e femininas. A franqueza dos homens de Kanto, no mundo de hoje, não é uma vantagem. Eles não têm apego ao dinheiro, o que é visto como uma qualidade, enquanto em Kansai as pessoas são mais apegadas e acumulam riquezas. Nos dias de hoje, ser desapegado não é bom. As mulheres de lá são mais dóceis; imagino que não briguem muito com seus maridos.
+
+**Pergunta: O *tokonoma* fica perto da entrada, e o fundo da sala tem um piso de madeira, com o teto mais baixo.**
+
+Não é uma boa disposição. Se puder ser corrigido, melhor.
+
+**Comentário: Seria preciso demolir o teto.**
+
+Não é possível usar o teto do outro lado, que é melhor? Embora não seja ideal, se a reforma for muito complicada, pode-se tolerar. Se fosse uma construção nova, seria diferente. Não é uma situação tão ruim assim. O pior é quando o quarto dos filhos fica no andar de cima e o dos pais, no de baixo. Nesse caso, os filhos não obedecem. Isso, sim, precisa ser corrigido.
+
+**Pergunta: Um bebê de dois meses com asma tem recebido injeções. O oratório budista fica no chão, e os avós, que são muito teimosos, não permitem que seja colocado no andar de cima. Posso continuar ministrando Johrei?**
+
+Sim, o Johrei pode ser continuado. Não há o que fazer. A cura apenas será mais lenta, mas não impossível. Quando ele se curar e os avós acreditarem, a mentalidade deles mudará gradualmente. É preciso esperar.
+
+**Comentário: Eles não têm o sentimento de súplica e, mesmo quando o bebê está mal, não vêm à igreja. Os pais também não têm uma fé muito sólida.**
+
+Se eles já receberam o Ohikari, não se deve abandoná-los. É preciso esperar o momento certo, sem pressa. E os Escritos Divinos?
+
+**Comentário: Já foram entregues.**
+
+Então, espere o momento certo.
+
+**Pergunta: O oratório budista está colocado na prateleira ao lado do *tokonoma*, abaixo da foto de Meishu-Sama. Isso é permitido?**
+
+Sim, é permitido.
+
+**Pergunta: As cinzas do Altar Sagrado que foi queimado, onde devem ser descartadas?**
+
+As cinzas podem ser descartadas em qualquer lugar. Nesse momento, o espírito já se retirou, restando apenas a matéria.
+
+**Pergunta: Nesse caso, posso substituir apenas a caligrafia?**
+
+Sim, pode. A moldura é um bem valioso. Contudo, se possível, o ideal seria queimar tudo, como um ato de pureza. A moldura não é tão cara assim. Seria mais reconfortante. Há quanto tempo eles têm o Altar?
+
+**Comentário: É um membro novo, que não o pendurou por cerca de um mês.**
+
+Nesse caso, é uma pena. Não o enquadre de forma definitiva. Coloque um tecido ao redor da caligrafia e use-o assim. Assim, tudo bem. Qual o valor?
+
+**Comentário: Cerca de quatro ou cinco mil ienes.**
+
+É uma pena. Traga-o para mim. Eu o examinarei e pensarei em uma forma de aproveitá-lo.
+
+**Relato: Tamotsu Inoue, 26 anos, ingressou em julho. No final de agosto, durante seu trabalho de transportar madeira em jangadas, ele parou para descansar na margem do rio. Embora tenha sido orientado a não remover o Ohikari, exceto para tomar banho, ele o fez, pedindo perdão, e o colocou sobre suas roupas, que estavam em cima de uma pedra. Ao retornar, vinte ou trinta minutos depois, a bolsa do Ohikari estava queimada. Não havia ninguém usando fósforos por perto. O Ohikari em si não foi queimado, mas a bolsa de nylon e o forro interno sim.**
+
+Foi porque ele o colocou diretamente sobre a pedra, mesmo que sobre as roupas. O correto seria colocá-lo sobre um pedaço de papel branco. Como o manuseio foi inadequado, um espírito ancestral ou outro protetor causou isso para lhe chamar a atenção.
+
+**Comentário: As bordas estão queimadas de preto. Devo trocá-lo?**
+
+Sim. O espírito precisa ser depositado novamente. Traga-o para mim, eu depositarei o espírito, e ele poderá usar uma nova bolsa.
+
+**Relato: Kuni Nishihira, membro desde maio, ingressou porque a dor de dente de seu marido foi curada. Eles consagraram a Kannon em biombo. No dia 10 de setembro, à noite, ela foi atropelada por um caminhão em uma ponte e morreu instantaneamente. O casal era membro e não havia oposição na família. Eles entendem que foi uma grande redenção para a família e continuam com a fé fervorosa.**
+
+É um caso estranho, incomum. Deve haver uma razão profunda. O significado é o seguinte: a família carregava um carma muito pesado. Para que a família pudesse ser verdadeiramente feliz, esse carma precisava ser eliminado. E, para isso, alguém precisava ser sacrificado. Eles não têm filhos?
+
+**Comentário: Têm cinco ou seis. Todos são inteligentes, e o mais velho é o líder dos jovens da comunidade.**
+
+Quantos anos tinha a mãe?
+
+**Comentário: Quarenta e sete.**
+
+Para que o carma fosse extinto, alguém precisava ser sacrificado, e a esposa foi a escolhida. Isso é raro, mas acontece. E, por causa disso, o marido se tornará ainda mais fervoroso. É esse o significado. Às vezes, coisas assim são inevitáveis. O Mundo Espiritual está se aproximando de sua fase final, e os espíritos ancestrais também estão com pressa, buscando meios de eliminar o carma rapidamente.
+
+**Pergunta: Dizem que um ano de seca é seguido por um ano de chuvas abundantes.**
+
+É um fenômeno natural. Se houvesse seca todos os anos, tudo se perderia. A chuva vem para equilibrar.
+
+**Pergunta: No Grande Culto de Outono, o primeiro e o último dia foram de sol, mas os dias intermediários foram chuvosos. Há algum significado nisso?**
+
+Em Hakone, o natural é que chova. Deus, em sua benevolência, nos concedeu tempo bom no início e no fim. Como sempre digo, Hakone é o fogo e precisa da água. Quanta mais água, mais forte o poder do fogo. Por isso, sempre que vou a Hakone, chove.
+
+**Comentário: Fumiharu Tatematsu, que foi para os Estados Unidos com a sua proteção, esteve recentemente em Notre Dame, onde um jornalista que cobriu a Guerra da Coreia…**
+
+Notre Dame, nos Estados Unidos? Pensei que fosse na França.
+
+**Comentário: É um centro acadêmico, com a Universidade de Notre Dame. Naquela época, ao revelar a foto de um avião de combate, apareceu uma imagem espiritual de Cristo preenchendo todo o céu. Lá, a notícia se espalhou de que a segunda vinda de Cristo havia ocorrido e que algo grandioso aconteceria no mundo. Ele pergunta se isso tem algum significado.**
+
+Sim, tem um grande significado. Mas não posso explicar em detalhes. Se ficasse conhecido que eu sou a segunda vinda de Cristo, seria um caos. Pessoas do mundo inteiro viriam, e eu não conseguiria mais trabalhar, não conseguiria escrever “A Criação da Civilização”. Por isso, as coisas são mantidas veladas. Mas tem um grande significado. É cedo demais para revelar. Responda-lhe nesses termos. E pode acrescentar que o fato tem uma grande relação com a Sekaikyuseikyou. Se houver algo na carta dele que possa ser publicado em nossos jornais, envie-a para mim, através do Sr. Abe.
+
+**Comentário: Ele também encontrou um líder da Fé Bahá'í, que lhe disse que as profecias de Cristo e Maomé provavelmente se referem a Meishu-Sama.**
+
+Eu, um profeta? Isso é um pouco diferente. Mas, de modo geral, está correto.
+
+**Relato: Enquanto eu ministrava Johrei, uma imagem da Kannon carregando uma cruz apareceu duas vezes ao lado do travesseiro e, no mesmo instante, partiu-se ao meio e caiu. Meu pai, quando estava em uma mina de ouro na província de Iwate, viu um cadáver humano envolto em uma esteira de palha. Isso é possível?**
+
+Sim, é. Era assim que ele deveria ter morrido. Era seu destino. Mas, graças à fé, ele foi salvo. Foi uma forma de lhe mostrar isso. O deus guardião principal lhe mostrou essa visão.
+
+**Comentário: Não seria uma ilusão de ótica?**
+
+Não. É algo que poderia ter acontecido.
+
+**Pergunta: E a Kannon com a cruz?**
+
+Trata-se de um antepassado dessa pessoa que ofendeu gravemente a Kannon, e isso faz parte da redenção desse pecado.
+
+**Relato: Quando um membro da igreja falece, uma bola de fogo aparece ao lado de seu travesseiro.**
+
+É o que se chama de alma penada (*hitodama*). É o espírito vindo se despedir de você.
+
+**Comentário: Dizem que nem todos podem ver.**
+
+Não é bem assim. Algumas pessoas conseguem ver, mesmo que por um instante. Isso é bom. Ver o que é necessário é bom. Ver o que não é necessário, como raposas e outras entidades, é que não é bom. O que você vê é bom.
+
+**Comentário: Disseram-me que era porque meu espírito era baixo, de animal.**
+
+Não é isso. Foi dito por alguém que não entende. Como as visões de espíritos de animais são mais comuns, a pessoa não sabe distinguir.
+
+**Pergunta: O que devo fazer com uma tabuleta ancestral que tem uma foto dentro?**
+
+Após cerca de um ano, a foto deve ser guardada.
+
+**Comentário: É uma foto pequena, dentro da tabuleta.**
+
+A tabuleta deve ser trocada. O espírito se incomoda. Cada vez que a foto é vista, a pessoa se lembra, e isso atrapalha a ascensão do espírito no Mundo Espiritual. É melhor que ele seja esquecido. Esquecer logo após a morte não é bom, mas, depois de um ano, é melhor que se esqueça. É por isso que se diz que o espírito não consegue se elevar.
+
+**Pergunta: Uma membro, cujo neto mora longe, pergunta se pode ministrar Johrei na foto dele todos os dias para protegê-lo.**
+
+Quão longe?
+
+**Comentário: Em Kagoshima ou Kumamoto.**
+
+Não seria melhor que ele ingressasse na fé lá?
+
+**Comentário: É para o período até que isso aconteça. Parece ser o amor de avó falando.**
+
+Não é uma boa prática. É melhor que ela peça a Koomyoo Nyorai-Sama para que o neto ingresse na fé o mais rápido possível. Isso é suficiente.
+
+**Pergunta: Em uma casa que segue o xintoísmo de santuário, e onde há um altar para os deuses, posso consagrar a Kannon em biombo?**
+
+Sim, pode.
+
+**Pergunta: E as cerimônias fúnebres, posso continuar a realizá-las de acordo com a tradição?**
+
+Sim, mas, nesses casos, entoe a Oração Amatsu-Norito e o Salmo Zenguen-Sandji.
+
+---
+
 # Coletânea de Teses do Mestre Okada Jikan — Registro das Sagradas Orientações, nº 25 (Publicado em 15 de outubro de 1953) — Vigésimo Quinto Número (Vigésimo Oitavo Ano da Era Showa) [Primeiro de outubro]
 
 **Categoria:** gosuiji | **Ano:** 昭和28(1953)年10月15日 | **Fonte:** Gosuiiji録
+**Título Original:** - | **Status:** -
 
 ## Coletânea de Teses do Mestre Okada Jikan — Registro das Sagradas Orientações, nº 25 (Publicado em 15 de outubro de 1953) — Vigésimo Quinto Número (Vigésimo Oitavo Ano da Era Showa) [Primeiro de outubro]
 
@@ -375,3530 +4201,6 @@ As flores sabem. Elas sentem dor ao serem cortadas. Mas as flores arranjadas des
 “Mas essa habilidade de fazer tudo com um gesto rápido é bastante difícil.”
 
 É por isso que, ao visitar constantemente o museu e apreciar pinturas, desenvolve-se essa mentalidade. O arranjo floral é, na verdade, uma pintura feita com flores. É como expressar a força da pincelada através delas. Por isso todos elogiam meus arranjos: porque eu pinto com as flores. Para isso, é preciso ter um senso artístico, e o senso artístico se desenvolve apreciando arte continuamente. Assim, o museu também tem esse efeito benéfico.
-
----
-
-# Coletânea de Teses do Reverendo Okada Jikanshi — Registro de Ensinamentos nº 13 (Publicado em 25 de setembro de 1952)
-
-**Categoria:** gosuiji | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Gosuiiji録
-
-## Coletânea de Teses do Reverendo Okada Jikanshi — Registro de Ensinamentos nº 13 (Publicado em 25 de setembro de 1952)
-
-**Registro de Ensinamentos nº 13 (Ano 27 da Era Showa)**
-
-**[1º de setembro]**
-
-Embora este assunto não tenha relação direta com a fé, a maior falha monumental dos Estados Unidos foi ter permitido que a China Comunista invadisse e dominasse a China. O que esteve por trás disso? Eles simplesmente cessaram o auxílio a Chiang Kai-shek. A razão para tal medida foi que a corrupção grassava de forma irremediável no governo de Chiang Kai-shek. Por mais que os Estados Unidos fornecessem recursos financeiros e armamento, estes eram prontamente vendidos ao Partido Comunista Chinês, o que, evidentemente, gerava um efeito contraproducente. Por isso, a ajuda foi interrompida.
-
-Naquela situação, o governo Truman deveria ter infiltrado oficiais americanos de alta patente nos postos-chave do governo de Chiang Kai-shek, assumindo o controle dos pontos nevrálgicos. Se o fizessem, os elementos corruptos no governo de Chiang Kai-shek teriam sido neutralizados, a estrutura se fortaleceria e o Partido Comunista não teria encontrado brechas para sua expansão. Contudo, eles negligenciaram essa estratégia. Como resultado, os comunistas encurralaram o Governo Nacionalista em Taiwan. Essa foi, sem dúvida, a maior falha estratégica dos Estados Unidos.
-
-Se o Partido Comunista não tivesse ocupado a China e permanecesse confinado em sua região periférica, a Terceira Guerra Mundial jamais teria se tornado uma possibilidade. A ascensão da China Comunista foi, inequivocamente, o fator primordial que abriu as portas para um terceiro conflito mundial. Portanto, a instabilidade na Ásia — incluindo a Guerra da Coreia, que começou com a tomada da Coreia do Norte e a subsequente invasão do Sul — é uma consequência direta da ocupação da China pelos comunistas. Sem esse evento, o Partido Comunista Chinês estaria de mãos atadas. Foi precisamente este ponto que o General MacArthur criticou em seu recente discurso. Como já elogiei MacArthur anteriormente, reafirmo: ele é, de fato, um homem notável.
-
-A razão fundamental para a destituição de MacArthur foi sua insistência em bombardear a Manchúria, algo a que o governo Truman se opunha. Fui um grande defensor do bombardeio da Manchúria e, em retrospecto, aquele era o momento ideal para agir. Um ataque à Manchúria teria subjugado o Partido Comunista de uma só vez. Em vez disso, hesitaram em desferir o golpe de misericórdia, deixando a serpente ferida, mas viva. É por isso que, até hoje, persistem em intermináveis negociações de armistício. Falam em acordos e na iminência da paz, mas nada disso se concretizará. Trata-se de uma tática de desgaste orquestrada pela União Soviética, que tem custado aos Estados Unidos uma fortuna. A cada vez que um acordo de cessar-fogo parece próximo, a situação se desestabiliza e retrocede. Embora isso devesse ser evidente, as altas autoridades americanas parecem não enxergar.
-
-O Japão, por sua vez, não pode se dar ao luxo de permanecer tranquilo. Os Estados Unidos prestam um auxílio substancial ao nosso país, mas esse apoio é motivado pela questão coreana. E a questão coreana, por sua vez, é um problema criado pela ocupação comunista. Em suma, os Estados Unidos estão agora arcando com as consequências de sua própria falha.
-
-O plano soviético, nesse ínterim, consiste em fortalecer maciçamente sua presença militar em Sacalina; há relatos de um grande contingente de aeronaves sendo enviado para lá. A intenção é invadir o Japão a partir de Hokkaido quando chegar o momento oportuno. Tal ato deflagraria a Terceira Guerra Mundial. Ocorre que, se a guerra começasse agora, os soviéticos ainda não teriam poderio militar suficiente para vencer os Estados Unidos. O plano deles é iniciar o conflito assim que atingirem a paridade militar. Através de planos quinquenais, estão expandindo suas forças armadas vertiginosamente. Em termos de efetivo, a combinação das tropas soviéticas e chinesas resulta em um número assombroso. A única defasagem reside no armamento e na produção de recursos estratégicos como petróleo e carvão. Assim que alcançarem os Estados Unidos nesses quesitos, a Terceira Guerra Mundial não irá simplesmente começar — eles a iniciarão.
-
-O primeiro passo será a invasão do Japão. No momento, eles se contêm porque não possuem um pretexto para a invasão e sabem que não teriam chances de vitória. Contudo, em preparação para esse dia, é crucial para eles que o Japão esteja o mais enfraquecido possível. Para isso, utilizam a ideologia comunista para disseminar propaganda contra o rearmamento e minar a força da nação. Os agentes dessa estratégia são soviéticos com feições de japoneses, nascidos em solo nipônico. Eles estão se multiplicando, e o terreno mais fértil para seu recrutamento são os professores, especialmente os universitários, onde a infiltração comunista é alarmante. Esses professores doutrinam os alunos, que então promovem as diversas táticas vermelhas que temos presenciado. O governo promulgou a Lei de Prevenção a Atividades Subversivas para conter essa ameaça, mas um número surpreendente de japoneses se opõe a ela. Todos os que se opõem estão, na verdade, servindo aos interesses da União Soviética.
-
-O motivo pelo qual não percebem isso, do ponto de vista espiritual, é que estão sob a influência dos Dragões Vermelho e Negro, os deuses-dragões que comandam a União Soviética. Seus clãs contam com centenas de milhões de espíritos subordinados, que estão possuindo as pessoas em massa. É provável que mais da metade da população japonesa já esteja sob seu domínio. São esses espíritos que lhes inspiram toda sorte de argumentos e raciocínios para justificar suas posições. Diante de tal quadro, a Terceira Guerra Mundial é, em verdade, inevitável.
-
-E com ela, advirá uma grande destruição em escala planetária. Foi com o propósito de realizar essa grande destruição que Deus fez surgir a bomba atômica. Afinal, não há instrumento mais rápido e simples para aniquilar. Deus criou um meio deveras eficaz. Se mantiverem essa perspectiva em mente ao observar os acontecimentos futuros, tudo se tornará gradualmente mais claro. Não apenas a guerra, mas também as doenças — tudo é purificação. Essa ação purificadora se intensificará cada vez mais. É a Grande Limpeza do Mundo. Uma vasta ação purificadora está em curso e, no momento, avança de forma lenta e gradual.
-
-Mudando de assunto, como noticiado nos jornais, a pintura de Dunhuang está em exposição e pode ser vista. Gostaria apenas de informá-los. Ela é tida como a número um do mundo, e de fato, provavelmente o é. Existem três exemplares no mundo hoje, e o nosso é o melhor deles. Havia quatro, mas um foi queimado na Alemanha durante um bombardeio na guerra. Outro, que se encontra no Shosoin, é apenas um pequeno fragmento.
-
-"Foram todos trazidos pelo Sr. Otani?"
-Sim.
-
-"E o que está no museu..."
-O do museu, bem...
-
-"Onde fica Dunhuang?"
-Fica exatamente entre o Tibete e a China.
-
-"Quem é o autor?"
-Não se sabe. Geralmente, são pinturas de temática budista, mas esta, que retrata costumes da época, é uma raridade. Praticamente não existem pinturas de costumes como esta.
-
-"Então, há três exemplares no Japão..."
-O do Shosoin é insignificante, então podemos dizer que são dois. O do museu retrata um homem, e o nosso, uma mulher. Se colocados lado a lado, formam a cena de um casal de amantes se encontrando. Por isso, mantê-los separados é, na verdade, uma pena.
-
-"O nosso é mais valioso que o do museu..."
-É porque retrata uma mulher. A figura feminina é que tem valor. Mesmo nas gravuras Ukiyo-e, não existem obras famosas que retratem apenas homens. A obra "Yuna" (Mulheres do Balneário) é bela porque mostra mulheres lado a lado; se fossem homens, não teria o mesmo apelo. Uma obra com figura feminina pode valer o dobro. O museu, no entanto, não acreditava que haveria um comprador. A pintura estava a caminho dos Estados Unidos, mas, antes disso, o proprietário soube que a Igreja Messiânica estava construindo um museu de arte e decidiu nos procurar para uma conversa. Se não tivesse vindo a mim, a obra certamente teria ido para a América. Eu a comprei com a firme intenção de adquiri-la, custasse o que custasse. Desse modo, prestei um serviço de inestimável valor à nação, impedindo que essa obra-prima saísse do Japão.
-
-"As rugas se devem ao fato de ter ficado enterrada? Afinal, é uma peça de mais de mil anos..."
-O extraordinário é que ela tenha sido preservada em tal estado. Certa vez, vi outra peça semelhante. Por ser uma pintura mural, o reboco da parede foi removido e depois remontado, e mal se conseguia discernir o formato de um rosto. Mesmo assim, o proprietário se orgulhava imensamente dela.
-
-"O fato de estar aqui vai gerar muita repercussão."
-Sim, vai gerar muita repercussão.
-
-"Foi pintada na mesma época que a do museu?"
-Sim. Certamente, tudo isso é obra de Deus.
-
-"Sem dúvida, será designada como Tesouro Nacional."
-Sem dúvida.
-
-"A do museu já é?"
-Creio que sim. Provavelmente já foi designada.
-
-"Recentemente, uma organização afiliada à Comissão de Proteção do Patrimônio Cultural nos procurou. Disseram que a Tenrikyo doou três milhões de ienes e que gostariam que a Igreja Messiânica doasse cinco milhões..."
-Se a Tenrikyo doou três milhões, para a Igreja Messiânica trezentos mil ienes são suficientes.
-
-"Eles devem considerar a Igreja Messiânica maior que a Tenrikyo, que já tem cem anos de história."
-Estão nos superestimando.
-
-"É por isso que gostaríamos de eleger uns três deputados de nossa Igreja..."
-Contudo, é melhor que não nos superestimem; prefiro que nos vejam como pequenos. Minha política é manter-nos o menor possível. Agindo assim, crescemos. Se tentamos parecer grandes, acabamos por diminuir. É um efeito reverso. Por isso, faço o possível para nos mantermos pequenos. Ademais, não há necessidade de fazermos o que outros já fazem. O governo que cuide disso. No entanto, um museu de arte como este, ninguém mais o faria, por isso o fizemos.
-
-"Isso trouxe um retorno muito positivo, mas também despertou muita inveja em alguns."
-Sim. É impossível agradar a todos. Nossos maiores detratores são os espíritos malignos. Para eles, a ideia de salvar pessoas e melhorar o mundo é ultrajante. "Precisamos dar um jeito nesse sujeito atrevido", pensam eles. Esse tem sido o nosso principal desafio até hoje.
-
-"Mas não existem apenas espíritos malignos; também há os justos."
-Sim, e há aqueles que apenas aparentam ser justos. Os espíritos malignos jamais se apresentam como o mal. Eles sempre se disfarçam de bem. É assim que enganam a todos. E quanto maior o espírito maligno, mais ele se reveste da aparência do bem. É o mesmo princípio da medicina. Ela se apresenta sob o lema "A medicina é uma arte benevolente"... Como escrevi em meus livros, o mal praticado com a convicção de se estar fazendo o bem é o mais temível de todos. Eles criam justificativas lógicas e plausíveis, parecendo extremamente benéficos, mas, no fim, o resultado é o mal. Essa é a maneira de agir dos espíritos malignos.
-
-"Nesse quesito, o Partido Comunista é mestre..."
-Sim. Mas o maior mestre de todos é a medicina. Ela está em primeiro lugar. De fato, a medicina é o triunfo mais bem-sucedido dos espíritos malignos. No livro "A Criação da Civilização", detalho isso exaustivamente. A proporção de noventa e nove vírgula nove por cento contra zero vírgula um por cento se explica assim. A medicina detém o controle sobre a vida humana; todos entregaram suas vidas nas mãos dela. O que estou tentando fazer é libertá-los desse domínio. Pretendo usar o zero vírgula um por cento para reverter os noventa e nove vírgula nove. Foram necessários mais de dois mil anos para que essa estrutura se consolidasse, e eu pretendo derrubá-la de uma só vez. Será um evento que abalará os céus e a terra. O livro "Terapêutica pela Fé na Tuberculose" é apenas um prelúdio. Em breve, virá a obra principal, "A Criação da Civilização".
-
-Primeiro, "A Criação da Civilização" se espalhará pelo mundo inteiro, e então ocorrerá a grande destruição global. Com o aumento do número de doentes e outras calamidades, será algo terrível. As pessoas chegarão a um ponto em que não terão outra alternativa a não ser se apegar à Igreja Messiânica para serem salvas. Portanto, é preciso ter uma mente muito ampla para conseguir assimilar este plano. Isto já está previsto no Ofudesaki da Oomoto: "Este é um plano como nunca houve desde o início do mundo, portanto, se o recipiente não for deveras grande, será impossível compreendê-lo".
-
-"Recentemente, tenho estudado a doutrina da Oomoto."
-Leia o Ofudesaki. Apenas o Ofudesaki.
-
-"Críticas à parte, quem quer que o tenha escrito, é uma obra muito bem organizada."
-Foi uma pessoa chamada Onisaburo Deguchi.
-
-"Mudando de assunto, em uma vila em Shimonoseki, um homem influente cedeu gratuitamente suas terras e disse para experimentarem o cultivo sem fertilizantes..."
-É interessante. Se eles tiverem a paciência de persistir por dois ou três anos, dará certo. No primeiro ano, a colheita costuma ser muito inferior devido às toxinas dos fertilizantes, e muitos desistem nessa fase.
-
-"A Agricultura Natural parece estar indo bem em várias regiões."
-Sim. À medida que as toxinas dos fertilizantes são eliminadas do solo, a produção melhora ano após ano.
-
-"Parece que não há mais aquela insegurança de antes."
-Exato. Por outro lado, nas lavouras que utilizam fertilizantes, as pragas, como os insetos, têm aumentado drasticamente. Parece que um novo tipo de inseto surgiu este ano. A broca-do-arroz, por exemplo, tem se tornado muito mais comum. Além disso, o sulfato de amônio está com o estoque encalhado, causando problemas. Ninguém está comprando.
-
-"Não estão exportando para as regiões do Pacífico Sul?"
-O excedente já se espalhou por várias partes da Ásia.
-
-"Há uns três meses, os jornais noticiavam uma grande exportação para Taiwan..."
-Ainda há alguma exportação, mas o Ministro Hirokawa é contra o uso de sulfato de amônio. Agora estão produzindo ureia.
-
-"Eles ainda não se convenceram de que o excremento humano também é prejudicial..."
-É uma superstição que perdura por centenas, milhares de anos. Revertê-la de uma só vez é uma tarefa monumental. O fato de o nosso método estar se expandindo, mesmo diante disso, é algo esplêndido.
-
-"Um homem de 32 anos, membro desde 1944. Em 15 de junho, entrou em estado de possessão. Depois, ao retornar do Culto Mensal da filial, com uma postura semelhante à de Nichiren, disse: 'Por favor, transmitam meus agradecimentos a Meishu-Sama por ter me salvado e me permitido ir para o Céu'. E acrescentou: 'Fui salvo, mas como não recebi a palavra de perdão de Meishu-Sama, não posso trabalhar no Mundo Espiritual. Por favor, peço encarecidamente que obtenham para mim a palavra de perdão'."
-Qual é o nome dessa pessoa?
-
-"Chama-se Kazutomi Motosugi."
-Já ouvi esse nome. Quando ele estiver possuído novamente, diga-lhe o seguinte: "Pedi a Meishu-Sama, e Ele disse que o perdoa. Estou apenas transmitindo a mensagem". Isso será suficiente.
-
-"Uma mulher de 35 anos. Em 1950, um nódulo apareceu em seu seio esquerdo, diagnosticado como carcinoma simples..."
-Então também existe o carcinoma complexo?
-
-"...ela foi submetida a uma cirurgia para remover os gânglios linfáticos da axila esquerda e sofreu queimaduras devido à radioterapia, o que lhe causou dificuldade para respirar. Posteriormente, a radiografia indicou um câncer na quinta vértebra, e um transplante de hipófise de bezerro foi realizado. Em abril, ela e o marido ingressaram na fé e têm recebido Johrei. A purificação tem sido intensa, com dores agudas no local do transplante. Por volta de junho, uma nova purificação começou, com febre alta e sangramento nasal de meio copo, o que aliviou a opressão no peito. Há casos de morte instantânea em acidentes de trem entre seus parentes. Isso teria alguma relação espiritual?"
-Não há relação espiritual. Ela é uma vítima da medicina.
-
-"O câncer está mesmo na coluna vertebral? Onde devemos concentrar o Johrei?"
-Isso eu não posso saber. Se eu fosse o médico... se eu tivesse realizado a cirurgia, saberia. Mas, pelo que entendi, removeram os gânglios linfáticos da axila. Isso é péssimo. É comum removerem esses gânglios em cirurgias de câncer de mama, e a maioria das pessoas que passa por isso não se recupera bem. Em alguns casos, o braço incha terrivelmente. Já tratei muitos casos assim, e é assustador. O ponto vital é onde há dor, paralisia ou enrijecimento, pois é ali que as toxinas medicamentosas estão concentradas. Se eliminarmos essas toxinas, a febre e a dor desaparecerão. Assim, a vida dela não estará em perigo. Se a dissolução das toxinas for lenta — por exemplo, se a quantidade de medicamentos for grande —, a febre e outros sintomas podem persistir, causando debilidade. Pelo estado atual, parece que o apetite e outras funções não foram afetados, então creio que sua vida está segura, mas não posso afirmar com certeza, pois não sei a quantidade e o tipo de medicamentos que foram utilizados. Se a purificação não se agravar mais do que está, ela será salva. No entanto, por causa dos danos permanentes causados ao corpo, é provável que ela sofra com cãibras e outros problemas pelo resto da vida. A única solução seria refazer o corpo. Mas, com o tempo, ela se acostumará e os sintomas tenderão a se atenuar. Há quanto tempo ela recebe Johrei?
-
-"Desde abril."
-Ela apresenta sinais de debilidade?
-
-"Está muito magra."
-Ela já era magra antes?
-
-"Emagreceu mais. A consciência está lúcida, e recentemente tem expressado vontade de comer."
-Isso é bom. Continuem com o tratamento por mais um tempo. A situação ficará mais clara gradualmente. Onde foi a segunda cirurgia?
-
-"Foi um transplante na parte externa da coxa direita."
-Se algo foi inserido, terá que ser removido.
-
-"Será removido por cirurgia..."
-Removam quando o corpo dela estiver mais recuperado. Contudo, a febre causada pelas toxinas medicamentosas não é a causa da debilidade. A questão é a intensidade da dor e da febre. Provavelmente usaram uma grande quantidade de desinfetantes. O que foi inserido pode ser removido posteriormente. Já tivemos um caso assim antes. Inseriram um osso, e depois que o removemos, a pessoa voltou a andar normalmente. Os médicos inseriram o osso para imobilizar a área.
-
-"Um rapaz de 20 anos. Sente o corpo cansado depois de conversar. Quando não fala, não sente nada."
-É porque a febre sobe. Falar faz com que a temperatura do corpo aumente.
-
-"Onde ministrar Johrei?"
-Ao redor do pescoço.
-
-"Não há nenhuma relação espiritual?"
-Acredito que não. A doença dele está relacionada a toxinas medicamentosas. Podem assumir que praticamente todas as doenças são causadas por toxinas medicamentosas; não estarão errados.
-
-"Um homem de 40 anos, com inflamação nos testículos e acúmulo de líquido, especialmente no lado direito. O médico diz que é uma inflamação tuberculosa e que a cirurgia é necessária, mas a família inteira é membro e ele se opõe ao procedimento."
-As toxinas medicamentosas estão se acumulando nos testículos. Com Johrei ministrado pacientemente, ele será curado. Se investigarem, descobrirão a origem dessas toxinas — uma injeção ou cirurgia anterior.
-
-"Ao lado do túmulo de nossos ancestrais, há uma cerejeira que cresceu muito, e suas raízes estão envolvendo o túmulo. Podemos cortá-la?"
-Sim, podem cortar.
-
-"O chefe da família sofre do estômago há muito tempo. Sei que é por causa das toxinas medicamentosas, mas haveria alguma relação com o túmulo?"
-Não há relação. É por causa das toxinas medicamentosas.
-
-"É melhor cortar a árvore e removê-la?"
-Sim. Mas não removam o túmulo. O túmulo é o principal.
-
-"É comum as pessoas sentirem como se um rato ou algo do tipo as estivesse pressionando durante o sono. Qual a razão disso?"
-É um espírito. Geralmente, é um espírito que se deita sobre a pessoa.
-
-"Isso tem um significado ruim?"
-Sim, tem um significado ruim.
-
-"É para perturbar?"
-Por exemplo, um homem que ama intensamente uma mulher jovem. Pode ser um espírito vivo ou um espírito que, após a morte, se deita sutilmente sobre ela.
-
-"Nesse caso, a sensação não deveria ser tão desagradável..."
-Se for o homem que ela ama, tudo bem. Mas e se for um homem que ela detesta? Na maioria das vezes, é o segundo caso.
-
-"Uma senhora sente uma espécie de anemia sempre que passa por Hamamatsu, na província de Shizuoka, seja na ida ou na volta."
-Há um espírito de um morto naquele local, um espírito que tem alguma ligação com ela. Quando ela passa por ali, ele se apossa dela. Nesses casos, é bom entoar a Oração Amatsu Norito.
-
-"Quando uma família se ramifica, o que se deve fazer em relação ao túmulo dos ancestrais?"
-Não há outra opção a não ser construir um túmulo para os ancestrais. Vocês não têm um?
-
-"O Sr. Takagaki faleceu e não há um túmulo ancestral..."
-Isso é estranho. Ele deveria ser consagrado no túmulo ancestral da família daquele local.
-
-"Mas é uma família ramificada..."
-Mesmo sendo uma família ramificada, não há problema.
-
-"O que é mais correto escrever: 'Túmulo dos Ancestrais de Gerações da Família' ou 'Espírito dos Ancestrais de Gerações da Família'?"
-"Espírito" é o correto. "Túmulo" é apenas uma descrição do local. "Espírito" é o correto, pois, sem a palavra "espírito", os antepassados não podem vir.
-
-"Uma criança nasceu com lábio leporino e fenda palatina. O lábio foi suturado três dias após o nascimento. A fenda palatina pode ser curada com Johrei?"
-Curar completamente é difícil, mas é possível alcançar uma melhora considerável.
-
-"Ele está com sete anos agora e tem dificuldade para pronunciar as palavras. Gostaríamos que melhorasse antes de começar a escola, pois será um problema."
-Até lá, não creio que seja possível. Especialmente porque já foi submetido a uma cirurgia.
-
-"Apenas suturaram por fora; por dentro, não fizeram nada."
-Como está por dentro?
-
-"Formou-se um triângulo, e não há nada no meio."
-Curar completamente será difícil. No entanto, ele melhorará a ponto de não ter problemas para conversar e se comunicar. A parte espiritual será curada; a questão é se o corpo físico conseguirá acompanhar a recuperação espiritual. Haverá uma melhora considerável, mas é preciso ter isso em mente.
-
-"No funeral, cortamos um bambu verde, colocamos uma cesta em cima e um adorno em forma de dragão, e o levamos até o túmulo, onde o fincamos. Usamos um tipo de bambu fêmea. Agora, brotaram raízes e nasceu um broto de bambu. Seria algum tipo de sinal?"
-Não é nada. Se você fincar um bambu no chão, ele criará raízes, e se criar raízes, nascerão brotos.
-
-"Mas raízes brotarem de um bambu cortado..."
-Isso acontece com frequência. Às vezes, as cercas de bambu criam raízes.
-
-"Em relação à debilidade de pacientes com tuberculose, o Johrei deve ser ministrado uma vez por semana..."
-Isso se aplica aos casos de repurificação.
-
-"Ele começou a sentir dores em vários lugares..."
-Para aliviar apenas a dor, pode-se ministrar Johrei. Mas onde um paciente com tuberculose sente dor?
-
-"No peito..."
-Dor no peito é neuralgia intercostal; não tem relação com a tuberculose.
-
-"Então podemos considerar como neuralgia intercostal?"
-É neuralgia intercostal. A neuralgia afeta a parte superficial das costelas; a tuberculose é interna, nos pulmões.
-
-"Ele se queixa de sofrimento..."
-Peçam-lhe que suporte as dores leves. Ministrem Johrei apenas quando ele disser que o sofrimento é insuportável.
-
-"Desde que recebemos suas palavras, temos seguido à risca. Houve um pouco de febre e dor, mas após ler os Escritos Divinos por cerca de três horas, recentemente o apetite voltou, e ele tem comido duas tigelas de arroz por refeição."
-Isso é excelente. Ler os Escritos Divinos é muito benéfico.
-
-"Uma mulher de 38 anos, com diarreia e dor na região do ânus..."
-Provavelmente é hemorroida.
-
-"O médico diagnosticou como catarro do intestino grosso..."
-A diarreia sim, mas se o ânus dói, deve ser hemorroida.
-
-"...é ao redor. Com o Johrei, a purificação desceu, mas parou de sair pelo ânus, e agora medicamentos e outras substâncias saem constantemente pela vagina. Ela não consegue mais esticar as pernas, sentar ou deitar de lado. Graças à proteção Divina, as fezes voltaram a sair um pouco pelo ânus, mas parou novamente. Há uns dez dias, sente dor no quadril e ao redor do ânus, e a vagina está inchada. O inchaço bloqueou o ânus."
-Estão ministrando Johrei na cabeça? A cabeça é a origem da eliminação de várias toxinas. Ministrem Johrei na cabeça e na parte inferior. Para ministrar Johrei na virilha, peçam que ela abra um pouco as pernas e direcionem a energia para cima, para que o espírito flua nessa direção. O efeito será muito maior. O que aconteceu foi que uma espécie de furúnculo se formou entre o ânus e a vagina, criando um orifício. Assim, o que deveria sair pelo ânus está desviando. É preciso fechar esse orifício. Portanto, concentrem o Johrei no ponto entre o ânus e a vagina para que o espírito passe por ali. A cura será mais rápida. E também na cabeça. Geralmente, na região occipital. Ministrando Johrei nesses pontos, ela se curará. Não é nada grave.
-
-"Quando um membro for à praia, pode deixar o Ohikari em casa?"
-Na própria casa? Não acho uma boa ideia. Deve haver um vestiário, certo? E provavelmente um prego na parede. Pode pendurá-lo ali. Nesses casos, um prego é a melhor opção. Ou pode ir a uma barraca de praia, procurar um lugar com um prego e dizer: "Este é meu amuleto sagrado, não posso deixá-lo de qualquer maneira", e pendurá-lo.
-
-No livro "A Criação da Civilização", no início, descrevo como o uso de medicamentos começou. Nos tempos primitivos, à medida que a população humana crescia, os alimentos se tornavam escassos. As pessoas começaram a comer qualquer coisa que encontravam nos campos e montanhas. Comeram também insetos e mariscos, e com isso, sofreram intoxicações que causavam dor e sofrimento. Para curar esses males, começaram a experimentar folhas de diversas plantas, e assim, interromperam a purificação. Esse foi o início dos medicamentos. A pessoa que descobriu e, de certa forma, aperfeiçoou o uso de substâncias medicinais foi Pangu (盤古). Ele é o fundador da medicina chinesa e promoveu um avanço notável na farmacologia.
-
-"Dizem que a palavra japonesa para remédio, 'kusuri', vem do fato de que, nos tempos primitivos, as pessoas curavam seus males esfregando ('suru') o corpo..."
-Isso também pode ter acontecido.
-
-"Ouvi dizer que os judeus, até hoje, não tomam remédios."
-É provável.
-
-"Por outro lado, existe a teoria da conspiração judaica, que diz que eles querem destruir a humanidade fazendo com que todos tomem remédios. Qual a relação entre essas duas coisas?"
-Existem muitas tribos diferentes entre os judeus, e algumas delas têm uma fé muito forte; estes parecem ser os judeus ortodoxos. Quem fez a humanidade tomar remédios foram os espíritos malignos — os deuses. Eu escrevo sobre isso. A razão pela qual eles fizeram isso é que, sem enfraquecer os seres humanos, a civilização material não poderia ter se desenvolvido. Para enfraquecê-los, Deus fez com que as pessoas acreditassem que venenos eram remédios e os tomassem. Kannon (観音), por exemplo, assumiu a forma de Yakushi Nyorai e enganou as pessoas para que tomassem remédios. Buda também pregou sobre o "Sutra da Erva Medicinal" e incentivou seu uso.
-
-"Os esquimós não tomam remédios e não ficam doentes, segundo dizem."
-Isso é natural.
-
-"Então não foi algo que os judeus fizeram conscientemente..."
-Exato.
-
-"O rei-deus Pangu (盤古) veio antes de Fuxi (伏羲)? O nome Fuxi Shennong está associado ao deus da medicina..."
-Nos consultórios de medicina chinesa, aquela figura de barba é Shennong. Significa "o deus agricultor". Pangu era um deus-rei.
-
-"De acordo com os Documentos de Takeuchi, o rei-deus Pangu é o mais antigo da China. Podemos aceitar isso como verdade?"
-Sim.
-
-"Em uma vila de cerca de duas mil pessoas, foi realizado um exame de fezes, e quase todos tinham vermes. No entanto, os seis membros da nossa Igreja não tinham nenhum."
-Que interessante. Por favor, escreva isso e me envie. Sobre esse assunto, publiquei no próximo jornal: o surgimento de vermes indica a presença de um depósito de lixo ou uma fossa. O interior do abdômen humano se tornou semelhante a um depósito de lixo ou uma fossa, e por isso os vermes proliferam. E o que são esses depósitos de lixo e fossas? São resíduos de medicamentos antigos. Portanto, se pararmos de tomar remédios e fizermos a limpeza através do Johrei, os vermes não surgirão. Isso será publicado em breve.
-
-"Até os médicos ficaram surpresos."
-É porque estamos limpando o "depósito de lixo" com o Johrei.
-
-"Um bebê de sete meses nasceu com o dedo médio e o anelar grudados. Há algum motivo para isso?"
-Isso acontece com frequência. É uma relação com a vida anterior.
-
-"Pode ser curado com Johrei?"
-Isso não posso afirmar.
-
-"O médico sugeriu uma cirurgia."
-Como eles estão grudados?
-
-"A partir da articulação."
-Então os dedos têm a forma correta? Provavelmente, em uma vida passada, essa pessoa foi um pássaro e reencarnou como ser humano. Existem casos com muito mais dedos grudados. É difícil dizer se a cirurgia ou o Johrei é a melhor opção. No entanto, em teoria, o Johrei deve curar. Os dedos devem se separar gradualmente e sarar.
-
-"O local que antes era uma lavanderia agora é a cozinha, e este ano há muitas baratas. Será que o mundo espiritual do local não foi salvo?"
-Não creio que seja isso. Antes era uma lavanderia, certo? Mas as baratas apareceram este ano. Então não há relação com a lavanderia. Não é nada de mais. Deve haver outra causa. As baratas estão vindo da cozinha? Se investigarem bem e limparem a cozinha, elas desaparecerão. Deve haver algum lugar sujo onde elas estão procriando. Uma boa limpeza resolverá o problema.
-
-"O aparecimento de cupins é um sinal do declínio da família?"
-É um sinal de que o mundo espiritual da casa está nublado. É semelhante à flor de Udumbara.
-
-"Se a família se dedicar à fé, eles desaparecerão?"
-Se consagrarem a Imagem de Komyo Nyorai, a situação melhorará.
-
-"Há pessoas que são frequentemente atormentadas por espíritos de raposa. A causa fundamental seria o excesso de toxinas medicamentosas que turva o espírito?"
-Exato.
-
-"Há um membro cujas mãos param quando encontram um ponto doente durante o Johrei. Recentemente, um espírito de raposa se manifestou, e pedimos proteção divina. Seria uma travessura do espírito de raposa?"
-Não é bem uma travessura. Há pessoas que conseguem identificar doenças com precisão. Existem muitos tipos de espíritos de raposa. Geralmente, não é apenas um espírito que possui a pessoa; há trocas constantes. Nesses casos, um espírito de raposa benéfico pode ser expulso por outro, mais forte, que toma seu lugar. Isso acontece.
-
-"No fim, a única solução é melhorar a pessoa através do Johrei..."
-Quando a nebulosidade espiritual da pessoa for removida, os espíritos de raposa malignos não conseguirão mais se fixar.
-
-"Um cachorro pulou na Imagem Divina..."
-Era um cachorro que fica dentro de casa?
-
-"O vizinho, que tem uma relojoaria, cria um cachorro e um gato. O cachorro veio junto com a esposa do vizinho e pulou na Imagem. O dano é quase imperceptível, mas atingiu o caractere 'rai' (来)."
-Então a pessoa da relojoaria vizinha trouxe o cachorro? É um cachorro que vive dentro de casa?
-
-"Sim, vive dentro de casa."
-O dano é quase imperceptível?
-
-"Sim."
-Se é quase imperceptível, então tudo bem. Peçam desculpas sinceras e purifiquem o local. E da próxima vez, avisem para não trazerem o cachorro. Se, mesmo assim, o trouxerem, peçam que o cachorro fique do lado de fora. É um absurdo um cachorro subir em uma sala de estar. É contra a lei natural. O lugar do cachorro é no chão de terra, deve ficar lá. Além disso, permitir que um animal de quatro patas entre em um local onde Deus está consagrado é uma ofensa gravíssima. Esse membro está com a fé relaxada. Ele esqueceu ou negligenciou o sentimento de reverência a Deus. Por isso, há uma brecha.
-
-"Como é a relojoaria do lado e temos uma relação comercial, ele vem com frequência, e estou preocupado. Disse que viria perguntar a Meishu-Sama e removi temporariamente a Imagem antes de vir."
-Que absurdo! Essa maneira de pensar está completamente equivocada. É preciso ter a convicção de que a Imagem Divina não pode ser afastada ou guardada nem por um dia, nem por um instante. A questão de ser uma ofensa ou não nem entra em discussão. Se você pensa assim, deveria construir um cercado de bambu ou algo parecido em sua casa e colocar o cachorro lá quando ele vier. Ou então, se a pessoa trouxer o cachorro, recuse a entrada. É seu dever dizer: "Nós consagramos Deus em nossa casa e não podemos permitir nenhuma ofensa". Se a pessoa não aceitar, que cortem relações. Sem esse nível de fé, não se está verdadeiramente na fé. Você também deve instruir essa pessoa rigorosamente. São questões fundamentais, é preciso ser firme.
-
-"Meu pai foi inicialmente adotado pela família Wakamatsu. Teve um filho, mas sua esposa faleceu. Ele então retornou com o filho para sua família de origem, a Suzuki, onde se casou com minha mãe, e eles tiveram dois filhos, eu e meu irmão. A filha do primeiro casamento, minha meia-irmã, era a herdeira da família Wakamatsu..."
-Ela era filha da primeira esposa?
-
-"Sim. Minha meia-irmã foi, de certa forma, deserdada, casou-se e faleceu. Assim, a família Wakamatsu foi, de fato, extinta. Deveríamos restaurá-la?"
-Restaurá-la? Vocês mesmos fariam isso? Se for possível, seria ótimo. Mas não há necessidade de se forçar a fazê-lo. Se houver uma maneira natural de acontecer, façam, pois eles ficarão felizes. Consagrá-los em seus próprios cultos também é uma boa ação. Mas não é algo que precise ser feito a todo custo, a ponto de lhes causar dificuldades.
-
-"Atualmente, o cemitério fica em um local de difícil acesso, e gostaríamos de transferi-lo."
-O cemitério da família Suzuki?
-
-"Temos os da família Wakamatsu e da Suzuki. Gostaríamos de movê-los para um local próximo..."
-Na cidade vizinha? Não é longe?
-
-"Não é longe. Os corpos foram enterrados. Devemos transportar os ossos um por um ou apenas os trâmites legais são suficientes?"
-Apenas os trâmites legais devem ser suficientes. Há quantos anos eles faleceram?
-
-"Não sei quando a linhagem Wakamatsu se extinguiu, mas minha mãe faleceu há trinta e cinco anos."
-Trinta e cinco anos... é melhor transportar os ossos. Para falecidos há menos de cem anos, é aconselhável mover os restos mortais. Para mais de cem anos, não é necessário.
-
-"Há mais de dez túmulos. Podemos simplesmente enterrar as lápides no novo local?"
-Se vão transferir, podem manter as lápides como estão.
-
-"Gostaríamos de organizar os túmulos como 'Ancestrais de Gerações da Família Suzuki' e 'Ancestrais de Gerações da Família Wakamatsu'..."
-Isso é bom.
-
-"Nesse caso, é melhor enterrar as lápides na vertical ou na horizontal?"
-Tanto faz. Talvez na horizontal seja melhor, pois na vertical teriam que cavar muito fundo.
-
-"Durante o Johrei, a pessoa arrota muito. Isso não significa que o estômago ou o intestino estejam ruins?"
-É porque o espírito naquela área está nublado, e essa nebulosidade se transforma em gás e é expelida. Isso facilita a dissolução. Muitas pessoas arrotam e depois expectoram catarro. Primeiro, sai a parte espiritual, e depois, a material. Quase todo mundo passa por isso. Até eu passo, especialmente quando estou com o corpo muito enrijecido.
-
-"Na casa de um membro, nasceu uma criança com deformidades. A metade direita do maxilar superior e a narina não existem, e há algo como um buraco na superfície do maxilar. Como não conseguia mamar, pensamos que morreria em uma semana, mas ela está crescendo gradualmente. O médico diz que uma cirurgia pode corrigir, mas eles não têm essa intenção. O filho anterior teve um parto difícil, e o médico usou um instrumento para puxá-lo pelo nariz, e ele morreu. O Johrei pode melhorar a condição até certo ponto?"
-Como ainda é recém-nascido, haverá uma melhora considerável. Não sei se a cura será completa, mas provavelmente melhorará a ponto de não ser um empecilho. Essa criança é a reencarnação do filho anterior. É comum bebês reencarnarem logo após a morte. Isso acontece por causa do apego dos pais que, lamentando a morte, desejam ter outro filho rapidamente. Por causa desse apego, o espírito não consegue descansar no Mundo Espiritual e reencarna prematuramente. É por isso que ele nasceu com os ferimentos ainda não curados.
-
-"No caso da primeira visita ao templo aos 33 dias do nascimento, o que devemos fazer em relação à Imagem de Komyo Nyorai?"
-Como assim? Vocês vão ao templo xintoísta local, certo? Então, primeiro, agradeçam à Komyo Nyorai em casa e digam: "Agora iremos ao templo local para agradecer". É um simples aviso. O deus da terra natal (ubusuna-san) é o responsável por esses assuntos. É como registrar o nascimento na prefeitura; é preciso ir e agradecer.
-
----
-
-# Publicações Correlatas
-
-**Categoria:** kanren | **Ano:** 昭和29年8月10日 | **Fonte:** -
-
-## Publicações Correlatas
-
-**A Luz sobre a Terra**
-
-*A Luz sobre a Terra*
-
-**Impresso em:** 10 de agosto de 1954
-**Publicado em:** 15 de agosto de 1954
-**Formato:** B6
-**Preço de capa:** 150 ienes
-**Autor:** Aso Etsu
-**Editor responsável:** Moriyama Jitsutarō
-**Gráfica:** Atami Shōji Kabushiki-gaisha, 112 Tawara-chō, cidade de Atami
-**Casa Publicadora:** Atami Shōji Kabushiki-gaisha
-
-Trata-se do primeiro romance a tomar por temática a Sekai Kyusei Kyo. A obra foi originalmente veiculada em série no jornal *Shizuoka Minpō*, a partir de 1º de março de 1954.
-
----
-
-# Coletânea de Teses do Mestre Okada Jikan — Registro de Ensinamentos, Volume 9
-
-**Categoria:** gosuiji | **Ano:** 昭和27(1952)年5月15日 | **Fonte:** Gosuiiji録
-
-## Coletânea de Teses do Mestre Okada Jikan — Registro de Ensinamentos, Volume 9
-Publicado em 15 de maio de 1952 (Ano 27 da Era Showa)
-Registro de Ensinamentos, Volume 9 (Ano 27 da Era Showa)
-
-[Primeiro de maio]
-
-"Creio que hoje, primeiro de maio, completam-se dezoito anos desde que o senhor se manifestou em Hirakawacho..."
-
-São nove anos, não são? Será que já se passaram dezoito? Se assim for, é chegado o momento do acerto de contas com o inimigo.
-
-Em minha recente visita a Nara, algo se elucidou para mim: o Príncipe Shotoku é Kannon (観音様). E, por conseguinte, o Príncipe era eu. Essa compreensão me adveio no exato momento em que as portas do Yumedono se abriram. Oportunamente, dizem que elas só se abrem uma vez por ano, e foi nesse instante que o espírito de Kannon (観音様) adentrou em mim. Com isso, entendi que tudo não passou de uma espera pelo momento certo.
-
-Nara, com efeito, é o berço do budismo no Japão; foi dali que essa corrente religiosa se irradiou. Ao pesquisar sobre os templos da região, percebi que, naquela época, ainda não havia uma distinção clara entre as diversas seitas. Os estudiosos da filosofia budista denominam esse período como o da religião primeva. Posteriormente, surgiu o budismo de montanha, com figuras como Kobo Daishi no Monte Koya e Dengyo Daishi no Monte Hiei. Somente depois é que se desenvolveram as diferentes escolas sectárias. Por essa razão, na religião do Período Nara, a figura central é, em sua maioria, Kannon (観音様). Existem também Amida, Shaka, entre outros, mas até mesmo Yakushi Nyorai é uma manifestação de Kannon (観音様), o que torna evidente o seu protagonismo.
-
-O Príncipe Shotoku, em sua essência, é uma forma compacta de Senju Kannon, e a minha atuação presente corresponde precisamente à de Senju Kannon. É por isso que realizo uma infinidade de obras. Durante todo esse tempo, Messias Kannon permaneceu no Yumedono. E, à medida que investigava, descobri que o Yumedono era o local onde o Príncipe Shotoku passava a maior parte do tempo escrevendo e vivendo, sendo quase sua residência. O nome "Yumedono" – Palácio dos Sonhos – é deveras interessante. Intuo que os sonhos do Príncipe Shotoku daquela era estão, finalmente, prestes a se concretizar. Normalmente, não se atribui um nome como "sonho" a um lugar; escolher-se-ia algo com um significado mais sóbrio e profundo. Além disso, a imagem é identificada como Kyusei Kannon (救世観音), que se lê "Guze Kannon" segundo a literatura. Fui eu quem passou a lê-la como "Messias" (メシヤ), o que torna essa visita a Nara particularmente significativa e fascinante.
-
-O fato de minha chegada ter coincidido com o dia da abertura das portas revela um desígnio Divino já estabelecido. O plano original era visitar o local no dia seguinte, mas como terminamos as atividades mais cedo, decidimos ver o máximo possível do Templo Horyuji. Embora a ideia fosse deixar o restante para o dia seguinte, se assim o tivéssemos feito, não teríamos contemplado a imagem de Kyusei Kannon. Tudo se desenrolou como deveria.
-
-Do ponto de vista do Kototama, a palavra Nara é expressiva. "Na" representa a terra, e "ra" significa expansão. É análogo a "gora". Portanto, "Nara" simboliza a expansão da terra. Buda é o Miroku da terra, e a terra corresponde ao número sete. Ele é o Miroku do sete. Nesse sentido, a construção do Paraíso Terrestre em Quioto, que se seguirá a Hakone, o cinco, e Atami, o seis, culminará no sete, completando o significado de Miroku.
-
-"Nesta sua viagem, o número sete tem sido uma constante. Até mesmo o trem especial que Vossa Senhoria utilizou, somando-se os algarismos, resultava em sete."
-
-Ah, é mesmo? O sete simboliza a completude. Portanto, a pequena etapa do Plano Divino de Miroku se concluirá com a finalização das obras de Quioto.
-
-"O sete tem o significado de conclusão?"
-
-Sim, significa a conclusão.
-
-"Tanto na Bíblia quanto na cultura egípcia, o sete é um número fundamental."
-
-Na Bíblia, igualmente, o número sete serve como alicerce. Após sete dias, chega o domingo, o dia do descanso, o que representa a consumação. O som "na" no Kototama significa "terra". Assim como na criação do céu e da terra, primeiro vieram o sol e a lua, e depois a terra se formou.
-
-Bem, sobre o tratado de paz, já falei a respeito em Quioto e em Nagoia. A sua assinatura representa o dia em que o fio vertical e o fio horizontal se uniram. Os Estados Unidos são o fio horizontal, e o Japão, o vertical. Sua união é um evento auspicioso que dará início à atuação de Izunome em escala mundial. O círculo vermelho no centro do nosso emblema simboliza o Japão, e o amarelo ao redor, a América. Sendo a América a nação do dólar, a cor do ouro foi a escolhida. Três quartos de todo o ouro do mundo estão em posse dos Estados Unidos. Recentemente, essa percepção tem se difundido globalmente. Intelectuais americanos têm afirmado que a aliança entre os Estados Unidos e o Japão será a base para o futuro do mundo. Gradualmente, essa verdade está sendo compreendida. E o centro dessa união é a Igreja Messiânica. Com o tempo, tudo se encaminhará nessa direção. De agora em diante, as coisas se tornarão verdadeiramente interessantes. Após o dia quinze de junho deste ano, ocorrerá uma grande mudança. Isso é algo que nem preciso ponderar. O Museu de Arte será inaugurado em quinze de junho, e, por essa mesma época, a mina também começará a produzir resultados concretos. No dia quinze, faremos uma cerimônia de abertura apenas para os membros. A celebração da conclusão do Shinsenkyo e a inauguração do museu devem durar cerca de três dias, com cerimônias divididas para cada dia. Desta vez, como esperamos um grande número de pessoas – talvez duas ou três mil –, creio que três dias serão suficientes. A abertura para o público geral provavelmente ocorrerá em julho. A partir de então, nossa obra começará a ser conhecida no exterior. Tudo isso também constitui um modelo.
-
-Antigamente, quando eu tinha uma loja de armarinhos – e isso está relatado em meus escritos –, inventei um artigo de adorno feminino chamado "Asahi Daiya", que cintilava como um diamante. Ainda hoje se encontram produtos feitos com esse material. Obtive a patente exclusiva em dez países. Naquela época, eu gostava de inventar e registrei várias patentes. O logotipo era uma lua com uma estrela emergindo de um dos lados e raios de luz se projetando. Lembro-me de ter pensado que era um design um tanto grandioso e extravagante, e tive o pressentimento de que realizaria algo de escala mundial ou que meu nome se tornaria conhecido internacionalmente. A patente em dez países... o número dez também simboliza a união. Aquele foi, de certa forma, o ponto de partida do meu trabalho.
-
-"Dez países para o Asahi Daiya..."
-
-Isso mesmo.
-
-"Qual era a matéria-prima?"
-
-Espelho. Eu o cortava em finas lascas. Ao quebrar, ele adquiria um certo volume, o que o fazia brilhar intensamente. Antigamente, no Período Kamakura, já existiam adornos feitos de conchas fragmentadas e outros materiais. Pensei que, se substituísse a concha por espelho, o brilho seria ainda maior, e o resultado foi excelente. Foi uma aposta certeira. Na época, devo ter lucrado cerca de cem mil ienes. Eu tinha trinta e poucos anos, há uns trinta ou quarenta anos. Portanto, mesmo no ramo de armarinhos, eu era considerado o mais bem-sucedido. Falava-se do "método Okada". Naquele tempo, também ocorreram muitas coisas. Em tudo o que eu fazia, simplesmente superava os outros. Quando ingressei na Oomoto, em diversas situações, eu rapidamente me destacava, o que começou a ser visto como uma ameaça pela liderança. Em decorrência disso, sofri grande opressão.
-
-Em relação a obras de arte, eu já compreendia a maioria das coisas melhor do que os próprios comerciantes, mas meu conhecimento sobre o budismo ainda não era completo. Com esta visita a Nara, tudo finalmente se tornou claro.
-
-"O Templo Horyuji possui um acervo considerável de arte budista, não é mesmo?"
-
-Aquele é o centro, a origem de tudo. O Príncipe Shotoku é a fonte primordial da implantação do budismo no Japão.
-
-"O nome Yumedono, Palácio dos Sonhos, já era usado naquela época? Imagino que tenha relação com a obtenção de inspiração espiritual."
-
-Provavelmente, o nome surgiu naturalmente.
-
-"Dizem que ele se recolhia ali para um diálogo interior."
-
-Exato, ele entrava em um estado de possessão divina. O meu caso, no entanto, é ainda mais direto. A possessão divina implica certa intermediação. Eu não preciso de processos como "consultar a Deus" ou "Deus me informa"; a Vontade de Deus torna-se diretamente a minha vontade. É a união entre Deus e o homem.
-
-"Médiuns ocidentais de alto nível relatam que não ocorrem fenômenos especiais, mas sim uma súbita percepção..."
-
-Isso também ocorre, mas as pessoas que experimentavam esse tipo de percepção até hoje eram de um calibre menor. Por isso, careciam de força.
-
-"Porque não se tratava de deuses de elevada estirpe."
-
-Exatamente. Eram divindades secundárias, ramificações.
-
-"Sendo assim, podemos interpretar que a fé centrada em Meishu-Sama deve reverenciar Kyusei Kannon como seu foco principal?"
-
-Não, pois o nome Kannon ainda se refere a uma personificação, uma manifestação, e, como tal, não expressa o verdadeiro poder. É Deus quem conduz o Plano Divino. O Kyusei Kannon em questão é o Príncipe Shotoku manifestado como Kannon. Agora, com a chegada do tempo, ele inicia sua atuação. E, para começar, como foi ele quem estabeleceu o budismo, sua missão agora é fazer com que a esfera búdica retorne à sua origem divina e trabalhe a serviço da Igreja Messiânica. "Messias" é um nome humano. O Deus a quem servimos é o Deus Supremo, Jeová.
-
-"Ao observar o Goshintai de Fukamachi, notei que emana luz, embora não com a mesma intensidade do Goshintai de Meishu-Sama."
-
-Ora, até mesmo os espíritos malignos podem emitir uma luz considerável.
-
-"Seria melhor retirá-lo?"
-
-É claro que algo assim não deve ser mantido. Pode atrair desgraças. O mal também possui força, não se pode negar. Contudo, é uma força efêmera, que não perdura. Além disso, trata-se de uma luz maligna, não da luz verdadeira.
-
-"A luz de Meishu-Sama é como o sol, enquanto a de Fukamachi não se compara nem à lua ou a uma estrela."
-
-Compreendo. É preciso descartá-lo o mais breve possível. Retire-o, guarde-o por um tempo... talvez por um ano, e depois queime-o.
-
-"Uma pessoa havia trocado o Omamori pelo de Fukamachi, mas, mesmo assim, um caso de tuberculose terminal melhorou com uma semana de Johrei."
-
-A diferença é a de um diamante para uma bola de vidro. É uma imitação. À primeira vista, o brilho pode se assemelhar ao de um diamante. As imitações, afinal, são feitas de espelhos processados com mercúrio, e também refletem luz. A distinção reside nisso.
-
-"No retrato do Príncipe Shotoku, há uma figura central maior e duas menores, chamadas de 'doji'. Haveria algum simbolismo nisso?"
-
-Devem ser crianças. São "doji", assistentes infantis.
-
-"Eu imaginava que fosse um Tesouro Nacional, mas não é. Ainda assim, deve ser uma obra-prima antiga e de grande valor, não?"
-
-Sim, é uma obra de excelente fatura.
-
-"Vi uma pintura em rolo com a mesma composição."
-
-Existem várias cópias. Já vi muitas. No entanto, a do Templo Horyuji é a original. Quando uma pintura é de alta qualidade, são feitas muitas reproduções, não com má-fé, mas pelo desejo de copiar e venerar a imagem.
-
-"Os espíritos das estátuas budistas em exibição nos museus se retiram?"
-
-Normalmente, sim. Contudo, dependendo do espírito, alguns podem permanecer ligados à estátua.
-
-"Um de nossos membros relatou que, ao se postar diante de uma única estátua específica, começa a arrotar, o que não acontece com as outras."
-
-Isso indica que aquela estátua ainda possui um espírito. As outras estão vazias. Em geral, estátuas de Buda bem executadas tendem a atrair espíritos. As de má qualidade não conseguem retê-los, ou, se o fazem, o espírito acaba por se retirar. É por isso que uma estátua de Daikoku-sama de boa fatura concede mais bênçãos. As esculturas de Hidari Jingoro, por exemplo, são famosas por seus prodígios justamente por essa razão.
-
-O acervo do nosso museu em nada perde para o do Museu de Nara. A única exceção seriam as três grandes estátuas de Buda, que são, de fato, superiores. E também uma tigela que pertenceu a Shaka; essa é incomparável, uma peça extraordinária. Havia ainda um pequeno biombo dourado, do qual possuo apenas um exemplar. Em todo o resto, nosso acervo leva vantagem. Eles possuem três ou quatro peças do mesmo nível que as nossas, mas em menor quantidade. Quanto aos sutras, os meus são superiores. Eles possuem apenas sutras do Período Tenpyo, enquanto eu tenho de diversas eras, inclusive um caligrafado pela Imperatriz Komyo.
-
-"E quanto ao sutra que narra a vida de Shaka?"
-
-Possuo um excelente Sutra das Causas e Efeitos do Período Tenpyo. Havia um exemplar em Nara, mas de qualidade muito inferior. Eu jamais o adquiriria. O Sutra das Causas e Efeitos da era Tenpyo é magnífico. Originalmente, continha cerca de duzentas e trinta linhas, mas era impossível comprar tudo. Adquiri o que foi posto à venda nesta primavera e agora um especialista está unindo os fragmentos. O resultado será um rolo com oitenta e poucas linhas. Será, sem dúvida, o mais importante do Japão. O príncipe Kuni no Miya possui um com cinquenta e quatro linhas, e o ex-ministro Kanemitsu Tsuneo tem outro com cerca de cinquenta. Um exemplar com mais de oitenta linhas é algo que surpreende a todos. Atualmente, até mesmo fragmentos de três linhas são disputadíssimos para serem montados como kakemonos. O escritor Yoshikawa Eiji desejava ardentemente um desses, e eu pretendia presenteá-lo. Contudo, o antiquário Sasaki insistiu tanto para que eu vendesse que acabei cedendo por duzentos e vinte mil ienes. Quando Yoshikawa Eiji soube, ficou furioso, deixando o antiquário em apuros. Ele me contou que só conseguiu se desculpar ao encontrar outra peça de grande valor. Essa caligrafia é hoje extremamente apreciada.
-
-Quinze linhas foram para os Estados Unidos, onde também são tidas em altíssima estima, e há um enorme interesse em adquiri-las no Japão. Em termos de valor, são as mais caras. Os americanos têm um fascínio particular por pergaminhos narrativos. Um exemplo é a "História de Heiji", um rolo que se encontra no Museu de Boston. Lá, é tratado com extremo cuidado. Quando alguém, não apenas japoneses, deseja vê-lo, eles retiram um tecido que cobre o vidro protetor. Assim que a pessoa termina a apreciação, o tecido é recolocado. Fazem isso por receio de que a exposição à luz possa desbotar as cores, o que demonstra o quão preciosas são consideradas por eles. Atualmente, esses pergaminhos narrativos são muito valiosos.
-
-"O exemplar que estava na Universidade de Artes era um pouco inferior, mas os outros pareciam de boa qualidade."
-
-Um era do Período Kamakura, o outro não tenho certeza, talvez do Período Fujiwara ou do início do Ashikaga, mas também era de qualidade inferior. Recentemente, vi um no museu que mal merecia ser olhado. As obras do Período Tenpyo são completamente diferentes. As cores são muito melhores. O verde-azulado, por exemplo, parece vibrar, como se tivesse sido pintado hoje. Curiosamente, obras posteriores parecem mais antigas. É um mistério. Quando o museu for inaugurado, vocês poderão ver e entenderão.
-
-"Naquela época, o nome do autor não era registrado, não é?"
-
-Em pergaminhos, é costume não registrar o nome do autor. De modo geral, em obras de temática budista, o nome do criador raramente aparece. Os artistas conhecidos daquele tempo são Kose no Kanaoka, Cho Densu, e Eshin Sozu, entre outros.
-
-"Pensei que talvez o nome fosse omitido por estarem ligados a cargos oficiais na corte."
-
-Não é por isso. Era a convenção não assinar. Creio que se tratava de uma forma de reverência a Buda. Todas as melhores obras são anônimas. Nem mesmo as esculturas de Kobo Daishi levam sua assinatura. Assinar uma obra seria se colocar na posição de um pintor ou artista, no sentido profissional do termo. Em minha recente visita, vi diversas obras atribuídas a Kobo Daishi.
-
-"Mas são apenas atribuições, não é?"
-
-Não se pode ter certeza. É duvidoso. As peças que vi eram habilidosas demais. Foram feitas por um escultor de grande talento. O Bodhisattva Gyoki também era escultor. A Kannon da Criação de Filhos, em Nikko, é de sua autoria. Contudo, na China antiga, a maioria dos pintores, especialmente os da Dinastia Song, eram monges. No museu em Nara – e, na verdade, em quase todos os templos de lá – não há muitas pinturas budistas. Havia, se não me engano, uma mandala. Sim, havia uma fotografia de uma mandala.
-
-"Será que muitas obras foram para o exterior?"
-
-Não tantas. A maioria permaneceu no Japão, nas mãos de antiquários. Muitas também devem ter se perdido em incêndios. Os antiquários possuem um acervo considerável. Eu mesmo comprei muitas peças no passado.
-
-"O Monte Koya possui muitas pinturas budistas."
-
-Sim, algumas obras de lá chegaram até mim. O acervo deles é realmente vasto. Eles venderam muitas peças atribuídas a Kobo Daishi; houve até um leilão. Tudo está catalogado.
-
-"Há peças de grande valor, mas as que realmente gostaríamos de ver..."
-
-A mais famosa de lá é o Fudo Vermelho, uma obra de renome nacional. Fora essa...
-
-"Eles não a exibem no museu do templo, a mantêm guardada."
-
-É uma peça secreta. Em lugares como aquele, encontram-se obras como a Kannon de Kose no Kanaoka e pinturas de Eshin Sozu. As pinturas budistas são surpreendentemente baratas. As mandalas, por exemplo, com suas inúmeras figuras de Buda detalhadamente pintadas, custavam cerca de cinquenta ou sessenta mil ienes por uma peça grande. Hoje, o valor aumentou muito. Naquela época, comprei várias, simplesmente porque eram muito baratas. Parecia um desperdício não comprá-las, considerando o trabalho envolvido.
-
-"As mandalas do Mundo do Diamante e do Mundo do Ventre..."
-
-Existem esses dois tipos de mandala. As melhores são do Período Fujiwara, mas são raríssimas. A maioria é do Período Kamakura.
-
-"O senhor já viu quase tudo em Quioto, então talvez não haja mais o que apreciar..."
-
-Em termos de estátuas budistas, basta ver o Templo Horyuji.
-
-"No Templo Ishiyamadera, há um rolo de Kobo Daishi..."
-
-É duvidoso. Quem mais colecionou obras desse tipo foi Koizumi Sanshin. Sua coleção é uma mistura de peças autênticas e falsas, mas há coisas boas no meio.
-
-"E Kanemitsu Tsuneo?"
-
-Ele não tem muita coisa. Antes da reforma monetária, Kanemitsu possuía dezenas de milhões de ienes em espécie. Kobayashi Ichizo o alertou sobre o perigo de manter tanto dinheiro e o aconselhou a converter em objetos. Embora Kobayashi não fosse um grande conhecedor, ele o ajudou a comprar. Naquela época, logo após a guerra, era possível encontrar excelentes peças a preços baixos. É isso que ele possui.
-
-"Se ele tiver algo de valor..."
-
-Ele tem o Sutra das Causas e Efeitos. Mas insiste que não o venderá por um centavo a menos de cinquenta mil ienes. O do príncipe Kuni no Miya vale quarenta mil. Kanemitsu também possui um vaso de Ninsei que eu gostaria de ver. Fora isso, o resto do acervo é de menor importância. Ele não comprou por paixão, mas para investir o dinheiro que ganhou com o negócio de cigarros na Manchúria.
-
-Em Tóquio, o maior colecionador era, sem dúvida, Masuda Takashi. Ele ainda possui muitas peças de primeira linha e está sempre vendendo, desde antes do fim da guerra. Sua coleção é admirável. Masuda Takashi era uma figura proeminente nesse meio, o Fumai da era Showa. Em Tóquio, era ele; em Osaka, era a família Konoike.
-
-"Então ele está vendendo o acervo..."
-
-Sim, há anos ele vive da venda de antiguidades. Seu custo de vida é de quinhentos mil ienes por mês, e ele vende as peças para cobri-lo sem se abalar. Ainda deve ter uns cinco armazéns cheios.
-
-"Dizem que ele possui a chaleira de cerimônia do chá que Akechi Mitsuharu usou ao cruzar o lago."
-
-Ele possui todo tipo de obra-prima. É impressionante o que ele conseguiu reunir.
-
-"Dizem que ele não tem um apreço particular pelas peças. Certa vez, serviu doces em uma caixa magnífica a um convidado, que ficou encantado, mas Masuda disse que a guardava na cozinha."
-
-É mesmo? Bem, as melhores peças provavelmente estavam com a família Konoike. Eles eram agiotas na época feudal e emprestavam dinheiro aos senhores feudais, tomando seus bens como garantia. É dessa forma que o acervo se formou. A família Sumitomo se especializou em bronzes, devido à sua ligação com a mina de cobre de Besshi.
-
-"E o Marquês Hosokawa Moritatsu?"
-
-Ele tem peças, mas não em grande quantidade. O marquês é um grande conhecedor, uma verdadeira autoridade. Ele manteve apenas o que há de melhor e vendeu o resto. Há duas ou três peças da coleção dele que eu gostaria de ter. O Marquês Asano também tem um bom acervo, focado principalmente em pinturas das Dinastias Song e Yuan. Fora isso, não há nada de excepcional.
-
-"As peças que o senhor Hosokawa possui..."
-
-Sim, mas sabe-se o que ele tem. Não é um acervo vasto. As peças realmente extraordinárias da coleção dele devem ser umas cinco ou seis. Asano deve ter umas vinte ou trinta pinturas chinesas. É mais ou menos isso. Já coleções como as de Masuda e Konoike abrangem todas as áreas. Por isso, quando algo de lá aparece no mercado, os antiquários nunca sabem o que esperar.
-
-"Ele esteve em estado crítico por um tempo..."
-
-Muitos antiquários trabalham com Masuda. Ele divide as peças em categorias – alta, média e baixa – e cada categoria é vendida por um tipo de antiquário. Isso garante que ele sempre obtenha o melhor preço, sem erros. Seu método é muito sólido.
-
-Colecionar obras de arte é uma tarefa árdua. Os antiquários são muito astutos. Eu costumo dizer que o que eles fazem é estelionato, apenas conseguem não infringir a lei. Estão sempre à espreita, tentando enganar os incautos. O mercado é complicado, e há muitas falsificações extremamente bem-feitas. Às vezes, é quase impossível distinguir do original. Nem eu consigo dizer à primeira vista. Por isso, peço a peça emprestada por dois ou três dias e a penduro. Se, com o tempo, ela começa a me cansar, a me causar uma sensação desagradável, sei que não é boa. Uma obra autêntica, pelo contrário, revela sua beleza progressivamente. Essa é a verdade.
-
-"Em Tóquio, dizem que o senhor está sendo enganado."
-
-Eu imagino que pensem assim. Um líder religioso que surgiu de repente, sem uma linhagem famosa... eles devem pensar: "Ele não entende nada, com certeza está comprando falsificações". E isso os diverte. Mas quem vê minha coleção fica chocado.
-
-"Dizem que perde apenas para a coleção Hakutsuru."
-
-A Hakutsuru é focada em cerâmica e bronze, e não possui obras japonesas, apenas chinesas. Minha coleção, por outro lado, abrange tanto a arte chinesa quanto a japonesa.
-
-"A coleção Hakutsuru levou cerca de sessenta anos para ser formada."
-
-Dizem que, na época, eles gastavam dez milhões de ienes por mês em aquisições. Por isso, a coleção tem peças magníficas, de importância mundial. Mas, como disse, é chinesa. Eu possuo muitas pinturas japonesas. Tenho obras de Korin, pinturas a nanquim de Higashiyama, ukiyo-e... e da escola Rinpa, tenho as obras mais famosas de Korin, Sotatsu, Kenzan e Hoitsu. Por isso, pretendo fazer uma exposição da Escola Rinpa em setembro ou outubro. Será superior à que o museu realizou no ano passado. Muito superior. A do museu nem se compara. Desde o início, nosso museu será o número um do Japão, e talvez até do mundo. Os estrangeiros ficarão atônitos.
-
-Recentemente, em Tóquio, mostrei cinco ou seis pergaminhos a dois antiquários de renome. Um deles me disse que não conseguiu dormir naquela noite, de tão impressionado que ficou. E esses cinco ou seis rolos representam apenas um quinto do que eu possuo. Se eu mostrasse tudo, ele talvez desmaiasse.
-
-Atualmente, há muitas falsificações de cerâmica Ninsei. Em Quioto, há o Templo Ninnaji, aquele com os muros longos. A área ao redor é chamada de Vila Ninnaji. Há cerca de trezentos anos, um mestre ceramista chamado Nonomura Seibei [Seiemon] viveu em frente ao templo. Ele era o melhor do Japão. As únicas cerâmicas japonesas que rivalizam com as chinesas são as de Ninsei e Kenzan. O nome "Ninsei" vem de "Nin", de Ninnaji, e "Sei", de Seibei. Ele era um gênio. Uma única peça de Ninsei, se aparecer no mercado, causa um alvoroço. Hoje em dia, é raro encontrar. No entanto, eu possuo cerca de vinte.
-
-"O senhor deveria incluir legendas explicativas."
-
-Sim, para algumas peças, incluirei.
-
-"Caso contrário, será difícil explicar."
-
-Para essas, haverá explicações. Além disso, minha coleção inclui caligrafia – tanto de textos quanto de poemas. Tenho obras de Saigyo, Tsurayuki, Michikaze. Há uma peça de caligrafia particularmente interessante, de um chinês chamado Wujun. É um rolo famoso. Em uma cerimônia do chá organizada por Furuta Oribe, o fundador da cerâmica Oribe, o senhor feudal Hosokawa a viu e a desejou ardentemente. Ele pediu para comprá-la, mas a peça não estava à venda. São apenas dois caracteres: "Kiun" (Nuvem que Retorna). Dizendo que cada caractere valia mil moedas de ouro, ele ofereceu duas mil pelas duas, mas a oferta foi recusada. Contudo, os senhores feudais de antigamente, quando gostavam de algo, simplesmente o levavam. Não havia o que fazer. Era o feudalismo em sua essência. Mais tarde, Hosokawa enviou três mil moedas de ouro pelos dois caracteres, tamanho foi seu encantamento. Tenho um texto que narra essa história e pretendo exibi-lo também. Pessoas que amam caligrafia – e eu sou uma delas – sentem um profundo anseio por essas obras. Estão dispostas a sacrificar qualquer coisa para possuí-las.
-
-"Se pessoas com esse interesse começarem a frequentar a Sede e a falar apenas sobre isso, não irá atrapalhar os cursos de formação?"
-
-Se chegarmos a esse ponto, será maravilhoso. É por isso que digo que a Igreja Messiânica é uma religião da arte. Estamos construindo o Paraíso Terrestre, e o Paraíso é o mundo da arte.
-
-"Alguns podem interpretar erroneamente a construção do museu como um mero passatempo, mas, na verdade, ao serem tocadas pela arte, as pessoas aprofundarão sua fé."
-
-Em última análise, o propósito da religião é elevar a alma humana. Antigamente, as pessoas se submetiam a práticas ascéticas e penitências nas montanhas para purificar o espírito. Buda guiou as pessoas através da recitação de sutras. Eu o farei através da beleza.
-
-"Apenas pregar sermões, tanto Buda quanto Cristo já o fizeram. É melhor que seja com alegria..."
-
-De início, com a mentalidade atual, será difícil compreender. Nunca houve uma religião como esta. É por isso que escrevi, há tempos, que as religiões até agora foram infernais, enquanto a Igreja Messiânica é uma religião paradisíaca.
-
-"Acredito que a maior felicidade é morrer sonhando."
-
-Para isso, bastaria tomar um narcótico. Mas, ao chegar ao Mundo Espiritual, a pessoa se perderia. É preciso equilibrar as duas coisas. A Igreja Messiânica não é apenas beleza. Há também os ensinamentos, a lógica. Através deles, salvamos a alma. A beleza eleva a alma através dos olhos. Ouvir as palestras eleva através dos ouvidos, e compreender a verdade eleva através da mente.
-
-"Ouvir apenas a teoria torna-se filosófico."
-
-Exato. E cada pessoa é diferente. Por isso, a Igreja Messiânica atua como Senju Kannon, abordando por todos os ângulos.
-
-"Então, os ministros aqui reunidos hoje devem entender que a apreciação da beleza eleva o sentimento religioso."
-
-Isso mesmo. Se explicarem como eu acabei de fazer, eles compreenderão. Afinal, quanto mais esperança o ser humano tiver, melhor. Nesse sentido, o Yumedono é uma bela ideia. O Príncipe Shotoku permaneceu no Palácio dos Sonhos por mil e duzentos anos. O fato de ele ter amado e se dedicado tanto à arte é o que o torna uma figura singular.
-
-"Assim como Meishu-Sama..."
-
-Sim, somos muito parecidos. É isso que me diferencia dos religiosos comuns. Ele era o mais inteligente de todos. Acabei falando demais. Alguém tem alguma pergunta?
-
-"Ter dois redemoinhos no cabelo tem alguma relação espiritual?"
-
-Certamente que sim. Costuma-se dizer que a pessoa é "geniosa". Deve ser um centro na cabeça.
-
-"Em cavalos e bois, isso pode aumentar seu valor. Dizem que os que têm dois redemoinhos podem matar uma pessoa sem hesitar."
-
-Que curioso. Deve haver uma razão para ter dois. Se for necessário, a resposta virá. Mas, como não parece ser algo de grande importância, não precisa se preocupar. Não é algo necessariamente ruim.
-
-"Mesmo que houvesse algum infortúnio no passado, agora que recebemos a Luz, não há mais motivo para preocupação, certo?"
-
-Com certeza. É uma questão espiritual.
-
-"A impressão que tenho é que muitas pessoas não refletem sobre o princípio mais importante: 'espírito precede matéria'."
-
-Isso mesmo. Compreender isso é fundamental, pois é a verdade. Se a pessoa conseguir entender e acreditar nisso, ela terá compreendido a base de tudo. O mundo atual, no entanto, vive o inverso: "matéria precede espírito".
-
-"Tenho uma pergunta de um membro do Havaí. Para a realização do Culto Mensal, lá eles se guiam pelo dia da semana, e não pela data do mês. Gostaria de saber se o senhor permite."
-
-Sim, permito.
-
-"Pode ser no sábado?"
-
-Perfeitamente. O sábado é o melhor dia.
-
-"A sexta-feira parece não ser usada para esses fins."
-
-É o dia da Paixão de Cristo. A sexta-feira treze.
-
-"Como o mês tem quatro semanas, não é preciso fixar, por exemplo, o primeiro sábado?"
-
-Não é obrigatório, mas o primeiro sábado é preferível. Quanto mais cedo, melhor, pois o que vem primeiro serve de base. É por essa razão que estabeleci esta reunião para o primeiro dia do mês. Em termos numéricos, os números pares, que são divisíveis, correspondem ao positivo. Portanto, é bom harmonizar as coisas de acordo com a natureza dos números, ímpares ou pares. Em geral, os números divisíveis são mais favoráveis. Nos nomes, por exemplo, considera-se ideal uma combinação de ambos os tipos de números de traços. No entanto, em minhas pesquisas, encontrei pessoas de grande sucesso cujos nomes eram compostos apenas por números pares. Portanto, não é uma regra absoluta. Já o Kototama é infalível. Se tanto o sobrenome quanto o nome começam com sons da fileira "A", a pessoa tende a ser solitária e não se expandir. Isso é algo que eu sempre corrijo. A fileira "A" é a fileira celestial. Nomes como "Okada Asako" certamente não são bons.
-
-"Uma vidente disse a uma senhora chamada Teshima Takeko que seu nome era ruim, e ela o mudou para Kiyoko. Agora, ela está em um estado semelhante a uma doença mental. Qual nome é melhor?"
-
-Teshima "Take" não é bom. "Kiyo" é melhor. Contudo, "Miyo" seria ainda preferível. Teshima é um sobrenome muito forte. Se ela se acostumar a ser chamada de "Kiyo", estará bem. Como nome, não é tão ruim.
-
-"Ela diz que vê cenas do Paraíso, ouve orquestras e pessoas bonitas dançando."
-
-Isso, por si só, não é uma doença mental. Há muitas pessoas assim. É um tipo de mediunidade, uma capacidade de visão espiritual. Não há motivo para grande preocupação. Algumas pessoas nascem com essa habilidade.
-
-"Há problemas na família..."
-
-Isso significa que há máculas na família. A mácula, neste caso, é recorrer a médicos e entregar-se a eles. Confiar nos médicos é a causa da infelicidade. Se isso acontece, é porque há máculas. Falta-lhes a força para salvar e a oportunidade para serem salvos.
-
-"Uma pessoa quebrou o osso da perna na diagonal e aplicaram gesso. Com Johrei, ela se curou completamente. Nesse caso, o osso que estava na diagonal..."
-
-Não importa se estava na diagonal ou não. Apenas com Johrei, ele se consolida perfeitamente. O problema é quando se recorre a um mau ortopedista... mas, no fim, tudo voltou ao normal, não é?
-
-"Em um caso de fratura no cotovelo, colocaram uma tala e o osso se consolidou de forma torta, ficando saliente."
-
-Isso aconteceu justamente por causa da tala.
-
-"Mesmo no caso do cotovelo, o correto seria deixar como está?"
-
-Exato. Mesmo em caso de luxação, deve-se deixar como está.
-
-"Se deixarmos quieto..."
-
-Sim, basta deixar quieto.
-
-"Qual é a causa do deslocamento da mandíbula?"
-
-É simplesmente uma tendência a deslocar. Torna-se um hábito. Mas é fácil de colocar no lugar.
-
-"Com Johrei..."
-
-Não precisa de Johrei para colocar no lugar. Os dentistas são hábeis nisso. Peça para alguém aprender a técnica, e depois aplique Johrei. Assim, não voltará a deslocar.
-
-"Uma pessoa tinha esse problema há mais de dez anos e, com Johrei, parou de acontecer."
-
-Exatamente. Coloque no lugar e depois aplique Johrei para curar.
-
-"Em Shikoku, um antiquário adoeceu dos pulmões. Ele consultou um vidente famoso, que lhe disse que ele mantinha guardado um deus único no mundo. Ao procurar, lembrou-se de um rolo que havia comprado em Osaka. No momento em que o abriu, sentiu-se aliviado. Era o Komyo Nyorai caligrafado por Meishu-Sama. Ele o abriu um pouco, viu a caligrafia magnífica e, como custava cinquenta mil ienes, pensou que logo valeria setenta ou oitenta mil e o comprou. Ao pendurá-lo, sua doença se curou em três ou quatro dias, e agora muitos vizinhos vão à sua casa para orar."
-
-Que história interessante. É por isso que, como li outro dia – e publicarei no jornal –, é preciso ter cuidado com meus escritos. Quem os trata com desrespeito certamente receberá um aviso. Publicarei isso na próxima edição do jornal.
-
-"E quando distribuímos a não-membros?"
-
-Não há problema. Os não-membros podem tratá-los sem cuidado. Se dissermos o contrário, eles dirão: "Se é algo tão assustador, prefiro não ter". Além disso, Deus perdoa a quem não sabe. Mas, a partir do momento em que se tem conhecimento, há uma cobrança.
-
-"O antigo Omamori do fio horizontal, posso emoldurá-lo e colocá-lo no andar de baixo?"
-
-Sim, pode. Não é um Goshintai. Apenas o Goshintai não pode ficar no andar de baixo.
-
-"Ao receber o novo Omamori do fio vertical, o que devo fazer com o anterior?"
-
-Guarde-o.
-
-"Posso emoldurá-lo?"
-
-Não, não pode. Porque falta minha assinatura, o selo. Por isso não pode. O antigo tem o selo, então não há problema. O propósito é diferente.
-
-"Uma pessoa que possuía uma imagem de Kannon faleceu e me pediu para guardá-la. A imagem tem algumas manchas. O que devo fazer?"
-
-Por favor, doe-a para mim. Eu a receberei. Eu a quero. Quanto à imagem, ela não deve mais ser objeto de veneração. É preciso que seja a caligrafia atual.
-
-"Para orar a Senju Kannon, posso entoar a Oração Amatsu Norito pela manhã e o Zenguen Sandji à noite?"
-
-Sim, está correto.
-
----
-
-# Publicações Relacionadas em Inglês
-
-**Categoria:** kanren | **Ano:** - | **Fonte:** -
-
-## Publicações Relacionadas em Inglês
-
-**FOUNDATION OF PARADISE**
-Publicado em 1984, formato A5, 418 páginas.
-Edição em inglês de “O Alicerce do Paraíso”.
-Esta obra reúne a tradução de 215 seleções da coletânea original “O Alicerce do Paraíso”, acrescidas de outros 10 importantes Ensinamentos.
-Publicação: Sekai Kyusei Kyo
-
-**TRUE HEALTH**
-Publicado em 1984, formato A5, 184 páginas.
-Edição em inglês de “A Saúde pelas Revelações Divinas”.
-Contém a tradução de 95 seleções da referida obra.
-Publicação: Sekai Kyusei Kyo
-
-**PRAYERS AND GOSANKA (Poemas para Entoação)**
-Formato A5, 106 páginas.
-Edição em inglês da “Coletânea de Salmos”.
-Reúne a tradução da Oração Amatsu Norito e de 88 Salmos.
-Publicação: Sekai Kyusei Kyo
-
-Esta coletânea de Salmos inclui também poemas de autoria de Nidai-Sama, e muitos dos Salmos originais sofreram alterações. Para esta edição, optou-se por incluir os poemas em sua forma original. Aqueles que foram posteriormente revisados são identificados com um asterisco (*), e as modificações estão destacadas na cor vermelha. Os poemas cujas versões originais não puderam ser localizadas estão assinalados na cor verde. Presume-se que sejam de autoria de Nidai-Sama. Contudo, é mister ressaltar que pode haver, entre eles, poemas de Meishu-Sama que não me foi possível identificar em minha pesquisa, razão pela qual se solicita a atenção do leitor.
-
----
-
-# Compêndio de Teses do Mestre Jikan Okada
-
-**Categoria:** kanren | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** -
-
-## Compêndio de Teses do Mestre Jikan Okada
-Guia de Preleção II - 3 - 1
-
-## Sobre o Servir
-
-### I. A Missão do Ser Humano
-
-**1. A Missão do Ser Humano 1**
-*[Reisokai (O Evangelho do Céu) - Publicado em 5 de fevereiro de 1947]*
-
-O nascimento do ser humano no mundo terreno ocorre por determinação Divina. A própria vida é um comando de Deus. Inevitavelmente, todos se questionam sobre o propósito de sua existência. Enquanto não se compreende verdadeiramente essa questão, não apenas se torna impossível agir de forma correta e alcançar a paz de espírito, como também se corre o risco de findar em uma vida vazia, como quem vive a sonhar e morre a dormir.
-
-Qual seria, então, o desígnio Divino? Consiste em construir neste plano terrestre um mundo ideal, em outras palavras, o Paraíso Terrestre. Não é difícil imaginar que se tratará de uma obra de grandiosidade e magnificência inexprimíveis, tanto em sua escala quanto em sua concepção, pois a cultura, em seu progresso infinito, não conhece limites. Nesse sentido, toda a história da humanidade até o presente momento não passou de um trabalho de alicerce para essa grandiosa construção. Assim, Deus, tendo concedido a cada indivíduo uma missão e características únicas, faz com que a humanidade avance em direção a esse objetivo ideal, através de sucessivas reencarnações.
-
-**2. A Missão do Ser Humano 2**
-*[Perceba a Vontade Divina - Revista Glória, nº 237, publicada em 2 de dezembro de 1953]*
-
-Como já escrevi em outras ocasiões, o ser humano nasceu com a incumbência de construir o mundo ideal, que é o objetivo de Deus. Sendo assim, se agirmos em conformidade com esse propósito, poderemos trabalhar sempre com alegria, livres de doenças e com vigor. Esta é uma verdade imutável. Contudo, devido aos yakudoku acumulados desde nossos antepassados e também àqueles que inserimos em nosso corpo após o nascimento por desconhecimento da verdade, é inevitável que adoeçamos.
-
-Todavia, se uma pessoa útil à Obra Divina se encontra impossibilitada de trabalhar por motivo de doença, isso representa um prejuízo para Deus. Portanto, é natural que Ele nos cure prontamente, não havendo motivo para preocupação.
-
-**3. O Uso Correto do Dinheiro**
-*[Discurso de Luz (23 de abril de 1949) - Registros dos Discursos de Luz, nº 7, publicado em 1949]*
-
-A condição de fiel, por si só, não constitui garantia alguma se for acompanhada de inércia. Mesmo aqueles que não são membros de nossa Igreja, se praticarem boas ações e tiverem um coração justo, serão salvos. A diferença é que aos fiéis é ensinado o caminho da salvação, e, ao seguir esse caminho e salvar o próximo, suas máculas são atenuadas.
-
-O dinheiro é um bom exemplo. De nada adianta tê-lo e simplesmente guardá-lo. Pior ainda, se for empregado em futilidades, pode até mesmo tornar-se prejudicial. É imperativo que o dinheiro seja utilizado para fins nobres. Ao se tornar membro, a pessoa aprende a maneira correta de utilizá-lo. O uso mais eficaz do dinheiro é em prol destes ensinamentos. Contudo, de nada vale aprender o caminho se não o colocarmos em prática. Afinal, o aperfeiçoamento espiritual existe para que aprendamos o método mais sublime de salvar as pessoas. Se, após receber tal conhecimento, não nos dedicarmos a salvar o próximo, todo o aprendizado terá sido em vão.
-
-### II. Dinheiro Puro e Impuro
-
-**1. Dinheiro Puro e Impuro**
-*[Discurso de Luz (fevereiro de 1950) - Registros dos Discursos de Luz, nº 18, publicado em 23 de abril de 1950]*
-
-*Pergunta: Em meu vilarejo (na província de Mie), os moradores fizeram uma coleta de fundos e perfuraram um poço para irrigação. A profundidade do poço é de seiscentos shaku, os canos de ferro têm doze polegadas de diâmetro, e o peso total chega a quinze toneladas. Entretanto, no momento exato em que íamos inserir o último cano, num piscar de olhos, o eixo do guindaste se partiu, e o cano despencou vinte e quatro ou vinte e cinco shaku. Estamos preocupados, pois parece que dois meses de trabalho e um custo de setecentos a oitocentos mil ienes foram completamente desperdiçados. Seria isso resultado de desrespeito à natureza, ou haveria alguma outra causa espiritual?*
-
-Certamente, há uma causa espiritual para tal ocorrência. Uma situação tão absurda não aconteceria sem motivo. É possível que algo esteja obstruindo o processo. A verdade é que deve haver um considerável acúmulo de máculas e impurezas nesse vilarejo. Por essa razão, era imprescindível que houvesse uma perda dessa magnitude. No fim, é através desse tipo de acontecimento que as máculas são purificadas. O dinheiro empregado nessa obra estava impuro. Sem que uma certa quantia desse dinheiro impuro fosse eliminada, a água não poderia jorrar. Portanto, basta refazer o trabalho. Da próxima vez, a água aparecerá.
-
-O que parece uma perda, na realidade não o é, pois, com isso, uma parcela das máculas se extingue. Compreendendo isso, deveriam, na verdade, alegrar-se com a purificação de suas impurezas. É pelo mesmo motivo que santuários e templos frequentemente se incendeiam. Grandes catedrais, em sua maioria, já passaram por isso duas ou três vezes. O Templo Horyu-ji, em Nara, é um exemplo. Isso ocorre porque o dinheiro utilizado na construção estava impuro; não era um donativo puro. Templos são erigidos com dinheiro obtido por meio de calotes ou fraudes, e são mantidos com recursos da mesma natureza. Inevitavelmente, chega o momento em que a purificação se faz necessária, e é por isso que eles queimam.
-
-Comigo também ocorre algo semelhante. Todos os anos, misteriosamente, uma quantia considerável de dinheiro se vai, chegando a um valor expressivo. Isso acontece porque, entre as muitas doações que recebo, há uma parte extremamente impura que Deus, de modo algum, pode utilizar, sendo necessário que seja descartada. E, de fato, o dinheiro simplesmente desaparece de formas estranhas e inesperadas. Ou melhor, ele precisa ser expelido. Esse é o significado.
-
-As interpretações humanas são, com frequência, o completo oposto da verdade. Até hoje, a humanidade tem lamentado o que deveria ser motivo de alegria e se alegrado com o que deveria causar tristeza, agindo de maneira incompreensível. E, por isso, a confusão só aumenta. Tomemos o dinheiro como exemplo. As pessoas creem que todo dinheiro é igual, mas, do ponto de vista espiritual, há uma enorme diferença entre uma cédula e outra. O dinheiro também possui impurezas. Isso ocorre porque o pensamento humano impregna-se nele com muita facilidade.
-
-Atualmente, com a alta no mercado de ações, muitas pessoas investem na esperança de lucrar. O propósito original das ações é receber dividendos dos lucros da empresa, mas hoje o objetivo se tornou a especulação com as cotações, o que desvirtua sua natureza. Por essa razão, o dinheiro que circula nesse meio está carregado do ressentimento daqueles que vivem da especulação. No mercado de ações, para cada um que ganha, há noventa e nove que perdem. Assim, o dinheiro que se retira da bolsa de valores traz consigo o rancor de inúmeras pessoas que sofreram perdas. A frustração da perda, o apego, o ressentimento e a inveja em relação a quem lucrou, todos esses sentimentos vêm juntos e se apegam às notas de dinheiro.
-
-Por isso, o dinheiro proveniente de ações é algo terrível. Está impregnado de apego. Dizem que, para aqueles que possuem a visão espiritual, as cédulas monetárias revelam inúmeros rostos em miniatura, a maioria com expressões de choro, rancor e ressentimento. E as pessoas, felizes por terem lucrado, guardam esse dinheiro no bolso (risos). Um dinheiro assim jamais permanecerá por muito tempo com alguém; ele inevitavelmente se vai. As palavras "dinheiro mal adquirido não permanece com a pessoa" expressam uma grande verdade.
-
-Nenhuma corretora de valores de Kabutocho prospera por duas ou três gerações. No passado, eu mesmo me envolvi bastante com o mercado de ações. Cheguei a fundar uma sociedade em comandita, pois gostava muito de especular. Mas, no fim, perdi dinheiro (risos). Perdi porque havia ganhado. Naquele mundo, é uma sorte perder desde o início. Ganhar parece bom, mas, no final, resulta em perda. É como a relação com as mulheres. Se um homem é rejeitado logo de cara, ele simplesmente desiste (risos). Mas se, por infelicidade, ele consegue despertar o interesse de uma mulher e se apaixona, mesmo que se separe dela, pensará "eu sou desejado", tornando-se vaidoso (gargalhadas), e acabará por não conseguir levar uma vida séria. O mesmo se aplica aqui: perder desde o começo é muito bom. Se a pessoa ganha, ela se entusiasma e, quanto mais ganha, mais quer ganhar. Se perde, tenta recuperar o prejuízo. De qualquer forma, torna-se incapaz de se afastar. E mesmo que se obtenha lucro, trata-se de um dinheiro carregado de ressentimento; jamais se consolidará.
-
-Depois que compreendi essa realidade espiritual, nunca mais me envolvi com tais práticas. Aliás, não é que eu não me envolva, eu não consigo; é demasiado tolo. Mesmo que se ganhe, é como adquirir o rancor alheio, e o dinheiro logo se esvai. E se ao menos ele fosse gasto com algo bom, mas invariavelmente se vai com coisas ruins, como doenças ou desastres.
-
-Assim sendo, não apenas as doenças, mas todas as coisas devem ser interpretadas sob uma ótica espiritual. De fato, as grandes corretoras de valores fracassam na segunda geração. Atualmente, uma certa mansão em Izusan está à venda. Foi construída por alguém que enriqueceu com ações de uma empresa de navegação durante a Grande Guerra Europeia. Temendo que o dinheiro se perdesse, ele criou um fundo de investimentos para garantir sua fortuna. O pai faleceu, e agora, na geração do filho, a família entrou em declínio, vendendo um bem após o outro, até restar apenas aquela mansão, que agora também foi posta à venda. Como não conseguiram vendê-la por inteiro, decidiram dividi-la em lotes. Suspeito que estejam sendo enganados e explorados pelos corretores envolvidos. No fim, por mais que se previna, é inútil. O dinheiro de ações está destinado a se dissipar como fumaça.
-
-Houve um homem, M., que foi quem mais lucrou em Kabutocho. Ele chegou a participar de um curso de aprimoramento em nossa Igreja na época em que chamávamos nosso método de Terapia de Purificação. Ele pensou que manter o dinheiro em ações era arriscado e que seria melhor investi-lo em terras. Com o tempo, as terras se valorizaram enormemente, e antes da guerra sua fortuna era de quase cem milhões de ienes. Contudo, ele perdeu tudo com o imposto sobre grandes fortunas. Se fossem pinturas ou antiguidades, ainda haveria como ocultá-las, mas com terras não há o que fazer. Dizem que ele perdeu absolutamente tudo. Outro caso é o de K., que também faliu. A casa que hoje pertence à nossa Igreja era dele. Ele também enriqueceu com ações da mesma empresa de navegação. E assim por diante... Bem, não adianta ficar falando apenas de corretores de valores (risos). O fato é que todos eles acabam mal, exatamente como diz o ditado: "dinheiro mal adquirido não permanece com a pessoa".
-
-Alguém poderia pensar que, se o dinheiro ganho com ações for utilizado para a Obra de Deus, não haveria problema. Mas isso também não é correto. Eu menciono isso porque sei que algumas pessoas podem pensar dessa forma.
-
-Há também outro tipo de situação. Quando nossa Igreja precisa de fundos, ocasionalmente aparecem pessoas oferecendo dez ou vinte milhões de ienes. Eu sempre recuso tais ofertas categoricamente. A razão é que Deus precisa salvar um grande número de pessoas. E para que muitas sejam salvas, é necessário que o maior número possível de fiéis sirva à Obra Divina, acumule virtudes e se purifique. Através dessas virtudes, suas máculas são extintas. Se apenas uma pessoa realizasse essa oferenda, somente ela acumularia virtudes, e as demais não seriam salvas. Embora dez milhões de ienes sejam sempre dez milhões de ienes, a diferença espiritual é abissal.
-
-Ademais, é extremamente raro alguém fazer uma doação de tal magnitude de forma genuína. Se isso acontece, certamente há alguma ambição oculta por trás. A pessoa pretende obter algo em troca daquele dinheiro. Recentemente, um novo-rico do ramo da construção veio me oferecer dez ou vinte milhões de ienes. Pessoas como ele certamente têm segundas intenções, como obter os contratos de construção da Igreja Kannon ou da Igreja Miroku e depois abater o valor doado. Eu percebo essas coisas. Portanto, é melhor não aceitar esse tipo de dinheiro. A postura correta não é a de "fazer uma doação", mas sim a de "ter a permissão de doar". Agradecer pela oportunidade de doar e de ter seu dinheiro utilizado por Deus é o que constitui um ato de grande valor.
-
-**2. Deus Não Utiliza Dinheiro Impuro**
-*[Sermão (1º de abril de 1952) - Registros das Orientações Divinas, nº 8, publicado em 25 de abril de 1952]*
-
-É interessante notar que, há muito tempo, eu venho perdendo dinheiro. Trata-se do dinheiro doado pelos fiéis, fruto de seu sangue e suor. Eu me esforço ao máximo para não desperdiçá-lo, mas, de alguma forma, ele desaparece. De repente, sou enganado — ou melhor, anualmente gasto dinheiro de forma tola e inútil. O que acontece é o seguinte: recebemos donativos dos fiéis e, à medida que esse dinheiro passa por um processo de depuração, inevitavelmente surgem impurezas — elementos maculados. Não se trata de identificar qual nota está impura e qual não está. Deus seleciona todo o dinheiro, realizando uma purificação. Desse processo, resulta um resíduo. Essa parcela, de modo algum, pode ser utilizada na construção do Paraíso Terrestre. Ela precisa, invariavelmente, ser descartada. O incidente com o automóvel, recentemente, foi um exemplo disso.
-
-Esta é, portanto, uma explicação sob a ótica do Grande Veículo. Do ponto de vista do Grande Veículo, há muitas coisas que não são facilmente compreendidas pelo julgamento humano. Por isso, quando algo acontece, só conseguimos entender a situação de forma geral ao analisá-la de uma perspectiva ampla e abrangente.
-
-**3. A Singularidade dos Donativos em Nossa Igreja**
-*[A Força de Nossa Fé - Revista Glória, nº 128, publicada em 31 de outubro de 1951]*
-
-Desde a antiguidade, é praxe em qualquer religião que os custos de manutenção e operação da seita ou organização sejam cobertos por donativos de todos os seus fiéis. Em alguns santuários e templos, as esmolas dos visitantes também contribuem para esse fim. No entanto, especialmente no caso das novas religiões, que em sua maioria operam de forma proativa, os gastos com construções e outras atividades são surpreendentemente elevados. Isso as leva a agir, por vezes, de maneira forçada. Em certas religiões, os fiéis mais devotos vivem sob a pressão constante de pedidos de donativos, empobrecendo ano após ano. Não é raro vermos membros antigos que acabam financeiramente esgotados. Essa é uma das razões pelas quais as novas religiões são vistas com desconfiança e evitadas. Como sempre digo, essas pessoas podem até ser salvas espiritualmente, mas não o são materialmente.
-
-Nossa Igreja, por outro lado, tem como premissa a construção de um mundo sem doença, pobreza e conflito. Portanto, além de resolver a questão da saúde, precisamos também solucionar o problema da pobreza. Nesse aspecto, Deus nos concede uma imensa graça. O mais notável é que, ao se tornarem fiéis, mesmo aqueles que inicialmente sofriam com a pobreza veem sua situação melhorar gradualmente. Após um ou dois anos, suas preocupações financeiras desaparecem por completo.
-
-Evidentemente, há um fundamento sólido para isso. Ao ingressar na fé, a pessoa recebe, desde o primeiro dia, o poder de curar as doenças dos outros. Assim, passados alguns meses, qualquer fiel se torna capaz de proporcionar a recuperação total a doentes desenganados por médicos ou a pacientes que receberam uma sentença de morte. Tendo recebido um benefício tão grande, as pessoas sentem a necessidade de expressar sua gratidão. Essa fonte de renda aumenta progressivamente, e muitos chegam a um ponto em que, mesmo após deduzir suas despesas de vida, ainda lhes sobra dinheiro. É então que, em agradecimento a Deus, fazem donativos à Sede Geral. Consequentemente, nossa Igreja consegue realizar empreendimentos de grande escala, algo que outras religiões jamais poderiam imitar, o que atrai a atenção da sociedade.
-
-Como resultado, jornais e revistas frequentemente publicam números absurdos sobre a fabulosa renda ou o vasto patrimônio da Igreja Messiânica. Contudo, pelas razões que expliquei, é inevitável que sejamos vistos dessa maneira.
-
-Há ainda outra fortaleza, algo que não se vê em nenhum outro lugar: ao se tornar um fiel de nossa Igreja, a preocupação com doenças desaparece. E isso não se aplica apenas ao próprio membro, mas também a seus familiares. Se alguém da família adoece, basta aplicar Johrei para que a cura seja alcançada sem dificuldade. Médicos e remédios se tornam desnecessários, e ninguém sofre com enfermidades prolongadas. O benefício que isso traz, tanto no aspecto financeiro quanto no espiritual, é imensurável. Como praticamente ninguém falta ao trabalho por motivo de doença, o ganho em termos de produtividade também é enorme. Em todo o vasto mundo, certamente não existe outra religião ou organização como a nossa.
-
-### III. O Servir Financeiro e a Purificação das Máculas
-
-**1. O Servir Financeiro e a Purificação das Máculas**
-
-① **A Redução das Máculas e Impurezas Através do Servir**
-*[Sermão (1º de abril de 1952) - Registros das Orientações Divinas, nº 8, publicado em 25 de abril de 1952]*
-
-O ato de servir, sob uma perspectiva espiritual, significa que todos os seres humanos, por possuírem máculas e impurezas, têm uma dívida com Deus. Quanto mais tempo se acumula uma dívida, mais os juros aumentam. Portanto, é mais vantajoso quitá-la o quanto antes. Nesse sentido, o servir através do dinheiro é algo excelente, pois extingue as máculas. Eu prefiro não falar muito sobre dinheiro, pois não me parece de bom tom, mas é importante que conheçam o princípio por trás disso.
-
-② *[Sermão do Grande Culto da Primavera (26 de março de 1952) - Coletânea de Ensinamentos, nº 8, publicada em 20 de abril de 1952]*
-
-Na verdade, o servir através do dinheiro é uma forma de atenuar as máculas e impurezas perante Deus. Por isso, de minha parte, desejo que os fiéis doem o máximo possível, pois assim eles se purificam. Se obtivermos recursos em demasia das minas, as doações dos fiéis se tornarão menos necessárias, o que seria uma pena para eles. Portanto, antes que isso aconteça, é melhor que se apressem e purifiquem o máximo de suas máculas.
-
-③ *[Sermão (6 de abril de 1952) - Coletânea de Ensinamentos, nº 9, publicada em 15 de maio de 1952]*
-
-Atualmente, na Igreja, o que mais precisamos é de dinheiro. Assim, quando os projetos das minas começarem a se desenvolver, creio que teremos uma expansão notável. Como mencionei em outra ocasião, precisamos construir um Paraíso Terrestre também em Quioto. E imagino que o de Quioto será em uma escala ainda maior que os de Atami e Hakone. Os custos para tudo isso podem chegar a centenas ou dezenas de bilhões de ienes. Mas esses recursos se tornarão disponíveis, não há com que se preocupar.
-
-Falei sobre isso no quarto e quinto dias do Grande Culto. Nos três primeiros dias, não toquei no assunto; falei apenas sobre os planos divinos para o futuro. Alguns responsáveis, ao ouvirem sobre a gravidade da situação financeira, podem ter se preocupado sobre o que fazer. Hoje, procurei explicar de uma forma que todos pudessem compreender. No entanto, também não devem ficar tranquilos demais. Ainda precisaremos de fundos por mais dois ou três meses, até que os recursos das minas comecem a chegar.
-
-Há outro ponto importante: todos os fiéis carregam uma enorme dívida espiritual, acumulada não apenas por eles mesmos, mas também por seus antepassados. Isso, em essência, são as máculas e impurezas — os débitos espirituais. As pessoas vêm reduzindo essa dívida através de doenças e de diversos sofrimentos. Nas revelações da Oomoto, há uma passagem que diz: "Todos possuem muitos débitos espirituais, portanto, peçam para que fiquem livres de suas dívidas o mais rápido possível."
-
-Por essa razão, servir com dinheiro é uma forma de abrandar as máculas. Desde que não se exceda as próprias forças, quanto mais se doa, mais rapidamente os débitos espirituais são purificados. Consequentemente, o sofrimento diminui e, em contrapartida, as virtudes aumentam. Eu não costumava falar muito sobre isso, mas o dinheiro ofertado a Deus retorna multiplicado muitas vezes. É algo notável. Quem vivencia essa experiência, compreende. Frequentemente ouço que certas unidades religiosas enfrentam dificuldades financeiras; costumo dizer que isso acontece porque não servem com dinheiro. Jamais ocorrerá conosco o que acontece em outras religiões, como a Tenrikyo, onde os fiéis acabam na miséria. Se o nosso Deus não tivesse essa consideração, seria melhor abandonar a fé.
-
-Portanto, enquanto a Igreja ainda necessita de fundos, é mais vantajoso servir.
-
-**2. O Servir e a Salvação**
-
-① **A Razão pela Qual as Obras de Arte se Reúnem**
-*[Sermão do Grande Culto da Primavera (24 de março de 1952) - Coletânea de Ensinamentos, nº 32, publicada em 15 de abril de 1954]*
-
-A civilização tomou um rumo equivocado, e por isso a humanidade tem sofrido imensamente. A medicina, por exemplo, praticou métodos completamente errôneos, fazendo com que as pessoas sofressem com doenças e morressem prematuramente, tudo por desconhecimento da verdade. Contudo, isso fazia parte do plano do Deus Supremo, que determinou que a verdade não deveria ser revelada, e, portanto, estava correto. Agora, chegou o tempo em que a verdade deve ser conhecida para que se construa a verdadeira civilização. Isso também faz parte do plano do Deus Supremo e, portanto, também está correto. A humanidade, daqui para frente, poderá alcançar a verdadeira felicidade. Essa missão cabe à Igreja Messiânica. Assim, podemos dizer que "o que deveria vir, veio". O mundo errôneo que existiu até agora não poderia continuar, e essa mudança ocorreu por desígnio divino. O ser humano não pode compreender tais questões. Como sempre digo, estamos exatamente na transição do Mundo da Noite para o Mundo do Dia. É um momento de suma importância, e as pessoas da Igreja Messiânica, escolhidas para esta missão, são imensamente afortunadas. Pode-se dizer que é uma felicidade sem precedentes na história da humanidade. Nesse contexto, as notáveis mudanças no Mundo Espiritual têm se tornado muito evidentes ultimamente.
-
-Algo que ilustra isso claramente é o fato de que, recentemente, obras de arte magníficas têm chegado às minhas mãos por preços muito baixos. Peças que seriam praticamente impossíveis de adquirir surgem repentinamente. Qual a razão disso? No Mundo Espiritual, os grandes mestres que as criaram, ou os senhores feudais e homens poderosos que as colecionaram, estão gradualmente despertando e desejam ardentemente que essas obras sejam acolhidas pela Igreja Messiânica, atuando intensamente para que isso aconteça.
-
-É uma situação um tanto penosa, mas suponhamos que eu deseje uma determinada obra, considerando-a indispensável para o museu, mas seu proprietário se recusa a vendê-la. Nesse caso, os espíritos agem para que ele seja obrigado a se desfazer da peça, causando-lhe dificuldades financeiras ou criando uma situação em que a venda se torne inevitável. Os antepassados dessa pessoa, que valorizavam ou criaram tais obras de arte, atuam para que ela seja vendida a mim. A maneira mais eficaz é criar dificuldades financeiras. Contudo, ao vender a obra por essa razão, a família do proprietário estará praticando um ato de grande bem. A partir de então, essa família se tornará verdadeiramente feliz. A dificuldade financeira é, portanto, temporária. Esse tipo de fenômeno tem se tornado extremamente notável nos últimos tempos.
-
-Recentemente, tenho adquirido peças por preços inferiores aos dos antiquários. Muitos deles ficam surpresos e dizem que também gostariam de comprar por aquele valor. As circunstâncias se desenrolam de tal forma que isso se torna inevitável. Por essa razão, creio que o Museu de Arte de Atami, quando for concluído, exibirá muitas obras que não se encontram em nenhum outro lugar do mundo.
-
-Há pouco tempo, adquiri uma peça de Koetsu. Uma pessoa, ao saber disso, disse: "Isso é impossível, está decidido que aquela peça jamais será vendida." Eu respondi: "Mas ela já está comigo, não há o que fazer." Essa pessoa também desejava a obra há muito tempo, mas sempre ouvia que a venda estava fora de questão. Por isso, repetia: "É um mistério, um mistério."
-
-② *[Sermão do Grande Culto da Primavera (25 de março de 1952) - Coletânea de Ensinamentos, nº 32, publicada em 15 de abril de 1954]*
-
-Tudo, não apenas a religião, é regido pelo espírito. No Mundo Espiritual, se os espíritos não atuarem, nada acontece. No entanto, quem desconhece essa verdade acredita que tudo se resume ao corpo e age apenas no plano material. Por mais que se esforcem, não obtêm sucesso.
-
-Outra manifestação espiritual relacionada a isso ocorre com a coleção de arte que venho formando. Coisas misteriosas acontecem constantemente, e ultimamente os mistérios têm se intensificado. Basta que eu deseje uma peça para que ela chegue até mim. Obras que pareciam inatingíveis aparecem. Isso acontece porque, no Mundo Espiritual, os artistas que as criaram, os antigos senhores feudais que as possuíram e apreciaram, ou os diversos magnatas, todos desejam prestar um serviço a Deus e, por isso, competem entre si para que suas obras de arte cheguem até mim.
-
-A razão é que, se uma única peça for útil à Obra Divina, a posição espiritual de seu antigo dono se eleva. Um espírito que estava no inferno, por exemplo, pode subir de nível de uma só vez, chegando geralmente à esfera de Yachimata. E um que estava em Yachimata sobe para o nível mais baixo do Paraíso. Sabendo disso, eles se empenham ao máximo em servir. Do contrário, seria impossível reunir tantas obras em tão pouco tempo.
-
-③ *[Sermão do Grande Culto da Primavera (26 de março de 1952) - Coletânea de Ensinamentos, nº 32, publicada em 15 de abril de 1954]*
-
-A partir do dia nove do próximo mês, o Museu de Arte de Hakone promoverá uma exposição de ukiyo-e intitulada "Obras-Primas do Ukiyo-e em Pintura". Esta é a primeira vez que se realiza uma exposição exclusivamente de pinturas desse gênero. Exposições de ukiyo-e já foram feitas dezenas de vezes em vários lugares, mas todas eram de gravuras. Uma mostra apenas de pinturas é inédita. Serão expostas dezenas de obras, todas de primeira linha. Dizem que, atualmente, no Japão, minha coleção é a melhor.
-
-A atuação dos espíritos também é a base para isso. Adquiri uma coleção de mais de oitenta pinturas por um preço extremamente baixo. Elas pertenciam a um famoso novo-rico do passado, falecido há muito tempo. Seu espírito desejava que as obras fossem exibidas no museu da Igreja Messiânica e atuou para que isso acontecesse. Como eles atuam? Fazem com que os descendentes, os atuais proprietários, passem por dificuldades financeiras. O espírito ancestral no Mundo Espiritual causa prejuízos ou os induz a gastar muito dinheiro, levando-os à pobreza. Assim, eles são forçados a vender. Esse é o método principal.
-
-Alguns podem pensar que é cruel um ancestral levar seus descendentes à pobreza. Contudo, graças a isso, eles recebem posteriormente uma grande graça, prosperam e se tornam muito felizes. A dificuldade financeira atual é temporária, e os espíritos ancestrais sabem disso. Eles agem com uma profunda sabedoria. É algo excelente. Por mais valiosos que sejam, os bens materiais são limitados. Eles perdem um tesouro com forma para receber um tesouro infinito e sem forma, o que é muito bom. Praticam uma grande virtude. É por essa razão que obras de arte tão maravilhosas chegam até mim. Quando o Museu de Arte de Atami estiver pronto, todos ficarão surpresos.
-
-As peças que adquiro geralmente custam menos da metade de seu valor de mercado. Os antiquários vivem dizendo "é um mistério, um mistério", e de fato parece ser. Eles frequentemente me sugerem: "O senhor deveria vender esta peça" ou "Agora ela vale tanto, eu gostaria de comprá-la". Suspeito que, no fundo, pensem que sou muito mais hábil em ganhar dinheiro do que eles. Por isso, às vezes eu brinco: "Se eu me tornasse antiquário, lucraria muito. Vocês não têm muito jeito para o negócio."
-
-**3. As Máculas Não Purificadas até o Juízo Final Permanecerão Eternamente**
-*[Sermão (6 de abril de 1954) - Coletânea de Ensinamentos, nº 33, publicada em 15 de maio de 1954]*
-
-*(Após o ensinamento "Recentemente, espíritos de deuses e budas têm buscado a salvação com insistência")*
-
-As máculas que não forem extintas agora permanecerão para sempre. As máculas leves se dissiparão com a chegada do Mundo do Dia, mas quase ninguém tem apenas máculas leves; a maioria carrega máculas pesadas. É como quando vocês aplicam Johrei e percebem que a quantidade de toxinas é imensa; não é algo que se resolva facilmente. As máculas pesadas não desaparecerão eternamente. Por isso, os espíritos estão ansiosos e apressados, cientes de que precisam banhar-se na Luz e serem salvos o quanto antes. Isso ocorre porque o Mundo Espiritual está se tornando o Mundo do Dia a passos largos. Felizes são aqueles que sabem disso; os que não sabem são verdadeiramente dignos de pena.
-
-**4. Sobre as Máculas de Três Mil Anos**
-*[Orientação Divina (8 de outubro de 1951) - Registros das Orientações Divinas, nº 3, publicado em 25 de novembro de 1951]*
-
-Sem purificar máculas de três mil anos atrás, das quais nem temos consciência, não é possível servir verdadeiramente à Obra Divina. Quando falamos de máculas e impurezas, existem as de três gerações passadas, mas também existem as de três mil anos atrás. É preciso purificar tudo isso.
-
-### IV. O Servir e a Proteção Divina
-
-**1. O Princípio da Proteção Divina em Relação ao Servir**
-*[A Racionalidade da Fé e a Repurificação - Revista Glória, nº 210, publicada em 27 de maio de 1953]*
-
-Se atribuirmos à vida o valor dez, uma gratidão de valor dez representaria um equilíbrio. Contudo, se a gratidão for superior a dez, o excedente se torna um acréscimo, e Deus nos abençoa com graças muitas vezes maiores.
-
-*(Nota: Recomenda-se a leitura prévia dos itens 1, 2 e 3 da seção "O Servir Financeiro e a Purificação das Máculas".)*
-
-**2. A Pobreza Resulta da Falta de Servir**
-*[Orientação Divina (1º de dezembro de 1951) - Registros das Orientações Divinas, nº 5, publicado em 25 de dezembro de 1951]*
-
-Quando se acumula dinheiro, o fluxo de entrada diminui. Se, nesse momento de fluxo reduzido, ocorre um infortúnio, a situação se torna extremamente difícil. Isso é especialmente verdadeiro em relação às coisas de Deus. Não costumo falar muito sobre dinheiro, mas a razão pela qual uma unidade religiosa enfrenta dificuldades financeiras é porque não serve o suficiente. Há uma cota de serviço a ser cumprida. Se não se atinge essa cota, contrai-se uma dívida pelas graças recebidas. É por isso que as coisas não vão bem. O dinheiro pertence a Deus; ao servi-Lo, a situação se alivia.
-
-**3. A Graça em Resposta ao Servir se Manifesta Claramente**
-*[Orientação Divina (1º de dezembro de 1952) - Registros das Orientações Divinas, nº 16, publicado em 15 de dezembro de 1952]*
-
-*"Outro ponto é que, aos olhos humanos, julgamos as pessoas de diversas formas, mas o que é mais claro e evidente para todos é a diferença entre dez mil e vinte mil ienes. Além disso, a continuidade do servir ao longo do tempo é o que atrai as maiores graças."*
-
-Exato. A manifestação é clara. O princípio é, em essência, simples. Não há nada de complicado. Na verdade, é comum que as pessoas não entendam justamente por ser simples demais. É o mesmo que curar doenças com Johrei. Os médicos fazem um grande alvoroço e não conseguem curar, então pensam: "Como algo assim poderia curar?". Muitas vezes, a simplicidade excessiva é o que impede a compreensão. Isso ocorre porque, até agora, vivíamos em um mundo complicado e laborioso. É como viver em um lugar escuro e não conseguir enxergar, mas, na claridade, tudo se torna visível. Como se trata de um fenômeno espiritual e não material, não é imediatamente compreendido. Consequentemente, surgem várias dificuldades de entendimento. E essa é uma parte de nossa missão.
-
-**4. O Equilíbrio entre o Dinheiro para Servir e o Dinheiro para Uso Pessoal**
-*[Sermão (27 de maio de 1953) - Coletânea de Ensinamentos, nº 22, publicada em 15 de junho de 1953]*
-
-Receber uma graça tão grande, a ponto de ter a vida salva, e depois esquecer-se disso, ou gastar rios de dinheiro com futilidades e ofertar apenas uma ninharia em agradecimento, é algo que não faz sentido. Portanto, como disse anteriormente, tudo precisa seguir uma lógica.
-
-**5. Aqueles que São Úteis à Obra Divina São Invariavelmente Salvos**
-*[Sermão (27 de junho de 1953) - Coletânea de Ensinamentos, nº 23, publicada em 15 de julho de 1953]*
-
-Quando alguém suplica "por favor, salve minha vida, cure minha doença", a resposta de Deus é: "Você não está na fé? Eu cuidarei de tudo da melhor forma. Não precisa implorar com tanta insistência. Não me agrada ser visto como alguém desumano. Já que você confia em mim, eu salvarei sua vida de qualquer maneira." Nas fés tradicionais, a ideia de que Deus só ajuda quem faz abluções, jejuns ou peregrinações não provém do Deus verdadeiro, mas sim de espíritos malignos. O amor de Deus é vasto e profundo; tudo depende do ser humano. Se a pessoa confia e entrega tudo a Ele, Deus, por Sua vez, não tem como não salvar. Ao receber essa confiança, a responsabilidade de Deus se torna ainda maior. Portanto, quando nos entregamos a Deus, Ele pode nos ajudar plenamente. Essa forma de pensar também reflete a diferença entre as perspectivas do Pequeno Veículo e do Grande Veículo. E, do ponto de vista de Deus, aqueles que são úteis à Sua Obra serão salvos, custe o que custar.
-
-**Apêndice 1: Exemplo de um Aviso por Negligenciar a Gratidão pela Proteção Divina**
-*[Orientação Divina (8 de setembro de 1951) - Registros das Orientações Divinas, nº 2, publicado em 10 de outubro de 1951]*
-
-*"Na casa da irmã de uma fiel devota, o poço estava seco há cerca de vinte anos. Foi-lhe dito que seria bom orar à imagem de Komyo Nyorai, e assim o fez. Na primeira vez, conseguiu tirar um balde de água. Na segunda e na terceira, a água que saía era de excelente qualidade. A fiel mais velha aconselhou-a a servir com dez ienes por dia em agradecimento. Após uns vinte e cinco dias, a gratidão diminuiu, o desejo de servir desapareceu, e as irmãs brigaram. A mais velha disse que, como ela apenas recebeu o benefício sem agradecer, a água pararia de jorrar, e, de fato, dois ou três dias depois, o poço secou. Sentindo a inconveniência, a irmã mais nova orou novamente, mas desta vez saiu uma água escura. A outra lhe disse: 'Isso é porque você ainda está impura.' Recentemente, a água passou a sair avermelhada."*
-
-Em suma, o problema foi, primeiramente, o esquecimento da graça recebida. Essa é a mácula. Pessoas com esse tipo de espírito possuem muitas impurezas, e Deus as está purificando através da água. É um processo necessário. Portanto, está tudo bem. Acontece o mesmo com doenças. Pessoas que, ao receberem uma graça e melhorarem, ficam comovidas e prometem se dedicar à fé, mas depois não o fazem. Mais tarde, ao receberem um alerta, retomam a dedicação com afinco, mas há casos em que acabam falecendo por causa disso. É tudo muito claro e direto.
-
-**Apêndice 2: A Participação nos Cultos Pode Ser Impedida se a Gratidão pela Proteção For Insuficiente**
-*[A Luz dos Ensinamentos (Paraíso Terrestre, nº 48), publicado em 25 de maio de 1953]*
-
-*"Ingressei na fé em outubro de 1949. Tenho o Gohonzon e a Imagem de Kannon em meu lar. Minha família é composta por minha esposa, minha filha mais velha e eu; todos os três somos membros. Atualmente, trabalho com a fabricação de caixas de papel e, desde que entrei para a fé, tenho recebido inúmeras proteções e meu negócio tem prosperado, pelo que vivo em constante gratidão. Para o Grande Culto da Primavera deste ano, em 27 de março, minha esposa e minha filha planejavam participar. No dia 26, por volta das quatro da tarde, elas, juntamente com outro fiel, pegaram nosso triciclo de carga para ir ao ponto de ônibus. A uma pequena distância de casa, havia sete ou oito crianças brincando na beira da estrada. Quando estávamos a uns dois ken de distância, um menino de quatro anos saltou para o meio da rua. Assustado, o motorista freou bruscamente, mas, com o impulso, o para-choque dianteiro empurrou a criança, que caiu em uma pequena vala e feriu a parte de cima da orelha em uma pedra. Imediatamente, saltei do veículo, peguei a criança no colo e apliquei Johrei. Graças à proteção Divina, em cerca de vinte minutos a dor e o sangramento cessaram. Fui à casa da criança, pedi desculpas aos pais e falei sobre o Johrei, mas, como eles não são membros, acabaram levando-o a um médico. O motorista era um funcionário meu, não-membro. Este foi o terceiro acidente desde que compramos o veículo, em maio de 1952. Devido a este incidente, nenhum dos três fiéis pôde participar do Grande Culto da Primavera. Desde que ingressei na fé, sempre tivemos a permissão de participar dos Grandes Cultos de Primavera e Outono sem problemas. Sinto que isso foi um aviso. Qual seria a forma correta de compreender esta situação? Humildemente, peço sua orientação."*
-
-*(Nota: O trecho da pergunta foi corrigido para refletir o texto original da publicação "Paraíso Terrestre", pois a versão do "Guia de Preleção" estava bastante alterada.)*
-
-Obviamente, trata-se de um aviso. Se refletir com cuidado, certamente encontrará o motivo. A causa mais provável em situações assim é quando a gratidão pela proteção recebida é muito pequena. Por exemplo, se você recebe uma graça de valor dez e agradece com o valor cinco, os cinco restantes se tornam uma dívida com Deus. Se você não a quita, os espíritos ancestrais lhe enviam um aviso.
-
-**Apêndice 3: Não Há Problema em Agradecer pela Proteção Divina em Segredo**
-*[Orientação Divina (8 de outubro de 1951) - Registros das Orientações Divinas, nº 3, publicado em 25 de novembro de 1951]*
-
-*"A esposa é muito dedicada à fé e traz donativos de gratidão pela proteção divina às escondidas do marido. Isso está correto?"*
-
-Não há problema algum. É um ato louvável. Quem está errado é o marido. É como as autoridades que me perseguem. Elas estão erradas. Minha postura é correta.
-
-### V. Uma Análise Rigorosa
-
-*(Nota: Leia em conjunto com o item 1-18 "A Oração de Proteção Divina".)*
-
-**1. A Relação entre o Amor de Deus e a Lei Divina**
-*[Sermão (26 de maio de 1953) - Coletânea de Ensinamentos, nº 22, publicada em 15 de junho de 1953]*
-
-Deus é amor, mas se algo contraria a lógica Divina, Ele nada pode fazer. Deus deseja conceder graças ilimitadas, mas a pessoa não tem a qualificação para recebê-las. É como se Ele quisesse encher a carteira ou o cesto de alguém com dinheiro, mas não pudesse fazê-lo porque há algo sujo dentro. Basta limpar. Portanto, quando o ser humano deseja ter sua vida salva, ele mesmo deve criar as condições para ser salvo. Se não o faz, Deus, que também segue Suas próprias regras e não pode quebrá-las, fica impossibilitado de ajudar, mesmo que o deseje.
-
-**2. Deve-se Servir com Metade da Graça Recebida**
-*[Sermão (1º de dezembro de 1952) - Registros das Orientações Divinas, nº 16, publicado em 15 de dezembro de 1952]*
-
-*"Eu penso o seguinte: o jornal Glória publica muitos relatos de graças, mas as pessoas que recebem os maiores milagres não expressam sua gratidão em donativos. Quando lhes pergunto se, havendo níveis A, B, C e D, elas gostariam de cair do nível A para o B, elas respondem: 'Não, realmente estávamos errados'."*
-
-A bem da verdade, se fôssemos atribuir um valor à graça de ter uma vida que estava perdida sendo salva, a pessoa deveria estar disposta a sacrificar qualquer coisa. Se ela recebe uma graça de valor cem e agradece com dez, os noventa restantes se tornam uma dívida. Com essa dívida, as graças futuras diminuem. Falando de forma rigorosa, é assim que funciona. No entanto, a maioria das pessoas, ao receber uma graça de cem, agradece com cinquenta, na melhor das hipóteses, pois se dessem tudo, ficariam sem nada. Mas, ao agradecer com vinte ou trinta, a diferença se torna um débito, e a situação futura piora.
-
-Por outro lado, se ofertamos dinheiro, ele geralmente retorna multiplicado por dez. Se uma religião faz com que as pessoas empobreçam ao doar, é melhor abandonar a fé. Isso significa que o Deus daquela religião não tem poder.
-
-*"Por isso, eu digo às pessoas: 'Façam como eu digo. Se não der certo, eu assumo a responsabilidade. Experimentem'."*
-
-Normalmente, não falo muito sobre essas coisas, para não sermos confundidos com religiões exploradoras como a Tenrikyo. Mas hoje, como não estou falando com fiéis em geral, mas com pessoas que estão no nível intermediário ou avançado da fé, eu o faço. A verdade é essa. E isso se aplica a tudo. Hoje, no mundo, as pessoas têm pavor de um simples resfriado ou de contrair tuberculose, mas, ao ingressar na Igreja Messiânica, essa preocupação desaparece. A própria atitude de encarar a doença como algo positivo já é uma graça imensa. Em todo o mundo, não há povo que tema menos a doença do que os fiéis da Igreja Messiânica. Portanto, se você se entregar a Deus e disser "faça como quiser", Ele jamais o desamparará. O que ensinamos é algo sem precedentes; é muito difícil para a mentalidade religiosa comum do mundo compreender isso.
-
-**3. Quem Teve a Vida Salva Deve Servir Arriscando a Própria Vida**
-*[A Racionalidade da Fé e a Repurificação - Revista Glória, nº 210, publicada em 27 de maio de 1953]*
-
-Se um doente grave, já conformado com a morte e em estado de desespero, obtém a cura completa, é natural que, acima de tudo, ele se dedique a retribuir a graça de Deus com todas as suas forças. Essa é a atitude racional. Se, ao contrário, ele se esquece disso, está apenas se apropriando da graça, demonstrando uma ingratidão extrema.
-
-Para explicar este princípio de forma ainda mais clara: se atribuirmos à vida o valor dez, uma gratidão de valor dez representaria um equilíbrio. Contudo, se a gratidão for superior a dez, o excedente se torna um acréscimo, e Deus nos abençoa com graças muitas vezes maiores. Em contrapartida, se a gratidão for de valor cinco, a diferença de cinco se torna um débito, uma dívida com Deus. Se a pessoa se apressar em quitá-la, tudo bem. Mas se negligenciar, os juros se acumulam e a dívida aumenta. Nesse ponto, não há diferença com o mundo material; é a lei da correspondência. Quando a dívida atinge um certo patamar, o Tribunal Divino envia uma intimação ou uma ordem de penhora. Isso é a repurificação. Se a pessoa, ao perceber isso, se arrepende sinceramente e paga o principal mais os juros, é natural que seja salva.
-
-**4. Deus Se Tornará Progressivamente Mais Rigoroso**
-*[Por que nos Tornamos a Igreja Messiânica - Paraíso Terrestre, nº 14, publicado em 20 de março de 1950]*
-
-Dizem também que o Messias e o Juízo Final estão intimamente relacionados, o que tem um profundo significado, pois corresponde ao que sempre ensinamos sobre o fim da Noite e o início do Dia.
-
-Para os fiéis, a questão de maior interesse deve ser que tipo de mudança ocorrerá quando a atuação de Kannon Bosatsu se tornar a atuação de Deus. Como tenho dito repetidamente, a salvação que antes não distinguia o bem do mal passará a fazê-lo, separando-os com clareza. Isso significa que a proteção ao bem se tornará cada vez maior e que o mal, de forma diferente do que ocorria até agora, será julgado com crescente rigor. É fundamental gravar profundamente este ponto em seus corações e seguir em frente. Para isso, o mais importante é ler as Escrituras Divinas o máximo possível.
-
-Deus, para construir Seu ideal de um Paraíso Terrestre de Verdade, Bem e Belo, precisa corrigir rigorosamente aqueles que têm o coração impuro e vivem no erro.
-
-**5. Aqueles que Não Compreendem Bem São Removidos por Deus**
-*[Sermão (1º de abril de 1952) - Registros das Orientações Divinas, nº 8, publicado em 25 de abril de 1952]*
-
-Ajudar as pessoas, salvar mesmo que seja um único doente, devolvendo-lhe a saúde. Se o mérito de salvar um já é grande, imagine salvar dez ou cem. Isso agrada a Deus, então basta que se dediquem a isso. Pensar de forma complicada torna tudo complicado; pensar de forma simples torna tudo simples.
-
-Teremos muitos fiéis, e seu número aumentará cada vez mais. Entre eles, haverá pessoas equivocadas e outras completamente descabidas. É natural que isso aconteça em um grupo grande. Mas Deus reúne todas elas — são pessoas que têm afinidade espiritual. Falarei sobre afinidade em outra oportunidade. E, a partir desse grupo, Ele faz uma seleção. Como resultado, surgem aqueles que são inúteis, pessoas cuja ausência seria benéfica, que não têm qualificação para viver. E essas pessoas precisam ser removidas da Igreja.
-
-Se a própria Igreja as expulsa, elas guardam rancor, e esse sentimento se torna um obstáculo. Para evitar isso, Deus cria uma situação de equívoco. É a afinidade espiritual em ação. A pessoa que está prestes a ser removida acaba acreditando nesse equívoco. Deus age da maneira mais apropriada. Alguns podem se preocupar e lamentar o afastamento de alguém, mas Deus cria um líder que cumpre o papel de remover da Igreja aqueles que não são necessários.
-
-### VI. A Perspectiva Centrada na Obra Divina
-
-**1. A Visão do Grande Veículo sobre os Donativos para Servir**
-*[Discurso de Luz (Edição Especial de maio de 1949) - Registros dos Discursos de Luz, nº 8, publicado em 30 de maio de 1949]*
-
-Muitos comentam: "A Igreja Kannon tem dinheiro, sabe como ganhá-lo". Mas, para salvar um grande número de pessoas hoje em dia, o dinheiro é absolutamente necessário. Por mais maravilhoso que seja o poder e sublimes que sejam os ensinamentos, sem uma estrutura adequada, nada se pode fazer. Para construir o Paraíso Terrestre, precisamos de um protótipo, e é esse protótipo que estou construindo. Para qualquer empreendimento, o dinheiro é indispensável. Se o objetivo de arrecadar fundos é este, não há nada de errado. Uma grande salvação exige muito dinheiro.
-
-Antigamente, como no caso de Shinran, dizia-se: "Cinquenta anos com vestes de papel". Talvez não tenham sido cinquenta anos, mas a ideia é que ele vivia com extrema simplicidade. Nichiren também pregou a lei como um monge mendicante. Mas os tempos são outros. Hoje, se agirmos assim, a sociedade não nos dará atenção. A era em que se viajava a pé com sandálias de palha ou em palanquins é diferente da era dos automóveis e aviões. Não se pode salvar o mundo inteiro andando por aí com sandálias de palha como antigamente. No entanto, ainda há pessoas presas a conceitos ultrapassados, que só valorizam a religião se ela for praticada com simplicidade, austeridade e uma aparência de miséria. É uma mentalidade lamentável.
-
-A verdade é que o fundamento da fé é diferente. A fé antiga, a fé que existiu até hoje, era ascética. Comer mal, vestir-se com farrapos, morar em casebres, tudo isso era considerado virtuoso. Mas isso está errado. Se flores belas desabrocham e paisagens magníficas existem, não foi porque Deus as criou em vão; Ele as criou para o deleite do ser humano. O mesmo se aplica aos alimentos saborosos. Foram criados para nos dar prazer. Portanto, comer intencionalmente o que é ruim e vestir-se de forma precária constitui uma forma de rebelião contra a Vontade Divina.
-
-O Paraíso que estamos construindo é um mundo de Verdade, Bem e Belo. O que é o Belo? Morar em uma casa bonita, vestir trajes elegantes, saborear uma boa comida, isso não é Belo? A maior prova disso é que os espíritos malignos detestam flores. Vejam a flor arranjada naquele tokonoma. É por isso que sempre digo que os ambientes devem ser adornados com flores. Oferecer flores nos altares budistas tem o mesmo propósito. As flores exercem uma influência extremamente positiva no Mundo Espiritual. Em minha casa, quase todos os locais têm flores; praticamente não há cômodo sem elas.
-
-**2. A Perspectiva Centrada na Obra Divina 2**
-*[Orientação Divina (1º de abril de 1953) - Registros das Orientações Divinas, nº 19, publicado em 15 de abril de 1953]*
-
-Isso também precisa ser considerado sob a ótica do Grande Veículo. O fato de a Igreja Messiânica arrecadar muito dinheiro é, por vezes, mal interpretado como se estivéssemos apenas buscando lucro — embora isso tenha mudado bastante após a construção do museu. No entanto, para salvar o maior número possível de pessoas, é necessário ter instalações e uma estrutura igualmente grandiosas. Sem isso, não se pode salvar tantas pessoas. Nesse sentido, precisamos de todo o dinheiro possível. É bom ser ambicioso nesse aspecto.
-
-A atitude de desprezar o dinheiro, especialmente comum entre os japoneses, surge porque ele é frequentemente usado para o mal e porque o próprio dinheiro está impuro. Contudo, se usado para o bem, não há nada mais conveniente e poderoso. É por isso que também estou envolvido com mineração; não sou ingênuo quando se trata de ganhar dinheiro. Mas esse dinheiro tem o propósito de salvar muitas pessoas, e, dessa forma, consigo salvar ainda mais gente.
-
-Para exemplificar, quando as pessoas veem um templo imponente e jardins magníficos, pensam: "Isso deve ser algo grandioso, deve ter valor". E, ao entrarem, são salvas. Portanto, agir como um monge mendicante, como se fazia antigamente, pode até ser admirado muitos anos após a morte, mas não serve para salvar a humanidade rapidamente. Essa é a diferença entre a mentalidade do Pequeno Veículo e a do Grande Veículo. Até agora, a mentalidade do Pequeno Veículo predominou. O Japão, com sua estrutura vertical e hierárquica, era muito afeito ao Pequeno Veículo. Já os Estados Unidos são mais alinhados ao Grande Veículo; eles acreditam que se pode conseguir qualquer coisa com dinheiro, e foi por isso que se desenvolveram tanto. É preciso harmonizar ambos. Tanto a estrutura vertical quanto a horizontal são necessárias. A verdadeira solução está em equilibrá-las. E quem realiza essa harmonização é a Igreja Messiânica.
-
-**3. A Perspectiva Centrada na Obra Divina 3**
-*[Orientação Divina (1º de abril de 1952) - Registros das Orientações Divinas, nº 8, publicado em 25 de abril de 1952]*
-
-Mudando de assunto, havia um homem chamado Kanahori Kichiji, um mestre em encontrar ouro. Minamoto no Yoritomo o convocou à força, ameaçando-o de morte caso não obedecesse. Ele foi levado a Kamakura e forçado a encontrar ouro. Foi a descoberta da mina de Oito, em Izu, que permitiu a Yoritomo conquistar o poder. A base da península de Izu tem ouro, e ainda há muito lá. Desde a antiguidade, quem conquista o poder o faz através do ouro. Hideyoshi também. E os Tokugawa, com o ouro da Ilha de Sado. Quando o ouro de Sado se esgotou, o xogunato Tokugawa entrou em colapso. Se Sado ainda estivesse produzindo ouro, a Restauração Meiji não teria acontecido.
-
-Por isso, penso que, mesmo sendo uma religião, o dinheiro é fundamental. Aliás, para salvar o mundo através da religião, precisa-se de mais dinheiro do que para conquistá-lo pela guerra. Várias religiões surgiram ao longo da história, mas, em parte por causa do baixo nível de desenvolvimento cultural, elas ignoraram a importância do dinheiro. O dinheiro passou a ser visto como algo pecaminoso. Isso se deve à fé do Pequeno Veículo, que o considera um mal. No entanto, o dinheiro, se usado para o bem, é algo bom. Para publicar livros, para viajar, para tudo é preciso dinheiro. Portanto, o dinheiro é extremamente necessário.
-
-### VII. Ao Orientar as Pessoas sobre o Servir
-
-**1. Servir Dirigindo-se a Deus, Não às Pessoas**
-*[Sermão (15 de abril de 1952) - Coletânea de Ensinamentos, nº 9, publicada em 15 de maio de 1952]*
-
-Em outras fés, quando alguém faz uma doação, eles costumam afixar uma placa com o nome do doador e o valor. Nós não fazemos nada disso. Ninguém sabe quem doou quanto. A ideia de enaltecer alguém por sua doação não se aplica aqui. Pode haver o desejo de que Deus veja, mas o ser humano não é o nosso público. Nós nos dirigimos a Deus, para que Ele veja. Essa é a postura correta. A mentalidade deve ser centrada em Deus: ser visto e aprovado apenas por Ele. Isso é o suficiente. Quem pensa assim certamente receberá uma proteção abundante.
-
-**2. No Servir, o Pensamento é Essencial**
-*[Orientação Divina (1º de julho de 1953) - Registros das Orientações Divinas, nº 22, publicado em 15 de julho de 1953]*
-
-*"Parece-me que, dependendo da forma e do pensamento com que se serve, podem surgir obstáculos. O que o senhor pensa sobre isso?"*
-
-Você se refere à graça? Quando eu estava na Oomoto, uma pessoa pediu um donativo a outra. O doador, a caminho de Ayabe, acabou gastando o dinheiro com gueixas. Poderia parecer um desperdício, mas não é. O pensamento de doar chega imediatamente a Deus. "O espírito da doação já foi entregue; apenas o corpo material foi usado para outra coisa. Não há problema. O mesmo se aplica se a pessoa decide doar, pega o dinheiro e o gasta no caminho." Foi o que me disseram, e eu achei que fazia sentido. O que importa é o pensamento de querer doar.
-
-O exemplo mais claro disso é o de um espírito recém-falecido que se queixava de uma dor de garganta insuportável. Perguntei-lhe: "Sua família lhe ofereceu água, não foi?". Ele respondeu: "Sim, mas o pensamento deles era ruim, por isso não consigo beber." Quando a água é oferecida com o desejo sincero de que o espírito a beba, ele consegue. Mas se a tarefa é delegada a uma empregada, ou feita por obrigação, o pensamento está errado, e a água não tem um bom sabor ou simplesmente não pode ser bebida. Nas questões espirituais, o pensamento é fundamental. O espírito precede a matéria; o espírito é o principal. Se você doa com o sentimento de "estou ofertando esta quantia", não importa se o dinheiro se perde no caminho.
-
-**3. Servir de Acordo com a Própria Condição**
-*[Discurso de Luz (setembro/outubro de 1949) - Registros dos Discursos de Luz, nº 15, publicado em 20 de dezembro de 1949]*
-
-Os ricos devem fazer grandes doações de gratidão. Se tiveram a vida salva, deveriam doar metade de seus bens. Por isso, eu costumava dizer: "Ainda não recebi a gratidão, apenas a taxa de serviço" (risos). De fato, ter a vida salva é algo de imenso valor. Portanto, a atitude correta é doar com alegria o que se pode, e também aceitar essa doação.
-
-**4. Para Aqueles que São Pobres e Não Podem Servir com Dinheiro**
-*[Orientação Divina (1º de dezembro de 1952) - Registros das Orientações Divinas, nº 16, publicado em 15 de dezembro de 1952]*
-
-*"No caso da purificação da pobreza, a pessoa não consegue sair dessa condição por ter impurezas. Mas se a incentivamos a se dedicar ao servir..."*
-
-Isso depende da posição no Mundo Espiritual. Quem é pobre está em uma posição espiritual de pobreza. O estrato em que se encontram é o mundo espiritual dos pobres. Estar ali significa que possuem os elementos correspondentes a essa condição. À medida que sobem, chegam a um mundo onde a pobreza é bem mais branda. E, em um nível ainda mais alto, encontram-se no mundo dos abastados. É assim que funciona; é uma questão de posição no Mundo Espiritual. Não há o que fazer a não ser subir de posição. E, para subir, é preciso purificar-se. Isso se consegue através do próprio sofrimento ou pelos méritos e esforços em salvar os outros, o que acelera a ascensão. Chegando a um nível mais elevado, a pessoa é abençoada com bens materiais e entra em um mundo de coisas boas. Se ainda não atingiu esse ponto, pode chegar a um nível intermediário. Em suma, o mais importante é elevar o estado e a posição espiritual.
-
-*"Mestre, o senhor costuma dizer que algumas pessoas não são inteligentes..."*
-
-Isso também. Pense como se fosse uma montanha. De um ponto mais alto, a visão é melhor. Não ser inteligente significa estar em um ponto baixo, de onde se vê muito pouco. Do topo, pode-se ver tudo, e por isso se é inteligente.
-
-*"As pessoas frequentemente perguntam qual a melhor maneira de acumular virtudes. Eu digo que o melhor é ajudar no trabalho do Messias, Meishu-Sama."*
-
-Essa é uma forma indireta de dizer. Diretamente, significa fazer as pessoas felizes. Em suma, é acumular virtudes. E isso, por sua vez, se torna uma ajuda ao meu trabalho.
-
-**5. O Equilíbrio entre a Sinceridade no Servir e o Egoísmo**
-*[Sermão (1º de junho de 1953) - Registros das Orientações Divinas, nº 21, publicado em 15 de junho de 1953]*
-
-Quando a vida está em perigo e a morte parece inevitável, a pessoa pensa: "Não importa quanto custe, estou disposto a abrir mão de todos os meus bens para ser salvo". Com o tempo, ela melhora, e a preocupação com a vida desaparece. Então, a ganância ganha força, e surgem desejos como "preciso usar o dinheiro para isso ou aquilo". E, sem perceber, a pessoa se esquece do sentimento que tinha quando estava à beira da morte e se torna egoísta. Isso acontece com todo mundo; eu mesmo já passei por isso.
-
-O pensamento que se tem durante a doença é verdadeiro. E o surgimento posterior da ganância também é, de certa forma, inevitável. A chave está em encontrar o equilíbrio. Há pessoas que, depois de salvas, pensam "agora estou ótimo" e agradecem com menos da metade ou um terço do que haviam pensado inicialmente. Foi por isso que escrevi e falei sobre a repurificação.
-
-No final, tudo se resume à "medida certa". Quando se pende para um dos lados, surgem problemas e excessos. A "medida certa" é a manifestação de Izunome. Certa vez, li um escrito de Yamaoka Tesshu com o ideograma "medida" em tamanho grande e, abaixo, em letras pequenas: "Tudo na vida humana se resume a este único caractere". Achei uma frase excelente, que expressa a verdade de forma muito concisa. O caractere para "medida" é extraordinário. A atuação de Izunome, se expressa em um único ideograma, seria "medida". "Medida" é como o clima na primavera e no outono, a justa medida entre o calor e o frio. Representa o ato de se ajustar ao ponto exato, sem pender para nenhum extremo.
-
-**6. A Forma de Servir Não Pode Ser Fixa**
-*[Sermão (1º de abril de 1952) - Registros das Orientações Divinas, nº 8, publicado em 25 de abril de 1952]*
-
-① **O Dinheiro é Mais Útil que a Vida**
-
-*"Um líder tem dito que não é preciso dar dinheiro, basta oferecer a vida, e que os ministros que pedem dinheiro estão obsediados por espíritos malignos. Ele também diz que, primeiro, o lar de cada um deve se tornar um Paraíso Terrestre, e só depois se deve servir. Diz que é natural pregar isso depois que a própria família já é um modelo de Paraíso Terrestre. Isso tem causado polêmica. Eu argumento que Cristo disse 'o Reino dos Céus está próximo', e Buda pregou a 'extirpação do sofrimento e a concessão da alegria', mas Meishu-Sama está construindo o Paraíso na Terra, e para isso o dinheiro é necessário. Mesmo assim, não consigo convencê-los. Eles dizem que..."*
-
-Vou explicar detalhadamente. As pessoas vivem dizendo que vão "dar a vida" ou "dedicar a vida", mas isso é um grande incômodo. Receber a vida de alguém não me serve para nada. O dinheiro é muito mais útil. É com a vida que se pode servir. Por isso, peço que parem com essa ideia de oferecer a vida. Quero que sirvam sem oferecê-la. Esse discurso de "oferecer a vida" é uma relíquia do militarismo. Foi o exército que criou essa moral.
-
-② **As Diferenças na Forma de Servir de Acordo com o Grau de Fé**
-
-Quanto ao dinheiro, a ideia de doar apenas o que sobra, o que se pode dar sem dificuldade, também está correta. Não há problema nisso. Por outro lado, se a pessoa sente que só isso não é suficiente, que recebeu uma graça tão grande que desejaria dar a própria vida, e por isso quer servir com dinheiro, mesmo que pouco, para a Igreja, isso também está correto. Economizar em outras coisas para doar também é uma atitude verdadeira. Nenhuma das posturas está errada. Cada um deve agir de acordo com o que sente. O erro está em determinar "isto está errado, isto é o certo". As pessoas têm diferentes graus de fé, mais rasos ou mais profundos, e por isso suas formas de pensar divergem. E está tudo bem.
-
-Se uma pessoa quer mostrar aos outros um lar próspero e sem dificuldades materiais, isso é excelente. No entanto, ambas as formas de pensar, se levadas ao extremo, se tornam um problema. É preciso agir com a justa medida de Izunome. Se alguém deseja servir com dinheiro, mas sua família passa por grandes dificuldades, e os vizinhos comentam "eles mal têm o que comer, não quero me envolver com a Igreja Messiânica", isso não é bom. Por outro lado, a atitude de "vou servir quando sobrar dinheiro" não corresponde à magnitude da graça recebida. Doar dinheiro é uma forma de agradecer a Deus. A rigor, se a pessoa teve uma vida que estava perdida sendo salva, ela poderia doar tudo. Comparem: se perguntassem "o que você prefere, seus bens ou sua vida?", todos diriam a vida. De que adianta ter bens sem ter vida? Isso também é lógico. Mas, por outro lado, se a doação levar os parentes a comentarem "de que adianta ter a vida salva para viver assim?", gerando mal-entendidos, também não é bom. Portanto, a chave é a justa medida.
-
-Todos carregam um fardo pesado de máculas. Salvar os doentes é excelente, e servir com dinheiro para acelerar a construção do Paraíso Terrestre também é excelente. É preciso encontrar o equilíbrio. É difícil, mas cada um deve agir de acordo com o que considera apropriado para si. As questões e os princípios da fé devem ser aprimorados lendo as Escrituras Divinas e, no caso dos ministros, fazendo-me perguntas e ouvindo minhas palavras. E, no dia a dia, aprendendo e questionando os responsáveis e pioneiros.
-
-③ **Não Criticar a Forma de Agir dos Outros**
-
-O pior de tudo é dizer "fulano não deveria fazer isso" ou "ciclano está errado". Julgar se uma pessoa está certa ou errada é algo que o ser humano não pode fazer. Apenas Deus sabe. Dizer que alguém é um espírito maligno ou está obsediado é usurpar o papel de Deus, o que é algo muito grave.
-
-Portanto, não olhem para os outros; olhem para si mesmos. Perguntem-se se vocês estão errados ou não. Essa é a verdadeira sinceridade. Muitos acreditam que é bom repreender ou advertir quem está no erro, mas isso é um equívoco tremendo. Na sociedade em geral, pode até ser aceitável, mas para um membro de nossa Igreja, não é. Se a pessoa estiver errada, Deus se encarregará de corrigi-la. É simples. Se não fosse assim, o poder do homem estaria acima do poder de Deus. Eu escrevi sobre isso, e será publicado no jornal. Nesse ponto, somos muito diferentes do mundo em geral. E essa é a essência sutil da fé.
-
-Em suma, o erro está em querer definir tudo. Quem define, erra. Há coisas que não podem ser definidas. Portanto, o princípio geral é não definir, mas, quando for necessário, definir. Isso varia de acordo com a situação. E decidir não decidir também é um erro. É aí que reside o estado de infinitas transformações, de mistério profundo e sutileza. Quem se aproxima, ainda que minimamente, desse estado, é alguém que está verdadeiramente polindo seu espírito e sua alma. Isso não existe nas fés até hoje. É uma fé de alto nível. A fé de uma pessoa assim não está errada, pois essa é a verdade.
-
-**Apêndice: A Fé Deve Progredir à Medida que se Acumulam Experiências de Proteção Divina**
-*[Sermão (5 de dezembro de 1953) - Coletânea de Ensinamentos, nº 29, publicada em 15 de janeiro de 1954]*
-
-Quando vamos à casa de um doente a pedido, se formos com alegria, a cura certamente será mais eficaz. Vamos porque sabemos que ele vai se curar, e é por isso que o resultado é bom. Quanto mais agirmos com leveza, mais progrediremos. É nisso que nos diferenciamos do mundo até agora. No entanto, o ser humano adquiriu diversos hábitos e se acostumou a sofrer, achando isso normal. Eu mesmo passo por isso constantemente. Quando as coisas não saem como eu quero, quando não dão certo, percebo: "Ah, eu estava agindo com sofrimento". Então, abandono aquilo e me dedico a outra coisa.
-
-Além disso, o tempo certo é um fator de suma importância. Mesmo que um plano seja bom e fadado ao sucesso, se o tempo ainda não chegou, ele não prosperará como o esperado. O problema não é o que se faz, mas o fato de o momento não ser o correto. É preciso ter a sabedoria e a percepção para discernir isso.
-
-Outro ponto crucial é a ordem. Às vezes, algo que deveria dar certo, que deveria acontecer, encontra um obstáculo e não avança. Nesses momentos, ao refletir, percebemos que a ordem dos fatores está invertida. Ao corrigir a ordem, tudo flui sem problemas. A capacidade de identificar rapidamente essas questões é a sabedoria e a percepção.
-
-**7. Comparação entre as Perspectivas do Grande Veículo e do Pequeno Veículo sobre o Servir**
-*[Sermão (7 de junho de 1952) - Coletânea de Ensinamentos, nº 11, publicada em 15 de julho de 1952]*
-
-Outro ponto perigoso é ouvir as coisas e acreditar nelas literalmente. Mesmo que ouçam algo que pareça bom, primeiro devem refletir: "Isto está de acordo com a Vontade de Deus?". Se perceberem que há pontos que não se alinham, devem consultar as Escrituras Divinas. A maioria das questões está abordada em algum lugar, e é com base nisso que se deve julgar. É comum haver equívocos por esse motivo.
-
-Recentemente, aconteceu o seguinte: um fiel começou a dizer que, como a Igreja Messiânica está construindo o Paraíso e o lar também deve se tornar um Paraíso, o dinheiro só deve ser doado quando sobra. Apenas o que não compromete a situação financeira. Assim, não haveria sofrimento por causa do dinheiro, e essa seria a forma correta. Doar sofrendo criaria um sofrimento, o que iria contra a Vontade de Deus. É a velha ideia de que "a fé é para o que sobra da virtude". Ao ouvir isso, outro fiel ficou impressionado, e essa ideia começou a se espalhar, a ponto de as pessoas dizerem que seus lares não se tornavam um paraíso porque doavam com sacrifício.
-
-Por outro lado, havia a visão de que Deus, neste momento, precisa muito de dinheiro e que, mesmo com algum sacrifício, as pessoas deveriam doar. As duas teses entraram em conflito, mas a segunda parecia estar perdendo. A primeira ganhava força. Como a situação estava ficando confusa, chamei os envolvidos e expliquei.
-
-Minha explicação foi a seguinte: a primeira ideia, de não comprometer o lar, está correta. Sem dúvida. E a segunda, de que Deus precisa de muito dinheiro para construir rapidamente o Paraíso Terrestre e salvar a humanidade, e que, por isso, devemos doar de qualquer maneira, mesmo com sacrifício, também está correta. Ambas estão certas. A diferença é que uma é a perspectiva do Pequeno Veículo e a outra, a do Grande Veículo. A primeira é a do Pequeno Veículo. A segunda é a do Grande Veículo.
-
-Mas será que quem doa seguindo a segunda perspectiva sofre? De modo algum. Se fosse um Deus que nos fizesse sofrer por doar, seria melhor parar de cultuá-Lo. Por isso, eu disse: "Experimentem doar. Doem a ponto de sentirem o sacrifício. O dinheiro retornará multiplicado por dez. Longe de sofrer, vocês terão dinheiro em abundância". Com isso, ambos os lados, especialmente o do Pequeno Veículo, compreenderam bem e, há pouco tempo, vieram se desculpar. Esse tipo de coisa acontece. Mencionei isso para que vocês também estejam cientes.
-
----
-
-# Publicações Relacionadas — Mestre Nakajima Issei: Sua Fé e Sua Vida
-
-**Categoria:** kanren | **Ano:** - | **Fonte:** -
-
-## Publicações Relacionadas — Mestre Nakajima Issei: Sua Fé e Sua Vida
-
-**Vinte e um**
-
-Era o outono de 1944. O Mestre partiu em viagem para a região de Tohoku, vestindo o uniforme nacional, com perneiras envolvendo as canelas.
-
-Durante o trajeto, os alarmes de ataque aéreo soavam com frequência, obrigando o trem a parar por diversas vezes. Os passageiros, com as venezianas das janelas abaixadas, passavam por horas de angústia mortal. O Mestre, contudo, não demonstrava preocupação. Em seu íntimo, pensava: “Estou formando os soldados de Deus, portanto, estou a salvo; tenho Sua proteção”.
-
-Mesmo durante os cursos, era comum que todos tivessem de correr para os abrigos antiaéreos. Numa dessas ocasiões, alguém comentou:
-
-“Se temos a proteção Divina, não precisamos entrar no abrigo, não é mesmo?”
-
-O Mestre, ao ouvir aquilo, repreendeu-o com severidade:
-
-“Não se pode acomodar sobre a proteção Divina! É um equívoco apenas fazer a nossa parte e aguardar passivamente a Vontade do Céu. Tentar impor-se unicamente pela força humana, por vaidade, é um erro, mas não fazer nada e apenas esperar que as coisas nos caiam do céu também é inaceitável.”
-
-**Vinte e dois**
-
-Em março de 1945, os ataques aéreos intensificaram-se de forma avassaladora. Todas as noites, vastas áreas urbanas eram consumidas pelas chamas.
-
-Foi nesse período que a senhora H., recusando a promoção ao cargo de professora titular em uma universidade feminina, uma recomendação de seus superiores, decidiu ingressar numa vida de dedicação na Sede Central da Igreja, em Atami.
-
-Cerca de dois meses antes, ela havia revelado sua decisão ao Mestre. Esperando receber efusivos elogios, e já imaginando o rosto satisfeito do seu orientador, dirigiu-se ao seu encontro. Contudo, para sua surpresa, a atitude do Mestre não foi a que ela esperava. Ele não disse: “Que bela determinação. Está ótimo assim”. Ao contrário, mostrou-se frio.
-
-“O Mestre, que tanto me incentivou, por que age dessa maneira?”, pensava ela, confusa, enquanto encarava o rosto do seu interlocutor, que a observava em silêncio.
-
-Após alguns instantes, ele finalmente falou:
-
-“Você não precisa se forçar a tornar-se minha assistente. Se no fundo do seu coração ainda existe o menor apego ao título de professora universitária, então siga por esse caminho enquanto é tempo. Não há necessidade alguma de se sentir em débito comigo ou de tomar uma decisão forçada.”
-
-As palavras a atingiram como um balde de água fria, e a determinação que a sustentava fraquejou subitamente. Todavia, mesmo desapontada, ela tentou acalmar a agitação em seu peito para compreender o verdadeiro sentimento por trás daquelas palavras e aguardou que ele prosseguisse.
-
-O Mestre, então, olhando-a com compaixão, continuou:
-
-“Deus, veja bem, concede Sua permissão e utiliza aqueles que a Ele se apegam com fervor. Ele não tem serventia para quem Lhe oferece serviços como se estivesse a fazer um favor. É melhor que você reavalie sua decisão com cuidado.”
-
-Com o coração apertado e a vontade de chorar, ela baixou o olhar. Então, como um golpe de misericórdia, o Mestre arrematou:
-
-“Se for para desistir, que seja agora.”
-
-A senhora H. voltou para casa e refletiu profundamente. “Ainda resta em algum canto da minha alma uma grande dose de vaidade. Ainda persiste em mim um sentimento de exaltação, a ideia de que estou abandonando uma posição de honra e sacrificando-me pela salvação da humanidade. Que coração pretensioso e repulsivo! E há um segundo ‘eu’ que observa essa atitude e a considera admirável. Que autoindulgência, que sentimentalismo!”
-
-No dia seguinte, ela retornou a Atami. Inclinando a cabeça, disse apenas estas palavras:
-
-“Por favor, permita-me a honra de servi-lo. Eu lhe peço.”
-
-Em seu rosto, transpareciam a determinação sincera de quem anseia por seguir um único caminho e a pureza de quem se envergonha dos apegos fúteis que nutria até o dia anterior.
-
-Assim, superando a oposição de sua família, a senhora H. tornou-se assistente do Mestre. Este episódio revela o quão meticuloso ele era, até mesmo na escolha de um único auxiliar.
-
-**Vinte e três**
-
-A senhora H. iniciou suas atividades como assistente do Mestre.
-
-Certa manhã, ele estava sentado diante do *tokonoma* principal da sala, e ela, a seu lado. Ainda não havia chegado ninguém para receber tratamento. Uma empregada trouxe três jornais diferentes e os deixou próximos à entrada do cômodo.
-
-“Traga-me um desses jornais, qualquer um serve”, disse o Mestre.
-
-Como ele havia pedido apenas um, mas ela não sabia qual ele preferia ler, a senhora H. pegou os três exemplares, levou-os até o Mestre e os depositou à sua frente. Feito isso, retornou ao seu lugar, convicta de que havia sido prestativa.
-
-Após dois ou três minutos de silêncio, o Mestre perguntou-lhe, em tom formal:
-
-“Você conhece o significado da verdadeira obediência?”
-
-Sem saber o que responder, a senhora H. apenas o fitou.
-
-Ele, então, prosseguiu: “Você se recorda do que eu disse agora há pouco? Pedi um jornal, não foi? Na sua intenção de ser atenciosa, você trouxe os três, mas isso é uma prova de que lhe falta obediência. A verdadeira obediência não é algo complicado. Significa simplesmente fazer o que lhe foi dito. Meus pensamentos são mais profundos que os seus. Quando pedi um jornal, foi porque imaginei que as pessoas que virão para o tratamento também gostariam de ler algo enquanto esperam. Por essa razão, minha intenção era deixar os outros dois exemplares para elas. Compreendeu?”
-
-A senhora H. ficou atônita. Havia dedicado dezenove anos de sua vida à educação e, nesse período, buscara a orientação de diversos líderes espirituais e personalidades de renome. Jamais, contudo, encontrara alguém que ensinasse daquela maneira. Instintivamente, inclinou a cabeça em sinal de profundo respeito.
-
-Outro episódio marcante ocorreu na mesma época.
-
-Ao ouvir uma voz na entrada anunciando uma visita, a senhora H. desceu para atender. O visitante informou que tinha um assunto a tratar com o Mestre e desejava vê-lo. Ela transmitiu o recado e o Mestre levantou-se e dirigiu-se à entrada.
-
-Pouco depois, ao retornar ao andar de cima, ele se voltou para a senhora H. e perguntou:
-
-“Quando você desceu há pouco, percebeu como estavam os sapatos e sandálias na entrada?”
-
-Ela, focada apenas em anunciar a visita, não havia reparado em tal detalhe e permaneceu em silêncio.
-
-O Mestre então lhe disse:
-
-“A entrada estava repleta de calçados, todos em desordem, a ponto de o visitante mal ter onde pisar. Você fala de nobres ideais e pensamentos elevados, mas, quando se trata de praticar pequenos gestos de sinceridade, sua nota é zero. O ser humano precisa desenvolver a capacidade de ser atento e solícito. Do contrário, não terá serventia na construção do Mundo do Dia.”
-
-A senhora H., com o rosto ruborizado, sentiu uma vergonha tão profunda que desejou desaparecer.
-
-**Vinte e quatro**
-
-O Mestre costumava dizer às mulheres, em tom de brincadeira:
-
-“Eu passo o dia inteiro lidando com doentes. Preciso ter ao menos o prazer de comer algo saboroso.”
-
-E, de fato, ele comia com grande apetite.
-
-Na primavera de 1941, o Mestre reuniu seus discípulos e fundou uma associação chamada Tengu-kai (天狗会). A contribuição mensal era de cinco ienes, e o valor arrecadado era utilizado para que todos pudessem desfrutar de boas refeições juntos. Nessas ocasiões, o Mestre parecia genuinamente feliz.
-
-Contudo, em 8 de dezembro daquele ano, a Guerra do Pacífico teve início, e os alimentos tornaram-se cada vez mais escassos. Mesmo assim, o Mestre não se dava por vencido. Acompanhado de seus discípulos mais próximos, saía em busca de restaurantes que ainda servissem boa comida.
-
-Ele apreciava especialmente o macarrão *soba* e era capaz de comer cinco porções de *mori soba* sem dificuldade. Certa vez, em uma viagem a Tohoku, comeu cinquenta tigelas de um prato chamado *wanko soba*. Ainda que cada porção fosse pequena, os discípulos presentes ficaram de olhos arregalados, surpresos com a marca de cinquenta tigelas.
-
-Entretanto, o Mestre não era o tipo de pessoa que se deliciava sozinho, indiferente aos demais. Sua índole não o permitia.
-
-Durante a época de escassez de alimentos, em uma de suas viagens, foi-lhe servida uma iguaria que raramente se encontrava naqueles tempos. O discípulo que o acompanhava, com água na boca, comeu tudo sem a menor cerimônia.
-
-Mais tarde, o Mestre o repreendeu:
-
-“Pense nas pessoas da casa. Como pode alguém ter o desplante de comer tudo? É nosso dever deixar uma parte para a família que nos acolheu.”
-
-Ele possuía essa delicadeza.
-
-Na mesma época, recebeu de um fiel, como agradecimento por uma sessão de Johrei, cerca de dois quilos e setecentos gramas de arroz branco. Ao ver o presente, o Mestre disse à sua esposa:
-
-“Dê este arroz branco para a Haruyo.”
-
-O Mestre amava a pequena Haruyo-chan com um carinho imenso, como se fosse a menina dos seus olhos. Isso se devia ao fato de que, após o falecimento de seus irmãos mais velhos, Sairoku-chan e Hiroko-chan, a pequena e inocente Haruyo-chan ficara como filha única.
-
-Depois desse episódio, seus irmãos e irmãs passaram a chamá-la, em tom de brincadeira, de “Haruyo-chan do arroz branco”, talvez por um resquício de ciúme do afeto que o Mestre dedicava à irmã mais nova.
-
-Embora o Mestre adorasse comer, a despensa de sua casa nunca foi farta. Um de seus discípulos relata que, por volta de 1943, costumava espiar o armário da cozinha e, na maioria das vezes, o encontrava vazio.
-
-No ano anterior ao fim da guerra, a situação piorou drasticamente. A canja, servida diariamente, era composta por noventa por cento de água, com alguns pedaços de nabo e cenoura, e apenas um punhado de arroz. Mesmo assim, o Mestre se mostrava satisfeito.
-
-Certa vez, ele disse aos seus discípulos:
-
-“Eu como qualquer tipo de alimento com gratidão. Jamais reclamo ou me sinto insatisfeito. A única coisa que faço é dar orientações sobre o modo de preparo, para que, com os mesmos ingredientes, a refeição se torne mais saborosa.”
-
-**Vinte e cinco**
-
-Por alguma razão, o Mestre era particularmente implacável com os militares.
-
-Logo após o fim da guerra, quando o exército japonês já havia sido dissolvido, um ex-oficial da marinha, o senhor K., foi visitá-lo. O senhor K. havia servido em submarinos, mas contraíra uma doença pulmonar e estava em tratamento num hotel em Atami, que na época funcionava como enfermaria para militares. Por acaso, ouvira falar do Mestre na loja de tofu próxima ao hotel e sentiu o desejo de conhecê-lo.
-
-Quando telefonou, a pessoa que atendeu disse em voz alta:
-
-“É militar? Um militar precisa ter fibra!”
-
-O senhor K. ficou perplexo.
-
-Ao chegar para a visita, o Mestre apareceu vestindo um *yukata* com uma faixa de soldado enrolada firmemente na cintura e o encarou com os olhos arregalados. Quando o senhor K. explicou o motivo de sua visita, o Mestre disse apenas uma frase:
-
-“Então é você o militar?”
-
-Na mesma época, o senhor Y., um soldado recém-chegado da guerra, apareceu à porta da casa do Mestre carregando uma mochila, com a intenção de receber seus ensinamentos.
-
-O Mestre saiu e, de forma abrupta e irritada, perguntou:
-
-“Quem é você?”
-
-Sua esposa, que estava ao lado, interveio:
-
-“É o senhor Y. Ele já esteve aqui outro dia, não se lembra?”
-
-O Mestre, então, respondeu de forma ríspida, como se cuspisse as palavras:
-
-“Eu não o conheço.”
-
-O senhor S., um ex-capitão do exército que ficara completamente cego por ferimentos de guerra, foi levado à casa do Mestre por sua tia.
-
-“O que aconteceu com você?”, perguntou o Mestre.
-
-“Fui atingido por estilhaços de um projétil.”
-
-“Você não enxerga?”
-
-“Absolutamente nada.”
-
-“Ainda assim, a maneira como você tirou seus calçados está incorreta. Mesmo sendo cego, você deveria ser capaz de tirar e arrumar seus próprios calçados com um pouco mais de cuidado.”
-
-Durante a guerra, um homem que era chefe da subdivisão da associação de reservistas do exército foi visitar o Mestre. Este lhe disse:
-
-“Seu olhar é muito duro. Precisa suavizá-lo.”
-
-O Mestre sempre afirmava que os militares tinham um olhar hostil e parecia capaz de identificá-los apenas pelo cheiro.
-
-Ele também era severo com os professores.
-
-Certa ocasião, o senhor N., diretor de escola primária aposentado, foi ao seu encontro.
-
-“Há quantos anos o senhor lecionou?”, perguntou o Mestre.
-
-“Vinte e cinco anos, senhor”, respondeu o senhor N.
-
-O Mestre, então, arregalou os olhos e declarou:
-
-“Seu pecado é maior que o de um criminoso de guerra.”
-
-**Vinte e seis**
-
-O Mestre detestava justificativas.
-
-Certa senhora, por ser a filha mais nova, fora criada com mimos excessivos. Tinha liberdade para ser dengosa e a maioria de seus caprichos era atendida. Como não se lembrava de ter sido repreendida, apenas elogiada, desenvolveu o hábito de se considerar uma boa pessoa.
-
-Consequentemente, mesmo na vida adulta, não suportava receber advertências ou críticas. Após começar a servir na Sede, sempre que cometia um erro e era chamada à atenção pelo Mestre, ela invariavelmente apresentava uma justificativa.
-
-Se ele dizia “Você não fez o que deveria ter feito”, ela prontamente retrucava: “Ah, mas eu estava justamente pensando em fazer agora”. Ou então: “Na verdade, eu ia fazer, mas não pude por tal e tal motivo”.
-
-Nessas ocasiões, o Mestre sempre dizia com firmeza:
-
-“Apenas pensar em fazer algo não adianta. Se não o executa, é o mesmo que não ter pensado. Por que não consegue simplesmente dizer ‘desculpe-me’? Será que um simples pedido de desculpas não é suficiente?”
-
-Certa vez, essa senhora foi alvo de uma calúnia. Alguém a acusou perante o Mestre de algo que ela não havia feito, e ele a repreendeu com base na falsa informação.
-
-Ela, indignada, defendeu-se veementemente: “Não foi bem assim”, e “Não me lembro de ter feito tal coisa”.
-
-Diante disso, o Mestre, com voz serena, perguntou-lhe:
-
-“Você acredita em Deus?”
-
-“Sim, acredito.”
-
-“Se acredita de verdade, então, mesmo que a acusação seja falsa, você deveria ser capaz de não se justificar, não acha? Pois Deus sabe a verdade, e isso não basta? Tornar-se uma pessoa capaz de aguardar o tempo certo em silêncio, sem se justificar: eis a marca de quem verdadeiramente compreende a Deus.”
-
-**Vinte e sete**
-
-Isso aconteceu durante a guerra.
-
-A repartição de finanças notificou o Mestre, cobrando-lhe um imposto de dois milhões de ienes. Diante daquela soma, até mesmo ele ficou alarmado. O Mestre costumava gastar o dinheiro assim que o recebia, portanto, não possuía grandes economias. Mesmo que quisesse, não teria como pagar.
-
-“Não se pode dar o que não se possui”, pensava ele, profundamente aflito.
-
-Contudo, para contestar a cobrança, era necessário apresentar os livros contábeis, algo que ele jamais se preocupara em manter. Quando os fiscais chegaram para uma inspeção, o Mestre ficou apavorado. “O que devo fazer?”, questionava-se.
-
-Ele não tinha a menor aptidão para números ou cálculos. Assim, decidiu-se que os discípulos se dividiriam para criar os livros contábeis às pressas. Como não possuíam conhecimento na área, o consenso foi chamar um especialista em tributação e trabalhar durante toda a noite.
-
-Nesse momento, o senhor A., um dos discípulos mais estimados, dirigiu-se aos demais e disse:
-
-“Nesta hora, devemos nos dedicar inteiramente ao Mestre.”
-
-“Isso mesmo! Vamos nos despojar de tudo. Entreguemos todas as nossas roupas!”, concordou alguém.
-
-“Contudo, por mais que queiramos nos despojar, não podemos passar o inverno sem nada para vestir. Proponho que cada um fique com um único traje de inverno e doe todo o resto”, sugeriu o senhor A.
-
-“Combinado!” “Vamos fazer isso!”
-
-Mais tarde, ao saber do ocorrido, o Mestre ficou profundamente comovido. Com os olhos marejados, disse:
-
-“O que é precioso é esse sentimento.”
-
-Embora essa história possa dar a impressão de que o Mestre gastava o dinheiro de forma indiscriminada, ele era, na verdade, uma pessoa que defendia com extremo rigor a distinção entre o público e o privado.
-
-Até mesmo o missô e o shoyu da cozinha não podiam ser usados de maneira descuidada. Ele juntava as folhas de cartas que recebia de diversas pessoas e as utilizava como bloco de anotações. À noite, mantinha-as ao lado da cama para registrar ideias que surgiam ou o rascunho de respostas a correspondências. Por vezes, escrevia até mesmo seus artigos no verso dessas folhas.
-
-Certo dia de Ano Novo, após a cerimônia, um discípulo começou a limpar um cômodo vestindo o quimono novo que havia ganhado. O Mestre passou por ali e, ao ver a cena, repreendeu-o severamente:
-
-“Para fazer limpeza, vista-se com uma roupa apropriada. Quem não valoriza os objetos que possui deixa de ser abençoado por Deus. Zele por suas coisas. Nunca se esqueça da gratidão.”
-
-Um membro da diretoria foi repreendido pelo Mestre por ter viajado num vagão de segunda classe, o equivalente à primeira classe atual.
-
-“Até o Grande Mestre viaja de terceira classe. O senhor deveria viajar na quarta ou na quinta.”
-
-No entanto, quando era necessário, o Mestre gastava dinheiro sem hesitação. Se não o tinha, orava para que surgisse. Quando havia recursos, havia; quando não, não havia.
-
-Mesmo quando caminhava com as mãos nos bolsos, sua carteira estava vazia. E mesmo que tivesse algo, achava incômodo lidar com pagamentos. Por isso, aonde quer que fosse, era sempre sua esposa quem cuidava das despesas. Ele vivia com ares de um lorde feudal.
-
-Apesar dessa aparência, ele observava atentamente os detalhes importantes. Certa vez, um de seus assistentes lhe entregou um relatório administrativo escrito em uma folha de papel nova.
-
-Ao vê-la, o Mestre disse:
-
-“Para anotações como esta, que são trazidas a mim, um papel usado é suficiente. Tudo o que temos nos é concedido por Deus. Até mesmo uma única folha de papel deve ser usada com apreço. Aquele que não tem gratidão pelas coisas que possui certamente passará por dificuldades.”
-
-**Vinte e oito**
-
-Em todas as situações, o Mestre analisava os fatos dando extrema importância à intenção por trás de cada ato.
-
-Foi por volta da primavera de 1945.
-
-A senhora K-ko, que servia em Atami, obteve a permissão do Mestre para pernoitar na casa de sua irmã em Tóquio. Pela manhã, ela cuidaria de alguns afazeres na filial de Higashiyama e de lá seguiria direto para a estação, calculando que conseguiria pegar o trem do meio-dia. Com esse plano, deixou a casa do Mestre.
-
-Enquanto resolvia os pequenos afazeres na filial, no meio de uma sessão de Johrei, a senhora K-ko percebeu que havia esquecido um objeto. Já não havia tempo para voltar e buscá-lo. Como o Mestre sempre a advertia para verificar se não estava esquecendo nada, ela temeu que ele descobrisse e, fingindo naturalidade, desceu as escadas.
-
-Às escondidas, telefonou para a casa do Mestre e pediu a uma das servidoras que trouxesse o objeto até a filial. A pessoa do outro lado da linha respondeu:
-
-“Claro, levo para você. Estou justamente saindo para resolver uma coisa, basta dar uma pequena volta no caminho.”
-
-A senhora K-ko sentiu um alívio imenso. Tudo estava resolvido. Voltou discretamente para o andar de cima, com uma expressão de quem nada sabia.
-
-Pouco depois, ouviu-se o som da porta da frente se abrindo. Ela desceu novamente, com a mesma atitude dissimulada, recebeu o objeto esquecido e subiu em silêncio.
-
-O Mestre, que a observava, talvez tenha desconfiado de algo, pois perguntou em tom de interrogatório:
-
-“Quem chegou agora? E o que veio fazer?”
-
-Percebendo que não adiantaria disfarçar, a senhora K-ko relatou o ocorrido. Em seguida, com um tom de justificativa, enfatizou:
-
-“Quando telefonei, a senhora B., que estava justamente de saída, atendeu. Então, pedi a ela que me trouxesse.”
-
-O Mestre permaneceu em silêncio por um ou dois minutos e depois disse:
-
-“Esquecer algo é compreensível. Pedir para que alguém o traga também não é um problema. Mas você entende por que precisou acrescentar a frase ‘que estava justamente de saída’?”
-
-De fato, embora a pessoa tivesse dito que seria apenas “uma pequena volta”, o trajeto da casa do Mestre até a filial era consideravelmente desviado da rua principal e ainda incluía a subida de uma ladeira. Na realidade, era um pequeno incômodo.
-
-“O erro foi ter dito que era ‘no caminho’”, pensou a senhora K-ko, sentindo-se envergonhada.
-
-O Mestre continuou:
-
-“Esse tipo de atitude não nasce de um coração humilde e verdadeiramente arrependido, mas sim da intenção de fazer com que os outros pensem bem de você. Se não tivesse acrescentado essa frase, sua atitude teria sido muito mais humilde e bela. Pode parecer um detalhe insignificante, mas essa sua intenção não é admirável. A intenção de se autovalorizar... é essa intenção desagradável que eu quero extirpar de você por completo. Compreendeu?”
-
-“Sim. Compreendi perfeitamente. Eu ainda tenho muito a aprender”, respondeu a senhora K-ko, inclinando a cabeça.
-
-Com uma voz suave, o Mestre concluiu:
-
-“É polindo, polindo incessantemente, que nos purificamos até alcançarmos uma alma cristalina. É preciso polir-se sem cessar.”
-
-**Vinte e nove**
-
-“Não se pode confiar nas pessoas.”
-
-O Mestre disse isso certa vez a um de seus discípulos de maior confiança. O discípulo demonstrou surpresa com a afirmação. Ao notar sua expressão, o Mestre continuou:
-
-“Não se espante. Um ano de convivência não é suficiente. São necessários pelo menos três anos para conhecer alguém. E, mesmo assim, só é possível conhecê-la no âmbito dessa convivência.”
-
-“O que o senhor quer dizer com ‘no âmbito dessa convivência’?”
-
-“Tomemos como exemplo uma esposa. Suponha que um homem tenha vivido vinte anos com sua mulher. O limite de sua compreensão sobre ela restringe-se à pessoa que ela foi como esposa durante esses vinte anos. O que está além disso, ele desconhece.”
-
-De fato, o Mestre não confiava nas pessoas com facilidade.
-
-Certa vez, o chefe de uma filial levou um de seus assistentes mais dedicados para uma audiência. Após o assistente se retirar, o chefe comentou com o Mestre:
-
-“Ele é extremamente trabalhador. Acredito que tem um grande futuro.”
-
-O Mestre, então, declarou categoricamente:
-
-“Esse aí não serve.”
-
-O chefe da filial, certo de que aquilo não poderia ser verdade, não deu crédito às palavras do Mestre. Contudo, pouco tempo depois, o referido assistente abandonou a fé.
-
-“Fiquei verdadeiramente impressionado com a agudeza do olhar do Mestre”, recordou o chefe da filial mais tarde.
-
-O Mestre era rápido em discernir a índole das pessoas. E, ainda assim, afirmava que “são necessários pelo menos três anos de convivência”. Ele era, de fato, muito prudente.
-
-Aqueles que não compreendiam essa prudência o criticavam, dizendo que ele “acreditava imediatamente em tudo o que as pessoas diziam”.
-
-“É verdade que ele tinha um lado que parecia confiar nas pessoas com facilidade. No entanto, com aqueles olhos grandes que possuía, bastava um olhar para que ele enxergasse o interior da maioria das pessoas. Portanto, em vez de dizer que ele era crédulo, seria mais correto afirmar que ele via com rapidez e profundidade e, a partir daí, confiava com rapidez e plenitude.”
-
-(Continua no capítulo trinta)
-
----
-
-# Publicações Relacionadas
-
-**Categoria:** kanren | **Ano:** 昭和29(1954)年8月15日 | **Fonte:** Hikariは大地に
-
-## Publicações Relacionadas
-A Luz sobre a Terra, por Asō Etsu
-Publicado em 15 de agosto de 1954
-
-## Prefácio
-
-Creio que esta seja, porventura, a primeira vez que a Sekai Kyuseikyo inspira uma obra de ficção. Se assim for, independentemente da qualidade literária do trabalho, permito-me sentir uma discreta satisfação por ter sido, em certo sentido, o primeiro a lavrar este solo virgem.
-
-Contudo, ao escrever esta narrativa, refleti inúmeras vezes sobre a misteriosa força do destino. Quando menciono o destino, não quero dizer que a Igreja Kyuseikyo tenha me encomendado esta obra. Tampouco sou um de seus fiéis que, por um sentimento de gratidão, se sentiu compelido a escrevê-la. Foi, na verdade, uma mão invisível do destino, algo que eu jamais poderia sequer sonhar, que me levou a tomar da pena e a compor este livro.
-
-Conforme também relato nesta história, tudo começou na primavera do ano passado. Uma senhora a mim desconhecida, que havia assistido a uma de minhas palestras culturais, visitou minha residência durante minha ausência. Deixou com minha esposa diversos folhetos da Igreja Kyuseikyo, dizendo, segundo me contaram: “Alguém que profere palestras como as dele certamente será capaz de compreender”.
-
-Pode-se dizer que meus olhos para a Sekai Kyuseikyo foram verdadeiramente abertos por esse amável presente. Até então, meu conhecimento era superficial; por ouvir que era chamada de Igreja Kannon do Japão, supunha tratar-se apenas de mais uma nova religião fundamentada na fé em Kannon. Da mesma forma, em relação ao Fundador, conhecido como Ohikari-Sama, imaginava ser simplesmente alguém capaz de emitir luz pelas palmas das mãos, conforme o nome sugere.
-
-A partir de então, os fios desse destino foram se desdobrando continuamente. Graças a isso, tive a oportunidade de ler todos os livros e periódicos relacionados à Igreja Kyuseikyo e fui abençoado com a ventura de ser convidado à residência do próprio Fundador, onde pude ouvir, em um diálogo franco e abrangente, suas palavras. É esta confiança que não desejo trair.
-
-De todo modo, escrevi esta história imbuído de uma profunda emoção. Desejo, naturalmente, que ela seja lida pelos fiéis, mas, ao mesmo tempo, anseio que chegue também às mãos do público em geral. Àqueles que, sem sequer procurar saber que tipo de religião é a Sekai Kyuseikyo, nutrem aversão pelo simples fato de ser uma “religião nova”, peço que, antes de formarem sua opinião, leiam esta obra. Opor-se por ignorância é uma lamentável propensão do povo japonês.
-
-Ademais, independentemente de se crer ou não em seus preceitos, a Sekai Kyuseikyo é uma nova religião que possui uma doutrina e comprovações práticas cujo estudo certamente não será em vão. Faço questão de deixar isso claramente registrado.
-
-Verão de 1954
-O Autor
-
-## Índice
-Notícias da Flor da Manhã
-Renascimento
-O Cortiço da Pobreza
-Coração de Mercador
-A Verdadeira Face
-Dias Sombrios
-Montanha e Água
-A Legião dos Justos
-A Terra
-Pleno Dia
-
----
-
-# Fundamentos da Fé – Capítulo Quatro: Sobre a Ascensão
-
-**Categoria:** kanren | **Ano:** 昭和27(1952)年10月22日 | **Fonte:** Eikou
-
-## Fundamentos da Fé – Capítulo Quatro: Sobre a Ascensão
-
-### 1. Na eventualidade da Ascensão
-
-[Diálogo entre Meishu-Sama e o Sr. Kōjun Tamasato (Publicado na revista *Glória*, nº 179, em 22 de outubro de 1952)]
-
-“A Luz que o senhor emana vai até a pessoa e depois retorna?”
-
-『De forma alguma. Ela apenas a atravessa. Possuo uma Esfera de Luz em meu abdômen, da qual a Luz emana; por essa razão, ela é infinita.』
-
-“Essa Esfera é uma posse exclusiva de Meishu-Sama?”
-
-『Correto.』
-
-“Sendo assim, na hipótese de Meishu-Sama, em um futuro distante, adentrar o Mundo Espiritual, ela deixará de existir?”
-
-『Contudo, será o mesmo, pois a emanarei a partir do Mundo Espiritual. Na verdade, a Luz se manifestará com ainda mais intensidade, uma vez que o corpo físico constitui um obstáculo.』
-
-“Isso, portanto, assegura a tranquilidade da Igreja.”
-
-### 2. Na eventualidade da Ascensão
-
-[Palestra (5 de novembro de 1953) (Publicado na *Coletânea de Ensinamentos*, nº 28, em 15 de dezembro de 1953)]
-
-『Ademais, há quatro ou cinco dias, um grupo de seis ou sete pessoas veio para um diálogo. Estavam presentes o chefe-adjunto da Seção de Assuntos Religiosos do Ministério da Educação e representantes dos departamentos de arte e cultura de jornais como o Asahi, o Mainichi e o Jiji. Eles fizeram diversas perguntas, e (trecho omitido) um deles argumentou: “O senhor cura doenças por meio do O-mamori, mas quando partir para o outro mundo, não haverá mais quem os confeccione. Sendo assim, tudo estará acabado, não é mesmo?”.
-
-Repliquei: “Que absurdo! Do Mundo Espiritual, exercerei esse poder ilimitadamente; portanto, tal questão não representa problema algum.” Diante da minha resposta, eles menearam a cabeça, visivelmente perplexos.』
-
----
-
-# Coletânea de Artigos de Jikan Okada - Pesquisa de Ensinamentos: help / Pesquisa de Documentos: Guia de Difusão II-1-1
-
-**Categoria:** kanren | **Ano:** 昭和29(1954)年4月7日 | **Fonte:** Eikou
-
-## Coletânea de Artigos de Jikan Okada - Pesquisa de Ensinamentos: help / Pesquisa de Documentos: Guia de Difusão II-1-1
-
-## Sobre a Imagem Divina
-
-**I. O Significado da Entronização da Imagem Divina**
-
-**1. Sobre o significado da entronização da Imagem Divina**
-[Sobre a Entronização da Imagem Divina – Publicado na revista *Eikô*, nº 255, em 7 de abril de 1954]
-
-Embora seja um fato raro, ocasionalmente sucede, motivo pelo qual chamo aqui a atenção. Ocorre, por exemplo, de a esposa ingressar na fé primeiro e, em seu excesso de fervor, entronizar a Imagem Divina antes que o marido ou o filho a compreendam. Existem ministros que até mesmo consentem com tal atitude, o que constitui um erro gravíssimo. Conforme já afirmei em outra ocasião, o correto é que a Imagem Divina seja entronizada com alegria, após toda a família ter ingressado na fé ou, no mínimo, ter alcançado um nível considerável de compreensão. Se houver sequer uma pessoa que se oponha, deve-se aguardar o momento oportuno. A precipitação em entronizá-la nasce, provavelmente, da ânsia de acelerar a conversão dos demais, sob a crença de que, assim, eles compreenderão mais rápido. Contudo, essa é uma perspectiva humana, e a Vontade Divina opera de modo distinto. Em suma, o momento da conversão de cada pessoa varia conforme a gravidade de seus pecados, seus laços espirituais e sua missão. Portanto, basta que tudo seja entregue a Deus.
-
-A esse respeito, o responsável de uma determinada igreja intermédia me consultou recentemente sobre o relato de uma senhora, membro de sua congregação. Ela se queixava da dificuldade de seu marido em compreender a fé, até que, certa noite, ele regressou ao lar em estado de completa embriaguez. Sem que se saiba o que o impeliu, subitamente ele rasgou a Imagem Divina e começou a atirar ao longe tudo o que se relacionava a Deus. Aterrorizada, ela suplicou que parasse, mas seus rogos foram em vão. Disse-me o responsável: "Ela veio pedir-me, com profundo pesar, que transmitisse a Meishu-Sama seu pedido de perdão pela terrível ofensa. Que orientação devo dar a ela?".
-
-Eu lhe respondi o seguinte: "Isso ocorreu porque ela se esqueceu do que sempre digo. Eu advirto que a Imagem Divina jamais deve ser entronizada quando há sequer um opositor no lar. Se ela não atentou para isso, significa que não tem lido suficientemente os Escritos Divinos. O que é fundamental compreender é que o alicerce da fé reside no livre-arbítrio do indivíduo; a fé genuína brota de um impulso sincero e irresistível. Tentar forçar a compreensão a todo custo gera o efeito contrário, retardando o momento da conversão. Nesse sentido, o mais importante é saber que, nos assuntos do mundo, nem sempre dois mais dois são quatro. É preciso despertar para a existência de um princípio que transcende a lógica, o que se aplica de modo ainda mais veemente no campo da fé. Isso significa que tudo deve ser julgado pelos resultados. Pois esta é a Prática de Kannon (観音), de infinitas transformações e livre de quaisquer obstáculos. Se atuarem com este princípio plenamente assimilado no âmago de seu ser, o sucesso será inevitável".
-
-**2. Sobre o significado da entronização da Imagem Divina**
-[Palestra de Luz (Edição Especial de Julho de 1949) – Publicado no *Gokowaroku*, nº 9, em 30 de julho de 1949]
-
-— Por que motivo não somos salvos apenas por receber o curso de formação inicial, sendo necessário entronizar Komyô Nyorai-sama?
-
-Ao entronizar Komyô Nyorai-sama, o Mundo Espiritual do lar se ilumina; sem essa entronização, ele permanece em trevas. Estando em trevas, encontra-se no inferno e, por conseguinte, a salvação ainda não foi alcançada. Ademais, ao orar a Komyô Nyorai-sama, recebe-se Sua Luz Divina a cada oração, o que promove a purificação. A diferença, portanto, é colossal. Não se pode afirmar que alguém ingressou verdadeiramente na fé sem que tenha entronizado Komyô Nyorai-sama. Em outras palavras, entronizar Komyô Nyorai-sama é adentrar o portão da fé; não o fazer é permanecer do lado de fora. Dito isso, obviamente não basta apenas cruzar o portão. É preciso prosseguir, passando pela entrada até alcançar o salão principal. Do contrário, o Paraíso não se concretizará. É por essa mesma razão que afirmo que apenas receber o curso de formação inicial não é o suficiente.
-
-**II. A atitude mental (ao entronizar a Imagem Divina)**
-
-**1. A atitude mental ao realizar a entronização**
-[Orientação (8 de outubro de 1951) – Publicado no *Gosuijiroku*, nº 3, em 25 de novembro de 1951]
-
-Em princípio, a pessoa entroniza a Imagem Divina por gratidão, por ter sido curada de uma doença. Fá-lo com o desejo de não mais adoecer e também de poder ajudar o próximo. A ideia de que, ao entronizá-la, a cura será mais rápida não corresponde à verdadeira atitude. Não se deve considerar a Imagem Divina como um mero aparelho de tratamento. Portanto, a decisão de entronizá-la deve ser tomada com grande seriedade.
-
-**2. A atitude mental ao realizar a entronização**
-[Orientação (8 de outubro de 1951) – Publicado no *Gosuijiroku*, nº 3, em 25 de novembro de 1951]
-
-"Tenho parentes cuja relação entre pai e filho é conflituosa. Falei-lhes sobre esta salvação, e eles entronizaram a Imagem Divina. Contudo, depois disso, não vieram mais à igreja, e soube que o filho rasgou a Imagem. Isso ocorreu há cerca de três anos."
-
-O pai está na fé?
-
-"Sim, está."
-
-Por qual motivo ele ingressou na fé?
-
-"A família vivia em desarmonia, e eu os incentivei a buscar a fé para resolver essa questão. Depois que o filho cometeu o ato de vandalismo, sugeri que recebessem uma nova Imagem, e eles disseram que a queriam. Todavia, como o lar ainda não estava em paz, eu mesmo a estou guardando em minha casa. Devo esperar que eles a peçam?"
-
-Sem dúvida. Desde o início, a Imagem foi entronizada de forma forçada. Como acabei de dizer, utilizaram Deus como uma ferramenta para reconciliação. Se a pessoa ingressa na fé, lê os Escritos Divinos e conclui que se trata de uma fé sublime, pedindo com sinceridade: "Por favor, permita-me entronizar a Imagem Divina", então está correto. Mas fazer com que a entronizem de maneira impositiva, antes que a compreendam verdadeiramente, constitui uma ofensa a Deus. É somente quando a pessoa, sentindo uma profunda gratidão, nutre o desejo ardente de "também quero reverenciar um Deus assim" que Ele Se sente satisfeito, assim como ocorre com os seres humanos. Um ser humano também prefere ir a um lugar onde seu anfitrião pensa: "Desejo ardentemente sua presença, preciso de sua ajuda". Se, ao contrário, ele se impõe como um vendedor ambulante, onde não há tal sentimento, não será recebido de coração. E quando a acolhida não é sincera, a Luz não se manifesta com intensidade. Quando a Imagem Divina é entronizada e o ser humano a reverencia e a venera com sinceridade, a Luz se torna mais forte. Por isso, quando toda a família, em uníssono, a entroniza no local mais puro do lar, a intensidade da Luz é outra. Se, contudo, ela for tratada de modo inferior a um ser humano — por exemplo, com pessoas habitando um andar acima —, a Luz não se manifestará. Assim são as coisas.
-
-**3. Referência: A relação entre a atitude mental e a intensidade da Luz**
-[Orientação (1º de agosto de 1953) – Publicado no *Gosuijiroku*, nº 23, em 15 de agosto de 1953]
-
-"Recebemos o ensinamento de que a Luz do Ohikari é mais forte que a dos raios X. Contudo, recentemente, houve um caso em que um raio X atravessou o Ohikari. Isso teria acontecido para fazer com que o membro em questão compreendesse algo?"
-
-Isso pode ser uma das razões. Além disso, mesmo tratando-se do mesmo Ohikari, a intensidade da Luz varia conforme a pessoa que o utiliza; a Luz é mais forte naqueles cuja fé é robusta. A forma como é manuseado também exerce influência, assim como a atitude e o pensamento cotidianos, que fazem a Luz oscilar constantemente, ora fortalecendo-se, ora enfraquecendo-se. Portanto, embora em geral seja indubitavelmente forte, em certas circunstâncias, podem ocorrer situações como a descrita. O fator de maior impacto, nesse caso, é o pensamento de fé da pessoa.
-
-[...]
-
-"Ainda sobre a questão do pensamento, muitos membros creem que, uma vez recebido o Ohikari, seu efeito é uniforme para todos. A dúvida surge quando a luz do raio X ora atravessa o Ohikari, ora não."
-
-O problema é que, se pensarmos que as coisas funcionam de uma maneira específica, tornamo-nos rígidos. O correto é o sentimento que brota espontaneamente de cada um. Portanto, se alguém não lhe dá muita importância ou, ao contrário, sente uma gratidão imensa, está correto assim. É a gratidão.
-
-"Quando, em palestras, afirmamos que o efeito é uniforme, perdemos a oportunidade de ensinar sobre o pensamento de gratidão. Se, por outro lado, abordarmos a importância do pensamento..."
-
-Então é melhor não abordar. Se dissermos que não há graça divina sem o pensamento adequado, este se torna algo forçado, e não um pensamento genuíno. O pensamento genuíno é aquele que brota espontaneamente. Assim, mesmo que se pense que o efeito é uniforme, se a pessoa sente, em seu íntimo, que não pode pensar dessa forma, esse é o verdadeiro pensamento, e isso corresponde a uma visão mais ampla. Ensinar sobre o pensamento é válido, mas depende do momento e da pergunta. Por isso, normalmente não toco nesse assunto. Na pergunta anterior, foi necessário que eu respondesse daquela maneira, e por isso o fiz.
-
-"Ao receber o Ohikari, o pensamento é purificado?"
-
-É um fato que, ao receber o Ohikari, o pensamento se purifica. Também é um fato que, dependendo do pensamento, as graças recebidas são ainda maiores. Não se pode definir a questão de forma unilateral. Isso é a Verdade, e a Verdade não pode ser enquadrada em definições rígidas.
-
-"O que o senhor Kihara quer dizer, sendo ele um defensor do centralismo no Ohikari, é que, uma vez recebido o Ohikari, a potência da Luz Divina não aumenta nem diminui em função do pensamento."
-
-"Eu exponho o princípio fundamental, enquanto o senhor Matsui argumenta que depende do pensamento."
-
-Portanto, ambos estão corretos.
-
-"Em última análise, à medida que o espírito e a alma se purificam e se elevam, a Luz se intensifica."
-
-Exato. É por isso que digo que não se pode definir de forma rígida. A lógica existe em ambos os lados. É como uma cruz. Quem está na linha horizontal fala apenas da horizontal, e quem está na vertical, apenas da vertical. Contudo, ambos se encontram no centro; portanto, o resultado é o mesmo.
-
-"Então, o senhor Kihara e eu, juntos, formamos um todo?"
-
-Pode-se dizer que sim.
-
-"Geralmente se diz que se recebe a graça por ter uma fé profunda, mas, na verdade, não é assim. É por ter recebido a graça de Deus que a fé se aprofunda."
-
-"Não é que a pessoa se cura porque crê e não se cura porque não crê."
-
-Não, a pessoa se cura mesmo sem crer. Da parte de Deus, enquanto a pessoa não ingressa na fé, ela se cura mesmo sem crer. Contudo, quando já possui um certo entendimento e ainda assim não crê, aí surge um pequeno desajuste.
-
-"Eu costumo dizer o seguinte: mesmo que duas pessoas recebam Johrei, o grau da graça recebida difere naturalmente entre aquela que sente profunda gratidão e aquela que o encara com desdém."
-
-Contudo, não se pode generalizar. No início, quando a pessoa nada sabe, é natural e lógico que pense: "Como algo assim pode me curar?". Depois de presenciar um milagre, se ela ainda duvidar, o erro está do lado humano. É nesse ponto que surgem diferenças nos resultados. A repurificação ocorre exatamente por essa razão. Uma vez curada, deveria pensar: "Isto é absoluto, é algo extraordinário". Mas, mesmo curada, a pessoa continua a hesitar. Então, seu anjo guardião principal se irrita e decide: "Vou fazê-la sofrer mais uma vez".
-
-"A possibilidade de repurificação aumenta quando, mesmo recebendo a Luz Divina e sendo curado de uma doença, o pensamento não é acompanhado de gratidão."
-
-Exato. Da parte de Deus, não há o menor desvio; tudo segue uma lógica perfeita.
-
-**III. Sobre o momento adequado para a entronização**
-
-**1. É inadmissível entronizar a Imagem Divina antes de ingressar na fé**
-[Orientação (8 de setembro de 1951) – Publicado no *Gosuijiroku*, nº 2, em 10 de outubro de 1951]
-
-"Para pessoas que moram longe e desejam reverenciar algo antes mesmo de receber o curso de formação, seria inadequado que recebessem a Imagem Divina?"
-
-Isso é inadmissível. A entronização deve ocorrer impreterivelmente após o recebimento do curso. A Imagem de Kannon (観音) em biombo, contudo, não apresenta problema.
-
-**2. Diretriz básica para a entronização da Imagem Divina**
-[Luz da Sabedoria Miraculosa (*Chijo Tengoku*, nº 9), publicado em 25 de outubro de 1949]
-
-Não se deve permitir que a pessoa entronize Komyô Nyorai-sama logo após ingressar na fé. O correto é que ela o faça somente quando, gradualmente, for compreendendo, sua fé avançar, e surgir o desejo de reverenciá-Lo, chegando ao ponto de pedir com fervor. Em todas as coisas, o avanço progressivo é o melhor, pois essa é a ordem natural.
-
-**3. Relação com a fé da família**
-
-**a) Sobre receber a Imagem Divina às escondidas da família**
-[Palestra de Luz (Novembro/Dezembro de 1949) – Publicado no *Gokowaroku*, nº 16, em 20 de janeiro de 1950]
-
-— Há pessoas que, por sua família não compreender o significado da Imagem Divina, a recebem às escondidas. Qual a sua opinião sobre isso?
-
-Ah, isso não é correto. Deve-se recebê-la quando a família atingir um certo grau de compreensão. Não é verdade que, ao receber a Imagem Divina mais cedo, a compreensão virá mais rápido. Na verdade, se for para recebê-la e mantê-la guardada, é melhor cedê-la a alguém que possa entronizá-la imediatamente.
-
-— E quanto à caligrafia?
-
-Bem, com a caligrafia, em princípio, seria o mesmo, mas a questão não é tão rigorosa quanto com a Imagem Divina. Se a pessoa a recebe antes por conveniência do calígrafo ou por questões financeiras, não há problema. E se for por pensar: "O Grande Mestre ficará muito ocupado e talvez não consiga mais receber caligrafias, então é melhor garantir a minha agora", também está correto.
-
-**b) Não se pode entronizar a Imagem Divina se o marido não ingressar na fé**
-[Orientação (8 de novembro de 1951) – Publicado no *Gosuijiroku*, nº 4, em 10 de dezembro de 1951]
-
-"Ontem, meu marido voltou de uma festa e enrolou a Imagem de Dai-Komyô Nyorai-sama. Devo esperar o momento certo para, pedindo perdão, recolocá-la no altar?"
-
-Sim, guarde-a e aguarde o momento oportuno. Chegará um tempo em que o próprio chefe da família sentirá o desejo de reverenciá-la. Então, poderá fazê-lo. Casos como esse indicam que o momento ainda não chegou; foi precipitado. Com efeito, não deve haver opositores no lar. É necessário que toda a família deseje a entronização, especialmente o chefe da família. A oposição dele é um impedimento.
-
-**c) Não se pode entronizar a Imagem Divina se o marido não ingressar na fé**
-[Orientação (1º de abril de 1952) – Publicado no *Gosuijiroku*, nº 8, em 25 de abril de 1952]
-
-"Meu filho de dois anos, ao tentar pegar um brinquedo do altar, danificou com uma vareta a letra 'Myô' da Imagem Divina. Gostaria de trocá-la imediatamente, mas como meu marido e meu filho mais velho não compreendem, não posso fazer a devida doação de gratidão."
-
-Isso é um problema. Não se pode deixá-la danificada. O melhor é enrolá-la imediatamente e aguardar o momento certo. Situações como essa indicam que o tempo foi prematuro. A entronização deve ser feita quando toda a família sente o desejo de fazê-la. O fato de algo assim ter acontecido mostra que foi cedo demais. Portanto, enrole-a, peça perdão sinceramente e aguarde o momento. O correto é que os opositores, o chefe da família, ingressem na fé e só então a Imagem seja entronizada.
-
-"Imagino que o tokonoma (alcova) não seja adequado."
-
-Isso também pode ser um fator, mas o fundamental é que o chefe da família ingresse na fé. A oposição da esposa não é um grande problema, mas a do chefe da família é inaceitável. Ele é o centro. Mesmo que se entronize a Imagem Divina, Deus não poderá Se manifestar.
-
-"Ele não se opõe, mas também não ingressa na fé."
-
-Isso, da mesma forma, não é bom. É preciso que ele ingresse na fé.
-
-**d) Método alternativo de entronização em lares onde o marido não ingressou na fé**
-[Orientação (5 de agosto de 1951) – Publicado no *Gosuijiroku*, nº 1, em 15 de setembro de 1951]
-
-"O marido não ingressou na fé; apenas a esposa e os filhos são membros. A esposa consultou o marido sobre o desejo de receber a Imagem Divina e a obteve, mas, no momento da entronização, ele se opôs, e assim permaneceu. Atualmente, há um quadro comum pendurado no tokonoma."
-
-Em um cômodo que não seja aquele originalmente previsto para a entronização da Imagem Divina, no melhor aposento que tenha uma parede livre, pendure uma caligrafia de Senju Kannon-sama. Perto dela, mantenha a Imagem Divina enrolada. É preciso aguardar o momento oportuno.
-
-**e) Para alguém que não pode entronizar a Imagem Divina devido à oposição do avô**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 40), publicado em 25 de setembro de 1952]
-
-(Para uma pessoa cujo filho sofre de paralisia infantil grave, mas não pode entronizar a Imagem Divina nem realizar o culto aos antepassados porque o avô é seguidor de outra religião)
-
-Sem entronizar Komyô Nyorai-sama, a cura verdadeira não ocorrerá. Contudo, diante de tais circunstâncias, não há o que fazer. Ore fervorosamente ao Deus da sua unidade religiosa e aguarde o momento certo.
-
-**f) Para alguém que não pode entronizar a Imagem Divina devido à oposição do pai**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 46), publicado em 25 de março de 1953]
-
-"Ingressei na fé em setembro de 1947 devido à tuberculose pulmonar de minha esposa, que, em 31 de dezembro do mesmo ano, fez uma passagem serena para o Mundo Espiritual após receber Johrei de um ministro. Sou muito grato por isso. No outono de 1947, entronizei Komyô Nyorai-sama apesar da oposição de meu pai (atualmente com 81 anos). Pouco tempo depois, para meu grande pesar, meu pai escondeu a Imagem Divina. Quando lhe disse: 'Vou devolvê-la à Igreja', ele a entregou, e ela ficou sob os cuidados da Igreja por cerca de um ano. Em 1950, voltei a entronizá-la em casa. Em fevereiro de 1951, enquanto eu estava em peregrinação à Sede, ele a levou para algum lugar novamente. Cometi uma ofensa gravíssima. Peço profundo perdão por ter desrespeitado a Imagem Divina por duas vezes e imploro que me seja concedida a Vossa permissão. Oro para que possa entronizá-la novamente o mais breve possível. Além disso, minha filha (11 anos) parece ter tuberculose na laringe e tem recebido Johrei desde maio do ano passado, sem apresentar melhora. Atualmente, ela apenas tem a voz rouca e não está debilitada, alimentando-se normalmente. Haveria alguma relação entre esses fatos? Rogo-lhe humildemente que me oriente."
-
-Isso ocorre porque você carrega muitos pecados e máculas ancestrais e, por isso, não tem a permissão de reverenciar Komyô Nyorai-sama. A solução é se empenhar em salvar pessoas e formar o maior número possível de novos membros. Por meio dessa virtude, seus pecados e máculas diminuirão, e você se tornará digno de reverenciá-Lo. Então, mesmo que seu pai tente esconder a Imagem, não conseguirá. A doença de sua filha também será curada por meio dessa virtude.
-
-**g) Exemplo de forte oposição por parte dos filhos**
-[Orientação (1º de novembro de 1952) – Publicado no *Gosuijiroku*, nº 15, em 15 de novembro de 1952]
-
-"Há cinco anos, uma família de nove pessoas ingressou na fé e entronizou a Imagem Divina, dedicando-se com afinco ao caminho. Contudo, desde a época da perseguição religiosa, os rumores na vizinhança e a oposição dos parentes se intensificaram. Por causa disso, todos os filhos, exceto o casal, se tornaram opositores e, na ausência dos pais, guardaram a Imagem Divina em um armário. O responsável da época foi imediatamente ao local e a entronizou novamente, mas, tempos depois, ela foi enrolada mais uma vez. Eles continuam a se dedicar com afinco ao caminho."
-
-Dedicar-se ao caminho e, ao mesmo tempo, manter a Imagem Divina enrolada não é, de fato, dedicar-se ao caminho. Não há por que continuar a fazer tal coisa com a Imagem enrolada. É melhor parar. É um desrespeito.
-
-"Eles têm conversado com os filhos para que entendam."
-
-Não há necessidade de conversar. Deixe-os em paz. Não é preciso se preocupar com isso.
-
-**4. Não permitir que doentes em estado grave entronizem a Imagem Divina até que o perigo passe**
-[Orientação (8 de outubro de 1951) – Publicado no *Gosuijiroku*, nº 3, em 25 de novembro de 1951]
-
-"Há dois meses, uma pessoa adoeceu. Consultou quatro médicos, mas não obteve um diagnóstico. Recebeu injeções. Ouviu falar do Johrei nas proximidades e, ao recebê-lo, sentiu um leve alívio. Sua filha ingressou na fé em 23 de agosto e lhe ministrou Johrei com dedicação. O ministro responsável também a atendia, embora não diariamente. Houve uma melhora temporária, mas, desde que seu abdômen inchou, parentes opositores trouxeram um médico. Após o exame, o médico teria dito que seria necessário drenar o líquido, mas que, mesmo fazendo isso, não se responsabilizaria pela vida dela. Em 27 de setembro, a Imagem Divina foi entronizada. Naquela noite, a pessoa estava feliz, mas, na tarde do dia 29, fez a passagem para o Mundo Espiritual. O médico veio e disse que não emitiria o atestado de óbito se a Imagem Divina não fosse queimada. Com muito pesar, os opositores a queimaram."
-
-A entronização foi prematura. A Imagem Divina deve ser entronizada após a cura da doença. Fazer com que a pessoa a entronize sem saber se ela será curada ou não é um erro do ministro da igreja. O princípio é: a pessoa é curada, sente-se grata e, por isso, entroniza a Imagem com o desejo de não mais adoecer e de poder ajudar o próximo. A ideia de que, ao entronizá-la, a cura será mais rápida não corresponde à verdadeira atitude. Não se deve considerar a Imagem Divina como um mero aparelho de tratamento. Portanto, a decisão de entronizá-la deve ser tomada com grande seriedade. Foi por essa razão que Deus permitiu que ela fosse queimada. Quem a queimou agiu corretamente. Pode ir até lá e agradecer.
-
-"O atestado de óbito foi obtido sem problemas."
-
-Então foi bom que tenha sido assim. É isso que acontece. A pessoa entroniza a Imagem Divina, pensa que será salva, mas acaba falecendo. Isso mancha a credibilidade, fazendo com que pensem: "Deus não é confiável". Consequentemente, torna-se um obstáculo à Obra Divina. Ocasionalmente, há casos em que a pessoa recebe uma graça ao entronizar a Imagem antes da cura, mas deve-se pensar da seguinte forma: se a doença não apresenta risco de vida, a entronização antecipada pode ser aceitável. Contudo, em casos de risco de vida, ela é absolutamente proibida. Já falei sobre isso muitas vezes. Assim são as coisas. Na verdade, é assim que funciona. Portanto, se a doença é grave, a Imagem deve ser entronizada somente quando a pessoa estiver curada e a situação for segura. Desse modo, nem mesmo os parentes se oporão e não criarão obstáculos. E se, ainda assim, o fizerem, o erro estará com eles, e Deus lhes dará o devido tratamento.
-
-**5. a) Para quem recebeu a Imagem Divina sem ter um lugar para entronizá-la**
-[Palestra de Luz (23 de julho de 1949) – Publicado no *Gokowaroku*, nº 13, em 21 de outubro de 1949]
-
-— Recebi a Imagem de Dai-Komyô Nyorai-sama, mas, por não ter um lugar apropriado, mantenho-a guardada. Ainda assim, posso receber proteção?
-
-Se ela estiver guardada, a proteção que se pode receber é mínima. Mas receber a Imagem sem ter um lugar para entronizá-la não é o procedimento correto.
-
-— É que nossa casa foi destruída na guerra e, no momento, vivemos em um barraco...
-
-E antes disso?
-
-— Não a havíamos recebido.
-
-Por isso mesmo não está correto. O certo é preparar um local digno para a entronização e só então recebê-la. O mesmo se aplica ao receber um convidado, não é? Prepara-se o assento e depois se convida a pessoa. Convidar alguém e dizer: "Seja bem-vindo, mas como não tenho lugar, por favor, agache-se no canto do depósito", é inaceitável. (Risos gerais)
-
-— O marido pensou que, se entronizasse a Imagem Divina, talvez recebesse a graça de ter uma boa casa...
-
-Ele quer usar Deus, não é? É o cúmulo do absurdo. Se fosse possível utilizá-Lo de forma tão conveniente, seria algo formidável, maravilhoso. ...Isso está fundamentalmente errado.
-
-— É que não temos um tokonoma (alcova)...
-
-Então, o melhor seria desistir. Se ele adotar a atitude de desistir, talvez até receba a graça de um tokonoma. (Risos) Quando o coração da pessoa muda... Você também precisa pedir perdão junto com ele. Agir dessa forma... Essa ideia de usar Deus é um erro desde a sua raiz. Portanto, devolva a Imagem imediatamente e peça perdão sinceramente. Assim, talvez ele receba um tokonoma. Até que isso aconteça, deixe a Imagem Divina sob a guarda da Sede.
-
-**b) Para quem, por entronizar a Imagem Divina de modo egocêntrico, acabou por profaná-la**
-[Orientação (8 de novembro de 1951) – Publicado no *Gosuijiroku*, nº 4, em 10 de dezembro de 1951]
-
-"Houve uma infiltração de chuva sobre a letra 'Dai' da Imagem de Dai-Komyô Nyorai-sama."
-
-Isso é um problema sério.
-
-"Pedi a um profissional para remover a mancha, e ele disse que usaria produtos químicos. Posso autorizar?"
-
-A remoção da mancha também não é permitida. Se o dano fosse apenas no papel, sem afetar as letras, um profissional poderia consertá-lo. Mas, uma vez que as letras foram afetadas, não há o que fazer. É preciso trocá-la.
-
-"O que devo fazer com a Imagem danificada?"
-
-Guarde-a. Não, o melhor é queimá-la, após pedir perdão sinceramente. Com certeza, houve algum erro de sua parte.
-
-"No dia em que minha avó faleceu, realizamos a cerimônia de casamento e a entronização da Imagem de Dai-Komyô Nyorai-sama, pois ela dizia que não poderia morrer sem presenciar esses eventos."
-
-Aí está o erro. Como houve um equívoco, o correto é pedir perdão e queimá-la.
-
-**c) Exemplo de alguém que, devido a máculas, só conseguiu entronizar a Imagem Divina após passar por uma calamidade**
-[Palestra de Luz (3 de abril de 1950) – Publicado no *Gokowaroku*, nº 19, em 13 de junho de 1950]
-
-— Um de nossos membros sofreu recentemente com as enchentes; uma montanha desmoronou e sua casa foi arrastada. O curioso é que a casa vizinha, de um não membro, permaneceu intacta, e apenas a do membro foi atingida. Ele procura um lugar para se mudar, mas não encontra. Seria apropriado reconstruir no mesmo local? Atualmente, ele está se preparando para receber Komyô Nyorai-sama.
-
-Então ele está se preparando, mas ainda não a entronizou, correto?
-
-— Sim.
-
-Claro, se já a tivesse entronizado, isso não teria acontecido. Trata-se de uma purificação da casa. Provavelmente, sem que isso ocorresse, ele não conseguiria entronizar Komyô Nyorai-sama.
-
-— Ele pode reconstruir no mesmo local?
-
-Sim, certamente que pode.
-
-**d) Para alguém cuja Imagem foi profanada por uma pessoa violenta, com o conflito sendo resolvido harmoniosamente um ano depois**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 48), publicado em 25 de maio de 1953]
-
-"Agradecemos profundamente pelas constantes proteções que recebemos, apesar de nossos muitos pecados e máculas, e especialmente pela permissão de servir de forma tão nobre após ingressarmos na fé. Recentemente, ocorreu um incidente gravíssimo, e estamos desolados, sem saber como pedir perdão. Peço profundas desculpas pela profanação da fotografia de Meishu-Sama, da Imagem de Dai-Komyô Nyorai-sama, da Caligrafia Divina e do quadro '5-6-7'. Relato a seguir a causa deste lamentável ocorrido. Foi no dia 3 de março, por volta das 19h30. Eu estava lendo a Coletânea de Ensinamentos nº 18 quando o irmão mais novo de minha esposa chegou e começou com suas críticas habituais: 'Vocês não têm filhos, não têm um negócio, o que farão na velhice? Nem casa própria têm'. Como ele estava embriagado, minha esposa e eu trocamos um olhar e permanecemos em silêncio. Então, ele esbravejou: 'Que história é essa desse tal Komyô? Arrecadam o dinheiro dos outros, doam tudo e vivem sem um tostão. Dizem que remédio é veneno, que injeção faz mal. Como ousam dizer coisas tão absurdas? Seus idiotas! O que é esse Komyô? Eu sou muito mais digno. Se querem reverenciar alguém, reverenciem a mim!'. Ele nos encarava com uma expressão terrível, repetindo as ofensas em voz alta. Perdi a paciência e retruquei: 'Não fale mal de Deus!'. Ao que ele reagiu: 'Como ousa falar assim com seu irmão mais velho? Esta casa é minha! Quem não me obedece, que saia! Saia agora mesmo!'. Ele estava cada vez mais descontrolado. Esta casa, na verdade, foi comprada por mim, mas, como na época eu morava na Manchúria, o registro está em nome do irmão mais velho de minha esposa. Desde que ingressamos na fé, por volta de 1947, temos tentado transmitir o caminho ao irmão mais novo dela, mas ele não consegue compreender. Mesmo quando familiares são curados pelo Johrei, ele não demonstra gratidão. Com o passar do tempo, passou a nutrir aversão à nossa fé e a espalhar calúnias, o que tem nos prejudicado muito na difusão. No ano passado, em janeiro, ele armou um plano e, aproveitando minha ausência em uma viagem, expulsou minha esposa de nossa antiga casa com insultos. Graças à intervenção do pai dela, pudemos nos mudar para a casa atual. E agora, novamente, ele nos manda sair. Diante de suas palavras injustas, também me irritei e disse: 'O que está dizendo?'. Ele parecia prestes a me atacar, mas percebi que seria infantil de minha parte confrontá-lo. Por sugestão de minha esposa, decidi sair. No momento em que me dirigia para fora, ouvi um barulho enorme. Olhei para trás e vi que ele havia quebrado a porta de vidro do quarto e estava montado sobre minha esposa, gritando: 'Vou matar vocês! Se eu os matar, também ficarei em paz. A simples visão de vocês me dá nojo!'. Ele a agarrava pelos cabelos e a agredia. Voltei para o quarto e vi a Coletânea de Ensinamentos nº 18 completamente rasgada e espalhada pelo chão. Fiquei verdadeiramente furioso e o empurrei para fora. Pensei, contudo, que, se me envolvesse com alguém assim, não conseguiria mais servir na Obra Divina, o que seria terrível. Pedi aos vizinhos que cuidassem da situação e fui para a casa do pai de minha esposa. Depois disso, meu cunhado voltou. Quando os vizinhos chegaram, ouviram um barulho de algo se quebrando no andar de cima. Ao subirem, encontraram, para meu grande pesar, a Imagem de Dai-Komyô Nyorai-sama retirada da parede e rasgada horizontalmente entre as letras 'Myô' e 'Nyo'. O quadro '5-6-7' estava no chão. Ele ainda tentou alcançar a fotografia de Meishu-Sama, mas os vizinhos o agarraram por trás. Contudo, ele os repeliu com uma força descomunal, fazendo-os bater contra a divisória de papel. Nesse instante, ele deixou a fotografia cair no tatame, quebrando a moldura e, para nossa imensa consternação, causando um arranhão de cerca de uma polegada na gola da veste de Meishu-Sama na fotografia. Pedimos sinceras desculpas por isso. Já providenciamos uma nova moldura para a fotografia. Podemos mantê-la como está? A Imagem de Dai-Komyô Nyorai-sama e a Caligrafia Divina foram entregues à igreja intermédia em 4 de março. Como devemos proceder de agora em diante? Rogo-lhe humildemente que me oriente. Oramos para que nosso pedido de perdão seja aceito e que o dia em que possamos receber novamente a Imagem Divina chegue o mais breve possível."
-
-Por enquanto, deixe as coisas como estão. Se entregar tudo a Deus, o momento certo chegará, e então poderá entronizá-la novamente. O fato de ter sofrido um ato de violência como esse tem uma razão profunda, que certamente será compreendida no futuro. Até lá, aguarde sem a menor preocupação. A propósito, às vezes ocorrem eventos inesperados, mas eles sempre têm um significado. Portanto, não se deve guardar rancor ou ódio do agressor, pois é possível que Deus o tenha feito agir assim por algum motivo.
-
-**Referência**
-[Orientação (1º de abril de 1954) – Publicado no *Gosuijiroku*, nº 30, em 15 de abril de 1954]
-
-**IV. Exemplos em que fomos orientados a entronizar a Imagem Divina**
-
-**1. a) Em regiões com intensa interferência espiritual, deve-se entronizar muitas Imagens Divinas**
-[Orientação (5 de agosto de 1951) – Publicado no *Gosuijiroku*, nº 1, em 15 de setembro de 1951]
-
-"A vila de Tagiri, no distrito de Iwami, província de Tottori (mencionado como vila T, distrito I na Coletânea de Obras de Mokiti Okada), é uma comunidade de pescadores com cerca de duzentas a trezentas casas, localizada na costa do Mar do Japão. Lá, temos entre trinta e quarenta membros. O problema é que, ao ingressarem na Igreja Messiânica, a pesca deles piora a partir do dia seguinte. Se considerarmos a maior captura da vila como 100%, um pescador que obtinha entre 70% e 80% passa a obter apenas 40% a 50% após a conversão. Em barcos de duas pessoas, quem obtinha entre 70% e 80% passa a obter apenas 30% a 40%, e essa situação já dura cerca de um ano e meio, sem mudanças. Já aqueles que falam mal da Igreja Messiânica estão obtendo cerca de 120%. Os motores de três ou quatro casas quebraram, e todas elas pertencem a membros. As grandes embarcações de pesca de nossos membros também não estão tendo bons resultados. Por outro lado, no que diz respeito às doenças, eles têm recebido grandes graças. Três famílias foram pescar para fazer uma oferenda ao altar e, embora fosse época de cavala, pescaram um pargo. Quando um ministro visita a vila, eles pescam caranguejos fora de época. Essa comunidade era, até então, seguidora da Tenrikyo, e os que ingressaram em nossa fé vieram dessa religião. Uma família que se mudou de Osaka entronizou a Imagem de Dai-Komyô Nyorai-sama em 20 de abril, e outra família entronizou a Imagem de Komyô Nyorai-sama. A casa que entronizou a Imagem de Komyô Nyorai-sama, há cerca de um mês, passou a ter uma pesca semelhante à dos outros. Antes disso, por um ano e meio, não conseguia pescar bem."
-
-Isso está relacionado à religião. É preciso fazer com que mais pessoas entronizem Komyô Nyorai-sama. Há interferência do deus da Tenrikyo. Com o tempo, essa interferência se tornará impossível, e a pesca melhorará gradualmente. A má pesca é um fenômeno temporário.
-
-"Algo semelhante ocorreu na província de Yamaguchi, e a situação começou a melhorar gradualmente após a entronização de Komyô Nyorai-sama."
-
-É, de fato, uma interferência do Mundo Espiritual. Por um tempo, o outro lado prevalece, mas, à medida que o poder de Deus se fortalece, nós prevaleceremos. Essa batalha continuará até o advento do Mundo de Miroku.
-
-**b) Sobre a queda de um raio no dia da entronização da Imagem Divina**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 28), publicado em 25 de setembro de 1951]
-
-(Relato de um acontecimento em um posto de difusão, na noite da entronização da Imagem de Dai-Komyô Nyorai-sama)
-
-"Éramos oito pessoas — os dois ministros, um membro qualificado e a família de cinco pessoas (todos membros) — jantando no cômodo de seis tatames onde a Imagem de Dai-Komyô Nyorai-sama havia sido entronizada. Eram oito horas da noite quando um som estranho e agudo, como um estalo, ecoou, e, simultaneamente, uma sensação de choque elétrico percorreu nossos corpos. Um clarão branco saltou dos fusíveis do medidor de luz no canto. As duas crianças mais novas (de doze e quinze anos) começaram a chorar de dor de cabeça. Após cerca de vinte minutos de Johrei mútuo, todos nos recuperamos. Novamente, um grande estrondo, um clarão e um tremor. Na escuridão, apenas o Johrei continuou em meio a risos. A casa cheirava a queimado. Saímos várias vezes sob a chuva para inspecionar os arredores, mas não encontramos nada de anormal. A tempestade passou por volta das dez horas, e a energia elétrica foi restabelecida nas outras casas, mas a nossa permaneceu às escuras. Na manhã seguinte, ao inspecionarmos, descobrimos que apenas o cômodo de seis tatames, onde a Imagem Divina estava entronizada, e o de três tatames, onde Komyô Nyorai-sama esteve anteriormente, estavam intactos. A lâmpada da entrada, logo ao lado, estava completamente preta e com o filamento rompido. O isolador de porcelana se estilhaçou, e as cerca de trinta telhas do cume do telhado, logo acima, estavam quebradas e espalhadas. A lâmpada da cozinha se pulverizou, e o pilar onde estava pendurada exibia marcas vívidas, como se tivesse sido arranhado por garras grandes e afiadas. Mesmo assim, não havia um único ponto queimado, nem qualquer outro dano. Sentimos profundamente a imensa felicidade de estarmos envoltos pelo Manto Divino de Deus e choramos de emoção pela Grande Misericórdia que se estende a todos que a Ele se apegam, sem distinção. Esta casa é uma antiga guarita de um complexo militar que foi ampliada. Nas proximidades, houve um número considerável de mortos e feridos devido a bombardeios. Além disso, recentemente, a escola solicitou a desocupação do terreno para expansão, mas o processo está paralisado por falta de verba. Este raio foi um fenômeno espiritual com algum significado, ou um fenômeno natural fortuito? Rogo-lhe humildemente que me esclareça."
-
-Isso de forma alguma foi um evento fortuito. Havia uma mácula muito grande no Mundo Espiritual dessa casa, e ela foi purificada pelo fogo do raio, o que é excelente. Se fosse um raio comum, alguém teria se ferido. O fato de terem sido poupados é uma proteção divina, pela qual se deve sentir profunda gratidão.
-
-**c) Não há problema em uma criança doente dormir no lugar de honra (em frente ao Altar Divino)**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 43), publicado em 25 de dezembro de 1952]
-
-"Conforme o ensinamento, é bom que pessoas com doenças mentais, epilepsia e outras possessões espirituais descansem em frente ao Altar Divino. No entanto, seria apropriado que o casal dormisse no andar de baixo e o filho doente descansasse no andar de cima, em frente ao Altar? Rogo-lhe humildemente que me oriente."
-
-Em circunstâncias normais, não seria apropriado. Contudo, no caso de um doente, não há problema.
-
-**d) O cômodo onde há um espírito maligno é precisamente onde a Imagem Divina deve ser entronizada**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 31), publicado em 25 de dezembro de 1951]
-
-"Desde 1947, minha esposa estava acamada com tuberculose pulmonar. Em 1949, ela apresentou uma leve melhora. Assim, em 3 de janeiro de 1950, iniciamos a construção de uma nova casa, que foi concluída em março. Mudamo-nos e vivemos sem problemas até que, em 15 de agosto, a doença de minha esposa reincidiu. Seu estado piorou gradualmente, e ela faleceu em 19 de setembro. Depois disso, em 27 de setembro, meu filho mais velho foi diagnosticado com tuberculose pulmonar, não podendo mais ir à escola e passando a se tratar em casa. A partir dessa época, os conflitos em casa se tornaram frequentes, e vivíamos em constante desarmonia. Em fevereiro de 1951, um parente sugeriu que eu me casasse novamente, e em 26 de fevereiro, recebi minha atual esposa. Meu filho mais velho foi completamente curado graças ao Johrei de minha esposa. Em 21 de abril, entronizamos a Imagem de Kannon (観音) em biombo. Desde então, temos recebido diversas purificações em casa. Quando minha esposa vai para o meio do quarto onde cultuamos os antepassados, ou para o lugar mais elevado, sua cabeça fica pesada, ela sente tonturas e perde a consciência, recuperando-se somente após receber Johrei. As crianças, ao irem para esse mesmo local, dizem: 'Tragam o Tadashi!', e começam a bater e chutar com raiva (Tadashi é o filho mais novo de minha primeira esposa e está sob os cuidados da família dela). Em 23 de outubro, nós o trouxemos, mas meu filho mais velho, ao ir para o mesmo lugar, também fica agressivo. E não é só ele; as outras crianças, quando vão para lá, invariavelmente ficam mal-humoradas ou irritadas. Quando minha esposa dorme nesse local, seu flanco parece ser sugado pelo chão, e ela tem grande dificuldade em se levantar. Em 18 de junho, logo após eu ter ingressado na fé, um espírito se manifestou e disse que, antigamente, um samurai viajante foi assassinado por barqueiros ao atravessar o rio Ôi e foi enterrado em meu terreno. Segundo os mais velhos, nossa vizinhança sempre foi palco de muitas desgraças, e por isso há um deus das águas cultuado em um lago próximo. Desde que ingressei na fé, as desgraças diminuíram, e o ânimo dos vizinhos melhorou consideravelmente. A purificação de minha esposa e a raiva das crianças seriam causadas pelo espírito desse samurai? Além disso, minha esposa está com o parto previsto para meados de dezembro. Nossa casa tem apenas dois cômodos. O parto poderia ser realizado no referido quarto? Como não há tokonoma, gostaria de improvisar um e receber Komyô Nyorai-sama. Seria apropriado entronizar a Imagem Divina em um quarto com presença espiritual? Rogo-lhe humildemente que me oriente."
-
-Um quarto habitado por um espírito maligno como esse é precisamente o lugar onde Komyô Nyorai-sama deve ser entronizado o mais rápido possível. Sem dúvida, nesse local, há um espírito sofredor que, por seu apego, deseja ser cultuado ou salvo e está se manifestando para que o percebam. Contudo, não apenas entronizando a Imagem Divina, mas também entoando constantemente a Oração Amatsu-Norito, a Salmodia Zenguen-Sandji e os Salmos Divinos em direção a esse local, ele será salvo e o problema se resolverá. Portanto, não há necessidade de preocupação. O parto também pode ser realizado nesse quarto, sem problemas.
-
-**e) Para alguém atormentado por um espírito de um falecido**
-[Palestra de Luz (28 de janeiro de 1949) – Publicado no *Gokowaroku*, nº 3, em 8 de fevereiro de 1949]
-
-— Há sete anos, um rapaz de dezesseis anos caiu de um penhasco com sua bicicleta em uma noite escura e morreu afogado. Há três anos, sua mãe começou a sentir um peso no estômago, com dificuldade para ingerir alimentos, e todas as noites, por volta da meia-noite, acorda atormentada pelo espírito do filho falecido (a mãe recebeu o curso de formação em dezembro). Isso teria alguma relação espiritual com o filho? E o que se deve fazer em relação ao espírito?
-
-O ideal é que ela entronize Komyô Nyorai-sama e durma no mesmo quarto. Assim, o tormento causado pelo espírito cessará naturalmente. ...Normalmente, o estômago e o espírito não têm relação. Ela deve ter tomado algum remédio para o estômago.
-
-— Antigamente, ela tomava "guen-no-shoko" (erva medicinal).
-
-Aí está a causa. Portanto, basta ministrar Johrei com afinco em suas costas.
-
-**2. Para pessoas em purificação relacionada ao yakudoku (toxina medicamentosa)**
-
-**a) Exemplo de recomendação de entronização para uma pessoa com manchas brancas na pele**
-[Ensinamento (8 de dezembro de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 5, em 15 de janeiro de 1952]
-
-"Tanikuko (23 anos). Por volta de agosto de seu sexto ano de vida, ela foi diagnosticada com uma doença de pele (manchas brancas). O médico disse que não havia remédio para a doença. Ela foi submetida a tratamento com lâmpada solar e raios ultravioleta por quatro ou cinco meses e recebeu injeções de um medicamento de nome desconhecido nas manchas por dois meses, mas não obteve cura. Depois disso, a doença se espalhou. Todos os seus cílios direitos ficaram brancos, e cerca de um quarto do lado direito de sua cabeça está coberto por uma mancha branca. O cabelo é branco por cerca de quatro centímetros desde a raiz, e depois se torna preto. Atualmente, a área afetada está quente e com muita caspa. À tarde, seu rosto fica febril. Parece que seus ombros e quadris também estão quentes. Ela tem recebido Johrei de membros desde que ingressou na fé (abril de 1951). Na família, apenas ela é membro. A Imagem Divina e a Imagem de Kannon (観音) em biombo não foram entronizadas."
-
-As doenças de pele, exceto as de origem espiritual, são causadas por yakudoku (薬毒). Essas manchas brancas também são yakudoku (薬毒). As manchas de origem espiritual — essas são de nascença e não têm cura fácil. Neste caso, trata-se do yakudoku (薬毒) ingerido pelos pais, então tem cura. Contudo, como ela foi submetida a tratamentos com lâmpada solar e raios ultravioleta, a toxina se solidificou, o que dificulta a cura. Além disso, as injeções de nome desconhecido também são prejudiciais. Se fosse no braço, não seria tão grave, mas, sendo na área afetada, o impacto negativo é considerável. O fato de os cílios ficarem brancos é, sem dúvida, devido ao yakudoku (薬毒). Com perseverança, ela será curada. O ideal é que ela entronize Komyô Nyorai-sama, durma no mesmo quarto e ore com fervor. Assim, a cura será muito mais eficaz. Nessa idade, é preciso curá-la logo, pois isso pode afetar suas chances de casamento. Portanto, o melhor é proceder dessa forma.
-
-**b) Para uma pessoa com grande acúmulo de yakudoku (toxina medicamentosa)**
-[Ensinamento (16 de março de 1952) – Publicado na *Coletânea de Ensinamentos*, nº 8, em 20 de abril de 1952]
-
-"Tsuruiti Maekawa. Desde o primeiro dia deste mês, ele sente dores simultâneas no estômago e nos pulmões. As dores intensas chegam a durar sete ou oito horas. Após cerca de uma hora de Johrei, a dor desce para a região da virilha, ele sente alívio e tem diarreia. Antes de a dor começar, a área acima do umbigo endurece. Ele já havia recebido uma purificação mais leve de novembro do ano retrasado a abril do ano passado. Naquela ocasião, recebeu a orientação de que 'levaria tempo, por ser yakudoku (薬毒)'. Ele se recuperou completamente em cerca de dois meses. Ingressou na fé em março de 1948. Entronizou a Imagem de Dai-Komyô Nyorai-sama e a Imagem de Kannon (観音) em biombo, recebeu a qualificação e dedica em sua casa. Ele teve a perna esquerda amputada. Seu pai faleceu de úlcera gástrica. Ele é o chefe da família, mas adotou a irmã como herdeira e deixou a casa natal. A casa natal também cultua o pai. O filho adotivo da casa natal também ingressou na fé e colaborava muito. No entanto, em junho do ano passado, ao praticar a Agricultura Natural, ficou muito agitado com a oposição dos vizinhos e parentes. Na mesma época, um templo antigo estava sendo demolido, e ele comprou a palha do telhado para fazer adubo. A partir daí, desenvolveu um distúrbio mental. Os parentes o internaram, mas ele teve alta em uma semana. Desde então, foi forçado a abandonar a fé, não podendo mais entronizar a Imagem de Kannon (観音) em biombo, que agora está sob a guarda de Maekawa. Haveria alguma relação com a casa natal ou com o espírito do pai? Rogo-lhe que me oriente sobre como proceder e sobre os pontos a serem focalizados no Johrei."
-
-Usar palha de telhado como adubo — isso não está nada correto. Coitado. Essa história da palha de telhado é um grande equívoco. É por esquecer o que é natural que coisas assim acontecem. Se a palha de telhado fosse boa para adubo, teríamos que sair por aí retirando a palha de todos os telhados para fazer adubo. Seria uma confusão. Realmente, atitudes como essa estão muito erradas. Ele tem uma perna amputada, não é?
-
-"Sim, é verdade."
-
-De qualquer forma, as pessoas ao redor estão se opondo, certo?
-
-"Haveria alguma relação com o pai falecido?"
-
-Não há relação com o espírito de seu pai.
-
-"Quando ele ingressou na fé, havia o yakudoku (toxina medicamentosa)."
-
-Isso não importa agora. Atualmente, ele está em casa?
-
-"Sim, está."
-
-Quem é que tem o distúrbio mental?
-
-"É o marido da irmã da casa natal."
-
-Qual a relação do doente mental com esta pessoa?
-
-"É o genro da casa natal."
-
-Ele está na fé? Desde quando?
-
-"Está na fé, mas não sei ao certo."
-
-A família da pessoa com o distúrbio mental está se opondo?
-
-"Os parentes se opõem, e Tsuruiti Maekawa está com a Imagem de Kannon (観音) em biombo sob sua guarda."
-
-Então é um casal, e o marido tem um distúrbio mental. E Komyô Nyorai-sama?
-
-"Ainda não foi entronizado."
-
-Então não há o que fazer. A irmã está na fé? Desde quando, aproximadamente?
-
-"Acho que por volta de 1948."
-
-Mas ela ainda não ingressou de fato na fé. Se não entronizou Komyô Nyorai-sama, não se pode dizer que ingressou. Ela desistiu da Imagem de Kannon (観音) em biombo, não é?
-
-"Sim, é verdade."
-
-Então não há como ele se curar. É você quem está ministrando Johrei nele?
-
-"Não, não estou."
-
-Você pergunta sobre ele sem lhe ministrar Johrei?
-
-"Gostaria de saber se há relação entre a purificação de Maekawa e o distúrbio mental."
-
-Não há relação. É yakudoku (薬毒). Eu já não disse que era yakudoku (薬毒) antes? Então, não é exatamente isso? Eu disse que levaria tempo, não disse? É exatamente como falei. Não há necessidade de perguntar. Portanto, ele se curou uma vez, mas não foi uma cura definitiva, foi temporária. Casos como este, de yakudoku (薬毒), passam por ciclos de melhora e piora. Basta ministrar Johrei no local da dor, pois é ali que a purificação está ocorrendo. Com perseverança, ele ficará bem.
-
-**c) Para uma pessoa cuja asma está em repurificação**
-[Luz da Sabedoria Miraculosa (*Chijo Tengoku*, nº 9), publicado em 25 de outubro de 1949]
-
-"Até setembro do ano passado, dependi por muitos anos de médicos e remédios. Minha asma melhorou com o Johrei. Meu marido ingressou na fé em novembro do ano passado, e eu, em dezembro do mesmo ano. Ainda não entronizamos a Imagem Divina. Por volta de março deste ano, comecei a ter uma nova purificação. Em abril, emagreci bastante. Desde maio, tenho febre à tarde, e por volta das quatro ou cinco horas, sinto fortes dores de cabeça e transpiro muito. Na manhã seguinte, sinto-me bem, mas meus joelhos tremem como se eu estivesse em uma carroça em uma estrada esburacada. Esse tremor vem em quatro crises de cerca de quarenta minutos, em dias alternados. Haveria alguma relação espiritual? E o que devo fazer para ser salva?"
-
-Os tremores são calafrios, ou seja, febre de purificação, o que é excelente. Todas as doenças alternam entre dias bons e ruins. O ideal é que você entronize Komyô Nyorai-sama. Para se curar mais rápido, ao ingressar na fé, Deus a curará. A razão pela qual Ele a cura é com o sentido de: "Estou lhe dando a vida que você não tinha; portanto, salve as pessoas do mundo". Assim, não basta apenas ser curada. Se você salvar muitas pessoas, Ele a curará cada vez mais rápido. Se o ser humano é útil, Deus faz o possível para que ele melhore e para que não piore.
-
-**d) Sobre como orientar uma pessoa com grande acúmulo de yakudoku (toxina medicamentosa) e risco de vida**
-[Ensinamento (18 de agosto de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 1, em 20 de setembro de 1951]
-
-"Um membro chamado Yasuharu Fujie (50 anos) sofria de uma doença ocular e, após tentar todos os tipos de tratamento, ingressou em nossa fé quando estava à beira da cegueira. Seus olhos estavam em um estado terrível. Após uma semana de Johrei, ele começou a distinguir levemente o branco do preto do olho. A parte superior da pupila esquerda estava coberta por inúmeras manchas, e a íris não era visível. O branco do olho estava deslocado para cima, e a pupila, para o centro. O olho direito saltava para fora como uma bola de gude, e a parte superior da pupila parecia coberta por ovas de salmão. Com a esperança de salvar pelo menos o olho esquerdo, continuei a ministrar Johrei diariamente por cerca de dois meses. A pedido dele, interrompemos por um mês. Depois, ele pediu para recomeçar, e continuamos a ministrar Johrei em dias alternados. Gradualmente, começou a sair mais remela e lágrimas, e, após cerca de seis meses, as manchas desapareceram, e ele passou a enxergar um pouco. Nesse ínterim, estávamos conversando com o filho mais velho do Sr. Fujie para que ele também ingressasse na fé, mas a decisão foi sendo adiada. Então, ele foi vítima de um estelionato em seus negócios. Ele se queixou, dizendo: 'Mesmo sendo um casal na fé, fomos enganados'. Expliquei-lhe a situação, e ele pareceu entender que se tratava de sua própria mácula. Recentemente, sua filha mais velha ingressou na fé (o filho mais velho, ainda não). Em 7 de agosto, esse filho subitamente teve febre e começou a passar mal. No dia 9, ministrei-lhe Johrei. Cerca de trinta minutos depois, a febre aumentou. Orientei-os a não resfriá-lo e expliquei bem a situação antes de ir embora. No dia 10, tive um compromisso e não pude ir, então pedi a outra pessoa que fosse em meu lugar. Naquele momento, seu olho direito estava inchado, e a conjuntiva parecia descolada do globo ocular. Ao fechar o olho, a membrana se enrugava e saía por entre as pálpebras. A cabeça doía como se fosse rachar, e a nuca estava rígida. Entoei a Salmodia Zenguen-Sandji e ministrei Johrei, mas a dor de cabeça não parecia diminuir. Em 11 de agosto, fui à casa dele de manhã cedo, entoei a Oração Amatsu-Norito e continuei com o Johrei. Dei-lhe um pedaço de papel espiritual para ingerir e ministrei Johrei por cerca de uma hora (focalizando a testa, o pescoço, a nuca e os ombros), mas ele se queixava de dor nos olhos e na cabeça, e a febre não baixava. De repente, suas mãos enrijeceram, e ele disse que sentia como se um peso de quase quatro quilos estivesse sobre seu abdômen. Pensei que poderia ser a ação de algum espírito, então entoei a Oração Amatsu-Norito e a Salmodia Zenguen-Sandji, e também o Salmo Divino (San-zon-no-Mida). Após cerca de cinco minutos de Johrei, ele se sentiu melhor. Isso se repetiu duas vezes. Naquele dia, fui embora e voltei na manhã do dia 12 para ministrar Johrei, mas a febre praticamente não havia baixado. Então, um familiar comentou: 'Os olhos dele estão iguais aos do gato'. Perguntei o porquê, e eles me contaram que um gato de rua apareceu, e eles o criaram por cerca de meio mês (o pai era contra). Eles tinham um cachorro chamado Kenny, e o gato teve o olho direito ferido por ele, ficando fechado. O filho mais velho, dizendo 'coitadinho, mas não tem jeito', o abandonou em uma casa de veraneio. Além disso, antes disso, Kenny já havia matado dois outros gatos. Eles não sabem o que aconteceu com os corpos. No dia seguinte ao abandono do gato, o filho mais velho, que é uma pessoa sensível, adoeceu subitamente. Ao ouvir isso, pedi que colocassem arroz e água para os espíritos sem vínculo em um canto da cozinha, que pedissem perdão ao gato abandonado e que cultuassem os gatos mortos (o Sr. Fujie ainda não havia entronizado a Imagem Divina). No dia 12, fui de manhã cedo ministrar Johrei, mas a febre não baixava, e ele não aceitava nenhum alimento. Como ele sofria muito, pensando na possibilidade do pior, chamei um médico. O médico o examinou com um ar de espanto e balançou a cabeça. Mesmo assim, aplicou-lhe alguma injeção e foi embora. Fiquei muito aflito e corri para a igreja intermédia. Contei a situação ao ministro responsável e pedi que ele fizesse uma oração especial à Imagem de Dai-Komyô Nyorai-sama da igreja. O ministro disse que estava ocupado naquele dia, mas que iria à casa deles na manhã seguinte (dia 14). Ele me disse para ir na frente. Fui às pressas, mas, ao chegar, descobri que ele já havia falecido. Parece que ele morreu no mesmo momento em que o ministro e eu estávamos orando à Imagem de Dai-Komyô Nyorai-sama da igreja intermédia. Diante do exposto: (1) Houve algum erro no procedimento que adotei? (2) Seria uma questão de laço espiritual com os antepassados ou com os gatos? (3) O caso do pai também levará muito tempo para ser resolvido? (4) A família está bastante abalada com a morte do filho mais velho. Neste momento, seria apropriado explicar-lhes bem a situação e, se eles compreenderem, recomendar a entronização da Imagem Divina? Rogo-lhe que me oriente."
-
-O erro foi ter se submetido a todos os tipos de tratamento para a doença ocular. Se não tivesse feito nada, teria se curado. Ele tentou vários tratamentos até ficar à beira da cegueira. É tudo yakudoku (薬毒). Quando a condição dos olhos piora, a pupila se desloca. Ela é empurrada por trás. Quando se introduz o yakudoku (薬毒), ele se infiltra, vai para a cabeça, dissolve-se, chega aos olhos, vai para a parte de trás e tenta sair, empurrando. Seria bom se empurrasse o globo ocular, mas não é o que acontece. Claro que o globo também é empurrado, mas a toxina dá a volta e empurra a pupila. Já tratei de uma pessoa assim. A pupila fica pendurada e cai. O olho fica cheio de pus. Com o Johrei, a pupila gradualmente retorna ao lugar. Eu nunca imaginei que a pupila pudesse se deslocar. Este é um caso mais leve. O branco do olho se desloca para cima, e a pupila, para o centro. Isso indica que uma grande quantidade de toxina se acumulou ali. Portanto, é preciso ministrar Johrei com perseverança, e gradualmente sairá muita remela. Então, a pessoa se cura. Certamente se cura. No início, era algo simples, mas foi agravado pelos remédios. É realmente assustador. 'Após cerca de seis meses, as manchas desapareceram' — é assim que a cura progride. O estelionato — isso aconteceu porque ele demorou a ingressar na fé. Contudo, ter sido vítima de um estelionato é uma purificação. É uma purificação material, o que, na verdade, é excelente. Como essa pessoa ainda tem máculas, ela não poderia ingressar na fé se uma certa quantidade não fosse removida. Então, os espíritos ancestrais fizeram com que ela fosse vítima de um estelionato, causando-lhe um prejuízo material para remover as máculas. Portanto, na verdade, é algo positivo. Sofrer vários prejuízos tem esse significado do ponto de vista espiritual. Se ele entendesse isso, deveria até mesmo agradecer. 'Em 7 de agosto, subitamente teve febre e começou a passar mal — a febre aumentou' — isso está relacionado à condição espiritual de quem ministra o Johrei. Se a força espiritual é fraca, a febre sobe. Se é forte, a febre que subiu, baixa. Se for fraca, vai até aqui (mostra o topo de uma montanha), e não tem força para baixar a febre. Se for forte, vai até aqui (mostra o topo da montanha e desce até o sopé). Portanto, se você se esforça, acontece isso. Se não se esforça — a febre baixa muito facilmente. 'Dor nos olhos, dor na cabeça' — é preciso ministrar Johrei aqui (no pescoço). O gato também tem relação, sim. Mas se o gato não foi morto por diversão — se não foi algo tão grave, o ressentimento é temporário. De fato, há muita toxina aqui. Yakudoku (薬毒). 'De repente, suas mãos enrijeceram' — com certeza, o espírito do gato se manifestou. O cachorro deveria ser amarrado. É melhor prendê-lo com uma corrente. É, de fato, o espírito do gato. 'Ele já havia falecido' — ah, ele foi morto pela injeção. E, realmente, uma família como essa precisa entronizar Komyô Nyorai-sama o mais rápido possível, mas, por outro lado, não se pode forçar. É uma situação delicada. Como há muitos pecados, eles não conseguem receber as graças na mesma medida. Na verdade, não era uma condição para morrer. Foi por causa da injeção. Antigamente era diferente, mas hoje a purificação é intensa, e o efeito contrário também é forte. O que antes não era nada, hoje pode se tornar uma situação de grande perigo. Nesses casos, não se deve insistir muito. Se eles quiserem ouvir, explique. Depois, faça com que leiam o máximo possível as publicações *Eikô* e *Chijo Tengoku*. Lendo atentamente apenas um exemplar do *Eikô*, a maioria das pessoas melhora. É melhor agir sem pressa e com perseverança. Depois de uma desgraça como essa, é natural que surjam algumas dúvidas. É preciso explicar que, por ação do Mundo Espiritual — dos antepassados e outros — e devido aos pecados acumulados, houve uma interferência que levou a esse resultado. Se eles ouvirem de bom grado, explique e incentive-os a entronizar Komyô Nyorai-sama o mais rápido possível. Se houver dúvidas ou a situação não for favorável, faça com que leiam os Escritos Divinos. E, depois, entregue tudo a Deus.
-
-**3. Para pessoas em purificação espiritual**
-
-**I. Para pessoas com distúrbios mentais**
-
-**a) Sobre um doente mental em tratamento domiciliar**
-[Palestra de Luz (28 de fevereiro de 1949) – Publicado no *Gokowaroku*, nº 4, em data desconhecida de 1949]
-
-— Um rapaz de 23 anos apresenta um distúrbio mental. De julho a setembro do ano retrasado, esteve internado em um hospital psiquiátrico. De novembro do mesmo ano a fevereiro do ano passado, esteve internado em um hospital universitário. Atualmente, está em tratamento em casa, mas recentemente tornou-se violento, e a família está preocupada. O que se deve fazer? Seria apropriado entronizar uma Caligrafia Divina?
-
-Ele se curará com o Johrei. E seria bom entronizar a Caligrafia também.
-
-— Mas há o receio de que ele a rasgue...
-
-Não se pode deixar de agir por medo de que ele a rasgue. Se ele a rasgar, isso terá seu próprio significado. Se os pais receberem o curso de formação e ministrarem Johrei com afinco na testa e na nuca, ele se curará. Aos 23 anos, é uma situação lamentável.
-
-**b) Sobre uma pessoa com distúrbio mental**
-[Ensinamento (17 de janeiro de 1952) – Publicado na *Coletânea de Ensinamentos*, nº 6, em 25 de fevereiro de 1952]
-
-"Sueo Kasai. Em dezembro de 1949, foi internado com esquizofrenia e submetido a eletrochoque. A crise passou, mas no ano seguinte ele teve uma recaída e foi reinternado. Sua mente estava confusa, mas não foi submetido a eletrochoque, sendo deixado à própria sorte. Ele começou a apresentar uma leve melhora, mas contraiu disenteria e ficou extremamente debilitado. Voltou para casa, conheceu nossa fé e, desde maio do ano passado, tem recebido Johrei. Por volta de agosto, seu distúrbio mental se agravou, mas recentemente ele já consegue responder de forma mais normal. Atualmente, sente dores na perna esquerda e seus movimentos são como os de uma pessoa com paralisia. Sua perna esquerda tem muito menos massa muscular que a direita, e os músculos não estão firmes. Ele quer comer um pouco de cada vez, constantemente, e gosta especialmente de peixe. Dizem que sua maneira de comer é como a de um cão ou gato. Sua fé ainda não progrediu ao ponto de entronizar a Imagem Divina, mas a Imagem de Kannon (観音) em biombo está entronizada. Parece ser um caso espiritual. Mesmo que pareça forçado, ele não será salvo se não entronizar a Imagem Divina?"
-
-No caso de doenças mentais, quando o quadro se agrava um pouco, a pessoa pode perder a capacidade de andar. Isso acontece porque aplicam injeções paralisantes. Os músculos não estão firmes — se a perna não for usada, ela atrofia. É o espírito de um gato que está possessuindo-o. É absolutamente necessário entronizar a Imagem Divina. Em casos de natureza psíquica, a Imagem Divina é o elemento mais crucial. Portanto, se isso não for feito e apenas se ministrar Johrei, não adiantará. É exatamente como acabei de dizer.
-
-**c) Sobre uma pessoa com distúrbio mental**
-[Ensinamento (5 de outubro de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 3, em 3 de novembro de 1951]
-
-"Em 1942, ao retornar de uma peregrinação, uma pessoa sentiu tonturas. Consultou um médico, mas a doença não foi diagnosticada. Três anos depois, fez um exame de sorologia, mas não foi encontrada nenhuma anormalidade. No entanto, seu estado de espírito não mudou. Ela consultou mais de dez médicos e terapeutas de acupuntura e shiatsu. Um médico a aconselhou a procurar um neurocirurgião, pois o problema seria no cérebro. Em setembro de 1944, ela foi internada no Hospital Universitário de Chiba. Após cerca de quarenta dias, foi finalmente diagnosticada com uma suspeita de tumor cerebral. Na época, ela não conseguia se equilibrar ao andar e seu corpo pendia para a esquerda. Ela foi submetida a radioterapia profunda duas vezes por dia, em três ocasiões. As dores de cabeça e os vômitos pioraram. Após receber alta e voltar para casa, as dores de cabeça se tornaram ainda mais intensas, e ela passava muitos dias acamada. Por volta de meados de dezembro de 1948, ela sentiu uma dor abdominal súbita. O diagnóstico médico foi de tumor intestinal, e disseram que seria necessária uma cirurgia. A dor cessou com medicamentos e injeções. Depois disso, surgiu um nódulo do tamanho de um ovo no lado inferior direito de seu abdômen, e ela passou a ter prisão de ventre. O nódulo desapareceu cerca de um ano depois, mas a prisão de ventre piorou, e ela precisava usar laxantes uma vez por semana. Atualmente, sua cabeça dói muito. Constantemente, ela ouve um barulho como o das ondas de verão dentro da cabeça. A parte de trás dos olhos dói, e ela sente o rosto e o peito quentes, o que a aflige muito. Suas mãos e pés, no entanto, são frios. Ocasionalmente, ela tem crises cerebrais, durante as quais derruba a bandeja de comida que lhe é servida ou faz exigências absurdas. Depois, ao voltar a si, ela se desculpa, dizendo: 'Sinto muito. Não fui eu quem fiz isso, foi algo que me fez fazer'. Além disso, mesmo quando sente muita dor, ela se sente muito melhor por um tempo após comer. Duas ou três horas depois, a dor volta. Seu paladar também é diferente do da família. Alimentos salgados às vezes parecem doces para ela, e alimentos doces, salgados. Com o passar do tempo, o sabor muda para doce, salgado, azedo, etc. À noite, durante o sono, ela grita, murmura ou se levanta de repente e agride a pessoa que dorme ao seu lado. Recentemente, isso se limitou a falar durante o sono. Seu olfato é extremamente aguçado, e ela sente odores que as pessoas normais não conseguem perceber, o que a atormenta muito. Como parece haver uma relação espiritual, perguntei ao antigo morador e descobri o seguinte: a avó do antigo morador se afogou no fosso atrás da casa. O fosso foi aterrado, e agora há um altar para o deus das águas, que é cultuado com devoção. A causa do afogamento, segundo se descobriu, foi que o dono da casa comprou uma propriedade antiga onde, no passado, pessoas haviam se enforcado, e a família se extinguiu. Dizem que a avó foi morta pelo espírito daquela propriedade. Eles venderam a casa imediatamente, mas a família que a comprou também teve desgraças. Após cultuar o espírito da pessoa afogada e o espírito da propriedade antiga por cinquenta anos, eles se sentiram seguros e se mudaram para Tóquio. Nós nos mudamos para esta casa na primavera de 1935. Em 1937, minha avó teve um distúrbio mental. Ela atormentava as pessoas com exigências absurdas e acabou falecendo. Em 1947, o irmão do meu marido contraiu pleurisia e se curou cinco anos depois. Como se para substituí-lo, minha mãe adoeceu e apresenta os sintomas descritos até hoje. Nesse período, meu avô e dois de meus filhos também faleceram. Ainda não recebemos Komyô Nyorai-sama, mas entronizamos a Imagem de Kannon (観音) em biombo. Minha mãe não ingressou na fé. Rogo-lhe que me oriente sobre a purificação dela."
-
-É preciso entronizar Komyô Nyorai-sama o mais rápido possível. A dificuldade de se equilibrar ao andar indica a possessão de um espírito. A radioterapia — isso é extremamente prejudicial. Os vômitos são causados pela radioterapia. Se foi uma vez por dia em três ocasiões, não é tão grave, mas ainda assim é ruim. De qualquer forma, aplicá-la na cabeça é muito perigoso. O nódulo do tamanho de um ovo, a prisão de ventre — isso não é nada. As ondas de verão, a dor atrás dos olhos — é anemia cerebral. Há uma solidificação na região da nuca. É um espírito animal que está possessuindo-a. A percepção do sabor doce — é de um animal. Agressões, olfato aguçado — também são instintos animais. O deus das águas não tem relação. O enforcamento também não tem relação. O distúrbio mental — pode ter relação. É um cão ou um gato, algo assim. A agressão ocorre porque, quando estava vivo, o animal foi agredido, e esse laço espiritual permanece. Nesta casa, é preciso entronizar Komyô Nyorai-sama rapidamente. E é preciso ler o máximo possível os Escritos Divinos e ajudar as pessoas. À medida que os pecados diminuem, essa senhora também melhorará. O espírito do cão ou gato também é um membro da família que caiu no mundo animal. É preciso salvá-lo. O Johrei deve ser focado na cabeça, no centro da testa e ao redor do pescoço. Com perseverança, ela melhorará gradualmente.
-
-**d) Sobre uma pessoa possessa por um espírito**
-[Ensinamento (6 de dezembro de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 5, em 15 de janeiro de 1952]
-
-(Para a família de uma pessoa que cultua Fudo Myoo, Kobo Daishi, etc., realiza curas, acerta a localização de objetos perdidos e, ocasionalmente, entra em estado de possessão e se torna violenta. A pessoa em questão retirou o Ohikari e queimou a Imagem de Kannon (観音) em biombo.)
-
-Ela retirou o Ohikari — nesse caso, não há o que fazer. Então, ela não ingressou de fato na fé. É uma conversão apenas formal. A primeira coisa a fazer é usar o Ohikari. Sem ele, não se pode receber a proteção divina. O fato de coisas assim acontecerem indica que todos na casa também têm pecados. Quando isso acontece, há sofrimento. O sofrimento existe porque há pecados e máculas. É preciso reduzi-los. E para reduzi-los, é preciso usar o Ohikari. Esse é o primeiro passo. E Komyô Nyorai-sama está entronizado?
-
-"Ainda não."
-
-Então não adiantará. Ela ainda não ingressou na fé. Se não entronizar Komyô Nyorai-sama e não usar o Ohikari, não há como ser salva. De qualquer forma, esse é o fundamento. E é preciso orar com fervor. Ao entronizar Komyô Nyorai-sama, entoa-se a Oração Amatsu-Norito, a Salmodia Zenguen-Sandji, etc. — são essas orações que purificam o lar. Isso é o que se chama popularmente de loucura divina. A pessoa enlouquece por causa da religião. Antigamente, chamavam de loucura divina. E são coisas sem nexo. Claro que são espíritos. Espíritos como esse são uma mistura de espíritos humanos e animais. O espírito humano era um membro fervoroso de Komyô Nyorai-sama, e o outro espírito o possuiu. O espírito faz várias coisas — zomba, prega peças. Isso também, à medida que o Mundo Espiritual do lar se purifica, o espírito se retrai. Para isso, é preciso fazer o que eu disse. Esse é o fundamento.
-
-**II. Para pessoas com epilepsia**
-
-**a) Para uma pessoa com um quadro combinado de epilepsia e distúrbio mental**
-[Ensinamento (17 de março de 1952) – Publicado na *Coletânea de Ensinamentos*, nº 8, em 20 de abril de 1952]
-
-"Miyako Kinoshita (21 anos). Em outubro de 1948, ela teve uma crise semelhante à epilepsia, com o rosto contraído, o corpo todo enrijecido e perda de consciência. Recebeu duas injeções. Em março de 1951, teve uma dor abdominal. Tomou 'yuki-no-shita' (erva medicinal) macerada e a dor passou. No dia seguinte, no entanto, desenvolveu um distúrbio mental, com crises de choro e riso, e perambulava à noite. Recebeu duas injeções e foi internada em um hospital psiquiátrico. Voltou ao estado normal e teve alta em um mês. Desde antes da primeira crise, ela tinha menstruação irregular e recebeu injeções de hormônio por vinte dias. Após a alta, continuou a tomar remédios. As crises se espaçaram, mas sua capacidade intelectual diminuiu gradualmente. Ela não conseguia trabalhar e vivia ociosamente. Em setembro de 1951, começou a receber Johrei. A partir do terceiro dia, as crises epilépticas se tornaram mais intensas, ocorrendo várias vezes seguidas por noite, durante vários dias. Nessas ocasiões, ela também apresentava sintomas de distúrbio mental. Em 23 de setembro, ingressou na fé, e em novembro, entronizou a Imagem de Kannon (観音) em biombo. Em fevereiro, ela se tornou incontrolável e foi contida com duas injeções. Desde cerca de 1947, surgiram erupções semelhantes a verrugas em várias partes do corpo, que não supuram. Nas costas, à esquerda, há uma do tamanho de uma tigela virada. O avô faleceu de derrame, e a avó, de angina. O pai também tem o lado esquerdo do corpo paralisado e está recebendo Johrei. A Imagem Divina ainda não foi entronizada. Rogo-lhe que me oriente sobre a causa espiritual e os pontos cruciais do Johrei."
-
-Epilepsia que evoluiu para distúrbio mental. É espiritual. Há um espírito muito necessitado de salvação nesta casa. E a epilepsia — a epilepsia que depois se tornou distúrbio mental — é a mesma coisa. Ou seja, a epilepsia é um distúrbio mental temporário. Os médicos fazem várias coisas, e a epilepsia diminui por um tempo. Ao receber Johrei, ela aumenta muito. É preciso não se enganar com isso. A epilepsia se cura aumentando gradualmente. É como quando um médico usa um antitérmico; a febre baixa por um tempo. Mas, ao parar o antitérmico e ministrar Johrei, a febre sobe muito por um tempo. O significado é o mesmo. Portanto, é bom explicar isso de antemão — no caso da epilepsia. E esse espírito também precisa ser salvo, então é preciso entronizar Komyô Nyorai-sama. Sem isso, não adiantará. Ela não se curará de jeito nenhum. É preciso entronizá-Lo e fazer com que a pessoa durma no mesmo quarto. Assim, salva-se o espírito que a está possessuindo. E é preciso investigar se houve mortes violentas ou pessoas que saíram de casa e desapareceram. Se houver, é preciso cultuá-las imediatamente. Com certeza há algo assim. O Johrei deve ser focado no centro da testa. Quando o espírito vai para lá, causa a crise epiléptica. O fato de ele se alojar ali indica que há uma mácula na cabeça. E basta ministrar Johrei ao redor do pescoço. Em contrapartida, levará muito tempo para se curar. Faça com que ela leia bem os Escritos Divinos, ouça as palestras e, com perseverança, ela certamente se curará. Para chegar a um estado normal — de tranquilidade, digamos — levará quatro ou cinco anos. Prepare-se para isso.
-
-**b) Para uma pessoa com epilepsia**
-[Ensinamento (18 de novembro de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 4, em 15 de dezembro de 1951]
-
-"Koji Shigemori (34 anos). Com o lado direito do corpo paralisado, ele tem recebido Johrei desde junho. Cerca de uma vez a cada sete dias, seus braços e pernas se contraem, ficam roxos, ele soluça e perde a consciência. Recentemente, ele volta ao normal em dez ou cinco minutos e depois fica perfeitamente bem, mas o rosto fica um pouco inchado. Ele não consegue falar, mas de manhã e à noite entoa sutras em frente ao altar budista. Ele também canta o 'Kimigayo' (hino nacional japonês) e, ocasionalmente, chama o nome de seus filhos. O diagnóstico médico foi de trombose cerebral. A esposa do doente ingressou na fé em setembro. Atualmente, ele consegue andar arrastando a perna, mas, fora isso, não há mudanças. O doente é bem-nutrido, tem boa cor e, tanto ele quanto a família, oram com fervor. Onde devemos focar o Johrei? E haveria alguma relação espiritual?"
-
-'Fica perfeitamente bem' — é um espírito de um falecido que o possui. Hoje em dia, sutras não adiantam. Sutras não têm efeito. 'Relação espiritual' — não é 'relação'. É espiritual — a doença. 'Uma vez a cada sete dias' — um parente falecido morreu nessas condições. No outro mundo, ele não encontra paz e vem pedir ajuda, possessuindo esta pessoa. É epilepsia. Komyô Nyorai-sama não está entronizado?
-
-"Ainda não."
-
-Esse é o principal problema. E a Imagem de Kannon (観音) em biombo, também não?
-
-"Ainda não."
-
-Esse é o fundamento. É preciso fazer isso. Mesmo sem fazer, ele se curará, mas levará muito mais tempo. Fazendo isso, a cura será muito mais rápida. Reduzirá o tempo a uma fração. Como o espírito do falecido não está salvo, é preciso fazer com que leiam o máximo de livros. Os livros de Deus.
-
-"Ele está em um estado em que não consegue ler."
-
-Então, a esposa ou outra pessoa deve ler para ele. No final, ele se curará. Não é nada tão grave. Basta salvar esse espírito. A religião deles é budista? Eles têm um altar budista, certo? Qual é a seita?
-
-"É a Jodo Shinshu (Montô)."
-
-Faça como eu disse.
-
-**c) Para uma pessoa com epilepsia**
-[Ensinamento (28 de outubro de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 3, em 3 de novembro de 1951]
-
-"Uma senhora de 47 anos (não membro). Em 1930, sua segunda filha contraiu gastroenterite aguda e meningite e faleceu no mesmo dia. A partir de então, ao conversar com as pessoas, ela subitamente fica sem poder falar por um breve momento, o que ocorre com frequência. Em 1932, seu primeiro filho nasceu. Nessa época, ela começou a ter crises leves durante as conversas, caindo para a frente como se achasse algo extremamente engraçado. Em 1934, engravidou e as crises se tornaram mais fortes. Ela chegava a cair subitamente enquanto carregava o filho nas costas. O diagnóstico médico foi de epilepsia adquirida, e ela foi submetida a um aborto de um feto de cinco meses. Em 1939, teve uma hemorragia súbita e passou por uma cirurgia de laqueadura tubária. Depois disso, teve inúmeras crises. Nas mais graves, ela caía e perdia a consciência, urinando em grande quantidade. Isso ocorria mais da tarde para a noite, e as crises durante o sono eram particularmente severas. Às vezes, ela perambulava pelo quarto. A crise durava de dois a três minutos. Cerca de uma semana antes da menstruação, seus seios doíam (ela já havia sido operada de mastite) e as crises se intensificavam. Na infância, ela sofreu de neuralgia do trigêmeo. Tentou todos os tipos de tratamento, sem sucesso. Ela chegou ao estado atual nessas condições. Com cerca de uma semana de Johrei, a dor na testa e na nuca desapareceu, e as crises noturnas e diurnas, por enquanto, cessaram. Quando o Johrei começa, a crise se manifesta. Sua expressão é de riso, ela contrai as mãos e todo o corpo e, enquanto se despe, deita-se e urina. Qual seria a causa disso? E como proceder para receber a proteção divina?"
-
-É o espírito do bebê. Um, dois — são esses espíritos. Claro que eles estão sendo cultuados, imagino. Ou seja, eles não estão salvos. Além disso, nessas situações, se a forma de cultuar é — digamos — inadequada, ou se a mãe sente apego, pensando 'que pena', o espírito não consegue encontrar paz no Mundo Espiritual, e o espírito da mãe o chama. E quando o filho anseia pela mãe, se um espírito assim o possui, a epilepsia se manifesta. É epilepsia. E, como ela se submeteu a vários tratamentos médicos, o espírito se macula, o que facilita ainda mais a ocorrência da epilepsia. O fato de ela urinar significa que, quando o espírito do bebê a possui, ela age como um bebê, urinando. A neuralgia do trigêmeo não tem relação. Se tivesse ocorrido logo após a cirurgia, poderia haver relação, mas foi depois da morte do bebê. Ela se curará, sim. No entanto, levará um tempo considerável. É preciso salvar o espírito do bebê. Portanto, entronize a Imagem de Kannon (観音) em biombo no altar budista. Embora ela ainda não tenha ingressado na fé, faça com que ela ingresse o mais rápido possível, entronize Komyô Nyorai-sama, durma no mesmo quarto e receba Johrei de vez em quando. Só com isso, ela ficará bem.
-
-**III. Para uma pessoa possessa por um espírito de dragão**
-
-**a) Para uma família com uma sucessão de doentes devido à maldição de um espírito de dragão (cobra morta)**
-[Palestra de Luz (Edição Especial de Abril de 1949) – Publicado no *Gokowaroku*, nº 6, em 23 de abril de 1949]
-
-— Um parente meu matou a cobra protetora de minha casa há três anos. Desde então, as desgraças se sucederam, e em quatro anos, tivemos quatro doentes. Consultamos um praticante da seita Nitiren, e descobrimos que era devido ao ressentimento da cobra. Passamos a cultuá-la, e os doentes pararam de surgir. O que devo fazer de agora em diante?
-
-Essa cobra é um ancestral seu. Como mataram um ancestral, ele se enfureceu. Já que passaram a cultuá-lo, continuem assim. Quando a fé dessa pessoa atingir um certo nível, será possível se desfazer do altar. E todas as manhãs, ao orar a Komyô Nyorai-sama, peça: "Rogo que o ancestral espírito de dragão, que anteriormente partiu para o Mundo Espiritual...". Em vez de dizer 'cobra', é melhor dizer 'espírito de dragão'; é sempre melhor usar palavras com boa vibração. "...que o ancestral espírito de dragão possa renascer como ser humano o mais rápido possível". Assim, seu renascimento como ser humano será muito mais rápido. Bem, depois de entronizar Komyô Nyorai-sama, mantenha o altar por três anos. Após três anos, pode se desfazer dele.
-
-**b) Para uma pessoa possessa por um espírito de dragão**
-[Ensinamento (8 de dezembro de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 5, em 15 de janeiro de 1952]
-
-Isso é um caso de grande importância espiritual. É um espírito de dragão que está possessuindo a pessoa. E é um bem grande. Pode ser este — o túmulo do pai falecido — talvez seja o espírito do pai. Ele tem um apego muito forte e se transformou em cobra. É uma cobra grande, e por isso quer água. As cobras sentem muito calor — o corpo fica muito quente. Por isso, elas precisam beber. A cobra representa o pecado do apego. O Johrei remove esse apego. É preciso ministrar Johrei com afinco na testa e fazer com que a pessoa ouça o máximo possível os Escritos Divinos. A infiltração pulmonar foi criada pelo yakudoku (薬毒). Foi fabricada pelos médicos. Isso não é um problema. É preciso proceder dessa forma. À medida que o espírito de dragão for sendo salvo, a pessoa irá se curando. Ela se curará, sim. O mais crucial é que é preciso entronizar Komyô Nyorai-sama. Sem isso, não adiantará. É preciso entronizá-Lo e fazer com que a pessoa durma no mesmo quarto. Assim, a cura será muito mais rápida.
-
-**c) Para uma pessoa possessa por um espírito de dragão**
-[Ensinamento (7 de março de 1952) – Publicado na *Coletânea de Ensinamentos*, nº 8, em 20 de abril de 1952]
-
-"Kameo Kamemasa (63 anos, ingressou na fé em novembro do ano passado). Na primavera do ano passado, ele perdeu o apetite. Havia um nódulo do tamanho de um punho sob a costela direita. Disseram que não era câncer, mas que só saberiam ao certo com um raio-x. Ele deixou como estava. Em 11 de janeiro, após o culto mensal da unidade, ele sentiu uma fraqueza generalizada e ficou de cama. Com o Johrei, o nódulo sob a costela direita começou a se mover para cima, para baixo, para a esquerda e para a direita. Havia uma dor surda. Começou a evacuar sangue e, talvez por causa da anemia, não conseguia se levantar, fazendo suas necessidades na cama. O sangramento parou após cerca de quinze dias, e o apetite melhorou um pouco. Ele já conseguia se sentar na cama. Depois disso, ao se levantar, sentia uma dor intensa em toda as costas. Se ficasse quieto por um tempo, a dor passava. Além disso, sentia uma ondulação na costela direita, o que o afligia, mas isso desapareceu em cerca de quatro dias. A dor ao se levantar também quase desapareceu, e o apetite voltou. Em 2 de março, de manhã, ele subitamente teve calafrios, tremores generalizados e perdeu a consciência por um tempo. Após uma hora de Johrei, ele voltou ao normal, mas depois disso o apetite quase desapareceu, comendo apenas cerca de 70% de uma tigela de arroz. Ele também está bastante debilitado. O Johrei está sendo focado no nódulo sob a costela direita, na área de dor surda nas costas, sob a omoplata, e no plexo solar. Há uma mancha preta do tamanho da ponta de um dedo mindinho no meio de sua língua, mas não dói. Em sua vida familiar, ele se casou três vezes. Separou-se da primeira esposa por conveniência, e ela ainda está viva. O filho que tiveram morreu com cerca de seis meses e não era cultuado. Após ouvir a orientação, ele passou a cultuá-lo recentemente. Sua segunda esposa morreu de câncer de estômago e não tiveram filhos. Com a atual esposa, também não tem filhos. Havia um poço antigo no terreno da casa, que foi aterrado e se tornou um jardim. A Imagem de Kannon (観音) em biombo está entronizada, mas a Imagem Divina ainda não. Rogo-lhe que me oriente sobre a causa da purificação e os pontos a serem focalizados no Johrei."
-
-Isso está entrelaçado com o espiritual. É preciso entronizar Komyô Nyorai-sama. O nódulo é um espírito de dragão. Portanto, é preciso entronizar Komyô Nyorai-sama e entoar o máximo possível a Oração Amatsu-Norito e os Salmos Divinos, e ler habitualmente os Escritos Divinos o máximo que puder. Assim, faz-se com que o espírito de dragão se arrependa e se liberte. Desse modo, a pessoa se curará. Não é algo tão complicado. O espírito de dragão — geralmente começa com ressentimento, mas, com o tempo, o apego diminui e ele passa a desejar ser salvo. Se fizer como eu disse, ele se libertará. É preciso orar a Komyô Nyorai-sama para que o espírito de dragão renasça como ser humano o mais rápido possível. Só com isso, a pessoa se curará.
-
-**IV. Sobre outras doenças espirituais e afins**
-
-**a) Para uma pessoa possessa pelo espírito de uma ave**
-[Ensinamento (25 de dezembro de 1951) – Publicado na *Coletânea de Ensinamentos*, nº 5, em 15 de janeiro de 1952]
-
-"Midori Fujikawa (34 anos), um homem não membro. Durante a guerra, na ilha de Otorishima, ele torturou e comeu uma ave migratória do tamanho de um pombo. Depois disso, sofreu de desnutrição e foi repatriado. Com tratamento médico, recuperou-se por um tempo, mas, dois anos depois, começou a vomitar a comida ocasionalmente e a apresentar um estado semelhante à desnutrição. Continuou com tratamentos médicos e de acupuntura e, em dezembro do ano passado, sua visão começou a enfraquecer gradualmente. Em pouco tempo, ficou completamente cego. Depois, uma pessoa da seita Nitiren lhe disse que a ave estava ressentida. Ele mandou fazer uma tabuleta memorial e realizou uma cerimônia. Parou de vomitar a comida, mas os olhos não mudaram. Em abril deste ano, sua mãe ingressou na fé e, com sua dedicação, os sentimentos do filho começaram a mudar. Há cerca de dois meses, ele começou a receber Johrei de sua mãe. Recentemente, ele sente como se a garganta se fechasse na hora de comer. Sua mão e perna direitas não têm a força que deveriam, e sua fala não é clara. A maldição do espírito da ave é real? Se sim, rogo-lhe que me oriente sobre como proceder e sobre os pontos a serem focalizados no Johrei."
-
-Ah, sim, é o espírito de uma ave. Depende da ave, mas, neste caso, não é uma ave comum. É um ser humano que se tornou ave. É um espírito vingativo de ave. É preciso que ele receba Johrei constantemente — especialmente na testa. É ali que o espírito está alojado. É preciso ministrar Johrei com afinco ali e, depois, os Escritos Divinos. Faça com que ele os leia bem. Komyô Nyorai-sama está entronizado?
-
-"Ainda não."
-
-Então não adiantará. É absolutamente inútil. É preciso entronizá-Lo e orar, dizendo: "Rogo que proteja o espírito da ave para que ele possa renascer como ser humano o mais rápido possível". Assim, à medida que ele renasce como ser humano, o apego diminui. E a doença também se cura completamente. Não é um problema tão complicado. Fazer tabuletas memoriais e cultuar pode, na verdade, ser um problema, pois o espírito é tratado como um ser humano. Se fosse cultuá-lo em outro lugar, não no altar budista, não haveria problema. Mas é preciso tratar uma ave como uma ave.
-
-**b) Para os pais de uma criança com hidrocefalia**
-[Ensinamento (17 de janeiro de 1952) – Publicado na *Coletânea de Ensinamentos*, nº 6, em 25 de fevereiro de 1952]
-
-"Michiko Maeda (4 anos). Com cerca de dois meses de vida, durante uma viagem, ela subitamente teve febre. O diagnóstico foi de encefalopatia. A febre durou cerca de duas semanas. Depois disso, ela foi acompanhada por um médico, e sua cabeça começou a crescer naturalmente. Foi diagnosticada com hidrocefalia. Continuou o tratamento médico por seis meses, sem sucesso. Um ano após o início da doença, ela conheceu nossa fé e passou a receber Johrei. A mãe também ingressou na fé e lhe ministra Johrei, mas a cabeça não diminui. Sua capacidade intelectual está atrasada em relação ao normal, seu corpo é fraco, ela não consegue ficar de pé e atualmente está acamada. Hoje, sua cabeça é grande e bastante dura. Seria um caso espiritual? E como devemos proceder? Além disso, há um altar budista apenas na casa dos pais dela; eles não o têm. A Imagem Divina também não está entronizada. Onde devemos focar o Johrei?"
-
-Neste caso, não basta apenas o Johrei. É preciso entronizar a Imagem Divina adequadamente. E, em primeiro lugar, é preciso ter um altar budista. É um caso espiritual. É o espírito de uma pessoa que morreu afogada, que caiu ou se jogou na água e morreu de cabeça para baixo, engolindo água. Por isso, a água se acumulou na cabeça, e ela inchou. É esse espírito que a está possessuindo. Portanto, em casos como este, apenas com Johrei, ela não se curará de jeito nenhum. É preciso tratá-lo espiritualmente. Primeiro, providenciar um altar budista e entronizar a Imagem Divina. Se não fizerem isso, não há como salvá-la. É preciso escolher: ou fazem isso, ou desistem. Meias-medidas não adiantarão.
-
-**c) Para uma pessoa possessa pelo espírito de um sapo de madeira**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 46), publicado em 25 de março de 1953]
-
-"Meu marido, a partir de 9 de janeiro, ficou inconsciente por três dias. Durante esse período, ele ficava deitado de costas, batendo as pernas e se descobrindo. Ele movia a cabeça para os lados, fazia caretas e, às vezes, se levantava inconscientemente. Ao entoar a Oração Amatsu-Norito e a Salmodia Zenguen-Sandji, ele se acalmava um pouco. No entanto, ao lhe dar comida, ele abria os olhos e comia com uma expressão de grande prazer e satisfação, sem parar. Era como ver a figura de alguém vindo do mundo dos espíritos famintos. Com a continuação do Johrei e a proteção divina, ele recuperou a consciência após três dias. Esse estado não ocorreu apenas desta vez. A primeira vez foi em fevereiro de 1950. Até a terceira crise, embora ansiosos, contamos com a ajuda de médicos. Em março de 1951, conhecemos esta fé. Imediatamente, apenas eu ingressei e recebi a Imagem de Kannon (観音) em biombo. Com a continuação do Johrei, a evolução foi muito boa, e ele já conseguia sair para passear. No entanto, em agosto do mesmo ano, ele caiu em uma rua secundária, sofreu um ferimento de cerca de uma polegada na nuca e afundou ligeiramente a terceira ou quarta vértebra. Depois disso, crises como a descrita começaram a ocorrer ocasionalmente, até o presente momento. Meu marido ingressou na fé em novembro do ano passado, mas a Imagem Divina ainda não foi entronizada. Em sua juventude, ele teve pleurisia, cárie nas costelas e ptose gástrica, e ingeriu uma grande quantidade de yakudoku (薬毒) com os tratamentos médicos. Sua cabeça é muito maior que o normal, e o topo é saliente como um calombo, com um grande acúmulo de toxinas. Com o Johrei, seu corpo todo se tornou muito mais flexível, e a prisão de ventre severa agora ocorre a cada dois dias, o que é uma grande graça. As crises, que antes duravam de cinco a sete dias, agora duram cerca de três dias, o que é uma grande proteção. No entanto, mesmo quando está bem, os dedos do meu marido não se esticam completamente, e sua fala é arrastada. Isso piora especialmente antes e depois das crises. Ele anda lá fora com uma bengala, mas parece uma criança. E antes de uma crise, ele invariavelmente tem prisão de ventre por vários dias. Minha família é um ramo da família principal, e administramos um hotel. Quando o pai do meu marido inaugurou o hotel, ele comprou um grande olmo do santuário xintoísta local e, com o significado de 'atrair a sorte', mandou esculpir um sapo da sorte de madeira, em tamanho humano, que atualmente está no balcão. Ele tem uma aparência um tanto sinistra. Todos que o veem dizem que meu marido se parece com o sapo. Há alguns anos, o depósito da casa pegou fogo. Enquanto eu estava na delegacia, minha mãe diz que o sapo coaxou em voz alta: 'GAO!'. Três membros da unidade local da Igreja Messiânica sonharam com um sapo, um espírito de dragão e uma carpa. Outro membro atualmente tem sonhado repetidamente com um sapo. Diante do exposto, qual seria a causa das crises do meu marido? Haveria alguma relação com o sapo de madeira? Se houver, como devemos proceder? Rogo-lhe humildemente que me oriente."
-
-Isso está relacionado a um sapo que está possessuindo o sapo de madeira, e também há uma quantidade considerável de yakudoku (薬毒). Por essa razão, é preciso entronizar Komyô Nyorai-sama o mais rápido possível, fazê-lo dormir no mesmo quarto e, ao mesmo tempo em que se dedica a ajudar as pessoas, orar fervorosamente a Komyô Nyorai-sama. Assim, ele melhorará gradualmente. Quanto ao sapo, basta orar para que ele seja salvo.
-
-**d) Para uma pessoa enlouquecida pela maldição de uma espada**
-[Palestra de Luz (Setembro/Outubro de 1949) – Publicado no *Gokowaroku*, nº 15, em 20 de dezembro de 1949]
-
-"Em minha família, temos uma espada curta que foi passada de geração em geração e usada em execuções. Talvez por causa disso, o chefe da família anterior e o atual enlouqueceram, e temos tido várias outras desgraças. O que devo fazer?"
-
-Os espíritos das pessoas que foram executadas estão apegados a ela. Se a colocar diante de Komyô Nyorai-sama, os espíritos serão salvos e deixarão de assombrar.
-
-**e) Para uma pessoa com uma vida familiar extremamente infeliz**
-[Luz do Ensinamento (*Chijo Tengoku*, nº 27), publicado em 25 de agosto de 1951]
-
-"Em março deste ano, casei-me e entrei para uma família onde meus sogros e meu marido já haviam ingressado na fé e entronizado a Imagem Divina. Meu marido, no entanto, não é filho biológico deles, mas foi adotado e se casou com a filha mais velha da casa, que faleceu deixando duas filhas. As crianças foram criadas com amor pelos avós, mas a relação entre meu marido e meus sogros é péssima, e eles viviam uma vida sombria. Desde que me tornei a segunda esposa, meus sogros têm feito exigências absurdas ao meu marido, tratando-o como um empregado. Para comigo, eles também se tornaram frios a cada dia, e eu não consigo sequer conversar com meu marido. O negócio da família é a agricultura, mas não podemos nem mesmo trabalhar juntos no mesmo campo. Mesmo vivendo assim, como sou uma pessoa com muitos pecados e sem o amor de um casal, acreditei que estava sendo purificada pela Grande e Misericordiosa Vontade Divina e me esforcei, orando pela proteção para que tivéssemos um lar harmonioso o mais rápido possível. Recentemente, no entanto, eles têm feito coisas que nem consigo descrever. Meu marido parece estar aguentando por causa das duas filhas. Devemos continuar a suportar a situação atual nesta casa? Ou devemos nos separar da família e eu criar as duas filhas junto com meu marido? Ou devo me divorciar? Rogo-lhe que me oriente."
-
-Esta casa tem muitos pecados e máculas e está completamente encoberta. O Mundo Espiritual se tornou um inferno. Por isso, entronize Komyô Nyorai-sama e também a Imagem de Kannon (観音) em biombo no altar budista, ore com fervor e aguarde o momento certo. Assim, o Mundo Espiritual da casa se iluminará gradualmente, e vocês se aproximarão do Paraíso passo a passo. Portanto, não se deve afligir nem se apressar. Se acreditar em Komyô Nyorai-sama e entregar tudo a Ele, as coisas certamente melhorarão.
-
-**f) Dizem que uma casa em frente a um cemitério é ruim**
-[Palestra de Luz (18 de janeiro de 1949) – Publicado no *Gokowaroku*, nº 3, em 8 de fevereiro de 1949]
-
-Como há espíritos de falecidos no cemitério, é possível que eles venham se a casa for próxima. Espíritos que caíram no mundo dos espíritos famintos podem vir pedir comida. No entanto, basta entronizar Komyô Nyorai-sama. Ao receberem a Luz, os espíritos se elevam, o que os alegra e também se torna um ato de virtude.
-
----
-
-# Publicações Relacionadas
-
-**Categoria:** kanren | **Ano:** 昭和24年 | **Fonte:** -
-
-## Publicações Relacionadas
-
-Infinito (Número 3)
-
-Publicado em 15 de junho de 1949
-Formato B5, 34 páginas, 50 ienes
-Editor e Publicador: Kumeta Tamotsu
-Editora: Departamento Editorial Infinito, do Instituto Internacional de Pesquisa sobre Questões Religiosas
-
----
-
-# Obras Correlatas à Coletânea de Dissertações do Mestre Okada Jikan
-
-**Categoria:** kanren | **Ano:** 昭和42年10月10日 | **Fonte:** -
-
-## Obras Correlatas à Coletânea de Dissertações do Mestre Okada Jikan
-
-**Coletânea das Orientações do Reverendíssimo Presidente**
-
-Primeiro Volume: Publicado em 10 de outubro de 1967
-Segundo Volume: Publicado em 10 de outubro de 1968
-Terceiro Volume: Publicado em 5 de outubro de 1969
-
-Formato A5 | Venda Proibida
-
----
-
-**Coletânea de Palestras do Professor Kihara Yoshihiko**
-
-Organização: Departamento de Assuntos Doutrinários da Associação da Nova Saúde
-Editor: Minoru Tanaka
-Publicação: Associação da Nova Saúde
-
-Palestras proferidas em 1955:
-
-Primeiro Volume: 21 de março, 5 de abril, 21 de abril, 25 de abril, 5 de maio e 15 de maio.
-Segundo Volume: 5 de junho, 25 de junho, 5 de julho e 5 de agosto.
-Terceiro Volume: 15 de agosto, 25 de agosto, 5 de setembro, 1º de outubro e 10 de outubro.
-
----
-
-# Publicações Correlatas
-
-**Categoria:** kanren | **Ano:** 昭和31年 | **Fonte:** -
-
-## Publicações Correlatas
-
-## Coletânea de Poemas Sagrados: O Espírito da Palavra
-Publicado em 1º de janeiro de 1956
-Formato A5, 140 páginas. Distribuição restrita.
-
-Organização: Sekai Meshiya Kyo
-Editor responsável: Tagao Sakai
-Publicação: Sede Central da Sekai Meshiya Kyo
-
-## Sekai Meshiya Kyo (Coletânea de Hinos)
-Esta obra consiste em uma compilação adicional à "Coletânea de Hinos (edição revisada)" da Meshiya Kyo. Nela estão registrados os hinos sagrados que foram entoados nas diversas cerimônias e solenidades, desde a publicação da coletânea original até a data de Sua Ascensão.
-
----
-
-# Crítica à Igreja Messiânica
-
-**Categoria:** kanren | **Ano:** 昭和26(1951)年9月25日 | **Fonte:** メシヤ教批判
-
-## Crítica à Igreja Messiânica
-Um relato de Tokugawa Musei
-Publicado em 25 de setembro de 1951 pela editora Nihon Shūkyō Shimbunsha
-
-Relato os fatos como são. Não sou fiel da Igreja Messiânica. Contudo, tampouco a rechaço por completo, de antemão, como uma superstição ou doutrina maligna.
-
-Parece haver no mundo muitas pessoas incapazes de aceitar as coisas sem antes classificá-las de modo categórico: direita ou esquerda, bem ou mal, certo ou errado. Se ao menos chegassem a tais conclusões por discernimento próprio, ainda seria compreensível. No entanto, existem aqueles que simplesmente adotam como verdadeiras as palavras alheias. Tal atitude, em essência, compartilha do mesmo infortúnio da superstição.
-
-Todavia, na realidade, as coisas não se deixam dividir de maneira tão simplista. Entre a direita e a esquerda, existem infinitas nuances. Ademais, essa complexidade se desdobra tridimensionalmente, com um à frente e um atrás, um acima e um abaixo, e inúmeros pontos intermediários, compondo um todo de extrema complexidade. O mesmo se aplica aos conceitos de bem e mal, certo e errado, belo e feio.
-
-Ainda que eu relate os fatos com honestidade e franqueza, sei que serei julgado de múltiplas formas:
-
-A. Musei é um fiel da Igreja Messiânica.
-B. Musei não crê na Igreja Messiânica.
-C. Musei acredita em uma doutrina maligna.
-D. Musei duvida da verdadeira doutrina.
-E. Musei transmite a verdade dos fatos.
-F. Musei distorce a realidade com sua pena.
-G. Musei foi comprado para escrever isto.
-H. Musei escreveu segundo sua consciência.
-
-Aqueles que julgam o farão de maneira bastante sumária; para o julgado, contudo, o resultado se manifesta nessa complexa gama de percepções. Seja como for, resigno-me a qualquer veredito, desde que proferido após a leitura de meu relato. O que verdadeiramente me consterna, todavia, é ser julgado de antemão, de forma supersticiosa e com base em boatos, por quem sequer se deu ao trabalho de ler uma única linha.
-
-Permitam-me, primeiramente, descrever minha relação com a Igreja Messiânica.
-
-No verão do ano passado, por ocasião de um festival da Igreja em Hakone, uma produtora de eventos que havia sido contratada para o programa de entretenimento convidou-me a participar. Naquela oportunidade, recusei o convite alegando indisposição. A verdade, porém, é que, com um pequeno esforço, teria sido possível comparecer por um dia. Meu verdadeiro sentimento era de repulsa: “Não quero tomar parte na celebração de uma religião farsante”.
-
-É preciso dizer que, à época, eu sequer conhecia o nome “Igreja Messiânica”; referia-me a ela apenas como a religião do “Senhor da Luz” ou algo semelhante. Cheguei a pensar: “Esse tal ‘Senhor da Luz’ não pode ser outra coisa senão um grande estelionatário”.
-
-Ocorre que um colega nosso do meio artístico, a quem chamarei de A, acabou por se apresentar naquele festival. O que o intrigou foi a surpreendente presença de muitos jovens entre os fiéis. Ele imaginava que apenas os mais idosos reverenciariam algo como o “Senhor da Luz”. Ademais, muitos desses jovens tinham a aparência de intelectuais. “O que se passa aqui?”, questionou-se.
-
-A, que se inclinava ao ateísmo e, consequentemente, não tinha interesse em religião — tratando com escárnio ainda maior as que considerava malignas —, sentiu-se gradualmente atraído a cada nova apresentação que fazia. Por fim, ele próprio acabou por ingressar na fé, recebendo o amuleto característico da Igreja Messiânica. Ressalto que sua adesão não provinha de uma fé absoluta; era motivada, em parte, pela curiosidade e, em parte, por uma consciência profissional, afinal, a Igreja representava para ele um excelente cliente.
-
-Pois bem. Certo dia, ao retornar para casa após participar do curso e receber o amuleto sagrado, A encontrou seu amado filho com difteria, prestes a receber a segunda injeção de soro.
-
-Imediatamente, A decidiu experimentar o método que acabara de aprender, o Johrei. Na verdade, não nutria grande confiança. “Será que algo assim pode curar uma doença?”, duvidava ele. Contudo, enquanto mantinha a mão sobre a garganta do filho, percebeu que o ruído sibilante da respiração diminuía gradualmente.
-
-“Vejam só! Parece que funciona mesmo comigo!”, pensou, ganhando novo ímpeto para continuar ministrando o Johrei. A criança, que sofria, adormeceu, e o chiado em sua garganta cessou por completo. No dia seguinte, já se encontrava plenamente recuperada, correndo e brincando. Com isso, A adquiriu total confiança no método.
-
-Posteriormente, ao aplicar o método em familiares e vizinhos, obteve sucesso em todas as ocasiões. Os resultados eram invariavelmente notáveis, a ponto de os pedidos se multiplicarem de tal forma que seu ofício principal começou a ser prejudicado.
-
-Foi por insistência desse mesmo A que, na primavera deste ano (1951), me dirigi a Atami para apresentar uma narrativa durante o festival. Minha ida não se deu por reverência à Igreja Messiânica. Primeiramente, A é como um discípulo para mim, e não me senti à vontade para recusar seu pedido de forma ríspida. Além disso, atender a compromissos profissionais é parte natural da vida de um artista.
-
-Havia, contudo, uma terceira e poderosa razão: eu havia acabado de iniciar uma série de diálogos para a revista *Shūkan Asahi*, intitulada “Diálogos Proveitosos”, e almejava uma entrevista com o fundador, o senhor Okada. A redação da revista mostrou-se extremamente entusiasmada com a ideia, insistindo para que eu tomasse as providências necessárias. Para tanto, era preciso, antes de tudo, aceder ao convite da Igreja para depois apresentar minha própria solicitação.
-
-Assim, em 21 de março, fui a Atami e, no grande salão do festival, narrei um episódio da vida de Miyamoto Musashi. O Mestre Okada ouvia da primeira fila. Após a apresentação, conversei em particular com o Mestre Okada e sua esposa.
-
-“Ao vê-lo pela primeira vez, pensei: ‘eis uma figura e tanto’”, avaliou o Mestre.
-
-“Uma figura e tanto? Que surpresa! Mas, se me permite, o senhor também me parece uma figura notável”, repliquei. A sala irrompeu em gargalhadas.
-
-Naquela ocasião, propus a realização do diálogo e obtive sua pronta concordância. Desse modo, em 12 de abril, retornei à sua residência, a Hekiun-sō, em Atami, acompanhado de um taquígrafo, fotógrafos e do ilustrador Taizō Yokoyama, e conseguimos produzir um artigo deveras interessante.
-
-Não pude, contudo, acreditar em tudo o que o Mestre dizia. Havia pontos que, a julgar por meu bom senso, eram difíceis de aceitar. No entanto, em muitos outros aspectos, senti profunda afinidade com suas palavras. Sua visão particular sobre a doença, em especial, continha muitos elementos dignos de atenta reflexão.
-
-Quando a conversa enveredou pela arte, e ele me apresentou um par de pergaminhos de Sōtatsu, retratando um dragão e um tigre, além de duas vigorosas obras de Ryūzaburō Umehara, pude ouvir sua dissertação sobre estética. Naquele momento, reavaliei minha impressão: “Este homem é, no mínimo, de uma estirpe muito diferente dos fundadores de religiões que conheci até hoje”. (Devo registrar que, ao me despedir naquela noite, fui presenteado com um pergaminho para a cerimônia do chá, de autoria de Kobayashi Issa, o que me deixou imensamente feliz).
-
-A ideia de que muitas doenças, que se curariam naturalmente se deixadas em paz, acabam por se agravar devido a tratamentos equivocados ou ao uso de medicamentos agressivos é, em muitos casos, uma verdade que também aceito. Não sou o único; inúmeros médicos de renome creem e afirmam o mesmo. Até este ponto, não há controvérsia.
-
-Onde a questão se torna mais complexa é na afirmação de que, para qualquer enfermidade, o melhor é abster-se por completo de remédios e que a figura do médico é inteiramente desnecessária. Nesse ponto, discordo, pois creio que, a depender da situação e do momento, tanto os remédios quanto os médicos podem ser necessários.
-
-Por essa razão, não procuro um médico por um simples resfriado, e ignoro dores de cabeça ou de estômago passageiras. Todavia, se me deparo com sangue nas fezes em grande quantidade ou se vomito sangue, recorro a um médico.
-
-Ao ler o jornal da Igreja Messiânica, deparo-me, a cada edição, com um vasto número de relatos de graças alcançadas. Tais artigos dão a impressão de que não existe enfermidade que não possa ser curada pelo Johrei.
-
-Certamente, não devem ser histórias falsas. Se publicassem mentiras de forma tão ostensiva, a Igreja não passaria de um estelionato. Contudo, ao refletir, percebo que talvez se trate de uma coletânea que reporta apenas os casos de sucesso. É provável que seja assim, e seria natural que o fosse.
-
-A questão a ser considerada é a proporção entre os casos de cura e os casos em que não houve melhora por meio do Johrei. Mesmo nos hospitais mais bem equipados, há pacientes que se recuperam e outros que não. Portanto, o fato de haver doentes que não se curaram com o Johrei não é, de forma alguma, surpreendente. Negar a validade do método apenas com base nesses casos seria uma atitude precipitada.
-
-O ponto crucial, portanto, é determinar se o Johrei possui, de fato, poder curativo.
-
-Que a palma da mão humana emite algum tipo de radiação é um fato já medido cientificamente nos dias de hoje. Não que eu mesmo o tenha medido, mas confio nos relatos dos cientistas ao afirmar tal coisa. A hipótese de que uma espécie de radioatividade emanada da palma do ministrante atue sobre a área afetada, ou que revigore a força vital de todo o corpo, promovendo a cura, é, no mínimo, plausível.
-
-Se alguém afirmar que “tal coisa é absolutamente impossível”, essa pessoa estará adotando uma postura profundamente anticientífica e dogmática. Nesse caso, caberia a ela provar cientificamente essa impossibilidade.
-
-É verdade que ainda não se sabe se a radiação atualmente detectada por aparelhos é a mesma que promove a cura. A radiação curativa pode ser de outra natureza, ainda não captada pelos instrumentos de medição atuais.
-
-Diante disso, o método mais sensato para abordar a questão seria investigar o maior número possível de casos concretos — tanto aqueles em que a doença melhorou com o Johrei quanto aqueles em que não houve alteração — para, então, chegar a uma conclusão indutiva. Contudo, eu mesmo não disponho de tempo nem de meios para conduzir tal investigação. Creio que tal estudo caberia aos próprios fiéis da Igreja Messiânica ou àqueles que se propõem a refutá-la.
-
-A título de referência, apresentarei alguns exemplos envolvendo A, extraídos de meu círculo pessoal.
-
-Minha esposa sofria com uma rigidez nos ombros. A, com um simples movimento das mãos, ministrou-lhe Johrei, e no dia seguinte a dor havia desaparecido por completo. A rigidez retornava, mas bastava uma nova aplicação para que ela se sentisse bem novamente.
-
-Recentemente, fui hospitalizado por conta de um sangramento e fezes escuras. Um conhecido, B, veio me visitar cerca de cinco vezes para ministrar Johrei. B era assistente de direção no estúdio Shintōhō, mas, por uma reviravolta do destino, converteu-se e abandonou a carreira no cinema para se dedicar profissionalmente ao Johrei. Ele veio por iniciativa própria, movido por sua gentileza. Minha condição revelou-se menos grave do que o esperado, e recebi alta muito antes do previsto, mas não sei dizer se isso se deveu ao Johrei.
-
-Contudo, ao ouvir os relatos de B, deparo-me com um número impressionante de curas milagrosas de doenças graves. B não é o tipo de pessoa que inventaria histórias para me impressionar; é um homem de caráter confiável.
-
-Após minha alta, A vinha me visitar quase todos os dias para ministrar Johrei na área afetada. Minha recuperação foi excepcionalmente rápida. Novamente, não sei se foi graças ao Johrei. Pode não ter tido efeito algum, ou pode ter sido o fator decisivo para minha pronta melhora.
-
-Um amigo, C, ex-suboficial da Marinha, costuma nos visitar. Ele sofria com uma erupção pruriginosa nas costas. Certa noite, A fez seu gesto com as mãos, e, com uma única aplicação, a coceira desapareceu para sempre.
-
-Temos uma gata em casa que, por motivo desconhecido, ficou com um dos olhos tão inchado que parecia a personagem Oiwa da história de fantasmas de Yotsuya. Após uma única aplicação de Johrei por A, no dia seguinte abriu-se um orifício sob o olho, de onde uma quantidade espantosa de pus foi drenada, e o inchaço cedeu instantaneamente. Embora o inchaço tenha diminuído, a borda do olho permaneceu vermelha e inflamada, com intensa secreção. Ele aplicou o Johrei mais uma vez, mas a secreção persistiu. Como não houve continuidade no tratamento, não é de se estranhar que não tenha sarado por completo. Mesmo assim, no momento em que o pus foi expelido de uma só vez, após aquela primeira e única aplicação, todos em casa ficamos absolutamente pasmos.
-
-Perto de minha casa há uma transportadora. O bebê da família sofria de asma infantil. Apesar de frequentar o hospital e receber quatro tipos de medicamentos, seu estado não melhorava. Decidimos, então, pedir a A que o visitasse. Após cerca de uma semana de visitas, a criança apresentou uma melhora significativa.
-
-O caso em que a intervenção de A se manifestou de forma mais milagrosa foi o de um comediante de *manzai*. O homem estava acamado com tuberculose. Como o *manzai* é uma arte que não se pode praticar sozinho, tanto ele quanto seu parceiro de dupla, que esbanjava saúde, encontravam-se em uma situação desesperadora.
-
-Uma emissora de rádio de Sendai convidou a dupla para um programa comemorativo. Naturalmente, com um dos membros acamado, não havia como aceitar.
-
-A, condoído com a situação, disse-lhes: “Aceitem o convite para Sendai, que eu cuido da doença. Ministrarei Johrei”.
-
-“O quê? Acha que podemos aceitar? Faltam poucos dias! Se conseguirmos ir a Sendai, será um verdadeiro milagre”, exclamou o parceiro saudável.
-
-E, de fato, eles conseguiram chegar a tempo para a apresentação. Eu mesmo ouvi a transmissão, e foi um desempenho esplêndido. Não apenas participaram do programa, como o comediante doente se recuperou por completo, a ponto de ter energia para viajar a Hokkaido. Sentindo-se como se tivesse renascido, ele ficou imensamente grato e, por intermédio de A, decidiu ingressar na fé.
-
-Dessa forma, A, que começara sua jornada com ceticismo, passou a testemunhar uma sucessão de milagres por onde passava. Houve, é verdade, um único caso de insucesso: uma criança com disenteria, que infelizmente não sobreviveu.
-
-Quanto a B, o ex-assistente de direção, ele relata ter ministrado Johrei em um cadáver cerca de três horas após o óbito, fazendo com que o abdômen, que estava prestes a romper de tão inchado, diminuísse de tamanho. Isso ocorreu porque houve uma copiosa eliminação de urina, que fez o inchaço ceder.
-
-Considero particularmente fascinante que o método funcione em gatos e até mesmo em cadáveres. Isso me leva a ponderar se o Johrei não seria um fenômeno de natureza mais física do que espiritual. O próprio A afirma que os efeitos do Johrei são mais notáveis em crianças do que em adultos. Poderíamos atribuir isso ao fato de as crianças serem mais sugestionáveis, mas também é possível que elas simplesmente percebam os fenômenos físicos de maneira mais direta e sem filtros.
-
-Seja como for, acredito que, quando a ciência avançar mais alguns degraus, o enigma do Johrei será finalmente desvendado.
-
----
-
-# namaji02
-
-**Categoria:** kanren | **Ano:** - | **Fonte:** -
-
---- Publicações Relacionadas ---
-
-## Mestre Nakajima Issei — Sua Fé e Sua Vida —
-
-Asō Eiroku
-
-Aproximava-se o momento decisivo da metamorfose do Mestre.
-
-“Tenho uma missão a cumprir”, dizia a si mesmo. “Ainda não sei qual é, mas de uma coisa estou certo: não se trata de negócios.”
-
-Com essa convicção, o Mestre deixou seu emprego na Bridgestone Tire.
-
-Munido da coragem de um explorador que desbrava uma caverna desconhecida, mas também envolto por uma névoa de incertezas, o Mestre deixou Osaka e retornou a Tóquio. Adquiriu uma pequena casa em Saginomiya, no distrito de Nakano, por quatrocentos e cinquenta ienes, que serviria de lar para sua família de quatro pessoas.
-
-Certo dia, notou um pequeno ponto no polegar direito de seu filho, que mal acabara de completar seu primeiro aniversário. A princípio, não lhe deu grande importância e deixou como estava. Contudo, a lesão começou a inchar, e o inchaço aumentava a cada dia. A criança, com dor, chorava incessantemente.
-
-Levou-a a um médico da vizinhança. Após examinar a ponta do polegar, o médico meneou a cabeça e confessou que nada podia fazer. Diante disso, procurou um especialista de renome em Suidobashi.
-
-Ao primeiro olhar, o médico sentenciou:
-
-“Isto é gravíssimo. Se não amputarmos imediatamente, a infecção se alastrará até o pulso.”
-
-O Mestre empalideceu. Ter de sacrificar um dos dedos daquela mãozinha tão pequena e adorável!
-
-Sua mente mergulhou em confusão, mas não havia alternativa.
-
-“Faça o que for preciso”, conseguiu dizer com a voz trêmula, fechando os olhos.
-
-Após os preparativos, o médico amputou o polegar direito do bebê na altura da articulação central.
-
-(Ah, meu filho ficou mutilado para sempre), lamentavam o Mestre e sua esposa, suspirando repetidas vezes ao lado do berço onde a criança dormia, alheia a tudo. Sentiam-se como se fossem arrastados para o fundo de um pântano profundo.
-
-Naquela mesma noite, porém, como se não bastasse, sua filha Mihoko, de três anos, subitamente teve febre. E não era uma febre comum: os termômetros marcavam quarenta graus. Chamaram um médico às pressas, que diagnosticou disenteria. Diante de golpes sucessivos, o casal encontrava-se em total desespero.
-
-“Se esta menina morrer, eu também morro”, chegou a dizer o Mestre.
-
-Foi nesse momento que um de seus amigos o visitou. Ao ouvir sobre a doença da criança, o amigo comentou:
-
-“Em Kōjimachi, há um mestre que realiza feitos prodigiosos. Chama-se Masaki. Dizem que ele é capaz de curar qualquer enfermidade.”
-
-“De quem você ouviu isso?”
-
-“Na verdade, ontem à noite houve uma palestra em Kōjimachi, e eu estive presente. O conteúdo, em poucas palavras, trata de um método de cura espiritual, por assim dizer, que possibilita a cura de qualquer doença sem o uso de medicamentos ou qualquer outro recurso. Por que não tenta pedir a ajuda desse senhor Masaki?”
-
-“Apenas com isso, não consigo acreditar”, respondeu o Mestre, secamente.
-
-Contudo, apesar de suas palavras, seu desespero era tanto que se agarrava a qualquer esperança. Verdade ou mentira, decidiu que tentaria aquele método de tratamento.
-
-“Então, irei procurá-lo”, disse ao amigo, apertando-lhe a mão com firmeza.
-
-Correu à residência em Kōjimachi como se voasse. Encontrou o senhor Masaki e, ao relatar o estado da filha, ouviu uma resposta imediata:
-
-“Vamos para lá agora mesmo.”
-
-A prontidão com que seu pedido foi aceito deixou o Mestre ainda mais apreensivo.
-
-(Será que este homem conseguirá realmente curar Mihoko?)
-
-No caminho de volta, acompanhado pelo curador, seu coração ainda oscilava entre a fé e a dúvida.
-
-Ao chegarem em casa, o senhor Masaki iniciou um procedimento singular. Posicionou um leque sobre o peito da criança doente e permaneceu imóvel, como se estivesse concentrado em uma prece. Mais tarde, o Mestre viria a saber que o uso do leque era um método da religião Ōmoto-kyō (大本教). Naquele momento, porém, tudo o que pensava era em quão estranho era aquele ritual.
-
-O senhor Masaki permaneceu assim por um longo tempo.
-
-(O que significa tudo isto?)
-
-O Mestre observava, atônito, aquele gesto misterioso.
-
-Pouco a pouco, as faces da menina, antes pálidas e inertes, ganharam um tom rosado. Seus olhos, antes opacos, voltaram a brilhar.
-
-“Água... Quero água”, disse a criança com clareza aos pais, que estavam ao lado de sua cabeceira.
-
-Deram-lhe de beber.
-
-“Que delícia, que delícia”, ela exclamou.
-
-O Mestre ficou estupefato. Sua esposa, igualmente assombrada.
-
-(Ela vai se curar!)
-
-Sem entender exatamente o que acontecia, mas testemunhando com seus próprios olhos a recuperação da filha, o Mestre sentiu uma felicidade tão intensa que lhe trazia lágrimas aos olhos, paralisado pela admiração.
-
-Uma semana depois, a doença havia se retirado por completo.
-
-Sete
-
-A doença de sua amada filha fora curada pelo tratamento do senhor Masaki. O Mestre presenciara com seus próprios olhos aquele fato milagroso. Diante de uma realidade tão solene, sentiu uma comoção que o abalou do fundo da alma.
-
-(Isto não é algo comum. Definitivamente, não é algo comum.)
-
-Sentiu o desejo, ou melhor, a necessidade de conhecer o Grande Mestre a quem o senhor Masaki reverenciava como seu guia.
-
-Soube por Masaki que esse Grande Mestre se chamava Okada Mokichi, uma alta autoridade da Ōmoto-kyō (大本教) que lutava dia e noite para difundir no mundo um método de cura pela fé. Esse método, explicou-lhe, não era uma simples terapia para doenças, mas a própria essência condensada do ideal de salvação da humanidade.
-
-(Que tipo de homem ele seria?)
-
-A simples ideia de conhecê-lo lhe causava uma dor no peito.
-
-Finalmente, o dia chegou.
-
-Acompanhado pela pequena Mihoko, já completamente restabelecida, o Mestre foi visitar aquele a quem chamavam de o Grande Mestre de Ōmori. O motivo principal, naturalmente, era expressar sua gratidão, mas havia algo mais: ele ansiava por desvendar o segredo daquele método de cura extraordinário.
-
-Antes de sair, disse à esposa:
-
-“A doença de nossa filha, para a qual os médicos mais renomados não encontraram solução, foi curada sem um único remédio, apenas com a imposição de um leque. Vou investigar esse mistério a fundo.”
-
-E assim, pela primeira vez, o Mestre encontrou-se com o Grande Mestre chamado Okada Mokichi.
-
-Era um homem de meia-idade, magro, de baixa estatura e, à primeira vista, sem nada de especial. Apenas suas orelhas eram notavelmente grandes e seus olhos possuíam uma agudeza quase assustadora, um olhar que parecia penetrar até o âmago da alma de seu interlocutor.
-
-No entanto, à medida que a conversa fluía, o coração do Mestre se tornava cada vez mais leve. Sentiu a alegria inebriante de se libertar das amarras invisíveis com as quais ele mesmo se prendera por tanto tempo.
-
-Em cerca de uma hora, estava completamente cativado por aquela figura.
-
-(Isto, de fato, não é algo comum. Tenho certeza de que este Grande Mestre trará clareza a tudo o que venho pensando de forma vaga. E é urgente, não posso hesitar.)
-
-“Por favor, aceite-me como seu discípulo”, disse o Mestre, com determinação. Sua expressão era de quem aposta a própria vida.
-
-O Grande Mestre, percebendo o que se passava no coração daquele homem que acabara de conhecer, respondeu de imediato:
-
-“Pois bem, eu o aceito.”
-
-Dessa forma, o elo entre aquele que, anos mais tarde, se tornaria o Líder Espiritual da Sekaikyuseikyou e seu mais fiel discípulo foi selado, tendo como catalisador a doença de uma criança.
-
-Pensando bem, no mesmo ano em que o jovem Okada Mokichi, residente do bairro de Ōnoko em Tóquio, via seu sonho de ser artista se desvanecer aos dezessete anos, debilitado por uma pleurisia recorrente que o afligia há dois anos, o Mestre nascia no extremo oeste da ilha de Honshu. E o fato de que, décadas mais tarde, o Mestre se tornaria o braço direito desse Líder, lançando as bases da organização religiosa que conhecemos hoje, só pode ser atribuído a uma profunda predestinação.
-
-Contudo, em todas as relações humanas e em todas as obras conjuntas, é Deus quem sempre planeja tais encontros. Mesmo naquilo que os homens julgam ser coincidência, a Vontade Divina está presente, rigorosamente calculada. Deus apenas aguarda a decisão do homem.
-
-E essa decisão deve ser imediata. Não pode ser adiada para o dia seguinte.
-
-“Aceite-me como seu discípulo.”
-
-“Pois bem, eu o aceito.”
-
-Comovido por essas palavras, o Mestre retornou para casa com o coração exultante. Fez seus preparativos e, no dia seguinte, passou a se hospedar na residência do Grande Mestre.
-
-Posteriormente, para memorizar as escrituras sagradas da Ōmoto-kyō (大本教), o Mestre chegou a colar folhas de papel com os textos por todo o teto de seu quarto, tentando aprendê-las enquanto estava deitado. Quando não conseguia reter o conteúdo, esmurrava a própria cabeça, gritando “Seu idiota!”, a ponto de sua esposa temer que ele tivesse enlouquecido.
-
-Era um homem que, uma vez que se decidia por algo, não descansava enquanto não o realizasse de forma absoluta e completa.
-
-Por essa razão, dedicou-se de corpo e alma, da manhã à noite e, por vezes, da noite ao amanhecer, esquecendo-se de tudo mais, para dominar os mistérios desse novo método de cura.
-
-No sétimo dia de sua estada, conseguiu compreender, não com o cérebro, mas com a totalidade de seu ser, o princípio da Precedência do Espírito sobre a Matéria, que o Grande Mestre sempre ensinava.
-
-O Mestre possuía, por natureza, uma personalidade forte e obstinada. Bem-aventurados os que creem sem ver, mas ele não pertencia a essa categoria. Sua inclinação para a dúvida era igualmente acima da média, e não era homem de se convencer apenas com palavras ou argumentos lógicos. Para alguém como ele, era preciso ver. Sem ver, não acreditaria.
-
-No entanto, ao começar a ministrar o tratamento, os milagres sucediam-se um após o outro.
-
-Quisesse ou não, o Mestre os via.
-
-A doença é a mácula do espírito. Não havia outra opção senão crer no princípio da Precedência do Espírito sobre a Matéria. Para negar esse princípio, seria preciso negar os milagres que ocorriam diariamente. E esses milagres eram inegáveis, pois ele os testemunhava com seus próprios olhos, dia após dia.
-
-A partir daquele momento, o Mestre abandonou sua antiga visão de mundo. Ocorreu uma conversão de cento e oitenta graus. Diante da revolução que se operava em seu interior, ele murmurava, entre a surpresa e a alegria:
-
-(O “eu” antigo já não existe. Existe apenas o discípulo do Grande Mestre. Sem o Grande Mestre, este “eu” também deixa de existir.)
-
-Entretanto, um milagre gerou outro ainda maior.
-
-O polegar direito do bebê, que havia sido amputado na articulação central, começou a crescer gradualmente, e até mesmo uma unha se formou. Hoje, ninguém que o veja diria que aquele dedo um dia fora cruelmente mutilado.
-
-Até mesmo um dedo pode renascer.
-
-Oito
-
-O Grande Mestre acreditava na Ōmoto-kyō (大本教). Aquilo em que o Grande Mestre acreditava, ele também deveria acreditar.
-
-“Vou a Ayabe”, disse à esposa e partiu para a região de Tanba. Na sede da Ōmoto-kyō (大本教), estudou sua doutrina por uma semana. Mas seu modo de aprender não consistia em absorver com as células cerebrais; como sempre, ele o fazia com todo o seu ser, como se inspirasse o conhecimento por todos os poros do corpo. Não era conhecimento, era sabedoria.
-
-Ao retornar para casa, trazia ao pescoço um amuleto sagrado. Assim que entrou, disse à esposa, que o recebia na porta:
-
-“Você também irá a Ayabe.”
-
-Não era uma sugestão. Era uma ordem.
-
-“O senhor me pede para ir, mas com duas crianças pequenas...”
-
-Enquanto a esposa hesitava em responder, a fúria do Mestre desabou sobre ela.
-
-“Se eu disse para ir, vá! Mesmo com os filhos, se tiver vontade, você consegue. Vá!”
-
-Sem alternativa, a esposa respondeu: “Sim, senhor. Eu irei.” Contudo, mesmo concordando, com dois filhos pequenos, não podia partir imediatamente. Após fazer todos os preparativos, ela partiu para Tanba meio mês depois e retornou como uma fiel. Satisfeito, o Mestre disse para si mesmo:
-
-(Assim está bom.)
-
-O Mestre era, em essência, um homem de facetas serenas, mas, acima de tudo, um homem de paixões intensas. Por isso, no campo da fé, não se contentava com nada menos do que “Tudo ou Nada”. Essa era sua visão de vida, e também seu temperamento.
-
-Como já mencionado, o Mestre escreveu as escrituras da Ōmoto-kyō (大本教) em papel e as colou no teto. Certa vez, arrancou o trecho que considerava o mais crucial e o engoliu. Não se contentava em guardá-lo na cabeça; sentia a necessidade de internalizá-lo em seu ventre para se sentir seguro.
-
-Esse era o tipo de homem que ele era. Por isso, estudava literalmente sem dormir nem descansar, a ponto de sua esposa, que o observava, sentir-se exausta.
-
-(Será isso o que chamam de inferno da fé?)
-
-Houve momentos em que ela não pôde deixar de pensar assim.
-
-A família de sua esposa alarmou-se:
-
-“Nakajima enlouqueceu. Se continuar com um marido desses, algo terrível acontecerá a Teruyo.”
-
-Existem dois caminhos para se ingressar na fé. Há aqueles que sobem degrau por degrau até atingir o cume, e há aqueles que, como num elevador, ascendem em linha reta até o ponto mais alto.
-
-O Mestre pertencia a este último grupo.
-
-O cenário mudou em um instante.
-
-Até encontrar aquela pessoa, o Mestre era um “buscador errante”. Essa pessoa, evidentemente, era o Grande Mestre.
-
-“Fui eu quem descobriu o Grande Mestre”, dizia o Mestre a si mesmo e a seus discípulos.
-
-Talvez seja verdade. No entanto, quem descobriu o Mestre foi também o Grande Mestre. A verdade, talvez, seja que se assemelhavam a dois astrônomos em planetas distintos que, com seus respectivos telescópios, se descobriram simultaneamente.
-
-Até então, o Mestre vivia em uma busca às cegas, sempre perseguindo algo que nem ele mesmo compreendia bem. Apenas sentia vagamente que um caminho — “um caminho para construir a si mesmo e aos outros” — o possuía. Ansiava por encontrar esse caminho, mas não sabia por onde começar.
-
-Sentia-se perdido, angustiado, impaciente. E essa inquietação persistiu mesmo depois de se casar. Como uma criança que avista ao longe uma ponte de arco-íris, mas não sabe por onde subir e está prestes a chorar, o Mestre se desesperava, arrancando os cabelos.
-
-Foi então que ele descobriu o Grande Mestre.
-
-Uma luz intensa brilhou diante dele.
-
-Sua pessoa mudou, sua vida mudou. Naquele momento, o Mestre renasceu como um recém-nascido. E esse recém-nascido amou e confiou no Grande Mestre como a uma mãe. Essa devoção permaneceu inalterada por toda a sua vida.
-
-Essa devoção poderia ser chamada de entrega sacrificial. Há um ato de fé no qual se queima o próprio corpo para servir aos Budas e abençoar os seres vivos. O Mestre serviu ao Grande Mestre com essa entrega total. Nele, não havia mais o menor traço de dúvida ou hesitação.
-
-Assemelha-se à fé absoluta de Shinran que, após uma vida de dúvidas e incertezas, encontrou Hōnen e pensou: “Se meu mestre for para o inferno, irei com ele de bom grado”.
-
-Em seus últimos anos, o Mestre escreveu:
-
-“As palavras para descrever Deus são, de fato, muitas. Deus é Luz. Deus é Amor. Outros explicam que Deus é a origem do Mundo Espiritual e do Mundo Material, o princípio sem começo e sem fim. No entanto, aqueles que verdadeiramente compreendem Deus são extremamente raros. Muitos pensam que compreendem, mas não compreendem. Quem, então, pode ser considerado alguém que realmente compreendeu Deus? É aquele que sabe que Deus não pode ser analisado ou interpretado nem mesmo pela mais brilhante sabedoria humana. Deus só pode ser compreendido através da experiência. Por mais que se reflita, a razão não O alcança. É ao vivenciar milagres que transcendem a lógica que, gradualmente, se chega a compreender Deus.”
-
-Também em seus últimos anos, escreveu:
-
-“De todos os anseios humanos, o mais fascinante é o desejo de desvendar o mistério. O fervor na fé, por exemplo, é uma manifestação desse anseio de explorar o misterioso. Ao desvendar um mistério, surge o desejo de explorar o próximo. Quanto mais se conhece, mais se anseia por desvendar suas profundezas. Aí reside o encanto e a beleza da fé. E como o milagre é a manifestação do mistério, quanto mais se explora o mistério, mais milagres se vivenciam. O fervor na fé aumenta, em suma, pelo desejo de receber muitos desses milagres. Portanto, quanto mais forte o desejo de desvendar o mistério, mais milagres a pessoa recebe, e com isso, mais fervorosa se torna sua fé.”
-
-“A religião e o amor romântico têm pontos em comum. A atração pelo mistério da religião é muito semelhante à atração por um ente amado. A diferença, contudo, é que o amor romântico culmina no casamento, após o qual, geralmente, o encanto inicial se desvanece. Já o amor a Deus — ou seja, a religião — é eterno. Quanto mais se explora seu mistério, mais forte se torna seu fascínio e mais profunda sua beleza. Longe de perder o encanto, quanto mais se explora, maior ele se torna.”
-
-Aquele Deus — o Deus Verdadeiro, centro do Universo — que, por seu desejo de salvar todos os seres, desceu de seu trono divino e se manifestou como Buda, o Bodhisattva Kannon (観音), era o Deus do Mestre. E essa fé jamais vacilou, nem por um instante, até o dia de sua morte.
-
-Nove
-
-Para o Mestre, o Grande Mestre era a única pessoa que importava. Sua própria existência dependia da existência do Grande Mestre; o “eu” que existia apenas para si mesmo já não mais havia.
-
-Por isso, todos os seus bens pertenciam também ao Grande Mestre.
-
-Ao comprar algo, pensava: “Será que o Grande Mestre já comeu isto?”, e se preocupava até com um simples doce.
-
-O Mestre não vestia roupas que o Grande Mestre não vestiria.
-
-Quando a Guerra do Pacífico começou e os doces se tornaram escassos, o Mestre se esforçava para conseguir os cupons de racionamento, enfrentava a fila em frente à confeitaria Nakamuraya em Shinjuku e, feliz como uma criança, levava-os à casa do Grande Mestre.
-
-Certa vez, recebeu dois mil e quinhentos ienes pela venda da casa de sua família. Na mesma hora, entregou a quantia inteira ao Grande Mestre e disse, radiante:
-
-“Por favor, use este dinheiro para a Obra Divina.”
-
-Ele não fazia isso por ter recursos de sobra. Pelo contrário, vivia em uma pobreza extrema, mas sentia a necessidade de agir assim.
-
-Mesmo nos dias em que não havia um centavo em casa, ele ria e dizia: “Não há nada mais relaxante do que dormir”, e tirava uma soneca durante o dia.
-
-No dia 23 de dezembro do oitavo ano da era Showa, o Mestre foi a Ōmori para celebrar o aniversário do Grande Mestre.
-
-Ele havia encomendado um pargo em uma peixaria, mas, como o dia coincidia com o nascimento do Príncipe Herdeiro, o peixe não estava fácil de encontrar. Mesmo assim, conseguiu um belo exemplar e o levou.
-
-Com que alegria o Grande Mestre deve ter celebrado aquele banquete, em uma comunhão íntima entre mestre e discípulo!
-
-Esse evento se tornou uma tradição, e a partir de então, todos os anos os discípulos se reuniam para comemorar o aniversário do Grande Mestre.
-
-“Lealdade.”
-
-De todas as palavras, estas duas são as que melhor descrevem o amor puro com que o Mestre servia ao Grande Mestre.
-
-Era, de fato, lealdade. Lealdade em seu sentido mais puro.
-
-Essa lealdade se transformou na fé ardente do Mestre, na confiança em seu próprio destino.
-
-Em outras questões, ele podia ser flexível, mas no que dizia respeito à fé que recebera do Grande Mestre, não permitia que ninguém a questionasse. Havia nele a determinação de aniquilar quem quer que o fizesse.
-
-Por isso, em discussões com outros discípulos, o Mestre era implacável. Atacava com uma ferocidade que não dava ao oponente chance de se defender. Não cedia um milímetro.
-
-“Naquela época, cheguei a pensar, com ressentimento, que homem cruel era o Mestre”, recordou um discípulo, anos mais tarde.
-
-Isso também era uma manifestação de sua lealdade. Ele manteve por toda a vida, em relação ao Grande Mestre, a mesma devoção de um vassalo cujo maior desejo é morrer em batalha diante de seu senhor. Por isso, não tolerava críticas ou questionamentos sobre o caminho ensinado pelo Grande Mestre.
-
-“É preciso ser obediente. A resposta ‘sim’ e o ato de se levantar devem ser simultâneos.”
-
-O Mestre dizia isso com frequência, e ele mesmo o praticava em relação ao Grande Mestre. Levantava-se de imediato. Não importava o que lhe fosse dito, respondia “sim”. No mesmo instante em que respondia, já estava de pé.
-
-Dez
-
-A família mudou-se de Saginomiya, em Nakano, para Asagaya.
-
-A vida era difícil. A renda do Mestre era praticamente nula.
-
-Sua esposa vendia de porta em porta o jornal da Ōmoto-kyō (大本教), o “Tōhō no Hikari” (Luz do Oriente). Mesmo grávida, não lhe era permitido ficar em casa. Mais do que as circunstâncias, era o Mestre quem não o permitia.
-
-Naquela época, o jornal custava dois sen por exemplar, e metade das vendas era entregue ao Grande Mestre. Portanto, para sobreviver, era preciso vender oitenta exemplares por dia, acontecesse o que acontecesse.
-
-Oitenta exemplares por dia rendiam oitenta sen, totalizando vinte e quatro ienes por mês.
-
-Mesmo em uma época de preços baixos e de maior valor do dinheiro, para uma família de quatro pessoas viver com vinte e quatro ienes era uma provação imensa.
-
-Havia dias em que não tinham dinheiro para comprar comida e precisavam colher brotos de cavalinha no campo para se alimentar.
-
-Mesmo em meio a essa vida de privações, a educação que o Mestre dava à sua esposa era rigorosa. Ele se empenhava em incutir nela a severa filosofia de que “quem não trabalha um dia, não come um dia”.
-
-Se uma resposta dela não lhe agradasse, ele a repreendia:
-
-“Que modo de responder é esse?”
-
-Se ela demorasse a se levantar:
-
-“Por que está demorando tanto?”
-
-A esposa girava como um pião, movendo-se como um redemoinho, hoje aqui, amanhã ali. O excesso de trabalho prejudicou sua visão. Mesmo assim, o Mestre murmurava para si mesmo:
-
-(Estou forjando o caráter de Teruyo.)
-
-Com tamanha severidade para com a esposa, era natural que fosse igualmente rígido na educação dos filhos.
-
-Anos mais tarde, sua filha mais velha, Mihoko, recordou:
-
-“Meu pai era extremamente severo. No entanto, suas repreensões eram sempre lógicas, então não deixavam um sentimento ruim depois. Dito isso, enquanto eu era repreendida, pensava, ressentida, que não era preciso dizer tanto. Mas hoje, percebo que a severidade de meu pai foi, a seu modo, uma bênção, e sou imensamente grata por isso. Foi porque compreendi a sensibilidade que se escondia sob sua rigidez. Na verdade, meu pai era um homem sentimental e de grande coração.”
-
-Essa descrição também se aplica a ele como marido.
-
-“Que criatura desajeitada!”, dizia ele, descendo do segundo andar e, subitamente, erguendo o punho para a esposa. Era um homem de nervos à flor da pele. Contudo, arrependia-se logo em seguida. Havia momentos em que o arrependimento o levava às lágrimas.
-
-Ainda assim, quando se exaltava, perdia o controle de si mesmo e voltava a gritar, apenas para se arrepender novamente.
-
-O dinheiro da rescisão que recebera ao deixar a empresa já havia acabado há muito tempo.
-
-A vida continuava difícil.
-
-O proprietário da casa, com falsa benevolência, sugeriu:
-
-“Se precisa de dinheiro, comece a fazer terapia elétrica. Isso atrai pacientes.”
-
-O Mestre permaneceu em silêncio, com uma expressão que dizia para não se intrometer.
-
-(Eu não sou um mero terapeuta. Não quero me tornar um. E mesmo que quisesse, minha personalidade não o permitiria.)
-
-O proprietário, observando o Mestre, resignava-se:
-
-(Que homem inflexível.)
-
-Certa vez, ele mencionou ao Grande Mestre a sugestão da terapia elétrica.
-
-O Grande Mestre respondeu com naturalidade:
-
-“Faça as duas coisas. Seria bom fazer as duas.”
-
-No entanto, o Mestre não tinha a personalidade versátil para tal. A conversa terminou ali, mas o idealismo ardente do Mestre acabou por entrar em rota de colisão com a visão de fé de um certo membro da Ōmoto-kyō (大本教), e, no final, o Mestre rompeu corajosamente com a própria organização.
-
-Isso aconteceu no oitavo ano da era Showa (1933).
-
-No ano seguinte, o Grande Mestre também renunciou ao seu cargo de liderança na Ōmoto-kyō (大本教) e abriu uma clínica de terapia por pressão digital baseada na fé em Hanzōmon, Kōjimachi. Naquela época, o Grande Mestre tinha cinquenta e dois anos completos, e o Mestre, trinta e cinco.
-
-Essa época de pobreza se estendeu por muito tempo, mas, por mais difícil que fosse a situação, o Mestre detestava lamentações. Por isso, sua esposa não podia se queixar. Não apenas queixar-se; ela não podia mencionar nada sobre dinheiro. Tinha que cerrar os dentes e permanecer em silêncio.
-
-“Olhe os pássaros do céu. Vivem sem nada armazenar. Como pode então o ser humano, o mais sublime de todas as criaturas, passar fome?”
-
-O Mestre frequentemente dizia isso à sua esposa, agindo como se vivesse em um país onde o dinheiro não tivesse valor.
-
-O Mestre também odiava dívidas.
-
-Por isso, sua esposa não podia pedir emprestado nem mesmo uma pequena quantia para uma emergência. Se fosse descoberta, certamente seria repreendida.
-
-Contudo, houve vezes em que, sem alternativa, ela pegou dinheiro emprestado para as despesas. Ao saber disso, o Mestre a importunou:
-
-“Devolva imediatamente. Devolva agora mesmo!”
-
-A esposa vendeu, um a um, todos os pertences que trouxera em seu enxoval de casamento. Já não havia mais nada para vender.
-
-“Já não tenho mais nada”, disse ela certa vez, com uma expressão quase de alívio.
-
-“Eu também estou usando um quimono de camada única que foi reformado para parecer de dupla camada”, respondeu o Mestre, sorrindo. “E mesmo assim, sou muito feliz.”
-
-Onze
-
-Nesta casa, o Mestre e sua esposa sofreram por seis longos meses com uma terrível sarna.
-
-Com os filhos para cuidar e as mãos doentes, as tarefas domésticas, como cozinhar, tornaram-se um desafio. Quando contratavam uma diarista, ela logo ia embora, queixando-se do cheiro da roupa suja. Por fim, ninguém mais quis ajudá-los.
-
-O Mestre, com o corpo todo envolto em bandagens, suportava em silêncio aquele sofrimento de um inferno em vida.
-
-Quando os discípulos o visitavam, ele se cobria com o cobertor até o queixo para que não vissem seu estado.
-
-Nos dias de cerimônia mensal, o Mestre, deitado em seu quarto no segundo andar, mandava arrumar almofadas no varal e, de dentro de seu leito, proferia uma palestra para cerca de trinta fiéis sentados ali. Falava por uma hora inteira.
-
-Sua esposa orou: “Peço que cure primeiro a minha sarna, mesmo que seja apenas temporariamente”. Com os dois de cama, as crianças não sobreviveriam.
-
-Sua prece foi atendida, e ela se curou um pouco antes do Mestre.
-
-No entanto, anos depois, a sarna voltou a afligi-la.
-
-“Está certo. Eu orei para que a cura fosse apenas temporária, então é natural que isto aconteça”, pensou ela.
-
-Com suas mãos doentes e enfaixadas até o meio dos dedos, a esposa tricotava uma faixa abdominal de lã que o Grande Mestre havia pedido. Era sua forma de retribuir a gratidão, e ela continuou a tricotar diligentemente.
-
-Ao ver aquela cena, os olhos do Mestre se encheram de lágrimas.
-
-Para ele, o Grande Mestre era a única pessoa insubstituível neste mundo. E por essa pessoa, sua esposa, suportando a coceira em todo o corpo, confeccionava uma faixa abdominal.
-
-Em seu coração, o Mestre disse:
-
-(Obrigado.)
-
-Continua no capítulo doze
-
----
-
-# O que Espero de Okada Jikan
-
-**Categoria:** kanren | **Ano:** - | **Fonte:** -
-
-## O que Espero de Okada Jikan
-Yamaoka Sohachi
-
-O Universo, com seus domínios excessivamente vastos e desconhecidos, não pode ser elucidado apenas pela ciência. Por conseguinte, há épocas em que o idealismo se impõe sobre uma geração, e outras em que o materialismo envolve o mundo. É inevitável que, em conformidade com as tendências de cada tempo, surjam momentos em que se proclame que, para ser considerado alguém, é preciso aderir ao pensamento dominante.
-
-Todavia, uma coisa é certa: o Universo em si não se torna idealista ou materialista para se ajustar à opinião pública. Por mais que os dois grandes blocos mundiais debatam com fúria ou espalhem bombas atômicas, a essência do Universo jamais alterará a sua vontade por causa disso.
-
-A essência do Universo existe de forma solene, indiferente à percepção fragmentada dos seres humanos. Basta passar um dia no jardim, em contato com o ciclo das plantas que florescem na primavera e frutificam no outono, para que não se possa conter um sentimento de infinita reverência.
-
-Creio que já passou a era em que o idealismo atacava ferozmente o materialismo, e em que a ciência e a religião se repeliam. Afinal, foi a própria ciência que elucidou que a matéria se origina dos elétrons, e que estes já constituem um microcosmo que contém elementos espirituais que a própria ciência não consegue decifrar. É preciso que ambos os lados abandonem a presunção e se dediquem, com reverência, à construção da próxima civilização.
-
-Desde sempre, nutri profunda aversão pelo pensamento exclusivista de certos religiosos. Se a busca da verdade consiste em sondar a vontade do Universo a partir de suas leis ainda não desvendadas, então as portas de acesso a essa investigação devem ser inúmeras. Não pode haver uma lógica tão absurda que afirme ser maligno o caminho que passa por Cristo e perverso aquele que se aproxima por meio de Buda. Ao mesmo tempo, é um fato que, quer se entre pela porta de Nichiren ou se parta pela de Shinran, se faltar esmero no espírito, não se dará um passo sequer para além do domínio da superstição. Ainda assim, cada um desses caminhos é, à sua maneira, um ponto de partida para a escalada da verdade.
-
-Contudo, essa montanha da verdade ainda não pertence ao povo; dela restam apenas os ecos das vozes daqueles que gritaram: "Eu conquistei o cume!". O povo só acreditará depois que for conduzido pela mão até o topo e contemplar a paisagem em todas as direções. Nesse sentido, a montanha da verdade permanece um pico virgem e inexplorado. E é nessa jornada de conquista de um pico tão íngreme que os guias, esquecidos do objetivo, se atracam em disputas. É assim que vejo os religiosos de hoje.
-
-Eu diferencio religião e superstição com base no objeto de busca e na essência de cada indivíduo. Não importa quantos argumentos engenhosos os materialistas apresentem, nem quantas preces misteriosas os idealistas realizem; a Grande Vontade do Universo existe de forma majestosa e alheia a tudo isso. Se a pessoa busca a salvação ao sondar essa Vontade, creio que nela existe a verdadeira religião, por mais humilde que seja a sua condição. Por outro lado, mesmo que alguém ostente trajes de brocado no interior de um grande templo, se sua mente está ocupada com querelas entre guias, ou se admira tal comportamento, essa pessoa é, sem dúvida, um adepto da superstição. Isso significa que, embora o Japão possa estar repleto de supersticiosos, há também, em contrapartida, muitos religiosos ocultos.
-
-De modo geral, desde a Era Meiji, uma estranha forma de esnobismo tem assombrado a visão religiosa dos japoneses: a ideia de que tudo o que é antigo é autêntico e tudo o que é novo é falso. Isso se manifesta, é claro, entre aqueles que se autodenominam intelectuais. A visão de vida superficial dessas pessoas, que consideram a religião um mero adorno para ocasiões formais, parece ter rebaixado drasticamente a autoridade e a dignidade das tradições antigas, pois uma aceitação leviana sempre promove a decadência e a corrupção do conteúdo.
-
-A Doutrina de Kannon de Okada Jikan parece ter seu ponto de partida na visão da Vontade do Universo como "Amor" e "Harmonia". E, quanto a essa premissa, não tenho absolutamente nada a objetar. Eu contemplo o Universo — incluindo pessoas e coisas — como um único organismo vivo, e é nele que encontro meu modesto lugar de paz. Consequentemente, não posso endossar nem o comunismo, que propõe a distribuição equitativa das coisas, nem o capitalismo, que defende a apropriação pela força. Isso porque considero que as coisas e as pessoas são, em sua origem, uma unidade, e que o esforço conjunto dessa unidade deve gerar continuamente novas riquezas materiais (ciência) e cultura, a fim de enriquecer a vida humana.
-
-Nesse sentido, creio que minha visão difere um pouco tanto do sindicalismo quanto do cristianismo. Se considerarmos que os diversos recursos e territórios existem *para* a humanidade, cria-se uma dualidade entre o homem e a matéria, e a humanidade acabará repetindo seus conflitos em busca de recursos e terras. No entanto, se partirmos do princípio de que ambos são originalmente uma unidade, a perspectiva muda consideravelmente.
-
-É impossível que o mundo animal exista sem o mundo vegetal, assim como é impossível que o ar exista onde não há água. Apenas capitalistas não conseguem realizar um trabalho, e apenas com trabalhadores não se pode almejar uma produção de alto nível. A existência do "eu" já pressupõe a existência do "outro", e ficou provado, no nível atômico, que o "outro" e o "eu" são inequivocamente um.
-
-Em outras palavras, o fato de que somos um único organismo vivo, que abrange todas as coisas — no qual o indivíduo se torna tão pequeno quanto o átomo e o todo se torna um único Universo —, é uma verdade irrefutável que a nossa civilização conseguiu desvendar até hoje.
-
-Se não regularmos a existência humana com base nessa verdade, enfrentaremos uma crise que pode levar à extinção não apenas da humanidade, mas de toda a produção. E esse sentimento de crise, precisamente por sermos um único organismo vivo, infiltra-se em todos os continentes, nações, povos e indivíduos, compondo o desespero da sociedade moderna.
-
-Portanto, um religioso incapaz de sentir essa crise já não é um religioso; e se, ciente dela, não consegue agir, não pode ser chamado de outra coisa senão um estorvo. (E como o Japão está cheio de estorvos!)
-
-Movido por esse sentimento de crise, Okada Jikan ergueu-se para salvar os fiéis, declarando a construção de um mundo sem doença, pobreza e conflito. Tampouco tenho motivos para me opor a isso. Se Schopenhauer se referiu às diversas leis como a "vontade cega do Universo", e Okada Jikan enxergou essa "vontade" como a do Deus de Grande Amor e Harmonia, então essa aspiração deve ser, naturalmente, o anseio mais profundo de um verdadeiro religioso.
-
-Doença, pobreza e conflito...
-
-Ainda não conheço o senhor Jikan com profundidade suficiente. Portanto, não posso detalhar como ele pretende concretizar esses três grandes objetivos. No entanto, ouvi dizer que ele já iniciou as obras em Atami para construir um protótipo do "Paraíso Terrestre", onde esses três flagelos serão erradicados. Espero sinceramente que ele demonstre um profundo discernimento para que sua obra não se torne um templo morto, um templo do passado, erguido para intimidar os fiéis.
-
-Existem no mundo falsos santos que, para ocultar sua própria impotência, comparam fundadores como Shakyamuni e Cristo a eremitas transcendentais, manipulando palavras para sugerir que a religião deve manter-se soberana e alheia à política. Contudo, tanto Cristo quanto Shakyamuni se declararam salvadores, não religiosos. A ideia de que possa existir salvação sem considerar a política é, em minha opinião, um sofisma dos mais absurdos.
-
-Quem possui o ímpeto de declarar que salvará o mundo deve ser, na linguagem de hoje, um revolucionário. Se não houver a disposição de demolir a civilização do passado, que chegou a um beco sem saída, e o poder a ela associado — com uma nova visão e um novo vigor em todas as áreas, como política, economia, arte e ciência —, é impossível construir um paraíso.
-
-Shakyamuni foi um magnífico revolucionário. Cristo também não se curvou um centímetro sequer diante do poder. Eles foram grandes filósofos, grandes estadistas e grandes artistas que se afligiam com a corrupção do mundo e agiam incessantemente movidos pelo anseio de salvar a humanidade.
-
-Se a alma de Okada Jikan descender dessas alturas, acompanhada da devida sabedoria, anseio que ele abra com vigor as portas da civilização da era atômica, cuja revelação se tornou uma questão de tempo neste final da era da civilização científico-materialista.
-
-Para mim, que concordo inteiramente com ele no que tange a ver a Vontade do Universo como o Grande Amor de Deus, sei que agora é o momento em que Deus aguarda, de braços abertos, o surgimento de tal apóstolo.
-
----
-
-# Coleção de Ensaios de Okada Jikanshi — Consulta aos Ensinamentos: help; Consulta de Materiais: Guia para a Prática Missionária I-2-3; Qualificados, Igrejas e Diversas Questões da Fé; Capítulo 3: Assuntos a serem compreendidos
-
-**Categoria:** kanren | **Ano:** 昭和25(1950)年6月13日 | **Fonte:** 御Hikari話録
-
-## Coleção de Ensaios de Okada Jikanshi — Consulta aos Ensinamentos: help; Consulta de Materiais: Guia para a Prática Missionária I-2-3; Qualificados, Igrejas e Diversas Questões da Fé; Capítulo 3: Assuntos a serem compreendidos
-
-## 1. Anelar sinceramente pela felicidade alheia, olvidando a si mesmo
-
-Certa vez, na época em que eu estava na Oomoto, havia uma pessoa que dizia: “Como eu anseio por ser salvo e ir para o Paraíso”. Em resposta, eu lhe disse: “Não tenho o menor desejo de ser salvo e ir para o Paraíso. Ao contrário, rogo para que me seja permitido salvar o maior número possível de pessoas, conduzindo-as ao Paraíso. E para tanto, ainda que eu mesmo tenha de ir para o inferno”.
-
-O ser humano, inevitavelmente, coloca-se como centro e torna-se prisioneiro de seus próprios interesses. Evidentemente, não é possível desapegar-se por completo, mas aquele que compreende que não deve se prender a si mesmo adquire uma visão mais ampla e torna-se magnânimo. E é certo que as pessoas de espírito grandioso alcançam, invariavelmente, um grande progresso. Aquelas de espírito mesquinho, por outro lado, estão fadadas ao fracasso.
-
-## 2. Não se dirigir às pessoas, mas a Deus (No caso de ser alvo de maledicência)
-
-No passado, quando me relatavam: “Estão falando mal do senhor desta ou daquela maneira”, eu caía numa grande gargalhada. A situação me parecia irresistivelmente cômica, a ponto de eu mesmo me espantar. Sinto graça ao ser alvo de maledicência. Seria natural que eu me sentisse ofendido, mas não é o que acontece. Em vez disso, sinto compaixão por quem me ataca; acho a situação imensamente cômica. Ademais, quando eu rio, o interlocutor se sente desarmado. Existem indivíduos que sentem uma espécie de prazer em intimidar os outros. Contudo, quando dirigem suas palavras a mim, eu simplesmente rio, pois não os considero como meus adversários.
-
-Aquele que se abala, por menor que seja, com as palavras depreciativas de outrem, ainda possui uma fé superficial. Isso se deve ao fato de que não nos dirigimos às pessoas, mas sim a Deus. Basta que agrademos a Ele. Os seres humanos são incapazes de compreender a verdade. É comum na sociedade que, mesmo nos esforçando ao máximo, nosso trabalho não seja reconhecido. Portanto, não devemos nos preocupar com tais coisas, mas sim em agradar a Deus.
-
-E o que significa ser do agrado de Deus? Significa auxiliar o próximo — salvar ao menos um doente, devolvendo-lhe a saúde. Se salvar uma única pessoa já é significativo, salvar dez, cem, certamente nos tornará muito agradáveis a Seus olhos. Basta que nos dediquemos a isso. Se pensarmos de forma complexa, tudo se torna complexo; contudo, se pensarmos com simplicidade, tudo se torna simples.
-
-## 3. Vencer perdendo
-
-Há uma história famosa sobre o templo Zuiganji, em Matsushima. Aquele que o fundou, como muitos talvez saibam, foi um jovem que, em tempos antigos, servia ao senhor feudal Date como um simples cuidador de sandálias.
-
-Certo dia, num inverno rigoroso e de muita neve, desejando aquecer as sandálias de seu mestre, o jovem as guardou junto ao peito, sob suas vestes. Quando o senhor feudal foi sair e calçou as sandálias, sentiu-as mornas e, enfurecido, bradou: “Certamente você as usou!”, escorraçando-o a pontapés. Profundamente injustiçado e sem saber como reparar sua honra, decidiu tirar a própria vida para provar sua inocência.
-
-No momento em que se preparava para o ato, um monge de grande virtude passou por ali e o interpelou, perguntando o motivo de sua decisão. O jovem relatou a amargura que sentia, explicando que, com sua morte, buscaria vingança. O monge, então, disse-lhe: “Isso é um desperdício. Em vez disso, alcance uma posição de grande destaque. Revidar por meio de seu próprio sucesso; essa é a maior de todas as vinganças”. Com palavras repletas de sabedoria, o monge o persuadiu. O jovem, reconhecendo a verdade em suas palavras, tornou-se seu discípulo, dedicou-se ao aprimoramento espiritual, tornou-se um grande religioso e, posteriormente, viajou até a China para aprofundar seus estudos.
-
-Ao retornar, já era o mais célebre monge de sua época. Por acaso, o senhor feudal Date ouviu falar de sua fama e, desejando conhecer tão notável figura, especialmente por ser originária de suas terras — o que representava uma grande honra —, convidou-o para um encontro. O senhor feudal o recebeu com as mais altas deferências e, após uma longa conversa, ao se despedir, o monge disse: “Trouxe-lhe uma lembrança e gostaria muito de oferecê-la”. De um suntuoso embrulho, retirou respeitosamente um objeto e o colocou diante do mestre: eram sandálias.
-
-Perplexo, o senhor feudal perguntou por que lhe oferecia tal presente. O monge respondeu: “Há uma história por trás disto. Em minha juventude, fui seu cuidador de sandálias, e em um certo dia, ocorreu este incidente...”. Ele então narrou toda a história e concluiu: “Foi por causa destas sandálias que pude alcançar o sucesso que tenho hoje. Para mim, elas são um tesouro de valor inestimável. E como tudo isso devo ao senhor, trouxe-as como um presente em sinal de gratidão”. O senhor feudal sentiu-se imensamente constrangido. Contudo, não se sentiu ofendido; pelo contrário, o monge não apenas restaurara sua honra, como também realizara sua vingança da forma mais nobre. Em reconhecimento, o senhor feudal decidiu doar-lhe um templo, que veio a ser o Zuiganji.
-
-É com esse mesmo espírito que optei por não apelar daquela decisão judicial. As pessoas que ouviram meu relato concordaram que, de fato, essa talvez fosse a melhor postura.
-
-Este é apenas um exemplo, mas serve para tudo. Quando formos submetidos a um tratamento cruel ou perseguidos por alguém, não devemos ceder ao impulso imediato da vingança, mas aguardar o tempo certo. Evidentemente, a culpa não pode ser nossa; se estivermos com a razão, o resultado será invariavelmente positivo.
-
-Ontem mesmo, em uma reunião com pessoas importantes, o assunto da guerra veio à tona, e a partir da derrota do Japão, expus meu pensamento. Os seres humanos, ao tentarem vencer ou ao efetivamente vencerem, acabam por perder. Portanto, para se vencer uma guerra, o melhor é fugir. Quem tem a grandeza de fugir, certamente sairá vitorioso. Os soldados japoneses, contudo, não fogem; avançam incessantemente, e por isso não conseguem vencer a guerra. Lembro-me de quando MacArthur, nas Filipinas, escapou por um triz. Naquela ocasião, comentei com todos: “MacArthur é formidável. Ele fugiu. Por isso, um dia se tornará um homem notável, um militar esplêndido”. Elogiei-o, e alguns dos que me ouviram estão aqui hoje. E, de fato, ele se provou grandioso.
-
-Assim, o ser humano não deve se empenhar em vencer. Aquele que chega a ponto de perder e fugir é quem, no fim, vence. Da mesma forma, em um processo judicial, se apelarmos e vencermos, no fundo, teremos perdido. Por isso, ser derrotado mesmo estando com a razão é uma situação extremamente frustrante e difícil de suportar. Todavia, se a suportarmos com paciência e aceitarmos a derrota, obteremos uma vitória muito maior, de forma natural e sem esforço.
-
-Embora este seja um exemplo de grande magnitude, o princípio se aplica também às pequenas coisas. Nos assuntos domésticos, por exemplo, devemos ceder. A pessoa que age assim certamente sairá vitoriosa. Quem venceu, no final, acabará por se desculpar. Portanto, o antigo adágio “perder é vencer” encerra uma profunda verdade. Encerro aqui este assunto.
-
-## 4. Corresponder ao Plano Divino e dedicar-se diligentemente à própria missão
-
-O programa de Deus já está perfeitamente estabelecido; ele simplesmente se manifesta de acordo com o tempo. Portanto, basta que prossigamos com nosso trabalho, diligente e perseverantemente. A obra divina, à primeira vista, pode parecer lenta e morosa, mas, na realidade, é extremamente rápida.
-
-## 5. O Plano Divino para a construção do Paraíso será revelado gradualmente, à medida que o tempo chegar
-
-A propósito, e mudando um pouco de assunto, há algo muito bem expresso no Ofudesaki, da Oomoto: “Não se trata de um plano trivial que os homens possam compreender. Nos desígnios de Deus, há profundidade dentro da profundidade, e ainda mais profundidade além”. E também: “Aquele que pensa não compreender o Mundo Espiritual, esse sim, compreendeu”.
-
-O que isso significa? Significa que o maior perigo reside em julgar as coisas com o pensamento humano. Trata-se de um plano de imensa profundidade para salvar a humanidade e construir um novo mundo de civilização. Portanto, está muito além da capacidade de discernimento do juízo humano. Mesmo assim, não é possível revelá-lo claramente, pois tudo depende da época, do momento certo. Aos poucos, tenho começado a elucidar os aspectos mais próximos, mas a profundidade deste plano é infinita. À medida que o tempo avança, irei explicando mais.
-
-É natural do ser humano querer conhecer o que há de mais profundo e misterioso. O desejo em si não é um problema. O erro crasso, contudo, é julgar o bem e o mal a partir de uma perspectiva superficial, valendo-se de sua parca inteligência e talento limitado. Afinal, se o homem pudesse compreender o Plano Divino, seria igual a Deus. É natural que não o compreenda. A postura mais correta é, simplesmente, aguardar o tempo com um coração dócil e obediente.
-
-## 6. Acautelar-se para não cair em presunção e equívoco
-
-No Ofudesaki, da Oomoto, está escrito: “As graças, recebei-as vós mesmos”. O texto adverte severamente contra a presunção e o equívoco. Em várias passagens, encontramos a advertência: “Não caiais em presunção e equívoco”.
-
-Isso é algo que ocorre com frequência. Quando o fiel está no início de sua jornada, ele age com temor e reverência, e por isso as curas ocorrem de forma notável. Contudo, quando ele começa a pensar “já me tornei bastante capaz”, os resultados já não são tão bons. Isso ocorre porque ele caiu em presunção.
-
-Quando agimos com temor e reverência, nossa atitude agrada a Deus. No momento em que pensamos “eu já dou conta do recado”, fracassamos. É preciso ter atenção a esse ponto. Isso se aplica a tudo: no instante em que pensamos “já está bom”, tudo se perde. Enquanto nos mantemos em estado de cautela e humildade, tudo corre bem. Creio que todos já tiveram essa experiência.
-
-## 7. Os espíritos malignos estão sempre à espreita
-
-Existem centenas de milhões de espíritos malignos, organizados em diversas hierarquias, de forma semelhante ao que ocorre no Mundo Espiritual, do lado de Deus. Eles estão constantemente à espreita, visando derrubar cada um dos fiéis. É por isso que mesmo entre os membros, há quem tenha pensamentos equivocados, quem se perca em dúvidas ou quem cometa erros acreditando estar fazendo o bem.
-
-No Ofudesaki, da Oomoto, está escrito: “Agora, os espíritos do mal se infiltraram por toda parte, e não há a menor brecha. A qualquer momento, podereis ser dominados por eles, portanto, todo cuidado é pouco”. Isso significa que todos os que têm fé devem se sentir como se estivessem em meio a lâminas desembainhadas, onde a menor distração pode ser fatal. É uma expressão muito bem empregada.
-
-## 8. Fazer o *saniwa* de si mesmo
-
-Hoje, meu discurso tem um tom de sermão, mas é necessário falar sobre os espíritos malignos. Eles estão bastante ativos. Como mencionei outro dia, os espíritos malignos miram, primeiramente, os fiéis. Contudo, os fiéis tendem a pensar: “Tenho a proteção de Deus, então os espíritos malignos possessos os não-fiéis para nos atrapalhar”. Embora isso possa acontecer, os espíritos malignos que agem dessa forma são os de poder muito fraco, os ineptos de seu lado.
-
-Os espíritos malignos realmente poderosos e habilidosos, esses possessos os próprios fiéis. E aí reside o perigo. Eles não o fazem de maneira obviamente perversa. Como se trata de um fiel, ele não pensa em fazer o mal. O espírito maligno o faz pensar: “Isto é o correto. Fazer isto será bom para a Obra Divina”. E é isso que é assustador. A pessoa, convencida de que está agindo em prol da Igreja, acaba, sem perceber, causando obstruções e prejuízos.
-
-Portanto, a quem devemos vigiar em relação aos espíritos malignos somos nós mesmos. Devemos nos autoexaminar espiritualmente, questionando: “Será que minhas ações não estão sendo influenciadas por um espírito maligno?”. Isso é o que se chama *saniwa* (審神), e é de extrema importância.
-
-Em situações de dúvida, quando não sabemos se devemos agir de uma forma ou de outra, devemos analisar a questão sob uma perspectiva ampla. Devemos nos perguntar qual será o impacto para a Igreja como um todo. O ser humano tende a querer engrandecer seu próprio grupo, sua própria igreja local, o que é louvável. É preciso ter essa autoconfiança, esse sentimento de excelência. O problema surge quando, para o bem de sua igreja, prejudica-se outra.
-
-Portanto, se a intenção for a de que tanto a sua igreja quanto as outras prosperem, não há problema. Nesses momentos de dúvida, contudo, é preciso fazer o *saniwa* de si mesmo, uma autocrítica. Não é algo difícil; a resposta surge rapidamente. É precisamente nesses momentos que os espíritos malignos costumam agir. E é nesse ponto que devemos nos corrigir.
-
-## Anexo: Exemplo concreto de como a bondade de visão limitada nos torna presas de espíritos malignos
-
-### 1. Casos em que há opositores na família do doente
-
-Os espíritos malignos miram, primeiramente, os fiéis. Não se trata de grandes questões, mas, de vez em quando, surgem pequenos problemas dentro da Igreja. No caso dos membros, mesmo quando são influenciados por espíritos malignos, a manifestação é diferente da que ocorre com as pessoas comuns. Estas praticam o mal deliberadamente, o que não acontece com os fiéis. Quando um fiel é influenciado, ele acredita estar fazendo o bem, mas o resultado é nefasto. É preciso ter atenção a isso. O fiel se esforça, pensando que está agindo em prol da Igreja, mas, na verdade, o resultado é o oposto.
-
-O problema que ocorreu recentemente em Kyushu é um exemplo. Em uma família, a filha faleceu, e levantou-se a questão de ela não ter recebido tratamento médico. Quem tomou essa decisão foi o filho mais velho da família. A doente era uma jovem de vinte e poucos anos, e o acusador, seu irmão, parece ter enviado uma carta a um jornal local.
-
-Analisando casos semelhantes, percebemos que são sempre os jovens que causam o problema, ou melhor, que o transformam em um problema. Por exemplo, quando um pai ou um irmão falece, essa pessoa já se opunha ao Johrei desde o início, dizendo coisas como: “É um absurdo tentar curar doenças com essa religião charlatã”. Para alguém que recebeu a educação atual, é compreensível que pense assim, pois sua mentalidade foi moldada pela educação materialista. Assim, quando um familiar tenta se curar pela fé, essa pessoa reage não apenas com oposição, mas com indignação.
-
-Nessas circunstâncias, a cura se torna mais difícil, pois o pensamento negativo do opositor atua como uma obstrução. É por isso que sempre digo: se houver alguém na família que se oponha veementemente, é melhor não se envolver, é melhor recuar. O espírito dessa pessoa interfere, e o resultado acaba sendo ruim. E então, ela diz: “Viu só? Eu não disse? Vou levar este caso a público”. Embora não haja implicação legal, notícias assim costumam sair nos jornais locais.
-
-Portanto, quando houver um forte opositor em uma família, é melhor avaliar a situação e, se possível, evitar o caso. O doente, naturalmente, irá implorar por ajuda, e não será fácil recusar. É preciso saber lidar com essa situação com sabedoria. O ideal é adotar a política de evitar tais casos. Todos os problemas surgem de situações assim.
-
-Às vezes, mesmo que a esposa, a filha ou o filho implorem por ajuda e o tratamento seja iniciado, se o pai da família se opõe e a pessoa vem a falecer, ele tentará transformar isso em um problema. É algo extremamente complicado. Portanto, quando houver um opositor na família, é preciso ter cuidado e, como norma, evitar o caso. Causar problemas é a pior coisa que pode acontecer, pois, por mais que nos esforcemos, o resultado será adverso.
-
-Nessas situações, basta analisar o caso sob uma perspectiva ampla. Geralmente, são justamente esses doentes que trazem problemas. O doente implora, e nós queremos ajudá-lo de alguma forma, mas a oposição da família torna a atmosfera desagradável. Sentimo-nos encurralados e, de repente, a pessoa falece. Eu mesmo já passei por isso no passado. Em casos assim, eu me afasto. Pode parecer cruel, mas é preciso ter a firmeza de cortar os laços. De uma perspectiva mais ampla, isso é para o bem da Igreja. E, no final, tudo flui melhor e o resultado é favorável.
-
-É por isso que sempre digo que, nas coisas de Deus, é preciso ser calculista. A perspectiva ampla (Mahayana) inevitavelmente envolve pequenos males. Mesmo agindo com grande amor, um pouco de mal é inevitável. Assim, mesmo com o desejo de salvar o maior número de pessoas, agindo com amor altruísta, haverá casos que nos parecerão lamentáveis, mas, de uma perspectiva mais ampla, não há outra escolha senão seguir pelo caminho mais favorável. Do contrário, acabaremos agindo contra a Vontade Divina.
-
-Deus não diz que salvará toda a humanidade. Ele diz que haverá os que serão salvos e os que perecerão. Isso é o Juízo Final. Não é a salvação final. O juízo implica que os pecadores serão punidos. E é aí que reside a grande dificuldade. Portanto, é imprescindível agir com uma perspectiva ampla. Se agirmos com uma visão limitada, pensaremos: “Coitado, ele está implorando tanto”, e nos deixaremos levar pela compaixão. Isso é uma visão limitada. Portanto, como eu disse, tenham em mente que é preciso ter cuidado quando há opositores.
-
-### 2. Em relação à Igreja que causou um problema e foi exposta nos jornais
-
-Diante de um problema como esse, o ministro responsável pelo Johrei, por sua negligência, deveria ter vindo se desculpar o mais rápido possível. Não comparecer a uma reunião como a de hoje é inadmissível. Uma pessoa assim deveria deixar o cargo de ministro. Não se pode mensurar o impacto que a publicação dessa notícia no jornal terá. Ele não tem noção do transtorno que causou a Deus por sua falha. Se sentisse o peso de sua responsabilidade, não conseguiria ficar sem vir se desculpar imediatamente. O fato de não ter vindo já demonstra uma total falta de fé. É uma fé falsa.
-
-Além disso, você, como superior, deveria tê-lo repreendido severamente. Não sei se você se deu conta disso, mas, se não percebeu, sair de casa sem se atentar a algo tão grave também não é digno de elogio. Ultimamente, tenho feito várias advertências, mas parece que isso acontece por falta de leitura dos Ensinamentos ou por não darem a devida atenção às minhas palavras.
-
-À medida que a Sekaikyuseikyou se desenvolve, ela atrai cada vez mais a atenção da sociedade. No Ofudesaki, da Oomoto, está escrito: “É preciso ter o sentimento de quem está em meio a lâminas desembainhadas”. Os políticos costumam dizer que vivem “dentro de uma casa de vidro”, mas esta expressão é ainda mais forte. Significa que devemos estar tão alertas como se estivéssemos cercados por espadas prontas para nos atacar à menor falha.
-
-Este incidente é uma advertência. Deus não está apenas chamando a atenção daquela pessoa, mas usando-a como exemplo para alertar a todos. Recentemente, eu disse que “é preciso ser racional, tudo deve ter lógica”. Não chamar um médico para um doente em estado tão grave e perigoso é um disparate, é algo que foge à razão. Se tivessem agido de forma lógica, nada disso teria acontecido.
-
-Quando um caso desses se torna um problema e é publicado nos jornais, o impacto negativo é imenso. É uma obstrução incalculável à Obra Divina de Deus. Cem boas ações podem ser anuladas em um instante. E o que foi publicado ecoará por muito tempo. Isso se reflete de forma muito clara nos números, afetando negativamente o aumento de novos membros.
-
-Portanto, para doentes que não correm risco de vida, não há problema, mas para os que estão em estado grave, é preciso tratá-los com o máximo cuidado, como se estivéssemos tocando em algo extremamente delicado, com os nervos à flor da pele. Por mais que nos esforcemos, se causarmos um problema como este, todo o mérito conquistado até então será apagado, e ainda ficaremos em dívida. Uma pessoa que pensasse “cometi um erro terrível, preciso me desculpar o mais rápido possível” não causaria um problema desses. O fato de o problema ter ocorrido, e de a pessoa não ter vindo hoje, demonstra a displicência de seu coração, que é a causa de tais incidentes.
-
-## 9. Não se dirigir às pessoas, mas a Deus (Em relação ao Plano Divino)
-
-Isso é algo que digo com frequência, mas como ainda existem pessoas com uma fé de visão limitada, gostaria de reforçar este ponto.
-
-No Ofudesaki, da Oomoto — que fala sobre a reconstrução do mundo —, está escrito de forma muito interessante: “Esta reconstrução é uma grande peça de teatro mundial, e por isso, haverá tanto o papel do mal quanto o papel do bem”. Existem, portanto, diversos papéis. Contudo, não existe o papel do mal em si; existe o papel que parece ser do mal. E aqui reside a complexidade. O que parece mal para os homens, não o é para Deus. E há casos em que o que parece bem para os homens, não o é para Deus.
-
-Portanto, não cabe aos seres humanos julgar se alguém é bom ou mau. Eu mesmo sou um exemplo disso. Quantas vezes pensei “aquele sujeito é uma má pessoa”, mas, ao refletir que talvez ele tenha uma utilidade para Deus, vi-o desempenhar um papel surpreendente. Os homens veem apenas a superfície; não conseguem enxergar o interior e, por isso, julgam pela aparência. Aí reside o perigo. Deus, contudo, enxerga o interior, a alma mais profunda, e contra isso nada podemos fazer.
-
-Como os homens veem apenas a superfície, eles se apegam às aparências. Preocupam-se com o que os outros pensarão de suas ações. E isso é um grande problema. É por isso que digo: não se dirijam aos homens, dirijam-se a Deus. Não há necessidade de agradar aos homens. O que importa é agradar a Deus. No entanto, as pessoas insistem em tentar agradar umas às outras. No mundo secular, pode ser assim, mas com Deus é diferente.
-
-Em outras religiões, quando alguém faz uma doação, costuma-se afixar uma placa com o nome e o valor. Em nossa Igreja, isso não existe. Ninguém sabe quem doou quanto. A ideia de ser considerado importante por ter doado uma grande quantia não se aplica aqui. Existe o desejo de que Deus veja, mas o ser humano não é o nosso público. Nosso objetivo é que Deus veja. E isso é o que é verdadeiro.
-
-Portanto, o pensamento deve ser centrado em Deus. Basta que Ele veja, que Lhe agrademos. Se pensarmos assim, certamente receberemos uma grande proteção. Contudo, devido aos hábitos e costumes arraigados, isso se torna difícil. É nesse ponto que devemos nos focar.
-
-Se agirmos assim, deixaremos de dizer “fulano é mau” ou “aquela igreja está errada”. Não há problema em pensar, pois Deus nos permite a liberdade de pensamento. Contudo, não devemos transformar o pensamento em ação. Geralmente, falamos sob o calor do momento, mas se nos contivermos, certamente concluiremos mais tarde que foi bom não ter dito nada. Dizemos que alguém é mau, mas, depois, na maioria das vezes, nos arrependemos. Este é um ponto crucial da fé.
-
-## 10. Advertência contra a presunção, o equívoco e a fé de visão limitada
-
-Como leram, e como já expliquei em outra ocasião, o kotodama da palavra “Gohra” é o seguinte: “Go” significa “fogo”, e “fogo” é “espírito”. A repetição “Goo” indica a continuidade do fogo. “Ra” significa “movimento em espiral”, “hélice”. No Mundo Espiritual, inicia-se um movimento de avanço pela esquerda e recuo pela direita. Qual o resultado disso? A energia espiritual do fogo é, em essência, o elemento fogo, o que intensifica a ação purificadora.
-
-Essa espiral de avanço pela esquerda e recuo pela direita atinge todas as coisas. O que já está purificado e limpo em certo grau pode entrar, mas o que está impuro é repelido para fora. É uma grande ação purificadora. Portanto, o que resta é o bem, e o que é repelido é o mal. Assim, a separação entre o bem e o mal ocorre naturalmente.
-
-A fé da Sekaikyuseikyou tem como objetivo formar pessoas que possam atravessar essa espiral sem serem repelidas. Vocês, certamente, não serão repelidos, mas se caírem em presunção ou equívoco, a situação se tornará perigosa. Portanto, peço que procedam com sabedoria.
-
-Haverá pessoas que atravessarão com fluidez, e outras que, mesmo atravessando, encontrarão obstáculos e sofrerão bastante. A manifestação mais evidente disso é a doença. Vocês, que ministram Johrei constantemente, sabem que a purificação está se intensificando. Com essa intensificação, a definição, seja para a salvação ou para a morte, torna-se mais rápida. O passar dos dias nos mostra isso claramente.
-
-De agora em diante, tudo se tornará muito interessante, mas também muito assustador. O resultado de estar certo ou errado se manifestará rapidamente. Contudo, se ouvirem atentamente minhas palavras e lerem os Ensinamentos, não haverá grandes dificuldades. Diferentemente das religiões de visão limitada do passado, nossa fé não é restritiva nem exigente. Se compreenderem seu verdadeiro significado, poderão transpor este momento decisivo com facilidade.
-
-O ponto mais crucial é não julgar as coisas com uma mentalidade de visão limitada. A forma mais fácil de entender isso é aceitar que não podemos compreender com o pensamento humano. A pessoa de mentalidade limitada, no entanto, cria suas próprias lógicas e se convence de que elas são a verdade. Por isso, mesmo se esforçando ao máximo, acaba cometendo erros.
-
-Há uma passagem muito elucidativa no Ofudesaki, da Oomoto: “Muitas das coisas que o povo faz, acreditando serem boas, aos olhos de Deus, são erradas”. Portanto, o que consideramos bom e correto pode, na verdade, estar obstruindo a obra de Deus. Isso acontece porque acreditamos que nosso próprio pensamento é a verdade. E pensar assim é presunção. É por isso que o Ofudesaki adverte, acima de tudo, contra a presunção e o equívoco.
-
-Ele também diz: “Não fiz um plano tão trivial que possa ser compreendido aos olhos do povo. Nas coisas do Mundo Espiritual, aquele que pensa não compreender, esse sim, compreendeu”. Lendo os Ensinamentos, encontrarão essas passagens. Se as tiverem em mente ao julgar as situações, não haverá dificuldades; pelo contrário, tudo se tornará mais fácil.
-
-As pessoas que estão no caminho errado se esforçam em vão. Elas se submetem a diversas dificuldades e sacrifícios, mas isso acontece porque estão erradas. O caminho verdadeiro é percorrido com facilidade. É nisso que nossa fé se difere das religiões do passado. As religiões do passado eram religiões infernais, incapazes de salvar e conduzir ao Paraíso, pois não tinham força. A Sekaikyuseikyou é a religião que constrói o Paraíso, e, portanto, seu método também deve ser paradisíaco.
-
-No fim, tudo se resume à força. As religiões do passado não tinham força. Nem Cristo, nem Buda, tinham força. Por isso, embora seus ensinamentos fossem eloquentes, faltava-lhes o poder real para salvar verdadeiramente as pessoas. Isso porque era o mundo da noite, e a força daquela época era a força da lua, muito fraca. Assim, mesmo que quisessem construir o Paraíso, eram constantemente obstruídos pelos espíritos malignos e não conseguiam realizar seu intento.
-
-Agora, porém, Deus me concedeu essa força. A prova maior disso é que meus discípulos manifestam, em grande número, milagres semelhantes aos de Cristo. É a força que cria Cristos, portanto, é algo imenso.
-
-A força se manifesta quando espírito e matéria se unem. Até agora, eles estavam separados. A união perfeita entre o fogo e a água gera a verdadeira força, mas até então, eles não se uniam. Cristo ensinou a doutrina vertical, e Buda, a horizontal. Estando separadas, não se uniam, e por isso não havia força. O ideograma de “força” (力) é formado por uma linha vertical (経) e uma horizontal (緯) que se cruzam, formando o número dez (十). A força só surge quando elas se unem. E então, o movimento de avanço pela esquerda e recuo pela direita se inicia. Portanto, o ideograma de “força” representa o cruzamento e o movimento em espiral. Os ideogramas foram criados por Deus, e são realmente perfeitos.
-
-O ideograma de “pessoa” (人) também é formado por espírito e matéria. Embora, nas pessoas de hoje, esteja invertido, como no ideograma de “entrar” (入). É assim que as coisas são.
-
-## Anexo: Exemplo de presunção e equívoco
-
-A esse respeito, ocorreu o seguinte. Yoshizumi Kosaburō, um mestre de nagauta, costumava se sentar ao meu lado para assistir aos filmes; não sempre, mas com frequência. Acontece que um fiel deve ter pensado algo como: “Afinal, Kosaburō é o professor de nagauta da esposa de Meishu-Sama. É um grande atrevimento ele vir e se sentar tranquilamente ao lado do casal. Não sei se Meishu-Sama permite isso, mas, a nosso ver, é um desaforo”.
-
-Com esse pensamento, começou a enviar cartas anônimas ao Sr. Kosaburō, dizendo: “Por favor, por uma questão de respeito, não venha mais”. E não foi uma ou duas vezes; as cartas chegavam com frequência. Diante disso, o Sr. Kosaburō, pensando que não deveria causar tal desconforto entre os fiéis, decidiu se abster e, recentemente, parou de vir. Ele é um homem de caráter notável, algo raro em seu meio, e de uma personalidade extremamente discreta, portanto, sua atitude é compreensível.
-
-Contudo, a verdade é que, hoje, o nagauta está em seu apogeu, podendo ser considerado o rei da música. E, dentro do nagauta, o grande mestre é o Sr. Kosaburō. As emissoras de rádio o convidam, mas ele raramente aceita. Recentemente, em comemoração aos seus trinta anos de carreira, foi persuadido e, a contragosto, participou. Ele é uma figura que nem mesmo as emissoras conseguem ter à sua disposição. No entanto, se eu lhe peço, ele prontamente atende. Portanto, os únicos lugares onde ele se apresenta, além de ocasiões especiais, são as apresentações artísticas durante os cultos da Sekaikyuseikyou. Isso confere uma grande autoridade a nossos eventos, e, sob essa ótica, ele é uma pessoa de extrema importância, que agrega um valor inestimável às nossas celebrações.
-
-Além disso, tenho em altíssima conta artistas e homens de letras como ele. Um mestre em sua arte dedica-se a proporcionar alegria ao povo. Oferecer um entretenimento puro é algo de grande necessidade, e as pessoas que o fazem são dignas de profundo respeito. Por essa razão, mesmo que um ministro de Estado peça uma audiência, eu normalmente não a concedo. Não que o menospreze, mas não lhe atribuo tanto valor. Substitutos para ministros existem aos montes. No gabinete de Yoshida, quantos já foram nomeados? Provavelmente, perto de cem. Há muitos substitutos. Mas para mestres como ele, não há substituto. Isso demonstra o quanto seu valor é superior ao de um político. Certa vez, um famoso crítico britânico disse: “Não é preciso nomear ministros. Basta ir ao parlamento, atirar uma bolinha de papel, e quem for atingido se torna ministro”. É esse o seu valor.
-
-Artistas e mestres das artes são pessoas que a sociedade deve honrar profundamente. E, nesse sentido, considero o Sr. Kosaburō o maior expoente de sua arte. Por isso, mesmo antes de ele se tornar membro, eu já lhe ministrava Johrei. Como ele estava muito debilitado, eu o ajudava para que vivesse mais. Eu lhe dizia: “Você é um tesouro para a nação. É preciso que viva o máximo possível para alegrar muitas pessoas. E mesmo que não se apresente, está formando discípulos, o que é de suma importância. Portanto, viva o máximo que puder”. E era eu, e não minha esposa, quem o convidava para os filmes.
-
-Cometer o equívoco de pedir que ele se abstivesse de vir foi um erro tremendo. Esse tipo de pensamento é um pensamento de visão limitada. E esse pensamento de visão limitada chega a ponto de espezinhar minha vontade e meu coração. Uma pessoa que age assim já não pode ser considerada um fiel.
-
-É como na agricultura natural. Muitos, cujas famílias usam adubo há gerações, dizem que é impossível cultivar sem fertilizantes. Antigamente, misturava-se esterco diluído ao composto. E eles insistem que é apenas composto. Como os resultados não são tão ruins, investigamos mais a fundo e descobrimos que, de fato, estão adicionando urina ao composto. As pessoas têm essa tendência de querer introduzir suas próprias ideias. E isso se torna uma obstrução terrível.
-
-No caso do Sr. Kosaburō, a pessoa, acreditando estar fazendo o bem, causou um transtorno imenso. Se ela tomasse conhecimento disso, o correto seria ir se desculpar com o Sr. Kosaburō, dizendo: “Cometi um ato deplorável. Por minha causa, ofendi profundamente os sentimentos de Meishu-Sama. Peço que reconsidere e volte a frequentar como antes”. Se fizesse isso, seria uma atitude nobre. Se tivesse essa coragem, seria digna até de elogios. Não estou dizendo isso para induzi-la a agir, mas essa seria a postura correta. Encerro aqui este assunto.
-
-## 11. Não julgueis
-
-O pior de tudo é dizer: “Aquela pessoa não deveria fazer isso” ou “Aquela pessoa está errada”. Não cabe aos seres humanos saber se alguém é bom ou mau. Apenas Deus o sabe. Dizer que alguém é um espírito maligno ou está possesso por um é usurpar o papel de Deus, o que é um ato de extrema gravidade.
-
-Portanto, não olhe para os outros; olhe para si mesmo. Pergunte-se se você está errado ou não. Essa é a verdadeira sinceridade. Muitos acreditam que advertir ou corrigir os erros alheios é uma boa ação, mas isso é um grande engano. Na sociedade em geral, pode ser aceitável, mas para um membro desta Igreja, não é.
-
-Se a pessoa estiver errada, Deus se encarregará de corrigi-la. É simples. Se não fosse assim, o poder do homem estaria acima do poder de Deus. Escrevi sobre isso recentemente, e será publicado no jornal. Nesse ponto, somos muito diferentes do mundo secular. E essa é a essência da fé.
-
-No fim, o erro está em julgar, em sentenciar. Ao sentenciarmos, erramos. Há coisas que não podem ser sentenciadas. Portanto, a regra geral é não sentenciar. E, a partir daí, sentenciar apenas o que for absolutamente necessário. As situações variam, e não se pode também sentenciar que nunca se deve sentenciar. Aí reside o estado de infinitas transformações, de misteriosa e sutil profundidade. Aquele que se aproxima, ainda que minimamente, desse estado, é quem verdadeiramente está com a alma polida.
-
-Isso não existia nas fés do passado. É uma fé de nível elevado. A fé de uma pessoa assim não está errada, pois essa é a verdade.
-
-Se pensarmos com essa mentalidade, tudo se torna interessante. Ao observar o mundo com essa perspectiva, compreendemos as coisas com muito mais clareza. Isso é o que se chama de perspectiva ampla (Mahayana). O caminho do Mahayana é o cerne de tudo.
-
-## 12. Sede Mahayana
-
-### ① Não sentenciar que alguém é um espírito maligno
-
-Primeiramente, gostaria de dizer uma palavra. É algo óbvio, mas o que mais nos causa problemas é o grande número de pessoas com uma fé de visão limitada. Há vários tipos de fé limitada, mas a pior de todas é a de dizer “aquela pessoa é um espírito maligno” ou “naquela casa há um espírito maligno”. Isso é o pior que se pode fazer. Por isso, costumo dizer: “Quem chama o outro de espírito maligno, esse sim é um espírito maligno”.
-
-Se alguém é ou não um espírito maligno, é algo que o ser humano jamais poderá saber. Apenas Deus o sabe. Pensar que se pode saber é usurpar a posição de Deus. O importante é que nós mesmos não nos tornemos espíritos malignos. Se o outro é ou não, não nos diz respeito.
-
-### ② Não temer os espíritos malignos
-
-Outro ponto é que há pessoas que temem os espíritos malignos. Dizem: “Aquela pessoa está possessa, é preciso ter cuidado” ou “Naquela casa há um espírito maligno, temos que ficar alertas”. Isso é um erro tremendo. Se pensarmos assim, estamos admitindo que o lado de Deus é mais fraco. Temer os espíritos malignos é menosprezar a Deus. A verdade é que são eles que nos temem. Temê-los significa considerar Deus inferior a eles.
-
-Recentemente, vimos que a luz do raio-X não atravessa a Luz Divina. Isso porque a Luz de Deus é superior. O raio-X é como um espírito maligno; ele não tem como competir. As outras religiões, até hoje, em sua maioria, perdiam para os espíritos malignos. Mas o Deus da Sekaikyuseikyou jamais perde. E se não fosse assim, não seria possível salvar o mundo. Portanto, onde houver espíritos malignos, devemos ir de peito aberto, e levar outras pessoas conosco.
-
-No passado, diziam-me: “Aquela pessoa não é boa, não a deixe vir” ou “Não vá lá”. Mas eu não me importava. Porque não há nada superior a nós; todos os outros estão abaixo. Temê-los é admitir que nossa força é insuficiente. Isso seria uma grande ofensa ao Deus da Sekaikyuseikyou, ou melhor, uma falta de reconhecimento de Seu poder. Portanto, podemos ser completamente indiferentes a isso. São os espíritos malignos que nos temem. É preciso não se equivocar nesse ponto.
-
-Ademais, se alguém é ou não um espírito maligno, o ser humano jamais poderá saber. Por quê? Porque pessoas tidas como espíritos malignos estão realizando um trabalho excelente. E, ao contrário, quem aponta o dedo é quem, na verdade, é um espírito maligno. Por quê? Porque é ele quem sente medo, logo, não há dúvida de que é um espírito maligno. É preciso não se enganar quanto a isso.
-
-Os espíritos malignos temem imensamente o Deus da Sekaikyuseikyou. Por isso, eles possessos os fiéis para se protegerem, para não serem aniquilados. Quando o Deus da Sekaikyuseikyou chega a um lugar, os espíritos malignos sofrem um duro golpe. Então, seus subordinados possessos a pessoa para impedir nossa ação. Portanto, o pensamento humano, na maioria das vezes, está invertido.
-
-### ③ Também o mal é utilizado por Deus
-
-Além disso, a lógica humana é totalmente incapaz de compreender os desígnios de Deus. Eles são de uma profundidade imensa. Por exemplo, podemos pensar que os médicos são espíritos malignos. Eles enfraquecem corpos sadios com medicamentos e, no fim, tiram a vida das pessoas. São, sem dúvida, espíritos malignos terríveis. Contudo, foi por causa desses espíritos malignos que a Sekaikyuseikyou surgiu e está se desenvolvendo. Se os médicos curassem todos os doentes, nossa Igreja não prosperaria. O fato de a Sekaikyuseikyou se expandir e se impor se deve à medicina, que é um espírito maligno. Sendo assim, os espíritos malignos estão realizando um trabalho excelente.
-
-Não que nós planejemos as coisas dessa forma, mas é assim que elas são. Portanto, não podemos julgar se algo é bom ou mau. É simplesmente assim. Como sempre digo, mesmo em nossa Igreja, os espíritos malignos já nos ajudaram muito e nos trouxeram grandes benefícios.
-
-Podemos expressar nossa opinião sobre o que é bom ou mau, mas não devemos sentenciar. Por quê? Porque Deus também utiliza o lado do mal. É através do mal que polimos nossa alma, que nos tornamos grandes. O polimento é feito pelos espíritos malignos. Eles afligem a pessoa, e através desse sofrimento, ela se aprimora. Portanto, o espírito maligno é como uma pedra de amolar que forja pessoas de bem.
-
-A luta entre o bem e o mal… se só existissem pessoas boas, não haveria luta, e tudo acabaria. O que não podemos é perder para os espíritos malignos. Se perdermos, o mundo se tornará um mundo do mal. Por isso, temos que vencer.
-
-Até agora, como os espíritos malignos eram mais fortes, o lado de Deus acabava perdendo, ainda que temporariamente. E por isso havia infelicidade e desgraça. Agora, o lado de Deus se tornará mais forte que o dos espíritos malignos.
-
-No Mundo de Miroku, o mal não desaparecerá por completo. Ele ainda existirá, mas perderá para o lado de Deus. Contudo, os espíritos malignos são persistentes. Mesmo perdendo, eles não desistem; continuam tentando. E essa é a sua missão. Portanto, não há nem mesmo a necessidade de pensar sobre isso. Basta que não percamos para eles.
-
-Mas, mesmo dizendo para não perdermos, não adianta apenas querer vencer. Há momentos em que, por sabedoria, é melhor perder. Nesses casos, devemos perder. Até hoje, mesmo perdendo para os espíritos malignos, no final, o lado de Deus vencia. Como todos sabem, “o mal não vence o bem”. No fim, o bem prevalece. Mas, como os espíritos malignos tinham mais força, o período de derrota era longo. Agora, essa situação está se invertendo gradualmente. E quando a inversão for completa, será o Mundo de Miroku.
-
-Em conclusão: não devemos temer os espíritos malignos, e é um erro gravíssimo sentenciar quem é espírito maligno ou não. Isso seria usurpar o domínio de Deus.
-
-### ④ Sobre se converter a outras religiões
-
-Na fé de visão limitada do passado, dizia-se que não se devia ter o menor contato com outras religiões. O cristianismo e o budismo Shinran, em particular, são muito rigorosos quanto a isso. Isso acontece porque são fracos. Como seu poder é tênue e a situação é perigosa, eles proíbem o contato.
-
-A Sekaikyuseikyou, contudo, não diz nada disso. Pelo contrário, é até bom ter contato com outras religiões. Se houver algo superior à Sekaikyuseikyou, pode-se ir para essa religião. Se não houver, deve-se dedicar-se unicamente à Sekaikyuseikyou. Essa é a postura correta. Portanto, é preciso compreender que somos completamente diferentes das religiões estabelecidas.
-
-Ademais, nosso trabalho é fazer com que os espíritos malignos se convertam e se tornem espíritos do bem. Se os evitarmos, não poderemos melhorá-los.
-
-### ⑤ Como Igreja, não rejeitar as pessoas impuras
-
-(O trecho original foi omitido por ser uma repetição)
-
-Certa vez, debati com um pastor cristão em uma igreja em Tóquio. Ele disse: “Não aceitamos como membro da igreja ninguém que tenha cometido o menor erro. Preservamos a pureza da igreja a todo custo”. Eu lhe respondi: “Se as pessoas fossem puras, não precisariam da igreja. A igreja existe porque há pessoas impuras. O papel da igreja não é acolher os impuros e purificá-los?”. Ele me deu uma resposta evasiva: “O senhor tem razão, mas nossa igreja funciona assim, e é assim que devemos proceder”. Contudo, há muitos casos como este no cristianismo.
-
-É como a UNESCO. Um dia, o Sr. Tatuke trouxe um francês, e surgiu o assunto da UNESCO. Alguém sugeriu que seria bom se tornar membro. Eu então o provoquei, dizendo que só entraria para a UNESCO se a União Soviética também entrasse. De que adianta todos, exceto os que estão atrás da Cortina de Ferro, se tornarem pacíficos? O essencial está sendo negligenciado.
-
-Da mesma forma, não adianta nada criar grupos de pessoas puras e corretas. Pelo contrário, é prejudicial. Certa vez, escrevi na revista Eikou que, se todos, exceto a União Soviética, se tornassem pacíficos, ela invadiria o mundo de peito aberto.
-
-Portanto, se encontrarmos um antro de espíritos malignos, devemos ir até lá o máximo possível. Não para brigar, mas apenas para estar presente. Assim, a luz entrará, e eles se enfraquecerão.
-
-Além disso, por mais que digamos que alguém é mau, essa pessoa tem alguma qualidade. O problema é que não conseguimos descobri-la. Quem sentencia “aquele é um espírito maligno” tem a mente fechada, não tem capacidade de discernimento. Se não nos prendermos a isso, nossa mente funciona, e descobrimos qualidades até mesmo nos maus. E aquilo que julgávamos errado pode, com o tempo, nos ajudar de forma inesperada. É algo extremamente sutil. Julgando apenas pela superfície, jamais compreenderemos, especialmente a Obra Divina, que é de uma profundidade imensa.
-
-### ⑥ Sobre a derrota na guerra
-
-Quando surge algum problema e precisamos julgar as pessoas, é bom analisar ambos os lados. Não devemos sentenciar que são maus. É preciso reconhecer os pontos negativos, mas também devemos pensar nos resultados ruins com uma mentalidade positiva, perguntando-nos: “Qual o resultado final disso?”. Se fizermos isso, descobriremos coisas surpreendentemente boas.
-
-O maior exemplo é a derrota do Japão na guerra. Se o Japão não tivesse perdido, se o sistema imperial continuasse e os militares estivessem no poder, a Sekaikyuseikyou ainda estaria encolhida, vivendo com medo de ser aniquilada a qualquer momento. Mas, por causa da derrota, a estrutura do país mudou, a liberdade de crença foi estabelecida, e pudemos realizar tudo o que queríamos. Por isso, em tão pouco tempo, chegamos aonde chegamos.
-
-A derrota, em um primeiro momento, nos trouxe grande desânimo e lamento, mas, com o passar do tempo, o resultado foi extraordinário. E se a Sekaikyuseikyou, pouco a pouco, salvar o Japão, a felicidade que o povo japonês alcançará é incalculável. Sendo assim, devemos ser muito gratos à derrota.
-
-Na época da derrota, a revolta dos japoneses foi imensa. Diziam: “Onde estão Deus e Buda?”. Mas eu, que já sabia de tudo, no dia seguinte à derrota, disse apenas às pessoas mais próximas que era um grande motivo para comemorar. Este é um exemplo de grande escala, mas o mesmo se aplica às pequenas coisas.
-
-### ⑦ A prática missionária também deve ser Mahayana
-
-Desde a antiguidade, a fé tem sido, em sua maioria, de visão limitada. E, por causa dessa fé limitada, as pessoas se preocupam com ninharias, se afligem e criam seu próprio inferno. A fé de visão limitada nos aprisiona no inferno da fé. O Paraíso é Mahayana. Sofrer e se preocupar é cair no inferno. Portanto, não devemos sofrer.
-
-O mesmo se aplica aos doentes. Querer salvar um doente é louvável, mas a preocupação excessiva com isso nos leva ao inferno. Recentemente, fui consultado sobre um caso de doença mental. A pessoa queria salvar o doente a todo custo, fez de tudo e, por causa disso, ficou deprimida e sem saber o que fazer. Eu lhe disse: “Isso é simples. Interne-o imediatamente em um hospital”. O problema era ela tentar curá-lo sem recorrer à internação. Depois que eu disse isso, ela me falou que se sentiu aliviada.
-
-Como mencionei outro dia, à medida que o tempo avança, a separação entre os que serão salvos e os que não serão se tornará cada vez mais clara. Portanto, para os que não serão salvos, é melhor desistir. A insistência pode até mesmo impedir que salvemos aqueles que poderiam ser salvos.
-
-As pessoas que não melhoram, que oscilam entre a melhora e a piora, são as que não serão salvas. É melhor desistir. Entregue-as aos médicos e corte os laços. Ajude apenas aqueles que progridem sem problemas.
-
-Contudo, se tomarmos isso como uma regra fixa, também erraremos. É preciso agir com flexibilidade, de acordo com a situação. Haverá variações, mas o princípio deve ser este.
-
-É por isso que sempre digo que o trabalho deve ser feito com alegria. Não há nada de bom em trabalhar sofrendo, pois o sofrimento é o inferno. Devemos nos esforçar para salvar até certo ponto e, então, tomar uma decisão. Tentar salvar a todo custo nos esgota e, ainda assim, não conseguimos salvar. Aqueles que estão destinados a ir para o Mundo Espiritual, não há o que fazer. Se pensarmos assim, ficaremos mais tranquilos.
-
-Quando percebermos que um caso não está indo bem, devemos agir com sabedoria. Não devemos cortar os laços abruptamente, para não deixar ressentimentos. Isso também exige uma certa sabedoria. As pessoas de fé limitada, ao ouvirem isso, tendem a tomar decisões drásticas, mas isso é errado. É preciso conversar, manter a boa relação e dizer: “Infelizmente, não tenho condições de ajudá-lo”, e se afastar.
-
-Geralmente, nesses casos, um parente ou o cônjuge se opõe e insiste: “Vá ao médico, vá ao médico”. Podemos dizer: “Se toda a família não estiver de acordo, o pensamento negativo atrapalha. Se todos em sua casa concordarem e me pedirem com veemência, eu o ajudarei. Mas, enquanto houver oposição, o pensamento negativo interferirá. Vamos esperar mais um pouco”. Há muitas razões que podemos usar. E, geralmente, são justamente nos casos que não progridem que há oposição.
-
-Há também casos em que toda a família implora, mas, mesmo assim, a melhora não ocorre. Escapar de situações assim é difícil. É preciso pensar e agir com sabedoria, de acordo com as circunstâncias. E essa é a sabedoria.
-
-A causa, no fim, é o veneno dos remédios. A pessoa está debilitada por causa da grande quantidade de toxinas. Podemos dizer: “Há uma quantidade muito grande de toxinas medicamentosas, e o corpo pode não aguentar até que tudo seja eliminado. É bom estar preparado para isso. Contudo, se for para ir para o outro mundo com o mínimo de sofrimento possível, o Johrei é uma boa opção. Com essa intenção, continue sob os cuidados de um médico, e eu o ajudarei a aliviar a dor”. Se dissermos isso, não haverá erro, seja qual for o resultado. E a outra parte, mesmo que o resultado não seja o esperado, não guardará ressentimentos.
-
-Se agirmos assim, não teremos preocupações. Não cairemos no inferno da fé e ficaremos tranquilos. E, agindo assim, jamais causaremos problemas. Os problemas surgem quando garantimos a cura e o resultado é o oposto. Então, um opositor na família diz “eu avisei” e envia uma carta ao jornal ou, em casos extremos, faz uma denúncia à polícia. Portanto, a melhor forma de agir é a que eu acabei de explicar.
-
-De agora em diante, à medida que a purificação se intensificar, tanto a cura quanto a piora se tornarão mais rápidas. A situação é delicada. Casos que antes pareciam seguros, de agora em diante, se tiverem que piorar, piorarão rapidamente. Tenham isso em mente e ajam com a sabedoria que lhes ensinei.
-
-## 13. Com o clareamento do Mundo Espiritual, erros que antes eram perdoados deixarão de sê-lo
-
-É preciso saber o seguinte: o que antes era aceitável, de agora em diante, não será mais. Ou seja, Deus se tornou mais rigoroso. Antigamente, dizia-se *wako dojin*, o que significa que Deus, para se harmonizar com o mundo, perdoava a maioria das coisas. Mas, com o avanço do tempo, tudo se tornará mais claro. Então, o que antes era perdoado, de agora em diante, não será mais. Haverá muitos casos assim. Portanto, de agora em diante, é essencial fazer as coisas de forma meticulosa e clara.
-
-## 14. A partir do Risshun de 1954, a purificação se tornará ainda mais intensa
-
-Quanto à ação purificadora, como todos bem sabem, ela está se intensificando gradualmente. Após o Risshun do próximo mês, ela se tornará consideravelmente mais forte. Portanto, os fiéis não poderão mais ficar de braços cruzados. Em outras palavras, as coisas se definirão. A separação entre os que melhorarão e os que piorarão se tornará mais nítida, e se decidirá quem já não pode mais continuar no corpo físico.
-
-Isso não é algo agradável. É melhor trabalhar no corpo físico. O trabalho no Mundo Espiritual deve ser deixado para muito mais tarde. Recentemente, muitas pessoas têm falecido, tanto fiéis quanto não-fiéis. Até eu mesmo me surpreendo com alguns casos. Mas isso é apenas o começo. A partir do Setsubun deste ano, entraremos na fase inicial. No início, a purificação atingirá mais os fiéis, mas, gradualmente, se estenderá a todas as pessoas.
-
-## 15. A aproximação do fim dos tempos e a grande peça de teatro dos três mil mundos
-
-Como eu disse anteriormente, entramos no primeiro passo da era do terror. Com isso, o desenvolvimento da Sekaikyuseikyou se tornará notável; ela se expandirá grandemente. Entramos nessa fase, portanto, há muito trabalho a ser feito. A força que nos oprimia enfraquecerá. O que antes precisávamos explicar dez, vinte vezes para ser compreendido, agora será entendido em cinco ou seis vezes.
-
-Contudo, as coisas de Deus não se manifestam de forma repentina e visível. Elas progridem de forma gradual e constante. Este ano, no próximo, no ano seguinte... a cada ano, o ritmo se acelerará e tudo se tornará mais claro.
-
-O fato de que, a partir deste ano, Deus se manifestou na linha de frente, é uma certeza. Portanto, a Sekaikyuseikyou se tornará extremamente conhecida mundialmente. É como se, finalmente, tivéssemos subido ao palco. Até agora, estávamos nos preparando nos bastidores. Agora que os preparativos estão concluídos, subiremos ao palco principal. É como uma peça de teatro, e estamos no primeiro ato.
-
-Como está escrito no Ofudesaki: “Desta vez, trata-se de uma grande peça de teatro dos três mil mundos, e por isso, haverá tanto o papel do mal quanto o papel do bem”. O Ofudesaki é realmente muito bem escrito.
-
-Até hoje, muitas pessoas que obstruíram a Igreja e se infiltraram com más intenções, por mais que disséssemos “aquele é mau, aquele não presta”, no final, desempenharam um papel excelente. Um papel benéfico que só uma pessoa má poderia desempenhar. A ponto de querermos agradecê-los sinceramente por seus esforços. Isso nos mostra claramente que tanto o papel do bem quanto o do mal foram preparados.
-
-Afinal, em uma peça de teatro ou em um filme, um roteiro só com pessoas boas não teria graça. É no sofrimento do bem nas mãos do mal que o drama se constrói. Portanto, do ponto de vista teatral, o papel do mal era realmente necessário.
-
-A obra de Deus é de uma profundidade imensa. Por isso, não podemos dizer “aquela pessoa está errada por fazer isso”. Quem diz isso pode, na verdade, estar ele mesmo fazendo algo errado, enquanto a pessoa acusada pode estar fazendo o bem.
-
-No Ofudesaki, está escrito: “As pessoas que fazem coisas erradas, acreditando fervorosamente que é para o bem de Deus, causam problemas até para Deus”. O que fazemos com a certeza de que “isto é para o bem de Deus, isto é o correto” pode, inesperadamente, estar obstruindo a obra divina.
-
-Portanto, para o ser humano, especialmente para o fiel, sentenciar o que é bom ou mau é um erro gravíssimo. E também não é algo que possamos saber. Basta que façamos o que acreditamos ser bom. Dizer se os outros são bons ou maus, aí reside o maior perigo.
-
-Afinal, estamos falando de salvar toda a humanidade, o maior trabalho desde a criação do mundo. No Ofudesaki está escrito: “Um grande recipiente projeta uma grande sombra. Portanto, sem um grande recipiente, a obra de Deus não pode ser realizada”. É preciso ter um recipiente grande, ou seja, ver as coisas de uma perspectiva ampla.
-
-“O bem na perspectiva ampla é o mal na perspectiva limitada, e o bem na perspectiva limitada é o mal na perspectiva ampla”. Isso se aplica a tudo. Escrevi sobre isso recentemente, e creio que foi publicado na Eikou. O patriotismo japonês, o amor ao imperador, o agir “pelo bem do Japão, pelo bem do imperador”, na verdade, é um mal. Foi por pensar apenas no bem do Japão e do imperador que se iniciou uma guerra como a da Grande Ásia Oriental. E o resultado desse pensamento foi o sofrimento terrível da Coreia, da China e de tantos outros países. Isso, no fim, se torna egoísmo, amor-próprio.
-
-O que é verdadeiramente correto é pensar no bem de toda a humanidade. Desde o início, eu nunca falei de patriotismo e amor ao imperador. Isso, no final, é um mal. Se estabelecermos como meta o bem da humanidade, isso sim é verdadeiramente correto.
-
-Esse pensamento de visão limitada é extremamente difícil. Esforçar-se ao máximo por Deus e, na verdade, estar obstruindo Sua obra, isso se deve a uma perspectiva limitada. Quando pensamos com nossa mente limitada, as coisas inevitavelmente dão errado.
-
-## 16. O falecimento de ministros
-
-Há várias razões. A principal é a falta de uma compreensão verdadeira da fé. Em suma, a pessoa acaba obstruindo a obra de Deus. Não que o faça intencionalmente. Ela acredita estar fazendo o bem, mas, por sua falta de sabedoria e discernimento, acaba causando uma obstrução. E há casos em que a pessoa falece por isso.
-
-Contudo, mesmo que morra, ela vai para o Mundo Espiritual e, embora seja julgada por seus erros, continua a trabalhar para Deus, formando muitos fiéis lá. Portanto, não se pode dizer de forma simplista que é por este ou aquele motivo.
-
----
-
-# Publicações Relacionadas — Mestre Nakajima Issei: Sua Fé e Sua Vida — por Aso Eizo
-
-**Categoria:** kanren | **Ano:** - | **Fonte:** -
-
-## Publicações Relacionadas — Mestre Nakajima Issei: Sua Fé e Sua Vida — por Aso Eizo
-
-### Trinta
-
-Entre o vigésimo primeiro e o vigésimo segundo ano do pós-guerra, a força da Igreja expandiu-se vertiginosamente. Somente na associação Tengokukai, o número de novos membros variava de mil a dois mil a cada mês. Seria justo dizer que vivíamos uma era de competição pela admissão de novos membros.
-
-Novos núcleos de difusão surgiam sucessivamente em diversas localidades. Como o Mestre não conseguia atender a todos, os ministros responsáveis viajavam incessantemente para ministrar os cursos de formação em seu nome.
-
-O número de membros nos núcleos também crescia a olhos vistos, e tornava-se cada vez mais comum que os chefes de difusão trouxessem novos fiéis à Sede Central.
-
-Quando um chefe de difusão lhe apresentava um novo membro, o Mestre, aproveitando um momento em que o chefe não estava presente, dizia discretamente ao recém-chegado:
-— Por favor, enalteça o seu mestre. Conto com você.
-
-Certa vez, devido a um equívoco na condução da difusão, um chefe de difusão foi apresentar suas desculpas ao Mestre.
-
-Embora o erro não fosse de sua responsabilidade direta, um erro não deixa de ser um erro. Aquele chefe de difusão estava preparado para as mais drásticas consequências.
-
-Após ouvir o relato detalhado, o Mestre emitiu um profundo "Hmmmm".
-
-Permaneceu em silêncio por cerca de cinco minutos.
-
-O chefe de difusão, imaginando qual seria seu destino, encolheu a cabeça como uma tartaruga, aguardando a sentença.
-
-Então, o Mestre disse serenamente:
-— Está bem. Esse erro não é seu.
-
-Nos dias de audiência com o Grande Mestre, os chefes de difusão se reuniam para apresentar diversas questões sobre a fé.
-
-Por essa razão, na véspera, todos eles se encontravam para discutir suas respectivas dúvidas e, ao final, relatavam o resultado ao Mestre.
-
-Nessas ocasiões, o Mestre sempre acrescentava uma ou duas perguntas de sua autoria à lista dos chefes de difusão.
-
-Eram assuntos que ele próprio dominava perfeitamente, mas sua intenção era educar os chefes de difusão de maneira mais sólida e definitiva, fazendo com que ouvissem a explanação diretamente da boca do Grande Mestre.
-
-Oito meses antes de seu falecimento, o Mestre admoestou os chefes de difusão com as seguintes palavras:
-
-— Embora tenhamos uma história de quase vinte anos, devido à perseguição religiosa, concentramos nossos esforços na prática da cura. Por isso, ainda não completamos sequer dois anos desde que iniciamos nossas atividades como uma organização religiosa propriamente dita. Portanto, como religiosos, somos como recém-nascidos. Contudo, foi por meio da canalização do poder de Kannon (観音) que alcançamos este desenvolvimento extraordinário. Somos reverenciados por um grande número de fiéis, mas seria um grave equívoco pensar que isso se deve à nossa própria força. A verdade é que apenas ingressamos neste caminho um passo antes dos membros em geral e, por isso, conhecemos o trajeto com um pouco mais de detalhe. Somos, por assim dizer, meros guias. E o simples fato de conhecer o caminho não nos torna superiores. Jamais devemos esquecer que ainda estamos em pleno aprimoramento.
-
-### Trinta e um
-
-A Economia da Generosidade e da Parcimônia —
-
-O Mestre costumava dizer:
-— Para as coisas de Deus, gaste com generosidade. Para si mesmo, contudo, seja parcimonioso.
-
-O Mestre seguiu essa "economia Nakajima" por toda a sua vida.
-— Todo donativo recebido dos membros pertence a Deus. Portanto, deve ser utilizado exclusivamente para a Obra Divina.
-
-Com essa convicção, ele sempre afirmava:
-— Não se deve usar esse dinheiro para fins pessoais. Mesmo que seus pais peçam, não há necessidade de lhes dar um dinheiro que tem tal destinação.
-
-Não seja arrogante.
-Não se ire.
-Não se precipite —
-
-O Mestre também repetia com frequência:
-— Não se pode ser arrogante. Quanto mais arrogante você for, mais as pessoas se afastarão. Quanto mais se irar, mais Deus se distanciará. E quanto mais se precipitar, mais perderá a noção de seu próprio eu.
-
-Os discípulos chamavam a isso de "Os Três Preceitos do 'Não'" do Mestre.
-
-Deus não descansa —
-
-O Mestre também costumava dizer isso.
-Certa vez, vendo-o trabalhar de forma tão intensa, um de seus discípulos sugeriu:
-— Por que não descansa um pouco?
-
-Ao que o Mestre respondeu:
-— Para Deus, não existe descanso.
-E continuou a trabalhar.
-
-O ser humano está em aprimoramento até a morte —
-
-O Mestre também dizia frequentemente:
-— O Grande Mestre me ensinou que o ser humano possui uma vida eterna, renascendo e morrendo continuamente. Quando compreendemos verdadeiramente isso, tudo se transforma. O aprimoramento de hoje se incorpora ao nosso ser e, ao chegarmos ao Mundo Espiritual, teremos evoluído na mesma medida. E mais, levaremos essa virtude para o mundo seguinte, onde continuaremos nosso aprimoramento. Assim, ao alcançarmos o próximo plano, nosso eu terá se expandido ainda mais. Eu, às vezes, ponho-me a pensar em como serei daqui a dez mil anos... e é algo que me enche de alegria.
-
-Você me entregaria sua vida? —
-
-O Mestre costumava dizer isso àqueles que desejavam ingressar na fé.
-
-Ele não aceitava como discípulo quem se apegava à própria vida. Como poderia alguém que ama mais a si mesmo do que a Deus ser capaz de salvar a humanidade?
-— Espírito ou matéria? — O Mestre os inquiria severamente. E não admitia como membro quem respondesse "matéria".
-
-Ele afirmava:
-— Entregue-me os seus cinquenta ou sessenta anos de vida, e eu lhe darei a vida eterna.
-
-— De quem são estas notas? São de Deus. Mantenha-as perfeitamente alinhadas. — assim dizia o Mestre.
-
-Anos mais tarde, uma jovem que cuidava da cozinha da casa do Mestre, ao perceber uma diferença de cinquenta sen no balanço das contas, tirou uma moeda de seu próprio bolso para cobrir o valor.
-
-Quando o Mestre soube do ocorrido e a moça explicou: "Fui eu que completei o que faltava", ele se enfureceu.
-— Você fala do 'seu dinheiro', 'seu dinheiro', mas até o seu dinheiro pertence a Deus. O problema é a sua mentalidade de achar que, por ter sido descuidada e as contas não terem batido, basta tirar do próprio bolso para resolver a questão. Você pensa que o assunto se encerra ao acertar o balanço. Essa mentalidade está errada!
-
-De fato, o Mestre era meticuloso.
-
-Contudo, ele não era nem um pouco hábil com as finanças. Na verdade, seria mais correto dizer que era péssimo. Mas, embora fosse desajeitado, não era do tipo que tolerava o desleixo alheio.
-
-Por isso, outra moça que trabalhou posteriormente na cozinha do Mestre, por diversas vezes, sentiu vontade de chorar por não conseguir fazer o dinheiro render o suficiente. Ela recorda aquela época:
-— Eu não podia tirar do meu próprio bolso, mas se dissesse ao Mestre que o dinheiro não era suficiente, levaria uma bronca sobre como eu estava tratando o dinheiro de Deus. Cheguei a pensar seriamente em fazer algum trabalho extra, como colar sacos de papel jornal, para juntar um pouco mais.
-
-O desleixo era absolutamente inaceitável.
-Era preciso estabelecer regras claras.
-Essa era a atitude do Mestre em relação ao dinheiro.
-
-Assim, embora ele próprio fosse indiferente às questões de vestuário e alimentação e nem procurasse saber quanto dinheiro entrava ou saía, não suportava ver a displicência dos outros em relação às finanças.
-
-Especialmente depois de se tornar um religioso, partindo do princípio de que o dinheiro pertencia a Deus, ele não permitia que um único centavo fosse tratado de forma negligente.
-
-Em uma reunião de ministros, o Mestre declarou:
-— Aquele que prega os ensinamentos deve manter o coração sempre puro. No entanto, quando a mente está ocupada com o balanço financeiro e as preocupações do dia a dia, o coração, sem que se perceba, vai se turvando. Como, por outro lado, não posso negligenciar tais assuntos, formei uma esposa de confiança e um assistente de contabilidade dedicado e competente, a quem confio integralmente essa responsabilidade.
-
-O Mestre manteve essa convicção até o fim.
-
-— Até na forma de acrescentar carvão ao fogo.
-Todas as coisas nos são concedidas por Deus. O erro reside em pensar que são nossas, que as obtivemos por nossa própria força. É preciso conhecer o verdadeiro valor das coisas e evitar o desperdício. Acrescentar a mesma quantidade de carvão em um dia frio e em um dia quente é tolice.
-É preciso estar atento a esses pequenos detalhes. Quem consegue fazer isso pode dizer que alcançou a verdadeira fé.
-
-— Sobre a questão da ordem.
-Certa vez, o Mestre repreendeu severamente seus discípulos:
-— Há pessoas que, ao se deitarem à noite, deixam as roupas que usaram ao lado do travesseiro. Calças e meias são peças que se vestem na parte de baixo do corpo. Quem as coloca junto à cabeça jamais se tornará uma pessoa de valor.
-
-Em outra ocasião, durante uma viagem, o Mestre quis lavar o rosto e encontrou a bacia ao lado do vaso sanitário (ainda que fosse um banheiro de estilo ocidental e, portanto, bastante limpo).
-
-O Mestre chamou o assistente de propósito e o advertiu com extrema severidade:
-— Quem você pensa que eu sou? Desde que entrei para a fé, há décadas venho me esforçando incessantemente para purificar minha alma, por menor que seja a impureza. E você quer que eu lave o rosto nesta bacia? Minha alma se turvaria. Troque-a imediatamente.
-
-### Trinta e dois
-
-Em uma época em que a organização ainda não havia se consolidado como religião, o Mestre mandou imprimir a oração Zengen Sanji e distribuiu uma cópia a cada um de seus discípulos.
-
-A guerra havia terminado há poucos anos. Uma grande apreensão pairava no coração das pessoas. A filosofia do desespero se infiltrava em suas mentes com ares de soberana. O número de pessoas que buscavam a morte aumentou.
-
-Nishikigaura, na estância turística de Atami, tornou-se, sem que se percebesse, um local famoso por suicídios. Muitos jovens, adultos e até idosos se lançavam diariamente dos penhascos em sua jornada para o país dos mortos. Homens e mulheres tiravam a própria vida.
-
-É impossível mensurar o quanto o Mestre lamentava essa situação. Havia momentos em que, ao ler a pequena nota no rodapé do jornal "Suicídio por queda em Nishikigaura", ele ficava imerso em pensamentos. Havia também momentos em que seus olhos se enchiam de lágrimas.
-
-O Mestre era, por natureza, uma pessoa de coração sensível. Era comum que se emocionasse a ponto de chorar ao ver um filme. Para ele, o fato de um ser humano tirar a própria vida, ou ter sido levado a isso, era algo insuportável.
-
-Ademais, os espíritos dessas pessoas vagavam na fronteira entre este e o outro mundo, sem conseguir seguir seu destino. E Nishikigaura estava a um tiro de pedra de Izusan Nishiasakawa, onde o Mestre residia. Sobre aquelas águas escuras, os espíritos dos mortos soluçavam.
-
-O Mestre sentiu que era seu dever realizar um serviço fúnebre por eles.
-
-Certo dia, acompanhado de alguns discípulos, ele embarcou em um pequeno barco. Mesmo quando as ondas brancas pareciam morder as rochas ao pé do penhasco, ao se afastar da costa, o mar de Atami era sereno. A ilha de Hatsushima flutuava sobre aquelas águas tranquilas, como se dormisse.
-
-Iniciou-se a cerimônia fúnebre do Mestre e de seus discípulos, e chegou o momento de entoar a oração Zengen Sanji.
-
-Com as mãos em prece, o Mestre começou a recitar em voz alta e clara.
-
-Os discípulos, no entanto, apenas moviam os lábios. Dentre eles, apenas um a sabia de cor; os demais ainda não a haviam memorizado. Sem outra opção, limitavam-se a abrir e fechar a boca.
-
-Mais tarde, com um brado estentóreo, o Mestre repreendeu seus discípulos:
-— Não foi por capricho ou leviandade que lhes entreguei a oração Zengen Sanji! Eu me dei ao trabalho de imprimi-la e lhes entregar, e vocês não a memorizaram. Afinal, o que pensam que é a Zengen Sanji?
-
-Os discípulos baixaram a cabeça de uma só vez, prostrando-se no fundo do barco.
-
-Um fiel que foi ao encontro do Mestre cerca de vinte dias antes de seu falecimento relatou:
-— Ao visitá-lo, o Mestre desceu do segundo andar e, parado na entrada, me disse: "Você nunca chega ao ponto em que eu o repreendo de verdade, não é?". Quando perguntei por que, ele respondeu, sem um pingo de sorriso: "Porque, quando é repreendido, você sempre foge". Isso aconteceu no meu quarto ano de fé.
-
-— A repreensão é Luz.
-
-O Mestre dizia isso com frequência.
-"Eu repreendo porque acredito que será útil. Se achasse que não adiantaria, não repreenderia."
-Essa era a sua verdadeira intenção.
-
-Inúmeros discípulos e membros foram repreendidos pelo Mestre. Alguns, alvos de sua fúria, tremeram como se um raio lhes tivesse caído sobre a cabeça. Outros, repreendidos com suavidade, sentiram um temor ainda maior.
-
-Contudo, depois, as pessoas repreendidas diziam:
-— Realmente, era diferente. Havia um peso em sua forma de repreender.
-
-Certa pessoa cometeu um erro.
-
-O Mestre, extremamente irritado, disse:
-— Com uma atitude dessas, como pretende servir como ministro? Devolva sua licença.
-
-Mas, logo em seguida, sorriu e acrescentou:
-— Bem, vou tolerar apenas desta vez.
-
-Era repreendido.
-Dava uma desculpa.
-Era repreendido novamente.
-Dava outra desculpa.
-Era repreendido mais uma vez.
-Então, calava-se.
-
-Nesse momento, o Mestre dizia, com serenidade:
-— Compreendeu agora?
-
-Havia um jovem que acabara de se tornar ministro.
-
-Nos dias em que saía para a difusão e não obtinha resultados, ele vivia apreensivo, pensando que seria repreendido pelo Mestre. Ao ver seus superiores serem advertidos pela falta de sinceridade e esforço, ele se encolhia, certo de que também seria alvo de uma bronca.
-
-No entanto, o Mestre não o repreendeu.
-
-O jovem compreendeu o que se passava na mente do Mestre: (Você é um ministro recém-formado, ainda está verde).
-
-E, por isso mesmo, sentiu-se envergonhado.
-— Naquele momento, desejei ardentemente me tornar alguém digno de ser repreendido individualmente pelo Mestre — recordou ele mais tarde.
-
-O Mestre só repreendia quem valia a pena.
-
-— Alguém que, mesmo chutado ou humilhado, não foge. — O Mestre costumava dizer isso em seu dia a dia, e só repreendia quem se encaixava nesse perfil. Em outras palavras, ele repreendia porque confiava na pessoa.
-
-— Quando víamos outra pessoa sendo repreendida e ficávamos com uma expressão de quem não tinha nada a ver com o assunto, era comum ouvirmos: "Estou falando de você!". — relatou um discípulo.
-
-Há também um discípulo que diz ter sentido algo semelhante ao orgulho após ser repreendido.
-
-— Depois de levar uma bronca do Mestre, quando contava o ocorrido aos meus colegas, todos ouviam com um semblante alegre. Embora eu tivesse sido repreendido, havia em meu peito um sentimento de orgulho, como se dissesse: "Eu fui repreendido pelo Mestre! E o Mestre não repreende quem não vale a pena!". Por isso, a conversa nunca se tornava melancólica. De qualquer forma, o Mestre era uma pessoa verdadeiramente extraordinária. — disse essa pessoa.
-
-### Trinta e três
-
-Uma jovem que chegou pela primeira vez para servir na Sede pensava que logo lhe permitiriam auxiliar na aplicação de Johrei. Para sua surpresa, foi levada a uma cozinha mal iluminada, onde lhe disseram: "Seu local de aprimoramento é aqui".
-
-A moça sentiu-se intimidada pelo olhar penetrante do Mestre e murmurou para si mesma:
-(Ah, então é aqui que vou me aprimorar...)
-
-Contudo, três meses depois, quando ele lhe disse com ternura: "Você já se acostumou bastante, não é?", a jovem, mais do que feliz, ficou surpresa ao ver os grandes olhos do Mestre marejados.
-
-A penumbra da cozinha já não lhe parecia tão escura.
-
-Isso não aconteceu apenas com ela. Com todos os servidores que se colocavam sob sua tutela, ele os fazia passar por um rigoroso treinamento em tarefas humildes.
-
-Limpeza, lavagem de roupa, incumbências...
-
-Forçadas a realizar trabalhos aos quais não estavam acostumadas, as moças cometiam erros constantes e eram advertidas diariamente.
-
-— Quem age como "princesa" ou "principezinho" não pode realizar a Obra Divina. — Ele frequentemente as instruía, citando essa passagem dos escritos sagrados da Oomoto.
-
-A disciplina era rigorosa. Não havia condescendência.
-
-Contudo, após alguns meses de treinamento, quando considerava que o desempenho era satisfatório, o Mestre sempre as elogiava com carinho:
-— Você foi muito perseverante. Cheguei a pensar até quando você aguentaria. Nós nunca sabemos o que o destino nos reserva, por isso é preciso estar preparado para fazer qualquer coisa, em qualquer situação. Senti pena de você, mas a mantive nas tarefas mais humildes até agora. Quem passa por essas tarefas, quando chega a uma posição de liderança, consegue compreender o esforço dos outros. Há uma enorme diferença entre poder fazer algo, mas não precisar e receber o serviço de outros com gratidão, e, por outro lado, querer fazer, mas não conseguir e, por isso, mandar que outros façam. É preciso compreender isso. Mas você, realmente, se saiu muito bem. Muito obrigado.
-
-Ele também dizia:
-— Se o ser humano mantiver a disposição mental para enfrentar sempre o pior cenário possível, não se abalará, não importa o que aconteça ou em que circunstância se encontre. A vida nem sempre é favorável, por isso essa preparação é crucial. Afinal, não nascemos nus? Se pensarmos na vida que nos foi salva, nada do que fizermos pela Obra Divina será suficiente. Não existe um ponto em que possamos dizer: "Já fiz o bastante".
-
-O Mestre era incapaz de fazer elogios vazios. Não era que pudesse, mas não o fizesse; ele simplesmente não conseguia. Era uma característica de sua personalidade.
-
-Por isso, as moças, a princípio, inevitavelmente o temiam. Viviam apreensivas.
-
-Havia até aquelas que, pensando ser melhor não provocar, o observavam de longe, discretamente.
-
-Certa pessoa disse:
-— Eu tinha pavor do Mestre e o detestava.
-
-Seu olhar era penetrante.
-Um olhar forte e brilhante, que era impossível encarar de frente quando se estava com o coração hesitante.
-
-Contudo, o Mestre era, na verdade, uma pessoa gentil.
-
-Às vezes, ele entrava silenciosamente na cozinha. E ficava ali, parado, em silêncio.
-As pessoas que trabalhavam ali não percebiam sua presença.
-
-O Mestre observava atentamente o que faziam.
-
-Certa vez, uma jovem, com o rosto corado de esforço, tentava erguer uma grande peneira de bambu cheia de arroz glutinoso.
-
-O Mestre, que observava a cena por trás dela, medindo o esforço da moça, gritou para dar força:
-— Força!
-
-A peneira foi erguida.
-
-A jovem, ao ver o Mestre parado atrás de si, sentiu uma alegria tão intensa que lhe deu vontade de chorar.
-— É nesses momentos que se revela a gentileza do Mestre. — disse essa pessoa, mais tarde.
-
-### Trinta e quatro
-
-Quando o assunto era a difusão da fé, o Mestre se entregava de corpo e alma.
-
-Sempre mantinha um mapa do Japão ao seu alcance e estudava incansavelmente as regiões para onde expandiria a Obra.
-
-Ele empregava os jovens de acordo com seus talentos e aptidões. Nível de instrução, histórico pessoal, inteligência... nada disso importava. Bastava que ele identificasse alguém como uma pessoa séria para lhe confiar responsabilidades, promovendo-a sem hesitação.
-
-Houve uma vez em que um chefe de difusão, por vaidade e interesse próprio, instigou os jovens membros, causando certos problemas.
-
-Seu assistente, não podendo mais tolerar a situação, aconselhou-o com prudência.
-
-O chefe de difusão, contudo, reagiu falando mal do assistente para os jovens membros.
-
-Finalmente, o assistente foi à Sede Central e relatou o ocorrido ao Mestre.
-
-O Mestre disse:
-— Não se preocupe, deixe-o fazer o que quiser. Mas, como deve ser difícil para você trabalhar nesse ambiente, venha para cá, fique comigo.
-
-Houve ocasiões em que as palavras e ações do Mestre pareceram criar um abismo entre dois de seus discípulos.
-
-Contudo, isso partia de um plano muito mais profundo. Para unir verdadeiramente duas pessoas cuja ligação ainda não era sólida, era preciso, primeiro, separá-las drasticamente. Assim pensava o Mestre.
-
-Pouco tempo depois, aqueles discípulos se uniram de forma inabalável. E a força da Igreja também cresceu.
-
-— Na época, pensando que as atitudes do Mestre eram estranhas, investiguei a situação por conta própria, mas não encontrei o menor traço de animosidade no fundo de suas ações. — disse essa pessoa, anos depois.
-
-Para unir, primeiro separar. Romper para expandir, romper para continuar expandindo — o Mestre também utilizava esse método.
-
-Nos dias de visita ao Templo da Mirokukai, o Mestre às vezes se sentava no fundo da sala, atrás da multidão de fiéis, e ouvia atentamente suas perguntas. A Mirokukai era presidida pelo Mestre Shibui, e não cabia a ele intervir, mas ele desejava ouvir as conversas para aprender com as experiências alheias e sentir a atmosfera do local. Tal era o seu fervor.
-
-— Um homem alto, de quimono, chegava discretamente e se sentava atrás dos membros. E ficava ouvindo as perguntas de todos. Depois de um tempo, ele desaparecia. Aquele homem era o Mestre. — contou uma pessoa que era membro da Mirokukai na época.
-
-As reuniões sobre a difusão frequentemente varavam a noite. Quando os discípulos pensavam que ele finalmente encerraria a conversa, o Mestre continuava a falar indefinidamente. Eram os discípulos que acabavam exaustos.
-
-— Na difusão, só existe o presente. Só existe o agora. Não se pode atrasar. Na difusão, não existe amanhã.
-
-Assim pensava o Mestre.
-
-Certa vez, durante uma celebração, cerca de vinte pessoas estavam sentadas na sala. As refeições já haviam sido servidas.
-
-Naquele momento, um jovem discípulo entrou apressadamente.
-— Desculpem-me pelo atraso... — disse o jovem, coçando a cabeça.
-
-Então, o Mestre disse, com suavidade:
-— Depois que o trem parte, ninguém mais pode embarcar.
-
-O Mestre detestava atrasos. "Atrasar-se é o mesmo que mentir", costumava dizer.
-
-E, para a missão crucial da difusão, ele afirmava que não havia outro dia senão o presente. "Não se atrasem", era o que dizia constantemente.
-
-### Trinta e cinco
-
-O Mestre gostava de caminhar.
-
-Ele frequentemente saía para passear, também com a intenção de encontrar lugares agradáveis para levar seus discípulos mais tarde. Repetia inúmeras vezes os caminhos que lhe agradavam e visitava diversas vezes seus locais favoritos.
-
-Após as peregrinações a Hakone, às vezes ele voltava a pé pelo vale de Kiga, em vez de usar um meio de transporte. Nessas ocasiões, não ia sozinho, mas acompanhado de seus assistentes.
-
-O Mestre vivia com os nervos constantemente à flor da pele. Havia momentos em que ele parecia a corda de um instrumento musical tão esticada que se romperia ao menor toque, uma visão que causava certa aflição.
-
-"O único lugar onde consigo relaxar de verdade é dentro de um trem", costumava dizer.
-
-Contudo, não era apenas no trem. Em meio à natureza, o Mestre também conseguia aliviar a tensão, o que lhe trazia grande alegria, e ele parecia verdadeiramente à vontade.
-
-Ele tinha um apreço especial por flores. Observava atentamente todas as que encontrava pelo caminho, fossem de árvores ou de plantas rasteiras. Jamais passava por elas com indiferença. Mesmo as flores mais comuns eram vistas com o olhar de um poeta.
-
-— Foi graças às explicações do Mestre que pude redescobrir a beleza das cerejeiras de Atami. Até então, eu pensava que todas as cerejeiras eram iguais. — relatou um discípulo.
-
-— As flores são um dos símbolos do Paraíso. Imaginem como seria belo e harmonioso se todos os cômodos de uma casa, até mesmo o lavabo, fossem adornados com flores. Nenhum lar se torna um paraíso da noite para o dia, mas com essa mentalidade é possível se aproximar gradualmente do Paraíso no Lar. Como forma de universalizar a beleza, é necessária a popularização das flores, algo simples, que não exige muito tempo nem dinheiro. Existe também o aspecto de política nacional, que é a exportação de flores de alta qualidade, aproveitando o clima e as características do povo japonês. Mas nós, primeiramente, desde que não prejudique a produção de alimentos, vamos transformar cada centímetro de terra em um canteiro de flores e adornar nossos lares com flores acessíveis e de baixo custo.
-
-Três anos após o fim da guerra, numa época em que os corações ainda estavam inquietos, o Mestre frequentemente compartilhava essas palavras com os fiéis.
-
-No outono de 1945, o Mestre, acompanhando o Grande Mestre, foi com um grupo de vinte e sete pessoas ao planalto de Jukkoku Toge.
-
-O Grande Mestre vestia uma calça de trabalho feminina com a barra amarrada na cintura. Os demais também usavam trajes improvisados. Ainda assim, na ida, foram de ônibus.
-
-Na volta, todos desceram a pé até Atami. Foi nessa ocasião que o Grande Mestre disse: "Sim, este lugar é bom", e decidiu comprar o terreno onde hoje se localiza o Templo Zuiunkyo.
-
-Não apenas nessa oportunidade, mas sempre que o tempo permitia, o Mestre acompanhava o Grande Mestre em suas buscas por terrenos.
-
-E mesmo sem um objetivo específico, como gostava de andar, aproveitava qualquer tempo livre para caminhar.
-
-### Trinta e seis
-
-O Mestre não era uma pessoa de fácil aproximação.
-
-Diante de desconhecidos, às vezes fazia uma expressão que parecia perguntar: "Afinal, quem é você?".
-
-Além disso, ele não tinha muito jeito para lidar com as pessoas. Mesmo com alguém que mal conhecia, iniciava uma discussão logo de cara. O interlocutor, naturalmente, não se sentia à vontade.
-
-Certa vez, um homem que encontrou o Mestre pela primeira vez debateu com ele. Em situações como essa, uma pessoa com o título de "mestre" geralmente lida com a situação de forma diplomática, dispensando o indivíduo com um amável "Então, volte outra hora". Mas o Mestre era incapaz de tal artimanha. Ele se chocou de frente com aquele homem, um tal de senhor M., que acabara de conhecer.
-
-O senhor M. também não era do tipo que recuava. A discussão foi se acalorando até que o tom do Mestre se tornou beligerante. O senhor M. não ficou para trás e disse tudo o que pensava. Já não se sabia se era um debate ou uma briga.
-
-(Ele trata um homem de quarenta anos como se fosse um bebê!), pensou o senhor M., que foi embora furioso, decidido a nunca mais voltar.
-
-No dia seguinte, porém, por algum motivo, sentiu vontade de vê-lo novamente, uma espécie de saudade, e foi visitá-lo.
-
-— Você não sabe de nada, não é?
-
-Dizendo isso, o Mestre discorreu por duas longas horas sobre Deus para o senhor M. Seu rosto transbordava de paixão. Sua atitude era de uma serenidade e imparcialidade que pareciam ter apagado completamente o ocorrido do dia anterior.
-
-Com isso, o senhor M. passou a gostar imensamente do Mestre. Esse sentimento logo se transformou em respeito e admiração, e ele se tornou um membro. Mais tarde, viria a ser chefe de difusão.
-
-O Mestre era honesto. Seria mais correto dizer, honesto até demais.
-
-Certa vez, um homem foi levado pelo Mestre à presença do Grande Mestre. Ele havia começado a praticar Johrei há pouco tempo.
-
-Antes do encontro, o Mestre lhe dissera: "Hoje, peça ao Grande Mestre tudo o que desejar".
-
-Seguindo a recomendação, o homem relatou apenas os casos em que o Johrei não havia surtido efeito e perguntou: "Será que há algo de errado comigo?".
-
-O Grande Mestre dissertou longamente sobre o assunto. Ao seu lado, o Mestre fazia uma careta, pensando: (Mas o que é isso? Relatando apenas os fracassos...).
-
-Mais tarde, o Mestre disse àquele homem:
-— Por que você relatou apenas aquelas coisas?
-— Mas o Mestre me disse que eu poderia pedir o que quisesse, sem cerimônia, e foi o que eu fiz.
-— Você acha que basta dizer tudo com honestidade? Hoje você não vai para casa. Venha à minha casa. Tenho algo a lhe ensinar.
-
-Dizendo isso, o Mestre o levou para sua residência e passou a noite inteira a instruí-lo.
-— Basta ser grato pelos casos de cura. Deus vê tudo. Não há necessidade de se queixar longamente. Basta agradecer pelo que foi curado.
-
-O Mestre tinha esse lado honesto. Uma honestidade que seria mais adequado chamar de ingênua. Talvez até infantil. Embora dissesse aos outros: "Você acha que basta ser sempre honesto?", era ele próprio quem, por ser sempre honesto, ganhava, mas também perdia.
-
-Seu comportamento brusco com desconhecidos não era uma postura consciente para se mostrar imponente. Era simplesmente o resultado natural de sua falta de interesse.
-
-Um jovem assistente, após ser repreendido pelo Mestre, comentou com um colega: "Fiquei feliz por ter sido repreendido pelo Mestre".
-
-Ao ouvir isso, o Mestre disse, com sinceridade:
-— O boi sente prazer ao ser açoitado. Mas isso é diferente de felicidade. Dizer que ficou feliz por ser repreendido é estranho. Não é um sentimento genuíno. Se dissesse que se sentiu aliviado depois, eu entenderia, mas feliz... tenho minhas dúvidas.
-
-Poucas pessoas repreenderam os outros de forma tão implacável, quase sem consideração, como o Mestre. No entanto, ele conhecia perfeitamente a psicologia de quem era repreendido.
-
-E, sabendo disso, repreendia sem piedade. Às vezes, de forma tão intensa que os olhos do interlocutor pareciam saltar das órbitas.
-
-Contudo, cerca de um ano antes de seu falecimento, ele passou a repreender com menos frequência.
-— Foi mais ou menos um ano antes de sua ascensão que ele parou de repreender até mesmo quem dormia durante as palestras. — recorda um discípulo.
-
-De qualquer forma, era um Mestre honesto.
-Uma pessoa incapaz de mentir para os outros e para si mesma.
-
-### Trinta e sete
-
-O Mestre repreendia muitas pessoas, mas ele próprio também era frequentemente repreendido pelo Grande Mestre.
-
-Certa vez, o Mestre e outros ministros estavam reunidos no Templo Tozan-so. Discutiam um assunto importante, sob a liderança do Grande Mestre.
-
-Naquele momento, chegou a notícia de um incêndio perto da casa do Mestre.
-— Nakajima, volte para casa imediatamente! — disse o Grande Mestre.
-
-Diz-se que os maiores medos são terremotos, raios, incêndios e algo mais. O Mestre nutria um pavor acima do normal por esses desastres naturais e humanos. Ele sempre insistia para que instalassem para-raios.
-
-Por isso, ao saber do incêndio na vizinhança, ele voltou correndo.
-
-Felizmente, o fogo foi logo extinto, e sua casa não sofreu dano algum.
-
-Respirando aliviado, o Mestre repreendeu a pessoa que cuidava da casa:
-— Fiquei sabendo do incêndio por outra pessoa antes de voltar! Você estava responsável pela casa, por que não me telefonou? Como pode agir assim?
-
-O tom do Mestre era ríspido.
-
-Acontece que o próprio Mestre se esqueceu de comunicar imediatamente ao Grande Mestre que sua casa estava a salvo. O feitiço virou contra o feiticeiro.
-
-Desta vez, foi o Mestre quem levou uma bronca do Grande Mestre.
-— Eu estava muito preocupado! Ainda bem que a casa não queimou, mas por que você não me avisou imediatamente?
-
-Como resultado, por um bom tempo, os discípulos ouviram o Mestre dizer:
-— A culpa é de vocês, que são lentos. No fundo, os lentos aqui são vocês!
-
-Contudo, o Mestre era uma pessoa capaz de se desculpar com sinceridade.
-
-Certa vez, após ser repreendido pelo Grande Mestre por algum motivo, ele se desculpou humildemente e, ao retornar, pediu perdão novamente a seus discípulos.
-— O erro foi meu.
-
-Um jovem estava hospedado na casa do Mestre, recebendo seus ensinamentos.
-
-Na véspera de sua partida, o Mestre o chamou e disse:
-— Parece que algo o está incomodando. Por que não me diz diretamente?
-— É por esta e esta razão. Por isso fiquei em silêncio.
-— Entendo. Nesse caso, o erro foi meu. — desculpou-se o Mestre, com sinceridade.
-
-Continua no capítulo trinta e oito.
-
----
-
-# Agricultura Natural (Edição Inaugural)
-
-**Categoria:** kanren | **Ano:** 昭和29年11月 | **Fonte:** -
-
-## Agricultura Natural (Edição Inaugural)
-
-Órgão oficial de divulgação mensal da Associação para a Divulgação da Agricultura Natural. A edição inaugural foi publicada em 1º de novembro de 1954, em formato A5 com 144 páginas, ao preço de 80 ienes. A editoria e a publicação estiveram a cargo do senhor Yodo Fujii, através da Editora Agricultura Natural.
 
 ---
 

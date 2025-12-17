@@ -1,8 +1,599 @@
 # Mioshie_Teachings - Part 44
 
+# O Segredo da Boa Sorte
+
+**Categoria:** ko | **Ano:** 昭和29(1954)年2月3日 | **Fonte:** Eikou
+**Título Original:** 幸運の秘訣 | **Status:** Published
+
+## O Segredo da Boa Sorte
+
+Embora eu já tenha abordado este tema em outras ocasiões, a observação do crescente número de pessoas infelizes no mundo de hoje impele-me a discorrer sobre ele de maneira mais aprofundada e definitiva. Desde tempos imemoriais, poucas questões se mostram tão aflitivas quanto a da sorte e do infortúnio. É uma inevitabilidade da condição humana que, desde o despertar da consciência até o último suspiro, essa inquietude nos acompanhe. Ocorre que, via de regra, aquilo que mais ansiamos compreender é justamente o mais elusivo. Poder desvendar, ainda que minimamente, seus fundamentos seria uma dádiva sem igual. Felizmente, porém, a mim foi concedida a graça de compreender com absoluta clareza a raiz de todo este mistério. E não se trata de mera teoria, pois a experiência prática confirmou-me, sem margem para erro, a veracidade do que aqui exponho com certeza inabalável.
+
+Como todos sabem, não há nada mais impalpável e incontrolável do que a sorte. Por ser algo que escapa completamente ao nosso domínio, não nos resta alternativa senão entregarmo-nos ao seu arbítrio. Alguém certa vez proferiu: “A vida é uma grande aposta”, e com razão. Consequentemente, mesmo os homens considerados mais proeminentes acabam por se resignar, embora jamais alcancem uma compreensão plena — e nisso reside o que poderíamos chamar de destino humano. É o anseio por conquistar a boa sorte que nos impulsiona à ação, levando-nos a esgotar uma sabedoria que não possuímos e a nos consumir na labuta incessante de querer e almejar, até que a vida chegue ao fim.
+
+Poucas coisas, todavia, são tão paradoxais quanto a sorte. Quanto mais nos esforçamos para agarrá-la, mais ela se afasta. Um provérbio ocidental diz que “a oportunidade da sorte é como uma mecha de cabelo na testa: se não a pegamos no instante em que passa, ela se vai para sempre”, o que corresponde perfeitamente à realidade. Minha longa experiência me faz sentir como se estivesse sendo perpetuamente ludibriado por essa entidade chamada sorte. Parece tão fácil de alcançar, mas nunca se concretiza. Quando ela paira diante dos olhos e estendemos a mão, ela escapa com agilidade. Quanto mais a perseguimos, mais velozmente foge; é, de fato, um elemento de difícil manejo. Contudo, eu logrei capturar de forma definitiva essa tal sorte.
+
+Explicar como o fiz, no entanto, apresenta uma dificuldade considerável, pois, para além dos que possuem fé, a maioria das pessoas dificilmente compreenderá. Isso ocorre porque, ao observar as coisas, elas se limitam à superfície, sem enxergar a essência — ou melhor, são incapazes de enxergá-la. No que tange à sorte, porém, a causa reside precisamente na essência; sem compreender este ponto, jamais será possível conquistá-la. A lógica é simples: quando o corpo se move, não é ele próprio que se move, mas sim a mente, que reside em seu interior, que o comanda. Com a boa sorte ocorre o mesmo: o que verdadeiramente importa é a essência.
+
+Ao expandirmos este raciocínio, chegamos à seguinte conclusão: a superfície corresponde ao Mundo Material, enquanto a essência corresponde ao Mundo Espiritual, uma dimensão invisível e sutil. Esta é a estrutura fundamental do grande universo, assim estabelecida pelo Criador. Portanto, da mesma forma que a mente move o corpo, o Mundo Espiritual move o Mundo Material. Em todas as coisas, o Mundo Espiritual é o principal, e o Mundo Material, o secundário. Sendo assim, a sorte não é exceção: para que a boa fortuna se manifeste, é preciso primeiro que a sorte do espírito, no Mundo Espiritual, se desvele. Naturalmente, essa condição se refletirá no corpo, e a pessoa se tornará afortunada.
+
+Aprofundemos, pois, a descrição do Mundo Espiritual. Ele é regido por um sistema hierárquico ainda mais rigoroso e justo que o do Mundo Material, composto por cento e oitenta degraus, divididos em três grandes escalões de sessenta níveis cada. O escalão superior é o Paraíso; o inferior, o Inferno; e o intermediário, chamado de Mundo Intermediário, corresponde ao nosso mundo físico.
+
+Sei que, para o homem de hoje, tais afirmações podem parecer difíceis de crer. Todavia, este conhecimento foi-me revelado em detalhes por Deus e, ademais, foi exaustivamente confirmado por longos anos de experiência prática na observação da relação entre os dois mundos. Afirmo, portanto, que não há o menor equívoco no que digo. A maior prova disso é o número incontável de pessoas que, ao acreditarem neste princípio e o colocarem em prática, conquistaram a boa sorte — e eu mesmo sou uma delas. Basta que me observem de forma objetiva para que percebam de imediato quão afortunada é a minha condição.
+
+Prossigamos com a explicação desses escalões. Se o corpo de uma pessoa está no Mundo Material, seu espírito deve estar localizado em algum ponto dentre os cento e oitenta degraus, onde possui uma espécie de registro. Esse registro, contudo, não é fixo; ele se move constantemente, para cima ou para baixo. Visto que o destino acompanha essa movimentação, é dever de todo ser humano esforçar-se para ascender aos níveis mais elevados. Os níveis inferiores, como é de se esperar, compõem o Inferno, um mundo de trevas e ignorância onde pululam doenças, miséria e conflitos, e onde vagueiam espíritos malignos e toda sorte de demônios. É um turbilhão de todos os sofrimentos imagináveis. Em contrapartida, quanto mais se ascende, mais a realidade se aprimora, até alcançar a paz e a luz da Terra Pura do Paraíso, um mundo ideal de saúde, prosperidade e paz. O escalão intermediário, por sua vez, representa uma condição mediana.
+
+Fica, assim, sobejamente claro que, se o registro do espírito no Mundo Espiritual se reflete no corpo e se manifesta como destino, a elevação da posição espiritual é o fundamento para se obter a boa sorte. A própria realidade nos oferece provas irrefutáveis disso. Vemos com frequência exemplos de pessoas que alcançam o sucesso, são invejadas pelos outros e, sentindo-se exultantes, creem que tal estado perdurará indefinidamente. Qual não é a sua surpresa quando, de um momento para outro, fracassam e retornam à estaca zero. Isso ocorre porque, ignorando este princípio, elas confiam unicamente no esforço humano e, para atingir seus fins, não hesitam em causar sofrimento e agir de modo arbitrário. Como resultado, embora alcancem o sucesso na aparência, seus espíritos precipitam-se no Inferno e, em obediência ao Princípio do Espírito como Principal e da Matéria como Secundária, seu destino segue o mesmo rumo.
+
+O espírito, assim como a matéria, possui peso. Um espírito pesado decai ao Inferno, enquanto um espírito leve ascende ao Paraíso. Desde a antiguidade se fala no “fardo do pecado”, e a expressão é literal. As más ações maculam o espírito e o tornam pesado; em contrapartida, as boas ações o purificam, tornando-o leve e permitindo-lhe subir. Portanto, o segredo da boa sorte consiste em abster-se do mal, não cometer pecados e praticar o bem tanto quanto possível, a fim de aliviar o peso do espírito. Sendo esta a verdade, afirmo categoricamente que não existe outro método. Alguém poderia dizer que, embora a lógica seja compreensível, colocá-la em prática é extremamente difícil. Existe, porém, um caminho para fazê-lo com facilidade: a fé. Por essa razão, aquele que deseja obter a boa sorte deve, antes de qualquer outra coisa, ingressar no caminho da fé.
+
+---
+
+# Um Milagre que Desafia a Razão
+
+**Categoria:** ko | **Ano:** 昭和26(1951)年8月8日 | **Fonte:** Eikou
+**Título Original:** 此奇蹟 | **Status:** Published
+
+## Um Milagre que Desafia a Razão
+
+Os milagres são tão recorrentes na vida dos fiéis de nossa Igreja que muitos, por força do hábito, já não se impressionam com a maioria deles. O relato que se segue, contudo, é de uma natureza que desafia qualquer explicação lógica. Seria interessante saber o que um ateu diria diante de tais fatos.
+
+*Revista Eikou, nº 116, 8 de agosto de 1951*
+*Igreja Kannari-Tyu, Ibaraki*
+*Por Masamori Tsuchiko (40 anos)*
+
+Meu pai, Heizo, aos sessenta e oito anos, padecia há uma década de um mal de estômago que o atormentava continuamente. No final do ano de 1950, por meio do Johrei ministrado pelo reverendo Isamu Tsuchiko, que instalara uma igreja em nossa localidade, ele foi completamente curado em apenas cinco dias, sem deixar vestígios da enfermidade. Após ouvirmos a explanação sobre a fé em Komyō Nyorai-sama, transbordando de gratidão, primeiro eu e depois meu pai ingressamos na Igreja. Desde então, vivíamos nossos dias em um ambiente luminoso, sob a constante e abençoada proteção Divina. É com profundo respeito que venho agora relatar um milagre extraordinário que nos foi concedido.
+
+No dia 22 de abril de 1951, por volta das 13 horas, eu transportava uma carroça de boi carregada de composto orgânico, sobre o qual meu segundo filho, Wahei, de cinco anos, ia sentado. Quando nos encontrávamos a aproximadamente duzentos metros de casa, ao passar por uma plantação de arroz, deparei-me com outra carroça parada à beira do caminho. No instante em que manobrei para desviar, ouvi o baque surdo da roda. Ao olhar para trás, vi meu filho caído de costas na estrada; a roda direita da carroça estava sobre seu peito ou abdômen – o choque foi tão grande que não consegui discernir com clareza.
+
+Um calafrio percorreu minha espinha. Dei-me conta da terrível tragédia que havia provocado. Em meio ao pânico e à perplexidade, tentei recuar a carroça, mas a outra, que eu acabara de contornar, bloqueava a passagem. Avançar significaria esmagá-lo por completo. Contudo, não havia tempo para hesitar. Num impulso, tomei a única decisão possível e puxei o boi para a frente. A roda passou inteiramente sobre o corpo do meu filho.
+
+Peço que imaginem a cena naquele momento. Creio que a angústia de um pai forçado a atropelar o próprio filho, diante de seus olhos, dispensa maiores explicações.
+
+Parei a carroça e, em desespero, corri em seu auxílio. Encontrei-o inerte, deitado no chão. Ao tomá-lo nos braços, preparei-me para o pior, certo de que a morte teria sido instantânea. Milagrosamente, porém, embora seu rosto estivesse pálido, ele respirava de forma ofegante, e seu coração batia com força. Chamei-o repetidamente: “Wahei! Wahei!”, e ele, com uma voz fraca, respondeu que sentia dor, levando a mão ao peito.
+
+Sua vida fora poupada. Consciente de que aquilo era unicamente graças a Deus, invoquei mentalmente o nome de Komyō Nyorai-sama e, enquanto o carregava com um braço, comecei a ministrar-lhe Johrei com a outra mão. Corri para casa, relatei o ocorrido à minha família e, sem demora, dirigi-me à igreja. Felizmente, o reverendo Isamu Tsuchiko estava presente. Ele imediatamente colocou a criança deitada diante do Altar Sagrado e, após suplicar a proteção de Dai-Komyō Nyorai-sama e de Meishu-Sama, o reverendo e sua esposa, entoando a Oração Amatsu-Norito e o Zengen-Sanji, ministraram Johrei por mais de uma hora.
+
+Gradualmente, seu semblante pálido recuperou a cor, e a respiração agitada tornou-se serena. A consciência retornou plenamente, e suas palavras se tornaram nítidas. Eu e minha família, que havíamos acorrido à igreja ao saber da notícia, observávamos tudo, com o coração na mão, orando fervorosamente pela proteção de Dai-Komyō Nyorai-sama e de Meishu-Sama. Quando a tranquilidade finalmente se estampou no rosto do menino, um alívio imenso tomou conta de todos. Naquele instante, compreendemos com uma intensidade avassaladora a grandiosidade do poder Divino e a virtude espiritual de Meishu-Sama. Fomos tomados pela emoção e, voltados na direção de Atami, onde reside o Altar de Meishu-Sama, expressamos nossa mais profunda e sincera gratidão.
+
+O reverendo sugeriu, então, que examinássemos o corpo da criança. Ao abrirmos suas vestes, não encontramos um único arranhão, nem sequer a marca da roda em seu peito ou abdômen. Apenas um leve esfolado no calcanhar direito, que provavelmente tocara na outra roda, sangrava discretamente. Não havia qualquer sinal de lesão nas costelas ou nos órgãos internos.
+
+Seria possível um fato como este? No entanto, a realidade se impunha, inegável. Ao pensar que, sem a proteção Divina, meu filho seria agora um corpo sem vida, fomos novamente dominados por uma emoção tão forte que as lágrimas de alegria e gratidão corriam profusamente por nossos rostos.
+
+Logo depois, Wahei disse que estava com sono. Perguntei ao reverendo se poderíamos levá-lo para casa, e ele nos assegurou que não haveria problema, recomendando apenas que o deixássemos descansar. Levei-o no colo, e ele adormeceu com uma respiração tranquila. Naquele dia, ministrei-lhe Johrei mais duas vezes em casa. Ele recuperou ainda mais o vigor e, à noite, comeu dois pães doces e meia tigela de arroz, passando a noite toda em um sono profundo e sem qualquer sinal de dor.
+
+No dia seguinte, 23 de abril, estava ainda melhor. Levei-o à igreja para agradecer diante do Altar e receber Johrei. Depois disso, eu mesmo lhe ministrei Johrei mais algumas vezes. No dia 24, o terceiro dia após o acidente, ele já corria e brincava descalço pelo quintal, como se nada tivesse acontecido.
+
+Posteriormente, no dia primeiro de maio, tivemos a permissão de entronizar em nosso lar a imagem de Byobu Kannon (屏風観音)様. Nosso ambiente tornou-se ainda mais luminoso e alegre, e não há uma noite em que não conversemos sobre os milagres e os Ensinamentos.
+
+Meishu-Sama, muito obrigado. Com o desejo de retribuir, ainda que minimamente, a grandiosa graça recebida, dedico-me a relatar este milagre a todos, empenhando minhas modestas forças em prol da Obra Divina.
+
+---
+
+# O Flagelo da Tuberculose e a Salvação da Juventude
+
+**Categoria:** ko | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 此救い 未発表 | **Status:** Unpublished
+
+## O Flagelo da Tuberculose e a Salvação da Juventude
+
+É do conhecimento de todos como são numerosos, em nossos dias, os jovens que, no alvorecer de suas vidas, são acometidos pela tuberculose, uma enfermidade fatal, e têm seu futuro promissor sepultado nas trevas. O que torna a situação ainda mais lamentável é que tal infortúnio acomete com frequência justamente os jovens de famílias afortunadas.
+
+O caso de um certo jovem [omitido] ilustra essa realidade. Felizmente, por pertencer a uma família de posses modestas, ele não recorreu aos tratamentos médicos convencionais e buscou a cura por meio da fé. Desse modo, foi poupado dos danos causados pelo yakudoku (薬毒). Ao receber Johrei, sua condição apresentou uma melhora imediata, culminando em sua recuperação completa, sendo perfeitamente compreensível o sentimento de felicidade e gratidão que o inundou.
+
+Portanto, se esta arte do Johrei viesse a ser amplamente difundida, o número de jovens aptos a contribuir para a produtividade da nação cresceria, e o consequente benefício para a economia do país seria incalculável.
+
+Ademais, para além da recuperação da saúde, eles alcançam a consciência da existência de Deus. Tornam-se, assim, indivíduos íntegros, que se dedicam a servir ao próximo e à sociedade. Porventura, existirá salvação maior do que esta?
+
+---
+
+# A Liberdade de Escolha do Enfermo
+
+**Categoria:** ko | **Ano:** 昭和25(1950)年12月27日 | **Fonte:** Eikou
+**Título Original:** 御注意 | **Status:** Published
+
+## A Liberdade de Escolha do Enfermo
+
+Recebemos de Meishu-Sama as seguintes palavras:
+
+Com certa frequência, chegam-me aos ouvidos relatos de que ministrantes proíbem os enfermos de consultar médicos, receber injeções ou ingerir medicamentos. Visto que tais orientações infringem a legislação vigente, elas jamais devem ser proferidas.
+
+A decisão pertence, em sua totalidade, ao próprio enfermo. Sua liberdade de escolha não deve, sob nenhuma hipótese, ser cerceada.
+
+---
+
+# A Dissertação sobre as Cinco Sabedorias
+
+**Categoria:** ko | **Ano:** 昭和24(1949)年8月20日 | **Fonte:** -
+**Título Original:** 五智を説く | **Status:** Published
+
+## A Dissertação sobre as Cinco Sabedorias
+
+Embora se fale em sabedoria, ela se manifesta de diversas formas. Proponho-me, agora, a classificá-las em cinco categorias principais, que denomino as Cinco Sabedorias: a Sabedoria Divina, a Sabedoria Sutil, a Sapiência, a Sagacidade e a Astúcia Maligna. Explicarei cada uma delas.
+
+A Sabedoria Divina representa o mais elevado grau de sabedoria, sendo inalcançável às pessoas comuns. É uma sabedoria outorgada por Deus a indivíduos especiais, aos quais foi confiada uma grandiosa missão. Um antigo ditado expressa essa verdade de forma sucinta: "O saber adquirido pelo estudo é sabedoria humana; o saber que se manifesta sem estudo é Sabedoria Divina".
+
+A Sabedoria Sutil, por sua vez, é exemplificada em expressões como o "Poder da Sabedoria Sutil de Kannon (観音)" e, em contraposição à Sabedoria Divina, poderia ser chamada de sabedoria búdica. Se a Sabedoria Divina possui uma natureza masculina, a Sabedoria Sutil pode ser considerada feminina, o que se reflete curiosamente no ideograma 妙 (myo), que contém o radical de "mulher".
+
+A Sapiência é a sabedoria manifestada por pessoas de grande discernimento. No budismo, termos como "a iluminação pela sabedoria" ou simplesmente "sabedoria" referem-se a ela. Contudo, na sociedade atual, é assombroso o número de pessoas incapazes de empregar sequer essa Sapiência. Isso ocorre, evidentemente, porque pensamentos impuros obscurecem-lhes a mente, tornando-as inaptas a julgar as coisas com retidão. Permitam-me ilustrar este ponto. Hoje em dia, quando políticos e mesmo os ditos intelectuais se reúnem para debater qualquer assunto, ainda que trivial, necessitam de horas de deliberação entre muitos para alcançar uma conclusão. Se a questão é um pouco mais complexa, dezenas de pessoas se juntam, travando debates acalorados por dias a fio, sem que consigam chegar a um veredito. É uma demonstração da ineficiência de seus raciocínios.
+
+Ora, é preciso refletir. Qualquer que seja o problema, a conclusão é sempre uma só; não pode haver múltiplas soluções. Todos sabem disso, e, no entanto, são necessários tantos cérebros e tantos dias para encontrá-la. Sempre consideramos tal situação verdadeiramente lastimável. A causa de tudo isso reside na falta de Sapiência. A falta de Sapiência, por sua vez, deve-se a uma mente obscurecida. A mente obscurecida é fruto de pensamentos impuros. Os pensamentos impuros nascem da adesão ao materialismo. A adesão ao materialismo origina-se da descrença na existência de Deus. E a descrença na existência de Deus advém da ausência de uma religião capaz de fazer as pessoas crerem. Nesse sentido, uma religião que consiga levar o ser humano a crer de fato na existência de Deus é, sem dúvida, uma religião viva e verdadeiramente útil. A própria necessidade de explicar isto de forma tão meticulosa já evidencia o quanto a Sapiência falta ao homem contemporâneo.
+
+Nessa perspectiva, uma pessoa dotada de Sapiência, ao se deparar com qualquer questão, é capaz de encontrar a conclusão em poucos minutos, ou no máximo em algumas dezenas de minutos. A esse respeito, costumo orientar meus subordinados a limitar as discussões para a busca de uma conclusão a cerca de trinta minutos. Se o debate se estender por mais de uma hora, a reunião deve ser suspensa, para ser retomada em outra data ou para que o assunto me seja trazido diretamente.
+
+Embora me seja penoso falar de mim mesmo, sou capaz de encontrar a solução para os mais intrincados problemas em questão de minutos. Ocasionalmente, há casos em que a conclusão não se revela de imediato. Nesses momentos, não a forço; simplesmente adio a decisão. Procedendo assim, invariavelmente, em pouco tempo, a solução me ocorre como uma inspiração.
+
+Em seguida, temos a Sagacidade. Como todos sabem, trata-se de uma sabedoria superficial, de aparências. Embora possa parecer eficaz a curto prazo, com o tempo, ela invariavelmente leva ao fracasso e à perda de credibilidade. Poderia ser descrita, em outras palavras, como uma sabedoria tola ou obtusa.
+
+Por fim, a Astúcia Maligna, como os próprios ideogramas sugerem, é a sabedoria perversa, a sabedoria empregada por pessoas de má índole, também conhecida como sabedoria do mal. Infelizmente, ela é bastante comum no mundo, inclusive entre as classes intelectuais e dirigentes, razão pela qual a sociedade não melhora. Portanto, somente quando essa astúcia maligna for erradicada do Japão é que uma sociedade radiante poderá surgir. Mas existirá um método para erradicar essa astúcia? Sim, e é simples: é preciso aniquilar a sua fonte. E o único meio para tal feito reside nas atividades de uma religião poderosa, capaz de fazer o ser humano crer na existência de Deus.
+
+---
+
+# A Verdadeira Natureza da Antitoxina
+
+**Categoria:** ko | **Ano:** 昭和11(1936)年5月11日 | **Fonte:** Kenko
+**Título Original:** 抗毒素とは何乎 | **Status:** Unpublished
+
+## A Verdadeira Natureza da Antitoxina
+
+Segundo a medicina ocidental, a origem das diversas enfermidades reside nos germes. Acredita-se que a invasão desses micro-organismos desencadeia a doença, e que a cura ocorre quando no sangue se desenvolve uma substância com ação bactericida, denominada antitoxina.
+
+Contudo, o que é, em sua essência, essa antitoxina? A medicina ainda não foi capaz de elucidar este ponto. Embora se possa supor que um novo elemento, a antitoxina, surja espontaneamente, a realidade é fundamentalmente distinta.
+
+Ademais, o conceito de imunidade, frequentemente evocado pela medicina em relação a múltiplas enfermidades, possui, em seu cerne, o mesmo significado da antitoxina.
+
+Se, como exposto anteriormente, não existe um elemento primordial como a antitoxina, qual seria, então, a razão para a cura? Para elucidar esta questão, comecemos por analisar a gênese da doença. Primeiramente, os germes invadem o sangue ou os tecidos e, com vigoroso ímpeto, iniciam sua proliferação. Após atingirem um determinado ápice, sua força começa a declinar gradualmente, um fato observável. Naturalmente, este declínio corresponde à melhora da enfermidade.
+
+Ora, por que os germes se multiplicam? A resposta reside na presença de nutrientes que lhes servem de sustento; em termos mais simples, na abundância de seu alimento no sangue. E o que constitui esse alimento? Trata-se das impurezas contidas na corrente sanguínea — substâncias estranhas à sua constituição original.
+
+Neste ponto, é imperativo que esclareçamos a natureza essencial do sangue. Em sua condição original, o sangue é composto unicamente de seus próprios elementos; o sangue verdadeiro é aquele isento de qualquer substância estranha. Consequentemente, a pessoa que possui um sangue puro jamais adoece. O indivíduo verdadeiramente saudável é, por definição, o detentor dessa pureza sanguínea.
+
+Todavia, na vida em sociedade, é sobremaneira difícil para o ser humano manter a pureza de seu sangue. É inevitável que, em certa medida, ele se macule. Ciente disso, o Deus Criador concedeu ao homem um mecanismo destinado a eliminar essas máculas — ou seja, as impurezas estranhas ao sangue — a fim de preservar incessantemente sua pureza. E uma das ferramentas dessa obra divina são os diversos tipos de germes, ou melhor, o dispositivo natural que lhes dá origem.
+
+Mas como se manifesta esse dispositivo natural que gera os germes? Eles não surgem em ambientes limpos, mas proliferam justamente onde há imundície. E por qual motivo? Porque os germes desempenham a função de agentes de limpeza. Onde há pureza, não há necessidade de faxina; a necessidade surge precisamente da impureza. O aspecto mais fascinante, contudo, é que esses agentes purificadores não são contratados de uma fonte externa. Por uma razão correspondente, é a própria impureza que os gera. O fato de que os faxineiros, nascidos da sujeira, se encarregam de limpar aquilo que lhes deu origem é um método de uma engenhosidade tão sublime que não podemos deixar de nos maravilhar.
+
+Este princípio deve ser interpretado em um sentido mais amplo quando aplicado à humanidade. É um fato que, à medida que aumenta na sociedade o número de pessoas com sangue impuro, na mesma proporção surgem os germes. Assim, no universo, tudo o que existe e se manifesta, o faz por uma necessidade. Cada ser atua e se multiplica apenas na medida do necessário, de acordo com a Lei. O que ocorre é que a visão humana é incapaz de discernir a verdadeira natureza dessa necessidade ou da sua ausência.
+
+É por essa razão que os germes existem e se manifestam: para atuar como agentes de limpeza, removendo as impurezas do sangue que obstruem a saúde humana. O método que utilizam para essa faxina é alimentar-se dessas mesmas impurezas. Ao consumi-las, eles se reproduzem e se multiplicam. À medida que o alimento se torna escasso, eles gradualmente perecem de inanição. Neste processo, como o sangue circula incessantemente, é natural que os germes se espalhem por todo o organismo. Com a morte dos germes por inanição, o sangue se purifica, e a doença é curada. É por isso que o fenômeno se assemelha à criação de uma antitoxina que teria levado à cura.
+
+Também é digno de nota que a existência de diferentes tipos de germes corresponde à existência de diferentes tipos de impurezas.
+
+Sob esta ótica, os germes em si são uma presença fundamental, cumprindo o papel de purificar o sangue para que o ser humano possa manter sua saúde. Caso a proliferação de germes não ocorresse, é de se imaginar que, após milhares e milhares de anos, a humanidade estaria fadada à extinção. Sendo assim, o que aconteceria com a saúde humana se conseguíssemos prevenir que os germes invadissem o corpo?
+
+Se lograrmos êxito em impedir a aproximação dos germes, os faxineiros do sangue, o resultado será uma contaminação sanguínea cada vez maior. Pela purificação natural, os resíduos das impurezas formarão uma espécie de toxina, que se acumulará desde a região do pescoço até os ápices pulmonares, evoluindo para a tuberculose. Por outro lado, o sangue impuro que não passa pelo processo de purificação, permanecendo como sangue tóxico, pode atingir o cérebro, causando a hemorragia cerebral. O verdadeiro motivo do drástico aumento, em tempos recentes, de pacientes com tuberculose, hemorragia cerebral, miopia e outras enfermidades reside, em grande parte, nesta causa.
+
+Uma pesquisa recente conduzida pelas autoridades revela que, apenas na jurisdição do Departamento de Polícia Metropolitana, o número de mortes anuais por doenças infecciosas agudas é de aproximadamente cinco mil, com tendência de queda. Em contrapartida, o número de óbitos por tuberculose, uma doença infecciosa crônica, chega a treze mil e apresenta tendência de aumento. Ressalta-se ainda que os números das doenças agudas correspondem aos registros oficiais, enquanto os da tuberculose são, sem dúvida, muito maiores na realidade. Estes dados corroboram integralmente a tese que aqui apresento. Em outras palavras, ao passo que se logrou prevenir as doenças infecciosas, acabou-se, como consequência, por criar milhares de novos pacientes com tuberculose.
+
+---
+
+# A Evidência dos Fatos
+
+**Categoria:** ko | **Ano:** 昭和25(1950)年12月6日 | **Fonte:** Eikou
+**Título Original:** この事実 | **Status:** Published
+
+## A Evidência dos Fatos
+
+Recentemente, tive a oportunidade de examinar um arroz birmanês, cultivado pelo método da Agricultura Natural, que me foi enviado por um fiel da aldeia de Yoka, no distrito de Yabu, província de Hyogo. O que me chamou a atenção foi o número de grãos por haste: as menores continham entre duzentos e sessenta e duzentos e setenta grãos, e a maior chegou ao impressionante número de trezentos e oitenta e um, com uma média de trezentos e vinte grãos.
+
+Para efeito de comparação, o arroz japonês, mesmo de excelente qualidade, produz entre cento e cinquenta e cento e sessenta grãos por haste, o que significa que o arroz birmanês rende mais que o dobro. Ademais, como seus grãos são ligeiramente maiores, pode-se estimar que sua produção total seja cerca de duas vezes e meia superior à do arroz nacional.
+
+Qualquer um poderia supor que tamanha diferença residisse na semente em si, mas a verdade revelou-se outra. A causa fundamental está no fato de que, na Birmânia, praticamente não se utilizam adubos, praticando-se uma agricultura puramente natural. Se assim é, no que tange à agricultura, os birmaneses superam os japoneses, que tanto se orgulham de sua cultura. Este fato, por si só, já deveria ser suficiente para que se compreenda a importância da nossa Agricultura Natural. O relato a seguir vem a comprovar esta realidade de forma eloquente.
+
+**A graça de uma colheita em terras desfavoráveis**
+*Ukae Kaedeichi*
+*Igreja Shinko, ligada à Grande Igreja Goroku-Shichi, Província de Aichi*
+
+Agradeço as graças diárias e, ao mesmo tempo, apresento este relato sobre a minha experiência com a Agricultura Natural como forma de gratidão.
+
+Fui criado em um lar desprovido de afeto e, após oito anos de serviço militar, retornei do front da Birmânia, onde escapei da morte por um triz. Minha saúde, contudo, estava debilitada, e precisei de um período de convalescença. Cerca de seis meses depois, já recuperado, casei-me, mas desavenças familiares levaram ao divórcio. Perdi toda a esperança no futuro e me vi mergulhado no mais profundo desespero. Todavia, recorrendo à mesma força de espírito que me permitiu suportar os sofrimentos da guerra, eu vivia um dia de cada vez. Foi nesse período que, por insistência fervorosa de meu irmão, recebi, ainda que com relutância, o amuleto sagrado das mãos do reverendo Taki, em Nagoia.
+
+Desde que ingressei na fé, o que mais cativou meu interesse foi o tema da Agricultura Natural. Lembrei-me de um enigma que me intrigava na Birmânia, após a derrota na guerra, quando tivemos de cultivar a terra para nosso próprio sustento. O mistério que minha alegria de agora mal consegue expressar em palavras, finalmente se desvendara. Naquela época, a questão era a diferença entre os métodos agrícolas dos birmaneses e os nossos.
+
+Nós, soldados japoneses, aplicávamos as técnicas que conhecíamos de nossa terra — capina, adubação, cuidados minuciosos —, enquanto os nativos empregavam métodos extremamente simples e, ainda assim, obtinham colheitas excelentes. Em contrapartida, nossas lavouras fracassavam fragorosamente, com uma produção insignificante, quase nula. Eu me perguntava como era possível que tanto esforço resultasse em um desempenho tão medíocre e, por diversas vezes, inspecionei os campos dos birmaneses, sem jamais encontrar uma resposta. Qual não foi minha surpresa quando, ao ingressar na fé, o reverendo me falou sobre a Agricultura Natural da Sekaikyuseikyou! A alegria que senti por ter aquele antigo mistério solucionado é indescritível.
+
+Mesmo antes de conhecer a fé, após meu retorno ao Japão, eu já cogitava aplicar o que havia visto e estudado na Birmânia. Cheguei a fazer algumas experiências, espalhando sementes que sobraram em um terreno sem preparo. O resultado foi surpreendentemente bom, a ponto de os vizinhos me perguntarem qual era o meu segredo. Eu lhes respondia que era o “método birmanês”. Diante dessas circunstâncias, ingressei na fé em fevereiro e, ao ler a edição de lançamento da revista “Paraíso Terrestre”, minhas dúvidas foram completamente dissipadas. Imaginem a minha felicidade!
+
+Decidido, pus-me imediatamente à prática. Comecei em março, com os canteiros de batata-doce, e prossegui com batata, cebola, repolho, tomate, arroz e taro, tudo sob os preceitos da Agricultura Natural. Os tomates, em especial, possuíam um sabor incomparavelmente superior aos cultivados com adubo; minha irmã, depois de prová-los, recusava-se a comer os outros. Quanto ao taro, os tubérculos-filhos cresceram muito mais que o tubérculo-mãe e eram deliciosos. Contudo, meu pai, que se opunha firmemente ao método, comia os alimentos com um sorriso zombeteiro enquanto proferia suas críticas: “É impossível obter colheitas sem adubo. Que ideia absurda! Se colher algo, será muito pouco. O adubo é o alimento da planta, assim como você não pode trabalhar sem comer. A colheita deste ano só foi possível graças aos nutrientes que ainda restavam da adubação anterior”. Era só o que ele fazia: repreender-me. Além disso, costumava dizer: “Que problema! Tornou-se um fanático religioso, está ficando senil. É por isso que não consegue se casar”.
+
+Eu orava fervorosamente a Deus para que meu pai compreendesse, mostrando-lhe os resultados da colheita e o sabor dos alimentos, mas era em vão. Ele chegou ao ponto de tentar impedir minhas idas à igreja. Essa incompreensão paterna tornou o cultivo de arroz particularmente desafiador, pois todos os campos destinados ao plantio das mudas já haviam sido adubados. A única alternativa foi utilizar um arrozal de má qualidade que meu pai me cedera no ano anterior para um teste com trigo natural – um terreno que, por sofrer com secas anuais, raramente produzia algo. Ali preparei os canteiros. O arroz que plantei nesse local está agora na fase de espigamento, e estou eu mesmo surpreso com o excelente resultado. Os vizinhos comentam: “Isso é mesmo Agricultura Natural? Não pode ser verdade!”. Alguns chegam a suspeitar que apliquei adubo às escondidas, e o assunto tornou-se tema de conversas na região. Sinto uma imensa alegria e imagino que, na época da colheita, a surpresa de todos será ainda maior.
+
+Já no ano anterior, eu havia feito pequenos testes com hortaliças. Neste ano, porém, decidi levar o projeto adiante, mesmo contra a vontade de meu pai, utilizando um terreno inclinado, o de menor produtividade que possuíamos. Dentre as experiências, gostaria de relatar a graça que recebemos com o cultivo de repolhos, pois foi ela que fez minhas irmãs compreenderem os méritos da Agricultura Natural. Adquiri as sementes, ministrei-lhes Johrei e as semeei. Apenas trinta mudas germinaram. Transplantei-as para o referido campo e continuei a ministrar Johrei. Contudo, as plantas foram atacadas por pragas e por várias vezes quase morreram. Após o último ataque, que foi devastador, perdi as esperanças e desisti. Passados uns dez dias, durante os quais nem me lembrava mais delas, começou a estação chuvosa. Os repolhos dos outros agricultores, já formados, racharam com o excesso de água e apodreceram. Para minha surpresa, os meus, que eu julgava perdidos, haviam se desenvolvido e formado cabeças perfeitas. Involuntariamente, olhei para o céu a leste e elevei uma oração de gratidão a Meishu-Sama. Ofereci os primeiros frutos no altar de Dai-Komyo-Nyorai na casa do reverendo e depois distribuí alguns para os vizinhos e para a família de meu irmão, explicando que eram fruto da Agricultura Natural. Todos ficaram maravilhados com seu aroma e sabor delicioso.
+
+A partir daquele dia, minha mãe e minhas irmãs passaram a valorizar a Agricultura Natural e a colaborar comigo. Meu pai, contudo, permanece irredutível, insistindo que a adubação é necessária. Rogo para que, o mais breve possível, o maior número de pessoas desperte para os benefícios deste método.
+
+Com profunda gratidão pela virtude espiritual de Meishu-Sama e pelos reverendos que me orientaram, direta e indiretamente, encerro este relato.
+
+---
+
+# A Natureza e a Ação dos Espíritos-Raposa
+
+**Categoria:** ko | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 狐霊 | **Status:** Published
+
+## A Natureza e a Ação dos Espíritos-Raposa
+
+No Mundo Espiritual do Japão, a atuação dos espíritos-raposa parece ser a mais proeminente. Esses espíritos aprazem-se em utilizar a religião ou, inversamente, em serem por ela utilizados. De modo particular, os praticantes espirituais de certas seitas recorrem quase invariavelmente a eles, a ponto de não conseguirem operar sem seu auxílio. Nesse sentido, a cura de doenças e as adivinhações são suas maiores especialidades.
+
+Contudo, a cura que promovem restringe-se a certas enfermidades, que se resolvem, evidentemente, pela expulsão ou subjugação de um espírito obsessor por parte do espírito-raposa. Todavia, uma vez concedida a graça da cura, esses espíritos jamais se retiram. Eles se aproveitam desse benefício para, gradualmente, atrair a pessoa para um caminho sem volta, do qual não se pode mais escapar. Assim, embora o praticante espiritual inicie o processo utilizando o espírito-raposa, ao final, é o espírito-raposa quem utiliza tanto o praticante quanto o paciente para satisfazer seus múltiplos desejos. O desfecho derradeiro de tal envolvimento, na maioria dos casos, é levar a pessoa à insanidade mental.
+
+Originalmente, a maior satisfação para um espírito-raposa reside em induzir alguém à loucura. Isso ocorre porque, dessa forma, conseguem manipular livremente o ser humano, o senhor de toda a criação. Para eles, não poderia haver entretenimento maior. Ademais, a razão de sua estreita relação com certas seitas reside no fato de que, ao ouvirem a recitação de determinados sutras, seus poderes espirituais se intensificam. Por conseguinte, esses espíritos empenham-se constantemente em ampliar suas faculdades, pois quanto mais potentes forem, maior será sua eficácia em manipular os seres humanos.
+
+É comum que praticantes espirituais façam previsões e leituras precisas sobre doenças e questões pessoais. O mecanismo por trás disso é o seguinte: quando uma pessoa se senta diante do praticante, um espírito-raposa sob seu comando imediatamente se apossa dela. Penetrando em sua mente, o espírito utiliza seus poderes para sondar os pensamentos e as preocupações do indivíduo, reportando-os instantaneamente ao espírito do praticante. Em posse dessas informações, o praticante declara: “O senhor passou por tal e tal situação, não é mesmo?” ou “O senhor está pensando em determinado assunto, correto?”. Diante de tamanha exatidão, a pessoa passa a reverenciá-lo como se fosse um deus vivo.
+
+Existe, ainda, outro estratagema. O praticante pode vaticinar: “Por volta de tal época, um acontecimento específico ocorrerá em sua vida, portanto, tenha cautela”. Quando o evento predito de fato se concretiza, a pessoa fica assombrada com a precisão e torna-se uma devota seguidora. A explicação para tal fenômeno é que, no momento da predição, o praticante designa um espírito-raposa para se encostar na pessoa, e é esse mesmo espírito que se encarrega de provocar o acontecimento previsto. Um exemplo notório desse método é o de uma famosa médium na cidade de [Cidade], que alcançou grande prosperidade e é venerada como uma divindade viva por seu sucesso.
+
+Os espíritos-raposa dividem-se em duas categorias: as raposas de Inari e as raposas selvagens. As primeiras são veneradas como Inari Daimyojin e governam um vasto séquito, sendo consideradas a realeza do mundo dos espíritos-raposa. Seus subordinados, em termos humanos, equivaleriam a honrados funcionários públicos, empregados de empresas e cidadãos dedicados à agricultura, indústria e comércio. Em contrapartida, as raposas selvagens são como desocupados e errantes, constantemente afligidos pela falta de alimento e abrigo. Na sociedade dos espíritos-raposa, são tratadas com desdém e, por isso, anseiam ardentemente por serem consagradas em um templo de Inari ou por se tornarem parte de seu séquito. Naturalmente, são as raposas selvagens as que, com maior frequência, causam danos aos seres humanos. Contudo, é preciso notar que mesmo entre as raposas de Inari, as de boa índole são raras; a maioria se compraz em praticar atos maliciosos, embora com menor intensidade do que as selvagens. Ademais, entre as raposas, quanto mais idosa, mais potentes são suas faculdades espirituais. As principais divindades dos mais famosos santuários de Inari são, geralmente, raposas anciãs com milhares de anos de existência.
+
+Existe, todavia, uma categoria especial de raposas anciãs: são aquelas que se assimilaram a espíritos humanos. Conforme explicado anteriormente, seu objetivo primordial é a proteção de seus descendentes. Dentre estas, algumas são selecionadas para servir como deidades auxiliares do deus protetor da localidade (産土神 - *ubusunagami*), atuando sob ordens divinas. Todas as raposas desta estirpe são brancas.
+
+Aproveito a oportunidade para elucidar brevemente a origem do culto a Inari. Em tempos imemoriais, a Augusta Deusa Amaterassu Oomikami, em Seu desejo de transformar a terra de Toyoashihara Mizuho no Kuni em um reino de fartura, ordenou à divindade Toyouke Myojin que distribuísse sementes de arroz por todas as províncias. Reverentemente, Toyouke Myojin acatou a ordem e incumbiu inúmeras raposas da tarefa de semear o arroz por toda a nação. O termo Inari deriva, portanto, do ato de “carregar o arroz”. Existe também a interpretação de que a palavra se origina de *iinari* (飯成), que significa “fazer o arroz cozido”. Em reconhecimento por esse mérito, as raposas foram consagradas como divindades em diversas localidades, tornando-se objeto da gratidão e da reverência dos agricultores. Esta é a gênese e a essência do culto a Inari.
+
+Contudo, com o passar das eras e a desordem que se instalou no mundo, a fé em Inari também se corrompeu. As preces deixaram de se limitar às questões agrícolas e passaram a abranger outros anseios. Com o tempo, mercadores passaram a rogar por prosperidade nos negócios e por lucros; pessoas do mundo do entretenimento, por sucesso em assuntos amorosos; e o povo em geral, pela satisfação de seus desejos egoístas. Em resposta, a divindade Inari passou a conceder suas graças indiscriminadamente, tanto ao bem quanto ao mal, uma prática que perdura até os dias de hoje.
+
+---
+
+# A Questão do Declínio da Compleição Física Nacional
+
+**Categoria:** ko | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 国民体位低下の問題 | **Status:** Published
+
+## A Questão do Declínio da Compleição Física Nacional
+
+Intimamente associada à questão demográfica, emerge a premente problemática do declínio da compleição física nacional, um assunto de suma importância que não pode ser dissociado daquele. A seguir, delinearei as tendências que evidenciam essa grave realidade.
+
+A gravidade da situação tornou-se patente em junho de 1936, quando o então Ministro do Exército, General Terauchi, instou pela formulação de uma política nacional de saúde e saneamento público, visando combater a deterioração da compleição física do povo. Essa iniciativa culminou na criação do Ministério da Saúde e Bem-Estar. Os fundamentos e as medidas propostas pelo Departamento Médico do Ministério do Exército, que embasaram tal decisão, são os que se seguem:
+
+**Razões Apresentadas**
+
+*   Em contraste, as nações europeias, que após a Grande Guerra enfrentaram um acentuado declínio na constituição física de seus povos, agiram com celeridade. Ao estabelecerem Ministérios da Saúde ou do Saneamento, dedicaram-se com afinco à melhoria da saúde pública, resultando em uma notável recuperação da compleição e do vigor de suas populações, que hoje retomaram os níveis de outrora.
+
+*   Os resultados dos exames de alistamento militar em nosso país, contudo, revelam uma deterioração alarmante. Entre 1922 e 1926, a proporção de reprovados (classificados como C e D) era de aproximadamente 250 por mil conscritos. Entre 1927 e 1932, esse número saltou para 350, e em 1935, atingiu o alarmante patamar de 400 por mil, o que demonstra inequivocamente o enfraquecimento da constituição física do povo.
+
+*   Embora a estatura média tenha aumentado de 1,575 metro em 1912 para 1,603 metro em 1935 — um ganho de 2,8 centímetros —, o peso correspondente foi desproporcional. O peso médio, que era de 51,75 quilos em 1912, alcançou apenas 52,87 quilos em 1935. Esses dados estatísticos revelam que, nos últimos vinte e cinco anos, o aumento médio de peso foi de apenas mil e quinze gramas.
+
+*   Houve um aumento expressivo de doenças torácicas de natureza tuberculosa. Por volta de 1891 e 1892, a incidência entre os jovens conscritos era de dois casos a cada cem. Atualmente, esse número subiu para vinte e quatro.
+
+*   Apesar dos avanços da medicina e da maior difusão de tratamentos, que, embora tenham logrado certa eficácia na redução da mortalidade por tuberculose, revelaram-se totalmente impotentes para prevenir a sua ocorrência.
+
+*   O flagelo das doenças infecciosas previstas em lei, como febre tifoide e disenteria, segue uma trajetória de crescimento contínuo.
+
+*   A causa fundamental para o declínio da compleição física e da constituição geral não reside na falta de educação física, nutrição ou cuidados médicos, mas sim, de forma embrionária, no enfraquecimento do organismo materno.
+
+*   A atual administração sanitária limita-se à fiscalização de medicamentos e alimentos, ao tratamento de resíduos e poeira, e a sistemas de seguro de saúde, demonstrando-se, no conjunto, fragmentada e desprovida de um controle eficaz.
+
+*   Os ministérios responsáveis pela saúde e saneamento — Educação, Interior, Comunicações, e Comércio e Indústria — carecem de uma integração orgânica. A mesma desarticulação se observa em nível local.
+
+*   Diante do exposto, é imperativo que o governo rompa com a inércia burocrática e a setorialização, estabelecendo um novo ministério dedicado exclusivamente à saúde e ao saneamento. Tal órgão deverá unificar os departamentos e seções existentes, centralizando a gestão de questões como seguro de trabalho, controle de epidemias, assistência médica e educação física, a fim de cumprir a missão primordial da administração sanitária.
+
+**Assuntos a Serem Geridos**
+
+*   Questões demográficas, alimentares e a distribuição equitativa dos recursos vitais.
+*   Aspectos humanos relacionados à imigração e colonização.
+*   Aumento da capacidade de trabalho e da resistência física da população.
+*   Condições essenciais para a vida do povo.
+*   Racionalização e controle do vestuário e da moradia.
+*   Questões de adaptação ao meio ambiente.
+*   Educação sanitária para o fortalecimento do corpo e da mente, aumento da eficiência, prevenção de epidemias e envenenamentos.
+*   Orientação e supervisão de projetos de saneamento social.
+*   Controle e alocação de recursos humanos, como hospitais e médicos.
+*   Orientação e supervisão de instituições de pesquisa em ciências da vida (unificando e reestruturando os atuais institutos de pesquisa sanitária e nutricional do Ministério do Interior, e o de educação física do Ministério da Educação, adicionando novos centros de pesquisa em saúde e saneamento).
+
+A principal causa para a reprovação nos exames de alistamento é a debilidade musculoesquelética. O número de jovens com essa condição vem crescendo a uma taxa de um ponto percentual ao ano: em 1932, representavam 31,7% dos conscritos; em 1933, 32,7%; e em 1934, 33,7%.
+
+Logo após a debilidade musculoesquelética, as causas mais comuns de reprovação são doenças de natureza tuberculosa, deficiências visuais, incapacidades de origem traumática e baixa estatura. As doenças venéreas são mais prevalentes nos centros urbanos do que nas áreas rurais, afetando principalmente operários, motoristas e trabalhadores das classes mais baixas. Verificou-se que a grande maioria dos conscritos de origem rural que contraíram tais doenças havia trabalhado por um período nas cidades.
+
+A relação entre estatura e peso revela um quadro ainda mais preocupante. Nos últimos vinte e cinco anos, a estatura aumentou aproximadamente três centímetros, enquanto o peso aumentou apenas cerca de mil gramas. Considerando que, em 1912, o peso correspondente a cada centímetro de altura era de 328 gramas, o aumento de peso observado mal acompanhou o crescimento da estatura. Isso significa que a relação entre estatura e peso — a densidade corporal — na verdade, diminuiu. Essa mesma tendência de estagnação, que perdura há duas décadas, observa-se no perímetro torácico. Ademais, o tórax japonês, caracterizado por um diâmetro transversal mais longo e um diâmetro anteroposterior mais curto — em contraste com o dos ocidentais e chineses, que é mais profundo —, apresenta uma constituição inerentemente menos robusta, mesmo com um perímetro torácico idêntico.
+
+Cumpre salientar que existem duas formas de variação de peso: um ganho ou perda uniforme em todo o corpo e outro em que certas partes se desenvolvem em detrimento de outras. Entre os jovens conscritos de nosso país, este último padrão é o mais comum.
+
+Este fenômeno comprova a existência de graves deficiências no modo de vida e nas estruturas sociais do país. É fundamental que toda a nação adquira a consciência necessária para superar essas falhas de forma autônoma e que se inicie uma reforma a partir de suas raízes, pois somente assim será possível erradicar a verdadeira causa do declínio da compleição física nacional. Essa convicção se aprofunda ao observarmos que o corpo dos jovens, fortalecido pela vida militar, tende a regredir à sua condição anterior ao alistamento após apenas um ou dois anos de retorno à vida civil, um retrocesso especialmente acentuado entre agricultores e operários industriais.
+
+Analisemos agora o impacto que a vida urbana e a rural exercem sobre os jovens conscritos. Um levantamento realizado em 1936 com mais de seiscentos mil jovens revelou dados eloquentes. Entre aqueles que nasceram e cresceram nas cidades, a taxa de reprovação foi de 410 por mil. Em contrapartida, entre os que nasceram e cresceram no campo, o índice foi de pouco mais de 310 por mil — uma diferença de quase cem reprovados a menos. No entanto, para os jovens que nasceram no campo, concluíram o ensino primário e depois se mudaram para a cidade, a taxa de reprovação subiu para mais de 380 por mil, o que demonstra de forma contundente o efeito nefasto da vida citadina sobre a compleição física.
+
+O dado mais alarmante, porém, é que os jovens nascidos em ambiente urbano, mesmo que se mudem para o campo após concluírem a escola primária, mantêm uma taxa de reprovação superior a 450 por mil. Isso permite inferir quão decisiva é a influência do ambiente urbano durante a infância e a adolescência na determinação de uma constituição física precária.
+
+Embora o ambiente rural se mostre comparativamente mais salubre, seria um erro negligenciar sua própria deterioração. Há pouco mais de uma década, a taxa de reprovação no campo era de pouco mais de 200 por mil; hoje, supera os 300, um fato que nos causa profunda consternação.
+
+Qual é, então, a condição física dos estudantes?
+
+Se analisarmos a situação por categoria profissional, o quadro torna-se ainda mais sombrio. No topo da lista de reprovados encontram-se os estudantes, com um índice de reprovação superior a 550 por mil, um desempenho desolador que ultrapassa a metade do total. Nas províncias de Tóquio e Osaka, esse número aproxima-se de 600, o que é verdadeiramente espantoso.
+
+Um exemplo comprova a precária condição de saúde dos estudantes de Tóquio e Osaka. Em uma escola secundária de Tóquio, noventa e oito alunos do quinto ano, considerados saudáveis, participaram de um alojamento interno em uma unidade da Guarda Imperial. Um exame de saúde revelou que trinta e nove deles — quarenta por cento do total — apresentavam doenças torácicas crônicas.
+
+Este resultado chocou as autoridades escolares e militares e deve servir como um sério alerta para as famílias, as escolas e a nação. Em uma era na qual a prática desportiva estudantil se encontra tão difundida, este resultado é, no mínimo, desconcertante. Leva-nos a questionar se o desenvolvimento e a popularização do esporte não estariam, porventura, trilhando um caminho equivocado, desviando-se de seu propósito de melhorar a compleição física do povo.
+
+Contudo, a deterioração da compleição física dos estudantes não pode ser atribuída unicamente à questão esportiva. É evidente que a solução requer uma abordagem integral, envolvendo a família, a sociedade, o Estado e o sistema educacional como um todo. Um fator de suma importância a ser acrescentado é a correlação direta entre o avanço no nível de instrução e o aumento progressivo nos índices de reprovação nos exames de alistamento, bem como o agravamento das doenças que causam essa inaptidão. Os reprovados da categoria C são mais numerosos entre os graduados universitários, seguidos pelos formados em escolas de ensino superior e profissionalizante, escolas secundárias e, por fim, escolas primárias. Curiosamente, entre os que concluíram apenas o ensino primário, aqueles com formação regular apresentam um índice de reprovação na categoria C maior do que os de formação superior, o que indica a existência de profundos problemas sociais e educacionais subjacentes.
+
+Investigações do Departamento de Educação da cidade sobre o impacto da vida urbana na saúde das crianças em idade escolar primária revelam uma realidade lamentável. No ano de 1936, de um total de 120.878 alunos, 106.085 foram submetidos a exames físicos. O resultado foi desolador: 43.677 crianças, quase metade dos examinados, apresentavam algum tipo de enfermidade. A principal incidência foi de doenças otorrinolaringológicas, com 9.564 meninos e 8.595 meninas, totalizando 18.159 casos. Duzentos e setenta e três alunos tiveram sua matrícula adiada por razões de saúde, um fato que, mais uma vez, nos surpreende com a dura realidade de uma metrópole insalubre.
+
+A distribuição das enfermidades entre os alunos era a seguinte:
+*   Oftalmologia: 4.152 meninos, 9.223 meninas.
+*   Dermatologia: 2.468 meninos, 1.492 meninas.
+*   Hérnia, sopro cardíaco, catarro brônquico: 2.535 meninos, 1.909 meninas.
+*   Problemas osteoarticulares e musculares: 847 meninos, 560 meninas.
+
+A alta incidência de miopia entre nosso povo é um fato de notoriedade mundial. Uma pesquisa realizada pelo Departamento de Educação Física do Ministério da Educação com estudantes de todos os níveis escolares apresentou resultados verdadeiramente alarmantes.
+
+Em 1922, no ensino primário, a prevalência era de 12,93% entre os meninos e 15,27% entre as meninas. Em 1930, esses números subiram para 16,24% e 19,69%, respectivamente. Em outras instituições de ensino, a comparação entre 1921 e 1930 revela os seguintes percentuais:
+
+| Tipo de Escola | 1921 (ou 1923*) | 1930 |
+| :--- | :--- | :--- |
+| Escola Secundária Feminina | 16,63% | 34,07% |
+| Escola Secundária Masculina | 21,75% | 36,33% |
+| Escola Profissionalizante | 21,72% | 34,38% |
+| Escola Normal (Masculina) | 26,65% | 43,65% |
+| Escola Normal (Feminina) | 19,23% | 40,25% |
+| Escola Superior (Masculina) | 41,53% | 42,71% |
+| Escola Superior (Feminina) | 20,55% | 53,98% |
+*Dados do ensino primário são de 1923.
+
+Em termos gerais, pode-se afirmar que uma criança com 15% de chance de ter miopia ao entrar na escola primária vê esse risco aumentar para 20% ao chegar ao ensino secundário e para 50% ao ingressar no ensino superior. Se somarmos a isso a presbiopia, o astigmatismo e o estrabismo que afetam a população acima dos cinquenta anos, concluímos que entre 60% e 70% das pessoas ativas na sociedade sofrem com algum tipo de desconforto visual, desperdiçando energia nervosa e, consequentemente, reduzindo sua eficiência.
+
+As principais causas de mortalidade em nosso país, segundo dados de 1936 do Gabinete de Estatísticas do Governo, são as seguintes: de um total de 1.234.000 óbitos, 131.500 foram causados por tuberculose (respiratória e outras), o que corresponde a uma taxa de 106,5 por mil. Em seguida, vêm diarreia e enterite, com 127.000 mortes (taxa de 103,6); pneumonia, com 124.000 (taxa de 100,5); e hemorragia e trombose cerebral, com 114.000 (taxa de 92,7). A tuberculose, portanto, revela-se como a ameaça mais letal.
+
+Quanto à faixa etária, a maioria das mortes por diarreia, enterite e pneumonia ocorre em bebês com menos de um ano, enquanto as mortes por acidentes vasculares cerebrais concentram-se entre os 55 e os 79 anos. Em contrapartida, a tuberculose ceifa a vida predominantemente de jovens entre 15 e 29 anos, um dado que exige a máxima atenção.
+
+O jornal Tokyo Nichi Nichi Shimbun, em sua edição de 3 de junho de 1936, publicou o seguinte artigo:
+
+(Preâmbulo omitido)
+"A estatura e o peso têm aumentado, o que à primeira vista parece um bom sinal. Contudo, o fato de o ganho de peso não acompanhar o de estatura, somado ao aumento expressivo de doenças de natureza tuberculosa e à crescente incidência de miopia e cáries, constitui um problema nacional de grande preocupação. Recentemente, diversas modalidades esportivas se popularizaram com grande vigor entre a população. Seria lógico supor, portanto, que a compleição física e a saúde do povo estivessem melhorando progressivamente. Por que, então, a constituição física de nossa juventude se encontra em uma situação tão pessimista? Certamente, não se trata de uma coincidência. É nosso dever investigar a fundo as causas desse fenômeno, não apenas para eliminar essa preocupação, mas também para conduzir a compleição física de nosso povo a um caminho de aprimoramento. Essa deve ser uma das prioridades da renovação nacional.
+
+As causas do declínio físico dos jovens conscritos devem, naturalmente, ser investigadas por especialistas, e os resultados nortearão a reforma dos métodos de criação e educação de nossas crianças e jovens. De um modo geral, porém, os quatro fatores que exercem maior influência sobre o desenvolvimento infantojuvenil parecem ser: o ambiente, a alimentação, os estudos e a atividade física. A influência do ambiente sobre o corpo é inquestionável. Embora a proporção de habitantes urbanos em nossa população aumente a cada ano, intensificando o ruído e a agitação das cidades, as instalações sanitárias também vêm sendo gradualmente melhoradas, de modo que não se acredita haver uma mudança drástica no impacto ambiental. A correlação entre alimentação e o corpo dispensa explicações. Os hábitos alimentares do povo mudam com o tempo, e o aumento de cáries, por exemplo, pode estar relacionado a essas mudanças. A higiene alimentar é, portanto, um tema crucial para a saúde pública, que merece a atenção de especialistas e profissionais da área. No entanto, como o padrão de vida geral da população tem melhorado, é pouco provável que a alimentação seja a principal causa do impacto negativo sobre a compleição física dos jovens. Restam, então, os estudos e a educação física.
+
+O fardo acadêmico imposto aos alunos em nosso sistema educacional é um problema grave. Os malefícios da educação preparatória para os exames de admissão são criticados em toda parte. A experiência mostra que o estudo em medida adequada pode trazer benefícios ao corpo, mas o excesso ou o desequilíbrio são comprovadamente prejudiciais, especialmente o método passivo de memorização desinteressante, que causa uma fadiga extrema do corpo e da mente. Por outro lado, na área da educação física, embora os exercícios escolares tenham sido aprimorados, o treinamento militar tenha sido adicionado e os esportes incentivados, o fato de a constituição física dos jovens estar se enfraquecendo indica a existência de alguma falha fundamental."
+
+Posteriormente, em 30 de julho de 1940, o Yomiuri Shimbun publicou a seguinte matéria:
+
+"**Seria a Ênfase Excessiva na Educação Física a Causa? Incidência de Tuberculose entre Novos Alunos. O Novo Sistema de Admissão Lança um Sinal de Alerta.**
+
+Num momento em que se observa com grande interesse o impacto dos exames de admissão ao ensino secundário deste ano, que aboliram as provas teóricas em favor de uma maior valorização da educação física, uma cidade na região de Kansai registra um número crescente de alunos recém-ingressados que abandonam os estudos devido à tuberculose. O fato levanta críticas sobre os malefícios de uma ênfase desmedida na educação física e lança um alerta para as escolas primárias e as famílias, às vésperas do período de preparação para os exames do próximo ano.
+
+Sobre o assunto, ouvimos o Dr. Masayasu Kusumoto, da Divisão de Tuberculose do Ministério da Saúde e Bem-Estar:
+
+'O fato de alunos do primeiro ano do ensino secundário, recém-ingressados, estarem abandonando a escola por tuberculose é um problema de extrema gravidade. Geralmente, a infecção por tuberculose ocorre com mais frequência entre os 15 e os 20 anos, mas nos centros urbanos, muitos se infectam ainda no ensino primário. Em Osaka, por exemplo, um levantamento com alunos do primeiro ao sexto ano revelou uma taxa de infecção alarmante de 70%. Em Tóquio, embora o número seja um pouco menor, ainda assim metade das crianças está infectada. O primeiro ano após a bactéria se alojar nos pulmões é o período de maior risco. Se, durante essa fase, o corpo se esgota por exercícios ou esportes excessivos e a resistência ao bacilo diminui, a doença se manifesta. Se, no entanto, esse período crítico de um ano transcorre sem intercorrências, o bacilo se calcifica, e o organismo desenvolve imunidade, evitando a manifestação da doença. O problema é que, nas escolas primárias, os exames de saúde se limitam a uma simples ausculta com estetoscópio, o que impede um diagnóstico preciso do estado de risco das crianças infectadas. Consequentemente, as atividades físicas são aplicadas de forma uniforme a todos. Os alunos que, de alguma forma, superam esse esforço e são aprovados nos testes físicos para ingressar no ensino secundário, onde as atividades se tornam ainda mais intensas, acabam por sucumbir. Aqueles que se encontram no período de risco de um ano após a infecção têm o avanço da doença acelerado e são forçados a abandonar os estudos, uma situação lamentável. Os sintomas iniciais da tuberculose — febre baixa, letargia, perda de apetite — são percebidos por aqueles com constituição mais frágil. No entanto, os mais robustos não sentem os sintomas, continuam a se exercitar e só se alarmam quando o corpo não aguenta mais. A atenção das autoridades escolares é necessária, mas para prevenir esse período de risco, é crucial que as famílias redobrem os cuidados. É preciso verificar cientificamente, por meio de exames de saúde, o momento e o grau da infecção. Aqueles que apresentarem sinais da doença em estágio inicial devem cessar as atividades físicas intensas e se dedicar ao tratamento.'"
+
+Para contextualizar o problema da saúde pública, observemos a situação recente no Reino Unido.
+
+Nos últimos doze meses, o país gastou duzentos milhões de libras em saúde pública, mas a constituição física de seu povo continua a se deteriorar. Além disso, os custos exclusivamente com tratamento médico chegaram a trezentos milhões de libras anuais. O total de quinhentos milhões de libras (equivalente a cinco bilhões de ienes pela taxa de câmbio da época) em despesas tornou-se um problema parlamentar, com receio de que esse valor aumente ainda mais. Até mesmo o Imperador britânico mencionou o assunto em um discurso recente.
+
+O Professor Lelean, da Universidade de Edimburgo, alertou: "Se nos dedicarmos à educação física nacional pelos próximos dois anos, há uma grande esperança de que a compleição física de nosso povo melhore significativamente. Se formos negligentes, serão necessárias duas gerações para recuperar a constituição física enfraquecida". E concluiu, em tom de lamento: "Vejam o desempenho medíocre da Grã-Bretanha nos Jogos Olímpicos. É inconcebível que este seja o povo britânico, berço dos históricos campos de Eton."
+
+---
+
+# A Natureza da Medicina Equivocada
+
+**Categoria:** ko | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 誤謬医学斯くの如し 未発表 | **Status:** Unpublished
+
+## A Natureza da Medicina Equivocada
+
+O caso deste paciente ilustra com clareza o grave pecado de boa-fé que a medicina moderna vem cometendo. É notório o dano avassalador provocado pelas cirurgias; contudo, o problema aprofunda-se, pois, quanto mais tratamentos se recebe, sucessivas enfermidades secundárias se manifestam, culminando em uma tragédia de proporções indescritíveis.
+
+Portanto, como se pode depreender do exemplo deste paciente, se esta Medicina Divina e Espiritual não tivesse surgido, o infortúnio da humanidade teria prosseguido sem conhecer limites.
+
+---
+
+# Uma Análise Sobre a Deterioração da Saúde Nacional
+
+**Categoria:** ko | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 国民体位低下の問題 | **Status:** Published
+
+## Uma Análise Sobre a Deterioração da Saúde Nacional
+
+Intrinsecamente ligada à questão populacional, emerge um problema de suma importância: o declínio da compleição física do povo. Para elucidar este ponto, apresentarei a seguir a evolução desse quadro.
+
+Em junho de 1936, o então Ministro do Exército, General Terauchi, instou o governo a estabelecer uma política nacional de saúde pública para enfrentar a deterioração física da população. Como resultado, foi finalmente estabelecido o Ministério da Saúde e Bem-Estar. Naquela ocasião, o Departamento de Assuntos Médicos do Ministério do Exército apresentou as seguintes justificativas e propostas:
+
+**Justificativas**
+
+1.  Após a Grande Guerra, as nações europeias constataram um notável declínio na constituição física de seus povos. Em resposta, todas estabeleceram Ministérios da Saúde ou da Higiene, dedicando-se com afinco à melhoria da saúde pública. Como resultado, a condição física e a constituição de seus cidadãos melhoraram significativamente, recuperando o vigor de outrora.
+
+2.  Os resultados dos exames de alistamento militar revelam que, entre 1922 e 1926, o índice de inaptos (classificados como C e D) era de aproximadamente 250 por mil jovens. Contudo, entre 1927 e 1932, essa proporção saltou para 350 por mil e, em 1935, atingiu o alarmante patamar de 400 por mil, evidenciando de forma inequívoca a deterioração física da nação.
+
+3.  A estatura média do povo japonês aumentou, passando de 1,57m em 1912 para 1,60m em 1935, um incremento de três centímetros. Contudo, o peso não acompanhou proporcionalmente este aumento. Em 1912, a média era de 51,75 kg, enquanto em 1935 alcançou apenas 52,87 kg. Estatisticamente, o aumento médio de peso nos últimos 25 anos foi de meros 1.012 gramas.
+
+4.  Observa-se um aumento expressivo de doenças torácicas de natureza tuberculosa. Por volta de 1891 e 1892, a cada cem jovens em idade de alistamento, encontravam-se dois casos de tuberculose; hoje, esse número subiu para vinte e quatro.
+
+5.  Embora os avanços da medicina e a difusão de tratamentos tenham demonstrado certa eficácia na redução da taxa de mortalidade por tuberculose, provou-se que são completamente ineficazes para prevenir a ocorrência da doença.
+
+6.  As doenças infecciosas de notificação compulsória, como febre tifoide e disenteria, seguem uma trajetória de aumento contínuo.
+
+7.  A causa fundamental para o declínio da constituição física e da compleição não reside na falta de educação física, nutrição ou cuidados médicos, mas sim, na debilidade congênita das mães.
+
+8.  A atual administração sanitária limita-se à fiscalização de medicamentos e alimentos, ao tratamento de resíduos e poeira, e a sistemas de seguro de saúde, sendo, no conjunto, fragmentada e ineficaz.
+
+9.  Falta uma coesão orgânica entre os ministérios que atualmente administram a saúde pública: o Ministério da Educação, o Ministério do Interior, o Ministério das Comunicações, e o Ministério do Comércio e Indústria. A mesma desarticulação se repete em âmbito local.
+
+10. Diante dessas razões, o governo deve romper com os paradigmas obsoletos e isolados dos ministérios. É imperativo criar um novo ministério para administrar a saúde e a higiene, consolidando os departamentos e seções existentes que tratam do tema. Este novo órgão deverá unificar a gestão de seguros trabalhistas, prevenção de epidemias, cuidados médicos e educação física, a fim de cumprir a missão intrínseca da administração sanitária.
+
+**Assuntos sob sua jurisdição**
+
+1.  Questões de população e alimentação, e a coordenação da distribuição de recursos vitais.
+2.  Aspectos humanos relacionados à imigração e colonização.
+3.  Aumento da capacidade de trabalho e da resistência física do povo.
+4.  Questões relativas às necessidades essenciais da vida nacional.
+5.  Racionalização e controle do vestuário e da moradia.
+6.  Questões relativas à adaptação ao ambiente.
+7.  Educação sanitária para o fortalecimento do corpo e da mente, aumento da eficiência, e prevenção de epidemias e envenenamentos.
+8.  Orientação e supervisão de projetos de saúde social.
+9.  Controle e gestão de recursos humanos, como hospitais e médicos.
+10. Orientação e supervisão de instituições de pesquisa em ciências da vida (unificando e reestruturando o Instituto de Higiene e o Instituto de Nutrição do Ministério do Interior, o Instituto de Educação Física do Ministério da Educação, e adicionando novas instituições de pesquisa em saúde para formar um único órgão de pesquisa em ciências da vida).
+
+A principal causa para essa inaptidão é a debilidade musculoesquelética, cujo índice entre os jovens em idade de alistamento vem crescendo a uma taxa de 1% ao ano: 31,7% em 1932, 32,7% em 1933, e 33,7% em 1934.
+
+Após a debilidade musculoesquelética, as causas mais comuns de inaptidão são as doenças tuberculosas, deficiências visuais, incapacidades por lesão e baixa estatura. As doenças venéreas são mais prevalentes nas cidades do que no campo, afetando principalmente trabalhadores de baixa renda, operários e motoristas. Entre os jovens do campo diagnosticados com tais doenças, a grande maioria havia trabalhado anteriormente nas cidades.
+
+Analisando a relação entre altura e peso, observa-se que, nos últimos vinte e cinco anos, a altura aumentou aproximadamente três centímetros e o peso, 975 gramas. Como em 1912 a proporção de peso por centímetro de altura era maior, o aumento de altura ocorreu sem o correspondente ganho de massa, o que significa que a relação entre altura e peso — a densidade corporal — na verdade, diminuiu. Fenômeno semelhante é observado na circunferência torácica, que permaneceu praticamente inalterada nos últimos vinte anos. Ademais, o tórax japonês possui a característica de ser mais largo lateralmente e mais estreito anteroposteriormente. Em comparação com ocidentais e chineses, cujo tórax é mais estreito lateralmente e mais profundo, deve-se admitir que, mesmo com a mesma circunferência, a capacidade torácica japonesa é inferior.
+
+É digno de nota que existem dois padrões de variação de peso: um em que o corpo ganha ou perde massa de forma homogênea e outro em que certas partes se desenvolvem em detrimento do definhamento de outras. Entre os jovens do nosso país, este último padrão é o mais frequente.
+
+Isso evidencia a existência de graves deficiências nos diversos aspectos do modo de vida e da infraestrutura do nosso país. É fundamental que toda a nação tome consciência para superar essas falhas de maneira autônoma e que a reforma desses padrões de vida seja o ponto de partida para erradicar a verdadeira causa do declínio físico do povo. Essa percepção se aprofunda ao observarmos um fenômeno preocupante: o corpo dos jovens, que se desenvolve durante o serviço militar, regride ao estado anterior ao alistamento após apenas um ou dois anos de retorno à vida civil, sendo essa regressão especialmente acentuada entre agricultores e operários industriais.
+
+Analisemos, agora, a influência da vida urbana e rural sobre os jovens em idade de alistamento. Um estudo com mais de seiscentos mil jovens examinados em 1936 revela que, entre aqueles que nasceram e cresceram em cidades, a taxa de inaptidão foi de 410 por mil. Em contrapartida, entre os que nasceram e cresceram no campo, o índice foi de pouco mais de 310 por mil, uma diferença de quase cem jovens inaptos a menos. O dado mais revelador, contudo, é que jovens nascidos no campo que se mudaram para a cidade após concluírem o ensino primário apresentaram uma taxa de inaptidão de mais de 380 por mil. Isso demonstra de forma eloquente o impacto negativo que a vida urbana exerce sobre a compleição física do povo.
+
+Por outro lado, aqueles que nasceram e concluíram o primário na cidade, mesmo que tenham se mudado para o campo posteriormente, mantiveram uma taxa de inaptidão de mais de 450 por mil. Fica claro, portanto, o quão decisiva é a vida urbana durante a infância e a juventude como causa da má constituição física.
+
+Embora os dados mostrem que o campo oferece condições mais favoráveis que a cidade, não se deve concluir que a vida rural seja isenta de problemas. A situação atual é preocupante, pois há pouco mais de dez anos, o número de inaptos no campo era de pouco mais de 200 por mil, enquanto hoje ultrapassa os 300, um fato que nos causa profunda consternação.
+
+E quanto à compleição física dos estudantes?
+
+Após compararmos a saúde do povo japonês entre as zonas urbana e rural, conforme revelado nos exames de alistamento, vejamos agora a situação por categoria profissional.
+
+Ao analisarmos os índices de inaptidão por profissão, o grupo com o pior desempenho é, surpreendentemente, o de estudantes, cujo índice ultrapassa a alarmante marca de 500 por mil, ou seja, mais da metade é reprovada. Nas províncias de Tóquio e Osaka, esse número aproxima-se de 600 por mil, o que é verdadeiramente espantoso. Um exemplo ilustra a precária condição de saúde dos estudantes dessas duas metrópoles: em uma escola secundária de Tóquio, 98 alunos do quinto ano, considerados saudáveis, participaram de um pernoite em um quartel da Guarda Imperial. Um exame de saúde revelou que 39 deles, ou seja, quase 40%, sofriam de doenças torácicas crônicas.
+
+Este resultado chocou as autoridades escolares e militares, e deve servir de profundo alerta para as famílias, as escolas e o próprio Estado. Em uma era em que a prática de esportes entre os estudantes se difundiu e se desenvolveu, tal cenário parece incompreensível. Sente-se compelido a questionar se essa popularização do esporte não estaria ocorrendo de maneira equivocada. Levanta-se a suspeita de que o esporte, como é praticado, talvez esteja se desviando do seu propósito de melhorar a compleição física do povo.
+
+Contudo, a deterioração da saúde dos estudantes não pode ser atribuída apenas à questão esportiva. A solução, evidentemente, requer uma abordagem integrada que envolva a família, a sociedade, o Estado e o sistema educacional como um todo. Um ponto crucial a ser acrescentado é que a taxa de inaptidão no exame de alistamento aumenta progressivamente à medida que avança o nível de escolaridade dos estudantes, e a gravidade das doenças que causam essa inaptidão também se agrava. Ou seja, o maior índice de inaptos na categoria C encontra-se entre os formados em universidades, seguidos pelos egressos de escolas de ensino superior e escolas profissionalizantes, e depois por concluintes do ensino médio e do ensino primário. Há, todavia, uma peculiaridade: entre os que concluíram apenas o ensino primário, aqueles que não avançaram para o ensino superior apresentam uma taxa de inaptidão na categoria C ainda maior, o que aponta para graves problemas sociais e educacionais subjacentes.
+
+O Departamento de Educação da cidade, ao investigar o impacto da vida urbana na saúde das crianças do ensino primário, realizou exames físicos em 106.085 de um total de 128.878 alunos no ano de 1936. Os resultados são alarmantes: o maior número de casos foi de doenças de ouvido, nariz e garganta, com 9.564 meninos e 8.595 meninas, totalizando 18.159 crianças. No total, 43.677 alunos, quase metade dos examinados, apresentavam algum tipo de enfermidade, e 273 tiveram sua matrícula adiada. Essa é a deplorável e surpreendente realidade de uma cidade insalubre.
+
+A distribuição das doenças entre as crianças é a seguinte:
+- Oftalmologia: 4.152 meninos, 9.223 meninas.
+- Dermatologia: 2.468 meninos, 1.492 meninas.
+- Hérnia, sopro cardíaco, catarro brônquico: 2.535 meninos, 1.909 meninas.
+- Problemas ósseos, articulares e musculares: 847 meninos, 560 meninas.
+
+Ademais, a alta incidência de miopia entre nosso povo é um fato notório mundialmente. Uma pesquisa conduzida pela Divisão de Educação Física do Ministério da Educação com estudantes de todos os níveis revelou resultados verdadeiramente assustadores.
+
+Enquanto em 1922, a porcentagem de miopia no ensino primário era de 12,93% para meninos e 15,27% para meninas, em 1930, esses números subiram para 16,24% e 19,69%, respectivamente. Em outras instituições de ensino, a comparação entre 1920 e 1930 mostra os seguintes percentuais:
+
+| Instituição | 1920 | 1930 |
+| :--- | :--- | :--- |
+| Escolas Secundárias Femininas | 16,63% | 34,07% |
+| Escolas Secundárias Masculinas | 21,75% | 36,33% |
+| Escolas Profissionalizantes | 21,72% | 34,38% |
+| Escolas Normais (Masculino) | 26,65% | 43,65% |
+| Escolas Normais (Feminino) | 19,23% | 40,25% |
+| Escolas Superiores (Masculino) | 41,53% | 42,71% |
+| Escolas Superiores (Feminino) | 20,55% | 53,98% |
+
+Em termos gerais, isso significa que uma criança que entra no ensino primário com 15% de chance de ter miopia, ao chegar ao ensino médio, vê essa probabilidade aumentar para 20%, e ao ingressar no ensino superior, para 50%. Se somarmos a isso os casos de presbiopia, astigmatismo e estrabismo em pessoas com mais de cinquenta anos, concluímos que cerca de 60% a 70% da população ativa em nossa sociedade enfrenta dificuldades que, ao gerarem um desgaste nervoso desnecessário, reduzem sua eficiência.
+
+A seguir, apresentamos as principais causas de morte em nosso país, segundo uma pesquisa de 1936.
+
+De acordo com o Gabinete de Estatísticas do Conselho de Ministros, do total de 1.234.000 mortes em 1934, mais de 131.500 foram causadas por tuberculose (respiratória e outras), o que corresponde a uma taxa de 106,5 por mil óbitos. Em seguida, vêm diarreia e enterite, com mais de 127.000 mortes (taxa de 103,6); pneumonia, com mais de 124.000 (taxa de 100,5); e hemorragia e trombose cerebral, com mais de 114.000 (taxa de 92,7). Fica claro, portanto, que a tuberculose é a doença mais temível.
+
+Quanto à faixa etária, a maioria das mortes por diarreia, enterite e pneumonia ocorre em bebês com menos de um ano de idade, enquanto as mortes por hemorragia e trombose cerebral são mais frequentes em pessoas entre 55 e 79 anos. Contudo, o que exige a máxima atenção é o fato de a tuberculose ceifar predominantemente a vida de jovens entre 15 e 29 anos.
+
+No jornal Tokyo Nichi Nichi Shimbun de 3 de junho de 1936, lia-se o seguinte artigo:
+
+(Preâmbulo omitido)
+“A altura e o peso aumentaram, o que à primeira vista parece um bom resultado. No entanto, o aumento do peso não acompanha o da altura, as doenças tuberculosas crescem notavelmente, e a miopia e as cáries se tornam cada vez mais comuns. Esta é uma questão de grande preocupação nacional. Recentemente, diversos esportes se popularizaram com grande vigor entre o povo. Seria lógico supor que a constituição e a saúde da nação estivessem melhorando progressivamente. Por que, então, o físico de nossos jovens se encontra nesta situação pessimista? Certamente, não pode haver muitos elementos de acaso em tal questão. É imperativo que investiguemos a fundo as causas e não apenas eliminemos essa preocupação, mas também coloquemos a constituição de nosso povo em uma trajetória de melhora. Este deve ser um dos pilares da renovação nacional.
+
+As causas do declínio físico dos jovens devem, naturalmente, ser investigadas por especialistas, e os resultados indicarão como devemos aprimorar os métodos de formação de nossas crianças e jovens. De modo geral, porém, os quatro fatores de maior impacto no desenvolvimento infantojuvenil parecem ser o ambiente, a alimentação, os estudos e o exercício. A influência do ambiente sobre o corpo é inegável. Contudo, embora a proporção de habitantes urbanos em nossa população aumente a cada ano e a agitação das cidades se intensifique, as instalações sanitárias também estão sendo gradualmente melhoradas, de modo que não se acredita haver uma grande mudança no impacto ambiental. A correlação entre alimentação e o corpo físico é por demais conhecida, mas os hábitos alimentares do povo mudam com o tempo. O aumento das cáries, por exemplo, pode estar relacionado a essas mudanças, tornando a higiene alimentar uma grande questão de saúde pública a ser estudada por especialistas e profissionais. No entanto, como o padrão de vida geral da nação tem melhorado, é improvável que a alimentação esteja exercendo uma influência tão negativa sobre a constituição dos jovens. Restam, portanto, as áreas dos estudos e da educação física.
+
+A carga de estudos imposta aos alunos em nossas escolas primárias, secundárias e outras instituições tornou-se um grande problema. Em particular, os malefícios da educação preparatória para os exames de admissão são amplamente criticados. A experiência mostra que o estudo em medida adequada traz bons resultados para o corpo, mas é evidente que o excesso ou o desequilíbrio nos estudos é prejudicial à saúde. Especialmente o aprendizado passivo e mecânico, desprovido de interesse, causa uma fadiga extrema do corpo e da mente. Por outro lado, no campo da educação física, a ginástica escolar tem sido gradualmente aprimorada, o treinamento militar foi incluído e os esportes têm sido incentivados. Diante desse cenário, o fato de o físico dos jovens estar se tornando tão frágil não indicaria a existência de alguma falha?”
+
+Posteriormente, em 30 de julho de 1940, o jornal Yomiuri Shimbun publicou o seguinte artigo:
+
+**“Seria o excesso de foco na educação física a causa? Casos de tuberculose em novos alunos acendem um sinal de alerta para o novo sistema de ingresso.”**
+
+“No momento em que a atenção de todos se volta para os efeitos que os exames de ingresso no ensino médio deste ano — que aboliram as disciplinas acadêmicas para dar ênfase à educação física — tiveram sobre os alunos, uma escola secundária em uma cidade da região de Kansai registrou um número crescente de abandonos por tuberculose entre os recém-ingressos. O fato gerou críticas aos malefícios do foco excessivo na educação física e, com a aproximação do período de preparação para o próximo ano letivo, lançou um debate entre as autoridades do ensino primário e as famílias em geral.
+
+Sobre este assunto, ouvimos o Dr. Masayasu Kusumoto, da Divisão de Tuberculose do Ministério da Saúde e Bem-Estar.
+
+O fato de alunos do primeiro ano do ensino médio, recém-ingressos, estarem abandonando a escola por tuberculose é um problema grave. Geralmente, a idade de contágio da tuberculose é mais comum entre os 15 e os 20 anos, mas nas áreas urbanas, muitas crianças são infectadas durante o ensino primário. Na cidade de Osaka, por exemplo, um levantamento entre alunos do primeiro ao sexto ano revelou uma taxa de infecção surpreendente de 70%. Em Tóquio, embora um pouco menor, ainda assim metade das crianças está infectada.
+
+O período de um ano após o bacilo da tuberculose se alojar nos pulmões é o mais crítico. Se, durante esse tempo, o corpo se esgota devido a exercícios ou esportes excessivos e a resistência ao bacilo diminui, a doença se manifesta. No entanto, se esse período crítico de um ano transcorrer sem intercorrências, os bacilos se calcificam, e o corpo desenvolve uma imunidade à tuberculose, evitando a manifestação da doença. O problema é que, no ensino primário, os exames de saúde se resumem a uma simples ausculta com estetoscópio, o que impede uma avaliação clara do estado de perigo das crianças infectadas. Consequentemente, as atividades físicas na escola são aplicadas de forma uniforme a todos. Os alunos, de alguma forma, superam esse esforço e passam nos testes físicos, como a barra fixa, para ingressar no ensino médio. Lá, as atividades físicas se tornam ainda mais intensas, e os alunos que estão no período crítico de um ano após o contágio são forçados a abandonar os estudos devido ao avanço da doença. É uma situação lamentável.
+
+Os sintomas iniciais da tuberculose — febre baixa, cansaço e perda de apetite — são percebidos por aqueles com constituição mais fraca. No entanto, quanto mais robusta a pessoa, menos perceptíveis são os sintomas, o que a leva a continuar se exercitando até que seu corpo não suporte mais, e só então se dá conta da gravidade. A atenção das escolas é necessária, mas para prevenir o perigo nesse período crítico, as famílias devem ter um cuidado redobrado. É fundamental verificar cientificamente, por meio de exames de saúde, o momento e o grau da infecção. Aqueles que apresentarem sinais incipientes da doença devem cessar os exercícios intensos e se dedicar ao tratamento.”
+
+Para concluir, vejamos a situação recente do problema da saúde pública na Grã-Bretanha.
+
+No último ano, foram gastos duzentos milhões de libras em saúde pública, mas a constituição física do povo continua a declinar. Além disso, os custos apenas com tratamento médico somam trezentos milhões de libras anuais, totalizando um gasto colossal de quinhentos milhões de libras (equivalente a cinco bilhões de ienes pela taxa de câmbio padrão). O temor de que essa despesa aumente ainda mais tornou-se uma questão parlamentar, e Sua Majestade, o Rei da Grã-Bretanha, mencionou o problema em um recente discurso.
+
+O professor Ryle, da Universidade de Edimburgo, alertou: “Se nos esforçarmos na educação física nacional por dois anos, teremos a perspectiva de uma grande melhora na constituição de nosso povo. Caso contrário, serão necessárias duas gerações para recuperar a robustez física de outrora.” E concluiu: “Vejam o fraco desempenho da Grã-Bretanha nos Jogos Olímpicos. É difícil acreditar que estes sejam os britânicos, um povo com a história dos campos de desporto de Eton.”
+
+---
+
+# A Causa Primordial dos Males Sociais
+
+**Categoria:** ko | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 膏薬張の救い | **Status:** Published
+
+## A Causa Primordial dos Males Sociais
+
+As instituições de amparo àqueles que, enfermos, não podem consultar um médico, ou que, em virtude da pobreza, não têm o que comer, bem como aos idosos e órfãos em situação de desamparo, encontram-se socialmente cada vez mais consolidadas. O Exército de Salvação, por exemplo, alegra os pobres com suas refeições beneficentes. Tais iniciativas são, inegavelmente, louváveis; sua existência é infinitamente preferível à sua ausência.
+
+Contudo, o fato de o número de pessoas desafortunadas aumentar continuamente, a um ponto que se torna impossível assisti-las a todas, revela uma questão de maior relevância: a necessidade de purificar a causa primordial de tamanho infortúnio.
+
+É precisamente nesse ponto que reside a missão da religião. Observa-se que o contingente policial cresce em uma proporção superior à da própria população. Relata-se que os magistrados, sobrecarregados de trabalho, adotaram a política de proferir sentenças o mais celeremente possível. Presídios e hospícios são incessantemente ampliados. Embora tais estabelecimentos sejam medidas inevitáveis diante da atual conjuntura, não constituem motivo de honra para a sociedade.
+
+Ao observarmos tais fenômenos sociais, é inadmissível que um religioso permaneça impassível. Qual é a verdadeira causa dos males que afligem a sociedade? Todas as coisas possuem uma causa e, consequentemente, um efeito. No entanto, as obras de caridade, a polícia e os tribunais dedicam-se a remediar os efeitos, e não a sanar a causa. Qual é, então, a origem de todos os pecados e de toda a infelicidade? É a alma humana. Somente através da purificação da alma a sociedade poderá prosperar.
+
+A missão da religião fundamenta-se exatamente nisso. Trata-se de uma autoridade que nenhum outro campo do saber pode sequer aspirar alcançar, e é aí que se encontra sua nobre e sublime razão de existir. Ignorar esse propósito é privar a religião de seu próprio significado.
+
+Embora assim o seja, os religiosos da atualidade demonstram considerável atividade. Existem inúmeros, senão centenas de milhares de centros de pregação, igrejas, templos, missionários, capelães e pregadores. Causa estranheza, portanto, que os males sociais se agravem cada vez mais. Seria por falta de esforço ou por negligência da parte daqueles que se dedicam a instruir? De modo algum. Eles se empenham arduamente nos púlpitos, nas ruas e no trato individual, bradando suas palavras até a exaustão. Se, apesar de tamanha dedicação, os resultados esperados não se concretizam, é porque algo essencial lhes falta.
+
+A religião de poder, capaz de solucionar integralmente todas essas complexas questões, é o Movimento de Kannon (観音) de nossa Kannon-kai (観音会).
+
+---
+
+# Diretrizes de Meishu-Sama
+
+**Categoria:** ko | **Ano:** 昭和25(1950)年5月20日 | **Fonte:** Kyusei
+**Título Original:** 御注意 | **Status:** Published
+
+## Diretrizes de Meishu-Sama
+
+Meishu-Sama manifestou grande alegria ao tomar conhecimento dos inúmeros relatórios provenientes de diversas localidades, embora, segundo Suas palavras, fossem resultados já antecipados. Contudo, Ele expressou que relatórios baseados em meras projeções são insuficientes e orientou que, doravante, Lhe sejam apresentados unicamente os relatos de resultados concretos.
+
+Outrossim, foi abordada a questão da Renge (紫雲英). Seu uso como fertilizante é inadmissível, pois trata-se de uma flor de notável beleza, criada por Deus com o sublime propósito de deleitar o olhar humano. Utilizá-la como adubo constitui, portanto, um desvio do Princípio Divino.
+
+---
+
+# Sobre o Kototama
+
+**Categoria:** ko | **Ano:** 昭和25(1950)年 | **Fonte:** 聖書
+**Título Original:** 言霊について 未発表、昭和25(1950)年 彼の | **Status:** Unpublished
+
+## Sobre o Kototama
+
+Na Bíblia Sagrada, encontramos a passagem: “No princípio era o Verbo, e todas as coisas foram feitas por ele”. Essa afirmação refere-se à atividade do Kototama (言霊), o Verbo-Alma. A esse respeito, discorrerei sobre seu significado fundamental.
+
+O Kototama, naturalmente, é constituído e projetado pela voz humana e pela atividade da língua, dos lábios e do maxilar. Contudo, sua fonte primordial é, inegavelmente, o pensamento que se anseia expressar por meio das palavras. O pensamento, por sua vez, é uma manifestação da vontade. Em termos simples, quando um anseio emerge no ser humano, o pensamento atua para vertê-lo em palavras. Evidentemente, a atividade do pensamento envolve também a faculdade do discernimento entre o correto e o incorreto, o bem e o mal, o sucesso e o fracasso. A síntese de todos esses elementos constitui a sabedoria.
+
+O Kototama é a materialização dessa sabedoria, e a ação é a materialização do Kototama. De acordo com este princípio, não há erro em compreender o processo em três estágios: pensamento, palavra e ação.
+
+Partindo dessa premissa, o pensamento pertence ao Mundo Espiritual, a palavra pertence ao Mundo Genrei (言霊), e a ação, ao Mundo Fenomênico. Em outras palavras, o Kototama ocupa uma posição intermediária entre o plano espiritual e o material; pode-se considerá-lo o mediador entre o pensamento e a ação. Essa perspectiva, por si só, já revela a imensa importância do Kototama.
+
+O Kototama assemelha-se a um mestre de marionetes, capaz de manifestar, com total liberdade, tanto espíritos malignos quanto divindades. Provocar a ira ou o riso, instilar a preocupação ou a serenidade, semear a tristeza ou a alegria; suscitar a discórdia ou promover a harmonia; conduzir ao fracasso ou ao sucesso, tudo depende do Kototama. Utilizar de modo leviano um poder de tamanha magnitude é, sem dúvida, de uma periculosidade extrema.
+
+Todavia, por mais que se manipule o Kototama com destreza, tal habilidade, isoladamente, não passa de mera técnica, semelhante à dos contadores de histórias e comediantes. Para que o Kototama possua real significado, é imprescindível que em sua raiz exista uma força capaz de lhe conferir um poder grandioso. E essa força, por sua vez, distingue-se entre o bem e o mal.
+
+Com efeito, enquanto as palavras malignas constituem o pecado, as palavras benignas edificam a virtude. Diante disso, o ser humano deve se empenhar para utilizar palavras plenas de bem. A essência da palavra benigna é, inquestionavelmente, a sinceridade, e como a sinceridade provém de Deus, torna-se imperativo reconhecer Sua existência. Sendo assim, somente aquele que possui fé é capaz de manifestar a verdadeira sinceridade. Consequentemente, sem fé, é impossível que a força benéfica do Kototama se manifeste.
+
+---
+
+# O Destino do Mundo
+
+**Categoria:** ko | **Ano:** 昭和28(1953)年4月29日 | **Fonte:** Eikou
+**Título Original:** これから世界はどうなる | **Status:** Published
+
+## O Destino do Mundo
+
+Poucas questões se afiguram tão magnas quanto o porvir do mundo. Pretendo discorrer brevemente sobre o tema, e para tanto, começarei por abordar o súbito desaparecimento daquela figura extraordinária que foi Stálin.
+
+A teoria comunista, concebida há cerca de um século por Karl Marx e Engels, não passava, à época, de um mero ideal, objeto de estudo para acadêmicos e bandeira de alguns movimentos sociais. Contudo, sua materialização ocorreu mais cedo do que se esperava pelas mãos de Lênin, um evento ainda recente em nossa memória, que logrou derrubar o regime Romanov em um instante. Lênin, porém, partiu deste mundo quando sua obra mal começara, sendo sucedido por Stálin. Este, por sua vez, dedicou mais de trinta anos à hercúlea tarefa de edificar um poderoso Império Comunista. A magnitude de seu feito é, em si, um espetáculo histórico digno de nota. Portanto, independentemente de juízos de valor sobre o bem e o mal, ele se inscreve como um dos grandes vultos da História.
+
+Impõe-se, agora, uma reflexão sobre o futuro da União Soviética após a morte de Stálin e, por conseguinte, sobre o destino do próprio comunismo. Seu sucessor, Malenkov, embora seja uma figura de certa competência, certamente não possui a mesma envergadura de seu predecessor. É improvável, portanto, que a era de apogeu stalinista se repita. Arrisco-me a dizer, e creio não ser o único, que os dias de glória do comunismo chegaram ao fim e que, a partir de agora, inicia-se seu paulatino declínio. Tal impressão se fortalece ao observarmos a súbita reviravolta em sua política externa, que, pouco tempo após sua morte, passou a promover uma ostensiva ofensiva de paz.
+
+Deixando esse ponto de lado, voltemo-nos agora para o futuro dos Estados Unidos. É verdade que, em comparação com a era de Stálin, a nação desfrutará de um período de maior tranquilidade, mas seria imprudente baixar a guarda. Afinal, ainda que de forma discreta, a União Soviética prossegue fortalecendo seu aparato militar, como se pode depreender de recentes despachos internacionais. Nesse sentido, a declaração do presidente Eisenhower, de que manterá por mais algum tempo o nível de investimento em armamentos, evidencia essa realidade. Diante desse quadro, o caminho para a paz mundial se revela, inegavelmente, cada vez mais distante e árduo.
+
+Através da Revelação Divina, contudo, posso vislumbrar que aquela nação enfrentará, em um futuro próximo, uma provação de magnitude praticamente sem precedentes. Embora não me seja permitido, por ora, expor os pormenores desta questão, posso adiantar que tal acontecimento servirá de estopim para uma Grande Transformação Mundial. Seus efeitos se estenderão gradualmente por todas as esferas da cultura: a religião, a política, a economia, a educação, a medicina e assim por diante. A União Soviética, igualmente, passará por uma drástica mudança. Como resultado de todo esse processo, uma nova ideologia nascerá, e o mundo de paz e felicidade tão almejado pela humanidade entrará, finalmente, na senda da concretização.
+
+E que nova ideologia seria essa? Ela não se enquadra nem como comunismo, nem como socialismo, capitalismo ou democracia. Não pende à esquerda, tampouco à direita, e não pode ser definida como neutra. Trata-se de algo que podemos denominar Ideologia de Izunome (伊都能売), um pensamento cultural de altíssima elevação. Com o tempo, será essa a ideologia que norteará os rumos do mundo. Isto representa a manifestação do profundo Plano Divino, e por ser de natureza irrevogável, concretizar-se-á, independentemente da vontade humana. Assim, será edificado aquilo que constitui o lema de nossa Fé: um mundo eterno, isento de doença, pobreza e conflito – o Paraíso Terrestre.
+
+Contudo, é preciso estar ciente de que, até sua plena realização, o percurso será repleto de vicissitudes, adversidades e momentos de grande confusão. Por essa razão, é fundamental que cada um se prepare com a devida antecedência. E essa preparação consiste, obviamente, em se devotar por completo à fé. Por meio dela, qualquer provação se torna mais branda, e é justamente nisso que podemos encontrar o Grande Amor de Deus.
+
+Em suma, o fundamento desta Grande Transição Mundial repousa sobre um princípio literal: a destruição do mal e a prosperidade do bem, inaugurando uma nova era. Aquele que não consegue crer em tal desígnio é, em verdade, um ser digno de compaixão, e seu nome é ateu.
+
+---
+
 # Sobre a Felicidade
 
 **Categoria:** ko | **Ano:** 昭和23(1948)年12月 | **Fonte:** Chijo Tengoku
+**Título Original:** 幸福 | **Status:** Published
 
 ## Sobre a Felicidade
 
@@ -27,6 +618,7 @@ Contudo, muitos poderão dizer que, neste mundo de sofrimentos, é impossível s
 # As Consequências do Afastamento da Fé
 
 **Categoria:** ko | **Ano:** 昭和26(1951)年6月6日 | **Fonte:** Eikou
+**Título Original:** 此事実を見よ | **Status:** Published
 
 ## As Consequências do Afastamento da Fé
 
@@ -70,6 +662,7 @@ Meishu-Sama, muito obrigada. Dedicar-me-ei de corpo e alma.
 # Como Encarar a Realidade
 
 **Categoria:** ko | **Ano:** 昭和11(1936)年6月15日 | **Fonte:** Kenko
+**Título Original:** 此事実を如何に見るか | **Status:** Published
 
 ## Como Encarar a Realidade
 
@@ -88,6 +681,7 @@ Nesse sentido, divulgaremos sucessivamente exemplos que demonstram o quão imens
 # O Único Caminho para a Salvação
 
 **Categoria:** ko | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 此救い 未発表 | **Status:** Unpublished
 
 ## O Único Caminho para a Salvação
 
@@ -102,6 +696,7 @@ Conforme demonstra o referido caso, no qual se obteve a salvação onde tanto a 
 # Relato sobre uma Anciã e os Espíritos de Raposa
 
 **Categoria:** ko | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
+**Título Original:** 狐霊と老婆 | **Status:** Published
 
 ## Relato sobre uma Anciã e os Espíritos de Raposa
 
@@ -130,6 +725,7 @@ Nesse sentido, as profissões que exercemos no Mundo Material determinam nosso d
 # Tanbankan: A Visão Obstruída pelo Materialismo
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年8月20日 | **Fonte:** -
+**Título Original:** 担板漢 寸評（光23号） 白光生 | **Status:** Published
 
 ## Tanbankan: A Visão Obstruída pelo Materialismo
 
@@ -142,6 +738,7 @@ Trata-se de uma analogia precisa para o materialismo que prevalece em nossos dia
 # Um Apelo à Consciência Nacional
 
 **Categoria:** ko | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
+**Título Original:** 此事実 | **Status:** Published
 
 ## Um Apelo à Consciência Nacional
 
@@ -168,6 +765,7 @@ Quanto antes o fizerem, maior será o benefício para a Nação. Disso não tenh
 # O que este fato nos revela
 
 **Categoria:** ko | **Ano:** 昭和28(1953)年9月10日 | **Fonte:** 世界Kyusei教奇蹟集
+**Título Original:** この事実は何を物語るか | **Status:** Published
 
 ## O que este fato nos revela
 
@@ -234,6 +832,7 @@ Gostaria de acrescentar que, há dois anos, convertemos totalmente nossa lavoura
 # Mais uma vítima da terapêutica médica
 
 **Categoria:** ko | **Ano:** 昭和27(1952)年12月3日 | **Fonte:** Eikou
+**Título Original:** これも医療の被害者 | **Status:** Published
 
 ## Mais uma vítima da terapêutica médica
 
@@ -280,6 +879,7 @@ Meishu-Sama, muito obrigado.
 # Como criar filhos saudáveis
 
 **Categoria:** ko | **Ano:** 昭和26(1951)年3月14日 | **Fonte:** Eikou
+**Título Original:** 子供を健康にするには | **Status:** Published
 
 ## Como criar filhos saudáveis
 
@@ -304,6 +904,7 @@ Nesse sentido, rogo encarecidamente que não apenas as autoridades competentes, 
 # A Face da Sociedade Contemporânea
 
 **Categoria:** ko | **Ano:** 昭和25(1950)年1月28日 | **Fonte:** -
+**Título Original:** 今日の世相 | **Status:** Published
 
 ## A Face da Sociedade Contemporânea
 
@@ -324,6 +925,7 @@ Por tudo isso, torna-se imperativo formar o maior número possível de fiéis. C
 # A Evidência Incontestável dos Milagres
 
 **Categoria:** ko | **Ano:** 昭和27(1952)年10月1日 | **Fonte:** Eikou
+**Título Original:** これでもか | **Status:** Published
 
 ## A Evidência Incontestável dos Milagres
 
@@ -374,6 +976,7 @@ Muito obrigado, Meishu-Sama.
 # A Proteção Divina nas Profundezas da Terra
 
 **Categoria:** ko | **Ano:** 昭和28(1953)年1月21日 | **Fonte:** Eikou
+**Título Original:** この奇蹟をどう見る | **Status:** Published
 
 ## A Proteção Divina nas Profundezas da Terra
 
@@ -447,6 +1050,7 @@ Mais uma vez, tive a permissão de testemunhar o milagre de que, ao acumularmos 
 # O Início da Obra Divina em Tamagawa
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年12月30日 | **Fonte:** Hikariへの道
+**Título Original:** 玉川時代 自観叢書第9篇 | **Status:** Published
 
 ## O Início da Obra Divina em Tamagawa
 
@@ -474,6 +1078,7 @@ Conforme o esperado, a Obra prosperou gradualmente, tornando-se conhecida na reg
 # Sobre o Grave Problema da Saúde Pública
 
 **Categoria:** ko | **Ano:** 昭和11(1936)年 | **Fonte:** 刻下の大問題たる国民保健に就て
+**Título Original:** 刻下の大問題たる国民保健に就て | **Status:** Unpublished
 
 ## Sobre o Grave Problema da Saúde Pública
 
@@ -494,6 +1099,7 @@ Em suma, a resolução do problema reside na descoberta de sua verdadeira causa.
 # A Ineficácia do Tratamento Sintomático
 
 **Categoria:** ta | **Ano:** 昭和26(1951)年7月25日 | **Fonte:** Eikou
+**Título Original:** 対症療法の可否 | **Status:** Published
 
 ## A Ineficácia do Tratamento Sintomático
 
@@ -510,6 +1116,7 @@ Como se vê, todo e qualquer sintoma patológico possui, invariavelmente, uma or
 # A Desnecessidade do Termômetro
 
 **Categoria:** ta | **Ano:** 昭和27(1952)年5月28日 | **Fonte:** Eikou
+**Título Original:** 体温計 医学断片集（10） | **Status:** Published
 
 ## A Desnecessidade do Termômetro
 
@@ -526,6 +1133,7 @@ A análise deste único ponto, por si só, é suficiente para demonstrar a profu
 # O Mistério da Chegada de Daikoku-sama
 
 **Categoria:** ta | **Ano:** 昭和10(1935)年2月4日 | **Fonte:** Hikari明世界
+**Título Original:** 大黒様のお話 ――会主の御講話の続き―― | **Status:** Published
 
 ## O Mistério da Chegada de Daikoku-sama
 
@@ -558,6 +1166,7 @@ Por fim, àqueles que desejarem entronizar uma imagem de Daikoku-sama, coloco-me
 # A Verdade sobre os Princípios Vertical e Horizontal
 
 **Categoria:** ta | **Ano:** 昭和27(1952)年 | **Fonte:** Bunmei no Sozo
+**Título Original:** 経と緯 未発表 | **Status:** Unpublished
 
 ## A Verdade sobre os Princípios Vertical e Horizontal
 
@@ -580,6 +1189,7 @@ Dessa forma, a verdade é que o Vertical é elevado, porém restrito, enquanto o
 # O Amor Universal
 
 **Categoria:** ta | **Ano:** 昭和27(1952)年7月23日 | **Fonte:** Kyusei
+**Título Original:** 大乗愛 | **Status:** Published
 
 ## O Amor Universal
 
@@ -596,6 +1206,7 @@ Nesse sentido, para que uma religião seja considerada verdadeira, ela não deve
 # A Incontestável Realidade dos Fatos
 
 **Categoria:** ko | **Ano:** 昭和28(1953)年6月3日 | **Fonte:** Eikou
+**Título Original:** この事実を何と見る | **Status:** Published
 
 ## A Incontestável Realidade dos Fatos
 
@@ -642,6 +1253,7 @@ Meishu-Sama, renovo minha mais profunda e sincera gratidão.
 # A Verdadeira Causa do Declínio da Constituição Física
 
 **Categoria:** ta | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第一編
+**Título Original:** 体位低下の真因 | **Status:** Published
 
 ## A Verdadeira Causa do Declínio da Constituição Física
 
@@ -668,6 +1280,7 @@ Ao chegar, por mais que procurasse, não havia qualquer elixir a ser encontrado.
 # Acerca dos Espíritos de Raposa
 
 **Categoria:** ko | **Ano:** 昭和24(1949)年9月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 狐霊に就て | **Status:** Published
 
 ## Acerca dos Espíritos de Raposa
 
@@ -728,6 +1341,7 @@ Com efeito, é comum que os espíritos de raposa afirmem que o que mais gostam �
 # A Terceira Religião
 
 **Categoria:** ta | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 第三宗教 (再録) 自観叢書12編 | **Status:** Published
 
 ## A Terceira Religião
 
@@ -750,6 +1364,7 @@ O que foi exposto é uma explanação bastante sucinta. Em suma, trata-se de uma
 # A Questão da Constituição Física
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年1月14日 | **Fonte:** Eikou
+**Título Original:** 体質 ・医学断片集（26） | **Status:** Published
 
 ## A Questão da Constituição Física
 
@@ -764,6 +1379,7 @@ A evidência irrefutável de nosso postulado reside no Johrei. Ao ministrá-lo, 
 # Elucidação sobre a Agricultura Natural e seu Aumento Revolucionário da Produção
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年5月5日 | **Fonte:** 革命的増産のShizen Noho Kaisetsu
+**Título Original:** 断片 ・体験談中に挿入されたもの | **Status:** Published
 
 ## Elucidação sobre a Agricultura Natural e seu Aumento Revolucionário da Produção
 
@@ -812,6 +1428,7 @@ Existem pessoas que, mesmo lendo ou ouvindo minhas explanações, não conseguem
 # O Segundo Milagre Extraordinário
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 第二の超奇蹟 未発表 | **Status:** Unpublished
 
 ## O Segundo Milagre Extraordinário
 
@@ -830,6 +1447,7 @@ Em suma, este é o fenômeno que manifesta, na prática, a verdade de que o esp�
 # Um método para que todos possam ganhar peso
 
 **Categoria:** ta | **Ano:** 昭和26(1951)年1月10日 | **Fonte:** Eikou
+**Título Original:** 誰でも太れる法 | **Status:** Published
 
 ## Um método para que todos possam ganhar peso
 
@@ -850,6 +1468,7 @@ Sendo assim, todos que conhecerem este método poderão evitar a tuberculose e, 
 # A Origem do Declínio da Constituição Física
 
 **Categoria:** ta | **Ano:** 昭和18(1943)年10月5日 | **Fonte:** Asu no Ijutsu 第一編
+**Título Original:** 体位抵下の真因 | **Status:** Published
 
 ## A Origem do Declínio da Constituição Física
 
@@ -874,6 +1493,7 @@ Diante disso, até mesmo o célebre Xu Fu não pôde retornar à sua terra natal
 # A Terceira Religião
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年6月18日 | **Fonte:** -
+**Título Original:** 第三宗教 | **Status:** Published
 
 ## A Terceira Religião
 
@@ -894,6 +1514,7 @@ O que foi exposto até aqui é apenas uma explanação sumária. Em síntese, é
 # É Possível Evitar a Terceira Guerra Mundial
 
 **Categoria:** ta | **Ano:** 昭和26(1951)年10月17日 | **Fonte:** Eikou
+**Título Original:** 第三次戦争は免れる事が出来る | **Status:** Published
 
 ## É Possível Evitar a Terceira Guerra Mundial
 
@@ -922,6 +1543,7 @@ Creio que o essencial foi compreendido. Em suma, afirmo sem qualquer hesitação
 # Meramente Vivendo
 
 **Categoria:** ta | **Ano:** 昭和26(1951)年4月25日 | **Fonte:** Eikou
+**Título Original:** 只生きている 阿呆文学（九） | **Status:** Published
 
 ## Meramente Vivendo
 
@@ -948,6 +1570,7 @@ Pois bem, adeus.
 # O Banho Interno do Corpo
 
 **Categoria:** ta | **Ano:** 昭和27(1952)年3月12日 | **Fonte:** Kyusei
+**Título Original:** 体内の入浴 | **Status:** Published
 
 ## O Banho Interno do Corpo
 
@@ -970,6 +1593,7 @@ Eu não apenas descobri este erro monumental da humanidade, como também ensino 
 # O Tratamento Correto
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年10月29日 | **Fonte:** -
+**Título Original:** 正しい治療 ・医薬断片集 | **Status:** Published
 
 ## O Tratamento Correto
 
@@ -986,6 +1610,7 @@ Ao que parece, o mundo está repleto de inúmeros contrassensos.
 # A Localização de Takamagahara
 
 **Categoria:** ta | **Ano:** 昭和11(1936)年1月25日 | **Fonte:** Hikari明世界
+**Título Original:** 高天原の所在地 | **Status:** Published
 
 ## A Localização de Takamagahara
 
@@ -1012,6 +1637,7 @@ O Cristianismo, por exemplo, instituiu a prática de ir à igreja todos os domin
 # Uma Análise Espiritual sobre os Tufões
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年7月29日 | **Fonte:** Eikou
+**Título Original:** 台風の霊的考察 | **Status:** Published
 
 ## Uma Análise Espiritual sobre os Tufões
 
@@ -1036,6 +1662,7 @@ Portanto, a única solução definitiva consiste em, sem jamais negligenciar os 
 # Manifesto e Regulamento da Associação de Saúde do Grande Japão
 
 **Categoria:** ta | **Ano:** 昭和11(1936)年6月15日 | **Fonte:** Kenko
+**Título Original:** 大日本健康協会主旨及び会則 | **Status:** Published
 
 ## Manifesto e Regulamento da Associação de Saúde do Grande Japão
 
@@ -1087,6 +1714,7 @@ Telefone: Kudan (33) 196
 # Mahayana e Hinayana
 
 **Categoria:** ta | **Ano:** 昭和25(1950)年12月6日 | **Fonte:** Eikou
+**Título Original:** 大乗と小乗 | **Status:** Published
 
 ## Mahayana e Hinayana
 
@@ -1113,6 +1741,7 @@ Creio que, com esta explanação, os aspectos gerais do Mahayana e do Hinayana f
 # A Urgência de uma Verdadeira Salvação
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 体験者の興味ある話 未発表 | **Status:** Unpublished
 
 ## A Urgência de uma Verdadeira Salvação
 
@@ -1127,6 +1756,7 @@ Como o exemplo desta senhora demonstra, muitas pessoas, mesmo professando com fe
 # Haverá realmente uma Terceira Guerra Mundial?
 
 **Categoria:** ta | **Ano:** 昭和27(1952)年9月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 第三次戦争は果して有る？ | **Status:** Published
 
 ## Haverá realmente uma Terceira Guerra Mundial?
 
@@ -1149,6 +1779,7 @@ Se for possível crer no que foi exposto, cada um deverá ser capaz de, por si m
 # A Grande Era de Terror se Aproxima
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年2月4日 | **Fonte:** Eikou
+**Título Original:** 大恐怖時代来らん | **Status:** Published
 
 ## A Grande Era de Terror se Aproxima
 
@@ -1181,6 +1812,7 @@ Por fim, resta-me apenas uma advertência. De agora em diante, todos deverão fa
 # A Essência da Poesia Tanka
 
 **Categoria:** ta | **Ano:** 昭和6(1931)年11月1日 | **Fonte:** 瑞Hikari
+**Título Original:** 短歌私言 | **Status:** Published
 
 ## A Essência da Poesia Tanka
 
@@ -1197,6 +1829,7 @@ Não seriam todas essas tendências, em última análise, uma forma de desvio do
 # A Origem das Calamidades Naturais e Humanas
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年8月13日 | **Fonte:** -
+**Título Original:** 大三災と小三災 | **Status:** Published
 
 ## A Origem das Calamidades Naturais e Humanas
 
@@ -1229,6 +1862,7 @@ Explorando esse princípio, os ambiciosos de mentalidade materialista de cada é
 # A Grande Guerra e a Ação Purificadora
 
 **Categoria:** ta | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
+**Título Original:** 大戦争と浄化作用 | **Status:** Published
 
 ## A Grande Guerra e a Ação Purificadora
 
@@ -1259,6 +1893,7 @@ Retomando a analogia com o corpo humano, será o momento em que coração, pulm�
 # A Fé e o Discernimento
 
 **Categoria:** ta | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 正しき信仰 | **Status:** Published
 
 ## A Fé e o Discernimento
 
@@ -1287,6 +1922,7 @@ Com base no que foi exposto, faço esta severa advertência para que, no caminho
 # A Perspectiva Abrangente
 
 **Categoria:** ta | **Ano:** 昭和26(1951)年11月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 大乗たれ | **Status:** Published
 
 ## A Perspectiva Abrangente
 
@@ -1307,6 +1943,7 @@ Em outras palavras, existem duas formas de amor: o Amor de Deus e o amor humano.
 # A Tese da Harmonia de Direitos entre Homens e Mulheres
 
 **Categoria:** ta | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
+**Título Original:** 男女合権論 | **Status:** Published
 
 ## A Tese da Harmonia de Direitos entre Homens e Mulheres
 
@@ -1325,6 +1962,7 @@ Ofereço este ensinamento aos casais de todo o mundo.
 # A Missão do Movimento Kannon
 
 **Categoria:** ta | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 大光明世界の建設 序論 | **Status:** Published
 
 ## A Missão do Movimento Kannon
 
@@ -1352,7 +1990,8 @@ Devo advertir, de antemão, que os escritos a seguir contêm, em sua maioria, pr
 
 # Uma Tese Estratégica sobre a Grande Guerra
 
-**Categoria:** ta | **Ano:** 昭和18(1943)年 | **Fonte:** 大東亜戦争戦略論
+**Categoria:** ta | **Ano:** 昭和18(1943)年 | **Fonte:** Dougi
+**Título Original:** 大東亜戦争戦略論 | **Status:** Unpublished
 
 ## Uma Tese Estratégica sobre a Grande Guerra
 
@@ -1429,6 +2068,7 @@ Pois cremos que a Providência e a Assistência Divinas se manifestam, infalivel
 # A Salvação do Sol
 
 **Categoria:** ta | **Ano:** 昭和27(1952)年11月19日 | **Fonte:** Eikou
+**Título Original:** 太陽の救い | **Status:** Published
 
 ## A Salvação do Sol
 
@@ -1459,6 +2099,7 @@ Como se pode depreender, nossa Igreja, por ser de grande veículo, engloba integ
 # O Tabaco e a Medicina
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年12月17日 | **Fonte:** -
+**Título Original:** 煙草と医学 | **Status:** Published
 
 ## O Tabaco e a Medicina
 
@@ -1475,6 +2116,7 @@ Ofereço, pois, estas reflexões à Diretoria do Monopólio do Tabaco e à Assoc
 # A Verdadeira Causa do Declínio da Constituição Física
 
 **Categoria:** ta | **Ano:** 昭和18(1943)年2月5日 | **Fonte:** Asu no Ijutsu（再版）第一編
+**Título Original:** 体位抵下の真因 | **Status:** Published
 
 ## A Verdadeira Causa do Declínio da Constituição Física
 
@@ -1497,6 +2139,7 @@ Adicionalmente, há o conhecido relato sobre o imperador chinês Qin Shi Huang. 
 # A Causa e a Cura da Hérnia
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 脱腸 | **Status:** Published
 
 ## A Causa e a Cura da Hérnia
 
@@ -1509,6 +2152,7 @@ A cura para tal afecção é facilmente alcançada por meio do Johrei de nossa I
 # Não Posso Permanecer Calado
 
 **Categoria:** ta | **Ano:** 昭和26(1951)年7月18日 | **Fonte:** Eikou
+**Título Original:** 黙っては居られない | **Status:** Published
 
 ## Não Posso Permanecer Calado
 
@@ -1562,6 +2206,7 @@ Meishu-Sama, muito obrigado.
 # A Religião Mahayana
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年10月25日 | **Fonte:** Chijo Tengoku
+**Título Original:** 大乗宗教 | **Status:** Published
 
 ## A Religião Mahayana
 
@@ -1588,6 +2233,7 @@ Creio que o homem moderno deveria refletir sobre o equívoco de sua visão tão 
 # A Falácia do Tratamento Sintomático
 
 **Categoria:** ta | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
+**Título Original:** 対症療法の不可 | **Status:** Published
 
 ## A Falácia do Tratamento Sintomático
 
@@ -1602,6 +2248,7 @@ Dessa forma, quando alguém se submete ao tratamento sintomático e a cura ocorr
 # A Elucidação sobre Daissen Sanzen Sekai
 
 **Categoria:** ta | **Ano:** 昭和26(1951)年1月1日 | **Fonte:** Eikou
+**Título Original:** 大千世界と三千世界 | **Status:** Published
 
 ## A Elucidação sobre Daissen Sanzen Sekai
 
@@ -1622,6 +2269,7 @@ Nossa Igreja, contudo, é a religião do Mundo do Dia. Sendo assim, a ordem corr
 # A Origem Espiritual das Calamidades
 
 **Categoria:** ta | **Ano:** 昭和28(1953)年10月14日 | **Fonte:** Eikou
+**Título Original:** 台風禍 | **Status:** Published
 
 ## A Origem Espiritual das Calamidades
 
@@ -1650,6 +2298,7 @@ Como se pode ver, tudo é fruto da ignorância humana. Ao tomar consciência des
 # Sobre o Mahayana e o Hinayana
 
 **Categoria:** ta | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
+**Título Original:** 大乗と小乗 | **Status:** Published
 
 ## Sobre o Mahayana e o Hinayana
 
@@ -1682,6 +2331,7 @@ Desde a antiguidade, diz-se que Kannon (観音) não é homem nem mulher e, ao m
 # A Missão Divina no Ano do Rato
 
 **Categoria:** ta | **Ano:** 昭和11(1936)年1月1日 | **Fonte:** Toho no Hikari
+**Título Original:** 大黒様と鼠 滑稽阿呆文学 | **Status:** Published
 
 ## A Missão Divina no Ano do Rato
 
@@ -1702,6 +2352,7 @@ Este é o verdadeiro Paraíso, o estado em que o mundo terreno se manifesta como
 # O Ponto de Origem de uma Grande Religião
 
 **Categoria:** ta | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 大宗教の発祥地点 | **Status:** Published
 
 ## O Ponto de Origem de uma Grande Religião
 
@@ -1724,6 +2375,7 @@ Até os dias de hoje, surgiram inúmeras religiões e salvadores, todavia, todos
 # Proposta de Medidas para a Aplicação de Nossa Terapia na Marinha
 
 **Categoria:** to | **Ano:** 昭和18(1943)年 | **Fonte:** 答申案
+**Título Original:** 答申案 | **Status:** Unpublished
 
 ## Proposta de Medidas para a Aplicação de Nossa Terapia na Marinha
 
@@ -1748,6 +2400,7 @@ Com isso, poderemos dar início aos tratamentos experimentais sem demora. Acresc
 # A Causa do Sismo na Região de Tochigi
 
 **Categoria:** to | **Ano:** 昭和25(1950)年2月4日 | **Fonte:** Kyusei
+**Título Original:** 栃木地方の地震の原因 | **Status:** Published
 
 ## A Causa do Sismo na Região de Tochigi
 
@@ -1764,6 +2417,7 @@ Esta é a explanação segundo a Meteorologia Divina e Espiritual.
 # A Religião Mahayana
 
 **Categoria:** ta | **Ano:** 昭和25(1950)年1月30日 | **Fonte:** 自観説話集
+**Título Original:** 大乗宗教 (再録) 自観叢書12編 | **Status:** Published
 
 ## A Religião Mahayana
 
@@ -1786,6 +2440,7 @@ Escrevi este ensaio com o propósito de instar o homem moderno a refletir sobre 
 # O Japão como Vértice do Mundo
 
 **Categoria:** to | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 東京が中心 | **Status:** Published
 
 ## O Japão como Vértice do Mundo
 
@@ -1804,6 +2459,7 @@ Essa irradiação da augusta Luz Divina aos oito cantos do mundo, centrada na fi
 # O Subterfúgio da “Constituição Física Peculiar”
 
 **Categoria:** to | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
+**Título Original:** 特異体質は逃げ言葉？ 未発表 | **Status:** Unpublished
 
 ## O Subterfúgio da “Constituição Física Peculiar”
 
@@ -1818,6 +2474,7 @@ Portanto, como se pode depreender do exposto, o fato de os médicos se verem com
 # A Essência da Maestria na Arte Cênica
 
 **Categoria:** ta | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 団十郎の芸 自観叢書第5編 | **Status:** Published
 
 ## A Essência da Maestria na Arte Cênica
 
@@ -1844,6 +2501,7 @@ Gostaria de discorrer também sobre mestres de outras áreas, mas, para não me 
 # A Construção do Mundo de Grande Luz
 
 **Categoria:** ta | **Ano:** 昭和10(1935)年2月4日 | **Fonte:** Hikari明世界
+**Título Original:** 大光明世界の建設 | **Status:** Published
 
 ## A Construção do Mundo de Grande Luz
 
@@ -1914,6 +2572,7 @@ Nossa missão é anunciar este fato a toda a humanidade, fazendo com que o mundo
 # A Inversão entre o Oriente e o Ocidente
 
 **Categoria:** to | **Ano:** 昭和10(1935)年5月21日 | **Fonte:** Hikari明世界
+**Título Original:** 東西愈々入れ替り 阿呆文学 | **Status:** Published
 
 ## A Inversão entre o Oriente e o Ocidente
 
@@ -1934,6 +2593,7 @@ De agora em diante, em perfeita sintonia com o Sol e a Lua celestiais, esta Luz 
 # Esclarecimentos sobre Críticas e Detratações
 
 **Categoria:** to | **Ano:** 昭和25(1950)年2月25日 | **Fonte:** Kyusei
+**Título Original:** 投書に就て | **Status:** Published
 
 ## Esclarecimentos sobre Críticas e Detratações
 
@@ -1956,6 +2616,7 @@ Se a missão precípua da religião é promover o bem, coibir o mal e edificar u
 # A Apreciação da Arte Cerâmica
 
 **Categoria:** to | **Ano:** 昭和24(1949)年8月30日 | **Fonte:** 自観隨談
+**Título Original:** 陶器 ･日本美術とその将来（4） 自観叢書第5編 | **Status:** Published
 
 ## A Apreciação da Arte Cerâmica
 
@@ -1984,6 +2645,7 @@ No que tange à cerâmica chinesa, o celadon ocupa um lugar de primazia, com tr�
 # Um Panorama da Arte Oriental
 
 **Categoria:** to | **Ano:** 昭和27(1952)年7月23日 | **Fonte:** Eikou
+**Título Original:** 東洋美術雑観 （１） | **Status:** Published
 
 ## Um Panorama da Arte Oriental
 
@@ -2014,6 +2676,7 @@ Com a transição do período Momoyama para o Tokugawa, a técnica alcançou um 
 # Um Panorama da Arte Chinesa
 
 **Categoria:** to | **Ano:** 昭和27(1952)年8月20日 | **Fonte:** Eikou
+**Título Original:** 東洋美術雑観 （４） | **Status:** Published
 
 ## Um Panorama da Arte Chinesa
 
@@ -2052,6 +2715,7 @@ Um fato interessante é que muitos mestres dessa época dedicaram a vida inteira
 # O Legado de Ogata Korin na Arte Universal
 
 **Categoria:** to | **Ano:** 昭和27(1952)年7月30日 | **Fonte:** Eikou
+**Título Original:** 東洋美術雑観 （２） | **Status:** Published
 
 ## O Legado de Ogata Korin na Arte Universal
 
@@ -2074,6 +2738,7 @@ Entre os pintores que viajaram à China para estudar, encontram-se Keishoki (啓
 # A Governança pelo Caminho da Razão
 
 **Categoria:** to | **Ano:** 昭和26(1951)年2月7日 | **Fonte:** Eikou
+**Título Original:** 道治国 | **Status:** Published
 
 ## A Governança pelo Caminho da Razão
 
@@ -2102,6 +2767,7 @@ Sempre afirmo que Deus, em outras palavras, é a própria Razão. Portanto, reve
 # A Arteriosclerose e a Hipertensão
 
 **Categoria:** to | **Ano:** 昭和28(1953)年1月1日 | **Fonte:** アメリカを救う
+**Título Original:** 動脈硬化及び高血圧症 | **Status:** Published
 
 ## A Arteriosclerose e a Hipertensão
 
@@ -2118,6 +2784,7 @@ Recordo-me de um caso que ilustra bem essa verdade. Certa vez, um senhor com pou
 # A Concentração das Toxinas e a Ilusão da Terapêutica Moderna
 
 **Categoria:** to | **Ano:** 昭和28(1953)年2月25日 | **Fonte:** 東京日々新聞
+**Título Original:** 毒素は頭脳に集中 ・法話（二） | **Status:** Published
 
 ## A Concentração das Toxinas e a Ilusão da Terapêutica Moderna
 
@@ -2140,6 +2807,7 @@ O processo ocorre da seguinte forma: com o passar do tempo, o veneno acumula-se 
 # O Princípio da Purificação e o Equívoco da Terapêutica Moderna
 
 **Categoria:** to | **Ano:** 昭和11(1936)年5月15日 | **Fonte:** Asu no Ijutsu・新日本医術としての岡田式療病法
+**Título Original:** 毒素療法 | **Status:** Published
 
 ## O Princípio da Purificação e o Equívoco da Terapêutica Moderna
 
@@ -2176,6 +2844,7 @@ Agora, ao irradiarmos a prodigiosa Onda de Luz da Nova Medicina Japonesa sobre a
 # Reflexões sobre a Arte Oriental (3)
 
 **Categoria:** to | **Ano:** 昭和27(1952)年8月6日 | **Fonte:** Eikou
+**Título Original:** 東洋美術雑観 （３） | **Status:** Published
 
 ## Reflexões sobre a Arte Oriental (3)
 
@@ -2204,6 +2873,7 @@ Gostaria ainda de tecer alguns comentários sobre a arte budista. Tanto a pintur
 # A Profecia da Luz do Oriente
 
 **Categoria:** to | **Ano:** 昭和10(1935)年9月15日 | **Fonte:** 病貧争絶無の世界を造る観音運動とは何？
+**Título Original:** 東方の光 | **Status:** Published
 
 ## A Profecia da Luz do Oriente
 
@@ -2216,684 +2886,6 @@ Quando o grandioso Sol desponte, a lua perde seu brilho e as estrelas ocultam se
 O Sutra do Lótus profetiza que “o mundo inteiro se converterá à Lei Mística”. O ideograma que representa o termo “místico”, na verdade, oculta em sua essência o ideograma para “luz”. A razão para tal segredo é que Kannon (観音) ainda não havia se manifestado. O verdadeiro significado dessa profecia, portanto, é que o mundo inteiro se converterá aos ensinamentos de Kannon (観音), a Divindade do Sol e da Lua. Trata-se, em suma, da predição de que, por meio dela, todas as religiões se unificarão em uma só.
 
 Nesse sentido, a publicação do primeiro número de nosso periódico, “Luz do Oriente”, ocorreu no auspicioso dia 23 de dezembro de 1934, data do primeiro aniversário de Sua Alteza, o Príncipe Herdeiro. Compreenderão, portanto, que tal fato não constitui, em absoluto, uma mera coincidência.
-
----
-
-# Orientações sobre a Agricultura Natural
-
-**Categoria:** to | **Ano:** 昭和26(1951)年5月2日 | **Fonte:** Eikou
-
-## Orientações sobre a Agricultura Natural
-
-A seguir, transmitimos uma importante orientação de Meishu-Sama a respeito do tema.
-
-É preferível não alterar as sementes. A continuidade do cultivo com a mesma variedade promove um aprimoramento gradual, pois as toxinas dos adubos são progressivamente eliminadas. Ademais, a noção de que uma semente é ou não compatível com determinado tipo de solo é um equívoco. Ao se perseverar no cultivo de uma única variedade em um mesmo local, é o próprio solo que, paulatinamente, se transforma para se harmonizar com a semente. Em suma, tanto as sementes quanto o solo contêm uma grande quantidade de toxinas provenientes dos adubos, sendo imperativo que estas sejam eliminadas com a maior brevidade possível. O aumento da colheita será diretamente proporcional à purificação dessas toxinas.
-
-No que tange à dificuldade no cultivo de melancias, a causa reside, indubitavelmente, na presença de toxinas dos adubos tanto nas sementes quanto no solo. Uma vez eliminadas tais impurezas, qualquer hortaliça, sem exceção, produzirá resultados excelentes, tanto em quantidade quanto em qualidade.
-
-**Mesa-Redonda com Praticantes da Agricultura Natural**
-
-**Data:** 13 de março de 1951
-**Local:** Sede da Igreja Korin de Nagoia
-**Moderador:** Katsutoshi Egawa
-**Transcrição:** Minoru Kawagoe
-**Convidados Especiais:** Seiichi Momomi, Eisaku Shimizu, Kinnosuke Gotō, Hiroshige Kawabata
-
-**Agricultores Participantes (Região de Chukyo):**
-
-(Quarto ano de prática) Toshio Mori (30)
-(Terceiro ano de prática) Den Anyaku (33), Taro Hiramatsu (49), Kōichi Yamamoto (32), Tomotaka Takekoshi (25), Shinji Miyagi (43), Tameo Shiraki (55), Kaichirō Tanaka (48), Eikichi Hada (54), Jōichi Gotō (45), Zenichi Takai (55), Toyohachi Sakai (41), Shigeyoshi Sakuragi (44), Shinji Tabata (25), Masahisa Hayashi (24)
-(Segundo ano de prática) Yasutarō Shiga (53), Hajime Katō (40), Tokumatsu Sakai (35), Kyūtarō Onoda (31), Seiichi Ikehara (30), Taeko Sakai (32), Kōichi Shirai (27), Teruo Yamamoto (33), Onoe Hori (44), Machiko Ōno (42), Hiroshi Inoue (48), Masayuki Hirose (42), Kazuo Fujii (26), Nobuyoshi Tanaka (32), Kōten Ogawa (34)
-(Primeiro ano de prática) Toshio Hiramitsu (20), Tōru Usui (37), Kikuharu Takeo (44)
-Total: 38 participantes
-
-**Moderador:** Agradeço imensamente a presença de todos, que gentilmente reservaram um tempo em suas agendas atarefadas para participar deste encontro. A Agricultura Natural, preconizada por Meishu-Sama, vem alcançando resultados notáveis em todo o país, demonstrando plenamente o seu verdadeiro valor. O propósito de reuni-los hoje, senhores que por longos anos se dedicam a esta prática e dela se tornaram peritos, é que suas experiências possam, de alguma forma, beneficiar os agricultores de todo o Japão, especialmente os iniciantes. Sinto-me afortunado por esta oportunidade. Peço, portanto, que exponham suas opiniões e dúvidas sobre qualquer questão com total franqueza e sinceridade. Sem mais delongas, iniciemos com o balanço da colheita de arroz do ano passado.
-
-*Apesar dos Prejuízos, a Colheita Supera em Muito a da Agricultura com Adubos*
-
-**Miyagi (Terceiro ano):** Meu campo possui um solo pobre, e, com o uso de adubos, a média de colheita sempre foi de cinco a cinco fardos e meio. No primeiro ano de prática da Agricultura Natural, apesar dos danos causados por um tufão, colhi cerca de seis fardos. No segundo ano, a colheita aumentou para sete fardos. Já no terceiro ano, houve uma pequena queda, provavelmente em decorrência de outro tufão e da intensificação da purificação das toxinas do solo. A avaliação preliminar por amostragem indicava uma colheita de apenas cinco fardos, mas o resultado final foi de aproximadamente seis. Mesmo assim, os campos vizinhos que utilizaram adubos obtiveram entre cinco e cinco fardos e meio.
-
-**Shiga (Segundo ano):** Em meu caso, tanto no primeiro quanto no segundo ano, tive um aumento de cerca de um fardo por ano.
-
-**Takekoshi (Terceiro ano):** Em minha região, conhecida como Higashi-Mikawa, a colheita aumentou consecutivamente no primeiro, segundo e terceiro anos. No terceiro ano, por exemplo, atingi a marca de oito fardos e um to, enquanto a média local é de seis a sete fardos. Na agricultura com adubos, obter sete fardos já é considerado um excelente resultado.
-
-**Moderador:** E o senhor Mori, em seu quarto ano de prática, quais foram seus resultados?
-
-**Mori (Quarto ano):** Moro em Takayama, na região de Hida, uma área de cultivo único. No ano passado, a colheita foi superior à do terceiro ano. A expectativa era de um aumento entre 20% e 30% em relação ao ano anterior, mas o resultado real foi um pouco menor. A média de colheita em nossa região é de cinco fardos e meio a seis. Em meu terceiro ano, creio ter colhido cerca de dez fardos. A diferença entre a expectativa e o resultado se deve, em grande parte, aos danos causados pelo tufão. A colheita efetiva no quarto ano foi de aproximadamente onze fardos.
-
-**Moderador:** E qual era a aparência das espigas na época da colheita?
-
-**Mori:** A colheita ocorre por volta do dia dez de outubro. Nessa época, é comum que as espigas, já maduras, tombem e que os caules se quebrem. Contudo, em meu campo, os caules eram tão robustos que as espigas se curvavam em um arco gracioso. Ao tomar uma delas em minhas mãos, contemplei uma beleza indescritível.
-
-**Moderador:** E quanto ao número de grãos e ao perfilhamento?
-
-**Mori:** A variedade Mino-Asahi apresentou de cem a cento e setenta grãos por espiga, com vinte e dois a vinte e três perfilhos. Já a Aikoku nº 20 produziu de cem a duzentos e sessenta grãos.
-
-**Moderador:** Agora, gostaria de saber sobre as variedades que os senhores estão cultivando. Acredito que o ideal seja não as alterar, correto?
-
-**Ando (Terceiro ano):** No ano passado, realizei uma colheita por amostragem e pude constatar que há, de fato, diferenças significativas entre as variedades. Creio que as mais antigas, adaptadas à região há vinte ou trinta anos, apresentam os melhores resultados. As variedades atualmente recomendadas pelo governo são inferiores.
-
-**Kawabata:** No último ano, as variedades Norin nº 36 e nº 38 parecem ter sofrido danos particularmente severos.
-
-**Miyagi:** Eu cultivo a Norin nº 38 e, curiosamente, apenas em meu campo as espigas se desenvolveram de forma sinuosa, como serpentes, ou com uma aparência que lembrava as patas de uma rã. Apesar disso, os caules eram notavelmente fortes e grandes.
-
-**Takekoshi:** Minhas espigas, por outro lado, eram tão esplêndidas que poderiam ser descritas como "telhados de ouro". A variedade é a Asahi-Senbon.
-
-**Mori:** Eu cultivo as variedades Mino-Asahi e Aikoku nº 20. As variedades realmente mudam muito de acordo com a localidade.
-
-**Hayashi (Terceiro ano):** Cultivo as variedades Aikoku e Shiro-Mochi, e todos os anos planto as mesmas sementes, sem alterá-las. No ano passado, a variedade Aikoku teve uma pequena quebra de safra devido às tempestades, mas a Shiro-Mochi, cuja média é de seis fardos, rendeu cerca de oito. Acredito que não mudar a variedade contribui para o aumento da produção.
-
-**Miyagi:** Eu troquei de variedade, mas, ainda que se trate da mesma área de cinco tan, penso que a variedade mais adequada às características do solo local é sempre a melhor escolha.
-
-**Moderador:** Segundo os relatórios, a classificação predominante do arroz foi de terceira classe, com pouquíssimos lotes de segunda. Poderiam explicar o motivo? O arroz da Agricultura Natural, na pior das hipóteses, é de terceira classe, nunca sendo desclassificado.
-
-**Ando:** A principal causa são os danos generalizados provocados por tempestades e inundações. Além disso, a diferença de preço para o arroz de segunda classe é ínfima, cerca de setenta ienes, e o custo de utilização da máquina selecionadora de grãos é muito superior a esse valor. Portanto, seria um prejuízo tentar classificá-lo como de segunda classe, e por isso o comercializamos como de terceira.
-
-**Usui (Primeiro ano):** O arroz da Agricultura Natural também dispensa muitas etapas, como a secagem, o que permite uma comercialização mais rápida e direta.
-
-**Hirose (Segundo ano):** Como a Agricultura Natural ainda não é amplamente conhecida, levei uma amostra para avaliação. No município, meu arroz recebeu a classificação de primeira classe, mas, no âmbito da província, foi rebaixado para segunda. Ainda assim, toda a quantidade que submeti à avaliação foi classificada como de segunda classe, o que me gerou lucro. O restante da colheita, envasei diretamente em fardos e vendi como de terceira classe.
-
-**Kawabata:** Em nossa região, houve uma grande quantidade de arroz desclassificado (quinta classe), mas o arroz da Agricultura Natural obteve, no mínimo, a terceira classe, sem nenhum caso de desclassificação total.
-
-**Moderador:** Passemos agora para a cultura de inverno.
-
-*A Cultura de Inverno Apresenta Desafios, mas a Colheita Aumenta com a Prática Contínua*
-
-**Mori:** Acredito que a dificuldade no cultivo do trigo está relacionada à época do plantio. Como estou em uma região montanhosa, semeio uma semana ou dez dias antes do período habitual. Para os senhores das planícies, a menos que pratiquem a monocultura, isso deve ser um desafio.
-
-**Hirose:** Exato. Nas planícies, a situação é diferente da das montanhas. Devido a fatores climáticos e outros pontos, é impossível adiantar a semeadura em um sistema de cultura dupla. O arroz da Agricultura Natural amadurece bem mais tarde que o da agricultura com adubos, e o tempo entre a colheita e a semeadura do trigo é muito curto. Não há margem para antecipar o plantio. Se fosse monocultura, seria possível. Ademais, se o trigo for semeado cedo demais, as condições climáticas podem fazê-lo crescer abruptamente cerca de quatro sun, aumentando o risco de fracasso.
-
-**Shimizu:** Em última análise, é preciso compreender que, durante o primeiro e o segundo ano, o trabalho consiste em eliminar as toxinas do solo. Portanto, seria irrealista esperar colheitas abundantes desde o início. Mesmo que os resultados não sejam expressivos no primeiro ano, o verdadeiro valor da prática se manifesta a partir do segundo e do terceiro. O aumento da produção é uma certeza.
-
-**Gotō (Segundo ano):** No primeiro ano, tive uma colheita normal. No ano passado, em uma área cuja média é de 2,4 a 2,6 koku, colhi 3 koku. Este ano ainda é cedo para dizer, mas o desenvolvimento parece mais lento e menos vigoroso que o da agricultura com adubos, embora o perfilhamento seja maior. Utilizei uma variedade de Owari que me foi cedida, mas, de fato, é melhor plantar uma semente já adaptada ao solo, assim como no cultivo do arroz. Acredito que tudo depende da qualidade da terra.
-
-*O Aumento na Produção de Leguminosas é Notável*
-
-**Ogawa (Segundo ano):** A produção de leguminosas aumentou consideravelmente. Este é o meu segundo ano de prática.
-
-**Ando:** As leguminosas se desenvolvem bem porque não acumulam tantas toxinas dos adubos.
-
-**Gotō:** A Agricultura Natural é excelente para hortaliças folhosas e nabos, mas parece não surtir muito efeito em culturas como a melancia.
-
-**Ando:** Para as hortaliças, incorporar a capina de verão ao solo funciona muito bem. O espinafre, por exemplo, se desenvolve esplendidamente.
-
-**Moderador:** Com isso, gostaria de encerrar nossa mesa-redonda de hoje. Agradeço sinceramente a todos por dedicarem seu tempo e por compartilharem conosco tantos relatos significativos. Que todos, sob a sagrada orientação de Meishu-Sama, continuem se empenhando com ainda mais afinco, incorporando o espírito Divino à técnica agrícola, a fim de alcançar grandes colheitas e estabelecer a estabilidade da economia rural. De nossa parte, assumimos o compromisso de utilizar estas valiosas experiências para levar as boas-novas aos agricultores de todo o país, difundindo com o coração o verdadeiro valor da autêntica Agricultura Natural. Muito obrigado.
-
----
-
-# A Purificação de Toxinas Acumuladas por Cinquenta Anos
-
-**Categoria:** to | **Ano:** 昭和26(1951)年6月6日 | **Fonte:** Eikou
-
-## A Purificação de Toxinas Acumuladas por Cinquenta Anos
-
-Aos dezoito anos, fui acometido por uma pleurisia. Naquela ocasião, submeteram-me a uma punção na lateral do tórax, por meio da qual foram drenados cerca de duzentos gramas de líquido. Descobri, recentemente, que o yakudoku (薬毒) proveniente de duas fontes – o antisséptico utilizado nesse procedimento e os medicamentos que ingeri por ocasião de uma reincidência da doença, um ano mais tarde – havia se solidificado em um ponto localizado aproximadamente entre as costas e a axila.
-
-Decidido a dissolver esse acúmulo, comecei a ministrar Johrei a mim mesmo. Embora o nódulo de toxinas estivesse, a princípio, bastante enrijecido, ele foi se abrandando e se dissolvendo gradualmente. Era notável que, invariavelmente, cada vez que uma porção se dissolvia, eu tinha diarreia. O processo ocorria sem dores significativas e com uma precisão tão exata que chegava a ser surpreendente. Essa experiência demonstra que os nódulos de toxinas podem permanecer no organismo por muitos anos sem se desfazerem. Como atualmente tenho sessenta e oito anos, conclui-se que essas toxinas permaneceram solidificadas em meu corpo por exatos cinquenta anos. Portanto, caso eu não conhecesse o Johrei, elas teriam sido, de fato, “hóspedes” que jamais partiriam.
-
-À medida que esses nódulos se dissolviam e eram expelidos por meio da diarreia, eu experimentava uma notável melhora em meu bem-estar. Eu não havia me dado conta disso por um longo tempo, pois considerava meu estado anterior como normal. Contudo, ao perceber a mudança, fui tomado por uma sensação de vitalidade tão inesperada e profunda que me senti imensamente feliz. Sinto como se minha expectativa de vida tivesse se prolongado em vinte ou trinta anos. Ademais, minha mente tornou-se muito mais clara, o que me permitiu escrever meus manuscritos com uma fluidez que antes não possuía.
-
-Fica evidente, portanto, que, na ausência do Johrei, o yakudoku (薬毒) pode de fato permanecer no corpo por toda uma vida.
-
-Como sempre ensino, a origem da diarreia encontra-se, na maioria das vezes, em nódulos de toxinas localizados na cabeça e nas costas. Existem duas causas principais para esse sintoma: uma é a dissolução desses nódulos, cujas toxinas se acumulam temporariamente no abdômen antes de serem expelidas; a outra é a intoxicação alimentar. Quando a purificação se origina na cabeça, é comum que haja uma eliminação considerável de sangue. Se esse sangue é expelido diretamente pelo ânus, o quadro é conhecido como hemorragia hemorroidária. Todavia, se ele se acumula no abdômen antes de ser liberado, manifesta-se como disenteria.
-
-Nesse sentido, a bactéria da disenteria cumpre a função natural de auxiliar na expulsão desse sangue impuro. Por essa razão, se uma pessoa com disenteria permitir que o processo siga seu curso, o sangue tóxico será expelido de maneira ordenada, e a cura se dará naturalmente. Contudo, a medicina, por desconhecer este princípio, emprega todos os recursos para impedir essa eliminação, o que acaba por agravar o quadro. Sinto um profundo pesar ao refletir sobre quantas vidas poderiam ser salvas se a ciência médica compreendesse esta verdade.
-
----
-
-# O equívoco da confiança humana
-
-**Categoria:** to | **Ano:** 昭和28(1953)年8月19日 | **Fonte:** Eikou
-
-## O equívoco da confiança humana
-
-*Publicado na coluna “Exemplos de equívocos” do Jornal Eikou, nº 222, de 19 de agosto de 1953 (Ano 28 da Era Showa).*
-
-O relato de graça que se segue é um exemplo recorrente. Contudo, decidi acrescentar este comentário porquanto Deus, por meio dele, nos revela um ensinamento de profunda importância. Em uma única sentença, tal ensinamento pode ser resumido da seguinte forma: “Confie em Deus, e não no homem”.
-
-A razão para tanto é que, uma vez que recebemos o poder do Johrei, o correto é que curemos nossas próprias enfermidades. Reflitamos: se nos foi concedido o poder de curar as doenças de outrem, não há razão para que não possamos curar as nossas. É precisamente essa convicção o ponto fundamental.
-
-Devemos compreender que as graças divinas jamais se manifestam em situações que contrariam a lógica e o bom-senso. Portanto, é imperativo que todas as nossas ações se pautem pela retidão do princípio, pois, do contrário, incorreremos em grande esforço para nenhum resultado, apenas prolongando sofrimentos desnecessários.
-
-Em suma, a convicção é o elemento crucial, e este é um ponto que todos devem gravar profundamente em seus corações.
-
-***
-
-### Salva da Apendicite por Meio da Graça Divina
-
-**Hidaka Sachiko (32 anos)**
-*Igreja Nanko-Tyu, Província de Kumamoto*
-
-Gostaria de expressar minha mais profunda gratidão a Meishu-Sama por Sua constante proteção. Nesta oportunidade, desejo relatar a graça que recebi durante uma purificação de apendicite, bem como apresentar meu sincero pedido de perdão.
-
-No dia 18 de maio, seria realizado o Culto Mensal da Sede Regional de Kumamoto. Na véspera, ao partir para a cerimônia, meu marido me pediu que fosse ministrar Johrei ao senhor Yoshikawa Shigehiko, um membro que estava purificando. Assim, na tarde do dia 18, dirigi-me à sua residência e tive a permissão de servi-lo. Em seguida, atendi também a família do senhor Sasaki, que morava ao lado. Retornei para casa e elevei minha oração de gratidão diante do Altar já passava das sete horas da noite.
-
-Pouco tempo depois, comecei a sentir uma dor no lado direito do baixo-ventre, que gradualmente se estendeu para a nuca e a região lombar, tornando-se cada vez mais intensa. Reconheci a dor como uma purificação e senti-me grata. Acreditava que, se repousasse diante do Altar e ministrasse Johrei a mim mesma, a melhora seria rápida e simples. Contudo, a dor apenas se intensificava.
-
-Apendicite! A dor era aguda, como uma agulhada, concentrada na região do apêndice, e havia uma febre intensa que se irradiava para o lado direito da cintura. Logo, uma dor lancinante tomou conta de todo o meu baixo-ventre.
-
-Eu já possuía a experiência de ter auxiliado na cura de apendicite de várias pessoas por meio do Johrei. Lembro-me do caso de um jovem chamado Oshita, a quem os médicos haviam diagnosticado com apendicite e indicado cirurgia de emergência. Seus pais me procuraram ao entardecer e, após ministrar-lhe Johrei três ou quatro vezes durante a noite, na manhã seguinte, quando despertei, ele já estava de pé, completamente curado. Outro jovem, de nome Tamotsu, também se recuperou de tal forma que, ao terceiro dia, já podia trabalhar normalmente. No outono do ano passado, na noite anterior à minha partida para o Culto Mensal da Sede Regional, meu próprio marido purificou com apendicite. Ministrei-lhe Johrei algumas vezes durante a noite, e, no dia seguinte, ele pôde receber o auxílio de outros membros, restabelecendo-se a ponto de retomar suas atividades de difusão três dias depois.
-
-No entanto, justamente naquela noite, meu marido, em quem eu tanto confiava, estava ausente. Minha irmã Naoko, que me auxilia, e os demais membros também não estavam presentes. Minha filha Miyoko, de apenas oito meses, chorava por leite, mas a dor só aumentava. Percebi que a noite já ia alta e que eu nem sequer havia fechado a porta de entrada, mas não conseguia me mover.
-
-Enquanto pressionava as mãos sobre o abdômen, abri os olhos em meio à dor excruciante e, subitamente, meu olhar fixou-se na fotografia de Meishu-Sama no tokonoma (床の間). Nesse instante, a palavra que meu marido frequentemente mencionava ao ministrar Johrei — *sounen (想念)* — surgiu com nitidez em minha mente.
-
-Foi então que compreendi com absoluta clareza algo que, embora óbvio, eu havia esquecido: a minha confiança não deveria estar depositada em meu marido, em minha irmã ou nos outros membros, mas unicamente em Meishu-Sama. Percebi não apenas o equívoco de minhas horas de aflição, mas também como, no dia a dia, eu havia me acostumado às grandiosas graças divinas e tendia a interpretar os Ensinamentos de forma egoísta e limitada. Inúmeros erros como esses afloraram em minha consciência, e pedi perdão a Meishu-Sama com todo o meu ser.
-
-Enquanto suplicava por perdão, sem me dar conta, adormeci. Despertava por breves momentos e ainda sentia a dor, mas percebi que ela diminuía gradualmente.
-
-No dia seguinte, recebi Johrei de um membro e, ao entardecer, meu marido retornou do Culto e também me ministrou. Graças a essa bênção, ao terceiro dia, eu já estava apta a realizar as tarefas domésticas.
-
-Sou-Lhe imensamente grata, Meishu-Sama, não apenas por ter curado minha apendicite, mas, sobretudo, por me ter feito enxergar o equívoco em meu *sounen (想念)*. Por essa razão, apresento meu mais profundo pedido de perdão e reitero minha eterna gratidão.
-
-Meishu-Sama, muito, muito obrigada.
-
----
-
-# A Cura do Aneurisma
-
-**Categoria:** to | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-
-## A Cura do Aneurisma
-
-Embora não seja uma enfermidade de grande incidência, o aneurisma figura entre as doenças mais temidas pela humanidade. Os médicos, em particular, nutrem um pavor excepcional por essa condição, chegando a proferir diagnósticos desesperançosos. Para nós, contudo, trata-se de uma moléstia de cura notavelmente simples.
-
-Sua causa reside no acúmulo e na solidificação de toxinas nas proximidades de uma artéria, o que resulta na compressão do vaso sanguíneo. A medicina, para remover esse enrijecimento, dispõe apenas da intervenção cirúrgica. Todavia, tal procedimento torna-se inviável a depender da localização do problema.
-
-Nesse sentido, a sublime terapia do Johrei revela seu valor inestimável, pois, mediante a simples imposição das mãos à distância do corpo físico, a massa solidificada se dissolve e é naturalmente expelida do organismo, alcançando-se, assim, a cura completa e definitiva.
-
-A simples análise deste fato é suficiente para demonstrar a impotência da medicina frente à magnificência do Johrei. Em outras palavras, a primeira representa um método bárbaro, ao passo que a segunda constitui uma abordagem civilizada. A verdade é que a primeira é anticientífica, e a segunda, genuinamente científica.
-
-[Exemplos práticos omitidos]
-
----
-
-# A Anatomia das Toxinas
-
-**Categoria:** to | **Ano:** 昭和27(1952)年12月1日 | **Fonte:** Kekkaku Shinko Ryoho
-
-## A Anatomia das Toxinas
-
-Passemos, pois, à explanação sobre as toxinas. Em essência, as toxinas são o que se pode denominar sangue impuro, o qual, por sua vez, representa as máculas do espírito, conforme já exposto. Tais máculas, naturalmente, originam-se do pecado e da impureza decorrentes de atos malignos. Essa concepção de pecado e impureza tem sido, por muito tempo, uma espécie de monopólio da religião. Todavia, é lamentável que a abordagem tradicional se limite a uma exortação simplista, do tipo "não se deve praticar o mal porque isso gera pecado e impureza". Para o homem de outrora, talvez fosse suficiente; contudo, para a mente intelectual e científica do homem moderno, tal argumento é de todo inaceitável. Portanto, é imprescindível apresentar uma teoria solidamente estruturada em uma lógica sistemática e corroborada por evidências concretas.
-
-Ora, este mundo é constituído pela conjugação do Mundo Espiritual e do Mundo Material. De modo análogo, o ser humano é composto de espírito e corpo, duas partes que mantêm entre si uma relação íntima e indissociável, na qual vigora o princípio da unicidade entre espírito e corpo. Por conseguinte, quando as máculas do espírito se projetam no corpo, manifestam-se como sangue impuro; inversamente, o sangue impuro, ao se projetar no espírito, converte-se em máculas. Este é o ponto de maior relevância, e rogo que o leitor prossiga com essa premissa em mente.
-
-Analisemos, primeiramente, sob a perspectiva espiritual. Quando um indivíduo pratica um ato maligno, o pecado correspondente converte-se em uma mácula em seu espírito. Ao atingir um certo grau de acúmulo, essas máculas desencadeiam um processo de purificação. Tal processo manifesta-se sob a forma de doenças, calamidades ou sanções penais previstas em lei. Aquilo que porventura escape a essas vias purificadoras será objeto de uma punição espiritual, regida pela Lei Divina. E ainda que alguém consiga, com astúcia, evadir-se das punições humanas, a sanção Divina, por ser absoluta, inevitavelmente se refletirá no corpo, acarretando imenso sofrimento. As enfermidades que surgem nesse contexto são, naturalmente, de natureza maligna e, em muitos casos, fatais.
-
-Ademais, quanto mais cedo o mal é punido, mais branda é a pena, de modo análogo a uma dívida que, não sendo quitada, acumula juros. Existem, ainda que raramente, malfeitores que logram esquivar-se com destreza de ambas as punições, a humana e a Divina. Estes, no entanto, ao partirem para o Mundo Espiritual após a morte, são arrastados pelo peso de seus pecados às profundezas do inferno, onde se veem forçados ao arrependimento. Esse lugar corresponde ao que o budismo denomina *Avīci* (inferno da dor incessante), ao que o xintoísmo chama de *Nenokuni* (o país da raiz profunda) e ao purgatório descrito no "Inferno" de Dante Alighieri. Trata-se de um mundo de trevas impenetráveis, desprovido de luz e calor, onde tudo permanece em estado de congelamento por centenas de anos. Diante de tal realidade, até o mais perverso dos homens é compelido a se render. Sei que, ao descrever tais fatos, o homem moderno poderá considerá-los de difícil aceitação. Contudo, asseguro que não há um ponto sequer de inverdade no que digo, pois se trata de relatos que ouvi diretamente de inúmeros espíritos durante minhas pesquisas sobre o Mundo Espiritual. Peço, portanto, que depositem confiança absoluta em minhas palavras.
-
-Retomando o fio da explanação, o remorso que surge como consequência de uma má ação é, em si, uma forma branda de purificação. Seria ideal que nesse momento houvesse o arrependimento, mas nem sempre isso ocorre; com frequência, a pessoa volta a acumular novos pecados. Naturalmente, a densidade da mácula é proporcional à gravidade do pecado, mas há também um fator extrínseco a ser considerado. Quando se inflige sofrimento a outrem, a pessoa atormentada nutre sentimentos de ira ou ressentimento. Esses pensamentos, por meio de uma espécie de onda espiritual, são transmitidos ao corpo espiritual do agressor, onde se convertem em máculas. Em contrapartida, ao se promover a alegria e praticar o bem, o sentimento de gratidão do beneficiado é transmitido como uma luz, que por sua vez atenua as máculas existentes. Nesse sentido, quanto mais discreta for a boa ação — a ponto de o próprio beneficiado não saber quem a praticou —, maior será a recompensa Divina. Esta é uma Lei Celestial rigorosa e imutável. O exposto acima descreve o funcionamento do Mundo Espiritual. Sendo esta a verdade absoluta, ao ser humano não resta outra alternativa senão crer nela e a ela se conformar. Se, como vimos, o processo de purificação das máculas é a causa das doenças e de outras calamidades, aquele que almeja a felicidade deve, impreterivelmente, abandonar o mal, praticar o bem e zelar para que seu espírito permaneça imaculado.
-
-Passemos agora à abordagem sob o aspecto físico. A causa primordial do sangue impuro, que é a origem das doenças, reside no veneno medicamentoso, ou yakudoku. Em sua essência, todos os fármacos são substâncias tóxicas. O equívoco de interpretá-los como algo benéfico por tanto tempo decorre, precisamente, do desconhecimento da verdade fundamental de que a doença é um processo de purificação. Explanarei a seguir, com base em minha experiência prática, o princípio do veneno medicamentoso.
-
-Ocorre, por vezes, que um paciente, uma vez curado pelo Johrei, sofra uma recaída após algum tempo. A esse fenômeno, denominamos "repurificação". A razão para tanto é que o primeiro Johrei dissolve apenas a porção de toxinas que se manifestava ativamente no processo de purificação. Com isso, o paciente melhora temporariamente. Contudo, ao retomar suas atividades e trabalho, sua vitalidade já recuperada impulsiona a manifestação de uma purificação ainda mais vigorosa. Em outras palavras, a pessoa se torna saudável pela purificação e, por estar mais saudável, uma nova purificação se inicia. É através da repetição desse ciclo que a saúde é gradualmente restaurada. Nessa fase de repurificação, por ser um processo bastante intenso, surgem febres altas e tosses severas. Isso se deve à expectoração de um catarro antigo e solidificado, facilmente identificável por sua consistência espessa e pelo odor de medicamentos. Naturalmente, esses sintomas vêm acompanhados de inapetência e debilidade, podendo, em raras ocasiões, levar ao óbito.
-
-De acordo com as estatísticas que compilamos até hoje, a proporção é a seguinte: de cada cem pessoas que alcançam a cura completa pelo Johrei, sete vêm a falecer durante o processo de repurificação. Os noventa e três restantes, por sua vez, tornam-se pessoas de saúde plena e hoje se encontram em plena atividade. Frente a essa extraordinária taxa de cura, há um fato ainda mais assombroso: a quase totalidade dos pacientes que nos procuram são casos graves, que já tentaram sem sucesso todos os métodos — da medicina convencional às terapias populares e de base religiosa —, chegando até nós à beira da morte. Que, mesmo diante desse quadro, tenhamos alcançado resultados tão expressivos é algo que, para muitos, pode parecer inacreditável. Ademais, mesmo no caso dos sete por cento que não obtiveram sucesso, a causa invariavelmente reside na quantidade excessiva de venenos medicamentosos que haviam ingerido. O Johrei é, em suma, um método para a eliminação do yakudoku. Isso fica evidente ao se observar que a melhora do paciente é diretamente proporcional à redução dessas toxinas.
-
-Sendo assim, transformar o Japão em uma nação livre da tuberculose não é uma tarefa hercúlea. O objetivo pode ser plenamente alcançado por meio de duas medidas: a abolição completa dos fármacos e o incentivo à manifestação de resfriados.
-
-O Criador, ao conceber o ser humano como o protagonista deste planeta, proveu-o com alimentos suficientes para o sustento da vida e dotou-o do paladar. Portanto, se cada um simplesmente desfrutar dos alimentos que deseja consumir, isso basta para a manutenção da saúde, sem a necessidade de se preocupar com questões complexas como a nutrição. O princípio é análogo ao do desejo sexual: o objetivo não é a procriação, mas, como resultado do ato que visa a outro fim, a criança é concebida de forma natural. Depreende-se, pois, que o ser humano não deve introduzir em seu corpo nenhuma substância estranha que não seja o alimento a ele destinado. Substâncias sem sabor ou amargas, por exemplo, indicam, por sua própria natureza, que não devem ser ingeridas. O desconhecimento dessa verdade levou à criação de antigos ditados como "o bom remédio é amargo na boca", o que constitui um erro crasso.
-
-Dessa forma, como o aparelho digestivo foi projetado para processar apenas os alimentos designados, os fármacos, por serem corpos estranhos, não são devidamente metabolizados. Permanecem, assim, acumulados no organismo, tornando-se a matriz das doenças. Este princípio tem uma profunda relação com a varíola, tema que abordarei no próximo capítulo.
-
----
-
-# O Equívoco da Medicina e a Verdadeira Causa da Doença
-
-**Categoria:** to | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-
-## O Equívoco da Medicina e a Verdadeira Causa da Doença
-
-A causa das doenças reside no sofrimento decorrente da dissolução e eliminação de toxinas medicamentosas solidificadas no corpo. A medicina, todavia, interpreta equivocadamente esse processo e, em vez de o favorecer, busca solidificar novamente as toxinas que estão em vias de dissolução, introduzindo novos venenos no organismo com o propósito de debilitá-lo. Isso ocorre porque o processo de eliminação de toxinas — a purificação — é tanto mais vigoroso quanto mais saudável for o indivíduo. Portanto, para interromper a purificação, é preciso minar a saúde da pessoa.
-
-Desconhecendo esse princípio, o ser humano, desde tempos remotos, buscou tais venenos. Ao ingeri-los, seu corpo se enfraquecia, a purificação diminuía e o sofrimento se atenuava. Isso o levou à conclusão errônea de que estava sendo curado. Passou, então, a reverenciar essas substâncias, nomeando-as "remédios" e recorrendo a elas como única solução para as enfermidades. A esse respeito, as palavras do célebre médico da tradição sino-japonesa, Sugita Genpaku, são dignas de nota: "O remédio é um veneno. Administrá-lo para tratar uma doença é controlar um veneno com outro veneno". Trata-se de uma afirmação de grande acerto. Contudo, carece de uma precisão fundamental: seria mais exato dizer que se utiliza um veneno para impedir que outro veneno seja expelido.
-
-Em virtude desse princípio — o de paralisar a eliminação de toxinas por meio de outras toxinas —, um novo acúmulo de venenos se sobrepõe ao antigo. O conglomerado tóxico original passa a ser envolvido por novas camadas, o que torna o processo de purificação subsequente ainda mais penoso e severo. Diante desse quadro, mais venenos são administrados, avolumando progressivamente a carga tóxica no organismo. O corpo, assim, torna-se cada vez mais debilitado, e com ele a força purificadora se esvai.
-
-O indivíduo que chega a essa condição apresenta uma compleição pálida, contrai resfriados com facilidade, carece de vigor e vive imerso em um ciclo de médicos e medicamentos. Assemelha-se a um cadáver vivente, que atravessa seus dias em constante sofrimento, incapaz de realizar plenamente suas atividades. É uma figura digna de compaixão.
-
-Mesmo nesse estado deplorável, por não compreender a causa de seu mal, continua a peregrinar de médico em médico, buscando novos fármacos, recorrendo a moxabustão, a sortilégios, a terapias populares e até a diversas práticas de fé. Todavia, por ignorar a raiz do problema, após despender fortunas, acaba por fazer sua passagem para o outro mundo em meio a grande agonia. A causa primordial de tal infortúnio reside no equívoco da medicina. Seu erro constitui um crime de proporções assustadoras e aterradoras; analisando seus resultados, não seria exagero afirmar que a medicina se tornou uma fábrica de tragédias.
-
-Exponho estes fatos de forma deliberadamente franca e direta, ciente de que, ao lê-los, alguns profissionais da área médica poderão sentir-se ultrajados. Contudo, tal atitude é indispensável para a salvação de toda a humanidade. Corresponde a sacrificar o interesse menor em prol do bem maior, um ato que, em sua essência, manifesta o Grande Amor de Deus. Por essa razão, em vez de ressentimento, deveriam ser gratos por esta dádiva.
-
-Se, como resultado, o número de pessoas livres de doenças aumentar, como se tornará este mundo? O mundo infernal que conhecemos se transformará, inevitavelmente, em um Paraíso Terrestre, um mundo de suprema felicidade. A simples imaginação de tal realidade é suficiente para fazer brotar em nós a esperança de uma era de alegria e bem-aventurança.
-
----
-
-# Um Apelo à Consciência das Autoridades
-
-**Categoria:** to | **Ano:** 昭和25(1950)年10月30日 | **Fonte:** 法難手記
-
-## Um Apelo à Consciência das Autoridades
-
-Após sermos submetidos a um interrogatório de crueldade extrema, desprovido de qualquer compaixão ou benevolência, torna-se para nós uma convicção inabalável a de que os responsáveis por tais funções necessitam, fundamentalmente, de um coração religioso. Como é evidente, para conduzir um acusado ao arrependimento, a mera acusação impetuosa e desmedida é ineficaz. O investigador deve, com um olhar de sabedoria, discernir os fatos. Se constatar a existência de um delito, é justo que o persiga até as últimas consequências. Contudo, se ficar provado que não há crime, ele deve abandonar a obstinação em suas suspeitas, retratar-se com hombridade e proceder à imediata absolvição do inocente. Se, porventura, houver uma falta de menor gravidade, basta que se aplique a sanção correspondente à sua natureza, pois este seria o procedimento correto.
-
-Nós mesmos não teríamos a menor objeção em receber a punição devida, caso reconhecêssemos a existência de alguma culpa. Todavia, aceitar resignadamente a pecha por um crime não cometido é algo que, sob qualquer hipótese, se mostra para nós inaceitável. O que desejo ressaltar aqui é que, ao enfrentar um interrogatório implacável, se a pessoa consegue admitir, ainda que minimamente, alguma parcela de culpa, o fardo se torna mais suportável. Quando isso não ocorre, o sofrimento espiritual para reprimir a insatisfação é, decerto, extraordinário. Perante as diversas irracionalidades que expus, creio ser um dever do povo democrático buscar a sua retificação. Portanto, o ato de redigir este registro emana de um incontido impulso por justiça, e peço que se compreenda a ausência de qualquer outra intenção.
-
-Por fim, há uma advertência que gostaria de fazer com especial ênfase. Refiro-me ao princípio da sinceridade, que incessantemente apregoamos, e que se reveste de importância ainda maior para aqueles que lidam com criminosos. Em qualquer circunstância, sem sinceridade, por mais que se empreendam esforços externos, o resultado será, em última análise, a mais absoluta ineficácia. Se assim é, de que maneira se pode cultivar essa sinceridade? A resposta reside na força da fé verdadeira. A origem da criminalidade, como é sabido, reside fundamentalmente no pensamento materialista e ateu, que prega a descrença em tudo o que é invisível. Portanto, a erradicação do materialismo constitui o método fundamental para a diminuição da delinquência, e esta é uma verdade imutável.
-
-Desse modo, é primordial que se faça reconhecer e crer na existência de Deus. Para tanto, é imprescindível que os próprios encarregados de interrogar os criminosos primeiramente reconheçam essa existência e, só então, possam abordar os acusados com sincero amor. Sem isso, é absolutamente impossível tocar o coração do outro. Em uma palavra, a verdadeira sinceridade só pode nascer do reconhecimento da existência de Deus. Quando se lida com um delinquente com base no amor sincero, essa sinceridade invariavelmente tocará sua alma, e só então seu coração começará a se mover.
-
-A experiência recente revelou-nos, de forma inequívoca, a ausência de fé por parte das autoridades investigadoras. Foi com o anseio de lhes fazer reconhecer a necessidade do espírito religioso também no mundo da lei que redigi este texto. Originalmente, não há quem não possua uma fé inata. Contudo, como resultado da educação materialista, da inércia e da falta de poder das religiões tradicionais, e do fato de que, à exceção de poucas, a maioria das novas religiões não apresenta nada de extraordinário, a sociedade chegou aos dias de hoje com uma aversão preconcebida. Não raro, quando expomos a alguém a quintessência da fé, não apenas a pessoa se recusa a experimentá-la, como também nos olha com desdém, como pobres almas aprisionadas pela superstição, não nos concedendo a menor atenção.
-
-Isso é particularmente verdadeiro entre os intelectuais, que parecem crer que discutir religião é algo que lhes fere a dignidade. Prova disso é que, embora tenhamos um número considerável de intelectuais que ingressaram em nossa fé, eles se abstêm de recomendá-la a outros, tendendo a mantê-la em segredo. Some-se a isso as notícias difamatórias veiculadas pela imprensa, a antipatia dos materialistas e a incompreensão das autoridades. Tentar expandir nossa obra em meio a esse cenário é, de fato, uma tarefa hercúlea. E por mais que nos esforcemos, não são poucos os que negam categoricamente a existência de Deus neste mundo, afirmando ser tudo mera superstição. A nosso ver, porém, são essas pessoas as verdadeiras supersticiosas, por tomarem como superstição aquilo que não o é. Sentimos, ao contrário, compaixão por elas, pois nós, os chamados supersticiosos, vivemos em um estado de serenidade e paz interior e, mesmo em meio a esta sociedade de contornos tão nefastos, desfrutamos de uma vida feliz e livre de qualquer ansiedade.
-
-Há ainda outra questão de suma importância: o preconceito aterrador contra nossas atividades religiosas. Ao investigar nossa Igreja, as autoridades focam apenas nos aspectos negativos, fechando os olhos para seus aspectos benéficos. É compreensível que, por dever de ofício, a promotoria concentre sua atenção somente nos fatos relacionados a crimes. No entanto, é preciso ponderar que não é a lei que precede a Nação; é a Nação que precede a lei. Ou seja, sendo a Nação o principal e a lei, o acessório, ao se investigar nossa Igreja, seria necessário observar tanto seus pontos negativos quanto os positivos. E os pontos positivos de nossa fé demonstram o quanto ela tem contribuído para o bem da Nação. São fatos concretos e vivos: pessoas desenganadas por grandes hospitais e por vários doutores que se recuperam de forma milagrosa; indivíduos de má índole, criminosos perigosos e jovens delinquentes que se regeneram; problemas de pobreza que são solucionados. Em suma, inúmeros seres humanos que representavam um fardo para a sociedade transformam-se em elementos positivos. Parte desses relatos está publicada em nossos impressos e, após a leitura, creio que não restará margem para dúvidas. Acima de tudo, o desenvolvimento sem precedentes de nossa Igreja é o maior testemunho disso.
-
-Contudo, em vez de enxergarem o lado bom de nossa obra, as autoridades buscam apenas por seus defeitos, questionando-se se não haverá alguma falha. Essa atitude ignora os interesses da Nação, priorizando unicamente a própria conveniência e vantagem. É verdade que se costuma dizer que é natural que, ao se esquadrinhar qualquer organização, alguma poeira se levante. Devido ao nosso rápido crescimento, é possível que existam algumas falhas de supervisão ou, por desconhecimento, pontos que infrinjam a lei, mas isso representaria, talvez, uma parte em dez. Se nove partes são brancas e uma é negra, é evidente que amparar as nove partes reverteria em benefício para o país. As autoridades, entretanto, fixam-se apenas na única parte e se recusam a ver as outras nove. Em outras palavras, expandem a parte negra para aniquilar as nove partes brancas. Seria compreensível salvar nove insetos matando um, mas o que ocorre é o oposto: salva-se um inseto para matar nove. Essa, provavelmente, é a verdadeira causa do incidente em questão.
-
-Essa "única parte negra" foi, evidentemente, fabricada por quadrilhas de extorsão que miram nossa Igreja, por indivíduos movidos pela inveja e pelo ciúme, por aqueles que se sentem prejudicados por nosso progresso e por opositores que nos veem como rivais comerciais. Suas invenções foram propagadas por jornais, revistas e pelo boca a boca, ganhando grandes proporções. Diante disso, as autoridades, sob o pretexto de que "onde há fumaça, há fogo", devem ter presumido que havia algo suspeito em nossa organização e planejado uma investigação a fundo. Estávamos cientes desses planos há vários meses. Embora alguns nos tenham feito diversas sugestões, estávamos convictos de que a verdade viria à tona, pois realizamos um trabalho digno, do qual não temos do que nos envergonhar perante os Céus, e por isso nada fizemos.
-
-As autoridades, por sua vez, investigaram bancos e outras instituições, mas, não encontrando depósitos vultosos, devem ter presumido que o dinheiro havia sido convertido em ouro, prata e joias e engenhosamente ocultado, o que teria motivado a busca e apreensão de grande envergadura a que fomos submetidos. Por outro lado, a suspeita das autoridades foi grandemente aprofundada pelas notícias difamatórias que, desde o ano passado, vinham preenchendo as páginas de jornais e revistas, alardeando que nossa receita diária ultrapassava dez milhões de ienes e que nossos ativos chegavam a bilhões. Embora não tenham acreditado em tudo, é de se imaginar que tenham dado certo crédito a tais boatos. Ademais, a calúnia na qual as quadrilhas mais se empenharam foi a de que escondíamos grande quantidade de barras de ouro e diamantes. Supõe-se, então, que as autoridades, pensando ter encontrado o fio da meada, tenham partido para a ação. E, uma vez lançada a suspeita, mesmo que se perceba o equívoco, parece que as autoridades relutam em desistir e insistem em levar sua intenção até o fim. Como resultado, veem-se forçadas a superdimensionar delitos de pequena monta.
-
-Gostaria de acrescentar que nossa Igreja foi constituída como pessoa jurídica religiosa em agosto de 1947, ou seja, há apenas dois anos e meio. Até então, nossos ativos eram insignificantes. Seria possível, neste mundo tão adverso, acumular um patrimônio fantástico de bilhões em um período tão curto? Basta o simples bom senso para compreender a impossibilidade disso. Portanto, se as autoridades de fato se deixaram levar por tais boatos e calúnias, significa que nossa Igreja foi vítima de uma calamidade atroz, o que é, de fato, profundamente lamentável.
-
-Diante do exposto, esperamos que, de agora em diante, as autoridades analisem nossa organização com imparcialidade, avaliando tanto seus aspectos positivos quanto os negativos. Se concluírem que os primeiros superam em muito os segundos, deverão reconhecer nosso valor e, mesmo que não nos apoiem, ao menos nos proteger, para que possamos desenvolver nossas atividades em paz. Em suma, trata-se de abandonar uma visão mesquinha por uma perspectiva magnânima, e creio que a liberdade religiosa não significa outra coisa.
-
-Desde a antiguidade, costuma-se dizer que árvores altas atraem mais vento e que o prego que se destaca é martelado. É exatamente assim. Lamenta-se com frequência a mentalidade insular dos japoneses, que se unem para abater qualquer um que comece a se sobressair. Os homens de discernimento suspiram constantemente, pois sabem o quanto essa atitude obstrui o progresso da nação. Enquanto esse aspecto não for corrigido, será impossível que algo de grandioso floresça em nosso país. Em contrapartida, ouvimos dizer que, nos Estados Unidos, quando alguém demonstra talento, a sociedade o apoia para que ele possa crescer ainda mais. Se as coisas continuarem como estão, o Japão permanecerá para sempre atrofiado em um canto da Ásia Oriental. Ansiamos ardentemente pelo dia em que essa consciência desperte, para que possamos, o mais rápido possível, edificar uma grandiosa nação cultural e contribuir para a paz mundial.
-
----
-
-# Afinal, o que é superstição?
-
-**Categoria:** to | **Ano:** 昭和25(1950)年10月11日 | **Fonte:** Eikou
-
-## Afinal, o que é superstição?
-
-Basta mencionar a palavra superstição para que ela seja imediatamente associada à religião. Contudo, a verdade é que a superstição não se restringe ao campo religioso; ela permeia absolutamente todas as áreas da atividade humana, apenas não nos damos conta de sua presença. Com efeito, há superstições na ciência, na política, na filosofia, na educação e nas artes. Na verdade, são tantas que chegam a ser um problema. É incalculável o grau de sofrimento e infortúnio que essas inúmeras superstições têm infligido à humanidade.
-
-Dentre todas, a maior superstição é, sem dúvida, o pensamento materialista. Seus adeptos, orgulhosos, norteiam-se pelo preceito de que não se deve crer no invisível, aceitando apenas aquilo que os olhos podem ver. É justamente essa ideologia que gera criminosos, que destrói a saúde e que condena tantos à pobreza. Ademais, foi nesse terreno fértil que o comunismo floresceu, a ponto de se tornar, como vemos no cenário atual, a própria causa de uma Terceira Guerra Mundial. O mundo inteiro, nação por nação, encontra-se hoje atemorizado por essa ameaça. Isto, por si só, revela a terrível natureza da superstição materialista.
-
-Reflitam, caros leitores: desejariam ser cidadãos da União Soviética, ateia e comunista, ou dos Estados Unidos, cristãos e democráticos? A simples reflexão sobre essa escolha deveria bastar para que compreendam a questão.
-
-Conforme é de vosso conhecimento, tenho apresentado opiniões revolucionárias sobre a doença, a saúde e a agricultura. Mantenho pontos de vista igualmente transformadores a respeito de todas as demais manifestações culturais e pretendo expô-los gradualmente. No entanto, a tarefa é sobremaneira difícil. Por exemplo, temas relacionados à política são considerados vedados à religião. É verdade que, diferentemente do passado, hoje nos é reconhecida a liberdade de expressão, mas ela possui limites. Esses limites são definidos pelo ordenamento jurídico vigente, o qual, por sua vez, foi moldado com base na cultura estabelecida. Portanto, ainda que essa cultura contenha falhas supersticiosas, revelá-las não é algo que se permita com facilidade. Nesses casos, as autoridades costumam alegar a necessidade de manter a ordem social. A verdade, porém, é que nossas ideias seriam imensamente mais úteis para a preservação dessa mesma ordem.
-
-Se, porventura, eu tecer uma crítica à medicina e tentar alertar a sociedade sobre suas deficiências, deparo-me com uma porta de ferro, representada por acusações de violação da Lei Médica ou de obstrução ao exercício da profissão. Por mais notável e superior que seja uma opinião divergente, essa porta permanece intransponível. Sendo assim, a luta para erradicar as superstições fica restrita a certas esferas, e, por ora, não nos resta alternativa senão a paciência.
-
-Todavia, não alimento o menor pessimismo. A razão é simples: se Deus está a empregar Sua força para a salvação do mundo, tudo é apenas uma questão de tempo. Quando o momento certo chegar, aqueles que nos viam como supersticiosos perceberão que, na realidade, a superstição estava com eles. Tenho a mais firme convicção de que o dia em que virão buscar os ensinamentos de nossa Fé certamente chegará. Até lá, resta-nos apenas aguardar.
-
----
-
-# O Deus do Tempo
-
-**Categoria:** to | **Ano:** 昭和24(1949)年6月25日 | **Fonte:** Chijo Tengoku
-
-## O Deus do Tempo
-
-Absolutamente tudo o que concerne à humanidade e ao universo é governado pelo Deus do Tempo; não há, porventura, um único evento que escape ao Seu domínio. As vicissitudes da história, com seus ciclos de ascensão e queda, bem como o discernimento entre o bem e o mal, o certo e o errado, são realidades que não existem apartadas Dele. Nesse sentido, o que hoje é considerado um bem, anos mais tarde pode se tornar um mal; a verdade de hoje pode ser abandonada no futuro como uma inverdade; e o que hoje floresce pode, com o tempo, seguir o inexorável rumo da decadência. O legado da história narra essa realidade de forma irrefutável. Por conseguinte, afirma-se que não existe o bem absoluto, tampouco o mal absoluto, e a antiga máxima de que o bem e o mal são, em essência, uma só coisa, é, indubitavelmente, verdadeira.
-
-Tomemos um exemplo recente. Antes do fim da guerra, os japoneses acreditavam que a lealdade ao imperador e o amor à pátria eram valores supremos, a ponto de tratarem a própria vida com leviandade. Qual é a sua situação hoje? O resultado que se seguiu foi uma completa antítese dos objetivos de outrora, e ao observarmos a nação agonizar sob um destino trágico, ficou profundamente gravado na mente do povo o quão equivocados estavam. Essa transformação, súbita como o virar da palma da mão, ocorreu com o fim da guerra e foi, sem qualquer dúvida, uma deliberação do próprio Tempo.
-
-Ademais, em nossa história mais recente, há outros exemplos notáveis que não podem ser ignorados. Consideremos a era de apogeu do clã Tokugawa. Com o marco da Restauração Meiji, os daimyos e hatamotos, que até então detinham o poder, sofreram uma queda vertiginosa. Em contrapartida, simples estudantes, antes anônimos, ascenderam a postos de ministros e conselheiros de Estado. Tal cenário guarda notável semelhança com a conjuntura atual. A derrocada das classes privilegiadas do pré-guerra — membros da família imperial, da nobreza e os grandes magnatas — como será percebida aos olhos do povo? É evidente que tal fato se deve, inequivocamente, à atuação do Deus do Tempo. Nos escritos da fundadora da Oomoto, há uma passagem que diz: “Nem mesmo Deus pode se opor ao tempo oportuno”. Trata-se de uma afirmação de uma perspicácia extraordinária. Portanto, podemos afirmar sem receio que o governante supremo de tudo sobre a Terra é, de fato, o Deus do Tempo.
-
-Diante do exposto, torna-se imperativo que o ser humano dedique a máxima atenção a essa entidade absoluta que é o Tempo.
-
----
-
-# A Expressão “Lutar Contra a Doença”
-
-**Categoria:** to | **Ano:** 昭和27(1952)年3月12日 | **Fonte:** Eikou
-
-## A Expressão “Lutar Contra a Doença”
-
-Não existe expressão mais equivocada do que esta. Ela denota uma mentalidade que encara a doença como uma inimiga, e a mais ínfima parcela de tal sentimento é o bastante para dificultar sobremaneira a recuperação.
-
-Como nossos membros bem sabem, a doença constitui o mais sublime método para a obtenção da saúde. Por essa razão, deve ser recebida não apenas com profunda gratidão, mas também com sincero acolhimento. Paradoxalmente, quanto mais o ser humano se permite passar pelas enfermidades, mais robusta se torna sua saúde, até que, por fim, ele cessa de adoecer.
-
-Escrevo estas linhas por ter me deparado, recentemente, com a expressão “luta contra a doença” no relato de graças de um de nossos membros.
-
----
-
-# A Inviabilidade da Conquista Lunar
-
-**Categoria:** tu | **Ano:** 昭和24(1949)年9月3日 | **Fonte:** -
-
-## A Inviabilidade da Conquista Lunar
-
-Recentemente, chegou-me ao conhecimento que certos acadêmicos na Grã-Bretanha realizam estudos e preparativos com o intuito de viabilizar uma viagem à Lua.
-
-Contudo, tal empreendimento é uma impossibilidade absoluta. Ainda que um milhão de anos transcorram, ele permanecerá irrealizável.
-
-Diante disso, gostaria de lhes fazer uma recomendação: que direcionem seus valiosos esforços para outros campos de pesquisa.
-
----
-
-# Um Apelo às Autoridades Fiscalizadoras
-
-**Categoria:** to | **Ano:** 昭和24(1949)年12月24日 | **Fonte:** -
-
-## Um Apelo às Autoridades Fiscalizadoras
-
-A história nos demonstra que, em todas as épocas, a proliferação de crenças espúrias e heréticas é um fato recorrente. O período atual, em especial no pós-guerra, não é exceção; pelo contrário, essa proliferação tornou-se ainda mais acentuada, com novas doutrinas surgindo uma após a outra, de maneira incessante. Se nos propuséssemos a examinar quantas dessas novas religiões possuem valor genuíno e uma autêntica razão de existir, o resultado seria, decerto, irrisório. Naturalmente, compete às autoridades fiscalizadoras exercer um controle rigoroso sobre os movimentos de índole duvidosa, e é seu dever profissional manter um olhar atento e um critério justo para não incorrer em equívocos.
-
-Contudo, se a tolerância for excessiva, corre-se o risco de que grupos suspeitos se multipliquem e atuem de forma descontrolada, razão pela qual a vigilância não pode ser negligenciada. Nesse contexto, torna-se quase inevitável que o ceticismo recaia sobre todas as novas religiões, que acabam sendo generalizadas e vistas sob a mesma ótica de desconfiança. Todavia, é um equívoco presumir que toda nova manifestação religiosa seja, por definição, herética. E é precisamente neste ponto que reside a questão fundamental.
-
-Basta observar as religiões já estabelecidas: as mais recentes contam com décadas de história, enquanto as mais antigas remontam a milênios. É fácil imaginar que, ao longo de sua trajetória, elas também foram confundidas com doutrinas questionáveis e superaram períodos de grande adversidade. Portanto, é lícito afirmar que as instituições que hoje perduram representam o que há de mais valioso, tendo sido postas à prova pelo tempo. Seguindo essa mesma lógica, não seria surpreendente que, entre os inúmeros movimentos que surgem atualmente, alguns poucos, dotados de valor e vitalidade, também venham a subsistir.
-
-Certamente, as autoridades devem levar esse aspecto em consideração. O que lamentamos, contudo, é a tendência de se fixarem apenas nos pontos negativos, restringindo sua análise à mera conformidade com os regulamentos e leis vigentes.
-
-Embora essa seja, compreensivelmente, a sua função, nosso mais sincero anseio é que voltem seu olhar também para o lado oposto da questão. Referimo-nos aos resultados práticos de nossa Igreja: o quanto ela tem contribuído para a melhoria da saúde do povo, para a elevação moral da sociedade e para a solução de problemas sociais que nem as leis nem a educação conseguem resolver. Esses são os aspectos positivos. Lidamos constantemente com questões complexas, cuja solução se mostra inviável por qualquer outro meio que não o religioso.
-
-Sendo assim, solicitamos que, dentre as inúmeras religiões existentes, a análise comparativa seja feita tendo como critério fundamental o seu valor prático. Ao adotar tal diretriz, não apenas a névoa da suspeita se dissipará, como também cessarão os prejuízos causados por artigos difamatórios veiculados em jornais e revistas.
-
-Dessa forma, nós, religiosos, poderemos nos dedicar em paz e com afinco à nossa missão de salvação da humanidade.
-
-Ousamos expor, com toda a franqueza, os anseios que nutrimos em nosso coração.
-
----
-
-# Seria Tóquio uma capital estrangeira?
-
-**Categoria:** to | **Ano:** 昭和10(1935)年4月8日 | **Fonte:** Toho no Hikari
-
-## Seria Tóquio uma capital estrangeira?
-
-Outro dia, este simplório dirigiu-se ao restaurante de um teatro e pediu à garçonete que lhe servisse doces ocidentais. A resposta que obteve foi uma pergunta: “O senhor por acaso se refere a um *cake*?”.
-
-Foi então que este tolo se deteve a pensar por um instante: um japonês, na capital do Japão, utilizando o idioma pátrio, não conseguiu ser compreendido por um compatriota.
-
-Houve ainda outro episódio. Sendo eu um grande apreciador de biscoitos de arroz salgados para acompanhar o chá, pus-me a procurá-los durante um passeio por Ginza. Contudo, por mais que buscasse, não encontrei um único estabelecimento do gênero.
-
-Por toda parte, havia apenas cafés com sua fragrância exótica, onde se sorve café adocicado e se consomem guloseimas igualmente doces.
-
-Parece, com efeito, que os japoneses já não podem saborear os alimentos genuinamente nipônicos no coração de sua própria capital. Ah, em verdade, o que se convencionou chamar de "o espírito do tempo" é algo deveras temível.
-
----
-
-# A Raiz da Moralidade
-
-**Categoria:** to | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## A Raiz da Moralidade
-
-Há um antigo ditado sobre aqueles que, embora versados nos Analectos de Confúcio, não os compreendem em sua essência. Tal adágio, evidentemente, refere-se à futilidade de ler obras admiráveis e ouvir nobres sermões sem, contudo, aplicá-los em nossa própria conduta. Contudo, proponho-me a elucidar a razão pela qual, mesmo sentindo-se profundamente comovidos ao ler e ouvir tais ensinamentos, os seres humanos se mostram incapazes de vivenciá-los.
-
-A causa para tanto reside na ignorância quanto à existência do espírito e do Mundo Espiritual. Tal desconhecimento se deve, em grande medida, à ausência, até os dias de hoje, de obras capazes de revelar essa verdade de forma autêntica. Decerto, a razão primordial é que em nenhuma das obras das grandes religiões — para não mencionar outros textos de filosofia e moral —, essa questão jamais foi exposta de maneira cabal e definitiva. Se nos perguntarmos por que assim o foi, a resposta é simples: vivíamos na Era da Noite, um período em que era impossível que a verdade plena viesse à luz.
-
-Nesse sentido, com o advento da Era do Dia, um tempo em que a Luz se difunde por toda parte, todos os fenômenos que no passado permaneciam obscuros passam a ser desvelados com uma clareza meridiana, tão nítida como a palma de nossa mão.
-
-Portanto, é agora, pela primeira vez, que o fundamento da moralidade pôde ser estabelecido. Consequentemente, adentramos um tempo em que ninguém, seja quem for, poderá se eximir de colocar em prática aquilo que aprende.
-
-Passarei, a seguir, a discorrer sobre esses pontos de forma ordenada.
-
----
-
-# O Dever de Seguir a Razão Divina
-
-**Categoria:** to | **Ano:** 昭和25(1950)年11月20日 | **Fonte:** 世界Kyusei教早わかり
-
-## O Dever de Seguir a Razão Divina
-
-A essência da fé, em uma única palavra, consiste em seguir a Razão Divina. Este termo é composto pelos ideogramas *Dou* (道), que significa Caminho, e *Ri* (理), que significa Princípio ou Razão. Dentre os dois, não há ideograma mais profundo que o de Caminho.
-
-Sob a perspectiva da ciência do *Kotodama*, o princípio espiritual das palavras, o som *mi* representa a água e o corpo, ao passo que o som *chi* representa o sangue e o espírito. *Mi* também se refere ao feminino, e *chi*, ao masculino, configurando assim a dualidade Yin e Yang. Do ponto de vista do ideograma, o caracter *kubi* (首), que significa “cabeça”, é acompanhado do radical *shinnyou*, que denota movimento. Se tomarmos o corpo humano como analogia, a cabeça é o seu componente mais vital. Pode-se sobreviver à perda de braços e pernas, mas a vida cessa no instante em que a cabeça é decepada. É curioso notar que a expressão japonesa para demitir um funcionário é, literalmente, “ter o pescoço cortado”. Sendo a cabeça um elemento de tamanha importância, a adição do radical de movimento confere a este ideograma um significado de extraordinária profundidade.
-
-Ademais, o Caminho é aquilo que permeia absolutamente tudo. Nenhum meio de transporte, onda de rádio, raio de luz ou interação humana pode existir sem ele. Até mesmo o movimento do Sol, da Lua e das estrelas segue uma órbita definida, ou seja, um Caminho. Sendo o Caminho o fundamento de todas as coisas, compreende-se quão grave é o erro de dele se desviar.
-
-Prossigamos para a análise do ideograma *Ri* (理). No *Kotodama*, os sons da família do “ra” aludem a uma espiral (*rasen*), que, em sua forma, se assemelha a um vórtice (*uzumaki*). Todo vórtice possui um centro, a partir do qual se origina um movimento de expansão e contração. Um giro para a esquerda gera uma força centrípeta, enquanto um giro para a direita gera uma força centrífuga. Tomemos como exemplo o centro de nossa Igreja, Hakone Gora (箱根強羅). O ideograma *go* (強) corresponde ao número cinco e ao elemento Fogo. *Ra* (羅), por sua vez, simboliza o vórtice. Assim, o nome “Gora” expressa o sentido de um ponto de Fogo que se expande de forma centrífuga. A tradicional forma do *tomoe* (巴), que representa a transição de um giro à esquerda para um giro à direita, é verdadeiramente mística. O *kotodama* das sílabas *ra, ri, ru, re, ro* corresponde à atuação das Divindades-Dragão (*Ryuujin*), e o próprio nome dragão, *ryuu* (龍), evoca este som. Quando inerte, o dragão assume a forma de um vórtice. A título de curiosidade, quem experimentar verificará que pessoas cujos nomes contêm esses sons frequentemente pertencem ao tipo Divindade-Dragão. Contudo, para não nos estendermos indefinidamente, encerremos aqui esta explicação.
-
-Analisemos agora o ideograma de *Ri* (理). O radical à esquerda, *ou* (王), que significa “rei”, simboliza os planos Celestial, Intermediário e Terrestre, assim como os elementos Fogo, Água e Terra, todos interligados por um eixo vertical. A parte direita é o caracter *sato* (里), que significa “aldeia”. Este, por sua vez, é formado por *ta* (田), “campo de arroz”, e *tsuchi* (土), “terra”. O ideograma *ta* representa um círculo contendo uma cruz, enquanto *tsuchi* é a junção de dez e um, simbolizando a unificação. Portanto, o significado de *Ri* é a atividade fundamental de todo o Universo; é a própria perfeição. Nesse sentido, o nome da religião Tenrikyo é muito bem escolhido.
-
-Frequentemente encontramos a palavra *rihou*, a Lei da Razão. Aproveitemos a oportunidade para decifrar também o ideograma de Lei, *Hou* (法). No *Kotodama*, *ho* representa o Fogo, e *o*, a Água. Segundo esta ciência, o som *o* está contido em *ho*, significando que o Fogo arde continuamente graças à presença da Água. Quanto ao ideograma, ele é composto pelos elementos “água” (水) e “partir” (去る). A água, por fluir na horizontal, traz consigo o risco da desordem. Consequentemente, ao se anular a ação da água, resta apenas o eixo vertical, que denota uma estabilidade rigorosa e imutável. Eis o motivo pelo qual se diz que a Lei não deve ser violada.
-
-Ao unirmos o significado de cada um desses ideogramas, a profundidade do termo Razão Divina torna-se evidente. Sendo um conceito de tamanha magnitude e significado, é imperativo que o ser humano o siga. Podemos, portanto, afirmar que a Razão Divina é o próprio Deus. Segui-la é seguir a Deus. Qualquer que seja a circunstância, o homem deve reverenciar a Razão Divina, pautar-se por ela e jamais dela se desviar.
-
----
-
-# Os Prejuízos das Denúncias e Cartas Anônimas
-
-**Categoria:** to | **Ano:** 昭和24(1949)年11月12日 | **Fonte:** -
-
-## Os Prejuízos das Denúncias e Cartas Anônimas
-
-É compreensível que as autoridades valorizem denúncias anônimas como pistas para a investigação de crimes, e nós mesmos não hesitaríamos em manifestar nosso apoio a elas, desde que fossem feitas com seriedade e boas intenções. Contudo, é imperativo ter a máxima cautela com aquelas que são fruto de má-fé e conspiração, meras invenções e calúnias. Tentar obter satisfação pessoal por tais meios é, na verdade, um ato demoníaco.
-
-Nesse sentido, nossa Igreja tem sido uma vítima constante. Em especial, desde a questão fiscal do último outono, que nos tornou amplamente conhecidos e resultou na imposição de vultosos impostos, multiplicou-se drasticamente o número de indivíduos que visam nosso patrimônio. Desde então, eles nos importunam incessantemente, apresentando toda sorte de problemas forjados. Ao analisarmos cada um desses casos, constatamos que, sem exceção, não passam de engenhosas tentativas de extorsão.
-
-Quando tais esquemas atingem grande escala, os métodos empregados são de uma astúcia tão refinada que suas maquinações criativas chegam a ser dignas de espanto. É alarmante constatar que, entre as pessoas manipuladas por eles, encontram-se não apenas personalidades conhecidas, mas até mesmo parlamentares, que chegam a mobilizar a grande imprensa a seu favor. Diz-se que despendem somas consideráveis em suas manobras, agitando-se dia e noite em seus propósitos, algo que uma pessoa comum jamais poderia conceber.
-
-Diante desse cenário, a estratégia habitual desses indivíduos para mobilizar as autoridades são as denúncias e as cartas anônimas. Curiosamente, antes de enviá-las, eles por vezes nos procuram para vender o dossiê, um manuscrito com centenas de páginas, exigindo valores exorbitantes. Contudo, se cedêssemos uma única vez, a notícia se espalharia entre seus comparsas, e logo surgiriam outros tentando vender suas próprias versões. Cientes disso, adotamos a política de recusar firmemente tais propostas. Como retaliação, eles então partem para uma ação em larga escala, enviando as denúncias a diversas autoridades competentes. Nessas cartas, enumeram acusações calculadas para despertar o máximo interesse investigativo. Embora as autoridades, naturalmente, não acreditem em tudo de imediato, uma semente de dúvida é plantada, dando início a um processo de averiguação. É nesse momento que os malfeitores, agindo por vias inesperadas, nos ameaçam com a iminência de uma repressão oficial, na tentativa de nos extorquir dinheiro para supostamente intermediar a situação. É impossível não se espantar com a gravidade de suas conspirações.
-
-Tais ações, que sobrecarregam as autoridades e nos causam enormes transtornos, não podem ser classificadas senão como atos demoníacos. Conforme mencionei, esses grupos agem de forma coordenada, por meio de uma vasta rede de contatos. É de se supor que pessoas com algo a esconder, ao se tornarem alvo deles, acabem sendo extorquidas em altas somas. Todavia, em se tratando de nós, que somos, acima de tudo, religiosos com a missão de promover o bem na sociedade, não há qualquer motivo para que tenhamos a menor conduta reprovável. Portanto, é natural que não cedamos, por mais que eles conspirem. Como uma nova religião que alcançou um desenvolvimento extraordinário e conquistou a confiança absoluta de centenas de milhares de fiéis, a menor mácula em nossa reputação teria um impacto devastador sobre toda a organização.
-
-Pelo exposto, ao se determinar a veracidade de denúncias e cartas anônimas, rogamos encarecidamente que os responsáveis pelo seu discernimento atuem com um olhar aguçado e uma atitude de extrema prudência.
-
----
-
-# O Princípio Vertical e Horizontal
-
-**Categoria:** to | **Ano:** 昭和23(1948)年9月5日 | **Fonte:** Shinko Zatsuwa
-
-## O Princípio Vertical e Horizontal
-
-É de conhecimento universal que todas as coisas existentes entre o Céu e a Terra possuem os aspectos Yin e Yang. Eu, por minha vez, classifico esses dois princípios em um eixo vertical e um eixo horizontal. Nessa perspectiva, Yang corresponde ao vertical, e Yin, ao horizontal. Permitam-me, pois, apresentar uma classificação destes dois eixos, conforme se segue:
-
-**Eixo Vertical** – Sol, Fogo, Oriente, Espírito, Homem, Budismo, Vermelho, Montanha, Dia.
-**Eixo Horizontal** – Lua, Água, Ocidente, Matéria, Mulher, Cristianismo, Branco, Mar, Noite.
-
-A classificação apresentada é, por certo, um esboço. A partir dela, explicarei como todas as coisas manifestam esses eixos vertical e horizontal. O Oriente, por exemplo, sendo de natureza vertical, fundamenta-se na reverência aos antepassados, na exaltação da lealdade e da devoção filial, na preocupação em legar prosperidade aos descendentes e em uma estrutura social de hierarquia rigorosa. Em contrapartida, o Ocidente, de natureza horizontal, parte do amor conjugal como alicerce, expandindo-se para o amor ao próximo e, por fim, evoluindo até alcançar o amor universal pela humanidade. Trata-se, portanto, de uma expansão infinita no plano horizontal.
-
-Ademais, no Oriente, reconhece-se a autoridade absoluta do homem, sendo a mulher vista como sua seguidora. No Ocidente, contudo, os direitos da mulher são afirmados, e a isonomia entre os sexos é considerada um preceito fundamental.
-
-Conforme exposto, até os dias de hoje, o Oriente apegou-se firmemente à sua linha vertical, enquanto o Ocidente contentou-se com a linha horizontal. Todavia, é imperativo que, em algum momento, esses dois eixos se unam, formando uma cruz. Essa união representa nada menos que a fusão da civilização espiritual do Oriente com a civilização material do Ocidente. Será por meio dessa junção que a humanidade adentrará, pela primeira vez, uma era de cultura ideal. A cruz do Cristianismo é uma alusão a essa verdade, e a suástica do Budismo, o *manji* (卍), certamente possui um significado análogo.
-
-Nesse sentido, o eixo vertical representa o espírito, e o horizontal, a matéria. De sua união, origina-se a força, ou *chikara* (力). Na ciência espiritual da palavra, *chi* corresponde ao sangue, que é o espírito, e *kara* representa o invólucro, o corpo, o receptáculo do espírito. O sangue, que é o espírito, circula verticalmente no corpo humano. Quando o espírito, o *chi*, se retira, o corpo torna-se um invólucro vazio, um *kara* (空); daí a palavra japonesa para despojos, *nakigara*. O próprio termo para corpo, *karada*, remete a essa ideia de receptáculo. De modo semelhante, a palavra *hito*, que significa “ser humano”, deriva de *hi*, espírito, e *to*, que significa “pousar” ou “permanecer”. Logo, o ser humano é aquele em quem o espírito pousou e permanece.
-
-Enquanto o ser humano está vivo, ele se mantém em uma posição vertical, pois o sangue — a materialização do espírito, que é vertical — flui em seu interior. Com a morte, o espírito se evade, restando apenas o corpo material, horizontal, que então é deitado. Existe ainda outra correspondência: o corpo na vertical é quente, mas, ao se deitar, esfria, necessitando de agasalho. Isso ocorre porque, no Mundo Espiritual, o elemento fogo movimenta-se verticalmente, enquanto o elemento água flui no sentido horizontal.
-
-A esse respeito, gostaria de tecer algumas considerações sobre a forma da cruz. Até o fim da guerra, o Japão, sob a influência de seu sistema feudal, era excessivamente vertical. A rigidez de sua estrutura hierárquica tornou-se uma das causas do conflito e da imensa aflição imposta ao povo. Foi então que Deus, para salvar o povo japonês, atuou por meio da força horizontal da democracia. Simplificando, Ele introduziu no Japão, o eixo vertical, o modelo americano, que é o eixo horizontal. Dessa forma, o vertical e o horizontal se uniram, e uma nova cultura em forma de cruz nasceu.
-
-Quem compreende este princípio percebe que a recente derrota do Japão deve ser motivo de alegria. Nossa nação tornou-se, de fato, um país abençoado. Por isso, creio que nós, japoneses, devemos ter essa consciência, olhar com esperança para o futuro e nos esforçar para construir uma nação tão admirável que venha a ser reverenciada por todo o mundo.
-
----
-
-# A Origem da Dor e do Sofrimento
-
-**Categoria:** tu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
-
-## A Origem da Dor e do Sofrimento
-
-Conforme já explanei anteriormente, a dor, ou o sofrimento, origina-se do processo de purificação. Quando as toxinas solidificadas são dissolvidas e se liquefazem pela febre purificadora, esta matéria liquefeita busca uma via de escape. O movimento em direção a essa saída estimula os nervos dos músculos, gerando a sensação dolorosa.
-
-As manifestações da dor são, de fato, multiformes, abrangendo enfermidades como apendicite, peritonite aguda, nefrite aguda, espasmos gástricos e intestinais, cefaleias, dores de dente, otite média, reumatismo e as mais diversas nevralgias. Contudo, a grande maioria desses padecimentos decorre do princípio que acabo de expor.
-
-Adicionalmente, a causa das dores relacionadas aos ossos, como a periostite, a osteomielite e a cárie das costelas, reside nas toxinas solidificadas na membrana do periósteo. Durante o processo de purificação e dissolução, essas toxinas tentam exsudar para a superfície, criando inúmeras e minúsculas perfurações no próprio osso. É este processo que ocasiona uma dor lancinante. O mesmo princípio se aplica a afecções como a periodontite e a otite média. É importante ressaltar que, uma vez sanada a enfermidade, essas perfurações se regeneram prontamente, retornando o osso ao seu estado original. Nesses casos, os médicos frequentemente afirmam que o osso está se decompondo, o que constitui um grave equívoco.
-
-Consideremos, em seguida, a dor excruciante do panarício e da gangrena. Nessas condições, a área afetada incha, adquire uma coloração arroxeada e escura, e se expande gradualmente. Sua aparência, que se assemelha à de um tecido em putrefação, leva os médicos a diagnosticar necrose e a recomendar a amputação imediata como a melhor solução. Todavia, trata-se de outro equívoco monumental. A prova disso reside no fato de que tal expansão invariavelmente cessa após atingir um determinado ponto, o que demonstra, de forma inequívoca, que não se trata de um processo de decomposição.
-
-Existem ainda os casos de queimaduras, cortes e contusões. Diferentemente das doenças, essas lesões possuem um processo de cura natural. Contudo, é extremamente comum que a aplicação de antissépticos e outros medicamentos dificulte e retarde essa recuperação. Nessas situações, ao abandonar o uso de fármacos e apenas lavar a área afetada com água limpa, a cura ocorre de maneira natural e eficiente.
-
-Portanto, como já afirmado, a causa primordial de todo sofrimento reside nas toxinas medicamentosas. A existência de uma vasta gama de dores corresponde, consequentemente, à vasta gama de medicamentos que as originam.
-
-Por meio desta arte de cura, o sofrimento é sanado com celeridade. Mesmo as dores mais lancinantes, como as do panarício e da gangrena, cessam após uma a três ministrações, para o assombro e a alegria dos pacientes.
-
----
-
-# O ser humano, uma massa de toxinas
-
-**Categoria:** to | **Ano:** 昭和28(1953)年9月16日 | **Fonte:** Eikou
-
-## O ser humano, uma massa de toxinas
-
-Costumo afirmar que o ser humano moderno é uma massa de toxinas. Embora possa parecer uma colocação deveras severa, trata-se de uma realidade inegável. Como todos os fiéis bem sabem, qualquer pessoa hoje em dia transformou-se em uma verdadeira massa de toxinas, em virtude de duas naturezas de venenos medicinais: os congênitos, herdados dos antepassados, e os adquiridos após o nascimento. Minha experiência de mais de duas décadas, ao tratar de dezenas de milhares de pessoas, comprova que não há uma única exceção. Poder-se-ia dizer que, quase sem exceção, são massas de toxinas com forma humana. É verdade que, por meio do Johrei, essas toxinas são facilmente dissolvidas e eliminadas, e a saúde melhora a ponto de não haver mais risco de vida. Contudo, a remoção completa de todas as toxinas medicinais é uma tarefa que dificilmente se concluiria em toda uma existência.
-
-Diante de tal realidade, torna-se quase cômico observar essas massas de toxinas em forma humana agindo com arrogância e proferindo argumentos pretensiosos. É natural, portanto, que delas não emane nenhuma sabedoria genuína. Isto ocorre porque, segundo a Lei Espiritual, as toxinas tendem a se acumular e solidificar nas áreas onde a atividade nervosa é mais intensa. Visto que o homem moderno utiliza o cérebro em demasia, as toxinas se concentram e se solidificam na região que vai do pescoço aos ombros. Qualquer pessoa pode constatar essa verdade ao apalpar tal área, onde certamente encontrará nódulos e enrijecimentos de diversos tamanhos.
-
-A purificação desses nódulos manifesta-se como o resfriado. Se o processo seguir seu curso natural, as toxinas são expelidas sem percalços e a cura se estabelece. A medicina, em sua ignorância, contudo, utiliza medicamentos e outros meios para interromper essa eliminação, solidificando ainda mais as toxinas. Ademais, como novos venenos medicinais são administrados nesse processo, os nódulos tóxicos aumentam de volume. Consequentemente, a pessoa se torna uma massa de toxinas ainda maior, o que, por sua vez, torna as purificações mais frequentes, resultando no elevado número de doentes que vemos hoje. Como o cérebro é a área mais afetada, o número de indivíduos com raciocínio debilitado só aumenta. Pode-se afirmar que quase ninguém está isento de sofrimentos como dores de cabeça, sensação de peso na cabeça, confusão mental, irritabilidade e tonturas. Em decorrência disso, a capacidade de julgamento se torna obtusa, a ponto de não se conseguir mais distinguir o certo do errado. A falta de bom senso, o declínio da inteligência, a lentidão de raciocínio e a insensibilidade são manifestações evidentes, como cada um pode perceber ao observar a si mesmo, levando as pessoas a agirem de forma imediatista. Portanto, é espantoso o número de ocorrências nefastas — doenças, crimes, miséria, conflitos —, que transformam a sociedade em um verdadeiro painel do inferno.
-
-Nesse sentido, desejo ressaltar particularmente o baixo nível dos intelectuais. As teses que defendem são repletas de contradições, desprovidas de convicção ou princípios, e carecem de lógica. Não passam de um mero alinhamento de palavras impressas, cujo propósito, na maioria das vezes, parece ser apenas o de preencher páginas para garantir o sustento. De fato, ao lermos os artigos de opinião recentes, raramente encontramos algo que permaneça na memória. Para ilustrar, citarei alguns exemplos, começando pelos religiosos. Seus sermões nada mais são do que doutrinas antiquadas, de centenas ou milhares de anos, às quais se deu uma nova roupagem, sem apresentar, contudo, qualquer elemento de novidade. Naturalmente, é quase impossível que consigam inspirar ou comover as pessoas.
-
-Vejamos o caso dos políticos. Questões que uma mente comum resolveria em no máximo trinta minutos são debatidas por grandes comitês durante dias, meses e até anos, sem que se chegue a uma conclusão. Tal fato revela o grau de deterioração de suas mentes. A questão do rearmamento, por exemplo, cujos prós e contras são de uma clareza meridiana, permanece até hoje em um infindável impasse, o que corrobora minha afirmação. Isso se deve, provavelmente, à ausência de líderes sábios e confiáveis, o que é deveras lamentável. A esse respeito, costumo orientar meus subordinados a encerrar qualquer reunião ou deliberação que se estenda por mais de trinta minutos. Se, ainda assim, um consenso não parece próximo, não raro exerço minha autoridade e resolvo a questão com uma única palavra. É por essa razão que, em nossa Igreja, tudo se desenvolve com grande celeridade.
-
-Passemos ao mundo econômico, cujos integrantes também denotam uma inteligência excessivamente precária. Como é de conhecimento geral, desde os líderes do governo e do setor financeiro até os comerciantes e industriais japoneses, todos vivem atormentados por dívidas. Provavelmente, não há no mundo nação mais assolada pela inflação de débitos do que o Japão. A causa primordial para tal situação reside na incompetência em equilibrar lucros e juros, na incapacidade de prever os ciclos de prosperidade e declínio dos negócios, e na falta de visão para antecipar as tendências mundiais e os rumos da economia nacional. Tudo isso se deve, evidentemente, à obtusidade de suas mentes, quadro que é ainda mais agravado pela angústia gerada pelo endividamento.
-
-Haveria muito mais a dizer, mas creio que o exposto já seja suficiente para a compreensão do quadro geral. Gostaria, no entanto, de acrescentar um último ponto: a alarmante proliferação de problemas nefastos em todos os setores da sociedade. Acidentes de trânsito, incêndios, desastres em minas, assassinatos e agressões, suicídios, pactos suicidas, litígios judiciais, além de tufões, inundações e pragas na agricultura... Em suma, a totalidade desses males é consequência da falta de clareza mental, cuja causa fundamental são as toxinas medicinais. Sinto, pois, a urgência de despertar a humanidade para esta verdade. Falando sem rodeios, a sociedade atual não me parece outra coisa senão um aglomerado de seres humanos-toxina que se acotovelam e se agitam em desordem. Ao ponderar sobre isso, não posso deixar de imaginar o quão imenso é o trabalho de Deus para purificar semelhante estado de coisas.
-
----
-
-# A Diferença entre o Tratamento Médico e o Johrei em Relação a Acidentes por Queda
-
-**Categoria:** tu | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-
-## A Diferença entre o Tratamento Médico e o Johrei em Relação a Acidentes por Queda
-
-É desnecessário discorrer sobre a impotência da medicina frente a lesões e traumas decorrentes de quedas. Contudo, ao observar a evolução do caso desta criança [omitido], até a pessoa mais cética compreenderá a magnificência do Johrei. A medicina, por sua vez, estabelece terapias distintas para cada enfermidade e adota procedimentos para lesões externas que divergem sobremaneira dos métodos da medicina interna. Tal fragmentação ocorre porque os médicos desconhecem por completo a essência do corpo humano e ignoram totalmente sua natureza como uma existência mística. Diante dessa ignorância, é perfeitamente natural que as doenças não sejam curadas.
-
-Nesse sentido, a Medicina Espiritual distingue-se radicalmente, pois adota um método único para toda e qualquer enfermidade. Em outras palavras, curamos todas as doenças por meio de um único princípio. Visto que este princípio constitui a Verdade, a cura é, mais uma vez, uma consequência inevitável.
-
-Portanto, é verdadeiramente lastimável a condição do ser humano na atualidade, que deposita confiança absoluta em uma arte médica tão rudimentar. Falando abertamente, de um lado temos aqueles que vivem dias de extrema apreensão; de outro, os que desfrutam de uma vida inteiramente livre de inquietações. Os fatos, conforme este escrito os narra, atestam essa realidade. Sendo assim, a escolha entre um caminho e outro dispensa qualquer deliberação.
-
----
-
-# A Origem do Pecado é o Remédio
-
-**Categoria:** tu | **Ano:** 昭和27(1952)年2月6日 | **Fonte:** Eikou
-
-## A Origem do Pecado é o Remédio
-
-O título deste artigo certamente causará grande espanto em quem o ler. Afinal, a ideia de que o pecado e os remédios possuam qualquer relação parece, à primeira vista, inconcebível. Contudo, a verdade é que essa relação existe e é profunda, a ponto de soar fantástica e extraordinária.
-
-Passarei a expor essa verdade. Conforme sempre ensino, o remédio é uma toxina. Quando introduzido no corpo, ele impurifica o sangue. O sangue impuro, por sua vez, obscurece o espírito; e um espírito obscurecido gera no ser humano uma sensação de mal-estar. Esse mal-estar é o verdadeiro algoz. Como resultado, a pessoa torna-se impaciente e irritadiça, predispondo-se com facilidade a conflitos. Com efeito, quando estamos de bom humor, somos capazes de relevar uma observação descabida com um simples sorriso. Todavia, quando o mal-estar nos domina, a menor trivialidade é suficiente para despertar a nossa ira. Dessa forma, o estado de espírito pode tanto iluminar quanto obscurecer a vida de uma pessoa. E, por estar intimamente ligado à boa ou à má sorte, não deve jamais ser subestimado.
-
-A importância das emoções na vida humana é inegável, pois delas dependem inúmeros aspectos do nosso cotidiano. O sucesso de funcionários públicos e empregados de empresas privadas, que conquistam o apreço e a confiança de seus superiores; a harmonia no relacionamento com colegas; o prestígio de um comerciante junto à sua clientela; e até mesmo o desempenho de técnicos e o aproveitamento de estudantes são, como todos sabem, profundamente influenciados pelo estado emocional. Os exemplos citados são comuns, mas, quando essa dinâmica se agrava, as consequências podem ser devastadoras.
-
-A menos que possua um elevado grau de aprimoramento espiritual, a pessoa comum, ao sentir-se mal, buscará algum tipo de estímulo para aliviar seu desconforto. Nesse sentido, o álcool é o refúgio mais frequente, seguido pelos jogos de azar. A popularidade recente de modalidades como as corridas de bicicleta e o *pachinko* ilustra bem esse fenômeno. Há também aqueles que, ao obterem alguma estabilidade financeira ou posição social, buscam o estímulo da vida luxuosa e da companhia de mulheres. Como tais prazeres exigem dinheiro, muitos acabam recorrendo a meios ilícitos para obtê-lo. Desvios de verba, estelionatos e atos de corrupção nascem dessa busca. O mais assustador, contudo, é a frequência com que vemos indivíduos que chegam a cometer assassinato por quantias irrisórias. Diante disso, costuma-se dizer que por trás de todo crime há uma mulher. Eu, porém, gostaria de afirmar que, por trás da mulher, há o remédio.
-
-Assim, na ânsia de aplacar o mal-estar, as pessoas procuram estímulos cada vez mais intensos, o que fomenta a proliferação de centros de entretenimento de natureza corruptora. Somam-se a isso o desenvolvimento dos meios de transporte, que tornam o acesso a esses locais extremamente fácil, e o colapso das antigas estruturas sociais. O resultado é a mentalidade que hoje prevalece em nossa sociedade: a de que levar uma vida íntegra é tolice.
-
-Até aqui, descrevi apenas um dos aspectos do problema. Vejamos agora o seu lado mais sombrio, que é igualmente grave. A causa principal, evidentemente, é a doença. O homem moderno, ao consumir remédios e aplicar injeções de forma indiscriminada, apenas agrava seu estado, multiplicando as enfermidades e, consequentemente, o número de pessoas que vivem em constante mal-estar. Surgem então as dificuldades financeiras, decorrentes das despesas médicas e da perda de renda pelos dias de trabalho perdidos. Para contorná-las, a pessoa contrai dívidas e acaba por causar transtornos a terceiros. A vida torna-se cada vez mais amarga e desinteressante. Além disso, como a medicina convencional apenas suprime temporariamente os sintomas sem jamais curar a raiz do mal, as doenças se prolongam indefinidamente. Encurralada, sem ver qualquer saída, a pessoa desesperada pode recorrer ao roubo. As de índole mais fraca chegam a atentar contra a própria vida ou a cometer o suicídio familiar.
-
-Tragédias como essas estampam diariamente as páginas dos jornais, sendo particularmente numerosas aquelas relacionadas à tuberculose. Analisando a questão sob essa perspectiva, compreende-se que a causa dos crimes é o mal-estar que aflige o ser humano e que a causa desse mal-estar, por sua vez, é o remédio. Creio que, assim, o significado do título deste artigo se tornou perfeitamente claro.
-
----
-
-# A Surdez, a Constipação e a Difteria Sob a Ótica Espiritual
-
-**Categoria:** tu | **Ano:** 昭和22(1947)年2月5日 | **Fonte:** 天国の福音
-
-## A Surdez, a Constipação e a Difteria Sob a Ótica Espiritual
-
-A surdez, em muitos casos, origina-se de causas espirituais. A primeira reside na perda do tímpano em decorrência de uma morte violenta em vida anterior; o espírito, não se recuperando plenamente no Mundo Espiritual, renasce prematuramente com essa condição. A segunda refere-se à reencarnação ou à obsessão por um espírito de árvore, conhecido como *Mokuryu*. Conforme já mencionado, o *Mokuryu* é o espírito obsessor de uma árvore e, quando esta é derrubada, seu espírito pode vir a obsidiar os descendentes da pessoa responsável pelo ato. Todavia, a surdez causada por um *Mokuryu* é das mais difíceis de se curar. É digno de nota que o ideograma para surdez (聾) é formado pelos caracteres “dragão” e “ouvido”, o que sugere que os antigos detinham esse conhecimento.
-
-Prosseguindo, a constipação de origem espiritual restringe-se aos lactentes. Existem casos em que a criança já manifesta a condição desde o nascimento. A causa reside na reencarnação de um espírito que, em sua vida anterior, veio a falecer sofrendo de constipação. É possível identificar tais bebês com facilidade, pois suas feições assemelham-se às de um adulto, particularmente às de um idoso. Portanto, se o quadro não for interferido, a condição geralmente se normaliza após um ou dois meses e, a essa altura, a fisionomia da criança adquire os traços próprios de um bebê. Nesse sentido, ao observarmos atentamente o rosto dos recém-nascidos, notamos que muitos possuem uma aparência envelhecida. Tal fato constitui uma evidência da reencarnação humana, tornando-a inquestionável.
-
-Por fim, a difteria é frequentemente causada pela obsessão do espírito de um gato morto. Nesses casos, existe um método para discernir se a origem é ou não espiritual. Primeiramente, ao se projetar energia espiritual em direção ao nariz do paciente, se ele emitir espirros ou miados semelhantes aos de um felino, fica comprovado tratar-se do espírito de um gato.
-
----
-
-# A Origem Espiritual da Surdez, da Constipação e da Difteria
-
-**Categoria:** tu | **Ano:** 昭和18(1943)年10月23日 | **Fonte:** Asu no Ijutsu 第三編
-
-## A Origem Espiritual da Surdez, da Constipação e da Difteria
-
-A surdez possui causas tanto espirituais quanto físicas. Abordemos, primeiramente, o aspecto espiritual.
-
-No âmbito espiritual, sua origem reside na possessão pelo que denomino espírito-dragão arbóreo. Como já elucidei, trata-se do espírito de uma árvore que, ao ser derrubada, aloja-se nos descendentes daquele que a cortou. A surdez decorrente desta causa específica é a mais refratária ao tratamento. O próprio ideograma para surdez é composto pelos elementos de "dragão" e "ouvido", o que me leva a crer que os antigos já possuíam tal conhecimento.
-
-Prossigamos. Há casos em que um recém-nascido já apresenta constipação intestinal desde o seu primeiro dia de vida. Embora seja um bebê, a evacuação ocorre apenas a cada três ou cinco dias. Qual seria a causa de tal fenômeno? Trata-se de um indivíduo que, em sua vida pregressa, faleceu sofrendo de constipação e agora renasceu com essa mesma condição. Por essa razão, a fisionomia de tais bebês não é pueril; assemelha-se à de uma pessoa de meia-idade ou até mesmo de um idoso, o que os torna facilmente identificáveis. Contudo, não há motivo para preocupação. Se o quadro for deixado a evoluir naturalmente, em um ou dois meses, a função intestinal da criança se normalizará, equiparando-se à dos demais bebês. Naturalmente, à medida que a evacuação se regulariza, suas feições também adquirem a aparência característica de um recém-nascido. Este fenômeno constitui uma prova irrefutável da reencarnação humana. De fato, a existência de recém-nascidos com semblante de idoso, algo que se observa com certa frequência, é mais uma evidência que corrobora a realidade da regeneração espiritual.
-
-Finalmente, abordemos a difteria. Sua causa, em grande parte dos casos, é a possessão pelo espírito de um gato falecido. Nessas circunstâncias, o choro da criança pode soar notavelmente semelhante ao miado de um felino. Ademais, ao projetarmos energia espiritual em direção ao nariz da criança, ela passa a espirrar repetidamente, de maneira análoga a um gato.
-
----
-
-# O Equívoco da Reação à Tuberculina
-
-**Categoria:** tu | **Ano:** 昭和18(1943)年11月23日 | **Fonte:** 結核の正体
-
-## O Equívoco da Reação à Tuberculina
-
-Elucidarei, a seguir, os motivos pelos quais a injeção de tuberculina resulta em reações positivas e negativas.
-
-Conforme mencionei anteriormente, o corpo humano se encontra em um processo ininterrupto de purificação. Por conseguinte, ao se injetar subitamente uma substância estranha ou um veneno, desencadeia-se de imediato uma ação purificadora no local. É por essa razão que a área apresenta vermelhidão ou inchaço. A título de ilustração, o princípio é o mesmo que ocorre quando somos picados por um mosquito, um inseto venenoso ou uma abelha, e o local incha. Trata-se do acúmulo de sangue, que aflui rapidamente com o propósito de neutralizar a toxina.
-
-Isso por si só demonstra que o próprio sangue possui uma capacidade desintoxicante. Em contrapartida, o indivíduo que apresenta reação negativa é aquele cuja força desintoxicante do sangue é tênue, impedindo a ocorrência do inchaço; em outras palavras, seu sangue carece de vitalidade. Contudo, quando a injeção de tuberculina é aplicada pela segunda ou terceira vez, a reação finalmente se converte em positiva. Isso ocorre porque, com a duplicação ou triplicação da substância estranha injetada, a própria capacidade de desintoxicação do sangue — ainda que débil — acaba por aumentar na mesma proporção, tornando o indivíduo positivo.
-
-Diante do exposto, fica evidente que as reações positiva e negativa nada mais são do que uma manifestação da intensidade da força purificadora frente à inoculação de uma substância estranha. Sendo assim, a injeção de tuberculina não possui qualquer relação com a tuberculose. Apesar disso, a interpretação da medicina, que a considera como o único método para diagnosticar a doença, afigura-se-me incompreensível. Por tal motivo, não posso deixar de lamentar o quão fútil é o dispêndio de tantos recursos e esforços na aplicação de uma injeção desprovida de qualquer significado.
-
-Permitam-me, ademais, apontar outro ponto da teoria médica sobre a injeção de tuberculina que considero extremamente ilógico. A medicina postula que o inchaço ocorre porque o indivíduo, já tendo sido infectado pela bactéria viva da tuberculose, desenvolveu antitoxinas. Todavia, essa é uma interpretação inversa da realidade. Ora, se as referidas antitoxinas são elementos gerados para a defesa contra bactérias vivas, não haveria necessidade de produzi-las em resposta a bactérias mortas.
-
-Outro ponto digno de nota é o seguinte: se o postulado da medicina estivesse correto, qual seria a explicação para o intenso inchaço que ocorre quando uma pessoa é picada por uma abelha pela primeira vez na vida? Seguindo a lógica médica, seria preciso concluir que ela já possuía e mantinha em seu organismo antitoxinas contra o veneno da abelha. É, de fato, uma história deveras absurda.
-
-Vejamos outro caso: quando os japoneses são picados por percevejos, o local invariavelmente incha. Já os chineses não apresentam qualquer reação. Isso se deve, evidentemente, ao fato de que, por serem picados desde a tenra infância, desenvolveram uma grande quantidade de antitoxinas. O mesmo ocorre com as picadas dos borrachudos que se encontram em campos e matas. No início, elas provocam um inchaço considerável, mas, à medida que a pessoa se acostuma a ser picada, o inchaço acaba por não mais ocorrer. Falo por experiência própria.
-
-Portanto, os inúmeros fatos supracitados demonstram que, quanto maior a produção de antitoxinas, menor é a reação. Por outro lado, quando o organismo ainda é, por assim dizer, "virgem" em relação à toxina, a reação se manifesta de forma acentuada. Sendo assim, já não resta dúvida de que a interpretação da medicina é o exato oposto da realidade.
-
-A conclusão, portanto, é a seguinte: a reação negativa significa que o indivíduo já foi contaminado pela bactéria e, por possuir antitoxinas, não apresenta inchaço. A reação positiva, por sua vez, indica que o organismo, por ser um "corpo virgem" ainda não contaminado, reage com veemência, produzindo uma grande quantidade de antitoxinas e, consequentemente, provocando o inchaço.
-
----
-
-# A Prodigiosa Cura da Disenteria Infantil
-
-**Categoria:** e | **Ano:** 昭和28(1953)年 | **Fonte:** Igaku Kakumei no Sho
-
-## A Prodigiosa Cura da Disenteria Infantil
-
-A julgar pelos sintomas do paciente [...], trata-se de um caso inequívoco de disenteria infantil. Que a cura completa tenha se dado com tamanha facilidade, no mesmo dia, demonstra a eficácia do Johrei, que não pode ser descrita senão como prodigiosa.
-
-Sob a ótica da medicina, a disenteria infantil é considerada uma das enfermidades mais perigosas. Sua taxa de mortalidade é elevada, razão pela qual, como é de conhecimento geral, os médicos a tratam com extrema cautela.
-
-Contudo, a mãe da criança, mesmo ao ser alertada pelo marido sobre a provável enfermidade, não esboçou a menor perturbação. Tal serenidade revela a profundidade de sua fé na eficácia do Johrei. Por conseguinte, a tranquilidade que sentia era imensa.
-
-Nesse sentido, podemos refletir sobre uma questão crucial: as doenças infantis surgem de forma inesperada, e nem sempre é simples convocar um médico com urgência, sobretudo durante a noite. Acresce que, tratando-se de uma moléstia em que cada minuto é decisivo, a angústia dos pais torna-se, compreensivelmente, avassaladora.
-
-Todavia, quando a cura pode ser alcançada com simplicidade, pelas mãos da própria mãe, a serenidade que se obtém é indescritível. Isto, em sua essência, é a grandiosa bênção concedida unicamente aos seguidores de nossa Fé.
-
----
-
-# O Solo como Manancial de Nutrientes
-
-**Categoria:** tu | **Ano:** 昭和26(1951)年3月28日 | **Fonte:** Eikou
-
-## O Solo como Manancial de Nutrientes
-
-O autor do referido artigo ainda não compreendeu a Agricultura Natural em sua plenitude. E, por considerar que esse modo de ver é bastante comum, farei uma breve advertência. Afirma-se que a elevada colheita inicial de quinze fardos se deveu ao uso abundante de composto, mas a verdade é justamente o contrário. O excesso de adubo orgânico interfere na força vital do solo e, por conseguinte, acaba por prejudicar a safra. Essa perspectiva denota a persistência da superstição em torno dos fertilizantes. Ademais, julgar a qualidade da lavoura pela aparência dos campos ainda verdes é uma atitude precipitada. O veredito deve ser dado com base nos resultados da colheita.
-
-Por fim, quando se fala em “processo de fracasso”, é preciso entender que, na Agricultura Natural, o fracasso é inexistente. Se, porventura, ocorre um revés, este se deve unicamente à purificação das toxinas de adubos anteriormente utilizados. Em essência, basta compreender que o próprio solo é um manancial de nutrientes.
-
-## Considerações sobre a Prática da Agricultura Natural
-
-Gostaria de registrar algumas reflexões que surgiram da minha experiência na difusão da Agricultura Natural.
-
-A tendência humana de analisar as coisas com parcialidade é natural; todavia, essa falha, na qual é fácil incorrer, representa um surpreendente obstáculo à nossa missão. As pessoas de fora costumam comparar nossos resultados mais modestos com seus exemplos mais bem-sucedidos. Isso talvez se origine de um sentimento tradicionalista, uma relutância em aceitar este novo método de cultivo. Por outro lado, nós mesmos, ao apresentar nossos resultados, cometemos o erro da negligência sem nos darmos conta. Nesse sentido, creio ser fundamental que, antes de tudo, reconheçamos as inclinações do pensamento geral. Citemos como exemplo o caso de alguém que anuncia uma colheita de quinze fardos. Ao investigar a fundo, descobre-se que o cultivo foi realizado em uma área ínfima, onde se aplicou composto orgânico à vontade, e o resultado foi então extrapolado para estimar o rendimento de uma área maior. Visto de fora, a reação será: “Qualquer um consegue isso em um espaço tão pequeno. Os registros dos centros de pesquisa são ainda mais expressivos”.
-
-Recentemente, visitei um campo de práticas agrícolas com dezenas de membros. À direita da nossa plantação, havia um campo adubado cujo estado era lastimável, com danos severos. À esquerda, outro campo adubado, porém, com danos bem menos acentuados. A maioria dos presentes, contudo, agrupou-se instintivamente do lado direito, começando a exaltar a Agricultura Natural em comparação com o campo em péssimas condições. Foi quando um dos membros bradou: “Os senhores estão equivocados! De nada adianta comparar com o que está ruim; é com o bom que devemos nos medir!”. Só então todos caíram em si e passaram a fazer a comparação com a lavoura em melhor estado, à esquerda.
-
-Esse tipo de comportamento, embora possa parecer uma reação humana perdoável, gera, na verdade, um efeito contraproducente. Ele acaba por fornecer aos críticos material para nos rechaçar e afastar possíveis interessados, obstruindo, assim, o avanço da difusão. A observação e o relato preciso dos fatos são, portanto, de suma importância.
-
-Outro ponto crucial é a nossa atitude em relação à pesquisa. Tomemos como exemplo o cultivo do arroz. Enfatizamos uma colheita de oito fardos, com qualidade superior à dos campos adubados vizinhos. Contudo, se a nossa pesquisa sobre a cultura de inverno, o trigo, for insuficiente, ouviríamos objeções como: “O arroz pode até vingar sem muito adubo, mas o trigo não crescerá dessa forma. Ele exige um fertilizante especial”. De fato, na cultura de inverno do trigo, a Agricultura Natural exige um período de maturação mais longo em comparação com o método que utiliza adubos. Se esse ponto não for bem compreendido, o resultado pode ser bastante insatisfatório. Isso não apenas gera críticas severas, como também pode levar o próprio praticante a perder o entusiasmo, sufocado pela pressão externa. Tenho observado diversos casos em que as pessoas simplesmente iniciam a prática, propagandeiam um aumento garantido na produção, começam pelo cultivo de inverno e acabam por enfrentar um fracasso retumbante e inesperado.
-
-Neste ponto, é imperativo que meditemos novamente sobre as palavras de Meishu-Sama: “Na Agricultura Natural, o fracasso é absolutamente inexistente. Quando os resultados não são bons, as causas são apenas duas: (1) a prática não está em conformidade com a verdadeira Agricultura Natural (pelo uso de esterco, semeadura tardia, entre outros fatores); ou (2) trata-se de um processo de purificação das toxinas dos adubos”. O segundo ponto é uma etapa natural e inevitável. Já o primeiro ponto nos oferece um vasto campo para estudo. Ocorre que, diante de um resultado aquém do esperado, alguns, por um sentimento equivocado em relação à sua própria fé, ocultam zelosamente esse valioso fracasso em vez de aprender com ele. Tal atitude, ao final, apenas semeia a dúvida sobre o método e não produz benefício algum. Considerando que o próprio Meishu-Sama nos ensina a duvidar ao máximo, a atitude correta do pesquisador pioneiro não seria justamente encarar esses fracassos com olhar lúcido e destemido, a fim de compreender a fundo a Agricultura Natural e, a partir daí, desenvolver métodos adequados a cada tipo de solo e a cada situação?
-
-Da mesma forma, ao recebermos os relatos, percebo que há uma grande demanda não por simples histórias de sucesso, mas sim por narrativas sobre os fracassos, a análise que se seguiu a eles e o processo de superação. É isso que servirá de guia para os praticantes atuais e futuros, poupando-os de esforços inúteis e permitindo uma difusão harmoniosa do método. Conforme orientado em comunicado da Sede Central, reitero o pedido para que os relatórios contenham uma comparação com plantações vizinhas, do mesmo tipo e em terrenos de mesma categoria, e que sejam sempre acompanhados das observações e opiniões do agricultor.
-
----
-
-# A Essência da Dor
-
-**Categoria:** tu | **Ano:** 昭和17(1942)年9月28日 | **Fonte:** Asu no Ijutsu（初版）第二編
-
-## A Essência da Dor
-
-A dor, em sua essência, origina-se de um processo específico. Conforme já elucidei anteriormente, o calor gerado pela Ação Purificadora dissolve as toxinas solidificadas. Uma vez liquefeitas, essas toxinas buscam uma via de eliminação e, ao se movimentarem, estimulam os nervos dos músculos. Esta é a causa fundamental da dor comum.
-
-Os sintomas dolorosos decorrentes desse mecanismo manifestam-se em uma vasta gama de enfermidades, como apendicite, peritonite aguda, nefrite aguda, cefaleias, dores de dente, otite média, reumatismo e as mais diversas nevralgias.
-
-No que tange às dores ósseas, classificadas como periostite, sua causa reside na dissolução, pela purificação, de toxinas solidificadas no periósteo. Ao se deslocarem em direção aos músculos, estas estimulam os nervos. Ademais, existe outro processo: as toxinas solidificadas na parte interna do periósteo, ao serem dissolvidas, buscam uma saída para a superfície, abrindo microperfurações no próprio osso. A quantidade dessas perfurações varia conforme o volume de toxinas e, evidentemente, quanto maior o seu número, mais intensa é a dor. É o que ocorre em casos de cárie das costelas, otite média, dores de dente e em outras afecções conhecidas como osteomielite. Diante dessas inúmeras perfurações, a medicina diagnostica o osso como "apodrecido", o que constitui um equívoco. A razão é simples: uma vez que as toxinas são dissolvidas e eliminadas, o osso se regenera e retorna ao seu estado original de perfeição.
-
-Existem, ainda, dores de natureza especial, como as do panarício nos dedos das mãos, da gangrena nos dedos dos pés e em suas adjacências, e das fístulas anais. Estas, inquestionavelmente, também resultam da eliminação de toxinas solidificadas pela Ação Purificadora, mas a dor é excruciante por se tratar de venenos de altíssima virulência. Nesses casos, não se aguarda a primeira purificação; a primeira e a segunda ocorrem simultaneamente, sendo mais comuns em jovens, cujo poder purificador é vigoroso. A medicina, diante de tais quadros, afirma que o tecido se decompõe e a necrose se alastra para as áreas vizinhas, o que representa outro diagnóstico completamente equivocado.
-
-Com base em minha vasta experiência, posso afirmar que, uma vez que as toxinas se acumulam até um certo ponto, sua concentração cessa. A partir daí, o inchaço atinge seu ápice, ocorre uma perfuração natural, e o pus e o sangue com toxinas são expelidos, resultando na cura completa. Contudo, como a aparência do sintoma de fato se assemelha à decomposição, é provável que a medicina tenha incorrido nesse erro. Em decorrência disso, realizam-se intervenções cirúrgicas de amputação, que acabam por mutilar o indivíduo. Repito e declaro categoricamente, com o respaldo de meus longos anos de experiência: a gangrena e o panarício não são processos de decomposição.
-
-A dor oriunda das cólicas estomacais, por sua vez, possui uma natureza distinta. Como já abordei este tema na seção sobre as doenças do estômago, irei omiti-lo aqui.
-
-Existem também as dores provenientes de queimaduras e ferimentos, mas estas não são doenças e, com o passar do tempo, curam-se naturalmente. Se a dor persistir ou a cicatrização não ocorrer, a causa reside no uso de antissépticos e outros medicamentos. Nesse caso, basta suspender a aplicação de tais substâncias e lavar a área afetada apenas com água limpa para que a cura natural se concretize.
-
-Conforme exposto, o sofrimento originado pelas doenças manifesta-se de inúmeras formas. Todavia, a causa fundamental da maioria delas reside nas toxinas medicamentosas. O tipo de dor e os sintomas variam de acordo com a natureza de cada toxina.
-
-Com base em minha experiência, as toxinas da medicina oriental caracterizam-se por provocar uma dor surda e difusa. Já as da medicina ocidental distinguem-se por causar dores agudas e localizadas, que se manifestam de formas diversas: como um relâmpago, como uma pontada de agulha ou como uma broca perfurando. É digno de nota que as toxinas medicamentosas provenientes de injeções frequentemente se tornam a causa de dores lancinantes.
-
-Além das toxinas medicamentosas, existem também as dores causadas por toxinas urêmicas, que, em geral, são de baixa intensidade. As toxinas congênitas, por outro lado, quase não produzem dor, e esta talvez seja a razão pela qual a medicina as confunde erroneamente com a sífilis congênita.
 
 ---
 
