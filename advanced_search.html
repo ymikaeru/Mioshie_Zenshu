@@ -897,15 +897,23 @@
                     }
                 });
 
-                // Iframe Cleanup: Hide search forms and redundant toggle buttons in modal
+                // Iframe Cleanup: Hide search forms, redundant toggle buttons, and duplicate title
                 dom.modalFrame.onload = () => {
                     try {
                         const doc = dom.modalFrame.contentDocument || dom.modalFrame.contentWindow.document;
                         const style = doc.createElement('style');
                         style.textContent = `
-                           form { display: none !important; }
-                           .lang-toggle-bar { display: none !important; }
-                       `;
+                            form { display: none !important; }
+                            .lang-toggle-bar { display: none !important; }
+                            /* Hide duplicate title since modal header has it */
+                            .translated-content h2:first-child, 
+                            .translated-content h1:first-child,
+                            blockquote > div > h2:first-child,
+                            blockquote > h2:first-child,
+                            blockquote > div > h1:first-child { 
+                                display: none !important; 
+                            }
+                        `;
                         doc.head.appendChild(style);
                     } catch (e) {
                         // Ignore cross-origin errors if any
@@ -1375,6 +1383,10 @@
                 HistoryManager.add(item);
             }
 
+            // Update URL
+            const newUrl = window.location.pathname + '?id=' + item.id;
+            window.history.pushState({ path: newUrl }, '', newUrl);
+
             // Update add button state
             const addBtn = document.getElementById('modalAddBtn');
             if (addBtn && typeof FavoritesManager !== 'undefined') {
@@ -1400,8 +1412,224 @@
 
                 // Populate Sidebar
                 updateModalSidebar(item);
+
+                // Add Copy Button if not exists
+                addCopyButtonToHeader();
+
             } else {
                 alert('Conteúdo indisponível (' + item.id + ')');
+            }
+        }
+
+        function addCopyButtonToHeader() {
+            const header = document.querySelector('.modal-header');
+
+            // Container for buttons
+            if (!document.getElementById('modalActionButtons')) {
+                const container = document.createElement('div');
+                container.id = 'modalActionButtons';
+                container.style.display = 'flex';
+                container.style.alignItems = 'center';
+                container.style.marginRight = '10px';
+
+                // Insert before close button
+                const closeBtn = header.querySelector('.modal-close');
+                header.insertBefore(container, closeBtn);
+
+                // 1. Copy Content Button
+                const btnCopy = document.createElement('button');
+                btnCopy.id = 'btnCopyContent';
+                btnCopy.className = 'btn-add-pub';
+                btnCopy.title = 'Copiar conteúdo';
+                btnCopy.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+                btnCopy.onclick = copyContent;
+                btnCopy.style.marginRight = '5px';
+                container.appendChild(btnCopy);
+
+                // 2. Copy Link Button
+                const btnLink = document.createElement('button');
+                btnLink.id = 'btnCopyLink';
+                btnLink.className = 'btn-add-pub';
+                btnLink.title = 'Copiar Link';
+                btnLink.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>`;
+                btnLink.onclick = copyLink;
+                container.appendChild(btnLink);
+            }
+        }
+
+        async function copyLink() {
+            const tempInput = document.createElement('input');
+            tempInput.value = window.location.href;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                // Feedback
+                const btn = document.getElementById('btnCopyLink');
+                const original = btn.innerHTML;
+                btn.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+                btn.style.color = 'green';
+                btn.style.borderColor = 'green';
+                setTimeout(() => {
+                    btn.innerHTML = original;
+                    btn.style.color = '';
+                    btn.style.borderColor = '';
+                }, 2000);
+            } catch (e) {
+                console.error(e);
+                alert('Erro ao copiar link');
+            } finally {
+                document.body.removeChild(tempInput);
+            }
+        }
+
+        async function copyContent() {
+            const item = window.currentModalItem;
+            if (!item) return;
+
+            const btn = document.getElementById('btnCopyContent');
+            const originalIcon = btn.innerHTML;
+            btn.innerHTML = `<div class="loading-spinner" style="border: 2px solid #ccc; border-top-color:#6b5b95; border-radius:50%; width:12px; height:12px; animation: spin 1s linear infinite;"></div>`;
+
+            let textToCopy = `${item.title}\n[${item.category}]\n\n`;
+
+            try {
+                let doc = null;
+                try {
+                    doc = dom.modalFrame.contentDocument || dom.modalFrame.contentWindow.document;
+                } catch (e) {
+                    console.warn('Cannot access iframe document', e);
+                }
+
+                if (doc) {
+                    // 1. Determine Mode (Trust buttons first)
+                    let mode = 'compare';
+                    const btnPt = doc.getElementById('btn-pt');
+                    const btnJp = doc.getElementById('btn-jp');
+                    const btnCompare = doc.getElementById('btn-compare');
+
+                    if (btnPt && btnPt.classList.contains('active')) mode = 'pt';
+                    else if (btnJp && btnJp.classList.contains('active')) mode = 'jp';
+                    else if (btnCompare && btnCompare.classList.contains('active')) mode = 'compare';
+                    else {
+                        // Fallback: check visibility
+                        const pt = doc.getElementById('pt-content');
+                        const jp = doc.getElementById('jp-content');
+                        // Use simpler check than getComputedStyle which might fail or be slow
+                        const ptDisp = pt && pt.style.display !== 'none';
+                        const jpDisp = jp && jp.style.display !== 'none';
+
+                        if (ptDisp && !jpDisp) mode = 'pt';
+                        else if (!ptDisp && jpDisp) mode = 'jp';
+                    }
+
+                    console.log('Detected Copy Mode:', mode);
+
+                    // 2. Extract Content
+
+                    // --- PORTUGUESE ---
+                    if (mode === 'pt' || mode === 'compare') {
+                        // Priority 1: .translated-content (Best, clean)
+                        // Priority 2: #pt-content (Has junk, needs cleaning)
+                        // Priority 3: body (Desperate)
+
+                        let ptEl = doc.querySelector('.translated-content');
+                        if (!ptEl) ptEl = doc.getElementById('pt-content');
+                        if (!ptEl) ptEl = doc.body;
+
+                        if (ptEl) {
+                            const clone = ptEl.cloneNode(true);
+
+                            // Remove generic junk elements
+                            const trash = clone.querySelectorAll('form, table, .lang-toggle-bar, script, style, center, .google-auto-placed');
+                            trash.forEach(el => el.remove());
+
+                            // Further clean common header text artifacts (common in this site)
+                            let text = clone.innerText;
+                            // Clean specific noisy headers
+                            text = text.replace(/―― 岡田自観師の論文集 ――/g, '')
+                                .replace(/御教え検索.*/g, '')
+                                .replace(/資料検索.*/g, '')
+                                .replace(/help/g, '')
+                                .replace(/検索/g, '')
+                                .trim();
+
+                            // Remove empty lines at start
+                            text = text.replace(/^\s+/g, '');
+
+                            if (text.length > 0) {
+                                textToCopy += `--- Português ---\n${text}\n\n`;
+                            }
+                        }
+                    }
+
+                    // --- JAPANESE ---
+                    if (mode === 'jp' || mode === 'compare') {
+                        const jpEl = doc.getElementById('jp-content');
+                        if (jpEl) {
+                            const clone = jpEl.cloneNode(true);
+                            // Remove junk
+                            const trash = clone.querySelectorAll('script, style, .lang-toggle-bar');
+                            trash.forEach(el => el.remove());
+
+                            let text = clone.innerText;
+                            // Clean headers
+                            text = text.replace(/―― 岡田自観師の論文集 ――.*/g, '')
+                                .replace(/御教え検索.*/g, '')
+                                .replace(/資料検索.*/g, '')
+                                .replace(/help/g, '')
+                                .replace(/検索/g, '')
+                                .trim();
+
+                            if (text.length > 0) {
+                                textToCopy += `--- Original ---\n${text}\n`;
+                            }
+                        }
+                    }
+
+                } else {
+                    // Fallback to JSON (Offline/Cross-origin fail)
+                    let contentFound = false;
+
+                    if (item.part_file) {
+                        if (!contentCache[item.part_file]) {
+                            const res = await fetch(`Data/${item.part_file}`);
+                            contentCache[item.part_file] = await res.json();
+                        }
+                        const fullItem = contentCache[item.part_file].find(i => i.id === item.id);
+
+                        if (fullItem) {
+                            contentFound = true;
+                            if (fullItem.content_ptbr) textToCopy += `--- Português ---\n${fullItem.content_ptbr.replace(/<[^>]*>/g, '')}\n\n`;
+                            else textToCopy += `--- Português ---\n${item.content_snippet || ''}\n\n`;
+
+                            if (fullItem.content) textToCopy += `--- Original ---\n${fullItem.content}\n`;
+                        }
+                    }
+
+                    if (!contentFound) {
+                        textToCopy += `${item.content_snippet || ''}\n\n(Conteúdo completo não carregado)`;
+                    }
+                }
+
+                await navigator.clipboard.writeText(textToCopy);
+
+                // Success feedback
+                btn.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+                btn.style.color = 'green';
+                btn.style.borderColor = 'green';
+
+                setTimeout(() => {
+                    btn.innerHTML = originalIcon;
+                    btn.style.color = '';
+                    btn.style.borderColor = '';
+                }, 2000);
+
+            } catch (e) {
+                console.error('Copy failed', e);
+                alert('Erro ao copiar conteúdo.');
+                btn.innerHTML = originalIcon;
             }
         }
 
