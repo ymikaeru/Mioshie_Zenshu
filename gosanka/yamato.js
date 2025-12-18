@@ -1,4 +1,9 @@
 
+// State
+let globalData = null;
+let allPoemsFlat = [];
+let currentRenderId = 0; // To cancel old renders if filter changes fast
+
 document.addEventListener('DOMContentLoaded', () => {
     initApp();
 });
@@ -6,14 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
 async function initApp() {
     try {
         const response = await fetch('yamato_full.json');
-        const data = await response.json();
-        renderApp(data);
+        globalData = await response.json();
 
-        // Check for deep link after rendering
+        // Preprocess logic
+        preprocessData(globalData);
+
+        // Initial Render
+        renderFilters(globalData);
+        applyFilters(); // Defaults to showing all (original structure)
+
+        // Check for deep link
         const urlParams = new URLSearchParams(window.location.search);
         const poemId = urlParams.get('poem');
         if (poemId) {
-            // Give a slight delay to ensure DOM is ready and lookup is populated
             setTimeout(() => {
                 const targetPoem = window.poemLookup && window.poemLookup['poem_' + poemId];
                 if (targetPoem) {
@@ -23,20 +33,146 @@ async function initApp() {
         }
     } catch (e) {
         console.error("Failed to load yamato_full.json", e);
-        document.getElementById('app').innerHTML = '<p style="color:red; text-align:center;">Erro ao carregar dados. Verifique yamato_full.json</p>';
+        document.getElementById('poems-container').innerHTML = '<p style="color:red; text-align:center;">Erro ao carregar dados. Verifique yamato_full.json</p>';
     }
 }
 
-function renderApp(data) {
-    const app = document.getElementById('app');
+// Mood Mapping Configuration
+const SECTION_MOOD_MAP = {
+    // Contemplativo (Natureza/Cosmos) - Serene, Nature, Cosmos
+    "Lua": "Contemplativo",
+    "Neve": "Contemplativo",
+    "Estrela": "Contemplativo",
+    "Cerejeiras se Dispersam": "Contemplativo",
+    "Outono": "Contemplativo",
 
-    // CRITICAL: Clear the "Carregando..." message
-    app.innerHTML = '';
+    // Crítico (Sociedade/Humanidade) - Critical, Social Commentary
+    "Sociedade e Pensamento": "Crítico",
+    "Ídolos": "Crítico",
+    "O Mundo Agora": "Crítico",
+    "Indignação": "Crítico",
 
-    // Global lookup for poems by ID (for inline onclick fallback)
-    window.poemLookup = window.poemLookup || {};
+    // Melancólico (Solidão/Sadness) - Melancholic
+    "Trem Noturno": "Melancólico",
+    "Pescaria": "Melancólico", // Often solitary/waiting
 
-    // 1. Render Preface immediately
+    // Vibrante (Vida/Movimento) - Vibrant, Movement, Life
+    "Mover-se": "Vibrante",
+    "Círculo": "Vibrante",
+
+    // Reflexivo (Eu/Interior) - Reflective, Self
+    "Sentimentos": "Reflexivo",
+    "Meu Agora": "Reflexivo",
+
+    // Fallback/Mixed
+    "Oh, Japão": "Crítico"
+};
+
+function preprocessData(data) {
+    window.poemLookup = {};
+    allPoemsFlat = [];
+
+    if (!data.sections) return;
+
+    data.sections.forEach(section => {
+        section.poems.forEach(poem => {
+            // Enrich poem object
+            poem.sectionTitle = section.title_pt;
+            poem.detectedSeason = detectSeason(poem.kigo || "");
+
+            // Assign Mood based on Section title mapping
+            poem.mood = SECTION_MOOD_MAP[section.title_pt] || "Outros";
+
+            // Add to lookup
+            const pid = 'poem_' + poem.number;
+            window.poemLookup[pid] = poem;
+
+            // Add to flat list
+            allPoemsFlat.push(poem);
+        });
+    });
+}
+
+function detectSeason(kigoText) {
+    if (!kigoText) return "Outros";
+    const text = kigoText.toLowerCase();
+
+    if (text.includes('primavera') || text.includes('spring')) return 'Primavera';
+    if (text.includes('verão') || text.includes('verao') || text.includes('summer')) return 'Verão';
+    if (text.includes('outono') || text.includes('autumn') || text.includes('fall')) return 'Outono';
+    if (text.includes('inverno') || text.includes('winter')) return 'Inverno';
+    if (text.includes('ano novo') || text.includes('new year')) return 'Ano Novo';
+
+    return "Outros";
+}
+
+function renderFilters(data) {
+    const catSelect = document.getElementById('filter-category');
+    if (!data.sections) return;
+
+    // Populate Categories
+    data.sections.forEach(sec => {
+        const opt = document.createElement('option');
+        opt.value = sec.title_pt;
+        opt.textContent = sec.title_pt;
+        catSelect.appendChild(opt);
+    });
+}
+
+function applyFilters() {
+    const moodFilter = document.getElementById('filter-mood').value;
+    const catFilter = document.getElementById('filter-category').value;
+    const seasonFilter = document.getElementById('filter-season').value;
+    const sortOrder = document.getElementById('sort-order').value;
+
+    const container = document.getElementById('poems-container');
+    container.innerHTML = '';
+
+    // Stop any previous ongoing render
+    currentRenderId++;
+    const thisRenderId = currentRenderId;
+
+    // Filter
+    let filtered = allPoemsFlat.filter(poem => {
+        if (moodFilter && poem.mood !== moodFilter) return false;
+        if (catFilter && poem.sectionTitle !== catFilter) return false;
+        if (seasonFilter && poem.detectedSeason !== seasonFilter) return false;
+        return true;
+    });
+
+    // Sort
+    if (sortOrder === 'az') {
+        filtered.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortOrder === 'za') {
+        filtered.sort((a, b) => b.title.localeCompare(a.title));
+    } else {
+        // Original order (by number)
+        filtered.sort((a, b) => a.number - b.number);
+    }
+
+    // Logic: If ANY filter is active OR sort is not original, render FLAT grid.
+    // If NO filters and Original sort, render SECTIONS (Original View).
+    const isDefaultView = !moodFilter && !catFilter && !seasonFilter && sortOrder === 'original';
+
+    if (isDefaultView) {
+        renderOriginalView(globalData, container, thisRenderId);
+    } else {
+        renderFlatView(filtered, container, thisRenderId);
+    }
+}
+
+function resetFilters() {
+    document.getElementById('filter-mood').value = "";
+    document.getElementById('filter-category').value = "";
+    document.getElementById('filter-season').value = "";
+    document.getElementById('sort-order').value = "original";
+    applyFilters();
+}
+
+// --- Rendering Logic ---
+
+function renderOriginalView(data, container, renderId) {
+    // 1. Render Preface
     if (data.preface) {
         const prefSection = document.createElement('section');
         prefSection.className = 'preface-container';
@@ -44,28 +180,24 @@ function renderApp(data) {
         prefSection.style.background = '#fff';
         prefSection.style.marginBottom = '20px';
         prefSection.style.borderRadius = '8px';
-
         prefSection.innerHTML = `<h2 style="color:#2c7744; border-bottom:1px solid #ddd; padding-bottom:10px;">${data.preface.title_pt}</h2>`;
-
         data.preface.content_pt.forEach(pText => {
             const p = document.createElement('p');
             p.className = 'honbun';
             p.innerHTML = parseMarkdownSimple(pText);
             prefSection.appendChild(p);
         });
-
-        app.appendChild(prefSection);
+        container.appendChild(prefSection);
     }
 
-    // 2. Render Sections with Chunked Loading (Virtualization-lite)
-    // Rendering all items at once blocks the UI. detailed breakdown below.
+    // 2. Render Sections Chunked
     const sections = data.sections || [];
     let sectionIndex = 0;
 
     function renderNextChunk() {
+        if (renderId !== currentRenderId) return; // Cancelled
         if (sectionIndex >= sections.length) return; // Done
 
-        // Render one section per frame/tick
         const sec = sections[sectionIndex];
         const secDiv = document.createElement('div');
         secDiv.className = 'section-container';
@@ -78,48 +210,86 @@ function renderApp(data) {
         const jpTitle = sec.title_jp ? `<span style="font-weight:normal; font-size:0.8em; color:#666; margin-left:10px;">(${sec.title_jp})</span>` : '';
         secDiv.innerHTML = `<h3 style="color:#2c7744; margin-top:0;">📂 ${sec.title_pt} ${jpTitle}</h3>`;
 
-        // Grid for poems
-        const poemsGrid = document.createElement('div');
-        poemsGrid.style.display = 'grid';
-        poemsGrid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(250px, 1fr))';
-        poemsGrid.style.gap = '10px';
-
-        // Render all poems in this section (usually 20-50, which is fast enough for one frame)
+        const poemsGrid = createGrid();
         sec.poems.forEach(poem => {
-            // Store poem in global lookup
-            const poemId = 'poem_' + poem.number;
-            window.poemLookup[poemId] = poem;
-
-            const pCard = document.createElement('div');
-            pCard.className = 'poem-list-item';
-            pCard.id = poemId;
-            pCard.style.padding = '10px';
-            pCard.style.border = '1px solid #eee';
-            pCard.style.borderRadius = '6px';
-            pCard.style.cursor = 'pointer';
-            pCard.style.transition = 'all 0.2s';
-            pCard.style.background = '#fcfdfc';
-
-            pCard.onmouseover = () => { pCard.style.background = '#e6f4ea'; pCard.style.borderColor = '#2c7744'; };
-            pCard.onmouseout = () => { pCard.style.background = '#fcfdfc'; pCard.style.borderColor = '#eee'; };
-
-            // Use setAttribute for onclick as a more reliable fallback
-            pCard.setAttribute('onclick', `window.openModal(window.poemLookup['${poemId}'])`);
-
-            pCard.innerHTML = `<div style="font-weight:bold; color:#2c7744;">${poem.number}.</div><div>${poem.title}</div>`;
-            poemsGrid.appendChild(pCard);
+            poemsGrid.appendChild(createPoemCard(poem));
         });
 
         secDiv.appendChild(poemsGrid);
-        app.appendChild(secDiv);
+        container.appendChild(secDiv);
 
         sectionIndex++;
-        // Schedule next chunk
         requestAnimationFrame(renderNextChunk);
     }
-
-    // Start the chunked rendering
     renderNextChunk();
+}
+
+function renderFlatView(poems, container, renderId) {
+    // Header with count
+    const info = document.createElement('div');
+    info.style.padding = '10px 0';
+    info.style.color = '#666';
+    info.textContent = `Encontrados: ${poems.length} poemas`;
+    container.appendChild(info);
+
+    const grid = createGrid();
+    container.appendChild(grid);
+
+    // Render chunked to avoid freezing if large list
+    let index = 0;
+    const CHUNK_SIZE = 50;
+
+    function renderNextFlatChunk() {
+        if (renderId !== currentRenderId) return;
+        if (index >= poems.length) return;
+
+        const chunk = poems.slice(index, index + CHUNK_SIZE);
+        const fragment = document.createDocumentFragment();
+
+        chunk.forEach(poem => {
+            fragment.appendChild(createPoemCard(poem));
+        });
+
+        grid.appendChild(fragment);
+        index += CHUNK_SIZE;
+        requestAnimationFrame(renderNextFlatChunk);
+    }
+    renderNextFlatChunk();
+}
+
+function createGrid() {
+    const div = document.createElement('div');
+    div.style.display = 'grid';
+    div.style.gridTemplateColumns = 'repeat(auto-fill, minmax(250px, 1fr))';
+    div.style.gap = '10px';
+    return div;
+}
+
+function createPoemCard(poem) {
+    const poemId = 'poem_' + poem.number;
+    const pCard = document.createElement('div');
+    pCard.className = 'poem-list-item';
+    pCard.id = poemId;
+    pCard.style.padding = '10px';
+    pCard.style.border = '1px solid #eee';
+    pCard.style.borderRadius = '6px';
+    pCard.style.cursor = 'pointer';
+    pCard.style.transition = 'all 0.2s';
+    pCard.style.background = '#fcfdfc';
+
+    // Hover effects
+    pCard.onmouseover = () => { pCard.style.background = '#e6f4ea'; pCard.style.borderColor = '#2c7744'; };
+    pCard.onmouseout = () => { pCard.style.background = '#fcfdfc'; pCard.style.borderColor = '#eee'; };
+
+    pCard.setAttribute('onclick', `window.openModal(window.poemLookup['${poemId}'])`);
+
+    // Badge for season if filtered view or just helpful info
+    const seasonBadge = poem.detectedSeason !== 'Outros'
+        ? `<span style="font-size:0.75em; background:#eee; padding:2px 6px; border-radius:10px; color:#555; float:right;">${poem.detectedSeason}</span>`
+        : '';
+
+    pCard.innerHTML = `<div style="font-weight:bold; color:#2c7744;">${poem.number}. ${seasonBadge}</div><div>${poem.title}</div>`;
+    return pCard;
 }
 
 function parseMarkdownSimple(text) {
